@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8450861871528821774=="
+Content-Type: multipart/mixed; boundary="===============1062952008407174327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 23 Nov 2023 05:58:58 -0000
-Message-Id: <170071913871.1855.1523082770260479554@gitolite.kernel.org>
+Date: Thu, 23 Nov 2023 05:59:28 -0000
+Message-Id: <170071916884.2109.815205008439067855@gitolite.kernel.org>
 
---===============8450861871528821774==
+--===============1062952008407174327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: ac3c2707c99f7b98c7b88f7d94eeb5d01651e7b6
-    new: c394212c671414a7668707bfc3f9eafd4c8c2b0b
-    log: revlist-ac3c2707c99f-c394212c6714.txt
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 5b5b5806f22390808b8e8fa180fe35b003a4a74d
+    new: b85ea95d086471afb4ad062012a4d73cd328fa86
+    log: revlist-5b5b5806f223-b85ea95d0864.txt
 
---===============8450861871528821774==
+--===============1062952008407174327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac3c2707c99f-c394212c6714.txt
+Content-Disposition: attachment; filename=revlist-5b5b5806f223-b85ea95d0864.txt
 
+9793c269da6cd339757de6ba5b2c8681b54c99af dm crypt: account large pages in cc->n_allocated_pages
+f2fbb908112311423b09cd0d2b4978f174b99585 net: tcp: remove call to obsolete crypto_ahash_alignmask()
+45b890f7689eb0aba454fc5831d2d79763781677 Merge tag 'kvmarm-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+d1d4c0b7b65b7fab2bc6f97af9e823b1c42ccdb0 drm/amdgpu: check RAS supported first in ras_reset_error_count
+5575ce213241be6c495e1bd10f70cb59d2817db1 drm/amd/pm: Fix warnings
+e020d01575166eaf4133f207bbf71d61774c5e68 drm/amdgpu: Drop deferred error in uncorrectable error check
+a17f574ab4a2d3dcbd9a49e3c1710fb0cbe8a901 drm/amdgpu: remove amdgpu_mes_self_test in gpu recover
+5f38ac54e60562323ea4abb1bfb37d043ee23357 drm/amd/pm: fix the high voltage and temperature issue
+853eebe6ec4f6a277b8c8fb34da268aca6cf720b drm/amdgpu: add unmap latency when gfx11 set kiq resources
 69d56b15a7941680aba8c3175b165221ecdf54b6 cxl/hdm: Fix && vs || bug
 d539b0ad7c7cea6f7ebd8a1f12d2877c15563e73 drm/amdgpu: set XGMI IP version manually for v6_4
 5d09c63f11f083707b60c8ea0bb420651c47740f cxl/hdm: Remove broken error path
@@ -353,10 +362,6 @@ b479d38ba959a8e3ffc4d9f760a9f2e4b9027e66 Merge branch 'bpf-fix-incorrect-immedia
 cd60f410ddc0cd663045d15936155421b6f708fd selftests/bpf: fix test_bpffs
 391145ba2accc48b596f3d438af1a6255b62a555 bpf: Add __bpf_kfunc_{start,end}_defs macros
 15fb6f2b6c4c3c129adc2412ae12ec15e60a6adb bpf: Add __bpf_hook_{start,end} macros
-477348dbfd37d3f4c813ff8e62ec96a6bbbfd06a Merge branch 'cpufreq/arm/qcom-nvmem' into HEAD
-0b9cd949136f1b63f7aa9424b6e583a1ab261e36 cpufreq: qcom-nvmem: add support for IPQ8074
-ba5a61a08d83b18b99c461b4ddb9009947a4aa0e cpufreq: qcom-nvmem: Enable cpufreq for ipq53xx
-5b5b5806f22390808b8e8fa180fe35b003a4a74d cpufreq: qcom-nvmem: Introduce cpufreq for ipq95xx
 fd381ce60a2d79cc967506208085336d3d268ae0 bpf: Check map->usercnt after timer->timer is assigned
 9af3775962afa8b5cd0cc30c1e454405a650c1f3 selftests/bpf: fix test_maps' use of bpf_map_create_opts
 3091b667498b0a212e760e1033e5f9b8c33a948f bpf: Relax allowlist for css_task iter
@@ -1045,10 +1050,5 @@ f032c53bea6d2057c14553832d846be2f151cfb2 tracing/kprobes: Fix the order of argum
 b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
-4c58e9d85c24b5281a2d39a3e6510b5f3b7fc687 opp: ti: Use device_get_match_data()
-c408fe6fa61d1d8237ff9281e99b7fa2d3ac89ac OPP: Level zero is valid
-e8964617d4ec4d8910408cb8873b8e82aac378bf OPP: Use _set_opp_level() for single genpd case
-d8db0be5756ef9c59c5377ceb78f14dd72c3ac2d OPP: Call dev_pm_opp_set_opp() for required OPPs
-c394212c671414a7668707bfc3f9eafd4c8c2b0b OPP: Don't set OPP recursively for a parent genpd
 
---===============8450861871528821774==--
+--===============1062952008407174327==--
