@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 23 Nov 2023 10:35:25 -0000
-Message-Id: <170073572543.20020.6568019160163983474@gitolite.kernel.org>
+Date: Thu, 23 Nov 2023 10:35:38 -0000
+Message-Id: <170073573820.20180.603144522739980885@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: c33fd110424dfcb544cf55a1b312f43fe1918235
-    new: cdba4301adda7c60a2064bf808e48fccd352aaa9
+  - ref: refs/heads/asoc-6.8
+    old: 9996cd782a602f2542e110e2a4035dd6627bd520
+    new: b1cea462a79316bd619173f1ded8b28202b5ce3a
     log: |
-         cdba4301adda7c60a2064bf808e48fccd352aaa9 ASoC: rt5650: add mutex to avoid the jack detection failure
+         b1cea462a79316bd619173f1ded8b28202b5ce3a ASoC: fsl: mpc8610_hpcd: Remove unused driver
          
