@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6349568512172566471=="
+Content-Type: multipart/mixed; boundary="===============2085099031883904943=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 23 Nov 2023 21:06:27 -0000
-Message-Id: <170077358716.2017.4475541546095827244@gitolite.kernel.org>
+Date: Thu, 23 Nov 2023 21:06:34 -0000
+Message-Id: <170077359489.2159.6760290323350658453@gitolite.kernel.org>
 
---===============6349568512172566471==
+--===============2085099031883904943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 750011e239a50873251c16207b0fe78eabf8577e
     new: 45c226dde742a92e22dcd65b96bf7e02620a9c19
     log: revlist-750011e239a5-45c226dde742.txt
 
---===============6349568512172566471==
+--===============2085099031883904943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -372,4 +372,4 @@ fd0413bbf8b11f56e8aa842783b0deda0dfe2926 net: axienet: Fix check for partial TX 
 d3fa86b1a7b4cdc4367acacea16b72e0a200b3d7 Merge tag 'net-6.7-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 45c226dde742a92e22dcd65b96bf7e02620a9c19 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============6349568512172566471==--
+--===============2085099031883904943==--
