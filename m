@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============0675769004629101455=="
+Content-Type: multipart/mixed; boundary="===============1718250839061366093=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 23 Nov 2023 12:24:31 -0000
-Message-Id: <170074227102.16000.2892093780627319696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 23 Nov 2023 12:29:00 -0000
+Message-Id: <170074254079.19216.6307187952656816962@gitolite.kernel.org>
 
---===============0675769004629101455==
+--===============1718250839061366093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: c1881933d6c894429fc1f4cec8fcf0b3285462ef
-    new: 3d4ebad36f55cc1a26250022b172867fe9d82ce7
+  - ref: refs/heads/review-ilpo
+    old: a6584711e64d9d12ab79a450ec3628fd35e4f476
+    new: fb103b90e944ecd664577c0fd37a069282dcd294
     log: |
-         3d4ebad36f55cc1a26250022b172867fe9d82ce7 6.6-stable patches
+         b52cbca22cbf6c9d2700c1e576d0ddcc670e49d5 platform/x86: asus-wmi: Move i8042 filter install to shared asus-wmi code
+         6db829fa2f1295aaad51a3c00f6fc57a27c444bb platform/x86: asus-wmi: Change q500a_i8042_filter() into a generic i8042-filter
+         fb103b90e944ecd664577c0fd37a069282dcd294 platform/x86: asus-wmi: Filter Volume key presses if also reported via atkbd
          
 
---===============0675769004629101455==
+--===============1718250839061366093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1700742269 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1700742268-05e0e22a1e9afd8d0005e3de6166855c3a0bb131
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1700742274 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1700742274-0e33ee1c7ea4c826483513e46dbd06488983bf6b
 
-c1881933d6c894429fc1f4cec8fcf0b3285462ef 3d4ebad36f55cc1a26250022b172867fe9d82ce7 refs/heads/master
+a6584711e64d9d12ab79a450ec3628fd35e4f476 fb103b90e944ecd664577c0fd37a069282dcd294 refs/heads/review-ilpo
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVfRH0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wLMQAMRhiithTq/OiKeVhZ+D
-/koafLNK7DAsSVMzKtVG7ceDI4+GV01JX7wlhJ4f7aastGxE8au6Zghy8RySiV9w
-EAicz9wwQMgl3WhcMZhUxE35JWVHZryQ7dlHZrK9X29txbwHkSg/3mrXxK6nFTFb
-JEn2GzvVH8xEnXCINo14uJxemxAANoQJsVtJgdXWXdGF3ARrQQLOWFm0tSPhwlQa
-d/953lQT6/I2+J3K6TlW9unBmPOfFclUaZ56LwEMnRxqnsvcjqpnNACbsr0KG+iO
-aYxC157GjsvZxFplj7hS/p77iR1ZJh2joeMSEDMOF4Fm01btpiyK5CbYgRrlThMh
-VxqQfOo/zbYUEbSW9vY0TaA56+76UjTeAAjGE705TpEj/jLmvgdVKaxEllEbkGF7
-vCXA3QgHUejDqtH6bcCNwpWZP8KbjD/osYCXedBVNF5s2UlxW9mauYcDYTxJY6eV
-+yVujxcTtbQFWIQZMfEQuvuaDo/ISYqqKuFYhulZ71rq7kyyWE7sSwccdRSeG4/q
-KlqiJ874hH9vrLpsEHERzh1Cg5QLPmJgEKW8FL3TgW26RkoW3mdPeWJfIrn8u0Ca
-opilIrXClkEyibnHvD6fPIqAcHweqpnX2gphuHjzs5TCai87RtGrkduMerfkj69w
-xjTKX9j3GIzuRXyUJRY5vDmt
-=nIvh
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZV9FiAAKCRBZrE9hU+XO
+MRWqAQCSBxz6zCEjmsbKYI7TqC6+ZGK2m8uqcYIxhijhg4A0JAEAqmhY9e6ne+EB
+RPPu3uzjsFRjpfiznMFeOZVIlVS5FgI=
+=ZVbZ
 -----END PGP SIGNATURE-----
 
---===============0675769004629101455==--
+--===============1718250839061366093==--
