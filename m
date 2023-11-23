@@ -1,57 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8206089807106195042=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Thu, 23 Nov 2023 13:29:04 -0000
-Message-Id: <170074614488.30740.16337621469762989421@gitolite.kernel.org>
-
---===============8206089807106195042==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 23 Nov 2023 13:34:49 -0000
+Message-Id: <170074648994.2147.5497103602726346665@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: mpe
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/tags/v6.7-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 03d1179639b1515dce087335c1fb5c962908683b
-  - ref: refs/tags/v6.7-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8488f2d61f9372a5ebd5aa1f02a580d37a7a6b08
-
---===============8206089807106195042==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1700746143 +1100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1700746141-a5dd94c1bfd002b75c2f715340eae06191c137dc
-
-0000000000000000000000000000000000000000 03d1179639b1515dce087335c1fb5c962908683b refs/tags/v6.7-rc1
-0000000000000000000000000000000000000000 8488f2d61f9372a5ebd5aa1f02a580d37a7a6b08 refs/tags/v6.7-rc2
------BEGIN PGP SIGNATURE-----
-
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmVfU58THG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgM2UEACR2Ic5fpuist5cUJwjne7w6P1r4/XT
-VFh9ALZrdciflQGaMNxQBu0HFyZ8m1bpYq/SDSIu+JUvyjxk+ZEHrQDeHXK8S7oQ
-MWECbcMkhg3zSx+8kD876ZQAm0MCZ9HBuiwv5IXz76GEG/I4yJunrRfO58SVkj2S
-Em1/8w0V/71ew7ImUhHJvkR7soNd4Ahk/rSbvM6vpkaXkdjtW221F1VloKKcLyTi
-wxeZUHk8Mu6IfXNFeRcE99uKgaglEBwutItWb1srB5KgibO2zuU08lntdpszZ4Jn
-1bfmfwUdN3gMM7QETFYCPgM13ctU/wt2xtCcqNbZuT2rpWSCQTlEvKl8/K4H2g5d
-sZcVZyIEAhy2aWJpicKbXGT8B95lopi2TGWx3n5/lgmbyQNhljBcQxivkzvA2WRW
-cnFDBEuw221zVXnAMah/KPDmemtTT94MPF0CNjWoxbw+BvhtokzhPMzmY4jSwGNk
-HwF2uT32u0VnrtdwVu7SgxsEfdvsqyErbqLO5e1/+ubcXyOH54qDm7/8qmkgUBwZ
-A/qmrQLphxM6StQ8zNAtAhefg+YdLQkHrO/b0N84Ysn+TrzdzFB3GZla25lIDcYK
-b2eMjLZj4nb9pabqt1G04DAilsd3VZdg2OFSyaaHqGQtceJrg3kMLhJZ8uSEd4q9
-/E0gQSjoFJ3deA==
-=GIg3
------END PGP SIGNATURE-----
-
---===============8206089807106195042==--
+  - ref: refs/heads/vfs.misc
+    old: 488e2eea5100a1b44752538f158ef1ae8158117c
+    new: 56a26a273fe08a935339107acebd8b347e4297c4
+    log: |
+         08569e78965bc7b85d11793cd27ed6cc511f6c31 i915: make inject_virtual_interrupt() void
+         10a522faf72aa7a7145991412f9526152bc6f2b7 eventfd: simplify eventfd_signal()
+         7c59e79baa33cf5055f7c143967b114d3894e8ae eventfd: simplify eventfd_signal_mask()
+         56a26a273fe08a935339107acebd8b347e4297c4 eventfd: make eventfd_signal{_mask}() void
+         
