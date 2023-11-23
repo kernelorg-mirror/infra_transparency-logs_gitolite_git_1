@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 23 Nov 2023 15:09:52 -0000
-Message-Id: <170075219272.5814.2672155061599916115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Thu, 23 Nov 2023 15:16:45 -0000
+Message-Id: <170075260575.11745.1897426398029374999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
-  - ref: refs/heads/perf/core
-    old: bbb968696d0f3442ab823598def3b756cf4735c6
-    new: 388a1fb7da6aaa1970c7e2a7d7fcd983a87a8484
+  - ref: refs/heads/master
+    old: 2368d7f91bf90e6b029429597c47261c66d7cb10
+    new: c4182b48f8d3bff3da4345c21715cc61dbe145b1
     log: |
-         388a1fb7da6aaa1970c7e2a7d7fcd983a87a8484 perf: Fix the nr_addr_filters fix
+         c4182b48f8d3bff3da4345c21715cc61dbe145b1 quectelmodem: silence warning
          
