@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Thu, 23 Nov 2023 17:29:46 -0000
-Message-Id: <170076058686.9626.5141248383943015150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Thu, 23 Nov 2023 17:37:44 -0000
+Message-Id: <170076106442.16836.1133815348868108158@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: e6cc6807f87c74d4e5b1f1e9d21d3a74e75a258b
-    new: 8ad503517b45d1a92ff69f6a4bd1e7c075fa2bc2
-    log: |
-         988279e051e7a51d0b9e54a7366602ba2879d114 Add missing header files for source distribution
-         8ad503517b45d1a92ff69f6a4bd1e7c075fa2bc2 ethtool: Add support for more CMIS transceiver modules
-         
+  - ref: refs/heads/arm64-preemptible-kmode-neon-v2
+    old: 0000000000000000000000000000000000000000
+    new: 0b8208406e0a720afb4efaa404ec6fd368440108
