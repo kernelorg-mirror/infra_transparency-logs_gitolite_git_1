@@ -1,19 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Fri, 24 Nov 2023 14:22:34 -0000
-Message-Id: <170083575453.22953.17587592153664874273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Fri, 24 Nov 2023 14:27:39 -0000
+Message-Id: <170083605971.26434.7370646157223404959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinchartl/linux
-user: pinchartl
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/tags/media-thp7312-next-20231124
-    old: ae745bcff2b340438b9be5612054beb55aba2c3e
-    new: c3223e0bd9c77f85d5dc8f27c19a4ce590701dcc
+  - ref: refs/heads/for-next
+    old: 39d5b46d86e7226eafa32556ddd7abb0382c01b1
+    new: 054b2ccd5f4e21f16e2305d9aa6c2eeb2d2edc29
     log: |
-         d245198b9037ceb2911ba1d712b2fd1732b751e8 media: i2c: Add driver for THine THP7312
+         1868d7c610271decfc44e231dbda3291737ca449 kbuild: deb-pkg: apply short -R and -j options
+         62177a0a0d5b66aad02ad50770276100c3dc663d kconfig: remove error check for xrealloc()
+         03ea20b79cf42797db5057ff2c43c499064682ea kconfig: require a space after '#' for valid input
+         0a9df965c40b47b141700176ba65c8ec2db47db3 kconfig: remove unused code for S_DEF_AUTO in conf_read_simple()
+         fdba3bd9fb9a2608b401b6cd4d55421571bcd586 kconfig: deduplicate code in conf_read_simple()
+         b8ca03b6c9725bc8f07563804d0269c3979d0641 kconfig: introduce getline_stripped() helper
+         2a5bcc454081660838840ee9ec4610f1ec0a93e2 kconfig: require an exact match for "is not set" to disable CONFIG option
+         087b166f98390d3956820a260054c38035066b2e kconfig: massage the loop in conf_read_simple()
+         01d3a6aab18bc76a302bc859ec0177013651256d kbuild: buildtar: Remove unused $dirs
+         054b2ccd5f4e21f16e2305d9aa6c2eeb2d2edc29 kbuild: buildtar: always make modules_install
          
