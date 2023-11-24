@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7617909931109861651=="
+Content-Type: multipart/mixed; boundary="===============7930472967443960890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Fri, 24 Nov 2023 08:19:15 -0000
-Message-Id: <170081395592.3790.333559928068723850@gitolite.kernel.org>
+Date: Fri, 24 Nov 2023 08:19:57 -0000
+Message-Id: <170081399786.4073.16876495611178418617@gitolite.kernel.org>
 
---===============7617909931109861651==
+--===============7930472967443960890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 18de1e517ed37ebaf33e771e46faf052e966e163
     new: aadbd27f9674d7f5457331fe0248b370d5c1f25d
     log: revlist-18de1e517ed3-aadbd27f9674.txt
 
---===============7617909931109861651==
+--===============7930472967443960890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -616,4 +616,4 @@ d3fa86b1a7b4cdc4367acacea16b72e0a200b3d7 Merge tag 'net-6.7-rc3' of git://git.ke
 f061c9f7d058ffc32de66f2efb3e1c368e305423 Documentation: Document each netlink family
 aadbd27f9674d7f5457331fe0248b370d5c1f25d net: phy: correctly check soft_reset ret ONLY if defined for PHY
 
---===============7617909931109861651==--
+--===============7930472967443960890==--
