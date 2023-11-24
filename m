@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 24 Nov 2023 20:10:51 -0000
-Message-Id: <170085665111.27654.7610171788130895589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Fri, 24 Nov 2023 20:15:17 -0000
+Message-Id: <170085691701.30845.4424149910198727235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: tudor.ambarus
 changes:
-  - ref: refs/heads/master
-    old: f93f4f6f73a1c466f7eaa1ed01489d985940e125
-    new: ca253cc064888ec4db8762bb8a33b5499fda55a9
+  - ref: refs/heads/spi-nor/next
+    old: 4137f324cb29a689e8519d8f7f52d3443bac934b
+    new: 9b3eae3486c86304e047829cfe0073b66dc02b36
     log: |
-         ca253cc064888ec4db8762bb8a33b5499fda55a9 Fri Nov 24 08:08:40 PM UTC 2023
+         bb1f9e39c1bf7349405a48d2c77087dff6cea32b docs: mtd: spi-nor: add sections about flash additions and testing
+         9b3eae3486c86304e047829cfe0073b66dc02b36 docs: mtd: spi-nor: drop obsolete info
          
