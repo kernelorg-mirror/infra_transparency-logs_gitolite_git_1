@@ -1,71 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Fri, 24 Nov 2023 09:00:21 -0000
-Message-Id: <170081642178.14906.12911404233253033525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Fri, 24 Nov 2023 09:06:52 -0000
+Message-Id: <170081681207.18847.18065180986295799851@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/main
-    old: 6b2cf68713f8a3264731a06d454ecc10792f1c4b
-    new: dfbb7752b55f122dc5fa55545529032713c49e71
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 390845685a95aa1647b394d7d25ad81a930caa23
+    new: 3a5321f469b07e6124d325d7faaa2f8f1993f67c
     log: |
-         dfbb7752b55f122dc5fa55545529032713c49e71 tests: fail early if PSID reset does not work for device.
+         c7bcaf881b9ff0e404261729c21c36548faa370d dt-bindings: clock: Add Renesas versa3 clock generator bindings
+         80d05f5ddaaa346e478e5588b3cbf3d440199aa5 dt-bindings: clock: versaclock3: Add description for #clock-cells property
+         d94c14f6fa34f2b8b33e5957f5b8dfb5aaf56b1e clk: Move no reparent case into a separate function
+         30bd72c7e8294c37fdbf47f826f8838d35b91066 clk: Introduce clk_hw_determine_rate_no_reparent()
+         5856f1cbc3de779c141cce1c1eddd52528405d02 clk: Add support for versa3 clock driver
+         950cac7a6fbfe68f04e1d13f016f1d9beed9f642 clk: vc3: Fix 64 by 64 division
+         9109969fc2c1d3022d1965d2c18880c7401353c0 clk: vc3: Fix output clock mapping
+         cb8bd69291ea0822385cf244bc09275a01b3fb1a clk: vc3: Make vc3_clk_mux enum values based on vc3_clk enum
+         3a5321f469b07e6124d325d7faaa2f8f1993f67c arm64: dts: renesas: rz-smarc: Use versa3 clk for audio mclk
          
-  - ref: refs/heads/master
-    old: 6b2cf68713f8a3264731a06d454ecc10792f1c4b
-    new: dfbb7752b55f122dc5fa55545529032713c49e71
-    log: |
-         dfbb7752b55f122dc5fa55545529032713c49e71 tests: fail early if PSID reset does not work for device.
-         
-  - ref: refs/heads/revert-tasklet
-    old: 55b1022bb67780155b7594171e21e3448a4c083b
-    new: 698cd79ae44dfd006d56778e2fd705695a0ff4ce
-    log: |
-         d3cc5e846ac9fcd65d45f455df7fa8a049696de5 Do not require init_done for some deive helpers.
-         0f51b5bacbf717dd8fd6aab9e7fb9a0bc056f681 Do not run sector read check on suspended device.
-         6b2cf68713f8a3264731a06d454ecc10792f1c4b Suspend and resume also dm-integrity device with AEAD.
-         dfbb7752b55f122dc5fa55545529032713c49e71 tests: fail early if PSID reset does not work for device.
-         698cd79ae44dfd006d56778e2fd705695a0ff4ce Revert "tests: Temporarily disable veritysetup tasklet option test."
-         
-  - ref: refs/merge-requests/420/merge
-    old: 894353ccad11333fdadd0c91de248c9b4354e65a
-    new: d695863837082aa00e98a8ed586f9f8c4615109a
-    log: |
-         d3cc5e846ac9fcd65d45f455df7fa8a049696de5 Do not require init_done for some deive helpers.
-         0f51b5bacbf717dd8fd6aab9e7fb9a0bc056f681 Do not run sector read check on suspended device.
-         6b2cf68713f8a3264731a06d454ecc10792f1c4b Suspend and resume also dm-integrity device with AEAD.
-         d695863837082aa00e98a8ed586f9f8c4615109a Merge branch 'xchacha20-random' into 'main'
-         
-  - ref: refs/merge-requests/568/head
-    old: 55b1022bb67780155b7594171e21e3448a4c083b
-    new: 698cd79ae44dfd006d56778e2fd705695a0ff4ce
-    log: |
-         d3cc5e846ac9fcd65d45f455df7fa8a049696de5 Do not require init_done for some deive helpers.
-         0f51b5bacbf717dd8fd6aab9e7fb9a0bc056f681 Do not run sector read check on suspended device.
-         6b2cf68713f8a3264731a06d454ecc10792f1c4b Suspend and resume also dm-integrity device with AEAD.
-         dfbb7752b55f122dc5fa55545529032713c49e71 tests: fail early if PSID reset does not work for device.
-         698cd79ae44dfd006d56778e2fd705695a0ff4ce Revert "tests: Temporarily disable veritysetup tasklet option test."
-         
-  - ref: refs/merge-requests/568/merge
-    old: 225d0a96d9f7bfa28d92181631dac623a81f3848
-    new: b8708825fb352afbe87c1f0828b0d472912346ea
-    log: |
-         d3cc5e846ac9fcd65d45f455df7fa8a049696de5 Do not require init_done for some deive helpers.
-         0f51b5bacbf717dd8fd6aab9e7fb9a0bc056f681 Do not run sector read check on suspended device.
-         6b2cf68713f8a3264731a06d454ecc10792f1c4b Suspend and resume also dm-integrity device with AEAD.
-         dfbb7752b55f122dc5fa55545529032713c49e71 tests: fail early if PSID reset does not work for device.
-         698cd79ae44dfd006d56778e2fd705695a0ff4ce Revert "tests: Temporarily disable veritysetup tasklet option test."
-         b8708825fb352afbe87c1f0828b0d472912346ea Merge branch 'revert-tasklet' into 'main'
-         
-  - ref: refs/merge-requests/571/head
-    old: 0000000000000000000000000000000000000000
-    new: dfbb7752b55f122dc5fa55545529032713c49e71
-  - ref: refs/merge-requests/571/merge
-    old: 0000000000000000000000000000000000000000
-    new: fb6ee962de0c79f8e614f3a5445ef336db64bb68
