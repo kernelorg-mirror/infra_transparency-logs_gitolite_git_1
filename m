@@ -1,56 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============9178007226028196771=="
+Content-Type: multipart/mixed; boundary="===============3716815325682132233=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Fri, 24 Nov 2023 07:41:06 -0000
-Message-Id: <170081166631.16264.3436800427607383315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Fri, 24 Nov 2023 07:42:56 -0000
+Message-Id: <170081177624.16961.14231164618108104003@gitolite.kernel.org>
 
---===============9178007226028196771==
+--===============3716815325682132233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
-    old: e4e2fbe7d7d70ce52adeca7ef933488ebfe78f03
-    new: 904140fa45533f6d05071e24492013da16c46b7f
+    old: 505d8d66267f31835c86cdf6cf80b075b6d9bd95
+    new: 64041620130cdf762a340d7a4bb2029e7577fc12
     log: |
-         904140fa45533f6d05071e24492013da16c46b7f dt-bindings: pinctrl: samsung: use Exynos7 fallbacks for newer wake-up controllers
+         2d8f82dd322fbaafc9c1a70d70efb6efe42c973b arm64: dts: exynos850: use Exynos7 fallbacks for pin wake-up controllers
+         7c1156d8a719d5fca39e0e40e4465e4cbd765e89 arm64: dts: exynosautov9: use Exynos7 fallbacks for pin wake-up controller
+         64041620130cdf762a340d7a4bb2029e7577fc12 Merge branch 'next/dt64' into for-next
+         
+  - ref: refs/heads/next/dt64
+    old: daac53df6b56ce232fab41058ed567010b99c4ee
+    new: 7c1156d8a719d5fca39e0e40e4465e4cbd765e89
+    log: |
+         2d8f82dd322fbaafc9c1a70d70efb6efe42c973b arm64: dts: exynos850: use Exynos7 fallbacks for pin wake-up controllers
+         7c1156d8a719d5fca39e0e40e4465e4cbd765e89 arm64: dts: exynosautov9: use Exynos7 fallbacks for pin wake-up controller
          
 
---===============9178007226028196771==
+--===============3716815325682132233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1700811665 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1700811663-b39cbec3c555cf7bf2c7501b6c27a27c6697f045
+pusher krzk@kernel.org 1700811774 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1700811773-53073749281fc872a16182efb83b5bbf082508d2
 
-e4e2fbe7d7d70ce52adeca7ef933488ebfe78f03 904140fa45533f6d05071e24492013da16c46b7f refs/heads/for-next
+505d8d66267f31835c86cdf6cf80b075b6d9bd95 64041620130cdf762a340d7a4bb2029e7577fc12 refs/heads/for-next
+daac53df6b56ce232fab41058ed567010b99c4ee 7c1156d8a719d5fca39e0e40e4465e4cbd765e89 refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVgU5EQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18CrD/9L2BOKDlDEAyML164OnTjnSWkYsKM7yecx
-gvUj7XOc7FAL45Ew20eopisRTBmSleuDauQLya8R2tSVbZn68wepbWIii9LI0pem
-39f49YQmQNICd9QCMamajSvW1EpxZDnHHICYPbhrYRa5t+zlByamhU83rXnhrRKq
-iu6Qc+bOCUiB5oe0ieVn561VjwFYQxoFxbTCYh9JE3+Fr08tvcPD+u2uF98dg4JK
-GFJkMmAUDmC5Cl1TeBBqzKRUoEU37gHnBlypj9fcbjCncpfhSi0CvWE0KQME9PyF
-ciLFyCBYlB3W107BxvQkzvt/rNdLF6X01hcE8j3Iid/MnDdtS8nTyPBKP0DTdiSY
-xaxfmII7D3dDwNzp3/SdUk2G6HU3l6VNllGpmulfeffejR+2EQe3n5hmDkwUOZzJ
-KEMh4aRcj+ZngWIKLDdLE9V4SZjg/uBeH4sKwXrt/HzJ3Z/s/TX/6WsDdolopNQM
-0GTtUVUe/pL09iy3DNp2gn4juadpe8ZP70DfoKhTcuNGPlyEZtHCGueWTQzye734
-TnQ8WBDURTp5HL41zlTzEZO3LQxbn1k0A2qh89OchMRRjVbn8rQagAOUVea5Ebmt
-vZgRm2nPh3G9Oe7MoVGRlfuLgr70bEauN6fp/MRKZp7TiGphj8bVmaTpZYhnfCsV
-L6ZBFUYA3g==
-=+ICC
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVgU/4QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1961D/9nL2qrLCCreMpu3VVXR8NDNYXgTBgVb7H8
+/cYHm8++4tOPginMUWP1G5n5Nf7z4DafOxTFXcMivyo4Q1aEsT15hS1mpnh6c2DM
+qjYF+vp694vGdhL7eWV88+DLNbLLorSJZWQFAH0alzQLBQqtU2E5QBOM+wid+jkR
+2B1Gvhlz0RreSFbBF0DyauZx8pChwUUE8a7tKSZa8gg4djupXMSeimeTwFs0vURg
+RLyT0aQqUpnlFR89tuJHCwZMQAfZdD6IALZ3VZBc+TxG4UJsVkAirbKI2sS9Z+i/
+BLCVvjyfjvm5cXSfRuqnoR3FXGNCnNJ8t2qaGvidcYC29xidH2V6UdQGdaP+xi4A
+KtMNRNrpgtNiJImEmYMHrbtcsr5imBNaPUcKH77/r83oCH69RgUAhceHhM28OECI
+5eWaACuhkt+tVr+7PH0psWJH16iWbMQ8ibsTprZQyqlAf4rb98R3pQQljTNXTLP2
+qvYsx88vEyjtiZfxoKhHCPdv/kn2JEoU3IaygHCTr2fY56KnWKYg8Wsm6Qg3Zy/W
++HP0EyoJES06dVfOVKMLrTDOAOb122lPc50uwLP/af5VD6dvMsjT2+6fWjjt5y/f
+OS6WlOFW3gyYdqPiJk1+2BZVAxyAHiYb7siQcTIKH517JC4ZxNmaBtK3mkMwW4Y6
+LgVt94bdzg==
+=JI6m
 -----END PGP SIGNATURE-----
 
---===============9178007226028196771==--
+--===============3716815325682132233==--
