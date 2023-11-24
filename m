@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 24 Nov 2023 09:39:23 -0000
-Message-Id: <170081876363.11526.5376666980853189299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 24 Nov 2023 09:41:20 -0000
+Message-Id: <170081888036.7684.3816073570381945271@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/vfs.rw
-    old: 284e11658431dda201cb49672ac18a3f183b787f
-    new: f1dd3615b4907840a95dbf2b3adf4d73ba0d96c8
+  - ref: refs/heads/master
+    old: b8d78cb2e24d92352878a9f6525aec002c891528
+    new: e8a339b5235e294f29153149ea7cf26a9a87dbea
     log: |
-         8f20eb7368db3cbe11c02343176c39e95078bf01 fs: move permission hook out of do_iter_write()
-         704ed56aac1509ceceaaf2c6c05f954c1a6c75e1 fs: move permission hook out of do_iter_read()
-         ea188d06a64090fe43b673a7a60a4c80318da9bf fs: move kiocb_start_write() into vfs_iocb_iter_write()
-         0b9f8ec7a4161326d1658eaeaaf0a5a61de91d16 fs: create __sb_write_started() helper
-         fe71a89b05aade096218d0e248d9fedcee248d1d fs: create file_write_started() helper
-         f1dd3615b4907840a95dbf2b3adf4d73ba0d96c8 fs: create {sb,file}_write_not_started() helpers
+         491dd8edecbc5027ee317f3f1e7e9800fb66d88f bpf: Emit global subprog name in verifier logs
+         2afae08c9dcb8ac648414277cec70c2fe6a34d9e bpf: Validate global subprogs lazily
+         e8a339b5235e294f29153149ea7cf26a9a87dbea selftests/bpf: Add lazy global subprog validation tests
          
