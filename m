@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 24 Nov 2023 18:19:49 -0000
-Message-Id: <170084998925.9628.5949321378503071277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 24 Nov 2023 18:24:13 -0000
+Message-Id: <170085025366.12841.13791660551442635930@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/acpi
-    old: 1749224ff1bd29237169917355c690c6855b0790
-    new: e37470624e008579fec020c6be062dd200877129
+  - ref: refs/heads/tmp.perf-tools-next
+    old: acbf6de674ef7b1b5870b25e7b3c695bf84273d0
+    new: 30e643d1e977bc2370b826bfb4903557d27cd7d6
     log: |
-         e37470624e008579fec020c6be062dd200877129 Merge branches 'acpi-video' and 'acpi-processor' into acpi
-         
-  - ref: refs/tags/acpi-6.7-rc3
-    old: ec6383502779047c86dc4440dfe9271ec4a0be13
-    new: 2f56aa5b50943f8e342f70dd0b80513697e3f9b3
-    log: |
-         e37470624e008579fec020c6be062dd200877129 Merge branches 'acpi-video' and 'acpi-processor' into acpi
+         280b4e4a9e8009affd8f20ec2d467cb4deb05c1c perf tools: Address python 3.6 DeprecationWarning for string scapes
+         1b498eaa5ee80a57528aad63dcc4a7eab06df0fb perf test: Remove atomics from test_loop to avoid test failures
+         3622d37dfea294dfe03903aa9b4cb0f38e4c58f2 perf script python: Fail check on dynamic allocation
+         251e80ddc81beaae722601b55f9b706532fdecac perf script perl: Fail check on dynamic allocation
+         b3f0ad07eb19351959e7c60a1308781979465df5 perf test: Basic branch counter support
+         3e19fec59a86dafb3cba8c8a06c8f6626c17afdb perf cs-etm: Bump minimum OpenCSD version to ensure a bugfix is present
+         153d0cb6fc6e09f2413b0982501b85afa0ac45ab perf auxtrace: Add 'T' itrace option for timestamp trace
+         9d40fa6e1d39a1d33028f8c34da370434abfc985 perf cs-etm: Enable itrace option 'T'
+         30e643d1e977bc2370b826bfb4903557d27cd7d6 perf parse-events: Make legacy events lower priority than sysfs/JSON
          
