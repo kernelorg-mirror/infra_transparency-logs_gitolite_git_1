@@ -1,65 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============8193998627891638721=="
+Content-Type: multipart/mixed; boundary="===============2442219554989575706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Fri, 24 Nov 2023 20:22:31 -0000
-Message-Id: <170085735130.2702.6730485261056056159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Fri, 24 Nov 2023 20:26:35 -0000
+Message-Id: <170085759508.5694.15894957320911390159@gitolite.kernel.org>
 
---===============8193998627891638721==
+--===============2442219554989575706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: f1a09972a45ae63efbd1587337c4be13b1893330
-    new: 5b7ad877e4d81f8904ce83982b1ba5c6e83deccb
-    log: revlist-f1a09972a45a-5b7ad877e4d8.txt
+  - ref: refs/heads/main
+    old: 52471877a2e7211603f57c74102e8ba2aa06fe48
+    new: 0cc3f50f42d262d6175ee2834aeb56e98934cfcc
+    log: |
+         ea5f49061d1ddbe7c066c3f28ecb106a479154af MAINTAINERS: update iwlwifi maintainers
+         f52c8fba984c7ca1ee687504862a4f8b3c5ef854 rfkill: return ENOTTY on invalid ioctl
+         d3ca4ab4f16eb81dc3e7721251adcba49b229d54 wifi: ieee80211: fix PV1 frame control field name
+         6285ee30caa1a0fbd9537496578085c143127eee wifi: cfg80211: Extend support for scanning while MLO connected
+         cbde0b49f276c43efca6b5d5193f2d26f51afbfa wifi: mac80211: Extend support for scanning while MLO connected
+         0cc3f50f42d262d6175ee2834aeb56e98934cfcc wifi: nl80211: Documentation update for NL80211_CMD_PORT_AUTHORIZED event
+         
 
---===============8193998627891638721==
+--===============2442219554989575706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f1a09972a45a-5b7ad877e4d8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b3e0f94d15700ac8e8c1c2355834f5d5c753c41d drm/msm/dsi: use the correct VREG_CTRL_1 value for 4nm cphy
-3944e343e54b93d3fef30eacc4738e77fdf5444e drm/msm: remove exra drm_kms_helper_poll_init() call
-a33b2431d11b4df137bbcfdd5a5adfa054c2479e drm/msm/dpu: Add missing safe_lut_tbl in sc8280xp catalog
-ebfa85c504cb34f2fd3257c6f5d54158a0ff1bf6 drm/msm/dp: don't touch DP subconnector property in eDP case
-21133266ca12f82b6e59c9711258cca2097c167c drm/msm/dp: attach the DP subconnector property
-e6bace7313d61e31f2b16fa3d774fd8cb3cb869e afs: Fix afs_server_list to be cleaned up with RCU
-2a4ca1b4b77850544408595e2433f5d7811a9daa afs: Make error on cell lookup failure consistent with OpenAFS
-6965809e526917b73c8f9178173184dcf13cec4b drm/panel: auo,b101uan08.3: Fine tune the panel power sequence
-56466f653cb59a8f46e991ad1e285f43afdca7d4 drm/msm: remove unnecessary NULL check
-8a924db2d7b5eb69ba08b1a0af46e9f1359a9bdf fs: Pass AT_GETATTR_NOSEC flag to getattr interface function
-fe2c34bab6d46469ad3095955dc37e984dc24e38 iov_iter: fix copy_page_to_iter_nofault()
-06fc41b09cfbc02977acd9189473593a37d82d9b drm/panel: simple: Fix Innolux G101ICE-L01 bus flags
-3f9a91b6c00e655d27bd785dcda1742dbdc31bda drm/panel: simple: Fix Innolux G101ICE-L01 timings
-018903e1cec3421a6198589fabd30682eb277904 drm/i915/dp_mst: Fix race between connector registration and setup
-0561794b6b642b84b879bf97061c4b4fa692839e drm/i915: do not clean GT table on error path
-66917f85db6002ed09cd24186258892fcfca64b6 autofs: add: new_inode check in autofs_fill_super()
-762321dab9a72760bf9aec48362f932717c9424d filemap: add a per-mapping stable writes flag
-1898efcdbed32bb1c67269c985a50bab0dbc9493 block: update the stable_writes flag in bdev_add
-c421df0b19430417a04f68919fc3d1943d20ac04 xfs: clean up FS_XFLAG_REALTIME handling in xfs_ioctl_setattr_xflags
-9c04138414c00ae61421f36ada002712c4bac94a xfs: respect the stable writes flag on the RT device
-796432efab1e372d404e7a71cc6891a53f105051 libfs: getdents() should return 0 after reaching EOD
-bb0a05acd6121ff0e810b44fdc24dbdfaa46b642 drm/rockchip: vop: Fix color for RGB888/BGR888 format on VOP full
-3f7c0634926daf48cd2f6db6c1197a1047074088 accel/ivpu/37xx: Fix hangs related to MMIO reset
-8d6ef26501b97243ee6c16b8187c5b38cb69b77d drm/ast: Disconnect BMC if physical connector is connected
-cea7008190ad65b4aaae6e94667a358d2c10a696 drm/panel: boe-tv101wum-nl6: Fine tune Himax83102-j02 panel HFP and HBP
-ab93edb2f94c3c0d5965be3815782472adbe3f52 nouveau/gsp: allocate enough space for all channel ids.
-fca9a80563581468b67017acc0a27a9626822600 Merge tag 'drm-msm-fixes-2023-11-21' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
-8692160904c9b8653b36e508c26be3cd9b79402a Merge tag 'drm-misc-fixes-2023-11-23' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-b3ca8a08d8ed0dc8a9e236d9294efd58554a7b05 Merge tag 'drm-intel-fixes-2023-11-23' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-0167236e7d66c5e1e85d902a6abc2529b7544539 afs: Return ENOENT if no cell DNS record can be found
-b590eb41be766c5a63acc7e8896a042f7a4e8293 afs: Fix file locking on R/O volumes to operate in local mode
-68516f60c1d8b0a71e516d630f66b99cb50e0150 afs: Mark a superblock for an R/O or Backup volume as SB_RDONLY
-afa0f6ee000abd220a8160f0375b5b8d3e4284f2 Merge tag 'drm-fixes-2023-11-24' of git://anongit.freedesktop.org/drm/drm
-fa2b906f5148883e2d0be8952767469c2e3de274 Merge tag 'vfs-6.7-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-5b7ad877e4d81f8904ce83982b1ba5c6e83deccb Merge tag 'afs-fixes-20231124' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+certificate version 0.1
+pusher 7BF9099A 1700857570 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1700857570-621870b8fc68f04acb560574c03ef2bd1c70da1d
 
---===============8193998627891638721==--
+52471877a2e7211603f57c74102e8ba2aa06fe48 0cc3f50f42d262d6175ee2834aeb56e98934cfcc refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmVhBuIACgkQ10qiO8sP
+aAATzQ/8DB03JwU4Br8UwAWpSxDXCQckuHII9W/hO2eLhc8XnOnntyzuYVr1mvRJ
+hbGqRw1KYufx98e8So+nWS560vyHrvAJEuW02+nJQxya3Jp5fTghw2fpZtR+pSl8
+LMmo3LVd7LKuI2NGYFKMGan4u/Z+26DwAfCEEiJrR6qw+UAOHsMg8oAu8RtZk8tF
+hmNDY/AZ4t+mvhESBLR/f/g0BaiN3H0UkKCkc2MGBFxwmn5FMt4iNQvgFgkPYRA7
+wwjnswV1zL7dmf34leKVNqBoSwwXzpxHl2UwGxlqPyKl70fy6IVz/rrQHaSclbP0
+KQFtcEzIe2l2PogV8omzw63PCfHvx+piBowdJI4sQc5cbZu2J6NeE34PBInLyvaG
+G9/rnUEcRkeDl4UVz6V1cEg+uQxsSsxiGDHnNYpoQJmSVnqIVThKu7t0OCtdV1NO
+zLSubY9KaWSpTuUpVGMxiamvU6qr9QcH1CnupH9EDBVCz8cni3QtMozjmwpFGVpG
+ILo9BJneLuUTO2j4WtuxYmUamT0OrZ2PnT7G2o4iLBJEiXtE4PEPeh3CkpkisXrW
+N4E3jdCRT2oCOqpi4VEktF/kF2/svVO8dVk1Qf+3DnDqgYw1HbTaG/yDcf3mgONA
+3vxWYmNSxF2a2ExX5OvN1Rd61wcVb6vlMwcdDMZIbZcXJR1B+As=
+=Ny0i
+-----END PGP SIGNATURE-----
+
+--===============2442219554989575706==--
