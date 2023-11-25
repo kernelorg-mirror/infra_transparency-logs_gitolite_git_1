@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4437704302273234301=="
+Content-Type: multipart/mixed; boundary="===============1366580827917922784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 25 Nov 2023 02:51:27 -0000
-Message-Id: <170088068717.20713.12092349044353762489@gitolite.kernel.org>
+Date: Sat, 25 Nov 2023 02:51:31 -0000
+Message-Id: <170088069157.20835.6525401123670909458@gitolite.kernel.org>
 
---===============4437704302273234301==
+--===============1366580827917922784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 57e582951af21faaabaff029d408859e69b1d459
-    new: 1251ed8f6120e2564aac191f85a4426b159545cc
-    log: revlist-57e582951af2-1251ed8f6120.txt
+  - ref: refs/heads/6.8/scsi-queue
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
+    new: 6a965ee1892a7a44f6d8f4a0b9fb5f775a8b4ccb
+    log: revlist-b85ea95d0864-6a965ee1892a.txt
 
---===============4437704302273234301==
+--===============1366580827917922784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1700880675 -0500
+pusher 75C5DE3D 1700880690 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1700880675-b85d67ceac911f26410aa4c2a4d68478c3ba2b33
+nonce 1700880689-2dbfca0c73bf0821fe3ff542b149b4addcf228b8
 
-57e582951af21faaabaff029d408859e69b1d459 1251ed8f6120e2564aac191f85a4426b159545cc refs/tags/mkp-scsi-queue
+b85ea95d086471afb4ad062012a4d73cd328fa86 6a965ee1892a7a44f6d8f4a0b9fb5f775a8b4ccb refs/heads/6.8/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVhYSMACgkQ7ulgGnXF
-3j007RAAlZvAdc5srGNZhs/h6AmT5uo0IslLkQTzapoqa9NY3yh9aVfQEsE8xPoX
-Uc2Iy0R22OHJUm6MbMNlh6pIivqvPRj9XEQHKsGfupU5RVhNQELlbgWAtv10z1QX
-+Nm2AAR19oOkQovN2f4GLptyirh35ibQ2qqpaAZrTbg2FbUUt6oC6IGeKw4lnMIz
-pQ1KI9vRmp9Xw/MiyoRmWM/la9mIlw+BVXxvaYEMecqBaYX6PoxJc1H5XkSYVudy
-nmZ0ONpzg9ac9+Pj+ZrImgizlnO88//Rybpd1wFtDqevbT02IwWITK/JEaQZ4UZY
-W8hDgZFsx7JYhEHPsHVB7uMzT6PqHJo8vXukg45wSWu+J8mba0xOcjQqSTAoAofg
-wzkzLGEXYA1ylioEAohPnhDp6U2c8HrEbdpOio94KPsMLC6QMrmzx86odINOC0mR
-VookOYZXpdNphczjSIVDehYmZq4JengNuoIWKxbK9jNPP1hC5VQ5assui18xuPEK
-7GVzrEE3qYivHlCOdgCCEO2z3KIUwdLUTngjs9m0ZB70Bl0LmlDwzGbNwNywfVjR
-JZjNPKedfC/LatN9+edJl9YDmtFzWwWjw8YwyQa5GrfiLiCPMZiQO7jt973XuGnE
-EaMZRK7pBgUi9d692+Y6u/HVocZIyx6mgYkVh7p+Bj+9g832udU=
-=+OSV
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVhYTIACgkQ7ulgGnXF
+3j2BsA//XWfDpNKuluuC+Ts33TLZc0hptwihZh5ytDnVEow7hGE3+vFL64b7jdfD
+nzS7LCLbO8rfT5pVkQEcDi2Rmsarzpdkx/ImuK3LmVquHE5VeSllau2RDLUIXLEl
+pxcJy89cqyhO9PzFHnnIK8ilAcLIvv673eo6ruTfx9qNxcv37GSRd5edssDp2YuY
+g2jJtqXTVaughNGqJxnRf8MneBmz9Kj30J6+Z6dFiAmvZrWvK55/7nP7IBKyqUde
+niRF0fzHrWideG8o2JOl2KUJjaHk6OmVLRk/XUUQPbBh3xuuRVjM9yj1lGAypN/S
+tqUA4NejiggTcnHWN8OE+8t6fzRZhJaSdWBF3gSDe3KVjWBwg+tkVZ62/1o9jzD/
+WEkJkw+UGFADpUFiGp91y/0sMlQ96dakKE0+dLc+jJlYX33Vd0b/Ekr4fJXmp0iK
+SExz8916oGnrD8EYjNmaCZZR7EHNCjAlvYcG6x5NeFbYYtczApsxisMKkLFEOzTd
+9bJSIaGOsSm+CmrAId8uAUaaUUmtZjxENl0FqMjrQ2gzDz9Qha1z3az/l0Tn8apX
+siPa9R4eHJt+MBD4b16D895ccX+pxVW3UJdziAbjFaxWH9CVg2C5rGyvAVBzEgTW
+jtgeIxnhynY817A8MxVzMbLTuROZSGvL2IjTzxzOAqHjVVs1zsc=
+=01yO
 -----END PGP SIGNATURE-----
 
---===============4437704302273234301==
+--===============1366580827917922784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57e582951af2-1251ed8f6120.txt
+Content-Disposition: attachment; filename=revlist-b85ea95d0864-6a965ee1892a.txt
 
 aa4db51bbd51654e215905f384eecf22327bafa9 scsi: mpt3sas: Use flexible arrays when obviously possible
 f7830af68eb66d1db193129918036eb98708e6a5 scsi: mpt3sas: Make MPI2_CONFIG_PAGE_IO_UNIT_8::Sensor[] a flexible array
@@ -88,4 +88,4 @@ b098cc463fa662f2bace293e0c6d3f5d9bcc10ab Merge patch series "Replace deprecated 
 4f6dd2a4bf378bc4d169296739ea7d6972c0d858 scsi: ufs: ufs-sysfs: Expose UFS power info
 6a965ee1892a7a44f6d8f4a0b9fb5f775a8b4ccb scsi: mpt3sas: Suppress a warning in debug kernel
 
---===============4437704302273234301==--
+--===============1366580827917922784==--
