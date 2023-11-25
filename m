@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4716005877047635804=="
+Content-Type: multipart/mixed; boundary="===============6045878346826353822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 25 Nov 2023 07:23:49 -0000
-Message-Id: <170089702946.20380.6367292802710094162@gitolite.kernel.org>
+Date: Sat, 25 Nov 2023 07:32:23 -0000
+Message-Id: <170089754320.26568.6155641227226622542@gitolite.kernel.org>
 
---===============4716005877047635804==
+--===============6045878346826353822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,118 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 53d40bb0f146410c58d791da5bd66451513e96ec
+  - ref: refs/heads/tty-next
+    old: 98b1cc82c4affc16f5598d4fa14b1858671b2263
     new: ab58841ab9fca536e5579312d7b46cbc4822e29c
-    log: revlist-53d40bb0f146-ab58841ab9fc.txt
+    log: revlist-98b1cc82c4af-ab58841ab9fc.txt
 
---===============4716005877047635804==
+--===============6045878346826353822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1700897027 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1700897542 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1700897026-6e2b68869424c65141eb23d064c56ffb5f0215cd
+nonce 1700897541-9edceac4e3d1c0706b3ad491c81b2d962a9482b5
 
-53d40bb0f146410c58d791da5bd66451513e96ec ab58841ab9fca536e5579312d7b46cbc4822e29c refs/heads/tty-testing
+98b1cc82c4affc16f5598d4fa14b1858671b2263 ab58841ab9fca536e5579312d7b46cbc4822e29c refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVhoQMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e9sP/i9kD39EDRBKClYflkr+
-jleCsGiyiopP2XjpJpRxT89Gp/JAWybO7LbtYdH32J6ACJWWINHVNZZ0gPQ3p0W3
-wf346v+Do2xVmKjTFARP3GRgiGplag+BaTRXoQGlNiN0r6K5tj8VZwmA/RNJo8N/
-LbZqJUXhOpgKLoVatBGtf/gGOpDVibhQaAInWTZq4aufbkOIBtpCVaMLWGdo021I
-GwK0Bfhs13sSNIEd0adt5+FcUjR1JC92NJUg6ZlvRZDWCAo4OB444lMcyVpFkWcT
-RlB2ShZECVhKfzbRfrgHPg3SCknLeLjfHzeoCTXjdgFoZjD8oOEXnx1AJrKU8eGw
-bHzmvNFLlsipLJSZ7qV+AeV3l4fgMwduX6gFvdIWsFdGolgn+a5YkkhHIhxHwZlK
-ycwoasuTLaidotc2UcTmwE4Z1Gwm04T2VDZTgY/oOBdl0FsSgLt1WLXOHM9tjj5L
-3Qx7uMkHwirm+nomuMVpKFa3sK7sxdQKwD0vuiogFFVv66dGnKOiB4zlFLxV3CiB
-xALctDTVPueHnbHEAV5nVXL9gRNHJdnCMN/V1vOJzCvE51S/ZM2MksX9DsDQwJF9
-Pe4zLmUllxmfcbxyWo6Vcg79hk5zTkw2JirSd55yeG86czjq1jtD/OHOS8Kx1ERT
-aqgBf82oOo7yaAj2Cf8eZhh6
-=tbJM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVhowYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mCYP/1fimXYq/kJKVFaasPI0
+xFz9DHiW2Fuw5+/tC8T9Nljd/HpOtZEqlczNZfFNR79K3XRVb3Nm5gEUw2SVzaKo
+BNTXMZHPOQmjAiu7R9gZYeyBEtS+yU2Nxv6fLJFw2G2156opvwPD2u0yJicxB0lB
+gw0j9JQXkurmsIJFTfy7rNFgvjruLpouYGk04nEzAFhYDkoGjvddrSBw2E4uHytF
+3CUKBEow6G3EBnuJXRvuvqVUi0GGDAf7grot7YHDtJGUgJafGPskno5gQPMSrARj
+RluVhvYG1pQemBX70YI/x1zDRqj9DnOf+0sQI8tax+0nqKb0y+1NKmpt9FMRdOhq
+5kMLin4X4FMvQs9XF5kHGGkb5RppL5CfuljvBc9/MJwZmtAxrBGP5xPAUIxtD1BS
+KIEermzetNjnCOL2Kms7JBJBd4OU/bVt6uoChmphBJKA9tS5ZaWDKiWvZrZmgSre
+BSHJjojaE02EaSdI1rXohKCmNv/0zVg9UeHBfLcScW0dA1sjNuFLtTyWBNAddVw1
+KbDCmXjsnwHQCWgEhdBH9hW9tZGRgliCRwjnuJcipt8HLBkp1lWQ1wddghZ6PUpj
+Udu7bl94eLtf57iz3GPEkX5Tjp/yL0J70Y0ip5zZ4sBVMPr/T0zaViCG9Ci/r69L
+l9zgC53SBDD6kGzDvRjRiyw8
+=+92N
 -----END PGP SIGNATURE-----
 
---===============4716005877047635804==
+--===============6045878346826353822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-53d40bb0f146-ab58841ab9fc.txt
+Content-Disposition: attachment; filename=revlist-98b1cc82c4af-ab58841ab9fc.txt
 
+ad90d0358bd3b4554f243a425168fc7cebe7d04e serial: 8250: omap: Don't skip resource freeing if pm_runtime_resume_and_get() failed
+7635d71e6a4bef6751d85bf3014ed135a83fe352 serial: sccnxp: Improve error message if regulator_disable() fails
+7e1efdf8fce4b09d9d22befaa2c36906eff5dc37 serial: 8250: Convert to platform remove callback returning void
+c1f5edac27fbcaa9c5e4b63d17a2ec39ab648043 serial: altera_jtaguart: Convert to platform remove callback returning void
+b0f698b80bbc2b6f15e69b16dd7ee2d68ec769f5 serial: altera: Convert to platform remove callback returning void
+788f501a817a0eb45fe179c4430420fb1516f550 serial: amba-pl011: Convert to platform remove callback returning void
+d3b84c16fde084ff4fc21f0ee0a66865775bf0fb serial: ar933x: Convert to platform remove callback returning void
+144b47cd555bc70459962547e6b6079e52f6ba9e serial: atmel: Convert to platform remove callback returning void
+69b1a03921a49c9a9ea18f21ab3792e1ac1ed2ee serial: bcm63xx: Convert to platform remove callback returning void
+47cfe5464350b668dec1562a286be132aa1e0aec serial: clps711x: Convert to platform remove callback returning void
+d19993c40ca126889f622e9ec73e329798f41012 serial: cpm: Convert to platform remove callback returning void
+e9b09d9c26fed6a5e1a9a829f749496bffb25f71 serial: digicolor: Convert to platform remove callback returning void
+505cc4b418ac209cf0534eeeb370cf9442c364d7 serial: esp32_acm: Convert to platform remove callback returning void
+de2f50b74db7f4d476df928f8deca4052160bf81 serial: esp32: Convert to platform remove callback returning void
+77533490f4df4e000be3b2fcadbb1b3fdcfa9257 serial: fsl_linflexuart: Convert to platform remove callback returning void
+6b02503f37e86aca945adc2ece51cda03a497757 serial: fsl_lpuart: Convert to platform remove callback returning void
+c066f87314b7fbbf4d72d38957436a98e7b7e503 serial: imx: Convert to platform remove callback returning void
+04300219c8a826a55f73e5dc7634edfe7ab1128b serial: lantiq: Convert to platform remove callback returning void
+2d1c01d4cf26710920c37468ed49d6c41e11944c serial: liteuart: Convert to platform remove callback returning void
+2c1a68b59894f6b18058e0718d58011b28bfa6f1 serial: lpc32xx_hs: Convert to platform remove callback returning void
+cec346ec4649bb9d741a52da1632db4e6fd13947 serial: ma35d1: Convert to platform remove callback returning void
+cd1d7071f5c172205fc3a916347aa60a84a16424 serial: mcf: Convert to platform remove callback returning void
+c4a5b26291710032caf41503ab984431c5e4537b serial: meson: Convert to platform remove callback returning void
+abf11a4b4501a09ea1a24f2c9f04459cc24d3ec4 serial: milbeaut_usio: Convert to platform remove callback returning void
+4cf1dabec96f8a36e1170954b890bb295de89dbe serial: mpc52xx: Convert to platform remove callback returning void
+a63e5a49d596fab1524ec2fc9b0e683c37901bb4 serial: msm: Convert to platform remove callback returning void
+23f6a4d9afc1eddfbe586a6c96b5d9ef87b8138b serial: mxs-auart: Convert to platform remove callback returning void
+065503963113df1c2d64d37da01490c33e89178c serial: omap: Convert to platform remove callback returning void
+8e94fc93762a5999053f35de99306360d9ce5dda serial: owl: Convert to platform remove callback returning void
+915fd7f32d25365a076176af71e9a4787772f2cc serial: pic32: Convert to platform remove callback returning void
+dd4d4497be8ff2a72e4345c3c1b6450cadfa75d6 serial: qcom_geni: Convert to platform remove callback returning void
+b9fd3145c962d4f37e5e321c0f589d2da74109eb serial: rda: Convert to platform remove callback returning void
+1158e40b26d2fc5f7554c795ec0d8e8a42484f7f serial: sa1100: Convert to platform remove callback returning void
+77772addc1f110a3afc36a8883173f746361edb1 serial: samsung: Convert to platform remove callback returning void
+2512ae09b86f93f0278ebcdec766b2b67bbe5686 serial: sccnxp: Convert to platform remove callback returning void
+d388186258436b3feaffa592fc8c8842ab37f09c serial: tegra: Convert to platform remove callback returning void
+f785faa8cdd412b35e9264085f0df4a4fd6cd8f6 serial: txx9: Convert to platform remove callback returning void
+5fc247bf758522258e4cba750e80cc5558ff66e5 serial: sh-sci: Convert to platform remove callback returning void
+0a208f3d58c76445379eb89cc8660d1ff6d7f988 serial: sifive: Convert to platform remove callback returning void
+ef2a86440e7d48e09eeb7f6a48359194603d5bdc serial: sprd: Convert to platform remove callback returning void
+338bc8f964b8b00f1224eebd89f84f59a6fee703 serial: st-asc: Convert to platform remove callback returning void
+2cf562441b51bc0dc2cd179d34b83f79293e0fea serial: stm32: Convert to platform remove callback returning void
+3cfff33ae8788b06dd9d4ae1eaa23fc6f1dfb13b serial: sunhv: Convert to platform remove callback returning void
+3f51b27c9ada772c6888e26586247e6ba1a2c1a1 serial: sunplus: Convert to platform remove callback returning void
+78767116e28c536ecbba46e25a278b13106eb34b serial: sunsab: Convert to platform remove callback returning void
+499dd0b5b0cbc1cb07b111f36d4bd69b5f050255 serial: sunsu: Convert to platform remove callback returning void
+84f74fd3002fb620d46c24694c6d4e320b39ffb2 serial: sunzilog: Convert to platform remove callback returning void
+5e29d46f411d3b799182416c8bd939ffd79b87c8 serial: tegra-tcu: Convert to platform remove callback returning void
+7d8ffee1f41dd74f3484417188da1c439d49d840 serial: timbuart: Convert to platform remove callback returning void
+2a0e8be950b9f945e526c600f9e6f4d265752497 serial: uartlite: Convert to platform remove callback returning void
+0e1ff92834b78cc434cd7099680c57f7aa87aff8 serial: ucc: Convert to platform remove callback returning void
+0ea163e23552f51603f9a412812c753cdef1d94d serial: xilinx_uartps: Convert to platform remove callback returning void
+5592d7e87f239708dc90011d9cf35726657be861 tty: con3215: drop raw3215_info::ubuffer
+5bd8ad372398e64c8a33cb3a0c2a5f823c997ef7 tty: ipwireless: remove unused ipw_dev::attribute_memory
+79b18e51226e5d99c597a0ed8fee3df1dd595c99 tty: jsm: remove unused members from struct board_ops
+e1d64e153aee72097db1174766ed7adec08724ea tty: jsm: remove unused struct jsm_board members
+d0b2b1efbdd29662896591791f1c38477d78d483 tty: rp2: remove unused rp2_uart_port::ignore_rx
+50d371a9c5babf54bbcd267a09a2786b6a44a194 tty: serial_cs: remove unused struct serial_cfg_mem
+dd6ffc9c57f69c2708f7c14dd7da5901b7d24b98 tty: serial: uartlite: Document uartlite_data in kernel-doc style
+9c8c269b4ae9c1b7f00350cec4777d17154049c0 dt-bindings: serial: renesas,sci: Document RZ/Five SoC
+7f30c19caf94b98a1f672376e85a6968d756c25e tty: hvc: Make hvc_remove() return no value
+aa46b225ebbfa7ff96aef431879e8bbc159071e5 tty: hvc: hvc_opal: Convert to platform remove callback returning void
+17fabec94d61c27d7efdc66301f1508dc223e291 serial: sifive: Declare PM operations as static
+55cb57ac75093e9e19d69ae5754a74805a05ca48 serial: sunsab: remove trailing whitespaces
+3837a0379533aabb9e4483677077479f7c6aa910 serial: sc16is7xx: improve regmap debugfs by using one regmap per port
+ec9fc2cffa8d2ff150918baadb07b115c544e8ea serial: atmel: convert not to use dma_request_slave_channel()
+5b05206b05ba98bce4c8f15200b407569fae270e serial: imx: convert not to use dma_request_slave_channel()
+e6cc39486ae74271673742fe86ee6fb8d1eba16c serial: amba-pl011: convert not to use dma_request_slave_channel()
+b49c36e4b2ff4d5c8b8a0495f660707ae7dfdda9 serial: mxs-auart: convert not to use dma_request_slave_channel()
+f1c7f92ee9ec38aa5e6526257a8a9f1fffc52511 serial: sh-sci: convert not to use dma_request_slave_channel()
+abdea7209becf633d96a71ea3b99062ae7012229 dt-bindings: serial: fsl-linflexuart: change the maintainer email address
 727e08b1a56a60ee9b68ae5c7539cbcfe2cfe552 serial: xilinx_uartps: Fix kernel doc about .remove()'s return code
 e651faa2fba4d387aa00b3c02e9c10232852d2ef drivers/tty/vt: use standard array-copy-functions
 0be916a68c8ada0c98d4c14058717175a367ee87 Documentation: devices.txt: Update ttyUL major number allocation details
@@ -80,4 +151,4 @@ e4b3cd3b6a0d79857d561af999451fc958457dee tty: hso: don't emit load/unload info t
 2bf93a48ccaace03e29b87cc92e369cade23d15a tty: nozomi: remove unused debugging DUMP()
 ab58841ab9fca536e5579312d7b46cbc4822e29c tty: srmcons: use 'buf' directly in srmcons_do_write()
 
---===============4716005877047635804==--
+--===============6045878346826353822==--
