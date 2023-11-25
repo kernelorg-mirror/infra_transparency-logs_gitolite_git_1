@@ -1,47 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============4714533321467720852=="
+Content-Type: multipart/mixed; boundary="===============0803324276164919613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sat, 25 Nov 2023 11:31:29 -0000
-Message-Id: <170091188967.18545.2236158253910016695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Sat, 25 Nov 2023 11:36:24 -0000
+Message-Id: <170091218431.21840.17059852632095283235@gitolite.kernel.org>
 
---===============4714533321467720852==
+--===============0803324276164919613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/vfs.rw
-    old: f1dd3615b4907840a95dbf2b3adf4d73ba0d96c8
-    new: 21b32e6a0ab5b174fa1ca2fb4c212577cf405d83
-    log: revlist-f1dd3615b490-21b32e6a0ab5.txt
+  - ref: refs/heads/for-6.8
+    old: 29b0b68f25ae6f9454c3e1c31b054595af0a80fc
+    new: 74fc96e8d4b3a4f3ceb8d14c99f3e0ef70a0c381
+    log: |
+         5980bda0a998a6ee6afd83b97a482a40c1c68076 ASoC: SOF: ipc4-topology: Helper to find an swidget by module/instance id
+         1a307538c9cc274b3191b9a1380bbceece262626 ASoC: SOF: ipc4: Add data struct for module notification message from firmware
+         f5eb9945cf9c17eb016aa64c7de13875f259ea07 ASoC: SOF: ipc4-control: Implement control update for switch/enum controls
+         0ff23d460718641c80c8054425256391dca1ac7d ASoC: SOF: ipc4: Handle ALSA kcontrol change notification from firmware
+         74fc96e8d4b3a4f3ceb8d14c99f3e0ef70a0c381 ASoC: SOF: ipc4: Add support for control change
+         
 
---===============4714533321467720852==
+--===============0803324276164919613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f1dd3615b490-21b32e6a0ab5.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0db1d53937fafa8bb96e077375691e16902f4899 scsi: target: core: add missing file_{start,end}_write()
-ca7ab482401cf0a7497dad05f4918dc64115538b ovl: add permission hooks outside of do_splice_direct()
-2a33e2ddc6ebf9b5468091aded8a38f57de9a580 splice: remove permission hook from do_splice_direct()
-feebea75bdf499aefd11d0df7b02d384a9f92fc1 splice: move permission hook out of splice_direct_to_actor()
-b70d8e2b8ce56c79d9d18d20955e6de1631e9509 splice: move permission hook out of splice_file_to_pipe()
-d53471ba6f7ae97a4e223539029528108b705af1 splice: remove permission hook from iter_file_splice_write()
-dfad37051ade6ac0d404ef4913f3bd01954ee51c remap_range: move permission hooks out of do_clone_file_range()
-0b5263d12aed0437c1bdb7ba0be27437fc12c274 remap_range: move file_start_write() to after permission hook
-2f4d8ad82511a336f8a805e3759c5189a25bb286 btrfs: move file_start_write() to after permission hook
-e389b76a7ee1b62392ab52c22f9ba81f23145824 coda: change locking order in coda_file_write_iter()
-269aed7014b3db9acdbc5a5e163d8a6c62e0e770 fs: move file_start_write() into vfs_iter_write()
-1c8aa833034a00617866ea4738a40491e3e23902 fs: move permission hook out of do_iter_write()
-b8e1425bae856b189e2365ff795e30fdd9e77049 fs: move permission hook out of do_iter_read()
-6ae654392bb516a0baa47fed1f085d84e8cad739 fs: move kiocb_start_write() into vfs_iocb_iter_write()
-8802e580ee643e3f63c6b39ff64e7c7baa4a55ba fs: create __sb_write_started() helper
-3d5cd4911e04683df8f4439fddd788e00a2510a8 fs: create file_write_started() helper
-21b32e6a0ab5b174fa1ca2fb4c212577cf405d83 fs: create {sb,file}_write_not_started() helpers
+certificate version 0.1
+pusher Mark Brown <broonie@kernel.org> 1700912182 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1700912182-2ac67ba55c50551e3b2688ba94bc4c098d03986a
 
---===============4714533321467720852==--
+29b0b68f25ae6f9454c3e1c31b054595af0a80fc 74fc96e8d4b3a4f3ceb8d14c99f3e0ef70a0c381 refs/heads/for-6.8
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVh3DYTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0MXUB/9P//rvCZXb1YD7EtI+SUpwmN9EM/ON
+q9zSqFEEBWTCzVFRUpyuVINz4Rm/eCEgpZ0DWhjdcqQ7cSKEbr3M9aMPvwFDV708
+9lBvoqUSxvlUSVsNemIQu/gJkP3OewIsYjFYwBX603xugF9O7gKRj00F+Dxueh0S
+5yuVg5UA8Z8P0XFH4P9ShOT3FId5Qq5O4Bbkv2sSw73XMSbsUPq3Qw3bSeW69b/1
+4Wls/ZaQ/f+/5AhPFRahDe05p2zc+nGY6jkJnHZ9kS6XouGnlg8mt7EFEyJb5DuP
+RP+gFMNIqX/EIC7PI/QAsMmZQtmg1jQaR2cKnuNsGw52bXPk645Vg1a2
+=Hx0S
+-----END PGP SIGNATURE-----
+
+--===============0803324276164919613==--
