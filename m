@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3336890275879202327=="
+Content-Type: multipart/mixed; boundary="===============1562463855742965973=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 25 Nov 2023 16:25:13 -0000
-Message-Id: <170092951363.2712.662143938454892333@gitolite.kernel.org>
+Date: Sat, 25 Nov 2023 16:31:05 -0000
+Message-Id: <170092986514.6463.13948596753297368409@gitolite.kernel.org>
 
---===============3336890275879202327==
+--===============1562463855742965973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,99 +17,99 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-4.14.y
-    old: eb547332c3008f8bad1659611445552f1adebfa3
-    new: 89c828e3cf3d3a72e48bea85fb29db89917c54c2
-    log: revlist-eb547332c300-89c828e3cf3d.txt
+    old: 89c828e3cf3d3a72e48bea85fb29db89917c54c2
+    new: 166a67907894d372f8091ef0cbd1797ae6a29e91
+    log: revlist-89c828e3cf3d-166a67907894.txt
 
---===============3336890275879202327==
+--===============1562463855742965973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1700929511 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1700929863 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1700929510-6bdf9366c9bc219f6c621ddee0c100fa57f0acdc
+nonce 1700929862-2ada149110028fb06356c8d6b452cf05c96cbbd4
 
-eb547332c3008f8bad1659611445552f1adebfa3 89c828e3cf3d3a72e48bea85fb29db89917c54c2 refs/heads/linux-4.14.y
+89c828e3cf3d3a72e48bea85fb29db89917c54c2 166a67907894d372f8091ef0cbd1797ae6a29e91 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmViH+cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EisP/j6IjOeHSMsh6L7Z8BZ9
-Zg/+geleuecp3IfMmZIMRDIrmxXr4Yo9fW8pXkRAZzdmjNZGrTXHn5wyvWOWxotk
-PtVc2ikVjTDhhbKJk7tChCiDMvBolPC9XqSZ0DO0scLJ4dYulJjL1HkT8pFotuvZ
-gCl1g2p+bOKJ9s0l87QqFPjxzb05tfxOuuXRQkBCJVQ0jixnRt7XiOq8A54DDv7x
-1bTbBelCY5zyMXMgCGxrGehtXvxXw+1iSFMys+d7umA4i8w5yjzHgUl2piCu1hLP
-SzV9YHXqdueORxyq7t0y2eMuiDAFtNHJ4VbUFSSJi1NbgW6JhovY56lZklZ7ZIjl
-UV3stUMkKTdfa7PFYR4S1+KreNSxek5WNEzcn5vCeqnQFgA1yZ1MuusnszSdQ971
-HJELB5HJqzKJU45ELS2nnc8r87H6623QrDb4Gkuqa5ggT8XWC/lHRcmcuB0G7XN0
-oYZLv0u+Tm+5R/SLJewT88bLdylK3eV517PiAlqWQRLGVGOzcfNFCchlRPQ4itx+
-+jb9TuQsRJ3lu/w4n5agGbuCn4jAvUKOqou+WfEGLf0K7bHREuvH5hEfUjRjMhiC
-mbcfzoBkRV/kIbh5fmipjBLAL8nnfXr1cLEBy8OvQ4srF253o4tXDPqzNntKFPxA
-8B/6EPNF1Df0iHKm4x+/BDe6
-=Mwil
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmViIUcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gI8P/iw4drkDYYphyF/9V1+P
+UFRfwoFFvcTSOzQWRJrGrD8ZOQywNEYJMa5r20JqrfqAGR8fBV+ESVY+ncJDBp8a
+emlg5iOACmF8YB7FhiQUC6RRvffIzYi60qu3pNkz5JfsRh/hec27iHFgZfh7tblN
+h36nK/o+cr2gBbJzF1cnBap8osl9uhqH8DfMK167PU3/r8Ts2wukJ6EfOj3tTqc5
+xjG35As6SQsZ1ohYpfT4GIJY6ClIMfzYM5dl/mM6RZ+jybf+aqkspPTklqcdcMq+
+t9lRPGw7XBBtETIdxTnQlONuy9JRuUd7+Gx9K7JHihkalF/OFzLRKnV2ZnISD84A
+3UOEJdhVib9DuswKv5/gv5EKVRXlQLkfl6L3zwjQZprXq+oysgnkL1cmdCrmGRBd
++tVB6TzcK67cE2lYC/qgRk79ojZQH75fVIZKsOT1hfqw3ONISYCDfUuIEVNwf3D1
+j3PG+jRfomKdTYWvBp95jtF2yENLQI5mCfvt9Lv6ODxUx5KXVnzimilSOwuQVSWJ
+GFJCfMgengaSBanHQMWVg+U8yKwGApM/+8OxLbldOlxTmHYwRoSVqmfS+lr1/+mK
+iKvYkSOHrNOTqBP/0uWX0e2gLtz+NjJi6W4VKRPSWWwkWg/opdS/ztEbKTrqnl7H
+c4L3WISNhng6WeKDoYpfeneU
+=VYZf
 -----END PGP SIGNATURE-----
 
---===============3336890275879202327==
+--===============1562463855742965973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb547332c300-89c828e3cf3d.txt
+Content-Disposition: attachment; filename=revlist-89c828e3cf3d-166a67907894.txt
 
-d027a68183235efb181675510d02fbb63663f59c locking/ww_mutex/test: Fix potential workqueue corruption
-ba949da29e3e72787c1c31a86ae3b9ef61ec8bfd clocksource/drivers/timer-imx-gpt: Fix potential memory leak
-781c3cd3f422acce7d1b4c623d55b6886f74d12a clocksource/drivers/timer-atmel-tcb: Fix initialization on SAM9 hardware
-d99aad22f7abcb2caf0afa41fb7168d0abe44058 x86/mm: Drop the 4 MB restriction on minimal NUMA node memory size
-f8a7d5fe20ba00aaa5934ffc01316e82e07c4c2d wifi: mac80211: don't return unset power in ieee80211_get_tx_power()
-84fa6c6ee0ea815692fe4fd50491cccf434bfcfe wifi: ath9k: fix clang-specific fortify warnings
-e89dbf649164f15ea71ce850c7a54dce3bfc75a4 wifi: ath10k: fix clang-specific fortify warning
-5ad9dfd9932783eac898b3535de56292de1d1266 net: annotate data-races around sk->sk_dst_pending_confirm
-27a4e4b5967b864384f53e50a435147420ce7b54 drm/amd: Fix UBSAN array-index-out-of-bounds for SMU7
-ff90d1d386f7e341f9ff0fe94fabcf7999a92cc1 drm/amd: Fix UBSAN array-index-out-of-bounds for Polaris and Tonga
-5e96c2ba56246476324a37940cdff77485424ea5 selftests/efivarfs: create-read: fix a resource leak
-95f9daba047d8dd9c280537f189d7215879b913e crypto: pcrypt - Fix hungtask for PADATA_RESET
-1c8a17b99f2cd91dbf3bcfc84e2ecfa4bbbe6898 RDMA/hfi1: Use FIELD_GET() to extract Link Width
-fefb12aa081fb985354d6509940f9cfd4e1272eb fs/jfs: Add check for negative db_l2nbperpage
-07caf48d4e9cf61245209f5d66e5f48990ead77a fs/jfs: Add validity check for db_maxag and db_agpref
-cc8da28ed060a795c156b9e3e89d560509d543f4 jfs: fix array-index-out-of-bounds in dbFindLeaf
-066e53c54a00debaae1c44e2973621128b0e7137 jfs: fix array-index-out-of-bounds in diAlloc
-5cd953686b33cb7b74e157cb3f2f89c7a9418c04 ALSA: hda: Fix possible null-ptr-deref when assigning a stream
-5e0ba8f949dce2420afcebeea2e947d98b1cac16 atm: iphase: Do PCI error checks on own line
-c6622cc3188980b68a769122806252ce9a24ec5a scsi: libfc: Fix potential NULL pointer dereference in fc_lport_ptp_setup()
-bf52a736547188a3d0521e75d88ab1d44dbd7ef5 tty: vcc: Add check for kstrdup() in vcc_probe()
-363464170ac6364527d129dce611f4fe68a5e70b i2c: sun6i-p2wi: Prevent potential division by zero
-42811e168d5b36a30d4e2512da788de53c4bd7df media: gspca: cpia1: shift-out-of-bounds in set_flicker
-dde13db1ca74952c578918b1ae1e8fb392ab394d media: vivid: avoid integer overflow
-995bda03ae67180d8912fc804beedb2835c407d8 gfs2: ignore negated quota changes
-8785616468b65cfc01d32f40f40f65cfed4859b3 pwm: Fix double shift bug
-30750b46dbda9142d29504d4323b63433da966f9 media: venus: hfi: add checks to perform sanity on queue pointers
-e3637322a499ae3ecaf3ebe05f1a9454319bd62b randstruct: Fix gcc-plugin performance mode to stay in group
-85fef8667172d0fe51f9dd4b87b60aa7d6c5e579 KVM: x86: Ignore MSR_AMD64_TW_CFG access
-59ee0133a5a07cd00f8747036c98d3f7a291e47e audit: don't take task_lock() in audit_exe_compare() code path
-3134215d031c93e7b2f647eaf1d0a75e8e4a0d54 audit: don't WARN_ON_ONCE(!current->mm) in audit_exe_compare()
-4ccaed9a01a0af5f045ead3f4e8e727b5b9208aa hvc/xen: fix error path in xen_hvc_init() to always register frontend driver
-5c467b7ee670c3a7fb45f621db472d681c803632 PCI/sysfs: Protect driver's D3cold preference from user space
-e9a8b99a5c6e4660d5a20ff42dfa64b8979dce65 mmc: vub300: fix an error code
-0936970a31d96d703cb8fb1e75d945feef9a1c42 PM: hibernate: Use __get_safe_page() rather than touching the list
-72e6cc7fce10f115a2aa0a1e6949e7b112f44471 PM: hibernate: Clean up sync_read handling in snapshot_write_next()
-af7e23b7a2d17db885d4d2bcebb5f75eead22e5f mmc: meson-gx: Remove setting of CMD_CFG_ERROR
-1c3dec4eeed9e4ad541808caac84c2058a313058 genirq/generic_chip: Make irq_remove_generic_chip() irqdomain aware
-830a592c1e507f55e563decbe10c20959a3bce8a jbd2: fix potential data lost in recovering journal raced with synchronizing fs bdev
-452bbcc8ca42d97f6bbd2a830d8a5273f7567071 mcb: fix error handling for different scenarios when parsing
-ff02a8e761fd39c19775272513f3b86087aed7b4 parisc: Prevent booting 64-bit kernels on PA1.x machines
-0ea9e5ce9fafb41f83979fc4708def1e71f0ba52 parisc/pgtable: Do not drop upper 5 address bits of physical address
-529a7e6702af2bf48ad27eb814711c81f153c03d ALSA: info: Fix potential deadlock at disconnection
-f8230a4d8672283abcf65a24ba9f50d9376dceec net: dsa: lan9303: consequently nested-lock physical MDIO
-d216e7b17a4357e4ad3503ad97b38d0091edd271 i2c: i801: fix potential race in i801_block_transaction_byte_by_byte
-ff6d46798fa23cae2e06eeca5d3ccd89b6cb6d77 media: sharp: fix sharp encoding
-b85687e6458594b4346cd9e7c5db22473883e3bf media: venus: hfi: fix the check to handle session buffer requirement
-b2167b974007027fa45ba0a8b5b03fc20f0f8eca ext4: apply umask if ACL support is disabled
-b1289a267cac7c9165e5ce6ef489e7ee3fe8cb46 ext4: correct offset of gdb backup in non meta_bg group to update_backups
-7ec178da0ecf46d310fa4cd0ab4e5cbbc4cb1d7b ext4: correct return value of ext4_convert_meta_bg
-406b0a977073d97ca2183803ea3e6453d90f87a4 ext4: remove gdb backup copy for meta bg in setup_new_flex_group_blocks
-bccaaefeeed86ff62338eba0baa941a9a419e9be scsi: virtio_scsi: limit number of hw queues by nr_cpu_ids
-e5f70419bc4d5fbe39f59e44ba5d460d20b68cdb net: sched: fix race condition in qdisc_graft()
-89c828e3cf3d3a72e48bea85fb29db89917c54c2 Linux 4.14.331-rc2
+952bcc39f7734dbb4f9b6a430f7cb71561fa778c locking/ww_mutex/test: Fix potential workqueue corruption
+4b0afda6a8005652f2f4c816a4bf8c7e459d8100 clocksource/drivers/timer-imx-gpt: Fix potential memory leak
+2cb5fdb380ff86f90cbc10f9750b68be9a907590 clocksource/drivers/timer-atmel-tcb: Fix initialization on SAM9 hardware
+8bff862b750ddeb6139e194893cb78fa86fbc682 x86/mm: Drop the 4 MB restriction on minimal NUMA node memory size
+24c86f69397015601f4948e82137612b1effcda2 wifi: mac80211: don't return unset power in ieee80211_get_tx_power()
+1cb7ecdc1d5fcd699c160768f890828ed8afd3d0 wifi: ath9k: fix clang-specific fortify warnings
+8a96272bba1a957c8619ffb58ab4491cc53a2bd4 wifi: ath10k: fix clang-specific fortify warning
+1f2f75be1e19d88a10c73917175d6eb4f4f5f129 net: annotate data-races around sk->sk_dst_pending_confirm
+64f766a85b93d2f91c75b778ee81f3bc0a186697 drm/amd: Fix UBSAN array-index-out-of-bounds for SMU7
+8a2f492ddcd36ff95e9affba8bb95f7b2df7341e drm/amd: Fix UBSAN array-index-out-of-bounds for Polaris and Tonga
+21e31b11076914eb67360b897ffac89d57473238 selftests/efivarfs: create-read: fix a resource leak
+33cb946344aaee086a8921807cea2fe3a04a233b crypto: pcrypt - Fix hungtask for PADATA_RESET
+3feb0f3815758239b5f0c09b85427fca486cc480 RDMA/hfi1: Use FIELD_GET() to extract Link Width
+850ba211b5049511ff8094f2e2c8895736795c61 fs/jfs: Add check for negative db_l2nbperpage
+6d67e5ca9fe62d497e6b3530ef75ae56029c0f0b fs/jfs: Add validity check for db_maxag and db_agpref
+5ff6995f9210c86855937d45ec14a7c008cdccfc jfs: fix array-index-out-of-bounds in dbFindLeaf
+e6fb9e4078326584630a531fa9a8321ad4ab6aea jfs: fix array-index-out-of-bounds in diAlloc
+79f911cb1a253c6996922719b42d12a16ab1181a ALSA: hda: Fix possible null-ptr-deref when assigning a stream
+fb226f003a3e383e65167d746038afca1a66ea6f atm: iphase: Do PCI error checks on own line
+424e51692f84720ddc0240080bbd7b47adffcad6 scsi: libfc: Fix potential NULL pointer dereference in fc_lport_ptp_setup()
+53cd1744e50f23da0b0b065d123c345163364922 tty: vcc: Add check for kstrdup() in vcc_probe()
+773bfe8f098ebba944921da900154e11c0ac8a3c i2c: sun6i-p2wi: Prevent potential division by zero
+227088ea7b51a91b0445c0244553602c84d651a8 media: gspca: cpia1: shift-out-of-bounds in set_flicker
+82ee361c1afe72b453b166b01e5ade29d9bb799e media: vivid: avoid integer overflow
+143c90b7c3e41502fccdb74d1f9efa7fe715b36e gfs2: ignore negated quota changes
+399098e248ff9c1e8c1cb9bd969594c981861bcc pwm: Fix double shift bug
+569f7983bcc9211e623aeb9d57000ff438082514 media: venus: hfi: add checks to perform sanity on queue pointers
+811826de7d18d5537b2600dc74c9a046fe202e07 randstruct: Fix gcc-plugin performance mode to stay in group
+c7b0cbc37ceadc1afa07b55045adf6e98c2b4f3f KVM: x86: Ignore MSR_AMD64_TW_CFG access
+2af82c55179c18fda1f85c7e8163ce0a0501c249 audit: don't take task_lock() in audit_exe_compare() code path
+d46aa8b931821fee036cdb678d939999645b4fd4 audit: don't WARN_ON_ONCE(!current->mm) in audit_exe_compare()
+0cc9b7008004b7c2f2763083c6b26fc55c26e317 hvc/xen: fix error path in xen_hvc_init() to always register frontend driver
+3a2200b0498b840831f14f2adfca0458ae211c82 PCI/sysfs: Protect driver's D3cold preference from user space
+f6d529f728fbccfb1d221de8b5252d1656669837 mmc: vub300: fix an error code
+683a5d51f74809fe1269c907107147ff15d81646 PM: hibernate: Use __get_safe_page() rather than touching the list
+5419d332cb3d39b5552adf30a512d74e2238a769 PM: hibernate: Clean up sync_read handling in snapshot_write_next()
+7426e2e564026ad9fb1b217753d7d3af936e3502 mmc: meson-gx: Remove setting of CMD_CFG_ERROR
+dceabf2281363ee16cfcbf3418edd2f8f98aaf7a genirq/generic_chip: Make irq_remove_generic_chip() irqdomain aware
+48c92ce6c434ad12244c0044a3f9305dc17d6837 jbd2: fix potential data lost in recovering journal raced with synchronizing fs bdev
+bd8d1bb6e0bb0870769079207663c05e8a3da9b2 mcb: fix error handling for different scenarios when parsing
+36d80157c36cb5fec27294074580ec247628c8b4 parisc: Prevent booting 64-bit kernels on PA1.x machines
+630b73fdd1858299e38a0d51483ef45b06ebb891 parisc/pgtable: Do not drop upper 5 address bits of physical address
+b81732fe4e1a0752f17e4f652ad598baa64e4530 ALSA: info: Fix potential deadlock at disconnection
+4dd946ef01a60cf4d7ded49af0f3a0575072a965 net: dsa: lan9303: consequently nested-lock physical MDIO
+ae4f46919c47340d6bc3d33d8d8a9f51b421ec19 i2c: i801: fix potential race in i801_block_transaction_byte_by_byte
+a2b85455d06a3b84a23e4a1d08a48a21d6f71421 media: sharp: fix sharp encoding
+973334249a418b1abbfcffe8936f5de7aa403e48 media: venus: hfi: fix the check to handle session buffer requirement
+7ad4f8bf6b1d0fcbfb4ee14148d06ba3ed97b6ae ext4: apply umask if ACL support is disabled
+e806dfe6fc126557f700824bb85afa3a89666fe0 ext4: correct offset of gdb backup in non meta_bg group to update_backups
+1cd50dd4308fff6780deae346d97da4dd5fb7167 ext4: correct return value of ext4_convert_meta_bg
+6574c1cc2b017d693ce647041a12077ca3a1d5d0 ext4: remove gdb backup copy for meta bg in setup_new_flex_group_blocks
+66e1033d63134159eb5f5fb99e865539fcd39144 scsi: virtio_scsi: limit number of hw queues by nr_cpu_ids
+884c9332b015cf73dcd5431f732b1313ff0fa83a net: sched: fix race condition in qdisc_graft()
+166a67907894d372f8091ef0cbd1797ae6a29e91 Linux 4.14.331-rc2
 
---===============3336890275879202327==--
+--===============1562463855742965973==--
