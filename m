@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7391027261438607706=="
+Content-Type: multipart/mixed; boundary="===============4931722896793900600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 25 Nov 2023 02:52:06 -0000
-Message-Id: <170088072685.21276.610455935722367597@gitolite.kernel.org>
+Date: Sat, 25 Nov 2023 02:52:11 -0000
+Message-Id: <170088073120.21362.17663023865880046679@gitolite.kernel.org>
 
---===============7391027261438607706==
+--===============4931722896793900600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/6.8/scsi-staging
+  - ref: refs/heads/staging
     old: 6a965ee1892a7a44f6d8f4a0b9fb5f775a8b4ccb
     new: 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e
     log: revlist-6a965ee1892a-6bae38ddd3a8.txt
 
---===============7391027261438607706==
+--===============4931722896793900600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1700880715 -0500
+pusher 75C5DE3D 1700880729 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1700880715-860ee9fbdb2fc31151cd0aea79c57908e6a5ceb6
+nonce 1700880729-8207c2f41eb4f4c78aae1639fba43abd159601a0
 
-6a965ee1892a7a44f6d8f4a0b9fb5f775a8b4ccb 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e refs/heads/6.8/scsi-staging
+6a965ee1892a7a44f6d8f4a0b9fb5f775a8b4ccb 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e refs/heads/staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVhYUsACgkQ7ulgGnXF
-3j0S5A/+N8SryD7wWEToGnr9b1B3r+LLxRmB6PaZLVc6OTg0hz3YLIlr7cq9FBLK
-NaWAPXvj1lvWyASkFbkqNEGOG94CYqjA4F6r9g8TiR4DOLOsTHUFXrnFS4QKeOT1
-zHPx7hPtowIBwmt0E5Dr3wbcJ69CKN+HxyP3/a/QIfDNv4NIk9c3AwTk53zcGELS
-dIvoTPFYTDpzVZFTW7VTJXWwMbFOf6LTleP1n96qtogSNjbrP2krKiB84LIPxZ8d
-RwIVlazWGbYeEs8KdVIRrV1UFxWrNQXn5mGq16mXizZKwptpsEf4mQN0GHlAHb+O
-6obrvCVVP0C8kwwapH8MVb2yPb22b+fVKFVyz+tV2NyVxTRIWcdvzIL55gk98tbY
-SBYKwY6C3O9Zge9tYWR3ssxxUlYqUokoZ1A8CTYrgVib2G1I3EZxIT+MjbJFVkVx
-m/rs7+9oFGP1mzLpgLM/u8cK4gSqF8dCNUM0FWaDv3Xd7MwLbWRBhRsiOVK9XxUC
-Gh8pR+iMcztojq+sEPt8oDkokqhWiu8NFC4zEreq6Lw7BAQN2kHt2raMio9aR26o
-/d7K53csoVot8pqnE7Xa3pS+ZdRR7l7om0SKUvHajlSNUIhieah6b/Lnb6ST8JXh
-uiKdYNwP7XHdRNhURbiwRAjShDGKrIUjUstWkLg3frc7KVCupkA=
-=bT0Y
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVhYVkACgkQ7ulgGnXF
+3j2J0Q//du+k+YBr/0ZpahUUbfkh1az4Z+7ufCDLjWx1HH5QeeWksfD2tx0iIXft
+c5e63GIpOKYy4K8QDmuJq/DCl0mmxvx8dWP7M1mcYOgOnL79Sfk1hSsSWzx5dFJy
+UJ0V2JdVhVXLNE78lMzgTX2+/2gtxlR7gsKBbTsWfrxhfcS0nAG26iffKqVnkVnY
+ACJiViMg4grlP2xiCwH2ntu8+D57ohEJLhbYlVkZPI9+QzolsYe859k7uEKcWdeu
+0+Z0KjESi2gHAlua9hyMNZi7is7uC3HPASuivy7GpNgeauoGusjbbV+GdLhlP8oS
+i6GjQhRpk6Zuhaxle/ToS2IkGgGhUStMgKDQ+r427dEcSzGQsRwQK52WAJc35q0h
+w8NtN65iRbgnTACbkco89ZD0QI/KuTcnohRMnzj2Tt4qEvRF/G79BTshbEotH/oO
+oBUhtJRganlldXLTOd3M0i1JVFpYG6WNjaVoI8bczCiGduMM+q3rlXczJgGyFkNS
+YW0Vt6KDfGvCo8QmzUueisKtfqTlJqt1dT1EaWzazY8l3Ob6+XUua2nQLvM35k0T
+Bl99btRCONoQ6MZOZoKdm/HeiI40K6jZt5+1ymmfasOlLJauczYJrPg1CTBQrYHd
+7we18Y/adnycCzQwqZJM35YwdACRsoZXYnZBP8iFxfRLXl6VJUI=
+=Yr3O
 -----END PGP SIGNATURE-----
 
---===============7391027261438607706==
+--===============4931722896793900600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ f38d4eda25e29f4690545200f79bee202cc05626 scsi: dc395x: Fix warning using plain i
 56610811cccd04c94c9d347f271cdff63c9dc19d scsi: arcmsr: Update driver version to v1.51.00.14-20230915
 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e Merge patch series "scsi: arcmsr: support Areca ARC-1688 Raid controller"
 
---===============7391027261438607706==--
+--===============4931722896793900600==--
