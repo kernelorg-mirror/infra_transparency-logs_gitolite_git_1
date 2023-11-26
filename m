@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8813125307618864174=="
+Content-Type: multipart/mixed; boundary="===============8383033863447506615=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 26 Nov 2023 15:26:09 -0000
-Message-Id: <170101236995.30996.14852721437385404581@gitolite.kernel.org>
+Date: Sun, 26 Nov 2023 15:26:26 -0000
+Message-Id: <170101238619.31162.727397336264366426@gitolite.kernel.org>
 
---===============8813125307618864174==
+--===============8383033863447506615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: cb9a830e871779b4f9b8d5f76a2abf24915cd007
+  - ref: refs/heads/main
+    old: 98b1cc82c4affc16f5598d4fa14b1858671b2263
     new: 090472ed9c922e699dc61dd601a9b376a64f4390
-    log: revlist-cb9a830e8717-090472ed9c92.txt
+    log: revlist-98b1cc82c4af-090472ed9c92.txt
 
---===============8813125307618864174==
+--===============8383033863447506615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701012365 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701012385 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1701012363-0e2898f69e563baa1b89a89e62cb4361121a11cb
+nonce 1701012385-1a657f59ff512fbd14aa24eeae37187aaaaac6a0
 
-cb9a830e871779b4f9b8d5f76a2abf24915cd007 090472ed9c922e699dc61dd601a9b376a64f4390 refs/heads/usb-linus
+98b1cc82c4affc16f5598d4fa14b1858671b2263 090472ed9c922e699dc61dd601a9b376a64f4390 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVjY40bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+obAP/0rekZDjZV1Q1Wa2u1d8
-DUndq/4sAxCbPKBA8v4BwFbXSSjbhEXTzSNvP78nvodWS3AdzavYB6WHkIEcvucW
-txTKBJGL/lUCnUj9Wg2BHgT81PZ27c+lgd2YgY0FBYAsktkG21OtHEyp9H5BjE3c
-OCbdYx0XV1kg8A0pTCeI2L452auFmkdNTAt6ZxnHjUjXDaUjpKYiCn6F2SWGUF2P
-Xn4vqdLCO9pAd64W0ZuV0dgkGoTFW/sHYGGq9W0bnSjxrTZ6e7rktYDwr95VlNVP
-74KPUL+YVn4lM4pUxy8qeyNm4/U9emM4W5ATwMKOQn4mnQ3+wQkuM7Ayr8DcuRQQ
-EmophhDXQ0Ati1jiKTfyAdQ669OK8ZvCJOW8Hoc7ZsOXyF6zF7HEe29eIcXtIt8Q
-QQhCyWqG5j2gPoE7ABRdI8Cxmh8/IcFHnAsSj1tppqLaWxdgqkhLJTYLt1MBzqyO
-SQByrwcH5jrwwE9uRZaKT3fh7s0MQGpg/dEOiJY57tfbCKnBUGhy3r7cmux/oGzK
-4kPOdc0gsn2wGbMi+EojA2xYO2G8uw54aXfO+D3uQVOhxmeJfyjzncPJPrbHkrmr
-4MqerFhoKOFG0N/S43jwbYykw4BysVEVOHsv9mF6SSpPqi3BvwxVCluBxYc8E2Zb
-vSSbm7BpU9VP1m+IEsc1S6Or
-=mIlM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVjY6EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4p0QAIW3s77Ck/DdfaWilR+q
+My6GcrFdds1Gowf1nP/hnwBJbDinyKNsRqdFU21Ol2KfXv983HMEgeJ0rEaQWtkB
+MOcbs8/SAewGc0QI2+rGHM9MYQpul3s6IsP3ZUtEljfZPhJbsJzz/ttR38o4WUM8
+ZBgc+oTyowJ2Os+45WI1VKxpjXos1qIMugxMpGk+V2ExEUVdaqtUZF0DFCTuz7Ub
+ABWkKmuklb5/WeZ9OCqbEBMhrWpo8sujvRf8zAJPWkEnbEkLKAzQU5/kTS6Io+S+
+5E7cECsJKA6AQ9Av0Ko5jjpOT1g1UUx11O2KHA6/S+AZdknk0z4z+yebbBEp4gqu
+1+PBsThw72SU92jfV3RBfs3JcWFQt9dkEHEm4mHr7Yw4fHtD5IdTayvUWM+acwoL
+GCMkBW2VXOCFSNit+g9FPMEkx95K3d+HxbxWV9HfrxsbZJulguI0UfhwrP3Kf8+R
+MwiwB8I10VedY/hVP5MCOlYroVXd7ScFC42eBsyKxCYv+SMPT1NxTdmkeS5nHkGk
+mPLsXGN0xFMWQRgFQaKxS8wyoOnJI8xX2WHfPopMBq+P0x+e0mG848E1zmS5x2YL
+y7rcOUG4Lil0x1S7t+XcYWEU6y3Cb61ctrf1sSlWyAL1PzPzjFli/MPnNRLtddQO
+K3xe0gxEcHqbUGZqzErii7EL
+=bYv7
 -----END PGP SIGNATURE-----
 
---===============8813125307618864174==
+--===============8383033863447506615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb9a830e8717-090472ed9c92.txt
+Content-Disposition: attachment; filename=revlist-98b1cc82c4af-090472ed9c92.txt
 
+258ea41c926b7b3a16d0d7aa210a1401c4a1601b Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 3.0 PHY"
+7a784bcdd7e54f0599da3b2360e472238412623e Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 2.0 PHY"
+1a229d8690a0f8951fc4aa8b76a7efab0d8de342 Revert "usb: phy: add usb phy notify port status API"
 c3803203bc5ec910a3eb06172cf6fb368e0e4390 hv/hv_kvp_daemon: Some small fixes for handling NM keyfiles
 7e8037b099c0bbe8f2109dc452dbcab8d400fc53 x86/hyperv: Fix the detection of E820_TYPE_PRAM in a Gen2 VM
 9fadd4509966e375952f31ae954ab5eae76f90fe MAINTAINERS: Remove stale entry for SBL platform driver
@@ -84,6 +87,9 @@ e6bace7313d61e31f2b16fa3d774fd8cb3cb869e afs: Fix afs_server_list to be cleaned 
 bff2a2d453a1b683378b4508b86b84389f551a00 swiotlb-xen: provide the "max_mapping_size" method
 295b202227e98edb2fb5cc29b6ec4b96b2792d9c xen: privcmd: Replace zero-length array with flex-array member and use __counted_by
 c6ea14d557343cd3af6c6be2f5a78c98bdb281bb platform/x86/amd/pmc: adjust getting DRAM size behavior
+24d85bb3be373b5831699bddf698b392bd2b904d thunderbolt: Set lane bonding bit only for downstream port
+5391bcfa56c79a891734e4d22aa0ca3217b86491 thunderbolt: Send uevent after asymmetric/symmetric switch
+480713b1ba8eac4617936f8404da34bda991c30e thunderbolt: Only add device router DP IN to the head of the DP resource list
 914fa861e3d7803c9bbafc229652c2a69edb8b60 erofs: simplify erofs_read_inode()
 8bd90b6ae7856dd5000b75691d905b39b9ea5d6b erofs: fix NULL dereference of dif->bdev_handle in fscache mode
 62b241efff99fc4d88a86f1c67c7516e31f432a3 MAINTAINERS: erofs: add EROFS webpage
@@ -173,6 +179,7 @@ ee2daf7102f42007b7bf5dbd1ae76478ee62c512 LoongArch: Add __percpu annotation for 
 d43f37b73468c172bc89ac4824a1511b411f0778 LoongArch: Implement constant timer shutdown interface
 10301780c96e70b694eca86a3ccfa1893a4a6d3e Docs/LoongArch: Update links in LoongArch introduction.rst
 c517fd2738f472eb0d1db60a70d91629349a9bf8 Docs/zh_CN/LoongArch: Update links in LoongArch introduction.rst
+849d3f985e73196a24273f810a134b3ebed1efad Merge tag 'thunderbolt-for-v6.7-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 8d9ce3e53bbd2d6241213e9a4deb310499c929ff MAINTAINERS: Drop Mark Gross as maintainer for x86 platform drivers
 a6584711e64d9d12ab79a450ec3628fd35e4f476 platform/x86: intel_telemetry: Fix kernel doc descriptions
 3f7c0634926daf48cd2f6db6c1197a1047074088 accel/ivpu/37xx: Fix hangs related to MMIO reset
@@ -188,8 +195,24 @@ d30fb712e52964f2cf9a9c14cf67078394044837 hv_netvsc: fix race of netvsc and VF re
 85520856466ed6bc3b1ccb013cddac70ceb437db hv_netvsc: Fix race of register_netdevice_notifier and VF register
 c807d6cd089d2f4951baa838081ec5ae3e2360f8 hv_netvsc: Mark VF as slave before exposing it to user-mode
 54d4434da824460a190d547404530eff12a7907d Merge branch 'hv_netvsc-fix-race-of-netvsc-vf-register-and-slave-bit'
+8771127e25d6c20d458ad27cf32f7fcfc1755e05 USB: serial: option: don't claim interface 4 for ZTE MF290
+a1092619dd28ac0fcf23016160a2fdccd98ef935 USB: serial: option: fix FM101R-GL defines
 5b4ffb176d7979ac66b349addf3f7de433335e00 Revert "HID: logitech-dj: Add support for a new lightspeed receiver iteration"
 9c6dc13106f2dd2d6819d66618b25a6f41f0ee6a MAINTAINERS: Add indirect_call_wrapper.h to NETWORKING [GENERAL]
+41058707bea93b979c4854bdb857e46f2b85df92 dt-bindings: usb: hcd: add missing phy name to example
+a6fe37f428c19dd164c2111157d4a1029bd853aa usb: typec: tcpm: Skip hard reset when in error recovery
+cdd0cde8d8837de3d234bb08115d5f196e0ac8dd USB: typec: tps6598x: Fix a memory leak in an error handling path
+10d510abd096d620b9fda2dd3e0047c5efc4ad2b usb: dwc3: Fix default mode initialization
+187fb003c57c964ea61ac9fbfe41abf3ca9973eb usb: typec: tcpm: Fix sink caps op current check
+58f2fcb3a845fcbbad2f3196bb37d744e0506250 usb: cdnsp: Fix deadlock issue during using NCM gadget
+30ce1c03a083c9dc131d09d28ba1bcaafa3d8df2 usb: misc: ljca: Drop _ADR support to get ljca children devices
+0583bc776ca5b5a3f5752869fc31cf7322df2b35 USB: dwc2: write HCINT with INTMASK applied
+791cd7afe51b0c770264836ab0607766e3e80f52 usb: dwc3: add missing of_node_put and platform_device_put
+974bba5c118f4c2baf00de0356e3e4f7928b4cbc usb: config: fix iteration issue in 'usb_get_bos_descriptor()'
+8bbae288a85abed6a1cf7d185d8b9dc2f5dcb12c usb: dwc3: set the dma max_seg_size
+61d2cf0db741827724d33079b4a54bf99a32b8e5 usb: xhci-mtk: fix in-ep's start-split check failure
+4b435764f7c2922822962e7f6343cce645d502f1 usb: typec: tipd: Supply also I2C driver data
+16b7e0cccb243033de4406ffb4d892365041a1e7 USB: xhci-plat: fix legacy PHY double init
 98c598afc22d4e43c2ad91860b65996d0c099a5d nbd: pass nbd_sock to nbd_read_reply() instead of index
 cea7008190ad65b4aaae6e94667a358d2c10a696 drm/panel: boe-tv101wum-nl6: Fine tune Himax83102-j02 panel HFP and HBP
 6b65522316489ff0b2be65d00fbcecbc781017c9 Merge tag 'erofs-for-6.7-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
@@ -200,12 +223,22 @@ ab93edb2f94c3c0d5965be3815782472adbe3f52 nouveau/gsp: allocate enough space for 
 b2d66643dcf2c395207f9373c624e0ab32166e57 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 b6fe6f03716da246b453369f98a553d4ab21447c dpll: Fix potential msg memleak when genlmsg_put_reply failed
 18286883e779fb79b413a7462968ee3f6768f19c x86/hyperv: Use atomic_try_cmpxchg() to micro-optimize hv_nmi_unknown()
+e389fe8b68137344562fb6e4d53d8a89ef6212dd USB: serial: option: add Fibocom L7xx modules
 06ae5afce8cc1f7621cc5c7751e449ce20d68af7 HID: hid-asus: add const to read-only outgoing usb buffer
 546edbd26cff7ae990e480a59150e801a06f77b1 HID: hid-asus: reset the backlight brightness level on resume
 9ffccb691adb854e7b7f3ee57fbbda12ff70533f HID: multitouch: Add quirk for HONOR GLO-GXXX touchpad
 84d2db91f14a32dc856a5972e3f0907089093c7a nfc: virtual_ncidev: Add variable to check if ndev is running
 e6d71b437abc2f249e3b6a1ae1a7228e09c6e563 net/smc: avoid data corruption caused by decline
+372ee6a3368ec6ff46ee4e6ff4ffe2fe1e059dbb usb: misc: ljca: Fix enumeration error on Dell Latitude 9420
 6a26310273c323380da21eb23fcfd50e31140913 Revert "net: r8169: Disable multicast filter for RTL8168H and RTL8107E"
+d0c930b745cafde8e7d25d0356c648bca669556a dt-bindings: usb: microchip,usb5744: Add second supply
+6972b38ca05235f6142715db7062ecc87a422e22 usb: misc: onboard-hub: add support for Microchip USB5744
+0c2671f33a9c975d752216739d6a05cb88e98aa4 dt-bindings: usb: qcom,dwc3: fix example wakeup interrupt types
+41f5a0973259db9e4e3c9963d36505f80107d1a0 USB: dwc3: qcom: fix wakeup after probe deferral
+aee70a1d711327dae409671035a0368c1dc4a2ea USB: dwc3: qcom: simplify wakeup interrupt setup
+51392a1879ff06dc21b68aef4825f6ef68a7be42 USB: dwc3: qcom: fix resource leaks on probe deferral
+9feefbf57d92e8ee293dad67585d351c7d0b6e37 USB: dwc3: qcom: fix software node leak on probe errors
+9cf87666fc6e08572341fe08ecd909935998fbbd USB: dwc3: qcom: fix ACPI platform device leak
 4711b7b8f99583f6105a33e91f106125134beacb s390/pai: cleanup event initialization
 673752a839694133a328610fcbc54f3d59ae87f3 s390/ipl: add missing IPL_TYPE_ECKD_DUMP case to ipl_init()
 0a9ace1117bbaa25687468af703b472235f5c210 s390: remove odd comment
@@ -241,6 +274,7 @@ fd0413bbf8b11f56e8aa842783b0deda0dfe2926 net: axienet: Fix check for partial TX 
 37f0205538baf70beb57cdcb6c7d14aa13257926 net: ipa: fix one GSI register field width
 2be35a619482c1f4e5bc7a2d84049b8d7d171882 tools: ynl: fix header path for nfsd
 39f04b1406b23fcc129a67e70d6205d5a7322f38 tools: ynl: fix duplicate op name in devlink
+da90e45d5afc4da2de7cd3ea7943d0f1baa47cc2 USB: serial: option: add Luat Air72*U series products
 d3fa86b1a7b4cdc4367acacea16b72e0a200b3d7 Merge tag 'net-6.7-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 c0a8574204054effad6ac83cc75c02576e2985fe arm64: add dependency between vmlinuz.efi and Image
 fca9a80563581468b67017acc0a27a9626822600 Merge tag 'drm-msm-fixes-2023-11-21' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
@@ -253,6 +287,7 @@ f1a09972a45ae63efbd1587337c4be13b1893330 Merge tag 'ata-6.7-rc3' of git://git.ke
 0167236e7d66c5e1e85d902a6abc2529b7544539 afs: Return ENOENT if no cell DNS record can be found
 b590eb41be766c5a63acc7e8896a042f7a4e8293 afs: Fix file locking on R/O volumes to operate in local mode
 68516f60c1d8b0a71e516d630f66b99cb50e0150 afs: Mark a superblock for an R/O or Backup volume as SB_RDONLY
+cb9a830e871779b4f9b8d5f76a2abf24915cd007 Merge tag 'usb-serial-6.7-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 afa0f6ee000abd220a8160f0375b5b8d3e4284f2 Merge tag 'drm-fixes-2023-11-24' of git://anongit.freedesktop.org/drm/drm
 fa2b906f5148883e2d0be8952767469c2e3de274 Merge tag 'vfs-6.7-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 e37470624e008579fec020c6be062dd200877129 Merge branches 'acpi-video' and 'acpi-processor' into acpi
@@ -265,4 +300,4 @@ b345fd55a2b79d6aa92042b19be802425fc353cb Merge tag 'pm-6.7-rc3' of git://git.ker
 b46ae77f67874918c540feb1e37a63308b2c9290 Merge tag 'xfs-6.7-fixes-3' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 090472ed9c922e699dc61dd601a9b376a64f4390 Merge tag 'usb-6.7-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 
---===============8813125307618864174==--
+--===============8383033863447506615==--
