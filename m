@@ -1,54 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============8739176178775958755=="
+Content-Type: multipart/mixed; boundary="===============0364654459282380609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 26 Nov 2023 09:24:00 -0000
-Message-Id: <170099064046.16567.7341221007168900118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Sun, 26 Nov 2023 09:32:48 -0000
+Message-Id: <170099116833.22798.5640325217046502882@gitolite.kernel.org>
 
---===============8739176178775958755==
+--===============0364654459282380609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/for-next
-    old: 057a30168175048be9e9b30f0cafd26f5043eb07
-    new: 640233258e5b61fed10b382af691b6a852f00392
-    log: revlist-057a30168175-640233258e5b.txt
+  - ref: refs/heads/vfs.misc
+    old: 56a26a273fe08a935339107acebd8b347e4297c4
+    new: 4d6fdbf44ad8498dc2ce271f04f7b4a181b8946b
+    log: revlist-56a26a273fe0-4d6fdbf44ad8.txt
 
---===============8739176178775958755==
+--===============0364654459282380609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-057a30168175-640233258e5b.txt
+Content-Disposition: attachment; filename=revlist-56a26a273fe0-4d6fdbf44ad8.txt
 
-b9a85e5eec126d6ae6c362f94b447c223e8fe6e4 RDMA/usnic: Silence uninitialized symbol smatch warnings
-3a179fe34acbd55eb287377811b05fbeb749e52c RDMA/siw: Introduce siw_get_page
-a2b64565e8ea9530cce8e1c528f53ca888c0a45b RDMA/siw: Introduce siw_update_skb_rcvd
-2109ddf032ebc57e0cd43e4378474ea6f2a378c2 RDMA/siw: Use iov.iov_len in kernel_sendmsg
-d248960941b71ebc1b62bd3241744f8a5eadc3d7 RDMA/siw: Remove goto lable in siw_mmap
-659da08ed83a67aec9d106e44d2d88c5963fb85a RDMA/siw: Remove rcu from siw_qp
-065186d228c5280d0390fde0e7ddba998e66f047 RDMA/siw: No need to check term_info.valid before call siw_send_terminate
-60d2136db8780b080bb6d5c7bdb0522b49c4eac6 RDMA/siw: Factor out siw_rx_data helper
-6a343cc3bf2626bc0c487bf2a72c90b4519c3da4 RDMA/siw: Introduce SIW_STAG_MAX_INDEX
-25680c1f2614756463040f2dc03b3ec611ae3bfe RDMA/siw: Add one parameter to siw_destroy_cpulist
-b5c91543204c345f1b28af573854c4b7e699cc91 RDMA/siw: Introduce siw_cep_set_free_and_put
-08456d4db73bbb3fcaa0d63252ea2399c65297a4 RDMA/siw: Introduce siw_free_cm_id
-77b59bd932a026b64303d313d966decb0e9225fa RDMA/siw: Cleanup siw_accept
-a410a7327870264da2a1a3eed704380053ffdf9f RDMA/siw: Remove siw_sk_save_upcalls
-3beced14d1998c8e0c5d3d78b2dd86255365e705 RDMA/siw: Fix typo
-788bbf4c2fc6e0c35bae9ed5068f484272539d3e RDMA/siw: Only check attrs->cap.max_send_wr in siw_create_qp
-d9a5b48681315a5881cea24bc8f384da02828e88 RDMA/siw: Introduce siw_destroy_cep_sock
-79844118d6c1cd48bd2cfacbab67592e6bf32fe8 RDMA/siw: Update comments for siw_qp_sq_process
-f45b83ad39f8033e717b1eee57e81811113d5a84 RDMA/hns: Fix inappropriate err code for unsupported operations
-ca7ad04cd5d2f8070cd34c2c428cea36de516afc RDMA/hns: Add debugfs to hns RoCE
-eb7854d63db543caeb8cadb5c3ae5296d0cb7b8f RDMA/hns: Support SW stats with debugfs
-0529e26d8b7b51da99c9d7234700f4041d20c0e4 RDMA/rtrs-clt: Add warning logs for RDMA events
-e76f514dc9fdacf8522e6efcabf883514e5299e5 RDMA/rtrs-clt: Use %pe to print errors
-640233258e5b61fed10b382af691b6a852f00392 RDMA/rtrs: Use %pe to print errors
+db3db63b1d17c98f69e894edaa2b0b364ecde7a9 vfs: remove a redundant might_sleep in wait_on_inode
+297945d9bc13a10e2ce39f0a3aad38c6812435a5 fs : Fix warning using plain integer as NULL
+d218569004b6f8242d176aad250ed66becc80cae fs: Clarify "non-RCY" in access_override_creds() comment
+f73f6181eb057671e358ebac8ed7f0014f12efb8 userns: eliminate many kernel-doc warnings
+6f672f7b3b9676853c3b074151ff0a156cdd7b07 fs: namei: Fix spelling mistake "Retuns" to "Returns"
+d7802b734fe33e781437151033032d28291b809b fs: add missing @mp parameter documentation
+600f111ef51dc2cbdb330b09d09f1856efa64912 fs: Rename mapping private members
+85884871921000b9bca2184077b1159771e50047 i915: make inject_virtual_interrupt() void
+ded0f31f825f99be91c121fe83e9329e3d880a3f eventfd: simplify eventfd_signal()
+45ee1c990e886545d4caa6395f4271de1de5dadc eventfd: simplify eventfd_signal_mask()
+37d5d473e74966bc84503e602e066c76195b51be eventfd: make eventfd_signal{_mask}() void
+7a2c359a17b556fb8705a536fa658169451a2d90 fs/aio: obey min_nr when doing wakeups
+a4fd34a68d610e98a4c6ff2db89d7fba937afb47 mnt_idmapping: remove check_fsmapping()
+b77a69e3526130f22143d25e0f7bad9738b0a794 mnt_idmapping: remove nop check
+cc8ac0ea81888f127b4bb0dacb45d8049fd2d63b mnt_idmapping: decouple from namespaces
+5c7b656ebb3b337f785611cee4f0894ce3875501 fs: reformat idmapped mounts entry
+efb8f498327c29df6b10e3612e0b494473620e37 fs/pipe: Fix lockdep false-positive in watchqueue pipe_write()
+4d6fdbf44ad8498dc2ce271f04f7b4a181b8946b file: massage cleanup of files that failed to open
 
---===============8739176178775958755==--
+--===============0364654459282380609==--
