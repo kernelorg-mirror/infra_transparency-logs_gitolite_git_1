@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 27 Nov 2023 14:05:07 -0000
-Message-Id: <170109390736.27281.9674425877590192849@gitolite.kernel.org>
+Date: Mon, 27 Nov 2023 14:10:06 -0000
+Message-Id: <170109420635.32709.6712144250896297146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 351f0c67a4fe4f617dc16ea81e0e05ab4d2d23d4
-    new: adbdc241a246d2c25c5b7dc09c09efa6cadab1fc
+    old: adbdc241a246d2c25c5b7dc09c09efa6cadab1fc
+    new: f8c611e72b3e327247eee3c892b407be3ad5ea12
     log: |
-         1180974eb33ac67903269b71f35a489a2b77e5e9 linux-firmware: update firmware for mediatek bluetooth chip (MT7922)
-         adbdc241a246d2c25c5b7dc09c09efa6cadab1fc Merge branch 'mt7922-bt' into 'main'
+         f440b984ca5ec4ed93983856d83d2fee48a64fae ice: update ice DDP wireless_edge package to 1.3.13.0
+         f8c611e72b3e327247eee3c892b407be3ad5ea12 Merge branch 'ice-edge' into 'main'
          
