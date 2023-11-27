@@ -1,51 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============9112998732099785417=="
+Content-Type: multipart/mixed; boundary="===============2828287470923299504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 27 Nov 2023 16:47:39 -0000
-Message-Id: <170110365931.18198.5279175693782492019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 27 Nov 2023 16:47:50 -0000
+Message-Id: <170110367069.18349.1793118435740561007@gitolite.kernel.org>
 
---===============9112998732099785417==
+--===============2828287470923299504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: f83d38def6b1b00c9bb17173837045b41df7e7d7
-    new: 28d8051efae17b6d83544f3c1cf06f6a71677e91
+  - ref: refs/heads/for-6.8
+    old: 4c3ff31a85e39d7e216e86934b694b6846433435
+    new: 8e6a43961f24cf841d3c0d199521d0b284d948b9
     log: |
-         595d2639451d3490c545c644ece726a0410ad39b spi: atmel: Do not cancel a transfer upon any signal
-         28d8051efae17b6d83544f3c1cf06f6a71677e91 spi: atmel: Drop unused defines
+         8e6a43961f24cf841d3c0d199521d0b284d948b9 spi: sprd: adi: Use devm_register_restart_handler()
          
 
---===============9112998732099785417==
+--===============2828287470923299504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1701103657 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1701103656-32430f67a1bb4dbe08a0323f22b9db16c16e13e4
+pusher Mark Brown <broonie@kernel.org> 1701103669 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1701103668-e4c32a2d13f1c59a18ba62075972aa60df6f21cd
 
-f83d38def6b1b00c9bb17173837045b41df7e7d7 28d8051efae17b6d83544f3c1cf06f6a71677e91 refs/heads/asoc-6.7
+4c3ff31a85e39d7e216e86934b694b6846433435 8e6a43961f24cf841d3c0d199521d0b284d948b9 refs/heads/for-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVkyCkTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0NFKB/0WRxqXE8ZgdsEhsRz8Sv5lQDvNh4B2
-V/MNmdvY3ktJ+55ntBn0ODxidMZpHAkj1LjCyum8f2jYoRp3nIAzZGcqCOpiK1c1
-vGP+qx+aLUXa2m9PRYrIlUubctsNYDzyU+/4PbzPzRJpazZ3qbgrZvVGQYx2EOKf
-oeEw1061axKxQ8aHkNpu1ZbxguYoaiamTjxgztqCFHHhOCUaKLYLyTfkOzdWlO3j
-DRAguqKrkJlbzqFK9H1X5UZ+qrBv1GFdOO4zN0RJQQYm8UmKhx+Ar82k+VpBx46H
-FACA1wBw4EuyKO18XL7g3tSAuZyU5iZYAK2WvPLxroBQDjuNkHu7qPY9
-=v1pl
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVkyDUTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0J6zB/9ssyHpaMZvJ2fOpEreGQyLeQDGCI02
+3QpppVtZXjbUlbJDCjjOV9DZP2I1sjQ/BXFidYAY1oaVEspvUCB3hMchUNTFbxZO
+lHD+Y2ylpw7USNiA9gOucDlJ/rFr8rRWq2KxnHS2IKdXFuQkhTOcg4WLhr+GLfuG
+N08E1tBRGBdk5cIQVDJiT39aWctI8Z2VFYfKjhx1TGdaHsmvQNLZuWMCAuKV0hzC
+AxSbelG3uUofy7cCW8Z4yYnGJwFVRd0St/TsqaQsWS7M2pjZRQOa/R38HyJpQlyQ
+hfxugFJMv9DMl4PQKYPEuY9Jj2OVs2fx4Df/Q0cPKo5h1gFlaIy1jrKx
+=QqDY
 -----END PGP SIGNATURE-----
 
---===============9112998732099785417==--
+--===============2828287470923299504==--
