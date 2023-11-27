@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 27 Nov 2023 08:57:13 -0000
-Message-Id: <170107543372.10533.1844999171119200843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 27 Nov 2023 09:15:29 -0000
+Message-Id: <170107652904.24755.10591099541122721692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: fa531311ab4d762afcd76f686350eeaacbe1a555
-    new: 556dac801322edd60485bc45312523527d7e5fc2
+  - ref: refs/heads/arm64-lpa2-v5-part1
+    old: a90774be3cfba89697e8023fa324ec203d66b74b
+    new: a0eb73c74fb94eb9428b746b6f4c87f2ad86165d
     log: |
-         556dac801322edd60485bc45312523527d7e5fc2 losetup: report lost loop devices for finding free loop
+         a0eb73c74fb94eb9428b746b6f4c87f2ad86165d arm64: mmu: Make __cpu_replace_ttbr1() out of line
          
