@@ -1,44 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5923970697028492991=="
+Content-Type: multipart/mixed; boundary="===============5691653963449213468=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 27 Nov 2023 13:45:07 -0000
-Message-Id: <170109270779.10529.11237404864198342802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Mon, 27 Nov 2023 13:45:57 -0000
+Message-Id: <170109275757.10934.4659967620123728503@gitolite.kernel.org>
 
---===============5923970697028492991==
+--===============5691653963449213468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 9552083a783e5e48b90de674d4e3bf23bb855ab0
-    new: 9fdcf6394be2f3e641dab82365d4c0693177003e
-    log: revlist-9552083a783e-9fdcf6394be2.txt
+  - ref: refs/heads/char-misc-linus
+    old: 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab
+    new: ee6236027218f8531916f1c5caa5dc330379f287
+    log: |
+         be6f9a39969a4ad01f0051a9b94af6e7f4d2d7ac mei: pxp: fix mei_pxp_send_message return value
+         8f06aee8089cf42fd99a20184501bd1347ce61b9 misc: mei: client.c: return negative error code in mei_cl_write
+         ee6236027218f8531916f1c5caa5dc330379f287 misc: mei: client.c: fix problem of return '-EOVERFLOW' in mei_cl_write
+         
 
---===============5923970697028492991==
+--===============5691653963449213468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9552083a783e-9fdcf6394be2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c03db704fa78ad3c44b18ccf51d0af6373b1f58f amdgpu: update DMCUB firmware to 0.0.193.0 for DCN31 and DCN314
-0c211dbe9054d7855f9688b83af76de0044f7d3c Merge branch 'amd-staging' into 'main'
-5e9fdab57258fadff7e02979de294dbbb51e7a48 mediatek: Remove an unused packed library
-bef5a36d520bf995667b781e0d2048fd9535c377 Merge branch 'robot/patch-1-1700555775' into 'main'
-475828440eb35ee353d6c86c10bd0a2abd53227d ice: update ice DDP package to 1.3.35.0
-0628ba79f3463e514ab3e4f701339fe0b9da456a ice: update ice DDP comms package to 1.3.45.0
-ad0bbae4a06f51fc73f3013c0530aff237b015ae Merge branch 'robot/patch-1-1700674626' into 'main'
-a5539dc1c3c4c06eabdb815947b887674e9cf0cb Merge branch 'robot/patch-2-1700674629' into 'main'
-9afbbf25689c42b733ef85a52a91becec9fb33ee powervr: add firmware for Imagination Technologies AXE-1-16M GPU
-fad38ab8499bff8ee5a315337bc34e2fe287a553 Merge branch 'powervr-2023-11-23' into 'main'
-87427f23282eb587a375c0e6e89f15e2b7a06db5 amdgpu: update DMCUB firmware to 0.0.194.0 for DCN321 and DCN32
-f6d61dedddd593ef0e0619e6313c95034ba5a2f8 Merge branch 'robot/pr-0-1700887115' into 'main'
-c6823ce2e54879bf26c42ee7f1bb94fc571fddef Makefile, copy-firmware: Use portable "command -v" to detect installed programs
-9fdcf6394be2f3e641dab82365d4c0693177003e Merge branch 'robot/patch-0-1701018572' into 'main'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701092756 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1701092755-3c0153fc6c3098712628cf11927c745009ab8184
 
---===============5923970697028492991==--
+2cc14f52aeb78ce3f29677c2de1f06c0e91471ab ee6236027218f8531916f1c5caa5dc330379f287 refs/heads/char-misc-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVknZQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WrkQANHyW4UhXc0haNco+TXw
+IPA9/wr+JfkacWPBgOcSH7D43OeWA4GBnrYGYKrGh74U9znk6vmOsO/9QRcGa2Xw
+277yaCmUy+moYN3c3KXiAsPy9GR9jlb+dORY8rmT2OdEuljtISmS76MeQtdJPAB2
+QuFMCnSCvsuL3afaDiHRR/H7Sm6vCo8etiwE+CJmmCs4GT1YM49o5W0X/FmjghTa
+rqng/nZfTw2UIXvA6HMXZpJ/5Tj+nHqaGa/zHA/TyX+aJKYAyiuQrE4k1/yxr4R3
+h5p3luXX1ZG+TlwT8NOjOQteiGMlGm6hyfyz+aiTBEUoztXJ8jBv0vIOCWNP87Kj
+CRljkzbiij0iOQfl9ayAPC3xDRZiArRkqae18EKMJ4YiHeyS0xdtzaKSRRTHe4S8
+k0ga58oi8VMPPlDeyUuOYFYL2y/DINODz32pYJWeZYE3344k0+RkmgED4GjxMJWv
+AX9ExpvFUyOUC9QpE9oPYDrBLQgcFchkXoy8gYruXNYhUL3fL+I7qg+0fkuA4v00
+Zc651b9U+KBIyRWLjB+R7gZvQLadkKyP2SBY0c49rMLoaINXm+IZkHm1BzbmUUX5
+lBVW3jl1jNXmz08y3czuUeOiVJy8c17ZnWfhDZj5MUr7sEMLzBAUlAGlINNF1JWJ
+FlCflfSJfgvs91933DARCqVm
+=nGpg
+-----END PGP SIGNATURE-----
+
+--===============5691653963449213468==--
