@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1018807605665069845=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 27 Nov 2023 18:17:58 -0000
-Message-Id: <170110907843.20259.551407630449047847@gitolite.kernel.org>
-
---===============1018807605665069845==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 27 Nov 2023 18:18:06 -0000
+Message-Id: <170110908690.20375.14560432085238215782@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: ee6236027218f8531916f1c5caa5dc330379f287
-    new: 76cab6f4fd63129e852eb15e14d6d359b57e797f
+  - ref: refs/heads/dm-vdo
+    old: 19b93e634cff09b45c7825804ff65ed4b58b631f
+    new: 4b622deb08dcf34450bdda1847029656eb7b4539
     log: |
-         76cab6f4fd63129e852eb15e14d6d359b57e797f ndtest: fix typo class_regster -> class_register
+         2d8b97409f8bfbfffa61745db8eb4c3e2bc8459f dm vdo wait-queue: add proper namespace to interface
+         a5b6952e2efe64cb1d27ff8aeb982abb5bac20e3 dm vdo wait-queue: remove unused debug function vdo_waitq_get_next_waiter
+         69601a1305b60c9183989ad032786cbe1984841b dm vdo wait-queue: optimize vdo_waitq_dequeue_matching_waiters
+         7fda50dfd7339d2712b3327f7dc40bfb2aaa03b5 dm vdo block-map: optimize enter_zone_read_only_mode
+         029fae182f9292cc477a666d5b434773b8a10fac dm vdo wait-queue: rename to vdo_waitq_dequeue_waiter
+         18d7081be72790c02d7dadc7f9f7c3690476523e dm vdo dedupe: switch to using int-map instead of pointer-map
+         400ae765a08a2954ef5724bc2821422bcedc441a dm vdo int-map: rename functions to use a common vdo_int_map preamble
+         4b622deb08dcf34450bdda1847029656eb7b4539 dm vdo int-map: remove unused parameter from vdo_int_map_create
          
-
---===============1018807605665069845==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701109077 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1701109077-d7957dd7df779f3365b37723d01d48417943e7b6
-
-ee6236027218f8531916f1c5caa5dc330379f287 76cab6f4fd63129e852eb15e14d6d359b57e797f refs/heads/char-misc-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVk3VUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+paUQAKiQzkAAgzxddOv+sGcb
-TCFtQ6xIMGrKQ/jhF7NuPGSVnZ4wb/NsAuiR7FXR5ptAsjVDIcRjVrBhNNyPkrx8
-Jl+3xLJQsiTOhPIl95myC8n2Ua8mKjazd8zp8z1aEjIy0nbZZaZ8/KENYLkPat4e
-BPFUwYlPOcRCTMvi0f7nRpU59XqY8eCyYqn3hBUARJPuqQjcOuhhZBJknC3nkXYS
-4fbn1toqxtAKtbgTgHRxs56Mo/1ywuXwZ0a2bxpQllXTZavVGjpWe69F5XW4uK04
-WZsYms2kfc9cnG79MVHNr7a0H/QyNAroX5RPi11NJuHPQjMazBz+0JAV+f0m5CLi
-NnQUg4+qLGMV7x+bt2C/uJj0S0WmWZ0nkDXUsTHjM9bbwQ31+wmfazMIf1gtnbPt
-tQxcAyyGEVWhcw1OmPhUFKnjpAqnZJLGDF9nbYbGbSwdfgiwu1QKI5iyNrEvlndA
-/Fi0pOrUqGu1ha5ZF/NxfOJ1iaF9MjZIp8jkr/6rJDSUwKeIetMKDtayYiBYY0bf
-CeqfbPeglQCQaFmd4JZdNJgV9yVdFTjuwcPl3qhQ3NQ0VTYaQE5P33drrcZy4BPn
-j4lXEFqIEiryveQad2UnDXc2C9NBWQerj1de/fNvxnlwlxbMjpJRvXQVJN6GJsKc
-XqckIVv+wLqZZC/+uDchSkSn
-=LGGV
------END PGP SIGNATURE-----
-
---===============1018807605665069845==--
