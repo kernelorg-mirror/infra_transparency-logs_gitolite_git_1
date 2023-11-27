@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============8089013566653385733=="
+Content-Type: multipart/mixed; boundary="===============3387040398574685003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 27 Nov 2023 09:25:32 -0000
-Message-Id: <170107713221.32111.3657768126124757740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 27 Nov 2023 09:25:34 -0000
+Message-Id: <170107713411.32194.9008846612578033789@gitolite.kernel.org>
 
---===============8089013566653385733==
+--===============3387040398574685003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 6acba0345b68772830582ca1ca369a2f45631275
-    new: 3396b3372e61f8b579395e32c53212612b14daff
-    log: revlist-6acba0345b68-3396b3372e61.txt
+  - ref: refs/heads/main
+    old: 98b1cc82c4affc16f5598d4fa14b1858671b2263
+    new: 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab
+    log: revlist-98b1cc82c4af-2cc14f52aeb7.txt
 
---===============8089013566653385733==
+--===============3387040398574685003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701077131 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1701077130-8b68675d4edc162d993919c4de550da2233df7cd
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701077132 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1701077132-eb3f5119c614d646a16e68332f7ccf19d0288238
 
-6acba0345b68772830582ca1ca369a2f45631275 3396b3372e61f8b579395e32c53212612b14daff refs/heads/usb-testing
+98b1cc82c4affc16f5598d4fa14b1858671b2263 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVkYIsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NNYQALC/YembOQH+4WJwfIO1
-G8IsEYlasjw7V/z0ouR+mmyEAqmowFnkxmjejVu7/EgiseKKZ3pT19wMOvmddUGj
-ra1ScOIYsMkTcQt8atm9WK27htKRuACD3fEW5/91mLfF9/OHNepYNVkV9y1xaECN
-oL2C5HdqfE5UXU8eXXtsKgyKWPDhuGWgItj7JP/ggBWWnkSz61Shyqprk+ql4Fb5
-LwzvAmCvPkVVKTDemS9Q5bUtHPwp8iPl47GrQuJjjvfTJ6SFW2rEiYE3Vec2WIsU
-/QywXQIwoHdpZNDZSFaxtaqRVwAcdvb8QgkeSZuWq9v4/zPz+nXubi826lrLgJX0
-IwYy2FaC1hfU4sMaqk6VuB3rvm9gbQD55PbWnrAwy192Gw/6APuZc6Ble5dtQsB6
-W6UvtutxwIDI2ychvzvBAcJTDkuNog6jK2AXp2IbrHzzkI6ULhxJ/lPOGyZX1L28
-UKJ73DS5Qb1XR19hUjk9PSIZ4tuDKMDpODhfwuUXS18KeBXp9d3rhklZCHNqd7iD
-jIBhjLOoi84qdz0+OtYcXrO+D2iVAy+Avk7OfDYpLhYhTYaV85RFwayLomEpmVYq
-W6OiGq+OuWje6zBtI2tPMcTl9igNBOAvrTmxAMOh6AByteM1+Sqn0ULPafyXMO5g
-RKX40YH2uokI4OVudaVzDZHD
-=32OW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVkYIwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/SEQAMFGubPEeJxF3Fate5e5
+npno6fIL+ouzRuAZSwRHVfgwE0SiSgqbWLVoPYKwTF9htAfDxk7ZMdCdnRGlf7/q
+WyxRrMGrB1l7r7yXJjhBZdvmAeekB0zBuLTM7LLR7dN1gJn1GJ7X2mXBvSbxrR1I
+NSuVuQj5TTPHps8ezRT3i3KKXuun6AHwFUCtSEBokIK+/7/8akAtB86R9hP71XZ6
+hwhLRScOk4FeMS2WIi4FiWdmRZmG4+KTpWqpWRqkhy7KARjpzSgrJ/2UNbMIc4iL
+jeoSMj5TQHFWhJCM7TlznngrtBDK1wvC+zFN+ooqEa+7CjWNgSp4jIi+zvGU4IqO
+xYtBQttsbFOcoCq2RGsvqL/9z4BUduWa6gmdCiBfEz84/Ftnr3zogQnYn+rs1t9D
+hkX3DZ6Hn9p0rq3kUfhu7OvQjrPjR3KClbeMh7zaKBR/zJYl+x1lASBQdw23aNSd
++w7fG4/t7UkHYSYYXD7N8n4Ta5Uua2Cvxykmok+Dn0MPM0+aeSc6Wr+S0RXO+cwn
+zLCQ7weLzoucO3AQBY6zNRwhOI6h9/0ekYD1k5uNK3ZDHWPrsJ3xIOAvJNUnEWkq
+nPArW0ClvLf1beWzwcV3kKwxm6XrrGsPgEzUhlieZPOdkKX2tR91wPu/pz3gR2vI
+FZaknSSqRpPq5odB3gyuniYV
+=oEH6
 -----END PGP SIGNATURE-----
 
---===============8089013566653385733==
+--===============3387040398574685003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6acba0345b68-3396b3372e61.txt
+Content-Disposition: attachment; filename=revlist-98b1cc82c4af-2cc14f52aeb7.txt
 
 258ea41c926b7b3a16d0d7aa210a1401c4a1601b Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 3.0 PHY"
 7a784bcdd7e54f0599da3b2360e472238412623e Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 2.0 PHY"
@@ -331,6 +331,5 @@ e81fe505202fdc07b1925aa70fca5e2a714eb259 Merge tag 'perf-urgent-2023-11-26' of g
 d2da77f431ac49b5763b88751a75f70daa46296c Merge tag 'parisc-for-6.7-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 5b2b1173a93fa056b4539ef52e5f03148345d498 Merge tag 'trace-v6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab Linux 6.7-rc3
-3396b3372e61f8b579395e32c53212612b14daff Merge 6.7-rc3 into usb-next
 
---===============8089013566653385733==--
+--===============3387040398574685003==--
