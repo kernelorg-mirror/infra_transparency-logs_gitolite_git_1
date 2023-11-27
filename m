@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9133223106323501621=="
+Content-Type: multipart/mixed; boundary="===============0497746992698092963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 27 Nov 2023 16:29:24 -0000
-Message-Id: <170110256435.2860.2864514233841871563@gitolite.kernel.org>
+Date: Mon, 27 Nov 2023 16:29:36 -0000
+Message-Id: <170110257610.3030.2624045696363760335@gitolite.kernel.org>
 
---===============9133223106323501621==
+--===============0497746992698092963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: cfbb856d3fa9058e8bd1ea13e8166254b238c067
-    new: 1ec134cfd5e23fde88289ed06c653d5fdc5c7a4f
-    log: revlist-cfbb856d3fa9-1ec134cfd5e2.txt
+  - ref: refs/heads/svcrdma-next
+    old: 057fb13816ab6a04315a5290295faf41de1542a1
+    new: dfa528be657e156961d3d3644afb0c188be5e0c3
+    log: revlist-057fb13816ab-dfa528be657e.txt
 
---===============9133223106323501621==
+--===============0497746992698092963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cfbb856d3fa9-1ec134cfd5e2.txt
+Content-Disposition: attachment; filename=revlist-057fb13816ab-dfa528be657e.txt
 
 258ea41c926b7b3a16d0d7aa210a1401c4a1601b Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 3.0 PHY"
 7a784bcdd7e54f0599da3b2360e472238412623e Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 2.0 PHY"
@@ -315,5 +315,51 @@ bc62fac60243c7f642616c545fc83e93666ff962 svcrdma: Eliminate allocation of recv_c
 f61c9cbc537705967fa26c77bec290bab5287fdd svcrdma: Add an async version of svc_rdma_send_ctxt_put()
 ea685d71fbd563dbea1733a1c489e9baa0854820 svcrdma: Add an async version of svc_rdma_write_info_free()
 1ec134cfd5e23fde88289ed06c653d5fdc5c7a4f svcrdma: Clean up locking
+537c7ea4faa44f9ba26cd26b333a4ff1c105402e svcrdma: Add lockdep class keys for transport locks
+ce303c50ca997bad77809a3d9e32871155bc434c rpcrdma: Introduce a simple cid tracepoint class
+50d611ab261a33f343c3a28af43b8daf7139567e svcrdma: SQ error tracepoints should report completion IDs
+991fc83f261c672491611ba630e7e6b1191a60b9 svcrdma: DMA error tracepoints should report completion IDs
+0f38bac11a9d3fa27af7e152474ab9514841ff60 svcrdma: Update some svcrdma DMA-related tracepoints
+02a1c20c77fc508672db0cbbfd11816276743c8b svcrdma: Reduce size of struct svc_rdma_rw_ctxt
+621f40b052141a3d837c7d2e3c215837cfa385f7 svcrdma: Acquire the svcxprt_rdma pointer from the CQ context
+3be6ce61fa1d71828b937533b0f7582465ee496f svcrdma: Explicitly pass the transport into Write chunk I/O paths
+db776236cb5df249519e171b39ed74ef8259a589 svcrdma: Explicitly pass the transport into Read chunk I/O paths
+567d646c016d8c97d5c6480d1023dcb1b8b67036 svcrdma: Explicitly pass the transport to svc_rdma_post_chunk_ctxt()
+2e3ab1fadd034dd25e692b906397f3b36f4d7c5b svcrdma: Pass a pointer to the transport to svc_rdma_cc_release()
+cb784aa87675ea4c69ed7b0f30ba1e6def014260 svcrdma: Remove the svc_rdma_chunk_ctxt::cc_rdma field
+695329233d671e1bd1621e90caa41912dd22312d svcrdma: Move struct svc_rdma_chunk_ctxt to svc_rdma.h
+26281b5508e8ba73933cf131c73f6aea2937c9f7 svcrdma: Start moving fields out of struct svc_rdma_read_info
+ea99e845958f8baf4b6b1527cc465bbc281b6ed3 svcrdma: Move svc_rdma_read_info::ri_pageno to struct svc_rdma_recv_ctxt
+e95cc8180528c42c08162f5485f4524012a3d961 svcrdma: Move read_info::ri_pageoff into struct svc_rdma_recv_ctxt
+507c471d421362cea0ef7d0d997b42c33ae95c00 svcrdma: Update synopsis of svc_rdma_build_read_segment()
+91a128fd2e006e39b5b8378e6c3d8c3b6b422fe3 svcrdma: Update synopsis of svc_rdma_build_read_chunk()
+ce6d60d4f0a6b4ede7cd702ffd29d18d5ce9a927 svcrdma: Update synopsis of svc_rdma_read_chunk_range()
+63a44bc7f1dcd73fb1c618648f7a27a8bb87ff51 svcrdma: Update the synopsis of svc_rdma_read_data_item()
+bfe16162b8c29cfc9c46ec7d718c8ce52c06f1c0 svcrdma: Update synopsis of svc_rdma_copy_inline_range()
+4afc210c80dfba286a77da9dad7e10f57109d5c6 svcrdma: Update synopsis of svc_rdma_read_multiple_chunks()
+d00bf2591a5ee98ea70723c2e103afe326932717 svcrdma: Update the synopsis of svc_rdma_read_call_chunk()
+e3a7f3567783c90f7e7eb95c2bed5380f02ef5dc svcrdma: Update the synopsis of svc_rdma_read_special()
+3539693bfcca3df3f91495de2f9dae31fc2b8e17 svcrdma: Remove struct svc_rdma_read_info
+9e92a558e6f6577e1eb7bb0927aa94be0e9e9616 svcrdma: Move the svc_rdma_cc_init() call
+f591865fabdb041ffcc4f59e12806a6bcd81d6c7 svcrdma: De-duplicate completion ID initialization helpers
+c17ca8382c0fc04e89b3f855d2498218d3df64e5 svcrdma: Optimize svc_rdma_cc_init()
+d010ba7059773d60eb135e048223fe8c0f32e788 svcrdma: Remove pointer addresses shown in dprintk()
+565faf6cd56e197846c6bd0cfc6b397ea5a9df35 svcrdma: Remove queue-shortening warnings
+f6abe70d984b164b435e88d067338eb0b8c53b2d svcrdma: Clean up comment in svc_rdma_accept()
+b0a81f5d8ee9dce435522cfa1c2043c1e6815615 svcrdma: Reserve an extra WQE for ib_drain_rq()
+e47378b2f4636aaa56eee5bb56095b221bfb9210 svcrdma: Use all allocated Send Queue entries
+753dfbc24c40f04454d7c44826f4de00085b8a1d svcrdma: Increase the per-transport rw_ctx count
+9ad02dc320864018405990d4cc438533412a0f73 svcrdma: Add back svc_rdma_recv_ctxt::rc_pages
+22b7ad9d17deffff9c3cd83b4fbd801663acbe72 svcrdma: Add back svcxprt_rdma::sc_read_complete_q
+6c51febea961dfd278b2d586d40e8423f30e9f65 svcrdma: Copy construction of svc_rqst::rq_arg to rdma_read_complete()
+59b99f49ab4699f7073573e22ed3d3e9b4ef8f39 svcrdma: Implement multi-stage Read completion again
+e26414f261cd8a273daa5e6a9e267a7ec845be82 svcrdma: Fix SQ wake-ups
+6153905ac18ac446c000c7665e8928d96f9c695a svcrdma: Prevent a UAF in svc_rdma_send()
+47cf64d2c6055c1b8819ddf2c7333136351d9b38 svcrdma: Fix retry loop in svc_rdma_send()
+7c45785f9e5f98683c5e49a55d7fa461c4af156e svcrdma: Post Send WR chain
+25682e299f92857c79681520cb2aa04e11968bf4 svcrdma: Move write_info for Reply chunks into struct svc_rdma_send_ctxt
+510d223075f747174873ed384a10dd79ee0cf695 svcrdma: Post the Reply chunk and Send WR together
+e29a7340fe7f3c04bba15e9e8dbcdb6e53bff7ef svcrdma: Post WRs for Write chunks in svc_rdma_sendto()
+dfa528be657e156961d3d3644afb0c188be5e0c3 svcrdma: Add Write chunk WRs to the RPC's Send WR chain
 
---===============9133223106323501621==--
+--===============0497746992698092963==--
