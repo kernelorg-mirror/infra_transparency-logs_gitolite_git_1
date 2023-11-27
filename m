@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4356556619406045536=="
+Content-Type: multipart/mixed; boundary="===============3668606323879925388=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 27 Nov 2023 18:41:06 -0000
-Message-Id: <170111046695.5622.9135889298301950445@gitolite.kernel.org>
+Date: Mon, 27 Nov 2023 18:41:13 -0000
+Message-Id: <170111047354.5766.12890130116410499774@gitolite.kernel.org>
 
---===============4356556619406045536==
+--===============3668606323879925388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-vdo
-    old: 4b622deb08dcf34450bdda1847029656eb7b4539
-    new: 2e41407e8c11e2d25d1838ab751273ac0a9637ee
-    log: revlist-4b622deb08dc-2e41407e8c11.txt
+  - ref: refs/heads/dm-vdo-wip
+    old: 97056f696f10b522a75157eb08f24126ed35434e
+    new: 4c950ed6a69ca7c1713df62e5030f14347d282d6
+    log: revlist-97056f696f10-4c950ed6a69c.txt
 
---===============4356556619406045536==
+--===============3668606323879925388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b622deb08dc-2e41407e8c11.txt
+Content-Disposition: attachment; filename=revlist-97056f696f10-4c950ed6a69c.txt
 
 4d1827485acecac0016eaaec199e97697afdaa84 tools/power/turbostat: Fix failure with new uncore sysfs
 137f01b3529d292a68d22e9681e2f903c768f790 tools/power/turbostat: Fix a knl bug
@@ -715,5 +715,6 @@ fcc5dd0519d182f5f1cdcf27a448b4f3e9384829 dm vdo wait-queue: optimize vdo_waitq_d
 5d5aebb46358e3a87046a4d75e271fbb895ae1fb dm vdo dedupe: switch to using int-map instead of pointer-map
 da8a7ebec4cd7bfd19984f6d1db4b8e1f8c66bd0 dm vdo int-map: rename functions to use a common vdo_int_map preamble
 2e41407e8c11e2d25d1838ab751273ac0a9637ee dm vdo int-map: remove unused parameter from vdo_int_map_create
+4c950ed6a69ca7c1713df62e5030f14347d282d6 dm vdo: fix how dm_kcopyd_client_create() failure is checked
 
---===============4356556619406045536==--
+--===============3668606323879925388==--
