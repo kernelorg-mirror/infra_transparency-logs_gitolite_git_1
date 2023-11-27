@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Mon, 27 Nov 2023 10:29:13 -0000
-Message-Id: <170108095311.26652.5883107804483080663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 27 Nov 2023 10:44:28 -0000
+Message-Id: <170108186827.5685.16578189596884853147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: holtmann
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: a40d5199a890a7b94e546b763719f2cd089be596
-    new: bdaae53cf828a1f6ea7a7b57d7d6ebcc7b70ac43
+  - ref: refs/heads/arm64/e2h0
+    old: 521408e24ea0fd16027785b21882e9255e69c107
+    new: 87bff353151649f618471250127d08ef4d1bb0d3
     log: |
-         44e9816dcb224e3e8d2694776042bd3bd9ed27a1 adhoc: Fix compilation on old systems
-         5a4fc931e749dad4cea70d5ef7695929c78205d6 ie: Move AKM suite converter from netdev
-         b10ef09186f2176638a3e9d2b34f61f1bbb7a561 nl80211util: Move nl80211_append_rsn_attributes
-         5ce1c0d0012cea0be8e5a3d44e24392ba31bfe0a netdev: Don't duplicate vendor_ies
-         290f294c600835c32c2a383819aec87beb214902 netdev: Do not leak l_genl_msg on error
-         8d68b33e763aced6d419df9f6534760d2c890279 netdev: Fix buffer overflow with 32 character ssids
-         bdaae53cf828a1f6ea7a7b57d7d6ebcc7b70ac43 erp: Fix buffer overflow for 32 byte SSIDs
+         67568bee8fbb1855e82feb4d47d472452bbac7ee arm64: cpufeature: Detect HCR_EL2.NV1 being RES0
+         209493cb34e4bfc631e8f2620c185e718601a22f arm64: Treat HCR_EL2.E2H as RES1 when ID_AA64MMFR4_EL1.E2H0 is negative
+         4dbbaf7d9c478005b06fd2987bb593ee1d61801e arm64: Add override for ID_AA64MMFR4_EL1.E2H0
+         be0bf730e30e65db65eb4c6cbf86ae0d27dae5a1 arm64: Add MIDR-based override infrastructure
+         6dd559158d4751d9f4be15f5198e13c1f57c7070 arm64: Add MIDR-based overrides for ID_AA64MMFR4_EL1.E2H0
+         8a2de10ea0af016526d0f69c49c02e6a929666af KVM: arm64: Expose ID_AA64MMFR4_EL1 to guests
+         87bff353151649f618471250127d08ef4d1bb0d3 KVM: arm64: Force guest's HCR_EL2.E2H RES1 when NV1 is not implemented
          
