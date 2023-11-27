@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 27 Nov 2023 11:31:27 -0000
-Message-Id: <170108468723.7606.4327379260150957614@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 27 Nov 2023 11:31:52 -0000
+Message-Id: <170108471281.7857.5354385911024924106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: b51bd7d00042b691719efa9b4e0aba3d8665fa73
-    new: ac98e51d4017fa928e4cc589f5e17b9a052341ba
+  - ref: refs/heads/b4/vfs-super-wait-rework
+    old: 41cf12f916bd52c999bbfe2cbb2e3ce52097c278
+    new: c94e7c1d08551acc2560d74d4214eec9ef098587
     log: |
-         ff03ff328fbd0a2b3a43e8b9bbc2a1d84265e77e x86/mce/amd, EDAC/mce_amd: Move long names to decoder module
-         ac98e51d4017fa928e4cc589f5e17b9a052341ba Merge branch into tip/master: 'ras/core'
+         31309c1c8bfd76debe072738679231f3cf95683c EDITME: cover title for vfs.super.wait.rework
+         c94e7c1d08551acc2560d74d4214eec9ef098587 super: massage wait event mechanism
          
