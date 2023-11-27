@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6430892780112192216=="
+Content-Type: multipart/mixed; boundary="===============7680998173382575137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 27 Nov 2023 09:32:01 -0000
-Message-Id: <170107752198.4710.16445642022600842903@gitolite.kernel.org>
+Date: Mon, 27 Nov 2023 09:32:15 -0000
+Message-Id: <170107753578.4860.18081578702443217068@gitolite.kernel.org>
 
---===============6430892780112192216==
+--===============7680998173382575137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-next
+  - ref: refs/heads/mips-fixes
     old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab
     log: revlist-b85ea95d0864-2cc14f52aeb7.txt
 
---===============6430892780112192216==
+--===============7680998173382575137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -668,4 +668,4 @@ d2da77f431ac49b5763b88751a75f70daa46296c Merge tag 'parisc-for-6.7-rc3' of git:/
 5b2b1173a93fa056b4539ef52e5f03148345d498 Merge tag 'trace-v6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab Linux 6.7-rc3
 
---===============6430892780112192216==--
+--===============7680998173382575137==--
