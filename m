@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4300270731204267331=="
+Content-Type: multipart/mixed; boundary="===============8733160748158429703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 27 Nov 2023 18:59:55 -0000
-Message-Id: <170111159570.17994.9817474149536136242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 27 Nov 2023 19:00:31 -0000
+Message-Id: <170111163144.19956.13477755383580016204@gitolite.kernel.org>
 
---===============4300270731204267331==
+--===============8733160748158429703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: ffa96259ca5f02bbcecd2c45831e7632cd6d3485
     log: revlist-e7e0c9dd18b6-ffa96259ca5f.txt
 
---===============4300270731204267331==
+--===============8733160748158429703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ fcfb5a6189f55669c931dce9fec85280655c515f perf tests: Skip branch stack sampling 
 7340c6df49df1b261892d287444c255d0a378063 perf vendor events riscv: add T-HEAD C9xx JSON file
 ffa96259ca5f02bbcecd2c45831e7632cd6d3485 perf test: Use existing config value for objdump path
 
---===============4300270731204267331==--
+--===============8733160748158429703==--
