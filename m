@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0458083264094326131=="
+Content-Type: multipart/mixed; boundary="===============2642184838740605308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 27 Nov 2023 13:24:13 -0000
-Message-Id: <170109145324.24876.1621319559245628200@gitolite.kernel.org>
+Date: Mon, 27 Nov 2023 13:24:25 -0000
+Message-Id: <170109146553.25014.11508723048191584275@gitolite.kernel.org>
 
---===============0458083264094326131==
+--===============2642184838740605308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 706a9a7df4b72ba5ef1f3178aeb2eb341e1a3efe
-    new: 420f44eef29721b40bb19d15ffcf4957355b345d
-    log: revlist-706a9a7df4b7-420f44eef297.txt
+  - ref: refs/heads/m68k-queue
+    old: 729d1984b6b2d592b377efe194635885cb50a33e
+    new: 83b56f4f469dfcc43ad9446d3096d5edd9d9f003
+    log: revlist-729d1984b6b2-83b56f4f469d.txt
 
---===============0458083264094326131==
+--===============2642184838740605308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-706a9a7df4b7-420f44eef297.txt
+Content-Disposition: attachment; filename=revlist-729d1984b6b2-83b56f4f469d.txt
 
 258ea41c926b7b3a16d0d7aa210a1401c4a1601b Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 3.0 PHY"
 7a784bcdd7e54f0599da3b2360e472238412623e Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 2.0 PHY"
@@ -300,6 +300,8 @@ e81fe505202fdc07b1925aa70fca5e2a714eb259 Merge tag 'perf-urgent-2023-11-26' of g
 d2da77f431ac49b5763b88751a75f70daa46296c Merge tag 'parisc-for-6.7-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 5b2b1173a93fa056b4539ef52e5f03148345d498 Merge tag 'trace-v6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab Linux 6.7-rc3
-420f44eef29721b40bb19d15ffcf4957355b345d Merge tag 'v6.7-rc3'
+53cec79bd46b85619eb94c417572831de94dae94 m68k: atari: usb: Add ISP1160 USB host controller support
+a53b209a937ad1d99c0d034a5917aff392c33f89 m68k: atari: Update Kconfig.bus help text
+83b56f4f469dfcc43ad9446d3096d5edd9d9f003 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0458083264094326131==--
+--===============2642184838740605308==--
