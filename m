@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3654903976380914266=="
+Content-Type: multipart/mixed; boundary="===============7380388539164023208=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 27 Nov 2023 15:13:38 -0000
-Message-Id: <170109801878.13153.2813383898366496437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 27 Nov 2023 15:13:53 -0000
+Message-Id: <170109803386.13338.11436833156146009829@gitolite.kernel.org>
 
---===============3654903976380914266==
+--===============7380388539164023208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: e7e0c9dd18b6ee9ff17a9559753971cd12101b1e
     log: revlist-30e643d1e977-e7e0c9dd18b6.txt
 
---===============3654903976380914266==
+--===============7380388539164023208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ a24d9d9dc096fc0d0bd85302c9a4fe4fe3b1107b perf parse-events: Make legacy events l
 1638b11ef8156c8551f5aaa5799069633593c5fe perf tools: Add perf binary dependent rule for shellcheck log in Makefile.perf
 e7e0c9dd18b6ee9ff17a9559753971cd12101b1e perf report: Remove warning on missing raw data for s390
 
---===============3654903976380914266==--
+--===============7380388539164023208==--
