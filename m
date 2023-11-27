@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6896753612693257651=="
+Content-Type: multipart/mixed; boundary="===============6110545901118075307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Mon, 27 Nov 2023 15:43:04 -0000
-Message-Id: <170109978441.2844.14943421723422173041@gitolite.kernel.org>
+Date: Mon, 27 Nov 2023 15:43:08 -0000
+Message-Id: <170109978843.2932.12402792429458681601@gitolite.kernel.org>
 
---===============6896753612693257651==
+--===============6110545901118075307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,62 +15,59 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
 user: colyli
 changes:
-  - ref: refs/heads/openEuler-22.03-LTS
-    old: 72bad281f9c25b7c99470e9695444d23b215a6b1
-    new: c2cd749ef8c288248922d7b6f49255d9018e7b3f
-    log: revlist-72bad281f9c2-c2cd749ef8c2.txt
+  - ref: refs/heads/openEuler-22.03-LTS-SP1
+    old: 60e48777777fa5e3ba38bd9bc479b7906ce393b8
+    new: cbd9ae6fd611bfe5a582216b0e4e59d163a71234
+    log: revlist-60e48777777f-cbd9ae6fd611.txt
 
---===============6896753612693257651==
+--===============6110545901118075307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72bad281f9c2-c2cd749ef8c2.txt
+Content-Disposition: attachment; filename=revlist-60e48777777f-cbd9ae6fd611.txt
 
-9dbcae864bcff445d52cccf6613675025871113d kvm: x86: Sink cpuid update into vendor-specific set_cr4 functions
-51bb7088ebe09ff082fb123092764a365e0f0fe1 KVM: nVMX: Inject #GP, not #UD, if "generic" VMXON CR0/CR4 check fails
-b7e3431d0e0128137ef9b884798b757f311a3a96 net: sched: fix NULL pointer dereference in mq_attach
-fcf9ceca856a45e436922dad0aaf11371976958a ethtool: ioctl: fix potential NULL deref in ethtool_set_coalesce()
-c7ef4e05f57924ad15c9781ceb7a67e7da12f674 bpf: cpumap: Fix memory leak in cpu_map_update_elem
-95b2f1bd12404cd4be688bffe8c2e6c99937ebaa ubi: Fix return value overwrite issue in try_write_vid_and_data()
-aef67176901afdfa76131eab9b82bbee85caa10a arm64/mpam: fix missing kfree domain's ctrl_val arrray
-8f950ff5215886565261c50509ba6eaa78f8220a bonding: Fix incorrect deletion of ETH_P_8021AD protocol vid from slaves
-4fb3b34e0848c7079f0a47b7f7d6afc395c199af ring-buffer: Fix deadloop issue on reading trace_pipe
-bda316ad311a4f65ee59a9cd26263d49b124a3b5 tracing: Fix cpu buffers unavailable due to 'record_disabled' missed
-e02c84f07806431caf7ec572ed5e9c29002e414b tracing: Fix memleak due to race between current_tracer and trace
-3aa25bbf9de5d5d90cdd52d5ff89e187fa8d3f72 crypto:padata: Fix return err for PADATA_RESET
-93f39ea14b9afdc5b6e5a8821298289b39277c4e Huawei BMA: To fix the bug in the iBMA driver code
-f2b1c2dda3849d2e900c00c194b349d83739f29f preempt/dynamic: Fix setup_preempt_mode() return value
-c56b0524ef80bee87e2e36f5c0303fff8ff79ce3 ring-buffer: Do not swap cpu_buffer during resize process
-e4e4fe58952c44aae9e86481f6b262f5df6776b1 ring-buffer: Do not attempt to read past "commit"
-75cfc4eb601d51dddea01659a790036eeccb3e66 ext4: recheck buffer valid after page unlock
-8f6b5578d8c034ab0cb0a7f16068dabe5f559086 netfilter: conntrack: dccp: copy entire header to stack buffer, not just basic one
-8f4bd5a7220accfcfe41d7ac1fe3b2ff960277d1 LoongArch: fix two cpu hotplug problem
-3fb1dd567539731c8c0704f1e5373af471b419a2 !2896 [sync] PR-2867:  netfilter: conntrack: dccp: copy entire header to stack buffer, not just basic one
-6c716362f9806dc5f89f1589865bc4f741615db1 !2019 [sync] PR-1965:  crypto:padata: Fix return err for PADATA_RESET
-96ea00f790014c0b645b48dd9f9d034bf41a2892 !900 [sync] PR-890:  ethtool: ioctl: fix potential NULL deref in ethtool_set_coalesce()
-cac47c697064833a0d3cb154e54bb88f3df98e52 !889 [sync] PR-886:  net: sched: fix NULL pointer dereference in mq_attach
-3aad5766750936efe030af108faccb57637d931a !1424 [sync] PR-1354:  ubi: Fix return value overwrite issue in try_write_vid_and_data()
-1844fce780d5bb6b3196fdd1826ea8a3ec6b41a6 !2899 [sync] PR-2884:  LoongArch: fix two cpu hotplug problem
-c15e40a796bbc4ee855d85c0578ddd4d960dd113 loongarch/kvm: Remove SW timer switch when vcpu is halt polling
-1bddc4cd7d7185cf6ffce08f679da05bab720168 loongarch/kvm: Fix oneshot timer emulation
-9f05b474aaaccf4a845c3774a1a677609d476aed loongarch/kvm: disable hugepage during migration process
-3dae8e520aceb5d76644e87ee06253ba3d56ff18 !2811 [sync] PR-2716:  ext4: recheck buffer valid after page unlock
-65c57c4b62dfa32abb10bb51e7143344af66bb8a !1808 [sync] PR-1768:  bonding: Fix incorrect deletion of ETH_P_8021AD protocol vid from slaves
-39c4aa5bf226695973b40bd65fd2ab9a6612f96f !2633 [sync] PR-2615:  preempt/dynamic: Fix setup_preempt_mode() return value
-9c9793880095788a0e680550611e40df272103d8 !1402 [sync] PR-1399:  bpf: cpumap: Fix memory leak in cpu_map_update_elem
-fe3b32b36e5212766470523f3179887c5d894ff7 !2652 [sync] PR-2377:  tracing: Backport bugfixes
-aab33f8357c64420766435ae40db708bb0a75f08 !1983 [sync] PR-1905:  tracing: Fix memleak due to race between current_tracer and trace
-4d01450450d7ffcd1fc3e9e1385449fe5188c25c !1941 [sync] PR-1900:  tracing: Fix cpu buffers unavailable due to 'record_disabled' missed
-ffb4c6b39dfa95394dfc309852c080abddd8c0d8 !1896 [sync] PR-1853:  ring-buffer: Fix deadloop issue on reading trace_pipe
-40202b73c56e6b52a9c9860c9679b68caa4bacc2 !2043 [sync] PR-1327:  Huawei BMA: To fix the bug in the iBMA driver code
-7127644a36a528d00c574b43e306f902b7f3eca0 !1562 [sync] PR-1527:  arm64/mpam: fix missing kfree domain's ctrl_val arrray
-92f95ff955af97a4e0069bce1f8856702a9f4997 Revert "kconfig: Add script to update openeuler_defconfig"
-d8d60726bf3ab2b5ba8cd0b5c57e3776328ed8fe kconfig: Add script to check & update openeuler_defconfig
-5204ff8f83556da36ec953f80ed6df6e12f6d56b config: update openeuler_defconfig for x86
-fdf45ff48161964f75a3253fe9dce35a3aca8111 config: update openeuler_defconfig for arm64
-4e1b8016440fe098f8b3a05ecb275a76655e473f !2976 Add script to check & update openeuler_defconfig
-3442261f0128d906a1d32b1943c179fe7db96a40 !2918 fix some bugs in loongarch kvm
-2d0e304162767231070597dda6484d7b4478390c !831 [sync] PR-601: fix  test_vmxon failed
-c2cd749ef8c288248922d7b6f49255d9018e7b3f !829 [sync] PR-739: Fix kvm-unit-tests  vmx_cr4_osxsave_test  case failed
+511004351eca006e4efea4b5ba486e0c0a44d191 kvm: x86: Sink cpuid update into vendor-specific set_cr4 functions
+8ebe3ec4827270b9f0d1ecda78cdc28aaa40d025 KVM: nVMX: Inject #GP, not #UD, if "generic" VMXON CR0/CR4 check fails
+a81c37a7c1b043c759cf1b1e89c8d06299787f95 net: sched: fix NULL pointer dereference in mq_attach
+cf19dbb3544a1637d249e875438a6a966f80be7a ethtool: ioctl: fix potential NULL deref in ethtool_set_coalesce()
+4f25a50365b8384fb0f46c9b019e599fbc4df0d9 ubifs: Free memory for tmpfile name
+89025b69dc3f9ed4e90b56bee4358129b2c4c5bb ubifs: Fix memory leak in do_rename
+708b76f05562aad5955ced247373fffdb10dded9 bpf: cpumap: Fix memory leak in cpu_map_update_elem
+e62e775da76a0af15168fa3ac7d92328b9612f88 ubi: Fix return value overwrite issue in try_write_vid_and_data()
+97fdf168ec068a3a3042bcf8da4a38990bb0974e arm64/mpam: fix missing kfree domain's ctrl_val arrray
+c32409dfcb2c6dd87a8e1855ce6cb800abf9af88 mm: disable kernelcore=mirror when no mirror memory
+9c9cf248626c11fe8c3f9b94a32043afc4bcb7fc bonding: Fix incorrect deletion of ETH_P_8021AD protocol vid from slaves
+db1cdbe189cc38ab5885d76950b2a91854ee62bb ring-buffer: Fix deadloop issue on reading trace_pipe
+f275c094f16a4ba6ad54ba77cd58e2369d1cab3a tracing: Fix cpu buffers unavailable due to 'record_disabled' missed
+79f710e1329f98aec0419efb5aec146e057acf41 tracing: Fix memleak due to race between current_tracer and trace
+5ebf7f815dc9120604c349f666840d65e239b16c crypto:padata: Fix return err for PADATA_RESET
+c3b73474211b74b6ece3a15d26839683d5296573 Huawei BMA: To fix the bug in the iBMA driver code
+07995bda3c3c70803a7f9a2dbe5531922454c8f1 preempt/dynamic: Fix setup_preempt_mode() return value
+05a12fd14fc1c05790fa5901fc7ed3f07c0edb89 ring-buffer: Do not swap cpu_buffer during resize process
+0266a46ec184c2f63b5b2a6f886dd9d37e658a5b ring-buffer: Do not attempt to read past "commit"
+b88be051d65e819b234855a3453711e9478a670a ext4: recheck buffer valid after page unlock
+e8af2919c84641935897a52de7fb7dfd3e21f188 !1789 [sync] PR-1650:  mm: disable kernelcore=mirror when no mirror memory
+76b16034da62c7d0663381fc2245bd9dc1d1c9b5 !2020 [sync] PR-1965:  crypto:padata: Fix return err for PADATA_RESET
+4219135dce3579f90d2cc66ecd94a9b90520696a !901 [sync] PR-890:  ethtool: ioctl: fix potential NULL deref in ethtool_set_coalesce()
+1c5ba06cd5f2708b95c0a72e8e6f92a03d36d064 !891 [sync] PR-886:  net: sched: fix NULL pointer dereference in mq_attach
+fbbec6feb37ed538aad312d524ac78aab79dc8b9 !1409 [sync] PR-1354:  ubi: Fix return value overwrite issue in try_write_vid_and_data()
+861388f87e4feb9d7b277ddaeac05e37f90184a0 !1372 [sync] PR-1353:  ubifs mainline bugfix patch backport
+3f5bb4270f0e5daac9bbe0b693fd9a578b56f131 !2812 [sync] PR-2716:  ext4: recheck buffer valid after page unlock
+d5e8cf25c450069c4338df715ed33012c2f31bfc !1809 [sync] PR-1768:  bonding: Fix incorrect deletion of ETH_P_8021AD protocol vid from slaves
+6d3308504bf0e73cb8dac702b1c663a7591122f6 !2634 [sync] PR-2615:  preempt/dynamic: Fix setup_preempt_mode() return value
+08d4aacc572233ca6305561707b2656bbcb99b89 !1401 [sync] PR-1399:  bpf: cpumap: Fix memory leak in cpu_map_update_elem
+5fec433d2df71e125e9e16ad054514730d7c5c6a !2653 [sync] PR-2377:  tracing: Backport bugfixes
+f44822780584aa1ff4527ebe833baf1f19c3f70e !1984 [sync] PR-1905:  tracing: Fix memleak due to race between current_tracer and trace
+50a593dd56ba9dbdb30540a9c685a801841ba335 !1942 [sync] PR-1900:  tracing: Fix cpu buffers unavailable due to 'record_disabled' missed
+35910e73c871097b96012704bc30072f2ad473a7 !1897 [sync] PR-1853:  ring-buffer: Fix deadloop issue on reading trace_pipe
+96668df4da5073d967e41a984673f72950460f1b !2045 [sync] PR-1327:  Huawei BMA: To fix the bug in the iBMA driver code
+f1cebce7566bd879838e732705b8bd49a848a707 !1563 [sync] PR-1527:  arm64/mpam: fix missing kfree domain's ctrl_val arrray
+3aa94789ad9c3628b6452d5bf10e9611c53b331a Revert "kconfig: Add script to update openeuler_defconfig"
+827e9380fc653869e03439cdad5be99cdb3d2f5e kconfig: Add script to check & update openeuler_defconfig
+c11a5c6dc65c785ca4ff4cc5110a4b23d7d1de1f config: update openeuler_defconfig for x86
+dec213497a4523ee12a34e1493db82353bef0cfb config: update openeuler_defconfig for arm64
+adce74d2d4db5a15ec50cf93cb85e71b7d95f073 !2975 Add script to check & update openeuler_defconfig
+732a3c320d710f67c2936e0c5a1827c19f25168a !832 [sync] PR-601: fix  test_vmxon failed
+cbd9ae6fd611bfe5a582216b0e4e59d163a71234 !830 [sync] PR-739: Fix kvm-unit-tests  vmx_cr4_osxsave_test  case failed
 
---===============6896753612693257651==--
+--===============6110545901118075307==--
