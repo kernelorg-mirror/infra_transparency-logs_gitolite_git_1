@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9201735780084836279=="
+Content-Type: multipart/mixed; boundary="===============4163093542714516925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Mon, 27 Nov 2023 16:55:11 -0000
-Message-Id: <170110411109.24742.10363002308749190850@gitolite.kernel.org>
+Date: Mon, 27 Nov 2023 16:57:16 -0000
+Message-Id: <170110423682.25613.8251046610682658820@gitolite.kernel.org>
 
---===============9201735780084836279==
+--===============4163093542714516925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 9552083a783e5e48b90de674d4e3bf23bb855ab0
+  - ref: refs/heads/dev-queue
+    old: c71fdbc575b79eff31db4ea243f98d5f648f7f0f
     new: f8c611e72b3e327247eee3c892b407be3ad5ea12
-    log: revlist-9552083a783e-f8c611e72b3e.txt
+    log: revlist-c71fdbc575b7-f8c611e72b3e.txt
 
---===============9201735780084836279==
+--===============4163093542714516925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9552083a783e-f8c611e72b3e.txt
+Content-Disposition: attachment; filename=revlist-c71fdbc575b7-f8c611e72b3e.txt
 
 c03db704fa78ad3c44b18ccf51d0af6373b1f58f amdgpu: update DMCUB firmware to 0.0.193.0 for DCN31 and DCN314
 0c211dbe9054d7855f9688b83af76de0044f7d3c Merge branch 'amd-staging' into 'main'
@@ -51,4 +51,4 @@ f440b984ca5ec4ed93983856d83d2fee48a64fae ice: update ice DDP wireless_edge packa
 adbdc241a246d2c25c5b7dc09c09efa6cadab1fc Merge branch 'mt7922-bt' into 'main'
 f8c611e72b3e327247eee3c892b407be3ad5ea12 Merge branch 'ice-edge' into 'main'
 
---===============9201735780084836279==--
+--===============4163093542714516925==--
