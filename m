@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0079055406555216490=="
+Content-Type: multipart/mixed; boundary="===============0274339465033532774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Mon, 27 Nov 2023 09:27:10 -0000
-Message-Id: <170107723050.958.18069183083848143705@gitolite.kernel.org>
+Date: Mon, 27 Nov 2023 09:27:13 -0000
+Message-Id: <170107723375.1089.14735149766178022840@gitolite.kernel.org>
 
---===============0079055406555216490==
+--===============0274339465033532774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/spdx-linus
     old: d2f51b3516dade79269ff45eae2a7668ae711b25
     new: 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab
     log: revlist-d2f51b3516da-2cc14f52aeb7.txt
 
---===============0079055406555216490==
+--===============0274339465033532774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701077229 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701077233 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1701077229-a8ba9a8286abcdb82feefe1d73080a4ccd0e1fdc
+nonce 1701077232-51d073c32f07c95d333dacf147024085bd775b7d
 
-d2f51b3516dade79269ff45eae2a7668ae711b25 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab refs/heads/main
+d2f51b3516dade79269ff45eae2a7668ae711b25 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVkYO0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Zx4P/1IglLK9Wf1a5PRcZ31N
-becaV5n1dgCCMgys8Qh7wkwAwHuE/m3RmPNax8Gy7+o13P7UWLAAba5xKjAMhr2q
-rfLujR3NNpp3ZuwGBaJwzuWs+09SR/hom2p2il+0XaP0sJ/DwEbSla9dggTeqoFN
-cILxq+iBaiE13e7mvONv+zdnfVJM79jsosRAuKt9k6wCs2wrw4jSS8NX3XXmoy/4
-+/xHrkzYvTN2Appe6u2HTTUlClylNQLEj6E7lco/V8xhDWv/nfBAJlZnCzOxPLt4
-VnxhXe3wZWbij9YJKIicvIbsEHy9VRUsQmuLH2eye3+rMMdIYP2KQQNFhzDwlOCJ
-IDTEwKzwfWtP1mOr6BLFCmStPS5oGAn00yw1WgfuDBt/d5eUoEMFrJCJ+ZhdS1eo
-yVy+Ji/tA1rKTu3roccmOpLHwXCvxnfku9WO/LtaYXQ7Uv5wK99besVjL/bt8LxJ
-iziTalQ2idrplzero7JOiSiqVaz6b3UDk6XkOTt51GTw6wVFmJK1gpJFEPanj2cB
-9EAvPcvUhyVBfCIA6MhxrEH9gpQxK1qPic27xjzMvtzdGsFR/pa4DDk9M0IEDfht
-9rf+RgRQv3EFvNODTcOitQkBHKxdsHlsl6EAoNpuvBM1hdJOkqHvToq9W+w3lVUf
-L/gAmfak4w7EkNH9xQDihqu6
-=tBsC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVkYPEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cHsP/1uzmes9WPmfe6enRjHA
+lE6alCfTSh5lC5vwPpF5X2RCFai3R0Y8s4moC5MHNF95uEKdl8u14drdH1INWBXJ
+8eSaZ6sq0TUDk53z5BnysY3AJ5OVF4J3fEKuUo/Z1BsW51mkXjM+WCHLFuV+eh0k
+imOQjwTfzCKmlPejCfASeBf3jDtMbYaM2jxrI1484Kpj6FBzGsAIwNIBrB7su8u1
+pQ3PDsPlvpJKi44yk15+ojSRJ9P1ws1Cn9Ls1dPKLPWVFNvjlHlWq9c18NQCIXTE
+lCM8Xy/y+9SPXUvTYuYo1yNa7Mcv7J1EeaOdPzCyHqDFnoZglpfUsUS3cC+seee9
+1QDu3rm4+5VMi70Vvqp6ZjRDhdfr1xFX97oNrmbBBQ9/qcy50Ye9O4B/AHZL1Uer
+NwLWwgCmSEb2t3z/uS1CuKuLVe2rNRU/h4TQ31qhY8yHvCouHYeWFwAgARLs8Z+1
+GXGY0Qw+BCaMRw+XosBZfV2LrYO37H/3qgb8SA0UyJIuJCg2nf/dO8WsE2JgaOrQ
+CVaTs5C9r3bk7w9LqqLJ8hOVSS6CqRsUTYrKsoKSLERGhc8JXLdvGF391HffZCk1
+Whg9PkDyl/yTZUElzlZbY5+VPKcZJNQILj8v1GTXmoga9efus6XRdgeaMUpE5iZT
+/YTVugBlO9bVak9wxxVEf8qL
+=BlHt
 -----END PGP SIGNATURE-----
 
---===============0079055406555216490==
+--===============0274339465033532774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ d2da77f431ac49b5763b88751a75f70daa46296c Merge tag 'parisc-for-6.7-rc3' of git:/
 5b2b1173a93fa056b4539ef52e5f03148345d498 Merge tag 'trace-v6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab Linux 6.7-rc3
 
---===============0079055406555216490==--
+--===============0274339465033532774==--
