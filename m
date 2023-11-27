@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 27 Nov 2023 13:55:08 -0000
-Message-Id: <170109330868.18576.15202491130427407982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 27 Nov 2023 13:55:39 -0000
+Message-Id: <170109333932.18870.2707591048407489824@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/main
-    old: 9fdcf6394be2f3e641dab82365d4c0693177003e
-    new: cc44f3b8aebb15f708cdb2842a2680093632e760
+  - ref: refs/heads/master
+    old: e8a339b5235e294f29153149ea7cf26a9a87dbea
+    new: b16904fd9f01b580db357ef2b1cc9e86d89576c2
     log: |
-         0a18a7292a66532633d9586521f0b954c68a9fbc linux-firmware: update firmware for MT7921 WiFi device
-         cc44f3b8aebb15f708cdb2842a2680093632e760 Merge branch 'mt7921-wifi' into 'main'
+         b16904fd9f01b580db357ef2b1cc9e86d89576c2 bpf: Fix a few selftest failures due to llvm18 change
          
