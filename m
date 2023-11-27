@@ -1,58 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============5691653963449213468=="
+Content-Type: multipart/mixed; boundary="===============3496945004662277839=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 27 Nov 2023 13:45:57 -0000
-Message-Id: <170109275757.10934.4659967620123728503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
+Date: Mon, 27 Nov 2023 13:45:58 -0000
+Message-Id: <170109275803.10982.3390568520060775655@gitolite.kernel.org>
 
---===============5691653963449213468==
+--===============3496945004662277839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab
-    new: ee6236027218f8531916f1c5caa5dc330379f287
+  - ref: refs/heads/main
+    old: 44e7b73c331f557fb1e6cddada11205a7a96de46
+    new: eaa717e912eef22706a3ccfb579a544ac1ee0904
     log: |
-         be6f9a39969a4ad01f0051a9b94af6e7f4d2d7ac mei: pxp: fix mei_pxp_send_message return value
-         8f06aee8089cf42fd99a20184501bd1347ce61b9 misc: mei: client.c: return negative error code in mei_cl_write
-         ee6236027218f8531916f1c5caa5dc330379f287 misc: mei: client.c: fix problem of return '-EOVERFLOW' in mei_cl_write
+         34810aa4ccdd6bd3a4cc9246680a3cea2c3a506c LoongArch: Load vmlinux.efi to the link address
+         3472c2b5ee2ebd4790e5ba72987463675e40749a lzma: Relax memory limit for lzma decompressor
+         769ae435511a3c061409750f6a269ceca5ac1ce6 m68k: fix getrandom() use with uclibc
+         eaa717e912eef22706a3ccfb579a544ac1ee0904 LoongArch: Fix an issue with relocatable vmlinux
          
+  - ref: refs/heads/master
+    old: 2495ccfc52069ecec46031587c94b03ae66ed5d2
+    new: eaa717e912eef22706a3ccfb579a544ac1ee0904
+    log: revlist-2495ccfc5206-eaa717e912ee.txt
 
---===============5691653963449213468==
+--===============3496945004662277839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2495ccfc5206-eaa717e912ee.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701092756 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1701092755-3c0153fc6c3098712628cf11927c745009ab8184
+bd0200c47c45dd420244b39ddabcecdab1fb9a8e kexec: update manpage with explicit mention of clean kexec
+c36d3e8b2e9930b90b024429fa9c7a863a1a8a72 kexec: define KEXEC_UPDATE_ELFCOREHDR
+d6cfd298484451508817757b3d75820ea1f7d919 crashdump: introduce the hotplug command line options
+75ac71fd94fff254cc86b31c55d5f75dda423ea3 crashdump: setup general hotplug support
+a56376080a9378a40a85cef455f7455a48d171ce crashdump: exclude elfcorehdr segment from digest for hotplug
+d59d17f372398d270f9d0f1aaf37f5ad1c4a601d crashdump/x86: identify elfcorehdr segment for hotplug
+118b567ce74af750535c5b77ab8c97b0e1a6b931 crashdump/x86: set the elfcorehdr segment size for hotplug
+6419b008fde783fd0cc2cc266bd1c9cf35e99a0e kexec: provide a memfd_create() wrapper if not present in libc
+ab3a70af85679bbc5efe63057c7f65365ed6e748 kexec/loongarch64: fix 'make dist' file loss issue
+74d66d405f30fb247da9684f6e29bbef8a4f56cf workflow: update to Ubuntu 22.04
+44e7b73c331f557fb1e6cddada11205a7a96de46 kexec: ppc64: print help to stdout instead of stderr
+34810aa4ccdd6bd3a4cc9246680a3cea2c3a506c LoongArch: Load vmlinux.efi to the link address
+3472c2b5ee2ebd4790e5ba72987463675e40749a lzma: Relax memory limit for lzma decompressor
+769ae435511a3c061409750f6a269ceca5ac1ce6 m68k: fix getrandom() use with uclibc
+eaa717e912eef22706a3ccfb579a544ac1ee0904 LoongArch: Fix an issue with relocatable vmlinux
 
-2cc14f52aeb78ce3f29677c2de1f06c0e91471ab ee6236027218f8531916f1c5caa5dc330379f287 refs/heads/char-misc-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVknZQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WrkQANHyW4UhXc0haNco+TXw
-IPA9/wr+JfkacWPBgOcSH7D43OeWA4GBnrYGYKrGh74U9znk6vmOsO/9QRcGa2Xw
-277yaCmUy+moYN3c3KXiAsPy9GR9jlb+dORY8rmT2OdEuljtISmS76MeQtdJPAB2
-QuFMCnSCvsuL3afaDiHRR/H7Sm6vCo8etiwE+CJmmCs4GT1YM49o5W0X/FmjghTa
-rqng/nZfTw2UIXvA6HMXZpJ/5Tj+nHqaGa/zHA/TyX+aJKYAyiuQrE4k1/yxr4R3
-h5p3luXX1ZG+TlwT8NOjOQteiGMlGm6hyfyz+aiTBEUoztXJ8jBv0vIOCWNP87Kj
-CRljkzbiij0iOQfl9ayAPC3xDRZiArRkqae18EKMJ4YiHeyS0xdtzaKSRRTHe4S8
-k0ga58oi8VMPPlDeyUuOYFYL2y/DINODz32pYJWeZYE3344k0+RkmgED4GjxMJWv
-AX9ExpvFUyOUC9QpE9oPYDrBLQgcFchkXoy8gYruXNYhUL3fL+I7qg+0fkuA4v00
-Zc651b9U+KBIyRWLjB+R7gZvQLadkKyP2SBY0c49rMLoaINXm+IZkHm1BzbmUUX5
-lBVW3jl1jNXmz08y3czuUeOiVJy8c17ZnWfhDZj5MUr7sEMLzBAUlAGlINNF1JWJ
-FlCflfSJfgvs91933DARCqVm
-=nGpg
------END PGP SIGNATURE-----
-
---===============5691653963449213468==--
+--===============3496945004662277839==--
