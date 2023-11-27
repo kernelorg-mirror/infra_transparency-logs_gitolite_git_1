@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 27 Nov 2023 13:40:37 -0000
-Message-Id: <170109243782.6621.11724086299969880233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 27 Nov 2023 13:40:56 -0000
+Message-Id: <170109245688.6833.9771211028840820390@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/for-linus
-    old: 1805a6d269bea9a8c8a60b6a36eb48ec91ccd3cf
-    new: f83d38def6b1b00c9bb17173837045b41df7e7d7
+  - ref: refs/heads/perf-tools-next
+    old: acbf6de674ef7b1b5870b25e7b3c695bf84273d0
+    new: 4a18ab467820b75436ea9ddd42ee7cb10efa491c
     log: |
-         f83d38def6b1b00c9bb17173837045b41df7e7d7 ASoC: imx-rpmsg: SND_SOC_IMX_RPMSG should depend on OF and I2C
-         
-  - ref: refs/heads/for-next
-    old: dd352f19c91c970519ca599b8894d0c9054fda86
-    new: c1c3073d3085a38b421fcfce241879a3d171c8a8
-    log: |
-         f83d38def6b1b00c9bb17173837045b41df7e7d7 ASoC: imx-rpmsg: SND_SOC_IMX_RPMSG should depend on OF and I2C
-         c1c3073d3085a38b421fcfce241879a3d171c8a8 Merge remote-tracking branch 'asoc/for-6.8' into asoc-next
+         280b4e4a9e8009affd8f20ec2d467cb4deb05c1c perf tools: Address python 3.6 DeprecationWarning for string scapes
+         72b4ca7e993e94f09bcf6d19fc385a2e8060c71f perf test: Remove atomics from test_loop to avoid test failures
+         b457c526072aa8ab312517010837b06d38b9bb66 perf script python: Fail check on dynamic allocation
+         cd38d6b5fa2dfc3beb7311f0b373e3141620c76b perf script perl: Fail check on dynamic allocation
+         697579629f850d8f863147351e12e74c50114a8a perf test: Basic branch counter support
+         2dbba30fd69b604802a9535b74bddb5bcca23793 perf cs-etm: Bump minimum OpenCSD version to ensure a bugfix is present
+         26218331f49c858d52e60418cf3cef4c3fa6cf2e perf auxtrace: Add 'T' itrace option for timestamp trace
+         a4271827e609d30b7255aa7e4c453a8f3fe36a7b perf cs-etm: Enable itrace option 'T'
+         a24d9d9dc096fc0d0bd85302c9a4fe4fe3b1107b perf parse-events: Make legacy events lower priority than sysfs/JSON
+         4a18ab467820b75436ea9ddd42ee7cb10efa491c perf lock: Fix a memory leak on an error path
          
