@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Mon, 27 Nov 2023 15:31:44 -0000
-Message-Id: <170109910490.26473.17841096069319068124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 27 Nov 2023 15:34:20 -0000
+Message-Id: <170109926047.27443.11818911036219390121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/network/wireless/iwd
+user: holtmann
 changes:
-  - ref: refs/heads/next
-    old: 62b14b9e86a1c94b1a2f41a52adcfda822a9863e
-    new: 034c9ec5d5b6c608578776fa99f47060388e81c9
+  - ref: refs/heads/master
+    old: e3b5522769a2ea04f6d6a523b5f0b747ca304c8e
+    new: 8ab24b423b775bdc650b4c8b1b2c30d4012032d5
     log: |
-         0cb19e50a911aaadf49eed120392e429d6e1fa0c pmdomain: arm: Avoid polling for scmi_perf_domain
-         034c9ec5d5b6c608578776fa99f47060388e81c9 pmdomain: Merge branch fixes into next
+         8ab24b423b775bdc650b4c8b1b2c30d4012032d5 build: Require at least version 0.61 when building with external ELL
          
