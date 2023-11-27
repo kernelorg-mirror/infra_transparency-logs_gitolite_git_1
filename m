@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2828287470923299504=="
+Content-Type: multipart/mixed; boundary="===============3492862946382498103=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 27 Nov 2023 16:47:50 -0000
-Message-Id: <170110367069.18349.1793118435740561007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 27 Nov 2023 16:47:57 -0000
+Message-Id: <170110367784.18441.484124038932595752@gitolite.kernel.org>
 
---===============2828287470923299504==
+--===============3492862946382498103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/spi-6.8
     old: 4c3ff31a85e39d7e216e86934b694b6846433435
     new: 8e6a43961f24cf841d3c0d199521d0b284d948b9
     log: |
          8e6a43961f24cf841d3c0d199521d0b284d948b9 spi: sprd: adi: Use devm_register_restart_handler()
          
 
---===============2828287470923299504==
+--===============3492862946382498103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1701103669 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1701103668-e4c32a2d13f1c59a18ba62075972aa60df6f21cd
+pusher Mark Brown <broonie@kernel.org> 1701103676 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1701103675-a501ea183626040fe851f03f03a16b05aeecc9aa
 
-4c3ff31a85e39d7e216e86934b694b6846433435 8e6a43961f24cf841d3c0d199521d0b284d948b9 refs/heads/for-6.8
+4c3ff31a85e39d7e216e86934b694b6846433435 8e6a43961f24cf841d3c0d199521d0b284d948b9 refs/heads/spi-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVkyDUTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0J6zB/9ssyHpaMZvJ2fOpEreGQyLeQDGCI02
-3QpppVtZXjbUlbJDCjjOV9DZP2I1sjQ/BXFidYAY1oaVEspvUCB3hMchUNTFbxZO
-lHD+Y2ylpw7USNiA9gOucDlJ/rFr8rRWq2KxnHS2IKdXFuQkhTOcg4WLhr+GLfuG
-N08E1tBRGBdk5cIQVDJiT39aWctI8Z2VFYfKjhx1TGdaHsmvQNLZuWMCAuKV0hzC
-AxSbelG3uUofy7cCW8Z4yYnGJwFVRd0St/TsqaQsWS7M2pjZRQOa/R38HyJpQlyQ
-hfxugFJMv9DMl4PQKYPEuY9Jj2OVs2fx4Df/Q0cPKo5h1gFlaIy1jrKx
-=QqDY
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVkyDwTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0IkRB/45wlqFZbcyK8CTQ4f769of4xNGb49y
+FYJBFGVo/Q6BRTwAeUQ/eT6UgXXqA8fouBeOrwDmsJ4rzEeU2+S91/YbD37DB32n
+fvPjBe0+k/L00Dwmf3ltq5AaQYJTQfItVdFD34c2yh1nEL22qwzWMpcOe2hZ9/ph
+pao8qlOodfQkzowkOjlBXZ9IQgADsj5SR1UJXppEq3fAho9CKte2+tc/POuAWZtA
+qbXasRfuohx+MgtP2ny4LNV3dM5EdGNp8bIlQ6cuK2/R0PGXWm+ynq8evtNUY4S7
+mYwGBINEC765LQfUUtwUkXW+FHpxsP2sQphx6jPM8No2ymBkU09eW76c
+=HWxV
 -----END PGP SIGNATURE-----
 
---===============2828287470923299504==--
+--===============3492862946382498103==--
