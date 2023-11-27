@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2653211760306804723=="
+Content-Type: multipart/mixed; boundary="===============1030173857592967716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 27 Nov 2023 09:26:54 -0000
-Message-Id: <170107721484.704.5892737768772070921@gitolite.kernel.org>
+Date: Mon, 27 Nov 2023 09:27:06 -0000
+Message-Id: <170107722663.886.11957181993962579116@gitolite.kernel.org>
 
---===============2653211760306804723==
+--===============1030173857592967716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: 131d8d42e1e17856946a3ddf78cf02839799ac6a
-    new: 8ef7a56c42b091428fb13c11f3860b46504ddf49
-    log: revlist-131d8d42e1e1-8ef7a56c42b0.txt
+  - ref: refs/heads/bus_cleanup
+    old: 9f399d57a8d0d953a6f66823462a0b24658f3cad
+    new: 156df58e79d0b7da1da6d99567786543081b3337
+    log: revlist-9f399d57a8d0-156df58e79d0.txt
 
---===============2653211760306804723==
+--===============1030173857592967716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701077212 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701077225 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1701077211-3bec720c1bedea1978b794d94f55c1891d78eab6
+nonce 1701077224-cf91e143076aa5e6daae1cafc1ffd87afe98f1fa
 
-131d8d42e1e17856946a3ddf78cf02839799ac6a 8ef7a56c42b091428fb13c11f3860b46504ddf49 refs/heads/class_cleanup
+9f399d57a8d0d953a6f66823462a0b24658f3cad 156df58e79d0b7da1da6d99567786543081b3337 refs/heads/bus_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVkYNwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BTUQALciYvpdyb6Tpuqt3Gfb
-AK7Q9ZKLHUsuLGuew3mcRlDkX6/zkoDoEaLulSC9/Wms1M165q88iIAcdlvR2HSa
-UEVnsK7/FLstEnjrkIK3f87MLx1dyTYEQGEDyx/qb2bG9tYMGDjQyXvZNpQ1qI88
-qpuS9Zsnbn8GqFc17LZuTj/SMP7QjH2MOKMZ2f9XJ9kc4pqiy/A0sa4U3ZN/uu+k
-PjYXfquy+saXG//xVWyx/hLcmThXHw4woMwXGb59kLNtYkB+hg6P76Y4Ztoz1enr
-BeC2Aa7wMcakFqHoO1k8/KoUIX1+2Adb41BBf6bOHabs8b3J4YEEblkAyJYUGwzA
-2rkJi2e0GXI+Qohrk8XspBNiAggWR+FAyl8kJe+5eZTbnVkPF2BGRS0S2acMGYsj
-/k63CEBgZIottzQOkAeG2lX82k7Bj9NMGHNr0hGPaHKIsp+QINH/5keIKUvPEigo
-fDJLy9ffSndFbJLkB1T4wfZpFaoIN+xkZRaMG9gHNq5q2KBp75oicqQ5AtoP4+q3
-+hYDQtMUi3wFurQEVKvmcCga60jqPVhyPRymVb2M77/sCcEj229aS/QI4TxRWm1v
-ystvvI4boE3GoiuMCvtKSs2/x+RuUgnGqEtTg0xKwcH0FSTgODhEkqnfBaZL3Bfd
-StcfmTrKiQiORTzPf9382f1m
-=1n1d
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVkYOkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EroP+gLSshQykg6QxttbtsKo
+z9NBl24WBXH+P6Bbpr+eHS2WK21S76LC/Y+BmHjRLHpCd3HePBtoY9G9FU/NaB0G
+MbbP7vw3X75NfNO7UVg9VX2yCcVzK8d2LafqLbrC9SztnFRdvAfmVKuMwjjeKfYb
+UZufPPM4B8QOiJlvJk2kTdP/Ohbp8rbR1SCTyMld6FifDwZU869NPSQzoudJvAwL
+yvb/G9ybFXEpQvxJljWzo+eLb/+0gniVlDasAMj5AbxUfuEVGPkkjLwFLnjvzBgv
+1CltIddW7hUut3/BQzayDvcsb/nG59c3iX33y2VqSrdWjGuVCnkDsqTKNNa97hAp
+YBEJoklsXNc2Pcj3LMArej3zSMp/fhU0yMf9yvtnwn+htV2XTFiPSN7NpMpdXxW+
+fo7wLovK0IB8+CpKdSteuLx4Fylt825OBulTQdUNfNGtxCRpELlNo+g3Mlj+62XM
++2xjRamrhwScCSA3X5d446NW2I6UkKnOhkdR0e45nLiyP1dlm01a2RFpkC5JbJnY
+MQHo7TULyYHsGYFZGM1PlVzp5tQhYRjoMlSsYaD1oR5Z6DCUN69Fbw+5fvnhJw6K
+tljbkE69f3necnkK5GpBBpB28KvM04ROz/5OITE1wBOOeKKQ9Pniwnb7YJ/TVg7V
+7Yu2cx8HZMfWje/VK/GOR4o7
+=EElL
 -----END PGP SIGNATURE-----
 
---===============2653211760306804723==
+--===============1030173857592967716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-131d8d42e1e1-8ef7a56c42b0.txt
+Content-Disposition: attachment; filename=revlist-9f399d57a8d0-156df58e79d0.txt
 
 258ea41c926b7b3a16d0d7aa210a1401c4a1601b Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 3.0 PHY"
 7a784bcdd7e54f0599da3b2360e472238412623e Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 2.0 PHY"
@@ -331,19 +331,6 @@ e81fe505202fdc07b1925aa70fca5e2a714eb259 Merge tag 'perf-urgent-2023-11-26' of g
 d2da77f431ac49b5763b88751a75f70daa46296c Merge tag 'parisc-for-6.7-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 5b2b1173a93fa056b4539ef52e5f03148345d498 Merge tag 'trace-v6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab Linux 6.7-rc3
-a05e029f07c458ec031b591395511d2b226346bb coda: psdev: make coda_psdev_class a static const structure
-99aaff6352c3e057525eb0d178074e89155e7c56 cuse: make cuse_class a static const structure
-33a4e3abed01b0fa3b8c1e57e50b3a0ce125f2d1 pstore: pmsg: make pmsg_class a static const structure
-da4e77b8908cd099dd11e134054760f3d193e936 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
-9fc03c5c966b6f211b888385c50de95efeedf05a PM: wakeup: make wakeup_class a static const structure
-756baa5deb81ab4ba26ab2c33533daea1f869a45 PM / devfreq: make all 'class' structures const
-1b7e9814141bff9cfcefe7b2b78ffad7c15eb6f4 dca: make dca_class a static const structure
-abbd1ce76af6775ede7daa1ff03dc7349c104908 gnss: make gnss_class a static const structure
-7b66d23d68f8f8a330225e54a6462dfaa73acb5d extcon: make extcon_class a static const structure
-e89c8e816e81cdc8a3431cf72915d3b5f933879e misc: c2port: core: make c2port_class a static const structure
-874a805e9438ad5fc30561aba5adddff65122745 nvdimm: make nd_class constant
-36a1e59746cd63954ce3b426ba330641faa8c30f PCI: endpoint: make pci_epc_class constant
-0ccbb3698e65e1292353ae7bfe19dcc599dd0275 PCI: switchtec: make switchtec_class constant
-8ef7a56c42b091428fb13c11f3860b46504ddf49 crypto: qat: make adf_ctl_class constant
+156df58e79d0b7da1da6d99567786543081b3337 FIXME: driver core: platform: make platform_bus_type constant
 
---===============2653211760306804723==--
+--===============1030173857592967716==--
