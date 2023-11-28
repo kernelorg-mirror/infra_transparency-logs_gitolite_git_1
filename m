@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7093266883369957857=="
+Content-Type: multipart/mixed; boundary="===============1029164082069085113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 28 Nov 2023 17:46:07 -0000
-Message-Id: <170119356736.9994.9846570253714825488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 28 Nov 2023 17:46:13 -0000
+Message-Id: <170119357359.10129.5717845874995314946@gitolite.kernel.org>
 
---===============7093266883369957857==
+--===============1029164082069085113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/asoc-6.7
     old: 28d8051efae17b6d83544f3c1cf06f6a71677e91
     new: 3acc58f55edf786971898fdb6bc180bc77acb2a6
     log: |
@@ -26,28 +26,28 @@ changes:
          3acc58f55edf786971898fdb6bc180bc77acb2a6 ASoC: hdac_hda: Conditionally register dais for HDMI and Analog
          
 
---===============7093266883369957857==
+--===============1029164082069085113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1701193565 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1701193565-a78ab16958f4e4d11899b67bf2c518b3e19053a3
+pusher C3F436CA30F5D8EB 1701193572 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1701193571-7887ccc1a6fefd319a55c6308dd77223f1f00f3a
 
-28d8051efae17b6d83544f3c1cf06f6a71677e91 3acc58f55edf786971898fdb6bc180bc77acb2a6 refs/heads/for-6.7
+28d8051efae17b6d83544f3c1cf06f6a71677e91 3acc58f55edf786971898fdb6bc180bc77acb2a6 refs/heads/asoc-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVmJ10ACgkQJNaLcl1U
-h9CJqAf+JHAH6EaDlbrXvyTxFMbHvYg7tvk6Rwy9LPxEJq3RHrN3Wm1GtP0wGwOW
-qpGTOtq5BNHEqgoxxyFNTh9dNXf47pHFuriGUGkos+MU9yS2JUca+IBWo7jUf2yn
-FjN6tNkYGVzUHy8jjj++q41p8HwreffXMtiigdJpP9RQFZxBrW7MRVxClnkbREoc
-Sp2Gh5cCbVTEajOfC/UvTD8HHajUEHltmsAgddJdy2biR/1F6CaBl6T+xanHnexm
-rNTqeLQ+Nejv335L8U+Sd/C7B2oHHBcwAbSRZn+z7WF+UEkXYQ1kJTfuYdHCoiV5
-Uq6Hqx8kSy+lGLd6Rjh38ntNh5MW6Q==
-=mB8R
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVmJ2QACgkQJNaLcl1U
+h9Dndwf/R/lpxvmgmrvWZMrfPzbWXj7UL6iRzmBRRZpKiAKo1zNthE7AWKf4XXS6
+NCAQeBETUP3x2G7DtMiopdPjIBqt2Wg6SLWQpEvJaxjzF+8es0HtKeNDmBoQI+gj
+o2XYxVWaudIJW4dq4fNd7Z6iBiTOQ9Nx8GD48xxKLOfBho1C0ZbB+UDwmizfUWz6
+OkgC1ECR/+8U91iynPMBlVSnuwkOl+oKlkWUGztWK5p0Nxx+sssSPlSaWYwNOlam
+r+N+VSOJyDdpEv4iVh7FlUT0tUZ/oIqhfeYn+5byjwnd3WfWDHF5hmotLXNuYw8A
+AQhpF1TG8jT9TB6SDQVtYv7KYHd78g==
+=Vfgu
 -----END PGP SIGNATURE-----
 
---===============7093266883369957857==--
+--===============1029164082069085113==--
