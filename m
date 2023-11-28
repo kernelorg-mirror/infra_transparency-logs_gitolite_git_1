@@ -1,56 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============7499115176931517350=="
+Content-Type: multipart/mixed; boundary="===============5067294613798596301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 28 Nov 2023 16:51:30 -0000
-Message-Id: <170119029082.18890.899796560552526328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 28 Nov 2023 16:52:24 -0000
+Message-Id: <170119034449.19301.15868499232310905989@gitolite.kernel.org>
 
---===============7499115176931517350==
+--===============5067294613798596301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 717bf4b5d0e5b6779ff7d8b9e34e87c97d9f94a7
-    new: e106fa77b7839467ae504de239cf738bd6e40beb
-    log: |
-         e106fa77b7839467ae504de239cf738bd6e40beb Notes added by 'git notes add'
-         
+  - ref: refs/heads/arm64-lpa2-v6-part1
+    old: 22fa95050e6b8ab27cd703bd61d9779b7fba4ea8
+    new: 1107d3bc3caf35b1330da5bfb12e9bcc18c36e6b
+    log: revlist-22fa95050e6b-1107d3bc3caf.txt
 
---===============7499115176931517350==
+--===============5067294613798596301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-22fa95050e6b-1107d3bc3caf.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701190289 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1701190288-2157818abe4f78c64782f9570bcad40093f3b93e
+47507b98db10f010c36d257464e9e597b5061387 arm64: cpufeature: Add helper to test for CPU feature overrides
+0b751adab149902ea7e77317ca30194dd8f6f173 arm64: kaslr: Use feature override instead of parsing the cmdline again
+09130d2bb18d139a083e14462fa24e58cfad194c arm64: idreg-override: Create a pseudo feature for rodata=off
+04292f835456c2be13ddf625dcbf726ae54a6064 arm64: Add helpers to probe local CPU for PAC and BTI support
+57076bf622bf2062ecbab6c0fec2d086ac3fffce arm64: head: allocate more pages for the kernel mapping
+2f329478c26c4904637731d2a5ed840f23349f87 arm64: head: move memstart_offset_seed handling to C code
+fb27d0ec7decc423b03592f4550d59242e175b76 arm64: mm: Make kaslr_requires_kpti() a static inline
+470ecad04c234628d75db5588954a55144d33eb1 arm64: mmu: Make __cpu_replace_ttbr1() out of line
+c3c13e1660f70930a02743d343c796dc2da2593d arm64: head: Move early kernel mapping routines into C code
+692c6b95811890356b1039992251c5af4dd7e70c arm64: mm: Use 48-bit virtual addressing for the permanent ID map
+299b747e93b300afed618832ca8f269056f0a3b9 arm64: pgtable: Decouple PGDIR size macros from PGD/PUD/PMD levels
+8ecda00cfd071d8488763741158774617d4e21ff arm64: kernel: Create initial ID map from C code
+c8b38236b7c2f36c8c4750ee8f6a2fa224a587c4 arm64: mm: avoid fixmap for early swapper_pg_dir updates
+d0d7044f7f997b7a567622c6d82f93edc1959e0f arm64: mm: omit redundant remap of kernel image
+1107d3bc3caf35b1330da5bfb12e9bcc18c36e6b arm64: Revert "mm: provide idmap pointer to cpu_replace_ttbr1()"
 
-717bf4b5d0e5b6779ff7d8b9e34e87c97d9f94a7 e106fa77b7839467ae504de239cf738bd6e40beb refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVmGpEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GQ0P/0VB4LtPeRP9pn/xmRwR
-vXQyNpLNcSCRXyB8aU6mW5XMEy0+0whut0hwi66CsnXNlikrleFJMi8tjfv2uQRk
-r2/d/A7nj3czbGu+Hx89clAkKDa2ES/+HTV1FsfeFNu21oXJE5m83l/1/Oilob7l
-D40w77B+ccqz2eSSFAzdrQGG/v5WQv9YrEE58Qtak1cYrBRaGNxpd2LrJgYCMX7u
-ozsG+YrL9k/ixyaXXsXaDaC9RNf4Cwau/o3qlISc9tK79jnKlWDqf0SB9qA21y+t
-tVKXirl5K2+4ID67Kfl5Tr/0oDs0oD5Vue6KJfVBAkcNLXu2Ip5yxrAxaU/v+S9J
-cofxUTLufsDXGXbX3zwZjxy0/QVMAfC75F7RpVvwB2Y/9bkDAqpYuoyAkrw2MHGM
-NS+AvgG+Ysf7x4Q3BFjRrpLHvSKZK4VQgVBDTKNkARYaajexe0QdROJ/9yrubONT
-v8jFZE1RnWP9V/aRjLLhVJtuzjD3Gygja/erqU3B7r+Tfk7eL21ZLmJQSrmYU2sM
-oHu9gRjV8Y3xtooLDP/LPbI+95yBMqVwZncl0qVQ+WboAa8NgV3KynS/BR5AIU03
-0wWc8aczYiLab7iC0SnfZOyJfXVbUmvdW4D815TA28crlIGoZL+DWAB3FpJFt8hU
-K+zarS6WdOFstpb5RPscUhYm
-=bUSz
------END PGP SIGNATURE-----
-
---===============7499115176931517350==--
+--===============5067294613798596301==--
