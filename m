@@ -1,43 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Tue, 28 Nov 2023 09:32:09 -0000
-Message-Id: <170116392943.2119.3748352401756233305@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0369945409545413809=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 28 Nov 2023 09:48:58 -0000
+Message-Id: <170116493819.27767.9886043336154579742@gitolite.kernel.org>
+
+--===============0369945409545413809==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: beabd6ea98fb86ef053f9a25b8f3bdf91bef4be1
-    new: 273eac6f81f3427b5219f85d46ef26cc78669a6e
+    old: 487570fa6a9533e4f2ba1b4502a12e236832f6eb
+    new: 3a4675938f4738ddc6232e62dfd4e86d18517c78
     log: |
-         d74d8cdefcdcb8acf3be63eca6c5b5cefd534a8c arm64: dts: renesas: r9a09g011: Add missing space in compatible
-         95d516f3eb96bac466a6bfec28a1e55b8ed5160b ARM: dts: renesas: r9a06g032: Add missing space in compatible
-         a89ef75a010408c660879f7e4a9522c5b76f4408 Merge branch 'renesas-dts-for-v6.8' into renesas-next
-         273eac6f81f3427b5219f85d46ef26cc78669a6e Merge branch 'renesas-next' into renesas-devel
+         3a4675938f4738ddc6232e62dfd4e86d18517c78 drop gpio patches from 5.10 and 5.15
          
-  - ref: refs/heads/next
-    old: c11a6389476fe497dae665415cf10a42b81dcc61
-    new: a89ef75a010408c660879f7e4a9522c5b76f4408
-    log: |
-         d74d8cdefcdcb8acf3be63eca6c5b5cefd534a8c arm64: dts: renesas: r9a09g011: Add missing space in compatible
-         95d516f3eb96bac466a6bfec28a1e55b8ed5160b ARM: dts: renesas: r9a06g032: Add missing space in compatible
-         a89ef75a010408c660879f7e4a9522c5b76f4408 Merge branch 'renesas-dts-for-v6.8' into renesas-next
-         
-  - ref: refs/heads/renesas-dts-for-v6.8
-    old: c9a0ed13382660c9f080ca657616b0a83ad25a66
-    new: 95d516f3eb96bac466a6bfec28a1e55b8ed5160b
-    log: |
-         d74d8cdefcdcb8acf3be63eca6c5b5cefd534a8c arm64: dts: renesas: r9a09g011: Add missing space in compatible
-         95d516f3eb96bac466a6bfec28a1e55b8ed5160b ARM: dts: renesas: r9a06g032: Add missing space in compatible
-         
-  - ref: refs/tags/renesas-devel-2023-11-28-v6.7-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 9540cbbcbeae4f8788596163cce45b46fb9f6b63
-  - ref: refs/tags/renesas-next-2023-11-28-v6.7-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 269f3a8edb10004aec225505ed623e0b9acea717
+
+--===============0369945409545413809==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701164937 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1701164936-35ba9b6a8afafeb2438fcf28a3451f1fd535c5f9
+
+487570fa6a9533e4f2ba1b4502a12e236832f6eb 3a4675938f4738ddc6232e62dfd4e86d18517c78 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVlt4kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VskQAMX3uXINr1ryfsbhfJ2J
+9RcBKu7XM3/bjpFaCpjhMAWD8kOGfq4UhrjgsgfFBAicHegM5N3OjXWPujvMgjKV
+XbDEFH23fLcinjk7yA6S5kxxD27/qIVape1j5bGNh26KdVFJX3qSXMKiGRzlYTaj
+B/KVRwBhvJ36ffcVuun9GTittJS/MsFmIiouf/G5dpKvHn93Jaw5o8zbcp+dv4Lb
+5NehgJ+jTQw6MJcstiBwrom7qzrmU952WteZ62OZPdOghjNbV/frRf+EMHAnI4+p
+4ZAZpkVPvSQV/VMNwxrXohg+yU+ELo/u5j2PA8kZGwJpFN3LYTUs9TJsduBtt3O6
+4bQTcmgbcejVP3K5ytZIjQ/oMNLPB1TepaGHaYBzdMg0FgRoD1mLYNK5KtaV9L7q
+2WhFEFAhrkYbv7KFm+133WfVvz8E28XojIRJm+rsoDj8FdzKeaJ0RYAnaFHH5nWB
+OaM8dW+Weksz0vzpzrNoefensYeoBADYb/ssmHvd3T3prulLSwxo/fjD52K1twBy
+xZaLjIlGtRPNY1eIdEk+i5lBW17gbrteF+WoPMoOiHnjFgfZa8t0eQ+BQaybbniV
+g3/fJLM/+lar98fl7zGvR5Q82/ilLDa7eK725g7PXF6sdD17CNXMqa0hs67LPe4d
+jjR6kT7fCCJlgnYnfXx4o4rg
+=DPfB
+-----END PGP SIGNATURE-----
+
+--===============0369945409545413809==--
