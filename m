@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6848261814768931587=="
+Content-Type: multipart/mixed; boundary="===============8763255633984689301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 28 Nov 2023 09:24:44 -0000
-Message-Id: <170116348441.28513.17028908967987836390@gitolite.kernel.org>
+Date: Tue, 28 Nov 2023 09:25:07 -0000
+Message-Id: <170116350789.30264.5855941630343367407@gitolite.kernel.org>
 
---===============6848261814768931587==
+--===============8763255633984689301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,30 +16,30 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ac98e51d4017fa928e4cc589f5e17b9a052341ba
-    new: 52eedd97eff56905fb3c003f1232d69321b95582
-    log: revlist-ac98e51d4017-52eedd97eff5.txt
+    old: 52eedd97eff56905fb3c003f1232d69321b95582
+    new: c17381b94c1508ff9606b856bb1a464a496e41bc
+    log: revlist-52eedd97eff5-c17381b94c15.txt
 
---===============6848261814768931587==
+--===============8763255633984689301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac98e51d4017-52eedd97eff5.txt
+Content-Disposition: attachment; filename=revlist-52eedd97eff5-c17381b94c15.txt
 
-42d62b7e47d58273c64fc1540e5d81ccfdb60f77 media: vsp1: Remove unbalanced .s_stream(0) calls
-9ea7be95d3d4d76df63cef13b4360cd58548b2ef media: mgb4: Added support for T200 card variant
-5d33213fac5929a2e7766c88d78779fd443b0fe8 media: v4l2-subdev: Fix a 64bit bug
-173d167ce350961d7d689a4d59d66a5f2ad70a76 media: pci: mgb4: add COMMON_CLK dependency
-32138be394e5d32c095a413949e6ab4875b2aec0 Merge tag 'media-renesas-fixes-20231113' of git://git.kernel.org/pub/scm/linux/kernel/git/pinchartl/linux.git
-90044481e7cca6cb3125b3906544954a25f1309f ksmbd: prevent memory leak on error return
-864fb5d3716303a045c3ffb397f651bfd37bfb36 ksmbd: fix possible deadlock in smb2_open
-4274a9dc6aeb9fea66bffba15697a35ae8983b6a ksmbd: separately allocate ci per dentry
-2e450920d58b4991a436c8cecf3484bcacd8e535 ksmbd: move oplock handling after unlock parent dir
-2a3f7857ec742e212d6cee7fbbf7b0e2ae7f5161 ksmbd: release interim response after sending status pending response
-9ac45ac7cf65b0623ceeab9b28b307a08efa22dc ksmbd: move setting SMB2_FLAGS_ASYNC_COMMAND and AsyncId
-cd80ce7e68f1624ac29cd0a6b057789d1236641e ksmbd: don't update ->op_state as OPLOCK_STATE_NONE on error
-d095b18f3e22257ab5fb0d1eae76bf1c0f5260f8 Merge tag 'media/v6.7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-df60cee26a2e3d937a319229e335cb3f9c1f16d2 Merge tag '6.7-rc3-smb3-server-fixes' of git://git.samba.org/ksmbd
-52eedd97eff56905fb3c003f1232d69321b95582 Merge branch 'linus'
+1dc14e961c0da4c8c3fea780b42724a40049e3e8 Merge branch into tip/master: 'core/debugobjects'
+82f1edd637b327b5e31f5a3745fb8c0b918af764 Merge branch into tip/master: 'locking/core'
+de905581c573de921b495cf7e27b1160b8603a3b Merge branch into tip/master: 'objtool/core'
+5f2550d90defa9f2730b6211716608a6bf8bb753 Merge branch into tip/master: 'perf/core'
+7bf88fcfe2e613e77e8e0ede323df31f1bcd96b8 Merge branch into tip/master: 'ras/core'
+29ccfd01131fd00a94209210ef24c40b44abe4e2 Merge branch into tip/master: 'sched/core'
+f8a96fd471da5dd0b884800f9b0c8177e8583297 Merge branch into tip/master: 'timers/core'
+0d85831eef2b399dd6dd6e69b8b2ba3aac972a6a Merge branch into tip/master: 'x86/apic'
+dac831517be21583bc0fd20ffb3c17e72e75a844 Merge branch into tip/master: 'x86/cleanups'
+43a6cbb09f6b2acb55ab595490d972deca268d55 Merge branch into tip/master: 'x86/cpu'
+9707e4597ece555f2ec4c6f811f88936772c9f46 Merge branch into tip/master: 'x86/entry'
+63d3f6289d89a4d727f859c00d93b57a4dc532f1 Merge branch into tip/master: 'x86/misc'
+6d11aaa9f929799674fa8c3986612efaf4410f93 Merge branch into tip/master: 'x86/mm'
+9f40606a65820e6344ea3b1edc6ae2d995d5601a Merge branch into tip/master: 'x86/paravirt'
+c17381b94c1508ff9606b856bb1a464a496e41bc Merge branch into tip/master: 'x86/percpu'
 
---===============6848261814768931587==--
+--===============8763255633984689301==--
