@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 28 Nov 2023 14:15:43 -0000
-Message-Id: <170118094342.28118.13932169259217995909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 28 Nov 2023 14:17:52 -0000
+Message-Id: <170118107295.28942.14807924872888433524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 3f96bebf018e0e06c7a3ec604f487fe95a878ed3
-    new: af60b0fcfa389ae699e3663aea96f6c6ca61fbd1
+  - ref: refs/heads/ras/core
+    old: ff03ff328fbd0a2b3a43e8b9bbc2a1d84265e77e
+    new: 9f988030e85fafa2b03910d467302853ad29a300
     log: |
-         b817f1488fca548fe50e2654d84a1956a16a1a8a powercap: DTPM: Fix unneeded conversions to micro-Watts
-         af60b0fcfa389ae699e3663aea96f6c6ca61fbd1 Merge branch 'powercap' into bleeding-edge
+         9f988030e85fafa2b03910d467302853ad29a300 EDAC/mce_amd: Remove SMCA Extended Error code descriptions
          
