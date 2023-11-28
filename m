@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Tue, 28 Nov 2023 11:47:29 -0000
-Message-Id: <170117204950.16393.7959047566522129115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Tue, 28 Nov 2023 11:48:52 -0000
+Message-Id: <170117213254.16955.4256062656364403087@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/fix_urb_enqueue_locking
-    old: 7a8761d5c3f3e2e8a361eab4cb7da61baf8bf171
-    new: a688efdd29cd93a78ad62184a0b983f60b4ae00f
+  - ref: refs/heads/linux-next
+    old: 7bf9a6b46549852a37e6d07e52c601c3c706b562
+    new: 7f3da4b698bcc21a6df0e7f114af71d53a3e26ac
     log: |
-         606fd145f19bcac66e3baff878b0303f7daebce9 xhci: only reconfigure endpoint 0 max packet size during endpoint reset
-         a688efdd29cd93a78ad62184a0b983f60b4ae00f xhci: fix possible null pointer deref during xhci urb enqueue
+         db2832309a82b9acc4b8cc33a1831d36507ec13e x86/xen: fix percpu vcpu_info allocation
+         7f3da4b698bcc21a6df0e7f114af71d53a3e26ac xen/events: fix error code in xen_bind_pirq_msi_to_irq()
          
