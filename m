@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8795794280449923697=="
+Content-Type: multipart/mixed; boundary="===============3329378737869444504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 28 Nov 2023 20:00:05 -0000
-Message-Id: <170120160506.19486.2768945879956981302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 28 Nov 2023 20:15:02 -0000
+Message-Id: <170120250240.30049.3859952436659556354@gitolite.kernel.org>
 
---===============8795794280449923697==
+--===============3329378737869444504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 4a18ab467820b75436ea9ddd42ee7cb10efa491c
-    new: 5940a20a186bd74efd6d0dc0b2b7c77d891895d9
-    log: revlist-4a18ab467820-5940a20a186b.txt
+  - ref: refs/heads/driver-core-testing
+    old: 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab
+    new: eec4954b81c3d9a38b99e78afb553c359db40093
+    log: |
+         eec4954b81c3d9a38b99e78afb553c359db40093 driver core: make device_is_dependent() static
+         
 
---===============8795794280449923697==
+--===============3329378737869444504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a18ab467820-5940a20a186b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-581ff5b66c94a8133d1c77ed42334623fadc968c perf tests coresight: Remove unused variables
-5ebe2f4bf0a8fe8cceb5664a7dea4c17e2cf8477 perf vendor events riscv: Add StarFive Dubhe-90 JSON file
-1638b11ef8156c8551f5aaa5799069633593c5fe perf tools: Add perf binary dependent rule for shellcheck log in Makefile.perf
-8aa1e6e29a21f6bb99dcaa64d11e97a21f0f9dc1 perf report: Remove warning on missing raw data for s390
-70df07838fc1c0acfab3325ae79014e241a88bdf perf header: Fix segfault on build_mem_topology() error path
-96ba5999e8d86138cea90422f8c00309a7eedd3b perf tests lib: Add perf_has_symbol.sh
-c9526a735082bba57da322332cbcef1bbdff5698 perf tests: Skip pipe test if noploop symbol is missing
-3c489dbe69c155c86c4460491d11520cf8ec3637 perf tests: Skip record test if test_loop symbol is missing
-fc1de29a8b8ad46b590b2d389b53b4ecf9758273 perf tests: Skip Arm64 callgraphs test if leafloop symbol is missing
-fcfb5a6189f55669c931dce9fec85280655c515f perf tests: Skip branch stack sampling test if brstack_bench symbol is missing
-3b24b15cf6fb2dbe1d009a52c9ddcb7721503d8f perf tests: Make data symbol test wait for perf to start
-124bf6360ad8fe9267017d10b5dd465d4af73247 perf tests: Skip data symbol test if buf1 symbol is missing
-19dd49c9337a482325d4dd7000e328dac11f6b5c perf vendor events: Add skx, clx, icx and spr upi bandwidth metric
-7340c6df49df1b261892d287444c255d0a378063 perf vendor events riscv: add T-HEAD C9xx JSON file
-ffa96259ca5f02bbcecd2c45831e7632cd6d3485 perf test: Use existing config value for objdump path
-08973307d28311505b85216d724826e2ca21759e perf annotate: Check if operand has multiple regs
-72108c0b9c0e004d7dfc2fc88b02c30b12711325 perf tools: Add --debug-file option to redirect debug output
-d60469d7c0e5c4e8de10699377d2ba79004236a4 perf dwarf-aux: Add die_find_variable_by_addr()
-5940a20a186bd74efd6d0dc0b2b7c77d891895d9 perf mmap: Lazily initialize zstd streams to save memory when not using it
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701202501 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1701202500-276bd484d3c07e50a3f0d0897a0d7d880033ee48
 
---===============8795794280449923697==--
+2cc14f52aeb78ce3f29677c2de1f06c0e91471ab eec4954b81c3d9a38b99e78afb553c359db40093 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVmSkUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GnoP/ReZAgGLFW3Mb5OSW7I2
+s89wETR9H1mp4byIKo3f91lFZE1dNG533vJIGCItg3iOgKnp5In+6srpcypj8lj0
+JgnvJ77JVg4p+z3RR3MGxAreL5WumHqAKaMc+p2xta2Q3BNjSFLA+coWlkawDYer
+buFh9UZL7ayG08Hxri2rsbD/JqUkWDX6MKHhzd8DyP1eucwmGpYhPcdK0TDsQQzo
+vLI1+jT/dGAIRfISjhhL3NiQIZOK1QttCu090gcxRM0jEV29Adz2afJZQuj0CGur
+yEisUBvD0qeMtL4jhBxkowKtRaBX93JTrOqEQEWcH45OQrqDH6BgPchXw8bynSzf
+o8YdsFhIcDfKbHhcq9s9fRDyKqDqpYxaNzHpUjQe+7Pm2hkx+4HstkscZSxuOWcL
+v6wnOHonXjj7E6gLUq4vJDK+SfHMssBnutJ1NKvPlG/xfrMOj688iSb/E/tzxA7l
+2DVnlx6olgqZi3i0dQ/sFdirks5YDy+wAaiLQT4nuOxhB7psxOBkQgzNvvoPpnaQ
+NxEqeR/zRRKOyIMSsdSOmIhLVAfyAgYe+0YVGUbw49+ZVQP4Y0dKqi+eYY9BhdDV
+uQ6/s1MzjDrrpO4yTIwP9Ja/XRIGHZr6+FBlk6qkOFIQBFQYNmwDQR8GqnsQrBC+
+iUoDHXdr/uyQLSikP7Umcmj5
+=kg0I
+-----END PGP SIGNATURE-----
+
+--===============3329378737869444504==--
