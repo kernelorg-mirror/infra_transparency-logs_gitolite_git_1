@@ -1,45 +1,130 @@
-Content-Type: multipart/mixed; boundary="===============5067294613798596301=="
+Content-Type: multipart/mixed; boundary="===============7146944960607554154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 28 Nov 2023 16:52:24 -0000
-Message-Id: <170119034449.19301.15868499232310905989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 28 Nov 2023 16:54:00 -0000
+Message-Id: <170119044099.20040.1128110737189381147@gitolite.kernel.org>
 
---===============5067294613798596301==
+--===============7146944960607554154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/arm64-lpa2-v6-part1
-    old: 22fa95050e6b8ab27cd703bd61d9779b7fba4ea8
-    new: 1107d3bc3caf35b1330da5bfb12e9bcc18c36e6b
-    log: revlist-22fa95050e6b-1107d3bc3caf.txt
+  - ref: refs/heads/main
+    old: e1df5202e879bce09845ac62bae30206e1edfb80
+    new: a379972973a80924b1d03443e20f113ff76a94c7
+    log: revlist-e1df5202e879-a379972973a8.txt
 
---===============5067294613798596301==
+--===============7146944960607554154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22fa95050e6b-1107d3bc3caf.txt
+Content-Disposition: attachment; filename=revlist-e1df5202e879-a379972973a8.txt
 
-47507b98db10f010c36d257464e9e597b5061387 arm64: cpufeature: Add helper to test for CPU feature overrides
-0b751adab149902ea7e77317ca30194dd8f6f173 arm64: kaslr: Use feature override instead of parsing the cmdline again
-09130d2bb18d139a083e14462fa24e58cfad194c arm64: idreg-override: Create a pseudo feature for rodata=off
-04292f835456c2be13ddf625dcbf726ae54a6064 arm64: Add helpers to probe local CPU for PAC and BTI support
-57076bf622bf2062ecbab6c0fec2d086ac3fffce arm64: head: allocate more pages for the kernel mapping
-2f329478c26c4904637731d2a5ed840f23349f87 arm64: head: move memstart_offset_seed handling to C code
-fb27d0ec7decc423b03592f4550d59242e175b76 arm64: mm: Make kaslr_requires_kpti() a static inline
-470ecad04c234628d75db5588954a55144d33eb1 arm64: mmu: Make __cpu_replace_ttbr1() out of line
-c3c13e1660f70930a02743d343c796dc2da2593d arm64: head: Move early kernel mapping routines into C code
-692c6b95811890356b1039992251c5af4dd7e70c arm64: mm: Use 48-bit virtual addressing for the permanent ID map
-299b747e93b300afed618832ca8f269056f0a3b9 arm64: pgtable: Decouple PGDIR size macros from PGD/PUD/PMD levels
-8ecda00cfd071d8488763741158774617d4e21ff arm64: kernel: Create initial ID map from C code
-c8b38236b7c2f36c8c4750ee8f6a2fa224a587c4 arm64: mm: avoid fixmap for early swapper_pg_dir updates
-d0d7044f7f997b7a567622c6d82f93edc1959e0f arm64: mm: omit redundant remap of kernel image
-1107d3bc3caf35b1330da5bfb12e9bcc18c36e6b arm64: Revert "mm: provide idmap pointer to cpu_replace_ttbr1()"
+9d0d0a2070407fbeceb8700543eb78bb1560d18f wifi: brcm80211: replace deprecated strncpy with strscpy
+a614f95797055dd96802202af542b04fead7274f wifi: brcmsmac: replace deprecated strncpy with memcpy
+d1e6b020c32d2c02c427ab2494a7f04da45fe614 wifi: rtlwifi: cleanup struct rtl_hal
+d1337ccb4477bf789a58ff50d858ffdb0e7998b4 wifi: rtlwifi: cleanup struct rtl_phy
+7419d8ab35087ba2164e92e8c9f1e418bc303a06 wifi: rtlwifi: rtl92ee_dm_dynamic_primary_cca_check(): fix typo in function name
+e416514e309f7e25e577fee45a65f246f67b2261 wifi: rtw89: fix timeout calculation in rtw89_roc_end()
+73b479fe5f4ad5391f69502930c1f782b4c6182f wifi: rtw89: 8922ae: add 8922AE PCI entry and basic info
+0b79c540b13506b727fcd2b689fec99dc4fc51c6 wifi: rtw89: pci: define PCI ring address for WiFi 7 chips
+0dc9324206d3856a657cb076d78c8cc015fb57c8 wifi: rtw89: pci: add new RX ring design to determine full RX ring efficiently
+58534b3be0ca4e73a652a4e63f9f5ee80a6cf891 wifi: rtw89: pci: generalize code of PCI control DMA IO for WiFi 7
+a0ddf39ac6420e9b52200973ac07b261db8e7595 wifi: wilc1000: simplify remain on channel support
+ebab2723d0bd47ea899d339d54e1c4ac459d18c3 wifi: wilc1000: always release SDIO host in wilc_sdio_cmd53()
+9beac4ee49286101e30a1de2fe58625f998bf77c wifi: airo: replace deprecated strncpy with strscpy_pad
+0f4aa3af137175dc5c5723781ec96e7792d5cda0 wifi: rtw89: set entry size of address CAM to H2C field by chip
+76d45f48e4fcf060675970829c7fde21e6e8a2f3 wifi: rtw89: configure PPDU max user by chip
+e343face52b013e5d0ff6305ddf40c9838adfe75 wifi: rtw89: consider RX info for WiFi 7 chips
+944496bada22f1788cd3b39b542f7818a0a119d0 wifi: rtw89: extend PHY status parser to support WiFi 7 chips
+4b478bf6bdd8901cb29742ec8a65c0b2b92a9e56 wifi: libertas: drop 16-bit PCMCIA support
+77e49bec64144cf68c494209347ebd762c675194 wifi: atmel: remove wext style at76c50x drivers
+6853c70ba5edca34f65b337a04183a6145303071 wifi: remove orphaned cisco/aironet driver
+d0172d5f7576ed6c3f73622ca4c16ba63c49da4e wifi: remove obsolete hostap driver
+757a46c2a7a99a4e12f6a267e945c98324c41702 wifi: remove orphaned zd1201 driver
+1535d5962d79b8f4bddfd480399828b8db9d7a1c wifi: remove orphaned orinoco driver
+6b9dbaff83d626e5a9cc0c01a2b302f8fe423a1a wifi: remove orphaned ray_cs driver
+238349207cd3e158df53d866abf1d42b2392aa9e wifi: remove orphaned wl3501 driver
+bec95598b24a42adba294994ab7a5d8db417cca5 wifi: remove orphaned rndis_wlan driver
+40018a8fa9aa63ca5b26e803502138158fb0ff96 wifi: plfxlc: check for allocation failure in plfxlc_usb_wreq_async()
+4859b08f197b11b35932fdb4f584b89ff5243ad9 wifi: wilc1000: cleanup struct wilc_conn_info
+a2fbf9e1e8acf89de8132d1df255e1ee0b8320fe wifi: wilc1000: simplify wilc_scan()
+07fabde630a6ce6d0ec791415d3dc3ade858f8c5 wifi: rtw89: pci: add PCI generation information to pci_info for each chip
+bfdcfee3659c6289f391d6eced54b18b244a21ea wifi: rtw89: pci: use gen_def pointer to configure mac_{pre,post}_init and clear PCI ring index
+2daafe9a0cb6c93379ae2099610ac4069f1e286d wifi: rtw89: pci: implement PCI mac_pre_init for WiFi 7 chips
+e24ae0f07625d51934e9367e155510c71b088a2b wifi: rtw89: pci: add LTR v2 for WiFi 7 chip
+5cb0d6b878c375f25f1a74b4d1258561f176ea8b wifi: rtw89: pci: implement PCI mac_post_init for WiFi 7 chips
+ca76817f4c4bbf8f98268772f4eeea8382a34bcd wifi: rtw89: coex: use struct assignment to replace memcpy() to append TDMA content
+ed4f0c195e8fba06fa5c1072ade7feaadb91c03d wifi: rtw88: simplify __rtw_tx_work()
+53ee0b3b99edc6a47096bffef15695f5a895386f wifi: rtw88: fix RX filter in FIF_ALLMULTI flag
+b1275cdd7456ef811747dfb4f3c46310ddd300cd wifi: rt2x00: introduce DMA busy check watchdog for rt2800
+570beb6285fd355904b22625da20809f477096c5 wifi: rt2x00: disable RTS threshold for rt2800 by default
+a11d965a218f0cd95b13fe44d0bcd8a20ce134a8 wifi: rt2x00: restart beacon queue when hardware reset
+8170b04c2c92eee52ea50b96db4c54662197e512 wifi: libertas: stop selecting wext
+50da74e1e8b682853d1e07fc8bbe3a0774ae5e09 wifi: rt2x00: correct wrong BBP register in RxDCOC calibration
+af3077af7c0754ef4609a00343d2f2a483804b48 wifi: iwlegacy: Remove the unused variable len
+d5d717a776405107c24a41116af18c7176197210 wifi: rtw89: pci: reset BDRAM according to chip gen
+d720cca762ed58a5d811b40a5525066329d3641a wifi: rtw89: pci: stop/start DMA for level 1 recovery according to chip gen
+9e1aff437a560cd72cb6a60ee33fe162b0afdaf1 wifi: rtw89: pci: add pre_deinit to be called after probe complete
+aa70f76120ee4e67b1ba90a2e2ec1fea595cf108 wifi: rtw89: pci: generalize interrupt status bits of interrupt handlers
+d8872fb60e720ed656e03883e9bed576a72e0006 wifi: rtw89: 8922ae: add v2 interrupt handlers for 8922AE
+9f08c77b776976a6eabd9678d77ff9ab4ff4233e wifi: rtw89: pci: correct interrupt mitigation register for 8852CE
+0a78bb64a49995c7377b1d716bbff7a9d92212cb wifi: rtw89: pci: update interrupt mitigation register for 8922AE
+2c4e9acbe3a50ab4a1a2fb5eb8258befda1764cb wifi: rtlwifi: simplify rtl_action_proc() and rtl_tx_agg_start()
+665ecff7dd1481c97d36d7761c0eab3b1dde3d22 wifi: rtw89: acpi: process 6 GHz band policy from DSM
+b2774a916ab95f678c2a365b276870bb68bf3b01 wifi: rtw89: regd: handle policy of 6 GHz according to BIOS
+c212abfbd19fe5ca43fa80981d86e9d7a49f5d45 wifi: rtw89: regd: update regulatory map to R65-R44
+a85198c9f068baeef6d4a56c389b11a2035a8ea3 wifi: mwifiex: mwifiex_process_sleep_confirm_resp(): remove unused priv variable
+f60df12aaaddc865a38480a48e8dba756dffb2b2 wifi: rtlwifi: drop unused const_amdpci_aspm
+c0a04552e36e1bac2bdf862342ddfbbfd65aae52 wifi: rtw89: 8922a: add 8922A basic chip info
+88e6a923bbfbdd4fd2e92ff50902251884927dac wifi: rtw89: mac: use mac_gen pointer to access about efuse
+f28eab6ae4ff016d01226364c9099d4eacffbb1a wifi: rtw89: mac: add to access efuse for WiFi 7 chips
+e102ff4b3579016361f092027782f1a3a7fa2055 wifi: rtw89: 8852c: read RX gain offset from efuse for 6GHz channels
+c7ccb2402ebb567016b09bf50e225066c72a9c09 wifi: rtw89: 8922a: read efuse content via efuse map struct from logic map
+52471877a2e7211603f57c74102e8ba2aa06fe48 wifi: rtw89: 8922a: read efuse content from physical map
+ea5f49061d1ddbe7c066c3f28ecb106a479154af MAINTAINERS: update iwlwifi maintainers
+f52c8fba984c7ca1ee687504862a4f8b3c5ef854 rfkill: return ENOTTY on invalid ioctl
+d3ca4ab4f16eb81dc3e7721251adcba49b229d54 wifi: ieee80211: fix PV1 frame control field name
+6285ee30caa1a0fbd9537496578085c143127eee wifi: cfg80211: Extend support for scanning while MLO connected
+cbde0b49f276c43efca6b5d5193f2d26f51afbfa wifi: mac80211: Extend support for scanning while MLO connected
+0cc3f50f42d262d6175ee2834aeb56e98934cfcc wifi: nl80211: Documentation update for NL80211_CMD_PORT_AUTHORIZED event
+243ad8df7a1bd24c2e01bd99d9f0bb88844dae91 net: phy: add possible interfaces
+2cb6d63b30c6fbc7cf5f671279be4a94049e141f net: phy: marvell10g: table driven mactype decode
+82f2e76b660a490ae226db80d495b7c785e00d7a net: phy: marvell10g: fill in possible_interfaces
+a22583338e535ba2512283da4aee893163a4b78d net: phy: bcm84881: fill in possible_interfaces
+01972fa9ab7dc1af073dd994380f3e603eb0654e net: phy: aquantia: fill in possible_interfaces for AQR113C
+5f492a04506e5d93d5462238f7f899836ba3d421 net: phylink: split out per-interface validation
+385e72b4003482bfe17c17a9f4005d2850b5e8e0 net: phylink: pass PHY into phylink_validate_one()
+b7014f9ece5075755105bafbeeb2c17ed0dace11 net: phylink: pass PHY into phylink_validate_mask()
+2c62ff83ee14da698bf52e723b704304b59455bb net: phylink: split out PHY validation from phylink_bringup_phy()
+7a1f9a17ee99a3c27577465ce0f6c5f56cf1aacf net: phylink: use the PHY's possible_interfaces if populated
+cae0de45c8fd62612e1ee429134fd82c2c0e335e Merge branch 'net-phylink-improve-phy-validation'
+a79d8ba734bdbd2574ad16dd1b96506e5f642c4a selftests: tc-testing: remove buildebpf plugin
+8059e68b99280cc9a224593f3142f9368229c6ee selftests: tc-testing: remove unnecessary time.sleep
+56e16bc69bb7d36a931111d8abdcd44b939751c4 selftests: tc-testing: prefix iproute2 functions with "ipr2"
+501679f5d4a433144ae755dd2e5f757b1ce5a152 selftests: tc-testing: cleanup on Ctrl-C
+ed346fccfc40364888601a2ec75dd94f4dca23bd selftests: tc-testing: remove unused import
+2df6bde352be531b6cde442500899d89fc990c65 Merge branch 'selftests-tc-testing-updates-and-cleanups-for-tdc'
+a214724554aee8f6a5953dccab51ceff448c08cd Merge tag 'wireless-next-2023-11-27' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
+23cfaf67ba5d2f013d2576b8a9173c45a4a7f895 net: page_pool: factor out uninit
+f17c69649c698e4df3cfe0010b7bbf142dec3e40 net: page_pool: id the page pools
+083772c9f972dcc248913b52a0dec1025baa1e16 net: page_pool: record pools per netdev
+02b3de80c5f879f92e5f4bb3f535d172e0fc0ea0 net: page_pool: stash the NAPI ID for easier access
+7cc9e6d77f85fb5faa9ffa26c645c821430c7095 eth: link netdev to page_pools in drivers
+839ff60df3ab92b81034ea3b859ab984eaa0c84c net: page_pool: add nlspec for basic access to page pools
+950ab53b77ab829defeb22bc98d40a5e926ae018 net: page_pool: implement GET in the netlink API
+d2ef6aa077bdd0b3495dba5dcae6d3f19579b20b net: page_pool: add netlink notifications for state changes
+7aee8429eedd0970d8add2fb5b856bfc5f5f1fc1 net: page_pool: report amount of memory held by page pools
+69cb4952b6f6a226c1c0a7ca400398aaa8f75cf2 net: page_pool: report when page pool was destroyed
+d49010adae737638447369a4eff8f1aab736b076 net: page_pool: expose page pool stats via netlink
+be0096676e230b43730b8936ac393d155b4e3262 net: page_pool: mute the periodic warning for visible page pools
+637567e4a3ef6f6a5ffa48781207d270265f7e68 tools: ynl: add sample for getting page-pool information
+a379972973a80924b1d03443e20f113ff76a94c7 Merge branch 'net-page_pool-add-netlink-based-introspection'
 
---===============5067294613798596301==--
+--===============7146944960607554154==--
