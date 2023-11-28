@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4904862288507171461=="
+Content-Type: multipart/mixed; boundary="===============8964076892397217477=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 28 Nov 2023 00:32:38 -0000
-Message-Id: <170113155807.31142.4658691881694296694@gitolite.kernel.org>
+Date: Tue, 28 Nov 2023 00:33:35 -0000
+Message-Id: <170113161530.31586.3370607372436976545@gitolite.kernel.org>
 
---===============4904862288507171461==
+--===============8964076892397217477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-linus/hardening
-    old: 32a4ec211d4164e667d9d0b807fadf02053cd2e9
+  - ref: refs/heads/for-next/kspp
+    old: 1ac5893b63dced9a59ed42d3425d2a33b0de0096
     new: d71f22365a9caca82d424f3a33445de46567e198
-    log: revlist-32a4ec211d41-d71f22365a9c.txt
+    log: revlist-1ac5893b63dc-d71f22365a9c.txt
 
---===============4904862288507171461==
+--===============8964076892397217477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32a4ec211d41-d71f22365a9c.txt
+Content-Disposition: attachment; filename=revlist-1ac5893b63dc-d71f22365a9c.txt
 
+5394fe9494011de19baff276ce02a2f00eef568a bcachefs: Fix snapshot skiplists
+94119eeb02d114aa1f78dcfaabdca50b9b626790 bcachefs: Add IO error counts to bch_member
+f5d26fa31ed2e260589f0bc8af010bb742f1231e bcachefs: bch_sb_field_errors
 b65db750e2bb9252321fd54c284edd73c1595a09 bcachefs: Enumerate fsck errors
 85103d15ca3fe3b987f912873cb4f91b6f557c6c bcachefs: Fix error path in bch2_replicas_gc_end()
 2e7acdfbcad8b60eeef29d3beb3eb9a7085e3768 bcachefs: Fix deleted inodes btree in snapshot deletion
@@ -640,7 +643,6 @@ d46392bbf5c6ce594669f00b8177f0b34e983f90 Merge tag 'riscv-for-linus-6.7-rc1' of 
 c1ef4df14ed1feb9b0f08508390a196a1bc530ce Merge tag 'kgdb-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/danielt/linux
 447cec034b7896f4b19dbfe3ce6c366ce7c7602a Merge tag 'memblock-v6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 90450a06162e6c71ab813ea22a83196fe7cff4bc Merge tag 'rcu-fixes-v6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks
-65120498aaf8d7320647a8b6d6de7db42e74ea52 stackleak: add declarations for global functions
 866d648059d5faf53f1cd960b43fe8365ad93ea7 lsm: fix default return value for vm_enough_memory
 b36995b8609a5a8fe5cf259a1ee768fcaed919f8 lsm: fix default return value for inode_getsecctx
 1995a536702921f000acda2bed645f1fe0e7ee5b Merge tag 's390-6.7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
@@ -648,7 +650,6 @@ b36995b8609a5a8fe5cf259a1ee768fcaed919f8 lsm: fix default return value for inode
 34f763262743aac0847b15711b0460ac6d6943d5 Merge tag 'xfs-6.7-merge-2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 67c0afb6424fee94238d9a32b97c407d0c97155e Merge tag 'exfat-for-6.7-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 6bc986ab839c844e78a2333a02e55f02c9e57935 Merge tag 'nfs-for-6.7-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
-1ee60356c2dca938362528404af95b8ef3e49b6a gcc-plugins: randstruct: Only warn about true flexible arrays
 9bc64bd0cd765f696fcd40fc98909b1f7c73b2ba net/sched: act_ct: Always fill offloading tuple iifidx
 942b8b38de3fd38de1476b2abca562e729caa03d Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 0613736e8ab91e7f338d4021a8b57b124dc49bd4 Merge tag 'nf-23-11-08' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
@@ -889,7 +890,6 @@ a7d5a955bfa854ac6b0c53aaf933394b4e6139e4 netfilter: nf_tables: bogus ENOENT when
 2a0508d9d08f0c3e354044d4f48466ee0d225041 Merge branch '6.7/scsi-staging' into 6.7/scsi-fixes
 b944aa9d86d5f782bfe5e51336434c960304839c ALSA: hda/realtek: Enable Mute LED on HP 255 G10
 2e6ef8aaba6b709ce91164401fa1c12668510360 Remove myself as maintainer of GFS2
-782ce431613cf08c3a00dca42ad925c3b1108d09 gcc-plugins: latent_entropy: Fix typo (args -> argc) in plugin description
 29954d5b1e0d67a4cd61c30c2201030c97e94b1e cifs: fix leak of iface for primary channel
 5eef12c4e3230f2025dc46ad8c4a3bc19978e5d7 cifs: fix lock ordering while disabling multichannel
 eab03c23c2a162085b13200d7942fc5a00b5ccc8 sched/eevdf: Fix vruntime adjustment on reweight
@@ -1051,4 +1051,4 @@ eb3479bc23fafbc408558cd8450b35f07fad2a63 Merge tag 'kbuild-fixes-v6.7' of git://
 4e86f32a13af1970d21be94f659cae56bbe487ee uapi: propagate __struct_group() attributes to the container union
 d71f22365a9caca82d424f3a33445de46567e198 gcc-plugins: randstruct: Update code comment in relayout_struct()
 
---===============4904862288507171461==--
+--===============8964076892397217477==--
