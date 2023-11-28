@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4820307836428111405=="
+Content-Type: multipart/mixed; boundary="===============3763920931039747447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 28 Nov 2023 02:21:30 -0000
-Message-Id: <170113809070.18531.2497754950813647664@gitolite.kernel.org>
+Date: Tue, 28 Nov 2023 02:23:15 -0000
+Message-Id: <170113819556.19211.3144506824015629025@gitolite.kernel.org>
 
---===============4820307836428111405==
+--===============3763920931039747447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 98b1cc82c4affc16f5598d4fa14b1858671b2263
-    new: 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab
-    log: revlist-98b1cc82c4af-2cc14f52aeb7.txt
-  - ref: refs/tags/v6.7-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5b17c02f78c832014ef0acdddcd6e0480a3c2e77
+  - ref: refs/heads/kbuild
+    old: 054b2ccd5f4e21f16e2305d9aa6c2eeb2d2edc29
+    new: b28d6ca1c9cbb64b0c8e435c0ff34d8c5d52812c
+    log: revlist-054b2ccd5f4e-b28d6ca1c9cb.txt
 
---===============4820307836428111405==
+--===============3763920931039747447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98b1cc82c4af-2cc14f52aeb7.txt
+Content-Disposition: attachment; filename=revlist-054b2ccd5f4e-b28d6ca1c9cb.txt
 
 258ea41c926b7b3a16d0d7aa210a1401c4a1601b Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 3.0 PHY"
 7a784bcdd7e54f0599da3b2360e472238412623e Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 2.0 PHY"
@@ -303,5 +300,18 @@ e81fe505202fdc07b1925aa70fca5e2a714eb259 Merge tag 'perf-urgent-2023-11-26' of g
 d2da77f431ac49b5763b88751a75f70daa46296c Merge tag 'parisc-for-6.7-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 5b2b1173a93fa056b4539ef52e5f03148345d498 Merge tag 'trace-v6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab Linux 6.7-rc3
+a19937d829fbe3103e4596c8810a3e5cb372c6d4 genksyms: remove the remnant of the -s option
+96a29581e735bcf3b4e5a4f2daad9f445025f510 genksyms: use getopt_long() unconditionally
+ce1fc9345a59c55d3a46dd7da872791cae41324e kconfig: do not clear SYMBOL_DEF_USER when the value is out of range
+259b8bd13db5f61fcc60192d4f73eb2eac9c426f kbuild: deb-pkg: apply short -R and -j options
+61e3e3c21a9599f7f2c6f15f7e4b099cf6ea290e kconfig: remove error check for xrealloc()
+4d137ab0107ead0f2590fc0314e627431e3b9e3f kconfig: require a space after '#' for valid input
+92d4fe0a48f1ab6cf20143dd0b376f4fe842854b kconfig: remove unused code for S_DEF_AUTO in conf_read_simple()
+d854b4b21de684a16a7d6163c7b0e9c5ff8a09d3 kconfig: deduplicate code in conf_read_simple()
+9925d6b7d12f5019d2a6c465ae72093101edbfd4 kconfig: introduce getline_stripped() helper
+4aced3ec84a848bd64bfd725e81c54eb31bf8b24 kconfig: require an exact match for "is not set" to disable CONFIG option
+48ab6c9c9256003a4f2d737ccdcba81e01ba4e68 kconfig: massage the loop in conf_read_simple()
+884f55f152cb028056bf9efe557a2d7346e932f5 kbuild: buildtar: Remove unused $dirs
+b28d6ca1c9cbb64b0c8e435c0ff34d8c5d52812c kbuild: buildtar: always make modules_install
 
---===============4820307836428111405==--
+--===============3763920931039747447==--
