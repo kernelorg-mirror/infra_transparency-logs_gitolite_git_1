@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7146944960607554154=="
+Content-Type: multipart/mixed; boundary="===============3649495879129477737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 28 Nov 2023 16:54:00 -0000
-Message-Id: <170119044099.20040.1128110737189381147@gitolite.kernel.org>
+Date: Tue, 28 Nov 2023 16:54:39 -0000
+Message-Id: <170119047985.20337.3176422475872310081@gitolite.kernel.org>
 
---===============7146944960607554154==
+--===============3649495879129477737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: e1df5202e879bce09845ac62bae30206e1edfb80
-    new: a379972973a80924b1d03443e20f113ff76a94c7
-    log: revlist-e1df5202e879-a379972973a8.txt
+  - ref: refs/heads/dev-queue
+    old: 03b0940cc1d112fe5e9910dba1bf2c838848328b
+    new: 0392e4d0c1cd583c079a18685cd308f8ce903793
+    log: revlist-03b0940cc1d1-0392e4d0c1cd.txt
 
---===============7146944960607554154==
+--===============3649495879129477737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1df5202e879-a379972973a8.txt
+Content-Disposition: attachment; filename=revlist-03b0940cc1d1-0392e4d0c1cd.txt
 
 9d0d0a2070407fbeceb8700543eb78bb1560d18f wifi: brcm80211: replace deprecated strncpy with strscpy
 a614f95797055dd96802202af542b04fead7274f wifi: brcmsmac: replace deprecated strncpy with memcpy
@@ -126,5 +126,41 @@ d49010adae737638447369a4eff8f1aab736b076 net: page_pool: expose page pool stats 
 be0096676e230b43730b8936ac393d155b4e3262 net: page_pool: mute the periodic warning for visible page pools
 637567e4a3ef6f6a5ffa48781207d270265f7e68 tools: ynl: add sample for getting page-pool information
 a379972973a80924b1d03443e20f113ff76a94c7 Merge branch 'net-page_pool-add-netlink-based-introspection'
+44557b80d4f3807f1e862283f50eeba0c484a86a i40e: fix livelocks in i40e_reset_subtask()
+21f5f38a715bc536b6025b21537e533f34443e59 i40e: fix 32bit FW gtime wrapping issue
+49560fb8726473d0a286feca9bcf36499a0e9a55 i40e: add tracepoints for nvmupdate troubleshooting
+2ef7df9e49ba81c117fd73063a1a1c4f4904da42 ice: Re-enable timestamping correctly after reset
+1fa1dc65876507635ce8b4bb87ed2ce739e3ecd1 ice: read internal temperature sensor
+cca8c3e7122c8666576f34597e56986326d69df7 ice: change vfs.num_msix_per to vf->num_msix
+22059fc76bd4c6241d7b2648c3856e38ba05ee39 i40e: Delete unused and useless i40e_pf fields
+10a1343bfa9fc897cebb3153cd40bc0aff6af2da i40e: Remove AQ register definitions for VF types
+805f9f961ae27d00292387941963c1a1750caa40 i40e: Remove queue tracking fields from i40e_adminq_ring
+236929576f2cac97d0d2cce2642f35c9db4d9f2e iavf: Remove queue tracking fields from iavf_adminq_ring
+4b151c7651c1d071dca38ebd3c04ef4eea3112f2 ice: Reset VF on Tx MDD event
+bbdc81b5c19e073f4b161af8331a12509a7c0faf ice: periodically kick Tx timestamp interrupt
+dd4013921212b9cf1b61e05435ba513be13138b5 ice: Restore fix disabling RX VLAN filtering
+60982885513ba45a594fc80b5513464ee5d40ae2 iavf: validate tx_coalesce_usecs even if rx_coalesce_usecs is zero
+0e28dc71f116b43e8a397d57d60047b7c36ec9e9 i40e: Fix waiting for queues of all VSIs to be disabled
+3a4cee4d15aec2ae6799f2e5d38cabdc27ea46b2 i40e: Fix unexpected MFS warning message
+416f099b421ca9c9bbac2356783c0ced2c8bd58a iavf: use iavf_schedule_aq_request() helper
+6775e7c7feb7a2884e09f13ae6a640aeb6059fbf ice: add CGU info to devlink info callback
+6cadf5ec51ed43c6be1b50c17ace0ac17d92fe61 ice: Fix VF Reset paths when interface in a failed over aggregate
+e81da3af427b07975f9bf43b283a5c579a057a39 ice: Improve logs for max ntuple errors
+176b69d961d7facef99168f7c7f5241aac8421f8 igb: Use FIELD_GET() to extract Link Width
+1275b4f9268e8c93436525e217144b1d3806adb4 e1000e: Use PCI_EXP_LNKSTA_NLW & FIELD_GET() instead of custom defines/code
+19d17cc48e6b546fc535a03464b2e8b254c44a25 e1000e: Use pcie_capability_read_word() for reading LNKSTA
+c09d0da865aca4e7fe55e7c8c5bab5f49bea7cff e1000e: make lost bits explicit
+8776bfb054886f664da258cb2b6ea5294e5dd880 intel: add bit macro includes where needed
+bfcefeaa9c4f687d388eb5b96a788088d34af0b8 intel: legacy: field prep conversion
+d0b2dee4dc33ca81d64191bfb8e05000c2bba24c i40e: field prep conversion
+f208586a1fcb88327e2a1f6eae02fae0b9944624 iavf: field prep conversion
+072c7de05d4d20ea7b97ef161609fefce6b14988 ice: field prep conversion
+b2ca5b8f9fd4ffeb11404221167c079531840ff6 ice: fix pre-shifted bit usage
+bed13a59df2b77f4676ae00baf4f5ba084844bed igc: field prep conversion
+b8fcf180c1444f83a84e040527ce164db2819663 intel: legacy: field get conversion
+1e8afd4354d987ea872c879b5206ab8537492e08 igc: field get conversion
+ec8857558b9e285b741f6e854dc68c0f1ad33b3d i40e: field get conversion
+3e7adfbfd5861512619bc2e65185e0d11cdd4920 iavf: field get conversion
+0392e4d0c1cd583c079a18685cd308f8ce903793 ice: field get conversion
 
---===============7146944960607554154==--
+--===============3649495879129477737==--
