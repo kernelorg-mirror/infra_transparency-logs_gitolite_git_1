@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3560789735805411148=="
+Content-Type: multipart/mixed; boundary="===============2552330438844215199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 28 Nov 2023 12:52:01 -0000
-Message-Id: <170117592130.31027.5172648709368787775@gitolite.kernel.org>
+Date: Tue, 28 Nov 2023 12:52:08 -0000
+Message-Id: <170117592847.31130.11427330516157790982@gitolite.kernel.org>
 
---===============3560789735805411148==
+--===============2552330438844215199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: da90e45d5afc4da2de7cd3ea7943d0f1baa47cc2
+  - ref: refs/heads/usb-next
+    old: 98b1cc82c4affc16f5598d4fa14b1858671b2263
     new: 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab
-    log: revlist-da90e45d5afc-2cc14f52aeb7.txt
+    log: revlist-98b1cc82c4af-2cc14f52aeb7.txt
 
---===============3560789735805411148==
+--===============2552330438844215199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da90e45d5afc-2cc14f52aeb7.txt
+Content-Disposition: attachment; filename=revlist-98b1cc82c4af-2cc14f52aeb7.txt
 
 258ea41c926b7b3a16d0d7aa210a1401c4a1601b Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 3.0 PHY"
 7a784bcdd7e54f0599da3b2360e472238412623e Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 2.0 PHY"
@@ -167,6 +167,8 @@ d30fb712e52964f2cf9a9c14cf67078394044837 hv_netvsc: fix race of netvsc and VF re
 c807d6cd089d2f4951baa838081ec5ae3e2360f8 hv_netvsc: Mark VF as slave before exposing it to user-mode
 54d4434da824460a190d547404530eff12a7907d Merge branch 'hv_netvsc-fix-race-of-netvsc-vf-register-and-slave-bit'
 e8df9d9f4209c04161321d8c12640ae560f65939 perf/x86/intel: Correct incorrect 'or' operation for PMU capabilities
+8771127e25d6c20d458ad27cf32f7fcfc1755e05 USB: serial: option: don't claim interface 4 for ZTE MF290
+a1092619dd28ac0fcf23016160a2fdccd98ef935 USB: serial: option: fix FM101R-GL defines
 5b4ffb176d7979ac66b349addf3f7de433335e00 Revert "HID: logitech-dj: Add support for a new lightspeed receiver iteration"
 9c6dc13106f2dd2d6819d66618b25a6f41f0ee6a MAINTAINERS: Add indirect_call_wrapper.h to NETWORKING [GENERAL]
 41058707bea93b979c4854bdb857e46f2b85df92 dt-bindings: usb: hcd: add missing phy name to example
@@ -195,6 +197,7 @@ ab93edb2f94c3c0d5965be3815782472adbe3f52 nouveau/gsp: allocate enough space for 
 b2d66643dcf2c395207f9373c624e0ab32166e57 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 b6fe6f03716da246b453369f98a553d4ab21447c dpll: Fix potential msg memleak when genlmsg_put_reply failed
 18286883e779fb79b413a7462968ee3f6768f19c x86/hyperv: Use atomic_try_cmpxchg() to micro-optimize hv_nmi_unknown()
+e389fe8b68137344562fb6e4d53d8a89ef6212dd USB: serial: option: add Fibocom L7xx modules
 06ae5afce8cc1f7621cc5c7751e449ce20d68af7 HID: hid-asus: add const to read-only outgoing usb buffer
 546edbd26cff7ae990e480a59150e801a06f77b1 HID: hid-asus: reset the backlight brightness level on resume
 9ffccb691adb854e7b7f3ee57fbbda12ff70533f HID: multitouch: Add quirk for HONOR GLO-GXXX touchpad
@@ -250,6 +253,7 @@ fd0413bbf8b11f56e8aa842783b0deda0dfe2926 net: axienet: Fix check for partial TX 
 37f0205538baf70beb57cdcb6c7d14aa13257926 net: ipa: fix one GSI register field width
 2be35a619482c1f4e5bc7a2d84049b8d7d171882 tools: ynl: fix header path for nfsd
 39f04b1406b23fcc129a67e70d6205d5a7322f38 tools: ynl: fix duplicate op name in devlink
+da90e45d5afc4da2de7cd3ea7943d0f1baa47cc2 USB: serial: option: add Luat Air72*U series products
 a15ccef82d3de9a37dc25898c60a394209368dc8 cifs: fix use after free for iface while disabling secondary channels
 ed3e0a149b58ea8cfd10cc4f7cefb39877ff07ac smb: client: implement ->query_reparse_point() for SMB1
 539aad7f14dab7f947e5ab81901c0b20513a50db smb: client: introduce ->parse_reparse_point()
@@ -297,4 +301,4 @@ d2da77f431ac49b5763b88751a75f70daa46296c Merge tag 'parisc-for-6.7-rc3' of git:/
 5b2b1173a93fa056b4539ef52e5f03148345d498 Merge tag 'trace-v6.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab Linux 6.7-rc3
 
---===============3560789735805411148==--
+--===============2552330438844215199==--
