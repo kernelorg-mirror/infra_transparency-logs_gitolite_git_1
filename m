@@ -1,59 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============8804499972544787420=="
+Content-Type: multipart/mixed; boundary="===============7242813414676051281=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 28 Nov 2023 18:59:00 -0000
-Message-Id: <170119794053.5792.7960544673472353846@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 28 Nov 2023 18:59:17 -0000
+Message-Id: <170119795775.5966.5951361774466378061@gitolite.kernel.org>
 
---===============8804499972544787420==
-Content-Type: text/plain; charset="utf-8"
+--===============7242813414676051281==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab
-    new: bc1183a63057839b18e955b6d68abbb20d37b0f1
-    log: |
-         62df29a542f9ba8e884fcd470843b620d3f067fc misc: ocxl: context: Remove unnecessary (void*) conversions
-         0e425d703c30cddea913e5cc73b2528fba628c90 misc: ocxl: afu_irq: Remove unnecessary (void*) conversions
-         29eb0dc7bd1efe8f35e8d55b0308091ed2f70b86 misc: ocxl: link: Remove unnecessary (void*) conversions
-         bc1183a63057839b18e955b6d68abbb20d37b0f1 misc: ocxl: main: Remove unnecessary ‘0’ values from rc
-         
+  - ref: refs/heads/staging-next
+    old: 956ec671870506c7e05f4acee6f3fc81bf3575d1
+    new: d488759416ed3adf542abe15a530243bb74dd882
+    log: revlist-956ec6718705-d488759416ed.txt
 
---===============8804499972544787420==
+--===============7242813414676051281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701197940 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1701197939-f65504110a8ebe8a5a4abf9e7ae313c3f1507de1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701197957 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1701197956-04a930bc8ba8125353f7e5ec8e3b9eeeeb487cf3
 
-2cc14f52aeb78ce3f29677c2de1f06c0e91471ab bc1183a63057839b18e955b6d68abbb20d37b0f1 refs/heads/char-misc-next
+956ec671870506c7e05f4acee6f3fc81bf3575d1 d488759416ed3adf542abe15a530243bb74dd882 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVmOHQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cK0QANgLf70wDTpGjC5dDqOu
-dMlu7tMc4bEv4+Y1Bc38Z7LB3j2DxGa8nujqfw7A+ffZWTfnLlFnZAkNP//1oqVm
-dze8dsh3LnK38umYvqccY0DzfuNE7ZTA9W2k5skudnXQvUtSI6kRzoy8I/11Z50m
-jglqeRiT9v93rj9WCXlofGIGWFjR5xNzQsSwRWv7K/uEpAWDA0REUH5KDsW+5Kx/
-wT7QreHu4BXBrdr/Tf2fF0A+Nj7T/cEPool7JLIN5cN3wpS4/vJl/8Dui93dAGQ6
-cz37bLVxFffUX3aPVBHO3OJA8znCDkqB4u/6NifwCNKUYYBwU5r7kbh5DwWJxyaN
-dEDa11uc7xpuHihorMimObTWOr9WepJmLxsuWm/QwlNCf3KC2+7Drbt6wJyEWDRG
-Rz+LORvkd7vDJuVM5g/dHbiaTFSvnTy2Y3ZHFsP8RLjFazeksstQs2xt4yD6GCAN
-bQ84HCBfF2W5y5Lb3bTtZtCZ1/YFYl8qUtM1DW85MWDZJLHIYxJBJsfbRAAN6c6Z
-/9RGUu4KLNXL0uSSD2d+wsi5YEpOy+0+iRr1d2jUZPQPjxD+iSFKhtDIQLtk8g5o
-oy7f2EpcMoLgpRcAYpiXZcbVRYGyI5O133DYnCqMzFChrDaxBSNJJVYtU1sfp/KO
-PzMpAUCtGzXmRs5zhCW/TrWP
-=CJo+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVmOIUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Eo4P/iQavh7RcRU6RDqoGv1C
+c4xlyMwflB4Pp5PB1oK388C/it9mv/laTsWNCIpsGdDqqoaoVU12K71wYdf8KpvM
+yJii7CRZXhi6lkQNeTHdkSDGXjS/0cuhkI30t1LNTQWV9aZfJ+5tSIptMcyz/Xak
+KDJ1ehuaF0tLFEpZMl62lqUAt/dl4eLRxXqXIiVr+XJifGRZKm4rUhm5f7c8UWif
+DQG3oTgXrRpz9LYRI7pdLCEAV2yRIt2jKFMw/QrSsfWNiLUDfzxioa3kuWNx6GH3
+uSciDZ4p+R3aOq3SImwqmNM2kFUppHQDEmq75ejlOB/+I1Q/gbyoHhH5h2c0C95M
+iGgYbNyT4l7nZe0a1bqMTarJBsTwh4+qHX1sTcLiSpIb3NwRgNdi4+vWyzdDUyVz
+n1Pffb1qK36JgkTzqMP7AGcE9HqLilspl8JKlVDHEgtUQjgeMSNYnyoMZTQT9UqO
+R5ktieCzvX1maNP216MUYBDi9G4WNRXh0HuguAgUz4vG0qMMEUf/KiAwfu/3tbC8
+NxdNjEHEBCjZfxXSFabkdfqqljvsFQLwqubgzZZqTXbehicmE++4q3Xs2w5e5rx4
+Fn5a904Hia8zUisKr35Odgt1QF0EHtHshkBfNKPMCXsqBQ10pNC0GrUPKRCc5tyi
+8tNkphtDor3clihYdEtCvHdI
+=OLRo
 -----END PGP SIGNATURE-----
 
---===============8804499972544787420==--
+--===============7242813414676051281==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-956ec6718705-d488759416ed.txt
+
+c2535e954f502c3d2c46094dce2894c0fbe9f3a1 Staging: rtl8192e: Rename variable pTxTs
+896578ae2c51233742baf3becc9e6753a6e9039a Staging: rtl8192e: Rename variable BAReq
+1628dd0f12c699fbd2e306650836c3e2ac63ecfe Staging: rtl8192e: Rename variable Delba
+b35fe92f84c92b773592da73d95915960baafa75 Staging: rtl8192e: Rename variable TSpec
+56c5fa92de764af083ca88d9ff4e9c466b466f09 Staging: rtl8192e: Rename variable TxAdmittedBARecord
+11fe57bef57ad57837b06d2d2404653d73a30a3c Staging: rtl8192e: Rename variable TxPendingBARecord
+c831d3f629fe98adf6c25974851208e123033fed Staging: rtl8192e: Rename variable pDialogToken
+5732a2aa5f4bbd7c898c0bc18bdc73696991feff Staging: rtl8192e: Rename variable pTsCommonInfo
+27236dcfed95d9aed6b1f491ccc4cb85a7656c6b Staging: rtl8192e: Rename variable TxCurSeq
+536b207c45479e92269e1a112e2bd4125d12be91 Staging: rtl8192e: Rename variable TsAddBaTimer
+30b4c01ccc95eff657f4859d7c29b37e848e18c6 Staging: rtl8192e: Rename variable DelbaParamSet
+60b280a3470e1bf6bddd0756e27a7a783c14e5dc Staging: rtl8192e: Rename variable pBaParamSet
+cc6c66a6d41f6b28fbe5f11c3552381f529a9867 Staging: rtl8192e: Rename variable pBaTimeoutVal
+db099efcb25ceb7b2d5cae7cffeb9ac1b1a6852d Staging: rtl8192e: Rename variable pAdmittedBA
+d488759416ed3adf542abe15a530243bb74dd882 Staging: rtl8192e: Rename variable TsCommonInfo
+
+--===============7242813414676051281==--
