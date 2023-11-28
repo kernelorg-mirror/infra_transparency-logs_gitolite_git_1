@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3763920931039747447=="
+Content-Type: multipart/mixed; boundary="===============1554257262402002652=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 28 Nov 2023 02:23:15 -0000
-Message-Id: <170113819556.19211.3144506824015629025@gitolite.kernel.org>
+Date: Tue, 28 Nov 2023 02:23:25 -0000
+Message-Id: <170113820544.19326.4082410010753856976@gitolite.kernel.org>
 
---===============3763920931039747447==
+--===============1554257262402002652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 054b2ccd5f4e21f16e2305d9aa6c2eeb2d2edc29
     new: b28d6ca1c9cbb64b0c8e435c0ff34d8c5d52812c
     log: revlist-054b2ccd5f4e-b28d6ca1c9cb.txt
 
---===============3763920931039747447==
+--===============1554257262402002652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -314,4 +314,4 @@ d854b4b21de684a16a7d6163c7b0e9c5ff8a09d3 kconfig: deduplicate code in conf_read_
 884f55f152cb028056bf9efe557a2d7346e932f5 kbuild: buildtar: Remove unused $dirs
 b28d6ca1c9cbb64b0c8e435c0ff34d8c5d52812c kbuild: buildtar: always make modules_install
 
---===============3763920931039747447==--
+--===============1554257262402002652==--
