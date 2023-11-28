@@ -1,56 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============2436315297766339976=="
+Content-Type: multipart/mixed; boundary="===============0243144510264226307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 28 Nov 2023 19:05:42 -0000
-Message-Id: <170119834225.11728.11696801553685707373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Tue, 28 Nov 2023 19:17:55 -0000
+Message-Id: <170119907565.20738.13385479981302638349@gitolite.kernel.org>
 
---===============2436315297766339976==
+--===============0243144510264226307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 110684d58bdb715032bc7fc92ebdb554ae7deeb6
-    new: b9873755a6c8ccfce79094c4dce9efa3ecb1a749
+  - ref: refs/heads/tty-testing
+    old: ab58841ab9fca536e5579312d7b46cbc4822e29c
+    new: 068ab2135b3fe0d8957f099a5b860117457825ec
     log: |
-         b9873755a6c8ccfce79094c4dce9efa3ecb1a749 misc: Add Nitro Secure Module driver
+         a3db64c575ca201c9783f100c70b82d52bd78a93 tty: make tty const in tty_get_baud_rate()
+         ff4b8c3a8be98fee16a8ab7751a5834088e60b23 tty: srmcons: make srmcons_do_write() return void
+         ad1885559249fa2530cb0659b758583873dc906f tty: srmcons: use 'count' directly in srmcons_do_write()
+         2ea2ac84ef357dcaf11a80b303d391fb6c2510d8 tty: srmcons: switch need_cr to bool
+         068ab2135b3fe0d8957f099a5b860117457825ec tty: srmcons: remove 'str_cr' and use string directly
          
 
---===============2436315297766339976==
+--===============0243144510264226307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701198341 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1701198340-8fc52074a920e937d34f96055389c4e377020e0e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701199072 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1701199071-9bb53658d4d4099bfd5bb227ae61026fd99ec932
 
-110684d58bdb715032bc7fc92ebdb554ae7deeb6 b9873755a6c8ccfce79094c4dce9efa3ecb1a749 refs/heads/char-misc-testing
+ab58841ab9fca536e5579312d7b46cbc4822e29c 068ab2135b3fe0d8957f099a5b860117457825ec refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVmOgUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Hh4P/ifaHy4QkG3Lxg38AlOe
-zPOBYV7FFyEs5BGksh9gpGqdW2qkSwU0SS4WdwfsTEyjPt879ZtWAM2pIT0Flm4G
-3l5tJ7H08hBnDhXoQMbUFYnMyG+GTA+f/cUAfcXOzTHKO4DKV9gid///+5qdqGwG
-17f++UxNjoE9ruXjCvuocmS8qekWGLCGEJsRdU9JSN3RamdbzYsCM4yUkL+fCMVQ
-kVAO5uEmdooYRwH/Rzi2za9tl4qu5cCbxAg8WCSEzx41hrBkbAK00gge2BjSTziM
-QIjbcQe1ozxf7juUQI2nIxhJu03m1a10DCtNfbX7uly0BqMkIgYQ/YI38G3B2vLQ
-/KbR5s2G0Fu2ow5kdv9kfQ0ij2TSXsxu2qmd6RH8ucrBE3chVmY1wrEUUoGozfJN
-bzKvwQPM2f+rpyJVh0+rEK2nCIWhaV6IrZmI0NSP2jHsmwHUQNaX98zx3Co0HxKs
-vD0WF5MRaXa5ZRgKm3Uea4HZziNjhIGr/3G6v9cqrhQqaMHI4d7eex24MY3up5KI
-GPl3X5gC3zFAdYB6R+fxiYXF+xZpI8UuceolVX0k4d90X3z8l+OMxkFKJ4QwSbAb
-W/hzj2JsWCBoUaCkfXFd0nqExEBISlqLid3XntnkAXQiJieTyqrlsbQdUhSbtwuK
-0TTqi+zdn3GFYow/i7x/VY7K
-=4Svy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVmPOAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4d8P+wTHRe9xHaQ/oV5e5WZp
+BCTSdzyQV9rDNycrUu/L+uhn2zw7sLR/0PnP/vpeZv81L2vhdjmocl2eRrkwLruI
+HccsEh+wHOcaonpJAdZdOEPw1kFr2Q4pip88nwlezvGyYdrVRgqR8mqToqKCvBUg
+qPgqX1sGjtq70chrpMLNfq+xLVfFzs0tRi5qEIVNp20mtdeCmCbz9RpVpN6Ukza4
+GUE0iUwYYIvPhkxewKs45EPec5KyMhbMRryewSvz1bPdUnaOiF6HnxJ+K3yQkB6H
+fhzYODlNQ6hRXc9hZbJfkB+nYvgSO+iqk9FRnR78tOzK5kYLV/uCaqkwB6kWRoEz
+u1rzVdr9iv3EGo8f48sj88mQZ9hYb9IJGambelVbf2QGQLQNR7aXTl6AvbqOyPQj
+CP6+Z8NvEhf7da27tp7qsSh3qNHAe7S5j30zmkzYaQV3rvwAVqvq6ENst2jHmKrE
+hRzzv16wFVBM/kcZL4312mzeQV0kaLm7Tmwub03pOEberqoW3raQE70Vi5B+8Nzx
+9MQQHHg5K72SJ9SIEfx91iUqjzv0YamvPUGtKEbyHxqRG+/irdm7wIWHNwuw6E4E
+29XNRW5MALCYV5mH4y+sZYEVpFJY+I5lRUHz5YBFgSgXqU22jj6hdROPPnSUtc0C
+aciMJDlDtOiK8b6dZouPMNAQ
+=ppXW
 -----END PGP SIGNATURE-----
 
---===============2436315297766339976==--
+--===============0243144510264226307==--
