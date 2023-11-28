@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-Date: Tue, 28 Nov 2023 17:44:48 -0000
-Message-Id: <170119348822.7606.13806517620311679243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 28 Nov 2023 17:45:26 -0000
+Message-Id: <170119352675.9475.16495996460431813426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/v6.7-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 03d1179639b1515dce087335c1fb5c962908683b
+  - ref: refs/heads/fileesYDZI
+    old: 3acc58f55edf786971898fdb6bc180bc77acb2a6
+    new: 0000000000000000000000000000000000000000
