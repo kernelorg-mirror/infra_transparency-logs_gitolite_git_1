@@ -1,40 +1,38 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 27 Nov 2023 23:25:29 -0000
-Message-Id: <170112752985.16443.10326443662125949565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Tue, 28 Nov 2023 00:00:41 -0000
+Message-Id: <170112964130.8713.13763238235123406389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/for-next
-    old: 2a883579c894fcedd543233e5089479bfa0c9cde
-    new: 0229d985cdb70b6667b84074af55b8d039874525
+  - ref: refs/heads/master
+    old: 0fb81fdd606890d1df065f878ed8a12604d4560a
+    new: 0a58e885157c8d2552932ee99b4ff17e4e372328
     log: |
-         86a12ca6e12b70cfa4694d885c51007334172c3c arm64: dts: rockchip: add USB3 host on rk3588s-orangepi-5
-         02dbe73da5c4f6a8dc7c381b21c181006a06fb90 dt-bindings: arm: rockchip: Update edgeble-neu6 bindings
-         ec31f0f98433f0edf456e2074301b76bdace5f3d arm64: dts: rockchip: Use NCM6A-IO board for edgeble-neu6b
-         076a948f5ad0da8a4438fdb3ec1b4a473084b40a ARM: dts: rockchip: minor whitespace cleanup around '='
-         93dc6cd15f207be502739072ad122fa5ac812908 arm64: dts: rockchip: minor whitespace cleanup around '='
-         3dff022ddd99404da569a77f752970362cd441db Merge branch 'v6.7-armsoc/dtsfixes' into for-next
-         0229d985cdb70b6667b84074af55b8d039874525 Merge branch 'v6.8-armsoc/dts64' into for-next
+         431b7136bfb2faa410743c99a2bf6b1b70d6b711 _damon/commit(): Avoid unnecessary file io when commit_quota_gaols_only
+         593dad81e4df7f236fc673b77bd0c8dc1d258e26 TODO: Update
+         79a92f7817be627b6aaff8b4ae20ab28f49dd5c9 _damon_sysfs: Remove unnecessary debug log
+         6ec8c5dcf1e07c201ab45491eb3081bb275a9f51 _damon_result: Rename to _damon_records
+         0eb3b4d087427b9d1da829f5c84a8d7a9c21b900 damo_show: Move more snapshot retrieval logics to _damon_records
+         6a344d85faf0ae847da8847bb5cc12e40a03c1f4 _damon_records/get_records(): Cleanup
+         1a77b505cddd4ca92a015f3008042e35c33a6d11 README: Announce 'damo translate_damos' as deprecated.
+         fece492901c9a5957618cbead63b8a0d5959a66e release_note: Update
+         0a58e885157c8d2552932ee99b4ff17e4e372328 Update the version
          
-  - ref: refs/heads/v6.7-armsoc/dtsfixes
-    old: 2a842c4e2f76736f4ed2da9f02ca3ae3330d6b11
-    new: 93dc6cd15f207be502739072ad122fa5ac812908
+  - ref: refs/heads/next
+    old: 6a344d85faf0ae847da8847bb5cc12e40a03c1f4
+    new: 0a58e885157c8d2552932ee99b4ff17e4e372328
     log: |
-         076a948f5ad0da8a4438fdb3ec1b4a473084b40a ARM: dts: rockchip: minor whitespace cleanup around '='
-         93dc6cd15f207be502739072ad122fa5ac812908 arm64: dts: rockchip: minor whitespace cleanup around '='
+         1a77b505cddd4ca92a015f3008042e35c33a6d11 README: Announce 'damo translate_damos' as deprecated.
+         fece492901c9a5957618cbead63b8a0d5959a66e release_note: Update
+         0a58e885157c8d2552932ee99b4ff17e4e372328 Update the version
          
-  - ref: refs/heads/v6.8-armsoc/dts64
-    old: 0cd3a3f2e893f404f9566a3cb90b360f0d3e1b35
-    new: ec31f0f98433f0edf456e2074301b76bdace5f3d
-    log: |
-         86a12ca6e12b70cfa4694d885c51007334172c3c arm64: dts: rockchip: add USB3 host on rk3588s-orangepi-5
-         02dbe73da5c4f6a8dc7c381b21c181006a06fb90 dt-bindings: arm: rockchip: Update edgeble-neu6 bindings
-         ec31f0f98433f0edf456e2074301b76bdace5f3d arm64: dts: rockchip: Use NCM6A-IO board for edgeble-neu6b
-         
+  - ref: refs/tags/v2.0.9
+    old: 0000000000000000000000000000000000000000
+    new: 07b97ecc1061d5e30a9cd736a053d3322cafbe09
