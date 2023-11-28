@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 28 Nov 2023 19:35:06 -0000
-Message-Id: <170120010635.785.4135426333319028407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Tue, 28 Nov 2023 19:35:24 -0000
+Message-Id: <170120012468.955.18277591902393143039@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
 user: jaegeuk
 changes:
   - ref: refs/heads/dev-test
-    old: bbd3efed3383e332191c665786c61653826d2ac3
-    new: d346fa09abff46988de9267b67b6900d9913d5a2
+    old: 0db80fe4a6fb04b00b9a5f4c6e6d3a1186d300d9
+    new: 00efc38bb944f167f33c219c3207c830efc3e5d3
     log: |
-         53edb549565f55ccd0bdf43be3d66ce4c2d48b28 f2fs: fix to avoid dirent corruption
-         5f23ffdf17e805218e56a9796bdc67497ab11bac f2fs: introduce tracepoint for f2fs_rename()
-         8e9cf55ef89c775fdaaa7c6212dbb691420a4673 f2fs: show i_mode in trace_f2fs_new_inode()
-         d346fa09abff46988de9267b67b6900d9913d5a2 f2fs: sysfs: support discard_io_aware
+         779bc5060641953674b32c5c8ddf4929ed261956 f2fs-tools: Fix debug size print
+         97af7a106ebd7cd3596c1a1dc4073ff3e2ea253d f2fs-tools: Wait for Block Size to initialize Cache
+         444c048c15aee81d331e9daebe4357d0670575d7 f2fs-tools: Fix dqb_curspace to reflect blocksize
+         68abdf360a8d8838d13201dfa234e3df639f7910 f2fs-tools: adjust nat and block release logic
+         00efc38bb944f167f33c219c3207c830efc3e5d3 f2fs-tools: fixed incorrect error handling
          
