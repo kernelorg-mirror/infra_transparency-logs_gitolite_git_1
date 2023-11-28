@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3312164741281330759=="
+Content-Type: multipart/mixed; boundary="===============2436315297766339976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 28 Nov 2023 19:04:33 -0000
-Message-Id: <170119827302.9727.13906661934000718253@gitolite.kernel.org>
+Date: Tue, 28 Nov 2023 19:05:42 -0000
+Message-Id: <170119834225.11728.11696801553685707373@gitolite.kernel.org>
 
---===============3312164741281330759==
+--===============2436315297766339976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 736dfbde3a842422b3e1fe0f881ef2c82b04f269
-    new: 110684d58bdb715032bc7fc92ebdb554ae7deeb6
+    old: 110684d58bdb715032bc7fc92ebdb554ae7deeb6
+    new: b9873755a6c8ccfce79094c4dce9efa3ecb1a749
     log: |
-         110684d58bdb715032bc7fc92ebdb554ae7deeb6 vgacon: drop IA64 reference in VGA_CONSOLE dependency list
+         b9873755a6c8ccfce79094c4dce9efa3ecb1a749 misc: Add Nitro Secure Module driver
          
 
---===============3312164741281330759==
+--===============2436315297766339976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701198272 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701198341 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1701198271-a8cc083bc94dabce92fa551c5b6105d5eb8c3483
+nonce 1701198340-8fc52074a920e937d34f96055389c4e377020e0e
 
-736dfbde3a842422b3e1fe0f881ef2c82b04f269 110684d58bdb715032bc7fc92ebdb554ae7deeb6 refs/heads/char-misc-testing
+110684d58bdb715032bc7fc92ebdb554ae7deeb6 b9873755a6c8ccfce79094c4dce9efa3ecb1a749 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVmOcAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NnUP/ipqG8/n8/gd4i5DOzBS
-2kgatdzqyuL5YoYIdBVZsp1/4bVvQBpgUL4prV1zRLduPyZICqSCw+C/riyfdY0/
-TvjyNMz9ppLQXxAUpdHoNtsvH3URo5MTY4CZoM1OH9wQPrkmonzSaSKp5izx+ShF
-FcgDYZAB6Zpvr+j9tAbV0GhgWtnU1hig0AC2cCZke7YmvkWH5/wMJfyAkqc1bBis
-CNkLeOqmL6jUt9zJWGPyjufC+jvR1T/9lovJeJaxJXZWH+N7I4RQRZflqbKUrHeg
-en9heMQ2xS1iQRjyRIiBrS4RlFhS8JJ7RowzvTO4QRk4feGOxazqvfHrOZRa0N5o
-pH9M0sC1MQyZ+Q2NbKE6FK6IhuL364ylOJ9i2KVIvto6T4t89gNwZOt3ZYecqnQ7
-wj4Z9wEj3tCxwx2Xmpt2mdMHaZhiuT70o7Ed50ddoyroJ61TkKmixIs+a48Lc0gr
-xYJZXOeXB/G6XB8CXIax0BTSN0axu+lPr9Sm+Fm9O3Dk01kPzygYaZ+ONT0qjzqC
-MXviBWY3lQ0hwoJK6kMP8d+5cDEbRfIHo85X5UNGhSUBoaPHQrko1nAs88TT4HRP
-woHkDtYvoh18AgJt7U/GTtA2TJQzqpNI/qsGUOSm6DcdbK0+yZsfDMQxPDun1Wd/
-nTsV/7fiv710ZV+GSDiAKhhA
-=Cr/W
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVmOgUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Hh4P/ifaHy4QkG3Lxg38AlOe
+zPOBYV7FFyEs5BGksh9gpGqdW2qkSwU0SS4WdwfsTEyjPt879ZtWAM2pIT0Flm4G
+3l5tJ7H08hBnDhXoQMbUFYnMyG+GTA+f/cUAfcXOzTHKO4DKV9gid///+5qdqGwG
+17f++UxNjoE9ruXjCvuocmS8qekWGLCGEJsRdU9JSN3RamdbzYsCM4yUkL+fCMVQ
+kVAO5uEmdooYRwH/Rzi2za9tl4qu5cCbxAg8WCSEzx41hrBkbAK00gge2BjSTziM
+QIjbcQe1ozxf7juUQI2nIxhJu03m1a10DCtNfbX7uly0BqMkIgYQ/YI38G3B2vLQ
+/KbR5s2G0Fu2ow5kdv9kfQ0ij2TSXsxu2qmd6RH8ucrBE3chVmY1wrEUUoGozfJN
+bzKvwQPM2f+rpyJVh0+rEK2nCIWhaV6IrZmI0NSP2jHsmwHUQNaX98zx3Co0HxKs
+vD0WF5MRaXa5ZRgKm3Uea4HZziNjhIGr/3G6v9cqrhQqaMHI4d7eex24MY3up5KI
+GPl3X5gC3zFAdYB6R+fxiYXF+xZpI8UuceolVX0k4d90X3z8l+OMxkFKJ4QwSbAb
+W/hzj2JsWCBoUaCkfXFd0nqExEBISlqLid3XntnkAXQiJieTyqrlsbQdUhSbtwuK
+0TTqi+zdn3GFYow/i7x/VY7K
+=4Svy
 -----END PGP SIGNATURE-----
 
---===============3312164741281330759==--
+--===============2436315297766339976==--
