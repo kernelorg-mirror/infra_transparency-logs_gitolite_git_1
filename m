@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7377165920222828323=="
+Content-Type: multipart/mixed; boundary="===============1180559644452664853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 29 Nov 2023 17:58:46 -0000
-Message-Id: <170128072670.15919.9986976708756570895@gitolite.kernel.org>
+Date: Wed, 29 Nov 2023 17:58:54 -0000
+Message-Id: <170128073430.16027.4258580604215843930@gitolite.kernel.org>
 
---===============7377165920222828323==
+--===============1180559644452664853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.7
+  - ref: refs/heads/for-next
     old: 13648e04a9b831b3dfa5cf3887dfa6cf8fe5fe69
     new: d354a93645f07a1d75da2b539881f463d527b969
     log: revlist-13648e04a9b8-d354a93645f0.txt
 
---===============7377165920222828323==
+--===============1180559644452664853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -666,4 +666,4 @@ d2da77f431ac49b5763b88751a75f70daa46296c Merge tag 'parisc-for-6.7-rc3' of git:/
 38bc1ab135db87577695816b190e7d6d8ec75879 dm-verity: align struct dm_verity_fec_io properly
 d354a93645f07a1d75da2b539881f463d527b969 dm-flakey: start allocating with MAX_ORDER
 
---===============7377165920222828323==--
+--===============1180559644452664853==--
