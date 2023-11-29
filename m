@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 29 Nov 2023 08:16:25 -0000
-Message-Id: <170124578591.2382.4112363510897888146@gitolite.kernel.org>
+Date: Wed, 29 Nov 2023 08:16:39 -0000
+Message-Id: <170124579964.2554.9094824392667467246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,15 +9,14 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+user: mingo
 changes:
-  - ref: refs/heads/perf/core
-    old: 388a1fb7da6aaa1970c7e2a7d7fcd983a87a8484
-    new: cb4a6ccf35839895da63fcf6134d6fbd13224805
+  - ref: refs/heads/master
+    old: c17381b94c1508ff9606b856bb1a464a496e41bc
+    new: 00f62ee45574e00fcc4697354023af9a074f1f35
     log: |
-         cf35791476fcb3230b98a42241a56242d60ebdd3 perf/x86/intel/uncore: Generic uncore_get_uncores and MMIO format of SPR
-         b560e0cd882b11921c84307efe139f1247434c5e perf/x86/uncore: Use u64 to replace unsigned for the uncore offsets array
-         632c4bf6d007862307440b177d9fee829857e8bb perf/x86/intel/uncore: Support Granite Rapids
-         388d76175bd9bbad52bbff25c88361d9e5c6615e perf/x86/intel/uncore: Support IIO free-running counters on GNR
-         cb4a6ccf35839895da63fcf6134d6fbd13224805 perf/x86/intel/uncore: Support Sierra Forest and Grand Ridge
+         c64545594daf748422fa083389b062d0a16fb477 x86/Kconfig: Remove obsolete config X86_32_SMP
+         9f988030e85fafa2b03910d467302853ad29a300 EDAC/mce_amd: Remove SMCA Extended Error code descriptions
+         89b9250544eb45da9057e6a1b73e55da5a9c1854 Merge branch into tip/master: 'ras/core'
+         00f62ee45574e00fcc4697354023af9a074f1f35 Merge branch into tip/master: 'x86/cleanups'
          
