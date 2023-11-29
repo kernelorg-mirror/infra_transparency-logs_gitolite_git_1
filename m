@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 29 Nov 2023 08:40:42 -0000
-Message-Id: <170124724215.22097.9251618644775964240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 29 Nov 2023 08:47:03 -0000
+Message-Id: <170124762395.26012.14841067848175292526@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: f6c29efa929cb8c741591ab38061e7921d53a997
-    new: 02d6e367ea140c43294155a73735afa205a6e4a9
+  - ref: refs/heads/for-next
+    old: 3ecb4d85461a34323a849769030841533fcd0395
+    new: 4a29436f0909689226f62bfaad5783845e1bf856
     log: |
-         b8ecc2d3ef8894f24c6c80835e4abb3e51d16893 chsh: use libeconf to read /etc/shells
-         c5d9cc4c787b8e58f918c901ee5a92286bf891e8 Add Phytium FTC310 & FTC664 support
-         02d6e367ea140c43294155a73735afa205a6e4a9 Merge branch 'chsh-getusershell' of https://github.com/thkukuk/util-linux
+         d56254a5ccd38570d972a4471fac0ae17f38a734 platform/x86: acer-wmi: Add platform profile and mode key support for Predator PHN16-71
+         e8f5df029179579f532f3e6150f3bc94800a0cb6 platform/x86: acer-wmi: Depend on ACPI_VIDEO instead of selecting it
+         a69dafea00c1ef3aad87a129874a6daae1e2fb39 platform/x86: acer-wmi: add fan speed monitoring for Predator PHN16-71
+         4a29436f0909689226f62bfaad5783845e1bf856 platform/x86: asus-laptop: remove redundant braces in if statements
          
