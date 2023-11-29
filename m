@@ -1,22 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 29 Nov 2023 16:40:22 -0000
-Message-Id: <170127602208.25734.682475769809535588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 29 Nov 2023 16:41:05 -0000
+Message-Id: <170127606559.26095.8860678252185870426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/main
-    old: bed7b22e1316cf8714db5a6805368e66237bdf31
-    new: 987b71f86c69fa4b8922f1c7065a9fa39b7b6b56
+  - ref: refs/heads/bleeding-edge
+    old: 3b9eb95e7205ab9d35d75d87cfcfd47accebd308
+    new: 1c35d78d7aa3fcfc66f2e1a2a3ea7522a3002a4b
     log: |
-         87f062ed853ce75f9f71fd2f7aa9887ee7e8ba65 net: dsa: microchip: ksz8: Make flow control, speed, and duplex on CPU port configurable
-         2f58148c41e23e11f16e79308455d82ab9342607 net: dsa: microchip: ksz8: Add function to configure ports with integrated PHYs
-         71cd5ce7e2f390de105b118a330ffe40a3417bdc net: dsa: microchip: make phylink_mac_link_up() not optional
-         987b71f86c69fa4b8922f1c7065a9fa39b7b6b56 Merge branch 'fine-tune-flow-control-and-speed-configurations-in-microchip-ksz8xxx-dsa-driver'
+         febab20caebac959fdc3d7520bc52de8b1184455 cpufreq/amd-pstate: Fix scaling_min_freq and scaling_max_freq update
+         1c35d78d7aa3fcfc66f2e1a2a3ea7522a3002a4b Merge branch 'pm-cpufreq' into linux-next
+         
+  - ref: refs/heads/linux-next
+    old: 3b9eb95e7205ab9d35d75d87cfcfd47accebd308
+    new: 1c35d78d7aa3fcfc66f2e1a2a3ea7522a3002a4b
+    log: |
+         febab20caebac959fdc3d7520bc52de8b1184455 cpufreq/amd-pstate: Fix scaling_min_freq and scaling_max_freq update
+         1c35d78d7aa3fcfc66f2e1a2a3ea7522a3002a4b Merge branch 'pm-cpufreq' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 3b9eb95e7205ab9d35d75d87cfcfd47accebd308
+    new: 1c35d78d7aa3fcfc66f2e1a2a3ea7522a3002a4b
+    log: |
+         febab20caebac959fdc3d7520bc52de8b1184455 cpufreq/amd-pstate: Fix scaling_min_freq and scaling_max_freq update
+         1c35d78d7aa3fcfc66f2e1a2a3ea7522a3002a4b Merge branch 'pm-cpufreq' into linux-next
          
