@@ -1,49 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
-Date: Wed, 29 Nov 2023 14:04:47 -0000
-Message-Id: <170126668729.8440.12984716765711920080@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0988163370679733283=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Wed, 29 Nov 2023 14:35:52 -0000
+Message-Id: <170126855273.31670.15227847084079214526@gitolite.kernel.org>
+
+--===============0988163370679733283==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
-user: ggreenman
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/chromeos-4.14__release/core83-61
-    old: 0000000000000000000000000000000000000000
-    new: 00660601970563d8a8fbb00f95bfd1705e0839eb
-  - ref: refs/tags/chromeos-4.14__release/core83-2023-11-29
-    old: 0000000000000000000000000000000000000000
-    new: 00660601970563d8a8fbb00f95bfd1705e0839eb
-  - ref: refs/heads/chromeos-4.19__release/core83-61
-    old: 0000000000000000000000000000000000000000
-    new: 26d7538f3bd488b46e72610845e6a32428c33e99
-  - ref: refs/tags/chromeos-4.19__release/core83-2023-11-29
-    old: 0000000000000000000000000000000000000000
-    new: 26d7538f3bd488b46e72610845e6a32428c33e99
-  - ref: refs/heads/chromeos-5.4__release/core83-61
-    old: 0000000000000000000000000000000000000000
-    new: 495870cc791b6eb46714d410ed5f64b83d8a3cb8
-  - ref: refs/tags/chromeos-5.4__release/core83-2023-11-29
-    old: 0000000000000000000000000000000000000000
-    new: 495870cc791b6eb46714d410ed5f64b83d8a3cb8
-  - ref: refs/heads/chromeos-5.10__release/core83-61
-    old: 0000000000000000000000000000000000000000
-    new: bc11132435204c7cf4dc0418707a5db7cfca4b4b
-  - ref: refs/tags/chromeos-5.10__release/core83-2023-11-29
-    old: 0000000000000000000000000000000000000000
-    new: bc11132435204c7cf4dc0418707a5db7cfca4b4b
-  - ref: refs/heads/chromeos-5.15__release/core83-61
-    old: 0000000000000000000000000000000000000000
-    new: fae65718286f5ee0ce00a17b2e2b1f1d466f2b05
-  - ref: refs/tags/chromeos-5.15__release/core83-2023-11-29
-    old: 0000000000000000000000000000000000000000
-    new: fae65718286f5ee0ce00a17b2e2b1f1d466f2b05
-  - ref: refs/heads/chromeos-6.1__release/core83-61
-    old: 0000000000000000000000000000000000000000
-    new: f884e196c03ed3faea5a3bc1efd13aa153a959f3
-  - ref: refs/tags/chromeos-6.1__release/core83-2023-11-29
-    old: 0000000000000000000000000000000000000000
-    new: f884e196c03ed3faea5a3bc1efd13aa153a959f3
+  - ref: refs/heads/master
+    old: 5f21604618f92e7a0e8d2efcfee1a65a9725bf5e
+    new: 5d50b74c5b0ddf079f1475f7a72900a82ce62ba7
+    log: |
+         5d50b74c5b0ddf079f1475f7a72900a82ce62ba7 Add EE7A392FDE96209F (Alice Ryhl)
+         
+
+--===============0988163370679733283==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1701268551 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1701268551-d4442e5b6f56197b3ab0cbb95a2de456921031a2
+
+5f21604618f92e7a0e8d2efcfee1a65a9725bf5e 5d50b74c5b0ddf079f1475f7a72900a82ce62ba7 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZWdMRwAKCRC2xBzjVmSZ
+bGF5AP9KqjrwnSj4VZNZ5fIKfdLjA2lOjOuey0STDP/r+Vbf+wD/SH3afPMcjbpg
+hq2+5AuWa3p9gXAk4MLCQCJi0nYRjQk=
+=ytF8
+-----END PGP SIGNATURE-----
+
+--===============0988163370679733283==--
