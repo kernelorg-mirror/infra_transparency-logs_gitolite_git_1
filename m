@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 29 Nov 2023 21:17:38 -0000
-Message-Id: <170129265857.30088.2971508940517153833@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Wed, 29 Nov 2023 21:20:14 -0000
+Message-Id: <170129281412.32658.15193933595837120162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/for-linus
-    old: 3acc58f55edf786971898fdb6bc180bc77acb2a6
-    new: c7095d154ddf40b6221118a0bbf30e68d78460b3
+  - ref: refs/heads/master
+    old: fedfa36d045ab78ea9a0aa2c5a3d5d74c27207d3
+    new: a42b4bd51b2aec77fb38f1ce0f41846055a8d33c
     log: |
-         2cf4da68a480f999ce1327a23557fad7b6dd80dd ASoC: SOF: ipc4-topology: Correct data structures for the SRC module
-         c7095d154ddf40b6221118a0bbf30e68d78460b3 ASoC: SOF: ipc4-topology: Correct data structures for the GAIN module
+         11baacb2fd9b1c6e759ad54ca13f259fa1769c73 dt-bindings: input: sprd,sc27xx-vibrator: Drop incomplete example
+         a42b4bd51b2aec77fb38f1ce0f41846055a8d33c dt-bindings: input: mediatek,pmic-keys: Drop incomplete example
          
-  - ref: refs/heads/for-next
-    old: 2217b1e89bc540bfd6574ad8617c628fcbf40c6b
-    new: 18b20f74053f6fea623a3b89eb2f58685f47b60d
+  - ref: refs/heads/next
+    old: fedfa36d045ab78ea9a0aa2c5a3d5d74c27207d3
+    new: a42b4bd51b2aec77fb38f1ce0f41846055a8d33c
     log: |
-         2cf4da68a480f999ce1327a23557fad7b6dd80dd ASoC: SOF: ipc4-topology: Correct data structures for the SRC module
-         c7095d154ddf40b6221118a0bbf30e68d78460b3 ASoC: SOF: ipc4-topology: Correct data structures for the GAIN module
-         18b20f74053f6fea623a3b89eb2f58685f47b60d Merge remote-tracking branch 'asoc/for-6.8' into asoc-next
+         11baacb2fd9b1c6e759ad54ca13f259fa1769c73 dt-bindings: input: sprd,sc27xx-vibrator: Drop incomplete example
+         a42b4bd51b2aec77fb38f1ce0f41846055a8d33c dt-bindings: input: mediatek,pmic-keys: Drop incomplete example
          
