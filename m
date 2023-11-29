@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Wed, 29 Nov 2023 10:14:40 -0000
-Message-Id: <170125288020.4537.3345562050435063399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Wed, 29 Nov 2023 10:23:47 -0000
+Message-Id: <170125342783.10984.3481136991701110067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/tags/mtk-dts64-fixes-for-6.7
-    old: 0000000000000000000000000000000000000000
-    new: 068e867b4499d47bec5cf3d425ac8f82c48a60d6
+  - ref: refs/heads/edac-misc
+    old: a2f99fbae4513ce4871e71ba88cd9d75fe5019e6
+    new: 12f230c07a95d925d6af754485952515e7975127
+    log: |
+         9a5f580c1c71b6aedba696c4898a7a7184cef8ad EDAC/mc: Add support for HBM3 memory type
+         12f230c07a95d925d6af754485952515e7975127 EDAC/amd64: Add support for family 0x19, models 0x90-9f devices
+         
