@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Wed, 29 Nov 2023 13:29:41 -0000
-Message-Id: <170126458160.16074.12478767854001571984@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Wed, 29 Nov 2023 14:03:22 -0000
+Message-Id: <170126660217.7825.6675384543251096590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/v6.7-tmp/dts64
-    old: 1f155b94bf8131e622209a3c2aab9f1485523493
-    new: ff71e99d9d1c8943c62397e06df6507765b2d771
+  - ref: refs/heads/arm64-lpa2-v6-combined
+    old: 6d4fff3b5209fbf6ab1c4a754a0b40807aa78c96
+    new: 348b5d034ae0d584e49fdbcb48796b69e1368020
     log: |
-         17bc1b4cc2709c05494d17356a6263f3f253a129 dt-bindings: arm: Add compatible for MediaTek MT8188
-         1407001eabf44b3ae002abee4fc4d9f8a4090005 dt-bindings: arm: mediatek: Add mt8188 pericfg compatible
-         07d03d9b5df233d3e47112df898f00958f4e763f dt-bindings: soc: mediatek: pwrap: Modify compatible for MT8188
-         ff71e99d9d1c8943c62397e06df6507765b2d771 arm64: dts: Add MediaTek MT8188 dts and evaluation board and Makefile
+         ebcb4598564a324a6b944699d2fddbe65bead642 arm64: mm: add support for WXN memory translation attribute
+         e1f9321c7fc45886a440999560535f66904c16b0 arm64: Set the default CONFIG_ARM64_VA_BITS_52 in Kconfig rather than defconfig
+         4843b9090e7b70e50975d94c4fccc0a086ab8e88 arm64: Avoid enabling KPTI unnecessarily
+         348b5d034ae0d584e49fdbcb48796b69e1368020 arm64: mm: Only map KPTI trampoline if it is going to be used
          
