@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Wed, 29 Nov 2023 10:24:15 -0000
-Message-Id: <170125345558.11243.16709204342415696585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 29 Nov 2023 10:26:13 -0000
+Message-Id: <170125357306.13527.7068962760943904879@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
+repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/edac-for-next
-    old: a2f99fbae4513ce4871e71ba88cd9d75fe5019e6
-    new: 12f230c07a95d925d6af754485952515e7975127
+  - ref: refs/heads/ras/core
+    old: 9f988030e85fafa2b03910d467302853ad29a300
+    new: 47b744ea5e3cf855087951a74ba9f89180fa1ba5
     log: |
-         9a5f580c1c71b6aedba696c4898a7a7184cef8ad EDAC/mc: Add support for HBM3 memory type
-         12f230c07a95d925d6af754485952515e7975127 EDAC/amd64: Add support for family 0x19, models 0x90-9f devices
+         47b744ea5e3cf855087951a74ba9f89180fa1ba5 x86/MCE/AMD: Add new MA_LLC, USR_DP, and USR_CP bank types
          
