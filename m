@@ -1,77 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============0059934592261340615=="
+Content-Type: multipart/mixed; boundary="===============2181946835292218435=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 28 Nov 2023 23:58:47 -0000
-Message-Id: <170121592755.27920.8706099222045469215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 29 Nov 2023 00:35:45 -0000
+Message-Id: <170121814559.22310.12791033585679220381@gitolite.kernel.org>
 
---===============0059934592261340615==
+--===============2181946835292218435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/dev-queue
-    old: 0392e4d0c1cd583c079a18685cd308f8ce903793
-    new: a1c79fa9e5cd3288ecb4019692a4d3ccbf7d2370
-    log: revlist-0392e4d0c1cd-a1c79fa9e5cd.txt
+  - ref: refs/heads/next
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
+    new: b8d0cad57d3f8d8194270ca5e5b5290b6fbdd36e
+    log: revlist-b85ea95d0864-b8d0cad57d3f.txt
 
---===============0059934592261340615==
+--===============2181946835292218435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0392e4d0c1cd-a1c79fa9e5cd.txt
+Content-Disposition: attachment; filename=revlist-b85ea95d0864-b8d0cad57d3f.txt
 
-910c8821450bc3ec49c332c7f06399f322ea24a4 i40e: fix livelocks in i40e_reset_subtask()
-761bd9281de66ef5c055c103f4f225e6ee015469 i40e: fix 32bit FW gtime wrapping issue
-9c70f46844c6c45f852f154d6b913aeeec651474 i40e: add tracepoints for nvmupdate troubleshooting
-8874588cd2b49b545cd282af332b76846ead279f ice: Re-enable timestamping correctly after reset
-a500155ec8e8dcc5902d3496d8c56552a3a62c49 ice: read internal temperature sensor
-b29251126eeda1cc85e5d57580b653cf25f81456 ice: change vfs.num_msix_per to vf->num_msix
-9e9b3e604393a758ba2145dff2f9267bcd467e31 i40e: Delete unused and useless i40e_pf fields
-fd5434c35b32b60072a0d7ceaa5cf9d8fb62e8df i40e: Remove AQ register definitions for VF types
-79f3611859a84b6ca9da0fefb6cd0167125d22ea i40e: Remove queue tracking fields from i40e_adminq_ring
-16ab4e682357679c7bfdb0cc5b9babe64b2ded67 iavf: Remove queue tracking fields from iavf_adminq_ring
-9ff55b3d6d1f21a75f7d034eee70e89c65e94d5a ice: Reset VF on Tx MDD event
-5557999e6dae3e78e54a5f106ca8d91fe68cab7e ice: periodically kick Tx timestamp interrupt
-da3759499e809b2dae3197ade4d08583c9c833fd ice: Restore fix disabling RX VLAN filtering
-6cb659aba585cea908cf435ccb22b0bc4e775ef8 i40e: Fix waiting for queues of all VSIs to be disabled
-3bf771c315c7f303ea448bc92ce7d49a0301926a i40e: Fix unexpected MFS warning message
-47a301be25a5f7d8433fcbee0003337c8add3c82 iavf: use iavf_schedule_aq_request() helper
-43164808ad976014613dbf80a950b734cd4cc6da ice: add CGU info to devlink info callback
-3ea29066f0ac27b32440e5538d4a007803622b9a ice: Fix VF Reset paths when interface in a failed over aggregate
-c5f77dc7e498bc0178c8874a6ab9164fbe36a04c ice: Improve logs for max ntuple errors
-d67963f8bc9e81b84b826d7731674ac951b20d57 igb: Use FIELD_GET() to extract Link Width
-77f3266884ec1154bfae4d1fc5ef2e5756602023 e1000e: Use PCI_EXP_LNKSTA_NLW & FIELD_GET() instead of custom defines/code
-09be902d335d9c129e932afb8a2287b50be8ea7c e1000e: Use pcie_capability_read_word() for reading LNKSTA
-e349063b930ba15a1f2db21a9169975f9d795f2a e1000e: make lost bits explicit
-8c783f49a258f2f4f21633c0c7fc4f7e53cc3023 intel: add bit macro includes where needed
-401dbfb6926610faa18fbc66d9f3ec191d69d43f intel: legacy: field prep conversion
-e9282d9cb84141977e416acc9883632eb3cc0ad1 i40e: field prep conversion
-f3351279c09d455e648febb34aa089405222c78d iavf: field prep conversion
-58d8a7144d63153224d7517298aaabc2ea0dbe1d ice: field prep conversion
-b961764ac45a8c0784dc2f35fb54ed2aa056100d ice: fix pre-shifted bit usage
-3919c1a6db1051b51dfedfa8bc0095e5b4b68f6c igc: field prep conversion
-9a570e886d0d9aa18a61fad30c0d4d7619112fd2 intel: legacy: field get conversion
-53eca9b27c5d741eabe4e149e696d4ae8d39c692 igc: field get conversion
-1d03a4bb88ef52fb636d499ba5c54b006aa4f790 i40e: field get conversion
-a9de48c205c5644ab29ff7b572fedbc12e91c3ca iavf: field get conversion
-ac930b9d753f731199df615eb84ec1fcb421e5d9 ice: field get conversion
-debcacab18c656da6f7520bf0715cf80048f30d7 iavf: validate tx_coalesce_usecs even if rx_coalesce_usecs is zero
-8a76695cfda5081f7c2a52cb7ade55ac4c253a30 iavf: Introduce new state machines for flow director
-feb98709889749a68fb9d033292809295a7120a2 iavf: Handle ntuple on/off based on new state machines for flow director
-d85de0e5689a377b0be00f86fc134ff8c44f4796 i40e: Fix kernel crash during macvlan offloading setup
-bdb61b9fc8a15fe4cf3af5f61c5a67cb137c8ca8 ice: Rename E822 to E82X
-08be647de67db5659d403223f0f5426996a3af33 i40e: Use existing helper to find flow director VSI
-267ea951d2332ea2aa88fb9db1e572f45fc0152d i40e: Introduce and use macros for iterating VSIs and VEBs
-728a8645dd96d4b2528940b23c4332b76d8baa70 i40e: Add helpers to find VSI and VEB by SEID and use them
-dec53f7293bf78659cca9c733448e720c90cad86 i40e: Fix broken support for floating VEBs
-0d74d0a41a7236e856b948ce056676814f31cbc0 i40e: Remove VEB recursion
-1889735ddb427b74fc8590de003121b22a6bf60e ice: fix error code in ice_eswitch_attach()
-a1c79fa9e5cd3288ecb4019692a4d3ccbf7d2370 i40e: remove fake support of rx-frames-irq
+d9dcdb4531fe39ce48919ef8c2c9369ee49f3ad2 PCI: host-generic: Convert to platform remove callback returning void
+9a000a72af75886e5de13f4edef7f0d788622e7d PCI/P2PDMA: Remove reference to pci_p2pdma_map_sg()
+e585a37e5061f6d5060517aed1ca4ccb2e56a34c PCI: Only override AMD USB controller if required
+3171e46d677a668eed3086da78671f1e4f5b8405 PCI: Avoid potential out-of-bounds read in pci_dev_for_each_resource()
+5cef3014e02d4056d5ac3ee18540a9a79fbf533c x86/pci: Reserve ECAM if BIOS didn't include it in PNP0C02 _CRS
+ed2e1bdb7acc65670fbd2dce05ad72b655bb52a1 x86/pci: Reword ECAM EfiMemoryMappedIO logging to avoid 'reserved'
+df41ddcc006f51ea9a6a9cc629687f1da32859f5 x86/pci: Add MCFG debug logging
+53bcad5e83594773dbd9f60df8e5a72383e655a9 x86/pci: Rename 'MMCONFIG' to 'ECAM', use pr_fmt
+435a959c17b3a123dc8bb92c0bbe5cd531872794 x86/pci: Rename acpi_mcfg_check_entry() to acpi_mcfg_valid_entry()
+25cee43ebe4f02d8af10ad6a9b7ca410b89b7bbd x86/pci: Rename pci_mmcfg_check_reserved() to pci_mmcfg_reserved()
+a7fde4d2156f0d7625e361741042985052d4f00e x86/pci: Comment pci_mmconfig_insert() obscure MCFG dependency
+4cfd2649ed2785774a5ebc31b0e7033301aef990 x86/pci: Return pci_mmconfig_add() failure early
+4de5ec48a79e3b0fca893d10138da6051042d796 x86/pci: Reorder pci_mmcfg_arch_map() definition before calls
+df25461119d987b8c81d232cfe4411e91dcabe66 PCI: switchtec: Fix stdev_release() crash after surprise hot remove
+ed852d8a7c8d89e90a7d206c582c42a786c35083 Merge branch 'pci/ecam'
+5107b0654c47416376373d57ba632efe6db07be5 Merge branch 'pci/enumeration'
+103d7b47218bf3f57a4cd43115e5f95705e75a1b Merge branch 'pci/p2pdma'
+424666776c6006d1df86f34c0e5bb1c25e73c159 Merge branch 'pci/resource'
+b8d0cad57d3f8d8194270ca5e5b5290b6fbdd36e Merge branch 'pci/switchtec'
 
---===============0059934592261340615==--
+--===============2181946835292218435==--
