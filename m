@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Wed, 29 Nov 2023 03:32:35 -0000
-Message-Id: <170122875570.24705.12008459676950562348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 29 Nov 2023 04:05:45 -0000
+Message-Id: <170123074576.16312.13927883910164382798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: fe6151ea898b977aaa7a12c6c2da5ab81b193c7c
-    new: c5674b82d144d21cb874a8699bad129549b1797b
+  - ref: refs/heads/main
+    old: 91d3d149978ba7b238198dd80e4b823756aa7cfa
+    new: 9870257a0a338cd8d6c1cddab74e703f490f6779
     log: |
-         c5674b82d144d21cb874a8699bad129549b1797b isimodem: parse extra details from REG_STATUS_IND
+         9870257a0a338cd8d6c1cddab74e703f490f6779 ravb: Fix races between ravb_tx_timeout_work() and net related ops
          
