@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 29 Nov 2023 08:32:00 -0000
-Message-Id: <170124672006.14645.6802249593426989559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 29 Nov 2023 08:40:42 -0000
+Message-Id: <170124724215.22097.9251618644775964240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-linus
-    old: e4d000cb0c775589799fbdbe1a5785e11bd70081
-    new: cae2bdb579ecc9d4219c58a7d3fde1958118dc1d
-    log: |
-         cae2bdb579ecc9d4219c58a7d3fde1958118dc1d ALSA: hda/realtek: Add supported ALC257 for ChromeOS
-         
   - ref: refs/heads/master
-    old: 89578fbb5393cd8fa540a26f3259fcf88c59a566
-    new: 9e496a71f9d9f3a0b0b165b552aaa945bb00d8f0
+    old: f6c29efa929cb8c741591ab38061e7921d53a997
+    new: 02d6e367ea140c43294155a73735afa205a6e4a9
     log: |
-         cae2bdb579ecc9d4219c58a7d3fde1958118dc1d ALSA: hda/realtek: Add supported ALC257 for ChromeOS
-         9e496a71f9d9f3a0b0b165b552aaa945bb00d8f0 Merge branch 'for-linus'
+         b8ecc2d3ef8894f24c6c80835e4abb3e51d16893 chsh: use libeconf to read /etc/shells
+         c5d9cc4c787b8e58f918c901ee5a92286bf891e8 Add Phytium FTC310 & FTC664 support
+         02d6e367ea140c43294155a73735afa205a6e4a9 Merge branch 'chsh-getusershell' of https://github.com/thkukuk/util-linux
          
