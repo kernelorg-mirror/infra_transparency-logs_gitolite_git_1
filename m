@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 29 Nov 2023 18:25:30 -0000
-Message-Id: <170128233043.3965.7705088108901853112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
+Date: Wed, 29 Nov 2023 18:26:10 -0000
+Message-Id: <170128237093.4258.4901022990759236771@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
+user: jaegeuk
 changes:
-  - ref: refs/heads/b4/vfs-files-fixes
+  - ref: refs/heads/linux-6.6.y
     old: 0000000000000000000000000000000000000000
-    new: 9061a3e3e1a07fd3f19ca31ff85dc4b9b0ae4a5e
+    new: bd3a9e5771a8b332f466d06f7c130a69cab0d526
