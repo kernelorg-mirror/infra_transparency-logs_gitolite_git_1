@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 29 Nov 2023 16:34:16 -0000
-Message-Id: <170127565641.19153.14247495887236797827@gitolite.kernel.org>
+Date: Wed, 29 Nov 2023 16:40:22 -0000
+Message-Id: <170127602208.25734.682475769809535588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f1be1e04c76bb9c44789d3575bba4418cf0ea359
-    new: bed7b22e1316cf8714db5a6805368e66237bdf31
+    old: bed7b22e1316cf8714db5a6805368e66237bdf31
+    new: 987b71f86c69fa4b8922f1c7065a9fa39b7b6b56
     log: |
-         955f4d3bf0a454bc76c6393d74d844556d61b520 gve: Perform adminq allocations through a dma_pool.
-         8ae980d24195f25d639e9f05421fcf80c5c64b3f gve: Deprecate adminq_pfn for pci revision 0x1.
-         ce260cb114bbf65d53834c712729429b2233f5fd gve: Remove obsolete checks that rely on page size.
-         513072fb4bf816686473eec897194ce6a28e53db gve: Add page size register to the register_page_list command.
-         da7d4b42caf1b4d6ba3447bfd9ed185479fb0fe4 gve: Remove dependency on 4k page size.
-         bed7b22e1316cf8714db5a6805368e66237bdf31 Merge branch 'gve-add-support-for-non-4k-page-sizes'
+         87f062ed853ce75f9f71fd2f7aa9887ee7e8ba65 net: dsa: microchip: ksz8: Make flow control, speed, and duplex on CPU port configurable
+         2f58148c41e23e11f16e79308455d82ab9342607 net: dsa: microchip: ksz8: Add function to configure ports with integrated PHYs
+         71cd5ce7e2f390de105b118a330ffe40a3417bdc net: dsa: microchip: make phylink_mac_link_up() not optional
+         987b71f86c69fa4b8922f1c7065a9fa39b7b6b56 Merge branch 'fine-tune-flow-control-and-speed-configurations-in-microchip-ksz8xxx-dsa-driver'
          
