@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4515087028055900723=="
+Content-Type: multipart/mixed; boundary="===============1738264814587638910=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 30 Nov 2023 09:30:56 -0000
-Message-Id: <170133665679.10453.11894868462821895178@gitolite.kernel.org>
+Date: Thu, 30 Nov 2023 09:31:48 -0000
+Message-Id: <170133670833.10911.18360073495535973509@gitolite.kernel.org>
 
---===============4515087028055900723==
+--===============1738264814587638910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,35 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 7c86f95549f4ca22e68e2fe8b6e82c25d183bca0
-    new: 29361aa36b9fdef2b64b8c88ce03de51044dcc12
-    log: revlist-7c86f95549f4-29361aa36b9f.txt
+    old: 29361aa36b9fdef2b64b8c88ce03de51044dcc12
+    new: 1ce5ac5c318e795dd49dfaa4c034a648e15e0a7e
+    log: revlist-29361aa36b9f-1ce5ac5c318e.txt
 
---===============4515087028055900723==
+--===============1738264814587638910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c86f95549f4-29361aa36b9f.txt
+Content-Disposition: attachment; filename=revlist-29361aa36b9f-1ce5ac5c318e.txt
 
-a780eb0a2b52a9c2b490355a62f3a96a3cd94ebb Merge branch into tip/master: 'sched/urgent'
-a9ac6eeacb1e2a9b14fddb3f4618f0ce32cb6767 Merge branch into tip/master: 'core/debugobjects'
-e4d9704e568d9bf35828c55322d14bc2445a53e9 Merge branch into tip/master: 'locking/core'
-ad4c7e7ad2cf3ecb4d9e6158efd72103d9f90b5c Merge branch into tip/master: 'objtool/core'
-3b0144615055f3f54883ddc076cc035c395d4994 Merge branch into tip/master: 'perf/core'
-3b522c57e140fb5b8ff6d3a34f5ac4b663f24304 Merge branch into tip/master: 'ras/core'
-83e2c13119b824af604cdec51a8e376a16dbaf5e Merge branch into tip/master: 'sched/core'
-8cdd736c7277b46b481d1fc8e902338138674986 Merge branch into tip/master: 'timers/core'
-d417b577fa9b637f4d395476d5af3b32486b2c88 Merge branch into tip/master: 'x86/apic'
-5f24e9ca38983c971c49b95c1cdab0155c8eb796 Merge branch into tip/master: 'x86/boot'
-40eeacf7674ed7cb8b4a690541fdca29875ce48b Merge branch into tip/master: 'x86/build'
-546a37c6dd5ab2e0a481ca4d9bd26a9b80b2e58d Merge branch into tip/master: 'x86/cleanups'
-eb6e8c03a5619344029af228bd5eb7a35474ff1d Merge branch into tip/master: 'x86/core'
-e904c11d6481fd83d99f42bf47a8aaef2f2ebab2 Merge branch into tip/master: 'x86/cpu'
-770a3101c16fdfc8a71ff5c1b023a0a257275516 Merge branch into tip/master: 'x86/entry'
-fc7ac28ad76e16c80bf470b7b19b6f3c5b1743c1 Merge branch into tip/master: 'x86/misc'
-a465309dafb03571f6d41c65d36fbddb00edf3ca Merge branch into tip/master: 'x86/mm'
-6ce7b32bfc35342489e82e184c34f91d8f25492b Merge branch into tip/master: 'x86/paravirt'
-536544f9cb32cca017187f5189c87a7b4a1c83c4 Merge branch into tip/master: 'x86/percpu'
-27d25348d42161837be08fc63b04a2559d2e781c x86/sev: Fix kernel crash due to late update to read-only ghcb_version
-29361aa36b9fdef2b64b8c88ce03de51044dcc12 Merge branch into tip/master: 'x86/urgent'
+d17d6fd746d9c98b678f8394b6dd43904452de25 Merge branch into tip/master: 'sched/urgent'
+0ae37be075db57221887d92728193d681dbff302 Merge branch into tip/master: 'x86/urgent'
+4afbb4f447bb9eb9f9486515d35a4290307579fe Merge branch into tip/master: 'core/debugobjects'
+83c8b0b4605663dd4bc9ac342fa4e662656c260b Merge branch into tip/master: 'locking/core'
+01181fc0a66e427ded5ebdf00fc3b0f5280bd54e Merge branch into tip/master: 'objtool/core'
+7228b496449fe357aa3d197015e516508ae841ec Merge branch into tip/master: 'perf/core'
+036ecedf33bee5f73675a641e35b21f408454098 Merge branch into tip/master: 'ras/core'
+8964dde9de4da844ef719318b3234c1f28ca269e Merge branch into tip/master: 'sched/core'
+79ba87c640faa6daa8be2a520fd3b9e64935a6cc Merge branch into tip/master: 'timers/core'
+21c20e647a510a9fa281e068f18c8b4d0003fa58 Merge branch into tip/master: 'x86/apic'
+3148a73eab562c6fae51a9cdc3c8d786b57cb85a Merge branch into tip/master: 'x86/boot'
+61977ef0a81e01179852cc7c0c58986bfa62db0a Merge branch into tip/master: 'x86/build'
+b45edd56816ba859f6cb2fcdc453b52b801fee41 Merge branch into tip/master: 'x86/cleanups'
+65c50fe56b1b17d5dd3cfd3143c068723f702b0d Merge branch into tip/master: 'x86/core'
+779726c0d3613c566376485ae101ee92942f5276 Merge branch into tip/master: 'x86/cpu'
+a1bc4c6db1786a9493774bb819f836ad839fd4b0 Merge branch into tip/master: 'x86/entry'
+df7c7a0bac1cef4d397d70bffe319f497c747ce9 Merge branch into tip/master: 'x86/misc'
+f9f6b84ab5cb71a94513c6f55aa37cc9bd3f93f2 Merge branch into tip/master: 'x86/mm'
+1d4789e5d527d24dde252d2b4411f4730f2def01 Merge branch into tip/master: 'x86/paravirt'
+1ce5ac5c318e795dd49dfaa4c034a648e15e0a7e Merge branch into tip/master: 'x86/percpu'
 
---===============4515087028055900723==--
+--===============1738264814587638910==--
