@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0505495612509772410=="
+Content-Type: multipart/mixed; boundary="===============1434019310779616453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 30 Nov 2023 15:14:06 -0000
-Message-Id: <170135724646.20884.18057859840416260691@gitolite.kernel.org>
+Date: Thu, 30 Nov 2023 15:14:09 -0000
+Message-Id: <170135724965.20961.12882389507906711346@gitolite.kernel.org>
 
---===============0505495612509772410==
+--===============1434019310779616453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,79 +16,97 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 34639abb636d9bb67fee7251d4b33cd2edb9ca5a
-    new: 86025d4f3e8236208e5f8f4644c0a18a7344d358
-    log: revlist-34639abb636d-86025d4f3e82.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 9a0289d6108a124b4f3ddf8380c86670a2c324a5
+    new: d45c1d8936c49c29900a93fb0002a22292c30749
+    log: revlist-9a0289d6108a-d45c1d8936c4.txt
 
---===============0505495612509772410==
+--===============1434019310779616453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701357245 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701357248 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1701357244-d68404f03902ff01166635afb29b9d607b131d0a
+nonce 1701357247-bc1310a12a62a6f968a64352cc54c5a0622dd367
 
-34639abb636d9bb67fee7251d4b33cd2edb9ca5a 86025d4f3e8236208e5f8f4644c0a18a7344d358 refs/heads/linux-4.19.y
+9a0289d6108a124b4f3ddf8380c86670a2c324a5 d45c1d8936c49c29900a93fb0002a22292c30749 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVopr0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rqMQALLUKVJFtCRNe9wHpqEJ
-I+m9C1xoSa9dtGXc0TBONdZN0Xbxn5j87g/wCehVwNGM/DdnliT2W78C7uOyKueP
-Lg1Vs4PwzTx2psbT6/53kr6Vkf9xK7VznmUPm4TxYZGCmWwcN5dPzCq4OiOukV3A
-qLADtZCVBOqsZm5LI6STlIQwyyZCsSHqz11FWJ/0Ja4ssUTaHCgUHtDa/fzVX3YC
-yIJaTcnsxnSd50yBl6UAoGgNkjmKMPda20s6s5QuBZX8uBCMybXWd81wn9yJ/+ET
-+xZN0PWOB4YuzsHahfGAkOWooBScz0V1JiuifdzsmfLO70W6+pyz60cDBEqNjgbR
-vLNzUefUfUpEfGTG1YAte7IBm0J5Kgs5KnwmrRH+56buQh85celJhYveygB+NPpA
-BPu8gG/IUOh/9x3jy13YUV1BXRcixHj1YBZGWm/KAsW3ngRb8p4DeFNXaNbEzOlZ
-ZzsepPyMiCmkKkqNBnm1XJLSYhQUVDDxaTgmP2gqK2aPWs/QQYxEjPeiwlWGvFc4
-z9VA8AqJpqRVBe7H7Tv8CBu1UbeRTSmSVB7ad+MO3fCOARo7ZeRmfdnQtgmwpsLD
-iFwARq6yyh1IDxHRAYyaMgzcxNlvJx9OjXdDkgmmuHaUfbYg4FBd4Gxx5qmrkkvE
-GOCFqO6ToMVFF9U1rrpVxUiy
-=RF5S
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVopsAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f4wQAIwkXDDLMhdYBYlT3cjL
+UAEGpKoVi9yG7HAAr+B315m5g0QvGy6FHWlcmy3NMGmcam7EZK4ZfOzWWtOn+4Az
+BSbW69cpjp17D3yLpv+ZDuLJ98WBByaF8bUIdK6tYx46c4SEsUoRoooIsI42/mnk
+SSWn1qW8jqDhMprv0E5phItXbo+O3DoglWkw5+gR6vqRc1Vhc2rVWxPv9FcUREXn
+RcFeKB36uK6v7pZSy5Zmdyp47BQS37nicW0K3nIyqgrGrNsKR6lQGvQ1fhIYbzz1
+/uxowrtfZvDxvwDGOjlcxDlLzX5/tCrwUpLF90PtepNbvtVsAklWuhl/urduahK8
+q+lSvEKiXLPV4T5rtku0kjvNG2LXYT/5QsacGZSztJPrKZAjxZaCNCJcXSShPluE
++3c3bZ83Ye+R0aiFfr7xK+bcsT6h5F7NhjgYi3g/NoclpnGuwt1zivUg7cf4AmnX
+ALsxFjNDDdlF6nbjHyKxBV8es4kJ28hZ4aVm2fAQ+2rs2BJzkTCG2ZSnHAYFKUPU
+Y1Nii9CtUS9iRNoyQFMo8fZzzNK5OD02mXztb7taCGJ0vEIu4aFe+p+IU5bYLxb8
+lKeY4NSkOnJhIgtd52WXTSPkf2yH4DHszSmY5luldA8qVKrQIwK2BImYqpCfXbUc
+LkSZAwmZX4G4n73L9nteyw0X
+=xuAM
 -----END PGP SIGNATURE-----
 
---===============0505495612509772410==
+--===============1434019310779616453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-34639abb636d-86025d4f3e82.txt
+Content-Disposition: attachment; filename=revlist-9a0289d6108a-d45c1d8936c4.txt
 
-f874b5932a7a3aa77d2bf42df193ad802f779678 RDMA/irdma: Prevent zero-length STAG registration
-cbf8d897e6d26267d8ebfb4566b03293d1189faa drm/panel: simple: Fix Innolux G101ICE-L01 timings
-b42eb30eb77ccf302d688f0450abe5d80199e6f0 ata: pata_isapnp: Add missing error check for devm_ioport_map()
-d71ab7fc701ca3113cce8f33d30dbcfad16be82b drm/rockchip: vop: Fix color for RGB888/BGR888 format on VOP full
-83803d280e592bcceafc223c00951dd5a7df3f28 HID: core: store the unique system identifier in hid_device
-66e123f746aab03c4db5fd4fbff79ee8e9308d89 HID: fix HID device resource race between HID core and debugging support
-ea4a3e6cf2350c3a803db7f42990909e3dfa6f6e ipv4: Correct/silence an endian warning in __ip_do_redirect
-3ea6f792acc0c30df2e3bc07d2b91c87682b49a1 net: usb: ax88179_178a: fix failed operations during ax88179_reset
-5670a3bf4b84601b87cd38d5be892e715a58db32 arm/xen: fix xen_vcpu_info allocation alignment
-3b10099fa152a02181bd69f1d47db05c11834f98 amd-xgbe: handle corner-case during sfp hotplug
-0b5fae98763f921e8b88f209eaeb45d5a7d15031 amd-xgbe: handle the corner-case during tx completion
-1f3c0c3eac10b66c5f4bf05a4a5abafc6c648d47 amd-xgbe: propagate the correct speed and duplex status
-25bdbdebb82c0b3c00da2db72d657fd864c97e4d net: axienet: Fix check for partial TX checksum
-b689f19517f56c194cb8902f9f8f703c9bd227c7 MIPS: KVM: Fix a build warning about variable set but not used
-5a814240e976228d1afe90e220cc94251755791d tracing/kprobes: Return EADDRNOTAVAIL when func matches several symbols
-58e0d392a5e83e40ccf3b574c3d6b8d9af55e792 arm64: cpufeature: Extract capped perfmon fields
-c5fdec4a8b27a0bdc9e2bdc3566474880bb40f69 KVM: arm64: limit PMU version to PMUv3 for ARMv8.1
-9e446dffd5f1b53674beb6125cd0ed979e8b0f36 mtd: rawnand: brcmnand: Fix ecc chunk calculation for erased page bitfips
-8c63a46b24af05b4717e63f1c49dc36c5208ddd1 bcache: replace a mistaken IS_ERR() by IS_ERR_OR_NULL() in btree_gc_coalesce()
-8c01c59226cc35f99ac66c521c4244f15c8eb36c s390/dasd: protect device queue against concurrent access
-6ccf30ac701fb8fc3e4c6b1d118dbcb78d3bcb8c USB: serial: option: add Luat Air72*U series products
-37439dc201875cf86f26b737d690b94126363e8c hv_netvsc: Fix race of register_netdevice_notifier and VF register
-aa92a4b4173d57c4d66e5158682eebc5d63f8ce4 hv_netvsc: Mark VF as slave before exposing it to user-mode
-5bd3b2d595713bc0781640dd2e0cfedcf5b9c86c dm-delay: fix a race between delay_presuspend and delay_bio
-1f2214f27e44f67727f88faa8ed8541a30173b76 bcache: check return value from btree_node_alloc_replacement()
-df4f6b0745dc2bed90fa5d255c90d53a90b8f145 bcache: prevent potential division by zero error
-90bd90b17012ee33b4134ab815448fedd580f40d USB: serial: option: add Fibocom L7xx modules
-811498bb5ab5297b091e9d80b1a20d8d5ccb6947 USB: serial: option: fix FM101R-GL defines
-da0cd7e19a59b50c4aa1c66a36ce2c3032e09f2a USB: serial: option: don't claim interface 4 for ZTE MF290
-04b6ee9e95202b2c1d4550e24a04f7fb1cb549c6 USB: dwc2: write HCINT with INTMASK applied
-833f08da2bedabfdcc1fe2b5c86d4a92c126c7c2 usb: dwc3: set the dma max_seg_size
-27f4c4b08805479c1d64aff32a182f8bad9b59a3 USB: dwc3: qcom: fix wakeup after probe deferral
-86025d4f3e8236208e5f8f4644c0a18a7344d358 Linux 4.19.301-rc1
+2ba5d93394204279a634a4f03cea1caefb50e5cb RDMA/irdma: Prevent zero-length STAG registration
+937356bedd3384627aa7400b746700675e9c263f PCI: keystone: Drop __init from ks_pcie_add_pcie_{ep,port}()
+f33a6a6f5a9e51d6b1d0845ee7bed595d24414ab afs: Make error on cell lookup failure consistent with OpenAFS
+ee1beb1f0c0afeb041f92ba71ac32ced62488a53 drm/panel: simple: Fix Innolux G101ICE-L01 bus flags
+9c1c1d440fc88997b6e46e2ec1d285638379bbb1 drm/panel: simple: Fix Innolux G101ICE-L01 timings
+902de9281b84d7f53a30e010f6615f446ad294a2 ata: pata_isapnp: Add missing error check for devm_ioport_map()
+db3fc6956cc22a38801ff9a983d9a9a1a1badc49 drm/rockchip: vop: Fix color for RGB888/BGR888 format on VOP full
+f1929c4d6bcafbb8eb446f9af326693e1a1aa428 HID: core: store the unique system identifier in hid_device
+b988aee9f106bc1c56238371276b3498558150cf HID: fix HID device resource race between HID core and debugging support
+240c0c14084c1714a5970b8b75343fd93bfb68ab ipv4: Correct/silence an endian warning in __ip_do_redirect
+d8b47687128b690151abaf0b23fee6def8da8b4b net: usb: ax88179_178a: fix failed operations during ax88179_reset
+87247206930a0cb312077ca89bb48b4297400149 arm/xen: fix xen_vcpu_info allocation alignment
+58a961a0e99a8b22f9d9dc9813b1b8163ef05fe4 amd-xgbe: handle corner-case during sfp hotplug
+ab444f8f301e1e4d109cc0618c45099fad8f1fcc amd-xgbe: handle the corner-case during tx completion
+7492a1a8efc07ed3af61ae5a0e163989fd327d02 amd-xgbe: propagate the correct speed and duplex status
+5c8e25eb3c7b90fd6b8547db4e8ada4f63668ec8 net: axienet: Fix check for partial TX checksum
+0e05e01a82902020075f736597962898df353a43 afs: Return ENOENT if no cell DNS record can be found
+a401d0704b00285beef5ed11305fdc2f95756f9a afs: Fix file locking on R/O volumes to operate in local mode
+ff9c5ee707733069053a82e5f7e58a428d8d8556 nvmet: remove unnecessary ctrl parameter
+ada60346ddc8495f69211f69af738345cc646fb4 nvmet: nul-terminate the NQNs passed in the connect command
+0f84c9dad7b0c0a55d9ac6770ef1dfab44f16c8a MIPS: KVM: Fix a build warning about variable set but not used
+31b496ccba812d042b4c6d023a81613c983597f9 ext4: add a new helper to check if es must be kept
+75192edb81ec55bb0d5ca92748dfe8b142e2eda9 ext4: factor out __es_alloc_extent() and __es_free_extent()
+c3d78930173d62e5cf1d66f44b29e034d5c3add1 ext4: use pre-allocated es in __es_insert_extent()
+2a96a7c31f4752d5c4ddc73d159964cf83c80792 ext4: use pre-allocated es in __es_remove_extent()
+773e0b5a242604cd08befdd1a939a91c5bb98fed ext4: using nofail preallocation in ext4_es_remove_extent()
+fd89a7df9e19102f89c95070b3ec4ea4f5e432ef ext4: using nofail preallocation in ext4_es_insert_delayed_block()
+f735b0efe7844fffe00474d12c7d6d0f42c53196 ext4: using nofail preallocation in ext4_es_insert_extent()
+ce1f0dc1a567a351132478b99c9b17f2b21848e3 ext4: fix slab-use-after-free in ext4_es_insert_extent()
+71dcff400f6d8cac4bea05ed226e9c35bb7346be ext4: make sure allocate pending entry not fail
+f2368a60908f65930218b7546823f45e621f3824 tracing/kprobes: Return EADDRNOTAVAIL when func matches several symbols
+b562cfee304d7d4733590374569d36f43863fa0c arm64: cpufeature: Extract capped perfmon fields
+eb9d643dac8067abbbb5b3dfbe1337d9874ac11f KVM: arm64: limit PMU version to PMUv3 for ARMv8.1
+df97f7375df362d1f74795846c68cc75526c2bcd ACPI: resource: Skip IRQ override on ASUS ExpertBook B1402CVA
+1febdd30424130b70d354f2072e7b944bc1e8d23 bcache: replace a mistaken IS_ERR() by IS_ERR_OR_NULL() in btree_gc_coalesce()
+8eb0b4bfc579790671725f0580c5ad8a4578a32a s390/dasd: protect device queue against concurrent access
+c32967cb48250a658ff12ae54833f2c633a7d1b5 USB: serial: option: add Luat Air72*U series products
+58a3a616a73fefdef16122993610bc4cd27f74dc hv_netvsc: Fix race of register_netdevice_notifier and VF register
+a1889902f5691e4bcf4a76359c25e7d3d351c3bc hv_netvsc: Mark VF as slave before exposing it to user-mode
+ddb1cc6653f3ef1151dd4dbfdd328b6fb1d6f20e dm-delay: fix a race between delay_presuspend and delay_bio
+9d022e6e1de7fd4323be1513bdcf3de861d35714 bcache: check return value from btree_node_alloc_replacement()
+268ab15f75b2d69de4648f7fa1dc6e827c46960d bcache: prevent potential division by zero error
+e780b7ed98761b77cac6833dee3acc422e2e89b9 USB: serial: option: add Fibocom L7xx modules
+bd2fca62b9a32944fa39760f088655a61e5d70d7 USB: serial: option: fix FM101R-GL defines
+53d37ff62a9b90a92abed13d1660853fc251f27e USB: serial: option: don't claim interface 4 for ZTE MF290
+6aa613bc4fb79298f31fcd216ff979be2d23cf12 USB: dwc2: write HCINT with INTMASK applied
+ea807b2a123b090dc19b299ee21a00ee910a004d usb: dwc3: set the dma max_seg_size
+636373f045dde1a4bc622734151c3427a1f31b1d USB: dwc3: qcom: fix resource leaks on probe deferral
+4d14388175ca06c28083159e0cb27c8e4dcedb02 USB: dwc3: qcom: fix wakeup after probe deferral
+569615d1b4acd9b314ead977861413d9c325186e io_uring: fix off-by one bvec index
+d45c1d8936c49c29900a93fb0002a22292c30749 Linux 5.4.263-rc1
 
---===============0505495612509772410==--
+--===============1434019310779616453==--
