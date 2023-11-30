@@ -1,46 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8734101428145443951=="
+Content-Type: multipart/mixed; boundary="===============1443190060073840654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 30 Nov 2023 03:02:36 -0000
-Message-Id: <170131335622.23514.2133838424160334384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 30 Nov 2023 03:02:45 -0000
+Message-Id: <170131336584.23681.14135432978370168972@gitolite.kernel.org>
 
---===============8734101428145443951==
+--===============1443190060073840654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 1f5c003694fab4b1ba6cbdcc417488b975c088d0
     new: 3cd3fe06ff81cfb3a969acb12a56796cff5af23d
     log: revlist-1f5c003694fa-3cd3fe06ff81.txt
-  - ref: refs/heads/stable
-    old: 18d46e76d7c2eedd8577fae67e3f1d4db25018b0
-    new: 3b47bc037bd44f142ac09848e8d3ecccc726be99
-    log: |
-         b0eeba527e704d6023a6cd9103f929226e326b03 pinctrl: stm32: Add check for devm_kcalloc
-         edd48fd9d45370d6c8ba0dd834fcc51ff688cc87 pinctrl: stm32: fix array read out of bound
-         08e8734d877a9a0fb8af1254a4ce58734fbef296 pinctrl: s32cc: Avoid possible string truncation
-         df572eba4e6211c6187fa81a0cc1199da1902f63 pinctrl: cy8c95x0: Fix doc warning
-         4198a9b571065978632276264e01d71d68000ac5 pinctrl: avoid reload of p state in list iteration
-         6588732445ff19f6183f0fa72ddedf67e5a5be32 pinctrl: lochnagar: Don't build on MIPS
-         38a285d5d446ce80b21f997cdc747cc11678b4e0 pinctrl: realtek: Fix logical error when finding descriptor
-         90785ea8158b6923c5d6a024f2b1c076110577b5 dt-bindings: pinctrl: s32g2: change a maintainer email address
-         3b47bc037bd44f142ac09848e8d3ecccc726be99 Merge tag 'pinctrl-v6.7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-         
-  - ref: refs/tags/next-20230830
-    old: 5ab5105b56e32b6980eda7e872d7cbc46e5a6241
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20231130
     old: 0000000000000000000000000000000000000000
     new: 6f7eb5e03007be70cd532d96cc319efda61e1332
 
---===============8734101428145443951==
+--===============1443190060073840654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -919,4 +902,4 @@ f1ee5363030a9e8dc26a9ec5c0a9bcb7ba303f9e Merge branch 'ntb-next' of https://gith
 11714c50ce29fbcb3658496214fcc01dc3bd23b9 Merge branch 'for-next/kspp' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux.git
 3cd3fe06ff81cfb3a969acb12a56796cff5af23d Add linux-next specific files for 20231130
 
---===============8734101428145443951==--
+--===============1443190060073840654==--
