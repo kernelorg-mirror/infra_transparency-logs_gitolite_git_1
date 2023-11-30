@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Thu, 30 Nov 2023 10:36:55 -0000
-Message-Id: <170134061538.6390.7728638481529968284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Thu, 30 Nov 2023 10:44:00 -0000
+Message-Id: <170134104073.11816.3212832749434910384@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/nand/next
-    old: acb1fd579efbcac26ce8f9c4fc8bd82f7eaa56e9
-    new: 3cc4718fa6448c51008e8bfaf0303a2ff938a929
-    log: |
-         2082b6956ce95b66b03983f3059744f559493d98 mtd: rawnand: meson: handle OOB buffer according OOB layout
-         e82a5a014dd54496efa3f09430d5eaa9726b0f5a mtd: rawnand: Add destructive operation
-         42ae3f2b5f4942e0d36201184a1b5366d9430c73 mtd: rawnand: NAND controller write protect
-         7d93debe84e1adc5a299a520c23d361572ab7b30 mtd: rawnand: brcmnand: pass host struct to bcmnand_ctrl_poll_status
-         3cc4718fa6448c51008e8bfaf0303a2ff938a929 mtd: rawnand: brcmnand: exec_op implementation
-         
+  - ref: refs/tags/mmc-v6.7-rc1
+    old: 0000000000000000000000000000000000000000
+    new: f9d7292395ef473713afba9fd7b99c6bc1831e81
+  - ref: refs/tags/v6.7-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 8488f2d61f9372a5ebd5aa1f02a580d37a7a6b08
+  - ref: refs/tags/v6.7-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5b17c02f78c832014ef0acdddcd6e0480a3c2e77
