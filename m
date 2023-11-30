@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5481487101729752163=="
+Content-Type: multipart/mixed; boundary="===============6459830115465457909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Thu, 30 Nov 2023 15:06:42 -0000
-Message-Id: <170135680203.14367.4149226263910629249@gitolite.kernel.org>
+Message-Id: <170135680292.14425.3016067254183783336@gitolite.kernel.org>
 
---===============5481487101729752163==
+--===============6459830115465457909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: f0bdc85e1059cb3b1197ac8d329d4e0e361b257c
-    new: 21cf6766a2c000d7a0086ef4b1fdba8435728fd0
-    log: revlist-f0bdc85e1059-21cf6766a2c0.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 90cc22ee98b46914f259580549489b3e99bc8a1c
+    new: 2f19c262f93a3d13c320a7d7b7b10090a17e9abb
+    log: revlist-90cc22ee98b4-2f19c262f93a.txt
 
---===============5481487101729752163==
+--===============6459830115465457909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,102 +30,112 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701356800 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1701356799-151197fae8c660c6e0c1fa98933354856d63712a
+nonce 1701356800-0425c2d2d033165e5d6b4998dba72d912ac5d5a8
 
-f0bdc85e1059cb3b1197ac8d329d4e0e361b257c 21cf6766a2c000d7a0086ef4b1fdba8435728fd0 refs/heads/linux-5.15.y
+90cc22ee98b46914f259580549489b3e99bc8a1c 2f19c262f93a3d13c320a7d7b7b10090a17e9abb refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVopQAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FhAP/A/OQdO05w+M6NN+I76W
-uQcVASEgV2ErHHei595ii0wvsfRg9+w9uvwM5PGHNRlwL2WO8KtccqU97orCfOUp
-2AMDjyNossQV8ACVBFJdkObnvzIgtRho39td7CIkXEENkteduBHSHbFMU7D0QZk7
-g029krARZK3Xprg9aAAKqq8qIVrYipQnpy58Xvlh+/RpJUxXhbVoNcJf9wS/Ar74
-dge0qkjgiQwJKWeL09SQ6QIUsLLGwe9AruYgOw0KiuYlC3Elx2K6gFsn1oDTvSrp
-nITkq0O3yyoiku0FrMHQg+x4wJD45ogVeavepOh2DNIpkd95zZ8lifX1KpNKQEwU
-eewv1Z5yktSGzsXgKAuj+Xu2TKptFlfnWcoWLcKGP3Fja4KoQZV0NWEPZWIjBVX2
-ZvsrcZTlWSWdkSdN7ZizOhy3S2JbWh5we1nWQlHOIHhxYV20W0at12q+Jy2TB/wu
-6UNYs09DdYHa7fGW2Guyr3VjIGkZvx9xSgQe9afMUYwnXnAaiyBlWr4KAeOmPM3i
-Tde+DKFsIe6QQOa5Ft8CPqsjmXOdwbglKX56oljzEk3RdhuKLlR4VGbhmjb4F7w6
-JBdHxuDOTlqZ0VjH/C993K9K3qXJjK9SzvKuhf+rVNCgLmGBpt+Zw8N0aaBHrRvh
-DxaWX6or0prN5EORgPdUPQsY
-=M6Nr
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zU0P/27+DXzg4d7/wszXZRxr
+GUHOAyDITepY+r1VtgTr8ifIAt2l93UCb05+qxIdQc+7hdLCOkVQy2KBmY3xecmy
+RM/8JgrE+7jqqMrqGQgX8xDKcOLDVhG5cKvEdFLpLtWuQYr3HtXojmS5uTPi0KQk
+cGrclD1ain11NeeIjdoVPOWFbctaYmFtOD9TMSspemRAX5h5M7J/heo8F6pOH+na
+94yVY3Nj81Gt4VNXEXZXiupLF/CW5weSgJNXz50HZbw6M7klcjQvy0VDPA1L5+9N
+gFab8lIlG0ASN9sYD9DomomWjAGKjx/2PX4dCqL66rUpom/atpn2Oyzy98C4AzLs
+qy5rT/L8+W3DpwtA5DTqjnmW7KKXz3QVuUcWU9nxRpNJknAnrGOM7kGRpUOW+m1d
+5OG3W41dB7IyX24s8Z3VluTuN6Prw1gfE/eDenfkq8WYuY70KEjOtly8zJ8TsnkN
+BdHoY41ilyNhGO+x6jN0zEhTy+0XuHWExXHx2oxuVAvFhJQGrAG6+DryFT+pbNpF
+bKDBEcR1zCVOdQSIMndPjXKlsGxKj5INihzGmBaJTP9nprwczU7iTcLu4QtmUSP8
+6XaO2M/gWwI6m51Yhr4Nkc6ktgP/ZTrQU47c+P2/RWQTwLNM343zQckejeKwUNPK
+xamy7w2nt0FMc3snZi1ytM+O
+=qgQJ
 -----END PGP SIGNATURE-----
 
---===============5481487101729752163==
+--===============6459830115465457909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0bdc85e1059-21cf6766a2c0.txt
+Content-Disposition: attachment; filename=revlist-90cc22ee98b4-2f19c262f93a.txt
 
-a2101dc8719eb414bc9fb5fe3a73686eb4892403 afs: Fix afs_server_list to be cleaned up with RCU
-09ecf1a0ebce29fb1063bd3f7f74d0f838af4539 afs: Make error on cell lookup failure consistent with OpenAFS
-a5cf384909ee9c73787a7562aac100aea1f7b936 drm/panel: boe-tv101wum-nl6: Fine tune the panel power sequence
-5a0a6fe9a477c9925dbdbc1bcc17d643da765dec drm/panel: auo,b101uan08.3: Fine tune the panel power sequence
-3d1a080afca5f8acc57e4b8023bb1c05114fd819 drm/panel: simple: Fix Innolux G101ICE-L01 bus flags
-2f1e8e8ae670886809fa789d506567301d2c604a drm/panel: simple: Fix Innolux G101ICE-L01 timings
-df1e52408b9d621dfb5ffb6ce5215d2c836027d3 wireguard: use DEV_STATS_INC()
-503c8dd3cace1e870ba9957f90a12c2d37f3a777 octeontx2-pf: Fix memory leak during interface down
-866c2d219edde298d82617967deed97c89ba93f6 ata: pata_isapnp: Add missing error check for devm_ioport_map()
-b2775c9a77ea3972d88ce7d7eef2ed61c7f7ca99 drm/rockchip: vop: Fix color for RGB888/BGR888 format on VOP full
-1d9aae8a1aca9f4c0a848652bb97cede24f95541 HID: core: store the unique system identifier in hid_device
-a83fa4c25b724a99fd1bcafbd6d6b778c79231d6 HID: fix HID device resource race between HID core and debugging support
-6a153ea55e0bb394e5955731ef3b5a740baf6ae0 ipv4: Correct/silence an endian warning in __ip_do_redirect
-032125d1692d3babbd8456d2651c75468223101a net: usb: ax88179_178a: fix failed operations during ax88179_reset
-54c3a08a4979608a9ef76bc42976d61418b28bb7 net/smc: avoid data corruption caused by decline
-0b620c691b3d8ae46bc0c2e6532fccd7828a5aa0 arm/xen: fix xen_vcpu_info allocation alignment
-dd965f56233c55ba1904a35cb8e0889b7525b589 octeontx2-pf: Fix ntuple rule creation to direct packet to VF with higher Rx queue than its PF
-9ac54c9a1682bb3a17b0642eb5b14deca3b16a1b amd-xgbe: handle corner-case during sfp hotplug
-d39c865122eb1f60ed9861b85a2f594cdb79a048 amd-xgbe: handle the corner-case during tx completion
-e2f9d06c1433f5dd71fb5651efb29dd918897fcc amd-xgbe: propagate the correct speed and duplex status
-8f73b491cff49e5bb078eeb74aeff36d43d370a9 net: axienet: Fix check for partial TX checksum
-f43810a647c84b0ce42a0f352dabda9f3a7e6678 afs: Return ENOENT if no cell DNS record can be found
-ee9cc01b52f48de5cf6fbf2e136cd176a1deb16c afs: Fix file locking on R/O volumes to operate in local mode
-e809bf21d03d2b25deb079b56cc9dcff3eb5e4aa nvmet: nul-terminate the NQNs passed in the connect command
-68bd75121080b98b0aa17529d1001e996ce6580f USB: dwc3: qcom: fix resource leaks on probe deferral
-3e00a3656fd0957b0ce150bb92ad2083c5174cc7 USB: dwc3: qcom: fix ACPI platform device leak
-880847b6bcd63ba14fc0db557b45f72fc560c3d9 lockdep: Fix block chain corruption
-5995247f3943e30686bd16702da39e6555df55f2 MIPS: KVM: Fix a build warning about variable set but not used
-8ad5bd3418f99819ad2aca548a0fc734a9653df6 media: camss: Replace hard coded value with parameter
-61df9016c37bbffd336f102b753f9c5d7e8eec14 media: camss: sm8250: Virtual channels for CSID
-d4018be17d80c3a577b6949578eaae087d34ffa2 media: qcom: camss: Fix set CSI2_RX_CFG1_VC_MODE when VC is greater than 3
-12243a815ada6c98c561029b6f28b4e7251af0c3 media: qcom: camss: Fix csid-gen2 for test pattern generator
-e2f997c296c196bf6e62e37b8a3028ad69ece370 ext4: add a new helper to check if es must be kept
-1337fa0471081888741ac46e57692cf2666de863 ext4: factor out __es_alloc_extent() and __es_free_extent()
-f1fcd3a22ef57d91a82ad8b95bed738828dafaa5 ext4: use pre-allocated es in __es_insert_extent()
-2d36058a573dc1d2e8d7436cb29983321ffc064c ext4: use pre-allocated es in __es_remove_extent()
-bfd02f8afcd1b7052253833545e81513d4013438 ext4: using nofail preallocation in ext4_es_remove_extent()
-341ffd6bcdb67075c1696f67100d17f714d8ae29 ext4: using nofail preallocation in ext4_es_insert_delayed_block()
-108d90366b3739b7030aa6cb9bc6095b06d27d8d ext4: using nofail preallocation in ext4_es_insert_extent()
-41a4f1b8256fa3df01928d072eb29d8e22dbea4e ext4: fix slab-use-after-free in ext4_es_insert_extent()
-1dabd58c8c472e8a63e18d2525a3a02b2cbf9989 ext4: make sure allocate pending entry not fail
-a76565f2c280115df2d39254f9f95512f8aa18f5 tracing/kprobes: Return EADDRNOTAVAIL when func matches several symbols
-380759f9c26eb7b0c3c19d20ea9e79fe629a37f2 proc: sysctl: prevent aliased sysctls from getting passed to init
-0d25a08905e251ff3f8d96064ad26df3367a395b ACPI: resource: Skip IRQ override on ASUS ExpertBook B1402CVA
-021f39949269bf7f5d594fc835aa10038638095e swiotlb-xen: provide the "max_mapping_size" method
-c7e6b042440cf232a020642465baa0499b65079e bcache: replace a mistaken IS_ERR() by IS_ERR_OR_NULL() in btree_gc_coalesce()
-1b0bbd0ee662f8388ce0d4c06244d142953c3722 md: fix bi_status reporting in md_end_clone_io
-5d8f240f87fa1fd7714d953cde549c9652248041 bcache: fixup multi-threaded bch_sectors_dirty_init() wake-up race
-e14bdf0f6a1eb892a49ba1041ff310015ca07f4b io_uring/fs: consider link->flags when getting path for LINKAT
-6333dd0c0f21fb022a64dada40d158260260a896 s390/dasd: protect device queue against concurrent access
-2e855b5d999e993a5d3b83862c3a3dc45878c3bd USB: serial: option: add Luat Air72*U series products
-ddd82add6cabec6e888f962e3dda1b37a0a3d2b9 hv_netvsc: Fix race of register_netdevice_notifier and VF register
-3e24469bed62c1c6b5f34dc0385271eca120fb43 hv_netvsc: Mark VF as slave before exposing it to user-mode
-817e182c8657857a6e84752b45b57c4bf29dde60 dm-delay: fix a race between delay_presuspend and delay_bio
-b20660fe775e9cd4327dbda051e02054c01c61da bcache: check return value from btree_node_alloc_replacement()
-0b76b85773bbadd7d3c41a90aed53092a39a125d bcache: prevent potential division by zero error
-dba22c8d135721685f8e45367ad2365730d919f3 bcache: fixup init dirty data errors
-272b392d08719949a41c3969aaabda54eb4347d3 bcache: fixup lock c->root error
-302896a667e56e68983680f3b763f2725e65912a usb: cdnsp: Fix deadlock issue during using NCM gadget
-b6165fe31913cb44d7b484491852df319d84870e USB: serial: option: add Fibocom L7xx modules
-ea03fdae8674e40903274007f3df966e96851f32 USB: serial: option: fix FM101R-GL defines
-dc4fc8b66819bb2502463816f766689b0c871f09 USB: serial: option: don't claim interface 4 for ZTE MF290
-a95ecebfa4a92b3bffe9a137bc7754089925d14b usb: typec: tcpm: Skip hard reset when in error recovery
-7506901236f256f2addfde41ee42502661620933 USB: dwc2: write HCINT with INTMASK applied
-2239a5f6a4055cf250f02b65677c24016c7ddb2f usb: dwc3: Fix default mode initialization
-185d2544b10ce5367a41f2ed666534c9d1458e69 usb: dwc3: set the dma max_seg_size
-84ddd16601783cd7ebdab93cbf8b303d0d3d8a48 USB: dwc3: qcom: fix software node leak on probe errors
-a83420a9a3a951ce338ac6b6a41efa2915342ecb USB: dwc3: qcom: fix wakeup after probe deferral
-405556e0b18691ad93084b7e3a8630ec3d8a6e09 io_uring: fix off-by one bvec index
-21cf6766a2c000d7a0086ef4b1fdba8435728fd0 Linux 5.15.141-rc1
+3856e1aa7b66d13417b8d68a9b1327f3e41cda89 RDMA/irdma: Prevent zero-length STAG registration
+7122b37e89bb97492b90de70a0019f5e77ab23bc PCI: keystone: Drop __init from ks_pcie_add_pcie_{ep,port}()
+3ddacbecfbb3bf0edfb542ef22a5f8a6f27f29c1 net: r8169: Disable multicast filter for RTL8168H and RTL8107E
+74bbe68fa813daa6ab19c0824ebaa821e8bb468f drm/amdgpu: Fix a null pointer access when the smc_rreg pointer is NULL
+69477d448be240418880ff6d780807c0831760a0 i2c: sun6i-p2wi: Prevent potential division by zero
+b71be5401f7ca1c3ac81cd515a517fea4e8f37b1 media: imon: fix access to invalid resource for the second interface
+eae7255c556c9135b92b9ac1684bff545591efdc tty: serial: meson: retrieve port FIFO size from DT
+c27600b6cf92e5b2159441de542278313a14553a s390/ap: fix AP bus crash on early config change callback invocation
+bb607023174b4ff39b1adaafc1cf53029966895f Revert "net: r8169: Disable multicast filter for RTL8168H and RTL8107E"
+2b0378262076ba7cd832d6aa09b2be467978cd40 afs: Fix afs_server_list to be cleaned up with RCU
+02a7afb97d4e74e872ff56d79a9477d0a7c98f89 afs: Make error on cell lookup failure consistent with OpenAFS
+cc6aa58083c62e9c9327be693c8ada73b590921e drm/panel: boe-tv101wum-nl6: Fine tune the panel power sequence
+937a4543db2713b7f13bf8aee872bf1086876430 drm/panel: auo,b101uan08.3: Fine tune the panel power sequence
+c503b49d4a9a307a10e8f7fdfe7fd917226bc3ac drm/panel: simple: Fix Innolux G101ICE-L01 bus flags
+d7b69578d8c9dea75bdc1381995b1598d2864cb7 drm/panel: simple: Fix Innolux G101ICE-L01 timings
+85281fbe37bb5f290e2d483958af4188fc275d5e wireguard: use DEV_STATS_INC()
+38081fd91bf7d06808f5268f76024564265ebd20 ata: pata_isapnp: Add missing error check for devm_ioport_map()
+8ef1bad1aa1f41cd4517a06d1aedd706dab7e0bb drm/rockchip: vop: Fix color for RGB888/BGR888 format on VOP full
+4a5079f5755cb421aab9e0afd7ff3ffbafb0cd17 HID: core: store the unique system identifier in hid_device
+cfe2cdd7c5a93404082d6a1aa17f9e6af1f3613c HID: fix HID device resource race between HID core and debugging support
+7b52b992e1dee195940af802a0354e1d9d0163b1 ipv4: Correct/silence an endian warning in __ip_do_redirect
+0c82947818fa1e2544e704a8b1b219538c7d4cf0 net: usb: ax88179_178a: fix failed operations during ax88179_reset
+7e4feb12d2834eaf380eec8b9b8504538dbe5cf9 net/smc: avoid data corruption caused by decline
+528165ce42163c1cd6c171417acce28baedd012d arm/xen: fix xen_vcpu_info allocation alignment
+ae68f8dda0210fb433ecce833fca591b033ecb7a amd-xgbe: handle corner-case during sfp hotplug
+1bd5c06f6c2b8eb5824acee421c69d7f1158026c amd-xgbe: handle the corner-case during tx completion
+5689ab9324ff59a65f463e60ecaeb249a84128ca amd-xgbe: propagate the correct speed and duplex status
+a361563f795828c06bfeb2524d78e774419ac186 net: axienet: Fix check for partial TX checksum
+893434b6bed21da402e533a9955ce148da453a0b afs: Return ENOENT if no cell DNS record can be found
+0a984e9f81609a69e42781920adbd0c2872353df afs: Fix file locking on R/O volumes to operate in local mode
+afe901481cbf727ab9cf03a0e7f2d039a34cd020 nvmet: remove unnecessary ctrl parameter
+8a5b87bb6471c9f0465d503216802a27a622cad3 nvmet: nul-terminate the NQNs passed in the connect command
+5e4ad7da7f5356c1a1b57756137389f5ad1a9d1f USB: dwc3: qcom: fix resource leaks on probe deferral
+e8fc66212f9f8d2735bd80890ac5a64c8c4c9bbc USB: dwc3: qcom: fix ACPI platform device leak
+e601537e584965c04e6f9e637f60a07dd58d755c lockdep: Fix block chain corruption
+85c11de9ceb9f27413445e5c53347536f00aa766 media: i2c: smiapp: simplify getting state container
+6f9e5a835d31f7c49f8281a509833a82c8ab447e media: smiapp: Import CCS definitions
+6f5aa3f33c6f81f0714f2af0b1282b0cefc57fd3 media: smiapp: Use CCS register flags
+56974bcedaddd6d6e720ab5478533bf59c6f17b8 media: smiapp: Calculate CCS limit offsets and limit buffer size
+36f5b7e96a710dedea4f681906dc6a13b06c9cc0 media: smiapp: Add macros for accessing CCS registers
+f26b1c3c6b43f1a11bdb8099034cfae389ba8565 media: smiapp: Use MIPI CCS version and manufacturer ID information
+c6d19c647faf162aa736bb7149b1f0f8ca38f94d media: smiapp: Read CCS limit values
+83c6761bbd1f4fe623be8d8276eb8a63b3b6e7ff media: smiapp: Switch to CCS limits
+4e39ccb69372ac9d6dea640020f874bce4fdc456 media: smiapp: Use CCS registers
+1682e7e98609110aff1eac0f2aba501c7b181ee1 media: ccs: Correctly initialise try compose rectangle
+a9a928365a58a0e75d29ee95538adc9c2f9001ce MIPS: KVM: Fix a build warning about variable set but not used
+783095f0f5685926e0f0103b7afafce933a42f79 ext4: add a new helper to check if es must be kept
+b7432ce447884f1061d2bf1e2cf06f2b5df70199 ext4: factor out __es_alloc_extent() and __es_free_extent()
+a5fa297a8c7bd4b0a608af02321c6b08edbce935 ext4: use pre-allocated es in __es_insert_extent()
+6d6fca3047f575a7182abc53d99fcd1ed04c46dc ext4: use pre-allocated es in __es_remove_extent()
+f8d02228c24f105f2ec4ea0e3ba7acbb6ae49fe7 ext4: using nofail preallocation in ext4_es_remove_extent()
+b94d74b1776f05c1375c1cc746edd4d6bcc9fb01 ext4: using nofail preallocation in ext4_es_insert_delayed_block()
+ed25040c5a97e311bb4db3b3bbef9a20228c0641 ext4: using nofail preallocation in ext4_es_insert_extent()
+2b60eb54363c7fad057ded09bccb9cbd780fc81e ext4: fix slab-use-after-free in ext4_es_insert_extent()
+a71ec9358c857a0d1fedd763ce2cfeda4fc84470 ext4: make sure allocate pending entry not fail
+c528f94c55ac3d6e263d89655e71c9ba75480ac8 nfsd: lock_rename() needs both directories to live on the same fs
+63e23649b6bde9fe564d5b8976c00d746e9c2679 ASoC: simple-card: fixup asoc_simple_probe() error handling
+ed32b6a359742cd8bb6215c93370427ad598f714 tracing/kprobes: Return EADDRNOTAVAIL when func matches several symbols
+26836106ec2ecbc42aef081662209b2419b388f0 ACPI: resource: Skip IRQ override on ASUS ExpertBook B1402CVA
+5854f8bb8e238b747cc7563711d08f0e9ea21165 swiotlb-xen: provide the "max_mapping_size" method
+55dec12f821dc9aff0da8fe6c0cdb3ad5062942a bcache: replace a mistaken IS_ERR() by IS_ERR_OR_NULL() in btree_gc_coalesce()
+4098ca7ef7f08c91b02ce4061149aae839b60e79 bcache: fixup multi-threaded bch_sectors_dirty_init() wake-up race
+4d8336db2711b88b3815229d983aa94f4d1f262c s390/dasd: protect device queue against concurrent access
+96fd642f426ba7d44db6553d11c546fda8de4dcf USB: serial: option: add Luat Air72*U series products
+0d5afc5bb11bafe7cfd38275b3b9c2b5af8be75d hv_netvsc: Fix race of register_netdevice_notifier and VF register
+70a07997ad6799deaf179cc5e8cbe40b60d0c0fb hv_netvsc: Mark VF as slave before exposing it to user-mode
+4c758e5a799c53e72fa60700a50166c81736e29a dm-delay: fix a race between delay_presuspend and delay_bio
+aff1ba78b673c3644f6dace49cde42552d3ee5a2 bcache: check return value from btree_node_alloc_replacement()
+f822750716dce525b4f13f1af69f6ff6383adc27 bcache: prevent potential division by zero error
+6ed2ba9dcacc57ee362ea4c9e9df1c2702dab985 bcache: fixup init dirty data errors
+cdf1ec1112e7508f1ac9d68217bd2da32a0f6009 bcache: fixup lock c->root error
+8be062057b31d1ac4abf9a6c7195aa78a2dce43c USB: serial: option: add Fibocom L7xx modules
+48ce067258fc5cfd034e9f183bdb7803957ea8a2 USB: serial: option: fix FM101R-GL defines
+77ddc5d50d719bc61cfd26b37b782a348caf8213 USB: serial: option: don't claim interface 4 for ZTE MF290
+f2b212a02e79d36acfb8312ec2752a94b9bfa5af USB: dwc2: write HCINT with INTMASK applied
+f4058f5ba493e7d405fa884598d1b8610ba847a5 usb: dwc3: Fix default mode initialization
+2eacb15eebbde431cf5d9c248968064fd49d388a usb: dwc3: set the dma max_seg_size
+538f2e40789a36e94bd44b5106be5c3e225b79b6 USB: dwc3: qcom: fix wakeup after probe deferral
+d687db8f0d68500903b8de62f7ab791350c49d09 io_uring: fix off-by one bvec index
+2f19c262f93a3d13c320a7d7b7b10090a17e9abb Linux 5.10.203-rc1
 
---===============5481487101729752163==--
+--===============6459830115465457909==--
