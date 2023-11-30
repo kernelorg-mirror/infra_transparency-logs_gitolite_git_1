@@ -1,19 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
-Date: Thu, 30 Nov 2023 17:43:42 -0000
-Message-Id: <170136622296.565.7420578680303814816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Thu, 30 Nov 2023 18:07:43 -0000
+Message-Id: <170136766315.18114.3017625469411962232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cpu/mce/mcelog
-user: aegl
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: edfe78a0dc54a940f4916a9bd681eab7b3f746d1
-    new: f6ec8aa064f16d03ca8a9278cf9b02031a493d70
+  - ref: refs/heads/master-pending
+    old: 7bace36127765ec33686d5056217b8d2661f4a1d
+    new: 9ffab73aa2c4a2621f265bec1b5b852ac130ef4b
     log: |
-         f6ec8aa064f16d03ca8a9278cf9b02031a493d70 mcelog: Fix two parsing issues
+         652c27c84a1688ada0d6650ba971bb651ad8cc8a wifi: wcn36xx: Convert to platform remove callback returning void
+         9ffab73aa2c4a2621f265bec1b5b852ac130ef4b Merge branch 'pending' into master-pending
          
+  - ref: refs/heads/pending
+    old: f637054b4227d93c9d1bad1b43bfdcb6dc0e4f12
+    new: 652c27c84a1688ada0d6650ba971bb651ad8cc8a
+    log: |
+         652c27c84a1688ada0d6650ba971bb651ad8cc8a wifi: wcn36xx: Convert to platform remove callback returning void
+         
+  - ref: refs/tags/ath-pending-202311301804
+    old: 0000000000000000000000000000000000000000
+    new: 9ffab73aa2c4a2621f265bec1b5b852ac130ef4b
