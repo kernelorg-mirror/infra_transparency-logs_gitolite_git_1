@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 30 Nov 2023 12:44:43 -0000
-Message-Id: <170134828378.3992.18175651759957440362@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 30 Nov 2023 12:49:47 -0000
+Message-Id: <170134858718.7548.4345975029480288633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 5940a20a186bd74efd6d0dc0b2b7c77d891895d9
-    new: 72a2a0a494ec9aefbca4ad64f46b8e3370809993
+  - ref: refs/heads/b4/vfs-files-fixes
+    old: 8d1d94a414991ce9f8d5f8480606c1905f81c240
+    new: 8c8eaeb73a1811e5077a47181fc6d0754237b884
     log: |
-         a472ee42e6f60c8714e2306385687922afcba8c4 perf test sigtrap: Generalize the BTF routine to reuse it in this test
-         650e0bde43f35bb675e87e30f679a57cfa22e0e5 perf tests sigtrap: Skip if running on a kernel with sleepable spinlocks
-         72a2a0a494ec9aefbca4ad64f46b8e3370809993 perf test record+probe_libc_inet_pton: Fix call chain match on powerpc
+         8ca1ca60c299760bbd8d883e87d3be25a137da8f file: minor fixes
+         7d4b93f99fcff31f7761373396585238fbd39cbb file: s/close_fd_get_file()/file_close_fd()/g
+         562ca15fb32944ab161bc1252eb16a3587661c77 file: remove pointless wrapper
+         4577c6035b31e01483dca646d9cd38ea21ec3864 fs: replace f_rcuhead with f_tw
+         3972c941cd9bacc56cf2265673380556fcd4f845 file: stop exposing receive_fd_user()
+         8c8eaeb73a1811e5077a47181fc6d0754237b884 file: remove __receive_fd()
          
