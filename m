@@ -1,42 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5243694364502643694=="
+Content-Type: multipart/mixed; boundary="===============1067039810187611976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 30 Nov 2023 21:54:23 -0000
-Message-Id: <170138126396.18081.15833617108140905930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 30 Nov 2023 21:59:20 -0000
+Message-Id: <170138156099.21441.14265357332574931606@gitolite.kernel.org>
 
---===============5243694364502643694==
+--===============1067039810187611976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/kvm-arm64-sme
-    old: d26af434baab16cf0f386c151aa1383e9822cc92
-    new: ae68fec46791065a3e1f15a4b21959068c717eee
-    log: revlist-d26af434baab-ae68fec46791.txt
+  - ref: refs/heads/for-next/hardening
+    old: 40b2519d7566266d7eafd3c5232c73a497640bca
+    new: f62cacf390b7b21a331e95dff117d71d1f6cd579
+    log: revlist-40b2519d7566-f62cacf390b7.txt
 
---===============5243694364502643694==
+--===============1067039810187611976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d26af434baab-ae68fec46791.txt
+Content-Disposition: attachment; filename=revlist-40b2519d7566-f62cacf390b7.txt
 
-0bbc0f36202011f49a5f60b147f2333aea58ca8a KVM: arm64: Context switch SME state for guest
-41aefad8298f1cbcb6bfd375e6e26b919865a632 KVM: arm64: Handle SME exceptions from guests
-9188453af24188b2be6a6129e4a70868fbbfc1f0 KVM: arm64: Implement SME vector length configuration
-405bd3811b7eee1880829e49aaa8801a554b2107 KVM: arm64: Rename sve_state_reg_region
-a41d452babece302f977cda756f5b4fc813715d5 KVM: arm64: Support userspace access to streaming mode SVE registers
-2a00c4afc64c8384859388873000bf96a5f4da56 KVM: arm64: Expose ZA to userspace
-89185baf97c6ccb412d9398587c89556477f3766 KVM: arm64: Provide userspace access to ZT0
-6925b7c0d8e37bdcdb44b8f75572b14244a95848 KVM: arm64: Manage base traps for SME
-93603adb9fe1ae896a19970d88196aa7fedc9bdd KVM: arm64: Support SME version configuration via ID registers
-d9ec018d1a11a44e111ff49afec57f37c6ef4d7d KVM: arm64: Enable SME2 and FA64 based on ID register values at first run
-eb23c1abd369a0410b9f77a873bb0d84723ce708 KVM: arm64: Support userspace access to streaming SVE registers
-ae68fec46791065a3e1f15a4b21959068c717eee KVM: arm64: Provide userspace ABI for enabling SME
+d4011f6817ae85e42874af705fec866fec7c4ecf HID: uhid: replace deprecated strncpy with strscpy
+da2e08d4630ab04ee5b61515fe423c582b5c3be2 i40e: Annotate struct i40e_qvlist_info with __counted_by
+111f5a435d33d0a5e25bca67a5a76b61b3af0860 net: ena: replace deprecated strncpy with strscpy
+f1c7720549bfc20269074963195d590c551cee47 net: dsa: lan9303: use ethtool_sprintf() for lan9303_get_strings()
+81c643edd8bdb11ffa81a1fee5b86a6e0ba7532b VMCI: Annotate struct vmci_handle_arr with __counted_by
+7403e688f0c0a05fa83b06f520407e243f688a8a afs: Add __counted_by for struct afs_acl and use struct_size()
+f8bef1ef80955b337bf2ad7e023c3fe76a925da5 qlcnic: replace deprecated strncpy with strscpy
+739eb699f1587a3ec286d58bf72f9c0de7f3e6f0 net: mdio: replace deprecated strncpy with strscpy
+3247bb94578660a5900ab3842ab85541c1004584 net: mdio-gpio: replace deprecated strncpy with strscpy
+d8d273c595db7aea24a8a40e0c59db762954922d drm/modes: replace deprecated strncpy with strscpy_pad
+5ef935fd5520a9950c6c66255e9bb691cb0dab94 nvme-fabrics: replace deprecated strncpy with strscpy
+26b4ca3c39012368ab22b06cd35dd6b77f0f3e00 nvdimm/btt: replace deprecated strncpy with strscpy
+f62cacf390b7b21a331e95dff117d71d1f6cd579 nvme-fc: replace deprecated strncpy with strscpy
 
---===============5243694364502643694==--
+--===============1067039810187611976==--
