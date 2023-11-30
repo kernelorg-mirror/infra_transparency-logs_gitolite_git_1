@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 30 Nov 2023 18:34:56 -0000
-Message-Id: <170136929620.3449.3229458680462989786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 30 Nov 2023 18:58:32 -0000
+Message-Id: <170137071246.20918.12534514799498033737@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-next/scmi/updates
-    old: e4e6e8f1ad0f3d6c4d87045aa4d0fa4b7496182a
-    new: 8cd469a7ec52c5dafc833b11871d9e9ecc573713
+  - ref: refs/heads/master
+    old: 1ce5ac5c318e795dd49dfaa4c034a648e15e0a7e
+    new: fa069069aba9d8502545646f1f1daf78b043c350
     log: |
-         3cc12bb83e6794de7f50799ce43d85c7a3d55828 firmware: arm_scmi: Fix NULL pointer dereference during fastchannel init
-         8cd469a7ec52c5dafc833b11871d9e9ecc573713 firmware: arm_scmi: Increase the maximum opp count
+         382c27f4ed28f803b1f1473ac2d8db0afc795a1b perf: Fix perf_event_validate_size()
+         1692cf434ba13ee212495b5af795b6a07e986ce4 perf/x86/intel/uncore: Fix NULL pointer dereference issue in upi_fill_topology()
+         fdd041028f2294228e10610b4fca6a1a83ac683d perf/x86/intel/uncore: Factor out topology_gidnid_map()
+         60b9bd19a112a69697d7b55855f0dd621711e9ca Merge branch into tip/master: 'perf/urgent'
+         fa069069aba9d8502545646f1f1daf78b043c350 Merge branch into tip/master: 'perf/core'
          
