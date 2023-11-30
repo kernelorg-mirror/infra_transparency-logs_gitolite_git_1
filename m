@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 30 Nov 2023 08:48:09 -0000
-Message-Id: <170133408983.12084.18223329709110466392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 30 Nov 2023 08:54:05 -0000
+Message-Id: <170133444528.15778.3777205993248025611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/next
-    old: d0ddc6899126b25ab6c11d295dcf9c677322fb17
-    new: b501d5b36f584f09139c6b521842f9e9d2496006
+  - ref: refs/heads/b4/vfs-files-fixes
+    old: a42392f0f98768e33a3cb99889bb1c3df67ca4ee
+    new: 8d1d94a414991ce9f8d5f8480606c1905f81c240
     log: |
-         a6173888659f69f2c3ec22b8d362730f0c5eb126 efi: Add tee-based EFI variable driver
-         b501d5b36f584f09139c6b521842f9e9d2496006 efivarfs: automatically update super block flag
+         473c241f912f9bdf52e35b2fb025f952a20d6698 file: stop exposing receive_fd_user()
+         8d1d94a414991ce9f8d5f8480606c1905f81c240 file: remove __receive_fd()
          
