@@ -1,51 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============4531930629541250698=="
+Content-Type: multipart/mixed; boundary="===============2772365217995461480=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 30 Nov 2023 14:17:05 -0000
-Message-Id: <170135382521.9203.8525709244414836944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 30 Nov 2023 14:19:10 -0000
+Message-Id: <170135395091.9999.2320232354000238569@gitolite.kernel.org>
 
---===============4531930629541250698==
+--===============2772365217995461480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.8
-    old: 8e6a43961f24cf841d3c0d199521d0b284d948b9
-    new: 7a030abc0185b30a3fd19a7431347c6f5a82c588
-    log: |
-         cff49d58f57e5667c10a0db85d7461790bb85cf8 spi: Unify error codes by replacing -ENOTSUPP with -EOPNOTSUPP
-         7a030abc0185b30a3fd19a7431347c6f5a82c588 mtd: spi-nor: Stop reporting warning message when soft reset is not suported
-         
+  - ref: refs/heads/for-next
+    old: d63cf27d5752bd431fbcc1f54d90a42f63fa3742
+    new: baaecc2b07ce642ca8d3e337b762e57f3e60f2a2
+    log: revlist-d63cf27d5752-baaecc2b07ce.txt
 
---===============4531930629541250698==
+--===============2772365217995461480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d63cf27d5752-baaecc2b07ce.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1701353823 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1701353823-07609ec3e90d13c4766e17dc16296dd041396ae3
+014fdeb0d747304111cfecf93df4407c1a0c80db ASoC: SOF: Move sof_of_machine_select() to sof-of-dev.c from sof-audio.c
+3bc3477915587440035f192c89a1bf9a4360abb3 ASoC: SOF: Move sof_machine_* functions from sof-audio.c to core.c
+1162d267eabd6392d0d07bc88b75056e88042fc0 ASoC: SOF: Add placeholder for platform IPC type and path overrides
+a07625dcaf994ab3c5a6a456624719df05ed8ad6 ASoC: SOF: sof-acpi-dev: Save the default IPC type and path overrides
+396016d56da4ad30fe9ff736e44d9e1457484805 ASoC: SOF: sof-of-dev: Save the default IPC type and path overrides
+59ddeae037b81303063bcf62b70fb33841b3f89e ASoC: SOF: sof-pci-dev: Save the default IPC type and path overrides
+b1a4ee9fd5a2dfb0f23abe58377f816915ec14ba ASoC: SOF: core: Implement firmware, topology path setup in core
+b2b0bba36f0a81743e7143a8801ca75d2238bdac ASoC: SOF: sof-acpi-dev: Rely on core to create the file paths
+8616168928f278723fdc3f4d7cd3d611dcdae8f8 ASoC: SOF: sof-of-dev: Rely on core to create the file paths
+8a83f180abb5b95f524fc9b5eb2291f0e39bed30 ASoC: SOF: sof-pci-dev: Rely on core to create the file paths
+a5a65437b02df8b842c4620b0b776bcd91ce200a ASoC: SOF: core: Add helper for initialization of paths, ops
+9b6896538ea71b7c24da1ecb38738a311176f6a8 ASoC: SOF: Intel: Do not use resource managed allocation for ipc4_data
+6c393ebbd74ad341bcfb4e2d0091b2655fad45d0 ASoC: SOF: core: Implement IPC version fallback if firmware files are missing
+ef6069f3f6577b2e5bdf223d2f6d09f23bed8c6c ASoC: SOF: IPC path handling and fallback support
+baaecc2b07ce642ca8d3e337b762e57f3e60f2a2 Merge remote-tracking branch 'asoc/for-6.8' into asoc-next
 
-8e6a43961f24cf841d3c0d199521d0b284d948b9 7a030abc0185b30a3fd19a7431347c6f5a82c588 refs/heads/spi-6.8
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVomV8ACgkQJNaLcl1U
-h9BUQwf9GXMPOuECU9hTp4pICtj95OeT6mu7Ojyq3ll5cMXgOdTiKnh+2+D4esn8
-D/aNR7RXvbfGwZ3tVkiINKNpg53i4zuqjgL0yv2O7w+FWL3kkErtAssQ2sFMZsNK
-Ap90H29KTfizO7ymyP6tGwiu14M0FLYIA7eCXx+HEsiJHgGLbqt2Q+7xWy/T7+wu
-GiE9a+yWUQHKitgWQ0wu8AgjBhfNXDSXwQ7vQYOg1m7tXqFo5zbAHL3JbN5lJXCL
-LC5gw561j6VwL53vAk95NHzXJSyzRuvycR1zkRcELxesIEeFgOIdsokQSXFdadmP
-G/ILtJgt4opYVq3FrQ8QQKCt14t71Q==
-=bTba
------END PGP SIGNATURE-----
-
---===============4531930629541250698==--
+--===============2772365217995461480==--
