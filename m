@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Thu, 30 Nov 2023 20:04:23 -0000
-Message-Id: <170137466304.2651.216927201889915678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 30 Nov 2023 20:18:42 -0000
+Message-Id: <170137552230.13650.4884616562480862802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-linus
-    old: 936e4d49ecbc8c404790504386e1422b599dec39
-    new: 335fe00319e030d481a54d5e0e68d50c5e672c0e
+  - ref: refs/heads/master
+    old: 41cc2b63f83f1545cd7cb7a72b2135ae46490a18
+    new: 5a7ce00c05ab4113919af0b1ac9dbb9dc8e2743e
     log: |
-         335fe00319e030d481a54d5e0e68d50c5e672c0e Input: i8042 - add nomux quirk for Acer P459-G2-M
+         5a7ce00c05ab4113919af0b1ac9dbb9dc8e2743e foo
          
