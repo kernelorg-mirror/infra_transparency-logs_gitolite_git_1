@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0558093169698737594=="
+Content-Type: multipart/mixed; boundary="===============4432518133958979166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 30 Nov 2023 16:19:35 -0000
-Message-Id: <170136117542.3459.4590600266848335660@gitolite.kernel.org>
+Date: Thu, 30 Nov 2023 16:19:49 -0000
+Message-Id: <170136118979.3625.10183729091388904183@gitolite.kernel.org>
 
---===============0558093169698737594==
+--===============4432518133958979166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,66 +17,66 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-4.14.y
-    old: 62753178478a875c2eb13c2e6a89d7d279b4e6db
-    new: 23cc4cce9a827cc98f60a3b1a6acdfeed38bdd95
-    log: revlist-62753178478a-23cc4cce9a82.txt
+    old: 23cc4cce9a827cc98f60a3b1a6acdfeed38bdd95
+    new: 02882070ed49d4c09737d2a78e17940f55bc2016
+    log: revlist-23cc4cce9a82-02882070ed49.txt
 
---===============0558093169698737594==
+--===============4432518133958979166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701361174 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701361188 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1701361173-6555f066b0a0b353c8acd58635ae6575dd6392e8
+nonce 1701361187-dd15094fa924ac731c83100962470e5f8114fd28
 
-62753178478a875c2eb13c2e6a89d7d279b4e6db 23cc4cce9a827cc98f60a3b1a6acdfeed38bdd95 refs/heads/linux-4.14.y
+23cc4cce9a827cc98f60a3b1a6acdfeed38bdd95 02882070ed49d4c09737d2a78e17940f55bc2016 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVothYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+420QAL2PsEGThg+xyBsDSiqm
-/b49PbDLOZHv7ys0Af1Mn3xO+vvo5PLhJVfvnWNeicMiTALXWCAHrazlizmtRriL
-6LR8CD23UKoRQMnQffuZ4ptyr9FZcWbXKP1sFc4A0E2+481yRSeJYLQz8fNhLh8p
-H3COnME95YxxoxBiRFHGY5uSQmW9N9qRH084nqsYSXi5WQvIzV3tHIXDCXRIGq4L
-m+L3FIvSSrPA/XdAF4goiGQWVLLqovZrIZ95Q9DRa8jtgx3LpZ8XRl/IQ9xsfGjv
-S+U0PNqVZW57JjM/sh9rykLBH+aTJl+16+bCX4TJ5juIWMyp2bCJwxwEG1e3nkjB
-tifoLC6O5FRXe0aKfuc/w+z1w/6P6hJFk/vjL6QQ6Dx1oNq1+ojzuMuNx8b5Cygo
-MtcH1jSowhAHqgxh/iFZgztUzC2yAZhl5mhoZSKfn/LNIR0pLZppeU0cJ0uTAhNl
-It9o1EwCZYT9ZpzZemeylxeZJZS5bi6mBE/P/vjz4WxmEBQrbnwbfKUiUHORT7dK
-sKFQ49qQBEDXI3CjxA5S9AeCqCqZ/y6WgC0NGurJXFr4ju1cBHxnWtM3yDNAIIQd
-mNetrrsOWxHcDnD/rozojXW+ae23iZ6zm36s+kXltYBftrN4QzsvceAo64LT5O3a
-01Rfwm44dhkMYQprrM/El0a6
-=tlUX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVotiQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TysQAKPKqjfc9E1O4mZV88p+
+yNjd1R2sBSYjLk6fxYjVJh70dNXiQZyksOLYSibw67KKyD3s75fRIyFIJtIHNfqm
+mfh5uJtustZQDCsuS7Fiohe+62g7CoQO5A7BeTOMvg3ksC4mqqBOeV47WvwsqH3D
+gBr/XfEUH8XP3gh61dU/acd/4qrQy/20B+iwzrZRVynHoKaII462XVW2HOiFplB4
+Re2IpBLnGTTmcvDiaHaez1ySZ0fQX00xD8u1sFmHbzOZmNNt19/V2yc+xoIlQdzZ
+0a1+T/wewdn3kp65fEJfsljgLMCQwXj0N97VNky+6CKvPiQL4KJFaL/Dv2Uuxp3U
+nvxY9oEzUeKnGMc1pmoNDhsUfsQHvNp/Y2LRXIA7FJniekIYuhh2l4utInV5lt52
+5ggzgv00s/oJLIRXXVRO+WbqmSCsPEaLC+LdyZY6P/htlepDAkr83Gpjozlo9RoU
+vQo2o5etWFgrFuNApBMAXLlKOFEvS3Uj+k1hTeAaiCF0sgWlPcBiRkL1wYOnwAsH
+/E3ASpe49q30U8rJpx0tjPp9g4EOBn28z8Ylf631HDJEfZdobraxC0HodmiYfi0/
+2XsCAmNuP9+UWWOhj1YSgy3IvNYMZ/t5XeBvk4p7q69rkyL7kGW7Bq4QgwcyH/HD
+rRGX3e5sCM87NRAvjc6rUtjM
+=5BHS
 -----END PGP SIGNATURE-----
 
---===============0558093169698737594==
+--===============4432518133958979166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-62753178478a-23cc4cce9a82.txt
+Content-Disposition: attachment; filename=revlist-23cc4cce9a82-02882070ed49.txt
 
-ccf2c9a7ff86242ddfbdc573da6a32d0433ede3a RDMA/irdma: Prevent zero-length STAG registration
-bd4004510fa28309d62dd29296317bfb61c7e286 drm/panel: simple: Fix Innolux G101ICE-L01 timings
-f22703ae994fe0612de1d45a7e7e5c85ab8b9fd9 ata: pata_isapnp: Add missing error check for devm_ioport_map()
-45836b33bd7ba3f98c151406e9305e5e02fb76c8 drm/rockchip: vop: Fix color for RGB888/BGR888 format on VOP full
-66a09946134a3f8bc14b2995cb6da701cc721a41 ipv4: Correct/silence an endian warning in __ip_do_redirect
-57760f339ea9919565bed9586bcd25613e605626 net: usb: ax88179_178a: fix failed operations during ax88179_reset
-c143c8be890476e8b3e603edd6b378502a18a2e5 arm/xen: fix xen_vcpu_info allocation alignment
-bed4b90665e1f7f3fc1494c013e2fcbe1f4c539b amd-xgbe: handle corner-case during sfp hotplug
-11ee607156cf3a4f9509db9ace5be4e44f08fbbc amd-xgbe: propagate the correct speed and duplex status
-6010843d6097e1de63dc418271b0f2677c5fd41a net: axienet: Fix check for partial TX checksum
-e208329e223439d09bec41b8f956880f2e8304fa tracing/kprobes: Return EADDRNOTAVAIL when func matches several symbols
-7eb33299bff6c9a12176feb7ccde62da83071f17 mtd: rawnand: brcmnand: Fix ecc chunk calculation for erased page bitfips
-e08233534706bd9dedc10db9c087e6836692a64a s390/dasd: protect device queue against concurrent access
-d91622e01345a5943548a6c94325654345bdf938 USB: serial: option: add Luat Air72*U series products
-be9395a9a007fd1d6f0259888a483b7124b7d931 bcache: check return value from btree_node_alloc_replacement()
-90128a1b5384d780f68c7f57eef9cf0a847fa93c bcache: prevent potential division by zero error
-bf378a4c30d28fcf07e339b87d7480ed4bb4c728 USB: serial: option: add Fibocom L7xx modules
-31d8f2ac967c6d03f62c2dfffe2347a68c74283b USB: serial: option: fix FM101R-GL defines
-f3ad03ddf58bc2508c07a354fd50a2351d6e2cc7 USB: serial: option: don't claim interface 4 for ZTE MF290
-8136b236915a25227fb4628789550a9e438fa7cd usb: dwc3: set the dma max_seg_size
-23cc4cce9a827cc98f60a3b1a6acdfeed38bdd95 Linux 4.14.332-rc1
+369650cf2d0d45ef544e23a51cb5dc0dd541ed4a RDMA/irdma: Prevent zero-length STAG registration
+8a5a14bb7ea4c5050cf6adb430b0a3fd50d25da2 drm/panel: simple: Fix Innolux G101ICE-L01 timings
+e81cb5d6006d74bec8e9c320b7b3cb5d89422063 ata: pata_isapnp: Add missing error check for devm_ioport_map()
+f23fc5a41c5d05f9e4f6ebcad50bc476bfd33d82 drm/rockchip: vop: Fix color for RGB888/BGR888 format on VOP full
+365a26e5927b37d170d2681d42c2e493f6c1cc64 ipv4: Correct/silence an endian warning in __ip_do_redirect
+b9261ced8a9494f54241a69c94221c44ceb0efbe net: usb: ax88179_178a: fix failed operations during ax88179_reset
+c4428d450938d66af9d3ab651323b1bc912f80bb arm/xen: fix xen_vcpu_info allocation alignment
+eb64485ca1206e78a0dac91f8db48d333897bcdd amd-xgbe: handle corner-case during sfp hotplug
+1d51cf9fca9ee1a72cd634d3f3277ddc3fec0d16 amd-xgbe: propagate the correct speed and duplex status
+54b669974bb4a6397e513bab381e0e432cd5ede8 net: axienet: Fix check for partial TX checksum
+999b54e5b7c974eac6d976adbb7e49b9d1de1075 tracing/kprobes: Return EADDRNOTAVAIL when func matches several symbols
+b8b42bdc723a429b906685d1dfe27e769a4b2185 mtd: rawnand: brcmnand: Fix ecc chunk calculation for erased page bitfips
+42eb45c4e808da14c3e119c0649cff78cdfd561a s390/dasd: protect device queue against concurrent access
+c47f325267ebc994acafa8e119deacb0130ddaf9 USB: serial: option: add Luat Air72*U series products
+a412c2a575f9d7ec68eb87db3f707e00f1957b3e bcache: check return value from btree_node_alloc_replacement()
+99c55d2a3149d5f9ffccb1e0b78ee527bdfe5f70 bcache: prevent potential division by zero error
+116019a21fcca103c183248911638216d414083a USB: serial: option: add Fibocom L7xx modules
+681c74648074924869c8215f6c430ca1143660b6 USB: serial: option: fix FM101R-GL defines
+f6545cbb233833f8f87db9d5f41e0677b0ffdfcd USB: serial: option: don't claim interface 4 for ZTE MF290
+e23fbac1909dd84a7414533e0ef6a5dbf71f39b5 usb: dwc3: set the dma max_seg_size
+02882070ed49d4c09737d2a78e17940f55bc2016 Linux 4.14.332-rc1
 
---===============0558093169698737594==--
+--===============4432518133958979166==--
