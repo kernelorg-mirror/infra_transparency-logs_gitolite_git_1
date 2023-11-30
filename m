@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1519755098112459840=="
+Content-Type: multipart/mixed; boundary="===============8245893868672879760=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 30 Nov 2023 16:22:49 -0000
-Message-Id: <170136136963.7283.8317521149222473702@gitolite.kernel.org>
+Date: Thu, 30 Nov 2023 16:23:27 -0000
+Message-Id: <170136140744.7601.10272534415502642220@gitolite.kernel.org>
 
---===============1519755098112459840==
+--===============8245893868672879760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 987b71f86c69fa4b8922f1c7065a9fa39b7b6b56
-    new: 7e0222686316f5506e51182f02c1d83ecc34c471
-    log: revlist-987b71f86c69-7e0222686316.txt
+  - ref: refs/heads/dev-queue
+    old: 33ed8d63ea4e872e06defa133c47d8641e6b43a1
+    new: fce82d0f94e9c1ca953d950ebdb66c6c7f9d53f4
+    log: revlist-33ed8d63ea4e-fce82d0f94e9.txt
 
---===============1519755098112459840==
+--===============8245893868672879760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-987b71f86c69-7e0222686316.txt
+Content-Disposition: attachment; filename=revlist-33ed8d63ea4e-fce82d0f94e9.txt
 
 ee1eb9de81dbdbf078df659062e4df256a009627 tools: ynl: fix build of the page-pool sample
 929003723f6d1998155bf0472f97d6c75c3db93f tools: ynl: make sure we use local headers for page-pool
@@ -93,5 +93,46 @@ e35174263f2c671603e8ccc997a16334087b782c Merge branch 'clean-up-and-refactor-coo
 a76772e2fd83e97a8d1bd363e986fc842ad31446 net: ethernet: ti: cpsw-new: Convert to platform remove callback returning void
 7ec1bb2ce64ba9528b1f67bf489dd5f6147d1f64 net: ethernet: ezchip: Convert to platform remove callback returning void
 7e0222686316f5506e51182f02c1d83ecc34c471 Merge branch 'net-ethernet-convert-to-platform-remove-callback-returning-void'
+1b3714731d1f75cde54438ac7b373a0decad7bf2 i40e: fix livelocks in i40e_reset_subtask()
+92b69dc0598760f06243573ade4ae234f9f9a9e9 i40e: fix 32bit FW gtime wrapping issue
+127726039341d70bdd701780cc4a15ec95b16def i40e: add tracepoints for nvmupdate troubleshooting
+f411c87f485ab508370c449a4bda55d476df1866 ice: Re-enable timestamping correctly after reset
+4a1b6edd1e8a0c9112153313a1e19b1ce0685a80 ice: read internal temperature sensor
+ef94d6ab160e233f266820637870249b4797367c ice: change vfs.num_msix_per to vf->num_msix
+07c03227251b5b4326f0c502bedb9ae320a7b3fd ice: Reset VF on Tx MDD event
+04e34c2c28899003bf2dcf23a2325f6c349626f3 ice: periodically kick Tx timestamp interrupt
+9a99ef0a70220b1e4e10e58683ed1c3c676b9e18 ice: Restore fix disabling RX VLAN filtering
+29f1dd3bda07f62dfde7f31085b902e40573ca0f i40e: Fix waiting for queues of all VSIs to be disabled
+615f96ee68d549fc5bd461e9a3eb1d505f2b7803 i40e: Fix unexpected MFS warning message
+beb24bb275616c62a2d952f8f8a9d12310f517dd ice: add CGU info to devlink info callback
+82a9ebe2851f6fd21f9e32c2f24368c12a451fa2 ice: Fix VF Reset paths when interface in a failed over aggregate
+b19525bf4829a48152b76b03e10b480a5c07eb10 ice: Improve logs for max ntuple errors
+20226cb0ab03ac765d11139fde8564048829a0b2 igb: Use FIELD_GET() to extract Link Width
+cbb226d4e44eb8de94e167b2215acf6e8478ff0a e1000e: Use PCI_EXP_LNKSTA_NLW & FIELD_GET() instead of custom defines/code
+4ca7c799c9c0e9455a633290a524efdce9ee6ff4 e1000e: Use pcie_capability_read_word() for reading LNKSTA
+f7ff7f4e9269c73437f3a848da896516b3ca142d e1000e: make lost bits explicit
+0606eebcc730bcbaba769ecabf23e4117640c3e6 intel: add bit macro includes where needed
+a4c149cf7a6cf889e79ed121d8e9c2e7d0adc4d4 intel: legacy: field prep conversion
+a1c957ca3aded35a878ddae285f835a1afeba39f i40e: field prep conversion
+79cc7bfed43bde42b9f13f223441ef6bea323629 iavf: field prep conversion
+9f1c0e128f6e8b5bc6d64fb638532eb222dce133 ice: field prep conversion
+a6918205c448dd004fa21d0bb396b11b79784f3b ice: fix pre-shifted bit usage
+e142822508f1554a9fba3a7c5203989a542da9e6 igc: field prep conversion
+13a718a8325e64d3d46c36d017dfea40cf27001a intel: legacy: field get conversion
+71832e97906081eef88fbcace8698cc13cf8a870 igc: field get conversion
+20ed7e89af84d501e924126b83730d29a0d7f560 i40e: field get conversion
+b000265e002d8abfc9b109e856c0a8b11c731c8c iavf: field get conversion
+0e3c0144f4a2f748ad779a4231dbd11eb77ad97c ice: field get conversion
+726a524a1525fe48acb938c5c1c1414857f2f64f iavf: validate tx_coalesce_usecs even if rx_coalesce_usecs is zero
+4974c01cd5552c7fcc634652f79a3fe3409c26cc iavf: Introduce new state machines for flow director
+d13fdca0e64d542bea4f85be9616cfce6fe59d88 iavf: Handle ntuple on/off based on new state machines for flow director
+ae9c62bbcf4da78337cc7db113a8a03375cf66fc i40e: Fix kernel crash during macvlan offloading setup
+c5d8e81912af22bce5abdf509cbad87e5f86159d ice: Rename E822 to E82X
+88e3990a68f29c5d63243ca262c88a03f018e2fe i40e: Use existing helper to find flow director VSI
+5fd804c5fd203d2a07db93889c1808fac86f70a3 i40e: Introduce and use macros for iterating VSIs and VEBs
+39a4897e26dcf45323a19d41b9163758213788fa i40e: Add helpers to find VSI and VEB by SEID and use them
+d8d699572a34a1efd056e906a6aa2abf853522be i40e: Fix broken support for floating VEBs
+03875eed48af1b66f601e7baae1003e683d8ce5e i40e: Remove VEB recursion
+fce82d0f94e9c1ca953d950ebdb66c6c7f9d53f4 i40e: remove fake support of rx-frames-irq
 
---===============1519755098112459840==--
+--===============8245893868672879760==--
