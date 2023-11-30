@@ -1,29 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-gpio
-Date: Thu, 30 Nov 2023 10:08:43 -0000
-Message-Id: <170133892307.18915.2517473986429161116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 30 Nov 2023 10:14:34 -0000
+Message-Id: <170133927485.22588.2177247049993613642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-gpio
-user: linusw
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/b4/descriptors-sound-cirrus
-    old: 7a0c40a60968f5390997298321ac8be86a7541de
-    new: 80041e36e9335aa149135de9f37281f555bbde5c
+  - ref: refs/heads/main
+    old: 91fdb30ddfdb651509914d3ed0a0302712540fed
+    new: 777f245eec8152926b411e3d4f4545310f52cbed
     log: |
-         f7eb33a6635b8d783ab96f0e07d503a2ad06a3ef ASoC: Convert Cirrus codecs to GPIO descriptors
-         f0c8b0e4b54d89479d974cdb2cc5acc54f383c49 ASoC: cs35l32: Drop legacy include
-         af31edf93aee5d41db4df32ff42583deadf7bd6a ASoC: cs35l33: Fix GPIO name and drop legacy include
-         73ed010dd543e5df7518e4aee93bd6bd8020c367 ASoC: cs35l34: Fix GPIO name and drop legacy include
-         f296b3414a0a8e21f10b9f49970436f7f4a8994f ASoC: cs35l35: Drop legacy includes
-         c1d9f57fcaaf0440c02130d649210bc2c7322c57 ASoC: cs35l36: Drop legacy includes
-         0a9e82c01b91940389e666b211ec73cba1b4ee4c ASoC: cs4271: Convert to GPIO descriptors
-         20ae5f1e0a7bf0d79a05d713175d98113c275c84 ASoC: cirrus: edb93xx: Drop legacy include
-         b0c2ec98f6b2fa10a94e230d8ca146e0d4b7cd08 ASoC: cs42l42: Drop legacy include
-         d4f87cfb005923ac0c879e046908cc2727837507 ASoC: cs43130: Drop legacy includes
-         80041e36e9335aa149135de9f37281f555bbde5c ASoC: cs4349: Drop legacy include
+         d8eb6ea4b302e7ff78535c205510e359ac10a0bd net: ravb: Check return value of reset_control_deassert()
+         88b74831faaee455c2af380382d979fc38e79270 net: ravb: Use pm_runtime_resume_and_get()
+         d78c0ced60d5e2f8b5a4a0468a5c400b24aeadf2 net: ravb: Make write access to CXR35 first before accessing other EMAC registers
+         6f32c086602050fc11157adeafaa1c1eb393f0af net: ravb: Start TX queues after HW initialization succeeded
+         eac16a733427ba0de2449ffc7bd3da32ddb65cb7 net: ravb: Stop DMA in case of failures on ravb_open()
+         edf9bc396e05081ca281ffb0cd41e44db478ff26 net: ravb: Keep reverse order of operations in ravb_remove()
+         777f245eec8152926b411e3d4f4545310f52cbed Merge branch 'net-ravb-fixes-for-the-ravb-driver'
          
