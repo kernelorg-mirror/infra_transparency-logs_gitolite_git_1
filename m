@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 30 Nov 2023 22:33:47 -0000
-Message-Id: <170138362707.13881.12775499024095593230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 30 Nov 2023 22:36:12 -0000
+Message-Id: <170138377279.16336.17455733740764896403@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next/scmi/fixes
-    old: eb55fbef8913ce37581d2599d2dd9fa7145e11a2
-    new: f5ae0a83a3cf1945aec5cabceb62b33ea8e295ce
+  - ref: refs/heads/master
+    old: a4f15f2a4b64810cbaa6d874cd34ad32742969bc
+    new: 203f0f0a4d23dfcc0786dc5bd7a8fbf17c6494a7
     log: |
-         fdd9a70719b7c75cc66f8cdf188ed752f48f15c4 firmware: arm_scmi: Fix frequency truncation by promoting multiplier type
-         f5ae0a83a3cf1945aec5cabceb62b33ea8e295ce firmware: arm_scmi: Fix possible frequency truncation when using level indexing mode
+         203f0f0a4d23dfcc0786dc5bd7a8fbf17c6494a7 foo
          
