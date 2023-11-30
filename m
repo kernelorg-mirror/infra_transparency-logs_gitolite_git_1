@@ -1,116 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6372830339699776471=="
+Content-Type: multipart/mixed; boundary="===============0944007293593664647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Thu, 30 Nov 2023 14:55:15 -0000
-Message-Id: <170135611511.5313.11742687974140734828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 30 Nov 2023 14:55:27 -0000
+Message-Id: <170135612717.5505.5997600179148677493@gitolite.kernel.org>
 
---===============6372830339699776471==
+--===============0944007293593664647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: f725123e4a4a06ca2002acc84382fda891765ef1
-    new: 85d23dde7915394af8950b58ffebe031e0fddff7
-    log: |
-         5e7bd7a36b375f9a7167fddad0255e6d029f9c17 fuzz: Try to limit image size in crypt2_load_proto_plain_json_fuzz
-         85d23dde7915394af8950b58ffebe031e0fddff7 Revert "tests: Temporarily disable veritysetup tasklet option test."
-         
   - ref: refs/heads/master
-    old: f725123e4a4a06ca2002acc84382fda891765ef1
-    new: 85d23dde7915394af8950b58ffebe031e0fddff7
+    old: 5e6597e9968843c05a39caa5fceee5bc399da76b
+    new: 77dcbb4454a627fcadf18677233d4d1fe84bac4f
     log: |
-         5e7bd7a36b375f9a7167fddad0255e6d029f9c17 fuzz: Try to limit image size in crypt2_load_proto_plain_json_fuzz
-         85d23dde7915394af8950b58ffebe031e0fddff7 Revert "tests: Temporarily disable veritysetup tasklet option test."
+         77dcbb4454a627fcadf18677233d4d1fe84bac4f 6.6-stable patches
          
-  - ref: refs/heads/revert-tasklet
-    old: b3a1bc7fd715406744e8caeb34f2fa2afcf38620
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/420/merge
-    old: 3d6516528da3090985f4762f9c1e1c5adf45323e
-    new: 25b3edc2ce7d10410aadf1e607d8976c138af27b
-    log: |
-         5d50617594757bcc53db909075aab573220bc435 Tweak some error messages.
-         b44c2ce071da669c8907f72f2bbff5081b686e9c Update pot file.
-         e1ef5214e788134303c15764ee1ad25b6817c3df Fix some typos found by lintian.
-         f725123e4a4a06ca2002acc84382fda891765ef1 Version 2.7.0-rc0.
-         25b3edc2ce7d10410aadf1e607d8976c138af27b Merge branch 'xchacha20-random' into 'main'
-         
-  - ref: refs/merge-requests/568/head
-    old: b3a1bc7fd715406744e8caeb34f2fa2afcf38620
-    new: 85d23dde7915394af8950b58ffebe031e0fddff7
-    log: revlist-b3a1bc7fd715-85d23dde7915.txt
-  - ref: refs/merge-requests/568/merge
-    old: 67618b366712dab9c3771f3aa58240e71c9f484d
-    new: cce336030c63bb4e19088679cc5ee668e2fb1f2b
-    log: revlist-67618b366712-cce336030c63.txt
-  - ref: refs/merge-requests/576/merge
-    old: bff25d91e99529bab1d8e63a8357f91544b2f8bf
-    new: 99ab2ae0b2ced1dffd1e332356fc9f9c5b148928
-    log: |
-         5d50617594757bcc53db909075aab573220bc435 Tweak some error messages.
-         b44c2ce071da669c8907f72f2bbff5081b686e9c Update pot file.
-         e1ef5214e788134303c15764ee1ad25b6817c3df Fix some typos found by lintian.
-         f725123e4a4a06ca2002acc84382fda891765ef1 Version 2.7.0-rc0.
-         5e7bd7a36b375f9a7167fddad0255e6d029f9c17 fuzz: Try to limit image size in crypt2_load_proto_plain_json_fuzz
-         99ab2ae0b2ced1dffd1e332356fc9f9c5b148928 Merge branch 'simplify-meson-tests' into 'main'
-         
-  - ref: refs/merge-requests/577/head
-    old: 0000000000000000000000000000000000000000
-    new: 5e7bd7a36b375f9a7167fddad0255e6d029f9c17
-  - ref: refs/merge-requests/577/merge
-    old: 0000000000000000000000000000000000000000
-    new: 4aaa3ca79cd02d53a5206a8ddf80b1b828ff846b
 
---===============6372830339699776471==
+--===============0944007293593664647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3a1bc7fd715-85d23dde7915.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b3f1f611cd3645879d067010ed946006af23412d Always print error message for invalid keyring definition.
-c0dfd1178de62f380ac5b181ac42728dbc32c0ac Fix some coverity scan issues.
-d64203a018a4e0311ad0037bc8013a6c2bcf29e8 Override meson default prefix.
-e4a845c51ed178ada48425c090fad2fa9c8cab39 Use proper integer constant in meson_options.txt
-ec4e2faf14cb60466d4ccbea148cf5c5940258cf Add missing files to autoconf make dist.
-70a151242f5628087acbc325cdebad6732def041 meson: fix meson_dist_convert script
-d3a8393476da5beaf17e5bbf30cb0bd37d020138 Set version 2.7.0-rc0.
-1e9d31e0e47afcc870f34a4aec5e7881e16acf76 Add hw_opal.c for translation.
-cea9c2972e42a26eb1c06c7e5af1587c1ce74f24 Add release notes for 2.7.0-rc0.
-5d50617594757bcc53db909075aab573220bc435 Tweak some error messages.
-b44c2ce071da669c8907f72f2bbff5081b686e9c Update pot file.
-e1ef5214e788134303c15764ee1ad25b6817c3df Fix some typos found by lintian.
-f725123e4a4a06ca2002acc84382fda891765ef1 Version 2.7.0-rc0.
-5e7bd7a36b375f9a7167fddad0255e6d029f9c17 fuzz: Try to limit image size in crypt2_load_proto_plain_json_fuzz
-85d23dde7915394af8950b58ffebe031e0fddff7 Revert "tests: Temporarily disable veritysetup tasklet option test."
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701356126 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1701356125-2cfece06bcbeb68ecaad666ae6c08aca670f74a0
 
---===============6372830339699776471==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67618b366712-cce336030c63.txt
+5e6597e9968843c05a39caa5fceee5bc399da76b 77dcbb4454a627fcadf18677233d4d1fe84bac4f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
 
-b3f1f611cd3645879d067010ed946006af23412d Always print error message for invalid keyring definition.
-c0dfd1178de62f380ac5b181ac42728dbc32c0ac Fix some coverity scan issues.
-d64203a018a4e0311ad0037bc8013a6c2bcf29e8 Override meson default prefix.
-e4a845c51ed178ada48425c090fad2fa9c8cab39 Use proper integer constant in meson_options.txt
-ec4e2faf14cb60466d4ccbea148cf5c5940258cf Add missing files to autoconf make dist.
-70a151242f5628087acbc325cdebad6732def041 meson: fix meson_dist_convert script
-d3a8393476da5beaf17e5bbf30cb0bd37d020138 Set version 2.7.0-rc0.
-1e9d31e0e47afcc870f34a4aec5e7881e16acf76 Add hw_opal.c for translation.
-cea9c2972e42a26eb1c06c7e5af1587c1ce74f24 Add release notes for 2.7.0-rc0.
-5d50617594757bcc53db909075aab573220bc435 Tweak some error messages.
-b44c2ce071da669c8907f72f2bbff5081b686e9c Update pot file.
-e1ef5214e788134303c15764ee1ad25b6817c3df Fix some typos found by lintian.
-f725123e4a4a06ca2002acc84382fda891765ef1 Version 2.7.0-rc0.
-5e7bd7a36b375f9a7167fddad0255e6d029f9c17 fuzz: Try to limit image size in crypt2_load_proto_plain_json_fuzz
-85d23dde7915394af8950b58ffebe031e0fddff7 Revert "tests: Temporarily disable veritysetup tasklet option test."
-cce336030c63bb4e19088679cc5ee668e2fb1f2b Merge branch 'revert-tasklet' into 'main'
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVool4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4JwP/2ZMG0ACki+GexkS0m1d
+ooK+eKEQjWXDzDfUshr3aPuAHKOCNFl2cgxUga2/LkCvxCfzTQvGLDNlcwi4dlYV
+hZotw9tAyeRCkniHBsCC8E5M7+oM9x3fU/XkUWK4oUAr3uUkH0prb5qc9C3gAjsn
+UVCJRY9CmeqzECUZ52SvkQdUUJSoTD0R7UOm6qzl0ZI9VzU9LfvM6dvdGCNv7ZVs
+DsdhN0Q8e36+GloK5/0PcOg3m3I4YWoOhlfRWF9xmSXZCfz6De/VUA0TN+R8LHA0
+tYMSKTtFCR+rnUiv9uD+oRoK/ueCA8n/8pkxPNwwJ4MDWB7pJLR+Gkp+lq6ilwt5
+/e5Fu61CoQLdsbO3Xtl9ALxaSWrwwJytZxhOeFHPtj2emk3V0+aIAFlThAVgRzCG
+B+KQzG19dj/7QgH3o1wxjC4XjclDaWhLYdmvAd6QL1j6yC3UXqjxKWvxotXjfq/H
+G2HzoHLcXFkJVVV2k/2FB4m1PVRQ3I8xy6BWfiiAW3oKHrnK+yVWvxqyzF7ooPHm
+nhZcJWxjYvOV4DEnvopB6S4PZbwpGO6cNcEk8bT/kerMojoCSfJgl/QlgfEbSgjL
+I1UhFPHDGCAXoI7uYajaQt6fRcDIkXGWOVOziIQuXxxyF8WIgzRmM2pVHIDNbTjR
+9TSSNU/gnGR6ZB1hdZ71OjWV
+=0iE3
+-----END PGP SIGNATURE-----
 
---===============6372830339699776471==--
+--===============0944007293593664647==--
