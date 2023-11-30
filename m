@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 30 Nov 2023 21:09:34 -0000
-Message-Id: <170137857447.18472.18404603372496008730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 30 Nov 2023 21:11:24 -0000
+Message-Id: <170137868481.20733.2141623795264489691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/hwmon-next
-    old: f903139441884c1da34fbfa9a33c14e1bb85f292
-    new: 45514f0e7103a381eb652fdf2a2c1fbba8f00466
+  - ref: refs/heads/master
+    old: 5a7ce00c05ab4113919af0b1ac9dbb9dc8e2743e
+    new: a4f15f2a4b64810cbaa6d874cd34ad32742969bc
     log: |
-         45514f0e7103a381eb652fdf2a2c1fbba8f00466 hwmon: (pc87360) Bounds check data->innr usage
+         a4f15f2a4b64810cbaa6d874cd34ad32742969bc foo
          
