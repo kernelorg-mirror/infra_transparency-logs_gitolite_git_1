@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3715886417871312201=="
+Content-Type: multipart/mixed; boundary="===============4815246974894068002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 30 Nov 2023 12:55:29 -0000
-Message-Id: <170134892981.12817.17991136398393963437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 30 Nov 2023 12:55:36 -0000
+Message-Id: <170134893620.12922.15531077194051611570@gitolite.kernel.org>
 
---===============3715886417871312201==
+--===============4815246974894068002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/asoc-6.8
     old: 15c7fab0e0477d7d7185eac574ca43c15b59b015
     new: ef6069f3f6577b2e5bdf223d2f6d09f23bed8c6c
     log: revlist-15c7fab0e047-ef6069f3f657.txt
 
---===============3715886417871312201==
+--===============4815246974894068002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1701348928 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1701348927-7ec48623d2e168e2efc6e3a4f5e48053ad9cc1aa
+pusher C3F436CA30F5D8EB 1701348934 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1701348933-bc3704fb5429c53efbb3d5a358164f660e667a47
 
-15c7fab0e0477d7d7185eac574ca43c15b59b015 ef6069f3f6577b2e5bdf223d2f6d09f23bed8c6c refs/heads/for-6.8
+15c7fab0e0477d7d7185eac574ca43c15b59b015 ef6069f3f6577b2e5bdf223d2f6d09f23bed8c6c refs/heads/asoc-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVohkAACgkQJNaLcl1U
-h9DKzwf/aeFmE1UnTqPyaMReFydkUF+skP97dAqf2wzBEBwCrhy2QhP/wDz5Bola
-tQT/j4EXN+tmIenLb0jACpTkaWwwzaq3H0t17OwMVTbzfflJlr1O3gthc+8RM3WZ
-To512CEwaez3jU2E7AlZ7Px+HHkkkZ0SErZfSwDawyCU/uuIHUHLcfG+lxBQ/NgG
-KFV4w/IQyX91z3PVeUM7YWPjDuDCFlZU2dhbf/cUqRcy+ekqJ2fsLhepT57K6d9Y
-r+pn2eBWHHSv2y/qCcSsGn4ZwceyxPIsDnjLUsQe3DwH7lS+Er2HsUTxPKJFv7Qe
-RNwjIGFD8vdVN1qypM2iaVKvkwe1/A==
-=Ogiu
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVohkYACgkQJNaLcl1U
+h9C7aQf+Mdvz79T4I2f228FCNAty8w13gY7CvT6At+xy4QPjfNZdVKbLeN1i/p0N
+WmXp8IPtrouhtPT+sUIgtUU2f0FnORQ645tvx2GcXV4ZRCiWSFUufpK7BM5h6H+z
+gSp0KDp9AXhcATHDrnYlKrXlJn2kz55A/Il2tEukM315fMLmlSVKtInUlzcvEzZi
+Jjvn2u2dURfiY1sAV/HQLPbSA9LR4Zps/iLRtTFCKAwgXVkPdIuIIhzJPD0Os+yr
+plOBqTcQlj2DmQyZBbA6dUBXOEUJdEGLbiM4Vh2dFy3zTIlgODI6/AckhO1u7rU6
+pDIvSMqdUM+YtKGvD4LbBFi7kCi/SA==
+=pjAL
 -----END PGP SIGNATURE-----
 
---===============3715886417871312201==
+--===============4815246974894068002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +66,4 @@ a5a65437b02df8b842c4620b0b776bcd91ce200a ASoC: SOF: core: Add helper for initial
 6c393ebbd74ad341bcfb4e2d0091b2655fad45d0 ASoC: SOF: core: Implement IPC version fallback if firmware files are missing
 ef6069f3f6577b2e5bdf223d2f6d09f23bed8c6c ASoC: SOF: IPC path handling and fallback support
 
---===============3715886417871312201==--
+--===============4815246974894068002==--
