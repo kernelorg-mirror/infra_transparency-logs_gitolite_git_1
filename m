@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============2288175869411421140=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 30 Nov 2023 11:56:20 -0000
-Message-Id: <170134538088.634.3435505191800676838@gitolite.kernel.org>
-
---===============2288175869411421140==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 30 Nov 2023 11:56:29 -0000
+Message-Id: <170134538957.795.9187538812401995827@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/review-ilpo
-    old: c8820c92caf0770bec976b01fa9e82bb993c5865
-    new: cbf54f37600e874d82886aa3b2f471778cae01ce
+  - ref: refs/heads/main
+    old: e35174263f2c671603e8ccc997a16334087b782c
+    new: 04447185dadbb2dfab2b5a3c73c76cbaccd8fbe1
     log: |
-         cbf54f37600e874d82886aa3b2f471778cae01ce platform/x86: wmi: Skip blocks with zero instances
+         15d74e6588a158e481f38858de34011034957152 Documentation: devlink: extend reload-reinit description
+         9b2348e2d6c94146f50b68d7d2067146e7339ac5 devlink: warn about existing entities during reload-reinit
+         04447185dadbb2dfab2b5a3c73c76cbaccd8fbe1 Merge branch 'devlink-warn-about-existing-entities-during-reload-reinit'
          
-
---===============2288175869411421140==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1701345377 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1701345377-b83dd45f26f02ea35209f85ca80d395d84f95ac2
-
-c8820c92caf0770bec976b01fa9e82bb993c5865 cbf54f37600e874d82886aa3b2f471778cae01ce refs/heads/review-ilpo
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZWh4YQAKCRBZrE9hU+XO
-MWMpAQC5rmOYyexNiE+iQBh9f4ZZMIf+oaHM9cTGUgFMhE0drQD+Mm+Q5XnUTWHj
-4LliQAmxk9Vqie7MyH7/K7rqQ2PdlQk=
-=ME7k
------END PGP SIGNATURE-----
-
---===============2288175869411421140==--
