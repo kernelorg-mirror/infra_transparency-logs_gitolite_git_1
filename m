@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Fri, 01 Dec 2023 07:19:17 -0000
-Message-Id: <170141515712.7933.16825412767114772003@gitolite.kernel.org>
+Date: Fri, 01 Dec 2023 07:19:38 -0000
+Message-Id: <170141517814.8137.840491257172676757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tmlind/linux-omap
 user: tmlind
 changes:
-  - ref: refs/heads/omap-for-v6.8/maintainers
+  - ref: refs/heads/omap-for-v6.8/defconfig
     old: 0000000000000000000000000000000000000000
-    new: 6353ed6f311b9daab93df4d968d72ddf2070fe7f
+    new: ac10d6c3c5f9b85e780ec5cfaf0608ae048c5205
