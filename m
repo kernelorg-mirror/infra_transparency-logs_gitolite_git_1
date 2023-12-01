@@ -1,19 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 01 Dec 2023 17:50:46 -0000
-Message-Id: <170145304625.23144.16048300606005550545@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4859728865741081122=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Fri, 01 Dec 2023 17:51:54 -0000
+Message-Id: <170145311475.23645.174285857369673923@gitolite.kernel.org>
+
+--===============4859728865741081122==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/tags/arm64-fixes
-    old: d5b59c8ee34c377e6b092343217b150f17c8ffbd
-    new: a73a1703e5cf51aa41015a470c2a091e65f0ed45
-    log: |
-         f5259997f3e8d6edfcc2daf5b2c0b34f074d7bc0 arm64: Avoid enabling KPTI unnecessarily
-         
+  - ref: refs/heads/for-next/hardening
+    old: c62c9771b7d6306fe5d2f11879f5153d34a41a4e
+    new: b5e3f86a47d34f7b8af899f8cc70520f6daf8b53
+    log: revlist-c62c9771b7d6-b5e3f86a47d3.txt
+
+--===============4859728865741081122==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c62c9771b7d6-b5e3f86a47d3.txt
+
+97f3880a33cd4a0c916242fd296aed975ad512d3 VMCI: Annotate struct vmci_handle_arr with __counted_by
+446425648c5d19ff7564923863538e9fae93e916 afs: Add __counted_by for struct afs_acl and use struct_size()
+3b2894c967377a49be084b9b39b21b2315bd9b2c drm/modes: replace deprecated strncpy with strscpy_pad
+576b75f93b3d3c408235808f689453f1ed891486 nvme-fabrics: replace deprecated strncpy with strscpy
+ab7e8bb6e077a55ae5ac1a4bb4ebba85470d47e5 nvdimm/btt: replace deprecated strncpy with strscpy
+e5a4975ca463e91c2009f5950e0156f0b857eb10 nvme-fc: replace deprecated strncpy with strscpy
+aabf7c37dfbce3e5fe24f0c86a34bc8f2f63cee8 lkdtm: Add kfence read after free crash type
+12cd3cd8c797e07afcc47bc4afa760e4ec75e9d7 params: Introduce the param_unknown_fn type
+fd0cd057a1b7351604daa6ffc91dfe28adf7225d params: Do not go over the limit when getting the string length
+0fc79cbc937f2a754a302a710a94b68c61d0a89a params: Use size_add() for kmalloc()
+a05f096c2c0ca52e8fd34740c7d4b53ab3e7123e params: Sort headers
+b5e3f86a47d34f7b8af899f8cc70520f6daf8b53 params: Fix multi-line comment style
+
+--===============4859728865741081122==--
