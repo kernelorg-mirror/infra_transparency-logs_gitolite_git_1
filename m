@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6361580739754147531=="
+Content-Type: multipart/mixed; boundary="===============0867681809064467791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 01 Dec 2023 13:31:22 -0000
-Message-Id: <170143748240.29903.12697335233076279358@gitolite.kernel.org>
+Date: Fri, 01 Dec 2023 13:31:46 -0000
+Message-Id: <170143750602.30127.8326544152886666100@gitolite.kernel.org>
 
---===============6361580739754147531==
+--===============0867681809064467791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: f690ff9122d2ca8e38769f3bcf217bd3df681a36
     new: 15bc81212f593fbd7bda787598418b931842dc14
     log: revlist-f690ff9122d2-15bc81212f59.txt
-  - ref: refs/tags/v6.7-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8488f2d61f9372a5ebd5aa1f02a580d37a7a6b08
-  - ref: refs/tags/v6.7-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5b17c02f78c832014ef0acdddcd6e0480a3c2e77
 
---===============6361580739754147531==
+--===============0867681809064467791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -547,4 +541,4 @@ f7580f00cc6e5bf57256d61c223d3ac6b4001ae7 selftests: tc-testing: remove spurious 
 0cd523ee864243c9bdb9d52776613e62b992f6bf octeon_ep: Fix error code in probe()
 15bc81212f593fbd7bda787598418b931842dc14 octeon_ep: set backpressure watermark for RX queues
 
---===============6361580739754147531==--
+--===============0867681809064467791==--
