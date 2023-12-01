@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Fri, 01 Dec 2023 11:24:24 -0000
-Message-Id: <170142986421.2959.6784458861917613513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
+Date: Fri, 01 Dec 2023 11:56:06 -0000
+Message-Id: <170143176601.26175.3382102454822903344@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/legion/linux
+user: legion
 changes:
-  - ref: refs/tags/renesas-arm-defconfig-for-v6.8-tag1
-    old: 0000000000000000000000000000000000000000
-    new: f11f1988fc20fc95761c5818464f6b7fb7610db3
-  - ref: refs/tags/renesas-dts-for-v6.8-tag1
-    old: 0000000000000000000000000000000000000000
-    new: 52cafc580874f06a7715c7132572f1f69601ad3f
+  - ref: refs/heads/patchset/meminfo/v2.1
+    old: eda0351ce92287a050e7f3521142d042b399b971
+    new: efe85e882a6c48174f81a7002f3f7d69f1d7918f
+    log: |
+         efe85e882a6c48174f81a7002f3f7d69f1d7918f proc: Implement /proc/self/cpuinfo
+         
