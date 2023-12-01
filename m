@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4859728865741081122=="
+Content-Type: multipart/mixed; boundary="===============4971051296944153060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 01 Dec 2023 17:51:54 -0000
-Message-Id: <170145311475.23645.174285857369673923@gitolite.kernel.org>
+Date: Fri, 01 Dec 2023 17:52:32 -0000
+Message-Id: <170145315286.23987.13872751736961144183@gitolite.kernel.org>
 
---===============4859728865741081122==
+--===============4971051296944153060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: c62c9771b7d6306fe5d2f11879f5153d34a41a4e
+  - ref: refs/heads/for-next/kspp
+    old: 979c1a946570b8fc5ab8fc9f0c56a7f11f47fd0b
     new: b5e3f86a47d34f7b8af899f8cc70520f6daf8b53
-    log: revlist-c62c9771b7d6-b5e3f86a47d3.txt
+    log: revlist-979c1a946570-b5e3f86a47d3.txt
 
---===============4859728865741081122==
+--===============4971051296944153060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c62c9771b7d6-b5e3f86a47d3.txt
+Content-Disposition: attachment; filename=revlist-979c1a946570-b5e3f86a47d3.txt
 
 97f3880a33cd4a0c916242fd296aed975ad512d3 VMCI: Annotate struct vmci_handle_arr with __counted_by
 446425648c5d19ff7564923863538e9fae93e916 afs: Add __counted_by for struct afs_acl and use struct_size()
@@ -39,4 +39,4 @@ fd0cd057a1b7351604daa6ffc91dfe28adf7225d params: Do not go over the limit when g
 a05f096c2c0ca52e8fd34740c7d4b53ab3e7123e params: Sort headers
 b5e3f86a47d34f7b8af899f8cc70520f6daf8b53 params: Fix multi-line comment style
 
---===============4859728865741081122==--
+--===============4971051296944153060==--
