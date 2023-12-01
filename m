@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2331607868973225974=="
+Content-Type: multipart/mixed; boundary="===============1288018821909789526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 01 Dec 2023 21:32:36 -0000
-Message-Id: <170146635638.13860.13345874221882696650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 01 Dec 2023 21:32:50 -0000
+Message-Id: <170146637054.14036.5505196187840658677@gitolite.kernel.org>
 
---===============2331607868973225974==
+--===============1288018821909789526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 31bd9cfd560416f56a793ed5ed1aa3850b256f54
     log: revlist-72a2a0a494ec-31bd9cfd5604.txt
 
---===============2331607868973225974==
+--===============1288018821909789526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ bcc9251db5ef29733221cdc75aa712edea7e3419 perf docs: Fix man page formatting for 
 feda97515263e3f2f59af9a8c4798842b90410e2 perf env: Introduce perf_env__arch_strerrno()
 31bd9cfd560416f56a793ed5ed1aa3850b256f54 perf env: Cache the arch specific strerrno function in perf_env__arch_strerrno()
 
---===============2331607868973225974==--
+--===============1288018821909789526==--
