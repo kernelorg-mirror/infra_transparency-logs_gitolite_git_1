@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Fri, 01 Dec 2023 20:44:51 -0000
-Message-Id: <170146349114.30763.12292476036873708647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Fri, 01 Dec 2023 20:49:00 -0000
+Message-Id: <170146374082.14779.2251209028861576759@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/jgg/iommufd
+user: jgg
 changes:
-  - ref: refs/heads/md-fixes
-    old: 45b478951b2ba5aea70b2850c49c1aa83aedd0d2
-    new: 7385c58b29adffadcedfac79e516a7bc18810b5b
+  - ref: refs/heads/for-rc
+    old: 83b2a846e7795c301db54a3eaeeb859235e9a705
+    new: 6f9c4d8c468c189d6dc470324bd52955f8aa0a10
     log: |
-         7385c58b29adffadcedfac79e516a7bc18810b5b md/raid6: use valid sector values to determine if an I/O should wait on the reshape
+         6f9c4d8c468c189d6dc470324bd52955f8aa0a10 iommufd: Do not UAF during iommufd_put_object()
          
