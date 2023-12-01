@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 01 Dec 2023 21:34:01 -0000
-Message-Id: <170146644136.14706.9126227947526747656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 01 Dec 2023 21:43:44 -0000
+Message-Id: <170146702484.22568.15936888409384616764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/asoc-6.8
-    old: ef6069f3f6577b2e5bdf223d2f6d09f23bed8c6c
-    new: fdcaecfc71e2f4ab70ce9469f14dd64c23bf401a
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 31bd9cfd560416f56a793ed5ed1aa3850b256f54
+    new: 34e4d811a86ce0cc0eebf3cba0eeb78dfd8740da
     log: |
-         625ed9457de50d7726ccb3f2bc4e01e543ceb126 ASoC: qcom: sc8280xp: set card driver name from match data
-         fdcaecfc71e2f4ab70ce9469f14dd64c23bf401a ASoC: qcom: sc8280xp: Add support for SM8450 and SM8550
+         b06f8278b4ba7113675164e8af821044ca839ab8 perf env: Introduce perf_env__arch_strerrno()
+         34e4d811a86ce0cc0eebf3cba0eeb78dfd8740da perf env: Cache the arch specific strerrno function in perf_env__arch_strerrno()
          
