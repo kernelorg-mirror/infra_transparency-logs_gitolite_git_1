@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 01 Dec 2023 18:42:28 -0000
-Message-Id: <170145614819.28551.13969665638440624477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Fri, 01 Dec 2023 19:03:05 -0000
+Message-Id: <170145738500.9638.4004973945513516299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/fileS0HtOD
-    old: 0000000000000000000000000000000000000000
-    new: cdf1a9609ed8777dcbcd089bc9888c941b790926
-  - ref: refs/heads/fileUQl8Iq
-    old: 0000000000000000000000000000000000000000
-    new: fdcaecfc71e2f4ab70ce9469f14dd64c23bf401a
-  - ref: refs/heads/v2_20231201_linus_walleij_asoc_convert_cirrus_codecs_to_gpio_descriptors
-    old: 0000000000000000000000000000000000000000
-    new: 9c16cfe42d9fbfd258a3928b4a054d6b3ef932b0
+  - ref: refs/heads/master
+    old: 048fd9098d2983a3b46fd6536d99433c703bb85b
+    new: e397bb54f01e48a993b2acc14c3c8eadc56dfc08
+    log: |
+         8446fdf6942209aa3d8e366f6ce8a93cb717c68b foo
+         e397bb54f01e48a993b2acc14c3c8eadc56dfc08 foo
+         
