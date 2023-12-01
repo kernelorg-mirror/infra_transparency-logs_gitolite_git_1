@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3741610105842697842=="
+Content-Type: multipart/mixed; boundary="===============8251928965632362781=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Fri, 01 Dec 2023 09:57:10 -0000
-Message-Id: <170142463017.5114.5063748158053899313@gitolite.kernel.org>
+Date: Fri, 01 Dec 2023 10:03:00 -0000
+Message-Id: <170142498054.8854.9569629995954004157@gitolite.kernel.org>
 
---===============3741610105842697842==
+--===============8251928965632362781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jack/linux-fs
 user: jack
 changes:
-  - ref: refs/heads/fsnotify
-    old: 1758cd2e95d31b308f29ae3828ae92c8b8d20466
-    new: 30ad1938326bf9303ca38090339d948975a626f5
-    log: revlist-1758cd2e95d3-30ad1938326b.txt
+  - ref: refs/heads/master
+    old: 8bc9e6515183935fa0cccaf67455c439afe4982b
+    new: 994d5c58e50e91bb02c7be4a91d5186292a895c8
+    log: revlist-8bc9e6515183-994d5c58e50e.txt
 
---===============3741610105842697842==
+--===============8251928965632362781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1758cd2e95d3-30ad1938326b.txt
+Content-Disposition: attachment; filename=revlist-8bc9e6515183-994d5c58e50e.txt
 
+a409d9600959f3c4b2a48946304c8e01b8d04072 dma-mapping: fix dma_addressing_limited() if dma_range_map can't cover all system RAM
+0e8b9f258baed25f1c5672613699247c76b007b5 drm/qxl: prevent memory leak
 40cb2fdfed342e7e578d551a073687789f698d89 net, sched: Fix SKB_NOT_DROPPED_YET splat under debug config
 3423ca23e08bf285a324237abe88e7e7d9becfe6 octeontx2-pf: Free pending and dropped SQEs
 0a8e987dcc13244b5a5bc90cb1b184f813104d87 tcp: Fix SYN option room calculation for TCP-AO.
@@ -1048,7 +1050,5 @@ e8f60209d6cf652a9cfda64371acea69f62770aa Merge tag 'pmdomain-v6.7-rc2' of git://
 2594faafeee2f4406ff82790604e4e3f55037d60 Merge tag 'perf-tools-fixes-for-v6.7-1-2023-11-29' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 47669f40b14c32c9771e0852f7cd3a12eb044c2f Merge tag 'linux_kselftest-kunit-fixes-6.7-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 994d5c58e50e91bb02c7be4a91d5186292a895c8 Merge tag 'hardening-v6.7-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-7232522e6cafdf466ed7649c14546fd07ccc1978 fanotify: store fsid in mark instead of in connector
-30ad1938326bf9303ca38090339d948975a626f5 fanotify: allow "weak" fsid when watching a single filesystem
 
---===============3741610105842697842==--
+--===============8251928965632362781==--
