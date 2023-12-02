@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 02 Dec 2023 19:24:02 -0000
-Message-Id: <170154504288.25998.10902652920428045296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Sat, 02 Dec 2023 19:26:44 -0000
+Message-Id: <170154520466.28595.11537757906210724476@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/main
-    old: 6c89f49964375c904cea33c0247467873f4daf2c
-    new: 4b0768b6556af56ee9b7cf4e68452a2b6289ae45
+  - ref: refs/heads/master
+    old: 8a26141456c6acb21db16e2cc315c2e416691400
+    new: 4e380fbb497669a0c1dbc133581969b6fe0f1e16
     log: |
-         4b0768b6556af56ee9b7cf4e68452a2b6289ae45 r8169: fix rtl8125b PAUSE frames blasting when suspended
+         5a9e8a4d79b150a4fffcbb7ee405e1e394533a2d future/tm: Remove unnecessary spaces
+         06087f88bbdb463e809804b11248887aff5d0cad future/tm: Add introduction of TM-availabe options for locking
+         87143226909eac42c3b58a9526ba20bcbf84a8d4 future/tm: Consistently add dash between reader and writer of reader-writer lock
+         a699ea48d33cb15515de63d37971b98949342ba5 future/htm: Remove unnecessary extra 'and'
+         2784f34c91968bd6521bdf05e89368821acd6d41 future/htm: Use \co{} in favor of $$
+         4e380fbb497669a0c1dbc133581969b6fe0f1e16 future/formalregress: Use \co{} for spin
          
