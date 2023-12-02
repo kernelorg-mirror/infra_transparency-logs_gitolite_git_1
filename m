@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0306073243536377340=="
+Content-Type: multipart/mixed; boundary="===============4824446680434519060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 02 Dec 2023 19:41:50 -0000
-Message-Id: <170154611066.7638.8907358200107160457@gitolite.kernel.org>
+Date: Sat, 02 Dec 2023 19:41:56 -0000
+Message-Id: <170154611657.7742.12748949354568102468@gitolite.kernel.org>
 
---===============0306073243536377340==
+--===============4824446680434519060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 6685aadcab8f170ae3e4d508989a85c1b8a58dba
     new: 90679706d486d3cb202d1b377a230f1f22edaf00
     log: revlist-6685aadcab8f-90679706d486.txt
 
---===============0306073243536377340==
+--===============4824446680434519060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ e02dea158ddaebe6e725be715e0009923b96ec8e selftests/bpf: validate async callback 
 81eff2e36481c5cf4a2ac906ae56c3fbd3e6f305 bpf: simplify tnum output if a fully known constant
 90679706d486d3cb202d1b377a230f1f22edaf00 Merge branch 'bpf-verifier-retval-logic-fixes'
 
---===============0306073243536377340==--
+--===============4824446680434519060==--
