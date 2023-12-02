@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Sat, 02 Dec 2023 21:05:32 -0000
-Message-Id: <170155113282.1825.11516593292448328608@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Sat, 02 Dec 2023 21:40:24 -0000
+Message-Id: <170155322475.27672.15208098046371896047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: oupton
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/tags/kvmarm-fixes-6.7-1
+  - ref: refs/heads/mips-prototypes
     old: 0000000000000000000000000000000000000000
-    new: 8acde282f82249dc05c6c9a8185e02da531f337c
+    new: 3ba13f3f1f92410943161b5c13347847e79623e1
