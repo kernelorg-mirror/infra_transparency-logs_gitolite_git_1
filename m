@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 03 Dec 2023 09:57:07 -0000
-Message-Id: <170159742726.19797.9527765984706127318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sun, 03 Dec 2023 10:01:59 -0000
+Message-Id: <170159771948.23271.9445138230034696856@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 968f35f4ab1c0966ceb39af3c89f2e24afedf878
-    new: 33cc938e65a98f1d29d0a18403dbbee050dcad9a
+  - ref: refs/heads/kbuild
+    old: 0df8e97085946dd79c06720678a845778b6d6bf8
+    new: 6262afa10ef7cc8fdf39b81a36f9546b68810431
     log: |
-         33cc938e65a98f1d29d0a18403dbbee050dcad9a Linux 6.7-rc4
+         4e244c10eab345a735c5052688e4a55bddce5bf7 kconfig: remove unneeded symbol_empty variable
+         6262afa10ef7cc8fdf39b81a36f9546b68810431 kconfig: default to zero if int/hex symbol lacks default property
          
-  - ref: refs/tags/v6.7-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 1143e59b844443b6c4841b9a7631cc41cdc260ba
