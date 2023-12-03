@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6219125620693809547=="
+Content-Type: multipart/mixed; boundary="===============0746882352794492502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Sun, 03 Dec 2023 04:50:43 -0000
-Message-Id: <170157904353.8609.10239540086304887159@gitolite.kernel.org>
+Date: Sun, 03 Dec 2023 04:50:45 -0000
+Message-Id: <170157904542.8678.8059511456872174718@gitolite.kernel.org>
 
---===============6219125620693809547==
+--===============0746882352794492502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,45 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm32-for-6.8
-    old: bded0924f6a424eb9bf675759aa90741940e5628
-    new: be0061dcbac1b6a5a1cf681f7cabbb2681ab0e2c
-    log: |
-         94da379dba88c4cdd562bad21c9ba5656e5ed5df ARM: dts: qcom: sdx65: correct PCIe EP phy-names
-         f64f653df2ef713359178c731bc8f89ff54014b1 ARM: dts: qcom: sdx65: add missing GCC clocks
-         a900ad783f507cb396e402827052e70c0c565ae9 ARM: dts: qcom: sdx65: correct SPMI node name
-         95053f6bc8ffca438a261400d7c06bd74e3f106e ARM: dts: qcom: msm8974: Add watchdog node
-         be0061dcbac1b6a5a1cf681f7cabbb2681ab0e2c ARM: dts: qcom: Add support for HTC One Mini 2
-         
-  - ref: refs/heads/arm64-for-6.8
-    old: d6e2bc901cb71dc73cdb8a4da35ed8f43e7727d0
-    new: bfccc195192ea6ae72a4a49a85c94f1ad8ee7a13
-    log: revlist-d6e2bc901cb7-bfccc195192e.txt
-  - ref: refs/heads/drivers-for-6.8
-    old: 086fdb48bc65d6fde0f0e7d42dbfb3c00ea52628
-    new: 4a55812229a7fec582d97b1da4bf9ded024680dd
-    log: |
-         fa78d0280fdc984d3dc1209b8c7c7a22ec9735de dt-bindings: soc: qcom: stats: Add QMP handle
-         4a55812229a7fec582d97b1da4bf9ded024680dd soc: qcom: stats: Add DDR sleep stats
-         
-  - ref: refs/heads/arm64-defconfig-for-6.8
-    old: 0000000000000000000000000000000000000000
-    new: b85ea95d086471afb4ad062012a4d73cd328fa86
-  - ref: refs/heads/clk-for-6.8
-    old: 0000000000000000000000000000000000000000
-    new: 50492f929486c044b43cb3e2c0e040aa9b61ea2b
-  - ref: refs/heads/drivers-fixes-for-6.7
-    old: 0000000000000000000000000000000000000000
-    new: 03970d2fa35497d5a5812d67ce94ca5836335159
+  - ref: refs/heads/for-next
+    old: e17ea8ba33589f171aae6964028eeb749507e408
+    new: 826c7a47ad689301d698380b6f29a250dbf9b220
+    log: revlist-e17ea8ba3358-826c7a47ad68.txt
 
---===============6219125620693809547==
+--===============0746882352794492502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6e2bc901cb7-bfccc195192e.txt
+Content-Disposition: attachment; filename=revlist-e17ea8ba3358-826c7a47ad68.txt
 
+94da379dba88c4cdd562bad21c9ba5656e5ed5df ARM: dts: qcom: sdx65: correct PCIe EP phy-names
+f64f653df2ef713359178c731bc8f89ff54014b1 ARM: dts: qcom: sdx65: add missing GCC clocks
+a900ad783f507cb396e402827052e70c0c565ae9 ARM: dts: qcom: sdx65: correct SPMI node name
+4d45d56e17348c6b6bb2bce126a4a5ea97b19900 dt-bindings: clock: qcom,a53pll: add IPQ5018 compatible
+50492f929486c044b43cb3e2c0e040aa9b61ea2b clk: qcom: apss-ipq-pll: add support for IPQ5018
 3e4b53e04281ed3d9c7a4329c027097265c04d54 arm64: dts: qcom: ipq5018: enable the CPUFreq support
 14259fcdaf72d3ce93ad9c2b12cc0e96ed5a0c4e dt-bindings: arm: qcom: drop the IPQ board types
+95053f6bc8ffca438a261400d7c06bd74e3f106e ARM: dts: qcom: msm8974: Add watchdog node
+03970d2fa35497d5a5812d67ce94ca5836335159 soc: qcom: llcc: Fix LLCC_TRP_ATTR2_CFGn offset
 ec987b5efd59fdea4178d824d8ec4bbdf3019bdf arm64: dts: qcom: sdm845: Add OPP table support to UFSHC
 725be1d6318e4ea7e3947fd4242a14cf589cfebf arm64: dts: qcom: sm8250: Add OPP table support to UFSHC
 18c74d56fe6070c7c38058d7b43ccf2102abebcd iio: adc: Add PM7325 PMIC7 ADC bindings
@@ -78,6 +59,8 @@ cab60b166575dd6db4c85487e87a9b677e04c153 arm64: dts: qcom: qrb4210-rb2: Enable b
 fbe0870c48ac84f117860096048055a4f078a976 arm64: dts: qcom: msm8939-longcheer-l9100: Add proximity-near-level
 608168b4d6079f2c43944bdfd64fd6c405d9a767 arm64: dts: qcom: sm8250-xiaomi-elish: Fix typos
 69652787279d64b0b0cc350fdfb34c503e40653c arm64: dts: qcom: sm8250-xiaomi-elish: Add pm8150b type-c node and enable usb otg
+fa78d0280fdc984d3dc1209b8c7c7a22ec9735de dt-bindings: soc: qcom: stats: Add QMP handle
+4a55812229a7fec582d97b1da4bf9ded024680dd soc: qcom: stats: Add DDR sleep stats
 bcaa71f13cc7160f2d5f9a401e9c58215612f79e arm64: dts: qcom: sc8280xp: Add QMP handle to RPMh stats
 8786398f8686d1a4267ab52f830b25f17e6d62fc arm64: dts: qcom: sc7180: Add the missing MDSS icc path
 c657056d99878c8a8ea84d5d4a9101bcb90b47f2 arm64: dts: qcom: sc7280: Add the missing MDSS icc path
@@ -98,5 +81,7 @@ cff9a76f306bfb6262153c0da2029071036b9a04 arm64: dts: qcom: msm8939-huawei-kiwi: 
 ead0f132fc494b46fcd94788456f9b264fd631bb arm64: dts: qcom: sm8550: correct TX Soundwire clock
 d69e34675a8be0affe8c55dbf50f795dac521933 dt-bindings: vendor-prefixes: document HTC Corporation
 bfccc195192ea6ae72a4a49a85c94f1ad8ee7a13 dt-bindings: arm: qcom: Add HTC One Mini 2
+be0061dcbac1b6a5a1cf681f7cabbb2681ab0e2c ARM: dts: qcom: Add support for HTC One Mini 2
+826c7a47ad689301d698380b6f29a250dbf9b220 Merge branches 'arm32-for-6.8', 'arm64-for-6.8', 'clk-for-6.8', 'drivers-fixes-for-6.7' and 'drivers-for-6.8' into for-next
 
---===============6219125620693809547==--
+--===============0746882352794492502==--
