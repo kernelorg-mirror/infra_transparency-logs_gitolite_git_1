@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7573690353283057555=="
+Content-Type: multipart/mixed; boundary="===============2817076066458317954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Sun, 03 Dec 2023 20:00:23 -0000
-Message-Id: <170163362344.15363.17101287349683002764@gitolite.kernel.org>
+Date: Sun, 03 Dec 2023 20:00:34 -0000
+Message-Id: <170163363433.15523.11385634400186079180@gitolite.kernel.org>
 
---===============7573690353283057555==
+--===============2817076066458317954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 420f44eef29721b40bb19d15ffcf4957355b345d
-    new: 3054ebb159f817d32f8c5a4ff49643a09664ee0a
-    log: revlist-420f44eef297-3054ebb159f8.txt
+  - ref: refs/heads/m68k-queue
+    old: 83b56f4f469dfcc43ad9446d3096d5edd9d9f003
+    new: 6a14a892c46dc3afea97b364101d499bfe421911
+    log: revlist-83b56f4f469d-6a14a892c46d.txt
 
---===============7573690353283057555==
+--===============2817076066458317954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-420f44eef297-3054ebb159f8.txt
+Content-Disposition: attachment; filename=revlist-83b56f4f469d-6a14a892c46d.txt
 
 7a934b5cc3f452df6f9a4903450fc103dee98ee8 wifi: mt76: mt7921: fix 6GHz disabled by the missing default CLC config
 42d62b7e47d58273c64fc1540e5d81ccfdb60f77 media: vsp1: Remove unbalanced .s_stream(0) calls
@@ -333,6 +333,8 @@ deb4b9dd3b539c8331bbc0d64dff3b4fb57296ef Merge tag 'for-linus-6.7a-rc4-tag' of g
 55abae438c3cf39f66c3e0cb922c3d915363afb5 Merge tag 'firewire-fixes-6.7-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 968f35f4ab1c0966ceb39af3c89f2e24afedf878 Merge tag 'v6.7-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 33cc938e65a98f1d29d0a18403dbbee050dcad9a Linux 6.7-rc4
-3054ebb159f817d32f8c5a4ff49643a09664ee0a Merge tag 'v6.7-rc4'
+feeef0a1d57cbfcca48a049749767330f6712f0a m68k: atari: usb: Add ISP1160 USB host controller support
+6bf68b347c580e32a04f6037b5d2ccccdfbd1df0 m68k: atari: Update Kconfig.bus help text
+6a14a892c46dc3afea97b364101d499bfe421911 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7573690353283057555==--
+--===============2817076066458317954==--
