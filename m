@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2827102309631005140=="
+Content-Type: multipart/mixed; boundary="===============6645226719014656395=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Mon, 04 Dec 2023 19:02:26 -0000
-Message-Id: <170171654684.24236.10381874562127309776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Mon, 04 Dec 2023 19:02:33 -0000
+Message-Id: <170171655347.24368.6163059110620771840@gitolite.kernel.org>
 
---===============2827102309631005140==
+--===============6645226719014656395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
-    old: 3ca112b71f35dd5d99fc4571a56b5fc6f0c15814
+    old: ec6ad58ba1be60708b31a89d3e015306627e2d77
     new: b85ea95d086471afb4ad062012a4d73cd328fa86
-    log: revlist-3ca112b71f35-b85ea95d0864.txt
+    log: revlist-ec6ad58ba1be-b85ea95d0864.txt
 
---===============2827102309631005140==
+--===============6645226719014656395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ca112b71f35-b85ea95d0864.txt
+Content-Disposition: attachment; filename=revlist-ec6ad58ba1be-b85ea95d0864.txt
 
 a6bdc082ad1c91d389a6ba0c7a1945818f732114 Merge 'bpf-next 2023-10-16' into loongarch-next
 322948c3198cf80e7c10d953ddad24ebd85757cd powerpc/machdep: Remove trailing whitespaces
@@ -71,4 +71,4 @@ b57b17e88bf58860dad312d08db7d6708ee6d06d Merge tag 'parisc-for-6.7-rc1-2' of git
 e257da5715365b853439243f89cf5d8a9d382355 wifi: iwlwifi: fix system commands group ordering
 b85ea95d086471afb4ad062012a4d73cd328fa86 Linux 6.7-rc1
 
---===============2827102309631005140==--
+--===============6645226719014656395==--
