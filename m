@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 04 Dec 2023 15:21:24 -0000
-Message-Id: <170170328420.28827.15709060458141927107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 04 Dec 2023 15:26:21 -0000
+Message-Id: <170170358156.32175.6108476112296394676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/for-6.7/upstream-fixes
-    old: a9f68ffe1170ca4bc17ab29067d806a354a026e0
-    new: 31e52523267faab5ed8569b9d5c22c9a2283872f
+  - ref: refs/heads/kunit
+    old: 5fd4a61acb8ec3d00b3ee22c80ccb6cd8635a502
+    new: c8613be119892ccceffbc550b9b9d7d68b995c9e
     log: |
-         31e52523267faab5ed8569b9d5c22c9a2283872f HID: Add quirk for Labtec/ODDOR/aikeec handbrake
-         
-  - ref: refs/heads/for-next
-    old: d2986223a6ed5219a72c9bd98f39339be0cb9889
-    new: 6fcb597c30fd1c481c2e19ba884b8d742a3a06a0
-    log: |
-         31e52523267faab5ed8569b9d5c22c9a2283872f HID: Add quirk for Labtec/ODDOR/aikeec handbrake
-         6fcb597c30fd1c481c2e19ba884b8d742a3a06a0 Merge branch 'for-6.7/upstream-fixes' into for-next
+         e78919840c66cd4356cff816ba899697631f2cd5 kunit: string-stream: Allow ERR_PTR to be passed to string_stream_destroy()
+         fbfda7462d4613f012fc1af0eb422d9b7b2a7449 kunit: debugfs: Fix unchecked dereference in debugfs_print_results()
+         c8613be119892ccceffbc550b9b9d7d68b995c9e kunit: debugfs: Handle errors from alloc_string_stream()
          
