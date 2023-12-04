@@ -1,54 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2984017261602748357=="
+Content-Type: multipart/mixed; boundary="===============0768219409882887766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 04 Dec 2023 21:39:51 -0000
-Message-Id: <170172599193.11448.8015631602883571732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 04 Dec 2023 21:40:27 -0000
+Message-Id: <170172602710.13265.4550119213612220668@gitolite.kernel.org>
 
---===============2984017261602748357==
+--===============0768219409882887766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.8
-    old: d0ae9dc48e24f5f704abcbb2dca3e4651bf0ff59
-    new: 8ea082584cf16c6c29b3e1c7061cbf4a1b9fbf51
+  - ref: refs/heads/master
+    old: 9c89f8cc2c230e0b6789f70ad1d1e5d69cbdbf28
+    new: ca9bff07a573fc6fb172decfd6124035ab60c867
     log: |
-         9c8bec3b63255ca04e5dad87471a35790aec06dc ASoC: es83xx: add ACPI DSM helper module
-         b71e1d3789946a20e0e34349f4a874604ac65c3e ASoC: Intel: bytcht_es8316: Dump basic _DSM information
-         e8acf91a4013202934313f3c2968e6962daaffff ASoC: Intel: bytcht_es8316: Add is_bytcr helper variable
-         7650862f4e72d2533356ec001b8ea8d5839aced0 ASoC: Intel: bytcht_es8316: Determine quirks/routing with codec-dev ACPI DSM
-         8ea082584cf16c6c29b3e1c7061cbf4a1b9fbf51 ASoC: Intel: bytcht_es8316: Determine
+         ca9bff07a573fc6fb172decfd6124035ab60c867 drop queue-6.6/drm-amd-display-increase-num-voltage-states-to-40.patch
          
 
---===============2984017261602748357==
+--===============0768219409882887766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1701725990 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1701725989-dd2145ed047e0911da0dc8a045c9eb3cf6a9ee0a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701726024 +0900
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1701726023-96ebee48ae31bc1357f94eddeead8c81873ff2c8
 
-d0ae9dc48e24f5f704abcbb2dca3e4651bf0ff59 8ea082584cf16c6c29b3e1c7061cbf4a1b9fbf51 refs/heads/asoc-6.8
+9c89f8cc2c230e0b6789f70ad1d1e5d69cbdbf28 ca9bff07a573fc6fb172decfd6124035ab60c867 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVuRyYACgkQJNaLcl1U
-h9DN4Af/a0Nni9aHVE6mID6hDxEF7uniBhpgZFl1psfrjSF5yarMSuWDeMnEZ73T
-GU+pWnOGPqnpmMep/4ysGMAO4JNxyH886H6+ROXAO5TclfUvyPD2XutcUcuxMLuz
-4UtXYTYqBtmC9VBQKrkACpn030iPTCoSiA1tI0AasU0OW+No69n+YYbLfY0FLl+5
-m5/kC8sgbNMGPfiN7TWQFtNY0L4ucM59WiXdgfNMtW82uccMSRKo9uNe4gNxAqkY
-3B24f2QaxQrsIXknHfuC0p70vQlg067xb+62GDCscgTyZCxnWCItvjlY9WtQ91Y5
-YZevlpHghyTOaqzBRNuvU1Yo+qo4Ow==
-=Qtvo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVuR0gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZxMP/jkFEtwPOHHQ0vGy3Ic9
+Yky3zKUTvnJhraVcHdVXM/lHVIIQHqKJQ93zeNzkJva0C+H4DaSDZTXpH2aOxlUR
+HVvft2H34dqz1VW1R+QaOb95U6Y5SwNLbditlMzcmj66qxpI1FeO0FnV/FUQSqgG
+GDmqdSy08b6SkF0AcEC8dqLM6Ei4bvkWmfEKHbKxp3a6kgnQFXDT01kHSg6GlJ/M
+x4IuWF2cMju7RZ3Ga7vSFreaGKbxtvqRJ4gPrShLUsqxd309YDRaP3RwSx/4Qmyb
+DI2V4FUCfqqPU+J4zOXf3Czj045SCl5HtV4E3YJoR66TS89G5r81nPZMxgAB6WAK
+mDgglmzR61jW3/qdFDrqUqTUSLe6md4k5Zkyn88R/FuvVB8Ykl792O7CaugNy9Y9
+hRiGcvyOqQHFIDmPlFooxM9gJZAu+BgaU1r2XR8jnU16DihQ3FElBcESydZBfHEv
+YlR2A9ECHodVINU04JJHqN7nvyxwKo+1FrgJQHMQqGs57xml4VIgwzItchVKsBki
+0SNxqdujsSjw/p0PJJUsmPGnEi8TwO5zPSctuVPFLW2yr1D/UZcACj4cAIvtLCN2
+4Ws8he5ruCo3ddiodLJAGCWBGofSzVNtf/9wAH/UkpbN26z7EcJp+LM8T2bjKf5l
+uo5IjBSFsZXTE24J8401+vuq
+=iWD9
 -----END PGP SIGNATURE-----
 
---===============2984017261602748357==--
+--===============0768219409882887766==--
