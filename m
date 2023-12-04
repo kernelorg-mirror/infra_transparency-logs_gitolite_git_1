@@ -1,63 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============2192442289160896108=="
+Content-Type: multipart/mixed; boundary="===============6394792339973903460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 04 Dec 2023 15:46:03 -0000
-Message-Id: <170170476325.14713.9442991633401922103@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 04 Dec 2023 15:47:03 -0000
+Message-Id: <170170482323.15153.15361571671690252297@gitolite.kernel.org>
 
---===============2192442289160896108==
+--===============6394792339973903460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.7
+  - ref: refs/heads/for-linus
     old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 49d8575ca6135a533218e40ddcb85462fd9ff1d2
     log: |
          1ca2761a7734928ffe0678f88789266cf3d05362 spi: atmel: Do not cancel a transfer upon any signal
          49d8575ca6135a533218e40ddcb85462fd9ff1d2 spi: atmel: Drop unused defines
          
-  - ref: refs/heads/spi-6.8
+  - ref: refs/heads/for-next
     old: 7a030abc0185b30a3fd19a7431347c6f5a82c588
-    new: 5cb475174cce1bfedf1025b6e235e2c43d81144f
-    log: revlist-7a030abc0185-5cb475174cce.txt
+    new: 4283a333f1d77c636fcd6a23e8655a532c9b5664
+    log: revlist-7a030abc0185-4283a333f1d7.txt
 
---===============2192442289160896108==
+--===============6394792339973903460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1701704761 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1701704760-ede4d43d81aca2753aae03f6fd86952d1551eb00
-
-b85ea95d086471afb4ad062012a4d73cd328fa86 49d8575ca6135a533218e40ddcb85462fd9ff1d2 refs/heads/spi-6.7
-7a030abc0185b30a3fd19a7431347c6f5a82c588 5cb475174cce1bfedf1025b6e235e2c43d81144f refs/heads/spi-6.8
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVt9DkACgkQJNaLcl1U
-h9CsGwf7BHuZyzHr+COOo0AzTLtuTRcxQJucfnVqR++nlHu6JJNWK7zNIhqPidll
-puHz0VAHeiM9LqcDd2VJpGx39ltjHn+4nrHpM5c85e26L7iAhZfODghV/rUkuxSF
-Sma5cgu/1SFTrZMcgAOBmxuy5Hg16YO0IpmAhtxtLen0emzokJeRM3WwgZcVUbgj
-jqMBw6qqEF/qCAqpXq2orOwr/Glte1GoXhIUcehL9DSSDJIgIffjGWYk4ub/wzq/
-54S/PxfUonJWNiuYtbg6BwP0iseRrcOdV8tPlk+AV1thvpSawyEjrTLyQmNbUQQf
-W/P/rVkSy9KfpKVTKFolQTJke+LIFg==
-=U8eU
------END PGP SIGNATURE-----
-
---===============2192442289160896108==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a030abc0185-5cb475174cce.txt
+Content-Disposition: attachment; filename=revlist-7a030abc0185-4283a333f1d7.txt
 
 258ea41c926b7b3a16d0d7aa210a1401c4a1601b Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 3.0 PHY"
 7a784bcdd7e54f0599da3b2360e472238412623e Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 2.0 PHY"
@@ -335,7 +309,10 @@ d2da77f431ac49b5763b88751a75f70daa46296c Merge tag 'parisc-for-6.7-rc3' of git:/
 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab Linux 6.7-rc3
 39cefd85098d12439586824c39f8e1948fac186d spi: introduce SPI_TRANS_FAIL_IO for error reporting
 9b2ef250b31d46f7ef522bd1bd84942f998bb3f9 spi: spl022: switch to use default spi_transfer_one_message()
+1ca2761a7734928ffe0678f88789266cf3d05362 spi: atmel: Do not cancel a transfer upon any signal
+49d8575ca6135a533218e40ddcb85462fd9ff1d2 spi: atmel: Drop unused defines
 06891af2709b5dfa4081ff1f07b9f4c2743834b7 spi: spl022: fix sleeping in interrupt context
 5cb475174cce1bfedf1025b6e235e2c43d81144f spi: cadence-quadspi: add missing clk_disable_unprepare() in cqspi_probe()
+4283a333f1d77c636fcd6a23e8655a532c9b5664 Merge remote-tracking branch 'spi/for-6.8' into spi-next
 
---===============2192442289160896108==--
+--===============6394792339973903460==--
