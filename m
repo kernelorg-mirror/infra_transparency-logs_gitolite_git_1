@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7462201528118952704=="
+Content-Type: multipart/mixed; boundary="===============8659306851547848077=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 04 Dec 2023 20:18:22 -0000
-Message-Id: <170172110232.16372.2288153046803455033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 04 Dec 2023 20:19:00 -0000
+Message-Id: <170172114009.16721.5114147695761091874@gitolite.kernel.org>
 
---===============7462201528118952704==
+--===============8659306851547848077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: f86d062911aabd0f9c98208549fe5d047e936cf0
     log: revlist-1f5b08f36e19-f86d062911aa.txt
 
---===============7462201528118952704==
+--===============8659306851547848077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ a515158fcec104097541353c9f527bfd4c4e9d29 perf test: Add basic 'perf list --json"
 d24c654c0697b107419f7ed2058bbda24b258856 perf vendor events powerpc: Update datasource event name to fix duplicate events
 f86d062911aabd0f9c98208549fe5d047e936cf0 perf mem: Fix error on hybrid related to availability of mem event in a PMU
 
---===============7462201528118952704==--
+--===============8659306851547848077==--
