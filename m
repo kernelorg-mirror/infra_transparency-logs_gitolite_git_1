@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4101626577375083856=="
+Content-Type: multipart/mixed; boundary="===============4022979931243084560=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 04 Dec 2023 11:53:19 -0000
-Message-Id: <170169079962.3774.13833214221998949647@gitolite.kernel.org>
+Date: Mon, 04 Dec 2023 11:55:40 -0000
+Message-Id: <170169094036.6239.14984555084742010@gitolite.kernel.org>
 
---===============4101626577375083856==
+--===============4022979931243084560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.8/slab-removal
-    old: 067fdded89909723f830db4d99e2b4088f1179ce
-    new: 4a38e93b3a7e6669c44929fed918b1494e902dd7
-    log: revlist-067fdded8990-4a38e93b3a7e.txt
+  - ref: refs/heads/slab/for-next
+    old: 7eec549256f21ad40c7d9c7f687f165ce70bab70
+    new: 0e0526ba3d9c761d95b10da1981d44b1d7624fee
+    log: revlist-7eec549256f2-0e0526ba3d9c.txt
 
---===============4101626577375083856==
+--===============4022979931243084560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1701690794 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1701690936 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1701690794-2e2b4bfd58513ea26c94ee8702f175878287ec40
+nonce 1701690935-a863496aeda9b9ef84f1c541eae7b535eb163c79
 
-067fdded89909723f830db4d99e2b4088f1179ce 4a38e93b3a7e6669c44929fed918b1494e902dd7 refs/heads/slab/for-6.8/slab-removal
+7eec549256f21ad40c7d9c7f687f165ce70bab70 0e0526ba3d9c761d95b10da1981d44b1d7624fee refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmVtvaoACgkQu+CwddJF
-iJrFAQf8CTh/A6ioDHQPDeAjv4FTMuszCuzdZXBdvul2vy1SYez7e/eQcKGIyPLr
-SBXXHum5Ge0HQUnwWkh+aH6qum9pDNhsQka8BOF7JJRI98/FhLVSOWDT0RMd/h7I
-QHtvd6wngh4TxMtCKdmoI5KfS/vC94rQYCLRMJ9Z8dqzy/sBGz/uWv+qMe7Nng8P
-f4Ei+Kpl0505qiWvRfhWNPAuRHm6i7cwiav0kGgSbmUe0Sl1+KMqeLpURHTP1RRo
-Jt2/ezsvBhHFWvRsCPBn4CEESZJE94owVFoJF5rajCPPWv2I15y7vO1S/7BTBVli
-No3xPuw0jVr3mpU1QALBIK8k7UAVKg==
-=41DD
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmVtvjgACgkQu+CwddJF
+iJrzIgf/f/Wy82JObYaFKLbMStnlUN/gTE3oi66UTk/u4b/OwpgUEm1zv5Gx1y3w
+Cr/tmFdoWp1sZowixncKwW4ysRv5rRfT4S3df+H+nEATJ5HGceCZgBHq2pfuCsn8
+R8UinDGlu1laPGRqJuADSpBby7Ee9lzotEOvew8Ns3sAR77hcRaofJMDUcTzG9Jv
+3Ty9urRGpzRjk7sF+nBOygEYyyRpXgMA+DV8Ha5qvf9/o51nEz0Bw4sf2o+VYv1u
+TKejHRnwX9c1KoS614W3BzRG/QcYePPkNSriJfsr8jnZvnRa4At2NDbgo1p1YJjD
+E/x7ehx3cEY9OHCGpO5faIU1sORoRg==
+=Rqpn
 -----END PGP SIGNATURE-----
 
---===============4101626577375083856==
+--===============4022979931243084560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-067fdded8990-4a38e93b3a7e.txt
+Content-Disposition: attachment; filename=revlist-7eec549256f2-0e0526ba3d9c.txt
 
 01e29cd5b60225245cbf9fd27394cf6eaf9df0f1 cpu/hotplug: remove CPUHP_SLAB_PREPARE hooks
 4da9662d42a5373dc62bcdaaeb3b45ff148c6fc0 mm/slab: remove CONFIG_SLAB code from slab common code
@@ -67,5 +67,6 @@ c0bb18a5e7277a02495e1ddc2feccc16cbb8dfe0 mm/slab: move kmalloc() functions from 
 e0deb74f239bc312b2eec5f0c5572a431169f257 mm/slub: remove slab_alloc() and __kmem_cache_alloc_lru() wrappers
 0643f00415eee0856cd203d88918cb7987bd57cf mm/slub: optimize alloc fastpath code layout
 4a38e93b3a7e6669c44929fed918b1494e902dd7 mm/slub: optimize free fast path code layout
+0e0526ba3d9c761d95b10da1981d44b1d7624fee Merge branch 'slab/for-6.8/slab-removal' into slab/for-next
 
---===============4101626577375083856==--
+--===============4022979931243084560==--
