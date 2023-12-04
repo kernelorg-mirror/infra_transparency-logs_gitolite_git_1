@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4349013104950660295=="
+Content-Type: multipart/mixed; boundary="===============5466141513595643039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 04 Dec 2023 13:26:08 -0000
-Message-Id: <170169636876.8360.11354176356073027669@gitolite.kernel.org>
+Date: Mon, 04 Dec 2023 13:30:25 -0000
+Message-Id: <170169662562.11560.8917204627716879598@gitolite.kernel.org>
 
---===============4349013104950660295==
+--===============5466141513595643039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,46 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: e2e2aacf042f52854c92775b7800ba668e0bdfe4
-    new: dadc0f0f7afc0273ff680b504ed830d0c307dea3
+    old: dadc0f0f7afc0273ff680b504ed830d0c307dea3
+    new: 5e4c8814a431d21bfaf20b464134f40f2f81e152
     log: |
-         36d8aef52d0562b5b1dc2e54d0fad1dee07182c2 usb: atm: Remove snprintf() from sysfs call-backs and replace with sysfs_emit()
-         b385ef088c7aab20a2c0dc20d390d69a6620f0f3 usb: cdnsp: Replace snprintf() with the safer scnprintf() variant
-         7d7f794482b74e39d8c0cd830333eb40fc0234d4 usb: fotg210-hcd: Replace snprintf() with the safer scnprintf() variant
-         38168e2de320b9c12132eb72cf1f1d3d411fe38c usb: gadget: Remove snprintf() from sysfs call-backs and replace with sysfs_emit()
-         dadc0f0f7afc0273ff680b504ed830d0c307dea3 usb: gadget: f_tcm: Remove snprintf() from sysfs call-backs and replace with sysfs_emit()
+         c2d95fcff0f01fa00d9683dddeeea6732b74c779 usb: core: Don't force USB generic_subclass drivers to define probe()
+         a87b8e3be926af0fc3b9b1af42b1127bd1ff077c usb: core: Allow subclassed USB drivers to override usb_choose_configuration()
+         aa4f2b3e418e8673e55145de8b8016a7a9920306 r8152: Choose our USB config with choose_configuration() rather than probe()
+         6a4d4a27f986ac19338da8f18d73eed80ce28fca usb: typec: tps6598x: add reset gpio support
+         9f802703fde29011aa9003cb1c5a418623a944ca dt-bindings: usb: tps6598x: add reset-gpios property
+         db9e54709895241dda23f9347f619afb15291353 usb: typec: tcpm: add tcpm_port_error_recovery symbol
+         5e4c8814a431d21bfaf20b464134f40f2f81e152 usb: typec: tcpci: add vconn over current fault handling to maxim_core
          
 
---===============4349013104950660295==
+--===============5466141513595643039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701696367 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701696624 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1701696366-79b9560974bd66ccf262cec0ea1718e00ca122f1
+nonce 1701696623-b3bfe4e0ae251eb16b1901ef015d20c30314c178
 
-e2e2aacf042f52854c92775b7800ba668e0bdfe4 dadc0f0f7afc0273ff680b504ed830d0c307dea3 refs/heads/usb-testing
+dadc0f0f7afc0273ff680b504ed830d0c307dea3 5e4c8814a431d21bfaf20b464134f40f2f81e152 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVt028bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XmwP/i1IKLN7SOnQhUs+JQRq
-RnBRXNZBxy5k+6eexmaHn7JUjKMSd/JWD7zL1V/D+JG8+VtXPBtPsvIbL7o85aEi
-RkCSNZUW5g7g2hHngug0kI5c4FYP80GHPjmaZdqPQa0jh9cvl31oZbYd59eEcmvh
-y2vpavXtqc7c42JIjWVK5pZL0UArGlJyKwVbyc/oIAEJhDBmMiZKI5+FA5A6mg7K
-KJZkVD55M3zrQuJ5x68JfrWmihMZiv1lE3zh62tHJLW/zq0kbO1WBjoAJdiiRIKE
-tkFXQoQz+aYdvgYxKcj1zziGXolAsjGqzGLBmdJW80/NcZJv8aMnJb7Q8SDcJ5Eg
-3m7mSm9j625G3TPqyE1mMgK1CCmU92HoCLjyUA+PQIx5F7/jdFS+QkZfhhN75K0Z
-TDPhD9iTyKVNAVQ4kE799D6ZnSH8/drsthNtnaTfhszvhaNcKjDAbcg3MJx0DwOt
-uYlUFW5ULw68QtOPdhwsi9Xlp70ZbYjSCP0SfoRQyw9+90puPVed6rl11addf3cE
-BPI7WYpW5239oplPz28dVY/sJKsT7Dfkc1zFG/b5rixtZhUu3a+X4/k0lipFMriO
-826l1Co/fGpOOovjJsebiYJZD5lIPMn8MS5Icx8Scsd3jCrK+UiBUmBKIGFllNL7
-JY6ekGij1CNT7SG43gonUlfV
-=CeMv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVt1HAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C+4P/36SPAad9/iCdC0Cm5yM
+bi76S3Lnw4KuLYYjAGhE2ZJfel9gS3I8h+InE2tcBd93nrKXcg5UBojt3+IwX/MM
+XNwHL1PhrTXIe44DZk7WSmd52yyVfIhMjuJGC82iEi2Uap4RKyrjH/Zxhh19rPcS
+POkrT4GIfdpdEQKJvvMbFIkRaBq5sJx28pOrGbdFngncQUzxpbnu5QK1CylCiNRp
+/Yv/J7jHBf/ZBtKOvrP6FjHHNIB+6cEqx+7JNvEqtHzj3f2V+I+fdgkRcPjT0QAu
+v7CwZEC1yQ6phH0UXHqR3ErWtPEaGc33RID7lZ1XjfPgnBtqIZHQNh3GaWWbTCvg
+qfHpNyIzq6HGXTT2qJ9iIdaYmgWzek2ZpiB6S8Kyf8tcoSpflMB2hNaN7tzpj35a
+ZDMHyFVQzL5hZ/hIgW2qRHXmk+TiPSemOR3Eu9GF6E1Z4yioQAYx99L2Ec+dejLe
+RS9m65Y3/L3cjE52Tg4QRGJ1XHfDfCFomMRz0WZEYqEBMGHMEAq3rDjr3erKBAtj
+rxT0s1yhXUBsauxGKp81F0GGp41pWmW3PRx43ZI/flISCv7C0o0Q979ShVjPkJ4s
+p1nSP7VdU6e1UE17hsxQ3bSA3TKKw6vMDMz8/1A5gdKETHfYPRTcT5pdjqjSJVNy
+HIWqRergdGZIva9m7xSsOi3q
+=QKLL
 -----END PGP SIGNATURE-----
 
---===============4349013104950660295==--
+--===============5466141513595643039==--
