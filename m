@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6156358641309605122=="
+Content-Type: multipart/mixed; boundary="===============2324315101315713459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 04 Dec 2023 13:15:29 -0000
-Message-Id: <170169572982.324.5822513890292592182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 04 Dec 2023 13:15:51 -0000
+Message-Id: <170169575157.539.16106941926655148029@gitolite.kernel.org>
 
---===============6156358641309605122==
+--===============2324315101315713459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 33cc938e65a98f1d29d0a18403dbbee050dcad9a
     log: revlist-98b1cc82c4af-33cc938e65a9.txt
 
---===============6156358641309605122==
+--===============2324315101315713459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -608,4 +608,4 @@ deb4b9dd3b539c8331bbc0d64dff3b4fb57296ef Merge tag 'for-linus-6.7a-rc4-tag' of g
 968f35f4ab1c0966ceb39af3c89f2e24afedf878 Merge tag 'v6.7-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 33cc938e65a98f1d29d0a18403dbbee050dcad9a Linux 6.7-rc4
 
---===============6156358641309605122==--
+--===============2324315101315713459==--
