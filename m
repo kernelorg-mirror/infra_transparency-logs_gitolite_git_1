@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 04 Dec 2023 12:45:15 -0000
-Message-Id: <170169391535.10935.6069563551917038535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Mon, 04 Dec 2023 12:47:41 -0000
+Message-Id: <170169406131.11822.4619170251690395243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
+user: chanwoo
 changes:
-  - ref: refs/tags/scmi-fixes-6.7
-    old: 0000000000000000000000000000000000000000
-    new: ce1d02de9154a2b5d8ca2b93b2cbbd265056e950
+  - ref: refs/heads/extcon-next
+    old: bb37fdd8df2f2440086bc9af912370482b7dd89d
+    new: e66523c72c9aae0ff0dae6859eb77b04de1e8e5f
+    log: |
+         e66523c72c9aae0ff0dae6859eb77b04de1e8e5f extcon: fix possible name leak in extcon_dev_register()
+         
