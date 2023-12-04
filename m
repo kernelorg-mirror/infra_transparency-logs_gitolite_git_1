@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 04 Dec 2023 07:59:56 -0000
-Message-Id: <170167679677.16237.3698379556734118247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 04 Dec 2023 08:17:02 -0000
+Message-Id: <170167782212.29821.6051958426425692789@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-user: ijc
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/v6.7-rc4-dts
-    old: 0000000000000000000000000000000000000000
-    new: 97cb0772d4acfa08e8deb9a479a5ee255cff3e08
+  - ref: refs/heads/gpio/for-next
+    old: 3fde49c5dd8b1a65c44e2d6861899ccfa9c11197
+    new: 52816298bd2a1e8c6fb3d9311730c00ef03c1f03
+    log: |
+         52816298bd2a1e8c6fb3d9311730c00ef03c1f03 dt-bindings: gpio: rockchip: add a pattern for gpio hogs
+         
