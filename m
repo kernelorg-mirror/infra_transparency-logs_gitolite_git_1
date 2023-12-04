@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Mon, 04 Dec 2023 12:21:00 -0000
-Message-Id: <170169246000.24626.9415714508446437474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 04 Dec 2023 12:26:55 -0000
+Message-Id: <170169281543.28317.493119322120239131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/extcon-next
-    old: b85ea95d086471afb4ad062012a4d73cd328fa86
-    new: e968d506653b4db8f4fcd43512f91b719c9d18e8
+  - ref: refs/heads/main
+    old: 4b0768b6556af56ee9b7cf4e68452a2b6289ae45
+    new: 79321a793945fdbff2f405f84712d0ab81bed287
     log: |
-         a6a841f42fab6033bc2900ecb2ea6c9e50eaf5d6 extcon: usbc-tusb320: Set interrupt polarity based on device-tree
-         e968d506653b4db8f4fcd43512f91b719c9d18e8 extcon: fix possible name leak in extcon_dev_register()
+         e62adaeecdc6a1e8ae86e7f3f9f8223a3ede94f5 r8152: Hold the rtnl_lock for all of reset
+         32a574c7e2685aa8138754d4d755f9246cc6bd48 r8152: Add RTL8152_INACCESSIBLE checks to more loops
+         8a67b47fced9f6a84101eb9ec5ce4c7d64204bc7 r8152: Add RTL8152_INACCESSIBLE to r8156b_wait_loading_flash()
+         8c53a7bd706535a9cf4e2ec3a4e8d61d46353ca0 r8152: Add RTL8152_INACCESSIBLE to r8153_pre_firmware_1()
+         79321a793945fdbff2f405f84712d0ab81bed287 r8152: Add RTL8152_INACCESSIBLE to r8153_aldps_en()
          
