@@ -1,25 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Mon, 04 Dec 2023 13:31:56 -0000
-Message-Id: <170169671687.12186.10567689638696937345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Mon, 04 Dec 2023 13:36:43 -0000
+Message-Id: <170169700372.15544.4413555192335114170@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/asm-generic
-user: arnd
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/asm-generic
-    old: 0734f5c7eb15f9d3bbdacffe501eabdb8b1c01d2
-    new: e183130c9a87cc57c73ecc9c251e10d07b658530
+  - ref: refs/heads/linux-next
+    old: cefc9ba6aed48a3aa085888e3262ac2aa975714b
+    new: 1f475cd572ea77ae6474a17e693a96bca927efe9
     log: |
-         e183130c9a87cc57c73ecc9c251e10d07b658530 sparc: Use $(kecho) to announce kernel images being ready
+         1f475cd572ea77ae6474a17e693a96bca927efe9 virtio_ring: fix syncs DMA memory with different direction
          
-  - ref: refs/heads/master
-    old: 0734f5c7eb15f9d3bbdacffe501eabdb8b1c01d2
-    new: e183130c9a87cc57c73ecc9c251e10d07b658530
+  - ref: refs/heads/test
+    old: cefc9ba6aed48a3aa085888e3262ac2aa975714b
+    new: 1f475cd572ea77ae6474a17e693a96bca927efe9
     log: |
-         e183130c9a87cc57c73ecc9c251e10d07b658530 sparc: Use $(kecho) to announce kernel images being ready
+         1f475cd572ea77ae6474a17e693a96bca927efe9 virtio_ring: fix syncs DMA memory with different direction
+         
+  - ref: refs/heads/vhost
+    old: cefc9ba6aed48a3aa085888e3262ac2aa975714b
+    new: 1f475cd572ea77ae6474a17e693a96bca927efe9
+    log: |
+         1f475cd572ea77ae6474a17e693a96bca927efe9 virtio_ring: fix syncs DMA memory with different direction
          
