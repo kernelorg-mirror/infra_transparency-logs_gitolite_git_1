@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0482310681788181316=="
+Content-Type: multipart/mixed; boundary="===============2192442289160896108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 04 Dec 2023 15:45:56 -0000
-Message-Id: <170170475639.14575.7547966062335616157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 04 Dec 2023 15:46:03 -0000
+Message-Id: <170170476325.14713.9442991633401922103@gitolite.kernel.org>
 
---===============0482310681788181316==
+--===============2192442289160896108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/spi-6.7
     old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 49d8575ca6135a533218e40ddcb85462fd9ff1d2
     log: |
          1ca2761a7734928ffe0678f88789266cf3d05362 spi: atmel: Do not cancel a transfer upon any signal
          49d8575ca6135a533218e40ddcb85462fd9ff1d2 spi: atmel: Drop unused defines
          
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/spi-6.8
     old: 7a030abc0185b30a3fd19a7431347c6f5a82c588
     new: 5cb475174cce1bfedf1025b6e235e2c43d81144f
     log: revlist-7a030abc0185-5cb475174cce.txt
 
---===============0482310681788181316==
+--===============2192442289160896108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1701704754 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1701704753-4fa379ed1fad2be72321f15235bbfc53f4443710
+pusher C3F436CA30F5D8EB 1701704761 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1701704760-ede4d43d81aca2753aae03f6fd86952d1551eb00
 
-b85ea95d086471afb4ad062012a4d73cd328fa86 49d8575ca6135a533218e40ddcb85462fd9ff1d2 refs/heads/for-6.7
-7a030abc0185b30a3fd19a7431347c6f5a82c588 5cb475174cce1bfedf1025b6e235e2c43d81144f refs/heads/for-6.8
+b85ea95d086471afb4ad062012a4d73cd328fa86 49d8575ca6135a533218e40ddcb85462fd9ff1d2 refs/heads/spi-6.7
+7a030abc0185b30a3fd19a7431347c6f5a82c588 5cb475174cce1bfedf1025b6e235e2c43d81144f refs/heads/spi-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVt9DIACgkQJNaLcl1U
-h9Cocwf/bUz0UGGiLrDMrdnw1tj86LasyhKSoOVBWPU0CYb4mpkWTFWDBD6u8m/V
-E/q2LH5DSRdyszLPygoKHTvlQEoPpIcPcS+KHijSsRpZSqeEkmSmQDyhBDHLSddt
-Bxm3zgtoCx2gZ6ZYFoGNdxwkqmSZyFQpQ1kXEmgDniNfOLEY+m9HrEodenOYKsyw
-iWHBlMxR3kQHhFL/PekGg1akdjqWoVC4L2Q+3EGBE7aij8UpsSymxZrpoqMswnY2
-qkfDNyYmbKjZ1dDpSkwh5FiEaKwP1a0IVvdA1nEQbSX+4fbcZncpI2AoobUf5C/e
-Z1z5K1aP9oe6382/z8kL3hki//OlTw==
-=IK0/
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVt9DkACgkQJNaLcl1U
+h9CsGwf7BHuZyzHr+COOo0AzTLtuTRcxQJucfnVqR++nlHu6JJNWK7zNIhqPidll
+puHz0VAHeiM9LqcDd2VJpGx39ltjHn+4nrHpM5c85e26L7iAhZfODghV/rUkuxSF
+Sma5cgu/1SFTrZMcgAOBmxuy5Hg16YO0IpmAhtxtLen0emzokJeRM3WwgZcVUbgj
+jqMBw6qqEF/qCAqpXq2orOwr/Glte1GoXhIUcehL9DSSDJIgIffjGWYk4ub/wzq/
+54S/PxfUonJWNiuYtbg6BwP0iseRrcOdV8tPlk+AV1thvpSawyEjrTLyQmNbUQQf
+W/P/rVkSy9KfpKVTKFolQTJke+LIFg==
+=U8eU
 -----END PGP SIGNATURE-----
 
---===============0482310681788181316==
+--===============2192442289160896108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -338,4 +338,4 @@ d2da77f431ac49b5763b88751a75f70daa46296c Merge tag 'parisc-for-6.7-rc3' of git:/
 06891af2709b5dfa4081ff1f07b9f4c2743834b7 spi: spl022: fix sleeping in interrupt context
 5cb475174cce1bfedf1025b6e235e2c43d81144f spi: cadence-quadspi: add missing clk_disable_unprepare() in cqspi_probe()
 
---===============0482310681788181316==--
+--===============2192442289160896108==--
