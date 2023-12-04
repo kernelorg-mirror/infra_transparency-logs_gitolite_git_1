@@ -1,51 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2823227665635559100=="
+Content-Type: multipart/mixed; boundary="===============5195240315786221275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 04 Dec 2023 17:24:19 -0000
-Message-Id: <170171065997.19101.17834267781611113517@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 04 Dec 2023 18:10:30 -0000
+Message-Id: <170171343031.20834.65554515752930571@gitolite.kernel.org>
 
---===============2823227665635559100==
+--===============5195240315786221275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 8f3c6de78dfc0bce44db66ee7aa8e416dd4d0d83
-    new: 78237a2617ef51c8d8c819b79a990b163bce83ef
-    log: revlist-8f3c6de78dfc-78237a2617ef.txt
+  - ref: refs/heads/main
+    old: 15bc81212f593fbd7bda787598418b931842dc14
+    new: 21f49681658dba6a9d9f0b7945af348600768d78
+    log: revlist-15bc81212f59-21f49681658d.txt
 
---===============2823227665635559100==
+--===============5195240315786221275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f3c6de78dfc-78237a2617ef.txt
+Content-Disposition: attachment; filename=revlist-15bc81212f59-21f49681658d.txt
 
-16b55b1f2269962fb6b5154b8bf43f37c9a96637 net/tg3: fix race condition in tg3_reset_task()
-6c89f49964375c904cea33c0247467873f4daf2c hv_netvsc: rndis_filter needs to select NLS
-4b0768b6556af56ee9b7cf4e68452a2b6289ae45 r8169: fix rtl8125b PAUSE frames blasting when suspended
-e62adaeecdc6a1e8ae86e7f3f9f8223a3ede94f5 r8152: Hold the rtnl_lock for all of reset
-32a574c7e2685aa8138754d4d755f9246cc6bd48 r8152: Add RTL8152_INACCESSIBLE checks to more loops
-8a67b47fced9f6a84101eb9ec5ce4c7d64204bc7 r8152: Add RTL8152_INACCESSIBLE to r8156b_wait_loading_flash()
-8c53a7bd706535a9cf4e2ec3a4e8d61d46353ca0 r8152: Add RTL8152_INACCESSIBLE to r8153_pre_firmware_1()
-79321a793945fdbff2f405f84712d0ab81bed287 r8152: Add RTL8152_INACCESSIBLE to r8153_aldps_en()
-01ec4f9966b2ff4e32501c98b06a148e68b591b0 i40e: fix livelocks in i40e_reset_subtask()
-3e4f1ceb1e6fdcdc386cc50272221289194db1d4 i40e: fix 32bit FW gtime wrapping issue
-0de44fb5196f34e8ecc81696295d65c81bb3fdd8 ice: Restore fix disabling RX VLAN filtering
-76a8f91399424369f856dabf7f7d2b15afacec30 i40e: Fix waiting for queues of all VSIs to be disabled
-e0c0ce8e53cdb27c3dbf7eb563a124d4de199c49 i40e: Fix unexpected MFS warning message
-8cd9f50e6ac0780043af1dd22562025c1c920d71 iavf: validate tx_coalesce_usecs even if rx_coalesce_usecs is zero
-1ec173ae8229ded60042e658fafe6e4c33c37f13 iavf: Introduce new state machines for flow director
-5cbfe3c1bd4c6c3066c3611555f17a16ae77d73f iavf: Handle ntuple on/off based on new state machines for flow director
-d25903755dd17ea61c799c8e621df58515b8e991 iavf: Fix iavf_shutdown to call iavf_remove instead iavf_close
-e2886a013648b280cd392ff1ac3d400ac27d1e2b i40e: Fix filter input checks to prevent config with invalid values
-9a764de77c5c1914d188880cf252de647cba1306 i40e: Fix ST code value for Clause 45
-f5706a53a81e6668fd730225e2869ff889f5e6ce ice: fix theoretical out-of-bounds access in ethtool link modes
-78237a2617ef51c8d8c819b79a990b163bce83ef i40e: Fix wrong mask used during DCB config
+527d2cd8b852e06c25c129fe400832bf88d2b5b0 doc/netlink: Add bitfield32, s8, s16 to the netlink-raw schema
+b32e8fbeace6117b00b072eef3f1726149fe0298 tcp: tcp_gro_dev_warn() cleanup
+cc124ad39288ef8366d1f731567115d077e612a1 Documentation: networking: add missing PLCA messages from the message list
+4f09947abf248c9aa3479c1335ea69851af4b5d6 octeontx2-af: debugfs: update CQ context fields
+a10859384256cdfab37601239ec1640a982a67e2 dt-bindings: net: qcom,ipa: document SM8650 compatible
+078e07570359b77655d7e54a05153873f1d20648 net: ethernet: renesas: rcar_gen4_ptp: Depend on PTP_1588_CLOCK
+7453d7a633d020d2481cfedbcfcab6dab89ee194 nfp: ethtool: expose transmit SO_TIMESTAMPING capability
+14006f1d8fa24a2320781ad503ca1cba92e940d2 Documentations: Analyze heavily used Networking related structs
+aeb9ce058d7c6193dc41e06b3a5b29d22c446b14 cache: enforce cache groups
+18fd64d2542292713b0322e6815be059bdee440c netns-ipv4: reorganize netns_ipv4 fast path variables
+8470e4368b0f3ba788814f3b3c1142ce51d87e21 Merge branch 'net-cacheline-optimizations'
+51b2804c19cd79e9e4ee384a37796a1d243b8f3d octeontx2-af: Add new mbox to support multicast/mirror offload
+df094d8fe886b31e7c648cca8bf401062ef1c049 octeontx2-pf: TC flower offload support for mirror
+21f49681658dba6a9d9f0b7945af348600768d78 Merge branch 'octeontx2-multicast-mirror-offload'
 
---===============2823227665635559100==--
+--===============5195240315786221275==--
