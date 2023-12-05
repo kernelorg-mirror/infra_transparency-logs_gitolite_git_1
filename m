@@ -1,38 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Tue, 05 Dec 2023 09:59:51 -0000
-Message-Id: <170177039161.19797.6958452504324283176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 05 Dec 2023 10:06:23 -0000
+Message-Id: <170177078327.25348.765931707502156665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: 4a5e09874dae1dbb149910840ac2049fdd3bb921
-    new: 2684d59c6a85ed602301c129276e105e82ae0da5
+  - ref: refs/heads/main
+    old: 36638d372a1ce27e4fe03b3c02cbbf344ddc33cb
+    new: 030033d47788d14b56f02391bb22eaf3c2ed7f87
     log: |
-         685da6972647b486980c0cc8fd6bb5d3863fd6b7 clk: rockchip: rk3568: Add PLL rate for 126.4MHz
-         721bf080f249ab2adcc4337abe164230bfb8594f clk: rockchip: rk3568: Mark pclk_usb as critical
-         a9f085eeacab5fe02ec901b503306f9ae1497f7e Merge branch 'v6.8-clk/next' into for-next
-         b7d755653790b5f5497df8bfb146c38beeb33b74 dt-bindings: arm: rockchip: Add Powkiddy X55
-         009e2d0c224913eb4f44e9c2efe7a15789fc0c18 arm64: dts: rockchip: Add Powkiddy X55
-         2684d59c6a85ed602301c129276e105e82ae0da5 Merge branch 'v6.8-armsoc/dts64' into for-next
-         
-  - ref: refs/heads/v6.8-armsoc/dts64
-    old: bbda1bf9586f0f0745ab1097df6975a9354a03ff
-    new: 009e2d0c224913eb4f44e9c2efe7a15789fc0c18
-    log: |
-         b7d755653790b5f5497df8bfb146c38beeb33b74 dt-bindings: arm: rockchip: Add Powkiddy X55
-         009e2d0c224913eb4f44e9c2efe7a15789fc0c18 arm64: dts: rockchip: Add Powkiddy X55
-         
-  - ref: refs/heads/v6.8-clk/next
-    old: 48794cd57a67246acc53a3edfdececdbb5b98453
-    new: 721bf080f249ab2adcc4337abe164230bfb8594f
-    log: |
-         685da6972647b486980c0cc8fd6bb5d3863fd6b7 clk: rockchip: rk3568: Add PLL rate for 126.4MHz
-         721bf080f249ab2adcc4337abe164230bfb8594f clk: rockchip: rk3568: Mark pclk_usb as critical
+         e8a4195d843fe81a86a97db9ce830c78bfd3f19b docs: bridge: update doc format to rst
+         8ebe06611666a399162de31cdd6f2f48ffa87748 net: bridge: add document for IFLA_BR enum
+         8c4bafdb01cc7809903aced4981f563e3708ea37 net: bridge: add document for IFLA_BRPORT enum
+         bcc1f84e4d3480636d8ff7458bfdda9ff908a3d7 docs: bridge: Add kAPI/uAPI fields
+         567d2608209ffd694b19ee2c602d02aeae7fd16d docs: bridge: add STP doc
+         041a6ac4bf792eaf4c5898b3a744e98cfdc43a7a docs: bridge: add VLAN doc
+         75ceac88efb84c72b684d73a16c37842ca08fb14 docs: bridge: add multicast doc
+         3c37f17d6ca9a2153486e2893f996a9f1525c410 docs: bridge: add switchdev doc
+         1b1a4c7e82aeebef6bd68c94b0531aa72531f60c docs: bridge: add netfilter doc
+         d2afc2cd7f1f46500e7ca830c453266f365ee43d docs: bridge: add other features
+         030033d47788d14b56f02391bb22eaf3c2ed7f87 Merge branch 'doc-update-bridge-doc'
          
