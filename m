@@ -1,56 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============8536658779718671837=="
+Content-Type: multipart/mixed; boundary="===============2393208957195246277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 05 Dec 2023 19:35:07 -0000
-Message-Id: <170180490793.18738.16384954452965915801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 05 Dec 2023 19:35:42 -0000
+Message-Id: <170180494226.19008.15632345517156471926@gitolite.kernel.org>
 
---===============8536658779718671837==
+--===============2393208957195246277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: b17b7fe6dd5c6ff74b38b0758ca799cdbb79e26e
-    new: 24be0b3c40594a14b65141ced486ae327398faf8
+  - ref: refs/heads/staging-next
+    old: d488759416ed3adf542abe15a530243bb74dd882
+    new: 149261d378d0ca441b16de6c1a250a350df66598
     log: |
-         24be0b3c40594a14b65141ced486ae327398faf8 Revert "xhci: Loosen RPM as default policy to cover for AMD xHC 1.1"
+         d9443ac5e3ba1991863c61a4e89f04f67f104eca staging: rtl8192e: renamed variable nMcsRate
+         213702c8b61bfc37b9a78a977fb1c4871fee938c staging: rtl8192e: renamed variable bCurBW40MHz
+         ad96610acc0eb81f0342fa688e6d42fd530c328b staging: rtl8192e: renamed variable nDataRate
+         f9c42898830383aff4fdc723828fa93a6abec02d staging: vc04_services: vchiq_core: Log through struct vchiq_instance
+         149261d378d0ca441b16de6c1a250a350df66598 staging: vc04_services: Do not pass NULL to vchiq_log_error()
          
 
---===============8536658779718671837==
+--===============2393208957195246277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701804907 +0900
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1701804906-1b694a465bfbe7805e3e1c374854437ce8dcd27b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701804941 +0900
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1701804941-e4b3729d4b926812c5c7b7edb24a2eead55f7970
 
-b17b7fe6dd5c6ff74b38b0758ca799cdbb79e26e 24be0b3c40594a14b65141ced486ae327398faf8 refs/heads/usb-linus
+d488759416ed3adf542abe15a530243bb74dd882 149261d378d0ca441b16de6c1a250a350df66598 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVve2sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5pQQAJGYdw5VwfV+3uypZApD
-lKvm0awO/TJetHn/T+/FBXAtAjTPN++/ax/DdO03uEbb/7MFl9m7MdpI1L21T1GW
-7ht0fED1BqYzsbkbPRlNBFcOKCOZ5l4xZSWsioTRnwRVp4t27/DTmL1gBmM6pIpU
-++/m2un7lA606/V6PVYe+8nlajOq3Ix7SjMqEGARs9HKs3NcTzXa3UvyhZKTfDar
-1rx/4R/0dhyIQK4liAzk5JWa/jgNmM76dsb0DImcOPh690VW4K5ItEfZTtjX6MB/
-PPqHE5tG2zvBDcQAQ5zdx7N1xIHLteVA0Colb89xgvl5lkJuEoI3P3wDeTcrjx91
-0NTKbkKOOQO0ZsWoX6Zc8pgKDpd8ZO2Ph2ynysvYpDlLPO9l2ewV6BiJFO9pFw/q
-takYOyqU8R5F1vyRR7XBm95n9qTfnkGEX3aKJKgoQ4mk969EIIuBWTcw2jtcIT5E
-j0ccpHJAhCdVQnEtNAiboTG82FjkIOxX1t1qgqVsy+GMpyeoXmZr1pWsFZ3m1J06
-KmxnH1lvbnfpHLi+7jACzrYuI8sjx+4kcvqm1OoQViL7yyQa4BBkUYiUrvnTiBKd
-jaHhwt8VKHQiuIsGcOtrnjb/Vj1iivEZq7qlW7vLQKyBlaR+VETD+8qA+LiDBSPv
-SZ4jpE6a1N3AJYhlzQ5wSIRJ
-=y4US
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVve40bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+42YP/3zFSkzCEvKKMY5zbcvK
+m/QTG6tI9922XvPAq0m8HX5mWe8TN+oQvPIqzvDjb1HRgDofh40qT54DVZZj8ce0
+1rO49mFwKizZ+xNWQfgXott2lV7qadP3vpUprSe7vJ1v3X0RYwthfLsEezh+ZFkx
+4ZMYPY2tizEe44w8jfWH+p2lduNf/7LfchHvq3a1ex53O/exle7g2acphBdLUcTP
+G89nf8VV+zBBDhyzl1DbahGapySf9hPK/F2/lSSQonWM1AN9r93ff8k5VlpmGFI/
+Gn0C4pP9XnoECeIO9g2/rsTe/M1wFyAH7m93XABXEJWN/PB9FXarUjXFWKQGHOYK
+7zQNblDBC0z08J1AfXZ1QChB2GiWAVoJPSmRLWPSBIRKjflsB7Hfq0J50yjxYVur
+3AroV3BwWc+VG/lB8Sb8pJKLLpXIo0LgdwvdAfQoq+FSk+YbQDm+ldIka+Sarf2M
+2juUnY/jWwE2yKS9KONofNkqAqz7/te7KXdBKuuZtm79yk/Ft+4+GsMGhjZ9IVFw
+ULuCc38HkGbug+bCtRQcbEl9sbqlUnuq0tcLrhQiRmEsfY43erfglyH2kG/FhDVv
+epd+zp2FYhMRC8rltSE9g1jJ0eNIAvKv6NU4vU1R+01DD1q1tElL7YtVbyKizIum
+AZ5U+AjtRuGqzCGhehVyrmaJ
+=o5VT
 -----END PGP SIGNATURE-----
 
---===============8536658779718671837==--
+--===============2393208957195246277==--
