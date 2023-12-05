@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 05 Dec 2023 15:41:04 -0000
-Message-Id: <170179086453.10429.16110370512776383174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 05 Dec 2023 15:52:45 -0000
+Message-Id: <170179156506.17844.6352055810967001239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: 49d8575ca6135a533218e40ddcb85462fd9ff1d2
-    new: 890188d2d7e4ac6c131ba166ca116cb315e752ee
-    log: |
-         890188d2d7e4ac6c131ba166ca116cb315e752ee spi: atmel: Prevent spi transfers from being killed
-         
-  - ref: refs/heads/for-next
-    old: 4283a333f1d77c636fcd6a23e8655a532c9b5664
-    new: 74d39d00c8568cfbfffaaa520bbb91212ee28cb1
-    log: |
-         890188d2d7e4ac6c131ba166ca116cb315e752ee spi: atmel: Prevent spi transfers from being killed
-         74d39d00c8568cfbfffaaa520bbb91212ee28cb1 Merge remote-tracking branch 'spi/for-6.8' into spi-next
-         
+  - ref: refs/heads/20231204_dlechner_spi_axi_spi_engine_improvements_round_2
+    old: 0000000000000000000000000000000000000000
+    new: fdf9213b9324664f7fcbbff224d996a6af240ac6
+  - ref: refs/heads/filetJpGFe
+    old: 0000000000000000000000000000000000000000
+    new: 138a4e2a26ec73197e22fe64ee3957b1594eabb3
