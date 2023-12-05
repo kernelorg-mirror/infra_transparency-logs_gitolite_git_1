@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-Date: Tue, 05 Dec 2023 12:37:28 -0000
-Message-Id: <170177984852.5976.4407901923683986935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Tue, 05 Dec 2023 12:37:55 -0000
+Message-Id: <170177987577.6279.11321112739109121648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: aaa69b9d49de73bd5f17b29cb6ce423afc83bcc9
-    new: 6d0589a70587116c7ff09e027659c6254f883b2d
+  - ref: refs/heads/master
+    old: e183130c9a87cc57c73ecc9c251e10d07b658530
+    new: d6e81532b10d8deb2bc30f7b44f09534876893e3
     log: |
-         cc660ffe27a5b92a1a242ee9d7838b0499918c1b pwm: Update kernel doc for struct pwm_chip
-         6d0589a70587116c7ff09e027659c6254f883b2d pwm: Stop referencing pwm->chip
+         235a59c373b15e84df1a254c96066fc5fc47ae41 mips: remove extraneous asm-generic/iomap.h include
+         da4382a7207e7d2243b860146442243a8daf33de ARC: mm: Make virt_to_pfn() a static inline
+         d6e81532b10d8deb2bc30f7b44f09534876893e3 Hexagon: Make pfn accessors statics inlines
          
