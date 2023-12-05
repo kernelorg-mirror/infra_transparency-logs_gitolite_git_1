@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4405927201403329250=="
+Content-Type: multipart/mixed; boundary="===============6758775025803347246=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 05 Dec 2023 10:18:27 -0000
-Message-Id: <170177150712.2184.12477846560096449286@gitolite.kernel.org>
+Date: Tue, 05 Dec 2023 10:19:44 -0000
+Message-Id: <170177158401.2751.13252242648000753511@gitolite.kernel.org>
 
---===============4405927201403329250==
+--===============6758775025803347246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,44 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.8/slab-removal
-    old: 4a38e93b3a7e6669c44929fed918b1494e902dd7
-    new: 6f02070fed39a425900ffe6278f8a6fcf4990158
-    log: revlist-4a38e93b3a7e-6f02070fed39.txt
+  - ref: refs/heads/slab/for-next
+    old: 4fed85d8da8942a4a5693eb14123e18fefbd1e92
+    new: 876e726c104d6334616d9ace0da4af980ee4743e
+    log: revlist-4fed85d8da89-876e726c104d.txt
 
---===============4405927201403329250==
+--===============6758775025803347246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1701771501 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1701771579 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1701771501-d4af2ed3b9c6ce48c47ad3e6aae2f0ff4bdbf0f1
+nonce 1701771578-018b8cd96520ed02f7d7012565af61ce451cf335
 
-4a38e93b3a7e6669c44929fed918b1494e902dd7 6f02070fed39a425900ffe6278f8a6fcf4990158 refs/heads/slab/for-6.8/slab-removal
+4fed85d8da8942a4a5693eb14123e18fefbd1e92 876e726c104d6334616d9ace0da4af980ee4743e refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmVu+O0ACgkQu+CwddJF
-iJr9Bgf+LdHyifRnUhCMiWdwPlgbV9YdPnmpLQSwi+pYrEL4HUQLTbveO+zlqvJ/
-MOuWA6gTc8cYsFtdJ+rLf/UGPQ4L83XiUmBa7gF/EyxIFXbYN/JW6+oHXLPftmbb
-O2jCgdSRD/7Y9cxzsZNyzm/4GfOB/2YXCxcU6rOS1Wy+9ZzxapmlnR1cWUeX2gJ0
-zU1BA+70FiVJm+FnQStIyY4H9SUaUyl9eVjboUb++MUI0+N0wDVikafQ8ohZ8TPs
-WUsDvg1g9pagA/gMx8Yl6OZ88ymkUyjJE/DCEkMsDLfbT3qASVKlgrYyFSjj/Ieu
-M0M0ykR3ETtQqXD6CHaeOvngJtDW1A==
-=8hJt
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmVu+TsACgkQu+CwddJF
+iJoQtwf/XqmL6wIoExWEG+cB5SF4X6NREklp+FXc3PMjvRTRaMDvikzHUd2zZNLP
+HHV56+HSX0Zlwp9/gzdPhU8NzWQDkGtfqkFBvcEDEUEPMP/WS9ZpyexmqzNDP6FV
+7vP4jYZBMWr2HXHt7P9eikA/98JlnBDg/1hL1THmsgTFE2jjXrKUzYt8WgpEfCbM
+R7XO3pv0Ry86YGpXVXA9pFPSz0LLAp/5vQ+kbGIkmJ5XlcZjh6RCX9B6YD3VC5UE
+tuhpLamSj/a/Pgf7TS4avuVwVdxKBwQdys28YFwoI2BIeCsAQ/23wb3kBs/4x7E2
+jwWx0HOwRYDw5ErjVIFfb4GBZ4fBCA==
+=CnE3
 -----END PGP SIGNATURE-----
 
---===============4405927201403329250==
+--===============6758775025803347246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a38e93b3a7e-6f02070fed39.txt
+Content-Disposition: attachment; filename=revlist-4fed85d8da89-876e726c104d.txt
 
+00eb60c28815e22690834b2e3951ded0cd300b8d slub: Optimize deactivate_slab()
+21316fdc799932ff43fa00a6d6a45b16dbd77844 slub: Rename all *unfreeze_partials* functions to *put_partials*
+31bda717d7777b8b6cf542af2730651ad6bb4839 slub: Update frozen slabs documentations in the source
 3e420e14e7d93ad906416eb98c10c2d4a368625d mm/slab, docs: switch mm-api docs generation from slab.c to slub.c
 8d9502e4cbd7aac9b4e59b073bf4f00c6046d0bf mm/slab: remove CONFIG_SLAB from all Kconfig and Makefile
 783e4c4973d06bad24154bea351340a46ac54bb7 KASAN: remove code paths guarded by CONFIG_SLAB
@@ -72,5 +75,6 @@ a3a44e0170abc0f3354a79899dbb14cbed0b5236 mm/slab: move kmalloc_slab() to mm/slab
 0b2b2fe50172fb7d2e0c9065b7ba9e729539272b mm/slub: remove slab_alloc() and __kmem_cache_alloc_lru() wrappers
 1142fe15dc41aa41ccfc50f360dd8c9a5f7ac0dc mm/slub: optimize alloc fastpath code layout
 6f02070fed39a425900ffe6278f8a6fcf4990158 mm/slub: optimize free fast path code layout
+876e726c104d6334616d9ace0da4af980ee4743e Merge branch 'slab/for-6.8/slab-removal' into slab/for-next
 
---===============4405927201403329250==--
+--===============6758775025803347246==--
