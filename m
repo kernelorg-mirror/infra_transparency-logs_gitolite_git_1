@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 05 Dec 2023 14:13:11 -0000
-Message-Id: <170178559121.10703.1110699225444740895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 05 Dec 2023 14:25:22 -0000
+Message-Id: <170178632284.19705.7958041957202667448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 5c399ae080ae507954f6f2efefc7349f8ed0e051
-    new: 5ffb260f754bf838507fe0c23d05254b33e2bf3d
-    log: |
-         5ffb260f754bf838507fe0c23d05254b33e2bf3d selftests/bpf: Make sure we trigger metadata kfuncs for dst 8080
-         
+  - ref: refs/tags/sent/20231204-arm64-kselftest-log-svcr-372a210520ae-v1
+    old: 0000000000000000000000000000000000000000
+    new: f18e9187ec2da31102f3975bd0698ffb41074393
