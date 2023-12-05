@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 05 Dec 2023 15:40:05 -0000
-Message-Id: <170179080587.9992.12768577999343813211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 05 Dec 2023 15:41:04 -0000
+Message-Id: <170179086453.10429.16110370512776383174@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 5588e948e40568bdeaa49517509234e70150724a
-    new: 9a0de04166acd945c6dc9e72aaa534555da26d3d
+  - ref: refs/heads/for-linus
+    old: 49d8575ca6135a533218e40ddcb85462fd9ff1d2
+    new: 890188d2d7e4ac6c131ba166ca116cb315e752ee
     log: |
-         6da9a662154c8d55fd39820ca882d0646d526e53 ASoC: rt722-sdca: Set lane_control_support for multilane
-         0be9595d8a1170474867b8ee2caf14394db45d8b ASoC: cs4271: Fix spelling mistake "retrieveing" -> "retrieving"
-         f31c166a5027e927e5c032d40ef2e484d9ecd612 ASoC: SOF: Intel: lnl: add core get and set support for dsp core
-         9a0de04166acd945c6dc9e72aaa534555da26d3d Merge remote-tracking branch 'asoc/for-6.8' into asoc-next
+         890188d2d7e4ac6c131ba166ca116cb315e752ee spi: atmel: Prevent spi transfers from being killed
+         
+  - ref: refs/heads/for-next
+    old: 4283a333f1d77c636fcd6a23e8655a532c9b5664
+    new: 74d39d00c8568cfbfffaaa520bbb91212ee28cb1
+    log: |
+         890188d2d7e4ac6c131ba166ca116cb315e752ee spi: atmel: Prevent spi transfers from being killed
+         74d39d00c8568cfbfffaaa520bbb91212ee28cb1 Merge remote-tracking branch 'spi/for-6.8' into spi-next
          
