@@ -1,72 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============4320585678021293679=="
+Content-Type: multipart/mixed; boundary="===============6443498924143214141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Tue, 05 Dec 2023 08:25:11 -0000
-Message-Id: <170176471193.4648.10282479697236488146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 05 Dec 2023 08:46:09 -0000
+Message-Id: <170176596919.19700.14086093570888648309@gitolite.kernel.org>
 
---===============4320585678021293679==
+--===============6443498924143214141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-next
-    old: e5ccefae878c88e7d8f433c1a4afb371480044d3
-    new: 4a5e09874dae1dbb149910840ac2049fdd3bb921
-    log: revlist-e5ccefae878c-4a5e09874dae.txt
-  - ref: refs/heads/v6.8-armsoc/dts32
-    old: fe9460317b838ea3b4be0f7a525d562f4596d030
-    new: 33898f21283b5ab995e3e65fabae167168288399
-    log: revlist-fe9460317b83-33898f21283b.txt
+  - ref: refs/heads/master
+    old: a47e9a2d2246267222d6ee4fc9f0ad8175352707
+    new: 5d868f6ec314aaee65ec5d12c03f18d79e632043
+    log: revlist-a47e9a2d2246-5d868f6ec314.txt
 
---===============4320585678021293679==
+--===============6443498924143214141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5ccefae878c-4a5e09874dae.txt
+Content-Disposition: attachment; filename=revlist-a47e9a2d2246-5d868f6ec314.txt
 
-edc4802d5a72bae467f7781e184b6687eb833de5 ARM: dts: rockchip: Add power-controller for RK3128
-9ca8b8f880f2ebfe87780d553ca73fd2825a8988 ARM: dts: rockchip: Add GPU node for RK3128
-d85a7e34565f331579730b67a0977fd3373b8077 ARM: dts: rockchip: Enable GPU for XPI-3128
-2d93f9dc42623f0812f66f7cdc1d66cc9f263e34 ARM: dts: rockchip: Add alternate UART pins to rv1126
-9f35b08ab08b913abf65cc4ff8d2655ad7912d77 ARM: dts: rockchip: Serial aliases for rv1126
-b1ed25667f5f88531bcb51f3683029693e7a9b8c ARM: dts: rockchip: Add i2c2 node to rv1126
-32de939ae49d541a7892f77da8fe78bc6fe73f13 ARM: dts: rockchip: Split up rgmii1 pinctrl on rv1126
-36ad2e479f69d93a27bc0721308e90a4c1101e70 ARM: dts: rockchip: Add rv1109 SoC
-56bde00f7d151d90c66dada007f13f92b95b0d05 dt-bindings: arm: rockchip: Add Sonoff iHost
-5d7d06e7c0700388dfd1f59ac9f5d6ac0870bd2e ARM: dts: rockchip: Add Sonoff iHost Smart Home Hub
-5ca860fb438bafdf8501567b320239ea99910748 ARM: dts: rockchip: Move gpio aliases to SoC dtsi for RK3128
-697b39733df961910755f49284f87c0b2a9e5ad3 ARM: dts: rockchip: Move i2c aliases to SoC dtsi for RK3128
-33898f21283b5ab995e3e65fabae167168288399 ARM: dts: rockchip: Move uart aliases to SoC dtsi for RK3128
-4b1cdf3d3b986bb0780d4e02654f2a185d8a9f6c Merge branch 'v6.7-armsoc/dtsfixes' into for-next
-2bc003705bc46b95fbecadb121735447b7a46d69 Merge branch 'v6.7-clk/fixes' into for-next
-f29c663661e60ebc2f5fa76e7d5453fa51b57694 Merge branch 'v6.8-armsoc/dts32' into for-next
-abe25487af6c7ee351e6f216ef16d9b146d70343 Merge branch 'v6.8-armsoc/dts64' into for-next
-4a5e09874dae1dbb149910840ac2049fdd3bb921 Merge branch 'v6.8-clk/next' into for-next
+fe7bb780e3d0a090f0eab449621d3e892e4b972a Merge branch into tip/master: 'perf/urgent'
+4680a5207259ffa9716813763f992cbaab852e36 Merge branch into tip/master: 'sched/urgent'
+de54478145edd6834e8aafd7c9f8fb32720f482d Merge branch into tip/master: 'x86/urgent'
+519b7b9f8ac70fd219d33f8fbcdccc75cbedd65e Merge branch into tip/master: 'core/debugobjects'
+9626044dc724b7bbede9e67e7f8e688423932f61 Merge branch into tip/master: 'locking/core'
+345da2900fb8973f76b1da9e9dce7a8b906c401d Merge branch into tip/master: 'objtool/core'
+014cc3e48ed62308c8011215eeb596f0314d7117 Merge branch into tip/master: 'perf/core'
+2ca6a39f9bcc3cd19a86b1698ecbebf3d2a5c226 Merge branch into tip/master: 'ras/core'
+fbab5fd5581c12820377149578e00ff206f0e36a Merge branch into tip/master: 'sched/core'
+bda8b55819d13d8ce9ba20ff4e8491f148f1de90 Merge branch into tip/master: 'timers/core'
+f3f4970162723e55bca990b6a1d20b72e37b5544 Merge branch into tip/master: 'x86/apic'
+15f560d33e657fefe414af9e5cf1d35c95754cef Merge branch into tip/master: 'x86/boot'
+a631c9b5ebd75caa84e15c295610ada9caab6d37 Merge branch into tip/master: 'x86/build'
+e1f48f2a53732cb49a1edccc18bf3448629bf2cf Merge branch into tip/master: 'x86/cleanups'
+7ee3ddf1350b41fc575813244ef0c949a3157df6 Merge branch into tip/master: 'x86/core'
+9f9d7077251b8c46c849c3c40be314913c410789 Merge branch into tip/master: 'x86/cpu'
+0903016f068705986f3127978f902ca353344a4f Merge branch into tip/master: 'x86/entry'
+863430e2c601147b191e6b2f91afd9b385322dc3 Merge branch into tip/master: 'x86/microcode'
+b4ca0c6a835d46ec4094188d1ffe5b91e88c7e0c Merge branch into tip/master: 'x86/misc'
+ff7a539c2ec99a1046a59d824a0aa8c06e09a0bc Merge branch into tip/master: 'x86/mm'
+8b41e354719e8a92babe495c7b17195a1e6789e3 Merge branch into tip/master: 'x86/paravirt'
+5d868f6ec314aaee65ec5d12c03f18d79e632043 Merge branch into tip/master: 'x86/percpu'
 
---===============4320585678021293679==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe9460317b83-33898f21283b.txt
-
-edc4802d5a72bae467f7781e184b6687eb833de5 ARM: dts: rockchip: Add power-controller for RK3128
-9ca8b8f880f2ebfe87780d553ca73fd2825a8988 ARM: dts: rockchip: Add GPU node for RK3128
-d85a7e34565f331579730b67a0977fd3373b8077 ARM: dts: rockchip: Enable GPU for XPI-3128
-2d93f9dc42623f0812f66f7cdc1d66cc9f263e34 ARM: dts: rockchip: Add alternate UART pins to rv1126
-9f35b08ab08b913abf65cc4ff8d2655ad7912d77 ARM: dts: rockchip: Serial aliases for rv1126
-b1ed25667f5f88531bcb51f3683029693e7a9b8c ARM: dts: rockchip: Add i2c2 node to rv1126
-32de939ae49d541a7892f77da8fe78bc6fe73f13 ARM: dts: rockchip: Split up rgmii1 pinctrl on rv1126
-36ad2e479f69d93a27bc0721308e90a4c1101e70 ARM: dts: rockchip: Add rv1109 SoC
-56bde00f7d151d90c66dada007f13f92b95b0d05 dt-bindings: arm: rockchip: Add Sonoff iHost
-5d7d06e7c0700388dfd1f59ac9f5d6ac0870bd2e ARM: dts: rockchip: Add Sonoff iHost Smart Home Hub
-5ca860fb438bafdf8501567b320239ea99910748 ARM: dts: rockchip: Move gpio aliases to SoC dtsi for RK3128
-697b39733df961910755f49284f87c0b2a9e5ad3 ARM: dts: rockchip: Move i2c aliases to SoC dtsi for RK3128
-33898f21283b5ab995e3e65fabae167168288399 ARM: dts: rockchip: Move uart aliases to SoC dtsi for RK3128
-
---===============4320585678021293679==--
+--===============6443498924143214141==--
