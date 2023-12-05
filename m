@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3838970883395411634=="
+Content-Type: multipart/mixed; boundary="===============3632426981790407519=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 05 Dec 2023 17:00:55 -0000
-Message-Id: <170179565592.2741.11344525276870806107@gitolite.kernel.org>
+Date: Tue, 05 Dec 2023 17:08:38 -0000
+Message-Id: <170179611810.8396.13886498519085203609@gitolite.kernel.org>
 
---===============3838970883395411634==
+--===============3632426981790407519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 3706f141e5639d3034bd83448e929b8462362651
-    new: fb70136ded2e1ea3cde27d0393cfadab4240a141
-    log: revlist-3706f141e563-fb70136ded2e.txt
+  - ref: refs/heads/dev-queue
+    old: 86ad07ebfe61387d229e46345d26b2d95520e70a
+    new: a699bd2c9d3cb31122e26fb3f811c9b5cbd30fa0
+    log: revlist-86ad07ebfe61-a699bd2c9d3c.txt
 
---===============3838970883395411634==
+--===============3632426981790407519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3706f141e563-fb70136ded2e.txt
+Content-Disposition: attachment; filename=revlist-86ad07ebfe61-a699bd2c9d3c.txt
 
 bc877956272f0521fef107838555817112a450dc netdev-genl: spec: Extend netdev netlink spec in YAML for queue
 2a502ff0c4e42a739b5aa550c901bf3852795532 net: Add queue and napi association
@@ -83,5 +83,56 @@ c1516b3563aca82a35277dc8999370868cf20175 selftests/net: convert icmp_redirect.sh
 76ca21676533736323f08367660ef9f816d60a13 Merge branch 'conver-net-selftests-to-run-in-unique-namespace-part-1'
 cb297cc5e194a2ea3cb8aaf722005286ee42b011 macvlan: implement .parse_protocol hook function in macvlan_hard_header_ops
 fb70136ded2e1ea3cde27d0393cfadab4240a141 ipvlan: implement .parse_protocol hook function in ipvlan_header_ops
+d98a7d5650534303715d9b468650514bff18b335 i40e: fix livelocks in i40e_reset_subtask()
+b60d564ca1534259311741890fe435ff5c67e871 i40e: fix 32bit FW gtime wrapping issue
+89a74cfca72947b5a537102e323f91149df7ad2c i40e: add tracepoints for nvmupdate troubleshooting
+eca6a19e1677db1f962d0b91304e59bb09dad9fa ice: change vfs.num_msix_per to vf->num_msix
+66e33dfe151858a42812ca65440b37a6906ec499 ice: Reset VF on Tx MDD event
+6f6f9c069b512e456822b611b1092157c5608be6 ice: Restore fix disabling RX VLAN filtering
+de9e9aeae9d2e8e6a7c14118979a45cb377f6487 i40e: Fix waiting for queues of all VSIs to be disabled
+6a1a923a17037120a2c945b474d0d0d37a4f0393 i40e: Fix unexpected MFS warning message
+e37f70a14cec726ba1d00b71e6f508872294adaf igb: Use FIELD_GET() to extract Link Width
+e21097650d15381968f7f36f630d8d10f5404ba3 e1000e: Use PCI_EXP_LNKSTA_NLW & FIELD_GET() instead of custom defines/code
+fa39cbce93cb9e6cd3cf0d1352b8df3b3e6435e2 e1000e: Use pcie_capability_read_word() for reading LNKSTA
+11598f653b1206e8d28185df2e2f8e3e2d977f11 i40e: Fix wrong mask used during DCB config
+36456e3cbc6751ad7934fee95c68d071876667d8 e1000e: make lost bits explicit
+731dea30afe65f634eccde95457cea081e471b4b intel: add bit macro includes where needed
+912a2e0d819fdd838b1f05ad86bf177a570c1155 intel: legacy: field prep conversion
+8be9b47fd2c6bcd618bd475d9eedb70239974e64 i40e: field prep conversion
+8e1b9f59e327fe3bbbe4aa69ffecc97857ba3a3a iavf: field prep conversion
+4abd10bb7806ad3d4e5a1d2f2efa1302954d7855 ice: field prep conversion
+d0ff87908adf13ce95adc229a13b0f0159cc891d ice: fix pre-shifted bit usage
+a37640699091e7c0d7963e16da16b40f9a2c306b igc: field prep conversion
+8f0966115760f7b632529f3cf7d7443cc805753a intel: legacy: field get conversion
+759f88fa14cb4286bac9026f104c1a06bef86638 igc: field get conversion
+e9d280b88e663456b5753b132f30e178ba1740bd i40e: field get conversion
+fdc0d4729b036d11bbb2b598755db6aa629ccb0f iavf: field get conversion
+c35d0f0db5a43b77857f50ac2197fc9809017288 ice: field get conversion
+72fcf408c18a04df00559322d3632f16bb5cc649 iavf: validate tx_coalesce_usecs even if rx_coalesce_usecs is zero
+17b9972ef037ed94c1f77ef7538806ac0786ac20 iavf: Introduce new state machines for flow director
+c351eff99ab5fcb56894355b7f8e169b3887064b iavf: Handle ntuple on/off based on new state machines for flow director
+c6ff4ea22eb0153bdb6cc2ff3e50b247f5a134fe i40e: Use existing helper to find flow director VSI
+c7dbf7070eade901e0d21f793a890747f53753da i40e: Introduce and use macros for iterating VSIs and VEBs
+91c2fda89b6fedc9381d95b33aa33118747a4ca2 i40e: Add helpers to find VSI and VEB by SEID and use them
+50bac8e8d08f4a324bac20503af035b0df8a4b09 i40e: Fix broken support for floating VEBs
+95467ed75eac79166c1a492ea4eaa3cd5e6438c1 i40e: Remove VEB recursion
+7c558ea311e0c12f8c14585d3b4c06a3a640ea8d i40e: remove fake support of rx-frames-irq
+e15c6bb4306824d0f9218009a19c6a8978f6b84e iavf: Fix iavf_shutdown to call iavf_remove instead iavf_close
+d1cc277e77c48d0a4912c4375cab9be3d70f7626 i40e: Fix filter input checks to prevent config with invalid values
+6c04b551952f09de966e0c26341fcc621ac65481 i40e: Fix ST code value for Clause 45
+c6adc9f965285bf37adbd474e7cf2567c89559f5 ice: fix theoretical out-of-bounds access in ethtool link modes
+7739dd37ac30e34315f046b52f90338ddfacbe11 ice: replace ice_vf_recreate_vsi() with ice_vf_reconfig_vsi()
+5578a555266a3d8eb0a27b156deacdb55a495a10 ice: remove FW logging code
+82c520ecfdd73cd90e6c82898e082d4a2b39477a ice: configure FW logging
+cc3b9e0f3b0f241da7a83dd2726b05c5fca007d2 ice: enable FW logging
+e84f9bae2df4fd35697e0b19d5a304b7430afa2e ice: add ability to read FW log data and configure the amount of memory for log data
+9301ee22bcfce378c6b2f224c078205303e20711 ice: add documentation for FW logging
+6b570652d0fd0e5a9bf2f61638ef7320544ebb56 ice: Schedule service task in IRQ top half
+044a20db3341cf0fc12fdda2c14ebfb43dabf4d3 ice: Enable SW interrupt from FW for LL TS
+3f531f0650c98e68baf8c75e04346ea804b156d4 i40e: Fix VF disable behavior to block all traffic
+be2c144ba3397e98aea8e3f09609c315443fa576 igc: Report VLAN EtherType matching back to user
+4cdfc4a1268fc991c20f290becad8941ef953976 igc: Check VLAN TCI mask
+ebd27160a06c9635c37413f433a944b13d05cf31 idpf: fix corrupted frames and skb leaks in singleq mode
+a699bd2c9d3cb31122e26fb3f811c9b5cbd30fa0 ice: ice_base.c: Add const modifier to params and vars
 
---===============3838970883395411634==--
+--===============3632426981790407519==--
