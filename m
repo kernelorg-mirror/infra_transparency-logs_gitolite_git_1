@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 05 Dec 2023 17:15:36 -0000
-Message-Id: <170179653681.14846.16341041746136918204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
+Date: Tue, 05 Dec 2023 17:18:30 -0000
+Message-Id: <170179671000.15964.11659283884232968657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
+user: jaegeuk
 changes:
-  - ref: refs/heads/main
-    old: fb70136ded2e1ea3cde27d0393cfadab4240a141
-    new: 5ab500d6f9f50d8246865a2ead85d0e88ea30004
+  - ref: refs/heads/linux-6.6.y
+    old: bd3a9e5771a8b332f466d06f7c130a69cab0d526
+    new: cbf264c48efdd8b3f20d8ac65287ac4353da1c77
     log: |
-         1ac23674a971d8596648695f72168815c3f52e11 sfc: Implement ndo_hwtstamp_(get|set)
-         d82afc800c1e385205da9618f75369843e856e7a sfc-siena: Implement ndo_hwtstamp_(get|set)
-         5ab500d6f9f50d8246865a2ead85d0e88ea30004 Merge branch 'sfc-implement-ndo_hwtstamp_-get-set'
+         cbf264c48efdd8b3f20d8ac65287ac4353da1c77 Merge tag 'f2fs-for-6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
          
