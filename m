@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3449046905422563907=="
+Content-Type: multipart/mixed; boundary="===============8630852342240406594=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 05 Dec 2023 18:50:58 -0000
-Message-Id: <170180225849.19047.11748148419124228756@gitolite.kernel.org>
+Date: Tue, 05 Dec 2023 18:51:05 -0000
+Message-Id: <170180226531.19156.55341628161867131@gitolite.kernel.org>
 
---===============3449046905422563907==
+--===============8630852342240406594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.7
+  - ref: refs/heads/for-next
     old: 41e05548fa6b069a2b895cf4c7bd9ad618b21e2f
     new: e842b578396bc85dbf9caa72284579f848a97e1f
     log: revlist-41e05548fa6b-e842b578396b.txt
 
---===============3449046905422563907==
+--===============8630852342240406594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -331,4 +331,4 @@ deb4b9dd3b539c8331bbc0d64dff3b4fb57296ef Merge tag 'for-linus-6.7a-rc4-tag' of g
 33cc938e65a98f1d29d0a18403dbbee050dcad9a Linux 6.7-rc4
 e842b578396bc85dbf9caa72284579f848a97e1f dm-integrity: don't modify bio's immutable bio_vec in integrity_metadata()
 
---===============3449046905422563907==--
+--===============8630852342240406594==--
