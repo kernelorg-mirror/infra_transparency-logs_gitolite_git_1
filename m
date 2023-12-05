@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0473693968684909613=="
+Content-Type: multipart/mixed; boundary="===============4364082804650852299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 05 Dec 2023 21:55:31 -0000
-Message-Id: <170181333122.24158.12001232427655899887@gitolite.kernel.org>
+Date: Tue, 05 Dec 2023 21:55:37 -0000
+Message-Id: <170181333709.24273.8987820683236005821@gitolite.kernel.org>
 
---===============0473693968684909613==
+--===============4364082804650852299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 5ffb260f754bf838507fe0c23d05254b33e2bf3d
     new: 3aee2bf9c49be2144460d7267560232e3d45d367
     log: revlist-5ffb260f754b-3aee2bf9c49b.txt
 
---===============0473693968684909613==
+--===============4364082804650852299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ add1cd7f22e61756987865ada9fe95cd86569025 selftests/bpf: validate zero preservati
 064e0bea19b356c5d5f48a4549d80a3c03ce898b selftests/bpf: validate precision logic in partial_stack_load_preserves_zeros
 3aee2bf9c49be2144460d7267560232e3d45d367 Merge branch 'complete-bpf-verifier-precision-tracking-support-for-register-spills'
 
---===============0473693968684909613==--
+--===============4364082804650852299==--
