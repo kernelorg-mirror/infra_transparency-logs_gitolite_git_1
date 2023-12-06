@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============0708222233546167046=="
+Content-Type: multipart/mixed; boundary="===============8809727478560173401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 06 Dec 2023 21:03:11 -0000
-Message-Id: <170189659195.13022.7991010563369270981@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 06 Dec 2023 21:03:18 -0000
+Message-Id: <170189659883.13155.12705538224034872990@gitolite.kernel.org>
 
---===============0708222233546167046==
+--===============8809727478560173401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.7
+  - ref: refs/heads/spi-6.7
     old: 890188d2d7e4ac6c131ba166ca116cb315e752ee
     new: 7a733e060bd20edb63b1f27f0b29cf9b184e0e8b
     log: |
          7a733e060bd20edb63b1f27f0b29cf9b184e0e8b spi: cadence: revert "Add SPI transfer delays"
          
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/spi-6.8
     old: 5cb475174cce1bfedf1025b6e235e2c43d81144f
     new: 18f78b5e609b19b56237f0dae47068d44b8b0ecd
     log: |
@@ -38,29 +38,29 @@ changes:
          18f78b5e609b19b56237f0dae47068d44b8b0ecd spi: axi-spi-engine: improvements round 2
          
 
---===============0708222233546167046==
+--===============8809727478560173401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1701896590 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1701896589-decc25e2ba02c2b682776390c160a222a582c827
+pusher C3F436CA30F5D8EB 1701896597 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1701896596-463e7587329a055cf4ae328fd37f51774203a0cd
 
-890188d2d7e4ac6c131ba166ca116cb315e752ee 7a733e060bd20edb63b1f27f0b29cf9b184e0e8b refs/heads/for-6.7
-5cb475174cce1bfedf1025b6e235e2c43d81144f 18f78b5e609b19b56237f0dae47068d44b8b0ecd refs/heads/for-6.8
+890188d2d7e4ac6c131ba166ca116cb315e752ee 7a733e060bd20edb63b1f27f0b29cf9b184e0e8b refs/heads/spi-6.7
+5cb475174cce1bfedf1025b6e235e2c43d81144f 18f78b5e609b19b56237f0dae47068d44b8b0ecd refs/heads/spi-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVw4Y4ACgkQJNaLcl1U
-h9Bvhwf9EVWDhMyPw0mfrcLttPRk/bz8B92F+2CamCuJrV+Cu8+oWwJ52KiW0OVt
-DLCIuW7vRK8toVYK8xrMkkT8nOrByStUVRQYlWBZiOkMw6AwOLgh5s9pIhuq7gZM
-oVLc+jKM8gIHNv/6Jk26jX6qFb3uL2pba8LlupUf4rmqsGrdWRGaTDbZ3E/PVYzI
-B9Uewxa/t5TBz3jSgpkRZZ7tlDxJIuJixC1BEC7SRzVJAFzS5pfy34BVkQnfZGKU
-OOXkLZ+LQ3xq808YUJGOfqWLUuupb/riSn2U9zGuLZZsOHtZE4O1sCG8vQYl8gW5
-8xwZhWcb7uaqmbjMD11AKpVEfO2NVg==
-=6okd
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVw4ZUACgkQJNaLcl1U
+h9Ck8gf/YO834qU+uWSN6k4Xh328g25JETWiJjjXPNleg/U/pGgtBMgX0IDah/U+
+oYmKBpb480NRUzyltsWNGEPKc9AtgMYof0O+PsbZGlAbeJ1sJbqy1p94lXyZg+6N
+DzZTPBUBwgEOrcYvR+CqdltvhrAx/6+BPuPioBbQm1mWKFBndudnHgcQo6OoZ6e/
+3a3obj0X82tIRSskmpGQREqrRSTrfGLRLzKk8sFzKBtVLv1JybxC2IomRQZaO+7+
+3DRaEDaGxMwF02vK80TVtxdnZgimpt490JBpeDBiwJsoJfTjV2Fqp6BV/JX/1tow
+Ty8nTMdaZKJjOjpFASWo6WIUVmWDQA==
+=qrfc
 -----END PGP SIGNATURE-----
 
---===============0708222233546167046==--
+--===============8809727478560173401==--
