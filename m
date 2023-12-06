@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1000187485281266430=="
+Content-Type: multipart/mixed; boundary="===============6534524274388995198=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 06 Dec 2023 13:55:16 -0000
-Message-Id: <170187091600.22039.8247211609849859817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 06 Dec 2023 13:55:36 -0000
+Message-Id: <170187093679.22252.4186874768490785989@gitolite.kernel.org>
 
---===============1000187485281266430==
+--===============6534524274388995198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 2df93da16943dfb78e868f5db163d5fd9d2b6010
     log: revlist-d37d687ae82c-2df93da16943.txt
 
---===============1000187485281266430==
+--===============6534524274388995198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f5d65dbf22bc05319e46c26ace4abf60317904d0 perf test shell diff: Skip test if test
 6eff6c1980e4a0b54cf0c5ff3a8d69eb835fab62 perf maps: Move symbol maps functions to maps.c
 2df93da16943dfb78e868f5db163d5fd9d2b6010 perf thread: Add missing RC_CHK_EQUAL
 
---===============1000187485281266430==--
+--===============6534524274388995198==--
