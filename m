@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 06 Dec 2023 16:29:02 -0000
-Message-Id: <170188014244.2921.7203885282774290389@gitolite.kernel.org>
+Date: Wed, 06 Dec 2023 16:32:39 -0000
+Message-Id: <170188035935.5885.11703132341707073318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/renesas/dt
+  - ref: refs/heads/asahi/soc
     old: 0000000000000000000000000000000000000000
-    new: 95d516f3eb96bac466a6bfec28a1e55b8ed5160b
+    new: 4dae8c047a70307d83d912afbda2e2c94de155b6
+  - ref: refs/heads/drivers/bus-cleanup
+    old: 0000000000000000000000000000000000000000
+    new: fc540426f7baa0c7d4b477e80435d075659092a2
