@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Wed, 06 Dec 2023 09:26:22 -0000
-Message-Id: <170185478214.6576.12282916008720279092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Wed, 06 Dec 2023 09:32:13 -0000
+Message-Id: <170185513329.10345.17532986821479472496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: tudor.ambarus
 changes:
-  - ref: refs/heads/for-next
-    old: 69f0e9934caffaa2f73a1fd63233fb351e8e9405
-    new: 8c3c7094bf5b965a6dfc74864838fa4954dcf1c9
+  - ref: refs/heads/spi-nor/next
+    old: 9b3eae3486c86304e047829cfe0073b66dc02b36
+    new: c692ba6de1c5b4dc8cad0ba70281ba4cf9d2fdac
     log: |
-         63ef8fc9bcee6b73ca445a19a7ac6bd544723c9f ARM: dts: imx28-xea: Pass the 'model' property
-         ebd6292926d88c1b2614f809b51367ee3dc8955e ARM: dts: imx23/28: Remove undocumented "fsl,clkctrl"
-         0c5800b82101f8332b488db21f8565c1b24b8608 Merge branch 'imx/drivers' into for-next
-         424bfd943161f7456530c3626d3aaf0a145039d8 Merge branch 'imx/soc' into for-next
-         54979cc4f7c15f62752e8191b6b1335e6775a6fe Merge branch 'imx/bindings' into for-next
-         f3840123b7f1ebe2cb761618ef251de39d2eac73 Merge branch 'imx/dt' into for-next
-         8c3c7094bf5b965a6dfc74864838fa4954dcf1c9 Merge branch 'imx/dt64' into for-next
+         9641423174d05da32543e96ced66bb30cebcce16 mtd: spi-nor: add erase die (chip) capability
+         461d0babb54462188c98818b472e6a3d5a91fd60 mtd: spi-nor: spansion: enable die erase for multi die flashes
+         53919a968b43648822f2d35b6cafacd3950238cc mtd: spi-nor: micron-st: enable die erase for multi die flashes
+         06de1257aae787fe3af14d03b9ceb0b9f6af9e1f mtd: spi-nor: remove NO_CHIP_ERASE flag
+         c692ba6de1c5b4dc8cad0ba70281ba4cf9d2fdac mtd: spi-nor: micron-st: Add support for mt25qu01g
          
