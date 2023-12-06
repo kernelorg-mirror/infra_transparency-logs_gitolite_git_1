@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 06 Dec 2023 13:43:04 -0000
-Message-Id: <170187018439.12824.10782604990613035472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 06 Dec 2023 13:43:14 -0000
+Message-Id: <170187019428.12977.1312967481967610196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/dt/linus
-    old: d79972789d17499b6091ded2fc0c6763c501a5ba
-    new: c0a2755aced969e0125fd68ccd95269b28d8913a
-    log: |
-         c0a2755aced969e0125fd68ccd95269b28d8913a dt-bindings: interrupt-controller: Allow #power-domain-cells
-         
+  - ref: refs/tags/asoc-fix-v6.7-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 56eaf99e65c14c69d644af55cf79ef3e10279344
