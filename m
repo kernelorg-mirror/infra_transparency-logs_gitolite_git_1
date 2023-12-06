@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 06 Dec 2023 20:35:14 -0000
-Message-Id: <170189491438.25533.16680484411311395909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Wed, 06 Dec 2023 20:44:30 -0000
+Message-Id: <170189547039.31667.7014436126014121690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/ras/core
-    old: 47b744ea5e3cf855087951a74ba9f89180fa1ba5
-    new: cf0573939d3f4ce822ceb742a8179f38697b1953
+  - ref: refs/heads/md-fixes
+    old: c467e97f079f0019870c314996fae952cc768e82
+    new: f52f5c71f3d4bb0992800139d2f35cf9f6f6e0ee
     log: |
-         cf0573939d3f4ce822ceb742a8179f38697b1953 Documentation: Begin a RAS section
+         f2d87a759f6841a132e845e2fafdad37385ddd30 md: fix missing flush of sync_work
+         c9f7cb5b2bc968adcdc686c197ed108f47fd8eb0 md: don't leave 'MD_RECOVERY_FROZEN' in error path of md_set_readonly()
+         f52f5c71f3d4bb0992800139d2f35cf9f6f6e0ee md: fix stopping sync thread
          
