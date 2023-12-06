@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8378192296390875276=="
+Content-Type: multipart/mixed; boundary="===============8162681999178745245=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Wed, 06 Dec 2023 16:50:34 -0000
-Message-Id: <170188143425.20952.12957465371573899925@gitolite.kernel.org>
+Date: Wed, 06 Dec 2023 16:50:49 -0000
+Message-Id: <170188144900.21137.7700790221860260457@gitolite.kernel.org>
 
---===============8378192296390875276==
+--===============8162681999178745245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,39 +15,57 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
 user: colyli
 changes:
-  - ref: refs/heads/openEuler-1.0-LTS
-    old: 3ed6f98416bb042ea1967f3e9e8388d276e93847
-    new: cc8c90c433ea9d83a3d86b8de3e3215205c84b8b
-    log: revlist-3ed6f98416bb-cc8c90c433ea.txt
+  - ref: refs/heads/openEuler-22.03-LTS
+    old: c2cd749ef8c288248922d7b6f49255d9018e7b3f
+    new: 8d6be4fa1bd7b58a08dbcefb005b566f53e66c91
+    log: revlist-c2cd749ef8c2-8d6be4fa1bd7.txt
 
---===============8378192296390875276==
+--===============8162681999178745245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ed6f98416bb-cc8c90c433ea.txt
+Content-Disposition: attachment; filename=revlist-c2cd749ef8c2-8d6be4fa1bd7.txt
 
-c8c0484fc013ddfdca4a95f901423a3e4e7d2b13 cpufreq: Abort show()/store() for half-initialized policies
-8ce1fbb877893665196e7afab06586927fd879f6 cpufreq: make interface functions and lock holding state clear
-7c1ecabc28d49557653d323fb5e73530e5ba632e crypto: api - Use work queue in crypto_destroy_instance
-917ed04e044e0f06eea85fc2d606290e0b4f117a crypto: fix kabi broken in struct crypto_instance
-4cf0b18c7f5ff90fe395f38030f8df8fbedc6033 hrtimers: Push pending hrtimers away from outgoing CPU earlier
-48725c8f5d6e2457ef00f3bc46b5fb38c9389d50 cpu/hotplug: fix kabi breakage in enum cpuhp_state
-c0dd75240ea9f65610618181ef4bb9460a8f3b09 x86/mce/inject: Fix a wrong assignment of i_mce.status
-39968f97737b72d2421d51d5230645684b1d4a20 x86/mce/amd: Publish the bank pointer only after setup has succeeded
-bc3e8b88e1ce4a8a324750721095d705aa74d524 ipv4: igmp: fix refcnt uaf issue when receiving igmp query packet
-b749177e5f8531a8c3f9ce0b6c49b8e05516cdca !3030  x86/mce/inject: Fix a wrong assignment of i_mce.status
-8cf0ad3261c85e4ca184c4c45fcb373d206190dd !3031  x86/mce/amd: Publish the bank pointer only after setup has succeeded
-61d3ea9dce6fad1a2f6457d4f4140da63ed16144 !3038  ipv4: igmp: fix refcnt uaf issue when receiving igmp query packet
-866a6c2050ec865d552bb0d89a031f3712ec5e1f perf/core: Fix perf_mmap fail when CONFIG_PERF_USE_VMALLOC enabled
-6a02f116f726cfd9b7d2b283e4040d402e69dbdc !3071  perf/core: Fix perf_mmap fail when CONFIG_PERF_USE_VMALLOC enabled
-a350dc6ebe3cd2098d5573286aacdc316f32ec91 !2977  Backport crypto bugfix
-c342722e44c419190632ad94ac39519807fbd91d sched: smart grid: check is active in affinity timer
-bb08feaff9b269b616610ef18016dc27d7c0e2d0 !3118  sched: smart grid: check is active in affinity timer
-45442e923468ae6c5ae30a42d66f8b6d546ae25d !2781  cpufreq: Abort show()/store() for half-initialized policies
-56991af94d6dd411f25c565cdd6bd241ab523b39 mm: don't let userspace spam allocations warnings
-a998cda7208579a7f4665b8b99cda74550bbf7ca !3158  mm: don't let userspace spam allocations warnings
-d98c83e735e83721d3f995fe2bd190cf8aec8d78 regmap: fix NULL deref on lookup
-e19ed41c9aa82e2dd3534eded710a3e6d25fbce7 !3202  regmap: fix NULL deref on lookup
-cc8c90c433ea9d83a3d86b8de3e3215205c84b8b !3021  fix CFS bandwidth vs. hrtimer self deadlock
+998d14ca743cb09f86f5ba2dda8d6ab089d55855 etmem: fix the div 0 problem in swapcache reclaim process
+188dc7599bcc60741fca8b93c6c0fc387b247ea3 arm64/mpam: implement CPU_PM notifier
+fbaebc312cf9fd39e40c5c498ba295a52268f069 block: fold register_disk into device_add_disk
+2d016e0ca43bfe871f0055eff1d312c9c4a1f84d block: call blk_integrity_add earlier in device_add_disk
+c6e4d6d1a3a0c033ec057ad3dffd16381b1a08d4 block: return errors from blk_integrity_add
+ac08a10cde241cf82ba91aa299e0a69b833f6ca0 block: return errors from disk_alloc_events
+62c5af18115e7c82a09eca7361786fd7d60feb6b block: add the events* attributes to disk_attrs
+8fb9434f1e3ffa0a71d25f5a9016ae73b7928718 block: return errors from blk_register_region
+a0259762e3dd22989bf470e5e0562ecc68a6593e block: add error handling for device_add_disk / add_disk
+40a06eb91ba8003221e5ff0989bb9dcf8539aeeb block: fix device_add_disk() kobject_create_and_add() error handling
+2874bafed4cbf1431789293bf030f68f4ba6ff8b block: fix error unwinding in device_add_disk
+1f663b6b4b4fccc1d6dcc6e7a0c78d9a9ea1b6a3 block: Fix the kabi change in device_add_disk
+656e47282a27c8d0eeda37f0b0d0a36cbb9b59f1 block: Fix the kabi change on blk_register_region
+414b9469e35cefe8ae5ba0885f3082775921a920 block: fix memory leak for elevator on add_disk failure
+a70f954158521786eaa3450c0ccde108f684f26a block: check minor range in device_add_disk()
+0129bade6dd13b1ae77f3cd2d446422c5a126925 block: call blk_get_queue earlier in __device_add_disk
+a8adbe043b7a98fe3813fd55a1b2acc6e63ab92b block: clear ->slave_dir when dropping the main slave_dir reference
+3fa79ac404d6a5c45d33a166b8675faf19ffd691 block: Fix minor range check in device_add_disk()
+ffe0955ad7bbbd1228328734776c951970b6e6a8 block: Set memalloc_noio to false in the error path
+5ae698bfbc4eb77c96c2666f51fc93c336fa60d9 net/tls: do not free tls_rec on async operation in bpf_exec_tx_verdict()
+d0d949e1729987516a0f5dcdae99612cd3c85024 !2997 [sync] PR-2902:  net/tls: do not free tls_rec on async operation in bpf_exec_tx_verdict()
+859e0b883c0e41dfa8430830f61b171a8237b1bb fs/dirty_pages: fix inode reference count leakage error in dump_dirtypages_sb()
+40a887737dc9b575ee0a6ea0e2ad086beadfad31 fs/dirty_pages: fix some errors in seq_read_dirty()
+c17d2333b624fec82afa7bb265fa93ec7e3394ca !3075 [sync] PR-3020:  fs/dirty_pages: fix inode reference count leakage error in dump_dirtypages_sb()
+6e3477708c840522a9105435915b3cdc3ec203df !3078 [sync] PR-3022:  fs/dirty_pages: fix some errors in seq_read_dirty()
+2be2e11f1642c8211f9e7492ca6ee28cae56574b fs/dirty_pages: add last read check in seq_read_dirty()
+039fba2ddb5d29eefaf25059a17ce2d7df33fda9 !1394 [sync] PR-1355:  etmem: fix the div 0 problem in swapcache reclaim process
+3e88c820552ae49425da4a29fbb331e38132d5dd !2970  Add error handle for add_disk
+c6770ffdde0bab8869c752160f47e170e9359fe7 scsi: scsi_device_gets returns failure when the module is NULL.
+a9281982b0f6dd91efbeb88ff5037b3c247126ca scsi: don't fail if hostt->module is NULL
+4cad63837c399ef0f66d5b453dbe686d50d742ad scsi: fix kabi broken in struct Scsi_Host
+2ff2495db736e0136e4fa6b63bf3ff991f88ddc8 !3185 [sync] PR-3152:  scsi: scsi_device_gets returns failure
+ac3334619ecbee0dda6b7a3b7e019f4e91e7af51 !3103 [sync] PR-3082:  fs/dirty_pages: add last read check in seq_read_dirty()
+477710a9cec8a4bf1940bcff27f8dfe9008f678f ksmbd: replace usage of found with dedicated list iterator variable
+4a9f809d550d7578cae8f3391cd9d56db759667f ksmbd: fix possible memory leak in smb2_lock()
+e030cc8e48674a9cd9c23440f2c7ce2f8e6abb7d ksmbd: fix typo, syncronous->synchronous
+c4e14d1605a813d78f6e1baf727e4532d8f504de ksmbd: delete asynchronous work from list
+c7fa8262c37033977499ab1576f54c6fa943df29 !3193 [sync] PR-3128:  fix ksmbd to release the ones allocated for async work
+6412f0dc5e5c3fa4916db893d9b38c581a58e638 fs: Fix error checking for d_hash_and_lookup()
+aa9bfcd5531f4e35873ee4329065959f3fa1331a !2956 [sync] PR-1613:  arm64/mpam: implement CPU_PM notifier
+8d6be4fa1bd7b58a08dbcefb005b566f53e66c91 !3229 [sync] PR-3161:  fs: Fix error checking for d_hash_and_lookup()
 
---===============8378192296390875276==--
+--===============8162681999178745245==--
