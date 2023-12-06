@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 06 Dec 2023 11:38:14 -0000
-Message-Id: <170186269493.19082.6333230659017261859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 06 Dec 2023 11:46:13 -0000
+Message-Id: <170186317337.25146.591433972753636599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 6016e40a08fc311ef9be9d1de6fc2bcef166a0ac
-    new: f5a81caf106d46ebf7f8eb2815f2de8c7febcf22
+  - ref: refs/heads/main
+    old: 6b07b5225d87f1ff212be9f95d527a3bb6b99adb
+    new: 3142dbf084cb66080b111673148192906a4c037c
     log: |
-         abccd63d8a32a5164899f4db4dcf1c8dc772e306 add helper functions for implementing -H/--list-columns option
-         0cd21cf68c1f16ab21baa273f507c1a9cf2bb0cb lsfd: use helper functions in column-list-table.h
-         02df3918dd75916df7b68a8d404a2c23f00b7978 lslocks: (fix) set JSON type for COL_SIZE even when --bytes is specified
-         92660b8f0ba092cee457a60bbfc591a68e3aa862 lslocks: (refactor) add a helper function returning JSON type for a given column
-         06bb044c90349f6449a4b06ca3278a46b210deea lslocks: add -H option printing avaiable columns
-         79d78a3312353d55974c1e92293a408a0ac3db9f Merge branch 'list-columns-options' of https://github.com/masatake/util-linux
-         ff578e0a4001ec022f81334b4fb974e58a2ee5fa lslocks: cleanup --list-columns
-         f5a81caf106d46ebf7f8eb2815f2de8c7febcf22 lsfd: cleanup --list-columns
+         714589c2742209cc228991b115e48548fb8d89cf Documentation/tcp: Fix an obvious typo
+         da7dfaa6d6f731c30eca6ffa808b83634d43e26f net/tcp: Consistently align TCP-AO option in the header
+         965c00e4ea2e4df986ecd73c2fe9d3a00a2858db net/tcp: Limit TCP_AO_REPAIR to non-listen sockets
+         12083d728213285c2d4347fa0ed3b556449703ce net/tcp: Don't add key with non-matching VRF on connected sockets
+         9396c4ee93f9ac03cd0cea0bb345fbc657772943 net/tcp: Don't store TCP-AO maclen on reqsk
+         3142dbf084cb66080b111673148192906a4c037c Merge branch 'tcp-ao-fixes'
          
