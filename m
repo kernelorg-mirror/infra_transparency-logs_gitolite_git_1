@@ -1,99 +1,98 @@
-Content-Type: multipart/mixed; boundary="===============3328006302550626456=="
+Content-Type: multipart/mixed; boundary="===============7670096145559815607=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 06 Dec 2023 03:15:30 -0000
-Message-Id: <170183253052.32718.5902058270901545555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Wed, 06 Dec 2023 03:23:13 -0000
+Message-Id: <170183299367.4721.13099450792280212508@gitolite.kernel.org>
 
---===============3328006302550626456==
+--===============7670096145559815607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/for-next
-    old: 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e
-    new: e78e59acfb6972aba9c3da86099760ca662054e7
-    log: revlist-6bae38ddd3a8-e78e59acfb69.txt
+  - ref: refs/heads/imx/bindings
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
+    new: 63ff54dfa832695263e60215c07768adad98f573
+    log: |
+         29b560a4e37ed70d6c233a50ecad84097d50b816 dt-bindings: vendor-prefixes: add rve
+         bb405e8b5336344c02a80d10979e17ff7629541c dt-bindings: arm: fsl: add RVE gateway board
+         37dbc39776db525e1738ed5d67251f30ad5e6f19 dt-bindings: arm: Add compatible for SKOV i.MX8MP RevB board
+         ffce67b61108aaab6061f122b5cffe6c4e59fee2 dt-bindings: arm: fsl: add verdin imx8mm mallow board
+         63ff54dfa832695263e60215c07768adad98f573 dt-bindings: arm: fsl: add verdin imx8mp mallow board
+         
+  - ref: refs/heads/imx/dt
+    old: fb72b877a6c95d1c758e878b521406913362bcae
+    new: 1c122fcd76e3f6924ecd5ce314c74ebe25b28376
+    log: revlist-fb72b877a6c9-1c122fcd76e3.txt
+  - ref: refs/heads/imx/dt64
+    old: ff2dbdf6175408108370b4d2ac6672dd13bf6d85
+    new: c0ac4eb8b8e9d351d3e546ed0b120926ceebdc30
+    log: |
+         b918ab2616115c1ea441e00b054ba8d1bb912ac8 arm64: dts: imx8mm: Simplify mipi_dsi clocks
+         5b28b39dda772e7acc52f02c907aa5497c93e280 arm64: dts: imx8mm: Remove video_pll1 clock rate from clk node
+         a0deedcc0cf0631c7856c16109ee6f08845956c0 arm64: dts: imx8mm: Slow default video_pll1 clock rate
+         e3873abfe0f7f65bff320ca9d97fe6a7410746f7 arm64: dts: imx8mm-venice-gw7: Adjust PCI Ethernet nodes
+         eb9348865fabe4e0bc0b0453813dba8ecbfd9deb arm64: dts: freescale: verdin-imx8mm: add support to mallow board
+         12f2486ebe70098944444057f7b5b592fe325870 arm64: dts: freescale: verdin-imx8mp: add support to mallow board
+         c0ac4eb8b8e9d351d3e546ed0b120926ceebdc30 arm64: dts: imx8mq-phanbell: make dts use gpio-fan matrix instead of array
+         
+  - ref: refs/heads/imx/fixes
+    old: 6552218f4dc47ba3c6c5b58cc1e9eb208a2b438b
+    new: d9983bc728e7f2a8d6877fac281a73655a929f4c
+    log: revlist-6552218f4dc4-d9983bc728e7.txt
+  - ref: refs/heads/imx/soc
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
+    new: c8705471b94d0d869e2e3ac80c0d960f0215474f
+    log: |
+         d99cfab43cbd5206ac3eb79fec0fda817dd8f536 ARM: imx: Use device_get_match_data()
+         c8705471b94d0d869e2e3ac80c0d960f0215474f ARM: mxs: Do not search for "fsl,clkctrl"
+         
 
---===============3328006302550626456==
+--===============7670096145559815607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-fb72b877a6c9-1c122fcd76e3.txt
 
-certificate version 0.1
-pusher 75C5DE3D 1701832529 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1701832528-a2902ebb00ea5ff8f8b15730ff59338f96d35412
+b76bbf835d8945080b22b52fc1e6f41cde06865d ARM: dts: imx6q-apalis: add can power-up delay on ixora board
+c9d4affbe60a9597ca9df878b5c02bdb9a636e3c ARM: dts: imx: tqma7: add lm75a sensor (rev. 01xxx)
+32596b101f6cd87ab1f6e6a1c2a44c70546dde48 ARM: dts: nxp: imx7d-pico: add cpu-supply nodes
+cdb7389abe3065be80e70e8112afb1f625e7a770 ARM: dts: imx6qdl-apalis: Add usdhc aliases
+265f56542a936fa2edac21ee2cd45f0d331707a6 ARM: dts: imx6qdl-colibri: Add usdhc aliases
+d53314dd068e782ba0fa808405026f37dbedeb1e ARM: dts: imx7d-colibri-emmc: Add usdhc aliases
+60ae7e9e91641de9d517c4c09f4b87d71afce6f6 ARM: dts: nxp: minor whitespace cleanup around '='
+0b6b2650b7c6c718421b393984054c61c3f50930 ARM: dts: nxp: Fix some common switch mistakes
+edbbae7fba495284f72f05768696572691231558 ARM: dts: imx7: add MIPI-DSI support
+3a306eacda02e87fc4582947f1c0b81de5c35cb7 ARM: dts: imx7s: Add on-chip memory
+620360bf7dbfe3c61bdbf3a88535a0030ff787b5 ARM: dts: imx28-tx28: Pass #sound-dai-cells
+844542b0fcec8f4db4a714fab96d4d99a1122ed7 ARM: dts: imx23/28: Remove unneeded "fsl,mxs-gpio"
+287e256c1a6e2b92da938efc87a34e3c008d8319 ARM: dts: imx28-lwe: Pass device_type to the memory node
+7a8f0c8a1000fb0c7286fbf8aa41fa9c72af5247 ARM: dts: imx28-xea: Pass the 'model' property
+1c122fcd76e3f6924ecd5ce314c74ebe25b28376 ARM: dts: imx23/28: Remove undocumented "fsl,clkctrl"
 
-6bae38ddd3a8dffbc35d6c637f58c3710f65d54e e78e59acfb6972aba9c3da86099760ca662054e7 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVv51EACgkQ7ulgGnXF
-3j2hcg//eLdG76j+4zyL2vE7SgyHJAU/UR0FpXCnCs6KPXplWHGrBvsibCjPJ0VV
-bJ/9lrfc+rSLqlXXZ13HzBh2hYg4DpvM9zQxsNbAAbG5IXe5zbDU7fZnt3ITZBAm
-VJ4Iep1capAhSTfk/UG3T5sr73irmCfh+nAy5MoegUUCJQkijHeeeHPt0XkoI3mp
-wJhizTU0uL8cIKRdsMNWIrsCtDaLicD0Ibm5qfbTL1Ay8L4yHiNlBfvbxipAVIZL
-dYpcz5gkSDxT97g9MW8yDS5xIay8yUffVMYDguOEYSvLWipyeg0wzPHRqmzFiQ91
-yAkOToU/VG7t+4FB2n2coSxE5GB9I7GjnpGAcn05X5plHEmrxs8Xig6w6bnUQptw
-2G7hB9B9rk8QKAEyadcN0Wtl/kgjy2dE8nxeN/33yb7kOtxg42fPx2dZ+YtCxj42
-brjTM55S+W5XCMPi2F+XDrie8JAOnlT+WkJqDiHl/EnHuREvLPjyq5VFkXslD7Ho
-S0qB+QGFv6KdJwjY+8kRy8iIvk+Ubo5Iv11JlhvtQUiVjYVOyAkza9OADxJu5ijs
-+okqumsRM1cTPGblBuU0QOwocfjg1tJtzJsmaVfIpvZzoes0gAY1Gc7F6Tc9KLFa
-wiJnwjKWkCF8Yhqbb070cRO3Sri3uroS54ZrAWQB9Ii2PFMid3Y=
-=0S95
------END PGP SIGNATURE-----
-
---===============3328006302550626456==
+--===============7670096145559815607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6bae38ddd3a8-e78e59acfb69.txt
+Content-Disposition: attachment; filename=revlist-6552218f4dc4-d9983bc728e7.txt
 
-af85d689ae08860e4f9648f05e09f1de868091f4 scsi: ufs: dt-bindings: Add msi-parent for UFS MCQ
-f5f27a332a14f43463aa0075efa3a0c662c0f4a8 scsi: fnic: Return error if vmalloc() failed
-28c58f8a0947f70ddee275b90fe45431146bb2cc scsi: target: Enable READ CAPACITY for PR EARO
-0d224b1088afef95f7069b7ca907cb199a5802ff scsi: zfcp: Replace strlcpy() with strscpy()
-a9baa16b4fc11d07953b65298b05d5ee707f093a scsi: ibmvfc: Replace deprecated strncpy() with strscpy()
-712b3f43ba0e5f86db69cf601ffb06085c606642 scsi: ibmvscsi: Replace deprecated strncpy() with strscpy()
-84e46978b91f387d5d153f7f76ddc87471f4a52c scsi: ipr: Remove obsolete check for old CPUs
-25cba909ade2a24f7356dc547dc417042bcef722 scsi: isci: Remove redundant check in isci_task_request_build()
-573eb4a3410a9d4e0612cca50e2c67a46c3824f0 scsi: aic7xxx: Return negative error codes in ahc_linux_register_host()
-70dfaf84ec777c0590316a8785df22ca5e97bf10 scsi: aic7xxx: Return ahc_linux_register_host()'s value rather than zero
-aef6ac123609c4365f0270ec689ef215d13c3061 scsi: aic7xxx: Return negative error codes in aic7770_probe()
-b57c4db5d23b9df0118a25e2441c9288edd73710 scsi: libfc: Don't schedule abort twice
-53122a49f49796beb2c4a1bb702303b66347e29f scsi: libfc: Fix up timeout error in fc_fcp_rec_error()
-be40572c22cc734f5836b4faec8a60340dc7ab67 scsi: libfc: Map FC_TIMED_OUT to DID_TIME_OUT
-f200dad9f34d21a168d5e1286db2f96bfef5644d Merge patch series "libfc: fixup command abort handling"
-e5aab848dfdf7996d20ece4d28d2733c732c5e5a scsi: mpi3mr: Refresh sdev queue depth after controller reset
-c01d515687e358b22aa8414d6dac60d7defa6eb9 scsi: mpi3mr: Clean up block devices post controller reset
-f8fb3f39148e8010479e4b2003ba4728818ec661 scsi: mpi3mr: Block PEL Enable Command on Controller Reset and Unrecoverable State
-07ac6adda4d3daa9410d716e96ffaa3192b6ac04 scsi: mpi3mr: Fetch correct device dev handle for status reply descriptor
-c432e167523939e64ff882c86cdbf28e279a56ab scsi: mpi3mr: Support for preallocation of SGL BSG data buffers part-1
-fb231d7deffb41fd445929a3b79815277b883fec scsi: mpi3mr: Support for preallocation of SGL BSG data buffers part-2
-9536af615dc9ded0357341e8bd0efc8b34b2b484 scsi: mpi3mr: Support for preallocation of SGL BSG data buffers part-3
-d0a60e3edaa4a12e52fe8ea1d8b125f0405934cf scsi: mpi3mr: Update driver version to 8.5.1.0.0
-e84d34372eb6c7d33d1f39267c2f91102654959c Merge branch '6.8/s/mpi3mr2' into 6.8/scsi-staging
-5854cdd04163ea7aa454b619708f710cef9e04e8 scsi: a3000: Convert to platform remove callback returning void
-688bbe398ca63bace6b8fb40b9dbc605c5add034 scsi: a4000t: Convert to platform remove callback returning void
-3becb4cdf1c1250b880d04f00506f185b614c5af scsi: atari: Convert to platform remove callback returning void
-51a41ec6d36e586e978785709d33b22cc8ee455c scsi: bvme6000: Convert to platform remove callback returning void
-c71ef3d1fb39ee4503b5d3f5e358c6588c071520 scsi: jazz_esp: Convert to platform remove callback returning void
-0b649224f712cdfb90c8e9c22929dcb55868fc8f scsi: mac_esp: Convert to platform remove callback returning void
-69b43bf38b11cf361a1372281aa0ffe0c5cb2d32 scsi: mac: Convert to platform remove callback returning void
-f0baf76a22049d55a4901c1a933e479c638af94c scsi: mvme16x: Convert to platform remove callback returning void
-e26eec9a4d25752404b35e7700f84834002ee75e scsi: qlogicpti: Convert to platform remove callback returning void
-358987af1bda5c0b6a9aacc0644a108e711266b6 scsi: sgiwd93: Convert to platform remove callback returning void
-357a7fd2434e857bc3911cfbb02285f8b25e8d24 scsi: sni_53c710: Convert to platform remove callback returning void
-15b016b2d023e4ba3603daa21aa346033c486930 scsi: sun3: Convert to platform remove callback returning void
-e84bd0bb30689023410f3cd5090c8ed11937096f scsi: sun3x_esp: Convert to platform remove callback returning void
-6ff482eeebe57ee7becee66f7de4b864dcc4175d scsi: sun_esp: Convert to platform remove callback returning void
-e78e59acfb6972aba9c3da86099760ca662054e7 Merge patch series "scsi: Convert to platform remove callback returning" void
+209043cf092d7b0d4739921b3f11d6d0b451eabf arm64: dts: imx8mp: imx8mq: Add parkmode-disable-ss-quirk on DWC3
+d951f8f5f23a9417b7952f22b33784c73caa1ebb ARM: dts: imx6ul-pico: Describe the Ethernet PHY clock
+4c6f19ab2aed2abc78d788d5418047e5f44b1921 dt-bindings: pwm: imx-pwm: Unify #pwm-cells for all compatibles
+50f8906b310e92694e1d4dc5d87d2fbe130058f6 arm64: dts: freescale: imx8-ss-lsio: Fix #pwm-cells
+30b2a555d911c99219c8566fee8e6d82fd391e2f arm64: dts: freescale: imx8-ss-dma: Fix #pwm-cells
+b2e3efe6ac6a65f33cd350d4d74307d9bad1d90e arm64: dts: imx8qm: Add imx8qm's own pm to avoid panic during startup
+031bd48b47c053f9a95aab2657812a2c92aea93e arm64: dts: imx93: correct mediamix power
+be0c33216959183637aaf3af86f3cb7af717ad0c arm64: dts: imx93: update gpio node name to align with register address
+7da9aa884ff1476659dfa0b866f26763e36af736 arm64: dts: imx8ulp: update gpio node name to align with register address
+9aa44874cf4926e8788ef73da08a5a829f2e9aff ARM: imx: Check return value of devm_kasprintf in imx_mmdc_perf_init
+7a973d20ac10140c23932b060a7e061bc3444889 arm64: dts: imx8-apalis: set wifi regulator to always-on
+55f1dce0a7398968ddfe5077d6eeb9d997d944f3 MAINTAINERS: reinstate freescale ARM64 DT directory in i.MX entry
+d9983bc728e7f2a8d6877fac281a73655a929f4c ARM: dts: imx7: Declare timers compatible with fsl,imx6dl-gpt
 
---===============3328006302550626456==--
+--===============7670096145559815607==--
