@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3135314421483100483=="
+Content-Type: multipart/mixed; boundary="===============5099352933194864447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 06 Dec 2023 03:57:00 -0000
-Message-Id: <170183502067.29563.17235051652885797040@gitolite.kernel.org>
+Date: Wed, 06 Dec 2023 03:57:16 -0000
+Message-Id: <170183503606.29755.14680432326941534858@gitolite.kernel.org>
 
---===============3135314421483100483==
+--===============5099352933194864447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 6a965ee1892a7a44f6d8f4a0b9fb5f775a8b4ccb
-    new: 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e
-    log: revlist-6a965ee1892a-6bae38ddd3a8.txt
+  - ref: refs/heads/for-next
+    old: d85d85eab615b51563dfdd8a4e6202937326b44e
+    new: 45d0d7374dce8b2a04244725f7b90a2a397599e0
+    log: revlist-d85d85eab615-45d0d7374dce.txt
 
---===============3135314421483100483==
+--===============5099352933194864447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a965ee1892a-6bae38ddd3a8.txt
+Content-Disposition: attachment; filename=revlist-d85d85eab615-45d0d7374dce.txt
 
 edbc78a1b74c3d31dabaf3280bcee0356e744ca9 scsi: ufs: mediatek: Change the maintainer for MediaTek UFS hooks
 045da3077bc57e587d0ab4cfc8945b76af03d72d scsi: ufs: core: Make fault injection dynamically configurable per HBA
@@ -42,5 +42,8 @@ f38d4eda25e29f4690545200f79bee202cc05626 scsi: dc395x: Fix warning using plain i
 41c8a1a1e90fa4721f856bf3cf71211fd16d6434 scsi: arcmsr: Support new PCI device IDs 1883 and 1886
 56610811cccd04c94c9d347f271cdff63c9dc19d scsi: arcmsr: Update driver version to v1.51.00.14-20230915
 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e Merge patch series "scsi: arcmsr: support Areca ARC-1688 Raid controller"
+235f2b548d7f4ac5931d834f05d3f7f5166a2e72 scsi: be2iscsi: Fix a memleak in beiscsi_init_wrb_handle()
+f4d0a0a4600d1fe66124cabf54abba3855312dfc Merge branch 'fixes' into for-next
+45d0d7374dce8b2a04244725f7b90a2a397599e0 Merge branch 'misc' into for-next
 
---===============3135314421483100483==--
+--===============5099352933194864447==--
