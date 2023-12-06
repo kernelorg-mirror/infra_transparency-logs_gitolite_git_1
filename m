@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1659470031991642601=="
+Content-Type: multipart/mixed; boundary="===============1570807612452716031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dgc/linux-xfs
-Date: Wed, 06 Dec 2023 05:47:06 -0000
-Message-Id: <170184162615.12815.14286291431308362951@gitolite.kernel.org>
+Date: Wed, 06 Dec 2023 05:47:26 -0000
+Message-Id: <170184164672.12984.16769539284348659686@gitolite.kernel.org>
 
---===============1659470031991642601==
+--===============1570807612452716031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dgc/linux-xfs
 user: dgc
 changes:
-  - ref: refs/heads/master
-    old: 42dc814987c1feb6410904e58cfd4c36c4146150
-    new: 33cc938e65a98f1d29d0a18403dbbee050dcad9a
-    log: revlist-42dc814987c1-33cc938e65a9.txt
+  - ref: refs/heads/vfs-scale
+    old: e58d5fb847235bd9f1eb2c7adb8d6eb09cd56e30
+    new: 5e5e95a86ea3aa15d83654ec3752451959a689e6
+    log: revlist-e58d5fb84723-5e5e95a86ea3.txt
 
---===============1659470031991642601==
+--===============1570807612452716031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42dc814987c1-33cc938e65a9.txt
+Content-Disposition: attachment; filename=revlist-e58d5fb84723-5e5e95a86ea3.txt
 
-21eb2bfe2748b238f06983e4308cb30611371605 LoongArch: Disable module from accessing external data directly
-71945968d8b128c955204baa33ec03bdd91bdc26 LoongArch: Mark __percpu functions as always inline
-affef66b65889a0ea0060e13e5f7fe569897d787 LoongArch: Relax memory ordering for atomic operations
-a2ccf46333d7b2cf9658f0d82ac74097c1542fae LoongArch/smp: Call rcutree_report_cpu_starting() earlier
-add28024405ed600afaa02749989d4fd119f9057 LoongArch: Add more instruction opcodes and emit_* helpers
-7111afe8fb5f15e11b8eff90d7aed1c58e3b1167 LoongArch: BPF: Support sign-extension load instructions
-f48012f161508c743e1b39c3521a2b285d19c6aa LoongArch: BPF: Support sign-extension mov instructions
-4ebf9216e7dff0b38e350007da3b03afb15c816b LoongArch: BPF: Support unconditional bswap instructions
-9ddd2b8d1a8b566195c196fe4249d04cd75cc73c LoongArch: BPF: Support 32-bit offset jmp instructions
-2425c9e002d2a1fdca34261b2fa6713eafef2163 LoongArch: BPF: Support signed div instructions
-7b6b13d32965ad7f1eb889d1a7058868a88eb29f LoongArch: BPF: Support signed mod instructions
 1d375d65466e5c8d7a9406826d80d475a22e8c6d selftests/bpf: Enable cpu v4 tests for LoongArch
 f0d9da19d7de9e845e7a93a901c4b9658df6b492 ALSA: hda/realtek: Add support dual speaker for Dell
 ba15a14399c262f91ce30c19fcbdc952262dd1be i2c: iproc: handle invalid slave state
@@ -1050,5 +1039,16 @@ deb4b9dd3b539c8331bbc0d64dff3b4fb57296ef Merge tag 'for-linus-6.7a-rc4-tag' of g
 55abae438c3cf39f66c3e0cb922c3d915363afb5 Merge tag 'firewire-fixes-6.7-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 968f35f4ab1c0966ceb39af3c89f2e24afedf878 Merge tag 'v6.7-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 33cc938e65a98f1d29d0a18403dbbee050dcad9a Linux 6.7-rc4
+e110421085e9f39f401af6f6cbf40816751f18b2 lib/dlock-list: Distributed and lock-protected lists
+7f63f4728e416b7216bf402e3a95665fc2124373 vfs: Remove unnecessary list_for_each_entry_safe() variants
+ea94a95ecd15cbc4da0b927dfdc32d685d667673 vfs: Use dlock list for superblock's inode list
+7a215da6235ea23015452201ae78f1664c27ab8a lib/dlock-list: Make sibling CPUs share the same linked list
+c2c9e84d3966a0c808363bdf995a3707e9dc1bc4 selinux: use dlist for isec inode list
+f7e2b3c4e4cdc87c866f3066273d562c6a08a8d6 vfs: factor out inode hash head calculation
+3b6566db8b7c34193c0bf6976892c14513d64a4f hlist-bl: add hlist_bl_fake()
+7f8d2ed2895bd60a5bd3e3a4388ecff5182b65a2 vfs: inode cache conversion to hash-bl
+9ee78b31aa5c3ce029afba29a986863522953cb0 hash-bl: explicitly initialise hash-bl heads
+616588959db12f1e1184d068cab4ada71dcb60a6 list_bl: don't use bit locks for PREEMPT_RT or lockdep
+5e5e95a86ea3aa15d83654ec3752451959a689e6 hlist-bl: introduced nested locking for dm-snap
 
---===============1659470031991642601==--
+--===============1570807612452716031==--
