@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2384829502379081926=="
+Content-Type: multipart/mixed; boundary="===============1501466063712037561=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 06 Dec 2023 03:14:40 -0000
-Message-Id: <170183248062.30242.5184153800679981519@gitolite.kernel.org>
+Date: Wed, 06 Dec 2023 03:14:44 -0000
+Message-Id: <170183248494.30367.279832966215338170@gitolite.kernel.org>
 
---===============2384829502379081926==
+--===============1501466063712037561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 1251ed8f6120e2564aac191f85a4426b159545cc
-    new: 18d252f55ea2f57c87841a2f63bc0fa86f748d90
-    log: revlist-1251ed8f6120-18d252f55ea2.txt
+  - ref: refs/heads/6.8/scsi-queue
+    old: 6a965ee1892a7a44f6d8f4a0b9fb5f775a8b4ccb
+    new: 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e
+    log: revlist-6a965ee1892a-6bae38ddd3a8.txt
 
---===============2384829502379081926==
+--===============1501466063712037561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1701832469 -0500
+pusher 75C5DE3D 1701832483 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1701832469-983b708f9635b379363b88551e163e61e59cbaed
+nonce 1701832483-c342b691679e57270c1f769a0c8e8f88f8d23600
 
-1251ed8f6120e2564aac191f85a4426b159545cc 18d252f55ea2f57c87841a2f63bc0fa86f748d90 refs/tags/mkp-scsi-queue
+6a965ee1892a7a44f6d8f4a0b9fb5f775a8b4ccb 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e refs/heads/6.8/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVv5xUACgkQ7ulgGnXF
-3j3lCBAAqtlcdH5VdyvpzLY5XuEINLYICyBIxe9FsVBO588gVNdoj6CrGmdViG5K
-Ck+P1eXtETmSwZ7TpueiyCUWMvr1nZlNOnjFV4ThMyGti2ofGwKR8nHUUVBBCC6A
-1FQyNZeTB87jmvaCt8tPKxYWmCfzkixT9Z3P+ThI5QnD9iiHFD5s/1iJliNOfeqG
-cccvyweUBdswyf6/kAOynoDpM2ME40RUrgjBRuicJeiu7fCt0Tb3A0s5NUI8Z2W0
-lhrxRyTAI8TVRrsXeLQMce816Unc2CekC5ZjSy/qPLNH6F3lTwUGT9AtBQVvA+ZE
-B7cBKrWNq1Ceq5xXNcmDiuwl1IZtXwws5cUr9ZGtOnW5o6gxt5lTyyt6h0998W0i
-IejuWDMLQY0YPKGWjy3kHcURGzpNrO+4P/uQ2e/Vrxs9Mmio2516+waMzpvvSUEf
-RP1RrlOnfIy46BRrCTEGbNlLpQq9UqnRSQgpTNYUJn2aSwnxWmlkqw4wWAXAUS3E
-e4+LjaqgxaX/5YMI4Dg0KBTZ75nPY/CyIBxy/kfDUtGSEYN+9JKPvKedLUemk+y0
-iEXhZLdWuW2M2DhP3fKXGwo8YlRs7Yk7t7CsVeMJdBCKhSL17PNa4LsH841iQfdT
-SLw1xdfM+kbSRHz3TVje989CIQCbhcDvz+YajCErFDT1trE34/Y=
-=6QVO
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVv5yMACgkQ7ulgGnXF
+3j3wJRAAsuDtvUc+TL6hE8El23ovE9iKd7L4Opbh/H7mRuPvhHp/Rs80lsn95Goy
+xFCYJk1ds7qJ2kqP8KIz1qAqRLqeXDeLoW01z5hp3fY1eDL5if/NlOxb9gOR1Auo
+ZZiEkphxYAnCGUQQ6t0ziTX5CYKG567DfqSj2P/y1+bEb+bMk5SN8XcM1Veay+Y1
+6qprXdrx+8xjRD2kBkFQ6DzOtbPj2KIJpleirM+245Jnm+mTcCwBnIfMliDJcQP5
+GE6cIGxruhxkuygaLuwnUaHiqPYWgmaCey6fTfLmIekTw5f8EqQwi1KvsLvcZKVJ
+YPJnsXjBQJp14ekfFdVDfQnM9DmOOwX/ABBXyCYl7MvJ66IgppIFsmxK/OFOu9NL
+NBcp1HHMsdfVdV4eldgI3adOtlNjCHwFk4pxXeV07t0/xub6t0pXxNpx0pvaF7Wu
+FM82WpXUdjTLIiIZTvmCuccZ90mdHltuHFft+e+LH4k9w15z/Fna9rOq+N07hHN6
+inuwskFMnSIrjSQXUGykkwYvt8Ijy5n7WN7WL46OCuE8/rJhQnqj7UaFqJO749wZ
+k0AFJJMg3fCQbrOQiIEEo5RF5l9ue8yMH2f+wss8dB+r/KwxTEQpW6sih6CPtGwU
+95AZZol7mMRE0AXKQZilbhE3FB75tbvIJWYxXfP2Qu+qmdlebf8=
+=N5pm
 -----END PGP SIGNATURE-----
 
---===============2384829502379081926==
+--===============1501466063712037561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1251ed8f6120-18d252f55ea2.txt
+Content-Disposition: attachment; filename=revlist-6a965ee1892a-6bae38ddd3a8.txt
 
 edbc78a1b74c3d31dabaf3280bcee0356e744ca9 scsi: ufs: mediatek: Change the maintainer for MediaTek UFS hooks
 045da3077bc57e587d0ab4cfc8945b76af03d72d scsi: ufs: core: Make fault injection dynamically configurable per HBA
@@ -73,4 +73,4 @@ f38d4eda25e29f4690545200f79bee202cc05626 scsi: dc395x: Fix warning using plain i
 56610811cccd04c94c9d347f271cdff63c9dc19d scsi: arcmsr: Update driver version to v1.51.00.14-20230915
 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e Merge patch series "scsi: arcmsr: support Areca ARC-1688 Raid controller"
 
---===============2384829502379081926==--
+--===============1501466063712037561==--
