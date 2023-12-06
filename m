@@ -1,45 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============1488533648047761881=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Wed, 06 Dec 2023 05:24:57 -0000
-Message-Id: <170184029786.28127.1033347598310782563@gitolite.kernel.org>
-
---===============1488533648047761881==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Wed, 06 Dec 2023 05:40:51 -0000
+Message-Id: <170184125138.8937.10824562718016941739@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/for-next
-    old: f37559d333f9b01cf5e4d9e3885518c198b546f1
-    new: 69f0e9934caffaa2f73a1fd63233fb351e8e9405
-    log: revlist-f37559d333f9-69f0e9934caf.txt
-
---===============1488533648047761881==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f37559d333f9-69f0e9934caf.txt
-
-d863a2f4f47560d71447650822857fc3d2aea715 arm64: dts: freescale: imx8-ss-lsio: Fix #pwm-cells
-7cef7c0b1dea1e17c7913826b74403f4ab7edeb9 arm64: dts: freescale: imx8-ss-dma: Fix #pwm-cells
-b37e75bddc35d4a40a4caeb9921cb95c33c3eba9 arm64: dts: imx8qm: Add imx8qm's own pm to avoid panic during startup
-d4cb68a5d3a1ed30ecaf1591eb901523faa13496 arm64: dts: imx93: correct mediamix power
-4af1b258b68c5c948601082d5ce858ba31eb64f4 arm64: dts: imx93: update gpio node name to align with register address
-8ae06f1366390972fdcce0f0cee3cac0f63b3209 arm64: dts: imx8ulp: update gpio node name to align with register address
-1c2b1049af3f86545fcc5fae0fc725fb64b3a09e ARM: imx: Check return value of devm_kasprintf in imx_mmdc_perf_init
-04179605ab604dba32571a05cd06423afc9eca19 arm64: dts: imx8-apalis: set wifi regulator to always-on
-15a1c7f3e8d9c16e65644b83ad96895164fb2988 MAINTAINERS: reinstate freescale ARM64 DT directory in i.MX entry
-397caf68e2d36532054cb14ae8995537f27f8b61 ARM: dts: imx7: Declare timers compatible with fsl,imx6dl-gpt
-37df1acde2614a7f746d13d0b859b4027b62d4d1 Merge branch 'imx/drivers' into for-next
-8e55fd4532c553679da1776c32542e4b4ac916be Merge branch 'imx/soc' into for-next
-f0af12f8fb85114d2808076213f43b8d568ec075 Merge branch 'imx/bindings' into for-next
-abb9a0cf67421f30910e0b3a73168493d51bbbe4 Merge branch 'imx/dt' into for-next
-69f0e9934caffaa2f73a1fd63233fb351e8e9405 Merge branch 'imx/dt64' into for-next
-
---===============1488533648047761881==--
+  - ref: refs/heads/carved-up-__dentry_kill
+    old: 5a9ad141aff3b32ad0fe8b52b9824025a908be8d
+    new: 2d2c61645e1961d7a5a6a5d306087d8b4f7e0e5b
+    log: |
+         854e9f938aafe9aa64a1c6bbe7af4a5e70d067b1 step 4.5: call __dentry_kill() without holding a lock on parent
+         e2797564725a5c4e836521678191c31967766eba step 5: clean lock_for_kill()
+         b72a905ce680b6b8912273bb545a1b3ddeeed685 step 6: partial unroll of the loop in dput()
+         40cdc9b2b5c296b10115dbcfe24eda92520cd322 step 7: drop may_sleep() after __dentry_kill() in dput()
+         157e542213d46fd3a6dfcb05d7317b90145c257b step 8: don't bother with unlock+fast_dput in the loop in dput()
+         2d2c61645e1961d7a5a6a5d306087d8b4f7e0e5b step 9: fold decrment of parent's refcount into __dentry_kill()
+         
