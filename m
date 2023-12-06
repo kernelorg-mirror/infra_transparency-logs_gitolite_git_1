@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 06 Dec 2023 18:36:37 -0000
-Message-Id: <170188779794.2349.4511710715365461006@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 06 Dec 2023 18:50:38 -0000
+Message-Id: <170188863811.13327.15686909088247856369@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/net-next-5.18
-    old: 88170b8835563f0de84c69afb84aa9e945e05d55
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/kvm-arm64/vgic-fixes-6.7
+    old: 0000000000000000000000000000000000000000
+    new: 77e3ed9d41aa4676e733af98cc74cd2daecac2e0
