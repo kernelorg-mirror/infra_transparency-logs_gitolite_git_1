@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 06 Dec 2023 07:21:29 -0000
-Message-Id: <170184728946.15221.13824501125484380640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
+Date: Wed, 06 Dec 2023 07:22:14 -0000
+Message-Id: <170184733483.15551.17159850373420301834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/joel/bmc
+user: joel
 changes:
-  - ref: refs/heads/for-linus
-    old: 6f7e4664e597440dfbdb8b2931c561b717030d07
-    new: 2b3a7a302c9804e463f2ea5b54dc3a6ad106a344
+  - ref: refs/heads/for-next
+    old: e9be9b34b841d2b1691c285ef0e85232734e28b2
+    new: ecab6c95f79bb6143090d0d48ee26501f28e0a59
     log: |
-         2b3a7a302c9804e463f2ea5b54dc3a6ad106a344 ALSA: pcm: fix out-of-bounds in snd_pcm_state_names
-         
-  - ref: refs/heads/master
-    old: dd1333a73fe9ad377eec76796971038370def57f
-    new: 099c675dc15c3b90b949ca261576b21916c843c8
-    log: |
-         2b3a7a302c9804e463f2ea5b54dc3a6ad106a344 ALSA: pcm: fix out-of-bounds in snd_pcm_state_names
-         099c675dc15c3b90b949ca261576b21916c843c8 Merge branch 'for-linus'
+         96c4f072b2ed4beaed7b001c9eb1a4d997ff3a22 dt-bindings: arm: aspeed: document ASRock SPC621D8HM3
+         2e09eb0615f012fb0d967e864d18b121b8ed2ae4 ARM: dts: aspeed: Add ASRock SPC621D8HM3 BMC
+         01bb8d5bf1ab1bd847a277f546e5f9af2c6933e1 dt-bindings: arm: aspeed: document ASRock E3C256D4I
+         f957714c0f5353b151639654a62680d27cf53e44 ARM: dts: aspeed: Add ASRock E3C256D4I BMC
+         eadd52a6233d4e50391eb68a7a77c24a8c262313 dt-bindings: arm: aspeed: add Asrock X570D4U board
+         ecab6c95f79bb6143090d0d48ee26501f28e0a59 ARM: dts: aspeed: asrock: Add ASRock X570D4U BMC
          
