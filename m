@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2700521513171238042=="
+Content-Type: multipart/mixed; boundary="===============6669805603949176973=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 06 Dec 2023 03:37:54 -0000
-Message-Id: <170183387412.15971.416727624812325089@gitolite.kernel.org>
+Date: Wed, 06 Dec 2023 03:40:12 -0000
+Message-Id: <170183401256.18406.15854197325395208518@gitolite.kernel.org>
 
---===============2700521513171238042==
+--===============6669805603949176973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 5e4c8814a431d21bfaf20b464134f40f2f81e152
-    new: 855d75cf8311fee156fabb5639bb53757ca83dd4
+    old: 855d75cf8311fee156fabb5639bb53757ca83dd4
+    new: 522c35e08b53f157ad3e51848caa861b258001e4
     log: |
-         6666ea93d2c422ebeb8039d11e642552da682070 usb: hub: Replace hardcoded quirk value with BIT() macro
-         855d75cf8311fee156fabb5639bb53757ca83dd4 usb: hub: Add quirk to decrease IN-ep poll interval for Microchip USB491x hub
+         b3f8e6ae30bd7ade3a96c9beb2a17167d55492a5 dt-bindings: usb: xhci: Add support for BCM2711
+         95e71986fc1b9a2e1de30bca8e7a5fab12817cdd usb: xhci: xhci-plat: Add support for BCM2711
+         522c35e08b53f157ad3e51848caa861b258001e4 ARM: dts: bcm2711: Add BCM2711 xHCI support
          
 
---===============2700521513171238042==
+--===============6669805603949176973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701833867 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701834011 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1701833867-761e5b45674dc30ba54a2b5e6cfb8da316825f15
+nonce 1701834011-badb1bc4ac4a43747a25be49c46d971a4d30ae20
 
-5e4c8814a431d21bfaf20b464134f40f2f81e152 855d75cf8311fee156fabb5639bb53757ca83dd4 refs/heads/usb-testing
+855d75cf8311fee156fabb5639bb53757ca83dd4 522c35e08b53f157ad3e51848caa861b258001e4 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVv7IsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ySUP/ihOXhpqQG4dWhRjpPdc
-jvbiML6nNYtLH/gWwc47UnD3/7nqxANqIpM61de+TDyFLTdde2uI1cFTeiTzRdW9
-jNQwlAsX2wy6Dfk7KXEZnm63jleH7WlufZIp2viMAkFZ1TkVFc4bgmLXaQueVYT2
-y8Gp34CrvUL9LwkNKvDTztDLsaPQpk0KAsGh7kRZPGea6x54pMBi3nFzveYfc+/R
-zwOvI7PA9MhTGo7y8BNaZL/Mi0cn8k1xJcPl0MT9l9TrJh5Y33Y7lHmNueWeRp5t
-3ojdRri4I7YCVZGFYMgBfvdIzW+RcbXHiReWvOwySH9g+RhBP9BZdWcpOvVG2GqS
-4GI5vxhlJIXn/mlSrbmIAd9aYKHp6UIPNB0PqcbRjd/rMBZiiTTUOHLWGfsVmORV
-ZtCf/5u/Zgi+OUA1aBatNb3UMpLDIIL+bgOY1UQ5MEm+uO+7f/VpEfeqAK8a60Cs
-6UUGA/leEMLFt0pBLXCLJ4rK8P+wTlLJz868mDzOPCdjZM0senNrnRPymXqs74K9
-3EbNUaLwzXwn/9Yj41fhkMXnsUz1U6LSCXzL6DBfMTohtDWh+hSju1hHIJMTtpC5
-YI193lTkBpdnTB8MZ9IiztkicNE0xhoaTzEhZX4Wj1U0fL/SShw8EYagxqC86JFB
-RpilGQBxAoMrsoK5h7lS/fVZ
-=MDvM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVv7RsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nUwQAMbrdK3LBsL9jFeeveFZ
+imgNzEVzqX8DgeRq2EEDScgVgmLvEM0dFqR2eAeekKiJ6BSg2P6aR1wQXaJCIqu3
+pVb/6hTxnYQ7n0zbylpG/fv1rmSTg5NieZj2J7A5Rsk2XOPVVlPSCJIMp4KSaybI
+4yuSYzK0mfM/jwF9xCXGNGCPKF4Ni2U8gwN5qYGisR9WqY3yxu/GP8Wy5oWeo+Kn
+BwOmNcR5PdEaj4qcavY8imIK6fJsZsPb4Zgw5DI/InBPb7uho7lnFIrOpmhuwa5D
+o7yAYqLhaax3QMbYj5DLquNrRf4YLqUU2740yxfpM9X7YIMxQOU8+MYT2dXJPU2L
+G4QkvhAxeQ14LrS3ZdI9dQlkXQGYGrgjp2tnINgApJHI/dWXnBzwwjicQTyhSpgn
+JsVGdCI3JpIXQRVWKCzYBz0gyJSzV0Z5ZkDp/gU4Bjy+h4OzeAFEDbVl494PDGcZ
+FCANpt47E1cOmoOjWoG7QsHoWyzfy0VXxrZnxrJR7z2uZNhKjiFhugehIzDdwHYn
+A26XAX12dmsBbFGoC/Wq16PNJGKhYHo4Tzx6NCcm8BqLT9JLleYTSyPhv0frh+P+
+lhYU8c2WKhPlAOMbYvvPt5XA61I6MejHlwXpr16pE3wwy7pZQEhN2iw9i871hzc1
+PAp9BkEm/xTd/YDW9sX1SZwb
+=A5wa
 -----END PGP SIGNATURE-----
 
---===============2700521513171238042==--
+--===============6669805603949176973==--
