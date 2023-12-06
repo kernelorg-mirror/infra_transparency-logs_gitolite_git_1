@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jmondi/linux
-Date: Wed, 06 Dec 2023 15:53:39 -0000
-Message-Id: <170187801973.10073.15974964116692887707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Wed, 06 Dec 2023 15:55:22 -0000
+Message-Id: <170187812221.12301.5874916736456213373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jmondi/linux
-user: jmondi
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/ov64a40/mainline-v5
-    old: e7196a51fae1cbf69ca9891711019ddc20ed0a8a
-    new: 40392f5041acd463587afc830b4a0bff55edde4c
+  - ref: refs/heads/mediatek-drm-next
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
+    new: edd911c775f32c81916ca4623f925239027c5853
     log: |
-         31b6861de24e525fa32718df602ac0bf3e7aca7f media: dt-bindings: Add OmniVision OV64A40
-         6fe141e6899e9fcea68f52b0004c4ba933e37df2 media: i2c: Add driver for OmniVision OV64A40
-         40392f5041acd463587afc830b4a0bff55edde4c tofixup
+         82f9e9ef496f8bfbfce9feda5025931ce5d514e9 drm/mediatek: Use devm_platform_ioremap_resource()
+         3cc302deb77a3064944c879c042575ffc14c0bb6 drm/mediatek: Use devm_platform_ioremap_resource()
+         edd911c775f32c81916ca4623f925239027c5853 drm/mediatek: Use devm_platform_ioremap_resource()
          
