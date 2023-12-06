@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 06 Dec 2023 05:57:33 -0000
-Message-Id: <170184225374.19730.6356974562098477039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 06 Dec 2023 05:57:45 -0000
+Message-Id: <170184226522.19905.18436681129207289112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 19b707c3f23a7923ab40732521123d9b59965cc4
-    new: 021b0c952f226236f2edf89c737efb9a28d1422d
+    old: 58d3aade20cdddbac6c9707ac0f3f5f8c1278b74
+    new: efd563ff1a7e692408c9d44bec3d90949f7a9557
     log: |
-         2f57dd94bdef083855366138646b26b05f410d99 packet: add a generic drop reason for receive
-         15e54faa5d5e4840974de7fb5cd737c2179a309a ionic: Use cached VF attributes
-         46ca79d28fd7f2bbccf226fc0be59c2bd8d63dfe ionic: set ionic ptr before setting up ethtool ops
-         2d0b80c3a550f7828f26dba029c2b9346be789af ionic: Don't check null when calling vfree()
-         ab807e9183425ddf6dd85ca622a51fe4cad2c577 ionic: Make the check for Tx HW timestamping more obvious
-         5858036ca05658051ec61551e6699cca9c7d3369 ionic: Re-arrange ionic_intr_info struct for cache perf
-         021b0c952f226236f2edf89c737efb9a28d1422d Merge branch 'ionic-more-driver-fixes'
+         0ceb3860a67652f9d36dfdecfcd2cb3eb2f4537d ionic: fix snprintf format length warning
+         4115ba677c35f694b62298e55f0e04ce84eed469 ionic: Fix dim work handling in split interrupt mode
+         efd563ff1a7e692408c9d44bec3d90949f7a9557 Merge branch 'ionic-small-driver-fixes'
          
