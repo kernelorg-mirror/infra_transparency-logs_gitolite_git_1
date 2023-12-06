@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl-pkcs11-export
-Date: Wed, 06 Dec 2023 18:00:38 -0000
-Message-Id: <170188563851.8355.9634979660393670630@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 06 Dec 2023 18:02:11 -0000
+Message-Id: <170188573150.8965.9673333991942965113@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl-pkcs11-export
-user: jejb
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/tags/v1.1.0
-    old: 0000000000000000000000000000000000000000
-    new: 9f2ba80105d458978ea0120e7b58144a152a53b7
+  - ref: refs/heads/fixes
+    old: f40cab8e18ed57d2c7b5213437d83d955f78097f
+    new: ed5b7cfd7839f9280a63365c1133482b42d0981f
+    log: |
+         ed5b7cfd7839f9280a63365c1133482b42d0981f riscv: errata: andes: Probe for IOCP only once in boot stage
+         
