@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1353791975662332054=="
+Content-Type: multipart/mixed; boundary="===============4239335572207656521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 06 Dec 2023 03:14:49 -0000
-Message-Id: <170183248924.30446.7386876992177962452@gitolite.kernel.org>
+Date: Wed, 06 Dec 2023 03:15:07 -0000
+Message-Id: <170183250709.32252.12611736946269918397@gitolite.kernel.org>
 
---===============1353791975662332054==
+--===============4239335572207656521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,61 +16,84 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 6a965ee1892a7a44f6d8f4a0b9fb5f775a8b4ccb
-    new: 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e
-    log: revlist-6a965ee1892a-6bae38ddd3a8.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 452d9b5714ae48e1ab742efd1b345cda02b33f10
+    new: 03e7330f1510457a9c7c100d295ed8a255b59e8b
+    log: revlist-452d9b5714ae-03e7330f1510.txt
 
---===============1353791975662332054==
+--===============4239335572207656521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1701832487 -0500
+pusher 75C5DE3D 1701832493 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1701832487-1d696666bfbdfa75b4449055f9ee31c5bb5d427c
+nonce 1701832492-01f8313c4c2e96f6ad12f7cf2e1d1310e61b3d1d
 
-6a965ee1892a7a44f6d8f4a0b9fb5f775a8b4ccb 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e refs/heads/queue
+452d9b5714ae48e1ab742efd1b345cda02b33f10 03e7330f1510457a9c7c100d295ed8a255b59e8b refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVv5ycACgkQ7ulgGnXF
-3j1jcg/+N2YnnYGnEAKvtYr4kFCsRIM1E15eGETYTQjpVqiON4PLgRSa8vF8+9eY
-pihvZAWEJgmvTbetAhxwhrR3ERbOS7wqQY/DcHKBx+yDfERAQWepHyamOBlmKxpR
-WxThGuPwIlhhDYP/2yUFSSvYUajfN8nA7mPqCw4k7jgrFCrXNMt8CRLpEDT3j2Vi
-DgdXhLA4w3PstGxWnQh/siLkSYp2kUo4EKRLFQ66Lb+2qucFcrVr4QYDYhp/+aFj
-6GgMu4BbQJIrRFeuipFnfB4tKXj6R2Jj4zcgMWfS9l2l0kaUA8zcvt6wI7MyokKM
-wcqq7CUOstunq6eEXAr2VKii22jxNvav86s0WqspwcBeoZ05uI0lOHPYoe5ZjodR
-RDle2ktl++zx53aoE2N0N0PD2q6X9q83Gv8UsJlGzGXYox9wCYYvsHIWSgaqhptU
-RzrBJiLluNbGOYV78nT1Sd8YcxbZDtVyt6JcSiwpf9v/dpmk3zjkXJ0UiHHQQVMf
-1WTNFMMtwFyxIXO9XBGMIMyL9tuV+21KeIUMqo9dleQWp67WZT91OQzx+sg2CP6u
-LDpkQ1wBbRcNUt7sMc0Iz2EVf43uQOmCnHJjh8Q/JNbSg6s/+YOSRiga0/Seee7P
-3/WHloyjw7ksPTSvqsnoprPNqESgShW7Fv4lrGcq8f1GaTnydPU=
-=Gjyx
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVv5y0ACgkQ7ulgGnXF
+3j2hVQ//VkSf6MST1o9WowhM89U9qqJN+RH6v0/ZIuFgvVkpPBvAW3Jgr0GDvyPM
+Mm/nbrqmBp27E0wagPXbXXihraLEZq4iz0am+eR40RDTAIIN9WEodxk10A7aIiZL
+WWJ31XU4qNDtKw7wjepGxi75MahR0AMiA4AMZZLFmn9dPJ24ZQYhOu1ocAkM5JGo
+F13Bnbsslvi02dez1DwUBoRjGiw4VTa4UvUVD/Pb3yPUPtSG4hDJcg42hvz85tH8
+MygVoUS+GExUgYs3zGomRAjM9yI81mCsH+MWHVZlEoKfALdISEFN2Kt/MjXHAfj+
+aYLbj++UPcNsXniIyig+ujK6Ud0u6ygJarFQSLFwDLVZFa0chf6KIuWMD8FasmnE
+4vcVzVAU2X3GwZ7K4I9bNqUNtvL98PVF065n9kmVMLjzb2MtHVKrk3mlDV7UqGvk
+F4SknJ4YpEk6/+KMd1ZOawO2u0sinWFWODYWM1LTHbpk4AUhCg05dZV1p2YpDHcF
+US+KPaVxaxfhcm8QQt+C6mvNf4X6KSRILQH8FXTINv+Ep9e0ayHi1PNjxF/VPvJO
+TSYgBSYtt+vB/TrTIfh65J41tYgsIXZFpJHhIxWDpcpqi2DXol/SoWStRKbd538a
+mY01YcTy2pp46+5vFREHnaC71sUYSJRqhz3y1C/T+TtSK6w6mFw=
+=/AKO
 -----END PGP SIGNATURE-----
 
---===============1353791975662332054==
+--===============4239335572207656521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a965ee1892a-6bae38ddd3a8.txt
+Content-Disposition: attachment; filename=revlist-452d9b5714ae-03e7330f1510.txt
 
-edbc78a1b74c3d31dabaf3280bcee0356e744ca9 scsi: ufs: mediatek: Change the maintainer for MediaTek UFS hooks
-045da3077bc57e587d0ab4cfc8945b76af03d72d scsi: ufs: core: Make fault injection dynamically configurable per HBA
-0349be31e4ffc79723e46e2e373569567b06347b scsi: bfa: Use the proper data type for BLIST flags
-10b53db2db8dfda84b25833043f2b63123572af6 scsi: core: Add a precondition check in scsi_eh_scmd_add()
-db80df77025ee0a5e6e089cc2f2b0c4b97867bea scsi: ufs: core: Warn if the request tag is truncated
-6fa21eab82be57a3ad2470fac27b982793805336 scsi: mpi3mr: Add support for SAS5116 PCI IDs
-c9260ff28ee561fca5f96425c9328a9698e8427b scsi: mpi3mr: Add PCI checks where SAS5116 diverges from SAS4116
-cb5b60894602b12a63d3e08be88eaf26b2603c19 scsi: mpi3mr: Increase maximum number of PHYs to 64 from 32
-1193a89d2b6d2673fc2d1f27f8873f02e91e2aab scsi: mpi3mr: Add support for status reply descriptor
-b4d94164ff321f271c9c2d6c07676ce58f0a2c28 scsi: mpi3mr: driver version upgrade to 8.5.0.0.50
-130fbf45f4be43944975b2e76988dbb0ff2c82d3 Merge patch series "mpi3mr: Add support for Broadcom SAS5116 IO/RAID controllers"
-f38d4eda25e29f4690545200f79bee202cc05626 scsi: dc395x: Fix warning using plain integer as NULL
-14ef4b001ae77bd6bf8c22b3de255701c23591eb scsi: arcmsr: Support new RAID controller ARC-1688
-41c8a1a1e90fa4721f856bf3cf71211fd16d6434 scsi: arcmsr: Support new PCI device IDs 1883 and 1886
-56610811cccd04c94c9d347f271cdff63c9dc19d scsi: arcmsr: Update driver version to v1.51.00.14-20230915
-6bae38ddd3a8dffbc35d6c637f58c3710f65d54e Merge patch series "scsi: arcmsr: support Areca ARC-1688 Raid controller"
+af85d689ae08860e4f9648f05e09f1de868091f4 scsi: ufs: dt-bindings: Add msi-parent for UFS MCQ
+f5f27a332a14f43463aa0075efa3a0c662c0f4a8 scsi: fnic: Return error if vmalloc() failed
+28c58f8a0947f70ddee275b90fe45431146bb2cc scsi: target: Enable READ CAPACITY for PR EARO
+0d224b1088afef95f7069b7ca907cb199a5802ff scsi: zfcp: Replace strlcpy() with strscpy()
+a9baa16b4fc11d07953b65298b05d5ee707f093a scsi: ibmvfc: Replace deprecated strncpy() with strscpy()
+712b3f43ba0e5f86db69cf601ffb06085c606642 scsi: ibmvscsi: Replace deprecated strncpy() with strscpy()
+84e46978b91f387d5d153f7f76ddc87471f4a52c scsi: ipr: Remove obsolete check for old CPUs
+25cba909ade2a24f7356dc547dc417042bcef722 scsi: isci: Remove redundant check in isci_task_request_build()
+573eb4a3410a9d4e0612cca50e2c67a46c3824f0 scsi: aic7xxx: Return negative error codes in ahc_linux_register_host()
+70dfaf84ec777c0590316a8785df22ca5e97bf10 scsi: aic7xxx: Return ahc_linux_register_host()'s value rather than zero
+aef6ac123609c4365f0270ec689ef215d13c3061 scsi: aic7xxx: Return negative error codes in aic7770_probe()
+b57c4db5d23b9df0118a25e2441c9288edd73710 scsi: libfc: Don't schedule abort twice
+53122a49f49796beb2c4a1bb702303b66347e29f scsi: libfc: Fix up timeout error in fc_fcp_rec_error()
+be40572c22cc734f5836b4faec8a60340dc7ab67 scsi: libfc: Map FC_TIMED_OUT to DID_TIME_OUT
+f200dad9f34d21a168d5e1286db2f96bfef5644d Merge patch series "libfc: fixup command abort handling"
+e5aab848dfdf7996d20ece4d28d2733c732c5e5a scsi: mpi3mr: Refresh sdev queue depth after controller reset
+c01d515687e358b22aa8414d6dac60d7defa6eb9 scsi: mpi3mr: Clean up block devices post controller reset
+f8fb3f39148e8010479e4b2003ba4728818ec661 scsi: mpi3mr: Block PEL Enable Command on Controller Reset and Unrecoverable State
+07ac6adda4d3daa9410d716e96ffaa3192b6ac04 scsi: mpi3mr: Fetch correct device dev handle for status reply descriptor
+c432e167523939e64ff882c86cdbf28e279a56ab scsi: mpi3mr: Support for preallocation of SGL BSG data buffers part-1
+fb231d7deffb41fd445929a3b79815277b883fec scsi: mpi3mr: Support for preallocation of SGL BSG data buffers part-2
+9536af615dc9ded0357341e8bd0efc8b34b2b484 scsi: mpi3mr: Support for preallocation of SGL BSG data buffers part-3
+d0a60e3edaa4a12e52fe8ea1d8b125f0405934cf scsi: mpi3mr: Update driver version to 8.5.1.0.0
+e84d34372eb6c7d33d1f39267c2f91102654959c Merge branch '6.8/s/mpi3mr2' into 6.8/scsi-staging
+5854cdd04163ea7aa454b619708f710cef9e04e8 scsi: a3000: Convert to platform remove callback returning void
+688bbe398ca63bace6b8fb40b9dbc605c5add034 scsi: a4000t: Convert to platform remove callback returning void
+3becb4cdf1c1250b880d04f00506f185b614c5af scsi: atari: Convert to platform remove callback returning void
+51a41ec6d36e586e978785709d33b22cc8ee455c scsi: bvme6000: Convert to platform remove callback returning void
+c71ef3d1fb39ee4503b5d3f5e358c6588c071520 scsi: jazz_esp: Convert to platform remove callback returning void
+0b649224f712cdfb90c8e9c22929dcb55868fc8f scsi: mac_esp: Convert to platform remove callback returning void
+69b43bf38b11cf361a1372281aa0ffe0c5cb2d32 scsi: mac: Convert to platform remove callback returning void
+f0baf76a22049d55a4901c1a933e479c638af94c scsi: mvme16x: Convert to platform remove callback returning void
+e26eec9a4d25752404b35e7700f84834002ee75e scsi: qlogicpti: Convert to platform remove callback returning void
+358987af1bda5c0b6a9aacc0644a108e711266b6 scsi: sgiwd93: Convert to platform remove callback returning void
+357a7fd2434e857bc3911cfbb02285f8b25e8d24 scsi: sni_53c710: Convert to platform remove callback returning void
+15b016b2d023e4ba3603daa21aa346033c486930 scsi: sun3: Convert to platform remove callback returning void
+e84bd0bb30689023410f3cd5090c8ed11937096f scsi: sun3x_esp: Convert to platform remove callback returning void
+6ff482eeebe57ee7becee66f7de4b864dcc4175d scsi: sun_esp: Convert to platform remove callback returning void
+e78e59acfb6972aba9c3da86099760ca662054e7 Merge patch series "scsi: Convert to platform remove callback returning" void
 
---===============1353791975662332054==--
+--===============4239335572207656521==--
