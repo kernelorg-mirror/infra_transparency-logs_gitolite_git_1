@@ -1,33 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 06 Dec 2023 21:03:48 -0000
-Message-Id: <170189662876.13433.3007571630031419355@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5956690340696330834=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 06 Dec 2023 21:04:31 -0000
+Message-Id: <170189667173.13766.4295977187677583923@gitolite.kernel.org>
+
+--===============5956690340696330834==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 0a10d15280a385e5971fb58a6d2eddbf7c0aa9f3
-    new: d20d36755a605a21e737b6b16c566658589b1811
+    old: 890188d2d7e4ac6c131ba166ca116cb315e752ee
+    new: 7a733e060bd20edb63b1f27f0b29cf9b184e0e8b
     log: |
-         d20d36755a605a21e737b6b16c566658589b1811 ASoC: SOF: mediatek: mt8186: Revert Add Google Steelix topology compatible
+         7a733e060bd20edb63b1f27f0b29cf9b184e0e8b spi: cadence: revert "Add SPI transfer delays"
          
   - ref: refs/heads/for-next
-    old: 7a251f7775ca4a79e9efed27291c678f7cbf338f
-    new: 41c42f906ba3a7585b944941f5a0ecca54dd9803
-    log: |
-         d20d36755a605a21e737b6b16c566658589b1811 ASoC: SOF: mediatek: mt8186: Revert Add Google Steelix topology compatible
-         c3ab23a10771bbe06300e5374efa809789c65455 ASoC: amd: Add new dmi entries for acp5x platform
-         f18818eb0dbe0339c0efd02a34a3f5651749cb84 ASoC: amd: vangogh: Add condition check for acp config flag
-         e12678141835c539fc17a2318ec4017a845935bd ASoC: amd: Remove extra dmi parameter
-         671dd2ffbd8b92e2228fa84ea4274a051b704dec ASoC: amd: acp: Add new cpu dai and dailink creation for I2S BT instance
-         e6a382cf7a69cc80e57978bbf0c7a674dfb09621 ASoC: amd: acp: Add i2s bt support for nau8821-max card
-         e249839bf33f3f9727d6220536ed5c7d4f5bc31d ASoC: amd: acp: Enable dpcm_capture for MAX98388 codec
-         ff5a698c0ffb08eee9c1ce0dfc79c91f273122d5 ASoC: amd: acp: Set bclk as source to set pll for rt5682s codec
-         41c42f906ba3a7585b944941f5a0ecca54dd9803 Merge remote-tracking branch 'asoc/for-6.8' into asoc-next
-         
+    old: 74d39d00c8568cfbfffaaa520bbb91212ee28cb1
+    new: 1e2d753ec4ff8bd514593b4f3e59801eb1fc593b
+    log: revlist-74d39d00c856-1e2d753ec4ff.txt
+
+--===============5956690340696330834==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-74d39d00c856-1e2d753ec4ff.txt
+
+2e0d75f8dd9e31b3fb175f780494dd7dd988ceae spi: axi-spi-engine: return void from spi_engine_compile_message()
+9d023ecc31859c7f7c8ca27b5fec52b2dbb8086f spi: axi-spi-engine: populate xfer->effective_speed_hz
+1fc8dc5721bbc7a21cb4cc60c35eb8031942542b spi: axi-spi-engine: remove spi_engine_get_clk_div()
+be9070bcf67057b7b03c5acc1980d3897448ad20 spi: axi-spi-engine: fix sleep ticks calculation
+e006c181dd9ab006d7b0982d35ef7951fbffe825 spi: axi-spi-engine: remove xfer arg from spi_engine_gen_sleep()
+125a8390995df1a350e9e16e6da11d010e1e7f76 spi: axi-spi-engine: implement xfer->cs_change_delay
+3106edac599f59e1298b034a19a43e7da002fccc spi: axi-spi-engine: restore clkdiv at end of message
+0db60d821e485a1c9b8080dbec1ba9871efb6a65 spi: axi-spi-engine: remove delay from CS assertion
+07d33c2810bb5fe67747d11f76980ed68602e287 spi: axi-spi-engine: add watchdog timer
+7a733e060bd20edb63b1f27f0b29cf9b184e0e8b spi: cadence: revert "Add SPI transfer delays"
+18f78b5e609b19b56237f0dae47068d44b8b0ecd spi: axi-spi-engine: improvements round 2
+1e2d753ec4ff8bd514593b4f3e59801eb1fc593b Merge remote-tracking branch 'spi/for-6.8' into spi-next
+
+--===============5956690340696330834==--
