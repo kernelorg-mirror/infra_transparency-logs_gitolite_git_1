@@ -1,90 +1,99 @@
-Content-Type: multipart/mixed; boundary="===============5615891780927580759=="
+Content-Type: multipart/mixed; boundary="===============9007693914351500423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 06 Dec 2023 03:15:14 -0000
-Message-Id: <170183251444.32393.2646308774639768952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Wed, 06 Dec 2023 03:15:21 -0000
+Message-Id: <170183252178.32495.3056114903949223237@gitolite.kernel.org>
 
---===============5615891780927580759==
+--===============9007693914351500423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: ad6bcdad2b6724e113f191a12f859a9e8456b26d
-    new: 96d1d578dec1e69ed086dd67f7e5974875d981b3
-    log: revlist-ad6bcdad2b67-96d1d578dec1.txt
+  - ref: refs/heads/6.8/scsi-staging
+    old: 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e
+    new: e78e59acfb6972aba9c3da86099760ca662054e7
+    log: revlist-6bae38ddd3a8-e78e59acfb69.txt
 
---===============5615891780927580759==
+--===============9007693914351500423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701832510 +0900
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1701832513-6a8e0e71bbbd6138fc5ec6ada27288bb84880973
+pusher 75C5DE3D 1701832510 -0500
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1701832510-c267fa1067e44c986411a8278d257c1d414bf1b5
 
-ad6bcdad2b6724e113f191a12f859a9e8456b26d 96d1d578dec1e69ed086dd67f7e5974875d981b3 refs/heads/char-misc-next
+6bae38ddd3a8dffbc35d6c637f58c3710f65d54e e78e59acfb6972aba9c3da86099760ca662054e7 refs/heads/6.8/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVv5z4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iGgQANDqRplKOI5wbdWCjyNN
-iqO0v5D2AHpIviPkwkZqO7BOcRVAVGqTfRDwO2d4MzryI/n3RcXhcSj8dX5bT93k
-TVMBtGXmFzzt348f/Vei539z/PcZvIobIf0PmWXaEXmVGJqynXZ11Xnik2igBkAy
-VO0OBaBiFskWg78pnqQbd43N1GcjPYxBL3rHtQUayQ7U1wOFGsWy+otyTIVel63Y
-e2lyo9PWmeqr4nGHYv6thaZO+DHPuxIwBAup/wxGHfAPT7UoPCKviB7tJ+hWUyaP
-3mwyJPdJdlGf0utvj5OZSJuZBaJsMzGRDOVokqFsCXU9Bt6nZG2zWSkHf4mB/e89
-QOsTG02Mk44+Z+a0pCnb+6l8HOU8OUQAmvvbz6hSWXqSJiRp5AyxMLy0JeIpytXd
-HMkmFCZ68/E1Vs0xlvMsxo8CpvY8rKx5JIfDAgCpsUT8HmnTIMCI7aAxkHimyL82
-mEQ9o1+Tix5gWYC4wFEYTmiNt+EEd4fXOOPqykgXaBESMFvbLVrY8wj0KBRBu1yu
-Ju94aNCFpthpeYanUK/yzT0aqqbK1pWwEhEzIiXTdRV1HL+rKCmiwTiu1CIGLk/+
-GcMUa+wI8a74tt/qEky6NZJLqI9yhjMrL+dgGWLt8oqJz8UQPQ8Ivo3bmOjLHb6r
-dioixT2Z2uCJvwc61oXOfcI7
-=nOmx
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVv5z4ACgkQ7ulgGnXF
+3j2pJA/7BNl2s2Ek0ZV19dgQJfqOrXq4Odp+DYmpR8TILX9FohJ+R0l6FFw/ahB9
+YGwe9VloFy91ydQP2DkEdkacHC2PEqch/LEXCcLw8p9CrZqmzCiS9fkjo1XkEKKF
+RsxgGHSCunrxODMrqWIeJ+MYmDbIF8WSvtGT2AepnLsCqlfW2T0GCNvf5Omo1FQO
+eq4BqiDzbxhBXCvdCC5Eao1kcKwKnkdx7jey9aDB56tVt+YKOgfonKBgYD/EJK1J
+TRLwrENgtowJ0C3hvAgUslHRxsyt1rrd32rluVw0PcDBHT85iaP0yfIIOtSFiFD8
+E+P9VKihcXlfHUMg5Bd2jtD8wMSYl52Txnr1YaheUF17Z/CbFYNHjvmk2fOlZUwG
+oLtrOLuvvkIvdsmTNmJbiXuEwyd/7kgyWFAvZIKtN2GvRvYTgygdKv5K8H4oCJP9
+UVahoS2bjiPmkRVuQ7kRJc6eMc4jGz8kafvX8lHYxXXCJz6vWokOx+v4asW6zovg
+9pdg11n23yAa38Ssd8/DigwuP0S1/lF0AtikhsaomXK8mNOihl7jVQDi0dbNGaDl
+8WJ3qMGOEEDjBrAaXy0hd9k/hHxWZYeN/2kGQqaKgaMd4/44ok4byahejQXPaKeb
+WnAj9XgAesfElKP+Q7q/SiPyz5PHy/IJl0B5+B9ksh5AJISJNdA=
+=UjVy
 -----END PGP SIGNATURE-----
 
---===============5615891780927580759==
+--===============9007693914351500423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad6bcdad2b67-96d1d578dec1.txt
+Content-Disposition: attachment; filename=revlist-6bae38ddd3a8-e78e59acfb69.txt
 
-6ac061db9c58ca5b9270b1b3940d2464fb3ff183 binder: use EPOLLERR from eventpoll.h
-3f489c2067c5824528212b0fc18b28d51332d906 binder: fix use-after-free in shinker's callback
-9a9ab0d963621d9d12199df9817e66982582d5a5 binder: fix race between mmput() and do_exit()
-3091c21d3e9322428691ce0b7a0cfa9c0b239eeb binder: fix async space check for 0-sized buffers
-c6d05e0762ab276102246d24affd1e116a46aa0c binder: fix unused alloc->free_async_space
-122a3c1cb0ff304c2b8934584fcfea4edb2fe5e3 binder: fix trivial typo of binder_free_buf_locked()
-e1090371e02b601cbfcea175c2a6cc7c955fa830 binder: fix comment on binder_alloc_new_buf() return value
-da483f8b390546fbe36abd72f58d612a8032e2a8 binder: remove extern from function prototypes
-df9aabead791d7a3d59938abe288720f5c1367f7 binder: keep vma addresses type as unsigned long
-0d35bf3bf2da8d43fd12fea7699dc936999bf96e binder: split up binder_update_page_range()
-377e1684db7a1e23261f3c3ebf76523c0554d512 binder: do unlocked work in binder_alloc_new_buf()
-89f71743bf42217dd4092fda703a8e4f6f4e55ac binder: remove pid param in binder_alloc_new_buf()
-9409af24e4503d14093b27db9425f7c99e64fef4 binder: separate the no-space debugging logic
-c13500eaabd2343aa4cbb76b54ec624cb0c0ef8d binder: relocate low space calculation
-cbc174a64b8d0ab542752c167dc1334b52b88624 binder: relocate binder_alloc_clear_buf()
-ea2735ce19c1c6ce0f6011f813a1eea0272c231d binder: refactor page range allocation
-c7ac30fad18231a1637d38aa8a97d6b4788ed8ad binder: malloc new_buffer outside of locks
-68aef12d094e4c96d972790f1620415460a4f3cf binder: initialize lru pages in mmap callback
-37ebbb4f73a0d299fa0c7dd043932a2f5fbbb779 binder: perform page installation outside of locks
-258ce20ede33c551002705fa1488864fb287752c binder: remove redundant debug log
-de0e6573125f8ea7a01a9b05a45b0c73116c73b2 binder: make oversized buffer code more readable
-ea9cdbf0c7273b55e251b2ed8f85794cfadab5d5 binder: rename lru shrinker utilities
-67dcc880780569ec40391cae4d8299adc1e7a44e binder: document the final page calculation
-8e905217c4543af9cf1754809846157a7dbbb261 binder: collapse print_binder_buffer() into caller
-f07b83a48e944c8a1cc1e9f6703fae5e34df2ba4 binder: refactor binder_delete_free_buffer()
-162c79731448a5a052e93af7753df579dfe0bf7a binder: avoid user addresses in debug logs
-e50f4e6cc9bfaca655d3b6a3506d27cf2caa1d40 binder: reverse locking order in shrinker callback
-7710e2cca32e7f3958480e8bd44f50e29d0c2509 binder: switch alloc->mutex to spinlock_t
-96d1d578dec1e69ed086dd67f7e5974875d981b3 android: binder: fix a kernel-doc enum warning
+af85d689ae08860e4f9648f05e09f1de868091f4 scsi: ufs: dt-bindings: Add msi-parent for UFS MCQ
+f5f27a332a14f43463aa0075efa3a0c662c0f4a8 scsi: fnic: Return error if vmalloc() failed
+28c58f8a0947f70ddee275b90fe45431146bb2cc scsi: target: Enable READ CAPACITY for PR EARO
+0d224b1088afef95f7069b7ca907cb199a5802ff scsi: zfcp: Replace strlcpy() with strscpy()
+a9baa16b4fc11d07953b65298b05d5ee707f093a scsi: ibmvfc: Replace deprecated strncpy() with strscpy()
+712b3f43ba0e5f86db69cf601ffb06085c606642 scsi: ibmvscsi: Replace deprecated strncpy() with strscpy()
+84e46978b91f387d5d153f7f76ddc87471f4a52c scsi: ipr: Remove obsolete check for old CPUs
+25cba909ade2a24f7356dc547dc417042bcef722 scsi: isci: Remove redundant check in isci_task_request_build()
+573eb4a3410a9d4e0612cca50e2c67a46c3824f0 scsi: aic7xxx: Return negative error codes in ahc_linux_register_host()
+70dfaf84ec777c0590316a8785df22ca5e97bf10 scsi: aic7xxx: Return ahc_linux_register_host()'s value rather than zero
+aef6ac123609c4365f0270ec689ef215d13c3061 scsi: aic7xxx: Return negative error codes in aic7770_probe()
+b57c4db5d23b9df0118a25e2441c9288edd73710 scsi: libfc: Don't schedule abort twice
+53122a49f49796beb2c4a1bb702303b66347e29f scsi: libfc: Fix up timeout error in fc_fcp_rec_error()
+be40572c22cc734f5836b4faec8a60340dc7ab67 scsi: libfc: Map FC_TIMED_OUT to DID_TIME_OUT
+f200dad9f34d21a168d5e1286db2f96bfef5644d Merge patch series "libfc: fixup command abort handling"
+e5aab848dfdf7996d20ece4d28d2733c732c5e5a scsi: mpi3mr: Refresh sdev queue depth after controller reset
+c01d515687e358b22aa8414d6dac60d7defa6eb9 scsi: mpi3mr: Clean up block devices post controller reset
+f8fb3f39148e8010479e4b2003ba4728818ec661 scsi: mpi3mr: Block PEL Enable Command on Controller Reset and Unrecoverable State
+07ac6adda4d3daa9410d716e96ffaa3192b6ac04 scsi: mpi3mr: Fetch correct device dev handle for status reply descriptor
+c432e167523939e64ff882c86cdbf28e279a56ab scsi: mpi3mr: Support for preallocation of SGL BSG data buffers part-1
+fb231d7deffb41fd445929a3b79815277b883fec scsi: mpi3mr: Support for preallocation of SGL BSG data buffers part-2
+9536af615dc9ded0357341e8bd0efc8b34b2b484 scsi: mpi3mr: Support for preallocation of SGL BSG data buffers part-3
+d0a60e3edaa4a12e52fe8ea1d8b125f0405934cf scsi: mpi3mr: Update driver version to 8.5.1.0.0
+e84d34372eb6c7d33d1f39267c2f91102654959c Merge branch '6.8/s/mpi3mr2' into 6.8/scsi-staging
+5854cdd04163ea7aa454b619708f710cef9e04e8 scsi: a3000: Convert to platform remove callback returning void
+688bbe398ca63bace6b8fb40b9dbc605c5add034 scsi: a4000t: Convert to platform remove callback returning void
+3becb4cdf1c1250b880d04f00506f185b614c5af scsi: atari: Convert to platform remove callback returning void
+51a41ec6d36e586e978785709d33b22cc8ee455c scsi: bvme6000: Convert to platform remove callback returning void
+c71ef3d1fb39ee4503b5d3f5e358c6588c071520 scsi: jazz_esp: Convert to platform remove callback returning void
+0b649224f712cdfb90c8e9c22929dcb55868fc8f scsi: mac_esp: Convert to platform remove callback returning void
+69b43bf38b11cf361a1372281aa0ffe0c5cb2d32 scsi: mac: Convert to platform remove callback returning void
+f0baf76a22049d55a4901c1a933e479c638af94c scsi: mvme16x: Convert to platform remove callback returning void
+e26eec9a4d25752404b35e7700f84834002ee75e scsi: qlogicpti: Convert to platform remove callback returning void
+358987af1bda5c0b6a9aacc0644a108e711266b6 scsi: sgiwd93: Convert to platform remove callback returning void
+357a7fd2434e857bc3911cfbb02285f8b25e8d24 scsi: sni_53c710: Convert to platform remove callback returning void
+15b016b2d023e4ba3603daa21aa346033c486930 scsi: sun3: Convert to platform remove callback returning void
+e84bd0bb30689023410f3cd5090c8ed11937096f scsi: sun3x_esp: Convert to platform remove callback returning void
+6ff482eeebe57ee7becee66f7de4b864dcc4175d scsi: sun_esp: Convert to platform remove callback returning void
+e78e59acfb6972aba9c3da86099760ca662054e7 Merge patch series "scsi: Convert to platform remove callback returning" void
 
---===============5615891780927580759==--
+--===============9007693914351500423==--
