@@ -1,46 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4422618696080957689=="
+Content-Type: multipart/mixed; boundary="===============6416417414821349410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 06 Dec 2023 04:28:52 -0000
-Message-Id: <170183693294.20775.17512160166138704632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 06 Dec 2023 04:29:03 -0000
+Message-Id: <170183694305.20940.6921471568062466774@gitolite.kernel.org>
 
---===============4422618696080957689==
+--===============6416417414821349410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 0f5f12ac05f36f117e793656c3f560625e927f1b
     new: 577a4ee0b96fb043c9cf4a533c550ff587e526cf
     log: revlist-0f5f12ac05f3-577a4ee0b96f.txt
-  - ref: refs/heads/stable
-    old: 33cc938e65a98f1d29d0a18403dbbee050dcad9a
-    new: bee0e7762ad2c6025b9f5245c040fcc36ef2bde8
-    log: |
-         98594181944daa201481ad63242806beb7c89ff4 iommufd/selftest: Fix _test_mock_dirty_bitmaps()
-         bd7a282650b8beb57bc9d19bfcb714b1ccae843a iommufd: Add iommufd_ctx to iommufd_put_object()
-         6f9c4d8c468c189d6dc470324bd52955f8aa0a10 iommufd: Do not UAF during iommufd_put_object()
-         480b3e73720f6b5d76bef2387b1f9d19ed67573b vdpa/mlx5: preserve CVQ vringh index
-         4f317d6529d7fc3ab7769ef89645d43fc7eec61b pds_vdpa: fix up format-truncation complaint
-         dd3b8de16e90c5594eddd29aeeb99e97c6f863be pds_vdpa: clear config callback when status goes to 0
-         cefc9ba6aed48a3aa085888e3262ac2aa975714b pds_vdpa: set features order
-         1e535748449a51842872c46db61525f7524fc63a Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-         bee0e7762ad2c6025b9f5245c040fcc36ef2bde8 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
-         
-  - ref: refs/tags/next-20230906
-    old: 86350f523f280d9f203ce153fbaca2f7c7f85f97
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20231206
     old: 0000000000000000000000000000000000000000
     new: 215a226e12cff21bbb55f706c8df66c87d1eedb3
 
---===============4422618696080957689==
+--===============6416417414821349410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1071,4 +1054,4 @@ b00b0bf7f12ce856ade9803b74cab827f99ecfd4 Merge branch 'next' of git://git.kernel
 d19144509e339c94a8b6d11d4c29a6b1039ac792 Merge branch 'for-next/kspp' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux.git
 577a4ee0b96fb043c9cf4a533c550ff587e526cf Add linux-next specific files for 20231206
 
---===============4422618696080957689==--
+--===============6416417414821349410==--
