@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4449280127621956107=="
+Content-Type: multipart/mixed; boundary="===============8594581244492707828=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 06 Dec 2023 18:14:29 -0000
-Message-Id: <170188646911.17785.6343515500361875794@gitolite.kernel.org>
+Date: Wed, 06 Dec 2023 18:14:34 -0000
+Message-Id: <170188647480.17891.12606627287740725954@gitolite.kernel.org>
 
---===============4449280127621956107==
+--===============8594581244492707828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 3aee2bf9c49be2144460d7267560232e3d45d367
     new: c35919dcce2855d68cf45ffa427b8ea78e4f7c68
     log: revlist-3aee2bf9c49b-c35919dcce28.txt
 
---===============4449280127621956107==
+--===============8594581244492707828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ dc5196fac40c2cb96330bcb98eef868a7fd225b3 selftests/bpf: add BPF token-enabled te
 36fb94944b35062db15ab3059f4123048cac658c bpf,selinux: allocate bpf_security_struct per BPF token
 c35919dcce2855d68cf45ffa427b8ea78e4f7c68 Merge branch 'bpf-token-and-bpf-fs-based-delegation'
 
---===============4449280127621956107==--
+--===============8594581244492707828==--
