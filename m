@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7162964103887918796=="
+Content-Type: multipart/mixed; boundary="===============8484124757725131409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 06 Dec 2023 16:55:52 -0000
-Message-Id: <170188175268.24997.15087060090173532145@gitolite.kernel.org>
+Date: Wed, 06 Dec 2023 16:56:26 -0000
+Message-Id: <170188178679.25278.3664863634977922754@gitolite.kernel.org>
 
---===============7162964103887918796==
+--===============8484124757725131409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 3c91c909f13f0c32b0d54d75c3f798479b1a84f5
-    new: fe2b1226656afae56702d1d84c6900f6b67df297
-    log: revlist-3c91c909f13f-fe2b1226656a.txt
+  - ref: refs/heads/dev-queue
+    old: bd11fc5e94dcf389d349013f47a7a71ce5ffd3f7
+    new: 3c1dd2ac39c55beaace43fec4466abb740b2b276
+    log: revlist-bd11fc5e94dc-3c1dd2ac39c5.txt
 
---===============7162964103887918796==
+--===============8484124757725131409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c91c909f13f-fe2b1226656a.txt
+Content-Disposition: attachment; filename=revlist-bd11fc5e94dc-3c1dd2ac39c5.txt
 
 a61f46e1102545cf1fb5f19992288265362cefb0 net: veth: fix packet segmentation in veth_convert_skb_to_xdp_buff
 d007caaaf052f82ca2340d4c7b32d04a3f5dbf3f net: bnxt: fix a potential use-after-free in bnxt_init_tc
@@ -51,5 +51,21 @@ d431abd0a9aa27be379fb5f8304062071b0f5a7e octeontx2-af: Add missing mcs flr handl
 7336fc196748f82646b630d5a2e9d283e200b988 octeontx2-af: Update Tx link register range
 2078a341f5f609d55667c2dc6337f90d8f322b8f Merge branch 'octeontx2-af-miscellaneous-fixes'
 fe2b1226656afae56702d1d84c6900f6b67df297 leds: trigger: netdev: fix RTNL handling to prevent potential deadlock
+430d4e534d29ac962eb5936f2153c965e90ffe1d i40e: fix livelocks in i40e_reset_subtask()
+5b0ee952f7004705e0ec3f894513b8a62760c285 i40e: fix 32bit FW gtime wrapping issue
+c620816042c6e0c365282c0e3973ececad34c91f ice: Restore fix disabling RX VLAN filtering
+5bddab5cc4277089b4f6698d404219df0470c55e i40e: Fix waiting for queues of all VSIs to be disabled
+9b46bf7e58467b66e75eaec6cfddf903ac6588ea i40e: Fix unexpected MFS warning message
+9139ff121b5fb11c5cd4b8701a2a0fa47e2930e9 iavf: validate tx_coalesce_usecs even if rx_coalesce_usecs is zero
+88e25ce13702e7ff4dbb0160dc62dc22d6dfefbf iavf: Introduce new state machines for flow director
+4f4fd7baf2765bd22ac756b90f90182402ada23b iavf: Handle ntuple on/off based on new state machines for flow director
+e2111e5fe82e95931e642abd53b20cec4e8f96ec iavf: Fix iavf_shutdown to call iavf_remove instead iavf_close
+084ad8a260a7a2ec74872bf7ef3e11fea5b7ab32 i40e: Fix filter input checks to prevent config with invalid values
+f06f8b5991f067c5b68fd9df2261a79aed9dcff2 i40e: Fix ST code value for Clause 45
+91ee729c1c3f90df09a8261944f6ea360e2505f5 ice: fix theoretical out-of-bounds access in ethtool link modes
+46e3f5dc4fa86c691657d2272de9a8f593954db9 i40e: Fix wrong mask used during DCB config
+5815bb70ade35281a9d782825dde43bf0cf718df igc: Report VLAN EtherType matching back to user
+9fd137e44d33540f4b8ddc918750cc8b4d475b4b igc: Check VLAN TCI mask
+3c1dd2ac39c55beaace43fec4466abb740b2b276 idpf: fix corrupted frames and skb leaks in singleq mode
 
---===============7162964103887918796==--
+--===============8484124757725131409==--
