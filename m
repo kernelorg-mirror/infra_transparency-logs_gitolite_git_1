@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1527847783245785208=="
+Content-Type: multipart/mixed; boundary="===============2384829502379081926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 06 Dec 2023 03:14:25 -0000
-Message-Id: <170183246540.30051.16417926949401567954@gitolite.kernel.org>
+Date: Wed, 06 Dec 2023 03:14:40 -0000
+Message-Id: <170183248062.30242.5184153800679981519@gitolite.kernel.org>
 
---===============1527847783245785208==
+--===============2384829502379081926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,61 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: b09d7f8fd50f6e93cbadd8d27fde178f745b42a1
-    new: 235f2b548d7f4ac5931d834f05d3f7f5166a2e72
-    log: |
-         235f2b548d7f4ac5931d834f05d3f7f5166a2e72 scsi: be2iscsi: Fix a memleak in beiscsi_init_wrb_handle()
-         
+  - ref: refs/tags/mkp-scsi-queue
+    old: 1251ed8f6120e2564aac191f85a4426b159545cc
+    new: 18d252f55ea2f57c87841a2f63bc0fa86f748d90
+    log: revlist-1251ed8f6120-18d252f55ea2.txt
 
---===============1527847783245785208==
+--===============2384829502379081926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1701832464 -0500
+pusher 75C5DE3D 1701832469 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1701832463-adecc6f3dd4d4008cfbd2f8b8d36369f695e8bb5
+nonce 1701832469-983b708f9635b379363b88551e163e61e59cbaed
 
-b09d7f8fd50f6e93cbadd8d27fde178f745b42a1 235f2b548d7f4ac5931d834f05d3f7f5166a2e72 refs/heads/fixes
+1251ed8f6120e2564aac191f85a4426b159545cc 18d252f55ea2f57c87841a2f63bc0fa86f748d90 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVv5xAACgkQ7ulgGnXF
-3j30lhAArym+LecGJw23B0gEyi/IUcW4CC20Jq+cCc+b+Z9muIsn4umDb0xX9DjU
-xvMN8wXP//Jh5DyAfkZs6/tl50q6Cr810aO2is0JGPqbfZKS3euiCrFdaCJfS02w
-vz5jd+pZf3FUNZsdfb2zb82H0jrP/aRuvv8uqCSCrUmXpybDBM41K8nFVRNTLPVL
-Fxif5v/qxkU5gXTTDv9HThqvNdOVLbVgcN8aXX4hHrAZTKnaIIJGv9dqP3e2hOXU
-zYblkSK0kCIH49mHY2ps12gJTGGGZgZXxqYr35SwvAUJrVio6gJQA9KZvG8LAjS/
-nU9Yot++dHCpiNJ/F69QxvbPCquAd2Y2IHsg8a9iJ53ggTNNn9U9to7T7CkWaghw
-PWL9864QgGe/vd+pTRZKCZhJjtiwpJqV3FBJR1zSudZmu0KF+G05Ji4V1R9Es7zE
-fxC4QMuB7j6nMjaLll1OEDl3W5pEDUvJuGVFxstq/iGaMvKFI8b09HYUksy80JMH
-MEkUrjxZ6/eP5gUd6Fon5e+JqPPOc0m3cKXKWBwmKkMYwwd9X4ZEZr/RXkUcdXeH
-rr3aSlKOFtTREDiHZ00yV1RQvDTjR/UgSrWc07874jHqxHEQIocuwQrqcJJNOehT
-NAudoTjWvj41FYCBivEs1U+EYPy4oPyB4ncoZP9CRBQ+JwjtGa0=
-=KGgU
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmVv5xUACgkQ7ulgGnXF
+3j3lCBAAqtlcdH5VdyvpzLY5XuEINLYICyBIxe9FsVBO588gVNdoj6CrGmdViG5K
+Ck+P1eXtETmSwZ7TpueiyCUWMvr1nZlNOnjFV4ThMyGti2ofGwKR8nHUUVBBCC6A
+1FQyNZeTB87jmvaCt8tPKxYWmCfzkixT9Z3P+ThI5QnD9iiHFD5s/1iJliNOfeqG
+cccvyweUBdswyf6/kAOynoDpM2ME40RUrgjBRuicJeiu7fCt0Tb3A0s5NUI8Z2W0
+lhrxRyTAI8TVRrsXeLQMce816Unc2CekC5ZjSy/qPLNH6F3lTwUGT9AtBQVvA+ZE
+B7cBKrWNq1Ceq5xXNcmDiuwl1IZtXwws5cUr9ZGtOnW5o6gxt5lTyyt6h0998W0i
+IejuWDMLQY0YPKGWjy3kHcURGzpNrO+4P/uQ2e/Vrxs9Mmio2516+waMzpvvSUEf
+RP1RrlOnfIy46BRrCTEGbNlLpQq9UqnRSQgpTNYUJn2aSwnxWmlkqw4wWAXAUS3E
+e4+LjaqgxaX/5YMI4Dg0KBTZ75nPY/CyIBxy/kfDUtGSEYN+9JKPvKedLUemk+y0
+iEXhZLdWuW2M2DhP3fKXGwo8YlRs7Yk7t7CsVeMJdBCKhSL17PNa4LsH841iQfdT
+SLw1xdfM+kbSRHz3TVje989CIQCbhcDvz+YajCErFDT1trE34/Y=
+=6QVO
 -----END PGP SIGNATURE-----
 
---===============1527847783245785208==--
+--===============2384829502379081926==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1251ed8f6120-18d252f55ea2.txt
+
+edbc78a1b74c3d31dabaf3280bcee0356e744ca9 scsi: ufs: mediatek: Change the maintainer for MediaTek UFS hooks
+045da3077bc57e587d0ab4cfc8945b76af03d72d scsi: ufs: core: Make fault injection dynamically configurable per HBA
+0349be31e4ffc79723e46e2e373569567b06347b scsi: bfa: Use the proper data type for BLIST flags
+10b53db2db8dfda84b25833043f2b63123572af6 scsi: core: Add a precondition check in scsi_eh_scmd_add()
+db80df77025ee0a5e6e089cc2f2b0c4b97867bea scsi: ufs: core: Warn if the request tag is truncated
+6fa21eab82be57a3ad2470fac27b982793805336 scsi: mpi3mr: Add support for SAS5116 PCI IDs
+c9260ff28ee561fca5f96425c9328a9698e8427b scsi: mpi3mr: Add PCI checks where SAS5116 diverges from SAS4116
+cb5b60894602b12a63d3e08be88eaf26b2603c19 scsi: mpi3mr: Increase maximum number of PHYs to 64 from 32
+1193a89d2b6d2673fc2d1f27f8873f02e91e2aab scsi: mpi3mr: Add support for status reply descriptor
+b4d94164ff321f271c9c2d6c07676ce58f0a2c28 scsi: mpi3mr: driver version upgrade to 8.5.0.0.50
+130fbf45f4be43944975b2e76988dbb0ff2c82d3 Merge patch series "mpi3mr: Add support for Broadcom SAS5116 IO/RAID controllers"
+f38d4eda25e29f4690545200f79bee202cc05626 scsi: dc395x: Fix warning using plain integer as NULL
+14ef4b001ae77bd6bf8c22b3de255701c23591eb scsi: arcmsr: Support new RAID controller ARC-1688
+41c8a1a1e90fa4721f856bf3cf71211fd16d6434 scsi: arcmsr: Support new PCI device IDs 1883 and 1886
+56610811cccd04c94c9d347f271cdff63c9dc19d scsi: arcmsr: Update driver version to v1.51.00.14-20230915
+6bae38ddd3a8dffbc35d6c637f58c3710f65d54e Merge patch series "scsi: arcmsr: support Areca ARC-1688 Raid controller"
+
+--===============2384829502379081926==--
