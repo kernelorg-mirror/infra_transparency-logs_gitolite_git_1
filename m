@@ -1,29 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 07 Dec 2023 16:47:24 -0000
-Message-Id: <170196764496.8673.9336085793358868657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
+Date: Thu, 07 Dec 2023 17:03:36 -0000
+Message-Id: <170196861673.19042.3693639414518516123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/fs/ext2/xfstests-bld
+user: tytso
 changes:
-  - ref: refs/heads/riscv-soc-drivers-for-next
-    old: ec5b0f1193ad461e53d083edad8fab0298fe68e3
-    new: 0f2d06dd1910cc7f6591620a2070d44ca3f56551
+  - ref: refs/heads/master
+    old: f78662f9cf4041d94c1bf5fb4aaa831319561e0f
+    new: 232ecf585839b949039dd9eb2405ec9f218da721
     log: |
-         405820eae72f1b51a4c46a81adf3c3de320c5688 firmware: microchip: Replace of_device.h with explicit include
-         0f2d06dd1910cc7f6591620a2070d44ca3f56551 MAINTAINERS: add auto-update driver to mpfs entry
-         
-  - ref: refs/heads/riscv-soc-for-next
-    old: f223b3b0bbc4e1fa1ffe9ae054212e2358c3eef3
-    new: d06e9ec2adc4fe2d4d4dc74d3343e7779ab83341
-    log: |
-         405820eae72f1b51a4c46a81adf3c3de320c5688 firmware: microchip: Replace of_device.h with explicit include
-         ed0216a00b9ae7f5b75360501103b72697d875c3 Merge branch 'riscv-soc-drivers-for-next' into riscv-soc-for-next
-         0f2d06dd1910cc7f6591620a2070d44ca3f56551 MAINTAINERS: add auto-update driver to mpfs entry
-         d06e9ec2adc4fe2d4d4dc74d3343e7779ab83341 Merge branch 'riscv-soc-drivers-for-next' into riscv-soc-for-next
+         424a5f7c5437e4adfb23f837a16e2a3302fe7fdf setup-buildchroot: allow multiple fstests-bld dirs to share build chroots
+         a21c6430ea74d144bdbc7ee1a5db3de89fa1988d setup-buildchroot: add a symlink to qemu binary in chroot's /usr/libexec
+         232ecf585839b949039dd9eb2405ec9f218da721 ltm: teach ltm about ext4:overlay/small cfg syntax
          
