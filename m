@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pablo/linux-ft
-Date: Thu, 07 Dec 2023 13:03:15 -0000
-Message-Id: <170195419504.6688.1256463188017636307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 07 Dec 2023 13:11:36 -0000
+Message-Id: <170195469614.14100.8388615335807252010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pablo/linux-ft
-user: pablo
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/nft-bulk-v6.6-2
-    old: 5eabebaf31947e48ac5150adf705e59283fda008
-    new: 3f249b8d882c06c35ae046f871e62fd6ea8272f4
+  - ref: refs/heads/wip/leon-for-next
+    old: b7a2768a1cc3de8947b1fe4b1084de2f5464c606
+    new: 288f535951aa81ed674f5e5477ab11b9d9351b8c
     log: |
-         3f249b8d882c06c35ae046f871e62fd6ea8272f4 net: add dev_queue_xmit_list() and use it
+         95f6b40082aaf37fd0553828982402af36f81685 RDMA/hns: Rename the interrupts
+         d3f4020a213e1cb125eed2363fca372a23f7de7a RDMA/hns: Response dmac to userspace
+         7243396aaf12385ba514764b6401bcd15e1a52c7 RDMA/hns: Add a max length of gid table
+         f31683a5227b1a0febae8e2a85d7fdf9514c10f1 RDMA/hns: Remove unnecessary checks for NULL in mtr_alloc_bufs()
+         288f535951aa81ed674f5e5477ab11b9d9351b8c RDMA/hns: Fix memory leak in free_mr_init()
          
