@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0472726272965454018=="
+Content-Type: multipart/mixed; boundary="===============3382298412930789847=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 07 Dec 2023 11:41:23 -0000
-Message-Id: <170194928318.13289.1423026835888541986@gitolite.kernel.org>
+Date: Thu, 07 Dec 2023 11:41:59 -0000
+Message-Id: <170194931988.13602.412396496549562551@gitolite.kernel.org>
 
---===============0472726272965454018==
+--===============3382298412930789847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.8/slab-removal
-    old: 80a045930b02fbba0236145c9f964d9da5a13ce9
-    new: ecf9a253ce120082ce0a8aff806c4de4865cfcc5
-    log: revlist-80a045930b02-ecf9a253ce12.txt
+  - ref: refs/heads/slab/for-6.8/slub-hook-cleanups
+    old: ea8d02feff5c52aaae165f63bebb3f70e242811a
+    new: 1c7809d3e9bd8aa38f1699309c2d7d8cf161abf2
+    log: revlist-ea8d02feff5c-1c7809d3e9bd.txt
 
---===============0472726272965454018==
+--===============3382298412930789847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1701949278 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1701949315 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1701949277-2a075ba2236422d503c5708853709d46bec78483
+nonce 1701949315-f88ebaf107f32fd00a96d53bace09fb15b1fd5f6
 
-80a045930b02fbba0236145c9f964d9da5a13ce9 ecf9a253ce120082ce0a8aff806c4de4865cfcc5 refs/heads/slab/for-6.8/slab-removal
+ea8d02feff5c52aaae165f63bebb3f70e242811a 1c7809d3e9bd8aa38f1699309c2d7d8cf161abf2 refs/heads/slab/for-6.8/slub-hook-cleanups
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmVxr14ACgkQu+CwddJF
-iJrIbgf9HRM1HvbyxCtXgTz4pFSE+e0zlYoFHjYUfUYz9fhj05dzNMZ/Mz005W0v
-Vewxi8JIPb3Gqwfn/I5hYA9kVokObWMN807hHifxij8UrVOYGtDTnFkXv/nfNvw9
-ZXJHlPKz8vO2VVkHNKVxNH8vT7s6/0Ffv/2EMIOurzwAjLgdiv9ekJU+XQ99ERom
-o12lj6nGG6n4Jm7o79Xd0U279m7KRNJcECFB5mAEYfYkLzqeVg/F1Z/uL+Q3/Kuh
-6WNr2EaOKdFePILrBCmnqBNjaebTkhKJ6fQ157o69Dv9CrOKsmeKv9CeZ2dUFroX
-9HLsImXPi8/3nQXRgREryw+n9YKHfw==
-=zU++
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmVxr4MACgkQu+CwddJF
+iJqKigf+MJn3cJ5YlC0OeDQXwRueRF7jLxOYs414QTNunBl4eWHgWZENtncz7nIl
+tCZ/iEg0bsws6bUk6vB+36PGB+U9HvEmQlzAWXJmtKM5eTocWSb+rjdxO4SV8DlM
+Njy/usLb/V7FuKBlUTdjnoBRkN4WS6XreBIi+x0wl7nxAIv+0ZsS910ql0f6N3RH
+5SZatLtc63flusBEyMo8rzXQh2b88KdhF6Yk3n2TxhzayOapxrpN2NoXGRohCH6Y
+t4pU+3yAIRYoVnB3Br+3ix0E1ATG+y3VKo0pLgwHzBp7SsRDNR2Sa4EINoPQGils
+6RW08RXTZJz1W9eaT12vFxdktzuZjA==
+=WyEl
 -----END PGP SIGNATURE-----
 
---===============0472726272965454018==
+--===============3382298412930789847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80a045930b02-ecf9a253ce12.txt
+Content-Disposition: attachment; filename=revlist-ea8d02feff5c-1c7809d3e9bd.txt
 
 0445ee000498ec1a5b1ed31bf35816cbeaef5e1e mm/slab, docs: switch mm-api docs generation from slab.c to slub.c
 2a19be61a65157b9c6c25e831392cdefbd0a8940 mm/slab: remove CONFIG_SLAB from all Kconfig and Makefile
@@ -72,5 +72,9 @@ b774d3e326d30fc8ef841101c399e44bdac2aa48 mm/slab: move kfree() from slab_common.
 49378a05ce7f01a203550eb7c2ef772f6d24565c mm/slub: remove slab_alloc() and __kmem_cache_alloc_lru() wrappers
 3450a0e5a6fc4cdbd70853f12c0c332dd24c1349 mm/slub: optimize alloc fastpath code layout
 ecf9a253ce120082ce0a8aff806c4de4865cfcc5 mm/slub: optimize free fast path code layout
+6f3dd2c31d7d703a814c59f60daf95c57fa6a4c2 mm/slub: fix bulk alloc and free stats
+520a688a2edfddba97968bf9e133b9a3d7c78059 mm/slub: introduce __kmem_cache_free_bulk() without free hooks
+284f17ac13fe34ae9eecbe57bb91553374d9b855 mm/slub: handle bulk and single object freeing separately
+1c7809d3e9bd8aa38f1699309c2d7d8cf161abf2 mm/slub: free KFENCE objects in slab_free_hook()
 
---===============0472726272965454018==--
+--===============3382298412930789847==--
