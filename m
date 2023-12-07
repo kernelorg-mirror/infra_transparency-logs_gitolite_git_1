@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Thu, 07 Dec 2023 16:25:18 -0000
-Message-Id: <170196631861.25526.1742171044220453101@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Thu, 07 Dec 2023 16:31:37 -0000
+Message-Id: <170196669785.29399.8833706315721413079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/main
-    old: 88f29324042752a28245ec0ab285d71c7f4d9c6a
-    new: db7fac15eaf0f09d675730d7002edabe27fe9e1d
+  - ref: refs/heads/rcu/dev
+    old: 7f69c5ca1f148d3458541d364c0e72f3e8de942c
+    new: e7a67de2caca96020660f30fbd728109a27aba25
     log: |
-         c5ece8d84303c1956b18d2aba03c4b4fc856f53e wifi: rtw89: 8922a: configure CRASH_TRIGGER FW feature
-         2a68a27cd27aeb09dc74d9d800758ba0b36cb230 wifi: rtw89: fw: extend program counter dump for Wi-Fi 7 chip
-         eeb8cbb58b82904442a6c05832b97d7d27b3c48b wifi: rtw89: 8922a: add SER IMR tables
-         6f8d36552bab7dc83d8aba89311d6039c53eb6a1 wifi: rtw89: 8922a: dump MAC registers when SER occurs
-         db7fac15eaf0f09d675730d7002edabe27fe9e1d wifi: rtw89: mac: refine SER setting during WiFi CPU power on
+         982e2dac89ab8c9d92c34168943f3a0fdf152e6d rcu/nocb: Make IRQs disablement symetric
+         d4f82b87d9b310cd43d021cbe4c64e992a064b0e rcu/nocb: Re-arrange call_rcu() NOCB specific code
+         e6f373cabbd212c3b6689ed31a22ed80e66cc348 rcu/exp: Fix RCU expedited parallel grace period kworker allocation failure recovery
+         1cf8f6d72bc52dd7f84ec9873bfef976e6dafa71 rcu/exp: Handle RCU expedited grace period kworker allocation failure
+         caf068a0be5222cd57e3dd4d5be113d447160b2c rcu: s/boost_kthread_mutex/kthread_mutex
+         7613770ce2182b049a2ca88e5fca0b32527d5dbd rcu/exp: Make parallel exp gp kworker per rcu node
+         f2c49f5022a27d5753d34149564651c45f25fe2d rcu/exp: Handle parallel exp gp kworkers affinity
+         e7a67de2caca96020660f30fbd728109a27aba25 rcu/exp: Remove rcu_par_gp_wq
          
