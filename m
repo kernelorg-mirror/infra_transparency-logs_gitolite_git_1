@@ -1,58 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============8263122519939120730=="
+Content-Type: multipart/mixed; boundary="===============8261250981171072922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Thu, 07 Dec 2023 13:29:57 -0000
-Message-Id: <170195579721.25673.10074996970771394040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Thu, 07 Dec 2023 13:33:06 -0000
+Message-Id: <170195598629.28455.6217794443530623624@gitolite.kernel.org>
 
---===============8263122519939120730==
+--===============8261250981171072922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 271c81935801d6449bb7bab5ccfc6cd38238c62b
-    new: 0ca9223fe9f75dce6e5cd306c685ee687a0bbdeb
+  - ref: refs/heads/for-v6.8/samsung-bindings-compatibles
+    old: 92b022550ae55527b4ce8f8cae7863857c7b795a
+    new: bf1e24c5330af06b2f7f1a166a1011d8d48e8651
     log: |
-         9c0a5b3f9e55cf9a3dc85843666cae28adfdf7e3 w1: gpio: Don't use platform data for driver data
-         deaba3d687b7cb1a2868bd514fd665ee5efcaaf3 w1: gpio: Drop unused enable_external_pullup from driver data
-         0ca9223fe9f75dce6e5cd306c685ee687a0bbdeb w1: gpio: rename pointer to driver data from pdata to ddata
+         7677fdbc036b93a882f660ca2484a6807e72f0be dt-bindings: i2c: exynos5: add specific compatible for Tesla FSD
+         edb32ec3cea79b518e6af841ecb01c839818f562 dt-bindings: pwm: samsung: add specific compatible for Tesla FSD
+         921f4f1db7f5bf6798349db8a4382c032f144b98 dt-bindings: serial: samsung: add specific compatible for Tesla FSD
+         54772f1d61cd99ea1ed0febd4187bf24ef63bccd dt-bindings: samsung: exynos-pmu: add specific compatible for Tesla FSD
+         bf1e24c5330af06b2f7f1a166a1011d8d48e8651 dt-bindings: watchdog: samsung: add specific compatible for Tesla FSD
+         
+  - ref: refs/heads/next/dt64
+    old: 7c1156d8a719d5fca39e0e40e4465e4cbd765e89
+    new: 5f257922c5948c58669346d5cda371632108f266
+    log: |
+         7677fdbc036b93a882f660ca2484a6807e72f0be dt-bindings: i2c: exynos5: add specific compatible for Tesla FSD
+         edb32ec3cea79b518e6af841ecb01c839818f562 dt-bindings: pwm: samsung: add specific compatible for Tesla FSD
+         921f4f1db7f5bf6798349db8a4382c032f144b98 dt-bindings: serial: samsung: add specific compatible for Tesla FSD
+         54772f1d61cd99ea1ed0febd4187bf24ef63bccd dt-bindings: samsung: exynos-pmu: add specific compatible for Tesla FSD
+         bf1e24c5330af06b2f7f1a166a1011d8d48e8651 dt-bindings: watchdog: samsung: add specific compatible for Tesla FSD
+         d834019f0c1762629937b7017cae642144bd2c22 Merge branch 'for-v6.8/samsung-bindings-compatibles' into next/dt64
+         5f257922c5948c58669346d5cda371632108f266 arm64: dts: fsd: add specific compatibles for Tesla FSD
          
 
---===============8263122519939120730==
+--===============8261250981171072922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1701955795 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1701955794-aa64566b3255a143c05a8cd3e81772474d2a3a64
+pusher krzk@kernel.org 1701955984 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1701955983-c0a5f9d93b45777427c82b5192053edcc1da3edd
 
-271c81935801d6449bb7bab5ccfc6cd38238c62b 0ca9223fe9f75dce6e5cd306c685ee687a0bbdeb refs/heads/for-next
+92b022550ae55527b4ce8f8cae7863857c7b795a bf1e24c5330af06b2f7f1a166a1011d8d48e8651 refs/heads/for-v6.8/samsung-bindings-compatibles
+7c1156d8a719d5fca39e0e40e4465e4cbd765e89 5f257922c5948c58669346d5cda371632108f266 refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVxyNMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD16gEEACJQ6j8roDbH7MGCOXC6xwHO1SjlF6q4tal
-vYtLloAFK/k0oSrvl2+unY/n1JpijYL5xsNNocTUNfx6HGCCa0cPqpgVVwBGVAg+
-92bSPVnEh1LON7EhCgb5jObFZ8RzZoL14a541LJv3JIerm6JpJBUrQOeRCWI4TlQ
-DDxC8Mp7kGvM5msnfh28nwE1e3pu41VKvxeAOXaTj3hGtcPzlfP/c2EtviBek3ex
-cHPQc3iBuQgdXIztx5jqXGyTZnYJObVRVpLJ+mgFnA2AK1l+vf1zqdIgc2a9ipdm
-dNMhmDN0g6VjBzsXowf2vRx/Lel4Bf4PKudF9PI6iiGdahyyC9DpcPeSLyIvKCz0
-116pCeU+aAkmEJYQ8xHq7LaYu6ogoiBmIbXo/FgAA475OMZk0U5gG6o1UwhTOe0W
-rcXjXumlZlpnysV+JNjTIDfT5ACL3y8mRUdnUnx61UNeDkFmA0cT0Mj3uV+RBRLV
-q3Be4mRZtLFfSdPqHd92y1Ozx4JpvpIwNebhO9CupXCH/r4x8VOfccGpiiAcZfVt
-/vO2j0bUlPKysyjrXAW5rO28JzkKrqa9+wL05Uu1Qf41Cg9HitJFTW8uf/VvR5Ql
-yW5z8gC3VgJ1/nGdHJINsvnesqqd3a+lWE/qI+c3nu8nSJG7UgnKdSxlRw/xCxEd
-hVsFrnBKJg==
-=xqHn
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmVxyZAQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18ChD/9V3bRRIwdjz5gv9UWyoTrz3SJ8StZuoMx5
+VxThJxSMLsuR6CXa2slzutBDpK1EoQpYBeurcEiqpOgRKR5gXKDq34vxGKJ2/b0+
+0yrXkMydOtmCs1XWihMpC/kABzkbJFEgQ3o2i2jpjzd9C/2720iN5Z4JNqC/FFZB
+13/1w9P6Nu7zjTPIVjq4EAkWS09fLWRDrobdoEkm6aZVopBPMt2yBY/Pqva2f5zy
+HorR+tY+qG3ZWDfeMuR3r+9POHvm1escTw/35Z8q/9H9aIbtThesKhUe8hDAFdwR
+WJG+1ohC3J/7300yMhxNy7PCssn9V9bVSUxYK5GJxzKRuTW7CkjzGCDIOD2Pvx3P
+Aq21+uDFKEwWrFTlPFdItqqMT5Kvo16MAwynImFIH8v7/99klSYbsklGf5vxU8zL
+EShDw0SqtM/fK+k0KT024u4OEPdXj1lKwkSZ/YZT/bBMCIXp66dxeGL0Xih4OdG3
+8kO9I5Uf0A8kVrG0OIYuHt3a7jc9sDtg45kjRpxoSr7j3+15ZTcEfFBl9iHVDyGK
+qrRCJS4KN5D3vEUvp+8CKp9TJq2WM967jmMME41cHbk+clXY99YyOxJWZ0XCTd5a
+bwiD/Ge8g37dq11x2gBcxOesVnCAZTYIlY5qF7hpgOPD3wzl/v4sCCVXgcZI6cnK
+vMpXIxlJ6A==
+=4/Fq
 -----END PGP SIGNATURE-----
 
---===============8263122519939120730==--
+--===============8261250981171072922==--
