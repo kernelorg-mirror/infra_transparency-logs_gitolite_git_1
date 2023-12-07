@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2150199488455840916=="
+Content-Type: multipart/mixed; boundary="===============2321280969181682284=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 07 Dec 2023 07:02:29 -0000
-Message-Id: <170193254949.12422.11720661197798133688@gitolite.kernel.org>
+Date: Thu, 07 Dec 2023 07:02:34 -0000
+Message-Id: <170193255498.12507.1615474004564724610@gitolite.kernel.org>
 
---===============2150199488455840916==
+--===============2321280969181682284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,67 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: eec4954b81c3d9a38b99e78afb553c359db40093
-    new: 00bf4641201092fc06aa51f7dcf45d1ea4d3d4f7
-    log: revlist-eec4954b81c3-00bf46412010.txt
+  - ref: refs/heads/driver-core-testing
+    old: 00bf4641201092fc06aa51f7dcf45d1ea4d3d4f7
+    new: 7c41da586e9f45bf8842b4dca08681df8d586ebb
+    log: |
+         5bb03d0dd76700a830243776a99275575cbb2ee1 base: soc: Remove usage of the deprecated ida_simple_xx() API
+         48b5928e18dc27e05cab3dc4c78cd8a15baaf1e5 base/node.c: initialize the accessor list before registering
+         b17b70212dbf3f60ab95eb563dc165d235e75336 fs/sysfs/dir.c : Fix typo in comment
+         4c095734d92a46c243eca79b86ff3237fcce9a57 software node: Remove usage of the deprecated ida_simple_xx() API
+         bef52aa0f3de1b7d8c258c13b16e577361dabf3a acpi: property: Let args be NULL in __acpi_node_get_property_reference
+         1eaea4b3604eb9ca7d9a1e73d88fc121bb4061f5 software node: Let args be NULL in software_node_get_reference_args
+         3babbf614ae66018fa4f97865a7e3a3b8a590fb0 device property: fwnode_property_get_reference_args allows NULL args now
+         055467378bf14d6cc6d17e52dcfc76313b531bd7 driver core: Enable fw_devlink=rpm by default
+         7c41da586e9f45bf8842b4dca08681df8d586ebb driver core: Emit reason for pending deferred probe
+         
 
---===============2150199488455840916==
+--===============2321280969181682284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701932548 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1701932553 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1701932548-98d5d371827deccccb348407e253f40610a53b25
+nonce 1701932552-ef6447a94a97e08b39bac88c4f7371135c697ba5
 
-eec4954b81c3d9a38b99e78afb553c359db40093 00bf4641201092fc06aa51f7dcf45d1ea4d3d4f7 refs/heads/driver-core-next
+00bf4641201092fc06aa51f7dcf45d1ea4d3d4f7 7c41da586e9f45bf8842b4dca08681df8d586ebb refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVxbgQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vaoQAKs93UnkAzHG+zVmytSR
-qxIG959LmP0C7BEKbq9rtF58M/jhW3XPsAjF6sfg84REf8Mw2CWNbZo9p6Wxfour
-51wyH7Z/wyJ2wscQy3EA7ep/QarD5wpbnf7lCL092AgbwXsHNzs2LBOqwRiVVoVf
-YynZlypKhyUSly+X/Vjt7/+fGhjXz/kmTJKKnPmG6Q1O4O/ZaHEzeMS9v53s0vDM
-2Kir+mPhsonsj4vD9gG1KEoHa4ok8/9TG1X9701fRgcrypZlMzVQIdz4pTufLgZh
-abueRfQJbz0mjV7zMJM7DGvWXTm8iOuX9kZBiiturqXi2/EHWY06gDdr2ywAycEV
-FS7TSClCEW3/H8g0vmZM7zE9l81V5TAqa8GiI9rlfXwRcyp5sdRm+CdqzvXYxl7S
-mefQPtkWEMocnzoObWeD/PAOtvMChkh8LN2iaI1pzj6mL54Sec2aRflez/ZLs3a0
-W2AXt1AY7Q4r/5HTj6Q9RE/k4EfkXRUaH/isJr/sodL3tp0neRKe3CJBW9GtxoAy
-bGY5oZsQmaxC+AUOhSixDgkRPaHVSyTrmbFnj5ltyhX7kItCCbZDwze9vFDQgXUl
-dOh9B0RwfurbuajzYZC3ds5nYJvsXL8AN2QiMuL29Rjwnm3qLfcF4qCPL4VL1I4y
-bUs/SEkUxUINOGmPG3Vuoths
-=Mtgp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmVxbgkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3MAP/1LiB6lmCvRvO6Gyg+Ot
+qEi6wyOgvs58WSPzxlxp1Yx/s47o+uYLn0hMKU49dwuNSqJfpIONSFBbpZtMTD3N
+UATvzW+oh8jA18pwsfbzElfUbWYQIRd0Va55OXd0NEPZ/Kl3TDsKYSZF9SOimEH5
+ZB88FdjqB9iDUOY7I7+LNH6Y4lR9iAaCBnI4peGKDNqlvmFcYUYb+wLgTLAPXcsZ
+uo8oh8T1MAzKgj2S7MNNzVHvpSuR87M6IfrjLGaNqO8Dwqf1x398Vftm4pwpbah1
+xLyXEA7RVH8xbwLDi5Oy/Q8kXLfgss+SOP4y1uiy3Z817QDp5KIqaM61IrdySWTr
+xwVzmdU6O+w+ScXnz7p05RomyDaaZ766/xSufg0L/hUSofu8040la6Tg0UYnksDL
+v0uK2WQ3HxeeTG64Cyc8A18/mzYbLM5HfmfKwCGT0pSs0nCKE8Pob/MiwrMAalSp
+E2u2DfZInjcXY9Spp0Oyx8YGkS4N+QtcptU0BGvlvhNsU3fqZvVs3urlQnpx4fqp
+p1iE5+0MjvwjoX9HeNCaQdTxVMS1x2nK7BF2Xzmvuw1tqSIefy79BI6UYnWRNFxM
+lj73wBdPhKXqXjtazscHzo6LfrTLY6jFgYApG9ih724KOrMIm+g1khCEZRx6rw1I
+HnmIMUjZWMXO/l6alAsSKkLg
+=f51s
 -----END PGP SIGNATURE-----
 
---===============2150199488455840916==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eec4954b81c3-00bf46412010.txt
-
-c72bbf200162a3b4b9e1baedec9008d8d710b427 arch_topology: Make register_cpu_capacity_sysctl() tolerant to late CPUs
-d87c49377d5bbf3f5e5729c67f3892e1d2e6f661 x86: intel_epb: Don't rely on link order
-9aa9b4fcc311ede18adfe55e721115f7c59e60be x86/topology: remove arch_*register_cpu() exports
-29d93102fd1e19024fce90995040fb3a46fd91c1 Loongarch: remove arch_*register_cpu() exports
-a02f66bb3cf475947b58dd3851b987b8ccd998c1 ACPI: Move ACPI_HOTPLUG_CPU to be disabled on arm64 and riscv
-b0c69e1214bc20960c2ca68317b968e2a2057ed5 drivers: base: Use present CPUs in GENERIC_CPU_DEVICES
-0949dd96dffec39683c6066cf8d0877cebc321ec drivers: base: Allow parts of GENERIC_CPU_DEVICES to be overridden
-866ec3008691ff205b171413c52c5f1f328a2f8b drivers: base: Implement weak arch_unregister_cpu()
-bb5e44fb3be685ecb3feb120aca4269a92cc84cf drivers: base: add arch_cpu_is_hotpluggable()
-d631a881f1ab0091de35ae09ba48193a543666b5 drivers: base: Move cpu_dev_init() after node_dev_init()
-ca00f7d999a61383c3e5b2c66537a8e769dd7327 drivers: base: Print a warning instead of panic() when register_cpu() fails
-d127db1a23c94a876557b5bf8ca8bea49e8debb6 arm64: setup: Switch over to GENERIC_CPU_DEVICES using arch_register_cpu()
-092cfbc6b51143fd216bd55f8811f427d2ef0a0f arm64: convert to arch_cpu_is_hotpluggable()
-5b95f94c3b9f12adf27e970d411e8a744e95cabf x86/topology: Switch over to GENERIC_CPU_DEVICES
-b0b26bc580de555a504d7eed3866fca607bf1c1f x86/topology: use weak version of arch_unregister_cpu()
-e850a5c406450ae040d09c7b4161d6e75eff2a25 x86/topology: convert to use arch_cpu_is_hotpluggable()
-db3ba29a8315d89736b8af5c1ad945c9967d7655 LoongArch: Switch over to GENERIC_CPU_DEVICES
-0d122fb60046cd888877a6029cc23863d4a1b9e3 LoongArch: Use the __weak version of arch_unregister_cpu()
-13f9f0361c2e64f0dadb7964bfad11bf0a6fb7ab LoongArch: convert to use arch_cpu_is_hotpluggable()
-96cf2036514acec9bee7c25ca61badc64820d734 riscv: Switch over to GENERIC_CPU_DEVICES
-00bf4641201092fc06aa51f7dcf45d1ea4d3d4f7 riscv: convert to use arch_cpu_is_hotpluggable()
-
---===============2150199488455840916==--
+--===============2321280969181682284==--
