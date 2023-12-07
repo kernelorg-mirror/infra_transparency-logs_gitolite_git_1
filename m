@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/morse/linux
-Date: Thu, 07 Dec 2023 15:05:16 -0000
-Message-Id: <170196151636.32019.12722585398318275727@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 07 Dec 2023 15:16:26 -0000
+Message-Id: <170196218669.8577.14809177638719414094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/morse/linux
-user: morse
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/mpam/kvm_mpam_fix/v2
-    old: a173e5c4c4717ca0ca59d2de40ad08a1ccc05826
-    new: 33bcc1f21247a6158abd49f5d71032237ca10ae8
+  - ref: refs/heads/fixes
+    old: 7c1593410bca9a66c89d528f523ae32e2e220e68
+    new: ed5b7cfd7839f9280a63365c1133482b42d0981f
     log: |
-         ca02ce8e67504c983872454283d602bbfa14f57d arm64: cpufeature: discover CPU support for MPAM
-         994eb487690a227d9c434d17e62b5c1c03d5d232 KVM: arm64: Fix missing traps of guest accesses to the MPAM registers
-         33bcc1f21247a6158abd49f5d71032237ca10ae8 KVM: arm64: Disable MPAM visibility by default, and handle traps
+         82180b1fae2432ee88b4a54cc6c376ba01e57b22 Support rv32 ULEB128 test
+         777c0d761be7d981a2ae5494dfbc636311908dfb RISC-V: hwprobe: Always use u64 for extension bits
+         22e0eb04837a63af111fae35a92f7577676b9bc8 riscv: fix misaligned access handling of C.SWSP and C.SDSP
+         96ba4a47d147cf8c4b764ec3a66a088a5bb3033a dt-bindings: perf: riscv,pmu: drop unneeded quotes
+         f40cab8e18ed57d2c7b5213437d83d955f78097f riscv: Fix SMP when shadow call stacks are enabled
+         ed5b7cfd7839f9280a63365c1133482b42d0981f riscv: errata: andes: Probe for IOCP only once in boot stage
          
