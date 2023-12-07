@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 07 Dec 2023 20:20:58 -0000
-Message-Id: <170198045818.10327.9971780767322538536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Thu, 07 Dec 2023 20:25:31 -0000
+Message-Id: <170198073118.13569.6656797733255429204@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/spi-6.8
-    old: 18f78b5e609b19b56237f0dae47068d44b8b0ecd
-    new: 88a50c1663ffa9f6b31705c6bf7a887a2c8d9434
+  - ref: refs/heads/for-next
+    old: a38497493b39ca0819028e61bd55e96579a1b8e5
+    new: 91b22268402ecd83d8c8ff7fc64d4df8fed02ba1
     log: |
-         4ae08845db4c1f759b8382bc7527ab8249230e7f mfd: tps6594: Use spi_get_chipselect() API to access spi->chip_select
-         f05e2f61fe88092e0d341ea27644a84e3386358d ALSA: hda/cs35l56: Use set/get APIs to access spi->chip_select
-         4d8ff6b0991d5e86b17b235fc46ec62e9195cb9b spi: Add multi-cs memories support in SPI core
-         88a50c1663ffa9f6b31705c6bf7a887a2c8d9434 spi: Add support for stacked/parallel memories
+         381d48fbada9b5b39f5a811bb8fe76365d6bdd5c arm64: dts: rockchip: Add dynamic-power-coefficient to rk3399 GPU
+         91b22268402ecd83d8c8ff7fc64d4df8fed02ba1 Merge branch 'v6.8-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v6.8-armsoc/dts64
+    old: ca1dcb7b914f50f18984628844b627b1226a4b01
+    new: 381d48fbada9b5b39f5a811bb8fe76365d6bdd5c
+    log: |
+         381d48fbada9b5b39f5a811bb8fe76365d6bdd5c arm64: dts: rockchip: Add dynamic-power-coefficient to rk3399 GPU
          
