@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/connman/connman
-Date: Thu, 07 Dec 2023 23:43:52 -0000
-Message-Id: <170199263273.28827.7166728411349158973@gitolite.kernel.org>
+Date: Thu, 07 Dec 2023 23:45:39 -0000
+Message-Id: <170199273914.31115.7324192759221482218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,10 @@ repo: pub/scm/network/connman/connman
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 83e68f14fb78e9a76ab8d9b50756e2ffcf3c8ff5
-    new: e062e6eea0a2050c025a8875d98638c88a52fd30
+    old: e062e6eea0a2050c025a8875d98638c88a52fd30
+    new: 8a44ef4b4b3364585a3e684cf2fcb3a2c1d9075d
     log: |
-         5fd8602b1888969eb24d53ff46d3a04e18ed6bc5 connection: Colocate search functions.
-         9fc6393f5660f1633cb03faa304c149c7e2d40aa service: Const-qualify 'lookup_gateway_data'.
-         2104f5be76b2f3547fb642062503c575b2f4a93a connection: Harmonize search function names.
-         e062e6eea0a2050c025a8875d98638c88a52fd30 connection: Document search functions.
+         0033d30a8eb3a5350911976da429ffae79c0f45c connection: Introduce and leverage 'ipv[46]_addr_any_str' constants.
+         66e8e37e3766af23a1f3c8026048a356049e01ad connection: Introduce and leverage 'is_ipv[46]_addr_any_str' functions.
+         8a44ef4b4b3364585a3e684cf2fcb3a2c1d9075d connection: Document 'is_ipv[46]_addr_any_str'.
          
