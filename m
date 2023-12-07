@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Thu, 07 Dec 2023 20:32:30 -0000
-Message-Id: <170198115075.17684.18410039207960171986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 07 Dec 2023 20:34:23 -0000
+Message-Id: <170198126374.18437.9373333155549006064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/tdxhost-20231207
-    old: 0000000000000000000000000000000000000000
-    new: 2a4e53366f3bb64e77b545e5f89fe82684c6cc67
+  - ref: refs/heads/master
+    old: 16d7306f55abae7b0722b3e065681c510d3e609b
+    new: 43b54860327adc491d750e57e14b60273a5724df
+    log: |
+         cc6716bc241b60fed3dd7abc99059df2404e2fb9 foo
+         43b54860327adc491d750e57e14b60273a5724df foo
+         
