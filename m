@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8092373942894977897=="
+Content-Type: multipart/mixed; boundary="===============3278406440753040596=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 07 Dec 2023 20:45:46 -0000
-Message-Id: <170198194658.28810.12227563860993006400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Thu, 07 Dec 2023 20:55:35 -0000
+Message-Id: <170198253507.3075.6111388136262161058@gitolite.kernel.org>
 
---===============8092373942894977897==
+--===============3278406440753040596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
   - ref: refs/heads/master
     old: bee0e7762ad2c6025b9f5245c040fcc36ef2bde8
     new: 9ace34a8e446c1a566f3b0a3e0c4c483987e39a6
     log: revlist-bee0e7762ad2-9ace34a8e446.txt
 
---===============8092373942894977897==
+--===============3278406440753040596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ d5c0b601453483f3068b9b06e13f83ea546c36e6 Merge tag 'devicetree-fixes-for-6.7-1' 
 e0348c1f686a939222a2cbe7f3861e356b60d9b6 Merge tag 'wq-for-6.7-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 9ace34a8e446c1a566f3b0a3e0c4c483987e39a6 Merge tag 'cgroup-for-6.7-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 
---===============8092373942894977897==--
+--===============3278406440753040596==--
