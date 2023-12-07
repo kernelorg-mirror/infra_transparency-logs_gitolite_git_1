@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Thu, 07 Dec 2023 17:03:36 -0000
-Message-Id: <170196861673.19042.3693639414518516123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 07 Dec 2023 17:06:14 -0000
+Message-Id: <170196877480.21616.17789650495457951500@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: f78662f9cf4041d94c1bf5fb4aaa831319561e0f
-    new: 232ecf585839b949039dd9eb2405ec9f218da721
+  - ref: refs/heads/main
+    old: fe2b1226656afae56702d1d84c6900f6b67df297
+    new: 0ad722bd9ee3a9bdfca9613148645e4c9b7f26cf
     log: |
-         424a5f7c5437e4adfb23f837a16e2a3302fe7fdf setup-buildchroot: allow multiple fstests-bld dirs to share build chroots
-         a21c6430ea74d144bdbc7ee1a5db3de89fa1988d setup-buildchroot: add a symlink to qemu binary in chroot's /usr/libexec
-         232ecf585839b949039dd9eb2405ec9f218da721 ltm: teach ltm about ext4:overlay/small cfg syntax
+         f8e9889f54da6e3146c2cb3f5c206cf1a704f9d3 ice: change vfs.num_msix_per to vf->num_msix
+         4e7f0087b058cc3cab8f3c32141b51aa5457d298 ice: Restore fix disabling RX VLAN filtering
+         7d9f22b3d3ef379ed05bd3f3e2de83dfa8da8258 i40e: Fix unexpected MFS warning message
+         a206d9959f5ccd0fb2d54a997c993947ae0e881c iavf: validate tx_coalesce_usecs even if rx_coalesce_usecs is zero
+         3d501dd326fb1c73f1b8206d4c6e1d7b15c07e27 tcp: do not accept ACK of bytes we never sent
+         0c7ed1f9197aecada33a08b022e484a97bf584ba net: dsa: mv88e6xxx: Restore USXGMII support for 6393X
+         803a809d3d85cf06a04770fb04b585364d2d26dc Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+         0ad722bd9ee3a9bdfca9613148645e4c9b7f26cf nfp: flower: fix for take a mutex lock in soft irq context and rcu lock
          
