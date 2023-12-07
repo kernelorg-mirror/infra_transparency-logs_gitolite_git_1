@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 07 Dec 2023 22:18:59 -0000
-Message-Id: <170198753913.30389.14036918254664370146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 07 Dec 2023 22:23:28 -0000
+Message-Id: <170198780871.1198.4140477217153587218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: d0a7a7efdb1eee3ac869ba4c0de5c8cbc4ea4ee8
-    new: b09b9329233cd3676a26ced1a6b7b6b7444c61d4
+  - ref: refs/heads/vfs.all
+    old: 9ddd9b42ffafdde8786c1522d733e9d8a3e65b78
+    new: eeadfb967a7208bd1a300c2fc6c4abd363839aa7
     log: |
-         b09b9329233cd3676a26ced1a6b7b6b7444c61d4 Thu Dec  7 10:17:13 PM UTC 2023
+         6ac805d13870925c787a28e3fe5cc73610cacd03 iov_iter: remove unused 'iov' argument from import_single_range()
+         9fd7874c0e5c89d7da0b4442271696ec0f8edcba iov_iter: replace import_single_range() with import_ubuf()
+         eeadfb967a7208bd1a300c2fc6c4abd363839aa7 Merge branch 'vfs.iov_iter' into vfs.all
          
