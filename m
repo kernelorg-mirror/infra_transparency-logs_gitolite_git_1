@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 07 Dec 2023 19:04:52 -0000
-Message-Id: <170197589280.18854.15476946513986696904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 07 Dec 2023 19:21:10 -0000
+Message-Id: <170197687055.32431.6279768101193510961@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 2146f7fe6e028a3905f0658a1a0d8ef7c115d6c1
-    new: 8fb5d11965d9b5f93c26e69a09b24162c71e37df
-    log: |
-         4f114bc280bb327590ba964985257e9150ae6956 bpf: Fix verification of indirect var-off stack access
-         ec32ca301faad4500e4f9afe0653323d966b5535 bpf: Add verifier regression test for previous patch
-         755f82668d81aa6be92c934bd68758ba18b4bb1a bpf: Guard stack limits against 32bit overflow
-         8fb5d11965d9b5f93c26e69a09b24162c71e37df Merge branch 'bpf-fix-verification-of-indirect-var-off-stack-access'
-         
+  - ref: refs/tags/net-6.7-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 405b1fd7fe171f7b95e336caa1722d8454aca587
