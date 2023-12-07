@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0804717014557703312=="
+Content-Type: multipart/mixed; boundary="===============1275869166977446710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 07 Dec 2023 12:14:17 -0000
-Message-Id: <170195125735.4093.4277753747816836147@gitolite.kernel.org>
+Date: Thu, 07 Dec 2023 12:14:24 -0000
+Message-Id: <170195126477.4200.15147355062887844981@gitolite.kernel.org>
 
---===============0804717014557703312==
+--===============1275869166977446710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: c517fd2738f472eb0d1db60a70d91629349a9bf8
     new: 27dd0d2870c42a4790e966d6b67d50e778fb1319
     log: revlist-c517fd2738f4-27dd0d2870c4.txt
 
---===============0804717014557703312==
+--===============1275869166977446710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -607,4 +607,4 @@ c47598a9b312f36998c84e46ee31361c7640a4fa LoongArch: BPF: Don't sign extend funct
 c533641023df27f436add38839a20d86644e940d LoongArch: BPF: Fix sign-extension mov instructions
 27dd0d2870c42a4790e966d6b67d50e778fb1319 LoongArch: BPF: Fix unconditional bswap instructions
 
---===============0804717014557703312==--
+--===============1275869166977446710==--
