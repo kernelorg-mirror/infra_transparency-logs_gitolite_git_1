@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 07 Dec 2023 02:53:07 -0000
-Message-Id: <170191758743.14870.5676083257703690684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 07 Dec 2023 03:05:21 -0000
+Message-Id: <170191832186.24065.8870971121777659379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/damon/next-2023-12-07-02-53-on-v6.7.0-rc2-mm-unstable
-    old: 0000000000000000000000000000000000000000
-    new: 0e5d2457c56400b9dfc6d1ddf7d3244f7c904d31
+  - ref: refs/heads/main
+    old: 074ac38d5b955a6b2241c2b483470501f318a6f1
+    new: 5a08d0065a915ccf325563d7ca57fa8b4897881c
+    log: |
+         5a08d0065a915ccf325563d7ca57fa8b4897881c ipv6: add debug checks in fib6_info_release()
+         
