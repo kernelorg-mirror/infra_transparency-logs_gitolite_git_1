@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3382298412930789847=="
+Content-Type: multipart/mixed; boundary="===============2850991285286703210=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 07 Dec 2023 11:41:59 -0000
-Message-Id: <170194931988.13602.412396496549562551@gitolite.kernel.org>
+Date: Thu, 07 Dec 2023 11:42:28 -0000
+Message-Id: <170194934836.13847.17345063415514504216@gitolite.kernel.org>
 
---===============3382298412930789847==
+--===============2850991285286703210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.8/slub-hook-cleanups
-    old: ea8d02feff5c52aaae165f63bebb3f70e242811a
-    new: 1c7809d3e9bd8aa38f1699309c2d7d8cf161abf2
-    log: revlist-ea8d02feff5c-1c7809d3e9bd.txt
+  - ref: refs/heads/slab/for-next
+    old: 1b92bb6677734a9027c789698a2e6ac5e594684f
+    new: f7eb801fcdb18653ce64b65f858a7f1203d7bbb9
+    log: revlist-1b92bb667773-f7eb801fcdb1.txt
 
---===============3382298412930789847==
+--===============2850991285286703210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1701949315 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1701949344 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1701949315-f88ebaf107f32fd00a96d53bace09fb15b1fd5f6
+nonce 1701949343-e007f21cf8ac73f2f77473724908848e60f4655c
 
-ea8d02feff5c52aaae165f63bebb3f70e242811a 1c7809d3e9bd8aa38f1699309c2d7d8cf161abf2 refs/heads/slab/for-6.8/slub-hook-cleanups
+1b92bb6677734a9027c789698a2e6ac5e594684f f7eb801fcdb18653ce64b65f858a7f1203d7bbb9 refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmVxr4MACgkQu+CwddJF
-iJqKigf+MJn3cJ5YlC0OeDQXwRueRF7jLxOYs414QTNunBl4eWHgWZENtncz7nIl
-tCZ/iEg0bsws6bUk6vB+36PGB+U9HvEmQlzAWXJmtKM5eTocWSb+rjdxO4SV8DlM
-Njy/usLb/V7FuKBlUTdjnoBRkN4WS6XreBIi+x0wl7nxAIv+0ZsS910ql0f6N3RH
-5SZatLtc63flusBEyMo8rzXQh2b88KdhF6Yk3n2TxhzayOapxrpN2NoXGRohCH6Y
-t4pU+3yAIRYoVnB3Br+3ix0E1ATG+y3VKo0pLgwHzBp7SsRDNR2Sa4EINoPQGils
-6RW08RXTZJz1W9eaT12vFxdktzuZjA==
-=WyEl
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmVxr6AACgkQu+CwddJF
+iJqabgf+MGPewa1nvXjBNep0fm9ecQBdysjDIPaA0gq1AEs5PXg4R1vPemYUzpNz
+RW2dfRs4htqvzV7Q0qyKD5zXA2Q71cEThtAg7z7mJbRf8k6W1pMyMLfWN/+/m/yo
+M+G25TqHkKOYfxaUB6GlDO6O6IKRsuHTTQPB2rt74WdI0JB6bZdspWHyaTrZJoLw
+rvhpeNdFQ+GD1cDv7IpaO+ARMW9lgAntxKKnCk5N8ce3gz9V5e8iGNJu7KXLCblR
+zfi/YDlZLAIsTkFFxJ3Bs1c9Vfx/aSacs/QS9JiJk3lBjBgIPu2p7PmaaitkxAg+
+7/GvFYi3e+xPoa6VK+LnUKyRGngLpQ==
+=9t6d
 -----END PGP SIGNATURE-----
 
---===============3382298412930789847==
+--===============2850991285286703210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea8d02feff5c-1c7809d3e9bd.txt
+Content-Disposition: attachment; filename=revlist-1b92bb667773-f7eb801fcdb1.txt
 
 0445ee000498ec1a5b1ed31bf35816cbeaef5e1e mm/slab, docs: switch mm-api docs generation from slab.c to slub.c
 2a19be61a65157b9c6c25e831392cdefbd0a8940 mm/slab: remove CONFIG_SLAB from all Kconfig and Makefile
@@ -76,5 +76,6 @@ ecf9a253ce120082ce0a8aff806c4de4865cfcc5 mm/slub: optimize free fast path code l
 520a688a2edfddba97968bf9e133b9a3d7c78059 mm/slub: introduce __kmem_cache_free_bulk() without free hooks
 284f17ac13fe34ae9eecbe57bb91553374d9b855 mm/slub: handle bulk and single object freeing separately
 1c7809d3e9bd8aa38f1699309c2d7d8cf161abf2 mm/slub: free KFENCE objects in slab_free_hook()
+f7eb801fcdb18653ce64b65f858a7f1203d7bbb9 Merge branch 'slab/for-6.8/slub-hook-cleanups' into slab/for-next
 
---===============3382298412930789847==--
+--===============2850991285286703210==--
