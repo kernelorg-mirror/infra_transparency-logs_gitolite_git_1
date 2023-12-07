@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 07 Dec 2023 21:57:09 -0000
-Message-Id: <170198622935.14600.4481349990899859976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 07 Dec 2023 21:58:24 -0000
+Message-Id: <170198630490.15132.9364038684404513318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/dt/next
-    old: 3310288f61357b9b54139c93fc7665d60c0288bf
-    new: 83a368a3fc8ae8538bccb713dc0cae9eacc04790
+  - ref: refs/heads/master
+    old: 8fb5d11965d9b5f93c26e69a09b24162c71e37df
+    new: 483af466e4ee3326d150877ea0626e95c67a395e
     log: |
-         83a368a3fc8ae8538bccb713dc0cae9eacc04790 docs: dt-bindings: add DTS Coding Style document
+         a833a17aeac73b33f79433d7cee68d5cafd71e4f bpf: Fix verification of indirect var-off stack access
+         e28bd359bcc8eb849aaa475f3c3f9705fba26d6e bpf: Add verifier regression test for previous patch
+         1d38a9ee81570c4bd61f557832dead4d6f816760 bpf: Guard stack limits against 32bit overflow
+         483af466e4ee3326d150877ea0626e95c67a395e Merge branch 'bpf-fix-verification-of-indirect-var-off-stack-access'
          
