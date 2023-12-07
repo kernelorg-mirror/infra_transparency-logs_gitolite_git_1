@@ -1,26 +1,43 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 07 Dec 2023 01:37:59 -0000
-Message-Id: <170191307965.24574.7792717883821816024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
+Date: Thu, 07 Dec 2023 02:19:39 -0000
+Message-Id: <170191557972.20761.11797733047488943035@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/djwong/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/for-next
-    old: 7065eefb38f16c91e9ace36fb7c873e4c9857c27
-    new: 2146f7fe6e028a3905f0658a1a0d8ef7c115d6c1
-    log: |
-         f08a1c658257c73697a819c4ded3a84b6f0ead74 bpf: Let bpf_prog_pack_free handle any pointer
-         7a3d9a159b178e87306a6e989071ed9a114a1a31 bpf: Adjust argument names of arch_prepare_bpf_trampoline()
-         82583daa2efc2e336962b231a46bad03a280b3e0 bpf: Add helpers for trampoline image management
-         38b8b58ae776bf748bd1bd7a24c3fd1d10f76f45 bpf, x86: Adjust arch_prepare_bpf_trampoline return value
-         96d1b7c081c0c96cbe8901045f4ff15a2e9974a2 bpf: Add arch_bpf_trampoline_size()
-         26ef208c209a0e6eed8942a5d191b39dccfa6e38 bpf: Use arch_bpf_trampoline_size
-         3ba026fca8786161b0c4d75be396e61d6816e0a1 x86, bpf: Use bpf_prog_pack for bpf trampoline
-         2146f7fe6e028a3905f0658a1a0d8ef7c115d6c1 Merge branch 'allocate-bpf-trampoline-on-bpf_prog_pack'
-         
+  - ref: refs/heads/reconstruct-defer-work-6.8
+    old: 0000000000000000000000000000000000000000
+    new: 67d70e02027c6a7419d0d8f1587ac84c4e3d580d
+  - ref: refs/tags/reconstruct-defer-work-6.8_2023-12-06
+    old: 0000000000000000000000000000000000000000
+    new: 63d2cd23f1fd0c9128c5c39f2f3006ebc578fca7
+  - ref: refs/heads/reconstruct-defer-cleanups-6.8
+    old: 0000000000000000000000000000000000000000
+    new: f0dba2bf31c65d93a6ae3a7e07e765b9e613aa2c
+  - ref: refs/tags/reconstruct-defer-cleanups-6.8_2023-12-06
+    old: 0000000000000000000000000000000000000000
+    new: 33e15aeba87efacadaa8e05b5730edaf4ce0fb00
+  - ref: refs/heads/fix-rtmount-overflows-6.8
+    old: 0000000000000000000000000000000000000000
+    new: 4d6bd042de601ce29732060101df64725c925836
+  - ref: refs/tags/fix-rtmount-overflows-6.8_2023-12-06
+    old: 0000000000000000000000000000000000000000
+    new: 8397b6c0321d62b087e6330c0a4f5c5c29fa6633
+  - ref: refs/heads/defer-elide-create-done-6.8
+    old: 0000000000000000000000000000000000000000
+    new: d10115e529bba3a2b2b8194419a13d7dcff970dc
+  - ref: refs/tags/defer-elide-create-done-6.8_2023-12-06
+    old: 0000000000000000000000000000000000000000
+    new: c495f1ac074c31df6fecc767c9f41083fa2730c6
+  - ref: refs/heads/fix-growfsrt-failures-6.8
+    old: 0000000000000000000000000000000000000000
+    new: b74547fff97e82f4488908d4be331607084aac9b
+  - ref: refs/tags/fix-growfsrt-failures-6.8_2023-12-06
+    old: 0000000000000000000000000000000000000000
+    new: 57637172534aac0b614d4519e6488cf3840fd246
