@@ -1,80 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============1776793499509178535=="
+Content-Type: multipart/mixed; boundary="===============5339583951312009575=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 08 Dec 2023 20:38:42 -0000
-Message-Id: <170206792204.1210.9253274735105224303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 08 Dec 2023 20:44:49 -0000
+Message-Id: <170206828906.5091.1217681914919282753@gitolite.kernel.org>
 
---===============1776793499509178535==
+--===============5339583951312009575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/dev
-    old: 7baaeac86bf9349ff50006040f95ac149bf0ffa4
-    new: 7dd87072d40809e26503f04b79d63290288dbbac
-    log: revlist-7baaeac86bf9-7dd87072d408.txt
+  - ref: refs/heads/master
+    old: 081ed90a8c662455a79843add14857b356de37a4
+    new: f2e8a57ee9036c7d5443382b6c3c09b51a92ec7e
+    log: revlist-081ed90a8c66-f2e8a57ee903.txt
 
---===============1776793499509178535==
+--===============5339583951312009575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7baaeac86bf9-7dd87072d408.txt
+Content-Disposition: attachment; filename=revlist-081ed90a8c66-f2e8a57ee903.txt
 
-89b212d4afef64331b08c44e661a703d2be0970b selftests/nolibc: don't hang on config input
-a0fa60e42bbe7531aa4a32116a7cb7ea50e066f9 tools/nolibc: Use linux/wait.h rather than duplicating it
-c5a25b86f5775e645f4c22b439f836c05f3a71c4 selftests/nolibc: use EFI -bios for LoongArch qemu
-438d49cfe21187f0a45f4ba97b8ad6a84c1f0357 selftests/nolibc: anchor paths in $(srcdir) if possible
-526bbbced25d468ecc8f85ce7371499f1008c99a selftests/nolibc: support out-of-tree builds
-b623ddf277c774c3bfec05067c49cb402adc285a selftests/nolibc: add script to run testsuite
-97d993677992624800561e0d95759e6262d4bb9b tools/nolibc: error out on unsupported architecture
-a986a87af2b7504c031e16245f1754abe60669bc tools/nolibc: move MIPS ABI validation into arch-mips.h
-ad1e3f7d1e4acd159f8956487ce88a7d787ad54e selftests/nolibc: use XARCH for MIPS
-a8f3fb80d465f77123ab52c554dbd6f2c06923e4 selftests/nolibc: explicitly specify ABI for MIPS
-ec7376db4002809461af8a57d2ecd085b9ff5250 selftests/nolibc: extraconfig support
-3f28828e346653b64edb95a394c6b35e893dde0d selftests/nolibc: add configuration for mipso32be
-1e91cfc09cece99939a7c00b8d0939dd2c8b9579 selftests/nolibc: fix testcase status alignment
-6d257bda496082fe15735805603bf1683c9b065d selftests/nolibc: introduce QEMU_ARCH_USER
-ff0ab1c83f50ba745032ec1958218ad34dfda3fb selftests/nolibc: run-tests.sh: enable testing via qemu-user
-d38d5366cb1c51f687b4720277adee97074b22e9 tools/nolibc: mips: add support for PIC
-0dbd4651f3f80151910a36416fa0df28a10c3b0a selftests/nolibc: make result alignment more robust
-97470992a952b7729c305c8f3cfb91729022f59f tools/nolibc: annotate va_list printf formats
-3ec5c2aa61d9613d075507991fc430d0431c781d tools/nolibc: drop duplicated testcase ioctl_tiocinq
-db78657de89e97ada9d1abf3707b2699e1782b03 tools/nolibc: drop custom definition of struct rusage
-e81c203d6c6a4821e42b44bb21ebb133d545eeae tools/nolibc: add support for getrlimit/setrlimit
-b99c3b15310e7c7cd5f2d843289fe115ab3f8043 selftests/nolibc: disable coredump via setrlimit
-2368e1eeed6673becebdf44c9a3df12c78793bdd Merge branch 'nolibc.2023.12.08a' into HEAD
-56d9df3cda80cef0eb23b876328bcc9d9a9175aa EXP locking: Comment out virt_spin_lock() check in queued_spin_lock_slowpath()
-266d878e2d684a808318ed7568a1fd6b3bcb63c9 EXP rcutorture: Test NMI diagnostics
-7f4669bf39060ecb2c0ef31d2c945909a880b476 EXP qspinlock: Diagnostics for excessive lock-drop wait loop time
-dca3955ac43eff23ed48d4110b4affc933421a09 EXP qspinlock: Lockless diagnostics for excessive spin-drop wait loop time
-2e186e269f655c29d29daa0a2c28dbab020c797e EXP x86/nmi: Add a set_nmi_torture() function to control NMI testing
-4a8e39a6664210b2238f8166a435a8ee0af31f74 EXP qspinlock: debugging
-4884ca467abd6ada01c8a64e59577a83a2fb1d0b EXP locktorture: Add RCU CPU stall-warning notifier stub
-3b4e6660fae18ffd81e82228242b2f1543f7e9fa EXP qspinlock: Add spinlock_dump() to dump lock state
-c17c6fbc48991503ba136626ce7e768d4562e1b1 EXP locktorture: invoke spinlock_dump() to dump lock state
-4636f92e5061decdb66c030b54cdf13b4f4e8b1b locktorture: Add indication of task write-holding lock
-a45aff6d05aeacc995df07051175a6a373c98e34 EXP qspinlock: Dump full qnode structure
-83c83ed74c8f29da8b7ea0a6e7b5cbaf2b804fe3 locktorture: Dump CPUs running writer tasks when RCU stalls
-c2d1ab0b9ba41e0684a0fbb15e843b2aaffd5637 locktorture: Prevent spinloop from escaping lock-held diagnostics
-f1e5d47f2ce51b2ee5776589d3dce921f0e4b52c EXP sched: Export dump_cpu_task() to GPL modules for locktorture
-3ed32718bedf77729fd108063065fba84c9f449c doc: Spinlocks are implied RCU readers
-90f9f4d8bad33ff2a06dae06b6daa50ef3e5af77 doc: Make whatisRCU.rst note that spinlocks are RCU readers
-e171a6bb8baf57f16c613b7e169fb57d6b4cd03f doc: Make checklist.rst note that spinlocks are implied RCU readers
-ef064867130b42dafd6708f5ae9c48155c818601 doc: Add CONFIG_RCU_STRICT_GRACE_PERIOD to checklist.rst
-77e80f85afe91e4b2f1070782cf7d50c8842a31f doc: Add EARLY flag to early-parsed kernel boot parameters
-0bfb2f1a0bc7368283d4046e6c59a48d9687db80 rcu-tasks: Repair RCU Tasks Trace quiescence check
-3a1748cb4acdcb2c542de8b4d099974434deffba rcu: Rename jiffies_till_flush to jiffies_lazy_flush
-29dc86f451758972893af419efb843a1b818241a rcu/nocb: Remove needless LOAD-ACQUIRE
-c49a07c179d83ceddc5273270a58b9a97fd68769 rcu/nocb: Remove needless full barrier after callback advancing
-71ace151def7bf377806622d40dbe2ed497d504e srcu: Use try-lock lockdep annotation for NMI-safe access.
-bade2882316948e36c08a6850e897efe9bb3fe62 rcu: Provide a boot time parameter to control lazy RCU
-d2ca2b6d6dc703e7a4609af672b40606b6914291 context_tracking: Fix kerneldoc headers for __ct_user_{enter,exit}()
-7dd87072d40809e26503f04b79d63290288dbbac btrfs: Adjust ->last_trans ordering in btrfs_record_root_in_trans()
+0550d4604e2ca4e653dc13f0c009fc42106b6bfc RDMA/core: Fix uninit-value access in ib_get_eth_speed()
+efb9cbf66440482ceaa90493d648226ab7ec2ebf RDMA/hns: Fix unnecessary err return when using invalid congest control algorithm
+ba12ab66aa83a2340a51ad6e74b284269745138c RDMA/irdma: Do not modify to SQD on error
+bd6da690c27d75cae432c09162d054b34fa2156f RDMA/irdma: Add wait for suspend on SQD
+b6f09b16558f31d93cdcda3cab90a2d309a7c823 MAINTAINERS: Add Chengchang Tang as Hisilicon RoCE maintainer
+3ee7ecd712048ade6482bea4b2f3dcaf039c0348 RDMA/rtrs-srv: Do not unconditionally enable irq
+3e44a61b5db873612e20e7b7922468d7d1ac2d22 RDMA/rtrs-clt: Start hb after path_up
+ed1e52aefa16f15dc2f04054a3baf11726a7460e RDMA/rtrs-srv: Check return values while processing info request
+3a71cd6ca0ce33d1af019ecf1d7167406fa54400 RDMA/rtrs-srv: Free srv_mr iu only when always_invalidate is true
+c4d32e77fc1006f99eeb78417efc3d81a384072a RDMA/rtrs-srv: Destroy path files after making sure no IOs in-flight
+6d09f6f7d7584e099633282ea915988914f86529 RDMA/rtrs-clt: Fix the max_send_wr setting
+0c8bb6eb70ca41031f663b4481aac9ac78b53bc6 RDMA/rtrs-clt: Remove the warnings for req in_use check
+422b19f7f006e813ee0865aadce6a62b3c263c42 RDMA/bnxt_re: Correct module description string
+2b78832f50c4d711e161b166d7d8790968051546 RDMA/irdma: Fix UAF in irdma_sc_ccq_get_cqe_info()
+c467e97f079f0019870c314996fae952cc768e82 md/raid6: use valid sector values to determine if an I/O should wait on the reshape
+a134cd8dfb8cdfd8f019a7ec2ad5cb8e855f0245 Merge tag 'md-fixes-20231201-1' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.7
+f7b32e785042d2357c5abc23ca6db1b92c91a070 io_uring: fix mutex_unlock with unreferenced ctx
+5c687c287c46fadb14644091823298875a5216aa nvme: introduce helper function to get ctrl state
+e6e7f7ac03e40795346f1b2994a05f507ad8d345 nvme: ensure reset state check ordering
+7be866b1cf0bf1dfa74480fe8097daeceda68622 nvme-ioctl: move capable() admin check to the end
+29ac4b2f9263f52ba12fa35832cc6506ce3b4793 nvme: improve NVME_HOST_AUTH and NVME_TARGET_AUTH config descriptions
+20dc66f2d76b4a410df14e4675e373b718babc34 nvme: prevent potential spectre v1 gadget
+839a40d1e730977d4448d141fa653517c2959a88 nvme: fix deadlock between reset and scan
+4fbc3a52cd4d14de3793f4b2c721d7306ea84cf9 RDMA/core: Fix umem iterator when PAGE_SIZE is greater then HCA pgsz
+0a5ec366de7e94192669ba08de6ed336607fd282 RDMA/irdma: Ensure iWarp QP queue memory is OS paged aligned
+03769f72d66edab82484449ed594cb6b00ae0223 RDMA/irdma: Fix support for 64k pages
+e3e82fcb79eeb3f1a88a89f676831773caff514a RDMA/irdma: Avoid free the non-cqp_request scratch
+e53f7b54b1fdecae897f25002ff0cff04faab228 io_uring/kbuf: Fix an NULL vs IS_ERR() bug in io_alloc_pbuf_ring()
+9865346b7e8374b57f1c3ccacdc77846c6352ff4 io_uring/kbuf: check for buffer list readiness after NULL check
+235f2b548d7f4ac5931d834f05d3f7f5166a2e72 scsi: be2iscsi: Fix a memleak in beiscsi_init_wrb_handle()
+f2d87a759f6841a132e845e2fafdad37385ddd30 md: fix missing flush of sync_work
+c9f7cb5b2bc968adcdc686c197ed108f47fd8eb0 md: don't leave 'MD_RECOVERY_FROZEN' in error path of md_set_readonly()
+f52f5c71f3d4bb0992800139d2f35cf9f6f6e0ee md: fix stopping sync thread
+7d2affce33209662f5a0b3b0fe60f41b948c279a Merge tag 'md-fixes-20231206' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.7
+107b4e063d78c300b21e2d5291b1aa94c514ea5b nvme-pci: Add sleep quirk for Kingston drives
+22b9a8964ead09e4bc0f03305cadee353653d790 Merge tag 'nvme-6.7-2023-12-7' of git://git.infradead.org/nvme into block-6.7
+705318a99a138c29a512a72c3e0043b3cd7f55f4 io_uring/af_unix: disable sending io_uring over sockets
+b39113349de60e9b0bc97c2e129181b193c45054 md: split MD_RECOVERY_NEEDED out of mddev_resume
+c6d3ab9e76dc01011392cf8309f7e684b94ec464 Merge tag 'md-fixes-20231207-1' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.7
+8aa74869d2e9d868b1c4598eecc1a89f637a92cf Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+689659c988193f1e16bc34bfda3f333b11528c1f Merge tag 'io_uring-6.7-2023-12-08' of git://git.kernel.dk/linux
+d71369dbe0c5c1217dc681d6871b7918b2996de6 Merge tag 'block-6.7-2023-12-08' of git://git.kernel.dk/linux
+f2e8a57ee9036c7d5443382b6c3c09b51a92ec7e Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============1776793499509178535==--
+--===============5339583951312009575==--
