@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Fri, 08 Dec 2023 14:57:29 -0000
-Message-Id: <170204744979.10205.13454289492912999356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 08 Dec 2023 15:00:48 -0000
+Message-Id: <170204764866.13098.9768180169218039651@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 8980f4f1f730119749138c62f7e9f95a259c87d6
-    new: b0656c2cf14da4b43ee7a446bfa9c5f1d3c044b0
+    old: b640347284c0e1602267786ea52aa1cf4cf70485
+    new: 3d41844703fe3ceffa5249ee556cf39191f95c7b
     log: |
-         71188eb0e752d26fe372fd06c20698aea89e3446 test-vcp: Fix CCC value endianness
-         b0656c2cf14da4b43ee7a446bfa9c5f1d3c044b0 Pattern match on service- and manufacturer data
+         1581c2ec0214f645174a1a1f6c22c2fbe9d26c3a Bluetooth: ISO: Avoid creating child socket if PA sync is terminating
+         1e2c34ecfee7cab3706a1b7a2aa37eebcc4456bc Bluetooth: hci_conn: Check non NULL function before calling for HFP offload
+         3d41844703fe3ceffa5249ee556cf39191f95c7b Bluetooth: qca: Support HFP offload for QCA2066
          
