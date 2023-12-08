@@ -1,34 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Fri, 08 Dec 2023 23:02:06 -0000
-Message-Id: <170207652688.7609.9229848102460921409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 08 Dec 2023 23:03:53 -0000
+Message-Id: <170207663318.8326.6738328885212350210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/devel
-    old: 253bad7f0436284ee0413b1c615a1d4be96893de
-    new: 583b5273a624e7d87b7038404cb1524450abdfbc
+  - ref: refs/heads/master
+    old: 8b7b0e5fe47de90ba6c350f9abece589fb637f79
+    new: 4af20ab9edee62aa2bb5b6f31b7f029de14e0756
     log: |
-         731b30f6aab7c45bb89372c3c05b711cee362b69 pinctrl: renesas: Mark local variable with const in ->set_mux()
-         d98d73855f48e9f97f8f08d2376fb925ffc58c3f pinctrl: core: Make pins const unsigned int pointer in struct group_desc
-         be1d5f57366c3181b3df4b818caa2cd8a5c95490 pinctrl: equilibrium: Convert to use struct pingroup
-         3859a6fdf0edd54e05d0a35a2b418dbf85d43dc1 pinctrl: keembay: Convert to use struct pingroup
-         583b5273a624e7d87b7038404cb1524450abdfbc pinctrl: nuvoton: Convert to use struct pingroup and PINCTRL_PINGROUP()
-         
-  - ref: refs/heads/for-next
-    old: c88c6f2a2502f083259ca2e205dd1d7d8d897e07
-    new: 53e320b0dc0481759afc588cf69cceef9ec0963a
-    log: |
-         731b30f6aab7c45bb89372c3c05b711cee362b69 pinctrl: renesas: Mark local variable with const in ->set_mux()
-         d98d73855f48e9f97f8f08d2376fb925ffc58c3f pinctrl: core: Make pins const unsigned int pointer in struct group_desc
-         be1d5f57366c3181b3df4b818caa2cd8a5c95490 pinctrl: equilibrium: Convert to use struct pingroup
-         3859a6fdf0edd54e05d0a35a2b418dbf85d43dc1 pinctrl: keembay: Convert to use struct pingroup
-         583b5273a624e7d87b7038404cb1524450abdfbc pinctrl: nuvoton: Convert to use struct pingroup and PINCTRL_PINGROUP()
-         53e320b0dc0481759afc588cf69cceef9ec0963a Merge branch 'devel' into for-next
+         92e1567ee3e3f6f160e320890ac77eec50bf8e7d bpf: Add some comments to stack representation
+         6b4a64bafd107e521c01eec3453ce94a3fb38529 bpf: Fix accesses to uninit stack slots
+         2929bfac006d8f8e22b307d04e0d71bcb84db698 bpf: Minor cleanup around stack bounds
+         4af20ab9edee62aa2bb5b6f31b7f029de14e0756 Merge branch 'bpf-fix-accesses-to-uninit-stack-slots'
          
