@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Fri, 08 Dec 2023 18:14:29 -0000
-Message-Id: <170205926989.25405.10329444226748046303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/tuna/tuna
+Date: Fri, 08 Dec 2023 18:22:35 -0000
+Message-Id: <170205975503.31531.10338498802839700727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/utils/tuna/tuna
+user: jkacur
 changes:
-  - ref: refs/tags/mm-everything-2023-12-08-18-14
-    old: 0000000000000000000000000000000000000000
-    new: b9ac20c63c5944f78d61096dee207360b12529af
+  - ref: refs/heads/getopt
+    old: 2d0f78751760bcc737bc4b3530d77b05aaa1c286
+    new: f72146c1548c08ccd1135323355941dc6bece81e
+    log: |
+         29ee3b08da1b855cd4744223c7fd6a6599e5e11a tuna: Remove distutils from setup
+         2cac6f2f0280ab45a1436881e473bf80f658068c Add SPDX license identifiers
+         f72146c1548c08ccd1135323355941dc6bece81e tuna: Remove spec file from git
+         
