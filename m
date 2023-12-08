@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 08 Dec 2023 21:54:15 -0000
-Message-Id: <170207245570.23123.14721835859876228252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 08 Dec 2023 22:02:09 -0000
+Message-Id: <170207292926.29146.5961030005016291466@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 2dc012b4836b6e6c537e6fceb04b1cdc7325331e
-    new: 3e96331324a3cd37cdea31e907a4f120f0031f7c
+    old: 53e8d96ae134afc4bb3c7cd4f5293c75473a0041
+    new: 61e7b2bb89a3738a6bf35e7c0ebd9bb3de0503e6
     log: |
-         3e96331324a3cd37cdea31e907a4f120f0031f7c Fri Dec  8 09:50:59 PM UTC 2023
+         61e7b2bb89a3738a6bf35e7c0ebd9bb3de0503e6 Update IORING_OP_FIXED_FD_INSTALL API
          
