@@ -1,47 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8279843040458512440=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Fri, 08 Dec 2023 09:30:45 -0000
-Message-Id: <170202784564.6876.12431779360230341131@gitolite.kernel.org>
-
---===============8279843040458512440==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 08 Dec 2023 10:04:40 -0000
+Message-Id: <170202988091.10824.15570254812718878969@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/b4/slub-percpu-caches
-    old: 0000000000000000000000000000000000000000
-    new: 4e89499577fef3df8c54272ba969ff07cd6a2c17
-
---===============8279843040458512440==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1702027839 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1702027839-33fe0285f0d8b5b34ec02c6b81bf4c9a3cf10139
-
-0000000000000000000000000000000000000000 4e89499577fef3df8c54272ba969ff07cd6a2c17 refs/heads/b4/slub-percpu-caches
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmVy4j8ACgkQu+CwddJF
-iJo7Ogf/bg+vSoejQbC7y3e2gepiIt2GJ7Iyn0KTI5zPjmQdwzE1yEWJW8UuTagA
-RQmAPcP7zjifz2RXIb0Ee5OCDeewebOP6OrLMc5zuRJVei22k0++zUoADHiiYMwo
-Jt8H5aARXAa0FXyHpTRhowM4LQR3VHIhsYIfKimk9SH6WrbPYjHcxaxWVQksv4fT
-yDftFKVw9G/MuB0ZARR1+iz/SLn/eAK+2CL629UE+ol+f6aUU5nWDVYXnkYwXd0o
-/zq+Zmdb0vf1ZNluEdSx9MPP3D1Au2k9WZxyq6lGr2ta/GbmDqhqehkffRo+1HXK
-TYnaGdqHHWRetzCF66tFohFVQRCbOg==
-=NZHi
------END PGP SIGNATURE-----
-
---===============8279843040458512440==--
+  - ref: refs/heads/master
+    old: c40de72e42fc71e799868ec28d14c04851b70ad6
+    new: bed125cbb74b727fc0a0cf3906427b2666b6ef84
+    log: |
+         1e7377547795cc6c9c2b900a74177e0fe2e195dc Fixes for 6.6
+         5a7b94d2a7f4e66202df1506bfb29155aabe5ad2 Fixes for 6.1
+         e6004880df526545c90a7aa5f60dbd6222c5f9dd Fixes for 5.15
+         d41e8c6f19102270e350ef5ad6705cdb044e9b83 Fixes for 5.10
+         265e7bbc1cc7acffe65ab0e022d224f0c8c3d388 Fixes for 5.4
+         d182bfeabab36deb77e04c643b5705d93f8e2a87 Fixes for 4.19
+         bed125cbb74b727fc0a0cf3906427b2666b6ef84 Fixes for 4.14
+         
