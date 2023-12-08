@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0256102541513475688=="
+Content-Type: multipart/mixed; boundary="===============6234188963286384933=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 08 Dec 2023 08:50:00 -0000
-Message-Id: <170202540014.9180.12081253091158408920@gitolite.kernel.org>
+Date: Fri, 08 Dec 2023 09:04:51 -0000
+Message-Id: <170202629130.19126.10044099204888666453@gitolite.kernel.org>
 
---===============0256102541513475688==
+--===============6234188963286384933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
-    old: b0b2981c49ff43f2c547c3a7c82869d6135cfb9a
-    new: fd1e5745f87a9e06974d2f42d22b3e1682c99105
-    log: revlist-b0b2981c49ff-fd1e5745f87a.txt
+  - ref: refs/heads/for-next
+    old: 5c69f40cff48709e8beafa081759f1e23094f247
+    new: 52cff57c4356cdbc6059cac327760f2797dc24a7
+    log: revlist-5c69f40cff48-52cff57c4356.txt
 
---===============0256102541513475688==
+--===============6234188963286384933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b0b2981c49ff-fd1e5745f87a.txt
+Content-Disposition: attachment; filename=revlist-5c69f40cff48-52cff57c4356.txt
 
 0b6240d697a96eaa45a2a5503a274ebb4f162fa3 arm64: dts: rockchip: Expand reg size of vdec node for RK3328
 35938c18291b5da7422b2fac6dac0af11aa8d0d7 arm64: dts: rockchip: Expand reg size of vdec node for RK3399
@@ -55,5 +55,6 @@ d4cb68a5d3a1ed30ecaf1591eb901523faa13496 arm64: dts: imx93: correct mediamix pow
 37f3d6108730713c411827ab4af764909f4dfc78 arm64: dts: rockchip: Fix eMMC Data Strobe PD on rk3588
 7c9bb19045835946ad85811d7b5e8d21f53f52a0 Merge tag 'imx-fixes-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
 fd1e5745f87a9e06974d2f42d22b3e1682c99105 Merge tag 'v6.7-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+52cff57c4356cdbc6059cac327760f2797dc24a7 Merge branch 'arm/fixes' into for-next
 
---===============0256102541513475688==--
+--===============6234188963286384933==--
