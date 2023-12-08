@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 08 Dec 2023 18:49:11 -0000
-Message-Id: <170206135192.18413.6766766829292323140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 08 Dec 2023 18:53:26 -0000
+Message-Id: <170206160628.21567.15186947509359334318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/main
-    old: bd4a816752bab609dd6d65ae021387beb9e2ddbd
-    new: c12296bbecc488623b7d1932080e394d08f3226b
+  - ref: refs/heads/x86/tdx
+    old: 7ba6ac73f8981bd5ae463108757d0d25388affc4
+    new: 1363d55c108dfb6280f55a7f5b149017879fe23b
     log: |
-         c12296bbecc488623b7d1932080e394d08f3226b team: Fix use-after-free when an option instance allocation fails
+         45f31973967dcf564686ce5d645acc0b86fff8f2 x86/mce: Differentiate real hardware #MCs from TDX erratum ones
+         028163718ce662a3b5431897078b78d1d6c0b1d7 Documentation/x86: Add documentation for TDX host support
+         1363d55c108dfb6280f55a7f5b149017879fe23b x86/virt/tdx: Disable TDX host support when kexec is enabled
          
