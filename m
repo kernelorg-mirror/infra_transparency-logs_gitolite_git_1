@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 08 Dec 2023 17:39:13 -0000
-Message-Id: <170205715311.32068.6298367269105305013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 08 Dec 2023 17:50:11 -0000
+Message-Id: <170205781170.8387.528157129022433783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 483af466e4ee3326d150877ea0626e95c67a395e
-    new: 8b7b0e5fe47de90ba6c350f9abece589fb637f79
-    log: |
-         8b7b0e5fe47de90ba6c350f9abece589fb637f79 bpf: Load vmlinux btf for any struct_ops map
-         
+  - ref: refs/heads/v2_20231208_andriy_shevchenko_spi_pxa2xx_update_documentation
+    old: 0000000000000000000000000000000000000000
+    new: 8bc2a3634b87e2235535b5527f83ff529df68b56
