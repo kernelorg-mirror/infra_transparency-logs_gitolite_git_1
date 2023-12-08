@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 08 Dec 2023 20:26:45 -0000
-Message-Id: <170206720547.24597.9619996126739471200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Fri, 08 Dec 2023 20:32:16 -0000
+Message-Id: <170206753654.28235.4459055322971390477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/master
-    old: bc7cd321b93af63c85c377624732a0cd9e358470
-    new: 53e8d96ae134afc4bb3c7cd4f5293c75473a0041
+  - ref: refs/heads/rpmsg-next
+    old: 98b1cc82c4affc16f5598d4fa14b1858671b2263
+    new: 75d6872907cc8827248f4d5f803c03e1175c3158
     log: |
-         53e8d96ae134afc4bb3c7cd4f5293c75473a0041 man/io_uring_prep_fixed_fd_install.3: tweaks
+         75d6872907cc8827248f4d5f803c03e1175c3158 doc: rmpsg: Update with rpmsg_endpoint
          
