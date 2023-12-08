@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5115335734626389671=="
+Content-Type: multipart/mixed; boundary="===============3314233230144282308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dennis/percpu
-Date: Fri, 08 Dec 2023 07:16:22 -0000
-Message-Id: <170201978203.3315.957511207610118689@gitolite.kernel.org>
+Date: Fri, 08 Dec 2023 07:16:26 -0000
+Message-Id: <170201978664.3395.13534373561616056239@gitolite.kernel.org>
 
---===============5115335734626389671==
+--===============3314233230144282308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dennis/percpu
 user: dennis
 changes:
-  - ref: refs/heads/master
-    old: 706a741595047797872e669b3101429ab8d378ef
-    new: 33cc938e65a98f1d29d0a18403dbbee050dcad9a
-    log: revlist-706a74159504-33cc938e65a9.txt
-  - ref: refs/heads/for-6.8
-    old: 0000000000000000000000000000000000000000
-    new: 70bf08b1b7d9649a428ab4839f289029d5d3c94d
+  - ref: refs/heads/for-next
+    old: 3fcf62f24c80e2472f472778f317e062841c2d37
+    new: e93030ae23af9ac749def96783183d1e2489e58f
+    log: revlist-3fcf62f24c80-e93030ae23af.txt
 
---===============5115335734626389671==
+--===============3314233230144282308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-706a74159504-33cc938e65a9.txt
+Content-Disposition: attachment; filename=revlist-3fcf62f24c80-e93030ae23af.txt
 
-21eb2bfe2748b238f06983e4308cb30611371605 LoongArch: Disable module from accessing external data directly
-71945968d8b128c955204baa33ec03bdd91bdc26 LoongArch: Mark __percpu functions as always inline
-affef66b65889a0ea0060e13e5f7fe569897d787 LoongArch: Relax memory ordering for atomic operations
 a2ccf46333d7b2cf9658f0d82ac74097c1542fae LoongArch/smp: Call rcutree_report_cpu_starting() earlier
 add28024405ed600afaa02749989d4fd119f9057 LoongArch: Add more instruction opcodes and emit_* helpers
 7111afe8fb5f15e11b8eff90d7aed1c58e3b1167 LoongArch: BPF: Support sign-extension load instructions
@@ -1053,5 +1047,8 @@ deb4b9dd3b539c8331bbc0d64dff3b4fb57296ef Merge tag 'for-linus-6.7a-rc4-tag' of g
 55abae438c3cf39f66c3e0cb922c3d915363afb5 Merge tag 'firewire-fixes-6.7-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 968f35f4ab1c0966ceb39af3c89f2e24afedf878 Merge tag 'v6.7-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 33cc938e65a98f1d29d0a18403dbbee050dcad9a Linux 6.7-rc4
+a95c15a43f4a519c7c5bf19999ee08c59be066fc mm: Introduce flush_cache_vmap_early() and its riscv implementation
+70bf08b1b7d9649a428ab4839f289029d5d3c94d riscv: Enable pcpu page first chunk allocator
+e93030ae23af9ac749def96783183d1e2489e58f Merge branch 'for-6.8' into for-next
 
---===============5115335734626389671==--
+--===============3314233230144282308==--
