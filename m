@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3310696477235327872=="
+Content-Type: multipart/mixed; boundary="===============0561006782236176472=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sat, 09 Dec 2023 01:07:27 -0000
-Message-Id: <170208404715.2559.14862640570933477120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 09 Dec 2023 01:07:34 -0000
+Message-Id: <170208405423.2699.6284883473596112952@gitolite.kernel.org>
 
---===============3310696477235327872==
+--===============0561006782236176472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/asoc-6.8
     old: d685aea5e0a89b66679e5266320ab2ba4378c754
     new: 885f68fec0b05a0cc9a2d2b7c24f6986785f44a1
     log: |
@@ -28,28 +28,28 @@ changes:
          885f68fec0b05a0cc9a2d2b7c24f6986785f44a1 GPIO descriptor cleanup for some Wolfson codecs
          
 
---===============3310696477235327872==
+--===============0561006782236176472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1702084045 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1702084044-fa1d7703eddf4a939102ff4075c0e59ead83fa19
+pusher Mark Brown <broonie@kernel.org> 1702084052 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1702084051-02b8679e138a54166e2879ce7d87008625005147
 
-d685aea5e0a89b66679e5266320ab2ba4378c754 885f68fec0b05a0cc9a2d2b7c24f6986785f44a1 refs/heads/for-6.8
+d685aea5e0a89b66679e5266320ab2ba4378c754 885f68fec0b05a0cc9a2d2b7c24f6986785f44a1 refs/heads/asoc-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVzvc0THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0JK8B/sGuvBxgrmcsiVCBI2kqf7hir3lkNd3
-yKC4NOoIsS3GwfwHzYlvYPBPCrB5JQkwZ/DpOZkdUv7RyvWJrB3j1q7NvQX9E709
-+Rfqpuvr0BMkxs3jbXmCdjT9b3oJUaHl+77s5gukfAqaYOLyYQKO/rug2gWGMUoY
-X4wbX3W0eMoSY5AQhB0bgn+e6qkvc+Raf8QgOAPNsmlvKPzzXRQQ1rnjcjJ16aN4
-XWfV42chbfx5dvb8g33nQiZNLoHtzTLpIv19kTrX/XiQs/NkPsChhuyEEU86jDd4
-F3qxUAqhTuMFCa3FIgVhN6SxpBFefrvqrhUSn0/0rX4t7xLqi66ZVs1U
-=CAJT
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmVzvdQTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0BmzB/99kpW9H7F4hVQmI7xq1zvgoi/yKNKs
+SwhGvpcRkafb3lMY0jZ8ZYLIyP9FXXLTZQ2AyLtwf8g3Q8xwCwI2iPDuul/L2prR
+l5AEZeNvRraUcbiaXyZHO4DevuXYo8hHxUw9qVCLXIxI/L6LIu1PdEqysjqBln2z
+8CSnwtLID/NUzxEoenxmOhhJG1DamkMAYEPB3tBXHrqQ0uNTQMGn+NJhtVAHK9Ly
+I84LL3VZRjtW7sdjVl9D01fFPgCasIp4t/lmJUCEyl2XsxTuXhw5JABZoeE7Jw57
+AWhtkzWwjKfueL1GB87PPuhrgFFbBfid0Glig0bzZ6hJLKmlN1U7CMgR
+=vgvX
 -----END PGP SIGNATURE-----
 
---===============3310696477235327872==--
+--===============0561006782236176472==--
