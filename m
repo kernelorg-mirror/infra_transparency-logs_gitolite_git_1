@@ -1,23 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 09 Dec 2023 00:16:00 -0000
-Message-Id: <170208096040.29396.14054389639381172238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sat, 09 Dec 2023 00:16:16 -0000
+Message-Id: <170208097660.29571.16576383760398136182@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: a1664b991ac12b872be859ca03529c68c72795a2
-    new: a45f1e46274256852990c479fbb1198a7d84529b
-    log: |
-         f4e6064c97c050bd9904925ff7d53d0c9954fc7b qca_debug: Prevent crash on TX ring changes
-         96a7e861d9e04d07febd3011c30cd84cd141d81f qca_debug: Fix ethtool -G iface tx behavior
-         1057812d146dd658c9a9a96d869c2551150207b5 qca_spi: Fix reset behavior
-         271f31d5967b9480824f5bf9b6665aea65ad2ce0 Merge branch 'qca_spi-collection-of-major-fixes'
-         a45f1e46274256852990c479fbb1198a7d84529b MAINTAINERS: remove myself as maintainer of SMC
-         
+  - ref: refs/heads/20231208_linus_walleij_gpio_descriptor_cleanup_for_some_wolfson_codecs
+    old: 729f02ec02ae12e5d8a53171bd37e9de56f33677
+    new: 0000000000000000000000000000000000000000
