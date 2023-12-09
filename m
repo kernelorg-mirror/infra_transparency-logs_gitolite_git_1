@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 09 Dec 2023 01:11:38 -0000
-Message-Id: <170208429873.6220.15241168212401376777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 09 Dec 2023 01:20:18 -0000
+Message-Id: <170208481873.12767.17212306221323012162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 09115c33e6ec4a98a0609ac5fa702b7fe566d8f9
-    new: 32fa058398624166dd04ff4af49cfef69c94abbc
+  - ref: refs/heads/main
+    old: bf17b36ccdd5b7b9dd482d7753bcb9aff2d21d39
+    new: a3c205d0560f63ff02516b6d9fc3348dc34251c8
     log: |
-         32fa058398624166dd04ff4af49cfef69c94abbc libbpf: Add pr_warn() for EINVAL cases in linker_sanity_check_elf
+         a3c205d0560f63ff02516b6d9fc3348dc34251c8 ipv6: do not check fib6_has_expires() in fib6_info_release()
          
