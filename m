@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Sat, 09 Dec 2023 00:26:04 -0000
-Message-Id: <170208156495.4056.14740057256585826560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 09 Dec 2023 00:56:59 -0000
+Message-Id: <170208341962.26062.164850339002831290@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/tags/icc-6.7-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 036642066a22d72ad0a718e23facbe6acdf2e557
+  - ref: refs/heads/master
+    old: 4af20ab9edee62aa2bb5b6f31b7f029de14e0756
+    new: 1720c42b90c8f14ffcb2f2f39a1abafc82a5b22e
+    log: |
+         1720c42b90c8f14ffcb2f2f39a1abafc82a5b22e selftests/bpf: fix timer/test_bad_ret subtest on test_progs-cpuv4 flavor
+         
