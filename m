@@ -1,56 +1,88 @@
-Content-Type: multipart/mixed; boundary="===============1691121989455880271=="
+Content-Type: multipart/mixed; boundary="===============0281272412826240747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 09 Dec 2023 12:50:54 -0000
-Message-Id: <170212625492.4735.13752570432127728859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 09 Dec 2023 12:51:15 -0000
+Message-Id: <170212627515.4984.6111079398570192262@gitolite.kernel.org>
 
---===============1691121989455880271==
+--===============0281272412826240747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 84cfbcb649044d29bda75206b60a8a05c6d48050
-    new: 86afac4bb56b9636184ef9f765025287d08c9a42
-    log: |
-         86afac4bb56b9636184ef9f765025287d08c9a42 6.6-stable patches
-         
+  - ref: refs/heads/tty-next
+    old: 173ebdedcd844a39bb884afc1c1f97b74319dda6
+    new: ae5af710f369a4d88792bf1d9da317884156cd87
+    log: revlist-173ebdedcd84-ae5af710f369.txt
 
---===============1691121989455880271==
+--===============0281272412826240747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702126253 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1702126249-f4d526d4dfdd7da9ace94a1f1c6f28fd4e2499e3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702126274 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1702126273-4219153d7f79317845de042a40026d276b4e7fc5
 
-84cfbcb649044d29bda75206b60a8a05c6d48050 86afac4bb56b9636184ef9f765025287d08c9a42 refs/heads/master
+173ebdedcd844a39bb884afc1c1f97b74319dda6 ae5af710f369a4d88792bf1d9da317884156cd87 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV0Yq0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rYsP/1iXEdcr3+QOK/4HQShm
-HPlN+F5tdX7e2ur2/jMhXcEfVvbLU3Gnr0ZgyKD/0hgPW75bZKFgsIfdrRXJNlip
-BbDbAwtD/V5p18RkUKJia6ws5IuhOlrcxigZdia6UUcvAl+laLLVApb/eefIhQbL
-51sY9FfO5JaPkPgwUkfaGtAqgZFqHhc0SA5QAD5GEXXVopyG0kYcGGVG+2fzdBic
-OvWwyxeHLqZOHhphMIzRIJuoaLE5syA76FJlB28Pp6lE0U2wj7z1D6hcIPxsDHe5
-UiryxFpf6lvR80dTkkTzGBykeZ07ra8ahj3DHSoYK2Kn9RmGTVFS7vyH5NVCRDWU
-wTa8yHVbDYwfElJkCuogYAPHkybpppLYWPcouXfSPMm0d5G5daXj6UoxWiw4yNr5
-qbQO9JwpHrbPj4Gkgvdm0/zKymkKHsZNmTyGtk1Y2Add2QziCxnMlL/KkkEb49jv
-4V/hY7EgVf0yC9QZCy9WCCrvsrmZqlsZUXZVg3k00jteSK4BEXhctfVjVOjeRM8J
-0MHF/4lK5JTG9hbJC0bx7gbsiNc6eJpMYLlSpL/HMxLFxVrODIsS7k8e0dpXVMyT
-dEUvudt9Fg9973mkPNLt05wRUuXuaRzOyM3Eyh/LOEXp35beJctx70UTD7iiz136
-27uu9YnVOdl2zcs9Mo6PvHhk
-=vy6v
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV0YsIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f+IP/idsLzjiDOol9aVzzos5
+gNeeN6hnpiIvtfMyXXU3vDx1Qfw0GiHSvlauqqUDccEYwiPjFWq5JqMG+9dWOTmT
+fm768LigBkPJLo3HPE2v7tJIkqSuyOu29boCzW57nVs040aw1tr+HVOA7hGYDXhb
+8g0k+vcSn+UY9g+jzkywUaeXpFaL9fhXpX6u57OI01GlHz1/W0R3PCB00LsgPCxI
+6SQjsPzGwVv9gidzofPx23uBxgjoPrhmYJ8l3J5h0stCF2wi3ovUEQaznFUNa3L+
+Ex8e8wnCOtsZ8sZyTvoC8whhvQzuK/+EdCFg309AzV13yLwhxW3y822mh+/PH4Km
+gBnelGP9B1qUxzs/MtkfCl6YvjsrLGdLeSLn3/2HIn3R9FvycEruX60Hk4ck485r
+apHRSEhdixywKP2lcxDKU7p/qeaNPoJ69LOrum+813CRLOoEMw5jeRyLvV/Iuger
+jWwoY5Y4yQW/hNhpizZ+cmfybSQwWug+qHqy6aLGbDFNS3yJ921iM8q1orOiM+RD
+9DnUru6HipY/y5CaujiKeymHjzOcVlszkKXvT3MfF8+ob2O49yxliaCAlOWoDCfL
+MGgNCeaeQnALHbvbJIMAwdbVQKpuaLXw5IRJKXSA/JiyvWKyZtebC37gikNxy8vS
+Nao5/OEIRZzit5YlK7FEpg9i
+=NRFP
 -----END PGP SIGNATURE-----
 
---===============1691121989455880271==--
+--===============0281272412826240747==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-173ebdedcd84-ae5af710f369.txt
+
+e01b5712a80d04cdb4699d6a0b3d5f6e838425d5 tty: goldfish: use bool for is_write parameter
+e93102bea4a1935403d2aadce567fbd1b9e853e0 tty: mmc: sdio_uart: switch sdio_in() to return u8
+49943393c9f0be61fd494a884851aa117cd72382 tty: switch tty_port::xmit_* to u8
+3a00da027946cd08db1c1be2de4620950bbdf074 tty: make tty_operations::send_xchar accept u8 char
+4e8d8878145f1478886e1630c44113ad2c2eb99d tty: core: the rest to u8
+fbdeead9598ca202bf30c5c4b14f3768db99ca45 tty: ami: use u8 for characters and flag
+03e5af525750d83228f7177dbe9c9ae6ccd961e6 tty: bcm: convert to u8 and size_t
+359bbdc0cdfc8504c617f7a00af959a17277d4f4 tty: con3215: convert to u8 and size_t
+e17934c1bcc1aeb6289309f300e2541d688ee0d6 tty: con3270: convert to u8 and size_t
+0d08abb98331a56c4ec84539be7c401321a2eb0c tty: ehv_bytechan: convert to u8 and size_t
+f3fb7367af89457a8818bc93e35a274ccb5b9e44 tty: goldfish: convert to u8 and size_t
+f32fcbedbe9290565e4eac3fd7c4c451d5478787 tty: hvc: convert to u8 and size_t
+2f982313279baa066f03f4816f3fa3521a4d41cb tty: ipoctal: convert to u8 and size_t
+b7a43d0c878169037c7a08985b1d444f1e4b0629 tty: m68k: nfcon: convert to u8 and size_t
+ce7cbd9a6c81b5fc899bbc730072a1bddeae5d0d tty: mips_ejtag_fdc: use u8 for character pointers
+2573f7eac04dbcdd4f24957e3a3bc891ed2dc88f tty: mmc: sdio: use u8 for flag
+cb8566b9b3b18b0476f48c567275a2da4501cb2c tty: moxa: convert to u8 and size_t
+59b943356b53312c02ec5cdb0b8dfc23e41c08fa tty: mxser: convert to u8 and size_t
+eb7e45db2e0af233cb1dede0b16413e902068a03 tty: n_gsm: convert to u8 and size_t
+5655b16ea5cf00465b13942dd045cf38f1414d46 tty: n_hdlc: convert to u8 and size_t
+5c99e2977f137cbedbd535a8884c5f3be32e738a tty: nozomi: convert to u8 and size_t
+f2470d2bc4327c2c1a604c6e247442dbb14c90c5 tty: serdev: convert to u8 and size_t in serdev_controller_ops
+475fc6e2de6fec0ff3c9a74ddcfd2b52c90adc0d tty: serdev: convert to u8 and size_t
+14abfd0cb52f21256f4353196ddfb8e6f3c4e8b4 tty: srmcons: convert to u8 and size_t
+18977909bfba2a866f5e2cd0ce540919de5aa394 tty: ttyprintk: convert to u8 and size_t
+b49d18493a0b9bb79289c5bec31acf073c34edd2 tty: um: convert to u8/__u8 and size_t
+ae5af710f369a4d88792bf1d9da317884156cd87 tty: xtensa/iss: use u8
+
+--===============0281272412826240747==--
