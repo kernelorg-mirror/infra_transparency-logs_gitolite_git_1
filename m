@@ -1,74 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============7285259592739663066=="
+Content-Type: multipart/mixed; boundary="===============3788432423512311586=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 09 Dec 2023 09:41:23 -0000
-Message-Id: <170211488371.28748.3815520022164014313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 09 Dec 2023 09:42:50 -0000
+Message-Id: <170211497042.29324.8195143135188108167@gitolite.kernel.org>
 
---===============7285259592739663066==
+--===============3788432423512311586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 96d1d578dec1e69ed086dd67f7e5974875d981b3
-    new: 386a766c4169006d0e9df44823849930b8995e32
-    log: revlist-96d1d578dec1-386a766c4169.txt
+  - ref: refs/heads/driver-core-next
+    old: 00bf4641201092fc06aa51f7dcf45d1ea4d3d4f7
+    new: 7c41da586e9f45bf8842b4dca08681df8d586ebb
+    log: |
+         5bb03d0dd76700a830243776a99275575cbb2ee1 base: soc: Remove usage of the deprecated ida_simple_xx() API
+         48b5928e18dc27e05cab3dc4c78cd8a15baaf1e5 base/node.c: initialize the accessor list before registering
+         b17b70212dbf3f60ab95eb563dc165d235e75336 fs/sysfs/dir.c : Fix typo in comment
+         4c095734d92a46c243eca79b86ff3237fcce9a57 software node: Remove usage of the deprecated ida_simple_xx() API
+         bef52aa0f3de1b7d8c258c13b16e577361dabf3a acpi: property: Let args be NULL in __acpi_node_get_property_reference
+         1eaea4b3604eb9ca7d9a1e73d88fc121bb4061f5 software node: Let args be NULL in software_node_get_reference_args
+         3babbf614ae66018fa4f97865a7e3a3b8a590fb0 device property: fwnode_property_get_reference_args allows NULL args now
+         055467378bf14d6cc6d17e52dcfc76313b531bd7 driver core: Enable fw_devlink=rpm by default
+         7c41da586e9f45bf8842b4dca08681df8d586ebb driver core: Emit reason for pending deferred probe
+         
 
---===============7285259592739663066==
+--===============3788432423512311586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702114883 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1702114882-002409cc462559d70441998055a36110e630d941
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702114969 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1702114969-fbaed681380d37297722fe37645a5c92751a42cb
 
-96d1d578dec1e69ed086dd67f7e5974875d981b3 386a766c4169006d0e9df44823849930b8995e32 refs/heads/char-misc-next
+00bf4641201092fc06aa51f7dcf45d1ea4d3d4f7 7c41da586e9f45bf8842b4dca08681df8d586ebb refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV0NkMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i20QAKVFthZM2h81TCSCg3Vd
-crUytcPdBJtlCVgZz4Gr3/nkkw3+Fb6MQMvbog+4FwVNLtOogzIKBMDpCx6lGAqe
-k+y3YtmdBlxZQjepbV55QH87eBHluXFY+ApnMD5fcIrtpDl5wUl+Jw9Zeh5u2zVg
-M2QVHDjksqSc5K1MIL8iF+9JkCfzI/aWLduVSOrSKbLbWHZ7h8v5o+IXoqABjCdI
-2RcJXtNo5BpyadRRF5RS7Z8CAEHI0c9IvLwDSk+n4h5RIvRkTV7RfBqP+pDScehi
-KK42n79wYl/5En+a0nMOSiHooCkoJxCFDto5Y38PnvK1ZDT6AjAhVGWEyVB9igg4
-r3YnU0WbPNqfyiQMjnS2OVBjhhTjSBwFYH0tU1n2H33NU64IFoxSG68CmSZdLAnd
-B6MUVEYAy0x6H9OcZHXaCiQ5JSScdM5FXj2z5WDcm6nHFjHVExBy5oG/B4t+fC2+
-4YK3H0kArh6ozcsiiaxL7InZiqXebrRjdDUoExFfEMUohn5Eajz3m1QeTHtuaxET
-l8MZOM7AS9sqMwp/NXD4qGxuz93ZYlX5NJ3qL2Ef3ZF+1h6Cy8IKZ11jtnzSOfnU
-Cjx/9rX5IFKy5MxcBaVqMro5nEiw1AULaC9AXPb4zzzurVEI5r+hetJKQzbCSz1B
-GoEfifr3hS42EMLJjxlpxjPH
-=UpA9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV0NpkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/oMP/12ZPaXSOsx738v5NrMx
+dbno9YIqaHdNUGeCXBVRbmAM7miF4eMmWFAPPFTieH4uaT2LVOYFPT+rNYFkBuUy
+wltR3kFpKRlmmtprIUKRwhCY0yIPxHz4XOmwqDrPPZKk1vxtM8G+u6AIdiy1p5dB
+OCIBhNW4aU7umnk8jDjn0AFM40nYmvF9J1oZ1i2h2mdiATxGUKcUsjmYjrOQH2zQ
+4u40/wr9rMnYfR1vwVsPJN6QyaUrWhcGv31hVNB7V8okR+3BMbCpJvNfE0Lu7Y3P
+Zz/oVUrc8ZmkeYPHyYMOhRUptkdfZczg/KlTRAqAxj5XmJ7A/lX8lyaiNfGFdnDB
+diygxTbNDwso7PZHf+Zf9mOtzmpAHorp0JC35YWpNWDOqo0SkdCyvwylPZY2CtrN
+OJ1HKQZpcii8odH5OL6Tco85skFu3Wf77Rn5YB6YzNj5+KZbDLQYA9Z1FQ2jMh/6
+dHKTDgUYqOI9YI2eFhon78P0C1mvkIUD70Aha7H0Lq1nuODuFGowFO4gwDiA4ceJ
+bs2l7+I6X5KVLxz5MkTQ9G7a1vF8kdFVwjuA8II9sbxOkrsJoZW6OiLQXyRvvTgI
+Kl24B6boR7GdM1aIQrg/7v2ZejIg1VEj/Cx3uxtBqPZoLJSye3iCX6PBgorZRuVb
+MVkRPe7dyG1rMBMzPqFJj+bl
+=diNi
 -----END PGP SIGNATURE-----
 
---===============7285259592739663066==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-96d1d578dec1-386a766c4169.txt
-
-21528c69a0d8483f7c6345b1a0bc8d8975e9a172 rootfs: Fix support for rootfstype= when root= is given
-437cd966d3c6fb65add251e6db537c14dd953b8a firmware: xilinx: Use proper indentation in kernel-doc
-a070830096e44ddaa64931d831f07e944d920c79 drivers/comedi: use standard array-copy-function
-190015a4bb016e0263297fa5ad20744b8ce98b50 ipack: Remove usage of the deprecated ida_simple_xx() API
-ad66d503052d51ff9efeab487f41a39816ffc11c parport: Save a few bytes of memory
-431c03095d6021bc3dae6502678c53093d2f6182 eeprom: ee1004: Add support for multiple i2c busses
-f922b16aa5fad7284e2b7fd7c22bab13c0e418b6 firmware: xilinx: Update firmware call interface to support additional args
-f689a0ca45fcdf4139727a3a02a49efbb1902306 firmware: xilinx: Expand feature check to support all PLM modules
-a9d061840010df64aad2a3e5b308e663d6a36e2f firmware: xilinx: Register event manager driver
-8c016c807a90535432543204dbbb032e4a709009 drivers: soc: xilinx: Fix error message on SGI registration failure
-5dac2a98f6542ae1ce78b702374ea4be3f5ee07d firmware: zynqmp: Add support to handle IPI CRC failure
-566f5ca9768075e453b7b51a397733968df4287d mei: Add transport driver for IVSC device
-386a766c4169006d0e9df44823849930b8995e32 mei: Add MEI hardware support for IVSC device
-
---===============7285259592739663066==--
+--===============3788432423512311586==--
