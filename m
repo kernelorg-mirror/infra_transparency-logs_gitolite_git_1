@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sat, 09 Dec 2023 07:55:32 -0000
-Message-Id: <170210853213.3940.11406612748804512755@gitolite.kernel.org>
+Date: Sat, 09 Dec 2023 07:55:54 -0000
+Message-Id: <170210855470.4129.12396194897087935924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
-    old: 27dd0d2870c42a4790e966d6b67d50e778fb1319
-    new: e2f7b3d8b4b300956a77fa1ab084c931ba1c7421
+  - ref: refs/tags/loongarch-fixes-6.7-2
+    old: 37282b72d3cea0805f4aa5a3d1ebeef0808488ae
+    new: 58abda7567c222466a1c6d12ec574858b219c532
     log: |
          eea673e9d5ea994c60b550ffb684413d3759b3f4 LoongArch: Apply dynamic relocations for LLD
          8146c5b349074da7732f1d45eb4a5f9fd192c7c1 LoongArch: Slightly clean up drdtime()
