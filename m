@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 10 Dec 2023 05:39:31 -0000
-Message-Id: <170218677127.16349.4753245562256913398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 10 Dec 2023 06:24:39 -0000
+Message-Id: <170218947961.15197.14033182350041972723@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: 5181dc08f79583c6dead80208137a97e68ff07b0
-    new: 5bcbdf72df88a351642627d94b93af7c9301b6e2
+  - ref: refs/heads/master
+    old: 676ad5412950157877c70eba953d35d6a0b53270
+    new: 52fdac471b72fb5eb4c29011bc631ab72b465f18
     log: |
-         a6de18f310a511278c1ff16b96eb2d500eada725 bpf: Add bpf_cpumask_weight() kfunc
-         88f6047191e69bdd02cf1b9b5b514f7e514e8b86 selftests/bpf: Add test for bpf_cpumask_weight() kfunc
-         5bcbdf72df88a351642627d94b93af7c9301b6e2 Merge branch 'add-new-bpf_cpumask_weight-kfunc'
+         52fdac471b72fb5eb4c29011bc631ab72b465f18 Sun Dec 10 06:22:29 AM UTC 2023
          
