@@ -1,57 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============2666990668990545154=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 10 Dec 2023 08:08:29 -0000
-Message-Id: <170219570979.26147.435042956636676089@gitolite.kernel.org>
-
---===============2666990668990545154==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sun, 10 Dec 2023 09:07:01 -0000
+Message-Id: <170219922187.2164.5310960319095156980@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/usb-testing
-    old: 522c35e08b53f157ad3e51848caa861b258001e4
-    new: 940704296f7e74514af7a63cf94c60cfb8ac7db6
+  - ref: refs/heads/for-linus
+    old: 634e5e1e06f5cdd614a1bc429ecb243a51cc009d
+    new: 75a25d31b80770485641ad2789a854955f5c1e40
     log: |
-         c419c2634b9f6120e500d0d411b2a002d428d420 usb: cdns3: starfive: don't misuse /** comment
-         940704296f7e74514af7a63cf94c60cfb8ac7db6 usb: fotg210-udc: fix function kernel-doc comments
+         3b1ff57e24a7bcd2e2a8426dd2013a80d1fa96eb ALSA: hda/hdmi: add force-connect quirk for NUC5CPYB
+         924f5ca2975b2993ee81a7ecc3c809943a70f334 ALSA: hda/hdmi: add force-connect quirks for ASUSTeK Z170 variants
+         9b726bf6ae11add6a7a52883a21f90ff9cbca916 ALSA: hda/realtek: Apply mute LED quirk for HP15-db
+         75a25d31b80770485641ad2789a854955f5c1e40 ALSA: hda/tas2781: leave hda_component in usable state
          
-
---===============2666990668990545154==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702195708 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1702195708-01c12be254446899bdac0f8b0272aa3f81318163
-
-522c35e08b53f157ad3e51848caa861b258001e4 940704296f7e74514af7a63cf94c60cfb8ac7db6 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV1cfwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yDAP/jqdZtSHZqTlNXgdgTg9
-fLIgqVUemFGAtS6gqKlmL+LAnnBN3oxR2Vb3yCeShdEA7TdV2znIxMRjZevwyhNy
-F9yOfQk7efAgLaqd2JIJlruzKbHHg3+lWn6d8xg1XnKEXV29F+/sDthBS6mwR9Dl
-Sy2c8VBp5dshL82UZmlSoMVojJSdCXi5QNSX6I7bGP0yTL2tZrmBP15dbvl35vD9
-PicVjbgiaMLDvqSh03v8GWU/l7bi1tuH2RQhvxnR7WRN4Scm9ANChntQPpfNB/mn
-CyCDigKuEblZF1cDcl4gVkvfvSAJmF9rH5WhDsrmyvkxBwrF+EUdGVp5f4mZBRk8
-YzUw226H1qGrXX23YgT68rPJEXx1x+kOxCn6+u1iHEoFGcr4AkrfXvyeHKrnTvuY
-BraP3jIuQ2L+9Hh+H922ZxHuT8XiZuTIhCctQHs5mh71QEUcQUMZi4TbNGJ3ei1q
-nj32cNKdUbzT51A/JTQ0wQXo5UU0nGVWOeJFFkPGAdnm1rCNwQChHOs9rLbpPFVO
-FK3sXsLYyCTeX1w5e+/61ufB+SikArCQ8jTIsdaks9CDfaBJxfZMXNFcC66d07hA
-tAVvK7FJiPIYjfS4C54tIC5Htx7xXTn9/ofLJEQKN2ULLqRa7o8Wpgqbso61IgKn
-wCNwJXzzaejWr7UU0nD77hnd
-=VDxu
------END PGP SIGNATURE-----
-
---===============2666990668990545154==--
+  - ref: refs/heads/master
+    old: 6ecd99c03b3d9febcf06608ac2e3c4694e2190d7
+    new: dab27aecb44c7fe186a18c196d7c9083d17a43ef
+    log: |
+         3b1ff57e24a7bcd2e2a8426dd2013a80d1fa96eb ALSA: hda/hdmi: add force-connect quirk for NUC5CPYB
+         924f5ca2975b2993ee81a7ecc3c809943a70f334 ALSA: hda/hdmi: add force-connect quirks for ASUSTeK Z170 variants
+         9b726bf6ae11add6a7a52883a21f90ff9cbca916 ALSA: hda/realtek: Apply mute LED quirk for HP15-db
+         75a25d31b80770485641ad2789a854955f5c1e40 ALSA: hda/tas2781: leave hda_component in usable state
+         dab27aecb44c7fe186a18c196d7c9083d17a43ef Merge branch 'for-linus'
+         
