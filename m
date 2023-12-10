@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Sun, 10 Dec 2023 21:10:52 -0000
-Message-Id: <170224265228.20417.11612429067315241166@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 10 Dec 2023 22:37:44 -0000
+Message-Id: <170224786436.17119.9089705027231631390@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-linus
-    old: 7a733e060bd20edb63b1f27f0b29cf9b184e0e8b
-    new: e9b220aeacf109684cce36a94fc24ed37be92b05
+  - ref: refs/heads/master
+    old: 3a87498869d6d1e7347cd01f337a77984604eb5e
+    new: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
     log: |
-         e9b220aeacf109684cce36a94fc24ed37be92b05 spi: spi-imx: correctly configure burst length when using dma
+         a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 Linux 6.7-rc5
          
-  - ref: refs/heads/for-next
-    old: f7be82d9633babf68d9f7db9022b8524afcfd9b3
-    new: bb1244ae35d182ffc2b492098d1cacd74e254e1c
-    log: |
-         e9b220aeacf109684cce36a94fc24ed37be92b05 spi: spi-imx: correctly configure burst length when using dma
-         bb1244ae35d182ffc2b492098d1cacd74e254e1c Merge remote-tracking branch 'spi/for-6.8' into spi-next
-         
+  - ref: refs/tags/v6.7-rc5
+    old: 0000000000000000000000000000000000000000
+    new: be59bee58790f9d137cfc11973e856e4f8ab3888
