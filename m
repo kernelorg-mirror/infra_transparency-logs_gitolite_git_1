@@ -1,56 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============9016382035321953030=="
+Content-Type: multipart/mixed; boundary="===============7491755800144396653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sun, 10 Dec 2023 13:05:04 -0000
-Message-Id: <170221350423.24159.4391659462433939550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 10 Dec 2023 13:39:35 -0000
+Message-Id: <170221557588.16176.8695153470035195677@gitolite.kernel.org>
 
---===============9016382035321953030==
+--===============7491755800144396653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/next/dt64
-    old: 9dc5a7a38fbbd46499f00b2ab0387709a6b6a92f
-    new: 7de1954148fbc25f53c869520d25465b9df0367b
-    log: |
-         7de1954148fbc25f53c869520d25465b9df0367b arm64: dts: exynos: add minimal support for exynosautov920 sadk board
-         
+  - ref: refs/heads/master
+    old: 11914614784735c504f43b5b6baabaa713375984
+    new: b9e1a88f8198ac02f3b82fe3b127d4e14f4a97b7
+    log: revlist-119146147847-b9e1a88f8198.txt
 
---===============9016382035321953030==
+--===============7491755800144396653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-119146147847-b9e1a88f8198.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1702213502 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1702213502-cc032500bb3d71fff76ec0760589882e5d0050bc
+88334112f9cb7ec5733f5e41017a4c07b3d37636 xfs/146: require fallocate support
+22bca8d9a6d9fba0ac240ed95a42f44110e31910 common/rc: _fs_sysfs_dname fetch fsid using btrfs tool
+24c58f2d973c855cc0af0a12e225fd2f07b342d4 common/btrfs: add helper _has_btrfs_sysfs_feature_attr
+7139a0600084b2b8e42cc46743bade5444bd1ba8 btrfs/219: fix _cleanup() to successful release the loop-device
+6a466743cd1748e3eba0f8e949d6e5d53693e1f0 btrfs/219: cloned-device mount capability update
+47737bd3decfb4ee63ca6ae2cc053af816c68df2 btrfs/219: add to the auto group
+59372e8d3f961eb20d911e715777af06de921891 common/btrfs: add _btrfs_get_fsid() helper
+848c6a882a6faab9d2545a26ad5070a62f7a7bd1 generic: test reads racing with slow reflink operations
+59bf56a1a56e8b588d18c4c39757b439342cd24d common: make helpers for ttyprintk usage
+b5ba77147bf6cf6766ada00b3fed4635626e550d xfs: test unlinked inode list repair on demand
+483b1f90c8aafe0cb59052ae3b1980c66e496e0a fstests: btrfs: test snapshot creation with existing qgroup
+5fdd34e7618266e6ea2ce10150093cae3f4c0387 xfs/263: Remove mkfs.xfs data section argument
+3098851702d150bd94118bf299594c1ea2f9d690 misc: privatize the FIEXCHANGE ioctl for now
+29c3cc742717b6168482327c6bb8117287e86a8e misc: update xfs_io swapext usage
+b9e1a88f8198ac02f3b82fe3b127d4e14f4a97b7 xfs: test refilling AGFL after lots of btree splits
 
-9dc5a7a38fbbd46499f00b2ab0387709a6b6a92f 7de1954148fbc25f53c869520d25465b9df0367b refs/heads/next/dt64
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmV1t34QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD139vD/4gLUBwVObd7UkEiN/NU4bOlH6HQv+leela
-FxV307SbAbNy1r85rJ4bbH09T5CA8dYQWQkja/spT7VMaAn+4md4NvrD3uyRd9JR
-OpCzC3UWNv650X4N5NKxgq7Vv3vtV/jPCntFywMCcNpTrl7Kh7CyLiX9NiehuPAm
-j1WoSKxs9fodd9s0m0+t+rAsZoFFU15UaQyc4C5N9Ld6BquGZCekqbb9B+Z5v+h4
-1HCzXBrdy19MFjnp+d/EXw4Jo1hzDq3K7AMGgU7LftMo4Urug0d3M5DCtL70h7p2
-3drYAEl5OutfCeNBx4JKJezkZQIsTdlrVFGak74piNChg32DS7nM0SyyiaP788rs
-BZC5LJBOMA2jdepsaQmBdi9BeCaA6grYzOczbPJoNlU22tIGmBJHv4epgpn3NEl9
-blknSVK2c4JlWB1Uh9I4ZMopOV9RPTykaSHFaQ/FdMjWIyQot1oaAy6tvAy1f0Xp
-/1bXsbwiV6Tl1ZQh8LO6u8ZPr1uRGg5lT5CuS2MnC5P2RSvtluO3ilWQIxSCxh6U
-YFFqELAxPabbASka8FG+F3VM8Z3f4U99ZNNdQ/E6YMmafHiC+8IA1Sb2VWEz+arK
-N2Goy5SlEavehT+wrlCUYfOiWdtBWlth39+9aEQPPPLAU89DyjGy1ffuFycHLShl
-MiAydA8N4g==
-=Wdfj
------END PGP SIGNATURE-----
-
---===============9016382035321953030==--
+--===============7491755800144396653==--
