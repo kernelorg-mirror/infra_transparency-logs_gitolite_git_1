@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7491755800144396653=="
+Content-Type: multipart/mixed; boundary="===============1664403063430227127=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 10 Dec 2023 13:39:35 -0000
-Message-Id: <170221557588.16176.8695153470035195677@gitolite.kernel.org>
+Date: Sun, 10 Dec 2023 13:40:53 -0000
+Message-Id: <170221565380.18247.13648374333390724337@gitolite.kernel.org>
 
---===============7491755800144396653==
+--===============1664403063430227127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,33 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/heads/master
-    old: 11914614784735c504f43b5b6baabaa713375984
-    new: b9e1a88f8198ac02f3b82fe3b127d4e14f4a97b7
-    log: revlist-119146147847-b9e1a88f8198.txt
+  - ref: refs/heads/for-next
+    old: b9e1a88f8198ac02f3b82fe3b127d4e14f4a97b7
+    new: f814a0d8b89c84055b4351f8b9655c5868db08ba
+    log: revlist-b9e1a88f8198-f814a0d8b89c.txt
 
---===============7491755800144396653==
+--===============1664403063430227127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-119146147847-b9e1a88f8198.txt
+Content-Disposition: attachment; filename=revlist-b9e1a88f8198-f814a0d8b89c.txt
 
-88334112f9cb7ec5733f5e41017a4c07b3d37636 xfs/146: require fallocate support
-22bca8d9a6d9fba0ac240ed95a42f44110e31910 common/rc: _fs_sysfs_dname fetch fsid using btrfs tool
-24c58f2d973c855cc0af0a12e225fd2f07b342d4 common/btrfs: add helper _has_btrfs_sysfs_feature_attr
-7139a0600084b2b8e42cc46743bade5444bd1ba8 btrfs/219: fix _cleanup() to successful release the loop-device
-6a466743cd1748e3eba0f8e949d6e5d53693e1f0 btrfs/219: cloned-device mount capability update
-47737bd3decfb4ee63ca6ae2cc053af816c68df2 btrfs/219: add to the auto group
-59372e8d3f961eb20d911e715777af06de921891 common/btrfs: add _btrfs_get_fsid() helper
-848c6a882a6faab9d2545a26ad5070a62f7a7bd1 generic: test reads racing with slow reflink operations
-59bf56a1a56e8b588d18c4c39757b439342cd24d common: make helpers for ttyprintk usage
-b5ba77147bf6cf6766ada00b3fed4635626e550d xfs: test unlinked inode list repair on demand
-483b1f90c8aafe0cb59052ae3b1980c66e496e0a fstests: btrfs: test snapshot creation with existing qgroup
-5fdd34e7618266e6ea2ce10150093cae3f4c0387 xfs/263: Remove mkfs.xfs data section argument
-3098851702d150bd94118bf299594c1ea2f9d690 misc: privatize the FIEXCHANGE ioctl for now
-29c3cc742717b6168482327c6bb8117287e86a8e misc: update xfs_io swapext usage
-b9e1a88f8198ac02f3b82fe3b127d4e14f4a97b7 xfs: test refilling AGFL after lots of btree splits
+65e59370567a48762c98e080c3e06dc8145acbba xfs/601: move this to tests/generic
+19cf4208e74956adaa8b16378a38c2ebd425b0a1 xfs/604: add missing falloc test
+1d7a8c3a4d95fb362bbb41f4d66377aa49d8881f tests/btrfs: add tests to the remount group
+72e7d9bfdd8bd2c1f3bf40b971cd5ff37ba5f011 fstests: don't test -o norecovery in btrfs/220
+9812168a1255b40df332d160906bc16e0279cc7b fsstress: unify verbose output format
+86f0e4f7c18a1c99404b4aa1bd5bedee7ff72a1b generic/459: improve shutdown/read-only check to accommodate bcachefs
+dd50c6276098ec568551a18c49cc3959d64f399e btrfs/303: use quota rescan wrapper
+95a41c18dd45e6fdb8492d33413403cce365b573 generic/733: use correct kernel commit id
+fac81f816d7c9e565f47c67fd6fc946052e0bb88 btrfs: add some tests to the 'compress' group
+98865122ed3cbedabffdb09d1c4af32bfa32baf5 btrfs/048: add missing groups 'subvol', 'snapshot' and 'send'
+2a4fef036ee795e57069d928bbe48c07be9b0e77 overlay/026: Fix test expectation for newer kernels
+bd64bed7532532a1659830cf0709cb3a07933013 btrfs/301: fix hardcoded subvolids
+c71b4e6203752cb4c54b5ae63f5197076070726b btrfs/301: require_no_compress
+b05c808ce4a4686b40c4e0b5029cb889c39f3856 generic: regression test of ext4_lblk_t overflow
+ed058f1c64746b32e2786bf344ae1ff5fd78dfb0 generic: test reading a large directory while renaming its files
+985df7ef3051cf4172b5e6fdca0350e530eb6045 aio-dio-write-verify: Add sync and noverify option
+f814a0d8b89c84055b4351f8b9655c5868db08ba generic: Add integrity tests with synchronous directio
 
---===============7491755800144396653==--
+--===============1664403063430227127==--
