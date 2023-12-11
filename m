@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Mon, 11 Dec 2023 21:30:31 -0000
-Message-Id: <170233023116.4166.13331161997481556173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 11 Dec 2023 21:33:54 -0000
+Message-Id: <170233043444.5464.15350104662047068064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/afs-fixes
-    old: dfbc00cb940b6a67893471fe060e173a3826251a
-    new: e885a201b0f042243843bb7e6be91836d90cfb8e
+  - ref: refs/heads/bleeding-edge
+    old: a06865f4260e8adff0541660cce02d8453f1e65d
+    new: 6e79a4dbb8f4097dc8bea8130657fb9ff59c73f2
     log: |
-         b676325b03190c16cc949308991f94ce871bb761 afs: Fix dynamic root lookup DNS check
-         e885a201b0f042243843bb7e6be91836d90cfb8e keys, dns: Allow key types (eg. DNS) to be reclaimed immediately on expiry
+         a1ca8295ee53a2fc57085fae26df37228c655791 PM: hibernate: Drop unnecessary local variable initialization
+         bbeaa4691fa8682e2fe2e87f28d5fce39805fa68 PM: hibernate: Do not initialize error in swap_write_page()
+         4ac934b1aaa99e00ca25875d55094a4fe34e212d PM: hibernate: Do not initialize error in snapshot_write_next()
+         6e79a4dbb8f4097dc8bea8130657fb9ff59c73f2 Merge branch 'pm-sleep' into bleeding-edge
          
