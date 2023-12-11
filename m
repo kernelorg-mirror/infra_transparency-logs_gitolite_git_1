@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 11 Dec 2023 19:03:39 -0000
-Message-Id: <170232141941.26154.11938076643127076578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 11 Dec 2023 19:04:30 -0000
+Message-Id: <170232147050.26621.111410900518748997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 7de2f5e3c0c3817e931e6cc7f698615a8ae5ecf3
-    new: d1544d009d73f0979b2bc6988de959802b9d1a57
-    log: |
-         d1544d009d73f0979b2bc6988de959802b9d1a57 foo
-         
+  - ref: refs/heads/20231205_u_kleine_koenig_regulator_convert_to_platform_remove_callback_returning_void
+    old: 8d6fab52f3fdaeb8aabfd046d95e5d3f9464399e
+    new: 0000000000000000000000000000000000000000
