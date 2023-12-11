@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0340790589940233072=="
+Content-Type: multipart/mixed; boundary="===============4851331783261338655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 11 Dec 2023 07:45:30 -0000
-Message-Id: <170228073071.24066.8801059178676390649@gitolite.kernel.org>
+Date: Mon, 11 Dec 2023 07:46:07 -0000
+Message-Id: <170228076721.24364.17908011733081128432@gitolite.kernel.org>
 
---===============0340790589940233072==
+--===============4851331783261338655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis-removal
-    old: f095fb54d0f124e88ab33e83d364f51d7e0ce050
-    new: fefa5dd02e1900017bcb9be4a819301e5969fbe5
-    log: revlist-f095fb54d0f1-fefa5dd02e19.txt
+  - ref: refs/heads/gadget_char
+    old: a2e2e07c52fe91d1c3c8ac5e3da8995e1fb1320d
+    new: deb1d3064bc1a73e72ee1404c5f69c472477fdd3
+    log: revlist-a2e2e07c52fe-deb1d3064bc1.txt
 
---===============0340790589940233072==
+--===============4851331783261338655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702280727 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702280759 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1702280726-131a0be1fa8f40069d8b38af7ae3874555514113
+nonce 1702280757-47fe14ccceec6e23fc251412dd7728bb39176cea
 
-f095fb54d0f124e88ab33e83d364f51d7e0ce050 fefa5dd02e1900017bcb9be4a819301e5969fbe5 refs/heads/rndis-removal
+a2e2e07c52fe91d1c3c8ac5e3da8995e1fb1320d deb1d3064bc1a73e72ee1404c5f69c472477fdd3 refs/heads/gadget_char
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV2vhcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SecP/3aPHZ5bfU8CwUPMoIMv
-ac+apLGeTbpSs86uWZftWJM4jGlKzb64/aTP7BiaxTcBroZXvChGmox7hyrL7UHe
-ThTPE6ttXqKcfYv5htib3jyTvaljkgOKop5Bm3QNS0SROSxvTXcI9Azk6NiORI/x
-gh8Rh5yr5Kft8cLKEEE97LfcvJpHeFcrGyrLPcIPmIGX8iOHxrUQfk2O3Yb0PfxB
-EvQsbCkCyeEZpUIjxDN6pgytnuL4V7dDHMIHbz+mnU55s33uYBVh37IsIbUQNJkM
-/+4s2H6xcCWtuU3wf87cgW+lTXh2Q3AcWKOcOzsfVt8chVETly96gbwWghQnMzKG
-Vx2WkwpUczeESTyEeSq6qCxBB/Gz8cBUjD3ZYWIGQDvm5gOnDOacQrriyy0sZGKq
-6SEdKpGc28/jx5yI8VrXui6aJ9oIzycV37gaUaBG0CAS1vGI0meGZCRvXPW8Irb3
-GBa1NBwKu2tCyByyOY1jKKLFlmuRGlrY5q/xQKN8QxuKfTuKrWIUnqchJYIOONbI
-f/KxE8JekhjQxKLRMPxSoj7dCh3wqnqr37vsOPG7/qf4x7hW7h1biIwyJrqxZgTG
-J4tvckQ0hpO4cduvqELV5c1hCqG7qWSb1xA13H9tUFzPEHC3GvQ9UDRG0h+GO0lL
-B8zTA28EGklqKTHP4nTBQnNM
-=+Udl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV2vjgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P9IP/2FPzIyfu2YAajltNzMp
+fTMhSrcJpk0l7f1Tj0hdil3nHO0+MGlCNeLUs06DjD5easbb/tDgPH73JTq+WpoT
+pvcM+00SCvJPHUFjpUk4nN86Ga9L2JP0Xa39sndu/nTQJ8BIk3qyIqsqgFsAHq+e
+4h9brqRCcAhjVnTV4Iik1tdbS/TdBFRf9gZc8FZ64OEXrxast4pjhodo9F1/VTiZ
+q/LSChhahOYOCyKhd7qtOSsWx8nDHbtwEaMFYRwEInufYJx9eeMwr5DeE0UCPjSQ
+II5C5BhVgI6mnI73cuSWPjjssJcuRjbNoH3GaLR9aVpDPWWN+CPR/+qeATckT35B
+rqzNXsM3cumtqG/Xc2F7psh88oPBXZiJ/0p4xnHfKqL8vOnqzH/7atd7RTNDbynN
+vQVNgwyJndLdia5h3Y5+4lzxQYSQv7KebB9JYGHTCddfofI4RG9jAvj/7+gFOLv1
+uAvibbAuRxGZ3ScKebX8ECgEbAP4Bi/YZxKHK3DZQSIxNUzXf0ORW1cnqRyWYJO7
+HqoGC+u4IbVj1rJjn7XeoLeuvpIOnYBM7vJ9yyGGSuESrWZgM6/NYgv/RbgF3GNt
+7tpbFNqatv/4adXOtBBPckh8msRc+lGnFuFHdC+eO+7wgrQ3MaMX3luNfjl/gkb2
+K7ZdEd6S1E1ysl90b6kFcbVE
+=eFpq
 -----END PGP SIGNATURE-----
 
---===============0340790589940233072==
+--===============4851331783261338655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f095fb54d0f1-fefa5dd02e19.txt
+Content-Disposition: attachment; filename=revlist-a2e2e07c52fe-deb1d3064bc1.txt
 
 ba276ce5865b5a22ee96c4c5664bfefd9c1bb593 bcachefs: Fix missing locking for dentry->d_parent access
 ccab434e674ca95d483788b1895a70c21b7f016a usb: aqc111: check packet for fixup for true limit
@@ -1080,6 +1080,6 @@ c527f5606aa545233a4d2c6d5c636ed82b8633ef Merge tag 'powerpc-6.7-4' of git://git.
 537ccb5d28d6f398215e7f578e46ee7836f5ac47 Merge tag 'perf_urgent_for_v6.7_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3a87498869d6d1e7347cd01f337a77984604eb5e Merge tag 'sched_urgent_for_v6.7_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 Linux 6.7-rc5
-fefa5dd02e1900017bcb9be4a819301e5969fbe5 USB: disable all RNDIS protocol drivers
+deb1d3064bc1a73e72ee1404c5f69c472477fdd3 USB: gadget: dummy_hcd: switch char * to u8 *
 
---===============0340790589940233072==--
+--===============4851331783261338655==--
