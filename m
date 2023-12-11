@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 11 Dec 2023 10:13:48 -0000
-Message-Id: <170228962828.1124.13346995793950085182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Mon, 11 Dec 2023 10:14:13 -0000
+Message-Id: <170228965351.1461.8625037156821681674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-user: ijc
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/tags/v6.7-rc5-dts
+  - ref: refs/heads/v6.7-next/dts64
     old: 0000000000000000000000000000000000000000
-    new: f200bd5b595451f88c076ca5d756e01cad0a0676
+    new: 840e341bed3c4331061031dc9db0aff04abafb4b
