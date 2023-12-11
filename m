@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0196840098074380429=="
+Content-Type: multipart/mixed; boundary="===============3302705627975437425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 11 Dec 2023 20:38:10 -0000
-Message-Id: <170232709023.30053.5737849888197179919@gitolite.kernel.org>
+Date: Mon, 11 Dec 2023 20:38:20 -0000
+Message-Id: <170232710007.30195.1913418996067398051@gitolite.kernel.org>
 
---===============0196840098074380429==
+--===============3302705627975437425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-fixes
-    old: a58a173444a68412bb08849bd81c679395f20ca0
+  - ref: refs/heads/master
+    old: 33cc938e65a98f1d29d0a18403dbbee050dcad9a
     new: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
-    log: revlist-a58a173444a6-a39b6ac3781d.txt
+    log: revlist-33cc938e65a9-a39b6ac3781d.txt
 
---===============0196840098074380429==
+--===============3302705627975437425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a58a173444a6-a39b6ac3781d.txt
+Content-Disposition: attachment; filename=revlist-33cc938e65a9-a39b6ac3781d.txt
 
 7269cba53d906cf257c139d3b3a53ad272176bca tee: optee: Fix supplicant based device enumeration
 8f51593cdcab82fb23ef2e1a0010b2e6f99aae02 dt: dt-extract-compatibles: Don't follow symlinks when walking tree
@@ -238,6 +238,11 @@ e4d008d49a7135214e0ee70537405b6a069e3a3f xsk: Skip polling event check for unbou
 e53f7b54b1fdecae897f25002ff0cff04faab228 io_uring/kbuf: Fix an NULL vs IS_ERR() bug in io_alloc_pbuf_ring()
 9865346b7e8374b57f1c3ccacdc77846c6352ff4 io_uring/kbuf: check for buffer list readiness after NULL check
 3c91c909f13f0c32b0d54d75c3f798479b1a84f5 octeontx2-af: fix a use-after-free in rvu_npa_register_reporters
+55702ec9603ebeffb15e6f7b113623fe1d8872f4 mips/smp: Call rcutree_report_cpu_starting() earlier
+8f7aa77a463f47c9e00592d02747a9fcf2271543 MIPS: Loongson64: Reserve vgabios memory on boot
+edc0378eee00200a5bedf1bb9f00ad390e0d1bd4 MIPS: Loongson64: Enable DMA noncoherent support
+c7206e7bd214ebb3ca6fa474a4423662327d9beb MIPS: Loongson64: Handle more memory types passed from firmware
+a58a173444a68412bb08849bd81c679395f20ca0 MIPS: kernel: Clear FPU states when setting up kernel threads
 e2b005d6ec0e738df584190e21d2c7ada37266a0 perf metrics: Avoid segv if default metricgroup isn't set
 90fe70d4e23cb57253d2668a171d5695c332deb7 perf vendor events arm64: AmpereOne: Add missing DefaultMetricgroupName fields
 f8e9889f54da6e3146c2cb3f5c206cf1a704f9d3 ice: change vfs.num_msix_per to vf->num_msix
@@ -468,4 +473,4 @@ c527f5606aa545233a4d2c6d5c636ed82b8633ef Merge tag 'powerpc-6.7-4' of git://git.
 3a87498869d6d1e7347cd01f337a77984604eb5e Merge tag 'sched_urgent_for_v6.7_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 Linux 6.7-rc5
 
---===============0196840098074380429==--
+--===============3302705627975437425==--
