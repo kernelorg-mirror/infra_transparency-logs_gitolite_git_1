@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 11 Dec 2023 15:12:19 -0000
-Message-Id: <170230753913.11999.18028554303989882144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 11 Dec 2023 15:13:26 -0000
+Message-Id: <170230760679.12735.627043115223510172@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/for-next
-    old: 5bcbdf72df88a351642627d94b93af7c9301b6e2
-    new: 2ebe81c814355d000fe49d9c4213983844dcb32b
+  - ref: refs/heads/kunit
+    old: 3dbfb5a80407d4502ca1918200b0e6649017ab38
+    new: b285ba6f8cc1b2bfece0b4350fdb92c8780bc698
     log: |
-         15c79c6507c0eab5ec0d4cd402ac52d42735a43e selftests/bpf: Increase invalid metadata size
-         2ebe81c814355d000fe49d9c4213983844dcb32b net, xdp: Allow metadata > 32
+         b285ba6f8cc1b2bfece0b4350fdb92c8780bc698 kunit: test: Use an action wrapper instead of a cast
          
