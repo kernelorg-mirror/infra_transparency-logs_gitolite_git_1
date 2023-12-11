@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9098445227799187398=="
+Content-Type: multipart/mixed; boundary="===============0276354141001495666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 11 Dec 2023 07:46:27 -0000
-Message-Id: <170228078747.24553.11054465506054560370@gitolite.kernel.org>
+Date: Mon, 11 Dec 2023 07:46:35 -0000
+Message-Id: <170228079562.24702.5269658588910490705@gitolite.kernel.org>
 
---===============9098445227799187398==
+--===============0276354141001495666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 33cc938e65a98f1d29d0a18403dbbee050dcad9a
+  - ref: refs/heads/usb-linus
+    old: 61890dc28f7d9e9aac8a9471302613824c22fae4
     new: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
-    log: revlist-33cc938e65a9-a39b6ac3781d.txt
+    log: revlist-61890dc28f7d-a39b6ac3781d.txt
 
---===============9098445227799187398==
+--===============0276354141001495666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702280786 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702280794 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1702280786-155c1066061183e09128c969e3ea8ad7743164f0
+nonce 1702280792-4c1ce46ca9270607b3388a37b83eb7227841d304
 
-33cc938e65a98f1d29d0a18403dbbee050dcad9a a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 refs/heads/main
+61890dc28f7d9e9aac8a9471302613824c22fae4 a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV2vlIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9cYQAJ9TngfOjL2PyNnUWaz7
-gs+vVKXWTfVSbrbe92ud/DbUJF314cduXytlFs0L/olToqWBedKBimjfE93kkDCz
-fFVyCKJDC2lK73gJs9rP+A2tWaCY7xQN83hlHlGxHAA3aIPw7Qmnc1GySVEyPHit
-L77rYGBLxhxkPQrgtBbCb7ceVbv7lOI8X1wJP2SL5f6Yp98ZQFoCgoVVyutHdLO+
-M6QFCoqMUFdLwrJ2IX6CpB8qPoUpUe/Fp8RxQoJ8jhaW6lob6ZMV0E73xWcGDDE+
-fXNrP7rXmGr4lTQyrP2vzSnI4Lwzcsha20MDQZ7QLJFGKN/YjFi3CjUorh6M9/ys
-ZizizYKc3eQL0aPSZS9CllCR9PTM+emPVK1DtW0BDoyYPCY0CdFqR5G1YGJmFWXi
-p7a12uiHHuITyEsJqNxZDq67LiaO82NUtSIj9/nYAmV7q11fy2puPfs+Tia5tIoE
-H/6c9q2xkuw9hi87DjTPRwCsh41ojkrk9Mu+rePf6jqhGOD03wBmF8P0nu4LDn+7
-OAvApnUT5E828r1b1sr32LUWDwOUG0y5LXqOkCYBITNl+Jgnyi+e2KGd/yr4FG++
-8QEpWRJof0BIHc2dd2eZcykD4clNbAZvHvXnG9XtP5KA1+ZzboXTHnxSPqPNhQfp
-+nDEP+q4b1pN8Tz+i3l3JnQA
-=k+Zg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV2vlobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dHsP/iPakxvadVzi1hXxrnaV
+/Jx1ipiRdvhYEFW7OwVfoBgIeXDvmeVfT7F9FzuhwtomnaugVgQLQF/pwosxkffr
+hzWFkBS/mlmXwtrEcVI3zTZvQZXK5ORNegQzxM6ez6zhGxg8LpAyZnJKxSoE85Uq
+8AgyvYAG/t9Zu03A9u5LDTplFCSBtaGs4kanLLwNikkiHDYsB6SBJ29zlwysw31Q
+AFrlSmnEDiyLLJhfis5UQi1OmgMNnWIn3Dadgq4YK6xu8mdRRSZc/gOGGuikM0Mt
+vPRNtYPswc79EqPAHVX7QSYH8SAJ+Gwv9iufSX+1/2+DbWuASYSW7vILvSYVRcyp
+8fmY8HFsZ6UVoMNLSHxta839WEfuOERF505V9f9bRdoTx8dI2RQCqVHJRN36YBS9
+RMWelzDwsGOpW89wRHjlQ4aKm651+C1f7f9YgbGwJGZ1PuKAA/ogqlOr0bupRdK/
+ah6hlIyv22lO/xkuORoECJR5IHBgF0yq7OxqMPdHcoMPbJshdKcZ+4hRlXAJPgOJ
+9l8ozPqoVdHh48z4H/LumO9QPS6EkGHrUT8+1FLVr/yznlMiuOwu+/GZiV20WvO4
+u8DUdStCRhlqhMnzFGWONBnIcAAepG4qRDJ/wrZ4p55CZeeU6kxPbo3bVPo8MaDN
+1m5/1FSeev3t2TZXqiD/s475
+=quwn
 -----END PGP SIGNATURE-----
 
---===============9098445227799187398==
+--===============0276354141001495666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33cc938e65a9-a39b6ac3781d.txt
+Content-Disposition: attachment; filename=revlist-61890dc28f7d-a39b6ac3781d.txt
 
 7269cba53d906cf257c139d3b3a53ad272176bca tee: optee: Fix supplicant based device enumeration
 8f51593cdcab82fb23ef2e1a0010b2e6f99aae02 dt: dt-extract-compatibles: Don't follow symlinks when walking tree
@@ -223,8 +223,6 @@ b5338b1b901e41bd7cead66a0b3a796e9fa95684 ASoC: amd: acp: Add support for a new H
 29046a78a3c0a1f8fa0427f164caa222f003cf5b ASoC: wm_adsp: fix memleak in wm_adsp_buffer_populate
 2c7c857f5fed997be93047d2de853d7f10c8defe platform/mellanox: Add null pointer checks for devm_kasprintf()
 3494a594315b56516988afb6854d75dee5b501db platform/mellanox: Check devm_hwmon_device_register_with_groups() return value
-73ea73affe8622bdf292de898da869d441da6a9d USB: gadget: core: adjust uevent timing on gadget unbind
-b17b7fe6dd5c6ff74b38b0758ca799cdbb79e26e usb: typec: class: fix typec_altmode_put_partner to put plugs
 bbb8e71965c3737bdc691afd803a34bfd61cfbeb ALSA: usb-audio: Add Pioneer DJM-450 mixer controls
 cd14dedf15be432066e63783c63d650f2800cd48 ALSA: hda/realtek: fix speakers on XPS 9530 (2023)
 6f7e4664e597440dfbdb8b2931c561b717030d07 ALSA: hda/realtek: Enable headset on Lenovo M90 Gen5
@@ -281,7 +279,6 @@ f8e9889f54da6e3146c2cb3f5c206cf1a704f9d3 ice: change vfs.num_msix_per to vf->num
 7d9f22b3d3ef379ed05bd3f3e2de83dfa8da8258 i40e: Fix unexpected MFS warning message
 a206d9959f5ccd0fb2d54a997c993947ae0e881c iavf: validate tx_coalesce_usecs even if rx_coalesce_usecs is zero
 b1693747487442984050eb0f462b83a3a8307525 perf list: Fix JSON segfault by setting the used skip_duplicate_pmus callback
-24be0b3c40594a14b65141ced486ae327398faf8 Revert "xhci: Loosen RPM as default policy to cover for AMD xHC 1.1"
 bdefd9913bdd453991ef756b6f7176e8ad80d786 powercap: DTPM: Fix missing cpufreq_cpu_put() calls
 7be76461f302ec05cbd62b90b2a05c64299ca01f tracing: Always update snapshot buffer size
 d78ab792705c7be1b91243b2544d1a79406a2ad7 tracing: Stop current tracer when resizing buffer
@@ -411,7 +408,6 @@ bc220fe70919d6500811e5e1e07aff43e137065a MAINTAINERS: drop Antti Palosaari
 4a3ef6be03e6700037fc20e63aa5ffd972e435ca mm/hugetlb: have CONFIG_HUGETLB_PAGE select CONFIG_XARRAY_MULTI
 675abf8df1353e0e3bde314993e0796c524cfbf0 nilfs2: prevent WARNING in nilfs_sufile_set_segment_usage()
 b2f557a21bc8fffdcd65794eda8a854e024999f3 mm/madvise: add cond_resched() in madvise_cold_or_pageout_pte_range()
-61890dc28f7d9e9aac8a9471302613824c22fae4 usb: gadget: f_hid: fix report descriptor allocation
 f0b9d97a77fa8f18400450713358303a435ab688 serial: ma35d1: Validate console index before assignment
 e92fad024929c79460403acf946bc9c09ce5c3a9 serial: 8250_dw: Add ACPI ID for Granite Rapids-D UART
 1a031f6edc460e9562098bdedc3918da07c30a6e parport: Add support for Brainboxes IX/UC/PX parallel cards
@@ -504,4 +500,4 @@ c527f5606aa545233a4d2c6d5c636ed82b8633ef Merge tag 'powerpc-6.7-4' of git://git.
 3a87498869d6d1e7347cd01f337a77984604eb5e Merge tag 'sched_urgent_for_v6.7_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 Linux 6.7-rc5
 
---===============9098445227799187398==--
+--===============0276354141001495666==--
