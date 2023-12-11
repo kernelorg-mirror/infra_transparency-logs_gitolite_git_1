@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7607009761961570037=="
+Content-Type: multipart/mixed; boundary="===============6215126900187382071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 11 Dec 2023 10:45:17 -0000
-Message-Id: <170229151784.25983.3220438351125330231@gitolite.kernel.org>
+Date: Mon, 11 Dec 2023 10:45:31 -0000
+Message-Id: <170229153105.26174.18388551755011872345@gitolite.kernel.org>
 
---===============7607009761961570037==
+--===============6215126900187382071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 3054ebb159f817d32f8c5a4ff49643a09664ee0a
-    new: dd900701c45dee6dc14e9645372cc418f799d810
-    log: revlist-3054ebb159f8-dd900701c45d.txt
+  - ref: refs/heads/m68k-queue
+    old: 6a14a892c46dc3afea97b364101d499bfe421911
+    new: fca25ca0bcee09546732d20f5ba7c7cc864d4a0d
+    log: revlist-6a14a892c46d-fca25ca0bcee.txt
 
---===============7607009761961570037==
+--===============6215126900187382071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3054ebb159f8-dd900701c45d.txt
+Content-Disposition: attachment; filename=revlist-6a14a892c46d-fca25ca0bcee.txt
 
 7269cba53d906cf257c139d3b3a53ad272176bca tee: optee: Fix supplicant based device enumeration
 8f51593cdcab82fb23ef2e1a0010b2e6f99aae02 dt: dt-extract-compatibles: Don't follow symlinks when walking tree
@@ -472,6 +472,8 @@ c527f5606aa545233a4d2c6d5c636ed82b8633ef Merge tag 'powerpc-6.7-4' of git://git.
 537ccb5d28d6f398215e7f578e46ee7836f5ac47 Merge tag 'perf_urgent_for_v6.7_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3a87498869d6d1e7347cd01f337a77984604eb5e Merge tag 'sched_urgent_for_v6.7_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 Linux 6.7-rc5
-dd900701c45dee6dc14e9645372cc418f799d810 Merge tag 'v6.7-rc5'
+dca2587fcdc00a99543edaa808be7ad0de5ef1d1 m68k: atari: usb: Add ISP1160 USB host controller support
+03dc923ec63d654c20dae70fc34455934457c204 m68k: atari: Update Kconfig.bus help text
+fca25ca0bcee09546732d20f5ba7c7cc864d4a0d m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7607009761961570037==--
+--===============6215126900187382071==--
