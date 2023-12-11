@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2034441797729842847=="
+Content-Type: multipart/mixed; boundary="===============1545194178261471522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 11 Dec 2023 08:11:42 -0000
-Message-Id: <170228230256.24331.7299858693528939290@gitolite.kernel.org>
+Date: Mon, 11 Dec 2023 08:11:48 -0000
+Message-Id: <170228230824.24459.4982523108717257944@gitolite.kernel.org>
 
---===============2034441797729842847==
+--===============1545194178261471522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 98b1cc82c4affc16f5598d4fa14b1858671b2263
+  - ref: refs/heads/tty-linus
+    old: e92fad024929c79460403acf946bc9c09ce5c3a9
     new: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
-    log: revlist-98b1cc82c4af-a39b6ac3781d.txt
+    log: revlist-e92fad024929-a39b6ac3781d.txt
 
---===============2034441797729842847==
+--===============1545194178261471522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702282301 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702282307 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1702282301-5d4fdbca47f4079aca19cd61c4acfde5a6d4be76
+nonce 1702282306-686de9fca652de4b03b5dd3a582ef0d4e65ae5b9
 
-98b1cc82c4affc16f5598d4fa14b1858671b2263 a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 refs/heads/main
+e92fad024929c79460403acf946bc9c09ce5c3a9 a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV2xD0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QSoP+gLMZPB06jWpFQ5/nacD
-8j5Gauuref5Hw7Wk0AyyAXIY3e6bhZ2DcFXdQealjB7zKvrxcbBt5Tz8ikDJzSvj
-DX1mDFunn+SJcXnOMwc/Zpqh4QGquWDGBXsdgpgOvtg7SJf4UyDjneTqX8qF+jQy
-TdJCtu/zhiFHI0Lvcss2AqdbCJA+RHq7nb66ETkcI6yvSt6QCX8O8VZRUv3epTln
-T8CY/kasL6TnaIicSOHE9Kb/J6SI5CEYp1+6WwnHMn728fGZQc8YtFVVZUdxpQZV
-B5cI3YzCir3kF+MeYe5OwuEFOWDmxrx8b2nXiSeZ5hr7ITNzE8MBOHVB0oW7huib
-n25nQdmGg3rJ243KKkzCpSst+cuK0aMaPpH7thRvBJ6eaDdEQSsA3ASuc29wEgFu
-Q5+CyqW0FBLl5+utRjWXojJPJEYup9mPxqley7J26Yxy8/cDTKkIvEPZyvxMsI6v
-hywA9k8L8MkqaJa1i8j2gx+LJYtBFWB6XkjEcfyoQK2xUx04eAIgVlBTsGllInSq
-a+ABHcSJ7MKgQIM/C2lmA7lBFiJ9JzyfpJKOzbAHts5YzRcazLPx/5N2aLILxgV5
-b8Rm1MjRMuwU4sO5o3pP8h2tyIMDR4LNWZ9WnkB+t0g3j9ktWTipdTMlRn/i/QOG
-GShdn5z43l5vuPmj4U69/20S
-=SOJF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV2xEMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SdIP/idBLmRibccOatCMQHiB
+pvrgXzCdROc046TENiyNll8bvu3f+yXn5frexWsxFRp6CnetVfrClnd2MNYJXAVm
+A+K0W5bNl+OG7hjMoYzzeOm9ONlwv5240Je//iRXf2nW8e4F55m+U/+DUh1iCiaM
+ILwqYgydh26V6OfN6pBgBv6Fq/ObEldi2zyeCyuLm98afWPFM9lRD+7Lz5iMOkWs
+VCjFW3ieGA/s83uab7MboB0mIcuDNRCR6mKpylycrhVUiBUdZyKgk5sZFTl2MKXl
+dU68RFRBhsto+GsvsmadIGj69JTs6XcmlnRhHsvnBz51KBFlAfYhubAKXN85oWVJ
+oB6JEFvctWYYhn81TkiqknKAUWgz0e1P2O3wpJ9K7zGoZ1UU/DnwfqW/0w0ZRSvQ
+MdKZVsajORwjBusQz6sDc54EHs8dXoV28CVWrqQcVtJ5l/q3oC3tw5P9D7qlo1Ah
+OMfIuAElyEIk+5/ZRp5BHtfppKvRe4qBAvvGpr4cdIm8GV1hgweas4epYzdOb5MH
+vEFrU5yV4e72gakqyGViwxdg2twxGL+AsJpheGBs68v1OaJQ8XDXI3qUQhUODGRQ
+63InQlTFIe8PFGSeB1vVAlZNf7uZ2h7WxRfDo64xGPeZKJRv4jugNPr1sxKeNxl2
+Km503+6+mt1Hk2Fv7Ggf/GQ8
+=DcDe
 -----END PGP SIGNATURE-----
 
---===============2034441797729842847==
+--===============1545194178261471522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98b1cc82c4af-a39b6ac3781d.txt
+Content-Disposition: attachment; filename=revlist-e92fad024929-a39b6ac3781d.txt
 
+7269cba53d906cf257c139d3b3a53ad272176bca tee: optee: Fix supplicant based device enumeration
+258ea41c926b7b3a16d0d7aa210a1401c4a1601b Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 3.0 PHY"
+7a784bcdd7e54f0599da3b2360e472238412623e Revert "phy: realtek: usb: Add driver for the Realtek SoC USB 2.0 PHY"
 1a229d8690a0f8951fc4aa8b76a7efab0d8de342 Revert "usb: phy: add usb phy notify port status API"
 7a934b5cc3f452df6f9a4903450fc103dee98ee8 wifi: mt76: mt7921: fix 6GHz disabled by the missing default CLC config
 8f51593cdcab82fb23ef2e1a0010b2e6f99aae02 dt: dt-extract-compatibles: Don't follow symlinks when walking tree
@@ -408,11 +411,6 @@ ed3e0a149b58ea8cfd10cc4f7cefb39877ff07ac smb: client: implement ->query_reparse_
 b0348e459c836abdb0f4b967e006d15c77cf1c87 smb: client: introduce cifs_sfu_make_node()
 d3fa86b1a7b4cdc4367acacea16b72e0a200b3d7 Merge tag 'net-6.7-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 c0a8574204054effad6ac83cc75c02576e2985fe arm64: add dependency between vmlinuz.efi and Image
-c6bb057418876cdfdd29a6f7b8cef54539ee8811 serial: 8250: 8250_omap: Do not start RX DMA on THRI interrupt
-8e42c301ce64e0dcca547626eb486877d502d336 serial: 8250_omap: Add earlycon support for the AM654 UART controller
-8973ab7a2441b286218f4a5c4c33680e2f139996 serial: 8250: 8250_omap: Clear UART_HAS_RHR_IT_DIS bit
-08ce9a1b72e38cf44c300a44ac5858533eb3c860 serial: sc16is7xx: address RX timeout interrupt errata
-58ac1b3799799069d53f5bf95c093f2fe8dd3cc5 ARM: PL011: Fix DMA support
 c0c6bde586c7dce82719b4ff32a2db6af9ee3d65 netdevsim: Don't accept device bound programs
 2db313205f8b96eea467691917138d646bb50aef btrfs: add dmesg output for first mount and last unmount of a filesystem
 f91192cd68591c6b037da345bc9fcd5e50540358 btrfs: ref-verify: fix memory leaks in btrfs_ref_tree_mod()
@@ -990,8 +988,6 @@ bc220fe70919d6500811e5e1e07aff43e137065a MAINTAINERS: drop Antti Palosaari
 675abf8df1353e0e3bde314993e0796c524cfbf0 nilfs2: prevent WARNING in nilfs_sufile_set_segment_usage()
 b2f557a21bc8fffdcd65794eda8a854e024999f3 mm/madvise: add cond_resched() in madvise_cold_or_pageout_pte_range()
 61890dc28f7d9e9aac8a9471302613824c22fae4 usb: gadget: f_hid: fix report descriptor allocation
-f0b9d97a77fa8f18400450713358303a435ab688 serial: ma35d1: Validate console index before assignment
-e92fad024929c79460403acf946bc9c09ce5c3a9 serial: 8250_dw: Add ACPI ID for Granite Rapids-D UART
 1a031f6edc460e9562098bdedc3918da07c30a6e parport: Add support for Brainboxes IX/UC/PX parallel cards
 b7c1e53751cb3990153084f31c41f25fde3b629c nvmem: Do not expect fixed layouts to grab a layout driver
 73bf1c9ae6c054c53b8e84452c5e46f86dd28246 drm/exynos: fix a potential error pointer dereference
@@ -1082,4 +1078,4 @@ c527f5606aa545233a4d2c6d5c636ed82b8633ef Merge tag 'powerpc-6.7-4' of git://git.
 3a87498869d6d1e7347cd01f337a77984604eb5e Merge tag 'sched_urgent_for_v6.7_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 Linux 6.7-rc5
 
---===============2034441797729842847==--
+--===============1545194178261471522==--
