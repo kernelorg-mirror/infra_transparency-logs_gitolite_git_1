@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3143785074742155037=="
+Content-Type: multipart/mixed; boundary="===============6279664672931432359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 11 Dec 2023 15:15:05 -0000
-Message-Id: <170230770537.15064.1182783818025834521@gitolite.kernel.org>
+Date: Mon, 11 Dec 2023 15:15:14 -0000
+Message-Id: <170230771427.15202.4274060176518387402@gitolite.kernel.org>
 
---===============3143785074742155037==
+--===============6279664672931432359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 1001cf6ba276fa5585f6848ff71a9a52d02dee60
-    new: 59392e03bfaa26c7074b262747f6268eff60040b
-    log: revlist-1001cf6ba276-59392e03bfaa.txt
+  - ref: refs/heads/svcrdma-next
+    old: 6e956d13710e561919604e2afab99a37cad78b93
+    new: 63c1cc2b5b36acfad4e76f3c4ff8262e0667ace3
+    log: revlist-6e956d13710e-63c1cc2b5b36.txt
 
---===============3143785074742155037==
+--===============6279664672931432359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1001cf6ba276-59392e03bfaa.txt
+Content-Disposition: attachment; filename=revlist-6e956d13710e-63c1cc2b5b36.txt
 
 7269cba53d906cf257c139d3b3a53ad272176bca tee: optee: Fix supplicant based device enumeration
 8f51593cdcab82fb23ef2e1a0010b2e6f99aae02 dt: dt-extract-compatibles: Don't follow symlinks when walking tree
@@ -515,5 +515,25 @@ eba51986acf14d62cd97fb85e8ed48d8614aeffa svcrdma: Update the synopsis of svc_rdm
 3664ab59154152c6b1794168458fb0ab2f8f594a svcrdma: Update the synopsis of svc_rdma_read_special()
 06defcc920490b6d2e4cdc05325c0c9a9839d8ae svcrdma: Remove struct svc_rdma_read_info
 59392e03bfaa26c7074b262747f6268eff60040b svcrdma: Move the svc_rdma_cc_init() call
+a589bdbb93967349592ea50d9126bfde4922ed64 svcrdma: De-duplicate completion ID initialization helpers
+f7b6dbc4753f98449aa924c82cded8ce311d26f1 svcrdma: Optimize svc_rdma_cc_init()
+b9af87ac5b1f55474255696eae9862dc8329063a svcrdma: Remove pointer addresses shown in dprintk()
+cd2e99d86b188f61e1df0827c75ed79b801b81bc svcrdma: Remove queue-shortening warnings
+7bfae0fd1160c944d9ce8ed3a1c5d81b4c9d8d06 svcrdma: Clean up comment in svc_rdma_accept()
+52f471bc4082528309703fee2138fe9724757014 svcrdma: Reserve an extra WQE for ib_drain_rq()
+9d5cb7e1bfdabcb68bb66791e3ff6f7843cee6be svcrdma: Use all allocated Send Queue entries
+bb48059b2911d4fa1bcaf7cdc731aec4405cdbb0 svcrdma: Increase the per-transport rw_ctx count
+e15d1a14704ccdb8e068f9798ee692df06b4b20c svcrdma: Add back svc_rdma_recv_ctxt::rc_pages
+34817c521feebc203fef6b472f3d8c6d1f61aacb svcrdma: Add back svcxprt_rdma::sc_read_complete_q
+016199db167852c354c6aeb07064e9407a241f5d svcrdma: Copy construction of svc_rqst::rq_arg to rdma_read_complete()
+fb4ad7db41689ffb741b670a9f4727ce42d18c55 svcrdma: Implement multi-stage Read completion again
+39dcb354e68d0fda5f7c229da66f20704d7c6271 svcrdma: Fix SQ wake-ups
+680f83431a3c6ad68685012de387d5c1c1ee7f5a svcrdma: Prevent a UAF in svc_rdma_send()
+dd03577f10a6a2aaa3e830ce016171744510d29a svcrdma: Fix retry loop in svc_rdma_send()
+28b1f2c9a0f0fba182614c09c15fb32e6ccafd65 svcrdma: Post Send WR chain
+8fc9d6b5ee66f8c39484a395134455268c253c25 svcrdma: Move write_info for Reply chunks into struct svc_rdma_send_ctxt
+5a10611148448dfb6a4ea774a985b2a67665bc87 svcrdma: Post the Reply chunk and Send WR together
+961524f2959b7c46ebee87df552030f8336e5f20 svcrdma: Post WRs for Write chunks in svc_rdma_sendto()
+63c1cc2b5b36acfad4e76f3c4ff8262e0667ace3 svcrdma: Add Write chunk WRs to the RPC's Send WR chain
 
---===============3143785074742155037==--
+--===============6279664672931432359==--
