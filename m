@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3604322731262455963=="
+Content-Type: multipart/mixed; boundary="===============1957153317581576102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 11 Dec 2023 15:26:04 -0000
-Message-Id: <170230836478.22437.4896049476340152533@gitolite.kernel.org>
+Date: Mon, 11 Dec 2023 15:27:29 -0000
+Message-Id: <170230844955.23020.16437170749790613763@gitolite.kernel.org>
 
---===============3604322731262455963==
+--===============1957153317581576102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-fixes
-    old: 58720809f52779dc0f08e53e54b014209d13eebb
+  - ref: refs/heads/counter-next
+    old: 7904cdf1397c9391178ce53a7ebfa099c6bc4a59
     new: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
-    log: revlist-58720809f527-a39b6ac3781d.txt
+    log: revlist-7904cdf1397c-a39b6ac3781d.txt
 
---===============3604322731262455963==
+--===============1957153317581576102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58720809f527-a39b6ac3781d.txt
+Content-Disposition: attachment; filename=revlist-7904cdf1397c-a39b6ac3781d.txt
 
 e80ed63affc9a9b4aacb44180ecd7ed601839599 riscv: dts: sophgo: remove address-cells from intc node
 ba276ce5865b5a22ee96c4c5664bfefd9c1bb593 bcachefs: Fix missing locking for dentry->d_parent access
@@ -1051,4 +1051,4 @@ c527f5606aa545233a4d2c6d5c636ed82b8633ef Merge tag 'powerpc-6.7-4' of git://git.
 3a87498869d6d1e7347cd01f337a77984604eb5e Merge tag 'sched_urgent_for_v6.7_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 Linux 6.7-rc5
 
---===============3604322731262455963==--
+--===============1957153317581576102==--
