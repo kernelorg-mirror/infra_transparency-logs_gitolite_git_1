@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 11 Dec 2023 18:11:43 -0000
-Message-Id: <170231830336.19987.8933906842242929848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 11 Dec 2023 18:12:35 -0000
+Message-Id: <170231835552.20419.59329342373102969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 2021d7fc243aadbfbd1e15d70019aa130c502b3f
-    new: 6234288e7c1ef8bf2cf9413f8da340680f77c91d
+  - ref: refs/heads/vfs.mount
+    old: b85162355f0310847550cb657987bd3002cab731
+    new: 8ab2e66fed17cde4c530d77384fd7374d8dd69be
     log: |
-         64e48d6e922b8b64640ab7d166746c3eb470f438 Fixes for 6.6
-         ae017975f87fcbdd874fe89be8dcc292830b8d3a Fixes for 6.1
-         1d178e12ed660de95636f0612d91572564233f48 Fixes for 5.15
-         c72896fc240e23a724277f7a8db8376996e2c376 Fixes for 5.10
-         e3c173b11cce373e62107fed36e9e79db98650e9 Fixes for 5.4
-         6234288e7c1ef8bf2cf9413f8da340680f77c91d Fixes for 4.19
+         46eae99ef73302f9fb3dddcd67c374b3dffe8fd6 add statmount(2) syscall
+         6971beb4ec52ad7b26f5b5eedf19d4963be7df1b statmount: simplify numeric option retrieval
+         e2064ddd97c15691c924f1028b823bdd19b9ae1c statmount: simplify string option retrieval
+         9790633c56a13fe04a572393e74769dfa9c137d4 add listmount(2) syscall
+         760658fbed8d8e0001c1dc7bdb7e2b282a661c2c wire up syscalls for statmount/listmount
+         8ab2e66fed17cde4c530d77384fd7374d8dd69be fs: keep struct mnt_id_req extensible
          
