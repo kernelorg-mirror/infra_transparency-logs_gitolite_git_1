@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6306721651158739625=="
+Content-Type: multipart/mixed; boundary="===============1132940417096811826=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 11 Dec 2023 16:10:24 -0000
-Message-Id: <170231102424.23132.6557764174232723672@gitolite.kernel.org>
+Date: Mon, 11 Dec 2023 16:12:00 -0000
+Message-Id: <170231112002.23794.9818988853521405778@gitolite.kernel.org>
 
---===============6306721651158739625==
+--===============1132940417096811826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,71 +17,71 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-4.14.y
-    old: 1ed1c276cadb193976f62d49d31f93ef599ec062
-    new: 978f12af1a912d2a49ce4f2031542f13c23789f3
-    log: revlist-1ed1c276cadb-978f12af1a91.txt
+    old: 978f12af1a912d2a49ce4f2031542f13c23789f3
+    new: 19d4a52f80bf86cfe79a0a922d946491b9be2de9
+    log: revlist-978f12af1a91-19d4a52f80bf.txt
 
---===============6306721651158739625==
+--===============1132940417096811826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702311022 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702311118 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1702311020-6e7f048c4c5bb31beaedc16339b18cba50a003d5
+nonce 1702311116-8444540cf7058c3c9822ec8f8784bb2b36380dcf
 
-1ed1c276cadb193976f62d49d31f93ef599ec062 978f12af1a912d2a49ce4f2031542f13c23789f3 refs/heads/linux-4.14.y
+978f12af1a912d2a49ce4f2031542f13c23789f3 19d4a52f80bf86cfe79a0a922d946491b9be2de9 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV3NG8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RO0P/3jZSajgmTdi8j8cfSJJ
-1AZkdtnbWSbvReTuaeXscnMREtsGfRD8iKvGdGSL4UH5Y7fUxwNAqOEgxiSgGWQ0
-aGUgijlxWw7A9jQ98QtmO1QhNTsg8VCd32zgaCA8wYsvoFhklgz42lSmihI8wgB+
-9oc1MFY5IoG5UbracQEv07pL/i7dlNNS1v8xW1l4H+rFCrG237yoOJza1AAGXysA
-Jiedk04BY0PU/YOCxp5cwgPon/p9eBto5ZV4nmZryXK33frmmL2uN4i1JfBDcPgg
-+WhoTUiuduE6Tz6T43fkg2rpAnhHdk0x2VnuMZx39HWjbslX+nhyoFXMJFy2zfyR
-lBQFlwDdvjS0JKGnZiRLB0oxfsPN27nOM4QvQsV8VFD9C3MaTCpkRxICHGpWyq6f
-idr7tAeQuu50rwin41ofVUniAQplCdsA7fbtWZOw9Yj7O4YiR8yAiI3APWQbwmQx
-+FKwz9i+lSJggoBVTqfwX/TlTCNgfBu/bKGLkDNeonoB90XP1X3bJPflzzdIcQCY
-LJs1BXUTJtlKEyFp2GQ4cQat/qOFyewqxMMGj81PItC+NBKZnE4SsNDJV0SnZKva
-OGsLUxKJQ5egOB2cuW/pbl/dD3wI3hSNKlvO5kArHTX1fWuSN8GIP2H+DodK69bs
-+feUqZzAA/ThawJlEsHoMZ9B
-=QgNO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV3NM4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JykQAInbcLnx4+IdsEjznhch
+fL+iPlRXNzQ0jEXbrRLLKNl5g0zTKTffpF1ewgNzMpFvFKgnKCzkMWBur6123BZv
+M24NSXbZCGLPOfj/UwCLvaudz6kRGWtyTexsaDikLRhkG69Ov2ih4s9zHj22HdLX
+sszSsflz16Kjvv+4eO0fQEccgSQmnx40wsCuP3rtvUnrv67/NHvObdoJgnRf6vS+
+rHPLv6Uai9RiC6BZO/hwDFkY9P9ws52YI9pxtN+SguSHxN5M8ucyPnsRR5Ik2Nsy
+nUAfdHqDw82e7MPm3PGPOuPU1Cis8CaeVBgrWlplOlhc5LOzOAZjy4O27qQ8D0xB
+fA/4fhLc9m1mj/CPEV+YVJ7Xgqfl23aDdNC6An5lTC8wZ+7Y3P8OJAM4FfIyKwtV
+E27KCpLrAULQoGPcaqetslqSgC+unTrRIx4wj9e0D9X1l5K7BL3wQmHdPbKMkvFv
+ChZ5U90d9RV+A2iYTaw3F90CvGtb8/WTeVbpLB8hFf2TXYH4bxPvucGJQDQ5mURB
+FawzFpP5ti5XTw9Gbi51MFSdOe4RNZfHquTCWI7nP/GS5yATpIJSzWcf1TS0bnkk
+nTgFmxH5PLnmiaz7bCKaLE+F3KFx67PIKFyjce+lCrUwAKHqn449vA0ec97btHx7
+4HqMRezwd9a558vlwHscFGze
+=cQ9J
 -----END PGP SIGNATURE-----
 
---===============6306721651158739625==
+--===============1132940417096811826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ed1c276cadb-978f12af1a91.txt
+Content-Disposition: attachment; filename=revlist-978f12af1a91-19d4a52f80bf.txt
 
-d7e27b78ab32eb0d792f89029dda49cec40413a7 tg3: Move the [rt]x_dropped counters to tg3_napi
-33bd7345945c6a3d36044a372e567cc62e93a5aa tg3: Increment tx_dropped in tg3_tso_bug()
-fdfc89e8273a95b56c88c9c6ce601d3dec479302 drm/amdgpu: correct chunk_ptr to a pointer to chunk.
-dcefb38e67094b7534fd5a9caa151167e41230f8 net: hns: fix fake link up on xge port
-eb7f25c2c66739d6cd9abd8c60ecfa782e5ac390 tcp: do not accept ACK of bytes we never sent
-ac7ce85b6bc593760e3a50efbdbe3e8c1751ea2e RDMA/bnxt_re: Correct module description string
-4051dd4c15d4ef6ec5869be51cce2a89dc2836de hwmon: (acpi_power_meter) Fix 4.29 MW bug
-ce8ade858e729d9433bdb01876a1181884567212 tracing: Fix a warning when allocating buffered events fails
-234f15617fa4655a3a82bb4b42ac084470a74311 scsi: be2iscsi: Fix a memleak in beiscsi_init_wrb_handle()
-7e3e01dcef61695e6a4907676c6de1f0e496d64c ALSA: pcm: fix out-of-bounds in snd_pcm_state_names
-3a15f693b71893a4650249fc2e4b13ef6eadc45b nilfs2: prevent WARNING in nilfs_sufile_set_segment_usage()
-687dd9606ed2248bac27fac54b40ef7b80891f20 tracing: Always update snapshot buffer size
-d676ff1ce9b1b139cd293750078dcccbd5bcc23e tracing: Fix incomplete locking when disabling buffered events
-558502b85ac2843027912f4131526d8e07869020 tracing: Fix a possible race when disabling buffered events
-f8a22bd302d2fbfd72489fe13a3b53cef37de26b packet: Move reference count in packet_sock to atomic_long_t
-61ac944dbac7cda577a5f829ab1b40ad5cbc19fe parport: Add support for Brainboxes IX/UC/PX parallel cards
-6d0203ada86783f2d03ae16b91469de11d54063a ARM: PL011: Fix DMA support
-cfc67400e9419eb1fa1acce5bcb3060d2e18aa0e serial: sc16is7xx: address RX timeout interrupt errata
-983e2f3c44ed3816e8845157e65628493499b3b1 serial: 8250_omap: Add earlycon support for the AM654 UART controller
-651d3ed0deff40818f2ce0c2aba3fd9a9ff02ae5 KVM: s390/mm: Properly reset no-dat
-844c627ea6ee12ca9bc93e067c24d8c8f30ec0c5 nilfs2: fix missing error check for sb_set_blocksize call
-32be18df19ddee0a43452619a0b02c30747c6c27 netlink: don't call ->netlink_bind with table lock held
-1f52a1ac430ab40ace1584bcc82b907099eba8f6 genetlink: add CAP_NET_ADMIN test for multicast bind
-e5e4e9576a6b26246a968e680ca5f6d4ae9dde60 psample: Require 'CAP_NET_ADMIN' when joining "packets" group
-8a72b6b3a3753bec5b6910f696800921299f61d8 drop_monitor: Require 'CAP_SYS_ADMIN' when joining "events" group
-978f12af1a912d2a49ce4f2031542f13c23789f3 Linux 4.14.333-rc1
+4a736d586ae54ce3bf2f3b05268e9d1b4071e1e2 tg3: Move the [rt]x_dropped counters to tg3_napi
+ca06eb4dd216d33b8739d5dfd14d92f4bdebf0bc tg3: Increment tx_dropped in tg3_tso_bug()
+456a659687375aa33b2e95fda1539e8956b6e650 drm/amdgpu: correct chunk_ptr to a pointer to chunk.
+bab6c158202dc3bcef4d7fe92e499a6ce2c913e0 net: hns: fix fake link up on xge port
+ed877ad06d106ded8223cc0dc4177b6f0fa78b3e tcp: do not accept ACK of bytes we never sent
+62370c05f1b7cd25b8dc5ac9fadf67297bbe752c RDMA/bnxt_re: Correct module description string
+2319048a5ea1809969c26dfa5dc838a4c82d9906 hwmon: (acpi_power_meter) Fix 4.29 MW bug
+ca77456d97f6efd49af394938740325adb14498a tracing: Fix a warning when allocating buffered events fails
+48212f1b8cd4baa49b7f7befbbeea9b82ffc2eb3 scsi: be2iscsi: Fix a memleak in beiscsi_init_wrb_handle()
+a75100bdd5762375838a59b5712016249fc8f3bf ALSA: pcm: fix out-of-bounds in snd_pcm_state_names
+3e58b9e6fb157eb079eca53932517e4b4a4e590d nilfs2: prevent WARNING in nilfs_sufile_set_segment_usage()
+b05f734a27420679602171e7b9d6c0c965bc7001 tracing: Always update snapshot buffer size
+9bf0ac00beb238bc90eea746cc1d2ee70e7a0666 tracing: Fix incomplete locking when disabling buffered events
+bb3b65e5b5cbfa28ad72a9ac116af249c970a2c6 tracing: Fix a possible race when disabling buffered events
+ecbe2ee1cff890918562a593009c7a57166b746e packet: Move reference count in packet_sock to atomic_long_t
+7edb8ad571f8f7e5791415c4d98e558b1b2df7f5 parport: Add support for Brainboxes IX/UC/PX parallel cards
+c57e6fb44a1a0660d989adf3965e4f269f65eb9b ARM: PL011: Fix DMA support
+6bf8c821447b693a63b4daecf031edc6d2e1a1e3 serial: sc16is7xx: address RX timeout interrupt errata
+8cf3ab3f0cceac0998ef95424371cd70d2049527 serial: 8250_omap: Add earlycon support for the AM654 UART controller
+79b10d9c9e96187a9186ded44b2b5a2d705e7188 KVM: s390/mm: Properly reset no-dat
+ad796535a15d851a6cbd3ab98b6bef78e0adfc95 nilfs2: fix missing error check for sb_set_blocksize call
+b7ac0b643fdc183a169c5d20d2277c9764202ead netlink: don't call ->netlink_bind with table lock held
+008cb89c594d26d2a01874a96b4bf412d776b78e genetlink: add CAP_NET_ADMIN test for multicast bind
+3172250e682b51d4faa09c15bef40bc41f23951c psample: Require 'CAP_NET_ADMIN' when joining "packets" group
+f085691de82cc90831cadfef723e16f740e879b6 drop_monitor: Require 'CAP_SYS_ADMIN' when joining "events" group
+19d4a52f80bf86cfe79a0a922d946491b9be2de9 Linux 4.14.333-rc1
 
---===============6306721651158739625==--
+--===============1132940417096811826==--
