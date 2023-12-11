@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5007377290002448626=="
+Content-Type: multipart/mixed; boundary="===============3141988824180846682=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 11 Dec 2023 17:35:20 -0000
-Message-Id: <170231612038.23908.7734576393459664562@gitolite.kernel.org>
+Date: Mon, 11 Dec 2023 17:35:54 -0000
+Message-Id: <170231615440.24171.16698824941796356195@gitolite.kernel.org>
 
---===============5007377290002448626==
+--===============3141988824180846682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: c12296bbecc488623b7d1932080e394d08f3226b
-    new: e307b5a845c5951dabafc48d00b6424ee64716c4
-    log: revlist-c12296bbecc4-e307b5a845c5.txt
+  - ref: refs/heads/dev-queue
+    old: d11403826665ff11ca6a4d586816db73c3516734
+    new: 438d21413f746b82180705cc002af902cdcb4a51
+    log: revlist-d11403826665-438d21413f74.txt
 
---===============5007377290002448626==
+--===============3141988824180846682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c12296bbecc4-e307b5a845c5.txt
+Content-Disposition: attachment; filename=revlist-d11403826665-438d21413f74.txt
 
 a1664b991ac12b872be859ca03529c68c72795a2 octeon_ep: initialise control mbox tasks before using APIs
 f4e6064c97c050bd9904925ff7d53d0c9954fc7b qca_debug: Prevent crash on TX ring changes
@@ -49,5 +49,21 @@ dbda436824ded8ef6a05bb82cd9baa8d42377a49 octeontx2-pf: Fix promisc mcam entry ac
 570ba37898ecd9069beb58bf0b6cf84daba6e0fe octeontx2-af: Update RSS algorithm index
 c3e041425af9068e3ec9d90c536de2a2ba97ba2b Merge branch 'octeontx2-fixes'
 e307b5a845c5951dabafc48d00b6424ee64716c4 octeontx2-af: Fix pause frame configuration
+7bde797b023dde12b98438dd583a4b8869d9283b i40e: fix livelocks in i40e_reset_subtask()
+afa052618fa693c20f6995fac1617a71b8362d4b i40e: fix 32bit FW gtime wrapping issue
+60264435cb69d4c180e66193b2392049ce679d69 i40e: Fix waiting for queues of all VSIs to be disabled
+63a3e33f28101224dcef78996d77ba4ff38072a6 iavf: Introduce new state machines for flow director
+725e38e4b570288c559851cc4d875afca8f51aac iavf: Handle ntuple on/off based on new state machines for flow director
+a7253e7d4d74a75b4c8f812e3103bdd647cc635f iavf: Fix iavf_shutdown to call iavf_remove instead iavf_close
+4857e8f25941626a6ee019bddfce4c4e9ce1aa94 i40e: Fix filter input checks to prevent config with invalid values
+af5505c253df9bb01f75bf06c6abab728812ecb6 i40e: Fix ST code value for Clause 45
+6e8da988a2aaac8ca291135876b1693e55118756 ice: fix theoretical out-of-bounds access in ethtool link modes
+a342c6e6149729d5a3269a97e0fa226f48942544 i40e: Fix wrong mask used during DCB config
+25cea0cb373cbc2b824cd7fef3ab0c01d508f554 igc: Report VLAN EtherType matching back to user
+97836c5f9261ebe6b4c8997568a6ddb06a04e945 igc: Check VLAN TCI mask
+0c2c77dde475af6c07cd285f880134e89c52a3b7 idpf: fix corrupted frames and skb leaks in singleq mode
+d170f8fe42195419ea7972a03a0a4ab17180aee1 igc: Check VLAN EtherType mask
+f991cc1d9250d53fa37cd99728a1ca03b4ddceb3 ice: Do not get coalesce settings while in reset
+438d21413f746b82180705cc002af902cdcb4a51 ice: stop trashing VF VSI aggregator node ID information
 
---===============5007377290002448626==--
+--===============3141988824180846682==--
