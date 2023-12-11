@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 11 Dec 2023 20:53:45 -0000
-Message-Id: <170232802513.8525.12995053502770455674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 11 Dec 2023 21:05:18 -0000
+Message-Id: <170232871888.17332.11015631402395971977@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/mips-next
-    old: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
-    new: 01940cd4a6b9c47995a0cdaaafdd459b0d2221a2
+  - ref: refs/heads/master
+    old: ba9fda12d26bf4200339da94bc198c6641f98668
+    new: 093d00b47ee4e3544aa80de33e869a8617c4af32
     log: |
-         06dc6a869597ec68b2e4ebcde8147f4a52965e96 MAINTAINERS: Add myself as maintainer of the Ralink architecture
-         01940cd4a6b9c47995a0cdaaafdd459b0d2221a2 MIPS: SGI-IP27: hubio: fix nasid kernel-doc warning
+         093d00b47ee4e3544aa80de33e869a8617c4af32 bap: Don't attempt to release if old state was releasing
          
