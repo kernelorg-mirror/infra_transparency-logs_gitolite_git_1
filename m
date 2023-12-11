@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6989102514268463412=="
+Content-Type: multipart/mixed; boundary="===============1919443786107972394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 11 Dec 2023 14:46:27 -0000
-Message-Id: <170230598797.24121.11389264828607707456@gitolite.kernel.org>
+Date: Mon, 11 Dec 2023 14:46:35 -0000
+Message-Id: <170230599516.24276.1594363165420411758@gitolite.kernel.org>
 
---===============6989102514268463412==
+--===============1919443786107972394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,109 +16,137 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 34244ed6219a9eab1ce2262dc3c2bf39a3789b8a
-    new: 9c153a8b9dff75dd10d655e7d05e6e2425ce4f2e
-    log: revlist-34244ed6219a-9c153a8b9dff.txt
+  - ref: refs/heads/linux-5.10.y
+    old: d330ef1d295df26d38e7c6d8e74462ab8a396527
+    new: 6060ee11822f9de352eec30720042f82ef9577ae
+    log: revlist-d330ef1d295d-6060ee11822f.txt
 
---===============6989102514268463412==
+--===============1919443786107972394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702305986 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702305993 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1702305986-75948d6fe709a2feb08fc1b3a0d207b45a47c7ae
+nonce 1702305992-4431a2b9583dda5ea91ba1e7ae58fbc13e953b44
 
-34244ed6219a9eab1ce2262dc3c2bf39a3789b8a 9c153a8b9dff75dd10d655e7d05e6e2425ce4f2e refs/heads/linux-5.4.y
+d330ef1d295df26d38e7c6d8e74462ab8a396527 6060ee11822f9de352eec30720042f82ef9577ae refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV3IMIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dGkQAMFfrMEnGvBLhiPH4YfX
-kxiatRvtG9pa1qKbNd7evK08iWs+vkvfF5mHNsNo6hqP+g0G/KjVcu9LwCnBE5va
-UPUq7Ag4ALry2eg5jIGzax1z3MMby1m/d6oPOlP0WoEs1RfsMThRt+jJJdp6Fo6N
-HW4xVg5ocUgEZB5sDZ/0oYj7xEeRESsoQaUWThWVLUBrY2tOT3XQmBNLOj+WHK5K
-0gJf3u0bHrwsCeHuo1TS6LpcPgDX3P4VDMBJMpHBYlsFfWkCqdxE9GlI4/1YWSIE
-gUL/5JJtMn2stt/+NZghwsrt73TF79AZBItzJOvwEIpNe5Jz7ePa4lpVrj5KYyDQ
-5VvDhx3t90ErIB+pu9SUdYM9cQY8EjE7YpFnnijClN6nHoL7oSktRSri+mkTPPDO
-nZV0MatnQqtpmRx89NHOfD0dOXA7TgyEWyDruEy9E+dgFmmKhrthDlnULiUVxHEV
-sJM2llMH0Bzr8HGtSx6NJoNancgXpSm75kK863buKDWnBE1UoMhKGOSIMdkBlVz2
-tCy/V298lswVKhgoY8iHrahYk+DkF3JB/kw6DEcx0D0bYSP+hGkEAI7kO6a57lJW
-/BaYBMp25gxnqzoDQm0M6OAz9Fva9aHfvt6nlB98fYvVFd9VGFRd2z5QSfW4+GAN
-NRQcum0jx6njARVUIYhWPbb3
-=xQs5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV3IMkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PkMP/3M0avVWLeP+Frby6mVS
+SxSgX5Xpb9NKMRkadl257pcrNhqNqgWUwKiyxmI6KYzbhVDrOxJQVOHh/unPLAzC
+cR6a7TDRTZVWqTq+Mo4jyaDMvTwlJP30XOLxzIOOTQv4AGxe+jKoVJHyLqaFnIcl
++BB7BmuSjwsAwbl5GXILjOcawS6ZyH94U5rphVsgBolMLZFMIsVjAurEUP06gmhS
+bJw4ltCjkiHDcBWri5etGozvCaD1uJcz+PMuyPDmImnDa7ullCIPC1vIRqlfiiCM
+M41ivs1UU4B43kcD2Y8vx4G+70FmwObLR61wTc6BH8bMEFJ46sZifwYZsq1E7cZn
+27QsKvq24X4CFn/fwPKTKPumAiBS2cXGkRI1w3DDpcOsi1ekqDsNl8/QElQOAUT+
+TToq3TrJGia7UY6fDPPxQcAS5BbMFGlQ3YYpkG4tBcOJdP9+jBmOWzveWndzb+0m
+475sNjzU2zvgm3/L8cKl4qSgAzFxIHeCvHYXm9qkHElzDlPrjjN7mTsPVeeD/eg9
+Djw3UdtmtL3k1y/MoBafELql5HEJBgOD/ZjHqoo/iHySKVdVOqs4U0vRKXFHHENi
+1szunvLQCaXRpQPBRqcHDRwfOn+Ea2lPylp36d0VlT7u+opY2hgEYe8D3CNRjvhS
+ToagAbf3umlEqH5D1kQGdanu
+=vU9M
 -----END PGP SIGNATURE-----
 
---===============6989102514268463412==
+--===============1919443786107972394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-34244ed6219a-9c153a8b9dff.txt
+Content-Disposition: attachment; filename=revlist-d330ef1d295d-6060ee11822f.txt
 
-93f3668965fdf190db8323e437f1d123596a558e hrtimers: Push pending hrtimers away from outgoing CPU earlier
-eb8bec479652e5bf09833ae280b6b7e9221ef30c netfilter: ipset: fix race condition between swap/destroy and kernel side add/del/test
-3eff78ccabb0f6eca045ce2b9637d450ca3acba9 tg3: Move the [rt]x_dropped counters to tg3_napi
-b7b2f540c59fcd87acdc2b229400cc7acce07b90 tg3: Increment tx_dropped in tg3_tso_bug()
-b197cb969ce9dfce547a5c3b7e843f1a09e147d8 kconfig: fix memory leak from range properties
-7ad94652e1a4e0ed9fdddecfdf8f7c90e2fb8a7f drm/amdgpu: correct chunk_ptr to a pointer to chunk.
-c635096bcc6c35d8c32b3f71a89973be1eaafaec of: base: Add of_get_cpu_state_node() to get idle states for a CPU node
-10cd31729c3fd3e863fceb6ed576b6c4911ac03b ACPI/IORT: Make iort_get_device_domain IRQ domain agnostic
-a4327effdb947b5b29f177ede4165636479e5fc3 ACPI/IORT: Make iort_msi_map_rid() PCI agnostic
-16fa19b3849b7e669a56286a509f9956777fda9a of/iommu: Make of_map_rid() PCI agnostic
-a0a5a1dce6fe100861e45dbc2b043edc7901c006 of/irq: make of_msi_map_get_device_domain() bus agnostic
-cbc60de065c451695525e4fdcd8a19b223adcfa4 of/irq: Make of_msi_map_rid() PCI bus agnostic
-e8e6c40a1754e66a011b572d64eb617d2d354140 of: base: Fix some formatting issues and provide missing descriptions
-08d0e3b90554a8fe6a617b6e010eedc311003993 of: Fix kerneldoc output formatting
-55a2c5a2a92c6f93492212a8930a62364e6d7dd4 of: Add missing 'Return' section in kerneldoc comments
-a1a244c001ad292d5922a0cf2268ff76b7be23ef of: dynamic: Fix of_reconfig_get_state_change() return value documentation
-120ad3fa110ec1b0ecc14c5375a24129bf8647a8 ipv6: fix potential NULL deref in fib6_add()
-c2d11d677dd2d1c98ddb03e0abe4f5f76ca38c26 hv_netvsc: rndis_filter needs to select NLS
-351f54c1b2032fd23672366dfb906b5c9a874443 net: arcnet: Fix RESET flag handling
-009d30fbf8dd10b8929e37b8f543a1dfd3467148 net: arcnet: com20020 fix error handling
-8c9677befab8ac22a89f330e794b10c6b823be88 arcnet: restoring support for multiple Sohard Arcnet cards
-b6f2aa7173e18c60da146c7ce849b6319f6b3026 ipv4: ip_gre: Avoid skb_pull() failure in ipgre_xmit()
-e95d58a2180654b3fd6f0305f29834f1a5369f14 net: hns: fix fake link up on xge port
-d0cbd73962ae1d25635d54696fd0bbd9129703a7 netfilter: xt_owner: Fix for unsafe access of sk->sk_socket
-c5d1a3fde8a3549bce5e54fc698799aca99f5cab tcp: do not accept ACK of bytes we never sent
-231b2f532f56dd6bd5e85eb1610804948daf1a16 bpf: sockmap, updating the sg structure should also update curr
-56ea7b868cfae5f308789de0f2706fdf411c1fa7 RDMA/bnxt_re: Correct module description string
-7ff68ddd238d7fb564a2c5261cc0a110f12451b1 hwmon: (acpi_power_meter) Fix 4.29 MW bug
-6a4c1a9fafdb1ece62077d9af4f27df2b2b2818a ASoC: wm_adsp: fix memleak in wm_adsp_buffer_populate
-69f4c69bc733fa40be50903be7a22a2b7877bdae tracing: Fix a warning when allocating buffered events fails
-29624a147590dd1bbc762e9b7cae5571cf7c4095 scsi: be2iscsi: Fix a memleak in beiscsi_init_wrb_handle()
-f3160fada6dc1bdf996d283128cf62ae7dba7a74 ARM: imx: Check return value of devm_kasprintf in imx_mmdc_perf_init
-cfe26b1dbcecc0526cce8375ee3b0af677bf96b5 ARM: dts: imx: make gpt node name generic
-9f0c50e555a19c918b986439220b5c7bb550b3be ARM: dts: imx7: Declare timers compatible with fsl,imx6dl-gpt
-7767a5b032728dbe42fa91cba4daa8d702241385 ALSA: pcm: fix out-of-bounds in snd_pcm_state_names
-5e6b8ce84e0eae0e44628a19f9b813aa5338557a nilfs2: prevent WARNING in nilfs_sufile_set_segment_usage()
-468282bdc727b14b91e7cf8e729c603bdac36ebf tracing: Always update snapshot buffer size
-a34d1a6abc997c91a5d4feeed8068fd19130d83e tracing: Fix incomplete locking when disabling buffered events
-c5f77c50d3aa4a4521292b12e4243ee8a067185d tracing: Fix a possible race when disabling buffered events
-59d0350bda38067f5241906190673116445c8f34 packet: Move reference count in packet_sock to atomic_long_t
-6f795fe03b9976cd98f014a3736aa7938b6af691 arm64: dts: mediatek: mt7622: fix memory node warning check
-bde32c45419a2e6f8f221c3299625f40b882ca38 arm64: dts: mediatek: mt8173-evb: Fix regulator-fixed node names
-4e1cb612cb8d8b77f2954c96838ff522c80fa621 perf/core: Add a new read format to get a number of lost samples
-6a5ef4acbf8950afd284e9e07397e112eb6b737d perf: Fix perf_event_validate_size()
-d76d788786b0513e77db52432e8002dfcf77d3f3 gpiolib: sysfs: Fix error handling on failed export
-ead9d7cc2ed060aabdfedf9673eb413ea31f54e7 mmc: core: add helpers mmc_regulator_enable/disable_vqmmc
-46cfe1c58298a714a11bfced3b8707b18830a329 mmc: sdhci-sprd: Fix vqmmc not shutting down after the card was pulled
-f7ef602f76a1716df6b8aa96e1663cedd2ab1349 usb: gadget: f_hid: fix report descriptor allocation
-1cb0bf51956acf077ccdc1dc93c5a0c92218ff35 parport: Add support for Brainboxes IX/UC/PX parallel cards
-7463d5d81cbac609dbbab68d87271fecf8b58649 usb: typec: class: fix typec_altmode_put_partner to put plugs
-8b19ad4be8986c67fdb7cbed20ed961327fe7223 ARM: PL011: Fix DMA support
-3500031bf223d206c14da7a957b9a520b3e813bc serial: sc16is7xx: address RX timeout interrupt errata
-09842092b055cb906ff8c50cd66220a61cd04225 serial: 8250_omap: Add earlycon support for the AM654 UART controller
-a3779b265eb85f714a831121010e6eb33421b469 x86/CPU/AMD: Check vendor in the AMD microcode callback
-1d114bdbc909ad0d84184e86db4e190312840ac6 KVM: s390/mm: Properly reset no-dat
-2e21e2e12dec6afa14d9ce53324f85cfff1550d2 nilfs2: fix missing error check for sb_set_blocksize call
-a8bcaed53cd509d49e4cd8f523e5cb0d9d70d6c6 io_uring/af_unix: disable sending io_uring over sockets
-b1c794a567f0975b5e49713549c9b93957302df0 netlink: don't call ->netlink_bind with table lock held
-a5626f39af92a23797298bd11895cf34f39ec6ac genetlink: add CAP_NET_ADMIN test for multicast bind
-9915ac46cacbe198a80bcc08b3739c7db1af16d9 psample: Require 'CAP_NET_ADMIN' when joining "packets" group
-8a32139a5754b38962de9b5c41356f7e0b888bdd drop_monitor: Require 'CAP_SYS_ADMIN' when joining "events" group
-26767a5d09060294d368339f14a09681f8512184 tools headers UAPI: Sync linux/perf_event.h with the kernel sources
-9c153a8b9dff75dd10d655e7d05e6e2425ce4f2e Linux 5.4.264-rc1
+1fe2712aeea8824c6ffa4ac0c427302b5273cac2 hrtimers: Push pending hrtimers away from outgoing CPU earlier
+1b1d45de889ba813b874d7e0f9a6a4f96e0d7b0d i2c: designware: Fix corrupted memory seen in the ISR
+b1b7a9a9bbe3de213c2e4bddeeed88c2ec8c7511 netfilter: ipset: fix race condition between swap/destroy and kernel side add/del/test
+6327b8b6bd96a1ac929992e123fe497b143d6b78 tg3: Move the [rt]x_dropped counters to tg3_napi
+5a48a9f1cf1aa4d4aef9b09d2e5e59cb2915e7d0 tg3: Increment tx_dropped in tg3_tso_bug()
+d58295cf6fad4efab08b2112e95517d0537de2fb kconfig: fix memory leak from range properties
+336dcbf88e784c9e79ecc8a38511a9dd4a1ada8a drm/amdgpu: correct chunk_ptr to a pointer to chunk.
+c57372db247ea57b58991a6203c26b237594ba2c platform/x86: asus-wmi: Add support for SW_TABLET_MODE on UX360
+c303a29ea34bb072962f1213471039cefe5a780a platform/x86: asus-nb-wmi: Allow configuring SW_TABLET_MODE method with a module option
+c71629a617c03e20b1128fb9444209c2db71d691 platform/x86: asus-nb-wmi: Add tablet_mode_sw=lid-flip quirk for the TP200s
+33f60c02f1da70c73d7e610cf5a52cb7ffe4d969 asus-wmi: Add dgpu disable method
+feda7b09f0444935eb745741dda39e6fe5b03098 platform/x86: asus-wmi: Adjust tablet/lidflip handling to use enum
+119f9fe967ff249863f37e2328a1a30936541043 platform/x86: asus-wmi: Add support for ROG X13 tablet mode
+1555afae9ab201b0d1e9c2ff34fedf3e99ce7369 platform/x86: asus-wmi: Simplify tablet-mode-switch probing
+860bf7953d6468de5db647356362b10c19e56f3d platform/x86: asus-wmi: Simplify tablet-mode-switch handling
+fd20d99eab9c9a1d45201c0c92a16dd6ea2d43d6 platform/x86: asus-wmi: Move i8042 filter install to shared asus-wmi code
+6a8091549eaf8d527b67206a666407649b0ffe2b of: base: Fix some formatting issues and provide missing descriptions
+55db3b0d7410f45598ec3b760a2112d34e1b06db of: Fix kerneldoc output formatting
+30d8f3b337bf377f2092933d954bfce5832e6a72 of: Add missing 'Return' section in kerneldoc comments
+74960baf86babd55d0796f9b84c41e81a26ab9d4 of: dynamic: Fix of_reconfig_get_state_change() return value documentation
+8dbd2b14c02f8807af03470eef1fd95dc47c3b25 ipv6: fix potential NULL deref in fib6_add()
+0149170cae331796cf2adf313f4652c72ed2b866 octeontx2-pf: Add missing mutex lock in otx2_get_pauseparam
+280816da7220f821f730c3f893e1c8ed4425b7f7 hv_netvsc: rndis_filter needs to select NLS
+cefda0f5f03e048e0b4b9fccb4ff38255a08a207 mlxbf-bootctl: correctly identify secure boot with development keys
+2f0379ac00a5d88764709c5eb54295a6207f3d77 net: arcnet: com20020 fix error handling
+291ef7ffb8beb5d0887ee75be68f8d89dfe6e56a arcnet: restoring support for multiple Sohard Arcnet cards
+7ff424d9bf6ae59bac7ca1048f45cd42c88e0139 i40e: Fix unexpected MFS warning message
+a57e0ad9921603f985ef7a0173c6419550ad4e05 net: bnxt: fix a potential use-after-free in bnxt_init_tc
+2ce794cd2d142f303af57f57ecc4356e782c8911 ionic: fix snprintf format length warning
+f53cacf388ab5073a1eb8564b771dcbc1514a409 ionic: Fix dim work handling in split interrupt mode
+89897094d4c123576dade3b8428f065c6f387193 ipv4: ip_gre: Avoid skb_pull() failure in ipgre_xmit()
+d6a244ea1e161993ab96bffd80afa76195100592 net: hns: fix fake link up on xge port
+654787f85de68a6c952e51be4e1fc43fb681758f netfilter: xt_owner: Fix for unsafe access of sk->sk_socket
+31c39349d16d5883efd6ad97cb3b1bb4f8a0e190 tcp: do not accept ACK of bytes we never sent
+3e1b381cec06d0d0c48157dff758e1a74433ca75 bpf: sockmap, updating the sg structure should also update curr
+149b4bb5d8abca4e1649d68981f896cac31cd4f0 tee: optee: Fix supplicant based device enumeration
+fb3ac508c6eb83d26cb9dcffbec762b7c65fc112 arm64: dts: rockchip: Expand reg size of vdec node for RK3399
+5baab8cdada6bf204fc839fb932795b8d94e7cd4 RDMA/rtrs-clt: Remove the warnings for req in_use check
+6406e416b61520f312c455351096ef9367fa80bd RDMA/bnxt_re: Correct module description string
+610a552167c481089bf6a2f5be32e11b58364960 hwmon: (acpi_power_meter) Fix 4.29 MW bug
+a6abe484a4772df6439964281fadb6edab7f38fa ASoC: wm_adsp: fix memleak in wm_adsp_buffer_populate
+10a0db60446222029f1b055220133d51ff7c4d0a tracing: Fix a warning when allocating buffered events fails
+22e6c0a9a2567bc782b659433d9f227500f400bc scsi: be2iscsi: Fix a memleak in beiscsi_init_wrb_handle()
+45344a44b7b6bdf37362eaef0635a614bb61e1b4 ARM: imx: Check return value of devm_kasprintf in imx_mmdc_perf_init
+bbc0e5820b43bed06ba7a99b33e341a6fe0e08d0 ARM: dts: imx7: Declare timers compatible with fsl,imx6dl-gpt
+b75447176b2e3c715008859b9cf96e237d0f2fd0 riscv: fix misaligned access handling of C.SWSP and C.SDSP
+3b30ac6da543fdacf6aafe24eec2d727464d26d5 ALSA: pcm: fix out-of-bounds in snd_pcm_state_names
+f636eb555cc6389caa2d585e39f319183f455737 ALSA: hda/realtek: Enable headset on Lenovo M90 Gen5
+c767028bc9d81877baf6e22b27e501972fcdb63e nilfs2: fix missing error check for sb_set_blocksize call
+53f28411135e0456cf2ee42026b4c66fda93edad nilfs2: prevent WARNING in nilfs_sufile_set_segment_usage()
+d4a89ccd7245b625b2cb903034679fe8b61d188b checkstack: fix printed address
+3b736a50e5361e4e653deecf9a38ef7110546f30 tracing: Always update snapshot buffer size
+64f5fada9113af49a54b11149c3bc123b342b54a tracing: Disable snapshot buffer when stopping instance tracers
+10caea0167e8bd218d49df2f7675fe0749f76f77 tracing: Fix incomplete locking when disabling buffered events
+0b83cb25b0180994773e1b58a140d476760b406e tracing: Fix a possible race when disabling buffered events
+e9f19661d0a03ac189e353ed5beab51d8a4fe53d packet: Move reference count in packet_sock to atomic_long_t
+bef68e39995f0b2df3343baa440cbb6e07c79da1 arm64: dts: mediatek: mt7622: fix memory node warning check
+e28eecb745fc72ec94d76d9f0b2870ff1c2cce73 arm64: dts: mediatek: mt8173-evb: Fix regulator-fixed node names
+4c354e573b852e84fd220460cc9e9db27baec254 arm64: dts: mediatek: mt8183: Fix unit address for scp reserved memory
+9b501cf0ed147a97ae3efdc74aadb009ddb58a06 misc: mei: client.c: return negative error code in mei_cl_write
+17ac089933c0f79e4c3654862608ff0ce8bc8a52 misc: mei: client.c: fix problem of return '-EOVERFLOW' in mei_cl_write
+19303aa94188ba2de28ba0c2c5218af45eaaace1 ring-buffer: Force absolute timestamp on discard of event
+15e04814bc31b851d813b81144883569ff5c8d52 tracing: Set actual size after ring buffer resize
+aa6cf6389ff588d2ef5000b009b48b222557399c tracing: Stop current tracer when resizing buffer
+5edfe78c82174223c406ed44ecabc2d52dbe79f7 perf/core: Add a new read format to get a number of lost samples
+c14a77f6ae69a61d09b205e6d320440a51bb02db perf: Fix perf_event_validate_size()
+6aef309e927aad707a34b3153c703bd091fc7d0e gpiolib: sysfs: Fix error handling on failed export
+e0149489c97e374bc1c25b275d67a28316616e89 drm/amdgpu: correct the amdgpu runtime dereference usage count
+bd21394169c11f19970cbbedf1bab1662f35a304 usb: gadget: f_hid: fix report descriptor allocation
+a5201d650074494a016031e17dc21f058064abdc parport: Add support for Brainboxes IX/UC/PX parallel cards
+fc8636ff6a628c14387d015ac3877dd76dd9bc8b Revert "xhci: Loosen RPM as default policy to cover for AMD xHC 1.1"
+f4b1de91e44682a56f8839e6bfebed8d5688a3bf usb: typec: class: fix typec_altmode_put_partner to put plugs
+446f93fada7a324f5b506489fa8d567a74e8cca4 ARM: PL011: Fix DMA support
+9304bde2708c627fdafcbf502b431859a11dc5ed serial: sc16is7xx: address RX timeout interrupt errata
+4f4ea27864cb94ec236cd008501ca0d1d2655934 serial: 8250: 8250_omap: Clear UART_HAS_RHR_IT_DIS bit
+d333fd0a30bc9356cc10fc175b0b727354ae36fa serial: 8250: 8250_omap: Do not start RX DMA on THRI interrupt
+ddb48733cdace95f167d9de76622525bfed41337 serial: 8250_omap: Add earlycon support for the AM654 UART controller
+5354af4ea8dee56656dcb42f3c86a8cc4d09b88d x86/CPU/AMD: Check vendor in the AMD microcode callback
+8cefe09dfd598f49b06e221f56d7166cb14c6ead KVM: s390/mm: Properly reset no-dat
+a48e6609233ca7825ef4ab2bfe86c653702d430e MIPS: Loongson64: Reserve vgabios memory on boot
+9ef10a1e7e04997e8acc7c72976de8b383d2f6ef MIPS: Loongson64: Enable DMA noncoherent support
+90fc0ea6b671a22a74f401cd3f5a3a007fcbde09 io_uring/af_unix: disable sending io_uring over sockets
+182d3bf1bf9ce1ad4942569c3ba612b9ef0cc484 netlink: don't call ->netlink_bind with table lock held
+b96623823518f68fb071c56b853b64029be75bf8 genetlink: add CAP_NET_ADMIN test for multicast bind
+5ce8446a687d37ffe3e6720d58a2a1005ae27d64 psample: Require 'CAP_NET_ADMIN' when joining "packets" group
+a76acf7c20c42a99851f05471a0e891e2f346ec5 drop_monitor: Require 'CAP_SYS_ADMIN' when joining "events" group
+d9864b610f2baaa0ef649ab315239f4f48eca45b netfilter: nft_set_pipapo: skip inactive elements during set walk
+7116c9a6781cc487a9ca861c8a96e54dea736f6e platform/x86: asus-wmi: Fix kbd_dock_devid tablet-switch reporting
+7f90663ea590917420b319143b4dc971ad9f3d09 tools headers UAPI: Sync linux/perf_event.h with the kernel sources
+9226f5dd4c8c2804b331cebb5ef1f8cbf376f44c platform/x86: asus-wmi: Document the dgpu_disable sysfs attribute
+6060ee11822f9de352eec30720042f82ef9577ae Linux 5.10.204-rc1
 
---===============6989102514268463412==--
+--===============1919443786107972394==--
