@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2731207795780063789=="
+Content-Type: multipart/mixed; boundary="===============7138611556148756968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 11 Dec 2023 11:07:30 -0000
-Message-Id: <170229285059.10103.16598468570369532797@gitolite.kernel.org>
+Date: Mon, 11 Dec 2023 11:08:07 -0000
+Message-Id: <170229288735.10537.11489546950674725029@gitolite.kernel.org>
 
---===============2731207795780063789==
+--===============7138611556148756968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: pavel
 changes:
-  - ref: refs/heads/linux-6.1.y-cip-rebase
-    old: 64baf7a1ea956312f79f81541889670bda82c93a
-    new: 201fbc3636e7906f5381ae66bd36467928015364
-    log: revlist-64baf7a1ea95-201fbc3636e7.txt
-  - ref: refs/tags/v6.1.65
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 6eab166db6d4f9b10eb2993de0fcd289a09024bd
+    new: 0cf6d8e9be8912c52276f8fe47093ad5824eff68
+    log: revlist-6eab166db6d4-0cf6d8e9be89.txt
+  - ref: refs/tags/v6.1.66-cip11
     old: 0000000000000000000000000000000000000000
-    new: a06c534027b679fa403ae0833ce8617494d0a353
-  - ref: refs/tags/v6.1.66
-    old: 0000000000000000000000000000000000000000
-    new: 7db105913ff98fd6f425c18a9dc4058d925d39b6
+    new: 2d3b8e0df0f23348194192f9f1b53d5cca38f1ac
 
---===============2731207795780063789==
+--===============7138611556148756968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64baf7a1ea95-201fbc3636e7.txt
+Content-Disposition: attachment; filename=revlist-6eab166db6d4-0cf6d8e9be89.txt
 
 790ea5bc4022a138fccb2436ddabac2eb1dd71ae afs: Fix afs_server_list to be cleaned up with RCU
 d2b3bc8c7f63960c66cd7716767493c618b4d77d afs: Make error on cell lookup failure consistent with OpenAFS
@@ -222,175 +219,7 @@ b3b839fb636b0983a0064d3cb97853962a0ac59e x86/xen: fix percpu vcpu_info allocatio
 adf0ecebf00a2aab8b089c6f2f24d2cea983f90e x86/apic/msi: Fix misconfigured non-maskable MSI quirk
 ea574927fc0bc343016ea3337fcfc0b3fb26fe08 iomap: update ki_pos a little later in iomap_dio_complete
 6c6a6c7e211cc02943dcb8c073919d2105054886 Linux 6.1.66
-509a73b5c44201820176fac3bfb5cdca2b8e741d Add configuration for gitlab-ci.
-981f75802cf890935d18c18cd9d0c8a956f2d62e clk: renesas: rzg2l: Support sd clk mux round operation
-2f7093e01e9ad20dd12fd93442d07e4711250c1c can: rcar_canfd: Use devm_reset_control_get_optional_exclusive
-981dc3aee3f546aa3ba0bf8aa77251f74db6ed7e can: rcar_canfd: rcar_canfd_probe: Add struct rcar_canfd_hw_info to driver data
-20a3f65ea945be5cabced5ea03fa019883c0568e pinctrl: renesas: rzg2l: remove unnecessary check from rzg2l_dt_node_to_map()
-49d0b47644d17895d2b631a52ea49977e3988607 dt-bindings: arm: renesas: Document Renesas RZ/V2M System Configuration
-94a99f7fe3b2f821e1e39fc97a54c4293842fca8 soc: renesas: Identify RZ/V2M SoC
-2e11db6accf397937d2019a11eb11d042957591f dt-bindings: dma: rz-dmac: Document clock-names and reset-names
-0ab3236eb8741df55bf47ea92e8813d6d7ac1fda dmaengine: sh: rz-dmac: Add reset support
-538c82191a4b147448286547b612c14a3bc29635 dmaengine: sh: rz-dmac: Remove unused rz_dmac_chan.*_word_size
-a0aa6531b7c66a09afb6cbf16a6e76003b17c967 arm64: dts: renesas: rzg2l: Add clock-names and reset-names to DMAC nodes
-9973f82693e115057cec9fa71805e98d4a060ace clk: renesas: r9a09g011: Add TIM clock and reset entries
-e34a53fe1b562518bebf5029eae259a6e87a1ee4 arm64: dts: renesas: r9a09g011: Reword ethernet status
-bc3c337c6c09c188cd8a5e6ab2466cd9c4de72cc arm64: dts: renesas: r9a09g011: Add L2 Cache node
-7823a1be783557b17cade7dc8096e53fc21de415 arm64: dts: renesas: r9a09g011: Add system controller node
-a6dc8e86449e6daa82232dfadb998243072054a0 arm64: dts: renesas: r9a09g011: Add watchdog node
-66f09ce00fcb1053f263ceb25476a443221b5e3b arm64: dts: renesas: rzv2mevk2: Enable watchdog
-c2c879e57d168b78b9488a7cdacc833ded4d7bbc dt-bindings: i2c: renesas,rzv2m: Change maintainer to Fabrizio Castro
-f2caac7c65a68bb04a185b2749803eacd306d7f0 clk: renesas: r9a09g011: Add USB clock and reset entries
-70b2b0c2c36822823d108e2c56134803cb372fdb usb: typec: hd3ss3220: Add polling support
-b171d19462e7d2a6b1c999295cf99c07f67bea99 dt-bindings: usb: renesas,usb-xhci: Document RZ/V2M support
-cfb91911084bf3ec5f264623188ab60aec8c9ec9 dt-bindings: usb: renesas,usb3-peri: Update reset, clock-name and interrupts properties
-1f9a0b1635b34d85a2f87f293653e675da9063a5 dt-bindings: usb: renesas,usb3-peri: Document RZ/V2MA bindings
-586864fb46c4f31e064f315f5a2af7d4f6b27ea6 dt-bindings: usb: Add RZ/V2M USB3DRD binding
-2a6f08ec4f8312b7ae468e499863ad6c6234384a usb: gadget: Add support for RZ/V2M USB3DRD driver
-b7a17d729194854b219af862086ba12cac85fcd7 usb: gadget: udc: renesas_usb3: Add role switch support for RZ/V2M
-6d6d4158d77120969cee85fc220c55faaa793896 usb: host: xhci-plat: Improve clock handling in probe()
-82b82307f7a0a03e7ce0d85a9225ec9a283adf01 usb: host: xhci-plat: Add reset support
-58785a8e350c62b73b690089d80dfa32366cd3dc xhci: host: Add Renesas RZ/V2M SoC support
-0ce733b9cf3f44c9fc6c6957080b34f2699b5da1 xhci: split out rcar/rz support from xhci-plat.c
-3c64587ff9f401abbdf7a8527473b48648b5b95a arm64: dts: renesas: r9a09g011: Add USB3 DRD, device and host nodes
-4d9afb9b9b2d6a39934deefc5a01d648c26c7413 arm64: dts: renesas: rzv2mevk2: Enable USB3 DRD, Peripheral and Host
-c3711b3c924b2eb788d0f441fd66d6d833c3fb3f arm64: dts: renesas: rzv2mevk2: Enable USB3 role switch
-a54e2a037c55a4cd547a3dfca8e78a18865f0a00 arm64: defconfig: Enable RZ/V2M xHCI and USB3.1 DRD controller support
-0b21ad668a6ab97886f75c71b6076f489bbc2e77 tty: serial: sh-sci: Fix TE setting on SCI IP
-b7a3fdb1d128909955a2c1152306f21ad48f5c01 tty: serial: sh-sci: Add support for tx end interrupt handling
-5832936cf37bc9409d084290d5aa46f2327ccee6 tty: serial: sh-sci: Fix end of transmission on SCI
-805286d8c979a8e7d871935d0bf26e17c9659148 tty: serial: sh-sci: Remove setting {src,dst}_{addr,addr_width} based on DMA direction
-83fdbebae81da7f05c7677b938c967edbea66753 tty: serial: sh-sci: Add RZ/G2L SCIFA DMA tx support
-82042b996b7462dc634178b3c462020b0f17b214 tty: serial: sh-sci: Add RZ/G2L SCIFA DMA rx support
-c884fea9e4162129a9e2b58c290d40ad4d87efa4 can: rcar_canfd: Add max_channels to struct rcar_canfd_hw_info
-5a64fbe19374887f9da39f8d4e2013bce2149721 can: rcar_canfd: Add shared_global_irqs to struct rcar_canfd_hw_info
-cd82756cc2ed2067db97e690804559900148fe5e can: rcar_canfd: Add postdiv to struct rcar_canfd_hw_info
-0f9f54fbd7c8f3542ad180e035ff7af23426d8d1 can: rcar_canfd: Add multi_channel_irqs to struct rcar_canfd_hw_info
-67a35fc8f69a89a5e0b8cc2d75b5a0b029d21a2d arm64: dts: renesas: rzg2ul-smarc: Enable SCI0
-05d26eecd07377f7196609d62a94db6b4900c71e dt-bindings: usb: ti,hd3ss3220: Update interrupt property as optional
-de0ded914c848bb3424ec97aeb9720837106480c serial: 8250_em: Simplify probe()
-55db54f21644b51da245ce892b55787012ac4112 serial: 8250_em: Drop unused header file
-3a61ce2ba73be1f78c4122127182f7d74942c61b serial: 8250_em: Add missing break statement
-d07c25c1a67a0ac61003403f44ce5ca5c8124b88 serial: 8250_em: Use devm_clk_get_enabled()
-75dcf704a430a15cd7ab27da0bc36dd5d7819401 serial: 8250_em: Use pseudo offset for UART_FCR
-3cd8f11ca3c633daa06b1e19cfb58c1f1e228d13 serial: 8250_em: Add serial8250_em_{reg_update(),out_helper()}
-dd392e88d364c61134bcd17d129eb1882234107a arm64: dts: renesas: rzv2mevk2: Add uart0 pins
-9975c44a614931fb0fb71c314a03e2a1f3f15a75 clk: renesas: r9a07g044: Add MTU3a clock and reset entry
-787773ca11aeba0a41e2acb7744fb84832d46744 dt-bindings: timer: Document RZ/G2L MTU3a bindings
-f90b60704773250929cd3398f214cc0f832fb090 mfd: Add Renesas RZ/G2L MTU3a core driver
-6eca561f854220a0569a91f40706ade2f2ceacba Documentation: ABI: sysfs-bus-counter: add cascade_counts_enable and external_input_phase_clock_select
-1be9d0ec19ed9b5fa1d8fcf4b68489d694c4eaba counter: Add Renesas RZ/G2L MTU3a counter driver
-df701271d030012708037f69301497ac64a8d96e MAINTAINERS: Add entries for Renesas RZ/G2L MTU3a counter driver
-a5f30a801a491dfc6c0981950da3b9de86fb8e9b arm64: dts: renesas: r9a07g044: Add MTU3a node
-8f1ca34bd3cbebc9acd91c37661159bb1b6ed349 arm64: dts: renesas: r9a07g054: Add MTU3a node
-290b538b18112faa05a9a5d274d6f6f94faa24f4 i2c: rzv2m: Drop extra space
-264efe442f4085377ee9318aa986d4aef397c61b i2c: rzv2m: Replace lowercase macros with static inline functions
-b6ebfa50021a5011790fa2291cfbe2583b93a815 i2c: rzv2m: Disable the operation of unit in case of error
-744d1a13c4745deff681faa52ffcc0095484ade6 usb: gadget: udc: renesas_usb3: Fix RZ/V2M {modprobe,bind} error
-1bd5207d4ab01b3e43941a0b2add228c349faf11 cip: Add a number to the version suffix
-63deea66d8a25d3fd2a12c39a079d43c2b2a6f0b dt-bindings: soc: renesas: Add RZ/V2M PWC
-fc8251514e4c9763dc9aacd14dbacc7ad1da78cc soc: renesas: Add PWC support for RZ/V2M
-b4b5c3fed82ebb8c910031bba4e1f1b79ed258dc arm64: dts: renesas: r9a09g011: Add PWC support
-e3e4ac6d65f797f34a1c26121ef12248c5912a94 arm64: dts: renesas: v2mevk2: Add PWC support
-bd5d08f7b3e92d1c1733c2207f64021d794b352d dt-bindings: mmc: renesas,sdhi: Document RZ/V2M support
-81dbada3b4b68bcd5ddd8fcf8bf05c7c7bdad03a clk: renesas: r9a09g011: Add SDHI/eMMC clock and reset entries
-8f4d0a4838ba6f77723c5c90f77b4b8a733597be arm64: dts: renesas: rzg2lc-smarc: Include SoM DTSI into board DTS
-b9c307dd71e29287322a36c85004a2d83825240e arm64: defconfig: Enable Renesas MTU3a counter config
-f3d68472b02aacee08ad2ed0c586f8af589b9093 pwm: Add Renesas RZ/G2L MTU3a PWM driver
-2b57445949d3395732826c5ec871b80843bfe148 CIP: Bump version suffix to -cip2 after merge from stable
-5cea2a10c9c1f423841a3f789dbdc5b0c7f9a745 tty: serial: sh-sci: Fix sleeping in atomic context
-1d569a0a4fca7784c29c1cadb5eb99f58ce5a1d4 CIP: Bump version suffix to -cip3 after merge from stable
-b5a0c9d9cb16a8f8fcffa8d7a36f2ad66f8b77a2 arm64: dts: renesas: rzg2l: Update overfow/underflow IRQ names for MTU3 channels
-5cca39b232ce3267d6170e5348c4691faecc325d arm64: dts: renesas: r9a07g044: Add Cortex-A55 PMU node
-44dcaa620670fff001729d4567bd82178681cbe0 arm64: dts: renesas: r9a07g054: Add Cortex-A55 PMU node
-96812e0eb904cfa5dbe07fff41d1ceb89ee5b5c2 regulator: dt-bindings: Add Renesas RAA215300 PMIC bindings
-aa87343be471c3adf302b415cc55ab94e808f4db regulator: Add Renesas PMIC RAA215300 driver
-b83f20ce9e826d6c79dd2c7246fb0704d7c07930 regulator: raa215300: Add build dependency with COMMON_CLK
-67010bc6c70a02528d99104c6e218cf7bcecac75 dt-bindings: rtc: isl1208: Convert to json-schema
-346a39d5c586373e3ec0a7c81390baba68198bdf dt-bindings: rtc: isil,isl1208: Document clock and clock-names properties
-4e0f595bd6cfb0c00f820736da0fad122a8b4087 rtc: isl1208: Drop name variable
-12f91667af981b48678d1e635b262bf1d0ca15da rtc: isl1208: Make similar I2C and DT-based matching table
-849d84a5896aac57c6b2f377d1b1136c52337fd1 rtc: isl1208: Drop enum isl1208_id and split isl1208_configs[]
-268c64c4dc9e160f4d1a161152d5f2b2b518894d rtc: isl1208: Add isl1208_set_xtoscb()
-94bb5aebfe5cc9db2f5166debae7a2aa6c2db112 rtc: isl1208: Add support for the built-in RTC on the PMIC RAA215300
-57f1ea3ebae5c9b81977dac2c5ea981ae616c170 ASoC: sh: rz-ssi: Update interrupt handling for half duplex channels
-45bed03bad55bfd00c7257ac57f93b14760a5f28 arm64: dts: renesas: rzg2ul-smarc: Move spi1 pinmux to carrier board DTSI
-a7a5508bb2f397162529467ac8bf0bc2685148d3 clk: renesas: r9a07g044: Drop WDT2 clock and reset entry
-a21370c3cf1093f821e71190772c3b25838c34be clk: renesas: r9a07g043: Drop WDT2 clock and reset entry
-69932eabce2b20cdd84a8a70190d681c44351e34 arm64: dts: renesas: rzg2l: Drop WDT2 nodes
-c1374b7c1acaca72640f8e60787434ec9646dd9b arm64: dts: renesas: rzg2l: Drop #address-cells from pinctrl nodes
-ef489599d440b484b002394a0f4ea26c0a074fdc arm64: dts: renesas: r9a07g043: Split out RZ/G2UL SoC specific parts
-8e5c9e7480a37e963a21f7861d7dac0f04ec37de pinctrl: renesas: Add missing header(s)
-e75912927a99f4fea7c4253015ca75610be49615 pinctrl: renesas: rzg2l: Add BUILD_BUG_ON() checks
-aa0fe67335a5f366afa712ead3f0946896255f95 arm64: dts: renesas: r9a07g043u: Add IRQC node
-d554b7dd4079e29ec230573f71581f618008094d arm64: dts: renesas: r9a07g043u: Update pinctrl node to handle GPIO interrupts
-f545627b728388186b975fa775b3367fd4f669c7 arm64: dts: renesas: rzg2ul-smarc-som: Add PHY interrupt support for ETH{0/1}
-ec584fac1bb7c138b802bcafece64d9b0919b543 arm64: dts: renesas: rzg2l: Add missing cache-level properties
-2dfc3e80e2820e8c32f1a0d1563121a174cb5765 arm64: dts: renesas: r9a07g043u: Add Cortex-A55 PMU node
-f509d03ff065734cc5728e5005a52351c93bdf57 arm64: dts: renesas: Drop specifying the GIC_CPU_MASK_SIMPLE() for GICv3 systems
-4e4886f33a44cf1101815cf6b09cf4f42b1b4309 mmc: renesas_sdhi: Add RZ/V2M compatible string
-c81a6e02139b6fc25932b4eb413a7952c8eae4b6 arm64: dts: renesas: r9a09g011: Add eMMC and SDHI support
-0f7e27d4fd03bb1066bf6b71b8f71ef9ca8a7415 arm64: dts: renesas: rzv2mevk2: Add uSD card and eMMC support
-e10100a1a806a4ab01629d00810ae4fc2cdd5b5c CIP: Bump version suffix to -cip4 after merge from stable
-4e928b6595c65bb5d14e698944b9e13cef40977a dt-bindings: display: bridge: Document RZ/G2L MIPI DSI TX bindings
-f1bfa47ddc7fd58bff0887ef3a4ed4c1f2a9ff99 dt-bindings: display: bridge: renesas,rzg2l-mipi-dsi: Document RZ/V2L support
-bae782b446fdbdacae8f9317ca349c57939a2111 drm: rcar-du: Add RZ/G2L DSI driver
-45794eb91d293ba6abd78d924c32e6678537539a drm: rcar-du: Fix Kconfig dependency between DRM and RZG2L_MIPI_DSI
-586aae837a870b6ee84c128dc01c2ae7cbedccbb drm: rcar-du: rzg2l_mipi_dsi: Enhance device lanes check
-0e5c354be28a538a3ca6f79c1ff3c2d2ff461941 arm64: dts: renesas: r9a07g044: Add fcpvd node
-a8254b64af5ca717b1dffae60fb5c1b7a9bf2f8b arm64: dts: renesas: r9a07g044: Add vspd node
-27a7c589f12daa9b9f479142b0d086616be205bb arm64: dts: renesas: r9a07g044: Add DSI node
-f644f7134f3a0d6f51bc4faa9cfb595c7b96d8d9 arm64: dts: renesas: r9a07g054: Add fcpvd node
-1a1f15a34b98a93a544f7c0b64b9c9e0757d74b9 arm64: dts: renesas: r9a07g054: Add vspd node
-cdcb9eb4093657546288c23b7f524ca8d8e65d03 arm64: dts: renesas: r9a07g054: Add DSI node
-212ba5ee2d0923fee57be60ca3f08ea929a984b4 arm64: dts: renesas: rzg2l-smarc: Link DSI with ADV7535
-3247009283381aa8e8a86d47782d8daf0d2cccff arm64: dts: renesas: rzg2lc-smarc: Link DSI with ADV7535
-005630101d43d00c2ef72cd70790b17e753fa309 arm64: defconfig: Enable Renesas RZ/G2L MIPI DSI driver
-3c3bb1da1ed632e91657de7498d08b61a55592e2 CIP: Bump version suffix to -cip5 after merge from stable
-3d57e90a0a9a8410558ee23abb837a7210d0fcd8 i2c: Add i2c_get_match_data()
-4f311b81d03585197bf7b6abec4d1bbbacac00e9 regulator: raa215300: Update help description
-60f1186eed37ad18bda20c7a27c5128a978f5f79 regulator: raa215300: Change the scope of the variables {clkin_name, xin_name}
-4309b22ecf5cebf1e7c4cb91cba845e447926d46 regulator: raa215300: Fix resource leak in case of error
-254229b3f6caac449d7931c51f1503f32755fa85 regulator: raa215300: Add const definition
-6d6b41787c5559049972b5c722934e51834ad799 regulator: raa215300: Change rate from 32000->32768
-9d2f53b57c23b4f797abf0a5887ddf10842b9dae regulator: raa215300: Add missing blank space
-88e2510d0ccd0613f9f4dbac0333f79840523c2a rtc: isl1208: Simplify probe()
-f9886d9115c3ea7d375baa8928298d96486b5e27 rtc: isl1208: Fix incorrect logic in isl1208_set_xtoscb()
-fc702215131001bd592bb29886e3e992c911eb4c arm64: defconfig: Enable PMIC RAA215300 and RTC ISL 1208 configs
-52b1dcebc37cf725d0c19db3cd8a21a746c49c8e arm64: dts: renesas: rzg2l-smarc-som: Enable PMIC and built-in RTC
-591c1e5a5c67b5eda0d1b7cbb73612703ec404d3 arm64: dts: renesas: rzg2lc-smarc-som: Add PHY interrupt support for ETH0
-b4747b1f290b13886421edacf660b14c3716aad8 arm64: dts: renesas: rzg2lc-smarc-som: Enable PMIC and built-in RTC
-62d066009505bb9c5f6286d29f35cfa9c42d437f dmaengine: sh: rz-dmac: Improve cleanup order in probe()/remove()
-8f6678821697755740e4387fa01359975934e53c clk: renesas: r9a07g043: Add MTU3a clock and reset entry
-193b47c0050c78f7ba277ad0d22ca34cbe484f56 mfd: rz-mtu3: Fix COMPILE_TEST build error
-01aca810c293e69f8a2557ca2a2b4668399cd8c5 mfd: rz-mtu3: Link time dependencies
-fb739586e44b8f16a001b54e99574bcabbca2cc6 mfd: rz-mtu3: Reduce critical sections
-996fd91e6d46a9f0fba04623cbcb7e834ddbac21 mfd: rz-mtu3: Replace raw_spin_lock->spin_lock()
-9209ec1827ead9f5e33401a5666c41c84b292c87 Documentation: ABI: sysfs-bus-counter: Fix indentation
-d28b57c02a6411dec8cf109511fd1d301e0142f7 counter: rz-mtu3-cnt: Reorder locking sequence for consistency
-8907257a9972f38457388987032fe05d6f6d0fcf pwm: rz-mtu3: Fix build warning 'num_channel_ios' not described
-d051b29f873f17d1b144612fe95bd651b11713eb arm64: defconfig: Enable Renesas MTU3a PWM config
-8a14d8252f4507ae1708275e4e928d5105d5adec arm64: dts: renesas: rzg2l-smarc: Add support for enabling MTU3
-c07bec5f6c4986b5d9bd9fc21f682436ae587891 arm64: dts: renesas: rzg2lc-smarc: Add support for enabling MTU3
-16763df2415d1d0882c08fcabd917efb011b402d arm64: dts: renesas: r9a07g043: Add MTU3a node
-2022835045e2107cfb5b0a7b1e3ede470b4d49c3 arm64: dts: renesas: rzg2ul-smarc: Add support for enabling MTU3
-04ec8d0f61996c82251c1839d7732414aa19badd CIP: Bump version suffix to -cip6 after merge from stable
-be6ded152383c9989d27ddb2398975a80c7a55cf CIP: Bump version suffix to -cip7 after merge from stable
-3f6021ef694dae26c4e89be8aea52869ad01cff5 Mark this as 6.1.59-cip8 (-rebase) release.
-53791f8c976b640482ca881fe65e9267764cb51a CIP: Bump version suffix to -cip9 after merge from stable
-62e9cb2f62ca94ba0e13d68241905ebd3ffe3f01 dt-bindings: timer: renesas,rz-mtu3: Fix overflow/underflow interrupt names
-7aae6d426213cd96d2e12987fdc56d684d44791f dt-bindings: timer: renesas,rz-mtu3: Improve documentation
-4a246be7ef3fdd1837286202e097cf80ddabbbfa dt-bindings: timer: renesas,rz-mtu3: Document RZ/{G2UL,Five} SoCs
-b9926846019208aab39a1939d6215bf4bbf789d7 dt-bindings: clock: Add Renesas versa3 clock generator bindings
-1a81455fbbd2587f38891e28f74764b502808d68 dt-bindings: clock: versaclock3: Add description for #clock-cells property
-de2163fedac4e191f691e801d8a28738b40999fe clk: Move no reparent case into a separate function
-0fc5b0eb72c01f0d7fc32dac329277930cfbda6c clk: Introduce clk_hw_determine_rate_no_reparent()
-a5ba3e19ba64763094e37972953ad92151494f0a clk: Add support for versa3 clock driver
-0286754ec5d253ae15de97eb94d154a31fba762e clk: vc3: Fix 64 by 64 division
-11e8b2fd5f6195fd62e1ee1cd2aad14811ccb94a clk: vc3: Fix output clock mapping
-5c4e8c9eb6263420706d42387bb74511beafd079 clk: vc3: Make vc3_clk_mux enum values based on vc3_clk enum
-5e8ec03b0999c8627b47193d38ac574d3018af1e arm64: dts: renesas: rz-smarc: Use versa3 clk for audio mclk
-fce410448fb1da8ca6faafa64152965c486c30c1 CIP: Bump version suffix to -cip10 after merge from stable
-201fbc3636e7906f5381ae66bd36467928015364 Mark this as 6.1.66-cip11 (-rebase) release.
+5063a6b41e621ad68c629fd7f377832e22813a32 Merge tag 'v6.1.66' into linux-6.1.y-cip
+0cf6d8e9be8912c52276f8fe47093ad5824eff68 Mark this as 6.1.66-cip11 release.
 
---===============2731207795780063789==--
+--===============7138611556148756968==--
