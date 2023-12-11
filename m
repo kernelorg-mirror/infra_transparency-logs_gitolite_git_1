@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Mon, 11 Dec 2023 21:30:05 -0000
-Message-Id: <170233020548.3917.10401330847447294280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Mon, 11 Dec 2023 21:30:31 -0000
+Message-Id: <170233023116.4166.13331161997481556173@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/master
-    old: 3cb50530f4a029992a4b2e2c435481f4007c5cb7
-    new: 63e6f55a9147cf9f76376c2e7e38a623c8832f23
+  - ref: refs/heads/afs-fixes
+    old: dfbc00cb940b6a67893471fe060e173a3826251a
+    new: e885a201b0f042243843bb7e6be91836d90cfb8e
     log: |
-         0cfea592fedf0011e695a604a6961e9cbc1fe9b6 Fall back to F_SET_RW_HINT if F_SET_FILE_RW_HINT is not supported
-         63e6f55a9147cf9f76376c2e7e38a623c8832f23 Merge branch 'master' of https://github.com/bvanassche/fio
+         b676325b03190c16cc949308991f94ce871bb761 afs: Fix dynamic root lookup DNS check
+         e885a201b0f042243843bb7e6be91836d90cfb8e keys, dns: Allow key types (eg. DNS) to be reclaimed immediately on expiry
          
