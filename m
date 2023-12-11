@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2730284938649782492=="
+Content-Type: multipart/mixed; boundary="===============3533393120265728424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 11 Dec 2023 07:30:54 -0000
-Message-Id: <170227985484.11463.1247578664529920512@gitolite.kernel.org>
+Date: Mon, 11 Dec 2023 07:31:02 -0000
+Message-Id: <170227986233.11596.11228889584558570171@gitolite.kernel.org>
 
---===============2730284938649782492==
+--===============3533393120265728424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,56 +16,51 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 33cc938e65a98f1d29d0a18403dbbee050dcad9a
+  - ref: refs/heads/char-misc-linus
+    old: b7c1e53751cb3990153084f31c41f25fde3b629c
     new: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
-    log: revlist-33cc938e65a9-a39b6ac3781d.txt
+    log: revlist-b7c1e53751cb-a39b6ac3781d.txt
 
---===============2730284938649782492==
+--===============3533393120265728424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702279854 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702279861 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1702279852-5087e1ffee44c29d8ed8dd739e0d4a735a743982
+nonce 1702279859-25b0fd72ca3aaa97a82d5d5bc3b34423aef1462a
 
-33cc938e65a98f1d29d0a18403dbbee050dcad9a a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 refs/heads/main
+b7c1e53751cb3990153084f31c41f25fde3b629c a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV2uq4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ERgQALWIRbwH3Wh1qhHxF8WF
-fH6ybw9bOPrxvnZRv7/anFeEzv44g4jmzVVaYq77tj0LAjljfpuqLAwDGrLJkO8+
-avN+Gjn0+lHIzk8TVbaL6t3pP3caYzbjFHw0PrfXnwP5hBbIvx32+vv4rFkdwfOh
-lYFJRqR/NLDtFzIo4+GDw0PiAHaE/1v19KDxwaayZVfe40qMYjFjJm/zLKUuwYYH
-+GmcUMadR7ZSLGFdip5385d9iN+1LAvL6cr5jhYE+WJTt4mVbyh0Op74vQMmu3J7
-g4KsQLWcDZRRxjZL7+Vxya4PzTKVie0LsdyPCy6wQOZ3vtvurXp6yNEy/K89ofp3
-/Y9IpUBb7PsIivI1NE/tc7UQbwCxVjeUwFiHXg9fB1kUAt3qyAkhbVhBthUzfoXb
-AaI1+GoDOn2PssEfQyGhqEV0VuX++WqmiAiTUoUC/1jxDgDSeM3B07DeBY3h+f+C
-so2LlJzYW+N+AujgdT0PLaDA6YPUF683KlxIBIiCZNLdIm/fJSJ79LrYiWEvqbKJ
-n+xXCUgcmCfUwmBSMm6UI+DKjRoVqfq1/hTaR4zyzkqhIQqgm0ZsvJedbejcvGWY
-mt6j3DofComXAEKonsdFySEtrzoqc1wvQr2DIri+DnU7Y0qU634kW2H/8UzeUP+Q
-jhSUYs9Pcdq0ivbso6xNyWai
-=VaFm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV2urUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C+MP/A9aZK7JKVPIENmr7Qg9
+B3q82L/mGyGyYwarjjXTnNad6KdWzyElht9qEqrCeGP/SscEuEXRI7WDDsAYH5Zl
+8TOQPkaZ7Wbuc2ryfnFif007/5TpFGbU81ddyA/lBb7cwvS1hJwCeiujANtha8Fe
+fyl9sXfFI+JwRL/ErQH4Dx6dUR5CO5/Sn4yEY0W3z5wlU8nrhuEVOICyOOz3HY4L
+4ER2HEIate8YjQmG5A7VuRKQPZoRto1W/tTZG62nCagK0S6mYMghw7CXtEplVuFs
+mOD7jZwsn5HUjhG3aqpXp4DVU4z5x5trQFi7CVI3MgnmOCf177tqJ2Aw5b4ZLiwI
+QUtixdjp1U7akMnLmqjDnZNAN/fz4Vp4A/9uT1Nl0oDUbZZVGGh6yCa6Q0FxMUmg
+baRaDkspVsUbmgy5/hrgTuCwaVV5YCOgdWY9xgFZGB0vbU+TKaW01nscG8g3yfe7
+mMj8zGeNRjm6oKvPgW4FSrbI26Dpc5AM+2nkvkRM2nlvl6NP//HlJyLW9ZuYmlY7
+PV3l4n29ZwkYZrOujQH7yFG9l+BQtiAuxeHb3LhCskdhCgLKYwPL9QHyF7ae62Zb
+UMjwX/rWoeVG6bBNjhkwE1gSeUT20fLU3fgIClRH7xYD557k28kRf3tImQmXi/ZY
+8vDfGQEBhSF/VEc3hXTjkwGz
+=PtkP
 -----END PGP SIGNATURE-----
 
---===============2730284938649782492==
+--===============3533393120265728424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33cc938e65a9-a39b6ac3781d.txt
+Content-Disposition: attachment; filename=revlist-b7c1e53751cb-a39b6ac3781d.txt
 
 7269cba53d906cf257c139d3b3a53ad272176bca tee: optee: Fix supplicant based device enumeration
 8f51593cdcab82fb23ef2e1a0010b2e6f99aae02 dt: dt-extract-compatibles: Don't follow symlinks when walking tree
 0550d4604e2ca4e653dc13f0c009fc42106b6bfc RDMA/core: Fix uninit-value access in ib_get_eth_speed()
 efb9cbf66440482ceaa90493d648226ab7ec2ebf RDMA/hns: Fix unnecessary err return when using invalid congest control algorithm
-348ddab81f7b0983d9fb158df910254f08d3f887 coresight: etm4x: Remove bogous __exit annotation for some functions
-287e82cf69aa264a52bc37591bd0eb407e20f85c coresight: Fix crash when Perf and sysfs modes are used concurrently
-55e0a2fb0cb5ab7c9c99c1ad4d3e6954de8b73a0 hwtracing: hisi_ptt: Add dummy callback pmu::read()
-e0dd27ad8af00f147ac3c9de88e0687986afc3ea hwtracing: hisi_ptt: Handle the interrupt in hardirq context
-aff787f64ad7cbb54614b51b82c682fe06411ef3 hwtracing: hisi_ptt: Don't try to attach a task
 3fad96e9b21bed214c1593d7d7fb3e40d1fbf6f4 firmware: arm_ffa: Declare ffa_bus_type structure in the header
 95520fc07743d3f58e8872acd72e928b09fbc143 firmware: arm_ffa: Allow FF-A initialisation even when notification fails
 6f47023f7a52f3482937e9271ba41570b8752067 firmware: arm_ffa: Setup the partitions after the notification initialisation
@@ -81,10 +76,6 @@ d9995cd96928fa72963293fa5ca87350fed16930 hwmon: ltc2991: Fix spelling mistake "c
 27072b8e18a73ffeffb1c140939023915a35134b KVM: s390/mm: Properly reset no-dat
 ba12ab66aa83a2340a51ad6e74b284269745138c RDMA/irdma: Do not modify to SQD on error
 bd6da690c27d75cae432c09162d054b34fa2156f RDMA/irdma: Add wait for suspend on SQD
-e49c0b1401d0d0efc8aeeb9db5a9d54e980d9f69 Documentation: coresight: fix `make refcheckdocs` warning
-b8411287aef4a994eff0c68f5597910c4194dfe3 coresight: ultrasoc-smb: Fix sleep while close preempt in enable_smb
-830a7f54db102c889a3fe1c0a225f369ac05f07f coresight: ultrasoc-smb: Config SMB buffer before register sink
-862c135bde8bc185e8aae2110374175e6a1b6ed5 coresight: ultrasoc-smb: Fix uninitialized before use buf_hw_base
 0b6240d697a96eaa45a2a5503a274ebb4f162fa3 arm64: dts: rockchip: Expand reg size of vdec node for RK3328
 35938c18291b5da7422b2fac6dac0af11aa8d0d7 arm64: dts: rockchip: Expand reg size of vdec node for RK3399
 3cee9c635f27d1003d46f624d816f3455698b625 arm64: dts: rockchip: fix rk356x pcie msg interrupt name
@@ -135,18 +126,13 @@ f83d38def6b1b00c9bb17173837045b41df7e7d7 ASoC: imx-rpmsg: SND_SOC_IMX_RPMSG shou
 2bfba37b3d90d6d2d499d5b0dfe99c05c38b1b54 arm64: dt: imx93: tqma9352-mba93xxla: Fix LPUART2 pad config
 6552218f4dc47ba3c6c5b58cc1e9eb208a2b438b ARM: dts: imx6q: skov: fix ethernet clock regression
 487635756198cad563feb47539c6a37ea57f1dae parisc: Fix asm operand number out of range build error in bug table
-be6f9a39969a4ad01f0051a9b94af6e7f4d2d7ac mei: pxp: fix mei_pxp_send_message return value
-8f06aee8089cf42fd99a20184501bd1347ce61b9 misc: mei: client.c: return negative error code in mei_cl_write
-ee6236027218f8531916f1c5caa5dc330379f287 misc: mei: client.c: fix problem of return '-EOVERFLOW' in mei_cl_write
 076a948f5ad0da8a4438fdb3ec1b4a473084b40a ARM: dts: rockchip: minor whitespace cleanup around '='
 93dc6cd15f207be502739072ad122fa5ac812908 arm64: dts: rockchip: minor whitespace cleanup around '='
 ded965834b156c93dd914b0c6952e8f77929cf84 dt-bindings: display: mediatek: dsi: remove Xinlei's mail
-76cab6f4fd63129e852eb15e14d6d359b57e797f ndtest: fix typo class_regster -> class_register
 d79972789d17499b6091ded2fc0c6763c501a5ba of: dynamic: Fix of_reconfig_get_state_change() return value documentation
 0c349b5001f8bdcead844484c15a0c4dfb341157 ARM: dts: rockchip: Fix sdmmc_pwren's pinmux setting for RK3128
 e0894ff038d86f30614ec16ec26dacb88c8d2bd4 platform/x86: asus-wmi: disable USB0 hub on ROG Ally before suspend
 cff5f49d433fcd0063c8be7dd08fa5bf190c6c37 cgroup_freezer: cgroup_freezing: Check if not frozen
-af54d778a03853801d681c98c0c2a6c316ef9ca7 devcoredump: Send uevent once devcd is ready
 dc761f11af2e39119d3a7942e3d10615f3d900e7 ARM: dts: bcm2711-rpi-400: Fix delete-node of led_act
 c8820c92caf0770bec976b01fa9e82bb993c5865 platform/surface: aggregator: fix recv_buf() return value
 61b94d54421a1f3670ddd5396ec70afe833e9405 arm64: dts: mediatek: mt8195: Fix PM suspend/resume with venc clocks
@@ -205,10 +191,6 @@ a134cd8dfb8cdfd8f019a7ec2ad5cb8e855f0245 Merge tag 'md-fixes-20231201-1' of http
 c5c325bb5849868d76969d3fe014515f5e99eabc ALSA: hda/realtek: Apply quirk for ASUS UM3504DA
 35fe2ad259a3bfca15ab78c8ffb5278cb6149c89 hwmon: (nzxt-kraken2) Fix error handling path in kraken2_probe()
 f7b32e785042d2357c5abc23ca6db1b92c91a070 io_uring: fix mutex_unlock with unreferenced ctx
-4906f39a1343713a4fb3fe78aecd12eba5257dc0 Merge 6.7-rc4 into char-misc-linus
-88ac06a9f938c158bbeafec16adb483b0c66142f Revert "debugfs: annotate debugfs handlers vs. removal with lockdep"
-4181ef7dbb63e638739e929bca5b7bca3a37a311 greybus: BeaglePlay driver needs CRC_CCITT
-52eb67861ebeb2110318bd9fe33d85ddcf92aac7 greybus: gb-beagleplay: Ensure le for values in transport
 e62adaeecdc6a1e8ae86e7f3f9f8223a3ede94f5 r8152: Hold the rtnl_lock for all of reset
 32a574c7e2685aa8138754d4d755f9246cc6bd48 r8152: Add RTL8152_INACCESSIBLE checks to more loops
 8a67b47fced9f6a84101eb9ec5ce4c7d64204bc7 r8152: Add RTL8152_INACCESSIBLE to r8156b_wait_loading_flash()
@@ -251,7 +233,6 @@ db3fadacaf0c817b222090290d06ca2a338422d0 packet: Move reference count in packet_
 0a5ec366de7e94192669ba08de6ed336607fd282 RDMA/irdma: Ensure iWarp QP queue memory is OS paged aligned
 03769f72d66edab82484449ed594cb6b00ae0223 RDMA/irdma: Fix support for 64k pages
 e3e82fcb79eeb3f1a88a89f676831773caff514a RDMA/irdma: Avoid free the non-cqp_request scratch
-fcc9b50e5517f7d65cdc33d81f223b22536f863f Revert "greybus: gb-beagleplay: Ensure le for values in transport"
 6b17a597fc2f13aaaa0a2780eb7edb9ae7ac9aea arcnet: restoring support for multiple Sohard Arcnet cards
 33924328498e903bea74727353e5012d29653aff Merge tag 'drm-intel-fixes-2023-12-01-1' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 adbf100fc47001c93d7e513ecac6fd6e04d5b4a1 octeontx2-pf: consider both Rx and Tx packet stats for adaptive interrupt coalescing
@@ -292,7 +273,6 @@ c0591b1cccf708a47bc465c62436d669a4213323 tracing: Fix a possible race when disab
 235f2b548d7f4ac5931d834f05d3f7f5166a2e72 scsi: be2iscsi: Fix a memleak in beiscsi_init_wrb_handle()
 92414333eb375ed64f4ae92d34d579e826936480 smb: client: fix potential NULL deref in parse_dfs_referrals()
 691a41d8da4b34fe72f09393505f55f28a8f34ec cifs: Fix non-availability of dedup breaking generic/304
-5101ada56f845e9701440f62fc68a76fc0d711ef Merge tag 'coresight-fixes-for-v6.7-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
 a61f46e1102545cf1fb5f19992288265362cefb0 net: veth: fix packet segmentation in veth_convert_skb_to_xdp_buff
 d007caaaf052f82ca2340d4c7b32d04a3f5dbf3f net: bnxt: fix a potential use-after-free in bnxt_init_tc
 58d3aade20cdddbac6c9707ac0f3f5f8c1278b74 tcp: fix mid stream window clamp.
@@ -414,8 +394,6 @@ b2f557a21bc8fffdcd65794eda8a854e024999f3 mm/madvise: add cond_resched() in madvi
 61890dc28f7d9e9aac8a9471302613824c22fae4 usb: gadget: f_hid: fix report descriptor allocation
 f0b9d97a77fa8f18400450713358303a435ab688 serial: ma35d1: Validate console index before assignment
 e92fad024929c79460403acf946bc9c09ce5c3a9 serial: 8250_dw: Add ACPI ID for Granite Rapids-D UART
-1a031f6edc460e9562098bdedc3918da07c30a6e parport: Add support for Brainboxes IX/UC/PX parallel cards
-b7c1e53751cb3990153084f31c41f25fde3b629c nvmem: Do not expect fixed layouts to grab a layout driver
 73bf1c9ae6c054c53b8e84452c5e46f86dd28246 drm/exynos: fix a potential error pointer dereference
 8d1b7809684c688005706125b804e1f9792d2b1b drm/exynos: fix a wrong error checking
 3d501dd326fb1c73f1b8206d4c6e1d7b15c07e27 tcp: do not accept ACK of bytes we never sent
@@ -504,4 +482,4 @@ c527f5606aa545233a4d2c6d5c636ed82b8633ef Merge tag 'powerpc-6.7-4' of git://git.
 3a87498869d6d1e7347cd01f337a77984604eb5e Merge tag 'sched_urgent_for_v6.7_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 Linux 6.7-rc5
 
---===============2730284938649782492==--
+--===============3533393120265728424==--
