@@ -1,42 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6479952224494499224=="
+Content-Type: multipart/mixed; boundary="===============3357030242981315449=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 12 Dec 2023 09:24:37 -0000
-Message-Id: <170237307789.10017.1316489693862413723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Tue, 12 Dec 2023 09:27:44 -0000
+Message-Id: <170237326432.12755.8656832283830132151@gitolite.kernel.org>
 
---===============6479952224494499224==
+--===============3357030242981315449==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 9abd5e4b99fb2d78d8dbbb9144aef68972c65e83
-    new: 294aa16fab0ff3db6e15727a110c2689848c16d2
-    log: revlist-9abd5e4b99fb-294aa16fab0f.txt
+  - ref: refs/tags/samsung-dt-6.8
+    old: 0000000000000000000000000000000000000000
+    new: 44df38b73d5607790d94c552e0b5735bc73d27db
+  - ref: refs/tags/samsung-dt64-6.8
+    old: 0000000000000000000000000000000000000000
+    new: d3e0fd42544718f64f89857516c7445a18f46b71
 
---===============6479952224494499224==
+--===============3357030242981315449==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abd5e4b99fb-294aa16fab0f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ead076318216203162da24ac1d2759f579b178b5 dmesg: error out instead of silently ignoring force_prefix
-e07c072c15fe11efe8c3d034cd4b362593f0bd20 dmesg: correctly print all supported facility names
-38a4480bbf807b26bedf39f68c81b20828681b02 dmesg: open-code LOG_MAKEPRI
-e60bc3a1a1d0d976a408b9edf21e7d755af88fe6 jsonwrt: add ul_jsonwrt_value_s_sized
-159ea1470d712a92e0e0b02a8d10e072acbfbaf8 dmesg: only write one message to json
-0448e15f3b927db137de852168144f21851b6931 dmesg: (tests) validate json output
-040567280e8a2bc8993c72c27a3f4db55d463992 dmesg: add support for reserved and local facilities
-899f554f19beded78fce1bbe1ee0c0b9355db27d dmesg: use symbolic defines for second conversions
-ae015d713895c4d72589a656a9ca359ede3d5073 setpriv: add landlock support
-01c54718fc1634099972f6d2ffe6bce4175bb53a dmesg: support reading kmsg format from file
-aa49261b2113f3f210eddb66ca034a431c180859 Merge branch 'dmesg/tests' of https://github.com/t-8ch/util-linux
-294aa16fab0ff3db6e15727a110c2689848c16d2 Merge branch 'dmesg/kmsg-file' of https://github.com/t-8ch/util-linux
+certificate version 0.1
+pusher krzk@kernel.org 1702373262 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1702373262-a3c7eb6f93c94728868a424483a049bd7072af49
 
---===============6479952224494499224==--
+0000000000000000000000000000000000000000 44df38b73d5607790d94c552e0b5735bc73d27db refs/tags/samsung-dt-6.8
+0000000000000000000000000000000000000000 d3e0fd42544718f64f89857516c7445a18f46b71 refs/tags/samsung-dt64-6.8
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmV4J44QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1zJeD/9SYK6Yb0tlcf9sI6CUKygYI/HKWJ5TxGPe
+TKyVIUt1TtgjbKXeGorT6iyoVQd1Q1O/XaAMtwvojd2zfqNsSFq3QjfaFC1t6blq
+GSVp4XrhbOLrqDU0VAARePsCRXQ3vMECKdPrjVizUJhBevbXf60lFlGj2WUcHHcy
+/IrzIeRhewQOA/ZZ9i/rrdWaF7iid1V41IXMQSeMGKRdRX0B/lB3sGl+mZq/COFR
+d1TXkKyd2AYT0L4YOEKeCAQeIERF3ZZHWiAsaeSHkJRn+MXf/BcuFtnd80EKHjfk
+8K+m0oqw3NIWM1gKYtQijyqg4VBLxvZgVxotL5aqRxFZYYOpYxsSU368d+VQ1/1f
+f+4UvLFXBR+V8co102iBlPY7ZZ3dDgoMSGjFYIs8uE8Gv+0sLyXwWkeGxADCQN6k
+O9Z+E3Q65JDcbE3k/liDhG0EeB4WhGwnXNmW5RU/8nMLe3xlXMG/IXLPPefFQVij
+rBvH/WuFAZ3UNmRWNSqsMkyCddiBfaiUot6m6YFYoZzwMzQtynnyZ9U+yTqi4CT+
+duLRcJR6Fwb5yfQ3imoFg95dJSSjz5SJmBsmBpps8ZPUlfrzV2rcG7zZJslDVVlS
+yzwJlbCfNbjm++RTYCqmYRqpzCmBf+dp7eq0lPut5Ot1I7EMmmvlMGCT50j8zSpw
+pJmtOfq1NQ==
+=azsk
+-----END PGP SIGNATURE-----
+
+--===============3357030242981315449==--
