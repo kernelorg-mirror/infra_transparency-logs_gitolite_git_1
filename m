@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============7312298526402144574=="
+Content-Type: multipart/mixed; boundary="===============9079733223047615441=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Tue, 12 Dec 2023 19:18:03 -0000
-Message-Id: <170240868348.10304.8223830439636137248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Tue, 12 Dec 2023 19:27:19 -0000
+Message-Id: <170240923903.16828.17142172911221792602@gitolite.kernel.org>
 
---===============7312298526402144574==
+--===============9079733223047615441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: e1564d6f93496bcea3a6b2110eb54cc08f2aca72
-    new: 4a8be01a1a7a030ae7b6138602d2e060cf7a0946
-    log: |
-         4a8be01a1a7a030ae7b6138602d2e060cf7a0946 pinctrl: samsung: Add gs101 SoC pinctrl configuration
-         
+  - ref: refs/tags/samsung-dt-bindings-refactoring-and-google-gs101-6.8
+    old: 0000000000000000000000000000000000000000
+    new: 4673fc9c96e59a2521ccee93a60bab98e392ec05
 
---===============7312298526402144574==
+--===============9079733223047615441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1702408682 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1702408681-06f53aa40229706304872cb0698312c654dd5373
+pusher krzk@kernel.org 1702409237 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1702409236-4afaf1acc7f74efc2d54e203157a50bcf7662d78
 
-e1564d6f93496bcea3a6b2110eb54cc08f2aca72 4a8be01a1a7a030ae7b6138602d2e060cf7a0946 refs/heads/for-next
+0000000000000000000000000000000000000000 4673fc9c96e59a2521ccee93a60bab98e392ec05 refs/tags/samsung-dt-bindings-refactoring-and-google-gs101-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmV4seoQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD17SnD/9nL7qzdl8EHHUHn6M8np54p9xzyy/gruC8
-OOMseSqjTCx8cpoAMyybXU/UEIgCbYqa/bvCNURpWQiJ+P5hopCZ/tjD/idxJdVT
-mBog0vZL7ko9OuFIGqwqzZIZRRsFHded6wx2pvYQdj56SEs0IAvdegFZ9nTSpZnh
-odz+mIoyYpQPdeVTNz9YN+fzXFClRQSXGjJr6emx02iAviFgGXZK9Srq3nupcCPt
-su5DgtrN/ZLZfRtUZ53X2kFpzP/clSgUJvf5MTfqezkBaa8XPFpMhZ3DPG9bHocI
-WWqnkuj8nklmaUK9T0miuAhQcZDwKNrsnJbczFxACeCJZiLf59Vsu67vQcL4IHs6
-Qiean8oXIEkuSpkKyr0Ie/n8Bxvpgtesa+BEnFzTFx5r1iDu4XNe5/x8nDlbk6Xi
-Uv7+sOEcg/dFreZZi1kljgJd+kuFCYka/CQcoh13bmTLurwhoq7GFYJ2xXn2eMfy
-PPDXE5Jictx/2GUUabuknHMX+eWYH6theHYv+JUWOuRAXTpOlbzcKhLYnpy9Uej+
-GQ+/wDvMSCxQpLWSgivCj6QutTDa9JBPpgaG4HJ8rtDUEgKbVradfxApyHehqZrx
-rn12gkgrrwJ5r8Hd4gkBaXc38eH4qYchR4ChaSYLtVwTjItRt7cIVLVf9c/0XrEK
-tuBxaGg24A==
-=eRz0
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmV4tBUQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD14BSEACS2bJpXwhr0C2/r0n4PfnQRUzoi18EzqK9
+tTaUrzzdldapFPgKAjKxnxVNO1NTtfECYonK/9+vYpAaGdCc4UhQS88YY1EY3uI/
+ZAX6dCOqu4FJSMutTZqgS3z1xixCEosQDWZDHh21/QPX2x6QW8C8DFX8I5QH5+y1
+wULKZNZmlpEdWp9dfk5Uh0Ia3LZvFMPGKVQUgZT3+zlviopCFgPVQ8SR/qXifp68
+dHI2OogoCN2O59i6Gw8zl7rWWiS6p+SgrP60IfciFKAypG0Jnot54Toao5AuVmEZ
+RaaT/Vq+qbzZsEyz070WHZ9oMfmhc3dJJ6VmhG4ZhjspdXdzIN0qoKC5NPDkqbXy
+2iM9v2423z8nLavYbiNMSXJi1H19MiY4HFH6+q9puioH5j0vqnOWhuDuP2K8hXph
+OXNI16DhpIhzm5yknZNxYGNknIVHDTDbkhV6qim59znT9K/kkNDDXXZmtpndq8b5
+TeyxLh3kWgIP/7E009nPqxlhqgG8HBxHNGPg2pYyDKrl+93oCCTv/njyrLd0q7Pi
+vahh4bL15NcruvgzwcFbwFA21oRcQCg3iUTquaNgFd1hTyrXmqPCrI6JfbeOFi9+
+Q2NWU1CLRQKlpwUF7RLT1+G7IxLTEjXCDgPU4JSnl3OiYQZtvFMYRaHLZxPss6nE
+NPqavbDt2A==
+=0sew
 -----END PGP SIGNATURE-----
 
---===============7312298526402144574==--
+--===============9079733223047615441==--
