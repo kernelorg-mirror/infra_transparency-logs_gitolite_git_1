@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4401383690300773783=="
+Content-Type: multipart/mixed; boundary="===============3755414794594392735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 12 Dec 2023 19:13:10 -0000
-Message-Id: <170240839058.6773.6052905786827680904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Tue, 12 Dec 2023 19:16:29 -0000
+Message-Id: <170240858925.9664.5755480897638848305@gitolite.kernel.org>
 
---===============4401383690300773783==
+--===============3755414794594392735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 26aff849438cebcd05f1a647390c4aa700d5c0f1
-    new: eaadbbaaff74ac9a7f84f412fbaac221a04896c1
-    log: revlist-26aff849438c-eaadbbaaff74.txt
+  - ref: refs/heads/pinctrl-next
+    old: e1564d6f93496bcea3a6b2110eb54cc08f2aca72
+    new: 4a8be01a1a7a030ae7b6138602d2e060cf7a0946
+    log: |
+         4a8be01a1a7a030ae7b6138602d2e060cf7a0946 pinctrl: samsung: Add gs101 SoC pinctrl configuration
+         
 
---===============4401383690300773783==
+--===============3755414794594392735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26aff849438c-eaadbbaaff74.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c55e0a55b165202f18cbc4a20650d2e1becd5507 fuse: Rename DIRECT_IO_RELAX to DIRECT_IO_ALLOW_MMAP
-11ca77cdcca17cec909d2b97404ddacfec0acafd docs/fuse-io: Document the usage of DIRECT_IO_ALLOW_MMAP
-c4d361f66ac91db8fc65061a9671682f61f4ca9d fuse: share lookup state between submount and its parent
-7f8ed28d1401320bcb02dda81b3c23ab2dc5a6d8 fuse: dax: set fc->dax to NULL in fuse_dax_conn_free()
-3f29f1c336c0e8a4bec52f1e5217f88835553e5b fuse: disable FOPEN_PARALLEL_DIRECT_WRITES with FUSE_DIRECT_IO_ALLOW_MMAP
-8f1752723019db900fb60a5b9d0dfd3a2bdea36c ksmbd: fix memory leak in smb2_lock()
-d045850b628aaf931fc776c90feaf824dca5a1cf ksmbd: set epoch in create context v2 lease
-18dd1c367c31d0a060f737d48345747662369b64 ksmbd: set v2 lease capability
-eb547407f3572d2110cb1194ecd8865b3371a7a4 ksmbd: downgrade RWH lease caching state to RH for directory
-d47d9886aeef79feba7adac701a510d65f3682b5 ksmbd: send v2 lease break notification for directory
-c2a721eead71202a0d8ddd9b56ec8dce652c71d1 ksmbd: lazy v2 lease break on smb2_write()
-658609d9a618d8881bf549b5893c0ba8fcff4526 ksmbd: avoid duplicate opinfo_put() call on error of smb21_lease_break_ack()
-a9f106c765c12d2f58aa33431bd8ce8e9d8a404a ksmbd: fix wrong allocation size update in smb2_open()
-13736654481198e519059d4a2e2e3b20fa9fdb3e ksmbd: fix wrong name of SMB2_CREATE_ALLOCATION_SIZE
-8b8cd4beea4f6c68092736c544a797dcd5e094c5 Merge tag '6.7-rc5-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-eaadbbaaff74ac9a7f84f412fbaac221a04896c1 Merge tag 'fuse-fixes-6.7-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
+certificate version 0.1
+pusher krzk@kernel.org 1702408585 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1702408584-6e9e47607b9c7efaff9cf9a64c583202f63d1c1c
 
---===============4401383690300773783==--
+e1564d6f93496bcea3a6b2110eb54cc08f2aca72 4a8be01a1a7a030ae7b6138602d2e060cf7a0946 refs/heads/pinctrl-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmV4sYkQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD12uDD/9rS7eIuD1/uV2aVYKnz4AbT0oXVkdttyDa
+AxknRsXq6w2xNoEND0RoQbwTeq66dlPJhS0i6Juj4+n/MEN/DNUWjatjKCE0aFiE
+cjRs/2UB/9/FuScEcmS7ZBdZEChn7DVuwsyGhmC6eOTWG6VhRtZCBDrAX5d/6AcY
+k1KjT3Em7YQU+bZHbL/i1jgBhYA79TVLNf4ILaUzHkO1Ki6lvU1ooi5jl7IsTPpD
+tWPV4OC/2WmF9vfUN2fSjCMcnYpnp4ZOp7wyclzjI8Kx1EKn0+pEo2fFKS5BqJEv
+KCJQNj2FoD4p6UsaOBLotJAucLfy3xC/bhxDZizAuQbp5A32mxgzsXs3FbdjMiqq
+vz5Or7COAlTcpcP5wyejSLrK9nMbp+K5CyPGoRV6Y0MkZ07I7LLc7dMWW6Z6LZKb
+5tyYiw/n0zQ8e+DU84oz/+7FOVs/SVHyi19lpvIdTOtGXau0yYl2nzMV8WUglJy4
+14Rwp2YiDWgQAc3QOiqvzoyNee+SrZ5/BQz8Aec4asHCk6yhnTPNWmeuE8vRz1uP
+m/RV9p3nH0nFRvL0uSQOrnY2FtPTtdElyozlelLcqK6fXM4HtnyRxFfDm2h6QK7Q
+woXOVD/yxOAdFuDs2VmqfaEnFg8gxqNK47Twz2x0jx5MCXHSqUfk+KcoWkHu3/8N
+Ddr1Xh+gpw==
+=axog
+-----END PGP SIGNATURE-----
+
+--===============3755414794594392735==--
