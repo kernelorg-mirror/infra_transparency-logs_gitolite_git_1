@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 12 Dec 2023 05:09:52 -0000
-Message-Id: <170235779289.20546.16458328040669752521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Tue, 12 Dec 2023 05:17:01 -0000
+Message-Id: <170235822115.26590.17778227198350764866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/hwmon-next
-    old: d5939a793693b75f504788648cccf7455f3f7b28
-    new: 62a991b3fcc9529c1a905ee42a4d860c31ca606a
-    log: |
-         62a991b3fcc9529c1a905ee42a4d860c31ca606a hwmon: (k10temp) Add support for AMD Family 19h Model 8h
-         
+  - ref: refs/heads/for-linux-next
+    old: 0000000000000000000000000000000000000000
+    new: a60501d7c2d3e70b3545b9b96576628e369d8e85
