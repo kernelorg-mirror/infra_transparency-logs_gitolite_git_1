@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 12 Dec 2023 16:48:07 -0000
-Message-Id: <170239968702.28918.748369798967206168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 12 Dec 2023 17:00:29 -0000
+Message-Id: <170240042966.5821.14415789608957050714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/x86/tdx
-    old: 1363d55c108dfb6280f55a7f5b149017879fe23b
-    new: cb8eb06d50fcf4a478813a612f68c38cca45c742
+  - ref: refs/heads/perf-tools-next
+    old: 01261d8a0f082b1a926d14ecb3ae05e52c477c74
+    new: 8596ba324356a7392a6639024de8c9ae7a9fce92
     log: |
-         1e536e10689700e006989dea33918cce348e04b6 x86/cpu: Detect TDX partial write machine check erratum
-         70060463cb2ba72bbb77c7ced503f53e09380f17 x86/mce: Differentiate real hardware #MCs from TDX erratum ones
-         4e1c7dddc71708c21d7fe69cc5f8297ffb7c6965 Documentation/x86: Add documentation for TDX host support
-         cb8eb06d50fcf4a478813a612f68c38cca45c742 x86/virt/tdx: Disable TDX host support when kexec is enabled
+         0713ab3bd169da82c35eefd012b07b715e4ebcf7 perf stat: Exit perf stat if parse groups fails
+         9d03194a36345796d4f0f8d6b72eb770a45d614e perf annotate: Introduce global annotation_options
+         14953f038d6b30e3dc9d1aa4d4584ac505e5a8ec perf report: Convert to the global annotation_options
+         c9a21a872c69032cb9a94ebc171649c0c28141d7 perf top: Convert to the global annotation_options
+         41fd3cacd29f47f6b9c6474b27c5b0513786c4e9 perf annotate: Use global annotation_options
+         22197fb296913f83c7182befd2a8b23bf042f279 perf ui/browser/annotate: Use global annotation_options
+         7f929aea21fd0be5e0d9ee5827d5b809daa69f29 perf annotate: Ensure init/exit for global options
+         2fa21d694c63081f26444847c916e5fc83bcefa1 perf annotate: Remove remaining usages of local annotation options
+         327f7533cc596427b62f431c8852951412b6c0dc perf annotate: Get rid of local annotation options
+         8596ba324356a7392a6639024de8c9ae7a9fce92 perf stat: Fix help message for --metric-no-threshold option
          
