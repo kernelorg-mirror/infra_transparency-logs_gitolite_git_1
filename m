@@ -1,70 +1,86 @@
-Content-Type: multipart/mixed; boundary="===============2904723801501934405=="
+Content-Type: multipart/mixed; boundary="===============0763497426995398458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joro/iommu
-Date: Tue, 12 Dec 2023 12:00:19 -0000
-Message-Id: <170238241939.9613.11242368631695679323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Tue, 12 Dec 2023 12:01:53 -0000
+Message-Id: <170238251386.10284.8420173804213689220@gitolite.kernel.org>
 
---===============2904723801501934405==
+--===============0763497426995398458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joro/iommu
-user: joro
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/core
-    old: 61f054f3c8a6d6081e078e93aba144760aed17c9
-    new: bf9cd9fef9f15531680325f956f81317d46a159d
-    log: revlist-61f054f3c8a6-bf9cd9fef9f1.txt
-  - ref: refs/heads/next
-    old: bd19c76370242148000dbe93a689873ac8ae372d
-    new: ef17ca0186ada56c040adcbe39b4e5a7771bd17a
-    log: revlist-bd19c7637024-ef17ca0186ad.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 8dee2d695a2d2bb2a061db66133d4e85ab951aa6
+    new: 68f9b81cad708b197a2f7aa4e293c2669590d2ad
+    log: revlist-8dee2d695a2d-68f9b81cad70.txt
 
---===============2904723801501934405==
+--===============0763497426995398458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-61f054f3c8a6-bf9cd9fef9f1.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8f23f5dba6b4693448144bde4dd6f537543442c2 iommu: Change kconfig around IOMMU_SVA
-5c79705d7ce8986036c73e89024d189d4f9df1ff iommu/vt-d: Remove mm->pasid in intel_sva_bind_mm()
-2396046d75d3c0b2cfead852a77efd023f8539dc iommu: Add mm_get_enqcmd_pasid() helper function
-541a3e257d48c16b77d19f39ed939ef5832046df mm: Add structure to keep sva information
-092edaddb660376648acb97678570ed5d8299768 iommu: Support mm PASID 1:n with sva domains
-1fa05c932dc71c474da38e4fd0456131128f8486 mm: Deprecate pasid field
-7be423336eccc872249d37900c19c1d24f171353 iommu: Set owner token to SVA domain
-4720287c7bf76e59d19d4dfbdc3f54eeea6fd46b iommu: Remove struct iommu_ops *iommu from arch_setup_dma_ops()
-6ff6e184f1f4d4993d45ca3f934c8288890965fe iommmu/of: Do not return struct iommu_ops from of_iommu_configure()
-5b4ea8b06eb79234a244ffc1f7405aa968f62069 iommu/of: Use -ENODEV consistently in of_iommu_configure()
-64945d1b0ed169aeffa59020941e4ac45ebc315a iommu: Mark dev_iommu_get() with lockdep
-eda1a94caf6b05482bbf57dc244e7a31a9dba77c iommu: Mark dev_iommu_priv_set() with a lockdep
-cdbc723f2da11331bc92858da50dc7a7610ed9bd acpi: Do not return struct iommu_ops from acpi_iommu_configure_id()
-bf9cd9fef9f15531680325f956f81317d46a159d iommu/tegra: Use tegra_dev_iommu_get_stream_id() in the remaining places
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702382512 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1702382509-0a41ef462e6671e40038f6d8269a80f784972a5d
 
---===============2904723801501934405==
+8dee2d695a2d2bb2a061db66133d4e85ab951aa6 68f9b81cad708b197a2f7aa4e293c2669590d2ad refs/heads/linux-4.14.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV4S7AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lG8QAL6jj8VT/FIsYMsf3g2r
+uJNeYtC+HFT4bTBwTQ0wsDV1tiQd+GV44tmrJrFCRn2Pw4B5GvBvatGZrsic9CBD
+1i4NIV+hAzlcsTObxAJxNO1U5QQQSPWotEbUPMN/gCdPwBGibXmuvxnfg1MjwRkX
+YFHuUD/Lue8aOcij5DaNlixBA/phSkuDuacmpirE5NVJ5PzK6aNZU0BW9j4bptY/
+ojPLKhDLC8dwhKJVpIYxfa3y9L5mJ0gfejNVArlFx02E1KGlXIsNg2iGdybqxvH9
+vPVHFZDM2zAQhR+MwIdc4xW9SErIkKJtms7W4H4rXw1OE88Gg0k+Z92kJncpW3G5
+sGrXrJHupjJjFRMXenZ+S+OC9p00hgTM55Ezgdc3E3mQbxU4aPMHZWMQZ0gcUuvn
+vvcq3g3j3iFtCs0qi/jYpxHeBI4BXe+nAeuBsji1wg93YZs/IXW2kLWSnrwfzaWT
+153J6B59zS3aFLEckky9HrBjTPBPYcpgFdlRN2wprqddUKSNE/LwGNMpJt30MfwY
+0NyAyA3Jiktx7N55pTJjGSXM+UzJusgVqRgDwBIZ3IVPh0HoAFtXqJxODJerJ5BD
+2ZFFVUK4q3oQog1807tEkpJjrQNtNG6qzLdSUjyNVZ4GitzgHUJINR7fuyIz4gut
+tOuAOZlUQoKNBtF6OMzHrwKX
+=y1u3
+-----END PGP SIGNATURE-----
+
+--===============0763497426995398458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd19c7637024-ef17ca0186ad.txt
+Content-Disposition: attachment; filename=revlist-8dee2d695a2d-68f9b81cad70.txt
 
-8f23f5dba6b4693448144bde4dd6f537543442c2 iommu: Change kconfig around IOMMU_SVA
-5c79705d7ce8986036c73e89024d189d4f9df1ff iommu/vt-d: Remove mm->pasid in intel_sva_bind_mm()
-2396046d75d3c0b2cfead852a77efd023f8539dc iommu: Add mm_get_enqcmd_pasid() helper function
-541a3e257d48c16b77d19f39ed939ef5832046df mm: Add structure to keep sva information
-092edaddb660376648acb97678570ed5d8299768 iommu: Support mm PASID 1:n with sva domains
-1fa05c932dc71c474da38e4fd0456131128f8486 mm: Deprecate pasid field
-7be423336eccc872249d37900c19c1d24f171353 iommu: Set owner token to SVA domain
-4720287c7bf76e59d19d4dfbdc3f54eeea6fd46b iommu: Remove struct iommu_ops *iommu from arch_setup_dma_ops()
-6ff6e184f1f4d4993d45ca3f934c8288890965fe iommmu/of: Do not return struct iommu_ops from of_iommu_configure()
-5b4ea8b06eb79234a244ffc1f7405aa968f62069 iommu/of: Use -ENODEV consistently in of_iommu_configure()
-64945d1b0ed169aeffa59020941e4ac45ebc315a iommu: Mark dev_iommu_get() with lockdep
-eda1a94caf6b05482bbf57dc244e7a31a9dba77c iommu: Mark dev_iommu_priv_set() with a lockdep
-cdbc723f2da11331bc92858da50dc7a7610ed9bd acpi: Do not return struct iommu_ops from acpi_iommu_configure_id()
-bf9cd9fef9f15531680325f956f81317d46a159d iommu/tegra: Use tegra_dev_iommu_get_stream_id() in the remaining places
-ef17ca0186ada56c040adcbe39b4e5a7771bd17a Merge branches 'apple/dart', 'virtio', 'x86/amd' and 'core' into next
+3aa3ad17f77e8a4257a1cfaadf307a60fe3fd196 tg3: Move the [rt]x_dropped counters to tg3_napi
+32df5a43bae28a6395b90d447dadd931cec6f0a8 tg3: Increment tx_dropped in tg3_tso_bug()
+abdbfe88a2c4713fa1a68eab418cac282550d2a6 drm/amdgpu: correct chunk_ptr to a pointer to chunk.
+08fac523475613648549a2d1029dec0ba6760262 net: hns: fix fake link up on xge port
+1ca12518d8fc137ad922bcbf00c302b994a0d778 tcp: do not accept ACK of bytes we never sent
+3547784bfdbbb15c39f7ab200cefa3c9b88be85e RDMA/bnxt_re: Correct module description string
+0c7c7e37da1d35c4a52e866eb0a750e36eef0d55 hwmon: (acpi_power_meter) Fix 4.29 MW bug
+579ab4564cdcb4a549af1f4ef0af3706b723a545 tracing: Fix a warning when allocating buffered events fails
+996bb05779a6bbf863d9336306eefc726edce7a8 scsi: be2iscsi: Fix a memleak in beiscsi_init_wrb_handle()
+7daa1645fd160fc234b33416e25b8a0af6f17ae8 ALSA: pcm: fix out-of-bounds in snd_pcm_state_names
+5d07010c19d7056ec8aceb67287e16afc8abfcb7 nilfs2: prevent WARNING in nilfs_sufile_set_segment_usage()
+94c8e03bdea9e0dc2aeb59af0469c6396ea57ef4 tracing: Always update snapshot buffer size
+23460de30a944a6e1eb04a423b741500f402df49 tracing: Fix incomplete locking when disabling buffered events
+3c4c887dc76defaaa6f861c67d77c930119f44ef tracing: Fix a possible race when disabling buffered events
+20e8f967d9e48e62c52deca4c46b8fb81297d5a9 packet: Move reference count in packet_sock to atomic_long_t
+02ecb34928f040f702ba3763a4231fa8b52b1346 parport: Add support for Brainboxes IX/UC/PX parallel cards
+d29c19da4f8f665a1bedb5084760897e62bb5256 serial: sc16is7xx: address RX timeout interrupt errata
+c138326376e471626de89de386e219f8facf2faf serial: 8250_omap: Add earlycon support for the AM654 UART controller
+5753797293845cccbe893c46842a07b0c76b45a9 KVM: s390/mm: Properly reset no-dat
+257985376be8247db870f97a5915a7379f64d8a0 nilfs2: fix missing error check for sb_set_blocksize call
+f473c38b25f89d3b5aafc2865b1ef650219659ba netlink: don't call ->netlink_bind with table lock held
+0747004efa5b7c45514f24766e93bde63655ae40 genetlink: add CAP_NET_ADMIN test for multicast bind
+b1d5f1f114fcafefaaa8766ad7d403174098bcc6 psample: Require 'CAP_NET_ADMIN' when joining "packets" group
+c2954d801427ae003bc402616128d187edc7ebaa drop_monitor: Require 'CAP_SYS_ADMIN' when joining "events" group
+68f9b81cad708b197a2f7aa4e293c2669590d2ad Linux 4.14.333-rc2
 
---===============2904723801501934405==--
+--===============0763497426995398458==--
