@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 12 Dec 2023 21:34:13 -0000
-Message-Id: <170241685377.14798.8571754540117502784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 12 Dec 2023 21:35:36 -0000
+Message-Id: <170241693628.17091.1277720461282937759@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/main
-    old: 810c38a369a0a0ce625b5c12169abce1dd9ccd53
-    new: b65d52ac9c085c0c52dee012a210d4e2f352611b
-    log: |
-         b65d52ac9c085c0c52dee012a210d4e2f352611b qed: Fix a potential use-after-free in qed_cxt_tables_alloc
-         
+  - ref: refs/heads/arm64-lpa2-v7-part1
+    old: 0000000000000000000000000000000000000000
+    new: 940b90eb4b8b410bc6a9ca5b966b8c9e75a7e24d
