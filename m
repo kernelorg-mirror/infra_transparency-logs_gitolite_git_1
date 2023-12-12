@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 12 Dec 2023 11:55:48 -0000
-Message-Id: <170238214808.5968.17952945298591318181@gitolite.kernel.org>
+Date: Tue, 12 Dec 2023 11:56:59 -0000
+Message-Id: <170238221913.6474.18102972809470876276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
   - ref: refs/heads/xfrm-next
-    old: 8fc5a1e5d0f288d8c9e0ba9b1ef984608feadb99
-    new: 76496ba789ff099f9c4f6aa4f0808a87cf10dbf7
+    old: 76496ba789ff099f9c4f6aa4f0808a87cf10dbf7
+    new: d3fbcc184c1dcdfec287c3cdd398dddf0998e5ae
     log: |
-         76496ba789ff099f9c4f6aa4f0808a87cf10dbf7 net/mlx5e: Allow software parsing only for IPsec crypto
+         d3fbcc184c1dcdfec287c3cdd398dddf0998e5ae net/mlx5e: Allow software parsing when IPsec crypto is enabled
          
