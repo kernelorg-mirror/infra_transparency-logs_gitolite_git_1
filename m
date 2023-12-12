@@ -1,50 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============0322360242034290084=="
+Content-Type: multipart/mixed; boundary="===============1259225471673944373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 12 Dec 2023 18:30:40 -0000
-Message-Id: <170240584021.8027.16620709141850101916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 12 Dec 2023 18:34:57 -0000
+Message-Id: <170240609794.9577.1860489934522671315@gitolite.kernel.org>
 
---===============0322360242034290084==
+--===============1259225471673944373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: f0cf8c49ff925e761e9dccc6445fbdd1b87ec435
-    new: 8392a4ba7901f0af651ed38d17208a425ddcc172
-    log: revlist-f0cf8c49ff92-8392a4ba7901.txt
+  - ref: refs/heads/main
+    old: 70028b2e51c61d8dda0a31985978f4745da6a11b
+    new: 609c767f2c5505f104ed6bbb3554158131913f86
+    log: revlist-70028b2e51c6-609c767f2c55.txt
 
---===============0322360242034290084==
+--===============1259225471673944373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0cf8c49ff92-8392a4ba7901.txt
+Content-Disposition: attachment; filename=revlist-70028b2e51c6-609c767f2c55.txt
 
-24e90b9e34f9e039f56b5f25f6e6eb92cdd8f4b3 atm: Fix Use-After-Free in do_vcc_ioctl
-810c38a369a0a0ce625b5c12169abce1dd9ccd53 net/rose: Fix Use-After-Free in rose_ioctl
-cdfa1a3dd2b81323fe6df006faed3295d4a7d0df i40e: fix livelocks in i40e_reset_subtask()
-df23f919a5a033b88746a6b0857fd179a364aefb i40e: fix 32bit FW gtime wrapping issue
-a6dbbc22e745bf46172dde1450e1fb3eecb03e16 i40e: Fix waiting for queues of all VSIs to be disabled
-c07ea2c2f8b782d685373c79c7d7810a7e34d96f iavf: Introduce new state machines for flow director
-2382be74fb0fa2681e0eefb2405aa074e4e8daa2 iavf: Handle ntuple on/off based on new state machines for flow director
-2ce0085be99f6b1a090578a3ea62e6a50d12253a iavf: Fix iavf_shutdown to call iavf_remove instead iavf_close
-a2981bab17ff4f0b9799fd370ee6f8b067512856 i40e: Fix filter input checks to prevent config with invalid values
-3ecdbd0837efab3b2d41a5b471074dd6d9fb1845 i40e: Fix ST code value for Clause 45
-54fe0a39e06b05b1e57c03c05d34fbfb0e9ecac2 ice: fix theoretical out-of-bounds access in ethtool link modes
-038d0573043b2b0b4d47b791b9cfd5e457e0a772 i40e: Fix wrong mask used during DCB config
-5b7b26ebf3ba933921297d755bb3a3c04e0b2446 igc: Report VLAN EtherType matching back to user
-64f6e0e78f7b568069a7ff0ecc641e4494ac1a47 igc: Check VLAN TCI mask
-762925d3678e9994a8f0f1508dbcb2e1ecea25e9 igc: Check VLAN EtherType mask
-1172d8da19743b6991db599647849ff118669c1c ice: Do not get coalesce settings while in reset
-79c9464a4922987544b15440d2a2b9ce1035f216 ice: stop trashing VF VSI aggregator node ID information
-5e1140c0643ed6fc721e9429706063175b0d17cd ice: alter feature support check for SRIOV and LAG
-253f73842f47200040ee9c269264038bd220ff51 igc: Fix hicredit calculation
-8392a4ba7901f0af651ed38d17208a425ddcc172 idpf: fix corrupted frames and skb leaks in singleq mode
+c5e2a973448d958feb7881e4d875eac59fdeff3d rtnl: add helper to check if rtnl group has listeners
+8439109b76a3c405808383bf9dd532fc4b9c2dbd rtnl: add helper to check if a notification is needed
+ddb6b284bdc32b6e218b3d90b5a745ea26620812 rtnl: add helper to send if skb is not null
+c73724bfde0932cb0cafff2855e8ce81e12fd594 net/sched: act_api: don't open code max()
+8d4390f51920c1edb2d09d44d918c7940ac51e54 net/sched: act_api: conditional notification of events
+e522755520ef63b121ddd5808197a370be212e9a net/sched: cls_api: remove 'unicast' argument from delete notification
+93775590b1ee98bf2976b1f4a1ed24e9ff76170f net/sched: cls_api: conditional notification of events
+b72137ecd5e6f445ecbe8e5ebd867dd25125bc66 Merge branch 'net-sched-conditional-notification-of-events-for-cls-and-act'
+68c84289bcc0dc75c1d27caccb55134e8d39dcc2 netlink: specs: devlink: add some(not all) missing attributes in devlink.yaml
+68cbdb150d55834ed0a52352684ba2cc554c8a08 net: dl2k: Use proper conversion of dev_addr before IO to device
+26c79ec96e77a54e446a40c8f2c0af66afd0327b net: dns_resolver: the module is called dns_resolver, not dnsresolver
+389119c842187e2425d8e0354aabe5c3383c5020 net: dsa: realtek: Rename bogus RTL8368S variable
+d577ca429af36a3aea38d53d11be56dff015dfc9 net: dsa: realtek: Rewrite RTL8366RB MTU handling
+609c767f2c5505f104ed6bbb3554158131913f86 Merge branch 'net-dsa-realtek-two-rtl8366rb-fixes'
 
---===============0322360242034290084==--
+--===============1259225471673944373==--
