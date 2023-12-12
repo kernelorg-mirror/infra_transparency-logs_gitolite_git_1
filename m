@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 12 Dec 2023 13:51:39 -0000
-Message-Id: <170238909989.26542.3655791937319102528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 12 Dec 2023 13:54:23 -0000
+Message-Id: <170238926316.27717.1198648496970014165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: agordeev
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
   - ref: refs/heads/for-next
-    old: 12ffbd4cfe8c03971361de5e8b7932bd27bbd6f8
-    new: 9e81a2e6f94ca44844a2593ae3675d4fb5f8bc60
+    old: a56ad627333429888de2cc0690d8865374587400
+    new: 96930896ab11771201b94e10da0abc44f4b6eacc
     log: |
-         b8fa3e90965eeb2f83aa637ba0d0d6fd2a524004 s390/cio: make sch->lock spinlock pointer a member
-         9d58165581ce7446df9909cd5f905e5e09308bdf Merge branch 'fixes' into for-next
-         9e81a2e6f94ca44844a2593ae3675d4fb5f8bc60 Merge branch 'features' into for-next
+         94f18bb19945915fcdfd1903841020ef1b6af44a HID: nintendo: add support for nso controllers
+         96930896ab11771201b94e10da0abc44f4b6eacc Merge branch 'for-6.8/nintendo' into for-next
          
+  - ref: refs/heads/for-6.8/nintendo
+    old: 0000000000000000000000000000000000000000
+    new: 94f18bb19945915fcdfd1903841020ef1b6af44a
