@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 12 Dec 2023 14:46:00 -0000
-Message-Id: <170239236023.2488.4072901872231126571@gitolite.kernel.org>
+Date: Tue, 12 Dec 2023 14:46:22 -0000
+Message-Id: <170239238236.2741.18232266056813276120@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/topic/renesas-overlays
+  - ref: refs/heads/topic/renesas-overlays-v6.7-rc1
     old: 534f718c7ca1fb9feb60f0876ea59fd1bf10d683
     new: 45c4d18771144873342eae87e68a9d38dd0086cb
     log: |
