@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 12 Dec 2023 12:16:44 -0000
-Message-Id: <170238340481.22672.17157262294459602268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Tue, 12 Dec 2023 12:23:17 -0000
+Message-Id: <170238379784.26571.6292554481623104384@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/main
-    old: e307b5a845c5951dabafc48d00b6424ee64716c4
-    new: 24e90b9e34f9e039f56b5f25f6e6eb92cdd8f4b3
-    log: |
-         24e90b9e34f9e039f56b5f25f6e6eb92cdd8f4b3 atm: Fix Use-After-Free in do_vcc_ioctl
-         
+  - ref: refs/tags/fuse-fixes-6.7-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 2a9bf0e52b61de5418c3f2bb8a5f63633e26d50a
