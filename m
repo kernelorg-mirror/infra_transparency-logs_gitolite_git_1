@@ -1,33 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============1631430702526394342=="
+Content-Type: multipart/mixed; boundary="===============1326421695264992586=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 12 Dec 2023 03:30:58 -0000
-Message-Id: <170235185869.14101.5815765607509628062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 12 Dec 2023 03:31:08 -0000
+Message-Id: <170235186855.14247.11088545617824758894@gitolite.kernel.org>
 
---===============1631430702526394342==
+--===============1326421695264992586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: bbd220ce4e29ed55ab079007cff0b550895258eb
     new: abb240f7a2bd14567ab53e602db562bb683391e6
     log: revlist-bbd220ce4e29-abb240f7a2bd.txt
-  - ref: refs/heads/stable
-    old: 3a87498869d6d1e7347cd01f337a77984604eb5e
-    new: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
-    log: |
-         a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 Linux 6.7-rc5
-         
-  - ref: refs/tags/next-20230912
-    old: 6152e1aeaca894dca7f02314b70e9a1dc14f9f17
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20231212
     old: 0000000000000000000000000000000000000000
     new: ef98877165d39dd7809a2fcdbaca54a0116f98c4
@@ -35,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: be59bee58790f9d137cfc11973e856e4f8ab3888
 
---===============1631430702526394342==
+--===============1326421695264992586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1066,4 +1057,4 @@ c18e75ec2ece58c979c2ff7d2601d06f0b7c5db7 Merge branch 'for-next' of git://git.ke
 3ba9b31d6bf32110ccd707720f5f763489a2f056 drm: remove unused function drm_atomic_replace_property_blob_from_id()
 abb240f7a2bd14567ab53e602db562bb683391e6 Add linux-next specific files for 20231212
 
---===============1631430702526394342==--
+--===============1326421695264992586==--
