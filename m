@@ -1,45 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============3084402748908910927=="
+Content-Type: multipart/mixed; boundary="===============6479952224494499224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Tue, 12 Dec 2023 09:18:31 -0000
-Message-Id: <170237271125.6163.3298924810025367373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 12 Dec 2023 09:24:37 -0000
+Message-Id: <170237307789.10017.1316489693862413723@gitolite.kernel.org>
 
---===============3084402748908910927==
+--===============6479952224494499224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geoff/ps3-linux
-user: geoff
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/ps3-queue-v6.5
-    old: eade3a56e204e9cc713711eba686f5bd29913d2b
-    new: c943df6bcaf3127fcb6bd5a99830556c63f8d279
-    log: revlist-eade3a56e204-c943df6bcaf3.txt
+  - ref: refs/heads/master
+    old: 9abd5e4b99fb2d78d8dbbb9144aef68972c65e83
+    new: 294aa16fab0ff3db6e15727a110c2689848c16d2
+    log: revlist-9abd5e4b99fb-294aa16fab0f.txt
 
---===============3084402748908910927==
+--===============6479952224494499224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eade3a56e204-c943df6bcaf3.txt
+Content-Disposition: attachment; filename=revlist-9abd5e4b99fb-294aa16fab0f.txt
 
-0f2acc004dd9d70c6b3d7552d668db95ae373052 ps3_defconfig: Disable PPC64_BIG_ENDIAN_ELF_ABI_V2
-adb5fe8c1992dd9f6939dfcbe336423d3957b4cc net/ps3_gelic_net: Add gelic_descr structures
-bab3a4cb139190c44fc8e79fd2c5767e73e1c3fc net/ps3_gelic_net: Use napi routines for RX SKB
-dc69432d840d7916a9ef9e18f82013d762d4b55d hvc_console: Allow backends to set I/O buffer size
-672bb1257ae5b882c7521ac4564e6caa420429e6 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
-5ddb5c9b7ae4a69cd1d3138f1ff6ff70874e73bf ps3-debugging: Setup DABR register
-65d9c609998fba9f65bf4c78439fa83358ee5aca local: Add ps3_nfs_defconfig
-c8446493def78599e9efb405b8ff2667283c5e4f local: ps3_nfs_defconfig: Cut down version
-05fe851ab0342eac0c482ae2e7217804f113af40 local: Refresh ps3_nfs_defconfig
-196fb4ab21ff5fe225c4f571492a2cf70c081fd4 local: ps3_nfs_defconfig: Disable PPC64_BIG_ENDIAN_ELF_ABI_V2
-b4ac535dc3cafa83e25e7b8db5cb5886d09999b9 local: Add ps3_petitboot_defconfig
-e155ffe5962bd956dfc7b3e9d145f2af00f1416b local: Add ps3_petitboot_nfs_defconfig
-3fd03a5b10f3092fb5b05673347f64d103bcffae local: ps3_petitboot_nfs_defconfig: ip=dhcp
-0197d80ec9a3cfee6442633967d31437bbe8ed5a ps3_defconfig: Cut down version
-c943df6bcaf3127fcb6bd5a99830556c63f8d279 powerpc/ps3: refactor strncpy usage
+ead076318216203162da24ac1d2759f579b178b5 dmesg: error out instead of silently ignoring force_prefix
+e07c072c15fe11efe8c3d034cd4b362593f0bd20 dmesg: correctly print all supported facility names
+38a4480bbf807b26bedf39f68c81b20828681b02 dmesg: open-code LOG_MAKEPRI
+e60bc3a1a1d0d976a408b9edf21e7d755af88fe6 jsonwrt: add ul_jsonwrt_value_s_sized
+159ea1470d712a92e0e0b02a8d10e072acbfbaf8 dmesg: only write one message to json
+0448e15f3b927db137de852168144f21851b6931 dmesg: (tests) validate json output
+040567280e8a2bc8993c72c27a3f4db55d463992 dmesg: add support for reserved and local facilities
+899f554f19beded78fce1bbe1ee0c0b9355db27d dmesg: use symbolic defines for second conversions
+ae015d713895c4d72589a656a9ca359ede3d5073 setpriv: add landlock support
+01c54718fc1634099972f6d2ffe6bce4175bb53a dmesg: support reading kmsg format from file
+aa49261b2113f3f210eddb66ca034a431c180859 Merge branch 'dmesg/tests' of https://github.com/t-8ch/util-linux
+294aa16fab0ff3db6e15727a110c2689848c16d2 Merge branch 'dmesg/kmsg-file' of https://github.com/t-8ch/util-linux
 
---===============3084402748908910927==--
+--===============6479952224494499224==--
