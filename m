@@ -1,64 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============1943479130740511461=="
+Content-Type: multipart/mixed; boundary="===============3084402748908910927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Tue, 12 Dec 2023 09:16:01 -0000
-Message-Id: <170237256192.5168.16027238580638276606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
+Date: Tue, 12 Dec 2023 09:18:31 -0000
+Message-Id: <170237271125.6163.3298924810025367373@gitolite.kernel.org>
 
---===============1943479130740511461==
+--===============3084402748908910927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/geoff/ps3-linux
+user: geoff
 changes:
-  - ref: refs/heads/main
-    old: 91fdb30ddfdb651509914d3ed0a0302712540fed
-    new: ce038edfce43fb345f8dfdca0f7b17f535896701
-    log: |
-         98fb9b9680c9f3895ced02d6a73e27f5d7b5892b wifi: ieee80211: don't require protected vendor action frames
-         a4754182dc936b97ec7e9f6b08cdf7ed97ef9069 wifi: iwlwifi: pcie: add another missing bh-disable for rxq->lock
-         fb768d3b13ffa325b7e84480d488ac799c9d2cd7 wifi: cfg80211: Add my certificate
-         c1393c132b906fbdf91f6d1c9eb2ef7a00cce64e wifi: mac80211: check if the existing link config remains unchanged
-         23484d817082c3005252d8edfc8292c8a1006b5b net: rfkill: gpio: set GPIO direction
-         63bafd9d5421959b2124dd940ed8d7462d99f449 wifi: mac80211: don't re-add debugfs during reconfig
-         98849ba2aa9db46e62720fb686a9d63ed9887806 wifi: mac80211: check defragmentation succeeded
-         1fc4a3eec50d726f4663ad3c0bb0158354d6647a wifi: mac80211: mesh: check element parsing succeeded
-         8c386b166e2517cf3a123018e77941ec22625d0f wifi: mac80211: mesh_plink: fix matches_local logic
-         ce038edfce43fb345f8dfdca0f7b17f535896701 wifi: iwlwifi: pcie: avoid a NULL pointer dereference
-         
+  - ref: refs/heads/ps3-queue-v6.5
+    old: eade3a56e204e9cc713711eba686f5bd29913d2b
+    new: c943df6bcaf3127fcb6bd5a99830556c63f8d279
+    log: revlist-eade3a56e204-c943df6bcaf3.txt
 
---===============1943479130740511461==
+--===============3084402748908910927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-eade3a56e204-c943df6bcaf3.txt
 
-certificate version 0.1
-pusher 7BF9099A 1702372537 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1702372536-3e5531520f65753449017a5ae311de3dd7198a49
+0f2acc004dd9d70c6b3d7552d668db95ae373052 ps3_defconfig: Disable PPC64_BIG_ENDIAN_ELF_ABI_V2
+adb5fe8c1992dd9f6939dfcbe336423d3957b4cc net/ps3_gelic_net: Add gelic_descr structures
+bab3a4cb139190c44fc8e79fd2c5767e73e1c3fc net/ps3_gelic_net: Use napi routines for RX SKB
+dc69432d840d7916a9ef9e18f82013d762d4b55d hvc_console: Allow backends to set I/O buffer size
+672bb1257ae5b882c7521ac4564e6caa420429e6 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+5ddb5c9b7ae4a69cd1d3138f1ff6ff70874e73bf ps3-debugging: Setup DABR register
+65d9c609998fba9f65bf4c78439fa83358ee5aca local: Add ps3_nfs_defconfig
+c8446493def78599e9efb405b8ff2667283c5e4f local: ps3_nfs_defconfig: Cut down version
+05fe851ab0342eac0c482ae2e7217804f113af40 local: Refresh ps3_nfs_defconfig
+196fb4ab21ff5fe225c4f571492a2cf70c081fd4 local: ps3_nfs_defconfig: Disable PPC64_BIG_ENDIAN_ELF_ABI_V2
+b4ac535dc3cafa83e25e7b8db5cb5886d09999b9 local: Add ps3_petitboot_defconfig
+e155ffe5962bd956dfc7b3e9d145f2af00f1416b local: Add ps3_petitboot_nfs_defconfig
+3fd03a5b10f3092fb5b05673347f64d103bcffae local: ps3_petitboot_nfs_defconfig: ip=dhcp
+0197d80ec9a3cfee6442633967d31437bbe8ed5a ps3_defconfig: Cut down version
+c943df6bcaf3127fcb6bd5a99830556c63f8d279 powerpc/ps3: refactor strncpy usage
 
-91fdb30ddfdb651509914d3ed0a0302712540fed ce038edfce43fb345f8dfdca0f7b17f535896701 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmV4JLkACgkQ10qiO8sP
-aADzJw/9FrPWhzDY/qAKzKxaCv6bgFcXB1PfzqieSKp+HXI4Pm4lTXB/JWcFGmRX
-Kq+Sc6IpHdmxh9Ievqr+K0g0Jd0jwEhyCmEhHArPIe/+EY8ammeJXmndwYvFS9Hf
-zdbuirVAX56kgPvcLXrrL75ZB6yrskhkauPcrjuuV9+p4AALAYvJpETSqAXtS1zW
-yIYNg3GKGVRFBG1FT4EtHemjviW89TtjGfT6j/jjhWoIs0v6Zf1+c07vJWNGmIIh
-y6g8HBsJajJSI2zkKP7IScuoclO776QMa2Pp9e4jpdP1iZn7BBHUjYXx31//mFPb
-qxsbIKLht1aGcSj+BiEVBPCqHn1MQ+vSn/yfGqX1P0R3nWc4Ka5kXkq5ffKhKMh5
-fGDPTjIkHBgx3ZdTmUvRzhbEzjTG5MwJQtWbk1lni5hRo/+Y2AqJ1JxIHAbDw3iY
-lOPEdEnKcJrCLCtxGcJJX8hwhtuktYjyoSxuhmTlKsZJ57weVR5xx09jC+5nctkj
-KfN5pKSUPyXaLzlWoCXZHMhHi0kU3NJr2FAOasZkpvV9NkjsZIwqAHF759x2crUb
-PtxK73SjNDE1/Xr+FlW4Gql62Q3xPK2VsYnN2fDPWsjmF1tTuvPE4yShrlqYWhvq
-6BirVFZLOM5Z2zcpwvgYQOtIKtXaOR9DNH9dg3bCFYxIY39TUr0=
-=5fhq
------END PGP SIGNATURE-----
-
---===============1943479130740511461==--
+--===============3084402748908910927==--
