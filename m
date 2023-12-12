@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Tue, 12 Dec 2023 12:54:14 -0000
-Message-Id: <170238565497.16054.1925634166079068593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Tue, 12 Dec 2023 13:19:04 -0000
+Message-Id: <170238714406.1737.7249033779322422436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
   - ref: refs/heads/for-next
-    old: 8811edad2497f4faa93e481a7128b0b063c55ba5
-    new: 0bd6bc435f7db3e22acb410b721e97a97463c51c
+    old: 64a1aed0aa07698d12deca9b7821ea77762ff328
+    new: 9a17a097ff9d3169bd99ba23cc9e22576237fbcd
     log: |
-         0bd6bc435f7db3e22acb410b721e97a97463c51c drivers: perf: Fix build error by adding const to ctl_table argument of handler
+         9a17a097ff9d3169bd99ba23cc9e22576237fbcd fbdev: hgafb: fix kernel-doc comments
          
