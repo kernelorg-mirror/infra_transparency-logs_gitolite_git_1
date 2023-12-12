@@ -1,39 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============2204705089827709002=="
+Content-Type: multipart/mixed; boundary="===============0058521901627982480=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Tue, 12 Dec 2023 07:08:57 -0000
-Message-Id: <170236493770.9390.3134545945601793318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Tue, 12 Dec 2023 07:17:38 -0000
+Message-Id: <170236545896.16052.7864689017853489893@gitolite.kernel.org>
 
---===============2204705089827709002==
+--===============0058521901627982480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
-  - ref: refs/heads/mlx5-next
-    old: 82f9378c443c206d3f9e45844306e5270e7e4109
-    new: d727d27db536faea7178290c677cc0567f647231
-    log: revlist-82f9378c443c-d727d27db536.txt
+  - ref: refs/heads/rdma-next
+    old: 78adce7ac120573203e1b6a579fbad30162b9106
+    new: 52c4837a1bcbb403b7a2937454eb833673468f83
+    log: revlist-78adce7ac120-52c4837a1bcb.txt
+  - ref: refs/heads/xfrm-next
+    old: e39ea3187f76e910e60c4999070e0945e7e87624
+    new: 8fc5a1e5d0f288d8c9e0ba9b1ef984608feadb99
+    log: revlist-e39ea3187f76-8fc5a1e5d0f2.txt
 
---===============2204705089827709002==
+--===============0058521901627982480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82f9378c443c-d727d27db536.txt
+Content-Disposition: attachment; filename=revlist-78adce7ac120-52c4837a1bcb.txt
 
-d565fa4300d9ebd5ba3bbd259ce841f8dab609d6 s390/ism: ism driver implies smc protocol
-75a50c4f5b957a34dedb7c8cce52b582a9162828 kselftest: rtnetlink: fix ip route command typo
-3798680f2fbbe0ca3ab6138b34e0d161c36497ee rxrpc: Fix RTT determination to use any ACK as a source
-1a01319feef7047aa2ba400ffa3e047776aa29ca rxrpc: Defer the response to a PING ACK until we've parsed it
-3c15504a97a1bcabec5459e604dcc20c7313c8ea Merge branch 'rxrpc-ack-fixes'
-76df934c6d5f5c93ba7a0112b1818620ddc10b19 MAINTAINERS: Add netdev subsystem profile link
-9e0be3f50c0e8517d0238b62409c20bcb8cd8785 linux/export: clean up the IA-64 KSYM_FUNC macro
-76020731d4ee897411ce4a73916ed805ea15d946 kbuild: Move the single quotes for image name
 ae1eff0349f2e908fc083630e8441ea6dc434dc0 kconfig: fix memory leak from range properties
 1ffa8602e39b89469dc703ebab7a7e44c33da0f7 drm/amd/display: Guard against invalid RPTR/WPTR being set
 0288603040c38ccfeb5342f34a52673366d90038 drm/amdgpu: Do not program VF copy regs in mmhub v1.8 under SRIOV (v2)
@@ -1050,5 +1046,52 @@ a429ec96c07f3020af12029acefc46f42ff5c91c RDMA/mlx5: Support handling of SW encap
 abf8e8f29a3cb6d9c0f599d335f9ad3dcf2dcf11 net/mlx5: Manage ICM type of SW encap
 eb524d0fd46249b0b9e5d52372dc65d8b32430c3 net/mlx5: E-Switch, expose eswitch manager vport
 d727d27db536faea7178290c677cc0567f647231 RDMA/mlx5: Expose register c0 for RDMA device
+afcda192dbab7df48dfedb1813a6d03bf6bd4996 Expose c0 and SW encap ICM for RDMA
+ea0c8ccaceebc8228039b17825c0d2c88718de70 net/sched: Don't print dump stack in event of transmission timeout
+11caecfd997a180c070722ade8f70c91f606c8eb RDMA/core: Introduce peer memory interface
+658ada3cf8b5a5002a875931651b81e0667a6254 RDMA/mlx5: Get upper device only if device is lagged
+0074d374da444207a832a67a5a71623dc7629d6c RDMA/mlx5: Send currect port events
+d5081d21a228d700c15ba52b4c6fbef4f593d60e TEMP: Increase lockdep depth
+f079ecec695a7a412643713a8fd39eb9165028a3 arm64/io: add memcpy_toio_64
+52c4837a1bcbb403b7a2937454eb833673468f83 IB/mlx5: Use memcpy_toio_64() for write combining stores
 
---===============2204705089827709002==--
+--===============0058521901627982480==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e39ea3187f76-8fc5a1e5d0f2.txt
+
+18c5c0a845b3fd834e6a3f5d7f2cbf336e23e918 nfp: support UDP segmentation offload
+9a64d4c93eee6b2efb7a02ec98d9480946424509 Revert "net: rtnetlink: remove local list in __linkwatch_run_queue()"
+d2f011a0bf28c090ad75c9b1d306f2e1dda1c9bc ipv6: annotate data-races around np->mcast_oif
+1ac13efd614c752d3b47bbfb58e7c36eeb92cb5a ipv6: annotate data-races around np->ucast_oif
+70028b2e51c61d8dda0a31985978f4745da6a11b Merge branch 'ipv6-data-races'
+c5e2a973448d958feb7881e4d875eac59fdeff3d rtnl: add helper to check if rtnl group has listeners
+8439109b76a3c405808383bf9dd532fc4b9c2dbd rtnl: add helper to check if a notification is needed
+ddb6b284bdc32b6e218b3d90b5a745ea26620812 rtnl: add helper to send if skb is not null
+c73724bfde0932cb0cafff2855e8ce81e12fd594 net/sched: act_api: don't open code max()
+8d4390f51920c1edb2d09d44d918c7940ac51e54 net/sched: act_api: conditional notification of events
+e522755520ef63b121ddd5808197a370be212e9a net/sched: cls_api: remove 'unicast' argument from delete notification
+93775590b1ee98bf2976b1f4a1ed24e9ff76170f net/sched: cls_api: conditional notification of events
+b72137ecd5e6f445ecbe8e5ebd867dd25125bc66 Merge branch 'net-sched-conditional-notification-of-events-for-cls-and-act'
+68c84289bcc0dc75c1d27caccb55134e8d39dcc2 netlink: specs: devlink: add some(not all) missing attributes in devlink.yaml
+86a4d1ce55f07af6a5cdf8f94d87f2f29f2e7682 xfrm: Flush xfrm state synchronously on netdev close or unregister
+d10d4a612a507c50ad1cddea1baf9aa26e4b6e1e net/mlx5e: Honor user choice of IPsec replay window size
+e369d30063701cd84a94966607222233a61fd5f8 net/mlx5e: Ensure that IPsec sequence packet number starts from 1
+7c7422c6b2de961184df94f213b5bce875933827 net/mlx5e: Unify esw and normal IPsec status table creation/destruction
+f256cdda0014504656665a73b1628016205ea015 net/mlx5e: Remove exposure of IPsec RX flow steering struct
+f433483b514d7773343551f7e196db3e6c1eccd6 net/mlx5e: Add IPsec and ASO syndromes check in HW
+72514b4282e52033450472fe73ee3dc6be6dd59d net/mlx5e: Tidy up IPsec NAT-T SA discovery
+fc333ff1449e5954406a96271365760ad3a1ba35 net/mlx5e: Reduce eswitch mode_lock protection context
+e8d6176d2816e76064e55b202ddc8a5f1d3709c4 net/mlx5e: Close PF netdev when unload driver
+0fee8cb7544242971516d49deefe1e47c3858b60 net/mlx5e: Check the number of elements before walk TC rhashtable
+f179e81786b23b8b1f3c55966125a7e8f75398d6 net/mlx5e: Forbid devlink reload if IPSec rules are offloaded
+585d37e34275694685bd52d74c10379fe90ac7ce net/mlx5e: Disable IPsec offload support if not FW steering
+f2b9d05466fac32e9b4b9ced5978b3ea1dc971c2 xfrm: generalize xdo_dev_state_update_curlft to allow statistics update
+fa4a8083b844a5580fc9a005450f10bb84caa7ca xfrm: get global statistics from the offloaded device
+e5bab22239f477a46a16963a0126031614272bb2 net/mlx5e: Connect mlx5 IPsec statistics with XFRM core
+4b3dd2edf4d126046df9fa732877a6a3d6fae3ea net/mlx5e: Delete obsolete IPsec code
+f0e38d7695c1bff87d41761b58447a5a4efa1be3 net/mlx5e: Ignore IPsec replay window values on sender side
+8fc5a1e5d0f288d8c9e0ba9b1ef984608feadb99 xfrm: Pass UDP encapsulation in TX packet offload
+
+--===============0058521901627982480==--
