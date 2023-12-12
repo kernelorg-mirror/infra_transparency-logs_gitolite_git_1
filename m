@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============5330578422918971281=="
+Content-Type: multipart/mixed; boundary="===============2204705089827709002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 12 Dec 2023 07:08:46 -0000
-Message-Id: <170236492685.9275.7237082030804924709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 12 Dec 2023 07:08:57 -0000
+Message-Id: <170236493770.9390.3134545945601793318@gitolite.kernel.org>
 
---===============5330578422918971281==
+--===============2204705089827709002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 07f830ae4913d0b986c8c0ff88a7d597948b9bd8
-    new: afcda192dbab7df48dfedb1813a6d03bf6bd4996
-    log: revlist-07f830ae4913-afcda192dbab.txt
+  - ref: refs/heads/mlx5-next
+    old: 82f9378c443c206d3f9e45844306e5270e7e4109
+    new: d727d27db536faea7178290c677cc0567f647231
+    log: revlist-82f9378c443c-d727d27db536.txt
 
---===============5330578422918971281==
+--===============2204705089827709002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07f830ae4913-afcda192dbab.txt
+Content-Disposition: attachment; filename=revlist-82f9378c443c-d727d27db536.txt
 
+d565fa4300d9ebd5ba3bbd259ce841f8dab609d6 s390/ism: ism driver implies smc protocol
 75a50c4f5b957a34dedb7c8cce52b582a9162828 kselftest: rtnetlink: fix ip route command typo
 3798680f2fbbe0ca3ab6138b34e0d161c36497ee rxrpc: Fix RTT determination to use any ACK as a source
 1a01319feef7047aa2ba400ffa3e047776aa29ca rxrpc: Defer the response to a PING ACK until we've parsed it
@@ -1049,6 +1050,5 @@ a429ec96c07f3020af12029acefc46f42ff5c91c RDMA/mlx5: Support handling of SW encap
 abf8e8f29a3cb6d9c0f599d335f9ad3dcf2dcf11 net/mlx5: Manage ICM type of SW encap
 eb524d0fd46249b0b9e5d52372dc65d8b32430c3 net/mlx5: E-Switch, expose eswitch manager vport
 d727d27db536faea7178290c677cc0567f647231 RDMA/mlx5: Expose register c0 for RDMA device
-afcda192dbab7df48dfedb1813a6d03bf6bd4996 Expose c0 and SW encap ICM for RDMA
 
---===============5330578422918971281==--
+--===============2204705089827709002==--
