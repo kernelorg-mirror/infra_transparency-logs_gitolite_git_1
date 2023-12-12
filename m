@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8310982380284542697=="
+Content-Type: multipart/mixed; boundary="===============6917362483148323209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Tue, 12 Dec 2023 23:45:46 -0000
-Message-Id: <170242474672.15038.5969247070898624695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Tue, 12 Dec 2023 23:45:54 -0000
+Message-Id: <170242475469.15154.17657756011292485310@gitolite.kernel.org>
 
---===============8310982380284542697==
+--===============6917362483148323209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: f352a28cc2fb4ee8d08c6a6362c9a861fcc84236
     log: revlist-6c312912da5c-f352a28cc2fb.txt
 
---===============8310982380284542697==
+--===============6917362483148323209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ dc6ccb21f42ce5b3e4df6f52e14edab721e1b26e riscv: hwprobe: export Zfa ISA extensio
 9726acfdfa3bbf324b305e0b32fc028c278f6d43 dt-bindings: riscv: add Zfa ISA extension description
 f352a28cc2fb4ee8d08c6a6362c9a861fcc84236 Merge patch series "riscv: report more ISA extensions through hwprobe"
 
---===============8310982380284542697==--
+--===============6917362483148323209==--
