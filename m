@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 13 Dec 2023 20:10:17 -0000
-Message-Id: <170249821791.26946.6084981781896642279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 13 Dec 2023 20:13:48 -0000
+Message-Id: <170249842814.28316.4253583350992171745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/dm-vdo-wip
-    old: bfc2bddaa93f6d7fb9b793d492d928599c120a34
-    new: e64f626707d0a0b2908bf0d47705d755ada6fd2d
+  - ref: refs/heads/master
+    old: c9fd8b452083ba78449ba12ccc9c0d8f73c5b8a4
+    new: 2061aff00af12d87303a76576a27df81bdd48882
     log: |
-         e64f626707d0a0b2908bf0d47705d755ada6fd2d dm vdo: use a proper Makefile for dm-vdo
+         2061aff00af12d87303a76576a27df81bdd48882 Wed Dec 13 08:12:29 PM UTC 2023
          
