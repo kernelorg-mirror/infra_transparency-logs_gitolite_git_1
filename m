@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============0519969091148512162=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Wed, 13 Dec 2023 20:06:27 -0000
-Message-Id: <170249798746.22529.14597771746942497842@gitolite.kernel.org>
-
---===============0519969091148512162==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 13 Dec 2023 20:10:17 -0000
+Message-Id: <170249821791.26946.6084981781896642279@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: ab9bbfbd6863b9d1a0784fca46c60f9ff6c7ee88
-    new: 06122113741764035f95ef398818a5a912cb1f51
+  - ref: refs/heads/dm-vdo-wip
+    old: bfc2bddaa93f6d7fb9b793d492d928599c120a34
+    new: e64f626707d0a0b2908bf0d47705d755ada6fd2d
     log: |
-         06122113741764035f95ef398818a5a912cb1f51 Add 8DAD75EC88883C99 (Neeraj Upadhyay)
+         e64f626707d0a0b2908bf0d47705d755ada6fd2d dm vdo: use a proper Makefile for dm-vdo
          
-
---===============0519969091148512162==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1702497986 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1702497986-ea6784d142b256322f0f5f75f0ad22eac0bcdb47
-
-ab9bbfbd6863b9d1a0784fca46c60f9ff6c7ee88 06122113741764035f95ef398818a5a912cb1f51 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZXoOwgAKCRC2xBzjVmSZ
-bBWgAP9zT6iUEGxMY/3hbk8p1rOWR+U8n7nCuY8rL6DQHRoJSQEA7oWxrWQMXfNT
-hTlxYrxEvk0pFf6Pvo8djPFSOnMJyQk=
-=kdrF
------END PGP SIGNATURE-----
-
---===============0519969091148512162==--
