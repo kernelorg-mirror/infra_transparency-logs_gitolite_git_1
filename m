@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 13 Dec 2023 12:21:33 -0000
-Message-Id: <170247009388.31047.882807585805027346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 13 Dec 2023 12:36:20 -0000
+Message-Id: <170247098028.8608.16784156322659403734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: c02064707c65c76557f61d2169531008ed4818f8
-    new: d3a5513a9925453031b270418b5a919f3e3263eb
+  - ref: refs/heads/main
+    old: e5bc1f4c6554b464005d52b940630bb4d276137a
+    new: d2e9464e63366a2a89375a2b14e8a5adb4d0b1d5
     log: |
-         ef6cbd7b0c8473fd0175e360aff91a635b62d6c7 Merge branch 'misc-6.7' into for-next-current-v6.6-20231213
-         309976838329d8c33f110c0422667cc9fdf76462 Merge branch 'misc-next' into for-next-next-v6.7-20231213
-         77cae3704b6b50e24888a8e18d800a9964cd4ed7 Merge branch 'for-next-current-v6.6-20231213' into for-next-20231213
-         d3a5513a9925453031b270418b5a919f3e3263eb Merge branch 'for-next-next-v6.7-20231213' into for-next-20231213
+         24f110240c03c6b5368f1203bac72883d511e606 ionic: pass opcode to devcmd_wait
+         45b84188a0a4b91c9763105381486916cc4b861f ionic: keep filters across FLR
+         ca5fdf9a7c5b65968c718f2be159cda4c13556a1 ionic: bypass firmware cmds when stuck in reset
+         13943d6c82730a2a4e40e05d6deaca26a8de0a4d ionic: prevent pci disable of already disabled device
+         219e183272b4a566650a37264aff90a8c613d9b5 ionic: no fw read when PCI reset failed
+         b0dbe358fbb416877d32a79a586ded50040467d6 ionic: use timer_shutdown_sync
+         ce66172d33935df630c9b71a95cff685e12ad506 ionic: lif debugfs refresh on reset
+         c3a910e1c47a3f033f14a76624711deeb2a0cfff ionic: fill out pci error handlers
+         d2e9464e63366a2a89375a2b14e8a5adb4d0b1d5 Merge branch 'ionic-pci-errors'
          
