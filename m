@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 13 Dec 2023 23:14:18 -0000
-Message-Id: <170250925859.31829.12687855898276430395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Wed, 13 Dec 2023 23:22:54 -0000
+Message-Id: <170250977422.5746.18228391219160378333@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/master
-    old: 7dd1bd281806b7086ae9d095fa9c72d77d51191f
-    new: 4ae83073854ee9e5d2b08828e1e0d29ff6677f89
+  - ref: refs/heads/for-linux-next
+    old: a0a28956b46ec7f16ce5d762ac5a124bb532da0d
+    new: 7347fb4e7db14b856f4748de7144f8fc2a67e845
     log: |
-         e6a1d7bc7405c94b71e72f2dece241e02b0d7781 foo
-         4ae83073854ee9e5d2b08828e1e0d29ff6677f89 foo
+         7347fb4e7db14b856f4748de7144f8fc2a67e845 dt-bindings: display: samsung,exynos-mixer: Fix 'regs' typo
          
