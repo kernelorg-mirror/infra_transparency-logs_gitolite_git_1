@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 13 Dec 2023 20:33:38 -0000
-Message-Id: <170249961880.9880.12591849745215903727@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 13 Dec 2023 20:50:04 -0000
+Message-Id: <170250060404.23421.15566316997379948945@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: holtmann
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 093d00b47ee4e3544aa80de33e869a8617c4af32
-    new: cd00105c5b7383bffd0198059e7b1fee1e2b6c99
+    old: 88035e5694a86a7167d490bb95e9df97a9bb162b
+    new: 5bd7ef53ffe5ca580e93e74eb8c81ed191ddc4bd
     log: |
-         cd00105c5b7383bffd0198059e7b1fee1e2b6c99 build: Update library version
+         271f2a4a9576b87ed1f8584909d6d270039e52ea efi/loongarch: Use load address to calculate kernel entry address
+         50d7cdf7a9b1ab6f4f74a69c84e974d5dc0c1bf1 efi/x86: Avoid physical KASLR on older Dell systems
+         485053bb81c81a122edd982b263277e65d7485c5 fix ufs_get_locked_folio() breakage
+         af2a9c6a83a61bcaeb0fa4edc74762448926ef1c Merge tag 'efi-urgent-for-v6.7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
+         5bd7ef53ffe5ca580e93e74eb8c81ed191ddc4bd Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
          
