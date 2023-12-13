@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Wed, 13 Dec 2023 05:40:04 -0000
-Message-Id: <170244600479.19988.6919354626940735154@gitolite.kernel.org>
+Date: Wed, 13 Dec 2023 05:50:49 -0000
+Message-Id: <170244664963.27037.17327492996895009263@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,18 +12,16 @@ repo: pub/scm/linux/kernel/git/dtor/input
 user: dtor
 changes:
   - ref: refs/heads/master
-    old: 2e3ae00021901461455b6a9ff4ef850817e9ab6d
-    new: 5958274f1de5bcc435a11a92a5d555775c5ed341
+    old: 5958274f1de5bcc435a11a92a5d555775c5ed341
+    new: 877ee02cd9627dd520f17adede23a0abb02f4de2
     log: |
-         39bd68d422ba085997fb1f26160d7c686915b3cb Input: cap11xx - cache hardware ID registers
-         718963d94197626f83544b63ca5581d16cffdac2 Input: cap11xx - convert to use maple tree register cache
-         5958274f1de5bcc435a11a92a5d555775c5ed341 Input: qt1050 - convert to use maple tree register cache
+         f737020d24e47d6e8b893a2fee2b43268a6af629 Input: max77693-haptic - add device-tree compatible strings
+         877ee02cd9627dd520f17adede23a0abb02f4de2 dt-bindings: input: qcom,pm8921-keypad: convert to YAML format
          
   - ref: refs/heads/next
-    old: 2e3ae00021901461455b6a9ff4ef850817e9ab6d
-    new: 5958274f1de5bcc435a11a92a5d555775c5ed341
+    old: 5958274f1de5bcc435a11a92a5d555775c5ed341
+    new: 877ee02cd9627dd520f17adede23a0abb02f4de2
     log: |
-         39bd68d422ba085997fb1f26160d7c686915b3cb Input: cap11xx - cache hardware ID registers
-         718963d94197626f83544b63ca5581d16cffdac2 Input: cap11xx - convert to use maple tree register cache
-         5958274f1de5bcc435a11a92a5d555775c5ed341 Input: qt1050 - convert to use maple tree register cache
+         f737020d24e47d6e8b893a2fee2b43268a6af629 Input: max77693-haptic - add device-tree compatible strings
+         877ee02cd9627dd520f17adede23a0abb02f4de2 dt-bindings: input: qcom,pm8921-keypad: convert to YAML format
          
