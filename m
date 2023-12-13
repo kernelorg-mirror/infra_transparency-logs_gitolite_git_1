@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1329908524194516705=="
+Content-Type: multipart/mixed; boundary="===============3754651511906715729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Wed, 13 Dec 2023 21:27:18 -0000
-Message-Id: <170250283842.17036.11769283496428384942@gitolite.kernel.org>
+Date: Wed, 13 Dec 2023 21:27:58 -0000
+Message-Id: <170250287823.17379.11041439159375480597@gitolite.kernel.org>
 
---===============1329908524194516705==
+--===============3754651511906715729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/for-linux-next
-    old: c1ee197d64f49c9e2a6c8e6a168083c411c1362c
+  - ref: refs/heads/exynos-drm-next
+    old: 127331595d4b1d75fa13a21fa8fb2a1b85229cc3
     new: a0a28956b46ec7f16ce5d762ac5a124bb532da0d
-    log: revlist-c1ee197d64f4-a0a28956b46e.txt
+    log: revlist-127331595d4b-a0a28956b46e.txt
 
---===============1329908524194516705==
+--===============3754651511906715729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1ee197d64f4-a0a28956b46e.txt
+Content-Disposition: attachment; filename=revlist-127331595d4b-a0a28956b46e.txt
 
 a1c613ae4c322ddd58d5a8539dbfba2a0380a8c0 Merge drm/drm-next into drm-intel-gt-next
 8fa1c7cd1fe9cdfc426a603e1f1eecd3f463c487 drm/i915/mcr: Hold GT forcewake during steering operations
@@ -160,4 +160,4 @@ ead5a41c8f8a13ad7b1c9fd2d7edb1ea909b777f drm/exynos: dpi: Change connector type 
 6734cd03f7e203d63337c236228617dace4c630a Merge tag 'drm-intel-gt-next-2023-12-08' of git://anongit.freedesktop.org/drm/drm-intel into drm-next
 a0a28956b46ec7f16ce5d762ac5a124bb532da0d Merge tag 'amd-drm-next-6.8-2023-12-08' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
 
---===============1329908524194516705==--
+--===============3754651511906715729==--
