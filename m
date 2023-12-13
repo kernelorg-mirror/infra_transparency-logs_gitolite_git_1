@@ -1,94 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============6603194738833691435=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 13 Dec 2023 14:31:23 -0000
-Message-Id: <170247788306.27251.14866711973189501836@gitolite.kernel.org>
-
---===============6603194738833691435==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Wed, 13 Dec 2023 14:36:07 -0000
+Message-Id: <170247816783.30582.13423237271120207444@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 0e42b5fee8a8c5bc173f702b0745da6d9329c714
-    new: e909abe885e2f399be7ac0560a010d7429f951e1
-    log: revlist-0e42b5fee8a8-e909abe885e2.txt
-
---===============6603194738833691435==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702477872 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1702477870-7cec93c792e4c3e0b8c1281cdf22d92c87897826
-
-0e42b5fee8a8c5bc173f702b0745da6d9329c714 e909abe885e2f399be7ac0560a010d7429f951e1 refs/heads/char-misc-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV5wDAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3+0P/jU/mZkz7s/5ioWnwx1g
-LjZa49DZ5joiVcgmBdXCF1PHZaG0l732wmGShO7r7slY75WZl4tV9rWOHWjc76bs
-ScXQc6L8oRR/+33kdnoaf++Unh87n0QLegXXEbAZ0H9eRaGciZD15FYO5g+sERCU
-AJhkScAjczM7JxAvWcpYaBr/X8/W6nICI6ae0JaD8fjTFE+NsFyVJRozwor0uvvo
-vtDR5enBSi325doCKK8755/7azmQv6CW6srzuVpgg+iir0C/FZQKtJ81rZlhVst/
-P5rl8LDJiVD1x2VtiVjELvLork8t0GHfeisMvqFdSuuvsoE0n426JeObMDi/m6R2
-tJKevpZd4XkWGoW1YpR9hBGclYdL7srDIiQ49DjGKBZ4DwZmFOmvNQy43vBz0Wyc
-70uqOeIQDevYF0FEdO/3rbG8z3ShjR8rCiqOKiBCcJ6vkZLXZbBYF+2i7Qvm6910
-DTxTkeoOkRc6bt4LtGcpKNtbCXKMBfrCg2Z/H1tXtEnFJ/43RkMo24rZw22oDVhN
-vHLocsF4Ee2xHebUvz9VrfiJrS5nqrCohAYYJgiQIz3mCMr62wXmSbG3RRTxU0nl
-Ee6zC4aVGPV08KIwKFpq0wdd1Q+iQ77aI8aE+ylDrGJk0rKSsmrU8deeKPG+222P
-XZ0PH0n5LdLBKZeE3zPE+kc0
-=QdpS
------END PGP SIGNATURE-----
-
---===============6603194738833691435==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e42b5fee8a8-e909abe885e2.txt
-
-182d44f9ce2d44a554432139c2d8026faddbe635 MAINTAINERS: Remove myself as a Arm CoreSight reviewer
-4277f035d227e829133df284be7e35b7236a5b0f coresight: trbe: Add a representative coresight_platform_data for TRBE
-17f8b216e02654a0b37127736ce78b32ccaa867b coresight: trbe: Enable ACPI based TRBE devices
-4aff040bcc8de28bead01194cbca1dc9471a5a85 coresight: etm: Override TRCIDR3.CCITMIN on errata affected cpus
-94566c5b07744c7cf5c7cc0ad42b15996ba0b054 coresight: etm: Make cycle count threshold user configurable
-e5d207b24c54af25fb763af44e2db35347a0f7ee Documentation: coresight: Add cc_threshold tunable
-2373699a3505061cd21625c3f3b70dc3d03a3d8c coresight: tmc: Make etr buffer mode user configurable from sysfs
-f4443ee5a38cb84bdd0515f8832117b2be0684d6 coresight-tpdm: Remove the unnecessary lock
-2a8d9b371566e798421ef877c5757e2c4a11ad6f dt-bindings: arm: Add support for DSB element size
-f7f965c982f7954b46db910146a7ffe0fe1eb5e1 coresight-tpdm: Introduce TPDM subtype to TPDM driver
-57e7235aa1d11d4ea8a25dfdc009b3ee463763af coresight-tpda: Add DSB dataset support
-f01e4948b516f073c353041328ae7cf709233303 coresight-tpdm: Initialize DSB subunit configuration
-8fbbce11a90f345a1ff39e2a08e312ee763a1139 coresight-tpdm: Add reset node to TPDM node
-851b3f9c9c0838060158e288c1387d44652c54b5 coresight-tpdm: Add nodes to set trigger timestamp and type
-018e43ad1eeefbb8797e4c933953c50c09e3f4f6 coresight-tpdm: Add node to set dsb programming mode
-f376caf25f79965ab140b7a297cb4a5bb0c89523 coresight-tpdm: Add nodes for dsb edge control
-a8138a9445e6d159138b7e574dc5ee7cbcc2f06a coresight-tpdm: Add nodes to configure pattern match output
-4c983382a29eaddd8746af23702f657258bb91cc coresight-tpdm: Add nodes for timestamp request
-8e05f86f07a0359584ceb2715fedcc4daf29d898 dt-bindings: arm: Add support for DSB MSR register
-350ba15ae187c118979566f1288adb5f69f24230 coresight-tpdm: Add nodes for dsb msr support
-9d4408feff89f8d86b8f34339b08ceb5f8400190 Documentation: ABI: coresight-tpdm: Fix Bit[3] description indentation
-46f69b197b6cd06c709581f7ad271bc02dbedb7a hwtracing: hisi_ptt: Disable interrupt after trace end
-dabf410d8764dbb24832d18bb825fe7ba5e75d30 hwtracing: hisi_ptt: Optimize the trace data committing
-c4137932d11dff5a347e3462cc52383fc333b86b coresight-tpdm: Correct the property name of MSR number
-cc0271a339cc70cae914c3ec20edc2a8058407da coresight: etm4x: Fix width of CCITMIN field
-fc041bd24f39f28f984cb7dea011b3625c298dd9 coresight: dummy: Convert to platform remove callback returning void
-4445e142b4580e8fd43b67a9192a77027e6933cb coresight: etm4x: Convert to platform remove callback returning void
-858aebb52cc0f4b3446842fb5169bdf33fc136d4 coresight: funnel: Convert to platform remove callback returning void
-3d1e99f73409499742142ca14ff00946a9e442af coresight: replicator: Convert to platform remove callback returning void
-98881b34ce90c031164597f73603f3219da79658 coresight: trbe: Convert to platform remove callback returning void
-32d9a78bb9ff9da0082ea6fdb038bc1bf81f6992 coresight: ultrasoc-smb: Convert to platform remove callback returning void
-60e5f23dc5d68ec01e6dae8f4311230c7d2ccb8a coresight: ultrasoc-smb: Use guards to cleanup
-e909abe885e2f399be7ac0560a010d7429f951e1 Merge tag 'coresight-next-v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
-
---===============6603194738833691435==--
+  - ref: refs/heads/icc-next
+    old: 9d0f61b0aab14fbcf6e25c8d5ddbcc5510ed6590
+    new: 60fecb90fc6a5c2e92aa10be591f4b1879f166e4
+    log: |
+         80c5227af3ba3a93b33e6e78c65d38a6f191ca91 dt-bindings: interconnect: qcom,msm8998-bwmon: Add SM6115 bwmon instance
+         3c88ec5434f9a68807e5a885c1e634041409facc Merge branch 'icc-sm6115' into icc-next
+         60fecb90fc6a5c2e92aa10be591f4b1879f166e4 Merge branch 'icc-fixes' into icc-next
+         
