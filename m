@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 13 Dec 2023 10:37:44 -0000
-Message-Id: <170246386495.20132.18385341306426021079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 13 Dec 2023 10:38:37 -0000
+Message-Id: <170246391744.20569.4230612438239057736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: 294aa16fab0ff3db6e15727a110c2689848c16d2
-    new: be59729281c63eb8f226bdbdc9a356276be5eeae
+  - ref: refs/heads/main
+    old: 83691d6fa7897e2a8858ff1b9c9a0e5092c8783e
+    new: e5bc1f4c6554b464005d52b940630bb4d276137a
     log: |
-         b2b0bf88d35513a746c144f35826eb47692386dc libsmartcols: drop spourious newline in between streamed JSON objects
-         36a853a9a71c46f088ab8f7416d68af112a59ce4 libsmartcols: flush correct stream
-         5130ce8ee5b71c249e0c8bb7a4975dc8a48c64fa libsmartcols: only recognize closed object as final element
-         be59729281c63eb8f226bdbdc9a356276be5eeae libsmartcols: (tests) add test for continuous json output
+         e5bc1f4c6554b464005d52b940630bb4d276137a net: stmmac: mmc: Support more counters for XGMAC Core
          
