@@ -1,56 +1,92 @@
-Content-Type: multipart/mixed; boundary="===============2961139810376787241=="
+Content-Type: multipart/mixed; boundary="===============0303335572429913766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 13 Dec 2023 17:20:15 -0000
-Message-Id: <170248801527.11246.143068952485544249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Wed, 13 Dec 2023 17:23:44 -0000
+Message-Id: <170248822478.6852.3176048991846787281@gitolite.kernel.org>
 
---===============2961139810376787241==
+--===============0303335572429913766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 785c396bda863b8bcfba0a71952cbcef3dfe84fd
-    new: 4519f5e1b7e7ff677a8b896d67f27c7a7e741f73
+  - ref: refs/heads/for-kernelci
+    old: aedef4a80fb0244702dfd9ef9b6cd5a4e2757836
+    new: d5b235ec8eab1ea9a3d1aa1ae4819c4a4dfaef31
+    log: revlist-aedef4a80fb0-d5b235ec8eab.txt
+  - ref: refs/heads/for-next/core
+    old: 75c078be8dcb56f33ac1b81281e332730c4324be
+    new: 34b0bd1a02c7052e541cebb546b8850b25f42bd4
+    log: revlist-75c078be8dcb-34b0bd1a02c7.txt
+  - ref: refs/heads/for-next/cpufeature
+    old: 7540f70df98f5c46feb5fe2257f93f543e5821e5
+    new: eb15d707c252c3fb56e3ea57a185976c67e5a07f
     log: |
-         4519f5e1b7e7ff677a8b896d67f27c7a7e741f73 Notes added by 'git notes add'
+         63a2d92e1461396cd83742cbaf20af240b7a94e9 arm64: Cleanup system cpucap handling
+         eb15d707c252c3fb56e3ea57a185976c67e5a07f arm64: Align boot cpucap handling with system cpucap handling
+         
+  - ref: refs/heads/for-next/mm
+    old: 75b5e0bf90bffaca4b1f19114065dc59f5cc161f
+    new: 7b1a09e44dc64f4f5930659b6d14a27183c00705
+    log: |
+         7b1a09e44dc64f4f5930659b6d14a27183c00705 arm64: irq: set the correct node for shadow call stack
+         
+  - ref: refs/heads/for-next/perf
+    old: bd690638e2c27dcea1d56376aa4bf3995d82ccfc
+    new: f56bb3de66bc7db90cd6df0a9866167e8a79317e
+    log: |
+         eb183b2cd0a6549992eca3c4ada0b1bc1d9340f5 Revert "perf/arm_dmc620: Remove duplicate format attribute #defines"
+         cae40614cdd61a6601dc87c6e07c06bf642a125b docs: perf: Add description for Synopsys DesignWare PCIe PMU driver
+         ad6534c626fedd818718d76c36d69c7d8e7b61cc PCI: Add Alibaba Vendor ID to linux/pci_ids.h
+         ac16087134b837d42b75bb1c741070b6c142f258 PCI: Move pci_clear_and_set_dword() helper to PCI header
+         af9597adc2f1e3609c67c9792a2469bb64e43ae9 drivers/perf: add DesignWare PCIe PMU driver
+         f56bb3de66bc7db90cd6df0a9866167e8a79317e MAINTAINERS: add maintainers for DesignWare PCIe PMU driver
          
 
---===============2961139810376787241==
+--===============0303335572429913766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-aedef4a80fb0-d5b235ec8eab.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702488013 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1702488009-13f0904d980f51cb8b28b42072e84e38ceadec2d
+1892fe103c3a20fced306c8dafa74f7f6d4ea0a3 perf/arm-cmn: Fail DTC counter allocation correctly
+3c0696076aad60a2f04c019761921954579e1b0e arm64: mm: Always make sw-dirty PTEs hw-dirty in pte_modify
+eb183b2cd0a6549992eca3c4ada0b1bc1d9340f5 Revert "perf/arm_dmc620: Remove duplicate format attribute #defines"
+7b1a09e44dc64f4f5930659b6d14a27183c00705 arm64: irq: set the correct node for shadow call stack
+cae40614cdd61a6601dc87c6e07c06bf642a125b docs: perf: Add description for Synopsys DesignWare PCIe PMU driver
+ad6534c626fedd818718d76c36d69c7d8e7b61cc PCI: Add Alibaba Vendor ID to linux/pci_ids.h
+ac16087134b837d42b75bb1c741070b6c142f258 PCI: Move pci_clear_and_set_dword() helper to PCI header
+af9597adc2f1e3609c67c9792a2469bb64e43ae9 drivers/perf: add DesignWare PCIe PMU driver
+f56bb3de66bc7db90cd6df0a9866167e8a79317e MAINTAINERS: add maintainers for DesignWare PCIe PMU driver
+63a2d92e1461396cd83742cbaf20af240b7a94e9 arm64: Cleanup system cpucap handling
+eb15d707c252c3fb56e3ea57a185976c67e5a07f arm64: Align boot cpucap handling with system cpucap handling
+92c9b393284bf19a27c328d9f9c69b4323e3a554 Merge branches 'for-next/cpufeature', 'for-next/early-idreg-overrides', 'for-next/fpsimd', 'for-next/kbuild', 'for-next/lpa2-prep', 'for-next/misc', 'for-next/mm', 'for-next/perf', 'for-next/rip-vpipt', 'for-next/selftests', 'for-next/stacktrace' and 'for-next/sysregs' into for-next/core
+34b0bd1a02c7052e541cebb546b8850b25f42bd4 Merge branch 'for-next/fixes' into for-next/core
+d5b235ec8eab1ea9a3d1aa1ae4819c4a4dfaef31 Merge branch 'for-next/core' into for-kernelci
 
-785c396bda863b8bcfba0a71952cbcef3dfe84fd 4519f5e1b7e7ff677a8b896d67f27c7a7e741f73 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
+--===============0303335572429913766==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-75c078be8dcb-34b0bd1a02c7.txt
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV5584bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TngQAMgmBjkZ/SYU+w54VvoM
-fAHhjH36jKU/q0XJnVAjFF5eunXdm3eJxHz5T+EMEQ1BXZhC7EsRI9gfsMONv5at
-DAUfxCbeM2RrqXB7ppboHBxd3ZdjD9Ryk+tKAfsH5LJGyOf0Wrsv7wNHuAZa1abR
-T2kNKy0v0raNGhOrvw1aOXkM+Cpt4lPq2LVWx5wOwQLguJsktCoN1porszofZXJB
-uHcdi7f7rYdmQlKBRUmUhRrYfbtpPh6+A8M+XYLhwROjN6y3FigovaG3oJcCkas7
-7QRlF+o+ndnHKh4ltg+jBtf6USlKwDuTNMEXIckLi7Q2kmVKPR9y6GYWiFX4FVUo
-pPC6/AS7Ai756v16wRL4O14SG1wbmziG0TgodmMORj3qKVoZBvogTB8Vz+xqSvLZ
-TL5mJHbISJRvs483ZEYIfj81ZnFyRoxWymaqfENLBGq2qmnflMYm6tipTIdqBs8G
-EAmPKO+1tmBE3rBSxxwQGYrgJYw7iL+nC8jTwGZVg9VeZMXPCjhqCUJVy2wU6npM
-ld0ML5Q0mFgx1xtGDvgxWLJokrjixX5vs2sxXi7CgcaYhTStZMQaY2d/Hxbzcz9d
-wX51+9FkmmhSWzskEY8dOh94bJWgByofKF91xoJUbao6bhaZ/SLgy/Ev3ykCwDFo
-68nJi/h2tik+SjgIfbKjlVqB
-=0gy/
------END PGP SIGNATURE-----
+1892fe103c3a20fced306c8dafa74f7f6d4ea0a3 perf/arm-cmn: Fail DTC counter allocation correctly
+3c0696076aad60a2f04c019761921954579e1b0e arm64: mm: Always make sw-dirty PTEs hw-dirty in pte_modify
+eb183b2cd0a6549992eca3c4ada0b1bc1d9340f5 Revert "perf/arm_dmc620: Remove duplicate format attribute #defines"
+7b1a09e44dc64f4f5930659b6d14a27183c00705 arm64: irq: set the correct node for shadow call stack
+cae40614cdd61a6601dc87c6e07c06bf642a125b docs: perf: Add description for Synopsys DesignWare PCIe PMU driver
+ad6534c626fedd818718d76c36d69c7d8e7b61cc PCI: Add Alibaba Vendor ID to linux/pci_ids.h
+ac16087134b837d42b75bb1c741070b6c142f258 PCI: Move pci_clear_and_set_dword() helper to PCI header
+af9597adc2f1e3609c67c9792a2469bb64e43ae9 drivers/perf: add DesignWare PCIe PMU driver
+f56bb3de66bc7db90cd6df0a9866167e8a79317e MAINTAINERS: add maintainers for DesignWare PCIe PMU driver
+63a2d92e1461396cd83742cbaf20af240b7a94e9 arm64: Cleanup system cpucap handling
+eb15d707c252c3fb56e3ea57a185976c67e5a07f arm64: Align boot cpucap handling with system cpucap handling
+92c9b393284bf19a27c328d9f9c69b4323e3a554 Merge branches 'for-next/cpufeature', 'for-next/early-idreg-overrides', 'for-next/fpsimd', 'for-next/kbuild', 'for-next/lpa2-prep', 'for-next/misc', 'for-next/mm', 'for-next/perf', 'for-next/rip-vpipt', 'for-next/selftests', 'for-next/stacktrace' and 'for-next/sysregs' into for-next/core
+34b0bd1a02c7052e541cebb546b8850b25f42bd4 Merge branch 'for-next/fixes' into for-next/core
 
---===============2961139810376787241==--
+--===============0303335572429913766==--
