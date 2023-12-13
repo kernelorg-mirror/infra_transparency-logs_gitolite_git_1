@@ -1,57 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============2236057216727648894=="
+Content-Type: multipart/mixed; boundary="===============4864928119180097902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Wed, 13 Dec 2023 07:50:08 -0000
-Message-Id: <170245380896.16310.17461555203416163010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
+Date: Wed, 13 Dec 2023 08:01:32 -0000
+Message-Id: <170245449209.23522.822002382046622178@gitolite.kernel.org>
 
---===============2236057216727648894==
+--===============4864928119180097902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/geoff/ps3-linux
+user: geoff
 changes:
-  - ref: refs/heads/for-next
-    old: 4a8be01a1a7a030ae7b6138602d2e060cf7a0946
-    new: 6cf96df77338c6a7e753229fe6d330ab60e28cda
-    log: |
-         884fdaa53b38921165cd9afdb230502b4e1690b0 pinctrl: samsung: support ExynosAuto GPIO structure
-         6cf96df77338c6a7e753229fe6d330ab60e28cda pinctrl: samsung: add exynosautov920 pinctrl
-         
+  - ref: refs/heads/ps3-queue-v6.5
+    old: c943df6bcaf3127fcb6bd5a99830556c63f8d279
+    new: 3279e6425465d21aee8c1fa75eb06d92d172967c
+    log: revlist-c943df6bcaf3-3279e6425465.txt
 
---===============2236057216727648894==
+--===============4864928119180097902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c943df6bcaf3-3279e6425465.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1702453807 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1702453806-6a826e001b6d2362f0c732e0ad33b46708732a52
+5505698cd4810c62ccf7dc5c976675579cea5331 powerpc/ps3_defconfig: Disable PPC64_BIG_ENDIAN_ELF_ABI_V2
+8b4b739a3079118f80987a1f6b8b5f3cb87af267 net/ps3_gelic_net: Add gelic_descr structures
+660f0ac22d608ab7f71200a632e0b855a385ab54 net/ps3_gelic_net: Use napi routines for RX SKB
+8bcbf1427f483d1381d569ac8a740f0ee236ec6c hvc_console: Allow backends to set I/O buffer size
+35440411f4fe8f16f1f78b42b98158ab6b51ec36 ps3-debugging: Enable CONFIG_IKCONFIG_PROC
+9dabc37f6aa82e8c6b4071227e829051f72f4f20 ps3-debugging: Setup DABR register
+beba606f25c8b5343487d5313bc8d21871ac3a78 local: Add ps3_nfs_defconfig
+8de8ad2dd47d527a0be0f996fd03731ef623341b local: ps3_nfs_defconfig: Cut down version
+36f2672a6664074ebba3df63931d2ac82aed1700 local: Refresh ps3_nfs_defconfig
+b40e880091aa07cd4a994785ed35c4f52b1713f4 local: ps3_nfs_defconfig: Disable PPC64_BIG_ENDIAN_ELF_ABI_V2
+5d0a62b750834c5aef564e267e1a52c2ddde727c local: Add ps3_petitboot_defconfig
+efe2fc7e746941916af1293a1e3531812450265d local: Add ps3_petitboot_nfs_defconfig
+c1fff36cb9627b252f3f1297af4c97a8e1808f63 local: ps3_petitboot_nfs_defconfig: ip=dhcp
+284a7463ff6e40a09a7028c35a180fb75d05e081 ps3_defconfig: Cut down version
+3279e6425465d21aee8c1fa75eb06d92d172967c powerpc/ps3: refactor strncpy usage
 
-4a8be01a1a7a030ae7b6138602d2e060cf7a0946 6cf96df77338c6a7e753229fe6d330ab60e28cda refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmV5Yi8QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD16BnD/wP1hoif2jBZg+lcwAkOnf8d590EQrt0XRx
-xZQKnb38IL6dK1XILfZMhs3pARwNZPu00pVUku/OaAYO6Qmq1jod1qrw3J9O1odQ
-XEuBPx4raucBtrIUDvLXCGj4gOdtpeF6FLZtvONjG1J5k9wHfEpCgC0QzWerQy0k
-teasMv6BtnX9oIZOKrg2ffUsf1F1Hr20PzrSS9+a2HDoJ+FuEHlnziCRk/fZp9mP
-w7wcBcMIaeYSzizd1nP1kXZ03pgwecm1PXybBsQfSnDdyBZJNWAJGI3OIbkYiImS
-1ZREksrZ8pE8WTAp+jrrzaZoAW4hDtPwwudmJWZbejcryN3+l38A3Omx5k6OpgrJ
-BeAxyW/P4W4qa6aFSOK7NDeZaCFpNpiqc1uq07unpYkf3k7Mc9ERv4uGtiNgIa8r
-WoAr+8oCHjR/LJZtPzcLPoE1xWQ8+Aiq4CmES43JhzTY8AKP7gWHTB4J16mCOWhW
-FLjO7PS46CglF1NFYly41YWlZr5KPD19oo5gYP0HgHiGbruKQkDbMtYgqTldyoMA
-eg69eibILzh0dUfFKcMFiJfdHSmlD3hr7N1wpU/9mLbS4p4bxC94nPyTdzUkdfHA
-44a5rurrfspg8LRApjl75+YE4SrvtLnPLhhMCE2nfe3scVp/jJj2x0kAKxILek0l
-LMMxvyCF9A==
-=u9Dr
------END PGP SIGNATURE-----
-
---===============2236057216727648894==--
+--===============4864928119180097902==--
