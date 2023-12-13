@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 13 Dec 2023 12:52:42 -0000
-Message-Id: <170247196278.20968.9618276555746925950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Wed, 13 Dec 2023 13:01:06 -0000
+Message-Id: <170247246615.27105.15417630692641700693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 0e1461b3d6d1281a22992dd5cfa4302044d6e1be
-    new: 3d626e0a7be7ddb635791fee18cb40631bc1d0b3
+  - ref: refs/heads/for-next
+    old: 6a8065619fc327e53ab3dd2993ca610d53eb2298
+    new: f3038f517d8e28d4dbf67286bc51291f8538b3b7
     log: |
-         7d28365a06af74cee015a448d32ab6e98cd05cfb x86/head_64: Use TESTB instead of TESTL in secondary_startup_64_no_verify()
-         3d626e0a7be7ddb635791fee18cb40631bc1d0b3 Merge x86/cleanups into tip/master
+         1a648f8b7994dca4c323911607cf28d1eb44c198 dt-bindings: soc: rockchip: add rk3588 vop/vo syscon
+         f3038f517d8e28d4dbf67286bc51291f8538b3b7 Merge branch 'v6.8-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v6.8-armsoc/dts64
+    old: 8174dff9e583f7791dacf6d8ce034eb18ec2b292
+    new: 1a648f8b7994dca4c323911607cf28d1eb44c198
+    log: |
+         1a648f8b7994dca4c323911607cf28d1eb44c198 dt-bindings: soc: rockchip: add rk3588 vop/vo syscon
          
