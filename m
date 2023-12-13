@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 13 Dec 2023 15:50:34 -0000
-Message-Id: <170248263497.23706.2186232007105790564@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3340772421209368996=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 13 Dec 2023 15:51:58 -0000
+Message-Id: <170248271806.24292.3672295736152325403@gitolite.kernel.org>
+
+--===============3340772421209368996==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: b6b5028473ceb3054f8a440f85e3d728a3fba1dc
-    new: 56b10953da7e9e92eb1a72860db656ac6a5699a1
+  - ref: refs/heads/master
+    old: 7135dd6ae0a667ec87f5900e27524a3d3acc0d42
+    new: 144b16cd616977cab72f73dddd5a3bd3d6f36601
     log: |
-         dd3c1b365fe92eefeae8bb0ac08e29b7ccdc3ca7 riscv: dts: starfive: Group tuples in interrupt properties
-         ba0074972ee9b3231b3de44650583654422e9758 riscv: dts: starfive: Mark the JH7100 as having non-coherent DMAs
-         d4b95c445cab0fb583eed7caafbc1b734f6a3a59 riscv: dts: starfive: Add JH7100 cache controller
-         0a99b562e81554c4397ba6331e9b00501c88b15c riscv: dts: starfive: Add pool for coherent DMA memory on JH7100 boards
-         a29bb6564e1229da3c84c9123286ae19530c2190 riscv: dts: starfive: Add JH7100 MMC nodes
-         c548409cfe03d2ed73a7ea25499ae8f3a8e69551 riscv: dts: starfive: Enable SD-card on JH7100 boards
-         56b10953da7e9e92eb1a72860db656ac6a5699a1 riscv: dts: starfive: Enable SDIO wifi on JH7100 boards
+         144b16cd616977cab72f73dddd5a3bd3d6f36601 Linux 4.14.333
          
+
+--===============3340772421209368996==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702482716 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1702482711-285c8f5e797a2bf7cfd936d65d33ffefe6687e28
+
+7135dd6ae0a667ec87f5900e27524a3d3acc0d42 144b16cd616977cab72f73dddd5a3bd3d6f36601 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV50xwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sj8P/iQnXMP1MYcnklSg+YOL
+57iCiUJGNRwoSDgtVBlwPwdXGea8fOmMyHaXqBmU1QmhTvIrDBzwaNbroWoO8w6f
+HgrBW5aCNY6GV7Z/gRJ0ZdBnYL4yfqAZgTWzG1jNLKi9aZFeQ7JZTl24kXaK94NM
+xRWgYtl2ZL1m1lM5LsggWmV9QMtWk00oFZpetFoU7WiLz5eoURpPvyKB/iv4OSHN
+x26Xc/OHGT5V3TwO3CJi8EVhV/oQIDUK52PCmYORkkNPFhLry8934GinFXR3uiHz
+jIhfSksglr2HsZwtqFqfArRVDG32NzQiKqbRyQGWkOaAr7sxSEo1wkSOp6XNq1cp
+Yg9dE2EFnLoOWuk+UfPrL+tKywvuutsn+G27OTHhabaNn/rfCDNIjvgHjpvqMF/B
+JtYv/Go4sNOPtoQkaBQK3QycFgrfoydy0GFaFYGByDbbNfFctHJ7X9BLVM075fQ8
+JtLIdfeJYT91Cd9laXyarj5CebVQMVoL+z7pgfyrqGBfWNZxnbncyQxhLE9J6edU
+noNEsWV07JW+QLfmirEb3ESXY2wCxXY9bx8Mlyxn3a4jCxuotn8VSAgeB4TpqDLq
+ZE+uUaLOIhNdWKVTeyWYE72p0h/AkiVcJzaqhI9RZe9fGQGpM51pxit49CEv0TKS
+gniZIWFa+isH/zVAyRN5ecI6
+=aQHw
+-----END PGP SIGNATURE-----
+
+--===============3340772421209368996==--
