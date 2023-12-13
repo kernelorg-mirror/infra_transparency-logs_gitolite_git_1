@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6606293222958562322=="
+Content-Type: multipart/mixed; boundary="===============4394534759414726068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 13 Dec 2023 23:56:35 -0000
-Message-Id: <170251179509.30222.8279171832457597895@gitolite.kernel.org>
+Date: Wed, 13 Dec 2023 23:56:40 -0000
+Message-Id: <170251180090.30340.9497170572465353244@gitolite.kernel.org>
 
---===============6606293222958562322==
+--===============4394534759414726068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: f04f2ce6018f3cb33ac96270b9153c2920ead190
     new: 733763285acfe8dffd6e39ad2ed3d1222b32a901
     log: revlist-f04f2ce6018f-733763285acf.txt
 
---===============6606293222958562322==
+--===============4394534759414726068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ ed54124b88056fd629c6af71664dfcd4d3b3e0b8 libbpf: support BPF token path setting 
 322122bf8c75b1df78d6608516807a0354f6ab3c selftests/bpf: add tests for LIBBPF_BPF_TOKEN_PATH envvar
 733763285acfe8dffd6e39ad2ed3d1222b32a901 Merge branch 'bpf-token-support-in-libbpf-s-bpf-object'
 
---===============6606293222958562322==--
+--===============4394534759414726068==--
