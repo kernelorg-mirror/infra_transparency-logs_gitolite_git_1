@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Thu, 14 Dec 2023 14:25:22 -0000
-Message-Id: <170256392266.28306.15035562272741081743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/btrfs-progs
+Date: Thu, 14 Dec 2023 14:27:52 -0000
+Message-Id: <170256407294.29251.8156181041907367083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/kdave/btrfs-progs
+user: kdave
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: c4a8e87f74a85d9b62f97a9931accfd1c331b78c
-    new: d2423d8a38e724b28007abd76db08ccb59f56015
+  - ref: refs/tags/v6.6.3
+    old: 0000000000000000000000000000000000000000
+    new: 189c03b12d55f02c3b04f31df1486dbda72c2851
