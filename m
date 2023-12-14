@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4622769774916081770=="
+Content-Type: multipart/mixed; boundary="===============1951922776900460438=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 14 Dec 2023 04:28:58 -0000
-Message-Id: <170252813835.7704.5864539006784031595@gitolite.kernel.org>
+Date: Thu, 14 Dec 2023 04:29:03 -0000
+Message-Id: <170252814326.7791.15838389693732676807@gitolite.kernel.org>
 
---===============4622769774916081770==
+--===============1951922776900460438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 18d252f55ea2f57c87841a2f63bc0fa86f748d90
-    new: 3b58d8ec57f0dfb054fad74c1a6fd5b05e720523
-    log: revlist-18d252f55ea2-3b58d8ec57f0.txt
+  - ref: refs/heads/6.8/scsi-queue
+    old: 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e
+    new: e78e59acfb6972aba9c3da86099760ca662054e7
+    log: revlist-6bae38ddd3a8-e78e59acfb69.txt
 
---===============4622769774916081770==
+--===============1951922776900460438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1702528127 -0500
+pusher 75C5DE3D 1702528141 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1702528126-af7e2c5eee7c06b42ea05f6dfc5517fcbb0f8c6e
+nonce 1702528141-9bc731dd973f3209b6298e34d905ae7bc3dbe382
 
-18d252f55ea2f57c87841a2f63bc0fa86f748d90 3b58d8ec57f0dfb054fad74c1a6fd5b05e720523 refs/tags/mkp-scsi-queue
+6bae38ddd3a8dffbc35d6c637f58c3710f65d54e e78e59acfb6972aba9c3da86099760ca662054e7 refs/heads/6.8/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmV6hH8ACgkQ7ulgGnXF
-3j1ksBAAiNf1+GhDgJYpVYfk6BeV7TcqD15hHOCMqvF4YquftoQc35x2IrEHm9lI
-+ZipJGToTGZZK+1wtbxHwHUSnSoUl7xYaTmY2JOx0UBbMtV3TFlnOCUCUeaxO/ap
-xDV3gAO4JjzwPjlPynln6pLC0FUvTKJeSA1OIMaEcYGyLbPZ6yapa0TEkbkRbRh8
-Mn7dBlK1I6rXU0TGrmBIiTMp/HS8+WSQIHJ70jABZIYd83Ax/jVZjz5rRqfV4Lbu
-KKcCgmoCZVAYwTPD2uZ8lOijIUvZNRh9Wtu/RPywquKc8dU0Mz2LeR2kLdOPPReo
-aY265ziD0rGfEz9rXXrbh64LOvKhUJ2qjQ4NDpqX94Nr6tdMpvdKkSSZ9z2jgv/C
-9mDsZcDdeVJAX04MWuy5bcwmOSE0Y9R1idwRK4bMwNYluW1h2MENIK5hcGGHmwMy
-+li2a7RPOZKFA/D8jm4igY2YvDMZfAmRqZihuMkALsGAdlMDPD7lPch3JWpmewUa
-8MoNcZYu6tZzxvDXzAuxsKPhaZqFcGBATGqZHEH0xiKAmahbE5fyPiFMleX2cnxr
-gOCLdb3Mnc5oLpU+hwImcTq+3kF7xlpAaSO94eoi4eo/HR4iKcXjEPKh6F/u1Lx4
-3i3Dj7IZ2xQdMlTxx+Db4eDOaGeWmISzTFXVRDD99TE3917PLrU=
-=ZyBl
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmV6hI0ACgkQ7ulgGnXF
+3j2ZZg/9FH0jb1YFMRsW9/p2ICjT2SHXEuSD+5dCQUD9OV1rfH3Mu04fytA/OhWm
+teXkEPbXUV5x0COGEER68MKWzkVsjwwyBWb07tYBtftC0mY4n7JdBWAj+qo6NhqF
+zy06h9xW7FJU0dldmMwwAzS6TNRXccTDHqPoepp0InDY3v+tiVFoTSu6vDXCiEc9
+ZmIbU6RPvutIKRdZsytXKRCC376ElR80KwIWcB1VKusYAhIPO/NCIGPeyQ78JSh4
+CKi80J/M4uz7VaWg+OUeC5Z6oobcMo3xYfeQqKPYRFXaB4C2NdBhp96UOUX5POiQ
+8+BKbiuu4Sm8OCfF8MAMS81pKURo1n6stcyXvYBbzyA22ze4vTfJLaCbjALxD+XB
+2l0wn9xLS84XW4zCXlk7x2vgJlYUw6jkie8RdgSPU8HlmS/VkVnWbXNVDkYnFQcx
+O11boWf5y1NLKgO4LKMRZVK+NFL/gZn7GjsHRZYkk6B+b5H1n/VgXdq2jLaR+nFh
+6Brn/JbcvrkuxJLMaeM963OYLC3wDl6p1ITNQ7qpepvI86aFdlEsxR82uXB1pAlV
+i7xBQXnqlOEwZgrxrggOrrjaotpUal4x8C09QUCMExBlPiPaxNwQ/xVoBMyKl57I
+bNpXshp/BRtfJTR1bQKguzLyO55JxjA5z+1l+WbJtoBVHlYz2fM=
+=OIuT
 -----END PGP SIGNATURE-----
 
---===============4622769774916081770==
+--===============1951922776900460438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18d252f55ea2-3b58d8ec57f0.txt
+Content-Disposition: attachment; filename=revlist-6bae38ddd3a8-e78e59acfb69.txt
 
 af85d689ae08860e4f9648f05e09f1de868091f4 scsi: ufs: dt-bindings: Add msi-parent for UFS MCQ
 f5f27a332a14f43463aa0075efa3a0c662c0f4a8 scsi: fnic: Return error if vmalloc() failed
@@ -96,4 +96,4 @@ e84bd0bb30689023410f3cd5090c8ed11937096f scsi: sun3x_esp: Convert to platform re
 6ff482eeebe57ee7becee66f7de4b864dcc4175d scsi: sun_esp: Convert to platform remove callback returning void
 e78e59acfb6972aba9c3da86099760ca662054e7 Merge patch series "scsi: Convert to platform remove callback returning" void
 
---===============4622769774916081770==--
+--===============1951922776900460438==--
