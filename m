@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7759923983585478423=="
+Content-Type: multipart/mixed; boundary="===============2198103378458757596=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 14 Dec 2023 16:08:18 -0000
-Message-Id: <170257009829.6612.18218479525881783658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 14 Dec 2023 16:08:24 -0000
+Message-Id: <170257010441.6718.16605961158328419857@gitolite.kernel.org>
 
---===============7759923983585478423==
+--===============2198103378458757596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/regulator-6.8
     old: a142ae76e1e11dc4c5f563ada2a1cfc53378e432
     new: cd48f7419ad1cece97f735e5234a133be1716480
     log: |
@@ -26,28 +26,28 @@ changes:
          cd48f7419ad1cece97f735e5234a133be1716480 Add pm8010 RPMH regulators for sm8550 boards
          
 
---===============7759923983585478423==
+--===============2198103378458757596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1702570096 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1702570096-cf144e6d4c1b04356e51b39804e1d0c41bf45469
+pusher C3F436CA30F5D8EB 1702570102 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1702570102-c0fca16718eef0000b4d3b1b497a278000ec7de8
 
-a142ae76e1e11dc4c5f563ada2a1cfc53378e432 cd48f7419ad1cece97f735e5234a133be1716480 refs/heads/for-6.8
+a142ae76e1e11dc4c5f563ada2a1cfc53378e432 cd48f7419ad1cece97f735e5234a133be1716480 refs/heads/regulator-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmV7KHAACgkQJNaLcl1U
-h9Brswf/Wkb6Yr6H6UwXi2RPzaScqUCMAXeKYVfYVcwLVEMv0vsn4dgch3Cvtr48
-7KwsQEQZf6mzDN02U0e4jfVdMPgd1u3/zmGROdh1tWlKwAP8eHOxcQAKSQEQyHl3
-je52cWaJMkuAvWWbf6f9Oi3T80Zu6a7eVC0p14xA3m+0zd5V1aFdnWflEl2vNF4F
-9BVEK2FeY8OZMX/TszMDXd5Et/cWTPqMd0NELPedvS7MN3cTKM4uc6USMKhdCQrv
-7LVCrbaYlmANHQUzPaedA4aWMUHGzoOxaQ/0Mw+eLNw3UqJ5A7w9PKK4pUmJuj0s
-6FUmJUfTo1kEdrUj+/vz0qVzydkfrw==
-=7fL3
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmV7KHYACgkQJNaLcl1U
+h9DqXQf/R98TVVxmoAMAadCyiBnBp4Ea89EpTCogO490V5SI5kdvg0fd85zu77P+
+vfa7ZvuOWBFsG6KBuMHgTddE9LnmgIBKRPqkaG2LF5stJzw8QFhZOHsPZNpCA2Rg
+RBaYBW1XIlrXCtNdZK3b+HKDt/xqxXctyZa07FfZyI8XvhranTYek9gXEBKbKUNw
+ro/b1nRLBdx5DHM6H4aoLu4+ACQGnyzM6vYv739CarLcL3rVBfJwwIx2PD85+G3e
+wJlAYYR1kZekNGnQxyJhRkiXUng60dOG+/8OZAkYCRGJOmMY6SpvNvK9OhOLF+Us
+aaXS4BOljmk7S2HaeqN/vPWSMOu2kQ==
+=ciJx
 -----END PGP SIGNATURE-----
 
---===============7759923983585478423==--
+--===============2198103378458757596==--
