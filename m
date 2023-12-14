@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 14 Dec 2023 22:49:44 -0000
-Message-Id: <170259418455.6065.1330156806842346659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 14 Dec 2023 22:55:06 -0000
+Message-Id: <170259450679.11136.12290451127374725257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: 1ac0897cdcf6149b1a6e13421f0860e928a739b2
-    new: 5b94f93fc9ab4ebbe40cd1dce278a5c41d4b5d0f
+  - ref: refs/heads/main
+    old: c52dc2526009abe1a685f190423f605c01ac1b86
+    new: 4d132b536f9e8436ca281d2c1f2d40a6e8ce419b
     log: |
-         8c36376256bdf9547d87f952d1e05a069694fa4f foo
-         8f8843ecbd84525cb8789aed143d8c3dc6429168 foo
-         5b94f93fc9ab4ebbe40cd1dce278a5c41d4b5d0f foo
+         3cbbf7872a3d0aa2c64bf6e42e777d2816ad3fe2 qcom: Add Audio firmware for SM8550 QRD
+         b80907ec3a811aff9afdeceb7410ad408f7e0de4 qcom: Add Audio firmware for SM8650 QRD
+         4d132b536f9e8436ca281d2c1f2d40a6e8ce419b Merge branch 'robot/pr-0-1702560138' into 'main'
          
