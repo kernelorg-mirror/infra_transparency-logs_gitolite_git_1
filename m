@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Thu, 14 Dec 2023 15:44:38 -0000
-Message-Id: <170256867828.21064.8458727300169698827@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Thu, 14 Dec 2023 15:45:57 -0000
+Message-Id: <170256875765.23230.16193031666344092007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-user: jejb
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/master
-    old: 555ab08363c6cdf706a8366c3aa01c628d5cfb09
-    new: 7ec73c40c36f8d75b416293da287a0603b89cf68
-    log: |
-         7ec73c40c36f8d75b416293da287a0603b89cf68 doc: add clarity around policyRef in TPM2_PolicyAuthorize
-         
+  - ref: refs/tags/at91-soc-6.8
+    old: 0000000000000000000000000000000000000000
+    new: 32bb687c2e73a7ca17287207f5b7eb348db1f18b
