@@ -1,52 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============8686657914097646833=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 14 Dec 2023 01:28:47 -0000
-Message-Id: <170251732714.7183.13833918181118646205@gitolite.kernel.org>
-
---===============8686657914097646833==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 14 Dec 2023 01:31:06 -0000
+Message-Id: <170251746612.9696.13625783028032716593@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: martin.lau
 changes:
-  - ref: refs/heads/controller/rcar
-    old: 0000000000000000000000000000000000000000
-    new: 05165bd80a16d277d197a234edfd9bbf69c0db4d
-
---===============8686657914097646833==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 3DE334E7 1702517324 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1702517324-bb99cfa798431f28e84407438e0cb41922e6153a
-
-0000000000000000000000000000000000000000 05165bd80a16d277d197a234edfd9bbf69c0db4d refs/heads/controller/rcar
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmV6WkwACgkQfGR2jT3j
-NOcV5g//cohPyTOdxgtesupHGbObK7xzXAFI4ev+0yu02QP35L8muHXBvZF8Uwmc
-q2Pk9SzkgXYQV1QxTEJYQoBqUUqkd0Hfi1RCOrDxrzsfJeO7gvAM+Sm4RrOvwW8f
-a16Yt52m7VWglHNH7TkCRQBRQEM9w8xNZox9+jMLTNBwYotJLClZ8IqIIImmzU7A
-lka8fvA4jK9vYth3/GuYWg26oioC4ccQe0qEKq47EeY45RdhwEyTJ5XPIyKEv1Le
-11efRSPL3w0ns4rHPSVcxVapnzNoNVkuUTcHACROON3l1N+JXLCiCi1inzrY7vcC
-WZwJRdpQIBUpSzqIlf5WLlbNQ3omXHZdlo3XVvptlmRyS6IYTU1CtLVg1t1vRG6P
-eRmadURIjs5WlD8oSL3nNSbxDjthibKaK1wmINUWFyWYK8Z2mZIgwpGmVsIikgTZ
-J3l3Uj0v/amy0/N8G41dcZkyjLOgVzvOCaLWIKDHV3YrxARtOFrDv015hP/Lj2c1
-ev/DrBk9fFOJx5XmmJtj/HdgtXPvo518gPgaFBgdchd+iRNUATnB04Msi2THHrSg
-xLFWI3ZpO0soFNiMI3w9MSyZsf+89S4BC49mJmC88jAzlP/cE2Z9zxGXtwqyteCx
-46JeCTrBne/pTjDEHch2vF9rgq7VwSvoebBBhxsgGFBcnYTxtnw=
-=C0vB
------END PGP SIGNATURE-----
-
---===============8686657914097646833==--
+  - ref: refs/heads/master
+    old: e307b5a845c5951dabafc48d00b6424ee64716c4
+    new: 2f2fee2bf74a7e31d06fc6cb7ba2bd4dd7753c99
+    log: |
+         8d6650646ce49e9a5b8c5c23eb94f74b1749f70f bpf: syzkaller found null ptr deref in unix_bpf proto add
+         50d96f05af6787a34b4eca2ee3fc1993289c4c24 bpf: sockmap, test for unconnected af_unix sock
+         2f2fee2bf74a7e31d06fc6cb7ba2bd4dd7753c99 Merge branch ' bpf fix for unconnect af_unix socket'
+         
