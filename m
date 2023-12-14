@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6145054782939405228=="
+Content-Type: multipart/mixed; boundary="===============1839718279945868977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 14 Dec 2023 00:27:41 -0000
-Message-Id: <170251366105.20525.9429312321272927085@gitolite.kernel.org>
+Date: Thu, 14 Dec 2023 00:27:47 -0000
+Message-Id: <170251366706.20663.7655273467291924140@gitolite.kernel.org>
 
---===============6145054782939405228==
+--===============1839718279945868977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 733763285acfe8dffd6e39ad2ed3d1222b32a901
     new: ec14325c7339bf1d40fc29bb8a0d2121cfe649aa
     log: revlist-733763285acf-ec14325c7339.txt
 
---===============6145054782939405228==
+--===============1839718279945868977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ a3850af4ea25dadc8b35edf132340907d523657e selftests/bpf: Add AF_INET packet gener
 4c6612f6100c2d85212865dbd1a5d8a7e391d3cb selftests/bpf: Check VLAN tag and proto in xdp_metadata
 ec14325c7339bf1d40fc29bb8a0d2121cfe649aa Merge branch 'xdp-metadata-via-kfuncs-for-ice-vlan-hint'
 
---===============6145054782939405228==--
+--===============1839718279945868977==--
