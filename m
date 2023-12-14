@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Thu, 14 Dec 2023 21:20:04 -0000
-Message-Id: <170258880432.8102.1456323992986551816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Thu, 14 Dec 2023 21:23:13 -0000
+Message-Id: <170258899309.9369.16644806494377678474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/master
-    old: 08a68c482a782006ff7e530a2b8fb7f019d460cd
-    new: 4e472f8806571ea5799bc898e44609697ba0e140
-    log: |
-         9e66b0606cad74cb98dc44cb91903432171585a9 engines/http: Fix memory leak
-         4e472f8806571ea5799bc898e44609697ba0e140 Merge branch 'master' of https://github.com/preichl/fio
-         
+  - ref: refs/tags/for-6.8/arm/dt
+    old: 03d1179639b1515dce087335c1fb5c962908683b
+    new: 0000000000000000000000000000000000000000
