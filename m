@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 14 Dec 2023 09:26:21 -0000
-Message-Id: <170254598105.9233.4195049123739359289@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 14 Dec 2023 09:34:30 -0000
+Message-Id: <170254647012.13741.12624729571100784067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: 2f252cc8b19d96085c691ba75ed0ca3f2ae3aa7d
-    new: 6df1d92b7a11c7f24a557431ab3451effc42a188
+  - ref: refs/heads/review-hans
+    old: 704af3a40747e395b67892127943e6ffd5e2b642
+    new: ed289b98c2aeb35f1d4198933315a9c5c30e961a
     log: |
-         cd094a05880cf1132762c5f9724c0945557c7638 exch: new command exchaging two files atomically
-         8380ce7289f9d36e924ec544ec8c266da6dea837 exch: cosmetic changes
-         b6252de2556367f16ef54b55b974233445fe0f0c build-sys: add --disable-exch
-         6df1d92b7a11c7f24a557431ab3451effc42a188 docs: move Copyright in boilerplate.c
+         2128f3cca5a2e7ab4d1ffb16c0e0431c3a0106a1 Documentation/driver-api: Add document about WBRF mechanism
+         58e82a62669da52e688f4a8b89922c1839bf1001 platform/x86/amd: Add support for AMD ACPI based Wifi band RFI mitigation feature
+         ed289b98c2aeb35f1d4198933315a9c5c30e961a Merge tag 'platform-drivers-x86-amd-wbrf-v6.8-1' into review-hans
          
