@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 14 Dec 2023 00:57:34 -0000
-Message-Id: <170251545445.11323.6266437738613735616@gitolite.kernel.org>
+Date: Thu, 14 Dec 2023 01:03:25 -0000
+Message-Id: <170251580591.19002.4469723118650988268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: ec14325c7339bf1d40fc29bb8a0d2121cfe649aa
-    new: b13cddf633562b9b2c34fd63471d377019704ebe
+  - ref: refs/heads/master
+    old: b13cddf633562b9b2c34fd63471d377019704ebe
+    new: 2a0c6b41eec90c2a138ea8b574836744783c67ff
     log: |
-         b13cddf633562b9b2c34fd63471d377019704ebe bpf: add small subset of SECURITY_PATH hooks to BPF sleepable_lsm_hooks list
+         2a0c6b41eec90c2a138ea8b574836744783c67ff bpf: Update the comments in maybe_wait_bpf_programs()
          
