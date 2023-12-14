@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2326325110435904986=="
+Content-Type: multipart/mixed; boundary="===============0268148766287442012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 14 Dec 2023 12:44:38 -0000
-Message-Id: <170255787812.18845.5809954214080820756@gitolite.kernel.org>
+Date: Thu, 14 Dec 2023 12:44:54 -0000
+Message-Id: <170255789430.19046.4281613107553580206@gitolite.kernel.org>
 
---===============2326325110435904986==
+--===============0268148766287442012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e
-    new: e78e59acfb6972aba9c3da86099760ca662054e7
-    log: revlist-6bae38ddd3a8-e78e59acfb69.txt
+  - ref: refs/heads/for-next
+    old: 45d0d7374dce8b2a04244725f7b90a2a397599e0
+    new: 6bdc5fb22b8ed9ecfc9000be19ff47c7f90fa4de
+    log: revlist-45d0d7374dce-6bdc5fb22b8e.txt
 
---===============2326325110435904986==
+--===============0268148766287442012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6bae38ddd3a8-e78e59acfb69.txt
+Content-Disposition: attachment; filename=revlist-45d0d7374dce-6bdc5fb22b8e.txt
 
 af85d689ae08860e4f9648f05e09f1de868091f4 scsi: ufs: dt-bindings: Add msi-parent for UFS MCQ
 f5f27a332a14f43463aa0075efa3a0c662c0f4a8 scsi: fnic: Return error if vmalloc() failed
@@ -65,5 +65,9 @@ e26eec9a4d25752404b35e7700f84834002ee75e scsi: qlogicpti: Convert to platform re
 e84bd0bb30689023410f3cd5090c8ed11937096f scsi: sun3x_esp: Convert to platform remove callback returning void
 6ff482eeebe57ee7becee66f7de4b864dcc4175d scsi: sun_esp: Convert to platform remove callback returning void
 e78e59acfb6972aba9c3da86099760ca662054e7 Merge patch series "scsi: Convert to platform remove callback returning" void
+c5becf57dd5659c687d41d623a69f42d63f59eb2 Revert "scsi: aacraid: Reply queue mapping to CPUs based on IRQ affinity"
+77a67255609606164e1042f3bf7452a568a700e4 scsi: ufs: core: Store min and max clk freq from OPP table
+79fb87f33f8d891339e1e7c08f3b0bb31a1e1327 Merge branch 'misc' into for-next
+6bdc5fb22b8ed9ecfc9000be19ff47c7f90fa4de Merge branch 'fixes' into for-next
 
---===============2326325110435904986==--
+--===============0268148766287442012==--
