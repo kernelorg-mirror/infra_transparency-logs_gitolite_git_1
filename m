@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Thu, 14 Dec 2023 14:59:34 -0000
-Message-Id: <170256597467.19550.13492982024202397447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Thu, 14 Dec 2023 15:00:04 -0000
+Message-Id: <170256600496.21461.9157364120100121753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: ba527e9a11b33cc7315171807add5b2f594b23ac
-    new: 73b5ab27ab2ee616f2709dc212c2b0007894a12e
+  - ref: refs/heads/master
+    old: f53eaac02ec46bdf7f87058f30667be80975caf6
+    new: 08a68c482a782006ff7e530a2b8fb7f019d460cd
     log: |
-         21b287146adf39304193e4c49198021e06a28ded drm/mediatek: Return error if MDP RDMA failed to enable the clock
-         8ac6935e5689a491f0bec78fec732722b3dad094 drm/mediatek: Remove the redundant driver data for DPI
-         73b5ab27ab2ee616f2709dc212c2b0007894a12e drm/mediatek: Fix underrun in VDO1 when switches off the layer
+         a8ce8eb3651b59205b647702be8c9237e9542401 doc: Reference geom(4) for FreeBSD users
+         08a68c482a782006ff7e530a2b8fb7f019d460cd Merge branch 'patch-3' of https://github.com/0mp/fio
          
