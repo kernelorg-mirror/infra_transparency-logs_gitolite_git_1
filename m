@@ -1,22 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Thu, 14 Dec 2023 15:46:40 -0000
-Message-Id: <170256880016.23625.11033323818921364728@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8102399250093349906=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 14 Dec 2023 16:01:41 -0000
+Message-Id: <170256970135.1225.2050767129815887290@gitolite.kernel.org>
+
+--===============8102399250093349906==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-user: jejb
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/next
-    old: 555ab08363c6cdf706a8366c3aa01c628d5cfb09
-    new: 76aec723ebf4d7238808479163535de84caca8cc
-    log: |
-         7ec73c40c36f8d75b416293da287a0603b89cf68 doc: add clarity around policyRef in TPM2_PolicyAuthorize
-         f5f7a3dde4bdb9b781d9f9026d36817385f1b5e4 TSS: add locality policy
-         8cbc00ce2535dcb864f6ccf7c07f3fc1b6f39f27 Add locality policy
-         76aec723ebf4d7238808479163535de84caca8cc tests: Add testing for the new locality flag
-         
+  - ref: refs/tags/platform-drivers-x86-v6.7-4
+    old: 0000000000000000000000000000000000000000
+    new: 09121f4b7c3e5d435c171ee13df6376105244034
+
+--===============8102399250093349906==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1702569698 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1702569697-1c12e713f9588275e29ab1a25134c51f7bfec5f9
+
+0000000000000000000000000000000000000000 09121f4b7c3e5d435c171ee13df6376105244034 refs/tags/platform-drivers-x86-v6.7-4
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZXsm4gAKCRBZrE9hU+XO
+MWm2AQDz/uV756GrUNd+gClfXhNnI9b6nilrqF5NjGBUfNBbSQEAzPG5KavkQFLJ
+Ltr4ZWBcrjq/56IUwZCQQgm/mrtZTQo=
+=dGto
+-----END PGP SIGNATURE-----
+
+--===============8102399250093349906==--
