@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7671933125133190972=="
+Content-Type: multipart/mixed; boundary="===============5211067894082879141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 14 Dec 2023 04:29:08 -0000
-Message-Id: <170252814836.7889.8120277968903767384@gitolite.kernel.org>
+Date: Thu, 14 Dec 2023 04:29:25 -0000
+Message-Id: <170252816587.8063.3778663569553454548@gitolite.kernel.org>
 
---===============7671933125133190972==
+--===============5211067894082879141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,84 +16,104 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 6bae38ddd3a8dffbc35d6c637f58c3710f65d54e
-    new: e78e59acfb6972aba9c3da86099760ca662054e7
-    log: revlist-6bae38ddd3a8-e78e59acfb69.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 03e7330f1510457a9c7c100d295ed8a255b59e8b
+    new: d3602e0758e9362fd865e85d12ea6b36030e45cf
+    log: revlist-03e7330f1510-d3602e0758e9.txt
 
---===============7671933125133190972==
+--===============5211067894082879141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1702528147 -0500
+pusher 75C5DE3D 1702528152 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1702528146-7baef63135e2a669255360fae9a54b950bfad609
+nonce 1702528152-829afffabb62db4abeccac1ad9f3578b4e0f35f0
 
-6bae38ddd3a8dffbc35d6c637f58c3710f65d54e e78e59acfb6972aba9c3da86099760ca662054e7 refs/heads/queue
+03e7330f1510457a9c7c100d295ed8a255b59e8b d3602e0758e9362fd865e85d12ea6b36030e45cf refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmV6hJMACgkQ7ulgGnXF
-3j3Kwg/+LPhjPu0W7BFj4duadOszsTMosNSlsEJC7hl+oFYK0QrVF8olV+pF2MHq
-rCMVWKr9GkQ9ipa8lBc/nLkFjhmo+dg5iTpbQ/NEtHCjdpsbXbI2chn2n8O+dopF
-CgV2KAqzumEaMJCwllxbLnHnuFVLJy9lLo6AwMbnFQsZXl3MksBIK7WZh7eLwnWB
-2pRY9zOToeDktFNQyF4g1cf8JOsHXiTSIOHFBgVHCoHMAgjC+Zezx3nU/uUd9odG
-WF7vBvkUKPVgeJaGjOvlENhzMo5j27VNl1bOm9f2rGlnjICSwAgJUPqwUSDD2h6E
-tegUCc/DSnAMH+NuQ8SRGIL22dmluZxFETfdmjdwujd1NQs3h3csJjv1/Pn5k5pW
-l3PSq1q1iVIQFTbWrBEVdV4BcvhGBGUADVqC/biSPU62Znzo9ODXwMuIWweTt0iA
-eXxy8VZA8Xm2pcVW9saot4PUl29hc0Om7URFKgawqHm7epC8kG5p564i96OzuERw
-LHG7QjM5Y1PeDOWyAwoSTrZs4XsTBcmq36YQcLMjclswYfkTVOX40wD1tUq0oMRm
-V/zCmE/mqSmDFLzv5q5JOcdt2b7Fic3GtlxwShd3+aOh6yFT9x8KkgfW0h0ym/0Q
-BUSa8n5AgW+O7i+/i+jlk7ntUmY8gIDeX7e/K14NJiywECU97JI=
-=/5d/
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmV6hJgACgkQ7ulgGnXF
+3j2qEg//a8weEO4m+X7/Yy2SXtbdA8lEagXbgTdg0V8Fw5e0idVWf8OCn6BtVNBK
+JqPpNT87/JgKml0I0if9goXyDJu5d9AQ9CAiEq4E1PhhfeIffKBQ/uD86tUIogqU
+mgT0mCYjtWiWaK03NzEchxrMX7d5VZRtgqTg/kYNowdi8CRI2Ay4C4rDm2G44Jeh
+uehXd8gdlyeh2C9fIq1xvu1duAEJ2oBueOgeb+EiDLfIj3E3XxrWKAI9P6ZbUM2V
+iYjJgvUc9kX0xBQHY8AOed2NUZ1SsZ5wdW0z9PQyAaHL8ClaF0y4+Q4XBcdhCvLQ
+s/X88KHxSUsmMFsgGJicqoXzAb5uFw8eFcnHejhXINJuwieDSczWLTqAT4zKlMzm
+4DNo3CJqsJsQNGbljuzbs2zB0APk/NawxPktq0eNYfyLT2IWFxmNgZ9uf81YeZuw
+jJ5LJqDg3ngL49YTet0XYBbtyzceyrRKV86D/ChG+VeLhT3uNbxuNodUniUXohr5
+tV8fjsW3r+cq67gGFImhB8nxOR1HinpU8NxAHxI4mVZZfgDUnNf7TL87nI3INAQA
+ekglF5s1cKLuABNp8zbEBB7dni7HCKrRx9ti+YHj0D4oRiTX+4i+BAa0OHjDIXb3
+bbkFxiZGVZmaEwl9crDOt/7ipLCX23EAm43bijtgJTnYKZUy0Nc=
+=MpXY
 -----END PGP SIGNATURE-----
 
---===============7671933125133190972==
+--===============5211067894082879141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6bae38ddd3a8-e78e59acfb69.txt
+Content-Disposition: attachment; filename=revlist-03e7330f1510-d3602e0758e9.txt
 
-af85d689ae08860e4f9648f05e09f1de868091f4 scsi: ufs: dt-bindings: Add msi-parent for UFS MCQ
-f5f27a332a14f43463aa0075efa3a0c662c0f4a8 scsi: fnic: Return error if vmalloc() failed
-28c58f8a0947f70ddee275b90fe45431146bb2cc scsi: target: Enable READ CAPACITY for PR EARO
-0d224b1088afef95f7069b7ca907cb199a5802ff scsi: zfcp: Replace strlcpy() with strscpy()
-a9baa16b4fc11d07953b65298b05d5ee707f093a scsi: ibmvfc: Replace deprecated strncpy() with strscpy()
-712b3f43ba0e5f86db69cf601ffb06085c606642 scsi: ibmvscsi: Replace deprecated strncpy() with strscpy()
-84e46978b91f387d5d153f7f76ddc87471f4a52c scsi: ipr: Remove obsolete check for old CPUs
-25cba909ade2a24f7356dc547dc417042bcef722 scsi: isci: Remove redundant check in isci_task_request_build()
-573eb4a3410a9d4e0612cca50e2c67a46c3824f0 scsi: aic7xxx: Return negative error codes in ahc_linux_register_host()
-70dfaf84ec777c0590316a8785df22ca5e97bf10 scsi: aic7xxx: Return ahc_linux_register_host()'s value rather than zero
-aef6ac123609c4365f0270ec689ef215d13c3061 scsi: aic7xxx: Return negative error codes in aic7770_probe()
-b57c4db5d23b9df0118a25e2441c9288edd73710 scsi: libfc: Don't schedule abort twice
-53122a49f49796beb2c4a1bb702303b66347e29f scsi: libfc: Fix up timeout error in fc_fcp_rec_error()
-be40572c22cc734f5836b4faec8a60340dc7ab67 scsi: libfc: Map FC_TIMED_OUT to DID_TIME_OUT
-f200dad9f34d21a168d5e1286db2f96bfef5644d Merge patch series "libfc: fixup command abort handling"
-e5aab848dfdf7996d20ece4d28d2733c732c5e5a scsi: mpi3mr: Refresh sdev queue depth after controller reset
-c01d515687e358b22aa8414d6dac60d7defa6eb9 scsi: mpi3mr: Clean up block devices post controller reset
-f8fb3f39148e8010479e4b2003ba4728818ec661 scsi: mpi3mr: Block PEL Enable Command on Controller Reset and Unrecoverable State
-07ac6adda4d3daa9410d716e96ffaa3192b6ac04 scsi: mpi3mr: Fetch correct device dev handle for status reply descriptor
-c432e167523939e64ff882c86cdbf28e279a56ab scsi: mpi3mr: Support for preallocation of SGL BSG data buffers part-1
-fb231d7deffb41fd445929a3b79815277b883fec scsi: mpi3mr: Support for preallocation of SGL BSG data buffers part-2
-9536af615dc9ded0357341e8bd0efc8b34b2b484 scsi: mpi3mr: Support for preallocation of SGL BSG data buffers part-3
-d0a60e3edaa4a12e52fe8ea1d8b125f0405934cf scsi: mpi3mr: Update driver version to 8.5.1.0.0
-e84d34372eb6c7d33d1f39267c2f91102654959c Merge branch '6.8/s/mpi3mr2' into 6.8/scsi-staging
-5854cdd04163ea7aa454b619708f710cef9e04e8 scsi: a3000: Convert to platform remove callback returning void
-688bbe398ca63bace6b8fb40b9dbc605c5add034 scsi: a4000t: Convert to platform remove callback returning void
-3becb4cdf1c1250b880d04f00506f185b614c5af scsi: atari: Convert to platform remove callback returning void
-51a41ec6d36e586e978785709d33b22cc8ee455c scsi: bvme6000: Convert to platform remove callback returning void
-c71ef3d1fb39ee4503b5d3f5e358c6588c071520 scsi: jazz_esp: Convert to platform remove callback returning void
-0b649224f712cdfb90c8e9c22929dcb55868fc8f scsi: mac_esp: Convert to platform remove callback returning void
-69b43bf38b11cf361a1372281aa0ffe0c5cb2d32 scsi: mac: Convert to platform remove callback returning void
-f0baf76a22049d55a4901c1a933e479c638af94c scsi: mvme16x: Convert to platform remove callback returning void
-e26eec9a4d25752404b35e7700f84834002ee75e scsi: qlogicpti: Convert to platform remove callback returning void
-358987af1bda5c0b6a9aacc0644a108e711266b6 scsi: sgiwd93: Convert to platform remove callback returning void
-357a7fd2434e857bc3911cfbb02285f8b25e8d24 scsi: sni_53c710: Convert to platform remove callback returning void
-15b016b2d023e4ba3603daa21aa346033c486930 scsi: sun3: Convert to platform remove callback returning void
-e84bd0bb30689023410f3cd5090c8ed11937096f scsi: sun3x_esp: Convert to platform remove callback returning void
-6ff482eeebe57ee7becee66f7de4b864dcc4175d scsi: sun_esp: Convert to platform remove callback returning void
-e78e59acfb6972aba9c3da86099760ca662054e7 Merge patch series "scsi: Convert to platform remove callback returning" void
+fc1fbd13a20596564f407a96ac511bf0db808a0e scsi: mpi3mr: Fix printk() format strings
+2cda90e6f6493622bb68e0dd073c5b5746a480cb scsi: fnic: Modify definitions to sync with VIC firmware
+ca008aeeb02cb15eba4acc6c82e3432a1757b642 scsi: fnic: Add and use fnic number
+3df9dd0d51c2e4b0c4a400f8ce94308a2d93ef61 scsi: fnic: Add and improve log messages
+86b86a7d2fdaf989af1aca2a8e7e2380fb4388ad scsi: fnic: Rename wq_copy to hw_copy_wq
+8c2a6f815a18f261a03b387cd4236886aad68d7f scsi: fnic: Get copy workqueue count and interrupt mode from config
+554a1482602099efc9a3d0921a0e8f6123dc09cd scsi: fnic: Refactor and redefine fnic.h for multiqueue
+8a8449ca5e33b96515ea5c46de217e697d249cf9 scsi: fnic: Modify ISRs to support multiqueue (MQ)
+b559b827716cadba8b87620ab15e39fe22160cf2 scsi: fnic: Define stats to track multiqueue (MQ) IOs
+848d010ab934f1b4326a516396873ddae41db056 scsi: fnic: Remove usage of host_lock
+52f6e196e52ef834f928aac297d895f4c32276ea scsi: fnic: Add support for multiqueue (MQ) in fnic_main.c
+c81df08cd2944f89921033e5f1744ae2960f4e69 scsi: fnic: Add support for multiqueue (MQ) in fnic driver
+55cf715244a7dfda42191445d97628e837158091 scsi: fnic: Improve logs and add support for multiqueue (MQ)
+53021c192cc55074eee744cb41dcdfb9318d1f80 scsi: fnic: Increment driver version
+a6478b26c88a68fb43e7fc3d6ef603b47832e3d7 Merge patch series "Introduce support for multiqueue (MQ) in fnic"
+0653d40935f7cc125bfab34fd702559c61ce7560 scsi: lpfc: Change VMID driver load time parameters to read only
+8dc8eb89f4df74593ba4bf30c3d31a0fc6d3ea47 scsi: lpfc: Reinitialize an NPIV's VMID data structures after FDISC
+aba0fb0ef607a71511d23a07406f11130c1a54c5 scsi: lpfc: Move determination of vmid_flag after VMID reinitialization completes
+819952d58478b121bab52c1bf6ec21e46e752191 scsi: lpfc: Update lpfc version to 14.2.0.17
+33c3e71066b8cab41d51c503f032bb540ed5e1ca Merge patch series "lpfc: Update lpfc to revision 14.2.0.17"
+edc22a7c86888d1f2442e359c3b33a861045e9cd scsi: fcoe: Use sysfs_match_string() over fcoe_parse_mode()
+fa3dca8251c4fff88da9f64ba931942638ab0c00 scsi: ufs: host: Rename structure ufs_dev_params to ufs_host_params
+dc604b4c9d6007c0a03ad90296e849bc38c0d2cc scsi: ufs: ufs-qcom: No need to set hs_rate after ufshcd_init_host_param()
+55820a7f2cb9b9a4b603cc22dcf0ca5331f86d25 scsi: ufs: ufs-qcom: Setup host power mode during init
+743e1f596cccd371e7467fe585a1836773fbd922 scsi: ufs: ufs-qcom: Allow the first init start with the maximum supported gear
+9d8528a833fc0b4f47f7e43481c037390dd9ed71 scsi: ufs: ufs-qcom: Limit HS-G5 Rate-A to hosts with HW version 5
+0bd3cb895d195cdd44da9186bb5b3e0333f1d381 scsi: ufs: ufs-qcom: Set initial PHY gear to max HS gear for HW ver 4 and newer
+a68abdadfe13fa95a306363fa284b5cf0b79776d scsi: ufs: ufs-qcom: Check return value of phy_set_mode_ext()
+dc7c948d74e12ed9f40328696b301860243a1ae8 scsi: ufs: ufs-qcom: Add support for UFS device version detection
+90b74d5df60024c79ab64ac4bf306b92a40f0194 Merge patch series "Enable HS-G5 support on SM8550"
+98bfeda319691c2f337b83774c067f5708b802f5 scsi: ufs: qcom: dt-bindings: Add SC7280 compatible string
+9caef8568831c3e4bff77036d1515c7abb79eb92 scsi: ufs: qcom: Use clk_bulk APIs for managing lane clocks
+3bf7ab4ac30c03beecf57c052e87d5a38fb8aed6 scsi: ufs: qcom: Fix the return value of ufs_qcom_ice_program_key()
+3a747c5cf9b6c36649783b28d2ef8f9c92b16a0f scsi: ufs: qcom: Fix the return value when platform_get_resource_byname() fails
+1f165c87ec3ec9bd87860f2adef3f1333106f082 scsi: ufs: qcom: Remove superfluous variable assignments
+d42d368647dac42e8e91c10daf3f8261d7996380 scsi: ufs: qcom: Remove the warning message when core_reset is not available
+0ae7a02726bca95ee9d17de0ccfcd1de0ff4e429 scsi: ufs: qcom: Export ufshcd_{enable/disable}_irq helpers and make use of them
+d11954711499f02fb57d1f6a7022f13b5380c046 scsi: ufs: qcom: Fail ufs_qcom_power_up_sequence() when core_reset fails
+e430c0e08957d111b068d5c0a3f4ddd1b8d790cb scsi: ufs: qcom: Check the return value of ufs_qcom_power_up_sequence()
+8291652ed8a20b7c19a6fce0ad04cccbd629a620 scsi: ufs: qcom: Remove redundant error print for devm_kzalloc() failure
+c7afadacc180ae655aa98577aca8fb5fdfb4a761 scsi: ufs: qcom: Use dev_err_probe() to simplify error handling of devm_gpiod_get_optional()
+e7458beab8094bc9b0e1feecaa2c7bef1718aa2f scsi: ufs: qcom: Remove unused ufs_qcom_hosts struct array
+be2e06c81a31cf4cf388d80af5ebc9bdc7a8430e scsi: ufs: qcom: Sort includes alphabetically
+3b60f4564ff5b0e33d0d256b17594e223f0bcac8 scsi: ufs: qcom: Initialize cycles_in_1us variable in ufs_qcom_set_core_clk_ctrl()
+6b481af25ec0edaff8d7b39b2fa17e2f645afc8d scsi: ufs: qcom: Simplify ufs_qcom_{assert/deassert}_reset
+104cd58d9af80f03993607ac86bcd88c10cfba3d scsi: ufs: qcom: Remove support for host controllers older than v2.0
+0e9f4375db1ce3fa231d8c7b27dbec9341a2e3ef scsi: ufs: qcom: Use ufshcd_rmwl() where applicable
+cac50d04fffe2ac546a406ea8f5759e0741b2c16 scsi: ufs: qcom: Remove unused definitions
+ae6fd54e605761259d13b4abbee5557f096b0413 Merge patch series "scsi: ufs: qcom: Code cleanups"
+9fa268875ca4ff5cad0c1b957388a0aef39920c3 scsi: ufs: core: Add ufshcd_is_ufs_dev_busy()
+6bf999e0eb41850d5c857102535d5c53b2ede224 scsi: ufs: core: Add UFS RTC support
+838f595a567257e3ac0ac33cdb6bb644ca326cc1 scsi: ufs: core: Add sysfs node for UFS RTC update
+6df14a32e935bf40f4e4916ff38202c111c79862 Merge patch series "Add UFS RTC support"
+ce26497c745d0541aec930d5211b431a1c26af97 scsi: hisi_sas: Set .phy_attached before notifing phyup event HISI_PHYE_PHY_UP_PM
+d34ee535705eb43885bc0f561c63046f697355ad scsi: hisi_sas: Replace with standard error code return value
+8dd10296be8562a45c6c6794dd492a2b7dccede8 scsi: hisi_sas: Check before using pointer variables
+7ea3e7763c50b20a8bd25cf524ea0c6463de69be scsi: hisi_sas: Rollback some operations if FLR failed
+73e33f969ef05328766b23a99b2c07bfff765009 scsi: hisi_sas: Correct the number of global debugfs registers
+ed340d13aa1db6773667ed4bf907738df203fbda Merge patch series "scsi: hisi_sas: Minor fixes and cleanups"
 
---===============7671933125133190972==--
+--===============5211067894082879141==--
