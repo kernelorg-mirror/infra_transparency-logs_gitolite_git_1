@@ -1,53 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5565314141763670390=="
+Content-Type: multipart/mixed; boundary="===============6145054782939405228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 14 Dec 2023 00:26:37 -0000
-Message-Id: <170251359705.20014.17301945641103943561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 14 Dec 2023 00:27:41 -0000
+Message-Id: <170251366105.20525.9429312321272927085@gitolite.kernel.org>
 
---===============5565314141763670390==
+--===============6145054782939405228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 75786a66b2d61192dacf9ef56eab006f8e255ad9
-    new: 09a8b70c495fcaa1430071e1403c73a19b7c3a4f
-    log: revlist-75786a66b2d6-09a8b70c495f.txt
+    old: 733763285acfe8dffd6e39ad2ed3d1222b32a901
+    new: ec14325c7339bf1d40fc29bb8a0d2121cfe649aa
+    log: revlist-733763285acf-ec14325c7339.txt
 
---===============5565314141763670390==
+--===============6145054782939405228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75786a66b2d6-09a8b70c495f.txt
+Content-Disposition: attachment; filename=revlist-733763285acf-ec14325c7339.txt
 
-142b56542746bdead943fc4985c9c357758f1bf5 Merge branch into tip/master: 'core/merge'
-de8760b2cb78604ca007d029054b5bc12aaffc5b Merge branch into tip/master: 'x86/merge'
-b355cd49297dc6da238f786b781156c5983b0e1c Merge branch into tip/master: 'core/debugobjects'
-2e4190635e204a8b9da44eaa836f6b4e6ade306a Merge branch into tip/master: 'locking/core'
-97f4186b183637150f1a7f413454ac2aff730d63 Merge branch into tip/master: 'objtool/core'
-85cd962d0cb1dad19ac8dccad75774115f9dfdcf Merge branch into tip/master: 'perf/core'
-f09e62b3f8a9643a213dc1469d2390c6f367d51f Merge branch into tip/master: 'sched/core'
-f16c6014f07a7f3b45451e888f0979a281dd88fb Merge branch into tip/master: 'smp/core'
-bf21e826b97bd14d4519535906846b43e52c3b18 Merge branch into tip/master: 'timers/core'
-1252558633afc3b486569f4dac507e5d68cde87a Merge branch into tip/master: 'x86/apic'
-320f6d346be345ee8fe084886ed8c16896a88337 Merge branch into tip/master: 'x86/boot'
-487d65c7a25e49dce65d0a453f49fd87640c7220 Merge branch into tip/master: 'x86/build'
-67b343773b1d676bd18758ef976f54b10daa26e7 Merge branch into tip/master: 'x86/cleanups'
-2f7d6736e6b38c7e656f9fd2b942f849e5fcbdd5 Merge branch into tip/master: 'x86/core'
-290ec83c1c534765231ef2eda004975b2a33130a Merge branch into tip/master: 'x86/cpu'
-efc410a1b0c50333c1296010f7350190971d62f5 Merge branch into tip/master: 'x86/entry'
-38bdfa57d45bdb1692ac95bd767b0497debddf11 Merge branch into tip/master: 'x86/microcode'
-1118f8667d0ed43c43936ce5bae0a26a53329be9 Merge branch into tip/master: 'x86/misc'
-6feabb5a64ac32e1abe5adc8e700a8757f44645c Merge branch into tip/master: 'x86/mm'
-d9721847d7fe8e8a9eaa754560d27dd856867f45 Merge branch into tip/master: 'x86/paravirt'
-2ef1f9b70f5928c9861b4acfcebe6679f4bdc768 Merge branch into tip/master: 'x86/percpu'
-964f5fdd3bfe94cab5012edbeeed888912e72e6a Merge branch into tip/master: 'x86/sev'
-09a8b70c495fcaa1430071e1403c73a19b7c3a4f Merge branch into tip/master: 'x86/sgx'
+9244384e811ecff6b05290ccf82a2540feaa7214 ice: make RX hash reading code more reusable
+3310aad20defb96eaf363ab2643e876a6275c72b ice: make RX HW timestamp reading code more reusable
+6b62a42149032db305dfd687d7118aa870b4a2f9 ice: Make ptype internal to descriptor info processing
+d951c14ad237b087f0d1377c44932fcc0b322c40 ice: Introduce ice_xdp_buff
+9031d5f491b95710a1cf871818c7c9730ec50a1b ice: Support HW timestamp hint
+0e6a7b09597011985d7aad3b747c43e9b2a43555 ice: Support RX hash XDP hint
+b4e352ff1169ebce930c734630f9587b1677d163 xsk: add functions to fill control buffer
+d68d707dcbbf6a9cfe378fc2eb3ffffd5b47727e ice: Support XDP hints in AF_XDP ZC mode
+e6795330f88b4f643c649a02662d47b779340535 xdp: Add VLAN tag hint
+714ed949c6f3ebdff562bd9eb7247abf6a79a416 ice: Implement VLAN tag hint
+b591137c4ec35ed3f8478f5bb69a22ef4834f04a ice: use VLAN proto from ring packet context in skb path
+fca783799f64ac0a4f20228ff6a6d7598db11e64 veth: Implement VLAN tag XDP hint
+537fec0733c4a72e2a2b69fee365459c5b75d92e net: make vlan_get_tag() return -ENODATA instead of -EINVAL
+7978bad4b6b9265a1e808a5f679ee428d1dd6523 mlx5: implement VLAN tag XDP hint
+e71a9fa7fdb2effcaaed37c207ec4f634c8f4901 selftests/bpf: Allow VLAN packets in xdp_hw_metadata
+8e68a4beba943bdffb342c601c649223f44b7329 selftests/bpf: Add flags and VLAN hint to xdp_hw_metadata
+a3850af4ea25dadc8b35edf132340907d523657e selftests/bpf: Add AF_INET packet generation to xdp_metadata
+4c6612f6100c2d85212865dbd1a5d8a7e391d3cb selftests/bpf: Check VLAN tag and proto in xdp_metadata
+ec14325c7339bf1d40fc29bb8a0d2121cfe649aa Merge branch 'xdp-metadata-via-kfuncs-for-ice-vlan-hint'
 
---===============5565314141763670390==--
+--===============6145054782939405228==--
