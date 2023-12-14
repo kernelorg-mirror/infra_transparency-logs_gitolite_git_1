@@ -1,60 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============5374120846938794043=="
+Content-Type: multipart/mixed; boundary="===============5385701625639575174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 14 Dec 2023 16:28:35 -0000
-Message-Id: <170257131514.20895.10900591306294188952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joro/iommu
+Date: Thu, 14 Dec 2023 17:15:04 -0000
+Message-Id: <170257410403.24169.5253438589578543679@gitolite.kernel.org>
 
---===============5374120846938794043==
+--===============5385701625639575174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/joro/iommu
+user: joro
 changes:
-  - ref: refs/heads/main
-    old: 604ca8ee7bdc62488af1da1231026d3b71f17725
-    new: 1b666016d0ad4a879dcd3d9188635ad68c4b16ce
-    log: revlist-604ca8ee7bdc-1b666016d0ad.txt
+  - ref: refs/heads/arm/smmu
+    old: 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab
+    new: 3453c2b1d17784722b4b965b63a0b4a5a985006f
+    log: revlist-2cc14f52aeb7-3453c2b1d177.txt
+  - ref: refs/heads/next
+    old: ef17ca0186ada56c040adcbe39b4e5a7771bd17a
+    new: f103d54eec1351b06131a8ab64a3b931d05806bc
+    log: revlist-ef17ca0186ad-f103d54eec13.txt
 
---===============5374120846938794043==
+--===============5385701625639575174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-604ca8ee7bdc-1b666016d0ad.txt
+Content-Disposition: attachment; filename=revlist-2cc14f52aeb7-3453c2b1d177.txt
 
-4f6011678d3828e31a6371b3f05605e0dc1659bb igb: Use FIELD_GET() to extract Link Width
-4c39e76846b2500910b5378b1e868e6c4d5e6df8 e1000e: Use PCI_EXP_LNKSTA_NLW & FIELD_GET() instead of custom defines/code
-bf88f7d920da2bbabef16404a449a4f72cc0ffcd e1000e: Use pcie_capability_read_word() for reading LNKSTA
-4b55e86736d5b492cf689125da2600f59c7d2c39 net/sched: act_api: rely on rcu in tcf_idr_check_alloc
-1dd7f18fc0ed75dad4d5f2ecc84f69c6b62b6a81 net/sched: act_api: skip idr replace on bound actions
-a25ebbf332fd2d948937c6ef016e66db62e1abf2 Merge branch 'net-sched-optimizations-around-action-binding-and-init'
-0c476157085fe2ad13b9bec70ea672e86647fa1a net: phy: c45: add genphy_c45_pma_read_ext_abilities() function
-cb80ee2f9bee1502e805acff64e2133e254ec240 net: phy: Add support for the DP83TG720S Ethernet PHY
-85c2674d537bd8f68afa9dad49981f7e227f1131 Merge branch 'add-support-for-dp83tg720s-phy'
-173b6d1cdf582e7438b3ab4ef2f40e6833579490 docs: networking: timestamping: mention MSG_EOR flag
-50d73710715de7d1a2c88194562f520816af9c2a ethtool: add SET for TCP_DATA_SPLIT ringparam
-9b1aa3ef2328aeef35b388c4c22323eaa792c1aa idpf: add get/set for Ethtool's header split ringparam
-36d8afbb2b89cdd4af1051d0a9afebb5511099df Merge branch 'idpf-add-get-set-for-ethtool-s-header-split-ringparam'
-4746b36b1abe11ca32987b2d21e1e770deab17cc sctp: support MSG_ERRQUEUE flag in recvmsg()
-97f265ef7f5b526b33d6030b2a1fc69a2259bf4a dpll: allocate pin ids in cycle
-84cc99199a34ba894371041caacc95c2a03b3700 amd-xgbe: Avoid potential string truncation in name
-bc044ae9d64b1b23fa3a3aa5c162afec8348b412 cxgb3: Avoid potential string truncation in desc
-0a149ab78ee220c75eef797abea7a29f4490e226 page_pool: transition to reference count management after page draining
-c3f687d8dfeb33cffbb8f47c30002babfc4895d2 net: page_pool: factor out releasing DMA from releasing the page
-fb6e30a72539ce28c1323aef4190d35aac106f6f net: ethtool: pass a pointer to parameters to get/set_rxfh ethtool ops
-dcd8dbf9e734eb334113ea43186c1c26e9f497bb net: ethtool: get rid of get/set_rxfh_context functions
-13e59344fb9d3c9d3acd138ae320b5b67b658694 net: ethtool: add support for symmetric-xor RSS hash
-20f73b60bb5c276cee9b1a530f100c677bc74af8 ice: fix ICE_AQ_VSI_Q_OPT_RSS_* register values
-dc6e44c9d6d68e8aa5de78d15f43f93145719b72 ice: refactor RSS configuration
-b1f5921a99ac8dedadf1f2599486b2ca9e01cc0f ice: refactor the FD and RSS flow ID generation
-352e9bf238133882dfaebc0dc59a590732a92006 ice: enable symmetric-xor RSS for Toeplitz hash function
-4a3de3fb0eb6897488dd510006abd9673f1fb34c iavf: enable symmetric-xor RSS for Toeplitz hash function
-04c04725c1d0a71a3f30033a794738b49d1f2111 Merge branch 'support-symmetric-xor-rss-hash'
-00b1b2296b581067a4da78111f9e6f0984f7a284 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-1b666016d0ad4a879dcd3d9188635ad68c4b16ce net: mvpp2: add support for mii
+54dae6d5d3f091568322c4a69ddd3459a81545ad dt-bindings: iommu: arm,smmu: document clocks for the SM8350 GPU SMMU
+61683b47df44fa7efd4039676436e711f7e31c70 dt-bindings: iommu: arm,smmu: document the SM8650 System MMU
+fa27b35c9102e3e2b75455517f7091b294cc0552 dt-bindings: arm-smmu: Add compatible for X1E80100 SoC
+4fff78dc2490fc0c67669c610dbc42921dd23a1c dt-bindings: arm-smmu: Document SM8[45]50 GPU SMMU
+afc95681c3068956fed1241a1ff1612c066c75ac iommu/arm-smmu-qcom: Add missing GMU entry to match table
+28af105cb65043f20a16c5e2519d66390b1f9bb9 iommu/arm-smmu-qcom: Add QCM2290 MDSS compatible
+268dd4edb748a1e2f298b04854681453df6e77a2 iommu/qcom: restore IOMMU state if needed
+b41932f544586e606a7493cbc6dfb3c97c6b44d7 iommu/arm-smmu-v3: disable stall for quiet_cd
+57b89048874c9edd4a17f34c126b4a4188b7b444 iommu/arm-smmu-v3: Add a type for the STE
+12a48fe90d0919e4e594815122403f793a090803 iommu/arm-smmu-v3: Master cannot be NULL in arm_smmu_write_strtab_ent()
+9fde008337d3be8afa7b3b42c1787aac4b6853c9 iommu/arm-smmu-v3: Remove ARM_SMMU_DOMAIN_NESTED
+ff0f802974136c7f4c576da227565dc27cc1c69d iommu/arm-smmu: Reorganize arm_smmu_domain_add_master()
+22bb7b41476a1b8dc282dc5b3ca5470090b52e46 iommu/arm-smmu: Convert to a global static identity domain
+bbbf11eea38c0cb167edc5ce5fe76324e87ad074 iommu/arm-smmu: Implement IOMMU_DOMAIN_BLOCKED
+e0976331ad114af8e379e18483c346c6c79ca858 iommu/arm-smmu: Pass arm_smmu_domain to internal functions
+9b3febc3a3da7fcd81ece10614b7fd6c729ba8b4 iommu/arm-smmu: Convert to domain_alloc_paging()
+1343121f08e6df62b14e6c0a8c193256ac225b0c Merge branch 'for-joerg/arm-smmu/bindings' into for-joerg/arm-smmu/updates
+3453c2b1d17784722b4b965b63a0b4a5a985006f Merge tag 'arm-smmu-updates' of git://git.kernel.org/pub/scm/linux/kernel/git/will/linux into arm/smmu
 
---===============5374120846938794043==--
+--===============5385701625639575174==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ef17ca0186ad-f103d54eec13.txt
+
+54dae6d5d3f091568322c4a69ddd3459a81545ad dt-bindings: iommu: arm,smmu: document clocks for the SM8350 GPU SMMU
+61683b47df44fa7efd4039676436e711f7e31c70 dt-bindings: iommu: arm,smmu: document the SM8650 System MMU
+fa27b35c9102e3e2b75455517f7091b294cc0552 dt-bindings: arm-smmu: Add compatible for X1E80100 SoC
+4fff78dc2490fc0c67669c610dbc42921dd23a1c dt-bindings: arm-smmu: Document SM8[45]50 GPU SMMU
+afc95681c3068956fed1241a1ff1612c066c75ac iommu/arm-smmu-qcom: Add missing GMU entry to match table
+28af105cb65043f20a16c5e2519d66390b1f9bb9 iommu/arm-smmu-qcom: Add QCM2290 MDSS compatible
+268dd4edb748a1e2f298b04854681453df6e77a2 iommu/qcom: restore IOMMU state if needed
+b41932f544586e606a7493cbc6dfb3c97c6b44d7 iommu/arm-smmu-v3: disable stall for quiet_cd
+57b89048874c9edd4a17f34c126b4a4188b7b444 iommu/arm-smmu-v3: Add a type for the STE
+12a48fe90d0919e4e594815122403f793a090803 iommu/arm-smmu-v3: Master cannot be NULL in arm_smmu_write_strtab_ent()
+9fde008337d3be8afa7b3b42c1787aac4b6853c9 iommu/arm-smmu-v3: Remove ARM_SMMU_DOMAIN_NESTED
+ff0f802974136c7f4c576da227565dc27cc1c69d iommu/arm-smmu: Reorganize arm_smmu_domain_add_master()
+22bb7b41476a1b8dc282dc5b3ca5470090b52e46 iommu/arm-smmu: Convert to a global static identity domain
+bbbf11eea38c0cb167edc5ce5fe76324e87ad074 iommu/arm-smmu: Implement IOMMU_DOMAIN_BLOCKED
+e0976331ad114af8e379e18483c346c6c79ca858 iommu/arm-smmu: Pass arm_smmu_domain to internal functions
+9b3febc3a3da7fcd81ece10614b7fd6c729ba8b4 iommu/arm-smmu: Convert to domain_alloc_paging()
+1343121f08e6df62b14e6c0a8c193256ac225b0c Merge branch 'for-joerg/arm-smmu/bindings' into for-joerg/arm-smmu/updates
+3453c2b1d17784722b4b965b63a0b4a5a985006f Merge tag 'arm-smmu-updates' of git://git.kernel.org/pub/scm/linux/kernel/git/will/linux into arm/smmu
+f103d54eec1351b06131a8ab64a3b931d05806bc Merge branches 'apple/dart', 'arm/smmu', 'virtio', 'x86/amd' and 'core' into next
+
+--===============5385701625639575174==--
