@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2994781770629759208=="
+Content-Type: multipart/mixed; boundary="===============3081343752613353832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 14 Dec 2023 04:28:23 -0000
-Message-Id: <170252810365.7242.10900654800873559225@gitolite.kernel.org>
+Date: Thu, 14 Dec 2023 04:28:38 -0000
+Message-Id: <170252811852.7412.2292459398718187797@gitolite.kernel.org>
 
---===============2994781770629759208==
+--===============3081343752613353832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 5c66833fd3d0587cefefa6bc3017f49b0c3b59bb
-    new: 0880ed49060d76cc8f7dd55f5dbdf486e7bf8a23
+  - ref: refs/heads/6.7/scsi-fixes
+    old: 235f2b548d7f4ac5931d834f05d3f7f5166a2e72
+    new: 77a67255609606164e1042f3bf7452a568a700e4
     log: |
          c5becf57dd5659c687d41d623a69f42d63f59eb2 Revert "scsi: aacraid: Reply queue mapping to CPUs based on IRQ affinity"
          77a67255609606164e1042f3bf7452a568a700e4 scsi: ufs: core: Store min and max clk freq from OPP table
          
 
---===============2994781770629759208==
+--===============3081343752613353832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1702528084 -0500
+pusher 75C5DE3D 1702528107 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1702528084-f8a6f17a2c32fabad0f88097f5826d6a945e230d
+nonce 1702528106-591a0adf6302edff6810f23edac0e6fdc414a064
 
-5c66833fd3d0587cefefa6bc3017f49b0c3b59bb 0880ed49060d76cc8f7dd55f5dbdf486e7bf8a23 refs/tags/mkp-scsi-fixes
+235f2b548d7f4ac5931d834f05d3f7f5166a2e72 77a67255609606164e1042f3bf7452a568a700e4 refs/heads/6.7/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmV6hFQACgkQ7ulgGnXF
-3j3flA/9EJ4a/SHTvyoLz8XLwdyyEklOLfUZ8pgedsKKYq7qL3dk7nSgfYyjwuwF
-vO0Gt1Ny922cN+xhdFx9KUphEFnMDJ56UdcM2xmxUp7HUWWgTro/OzgjGcDs8gQ1
-OrFfwJz3rhO0scbU+xy+mzIaZFzkMKlLkVfxRc0g3VoQAmj8QqQf/nJIvKcLRF6/
-dw9LHnUz9mr34MsekLkkAxiAdlZiiLUh9vgZZOPOjDVCW21HIpM67W+M1wq9katk
-GruJuCNBkKTysxQ/+1aViR2hJATxqLmdthKToqvuqL4UuAxrlwwkL7GUN+xt1qG8
-7RHX+9RDZ4I7+2JfNWoFjzGBHWZ74QTGEKQDQLkIfSxzDnhhYPNnd+Ufljt/RmMX
-ZBl8TwbfyqD29spOQn1VoqBYWuLWfFLU+HK9SeLBqPM3WNyADpEGiWJA6oX4xNCa
-HWhd9URinOPfVWExqN1gdjCF/P42RciFpF+0mJkHe3R7LLGyfwJWaTvFG1+Zeh/0
-J6fWZcOeKkCXup20fJGkVcy+LuIfOroCXnC+jaNwTnMLtE2XpADlKRE+MDzcPhx9
-q9bXLaicbKltSgdID+m+ck5+f2E//f1jY+9jz7V44BG1VmyklLuQDzNdknf8iwt6
-TJ+cUtNBOB9VbJdsD/kiCfizxzPf9Cm+1iOnrJyCS49agCHPLd4=
-=U8dd
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmV6hGsACgkQ7ulgGnXF
+3j1sOQ/8Czdbkr+2b/Wc8IyG77LK5PI69cEmRPshXOWrVip2/2GMrS7I0+rcfuPZ
+nMQ+jXgK2MHPWsIbxfcclh/sQtKqwZBMghVbR833ea3N4WTYo3EbietQC73CTtw3
+ML2+YlQcvvsh8FDwZqp+rULwrxELIaPsu39detvSFeBTOgwCjIfn1GZHue1OwXd1
+vKN0dNfUbGmLq7+rW6wolRHMJ6JBYM49M2qYd0RDNcc5Fl2QXVfGWTfDWtAQ3LLk
+pIWIrbtUlBMEOI/Eda6kAZaUEJr6ZGwUTYFfg2dNqLQKRqNOk/yr8yHDJbc3KKH7
+p2JaSGOySMhV1fd3c2xXr2D8MMbMwkZPOcGkN5UzDhUUQoE9Z6NxeM92T8xCSJfM
+kxXrv+uCEinzIS+kycUyva3bCAJCywnYGLTbLAWPv44E0WtgqdF3oawqA1awm0yV
+I9HeGiwsPJAw+/deuAg7v/KiViWFs2cJhX7ysJjRD33VsIhCS1+Lnn4aRywzuAuH
+rruMV4HJ4Xzwvf8uEfTYO6WFyKhrVzqmMu31xh2s/L1kAzNlHdYqF0kswk4qYE5l
+pCWLpgjiLMER9djLV0CODxDTLtgMqdmJDMvs43k19NBPJnjGZ+ckMIfE9WiTJ8Rx
+eyYDkcGK2tWYrZSLKsfMJvjYKwlpobTqULzhK4MYKC8uvXSOF8Y=
+=Jf4a
 -----END PGP SIGNATURE-----
 
---===============2994781770629759208==--
+--===============3081343752613353832==--
