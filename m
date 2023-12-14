@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 14 Dec 2023 17:50:03 -0000
-Message-Id: <170257620358.16681.14327932115143468652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 14 Dec 2023 17:51:48 -0000
+Message-Id: <170257630849.17443.468773519519491612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/for-6.8/block
-    old: 6f64f866aa1ae6975c95d805ed51d7e9433a0016
-    new: f19d1e3b17acc8173cd83b189f4c9506889b1c49
+  - ref: refs/heads/dev
+    old: 6b07eb1629328184dd7d07957c9a9a519a42c5c7
+    new: 7398bb29778c4998640f73e1f017a1b9cdf1f0f1
     log: |
-         f19d1e3b17acc8173cd83b189f4c9506889b1c49 block: Use pr_info() instead of printk(KERN_INFO ...)
-         
-  - ref: refs/heads/for-next
-    old: fa40384aced4072783910a9ef3242866a665f299
-    new: 84ee21c83bdafcc7dab6c114e99dc3fd57f420b5
-    log: |
-         f19d1e3b17acc8173cd83b189f4c9506889b1c49 block: Use pr_info() instead of printk(KERN_INFO ...)
-         84ee21c83bdafcc7dab6c114e99dc3fd57f420b5 Merge branch 'for-6.8/block' into for-next
+         93d6fda7f926451a0fa1121b9558d75ca47e861e erofs: fix memory leak on short-lived bounced pages
+         3c12466b6b7bf1e56f9b32c366a3d83d87afb4de erofs: fix lz4 inplace decompression
+         192351616a9dde686492bcb9d1e4895a1411a527 erofs: support I/O submission for sub-page compressed blocks
+         54ed3fdd66055d073cb1cd2c6c65bbc0683c40cf erofs: record `pclustersize` in bytes instead of pages
+         8d2517aaeea3ab8651bb517bca8f3c8664d318ea erofs: fix up compacted indexes for block size < 4096
+         370276507514eacfc2a4034b67d655bfdd06e270 erofs: fix ztailpacking for subpage compressed blocks
+         572fe53aeb2b874ae664b0f47e08a047cf64d699 erofs: refine z_erofs_transform_plain() for sub-page block support
+         7398bb29778c4998640f73e1f017a1b9cdf1f0f1 erofs: enable sub-page compressed block support
          
