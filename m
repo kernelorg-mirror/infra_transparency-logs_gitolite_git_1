@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/joel/fsi
-Date: Thu, 14 Dec 2023 00:35:39 -0000
-Message-Id: <170251413912.27234.16131321412961935887@gitolite.kernel.org>
+Date: Thu, 14 Dec 2023 00:35:43 -0000
+Message-Id: <170251414358.27353.11571219814583961290@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/joel/fsi
 user: joel
 changes:
-  - ref: refs/tags/v6.2
+  - ref: refs/tags/v6.1
     old: 0000000000000000000000000000000000000000
-    new: 32758e7a720e4752a824c6062e75f107314e5598
+    new: 7614896350aa20764c5eca527262d9eb0a57da63
