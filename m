@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2633231030956573521=="
+Content-Type: multipart/mixed; boundary="===============0008969092913218609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 14 Dec 2023 21:06:09 -0000
-Message-Id: <170258796907.28280.13584792626937242225@gitolite.kernel.org>
+Date: Thu, 14 Dec 2023 21:06:50 -0000
+Message-Id: <170258801051.28654.4521073346280453799@gitolite.kernel.org>
 
---===============2633231030956573521==
+--===============0008969092913218609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
-    old: fd1e5745f87a9e06974d2f42d22b3e1682c99105
-    new: d73ad797c83b0777407a2200bbefa3cb82759247
-    log: revlist-fd1e5745f87a-d73ad797c83b.txt
+  - ref: refs/heads/for-next
+    old: 52cff57c4356cdbc6059cac327760f2797dc24a7
+    new: 16bcd9a4a33275a3f35670e06fbaac04950540d1
+    log: revlist-52cff57c4356-16bcd9a4a332.txt
 
---===============2633231030956573521==
+--===============0008969092913218609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd1e5745f87a-d73ad797c83b.txt
+Content-Disposition: attachment; filename=revlist-52cff57c4356-16bcd9a4a332.txt
 
 7a934b5cc3f452df6f9a4903450fc103dee98ee8 wifi: mt76: mt7921: fix 6GHz disabled by the missing default CLC config
 8f51593cdcab82fb23ef2e1a0010b2e6f99aae02 dt: dt-extract-compatibles: Don't follow symlinks when walking tree
@@ -721,5 +721,6 @@ c527f5606aa545233a4d2c6d5c636ed82b8633ef Merge tag 'powerpc-6.7-4' of git://git.
 a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 Linux 6.7-rc5
 81556f228c0e7b3681e1002eb182efc4c1410c72 Merge tag 'sunxi-fixes-for-6.7-1' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
 d73ad797c83b0777407a2200bbefa3cb82759247 Merge tag 'reset-fixes-for-v6.7' of git://git.pengutronix.de/pza/linux into arm/fixes
+16bcd9a4a33275a3f35670e06fbaac04950540d1 Merge branch 'arm/fixes' into for-next
 
---===============2633231030956573521==--
+--===============0008969092913218609==--
