@@ -1,51 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5794627722561409850=="
+Content-Type: multipart/mixed; boundary="===============0913612882843283034=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 14 Dec 2023 13:35:48 -0000
-Message-Id: <170256094881.24284.4021786161440863265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 14 Dec 2023 13:35:59 -0000
+Message-Id: <170256095996.24443.16201684661563176803@gitolite.kernel.org>
 
---===============5794627722561409850==
+--===============0913612882843283034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.8
-    old: 6475b8e1821c9d14e60592a74c10d75431500c7c
-    new: af29e51bee8223d8b26e574489d2433b88cdeb2f
+  - ref: refs/heads/for-6.7
+    old: e9b220aeacf109684cce36a94fc24ed37be92b05
+    new: fc70d643a2f6678cbe0f5c86433c1aeb4d613fcc
     log: |
-         d29351e8c20d61a852bbdfcab7bb7166bd916558 ASoC: audio-graph-card2: Introduce playback-only/capture-only DAI link flags
-         af29e51bee8223d8b26e574489d2433b88cdeb2f ASoC: dt-bindings: audio-graph-port: Document new DAI link flags playback-only/capture-only
+         fc70d643a2f6678cbe0f5c86433c1aeb4d613fcc spi: atmel: Fix clock issue when using devices with different polarities
          
 
---===============5794627722561409850==
+--===============0913612882843283034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1702560947 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1702560946-66e335a2bd3ad3972d193791354a5a31caa6ea48
+pusher C3F436CA30F5D8EB 1702560958 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1702560957-92acb5b2d6c7f12b9bcaa710f58e3a22278852a2
 
-6475b8e1821c9d14e60592a74c10d75431500c7c af29e51bee8223d8b26e574489d2433b88cdeb2f refs/heads/asoc-6.8
+e9b220aeacf109684cce36a94fc24ed37be92b05 fc70d643a2f6678cbe0f5c86433c1aeb4d613fcc refs/heads/for-6.7
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmV7BLMACgkQJNaLcl1U
-h9CNnwf/T6qEzaTiac+nj+1JbnrxTeh/hXRKuRIGPyOxikvZ13w5p5rJMBVGmTl7
-eCRNpH8YFCP9JntFG3MiG5dXs+ag53AaY1lOw/1z1eTTQbU2Klg4uLuEoY16c7Kf
-oJu8JSLH579RjnhDGt90/QCcDy9cEoT1h9cDNP5nSpgEG93TDnsY0NcM4x65zRHr
-AJ3fSjdoMsk3Ojke8SfG13MDBjTEWC1yZwvsU1mgXAKKX/Rm+Hov+TpvalNkrkBc
-BHn2aWomt9w+LIbd0ZTKq5nDrNN6a2E9tIXXQSOMp2wD/CZ0oh6Q338g+ztvXjJ4
-1FzS8e0gncfJwMSrfSEknX/dPoXsaw==
-=78Jc
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmV7BL4ACgkQJNaLcl1U
+h9DvDgf/cuFi1hEz1yRlPHgQs+4Rur6wKU5iFp8DtiF9eO93fNT6GdPQdgAl1SnE
+ndaz8zlqk+OUz52IKEiQ51VHKy+eAp4igegkMKpeyysuLTgpPf3KYt6dGeFQQ0T/
+dI0xfw12vdaf9Q6h0kNjIayMOtkdU7pZ8EjxujX6iZ3sRRrjLgT0zzbVWwIypYg3
+1eSN/LqDsruYvASrsN1kH54kMSpSBxQwYeE8dIo5UGzFkqFrOngT2FAM7Mh58y22
+o6AwGCTLHVSJVT2tGRO1IB3XdyQ8Znj1ozFy4uvX9UIsd68tjA+czTuH8u9GnjTI
+fIZj8Hk12sMN/c3Z2Pkrq5e7+7lDkA==
+=hVNN
 -----END PGP SIGNATURE-----
 
---===============5794627722561409850==--
+--===============0913612882843283034==--
