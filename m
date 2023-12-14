@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4540506563111026841=="
+Content-Type: multipart/mixed; boundary="===============0857235377844316509=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Thu, 14 Dec 2023 15:23:17 -0000
-Message-Id: <170256739720.5705.3157143178285075432@gitolite.kernel.org>
+Date: Thu, 14 Dec 2023 15:26:27 -0000
+Message-Id: <170256758717.8409.1870514409348514890@gitolite.kernel.org>
 
---===============4540506563111026841==
+--===============0857235377844316509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvalo/ath
 user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: e0d94824fa388d81bb1f27e9486cb2d0f6fee3fb
-    new: fc91263c01cc01cccb5da15a82fa11b288e8f5cb
-    log: revlist-e0d94824fa38-fc91263c01cc.txt
-  - ref: refs/tags/ath-202312141521
+  - ref: refs/heads/master-pending
+    old: 4f97e805b5f4fdd8f20c691a8f708ccb0cba432f
+    new: aa152f5ffc76915ef2439077a51c9033b81d11fd
+    log: revlist-4f97e805b5f4-aa152f5ffc76.txt
+  - ref: refs/heads/pending
+    old: 55c1902a4b46bc1182a8e8f9f74a6a4e33752f70
+    new: eec4f89c7b33b466d2da7e6e988cfb3478e7bc83
+    log: |
+         eec4f89c7b33b466d2da7e6e988cfb3478e7bc83 Revert "wifi: ath12k: use ATH12K_PCI_IRQ_DP_OFFSET for DP IRQ"
+         
+  - ref: refs/tags/ath-pending-202312141524
     old: 0000000000000000000000000000000000000000
-    new: fc91263c01cc01cccb5da15a82fa11b288e8f5cb
+    new: aa152f5ffc76915ef2439077a51c9033b81d11fd
 
---===============4540506563111026841==
+--===============0857235377844316509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0d94824fa38-fc91263c01cc.txt
+Content-Disposition: attachment; filename=revlist-4f97e805b5f4-aa152f5ffc76.txt
 
 7269cba53d906cf257c139d3b3a53ad272176bca tee: optee: Fix supplicant based device enumeration
 0550d4604e2ca4e653dc13f0c009fc42106b6bfc RDMA/core: Fix uninit-value access in ib_get_eth_speed()
@@ -613,8 +619,10 @@ cc6bbfe84f30fa9c70327c6a098e709f3f876a6d wifi: mac80211: sta_info.c: fix sentenc
 798e7956239d60dfd3dc2ad28d0618933bb90f5c Merge remote-tracking branch 'wireless/main'
 d21f7a972ffb6648f3563ea293959cb0814cc3db Merge remote-tracking branch 'wireless-next/main'
 1e00837d6ce9ae3f663ebb8f154b367744991f5f Add localversion to identify builds from this tree
+eec4f89c7b33b466d2da7e6e988cfb3478e7bc83 Revert "wifi: ath12k: use ATH12K_PCI_IRQ_DP_OFFSET for DP IRQ"
 3e1ef4ad15bf40e717ac99cd7384e4bca3b2a2f9 Merge branch 'ath-next'
 b000996fc93911149e3f64e4a3ddeb93900fd24e Merge remote-tracking branch 'mhi/mhi-next'
 fc91263c01cc01cccb5da15a82fa11b288e8f5cb Add localversion-wireless-testing-ath
+aa152f5ffc76915ef2439077a51c9033b81d11fd Merge branch 'pending' into master-pending
 
---===============4540506563111026841==--
+--===============0857235377844316509==--
