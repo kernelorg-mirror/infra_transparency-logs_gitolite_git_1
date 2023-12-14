@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 14 Dec 2023 12:18:53 -0000
-Message-Id: <170255633331.31964.14147055615658379464@gitolite.kernel.org>
+Date: Thu, 14 Dec 2023 12:19:20 -0000
+Message-Id: <170255636073.32214.17759514953008737554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,38 +12,16 @@ repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
   - ref: refs/heads/bleeding-edge
-    old: 4611d408615e891b4675ffb09d6797548795fdef
-    new: ee96d5c15517fbdf136aeff1919646e843fbb6f3
+    old: ee96d5c15517fbdf136aeff1919646e843fbb6f3
+    new: cc777b6b3b83e652706748903cc5770a7dd04c99
     log: |
-         e819af7985bd66d7843968a8670d8b78abc4663a Merge branch 'thermal-core' into linux-next
-         8675c62a4cbefe02214d4ccc16ed566560df1abd Merge branch 'pm-sleep' into linux-next
-         ee96d5c15517fbdf136aeff1919646e843fbb6f3 Merge branches 'acpi-processor' and 'acpi-extlog' into linux-next
-         
-  - ref: refs/heads/linux-next
-    old: a5166a012448079243a081daeea0a28e478589a7
-    new: ee96d5c15517fbdf136aeff1919646e843fbb6f3
-    log: |
-         bdc22c8d52d70fc5655ab4dbf72fa79b034bb7b5 thermal: trip: Send trip change notifications on all trip updates
-         38c872a9e96f72f2947affc0526cc05659367d3d ACPI: extlog: Clear Extended Error Log status when RAS_CEC handled the error
-         ccb45b34d44016b91fa75646741d317d6d6fdeea ACPI: arm64: export acpi_arch_thermal_cpufreq_pctg()
-         404f62cd6407f163e03cfaca97e27c1c4c62eb3c thermal/core: Check get_temp ops is present when registering a tz
-         bd59cfb48e1a4673316002da5092c6412f270d7e PM: hibernate: Avoid missing wakeup events during hibernation
-         375ef6e391f352b71723e783d1a6189187a30882 PM: hibernate: Enforce ordering during image compression/decompression
-         e819af7985bd66d7843968a8670d8b78abc4663a Merge branch 'thermal-core' into linux-next
-         8675c62a4cbefe02214d4ccc16ed566560df1abd Merge branch 'pm-sleep' into linux-next
-         ee96d5c15517fbdf136aeff1919646e843fbb6f3 Merge branches 'acpi-processor' and 'acpi-extlog' into linux-next
-         
-  - ref: refs/heads/testing
-    old: a5166a012448079243a081daeea0a28e478589a7
-    new: ee96d5c15517fbdf136aeff1919646e843fbb6f3
-    log: |
-         bdc22c8d52d70fc5655ab4dbf72fa79b034bb7b5 thermal: trip: Send trip change notifications on all trip updates
-         38c872a9e96f72f2947affc0526cc05659367d3d ACPI: extlog: Clear Extended Error Log status when RAS_CEC handled the error
-         ccb45b34d44016b91fa75646741d317d6d6fdeea ACPI: arm64: export acpi_arch_thermal_cpufreq_pctg()
-         404f62cd6407f163e03cfaca97e27c1c4c62eb3c thermal/core: Check get_temp ops is present when registering a tz
-         bd59cfb48e1a4673316002da5092c6412f270d7e PM: hibernate: Avoid missing wakeup events during hibernation
-         375ef6e391f352b71723e783d1a6189187a30882 PM: hibernate: Enforce ordering during image compression/decompression
-         e819af7985bd66d7843968a8670d8b78abc4663a Merge branch 'thermal-core' into linux-next
-         8675c62a4cbefe02214d4ccc16ed566560df1abd Merge branch 'pm-sleep' into linux-next
-         ee96d5c15517fbdf136aeff1919646e843fbb6f3 Merge branches 'acpi-processor' and 'acpi-extlog' into linux-next
+         4d8d0704a46e98be4dddb426f3c53d437ed834b1 dt-bindings: thermal: convert Mediatek Thermal to the json-schema
+         f3bb39727551418411abd7bb9839b7176d27bcec dt-bindings: thermal: loongson,ls2k-thermal: Fix binding check issues
+         2125325bdd203036f56dcf8f0fc310e2a02b1ec3 drivers/thermal/loongson2_thermal: Fix incorrect PTR_ERR() judgment
+         667cb7689c5dc866e1e587ec019036c82011fb36 dt-bindings: thermal: qcom-tsens: document the SM8650 Temperature Sensor
+         bee88c8c8611679ea23c566d50b123e27e3090fc dt-bindings: thermal-zones: Document critical-action
+         726edaad90f63c40830a0c8d907a40ca3c6dcee1 thermal/core: Prepare for introduction of thermal reboot
+         ccf5af83c3e176a86e8f296e3254f18f0992ba27 reboot: Introduce thermal_zone_device_critical_reboot()
+         829509c37d9c2a3ef787cf509332ed8e337aa64d thermal/thermal_of: Allow rebooting after critical temp
+         cc777b6b3b83e652706748903cc5770a7dd04c99 Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
          
