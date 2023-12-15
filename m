@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Fri, 15 Dec 2023 08:52:41 -0000
-Message-Id: <170263036138.27993.16332400528863575942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Fri, 15 Dec 2023 09:08:17 -0000
+Message-Id: <170263129717.7276.1104285694015154816@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: holtmann
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/master
-    old: bfd957d569900def3a82f2b2bd4114bb86d1003e
-    new: 2b5bd911fa792508633a8c996f776da64534fd5f
+  - ref: refs/heads/for-usb-next
+    old: b0e96d95414ddd732325ce92eefe585b848d17af
+    new: c881b609421dc30df5a0c228595403216be6a6c7
     log: |
-         f14966462b58ff40e324cd4c20d32b8fe53109b3 service: Add support for 'CONNMAN_IPCONFIG_TYPE_ALL' to 'cancel_online_check'.
-         2b5bd911fa792508633a8c996f776da64534fd5f service: Both cancel and stop online checks where appropriate.
+         c881b609421dc30df5a0c228595403216be6a6c7 xhci: Fix null pointer dereference during S4 resume when resetting ep0
          
