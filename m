@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3288565273131842075=="
+Content-Type: multipart/mixed; boundary="===============3446071273979671931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 15 Dec 2023 03:28:37 -0000
-Message-Id: <170261091771.20294.1959693443336203436@gitolite.kernel.org>
+Date: Fri, 15 Dec 2023 03:30:11 -0000
+Message-Id: <170261101144.22527.17188440205966363807@gitolite.kernel.org>
 
---===============3288565273131842075==
+--===============3446071273979671931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: aade12465eb22594803cb17a1eb21f2953e15934
+  - ref: refs/heads/next
+    old: c2d5304e6c648ebcf653bace7e51e0e6742e46c8
     new: ebf2d4e8e582a444e12eff7d4a59d87f22fb3481
-    log: revlist-aade12465eb2-ebf2d4e8e582.txt
+    log: revlist-c2d5304e6c64-ebf2d4e8e582.txt
 
---===============3288565273131842075==
+--===============3446071273979671931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aade12465eb2-ebf2d4e8e582.txt
+Content-Disposition: attachment; filename=revlist-c2d5304e6c64-ebf2d4e8e582.txt
 
 b578d5d18e929aa7c007a98cce32657145dde219 mmc: cqhci: Increase recovery halt timeout
 c616696a902987352426fdaeec1b0b3240949e6b mmc: block: Be sure to wait while busy in CQE error recovery
@@ -1051,4 +1051,4 @@ cf52eed70e555e864120cfaf280e979e2a035c66 Merge tag 'ext4_for_linus-6.7-rc6' of g
 88035e5694a86a7167d490bb95e9df97a9bb162b Merge tag 'hid-for-linus-2023121201' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 ebf2d4e8e582a444e12eff7d4a59d87f22fb3481 tpm: nuvoton: Use i2c_get_match_data()
 
---===============3288565273131842075==--
+--===============3446071273979671931==--
