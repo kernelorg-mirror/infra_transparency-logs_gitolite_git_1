@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Fri, 15 Dec 2023 08:51:51 -0000
-Message-Id: <170263031149.27648.5278753463292868011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Fri, 15 Dec 2023 08:52:41 -0000
+Message-Id: <170263036138.27993.16332400528863575942@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/network/connman/connman
+user: holtmann
 changes:
-  - ref: refs/heads/mhi-next
-    old: f5668f251e29292326e45a022f933c15740a8af2
-    new: 309ab14f70d137f708ca52e275dc9fd20d3e9147
+  - ref: refs/heads/master
+    old: bfd957d569900def3a82f2b2bd4114bb86d1003e
+    new: 2b5bd911fa792508633a8c996f776da64534fd5f
     log: |
-         ee08acb58fe47fc3bc2c137965985cdb1df40b35 bus: mhi: ep: Add support for async DMA write operation
-         2547beb00ddb40e55b773970622421d978f71473 bus: mhi: ep: Add support for async DMA read operation
-         309ab14f70d137f708ca52e275dc9fd20d3e9147 bus: mhi: ep: Add checks for read/write callbacks while registering controllers
+         f14966462b58ff40e324cd4c20d32b8fe53109b3 service: Add support for 'CONNMAN_IPCONFIG_TYPE_ALL' to 'cancel_online_check'.
+         2b5bd911fa792508633a8c996f776da64534fd5f service: Both cancel and stop online checks where appropriate.
          
