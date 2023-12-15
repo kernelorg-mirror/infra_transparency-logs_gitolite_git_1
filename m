@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 15 Dec 2023 23:11:48 -0000
-Message-Id: <170268190890.30569.9250549333767284659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
+Date: Fri, 15 Dec 2023 23:18:16 -0000
+Message-Id: <170268229636.2532.10801166782546714231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/djiang/linux
+user: djiang
 changes:
-  - ref: refs/heads/dev-test
-    old: 394e7f4dbb32a44ad1a1569d55aa680e28ab3315
-    new: 86d7d57a3f096c8349b32a0cd5f6f314e4416a6d
+  - ref: refs/heads/cxl-hmem-report
+    old: da4513ec5ead3bc7ccfc745e3537b6891e8d731c
+    new: da30cd12e1d2c65f67dcdae7cb4842d73184d98e
     log: |
-         86d7d57a3f096c8349b32a0cd5f6f314e4416a6d f2fs: fix to check return value of f2fs_recover_xattr_data
+         67c8a706af629b4e837e4683ebcad024fa2e82d5 cxl: Export sysfs attributes for memory device QoS class
+         d1877054cac84876a5263ea668dc0b76d321049d fixup missing chunk
+         136c31e3e89c04212aa879bc1adde4ab80e6f61f cxl: Check qos_class validity on memdev probe
+         2d23a8713c6a45af8dbe4f2099eff43d8066b0cd cxl/region: Calculate performance data for a region
+         207362da30af25a633850b7f91a5235fa174ade4 cxl/region: Add sysfs attribute for locality attributes of CXL regions
+         da30cd12e1d2c65f67dcdae7cb4842d73184d98e cxl: Add memory hotplug notifier for cxl region
          
