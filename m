@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 15 Dec 2023 17:56:29 -0000
-Message-Id: <170266298942.22809.391962931713759487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 15 Dec 2023 17:59:06 -0000
+Message-Id: <170266314668.23937.4648097330067844874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/asoc-6.8
-    old: e7a4a2fd9a4116286a1523ea1a5cbabd2c36f5b9
-    new: c27032b402a10d9f258224685322f121de0808e5
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 1bc479d665bc25a9a4e8168d5b400a47491511f9
+    new: a61f89bf76ef6f87ec48dd90dbc73a6cf9952edc
     log: |
-         57cd29a82574b0e9d99ed5789801c96f765e8fcb ASoC: SOF: IPC4: synchronize fw_config_params with fw definitions
-         855a4772be9dc777cbcd580c8a07d9c54908219b ASoC: SOF: IPC4: query fw_context_save feature from fw
-         3a0e7bb86f8728d94d55c56fb73e86be7976c163 ASoC: SOF: Intel: check fw_context_save for library reload
-         c27032b402a10d9f258224685322f121de0808e5 ASoC: SOF: query FW config to reload library
+         6f33e6fa29d0366d6e5b3ea2930dbc0b648151fe perf stat: Combine the -A/--no-aggr and --no-merge options
+         1af478903fc48c1409a8dd6b698383b62387adf1 perf genelf: Set ELF program header addresses properly
+         c966d23a351a33f8a977fd7efbb6f467132f7383 perf unwind-libdw: Handle JIT-generated DSOs properly
+         4fb54994b2360ab5029ee3a959161f6fe6bbb349 perf unwind-libunwind: Fix base address for .eh_frame
+         5fa695e7da4975e8d21ce49f3718d6cf00ecb75e perf top: Use evsel's cpus to replace user_requested_cpus
+         a61f89bf76ef6f87ec48dd90dbc73a6cf9952edc perf top: Uniform the event name for the hybrid machine
          
