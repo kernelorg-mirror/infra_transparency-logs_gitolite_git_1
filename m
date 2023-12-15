@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
-Date: Fri, 15 Dec 2023 18:59:41 -0000
-Message-Id: <170266678114.3535.17488672652740578214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Fri, 15 Dec 2023 19:09:36 -0000
+Message-Id: <170266737666.11567.2035339192711674003@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rt-tests/rt-tests
-user: jkacur
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/main
-    old: 3cbd2fc69160f5c21b66445279fcb31c22e29915
-    new: b02dde15563165f6ad166b1aed3fd263b1901545
+  - ref: refs/heads/kbuild
+    old: 44028378399f0b16ba5158dc7645cd577b89455d
+    new: 1809d3a7b51a6ef0f6953d9b2533a71e8e631fee
     log: |
-         d13b57f72f0c8b8e058f9aa4322641d5c15a2618 rt-tests: Fix warnings
-         b02dde15563165f6ad166b1aed3fd263b1901545 rt-tests: cyclictest: Remove histogram totals
+         1809d3a7b51a6ef0f6953d9b2533a71e8e631fee scripts: Introduce a default git.orderFile
          
