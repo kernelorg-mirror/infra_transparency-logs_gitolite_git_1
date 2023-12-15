@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Fri, 15 Dec 2023 15:13:05 -0000
-Message-Id: <170265318536.31071.11986686642850247193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Fri, 15 Dec 2023 15:24:09 -0000
+Message-Id: <170265384902.5900.10919713149389523231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/tags/mm-hotfixes-stable-2023-12-15-07-11
-    old: 0000000000000000000000000000000000000000
-    new: 732ef278488976757d2c87d1bda54bd34d5364c1
+  - ref: refs/heads/review-andy
+    old: 6191e49de389f57a2d34fdfe2c5df7fca2a1f246
+    new: ebe7f3393784857c487bf82f86813a8b1384e278
+    log: |
+         ebe7f3393784857c487bf82f86813a8b1384e278 pinctrl: intel: Add Intel Meteor Point pin controller and GPIO support
+         
