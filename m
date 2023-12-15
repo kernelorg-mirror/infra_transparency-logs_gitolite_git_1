@@ -1,22 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 15 Dec 2023 10:58:24 -0000
-Message-Id: <170263790454.3765.1468851215857494493@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Fri, 15 Dec 2023 10:59:39 -0000
+Message-Id: <170263797967.4279.2815124006961288773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/heads/main
-    old: 523e1f5f3754fa738f2ab6eb6f4d2b6f51d10b83
-    new: e16064c9af7fe5a2220f7ad5f9be6fd7516e427c
+  - ref: refs/heads/mtd/next
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
+    new: a7d84a2e7663bbe12394cc771107e04668ea313a
     log: |
-         d9d441e8e89db78683032bcedb74964575a8eafe mlxsw: reg: Add nve_flood_prf_id field to SFMR
-         b2f5eb5a6509f055e24d141aeebb0d9d9f69d1f4 mlxsw: spectrum_fid: Add an "any" packet type
-         6dab4083260b5fb46ec6e6ffd463b877127ab521 mlxsw: spectrum_fid: Set NVE flood profile as part of FID configuration
-         e16064c9af7fe5a2220f7ad5f9be6fd7516e427c Merge branch 'mlxsw-CFF-flood-mode'
+         b511e8e05b32d028d8369af3e369c924f98323ec mtd: ssfdc: Remove an unused variable
+         a7d84a2e7663bbe12394cc771107e04668ea313a mtd: maps: vmu-flash: Fix the (mtd core) switch to ref counters
+         
+  - ref: refs/heads/nand/next
+    old: 3c8260ce76634291aed877032a41e373884d69e4
+    new: 2b8aa4c3e6a5d41b10b53da2017852f647d0345b
+    log: |
+         199d1402229f26804c81508346b57a0e9c094bb6 mtd: rawnand: pl353: Fix kernel doc
+         2ca8718be0c469a99435f6330904364f8dc5a094 mtd: rawnand: rockchip: Rename a structure
+         b6c985dd9a2d5902e413c2e9ba5a770fbca12322 mtd: rawnand: rockchip: Add missing title to a kernel doc comment
+         2b8aa4c3e6a5d41b10b53da2017852f647d0345b mtd: rawnand: diskonchip: fix a potential double free in doc_probe
          
