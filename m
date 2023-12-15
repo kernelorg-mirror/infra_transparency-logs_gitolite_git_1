@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 15 Dec 2023 02:56:42 -0000
-Message-Id: <170260900285.29114.1681658868745180313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 15 Dec 2023 03:00:09 -0000
+Message-Id: <170260920946.32071.5982290506889201611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: b3cb7a830a24527877b0bc900b9bd74a96aea928
-    new: 0d2f3b87d5017ffe8d6f2c6d8339a53fe871cf97
+    old: 70f010da00f90415296f93fb47a561977eae41cb
+    new: 2c1a4185a105a252582056b642b2c294bc6ba980
     log: |
-         d215ab4d6ae8bea8f66a50399745791b7de5b7d8 net: mdio-mux: show errors on probe failure
-         10ad63da5c036b2fd61600b43217cfa9b4d66f52 net: mdio-mux: be compatible with parent buses which only support C45
-         0d2f3b87d5017ffe8d6f2c6d8339a53fe871cf97 Merge branch 'mdio-mux-cleanup'
+         91f9181c738101a276d9da333e0ab665ad806e6d ice: fix theoretical out-of-bounds access in ethtool link modes
+         9b3daf2b0443eeba23c3888059342aec920dfd53 i40e: Fix ST code value for Clause 45
+         2c1a4185a105a252582056b642b2c294bc6ba980 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
          
