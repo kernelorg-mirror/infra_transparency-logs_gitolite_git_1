@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1267244061577212835=="
+Content-Type: multipart/mixed; boundary="===============3901065089788600556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Fri, 15 Dec 2023 03:02:29 -0000
-Message-Id: <170260934972.706.8433601038225716498@gitolite.kernel.org>
+Date: Fri, 15 Dec 2023 03:03:44 -0000
+Message-Id: <170260942445.1345.17102831394721317540@gitolite.kernel.org>
 
---===============1267244061577212835==
+--===============3901065089788600556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/next-test
+  - ref: refs/heads/next
     old: 3a0f44b081aee91acecd56a2a59e88c4f99e636a
     new: 8fc63a91e785ef06fb7f1aba59297793d85095f7
     log: |
@@ -29,34 +29,34 @@ changes:
          8fc63a91e785ef06fb7f1aba59297793d85095f7 Merge branch 'smp-topo' into next
          
 
---===============1267244061577212835==
+--===============3901065089788600556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1702609325 +1100
+pusher Michael Ellerman <mpe@ellerman.id.au> 1702609423 +1100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1702609323-de4413a1de08f37af195acbadbb2372ff49e56d4
+nonce 1702609422-fdc439b905bd5798d764bbbe891d1a74495e4a1c
 
-3a0f44b081aee91acecd56a2a59e88c4f99e636a 8fc63a91e785ef06fb7f1aba59297793d85095f7 refs/heads/next-test
+3a0f44b081aee91acecd56a2a59e88c4f99e636a 8fc63a91e785ef06fb7f1aba59297793d85095f7 refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmV7wa0THG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgATaD/0SD6Y9gFD++Yi8+7hhwkpyHItAm1Vw
-mxR0IOxmt4JSviF9NUl1BKapP/fVWNdIEHKqZL2kENQiJAZ6BNdbgbLpf/5QnwH9
-SJwkxoGGD5AgM9ArhiXzdTudOVKP8OMdg9sbtIu11HSK9yRiCuBPmfXmaO6eFv4i
-5t9oSNcFaAORTLOn2IJks15bcFK4ji447fTl32scYjqEU+adatjxOVHD/n/P6W3G
-0IUWawzbWMoyzLN7NUSr7jx9yGukh++xte+PNuTKyxxRzhhBvAY0Tt9xLPFoYUMI
-wIx9RL4ip3+2nsZ1mDO9gI6lU5mInmkxrb5wnPigV0SDgvV0ZYTpbKxwcEdjQxQX
-S7H8oRhIzwiEAUnJzjMOr/7eAqI/J2gmwXJFlqCBkra0OukHAyuaZB4o+5KoK8a/
-tv5Fq/utoGfFk/E8z81GsD+aFhFgFEvBa+wFqFLUm9Nxt7x+Z9Bi4aqVVPD0fwxU
-5aKqk5TuOk++KxOaIczc5m4pFdaI3Ml4x3nUXyZQM3ma3OmgD0kRNsbSvPr6/w6f
-0tdoNE0je06G85Sgo7CSw9+5J0Lt4eTp8tv0YF9wuUycngFm98Qdvf0kNbmmIp7d
-q+kHs5yP1Er7h46ADdAfL574rCp0vNue2KFCU46xiXk2++YveYMUp//s6WatVzYi
-kBGa707KLwdOmQ==
-=OGWJ
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmV7wg8THG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgAdWD/0cNWF+EvtrkNp8Fu72LWljQTOF+ooq
+DrwEXJ+uGBQvUHK3gjHtJLrboURSsOv7IFASHViT4sHhjv13Nlj2iXQPaaEzMAzy
+0iuPUyJ6EoHcl8fSA/BVAullYOy7oWXiUqkM1uFvQccmVtUgPoWVal9n60VEv51S
+1XlPLfYsmk/WKYEn5HHBqJl7/owiUu9HBKKOyVWIDakrusudMVH4KNlj2Il8t6fN
+uuCETWZAag0HYAn8x+lNuP7YTrYnr8lnZZ6AVQDdFJBDXIGYW6s31Ai7u6ehu1hu
+DWbvl+32DjAXztRil5xqiPHyVC+Y2w5qKvo7laqAVKRuXUomub61gJ00zPPO4mVr
+fhJPO6EoHRccgKeKJ6Et8tX6JyqP3huFMm3XHcegnfHRCERpteCWdltt5I6pZ4tX
+XnKEPJROMM/HSJJs99w7req1VjOIA42R1bOb30Qe6aHd7B3Jxnw1lYMmAo5aKqyS
+oP3/EeZw+CpTMD9DvuX90SCdieZazjtD77DSkHT/2ir7OfBgmNviaKZxVXTxllai
+44yNvU/59urwoM9h/67TZrZ6cBUWYC9pgr4D7Des0WqBkrRPzavR233RgMDtxyIo
+NRhwo9w2loZvVchsoT622MCmoKvkZewJHGaRigJHBT29YnJi8RHz6F6IJD26h+/8
+0lGi4+lIE6NKnw==
+=jhRR
 -----END PGP SIGNATURE-----
 
---===============1267244061577212835==--
+--===============3901065089788600556==--
