@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 15 Dec 2023 00:48:43 -0000
-Message-Id: <170260132342.27021.1709677517208850256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 15 Dec 2023 00:50:03 -0000
+Message-Id: <170260140326.29104.17232707654630736907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 2061aff00af12d87303a76576a27df81bdd48882
-    new: 38035814e36f08954e92c13531abb637ae517f6f
+  - ref: refs/heads/io_uring-6.7
+    old: 595e52284d24adc376890d3fc93bdca4707d9aca
+    new: 1ba0e9d69b2000e95267c888cbfa91d823388d47
     log: |
-         38035814e36f08954e92c13531abb637ae517f6f Fri Dec 15 12:45:34 AM UTC 2023
+         1ba0e9d69b2000e95267c888cbfa91d823388d47 io_uring/cmd: fix breakage in SOCKET_URING_OP_SIOC* implementation
          
