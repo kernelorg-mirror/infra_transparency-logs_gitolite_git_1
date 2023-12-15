@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2067097198749703785=="
+Content-Type: multipart/mixed; boundary="===============4835399016432574833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 15 Dec 2023 13:21:07 -0000
-Message-Id: <170264646707.13283.7465919137660823717@gitolite.kernel.org>
+Date: Fri, 15 Dec 2023 13:25:01 -0000
+Message-Id: <170264670188.15077.3981389709930998404@gitolite.kernel.org>
 
---===============2067097198749703785==
+--===============4835399016432574833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,56 +17,57 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: e045e18dbf3eaac32cdeb2799a5ec84fa694636c
-    new: 9915753037eba7135b209fef4f2afeca841af816
-    log: revlist-e045e18dbf3e-9915753037eb.txt
+    old: 9915753037eba7135b209fef4f2afeca841af816
+    new: 43f012df3c1e979966524f79b5371fde6545488a
+    log: revlist-9915753037eb-43f012df3c1e.txt
 
---===============2067097198749703785==
+--===============4835399016432574833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702646464 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702646698 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1702646463-a6bf89caa1be7f5310d1a5203acbfbb2ccb012f3
+nonce 1702646698-dffed0d2816d2c10a1e094d25664a9953a37b5c7
 
-e045e18dbf3eaac32cdeb2799a5ec84fa694636c 9915753037eba7135b209fef4f2afeca841af816 refs/heads/tty-testing
+9915753037eba7135b209fef4f2afeca841af816 43f012df3c1e979966524f79b5371fde6545488a refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV8UsAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xgUP/1rWcOR+n9y2cbKFGhPk
-EiDSdMhw8MBnEs905zR0a02Scj0du6llOkFudFWH3ryD7/DU1c3/penbAaDYK0nT
-OnDhdIyqvvW92VW/552eKU4kQXoeVQao9ujJ3acBD4xyLkEshA12eqpNLA+FgKDC
-x8vl/ULdGJTmvwPyUnDnabIacQYbON77WtB10XrV0WZRTzHMRNTPXFCyUSanOMdf
-7gKqzqQAOuAvJ2kawi/7syPXhuB9ULs9dZhab6aEa11GazTEEsS4LlRzgp4GNa7G
-UPJ7wZcxamZ6PaZUG1O2lXQoOtAL1+Q/XqrSAfQjqiMAl1wunSajA+Hj0Gdf3+rE
-B4G2Dj+IEhQdvfB/JQT1Mdug/UaEUooaqUIWG9FjRjcy9NFoyHkmiE7ztlMPfLdh
-CqXNq5+WOlDswJraJIB2DWXCIRjIrZd+OowLRH+tHDJY6gQ8VvZoQZfbAicFkos1
-m2M/nnBbTK7QmHVLtMn/0lG6W7vAK4PNIw4CuwKa2QkrtRBY/SwhU+gNFxWxZY6p
-QtPFQPY7TDjLJR2IZCmtO3gOM8DQMWg3uIgtX82YEvkhhbpYZ9qI+KRSldffcCW6
-ZNQwobyX1ZvuPxNepvheNeHe0NiqrQEfxp/El4x0BoloBoKoIXOKqCUqbwkG/PhG
-qttETbtxMprh58i6giS8q4Cg
-=26XC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV8U6obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+liYQALdQgJk7IlOrs1Mg5fkC
+//LYrX3XA9JOB2a92l68sQICKQcOdO7u/FZ2fcicBxSVL6xA564O8xvbtHfcuv2D
+TprsWGXdlSGkSCiaA+XjdyFNMYdx2wZ7Dptvzx8wRH8RYqRGXsTiPhfTJai3tsfo
+aj8iESKPGdkfNAXELWyx6ufu0wGGL2HsxEvC8BaGFSyCrH4hsatOkv4xc5kaCX+u
+ysalLJwkfLgQUi9UpFTuPXVeAt+uOQLKPWBdr9PmDkHEqdj4ISszmCIjaAu6W4m3
+De70NQXXMzAHbcGSZpFfMPQo6lvqj226/TOymvDHV7F+1Y3P6S9muzJFSmVVjDWZ
+T8ZOlipjB32vpUs1RsyADl7CkYmnGRdX/X5ICkCm9skDcXv8x6y2spW0B73ll97v
+5vAviFzSFsBvwntW2WwAVcQqYx0qyWmfyGkX2o5tWPWkM+9RrVPDwlQXTd8xPjGa
+HI7dRAT16bl6n+0vG4OfWIEi3A7d/E1+mgK+pn3+ZQPCur3INfE2Nh+SP4NGUnfv
+Vpa23/LanOOV7NMsHuoJYGV+ApatIGLzwt9hL07uxEX3SC03E4T7bhh0E4hM8iY7
+7V/pJXmor+xmsFE35/HSgMxuaMZUSvcVntH8/8JQVNfx5fYIXBzeacg2Bp9aFtoo
+Tx3tk4h6slETp5mm+XGgcBli
+=o8N0
 -----END PGP SIGNATURE-----
 
---===============2067097198749703785==
+--===============4835399016432574833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e045e18dbf3e-9915753037eb.txt
+Content-Disposition: attachment; filename=revlist-9915753037eb-43f012df3c1e.txt
 
-9df1dd450689dccc19fa471b91c71fc977dab946 dt-bindings: serial: imx: Properly describe the i.MX1 interrupts
-2600d9939440d608e1c8128e9e47e7948c024442 serial: esp32_acm: Add explicit platform_device.h include
-3d19ff562d0618a17c4f2c42c8fc84de4e2880e2 serial: esp32_uart: Use device_get_match_data()
-e0f25b8992345aa5f113da2815f5add98738c611 tty: allow TIOCSLCKTRMIOS with CAP_CHECKPOINT_RESTORE
-96d7e361ca4cb0e8b6fa0635a04609b6367257e6 serdev: Remove usage of the deprecated ida_simple_xx() API
-6bcab3c8acc88e265c570dea969fd04f137c8a4c serial: sc16is7xx: remove wasteful static buffer in sc16is7xx_regmap_name()
-f6959c5217bd799bcb770b95d3c09b3244e175c6 serial: sc16is7xx: remove global regmap from struct sc16is7xx_port
-41a308cbedb2a68a6831f0f2e992e296c4b8aff0 serial: sc16is7xx: remove unused line structure member
-4409df5866b7ff7686ba27e449ca97a92ee063c9 serial: sc16is7xx: change EFR lock to operate on each channels
-dbf4ab821804df071c8b566d9813083125e6d97b serial: sc16is7xx: convert from _raw_ to _noinc_ regmap functions for FIFO
-9915753037eba7135b209fef4f2afeca841af816 serial: sc16is7xx: fix unconditional activation of THRI interrupt
+d54cbe1db72dbfc664bc21b40c324a624faacb16 dt-bindings: serial: Add a new compatible string for UMS9620
+6b64f8e360c00f180cffa1806095cdd2abc55b16 serial: ma35d1: Fix spelling mistake "ononsole" -> "console"
+a5f18286083fe450d6080abc8d4341c630f682dd serial: 8250-fsl: Only do the break workaround if IIR signals RLSI
+1f78c56007ba61b7b8c3f7dbb6787b6af116d3f0 tty: serial: amba: Use linux/{bits,bitfield}.h macros
+d93ebe0fcfbd29e2b93850b5f66f98b0d63cce9c tty: serial: amba-pl011: fix whitespace formatting
+dc00f0cc5e04490416d4c2164011e39b4a2d29df tty: serial: amba-pl011: replace TIOCMBIT macros by static functions
+fd64ff0966d39422f547d7935b8988e962f9f91e tty: serial: amba-pl011: avoid quoted string split across lines
+28a7ec8c6679f594b4218090fe2932a647594fe2 tty: serial: amba-pl011: fix formatting of conditions
+826bd77ae5e8fec91a5fddb189adbdbaef3050ef tty: serial: amba-pl011: fix miscellaneous checkpatch warnings
+8ff87406c29b43fa0d807ce80601c94821cab9bc tty: serial: amba-pl011: unindent pl011_console_get_options function body
+a49a8b9d7cf5da42e61d73bd502b5a0e2b7e61c3 tty: serial: amba-pl011: factor QDF2400 SoC erratum 44 out of probe
+43f012df3c1e979966524f79b5371fde6545488a tty: serial: 8250: Set RS422 interface by default to fix Moxa RS422/RS485 PCIe boards
 
---===============2067097198749703785==--
+--===============4835399016432574833==--
