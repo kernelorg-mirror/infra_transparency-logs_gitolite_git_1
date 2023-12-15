@@ -1,53 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4151584699019772786=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 15 Dec 2023 14:49:05 -0000
-Message-Id: <170265174574.11872.14457982890960253462@gitolite.kernel.org>
-
---===============4151584699019772786==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 15 Dec 2023 14:50:04 -0000
+Message-Id: <170265180436.13847.7035898985370995775@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/tags/device_is_big_endian-6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: fae4b3e8a984bf320b1246b25726233a2738235a
-
---===============4151584699019772786==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702651743 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1702651742-c70f7ae581ac1d697d179463837c0600afc08e36
-
-0000000000000000000000000000000000000000 fae4b3e8a984bf320b1246b25726233a2738235a refs/tags/device_is_big_endian-6.8-rc1
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV8Z18bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+79AQAMTyGq+vqtpb0pRi9o8K
-4Mo9Gwq8WbNGt0IWFjUAle3GJXSoofoMK465eg1ftkye1no1eMl7sFF/Dqc8RMq+
-ZE+f0wt5u8SCWurG+DFpYGhr8Q8+ptwkBsogK9vijZofNyH369btFroQhDP1yNoA
-t9rSEOlCPEf248WzcvqHfQUr9eOtrEfxD5EKFnvGVAzzRXcE98KMTTAsaGtyExMz
-stNlWistYETh9W5qDh55CdZ9qsc3NtyF1efFMJBmPXjDYYtc4GdtIYMQC1ff3gNJ
-fKdSRw6S3/1mh2wFKhCnJcskzzCb5NrUyxuzNPxv5dBrz6KGArx2xirmEmdl0K2x
-e1+dh5IBDJvOrZkjiGJZZZAS66HIgeG0/D4a+Mo+k1PwwX+l0Vb+IQ5W2W6Ns9C4
-Txof0ti6gxWjTR4Ug27nlPVpUbMFVui7n5dWZBidMAFAu999fw/nqunF4mx8Rmnn
-bsYL8hQ5VdXGt33QEe2FFCBHdo08vin7kikaM+ptcI37N+dPxHcKRH8cj5c9j8XW
-mxce8dJQm9R5E/S2tXMSWmKbNIe8gs/KBZNBFTw/YsFNcTxhdFTmTaL4TICvslzr
-6avANjvrERbmZ2Z4JzJnKaF4Sc4cOQpv22iniUec0C8IGScpveVE4w/X5gtBz2H7
-73J3ol7Nzd1UXr92yadkDhb1
-=/gx5
------END PGP SIGNATURE-----
-
---===============4151584699019772786==--
+  - ref: refs/heads/for-6.8/block
+    old: f19d1e3b17acc8173cd83b189f4c9506889b1c49
+    new: 0c734c5ea76e333fbb8dd83b5bab46291b38096b
+    log: |
+         3f034c374ad55773c12dd8f3c1607328e17c0072 block: prevent an integer overflow in bvec_try_merge_hw_page
+         6ef02df154a245a4a7c0a66daa5a353daa788dba block: support adding less than len in bio_add_hw_page
+         0c734c5ea76e333fbb8dd83b5bab46291b38096b block: improve struct request_queue layout
+         
+  - ref: refs/heads/for-next
+    old: 84ee21c83bdafcc7dab6c114e99dc3fd57f420b5
+    new: 61081cba2ef3571e89f99a99a02cee34fd3290e1
+    log: |
+         3f034c374ad55773c12dd8f3c1607328e17c0072 block: prevent an integer overflow in bvec_try_merge_hw_page
+         6ef02df154a245a4a7c0a66daa5a353daa788dba block: support adding less than len in bio_add_hw_page
+         0c734c5ea76e333fbb8dd83b5bab46291b38096b block: improve struct request_queue layout
+         61081cba2ef3571e89f99a99a02cee34fd3290e1 Merge branch 'for-6.8/block' into for-next
+         
