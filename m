@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2893734417774772389=="
+Content-Type: multipart/mixed; boundary="===============3967833464800157100=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 15 Dec 2023 17:55:36 -0000
-Message-Id: <170266293612.22251.6027753196761062101@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 15 Dec 2023 17:55:42 -0000
+Message-Id: <170266294257.22345.17134121166710356722@gitolite.kernel.org>
 
---===============2893734417774772389==
+--===============3967833464800157100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: ff6d413b0b59466e5acf2e42f294b1842ae130a1
-    new: 532888a59505da2a3fbb4abac6adad381cedb374
+  - ref: refs/heads/usb-testing
+    old: 80602b6b5a23b210224a5b44d9e5b5c1dc193632
+    new: e9158c7e55339737847cebbfa397c668713f1a15
     log: |
-         532888a59505da2a3fbb4abac6adad381cedb374 driver core: Better advertise dev_err_probe()
+         76cd718a9ffda837d4b4f1558c6e6ea08a9a7c59 dt-bindings: connector: usb: add accessory mode description
+         e9158c7e55339737847cebbfa397c668713f1a15 usb: typec: tcpm: Parse Accessory Mode information
          
 
---===============2893734417774772389==
+--===============3967833464800157100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702662933 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1702662932-5c3284d33ef0772d6c2e3a104baa821361d27d96
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702662939 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1702662937-4db6706fe816b5d13ce11e98b7a3d383905d7e5d
 
-ff6d413b0b59466e5acf2e42f294b1842ae130a1 532888a59505da2a3fbb4abac6adad381cedb374 refs/heads/driver-core-testing
+80602b6b5a23b210224a5b44d9e5b5c1dc193632 e9158c7e55339737847cebbfa397c668713f1a15 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV8kxUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lbQP/iVrqsjvrBl5u1J6km62
-9iGTNow1rz0nsFv6k0ilaCsaSBBOui0LUrJAhiWmfuTWvraCDzh+GHoV1XGaMdPY
-uoHB/5xul8EJPOfSrJMJky3vYE7aI4dt2DW/GIH6akBKIYoqtZlBrsqc4Xq/FNMp
-wsBKvNfDqGwgFzj++R7KjcOHEFHmHnwRLbK35CDpsXTGX+NrshJrI9TRzAARwD+P
-H2fm1FB78gx6RPowuoa4thoHiya8g8q7r9o9KNLyvpdczOO2qVtOumM2nFgiP64c
-HxYI4Ts1WilTg0vpJpoeM4UO130hx7d7hEEZQf78TJsVpglGTMuDA/EPpeWzt1ih
-8RBaAMNmoPfj4w510ILnogMIYLbmEDFEzmKc1LECl5QFJ6YuSU88E46aGdST77DW
-+ZRB1t9hkwQg5iHl4P4rJrDpVXTQxByWK+lFje9yT7o2t+LrDSiyJZ3e0r88HxWv
-YVlClU2gatWRf8L6RRSNpg+2rn3ToXMLghYAG2jGAbNMeBuSz3UgEqzGj/NCYHez
-PNvG6WB7ny8n+ERr3XqcT9TEYdUsvSW9awxTM8lReyElbHBG4mOeSchlTEiT+IUw
-v2AnBPHTw5X4bWcb7TFm7lZu9G6dX4+lhSb386b9TA5C6CCy671xXlEvYNxkkNfe
-NTCcfT7uqJ/6mr5ljwK8e8ex
-=bBDD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV8kxsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lE4QAJ0zKTuOVmdh4TyjQu4W
+QEwUb+xrkRUSALTLLuFfeRlBtzZe/ZgzOBqZUk1XR0gBrwLij0I1IIV5e1oJwQbN
+FE5g9XO7UIt+/FRHJ/w09vDaI17Wh7ayG2tOx/O1LbinUdqKo0DUPi/opOjdecWc
+5IOAdHMBCM30MrYUAg2EqcN0a2jnzFIk57xlpSOu4Vf036eQSPvqpiJflA4EOJrG
+nfJn7y3yOIyqiSp01aOEkVhLVBPM/85TIKahi/P0U1RO037JEzQjo/QLufnrMaf4
+ejX/9mzCikmZQArz0foEjoKhcoQfr4RHFbwNslBMgxaOEZCIG0VtelbgHRuIPzPq
+tYRukqlSxk763FKarJcBJ2eP5grkHd+EjFIdFEoucPQtWAYpWK9GmGyjE7IWnu8c
++vuuHTEIJtM0FIKcRxdP+S/MjNXJkX38AoBrQt07GahcWoeURlNbBxy1Y97kSxPU
+tAk6dNPiuugEJoT62DgaYVFQz8of+LXBfMeIAGEWtmfHclDgQwxQGP9mQ8O6opmF
+8M3/XBLh3a/iuBFbGjOItbD1mK1oAqOQTmr5AbDvMTKR8n3rFxqdDkXpCaNNV7Pk
+TT605Ykig2jl21U3aBE5r0GcS8c9SYRTxXWGP0E/8rLu92G73qDDiU7UHnTPyfkX
+wpEJEqoFe1paiwqTAOs67Jxl
+=Vf7P
 -----END PGP SIGNATURE-----
 
---===============2893734417774772389==--
+--===============3967833464800157100==--
