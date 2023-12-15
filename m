@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============9013741742496315267=="
+Content-Type: multipart/mixed; boundary="===============6173521962223023089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 15 Dec 2023 16:25:37 -0000
-Message-Id: <170265753713.20405.8949146769143205996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 15 Dec 2023 16:25:43 -0000
+Message-Id: <170265754327.20534.12394810652570412740@gitolite.kernel.org>
 
---===============9013741742496315267==
+--===============6173521962223023089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/spi-6.8
     old: e1fca6957f1966cb6e75cdc354f4bcaed230a454
     new: 644f315d12ea29a67bc985d06ab0962452eb3605
     log: |
@@ -24,28 +24,28 @@ changes:
          644f315d12ea29a67bc985d06ab0962452eb3605 spi: pl022: update description of internal_cs_control()
          
 
---===============9013741742496315267==
+--===============6173521962223023089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1702657535 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1702657535-a80454a7d26d190b94585dc498334461be0e2b71
+pusher C3F436CA30F5D8EB 1702657541 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1702657541-4f7612140836f31a16c6c1dbf2b5100a855e7cf8
 
-e1fca6957f1966cb6e75cdc354f4bcaed230a454 644f315d12ea29a67bc985d06ab0962452eb3605 refs/heads/for-6.8
+e1fca6957f1966cb6e75cdc354f4bcaed230a454 644f315d12ea29a67bc985d06ab0962452eb3605 refs/heads/spi-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmV8ff8ACgkQJNaLcl1U
-h9DfNAf/YJ+LyRBP646aoko2/IbAV9scSZiroyKEVtCM78mlH9TQS2K1yIGpfSt/
-Hz1rFh62JHoJHZNiGQ5bkb2s6PI4mo185ZAKXxu31aYVKP9q0NGoJ+N8nhzTcYwl
-kavLtEXXxeHCExOolRJ/RRhPqjsyWanpLBR43oD8rUT+elkWlFJVssdexbGA01ug
-utw8nq7umbqJqpP9H1CzU3XmfGoI0zKUC0TNW3LYustr7HkYAbY0v1uGoIC72wQN
-BYtsYeCpgcOpjF8sFqI1wgsQ9Jnxmol4IOObHLA5/3f/S4ixIRZYBT+sc+Riz1ua
-MW49HVNEF/71Po6h3EH06Ai1+0nzvA==
-=pl6O
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmV8fgUACgkQJNaLcl1U
+h9Bgvgf/V5NldzLL6KLPbVDmGDieXhLfXGp2eBb9mXrUTz9+7eI+HV3AhP2Ko1GE
+un9WM6t85AemftAMywkWHu6dDNH6WDYMhI9inuxqV9eKf31PMLaTnxPaWvtXR5ih
+Eq6HYaVxak0NqpLaewYH3P3KKB7wko8cJzeBgR/MQfhp1Td+Pnm4wS/vAngLX+/+
+HJCFtCzsScSnD70qnOXvJxTm+MyzbNYFpIUYHn1ikh1/bljUhZbnDjgfZxAXWW/b
+/C8TCoMYofH0YOhyOHmpqOvEDa1QQuXqqE/3hjaLkh+MnWlfKlhm6fel7DRHraS/
+FfJcPPvxVnQ4kVeNmGNhEMTnd8T0Xw==
+=LwLb
 -----END PGP SIGNATURE-----
 
---===============9013741742496315267==--
+--===============6173521962223023089==--
