@@ -1,30 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 15 Dec 2023 14:50:04 -0000
-Message-Id: <170265180436.13847.7035898985370995775@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0112826057578121197=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 15 Dec 2023 14:53:40 -0000
+Message-Id: <170265202016.15207.11408299335747552152@gitolite.kernel.org>
+
+--===============0112826057578121197==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8/block
-    old: f19d1e3b17acc8173cd83b189f4c9506889b1c49
-    new: 0c734c5ea76e333fbb8dd83b5bab46291b38096b
+  - ref: refs/heads/driver-core-testing
+    old: 7c41da586e9f45bf8842b4dca08681df8d586ebb
+    new: 7c23fb2e6e3b40db5abbead64842060f13c4bb15
     log: |
-         3f034c374ad55773c12dd8f3c1607328e17c0072 block: prevent an integer overflow in bvec_try_merge_hw_page
-         6ef02df154a245a4a7c0a66daa5a353daa788dba block: support adding less than len in bio_add_hw_page
-         0c734c5ea76e333fbb8dd83b5bab46291b38096b block: improve struct request_queue layout
+         826a5d8c9df9605fb4fdefa45432f95580241a1f device property: Implement device_is_big_endian()
+         7c23fb2e6e3b40db5abbead64842060f13c4bb15 Merge tag 'device_is_big_endian-6.8-rc1' into driver-core-next
          
-  - ref: refs/heads/for-next
-    old: 84ee21c83bdafcc7dab6c114e99dc3fd57f420b5
-    new: 61081cba2ef3571e89f99a99a02cee34fd3290e1
-    log: |
-         3f034c374ad55773c12dd8f3c1607328e17c0072 block: prevent an integer overflow in bvec_try_merge_hw_page
-         6ef02df154a245a4a7c0a66daa5a353daa788dba block: support adding less than len in bio_add_hw_page
-         0c734c5ea76e333fbb8dd83b5bab46291b38096b block: improve struct request_queue layout
-         61081cba2ef3571e89f99a99a02cee34fd3290e1 Merge branch 'for-6.8/block' into for-next
-         
+
+--===============0112826057578121197==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702652017 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1702652016-a761bc522449eea5429bd2a74dab166ec425db6b
+
+7c41da586e9f45bf8842b4dca08681df8d586ebb 7c23fb2e6e3b40db5abbead64842060f13c4bb15 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV8aHEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QJAP/0Z4Bsm6/sNi7QzLubGi
+ccoI21zcBQB5PTCAXMxGmdrhlvvVrFml0/hPJ71rGc64Qx1vpw688nTQaI859a48
+hPCzhV7Ln3l9eTf5xWr4s8LCr93f1V+zw5TBtYjByACQYSWd4bDS+g/W4tFRRThk
+URNaSDgl8fcp97ln3Ejh0YNHnChid4TD+mps2EZGK6neqfltCodOV8fIUvE+1NuX
+TQmSboqT9bSLZs+/CdwVvndE2fsM2U0eac0Aj4lFRL4RMe5QApc2YDC+3PbigBgG
+lh8QUQbFm5gr6ziyUK//1xgxKLvoyIGgs9KIY9LNFgBxkxdgeuI5jc9rYlRXQFLa
+iqGG940iDqgof0gKi4NL8kBF9JyuVzqBurI1q6Gvk4iknFyay+uPOuevNJ13HWVK
+gMfpj6/OnImj19/I0QFQm6/qjz6FxDweYkKEiuhoQ957HeXt15AVljArsqar/dXU
+a2YKC1agKpLQOgcqxgP3qm65JmliHM/FEeWkRb9NT3M0tXbzJpvDbLLryGA9lfDp
+if6/07nVUHE1BfBFYZtb9TyRs9lTpkyeZJZ/uYhNXiIf+i2LrFZr8AbbniPSqlhi
+KZAD4jHFj6TwGvctOMlGZuG4B653NNzoH6wm4ra7w+zCD1D0bd2Adkfqb/bme4Kp
+pMYTGFidOljdHVGOGGWAHmRj
+=IJ6w
+-----END PGP SIGNATURE-----
+
+--===============0112826057578121197==--
