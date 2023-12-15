@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4319664181176749598=="
+Content-Type: multipart/mixed; boundary="===============2877048779390190779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Fri, 15 Dec 2023 08:02:21 -0000
-Message-Id: <170262734194.23756.7108783834303887541@gitolite.kernel.org>
+Date: Fri, 15 Dec 2023 08:02:30 -0000
+Message-Id: <170262735076.23890.9017524873373727338@gitolite.kernel.org>
 
---===============4319664181176749598==
+--===============2877048779390190779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/gnss-linus
     old: 98b1cc82c4affc16f5598d4fa14b1858671b2263
     new: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
     log: revlist-98b1cc82c4af-a39b6ac3781d.txt
 
---===============4319664181176749598==
+--===============2877048779390190779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c527f5606aa545233a4d2c6d5c636ed82b8633ef Merge tag 'powerpc-6.7-4' of git://git.
 3a87498869d6d1e7347cd01f337a77984604eb5e Merge tag 'sched_urgent_for_v6.7_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 Linux 6.7-rc5
 
---===============4319664181176749598==--
+--===============2877048779390190779==--
