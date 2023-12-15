@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 15 Dec 2023 18:57:19 -0000
-Message-Id: <170266663979.2480.13064959128383216819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 15 Dec 2023 18:59:18 -0000
+Message-Id: <170266675829.3263.7631960897279959011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/filerOo38S
+  - ref: refs/tags/ath-next-20231215
     old: 0000000000000000000000000000000000000000
-    new: 44a31bcd3f8dc143c224ab9fa3da67addfa5e8f0
+    new: 9484882faaff71ce850ce57ddec6d9ce18e019e0
