@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 15 Dec 2023 15:08:45 -0000
-Message-Id: <170265292545.27565.1555276617911682483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Fri, 15 Dec 2023 15:13:05 -0000
+Message-Id: <170265318536.31071.11986686642850247193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/dev
-    old: 7398bb29778c4998640f73e1f017a1b9cdf1f0f1
-    new: 4232173f8f7fb924f3c065ebd8cbfdadc5dbef90
-    log: |
-         134bcaa8114595cca01ab9a49229c347a5f7b754 erofs: fix ztailpacking for subpage compressed blocks
-         89ba1ee86729edfa4ff4fbca61043d6f0f2bb502 erofs: refine z_erofs_transform_plain() for sub-page block support
-         4232173f8f7fb924f3c065ebd8cbfdadc5dbef90 erofs: enable sub-page compressed block support
-         
+  - ref: refs/tags/mm-hotfixes-stable-2023-12-15-07-11
+    old: 0000000000000000000000000000000000000000
+    new: 732ef278488976757d2c87d1bda54bd34d5364c1
