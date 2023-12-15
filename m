@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Fri, 15 Dec 2023 16:00:31 -0000
-Message-Id: <170265603191.1014.9867350641653837738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 15 Dec 2023 16:04:43 -0000
+Message-Id: <170265628323.2663.4955309737567823280@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/ath-next
-    old: 4fadce88cb9fe95cfa7000c4ec041acf47b67447
-    new: fd6ed1772b2c639370b7b41602d4c925dbd003d4
+  - ref: refs/heads/ras/core
+    old: cf0573939d3f4ce822ceb742a8179f38697b1953
+    new: 1f68ce2a027250aeeb1756391110cdc4dc97c797
     log: |
-         e75fda64f0fee2599e28b123594375ccd8991507 Revert "wifi: ath12k: use ATH12K_PCI_IRQ_DP_OFFSET for DP IRQ"
-         fd6ed1772b2c639370b7b41602d4c925dbd003d4 wifi: ath11k: workaround too long expansion sparse warnings
-         
-  - ref: refs/heads/ath-qca
-    old: d1579581279132cab0d58e90ac2e3d5284d4cf26
-    new: 1c991dc0741e7b739fcb9e5204d69726caeb465e
-    log: |
-         e75fda64f0fee2599e28b123594375ccd8991507 Revert "wifi: ath12k: use ATH12K_PCI_IRQ_DP_OFFSET for DP IRQ"
-         fd6ed1772b2c639370b7b41602d4c925dbd003d4 wifi: ath11k: workaround too long expansion sparse warnings
-         1c991dc0741e7b739fcb9e5204d69726caeb465e Merge branch 'ath-next' into ath-qca
+         3ed57b41a4125609e9fd03e32228aec61d95fe1f x86/mce: Remove old CMCI storm mitigation code
+         7eae17c4add5de46efcca45356388f480103e6d9 x86/mce: Add per-bank CMCI storm mitigation
+         1f68ce2a027250aeeb1756391110cdc4dc97c797 x86/mce: Handle Intel threshold interrupt storms
          
