@@ -1,44 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============3615509542331409124=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 16 Dec 2023 16:50:04 -0000
-Message-Id: <170274540432.22117.8415322979482100401@gitolite.kernel.org>
-
---===============3615509542331409124==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 16 Dec 2023 17:25:06 -0000
+Message-Id: <170274750611.14566.13976606325005584124@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 3bd7d748816927202268cb335921f7f68b3ca723
-    new: c8e97fc6b4c057a350a9e9a1ad625e10cc9c39ee
-    log: revlist-3bd7d7488169-c8e97fc6b4c0.txt
-
---===============3615509542331409124==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3bd7d7488169-c8e97fc6b4c0.txt
-
-ef61a0405742a9f7f6051bc6fd2f017d87d07911 PCI: loongson: Limit MRRS to 256
-718ab8226636a1a3a7d281f5d6a7ad7c925efe5a PCI/ASPM: Add pci_enable_link_state_locked()
-49de0dc87965079a8e2803ee4b39f9d946259423 PCI: vmd: Fix potential deadlock when enabling ASPM
-f352ce99926048e12aa4281c32471031351aec98 PCI: qcom: Fix potential deadlock when enabling ASPM
-780f52e3213e5f05bb41adebe1f2214f2f86f4a3 PCI: qcom: Clean up ASPM comment
-e673d383bdba94c9924388086b91988254d39f19 PCI/ASPM: Clean up __pci_disable_link_state() 'sem' parameter
-7ff2b7a1821b61c324626ad57c3664398fb0083d PCI/ASPM: Add pci_disable_link_state_locked() lockdep assert
-1892fe103c3a20fced306c8dafa74f7f6d4ea0a3 perf/arm-cmn: Fail DTC counter allocation correctly
-3c0696076aad60a2f04c019761921954579e1b0e arm64: mm: Always make sw-dirty PTEs hw-dirty in pte_modify
-5df12742b7e3aae2594a30a9d14d5d6e9e7699f4 Revert "PCI: acpiphp: Reassign resources on bridge if necessary"
-f8fa5d76925991976b3e7076f9d1052515ec1fca cred: switch to using atomic_long_t
-ae1914174a63a558113e80d24ccac2773f9f7b2b cred: get rid of CONFIG_DEBUG_CREDENTIALS
-2e3f280b24ea89f6f061c8b56771b06351c7745d Merge tag 'pci-v6.7-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-c8e97fc6b4c057a350a9e9a1ad625e10cc9c39ee Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-
---===============3615509542331409124==--
+  - ref: refs/heads/nfsd-fixes
+    old: 1bd773b4f0c90123af19a853244be61518ae0556
+    new: 68d21604d91b5e9c5af2cf17e07be93bb2b06dd3
+    log: |
+         4f519bbce13371cc2ffe72d5989f9defc8dc517e NFSD: Revert 6c41d9a9bd0298002805758216a9c44e38a8500d
+         68d21604d91b5e9c5af2cf17e07be93bb2b06dd3 NFSD: Revert 738401a9bd1ac34ccd5723d69640a4adbb1a4bc0
+         
