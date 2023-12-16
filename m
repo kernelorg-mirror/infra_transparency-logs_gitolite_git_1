@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/connman/connman
-Date: Sat, 16 Dec 2023 18:46:36 -0000
-Message-Id: <170275239621.7187.8831410220784936598@gitolite.kernel.org>
+Date: Sat, 16 Dec 2023 18:47:30 -0000
+Message-Id: <170275245035.7581.15905519263172743625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,18 +12,16 @@ repo: pub/scm/network/connman/connman
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 2b5bd911fa792508633a8c996f776da64534fd5f
-    new: d818cf367bc305bc2c838a162b1f2fedbe0bbe2a
+    old: d818cf367bc305bc2c838a162b1f2fedbe0bbe2a
+    new: ca0ba66f7bad47321a680f30e8de3260a28bd30a
     log: |
-         1048a36fc9231e4a73dfa32c7781b2778485ba2e service: Add '__connman_service_get_route_metric'.
-         89bf31b00d5248677f0c329f62c208f0982f3920 service: Document '__connman_service_get_route_metric'.
-         ba04dcf066edf81ff70cc7ad898c34e2d05a4d9a wispr: Expand 'DBG' in 'wispr_portal_detect'.
-         4476b795db80d24b8f78d7d2db6f627fc1b53a06 wispr: Add 'DBG' to '__connman_wispr_start' error path.
-         34f9b7a3b57f348f28757560eaa78927f35c592f wispr: Update 'DBG' in '__connman_wispr_start'.
-         5300f162ccac9443a140d15a450d37b34cb5d329 wispr: Refactor 'free_wispr_routes'.
-         14a21e143a534352110ffb4b5ce433550df57549 wispr: Simplify IPv4 vs. IPv6 host route management.
-         b13bce65a5ffb05e42f55492e0f5f00b7d8434df wispr: Document 'free_wispr_route{,s}'.
-         4b1075d148e69b4fc3ec538d0fbfc135fb431fee wispr: Document 'wispr_route'.
-         9d3a95a2eb87fd4b98523a3366fe1a29f1f9bbd5 wispr: Document 'wispr_portal_context_route_ops'.
-         d818cf367bc305bc2c838a162b1f2fedbe0bbe2a wispr: Leverage '__connman_service_get_route_metric'.
+         431897b0f670e4a174da524819f2b06a437294a5 service: Refactor 'nameserver_del_routes'.
+         1713b2ec7a1423a019a69a3fd72007f6fc218507 service: Add gateway parameter to DNS host route deletion paths.
+         c657458462ed1e129a23d35c2310ba35d48bd16d inet: Add gateway parameter to 'connman_inet_del_{,ipv6_}host_route'.
+         2e85b0d21400163d02903470fca9c84058b182ac inet: Document 'connman_inet_{add,del}_{,ipv6_}host_route'.
+         7232f18a05d78558489ed62e2c5803f5e837d331 service: Const-qualify 'add_nameserver_route'.
+         319ca5c3d3d42dc819c534b512f13048a019c623 service: Add 'DBG' to 'add_nameserver_route'.
+         aebf73fee5991bcca8931b3b88bc8c2281ce2248 inet: Document '{add,del}_nameserver_route'.
+         3c592090946d456a4c0e9828c9c498caf6876ca2 inet: Document 'nameserver_{add,del}_routes'.
+         ca0ba66f7bad47321a680f30e8de3260a28bd30a inet: Document '__connman_service_nameserver_{add,del}_routes'.
          
