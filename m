@@ -1,52 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5842953343374578839=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 16 Dec 2023 00:40:13 -0000
-Message-Id: <170268721344.30338.5150971515266322722@gitolite.kernel.org>
-
---===============5842953343374578839==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 16 Dec 2023 00:42:31 -0000
+Message-Id: <170268735110.31240.12694292695380371717@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/controller/remove-void-return
-    old: 0000000000000000000000000000000000000000
-    new: a5eee68931fcc6ecabd35651fed0c31439078e67
-
---===============5842953343374578839==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 3DE334E7 1702687211 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1702687210-a624c7e1b5bf021567364a43a8a90548414ded37
-
-0000000000000000000000000000000000000000 a5eee68931fcc6ecabd35651fed0c31439078e67 refs/heads/controller/remove-void-return
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmV88esACgkQfGR2jT3j
-NOcDhw/8CNkaSGDpjEByyB/TOt4/O8XbcIVMHnYbZ7vxY5QAmr0kKyzyRF5plbwb
-PU4jX8b9HbzgP/HkbJenZa2whDJwLuq6W8GKX4tOUJvtx3XXqA6uzL1qtQoo1tAV
-eUdlv3P84P6OdeIWKPQM94CirQVW0ifqh5clDjMyo4FRjhXrUTHPYD7BLvDpXR85
-V0DqKzfVb217B4HuoyhRcRoGLx2pPlNL4IHAPTIoSruydm4tEs+1EqQiXRhLd/O8
-vccWP5m/J1cRsk2WrdklMI12P7q7BZm8hr1wz7N428f4Quixnfl5xFM8jEvY/inG
-seuliDAtePSS6aLAOuM8hBG2jmxwfiwXoVPH9PKMb4aP8YHCmXXn1O9MuLdpmwYU
-bi+fp6cqauwuzNcRYm7p2uY3Gbl2YQpGvLtHDWyUuTK6gartI9CP8wMiMb2GbzCL
-ZyGTfmvercG71+VhMXc+Ot/rLelyL3l/ZvElm4Bo16XV7XXGBumpbNQkfClJMxNg
-woWZrA548A6FQCK/nFtkNwIHHBK1kplXB9IYma4XBTfairLJsG1sD1w7B0uCCvPg
-LX8fVDADpo0XIKUN1zE1pXp3dvrXecU7bIqMPelMt2Ks9p94mxW4vE0WWVxanAFu
-0M64FUFOnNDBeEZx3MXwHReZLqVQ5isX2oQtve0x86MlZ6I3Iq4=
-=IFbb
------END PGP SIGNATURE-----
-
---===============5842953343374578839==--
+  - ref: refs/heads/master
+    old: 1467affd16b236fc86e1b8ec5eaa147e104cd2a6
+    new: 42d45c45624a098a9fdc477c7a8b86167f948c77
+    log: |
+         4382159696c9af67ee047ed55f2dbf05480f52f6 cfi: Flip headers
+         4f9087f16651aca4a5f32da840a53f6660f0579a x86/cfi,bpf: Fix BPF JIT call
+         e72d88d18df4e03c80e64c2535f70c64f1dc6fc1 x86/cfi,bpf: Fix bpf_callback_t CFI
+         2cd3e3772e41377f32d6eea643e0590774e9187c x86/cfi,bpf: Fix bpf_struct_ops CFI
+         e9d13b9d2f99ccf7afeab490d97eaa5ac9846598 cfi: Add CFI_NOSEAL()
+         e4c00339891c074c76f626ac82981963cbba5332 bpf: Fix dtor CFI
+         852486b35f344887786d63250946dd921a05d7e8 x86/cfi,bpf: Fix bpf_exception_cb() signature
+         3c302e14bd9d7698ea24885a7eee2b44c1a014be Merge branch 'x86-cfi-bpf-fix-cfi-vs-ebpf'
+         42d45c45624a098a9fdc477c7a8b86167f948c77 selftests/bpf: Temporarily disable dummy_struct_ops test on s390
+         
