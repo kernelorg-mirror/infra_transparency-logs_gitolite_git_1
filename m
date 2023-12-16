@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6982051919317160587=="
+Content-Type: multipart/mixed; boundary="===============7849847642916655147=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 16 Dec 2023 00:13:29 -0000
-Message-Id: <170268560972.10135.11825280765154331231@gitolite.kernel.org>
+Date: Sat, 16 Dec 2023 00:23:24 -0000
+Message-Id: <170268620418.16770.12246826449758888809@gitolite.kernel.org>
 
---===============6982051919317160587==
+--===============7849847642916655147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,37 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/dt-bindings
-    old: 639f666cf84e9192ef2ca0b5d638a258062513b7
-    new: 41f757713ac38ae2f63bc02d5653aac254c5bdbf
-    log: |
-         41f757713ac38ae2f63bc02d5653aac254c5bdbf dt-bindings: PCI: qcom: Document the SM8650 PCIe Controller
-         
+  - ref: refs/heads/controller/dwc
+    old: 0000000000000000000000000000000000000000
+    new: edd6ae1022a659b47586b64fa93c615ee14efd94
 
---===============6982051919317160587==
+--===============7849847642916655147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1702685607 +0000
+pusher 3DE334E7 1702686201 +0000
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1702685607-ee1b51b491cddaa2e3389e9c855f293f46d00c96
+nonce 1702686201-79b30b26b21e24b111aaf25b73bc6eb71b3f1d29
 
-639f666cf84e9192ef2ca0b5d638a258062513b7 41f757713ac38ae2f63bc02d5653aac254c5bdbf refs/heads/dt-bindings
+0000000000000000000000000000000000000000 edd6ae1022a659b47586b64fa93c615ee14efd94 refs/heads/controller/dwc
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmV866cACgkQfGR2jT3j
-NOckgxAAhf9+Qvd8T0NcnOrguSJgrFvgkA/LxDAZOxIgD1/KUs+6Y7JfS0wHhJxl
-y+ROWJ4LHR6V44JV/i7OPX+dQaa9BItcpX5Vrrs/bix2YGNpxUbIx1FyW43Ne67T
-HMkLlvsaGsd084kRJkmtL+E+RN9Zy6kMZ9bJnd/BXmtOsaBT8SgticuHnbsG86AT
-YKYxlU3gvTcbBjGQBrixWETwuFVAPcMN7Q1RP0KQMKum1AOnKDRNhbmTPE+oFARP
-qrM3jIKhULsI7yz7VY/esnLhPc6Mthc4YJElnJxgvp5eNQWXE1e5nPnUuRNPCrax
-U9+r1Zqz53pc0K+953s83MtKRAJjTxn95ZVlUv+6XGI9TmcVQiTo2WC2ShMtouBV
-lMOP8XSrrNRw+jC9Y5rugVjVI+K9EVrAPoRzFoIB4pjhcE1sCZ89dv7wD5LNMzM9
-6LzrAjdOblOlU2BXmsuq7e9paacPuQAVBFC+b1D0jFqhTPY89TBc8lo4gYqJlJiI
-UaH5TD0AZ5pMbX65MjKkOvSK1cFHPO8v6VgsbSfwfExvOn+2/1CdFarZpsGEgHVt
-l5tpf/B8E6PVx1sVfCryLjg3qUyVu9c6bMTeFOvadmLgtNpl6w1nExq9XNiwob2p
-ulEuy0VMIQvSCTJj/XTDjbORxmsaIhuqk4+0Wc/fz45ROtSauvU=
-=9bJ1
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmV87fkACgkQfGR2jT3j
+NOerKA//UAo4alXlaoYxjydcge2ZAg8nMb6yl4IyeS0IZXVjm813j4dD2zvT6q/6
+lKjJd434SHozLzDnFP9w/y01ZAJpgBzQiPAdsgekETleNDDDFnhB3NnuhaKY6Tlc
+23GvI+W25BXuwiBMsWstjGXsJ/LCCLRRA65l3KgUXOcJTaT5lsvrR41YgZAhHoUW
+P4zEzvoKLJbq86Gw63grgiTKbHAxbtBfDAWYUc4Jl6aG4y09oHt+S+6EKJtNzADB
+Xk+Nc3Hy+eJaFCD73XOYv2Z750sP+nL7B8Rqx8uKuBt36rM+oP4lKH7LuJ4eTUoo
+JpaDl+I+SlktGtMH7MU/yW6lMSYo5s8XF2wfvP2EYBtHWgCk1ZvyxvwG63As06ZS
+xuOuWF32+zaD6uJwAviDApKLaNS1Oe0t3AZeL4oEnMB8DJCTQMjl+Zffe1o5wHd+
+cFmX+jA/T/hH7yWoF4lm+QLTBsGDqRuzc1aqQlJ0RAvvYlEdBSdiEtH5aeSZsgDI
+uAuriSoRRIbwFS0du4827v0tLDbH0CCYOSmK4QJpuez6scaX628Ad57V+ntCl2tZ
+NNh+4ZgC7OmE3iUcuGSqb0y+NXeTloNaID+s2GJxq+WmvetvJfT0iiCEGHM9EenH
+YWJPt1EwjwZjmBIFZqz9JP3BJttBMttG1QmZuxC1B/N1DtgOphc=
+=NO8b
 -----END PGP SIGNATURE-----
 
---===============6982051919317160587==--
+--===============7849847642916655147==--
