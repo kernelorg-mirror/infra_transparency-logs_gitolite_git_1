@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 17 Dec 2023 20:02:58 -0000
-Message-Id: <170284337870.14347.10841945029582377376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 17 Dec 2023 20:05:49 -0000
+Message-Id: <170284354949.16942.17053225573727768782@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: e81e0a08f45f591025ec5321414a3ee53619ff10
-    new: d8e531dabc70c1ec18b207a6476cfc4783f8f429
+  - ref: refs/heads/main
+    old: 3a3af3aedb00258f0bd49f260eabcea1d88108a1
+    new: dd7842878633453e38d6a4927593dd28b9d8ab91
     log: |
-         d8e531dabc70c1ec18b207a6476cfc4783f8f429 Sun Dec 17 08:01:05 PM UTC 2023
+         dd7842878633453e38d6a4927593dd28b9d8ab91 octeontx2-af: Add new devlink param to configure maximum usable NIX block LFs
          
