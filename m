@@ -1,27 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 17 Dec 2023 20:07:33 -0000
-Message-Id: <170284365373.18857.16186734414976270800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 17 Dec 2023 20:10:30 -0000
+Message-Id: <170284383021.21606.15643349187605431508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/next
-    old: e2adb35e821811a563e108a68c01d4b3e0c55ef0
-    new: f53ec2972a1aba2c5bc9fe6641cfbdb9dcb52dd0
+  - ref: refs/heads/main
+    old: dd7842878633453e38d6a4927593dd28b9d8ab91
+    new: 54f4c2570a19186dfebd555b163084c1824cf1d6
     log: |
-         c2de2c269f495c0cebccdc32ac8270e1e97f1f69 Update the version
-         f946a202224ae8e7f7950d9e6622ddf2269b8cb9 _damon: Set links to the parent objects
-         37cef4ddf8bdac1d440d35dce2a829147bc6dae4 _damon_records/get_records: Handle None access_pattern request case
-         840a5a7030db4f37efc541e81d611fa98dc73bb6 _damon_records: Set default values for constructor arguments
-         603cba893d3cd731e8871e526027014db1299db7 _damon_records/get_records(): Receive arguments directly
-         adce95998ca1cd65583317a26a56e8d282f2c152 damo commands: Use _damon_records.get_records() instead of parse_records_file()
-         89f048fd43d190c8537a51be0d34df0b5f34c02c _damon_records/{start,stop}_monitoring_record(): Use dedicated handle class
-         7423808336644caccb0adc43aaeac14409a7c795 damo_record: Rename perf_pipe to record_handle
-         f53ec2972a1aba2c5bc9fe6641cfbdb9dcb52dd0 release_note: Update
+         ebb30ccbbdbd6fae5177b676da4f4ac92bb4f635 net: phy: make addr type u8 in phy_package_shared struct
+         9eea577eb1155fe4a183bc5e7bf269b0b2e7a6ba net: phy: extend PHY package API to support multiple global address
+         028672bd1d73cf65249a420c1de75e8d2acd2f6a net: phy: restructure __phy_write/read_mmd to helper and phydev user
+         d63710fc0f1a501fd75a7025e3070a96ffa1645f net: phy: add support for PHY package MMD read/write
+         54f4c2570a19186dfebd555b163084c1824cf1d6 Merge branch 'phy-ackage-addr-mmd-apis'
          
