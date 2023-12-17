@@ -1,51 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6159992775666919143=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 17 Dec 2023 12:15:21 -0000
-Message-Id: <170281532147.31544.5738797552741489275@gitolite.kernel.org>
-
---===============6159992775666919143==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 17 Dec 2023 12:35:39 -0000
+Message-Id: <170281653998.12786.13330990826856240459@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/togreg
-    old: 9f4e9ffee97414d882889a943e550c53b5fa1d5c
-    new: 693af17bcee427fd9d14942fee2b03a397e06b3e
-    log: revlist-9f4e9ffee974-693af17bcee4.txt
-
---===============6159992775666919143==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f4e9ffee974-693af17bcee4.txt
-
-17819da62a5c7058ea0d44bd9ff711aab7a44ae3 iio: adc: mcp3911: simplify code with guard macro
-76f028539cf360f750efd8cde560edda298e4c6b iio: adc: ad9467: fix reset gpio handling
-e072e149cfb827e0ab4cafb0547e9658e35393cd iio: adc: ad9467: don't ignore error codes
-737720197be445bb9eec2986101e4a386e019337 iio: adc: ad9467: add mutex to struct ad9467_state
-b73f08bb7fe5a0901646ca5ceaa1e7a2d5ee6293 iio: adc: ad9467: fix scale setting
-b67cc85d45d5d2894d0e2812bba27d7b23befbe6 iio: adc: ad9467: use spi_get_device_match_data()
-6dd3fa9fcc66cb71834dc2e0a222324af0d8b95d iio: adc: ad9467: use chip_info variables instead of array
-8bdfa4a2fecf4d54b9157b1294970e7ff242f042 iio: adc: ad9467: use the more common !val NULL check
-21aa971d3e295c2c81d0887f8a3e85a95dd687c5 iio: adc: adi-axi-adc: convert to regmap
-a1d1ba5e1c28b9887be1bdb3630caf0b532ec980 iio: temperature: mlx90635 MLX90635 IR Temperature sensor
-464cb187585fc46decf5058d0a92e46d59582cdc dt-bindings: iio: temperature: add MLX90635 device
-608531bd8615766fda6f423c746d89ac9db5c0d0 doc: iio: Document intensity scale as poorly defined
-5fc0a980cca0b0d98558abbc7691b5f24d573b1a dt-bindings: iio: pressure: add honeywell,hsc030
-6362d96585e35b433981b3833a9e2737cec33774 iio: pressure: driver for Honeywell HSC/SSC series
-c95e0a719820054b28ef8687cc05b8deeb1c9106 iio: light: isl76682: remove unreachable code
-48ba7d2f24f18c6752275c18f25a396221aa2787 dt-bindings: iio: light: add ltr390
-8b0d4c40d704cb7d01ad4f647ff5a51881767acd iio: light: driver for Lite-On ltr390
-5bc2ea60897e0f899fb93930dd867dae7c8eb11f iio: core: introduce trough info element for minimum values
-a4887e9782959e3e8f756412b53808157803de60 iio: ABI: document temperature and humidity peak/trough raw attributes
-c9180b8e39befcc703940873ac49e0603ef42bf7 iio: humidity: Add driver for ti HDC302x humidity sensors
-693af17bcee427fd9d14942fee2b03a397e06b3e dt-bindings: iio: humidity: Add TI HDC302x support
-
---===============6159992775666919143==--
+  - ref: refs/heads/master
+    old: 239c4bdd83bb09293248b93a3a218efa2d4cf017
+    new: 39b26ae2036ff051f8109ad250ab507fd01f91f0
+    log: |
+         26f3ec74e66dc4e05303826193ad71ad81298dfc swapon.2: Adjust decreased value under CONFIG_MIGRATION
+         6bf3937fcfd57029d4ac953937d5c3a5f21de5bb swapon.2: Adjust decreased value under CONFIG_PTE_MARKER
+         e0e96d263039a5cf0e085a361eccf426db2f9d21 string_copying.7: stpecpy(), strtcpy(): Set errno on failure
+         91db3b69136f1404a207dcc96f733db8d03677f0 string_copying.7: stpecpy(): Return NULL on truncation
+         39b26ae2036ff051f8109ad250ab507fd01f91f0 string_copying.7: stpecpy(): Reimplement as a wrapper of strtcpy()
+         
