@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/website
-Date: Sun, 17 Dec 2023 13:32:25 -0000
-Message-Id: <170281994592.20961.13864529417899785078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 17 Dec 2023 13:38:08 -0000
+Message-Id: <170282028894.25879.10918425484578534614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/website
-user: alx
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 4d2a9637a4914246c4f96387913425f30f2dbdf8
-    new: d9e8b9c5c6a08d1f58363137a5fa86da81fac7d0
+  - ref: refs/heads/wip/leon-for-next
+    old: 4f973e211b3b1c6d36f7c6a19239d258856749f9
+    new: e275919d96693c5ca964b20d73a33d52a7e57f04
     log: |
-         3dae51a313a9eb7bfa5ee432cbdd23d6f445c128 Remove trailing whitespace
-         d9e8b9c5c6a08d1f58363137a5fa86da81fac7d0 Add links at the top
+         9b0a7a2cb87d9c430a3588d7d2b6e471200b86ad RDMA/bnxt_re: Add UAPI to share a page with user space
+         e275919d96693c5ca964b20d73a33d52a7e57f04 RDMA/bnxt_re: Share a page to expose per CQ info with userspace
          
