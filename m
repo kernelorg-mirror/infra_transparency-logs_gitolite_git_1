@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Sun, 17 Dec 2023 19:58:37 -0000
-Message-Id: <170284311757.11078.11350473717913153972@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 17 Dec 2023 20:02:58 -0000
+Message-Id: <170284337870.14347.10841945029582377376@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: 7641890179f913ce73d9dae490b8ab74970fc552
-    new: 38f3887213567f767f82d45a079f267e39ebeaeb
+  - ref: refs/heads/master
+    old: e81e0a08f45f591025ec5321414a3ee53619ff10
+    new: d8e531dabc70c1ec18b207a6476cfc4783f8f429
     log: |
-         9d598fab9731055638c6e9333c4f21aa0d174a48 dt-bindings: remoteproc: qcom: sc7180-pas: Fix SC7280 MPSS PD-names
-         11eff1020440060c53d2261531432927c9fb4ee3 dt-bindings: remoteproc: qcom: sc7180-pas: Add SC7280 compatibles
-         300ed425dfa99f6926299ec196a1eedf05f47b21 remoteproc: qcom_q6v5_pas: Add SC7280 ADSP, CDSP & WPSS
-         38f3887213567f767f82d45a079f267e39ebeaeb Merge branches 'rpmsg-next' and 'rproc-next' into for-next
+         d8e531dabc70c1ec18b207a6476cfc4783f8f429 Sun Dec 17 08:01:05 PM UTC 2023
          
