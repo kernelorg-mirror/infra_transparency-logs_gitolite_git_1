@@ -1,96 +1,84 @@
-Content-Type: multipart/mixed; boundary="===============2042016205998846807=="
+Content-Type: multipart/mixed; boundary="===============0710346610811848768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 17 Dec 2023 13:27:50 -0000
-Message-Id: <170281967075.17339.1478112312218900824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sun, 17 Dec 2023 13:28:06 -0000
+Message-Id: <170281968682.17509.9564462978092520614@gitolite.kernel.org>
 
---===============2042016205998846807==
+--===============0710346610811848768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 51920207674e9e3475a91d2091583889792df99a
-    new: e9158c7e55339737847cebbfa397c668713f1a15
-    log: revlist-51920207674e-e9158c7e5533.txt
+  - ref: refs/heads/tty-next
+    old: e045e18dbf3eaac32cdeb2799a5ec84fa694636c
+    new: 43f012df3c1e979966524f79b5371fde6545488a
+    log: revlist-e045e18dbf3e-43f012df3c1e.txt
 
---===============2042016205998846807==
+--===============0710346610811848768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702819670 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1702819669-6cacd158255b975de16d8b74065f078978baff00
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702819686 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1702819685-3a99231a1de416b8d844618b7a0f9ce445bdaefa
 
-51920207674e9e3475a91d2091583889792df99a e9158c7e55339737847cebbfa397c668713f1a15 refs/heads/usb-next
+e045e18dbf3eaac32cdeb2799a5ec84fa694636c 43f012df3c1e979966524f79b5371fde6545488a refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV+91YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SwsP/A2dSb2YvcP1usxk1Ocd
-QcqSaq/7MTK7/PbC42FNHo/ZCYHOOq+sa187szLbqfYtZxImg+XXtlmy9mRBDKB/
-1f2jlPyeHUjUS5CWjLjr0ygjOZlluTYaYg0drDT8j+0CHlZ5Zcfh4lCZzMNqE1cA
-FyfBcnBH6vR+RtJRYxTgt0J5nUgy5eDyBmQKApxhPRIJuWR0E7N3WH+UFtEm0iYY
-JQ7ADVMl4iTqdLD4syHOQ9ZDZ8mfQMGfRtwa8MXg+FNE3hxwKpyk7Tt/dAi798LV
-SQpl38wBynMxaDksU4pEO/hJP2hx5LNcVIV7e9VmeyKhP4s5ZGdUFCswYYzb15DQ
-zVxwGKzsMl5aYFKphLhsoeyisq5tsXvOnXnN0IbjoN+u7WW/ObtIuBi9VNAR2yPa
-McX29W3QKKJgdr7HS31SfyGJU3Khi7jDV7ppE8W+T+YRxZG5JoxKPCmw5nkVLZC5
-AK5/tN//KXG2JEdyMeGpa+tZK+vkOdUlstNg/2D+zsXzsfCCXT8xZlqQWhTvjMCm
-64E+tf4E0gvmoqFdDKOCrVLSUVoxIAb9PuQOzQDdUhoo2iTKfxb0UpSsdJ2nkCoJ
-TCaiMveuKFSAprqYZIWo4vQqNNMjWTmJpaM4EL4BKdHhwG3FfQiepid7MbB50Azu
-9jMIA0625bUB0K7ND907kAJS
-=/M4d
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV+92YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z2QP/Alsp/nHduQg24qCcXO5
+Uikc6u9UgRplIyHllaiWvKJcwcM2XkcQAjvoNSDRvLN5nqddBNt+wjKa0k0qUQji
+cvmT/pt8Q0sYYN6mpZ1Ua9JIJfc6V9BQ7d4ylBAOv1bKq8mEZTR7/NeT/cMvy+ml
+Udy7fNNuhoEcqvQMU8dfrNykPR/rMrU52kNqXfnwYB9m89cz19BhJqBc653S3IMs
+D2b/E3EWyznnHG2O3emFljFckE7eqEiUVzMYexMPmVMT12HSXyCFFh+mBX0LMMYc
+XpgIUYjAr7I/wzRNRA8YAAprQtvmFKvz66e6gkPWAT8xnSvpIH/yvWfvWfVp0NyE
+N+Z9eJJr8o6G2oCmHpBzVUCHtsiZ0b+zmwB65QxnNfbtsg1Lq4xEAy13osJ2yLIu
+9zplPLFezGHya/KitOm1PtScqHlwAeo+uasZA5UQ4px7cX1ogklged83Z0A4gSOc
+7UBZHpWzo9BwOueiOmhMes8hCks3yJtL+qWpH/5vS0v+fniqmVcdyY+RKmoeclOa
+4CRuCKB0C4PIFdsJKFnnUoxL/P/sFrqQZ+VmLGGh9sXIX3tAwdsWfBuuRBMrY+do
+yZ1iqxdeIXU+Yd0mD2Gg/GzTYamuEtVAF9J1JSwdXCSlSD7RI0bXf7VlK06GPefQ
+DOvyDZRARUQ4NWRSaP5PKipy
+=c2mt
 -----END PGP SIGNATURE-----
 
---===============2042016205998846807==
+--===============0710346610811848768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51920207674e-e9158c7e5533.txt
+Content-Disposition: attachment; filename=revlist-e045e18dbf3e-43f012df3c1e.txt
 
-53b5ff83d89349778bc61e67237f72c5dc6536c2 usb: dwc3: xilinx: improve error handling for PM APIs
-66aad7d8d3ec5a3a8ec2023841bcec2ded5f65c9 usb: cdc-acm: return correct error code on unsupported break
-ecb43ef59498628a9df79afb47e67dadf777e3cd dt-bindings: usb: genesys,gl850g: Document 'peer-hub'
-2ddc97a71a27b6f940f1ed0f1e70a4e8e62b77e5 dt-bindings: usb: nxp,ptn5110: Fix typos in the title
-e4e5f9e3bff79951cef7fd6912049b1cecf8a72d usb: chipidea: Remove usage of the deprecated ida_simple_xx() API
-7516f86aa5ec9f3f2ae1c5c12b56eef76c7b1a15 usb: typec: Remove usage of the deprecated ida_simple_xx() API
-d1756ac67e7f8d4c15ba4dd0c132e593b0a56de6 dt-bindings: connector: usb: add altmodes description
-0dbda971860c702c33df173b627f9d74b3152b75 usb: typec: change altmode SVID to u16 entry
-70e6163d17dd501ef27680eeb80d78b2cf823c5e arm64: dts: qcom: qrb5165-rb5: use u16 for DP altmode svid
-7d530f4cc0632056d9f8f207245aa3d91a25d168 usb: typec: tcpm: Query Source partner for FRS capability only if it is DRP
-44995e6f07028f798efd0c3c11a1efc78330f600 usb: core: Fix crash w/ usb_choose_configuration() if no driver
-de12c5384307d2fa2a735b7d21cf7603e1bcb5c9 dt-bindings: usb: Document WCD939x USB SubSystem Altmode/Analog Audio Switch
-36d586c0570e075c18bcc3b4ec4de11fcdbf5dd1 usb: typec: mux: add Qualcomm WCD939X USB SubSystem Altmode Mux driver
-b8fb6db6cb04e3c35d661d0f6cf6f8dc7444ce0c usb: f_uac1: adds support for SS and SSP
-0466e7e693efe6647f23532529a9c41a1fa5f4ac usb: gadget: configfs: Replace snprintf() with the safer scnprintf() variant
-c1a371866db9c44ab3004b5fc06df066a1b96262 usb: gadget: f_uac1: Replace snprintf() with the safer scnprintf() variant
-60034e0aedf507888c4a880f57011bb7f5d7700c usb: gadget: f_uac2: Replace snprintf() with the safer scnprintf() variant
-0d12c1cca7883620b1888ce4b892a9ed27bf3682 usb: gadget: uvc: Replace snprintf() with the safer scnprintf() variant
-d32dcb0659bcb3b68878a985280024ec92d0db5b usb: gadget: udc: atmel: Replace snprintf() with the safer scnprintf() variant
-01dc7f7c29be8b4fa853eb300f54065d981b31a9 usb: cdns2: Replace snprintf() with the safer scnprintf() variant
-a6eef67cdb84e06112fc29176d6c6061d3ea8d79 usb: host: max3421-hcd: Replace snprintf() with the safer scnprintf() variant
-86b20af11e84c26ae3fde4dcc4f490948e3f8035 usb: yurex: Replace snprintf() with the safer scnprintf() variant
-79632569619f4d57ff745398dba98e09105b5108 usb: mon_stat: Replace snprintf() with the safer scnprintf() variant
-9d4e3d15d7bf3439a6f3fb4aafc4f92ea2c5c5fd usb: mon_text: Replace snprintf() with the safer scnprintf() variant
-e5892ea81515366588e8fb00a5a3cdca687355dc usb: phy: twl6030: Remove snprintf() from sysfs call-backs and replace with sysfs_emit()
-3e42084a1c4790364c28b5cafd5c66fc25396a64 usb: storage: Remove snprintf() from sysfs call-backs and replace with sysfs_emit()
-61fbf20312bdd1394a9cac67ed8f706e205511af usb: gadget: f_fs: fix fortify warning
-776630be36935be3a51e5ecfa7fc7614c4d4e46e usb: cdns3: Use dev_err_probe
-4d2f8c859146672ce84f49648121c70ea84e246c usb: typec: fixed a typo
-c51ffe929f3b34999ce19f413d3950ea72e1e5ad dt-bindings: usb: qcom,dwc3: Add X1E80100 binding
-f1fd91a0924b6bff91ca1287461fb8e3b3b61d92 usb: gadget: webcam: Make g_webcam loadable again
-c084af69a8f425b8cb56479ff0ea11e48aba0c62 usb: dwc3: imx8mp: Fix smatch warning
-80602b6b5a23b210224a5b44d9e5b5c1dc193632 xhci: Fix null pointer dereference during S4 resume when resetting ep0
-76cd718a9ffda837d4b4f1558c6e6ea08a9a7c59 dt-bindings: connector: usb: add accessory mode description
-e9158c7e55339737847cebbfa397c668713f1a15 usb: typec: tcpm: Parse Accessory Mode information
+9df1dd450689dccc19fa471b91c71fc977dab946 dt-bindings: serial: imx: Properly describe the i.MX1 interrupts
+2600d9939440d608e1c8128e9e47e7948c024442 serial: esp32_acm: Add explicit platform_device.h include
+3d19ff562d0618a17c4f2c42c8fc84de4e2880e2 serial: esp32_uart: Use device_get_match_data()
+e0f25b8992345aa5f113da2815f5add98738c611 tty: allow TIOCSLCKTRMIOS with CAP_CHECKPOINT_RESTORE
+96d7e361ca4cb0e8b6fa0635a04609b6367257e6 serdev: Remove usage of the deprecated ida_simple_xx() API
+6bcab3c8acc88e265c570dea969fd04f137c8a4c serial: sc16is7xx: remove wasteful static buffer in sc16is7xx_regmap_name()
+f6959c5217bd799bcb770b95d3c09b3244e175c6 serial: sc16is7xx: remove global regmap from struct sc16is7xx_port
+41a308cbedb2a68a6831f0f2e992e296c4b8aff0 serial: sc16is7xx: remove unused line structure member
+4409df5866b7ff7686ba27e449ca97a92ee063c9 serial: sc16is7xx: change EFR lock to operate on each channels
+dbf4ab821804df071c8b566d9813083125e6d97b serial: sc16is7xx: convert from _raw_ to _noinc_ regmap functions for FIFO
+9915753037eba7135b209fef4f2afeca841af816 serial: sc16is7xx: fix unconditional activation of THRI interrupt
+d54cbe1db72dbfc664bc21b40c324a624faacb16 dt-bindings: serial: Add a new compatible string for UMS9620
+6b64f8e360c00f180cffa1806095cdd2abc55b16 serial: ma35d1: Fix spelling mistake "ononsole" -> "console"
+a5f18286083fe450d6080abc8d4341c630f682dd serial: 8250-fsl: Only do the break workaround if IIR signals RLSI
+1f78c56007ba61b7b8c3f7dbb6787b6af116d3f0 tty: serial: amba: Use linux/{bits,bitfield}.h macros
+d93ebe0fcfbd29e2b93850b5f66f98b0d63cce9c tty: serial: amba-pl011: fix whitespace formatting
+dc00f0cc5e04490416d4c2164011e39b4a2d29df tty: serial: amba-pl011: replace TIOCMBIT macros by static functions
+fd64ff0966d39422f547d7935b8988e962f9f91e tty: serial: amba-pl011: avoid quoted string split across lines
+28a7ec8c6679f594b4218090fe2932a647594fe2 tty: serial: amba-pl011: fix formatting of conditions
+826bd77ae5e8fec91a5fddb189adbdbaef3050ef tty: serial: amba-pl011: fix miscellaneous checkpatch warnings
+8ff87406c29b43fa0d807ce80601c94821cab9bc tty: serial: amba-pl011: unindent pl011_console_get_options function body
+a49a8b9d7cf5da42e61d73bd502b5a0e2b7e61c3 tty: serial: amba-pl011: factor QDF2400 SoC erratum 44 out of probe
+43f012df3c1e979966524f79b5371fde6545488a tty: serial: 8250: Set RS422 interface by default to fix Moxa RS422/RS485 PCIe boards
 
---===============2042016205998846807==--
+--===============0710346610811848768==--
