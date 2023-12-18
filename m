@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7354285897024807342=="
+Content-Type: multipart/mixed; boundary="===============4859694335424345831=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 18 Dec 2023 16:24:52 -0000
-Message-Id: <170291669233.24153.9045827091734368151@gitolite.kernel.org>
+Date: Mon, 18 Dec 2023 16:25:54 -0000
+Message-Id: <170291675470.26124.6876365942074933000@gitolite.kernel.org>
 
---===============7354285897024807342==
+--===============4859694335424345831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 59392e03bfaa26c7074b262747f6268eff60040b
-    new: 9637daa85f6968fafb84d2d74f7c3830e4ce5c43
-    log: revlist-59392e03bfaa-9637daa85f69.txt
+  - ref: refs/heads/svcrdma-next
+    old: 63c1cc2b5b36acfad4e76f3c4ff8262e0667ace3
+    new: 8aca7134f4a975a5098dfbfabf6f7c29f12a6d5d
+    log: revlist-63c1cc2b5b36-8aca7134f4a9.txt
 
---===============7354285897024807342==
+--===============4859694335424345831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59392e03bfaa-9637daa85f69.txt
+Content-Disposition: attachment; filename=revlist-63c1cc2b5b36-8aca7134f4a9.txt
 
 0f40d5099cd6d828fd7de6227d3eabe86016724c phy: ti: gmii-sel: Fix register offset when parent is not a syscon node
 1af27671f62ce919f1fb76082ed81f71cb090989 clk: rockchip: rk3568: Add PLL rate for 292.5MHz
@@ -350,5 +350,17 @@ e508453ef292f68b3e4cd79888052a76a622fb3f svcrdma: Remove pointer addresses shown
 7769285f1d5934f7b6677788f86bf3860c26582e svcrdma: Reserve an extra WQE for ib_drain_rq()
 9edaca2eb79de8fecb93d9f2b008da1a815b8d7b svcrdma: Use all allocated Send Queue entries
 9637daa85f6968fafb84d2d74f7c3830e4ce5c43 svcrdma: Increase the per-transport rw_ctx count
+a5d044e9afc61e175f0aaa43f9ced981b6eeb3eb svcrdma: Add back svc_rdma_recv_ctxt::rc_pages
+55727af92e76b2d8d679a5cbb2a86ff264c1f87c svcrdma: Add back svcxprt_rdma::sc_read_complete_q
+00526d12c355e05494c6315e126c41240a309f29 svcrdma: Copy construction of svc_rqst::rq_arg to rdma_read_complete()
+952f56bf4fbaf3b6ab55d79de74852fed6075ade svcrdma: Implement multi-stage Read completion again
+6f63d9688081eaf46a5437a7548ed3422063a1ae svcrdma: Fix SQ wake-ups
+62715189b1ccf5db0c68d62737e09f21d4d5bd0a svcrdma: Prevent a UAF in svc_rdma_send()
+ac8d6ee68ed24588f8c1866610bc971f4d350287 svcrdma: Fix retry loop in svc_rdma_send()
+59229df92730305e66ff9ec96d225b1b3f721a40 svcrdma: Post Send WR chain
+f360af2a8f39b45536429d20442b3ee69041e48e svcrdma: Move write_info for Reply chunks into struct svc_rdma_send_ctxt
+7d628b99ca039e2cf4e078eee42387189c44b460 svcrdma: Post the Reply chunk and Send WR together
+908bac98eb5978ba19ba31faac4dc29958a71874 svcrdma: Post WRs for Write chunks in svc_rdma_sendto()
+8aca7134f4a975a5098dfbfabf6f7c29f12a6d5d svcrdma: Add Write chunk WRs to the RPC's Send WR chain
 
---===============7354285897024807342==--
+--===============4859694335424345831==--
