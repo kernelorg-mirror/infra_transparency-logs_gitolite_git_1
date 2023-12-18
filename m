@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5500326865545238354=="
+Content-Type: multipart/mixed; boundary="===============4883544956845537118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 18 Dec 2023 20:06:43 -0000
-Message-Id: <170293000339.24637.16939342499587126811@gitolite.kernel.org>
+Date: Mon, 18 Dec 2023 20:07:12 -0000
+Message-Id: <170293003227.25109.93236599769804183@gitolite.kernel.org>
 
---===============5500326865545238354==
+--===============4883544956845537118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,68 +16,39 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ba7d5744cf6fac619fd0bf1165c90ee930956ebc
-    new: 65aa5d7bf024a68b981a72fe804bb875b1b3e53c
-    log: revlist-ba7d5744cf6f-65aa5d7bf024.txt
+    old: 65aa5d7bf024a68b981a72fe804bb875b1b3e53c
+    new: 032ba4d28e4d60731054581e64885e97b41c04b8
+    log: revlist-65aa5d7bf024-032ba4d28e4d.txt
 
---===============5500326865545238354==
+--===============4883544956845537118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba7d5744cf6f-65aa5d7bf024.txt
+Content-Disposition: attachment; filename=revlist-65aa5d7bf024-032ba4d28e4d.txt
 
-0f40d5099cd6d828fd7de6227d3eabe86016724c phy: ti: gmii-sel: Fix register offset when parent is not a syscon node
-1af27671f62ce919f1fb76082ed81f71cb090989 clk: rockchip: rk3568: Add PLL rate for 292.5MHz
-c6c5a5580dcb6631aa6369dabe12ef3ce784d1d2 clk: rockchip: rk3128: Fix HCLK_OTG gate register
-36a1c2ee50f573972aea3c3019555f47ee0094c0 cxl/hdm: Fix a benign lockdep splat
-744f5e7b69710701dc225020769138f8ca2894df dmaengine: ti: k3-psil-am62: Fix SPI PDMA data
-be37542afbfcd27b3bb99a135abf9b4736b96f75 dmaengine: ti: k3-psil-am62a: Fix SPI PDMA data
-2838a897654c4810153cc51646414ffa54fd23b0 dmaengine: fsl-edma: Do not suspend and resume the masked dma channel when the system is sleeping
-3448397a47c08c291c3fccb7ac5f0f429fd547e0 dmaengine: fsl-edma: Add judgment on enabling round robin arbitration
-54bed6bafa0f38daf9697af50e3aff5ff1354fe1 dmaengine: stm32-dma: avoid bitfield overflow assertion
-06f76e464ac81c6915430b7155769ea4ef16efe4 phy: mediatek: mipi: mt8183: fix minimal supported frequency
-2a9c713825b3127ece11984abf973672c9779518 phy: sunplus: return negative error code in sp_usb_phy_probe
-e8d66d02defd3256a31c0ec09af63382b8682c0e clk: qcom: Fix SM_CAMCC_8550 dependencies
-e199bf52ffda8f98f129728d57244a9cd9ad5623 soundwire: stream: fix NULL pointer dereference for multi_link
-98dcc6be3859fb15257750b8e1d4e0eefd2c5e1e clk: rockchip: rk3128: Fix aclk_peri_src's parent
-99fe9ee56bd2f7358f1bc72551c2f3a6bbddf80a clk: rockchip: rk3128: Fix SCLK_SDMMC's clock name
-393cae5f32d640b9798903702018a48c7a45e59f soundwire: intel_ace2x: fix AC timing setting for ACE2.x
-5558b92e8d39e18aa19619be2ee37274e9592528 cxl/core: Always hold region_rwsem while reading poison lists
-0e33ac9c3ffe5e4f55c68345f44cea7fec2fe750 cxl/memdev: Hold region_rwsem during inject and clear poison ops
-1ca2761a7734928ffe0678f88789266cf3d05362 spi: atmel: Do not cancel a transfer upon any signal
-49d8575ca6135a533218e40ddcb85462fd9ff1d2 spi: atmel: Drop unused defines
-e05501e8a84eee4f819f31b9ce663bddd01b3b69 cxl: Add cxl_num_decoders_committed() usage to cxl_test
-659aa050a53817157b7459529538598a6449c1d3 kernel/resource: Increment by align value in get_free_mem_region()
-890188d2d7e4ac6c131ba166ca116cb315e752ee spi: atmel: Prevent spi transfers from being killed
-7a733e060bd20edb63b1f27f0b29cf9b184e0e8b spi: cadence: revert "Add SPI transfer delays"
-6f5c4eca48ffe18307b4e1d375817691c9005c87 cxl/hdm: Fix dpa translation locking
-c5becf57dd5659c687d41d623a69f42d63f59eb2 Revert "scsi: aacraid: Reply queue mapping to CPUs based on IRQ affinity"
-c65efe3685f5d150eeca5599afeabdc85da899d1 cxl/cdat: Free correct buffer on checksum error
-e9b220aeacf109684cce36a94fc24ed37be92b05 spi: spi-imx: correctly configure burst length when using dma
-778dfacc903d4b1ef5b7a9726e3a36bc15913d29 dmaengine: idxd: Protect int_handle field in hw descriptor
-0c154698a0fc32957d00c6009d5389e086dc8acf dmaengine: idxd: Fix incorrect descriptions for GRPCFG register
-bffa7218dcddb80e7f18dfa545dd4b359b11dd93 dmaengine: fsl-edma: fix wrong pointer check in fsl_edma3_attach_pd()
-4ee632c82d2dbb9e2dcc816890ef182a151cbd99 dmaengine: fsl-edma: fix DMA channel leak in eDMAv4
-0cf72f7f14d12cb065c3d01954cf42fc5638aa69 powerpc/pseries/vas: Migration suspend waits for no in-progress open windows
-d2441d3e8c0c076d0a2e705fa235c76869a85140 MAINTAINERS: powerpc: Add Aneesh & Naveen
-8defec031c40913ef10d2f654a5ccc8a2a9730c1 Merge tag 'v6.7-rockchip-clkfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into clk-fixes
-77a67255609606164e1042f3bf7452a568a700e4 scsi: ufs: core: Store min and max clk freq from OPP table
-fc70d643a2f6678cbe0f5c86433c1aeb4d613fcc spi: atmel: Fix clock issue when using devices with different polarities
-ef3d5cf9c59cccb012aa6b93d99f4c6eb5d6648e cxl/pmu: Ensure put_device on pmu devices
-9483aa44912f26da2b69dade6099c2bf4b50a8c3 EDAC/versal: Read num_csrows and num_chans using the correct bitfield macro
-a8892fd71933126ebae3d60aec5918d4dceaae76 btrfs: do not allow non subvolume root targets for snapshot
-dde0672bfa3e5c5e8530ebb45518408acb91b083 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-5ef3720d91285f7ebc49d17366b366818516b768 Merge tag 'powerpc-6.7-5' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-ef6a7c27db54f06cc5c79f5a756d649828d42f3d Merge tag 'edac_urgent_for_v6.7_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-134fdb80bc130dba429295ac64358b16b695628c Merge tag 'cxl-fixes-6.7-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-6d04b70ea48b2d84ebf6cd9ad9b01ba50a58542e Merge tag 'dmaengine-fix-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
-7f499ec27ca25c7faad74e15a6e2c72a1ea3e63c Merge tag 'phy-fixes-6.7' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
-accc98aff5c39fdc63bf0bac471b9c601aaf4755 Merge tag 'soundwire-6.7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
-0e389834672c723435a44818ed2cabc4dad24429 Merge tag 'for-6.7-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-177c2ffe69555dde28fad5ddb62a6d806982e53f Merge tag 'perf_urgent_for_v6.7_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ceb6a6f023fd3e8b07761ed900352ef574010bcb Linux 6.7-rc6
-26d6084791bb2cce41b83cb09b4cfdd9fa0c28f1 Merge tag 'spi-fix-v6.7-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-2cf4f94d8e8646803f8fb0facf134b0cd7fb691a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-65aa5d7bf024a68b981a72fe804bb875b1b3e53c Merge branch 'linus'
+074b8930725165451b3a5422d4f116b44fa6c7ec Merge branch into tip/master: 'x86/urgent'
+6d014e4875c7b5d47da89183f9b8c01cc2a09fe9 Merge branch into tip/master: 'core/merge'
+79409400ed9f38328fecb6ca3982e97fc2ddf419 Merge branch into tip/master: 'x86/merge'
+3e2004bbd193cfa8b4476ab96efdcedff27c385b Merge branch into tip/master: 'core/debugobjects'
+b228255b7d374549be87d8ebc7c88d0f85163e9f Merge branch into tip/master: 'locking/core'
+0d06162c244d00794ef89dac748fac8ff793cbd5 Merge branch into tip/master: 'objtool/core'
+3fce62112e2a8fc14e84f91302e44252c4a4da0a Merge branch into tip/master: 'perf/core'
+d6ccecbb7f87aaa480e3ac84b4e02213686c4aab Merge branch into tip/master: 'ras/core'
+337bd27c81f319fd2b51ee312164189af40d63e8 Merge branch into tip/master: 'sched/core'
+c380763fd67b4b6263c1f828c67820efb594eaa6 Merge branch into tip/master: 'smp/core'
+76573b689ff8abcb64d56bf7ae2ceb0ea7e9e70c Merge branch into tip/master: 'timers/core'
+7104ad4e294afd0ab38b0203d558ceae2c9607e0 Merge branch into tip/master: 'x86/apic'
+3360381f4f3d7e56f9a9b6f9926085ca50f8c8ee Merge branch into tip/master: 'x86/boot'
+4af930e531c1d77d0f40403e0106d33bd4331be8 Merge branch into tip/master: 'x86/build'
+9770c1fe1971d3069eecb935ca31c5237a728ccb Merge branch into tip/master: 'x86/cleanups'
+8e2a5323fd0730e55cf1d19715213d7858599a66 Merge branch into tip/master: 'x86/core'
+807b1cd7427333db8b81c13ae06cfe3ed460cbfb Merge branch into tip/master: 'x86/cpu'
+1cc1cb118c07064c1f53725e4628275e3f4f84a9 Merge branch into tip/master: 'x86/entry'
+998fa098323cb16bb1b8c70039f1d7d91728d75d Merge branch into tip/master: 'x86/microcode'
+8c6fc37e04342d3808ad91c7b55ae1ccbab8b65d Merge branch into tip/master: 'x86/misc'
+68d208852263f73bf56b8a3b1204e8dc89a1ca04 Merge branch into tip/master: 'x86/mm'
+0d6613e6b3ba28ae5dd56b5d3448a6a502735051 Merge branch into tip/master: 'x86/sev'
+71486ead865338b08fd3b82d7c2cd619948b3058 Merge branch into tip/master: 'x86/sgx'
+032ba4d28e4d60731054581e64885e97b41c04b8 Merge branch into tip/master: 'x86/tdx'
 
---===============5500326865545238354==--
+--===============4883544956845537118==--
