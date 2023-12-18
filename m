@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0439465596319006628=="
+Content-Type: multipart/mixed; boundary="===============7344226109808791836=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 18 Dec 2023 07:10:15 -0000
-Message-Id: <170288341541.19837.11324231801282014772@gitolite.kernel.org>
+Date: Mon, 18 Dec 2023 07:10:16 -0000
+Message-Id: <170288341634.19907.16814224455265181239@gitolite.kernel.org>
 
---===============0439465596319006628==
+--===============7344226109808791836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,78 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 27972f32764632d687a5f851c1ce5e206a09acce
-    new: 74780420e5a576f2923c402a58266fdce952ba93
-    log: revlist-27972f327646-74780420e5a5.txt
+  - ref: refs/heads/linux-4.19.y
+    old: f93c1f58eb68bada8c86088104efe14cfe735957
+    new: fc366308268c9f19b35a845de7ac4b1fc92bbf34
+    log: revlist-f93c1f58eb68-fc366308268c.txt
 
---===============0439465596319006628==
+--===============7344226109808791836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702883414 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702883415 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1702883413-a21821cec35638ea5d9efc61f4653216d685911d
+nonce 1702883415-4339187cf15eda5b731c88ce0172fa03612c7b3c
 
-27972f32764632d687a5f851c1ce5e206a09acce 74780420e5a576f2923c402a58266fdce952ba93 refs/heads/linux-4.14.y
+f93c1f58eb68bada8c86088104efe14cfe735957 fc366308268c9f19b35a845de7ac4b1fc92bbf34 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV/8FYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2FgP/jKzejNenreY8FfmWo8z
-DbGbMpE2nQntApt4i8mTtJRQCNvBNUG1gFV3CtIFVBkxGqw2RKPd2zA4Zmn0bCTX
-nKkmNdqST0Xfd86bgx3ku+WAtdKrRxrEMdldvfUTzUwv3gnr+zwqQWvTbrLE8389
-gKGdtBdCFDd3+eYQ+Tbllr6o5apH5xauHEaw6TsRSxc2QxHpzZdPbz6TViErBQd1
-xy4aG3i2jfyF4Zqt7KpBIr6+mVqAJ08ylfzMBNVAkM4aaNE44or66OMsI7drJ3OL
-Y+olErhNZ1v/yIAh4G/EfhS/eMyT6TDRC02Msow9Y75YBCqpf100suJvyO7D+Ytn
-PNfXpaeDDSFeBC63ExhBjmcq05RXP4k9tTFOsk7T57dvDc2vt0IT0mwzClFbRk6L
-fiRChO01kDFJaQP4RL3hkHAqPwJRjG/dpyD1USrAZ2X3jih1Vyn7gv3tKq14n/2+
-qakykVEUbQmWXWxHU0Sqdtm45oP+9TPD57C8EF9Mzrc1P3B38pke9hg6dUI5DeUO
-FyaM9+2qsiCvNTTqWZf0Pi8adKSsRiGJ9MIC1TIpg/8Jyqj30lLx3K+l1x7n0Qt+
-P8TqnW5AFXEN10F7GhkgpTRIRdF4Xv2Yc4UQKE/7bzttNX1YRmFWcGarqLjqAaoC
-NOgeDBYB7ZTi2MB/ZVJg4qpf
-=WHuX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmV/8FcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1xUP/1juWy/YqSmSxa2YQRsY
+fXMwXQxPwR+qM77H2YNG+Dmbi3x4LNui+M9+NF56gKS3poNcs1k5x+zlLpj6uabo
+TElizPppH85Apo81m32rkk8H8gBBMJbOXCgBjPJ/npfCe1ZjIOjWjJId7efogwoO
+8EtP72TGZF8V4JkzHPh+UUD5xnDmHvcgponXyH4GysjTtJRzjxWC2VfGzmD89lmk
+2sbAZZsNglE9cd7ZnzWEe59RyQdYKzQL5f0ysa6VGPTK94PSG2wIgh+u58Gr/9PH
+mHsVC7xoxLtQOdthm2fqBotfcfjPBzY9pD1omoZd7efOMjyL9yr66iz/YGc8J1Qm
+FMAX+gq6uH5I+O2D5CJ3K6d3o4mxLJdzdjKjWU3A7tReLG5WT5vMxqoAr9JXeM9m
+N8DHra5ous3Roj71pjp8EGX/JFYBoT3bKoQtY5TRM7IZSGAGP/bmN9wGwZRFNkrg
+UnlZ/Yog3jfg0sYa6kU/burC9vKuKytmxKFwjjxLt5yx60feABq5yQIWxYpc7xIx
+KrbaUunOASGpGRId7BbXV83x7tdnAd1WNRJiykGgVmUUlNqWFg8LVjvI3yoNrRhY
+UEKTvZlphKlKCWx6+FPtjO1rYyEd5AfQQBD1DIYhgeiiXXOBHlRVAvX0H6Z51JvK
+m6G4Zo1+G7metFxGWy8OcNBy
+=3SP2
 -----END PGP SIGNATURE-----
 
---===============0439465596319006628==
+--===============7344226109808791836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27972f327646-74780420e5a5.txt
+Content-Disposition: attachment; filename=revlist-f93c1f58eb68-fc366308268c.txt
 
-0c4b3856c65f5ea70fdba7c7aa68c999725b5017 qca_debug: Prevent crash on TX ring changes
-7b3df0e78666a5c40851d7e0c29d0de8f3b73577 qca_debug: Fix ethtool -G iface tx behavior
-4872b11712e855ced481a511c7bfe7455198524a qca_spi: Fix reset behavior
-743bc8a3c89b27fdc9f063da8de3afd6d11e2240 atm: solos-pci: Fix potential deadlock on &cli_queue_lock
-8681934e3b7d198bc0a148f151bd9cab24dfb480 atm: solos-pci: Fix potential deadlock on &tx_queue_lock
-cc142e39051dad89c395e8e7e1a80ea4402548e8 atm: Fix Use-After-Free in do_vcc_ioctl
-d908a6a4c35e604855ea47a3e22a11e64514b8c7 net/rose: Fix Use-After-Free in rose_ioctl
-e7c9e8a2a7cc396a2b237ac5d9ed882dfcfe39b7 qed: Fix a potential use-after-free in qed_cxt_tables_alloc
-191e2cbb4a70f494bdf658237e2636ded2837474 net: Remove acked SYN flag from packet in the transmit queue correctly
-187d57dec7b58bffdbfa2d5567bde8b539b730d8 sign-file: Fix incorrect return values check
-59e88bcbf14e7f60c6e5895c10f6b89127d44856 vsock/virtio: Fix unsigned integer wrap around in virtio_transport_has_space()
-980b98c36e3c85676e2deace476083e591e19c26 appletalk: Fix Use-After-Free in atalk_ioctl
-9459d26c6d1669771aa010405f740d44693fd6a8 cred: switch to using atomic_long_t
-95ebee19adc4f0e2d40662322c8b23dadb3c17dc blk-throttle: fix lockdep warning of "cgroup_mutex or RCU read lock required!"
-9ba62134b7ec4267329e0851c8a06b443d6fe362 bcache: add code comments for bch_btree_node_get() and __bch_btree_node_alloc()
-6f618e458dfa74fe8a47721fdfde750312168ca9 platform/x86: intel_telemetry: Fix kernel doc descriptions
-4303d9e802d515b77a2ee0cbb0c82b5fb5aa3a19 HID: hid-asus: reset the backlight brightness level on resume
-07b21879bfaa7374b401b4e3e749e9c355f99a38 HID: multitouch: Add quirk for HONOR GLO-GXXX touchpad
-cae0af973805c21d7e93f1bc2fd950fda30c25da asm-generic: qspinlock: fix queued_spin_value_unlocked() implementation
-6f64790ba5894f54bcc9668a8e4f7175023ce964 net: usb: qmi_wwan: claim interface 4 for ZTE MF290
-dc86030346094af8a46beb1c3fb03a7c27cf8e8c HID: hid-asus: add const to read-only outgoing usb buffer
-6edea821ba21bce66c6d7f3e0ae88c536f45047d ext4: prevent the normalized size from exceeding EXT_MAX_BLOCKS
-74780420e5a576f2923c402a58266fdce952ba93 Linux 4.14.334-rc1
+f73e24ab8d6907f7e1e02cf28ec1a3ee38411f11 qca_debug: Prevent crash on TX ring changes
+ac0086f807e703c9e5eb063f09b4c531562c0c09 qca_debug: Fix ethtool -G iface tx behavior
+5f6fdd01f2ff79995ddfe3ad855f8c31c8e63da9 qca_spi: Fix reset behavior
+d450c060aafc77c3a9ce5316bb41477eae37e375 atm: solos-pci: Fix potential deadlock on &cli_queue_lock
+8901f502e10ce23653e3c0e86a9c9dbb6f661c95 atm: solos-pci: Fix potential deadlock on &tx_queue_lock
+531ea62ff7d124740e64d563a4075f5e0a046a27 atm: Fix Use-After-Free in do_vcc_ioctl
+5cf50a3770f702735e501ff4d934f24c0b467ff0 net/rose: Fix Use-After-Free in rose_ioctl
+edcac58d2960c8d216ed58e1f568a0e5402bf493 qed: Fix a potential use-after-free in qed_cxt_tables_alloc
+8de3ff9b416e1f5446555926436a385d6a613a73 net: Remove acked SYN flag from packet in the transmit queue correctly
+0047c2e29ac78796dc70c6e910ca01fcb37d88f0 sign-file: Fix incorrect return values check
+972d1778aee442d44c172aefb5afa4dcf468e9ca vsock/virtio: Fix unsigned integer wrap around in virtio_transport_has_space()
+d590993305471418313a8db0c2dbb9d0b5ed2f85 net: prevent mss overflow in skb_segment()
+2921cb6f149a0a43e9cf3b8e32c471615813867f driver core: add device probe log helper
+5f58f4bd54336fbb93f4e7b5cbe91ee17f6371f5 net: stmmac: use dev_err_probe() for reporting mdio bus registration failure
+f849193cb2a345c2ef7faee29b9936c0ee6a3e11 net: stmmac: Handle disabled MDIO busses from devicetree
+4b7186afd579d511fec40b0bdbb07a58d34de911 appletalk: Fix Use-After-Free in atalk_ioctl
+1b16239bc6f1f614d55176bc944400f4a43c2ffd Revert "PCI: acpiphp: Reassign resources on bridge if necessary"
+1173bcde3a4cab08295d58e247a970c8fd41f592 cred: switch to using atomic_long_t
+9fe75210191329242b0a2b02898b0b30ccba0063 blk-throttle: fix lockdep warning of "cgroup_mutex or RCU read lock required!"
+32d9a15973563fd8051e3bd4cc3a0e1700da6033 bcache: avoid oversize memory allocation by small stripe_size
+8e2201affa2aa91c93f048c7de7cafb6cdc83b9d bcache: add code comments for bch_btree_node_get() and __bch_btree_node_alloc()
+b37c1debdf5b3c04be807463c594b928995a0101 bcache: avoid NULL checking to c->root in run_cache_set()
+cfd36943f77472b5b518c937dc2ec5ebe6fa0242 platform/x86: intel_telemetry: Fix kernel doc descriptions
+61176b211e2f8b996b4cf842cf6d9f12dfb41190 HID: add ALWAYS_POLL quirk for Apple kb
+3453ef24b7941c9faecb90fa2501080994928895 HID: hid-asus: reset the backlight brightness level on resume
+935da77a495c9b3f8675f73f0e78ecd421ddaff8 HID: multitouch: Add quirk for HONOR GLO-GXXX touchpad
+1e3bc29d61b73db6a1704329c8e4a2f7fd182be3 asm-generic: qspinlock: fix queued_spin_value_unlocked() implementation
+bd256e8f8ed74caa312178e2756162b4d79e3930 net: usb: qmi_wwan: claim interface 4 for ZTE MF290
+98e932c0343322c80294b13c1bc5dc50e14ca8da HID: hid-asus: add const to read-only outgoing usb buffer
+b00549ea91bc783d6a311033d346892b714eb066 perf: Fix perf_event_validate_size() lockdep splat
+0b559f49de0ea7d8e9317db5e2fc77554c4571ae ext4: prevent the normalized size from exceeding EXT_MAX_BLOCKS
+fc366308268c9f19b35a845de7ac4b1fc92bbf34 Linux 4.19.303-rc1
 
---===============0439465596319006628==--
+--===============7344226109808791836==--
