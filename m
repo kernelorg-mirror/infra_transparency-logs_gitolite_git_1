@@ -1,17 +1,22 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 18 Dec 2023 17:27:31 -0000
-Message-Id: <170292045143.5907.6368743457589740413@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4513275193402048300=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 18 Dec 2023 17:27:41 -0000
+Message-Id: <170292046108.6034.1813312499795713048@gitolite.kernel.org>
+
+--===============4513275193402048300==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.8
+  - ref: refs/heads/for-6.8
     old: c95a2a0be0b1bba2e051faa105c2e0401fc2de33
     new: ee00330a5b78e2acf4b3aac32913da43e2c12a26
     log: |
@@ -25,3 +30,29 @@ changes:
          173a3b20a4980265bab52dbc60b616e739664b0d ASoC: dt-bindings: qcom,lpass-rx-macro: Add X1E80100 LPASS WSA
          ee00330a5b78e2acf4b3aac32913da43e2c12a26 ASoC: tas2781: add support for FW version 0x0503
          
+
+--===============4513275193402048300==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1702920458 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1702920458-2fe4eb56cdb66a7278aa042e5290482bf89af5e7
+
+c95a2a0be0b1bba2e051faa105c2e0401fc2de33 ee00330a5b78e2acf4b3aac32913da43e2c12a26 refs/heads/for-6.8
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWAgQsACgkQJNaLcl1U
+h9AfUAf/UOaeA3W/JewIdXZQCpyr8by62+cjoasy0ZqU9MTYGQZvrC9F+GECpG/e
+DPUKe6Jf5FH2K1Z/0HqslU/Rgh5RTP1IVkAlMwej6YRfuM9rENrM3SzgffVtZpWr
+rkYdEhIJceLSEfZxmyXp1NkipSv23+5DYY+6vYBenPfGvyhBpuJj0/llNjChzySp
+KGOiUMBrUYXdKUV6qSmaoby3Cx5UveHSKNkYGm5PZvKRJOzv42tiNjQOIFSS/gMg
+EHQm2Em/67xGaFSGKcLQJp9NZB2RbfmYyGp+NuuybaIBUWJrW/Ly8f/Qmi8WhnwG
+NMQmmbnzFdcxfFFQcZWCupvZ6FCOOA==
+=xZ2F
+-----END PGP SIGNATURE-----
+
+--===============4513275193402048300==--
