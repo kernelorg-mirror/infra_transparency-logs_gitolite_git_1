@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2476225422913074246=="
+Content-Type: multipart/mixed; boundary="===============5366138812230867745=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 18 Dec 2023 20:54:22 -0000
-Message-Id: <170293286234.26521.9571183332922937507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 18 Dec 2023 20:55:06 -0000
+Message-Id: <170293290684.28489.3072878713469828270@gitolite.kernel.org>
 
---===============2476225422913074246==
+--===============5366138812230867745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 023399de90d3ab2fcbdffd6e4217d8e7156dcbbf
     log: revlist-a61f89bf76ef-023399de90d3.txt
 
---===============2476225422913074246==
+--===============5366138812230867745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ c840f83314e28c02585b65836d8f574f8e2b8785 perf machine: Use function to add missi
 32984a37a11e269c2eb831410789ac48b0e3ab36 perf synthetic-events: Use function to add missing maps lock
 023399de90d3ab2fcbdffd6e4217d8e7156dcbbf perf thread: Use function to add missing maps lock
 
---===============2476225422913074246==--
+--===============5366138812230867745==--
