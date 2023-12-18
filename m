@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3534650402689801803=="
+Content-Type: multipart/mixed; boundary="===============1798137976750407523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 18 Dec 2023 23:03:02 -0000
-Message-Id: <170294058205.26638.5278231971241682799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 18 Dec 2023 23:08:11 -0000
+Message-Id: <170294089118.31384.5853816882187328606@gitolite.kernel.org>
 
---===============3534650402689801803==
+--===============1798137976750407523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
   - ref: refs/heads/main
     old: 610a689d2a57af3e21993cb6d8c3e5f839a8c89e
     new: 509afc7452707e62fb7c4bb257f111617332ffad
     log: revlist-610a689d2a57-509afc745270.txt
 
---===============3534650402689801803==
+--===============1798137976750407523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ e9d7c59212e43f079dffaf65001b006da6a12580 tools/net/ynl-gen-rst: Remove bold from
 9b0aa2244d9d12cc39726ffabc0609a029fda95c tools/net/ynl-gen-rst: Remove extra indentation from generated docs
 509afc7452707e62fb7c4bb257f111617332ffad Merge branch 'tools-net-ynl-add-sub-message-support-to-ynl'
 
---===============3534650402689801803==--
+--===============1798137976750407523==--
