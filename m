@@ -1,36 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8685087957934759950=="
+Content-Type: multipart/mixed; boundary="===============0704010726491832170=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 18 Dec 2023 17:29:04 -0000
-Message-Id: <170292054437.6794.750308658254698867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 18 Dec 2023 17:32:03 -0000
+Message-Id: <170292072359.9541.7247152772056055534@gitolite.kernel.org>
 
---===============8685087957934759950==
+--===============0704010726491832170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
   - ref: refs/heads/master
-    old: 1e74160baa46ca7c62ff5587ac23167e5c5e2316
-    new: b68ca22afe86db36f59f8bfe7b72b5fbda26187b
-    log: revlist-1e74160baa46-b68ca22afe86.txt
-  - ref: refs/tags/renesas-devel-2023-12-18-v6.7-rc6
-    old: 0000000000000000000000000000000000000000
-    new: b49f2e442cc06bd7c44b90e659a4c3376e8b1b2d
-  - ref: refs/tags/v6.7-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d8f30cf5e09a30e9a978b7df0aa5029afff0e1c1
+    old: dd900701c45dee6dc14e9645372cc418f799d810
+    new: 4793563f5c70653261c58f1bfb7d71efe7e797fe
+    log: revlist-dd900701c45d-4793563f5c70.txt
 
---===============8685087957934759950==
+--===============0704010726491832170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e74160baa46-b68ca22afe86.txt
+Content-Disposition: attachment; filename=revlist-dd900701c45d-4793563f5c70.txt
 
 0f40d5099cd6d828fd7de6227d3eabe86016724c phy: ti: gmii-sel: Fix register offset when parent is not a syscon node
 1af27671f62ce919f1fb76082ed81f71cb090989 clk: rockchip: rk3568: Add PLL rate for 292.5MHz
@@ -305,6 +299,6 @@ accc98aff5c39fdc63bf0bac471b9c601aaf4755 Merge tag 'soundwire-6.7-fixes' of git:
 0e389834672c723435a44818ed2cabc4dad24429 Merge tag 'for-6.7-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 177c2ffe69555dde28fad5ddb62a6d806982e53f Merge tag 'perf_urgent_for_v6.7_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ceb6a6f023fd3e8b07761ed900352ef574010bcb Linux 6.7-rc6
-b68ca22afe86db36f59f8bfe7b72b5fbda26187b Merge tag 'v6.7-rc6' into renesas-devel
+4793563f5c70653261c58f1bfb7d71efe7e797fe Merge tag 'v6.7-rc6'
 
---===============8685087957934759950==--
+--===============0704010726491832170==--
