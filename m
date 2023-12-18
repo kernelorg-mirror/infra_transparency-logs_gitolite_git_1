@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3564157532473149934=="
+Content-Type: multipart/mixed; boundary="===============5628261448437256325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 18 Dec 2023 18:11:56 -0000
-Message-Id: <170292311691.7052.2155032328363352167@gitolite.kernel.org>
+Date: Mon, 18 Dec 2023 18:12:04 -0000
+Message-Id: <170292312463.7190.12768267191566580758@gitolite.kernel.org>
 
---===============3564157532473149934==
+--===============5628261448437256325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.7
+  - ref: refs/heads/for-next
     old: 7f1e151e3ed43a5694bdaac3ed8c2a8d85d1892d
     new: 5d6f447b07d5432686ba69183af6e96ac58069c9
     log: revlist-7f1e151e3ed4-5d6f447b07d5.txt
 
---===============3564157532473149934==
+--===============5628261448437256325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -750,4 +750,4 @@ b86f4b790c998afdbc88fe1aa55cfe89c4068726 dm-integrity: don't modify bio's immuta
 6849302fdff126997765d16df355b73231f130d4 dm audit: fix Kconfig so DM_AUDIT depends on BLK_DEV_DM
 5d6f447b07d5432686ba69183af6e96ac58069c9 MAINTAINERS: remove stale info for DEVICE-MAPPER
 
---===============3564157532473149934==--
+--===============5628261448437256325==--
