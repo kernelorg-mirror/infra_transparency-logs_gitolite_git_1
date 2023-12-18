@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 18 Dec 2023 22:54:15 -0000
-Message-Id: <170294005568.19748.1620954923167128882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 18 Dec 2023 22:54:30 -0000
+Message-Id: <170294007045.19915.4243854891613222088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
-user: chanwoo
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/tags/v6.7-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8488f2d61f9372a5ebd5aa1f02a580d37a7a6b08
-  - ref: refs/tags/v6.7-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5b17c02f78c832014ef0acdddcd6e0480a3c2e77
-  - ref: refs/tags/v6.7-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 1143e59b844443b6c4841b9a7631cc41cdc260ba
-  - ref: refs/tags/v6.7-rc5
-    old: 0000000000000000000000000000000000000000
-    new: be59bee58790f9d137cfc11973e856e4f8ab3888
-  - ref: refs/tags/v6.7-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d8f30cf5e09a30e9a978b7df0aa5029afff0e1c1
+  - ref: refs/heads/master
+    old: 6079ae6376181b49c9e4d65ef9fe954cca4974bd
+    new: 8e432e6197cef6250dfd6fdffd41c06613c874ca
+    log: |
+         8e432e6197cef6250dfd6fdffd41c06613c874ca bpf: Ensure precise is reset to false in __mark_reg_const_zero()
+         
