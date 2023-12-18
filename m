@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2019264495033953482=="
+Content-Type: multipart/mixed; boundary="===============5431430671686455146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 18 Dec 2023 12:21:58 -0000
-Message-Id: <170290211800.8929.14860713380445286183@gitolite.kernel.org>
+Date: Mon, 18 Dec 2023 12:22:02 -0000
+Message-Id: <170290212277.9047.6317400925724535193@gitolite.kernel.org>
 
---===============2019264495033953482==
+--===============5431430671686455146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,109 +16,130 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 164c1b37a88a2dd5cfa1dbe36cec97747df302f2
-    new: 234099f7ffe70b0a1b40e8f9680786b433b49907
-    log: revlist-164c1b37a88a-234099f7ffe7.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 36ed1367e58180469476e7e5e786b97c4110930e
+    new: 5c9cf52be9e7d3da4c4278ee845b23c1e65b512b
+    log: revlist-36ed1367e581-5c9cf52be9e7.txt
 
---===============2019264495033953482==
+--===============5431430671686455146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702902116 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702902120 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1702902115-426fccca94750b268d8684f0f745d01eef22af1b
+nonce 1702902120-fb398967fbf097c00e754cd16feebcce17bea827
 
-164c1b37a88a2dd5cfa1dbe36cec97747df302f2 234099f7ffe70b0a1b40e8f9680786b433b49907 refs/heads/linux-5.10.y
+36ed1367e58180469476e7e5e786b97c4110930e 5c9cf52be9e7d3da4c4278ee845b23c1e65b512b refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWAOWQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Hn8P/2WAK8/YkkS3eCg4FP1M
-qjLxk7z/IPuY6S1ij6c5E+nzP059zpUwf4r8G4+VBRBz72CHnqWBKGERvlV/yIqK
-uINrTGj7quGuR+/a7uCBdF5F5nziR0uFPBcrBI8x2jPLcYOpW0BaXj1dlAvWLMAl
-xpZGQAXR3WlEoYoR2NS350ijFikS6UlVi6Lqz4N0TOORtBBwBciq3JSrgBntQ/iQ
-+PRnE3TEhRYIOcn0jNo+/CyMXsVgsUve66VvGTtpCs/b2dTQQa8S4SAgv8HrzuXx
-A4RTE4Ak581beHseZdV9/n7vRQsQ9KNO3ecb/M/MSLbRTiRua47OQZcD/LmpoeX8
-mpnLL7fDfoPhnGjON5g9mZZWHU4za3jLI/ihXPlA15eGJDQ9MxVPwMH7+Iv+3C7e
-+d17FaPz0ICgboFGdUMs1PaAifWdw5qrh43TIdwkMK7lw5gqiKANhkz5z4wwwYuQ
-tnshPHgkgXPX95rQb4qHHfqyiy3zef8WjG6MWkqrsOZXWviD8iUGQDOf5t8zGYK/
-1ZyV1wdgfvI4bkZBITBw28/Cl/CbcobLUmVKf877AN9LmlZUewp8R7SAhPwDCzB8
-5XIPmHZK/TUMbhnX6vJs/niWd0gg5r/LmpfpzgRjhrkQkOMBMoudedhQdGhGq0Eu
-wGZKnAnVhaIHJGNMhhZfZOmY
-=LEHH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWAOWgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3gYP/iGnmMw9TrnQ9uMpA60J
+1RcZ6VLu7vKV2vTqrUEvHz7D1TRJPlQHD9Lpt2k+ERBdICEQUcffkNtctMbAAyQ/
+jyslGLJ2bwgxK/dRLWmivT0jsphT3vdZ21iT+9ZW9MOSTofTzK3Xuq02rfwKJgbu
+02+hvjt+qsMhA7uVVKJd9rkJ+gegqFYPumuczXk5zRgw2hkpQYEp/R3h7UJRc8Tw
+nvPIJ7Xj8NFArH/bfNYW4j/IZRos50V2yyL35rrmaAUxQNtxFt0INnKHgoIkd0oe
+U5+zacl3nXVtACeCiAsZE0+G96Jq6xJvFQ7SYDnmpGqOq/uJWnzZOAzXVKUmaxaA
+ZYQOW3Urx2IphgYgrpIEBqwFCj3LUKX/hp0YIYBmka8cLv9iGf8FIUyqYAiKZIcJ
+W3OEfHO07Wp3Xev5xS99sojU8QoSACwZIFI/TeTbzIGN1wGYFeyWZoNeqDhl4Poi
+yipeZ+z7RzXqrEul5V9iC/TDqLilzQA86wPN4T6syIUs1ditkK30/9Oadl4uCHvx
+kk38HjpsevHgneinaxwA38l6sf5ByYq74Hn2BmaD3Q97KGDKYSHcnzwjFC78eMfQ
+cPutt7QWCA0rnv0DiNXtDce9XfH204sQaI8TMap7ky8B8ysb05s4ykM4BYAUl6Tm
+oU7PS0m/LLuWXM5IGU1LmXuc
+=VXmZ
 -----END PGP SIGNATURE-----
 
---===============2019264495033953482==
+--===============5431430671686455146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-164c1b37a88a-234099f7ffe7.txt
+Content-Disposition: attachment; filename=revlist-36ed1367e581-5c9cf52be9e7.txt
 
-6ac433463795c5949a85951a56d9b7a4c8f10284 netfilter: nf_tables: fix 'exist' matching on bigendian arches
-953ca4660ff19f76370599ba9628f38e3aa160a3 afs: Fix refcount underflow from error handling race
-d548b78e332324d41225448ae802be2900e00f8b HID: lenovo: Restrict detection of patched firmware only to USB cptkbd
-aa4c14e5af98156c13bcb8f3534a69e23eb2af20 net: ipv6: support reporting otherwise unknown prefix flags in RTM_NEWPREFIX
-8b1945d5759ce383c2b70e079a7614a9e64b07ec qca_debug: Prevent crash on TX ring changes
-c51a20937c0862a45b493da459979d027e90d68c qca_debug: Fix ethtool -G iface tx behavior
-6f64a48960df996f5ddad383e7412cb93ce0b080 qca_spi: Fix reset behavior
-33dcee3e10fad5b635821ba84a23dbd29446abf2 atm: solos-pci: Fix potential deadlock on &cli_queue_lock
-34fa418ac4baa4436cb5468407710c3c6f4ef0bb atm: solos-pci: Fix potential deadlock on &tx_queue_lock
-daa177ea9f128792cf0388fac30a489a24a31c69 net: vlan: introduce skb_vlan_eth_hdr()
-9f11fbf90b8d707902de81dbb11c819c2f6b3218 net: fec: correct queue selection
-47a353c3b99bf21ef20af509961b77570ed9163d atm: Fix Use-After-Free in do_vcc_ioctl
-031ece398caae3dd7e582ea09ba39722658e8343 net/rose: Fix Use-After-Free in rose_ioctl
-672326f318730d12bcdf42b3a7ac8871ab524be7 qed: Fix a potential use-after-free in qed_cxt_tables_alloc
-9028d2094342e4d9a7b8e6500452e530debe8658 net: Remove acked SYN flag from packet in the transmit queue correctly
-66dd96c25ce303ffd644c1077e33361d4509ce9f net: ena: Destroy correct number of xdp queues upon failure
-30e92f425547fd562fcf742c5e8e0e668ad42f43 net: ena: Fix XDP redirection error
-f08930eee4c867e914f3db2b0fdb2cf388dc9a7b sign-file: Fix incorrect return values check
-0d78a41bf925070bb8d62920b74d0a080e621145 vsock/virtio: Fix unsigned integer wrap around in virtio_transport_has_space()
-f9241a5cfff891470990499e070d7e97cb119a45 net: stmmac: use dev_err_probe() for reporting mdio bus registration failure
-bc41468bb500f4b30775bc5ae3f15f9c208af0af net: stmmac: Handle disabled MDIO busses from devicetree
-8e3abee29f73a6a9d2609590b8e335d44fe9dce0 appletalk: Fix Use-After-Free in atalk_ioctl
-3f608d8b0bbdd4cecdfe84d0ea177d64b7971af9 net: atlantic: fix double free in ring reinit logic
-f9ddd826566915d506726c9480fc128a0914a3d2 cred: switch to using atomic_long_t
-6cb655562a53da975f887de8a2e30235e26c16a6 fuse: dax: set fc->dax to NULL in fuse_dax_conn_free()
-82442a46ee82a4193e8aa50392fea811f5b655f6 ALSA: hda/hdmi: add force-connect quirks for ASUSTeK Z170 variants
-ad0478b782ddbc85c73660d6e05e7e437508e61a ALSA: hda/realtek: Apply mute LED quirk for HP15-db
-c1b2cd2ef718a8a17129fed6a7a35ae2a2111788 Revert "PCI: acpiphp: Reassign resources on bridge if necessary"
-811074f9b4365b942b9625577eabdf246b1828a3 PCI: loongson: Limit MRRS to 256
-7c51954422b39606e349144de49e5b2f13ae95b3 drm/atomic: Pass the full state to CRTC atomic begin and flush
-b4545865c31e95f6251c73b33026ca9321fdcea1 drm: Use state helper instead of CRTC state pointer
-1445e054cd300b3a866bd60f6445e96cac026f3f drm/mediatek: Add spinlock for setting vblank event in atomic_begin
-0adb94713db1de8a4766e07b892307a68ccdb31f usb: aqc111: check packet for fixup for true limit
-9d4b158e0859c865bf7d8956532c7a2e540331fc blk-throttle: fix lockdep warning of "cgroup_mutex or RCU read lock required!"
-f8cb2206808efda3b0b7b1d2012667d004201c12 bcache: avoid oversize memory allocation by small stripe_size
-6464d5ac523bfdf1f13b1923541b1475fef5fa1e bcache: remove redundant assignment to variable cur_idx
-91ea056ff4e9e5e89f750c11cc82ba87155c7b02 bcache: add code comments for bch_btree_node_get() and __bch_btree_node_alloc()
-49e3b1a4cbc8c7c18c258eea0197b90fcbacd33c bcache: avoid NULL checking to c->root in run_cache_set()
-e4f37d1bebacb85a8f4b685ab636ad581cf3f107 platform/x86: intel_telemetry: Fix kernel doc descriptions
-7565d9ba2520080a74d3633b332d8fb758b6ec97 HID: glorious: fix Glorious Model I HID report
-c740c33fa499ad6b9574458debdc9143dc9de402 HID: add ALWAYS_POLL quirk for Apple kb
-8e7c82eed49185432422487e3d8d4942cb519cd1 HID: hid-asus: reset the backlight brightness level on resume
-9eb19e7aa8009493fc34c9584be947868b0f4096 HID: multitouch: Add quirk for HONOR GLO-GXXX touchpad
-33b9cf17b21a2251b948ec453cd752020d92d51b asm-generic: qspinlock: fix queued_spin_value_unlocked() implementation
-41cefa2ada4d6d11091ca65e8feb6a2c04f944b5 net: usb: qmi_wwan: claim interface 4 for ZTE MF290
-8f692c4ce6e5a6ff93d1108228575c7241c7be3a HID: hid-asus: add const to read-only outgoing usb buffer
-0a3aab23d17e1baae234df36d7c79961d1331f7f perf: Fix perf_event_validate_size() lockdep splat
-0db87a2b5bd9afe7d585dc096f0c049bd9bcb600 soundwire: stream: fix NULL pointer dereference for multi_link
-fe7084fee0504637231a4eb920de512a3d108f99 ext4: prevent the normalized size from exceeding EXT_MAX_BLOCKS
-a49b0c72e66821876a5001aa4607b9934f4e9b00 arm64: mm: Always make sw-dirty PTEs hw-dirty in pte_modify
-8e63b0f603f42459ff821ed61a886faf40559d4a team: Fix use-after-free when an option instance allocation fails
-61fd56f64e197cd266c04ae54fc093d266598f9f ring-buffer: Fix memory leak of free page
-a4536b805487ecb1c374bf0c2f62250f5f976e75 tracing: Update snapshot buffer on resize if it is allocated
-5880bcc8ecebbe0f910d066fecc1b38f6d950568 ring-buffer: Have saved event hold the entire event
-5c50e662ec7773fef71a008446d19f515601491c ring-buffer: Fix writing to the buffer with max_data_size
-be0616aec7fd2bbea11d622172783b3c358d980c ring-buffer: Fix a race in rb_time_cmpxchg() for 32 bit archs
-b347ccdfbd72fe1a3862a77648598590bb2a78fe USB: gadget: core: adjust uevent timing on gadget unbind
-c5d3ba1e77ff2203703bc7a0ed49bc597290194c tty: n_gsm: fix tty registration before control channel open
-51c5f52d3171f55e08edfced51c373e40660ae60 tty: n_gsm, remove duplicates of parameters
-4e874c8da3a1ef9909dc345f3aab07c613aa578c tty: n_gsm: add sanity check for gsm->receive in gsm_receive_buf()
-723ed1c7a7d594549848971491c792a1a5ae3c9b powerpc/ftrace: Create a dummy stackframe to fix stack unwind
-1227cf31b988469070af35c3a69c964b4a89d392 powerpc/ftrace: Fix stack teardown in ftrace_no_trace
-234099f7ffe70b0a1b40e8f9680786b433b49907 Linux 5.10.205-rc1
+0aa5a8e6be7a5a14ca5b60568086773b19f5623b perf/x86/uncore: Don't WARN_ON_ONCE() for a broken discovery table
+eb91f04175bb59230c5aa81add0195519c5219c0 r8152: add USB device driver for config selection
+019534cb4a6868b921ac11a6ad79d8fb2907abf9 r8152: add vendor/device ID pair for D-Link DUB-E250
+e0677859072454c6a6a8cdcc69e3a997048804e3 r8152: add vendor/device ID pair for ASUS USB-C2500
+dca4af435f68f6656debafaaeb0d0cf13ab25c87 netfilter: nf_tables: fix 'exist' matching on bigendian arches
+555a031bae3b3bfcb2261579839ad243941e97a2 mm/memory_hotplug: handle memblock_add_node() failures in add_memory_resource()
+dcbcdcac18b2b6cb8f2221edb07c9e5c395326b9 memblock: allow to specify flags with memblock_add_node()
+639e1a255b040f2961da913b6d88cda60b9ab9d1 MIPS: Loongson64: Handle more memory types passed from firmware
+b4c18b09a9ec7841fe7a72eb72dfbd4bcae81c7e ksmbd: fix memory leak in smb2_lock()
+2c0d74a04a692b5be91967f2cdfff219b06d16cb afs: Fix refcount underflow from error handling race
+e169b2cd76d843377be5026e7f0ada552ef4928f HID: lenovo: Restrict detection of patched firmware only to USB cptkbd
+805a026f7f67e2dea9d93e55e6349a5fc452fc1d net: ipv6: support reporting otherwise unknown prefix flags in RTM_NEWPREFIX
+fac5cf36d6e1af403cdd9bed9414eec6ade5cfdf qca_debug: Prevent crash on TX ring changes
+adae3fa17807b8e021fa1b8ee105846a59dfda28 qca_debug: Fix ethtool -G iface tx behavior
+493ff7598f702a4e69e1bef4f15736f0f960dcfe qca_spi: Fix reset behavior
+5b7b205e18864723f88813a823bbcdd25c4a1a77 atm: solos-pci: Fix potential deadlock on &cli_queue_lock
+cf68549defcaaf968991565d12a88d9be10d8384 atm: solos-pci: Fix potential deadlock on &tx_queue_lock
+9a9b614c297c6eb2b072212e6dac01169b97582c net: vlan: introduce skb_vlan_eth_hdr()
+0399c856037472d0f82b7dae168e6c3aae10b8bc net: fec: correct queue selection
+8d4d8f1c32d05c8ec0fba619615e5f1f3c12a53f octeontx2-af: fix a use-after-free in rvu_nix_register_reporters
+978c7c2fff3933ea286ac13f10ccf6e0d2c401ea octeontx2-pf: Fix promisc mcam entry action
+b2028cc94c4256a583661dc3aeecaf4605917231 octeontx2-af: Update RSS algorithm index
+c97dae05954fea57c8fcdc0939954b6096e956b2 atm: Fix Use-After-Free in do_vcc_ioctl
+cc1f4057e09d7de36c992e17ea94ecc43b91626c net/rose: Fix Use-After-Free in rose_ioctl
+177942c16728439765b2cb4ac993e514dc6a3ebc qed: Fix a potential use-after-free in qed_cxt_tables_alloc
+410af088d8e71177ce25ed3fd729d1d70ecde05f net: Remove acked SYN flag from packet in the transmit queue correctly
+c0ac8d7e2c1a6e601889d602f87cc4a5794df9a1 net: ena: Destroy correct number of xdp queues upon failure
+7b8eac5274264592a55bcad200e2544c10a4fb1d net: ena: Fix xdp drops handling due to multibuf packets
+cb5df23cecb96423b4431857d67ca5d2b147cfa6 net: ena: Fix XDP redirection error
+9f3bc79ff7d1f6e01509e45d6597c321826231bd stmmac: dwmac-loongson: Make sure MDIO is initialized before use
+ffb5ae8ccfff1c4a0fc3bf901fdf6599f1ee809f sign-file: Fix incorrect return values check
+ef9ede16288050c78279c3b704798e48f6272716 vsock/virtio: Fix unsigned integer wrap around in virtio_transport_has_space()
+90b4bde4271d34cb5acb929a1067d7c9944a8b37 dpaa2-switch: fix size of the dma_unmap
+4446584e515ed3f19546dfd995d56e9ba004c5cd net: stmmac: use dev_err_probe() for reporting mdio bus registration failure
+6d5d83b26195eda2f50149cbab568af02b262ea6 net: stmmac: Handle disabled MDIO busses from devicetree
+ec54ce2f297aff89fdf84582497ab0c0f84174af appletalk: Fix Use-After-Free in atalk_ioctl
+963a4d26c96fc2f0d6d20543dfd85295b176ff8e net: atlantic: fix double free in ring reinit logic
+bf23210e5c696c3475ab450c52387f30dfb63e7c cred: switch to using atomic_long_t
+35861b6e6d19d2cee77d50eb7e2a492b844ddafd fuse: dax: set fc->dax to NULL in fuse_dax_conn_free()
+62190a9e9506193fe512f21e1f84da398f521601 ALSA: hda/hdmi: add force-connect quirk for NUC5CPYB
+5d74fee009ba30468ad3b4e7b6d8963a5f619ed5 ALSA: hda/hdmi: add force-connect quirks for ASUSTeK Z170 variants
+40a6997874b37a7541a4d9f74aa4560750d1addf ALSA: hda/realtek: Apply mute LED quirk for HP15-db
+0d88b95df374142a1a6514fad917cab87a6f29f4 Revert "PCI: acpiphp: Reassign resources on bridge if necessary"
+7241fd510914f4ab5b4e5a63de860258af20f77c PCI: loongson: Limit MRRS to 256
+9586c9919b47d21e131440f8f924e0cc7bcd9fa5 drm/mediatek: Add spinlock for setting vblank event in atomic_begin
+aa026bc8d50dd503ab6c36e0384dc0517d8441d6 usb: aqc111: check packet for fixup for true limit
+0b73b8f437878b1a92fece6e4cf8c16968d9a2e9 stmmac: dwmac-loongson: Add architecture dependency
+1d37fe1d5d911eba3e7955ecb7ca6de21b9f4df9 blk-throttle: fix lockdep warning of "cgroup_mutex or RCU read lock required!"
+46a9e2cb7e29f021d1c42f0ec33aeea43d13b384 blk-cgroup: bypass blkcg_deactivate_policy after destroying
+d1e238f390842f7a0c8066ab7ba3632538715c28 bcache: avoid oversize memory allocation by small stripe_size
+be30ba849fdcaa29f1b47e76d39a329ca93f0864 bcache: remove redundant assignment to variable cur_idx
+53f3e93eed3a3aafe83f2d8b30bf580b45f0eb78 bcache: add code comments for bch_btree_node_get() and __bch_btree_node_alloc()
+01e67d4c379f46408eebbe168f5fc40d7dab555e bcache: avoid NULL checking to c->root in run_cache_set()
+9d3d5d673d35f67999dc16300415ac37baa8e794 platform/x86: intel_telemetry: Fix kernel doc descriptions
+15a2b5e695d66bb131efe4d8a03701822b507080 HID: glorious: fix Glorious Model I HID report
+bf58615b181319edb61603a425cc40066b9a0db6 HID: add ALWAYS_POLL quirk for Apple kb
+42db9f651dd209d27cdc5c40f485bd37c6314c88 HID: hid-asus: reset the backlight brightness level on resume
+b8b252bc41de38c212dacf73b95551515e3d4ad2 HID: multitouch: Add quirk for HONOR GLO-GXXX touchpad
+caa219ce2fd3cd954291e0f245b196d42225da05 asm-generic: qspinlock: fix queued_spin_value_unlocked() implementation
+544e8d60c9018e1c469e5542fa779cdae58265f9 net: usb: qmi_wwan: claim interface 4 for ZTE MF290
+17e22e2f1b6b35eba4e0e806f4717550750b71fa HID: hid-asus: add const to read-only outgoing usb buffer
+a09d88f8d3bd3dc738ed1697bdd1f58a7075efc8 perf: Fix perf_event_validate_size() lockdep splat
+b4f1393d1e457efda9a5bf9d215321cac7f5dc9d btrfs: do not allow non subvolume root targets for snapshot
+e6f59f303b42f94db15ede40bbe195fd9395577f soundwire: stream: fix NULL pointer dereference for multi_link
+ad28b6fdb7516b127bb5fe5ba110b855ad6beb66 ext4: prevent the normalized size from exceeding EXT_MAX_BLOCKS
+8f03118dbaeddeb8c959b5bd3dee6cc1207e6ab2 arm64: mm: Always make sw-dirty PTEs hw-dirty in pte_modify
+abf0a8310ebd305d472a54964f031786dda7caba team: Fix use-after-free when an option instance allocation fails
+b33c6a0274abc007f0f25c5a96f28bccce522b8e drm/amdgpu/sdma5.2: add begin/end_use ring callbacks
+049e4c051ec2405d4122de1519b9649fd2a8df49 ring-buffer: Fix memory leak of free page
+8978f7b7b60df114b253d56f4f48d0df1635f4b6 tracing: Update snapshot buffer on resize if it is allocated
+7159d7393d8743ea2d9ab8080b97af9a8eb1da1e ring-buffer: Do not update before stamp when switching sub-buffers
+f7663ecff958a431d4febccb38ac13f6ab0e5a51 ring-buffer: Have saved event hold the entire event
+c6e9ad2bbebe8e1fa8ef82c928c36e5b438301ec ring-buffer: Fix writing to the buffer with max_data_size
+7151a99fa87f3949f489690fa53259ae29beca26 ring-buffer: Fix a race in rb_time_cmpxchg() for 32 bit archs
+0b4e8a04a1c31dbb701d1330a9b579382e298268 ring-buffer: Do not try to put back write_stamp
+2e3364dd49ce0ff59e00b8c8271201a759fdb8a4 USB: gadget: core: adjust uevent timing on gadget unbind
+c88b5f2d364ed017996b95893c4f3665fbd2948b RDMA/irdma: Prevent zero-length STAG registration
+d11e820475f9982eb2a85c57d6a4cade1c924bb4 powerpc/ftrace: Create a dummy stackframe to fix stack unwind
+b7e8aa17ec71581abce9a102c63258bc179f944b powerpc/ftrace: Fix stack teardown in ftrace_no_trace
+07b6e9d087db0243cd01f436066e31cbc1559a92 ksmbd: Mark as BROKEN in the 5.15.y kernel
+099960a80979adfd7f64afd870b974f524208012 r8152: avoid to change cfg for all devices
+4940f8251e3a9fd4162272baf406fa9348b2f695 r8152: remove rtl_vendor_mode function
+f1da6e61b35276b1981b0cc698328138eb49c046 r8152: fix the autosuspend doesn't work
+5c9cf52be9e7d3da4c4278ee845b23c1e65b512b Linux 5.15.144-rc1
 
---===============2019264495033953482==--
+--===============5431430671686455146==--
