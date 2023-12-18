@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 18 Dec 2023 20:46:59 -0000
-Message-Id: <170293241996.22133.6521191655147256676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sailus/linux-firmware
+Date: Mon, 18 Dec 2023 20:49:36 -0000
+Message-Id: <170293257699.23128.13329497369302957249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/sailus/linux-firmware
+user: sailus
 changes:
-  - ref: refs/heads/master
-    old: e01208dac67f5204794ad8a93470b20536949320
-    new: eb07ec1f6ffb57f41edbedaeb0da9eb1bd11be28
+  - ref: refs/heads/ivsc
+    old: 6c58b3ca2f8ee041ec0724afedce6474b298195e
+    new: 75eaf8dc8c8464933333080584b381f4d3fa515e
     log: |
-         c89ebba80f27e412d5222737c32b2ed81a6fc80c uuid: Add AICS UUIDs
-         172948d0d6f6330baedec6276c32b07b2b8b69da shared/vcp: Implement AICS service
-         eb07ec1f6ffb57f41edbedaeb0da9eb1bd11be28 unit/test-vcp.c: Add AICS unit tests
+         3cbbf7872a3d0aa2c64bf6e42e777d2816ad3fe2 qcom: Add Audio firmware for SM8550 QRD
+         b80907ec3a811aff9afdeceb7410ad408f7e0de4 qcom: Add Audio firmware for SM8650 QRD
+         4d132b536f9e8436ca281d2c1f2d40a6e8ce419b Merge branch 'robot/pr-0-1702560138' into 'main'
+         87be457c2e50d35caeefc00cd590af21c29a8b83 amdgpu: DMCUB updates for various AMDGPU ASICs
+         c156e6be6d4a0a2290e7059bc74fb0612aa19693 Merge branch 'robot/pr-0-1702625169' into 'main'
+         75eaf8dc8c8464933333080584b381f4d3fa515e intel: vsc: Add firmware for Vision Sensing Controller
          
