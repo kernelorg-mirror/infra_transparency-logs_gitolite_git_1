@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sailus/linux-firmware
-Date: Mon, 18 Dec 2023 21:01:20 -0000
-Message-Id: <170293328088.32526.13365176469522361036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 18 Dec 2023 21:10:19 -0000
+Message-Id: <170293381986.7810.11057312229415033296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sailus/linux-firmware
-user: sailus
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/ivsc
-    old: 75eaf8dc8c8464933333080584b381f4d3fa515e
-    new: cfc997c664f076c6800b749ed7ef315b1e8e76fd
+  - ref: refs/heads/master
+    old: 561e42793b0ec43bd236a1baf259ec3abe990746
+    new: 70e8b293367259979507b5e5f676b73f427d205c
     log: |
-         cfc997c664f076c6800b749ed7ef315b1e8e76fd intel: vsc: Add firmware for Visual Sensing Controller
+         70e8b293367259979507b5e5f676b73f427d205c Mon Dec 18 09:08:33 PM UTC 2023
          
-  - ref: refs/tags/ivsc-2023-12-18
-    old: 0000000000000000000000000000000000000000
-    new: c22c5fdc321057fe3e922356a2beaceef66246f7
