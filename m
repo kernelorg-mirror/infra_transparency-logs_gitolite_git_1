@@ -1,29 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 18 Dec 2023 07:50:18 -0000
-Message-Id: <170288581866.21217.1000099363533251337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 18 Dec 2023 08:13:18 -0000
+Message-Id: <170288719867.4666.12421112721042924498@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/dev
-    old: 4232173f8f7fb924f3c065ebd8cbfdadc5dbef90
-    new: 0ee3a0d59e007320167a2e9f4b8bf1304ada7771
+  - ref: refs/heads/for-linus
+    old: ec1de5c214eb5a892fdb7c450748249d5e2840f5
+    new: 48d6b91798a6694fdd6edb62799754b9d3fe0792
     log: |
-         e5aba911dee5e20fa82efbe13e0af8f38ea459e7 erofs: fix ztailpacking for subpage compressed blocks
-         1ca01520148af399899ed66af5c78330bb9ecaf2 erofs: refine z_erofs_transform_plain() for sub-page block support
-         0ee3a0d59e007320167a2e9f4b8bf1304ada7771 erofs: enable sub-page compressed block support
+         48d6b91798a6694fdd6edb62799754b9d3fe0792 ALSA: usb-audio: Increase delay in MOTU M quirk
          
-  - ref: refs/heads/dev-test
-    old: 4232173f8f7fb924f3c065ebd8cbfdadc5dbef90
-    new: 0ee3a0d59e007320167a2e9f4b8bf1304ada7771
+  - ref: refs/heads/master
+    old: bc5bae3f01bf3fd88902af4b1d7e49d3aad3d0ff
+    new: d31fb6f9c7b8ff75530dde372772316d5b7c4983
     log: |
-         e5aba911dee5e20fa82efbe13e0af8f38ea459e7 erofs: fix ztailpacking for subpage compressed blocks
-         1ca01520148af399899ed66af5c78330bb9ecaf2 erofs: refine z_erofs_transform_plain() for sub-page block support
-         0ee3a0d59e007320167a2e9f4b8bf1304ada7771 erofs: enable sub-page compressed block support
+         48d6b91798a6694fdd6edb62799754b9d3fe0792 ALSA: usb-audio: Increase delay in MOTU M quirk
+         d31fb6f9c7b8ff75530dde372772316d5b7c4983 Merge branch 'for-linus'
          
