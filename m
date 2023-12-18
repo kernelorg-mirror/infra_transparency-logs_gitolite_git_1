@@ -1,42 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5864654209620573089=="
+Content-Type: multipart/mixed; boundary="===============4854959964257572946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 18 Dec 2023 12:03:47 -0000
-Message-Id: <170290102776.26026.10616929697415418939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 18 Dec 2023 12:06:59 -0000
+Message-Id: <170290121968.28921.7671150257887995098@gitolite.kernel.org>
 
---===============5864654209620573089==
+--===============4854959964257572946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-hans
-    old: ed289b98c2aeb35f1d4198933315a9c5c30e961a
-    new: f533fa142258024dfe9a8fcba1a28d25a3cbe51b
-    log: revlist-ed289b98c2ae-f533fa142258.txt
+  - ref: refs/heads/master
+    old: a0a9a1101ec0431638957322fef21a9b5a5b8a8b
+    new: 389f15e5c18735ba494f35802d0bc317d1a61f80
+    log: |
+         9ff02177fce3b2070dd5bd332596320196ab6106 drop a bunch of r8152 driver changes from 5.10.y
+         389f15e5c18735ba494f35802d0bc317d1a61f80 6.1-stable patches
+         
 
---===============5864654209620573089==
+--===============4854959964257572946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed289b98c2ae-f533fa142258.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ac052d8c08f9da225bea09c7e71527831368462b platform/x86/amd/pmf: Add PMF TEE interface
-ae82cef7d9c53cad0852d2d79d430b210432a025 platform/x86/amd/pmf: Add support for PMF-TA interaction
-2b3a7f06caaf1aa7379cc0233462799852fcd8b4 platform/x86/amd/pmf: Change return type of amd_pmf_set_dram_addr()
-7c45534afa4435c9fceeeb8ca33c0fdc269c2240 platform/x86/amd/pmf: Add support for PMF Policy Binary
-c7af165372a8612eae08dbbab787d1d84d7f0384 platform/x86/amd/pmf: change amd_pmf_init_features() call sequence
-f4627dfd0e1924ad31c6476c0fc2308cfe12b561 platform/x86/amd/pmf: Add support to get inputs from other subsystems
-c3b40930a214545919d1385b8aa71cb665904571 platform/x86/amd/pmf: Add support update p3t limit
-d0ba7ad438dfed944232cf8c96141ae5057605ee platform/x86/amd/pmf: Add support to update system state
-4984dbb60789ccb8674708446431f3bc0dc73100 platform/x86/amd/pmf: Make source_as_str() as non-static
-69e76c5af973854556625a8e156a39d1edbe8d6f platform/x86/amd/pmf: Add facility to dump TA inputs
-10817f28e5337e5ddb873c8431d4db8d93712587 platform/x86/amd/pmf: Add capability to sideload of policy binary
-f533fa142258024dfe9a8fcba1a28d25a3cbe51b platform/x86/amd/pmf: dump policy binary data
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702901218 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1702901217-3ccf3c10ecf92dfacc3fc4e01aca02c849194dec
 
---===============5864654209620573089==--
+a0a9a1101ec0431638957322fef21a9b5a5b8a8b 389f15e5c18735ba494f35802d0bc317d1a61f80 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWANeIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L5QP/18fz+4EVyrtjCscepyC
+yxf24hUiKK4tcHprWy6jOmEHo2JAUJf5WHIaZbX7n7ND+i1+4yeCV+NUWI9qgJpi
+lh37BiQi82B3v9bDYilNly3Zw2c7blGVLwJ/Sb/xodqFAa1eQF1uh3UURONUnKpE
+gbcyPSo0JcKVmvnzTU9C+bpJj6BZO0NuN+t2lCEz3CHFNQZcydaE6s85SJtHhUTJ
+w+K0rOb5sQRsxxaAtC46lOxJZ4rzDWPFLk+u1SfLCTErvmDIzXIw3q8Sq4FGOBAS
+lPX734DN2SwN+2o36GGkb3GOkwiqx87ftNAfRk4NIChaF/AA9DdVAzimCnkrdyOF
+8VhcxOuYIBrBem2NeP4vsJybUCrVkhqWNOscJEz59hVttZGU2DsjHOBSvZdUoYsC
+rH1LSYcDTs34jsDPaXgqnbiZ8gA/SLv1qDvKj/maDzmVgGF+SJhhJyr/c/WeSufO
+V+FKCE9WnYq3ocyIauesT/e0XCY9JF3665LTV/7Gtae4hr+S2z+AE3m5nSUCGd91
+gIGaPFkKrIDHlal5R29QWwGYhZvvPKvg2oDSR84trkb9pPSWrXsdQCgzrj4pX+h8
+AQ6xzE6uG5IjUcaFguBsFP04sZfTS2CAoXQ2J5TJ3WtHOtX+dCQHyu8JuIzG2D+v
+OpxAXISO7CjeDpsnwXoRdYuu
+=oLvA
+-----END PGP SIGNATURE-----
+
+--===============4854959964257572946==--
