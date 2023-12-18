@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Mon, 18 Dec 2023 22:47:47 -0000
-Message-Id: <170293966741.15592.2446364529129835157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Mon, 18 Dec 2023 22:53:39 -0000
+Message-Id: <170294001936.19349.12873755480478709124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/chanwoo/linux
+user: chanwoo
 changes:
-  - ref: refs/heads/timers/core
-    old: 54ac3b47e3f8a0a324f11df14403e97679a01c37
-    new: 85f42fa9c80f7483381d8367938795601a65d11b
+  - ref: refs/heads/devfreq-next
+    old: 4920ee6dcfaf9aec9f4bd14ce6c15a6a758a92ae
+    new: a3e1eb9deace4f94d830ef33943e7a71f77a354a
     log: |
-         91d007ddbe3cf0b6efab222a2911588147228dc2 hrtimer: Report offline hrtimer enqueue
-         2ddc325f5339a46834c7001e6b17ee64582679c7 rcu: Defer RCU kthreads wakeup when CPU is dying
-         85f42fa9c80f7483381d8367938795601a65d11b rcu/exp: Remove full barrier upon main thread wakeup
+         a3e1eb9deace4f94d830ef33943e7a71f77a354a PM / devfreq: Synchronize device_monitor_[start/stop]
          
