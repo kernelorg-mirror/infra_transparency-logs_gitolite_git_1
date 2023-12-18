@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 18 Dec 2023 10:27:52 -0000
-Message-Id: <170289527241.18492.10838777621125079034@gitolite.kernel.org>
+Date: Mon, 18 Dec 2023 10:27:59 -0000
+Message-Id: <170289527902.18619.8257905899521546200@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/fixes
-    old: b1a6a1a77f0666a5a6dc0893ab6ec8fcae46f24c
-    new: e6b2dab41888332bf83f592131e7ea07756770a4
+  - ref: refs/heads/features
+    old: b8fa3e90965eeb2f83aa637ba0d0d6fd2a524004
+    new: b2b97a62f055dd638f7f02087331a8380d8f139a
     log: |
-         e6b2dab41888332bf83f592131e7ea07756770a4 s390/vx: fix save/restore of fpu kernel context
+         b2b97a62f055dd638f7f02087331a8380d8f139a Revert "s390: update defconfigs"
          
