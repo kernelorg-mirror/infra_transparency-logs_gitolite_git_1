@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0966586466219446750=="
+Content-Type: multipart/mixed; boundary="===============4359885600429798482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 18 Dec 2023 06:46:44 -0000
-Message-Id: <170288200453.30387.16146984554511239424@gitolite.kernel.org>
+Date: Mon, 18 Dec 2023 06:46:57 -0000
+Message-Id: <170288201777.30526.7439007190749913896@gitolite.kernel.org>
 
---===============0966586466219446750==
+--===============4359885600429798482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-6.8-merge
     old: 18793e050504288345eb455a471677b57117bcc6
     new: 98bdbf60cca858f4bc993895b738c6ae1bef42b8
     log: revlist-18793e050504-98bdbf60cca8.txt
 
---===============0966586466219446750==
+--===============4359885600429798482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -80,4 +80,4 @@ a5b91555403e3a09ae00bed85fc78b60801dda24 xfs: repair quotas
 5bb4ad95c1c619e78cdbe8b31a2946b9204090ba Merge tag 'repair-rtbitmap-6.8_2023-12-15' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.8-mergeB
 98bdbf60cca858f4bc993895b738c6ae1bef42b8 Merge tag 'repair-quota-6.8_2023-12-15' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.8-mergeB
 
---===============0966586466219446750==--
+--===============4359885600429798482==--
