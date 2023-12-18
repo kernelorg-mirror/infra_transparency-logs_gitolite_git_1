@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0704010726491832170=="
+Content-Type: multipart/mixed; boundary="===============6197173458654296005=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 18 Dec 2023 17:32:03 -0000
-Message-Id: <170292072359.9541.7247152772056055534@gitolite.kernel.org>
+Date: Mon, 18 Dec 2023 17:32:13 -0000
+Message-Id: <170292073354.9701.13610467557527969228@gitolite.kernel.org>
 
---===============0704010726491832170==
+--===============6197173458654296005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: dd900701c45dee6dc14e9645372cc418f799d810
-    new: 4793563f5c70653261c58f1bfb7d71efe7e797fe
-    log: revlist-dd900701c45d-4793563f5c70.txt
+  - ref: refs/heads/m68k-queue
+    old: fca25ca0bcee09546732d20f5ba7c7cc864d4a0d
+    new: 9dcb0b2b719b6db082d537caddced95b19151101
+    log: revlist-fca25ca0bcee-9dcb0b2b719b.txt
 
---===============0704010726491832170==
+--===============6197173458654296005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd900701c45d-4793563f5c70.txt
+Content-Disposition: attachment; filename=revlist-fca25ca0bcee-9dcb0b2b719b.txt
 
 0f40d5099cd6d828fd7de6227d3eabe86016724c phy: ti: gmii-sel: Fix register offset when parent is not a syscon node
 1af27671f62ce919f1fb76082ed81f71cb090989 clk: rockchip: rk3568: Add PLL rate for 292.5MHz
@@ -299,6 +299,8 @@ accc98aff5c39fdc63bf0bac471b9c601aaf4755 Merge tag 'soundwire-6.7-fixes' of git:
 0e389834672c723435a44818ed2cabc4dad24429 Merge tag 'for-6.7-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 177c2ffe69555dde28fad5ddb62a6d806982e53f Merge tag 'perf_urgent_for_v6.7_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ceb6a6f023fd3e8b07761ed900352ef574010bcb Linux 6.7-rc6
-4793563f5c70653261c58f1bfb7d71efe7e797fe Merge tag 'v6.7-rc6'
+29073a251afc6df5f8598738581d948384e50c0a m68k: atari: usb: Add ISP1160 USB host controller support
+6d0ae8a7b7f7c40e263d9137718b58206fd735ad m68k: atari: Update Kconfig.bus help text
+9dcb0b2b719b6db082d537caddced95b19151101 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0704010726491832170==--
+--===============6197173458654296005==--
