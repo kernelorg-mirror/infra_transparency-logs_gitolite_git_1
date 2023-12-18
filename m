@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5955570505508626656=="
+Content-Type: multipart/mixed; boundary="===============7354285897024807342=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 18 Dec 2023 16:23:46 -0000
-Message-Id: <170291662664.23704.15608590781580972196@gitolite.kernel.org>
+Date: Mon, 18 Dec 2023 16:24:52 -0000
+Message-Id: <170291669233.24153.9045827091734368151@gitolite.kernel.org>
 
---===============5955570505508626656==
+--===============7354285897024807342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
-    new: ceb6a6f023fd3e8b07761ed900352ef574010bcb
-    log: revlist-a39b6ac3781d-ceb6a6f023fd.txt
+  - ref: refs/heads/nfsd-next
+    old: 59392e03bfaa26c7074b262747f6268eff60040b
+    new: 9637daa85f6968fafb84d2d74f7c3830e4ce5c43
+    log: revlist-59392e03bfaa-9637daa85f69.txt
 
---===============5955570505508626656==
+--===============7354285897024807342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a39b6ac3781d-ceb6a6f023fd.txt
+Content-Disposition: attachment; filename=revlist-59392e03bfaa-9637daa85f69.txt
 
 0f40d5099cd6d828fd7de6227d3eabe86016724c phy: ti: gmii-sel: Fix register offset when parent is not a syscon node
 1af27671f62ce919f1fb76082ed81f71cb090989 clk: rockchip: rk3568: Add PLL rate for 292.5MHz
@@ -299,5 +299,56 @@ accc98aff5c39fdc63bf0bac471b9c601aaf4755 Merge tag 'soundwire-6.7-fixes' of git:
 0e389834672c723435a44818ed2cabc4dad24429 Merge tag 'for-6.7-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 177c2ffe69555dde28fad5ddb62a6d806982e53f Merge tag 'perf_urgent_for_v6.7_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ceb6a6f023fd3e8b07761ed900352ef574010bcb Linux 6.7-rc6
+71aa7d31515871da9e52cd3852217a5fdc10cfe1 nfsd: new Kconfig option for legacy client tracking
+abd97e0b8f2bbcf71880394912e61533a77357cb NFSD: use read_seqbegin() rather than read_seqbegin_or_lock()
+2172938bee5328ea88f79a0b67045524001c9f69 NFSD: Make the file_delayed_close workqueue UNBOUND
+a307a2f50278411499f305e949780c78a4fcea4f NFSD: Remove nfsd_drc_gc() tracepoint
+91158d19e2c17bacf16fb391bbf8e74b2307fa8a NFSD: Document lack of f_pos_lock in nfsd_readdir()
+3ceb3a9351f2fe9a4516d0c1d692fca5ae6686de SUNRPC: Add a server-side API for retrieving an RPC's pseudoflavor
+60527cfbf340a6f33b9565babfb06c5d17949bfe NFSD: Replace RQ_SPLICE_OK in nfsd_read()
+f77cb909ad9bed65448d07cab55ea7d9244b77aa NFSD: Modify NFSv4 to use nfsd_read_splice_ok()
+f48f7766eb1bd95b3029e0c1886bdd94a07df79d SUNRPC: Remove RQ_SPLICE_OK
+61392719d9c1d9d971158cceeab1c0d78209a3fc nfsd: remove unnecessary NULL check
+ad8154ed22a25ffa2e91c11f75751c02417cc920 NFSv4, NFSD: move enum nfs_cb_opnum4 to include/linux/nfs4.h
+b504a22fd1f92d24e49dad7e13a1bc6bb2d62027 svcrdma: Eliminate allocation of recv_ctxt objects in backchannel
+d79be847285e6ef8ec06563f6834a49afe3cf44c svcrdma: Pre-allocate svc_rdma_recv_ctxt objects
+ed1cc63c52c0ab744508331dff8a5c04d15d7e13 svcrdma: Add a utility workqueue to svcrdma
+0704b78db26e76afebe3aa812385b1a2f9820316 svcrdma: Add an async version of svc_rdma_send_ctxt_put()
+b49cb64862e12f7f99043a88ab9546dde883ee3f svcrdma: Add an async version of svc_rdma_write_info_free()
+666bb1796952ebc0e5f8e30877a07a682a6e84e3 svcrdma: Clean up locking
+0cd4fd2a8779d98838e184324c3e461d93d41b12 svcrdma: Add lockdep class keys for transport locks
+066b7a67443c38617adbbe3c1c5f7a5666f57e98 rpcrdma: Introduce a simple cid tracepoint class
+b9fc787116e50550237eeead6ddbeb58f2aecf57 svcrdma: SQ error tracepoints should report completion IDs
+b8841dbbe8054f8928393e36553cbad516944241 svcrdma: DMA error tracepoints should report completion IDs
+ab9dbb6f98e1b27199c5e41883fbd01b7ec7ffa3 svcrdma: Update some svcrdma DMA-related tracepoints
+469cae530e9f5a05d49566e6e154d144168e5f31 svcrdma: Reduce size of struct svc_rdma_rw_ctxt
+d3512b1862367213da213a2f0f1b29c19ae5b346 svcrdma: Acquire the svcxprt_rdma pointer from the CQ context
+84863b28e1257f7b638331937d52d6171ea9583e svcrdma: Explicitly pass the transport into Write chunk I/O paths
+c44c849ed60de4cb9a8425060353d5c0b2941126 svcrdma: Explicitly pass the transport into Read chunk I/O paths
+4927e8155c843d9f1abd725a03c9b3b0c01200c9 svcrdma: Explicitly pass the transport to svc_rdma_post_chunk_ctxt()
+88747cab926447fded7376cd1e6ca0a9f7ff6e46 svcrdma: Pass a pointer to the transport to svc_rdma_cc_release()
+fbc673f77de0fb130f684010b8af648697cedf23 svcrdma: Remove the svc_rdma_chunk_ctxt::cc_rdma field
+b5960a60773d7ccfaeec112328cb3db0758d3609 svcrdma: Move struct svc_rdma_chunk_ctxt to svc_rdma.h
+3dfb329b179cb5f1f318184eea6f3823dc4690dd svcrdma: Start moving fields out of struct svc_rdma_read_info
+2dc5e5410bf39924edfc0df094600862ccc463f5 svcrdma: Move svc_rdma_read_info::ri_pageno to struct svc_rdma_recv_ctxt
+c5ca9daead74b7ded2b8a4b43c4c3f1711a5cbcd svcrdma: Move read_info::ri_pageoff into struct svc_rdma_recv_ctxt
+ce0cb68c300a146ae54ebdb74809ed668a953b6e svcrdma: Update synopsis of svc_rdma_build_read_segment()
+4bd4b3da66b148a0dc847809af589e214fb28e60 svcrdma: Update synopsis of svc_rdma_build_read_chunk()
+6c6ba8c702278b17b88e6a099acb819026086e09 svcrdma: Update synopsis of svc_rdma_read_chunk_range()
+67b59cd4ab9ccd4b16ccfe756fbe395c880b4088 svcrdma: Update the synopsis of svc_rdma_read_data_item()
+28863a442b86baa1dbd74356daffc5a93445e4cc svcrdma: Update synopsis of svc_rdma_copy_inline_range()
+6b479a88e8e60944d7162e8d08162854c1904e98 svcrdma: Update synopsis of svc_rdma_read_multiple_chunks()
+403238650c638fd77288a96bd5a4f763c569de6d svcrdma: Update the synopsis of svc_rdma_read_call_chunk()
+46860ff8683196f46ffb7a4150089241515e31b5 svcrdma: Update the synopsis of svc_rdma_read_special()
+0b1868504a476d19f0b5518be6706cd73e081c19 svcrdma: Remove struct svc_rdma_read_info
+875cd47cff866265ba288acdec3e31f2865ebc1a svcrdma: Move the svc_rdma_cc_init() call
+3025cda271b036f43017a6e2ea7b420573609e34 svcrdma: De-duplicate completion ID initialization helpers
+033d7d6f390d201d62ec76b5e1aa5c7045d18c2b svcrdma: Optimize svc_rdma_cc_init()
+e508453ef292f68b3e4cd79888052a76a622fb3f svcrdma: Remove pointer addresses shown in dprintk()
+7e91070cbbdb37408d80968e4818fd94539c1365 svcrdma: Remove queue-shortening warnings
+589c5282370784ae5f154a0f97ddce8b0787e70a svcrdma: Clean up comment in svc_rdma_accept()
+7769285f1d5934f7b6677788f86bf3860c26582e svcrdma: Reserve an extra WQE for ib_drain_rq()
+9edaca2eb79de8fecb93d9f2b008da1a815b8d7b svcrdma: Use all allocated Send Queue entries
+9637daa85f6968fafb84d2d74f7c3830e4ce5c43 svcrdma: Increase the per-transport rw_ctx count
 
---===============5955570505508626656==--
+--===============7354285897024807342==--
