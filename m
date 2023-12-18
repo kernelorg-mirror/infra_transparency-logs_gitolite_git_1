@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 18 Dec 2023 17:59:53 -0000
-Message-Id: <170292239301.28786.5132518362105695740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 18 Dec 2023 18:06:33 -0000
+Message-Id: <170292279355.2143.8737311677297602895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: e58aac1a9a179fa9dab3025ef955cdb548c439f2
-    new: 6079ae6376181b49c9e4d65ef9fe954cca4974bd
+  - ref: refs/heads/master
+    old: b2c8b97874988fce0e77611b94fb89a1f5aaa699
+    new: bbd27495d302856b1f28d64b346d3ad80be3a86f
     log: |
-         3983c00281d96af2ba611254d679107b5c390627 bpf: Fail uprobe multi link with negative offset
-         f17d1a18a3dd6cc4b38a5226b0acbbad3f2063ae selftests/bpf: Add more uprobe multi fail tests
-         6079ae6376181b49c9e4d65ef9fe954cca4974bd Merge branch 'bpf-add-check-for-negative-uprobe-multi-offset'
+         09b8ded9686f33f1044ad8c612f2281b865cd314 Link against libgcc based on output of -print-libgcc-file-name
+         bbd27495d302856b1f28d64b346d3ad80be3a86f Merge branch 'print-libgcc-file-name' of https://github.com/vimproved/liburing
          
