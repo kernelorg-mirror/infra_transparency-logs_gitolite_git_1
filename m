@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 18 Dec 2023 20:40:26 -0000
-Message-Id: <170293202657.18123.16810941990224955622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 18 Dec 2023 20:46:59 -0000
+Message-Id: <170293241996.22133.6521191655147256676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/kunit
-    old: d393acce7b3f046a1086362317a05f2cac01fa89
-    new: 342fb9789267ee3908959bfa136b82e88e2ce918
+  - ref: refs/heads/master
+    old: e01208dac67f5204794ad8a93470b20536949320
+    new: eb07ec1f6ffb57f41edbedaeb0da9eb1bd11be28
     log: |
-         2b61582acd19c1a3693b02f50b681a05236305ad kunit: Add example for using test->priv
-         342fb9789267ee3908959bfa136b82e88e2ce918 kunit: Reset test->priv after each param iteration
+         c89ebba80f27e412d5222737c32b2ed81a6fc80c uuid: Add AICS UUIDs
+         172948d0d6f6330baedec6276c32b07b2b8b69da shared/vcp: Implement AICS service
+         eb07ec1f6ffb57f41edbedaeb0da9eb1bd11be28 unit/test-vcp.c: Add AICS unit tests
          
