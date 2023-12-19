@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8156021376553139000=="
+Content-Type: multipart/mixed; boundary="===============5786313996356615706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 19 Dec 2023 17:12:07 -0000
-Message-Id: <170300592731.316.3133035876413734938@gitolite.kernel.org>
+Date: Tue, 19 Dec 2023 17:12:49 -0000
+Message-Id: <170300596961.976.17627410272479340009@gitolite.kernel.org>
 
---===============8156021376553139000==
+--===============5786313996356615706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 509afc7452707e62fb7c4bb257f111617332ffad
-    new: 62ed78f3baff396bd928ee77077580c5aa940149
-    log: revlist-509afc745270-62ed78f3baff.txt
+  - ref: refs/heads/dev-queue
+    old: 861015100da865dfcd4dd92129f5d71ac970c1b0
+    new: 7d844131e8a1a5d09e208b3e9b4ff1b895b24fb1
+    log: revlist-861015100da8-7d844131e8a1.txt
 
---===============8156021376553139000==
+--===============5786313996356615706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-509afc745270-62ed78f3baff.txt
+Content-Disposition: attachment; filename=revlist-861015100da8-7d844131e8a1.txt
 
 56d9854bd7c6b29a65fbb4175e01196166ed61de wifi: ath12k: drop NULL pointer check in ath12k_update_per_peer_tx_stats()
 ac2f43d3d34e52b0d388b4c573ff6bbac90235b9 wifi: ath10k: replace deprecated strncpy with memcpy
@@ -435,5 +435,60 @@ a731132424adeda4d5383ef61afae2e804063fb7 genetlink: introduce per-sock family pr
 13b127d2578432e1e521310b69944c5a1b30679c devlink: add a command to set notification filter and use it for multicasts
 ded6f77c05b113001d449cf2cc810e090f20ec4a devlink: extend multicast filtering by port index
 62ed78f3baff396bd928ee77077580c5aa940149 Merge branch 'devlink-introduce-notifications-filtering'
+762a189a04289eedfdf61212ebe454cafeacbaa9 i40e: fix livelocks in i40e_reset_subtask()
+cff7393215082a9d0308dee89c535d08ad7a646f i40e: fix 32bit FW gtime wrapping issue
+8924085a79fc141881f78b8ff8851955bb664449 i40e: add tracepoints for nvmupdate troubleshooting
+4b36b3920fbc22c79ccb629274c73f01d9e8b368 i40e: Fix waiting for queues of all VSIs to be disabled
+a47c589ad956ddcac77afcb70cf951f6488add37 i40e: Fix wrong mask used during DCB config
+48418a9ae718b2e0e02a3b907f44796f0bc18b30 e1000e: make lost bits explicit
+49c3348cc6ed31d66d72b02968d66549a5353eae intel: add bit macro includes where needed
+5592c2a55eaac4af90080e08dea2cee8036ab6e9 intel: legacy: field prep conversion
+ccadf0a2a916076221fdc59c27fe25a3761e9318 i40e: field prep conversion
+2f5de36d80e79a3082c567a584171647b7863597 iavf: field prep conversion
+f54f77a118145dbca51ab2b6e908b81688b9c414 ice: field prep conversion
+52520b97d58a873ccd7308abdda558f4c18b739a ice: fix pre-shifted bit usage
+2ef357bdd48128a94f166f066fffafc6ca2e3a59 igc: field prep conversion
+b3459613c356f736a2bbf70927b3e3dbe02825eb intel: legacy: field get conversion
+db859fc4e331ace3438302bee98e831d8a025720 igc: field get conversion
+ba4c3856cff28157a251e7663ccb29fc7944e95f i40e: field get conversion
+b3b2c06729309a0f64b3da4ad9af96d589af1a6a iavf: field get conversion
+82d8f802f79d529bd185e465bc41d445e8574e49 ice: field get conversion
+90aab82e559c3c8fef715b7dfd1096d2a6a3fdf9 ice: cleanup inconsistent code
+0abb4e54c3d6eec02bd01b7013e14f6d4c058bde idpf: refactor some missing field get/prep conversions
+e5bfd5a65f8d36ead4649ae7b2063173e982c59a i40e: Use existing helper to find flow director VSI
+2b963986610300e32e510c36992dc414726d5503 i40e: Introduce and use macros for iterating VSIs and VEBs
+aa7a0be00bfaaa1847ceada759bd2675fb3b4626 i40e: Add helpers to find VSI and VEB by SEID and use them
+8a493809f14466dda820c3d279a19fbb303e77f9 i40e: Fix broken support for floating VEBs
+dc6729633a438a095d792e43b4d7a78602b77f5f i40e: Remove VEB recursion
+df14639f0d808dbb73f71393e9915de5af43643b i40e: Fix filter input checks to prevent config with invalid values
+7a2c920268f2300465b6910eb22671f0512f8794 i40e: Fix ST code value for Clause 45
+6d1b40e01a89a6a0b4fbe622a1b24eba8c2a511b ice: fix theoretical out-of-bounds access in ethtool link modes
+aee0967ce2ff7ae67e0c163ad25a21db3dfa99f9 ice: replace ice_vf_recreate_vsi() with ice_vf_reconfig_vsi()
+3f65f0747a1cf870edb179eba4d0fa2945c3c9d8 ice: Schedule service task in IRQ top half
+daaae5b46897e7734c20d1aa50ee821f7c14d862 ice: Enable SW interrupt from FW for LL TS
+a8910fd2f9f145de4c8423dbb3bf92bfca3c6e0c i40e: Fix VF disable behavior to block all traffic
+ef794e6925beec4442bf020c37fdcff345cd4cc2 igc: Report VLAN EtherType matching back to user
+1d0870379cc5a54a1e0e39ba19df317b63f0c33b igc: Check VLAN TCI mask
+92531e039a76471e2be61b06751e9612421974b8 ice: ice_base.c: Add const modifier to params and vars
+837fd678c2f866c7d38f43e41a956d46ae3781ae igc: Check VLAN EtherType mask
+c2ebaf607919d94113273dc8a64c84471955abc9 ice: remove rx_len_errors statistic
+c89f12192e6965f46f760e4747b24d24e6d10073 ice: stop trashing VF VSI aggregator node ID information
+075c8388f761cba2a13135cde857566f4bf43fe2 ice: introduce new E825C devices family
+4cdb711e143e223822e51c6d5fc0ce99c6cfa220 ice: Add helper function ice_is_generic_mac
+0186350778943a08112d389206fb9d2395e8727f ice: add support for 3k signing DDP sections for E825C
+7b3cf935b810784663c0f163515e768aec63c805 ice: alter feature support check for SRIOV and LAG
+58ee44e342573f7e03053d3a256bed3452d1d81c igc: Fix hicredit calculation
+6d3fde5edb2ba02adbe7764f2fd628a472c419e3 idpf: fix corrupted frames and skb leaks in singleq mode
+7890d89e77ce72b0831a15c0cfc8c51176c46c26 i40e: Use correct buffer size in i40e_dbg_command_read
+0cd6154953c3ac458b820085f7c36146b648b153 ixgbe: report link state for VF devices
+900c6384c3ea0aa3ba63e0a20c55e7daae67a0ad ice: Add support for devlink loopback param.
+be2d74173bdf98ed631dc99c4fec4d23a55fe1dc ice: Fix PF with enabled XDP going no-carrier after reset
+5b85e0dc3645cb49b795faeadea849efdc7039ad ice: Fix some null pointer dereference issues in ice_ptp.c
+60a0c1c31240d41fac5c692a9f1c966c26cafe60 ice: Add support for packet mirroring using hardware in switchdev mode
+69cae36d608d94449817e32c6bd97c96a2cc0354 e1000e: correct maximum frequency adjustment values
+beacd8af1bf5c34685ebbd5f68f2e66770fbfec0 ice: Fix link_down_on_close message
+c439f505d84bfe97cf5992ab198965ead512419e ice: Shut down VSI with "link-down-on-close" enabled
+47dccbd4cee3fbf2419484808ee83b651e2f6c1f idpf: enable WB_ON_ITR
+7d844131e8a1a5d09e208b3e9b4ff1b895b24fb1 idpf: avoid compiler introduced padding in virtchnl2_rss_key struct
 
---===============8156021376553139000==--
+--===============5786313996356615706==--
