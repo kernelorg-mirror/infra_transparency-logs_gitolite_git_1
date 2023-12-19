@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Tue, 19 Dec 2023 03:09:55 -0000
-Message-Id: <170295539565.19485.12577267339065185051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Tue, 19 Dec 2023 03:25:14 -0000
+Message-Id: <170295631488.31442.3470259821261480124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: tudor.ambarus
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/spi-nor/next
-    old: 7bf018ea5cb6cf101284a62b9106264f9eea1069
-    new: fe18e22fa779718b7ec0effe8d5f10d86a124e31
+  - ref: refs/heads/fixes-base
+    old: 235f2b548d7f4ac5931d834f05d3f7f5166a2e72
+    new: 77a67255609606164e1042f3bf7452a568a700e4
     log: |
-         fc2efaf90a4538781aac26cf44d705c1d93fb9f5 mtd: spi-nor: sysfs: hide the flash name if not set
-         fe18e22fa779718b7ec0effe8d5f10d86a124e31 mtd: spi-nor: drop superfluous debug prints
+         c5becf57dd5659c687d41d623a69f42d63f59eb2 Revert "scsi: aacraid: Reply queue mapping to CPUs based on IRQ affinity"
+         77a67255609606164e1042f3bf7452a568a700e4 scsi: ufs: core: Store min and max clk freq from OPP table
          
