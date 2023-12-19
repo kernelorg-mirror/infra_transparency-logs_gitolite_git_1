@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3200129832164778465=="
+Content-Type: multipart/mixed; boundary="===============0513812317660848031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 19 Dec 2023 00:36:54 -0000
-Message-Id: <170294621453.31042.16597112901052087923@gitolite.kernel.org>
+Date: Tue, 19 Dec 2023 00:40:01 -0000
+Message-Id: <170294640129.1142.5620229512677167759@gitolite.kernel.org>
 
---===============3200129832164778465==
+--===============0513812317660848031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 5b6ea8fb7382d130d4fbd1966979840a520e20ee
-    new: 71225af17f611632226a4a2fae25235fd8dad268
-    log: revlist-5b6ea8fb7382-71225af17f61.txt
+  - ref: refs/heads/tmp.perf-tools-next
+    old: ce91d96849b0df3ae01fe10d409e0f499058f839
+    new: ab1c247094e323177a578b38f0325bf79f0317ac
+    log: revlist-ce91d96849b0-ab1c247094e3.txt
 
---===============3200129832164778465==
+--===============0513812317660848031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b6ea8fb7382-71225af17f61.txt
+Content-Disposition: attachment; filename=revlist-ce91d96849b0-ab1c247094e3.txt
 
 9a07a71ed3d23b56e1f05ea808ec5f59448fcc16 perf tests: Make DSO tests a suite rather than individual
 3e0594f9f0f774918d63701dc7de634bb1bc7b1e perf top: Avoid repeated function calls to perf_cpu_map__nr().
@@ -39,5 +39,6 @@ b1928ca950386729b3bcd555efe559eaa1e2c8cc perf tests: Use function to add missing
 111350c67d15ffc284801509acdcf256d77876ca perf symbol: Use function to add missing maps lock
 228493d0a83bc2aec7f4a25491621f9d3b6d7bf2 perf synthetic-events: Use function to add missing maps lock
 71225af17f611632226a4a2fae25235fd8dad268 perf thread: Use function to add missing maps lock
+ab1c247094e323177a578b38f0325bf79f0317ac Merge remote-tracking branch 'torvalds/master' into perf-tools-next
 
---===============3200129832164778465==--
+--===============0513812317660848031==--
