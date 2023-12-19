@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0777150973067925134=="
+Content-Type: multipart/mixed; boundary="===============7508226678941462585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 19 Dec 2023 00:29:55 -0000
-Message-Id: <170294579561.24983.2498249170283485025@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 19 Dec 2023 00:30:04 -0000
+Message-Id: <170294580430.26720.11415358997840095104@gitolite.kernel.org>
 
---===============0777150973067925134==
+--===============7508226678941462585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: ce91d96849b0df3ae01fe10d409e0f499058f839
     log: revlist-5b6ea8fb7382-ce91d96849b0.txt
 
---===============0777150973067925134==
+--===============7508226678941462585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ceb6a6f023fd3e8b07761ed900352ef574010bcb Linux 6.7-rc6
 2cf4f94d8e8646803f8fb0facf134b0cd7fb691a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 ce91d96849b0df3ae01fe10d409e0f499058f839 Merge remote-tracking branch 'torvalds/master' into perf-tools-next
 
---===============0777150973067925134==--
+--===============7508226678941462585==--
