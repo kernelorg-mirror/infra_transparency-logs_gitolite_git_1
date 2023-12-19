@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6007132706676146100=="
+Content-Type: multipart/mixed; boundary="===============7115851306358223262=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 19 Dec 2023 18:05:58 -0000
-Message-Id: <170300915810.8323.8087307631219744273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 19 Dec 2023 18:06:05 -0000
+Message-Id: <170300916591.8435.3419769066943471793@gitolite.kernel.org>
 
---===============6007132706676146100==
+--===============7115851306358223262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/asoc-6.8
     old: c13cf1991f4231d38f1c43fcf51ec1cf29c8c82d
     new: 2f2998895cc29e8660d848d2580b1787710e93f6
     log: revlist-c13cf1991f42-2f2998895cc2.txt
 
---===============6007132706676146100==
+--===============7115851306358223262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1703009155 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1703009155-3630634869225f0b6222f711a4eb3449d789767a
+pusher C3F436CA30F5D8EB 1703009163 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1703009162-cc4873cf7e31e1d1f00c0a85ffd020e05e242f6f
 
-c13cf1991f4231d38f1c43fcf51ec1cf29c8c82d 2f2998895cc29e8660d848d2580b1787710e93f6 refs/heads/for-6.8
+c13cf1991f4231d38f1c43fcf51ec1cf29c8c82d 2f2998895cc29e8660d848d2580b1787710e93f6 refs/heads/asoc-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWB24MACgkQJNaLcl1U
-h9BJWQf/XEXYuQeG0oYuvM9xSGb6Gf19ytWUppQPVavpUEDjLVx3Cad9q/EjcKGm
-9o9LuN9b8WA2nWQKzmtraRPsReC2kKN+Huw2Crkmfy9RorBjgYhuqKUsSn4F39NO
-tFPbpEBqjLTLoFpWD30V5LVWKJvPVThgW0sazqQnGAIXNaf3UqamGodX04Ld49SU
-KAXMiN8tIGhK7ViMdT1FQHNTM0m3wB+6TW3XjcuqsLz59GlyNpGz0soRSRRzmiae
-LISdvXo+tHeDalQ6tsRroA2yAibv/mZ590i1L738dKwKr2Fcz82LNr8dpglUOdpC
-h1q3EcO4sD4rRhoEt5P7dKzqBLDbHg==
-=II8c
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWB24sACgkQJNaLcl1U
+h9CXnAf+KcFGI7q2+/zmFbr3F1Rp56698/WZdI7r4YhoPO9dth0frqNUp6Ccb6Df
+xtGtxUocjj6f0oPRfA6yvUaPeu/V0zF2Z42reUXQ//AE5t3/7UbKZ6mBFWq/ui6S
+NmBmALoo3eXfmbSY4QsOxPs0SlTQ1yvFel5QoBsnWwUkE2SuSq0zZ3Q2KsxCp1al
+5hPrG7ydD1Q6gK4WsSGVgPdw1cweK9kLtkLvh0rpbLqI1LHusMQeo93AOFAhqnLQ
+v1FURg+TQbXAI/OFL/+po0lN/rj0KCPaSt13sAlAI8k6jIFNaBOjtvfR5ccE8ekO
+gYeXPmtPeEZtMmFerzoOHKp0BlHXaQ==
+=GNjK
 -----END PGP SIGNATURE-----
 
---===============6007132706676146100==
+--===============7115851306358223262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ f51daa78063e4f078054b12f37b3cc699e2715f2 Improve AMD ACP Vangogh audio support f
 791667f7f0dfb65eb472b1dae84524ec9bfc1ff4 add es8326 dt-bindings, commonize headset codec
 2f2998895cc29e8660d848d2580b1787710e93f6 ASoC: qcom: add sound card support for SM8650
 
---===============6007132706676146100==--
+--===============7115851306358223262==--
