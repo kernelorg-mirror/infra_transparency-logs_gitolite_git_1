@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5341144557338707906=="
+Content-Type: multipart/mixed; boundary="===============5984153284469964742=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 19 Dec 2023 02:15:39 -0000
-Message-Id: <170295213977.13404.689533747804857964@gitolite.kernel.org>
+Date: Tue, 19 Dec 2023 02:15:46 -0000
+Message-Id: <170295214614.13539.12699445221098053595@gitolite.kernel.org>
 
---===============5341144557338707906==
+--===============5984153284469964742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 3b58d8ec57f0dfb054fad74c1a6fd5b05e720523
-    new: b5033238667f19fae4a0db2ebadb97e8fe14aac9
-    log: revlist-3b58d8ec57f0-b5033238667f.txt
+  - ref: refs/heads/6.8/scsi-queue
+    old: e78e59acfb6972aba9c3da86099760ca662054e7
+    new: ed340d13aa1db6773667ed4bf907738df203fbda
+    log: revlist-e78e59acfb69-ed340d13aa1d.txt
 
---===============5341144557338707906==
+--===============5984153284469964742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1702952128 -0500
+pusher 75C5DE3D 1702952144 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1702952128-03073d9d82ea9f0d4199dbeacb04767ab9f64a63
+nonce 1702952144-434bbf41ea6cd9c332298ce863a8a551bac7ced1
 
-3b58d8ec57f0dfb054fad74c1a6fd5b05e720523 b5033238667f19fae4a0db2ebadb97e8fe14aac9 refs/tags/mkp-scsi-queue
+e78e59acfb6972aba9c3da86099760ca662054e7 ed340d13aa1db6773667ed4bf907738df203fbda refs/heads/6.8/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWA/MAACgkQ7ulgGnXF
-3j0AiA//ZTxI2TuLdDIP6s29grDRd0W87pBCaMhQ0O5iKqad49aChG/62XD0e0m3
-VtSHnIq/6BIlO/R+zy1lK0y3Ogv2KnpzuflGtTZuGXKKt7Jkbfbz45XDvsVQ55bs
-cEI7I7ygO2AH/z9+PEeh5uls3Nlernu1KCY4IGHCnvRu3BdNYGMZWkp8XP1e1XRN
-Q2y52d4F6RdftwwS4sEn9OxS+I8LKXFd4A7D9V6Ig77lZObeVXYuCQYWrU9ru4WF
-Kaa0yidm0qLXoDHGpJ+78w7/GgOhNAPuIo1pG5c9VwtJ9XL3a2u8GMZz7JwoOYCk
-0726z+qUZpLIphlW8ke6kcA7rk0qVJJxaXa5q+Kc1ptV7iWmw/3ILssjOzPuJz36
-NipvGsRha1Mla5794mbsnq83nDSVbivDY2QNBTisPrKIi+HSZAj6NVKSyRmyjmtY
-cZ9qC4bGg/vrX3LXYkLyVDi3wd4aEj2nrCt4QqxawgvmEFC8+INab4Imtx5xvAzu
-4pBGujS8MU8FTeUredyqiCPevgUT7KOSKrJGgp+CirNPBNKsxdQXP3Hu5p4SWgWk
-eWUMsu9ER3utaRhyKTQ7JJJcMm5kXvvW4OrThh9e1O/Tf5GD0f+lfwAILEyg7UWz
-rE0XILyem04QOBigHw8BMJZrpjNNdvM5x76inEu1eQDjanHnjn8=
-=TKbc
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWA/NAACgkQ7ulgGnXF
+3j1WMw/+OfZu/7Us25NZPirenc1b0ykZXtPgv5uSLg8LYrwdHbiZ4IY/+B0TMTZ2
+jT9GkYOwceMhcn80ez7BM4CIPGYCJpXG29hV4GtZIE9C6pARVSLuLh9AkhO5HmLx
+ScY4hU85lumiBACTCFUKBxActYV5OfizQ3ErFhaEOp4NOZ1YYLAvEmaJCcGcq29f
+HjR5Ln90yZIQK34whg647uZMzKTfGly5OMW0irZxH9e96qq75GJFzIWtJqmy0Vbq
+Nl1pNskxDnxXNmIGqHo4GEopkqulRYNMjnE7iSUDhmSzYX18+YXEB6r88WR8aAR5
+sKphFrk8eRi2yhwFahLCMEcJy7RD2iEQrFbMM8yc+3yHsuwBjpf6OjLx3S5zshap
+F2t9rD6EiImH53DLWzat35/mJ7Elf+rkEXrDdje6nrGJjDplJkunqeBjVEEz794l
+TplMKQGIg/9+912J3IFTOWdBFs4Cvh2PE+83IFJuagO3CgQUJ9reZpkYCoV3ALRG
+02PKsYnxbp39WAHJtuOEvAUuYCpEQAkcIJvNkYyVhIFKkoVYaraG6Duvvq2poTRA
+i1TFY5vTpbLzZ4KXf/LQFdkjXSSomfTJHkA7h6T1oBK7NMN0d43B5RpKLVspbH7L
+bHvwNRVGQ3XRgSlSRbfpd4+/X+3UtDLDQDCu2n1Km11Ip9AAkVA=
+=IxmU
 -----END PGP SIGNATURE-----
 
---===============5341144557338707906==
+--===============5984153284469964742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b58d8ec57f0-b5033238667f.txt
+Content-Disposition: attachment; filename=revlist-e78e59acfb69-ed340d13aa1d.txt
 
 fc1fbd13a20596564f407a96ac511bf0db808a0e scsi: mpi3mr: Fix printk() format strings
 2cda90e6f6493622bb68e0dd073c5b5746a480cb scsi: fnic: Modify definitions to sync with VIC firmware
@@ -116,4 +116,4 @@ d34ee535705eb43885bc0f561c63046f697355ad scsi: hisi_sas: Replace with standard e
 73e33f969ef05328766b23a99b2c07bfff765009 scsi: hisi_sas: Correct the number of global debugfs registers
 ed340d13aa1db6773667ed4bf907738df203fbda Merge patch series "scsi: hisi_sas: Minor fixes and cleanups"
 
---===============5341144557338707906==--
+--===============5984153284469964742==--
