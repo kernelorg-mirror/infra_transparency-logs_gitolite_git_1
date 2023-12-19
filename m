@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2138761057013856941=="
+Content-Type: multipart/mixed; boundary="===============4411961009082184227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 19 Dec 2023 14:00:44 -0000
-Message-Id: <170299444453.19741.6426339024659303808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 19 Dec 2023 14:00:50 -0000
+Message-Id: <170299445005.19826.15175023117321213128@gitolite.kernel.org>
 
---===============2138761057013856941==
+--===============4411961009082184227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: ceb6a6f023fd3e8b07761ed900352ef574010bcb
     log: revlist-a39b6ac3781d-ceb6a6f023fd.txt
 
---===============2138761057013856941==
+--===============4411961009082184227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -300,4 +300,4 @@ accc98aff5c39fdc63bf0bac471b9c601aaf4755 Merge tag 'soundwire-6.7-fixes' of git:
 177c2ffe69555dde28fad5ddb62a6d806982e53f Merge tag 'perf_urgent_for_v6.7_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ceb6a6f023fd3e8b07761ed900352ef574010bcb Linux 6.7-rc6
 
---===============2138761057013856941==--
+--===============4411961009082184227==--
