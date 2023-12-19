@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 19 Dec 2023 21:11:06 -0000
-Message-Id: <170302026629.12456.7897096199389583415@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 19 Dec 2023 21:21:58 -0000
+Message-Id: <170302091841.19905.6149676064476598102@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 70e8b293367259979507b5e5f676b73f427d205c
-    new: 4854f2fcc08211a15e22dbde593c624871fe6d49
-    log: |
-         4854f2fcc08211a15e22dbde593c624871fe6d49 Tue Dec 19 09:09:42 PM UTC 2023
-         
+  - ref: refs/tags/sent/20231219-b4-kselftest-seccomp-benchmark-ktap-357603823708-v1
+    old: 0000000000000000000000000000000000000000
+    new: 0f55b6b69e8f4f2b1f388010425efc114b74303e
