@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6160362969448882116=="
+Content-Type: multipart/mixed; boundary="===============7027372725242072320=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 19 Dec 2023 07:08:05 -0000
-Message-Id: <170296968566.30160.9415055051148233530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 19 Dec 2023 07:23:41 -0000
+Message-Id: <170297062125.8463.4722787018489476774@gitolite.kernel.org>
 
---===============6160362969448882116==
+--===============7027372725242072320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 08b3485540d9e94ed8335f82e5fc491fc02f8423
-    new: 093976dd953c6d170b4562e4229be7c9314950e9
+  - ref: refs/heads/master
+    old: ab9503c764eecfb0cd775db2a3ec714b3fdd50cb
+    new: 6faf01f73dc75051739446fe8cb99c28b231439b
     log: |
-         5496fb8eedd637e1e9d87655f86dc816afd5ad68 drivers/fpga: use standard array-copy function
-         093976dd953c6d170b4562e4229be7c9314950e9 Merge tag 'fpga-for-6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga into char-misc-next
+         6faf01f73dc75051739446fe8cb99c28b231439b drop 2 4.19 patches
          
 
---===============6160362969448882116==
+--===============7027372725242072320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702969685 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1702969684-fb9455f1376863729e0c6886bc25491ec1d5c9d8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1702970614 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1702970614-ac39cc202674e8b37739b1cc58a1268438619185
 
-08b3485540d9e94ed8335f82e5fc491fc02f8423 093976dd953c6d170b4562e4229be7c9314950e9 refs/heads/char-misc-next
+ab9503c764eecfb0cd775db2a3ec714b3fdd50cb 6faf01f73dc75051739446fe8cb99c28b231439b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWBQVUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K98QALAHZmv7CotsgS4XGs4m
-WYMvmUvRnSDkQU0/aBMdDahVZ99XcT9M3bAFdl4RTGchWWu6U7fSLCRDpF/5iNnJ
-jmA2DUa5VIAB417nHafUq9OYooI1cRMzeh503MD/fzzdCxQ/bfSxNIukz3lX9sGQ
-Ef3s7lct19qSbwmohPMcv1HD5JoY4LUn0J6hTCTmhQZKI1/e6oKtFL8zYH2tWFdP
-8LSBk5jmk7bMxHJfEW5+PRogMyE0BVDbjX00pjGKJIGX2yZKZpOXKecthZX2dZk9
-AQkw9uSWge7ktlY2SzQe6kgxyE56ilJk3VC+ZUgHpuL/RpoNG0k2zJ2ixzsutJho
-o824qUslimavyZiO71gIimCLKw6PR4iBPpEn9a450jXyTReLQASoRLt2qPeOdJHp
-fXs+TXW+HmHuAbhqG7gLycYHR+Pfnr9Z1qeWqliH9tg/fJ7fEM5RrwpmZl3En0Mi
-Uu9yxniriVlRVoyr4AUcMmvqUByhSz/VaB2qBN8xgfci5E3IxgD87ZXK4qEFCf3o
-Le4+AthgdwQ46tI4iHirRXh2t0vPr1h83VB2amEAhYYOghdN70qwHhFctBKD9fzn
-8lKhWPsLIlfwe7C9GgjuAKTdMcbvCCrLo5cMnVZv5hyE25RW8izNZ7XdZ/twr8qH
-VuLl7jtZs45Jy2cCNHrrm/yF
-=Muvu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWBRPYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+97UP/j+kAGhYb4sE11DUFO6x
+8LO3hNzM0/mGBwfCZqC+Uun9rclNP4/36eOE9lCFDFWwDc5OvTP6jV576qiHRBw5
+kXD9wDRvKMhqNUs8zKOahw7onQmECREUBHMva4GeyTMJ1eM0EoMEXGLiD1E+P2ox
+R6aDlt7M9CoBkAk8UJ+31WmiPK2ln6q8R0IHaOEjhFEyEo26iAhHho+jPIgchEdg
+k3hD9nVw8dd5qnt+3U5D8dtFZEK1mzO1mRWcnGHX2+inaIASYs/HutXipor3Tg9I
+i01P/PoqR5byz3r46yXqQemTchHVRjhOFiPPH3btr6rIp1jLjmlg0Ga9jz+EKAnI
+vq8ftKzPUCJThgAfKYJ/1DUI16xbPBj8OVIhu10uAFAoIArHEtp4p7rvx9p+4QBY
+L12c6ZM1I138SiO+kvY+/eeScp/uVz0Zw2GG0CxEFjN1f343RRh0IvzRwwh3oY4W
+vu2pGJ/NKd4T5wWOAVKLH1opv5I8fuucPrhAyLEwx5Co+ieTLnKjMpqA8WbV0buq
+k9Zz/eIQGQ53GT7pnFbbDPxilHauZUviXAydsdqOLX4vIc2Q5tlHFB6KlxZlHJTx
+smzOg9Wq9q4uzefPVgZ4EM6J4Z8p/XuRp9mVT1khWDUE1RqfsrFR0hqTA0Jaodrh
+yqoVs9j/EDO8+9lRzqTvJcR/
+=UIGu
 -----END PGP SIGNATURE-----
 
---===============6160362969448882116==--
+--===============7027372725242072320==--
