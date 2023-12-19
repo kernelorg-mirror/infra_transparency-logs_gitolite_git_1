@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2154397088338113576=="
+Content-Type: multipart/mixed; boundary="===============8083381197410836195=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 19 Dec 2023 17:55:17 -0000
-Message-Id: <170300851785.763.668416383689053836@gitolite.kernel.org>
+Date: Tue, 19 Dec 2023 17:55:39 -0000
+Message-Id: <170300853952.947.4844423888969209774@gitolite.kernel.org>
 
---===============2154397088338113576==
+--===============8083381197410836195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: d17aff807f845cf93926c28705216639c7279110
     new: 1728df7fc11bf09322852ff05e73908244011594
     log: revlist-d17aff807f84-1728df7fc11b.txt
 
---===============2154397088338113576==
+--===============8083381197410836195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ ded6f77c05b113001d449cf2cc810e090f20ec4a devlink: extend multicast filtering by 
 62ed78f3baff396bd928ee77077580c5aa940149 Merge branch 'devlink-introduce-notifications-filtering'
 1728df7fc11bf09322852ff05e73908244011594 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============2154397088338113576==--
+--===============8083381197410836195==--
