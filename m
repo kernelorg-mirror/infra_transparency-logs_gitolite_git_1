@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3047804981287428398=="
+Content-Type: multipart/mixed; boundary="===============0204864113620915890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 19 Dec 2023 02:15:03 -0000
-Message-Id: <170295210353.12869.16542257581550019922@gitolite.kernel.org>
+Date: Tue, 19 Dec 2023 02:15:18 -0000
+Message-Id: <170295211877.13124.3502772128971812624@gitolite.kernel.org>
 
---===============3047804981287428398==
+--===============0204864113620915890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 0880ed49060d76cc8f7dd55f5dbdf486e7bf8a23
-    new: 83feeff81892514a42a07a42185df78c40c7c7bb
+  - ref: refs/heads/6.7/scsi-fixes
+    old: 77a67255609606164e1042f3bf7452a568a700e4
+    new: 04c116e2bdfc3969f9819d2cebfdf678353c354c
     log: |
          08c94d80b2da481652fb633e79cbc41e9e326a91 scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
          066c5b46b6eaf2f13f80c19500dbb3b84baabb33 scsi: core: Always send batch on reset or error handling command
@@ -26,33 +26,33 @@ changes:
          04c116e2bdfc3969f9819d2cebfdf678353c354c scsi: ufs: core: Let the sq_lock protect sq_tail_slot access
          
 
---===============3047804981287428398==
+--===============0204864113620915890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1702952088 -0500
+pusher 75C5DE3D 1702952107 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1702952087-b1c487e149bb98904e43b46e92455872a48f8946
+nonce 1702952106-ff0c06f97d40ea2cb24a37fab3120456f88ec5b4
 
-0880ed49060d76cc8f7dd55f5dbdf486e7bf8a23 83feeff81892514a42a07a42185df78c40c7c7bb refs/tags/mkp-scsi-fixes
+77a67255609606164e1042f3bf7452a568a700e4 04c116e2bdfc3969f9819d2cebfdf678353c354c refs/heads/6.7/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWA/JgACgkQ7ulgGnXF
-3j0Qwg//Qt8ZNtEYfYZBSAZ3PaOSvxr6nzITWUDKvd4Aul+jhe1AXJTpO5WuqNMn
-P+jVhm+wnUWLydQlmkuWr8NJnyA2dzT/dnxTxJU2zSdbuLAcqTLMDzANas1oov5j
-LXENBup4UKogFx+2Swid3FClsaemIeMUjm0ck2c0vGRS7HziFYP07oEvj9QwOqVY
-ifwZKyLlHhU+nQFpIa2itzcsZ1a8rleLejdIqPYdFnlb3M0CFsJa7I2MeanPRSlh
-0yRNHX9zrxwlme9ldGXIgy6i7vvY7WVqC7LGQlqKxBznngHCt31WmY73J+G3bucb
-Y4w6/UoVtWLwKGCvw9OOiW9IaD56oyad7iTi6hovkLXPtfL8152Lcr7azXlXT8dw
-yvn8eNvygVWBwRv/trk+ZOGnVIYgKouw3hT9ddyJ4mV6Of+p6zcB9FkA8of5PLCq
-Y/TuxVcyPcgiMovwOm205y2jIcml1VbeYL/0qXVRLjTVFzyhDtKXx9vzZw0ocSVw
-cBIay/+iq44HPX2LlqyQYZ0um80FsOpPDQUtb8++v9FlUmrOmCtqvps1sGedpp9p
-IxPv2VCRl+BiB6qH6BwjwhTipjuXo/fUO7DXHDkcH1BLCgHo4WWRb0nFgj5yOWcj
-JBWUG1zehlLb9a80mRZvUdv8s9cD+OUsIGnlar9kbg5/rVwY7Hg=
-=X3R9
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWA/KsACgkQ7ulgGnXF
+3j3ftQ//UMzH71T8j5BKSPe/WI+WykkMlGdun5sMG8HV8IBuMylUzCwCSMkcRIz3
+eWMSCJo9cQW3cNy2s6LCQMtO/DlNx/Tt/zF8gumItHc3t4SUTwaeX99CUNioGaiP
+2Az3ZpPZWhwq13LKcYbD3v1I3v8Zpi6igjOMXOk8fILdCsENqQn203bXQ8BL7ude
+DSkAABiWOlEgD6BcEuzgKd50kdfhU88W+oLLv1O6X3XZTldojbarEbG2P9mO2W4x
+j4hZogM/nkLts2JeO6JfNynFEHpCBRv+KrHd0NGcb6SbuahdBDHe/gkQ7Ancch4n
+uZ2N2xl1TpBE1WLrBM1+CO936ibwwaEkpkQO5PvFwAu1o9a8pcN9ss9PmmHGFtQ4
+CnkTt6FA0XL2jU7PpCZCm6arl3SkyWvl/nat0k69kA/8IsB2WV1NJFI820Pnx9aB
+KmIllfhABhESaiFv5JCE+06FvVbU+1FCoW4yjEpi0elk+pCI3dVXaJDSJDdIqrUc
+JdaZhPJK1Xf/Qtx4ref7DMOFuwNDFhG1gWB5YD/tgmewDZ0Ig5fZLIMWTbhAxQYX
+SXX2BjkB28fNALBuK91VZS09siZgvGu4mFQEOcU91t+oJH9jDYHIA55ysSrjqntX
+UhgwIXYU0Q+LYR6tcPIjSFAo9+CaGk8UOZB7LOtcEFE3f7xXUG0=
+=F/tM
 -----END PGP SIGNATURE-----
 
---===============3047804981287428398==--
+--===============0204864113620915890==--
