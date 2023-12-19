@@ -1,51 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1164289287563514574=="
+Content-Type: multipart/mixed; boundary="===============2301417373994281776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 19 Dec 2023 16:04:50 -0000
-Message-Id: <170300189097.12412.548833134704894953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 19 Dec 2023 16:05:02 -0000
+Message-Id: <170300190214.13029.17535246555177665650@gitolite.kernel.org>
 
---===============1164289287563514574==
+--===============2301417373994281776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.7
-    old: b1b6131bca35a55a69fadc39d51577968fa2ee97
-    new: 8f0f01647550daf9cd8752c1656dcb0136d79ce1
+  - ref: refs/heads/for-6.8
+    old: ad663ce6780477177e301756ade6cf236f36ae4c
+    new: d939c02359a656a624d03c6f14ccadae4a1c66ac
     log: |
-         025222a9d6d25eee2ad9a1bb5a8b29b34b5ba576 ASoC: hdmi-codec: fix missing report for jack initial status
-         8f0f01647550daf9cd8752c1656dcb0136d79ce1 ASoC: fsl_sai: Fix channel swap issue on i.MX8MP
+         d939c02359a656a624d03c6f14ccadae4a1c66ac dt-bindings: regulator: qcom,usb-vbus-regulator: clean up example
          
 
---===============1164289287563514574==
+--===============2301417373994281776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1703001889 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1703001888-ad61a1e6fffd193d1919cd0d17e17cd8aeb23ddd
+pusher C3F436CA30F5D8EB 1703001900 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1703001899-db59ec6f27615a4d3dab47712e85c0816724a488
 
-b1b6131bca35a55a69fadc39d51577968fa2ee97 8f0f01647550daf9cd8752c1656dcb0136d79ce1 refs/heads/asoc-6.7
+ad663ce6780477177e301756ade6cf236f36ae4c d939c02359a656a624d03c6f14ccadae4a1c66ac refs/heads/for-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWBvyEACgkQJNaLcl1U
-h9CNUgf/cWv6YcpUpkS2nz9zWZRJ7Erv4f9GoWM70uFM4cBuOR+BrDq9sAjDDtim
-PGw4faVGzN5yL8calj95ixamCp/M+vRfF0phHJl937/dsuVWzyPiVm40UYCpzeMw
-8u6fj2dsA/obbzllPvX8GjPTfQLH9CjQMyO4y4n7s+9Fnb05mzP2Q34g7SQEP2r2
-Kpc1ia15qCSDBGzLWOuKGX6bbZB23zV5VlftDPzrazWGA5Sxd2AYTNyShsBpN48g
-4YKjSHxEgws1NDDhyKWVF+17DkYqjbLxUBdnnvqoyHvj99SmtfbdFiIl5NdZSnYL
-N0L9NigW8kJOjEwQp93rRGgDncJigA==
-=gyCj
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWBvywACgkQJNaLcl1U
+h9AL/gf/YFpYZGP8s9vrqF+6KM6NMNBp+71rsLREYj9n1PT7jfrH2V3Hh1XtugPq
+eBDpCvt+KJaMwrKSJjB7WnGBt4ulRFmbgTKVIP6EGTDbSN98V0VanzPve599IpUt
+tm40AGE6QM7AH+Qs1pYSQ7cieVXNfxUYv0qxTx5jvlnPi7cASmFOSDAP+kKDwIbv
+9p6rflmC9y7LRLHzChrW0mx946EmGgpMOEoM70o4Dzt46rGgzpzxf2I/k0rr+p/S
+x5s+gO3Zcm1WPxpoyW/nKnxXwV9Io/mIRQtNLd+OgkI7BcdkxMg5LZfNXrazgyC+
+29Xv5QCSFy3eRnm+QxmHBFVDn3EciA==
+=WLNL
 -----END PGP SIGNATURE-----
 
---===============1164289287563514574==--
+--===============2301417373994281776==--
