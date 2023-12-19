@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 19 Dec 2023 01:37:50 -0000
-Message-Id: <170294987074.17943.9474671822795266082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Tue, 19 Dec 2023 02:07:41 -0000
+Message-Id: <170295166103.7028.10109092481784291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/dev
-    old: 4300226faff416c55ccd814dbc3188b2300d02d0
-    new: 8b2ed6e69b206e693bc322f0712906d910ff92bd
+  - ref: refs/heads/work.minix
+    old: cc33d29684ed699224a3f8f0fdd2fa409988f45e
+    new: 41e9a7faff514fcb2d4396b0ffde30386a153c7f
     log: |
-         a54599bf85111ea16f7a945def557bb04279bf11 hrtimer: Report offline hrtimer enqueue
-         600310bd7ea82189c1975d0a41a6ee6a9af8315b rcu: Defer RCU kthreads wakeup when CPU is dying
-         8b2ed6e69b206e693bc322f0712906d910ff92bd rcu/exp: Remove full barrier upon main thread wakeup
+         4812509e916bd79a17708de8371a94265f47a7bf minixfs: use offset_in_page()
+         ee0d27c90777da4c1da633aa7b91dbafd176c0c4 minixfs: change the signature of dir_get_page()
+         6628f69ee66a24602a6007ecfb9ab66390475b98 minixfs: Use dir_put_page() in minix_unlink() and minix_rename()
+         41e9a7faff514fcb2d4396b0ffde30386a153c7f minixfs: switch to kmap_local_page()
          
