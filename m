@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 19 Dec 2023 20:26:49 -0000
-Message-Id: <170301760914.11817.14853801070492001790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 19 Dec 2023 20:38:37 -0000
+Message-Id: <170301831721.20549.4460560241984235734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next
-    old: 05e6f22af73700eb31478f67094ca410d8a3bd2e
-    new: 11370dff75b70b6c5fbaf720926ce9bd8f9d5bda
+  - ref: refs/heads/bleeding-edge
+    old: d8ac1e81fa1fa18f0681d2f06685e203de97828d
+    new: 1432927448e746fd7ba27b86f3474c06f2bb41fe
     log: |
-         3f8d7f490a33625786b427ec925215c4c1f191d1 clk: qcom: gpucc-sm8650: Add test_ctl parameters to PLL config
-         757d1ca14f94e4e00777491dcab0b4abee18f9bf clk: qcom: dispcc-sm8650: Add test_ctl parameters to PLL config
-         1b3319e8055f7b18bdc0fae0fa7847b905c38bb6 arm64: dts: qcom: sc8180x: Mark PCIe hosts cache-coherent
-         8e694a8903c9585c8dd59cdfbae66748f9234af0 arm64: dts: qcom: sc8180x: Fix up PCIe nodes
-         11370dff75b70b6c5fbaf720926ce9bd8f9d5bda Merge branches 'arm32-for-6.8', 'arm64-defconfig-for-6.8', 'arm64-for-6.8', 'clk-for-6.8' and 'drivers-for-6.8' into for-next
+         4bbf0b6a64455c95586caf130e374586caef9986 Documentation: PM: Adjust freezing-of-tasks.rst to the freezer changes
+         02fa25d949053864697f708f9d3fa0811e06fcf1 Merge branch 'pm-sleep' into bleeding-edge
+         e95013156ad88e6a1e1db6545881f49183e2ee0a cpufreq: intel_pstate: Add Emerald Rapids support in no-HWP mode
+         1432927448e746fd7ba27b86f3474c06f2bb41fe Merge branch 'pm-cpufreq' into bleeding-edge
          
