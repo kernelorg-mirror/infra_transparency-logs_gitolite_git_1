@@ -1,31 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3112044368575961586=="
+Content-Type: multipart/mixed; boundary="===============8906210588348977182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 19 Dec 2023 04:40:09 -0000
-Message-Id: <170296080901.22794.2567124861464451170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 19 Dec 2023 04:40:18 -0000
+Message-Id: <170296081880.22965.14570070530291537138@gitolite.kernel.org>
 
---===============3112044368575961586==
+--===============8906210588348977182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: ceb2fe0d438644e1de06b9a6468a1fb8e2199c70
     new: aa4db8324c4d0e67aa4670356df4e9fae14b4d37
     log: revlist-ceb2fe0d4386-aa4db8324c4d.txt
-  - ref: refs/heads/stable
-    old: 0e389834672c723435a44818ed2cabc4dad24429
-    new: 2cf4f94d8e8646803f8fb0facf134b0cd7fb691a
-    log: revlist-0e389834672c-2cf4f94d8e86.txt
-  - ref: refs/tags/next-20230919
-    old: 1d3e6aa5eefdeb716ed8cc3032e6fd562a4b89df
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20231219
     old: 0000000000000000000000000000000000000000
     new: d5fb03cc72d5081c0b52749f5b8e5ac49584bf3c
@@ -33,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: d8f30cf5e09a30e9a978b7df0aa5029afff0e1c1
 
---===============3112044368575961586==
+--===============8906210588348977182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -806,24 +799,4 @@ c2d493c1a653c9d96d677104a00920e0ea99fd44 Merge branch 'header_cleanup' of https:
 02d8ed1b1b0df1e5095184c007d56e717f0b77a8 fixup for s390 and "rseq: Split out rseq.h from sched.h"
 aa4db8324c4d0e67aa4670356df4e9fae14b4d37 Add linux-next specific files for 20231219
 
---===============3112044368575961586==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e389834672c-2cf4f94d8e86.txt
-
-1ca2761a7734928ffe0678f88789266cf3d05362 spi: atmel: Do not cancel a transfer upon any signal
-49d8575ca6135a533218e40ddcb85462fd9ff1d2 spi: atmel: Drop unused defines
-890188d2d7e4ac6c131ba166ca116cb315e752ee spi: atmel: Prevent spi transfers from being killed
-7a733e060bd20edb63b1f27f0b29cf9b184e0e8b spi: cadence: revert "Add SPI transfer delays"
-c5becf57dd5659c687d41d623a69f42d63f59eb2 Revert "scsi: aacraid: Reply queue mapping to CPUs based on IRQ affinity"
-e9b220aeacf109684cce36a94fc24ed37be92b05 spi: spi-imx: correctly configure burst length when using dma
-77a67255609606164e1042f3bf7452a568a700e4 scsi: ufs: core: Store min and max clk freq from OPP table
-fc70d643a2f6678cbe0f5c86433c1aeb4d613fcc spi: atmel: Fix clock issue when using devices with different polarities
-7e2c1e4b34f07d9aa8937fab88359d4a0fce468e perf: Fix perf_event_validate_size() lockdep splat
-177c2ffe69555dde28fad5ddb62a6d806982e53f Merge tag 'perf_urgent_for_v6.7_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ceb6a6f023fd3e8b07761ed900352ef574010bcb Linux 6.7-rc6
-26d6084791bb2cce41b83cb09b4cfdd9fa0c28f1 Merge tag 'spi-fix-v6.7-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-2cf4f94d8e8646803f8fb0facf134b0cd7fb691a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-
---===============3112044368575961586==--
+--===============8906210588348977182==--
