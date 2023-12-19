@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5929095410398941037=="
+Content-Type: multipart/mixed; boundary="===============3200129832164778465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 19 Dec 2023 00:36:34 -0000
-Message-Id: <170294619448.30813.16270020719672064771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 19 Dec 2023 00:36:54 -0000
+Message-Id: <170294621453.31042.16597112901052087923@gitolite.kernel.org>
 
---===============5929095410398941037==
+--===============3200129832164778465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 71225af17f611632226a4a2fae25235fd8dad268
     log: revlist-5b6ea8fb7382-71225af17f61.txt
 
---===============5929095410398941037==
+--===============3200129832164778465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ b1928ca950386729b3bcd555efe559eaa1e2c8cc perf tests: Use function to add missing
 228493d0a83bc2aec7f4a25491621f9d3b6d7bf2 perf synthetic-events: Use function to add missing maps lock
 71225af17f611632226a4a2fae25235fd8dad268 perf thread: Use function to add missing maps lock
 
---===============5929095410398941037==--
+--===============3200129832164778465==--
