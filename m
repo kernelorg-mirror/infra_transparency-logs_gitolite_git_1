@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 19 Dec 2023 19:55:57 -0000
-Message-Id: <170301575724.22616.9355997700859984749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 19 Dec 2023 20:09:41 -0000
+Message-Id: <170301658127.31829.14854970316117946392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 54320a52025b20dfd365ab61c32b797a770bd373
-    new: d8ac1e81fa1fa18f0681d2f06685e203de97828d
-    log: |
-         489c693bd04a2308865dc50f37bd0b5f6ad52deb PM: hibernate: Use kmap_local_page() in copy_data_page()
-         d8ac1e81fa1fa18f0681d2f06685e203de97828d Merge branch 'pm-sleep' into bleeding-edge
-         
+  - ref: refs/tags/nfsd-6.7-2
+    old: 0000000000000000000000000000000000000000
+    new: 1a8546cef1e9a89c0c09cc2725296841cb2b27ab
