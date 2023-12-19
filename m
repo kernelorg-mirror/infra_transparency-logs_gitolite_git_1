@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 19 Dec 2023 14:49:20 -0000
-Message-Id: <170299736045.21838.9744788070911971685@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 19 Dec 2023 14:55:17 -0000
+Message-Id: <170299771720.27088.14664452640717918760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/qcom-arm64-for-6.8
+  - ref: refs/tags/at24-updates-for-v6.8
     old: 0000000000000000000000000000000000000000
-    new: b2fc2cb577d639b2a88c86f3255b412b8d22179e
+    new: 5d5f64229372a538785450b112f0e7f5439aeb70
