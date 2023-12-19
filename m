@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1246278061030759073=="
+Content-Type: multipart/mixed; boundary="===============5409871979230623662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 19 Dec 2023 12:57:03 -0000
-Message-Id: <170299062335.5003.14854694811019682399@gitolite.kernel.org>
+Date: Tue, 19 Dec 2023 12:57:22 -0000
+Message-Id: <170299064298.5180.2111991381098039228@gitolite.kernel.org>
 
---===============1246278061030759073==
+--===============5409871979230623662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 8e432e6197cef6250dfd6fdffd41c06613c874ca
     new: f7dd48ea76be30666f0614d6a06061185ed38c60
     log: revlist-8e432e6197ce-f7dd48ea76be.txt
-  - ref: refs/tags/v6.7-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 1143e59b844443b6c4841b9a7631cc41cdc260ba
-  - ref: refs/tags/v6.7-rc5
-    old: 0000000000000000000000000000000000000000
-    new: be59bee58790f9d137cfc11973e856e4f8ab3888
 
---===============1246278061030759073==
+--===============5409871979230623662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1051,4 @@ e28db8cbeba3a55dfaf43554d2c2ce05da6f4a04 octeon_ep: control net framework to sup
 4ebb86a97ceb948b32cbeafb598617a6c8748376 octeon_ep: support firmware notifications for VFs
 f7dd48ea76be30666f0614d6a06061185ed38c60 Merge branch 'add-pf-vf-mailbox-support'
 
---===============1246278061030759073==--
+--===============5409871979230623662==--
