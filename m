@@ -1,28 +1,40 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 19 Dec 2023 20:50:04 -0000
-Message-Id: <170301900457.29583.673286366793964688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Tue, 19 Dec 2023 21:03:50 -0000
+Message-Id: <170301983001.5372.5470145186324106810@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/for-6.8/io_uring
-    old: c43203154d8ac579537aa0c7802b77d463b1f53a
-    new: 6e5e6d274956305f1fc0340522b38f5f5be74bdb
+  - ref: refs/heads/i2c/for-current
+    old: 19cde9c92b8d3b7ee555d0da3bcb0232d3a784f4
+    new: b4cc1cbba5195a4dd497cf2f8f09e7807977d543
     log: |
-         a4104821ad651d8a0b374f0b2474c345bbb42f82 io_uring/unix: drop usage of io_uring socket
-         6e5e6d274956305f1fc0340522b38f5f5be74bdb io_uring: drop any code related to SCM_RIGHTS
+         b4cc1cbba5195a4dd497cf2f8f09e7807977d543 i2c: aspeed: Handle the coalesced stop conditions with the start conditions.
          
-  - ref: refs/heads/for-next
-    old: 0d4c828110152c3f11d4af49b6d7d2d78e0245f3
-    new: 2b545e42471ee2cebd7389dd88c4c832699dea6b
+  - ref: refs/heads/i2c/for-mergewindow
+    old: 3d59a5a02faf7f0aa2ac7cacbe4b16bf939a9866
+    new: 963baaf5c36f9e805607265a26f15038aad500b2
     log: |
-         a4104821ad651d8a0b374f0b2474c345bbb42f82 io_uring/unix: drop usage of io_uring socket
-         6e5e6d274956305f1fc0340522b38f5f5be74bdb io_uring: drop any code related to SCM_RIGHTS
-         2b545e42471ee2cebd7389dd88c4c832699dea6b Merge branch 'for-6.8/io_uring' into for-next
+         ec74a1dfcdd1714ee458d738b865598379197198 eeprom: at24: use of_match_ptr()
+         c692086d74a0184d8993e056dc9273abe690e315 dt-bindings: at24: add ROHM BR24G04
+         f97b10391d9b832bae93710d5fbb11f4e307258d Merge tag 'at24-updates-for-v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into i2c/for-mergewindow
+         963baaf5c36f9e805607265a26f15038aad500b2 i2c: make i2c_bus_type const
+         
+  - ref: refs/heads/i2c/for-next
+    old: f9af8821cace497b7a29bd749d36991d1e6f0c82
+    new: 76998e5bcdf155b36c7066808a0a65b2ee13cb2a
+    log: |
+         ec74a1dfcdd1714ee458d738b865598379197198 eeprom: at24: use of_match_ptr()
+         c692086d74a0184d8993e056dc9273abe690e315 dt-bindings: at24: add ROHM BR24G04
+         b4cc1cbba5195a4dd497cf2f8f09e7807977d543 i2c: aspeed: Handle the coalesced stop conditions with the start conditions.
+         f97b10391d9b832bae93710d5fbb11f4e307258d Merge tag 'at24-updates-for-v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into i2c/for-mergewindow
+         963baaf5c36f9e805607265a26f15038aad500b2 i2c: make i2c_bus_type const
+         67985b4bfed2858e47b5d6d8e4ff4fced2c26106 Merge branch 'i2c/for-current' into i2c/for-next
+         76998e5bcdf155b36c7066808a0a65b2ee13cb2a Merge branch 'i2c/for-mergewindow' into i2c/for-next
          
