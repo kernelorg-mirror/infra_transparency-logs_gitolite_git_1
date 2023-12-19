@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 19 Dec 2023 11:49:30 -0000
-Message-Id: <170298657098.20327.6440354275614172777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 19 Dec 2023 12:08:11 -0000
+Message-Id: <170298769129.2345.9981548375741229124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/main
-    old: 340943fbff3d8faa44d2223ca04917df28786a07
-    new: fa94a0c8424a5e1bd184bf1f05fbcd5914ce283d
+  - ref: refs/heads/x86/build
+    old: 5225952d74d43e4c054731c74b8afd700b23a94a
+    new: 88a2b4edda3d0709727be53f4423b0b832d91de3
     log: |
-         fa94a0c8424a5e1bd184bf1f05fbcd5914ce283d net: hns3: add new maintainer for the HNS3 ethernet driver
+         88a2b4edda3d0709727be53f4423b0b832d91de3 x86/Kconfig: Rework CONFIG_X86_PAE dependency
          
