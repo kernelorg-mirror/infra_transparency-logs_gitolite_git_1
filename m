@@ -1,57 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3252548018787486484=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 19 Dec 2023 15:48:19 -0000
-Message-Id: <170300089918.1077.4993689980282504599@gitolite.kernel.org>
-
---===============3252548018787486484==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 19 Dec 2023 15:49:16 -0000
+Message-Id: <170300095647.1612.10179170356709110772@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: 0b2c93431a702e5cff593c9733fb4227a540cdc8
-    new: a65a2a6e8d4eb9af7a93aa6c11db0f68ad96f703
+  - ref: refs/heads/review-hans
+    old: bd142914f805b88dcb15acaab9fbc9bea666dd32
+    new: 119652b855e6c96676406ee9a7f535f4db4e8eff
     log: |
-         56492acae3a202bb0cffc73e93648fc464dd3054 nubus: make nubus_bus_type static and constant
-         a65a2a6e8d4eb9af7a93aa6c11db0f68ad96f703 make a bunch of struct bus_type const.
+         1f5e56c9f6cc92c45d27adfe78fb54c716fed2e2 platform/x86/intel/pmc: Fix in mtl_punit_pmt_init()
+         b6258fa2c7b3dd23e362801410f171567d0d16af platform/x86/intel/pmc: Add PSON residency counter
+         544f7b7f651cf5745f3a1f3d28b298ee2b128eb1 platform/x86/intel/pmc: Add regmap for Tiger Lake H PCH
+         d873f380525c502904737f592008d509cff20c78 platform/x86/intel/pmc: Add PSON residency counter for Alder Lake
+         d79c3c82ee82cc99ffde4c4f5fe69db35bcfb733 platform/x86/intel/pmc: Move common code to core.c
+         1d62ada48d41d72d72232585eed0f3e1136ae1fb platform/x86/intel/pmc: Add ssram_init flag in PMC discovery in Meteor Lake
+         f34dcf397286386b7f3e280b3104d3d237aac0ce platform/x86/intel/pmc: Add Arrow Lake S support to intel_pmc_core driver
+         119652b855e6c96676406ee9a7f535f4db4e8eff platform/x86/intel/pmc: Add Lunar Lake M support to intel_pmc_core driver
          
-
---===============3252548018787486484==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1703000894 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1703000893-d33f17642d293a3c1c5fd053fbd35de9c2b14264
-
-0b2c93431a702e5cff593c9733fb4227a540cdc8 a65a2a6e8d4eb9af7a93aa6c11db0f68ad96f703 refs/heads/bus_cleanup
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWBuz4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FPgQALiH8Uyu7DXIErNA2mJG
-QJQBrG+D7amQf0xuv4yNcj7I4AHd4oMAl8C7ypjBadlAUl+DuMyT+9WEUkjU/7jQ
-3tWJUJu34x4pvbliV1+axKqS132hFoW5PkoAF+t73K9Su0X6rr4zgrEq5q1mZ654
-jK+4D2rbMlTrNFk6ulNkvy6/YxgaZnoTIWyDcSBNBye5lHuZ8C9qBGIFaXzWqq10
-GUfAxmB1sNPi53yADAdN2tIKEeliyqKyjV5BlTp9lfGoYXuTbuvSRuunI1jwjdyM
-BwXc+WKAaUxjyO4hZ453AxpW5/FgDMHsM1H5DNqrjGM7gIkP17q89/ftAr6GkSMI
-wsCF94Wn3FuMqgulrC9YqemmhkfhAuOhr+0iCsqiFPut0igPUQQzasGiPWb/f5hI
-0Gefzle1T25QCxKD9a4u8FXd6YVkpDA15NHOmvLPO0g0ZCbG0Q5rMMrtb8UlCO0x
-jAkeLlnOB1gY/K1SJQw/ZUUPZ7TNEiz1g8Dz05siAF0aKzxe06Ee36yau85DBIW5
-gUvgVL6LjnzxwO7LgkHsXEsx1pAtOV27RjY6TFHcKTkq7VGTJ7cELGP1feQ7JRH3
-uusE/0xfUREk7VrO686BZdiML01Jr1pyR9hlTkd4/aLNSPJUH+zbV2+DoL9rwvi8
-KYUdymA7TfrlWGr2XSN1nmyk
-=HPbz
------END PGP SIGNATURE-----
-
---===============3252548018787486484==--
