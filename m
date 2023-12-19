@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1648376047722953769=="
+Content-Type: multipart/mixed; boundary="===============0146314198541560324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 19 Dec 2023 03:25:34 -0000
-Message-Id: <170295633444.31728.9596945793270001020@gitolite.kernel.org>
+Date: Tue, 19 Dec 2023 03:25:51 -0000
+Message-Id: <170295635128.31946.11078285783386328873@gitolite.kernel.org>
 
---===============1648376047722953769==
+--===============0146314198541560324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: e78e59acfb6972aba9c3da86099760ca662054e7
-    new: ed340d13aa1db6773667ed4bf907738df203fbda
-    log: revlist-e78e59acfb69-ed340d13aa1d.txt
+  - ref: refs/heads/for-next
+    old: 6bdc5fb22b8ed9ecfc9000be19ff47c7f90fa4de
+    new: 2f7eb2d2d9f88c1a971578470ebb1c6d0e054145
+    log: revlist-6bdc5fb22b8e-2f7eb2d2d9f8.txt
 
---===============1648376047722953769==
+--===============0146314198541560324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e78e59acfb69-ed340d13aa1d.txt
+Content-Disposition: attachment; filename=revlist-6bdc5fb22b8e-2f7eb2d2d9f8.txt
 
 fc1fbd13a20596564f407a96ac511bf0db808a0e scsi: mpi3mr: Fix printk() format strings
 2cda90e6f6493622bb68e0dd073c5b5746a480cb scsi: fnic: Modify definitions to sync with VIC firmware
@@ -85,5 +85,11 @@ d34ee535705eb43885bc0f561c63046f697355ad scsi: hisi_sas: Replace with standard e
 7ea3e7763c50b20a8bd25cf524ea0c6463de69be scsi: hisi_sas: Rollback some operations if FLR failed
 73e33f969ef05328766b23a99b2c07bfff765009 scsi: hisi_sas: Correct the number of global debugfs registers
 ed340d13aa1db6773667ed4bf907738df203fbda Merge patch series "scsi: hisi_sas: Minor fixes and cleanups"
+08c94d80b2da481652fb633e79cbc41e9e326a91 scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
+066c5b46b6eaf2f13f80c19500dbb3b84baabb33 scsi: core: Always send batch on reset or error handling command
+9264fd61e628ce180a168e6b90bde134dd49ec28 scsi: ufs: qcom: Return ufs_qcom_clk_scale_*() errors in ufs_qcom_clk_scale_notify()
+04c116e2bdfc3969f9819d2cebfdf678353c354c scsi: ufs: core: Let the sq_lock protect sq_tail_slot access
+0bbbd217623f86dc8444d6c37aa964a266817d41 Merge branch 'misc' into for-next
+2f7eb2d2d9f88c1a971578470ebb1c6d0e054145 Merge branch 'fixes' into for-next
 
---===============1648376047722953769==--
+--===============0146314198541560324==--
