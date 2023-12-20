@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Wed, 20 Dec 2023 21:31:30 -0000
-Message-Id: <170310789017.1656.8788225416507561160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 20 Dec 2023 21:32:37 -0000
+Message-Id: <170310795792.2151.660763295838143487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: a2d43f711790bad9854b666644e884fcf786cc37
-    new: 632cdb1dab49248236e4a32a7b792a99192b9f7b
+  - ref: refs/heads/master
+    old: 32f24938a1fce95fce314c1fa9a72af74588ea6c
+    new: 92999245102a09ab2645424a9c9a0a5b16fda833
     log: |
-         3b201c9af7c0cad2e8311d96c0c1b399606c70fa regmap: fix kcalloc() arguments order
-         632cdb1dab49248236e4a32a7b792a99192b9f7b Merge remote-tracking branch 'regmap/for-6.8' into regmap-next
+         7ac5c53e00735d183a0f5e2cfce5eeb6c16319f2 bpf: Use c->unit_size to select target cache during free
+         69ff403d87be4812571c54b1159e24998414bcab selftests/bpf: Remove tests for zeroed-array kptr
+         92999245102a09ab2645424a9c9a0a5b16fda833 Merge branch 'bpf-fix-warning-in-check_obj_size'
          
