@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 20 Dec 2023 01:28:23 -0000
-Message-Id: <170303570385.5973.6930815314210870365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 20 Dec 2023 01:48:59 -0000
+Message-Id: <170303693984.20810.3084617950287481746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: 1728df7fc11bf09322852ff05e73908244011594
-    new: c337f237291b41b308c80124236876cf66c77906
+  - ref: refs/heads/master
+    old: 688d27700833258a139a6fbd5661334bd2c9fa98
+    new: 390fd58cad96f3f3d1cc2a4e43d6815b9db08f75
     log: |
-         d028f87517d6775dccff4ddbca2740826f9e53f1 bpf: make the verifier tracks the "not equal" for regs
-         1de584832375d0dc4234ee406185384a58fb96ac selftests/bpf: remove reduplicated s32 casting in "crafted_cases"
-         31d9cc96b1e3b28daf74938cb1233231474bbcf6 selftests/bpf: activate the OP_NE logic in range_cond()
-         463ea64eb008b7abb63245ed69446b404bf042b1 selftests/bpf: add testcase to verifier_bounds.c for BPF_JNE
-         c337f237291b41b308c80124236876cf66c77906 Merge branch 'bpf-support-to-track-bpf_jne'
+         7a76385ec9f9f208cfb2706b4f8b1352e69e6fa0 knownnetworks: Add UPDATED event
+         8f5109c4393ea9ea429ff080d3e57c1392a2a637 dpp: fix extra settings not being used when connecting
+         0f1d9685e76035fefddad6c8abe205223c204ec5 auto-t: add DPP tests to check extra settings are applied
+         390fd58cad96f3f3d1cc2a4e43d6815b9db08f75 auto-t: increase RAM when running with valgrind (UML)
          
