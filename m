@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 20 Dec 2023 11:27:49 -0000
-Message-Id: <170307166933.28953.15494289037068179117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Wed, 20 Dec 2023 11:40:10 -0000
+Message-Id: <170307241039.7047.2399981325930747976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/main
-    old: b6895d0ac9d7a3d29f9f238a2688b3b66da71692
-    new: d7a39d399a6dbc52dedde686e5dd40a3ae30f19f
+  - ref: refs/heads/for-6.8/soc
+    old: dee509eb9cd593b7bcb1c1f1f5f2d7e75e389290
+    new: f655182f9e9edda559b41a1f8b3b9c944443694a
     log: |
-         e37a11fca41864c9f652ff81296b82e6f65a4242 bridge: add MDB state mask uAPI attribute
-         e0cd06f7fcb51b8acd6e68e64cc805be1283de9d rtnetlink: bridge: Use a different policy for MDB bulk delete
-         1a36e0f50f963465e9b2b980d250ab38b8fcd7a3 net: Add MDB bulk deletion device operation
-         d8e81f131178dad603c6817421056030ed2f4ac2 rtnetlink: bridge: Invoke MDB bulk deletion when needed
-         a6acb535afb2a3b688a7858f05b61f0433e480d5 bridge: mdb: Add MDB bulk deletion support
-         4cde72fead4cebb5b6b2fe9425904c2064739184 vxlan: mdb: Add MDB bulk deletion support
-         2601e9c4b1176253e33025ca24e56ed67c8d434f rtnetlink: bridge: Enable MDB bulk deletion
-         bd2dcb94c81e3408731d129e884954c36ef2f1fa selftests: bridge_mdb: Add MDB bulk deletion test
-         c3e87a7fcd0bb5820ca6db9b385bbfacb556d083 selftests: vxlan_mdb: Add MDB bulk deletion test
-         d7a39d399a6dbc52dedde686e5dd40a3ae30f19f Merge branch 'bridge-mdb-bulk-delete'
+         f655182f9e9edda559b41a1f8b3b9c944443694a soc/tegra: fuse: Define tegra194_soc_attr_group for Tegra241
+         
+  - ref: refs/heads/for-next
+    old: 8ebef8a2874952441b6573f982bfac25d4426bf4
+    new: 5e6333ef8ea5ab004f8a24a8ebb0a3bc15b05586
+    log: |
+         f655182f9e9edda559b41a1f8b3b9c944443694a soc/tegra: fuse: Define tegra194_soc_attr_group for Tegra241
+         94a68958b94ec0b38218fbf529beb62f35472a5c Merge branch for-6.8/soc into for-next
+         5e6333ef8ea5ab004f8a24a8ebb0a3bc15b05586 Merge branch for-6.8/arm/dt into for-next
          
