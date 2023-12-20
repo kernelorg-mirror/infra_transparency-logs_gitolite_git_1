@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 20 Dec 2023 18:16:27 -0000
-Message-Id: <170309618773.23603.10248136678979926093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 20 Dec 2023 18:20:57 -0000
+Message-Id: <170309645729.26912.18027549710479131048@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 1da4a5bba88531beb4ed4224c0414a7974c2b888
-    new: 652ea1eef510f8de74ba36d4efa0172cf4637101
+  - ref: refs/heads/bleeding-edge
+    old: 1432927448e746fd7ba27b86f3474c06f2bb41fe
+    new: 436f9e769b5e857909f23dde8b9ee1336a833ab1
     log: |
-         5c3279b24246833f61c0551957b9af1423b8cedd foo
-         652ea1eef510f8de74ba36d4efa0172cf4637101 foo
+         e0f4bd26e29bf6162cdc9dc6fb7522bde7b74d07 PM: sleep: Remove obsolete comment from unlock_system_sleep()
+         dadce3fbaf10250b35d540caff475ff93b259de0 PM: hibernate: Repair excess function parameter description warning
+         436f9e769b5e857909f23dde8b9ee1336a833ab1 Merge branch 'pm-sleep' into bleeding-edge
          
