@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Wed, 20 Dec 2023 09:27:39 -0000
-Message-Id: <170306445908.25593.15688597018778602217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
+Date: Wed, 20 Dec 2023 09:33:09 -0000
+Message-Id: <170306478997.29231.6445560158589217449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/abelvesa/linux
+user: abelvesa
 changes:
-  - ref: refs/tags/nand/for-6.8
-    old: 0000000000000000000000000000000000000000
-    new: 4d36543352ed85bc146d2b2b1846390eae5ebcaf
+  - ref: refs/heads/clk/imx
+    old: 144f1b70ea9ebebd21390bfcc78ba3192f12b0c1
+    new: 3f5f63adeea7e7aa715e101ffe4b4ac9705f9664
+    log: |
+         21c0efbcb45cf94724d17b040ebc03fcd4a81f22 clk: imx: scu: Fix memory leak in __imx_clk_gpr_scu()
+         3f5f63adeea7e7aa715e101ffe4b4ac9705f9664 clk: imx: clk-imx8qxp: fix LVDS bypass, pixel and phy clocks
+         
