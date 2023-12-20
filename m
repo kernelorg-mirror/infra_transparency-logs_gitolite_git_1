@@ -1,51 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1181905631329634780=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
-Date: Wed, 20 Dec 2023 17:26:32 -0000
-Message-Id: <170309319202.16787.10902810626541749525@gitolite.kernel.org>
-
---===============1181905631329634780==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Wed, 20 Dec 2023 17:26:57 -0000
+Message-Id: <170309321711.16996.1462378381040440861@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
-user: ebiggers
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/for-next
-    old: 8a885326fbd3d6cd53602da3e49738b6a48c46c1
-    new: f8ed42a5944adc4de469004aa819819bfa780cce
-    log: revlist-8a885326fbd3-f8ed42a5944a.txt
-
---===============1181905631329634780==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a885326fbd3-f8ed42a5944a.txt
-
-65e59370567a48762c98e080c3e06dc8145acbba xfs/601: move this to tests/generic
-19cf4208e74956adaa8b16378a38c2ebd425b0a1 xfs/604: add missing falloc test
-1d7a8c3a4d95fb362bbb41f4d66377aa49d8881f tests/btrfs: add tests to the remount group
-72e7d9bfdd8bd2c1f3bf40b971cd5ff37ba5f011 fstests: don't test -o norecovery in btrfs/220
-9812168a1255b40df332d160906bc16e0279cc7b fsstress: unify verbose output format
-86f0e4f7c18a1c99404b4aa1bd5bedee7ff72a1b generic/459: improve shutdown/read-only check to accommodate bcachefs
-dd50c6276098ec568551a18c49cc3959d64f399e btrfs/303: use quota rescan wrapper
-95a41c18dd45e6fdb8492d33413403cce365b573 generic/733: use correct kernel commit id
-fac81f816d7c9e565f47c67fd6fc946052e0bb88 btrfs: add some tests to the 'compress' group
-98865122ed3cbedabffdb09d1c4af32bfa32baf5 btrfs/048: add missing groups 'subvol', 'snapshot' and 'send'
-2a4fef036ee795e57069d928bbe48c07be9b0e77 overlay/026: Fix test expectation for newer kernels
-bd64bed7532532a1659830cf0709cb3a07933013 btrfs/301: fix hardcoded subvolids
-c71b4e6203752cb4c54b5ae63f5197076070726b btrfs/301: require_no_compress
-b05c808ce4a4686b40c4e0b5029cb889c39f3856 generic: regression test of ext4_lblk_t overflow
-ed058f1c64746b32e2786bf344ae1ff5fd78dfb0 generic: test reading a large directory while renaming its files
-985df7ef3051cf4172b5e6fdca0350e530eb6045 aio-dio-write-verify: Add sync and noverify option
-f814a0d8b89c84055b4351f8b9655c5868db08ba generic: Add integrity tests with synchronous directio
-7d2cf616a99020c8d67efdb7c42943b66815f0da fscrypt-crypt-util: rename block to data unit
-fcb23917a2d03d91d3e3389e92aaaa8b8dd804c8 common/rc: fix _require_xfs_io_command with digits in argument
-0310eac73c74a679bd03d9c85a03c53d38a20274 common/encrypt: support custom data unit size
-f8ed42a5944adc4de469004aa819819bfa780cce generic: add test for custom crypto data unit size
-
---===============1181905631329634780==--
+  - ref: refs/heads/main
+    old: 3323690cbc5a18a1eadbc1fe1cb4ef5455c41ac0
+    new: 37a2750e4fd2502df331cfb0c05e3322906093d4
+    log: |
+         b5006a5404e6b4c908804340049a9c20650f97d5 man: Update authenticated encryption trim description and add references
+         37a2750e4fd2502df331cfb0c05e3322906093d4 Update cryptsetup.spec.
+         
+  - ref: refs/heads/master
+    old: 3323690cbc5a18a1eadbc1fe1cb4ef5455c41ac0
+    new: 37a2750e4fd2502df331cfb0c05e3322906093d4
+    log: |
+         b5006a5404e6b4c908804340049a9c20650f97d5 man: Update authenticated encryption trim description and add references
+         37a2750e4fd2502df331cfb0c05e3322906093d4 Update cryptsetup.spec.
+         
+  - ref: refs/merge-requests/420/merge
+    old: 5ab44c13447a3bcd676b09796e8dbcf2f02cfd51
+    new: fbf99f1b7eceb355713431ebb9705d222d29cb58
+    log: |
+         d1b32a3b64485f23dc9c7dc1b5284945b6f2a50f Add keyring linking API placeholders for multi-key scenarios.
+         b47f423907bf3522c00ab369946aaf5a367a8bd3 Update release notes for 2.7.0-rc1 and LUKS2 doc.
+         1a50de508c358ab8fb0eb5085e0661e533a4733d Fix doxygen tags for API docs.
+         3323690cbc5a18a1eadbc1fe1cb4ef5455c41ac0 Version 2.7.0-rc1.
+         fbf99f1b7eceb355713431ebb9705d222d29cb58 Merge branch 'xchacha20-random' into 'main'
+         
+  - ref: refs/merge-requests/585/head
+    old: e7d80d28e2dc392291a233c016e358c7e13a80c4
+    new: b5006a5404e6b4c908804340049a9c20650f97d5
+    log: |
+         7db221e47e691c6a411637228934e9edec775dc8 Report Argon2 crypto backend version in debug output
+         6b1f13fd0f6f339c1ceb03a3819ae2e780e78cff opal: add comments to all lockless opal calls.
+         cd576666fc477e09b2464beac1f8bd6c07e5cd64 opal: Do not verify passphrase by default on luksErase.
+         f87f6226aa4aabc131f59c801a784ccd6286e9e0 opal: Fix benign gcc warning for possible uninitialized value.
+         d1b32a3b64485f23dc9c7dc1b5284945b6f2a50f Add keyring linking API placeholders for multi-key scenarios.
+         b47f423907bf3522c00ab369946aaf5a367a8bd3 Update release notes for 2.7.0-rc1 and LUKS2 doc.
+         1a50de508c358ab8fb0eb5085e0661e533a4733d Fix doxygen tags for API docs.
+         3323690cbc5a18a1eadbc1fe1cb4ef5455c41ac0 Version 2.7.0-rc1.
+         b5006a5404e6b4c908804340049a9c20650f97d5 man: Update authenticated encryption trim description and add references
+         
+  - ref: refs/merge-requests/585/merge
+    old: b17a866174025882539a77892873e8a56c94444e
+    new: c4af6bfc14607a1383ba505e1dca615827a43fec
+    log: |
+         b5006a5404e6b4c908804340049a9c20650f97d5 man: Update authenticated encryption trim description and add references
+         c4af6bfc14607a1383ba505e1dca615827a43fec Merge branch 'docs_integrity' into 'main'
+         
