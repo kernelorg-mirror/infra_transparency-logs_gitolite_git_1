@@ -1,48 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Wed, 20 Dec 2023 10:18:01 -0000
-Message-Id: <170306748126.11748.11975609651936592670@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5274019443139305744=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 20 Dec 2023 10:44:41 -0000
+Message-Id: <170306908121.30030.9224939639729846745@gitolite.kernel.org>
+
+--===============5274019443139305744==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 6b1f13fd0f6f339c1ceb03a3819ae2e780e78cff
-    new: f87f6226aa4aabc131f59c801a784ccd6286e9e0
+  - ref: refs/heads/fixes
+    old: 7bcd032370f88fd4022b6926d101403e96a86309
+    new: a55bdad5dfd1efd4ed9ffe518897a21ca8e4e193
     log: |
-         cd576666fc477e09b2464beac1f8bd6c07e5cd64 opal: Do not verify passphrase by default on luksErase.
-         f87f6226aa4aabc131f59c801a784ccd6286e9e0 opal: Fix benign gcc warning for possible uninitialized value.
+         66e92e23a72761f5b53f970aeb1badc5fd92fc74 platform/x86: thinkpad_acpi: fix for incorrect fan reporting on some ThinkPad systems
+         fbcf67ce5a9e2831c14bdfb895be05213e611724 platform/x86/intel/pmc: Fix hang in pmc_core_send_ltr_ignore()
+         85980669a863514dd47761efd6c1bc4677a2ae08 platform/x86/amd/pmc: Move platform defines to header
+         2d53c0ab61e62302d7b62d660fe76de2bff6bf45 platform/x86/amd/pmc: Only run IRQ1 firmware version check on Cezanne
+         b614a4bd73efeddc2b20d9e6deb6c2710373802b platform/x86/amd/pmc: Move keyboard wakeup disablement detection to pmc-quirks
+         a55bdad5dfd1efd4ed9ffe518897a21ca8e4e193 platform/x86/amd/pmc: Disable keyboard wakeup on AMD Framework 13
          
-  - ref: refs/heads/master
-    old: 6b1f13fd0f6f339c1ceb03a3819ae2e780e78cff
-    new: f87f6226aa4aabc131f59c801a784ccd6286e9e0
-    log: |
-         cd576666fc477e09b2464beac1f8bd6c07e5cd64 opal: Do not verify passphrase by default on luksErase.
-         f87f6226aa4aabc131f59c801a784ccd6286e9e0 opal: Fix benign gcc warning for possible uninitialized value.
-         
-  - ref: refs/merge-requests/586/head
-    old: 8aa254e480dacc3e8f2c74bc400890bcd9946914
-    new: c67a4535e7a45a71980753b54cfe2ba4a28db2f1
-    log: |
-         c67a4535e7a45a71980753b54cfe2ba4a28db2f1 Add keyring linking API placeholders for multi-key scenarios.
-         
-  - ref: refs/merge-requests/586/merge
-    old: dce677e2b0cf3fa3b092f849cfc7849922bd15f3
-    new: 4a4d9d84fe482b151fd531521c8efcbb395ac2c2
-    log: |
-         cd576666fc477e09b2464beac1f8bd6c07e5cd64 opal: Do not verify passphrase by default on luksErase.
-         f87f6226aa4aabc131f59c801a784ccd6286e9e0 opal: Fix benign gcc warning for possible uninitialized value.
-         c67a4535e7a45a71980753b54cfe2ba4a28db2f1 Add keyring linking API placeholders for multi-key scenarios.
-         4a4d9d84fe482b151fd531521c8efcbb395ac2c2 Merge branch 'empty-linking-api' into 'main'
-         
-  - ref: refs/merge-requests/587/head
-    old: 0000000000000000000000000000000000000000
-    new: f87f6226aa4aabc131f59c801a784ccd6286e9e0
-  - ref: refs/merge-requests/587/merge
-    old: 0000000000000000000000000000000000000000
-    new: c12a50d9717302066cb41875e3c93980cbfb8a88
+
+--===============5274019443139305744==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1703069076 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1703069075-a369b9be520d5612266f0149855b56532473e380
+
+7bcd032370f88fd4022b6926d101403e96a86309 a55bdad5dfd1efd4ed9ffe518897a21ca8e4e193 refs/heads/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZYLFlQAKCRBZrE9hU+XO
+MVcSAP9q1u6RyIGjZY8pOKKcMGO4MUs1418a/YnHZF6Wef0OcQEAnIpvARq2i1w6
+4+R6qLUXDQVt9q1sBUPLKoty/CXyVQ0=
+=Wip1
+-----END PGP SIGNATURE-----
+
+--===============5274019443139305744==--
