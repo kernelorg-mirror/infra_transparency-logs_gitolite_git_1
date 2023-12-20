@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 20 Dec 2023 16:13:28 -0000
-Message-Id: <170308880883.26551.7780233613310439828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Wed, 20 Dec 2023 16:17:17 -0000
+Message-Id: <170308903778.29561.14369063252531146274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/queue/5.15
-    old: 1f2e4b515284514460ffc0b799caa89d7aab3941
-    new: 1d146b1875fc901ae6bfe26ec8fed15b8dcd97ae
-  - ref: refs/heads/queue/6.1
-    old: d1ad6301f389ac7353e2d970338f5a518608bbe4
-    new: 5ec595eb8752d3c550fc6be6a79772fc65ec8c54
+  - ref: refs/heads/main
+    old: b6df01d17752d746cdca6383db21d34279f0d1f4
+    new: ae447da64975ad02e40a93ccbc440a6477af96c0
     log: |
-         5ec595eb8752d3c550fc6be6a79772fc65ec8c54 kasan: disable kasan_non_canonical_hook() for HW tags
+         ae447da64975ad02e40a93ccbc440a6477af96c0 ss: Add support for dumping TCP bound-inactive sockets.
+         
+  - ref: refs/heads/master
+    old: b6df01d17752d746cdca6383db21d34279f0d1f4
+    new: ae447da64975ad02e40a93ccbc440a6477af96c0
+    log: |
+         ae447da64975ad02e40a93ccbc440a6477af96c0 ss: Add support for dumping TCP bound-inactive sockets.
          
