@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 20 Dec 2023 16:39:37 -0000
-Message-Id: <170309037798.13391.15589441257934525267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Wed, 20 Dec 2023 16:40:14 -0000
+Message-Id: <170309041468.15279.17114560701264437933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: ab1c247094e323177a578b38f0325bf79f0317ac
-    new: e43c64c971e48d11ee100c5a8b2eadbed056f924
+  - ref: refs/heads/counter-next
+    old: 8e21e4693d8502ee31ef7984e16c3d9cab6c926a
+    new: 0647537df442e0ec818fc0bca347f13c11268202
     log: |
-         624dda101e03c3a3a155d51e37a7bb7607cb760b perf archive: Add new option '--all' to pack perf.data with DSOs
-         e43c64c971e48d11ee100c5a8b2eadbed056f924 perf archive: Add new option '--unpack' to expand tarballs
+         0647537df442e0ec818fc0bca347f13c11268202 tools/counter: Fix spelling mistake "componend" -> "component"
          
