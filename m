@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3885481759059511828=="
+Content-Type: multipart/mixed; boundary="===============8006280340195260801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Wed, 20 Dec 2023 00:25:18 -0000
-Message-Id: <170303191892.21116.15726258185107208796@gitolite.kernel.org>
+Date: Wed, 20 Dec 2023 00:25:52 -0000
+Message-Id: <170303195276.21405.13263437834211765687@gitolite.kernel.org>
 
---===============3885481759059511828==
+--===============8006280340195260801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-next
-    old: a0a28956b46ec7f16ce5d762ac5a124bb532da0d
-    new: 6aaff21547a08e5a151fbf7a3f7be5a68877d9e3
-    log: revlist-a0a28956b46e-6aaff21547a0.txt
+  - ref: refs/heads/for-linux-next
+    old: 897da484d1c771f7c6af458381390ee0ca0ed762
+    new: 15f6ace70427555bfb381ff15460a9473bbc44fc
+    log: revlist-897da484d1c7-15f6ace70427.txt
 
---===============3885481759059511828==
+--===============8006280340195260801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0a28956b46e-6aaff21547a0.txt
+Content-Disposition: attachment; filename=revlist-897da484d1c7-15f6ace70427.txt
 
 548b61a8ce18dec8757fcc112eac5bd125161408 drm/msm/gpu: Move gpu devcore's to gpu device
 4bea53b9c7c72fd12a0ceebe88a71723c0a514b8 drm/msm: Reduce fallout of fence signaling vs reclaim hangs
@@ -366,5 +366,8 @@ d2be61f8438feb2e356187acdfeef26fd777602a Merge tag 'amd-drm-next-6.8-2023-12-15'
 22a2decedfbeb981df04dca880412b9520b2f8a1 Merge tag 'drm-msm-next-2023-12-15' of https://gitlab.freedesktop.org/drm/msm into drm-next
 4f88cfd4a666c354e4cf5b4e82c9c11820c39835 Merge tag 'mediatek-drm-next-6.8' of https://git.kernel.org/pub/scm/linux/kernel/git/chunkuang.hu/linux into drm-next
 6aaff21547a08e5a151fbf7a3f7be5a68877d9e3 Merge tag 'drm-intel-next-2023-12-18' of git://anongit.freedesktop.org/drm/drm-intel into drm-next
+6e874da6b5c06ed0b03b5a150c01c232fbb25439 dt-bindings: display: samsung,exynos-mixer: Fix 'regs' typo
+a389eb4a61520f5400583a59125382e7c303b3d0 drm/exynos: fix incorrect type issue
+15f6ace70427555bfb381ff15460a9473bbc44fc drm/exynos: fix accidental on-stack copy of exynos_drm_plane
 
---===============3885481759059511828==--
+--===============8006280340195260801==--
