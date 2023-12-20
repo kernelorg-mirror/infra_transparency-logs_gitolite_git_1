@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
-Date: Wed, 20 Dec 2023 13:47:29 -0000
-Message-Id: <170308004999.514.18165536457592367649@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Wed, 20 Dec 2023 14:14:38 -0000
+Message-Id: <170308167880.19228.6253517589208845265@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gclement/mvebu
-user: gclement
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/mvebu/dt64
-    old: f1b45de716440452d230925c449722521856c9e6
-    new: c11e7732a90c21155de8db40dbba84f043520821
+  - ref: refs/heads/next-integrity
+    old: 3165fc7c0af041717a174d2998f57a32d3abb327
+    new: c00f94b3a5be428837868c0f2cdaa3fa5b4b1995
     log: |
-         fca8a117c1c9a0f8b8feed117db34cf58134dc2c arm64: dts: armada-3720-turris-mox: set irq type for RTC
-         0d203341d8fe6132f3ccd13dcfea5d7601ea1094 MAINTAINERS: add ac5 to list of maintained Marvell dts files
-         c604a4d1833c1affc7717117a8ea499d2b8a321b dt-bindings: arm64: add Marvell COM Express boards
-         c11e7732a90c21155de8db40dbba84f043520821 arm64: dts: cn913x: add device trees for COM Express boards
+         40ca4ee3136d2d09977d1cab8c0c0e1582c3359d evm: don't copy up 'security.evm' xattr
+         cd708c938f055c9eb5a366ec1c8edcefa28afc28 evm: add support to disable EVM on unsupported filesystems
+         c00f94b3a5be428837868c0f2cdaa3fa5b4b1995 overlay: disable EVM
          
