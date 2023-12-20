@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0846676523794943239=="
+Content-Type: multipart/mixed; boundary="===============3324169173985544002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 20 Dec 2023 02:17:42 -0000
-Message-Id: <170303866273.9524.3793999640803897617@gitolite.kernel.org>
+Date: Wed, 20 Dec 2023 02:17:48 -0000
+Message-Id: <170303866860.9688.1878164661638842409@gitolite.kernel.org>
 
---===============0846676523794943239==
+--===============3324169173985544002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: c337f237291b41b308c80124236876cf66c77906
     new: 85dd93ac6e00adf09fc27e4d2e7f5c9aaf275d38
     log: revlist-c337f237291b-85dd93ac6e00.txt
 
---===============0846676523794943239==
+--===============3324169173985544002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ aae9c25dda159045b223ecb471cd0729ccec8285 libbpf: add __arg_xxx macros for annota
 f0a5056222f2cfa6d40b4c888cb6b01e8569e282 selftests/bpf: add freplace of BTF-unreliable main prog test
 85dd93ac6e00adf09fc27e4d2e7f5c9aaf275d38 Merge branch 'enhance-bpf-global-subprogs-with-argument-tags'
 
---===============0846676523794943239==--
+--===============3324169173985544002==--
