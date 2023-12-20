@@ -1,56 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============5098519387962747461=="
+Content-Type: multipart/mixed; boundary="===============0848974892236260091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 20 Dec 2023 19:54:26 -0000
-Message-Id: <170310206631.27886.1994262807533677462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 20 Dec 2023 20:12:08 -0000
+Message-Id: <170310312853.9366.17614244170283587056@gitolite.kernel.org>
 
---===============5098519387962747461==
+--===============0848974892236260091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 5141869215c60a95dcc311e9b45716ec2a0d0be6
-    new: 03e4bafc6ade0fb466fe7f12a1c64a7fad776274
-    log: revlist-5141869215c6-03e4bafc6ade.txt
+    old: 55cb5f43689d7a9ea5bf35ef050f12334f197347
+    new: 1a44b0073b9235521280e19d963b6dfef7888f18
+    log: revlist-55cb5f43689d-1a44b0073b92.txt
 
---===============5098519387962747461==
+--===============0848974892236260091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5141869215c6-03e4bafc6ade.txt
+Content-Disposition: attachment; filename=revlist-55cb5f43689d-1a44b0073b92.txt
 
-89be07081da74b73a99ccf8aff3132f42103ba85 Merge branch into tip/master: 'x86/urgent'
-80eaa7a4db59fcf88d2df7908b2a0bec7deb80fa Merge branch into tip/master: 'x86/merge'
-648a45366bce4856e005fedc2f5e97826b259011 Merge branch into tip/master: 'core/debugobjects'
-843d8e6a2a0283c35bdc633ba490449c0850b1b5 Merge branch into tip/master: 'core/merge'
-f1db056957cd7bb58405b4b74055f460077cad19 Merge branch into tip/master: 'locking/core'
-1dca9df7aa704dc035c95d6467628622682d10a7 Merge branch into tip/master: 'objtool/core'
-42ade7fd0502363f844d8ce6ec1156997ef77127 Merge branch into tip/master: 'perf/core'
-35f815e4b75bfeb7809ff877bd7ace5b8c38809e Merge branch into tip/master: 'ras/core'
-444f96ce2c1a60093b9ade8117a48978f5e7a395 Merge branch into tip/master: 'sched/core'
-8309943db69f8ff0edd74613f4947a85261246f5 Merge branch into tip/master: 'smp/core'
-2d9bb7a7a199df3e83e386fe2981187c14ac1eb7 Merge branch into tip/master: 'timers/core'
-7965e22209d3e51963a0bc4ced6c3684aa6543db Merge branch into tip/master: 'x86/apic'
-c7c257af96ea05064f9f98279e8dd712802a015c Merge branch into tip/master: 'x86/asm'
-0d8cf90267c857bfd857b46afabe2f44621e9b5f Merge branch into tip/master: 'x86/boot'
-62071a81adcc6e2a4bc77f64d6d234dea9ad3ac0 Merge branch into tip/master: 'x86/build'
-c4eceb80823fb238902cb80a652c7fad0e17bbbf Merge branch into tip/master: 'x86/cleanups'
-132614dfe66496c36b40b3c46af559c9a699ce99 Merge branch into tip/master: 'x86/core'
-b6e05cbe2f3fa67eb6b4ee4043431c7b5bf73ed1 Merge branch into tip/master: 'x86/cpu'
-154733044b76566fe0bfd6b27e2cbc9d9933b14d Merge branch into tip/master: 'x86/entry'
-09c6520e258b6b4c7eb35f0e97e756df61574260 Merge branch into tip/master: 'x86/microcode'
-b06463dbd0ced8b932bda7c4fa15024b919592a0 Merge branch into tip/master: 'x86/misc'
-aa240105773e3397f67d9ab3b42cf1b6ae4ae2ec Merge branch into tip/master: 'x86/mm'
-1bbb9024c7a8234300e95952bf3184e468dd5a18 Merge branch into tip/master: 'x86/percpu'
-d6f217e6c39fab04201330bd94e18f4c3fe1d2b5 Merge branch into tip/master: 'x86/sev'
-83a0cf560e618992c6a0d73e2aaa9e51819f0921 Merge branch into tip/master: 'x86/sgx'
-03e4bafc6ade0fb466fe7f12a1c64a7fad776274 Merge branch into tip/master: 'x86/tdx'
+bedd6fe4d357f3cffb392f2153b52ef71f810259 bcachefs: Fix nocow locks deadlock
+8bf771972b8468b6a841d088141ac2960e6927fd bcachefs: Fix determining required file handle length
+50a8a732d2db64507ba7cd4ebe66538d9c40bea8 bcachefs: fix invalid memory access in bch2_fs_alloc() error path
+85c6db980989ddc119ea1647ad72a4ec5a4e06f2 bcachefs: improve modprobe support by providing softdeps
+2a501f55cd641eb4d3c16a2eab0d678693fac663 nfsd: call nfsd_last_thread() before final nfsd_put()
+1bd773b4f0c90123af19a853244be61518ae0556 nfsd: hold nfsd_mutex across entire netlink operation
+413ba91089c74207313b315e04cf381ffb5b20e4 ovl: fix dentry reference leak after changes to underlying layers
+e8c7692718bb001505602aa0eb48f142c389c27a bcachefs: print explicit recovery pass message only once
+862bee84d77fa01cc8929656ae77781abf917863 NFSD: Revert 6c41d9a9bd0298002805758216a9c44e38a8500d
+1227561c2ffb81ab09ead21cce6438f59276aa6e NFSD: Revert 738401a9bd1ac34ccd5723d69640a4adbb1a4bc0
+db29d79b34d9593179de5f868be45c650923e7b4 dm-raid: delay flushing event_work() after reconfig_mutex is released
+b86f4b790c998afdbc88fe1aa55cfe89c4068726 dm-integrity: don't modify bio's immutable bio_vec in integrity_metadata()
+6849302fdff126997765d16df355b73231f130d4 dm audit: fix Kconfig so DM_AUDIT depends on BLK_DEV_DM
+5d6f447b07d5432686ba69183af6e96ac58069c9 MAINTAINERS: remove stale info for DEVICE-MAPPER
+bd018b98ba84ca0c80abac1ef23ce726a809e58c SUNRPC: Revert 5f7fc5d69f6e92ec0b38774c387f5cf7812c5806
+0fa3b97767019be4556a8f081b742aaaabd2bd9e bcachefs: btree_node_u64s_with_format() takes nr keys
+7ba1f6ec97c7afec5787ab8e92a6a7e24f0459aa bcachefs; guard against overflow in btree node split
+247ce5f1bb3ea90879e8552b8edf4885b9a9f849 bcachefs: Fix bch2_alloc_sectors_start_trans() error handling
+0a7a93d96d124bf252430090b15feb4239bcf752 Merge tag 'dm-6.7/dm-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+ac1c13e257c798510a60559c2cd50f1828f89c4e Merge tag 'nfsd-6.7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+74d8fc2b868ae156dcbd33132029561a8341d659 Merge tag 'bcachefs-2023-12-19' of https://evilpiepirate.org/git/bcachefs
+1a44b0073b9235521280e19d963b6dfef7888f18 Merge tag 'ovl-fixes-6.7-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 
---===============5098519387962747461==--
+--===============0848974892236260091==--
