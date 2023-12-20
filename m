@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Wed, 20 Dec 2023 16:17:17 -0000
-Message-Id: <170308903778.29561.14369063252531146274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Wed, 20 Dec 2023 16:30:13 -0000
+Message-Id: <170308981301.6597.14244546386580114730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/main
-    old: b6df01d17752d746cdca6383db21d34279f0d1f4
-    new: ae447da64975ad02e40a93ccbc440a6477af96c0
-    log: |
-         ae447da64975ad02e40a93ccbc440a6477af96c0 ss: Add support for dumping TCP bound-inactive sockets.
-         
-  - ref: refs/heads/master
-    old: b6df01d17752d746cdca6383db21d34279f0d1f4
-    new: ae447da64975ad02e40a93ccbc440a6477af96c0
-    log: |
-         ae447da64975ad02e40a93ccbc440a6477af96c0 ss: Add support for dumping TCP bound-inactive sockets.
-         
+  - ref: refs/tags/efi-next-for-v6.8
+    old: 0000000000000000000000000000000000000000
+    new: c3a18d941be7ed1957c6e189818915435e110516
