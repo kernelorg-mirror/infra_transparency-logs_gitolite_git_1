@@ -1,112 +1,153 @@
-Content-Type: multipart/mixed; boundary="===============4111245291887454225=="
+Content-Type: multipart/mixed; boundary="===============0878657347445133240=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 20 Dec 2023 22:45:39 -0000
-Message-Id: <170311233969.23891.3772080668433565412@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Wed, 20 Dec 2023 23:04:19 -0000
+Message-Id: <170311345927.2871.16361520686163165549@gitolite.kernel.org>
 
---===============4111245291887454225==
+--===============0878657347445133240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
-user: sfr
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/pending-fixes
-    old: 46bcd2aac1f1fabb3d1b44562d5d898d2d99350f
-    new: c6eb02b33bd24f8f4a60947b539db4871ef914cd
-    log: revlist-46bcd2aac1f1-c6eb02b33bd2.txt
+  - ref: refs/heads/linus
+    old: 3f7168591ebf7bbdb91797d02b1afaf00a4289b1
+    new: bee0e7762ad2c6025b9f5245c040fcc36ef2bde8
+  - ref: refs/heads/mm-hotfixes-stable
+    old: 4376807bf2d5371c3e00080c972be568c3f8a7d1
+    new: 1803d0c5ee1a3bbee23db2336e21add067824f02
+    log: revlist-4376807bf2d5-1803d0c5ee1a.txt
+  - ref: refs/heads/mm-nonmm-stable
+    old: fc0fbad122a7609d785ee754c2b6e1e3265547d0
+    new: 4459cd2e167e7208e57d517d16282408d9035dad
+    log: revlist-fc0fbad122a7-4459cd2e167e.txt
+  - ref: refs/heads/mm-stable
+    old: d9d9bd979cced7d4a51b65224b1d7f396c8b4eea
+    new: ffda65568249f5388ed68fd15a6d96f1f496a425
+    log: revlist-d9d9bd979cce-ffda65568249.txt
 
---===============4111245291887454225==
+--===============0878657347445133240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46bcd2aac1f1-c6eb02b33bd2.txt
+Content-Disposition: attachment; filename=revlist-4376807bf2d5-1803d0c5ee1a.txt
 
-bedd6fe4d357f3cffb392f2153b52ef71f810259 bcachefs: Fix nocow locks deadlock
-8bf771972b8468b6a841d088141ac2960e6927fd bcachefs: Fix determining required file handle length
-50a8a732d2db64507ba7cd4ebe66538d9c40bea8 bcachefs: fix invalid memory access in bch2_fs_alloc() error path
-85c6db980989ddc119ea1647ad72a4ec5a4e06f2 bcachefs: improve modprobe support by providing softdeps
-f67eabffb57d0bee379994a18ec5f462b2cbdf86 Bluetooth: Fix not notifying when connection encryption changes
-769bf60e17ee1a56a81e7c031192c3928312c52e Bluetooth: Fix deadlock in vhci_send_frame
-99e67d46e5ff3c7c901af6009edec72d3d363be8 Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
-a5812c68d849505ea657f653446512b85887f813 Bluetooth: hci_event: shut up a false-positive warning
-50efc63d1a7a7b9a6ed21adae1b9a7123ec8abc0 Bluetooth: hci_core: Fix hci_conn_hash_lookup_cis
-78b99eb1faa7371bf9c534690f26a71b6996622d Bluetooth: L2CAP: Send reject on command corrupted request
-59b047bc98084f8af2c41483e4d68a5adf2fa7f7 Bluetooth: MGMT/SMP: Fix address type when using SMP over BREDR/LE
-04a342cc49a8522e99c9b3346371c329d841dcd2 Bluetooth: Add more enc key size check
-2e07e8348ea454615e268222ae3fc240421be768 Bluetooth: af_bluetooth: Fix Use-After-Free in bt_sock_recvmsg
-e8c7692718bb001505602aa0eb48f142c389c27a bcachefs: print explicit recovery pass message only once
-66e92e23a72761f5b53f970aeb1badc5fd92fc74 platform/x86: thinkpad_acpi: fix for incorrect fan reporting on some ThinkPad systems
-fbcf67ce5a9e2831c14bdfb895be05213e611724 platform/x86/intel/pmc: Fix hang in pmc_core_send_ltr_ignore()
-85980669a863514dd47761efd6c1bc4677a2ae08 platform/x86/amd/pmc: Move platform defines to header
-2d53c0ab61e62302d7b62d660fe76de2bff6bf45 platform/x86/amd/pmc: Only run IRQ1 firmware version check on Cezanne
-b614a4bd73efeddc2b20d9e6deb6c2710373802b platform/x86/amd/pmc: Move keyboard wakeup disablement detection to pmc-quirks
-a55bdad5dfd1efd4ed9ffe518897a21ca8e4e193 platform/x86/amd/pmc: Disable keyboard wakeup on AMD Framework 13
-db29d79b34d9593179de5f868be45c650923e7b4 dm-raid: delay flushing event_work() after reconfig_mutex is released
-b86f4b790c998afdbc88fe1aa55cfe89c4068726 dm-integrity: don't modify bio's immutable bio_vec in integrity_metadata()
-6849302fdff126997765d16df355b73231f130d4 dm audit: fix Kconfig so DM_AUDIT depends on BLK_DEV_DM
-5d6f447b07d5432686ba69183af6e96ac58069c9 MAINTAINERS: remove stale info for DEVICE-MAPPER
-0fa3b97767019be4556a8f081b742aaaabd2bd9e bcachefs: btree_node_u64s_with_format() takes nr keys
-7ba1f6ec97c7afec5787ab8e92a6a7e24f0459aa bcachefs; guard against overflow in btree node split
-247ce5f1bb3ea90879e8552b8edf4885b9a9f849 bcachefs: Fix bch2_alloc_sectors_start_trans() error handling
-0ae8e4cca78781401b17721bfb72718fdf7b4912 netfilter: nf_tables: set transport offset from mac header for netdev/egress
-498444e390b48134e550c9d65b5a1b1f56745acd Merge tag 'for-net-2023-12-15' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-bd7f77dae69532ffc027ee50ff99e3792dc30b7f net: stmmac: fix incorrect flag check in timestamp interrupt
-11f9eb899ecc8c02b769cf8d2532ba12786a7af7 drm/mgag200: Fix gamma lut not initialized for G200ER, G200EV, G200SE
-7315dc1e122c85ffdfc8defffbb8f8b616c2eb1a netfilter: nf_tables: skip set commit for deleted/destroyed sets
-0a7a93d96d124bf252430090b15feb4239bcf752 Merge tag 'dm-6.7/dm-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-ac1c13e257c798510a60559c2cd50f1828f89c4e Merge tag 'nfsd-6.7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-74d8fc2b868ae156dcbd33132029561a8341d659 Merge tag 'bcachefs-2023-12-19' of https://evilpiepirate.org/git/bcachefs
-2bd183045570bdfb166a4fac09742c215a242fc6 mm/sparsemem: fix race in accessing memory_section->usage
-373c5d32fa7203d0559ef9fb8124cafdddc2d61f mm/sparsemem: fix race in accessing memory_section->usage
-83d337cf313e984f632e7b54202188ddd6c270ad kexec: fix KEXEC_FILE dependencies
-42ff0c9c4bfb4c54e1af6bfe9171a29af4461ecb kexec-fix-kexec_file-dependencies-fix
-574520bb095867836ef097718b2fb9456b050b21 kexec: select CRYPTO from KEXEC_FILE instead of depending on it
-f93e29020438919faefeb00118b994909e0e3c35 kunit: kasan_test: disable fortify string checker on kmalloc_oob_memset
-0d5ba8e6eac658b915defd7802ef7daf6dd298a1 kunit: kasan_test: disable fortify string checker on kmalloc_oob_memset
-408f86f9760554e7b88fa18750fffd898b5ef2d7 mm/filemap: avoid buffered read/write race to read inconsistent data
-90d496edbfa1ae97bbc4aa9279db44319450b3cc maple_tree: do not preallocate nodes for slot stores
-1cfd86c748b9dc9b29512197dec0b63b7c237639 mm: migrate high-order folios in swap cache correctly
-b0dd9da4831e78d435b6f50035be456c08019d7f selftests: secretmem: floor the memory size to the multiple of page_size
-f482d62f03d68710c8612a26cf4f4a2a8b42e07b mm/memory-failure: pass the folio and the page to collect_procs()
-245a8e229b20c082367840c1aa559ee3a5992ebd mm/memory-failure: check the mapcount of the precise page
-d0db4f09964cd44e7692457e85b34bdf2bd05683 mm/memory-failure: cast index to loff_t before shifting it
-acf68efadb6ea2ef2874da05b61992b489f48dbb mailmap: add an old address for Naoya Horiguchi
-c0b61e368f18327868d97de9fada4d6e7b30bd88 mm: fix arithmetic for bdi min_ratio
-b82fff3de3e95a42001ec757070a081402334fce mm: fix arithmetic for max_prop_frac when setting max_ratio
-0d75ba8f6eb1a2d5f385e3154f39c85987345892 mm: memcg: fix split queue list crash when large folio migration
-538e71211e8319a4616974e70e66b9209ce02cb4 mm: fix unmap_mapping_range high bits shift bug
-1a44b0073b9235521280e19d963b6dfef7888f18 Merge tag 'ovl-fixes-6.7-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
-476a44e1147f243881318b16c59299134691a556 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-fc08d45b5c23d94c39e41c5906221259c62155c8 Merge branch 'fixes' of git://git.armlinux.org.uk/~rmk/linux-arm.git
-b3e7b4b7d196c80633f14d51f64ed4339b76f7c5 Merge branch 'arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git
-3cc75256156aa1d52573b7420deac4701f3d1b65 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux.git
-6cf495b24f89142fd79c13604471bc5f71c130d0 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/davem/sparc.git
-dac59400f63e8ee029025139168da02735ea48d0 Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-d8a64cf5754138215891820eae090c043b4a06b9 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-7b631ab3e8b8790e3a72505a947bd9b602bce1f3 Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf.git
-51d9bd37815dcd8821ecbe9bd4f54943223eb001 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
-f974cd0641156e1024591c278533dcd02bb16bbf Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-207e9386856634e3c15b06ee46fb1d3c9ab0ceb7 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-ab2ac0b2b9138b584ded2cf0181ac72d07adf379 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
-9301972137ccd2dcbd09729a4368ad97e83ba18e Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial.git
-4003bca46f1ea7eab22d52c6e0709ef81be1cbca Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-045979e1e050193e041ca982650b6cd6f5528147 Merge branch 'char-misc-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git
-32a5aa78f0e8d398ab796f40b0080ef0c574b9bc Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
-35d31f0ec7eb879f13be7951818722d0dcf69931 Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
-7e70e58d64f5aba5dc49f7aac25594e139bd4d1d Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap.git
-ea0f08676ddb18f6d400d748db1c7093c867123a Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-4f2547bc46dbb367dcf39add3df7ffeb364fe511 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-3e1ff9f3c9e9dcbbf13b33c23b14d4b641c99f1f Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-fff0e1499764515e0a5c33ebba3347f4408308ee Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm-intel
-85ceafc934e47db2b61a47d6705c0a384a1da36f Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-3f54ca4dfd4f1ff8333ce314e228c42dbb90e803 Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-39548112edf5375d65e3c75e59b700d0b255a84e Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-44e6639e256d60278253cf01e77296039b45094a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
-c6eb02b33bd24f8f4a60947b539db4871ef914cd Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
+c1ad12ee0efc07244be37f69311e6f7c4ac98e62 kexec: fix KEXEC_FILE dependencies
+e63bde3d9417f8318d6dd0d0fafa35ebf307aabd kexec: select CRYPTO from KEXEC_FILE instead of depending on it
+b2325bf860faa2f304a7e188f00cf9f7dc9b5ee8 kunit: kasan_test: disable fortify string checker on kmalloc_oob_memset
+e2c27b803bb664748e090d99042ac128b3f88d92 mm/filemap: avoid buffered read/write race to read inconsistent data
+4249f13c11be8b8b7bf93204185e150c3bdc968d maple_tree: do not preallocate nodes for slot stores
+fc346d0a70a13d52fe1c4bc49516d83a42cd7c4c mm: migrate high-order folios in swap cache correctly
+0aac13add26d546ac74c89d2883b3a5f0fbea039 selftests: secretmem: floor the memory size to the multiple of page_size
+376907f3a0b34a17e80417825f8cc1c40fcba81b mm/memory-failure: pass the folio and the page to collect_procs()
+c79c5a0a00a9457718056b588f312baadf44e471 mm/memory-failure: check the mapcount of the precise page
+39ebd6dce62d8cfe3864e16148927a139f11bc9a mm/memory-failure: cast index to loff_t before shifting it
+1803d0c5ee1a3bbee23db2336e21add067824f02 mailmap: add an old address for Naoya Horiguchi
 
---===============4111245291887454225==--
+--===============0878657347445133240==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-fc0fbad122a7-4459cd2e167e.txt
+
+bbe4f634f48cd832aa43e7f5a4edc7494ef7ff5f mips: fix r3k_cache_init build regression
+0fcb70851fbfea1776ae62f67c503fef8f0292b9 Makefile.extrawarn: turn on missing-prototypes globally
+cbc2fe9d9cb226347365753f50d81bc48cc3c52e kexec_file: add kexec_file flag to control debug printing
+a85ee18c7900f001f42082d2fabce4eaf57e655f kexec_file: print out debugging message if required
+e687b2fabd824d06e1126378b386c104341515f3 kexec_file, x86: print out debugging message if required
+6f8c1da071a46176966e377fb77a46366fb5af2d kexec_file, arm64: print out debugging message if required
+eb7622d908a097fe0b845cb2dc4b579b99f04b59 kexec_file, riscv: print out debugging message if required
+63b642e952f62b41033e34e81b74b9d9db33144b kexec_file, power: print out debugging message if required
+a78c668b9a411cbf9356cec9122ac3380016e1c6 kexec_file, parisc: print out debugging message if required
+d53a154cdc54b4fa2dbbf10646d613b0b664b82e riscv, kexec: fix the ifdeffery for AFLAGS_kexec_relocate.o
+0df52582e0154b2e05e9a5924cc60ac5f6f842b2 kcov: remove stale RANDOMIZE_BASE text
+4600c4bcd9fca2d7e66963ce1d1132921250e585 rapidio/tsi721: fix kernel-doc warnings
+ec3a8dd38199ac201a83f81394b1d6caf02643f6 freevxfs: bmap: fix kernel-doc warnings
+2bb31b37d3d339d8c59298b72d78ff5484eeb595 freevxfs: immed: fix kernel-doc param name
+6915f40c3a43740207f7af70bab96c20eed22aa3 freevxfs: lookup: fix function params kernel-doc
+2c20b0f26694e1d40bb9b86f8eff5675e87003d1 nilfs2: switch WARN_ONs to warning output in nilfs_sufile_do_free()
+a903904c5fa06e8d8472509741f79e8eb25ff864 fork: remove redundant TASK_UNINTERRUPTIBLE
+a751ea34f8c80f2c3cb8e26451a53f900a8b6214 init/Kconfig: move more items into the EXPERT menu
+e95d392d160baa2fbc1c0cac672abc472985418b usr/Kconfig: fix typos of "its"
+db6b6fb70193f0defe4d5785e940156c06e9abbe kexec: use ALIGN macro instead of open-coding it
+8474f82ade6f361169d85177b22279dcbe813219 x86/kexec: simplify the logic of mem_region_callback()
+4459cd2e167e7208e57d517d16282408d9035dad crash_core: remove duplicated including of kexec.h
+
+--===============0878657347445133240==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d9d9bd979cce-ffda65568249.txt
+
+c41bd2514184d75db087fe4c1221237fb7922875 kexec: drop dependency on ARCH_SUPPORTS_KEXEC from CRASH_DUMP
+ac88ff6b9d7dea9f0907c86bdae204dde7d5c0e6 riscv: fix VMALLOC_START definition
+d3bb89ea9c13e5a98d2b7a0ba8e50a77893132cb mm: fix VMA heap bounds checking
+a6fcd57cf2df409d35e9225b8dbad6f937b28df0 selftests/mm: cow: print ksft header before printing anything else
+6376a824595607e99d032a39ba3394988b4fce96 mm/damon/core: make damon_start() waits until kdamond_fn() starts
+655fc6cd45521aba4a21c6e607533f1a21e06c2e loongarch, kexec: change dependency of object files
+9bad6b75fca1b38b08d94e93f49a90cda44702b9 m68k, kexec: fix the incorrect ifdeffery and build dependency of CONFIG_KEXEC
+8cd2accb71f5eb8e92d775fc1978d3779875c2e5 mips, kexec: fix the incorrect ifdeffery and dependency of CONFIG_KEXEC
+d70c27b728b8da1ab9c3b7ca117ee1c99dc86d29 sh, kexec: fix the incorrect ifdeffery and dependency of CONFIG_KEXEC
+69f8ca8d36b5e52360f45c3b63bcb3d075da36df x86, kexec: fix the wrong ifdeffery CONFIG_KEXEC
+1dd11e977360ad3493812da0b05ffd9adcdd15a1 crash_core: fix the check for whether crashkernel is from high memory
+43e8832fed08438e2a27afed9bac21acd0ceffe5 Revert "selftests: error out if kernel header files are not yet built"
+55ac8bbe358bdd2f3c044c12f249fd22d48fe015 mm/shmem: fix race in shmem_undo_range w/THP
+081488051d28d32569ebb7c7a23572778b2e7d57 mm/mglru: fix underprotected page cache
+5095a2b23987d3c3c47dd16b3d4080e2733b8bb9 mm/mglru: try to stop at high watermarks
+8aa420617918d12d1f5d55030a503c9418e73c2c mm/mglru: respect min_ttl_ms with memcgs
+4376807bf2d5371c3e00080c972be568c3f8a7d1 mm/mglru: reclaim offlined memcgs harder
+c1ad12ee0efc07244be37f69311e6f7c4ac98e62 kexec: fix KEXEC_FILE dependencies
+e63bde3d9417f8318d6dd0d0fafa35ebf307aabd kexec: select CRYPTO from KEXEC_FILE instead of depending on it
+b2325bf860faa2f304a7e188f00cf9f7dc9b5ee8 kunit: kasan_test: disable fortify string checker on kmalloc_oob_memset
+e2c27b803bb664748e090d99042ac128b3f88d92 mm/filemap: avoid buffered read/write race to read inconsistent data
+4249f13c11be8b8b7bf93204185e150c3bdc968d maple_tree: do not preallocate nodes for slot stores
+fc346d0a70a13d52fe1c4bc49516d83a42cd7c4c mm: migrate high-order folios in swap cache correctly
+0aac13add26d546ac74c89d2883b3a5f0fbea039 selftests: secretmem: floor the memory size to the multiple of page_size
+376907f3a0b34a17e80417825f8cc1c40fcba81b mm/memory-failure: pass the folio and the page to collect_procs()
+c79c5a0a00a9457718056b588f312baadf44e471 mm/memory-failure: check the mapcount of the precise page
+39ebd6dce62d8cfe3864e16148927a139f11bc9a mm/memory-failure: cast index to loff_t before shifting it
+1803d0c5ee1a3bbee23db2336e21add067824f02 mailmap: add an old address for Naoya Horiguchi
+a721aeac8bc2cade37e68ea195f28d2ed28c1130 sync mm-stable with mm-hotfixes-stable to pick up depended-upon changes
+5143eecd2af2b5424f7b96d53f17bb4718e46bd3 lib/maple_tree.c: fix build error due to hotfix alteration
+4a3bfbd1699e2306731809d50d480634012ed4de mm/list_lru.c: remove unused list_lru_from_kmem()
+508bed884767a8eb394640bae9edcdf082816c43 mm: memcg: change flush_next_time to flush_last_time
+e0bf1dc859fdd08ef738824710770a30a8069433 mm: memcg: move vmstats structs definition above flushing code
+8d59d2214c2362e7a9d185d80b613e632581af7b mm: memcg: make stats flushing threshold per-memcg
+b006847222623ac3cda8589d15379eac86a2bcb7 mm: workingset: move the stats flush into workingset_test_recent()
+7d7ef0a4686abe43cd76a141b340a348f45ecdf2 mm: memcg: restore subtree stats flushing
+7dc7c5ef6463111991002f24c0aea08afe86f2cc mm: allow deferred splitting of arbitrary anon large folios
+372cbd4d5a0665bf7e181c72f5e40e1bf59b0b08 mm: non-pmd-mappable, large folios for folio_add_new_anon_rmap()
+3485b88390b0af9e05dc2c3f57e9936f41e159a0 mm: thp: introduce multi-size THP sysfs interface
+19eaf44954df64f9bc8dec398219e15ad0811497 mm: thp: support allocation of anonymous multi-size THP
+b6aab3384cafba151c53d3b5f7e1f8d073aadf03 selftests/mm/kugepaged: restore thp settings at exit
+00679a183ac6d2584723cfc2a2c07c8285f802dc selftests/mm: factor out thp settings management
+4f5070a5e40db2e9dbf5fff4ec678d6fbb338d5c selftests/mm: support multi-size THP interface in thp_settings
+9f0704eae8a4edc8dca9c8a297f798d505a4103a selftests/mm/khugepaged: enlighten for multi-size THP
+12dc16b38463a671bc91dc2df10f3a014a27ff3b selftests/mm/cow: generalize do_run_with_thp() helper
+c0f79103322c322ea9342d52c2d81528b7b56232 selftests/mm/cow: add tests for anonymous multi-size THP
+03d69d49da496e31246f41a017b32b68b9d2362e maple_tree: fix warning comparing pointer to 0
+d5f6057cf0018dc8863239fc3142b8509b9221cf maple_tree: fix typos/spellos etc
+306abb63a8cab566bf80860c5430b1fa316646b7 selftests/damon: implement a python module for test-purpose DAMON sysfs controls
+f5f0e5a2bef9e46f7a674b71d7f2a4c4b7e6bc5d selftests/damon/_damon_sysfs: implement kdamonds start function
+3402c6ce398e33bf1733f619756dd068ca2e2aa5 selftests/damon/_damon_sysfs: implement updat_schemes_tried_bytes command
+b5906f5f7359f561c5915dc146ced1bc2733401c selftests/damon: add a test for update_schemes_tried_regions sysfs command
+e3898efaffdb8e78639e68e997e3b8b6d0ed4ebc selftests/damon: add a test for update_schemes_tried_regions hang bug
+f55afd954c12ae9a0beb242e749d671555334fce mm: ksm: remove unnecessary try_to_freeze()
+6ad59a3838cd0a8536721e60b8e4fbe5fdeb233a mm/damon: update email of SeongJae
+5e06ad5900964a293da4bca2034899772efb02d4 mm/damon/core-test: test max_nr_accesses overflow caused divide-by-zero
+1f1d83ca27a3bb5c39d434074f6c335f88090bac Docs/mm/damon/design: place execution model and data structures at the beginning
+c7ae9634a4fb43cc40704c8e55f665c8b1e89534 Docs/admin-guide/mm/damon/usage: update context directory section label
+9c8c315da254e9bed0b8b8cb883dfeef75e9ca54 Docs/admin-guide/mm/damon/usage: add links to sysfs files hierarchy
+e93b81a3fcb8341b95eea6b6d7bdebaf529cb2e8 Docs/admin-guide/mm/damon/usage: use a list for 'state' sysfs file input commands
+0abfa8efad8dccc3899f64dafa985a251714a709 gfp: gfp_types.h: fix typos & punctuation
+f7ef5fe74aaf634f2fe50e0f3339a405cced5d01 mm/memory: replace kmap() with kmap_local_page()
+7e552dcd803f4ff60165271c573ab2e38d15769f maple_tree: avoid checking other gaps after getting the largest gap
+250ae189d98290d0539b4f9b8c4703e0bf24f9d3 mm: page_alloc: simplify __free_pages_ok()
+ffda65568249f5388ed68fd15a6d96f1f496a425 UBSAN: use the kernel panic message markers
+
+--===============0878657347445133240==--
