@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4320735709355233377=="
+Content-Type: multipart/mixed; boundary="===============5404794829062100277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 21 Dec 2023 20:33:52 -0000
-Message-Id: <170319083202.13897.727297430614404207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 21 Dec 2023 20:34:51 -0000
+Message-Id: <170319089139.14436.4703283111269918480@gitolite.kernel.org>
 
---===============4320735709355233377==
+--===============5404794829062100277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 31c6166e87dfb8598307f2bb6ff6db4f2b644ab6
     log: revlist-7887097c6544-31c6166e87df.txt
 
---===============4320735709355233377==
+--===============5404794829062100277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ effa1d090d6139186fb0b34aa3a656ebbf83a4fe perf annotate: Add --data-type option
 7bb082c1cba6f57b4a3f5fe49161d2b0b8118c57 perf annotate: Add --type-stat option for debugging
 31c6166e87dfb8598307f2bb6ff6db4f2b644ab6 perf annotate: Add --insn-stat option for debugging
 
---===============4320735709355233377==--
+--===============5404794829062100277==--
