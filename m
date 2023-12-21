@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 21 Dec 2023 18:21:24 -0000
-Message-Id: <170318288423.18392.5059374191272045877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Thu, 21 Dec 2023 18:26:21 -0000
+Message-Id: <170318318109.21716.6569585040730573121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/kvm-arm64-nvhe-sve-trap
-    old: 40ee870c70dddff2909bf2e79a39e6e512a0184e
-    new: 45937d9d8ac77dd73b85c9a561a94245bfdbbc8b
+  - ref: refs/heads/modules-next
+    old: f17f2c13d613cbeef529b03ca17ae2581b2e6cb8
+    new: 4515d08a742c76612b65d2f47a87d12860519842
     log: |
-         45937d9d8ac77dd73b85c9a561a94245bfdbbc8b KVM: arm64: Document why we trap SVE access from the host in nVHE
+         4515d08a742c76612b65d2f47a87d12860519842 kernel/module: improve documentation for try_module_get()
          
