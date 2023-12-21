@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 21 Dec 2023 03:19:11 -0000
-Message-Id: <170312875122.31312.7399534070031490936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Thu, 21 Dec 2023 03:46:36 -0000
+Message-Id: <170313039632.19307.18106125979528483883@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/master
-    old: 9ec247f2000e591c1e2e88cbcad50b2e21140482
-    new: 29dc4a77df17be4f47714a3b5e0ccdb1c5e7de76
+  - ref: refs/heads/main
+    old: 1a68525f4613b4e02e83d4b8004f22ac7ecbfedf
+    new: 33f73690f171336af340ecf6e3dade6bf4ecee9b
     log: |
-         29dc4a77df17be4f47714a3b5e0ccdb1c5e7de76 Thu Dec 21 03:17:40 AM UTC 2023
+         aba8530da699eaf470f61d0556bd86e0a6edd17e man: ip-route.8: Fix typo in rt_protos location spec
+         33f73690f171336af340ecf6e3dade6bf4ecee9b man: Fix malformatted database file locations
          
