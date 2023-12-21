@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8669353377984492264=="
+Content-Type: multipart/mixed; boundary="===============4051364178512910405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 21 Dec 2023 13:24:00 -0000
-Message-Id: <170316504058.26391.15630761329162453503@gitolite.kernel.org>
+Date: Thu, 21 Dec 2023 13:25:24 -0000
+Message-Id: <170316512452.28491.13963948155269565695@gitolite.kernel.org>
 
---===============8669353377984492264==
+--===============4051364178512910405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,33 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.netfs
-    old: 9494a044eb2dea2e51056086b026955987774768
-    new: b94d95da859f8c722aafa57432e4dfe19dcd6c62
-    log: revlist-9494a044eb2d-b94d95da859f.txt
+  - ref: refs/heads/vfs.all
+    old: cde3e26c75e74bdf02eb043cd7fd1730f620a5a2
+    new: 0c6a91e73811100aba0f8f521d54920aeb431746
+    log: revlist-cde3e26c75e7-0c6a91e73811.txt
 
---===============8669353377984492264==
+--===============4051364178512910405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9494a044eb2d-b94d95da859f.txt
+Content-Disposition: attachment; filename=revlist-cde3e26c75e7-0c6a91e73811.txt
 
+7cb537b6f6d7d6529be04139178f929d9a63b918 file: massage cleanup of files that failed to open
+253ca8678d30bcf94410b54476fc1e0f1627a137 Improve __fget_files_rcu() code generation (and thus __fget_light())
+a88c955fcfb49727d0ed86b47410f6555a8e69e4 file: s/close_fd_get_file()/file_close_fd()/g
+24fa3ae9467f49dd9698fd884f2c6b13cc8ea12d file: remove pointless wrapper
+372a34e66fb7f95124fadae9c600b231c35696a7 fs: replace f_rcuhead with f_task_work
+eac9189c96196574a83a553ca5a7543dd9f5fe3e file: stop exposing receive_fd_user()
+4e94ddfe2aab72139acb8d5372fac9e6c3f3e383 file: remove __receive_fd()
 13cadcae9a93b18928d24ae2bfe62219bc02c8d9 afs: Remove whitespace before most ')' from the trace header
 09b66b48d32731a54154fa8814bd8db9467b2730 afs: Automatically generate trace tag enums
 ce13a35fe448889e651d69899313e6abc699794e netfs, fscache: Move fs/fscache/* into fs/netfs/
+3efdc78fdc21ab82694707eb234ab93f28d13ba8 fs/proc: show correct device and inode numbers in /proc/pid/maps
+b5a78c7127f2007cfc7ad322b6ce0aa4bf347138 selftests/overlayfs: verify device and inode numbers in /proc/pid/maps
+376870aa2344397d6fbc3e7be036f2f4e9ba77c1 fs: fix doc comment typo fs tree wide
+4cf8249dc907398f694d310b89b494c144a4d9ec ntfs: dir.c: fix kernel-doc function parameter warnings
+1bfc466b13cf6652ba227c282c27a30ffede69a5 watch_queue: fix kcalloc() arguments order
+2137e1564267001b25143d21bc619189c1f74bc6 Merge branch 'vfs.file'
 942d0e589ffc07f949efc2bfbda02db748e063b6 netfs, fscache: Combine fscache with netfs
 c2f74795cb37fe82218de8d43f97a4816504ca08 netfs, fscache: Remove ->begin_cache_operation
 a9be3645e5c95747b36b01bc9c9c0e3603d586e7 netfs, fscache: Move /proc/fs/fscache to /proc/fs/netfs and put in a symlink
@@ -67,5 +80,12 @@ a855c5bdfbdd44f325e876159af2d0cfc896b982 netfs: Export the netfs_sreq tracepoint
 ed873fd295096c5bbfd338f8e6d1d649d3ba0009 afs: Use the netfs write helpers
 6cd988bdf87092a110836e9b678882b1cb28fddc 9p: Use netfslib read/write_iter
 b94d95da859f8c722aafa57432e4dfe19dcd6c62 Merge tag 'netfs-lib-20231221' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs into vfs.netfs
+1be6adb49bc280e7e5ee5a4e653f6cd7fcae1537 Merge branch 'vfs.misc' into vfs.all
+4da1d89e7daee05e049a34784abf97620f677f79 Merge branch 'vfs.super' into vfs.all
+f7e4c39e4833429f736e7ba23e1e060f1d1598bb Merge branch 'vfs.mount' into vfs.all
+74d6e3a36e1769447cc3547de3316362258af046 Merge branch 'vfs.rw' into vfs.all
+e12febed80c952665087a44d620143d81c6e60c8 Merge branch 'vfs.cachefiles' into vfs.all
+cd2469cc4bef46f72e0aaade4e594fbec4006981 Merge branch 'vfs.iov_iter' into vfs.all
+0c6a91e73811100aba0f8f521d54920aeb431746 Merge branch 'vfs.netfs' into vfs.all
 
---===============8669353377984492264==--
+--===============4051364178512910405==--
