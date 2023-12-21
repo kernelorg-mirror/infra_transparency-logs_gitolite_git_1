@@ -1,62 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============1514988115150999665=="
+Content-Type: multipart/mixed; boundary="===============1948845246479999616=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matttbe/net-next
-Date: Thu, 21 Dec 2023 17:16:26 -0000
-Message-Id: <170317898667.4549.12183715692578217694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Thu, 21 Dec 2023 17:17:04 -0000
+Message-Id: <170317902415.4882.17030586653830175030@gitolite.kernel.org>
 
---===============1514988115150999665==
+--===============1948845246479999616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matttbe/net-next
-user: matttbe
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: 83430b7b44536695546a63aed055d0f4771100d9
-    new: 47b1a2e15e2c4086c96469e02d7cbc6d2044778b
-    log: revlist-83430b7b4453-47b1a2e15e2c.txt
-  - ref: refs/heads/b4/upstream-net-next-20231221-mptcp-currestab
-    old: 0000000000000000000000000000000000000000
-    new: 47b1a2e15e2c4086c96469e02d7cbc6d2044778b
+  - ref: refs/heads/next
+    old: 7f6f9e0def00cfaeb1d034fd13dbd84470aeccbd
+    new: 2daa9555ba9858c29b9734b3a104c338b718feab
+    log: revlist-7f6f9e0def00-2daa9555ba98.txt
 
---===============1514988115150999665==
+--===============1948845246479999616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83430b7b4453-47b1a2e15e2c.txt
+Content-Disposition: attachment; filename=revlist-7f6f9e0def00-2daa9555ba98.txt
 
-2130c519a401e576647040043cb46d6fdc361dcc bpf: Use nla_ok() instead of checking nla_len directly
-d17aff807f845cf93926c28705216639c7279110 Revert BPF token-related functionality
-1728df7fc11bf09322852ff05e73908244011594 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
-b6895d0ac9d7a3d29f9f238a2688b3b66da71692 octeontx2-af: insert space after include
-e37a11fca41864c9f652ff81296b82e6f65a4242 bridge: add MDB state mask uAPI attribute
-e0cd06f7fcb51b8acd6e68e64cc805be1283de9d rtnetlink: bridge: Use a different policy for MDB bulk delete
-1a36e0f50f963465e9b2b980d250ab38b8fcd7a3 net: Add MDB bulk deletion device operation
-d8e81f131178dad603c6817421056030ed2f4ac2 rtnetlink: bridge: Invoke MDB bulk deletion when needed
-a6acb535afb2a3b688a7858f05b61f0433e480d5 bridge: mdb: Add MDB bulk deletion support
-4cde72fead4cebb5b6b2fe9425904c2064739184 vxlan: mdb: Add MDB bulk deletion support
-2601e9c4b1176253e33025ca24e56ed67c8d434f rtnetlink: bridge: Enable MDB bulk deletion
-bd2dcb94c81e3408731d129e884954c36ef2f1fa selftests: bridge_mdb: Add MDB bulk deletion test
-c3e87a7fcd0bb5820ca6db9b385bbfacb556d083 selftests: vxlan_mdb: Add MDB bulk deletion test
-d7a39d399a6dbc52dedde686e5dd40a3ae30f19f Merge branch 'bridge-mdb-bulk-delete'
-18764b883e157e28126b54e7d4ba9dd487d5bf54 r8169: add support for LED's on RTL8168/RTL8101
-fb2780721ca5e9f78bbe4544b819b929a982df9c net: sched: Move drop_reason to struct tc_skb_cb
-b6a3c6066afc2cb7b92f45c67ab0b12ded81cb11 net: sched: Make tc-related drop reason more flexible for remaining qdiscs
-4cf24dc8934074725042c0bd10b91f4d4b5269bb net: sched: Add initial TC error skb drop reasons
-bee9705c679d0df8ee099e3c5312ac76f447848a Merge branch 'net-sched-tc-drop-reason'
-fc9d7264ddc32eaa647d6bfcdc25cdf9f786fde0 net: phy: at803x: remove extra space after cast
-3ab5720881a924fb6405d9e6a3b09f1026467c47 net: phy: at803x: replace msleep(1) with usleep_range
-2c1f05f34a7c86d609fa8a02a8c9afc390b87408 EDITME: cover title for upstream-net-next-20231221-mptcp-CurrEstab
-4616956f52005249c8473d3c86abf9387f914571 mptcp: fix inconsistent state on fastopen race
-020d299896a57e0d2cb18c720351a2f578eb0207 mptcp: cleanup state propagation
-83f7c03b10eb7e96dbea8434422d552572a2251e mptcp: add MPTCP_MIB_CURRESTAB counter
-a68ebf423edd250e4cafc186e616da0a68ee4792 mptcp: use mptcp_set_state
-8f89c50b713c6ff95bf94dd5d40d84e67340a15e selftests: mptcp: join: check CURRESTAB counters
-48c8ccfa6df27d4151ddc2d6365b539ab6742b48 selftests: mptcp: diag: check CURRESTAB counters
-47b1a2e15e2c4086c96469e02d7cbc6d2044778b DO-NOT-MERGE: mptcp: enabled by default
+2226ec072ed3f1bd3f8dbe0cbf0e6cad699aedc2 phy: qcom-qmp: qserdes-com: Add some more v6 register offsets
+a40542507b9045da03f4e013ab8562f6e6fe8aad phy: qcom-qmp: qserdes-txrx: Add some more v6.20 register offsets
+7b98cf0e9b5f8a05a7f0f0d06d3cfa130bb576e2 phy: qcom-qmp: pcs: Add v7 register offsets
+8d4f9f801095b120e433d935b296baf0e3bdc6a0 phy: qcom-qmp: pcs-usb: Add v7 register offsets
+bc546cc85c1d92d9ba7b278b77016b7d4334fafa phy: qcom-qmp: qserdes-com: Add v7 register offsets
+762c3565f3c8105603089eeaa0501e5089922221 phy: qcom-qmp: qserdes-txrx: Add V6 N4 register offsets
+ee6fcc0f337d6790b46838bab76c36e8bdd5658e phy: qcom-qmp: qserdes-txrx: Add v7 register offsets
+54c899f0d647e5724b02486243da40134dc91c45 phy: renesas: phy-rcar-gen2: use select for GENERIC_PHY
+21a1d02579ae75fd45555b84d20ba55632a14a19 dt-bindings: phy: qcom,sc8280xp-qmp-usb43dp-phy: fix path to header
+5301b7a04040b0a6191856c765146e0a9ab88ebc phy: qualcomm: phy-qcom-qmp-ufs: Rectify SM8550 UFS HS-G4 PHY Settings
+57f31e911eaa5e682c0a03253f8b4348adee52cb phy: phy-can-transceiver: insert space after include
+cc230a4cd8e91f64c90b5494dfd76848197418ed dt-bindings: phy: mediatek: tphy: add a property for force-mode switch
+9b27303003f5af0d378f29ccccea57c7d65cc642 phy: mediatek: tphy: add support force phy mode switch
+ec80c175c096eb752d581ef0aafb12ed46010b2a dt-bindings: phy: qcom: snps-eusb2: Document the X1E80100 compatible
+f11aeb9d49632afc7abd9dfea6bcf5b3dd8addc1 dt-bindings: phy: qcom,sc8280xp-qmp-usb43dp-phy: Document X1E80100 compatible
+d7b3579f84f74e0f7d88d180d4e15c679786b648 phy: qcom-qmp-combo: Add x1e80100 USB/DP combo phys
+c5ffffd714373e7c6b39d3b005dbfbaadbbb4d2d dt-bindings: phy: qcom,sc8280xp-qmp-usb3-uni: Add X1E80100 USB PHY binding
+2daa9555ba9858c29b9734b3a104c338b718feab phy: qcom-qmp-usb: Add Qualcomm X1E80100 USB3 PHY support
 
---===============1514988115150999665==--
+--===============1948845246479999616==--
