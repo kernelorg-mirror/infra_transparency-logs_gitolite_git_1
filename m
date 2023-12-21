@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 21 Dec 2023 15:51:57 -0000
-Message-Id: <170317391731.5896.11588276071980127899@gitolite.kernel.org>
+Date: Thu, 21 Dec 2023 15:57:02 -0000
+Message-Id: <170317422204.9311.16579480629906162684@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/rockchip/dt64
+  - ref: refs/heads/rockchip/dt32
     old: 0000000000000000000000000000000000000000
-    new: 8174dff9e583f7791dacf6d8ce034eb18ec2b292
+    new: 569b26af7919c15a8ce231b4fae29cfbd811f144
