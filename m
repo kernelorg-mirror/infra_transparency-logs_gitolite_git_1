@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 21 Dec 2023 19:00:24 -0000
-Message-Id: <170318522482.13502.11283180500068987028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rteval/rteval
+Date: Thu, 21 Dec 2023 19:07:52 -0000
+Message-Id: <170318567267.19036.9425076938176382662@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/utils/rteval/rteval
+user: jkacur
 changes:
-  - ref: refs/heads/lsm-fix-counted-by
-    old: 0000000000000000000000000000000000000000
-    new: 9d2cf900e5232b94f5bad33dc017ac07be365402
+  - ref: refs/heads/main
+    old: 423f6d058bd6f26b257c2093035389532902bc7e
+    new: d142f0d23d8df1cede3573c3d6cfbf16535b3475
+    log: |
+         2d2e85c459d240926c99b1961bbef090aa80a1fc rteval: Makefile: More rpm cleanups
+         d142f0d23d8df1cede3573c3d6cfbf16535b3475 rteval: Disable use of python-dmidecode
+         
