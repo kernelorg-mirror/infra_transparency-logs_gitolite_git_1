@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 22 Dec 2023 10:58:35 -0000
-Message-Id: <170324271543.4427.5416700312591912792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Fri, 22 Dec 2023 11:01:57 -0000
+Message-Id: <170324291778.7321.17640158611024245285@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/master
-    old: 846876d13a446836ca19ba1f619515a2cd992217
-    new: f516605185472eb61187c190b4a7f76a17bcdb31
+  - ref: refs/heads/next
+    old: 2cd3da4e37453019e21a486d9de3144f46b4fdf7
+    new: 04b99eac389adc6485f7913d83ec9ed68bbc8326
     log: |
-         5dbaf5da3cf68767998f9d29a836dfb8dbc4a32a swapon.2: MAX_SWAPFILES: Clarify limit after decrease
-         f516605185472eb61187c190b4a7f76a17bcdb31 CONTRIBUTING: The Majordomo has been fired
+         ba2a2a86de04e67bb1d7f8251894eb11eed062e9 thunderbolt: Keep link as asymmetric if preferred by hardware
+         04b99eac389adc6485f7913d83ec9ed68bbc8326 thunderbolt: Reduce retry timeout to speed up boot for some devices
          
