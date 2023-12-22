@@ -1,47 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============0621671907785686590=="
+Content-Type: multipart/mixed; boundary="===============8254850991167016800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 22 Dec 2023 16:37:01 -0000
-Message-Id: <170326302103.24862.8609348017663524162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 22 Dec 2023 16:40:07 -0000
+Message-Id: <170326320778.28734.5316068688317802927@gitolite.kernel.org>
 
---===============0621671907785686590==
+--===============8254850991167016800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 56794e5358542b7c652f202946e53bfd2373b5e0
-    new: 27c346a22f816b1d02e9303c572b4b8e31b75f98
-    log: revlist-56794e535854-27c346a22f81.txt
+    old: c156e6be6d4a0a2290e7059bc74fb0612aa19693
+    new: a7dee43db9214033ff276d4322bb29c9f914700b
+    log: revlist-c156e6be6d4a-a7dee43db921.txt
 
---===============0621671907785686590==
+--===============8254850991167016800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-56794e535854-27c346a22f81.txt
+Content-Disposition: attachment; filename=revlist-c156e6be6d4a-a7dee43db921.txt
 
-236f31bb21c00b0d926916d43bee09100432b8d0 e1000e: make lost bits explicit
-3314f2097dee43defc20554f961a8b17f4787e2d intel: add bit macro includes where needed
-4d893c104cda8961b8885737b2de73b83f7b6d0d intel: legacy: field prep conversion
-9e3ab72c049929afccea62a08dbaeaeee8e06c46 i40e: field prep conversion
-9b7f18042d4c12ecc5fc797c0a31b0ff0bcef3cc iavf: field prep conversion
-23eca34e55586099fd4c6edcd0abd60df9456020 ice: field prep conversion
-7173be21ae29ef50ada42fd4464056a9d3f55bb3 ice: fix pre-shifted bit usage
-c82e64868afd2656452b430c3976a8b39f1cafe5 igc: field prep conversion
-b9a4525450758dd75edbdaee97425ba7546c2b5c intel: legacy: field get conversion
-a8e0c7a6800dc466ac815264c16971b9adf7ffbd igc: field get conversion
-62589808d73b24eaf552bf9b69ba97f8db8f7b41 i40e: field get conversion
-65db56d5fa8f9c4ee269eeb3c85fbb6acef79c6b iavf: field get conversion
-5a259f8e0bafaa8d2a0e6d61f1c64e10b3139901 ice: field get conversion
-316a28daa805b553d11499d0436ebd87529e9189 ice: cleanup inconsistent code
-6aa7ca3c7dcc5effc4963d18b300fc942e738a3b idpf: refactor some missing field get/prep conversions
-afa9e267486321c93a2fd15ffa4dc8b2e76ca682 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-27c346a22f816b1d02e9303c572b4b8e31b75f98 octeontx2-af: Fix a double free issue
+f59b171ea1bf4c7db369c050ebd14c18ef66e13d cirrus: Add CS35L41 firmware and tunings for ASUS Zenbook 2022 Models
+4471d9c47a3d05bbea9a369ae8c63bdd95bb773e cirrus: Add CS35L41 firmware and tunings for ASUS Zenbook 2023 Models
+cfc997c664f076c6800b749ed7ef315b1e8e76fd intel: vsc: Add firmware for Visual Sensing Controller
+318c64abfb33c4211b002f5e5b4ff25cd19f712b iwlwifi: update gl FW for core80-165 release
+fb04a7f4b750bfbd20b15b44fb1e9f4e6d610a63 ath12k: add new driver and firmware for WCN7850
+8a4482899932791711133d3be037e7625e5973b9 ath10k: QCA6174 hw3.0: update firmware-6.bin to WLAN.RM.4.4.1-00309-
+af507cde0d7d554ac492a6f3b3af29dbfe2a77c3 ath10k: QCA4019 hw1.0: update board-2.bin
+8c1f99279fc9948fe34adb459e1cc92a16b6b706 ath10k: QCA9888 hw2.0: update board-2.bin
+2708e6f9b471f29a928f4f8f6b2c6639053861e2 ath10k: WCN3990 hw1.0: update board-2.bin
+6ff0742a1d39c8a254a7a975a4ed7aababe53cec ath11k: IPQ8074 hw2.0: update board-2.bin
+4bb908269cf6aaa27eb2d8775a79cdda93a0bcc9 ath11k: WCN6750 hw1.0: update board-2.bin
+324cc56975d7b5a375259a49667c24f2f5a4c8fe ath11k: WCN6855 hw2.0: update board-2.bin
+17509e53b97baaefeb287b98d3358da8a6e1c199 ath11k: WCN6855 hw2.0: update to WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.36
+94904baaba306a0a3c5e503e63bbcb7ef13f188b Merge branch 'robot/pr-0-1703168857' into 'main'
+91fb8a9a3afb0954441cb154c2867bd53b72b392 Merge branch 'robot/pr-0-1703161645' into 'main'
+a2710f22f66c61712aef2dc47ffe53a3aaaa84f9 Merge branch 'robot/pr-0-1702935381' into 'main'
+a7dee43db9214033ff276d4322bb29c9f914700b Merge branch 'robot/pr-0-1702919157' into 'main'
 
---===============0621671907785686590==--
+--===============8254850991167016800==--
