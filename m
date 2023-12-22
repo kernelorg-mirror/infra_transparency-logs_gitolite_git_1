@@ -1,56 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============5579034805282236753=="
+Content-Type: multipart/mixed; boundary="===============1912324073704954255=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 22 Dec 2023 13:28:59 -0000
-Message-Id: <170325173998.18926.12337319269488257013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 22 Dec 2023 13:29:10 -0000
+Message-Id: <170325175091.19042.7526362585634355297@gitolite.kernel.org>
 
---===============5579034805282236753==
+--===============1912324073704954255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.8
-    old: 2f2998895cc29e8660d848d2580b1787710e93f6
-    new: f87b4402163be352601f7a012ab0d8dba7ecc64d
+  - ref: refs/heads/for-6.8
+    old: 15009a1b145b033c39a6b65d529c83de71a8d732
+    new: f6cd66231aa58599526584ff4df1bdde8d86eac8
     log: |
-         51add1687f39292af626ac3c2046f49241713273 ASoC: rt5645: Drop double EF20 entry from dmi_platform_data[]
-         8f28e1996a786a7538d65e5258d3eecb92943673 ASoC: rt5645: Add platform-data for Acer Switch V 10
-         f72a9c2b8f1487181302d69fb82d5c76226be3fb ASoC: rt5645: Refactor rt5645_parse_dt()
-         b4635b9cd9ae48050d72b645cc53175788bebf52 ASoC: rt5645: Add rt5645_get_pdata() helper
-         4cd7654553b3cf1ce5a7560f0492f0431785dfae ASoC: rt5645: Add a rt5645_components() helper
-         8184e1db699befc5101bcfe401283becfc228a0b ASoC: rt5645: Add mono speaker information to the components string
-         f87b4402163be352601f7a012ab0d8dba7ecc64d ASoC: Intel: cht_bsw_rt5645: Set card.components string
+         6f98f25247b7ef03fb89030a3af6c0eb08132104 spi: stm32: use dma_get_slave_caps prior to configuring dma channel
+         f034a151059a84cecaae68f5a72ee5d815e94625 dt-bindings: spi: stm32: add st,stm32mp25-spi compatible
+         f6cd66231aa58599526584ff4df1bdde8d86eac8 spi: stm32: add st,stm32mp25-spi compatible supporting STM32MP25 soc
          
 
---===============5579034805282236753==
+--===============1912324073704954255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1703251738 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1703251737-9ed893c13b6275b346c66bbfc3a90df29e34da0d
+pusher C3F436CA30F5D8EB 1703251749 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1703251749-af67a7ef0315a76745eda38dd748699086f980e7
 
-2f2998895cc29e8660d848d2580b1787710e93f6 f87b4402163be352601f7a012ab0d8dba7ecc64d refs/heads/asoc-6.8
+15009a1b145b033c39a6b65d529c83de71a8d732 f6cd66231aa58599526584ff4df1bdde8d86eac8 refs/heads/for-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWFjxoACgkQJNaLcl1U
-h9DVFQf6AgmwRm/AlWlFdNx5E8/vDl2ZdeBd+QIARZziR0bYpn0BRMiVRhciqsm7
-g1WQkbJfdhxw04MjyHcuWPa3Dmn+Vz6QItPtH+XmtZ4K6fH8q5vf+CK7hL3OiNOR
-+sLh45772zUfuzTKHawqtKAQrNZ3gzR/L6PuWQ3tYXx4Li1qzwH4J25L2Iy3oqWH
-Y79f2bWc/HDsgmWoEHTP6IRtt51LTtIi9rchcD7NN6fK+mq7vil7MZvsEICZspXf
-TasRZVu+JU3UerP2JubM4Vko4BVWw7jO43viMjDn/YSdZm1PDV8I4i6b70rdbmMA
-ldjAbvh+NOGnZOmDa7xFE2hLfT67vQ==
-=rLtp
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWFjyUACgkQJNaLcl1U
+h9AhFgf+LuKHChEei2n6KKM2IMPJhAPPcdqY+no7nM9Z7TgLqSdLBJ0AyAf1M0Jq
+OO2gP5Jfk4QQWyh8yqKbwO8NS7irYYZQn+kOvunPbrNHLDlLcROZ2JcJh/eh8zxl
+ftThLYRvLh9P3+ZGKayuhZJfh3LUKFeP+fESCgUWvfcUw14/HHqOiqyMtKwUQefG
+YUrToYUCOrOrVPGyfxbqfGXB82UzTrr02Bc1HoIHxqKMG+MJq7eM5wRX3HEW4C3p
+fy5BMwiQYnEFwTVhpEHHaTRGU0F+wHjtYFDkxUVh9xUoX7CgLC5NaHEowDOadJep
+xddZub5VdQGq1ir75DXWITYMXuo/Tw==
+=gusq
 -----END PGP SIGNATURE-----
 
---===============5579034805282236753==--
+--===============1912324073704954255==--
