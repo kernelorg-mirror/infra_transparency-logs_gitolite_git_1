@@ -1,65 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============1404856223479586831=="
+Content-Type: multipart/mixed; boundary="===============3386171185002901589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 22 Dec 2023 16:50:46 -0000
-Message-Id: <170326384680.4384.3049215992128393736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 22 Dec 2023 17:00:40 -0000
+Message-Id: <170326444021.11089.5975876280629872432@gitolite.kernel.org>
 
---===============1404856223479586831==
+--===============3386171185002901589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 8afe6f0e0e257bf7f79f5996c037e8977dcc8cc1
-    new: 5414aea7b7508d01235ea0c95064ad66395c3239
-    log: revlist-8afe6f0e0e25-5414aea7b750.txt
+  - ref: refs/heads/dev-queue
+    old: e8bef84d8c4c4b52ad46cf9fb020a6c4a43eebc5
+    new: 3edd6e073c26d4b1b3831412c46e83c13d0f2086
+    log: revlist-e8bef84d8c4c-3edd6e073c26.txt
 
---===============1404856223479586831==
+--===============3386171185002901589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8afe6f0e0e25-5414aea7b750.txt
+Content-Disposition: attachment; filename=revlist-e8bef84d8c4c-3edd6e073c26.txt
 
-d20d36755a605a21e737b6b16c566658589b1811 ASoC: SOF: mediatek: mt8186: Revert Add Google Steelix topology compatible
-12e102b1bd22ee00361559d57a5876445bcb2407 ASoC: cs35l45: Use modern pm_ops
-c3c8b088949b9ccb88da2f84d3c3cc06580a6a43 ASoC: cs35l45: Prevent IRQ handling when suspending/resuming
-a0ffa8115e1ea9786b03edc3f431d2f4ef3e7a2e ASoC: cs35l45: Prevents spinning during runtime suspend
-02a914ed475dd928c7b2b6c9d1da9b0b27fa724d ASoC: Intel: soc-acpi-intel-mtl-match: Change CS35L56 prefixes to AMPn
-dc96528b176fa6e55a3dc01060fe9d97be450ce9 ASoC: cs42l43: Don't enable bias sense during type detect
-02a460adfc4920d4da775fb59ab3e54036daef22 ALSA: hda/realtek: Add quirk for ASUS ROG GV302XA
-ec1de5c214eb5a892fdb7c450748249d5e2840f5 ALSA: hda/tas2781: select program 0, conf 0 by default
-f32c80d34249e1cfb2e647ab3c8ef38a460c787f ASoC: tas2781: check the validity of prm_no/cfg_no
-48d6b91798a6694fdd6edb62799754b9d3fe0792 ALSA: usb-audio: Increase delay in MOTU M quirk
-13d605e32e4cfdedcecdf3d98d21710ffe887708 kselftest: alsa: fixed a print formatting warning
-99c7bb44f5749373bc01b73af02b50b69bcbf43d ASoC: Intel: bytcr_rt5640: Add quirk for the Medion Lifetab S10346
-b1b6131bca35a55a69fadc39d51577968fa2ee97 ASoC: Intel: bytcr_rt5640: Add new swapped-speakers quirk
-8c4c216db8fb84be9c4ca60d72b88882066cf28f ALSA: hda: cs35l41: Add config table to support many laptops without _DSD
-b592ed2e1d78a475f781802e441c499ab446975b ALSA: hda: cs35l41: Support additional ASUS ROG 2023 models
-a40ce9f4bdbebfbf55fdd83a5284fbaaf222f0b9 ALSA: hda/realtek: Add quirks for ASUS ROG 2023 models
-b257187bcff4bccc9e7a8f1b8a1a5526ff815af1 ALSA: hda: cs35l41: Support additional ASUS Zenbook 2022 Models
-51d976079976c800ef19ed1b542602fcf63f0edb ALSA: hda/realtek: Add quirks for ASUS Zenbook 2022 Models
-2b35b66d82dc4641ba60f7f3c36c0040eedb74e2 ALSA: hda: cs35l41: Support additional ASUS Zenbook 2023 Models
-ae53e2198cb811f7ee7c5cd4580bf42e88086fa5 ALSA: hda/realtek: Add quirks for ASUS Zenbook 2023 Models
-025222a9d6d25eee2ad9a1bb5a8b29b34b5ba576 ASoC: hdmi-codec: fix missing report for jack initial status
-8f0f01647550daf9cd8752c1656dcb0136d79ce1 ASoC: fsl_sai: Fix channel swap issue on i.MX8MP
-043465b66506e8c647cdd38a2db1f2ee0f369a1b i2c: qcom-geni: fix missing clk_disable_unprepare() and geni_se_resources_off()
-19cde9c92b8d3b7ee555d0da3bcb0232d3a784f4 i2c: rk3x: fix potential spinlock recursion on poll
-b4cc1cbba5195a4dd497cf2f8f09e7807977d543 i2c: aspeed: Handle the coalesced stop conditions with the start conditions.
-93cd0597649844a0fe7989839a3202735fb3ae67 x86/xen: add CPU dependencies for 32-bit build
-092a1362470937e46947ccdc6fe4c8a9b72f3f49 Merge tag 'asoc-fix-v6.7-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-ed7326a24a1a9af65fafefd86b505e7c3b968f6d ALSA: hda: cs35l41: Do not allow uninitialised variables to be freed
-916d051730ae48aef8b588fd096fefca4bc0590a ALSA: hda: cs35l41: Only add SPI CS GPIO if SPI is enabled in kernel
-1d656bd259edb89dc1d9938ec5c5389867088546 gpiolib: cdev: add gpio_device locking wrapper around gpio_ioctl()
-1cc3542c76acb5f59001e3e562eba672f1983355 gpio: dwapb: mask/unmask IRQ when disable/enale it
-b7bc7bce88bdf52ec2b47c576fb51269a521bd9a Merge tag 'for-linus-6.7a-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-a9ca0330d222ae6c32ba5519f5a2f04dc97b7d8b Merge tag 'gpio-fixes-for-v6.7-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-2618280dedb2f3a35e51c158d31859276a8832b9 Merge tag 'i2c-for-6.7-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-5414aea7b7508d01235ea0c95064ad66395c3239 Merge tag 'sound-6.7-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+236f31bb21c00b0d926916d43bee09100432b8d0 e1000e: make lost bits explicit
+3314f2097dee43defc20554f961a8b17f4787e2d intel: add bit macro includes where needed
+4d893c104cda8961b8885737b2de73b83f7b6d0d intel: legacy: field prep conversion
+9e3ab72c049929afccea62a08dbaeaeee8e06c46 i40e: field prep conversion
+9b7f18042d4c12ecc5fc797c0a31b0ff0bcef3cc iavf: field prep conversion
+23eca34e55586099fd4c6edcd0abd60df9456020 ice: field prep conversion
+7173be21ae29ef50ada42fd4464056a9d3f55bb3 ice: fix pre-shifted bit usage
+c82e64868afd2656452b430c3976a8b39f1cafe5 igc: field prep conversion
+b9a4525450758dd75edbdaee97425ba7546c2b5c intel: legacy: field get conversion
+a8e0c7a6800dc466ac815264c16971b9adf7ffbd igc: field get conversion
+62589808d73b24eaf552bf9b69ba97f8db8f7b41 i40e: field get conversion
+65db56d5fa8f9c4ee269eeb3c85fbb6acef79c6b iavf: field get conversion
+5a259f8e0bafaa8d2a0e6d61f1c64e10b3139901 ice: field get conversion
+316a28daa805b553d11499d0436ebd87529e9189 ice: cleanup inconsistent code
+6aa7ca3c7dcc5effc4963d18b300fc942e738a3b idpf: refactor some missing field get/prep conversions
+afa9e267486321c93a2fd15ffa4dc8b2e76ca682 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+27c346a22f816b1d02e9303c572b4b8e31b75f98 octeontx2-af: Fix a double free issue
+4324415f77cf8635f4f784029dd060ebcd699ed8 i40e: Fix waiting for queues of all VSIs to be disabled
+b0efe577f6b45787c8feba2cff527cdab936f77e i40e: Fix wrong mask used during DCB config
+9f5667d61c431577cbc2418cfd43c24e3c3e1b0f i40e: Use existing helper to find flow director VSI
+4eea2d27e3246f13715f243dfa2b42bf96c32a0f i40e: Introduce and use macros for iterating VSIs and VEBs
+ffa2ab8e939094e5be214bf495abe69f6aa4555c i40e: Add helpers to find VSI and VEB by SEID and use them
+a5faac081954da0a1a8b1f35a7f0c5a449a3fe4d i40e: Fix broken support for floating VEBs
+be1791947ce0547e0e4678024490e87b6ba926d8 i40e: Remove VEB recursion
+90ec19144ad8d17934a3aab709a9f29f398a9c89 i40e: Fix filter input checks to prevent config with invalid values
+88d411d7533aac3c4a55aeac25e32303282aafc7 ice: replace ice_vf_recreate_vsi() with ice_vf_reconfig_vsi()
+d13f9b3be400a6072c050e5596a24cf9da40a42a ice: Schedule service task in IRQ top half
+16eadec8cccb987331da53c59900bbb90ab8fcb1 ice: Enable SW interrupt from FW for LL TS
+985cf9e7afa12e773034580cd33d95d8ce764491 i40e: Fix VF disable behavior to block all traffic
+d57677f1ba8ba2f52c892ddfbf455e1600b195ab igc: Report VLAN EtherType matching back to user
+5adef5e9ddfaa8537b828a46c8a5d8c22b3a4be6 igc: Check VLAN TCI mask
+842f7f023ebd271ccc2ce2bd99f9776ff0870286 ice: ice_base.c: Add const modifier to params and vars
+06b369e436a0c095c2e3249d72d583f87fffd69a igc: Check VLAN EtherType mask
+b7fb4016b1814776ee1799018ea5d40d9267cb7b ice: remove rx_len_errors statistic
+8ce0e495a37400a13afa7986b71620cafdfff9b3 ice: introduce new E825C devices family
+9e166a04ad5abffe6e18dba972b6715a4ea6839a ice: Add helper function ice_is_generic_mac
+0efd700fa92b8c1058faa2af0e6e2caff606ce5e ice: add support for 3k signing DDP sections for E825C
+f5c13b994ff771de3eb67d92a56f067021afc3e6 igc: Fix hicredit calculation
+7bcb7548b01318183b7d1cd78f2ec6baae9de708 idpf: fix corrupted frames and skb leaks in singleq mode
+bf547ac14caf620c953fafc65f50bcb1aad8036b ixgbe: report link state for VF devices
+0e4f180f820312f8aa71655454caadd3a6797e6c ice: Add support for devlink loopback param.
+dfd65e5329f72654fa19f5c05b143130669c7235 ice: Fix some null pointer dereference issues in ice_ptp.c
+991e7e2a90c515e2ac714eda5654b9c0bbef7607 ice: Add support for packet mirroring using hardware in switchdev mode
+672cbf7325d36c61e3064f20ae43121bafe783ac e1000e: correct maximum frequency adjustment values
+fa0a140e6a094776edea5096a3adb88d985c82ee ice: Fix link_down_on_close message
+e436d19600a60affd7d1b4a61d68fa4ff8b35ac9 ice: Shut down VSI with "link-down-on-close" enabled
+40eda651519a52da19452eea11ee9e6610b8e74a idpf: enable WB_ON_ITR
+033d13c48502aee2517022951698fa9698f70f12 idpf: avoid compiler introduced padding in virtchnl2_rss_key struct
+a3471e2910a4a088d6d062b6971957ae800c9266 i40e: fix use-after-free in i40e_aqc_add_filters()
+4f75784e7b05c75fba1ba1fa2ae948e4dbdd7382 ice: dpll: fix phase offset value
+1b1a2ad1138506b39399d91292daecdec274c894 i40e: Avoid unnecessary use of comma operator
+789cc3ae5f5a71bd1e3cb9f73dd57b60c0bb6d7c ixgbe: Refactor overtemp event handling
+3edd6e073c26d4b1b3831412c46e83c13d0f2086 ixgbe: Refactor returning internal error codes
 
---===============1404856223479586831==--
+--===============3386171185002901589==--
