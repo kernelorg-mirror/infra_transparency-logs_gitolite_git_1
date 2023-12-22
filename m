@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 22 Dec 2023 11:33:54 -0000
-Message-Id: <170324483441.31904.940069711480922764@gitolite.kernel.org>
+Date: Fri, 22 Dec 2023 11:35:18 -0000
+Message-Id: <170324491883.1682.13434879179629891849@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/drivers/memory-2
+  - ref: refs/heads/firmware/scmi
     old: 0000000000000000000000000000000000000000
-    new: 365fcc03b6321f36eb7cbda8baa737238c387907
+    new: b5efc28a754d2e90b9d52ba5aaa051cc24a5c85d
