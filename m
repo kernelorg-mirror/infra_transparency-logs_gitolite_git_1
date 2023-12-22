@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 22 Dec 2023 21:22:51 -0000
-Message-Id: <170328017161.6570.704440042622889247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 22 Dec 2023 21:47:19 -0000
+Message-Id: <170328163947.24356.16804825250447669988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: d782bfd7a21d652cce569dd9180440295678549d
-    new: 4aa88e15974e0f787ec46643b613ba9aefb2bb9d
+    old: 5414aea7b7508d01235ea0c95064ad66395c3239
+    new: c0f65a7c112b3cfa691cead54bcf24d6cc2182b5
     log: |
-         fa7b344db6303fa351cc65cefcc83ac393ec6c73 ensure_gpg_password: Add more checks
-         b4bdfec59d89a13b43b1c698f7334ca2caa08051 rebase_damon_next_on_mm_unstable: Find old mm-unstable based on commit subject
-         e6f86c9626d727f9e1a1edc9c612369dd3202548 rebase_damon_next_on_mm_unstable: Check if the tree is on damon/next
-         a62572d512e579e27df9bdbe4145485547df77f2 rebase_damon_next_on_mm_unstable: Get exact commit id of old mm-unstable
-         4aa88e15974e0f787ec46643b613ba9aefb2bb9d rebase_damon_next_on_mm_unstable: Provide a better instruction for cherry-pick failure
+         5c47251e8c4903111608ddcba2a77c0c425c247c lib/vsprintf: Fix %pfwf when current node refcount == 0
+         c0f65a7c112b3cfa691cead54bcf24d6cc2182b5 Merge tag 'printk-for-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
          
