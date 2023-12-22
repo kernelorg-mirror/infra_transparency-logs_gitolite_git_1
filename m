@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3915822595073091307=="
+Content-Type: multipart/mixed; boundary="===============2585017557136178084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 22 Dec 2023 14:02:51 -0000
-Message-Id: <170325377101.11572.16613257120236163440@gitolite.kernel.org>
+Date: Fri, 22 Dec 2023 14:04:18 -0000
+Message-Id: <170325385879.12158.11549196005875469102@gitolite.kernel.org>
 
---===============3915822595073091307==
+--===============2585017557136178084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.netfs
-    old: b94d95da859f8c722aafa57432e4dfe19dcd6c62
-    new: 2fb9a0badbf10dd0335c38703489cb8e2b5cf3ef
-    log: revlist-b94d95da859f-2fb9a0badbf1.txt
+  - ref: refs/heads/vfs.all
+    old: 0c6a91e73811100aba0f8f521d54920aeb431746
+    new: cb24c15403c328cc7bb311024a23026fa3e80752
+    log: revlist-0c6a91e73811-cb24c15403c3.txt
 
---===============3915822595073091307==
+--===============2585017557136178084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b94d95da859f-2fb9a0badbf1.txt
+Content-Disposition: attachment; filename=revlist-0c6a91e73811-cb24c15403c3.txt
 
 b9622937d95809ef89904583191571a9fa326402 arm64: dts: allwinner: h616: update emac for Orange Pi Zero 3
 b5ec294472794ed9ecba0cb4b8208372842e7e0d reset: hisilicon: hi6220: fix Wvoid-pointer-to-enum-cast warning
@@ -235,5 +235,12 @@ fc4fd022ec965764f873ec3cf3e2295fe2d5d2cf netfs: Optimise away reads above the po
 8cafde2bdd3d164efa4ca7bf69bce99f69a67620 afs: Use the netfs write helpers
 9cf18c5ca233b11b8ff275a566639591cb29ced3 9p: Use netfslib read/write_iter
 2fb9a0badbf10dd0335c38703489cb8e2b5cf3ef Merge tag 'netfs-lib-20231222' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs into vfs.netfs
+3b7939e8b33ad4f96cd23171c2009f83c44779fc Merge branch 'vfs.misc' into vfs.all
+53f1dfa2759dc925aa5ecacb46be7f4d309df990 Merge branch 'vfs.super' into vfs.all
+ac34292494341b55176de8aab394ae03590a3883 Merge branch 'vfs.mount' into vfs.all
+3ae5056389691d30347e581ea6c658ceeeeaeb35 Merge branch 'vfs.rw' into vfs.all
+9d7ca8e95b76f99c820b2ea60822cbf0a39b9d9d Merge branch 'vfs.cachefiles' into vfs.all
+a8542edce10ad2119a92d72b3db2e1f0d980b647 Merge branch 'vfs.iov_iter' into vfs.all
+cb24c15403c328cc7bb311024a23026fa3e80752 Merge branch 'vfs.netfs' into vfs.all
 
---===============3915822595073091307==--
+--===============2585017557136178084==--
