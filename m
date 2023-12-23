@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8336976303881784326=="
+Content-Type: multipart/mixed; boundary="===============2358029471432860924=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ericvh/v9fs
-Date: Sat, 23 Dec 2023 15:03:07 -0000
-Message-Id: <170334378787.15265.514469640538006004@gitolite.kernel.org>
+Date: Sat, 23 Dec 2023 15:12:11 -0000
+Message-Id: <170334433137.22936.14328165094717922890@gitolite.kernel.org>
 
---===============8336976303881784326==
+--===============2358029471432860924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ericvh/v9fs
 user: ericvh
 changes:
-  - ref: refs/heads/ericvh/for-next
+  - ref: refs/heads/main
     old: 2dde18cd1d8fac735875f2e4987f11817cc0bc2c
     new: 5254c0cbc92d2a08e75443bdb914f1c4839cdf5a
     log: revlist-2dde18cd1d8f-5254c0cbc92d.txt
 
---===============8336976303881784326==
+--===============2358029471432860924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ef5b28372c565128bdce7a59bc78402a8ce68e1b Merge tag 'kvm-riscv-fixes-6.7-1' of ht
 867583b3991929aeea3844874fba598243c54240 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 5254c0cbc92d2a08e75443bdb914f1c4839cdf5a Merge tag 'block-6.7-2023-12-22' of git://git.kernel.dk/linux
 
---===============8336976303881784326==--
+--===============2358029471432860924==--
