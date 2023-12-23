@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3184899477482044647=="
+Content-Type: multipart/mixed; boundary="===============1859147319136585729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 23 Dec 2023 14:53:53 -0000
-Message-Id: <170334323395.8598.613319565840914856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sat, 23 Dec 2023 14:54:29 -0000
+Message-Id: <170334326983.8931.11237699691473385991@gitolite.kernel.org>
 
---===============3184899477482044647==
+--===============1859147319136585729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: fb6405106525029b388608e39a5d2366d782c498
     log: revlist-31c6166e87df-fb6405106525.txt
 
---===============3184899477482044647==
+--===============1859147319136585729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ a7f4cae31deab27f980b228213f7642a54394954 perf report: Add 'symoff' sort key
 825e570191334e2b9aa92bad70e5105ea5551858 perf annotate: Add --type-stat option for debugging
 fb6405106525029b388608e39a5d2366d782c498 perf annotate: Add --insn-stat option for debugging
 
---===============3184899477482044647==--
+--===============1859147319136585729==--
