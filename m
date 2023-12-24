@@ -1,26 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 24 Dec 2023 19:16:33 -0000
-Message-Id: <170344539340.526.1145489144817406223@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
+Date: Sun, 24 Dec 2023 19:34:26 -0000
+Message-Id: <170344646665.11559.17115596671075410713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/libs/libtrace/libtraceevent
+user: rostedt
 changes:
-  - ref: refs/heads/next
-    old: 3c39ebd348c7c6e820794134ff0315533eff393b
-    new: ac99b01fc81257a2e66775540716e909066ae376
+  - ref: refs/heads/libtraceevent
+    old: dd148189b74da3e2f45c7e536319fec97cb71213
+    new: 7a4d5b2425206207e8aed35652b7a2d00109ca66
     log: |
-         1b966f7524f13e963d36e653430f547f937722dc _damon_records: Rename recording functions
-         b4c3b4f2573c2a956bc096e7066d8e7a08c8d68e damo_status: Fix typo
-         60528411c12870b32a21968c0e34602d69f3f47b damo_reclaim: Read 'skip_anon' parameter
-         58cff7464cc94ff6c5d99878b4de81d14cd00d4f damo_reclaim: Support skip_anon writing
-         d87841c76c1847fe48af4ac34fb7c7b53d03dba4 README: Wordsmith
-         5ba534ef34e8f2502af2521a28d08d4be97185d7 CONTRIBUTING: Wordsmith
-         61028f3be0013a068e8220b761ee71dc45e66f98 TODO: Update
-         ac99b01fc81257a2e66775540716e909066ae376 release_note: Update
+         a496a3925f8224d9fa07f26f6f8e81de45e41d92 libtraceevent: Add tep_record_is_event() API
+         5b893850d20f8e4377dcdf66089d60e2559b4b26 libtraceevent: Add option to disable documentation
+         9b2e543f91f7b49f5900b55eb4558bf083b2f163 libtraceevent: sync state char array with the kernel
+         4be92aa3f1f1130787008dbcd60eb093c5939b0e libtraceevent: Bump meson version to >=0.58.0
+         3152506f546ff760b93b7c13bf43fa93b8547276 libtraceevent plugins: Parse sched_switch "prev_state" field for state info
+         afead9a7df92770eff62275b9336c497c3d25767 libtraceevent: Add tep_get_sub_buffer_commit_offset()
+         014ca2413d0d3a1d6454218c5a17374b335ffb1b libtraceevent: Fix tep_kbuffer() to have kbuf assign long_size
+         058211897ea394311801335a3bc6d6679b9cf39e kbuffer: Add kbuffer_read_buffer()
+         f6bdff749f1e942f91952a9366f9be769d4e50ca kbuffer: Add kbuffer_dup()
+         33bad32779279a68b69f2f78ecdda0bce3a019bf kbuffer: Add kbuffer_subbuffer() API
+         7a4d5b2425206207e8aed35652b7a2d00109ca66 kbuffer: Add kbuffer_refresh() API
          
