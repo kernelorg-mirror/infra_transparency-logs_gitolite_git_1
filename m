@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8398188630104617824=="
+Content-Type: multipart/mixed; boundary="===============3111978128763599746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sun, 24 Dec 2023 15:30:06 -0000
-Message-Id: <170343180683.2613.505941907125290567@gitolite.kernel.org>
+Date: Sun, 24 Dec 2023 15:31:16 -0000
+Message-Id: <170343187638.3122.18413510071680804082@gitolite.kernel.org>
 
---===============8398188630104617824==
+--===============3111978128763599746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.netfs
-    old: a70bcb604ff4bfa3b8f1798f4fe8d4814e862b4b
-    new: 3a91e29efc6400273051e3b5e532ec9433aa6196
-    log: revlist-a70bcb604ff4-3a91e29efc64.txt
+  - ref: refs/heads/vfs.all
+    old: 219d327246ba293f9bc92513a9b498bf49b77a2b
+    new: 9963718ce46ab23eb0a795e75d5fdcbac2676769
+    log: revlist-219d327246ba-9963718ce46a.txt
 
---===============8398188630104617824==
+--===============3111978128763599746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a70bcb604ff4-3a91e29efc64.txt
+Content-Disposition: attachment; filename=revlist-219d327246ba-9963718ce46a.txt
 
 a790c2584c02c5ce60db07ab601d55b7f539db34 afs: Remove whitespace before most ')' from the trace header
 2daa6404fd2f00985d5bfeb3c161f4630b46b6bf afs: Automatically generate trace tag enums
@@ -67,5 +67,12 @@ a1b2feef1a60620d15c80a1fcfe12bdf3c3df920 netfs: Implement a write-through cachin
 5053b844aebc29c1569a2e63d35e72d5b08a3b85 afs: Use the netfs write helpers
 41a06e5462b4e969b1c3d4fb25023461581b70e1 9p: Use netfslib read/write_iter
 3a91e29efc6400273051e3b5e532ec9433aa6196 Merge tag 'netfs-lib-20231224-2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+500d1f501eaa19708bcd35257e5f8886083dd6e0 Merge branch 'vfs.misc' into vfs.all
+fc41b89ef18c1928f91764c327df0b91b445a0b3 Merge branch 'vfs.super' into vfs.all
+6fb0d7bdc8e5930fb834ba344fdf2e1a430e6b57 Merge branch 'vfs.mount' into vfs.all
+8bbb0c062452ff8c8faf204e53097903a2694a4b Merge branch 'vfs.rw' into vfs.all
+d74e1a74215d4264b2da4c4de8b8b14e72744e57 Merge branch 'vfs.cachefiles' into vfs.all
+8df42bfcaca3a42c14b3b47158a29d1ba8a22816 Merge branch 'vfs.iov_iter' into vfs.all
+9963718ce46ab23eb0a795e75d5fdcbac2676769 Merge branch 'vfs.netfs' into vfs.all
 
---===============8398188630104617824==--
+--===============3111978128763599746==--
