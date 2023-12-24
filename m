@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0261706737702013707=="
+Content-Type: multipart/mixed; boundary="===============6842246142567772466=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 24 Dec 2023 17:22:29 -0000
-Message-Id: <170343854985.16939.7559725654280757901@gitolite.kernel.org>
+Date: Sun, 24 Dec 2023 17:22:55 -0000
+Message-Id: <170343857535.17155.6379238526245659979@gitolite.kernel.org>
 
---===============0261706737702013707==
+--===============6842246142567772466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 9637daa85f6968fafb84d2d74f7c3830e4ce5c43
-    new: 858e6b4178f88f3a464f864ec5950023ac7e0bbb
-    log: revlist-9637daa85f69-858e6b4178f8.txt
+  - ref: refs/heads/svcrdma-next
+    old: 8aca7134f4a975a5098dfbfabf6f7c29f12a6d5d
+    new: 5189488d4c2897b19ce6f4478a7e61bd4957e781
+    log: revlist-8aca7134f4a9-5189488d4c28.txt
 
---===============0261706737702013707==
+--===============6842246142567772466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9637daa85f69-858e6b4178f8.txt
+Content-Disposition: attachment; filename=revlist-8aca7134f4a9-5189488d4c28.txt
 
 c1f342f35f820b33390571293498c3e2e9bc77ec Input: psmouse - enable Synaptics InterTouch for ThinkPad L14 G1
 92bfa4ab1b79be95c4f52d13f5386390f0a513c2 iio: kx022a: Fix acceleration value scaling
@@ -389,5 +389,13 @@ c6e77f740d5953b017a165b05f5b917325550233 svcrdma: Clean up comment in svc_rdma_a
 d3cc3ce8667c92479f0f63e892443463a433e42c svc: don't hold reference for poolstats, only mutex.
 a7b80d5d22eb43370bf972bfbfff36fcd191ef8d SUNRPC: discard sv_refcnt, and svc_get/svc_put
 858e6b4178f88f3a464f864ec5950023ac7e0bbb nfsd: rename nfsd_last_thread() to nfsd_destroy_serv()
+063bc47644342e555f9ab5024f1e4417225e8b05 svcrdma: Fix SQ wake-ups
+9ef9f38c46dc62e4475267318f891bb94a835c78 svcrdma: Prevent a UAF in svc_rdma_send()
+5ee4a78480d7d98fee3b8c04cddd927364cb5e38 svcrdma: Fix retry loop in svc_rdma_send()
+5164cb79c0e6eeb129df0fda438a18f511cdfda1 svcrdma: Post Send WR chain
+ca2383e933b0e1133c01f0ea17be5751b60cf644 svcrdma: Move write_info for Reply chunks into struct svc_rdma_send_ctxt
+097b1998a779173c7c035234e365904348bb81f4 svcrdma: Post the Reply chunk and Send WR together
+39c7a7cffb6a0ca5514edd270f27626783bad788 svcrdma: Post WRs for Write chunks in svc_rdma_sendto()
+5189488d4c2897b19ce6f4478a7e61bd4957e781 svcrdma: Add Write chunk WRs to the RPC's Send WR chain
 
---===============0261706737702013707==--
+--===============6842246142567772466==--
