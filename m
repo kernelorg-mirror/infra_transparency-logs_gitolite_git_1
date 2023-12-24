@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 24 Dec 2023 19:11:24 -0000
-Message-Id: <170344508455.29220.2800295652733218554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 24 Dec 2023 19:16:33 -0000
+Message-Id: <170344539340.526.1145489144817406223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/damo
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: 5ee1c22c7fa048b4363e71904785c4bbc52e6780
-    new: b52b892864eb06c6235d9c55eb9c06aa8959be4e
+  - ref: refs/heads/next
+    old: 3c39ebd348c7c6e820794134ff0315533eff393b
+    new: ac99b01fc81257a2e66775540716e909066ae376
     log: |
-         356014b28900b57aed04e66b903f1628cb88a956 format_patch: Add suggested recipients in correct position
-         b3513dabd77ffc25baf982aa7e2019a8c92cb1df format_patch: Cc David Gow for kunit test patches
-         b52b892864eb06c6235d9c55eb9c06aa8959be4e format_patch: Put recipients to correct position of coverletter
+         1b966f7524f13e963d36e653430f547f937722dc _damon_records: Rename recording functions
+         b4c3b4f2573c2a956bc096e7066d8e7a08c8d68e damo_status: Fix typo
+         60528411c12870b32a21968c0e34602d69f3f47b damo_reclaim: Read 'skip_anon' parameter
+         58cff7464cc94ff6c5d99878b4de81d14cd00d4f damo_reclaim: Support skip_anon writing
+         d87841c76c1847fe48af4ac34fb7c7b53d03dba4 README: Wordsmith
+         5ba534ef34e8f2502af2521a28d08d4be97185d7 CONTRIBUTING: Wordsmith
+         61028f3be0013a068e8220b761ee71dc45e66f98 TODO: Update
+         ac99b01fc81257a2e66775540716e909066ae376 release_note: Update
          
