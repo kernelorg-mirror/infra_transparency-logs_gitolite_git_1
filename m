@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2329436770944878011=="
+Content-Type: multipart/mixed; boundary="===============6054576964712901630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Sun, 24 Dec 2023 14:06:42 -0000
-Message-Id: <170342680221.6878.11401819892406746517@gitolite.kernel.org>
+Date: Sun, 24 Dec 2023 14:06:55 -0000
+Message-Id: <170342681593.7130.14982580053904388546@gitolite.kernel.org>
 
---===============2329436770944878011==
+--===============6054576964712901630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 4793563f5c70653261c58f1bfb7d71efe7e797fe
-    new: f138f8dbee0adb2e0fb09487cda096b54934254b
-    log: revlist-4793563f5c70-f138f8dbee0a.txt
+  - ref: refs/heads/m68k-queue
+    old: 9dcb0b2b719b6db082d537caddced95b19151101
+    new: c236c386cf3d1f254e8a48c59ffef481ac1e337f
+    log: revlist-9dcb0b2b719b-c236c386cf3d.txt
 
---===============2329436770944878011==
+--===============6054576964712901630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4793563f5c70-f138f8dbee0a.txt
+Content-Disposition: attachment; filename=revlist-9dcb0b2b719b-c236c386cf3d.txt
 
 c1f342f35f820b33390571293498c3e2e9bc77ec Input: psmouse - enable Synaptics InterTouch for ThinkPad L14 G1
 92bfa4ab1b79be95c4f52d13f5386390f0a513c2 iio: kx022a: Fix acceleration value scaling
@@ -330,6 +330,8 @@ a0652eb205b7ac13429d63bcc42806115d393632 Merge tag 'char-misc-6.7-rc7' of git://
 f969c91482e1dedbb35aee4e7d32d13ed17f9e13 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 3f82f1c3a03694800a4104ca6b6d3282bd4e213d Merge tag 'x86-urgent-2023-12-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 861deac3b092f37b2c5e6871732f3e11486f7082 Linux 6.7-rc7
-f138f8dbee0adb2e0fb09487cda096b54934254b Merge tag 'v6.7-rc7'
+dfdc9592df671a4e6488e7653a2bf7984121cc89 m68k: atari: usb: Add ISP1160 USB host controller support
+033561ddc98f6d6bcac518043458df9eceba5986 m68k: atari: Update Kconfig.bus help text
+c236c386cf3d1f254e8a48c59ffef481ac1e337f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2329436770944878011==--
+--===============6054576964712901630==--
