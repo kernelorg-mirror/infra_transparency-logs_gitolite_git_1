@@ -1,35 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2450736903994659983=="
+Content-Type: multipart/mixed; boundary="===============1825960690954357003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sun, 24 Dec 2023 02:08:07 -0000
-Message-Id: <170338368749.4882.14328531133595914147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sun, 24 Dec 2023 02:08:40 -0000
+Message-Id: <170338372090.5138.17555486560307585958@gitolite.kernel.org>
 
---===============2450736903994659983==
+--===============1825960690954357003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 7887097c65446ff229099221975f6fc9ad9e378b
+  - ref: refs/heads/tmp.perf-tools-next
+    old: fb6405106525029b388608e39a5d2366d782c498
     new: 58824fa0087e1cb732edbf1f112a5ea0b2205c8b
-    log: revlist-7887097c6544-58824fa0087e.txt
+    log: revlist-fb6405106525-58824fa0087e.txt
 
---===============2450736903994659983==
+--===============1825960690954357003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7887097c6544-58824fa0087e.txt
+Content-Disposition: attachment; filename=revlist-fb6405106525-58824fa0087e.txt
 
-457caadce7ab71a54ee2d4f032ee4a55b4a28776 perf vendor events: Remove UTF-8 characters from cmn.json
-ac254dfb983deb7840bc7267418d1ae231f5694f perf vendor events powerpc: Add PVN for HX-C2000 CPU with Power8 Architecture
-60cb19b485a534a896431393a877d853bbe51b67 perf dwarf-aux: Factor out die_get_typename_from_type()
-3eee606757ad82f32332a2da174aa032bfd9cc32 perf dwarf-regs: Add get_dwarf_regnum()
 b9c87f536c6f28c75ace8a014646faad00f0e1ec perf annotate-data: Add find_data_type() to get type from memory access
 fc044c53b99fad039ac30b95b289992ebf7dd6b4 perf annotate-data: Add dso->data_types tree
 0669729eb0afb0cf55fe1b97d7a8b1315354910f perf annotate: Factor out evsel__get_arch()
@@ -46,4 +42,4 @@ e2c1c8ff2d2ffec340b8fc73ee13b8fb516d1c6d perf report: Add 'symoff' sort key
 61a9741e9f78c64c5178e4ae9d405eeceff04c8f perf annotate: Add --type-stat option for debugging
 58824fa0087e1cb732edbf1f112a5ea0b2205c8b perf annotate: Add --insn-stat option for debugging
 
---===============2450736903994659983==--
+--===============1825960690954357003==--
