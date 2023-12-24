@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
-Date: Sun, 24 Dec 2023 19:57:29 -0000
-Message-Id: <170344784947.29026.204975628079600638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Sun, 24 Dec 2023 20:53:43 -0000
+Message-Id: <170345122314.3693.5300688749401847903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtraceevent
-user: rostedt
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/libtraceevent
-    old: 7a4d5b2425206207e8aed35652b7a2d00109ca66
-    new: 8cf5315f7f22fccc6083fcef1f9ec01d52106371
+  - ref: refs/heads/dev
+    old: ea67677dbb0d30b993b15790d6cee24c900dd597
+    new: f1bb47a31dff6d4b34fb14e99850860ee74bb003
     log: |
-         8cf5315f7f22fccc6083fcef1f9ec01d52106371 libtraceevent: 1.8
+         f1bb47a31dff6d4b34fb14e99850860ee74bb003 lsm: new security_file_ioctl_compat() hook
+         
+  - ref: refs/heads/next
+    old: ea67677dbb0d30b993b15790d6cee24c900dd597
+    new: f1bb47a31dff6d4b34fb14e99850860ee74bb003
+    log: |
+         f1bb47a31dff6d4b34fb14e99850860ee74bb003 lsm: new security_file_ioctl_compat() hook
          
