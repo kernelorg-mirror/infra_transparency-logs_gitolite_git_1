@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6249160266789152506=="
+Content-Type: multipart/mixed; boundary="===============8988217497817743358=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sun, 24 Dec 2023 13:52:22 -0000
-Message-Id: <170342594230.29323.5993115522039311528@gitolite.kernel.org>
+Date: Sun, 24 Dec 2023 13:56:25 -0000
+Message-Id: <170342618554.32337.14722121835356670075@gitolite.kernel.org>
 
---===============6249160266789152506==
+--===============8988217497817743358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.netfs
-    old: 2fb9a0badbf10dd0335c38703489cb8e2b5cf3ef
-    new: a70bcb604ff4bfa3b8f1798f4fe8d4814e862b4b
-    log: revlist-2fb9a0badbf1-a70bcb604ff4.txt
+  - ref: refs/heads/vfs.all
+    old: a6fe3ee7416871a553cc8043ff33c14a1b1cd8d4
+    new: 219d327246ba293f9bc92513a9b498bf49b77a2b
+    log: revlist-a6fe3ee74168-219d327246ba.txt
 
---===============6249160266789152506==
+--===============8988217497817743358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2fb9a0badbf1-a70bcb604ff4.txt
+Content-Disposition: attachment; filename=revlist-a6fe3ee74168-219d327246ba.txt
 
 c1f342f35f820b33390571293498c3e2e9bc77ec Input: psmouse - enable Synaptics InterTouch for ThinkPad L14 G1
 92bfa4ab1b79be95c4f52d13f5386390f0a513c2 iio: kx022a: Fix acceleration value scaling
@@ -163,5 +163,12 @@ f969c91482e1dedbb35aee4e7d32d13ed17f9e13 Merge tag 'scsi-fixes' of git://git.ker
 3f82f1c3a03694800a4104ca6b6d3282bd4e213d Merge tag 'x86-urgent-2023-12-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 861deac3b092f37b2c5e6871732f3e11486f7082 Linux 6.7-rc7
 a70bcb604ff4bfa3b8f1798f4fe8d4814e862b4b Merge tag 'netfs-lib-20231222' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+8e9a2a937f63126f8b171ee398e14b392ea22c6f Merge branch 'vfs.misc' into vfs.all
+8ff946d37fd22c9651fc2e1fd25e099444cf7b1f Merge branch 'vfs.super' into vfs.all
+69c442cf7bf56d51a7c9a09226834969f1f6b583 Merge branch 'vfs.mount' into vfs.all
+955905b54fda9f835516d5e44e37835f2958b034 Merge branch 'vfs.rw' into vfs.all
+95790b5d02326c966b3a94d43830efb8cf4f2c1c Merge branch 'vfs.cachefiles' into vfs.all
+0732586c96b04113e40bd40a56f84fa3d0220565 Merge branch 'vfs.iov_iter' into vfs.all
+219d327246ba293f9bc92513a9b498bf49b77a2b Merge branch 'vfs.netfs' into vfs.all
 
---===============6249160266789152506==--
+--===============8988217497817743358==--
