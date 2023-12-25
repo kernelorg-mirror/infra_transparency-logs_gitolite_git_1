@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2460955487924594498=="
+Content-Type: multipart/mixed; boundary="===============8849928171970155648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 25 Dec 2023 06:28:45 -0000
-Message-Id: <170348572583.2975.5406245188656566137@gitolite.kernel.org>
+Date: Mon, 25 Dec 2023 06:29:38 -0000
+Message-Id: <170348577807.3332.5680598484841379210@gitolite.kernel.org>
 
---===============2460955487924594498==
+--===============8849928171970155648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/master
-    old: b85ea95d086471afb4ad062012a4d73cd328fa86
+  - ref: refs/heads/linux-next
+    old: 93cd0597649844a0fe7989839a3202735fb3ae67
     new: 861deac3b092f37b2c5e6871732f3e11486f7082
-    log: revlist-b85ea95d0864-861deac3b092.txt
+    log: revlist-93cd05976498-861deac3b092.txt
 
---===============2460955487924594498==
+--===============8849928171970155648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b85ea95d0864-861deac3b092.txt
+Content-Disposition: attachment; filename=revlist-93cd05976498-861deac3b092.txt
 
+dc761f11af2e39119d3a7942e3d10615f3d900e7 ARM: dts: bcm2711-rpi-400: Fix delete-node of led_act
 e9ba37d9f9a6872b069dd893bd86a7d77ba8c153 nouveau: find the smallest page allocation to cover a buffer alloc.
 45b7955b774f82680db71f460fa01bfcdaaeb514 nouveau/gsp/r535: remove a stray unlock in r535_gsp_rpc_send()
 52fdb99cc436014a417750150928c8ff1f69ae66 nouveau/gsp: replace zero-length array with flex-array member and use __counted_by
@@ -1003,7 +1004,6 @@ eee7f5b48e20c585dc8069b3ab8abdcabd0afded Merge tag '6.7-rc6-smb3-client-fixes' o
 a4aebe936554dac6a91e5d091179c934f8325708 posix-timers: Get rid of [COMPAT_]SYS_NI() uses
 7cb8cd4daacfea646cf8b5925ca2c66c98b18480 net: ethernet: mtk_wed: fix possible NULL pointer dereference in mtk_wed_wo_queue_tx_clean()
 d6e5794b06c0fab74fe6e4fa55d508a5ceb14735 net: avoid build bug in skb extension length calculation
-93cd0597649844a0fe7989839a3202735fb3ae67 x86/xen: add CPU dependencies for 32-bit build
 b414020fed42b274946aae28becf45ff156bbd2e Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 dade3f6a1e4e35a5ae916d5e78b3229ec34c78ec net/ipv6: Revert remove expired routes with a separated list of routes
 513d88a88e0203188a38f4647dd08170aebd85df USB: serial: ftdi_sio: update Actisense PIDs constant names
@@ -1051,4 +1051,4 @@ f969c91482e1dedbb35aee4e7d32d13ed17f9e13 Merge tag 'scsi-fixes' of git://git.ker
 3f82f1c3a03694800a4104ca6b6d3282bd4e213d Merge tag 'x86-urgent-2023-12-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 861deac3b092f37b2c5e6871732f3e11486f7082 Linux 6.7-rc7
 
---===============2460955487924594498==--
+--===============8849928171970155648==--
