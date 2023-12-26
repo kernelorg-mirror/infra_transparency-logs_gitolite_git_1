@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 26 Dec 2023 20:29:55 -0000
-Message-Id: <170362259537.27607.5868292258059573519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 26 Dec 2023 20:31:19 -0000
+Message-Id: <170362267936.29814.18299729857652331296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: dff90e4a092b771354287fbe55e557467c9da620
-    new: 0ee2384a5a0f3b4eeac8d10bb01a0609d245a4d1
+    old: e3eb47f2347b8cfae9de4a9a6fdddec79554652c
+    new: b1dffcf0da221d1f9d8007dfa2a41a325921d7fa
     log: |
-         0ee2384a5a0f3b4eeac8d10bb01a0609d245a4d1 octeontx2-af: Fix marking couple of structure as __packed
+         8e5443d2b8664b6a036b38b9d035eece9dfe6554 net: remove SOCK_DEBUG leftovers
+         b1dffcf0da221d1f9d8007dfa2a41a325921d7fa net: remove SOCK_DEBUG macro
          
