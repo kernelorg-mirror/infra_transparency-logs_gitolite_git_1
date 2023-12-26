@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2243463550414904505=="
+Content-Type: multipart/mixed; boundary="===============0754532240694610595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Tue, 26 Dec 2023 02:23:05 -0000
-Message-Id: <170355738522.23085.6275206855322775691@gitolite.kernel.org>
+Date: Tue, 26 Dec 2023 02:23:29 -0000
+Message-Id: <170355740962.23326.7282244228430529124@gitolite.kernel.org>
 
---===============2243463550414904505==
+--===============0754532240694610595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 046c659a0d2acc41e4599c3f1e9785f1257ca4e2
-    new: f22b8e47aef398de1d8912e5513c1e0badaf7912
-    log: revlist-046c659a0d2a-f22b8e47aef3.txt
+  - ref: refs/heads/exynos-drm-next
+    old: 6aaff21547a08e5a151fbf7a3f7be5a68877d9e3
+    new: 92242716ee92d2aa3c38c736b53d8910d443566d
+    log: revlist-6aaff21547a0-92242716ee92.txt
 
---===============2243463550414904505==
+--===============0754532240694610595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-046c659a0d2a-f22b8e47aef3.txt
+Content-Disposition: attachment; filename=revlist-6aaff21547a0-92242716ee92.txt
 
+2c33b49a6e6f8e176735eaca9ec6170478e0a426 drm/xe: enforce GSMBASE for DG1 instead of BAR2
+d8731500721d5ae26819de36c63921f4baaafe00 drm/xe/pcode: fix pcode error check
+760f168db30a5c06893e87c88f25cd3578a8453a drm/xe: fix xe_mmio_total_vram_size
+4aa18ae44686144c5c5d29113d6e2c5c3ebb349d drm/xe/ggtt: Use BIT_ULL() for 64bit
 857912c37ea786715e03b5bf25db07e28fc2ba73 drm/xe: Fix some log messages on 32b
 9a6e6c14bfde967fca5a052cbee206d0b6169a1e drm/xe/mmio: Use non-atomic writeq/readq variant for 32b
 ebec269c522fc9bb48d11b65456b01adbdecb97d drm/xe: Fix tracepoints on 32b
@@ -1046,9 +1050,5 @@ d2197029026021ea4bc68475e5abef2213c8b01c Merge tag 'drm-xe-next-2023-12-21-pr1-1
 ea97a66a221893fb9b4d96688e759d1db2d6e683 drm/xe: Disable 32bits build
 dc83fb6e38fe5a507b4d714a5dfb0902790c3b3f Merge tag 'drm-misc-next-fixes-2023-12-21' of git://anongit.freedesktop.org/drm/drm-misc into drm-next
 92242716ee92d2aa3c38c736b53d8910d443566d Merge tag 'drm-habanalabs-next-2023-12-19' of https://git.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into drm-next
-a0585d90bb8a5c3bcdd201c835d9811dbebd98c4 dt-bindings: display: samsung,exynos-mixer: Fix 'regs' typo
-2d8ed1634ccba0e2fde91b3948bffdfee0541f90 drm/exynos: fix incorrect type issue
-5ea5709b1ac2e57d967aabbb01e666a049406037 drm/exynos: fix accidental on-stack copy of exynos_drm_plane
-f22b8e47aef398de1d8912e5513c1e0badaf7912 drm/exynos: gsc: minor fix for loop iteration in gsc_runtime_resume
 
---===============2243463550414904505==--
+--===============0754532240694610595==--
