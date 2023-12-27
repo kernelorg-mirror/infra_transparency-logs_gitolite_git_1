@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Wed, 27 Dec 2023 21:12:33 -0000
-Message-Id: <170371155330.29315.12184177794645866130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 27 Dec 2023 22:10:26 -0000
+Message-Id: <170371502649.5992.2876641621888041655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/tags/for_linus
-    old: f59a974385c097bed040d537ff46c355af19d559
-    new: 3d2ea78d63fe95e2a1a625996c84d22badd411ad
+  - ref: refs/heads/master
+    old: 76d28c94eb7afe52722a93e7d10b87f075bf6d2d
+    new: 62437e9a1b719a0788783e9e71f06cf4e599140f
     log: |
-         c1b9f2c66eed3261db76cccd8a22a9affae8dcbf vdpa: Fix an error handling path in eni_vdpa_probe()
-         ab78ffe1ff7d17102972348bb9b1a16ec2696a2b vhost-vdpa: account iommu allocations
+         62437e9a1b719a0788783e9e71f06cf4e599140f foo
          
