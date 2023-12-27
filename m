@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7127506486041967298=="
+Content-Type: multipart/mixed; boundary="===============7054417935813918524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 27 Dec 2023 17:03:41 -0000
-Message-Id: <170369662118.13837.11221190760456010557@gitolite.kernel.org>
+Date: Wed, 27 Dec 2023 17:04:19 -0000
+Message-Id: <170369665992.14169.10211306393556297754@gitolite.kernel.org>
 
---===============7127506486041967298==
+--===============7054417935813918524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: e9301af385e7864dea353f5e58cad7339dd6c718
-    new: 3fb65f6bc7dc19ce32efd4ea26cd0f59ac328ad5
-    log: revlist-e9301af385e7-3fb65f6bc7dc.txt
+  - ref: refs/heads/dev-queue
+    old: eee1c3b2d0597bfdc5902813087d4a80071b700e
+    new: 6008cff94c0fd287f94e6d9f83616aaa5368029b
+    log: revlist-eee1c3b2d059-6008cff94c0f.txt
 
---===============7127506486041967298==
+--===============7054417935813918524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9301af385e7-3fb65f6bc7dc.txt
+Content-Disposition: attachment; filename=revlist-eee1c3b2d059-6008cff94c0f.txt
 
 ac053a169c71ceb0f25f784fce9ea720455097b4 net/smc: rename some 'fce' to 'fce_v2x' for clarity
 5205ac4483b630e47c65f192a3ac19be7a8ea648 net/smc: introduce sub-functions for smc_clc_send_confirm_accept()
@@ -63,5 +63,42 @@ a868b486cb886ef73c9b4f77b8103669c83a4515 net: phy: nxp-c45-tja11xx: add MACsec s
 dc1a00380aa6cc24dc3709ee50a22d1e24cd3673 net: phy: nxp-c45-tja11xx: implement mdo_insert_tx_tag
 2f7ccf1d8835975a92fae7704fa73cb2e49bc12f Merge branch 'net-tja11xx-macsec-support'
 3fb65f6bc7dc19ce32efd4ea26cd0f59ac328ad5 net: pktgen: Use wait_event_freezable_timeout() for freezable kthread
+95e256f3a6f52d92e309317c9ab5057687d0f9f8 i40e: Fix waiting for queues of all VSIs to be disabled
+d1cb0c9d3196953edc47f74f6d7f2e083dfd62d1 i40e: Fix wrong mask used during DCB config
+02036e36d88f8ed8ffcdff5dac0d4ccd579302b0 i40e: Use existing helper to find flow director VSI
+dbbda82a2deecb06a26761b245a4d5748070dd1e i40e: Introduce and use macros for iterating VSIs and VEBs
+6aa8eb4dfc7f71bf0925dbde34437cc186e2f723 i40e: Add helpers to find VSI and VEB by SEID and use them
+b1fc31cd1f60187b56dfcf4078ebd17dfa3ffe3a i40e: Fix broken support for floating VEBs
+f6308d42f938b4fcbab6e6452391d2087ab1fc85 i40e: Remove VEB recursion
+0586a4e0940f3ebd9aadabe63ff7a64f226b3dfd i40e: Fix filter input checks to prevent config with invalid values
+7b51c89a0ffff6a9478adf4732abfc2e36d20897 ice: replace ice_vf_recreate_vsi() with ice_vf_reconfig_vsi()
+287a72e00336b10a6809444b231b9b356ef0162e ice: Schedule service task in IRQ top half
+297915c4d1b21666b3c1226f29282c0091c6bdff ice: Enable SW interrupt from FW for LL TS
+c1dbb13d8ea9f1dbc037c3e9b7c647305b05cd19 i40e: Fix VF disable behavior to block all traffic
+bd73a61f2624e5f380901f8d1faac98457f7c226 igc: Report VLAN EtherType matching back to user
+f3c93b9564adc922309d3800bc472918da7ea530 igc: Check VLAN TCI mask
+9390b1b96e0de764e26c80d537016d96b3357a56 ice: ice_base.c: Add const modifier to params and vars
+b6c0a88f426f4cc7d23acd494af18794feffedd6 igc: Check VLAN EtherType mask
+e71acec931b68e783de3f5ee888ef1109fa39a87 ice: remove rx_len_errors statistic
+3e18b22badf2b4deff447312d866fea307548a68 ice: introduce new E825C devices family
+fe1c8244e6976c71152e811639aabbb864d60d16 ice: Add helper function ice_is_generic_mac
+fc710a56ba7a348244611174e25beb8a5bcb5910 ice: add support for 3k signing DDP sections for E825C
+cbc9d76b38463cbabc926622d6aa392709235b13 igc: Fix hicredit calculation
+138538027410e4da7fb03025b5859745ce320744 idpf: fix corrupted frames and skb leaks in singleq mode
+98b373e6d9395d31f89c89e0645187a1383fa60c ixgbe: report link state for VF devices
+6405fb59beb34893aa967db7c8cac8ad0b83c1bf ice: Add support for devlink loopback param.
+437f20f0952f5106ad7304e5420da904bfc01a68 ice: Fix some null pointer dereference issues in ice_ptp.c
+8841488093fb37757e01758119d2ec91a6c80d8d ice: Add support for packet mirroring using hardware in switchdev mode
+961b6692efc87214df5d28e47e01d4229873a9d9 e1000e: correct maximum frequency adjustment values
+bf258bd660cfd3e68faa107822f1c8d3eb99e19d ice: Fix link_down_on_close message
+a62247cbacf31f791a6551fa2f7d64b5732cd5b4 ice: Shut down VSI with "link-down-on-close" enabled
+a5c3202c83e89d242308b70cf17045fe28290e6b idpf: avoid compiler introduced padding in virtchnl2_rss_key struct
+d2cf91622f37a19c8f6b8047d04c88e7f12b7b9b i40e: fix use-after-free in i40e_aqc_add_filters()
+c60156ed16bec41eb678e709d00fd62970d43ff1 ice: dpll: fix phase offset value
+29fd24f28247a79820050f65fc03600e865d6e1b i40e: Avoid unnecessary use of comma operator
+8e922f7d882cbd1bb2527adaa715cf2196899c21 ixgbe: Refactor overtemp event handling
+504cad5328d472cc36bbb5b54b51acb095c7c903 ixgbe: Refactor returning internal error codes
+a3f823c96f6cdcb85c1bbf4a7ea977c2b4631d8f i40e: Restore VF MSI-X state during PCI reset
+6008cff94c0fd287f94e6d9f83616aaa5368029b ice: fix Get link status data length
 
---===============7127506486041967298==--
+--===============7054417935813918524==--
