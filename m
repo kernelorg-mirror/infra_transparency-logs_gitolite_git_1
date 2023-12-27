@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Wed, 27 Dec 2023 12:17:06 -0000
-Message-Id: <170367942696.5236.7845669795104586257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 27 Dec 2023 12:32:12 -0000
+Message-Id: <170368033227.15299.15726582850876434252@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/network/wireless/iwd
+user: holtmann
 changes:
-  - ref: refs/heads/for-next
-    old: f8ca24ce2ba173029b793d6da1dfa05324520f89
-    new: e345b87b0b0444d1c644b0ea15cfb50e88f10b55
+  - ref: refs/heads/master
+    old: 390fd58cad96f3f3d1cc2a4e43d6815b9db08f75
+    new: a938313cbac621546eae15a0a85e99d347a13e8c
     log: |
-         5a7a964689b78be5817f14409619fded6882821d gfs2: Minor gfs2_{freeze,thaw}_super cleanup
-         4e58543e7da4859c4ba61d15493e3522b6ad71fd gfs2: Refcounting fix in gfs2_thaw_super
-         e345b87b0b0444d1c644b0ea15cfb50e88f10b55 gfs2: Fix freeze consistency check in log_write_header
+         a938313cbac621546eae15a0a85e99d347a13e8c Release 2.12
          
