@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
-Date: Wed, 27 Dec 2023 03:33:26 -0000
-Message-Id: <170364800664.8349.7284262689924818119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/linux
+Date: Wed, 27 Dec 2023 04:56:15 -0000
+Message-Id: <170365297516.3548.6776414423925492692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wens/wireless-regdb
-user: wens
+repo: pub/scm/fs/fscrypt/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 8c784a10448e36dc387fe02ae6bf69f4ae0208d2
-    new: 149c709aa510fa3fb6e98d8f30f9698ff19c26d9
+  - ref: refs/heads/for-next
+    old: 0fc24a6549f9b6efc538b67a098ab577b1f9a00e
+    new: c1f1f5bf413936a93fea0f920e9aafff3551ad56
     log: |
-         149c709aa510fa3fb6e98d8f30f9698ff19c26d9 wireless-regdb: Update regulatory rules for Japan (JP) for December 2023
+         c1f1f5bf413936a93fea0f920e9aafff3551ad56 fscrypt: document that CephFS supports fscrypt now
          
