@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Wed, 27 Dec 2023 04:56:15 -0000
-Message-Id: <170365297516.3548.6776414423925492692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
+Date: Wed, 27 Dec 2023 07:40:06 -0000
+Message-Id: <170366280691.22818.2748158613694450730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/wens/wireless-regdb
+user: wens
 changes:
-  - ref: refs/heads/for-next
-    old: 0fc24a6549f9b6efc538b67a098ab577b1f9a00e
-    new: c1f1f5bf413936a93fea0f920e9aafff3551ad56
-    log: |
-         c1f1f5bf413936a93fea0f920e9aafff3551ad56 fscrypt: document that CephFS supports fscrypt now
-         
+  - ref: refs/notes/signatures/tar
+    old: 0000000000000000000000000000000000000000
+    new: dbe97015b36b19a25d2bc9c7f91710fa9e000609
