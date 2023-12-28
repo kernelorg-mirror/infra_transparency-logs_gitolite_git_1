@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8584768659230775994=="
+Content-Type: multipart/mixed; boundary="===============0186366640827155634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 28 Dec 2023 09:48:44 -0000
-Message-Id: <170375692439.15446.16798440093855535019@gitolite.kernel.org>
+Date: Thu, 28 Dec 2023 09:49:10 -0000
+Message-Id: <170375695047.15644.236006603867078957@gitolite.kernel.org>
 
---===============8584768659230775994==
+--===============0186366640827155634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,38 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 8be0c877fb3b671dac0cf56d1f1f9e65f9a9fb81
-    new: 1760bfa7d7ca490cf8a61fe50ddeb1769cadd89e
-    log: |
-         1760bfa7d7ca490cf8a61fe50ddeb1769cadd89e usb: linux/usb.h: fix Excess kernel-doc description warning
-         
+  - ref: refs/tags/usb-6.7-rc7
+    old: 7dcc1cb5ce40b7c86d3948b76da9b8c2119cd3fa
+    new: 0000000000000000000000000000000000000000
 
---===============8584768659230775994==
+--===============0186366640827155634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1703756923 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1703756949 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1703756923-20231d10504499b8c3d86fa7dc821f00df0cf7ac
+nonce 1703756949-dfe711e17f0f6caf25e39fb96f345e6adadfaee3
 
-8be0c877fb3b671dac0cf56d1f1f9e65f9a9fb81 1760bfa7d7ca490cf8a61fe50ddeb1769cadd89e refs/heads/usb-next
+7dcc1cb5ce40b7c86d3948b76da9b8c2119cd3fa 0000000000000000000000000000000000000000 refs/tags/usb-6.7-rc7
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWNRHsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q0gQAI0GHmoAprqUEda8WbKh
-E2LqgvyEfHfxOac6j+9JUvj06+2klMW+8wX+e/zPf+zDPwfzWxFIUNGBJK/GYdH5
-IvxksfIDQTYggg0crC+qbmgz9y9wCmII1zN0AZavdX4Zua5iyzz3IvZiLIus3uZL
-AwPnHHF1YIImgIVhWybSl2/l+ok/K/E1vuUCKn87LYj6gKUggiCm8DWt/gxXt4Vs
-aSRZp0bvQbn2RPp7ZLp0bu37jq/IijZXQl5Y6cZjPtt2mnFjc+GVqcIpASt4QR9f
-x7n0zYAxcKiS+GL105O7V2zYQf1GrCRA8mM4P8hag3TNFf+1qz0fhyf2slRcGBYv
-w3wJteSXVU/Q8rLmn60UQlDWqQE5sKKYxzb+Lncnhak9GFX94LGadRtP/gWYp+sV
-g0D/JSwwjCgHknQLeTGiRDDwUViTJ+u+0A7yU9OwdYPy41SRZL8MLf8ke7UFQUp3
-d/kuMmxxgFjpueYRtuctYAVU1wwLNpJjPCVXWD8f2bsuoK2F3GQ/aAGXlYtnmO2P
-oP/0RsFAnC89YIk9LP6SoFqsHR5iy5Bx20cZZ5KZp/ijHRJGEJ8O6x5LdAAj0BJi
-U2JMJB7z2RQdb5IV7sH/N/RFJnRDZfRCEoiotaXzLp7GAXzZvmrCtDV7Nv1aLbgG
-L+wDYj6YgHsI/Ib7HLWDF7R7
-=tHWU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWNRJUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NFgQAI0fAH6sKECz1YItYMxb
+4Z5EhJ5jEBSTOzyrPouVhMrwBCW024L5qQc7mzIJ9aKxwxIWwysi0CZhJcvZVbxc
+DIsJw6Qku+cX0QCmqiGqe1naVrbb+bEDfyDQ2ARepk6sQ4aoeyKojR+YU7coPenk
+QGZ0YdUumTkuRgXvwvvRvYRc99kK7IYuluLQWT016xlr8WIWMadu2V8tna/UHwZv
+RnlPkoLmkc9gHFPqPiCY9ybALZubNrEwALe7MvkuhPb0UR2nEP+Lhr3/VJd83yKi
+uyDMdJlPJQaLpTkC790pqpByiErK5neq2O/6kLQRVkBh6CsQxviLkx0DIDgRhmde
+pdt2prtclItNfLtf2Xy4Kad9/+oKUmCJcS5GaLRCXBV+HJSrlQYGzJK2vg3s2ccV
+F983ehNd4X90cdkZBmEWp7Ej6mhGtXYwkKpSVSspB3YXIVosOrWhKw2HRP+BAAgo
+Xo4IyF7Lw40C1ng4YaSmSreFsWboXAXhMJmUHdUDH1kJkVXIfNkMS2MeRP4S0QwL
+b89d+xLzLi3oOQS2icdmCIb7ZgEg0FturtVLaJeMP11jFQNPZjAEl5rbAt/S/T7j
+LCFO5Gd2b5/T9gruTVL5VeqPbb3HiTpZq9lSCYykKJG8ess5GYm9WqW51qZq+sva
+sUyjcIPbrOAyZFaYumJkESnd
+=AHvZ
 -----END PGP SIGNATURE-----
 
---===============8584768659230775994==--
+--===============0186366640827155634==--
