@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5381965620684518646=="
+Content-Type: multipart/mixed; boundary="===============6053228215225891647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 28 Dec 2023 09:49:33 -0000
-Message-Id: <170375697369.15863.4833237236597053921@gitolite.kernel.org>
+Date: Thu, 28 Dec 2023 09:49:54 -0000
+Message-Id: <170375699410.16043.5538305974748018381@gitolite.kernel.org>
 
---===============5381965620684518646==
+--===============6053228215225891647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/char-misc-6.7-rc7
-    old: 9f25b0f45cecacd00bc80726e60bc5351d61a04e
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/char-misc-next
+    old: 907f999fc0e334b06f0d439c8a8bceff1fd4506a
+    new: c9d98a562cafb6306c18e2544048ba909235d0ec
+    log: |
+         7037f7141ce7f736aa2b96b48002c0a17bfcf741 pvpanic: Don't use "proxy" headers
+         8974a86d1edd9ae83e38c520d640ffc728092eac virt: vbox: core: fix all kernel-doc warnings
+         2fd34a5d1df9e25edd87bc5805bf9c86aa4364fa virt: vbox: linux: fix all kernel-doc warnings
+         c9d98a562cafb6306c18e2544048ba909235d0ec virt: vbox: utils: fix all kernel-doc warnings
+         
 
---===============5381965620684518646==
+--===============6053228215225891647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1703756972 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1703756992 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1703756972-84b0dfd386428321c5e8edf1d83ab12180e110b7
+nonce 1703756992-6844f9216bcbba56cb81e1e6ba12cf7701214cf6
 
-9f25b0f45cecacd00bc80726e60bc5351d61a04e 0000000000000000000000000000000000000000 refs/tags/char-misc-6.7-rc7
+907f999fc0e334b06f0d439c8a8bceff1fd4506a c9d98a562cafb6306c18e2544048ba909235d0ec refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWNRKwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H8EP/iwlb5FHtHN8xObIoRov
-h5xh0IwMhpPflhf+EGsunCUFNFzYmC4wsPghNHjPtUqPNGOL2T1T8/cD/ngp62gP
-JxoR6jSDqgmNY/cz9P9YdqbyLqJqs7NaxRRQavmDAnDiG/5z1y7ExTQX/8sncZP7
-msq0K5qdrXHq8+9L8f5Bpp8E5chPLMODjSYWtrcxWZotfhPExs+YeSMm2nA+nwN5
-dfJq1maa8ZDpYPxLgOgJj73T/8ixSpk+9BTIU5mTfLItkPSd74QU5x5F3jdaQTy6
-jISn8GRXyYeiNH3dlrHjN1gm6Kmvr9M/lGw4NRzumdAuze1Yzyi2pWksh8+nw8AI
-y10fOmKTeVrntkItafqSoOwZ0tWyiOEnUlI6Q9/htWMA1o5b8W2o4ziL6aHStTU5
-in2TX51EaOHqpALX8++QDtUhebrUS4X0YCqOWAdSy1V5zfOyC41KSS3lHw+Ho6Wt
-p9vgZTKgvmctdHj2cZNHkobp29pawIcMm2LwYyAcs/jH8Hp2kh7KLyCe+ZgpRabJ
-NrddLTAqwdFMCvuUGSffK+oalKPoHfm2oNsPAXivFfTul5Kru0+MQDrjrj7nw5N5
-yR2QaAWYCVFZirMnPlhINET9QKIpR4PlraujTkiQ7MYXYskgmfJ3yhZs8Al1efrX
-AOMHWymW9M30L6D+u0PdrWEO
-=VvsX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWNRMAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+apkQAKvPnbs3gDY3Bm0oHqvw
+2P5kdSVRmPZwqzB1pAsZumbYugiUd0yXP3S+QOAtZYyct2Dh3TVA1q9oTRYIWyTS
+wJJL2XuzJjfqOt6gnQk7oVKT7EJ/pwoBMdK+g4wWj1XhAsuaPmd4zLfkoyAEfFvj
+iQ2BAlK9Ciq2rOEUKgQ9GdWWVMfDqhzvfxnn3+piijSLnWtIvhxOxgscyoR6rNlM
+8AKNmBexVie8L1vPS6l1dc7fkAZV0dll9DuuGnm6q9yvx3FVCFDpKI+NQbn0Pmud
+k0tJ16PO5KXUH+imOqGThvuqj65YNfAS8+iHS+BQykwnEgEjV4Kvde91xJacACQU
+PQB22FFQD5+mxSx6APwoesL5XYUKIn1NSEK9U+obbM/h3MRL971wz0tRpkV6WYMO
+y/Ep+7mrd6ewN8goITkFQxCwpxOUpkUZS1CWA5nUvqLV0e0ZToy9cqf8JDEQinjs
+e5bm++sw2/khFgpeEQ6Cq6aoxY1cMy8INIfZ1X8gaNYXtEWeoNesmX8RkvL0m6rk
+xXFdN4j+yAL7eSIm68eECpCxDPR1IYJNUxYMMYmWwnk6jHcIsI48PueWLHOxk43v
+PCFW/M64zLuXF59Gi6nUlSnNL90zYhU8/MkpDNyexkNBHBV67hp9l5V+G3O8DTeG
+H4J4vu/Uik3pOeXIBHT7lZEj
+=Eobt
 -----END PGP SIGNATURE-----
 
---===============5381965620684518646==--
+--===============6053228215225891647==--
