@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/sparse/sparse-dev
-Date: Thu, 28 Dec 2023 14:01:32 -0000
-Message-Id: <170377209292.8673.1160656340029756845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse
+Date: Thu, 28 Dec 2023 14:04:48 -0000
+Message-Id: <170377228832.9863.12787293440591987007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/sparse/sparse-dev
+repo: pub/scm/devel/sparse/sparse
 user: lucvoo
 changes:
   - ref: refs/heads/master
-    old: adceff0ab6e3d8bf43de52e2c2fbebf27db30deb
-    new: ac95569dfe1098134097b15641a5de9f590dadde
+    old: ac95569dfe1098134097b15641a5de9f590dadde
+    new: 365b95203727997534bd044a231737d057747186
     log: |
-         ac95569dfe1098134097b15641a5de9f590dadde reassoc: fix infinite loop during reassociation
+         365b95203727997534bd044a231737d057747186 reassoc: fix infinite loop during reassociation
          
