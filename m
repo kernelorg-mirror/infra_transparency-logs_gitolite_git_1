@@ -1,59 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6053228215225891647=="
+Content-Type: multipart/mixed; boundary="===============3524530375445050147=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 28 Dec 2023 09:49:54 -0000
-Message-Id: <170375699410.16043.5538305974748018381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 28 Dec 2023 09:50:15 -0000
+Message-Id: <170375701508.17841.5399296940709400272@gitolite.kernel.org>
 
---===============6053228215225891647==
+--===============3524530375445050147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 907f999fc0e334b06f0d439c8a8bceff1fd4506a
-    new: c9d98a562cafb6306c18e2544048ba909235d0ec
+  - ref: refs/heads/driver-core-next
+    old: 580fc9c750fde7404f2d726637135fb785c67e86
+    new: ae4d90f7ca49eb71f8a3dca64d06d4c4e2193705
     log: |
-         7037f7141ce7f736aa2b96b48002c0a17bfcf741 pvpanic: Don't use "proxy" headers
-         8974a86d1edd9ae83e38c520d640ffc728092eac virt: vbox: core: fix all kernel-doc warnings
-         2fd34a5d1df9e25edd87bc5805bf9c86aa4364fa virt: vbox: linux: fix all kernel-doc warnings
-         c9d98a562cafb6306c18e2544048ba909235d0ec virt: vbox: utils: fix all kernel-doc warnings
+         520adf3ba4a4bdd41450c57b17ef01f8a069fbfe driver core: class: fix Excess kernel-doc description warning
+         ae4d90f7ca49eb71f8a3dca64d06d4c4e2193705 driver core: device.h: fix Excess kernel-doc description warning
          
 
---===============6053228215225891647==
+--===============3524530375445050147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1703756992 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1703756992-6844f9216bcbba56cb81e1e6ba12cf7701214cf6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1703757013 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1703757013-13b4d6f127deae8a3a0f113966f59f85aef2c605
 
-907f999fc0e334b06f0d439c8a8bceff1fd4506a c9d98a562cafb6306c18e2544048ba909235d0ec refs/heads/char-misc-next
+580fc9c750fde7404f2d726637135fb785c67e86 ae4d90f7ca49eb71f8a3dca64d06d4c4e2193705 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWNRMAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+apkQAKvPnbs3gDY3Bm0oHqvw
-2P5kdSVRmPZwqzB1pAsZumbYugiUd0yXP3S+QOAtZYyct2Dh3TVA1q9oTRYIWyTS
-wJJL2XuzJjfqOt6gnQk7oVKT7EJ/pwoBMdK+g4wWj1XhAsuaPmd4zLfkoyAEfFvj
-iQ2BAlK9Ciq2rOEUKgQ9GdWWVMfDqhzvfxnn3+piijSLnWtIvhxOxgscyoR6rNlM
-8AKNmBexVie8L1vPS6l1dc7fkAZV0dll9DuuGnm6q9yvx3FVCFDpKI+NQbn0Pmud
-k0tJ16PO5KXUH+imOqGThvuqj65YNfAS8+iHS+BQykwnEgEjV4Kvde91xJacACQU
-PQB22FFQD5+mxSx6APwoesL5XYUKIn1NSEK9U+obbM/h3MRL971wz0tRpkV6WYMO
-y/Ep+7mrd6ewN8goITkFQxCwpxOUpkUZS1CWA5nUvqLV0e0ZToy9cqf8JDEQinjs
-e5bm++sw2/khFgpeEQ6Cq6aoxY1cMy8INIfZ1X8gaNYXtEWeoNesmX8RkvL0m6rk
-xXFdN4j+yAL7eSIm68eECpCxDPR1IYJNUxYMMYmWwnk6jHcIsI48PueWLHOxk43v
-PCFW/M64zLuXF59Gi6nUlSnNL90zYhU8/MkpDNyexkNBHBV67hp9l5V+G3O8DTeG
-H4J4vu/Uik3pOeXIBHT7lZEj
-=Eobt
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWNRNUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KoMQAKpnK/n3oxmF19iGv0N5
+bYjMltGOY4pcOhOXKEI2d0nnIQZIwu4TmjHz9G7kA+Ws6WGSLDi8BmQnYGaWT9w6
+1lIfmc7udnr/XQYi70Xr9qV3q6vTbXqFoZPr4BkMvOO1TEx4eC+r+4sqVPD8mWt1
+SbFO8gplVMV72Se9ycQc7o2q8izZYpY9bhQ2Qyzm98oHKuPagXAZEvqWk4RBfQMw
+o/XV1YND7MRAHpoVA2jqbfOwzEBxA8CNh65HvFOZF9Qzvvr+KrUZ9+YZhlNhXNlK
+n2LNOZTjp+gE2IT3lrrVeq4BmHOrNlTal6E5ICOY6YqdPwBkq+zZQKPcmwLPCn97
+n9RerQdhhv5u/7d15fwGe5PaGUkN3GGX/9rHaiqO/WAQnwP80ZU2hx/KL4AkUMYx
+Bk4eEKivsFd3jUkVUJMmAhyshX2dv1wpgRXkTqTNoDwgDlGs4JKrU2iOnJfE6Ag1
+12capXTLeMAvlHOe4aPcx67MPnRfZk1M0CmXZITSIUC0wQmB7guTyJFQ6nADZT7b
+vyfDnjJnQIng8dVhkGJSdFcuAQUYXpZaGAdXKsgcPGDCwX1fVoUID8QJhIzzAUgZ
+QZTRjYpRFD6qJDjtMq1WKSWK2E8rKcmXJgo907UQsRaagylqoUBub83vLQJ+A+Uq
+N/pF4Zh+/qtO9HF/by2OCoDZ
+=Q4Vv
 -----END PGP SIGNATURE-----
 
---===============6053228215225891647==--
+--===============3524530375445050147==--
