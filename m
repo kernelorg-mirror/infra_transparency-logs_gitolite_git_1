@@ -1,87 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============9005773708853773901=="
+Content-Type: multipart/mixed; boundary="===============6317848753911960773=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 28 Dec 2023 09:50:48 -0000
-Message-Id: <170375704893.18092.10429823981395273849@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 28 Dec 2023 10:35:17 -0000
+Message-Id: <170375971728.16404.15846589982280594727@gitolite.kernel.org>
 
---===============9005773708853773901==
+--===============6317848753911960773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/staging-next
-    old: 7f2c9c0bb8d575ed289943ad782776649343ee7e
-    new: 9ebffbe2ad12b030b282796fed5117a182588c51
-    log: revlist-7f2c9c0bb8d5-9ebffbe2ad12.txt
+  - ref: refs/heads/vfs.netfs
+    old: 3a91e29efc6400273051e3b5e532ec9433aa6196
+    new: 86fb59411553c553fe327db067a2435ecb72c80f
+    log: revlist-3a91e29efc64-86fb59411553.txt
 
---===============9005773708853773901==
+--===============6317848753911960773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-3a91e29efc64-86fb59411553.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1703757047 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1703757047-3606df5f49ca6d6e284ea58021448fb561bcec00
+21d706d5cf570917594b21edee81893bdce09ab8 netfs: Add support for DIO buffering
+7d828a06634799aba0fa392913c7fe2953eb64a6 netfs: Provide tools to create a buffer in an xarray
+cae932d3aee55035a54415dcea8e7ecf2ec469b5 netfs: Add func to calculate pagecount/size-limited span of an iterator
+768ddb1eacf5dd997ecf393e7bab9796bad047e0 netfs: Limit subrequest by size or number of segments
+16af134ca4b7051b1587108f2066ec90ae029f74 netfs: Extend the netfs_io_*request structs to handle writes
+c6dc54dd91bbf597942b4975b8adec660a16827d netfs: Add a hook to allow tell the netfs to update its i_size
+6ba22d8d1521f35ca1343e64f69d7857f0340e5e netfs: Make netfs_put_request() handle a NULL pointer
+4fcccc38ebbdcff74494701c50a8e2fe4689837e netfs: Make the refcounting of netfs_begin_read() easier to use
+9ebff83e648148b9ece97d4e4890dd84ca54d6ce netfs: Prep to use folio->private for write grouping and streaming write
+0e0f2dfe880fb19e4b15a7ca468623eb0b4ba586 netfs: Dispatch write requests to process a writeback slice
+c38f4e96e605f17990e871214e6ea1496bc4e65f netfs: Provide func to copy data to pagecache for buffered write
+7f84a7b9892d1c9429a6f5d6f67916c61b3fc183 netfs: Make netfs_read_folio() handle streaming-write pages
+e2e2e83924b1fe4c28bf5617db90e893755e9cbd netfs: Allocate multipage folios in the writepath
+016dc8516aec8719641e7aaaacd78d344759178e netfs: Implement unbuffered/DIO read support
+153a9961b551101cd38e94e26cd92fbfd198b19b netfs: Implement unbuffered/DIO write support
+938e13a73b244278a3777f38fa915bd239b2efd2 netfs: Implement buffered write API
+102a7e2c598c22bd2621fa97eb1c93c89d469a12 netfs: Allow buffered shared-writeable mmap through netfs_page_mkwrite()
+80645bd4aa33a5c325f11b8dc6b38b38410ad5c0 netfs: Provide netfs_file_read_iter()
+e0ace6ca98bef0d8d354040f13ffc0a498813ee9 netfs, cachefiles: Pass upper bound length to allow expansion
+62c3b7481b9a108cb99ef9438dba66bb4738768b netfs: Provide a writepages implementation
+4a79616cfb27d76947ea37f0336745ef929d56be netfs: Provide a launder_folio implementation
+41d8e7673a7726cba57cb8112d81c89cfb6c3e35 netfs: Implement a write-through caching option
+100ccd18bb41ea7abb4fbb419202c06079559501 netfs: Optimise away reads above the point at which there can be no data
+545b135b72002145ade758f7e59c113915283188 netfs: Export the netfs_sreq tracepoint
+3560358a49569d0ade0ee5c9cecb3606dac863c2 afs: Use the netfs write helpers
+80105ed2fd2715fb09a8fdb0655a8bdc86c120db 9p: Use netfslib read/write_iter
+86fb59411553c553fe327db067a2435ecb72c80f Merge tag 'netfs-lib-20231228' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
 
-7f2c9c0bb8d575ed289943ad782776649343ee7e 9ebffbe2ad12b030b282796fed5117a182588c51 refs/heads/staging-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWNRPcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3z4P/iKFHCUUfCCpwemw5u9o
-NRPRvFi71acFiafa05j5Ov9xqFMgtXKhRqzadbZlhBIh4RdNYF708yOn4Dqe6XcM
-DIdmBjabzw01Fu1n+bCGREjFimtTGgl4DF5gY3azMizaBx7w4gnbxebkekscpWRo
-JiLhE+nd9ZXctuiFnEyPrQ6CSA6wCpyrYzP2WVB3ibtXm1Pa8AmTGHI1ViLTOmCx
-Wvo/9Q4sIA63BG4YraEBeTQIRk66KhJQ2uipyw3qgHhC36RFoGjzbHKRt26Hi9MP
-hHJz/XVmPB1ESnuMQYhSCc0ep2dAJRjfqaKOFF/vNHOX8vmJf8/wkAGC3s0OEyqz
-PWzUef8TZjq5AymzOHLYHWnNsQ0crLla7vLgaFjL0SvNzUEPQrFdzYmDjy6oT9aM
-dImnJgOvh6uqsiYG7H3crkvr0x5RMAeVwwuxP01Efhx7JzDt4IfDllU2cFtr9eQq
-IqHCDXGo0wgn0BH7XmATS7S20QNDKheTnvf2KFHsIJKljmpE05iRR5IrdK9CLEf8
-zaAKdVnbkyBU5uTjI68VJpwSDU3OCOUccZhAlFHXdBRtGOZs0RvWaUSB+RKSydxr
-/N4ROT0IQpB5MQS1AYOmAAWBhiv31yVwkTKxzTLQFroFM2/Xw5cU5UAKizgp/Ulj
-Nf/fft3U0Q9i7vrfdnegLh60
-=UbNy
------END PGP SIGNATURE-----
-
---===============9005773708853773901==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f2c9c0bb8d5-9ebffbe2ad12.txt
-
-5090a4bc2a2f04b7693b49500ad1287e8d0fb6c3 staging: vme_user: Fix the issue of return the wrong error code
-6911a08ce778bd15dd42306ab17594faf0ae6149 staging: rtl8192e: rename variable HTInitializeBssDesc
-0901e69611a1fbe03761d1024fd65b37aa33ab8d staging: rtl8192e: rename variable HTResetSelfAndSavePeerSetting
-b399e2397443b25ac6e0a83fa5daa1384cec4135 staging: rtl8192e: rename variable HTCCheck
-35350898acc734b748b456a196a1e6eda316ef14 staging: rtl8192e: rename variable HTSetConnectBwModeCallback
-93235f62e8a1e111fc45c0143e0b27c6d6dd9cb6 staging: rtl8192e: rename variable ePeerHTSpecVer
-b249bedb76ddfb5634c1a68477ee5dd9cba60b69 staging: rtl8712: fix open parentheses alignment
-1aa721a4648b71cee8159c5cb8af37518b8913fe Staging: rtl8192e: Remove unnecessary braces from MgntQuery_MgntFrameTxRate()
-6bb7a078a0afdb0402bbfa6db3622c9212edbf1b Staging: rtl8192e: Remove unnecessary parenthesis in rtllib_association_req()
-be0d49be0c97804ff051825e152c655ea02a774d Staging: rtl8192e: Remove unnecessary parenthesis in rtllib_rx_assoc_resp()
-a87f009c4f897491246d9d8f8e5e8b644fb06342 Staging: rtl8192e: Remove unnecessary parenthesis in rtllib_ap_sec_type()
-eb2ebe15b83ead3d49a7087252c82cb1ddd7cace Staging: rtl8192e: Remove unnecessary parenthesis in rtllib_association_req()
-7d225068d3fe10818e8cb252f79c4e1ff368663d Staging: rtl8192e: Fixup multiple assinment in init_mgmt_queue()
-e946ef939ff73a80c6add269e46e33c378cd25bc Staging: rtl8192e: Fix statement broken across 2 lines in rtllib_rx_assoc_resp()
-afae5cd74171640bb677360b73d39559ea4a136a Staging: rtl8192e: Fix function definition broken across multiple lines
-7fa14461160fe11cd57afa62d0f7f1b1ff328eb2 Staging: rtl8192e: Fixup statement broken across 2 lines in rtllib_softmac_xmit()
-75a946f9ac816caf394cdb71da2422d027010a3a Staging: rtl8192e: Fixup statement broken across 2 lines in rtllib_softmac_new_net()
-4f6054fb3d70b244984ac759003ecb552754fffb Staging: rtl8192e: Rename function rtllib_MFIE_Brate()
-d70c91a36e3111019bf0b18c4da7642867010abf Staging: rtl8192e: Rename function rtllib_MFIE_Grate()
-1ed0f611670d922bea2ac4c55878d73cb6d1fc0e Staging: rtl8192e: Rename function rtllib_WMM_Info()
-8867af6775b58d152b4018f6156ab47cfa50e046 Staging: rtl8192e: Rename function rtllib_TURBO_Info()
-66dda5e3e000e1a59af69f86672d963a5d0eae37 Staging: rtl8192e: Rename variable QueryRate
-0edd0fb79ef6b8b6bf62c407dff276e2297abf36 Staging: rtl8192e: Rename variable BasicRate
-6a20007654b6fe4c60cae9cd157d2c49c2072fee Staging: rtl8192e: Rename variable skb_waitQ
-53156632ee3ceaf5a2c7a97505c24e9a8148b8d5 Staging: rtl8192e: Rename variable bInitState
-9ebffbe2ad12b030b282796fed5117a182588c51 Staging: rtl8192e: Rename function rtllib_DisableNetMonitorMode()
-
---===============9005773708853773901==--
+--===============6317848753911960773==--
