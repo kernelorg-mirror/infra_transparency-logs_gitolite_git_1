@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6379472673402309702=="
+Content-Type: multipart/mixed; boundary="===============5830840465080699716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 28 Dec 2023 12:17:37 -0000
-Message-Id: <170376585741.31779.885007464260386157@gitolite.kernel.org>
+Date: Thu, 28 Dec 2023 12:21:30 -0000
+Message-Id: <170376609037.2553.15868544623627072334@gitolite.kernel.org>
 
---===============6379472673402309702==
+--===============5830840465080699716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,485 +16,500 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: dadad054200b2541f2b2c0663efa49bf8968d126
-    new: 7036f94944c48ef96753d42df680158da976495d
-    log: revlist-dadad054200b-7036f94944c4.txt
+    old: 7036f94944c48ef96753d42df680158da976495d
+    new: 586e561b3c054b69e40441632ec81b96c364e751
+    log: revlist-7036f94944c4-586e561b3c05.txt
   - ref: refs/heads/queue/4.19
-    old: 464d3221ab138a805ba34419fcfef621cb8eea85
-    new: 9ebf16e3fd70e058ea4e2485792804ffe200933e
-    log: revlist-464d3221ab13-9ebf16e3fd70.txt
+    old: 9ebf16e3fd70e058ea4e2485792804ffe200933e
+    new: f8d65dd2b12f4fdd6884bc93323d7d77fd14f4cb
+    log: revlist-9ebf16e3fd70-f8d65dd2b12f.txt
   - ref: refs/heads/queue/5.10
-    old: 9e77648540dc882253752eead45a30bfd6847b1f
-    new: 057b3a74b960ed3c30577f0a4ad0f4274bfb3721
-    log: revlist-9e77648540dc-057b3a74b960.txt
+    old: 057b3a74b960ed3c30577f0a4ad0f4274bfb3721
+    new: d89b32b5b4f6ca8766fb6d42f071a32af809c4cb
+    log: revlist-057b3a74b960-d89b32b5b4f6.txt
   - ref: refs/heads/queue/5.15
-    old: c7b5f466725b25c9930b71f47176d11fd8a77f97
-    new: 2d450c14ed03e8fafa87e81b66ce5fe3e6af48ca
-    log: revlist-c7b5f466725b-2d450c14ed03.txt
+    old: 2d450c14ed03e8fafa87e81b66ce5fe3e6af48ca
+    new: 2563e497f1f33e58bb7e82651f36783f2958ee96
+    log: revlist-2d450c14ed03-2563e497f1f3.txt
   - ref: refs/heads/queue/5.4
-    old: ea0aa7c3b65e7add4f45bd65b75ba3ae34fc09e0
-    new: d03a107b5809f10d681db19b8c08549c008032a3
-    log: revlist-ea0aa7c3b65e-d03a107b5809.txt
+    old: d03a107b5809f10d681db19b8c08549c008032a3
+    new: d802fd884c5d50a216d3aa80e96f96598927dad8
+    log: revlist-d03a107b5809-d802fd884c5d.txt
   - ref: refs/heads/queue/6.1
-    old: 0eddf9e2b3767a7c99130f40607fca4e5fc4febe
-    new: 5d97d09e5b9e1501ceb0eb662492c574ddfed7d8
-    log: revlist-0eddf9e2b376-5d97d09e5b9e.txt
+    old: 5d97d09e5b9e1501ceb0eb662492c574ddfed7d8
+    new: 1fd22a6e4a2bf9e5ff1d626fa50a79580ac976c0
+    log: revlist-5d97d09e5b9e-1fd22a6e4a2b.txt
   - ref: refs/heads/queue/6.6
-    old: bfb61da8623a70c8f9a66d4893966c6c1011b3e5
-    new: e6235d236bcd13712f0d4aa1bd19cd34f2e54b6f
-    log: revlist-bfb61da8623a-e6235d236bcd.txt
+    old: e6235d236bcd13712f0d4aa1bd19cd34f2e54b6f
+    new: eb3fecd7a97c9dab10afb7f225eb08defc5ce8d0
+    log: revlist-e6235d236bcd-eb3fecd7a97c.txt
 
---===============6379472673402309702==
+--===============5830840465080699716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dadad054200b-7036f94944c4.txt
+Content-Disposition: attachment; filename=revlist-7036f94944c4-586e561b3c05.txt
 
-2e8d839ffd39f19f1758f2106d83c9a7ed73d106 ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
-79715b9fe5c36568caa15b0eeb31eeaf7cc0c8a2 s390/vx: fix save/restore of fpu kernel context
-671de6731394dc4c84709b7dae9d1e70b22d314c wifi: mac80211: mesh_plink: fix matches_local logic
-e3e8d85026758dc9f91dbf872e952bcab46b08db net: sched: ife: fix potential use-after-free
-174aaec76acb4ed514c212701c28ec4d0cc8183f ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
-e2b83240dc77663dd084902affb4e3874ad6b325 net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
-62acb29752a365014ab335f72060478353526e23 pinctrl: at91-pio4: use dedicated lock class for IRQ
-19add6367c4f6c624e8adcdcfb140188a80ed7ce iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
-aab2cf638ff217f87e14532a1f4d437bd2f301db Input: ipaq-micro-keys - add error handling for devm_kmemdup
-4ddd8a2548d7a68a624bccbae5af6039ca20b3ff iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
-dabc30b814494e2e0587bd1c02f8607139ac2fb5 wifi: cfg80211: Add my certificate
-6e2d65579bdbff89e160dd598efb074b90610907 wifi: cfg80211: fix certs build to not depend on file order
-d379900098fd3ce283a5c2dacbb508497d4f1e69 USB: serial: ftdi_sio: update Actisense PIDs constant names
-81bd3a1caf2bf5fdaf8a2a04a246f58cef2f41f8 USB: serial: option: add Quectel EG912Y module support
-e66e12d1d45e135cf40b27dac0caf9efd61fcf2c USB: serial: option: add Foxconn T99W265 with new baseline
-04943350234d83981c20e0dea82f9946dbc29796 USB: serial: option: add Quectel RM500Q R13 firmware support
-31cee1646317c7c8af2acf2d31275b61d885c112 Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
-b114c6b2239bc9791e5630a4e6f51b4a9120b6df net: 9p: avoid freeing uninit memory in p9pdu_vreadf
-7036f94944c48ef96753d42df680158da976495d net: rfkill: gpio: set GPIO direction
+10e86dbd4e42f5ec35d050a5438c6c8c9387b13f ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
+f92f98679420295a0abde126584c6f3950c915a2 s390/vx: fix save/restore of fpu kernel context
+603a43a7c3b6c605c011a4bc7ed0fe4bb9c3e061 wifi: mac80211: mesh_plink: fix matches_local logic
+60b35ab27fbc13ae33ac1429b6fd6b0daa0d2e05 net: sched: ife: fix potential use-after-free
+b3b390334ffe14fd9cc236ad02454ea60a943122 ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
+0d73778dcce42b707c8383fb82ae4cdced9415a5 net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
+c454f7e095a5e571f9cb4b2bce137e297947f484 pinctrl: at91-pio4: use dedicated lock class for IRQ
+dcaabdd8fcc08a1934a7f256f60ee84c3fe5682c iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
+8a35e109a3ae9716a8a2446226dd95c7daac31b8 Input: ipaq-micro-keys - add error handling for devm_kmemdup
+323636ca1927d21b6a1136fc1533d1693fe9bf49 iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
+0a6b7dd9e471c3459b12a97efe146efc76b89263 wifi: cfg80211: Add my certificate
+612b4c0d0929e3bd0c255ec2b01902d55a2655d3 wifi: cfg80211: fix certs build to not depend on file order
+e348f857d72a2f3430ef2f2eebd9f794cab337b9 USB: serial: ftdi_sio: update Actisense PIDs constant names
+5fd7af4d0d21c74d05229a52024019b1131aa698 USB: serial: option: add Quectel EG912Y module support
+ab60e4654a5c6f4fe12a1406fb6267f5eb90e740 USB: serial: option: add Foxconn T99W265 with new baseline
+a3a7d46399d97b001d956a4cbae597eba6ed7cac USB: serial: option: add Quectel RM500Q R13 firmware support
+cb1cd398787c26ce80e032a7171996c84ed57d40 Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
+ef6d6de0f3c7e65f1355b656a5c082cd8e333751 net: 9p: avoid freeing uninit memory in p9pdu_vreadf
+586e561b3c054b69e40441632ec81b96c364e751 net: rfkill: gpio: set GPIO direction
 
---===============6379472673402309702==
+--===============5830840465080699716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-464d3221ab13-9ebf16e3fd70.txt
+Content-Disposition: attachment; filename=revlist-9ebf16e3fd70-f8d65dd2b12f.txt
 
-7002b335df184cef03ab8c537cb9b588c48f8ecc arm64: dts: mediatek: mt8173-evb: Fix regulator-fixed node names
-d8af6667715c4aaadba6bdfe732176820c98a106 ALSA: hda/realtek: Add quirk for Lenovo TianYi510Pro-14IOB
-60831c39b89b2590b2fd682120464454cb2fee05 ALSA: hda/realtek: Enable headset onLenovo M70/M90
-e2932de8287dbd378bb573f15c37e9dfd41bc25f ALSA: hda/realtek: Enable headset on Lenovo M90 Gen5
-deb1f26b163ace443dfa4d9d0405262057d7cfbb ksmbd: fix wrong name of SMB2_CREATE_ALLOCATION_SIZE
-d3abe9fc6b33e8cef5188c7183e745c3eed7c026 ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
-39756a66cc13e05abb78eb9fe3d8864eb4de3c89 reset: Fix crash when freeing non-existent optional resets
-dc6e22ccb64629b6d8b5b6bb409cf866a0eb2fc3 s390/vx: fix save/restore of fpu kernel context
-051cb3051c0078a6000ee6725d7f26069267b0d2 wifi: mac80211: mesh_plink: fix matches_local logic
-a4a512327722443ab0ad73f01ac13d12a84cc088 net/mlx5: improve some comments
-0ff3d4cfeeab6c8570dc89acad63c1d2c1f65d7a net/mlx5: Fix fw tracer first block check
-1c1fbedf4391bb4bd64df250c92bb87d971dc275 net: sched: ife: fix potential use-after-free
-e0e936839dae093e0e739bcb006c32d99cca8727 ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
-6381a1af9d7659f857d0a5e5fa28354adc7879aa net/rose: fix races in rose_kill_by_device()
-16cc6998d78e2ec0435547cb406992f49134679e net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
-d723d8f029994eec712c1be575fb6be9d7480b5f afs: Fix the dynamic root's d_delete to always delete unused dentries
-9589789586b8ee4541ea9a0aa8e98f533ccffb63 net: warn if gso_type isn't set for a GSO SKB
-2f11c108f693743dd0fa0176a4fc0f29e345b14e net: check dev->gso_max_size in gso_features_check()
-4bd1969f000364dc38828a0d6ab0c30462049eab pinctrl: at91-pio4: use dedicated lock class for IRQ
-8a3ad2e63cb63dd41a4f3750e68f6a4328a0522d smb: client: fix NULL deref in asn1_ber_decoder()
-4b25fa8d043d81e36b6c3db59d54e9ae2379e9cf btrfs: do not allow non subvolume root targets for snapshot
-a1547d1fc358ef634f815be8880a95eb310c53e7 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
-e9161e3d2ad9ab6d1bcde2cb40963a8047b3b287 Input: ipaq-micro-keys - add error handling for devm_kmemdup
-d096adb0a2ec04359a4870136360fc65af862dc6 scsi: bnx2fc: Remove set but not used variable 'oxid'
-3a6be72ae8a944d234359ec926d0aae45a1b6aaf scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
-eb324f88e980ac54a90841475dd7e42739ae0703 iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
-02523edb947bb906f65430524fef9add375eefbc wifi: cfg80211: Add my certificate
-bf4aa0935efda82f23c9ba6a0a775eafe8845241 wifi: cfg80211: fix certs build to not depend on file order
-8f3bfbd1d65da31d62fca9d96d801d38d5adb831 USB: serial: ftdi_sio: update Actisense PIDs constant names
-f494dd69ea1e746e5d186a88db9967a617a20980 USB: serial: option: add Quectel EG912Y module support
-351ac0160943e2ee476a892b77a3ac5517f1e2e9 USB: serial: option: add Foxconn T99W265 with new baseline
-bfc9fea7df871f3dbffd9e051d5c2dd3f7509974 USB: serial: option: add Quectel RM500Q R13 firmware support
-d17b6bee8f1d01cfe5ff611544affa5641921ff5 Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
-d431a69064b5c2fad4bd88df09291807f89798d8 net: 9p: avoid freeing uninit memory in p9pdu_vreadf
-9ebf16e3fd70e058ea4e2485792804ffe200933e net: rfkill: gpio: set GPIO direction
+93033628d453cdb47563bb6b585123cd17df2efd arm64: dts: mediatek: mt8173-evb: Fix regulator-fixed node names
+3c25a9f82030b949f8ff0b06eb56c98f2578e0c0 ALSA: hda/realtek: Add quirk for Lenovo TianYi510Pro-14IOB
+a14a6c13d2bd4251b0bdc84d3736c198f533464a ALSA: hda/realtek: Enable headset onLenovo M70/M90
+08629b8d62903df711f7bdae481df9431100b300 ALSA: hda/realtek: Enable headset on Lenovo M90 Gen5
+c443e1aa43823e6730aa35caf49f9d6784ad3041 ksmbd: fix wrong name of SMB2_CREATE_ALLOCATION_SIZE
+27d5c2b436e0e434ab9bce74ce8bde2902c7f212 ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
+3bfa00ea4244bcb2dde540e259f3c4ceec35d029 reset: Fix crash when freeing non-existent optional resets
+66658aae98dbd590d3fccf046c7bf7ab71a06277 s390/vx: fix save/restore of fpu kernel context
+07e7caacf59933954065c3ec5abbfa93d0820e44 wifi: mac80211: mesh_plink: fix matches_local logic
+e4ab9c5f0d89b50d9d71023cc510385bbe0d3c3c net/mlx5: improve some comments
+ce282624e9adc70f628f396758a5b34ceb99aa15 net/mlx5: Fix fw tracer first block check
+f95ef128187cfaa710ced9a20ec960e620bb8899 net: sched: ife: fix potential use-after-free
+cbfd0575cbf9f56488ef3693770f567ba2990c1f ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
+3d2560b473445456971dc36a494266bbb316028a net/rose: fix races in rose_kill_by_device()
+dbbf2c66dc242c3642707d284def3eaa2ef86b7b net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
+faa3d6f35c2e06a4f23706ebc9d7a1c9a2eb3231 afs: Fix the dynamic root's d_delete to always delete unused dentries
+65d6bb05b5004863f3e3eda8e37b683ff7d8a5af net: warn if gso_type isn't set for a GSO SKB
+2af7cd72c7a813ec355351e78f3064e50c69e7b2 net: check dev->gso_max_size in gso_features_check()
+b78c431b0972d4ae4fbeed4f36b55fa4078697d2 pinctrl: at91-pio4: use dedicated lock class for IRQ
+16b76a6b003bf04fb7936b70d01546f93cb5baeb smb: client: fix NULL deref in asn1_ber_decoder()
+d99fd91e6f9930a0a9c8f583bdd0bce6a8917b32 btrfs: do not allow non subvolume root targets for snapshot
+d6caabe588384d7cc559a55d18e90baacaeace12 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
+5d0a59e3aebf6c2d42764d3e1b23ef8c69ff8a16 Input: ipaq-micro-keys - add error handling for devm_kmemdup
+c185467095e7f97ba0b09f1831cc23fdf9364dc6 scsi: bnx2fc: Remove set but not used variable 'oxid'
+03006587d621aa6f64e52e86db9ae1f9a796e734 scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
+9fb1e5b915302702d70f3afb96fafd38df40aae4 iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
+7f837658a687bf6db7207fb74f87e6b48baf5956 wifi: cfg80211: Add my certificate
+5c8fb36251e0e4af1e8f29ebfe31d142ab68033c wifi: cfg80211: fix certs build to not depend on file order
+9d3d152944fc27f6a314a3812590ad92300e18b2 USB: serial: ftdi_sio: update Actisense PIDs constant names
+a7703ea9b2035f21006ad6326af061a8d695cb61 USB: serial: option: add Quectel EG912Y module support
+be4c8a5e59f67e71067c3ca15e56f406a132a589 USB: serial: option: add Foxconn T99W265 with new baseline
+17d338dd6eb6e9f13f2dd5cc1dca88a145eee82f USB: serial: option: add Quectel RM500Q R13 firmware support
+8d0379d0bda1f9aa9a34b90c7e5c31eac003b92e Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
+ede1313d67db076f135b4ed70f368f52323aea3c net: 9p: avoid freeing uninit memory in p9pdu_vreadf
+f8d65dd2b12f4fdd6884bc93323d7d77fd14f4cb net: rfkill: gpio: set GPIO direction
 
---===============6379472673402309702==
+--===============5830840465080699716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e77648540dc-057b3a74b960.txt
+Content-Disposition: attachment; filename=revlist-057b3a74b960-d89b32b5b4f6.txt
 
-d7b12ad8d9689befecd6eb823693bcbd57aec45b ksmbd: fix wrong name of SMB2_CREATE_ALLOCATION_SIZE
-047f8d455ad462f5c21e8135f417e625afea0193 smb: client: fix OOB in smb2_query_reparse_point()
-180d1b29a311bacc748fdf567ab9fc0d18c4fd79 ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
-b36c0e9d1b19db5e65100823f161c4a701cb0499 reset: Fix crash when freeing non-existent optional resets
-d9652cc80e3e0e0fa76a1a51cf37e181b949c211 s390/vx: fix save/restore of fpu kernel context
-f538d34fabea64adb12454120f1e77df8005b9dd wifi: mac80211: mesh_plink: fix matches_local logic
-34738b69255912d83425327b73fda2ebdd6c0cb9 Revert "net/mlx5e: fix double free of encap_header"
-f5cfa5ac15ad23a9438f4bc1571f5313f93ab3dd net/mlx5e: Fix slab-out-of-bounds in mlx5_query_nic_vport_mac_list()
-aaab4f59c010f94aee02ed8816e78fe1d6431536 net/mlx5: Fix fw tracer first block check
-328ed32953c3e4b17e3f3f358cae76c0af7557cb net/mlx5e: Correct snprintf truncation handling for fw_version buffer used by representors
-3f8d773bf275e1e1bdd34de2d9778878672219a5 net: sched: ife: fix potential use-after-free
-0583c742af8d0c49af12a99a3dfd95dc0c3456fd ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
-f7a116525754c98448a08f36c0f76d7bf9235a6f net/rose: fix races in rose_kill_by_device()
-1cda88b2691fb9ad168aa5e41967dca1c1e6f366 net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
-92295d4ede4cab287be496304e95eb1199e80ae3 afs: Fix the dynamic root's d_delete to always delete unused dentries
-7231adbbec34ce53df9f16754891bc15da1c67db afs: Fix dynamic root lookup DNS check
-5956fb7eaf958d46c2c47339d8fbc155f58d2a47 net: warn if gso_type isn't set for a GSO SKB
-0e99621354d76065aad7e1e154316580bf63d50a net: check dev->gso_max_size in gso_features_check()
-d9ca86c4a11a328f08e5269079e44e72d82f5555 keys, dns: Allow key types (eg. DNS) to be reclaimed immediately on expiry
-8181cbc1e997d94b95c945c36c89bf8465df8cb0 afs: Fix overwriting of result of DNS query
-8895ed1ceed0399bebd273983aa8148b707e69ba i2c: aspeed: Handle the coalesced stop conditions with the start conditions.
-a30dea996234699635764070847bab180337dfef pinctrl: at91-pio4: use dedicated lock class for IRQ
-580d94b29a4bf58947e86b6a52e62ffdfc11279b ALSA: hda/hdmi: Add quirk to force pin connectivity on NUC10
-720bb23001f012394c998511ba958a477a6ee227 ALSA: hda/hdmi: add force-connect quirk for NUC5CPYB
-9e4cabc586f296e1b88288004798c1524bf0d8af smb: client: fix NULL deref in asn1_ber_decoder()
-b0140ae7f5b92c4af49eb0bf8da166b886eccd71 btrfs: do not allow non subvolume root targets for snapshot
-a92d4376ef823c6d31e050a7b5e9319d99677961 interconnect: Treat xlate() returning NULL node as an error
-b4f8cb48354d878e2839cc8be6b693e9c60e6d30 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
-2ff1f37541907f694c63e949e236d7805c250fb1 interconnect: qcom: sm8250: Enable sync_state
-db389448caed977c8b4fa88d342ba63a84f5bea8 Input: ipaq-micro-keys - add error handling for devm_kmemdup
-5a9624faa6df45609e2168a68b185b0cb55fb843 scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
-1f2314f56137be062bd4515b293f83fd0733385d iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
-a4f87f59fb24903f5a5ea81714a4f7f8f330338d iio: adc: ti_am335x_adc: Fix return value check of tiadc_request_dma()
-50a889cf6c6debb32863877fd74d89d7f68b8cb9 wifi: cfg80211: Add my certificate
-3fd692044c122aa73d76386da1691018c6b31f8a wifi: cfg80211: fix certs build to not depend on file order
-935efa51e5a8d18e8a52ae6d7e7d7ab1fdf57b39 USB: serial: ftdi_sio: update Actisense PIDs constant names
-e784fc50d8a408191ebbbdbe95c1d53a6cae16eb USB: serial: option: add Quectel EG912Y module support
-d5d11f0376b34dd4296178a614bc4eea46656e22 USB: serial: option: add Foxconn T99W265 with new baseline
-898b1d821599a4829f078ff7a9fe237197daaab2 USB: serial: option: add Quectel RM500Q R13 firmware support
-78eaa9ae2d9dd422b46234d4987a80e19d808142 Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
-83d79d977b6c6466000f15f611309c8a23c8c5ce Bluetooth: L2CAP: Send reject on command corrupted request
-3eb5fbbf7ac3e8d12c9cf531e6d650ac6e88078f Input: soc_button_array - add mapping for airplane mode button
-e4e14e477c836f11abbb898db99e4345bd5f276a net: 9p: avoid freeing uninit memory in p9pdu_vreadf
-324b41c1273ca8804d9330e814b12256d7fde028 net: rfkill: gpio: set GPIO direction
-41193c6ffc024727e5f7f6408d5de5bcaaa05c6f net: ks8851: Fix TX stall caused by TX buffer overrun
-b5b846db8f80eaf2fc2cb39120aa6511e61e18e0 dt-bindings: nvmem: mxs-ocotp: Document fsl,ocotp
-057b3a74b960ed3c30577f0a4ad0f4274bfb3721 drm/i915: Reject async flips with bigjoiner
+94577048bc58d05ea5b0924edbb9eda8b51aa3ab ksmbd: fix wrong name of SMB2_CREATE_ALLOCATION_SIZE
+d9d4dc25304d561bd8ecabc98c5dbb9e08e0ee49 smb: client: fix OOB in smb2_query_reparse_point()
+d1b3ad802d067fa7b281666d05979a9ad55871dd ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
+b522b217dc47f31054fef35ff048ec72922b8040 reset: Fix crash when freeing non-existent optional resets
+b02ce9797761819dcb1717384f21c44c33d09cfd s390/vx: fix save/restore of fpu kernel context
+bc38c87c8b6031ec0c0c9c58835bd78c631319cb wifi: mac80211: mesh_plink: fix matches_local logic
+75c3da6f60cd147b3613acab54c9c5fbe3711435 Revert "net/mlx5e: fix double free of encap_header"
+e97cbab0c3a50c182c0a5d6b20abfa3d4a2b6163 net/mlx5e: Fix slab-out-of-bounds in mlx5_query_nic_vport_mac_list()
+5ddd24af6a15499208f5032df6cc2a4d99bcae93 net/mlx5: Fix fw tracer first block check
+bcf1c4cface1900ec1e6c53c4e5c7975e418d61a net/mlx5e: Correct snprintf truncation handling for fw_version buffer used by representors
+b74f2f18ef58571e6e68c3bda1eaf8b991b4d308 net: sched: ife: fix potential use-after-free
+bf9b97dea3c14fd6e2bbb3ec05254fae23339d06 ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
+e7839f5aa5fc62e2d5d261a958c350cb662c1434 net/rose: fix races in rose_kill_by_device()
+5ecd5f17dd979d25bc1fd77b0089ba70304fe24e net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
+c835dd7eb2cf5762c442a786f920b4039b406191 afs: Fix the dynamic root's d_delete to always delete unused dentries
+d8cdfa88333eae5a4fd66534dba507c319e5aca1 afs: Fix dynamic root lookup DNS check
+6b77d81d1f6e8a52c9a3585126ad81e68935a578 net: warn if gso_type isn't set for a GSO SKB
+2a3835e7979fe93f3e03c373c87c41621bb39b3a net: check dev->gso_max_size in gso_features_check()
+92b86189b93fd58fd7f9053654f1e9aca1319dbe keys, dns: Allow key types (eg. DNS) to be reclaimed immediately on expiry
+4716bfad0d6709ae544b2c1aecd64a43929e8e30 afs: Fix overwriting of result of DNS query
+ca89f09997ad223acb523066326d0e9f45d8c73d i2c: aspeed: Handle the coalesced stop conditions with the start conditions.
+e4119282cd0abb716f0e984ad2aa2bae8135fd7c pinctrl: at91-pio4: use dedicated lock class for IRQ
+ba0e57bc343edc43b7d7c5bc2a11d0163b9e25f7 ALSA: hda/hdmi: Add quirk to force pin connectivity on NUC10
+3c082ef3e700260f2652ad3be1f179f024081387 ALSA: hda/hdmi: add force-connect quirk for NUC5CPYB
+1e93850ecc71f4241611df36c547285fd0b54170 smb: client: fix NULL deref in asn1_ber_decoder()
+26f2cff524c138c6af5a44ed45b3c372ae9ca672 btrfs: do not allow non subvolume root targets for snapshot
+fc64fbacd2775e91ecd386878af9fdef7f4988f3 interconnect: Treat xlate() returning NULL node as an error
+520ee6e3f27414975130a9e5354b56d4397721f4 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
+9b83fe0106c10337c6dee4a858a9e0ddc4f8d7d4 interconnect: qcom: sm8250: Enable sync_state
+7f6c690cb41d664128401abef4eb121b3444e8ee Input: ipaq-micro-keys - add error handling for devm_kmemdup
+0c109bf648e201edbb31a5e4f608ad18d0c0c712 scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
+875e8ec3235bcf7e111c4d62e780015a35809f28 iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
+15c5223fb173703e4d23844523c671d6164d615b iio: adc: ti_am335x_adc: Fix return value check of tiadc_request_dma()
+3da6a2b0fa43915f4eb1fadec9b5f81ccfb9063b wifi: cfg80211: Add my certificate
+2a4299d8a1480e438dabb6a0f9d3c80bd977ef88 wifi: cfg80211: fix certs build to not depend on file order
+90f6a3b8ef105f059f9384cd1d557368f10981d4 USB: serial: ftdi_sio: update Actisense PIDs constant names
+bf05831d4f97a09b7d01800d36e6cd7a05ac6aac USB: serial: option: add Quectel EG912Y module support
+c719fa237f747b981e31eab77d3d10aed6d74557 USB: serial: option: add Foxconn T99W265 with new baseline
+5eb6a01ec4212d3a9902bc96b71cf96a8319f952 USB: serial: option: add Quectel RM500Q R13 firmware support
+5ac799f455b93b8d8ef54802b97c5e33bd4360f9 Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
+49d27b8d148f97e90e3f8137f146a7ec76a452bf Bluetooth: L2CAP: Send reject on command corrupted request
+f6ea730bdd5474f5bbb0d4e6909a76bb39603dac Input: soc_button_array - add mapping for airplane mode button
+2c1e3534b2c5b77efdae1bbe37bed0e2f4b32fb2 net: 9p: avoid freeing uninit memory in p9pdu_vreadf
+af15146166ddcfaa8828df1d3bc761532d4dbc2d net: rfkill: gpio: set GPIO direction
+a4ec6889e0eacbbd39a5eed4e52a2356cf0328ee net: ks8851: Fix TX stall caused by TX buffer overrun
+4d491c1dfe3a3a995e5856ded22906399e96bdc2 dt-bindings: nvmem: mxs-ocotp: Document fsl,ocotp
+d89b32b5b4f6ca8766fb6d42f071a32af809c4cb drm/i915: Reject async flips with bigjoiner
 
---===============6379472673402309702==
+--===============5830840465080699716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7b5f466725b-2d450c14ed03.txt
+Content-Disposition: attachment; filename=revlist-2d450c14ed03-2563e497f1f3.txt
 
-90cdf93968c982245d81464d12c760130f3e5508 ARM: dts: dra7: Fix DRA7 L3 NoC node register size
-54e4dfcca502431b90db630194d0ff9a714fa902 ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
-99165e2540c8dc9b4ede39c6a2d82cfd60a2fa98 reset: Fix crash when freeing non-existent optional resets
-08a63e70b320a55de8b67f352c18d07c5814e745 s390/vx: fix save/restore of fpu kernel context
-1b1be100b25ecc67479ceb07653c992269f9e48f wifi: iwlwifi: pcie: add another missing bh-disable for rxq->lock
-f6d5728a9d4103bf416b36fe57306d6780f84794 wifi: mac80211: mesh_plink: fix matches_local logic
-04f2b8a980381cdcaa4b697c82f680bfedf0d41b Revert "net/mlx5e: fix double free of encap_header in update funcs"
-d11608432abe9a5a2a6c11e6a69dfbcef7fd829d Revert "net/mlx5e: fix double free of encap_header"
-5e7fe8e1ad0fc318c33e5b5f8a66cce8c51cf226 net/mlx5e: Fix slab-out-of-bounds in mlx5_query_nic_vport_mac_list()
-33c738ab0ffbfef24d52463905ff3e74e2344050 net/mlx5e: fix a potential double-free in fs_udp_create_groups
-d67a03068e7ac3cbb6952c3b0f8d5e6daad9b2f7 net/mlx5: Fix fw tracer first block check
-e4a83621818769ddc67b63be87c99e3b5f149165 net/mlx5e: Correct snprintf truncation handling for fw_version buffer used by representors
-09bb8126276cf5e0e731fc673122594befdc9e18 net: sched: ife: fix potential use-after-free
-861234b5e480916470fe2e55c7bb2eddac24df5e ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
-7a30e86cdf066ea43b741297fdf1798159f90b65 net/rose: fix races in rose_kill_by_device()
-11212efa7af0ee26b8a7b795235e6e091956edaa net: mana: select PAGE_POOL
-f084e91866d2327185b95ea40f5b98c41f5f40cf net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
-86a6e9b3600cfb228fcb6c9e02445d55986b0d7f afs: Fix the dynamic root's d_delete to always delete unused dentries
-b714ce08e67c827b25c5a77bce0e6ab5268bd210 afs: Fix dynamic root lookup DNS check
-4622b31660dbc210ce137f714c08348d06993203 net: check dev->gso_max_size in gso_features_check()
-2436b6097a83d88f76d8caea466bfffe6bdb3a0a keys, dns: Allow key types (eg. DNS) to be reclaimed immediately on expiry
-48a85a27e8152b605c7532ea3eb25654c7c3bed5 afs: Fix overwriting of result of DNS query
-d5fafdc3fc2685347b5f616e9e39808508c2962b afs: Use refcount_t rather than atomic_t
-e2d71d03b6637c4e366cb0d5ee4b411728e7ffff afs: Fix use-after-free due to get/remove race in volume tree
-fd7a9209b830b855c37ea27f6ee6941183ee5655 ASoC: hdmi-codec: fix missing report for jack initial status
-964952691d78e5be4e27b6eab52f1612b031335a i2c: aspeed: Handle the coalesced stop conditions with the start conditions.
-ab60324fe8f7626eb40e1fe5badd0d71cf0b283b pinctrl: at91-pio4: use dedicated lock class for IRQ
-85897b167e1dee0005f21da7570f96fb4f4bae0f gpiolib: cdev: add gpio_device locking wrapper around gpio_ioctl()
-f571ce165b6131ee99997e1a7dcd86de7949f6f9 ksmbd: fix wrong name of SMB2_CREATE_ALLOCATION_SIZE
-a4762b66a473eb6b1e55fc79eec92e6dd5cc1f78 drm/i915/mtl: limit second scaler vertical scaling in ver >= 14
-175f89663ceabbf0cd9a7bc85649550e7bfc149c drm/i915: Relocate intel_atomic_setup_scalers()
-f8845d024c6f6a2e5d03f797f2e25ee9875c9f09 drm/i915: Fix intel_atomic_setup_scalers() plane_state handling
-79ad41587f2f82ff5a3d1356d6177d4972bba161 smb: client: fix NULL deref in asn1_ber_decoder()
-f2c640f0afd1de23cf79447c7b88b39c076ce1c5 smb: client: fix OOB in smb2_query_reparse_point()
-a6fa3d722525a1cd1f469fff64f95c68e9663095 interconnect: Treat xlate() returning NULL node as an error
-0449aab5680bf4b4f36236b8abc3e3de79545289 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
-de8115168d3442777e35d3b0d766467be1001bd7 interconnect: qcom: sm8250: Enable sync_state
-f86297d268f2f06b1566b3a22d0a66fe533e6eea Input: ipaq-micro-keys - add error handling for devm_kmemdup
-07492b8e963ce79d98dbcfcb2d3bb2669733c713 scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
-1cad1385f31cd0e7a82689d4b8e7a75b7801a2fd iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
-f488d62388ccd1ad7f21636f988d73dc3f096868 iio: adc: ti_am335x_adc: Fix return value check of tiadc_request_dma()
-cf2c22a229249811a3bdf593d7f6d21148b3dc77 iio: triggered-buffer: prevent possible freeing of wrong buffer
-eaf65fc0f8768912449002e87984b4c09554f1d1 ALSA: usb-audio: Increase delay in MOTU M quirk
-0f76920fd853a8484f9a2881b26622dc66cc054a wifi: cfg80211: Add my certificate
-79fd4e9575d62581df557d343e20d6376ba2784e wifi: cfg80211: fix certs build to not depend on file order
-399482395a123559699265374e096adb05fb9328 USB: serial: ftdi_sio: update Actisense PIDs constant names
-a35a2cd777864147b1744350aa56d8f619999172 USB: serial: option: add Quectel EG912Y module support
-e0ca22a567205458a69ad0a5a97b67d81e3c14f3 USB: serial: option: add Foxconn T99W265 with new baseline
-d2129c6cab3f08663dfadee4a36bce2636b300fe USB: serial: option: add Quectel RM500Q R13 firmware support
-20ee19ee1c45881593905aa91d70049d49bd8142 Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
-39407c1aa20e6658e645bb12e8a71e997021a872 Bluetooth: L2CAP: Send reject on command corrupted request
-7d125fc8da33daa2e34bd7bdc626446638bcc085 Bluetooth: MGMT/SMP: Fix address type when using SMP over BREDR/LE
-c8304f09326717e1547d146334c6b69d6b0e252b Input: soc_button_array - add mapping for airplane mode button
-50f68552b6ba8cd37490840ce203b2978b0cfa5f net: 9p: avoid freeing uninit memory in p9pdu_vreadf
-f4dfe7cf7abe232fe8fe67953ac0504c703e7ce0 net: rfkill: gpio: set GPIO direction
-063fd6f20bf80c672c75460de3e0dc142a9d7c7d net: ks8851: Fix TX stall caused by TX buffer overrun
-c11db481c8191845ea80ff00a6f32d3a6d9ee63c dt-bindings: nvmem: mxs-ocotp: Document fsl,ocotp
-2d450c14ed03e8fafa87e81b66ce5fe3e6af48ca drm/i915: Reject async flips with bigjoiner
+abeca315f05075adfde932cfb603b90cc617fcdf ARM: dts: dra7: Fix DRA7 L3 NoC node register size
+9c798b5faf4b467868ade6b67001fd77a8c4b8bc ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
+41b9f08ea4a83172fcc9f98d705b5ade3573b15a reset: Fix crash when freeing non-existent optional resets
+d255bf3f86cde389b20f2429db51586da51dba19 s390/vx: fix save/restore of fpu kernel context
+8a7aa6e8ecfa6e7e3bf5f74c6c4ae8b4a52974da wifi: iwlwifi: pcie: add another missing bh-disable for rxq->lock
+a1db780fa7df32af498037f1844d255fdc3feb42 wifi: mac80211: mesh_plink: fix matches_local logic
+8a242cacd6b2c0dad32518f86cc1f8021d7877bb Revert "net/mlx5e: fix double free of encap_header in update funcs"
+8ed1636f9ad8063a582ea63c5c3a15ab65df305a Revert "net/mlx5e: fix double free of encap_header"
+55f39367b7023a9db83fa4e734233c22bb89bf54 net/mlx5e: Fix slab-out-of-bounds in mlx5_query_nic_vport_mac_list()
+920955603ded6a3a53feac3d5c90bf743f518136 net/mlx5e: fix a potential double-free in fs_udp_create_groups
+eeca76aae76f7be3a214ac74a8370721cad3258d net/mlx5: Fix fw tracer first block check
+693b060a91d617a231f201f2468de390b42da6f6 net/mlx5e: Correct snprintf truncation handling for fw_version buffer used by representors
+9b9f16ff1533070c519e2fd8132336a08870dd06 net: sched: ife: fix potential use-after-free
+68cea6527b17a9dba461226f5d707ae585d69ec9 ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
+cf3d53517be2779cbcade191e91aa3a61906bcba net/rose: fix races in rose_kill_by_device()
+64cca53f5acceda7fc2e787dbb3a17d414adae3a net: mana: select PAGE_POOL
+f081925527fbf6cfea78b107761f37be7aab0262 net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
+019399400e550e2c2cba2ec047d3ea920db4ed86 afs: Fix the dynamic root's d_delete to always delete unused dentries
+6e862abf7c4ec030a3611e51695dde007031f56e afs: Fix dynamic root lookup DNS check
+a4870a0e717ade2112f0f05758303e9b9a034417 net: check dev->gso_max_size in gso_features_check()
+70e276fc941e41bd08ae57edc621e1fe2f21f582 keys, dns: Allow key types (eg. DNS) to be reclaimed immediately on expiry
+cd449b584a27bd45a321c6bcee1b6e63cf09cc92 afs: Fix overwriting of result of DNS query
+a7416db02d5a3c4d0ba9c1a9f0f86b46dd8bd838 afs: Use refcount_t rather than atomic_t
+528b2cb5111e55ccf23bdc303b926ab97b9c1503 afs: Fix use-after-free due to get/remove race in volume tree
+d62f39cbb35370b9bf51f83868ae6cf14c7d500e ASoC: hdmi-codec: fix missing report for jack initial status
+099c3e67a84fb4ff8a0b039ef9da7875418bc3ed i2c: aspeed: Handle the coalesced stop conditions with the start conditions.
+e67b6c32c2dc5b6a3da69f5c38dc374f73a4bc19 pinctrl: at91-pio4: use dedicated lock class for IRQ
+c00eec97bce85294188c552c378104ab3838ad1b gpiolib: cdev: add gpio_device locking wrapper around gpio_ioctl()
+c419186be54745f149f8a1d58199b9a58aaf18dc ksmbd: fix wrong name of SMB2_CREATE_ALLOCATION_SIZE
+ed70fe2a1f8b25f3778a5e77a5fe6cab28a3904c drm/i915/mtl: limit second scaler vertical scaling in ver >= 14
+a19e2d75f32f0886c34a6cd797b4c0bfbec5d9eb drm/i915: Relocate intel_atomic_setup_scalers()
+85521d32490bf627100212bbe04649df07ec4cf7 drm/i915: Fix intel_atomic_setup_scalers() plane_state handling
+be95cb8bc4cb2b7c3d78868304624e79f5d2b816 smb: client: fix NULL deref in asn1_ber_decoder()
+5e375b5765ee30c27b47373169bf1d81783f5f83 smb: client: fix OOB in smb2_query_reparse_point()
+3e1726ca3a3017ddd4d765d7e29b44cd169f1014 interconnect: Treat xlate() returning NULL node as an error
+3e30a9c2a092749dcac64670996427ebffe69d46 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
+3095743801bce2739386bdd9a407c0459b1c673b interconnect: qcom: sm8250: Enable sync_state
+7838d857cbe05cd7211ea6444d41ecec6c5716b6 Input: ipaq-micro-keys - add error handling for devm_kmemdup
+52c571e2d97f0e46a0b79ab8ebb6b95d1a8372cb scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
+d8726c53356f9bcf27c9f311bf77615b1a4a8155 iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
+5fc98e01f1932f72d679cc6805a3d6aaa89bedba iio: adc: ti_am335x_adc: Fix return value check of tiadc_request_dma()
+0869b0b63d98c18e1c330a592d6d8796cb7b3d01 iio: triggered-buffer: prevent possible freeing of wrong buffer
+3d0bfb99dcc571ba741b77ccb69ef0fc20fbc49b ALSA: usb-audio: Increase delay in MOTU M quirk
+a72c626ba0c6893a032bd5ad69d81d2d83f2e254 wifi: cfg80211: Add my certificate
+15cb10c1ee417b1ae3458191b049e537f41b17e2 wifi: cfg80211: fix certs build to not depend on file order
+6c19fdd9975ed3f5f491138093c9ac2f347c6ab6 USB: serial: ftdi_sio: update Actisense PIDs constant names
+881cc2e581d54fe9c625b8becd1170669d4d8c5b USB: serial: option: add Quectel EG912Y module support
+b1c1f67dfe8cff7f88001440a85f6cc991eed78b USB: serial: option: add Foxconn T99W265 with new baseline
+a0e3d38c2845a70b558eb01d54c876dad146fd02 USB: serial: option: add Quectel RM500Q R13 firmware support
+08f6c8551453011f80eaf159abfa18f817b06759 Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
+1773c8cefd4794eb240b9abb6c9e630f6a5b8a8e Bluetooth: L2CAP: Send reject on command corrupted request
+380e5954548bd97acb4239e7ea927b7da8d15b9e Bluetooth: MGMT/SMP: Fix address type when using SMP over BREDR/LE
+488d0a8c6bc01f5ddc0918a86e2ae245e5412a92 Input: soc_button_array - add mapping for airplane mode button
+5fed8fb02907e2dee73e1abd18e0e3edd96f4a8a net: 9p: avoid freeing uninit memory in p9pdu_vreadf
+a5e7baec16aefcbac3e6f37a0e8d20ab67d978ba net: rfkill: gpio: set GPIO direction
+9f4fcde81979e362d50532a22409f5d50f0e960c net: ks8851: Fix TX stall caused by TX buffer overrun
+c727e20262ef8a904830ec0708ba0e6975ecd86e dt-bindings: nvmem: mxs-ocotp: Document fsl,ocotp
+2563e497f1f33e58bb7e82651f36783f2958ee96 drm/i915: Reject async flips with bigjoiner
 
---===============6379472673402309702==
+--===============5830840465080699716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea0aa7c3b65e-d03a107b5809.txt
+Content-Disposition: attachment; filename=revlist-d03a107b5809-d802fd884c5d.txt
 
-54f8ff5e2711a74bf0aef5dd262ebdff47296268 ALSA: hda/realtek: Enable headset on Lenovo M90 Gen5
-7315611c33f94174c8f5250051b07f712efff6dc ksmbd: fix wrong name of SMB2_CREATE_ALLOCATION_SIZE
-ab6f0d6d17d77a7386f3eef947916c18313dd4d7 ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
-d7d72ed8655e30835e7e8e87715fd79aede9a2c3 reset: Fix crash when freeing non-existent optional resets
-75d1d4214652bf812e6c8a96d75270ba636a89bc s390/vx: fix save/restore of fpu kernel context
-531e3c00478b22f0e2f9d93ff66d32ff02a73d1e wifi: mac80211: mesh_plink: fix matches_local logic
-94fc07cb8660d0035ac6b89e5bf8c9cdcfc01184 Revert "net/mlx5e: fix double free of encap_header"
-c7caed11154aaea6afd34afd7c49d61fcf7a5450 net/mlx5: improve some comments
-a9d410f3de577f0124491df8d8e182085433ac6f net/mlx5: Fix fw tracer first block check
-54e474b1108f161d5758a4f96cc6e1e395926196 net/mlx5e: Correct snprintf truncation handling for fw_version buffer used by representors
-3ea601dc320aaa666d74738bac2f31b7a487d8d3 net: sched: ife: fix potential use-after-free
-39be582a998f3e8c4635069dfcada1e299645107 ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
-92c7a08ad974970493c3abf07d6db9cb494ffdbb net/rose: fix races in rose_kill_by_device()
-4b6b7f0a08188e5032882a1a2da997b4b32d61b0 net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
-6ba7e64d811c68aa92544754f5b5cac578b2319d afs: Fix the dynamic root's d_delete to always delete unused dentries
-b3a0485e18b0a57a38a997426d040b338da2b3d9 afs: Fix dynamic root lookup DNS check
-51e4c85d4dec8ceae5977f466094314a91ef9a3b net: warn if gso_type isn't set for a GSO SKB
-6cfe0e5c1f8b3264ea5eaa3b04217ad124671529 net: check dev->gso_max_size in gso_features_check()
-28c6c96086208d50f283d9d807b9fa00b09f76ab afs: Fix overwriting of result of DNS query
-6e662c1c85f11f1c0d6a4303fdde5969b945cea7 i2c: aspeed: Handle the coalesced stop conditions with the start conditions.
-e1027babc931d8efa838a1dfba5e6ad403cf806b pinctrl: at91-pio4: use dedicated lock class for IRQ
-34c36a09749857f7da6f778ad5c4c38eef2e533e ALSA: hda/hdmi: Add quirk to force pin connectivity on NUC10
-e0144c572cdeef563807f51a5eb0f58ffa093b8c ALSA: hda/hdmi: add force-connect quirk for NUC5CPYB
-756788ebffa8099ab447f14c3b825fe8274ed993 smb: client: fix NULL deref in asn1_ber_decoder()
-a418dd32527d8215831ae749c7b0e39db7faaf29 btrfs: do not allow non subvolume root targets for snapshot
-bc13b1365e7a7e177fc2aed5f2802196edb51c11 interconnect: Treat xlate() returning NULL node as an error
-45130aa38e99b189e97ac8af5b4857e4fb273532 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
-8a745f452d30c3ed5b9293bb7f91dd94766d9826 Input: ipaq-micro-keys - add error handling for devm_kmemdup
-3b9855c7d75b1a98a187fe5d5d54140b173e8808 scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
-8223da0f9e7244c7eaa3bcbd3ef58beecce15045 iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
-7c58a4834bcaf86b716a9bd02b0319eeb2b8a5e0 iio: adc: ti_am335x_adc: Fix return value check of tiadc_request_dma()
-817da1ef30fd7385b160f4a6bbe0f68bf5ce68ad wifi: cfg80211: Add my certificate
-e53165fc34389f8b7d5ee4e2975ec0bf7e928242 wifi: cfg80211: fix certs build to not depend on file order
-586fd9fb4e6874010f07f6ae71f185af6424ad3d USB: serial: ftdi_sio: update Actisense PIDs constant names
-3a10cbe17354e7ecc95d3d49e0a3b6511651492d USB: serial: option: add Quectel EG912Y module support
-35afb98b6be54c6480f40bec5c7c7e99cf7aa026 USB: serial: option: add Foxconn T99W265 with new baseline
-1c44fdb1f9a9cb0ddcf14e48ca262718856c238c USB: serial: option: add Quectel RM500Q R13 firmware support
-5ce461e5d444384e3a9aceab2be9c59dfe9c4a5f Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
-048e1a9b67f9be07dc9df0094df5f9a1539f7b87 Input: soc_button_array - add mapping for airplane mode button
-a640aa665fff7b7b9c0e7ec6901140ef8def3366 net: 9p: avoid freeing uninit memory in p9pdu_vreadf
-b91a4f3b2b099bd78cf44739f75941ca8e20d502 net: rfkill: gpio: set GPIO direction
-d03a107b5809f10d681db19b8c08549c008032a3 drm/i915: Reject async flips with bigjoiner
+3d0d1adba8aaa6f92abf035f090ec702eef33b35 ALSA: hda/realtek: Enable headset on Lenovo M90 Gen5
+da83e1fb46b108bd8cecc90404581dcc46e827c9 ksmbd: fix wrong name of SMB2_CREATE_ALLOCATION_SIZE
+4500ca4c0c5bcbf64d6dc05e063bc74e244a5d3e ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
+6bdb9d5ad9450f45b3e0ec5869a45aa0901e206d reset: Fix crash when freeing non-existent optional resets
+8c095775a1a9ae8417abe80bcdac75f0c8cb379d s390/vx: fix save/restore of fpu kernel context
+0606d74f32ffb6ae64f4c82a7bb70ab62f802a48 wifi: mac80211: mesh_plink: fix matches_local logic
+2c8b1117d3ac5e0737787eda85a22def77c4c1c8 Revert "net/mlx5e: fix double free of encap_header"
+6c65b5804915b9da1076ca57d51d758185fb4a2f net/mlx5: improve some comments
+231bacb5cc6cac6e8b26c0fb1ea121bca8d4439b net/mlx5: Fix fw tracer first block check
+380b2ae83cdd41aaee59986e6695a5cf2df4692b net/mlx5e: Correct snprintf truncation handling for fw_version buffer used by representors
+a4ffbea87beadc7391b119937b90102af20abf4e net: sched: ife: fix potential use-after-free
+abffb92fdbab66acfa45af75241274474401ce24 ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
+555b342d7358650d47da3862fdf37c2d8a157633 net/rose: fix races in rose_kill_by_device()
+319f3f75374b6719df73900a378ea43f41c7ff66 net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
+faa8fc68eee2069787731be2007fa976902929f5 afs: Fix the dynamic root's d_delete to always delete unused dentries
+6348ec6dff461a2bec8c0a384b31c04b7abc800c afs: Fix dynamic root lookup DNS check
+1eb59bafa4c2c5ba3b8fbdd672d029a7c5551645 net: warn if gso_type isn't set for a GSO SKB
+b53477e626c006e687f71eb6313442cc339617f1 net: check dev->gso_max_size in gso_features_check()
+74ae3d81b0888cf61d2bfe46142257efd7233664 afs: Fix overwriting of result of DNS query
+ea7e96bc1ba242ffeb1973f437411aa0824a5858 i2c: aspeed: Handle the coalesced stop conditions with the start conditions.
+f88e6c264fc094936329856c77198a6200849be6 pinctrl: at91-pio4: use dedicated lock class for IRQ
+b1fcb47cf011adb07ee230ffdb5d45cb0285ec4a ALSA: hda/hdmi: Add quirk to force pin connectivity on NUC10
+a821b896d5992c51615011f584fcfbe975382008 ALSA: hda/hdmi: add force-connect quirk for NUC5CPYB
+596eb5702d85ef848764350c4a293d03570f19a3 smb: client: fix NULL deref in asn1_ber_decoder()
+84cd08de55f7c52306a384731453bcd76e111bd4 btrfs: do not allow non subvolume root targets for snapshot
+d5285e93fa7cd5003f5d621bcaf4e960a5946694 interconnect: Treat xlate() returning NULL node as an error
+296253a308a0f68c1cd02a23549112f409b855a3 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
+eb17d9760d0c688beed031bcac2b68302615a7cc Input: ipaq-micro-keys - add error handling for devm_kmemdup
+9f33334a9a30e81bd8ca059a40d578ccf3d0bd27 scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
+11003d6f1963fc3d0055e00fc305145e8ef0e187 iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
+73c71b5626c3a71e1494c0ff19e49faa78e281f7 iio: adc: ti_am335x_adc: Fix return value check of tiadc_request_dma()
+900827df38f2e0d625a888663d7b34d4981b7ddb wifi: cfg80211: Add my certificate
+4988f90919f5b80f3101aaeef589a804ce94ff91 wifi: cfg80211: fix certs build to not depend on file order
+616713229f29a2b3719eb7ec08cc7537e0b4b0a1 USB: serial: ftdi_sio: update Actisense PIDs constant names
+fa007c6cb56af980a776c186862c10be16b0b13d USB: serial: option: add Quectel EG912Y module support
+d71520ca3b8e45e74cc69034eb8e4ceb58d08035 USB: serial: option: add Foxconn T99W265 with new baseline
+5faca80e6eb3a5332d2ff99a1aef80f323323132 USB: serial: option: add Quectel RM500Q R13 firmware support
+8e4a07a9a3be6ea70182551a93164a16b361ee79 Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
+d3cb7462aa2881f704af66d8605abb1b7ab8f2dd Input: soc_button_array - add mapping for airplane mode button
+664c26f04a93a9a1db6ec96d280857edbd6f1d4f net: 9p: avoid freeing uninit memory in p9pdu_vreadf
+e72bf91573e6c831ba921e8ad52f6fbf404737b4 net: rfkill: gpio: set GPIO direction
+d802fd884c5d50a216d3aa80e96f96598927dad8 drm/i915: Reject async flips with bigjoiner
 
---===============6379472673402309702==
+--===============5830840465080699716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0eddf9e2b376-5d97d09e5b9e.txt
+Content-Disposition: attachment; filename=revlist-5d97d09e5b9e-1fd22a6e4a2b.txt
 
-548801d2b7c4daba9fecdb35f96bb8e8f3909d6d kasan: disable kasan_non_canonical_hook() for HW tags
-b1c6c008379aba3855d546a2cb44477e8b0582b8 bpf: Fix prog_array_map_poke_run map poke update
-c85e223ff2d9ffb55df7fada10dc7ea98ecd7547 HID: i2c-hid: acpi: Unify ACPI ID tables format
-47a9e25548e552b54424617c5029d8c0dc6ab11b HID: i2c-hid: Add IDEA5002 to i2c_hid_acpi_blacklist[]
-6c7a03a44e98cfcdbf9a3b99b31f64bb2235c7f7 drm/amd/display: fix hw rotated modes when PSR-SU is enabled
-c9f2fe4364a3dec3b7bdbe2a79f949ced02e917d ARM: dts: dra7: Fix DRA7 L3 NoC node register size
-13b2190bccd8dd89fe5465bd5be607d7785c64af ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
-27cbe2686b3088fa3871161d62ef7ffc0151a40b reset: Fix crash when freeing non-existent optional resets
-dcfe7249d1c3ea8ae7f963debff9106b761494c9 s390/vx: fix save/restore of fpu kernel context
-050dd0b3c844ab992ae68bc09607d11fa5a67a52 wifi: iwlwifi: pcie: add another missing bh-disable for rxq->lock
-425228dc5636617a2be60fe7467a70829d095bd7 wifi: mac80211: check if the existing link config remains unchanged
-9ab37e4ef8d3988ab2a30a4ed73f496795c21801 wifi: mac80211: mesh: check element parsing succeeded
-eb012e8bd9e97e662c68890ed9b940238541d0c9 wifi: mac80211: mesh_plink: fix matches_local logic
-4c67b9ae222626d34547991b10961fbcfe148a18 Revert "net/mlx5e: fix double free of encap_header in update funcs"
-3788bf3c51bff770dbfa9ae018aa2b0200d31566 Revert "net/mlx5e: fix double free of encap_header"
-a012d06b20673ad0938cad7169d8609f3d81a631 net/mlx5e: Fix slab-out-of-bounds in mlx5_query_nic_vport_mac_list()
-2bcb68a30afce4457858f8a239ca99d288c1916d net/mlx5: Introduce and use opcode getter in command interface
-8b09737fef43ee90185f6cb99b36e035decfd256 net/mlx5: Prevent high-rate FW commands from populating all slots
-312393070e3c748b48d5cd23eabfdf15a26e4420 net/mlx5: Re-organize mlx5_cmd struct
-49cf4b4181ae002f1d0469007c03d7c06c162843 net/mlx5e: Fix a race in command alloc flow
-1d8cab7265f3250d4b39ab941ee1e0999c917c5e net/mlx5e: fix a potential double-free in fs_udp_create_groups
-e47c0e54e3f2ac23946c04f836942ac136386f1c net/mlx5: Fix fw tracer first block check
-a213be9d02c89722dcc5c82a32559b1a87e0497e net/mlx5e: Correct snprintf truncation handling for fw_version buffer
-46bf6a4b3bdc135750b01d3b7c210e9f7391055a net/mlx5e: Correct snprintf truncation handling for fw_version buffer used by representors
-15c9feb09a5d4dc51b3867b35d4499eaa29e7ee6 net: mscc: ocelot: fix eMAC TX RMON stats for bucket 256-511 and above
-0f5f1aeddfd216966e50dc0a2be47c12a48122a6 octeontx2-pf: Fix graceful exit during PFC configuration failure
-aa5ac87658683484cc7e92a8bb4580ab1098dce6 net: Return error from sk_stream_wait_connect() if sk_wait_event() fails
-a1cb576ced4f980e211b5a574023c495148a4a37 net: sched: ife: fix potential use-after-free
-53029ba02197ce3d853ea27c341a302fcc59241d ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
-8837dad3d3745e7bee17fe610587e1411d1a3e8e net/rose: fix races in rose_kill_by_device()
-c01f51f9bbb50278e05003e6557d982318482135 Bluetooth: Fix deadlock in vhci_send_frame
-4c270a3cf041864e0d243dd66fd630725e90a173 Bluetooth: hci_event: shut up a false-positive warning
-21aa25ac60d5feaec889b65a67098ac99fcdd381 net: mana: select PAGE_POOL
-8d84e6c52b2c4549f3c2fa2cb8460a769f9f19ee net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
-6afb9bc6e616115877ec3c7de94296a0764d59eb afs: Fix the dynamic root's d_delete to always delete unused dentries
-4cc76b4cd3c0aed894105e7e3661d31e6bc8f3ba afs: Fix dynamic root lookup DNS check
-30dec85bbc197069ca34382057f636036be57eaa net: check dev->gso_max_size in gso_features_check()
-53ffa01a40a9b2326f20e6f592f3966e5b4e3b0f keys, dns: Allow key types (eg. DNS) to be reclaimed immediately on expiry
-e71506c2c6f05e34242ccd2732cf4cd50fb650a5 afs: Fix overwriting of result of DNS query
-bfd977a790496ceeec9d58b80e912316d07d9535 afs: Fix use-after-free due to get/remove race in volume tree
-5f80d5a6575619f1a6e708484f1c1e12391c26f5 ASoC: hdmi-codec: fix missing report for jack initial status
-efe1108103c17de395c420e3241123420c35e5a9 ASoC: fsl_sai: Fix channel swap issue on i.MX8MP
-f5aa6c34a74195888eb4cf329fe8943bafaec296 i2c: aspeed: Handle the coalesced stop conditions with the start conditions.
-2b172225f15d907c1add4534411cc441e5ea4dc6 x86/xen: add CPU dependencies for 32-bit build
-96b65b09a42e91a0714d0c2f8a3396a50bd0492c pinctrl: at91-pio4: use dedicated lock class for IRQ
-6ea656aee37c969520d9e7b072173452142f5f81 gpiolib: cdev: add gpio_device locking wrapper around gpio_ioctl()
-9ea6c60eaca7a493d5ce193bd11febbd68dc7bf1 nvme-pci: fix sleeping function called from interrupt context
-4d153d295139fa4fe830c2f042ec00b90061e5a1 drm/i915/mtl: limit second scaler vertical scaling in ver >= 14
-7603e8a44b674102c1141bbd48086860a2523e3f drm/i915: Relocate intel_atomic_setup_scalers()
-0c11021a0bdc3a99454ce309749c86adfe4db574 drm/i915: Fix intel_atomic_setup_scalers() plane_state handling
-6474f13bdcfb3085b21b05fbae3ce64c1c006b69 drm/i915/dpt: Only do the POT stride remap when using DPT
-29046b4e84faa303a84043d4409b2cbf026adaf6 drm/i915/mtl: Add MTL for remapping CCS FBs
-c4745f985e9e16c6300dd98e1576a056f9849df5 drm/i915: Fix ADL+ tiled plane stride when the POT stride is smaller than the original
-42170dd4877234c838f8106f15ea9fa1cf4ba5e9 interconnect: Treat xlate() returning NULL node as an error
-3cf07d806b5eec03865d2b97ac86a41cc7b6b7d5 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
-e3c169c55011ecb2c654c7a0f82b79a51927faaa interconnect: qcom: sm8250: Enable sync_state
-de93f8a1a8564245680abbf0769b91b18aab4eb0 Input: ipaq-micro-keys - add error handling for devm_kmemdup
-6ea7e83a6abc458835734c042d422dfcaf77d7db scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
-5509eb6255ced2909fd677608260c4d7bce72a03 iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
-b61e192d17f2638dd9e0e74eee0d4b0fec625fa9 iio: adc: ti_am335x_adc: Fix return value check of tiadc_request_dma()
-53fb9a4d4158b840c5485cceb14d932f655b85fc iio: triggered-buffer: prevent possible freeing of wrong buffer
-f5dfa4f336ecf997692296d18f37a517d9e54272 ALSA: usb-audio: Increase delay in MOTU M quirk
-262cd278553c1b4699595306564d2f98f1a8c726 usb-storage: Add quirk for incorrect WP on Kingston DT Ultimate 3.0 G3
-e383dd722bfa243d0a5f60b899601729c508ec43 wifi: cfg80211: Add my certificate
-ec5eb2c99eb3458f6785241ab52163c93930fcfa wifi: cfg80211: fix certs build to not depend on file order
-8d25aa9a91050235b23e3202e3d0191fc7a9964c USB: serial: ftdi_sio: update Actisense PIDs constant names
-486dee300d86ff13595f5e8de5c0ee3652f37f0a USB: serial: option: add Quectel EG912Y module support
-bc2733c2ead2de059ed5e31c73d1722e5c141818 USB: serial: option: add Foxconn T99W265 with new baseline
-638941f1d14a500408433750cc76ba2bfb773b04 USB: serial: option: add Quectel RM500Q R13 firmware support
-7a53b3dde70713e6b6db04edc4a5138a8b79e928 ALSA: hda/realtek: Add quirk for ASUS ROG GV302XA
-8545d985eacbfb63969e96ac5c8d31fd3ca28905 Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
-1f9689df20f461ecb4cebffd3919ebf5c969d6e5 Bluetooth: af_bluetooth: Fix Use-After-Free in bt_sock_recvmsg
-75f911a758de5bd2b18bc7b4c62698d38aeea5b9 Bluetooth: L2CAP: Send reject on command corrupted request
-b1d9540819751ce4b5f623fcc9df250a914637d3 Bluetooth: MGMT/SMP: Fix address type when using SMP over BREDR/LE
-a38af6aa7a6e3af00b5c76e7fddc20a9f6aae270 Bluetooth: Add more enc key size check
-bed1822c43f99df563160c6cc93f8daf3a62582b net: usb: ax88179_178a: avoid failed operations when device is disconnected
-9b3ba2d79f5d72a9b9f94e5377fd6956d976ced2 Input: soc_button_array - add mapping for airplane mode button
-c8d95af647ca6e44ffbd944c37233e5f6edc5961 net: 9p: avoid freeing uninit memory in p9pdu_vreadf
-3cfe243787722a5241d8c80500f4a5c41a95585d net: rfkill: gpio: set GPIO direction
-622237759f2d5567e086d306d1d2b1d9a40313d3 net: ks8851: Fix TX stall caused by TX buffer overrun
-cc0500a81be1ea12497eb5ce341ef0a225a622d7 dt-bindings: nvmem: mxs-ocotp: Document fsl,ocotp
-ea6d156b58bf18d6a6bd7f149644fb5829af0c51 smb: client: fix OOB in cifsd when receiving compounded resps
-466527c005dd75a4383dbd2eed820a51497c8c5c smb: client: fix potential OOB in cifs_dump_detail()
-5097caab1bdc2a3e9d22bd7230976e7ef0993fb3 smb: client: fix OOB in SMB2_query_info_init()
-ff8cf64dbe87d17a30650e50be60cf76eff2e92f smb: client: fix OOB in smbCalcSize()
-3ac0370c346fcc218eccfe8a0ad3b0b4040063a3 drm/i915: Reject async flips with bigjoiner
-5d97d09e5b9e1501ceb0eb662492c574ddfed7d8 9p: prevent read overrun in protocol dump tracepoint
+e941ecbdb7c75d3bc422a87ef00f81eb1269221d kasan: disable kasan_non_canonical_hook() for HW tags
+353e39475e1524bd9d26663af34bd207c3b31276 bpf: Fix prog_array_map_poke_run map poke update
+b7ffd9314c22efdef30bbbbb9543c3544097179d HID: i2c-hid: acpi: Unify ACPI ID tables format
+972de99b0fe74c3f2dc90f8058ea5e1f4a8aa35f HID: i2c-hid: Add IDEA5002 to i2c_hid_acpi_blacklist[]
+8e67e71b9260e79df25f6fba70277af465536b6a drm/amd/display: fix hw rotated modes when PSR-SU is enabled
+f1eabfa78835e7b66c3c9f9dec4eac75f850eb64 ARM: dts: dra7: Fix DRA7 L3 NoC node register size
+b2a843cfc006f289094b757e5ff1024c05f15439 ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
+9728e8e0c9bf60ee98cd4c59e6ad4abd6a9a1409 reset: Fix crash when freeing non-existent optional resets
+9092e401419765a56512a45d6b0fffca946047e6 s390/vx: fix save/restore of fpu kernel context
+e8b72d739e89dead4cb8c5a79b6baab9793dd6ce wifi: iwlwifi: pcie: add another missing bh-disable for rxq->lock
+cbe716de274f733e8d01b0a17541552249145f3e wifi: mac80211: check if the existing link config remains unchanged
+b6e64627ed44ee0173dc8aadbf88f441d936884f wifi: mac80211: mesh: check element parsing succeeded
+ca4df16b320af4d9856a8c30a213dd41c62fc681 wifi: mac80211: mesh_plink: fix matches_local logic
+27184f1f21fd9b8dc501c03727e42fb51a45e4e8 Revert "net/mlx5e: fix double free of encap_header in update funcs"
+b809e0b7f38ea133d20b9501e55f54bc94e16afd Revert "net/mlx5e: fix double free of encap_header"
+aaf752c950587650c952554d1e0574530a211ae6 net/mlx5e: Fix slab-out-of-bounds in mlx5_query_nic_vport_mac_list()
+54cd62ba6f526f218224a2329e8d1ff18f084c22 net/mlx5: Introduce and use opcode getter in command interface
+ba2bddf3f17455b56b013c07b81fa40470b14f3e net/mlx5: Prevent high-rate FW commands from populating all slots
+5aafc2f920f1a4be5e86c86a08f571e88451282c net/mlx5: Re-organize mlx5_cmd struct
+c2bd8023678eb72ace264609e2fa41ce738d40ef net/mlx5e: Fix a race in command alloc flow
+a1c2c700b03b219ec1f43b0ab40c6a907cc575a2 net/mlx5e: fix a potential double-free in fs_udp_create_groups
+aab265e53cdcf53947041c5900ac2d6d3b1bc018 net/mlx5: Fix fw tracer first block check
+9812ef649b6ead51f5c44da5c4294c3e25195765 net/mlx5e: Correct snprintf truncation handling for fw_version buffer
+12a990f706e3e407d56f49f47246b0baaddda1dd net/mlx5e: Correct snprintf truncation handling for fw_version buffer used by representors
+57cc8656051446e7a3515cf0e4a4a06ea8b4689c net: mscc: ocelot: fix eMAC TX RMON stats for bucket 256-511 and above
+f9006949797d3d52034e19d7d0bff1278e2858e6 octeontx2-pf: Fix graceful exit during PFC configuration failure
+3ae34271164119eb155253f489b58b371d942c64 net: Return error from sk_stream_wait_connect() if sk_wait_event() fails
+0d6758184136f9ab5a78f634748683eb94b01296 net: sched: ife: fix potential use-after-free
+e141c9f35a0d975694bcc03ac00a8c8026bf612c ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
+d858f51f308a8e5d15646c6ceab6e83fcf9defb3 net/rose: fix races in rose_kill_by_device()
+9678214c0cbe167d76b9a54abfc94755a899c6db Bluetooth: Fix deadlock in vhci_send_frame
+02229bb0e005ce0f44969c199101fc04d3b13674 Bluetooth: hci_event: shut up a false-positive warning
+c9f87cdda370af199a2c273a0478ad5d9e2c2759 net: mana: select PAGE_POOL
+5bbb29d71f3328ab4a51bdb1d8257a28dea1ad33 net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
+a1d8ddbbabc56997a9b777a0f5b232f18b1dc3da afs: Fix the dynamic root's d_delete to always delete unused dentries
+ba6a121a4cf4a9ee30f4be421f984f89f7b130e6 afs: Fix dynamic root lookup DNS check
+16d693f708b00a0e631beb3cdc5db95f6312d95b net: check dev->gso_max_size in gso_features_check()
+d1bf0470461c4236b083de8aae9849667eb08b23 keys, dns: Allow key types (eg. DNS) to be reclaimed immediately on expiry
+4dde558a12210bd2c946e4afdfd36964bed2bf13 afs: Fix overwriting of result of DNS query
+470f5c09f40cde1ce29163f258316663d353a64d afs: Fix use-after-free due to get/remove race in volume tree
+28d46c23a72933271597020466a5d715bf5009b0 ASoC: hdmi-codec: fix missing report for jack initial status
+fa5b3d7c6c3e6c3e007b1f6690ec40dc8e3454e6 ASoC: fsl_sai: Fix channel swap issue on i.MX8MP
+66abf109dfac78117190f9d31d526c31faeb7f3f i2c: aspeed: Handle the coalesced stop conditions with the start conditions.
+0acab7f6e4f3ce2e3d611448020ccbc2c3fb5f2d x86/xen: add CPU dependencies for 32-bit build
+9a1b748d9fb99d053e303a1ca3afa041cbcdf480 pinctrl: at91-pio4: use dedicated lock class for IRQ
+356e72fea7c5d1c001e29e12af7fbf2449df8d0b gpiolib: cdev: add gpio_device locking wrapper around gpio_ioctl()
+ee6e93559a5f63f3657267e941ed6cd283df5d8b nvme-pci: fix sleeping function called from interrupt context
+3159e12a90003da6f22d269da5022064b4ea0a66 drm/i915/mtl: limit second scaler vertical scaling in ver >= 14
+1fbb7ac0e4fff2c60a5ed25775d842323cd9a492 drm/i915: Relocate intel_atomic_setup_scalers()
+35d54fe0961e404081fe08d50eae5c21f2615191 drm/i915: Fix intel_atomic_setup_scalers() plane_state handling
+195e5cc02ed366584e5419adaacdd37606b9baaf drm/i915/dpt: Only do the POT stride remap when using DPT
+8899f7b40aa820d0e3b6ae61c32aeb7767bc9140 drm/i915/mtl: Add MTL for remapping CCS FBs
+c5ebeffa2b4a1f4e9ade577f0cbf319e88d3af2d drm/i915: Fix ADL+ tiled plane stride when the POT stride is smaller than the original
+442857b53580a373104282acaa138421843c6f6e interconnect: Treat xlate() returning NULL node as an error
+1a8abf518ea5c79a90e91f8f7759bf479c924c80 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
+2482802c01e5cb859c09936d9e023dc83a0dbd68 interconnect: qcom: sm8250: Enable sync_state
+fe29906d66ec509c7ae81d8aa3185f624cbb9b88 Input: ipaq-micro-keys - add error handling for devm_kmemdup
+bc58ad8be343fb8d7415bd2ee0ac935677d7aeb6 scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
+71986fe54a803845c8f2a86457a40f21d4f2b81b iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
+d83d3bdfb33c2e085030e97e3fcc5b0a57acabde iio: adc: ti_am335x_adc: Fix return value check of tiadc_request_dma()
+fa1ea8711169278691834f9bb5003b7d69e34b35 iio: triggered-buffer: prevent possible freeing of wrong buffer
+7f69b8c55a8bac77cd22c8659326087b0d2a6191 ALSA: usb-audio: Increase delay in MOTU M quirk
+0677faf7bebc98c03a6452b79cb1fd94c1d5305b usb-storage: Add quirk for incorrect WP on Kingston DT Ultimate 3.0 G3
+d672ea1341f2e560dd5608609b5e3ac3a3997b68 wifi: cfg80211: Add my certificate
+224f65cf13b688aff9221e6f761a6b80b02d7745 wifi: cfg80211: fix certs build to not depend on file order
+908c940269258328a1ffc9f50e050b60af216567 USB: serial: ftdi_sio: update Actisense PIDs constant names
+b79d54c857a009227fec5cd3822e503f49d77842 USB: serial: option: add Quectel EG912Y module support
+bdbbea52883c6129a7b22b94548c5dc18770e3a5 USB: serial: option: add Foxconn T99W265 with new baseline
+ef25a43b8e7924aa7f7831d875919d71ec3a67e7 USB: serial: option: add Quectel RM500Q R13 firmware support
+aa4a6cb8bfc37ee11fcf2b306e79ec1daa6140d5 ALSA: hda/realtek: Add quirk for ASUS ROG GV302XA
+15ecc2d9d322eebb6633409ac2bd7760693d19da Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
+7fd4627b024d2b28077b4b213b8b4dfe577af193 Bluetooth: af_bluetooth: Fix Use-After-Free in bt_sock_recvmsg
+7118741cc32aa93b90100ac6b89350d0085d0220 Bluetooth: L2CAP: Send reject on command corrupted request
+803ea2ecbe8414558f6bdc29a3393202125cc68b Bluetooth: MGMT/SMP: Fix address type when using SMP over BREDR/LE
+97097c77538147c198bad6d4f0ab6098d91b8666 Bluetooth: Add more enc key size check
+01773d0eca12c0c78ea8eb171e91d58f672c2629 net: usb: ax88179_178a: avoid failed operations when device is disconnected
+113bff1e933f4dd6fee1e1173df376b610516b5a Input: soc_button_array - add mapping for airplane mode button
+3b33e673b412fd06509f406c5a51d5afcb446bd6 net: 9p: avoid freeing uninit memory in p9pdu_vreadf
+6226e60598585c449738438c7d53df78d748be19 net: rfkill: gpio: set GPIO direction
+2186b081836ec492a93823dabe81beda78529236 net: ks8851: Fix TX stall caused by TX buffer overrun
+1f679edd780dda74c0b154a23cf6800e9b33602d dt-bindings: nvmem: mxs-ocotp: Document fsl,ocotp
+b499b5bb6899f5524affb84075d3cf037efc0bb6 smb: client: fix OOB in cifsd when receiving compounded resps
+e5b623fcc31ac20e39261bdb5df7031369fa688d smb: client: fix potential OOB in cifs_dump_detail()
+8fdf54ef858329b4c396a1af8bdd87cc5b3035e1 smb: client: fix OOB in SMB2_query_info_init()
+04c9cdef93eb37edc09e45ebb002a5e98bc52afa smb: client: fix OOB in smbCalcSize()
+92dce9f991a76b97e652b7736d5851c217bdff71 drm/i915: Reject async flips with bigjoiner
+1fd22a6e4a2bf9e5ff1d626fa50a79580ac976c0 9p: prevent read overrun in protocol dump tracepoint
 
---===============6379472673402309702==
+--===============5830840465080699716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfb61da8623a-e6235d236bcd.txt
+Content-Disposition: attachment; filename=revlist-e6235d236bcd-eb3fecd7a97c.txt
 
-b9e2f3b01ed970e31b588e223b3eb9ab037ea093 bpf: Fix prog_array_map_poke_run map poke update
-848056f7935d781d7b226b230cbcfc9661919a52 mm/damon/core: use number of passed access sampling as a timer
-9011ce61d72a1130351b57f71d637cb0fa0e06b3 mm/damon/core: make damon_start() waits until kdamond_fn() starts
-08844641c3c6554c5605f3d0f49c184717855506 btrfs: qgroup: iterate qgroups without memory allocation for qgroup_reserve()
-b0a433916c5be047f9ba7b7a60c88f05ccf9711b btrfs: qgroup: use qgroup_iterator in qgroup_convert_meta()
-5ba1bac1b7669367c1ee42e3bcc4640cfe81146d btrfs: free qgroup pertrans reserve on transaction abort
-7daa6ff04a1cfa90221952c1fab046c177367c38 drm/amd/display: fix hw rotated modes when PSR-SU is enabled
-a6b28cdf9df7d1637056d473e35ef9bd7df7b0bf drm/i915: Fix FEC state dump
-a8dc33dad1d2c1e0b86c015c634a90106bf57e47 drm/i915: Introduce crtc_state->enhanced_framing
-9948f2aecec563b1890906eae8e9b3125c23e833 drm/i915/edp: don't write to DP_LINK_BW_SET when using rate select
-eef1a1f731a3b883df7c53e108b6b78fcbcf6096 drm: Update file owner during use
-7848c19341f3d2e537cf14cd055394e0923f4475 drm: Fix FD ownership check in drm_master_check_perm()
-80adcccda62f041cf8e11cfcebdf3c785deca4ab spi: spi-imx: correctly configure burst length when using dma
-e4e1235d4a5f77d21444ca8f037ed3a4bff97b6a arm64: dts: allwinner: h616: update emac for Orange Pi Zero 3
-bd638e38be0c08bfce84768483df6d2925e9b56f ARM: dts: dra7: Fix DRA7 L3 NoC node register size
-895acef1a0d551b977c935680c01a144d7c0c9ce ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
-b2cd54754ac3737027eefdb565f01c9610d2b4a4 reset: Fix crash when freeing non-existent optional resets
-f125c849706cfdb35103d9213e0fb2112bf0b85d s390/vx: fix save/restore of fpu kernel context
-6cc4488286af67a57be65d7616ad3d1155269442 platform/x86/intel/pmc: Fix hang in pmc_core_send_ltr_ignore()
-a84459873521dc7cdda9a450b80508eccc77c9ed SUNRPC: Revert 5f7fc5d69f6e92ec0b38774c387f5cf7812c5806
-b57b866559c841c2a4aa44bc562046dae083963b wifi: ieee80211: don't require protected vendor action frames
-395a788c0da1e11e29ab78b3379e9682aeada790 wifi: iwlwifi: pcie: add another missing bh-disable for rxq->lock
-414d405ed3f89b4196dd5db597269a376a835356 wifi: mac80211: check if the existing link config remains unchanged
-06c042b9b2c9a93c33cdf92a3909a043de0c3c7b wifi: mac80211: don't re-add debugfs during reconfig
-c9fffa97d3dccb9f0c81dda7346fdeecd2af8225 wifi: mac80211: check defragmentation succeeded
-03195f63283a7f2a2d7fa7e64c688a233af36b3b wifi: mac80211: mesh: check element parsing succeeded
-7fc7eee64604e8e9254c3ef71915738773274526 wifi: mac80211: mesh_plink: fix matches_local logic
-a1dc2198ee217e51b2a2e18e35bfcf338a3c44ef ice: fix theoretical out-of-bounds access in ethtool link modes
-99b39d31963d06e2f7da4c664e38563e0c2aba79 bpf: syzkaller found null ptr deref in unix_bpf proto add
-ee1a1e614f350a4501dcafad5a03a4db8ba97d34 Revert "net/mlx5e: fix double free of encap_header in update funcs"
-30f1ca4316d1b5001a8e6a9b7c3dc443f9ef25df Revert "net/mlx5e: fix double free of encap_header"
-38305cb09b254b7b372e7a1ee1f796b382c02f1f net/mlx5e: Fix slab-out-of-bounds in mlx5_query_nic_vport_mac_list()
-b2209070c58386c44c5c5f4cb39f40dc4d0e01be net/mlx5e: Fix a race in command alloc flow
-d0b522db333519847a64c4f05ffefa1a640a3c75 net/mlx5e: fix a potential double-free in fs_udp_create_groups
-360b1034995fc749e701c676188f17d1172a67ae net/mlx5e: Fix overrun reported by coverity
-e36ece70747696b9ea5811f54e33993ebe4bf5bf net/mlx5e: Decrease num_block_tc when unblock tc offload
-4409c85d14d788fb24f3e525f83aba28bf77e0f5 net/mlx5e: XDP, Drop fragmented packets larger than MTU size
-ebbf1d0dcdd03c7a7a44633cca1e89649e835920 net/mlx5: Fix fw tracer first block check
-5d1a2c56ad4eddfc5d257bd297c8dc1cfb253c1d net/mlx5: Refactor mlx5_flow_destination->rep pointer to vport num
-d8730e5e93a70e058508011037bfc525a48979a5 net/mlx5e: Fix error code in mlx5e_tc_action_miss_mapping_get()
-4f50064ffe813c128e7253e2504e3f0bfd115247 net/mlx5e: Fix error codes in alloc_branch_attr()
-4d71a4b5800279559ff4fc826fe73572b6ce7042 net/mlx5e: Correct snprintf truncation handling for fw_version buffer
-d4b37ffa122244498aec4e3619957469f1ee69c5 net/mlx5e: Correct snprintf truncation handling for fw_version buffer used by representors
-5f592e2a623a65c0ef31fec89e938f82b7d63a77 net: mscc: ocelot: fix eMAC TX RMON stats for bucket 256-511 and above
-6456e0fb84d2131fb2d2e9ca040dc88c7f4a8a69 net: mscc: ocelot: fix pMAC TX RMON stats for bucket 256-511 and above
-bf006f7158f94a974a422c2af724ca9139911793 octeontx2-pf: Fix graceful exit during PFC configuration failure
-d32bb799c9641c99c92b8162aad431e5b9c18d2a net: Return error from sk_stream_wait_connect() if sk_wait_event() fails
-d23ee661ea32e68e6e32772b4316adbf22e5dc76 net: sched: ife: fix potential use-after-free
-3bfd7edcb96f41fc5ebaf70c2ca62fba5e960c94 ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
-6a51f206fa42345eb0606d6b8bb2f8ecb368d27c net/rose: fix races in rose_kill_by_device()
-c4458b3d168ddf4bc34348a3b3fce27de4246d74 Bluetooth: Fix not notifying when connection encryption changes
-6d785f65ed3ba0f21b5c3665d920858504602a9c Bluetooth: Fix deadlock in vhci_send_frame
-84a553693e238e1c613c9f49291281afae8a6dac Bluetooth: hci_event: shut up a false-positive warning
-8e584e8510a9d9d2bd919965b026420bc6551068 Bluetooth: hci_core: Fix hci_conn_hash_lookup_cis
-6cacc217689db8d2c6c1f867a9479df642c87e0a bnxt_en: do not map packet buffers twice
-e289d5c63e893ffb7bd30b83f74ef6502fc6e5a9 net: phy: skip LED triggers on PHYs on SFP modules
-f40de21b5ac65562dbf03c466c70525b764d8cff ice: stop trashing VF VSI aggregator node ID information
-758a3f9cd5ae3e500245c977b16af9604ecb4a0f ice: alter feature support check for SRIOV and LAG
-9fab6f2d66acc84002221c374551b8e1a63c0496 ice: Fix PF with enabled XDP going no-carrier after reset
-211ecefad206b463ec38c081f3800f0db6f75c44 net: mana: select PAGE_POOL
-6b920d7a1bb8cf8230f65b97db1c48fbcb30a14b net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
-f876051c5757e6727f792ac028f55a5837040500 afs: Fix the dynamic root's d_delete to always delete unused dentries
-ff3713b6d9a99491e4d1475e081b06c524718d63 afs: Fix dynamic root lookup DNS check
-41778a78079f038dc6e429034e47c581d8cb50fa net: ethernet: mtk_wed: fix possible NULL pointer dereference in mtk_wed_wo_queue_tx_clean()
-b76878b542d39c197a3a59ac5e3d3d24d520ca18 net/ipv6: Revert remove expired routes with a separated list of routes
-20b47d5e6c16eb5a58936a3e46ce335e2412c40b net: check dev->gso_max_size in gso_features_check()
-9054bf10647276f87d3c894d8e7103f41cb77986 keys, dns: Allow key types (eg. DNS) to be reclaimed immediately on expiry
-2642d0a8296871129074273202c5b024904fe30c afs: Fix overwriting of result of DNS query
-104e369bdbea53a4b4cf18f5d7cb5a12d69afff2 afs: Fix use-after-free due to get/remove race in volume tree
-0396b30ecc2153c63869e20a08ca74a15c56ee24 drm/i915/hwmon: Fix static analysis tool reported issues
-cf7ff85dce3a46b08d7fd9f37bd3e09e521a0093 drm/i915/mtl: Fix HDMI/DP PLL clock selection
-5833fa58122b79b71b740fe9d8cf63872bda8d0c ASoC: hdmi-codec: fix missing report for jack initial status
-cee164e3ea4baeaf21544eac9e5daf0baa01d897 ASoC: fsl_sai: Fix channel swap issue on i.MX8MP
-1c66e84bef4c9b10d3137443dc0104aa1d5987f2 i2c: qcom-geni: fix missing clk_disable_unprepare() and geni_se_resources_off()
-36a8a8ddab0e597b948a9e92e514c10427df908c drm/amdgpu: re-create idle bo's PTE during VM state machine reset
-9f73ff427c933d306972e9a81edc61a636922098 i2c: aspeed: Handle the coalesced stop conditions with the start conditions.
-76fb34734406adfa86bc126401b5286b5907a259 x86/xen: add CPU dependencies for 32-bit build
-d78877c1c33ad58c32efd25d5ee828033d4ed31f pinctrl: at91-pio4: use dedicated lock class for IRQ
-b54c8a5ec8027ed8ec18d8ac266f5e5b7bcae23e gpiolib: cdev: add gpio_device locking wrapper around gpio_ioctl()
-86d8bbd76a726a96503e46f1a68da51cde35e4b9 nvme-pci: fix sleeping function called from interrupt context
-2d7d4558bbeafbdb033a0c4ba2cfb918caadc9ac interconnect: Treat xlate() returning NULL node as an error
-6843418d1a7185c68cccf3ee24f2996e7c26f93e iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
-83d7e071d9e1c2360d46b9a4a18cffd975773436 interconnect: qcom: sm8250: Enable sync_state
-0d46646277bcb09add0e4aaaa240264248b96a40 Input: ipaq-micro-keys - add error handling for devm_kmemdup
-9e5e9400917e1852b6e192036d292f18c91ae462 iio: adc: meson: add separate config for axg SoC family
-a69b0c020b0f07a94b81c0634ba2ee2edb8c0070 scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
-26896be2c33e478eeba32ff6fe1944eed041a67e scsi: ufs: qcom: Return ufs_qcom_clk_scale_*() errors in ufs_qcom_clk_scale_notify()
-697f274bc0c206891e8290f32aea88f071e7caf7 scsi: ufs: core: Let the sq_lock protect sq_tail_slot access
-d5479d03637fab5aa0bbcc7afb40147d2b7fb510 iio: kx022a: Fix acceleration value scaling
-cdf01f88656651d5f76c540f7f76b0d554ea31a4 iio: adc: imx93: add four channels for imx93 adc
-a72e4b1e6987dc1204ea7997672e9cbfb0ef5cf8 iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
-fa464988141cc4dab56f5ee15ea2686b8322860f iio: imu: adis16475: add spi_device_id table
-0244b77ad4485174971975d8a17e4ff44e7455b2 iio: adc: ti_am335x_adc: Fix return value check of tiadc_request_dma()
-2726f390298d6415053348ee0c4edeca926827cd iio: tmag5273: fix temperature offset
-d1deb9d0890474d709f4e30c482528edbef0415c iio: triggered-buffer: prevent possible freeing of wrong buffer
-e9e9779c7598d558571feadd7c46566c0132dbc2 ALSA: usb-audio: Increase delay in MOTU M quirk
-e9c69b8fb61263ed3d535199c32e8e95cc6f7a8d ARM: dts: Fix occasional boot hang for am3 usb
-077bcd22ae6ef2f7c438b0078444a19dabe0708a usb-storage: Add quirk for incorrect WP on Kingston DT Ultimate 3.0 G3
-236f302880f966874b97e9a9770147d7379d890d wifi: mt76: fix crash with WED rx support enabled
-a0d671125806bfa7a41e7e3d0c039ce3438c0486 wifi: cfg80211: Add my certificate
-e9f4fcb2dc44e9764732d79062ccda7f4fc039ad wifi: cfg80211: fix certs build to not depend on file order
-cecc7c9353752022937172766ae523f57a67846f USB: serial: ftdi_sio: update Actisense PIDs constant names
-664055b14fad895238d406a68af3d0a9f8010530 USB: serial: option: add Quectel EG912Y module support
-8949605261ac948fb55b685c735985923338d94e USB: serial: option: add Foxconn T99W265 with new baseline
-22790cadcd4338edf4bef52cd9d416bf6bb2a242 USB: serial: option: add Quectel RM500Q R13 firmware support
-64acbe445fc412bb013ff766ce96d84b0dc65330 ALSA: hda/tas2781: select program 0, conf 0 by default
-519d5eff10150a3710fc87ad86fcc3b7745be327 ALSA: hda/realtek: Add quirk for ASUS ROG GV302XA
-79455afc9469ca915ce6fa7e23fce2989a521e44 ASoC: tas2781: check the validity of prm_no/cfg_no
-81a4b6322f22b69fa784aae6b62d55c073e524b2 Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
-1f09f1946e3a1fceb9ccdc2fafbfc6ad7f46c014 Bluetooth: af_bluetooth: Fix Use-After-Free in bt_sock_recvmsg
-aaae08f7f13508d31fda7144b07bbecade06af9b Bluetooth: L2CAP: Send reject on command corrupted request
-bc5efac58c85abbad46003351c8567b838bd3e60 Bluetooth: MGMT/SMP: Fix address type when using SMP over BREDR/LE
-c1581777efb14df560ddc517be4f966fdaa4c2a8 Bluetooth: Add more enc key size check
-d5d7847e746db022f0ae7ea83aae6c234dcdcb4d usb: typec: ucsi: fix gpio-based orientation detection
-522a0e6a899567f9b79317dabbc4a1a00edf0654 usb: fotg210-hcd: delete an incorrect bounds test
-e6235d236bcd13712f0d4aa1bd19cd34f2e54b6f net: usb: ax88179_178a: avoid failed operations when device is disconnected
+75b241528b31ee6369aa7f3fb49c362265735e0d bpf: Fix prog_array_map_poke_run map poke update
+66364e9120cda9e42f83bb70f9a73f64c5a37711 mm/damon/core: use number of passed access sampling as a timer
+f2297c935e2942e0b762f78995592da93898b00c mm/damon/core: make damon_start() waits until kdamond_fn() starts
+26a859ecbc221558ef58e9126e755867cfd72158 btrfs: qgroup: iterate qgroups without memory allocation for qgroup_reserve()
+21d98f700a4703f00c89f88eef3ed80564fccd56 btrfs: qgroup: use qgroup_iterator in qgroup_convert_meta()
+abe351cd19ceaf0809941f9d016434be1fd6b8de btrfs: free qgroup pertrans reserve on transaction abort
+83545c5490ad40a1fd3dcaf09151fd3a59f49522 drm/amd/display: fix hw rotated modes when PSR-SU is enabled
+4d88044f55ce7d7c10d340ba6b2f989e3732d7d5 drm/i915: Fix FEC state dump
+3ff6e6c8eaee64638c8887e5eb9d3fb70f285df8 drm/i915: Introduce crtc_state->enhanced_framing
+235b80a7fe813389c701dcba132fe15d07ffa720 drm/i915/edp: don't write to DP_LINK_BW_SET when using rate select
+62044704f598cdc0e001a2b604fb5e3107f63eeb drm: Update file owner during use
+fad83a0802f674bd0e1f716758f14e5f36686d11 drm: Fix FD ownership check in drm_master_check_perm()
+35a76074f0f8ac4bd8bc6e3b668810dba76c2efb spi: spi-imx: correctly configure burst length when using dma
+6932b3b0924fd55fd6ae61909ae9014488236a50 arm64: dts: allwinner: h616: update emac for Orange Pi Zero 3
+fa1e9821589574b4f2a85071726cd057c7db66a6 ARM: dts: dra7: Fix DRA7 L3 NoC node register size
+27946376fe0bdf5af5b8f4892ae9966176f82c11 ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
+8d632b41bc30a6b57d0ae1dfc104f89bfa28839d reset: Fix crash when freeing non-existent optional resets
+20fd4054964a95d04dfca97cf939cd1d60805738 s390/vx: fix save/restore of fpu kernel context
+b3464ac73c0106d0ec61a0bc054dc19007f6040a platform/x86/intel/pmc: Fix hang in pmc_core_send_ltr_ignore()
+98384d4cf6368c21b7a169cb4bac500eed5b3948 SUNRPC: Revert 5f7fc5d69f6e92ec0b38774c387f5cf7812c5806
+1a35ea28cfa9de134202a28b06c0b8b68e73b412 wifi: ieee80211: don't require protected vendor action frames
+b4b51a62e6b6f7e1991020a69a289c8dc22f6083 wifi: iwlwifi: pcie: add another missing bh-disable for rxq->lock
+1d03b9b481133deaed1376bb5df1a12837eb9032 wifi: mac80211: check if the existing link config remains unchanged
+ae7fbfb6d4d53adb25aba01f2e03b4288ada3640 wifi: mac80211: don't re-add debugfs during reconfig
+8287079e418f9b0842054fec57baf98d2513a6c8 wifi: mac80211: check defragmentation succeeded
+2c9e93a7cc09f3bc82105ee038ccdc5109cc884b wifi: mac80211: mesh: check element parsing succeeded
+808b1ce6869ffb3e5079329f96e550af8d47f346 wifi: mac80211: mesh_plink: fix matches_local logic
+a1ba474037874fc5931c67df30e3d41f434260e4 ice: fix theoretical out-of-bounds access in ethtool link modes
+fa589cef7b9d0218abcc86c9e9c379d90d2f6453 bpf: syzkaller found null ptr deref in unix_bpf proto add
+e0856ac13c536278a217a80ccffe6459b484db3e Revert "net/mlx5e: fix double free of encap_header in update funcs"
+c79de1b66f4b65aac1537c537801a6feca059523 Revert "net/mlx5e: fix double free of encap_header"
+a6e72f05549714632dc531ea46dce2ab5aa3fa50 net/mlx5e: Fix slab-out-of-bounds in mlx5_query_nic_vport_mac_list()
+1eeced81ed79bf56f9b5e063d4c3f5708b2e6509 net/mlx5e: Fix a race in command alloc flow
+ef7020ce5372cbe5b96ace94126740172acb245e net/mlx5e: fix a potential double-free in fs_udp_create_groups
+c93188f7406cdf7671b9860917e5265f6ad3b2de net/mlx5e: Fix overrun reported by coverity
+490b175ee4a1d79af730099845f63a6c8be5898f net/mlx5e: Decrease num_block_tc when unblock tc offload
+2b4eae25a61ee315b2435db207c713003b17ec81 net/mlx5e: XDP, Drop fragmented packets larger than MTU size
+09c22d68bd00abb42dcc2c9846fdfd31211a4ef8 net/mlx5: Fix fw tracer first block check
+0b4fb0de4b2b7586e65cc24233697b770d59813b net/mlx5: Refactor mlx5_flow_destination->rep pointer to vport num
+c422f5302c1b09a471f2d8a73e24165f19edb009 net/mlx5e: Fix error code in mlx5e_tc_action_miss_mapping_get()
+932cb411286720207ebcbe3b0da36ccf7fcd871f net/mlx5e: Fix error codes in alloc_branch_attr()
+d0e44ebea860cc3fb8f032874207b63d413640e5 net/mlx5e: Correct snprintf truncation handling for fw_version buffer
+72b6cebeb87eda9611fd1fb916fd5f16ce478cd2 net/mlx5e: Correct snprintf truncation handling for fw_version buffer used by representors
+90d6f58f455f111530eb71c5c640c49f7b13a9b9 net: mscc: ocelot: fix eMAC TX RMON stats for bucket 256-511 and above
+7f1ecaacdad599e5318f432b3e1fbb02a31499ba net: mscc: ocelot: fix pMAC TX RMON stats for bucket 256-511 and above
+8c94daf7c3a7a7c0fa0618b0fcd9643d70154601 octeontx2-pf: Fix graceful exit during PFC configuration failure
+c32b2eb077434abecb9c8cbab6628b848ae5a193 net: Return error from sk_stream_wait_connect() if sk_wait_event() fails
+b265d8f8be53af02d5a15e6f002cf2c69e8d2b37 net: sched: ife: fix potential use-after-free
+5fb7c1b44e6e44d3cddd7356c003b0e6eba6f930 ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
+b0a81556a716a6be433e2f47931c936e1fd192bc net/rose: fix races in rose_kill_by_device()
+ad7fec07c4a1d41f47cd92c105e76859a70307f2 Bluetooth: Fix not notifying when connection encryption changes
+12f26fdbc43d493d868fedb2df32147a6c5ca5e1 Bluetooth: Fix deadlock in vhci_send_frame
+2fbd402ae97698152c946b4debe458c765723235 Bluetooth: hci_event: shut up a false-positive warning
+65e1e3c6c60bceb44f03b83482abf0f28b992ef3 Bluetooth: hci_core: Fix hci_conn_hash_lookup_cis
+8b507b962396f8e34ead43235eb874d5f1af85d5 bnxt_en: do not map packet buffers twice
+b9bd445b009bd1737f6adc456d56fa099f50a962 net: phy: skip LED triggers on PHYs on SFP modules
+52cb6a4b39dc63fea13ffabb3d9199d1e9b491f9 ice: stop trashing VF VSI aggregator node ID information
+09f22f06f4bcd45843ba440d1dfcf11a261f83a0 ice: alter feature support check for SRIOV and LAG
+b1ea08edf7b127ca08d63cba57eb348365d39c62 ice: Fix PF with enabled XDP going no-carrier after reset
+fe5db2470b7c6de4d6f26400164197ea92f03f05 net: mana: select PAGE_POOL
+b61c777a6e3af14050e25d1476fc5b208d0eb794 net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
+f8a805e7e294cf367856c3a823f78880e97167b2 afs: Fix the dynamic root's d_delete to always delete unused dentries
+139a8041759361e528cb2c593f937d7fd93f8759 afs: Fix dynamic root lookup DNS check
+59ac338093b095628b644e9fbccd6eb43b62db3b net: ethernet: mtk_wed: fix possible NULL pointer dereference in mtk_wed_wo_queue_tx_clean()
+bbdcbd23f7375e40d77b1b991612bb5b8274dd72 net/ipv6: Revert remove expired routes with a separated list of routes
+a05e9d6c6e691e45215998ff0c5ee2982abbbc15 net: check dev->gso_max_size in gso_features_check()
+a69bd2fbc0a4088964fd5313b04747138dfffecb keys, dns: Allow key types (eg. DNS) to be reclaimed immediately on expiry
+0e1ee86388da39375136e3f44d180464e30d379c afs: Fix overwriting of result of DNS query
+97bbda64949dfdda74a63b753fee524e30301259 afs: Fix use-after-free due to get/remove race in volume tree
+66042ce7e5a477bc1cae2205dff40a857b3282e6 drm/i915/hwmon: Fix static analysis tool reported issues
+8bb6049200c481a2ceffec7718adf109989d34b0 drm/i915/mtl: Fix HDMI/DP PLL clock selection
+5c2c8c1aac185b2656f4bea37bb4e5c29b6371e7 ASoC: hdmi-codec: fix missing report for jack initial status
+57fff747d4aa4cf4a4ececa4f875e56431e271ca ASoC: fsl_sai: Fix channel swap issue on i.MX8MP
+77440626568da231763281c0e789c154f1909be3 i2c: qcom-geni: fix missing clk_disable_unprepare() and geni_se_resources_off()
+6918fd0e3ee1e73bf69115ec309def5b5f6a9214 drm/amdgpu: re-create idle bo's PTE during VM state machine reset
+1de1aedb0790107de336a6820e3a79ca0d7e9131 i2c: aspeed: Handle the coalesced stop conditions with the start conditions.
+486bfc4c2b5f0ec252e4edc06a32477bf6a86da0 x86/xen: add CPU dependencies for 32-bit build
+b1a0f120168d68646e2683e8d027f6149eb640fe pinctrl: at91-pio4: use dedicated lock class for IRQ
+a02830b718d8cc4d9122c4923568f07445a3f78b gpiolib: cdev: add gpio_device locking wrapper around gpio_ioctl()
+3b0ded440acb3da9146ffc3554580616db5362d7 nvme-pci: fix sleeping function called from interrupt context
+801d93d5bc83ee8619d453781bac410f385020b3 interconnect: Treat xlate() returning NULL node as an error
+b4a0e33f3452c5e09bb494d024758403eb4a90d4 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
+8be283b84e7c25737e3201b8e9fa82f24e9367da interconnect: qcom: sm8250: Enable sync_state
+e422b595a6ebe133e3072222f3de1a39f56d49bf Input: ipaq-micro-keys - add error handling for devm_kmemdup
+16f8ca17c4e19ed5982fab8b72269695207d8ca3 iio: adc: meson: add separate config for axg SoC family
+7319049f4a2eb40098ef23cb3c1aec7c19265111 scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
+53e282f5737e3dc4b397fe49faeffcb9fa6fd994 scsi: ufs: qcom: Return ufs_qcom_clk_scale_*() errors in ufs_qcom_clk_scale_notify()
+0c5ab42b34408649ce873dcb053855f6a67e7ca7 scsi: ufs: core: Let the sq_lock protect sq_tail_slot access
+1469ca4c82a2ff4daf6eeb9fb089c9b7a19affc2 iio: kx022a: Fix acceleration value scaling
+429dd839555d268294b4248b51899e94eecc7b1c iio: adc: imx93: add four channels for imx93 adc
+f5d654b7540dd4f8cbc819f05e67fd6574195535 iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
+c35ece25f9599f9de1cd745ba95681b47e263583 iio: imu: adis16475: add spi_device_id table
+4d2eeeb55021fe2ecf7fc561d04c173c621a9ee1 iio: adc: ti_am335x_adc: Fix return value check of tiadc_request_dma()
+cb3628c9a48bf668c8457441b06bea1889120627 iio: tmag5273: fix temperature offset
+d1c54eed1fba7c7886c585aba623663b6cb0ac8a iio: triggered-buffer: prevent possible freeing of wrong buffer
+1933c7cfbb85a7eea354443d29028c58fb228800 ALSA: usb-audio: Increase delay in MOTU M quirk
+98948c454a4a4048a5eea386b5225606beebdcfc ARM: dts: Fix occasional boot hang for am3 usb
+45b9968b80b1450db3b0c7b9ed62abd14ea88a84 usb-storage: Add quirk for incorrect WP on Kingston DT Ultimate 3.0 G3
+8b0329da2c310cc7db32cbfa31ba37e1a3d48e19 wifi: mt76: fix crash with WED rx support enabled
+1d08d3224f710d97cd3d452503eb19e9be8e2380 wifi: cfg80211: Add my certificate
+0596e3615de0bc4eb958327f051378aa2a9f87f0 wifi: cfg80211: fix certs build to not depend on file order
+8e6bfec3cdeaae56d71834f878b0c90fa9b6c48f USB: serial: ftdi_sio: update Actisense PIDs constant names
+80c47655cf0192b21ba4cc14d3071cd84724a933 USB: serial: option: add Quectel EG912Y module support
+5558ab9e0a7f869d397784a76edd63c81c22a410 USB: serial: option: add Foxconn T99W265 with new baseline
+1881d509f117859bc957cd7db0fe9a0df7337daf USB: serial: option: add Quectel RM500Q R13 firmware support
+9d14345e234da473e6017851eafdde6d8b961347 ALSA: hda/tas2781: select program 0, conf 0 by default
+49969561f02e20c8384cfee403bc4f764422b55c ALSA: hda/realtek: Add quirk for ASUS ROG GV302XA
+8b8e3db011dcd2bc6ff92431881beabfde544dba ASoC: tas2781: check the validity of prm_no/cfg_no
+e7ed9237c20cc3f2747ee97512379e1ce7363a02 Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
+00d64c26456192f58768b144c9b93edf97c99686 Bluetooth: af_bluetooth: Fix Use-After-Free in bt_sock_recvmsg
+c5632ddf80714987b15cceb10911bfc35ebba295 Bluetooth: L2CAP: Send reject on command corrupted request
+c6a1c301455e1d755c279ef8d659bc7243b1470e Bluetooth: MGMT/SMP: Fix address type when using SMP over BREDR/LE
+709344a93effb4f3716301cb21c91e6cda80bb3e Bluetooth: Add more enc key size check
+6f79c8d41bd23a516576c5c02e0326e267e39230 usb: typec: ucsi: fix gpio-based orientation detection
+4fe517b52504c5e6d9ac87e69947859022f2d20e usb: fotg210-hcd: delete an incorrect bounds test
+46eeca9845a6d6777443556b50f6e5c6b75d52d7 net: usb: ax88179_178a: avoid failed operations when device is disconnected
+afe038cb66b5f28cf9cf4e679c49913c710db7ef Input: soc_button_array - add mapping for airplane mode button
+10f18a66552204dba529e4a12bacc48a6033f4a0 net: 9p: avoid freeing uninit memory in p9pdu_vreadf
+2a61c0112505227f2a07f6e33b14ae1a246a2b46 net: rfkill: gpio: set GPIO direction
+8e9a39866fd5e33213256031758f5023dd21eb0f net: ks8851: Fix TX stall caused by TX buffer overrun
+fb66bddaa776fe469a5bb762dd5ae999465b5a0e net: avoid build bug in skb extension length calculation
+e4a8a0dd23b89c1d3b00b82f2bb901ce1b8f10eb net: stmmac: fix incorrect flag check in timestamp interrupt
+e33f511c88cfc11b6c72725e3d6c097b8a8841be dt-bindings: nvmem: mxs-ocotp: Document fsl,ocotp
+2f0a339668d4758c42173eb19278dbb4ac107658 nfsd: call nfsd_last_thread() before final nfsd_put()
+55c0a36b4624a46cb9b2eede5abf3253d6811d7c smb: client: fix OOB in cifsd when receiving compounded resps
+1dfe634062861180ee2e562cfa11a6f3957a6237 smb: client: fix potential OOB in cifs_dump_detail()
+df485b233d0c406f9772b69e60edb771014c3e4a smb: client: fix OOB in SMB2_query_info_init()
+e3925b021997416deb8df1f6a0552422f99dfff5 smb: client: fix OOB in smbCalcSize()
+29aa4fa70b39bee88253712116faa66cdc8dba47 drm/i915: Reject async flips with bigjoiner
+d33ddf0344baed3d0b1336534c8f82465bc9a3cf drm/i915/dmc: Don't enable any pipe DMC events
+eb3fecd7a97c9dab10afb7f225eb08defc5ce8d0 9p: prevent read overrun in protocol dump tracepoint
 
---===============6379472673402309702==--
+--===============5830840465080699716==--
