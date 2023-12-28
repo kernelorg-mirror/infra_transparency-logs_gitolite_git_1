@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Thu, 28 Dec 2023 20:13:04 -0000
-Message-Id: <170379438450.27668.17907922420853077223@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Thu, 28 Dec 2023 20:18:44 -0000
+Message-Id: <170379472475.31355.6424894839229085874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
   - ref: refs/heads/master
-    old: f516605185472eb61187c190b4a7f76a17bcdb31
-    new: e5191d182d2d2195d624fa856aa449ca055bc00a
+    old: 84ab78885124bb7ae0fc8d7d3d97ed3fb03a3362
+    new: d5fbdeb0f70e0f49e948519caa601586f5019265
     log: |
-         4b1effe9b1bbf18500c087487d715d400b683795 CONTRIBUTING: Accept patches in attachments
-         4b7ae5e6b56235df7a215b9f234bcff5ca2b6ae1 CONTRIBUTING: Reduce strength of encouragement
-         e5191d182d2d2195d624fa856aa449ca055bc00a open_memstream.3: ffix
+         d5fbdeb0f70e0f49e948519caa601586f5019265 mails/retrospect_2023: Fix typos and grammar errors
          
