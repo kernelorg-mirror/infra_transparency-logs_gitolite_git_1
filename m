@@ -1,36 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Fri, 29 Dec 2023 22:54:26 -0000
-Message-Id: <170389046664.2172.15943705118375226291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Fri, 29 Dec 2023 23:08:48 -0000
+Message-Id: <170389132823.13246.9465629668202607500@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/for-next
-    old: 5758384339e7faa58130217b62eeadd6cbff5827
-    new: 3a40bdf5fbe2ad9b98b317eb991c476e3a78cac4
+  - ref: refs/heads/devel
+    old: 7d7cd22dc497dc79c2b1ae0e26cada1c5207d5dd
+    new: 1b09c2b8f849079220a9a9ddf961582f00bdc2c4
     log: |
-         9e1faff1cbc877903d019a7943d37ddc5042704d arm64: dts: rockchip: nanopc-t6 sdmmc beautification
-         e9126f9d3c83acbc88461a535e24c949c7e0b6ca arm64: dts: rockchip: Support poweroff on Orange Pi 5
-         7738f551173540b3daa63a91b384b167eacd24fd arm64: dts: rockchip: support poweroff on the rock-5b
-         aed6514c4e3aee843385ded4c5ee0921b51c30fa arm64: dts: rockchip: correct gpio_pwrctrl1 typo on rock-5b
-         24559788384916041a0bbf54c32e2a16b612d247 arm64: dts: rockchip: correct gpio_pwrctrl1 typo on nanopc-t6
-         8586a5d217ef7bfeee24943c600a8a7890d6f477 arm64: dts: rockchip: Fix led pinctrl of lubancat 1
-         3a40bdf5fbe2ad9b98b317eb991c476e3a78cac4 Merge branch 'v6.8-armsoc/dts64' into for-next
+         1b09c2b8f849079220a9a9ddf961582f00bdc2c4 pinctrl: samsung: constify iomem pointers
          
-  - ref: refs/heads/v6.8-armsoc/dts64
-    old: 44de8996ed5a10f08f2fe947182da6535edcfae5
-    new: 8586a5d217ef7bfeee24943c600a8a7890d6f477
+  - ref: refs/heads/for-next
+    old: da1294407cb1142719706d77fca569df93f0c67d
+    new: 0ef4b05e2dfbed0f9ca8e8973f467998f96abdc1
     log: |
-         9e1faff1cbc877903d019a7943d37ddc5042704d arm64: dts: rockchip: nanopc-t6 sdmmc beautification
-         e9126f9d3c83acbc88461a535e24c949c7e0b6ca arm64: dts: rockchip: Support poweroff on Orange Pi 5
-         7738f551173540b3daa63a91b384b167eacd24fd arm64: dts: rockchip: support poweroff on the rock-5b
-         aed6514c4e3aee843385ded4c5ee0921b51c30fa arm64: dts: rockchip: correct gpio_pwrctrl1 typo on rock-5b
-         24559788384916041a0bbf54c32e2a16b612d247 arm64: dts: rockchip: correct gpio_pwrctrl1 typo on nanopc-t6
-         8586a5d217ef7bfeee24943c600a8a7890d6f477 arm64: dts: rockchip: Fix led pinctrl of lubancat 1
+         1b09c2b8f849079220a9a9ddf961582f00bdc2c4 pinctrl: samsung: constify iomem pointers
+         0ef4b05e2dfbed0f9ca8e8973f467998f96abdc1 Merge branch 'devel' into for-next
          
