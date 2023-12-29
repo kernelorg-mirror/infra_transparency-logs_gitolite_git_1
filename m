@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 29 Dec 2023 13:25:09 -0000
-Message-Id: <170385630975.16424.13777876069373595064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Fri, 29 Dec 2023 13:26:22 -0000
+Message-Id: <170385638261.16941.3907523789660600373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
-  - ref: refs/heads/for-next
-    old: c7e37b07cc7564a07125ae48c11fd1ca2bcbeae2
-    new: 126c18a4bb6460c3d82b57c56941104ed34b7ba6
-    log: |
-         126c18a4bb6460c3d82b57c56941104ed34b7ba6 ALSA: seq: fix kvmalloc_array() arguments order
-         
   - ref: refs/heads/master
-    old: e5490cb153d8540365f7d0070bb76389945fc477
-    new: 82522479cde1a73f138c167b2384c353bb0e4dc3
+    old: 05d4f388d99e834a62cd25f6672369fb9e180d94
+    new: 65bc0ff1413fdb2c7dbdeb3ca174f073dd4898ec
     log: |
-         126c18a4bb6460c3d82b57c56941104ed34b7ba6 ALSA: seq: fix kvmalloc_array() arguments order
-         82522479cde1a73f138c167b2384c353bb0e4dc3 Merge branch 'for-next'
+         65bc0ff1413fdb2c7dbdeb3ca174f073dd4898ec Fix memory leak when fill flags has PCI_FILL_PARENT.
+         
+  - ref: refs/heads/tmp
+    old: b9e19c1ada57e2e78ffac9bea1f2e9a9da0959e0
+    new: 05d4f388d99e834a62cd25f6672369fb9e180d94
+    log: |
+         05d4f388d99e834a62cd25f6672369fb9e180d94 libpci: ecam: Fix big address range mappings
          
