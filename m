@@ -1,42 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 29 Dec 2023 15:50:04 -0000
-Message-Id: <170386500443.24270.14536296919004082215@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5809824784737144932=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 29 Dec 2023 16:07:47 -0000
+Message-Id: <170386606778.4162.11310348806919384033@gitolite.kernel.org>
+
+--===============5809824784737144932==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-6.8/block
-    old: d6b9f4e6f7fb589d8024a31cc4883d15d0c8def4
-    new: 31e4fac930814f2f92eb6ebac9c4d4e3b09f7aaf
+  - ref: refs/heads/fixes
+    old: a55bdad5dfd1efd4ed9ffe518897a21ca8e4e193
+    new: 70681aa0746ae61d7668b9f651221fad5e30c71e
     log: |
-         928a5dd3a849dc6d8298835bdcb25c360d41bccb block: remove two comments in bio_split_discard
-         5e7169e7f7c0989304dbe8467a1d703d614c64db bcache: discard_granularity should not be smaller than a sector
-         3c407dc723bbf914f3744b0c2bb82265b411a50c block: default the discard granularity to sector size
-         599d9d4eab7c3d5dc6f1e0f8f052fee9eaa54e50 ubd: use the default discard granularity
-         1e2ab2e8a98c9e0629b5b8bff8ee6f2cb3e8daac nbd: use the default discard granularity
-         724325477f8a48ce1defc2a49998bbc19fe85c88 null_blk: use the default discard granularity
-         3753039def5d0d1c43af847b507ba9b782db183a zram: use the default discard granularity
-         105c1a5f6ccef7f52f9e76664407ef96218272eb bcache: use the default discard granularity
-         31e4fac930814f2f92eb6ebac9c4d4e3b09f7aaf mtd_blkdevs: use the default discard granularity
+         b28ff7a7c3245d7f62acc20f15b4361292fe4117 platform/x86: p2sb: Allow p2sb_bar() calls during PCI device probe
+         7c13f365aee68b01e7e68ee293a71fdc7571c111 platform/x86/intel/pmc: Add suspend callback
+         6f9cc5c1f94daa98846b2073733d03ced709704b platform/x86/intel/pmc: Allow reenabling LTRs
+         70681aa0746ae61d7668b9f651221fad5e30c71e platform/x86/intel/pmc: Move GBE LTR ignore to suspend callback
          
-  - ref: refs/heads/for-next
-    old: 3ec2b5b62f6df12b96f55aaac7bd5acb372a11da
-    new: f27ea6fbe8733f2faf24469d77e60d121209c288
-    log: |
-         928a5dd3a849dc6d8298835bdcb25c360d41bccb block: remove two comments in bio_split_discard
-         5e7169e7f7c0989304dbe8467a1d703d614c64db bcache: discard_granularity should not be smaller than a sector
-         3c407dc723bbf914f3744b0c2bb82265b411a50c block: default the discard granularity to sector size
-         599d9d4eab7c3d5dc6f1e0f8f052fee9eaa54e50 ubd: use the default discard granularity
-         1e2ab2e8a98c9e0629b5b8bff8ee6f2cb3e8daac nbd: use the default discard granularity
-         724325477f8a48ce1defc2a49998bbc19fe85c88 null_blk: use the default discard granularity
-         3753039def5d0d1c43af847b507ba9b782db183a zram: use the default discard granularity
-         105c1a5f6ccef7f52f9e76664407ef96218272eb bcache: use the default discard granularity
-         31e4fac930814f2f92eb6ebac9c4d4e3b09f7aaf mtd_blkdevs: use the default discard granularity
-         f27ea6fbe8733f2faf24469d77e60d121209c288 Merge branch 'for-6.8/block' into for-next
-         
+
+--===============5809824784737144932==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1703866063 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1703866063-73401dfdbb02121457f05828ca9fb3e112f8634b
+
+a55bdad5dfd1efd4ed9ffe518897a21ca8e4e193 70681aa0746ae61d7668b9f651221fad5e30c71e refs/heads/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZY7u0QAKCRBZrE9hU+XO
+MZfIAQDte9PYFialXY9I1n5ZwYAaD9/aNR/BDXHYZj6lF1JQ4wEA4ut2mlKrAr2X
+YBA8aD8ibq0ow07lXJ6J5As5f1N6Wgg=
+=uUOE
+-----END PGP SIGNATURE-----
+
+--===============5809824784737144932==--
