@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9169034232524838230=="
+Content-Type: multipart/mixed; boundary="===============7040215068576755807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Fri, 29 Dec 2023 13:42:16 -0000
-Message-Id: <170385733661.28821.8509569388933067468@gitolite.kernel.org>
+Date: Fri, 29 Dec 2023 13:42:51 -0000
+Message-Id: <170385737189.29119.8574264831812014404@gitolite.kernel.org>
 
---===============9169034232524838230==
+--===============7040215068576755807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: 41db4a1df2b895ab3c25701d8c59e6d08478c1f8
+  - ref: refs/heads/for-next
+    old: c60d5c035fda24c31e1d76993cc5a662ee639f3e
     new: a63bff58b0acd302414045795ac473cbf790f8ea
-    log: revlist-41db4a1df2b8-a63bff58b0ac.txt
+    log: revlist-c60d5c035fda-a63bff58b0ac.txt
 
---===============9169034232524838230==
+--===============7040215068576755807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41db4a1df2b8-a63bff58b0ac.txt
+Content-Disposition: attachment; filename=revlist-c60d5c035fda-a63bff58b0ac.txt
 
 092e39d1456bda5c3d7dab0aa72a24e4b0b4f7a5 kconfig: squash menu_has_help() and menu_get_help()
 405d2cb209b5836910b5dac01cf97fcbd186c0af kconfig: add include guard to lkc_proto.h
@@ -47,4 +47,4 @@ a18e891e334abf056e29c1b5c8330fcf31f38267 kbuild: deb-pkg: set DEB_* variables if
 99437482a3ab503d417f0fb4223b5460701f8ac3 kbuild: deb-pkg: remove unneeded '-f $srctree/Makefile' in debian/rules
 a63bff58b0acd302414045795ac473cbf790f8ea kbuild: deb-pkg: use more debhelper commands in builddeb
 
---===============9169034232524838230==--
+--===============7040215068576755807==--
