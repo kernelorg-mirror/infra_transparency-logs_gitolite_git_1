@@ -1,27 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Fri, 29 Dec 2023 13:30:41 -0000
-Message-Id: <170385664139.20219.7883110129690479052@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1719729804589889360=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 29 Dec 2023 13:32:44 -0000
+Message-Id: <170385676479.21042.1002618091838406388@gitolite.kernel.org>
+
+--===============1719729804589889360==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/pciutils/pciutils
-user: mj
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 869a9f66b6aa723d9f90b4b3e27cd96bee5e0180
-    new: 93c1c6bcc9e2b52652b859986354ddd54ef34058
+  - ref: refs/heads/review-ilpo
+    old: 8845e77634cd3eb9137be83af4ab7736330aaabe
+    new: 70681aa0746ae61d7668b9f651221fad5e30c71e
     log: |
-         1c2fb4a4f3eb5f9824e492f6b6c14e8cdf5072c4 libpci: win32-cfgmgr32: Show type of source in warning message
-         19283769ef81eed001a987c758aec7089eeb37b3 libpci: win32-cfgmgr32: Skip parsing uninterested resources very early
-         bc82efb4d74d662300277d6f2276d049b5c91148 libpci: win32-cfgmgr32: Fix reg key name in warning message
-         2be154f7350826f3e08cc7425e761946ed039fab libpci: i386-io-windows.h: Fix error code in ERROR_PRIVILEGE_NOT_HELD code path
-         6e50724345522dce3f74f076dc2a0662956ba933 libpci: i386-io-windows.h: Fix memory leak in grant_process_token_dacl_permissions()
-         8c22b2c473815c6b19c4b6cfa32229e405b9c367 libpci: win32-kldbg: Fix driver constructing path
-         f2a77d0c820da6b8d7f9b425c96e4d2462900933 libpci: win32-cfgmgr32: Do not use GetWindowsDirectory()
-         d4d889711556eaea294ca52a9a1d539a7d505d93 libpci: ecam: Deduplicate get_bus_addr() code for calculating bus address
-         93c1c6bcc9e2b52652b859986354ddd54ef34058 libpci: ecam: Fix big address range mappings
+         b28ff7a7c3245d7f62acc20f15b4361292fe4117 platform/x86: p2sb: Allow p2sb_bar() calls during PCI device probe
+         7c13f365aee68b01e7e68ee293a71fdc7571c111 platform/x86/intel/pmc: Add suspend callback
+         6f9cc5c1f94daa98846b2073733d03ced709704b platform/x86/intel/pmc: Allow reenabling LTRs
+         70681aa0746ae61d7668b9f651221fad5e30c71e platform/x86/intel/pmc: Move GBE LTR ignore to suspend callback
          
+
+--===============1719729804589889360==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1703856760 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1703856760-c554c0da9f7d69e4101e5902890c1aad4021e323
+
+8845e77634cd3eb9137be83af4ab7736330aaabe 70681aa0746ae61d7668b9f651221fad5e30c71e refs/heads/review-ilpo
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZY7KegAKCRBZrE9hU+XO
+MZFlAQCF0paxawB6k9biquHsfNR48mTo0p+IyEeWaHS5urDKSAEAx4tZpn+60Pgy
+gAzi/TjMC2dT7bX2gSbKGp0Ga8IDDwk=
+=NLsw
+-----END PGP SIGNATURE-----
+
+--===============1719729804589889360==--
