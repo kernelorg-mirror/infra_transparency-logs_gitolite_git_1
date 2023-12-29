@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 28 Dec 2023 23:57:46 -0000
-Message-Id: <170380786695.24709.16801974875984336236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 29 Dec 2023 00:16:49 -0000
+Message-Id: <170380900988.6735.9202342187435349788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: ae9f043e987e78eeac5ba84189c4eae39681283c
-    new: e56a7feb1196531bc7cbff3c6d04e40b9afa88ea
+    old: 505e701c0b2cfa9e34811020829759b7663a604c
+    new: 8735c7c84d1bc5c3e481c02b6b6163bdefe4132f
     log: |
-         58b9f6d6bc78653bc55e5143f561564876a93d61 mails/retrospect_2023: Update statistics
-         1f895afed9222144e88bdbadd4efa5a75bc562cb stat_branches_2023: Fixup wrong start point
-         e56a7feb1196531bc7cbff3c6d04e40b9afa88ea stat_damon_portion_community_commits: Make output easier to format
+         d10c77873ba1e9e6b91905018e29e196fd5f863d ksmbd: fix slab-out-of-bounds in smb_strndup_from_utf16()
+         8735c7c84d1bc5c3e481c02b6b6163bdefe4132f Merge tag '6.7rc7-smb3-srv-fix' of git://git.samba.org/ksmbd
          
