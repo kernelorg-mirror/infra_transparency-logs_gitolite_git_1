@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 29 Dec 2023 08:44:12 -0000
-Message-Id: <170383945207.29183.73364516809018666@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 29 Dec 2023 09:57:23 -0000
+Message-Id: <170384384336.29946.17549831274908747572@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/main
-    old: f732ba4ac9f3626e235cc33a4f1756f17884dd32
-    new: cd4d7263d58ab98fd4dee876776e4da6c328faa3
-    log: |
-         cd4d7263d58ab98fd4dee876776e4da6c328faa3 genetlink: Use internal flags for multicast groups
-         
+  - ref: refs/heads/sched/urgent
+    old: 4c0a74642c4260bd8e5b6eb4d029a390435ac8eb
+    new: 5254c0cbc92d2a08e75443bdb914f1c4839cdf5a
