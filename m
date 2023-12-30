@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 30 Dec 2023 16:41:34 -0000
-Message-Id: <170395449467.12854.15476731704554367491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 30 Dec 2023 17:50:04 -0000
+Message-Id: <170395860409.28825.17248470409419612904@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/kvm-arm64/nv-6.9-WIP
-    old: 0000000000000000000000000000000000000000
-    new: 2e8682db7504c6ce8f80d54773bc3f20ca0b8ad7
+  - ref: refs/heads/for-6.8/io_uring
+    old: 9f7e5872eca81d7341e3ec222ebdc202ff536655
+    new: d293b1a89694fc4918d9a4330a71ba2458f9d581
+  - ref: refs/heads/for-next
+    old: f27ea6fbe8733f2faf24469d77e60d121209c288
+    new: 1a174a661fcbad3717c15aeeb3569643eddbe136
+    log: |
+         1a174a661fcbad3717c15aeeb3569643eddbe136 Merge branch 'for-6.8/block' into for-next
+         
