@@ -1,57 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3117806872018473832=="
+Content-Type: multipart/mixed; boundary="===============5194820376205530321=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 30 Dec 2023 10:49:12 -0000
-Message-Id: <170393335298.4598.9487211915990967321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 30 Dec 2023 11:05:23 -0000
+Message-Id: <170393432351.16604.8197778003007937425@gitolite.kernel.org>
 
---===============3117806872018473832==
+--===============5194820376205530321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 65a9c0c73eb87d9dc8f3fdf511ff81380b7b6190
-    new: 6de74e98522c25edae71f9a251ab6e5a37c0422a
-    log: revlist-65a9c0c73eb8-6de74e98522c.txt
+    old: 5f2e0a65db5a244045d96804b8c2c15350492600
+    new: e3cca4554e638117d3c98c7b935916d92456d441
+    log: |
+         d452edd7235e7a4d812d364bfec4722dbf1cc5a5 4.19-stable patches
+         19163233be9506b813de9ed82123a735adf94fa2 5.4-stable patches
+         e3cca4554e638117d3c98c7b935916d92456d441 5.10-stable patches
+         
 
---===============3117806872018473832==
+--===============5194820376205530321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65a9c0c73eb8-6de74e98522c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-488a39fe968e773221ee2a2691d59aa947909ffa Merge branch into tip/master: 'sched/urgent'
-bc1e694c626e2737b852bbee0db48196928752f9 Merge branch into tip/master: 'x86/merge'
-3e89b5beaab859842697ab20b6986cb819a37ec6 Merge branch into tip/master: 'core/debugobjects'
-27d31b156f1cbcf09411c159bc97a56949d366de Merge branch into tip/master: 'core/entry'
-8f68c9336f26be0dcb6ee68a486098132e41f17d Merge branch into tip/master: 'core/merge'
-9c8d3e988493de4c58395f33e38142881924b399 Merge branch into tip/master: 'locking/core'
-5c86643cd3da79e390fceadb3740cec95463ddae Merge branch into tip/master: 'objtool/core'
-02adbab4136f9b59ec081af9f5d7145ddb39fcb5 Merge branch into tip/master: 'perf/core'
-46477af5e68caba1498f880efc7ed318f49e5cdb Merge branch into tip/master: 'ras/core'
-774a160606944d8e47fc77a484541e2d37186d7a Merge branch into tip/master: 'sched/core'
-8c54756aab3b23e6ddc704ab236a4b36f265b59f Merge branch into tip/master: 'smp/core'
-d52da36ff130b5879429899412d12be56e64e14b Merge branch into tip/master: 'timers/core'
-d8c886ab7cf126773670b9ba6a85ce3fdaa643c0 Merge branch into tip/master: 'x86/apic'
-93da769792e0c04fcdec6ae82daf8e77216b49b3 Merge branch into tip/master: 'x86/asm'
-6eaca7040f3a17ad02e111d125c8811ec3eeb9c5 Merge branch into tip/master: 'x86/boot'
-8a4b4971e14fdd234d48a1eefdb58ee13b0fb0a6 Merge branch into tip/master: 'x86/build'
-9f0721911b222e22f6d0646e7763caa83f021ba5 Merge branch into tip/master: 'x86/cleanups'
-43104407257dfec6fa18402f469e1e9687fd3e81 Merge branch into tip/master: 'x86/core'
-474bc6526534f0e4e5f96e98c7d5023b1caaa993 Merge branch into tip/master: 'x86/cpu'
-f42de1c0ce5512ecdd345d9b1e6225d395bd7bf2 Merge branch into tip/master: 'x86/entry'
-a94becfe392527725f5ca04b1cc016ceb8457c9e Merge branch into tip/master: 'x86/microcode'
-851a2caef35a77a51193fdcbb0ff26c22c6c3010 Merge branch into tip/master: 'x86/misc'
-a65f4acc0835e9f10d0be0b7bbee5b51fc4e25c8 Merge branch into tip/master: 'x86/mm'
-d1fb3ffa1bb9e93cbd678776e56e12fc05c03b9b Merge branch into tip/master: 'x86/percpu'
-1bf14c3c2ca3e67e29b596ea06b28967efcbe017 Merge branch into tip/master: 'x86/sev'
-da99bd130a1bfe35cafb06c5f25c2f9c13fa37c6 Merge branch into tip/master: 'x86/sgx'
-6de74e98522c25edae71f9a251ab6e5a37c0422a Merge branch into tip/master: 'x86/tdx'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1703934322 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1703934320-c400f7b437ce70dbc781e5f22e6e174405b1e9d9
 
---===============3117806872018473832==--
+5f2e0a65db5a244045d96804b8c2c15350492600 e3cca4554e638117d3c98c7b935916d92456d441 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWP+XIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kmMP/3+BdRTWF6S0Nj0fefkz
+B5OE2b8yECxsKUJ/NB7ALVZRyGXPByf/AxBvwPyiN4IW3wnQ00tHRs2zkE68BfN+
+jEOIuOxpLJtMc0ztrWo3Z7onNP2RKeBlBv2hU8T1weQtc56nrRMQTz/KEqop7Vvw
+w8vfTmDrZbUepl9OtssYsXNeuFNllILEhl86Z6Y0im2+PgIla8iTVK63rOrZ2S0Z
+GLKi7oFWH9+2lLq466htUWpjQeCqj6r/xQG7vVxdbaNlzraORQO5RAxu0hesxE61
+TX9/CBbEqxFNFNc2y1zz+5M80AIMoqF9jH09kbwWt8JK84g3GkARNoe9/rSVdeMT
+eRIPPaSzMOQXvCdeziRmp2D9pYclatWYT8zwjLmSem33EPtXGtKhV08zP04M+p2+
+MFYapNtaX4eqcxSGfrqbdARqkcPL1WG2avRnhaKwYAgBfLIQI5/CC12rQZjY+una
+fEGOf6CgUIkYFohLsVZ4gXyMcapNq3zsW+yvKPYHM7Og3a2grNGvVkeonTEE7JuO
+DrOzpvTGUGC3NOZoBq3FWFhlks9PrTNX10J58zcNzRR8u4cLLjrdxWIjOjzZtwwb
+6zXKW1s4B/PNc/JWT1eFaphU5H0E+gntpwTkgX/W7JDQD/bkv8gVaEhUYlPxFzXz
+EbDRpJcVl0MjghDhXOkhbYRT
+=/2/o
+-----END PGP SIGNATURE-----
+
+--===============5194820376205530321==--
