@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3695566063136776697=="
+Content-Type: multipart/mixed; boundary="===============3117806872018473832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 30 Dec 2023 10:48:46 -0000
-Message-Id: <170393332608.4387.16374705902259472763@gitolite.kernel.org>
+Date: Sat, 30 Dec 2023 10:49:12 -0000
+Message-Id: <170393335298.4598.9487211915990967321@gitolite.kernel.org>
 
---===============3695566063136776697==
+--===============3117806872018473832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,42 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ac3a6fd2c9f3edc52644baf75a986b0c378ed225
-    new: 65a9c0c73eb87d9dc8f3fdf511ff81380b7b6190
-    log: revlist-ac3a6fd2c9f3-65a9c0c73eb8.txt
+    old: 65a9c0c73eb87d9dc8f3fdf511ff81380b7b6190
+    new: 6de74e98522c25edae71f9a251ab6e5a37c0422a
+    log: revlist-65a9c0c73eb8-6de74e98522c.txt
 
---===============3695566063136776697==
+--===============3117806872018473832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac3a6fd2c9f3-65a9c0c73eb8.txt
+Content-Disposition: attachment; filename=revlist-65a9c0c73eb8-6de74e98522c.txt
 
-146e843f6b09271233c021b1677e561b7dc16303 badblocks: avoid checking invalid range in badblocks_check()
-02d374f3418df577c850f0cd45c3da9245ead547 block: renumber QUEUE_FLAG_HW_WC
-7cf4e6831502f992faa6d1253c09728065884c1f MAINTAINERS: split out the uAPI into a new section
-d4c139ca7cfeea490e5b8e9a7d4247aa706fd30a MAINTAINERS: Remove Andy from GPIO maintainers
-ad5575eb6278892aa25a5d249c5009860d6d8bbc MAINTAINERS: Add a missing file to the INTEL GPIO section
-b28ff7a7c3245d7f62acc20f15b4361292fe4117 platform/x86: p2sb: Allow p2sb_bar() calls during PCI device probe
-7c13f365aee68b01e7e68ee293a71fdc7571c111 platform/x86/intel/pmc: Add suspend callback
-6f9cc5c1f94daa98846b2073733d03ced709704b platform/x86/intel/pmc: Allow reenabling LTRs
-70681aa0746ae61d7668b9f651221fad5e30c71e platform/x86/intel/pmc: Move GBE LTR ignore to suspend callback
-09c57a762e797a55f6336c9798f576c889658ba5 Merge tag 'block-6.7-2023-12-29' of git://git.kernel.dk/linux
-e543d0b5ecf28f69b5fca94ea770b802c32d884f Merge tag 'platform-drivers-x86-v6.7-6' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-f016f7547aeedefed9450499d002ba983b8fce15 Merge tag 'gpio-fixes-for-v6.7-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-65a9c0c73eb87d9dc8f3fdf511ff81380b7b6190 Merge branch 'linus'
+488a39fe968e773221ee2a2691d59aa947909ffa Merge branch into tip/master: 'sched/urgent'
+bc1e694c626e2737b852bbee0db48196928752f9 Merge branch into tip/master: 'x86/merge'
+3e89b5beaab859842697ab20b6986cb819a37ec6 Merge branch into tip/master: 'core/debugobjects'
+27d31b156f1cbcf09411c159bc97a56949d366de Merge branch into tip/master: 'core/entry'
+8f68c9336f26be0dcb6ee68a486098132e41f17d Merge branch into tip/master: 'core/merge'
+9c8d3e988493de4c58395f33e38142881924b399 Merge branch into tip/master: 'locking/core'
+5c86643cd3da79e390fceadb3740cec95463ddae Merge branch into tip/master: 'objtool/core'
+02adbab4136f9b59ec081af9f5d7145ddb39fcb5 Merge branch into tip/master: 'perf/core'
+46477af5e68caba1498f880efc7ed318f49e5cdb Merge branch into tip/master: 'ras/core'
+774a160606944d8e47fc77a484541e2d37186d7a Merge branch into tip/master: 'sched/core'
+8c54756aab3b23e6ddc704ab236a4b36f265b59f Merge branch into tip/master: 'smp/core'
+d52da36ff130b5879429899412d12be56e64e14b Merge branch into tip/master: 'timers/core'
+d8c886ab7cf126773670b9ba6a85ce3fdaa643c0 Merge branch into tip/master: 'x86/apic'
+93da769792e0c04fcdec6ae82daf8e77216b49b3 Merge branch into tip/master: 'x86/asm'
+6eaca7040f3a17ad02e111d125c8811ec3eeb9c5 Merge branch into tip/master: 'x86/boot'
+8a4b4971e14fdd234d48a1eefdb58ee13b0fb0a6 Merge branch into tip/master: 'x86/build'
+9f0721911b222e22f6d0646e7763caa83f021ba5 Merge branch into tip/master: 'x86/cleanups'
+43104407257dfec6fa18402f469e1e9687fd3e81 Merge branch into tip/master: 'x86/core'
+474bc6526534f0e4e5f96e98c7d5023b1caaa993 Merge branch into tip/master: 'x86/cpu'
+f42de1c0ce5512ecdd345d9b1e6225d395bd7bf2 Merge branch into tip/master: 'x86/entry'
+a94becfe392527725f5ca04b1cc016ceb8457c9e Merge branch into tip/master: 'x86/microcode'
+851a2caef35a77a51193fdcbb0ff26c22c6c3010 Merge branch into tip/master: 'x86/misc'
+a65f4acc0835e9f10d0be0b7bbee5b51fc4e25c8 Merge branch into tip/master: 'x86/mm'
+d1fb3ffa1bb9e93cbd678776e56e12fc05c03b9b Merge branch into tip/master: 'x86/percpu'
+1bf14c3c2ca3e67e29b596ea06b28967efcbe017 Merge branch into tip/master: 'x86/sev'
+da99bd130a1bfe35cafb06c5f25c2f9c13fa37c6 Merge branch into tip/master: 'x86/sgx'
+6de74e98522c25edae71f9a251ab6e5a37c0422a Merge branch into tip/master: 'x86/tdx'
 
---===============3695566063136776697==--
+--===============3117806872018473832==--
