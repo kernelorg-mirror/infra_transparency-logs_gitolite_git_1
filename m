@@ -1,73 +1,16 @@
-Content-Type: multipart/mixed; boundary="===============0320604680955425769=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 30 Dec 2023 04:23:13 -0000
-Message-Id: <170391019317.10429.8795160642630352514@gitolite.kernel.org>
-
---===============0320604680955425769==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/dennis/percpu
+Date: Sat, 30 Dec 2023 06:32:07 -0000
+Message-Id: <170391792769.3969.17327564973559915071@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/dennis/percpu
+user: dennis
 changes:
-  - ref: refs/heads/master
-    old: 3e6907c149c396061da52ca39557f5bd7f49d934
-    new: 3555f30e752afad2dd9f727eb39e22e39614ac7a
-    log: revlist-3e6907c149c3-3555f30e752a.txt
-
---===============0320604680955425769==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e6907c149c3-3555f30e752a.txt
-
-b9319133c212b398650ea8c45223d3b9d7da95ab foo
-4648a2177bd397e94c17d6946ef2fa644eeda2cb foo
-0bf37ae53119505684042f733cc34e0e06147d03 foo
-4b82928e43b4d99a31502db128cd8eb91b01e1ab foo
-08d7afd32bf9c5246c4d3a091498c14d8987ee4b foo
-a6832ef00bcc2e3bfee2fd35fd897a39a457ab68 foo
-00696d6c2294ab81eb489b799ba56e971ebe4818 foo
-7f4a3b08c402e60d6ddd505ed59e9252c823aabe foo
-bfa30165ec985b297674e1d460e413151f7aa72b foo
-186776233d23eda6a210fdb80541006e17847528 foo
-b572aad8f6558a2d5754e4521d3b5b027296c429 foo
-e3e88ed9b96e4e34a43c29c6eaf413d490481c3c foo
-708ea903ef89d9086952037a89c573268bd66dbb foo
-af696c8793fa36f086857cff4266e666def89fab foo
-71271bd548c1a31a0b6f6517f13ac271b5758021 foo
-a10ea6eee01acf2650df3ef4803a6854a7e2730f foo
-c1e08195cf7ef6b93e9eeb8d3461829de58f7597 foo
-b704c3efd7149e783fae6b2647e8b2f56d821863 foo
-77d0bfa224c6b0036b445e3864868cbb04029bfe foo
-3c54be383bb649e7ec2c05e9168e11ed0aa790a4 foo
-c826e353175e6d1e3f506194d2d903a888ea9829 foo
-6f736217a748ae05280d74eac88860ae09e74d8d foo
-c24edb0278b9e3d1da4b40d2cd8cdd32eb41f840 foo
-5f8d55ede70638198397a1b2de37fa95140f9796 foo
-f4d3c79a002796cc6b45669bb2ccd87320369d45 foo
-c412dab9a792d29d63b07c034ae20f4a13df0850 foo
-edba3922755978ff26e39578de20f67775e61a55 foo
-fbecaf47932eaaac2f054ea19c7632f0529afd35 foo
-6a173c1738461d06b61910d1f5461dea4a25c800 foo
-e39159cc12711a9a2861fb5d21bfc11187824131 foo
-9c0ad8859d31f540453d41a0635d4ea8f0bc8f4e foo
-0ca0a26a1b4dd3d53e1d4fbc1e81137b6be7faea foo
-33d1a71d6c97cae588c87d4f3079a43d4d1045cd foo
-c217d796e6ace608c32c451702e22c610d724f98 foo
-b5afcc49fa77f3e5112c0209503083ba1d7c4c96 foo
-120dd2713f302313da292571e63aaf9f71e39dc3 foo
-69563a2e3b61695bb566d38df96bb1033b109879 foo
-ada596c17ce81d15c130054182b1c03cfb8ba614 foo
-10d8b701c5e1da0a92d22dfe4d088bfeadc91332 foo
-64b96d9931956bf668a54882f0051234ed003d68 foo
-ebb530f0d13fa1079bb44927d49a3bd57d3c7852 foo
-10c28b592532919fffb5fec7b1ea71d5097de90e foo
-3555f30e752afad2dd9f727eb39e22e39614ac7a foo
-
---===============0320604680955425769==--
+  - ref: refs/heads/percpu-hotplug
+    old: 0000000000000000000000000000000000000000
+    new: a6da7678959b143fd183cdd0dada2c7fa56e8f2d
