@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hansg/linux
-Date: Sun, 31 Dec 2023 09:35:48 -0000
-Message-Id: <170401534830.16489.590967312878653450@gitolite.kernel.org>
+Date: Sun, 31 Dec 2023 09:49:10 -0000
+Message-Id: <170401615084.7044.18094827519898124581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,16 @@ repo: pub/scm/linux/kernel/git/hansg/linux
 user: hansg
 changes:
   - ref: refs/heads/media-atomisp
-    old: b928f768c04730c803b6b3b4af44b9795537efd0
-    new: de4042e1eafce95b4861ec75d1cf17c1b12d0e89
+    old: de4042e1eafce95b4861ec75d1cf17c1b12d0e89
+    new: a017a4f183e8ee79ca8cb00ee76cbf981bbefe54
     log: |
-         455d9bafabf26c654f964c07e588d1cddf0ea7ce media: atomisp: Adjust for v4l2_subdev_state handling changes in 6.8
-         f92ed01c9e1effc5d1d93d8ee9b932e651b6b455 media: atomisp: Refactor sensor crop + fmt setting
-         8e388e20b64e448735310ce7ecbf069156e74ba2 media: atomisp: Removed duplicate comment and fixed comment format
-         49aed31c6e8f7b0917a7925143ea31af0279bbff media: atomisp: Fix spelling mistakes in ia_css_irq.h
-         2fb38a4424e71ed7dc312602a9870c9b618b26f5 media: atomisp: Fix a spelling mistake in sh_css_defs.h
-         2dd364d2b81899ab3f6637f36f591b32caa460d0 media: atomisp: Remove redundant assignments to variables
-         d7ca887ac01ec6a8e2d32cab61b87f169a073579 media: atomisp: Fix repeated "of" in isp2400_input_system_public.h
-         de4042e1eafce95b4861ec75d1cf17c1b12d0e89 media: atomisp: Fix spelling mistake in isp2400_input_system_global.h
+         c42576bee26c0d75bb74f236f2bd09519f1a2113 media: atomisp: Fix spelling mistakes in circbuf.c
+         554db89491c7fb8ffec3d7366e97d0a9b177d335 media: atomisp: Fix spelling mistake in ia_css_circbuf.h
+         9f6768698bc1d39973dc419647d05d5b57f21e15 media: atomisp: Fix spelling mistakes in sh_css_mipi.c
+         8fd2a247b43df67108cb2c67f13d2a8d05f19fbb media: atomisp: Fix spelling mistakes in queue.c
+         1b56a4012c6c578724af23b5dae988073e981a69 media: atomisp: Fix spelling mistakes in rmgr_vbuf.c
+         4eb3e1f834aa50260038a22605d63310fe1c142f media: atomisp: Fix spelling mistakes in ia_css_macc_table.host.c
+         b12ed796089e8e476981ca75c324be6cabb81ced media: atomisp: Fix spelling mistakes in ia_css_hdr_types.h
+         9538c8917c49303df10ca7ebd972e2e586751824 media: atomisp: Fix spelling mistake in binary.c
+         a017a4f183e8ee79ca8cb00ee76cbf981bbefe54 media: atomisp: Fix spelling mistake in ia_css_acc_types.h
          
