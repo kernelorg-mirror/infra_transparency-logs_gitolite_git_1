@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3416845776131325426=="
+Content-Type: multipart/mixed; boundary="===============9154736099995057682=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 31 Dec 2023 22:07:53 -0000
-Message-Id: <170406047362.14804.5884042907449693547@gitolite.kernel.org>
+Date: Sun, 31 Dec 2023 22:08:23 -0000
+Message-Id: <170406050357.15068.7615295267025062122@gitolite.kernel.org>
 
---===============3416845776131325426==
+--===============9154736099995057682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 861deac3b092f37b2c5e6871732f3e11486f7082
-    new: 610a9b8f49fbcf1100716370d3b5f6f884a2835a
-    log: revlist-861deac3b092-610a9b8f49fb.txt
+  - ref: refs/heads/exportfs-next
+    old: 6683139f28a146d17a25dbdc4e31285a567f6d4a
+    new: 55c428353bc90c47bcbbb755ed21792146cd14d4
+    log: revlist-6683139f28a1-55c428353bc9.txt
 
---===============3416845776131325426==
+--===============9154736099995057682==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-861deac3b092-610a9b8f49fb.txt
+Content-Disposition: attachment; filename=revlist-6683139f28a1-55c428353bc9.txt
 
 1f475cd572ea77ae6474a17e693a96bca927efe9 virtio_ring: fix syncs DMA memory with different direction
 b8e0792449928943c15d1af9f63816911d139267 virtio_blk: fix snprintf truncation compiler warning
@@ -78,5 +78,7 @@ b106bcf0f99ae0459f3c8c2f0af575ef9f5d9bde locking/osq_lock: Clarify osq_wait_next
 9c334eb9ce886247567573074b13c5ac29d1a41a get_maintainer: correctly parse UTF-8 encoded names in files
 2639772a11c860628c5f7007842eca52a1c34d78 get_maintainer: remove stray punctuation when cleaning file emails
 610a9b8f49fbcf1100716370d3b5f6f884a2835a Linux 6.7-rc8
+190474f54f8b59f1b0ded57296ae06422f3c65cc exportfs: fix the fallback implementation of the get_name export operation
+55c428353bc90c47bcbbb755ed21792146cd14d4 fs: Create a generic is_dot_dotdot() utility
 
---===============3416845776131325426==--
+--===============9154736099995057682==--
