@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sun, 31 Dec 2023 00:23:55 -0000
-Message-Id: <170398223503.14005.9589544496379247150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sun, 31 Dec 2023 01:26:56 -0000
+Message-Id: <170398601674.26546.3584433400751708507@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 47951011c01e3853c44334cc6a1af1f1eac64064
-    new: b943ec366967e10f1219690082d62b5dc72498fe
+  - ref: refs/heads/exportfs-next
+    old: 1f0b658e907ffc17a60d519f65f56fc4c95df9b3
+    new: 96cf66291081224493e5690a8e17d64625260cb3
     log: |
-         8006c40aaff55e94646a04d620c7e03aeedb68c4 appendix/questions/after: Use \qco{} for quoting code
-         7e18c617bac2d15292aa4a08817408cce94ca3db appendix/questions/after: Use \co{}
-         da9d19ad9c9794425687b86199fd03815ec3d12f CodeSamples/cpu: Adjust copyright notices
-         c051e5946a5b7de107392d5ed12a33e398c121e1 howto: make 'git archive' in answer to QQ1.3 explicit
-         a9c41f82c76aee9d994f5fee6640c7b97287d22b cpu: make Quick Quiz 3.6 more explicit
-         b943ec366967e10f1219690082d62b5dc72498fe toolsoftrade: fix a typo: manpages should be man pages
+         32dc435bdc6e5da70636061946ed115c0b0c9401 exportfs: fix the fallback implementation of the get_name export operation
+         96cf66291081224493e5690a8e17d64625260cb3 fs: Create a generic is_dot_dotdot() utility
          
