@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============7116493859174244581=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-documentation
-Date: Sun, 31 Dec 2023 17:26:58 -0000
-Message-Id: <170404361859.8124.5376724393641121753@gitolite.kernel.org>
-
---===============7116493859174244581==
-Content-Type: text/plain; charset="us-ascii"
+Date: Sun, 31 Dec 2023 17:29:17 -0000
+Message-Id: <170404375747.9046.14454427289855329689@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,140 +12,134 @@ repo: pub/scm/linux/kernel/git/djwong/xfs-documentation
 user: djwong
 changes:
   - ref: refs/heads/atomic-file-updates
-    old: 988be0017cbe55a29c3d9bb93a466103c3630191
-    new: 9895d0ac0a122648f762adf4322c57c49466db6b
+    old: 9895d0ac0a122648f762adf4322c57c49466db6b
+    new: 78079d3fe0ce44ddf9f1e8fa4ce5c7318c810cfb
     log: |
-         512a88b83adb3025b9937c688bf4d1dab27b86a9 xfsdocs: add epub output
-         bc5c9521050f4cb01901527e797c9b755f59e1b8 design: update group quota inode information for v5 filesystems
-         402550040511831daae6003ddcd1465103dd0c91 design: document the large extent count ondisk format changes
-         858b0667d5643eb9250a6037a3ab20024f700321 design: document extended attribute log item changes
-         9296814e4edf2ca3e265ff427778763b7a8cb375 xfs: re-add the old user's guide and labs
-         19c5c8c00ac5a15648cc222438cb1933b9c2c644 xfsdoc: deuglify output fonts
-         9895d0ac0a122648f762adf4322c57c49466db6b design: document atomic extent swap log intent structures
-         
-  - ref: refs/heads/for-next
-    old: b91f114a692b90382c5561270044c333bdd0cd49
-    new: 858b0667d5643eb9250a6037a3ab20024f700321
-    log: |
-         512a88b83adb3025b9937c688bf4d1dab27b86a9 xfsdocs: add epub output
-         bc5c9521050f4cb01901527e797c9b755f59e1b8 design: update group quota inode information for v5 filesystems
-         402550040511831daae6003ddcd1465103dd0c91 design: document the large extent count ondisk format changes
-         858b0667d5643eb9250a6037a3ab20024f700321 design: document extended attribute log item changes
+         78079d3fe0ce44ddf9f1e8fa4ce5c7318c810cfb design: document atomic extent swap log intent structures
          
   - ref: refs/heads/metadir
-    old: 54a78064ea8b5ceb3f7b1ffce05627235dd018d4
-    new: fe14fe488b936f46e597d5f5011c2b7717c2fc7c
+    old: fe14fe488b936f46e597d5f5011c2b7717c2fc7c
+    new: 6b52f60ebcbacee4c9dcf786b50272ec6112a259
     log: |
-         512a88b83adb3025b9937c688bf4d1dab27b86a9 xfsdocs: add epub output
-         bc5c9521050f4cb01901527e797c9b755f59e1b8 design: update group quota inode information for v5 filesystems
-         402550040511831daae6003ddcd1465103dd0c91 design: document the large extent count ondisk format changes
-         858b0667d5643eb9250a6037a3ab20024f700321 design: document extended attribute log item changes
-         9296814e4edf2ca3e265ff427778763b7a8cb375 xfs: re-add the old user's guide and labs
-         19c5c8c00ac5a15648cc222438cb1933b9c2c644 xfsdoc: deuglify output fonts
-         9895d0ac0a122648f762adf4322c57c49466db6b design: document atomic extent swap log intent structures
-         fe14fe488b936f46e597d5f5011c2b7717c2fc7c design: document the changes required to handle metadata directories
+         78079d3fe0ce44ddf9f1e8fa4ce5c7318c810cfb design: document atomic extent swap log intent structures
+         6b52f60ebcbacee4c9dcf786b50272ec6112a259 design: document the changes required to handle metadata directories
+         
+  - ref: refs/heads/pptrs
+    old: 7eeec043fce6f300dc5461a3a5e02a18c0e102ed
+    new: 561a70c204b51c3cd69175d87ac43c4be6154495
+    log: |
+         78079d3fe0ce44ddf9f1e8fa4ce5c7318c810cfb design: document atomic extent swap log intent structures
+         6b52f60ebcbacee4c9dcf786b50272ec6112a259 design: document the changes required to handle metadata directories
+         a61d7e85cfe16916be41747f146789fcea8c999a design: document new name-value logged attribute variants
+         561a70c204b51c3cd69175d87ac43c4be6154495 design: document the parent pointer ondisk format
+         
+  - ref: refs/heads/pptrs-attr-nvlookups
+    old: a1f01ddf865d21bad5d254720803c4d3e3181ee0
+    new: a61d7e85cfe16916be41747f146789fcea8c999a
+    log: |
+         78079d3fe0ce44ddf9f1e8fa4ce5c7318c810cfb design: document atomic extent swap log intent structures
+         6b52f60ebcbacee4c9dcf786b50272ec6112a259 design: document the changes required to handle metadata directories
+         a61d7e85cfe16916be41747f146789fcea8c999a design: document new name-value logged attribute variants
          
   - ref: refs/heads/realtime-groups
-    old: 63feb1c3b0ac3ef645c2d06621d20a24f578397a
-    new: a22ea8e52f973a7ff17f6eb82c4e7a17831c31f6
-    log: revlist-63feb1c3b0ac-a22ea8e52f97.txt
+    old: a22ea8e52f973a7ff17f6eb82c4e7a17831c31f6
+    new: 4df9f6543c521dfe9f4d669a746046542595ac0b
+    log: |
+         78079d3fe0ce44ddf9f1e8fa4ce5c7318c810cfb design: document atomic extent swap log intent structures
+         6b52f60ebcbacee4c9dcf786b50272ec6112a259 design: document the changes required to handle metadata directories
+         a61d7e85cfe16916be41747f146789fcea8c999a design: document new name-value logged attribute variants
+         561a70c204b51c3cd69175d87ac43c4be6154495 design: document the parent pointer ondisk format
+         e4c7c8cf677a6a7ecd51a614f3c80e3b0bb6059f design: move discussion of realtime volumes to a separate section
+         4df9f6543c521dfe9f4d669a746046542595ac0b design: document realtime groups
+         
   - ref: refs/heads/realtime-reflink
-    old: fd725f4d8a6c552f220673f828a43689a36e1522
-    new: b1aac5ef614adfa0484a6d8816e1d17f6d04ce7f
-    log: revlist-fd725f4d8a6c-b1aac5ef614a.txt
+    old: b1aac5ef614adfa0484a6d8816e1d17f6d04ce7f
+    new: c8c412fd867d1349570ec240c4d4b5f436965119
+    log: |
+         78079d3fe0ce44ddf9f1e8fa4ce5c7318c810cfb design: document atomic extent swap log intent structures
+         6b52f60ebcbacee4c9dcf786b50272ec6112a259 design: document the changes required to handle metadata directories
+         a61d7e85cfe16916be41747f146789fcea8c999a design: document new name-value logged attribute variants
+         561a70c204b51c3cd69175d87ac43c4be6154495 design: document the parent pointer ondisk format
+         e4c7c8cf677a6a7ecd51a614f3c80e3b0bb6059f design: move discussion of realtime volumes to a separate section
+         4df9f6543c521dfe9f4d669a746046542595ac0b design: document realtime groups
+         5ee2a5b9ec84267824e14a5eec3f26ab2607e820 design: document the revisions to the realtime rmap formats
+         c8c412fd867d1349570ec240c4d4b5f436965119 design: document changes for the realtime refcount btree
+         
   - ref: refs/heads/realtime-rmap
-    old: 5cb3da4e04bc0ddc2c64e913a54a1c1241e23d35
-    new: 3e590044b80a0585bc24057d88144de18a64e51a
-    log: revlist-5cb3da4e04bc-3e590044b80a.txt
-  - ref: refs/tags/2023-02-16
-    old: 0000000000000000000000000000000000000000
-    new: 476ec35becea056ee1cdb85d61a8c1e1ae4f66a9
+    old: 3e590044b80a0585bc24057d88144de18a64e51a
+    new: 5ee2a5b9ec84267824e14a5eec3f26ab2607e820
+    log: |
+         78079d3fe0ce44ddf9f1e8fa4ce5c7318c810cfb design: document atomic extent swap log intent structures
+         6b52f60ebcbacee4c9dcf786b50272ec6112a259 design: document the changes required to handle metadata directories
+         a61d7e85cfe16916be41747f146789fcea8c999a design: document new name-value logged attribute variants
+         561a70c204b51c3cd69175d87ac43c4be6154495 design: document the parent pointer ondisk format
+         e4c7c8cf677a6a7ecd51a614f3c80e3b0bb6059f design: move discussion of realtime volumes to a separate section
+         4df9f6543c521dfe9f4d669a746046542595ac0b design: document realtime groups
+         5ee2a5b9ec84267824e14a5eec3f26ab2607e820 design: document the revisions to the realtime rmap formats
+         
   - ref: refs/tags/atomic-file-updates_2023-12-31
-    old: 0000000000000000000000000000000000000000
-    new: 75f4960f4f0c2d91771d254ffeb919f5a932acc7
+    old: 75f4960f4f0c2d91771d254ffeb919f5a932acc7
+    new: fbcd7651292ab898ab1ea680d378fee962d0e8a7
+    log: |
+         78079d3fe0ce44ddf9f1e8fa4ce5c7318c810cfb design: document atomic extent swap log intent structures
+         
   - ref: refs/tags/metadir_2023-12-31
-    old: 0000000000000000000000000000000000000000
-    new: 752115d13b213cefad88a3b4ef08e1bac30810b4
-  - ref: refs/heads/pptrs-attr-nvlookups
-    old: 0000000000000000000000000000000000000000
-    new: a1f01ddf865d21bad5d254720803c4d3e3181ee0
+    old: 752115d13b213cefad88a3b4ef08e1bac30810b4
+    new: 5356fed65a2c47ad82be75d5863bdeac5ff30843
+    log: |
+         78079d3fe0ce44ddf9f1e8fa4ce5c7318c810cfb design: document atomic extent swap log intent structures
+         6b52f60ebcbacee4c9dcf786b50272ec6112a259 design: document the changes required to handle metadata directories
+         
   - ref: refs/tags/pptrs-attr-nvlookups_2023-12-31
-    old: 0000000000000000000000000000000000000000
-    new: 58b09f88274448c6ae22b3cc77bfc0c4c8428b7e
-  - ref: refs/heads/pptrs
-    old: 0000000000000000000000000000000000000000
-    new: 7eeec043fce6f300dc5461a3a5e02a18c0e102ed
+    old: 58b09f88274448c6ae22b3cc77bfc0c4c8428b7e
+    new: 187701d496da4ddc8f3aa5743bcabeb066283522
+    log: |
+         78079d3fe0ce44ddf9f1e8fa4ce5c7318c810cfb design: document atomic extent swap log intent structures
+         6b52f60ebcbacee4c9dcf786b50272ec6112a259 design: document the changes required to handle metadata directories
+         a61d7e85cfe16916be41747f146789fcea8c999a design: document new name-value logged attribute variants
+         
   - ref: refs/tags/pptrs_2023-12-31
-    old: 0000000000000000000000000000000000000000
-    new: cdc8f03ce5598ab31fdc4b12d9f4f42d8d70b199
+    old: cdc8f03ce5598ab31fdc4b12d9f4f42d8d70b199
+    new: cd1c42edc2d65b801a0caf24d29a3fccab8b3dec
+    log: |
+         78079d3fe0ce44ddf9f1e8fa4ce5c7318c810cfb design: document atomic extent swap log intent structures
+         6b52f60ebcbacee4c9dcf786b50272ec6112a259 design: document the changes required to handle metadata directories
+         a61d7e85cfe16916be41747f146789fcea8c999a design: document new name-value logged attribute variants
+         561a70c204b51c3cd69175d87ac43c4be6154495 design: document the parent pointer ondisk format
+         
   - ref: refs/tags/realtime-groups_2023-12-31
-    old: 0000000000000000000000000000000000000000
-    new: 965823aebaee42d80de87725cadcd0cf3e03e2a6
-  - ref: refs/tags/realtime-rmap_2023-12-31
-    old: 0000000000000000000000000000000000000000
-    new: c48862a189e22dd1c9bdc8858188e9785863ad2e
+    old: 965823aebaee42d80de87725cadcd0cf3e03e2a6
+    new: cf46147779ab94efb56eca46820f289181f92d29
+    log: |
+         78079d3fe0ce44ddf9f1e8fa4ce5c7318c810cfb design: document atomic extent swap log intent structures
+         6b52f60ebcbacee4c9dcf786b50272ec6112a259 design: document the changes required to handle metadata directories
+         a61d7e85cfe16916be41747f146789fcea8c999a design: document new name-value logged attribute variants
+         561a70c204b51c3cd69175d87ac43c4be6154495 design: document the parent pointer ondisk format
+         e4c7c8cf677a6a7ecd51a614f3c80e3b0bb6059f design: move discussion of realtime volumes to a separate section
+         4df9f6543c521dfe9f4d669a746046542595ac0b design: document realtime groups
+         
   - ref: refs/tags/realtime-reflink_2023-12-31
-    old: 0000000000000000000000000000000000000000
-    new: 0f39db7e7fe28bb3150941976443bd681d11c909
-
---===============7116493859174244581==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63feb1c3b0ac-a22ea8e52f97.txt
-
-512a88b83adb3025b9937c688bf4d1dab27b86a9 xfsdocs: add epub output
-bc5c9521050f4cb01901527e797c9b755f59e1b8 design: update group quota inode information for v5 filesystems
-402550040511831daae6003ddcd1465103dd0c91 design: document the large extent count ondisk format changes
-858b0667d5643eb9250a6037a3ab20024f700321 design: document extended attribute log item changes
-9296814e4edf2ca3e265ff427778763b7a8cb375 xfs: re-add the old user's guide and labs
-19c5c8c00ac5a15648cc222438cb1933b9c2c644 xfsdoc: deuglify output fonts
-9895d0ac0a122648f762adf4322c57c49466db6b design: document atomic extent swap log intent structures
-fe14fe488b936f46e597d5f5011c2b7717c2fc7c design: document the changes required to handle metadata directories
-a1f01ddf865d21bad5d254720803c4d3e3181ee0 design: document new name-value logged attribute variants
-7eeec043fce6f300dc5461a3a5e02a18c0e102ed design: document the parent pointer ondisk format
-c2812ba9ed62924d4086d2c015b48d4bed80d494 design: move discussion of realtime volumes to a separate section
-a22ea8e52f973a7ff17f6eb82c4e7a17831c31f6 design: document realtime groups
-
---===============7116493859174244581==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd725f4d8a6c-b1aac5ef614a.txt
-
-512a88b83adb3025b9937c688bf4d1dab27b86a9 xfsdocs: add epub output
-bc5c9521050f4cb01901527e797c9b755f59e1b8 design: update group quota inode information for v5 filesystems
-402550040511831daae6003ddcd1465103dd0c91 design: document the large extent count ondisk format changes
-858b0667d5643eb9250a6037a3ab20024f700321 design: document extended attribute log item changes
-9296814e4edf2ca3e265ff427778763b7a8cb375 xfs: re-add the old user's guide and labs
-19c5c8c00ac5a15648cc222438cb1933b9c2c644 xfsdoc: deuglify output fonts
-9895d0ac0a122648f762adf4322c57c49466db6b design: document atomic extent swap log intent structures
-fe14fe488b936f46e597d5f5011c2b7717c2fc7c design: document the changes required to handle metadata directories
-a1f01ddf865d21bad5d254720803c4d3e3181ee0 design: document new name-value logged attribute variants
-7eeec043fce6f300dc5461a3a5e02a18c0e102ed design: document the parent pointer ondisk format
-c2812ba9ed62924d4086d2c015b48d4bed80d494 design: move discussion of realtime volumes to a separate section
-a22ea8e52f973a7ff17f6eb82c4e7a17831c31f6 design: document realtime groups
-3e590044b80a0585bc24057d88144de18a64e51a design: document the revisions to the realtime rmap formats
-b1aac5ef614adfa0484a6d8816e1d17f6d04ce7f design: document changes for the realtime refcount btree
-
---===============7116493859174244581==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cb3da4e04bc-3e590044b80a.txt
-
-512a88b83adb3025b9937c688bf4d1dab27b86a9 xfsdocs: add epub output
-bc5c9521050f4cb01901527e797c9b755f59e1b8 design: update group quota inode information for v5 filesystems
-402550040511831daae6003ddcd1465103dd0c91 design: document the large extent count ondisk format changes
-858b0667d5643eb9250a6037a3ab20024f700321 design: document extended attribute log item changes
-9296814e4edf2ca3e265ff427778763b7a8cb375 xfs: re-add the old user's guide and labs
-19c5c8c00ac5a15648cc222438cb1933b9c2c644 xfsdoc: deuglify output fonts
-9895d0ac0a122648f762adf4322c57c49466db6b design: document atomic extent swap log intent structures
-fe14fe488b936f46e597d5f5011c2b7717c2fc7c design: document the changes required to handle metadata directories
-a1f01ddf865d21bad5d254720803c4d3e3181ee0 design: document new name-value logged attribute variants
-7eeec043fce6f300dc5461a3a5e02a18c0e102ed design: document the parent pointer ondisk format
-c2812ba9ed62924d4086d2c015b48d4bed80d494 design: move discussion of realtime volumes to a separate section
-a22ea8e52f973a7ff17f6eb82c4e7a17831c31f6 design: document realtime groups
-3e590044b80a0585bc24057d88144de18a64e51a design: document the revisions to the realtime rmap formats
-
---===============7116493859174244581==--
+    old: 0f39db7e7fe28bb3150941976443bd681d11c909
+    new: 2f0efb442f18a6f294cad9314c0010d19941d6a7
+    log: |
+         78079d3fe0ce44ddf9f1e8fa4ce5c7318c810cfb design: document atomic extent swap log intent structures
+         6b52f60ebcbacee4c9dcf786b50272ec6112a259 design: document the changes required to handle metadata directories
+         a61d7e85cfe16916be41747f146789fcea8c999a design: document new name-value logged attribute variants
+         561a70c204b51c3cd69175d87ac43c4be6154495 design: document the parent pointer ondisk format
+         e4c7c8cf677a6a7ecd51a614f3c80e3b0bb6059f design: move discussion of realtime volumes to a separate section
+         4df9f6543c521dfe9f4d669a746046542595ac0b design: document realtime groups
+         5ee2a5b9ec84267824e14a5eec3f26ab2607e820 design: document the revisions to the realtime rmap formats
+         c8c412fd867d1349570ec240c4d4b5f436965119 design: document changes for the realtime refcount btree
+         
+  - ref: refs/tags/realtime-rmap_2023-12-31
+    old: c48862a189e22dd1c9bdc8858188e9785863ad2e
+    new: 6771cb8454ca40620aa4e11fe3d13b75990750c0
+    log: |
+         78079d3fe0ce44ddf9f1e8fa4ce5c7318c810cfb design: document atomic extent swap log intent structures
+         6b52f60ebcbacee4c9dcf786b50272ec6112a259 design: document the changes required to handle metadata directories
+         a61d7e85cfe16916be41747f146789fcea8c999a design: document new name-value logged attribute variants
+         561a70c204b51c3cd69175d87ac43c4be6154495 design: document the parent pointer ondisk format
+         e4c7c8cf677a6a7ecd51a614f3c80e3b0bb6059f design: move discussion of realtime volumes to a separate section
+         4df9f6543c521dfe9f4d669a746046542595ac0b design: document realtime groups
+         5ee2a5b9ec84267824e14a5eec3f26ab2607e820 design: document the revisions to the realtime rmap formats
+         
