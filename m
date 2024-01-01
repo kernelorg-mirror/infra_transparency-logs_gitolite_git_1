@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 01 Jan 2024 05:51:04 -0000
-Message-Id: <170408826488.26095.2953415668982430542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 01 Jan 2024 10:14:24 -0000
+Message-Id: <170410406414.29637.11225905221696745565@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: chandanbabu
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/tags/xfs-6.8-merge-3
+  - ref: refs/tags/v6.7-rc8-dts
     old: 0000000000000000000000000000000000000000
-    new: f9b3c6236139f0d85905abe4a46d7a0c93336a13
+    new: 021a0c976a505a0248c1812aca1a83b16add1a71
