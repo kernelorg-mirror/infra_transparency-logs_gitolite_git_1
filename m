@@ -1,32 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Mon, 01 Jan 2024 19:37:38 -0000
-Message-Id: <170413785809.20654.5052339671375070602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Mon, 01 Jan 2024 19:41:05 -0000
+Message-Id: <170413806506.23548.2803905121521588181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 9721847c10cba1abf293781f265fa7e350007f48
-    new: 317b14cef733e436ce8efc29b8f18a2205705b8b
+    old: 80318a5f4280fbb95ecff6b783cb745f9bfa8bd5
+    new: 26b67e7d758643af500c90f49d0071cf1fa30e2a
     log: |
-         3feb6352fbb9172a6b9dcf7dfe0d8882c73d4b5b Add missed _damo_print file
-         d434f1cb2304dadd2aacbda0a79584121294ba78 release_note: Update
-         317b14cef733e436ce8efc29b8f18a2205705b8b Update the version
+         26b67e7d758643af500c90f49d0071cf1fa30e2a mails/retrospect_2023: Final update
          
-  - ref: refs/heads/next
-    old: 9721847c10cba1abf293781f265fa7e350007f48
-    new: 317b14cef733e436ce8efc29b8f18a2205705b8b
-    log: |
-         3feb6352fbb9172a6b9dcf7dfe0d8882c73d4b5b Add missed _damo_print file
-         d434f1cb2304dadd2aacbda0a79584121294ba78 release_note: Update
-         317b14cef733e436ce8efc29b8f18a2205705b8b Update the version
-         
-  - ref: refs/tags/v2.1.5
-    old: 0000000000000000000000000000000000000000
-    new: 55cc1200b7018f7bbacacae89f51aed5859ad70e
