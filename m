@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0901035871033991930=="
+Content-Type: multipart/mixed; boundary="===============4514147423410744982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 01 Jan 2024 05:49:46 -0000
-Message-Id: <170408818611.23903.6540560236778887534@gitolite.kernel.org>
+Date: Mon, 01 Jan 2024 05:50:29 -0000
+Message-Id: <170408822987.25843.4374658592746107317@gitolite.kernel.org>
 
---===============0901035871033991930==
+--===============4514147423410744982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-6.8-merge
     old: 98bdbf60cca858f4bc993895b738c6ae1bef42b8
     new: bcdfae6ee520b665385020fa3e47633a8af84f12
     log: revlist-98bdbf60cca8-bcdfae6ee520.txt
 
---===============0901035871033991930==
+--===============4514147423410744982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -62,4 +62,4 @@ e1ead237407a7f42957f6108a95cf093ce6c2c5d xfs: fold xfs_rtallocate_extent into xf
 4f6ac47b55e3ce6e982807928d6074ec105ab66e xfs: fix a use after free in xfs_defer_finish_recovery
 bcdfae6ee520b665385020fa3e47633a8af84f12 xfs: use the op name in trace_xlog_intent_recovery_failed
 
---===============0901035871033991930==--
+--===============4514147423410744982==--
