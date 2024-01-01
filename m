@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Mon, 01 Jan 2024 02:30:31 -0000
-Message-Id: <170407623169.12366.5705641678337551934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 01 Jan 2024 02:35:34 -0000
+Message-Id: <170407653404.15696.10477380477041062780@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
+repo: pub/scm/network/wireless/iwd
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 8d74bc66146ea78620d140640a0a57af86fc8936
-    new: 7fed63b91b9799b4232347eaf29656a7faef70ec
+    old: e89ba32d30fc7b68657943e02e5c81c727bcfcba
+    new: ba9717d445417df718c7e769ef31fbb4a625209b
     log: |
-         7fed63b91b9799b4232347eaf29656a7faef70ec smsutil: Drop use of g_convert in favor of ell
+         ba9717d445417df718c7e769ef31fbb4a625209b configure.ac: fix bashism
          
