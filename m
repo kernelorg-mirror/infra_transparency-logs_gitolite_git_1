@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4430637693624328550=="
+Content-Type: multipart/mixed; boundary="===============1785405848973000635=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 01 Jan 2024 18:54:18 -0000
-Message-Id: <170413525832.20774.3797644897714619215@gitolite.kernel.org>
+Date: Mon, 01 Jan 2024 18:54:28 -0000
+Message-Id: <170413526810.20928.7650913120549642330@gitolite.kernel.org>
 
---===============4430637693624328550==
+--===============1785405848973000635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: f138f8dbee0adb2e0fb09487cda096b54934254b
-    new: e013a0ac8cdb79917380a41e960cc6bf4fd487c6
-    log: revlist-f138f8dbee0a-e013a0ac8cdb.txt
+  - ref: refs/heads/m68k-queue
+    old: c236c386cf3d1f254e8a48c59ffef481ac1e337f
+    new: 07b3ff0e3a5fe9ec635262a2c1cf7565a881d06f
+    log: revlist-c236c386cf3d-07b3ff0e3a5f.txt
 
---===============4430637693624328550==
+--===============1785405848973000635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f138f8dbee0a-e013a0ac8cdb.txt
+Content-Disposition: attachment; filename=revlist-c236c386cf3d-07b3ff0e3a5f.txt
 
 1f475cd572ea77ae6474a17e693a96bca927efe9 virtio_ring: fix syncs DMA memory with different direction
 b8e0792449928943c15d1af9f63816911d139267 virtio_blk: fix snprintf truncation compiler warning
@@ -78,6 +78,8 @@ b106bcf0f99ae0459f3c8c2f0af575ef9f5d9bde locking/osq_lock: Clarify osq_wait_next
 9c334eb9ce886247567573074b13c5ac29d1a41a get_maintainer: correctly parse UTF-8 encoded names in files
 2639772a11c860628c5f7007842eca52a1c34d78 get_maintainer: remove stray punctuation when cleaning file emails
 610a9b8f49fbcf1100716370d3b5f6f884a2835a Linux 6.7-rc8
-e013a0ac8cdb79917380a41e960cc6bf4fd487c6 Merge tag 'v6.7-rc8'
+9a35d0ce4b6f00258b98a7f75b4476783db653a2 m68k: atari: usb: Add ISP1160 USB host controller support
+3f154cdd4c529cbd01fea8d5c5cdc3aa65f5d439 m68k: atari: Update Kconfig.bus help text
+07b3ff0e3a5fe9ec635262a2c1cf7565a881d06f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4430637693624328550==--
+--===============1785405848973000635==--
