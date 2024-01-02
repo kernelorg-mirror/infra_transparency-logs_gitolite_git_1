@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 02 Jan 2024 19:14:13 -0000
-Message-Id: <170422285366.22047.13230414528427340370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 02 Jan 2024 19:42:52 -0000
+Message-Id: <170422457291.10354.8256010551362623115@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 4865969f1fdf6b5f5041ea3d65c90b020cb509d2
-    new: 01723bfb5a95d4d87dd2e0f9fb1bdb689315dc49
+  - ref: refs/heads/fixes-togreg
+    old: 76221bed6e4fbc4c98307b2f6dc92380b7cdc90c
+    new: 6d4850f80654c49d08056667437e4eb19afe1b8c
     log: |
-         3df9b683d12e1c6bb68e48bfccaf9befddc86be9 read-mshot.t: test with differing buffer size
-         01723bfb5a95d4d87dd2e0f9fb1bdb689315dc49 Merge branch 'fix1' of https://github.com/DylanZA/liburing
+         6d4850f80654c49d08056667437e4eb19afe1b8c iio: magnetometer: rm3100: add boundary check for the value read from RM3100_REG_TMRC
          
