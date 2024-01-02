@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 02 Jan 2024 18:14:04 -0000
-Message-Id: <170421924400.10411.4639533422385876608@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 02 Jan 2024 18:14:21 -0000
+Message-Id: <170421926166.10595.17575852019177020485@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/enumeration
-    old: 0d481ff35c9a85d775e5544bb2e331e7d5eb6c3c
-    new: ac4f1897fa5433a1b07a625503a91b6aa9d7e643
+  - ref: refs/heads/master
+    old: ea8b726fdf9ae85f3e3720324450788abfdfdd1b
+    new: 659c07b7699a6e50af05a3bdcc201ff000fbcada
     log: |
-         ac4f1897fa5433a1b07a625503a91b6aa9d7e643 PCI: Fix 64GT/s effective data rate calculation
+         d642ef7111014805f2e21e9cddb0c0a93ae1313d virt: sev-guest: Convert to platform remove callback returning void
+         659c07b7699a6e50af05a3bdcc201ff000fbcada Merge x86/sev into tip/master
          
