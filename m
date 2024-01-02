@@ -1,57 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3943110220482322659=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 02 Jan 2024 13:39:40 -0000
-Message-Id: <170420278074.5564.15759477275407010941@gitolite.kernel.org>
-
---===============3943110220482322659==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 02 Jan 2024 13:41:37 -0000
+Message-Id: <170420289797.7886.15170986443158631495@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/usb-testing
-    old: 21bea26c848e056e58e01448db41fabd47168c73
-    new: ca2dc35e555e7043de585f4e46123d8fbd2b5a21
+  - ref: refs/heads/main
+    old: 42a7889a1931a07a04a64c8cd72f41a4ba78a1d9
+    new: 7df54188a897ff656e237239f2b02a8f70183333
     log: |
-         9c6b789e954fae73c548f39332bcc56bdf0d4373 Revert "usb: typec: class: fix typec_altmode_put_partner to put plugs"
-         ca2dc35e555e7043de585f4e46123d8fbd2b5a21 usb: dwc2: Disable clock gating feature on Rockchip SoCs
+         d9cd27b8cd191133e287e5de107f971136abe8a2 mptcp: add CurrEstab MIB counter support
+         c693a8516429908da3ea111b0caa3c042ab1e6e9 mptcp: use mptcp_set_state
+         0bd962dd86b2e5d097fc42c7411818851eca2995 selftests: mptcp: join: check CURRESTAB counters
+         81ab772819da408977ac79c0a17d8be57283379f selftests: mptcp: diag: check CURRESTAB counters
+         8179cc4764cd1be8d5821e878ad062bc8f702e92 Merge branch 'mptcp-mib-counters'
+         7df54188a897ff656e237239f2b02a8f70183333 Documentation: add pyyaml to requirements.txt
          
-
---===============3943110220482322659==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704202773 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1704202772-c9919474d629143c7f92969f64ede2fe4006c204
-
-21bea26c848e056e58e01448db41fabd47168c73 ca2dc35e555e7043de585f4e46123d8fbd2b5a21 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWUEhUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I+oP/RHFhZ7ARcHLFL6ajCBH
-PNjU7JL0EyEmdpvDzL18nLCMkzNHLoUwfBB9mSuGwCzNep9pTLh18aI6iiLfDxmp
-1YgZpVx5dr06HUVCDfqtgSXkPDAATZ1JIo7Qoa0G2OEanpCAoXB2iC1q+ulBveI/
-z6w1jTfspbBx/OeubfNRhMfzu5sHYhnb6N4nDBfbyP/fj19Hxp+sHNOGYr3ZdTUd
-vyfCj4KABbArW5RBB8edtw8xiqQT6mMljp4z9W7+Q55eQOo4RR/DyLmVCA8p0mgf
-HoZ/zIQG0MfKTpJZ0bAXR9615CnFL918RkMOtfWqiITU38z9VWzrHWtkD6R20ub4
-gLOc5Syue6a98HqJ+c5/EDjir1YC2xIRbIODcn4hSPxYaVROhqMT7o5DR3kmzz1n
-eNp0E3jeY9kBm1ymjnluvJb7ZXRcIEDp2/okFt8v9OP/jigzGSXN8pfbW6az7yO5
-pDk74DckoLd0ZtNsWdCwsfSDsawjTEBIdqoSec7ucNxzTHl9Zjrcy/At0yZVaTot
-yMOhWnVPMsxjNA7xk+RXgS8zah1ZY//C6RwRyMcIFhIOxKyvo7TvECRs1mcL7aI9
-JzKnt19gIJNzxhIOcYkeG/xVPQy9wgYQK7mhVpJRKyo3PiAwljPMoLBnUZCQh8yq
-xBfTXpjuYv/iXHuEXi3pdfAu
-=8U0g
------END PGP SIGNATURE-----
-
---===============3943110220482322659==--
