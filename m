@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 02 Jan 2024 18:13:21 -0000
-Message-Id: <170421920184.10052.15653801441736857712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 02 Jan 2024 18:14:04 -0000
+Message-Id: <170421924400.10411.4639533422385876608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/x86/sev
-    old: 30579c8baa5b4bd986420a984dad2940f1ff65d3
-    new: d642ef7111014805f2e21e9cddb0c0a93ae1313d
+  - ref: refs/heads/enumeration
+    old: 0d481ff35c9a85d775e5544bb2e331e7d5eb6c3c
+    new: ac4f1897fa5433a1b07a625503a91b6aa9d7e643
     log: |
-         d642ef7111014805f2e21e9cddb0c0a93ae1313d virt: sev-guest: Convert to platform remove callback returning void
+         ac4f1897fa5433a1b07a625503a91b6aa9d7e643 PCI: Fix 64GT/s effective data rate calculation
          
