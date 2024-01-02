@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4481740970368997551=="
+Content-Type: multipart/mixed; boundary="===============3313503221382944126=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 02 Jan 2024 13:25:52 -0000
-Message-Id: <170420195203.28290.664246137308903821@gitolite.kernel.org>
+Date: Tue, 02 Jan 2024 13:26:17 -0000
+Message-Id: <170420197793.28515.12683449569492163863@gitolite.kernel.org>
 
---===============4481740970368997551==
+--===============3313503221382944126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/usb-next
     old: 1760bfa7d7ca490cf8a61fe50ddeb1769cadd89e
     new: 21bea26c848e056e58e01448db41fabd47168c73
     log: revlist-1760bfa7d7ca-21bea26c848e.txt
 
---===============4481740970368997551==
+--===============3313503221382944126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704201945 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704201977 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1704201945-e37a45044c38da041d109040795a48515c924983
+nonce 1704201976-a5d1d810b282c06746ff29c17612c0b44b45c71e
 
-1760bfa7d7ca490cf8a61fe50ddeb1769cadd89e 21bea26c848e056e58e01448db41fabd47168c73 refs/heads/usb-testing
+1760bfa7d7ca490cf8a61fe50ddeb1769cadd89e 21bea26c848e056e58e01448db41fabd47168c73 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWUDtkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CnYQANENiC0+ckzUOYPdpd/G
-u6MbL048GBrs63UXhwRqcvwI0TCU20KCJ13ssAjnlg2dwnyJc7IWjCuNc0sM6Ba0
-yeHB2Uy0ARF1c5Eh2Uz5Fw78GvM4+m1TLNiCweY/qHqnwa4jdTsuP4AHJFk/GCU1
-JtBmmpLjW6NSdis9M/Jl7JPDl2EPbJJpoEh5jqxqOEWClWlAkSLM11nSGVB9zcjj
-RQSreXxS6NhRxuxR/jPVD2Ja1Zl8ti2zZEeUDKjFGmFK8ySxe6pYc77oktmabmW/
-YNTY12636Rym0Z0+mhZ3uMbcUbw1/CE2ew/gSaKR+1bT8IVQV0vGiHDbrb9kvTMD
-PJb5eBBvml/a7YWRhU4fyy01iblGRsHy1fvOmt3ZiRhsQ6tOm7m0CEychsu5QMxq
-g345ZirKkkQrY3luSWvKbSgFwsmpehKLKGIsdFpaO7xEunSdMCLww8bUypyafVMe
-QQ+oXc6OxZ1eUPn4y0u+LjrjEQ98bzhIB3AwRzqQr1DgWRd5Lky8+1psEmOrszE6
-HW5V6GpQVRrbyRVmTcnPcEqV/pNEd3r4ROQYXL8gREAI92MK4LaF/SbRFewURSPO
-wlsTWmwuaowas5QMJ+y5WujD+igwkX56xgyNGeF8c2tmQ7YqtsGvFWJD/dQwAP57
-00LsZ5gMyZKV+rM33/nU5YQE
-=wWYZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWUDvkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SecQAJnX1hJe90Wi+bdc+RMA
+fIdX6WX6VhMV4fwwXWEqxZd2or8lKsTFPcBwJQhh4K3D4606eaoOfGpXEB4SnAfW
+Y9LIJutYG8IWjsOA+87AC3yT1YCBKwiLZAOLupxuK9c6ETq+mzylqHKm5N7XIptg
+dNi0rk+vWe7VVGHaEs9/rcJsFVtbMRNu1vABqmxqg5TVJyNQ8LI2gUCPXK4Bthiz
+wSBwQY1mCwMAgxOtm+IJJTtV2kNNr/iXiQZO6iv/z2+1Kmcsu2YD4Jgpve76QJ4k
+zoBXv3rKUd/wSvFVYekJp+qFwQ9JAgejofaok4KSwCrTbK/I+hdQh1XwSEKjpo/W
+I2LrKTj9yL6fya/k+C5YiM1mRDsiYBYNgsGYS19LRUBaVv06BXiHjDckCeEtfI8h
+54S/713FM66Idcgx9aQDRAcsDLDMxzrEZo4nOewuHh4G6ZS+kqSxDix6L/7eRtrr
+DpcU0ws2JPCBxCPPDyynsnZ+cQV6xfrfx9i4fCD0UoivyJ/mTz4HBbdpaUL8u/se
+BqH7vdrdAJARbdEPCFksToDZCHnzEwxz+K5NynhtqQ4Zkrm7z452Bl6wG5x0Yfpw
+ZxmsLWLBdmbQTSod5LHegLWGDAVss8FAgNEIeabO/J5RCl1HxwnNt6nYV55vI35s
+yGhVowOUjndOHmOi/x41RhIi
+=/7ez
 -----END PGP SIGNATURE-----
 
---===============4481740970368997551==
+--===============3313503221382944126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ ba2a2a86de04e67bb1d7f8251894eb11eed062e9 thunderbolt: Keep link as asymmetric if
 04b99eac389adc6485f7913d83ec9ed68bbc8326 thunderbolt: Reduce retry timeout to speed up boot for some devices
 21bea26c848e056e58e01448db41fabd47168c73 Merge tag 'thunderbolt-for-v6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into char-misc-next
 
---===============4481740970368997551==--
+--===============3313503221382944126==--
