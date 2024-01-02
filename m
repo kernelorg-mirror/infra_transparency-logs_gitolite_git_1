@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 02 Jan 2024 23:29:50 -0000
-Message-Id: <170423819088.10956.5193018718231997868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 02 Jan 2024 23:30:31 -0000
+Message-Id: <170423823139.12895.10778007641260985041@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-linus
-    old: 1ce7d3dbed191e2c491cff4233d25365f3650b86
-    new: 0ee2030af4e3e0a9cd26dfaa8c2f935beffa91d1
+  - ref: refs/heads/main
+    old: 3e64db35bc37edbe9e37aaa987df92cde12ddb6c
+    new: 8dc4c410006531ddad981ca9578f83cb93860819
     log: |
-         f93e71aea6c60ebff8adbd8941e678302d377869 Revert "PCI/ASPM: Remove pcie_aspm_pm_state_change()"
-         0ee2030af4e3e0a9cd26dfaa8c2f935beffa91d1 MAINTAINERS: Orphan Cadence PCIe IP
+         8dc4c410006531ddad981ca9578f83cb93860819 xsk: make struct xsk_cb_desc available outside CONFIG_XDP_SOCKETS
          
