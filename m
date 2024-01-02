@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 02 Jan 2024 15:29:16 -0000
-Message-Id: <170420935653.20119.12813733730367450356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Tue, 02 Jan 2024 15:32:09 -0000
+Message-Id: <170420952991.22801.749278477868394426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/kdevops
-    old: cd9f73a6dc2d5205731c31d28f029393ea4e04d0
-    new: cf2eb0a413b462f99f7960105cf9c4767df8b7c4
+  - ref: refs/heads/urgent
+    old: 50d7cdf7a9b1ab6f4f74a69c84e974d5dc0c1bf1
+    new: 98072157c4e6fc8c195599d098fce2daedad1fca
     log: |
-         cf2eb0a413b462f99f7960105cf9c4767df8b7c4 Debugging
+         98072157c4e6fc8c195599d098fce2daedad1fca x86/efistub: Fix the missing KASLR_FLAG bit in boot_params->hdr.loadflags
          
