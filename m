@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 02 Jan 2024 18:14:21 -0000
-Message-Id: <170421926166.10595.17575852019177020485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
+Date: Tue, 02 Jan 2024 18:19:28 -0000
+Message-Id: <170421956800.14015.15177932256873812879@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/utils/cpu/mce/mcelog
+user: ak
 changes:
   - ref: refs/heads/master
-    old: ea8b726fdf9ae85f3e3720324450788abfdfdd1b
-    new: 659c07b7699a6e50af05a3bdcc201ff000fbcada
+    old: f6ec8aa064f16d03ca8a9278cf9b02031a493d70
+    new: 20dc4373b7e04b00a6bd9f55446486df194b82ef
     log: |
-         d642ef7111014805f2e21e9cddb0c0a93ae1313d virt: sev-guest: Convert to platform remove callback returning void
-         659c07b7699a6e50af05a3bdcc201ff000fbcada Merge x86/sev into tip/master
+         283fe6b239b140093bc142a9ff2c947dd54c754c assign freed pointers to NULL pointer
+         20dc4373b7e04b00a6bd9f55446486df194b82ef Merge pull request #119 from meow-watermelon/point_freed_ptr_null
          
