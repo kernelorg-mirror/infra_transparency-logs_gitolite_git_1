@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 02 Jan 2024 12:26:51 -0000
-Message-Id: <170419841144.13541.7835471133999487853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Tue, 02 Jan 2024 12:27:08 -0000
+Message-Id: <170419842813.13701.7618095846089734692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/review-hans
-    old: 7ece3c9cd0571912d40e41d8c08854bd83541536
-    new: 669f157fd7ad987dd5beba46576ec357f4d6c686
-    log: |
-         10ed9ee0af5a6cab8b36b301865417a288179b06 platform/x86/intel/pmc/arl: Add GBE LTR ignore during suspend
-         6f9fac5535ba2038063c656f0afb496d7f87bcc1 platform/x86/intel/pmc/lnl: Add GBE LTR ignore during suspend
-         669f157fd7ad987dd5beba46576ec357f4d6c686 platform/x86/intel/pmc: Add missing extern
-         
+  - ref: refs/tags/thunderbolt-for-v6.8-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 12d10987640cc471a5f5321c26428c938d8d813b
