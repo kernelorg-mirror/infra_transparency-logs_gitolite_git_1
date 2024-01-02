@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6013254843152166273=="
+Content-Type: multipart/mixed; boundary="===============0981546947516790183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 02 Jan 2024 14:50:24 -0000
-Message-Id: <170420702447.25591.14767072727465841905@gitolite.kernel.org>
+Date: Tue, 02 Jan 2024 14:54:47 -0000
+Message-Id: <170420728755.27180.3407800192784850389@gitolite.kernel.org>
 
---===============6013254843152166273==
+--===============0981546947516790183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,32 @@ repo: pub/scm/utils/b4/b4
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 4e03211130d5afbf26297bee8b549013fc30e6fc
-    new: f0463198e476b04df470f2170d5d3f2fce5eefa0
+  - ref: refs/heads/stable-0.12.y
+    old: cf5028b3a76b9dbc0a8e0158df65d0e25c89e2bf
+    new: 2aabd4466910f41b3a3b1dbf2f1010a6dcbfb3d9
     log: |
-         f0463198e476b04df470f2170d5d3f2fce5eefa0 Properly write out bare-address trailers
+         dc5db32ade42b8ba58366a6d0568016e38e51934 Up version to 0.12.5-dev
+         2aabd4466910f41b3a3b1dbf2f1010a6dcbfb3d9 Properly write out bare-address trailers
          
 
---===============6013254843152166273==
+--===============0981546947516790183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1704207023 -0500
+pusher B6C41CE35664996C! 1704207286 -0500
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1704207023-73b4f67cf5e2c4085b67e0497307ac1db94d7323
+nonce 1704207286-0be95b36587e38925802ae2e8ceab6cd9dfe100c
 
-4e03211130d5afbf26297bee8b549013fc30e6fc f0463198e476b04df470f2170d5d3f2fce5eefa0 refs/heads/master
+cf5028b3a76b9dbc0a8e0158df65d0e25c89e2bf 2aabd4466910f41b3a3b1dbf2f1010a6dcbfb3d9 refs/heads/stable-0.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZZQirwAKCRC2xBzjVmSZ
-bNldAP42YOsviE5TR1G5QPC3jSCoQ+QkSO5mndK6mcgTYha2XgD/ftOkNH1KTfcr
-J807ne79EpZ5vLA2yolZCHJ/CWWkZQc=
-=9x7a
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZZQjtgAKCRC2xBzjVmSZ
+bP+TAP9zT7DB0WpC465rC/cV6HPCUVesH0EnGGP1ODy/9D16WQEAjKArD2XgOqfS
+vl4iZGHucboC0aeOJtnjlVuErxjlOAQ=
+=1a/E
 -----END PGP SIGNATURE-----
 
---===============6013254843152166273==--
+--===============0981546947516790183==--
