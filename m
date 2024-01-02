@@ -1,63 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============6910425058208111026=="
+Content-Type: multipart/mixed; boundary="===============2320069387914728600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 02 Jan 2024 13:42:29 -0000
-Message-Id: <170420294923.8286.477139864952376542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 02 Jan 2024 13:44:07 -0000
+Message-Id: <170420304770.8949.1967264181818351286@gitolite.kernel.org>
 
---===============6910425058208111026==
+--===============2320069387914728600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/usb-testing
-    old: ca2dc35e555e7043de585f4e46123d8fbd2b5a21
-    new: e7d3b9f28654dbfce7e09f8028210489adaf6a33
-    log: |
-         7059fbebcb00554c3f31e5b5d93ef6d2d96dc7b4 Revert "usb: dwc3: Soft reset phy on probe for host"
-         afe28cd686aeb77e8d9140d50fb1cf06a7ecb731 Revert "usb: dwc3: don't reset device side if dwc3 was configured as host-only"
-         961410c9e8534d3c6f347c04cacf50bc5c002a3f drivers/usb/gadget/udc: Fix spelling typo in comments(reqest->request)
-         d49f90822015ad9c8837717e6b5967c8748626df usb: typec: tipd: add init and reset functions to tipd_data
-         798531b85f08c1dd128b88acd1f98c6a6b30dffd usb: typec: tipd: add function to request firmware
-         e79ead88eeb8f3e945355b537bfaca7532dfee10 usb: typec: tipd: declare in_data in as const in exec_cmd functions
-         4c3ea81aa8e11400f24e5541bf46c2cadb4202e9 usb: typec: tipd: add patch update support for tps6598x
-         e7d3b9f28654dbfce7e09f8028210489adaf6a33 usb: yurex: Fix inconsistent locking bug in yurex_read()
-         
+  - ref: refs/heads/main
+    old: 7df54188a897ff656e237239f2b02a8f70183333
+    new: 8a48a2dc24f834aa1a1f5f2c5444805523f65aee
+    log: revlist-7df54188a897-8a48a2dc24f8.txt
 
---===============6910425058208111026==
+--===============2320069387914728600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7df54188a897-8a48a2dc24f8.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704202944 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1704202943-57b27ddb6b8ac2974741c94338624ce4788f0aa2
+80837140c1f2c05d566b49181785bced3ab6140e Bluetooth: ISO: Allow binding a PA sync socket
+fa224d0c094a458e9ebf5ea9b1c696136b7af427 Bluetooth: ISO: Reassociate a socket with an active BIS
+5d192b697c7417254cdd9edc3d5e9e0364eb9045 Bluetooth: qca: Set both WIDEBAND_SPEECH and LE_STATES quirks for QCA2066
+4e0a1d8b06751d9ea8357e1f29f6b31465856665 Bluetooth: btusb: Don't suspend when there are connections
+ba9e401493148b82b0a74b89ee416851ede11a77 Bluetooth: Add documentation to exported functions in lib
+78db544b5d276b70c6ea2c2909ffed96b10229a3 Bluetooth: hci_core: Remove le_restart_scan work
+a2e7707bba21b373c7b429ad7f9030d63dfb4542 Bluetooth: btintel: Print firmware SHA1
+d03376c185926098cb4d668d6458801eb785c0a5 Bluetooth: Fix bogus check for re-auth no supported with non-ssp
+9f150019f176078144b02c4b9b9dbe7fd5a2fcc3 Bluetooth: ISO: Avoid creating child socket if PA sync is terminating
+132d0fd0b8418094c9e269e5bc33bf5b864f4a65 Bluetooth: hci_conn: Check non NULL function before calling for HFP offload
+ca6d2adf8ded3eb3e64a01f339735c99e6c7260e Bluetooth: qca: Support HFP offload for QCA2066
+94d05394254401e503867c16aff561d3e687dfdc Bluetooth: btnxpuart: fix recv_buf() return value
+64057f051f20c2a2184b9db7f8037d928d68a4f4 Bluetooth: btmtkuart: fix recv_buf() return value
+3c83800a6c5be446e35648ccaba7da88173acb37 Bluetooth: btnxpuart: remove useless assignment
+d4b70ba1eab450eff9c5ef536f07c01d424b7eda Bluetooth: hci_sync: fix BR/EDR wakeup bug
+96a3398b467ab8aada3df2f3a79f4b7835d068b8 Bluetooth: L2CAP: Fix possible multiple reject send
+3600860a719383a228f7c3e2648363d28ae478e2 Bluetooth: Add device 13d3:3572 IMC Networks Bluetooth Radio
+da9065caa594d19b26e1a030fd0cc27bd365d685 Bluetooth: Fix atomicity violation in {min,max}_key_size_set
+8a48a2dc24f834aa1a1f5f2c5444805523f65aee Merge tag 'for-net-next-2023-12-22' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 
-ca2dc35e555e7043de585f4e46123d8fbd2b5a21 e7d3b9f28654dbfce7e09f8028210489adaf6a33 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWUEsAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KtYQAIZOC5BYaSjZhAH0JPQ2
-E5V7uRx4aApJOh5FcA7lbqGXDF1BbXst9etX2oWMHgW2GpRPilUHrWCZtWIaI3Yq
-DVSMDr9t7IvCFBLWI9E9DQOCUCYIrdLjIRAzQQhcjT8V83GH6iWyZKNgG4gV42Ot
-T11DOqVKG5vdIBntgyuQiCZ8MJENsFkQK8wqvmF8248ctyZT7TJIjtcSdhQg9VIp
-jKWWo7JybfWEmpmzWwLUt2sJeBSBgcP2VjhYI4m5ldkZ/qB/vlfS9btIsaLDDAbT
-A3wVfy3bmADLvwadXSCrLLMXK6vYrGMw+1Tnsklvm8CejSg1sYClEZlRk38cSYUN
-BsPwDyRThy+g32/VHC0ldldXfZs8f6wC1cn4xBwRMOPtKn4KboeYhMFkMV2KAphs
-XBummwEHQHHKPOnpdc+CW/F9554a4ucPeeXtmBDnlCUh4IoZi0ZNakJeLjmimh0q
-m3fk1OoA7oc6n5T+CAzuo1fRd9xziLQHkEYLhQix72+1NWyxJw06ecxS9RID7v3f
-Wp9iHqvXWUqhmECL5f6sdYuA53nfP8AhH4pdjaVMSSxlYKP7RF0xj1rbiilHF/8C
-NucT6A9L5ZR2s/CVKqWKf0/IBrzSdz0rQ27RqGaeUJ6RghdazSyB1NfqDugpJ01/
-xmaY4A9r+uaA5IHg/NYEiAZ5
-=SN9w
------END PGP SIGNATURE-----
-
---===============6910425058208111026==--
+--===============2320069387914728600==--
