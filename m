@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 02 Jan 2024 10:29:44 -0000
-Message-Id: <170419138484.26690.1211845232973385977@gitolite.kernel.org>
+Date: Tue, 02 Jan 2024 10:31:16 -0000
+Message-Id: <170419147646.28922.7099526658186641971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,13 @@ repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
   - ref: refs/heads/for-next
-    old: 4e6d7a278742d55346b4a94e85cc62bc70e85a45
-    new: a7ec039cc8c6595994b311a5a9a2bb226f3beafd
+    old: a7ec039cc8c6595994b311a5a9a2bb226f3beafd
+    new: a8f7bb9e1277a9209360c1928939ce5412687a64
     log: |
-         37d158d0b05144f696323ae5bbfe1e137f7c06d3 HID: make hid_bus_type const
-         c4a9743699f3b093bad4bcc472c4ee34c7929f33 HID: make ishtp_cl_bus_type const
-         9b0a3839e8d29663cd9ee2c43d38b06c3b91619e HID: bpf: make bus_type const in struct hid_bpf_ops
-         a7ec039cc8c6595994b311a5a9a2bb226f3beafd Merge branch 'for-6.8/hid-bus-type-const' into for-next
+         d74ac6f60a7ef677c3b7702f103b670142f84d66 dt-bindings: HID: i2c-hid: elan: Introduce Ilitek ili2901
+         03ddb7de012c68d727509c4f6e0c0fa1ebc81668 HID: i2c-hid: elan: Add ili2901 timing
+         a8f7bb9e1277a9209360c1928939ce5412687a64 Merge branch 'for-6.8/elan' into for-next
          
-  - ref: refs/heads/for-6.8/hid-bus-type-const
+  - ref: refs/heads/for-6.8/elan
     old: 0000000000000000000000000000000000000000
-    new: 9b0a3839e8d29663cd9ee2c43d38b06c3b91619e
+    new: 03ddb7de012c68d727509c4f6e0c0fa1ebc81668
