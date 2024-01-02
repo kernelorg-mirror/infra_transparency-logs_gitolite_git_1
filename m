@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5482519426606241554=="
+Content-Type: multipart/mixed; boundary="===============6552982020251435002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 02 Jan 2024 16:32:42 -0000
-Message-Id: <170421316288.1154.14997916805483431274@gitolite.kernel.org>
+Date: Tue, 02 Jan 2024 16:34:57 -0000
+Message-Id: <170421329782.2136.6380462338926396821@gitolite.kernel.org>
 
---===============5482519426606241554==
+--===============6552982020251435002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 88d53289520579a240bb6d614857e5a9b2b11bd7
-    new: 2d5fc3b92ca5f803efe188a90b1cbd5e004c1b42
-    log: revlist-88d532895205-2d5fc3b92ca5.txt
+  - ref: refs/heads/master
+    old: ceb6a6f023fd3e8b07761ed900352ef574010bcb
+    new: 610a9b8f49fbcf1100716370d3b5f6f884a2835a
+    log: revlist-ceb6a6f023fd-610a9b8f49fb.txt
 
---===============5482519426606241554==
+--===============6552982020251435002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88d532895205-2d5fc3b92ca5.txt
+Content-Disposition: attachment; filename=revlist-ceb6a6f023fd-610a9b8f49fb.txt
 
 c1f342f35f820b33390571293498c3e2e9bc77ec Input: psmouse - enable Synaptics InterTouch for ThinkPad L14 G1
 92bfa4ab1b79be95c4f52d13f5386390f0a513c2 iio: kx022a: Fix acceleration value scaling
@@ -382,9 +382,5 @@ b106bcf0f99ae0459f3c8c2f0af575ef9f5d9bde locking/osq_lock: Clarify osq_wait_next
 9c334eb9ce886247567573074b13c5ac29d1a41a get_maintainer: correctly parse UTF-8 encoded names in files
 2639772a11c860628c5f7007842eca52a1c34d78 get_maintainer: remove stray punctuation when cleaning file emails
 610a9b8f49fbcf1100716370d3b5f6f884a2835a Linux 6.7-rc8
-66926739f59217634ef3ff215612bc19ac4d5302 firmware: arm_scmi: Convert to platform remove callback returning void
-8b12056b2cbfe613e503c432b3483630b4ba85d7 firmware: arm_scpi: Convert to platform remove callback returning void
-3c426ea7dc11dc9ebb47a9058bbb3b7aff813e1c firmware: arm_scmi: Replace asm-generic/bug.h with linux/bug.h
-2d5fc3b92ca5f803efe188a90b1cbd5e004c1b42 Merge branch 'for-next/scmi/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============5482519426606241554==--
+--===============6552982020251435002==--
