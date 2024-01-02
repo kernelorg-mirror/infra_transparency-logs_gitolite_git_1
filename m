@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8175078606494238661=="
+Content-Type: multipart/mixed; boundary="===============4142803116168678312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Tue, 02 Jan 2024 13:20:45 -0000
-Message-Id: <170420164596.24417.12409412393027375470@gitolite.kernel.org>
+Date: Tue, 02 Jan 2024 13:20:50 -0000
+Message-Id: <170420165045.24518.591176279977524470@gitolite.kernel.org>
 
---===============8175078606494238661==
+--===============4142803116168678312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/kcsan/dev
-    old: 0d240ee5040a7f69b94dd4575aa0de573b8a6d3c
-    new: 959886775235374b4a4b64cdc200d5d6349febf2
-    log: revlist-0d240ee5040a-959886775235.txt
+  - ref: refs/heads/kfence/dev
+    old: 2b95bcf905413d4691cf6046ead4e0213e680e30
+    new: b60030540a4d9c5fe6e84638e35d716525f807ea
+    log: revlist-2b95bcf90541-b60030540a4d.txt
 
---===============8175078606494238661==
+--===============4142803116168678312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d240ee5040a-959886775235.txt
+Content-Disposition: attachment; filename=revlist-2b95bcf90541-b60030540a4d.txt
 
+06365a04fd32af25f90d8ccb4fecdda1f0e1ab78 Merge tag 'drm-intel-fixes-2023-09-28' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+a52d4f657568d6458e873f74a9602e022afe666f io_uring/fs: remove sqe->rw_flags checking from LINKAT
+e80f238d2bc0c0f27dc52ac824ca80b938a43ace ASoC: core: Print component name when printing log
+dd9f9cc1e6b9391140afa5cf27bb47c9e2a08d02 ASoC: core: Do not call link_exit() on uninitialized rtd objects
 9b7177b1df64b8d7f85700027c324aadd6aded00 bpf: tcp_read_skb needs to pop skb regardless of seq
 da9e915eaf5dadb1963b7738cdfa42ed55212445 bpf, sockmap: Do not inc copied_seq when PEEK flag set
 5f405c0c0c4651b991c109cf9be33bb996af098e bpf, sockmap: Add tests for MSG_F_PEEK
@@ -1045,10 +1049,6 @@ bd80d2ef59bb6436effa6b7f77746b1418cf0a15 Merge tag 'dma-mapping-6.6-2023-10-28' 
 e663ab6bb56fa8f048cf8725aba577e56f7b2644 Merge tag 'irq-urgent-2023-10-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2af9b20dbb39f6ebf9b9b6c090271594627d818e Merge tag 'x86-urgent-2023-10-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ffc253263a1375a65fa6c9f62a893e9767fbebfa Linux 6.6
-1c2760b8be1d26b5eeec2cf8aa116e4a1490bf14 WIP: kcsan, seqlock: Support seqcount_latch_t
-eba7d978458e06a700b343918144d40c257a5eb8 kcsan: Disable stack protector and branch profiling in reporting
-4f2e7f880105c47d13dc5ff4c17c9bb71dc9e324 kcsan: Refactor printing of report header/footer
-3142c74e8358d0c7347eec91ae4f93dea83a0b36 kcsan: Add support for unaligned atomic access detection
-959886775235374b4a4b64cdc200d5d6349febf2 objtool, kcsan: Add kcsan_report_unaligned_atomic() to uaccess whitelist
+b60030540a4d9c5fe6e84638e35d716525f807ea docs: kernel-parameters: add info about kfence.sample_interval
 
---===============8175078606494238661==--
+--===============4142803116168678312==--
