@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 02 Jan 2024 14:14:02 -0000
-Message-Id: <170420484229.30490.12895885499219370298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 02 Jan 2024 14:16:21 -0000
+Message-Id: <170420498145.526.1278244441965953037@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 059d37b718d38d26087121c754691df77acfc66b
-    new: c46bfba1337d301661dbb23cfd905d4cb51f27ca
+    old: fb9bb704896b4defad76661289136316d534d6f3
+    new: 3ce4f9c3fbb3de675693d178f86284969c146898
     log: |
-         c46bfba1337d301661dbb23cfd905d4cb51f27ca connector: Fix proc_event_num_listeners count not cleared
+         3ce4f9c3fbb3de675693d178f86284969c146898 net/ps3_gelic_net: Add gelic_descr structures
          
