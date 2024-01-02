@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 02 Jan 2024 11:55:47 -0000
-Message-Id: <170419654714.23995.18289174786710584016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Tue, 02 Jan 2024 12:04:46 -0000
+Message-Id: <170419708638.28798.1663248511973238663@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
   - ref: refs/heads/for-next
-    old: d42fafb895246e3f5a5e0f83e7485167fa651f5c
-    new: 63a43a675cb90e8a56e9119fff68292561204b27
+    old: dd87d77c0569da87b9898701cf8e0a2dec8a5cbe
+    new: 844d06e3127228d495eaf365f22dfe33891bb106
     log: |
-         68cf9d82f75c07d4117bca8129a770efa9d89f62 RDMA/erdma: Introduce dma pool for hardware responses of CMDQ requests
-         63a43a675cb90e8a56e9119fff68292561204b27 RDMA/erdma: Add hardware statistics support
+         740e473b78109947548e4d1267b6bde96b8fdd14 video/sticore: Store ROM device in STI struct
+         d63ca9984f828d4a2cf038bcef5764003a389573 fbdev/stifb: Allocate fb_info instance with framebuffer_alloc()
+         5efda28e75602ffed4faefdc14d797a249cf4b14 arch/parisc: Detect primary video device from device instance
+         844d06e3127228d495eaf365f22dfe33891bb106 video/sticore: Remove info field from STI struct
          
