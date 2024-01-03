@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Wed, 03 Jan 2024 19:48:23 -0000
-Message-Id: <170431130340.15610.4068260256927403506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 03 Jan 2024 19:48:41 -0000
+Message-Id: <170431132131.15777.10831303674325843587@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: a82a2de6b22b6bf612d463a17536c40afe9ec9be
-    new: 5b21fd024e9b6bacf1c69022ca58284603532356
+  - ref: refs/heads/bleeding-edge
+    old: b0cae0939838c27caee1044de9d22c17b8919a87
+    new: c0548d04c45b28c3a0be7e5354df2b2387dab167
     log: |
-         a53878cc2d414960cbbd276fde5de212b2a320fa stktest: Return number of failed tests
-         5b21fd024e9b6bacf1c69022ca58284603532356 tools: Rename debug to verbose
+         e2605d4039a42a03000856b3229932455717b48b ACPI: resource: Add Infinity laptops to irq1_edge_low_force_override
+         c0548d04c45b28c3a0be7e5354df2b2387dab167 Merge branch 'acpi-resource' into bleeding-edge
          
