@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
-Date: Wed, 03 Jan 2024 20:30:15 -0000
-Message-Id: <170431381504.14834.14495927650182542258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Wed, 03 Jan 2024 20:31:52 -0000
+Message-Id: <170431391275.15456.5033693013005771761@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
-user: iweiny
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/libnvdimm-for-next
-    old: ecb5659aa1addbc70550bf9bd0ec156d845efa2c
-    new: a085a5eb6594a3ebe5c275e9c2c2d341f686c23c
+  - ref: refs/heads/dt/next
+    old: 21960bda59852ca961fcd27fba9f92750caccd06
+    new: 92c255c7157a07614f3e1df4eb63fbd49bc738e0
     log: |
-         deb369e0828faa245ef3c726b3d5e5f2740ac762 nvdimm: Remove usage of the deprecated ida_simple_xx() API
-         9aa6543ee6d3a717268f210b263b0f1286a0bf1e nvdimm-btt: simplify code with the scope based resource management
-         b19211418969357c6872b963c91799c8cdba3f72 nvdimm/btt: fix btt_blk_cleanup() kernel-doc
-         0e2b3d54d826da9def1ab627b50c123bc34250fa nvdimm/dimm_devs: fix kernel-doc for function params
-         fd045e5f99723db573d671d0484543f61dc496f5 nvdimm/namespace: fix kernel-doc for function params
-         a085a5eb6594a3ebe5c275e9c2c2d341f686c23c acpi/nfit: Use sysfs_emit() for all attributes
+         04fd2c06a014cc010c745448417129d15a09c97a dt-bindings: tpm: Consolidate TCG TIS bindings
+         e2caf8318cfb2b2a78f280252ad5e791b55cecbc dt-bindings: tpm: Convert Google Cr50 bindings to DT schema
+         449a2debdec94461bfd9d68b8fddeed3672c7ed9 dt-bindings: tpm: Convert IBM vTPM bindings to DT schema
+         92c255c7157a07614f3e1df4eb63fbd49bc738e0 dt-bindings: tpm: Document Microsoft fTPM bindings
          
