@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 03 Jan 2024 18:37:41 -0000
-Message-Id: <170430706148.29394.844526823190251414@gitolite.kernel.org>
+Date: Wed, 03 Jan 2024 18:38:03 -0000
+Message-Id: <170430708304.29699.2162300627248164687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/tags/v6.7-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d8f30cf5e09a30e9a978b7df0aa5029afff0e1c1
+  - ref: refs/heads/master
+    old: 2ab1efad60ad119b616722b81eeb73060728028c
+    new: a640de4cf9fec0caf43ccb7404ec9f0fde9a6a65
+    log: |
+         8a021e7fa10576eeb3938328f39bbf98fe7d4715 bpf: Simplify checking size of helper accesses
+         72187506de4f19fcc8ae63a2b2f36d75e5259d9d bpf: Add a possibly-zero-sized read test
+         a640de4cf9fec0caf43ccb7404ec9f0fde9a6a65 Merge branch 'bpf-simplify-checking-size-of-helper-accesses'
+         
