@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3306418411888932119=="
+Content-Type: multipart/mixed; boundary="===============1477995344156298874=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Wed, 03 Jan 2024 11:23:36 -0000
-Message-Id: <170428101659.28581.1033359869300557792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 03 Jan 2024 11:24:18 -0000
+Message-Id: <170428105828.28932.7328049011943645845@gitolite.kernel.org>
 
---===============3306418411888932119==
+--===============1477995344156298874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: d822583c4a34803acbb72ad474c7621b3a2d47d7
-    new: 4d0ae362e24fc6e0f36b22afa6743ce38e0cac8a
-    log: revlist-d822583c4a34-4d0ae362e24f.txt
+  - ref: refs/heads/master
+    old: 1b651e6a5559010a5908020af9084bdda0ad0d47
+    new: 4ebf62649a0a40d8554fb7281e182b5c1c75b46f
+    log: |
+         4ebf62649a0a40d8554fb7281e182b5c1c75b46f 5.15-stable patches
+         
 
---===============3306418411888932119==
+--===============1477995344156298874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d822583c4a34-4d0ae362e24f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8fd80721ec0791826a9ab56656d26931811702f8 landlock: Remove remaining "inline" modifiers in .c files [v5.15]
-da279087b9d9f288609380baf2b6bb89874769d7 landlock: Remove remaining "inline" modifiers in .c files [v6.1]
-3406ebade1a84d1cdb0c342e1506b97a579d3834 landlock: Remove remaining "inline" modifiers in .c files [v6.6]
-b838dd7612f80b75e4363599f7a0d743011dd0d4 selftests/landlock: Rename "permitted" to "allowed" in ftruncate tests
-e87065a7e2ca97eb826da42e6469f112032367ee landlock: Optimize the number of calls to get_access_mask slightly
-efde3761ca1bf8c5d9a971247297493cc3536604 landlock: Add IOCTL access right
-4d1e9f9d0ab13ba8c516ed2c06ac4b6539a8ffaa selftests/landlock: Test IOCTL support
-43ce61c09d2635b56f79c1406db09a750ea1d40e selftests/landlock: Test IOCTL with memfds
-fc21179f1468f18a5e8adc31a166d7a3d8866ff6 selftests/landlock: Test ioctl(2) and ftruncate(2) with open(O_PATH)
-dd62de310e810325c0119d546575064e89e175ea samples/landlock: Add support for LANDLOCK_ACCESS_FS_IOCTL
-4d0ae362e24fc6e0f36b22afa6743ce38e0cac8a landlock: Document IOCTL support
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704281057 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1704281053-a0070a4b05cf214c2d5a60302aa3de707ec95221
 
---===============3306418411888932119==--
+1b651e6a5559010a5908020af9084bdda0ad0d47 4ebf62649a0a40d8554fb7281e182b5c1c75b46f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWVQ+EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MQgP/2LbsWtK6OcmgLeP4EAr
+BEaqlxJ9fYfcLKom0GEoVSmjGJKfRGyfeUoHTuaDBJ1j6T1txkrJKXrDRil/zOZG
+djcxEkdxojd7zMRfN+t78Y1wWvkb7h2/4NTdj1dwAX+QVrCRzT/A1OZH4ge702pA
+VFCLG5rkqEM2fkQfnejV2w1CmBOdVNvwI5o5zSMmW9l/5X2LFBIrPuEonOGZ8fvH
+Z4ksLbjMJvbl+hADm4kzFbtVOEaZYW2LETt/4rsILAK35RCLKb+Oj4aOIskMKwBV
+diVPWpqLUZvjnX0uIKoPjiZcsSCsDCs9jlGDLyhmVEbzUFfwHA7BQOShSmZ5suAq
+zcymKhUDX3LwUtYG46L28os9I8K8aNtG6K9TNXj620kpfjwlsEwva2Egbw2A5Rva
+ZNpv0umJ/6+IvgMecHjtz0d/mzVClJIAnOlZEt6V0Yjnu7Hmpjb3Ktqbkqn3rl8T
+dSSNNaWEHUjm6uLDhART/EDriFx+R/Usmfy2OhLcH7q8jaLadc4zAqkD4/QdNQ0X
+vSlfrFOV+55diG1XDWhYGUq1wEtgz+7P6SgA40nM0EhecZ1yIS3gveaVppzCvBBB
+32UdmtqFEusWzothetRswWT941412B1+eZUhK/nPCz+AMqaeghxTplNjBYGXBMZv
+Ajm7fIshINZkfKcVQyCBvjAx
+=Iwi8
+-----END PGP SIGNATURE-----
+
+--===============1477995344156298874==--
