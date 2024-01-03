@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7714587950938018428=="
+Content-Type: multipart/mixed; boundary="===============8012090530741926535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 03 Jan 2024 13:47:46 -0000
-Message-Id: <170428966625.4564.3393732312382211436@gitolite.kernel.org>
+Date: Wed, 03 Jan 2024 13:48:14 -0000
+Message-Id: <170428969412.4844.593072144639983640@gitolite.kernel.org>
 
---===============7714587950938018428==
+--===============8012090530741926535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: ebf2d4e8e582a444e12eff7d4a59d87f22fb3481
     new: 9f0fe34c59c1e6951cf9d51f5d14de8338ab7d3b
     log: revlist-ebf2d4e8e582-9f0fe34c59c1.txt
 
---===============7714587950938018428==
+--===============8012090530741926535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -615,4 +615,4 @@ b106bcf0f99ae0459f3c8c2f0af575ef9f5d9bde locking/osq_lock: Clarify osq_wait_next
 610a9b8f49fbcf1100716370d3b5f6f884a2835a Linux 6.7-rc8
 9f0fe34c59c1e6951cf9d51f5d14de8338ab7d3b tpm: nuvoton: Use i2c_get_match_data()
 
---===============7714587950938018428==--
+--===============8012090530741926535==--
