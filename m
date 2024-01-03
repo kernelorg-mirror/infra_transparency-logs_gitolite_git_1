@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 03 Jan 2024 20:23:46 -0000
-Message-Id: <170431342646.8772.7339178307810653003@gitolite.kernel.org>
+Date: Wed, 03 Jan 2024 20:23:54 -0000
+Message-Id: <170431343443.8883.9748751151452886112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20240103_broonie_asoc_meson_fix_issues_with_libretech_saphire
-    old: b036d8ef3120b996751495ce25994eea58032a98
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/asoc-6.7
+    old: 38744c3fa00109c51076121c2deb4f02e2f09194
+    new: b036d8ef3120b996751495ce25994eea58032a98
+    log: |
+         3150b70e944ead909260285dfb5707d0bedcf87b ASoC: meson: g12a-toacodec: Validate written enum values
+         1e001206804be3f3d21f4a1cf16e5d059d75643f ASoC: meson: g12a-tohdmitx: Validate written enum values
+         172c88244b5f2d3375403ebb504d407be0fded59 ASoC: meson: g12a-toacodec: Fix event generation
+         b036d8ef3120b996751495ce25994eea58032a98 ASoC: meson: g12a-tohdmitx: Fix event generation for S/PDIF mux
+         
