@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0174526079282466107=="
+Content-Type: multipart/mixed; boundary="===============1852030656560002575=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 03 Jan 2024 18:33:12 -0000
-Message-Id: <170430679260.24581.11335858026245237151@gitolite.kernel.org>
+Date: Wed, 03 Jan 2024 18:33:14 -0000
+Message-Id: <170430679461.24689.14046539005439467715@gitolite.kernel.org>
 
---===============0174526079282466107==
+--===============1852030656560002575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 5abde62465222edd3080b70099bd809f166d5d7d
     new: 2ab1efad60ad119b616722b81eeb73060728028c
     log: revlist-5abde6246522-2ab1efad60ad.txt
 
---===============0174526079282466107==
+--===============1852030656560002575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -633,4 +633,4 @@ fe3b739a5472968d8d349522b6816bc4db82bc0f net/sched: Remove uapi support for dsma
 38894ff3a04b7e7a3fa3d7688fa77ceb0ecd4093 ppp: Fix spelling typo in comment in ppp_async_encode()
 2ab1efad60ad119b616722b81eeb73060728028c net/sched: cls_api: complement tcf_tfilter_dump_policy
 
---===============0174526079282466107==--
+--===============1852030656560002575==--
