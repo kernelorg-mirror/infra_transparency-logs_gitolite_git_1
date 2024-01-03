@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3153654905284816356=="
+Content-Type: multipart/mixed; boundary="===============4364082692974652870=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 03 Jan 2024 16:19:14 -0000
-Message-Id: <170429875432.15841.8414920977749170479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 03 Jan 2024 16:19:54 -0000
+Message-Id: <170429879409.16133.7775501614293040739@gitolite.kernel.org>
 
---===============3153654905284816356==
+--===============4364082692974652870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -32,7 +32,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: ff16c06a1757247b456096cbffeedf4ef5621ba4
 
---===============3153654905284816356==
+--===============4364082692974652870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1063,4 +1063,4 @@ b106bcf0f99ae0459f3c8c2f0af575ef9f5d9bde locking/osq_lock: Clarify osq_wait_next
 2639772a11c860628c5f7007842eca52a1c34d78 get_maintainer: remove stray punctuation when cleaning file emails
 610a9b8f49fbcf1100716370d3b5f6f884a2835a Linux 6.7-rc8
 
---===============3153654905284816356==--
+--===============4364082692974652870==--
