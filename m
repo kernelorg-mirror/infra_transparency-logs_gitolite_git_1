@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Tue, 02 Jan 2024 23:55:48 -0000
-Message-Id: <170423974837.31051.1665092773952232787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 03 Jan 2024 00:07:51 -0000
+Message-Id: <170424047143.7477.17713830960844140628@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 1a5fbefa59465bec80425add562bdb1d36ec8e23
-    new: eb3cbfc56ca4b5ff18ad5381d1c84c653036d8fa
+  - ref: refs/heads/main
+    old: 8dc4c410006531ddad981ca9578f83cb93860819
+    new: 88b8fd9770896231791ad0026d8dddde537d3c82
     log: |
-         fa3ec328b8afb296310d06142ac2cab61818cd12 stktest: Return non-0 exit code if tests failed
-         eb3cbfc56ca4b5ff18ad5381d1c84c653036d8fa tools: Add umlrunner script
+         7c402f77e8cb6dd593217270e2643eeba1a89b01 net: ethtool: copy input_xfrm to user-space in ethtool_get_rxfh
+         0dd415d155050f5c1cf360b97f905d42d44f33ed net: ethtool: add a NO_CHANGE uAPI for new RXFH's input_xfrm
+         88b8fd9770896231791ad0026d8dddde537d3c82 Merge branch 'bug-fixes-for-rss-symmetric-xor'
          
