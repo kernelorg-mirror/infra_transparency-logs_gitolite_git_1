@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8765549349397347763=="
+Content-Type: multipart/mixed; boundary="===============7530749587859802952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 03 Jan 2024 06:03:06 -0000
-Message-Id: <170426178626.20384.14763172344388907651@gitolite.kernel.org>
+Date: Wed, 03 Jan 2024 06:03:44 -0000
+Message-Id: <170426182429.20680.2139307361352440336@gitolite.kernel.org>
 
---===============8765549349397347763==
+--===============7530749587859802952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: aadbd27f9674d7f5457331fe0248b370d5c1f25d
     new: 38894ff3a04b7e7a3fa3d7688fa77ceb0ecd4093
     log: revlist-aadbd27f9674-38894ff3a04b.txt
 
---===============8765549349397347763==
+--===============7530749587859802952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fe3b739a5472968d8d349522b6816bc4db82bc0f net/sched: Remove uapi support for dsma
 501869fecfbc00d20d07c1a5f1a49af8fb903d44 net: ethtool: Fix symmetric-xor RSS RX flow hash check
 38894ff3a04b7e7a3fa3d7688fa77ceb0ecd4093 ppp: Fix spelling typo in comment in ppp_async_encode()
 
---===============8765549349397347763==--
+--===============7530749587859802952==--
