@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 03 Jan 2024 06:12:35 -0000
-Message-Id: <170426235555.9458.10405898540785666328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/zonefs
+Date: Wed, 03 Jan 2024 06:50:43 -0000
+Message-Id: <170426464388.17500.4502714220448743194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: uli
+repo: pub/scm/linux/kernel/git/dlemoal/zonefs
+user: dlemoal
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 75d5058ed8320f2c232bc0a811ccd147599053ff
-    new: 6faf2bc13b52886c212d130c08f74c7d67308408
-    log: |
-         6faf2bc13b52886c212d130c08f74c7d67308408 Notes added by 'git notes add'
-         
+  - ref: refs/tags/v6.7-rc6
+    old: 0000000000000000000000000000000000000000
+    new: d8f30cf5e09a30e9a978b7df0aa5029afff0e1c1
+  - ref: refs/tags/v6.7-rc7
+    old: 0000000000000000000000000000000000000000
+    new: adab409b5eb1c5905c260f74c75725db3da46e38
+  - ref: refs/tags/v6.7-rc8
+    old: 0000000000000000000000000000000000000000
+    new: ff16c06a1757247b456096cbffeedf4ef5621ba4
