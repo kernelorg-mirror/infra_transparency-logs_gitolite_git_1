@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0918760857451150139=="
+Content-Type: multipart/mixed; boundary="===============5689485932477100580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 03 Jan 2024 11:01:49 -0000
-Message-Id: <170427970999.12261.7696078607865674207@gitolite.kernel.org>
+Date: Wed, 03 Jan 2024 11:01:54 -0000
+Message-Id: <170427971405.12368.9200854028729042853@gitolite.kernel.org>
 
---===============0918760857451150139==
+--===============5689485932477100580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,88 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 0192047d2058be35443ad23059fa2803557a8fdb
-    new: 9eaddce45ef7b2834234740dd02540a9e3de7eae
-    log: revlist-0192047d2058-9eaddce45ef7.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 612a47daaca8fec747908080134cd68c51e5f582
+    new: 93bcb1983b355fe65ad23db8e9a6fc446e62b511
+    log: revlist-612a47daaca8-93bcb1983b35.txt
 
---===============0918760857451150139==
+--===============5689485932477100580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704279708 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704279712 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1704279704-522b6ac9b6083d45eda049c19b2736fb3ab0ef1b
+nonce 1704279710-5d1c175f6d50e0b95ac897544fb920baf145b6c3
 
-0192047d2058be35443ad23059fa2803557a8fdb 9eaddce45ef7b2834234740dd02540a9e3de7eae refs/heads/linux-4.14.y
+612a47daaca8fec747908080134cd68c51e5f582 93bcb1983b355fe65ad23db8e9a6fc446e62b511 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWVPpwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d7wP/1M5xlfFeJl1auob55b0
-SCtzJfQa03eg93Cc5c7pKDm5VaJt2p0Us6OTlaAqVFXjYWBlzeqyj+2Bb6KleMzu
-U5PjrknuDkclY0KM8diZjdoFvGkhD5Spz0Ny2wMZwfUhGz3AErdjL8NtSb4zUpGp
-26VNvKFXUnAX4tDEkMbAc2VXw5qFHCt5djP1ywv0YWfKOPcmEIT5jpWpRwFsGXyu
-1eJaSsBRpKOPzg2SytxKB/wFFWH1exoUYNwIFe4Q3eYQfUURT9jIQHjPX+9x05mN
-DpjJzCdRLuLv/L1imEEkL2kh9gQI9UiNi8daqG4Z1q9IwRCjlq3F9dbOuyOB8zxv
-JLIzFXT1SA7wlFsKNZn1kuboufUj7JoUxkHsAjvknPiXfGJM8Oe5B/vMLK5awF1i
-kbyKpr7nGtNrgKGryxGGkNZV4Kww/uh2dj0pQvyvRf/yLPRMr01rQSvcvTBq/l2R
-xykNMvxu5gLU/7SwwH5jB4g3G8RRDj5U6UNIcB85G6wkDUbC+atJft7mN139e86w
-F92jcwSxNBtZhHYpyRVlXniac5eVYzzDU1T6Q0i6qPfwTTdunWaWQTX4REB3g5YG
-Ti2zrqbati7we4lWoI1+t6NrYSOD/fAgiNYXrR4yAT+ylMjMqi08W0ap4/qlGjx7
-sDoP/CVLFZZgrSHmdtWx2L3x
-=p/w/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWVPqAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9gMP/0CGF8S9aTTIxyu776e7
+AOFIMAsMDpPWtgkwHlcyK0cP6FtIAajDOWQ0/yo4QZrcUhPEbsiDgfZaK+VKgZD4
+unstO9GVRezQ9ktCycVL3Z0TA1zAys+98VhRpOr7wxPMrpPCO9EJ1rcOwOICq+FC
+bNTr7VEX1J7MCRvvfnJVE9SN1vT2SnZm4OJ5ie/H8D+jwt3eblW0M+E0dNLrm/Rr
+FHxgLMNzd9SdwTuhXqFlucZzOvi+uhXY/xpe67JlVbfmLtfyoIfsJwTYtp+zlxnY
+ReXhfeKUACuV6dPSgZNcF95TpoiOneC9pL1uVJdciVrZz6BD+4+LWzj4hz8Un9aO
+SiGSX1TiDjB6QWIvtwEk7dVS+COF7F2RNUsTvNk9HwAUMU1IF3YO2sQKrHRukyr+
+ID3PLZc7QXivkMj58W9HaHnnFAWr4gJLONjcUvm4Qvf2Sx40FDAHMNkr+lrIJ6PU
+hbSq0EGhbn0JtEJOXiXaRXXpIWfRh1Y6M3CeSOaZsdR0sOutEjFBsPJRU2FMuqib
+iaRwNHgTZ6AefwoiJlJkjqi6okMpiO8P/zUCHtHGOnl+EPmXAZOCTA/Vj4wgXdli
+oloiLRDl8UIO+0ymH6zqF15ULCoakY7MD1DMZPiEY/Firhnm3Ai7dwl4uYFEkcHW
+1sHXuDgOBJcvGG75mZltoTAw
+=yl7m
 -----END PGP SIGNATURE-----
 
---===============0918760857451150139==
+--===============5689485932477100580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0192047d2058-9eaddce45ef7.txt
+Content-Disposition: attachment; filename=revlist-612a47daaca8-93bcb1983b35.txt
 
-d08c95816f7b942496d9db98499b78abbdf869b3 ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
-648d7fc93c1cfe9c7dc17cb247cdfd669fafb228 s390/vx: fix save/restore of fpu kernel context
-1f87e56c6b34bd8c1c33664b74faf8731e6ae540 wifi: mac80211: mesh_plink: fix matches_local logic
-6ba04438684ae9c06f7540abfb8661af76b5aa82 net: sched: ife: fix potential use-after-free
-cbfff572921520a7d014ba324facbd42804d69fe ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
-604b4875557858fc47c585e679f1aae6fdd639c8 net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
-237f57c86160ff52afca319dfab9e18d6520aca4 pinctrl: at91-pio4: use dedicated lock class for IRQ
-b8bca24b964c6559bd210fc8d087d066ed101d63 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
-325dea06ba56b312783d27a531c79292de310144 Input: ipaq-micro-keys - add error handling for devm_kmemdup
-3e2f5042703bb5372ee9b0a246da57901ddc2ff0 iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
-58cfccd35d7f3ddb107b30f744c0a663b330ca9d wifi: cfg80211: Add my certificate
-fda745623365ea6faa3d0b443480ea124afd227f wifi: cfg80211: fix certs build to not depend on file order
-9955ad85956d7a27d61c58a6f882b68d63a51bbd USB: serial: ftdi_sio: update Actisense PIDs constant names
-1f30103780e3971bf63b05674fc3495bef17fe06 USB: serial: option: add Quectel EG912Y module support
-d63ec1f352e82a153196084df1b5849a22e420d6 USB: serial: option: add Foxconn T99W265 with new baseline
-ade720d2d78f90872bed220908830ae61b93e230 USB: serial: option: add Quectel RM500Q R13 firmware support
-f21a969fecd9dd953ccb8f7f00857ae5a52d6152 Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
-6ac7fa3aa65c7ad9c134ce94482aa52dcd530de6 net: 9p: avoid freeing uninit memory in p9pdu_vreadf
-0ea753432065c49abb92d5e0204eba4a153afe19 net: rfkill: gpio: set GPIO direction
-48673338e915c93e63e9ceb4439e888f0320c4df dm-integrity: don't modify bio's immutable bio_vec in integrity_metadata()
-a03f2598119dc6171da496b8a4f6999fc5b29099 tracing/kprobes: Return EADDRNOTAVAIL when func matches several symbols
-2793424754b06175b1ae43d19c082a64bf8d33c1 selftests/ftrace: Add new test case which checks non unique symbol
-9eaddce45ef7b2834234740dd02540a9e3de7eae Linux 4.14.335-rc1
+fe92c2d3de44f2d7edb3cbe1854f3ee1f920d5f9 arm64: dts: mediatek: mt8173-evb: Fix regulator-fixed node names
+b52ca4b2b0e333fd4f1a66b17a2ddaf8c2235052 ALSA: hda/realtek: Add quirk for Lenovo TianYi510Pro-14IOB
+a9164a4f4b81f87130113c840e40832fb6659fd5 ALSA: hda/realtek: Enable headset onLenovo M70/M90
+10461ff6897d1fa299988d20df9d2978adebb393 ALSA: hda/realtek: Enable headset on Lenovo M90 Gen5
+fc5f6e5fb3f21f9f6e2d32d886553cd54adf32e6 ksmbd: fix wrong name of SMB2_CREATE_ALLOCATION_SIZE
+4f5640f0bdbfa7071b0cf90cf6373fe588602e69 ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
+ed70d4a23a36928e93a262de1a4c378b20df06f5 reset: Fix crash when freeing non-existent optional resets
+2271f5873e87469c60f0cb2c9f1acf0922cc277b s390/vx: fix save/restore of fpu kernel context
+9d0406be424a239e2d79a614d3d1e5ddb84e59ee wifi: mac80211: mesh_plink: fix matches_local logic
+d43c07b236a3ef914eacd9f66e310a45d2b7b973 net/mlx5: improve some comments
+1c9b717f93f888ddeda204ef6372f15ecd188b89 net/mlx5: Fix fw tracer first block check
+e8f03ef919bf241b1d2e7ec2427aa296c15fc4a0 net: sched: ife: fix potential use-after-free
+ef1f884f32d7d8f51537707069b12f22aac63d7b ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
+926ed9ac89dc1c942fd48aab42a054032452097e net/rose: fix races in rose_kill_by_device()
+6c599faaa823ddccffaf268920775482a0217efe net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
+2cc917548fe939f6c41152e53a093ce0373aa66f afs: Fix the dynamic root's d_delete to always delete unused dentries
+bb2daea53b65777e5516b6c59563ff4ddf1eab45 net: warn if gso_type isn't set for a GSO SKB
+5668ac8a6a6f9c40cb461c3d3894da1dae7bc037 net: check dev->gso_max_size in gso_features_check()
+2ea6a5a3078a8bae152a0a2f25b3abdecedf40a2 pinctrl: at91-pio4: use dedicated lock class for IRQ
+4535e3006ec806cfb66cbbeb7a6957900cf8be69 smb: client: fix NULL deref in asn1_ber_decoder()
+61e42ade3a83111019dfa867a0098464e60ce65c btrfs: do not allow non subvolume root targets for snapshot
+558614c2a94ffa120abd747e55e94e9b46c08a74 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
+925d56f46cacbffb26112325388c5c2edd60787f Input: ipaq-micro-keys - add error handling for devm_kmemdup
+8ec0abbf24c1be6ec3ee8bb0ab191e0e3bbb281e scsi: bnx2fc: Remove set but not used variable 'oxid'
+1ef448830766f2a5cbc80209bc5e069aad42448b scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
+e7c45fc83eac59e4cfe18f22562db2c42b869de4 iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
+9a61cbc9e00833396dbaf551012913d67b8eca8b wifi: cfg80211: Add my certificate
+78a247f7719dc91cf86aa3ed6017b53ffc1d3ae9 wifi: cfg80211: fix certs build to not depend on file order
+7321d8336dfd731b3f127fa5df0a6ee087929129 USB: serial: ftdi_sio: update Actisense PIDs constant names
+8032f06c6949cfac4178b916b9149e159de7effb USB: serial: option: add Quectel EG912Y module support
+93d11025654efe5c8ae44c3feea48c83795f17d9 USB: serial: option: add Foxconn T99W265 with new baseline
+952a9d584627a9941d1475f3d6559e07bf2aba96 USB: serial: option: add Quectel RM500Q R13 firmware support
+79d2aeab2fbebca986076f170d5970fd27a0be5c Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
+2493105354f4e80d76d73b794413609fc391779e net: 9p: avoid freeing uninit memory in p9pdu_vreadf
+e9bcaa1a1bcbaa719d2fc64a5901544cf1aac976 net: rfkill: gpio: set GPIO direction
+6da511ab6c716de3bfe086e22f1b18beef14ed18 x86/alternatives: Sync core before enabling interrupts
+a147d37c1d299f30ed4180bdc346b50dd1ffa136 usb: musb: fix MUSB_QUIRK_B_DISCONNECT_99 handling
+6300ef9a5f509f783c8408d4b54efeb29e2fef72 usb: fotg210-hcd: delete an incorrect bounds test
+4084f9f5801100b5029638200e08905b51b20506 smb: client: fix OOB in smbCalcSize()
+09f9d6a1c04c98b7cd8a1672bd3f353fe8044ab7 dm-integrity: don't modify bio's immutable bio_vec in integrity_metadata()
+ba6c6927cb65815e89218720c6615287152c671d tracing/kprobes: Return EADDRNOTAVAIL when func matches several symbols
+93bcb1983b355fe65ad23db8e9a6fc446e62b511 Linux 4.19.304-rc1
 
---===============0918760857451150139==--
+--===============5689485932477100580==--
