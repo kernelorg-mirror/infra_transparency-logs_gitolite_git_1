@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7576971639609393822=="
+Content-Type: multipart/mixed; boundary="===============0813760340417608296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 03 Jan 2024 11:34:03 -0000
-Message-Id: <170428164308.4592.1118928783679863424@gitolite.kernel.org>
+Date: Wed, 03 Jan 2024 11:34:04 -0000
+Message-Id: <170428164453.4656.8002680109089272065@gitolite.kernel.org>
 
---===============7576971639609393822==
+--===============0813760340417608296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,141 +16,145 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 908613b2b43790088720cac1da100076f8075ea7
-    new: 8d6dde79d841970f2f7ae7d66b2c0b51bab0f46b
-    log: revlist-908613b2b437-8d6dde79d841.txt
+  - ref: refs/heads/linux-6.1.y
+    old: ed5bb2f5928d11527edff5caf0032c044a3ceacb
+    new: 1882ab3ed5b75d2cfd60da6d4eca87adce3a43f9
+    log: revlist-ed5bb2f5928d-1882ab3ed5b7.txt
 
---===============7576971639609393822==
+--===============0813760340417608296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704281640 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704281641 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1704281638-12dc88200da33d0de2e1b3dd1c41abfdff4bdab3
+nonce 1704281640-9812e55d464ae2574a62e7d43aa9d33489110251
 
-908613b2b43790088720cac1da100076f8075ea7 8d6dde79d841970f2f7ae7d66b2c0b51bab0f46b refs/heads/linux-5.15.y
+ed5bb2f5928d11527edff5caf0032c044a3ceacb 1882ab3ed5b75d2cfd60da6d4eca87adce3a43f9 refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWVRigbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J5oP/34R9t18Bov1PEyT9hI1
-N/eLgeiKdgER3oXh5NLYa6znzLTh1yoQZIB1KNgzUx4zEsh+2YBslO67HMSqNbPf
-aRd7OKSfepB5Uvm2wsNT2+xn+bxTInff/R8pGAuB8p0vUha78OlMcNqi9z0WLkfj
-MZBL+rQ2YPRCfxisitEWEteAqXsOQ33tdQUW6b2qtk4fnQCnjzGoWwNtTHtHJxxy
-hWXzpoY94IpXWBQnU1ACeTjl3Ivf+oTHbuUB3Uv02FQ6msDfLazsGbln0Zl0PfQG
-obv8j1Seh9E8/S47BuT5wTaKdcUCDmGAIXGi0yUZbjT7za9ZmyLz7cCNPBqR7ejq
-CCIYfP+evzz5cfmMiovEN/1bC5HazloYPR5kURqNWJJvUnuoQ4SLlbaNH8wsJPV/
-0jB220k4wK+QKD90Vi27ejrCR11AEvVt5rma1mbRfY9AabW8/zAnBK9RRAfU8dg2
-28D2xaUlWCI/zeEufFck88CcNvUZFT8Kw/ANcnTsXRnAkkI4mGXP+An37uuhC2XR
-nXpcHk/wbTSeSGuKF9o0kuS7MWnigLVygc1plyRNaPWwtdRDD/DXznWAdzYrEP2C
-t3oOIEQr82tIjBf39OiFa5ygAB8Ofym0itwJnv9M+gg1QNpCv3mrG7ASdkSLkCgB
-hvZ8aVIEir7H/aSzpevJPoBv
-=s9xy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWVRikbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8XoP/1aedJhC8zHvwuTnu1U0
+TldYfAXkOS8eHHU6/H7NZcRc95QJYWnUZFcG9zzyZ0NLI6/elknA4TzB6oZEl+3B
+VK2TWIxqjj6GhdvAYy295Zp6RJYooPY0kPXHIfJ1LQSylY/7gsyjESABSwSKCP8d
+E6oOloxklQEPo6fZ6P/ZSNW0lT3pcVDLNwsx+ecjy3nnLg4/PjqnSWAdnfI1Qshh
+Xq73tkuTX2A9G2btB+M6bYC++iXz/nnfT7aeQz+/BDxqSAT+egu8xQ/LpdFHq5V5
+V4cQ8x+edl9ouqXKKL9CjQ9xwEiSg5P4IvutB9I5NugBsL2oWDAsoM00OOOZcoip
++Nc1ukPPb+DVukLkHfsIg+oWOzWm4PAFaQ+F9PFDHEJTnRyhBjhQgAe0bFt6d4oi
+PjqRQZbwSdxDx4RMFVeVS2HikWhNu4WEPOh08ydgDYumCccAjvhjC6EwXp8fEoVR
+cF9mzD3EGmJPMr9vaxAMbafCGQmRMgH3B9ed69HM56dzyv9pALHURXdQewrbzQjy
+XbuP4uEsOfIDvNcMOATlvJcUEyc6wNbSrRGL9T87MdYgjK+lXmc93Blzkr1iZFOC
+QHPX9G8V4+JS6DkuEREIc8EAeuRvuFkxAV5KJKEvFvk882nN3f+hhMN7oViDHQzl
++YitCupPv9cWlsrOrRHRFlUq
+=GTBz
 -----END PGP SIGNATURE-----
 
---===============7576971639609393822==
+--===============0813760340417608296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-908613b2b437-8d6dde79d841.txt
+Content-Disposition: attachment; filename=revlist-ed5bb2f5928d-1882ab3ed5b7.txt
 
-febd3ff9b29ee4d5509b7b123fff1b5108fc24a3 ARM: dts: dra7: Fix DRA7 L3 NoC node register size
-f4d71fb7314eb7a1a24fe91b9ec548b25e8c43ff ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
-51d76e6abf134cf2b004032f2f1c48c948f78fe3 reset: Fix crash when freeing non-existent optional resets
-463fcca15f7131706d11f7dfedf0af8091c85223 s390/vx: fix save/restore of fpu kernel context
-de5283402a5a9c5850db9aea0cd7d22cf8997bae wifi: iwlwifi: pcie: add another missing bh-disable for rxq->lock
-acdac631cb8cc1dbeafd453d2c074083203eedbf wifi: mac80211: mesh_plink: fix matches_local logic
-0e8d43cd6d0c01cadc4dd8cac425c15a03ddcc42 Revert "net/mlx5e: fix double free of encap_header in update funcs"
-c1b8a489fd3b7b564eb730f5d271b5177c843dcf Revert "net/mlx5e: fix double free of encap_header"
-158804fb67a6ab394647fb802b8bc58399416e8e net/mlx5e: Fix slab-out-of-bounds in mlx5_query_nic_vport_mac_list()
-4d19afafbe03c4d51546df4c1da9c9496a8889e3 net/mlx5e: fix a potential double-free in fs_udp_create_groups
-4c37ec8331732a4f8be35e171221f7ed3684815e net/mlx5: Fix fw tracer first block check
-1d366ce9f21a5947f314a138b94212eb75bfa6bd net/mlx5e: Correct snprintf truncation handling for fw_version buffer used by representors
-67997d232119d4754697059a581805620b10950e net: sched: ife: fix potential use-after-free
-67f3e5abc09e289a5f1a38461790a79c1657aea4 ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
-2c47ce497bfb133d0a2a446dedd8e29016a230a0 net/rose: fix races in rose_kill_by_device()
-a692a776d23e9bcc90b020ebadd04346606cf68d net: mana: select PAGE_POOL
-25a9c8321a4339003394aaec96bd10694ec769b1 net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
-f5b47be5e916b224e2fe7121d95c6d92b99d8fcc afs: Fix the dynamic root's d_delete to always delete unused dentries
-13932d31218791d127a8e36159db2fc995e9ff8e afs: Fix dynamic root lookup DNS check
-43bebe24add55916bbd8c6c933f69ef5d066f49f net: check dev->gso_max_size in gso_features_check()
-53fa099a3fc7e177f140b54e08964bf6cdaa5475 keys, dns: Allow key types (eg. DNS) to be reclaimed immediately on expiry
-23a61efb24ac7f3b85ddab44c4fc0526cf4f9347 afs: Fix overwriting of result of DNS query
-c45a639aa538366e27fdc4af2868d395642f0d25 afs: Use refcount_t rather than atomic_t
-3d5b29146b4d28e7b2a0871da384975714cc72c3 afs: Fix use-after-free due to get/remove race in volume tree
-aff9474c7ac20213bcac5d64e7e3e1a822f45ca4 ASoC: hdmi-codec: fix missing report for jack initial status
-649d142c4fc059f2dd780f7f634a0840ab3ade37 i2c: aspeed: Handle the coalesced stop conditions with the start conditions.
-d8e57558bf042c6a359495b44b119ad2984bcd5e pinctrl: at91-pio4: use dedicated lock class for IRQ
-f7e5c78f79f5d87aa57652a9804c28343d5b9cbb gpiolib: cdev: add gpio_device locking wrapper around gpio_ioctl()
-6514b379598049624eda95b8601474e0b1afc8da ksmbd: fix wrong name of SMB2_CREATE_ALLOCATION_SIZE
-d874bbfb6f8eaa3c01cf52b65695ee8f58b74266 drm/i915/mtl: limit second scaler vertical scaling in ver >= 14
-53b2393e5151213b07868415262cb190d36a50f2 drm/i915: Relocate intel_atomic_setup_scalers()
-b58119713637457e0120df5b0a53007d522bace9 drm/i915: Fix intel_atomic_setup_scalers() plane_state handling
-a9026b46c4e88969e8f899abeb1aeafe7b7be985 smb: client: fix NULL deref in asn1_ber_decoder()
-f2810d4fd9eec14d81bea27af4c9a334aa603fc1 smb: client: fix OOB in smb2_query_reparse_point()
-67dfe73aecc64d4287b0775259337ac57c38d59f interconnect: Treat xlate() returning NULL node as an error
-84735a87e5241730baa18946ac8083c5baac5177 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
-4ebcb00f7374515738fa9a7e9eb34512f60ece7a interconnect: qcom: sm8250: Enable sync_state
-1ef08f4b3debf60331c0c17aa7064174255efeea Input: ipaq-micro-keys - add error handling for devm_kmemdup
-b7a9fa3c00ce50c3acd2e76432bea657b2455d1f scsi: bnx2fc: Fix skb double free in bnx2fc_rcv()
-652ede29e5617c63b32f93851208b5e0897aab34 iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
-65c85aa85ad7d62fafd31a5c8460df6a164d461e iio: adc: ti_am335x_adc: Fix return value check of tiadc_request_dma()
-9967ec1b9d2628d20004a737430cdc2a5e003f2b iio: triggered-buffer: prevent possible freeing of wrong buffer
-c3218a53b358e7f6c90182e2563b1a35ce4dbf16 ALSA: usb-audio: Increase delay in MOTU M quirk
-111ba942349fe0303e97591a2d2901d2c0578c31 wifi: cfg80211: Add my certificate
-90724fe1572c2f665ea8c22e5477074b5a8439c6 wifi: cfg80211: fix certs build to not depend on file order
-d10f274c00f80fcda3a7273f2c3f84e5cf7aa0b3 USB: serial: ftdi_sio: update Actisense PIDs constant names
-c531c6d54f492e2c846ecdb1b8b73bebfab5e6ea USB: serial: option: add Quectel EG912Y module support
-1a6f81639494dfbb875d41e32e347201c5ae28a5 USB: serial: option: add Foxconn T99W265 with new baseline
-f388544a333c5090c65fae7424f16aedeccc4d31 USB: serial: option: add Quectel RM500Q R13 firmware support
-907932bacb3085e986f61ff188e661fdb67d5394 Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
-4de8f6f27941e7719ed9b80de2e831e9c47db96e Bluetooth: L2CAP: Send reject on command corrupted request
-dd99a4a3f2ea8fbb20241cedd705f35ed49f60f7 Bluetooth: MGMT/SMP: Fix address type when using SMP over BREDR/LE
-b5e0f9ae8a5c1039765cc19553de791da96cb9c6 Input: soc_button_array - add mapping for airplane mode button
-92a3cbd1e65ec535ebb181d4ce26b5308af015dc net: 9p: avoid freeing uninit memory in p9pdu_vreadf
-745d04d7511066bcb018142553e3fe7bdabbc6c7 net: rfkill: gpio: set GPIO direction
-80daa4233815f43959eeb56cd6d707973350cc14 net: ks8851: Fix TX stall caused by TX buffer overrun
-ba343f84c984722021d20251544142ec8b7be277 dt-bindings: nvmem: mxs-ocotp: Document fsl,ocotp
-bcdb98539c42b7f34ca1aeada6365dcd6dbcc524 scsi: core: Always send batch on reset or error handling command
-d311e7f7cee8cb04053638b8fc3078ca48b9751e tracing / synthetic: Disable events after testing in synth_event_gen_test_init()
-6da2df9a510eb301f2b8233a678700102da95a85 bus: ti-sysc: Flush posted write only after srst_udelay
-7036ffbdaa55735e04f44eeed7adce7d31301aba gpio: dwapb: mask/unmask IRQ when disable/enale it
-2d419143a2ffd1761858cd4488668262f627d969 lib/vsprintf: Fix %pfwf when current node refcount == 0
-59f11af0c503d17af70a214a7ce31fa3d19c6054 KVM: arm64: vgic: Force vcpu vgic teardown on vcpu destroy
-4905d5f325dd1476109292373c1c6e01a7bb78e6 x86/alternatives: Sync core before enabling interrupts
-1115b0b7706864d5c62229d8e1e00f1c8efbe39a fuse: share lookup state between submount and its parent
-ea13fc082e41f0c1b1d6d5f19aa36fe2d44e5703 ksmbd: have a dependency on cifs ARC4
-a364d1c68a0a99bb81d709dbd93036f89528df4d ksmbd: set epoch in create context v2 lease
-f5a6fb1500dea987bf8687d9ae77b7a0d9835a8b ksmbd: set v2 lease capability
-fb6e0a56fa804753b2a93a03656c973167c5affc ksmbd: downgrade RWH lease caching state to RH for directory
-89291f55d1de7a92dff276c462a8cd92ae5d8787 ksmbd: send v2 lease break notification for directory
-97f8866409b3911008fb1135d04d2053a15604dc ksmbd: lazy v2 lease break on smb2_write()
-620eb6f7647a141abd8b58463f39ae4ba9631548 ksmbd: avoid duplicate opinfo_put() call on error of smb21_lease_break_ack()
-21d07a712fae96b22ee46414b4ed96d1b0d56787 ksmbd: fix wrong allocation size update in smb2_open()
-f8e19a9c366ab4edfad78868574a64092b1dacfc ARM: dts: Fix occasional boot hang for am3 usb
-c0b5a60c604d208456b5a6c774f147f215ac6a04 usb: fotg210-hcd: delete an incorrect bounds test
-957357776fe211357f9c74a15c624b9e3d5e5ab2 ethernet: constify references to netdev->dev_addr in drivers
-5a42672ca635748ad1ba6a64e8511d826cf9ea0c net: usb: ax88179_178a: clean up pm calls
-f4b01cf4367af6e7fd1b8eca9f055f45438cc70b net: usb: ax88179_178a: wol optimizations
-260568f3201b8bc5a37de4ca4e32bd7480f29465 net: usb: ax88179_178a: avoid failed operations when device is disconnected
-d2a889998b393d683c3a774429f5c8c374205941 device property: Add const qualifier to device_get_match_data() parameter
-963370a1f2a81005910033bff4e04538dd67fcd3 spi: Introduce spi_get_device_match_data() helper
-fdf280809afe71fa2d66e67792145c1286adafe8 iio: imu: adis16475: add spi_device_id table
-e51ece65b216bde6a13b0690db651a2315fdd7a0 smb: client: fix OOB in SMB2_query_info_init()
-24bcc5e1fa83eb6752fa25beeb9e0828d7930553 smb: client: fix OOB in smbCalcSize()
-71fdda1b5c3905f834a868c8dd9be29482060697 Bluetooth: af_bluetooth: Fix Use-After-Free in bt_sock_recvmsg
-c77c6647b11eea636dd1323ddd4e8b5563b7b2b1 mm/filemap: avoid buffered read/write race to read inconsistent data
-319dc3de981768471070df35a630cd019eadce38 ring-buffer: Fix wake ups when buffer_percent is set to 100
-d82f0272ca2243526739c2ce5193a86311b868f0 tracing: Fix blocked reader of snapshot buffer
-71dcb6e9fd1a491b17e236427a26482eeaa86f39 ring-buffer: Remove useless update to write_stamp in rb_try_to_discard()
-1ad71ad35b12d1e9ef10121ec3f458b416414b24 ksmbd: fix slab-out-of-bounds in smb_strndup_from_utf16()
-13621e4ad27437e451b68e5fa377203d03964d5a netfilter: nf_tables: skip set commit for deleted/destroyed sets
-75e43e0f2f58502bd81a4670c459cac1797dd80a ring-buffer: Fix slowpath of interrupted event
-4e05116a7582efcf75f723bb70c3d03342bf8b71 dm-integrity: don't modify bio's immutable bio_vec in integrity_metadata()
-d65daa626b5ba22f96aeb1db4f913244fb4587f0 device property: Allow const parameter to dev_fwnode()
-8d6dde79d841970f2f7ae7d66b2c0b51bab0f46b Linux 5.15.146-rc1
+a6dcef809d57c377adab8e852c0a28cbaf1be7b2 ksmbd: replace one-element arrays with flexible-array members
+96aa0edf42ea81c67792880df44b7a85cb7a2042 ksmbd: set SMB2_SESSION_FLAG_ENCRYPT_DATA when enforcing data encryption for this share
+d2efd954fb993dbc6820f97ee06e0ee7d1a86a37 ksmbd: use F_SETLK when unlocking a file
+e8f5cc5e7224dcbd8c8c2932336d69a38ab0e808 ksmbd: Fix resource leak in smb2_lock()
+1e7f091dc0c7737f613020b5b025194e00a753b6 ksmbd: Convert to use sysfs_emit()/sysfs_emit_at() APIs
+3d8149f34787586d3e1f15f197322a9f2d8c9aaa ksmbd: Implements sess->rpc_handle_list as xarray
+70005d158a1dd8ac5b82043e89aa6ac3a284d120 ksmbd: fix typo, syncronous->synchronous
+b3133e6fb1bfe72b1091d3ce13f499848a7a1e9e ksmbd: Remove duplicated codes
+325c1fedd6ae189e71cf16631c83b119940cec7a ksmbd: update Kconfig to note Kerberos support and fix indentation
+cf8eac3dbeb864e056f0cddec27d544f655e1071 ksmbd: Fix spelling mistake "excceed" -> "exceeded"
+9d93344259fbee8b15f36d7f77f1078e35353dd3 ksmbd: Fix parameter name and comment mismatch
+b20fb90ea241829d9cb86ff662cd1f39c45a4793 ksmbd: remove unused is_char_allowed function
+6ec1d1627e25a57830bcadd99a34f12f123b3a8f ksmbd: delete asynchronous work from list
+48e366c255cda856b28106b843e4c7c9477cb41d ksmbd: set NegotiateContextCount once instead of every inc
+95d330dd545db6085987bb3dcb42889e11364405 ksmbd: avoid duplicate negotiate ctx offset increments
+eadc6cd78ff812d668102cc207470a98fa01a3d7 ksmbd: remove unused compression negotiate ctx packing
+75bb4637f3ccec6c1428cc4ababe51b547e2a1fd fs: introduce lock_rename_child() helper
+89608445e395a504eff90e887b63cda137d21a9d ksmbd: fix racy issue from using ->d_parent and ->d_name
+06ce13879f0aa766adc73de44b891318278aac68 ksmbd: fix uninitialized pointer read in ksmbd_vfs_rename()
+e481aa84793a3387b391b87ccf0fdaba24a2ac7f ksmbd: fix uninitialized pointer read in smb2_create_link()
+3cf4bb7e04aeaeb9ff6011cd8703455ea9abba09 ksmbd: call putname after using the last component
+1de9e2087c616b4d364cb452b3333ec21559d7af ksmbd: fix posix_acls and acls dereferencing possible ERR_PTR()
+f776ad864a217ad6930e74a8b7c5a9baa58dd7d8 ksmbd: add mnt_want_write to ksmbd vfs functions
+5a1fbcedc70530fe5eeafefa4a2dc49453112b88 ksmbd: remove unused ksmbd_tree_conn_share function
+bb0fac2b3c9ec7f8d28b01e4710d9fd2e93bbfbd ksmbd: use kzalloc() instead of __GFP_ZERO
+c6d4a0fa500f699c412604ff67a9109663ab8e6d ksmbd: return a literal instead of 'err' in ksmbd_vfs_kern_path_locked()
+5b1708da8cbe23179a499967f6181ef734262803 ksmbd: Change the return value of ksmbd_vfs_query_maximal_access to void
+3b2ebdd18b06635640ea2eb70d527be60a276a97 ksmbd: use kvzalloc instead of kvmalloc
+56bc8d8308ede6310fd20cd44dffe507f1eba226 ksmbd: Replace the ternary conditional operator with min()
+a16acaecde69734085728929e666ec58d126a1a9 ksmbd: Use struct_size() helper in ksmbd_negotiate_smb_dialect()
+2e5b048bb542e7a276d681d4fefcbaabffe2b821 ksmbd: Replace one-element array with flexible-array member
+753000313294f3f6acacae50eef7334280c0c25f ksmbd: Fix unsigned expression compared with zero
+500b571b1d202d2c638440bc9ad26cfb9dac1971 ksmbd: check if a mount point is crossed during path lookup
+15478ba622f7ea623e4b5dacf7f0ae9c633911c8 ksmbd: switch to use kmemdup_nul() helper
+1c5e77196ba4b0fbd2b02798304652fceee0a4e5 ksmbd: add support for read compound
+82766e1c4ae70d8297cdb5fea44562069e2a2f54 ksmbd: fix wrong interim response on compound
+190a38b34b28324b81b6d8b9a180a6f7c0072c89 ksmbd: fix `force create mode' and `force directory mode'
+6b04afa3f6a4e9b50066d283803aa72f20651516 ksmbd: Fix one kernel-doc comment
+f2b64c846d3d4ac386ddd13e91acaa3adfa3c4ec ksmbd: add missing calling smb2_set_err_rsp() on error
+e824cf64d51afb207553deab495db1412e4067a5 ksmbd: remove experimental warning
+ac7a30c06c1a99d2651bcbb83eaebd6f0156a051 ksmbd: remove unneeded mark_inode_dirty in set_info_sec()
+e9abf6417df6d114fb68de1c2837260ba4362886 ksmbd: fix passing freed memory 'aux_payload_buf'
+06400a19a4a965c5dc081b195483ee5314255da9 ksmbd: return invalid parameter error response if smb2 request is invalid
+86b4ee056c097bcd1c7c487b02e7e514ca31ed37 ksmbd: check iov vector index in ksmbd_conn_write()
+90e0e656cc4c0a7979894b4ec416c4d505ef7f28 ksmbd: fix race condition with fp
+e32df963090b3ea423a51e4a4ebe6291f51d90ae ksmbd: fix race condition from parallel smb2 logoff requests
+48d2c49175480fda0b04a5825da81589e6dac204 ksmbd: fix race condition from parallel smb2 lock requests
+bd4c8a7b32095fa458bc5c27257c92d9626e9adf ksmbd: fix race condition between tree conn lookup and disconnect
+67608ca2b50c1240b582cd8016ad4ea4cc3145ba ksmbd: fix wrong error response status by using set_smb2_rsp_status()
+d099096543d377cc157d20a912b532d803026b0e ksmbd: fix Null pointer dereferences in ksmbd_update_fstate()
+9a309b3993105ecb01c31fb41620c1b296ebd989 ksmbd: fix potential double free on smb2_read_pipe() error path
+92b62c2af8bad919614e8d1b238133969dcb3525 ksmbd: Remove unused field in ksmbd_user struct
+0656f4c7469391eba76238f823ebfe4049fc7a48 ksmbd: reorganize ksmbd_iov_pin_rsp()
+a09932d9f1634dd64978df75682b8c64ffc7a689 ksmbd: fix kernel-doc comment of ksmbd_vfs_setxattr()
+cf614ce2bce281237bec5c88f809728c2ecd1091 ksmbd: fix recursive locking in vfs helpers
+036bd21704483733a98f19ac07c7f9a32a28ee4c ksmbd: fix missing RDMA-capable flag for IPoIB device in ksmbd_rdma_capable_netdev()
+743bd007169b16db84a6e692166b9bc6788f70a7 ksmbd: add support for surrogate pair conversion
+d110dfc83c1e2f5d62b223305a13fa90819a4b38 ksmbd: no need to wait for binded connection termination at logoff
+3bec7e6507c40729a7493be1e51658a2e9bc769b ksmbd: fix kernel-doc comment of ksmbd_vfs_kern_path_locked()
+15629974f15d15b065194162770d60b0a201d461 ksmbd: prevent memory leak on error return
+6f3b2368d6e753669b9edbd606acdfafe9162051 ksmbd: fix possible deadlock in smb2_open
+f8d0b5b92c0bcbb39f32d8570698703b40c85fd1 ksmbd: separately allocate ci per dentry
+a75e064844ef2f30a97ffb3f988e196c8ac90785 ksmbd: move oplock handling after unlock parent dir
+387bf63fb3bfb5eadeea29875db17b488c9084da ksmbd: release interim response after sending status pending response
+87e4f0bec1f073e0e9c61e5e1173b64148096afb ksmbd: move setting SMB2_FLAGS_ASYNC_COMMAND and AsyncId
+1f906ffe0b07f60ea7532d9a8f3abf3726306ee9 ksmbd: don't update ->op_state as OPLOCK_STATE_NONE on error
+2f88ebada85914cd5013939b1c45c6e5f2720a94 ksmbd: set epoch in create context v2 lease
+3f82ed18c583a4ced6115a5c6ed2e30353972f7a ksmbd: set v2 lease capability
+68e263a64f97a9b7b153211d98d467462db9416a ksmbd: downgrade RWH lease caching state to RH for directory
+2a5693d54b8d4624c48cc6e95669ad8efd7a8e88 ksmbd: send v2 lease break notification for directory
+f6016f96491d7db865014b785c6f5412d846a8b5 ksmbd: lazy v2 lease break on smb2_write()
+267d48f8f66fd0a4c9fd0b4057311a74e996d96b ksmbd: avoid duplicate opinfo_put() call on error of smb21_lease_break_ack()
+95349b30ce579fe867d83f85d14d1f069632c6b2 ksmbd: fix wrong allocation size update in smb2_open()
+0057430ee08982be9ff5fde7d07ddade36b7967f ARM: dts: Fix occasional boot hang for am3 usb
+c572b00623d0948780052d668b839efd2c98eb01 usb: fotg210-hcd: delete an incorrect bounds test
+9662eaf9f31d27fb5ad2a8885872c79074bc0a29 spi: Introduce spi_get_device_match_data() helper
+25de42852881c0d9bab22856e16d95a2ed115ac7 iio: imu: adis16475: add spi_device_id table
+3a4f1321be6ad26be6f75637ed6cbe76e0153fea nfsd: separate nfsd_last_thread() from nfsd_put()
+c4274964c7615e5abf5669cf642adf7e8fb0db90 nfsd: call nfsd_last_thread() before final nfsd_put()
+ba880b717e473b841af46043b77b46707b483f8a linux/export: Ensure natural alignment of kcrctab array
+124cc181327d6feb135b115b66ee1a8729df0561 spi: Reintroduce spi_set_cs_timing()
+0f2604e4d748bbac004937809cc4876380c2890b spi: Add APIs in spi core to set/get spi->chip_select and spi->cs_gpiod
+a33cf24b5dedffdf316b758a1767431812602763 spi: atmel: Fix clock issue when using devices with different polarities
+90cfad352511a2eb8a96371d9f4431769b97ee57 block: renumber QUEUE_FLAG_HW_WC
+522df44df2fe5b2cec1ab4c73c212370274d42cf ksmbd: fix slab-out-of-bounds in smb_strndup_from_utf16()
+70927105e843d4ef860e5cb77612aea13433c24c platform/x86: p2sb: Allow p2sb_bar() calls during PCI device probe
+70902656522d8a25032df4e3e3a75ed5d964adaf mm/filemap: avoid buffered read/write race to read inconsistent data
+7c8296fc5f644785c2a908039a99d95edea81d36 mm: migrate high-order folios in swap cache correctly
+21f2efc71986da03ebd43d384778f73fb240ec86 mm/memory-failure: cast index to loff_t before shifting it
+1d2ecfc9d49ef3a32fa494d53e140050108fac00 mm/memory-failure: check the mapcount of the precise page
+56d5a0379aeb0f876b3a6640db3584141738c510 ring-buffer: Fix wake ups when buffer_percent is set to 100
+d51aa804d1a02e9089da93b42d1e9d85764a6945 tracing: Fix blocked reader of snapshot buffer
+5ad9b4361c69d6b07847f4562eb39e2c2c5ed8a5 ring-buffer: Remove useless update to write_stamp in rb_try_to_discard()
+3e88fea74025b9b9163f6acbc2afc9d02be143aa netfilter: nf_tables: skip set commit for deleted/destroyed sets
+2738fed0cfef80e9d93734841df97bb243234c83 ring-buffer: Fix slowpath of interrupted event
+a22661c4b22dfb09098cee1d8e8c3a6ff444753c NFSD: fix possible oops when nfsd/pool_stats is closed.
+0a5d72116e6d238fb73b947b99f714eee08fab80 spi: Constify spi parameters of chip select APIs
+1504a59864d48e74b830ebf708f85e16c6dfc759 device property: Allow const parameter to dev_fwnode()
+1882ab3ed5b75d2cfd60da6d4eca87adce3a43f9 Linux 6.1.71-rc1
 
---===============7576971639609393822==--
+--===============0813760340417608296==--
