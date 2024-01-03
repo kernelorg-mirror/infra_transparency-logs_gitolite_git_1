@@ -1,28 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 03 Jan 2024 11:59:52 -0000
-Message-Id: <170428319201.22989.11669452204905626076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 03 Jan 2024 12:02:00 -0000
+Message-Id: <170428332045.25533.15132186201161035995@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/kvm-arm64/sysreg-xarray
-    old: 0d068e697a369c19878968564baf4ac4c868314e
-    new: b675a2f43fc215c3eac08a02d7a6ec54ad1a6f90
+  - ref: refs/heads/bleeding-edge
+    old: 3d605524284615c2e1d6a317d1b24b5237153b34
+    new: 1ef4f3a87861916c722f094c0cd3060e3fc0a8db
     log: |
-         df99d1738cd5980ebc65d779f908f50d36042ced KVM: arm64: Always populate trap config xarray
-         09bf39be4ed03c090c03f86b950fc4f99d8700d9 KVM: arm64: Register AArch64 system register entries with the sysreg xarray
-         297d8083824101643102b03f6f4b07f242fbf00b KVM: arm64: Add optional sys_reg_desc parameter to emulate_sys_reg()
-         3c56121e02753ade74aec97bd43061f54339e3ba KVM: arm64: Directly use the xarray-provided sysreg descriptor
-         ed3598d43eefa10c06ccc03142bf2a7e33b5e0f9 KVM: arm64: Directly use the xarray-provided sys insn descriptor
-         c1623f9d9f3573ab48ba2f9a5c29776076e79338 KVM: arm64: Unify HDFG[WR]TR_GROUP FGT identifiers
-         981ec4edfdc989ad77e8fdc3470cec087c6f50a5 KVM: arm64: Add Fine-Grained UNDEF tracking information
-         c8584e482b904b079ccddd2d61a65ccdaf8959ec KVM: arm64: Propagate and handle Fine-Grained UNDEF bits
-         358ebca2156ae27f8b1ca77d42f7918388b81ee2 KVM: arm64: Move existing feature disabling over to FGU infrastructure
-         b675a2f43fc215c3eac08a02d7a6ec54ad1a6f90 KVM: arm64: Streamline save/restore of HFG[RW]TR_EL2
+         daf148005e03fdc9193bc5e57012f5582649d2d0 thermal: trip: Constify thermal zone argument of thermal_zone_trip_id()
+         78d4392af15a979cff8da5e2e78412b5bb6974cb thermal: netlink: Pass pointers to thermal_notify_tz_trip_change()
+         0ac1e59b57fc094b3d50b8c3e17dbe7d3a738fb4 thermal: netlink: Pass pointers to thermal_notify_tz_trip_up/down()
+         2058f60bfecc2a34363ee1510b4fd2f838208760 thermal: netlink: Drop thermal_notify_tz_trip_add/delete()
+         dd4030ff03a2a63565a24dcddfdfdf336fa9d2b4 thermal: netlink: Pass thermal zone pointer to notify routines
+         f637e2d5bb7545657da663282bdd4735761438c2 thermal: netlink: Rework cdev-related notify API
+         1ef4f3a87861916c722f094c0cd3060e3fc0a8db Merge branch 'thermal-core' into bleeding-edge
          
