@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 03 Jan 2024 00:21:41 -0000
-Message-Id: <170424130137.17274.5249886033814212531@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 03 Jan 2024 00:22:11 -0000
+Message-Id: <170424133157.17531.7693304131997899752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: d5a13915ae2f4df738bf4254ec25e19f82e3ff49
-    new: e584f2ff1e6cc9b1d99e8a6b0f3415940d1b3eb3
+    old: 88b8fd9770896231791ad0026d8dddde537d3c82
+    new: 501869fecfbc00d20d07c1a5f1a49af8fb903d44
     log: |
-         e584f2ff1e6cc9b1d99e8a6b0f3415940d1b3eb3 net: bcmgenet: Fix FCS generation for fragmented skbuffs
+         501869fecfbc00d20d07c1a5f1a49af8fb903d44 net: ethtool: Fix symmetric-xor RSS RX flow hash check
          
