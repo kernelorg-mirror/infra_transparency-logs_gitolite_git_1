@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6069316531071877842=="
+Content-Type: multipart/mixed; boundary="===============3176026109705131920=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 04 Jan 2024 14:33:13 -0000
-Message-Id: <170437879342.3543.4870103610304587757@gitolite.kernel.org>
+Date: Thu, 04 Jan 2024 14:33:38 -0000
+Message-Id: <170437881872.3759.14620332337450178059@gitolite.kernel.org>
 
---===============6069316531071877842==
+--===============3176026109705131920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,43 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ffe9f0bd063b737be3d5e62b7e75654f2706ddfe
-    new: e6843a4e670c20d72b415068de338f3df4ce0aa5
-    log: revlist-ffe9f0bd063b-e6843a4e670c.txt
+    old: e6843a4e670c20d72b415068de338f3df4ce0aa5
+    new: 65381abd5b0ff9e96d42464de137356a84786f71
+    log: revlist-e6843a4e670c-65381abd5b0f.txt
 
---===============6069316531071877842==
+--===============3176026109705131920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffe9f0bd063b-e6843a4e670c.txt
+Content-Disposition: attachment; filename=revlist-e6843a4e670c-65381abd5b0f.txt
 
-fa014953f9409edd32b04cb5c0f4167b8a537e65 bcachefs: Fix extents iteration + snapshots interaction
-f2eb8434e4fec891ae842183b9193ae759ee6d78 bcachefs: fix invalid free in dio write path
-f87bf892ea9848696ddfd184964d303202dd19dd bcachefs: fix setting version_upgrade_complete
-73ab9e03861c22ec6723b7b110d62ba60f37c164 bcachefs: Factor out darray resize slowpath
-a58a6a58f5ad55aa1f5c54598c44f1d9938c1793 bcachefs: Switch darray to kvmalloc()
-099dc5c29dff52c0c37abcaa6cc747a1ac8df5fe bcachefs: DARRAY_PREALLOCATED()
-d9534cc9fc455214e857bc1d32f44d5a229dc602 bcachefs: fix buffer overflow in nocow write path
-6b49b0f7e73817265f80c565037ac812df6f1ae3 bcachefs: move BCH_SB_ERRS() to sb-errors_types.h
-560661d4ae067276c14bf0dc89fdd0228f993150 bcachefs: prt_bitflags_vector()
-808c680f2a256188951805f05c907d40919db37a bcachefs: Add persistent identifiers for recovery passes
-8b16413cda7c46d47f8071165b3071f8a9369199 bcachefs: bch_sb.recovery_passes_required
-84f1638795da1ff2084597de4251e9054f1ad728 bcachefs: bch_sb_field_downgrade
-0d72ab35a925d66b044cb62b709e53141c3f0143 bcachefs: make RO snapshots actually RO
-01638431c465741e071ab34acf3bef3c2570f878 efi/x86: Fix the missing KASLR_FLAG bit in boot_params->hdr.loadflags
-ad579864637af46447208254719943179b69d41a tracefs: Check for dentry->d_inode exists in set_gid()
-fd56cd5f6d76e93356d9520cf9dabffe1e3d1aa0 eventfs: Fix bitwise fields for "is_events"
-f93e71aea6c60ebff8adbd8941e678302d377869 Revert "PCI/ASPM: Remove pcie_aspm_pm_state_change()"
-0ee2030af4e3e0a9cd26dfaa8c2f935beffa91d1 MAINTAINERS: Orphan Cadence PCIe IP
-981d04137a4b5ea95133572bdb3d888c9b515850 Merge tag 'bcachefs-2024-01-01' of https://evilpiepirate.org/git/bcachefs
-360f0342b2e9374298e2222c846f3fe9d0295f0d Merge tag 'trace-v6.7-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-94a502eb59775e13c9089de38c601f9f85b25750 Merge tag 'efi-urgent-for-v6.7-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-8026e40608b4d552216d2a818ca7080a4264bb44 apparmor: Fix move_mount mediation by detecting if source is detached
-d7807d8544e56af9b5523f15eddac09ec0291b4e Merge tag 'apparmor-pr-2024-01-03' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
-ac865f00af293d081356bec56eea90815094a60e Merge tag 'pci-v6.7-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-e6843a4e670c20d72b415068de338f3df4ce0aa5 Merge branch 'linus'
+c2ec1c0779eaf885526ddbc57fa003b52c4105cf Merge branch into tip/master: 'sched/urgent'
+5556829adb0605e3d931d00160d3bda82d02f4f0 Merge branch into tip/master: 'x86/merge'
+5a144985a0453eaccb1d9490d85e17944bd7a5fe Merge branch into tip/master: 'core/debugobjects'
+ecd3eee7113e3618267dc75dc63da74aa9455fe5 Merge branch into tip/master: 'core/entry'
+56b2d24b0862a1c6fed79f6e5951d4d905cdbec3 Merge branch into tip/master: 'core/merge'
+22955768fb46c8e7d26be956f4afd256092a7afc Merge branch into tip/master: 'locking/core'
+0168874451e0e8b8c15fc860877e29b2cdc82951 Merge branch into tip/master: 'objtool/core'
+efcf6ac61fa927299a8091c6f0c9f08a89fe840b Merge branch into tip/master: 'perf/core'
+eea836a0ee395f1c63de53fb1c0febd41989462a Merge branch into tip/master: 'ras/core'
+a558e1c8ae641b5ecd21a9d02dc4fc47af225ec9 Merge branch into tip/master: 'sched/core'
+a1fedbab04fd8d099c74374862efb8b8b7ff6e5f Merge branch into tip/master: 'smp/core'
+eacc049f16e4b5af4c546e8762364cd399d04071 Merge branch into tip/master: 'timers/core'
+a8ba9494d4020b87db1ca54787c1230dd63887b9 Merge branch into tip/master: 'x86/apic'
+a58f72992aec1c473fd060253f01b48270e4fbdd Merge branch into tip/master: 'x86/asm'
+b1144cf1c714313fca8569004bff3a8942843775 Merge branch into tip/master: 'x86/boot'
+eea514a911595b1073e59532dd98a6e21e6600f4 Merge branch into tip/master: 'x86/build'
+03501bbb5051704e670e649703dcb4ea140b307a Merge branch into tip/master: 'x86/cleanups'
+b5a64223890f16d6cfb7d748dcd9f6c034939c76 Merge branch into tip/master: 'x86/core'
+e35076947f6e06302da8b6b05c9aa5cd6f83404e Merge branch into tip/master: 'x86/cpu'
+9656e7fbb1f5f0dee9df8f71057d71f1e537ea59 Merge branch into tip/master: 'x86/entry'
+6b9645aa98060f7009fbd66f8a9c72dff8f86ecf Merge branch into tip/master: 'x86/microcode'
+8a9f3268e762fc00dbbe13389c57e4f92e231ff5 Merge branch into tip/master: 'x86/misc'
+390df2db44e80177d3b4afcd161b3ed6be55242e Merge branch into tip/master: 'x86/mm'
+452e506a95b86a1f98d8a296e145158deb401f90 Merge branch into tip/master: 'x86/paravirt'
+f78d335db46efe305dfdc0875a936d4113f1e2f3 Merge branch into tip/master: 'x86/percpu'
+1c7169e66b45e0acf06ef8c6727c328b7c9fa0ed Merge branch into tip/master: 'x86/sev'
+4974e9ffa5d3c3f206c50aa477ee6bc7786d9774 Merge branch into tip/master: 'x86/sgx'
+65381abd5b0ff9e96d42464de137356a84786f71 Merge branch into tip/master: 'x86/tdx'
 
---===============6069316531071877842==--
+--===============3176026109705131920==--
