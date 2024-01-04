@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8016881910586227704=="
+Content-Type: multipart/mixed; boundary="===============1072167595132659307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 04 Jan 2024 13:24:53 -0000
-Message-Id: <170437469302.17738.10797538013896244855@gitolite.kernel.org>
+Date: Thu, 04 Jan 2024 13:24:58 -0000
+Message-Id: <170437469836.17864.5361265428603956307@gitolite.kernel.org>
 
---===============8016881910586227704==
+--===============1072167595132659307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,55 +16,52 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
+  - ref: refs/heads/char-misc-linus
+    old: 159f5bdadcdda638aad5a234b58d6031aa4ef8aa
     new: 610a9b8f49fbcf1100716370d3b5f6f884a2835a
-    log: revlist-a39b6ac3781d-610a9b8f49fb.txt
+    log: revlist-159f5bdadcdd-610a9b8f49fb.txt
 
---===============8016881910586227704==
+--===============1072167595132659307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704374692 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704374697 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1704374691-51edeed843c1014ba4a723064951c87da79d9f09
+nonce 1704374696-705c87aee49b6f568acc21986ec030438731497c
 
-a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 610a9b8f49fbcf1100716370d3b5f6f884a2835a refs/heads/main
+159f5bdadcdda638aad5a234b58d6031aa4ef8aa 610a9b8f49fbcf1100716370d3b5f6f884a2835a refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWWsaQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hbAQAIh+QGttrpoFzv+Wv6CH
-pGvdvxogjFGBJAqMnBXSok+V8ma+Zuma2Xi2iBGDt498IrTwpH338DfKizBayYhN
-Cn611sddPCW1o7S6I7Qt9VussD2JTbWbnVePCn5Vz8pqFMwWiXRFTvL3YKFz6ekC
-UoActA6F+cTvA2Xvd5KzN+yfatXY4t97iQHhR37Yh1Zfe2klyyXkdkJgOKTr6BLW
-oD6vsOoIo1OdKFgKwi08H8QN+rqaLNm5CMkZsnZnFqUNW7tkVqMcpQh+uciCkWgA
-AqkH7iqZXQe1eOnoxTSyZFGGz6m5Q9QbPRJuldBYWq/hSO52rGCY9oBzntTPisW6
-A6HaOyLWlsBWgrnEmfaNlo66dqMcoYZak/1GnkhxCM8Ycb3hmvvuERKyhKt9lFal
-5Bjojjx/Yewgown1OvM/EOdOuQu/4Iyot4lZj+L+v64qlz8wM3y9e7P7biOjAFg7
-a83TXXvXoGqPWXFVqmhSnVsfcbqDiFKcKjUzHiLT6HkK/lCWfXexM6vGFpcsvS9R
-apoJiWfrKEN/DTHSLxapRcrKzOUKqY9KcV0DKFrNAvFUU5gEiwFcdy3cACLjOZe5
-MRKdZyBDbjkpB6pjmuRIxIuPlpETT1lY2VSD2KOR2MC/ysX/Tsl+GI02p/e/+4hG
-1bDkeGBtEg3re5K4xmmqZbtu
-=Ubp7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWWsakbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZHYP/2/esBwa4muUXGZNQcV4
+PHc6dlM0uy7Ky0kJawsTtuEtUHxYnFQY83ll8cxUfUnXfWlilPTT3/LjCo5bocZs
+lpMyglpa/S8Ge0paw+DSTrXtdATc4B5HmBzb8+GC9dz5yXYz0xVpf5E8OlXS7z4E
+VtkKvgXlmw44bY4cwLCgYsvKMBbUAPH7R9sMXiBCPlNIQT8Ah4hLXUQxWGUnZYg1
+GyXp6SX2Rlsnwh67bZzA21D7YUAjmMGjCZZEq91+3TsRqCXnTeXQhYStPzr1RbJo
+nchyAxdv2SEYg0kEp2DzniDOs6ifVQYO+au8u/xCQfxcbnPOLHNUmz3DuJHWggRF
+G2PzmNC+MwV0JKw1F6V/OivZQ0lPk2q+olv1N1Kr8TMvs3Ysu84k+VYsTBoqXuZO
+y69szA3zZvk2CuIP4C7ce5b2vwN57wzw+kcYIJMMxJ+5xEZwsVIWxXZpFv/QONqi
+sgLGURliEWuyF7cIgku3vu2uHejslByrn1vRKC4/Otms5CP1EUFm+7LLf/lLhAG0
+tuCW8L/UVnKPCHIRAxTf+qHhKeIQXrLAFE0rJCaNwakvXRKsW7OM/ZIMjR9fKIP+
+r7bI22wqSnH2wWfEDlEK4cBxLjP8jkTxwAZ8g+utGD5zWj+jEoMs6NcjC5fJXyQi
+sBF2stuH4V3X0xhDo3bp3kAk
+=CwsN
 -----END PGP SIGNATURE-----
 
---===============8016881910586227704==
+--===============1072167595132659307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a39b6ac3781d-610a9b8f49fb.txt
+Content-Disposition: attachment; filename=revlist-159f5bdadcdd-610a9b8f49fb.txt
 
 c1f342f35f820b33390571293498c3e2e9bc77ec Input: psmouse - enable Synaptics InterTouch for ThinkPad L14 G1
 0f40d5099cd6d828fd7de6227d3eabe86016724c phy: ti: gmii-sel: Fix register offset when parent is not a syscon node
-92bfa4ab1b79be95c4f52d13f5386390f0a513c2 iio: kx022a: Fix acceleration value scaling
-54cf39ec16335dadbe1ba008d8e5e98dae3e26f8 iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
 1af27671f62ce919f1fb76082ed81f71cb090989 clk: rockchip: rk3568: Add PLL rate for 292.5MHz
 c6c5a5580dcb6631aa6369dabe12ef3ce784d1d2 clk: rockchip: rk3128: Fix HCLK_OTG gate register
 b9622937d95809ef89904583191571a9fa326402 arm64: dts: allwinner: h616: update emac for Orange Pi Zero 3
-ad2ab1297d0c80899125a842bb7a078abfe1e6ce interconnect: Treat xlate() returning NULL node as an error
 36a1c2ee50f573972aea3c3019555f47ee0094c0 cxl/hdm: Fix a benign lockdep splat
 744f5e7b69710701dc225020769138f8ca2894df dmaengine: ti: k3-psil-am62: Fix SPI PDMA data
 9aa6a662c309e6f8770972840948af963bd6ff34 drm/mediatek: mtk_disp_gamma: Fix breakage due to merge issue
@@ -74,13 +71,8 @@ b5ec294472794ed9ecba0cb4b8208372842e7e0d reset: hisilicon: hi6220: fix Wvoid-poi
 2838a897654c4810153cc51646414ffa54fd23b0 dmaengine: fsl-edma: Do not suspend and resume the masked dma channel when the system is sleeping
 3448397a47c08c291c3fccb7ac5f0f429fd547e0 dmaengine: fsl-edma: Add judgment on enabling round robin arbitration
 54bed6bafa0f38daf9697af50e3aff5ff1354fe1 dmaengine: stm32-dma: avoid bitfield overflow assertion
-3b8157ec4573e304a29b7bced627e144dbc3dfdb iio: tmag5273: fix temperature offset
 fe4c5f662097978b6c91c23a13c24ed92339a180 drm/mediatek: Add spinlock for setting vblank event in atomic_begin
 936e4d49ecbc8c404790504386e1422b599dec39 Input: atkbd - skip ATKBD_CMD_GETID in translated mode
-ee4d79055aeea27f1b8c42233cc0c90d0a8b5355 iio: imu: adis16475: add spi_device_id table
-1cd2fe4fd63e54b799a68c0856bda18f2e40caa8 iio: imu: adis16475: use bit numbers in assign_bit()
-c3df0e29fb7788c4b3ddf37d5ed87dda2b822943 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
-bce61476dc82f114e24e9c2e11fb064781ec563c iio: triggered-buffer: prevent possible freeing of wrong buffer
 ac43c9122e4287bbdbe91e980fc2528acb72cc1e thunderbolt: Fix memory leak in margining_port_remove()
 06f76e464ac81c6915430b7155769ea4ef16efe4 phy: mediatek: mipi: mt8183: fix minimal supported frequency
 2a9c713825b3127ece11984abf973672c9779518 phy: sunplus: return negative error code in sp_usb_phy_probe
@@ -95,7 +87,6 @@ f71f6ff8c1f682a1cae4e8d7bdeed9d7f76b8f75 bus: ti-sysc: Flush posted write only a
 1e5caee2ba8f1426e8098afb4ca38dc40a0ca71b ARM: dts: dra7: Fix DRA7 L3 NoC node register size
 c72b9c33ef9695ad7ce7a6eb39a9df8a01b70796 ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
 4a6756f56bcf8e64c87144a626ce53aea4899c0e reset: Fix crash when freeing non-existent optional resets
-bfc7db1cb94ad664546d70212699f8cc6c539e8c interconnect: qcom: sm8250: Enable sync_state
 335fe00319e030d481a54d5e0e68d50c5e672c0e Input: i8042 - add nomux quirk for Acer P459-G2-M
 2dcf5fde6dffb312a4bfb8ef940cea2d1f402e32 ext4: prevent the normalized size from exceeding EXT_MAX_BLOCKS
 85559227211020b270728104c3b89918f7af27ac jbd2: correct the printing of write_flags in jbd2_write_superblock()
@@ -111,15 +102,10 @@ c55e0a55b165202f18cbc4a20650d2e1becd5507 fuse: Rename DIRECT_IO_RELAX to DIRECT_
 c4d361f66ac91db8fc65061a9671682f61f4ca9d fuse: share lookup state between submount and its parent
 7f8ed28d1401320bcb02dda81b3c23ab2dc5a6d8 fuse: dax: set fc->dax to NULL in fuse_dax_conn_free()
 3f29f1c336c0e8a4bec52f1e5217f88835553e5b fuse: disable FOPEN_PARALLEL_DIRECT_WRITES with FUSE_DIRECT_IO_ALLOW_MMAP
-60576e84c187043cef11f11d015249e71151d35a iio: adc: ti_am335x_adc: Fix return value check of tiadc_request_dma()
 2d880bfa4a97002962d5be148725197be98b191a mailmap: add address mapping for Jiri Kosina
-2475ecdb9b6e177b133cf26e64e8d441d37bebde iio: adc: imx93: add four channels for imx93 adc
 f6e3b40a2c89c1d832ed9cb031dc9825bbf43b7c pinctrl: starfive: jh7110: ignore disabled device tree nodes
 5c584f175d32f9cc66c909f851cd905da58b39ea pinctrl: starfive: jh7100: ignore disabled device tree nodes
-59b75dcb0953813676b5030877f3f37cedaed87d iio: adc: meson: add separate config for axg SoC family
 1f475cd572ea77ae6474a17e693a96bca927efe9 virtio_ring: fix syncs DMA memory with different direction
-85ac6d92fdfd6097a16d9c61363fe1d0272c1604 iio: adc: MCP3564: fix calib_bias and calib_scale range checks
-408d4b33c2440600418a1eb9c89eaa27cf5867ad iio: adc: MCP3564: fix hardware identification logic
 b8e0792449928943c15d1af9f63816911d139267 virtio_blk: fix snprintf truncation compiler warning
 2fff0b5e1a6b9c577b4dd4958902c877159c856b pinctrl: amd: Mask non-wake source pins with interrupt enabled at suspend
 a9f68ffe1170ca4bc17ab29067d806a354a026e0 HID: i2c-hid: Add IDEA5002 to i2c_hid_acpi_blacklist[]
@@ -154,7 +140,6 @@ eb547407f3572d2110cb1194ecd8865b3371a7a4 ksmbd: downgrade RWH lease caching stat
 7aebaabfede75feda5c5d16991da74124aee428d bcachefs: Fix creating snapshot with implict source
 5796230582f6131fa217f0a1700783c459c847d2 bcachefs: don't attempt rw on unfreeze when shutdown
 5c47251e8c4903111608ddcba2a77c0c425c247c lib/vsprintf: Fix %pfwf when current node refcount == 0
-9085b23b668ad5aca62df4f071b306a47152e6b3 interconnect: qcom: icc-rpm: Fix peak rate calculation
 d20d36755a605a21e737b6b16c566658589b1811 ASoC: SOF: mediatek: mt8186: Revert Add Google Steelix topology compatible
 7a733e060bd20edb63b1f27f0b29cf9b184e0e8b spi: cadence: revert "Add SPI transfer delays"
 f63e1164b90b385cd832ff0fdfcfa76c3cc15436 btrfs: free qgroup reserve when ORDERED_IOERR is set
@@ -265,8 +250,6 @@ d26b9cb33c2d1ba68d1f26bb06c40300f16a3799 KVM: arm64: vgic: Add a non-locking pri
 6bef365e310a5cd4b6e95fbb80b44725fce97e37 KVM: arm64: vgic: Ensure that slots_lock is held in vgic_register_all_redist_iodevs()
 b1a39a718db44ecb18c2a99a11e15f6eedc14c53 KVM: Convert comment into an assertion in kvm_io_bus_register_dev()
 98fb9b9680c9f3895ced02d6a73e27f5d7b5892b wifi: ieee80211: don't require protected vendor action frames
-e1b2fa6185babdff58953ee0b65f569255bd0897 Merge tag 'icc-6.7-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
-76101fa0c0a9519010c6afe488574ec38aa4ba8d Merge tag 'iio-fixes-for-6.7a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 a4754182dc936b97ec7e9f6b08cdf7ed97ef9069 wifi: iwlwifi: pcie: add another missing bh-disable for rxq->lock
 fb768d3b13ffa325b7e84480d488ac799c9d2cd7 wifi: cfg80211: Add my certificate
 c1393c132b906fbdf91f6d1c9eb2ef7a00cce64e wifi: mac80211: check if the existing link config remains unchanged
@@ -428,9 +411,6 @@ cac23b7d7627915d967ce25436d7aae26e88ed06 net: Return error from sk_stream_wait_c
 7e2c1e4b34f07d9aa8937fab88359d4a0fce468e perf: Fix perf_event_validate_size() lockdep splat
 64b8bc7d5f1434c636a40bdcfcd42b278d1714be net/rose: fix races in rose_kill_by_device()
 9483aa44912f26da2b69dade6099c2bf4b50a8c3 EDAC/versal: Read num_csrows and num_chans using the correct bitfield macro
-134c6eaa6087d78c0e289931ca15ae7a5007670d driver core: Add a guard() definition for the device_lock()
-a2a8aefecbd0f87d6127951cef33b3def8439057 dt-bindings: nvmem: mxs-ocotp: Document fsl,ocotp
-1e37bf84afacd5ba17b7a13a18ca2bc78aff05c0 nvmem: brcm_nvram: store a copy of NVRAM content
 aef05e349bfd81c95adb4489639413fadbb74a83 net: usb: ax88179_178a: avoid failed operations when device is disconnected
 c994cb596bf7ef5928f06331c76f46e071b16f09 usb: typec: ucsi: fix gpio-based orientation detection
 772685c14743ad565bb271041ad3c262298cd6fc usb-storage: Add quirk for incorrect WP on Kingston DT Ultimate 3.0 G3
@@ -535,8 +515,6 @@ bd018b98ba84ca0c80abac1ef23ce726a809e58c SUNRPC: Revert 5f7fc5d69f6e92ec0b38774c
 9264fd61e628ce180a168e6b90bde134dd49ec28 scsi: ufs: qcom: Return ufs_qcom_clk_scale_*() errors in ufs_qcom_clk_scale_notify()
 04c116e2bdfc3969f9819d2cebfdf678353c354c scsi: ufs: core: Let the sq_lock protect sq_tail_slot access
 b803d7c664d55705831729d2f2e29c874bcd62ea ring-buffer: Fix slowpath of interrupted event
-b9670ee2e975e1cb6751019d5dc5c193aecd8ba2 Revert "iio: hid-sensor-als: Add light chromaticity support"
-d4005431673929a1259ad791db87408fcf85d2cc Revert "iio: hid-sensor-als: Add light color temperature support"
 3dc5d44545453de1de9c53cc529cc960a85933da net: ks8851: Fix TX stall caused by TX buffer overrun
 340943fbff3d8faa44d2223ca04917df28786a07 net: mana: select PAGE_POOL
 fa94a0c8424a5e1bd184bf1f05fbcd5914ce283d net: hns3: add new maintainer for the HNS3 ethernet driver
@@ -630,7 +608,6 @@ b7ef7caff63a55d3a1b77fce80fcbd22d93bbc51 Merge tag 'amd-drm-fixes-6.7-2023-12-20
 d4b6e7f582e29acac17bcaf7f7771138d72f89d2 Merge tag 'drm-intel-fixes-2023-12-21' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 01db5e5f2f6e01cbea01872850223e58075baf63 bcachefs: Fix insufficient disk reservation with compression + snapshots
 c8296d730f19b3916c11aa7b8c47a2b3e5a7ca9c bcachefs: Fix leakage of internal error code
-159f5bdadcdda638aad5a234b58d6031aa4ef8aa debugfs: initialize cancellations earlier
 ab241a0ab5abd70036c3d959146e534a02447d17 Merge tag 'usb-serial-6.7-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 7e8358edf503e87236c8d07f69ef0ed846dd5112 eventfs: Fix file and directory uid and gid ownership
 93a165cb9a4c7bf517db07abdfafde742c7dc234 Merge tag '9p-for-6.7-rc7' of https://github.com/martinetd/linux
@@ -687,4 +664,4 @@ b106bcf0f99ae0459f3c8c2f0af575ef9f5d9bde locking/osq_lock: Clarify osq_wait_next
 2639772a11c860628c5f7007842eca52a1c34d78 get_maintainer: remove stray punctuation when cleaning file emails
 610a9b8f49fbcf1100716370d3b5f6f884a2835a Linux 6.7-rc8
 
---===============8016881910586227704==--
+--===============1072167595132659307==--
