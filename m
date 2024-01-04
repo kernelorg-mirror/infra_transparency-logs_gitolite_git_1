@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Thu, 04 Jan 2024 21:00:45 -0000
-Message-Id: <170440204535.27140.14123901021083664317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 04 Jan 2024 21:09:45 -0000
+Message-Id: <170440258584.760.18035759990100721797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: holtmann
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/2.3
-    old: 0000000000000000000000000000000000000000
-    new: 343e4a5a7bbcef4202f41c2ebc4b8db7f0fa8f5c
+  - ref: refs/heads/main
+    old: 5e5401d6612ef599ad45785b941eebda7effc90f
+    new: 63c7234f50e8e760fb6b0abdc2bfb6ce83d56cc9
+    log: |
+         63c7234f50e8e760fb6b0abdc2bfb6ce83d56cc9 Revert "octeon_ep_vf: add octeon_ep_vf driver"
+         
