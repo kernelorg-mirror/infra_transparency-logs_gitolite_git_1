@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5668510633766096910=="
+Content-Type: multipart/mixed; boundary="===============5820677877234593619=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 04 Jan 2024 13:46:50 -0000
-Message-Id: <170437601064.3330.13874873196218645869@gitolite.kernel.org>
+Date: Thu, 04 Jan 2024 13:46:55 -0000
+Message-Id: <170437601545.3404.17389752916688917841@gitolite.kernel.org>
 
---===============5668510633766096910==
+--===============5820677877234593619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
+  - ref: refs/heads/usb-linus
+    old: ab241a0ab5abd70036c3d959146e534a02447d17
     new: 610a9b8f49fbcf1100716370d3b5f6f884a2835a
-    log: revlist-a39b6ac3781d-610a9b8f49fb.txt
+    log: revlist-ab241a0ab5ab-610a9b8f49fb.txt
 
---===============5668510633766096910==
+--===============5820677877234593619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704376010 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704376014 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1704376009-c7ba37201d73e1be23d8fc73e2e8e657f76547c8
+nonce 1704376013-ab93be5ec6c12160557cc927c2b800d04de22a1a
 
-a39b6ac3781d46ba18193c9dbb2110f31e9bffe9 610a9b8f49fbcf1100716370d3b5f6f884a2835a refs/heads/main
+ab241a0ab5abd70036c3d959146e534a02447d17 610a9b8f49fbcf1100716370d3b5f6f884a2835a refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWWtsobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TXMP/0jJhi4Ad4kMkTBQmGJE
-c4I771GjqNY1+QGkn+h4XISepZkNvzF12sZVByiG9hQwV7M4xgWgpsf10lAQYA12
-BovIwd+6LcQ+/XeyJSpcGfHqrNf06n5dAghdMmj1zGdimCNrv26r7hAReMjNILoM
-H2x2xryRwJszK3x/IbWBOHx2n2VrKZSC1GTZqNCkchtzDEOGuVdFD0w7iTIzY1CW
-zS5aPD1UC7e67VEJlmagimKq1+QhoWCrjNN5Vld2yrz+pVNlZjLusDTIEY/kN8+S
-jqM+vmsiZoxBow9+SXbtxEovAVWXAlEDEpXlDLTiMD510w19v0FwfcF1hob2+6pB
-JoOj22dPNmjZKVm0OEW8WmbNttV30i0ziH1yHiOvLBUHiqYehL9zwNJs1q/5xaEP
-Pu8VgBMrYpTXeJ0nr/0gdHKmxhStqkZb99z1NcT0P7UnwG5k3ue5G/zSfOB1up6p
-ix19eIBCh04x0uCwUpxx/U+0QEKzOCyJj0Lyx0OesvSFaJHm0eMIu6MP0jG0VGCU
-i2700Q7gNaH2Id2YpIze6PRli4sLyI2lOlrV8YN8OIWIz+v9QsnV+/bUrYrsBekz
-WzVDn9pYTH5Kewgf612rfISnN3MSjy+1TGPbjzcUW/x0wGQqYykUiuDacLj+526Y
-JAvWoJ0HKoT2n+LIFysutfsp
-=BSa5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWWts4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KUIP/Ap0SU17qVeA3LtfTovY
+yvW8N6lxaS3d4UdRrvbFX0t9uH/+R0FIkJTC45vdADyCIyGzu3hfQokJUckTJ8Br
+Mrz6PB7CqkBqlN479xf2jD8pmC++uDkcA0/GR4KxrYc2uVmqDUJ6lhKtnrj5PJ9O
+WzWTxVkOPy8/9EwtT2hwWq5QI64gsfAY4tnN4Ir4I5p61lEwZohcN4uFgY8dke70
+dPdIAyM6b+AWsMMyf4JtNjIjVjh/w9hiYbMM0mo4zkSXXsOS3KlVQoA+K45mhP//
+9b2VKMOeEgHsHJJ0LgHg5DKPz6uyhb/YXN4wEHuW6Y8KEwZ+tsCuANidxA6CtTiE
+WfMAxoIS1Uz9neV0aqRaiUcWXdeNxc1YLm46EZHd87OK0+QxFL+i6QmrFJfzGz24
+6ToIqPyNXp77oxYjylmRrkldgh6lZqTzJGXbpRCB+lbuf/dDE6ywOFleYa10Iu+a
+YOvawrDRUHA2UMwqbRecO331UkhsB7ZCcqqmTNeYmWqUOwSI81sh8ZLwlj44moSX
+0Uu32deXifk0Ein4sk/Dut8SIBwxRallqgvHbvWjKYnn2ZGwXFlYhpK3OT9J/EaV
+PRbTxV3uMNJMRPj4YRQl8Q6N44P+Sf9vroF6pJro6F+mvNRkV7Hy0Fo9A9lql3DU
+Mu3l2fqOKriB007mnG0Vqicx
+=8pUo
 -----END PGP SIGNATURE-----
 
---===============5668510633766096910==
+--===============5820677877234593619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a39b6ac3781d-610a9b8f49fb.txt
+Content-Disposition: attachment; filename=revlist-ab241a0ab5ab-610a9b8f49fb.txt
 
 c1f342f35f820b33390571293498c3e2e9bc77ec Input: psmouse - enable Synaptics InterTouch for ThinkPad L14 G1
 0f40d5099cd6d828fd7de6227d3eabe86016724c phy: ti: gmii-sel: Fix register offset when parent is not a syscon node
@@ -81,7 +81,6 @@ ee4d79055aeea27f1b8c42233cc0c90d0a8b5355 iio: imu: adis16475: add spi_device_id 
 1cd2fe4fd63e54b799a68c0856bda18f2e40caa8 iio: imu: adis16475: use bit numbers in assign_bit()
 c3df0e29fb7788c4b3ddf37d5ed87dda2b822943 iio: imu: inv_mpu6050: fix an error code problem in inv_mpu6050_read_raw
 bce61476dc82f114e24e9c2e11fb064781ec563c iio: triggered-buffer: prevent possible freeing of wrong buffer
-ac43c9122e4287bbdbe91e980fc2528acb72cc1e thunderbolt: Fix memory leak in margining_port_remove()
 06f76e464ac81c6915430b7155769ea4ef16efe4 phy: mediatek: mipi: mt8183: fix minimal supported frequency
 2a9c713825b3127ece11984abf973672c9779518 phy: sunplus: return negative error code in sp_usb_phy_probe
 e8d66d02defd3256a31c0ec09af63382b8682c0e clk: qcom: Fix SM_CAMCC_8550 dependencies
@@ -170,7 +169,6 @@ a0ffa8115e1ea9786b03edc3f431d2f4ef3e7a2e ASoC: cs35l45: Prevents spinning during
 5a6c9a05e55cb2972396cc991af9d74c8c15029a drm: Fix FD ownership check in drm_master_check_perm()
 6f5c4eca48ffe18307b4e1d375817691c9005c87 cxl/hdm: Fix dpa translation locking
 6d1980f0af439b5fd49b1bee2220deff6888792e bcachefs: Fix deleted inode check for dirs
-f0b94c1c5c7994a74e487f43c91cfc922105a423 thunderbolt: Fix minimum allocated USB 3.x and PCIe bandwidth
 3823119b9c2b5f9e9b760336f75bc989b805cde6 drm/crtc: Fix uninit-value bug in drm_mode_setcrtc
 179a8b515e4b8971ae4ad2db36a44f0691fc6756 Merge tag 'mlx5-fixes-2023-12-04' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 e5dc5afff62f3e97e86c3643ec9fcad23de4f2d3 neighbour: Don't let neigh_forced_gc() disable preemption for long
@@ -276,7 +274,6 @@ c1393c132b906fbdf91f6d1c9eb2ef7a00cce64e wifi: mac80211: check if the existing l
 1fc4a3eec50d726f4663ad3c0bb0158354d6647a wifi: mac80211: mesh: check element parsing succeeded
 8c386b166e2517cf3a123018e77941ec22625d0f wifi: mac80211: mesh_plink: fix matches_local logic
 ce038edfce43fb345f8dfdca0f7b17f535896701 wifi: iwlwifi: pcie: avoid a NULL pointer dereference
-da48708e873312aeba42481f12e2982f8a8ffb80 Merge tag 'thunderbolt-for-v6.7-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 1892fe103c3a20fced306c8dafa74f7f6d4ea0a3 perf/arm-cmn: Fail DTC counter allocation correctly
 24e90b9e34f9e039f56b5f25f6e6eb92cdd8f4b3 atm: Fix Use-After-Free in do_vcc_ioctl
 810c38a369a0a0ce625b5c12169abce1dd9ccd53 net/rose: Fix Use-After-Free in rose_ioctl
@@ -418,8 +415,6 @@ e9b797dc7af995ac237b4c0b3a9463c5c54c0ff7 Merge tag 'mlx5-fixes-2023-12-13' of gi
 ef3d5cf9c59cccb012aa6b93d99f4c6eb5d6648e cxl/pmu: Ensure put_device on pmu devices
 02a460adfc4920d4da775fb59ab3e54036daef22 ALSA: hda/realtek: Add quirk for ASUS ROG GV302XA
 ec1de5c214eb5a892fdb7c450748249d5e2840f5 ALSA: hda/tas2781: select program 0, conf 0 by default
-13fde9ac23ca8c6d1ac13cc9eefe1f1ac3ee30a4 USB: serial: option: add Foxconn T99W265 with new baseline
-06f22cd6635bdae7d73566fca9879b2026a08e00 USB: serial: option: add Quectel RM500Q R13 firmware support
 738b54b9b6236f573eed2453c4cbfa77326793e2 net: libwx: fix memory leak on free page
 8c97ab5448f2096daba11edf8d18a44e1eb6f31d octeontx2-pf: Fix graceful exit during PFC configuration failure
 cac23b7d7627915d967ce25436d7aae26e88ed06 net: Return error from sk_stream_wait_connect() if sk_wait_event() fails
@@ -431,10 +426,6 @@ cac23b7d7627915d967ce25436d7aae26e88ed06 net: Return error from sk_stream_wait_c
 134c6eaa6087d78c0e289931ca15ae7a5007670d driver core: Add a guard() definition for the device_lock()
 a2a8aefecbd0f87d6127951cef33b3def8439057 dt-bindings: nvmem: mxs-ocotp: Document fsl,ocotp
 1e37bf84afacd5ba17b7a13a18ca2bc78aff05c0 nvmem: brcm_nvram: store a copy of NVRAM content
-aef05e349bfd81c95adb4489639413fadbb74a83 net: usb: ax88179_178a: avoid failed operations when device is disconnected
-c994cb596bf7ef5928f06331c76f46e071b16f09 usb: typec: ucsi: fix gpio-based orientation detection
-772685c14743ad565bb271041ad3c262298cd6fc usb-storage: Add quirk for incorrect WP on Kingston DT Ultimate 3.0 G3
-7fbcd195e2b8cc952e4aeaeb50867b798040314c usb: fotg210-hcd: delete an incorrect bounds test
 f32c80d34249e1cfb2e647ab3c8ef38a460c787f ASoC: tas2781: check the validity of prm_no/cfg_no
 dd939425707898da992e59ab0fcfae4652546910 ring-buffer: Do not try to put back write_stamp
 083e9f65bd215582bf8f6a920db729fadf16704f ring-buffer: Remove useless update to write_stamp in rb_try_to_discard()
@@ -604,7 +595,6 @@ d6e5794b06c0fab74fe6e4fa55d508a5ceb14735 net: avoid build bug in skb extension l
 93cd0597649844a0fe7989839a3202735fb3ae67 x86/xen: add CPU dependencies for 32-bit build
 b414020fed42b274946aae28becf45ff156bbd2e Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 dade3f6a1e4e35a5ae916d5e78b3229ec34c78ec net/ipv6: Revert remove expired routes with a separated list of routes
-513d88a88e0203188a38f4647dd08170aebd85df USB: serial: ftdi_sio: update Actisense PIDs constant names
 14694179e561b5f2f7e56a0f590e2cb49a9cc7ab pinctrl: at91-pio4: use dedicated lock class for IRQ
 092a1362470937e46947ccdc6fe4c8a9b72f3f49 Merge tag 'asoc-fix-v6.7-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 ed7326a24a1a9af65fafefd86b505e7c3b968f6d ALSA: hda: cs35l41: Do not allow uninitialised variables to be freed
@@ -617,7 +607,6 @@ b8056f2ce07f27c43b9488dd1bc8bfbb60d0779d kselftest: rtnetlink.sh: use grep_fail 
 39299bdd2546688d92ed9db4948f6219ca1b9542 keys, dns: Allow key types (eg. DNS) to be reclaimed immediately on expiry
 0dfc852b6fe3cbecbea67332a0dce2bebeba540d eventfs: Have event files and directories default to parent uid and gid
 88b30c7f5d27e1594d70dc2bd7199b18f2b57fa9 tracing / synthetic: Disable events after testing in synth_event_gen_test_init()
-6d79d9434c69bb8ffa8a631050eb0ad6b83d3e90 USB: serial: option: add Quectel EG912Y module support
 7c5e046bdcb2513f9decb3765d8bf92d604279cf Merge tag 'net-6.7-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 13b734465a9d1cd09551d52eb5faf5fe55e6a9ea Merge tag 'trace-v6.7-rc6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 937fd403380023d065fd0509caa7eff639b144a0 Merge tag 'afs-fixes-20231221' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
@@ -631,7 +620,6 @@ d4b6e7f582e29acac17bcaf7f7771138d72f89d2 Merge tag 'drm-intel-fixes-2023-12-21' 
 01db5e5f2f6e01cbea01872850223e58075baf63 bcachefs: Fix insufficient disk reservation with compression + snapshots
 c8296d730f19b3916c11aa7b8c47a2b3e5a7ca9c bcachefs: Fix leakage of internal error code
 159f5bdadcdda638aad5a234b58d6031aa4ef8aa debugfs: initialize cancellations earlier
-ab241a0ab5abd70036c3d959146e534a02447d17 Merge tag 'usb-serial-6.7-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 7e8358edf503e87236c8d07f69ef0ed846dd5112 eventfs: Fix file and directory uid and gid ownership
 93a165cb9a4c7bf517db07abdfafde742c7dc234 Merge tag '9p-for-6.7-rc7' of https://github.com/martinetd/linux
 8afe6f0e0e257bf7f79f5996c037e8977dcc8cc1 Merge tag 'drm-fixes-2023-12-22' of git://anongit.freedesktop.org/drm/drm
@@ -687,4 +675,4 @@ b106bcf0f99ae0459f3c8c2f0af575ef9f5d9bde locking/osq_lock: Clarify osq_wait_next
 2639772a11c860628c5f7007842eca52a1c34d78 get_maintainer: remove stray punctuation when cleaning file emails
 610a9b8f49fbcf1100716370d3b5f6f884a2835a Linux 6.7-rc8
 
---===============5668510633766096910==--
+--===============5820677877234593619==--
