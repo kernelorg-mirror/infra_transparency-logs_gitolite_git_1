@@ -1,54 +1,105 @@
-Content-Type: multipart/mixed; boundary="===============7578840522370258898=="
+Content-Type: multipart/mixed; boundary="===============2574692376549239141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 04 Jan 2024 16:50:04 -0000
-Message-Id: <170438700426.8572.11537537434890500430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 04 Jan 2024 16:54:46 -0000
+Message-Id: <170438728640.10306.11779852987101497571@gitolite.kernel.org>
 
---===============7578840522370258898==
+--===============2574692376549239141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 610a9b8f49fbcf1100716370d3b5f6f884a2835a
-    new: ac865f00af293d081356bec56eea90815094a60e
-    log: revlist-610a9b8f49fb-ac865f00af29.txt
+  - ref: refs/heads/dev-queue
+    old: 6416525dd3f9c5b10d0ed3dcacbae012e2f32529
+    new: 389bafa877e2c2ef63a9f67042edd49d8e4dbab6
+    log: revlist-6416525dd3f9-389bafa877e2.txt
 
---===============7578840522370258898==
+--===============2574692376549239141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-610a9b8f49fb-ac865f00af29.txt
+Content-Disposition: attachment; filename=revlist-6416525dd3f9-389bafa877e2.txt
 
-fa014953f9409edd32b04cb5c0f4167b8a537e65 bcachefs: Fix extents iteration + snapshots interaction
-f2eb8434e4fec891ae842183b9193ae759ee6d78 bcachefs: fix invalid free in dio write path
-f87bf892ea9848696ddfd184964d303202dd19dd bcachefs: fix setting version_upgrade_complete
-73ab9e03861c22ec6723b7b110d62ba60f37c164 bcachefs: Factor out darray resize slowpath
-a58a6a58f5ad55aa1f5c54598c44f1d9938c1793 bcachefs: Switch darray to kvmalloc()
-099dc5c29dff52c0c37abcaa6cc747a1ac8df5fe bcachefs: DARRAY_PREALLOCATED()
-d9534cc9fc455214e857bc1d32f44d5a229dc602 bcachefs: fix buffer overflow in nocow write path
-6b49b0f7e73817265f80c565037ac812df6f1ae3 bcachefs: move BCH_SB_ERRS() to sb-errors_types.h
-560661d4ae067276c14bf0dc89fdd0228f993150 bcachefs: prt_bitflags_vector()
-808c680f2a256188951805f05c907d40919db37a bcachefs: Add persistent identifiers for recovery passes
-8b16413cda7c46d47f8071165b3071f8a9369199 bcachefs: bch_sb.recovery_passes_required
-84f1638795da1ff2084597de4251e9054f1ad728 bcachefs: bch_sb_field_downgrade
-0d72ab35a925d66b044cb62b709e53141c3f0143 bcachefs: make RO snapshots actually RO
-01638431c465741e071ab34acf3bef3c2570f878 efi/x86: Fix the missing KASLR_FLAG bit in boot_params->hdr.loadflags
-ad579864637af46447208254719943179b69d41a tracefs: Check for dentry->d_inode exists in set_gid()
-fd56cd5f6d76e93356d9520cf9dabffe1e3d1aa0 eventfs: Fix bitwise fields for "is_events"
-f93e71aea6c60ebff8adbd8941e678302d377869 Revert "PCI/ASPM: Remove pcie_aspm_pm_state_change()"
-0ee2030af4e3e0a9cd26dfaa8c2f935beffa91d1 MAINTAINERS: Orphan Cadence PCIe IP
-981d04137a4b5ea95133572bdb3d888c9b515850 Merge tag 'bcachefs-2024-01-01' of https://evilpiepirate.org/git/bcachefs
-360f0342b2e9374298e2222c846f3fe9d0295f0d Merge tag 'trace-v6.7-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-94a502eb59775e13c9089de38c601f9f85b25750 Merge tag 'efi-urgent-for-v6.7-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-8026e40608b4d552216d2a818ca7080a4264bb44 apparmor: Fix move_mount mediation by detecting if source is detached
-d7807d8544e56af9b5523f15eddac09ec0291b4e Merge tag 'apparmor-pr-2024-01-03' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
-ac865f00af293d081356bec56eea90815094a60e Merge tag 'pci-v6.7-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+00d50001444ef5c75c8ab476a6674708f3ff613b ice: Schedule service task in IRQ top half
+82e71b226e0ef770d7bc143701c8b4960b4eb3d5 ice: Enable SW interrupt from FW for LL TS
+aa4967d8529c8daea85303bcb546fc1b70c4d6ba ice: Add support for packet mirroring using hardware in switchdev mode
+2a2cb4c6c18130e9f14d2e39deb75590744d98ef ice: replace ice_vf_recreate_vsi() with ice_vf_reconfig_vsi()
+f9f9de23dc88670564a8e2448750d88398ea3555 ice: remove rx_len_errors statistic
+b8ab8858190a1bba5f4b35ca37b1e4d7577b3a75 ice: ice_base.c: Add const modifier to params and vars
+3027e7b15b02d2d37e3f82d6b8404f6d37e3b8cf ice: Fix some null pointer dereference issues in ice_ptp.c
+738808ae82d908e5ef4bd025999d44510c0710a7 ixgbe: report link state for VF devices
+6c1b4af8c1b20c70dde01e58381685d6a4a1d2c8 ixgbe: Refactor overtemp event handling
+5795f533f30a80aa0473652876296ebc9129e33a ixgbe: Refactor returning internal error codes
+31deb12e85c35ddd2c037f0107d05d8674cab2c0 i40e: Fix VF disable behavior to block all traffic
+55f96e8bbea09afbd0ce95cc281ec2597ddafb81 i40e: Avoid unnecessary use of comma operator
+73b2e2e3fe26f97010444e29536b3e815bbc57da net: mdio: mux-bcm-iproc: Use alignment helpers and SZ_4K
+5fe65375e3d45b9db11783eea067dfe404752d2f net: mvpp2: initialize port fwnode pointer
+b4c1d4d9734cda4394da5b59ebf7d9ca3579561a fib: remove unnecessary input parameters in fib_default_rule_add
+05d92cb0e919239c29b3a26da1f76f1e18fed7d3 selftests/net: change shebang to bash to support "source"
+4ebb1f95e0c3c3e0eec5bb21aa43097580c4b6e4 octeontx2-af: Fix max NPC MCAM entry check while validating ref_entry
+d000574d02870710c62751148cbfe22993222b98 net: ena: Move XDP code to its new files
+39a044f4dcfee1c776603a6589b6fb98a9e222f2 net: ena: Pass ena_adapter instead of net_device to ena_xmit_common()
+009b387659d3c739863b61a9f142e731f5723153 net: ena: Put orthogonal fields in ena_tx_buffer in a union
+23ec97498026f57793be1f76c4e78b494911db1a net: ena: Introduce total_tx_size field in ena_tx_buffer struct
+911a8c960110b03ed519ce43ea6c9990a0ee0ceb net: ena: Use tx_ring instead of xdp_ring for XDP channel TX
+436c793585951464e2b679c440083daa19f6fb02 net: ena: Don't check if XDP program is loaded in ena_xdp_execute()
+b626fd9627d40fd291289dba9b53cd5cdbb17362 net: ena: Refactor napi functions
+2b02e332c1519572f454838400640f9a4d482de5 net: ena: Add more debug prints to XDP related function
+ea5c460023aad8d97e206e57ca4ce9d1b733c430 net: ena: Always register RX queue info
+4f28e789be761a57176904c01959cc9d439bd17a net: ena: Make queue stats code cleaner by removing the if block
+782345d248749c461bfb648fb4de855a2bc3e496 net: ena: Take xdp packets stats into account in ena_get_stats64()
+09f9d7a87c70beb47e1dca10ee6ac6685da73aac Merge branch 'ena-driver-xdp-changes'
+a562a0272ccec75191001fb138956fd1bf2c5f93 Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+d3d344a1ca69d8fb2413e29e6400f3ad58a05c06 net-device: move xdp_prog to net_device_read_rx
+c2a67de9bb543394aee869d1c68b5fbcd8a89dcb net/sched: introduce ACT_P_BOUND return code
+530496985ceae54b78c301baf7819eac0012d0f8 net/sched: sch_api: conditional netlink notifications
+06d9b446c4d445f0facb4b87cbbaeacd28c5a747 vsock/virtio: use skb_frag_*() helpers
+b15a4cfe100b9acd097d3ae7052448bd1cdc2a3b net: kcm: fix direct access to bv_len
+a562c0a2d651e040681b0bfce9b4d229ac3b0b8c sctp: fix busy polling
+5403d39b4b999b15b2dc9abe4df25aeb77c02539 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/nex t-queue
+e8e138cf7383cf820419fcbec63992e75a01467b net: libwx: add phylink to libwx
+4491c602fe5f3a248cc8a2ed4180aacdc2162365 net: txgbe: use phylink bits added in libwx
+bc2426d74aa35cd8ec9c97a253ef57c2c5cd730c net: ngbe: convert phylib to phylink
+2fe2ca09da953bac778eab5dfb309b4e7d274b1a net: wangxun: add flow control support
+883b5984a5d2900468af5ab979cae90547a78da4 net: wangxun: add ethtool_ops for ring parameters
+4ac2d9dff4b01fb210f951dcb67badcc2a1aa427 net: wangxun: add coalesce options support
+937d46ecc5f941b26270bdf7ce37495f12b25955 net: wangxun: add ethtool_ops for channel number
+b746dc6bdde5a9a03309f208733a08665d4a0cb4 net: wangxun: add ethtool_ops for msglevel
+168882d440feaa8d159665d5f4daf5a89f89483f Merge branch 'net-wangxun-more-ethtool'
+0f2b21477988634ba7d813539f034d595f9501d7 bnxt_en: Fix compile error without CONFIG_RFS_ACCEL
+3b73a7b8ec3821928cfaf399da7876bc39a5cf78 net: mdio_bus: add refcounting for fwnodes to mdiobus
+5e5401d6612ef599ad45785b941eebda7effc90f net: phylink: move phylink_pcs_neg_mode() into phylink.c
+c2745b40b6b69eb2f1263d3aa42d7f11eaf167d3 i40e: Fix waiting for queues of all VSIs to be disabled
+6e5176809e56172f841bf4fa89ac8ba53a0d30f5 i40e: Fix wrong mask used during DCB config
+d776d2e2d19a441e80ea640736e262f33ab2aa22 i40e: Use existing helper to find flow director VSI
+d39f61a3217aac47f21ef2c31025110e3d8eb3b6 i40e: Introduce and use macros for iterating VSIs and VEBs
+6ec5adab173bc046fcfa9214f4841367bcb12700 i40e: Add helpers to find VSI and VEB by SEID and use them
+f5543e84ec050134c4a56b67388d1e36f764d7ff i40e: Fix broken support for floating VEBs
+06549bd5a207861c88f539b5c072a423d23ce340 i40e: Remove VEB recursion
+479dd47bac8fd2582677a9f781ce2e6dd9061b06 i40e: Fix filter input checks to prevent config with invalid values
+1fd819d66ff3f468c22b88b2519e00fb6d7372fb igc: Report VLAN EtherType matching back to user
+77923c28a0252b0ed1c9941d5a47412d6b4f0db2 igc: Check VLAN TCI mask
+da8293df97aff7f0971a3ccfc257c825a203ebbd igc: Check VLAN EtherType mask
+b4669d2abe8772f788efe0315e8e9db54860eca3 ice: introduce new E825C devices family
+8caa3936a6eaf7b99753c1e27b598adb3f20142d ice: Add helper function ice_is_generic_mac
+5cab9441aafac6fb8d6c110bd595f2e4175876b3 ice: add support for 3k signing DDP sections for E825C
+de304e6e5d52bc588bf23daf6a5b4b0bd7c8386b igc: Fix hicredit calculation
+e18157b86940f01e059020311022a6a4fc3f6281 idpf: fix corrupted frames and skb leaks in singleq mode
+ce94eb98daa952f08bd047aec2ee30f317263e78 ice: Add support for devlink loopback param.
+22e9cc4da48491944051e9a4cc31484386367cf4 e1000e: correct maximum frequency adjustment values
+9c9e676bf7d3d340f478c5fba44fb63bd3d95c81 ice: Fix link_down_on_close message
+25af59d04d9bdb548c6cc72b3b48054c015518d6 ice: Shut down VSI with "link-down-on-close" enabled
+9f5e8d804a1ef7d51c3d29b1cee87600d14bc685 idpf: avoid compiler introduced padding in virtchnl2_rss_key struct
+9822b4d5bbfcf0b40eda39397a6ca1f22cdfabaf i40e: fix use-after-free in i40e_aqc_add_filters()
+50ea9b24c09bf5ac5cf7fd3a7c78d78a7acf0059 ice: dpll: fix phase offset value
+c9ffd01c9e78a93060060ebd7e8099fb30a228f6 i40e: Restore VF MSI-X state during PCI reset
+4c847d8296711c3be6af3c41de6299877098f4a0 ice: fix Get link status data length
+389bafa877e2c2ef63a9f67042edd49d8e4dbab6 e1000e: remove force SMBUS from ULP enable flow to avoid PHY loss issue
 
---===============7578840522370258898==--
+--===============2574692376549239141==--
