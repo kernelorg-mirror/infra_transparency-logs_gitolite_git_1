@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 04 Jan 2024 18:19:55 -0000
-Message-Id: <170439239538.7567.15875336206814937029@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 04 Jan 2024 18:26:56 -0000
+Message-Id: <170439281674.13179.6668487255192735919@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: c040e902b07e946ff73e81d4abb4347d2c0b6044
-    new: 9ddf872b47e3ac8f27dbfc4a4737a976c7588de6
+  - ref: refs/heads/exportfs-next
+    old: a46a66557a16e37cd1dde797b7d025a9f9c3e37d
+    new: 035eea4b614d82bcce68763f6f1b118d3de9f6b1
     log: |
-         9ddf872b47e3ac8f27dbfc4a4737a976c7588de6 bpf: Remove unnecessary cpu == 0 check in memalloc
+         035eea4b614d82bcce68763f6f1b118d3de9f6b1 fs: Create a generic is_dot_dotdot() utility
          
