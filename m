@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1171322268104126554=="
+Content-Type: multipart/mixed; boundary="===============0049553427866001543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 04 Jan 2024 15:35:25 -0000
-Message-Id: <170438252520.17693.4092252639137749485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 04 Jan 2024 15:36:29 -0000
+Message-Id: <170438258931.18163.5329858244745089652@gitolite.kernel.org>
 
---===============1171322268104126554==
+--===============0049553427866001543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 79c58ab241bea76c197d09091eb85b753d5d4416
-    new: 5962ded777d689cd8bf04454273e32228d7fb71f
+  - ref: refs/heads/char-misc-testing
+    old: 2e9bf5cc912365d20e3255a0779f5516157b923e
+    new: 54ffdab820801372f3632bb86613407df34b921b
     log: |
-         5962ded777d689cd8bf04454273e32228d7fb71f usb: typec: class: fix typec_altmode_put_partner to put plugs
+         54ffdab820801372f3632bb86613407df34b921b android: binder: binderfs.c: removed asm-generic/errno-base.h
          
 
---===============1171322268104126554==
+--===============0049553427866001543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704382522 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1704382522-95f778987b071857ec0f9948c3a4beaf25774477
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704382586 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1704382586-0e7f9c53dad55fb7a3003b195f4646cff444db1a
 
-79c58ab241bea76c197d09091eb85b753d5d4416 5962ded777d689cd8bf04454273e32228d7fb71f refs/heads/usb-testing
+2e9bf5cc912365d20e3255a0779f5516157b923e 54ffdab820801372f3632bb86613407df34b921b refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWW0DobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0e8P/ixOB9UIHJ/hQrW8t56g
-d6Ke7JTm28oa54Ib8LMoNUJZXPVbkiuPsCxp1PTUZyXT6hb8352zvOZaknuN684Q
-673XVyo8UJyrTFsWmamlKR/sPEXa1EKmyXFldMe7ZhUbYT1PTVK7Zl5i1+oZnJCn
-nDwvk+e2NPrawAfidJnaX1el2ufTWdm66D5qPOKC9+OlEXrkqaHqlHeh84ZYjtd0
-0ihzzYNDsP4WK/AJD4PV2n/pL5S64HO1eAugxBCPXoKKAwlfvwy5mASQqX7Y4NL+
-KtcBZc2WyAkp7iy8Ydp7SNo/WmbWNCl96HN4EYP5qLmgh3ZNnHJdQ+aUu/9P4p3o
-QFhcK5k2FBO+Sc+qUSbUCphZn6iVQ6sL8moLcxYEQsf/y6DpilHH+EdPBywBAnmD
-I606OgWn6WsaWrHUxEWFD4JtDEIYhLFyvBBgcmQphxDxuBkuvtfsJbLwuK6uPkpT
-mHufnl7hslCO+pdtpsPIXNN4eIuutBgehf+Vr/jlfpMrEF9fvKIDwSNKdHc/OOJi
-hgnEdGUs2yoqEZNUiFzWZAG+r+47/Izea2K45kuR+cntf7Uj5iAqM1w6/6KfeCvc
-OPO+bkrS+DRi2/wDHYG/POKlq7SFhiP8/y3R3O042SEx6fLqCpZXsjb2SkURfnXv
-OOQpldoLJJK9h6T9T1OG609u
-=1Asa
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWW0HobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TCEP/j6SqDUPqvNVx4+U0Zfs
+kmUVGyeW0Uj7c/WEFbQ+DA18xWfCOIhHWXfNO5bZqXTnCCf7Ff+u9x9he9+JHBTP
+0Alp8naFTXzIY7CjRY+VVMePGnIhlKml9mF70KCSlFGP2V8vTijLCG1Qt5G+DF/Z
+iqJFTUtGTl0cLc502gmrUgTCfiG/vaK7Re+KwgKv6hkUBUzLb/dSzkKsEWuZVs3m
+U73H7ORfYQM8cZw83cosCCga7ILfi0jPnSYWuM4m5Scq8W1bSfR6F7xuIVjvXhXx
+VhpH1Zu0Asr1G9MNzewsOZMBQdhXGa7EjRqfNTYIRJzDn6o0t2v556V8VDYWvnbj
+nA4/nFtl9PPeN5/k4Zh7PAv08ClQrNm8bHAbjh2j55LLkhnAhovfXJoFhOzhJR1w
+TpOQo6m+eeW9it7xEO50lbOtgp1CMuHxPPKnIevpYxvAYRWE1D1Jys7qR2YDFe/0
+Rt4tXDbPBs9F1PRuSdquDPbQSiTcc4GKUCnCpkTpWeTxsC9605d4DRf/EkMvCZjW
+X+3xhq79QyykrONDqmQbNJMt6l8HichI9ywjfs3AiBnv3loK7+wmUV1+Mqmx2Im9
+2KnbE2M9C2oUqSiWvWTwHlQK/EQj4lMua9z8x+VRFXHaBtM/dHbAHppofYM8R2vA
+yvPSnVPZm8gfDG8n4rYCiYB+
+=KaCg
 -----END PGP SIGNATURE-----
 
---===============1171322268104126554==--
+--===============0049553427866001543==--
