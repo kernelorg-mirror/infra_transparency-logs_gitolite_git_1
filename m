@@ -1,62 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1420963507921640005=="
+Content-Type: multipart/mixed; boundary="===============8017998041219261601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 04 Jan 2024 13:35:14 -0000
-Message-Id: <170437531466.26744.17647496799619966221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 04 Jan 2024 13:36:20 -0000
+Message-Id: <170437538044.27200.5171061544661413596@gitolite.kernel.org>
 
---===============1420963507921640005==
+--===============8017998041219261601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 9ebffbe2ad12b030b282796fed5117a182588c51
-    new: 0a46c21c21c1f1c9a65e29eaae243d0f240bbd6b
+  - ref: refs/heads/driver-core-testing
+    old: f36be9ce8146faabdbbf74ee0499edb2039c53a5
+    new: db2292b01b799e926abfdbd6fafa1f27f0d0e457
     log: |
-         fbfb131ef81ff0cb568196801de1a1fb46cfd592 staging: vme_user: print more detailed infomation when an error occurs
-         d65a2fc00fc046117875507961e610fdc9001100 Staging: rtl8192e: Rename variable bUsed
-         a24e0197f343cc55024c9edd68c072d0363466b6 Staging: rtl8192e: Rename variable NumTxOkInPeriod
-         5fa882a8ad81b08d2366f6ebe82fcd50a4a582cf Staging: rtl8192e: Rename variable NumRxOkInPeriod
-         2d1f383244ed271efd019236b78523c403d19818 Staging: rtl8192e: Rename function rtllib_EnableNetMonitorMode()
-         9cbaf63c14002dfc01145475b93474aa72d641ba Staging: rtl8192e: Rename variable bIsAggregateFrame
-         0a46c21c21c1f1c9a65e29eaae243d0f240bbd6b Staging: rtl8192e: Rename variable OpMode
+         db2292b01b799e926abfdbd6fafa1f27f0d0e457 PM: clk: make pm_clk_add_notifier() take a const pointer
          
 
---===============1420963507921640005==
+--===============8017998041219261601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704375311 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1704375311-a820c0762e4bf64cecf66be1018f86d1856359e7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704375377 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1704375376-bd4471faeb20bd971e7efdbfb1eac3206ba2a32d
 
-9ebffbe2ad12b030b282796fed5117a182588c51 0a46c21c21c1f1c9a65e29eaae243d0f240bbd6b refs/heads/staging-testing
+f36be9ce8146faabdbbf74ee0499edb2039c53a5 db2292b01b799e926abfdbd6fafa1f27f0d0e457 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWWtA8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C+cQAIfw/VmE4Lkrf0Iug3MO
-uX4QRayQ64jImpyzJQAIHmF/9Ot+mg42++J5ACLw3Ads+RcfmJP/4DzVb/dHVXJl
-gcCe0HvGsmkNgfMn7MACWuQl2mR3abSvn+GP+ufUu5D7lkfpLYcVNyFjrln7g6Kf
-YAKNfrUsu0d7snkwWdIefqffLBj5ujrI1Y8n3qGCcki3j+jTo1PgwVmHu3hmoRQ7
-bK0U5n9C+HQhq+RFduUb9FzbWANDophwjYb3zAwIx+QRi60xPHMKgmwBDzRaLc1K
-gYQjMWgC2juNIBIRoKw8y7+xEEMWdg1dSihPU70Xa9olf1Xf9mHSLLIhC5oGZpIP
-Jx7mWyVq4xU9y2q3mHe8hvnnkkxYUnVDvx3P1P9Kzzb3b3+M6LkyeOy2078frhEO
-FQw817aDmWnffw4a3YdDjYT02O3KgYCC2f1WVP613dj/AV7IRUaIZGppabVGFhA/
-n5EfwjjWBuSddbEK65GGDVc4wEUF9VyzmV5SsFbtwMw3nQQC7LMqolI+SK/pIGZS
-qKtc8yPRzghqTwNIvL6bnnmglN42WATdXgH+t8E+0YbiGcTEtv3wbYAiy+RkCQ6b
-UljeK8x1YXqA8gtYXEAWivAXAFFu0yPwJ6pTvMosOVf5bu7FUIK9u8h4rIEIpsvp
-5CNE/Ep/e93CjbHh0i0I3wIg
-=3teo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWWtFEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2yAQAIXNY3skjGf+pdKx31cb
+xEE7XAvPi/c0uZK+o6fzjC6oOcidt8ZidlZSvz/56tOMB1IWzkUxQ8MnmjHKt5Hi
+PlLJq16kZRMj1eDNltYiQDLV9MbesilPKC2Tv0cC7Tfk/d/sQH0ypPIpZR/zCTF0
+0EdHjfTEQOUxGYSrc555VzutOR1oMVR1/m3wnBmTux02UIp9XpxVSOBVGLtoazuD
+EiOP/Kazyunj5vyGsbDAnfBK6zKj6UAvxWmLeHSEHZHVlVv6z1zMILMC8C2tXrCZ
+fq3D144RlmEkzQ7kE94LILf1bD1tkRdRF2etzaYanWcNS0ANOBLEofCLUOfqm4BJ
+W5t97q/9v9IRnGeo6xVt4FQbzRdwL00BMUz6siM49dC1pWHabl7uI3EFD60gq48F
+lEYDezxwTerso8RrSFuGCAn7K2w01KNtYIhHZY3dlB2X/nOXpChHxtiR0DoOqoHS
+Vt+y1TktK/nLM58tiFWUMGCtLts0Tgmd89XmRoir6EfioKZ8Lf/UD4unANQvru2L
+20tK65XPX6eXVdltmy+kzKbfBArKPLnuE485FQJFe1Wm6PfsZO8V2/wJI+jTjab6
+vPKS9pjB9ltNrNEGwAQFQdXGM0tQnu6JtHMKGnEMOz462KoLm4cbQ/QGgYgOOlWD
+tm/RAV3VnuCqpTBubRUj47JR
+=QglL
 -----END PGP SIGNATURE-----
 
---===============1420963507921640005==--
+--===============8017998041219261601==--
