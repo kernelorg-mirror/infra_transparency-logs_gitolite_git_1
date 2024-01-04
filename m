@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 04 Jan 2024 10:40:30 -0000
-Message-Id: <170436483073.30735.13621723976882656125@gitolite.kernel.org>
+Date: Thu, 04 Jan 2024 10:50:00 -0000
+Message-Id: <170436540060.3408.16286692112908918574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,16 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: a562c0a2d651e040681b0bfce9b4d229ac3b0b8c
-    new: 5403d39b4b999b15b2dc9abe4df25aeb77c02539
+    old: 5403d39b4b999b15b2dc9abe4df25aeb77c02539
+    new: 168882d440feaa8d159665d5f4daf5a89f89483f
     log: |
-         00d50001444ef5c75c8ab476a6674708f3ff613b ice: Schedule service task in IRQ top half
-         82e71b226e0ef770d7bc143701c8b4960b4eb3d5 ice: Enable SW interrupt from FW for LL TS
-         aa4967d8529c8daea85303bcb546fc1b70c4d6ba ice: Add support for packet mirroring using hardware in switchdev mode
-         2a2cb4c6c18130e9f14d2e39deb75590744d98ef ice: replace ice_vf_recreate_vsi() with ice_vf_reconfig_vsi()
-         f9f9de23dc88670564a8e2448750d88398ea3555 ice: remove rx_len_errors statistic
-         b8ab8858190a1bba5f4b35ca37b1e4d7577b3a75 ice: ice_base.c: Add const modifier to params and vars
-         3027e7b15b02d2d37e3f82d6b8404f6d37e3b8cf ice: Fix some null pointer dereference issues in ice_ptp.c
-         5403d39b4b999b15b2dc9abe4df25aeb77c02539 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/nex t-queue
+         e8e138cf7383cf820419fcbec63992e75a01467b net: libwx: add phylink to libwx
+         4491c602fe5f3a248cc8a2ed4180aacdc2162365 net: txgbe: use phylink bits added in libwx
+         bc2426d74aa35cd8ec9c97a253ef57c2c5cd730c net: ngbe: convert phylib to phylink
+         2fe2ca09da953bac778eab5dfb309b4e7d274b1a net: wangxun: add flow control support
+         883b5984a5d2900468af5ab979cae90547a78da4 net: wangxun: add ethtool_ops for ring parameters
+         4ac2d9dff4b01fb210f951dcb67badcc2a1aa427 net: wangxun: add coalesce options support
+         937d46ecc5f941b26270bdf7ce37495f12b25955 net: wangxun: add ethtool_ops for channel number
+         b746dc6bdde5a9a03309f208733a08665d4a0cb4 net: wangxun: add ethtool_ops for msglevel
+         168882d440feaa8d159665d5f4daf5a89f89483f Merge branch 'net-wangxun-more-ethtool'
          
