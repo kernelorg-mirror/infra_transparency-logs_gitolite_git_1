@@ -1,66 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============0086066799882861490=="
+Content-Type: multipart/mixed; boundary="===============2026515707963580194=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Thu, 04 Jan 2024 13:17:02 -0000
-Message-Id: <170437422236.13352.5335824305419614538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 04 Jan 2024 13:24:49 -0000
+Message-Id: <170437468944.17644.5830629820553569413@gitolite.kernel.org>
 
---===============0086066799882861490==
+--===============2026515707963580194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/netfs-lib
-    old: e048f3e158c7e86a32fb6fb4633638b228648877
-    new: 43833f2ba5ce1543148a1b7cdd2513f5a663a17c
-    log: |
-         6c2c1e0009e97381a032d8c84747a46082fd327c 9p: Do a couple of cleanups
-         252cf7b2eaf7cb904580ffbb0126d23411bcb43d 9p: Use length of data written to the server in preference to error
-         040a82be54c09a72162a3db2f5cd2ba289c0f224 netfs: Rearrange netfs_io_subrequest to put request pointer first
-         43833f2ba5ce1543148a1b7cdd2513f5a663a17c netfs: Fix proc/fs/fscache symlink to point to "netfs" not "../netfs"
-         
-  - ref: refs/remotes/linus/master
-    old: 610a9b8f49fbcf1100716370d3b5f6f884a2835a
-    new: ac865f00af293d081356bec56eea90815094a60e
-    log: revlist-610a9b8f49fb-ac865f00af29.txt
-  - ref: refs/tags/netfs-lib-20240104
+  - ref: refs/tags/v6.7-rc6
     old: 0000000000000000000000000000000000000000
-    new: e2fd7769c03a2d02f970aac530ebda357dd8b8c0
+    new: d8f30cf5e09a30e9a978b7df0aa5029afff0e1c1
+  - ref: refs/tags/v6.7-rc7
+    old: 0000000000000000000000000000000000000000
+    new: adab409b5eb1c5905c260f74c75725db3da46e38
+  - ref: refs/tags/v6.7-rc8
+    old: 0000000000000000000000000000000000000000
+    new: ff16c06a1757247b456096cbffeedf4ef5621ba4
 
---===============0086066799882861490==
+--===============2026515707963580194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-610a9b8f49fb-ac865f00af29.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-fa014953f9409edd32b04cb5c0f4167b8a537e65 bcachefs: Fix extents iteration + snapshots interaction
-f2eb8434e4fec891ae842183b9193ae759ee6d78 bcachefs: fix invalid free in dio write path
-f87bf892ea9848696ddfd184964d303202dd19dd bcachefs: fix setting version_upgrade_complete
-73ab9e03861c22ec6723b7b110d62ba60f37c164 bcachefs: Factor out darray resize slowpath
-a58a6a58f5ad55aa1f5c54598c44f1d9938c1793 bcachefs: Switch darray to kvmalloc()
-099dc5c29dff52c0c37abcaa6cc747a1ac8df5fe bcachefs: DARRAY_PREALLOCATED()
-d9534cc9fc455214e857bc1d32f44d5a229dc602 bcachefs: fix buffer overflow in nocow write path
-6b49b0f7e73817265f80c565037ac812df6f1ae3 bcachefs: move BCH_SB_ERRS() to sb-errors_types.h
-560661d4ae067276c14bf0dc89fdd0228f993150 bcachefs: prt_bitflags_vector()
-808c680f2a256188951805f05c907d40919db37a bcachefs: Add persistent identifiers for recovery passes
-8b16413cda7c46d47f8071165b3071f8a9369199 bcachefs: bch_sb.recovery_passes_required
-84f1638795da1ff2084597de4251e9054f1ad728 bcachefs: bch_sb_field_downgrade
-0d72ab35a925d66b044cb62b709e53141c3f0143 bcachefs: make RO snapshots actually RO
-01638431c465741e071ab34acf3bef3c2570f878 efi/x86: Fix the missing KASLR_FLAG bit in boot_params->hdr.loadflags
-ad579864637af46447208254719943179b69d41a tracefs: Check for dentry->d_inode exists in set_gid()
-fd56cd5f6d76e93356d9520cf9dabffe1e3d1aa0 eventfs: Fix bitwise fields for "is_events"
-f93e71aea6c60ebff8adbd8941e678302d377869 Revert "PCI/ASPM: Remove pcie_aspm_pm_state_change()"
-0ee2030af4e3e0a9cd26dfaa8c2f935beffa91d1 MAINTAINERS: Orphan Cadence PCIe IP
-981d04137a4b5ea95133572bdb3d888c9b515850 Merge tag 'bcachefs-2024-01-01' of https://evilpiepirate.org/git/bcachefs
-360f0342b2e9374298e2222c846f3fe9d0295f0d Merge tag 'trace-v6.7-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-94a502eb59775e13c9089de38c601f9f85b25750 Merge tag 'efi-urgent-for-v6.7-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-8026e40608b4d552216d2a818ca7080a4264bb44 apparmor: Fix move_mount mediation by detecting if source is detached
-d7807d8544e56af9b5523f15eddac09ec0291b4e Merge tag 'apparmor-pr-2024-01-03' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
-ac865f00af293d081356bec56eea90815094a60e Merge tag 'pci-v6.7-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704374686 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1704374686-bbb421dc045a70264719a20a398f40dda6e97e76
 
---===============0086066799882861490==--
+0000000000000000000000000000000000000000 d8f30cf5e09a30e9a978b7df0aa5029afff0e1c1 refs/tags/v6.7-rc6
+0000000000000000000000000000000000000000 adab409b5eb1c5905c260f74c75725db3da46e38 refs/tags/v6.7-rc7
+0000000000000000000000000000000000000000 ff16c06a1757247b456096cbffeedf4ef5621ba4 refs/tags/v6.7-rc8
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWWsZ4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7rMQAMdN6sw9v8nkFCj8jsAS
+4jJSWoH+E3r+BqkhNRCbjJgs+u6rDVBsGj/sEOrAk+KttLNjKhB8YIAJVYkqWhol
+R/f+NBNk4/G8lHqCFEMjiQHrMx3b7CBsbDzPWvUzOgz1nXrDPYXejuZoYYo/waD2
+9rqaAv76Vi+TORkemm1+e/8ymeviYuPt3SIpObG43n9bYzgHfJeas3ZPaxCUfuf1
+/yzH2IYUaEoJ2elLTxGxRLrqkchoJkKJNGJmhGY65M/epBYZvjY+MNthTCfVLLVN
++3by08FLastDc7vDdbQ93z0sRnZj5sgjOGvUc/5EU7nkbJc/LfoXDCGhMyWUM0DK
+6Cwn2ns9cjWYSDWj2YrkShL5+qMvz71oyyBpW/CNOP6+klSjTVuafUC0ti5VeY0H
+w2T/1v4i9mhaapnXSUxO5LcL1lAYtedWE1Oaa1AdEi6NHMR3Uh6XNzAjD7eYzNGk
+RQ8y8nkAFWw/dZLhKo6FP0udyTtOKrVt7KA4HWB0hLeWDcNkhJuaggt6NC7myEpJ
+zYYpahJkJJgBMaCd/g9rB+4yQoxQwCmc0IZlFuUrhv2KmP3WCO4/XlkZv2RAYxRG
+QxQ7Uw4DCzcHiDPp8KQxMQPCs9/tj1vQFmhPobEH+txurUxS1sDGdAhxYVJUVolf
+NHtFQnNdzhyOQy0+Ama4J2Wo
+=QbyN
+-----END PGP SIGNATURE-----
+
+--===============2026515707963580194==--
