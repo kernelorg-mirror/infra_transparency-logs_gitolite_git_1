@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7793635376607679821=="
+Content-Type: multipart/mixed; boundary="===============4504250552910565813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 04 Jan 2024 05:14:02 -0000
-Message-Id: <170434524215.9016.10276132865950317134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 04 Jan 2024 05:14:12 -0000
+Message-Id: <170434525250.9154.11652930526577485116@gitolite.kernel.org>
 
---===============7793635376607679821==
+--===============4504250552910565813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 0fef202ac2f8e6d9ad21aead648278f1226b9053
     new: d0b3c8aa5e37775cd7c3ac07b256218df0fd6678
     log: revlist-0fef202ac2f8-d0b3c8aa5e37.txt
-  - ref: refs/tags/next-20231004
-    old: a6269cd78a2a4fb959951f11f40a39ab31c0f619
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240104
     old: 0000000000000000000000000000000000000000
     new: 0da2c134f0804a3f6bbd230cc3931d13d207316f
 
---===============7793635376607679821==
+--===============4504250552910565813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -482,4 +479,4 @@ a830e5d2415b2eab56c461b8adfa57391141635e Merge branch 'for-next' of git://git.ke
 b541628cc1d1317dfa63ee87aaa8861650fcc344 Merge branch 'header_cleanup' of https://evilpiepirate.org/git/bcachefs.git
 d0b3c8aa5e37775cd7c3ac07b256218df0fd6678 Add linux-next specific files for 20240104
 
---===============7793635376607679821==--
+--===============4504250552910565813==--
