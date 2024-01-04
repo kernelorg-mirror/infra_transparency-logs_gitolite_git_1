@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 04 Jan 2024 16:18:15 -0000
-Message-Id: <170438509593.16733.4027232437142225540@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4736144405221624780=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 04 Jan 2024 16:19:51 -0000
+Message-Id: <170438519186.17367.16949073069470002959@gitolite.kernel.org>
+
+--===============4736144405221624780==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev
-    old: da1203388f64bddf9e4d3bfdd2f60c936bc152d2
-    new: 44ba0c05b2f4bb8c5203502c66c9ea1077ee8b9c
+  - ref: refs/heads/fixes
+    old: 70681aa0746ae61d7668b9f651221fad5e30c71e
+    new: b20712e853305cbd04673f02b7e52ba5b12c11a9
     log: |
-         7e9794bb7017593da427f555e4e23da2d42744e5 rcutorture: Suppress rtort_pipe_count warnings until after stalls
-         fac87fb436966ceb7093a17bf78430f0c01b86ee clocksource: Skip watchdog check for large watchdog intervals
-         44ba0c05b2f4bb8c5203502c66c9ea1077ee8b9c EXP KVM: x86/pmu: fix masking logic for MSR_CORE_PERF_GLOBAL_CTRL
+         b20712e853305cbd04673f02b7e52ba5b12c11a9 Revert "platform/x86: p2sb: Allow p2sb_bar() calls during PCI device probe"
          
+
+--===============4736144405221624780==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1704385187 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1704385187-fa0ba0b7b9e67492ab206205b39496bfed72894a
+
+70681aa0746ae61d7668b9f651221fad5e30c71e b20712e853305cbd04673f02b7e52ba5b12c11a9 refs/heads/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZZbapQAKCRBZrE9hU+XO
+McBfAQCYahoXQsIPK0xhVM1aFSzPP/4a1Afoc3MbRV20JIHpwwEAnI2FpRK1HfHU
+AGmce08im4SV857ZkEa8qFlC3ALdjQw=
+=1DGV
+-----END PGP SIGNATURE-----
+
+--===============4736144405221624780==--
