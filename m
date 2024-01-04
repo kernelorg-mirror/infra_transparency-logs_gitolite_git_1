@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 04 Jan 2024 01:17:22 -0000
-Message-Id: <170433104283.32674.17901162148234048310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 04 Jan 2024 01:48:25 -0000
+Message-Id: <170433290567.21890.1005078871785418004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: 0fa4f912eed7055f988e20b4b5fc6e755f78c8af
-    new: b77c1e3b9fb1f40be11c542d914054606e082592
+  - ref: refs/heads/master
+    old: c5f231b1f642eee5a961fe905345d5332e15ee83
+    new: e4e2a627da3dd8ad850ab977c6e54ae9b73b2f57
     log: |
-         088464abd48cf3735aee91f9e211b32da9d81117 igc: Report VLAN EtherType matching back to user
-         b5063cbe148b829e8eb97672c2cbccc058835476 igc: Check VLAN TCI mask
-         7afd49a38e73afd57ff62c8d1cf5af760c4d49c0 igc: Check VLAN EtherType mask
-         b77c1e3b9fb1f40be11c542d914054606e082592 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+         844f526047b3351cd23270606d21b514ddb43b03 foo
+         e4e2a627da3dd8ad850ab977c6e54ae9b73b2f57 foo
          
