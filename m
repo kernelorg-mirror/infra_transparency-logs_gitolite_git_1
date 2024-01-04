@@ -1,58 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============0059538895318844597=="
+Content-Type: multipart/mixed; boundary="===============1158647827291182804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 04 Jan 2024 13:39:33 -0000
-Message-Id: <170437557399.29803.7412067446668208920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 04 Jan 2024 13:46:42 -0000
+Message-Id: <170437600248.3184.13997578636922874063@gitolite.kernel.org>
 
---===============0059538895318844597==
+--===============1158647827291182804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: e76933a9bfa9b7f28a387f2e13cb3e689adc200d
-    new: 3faea80bd9ff02b655cb0c80a1c0bdca44c0f94d
-    log: |
-         86438841e48f6361f0a6a04805b7d7813738761f dma-debug: make dma_debug_add_bus take a const pointer
-         2e9bf5cc912365d20e3255a0779f5516157b923e locomo: make locomo_bus_type constant and static
-         3faea80bd9ff02b655cb0c80a1c0bdca44c0f94d nubus: make nubus_bus_type static and constant
-         
+  - ref: refs/tags/v6.7-rc5
+    old: 0000000000000000000000000000000000000000
+    new: be59bee58790f9d137cfc11973e856e4f8ab3888
+  - ref: refs/tags/v6.7-rc6
+    old: 0000000000000000000000000000000000000000
+    new: d8f30cf5e09a30e9a978b7df0aa5029afff0e1c1
+  - ref: refs/tags/v6.7-rc7
+    old: 0000000000000000000000000000000000000000
+    new: adab409b5eb1c5905c260f74c75725db3da46e38
+  - ref: refs/tags/v6.7-rc8
+    old: 0000000000000000000000000000000000000000
+    new: ff16c06a1757247b456096cbffeedf4ef5621ba4
 
---===============0059538895318844597==
+--===============1158647827291182804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704375570 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1704375570-94bc1a6cb8705e1ae00f66b0bd127693f8398519
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704375999 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1704375999-f58f263581a5593e09765454ecccc1aeb2a77161
 
-e76933a9bfa9b7f28a387f2e13cb3e689adc200d 3faea80bd9ff02b655cb0c80a1c0bdca44c0f94d refs/heads/char-misc-testing
+0000000000000000000000000000000000000000 be59bee58790f9d137cfc11973e856e4f8ab3888 refs/tags/v6.7-rc5
+0000000000000000000000000000000000000000 d8f30cf5e09a30e9a978b7df0aa5029afff0e1c1 refs/tags/v6.7-rc6
+0000000000000000000000000000000000000000 adab409b5eb1c5905c260f74c75725db3da46e38 refs/tags/v6.7-rc7
+0000000000000000000000000000000000000000 ff16c06a1757247b456096cbffeedf4ef5621ba4 refs/tags/v6.7-rc8
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWWtRIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uKMP/3YCfEIelzc8F/C/zXgv
-dk5SZqW4JvImIjMdpImufwRU7UIfYMywQsgF1UvA+Kdvz6/xsRMfbpisxl0Lj2pK
-eR8jvKI9QeDD5B+HDABguYaZ2HqbzlFBNJR37x6018+y/qIfevEuSIqCX7Q7m/JU
-rsp9PrvpvwPywpw4mNFmtiOc/myXvkDkiTYUZ5M6JmRe8h51kLwXRokXlg/MrHzk
-doKYnGaAm9HTK90nVGPleHcF+I9HP5yg1zS6+5mvbcSeKap+1op2HHWlUMurmuTU
-PIZk3GVasTLUo/yyfN4UBjtIyDMThJVCECnK9EamunQfjMGgexD8jbVURjlb5xar
-TLJgHz8BrF9K2ayw1q4AHnLWQg/jPkvoTa/mzlE3IE5L0GJPatRMa3HJ/aOHB8py
-PsjCifTtsxzN0+xL+XH8GhTn0LHhsF0XGPGoZxCmX3gW6gnCnmy5caJL25daJqaR
-F+cEyVEnLqpVhPhQveE/T3sFcFqN5PKgFU6xp45HALOhzqLR8/PcNNPFrxhW7w3Y
-jujh4VFHTBxwMM1X1H85vSqFzHI6KGe0ZMnye7Ymq3hjksSggnX0qawMmAmtMMC4
-04c+VxOfDxLDhmx/ncKVYoQs8AwCqZpa3u5ETQyjM1Bot4SBc9dKZutsEd/9nVRs
-r8gxx3yhaE+4Fd5Ko9lT30DR
-=0O4Y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWWtr8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5O4QAMYkHxHtpR5EsNlgb0qy
+fCRqKOzZEfbLbaXtaA3ZG4XkUnfCARAakI/r/BeBBmiB1ld9rdGPrZ90ja7Sa8Is
+uwQU7hVSco/A7mTnlmXo5cTrTUyDrR+kvsquXSLQFmpRX1E4YRYrab4qJDlGGrwr
+iTJNFKxUCeNoYt1/s3qoT6/DUXMoTCBcLsqk20husgA4nJmr2hEfuFYDS8RfdWBj
+y+zSQ66yFNqEJ4a60bN6cKAQI7YndDwalw9GaHpmroLd5zDPpo6vVyt54z+rivHN
+8Tlp8B5TLnJ3+0L3B2Ugum9wTYNRhP9RD/rGq9GMZjpsclZBF089yYnmXZFeBrcR
+EauHsg4oVNg0WAnkJEiToaxoZzqDd/lMlU+M/pnv4qzS4eFOYzm+pdPRuRBjjYZ4
+Yf/xy97DiGNM5l/99pLs1Ce9wdbrWvm1cBmAhgBOshxtKdjReTucdJr/QlOduSRD
+Uyt6S00F0FBM38V2fqkGDN1FNn0P17tGEjXHmXXrWB+KjwLXMwPNJj8VX8cs5tPV
+tnPmcuzOokwnA2AetrbVVXTwHX54RDt9r1n8YmrZj485j8YjQPi1F4T1XZn7GO5v
+8mYvyDDH1zqzCuB78hfMKzibrp+IN7+V8l7dEMzR9I5lB38gAlw8sYBVpjbgeOm5
+WHCnRAjvAPwgpjr5Ow2Ii5zI
+=DWpG
 -----END PGP SIGNATURE-----
 
---===============0059538895318844597==--
+--===============1158647827291182804==--
