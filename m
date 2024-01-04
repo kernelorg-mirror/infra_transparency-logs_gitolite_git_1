@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 04 Jan 2024 19:32:18 -0000
-Message-Id: <170439673818.27351.12212739128975121977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Thu, 04 Jan 2024 19:34:55 -0000
+Message-Id: <170439689525.28320.12167559609666830995@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/for-next
-    old: 9ddf872b47e3ac8f27dbfc4a4737a976c7588de6
-    new: 98e20e5e13d2811898921f999288be7151a11954
+  - ref: refs/heads/next
+    old: 958b3a359c5dbaa75a5a4e3b99d261db1aa27594
+    new: 040113fa32f27096f531c377001936e0d7964597
     log: |
-         98e20e5e13d2811898921f999288be7151a11954 bpfilter: remove bpfilter
+         ad362fe07fecf0aba839ff2cc59a3617bd42c33f KVM: arm64: vgic-its: Avoid potential UAF in LPI translation cache
+         f4af13bd93b36e46615305b9a9fabf02b83c94c2 Merge branch kvm-arm64/vgic-6.8 into kvmarm-master/next
+         040113fa32f27096f531c377001936e0d7964597 KVM: arm64: Add missing memory barriers when switching to pKVM's hyp pgd
          
