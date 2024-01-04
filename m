@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 04 Jan 2024 11:25:05 -0000
-Message-Id: <170436750587.30268.3037980484292509785@gitolite.kernel.org>
+Date: Thu, 04 Jan 2024 11:26:07 -0000
+Message-Id: <170436756732.30702.46501578614240704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 0f2b21477988634ba7d813539f034d595f9501d7
-    new: 3b73a7b8ec3821928cfaf399da7876bc39a5cf78
+    old: 3b73a7b8ec3821928cfaf399da7876bc39a5cf78
+    new: 5e5401d6612ef599ad45785b941eebda7effc90f
     log: |
-         3b73a7b8ec3821928cfaf399da7876bc39a5cf78 net: mdio_bus: add refcounting for fwnodes to mdiobus
+         5e5401d6612ef599ad45785b941eebda7effc90f net: phylink: move phylink_pcs_neg_mode() into phylink.c
          
