@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
-Date: Thu, 04 Jan 2024 09:39:18 -0000
-Message-Id: <170436115877.19715.8369935131725160021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 04 Jan 2024 09:41:01 -0000
+Message-Id: <170436126101.20335.4025606990861143583@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jj/linux-apparmor
-user: jj
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/apparmor-next
-    old: a7e405a2de69fe5e6657046e978a81683b140051
-    new: 55a8210c9e7d21ff2644809699765796d4bfb200
+  - ref: refs/heads/gpio/for-next
+    old: c4f8457d17ce590c71aef53d75d49c313eb72cbc
+    new: db660b9a9f862804fa0c856f15cd35cd8fcbfc7b
     log: |
-         1cba275017352ba887058934d23b5c76a3de62ae apparmor: cleanup network hook comments
-         2cb54a19ac7153b9a26a72098c495187f64c2276 apparmor: Fix ref count leak in task_kill
-         1af5aa82c976753e93eb52b72784e586a7d2844b apparmor: free the allocated pdb objects
-         1342ad786073e96fa813ad943c19f586157ae297 apparmor: fix possible memory leak in unpack_trans_table
-         55a8210c9e7d21ff2644809699765796d4bfb200 apparmor: avoid crash when parsed profile name is empty
+         48e1b4d369cfe2729138a128afa6b8a55d093eaf gpiolib: remove the GPIO device from the list when it's unregistered
+         1979a28075470ef82472a5656ecc969f901e0d3b gpiolib: replace the GPIO device mutex with a read-write semaphore
+         db660b9a9f862804fa0c856f15cd35cd8fcbfc7b gpiolib: pin GPIO devices in place during descriptor lookup
          
