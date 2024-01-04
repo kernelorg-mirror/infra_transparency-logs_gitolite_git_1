@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 04 Jan 2024 05:16:05 -0000
-Message-Id: <170434536593.11701.10229191770076804164@gitolite.kernel.org>
+Date: Thu, 04 Jan 2024 05:38:37 -0000
+Message-Id: <170434671720.27077.103644982166987025@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,17 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 417fa6d163df6f13fb2cfad5132eff354c8a472e
-    new: f8506c5734902ebda5c7b4778859b46d0a2ae5f3
+  - ref: refs/heads/master
+    old: f8506c5734902ebda5c7b4778859b46d0a2ae5f3
+    new: c040e902b07e946ff73e81d4abb4347d2c0b6044
     log: |
-         9beda16c257d55213f70adee2f16d7f13a8502e1 bpf: Avoid unnecessary extra percpu memory allocation
-         9fc8e802048ad150e8032c4f3dbf40112160cfe9 bpf: Add objcg to bpf_mem_alloc
-         c39aa3b289e9c10d0d246cd919b06809f13b72b8 bpf: Allow per unit prefill for non-fix-size percpu memory allocator
-         5b95e638f134e552b5ba2976326c02babe248615 bpf: Refill only one percpu element in memalloc
-         0e2ba9f96f9b82893ba19170ae48d46003f8ef44 bpf: Use smaller low/high marks for percpu allocation
-         5c1a37653260ed5d9c8b26fb7fe7b99629612982 bpf: Limit up to 512 bytes for bpf_global_percpu_ma allocation
-         21f5a801c171dff4e728e38f62cf626c4197d07c selftests/bpf: Cope with 512 bytes limit with bpf_global_percpu_ma
-         adc8c4549d9e74d2359c217d2478b18ecdd15c91 selftests/bpf: Add a selftest with > 512-byte percpu allocation size
-         f8506c5734902ebda5c7b4778859b46d0a2ae5f3 Merge branch 'bpf-reduce-memory-usage-for-bpf_global_percpu_ma'
+         df7c3f7d3a3ddab31ca8cfa9b86a8729ec43fd2e libbpf: make uniform use of btf__fd() accessor inside libbpf
+         fa98b54bff39f51c46fc96d3385c6292391c277b libbpf: use explicit map reuse flag to skip map creation steps
+         f08c18e083adfef92946ae1d44b07bb81e727e08 libbpf: don't rely on map->fd as an indicator of map being created
+         dac645b950ea4fc0896fe46a645365cb8d9ab92b libbpf: use stable map placeholder FDs
+         fb03be7c4a27c25696287df4ee06c5aafa31267c libbpf: move exception callbacks assignment logic into relocation step
+         1004742d7ff03a088e74133af2401556ac80092b libbpf: move BTF loading step after relocation step
+         2f38fe689470055440bf80fc644920023a643a82 libbpf: implement __arg_ctx fallback logic
+         67fe459144dd629855bd9fb4b12bd9c4f792a8cf selftests/bpf: add arg:ctx cases to test_global_funcs tests
+         95226f5a36695fd5740e130016d9ed697cfb2bad selftests/bpf: add __arg_ctx BTF rewrite test
+         c040e902b07e946ff73e81d4abb4347d2c0b6044 Merge branch 'libbpf-side-__arg_ctx-fallback-support'
          
