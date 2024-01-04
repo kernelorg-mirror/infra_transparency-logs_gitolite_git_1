@@ -1,24 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 04 Jan 2024 16:26:24 -0000
-Message-Id: <170438558488.22804.17107237831216974522@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0407426040467073701=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 04 Jan 2024 16:33:28 -0000
+Message-Id: <170438600898.26966.9002694430866299807@gitolite.kernel.org>
+
+--===============0407426040467073701==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: e009b2efb7a8850498796b360043ac25c8d3d28f
-    new: 2e957f9c32c154f8b823caa4f0921e0056c0c253
-    log: |
-         6a15584e99db8918b60e507539c7446375dcf366 i40e: fix use-after-free in i40e_aqc_add_filters()
-         371e576ff3e8580d91d49026e5d5faebf5565558 i40e: Restore VF MSI-X state during PCI reset
-         9fb266dcb6aab27867b22f7bc9e4ad6bd14b2ddc ice: fix Get link status data length
-         947dfc8138dfaeb6e966e2d661de89eb203e3064 igc: Fix hicredit calculation
-         382a32018b74f407008615e0e831d05ed28e81cd net: Implement missing SO_TIMESTAMPING_NEW cmsg support
-         2e957f9c32c154f8b823caa4f0921e0056c0c253 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-         
+  - ref: refs/tags/platform-drivers-x86-v6.7-7
+    old: 0000000000000000000000000000000000000000
+    new: 7359dd1410853a74a0bb195af84820ac4efc8240
+
+--===============0407426040467073701==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1704386006 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1704386005-09bb7ce6a523436226938c46e604f8e88a8f095c
+
+0000000000000000000000000000000000000000 7359dd1410853a74a0bb195af84820ac4efc8240 refs/tags/platform-drivers-x86-v6.7-7
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZZbd1wAKCRBZrE9hU+XO
+MQNUAP4rN+WRNa3ZWKlQK7vnCitnMictsn+SrtFsZJxsYzNd+gD9HPv0ZLIVhz+Q
+aCJ9+MqAGs2aAy0K1AyFG76UtGdSxAI=
+=qddX
+-----END PGP SIGNATURE-----
+
+--===============0407426040467073701==--
