@@ -1,58 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============6715164909508828288=="
+Content-Type: multipart/mixed; boundary="===============0006696390454286847=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 04 Jan 2024 15:20:24 -0000
-Message-Id: <170438162474.7439.3642826149745373692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 04 Jan 2024 15:23:58 -0000
+Message-Id: <170438183809.8780.2173724077408684423@gitolite.kernel.org>
 
---===============6715164909508828288==
+--===============0006696390454286847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kdevops
-    old: 6c5361baaf84ae4e4a4a5efbb5d47816a3029010
-    new: 11ae372f4fa87b08182c8af2e2649e9cac400910
-    log: revlist-6c5361baaf84-11ae372f4fa8.txt
+  - ref: refs/heads/tty-testing
+    old: 43f012df3c1e979966524f79b5371fde6545488a
+    new: da680c045fde3c441bb0df5780f4ffc68327797d
+    log: revlist-43f012df3c1e-da680c045fde.txt
 
---===============6715164909508828288==
+--===============0006696390454286847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c5361baaf84-11ae372f4fa8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-fa014953f9409edd32b04cb5c0f4167b8a537e65 bcachefs: Fix extents iteration + snapshots interaction
-f2eb8434e4fec891ae842183b9193ae759ee6d78 bcachefs: fix invalid free in dio write path
-f87bf892ea9848696ddfd184964d303202dd19dd bcachefs: fix setting version_upgrade_complete
-73ab9e03861c22ec6723b7b110d62ba60f37c164 bcachefs: Factor out darray resize slowpath
-a58a6a58f5ad55aa1f5c54598c44f1d9938c1793 bcachefs: Switch darray to kvmalloc()
-099dc5c29dff52c0c37abcaa6cc747a1ac8df5fe bcachefs: DARRAY_PREALLOCATED()
-d9534cc9fc455214e857bc1d32f44d5a229dc602 bcachefs: fix buffer overflow in nocow write path
-6b49b0f7e73817265f80c565037ac812df6f1ae3 bcachefs: move BCH_SB_ERRS() to sb-errors_types.h
-560661d4ae067276c14bf0dc89fdd0228f993150 bcachefs: prt_bitflags_vector()
-808c680f2a256188951805f05c907d40919db37a bcachefs: Add persistent identifiers for recovery passes
-8b16413cda7c46d47f8071165b3071f8a9369199 bcachefs: bch_sb.recovery_passes_required
-84f1638795da1ff2084597de4251e9054f1ad728 bcachefs: bch_sb_field_downgrade
-0d72ab35a925d66b044cb62b709e53141c3f0143 bcachefs: make RO snapshots actually RO
-01638431c465741e071ab34acf3bef3c2570f878 efi/x86: Fix the missing KASLR_FLAG bit in boot_params->hdr.loadflags
-ad579864637af46447208254719943179b69d41a tracefs: Check for dentry->d_inode exists in set_gid()
-fd56cd5f6d76e93356d9520cf9dabffe1e3d1aa0 eventfs: Fix bitwise fields for "is_events"
-f93e71aea6c60ebff8adbd8941e678302d377869 Revert "PCI/ASPM: Remove pcie_aspm_pm_state_change()"
-0ee2030af4e3e0a9cd26dfaa8c2f935beffa91d1 MAINTAINERS: Orphan Cadence PCIe IP
-981d04137a4b5ea95133572bdb3d888c9b515850 Merge tag 'bcachefs-2024-01-01' of https://evilpiepirate.org/git/bcachefs
-360f0342b2e9374298e2222c846f3fe9d0295f0d Merge tag 'trace-v6.7-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-94a502eb59775e13c9089de38c601f9f85b25750 Merge tag 'efi-urgent-for-v6.7-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-8026e40608b4d552216d2a818ca7080a4264bb44 apparmor: Fix move_mount mediation by detecting if source is detached
-d7807d8544e56af9b5523f15eddac09ec0291b4e Merge tag 'apparmor-pr-2024-01-03' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
-ac865f00af293d081356bec56eea90815094a60e Merge tag 'pci-v6.7-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-068a08e04fd939e4b3140f7c27accfff8914862b nfsd: drop the nfsd_put helper
-6a9cda6d049509463d2b12b161248ec083197fae nfsd: drop the nfsd_put helper
-bfce5024a0d50383fb105014165e641fac82a28f SUNRPC: Fixup v4.1 backchannel request timeouts
-11ae372f4fa87b08182c8af2e2649e9cac400910 NFSv4.1: Use the nfs_client's rpc timeouts for backchannel
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704381834 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1704381834-1a406f75b70674c1e3aa1fa5ad0e9f9f5e8a4563
 
---===============6715164909508828288==--
+43f012df3c1e979966524f79b5371fde6545488a da680c045fde3c441bb0df5780f4ffc68327797d refs/heads/tty-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWWzYobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PfoP/jpQOERX+ay7/nYNf3yF
+KoTW0cs2LzNuDjOWaTSyoaXvBKj9RtP5voaW8QQSNPCc+i33v4YGT5xB6/wqsLNO
+kljJ1VYRGcgP42FwQl9/vF5/WwA46tG5BcDwnEjZpv/cxkBTW4sMU9N9VygtaTzE
+SzCfG4FPuNHyKAh5KvCES3IADGwe4wgvH+vpHs+bhgzo6ZJLGFXF54MkBiGi9ODF
++YgR1nhQ/XIlIVNxWo7qPukv/j9KwtwAtRBB0MiNyvRauftwfDhuRgGNE65FU1SI
+X5ph3XUy6MD67NJyEsH4gR/w+676rh2G8WJdNsdlQhuSeP8tWgNMRXihJ+Li8uGP
+lwa7QXqIvX+JRdGY9Axl1A3NDXvdpJ8r7Dck+6lLCyeGXqxLN4O/GK4GGNp5tKf5
+eplK6asjukVEZIJkXzABARtobDC4uCGEe1LVegquKvw6qA8/5fGH7s3wtdHas6x6
+svnxXNIgvqdwuu5DYOZaGBKGwGZR9pFuAxrxK6ihCo0xoRLDaiwd7sH+g/eL+rsc
+cF2cnGlpN41wCHeHXv/ATuTMmr7sVTOZqAW+lNVmMBtEjfYhH5hnvITPqAI+doBf
+vjc96AjTY0xIQnRz2aBBCmt5MQvULIRbi3/cswW8P3vhRCAYaX3fuhy2kvfvVaoJ
+LhjCQc/v5Jrc5y6/8gHObWDp
+=uPf/
+-----END PGP SIGNATURE-----
+
+--===============0006696390454286847==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-43f012df3c1e-da680c045fde.txt
+
+cb86a3383aa7b9bb891daca691e596f6bfe52d82 serial: core: Update uart_poll_timeout() function to return unsigned long
+d4303e0b9f51b9dc97bd682332a1e2ded919bedc serial: core: Clean up uart_update_timeout() function
+76ac8e29855b06331d77a1d237a28ce97ac67a38 tty: serial: Cleanup the bit shift with macro
+6056f20f27e99fb67582f299468328505f130e36 tty: serial: Add RS422 flag to struct serial_rs485
+f0635480462f3fd03953b2af2ea8d3229e2a7e08 tty/serial: altera_uart: use more informative labels in /proc/interrupts
+3e189470cad27d41a3a9dc02649f965b7ed1c90f serial: imx: Correct clock error message in function probe()
+788aeef392d27545ae99af2875068a9dd0531d5f tty: serial: kgdboc: Fix 8250_* kgdb over serial
+c6dcd8050fb7c2efec6946ae9c49bc186b0a7475 serial: apbuart: fix console prompt on qemu
+7c45eaa813476bd195ac1227a64b52f9cf2e2030 serial: imx: Ensure that imx_uart_rs485_config() is called with enabled clock
+d8a02844791360ed156ce5935bc50754ea22e299 serial: 8250_dw: Do not bailout on UCV read returning zero
+9903f2f2e1c0306df5e35080552502659475e751 tty: serial: 8250: Set RS232 as default for Moxa PCIe board initialization
+8c9aa6e1877de041e393b42a88e0cfd54627b3f7 serial: 8250_lpss: copy dma_param using devm_kmemdup()
+e0ae1431dfb6899836f5689225ac464394570b18 8250: microchip: pci1xxxx: Rearranging the structure declarations
+b7fbca372bb6247990e2419c09fe6064d107542d 8250: microchip: pci1xxxx: Add Syslock support for reading UART system registers
+aba8290f368d965d49c929a283b3bf41783d3ada 8250: microchip: pci1xxxx: Add Burst mode reception support in uart driver for writing into FIFO
+83e571f054cd742eb9a46d46ef05193904adf53f serial: 8250_bcm2835aux: Restore clock error handling
+da680c045fde3c441bb0df5780f4ffc68327797d dt-bindings: serial: Describe ARM dcc interface
+
+--===============0006696390454286847==--
