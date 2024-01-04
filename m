@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 04 Jan 2024 02:07:46 -0000
-Message-Id: <170433406688.4245.5553798621159578444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 04 Jan 2024 02:09:09 -0000
+Message-Id: <170433414972.4867.17562144968200290317@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: b77c1e3b9fb1f40be11c542d914054606e082592
-    new: cbc74fc025f905fca5154254b9d9acc0b09a8cf4
+    old: 09f9d7a87c70beb47e1dca10ee6ac6685da73aac
+    new: a562a0272ccec75191001fb138956fd1bf2c5f93
     log: |
-         e6345d2824a3f58aab82428d11645e0da861ac13 netfilter: nf_nat: fix action not being set for all ct states
-         b29be0ca8e816119ccdf95cc7d7c7be9bde005f1 netfilter: nft_immediate: drop chain reference counter on error
-         cbc74fc025f905fca5154254b9d9acc0b09a8cf4 Merge tag 'nf-24-01-03' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+         738808ae82d908e5ef4bd025999d44510c0710a7 ixgbe: report link state for VF devices
+         6c1b4af8c1b20c70dde01e58381685d6a4a1d2c8 ixgbe: Refactor overtemp event handling
+         5795f533f30a80aa0473652876296ebc9129e33a ixgbe: Refactor returning internal error codes
+         31deb12e85c35ddd2c037f0107d05d8674cab2c0 i40e: Fix VF disable behavior to block all traffic
+         55f96e8bbea09afbd0ce95cc281ec2597ddafb81 i40e: Avoid unnecessary use of comma operator
+         a562a0272ccec75191001fb138956fd1bf2c5f93 Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
          
