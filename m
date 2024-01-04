@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 04 Jan 2024 21:56:56 -0000
-Message-Id: <170440541636.3001.8433638612031222535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 04 Jan 2024 21:59:45 -0000
+Message-Id: <170440558558.4093.1802716211368070743@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 1e24ce402c97dc3c0ab050593f1d5f6fde524564
-    new: b6d8b858dbbbd832d255c3c8a3721173e6edf036
+  - ref: refs/heads/nfsd-fixes
+    old: bd018b98ba84ca0c80abac1ef23ce726a809e58c
+    new: 76d296a82657141b965be71cc57ccd7c35df80b2
     log: |
-         b6d8b858dbbbd832d255c3c8a3721173e6edf036 perf test: test case 'Setup struct perf_event_attr' fails on s390 on z/vm
+         76d296a82657141b965be71cc57ccd7c35df80b2 nfsd: drop the nfsd_put helper
          
