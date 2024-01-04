@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 04 Jan 2024 10:29:32 -0000
-Message-Id: <170436417278.20521.6948361717836954656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 04 Jan 2024 10:33:29 -0000
+Message-Id: <170436440991.23626.4277064961040596482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: b15a4cfe100b9acd097d3ae7052448bd1cdc2a3b
-    new: a562c0a2d651e040681b0bfce9b4d229ac3b0b8c
+    old: cbc74fc025f905fca5154254b9d9acc0b09a8cf4
+    new: a0d9528f6daf7fe8de217fa80a94d2989d2a57a7
     log: |
-         a562c0a2d651e040681b0bfce9b4d229ac3b0b8c sctp: fix busy polling
+         a0d9528f6daf7fe8de217fa80a94d2989d2a57a7 octeontx2-af: Always configure NIX TX link credits based on max frame size
          
