@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 04 Jan 2024 10:51:10 -0000
-Message-Id: <170436547024.5500.9177807174021317010@gitolite.kernel.org>
+Date: Thu, 04 Jan 2024 10:54:49 -0000
+Message-Id: <170436568950.6839.9929271931024234688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 818ed8933bd17bc91a9fa8b94a898189c546fc1a
-    new: eaac6a2d26b65511e164772bec6918fcbc61938e
+    old: eaac6a2d26b65511e164772bec6918fcbc61938e
+    new: 9039cd4c61635b2d541009a7cd5e2cc052402f28
     log: |
-         eaac6a2d26b65511e164772bec6918fcbc61938e asix: Add check for usbnet_get_endpoints
+         9039cd4c61635b2d541009a7cd5e2cc052402f28 net: ravb: Wait for operating mode to be applied
          
