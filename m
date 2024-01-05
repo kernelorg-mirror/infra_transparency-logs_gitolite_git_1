@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 05 Jan 2024 15:57:32 -0000
-Message-Id: <170447025265.1782.4388483514597549612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Fri, 05 Jan 2024 15:59:35 -0000
+Message-Id: <170447037506.2565.13683076848406507734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/for-next
-    old: 1cadc04c1a1ac5015c2eb0fadfabf4b61bbe167e
-    new: 94cc3087aac4103c33c6da84c092301afd783200
-    log: |
-         94cc3087aac4103c33c6da84c092301afd783200 dt-bindings: regulator: Convert ti,tps65132 to YAML
-         
+  - ref: refs/tags/afs-fix-rotation-20240405
+    old: 0000000000000000000000000000000000000000
+    new: a932f86e6137561bb259d50ed31932191c7bd7bd
