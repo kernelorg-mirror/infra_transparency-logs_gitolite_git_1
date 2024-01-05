@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2360062798757705554=="
+Content-Type: multipart/mixed; boundary="===============8378166380940398906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Fri, 05 Jan 2024 10:36:43 -0000
-Message-Id: <170445100349.14870.758157664451458763@gitolite.kernel.org>
+Date: Fri, 05 Jan 2024 10:36:59 -0000
+Message-Id: <170445101915.15209.13245786133083568464@gitolite.kernel.org>
 
---===============2360062798757705554==
+--===============8378166380940398906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 4e2688e8ac0a4ccbaf0dfaf346a53bc6b593f9b9
     new: 9f1104313298a50980a9b4e1b2afd6007bf5c5d6
     log: revlist-4e2688e8ac0a-9f1104313298.txt
 
---===============2360062798757705554==
+--===============8378166380940398906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ e2607b40ab16b95dfdff490c4022da994f618a01 kbuild: deb-pkg: make debian/rules quie
 829ba4500f1de0f4ae279d8a0f0219c10f0ebebb kbuild: deb-pkg: build binary-arch in parallel
 9f1104313298a50980a9b4e1b2afd6007bf5c5d6 kbuild: deb-pkg: call more misc debhelper commands
 
---===============2360062798757705554==--
+--===============8378166380940398906==--
