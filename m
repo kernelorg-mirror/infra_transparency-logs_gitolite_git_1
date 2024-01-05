@@ -1,56 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============6688292686909843643=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 05 Jan 2024 14:43:51 -0000
-Message-Id: <170446583128.13273.4250177555223272087@gitolite.kernel.org>
-
---===============6688292686909843643==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 05 Jan 2024 14:45:20 -0000
+Message-Id: <170446592068.15509.620868768889192773@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: a9c3a887c74b4e8bf3fc1d4cff093957742bee2f
-    new: e03627f0fd9ccc55276790d8207a409642a6b9ab
+  - ref: refs/heads/queue/5.10
+    old: c23508d872c12e8e3d61c4f4ba02408917d43fd2
+    new: 30d63c9d5d895fdd3e54da46c06fa06660145da1
     log: |
-         e03627f0fd9ccc55276790d8207a409642a6b9ab move the older queues out of the way as they are out for review
+         ed3b1cf7fe94aaf2f12e499dc51f847168c00c3d keys, dns: Fix missing size check of V1 server-list header
+         30d63c9d5d895fdd3e54da46c06fa06660145da1 block: Don't invalidate pagecache for invalid falloc modes
          
-
---===============6688292686909843643==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704465830 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1704465829-350343809fc43c023a06ac577e953f772eed4a6e
-
-a9c3a887c74b4e8bf3fc1d4cff093957742bee2f e03627f0fd9ccc55276790d8207a409642a6b9ab refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWYFaYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XK4QAKXrTy074fDnbBrjJsAp
-dSysSOtceoqKpIE5axlcFwb/tPgp/QSzhKbRu+DVFji7tyZD5uUSv+h9sPkPsh/p
-zGSkGQAk7BLuL5FBxl8BunPPDx6w/3ftPEOkqdpStj0/BCGbgTqgj1sIHFrS7Vak
-IP8f7GpASlyDj+is6QNgTbo75p01b6out1LShnIBZIowzEEs5erGkJdh1fecSrtx
-YwDZg8RToM+F1Awi0ZM5CiS0IJ10Tct2swmvjKklogwRQlzGeWWES3fx+YOq6msx
-h22X5DQ1MrbfL3V+Q4sJJPT6+FTejyCE7vaGAsXdKeXa36u3J3k+hO5fWyjEYdML
-oVxFhlSGHxeZ8TOBVCr6do6wjY9xzVDhnKFsETyQ2RLCa2JsaZ8TKDgro9bI70Tf
-9Nj8aDaka21F+oJpx3sS2bvrCo+e1dYNvBRwQWJ/KyZZ84rOkXamdJlYkaq0O5Ah
-s2Vnj97sGaXfEzvLbOoc9JyZb9dlGzz0cw/ZwVR57XNKQ10DzESo3Jgov2UgF2Av
-9j3+rLxgSffgy9OHFJi9NIO32waVYIa5DdMX1Ysb67qa9SxWdnR3DElli9DaRnCB
-NLvpHLK4jF15xaSxtzx6sPIOLE2J782OxiZiF5Vqi0+D+4lignrvajB/OFFKX8bq
-Y76nuNOZTwVzoPXsoAYF0SBT
-=UmKN
------END PGP SIGNATURE-----
-
---===============6688292686909843643==--
+  - ref: refs/heads/queue/5.15
+    old: 8b4dce19bc9b4bdc05767c9e6e92bcae3d2c0b19
+    new: 1b1d239e7d5cfad350f2af14ce71df2b81770f8d
+    log: |
+         8854b19817196ce69c333ad4e9e64c6376d0f034 keys, dns: Fix missing size check of V1 server-list header
+         1b1d239e7d5cfad350f2af14ce71df2b81770f8d block: Don't invalidate pagecache for invalid falloc modes
+         
+  - ref: refs/heads/queue/6.1
+    old: 1d088edcc70c24ff9fe1dc3312445377eee6bc48
+    new: 363821b375f2dd0bf2822b64214ac9ea6962ae4f
+    log: |
+         add8e6fb3ae1f2a4c558c9159ecc628fccb54b5f keys, dns: Fix missing size check of V1 server-list header
+         363821b375f2dd0bf2822b64214ac9ea6962ae4f block: Don't invalidate pagecache for invalid falloc modes
+         
+  - ref: refs/heads/queue/6.6
+    old: fcd2ea7b08d760f92a27e74f39e73ef57e701e4c
+    new: 3b1f05c0342f24544531f1ce2f07477e757f0afe
+    log: |
+         3b1f05c0342f24544531f1ce2f07477e757f0afe keys, dns: Fix missing size check of V1 server-list header
+         
