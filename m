@@ -1,57 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============6932474494368110673=="
+Content-Type: multipart/mixed; boundary="===============1212424706383025368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 05 Jan 2024 09:20:31 -0000
-Message-Id: <170444643119.12193.6627618009021878494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 05 Jan 2024 09:20:56 -0000
+Message-Id: <170444645645.12383.15016541131820972120@gitolite.kernel.org>
 
---===============6932474494368110673==
+--===============1212424706383025368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: db2292b01b799e926abfdbd6fafa1f27f0d0e457
-    new: c312828c37a72fe2d033a961c47c227b0767e9f8
+  - ref: refs/heads/staging-next
+    old: 9ebffbe2ad12b030b282796fed5117a182588c51
+    new: 0a46c21c21c1f1c9a65e29eaae243d0f240bbd6b
     log: |
-         93ec4a3b76404bce01bd5c9032bef5df6feb1d62 class: fix use-after-free in class_register()
-         c312828c37a72fe2d033a961c47c227b0767e9f8 kernfs: convert kernfs_idr_lock to an irq safe raw spinlock
+         fbfb131ef81ff0cb568196801de1a1fb46cfd592 staging: vme_user: print more detailed infomation when an error occurs
+         d65a2fc00fc046117875507961e610fdc9001100 Staging: rtl8192e: Rename variable bUsed
+         a24e0197f343cc55024c9edd68c072d0363466b6 Staging: rtl8192e: Rename variable NumTxOkInPeriod
+         5fa882a8ad81b08d2366f6ebe82fcd50a4a582cf Staging: rtl8192e: Rename variable NumRxOkInPeriod
+         2d1f383244ed271efd019236b78523c403d19818 Staging: rtl8192e: Rename function rtllib_EnableNetMonitorMode()
+         9cbaf63c14002dfc01145475b93474aa72d641ba Staging: rtl8192e: Rename variable bIsAggregateFrame
+         0a46c21c21c1f1c9a65e29eaae243d0f240bbd6b Staging: rtl8192e: Rename variable OpMode
          
 
---===============6932474494368110673==
+--===============1212424706383025368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704446430 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1704446430-2256b5aab2bf97bb148f9d09f1d7bdcde113c425
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704446455 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1704446455-1fb8286481bbeb91acf0ea46531f91ae93582b38
 
-db2292b01b799e926abfdbd6fafa1f27f0d0e457 c312828c37a72fe2d033a961c47c227b0767e9f8 refs/heads/driver-core-testing
+9ebffbe2ad12b030b282796fed5117a182588c51 0a46c21c21c1f1c9a65e29eaae243d0f240bbd6b refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWXyd4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5gwP/3IGxIGL7akI1sB6zgsX
-Q+8+hliGqJ+H+rRmAsEHOpJ4QJhEQbtU2BN4ceQHjXgSsejf6LjasObVT6FkYlaL
-YYMGUyycDiH6GcJ7fCn6lw2yZPcKQjo3QFBdTTi98jfpHQXPJefkkslKk7RgmZ9Z
-5f+I6p1ckftk4tY7k/Llp3GtdBNrYEr0iEZDxbWep3bG9WVOGLmn86gx1Cp6rlDJ
-MxjXJgNf9LLYWBpd5hlSDNzcwhEoDcKe6Q9EZ6e7B8N3xDhaCkwdlT2gwdi4Yvft
-GG6w5UmWHPo8RAXYsLpMr9PEA0K/LILRmw8UMBod+0elWO48Yr0cjFsSZd6YiDr0
-0/VnqFjraADN3u+fsXxhpYHs4Uy1j07TxOpIlbBd1/6O9ogtsMGC7aVUW9+MRxv8
-huRrlTSscCcwxW+H+fTX1ZPLClflsdSRdPr32t4hZQMoXr1UtczxLDt/pVuUppHt
-KIK2q0L1X8odrsp6vLQAMfuGNKqz2AhnEax2OTU2Mn19qRfPA6z1wcrg5H2t3JWU
-YUfLvLkm1IFmI7RHQwGzlu7LIn4vxKZSRzD7VIJ6n3msdULXsu4l/tdw3SzCin3l
-VFeZdQV1vzNvHQjjldfd5RgKAKcw6KUH03SJD5S1wq/aBUlM51ZkGOlzBGjdJmrB
-EkJ6J9DUvFViT8s4dETT9n07
-=YhkH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWXyfcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Gq8P/RKCZPXDSmLOro3zkq0t
+lZ5sFWXfEpxkTncnJ7yH3NyLkuwS9sXTSlTOI8/Ack+Hkpk4pd+U4MKLyJXHDnF7
+3mMoov+G9Z5hdi4DN/JPd1vkyqrHi1q76nicoKQZJ4Q3aDZMxBvUhx8pFNQgN5o8
+JruedFh0YYsiozKJdVU0X1rQWAacd3ZJPBpw67syzzJQVC5wphxJ0IPyQouG9o2L
+s5XAPoGTksfCPxyaZpHQH1Dmim5DTEkMepLWmVXKTIjGl0A8m0F55HrP5jsklX0N
+6pa+35yh5Xgab+Mq5fOLx4NEAW0tfnB0GIFf8bmlkRat37zgPU8DoCvpLbIeE5oK
+1PbQGBR8oVb5fKyOk2Vdvmjpir4YxNHRPArroiHnyOQRJE/6e/UpUrHC0jwCzkL5
+CfOTrM/YY1T8TR8JP+PY3LxIqg7dQBGGHpzY1KXczCSmdtGan4lIQ+F5Cv/XnDBl
+YGbYDsT6l7x0W0XBsBx/Di/Jz4DDaGDb4H7f2yowFfY5XN6vWfrG2oRXmaXw2Acy
+T9nruds+1DMTFRchR3BiloxI98t7TXZzLUB8FpkXTaPd5cfPGnVKGDpfr4t6GSwH
+yR2qFWI5Xn+I05w4unGabJesNTTCu8sLyTM/K6Moi3xI0arjtNMZGCct76xItOT0
+qHyA+/s8I/fsWPyTlLWWQTr4
+=Tuwg
 -----END PGP SIGNATURE-----
 
---===============6932474494368110673==--
+--===============1212424706383025368==--
