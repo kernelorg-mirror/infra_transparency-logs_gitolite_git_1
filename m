@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 05 Jan 2024 00:52:44 -0000
-Message-Id: <170441596437.32076.15863258397142390720@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 05 Jan 2024 00:55:09 -0000
+Message-Id: <170441610997.2248.4815011676800767278@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 4d8c9f13b7591190619da84fb9ff46458ebdb691
-    new: 76702c39e114a5692d99e45b3c0ea965b578afb9
+  - ref: refs/heads/main
+    old: 172b3fccf574eb760a2d88f19971c7e26d1441f0
+    new: fe1eb24bd5ade085914248c527044e942f75e06a
     log: |
-         76702c39e114a5692d99e45b3c0ea965b578afb9 Fri Jan  5 12:51:28 AM UTC 2024
+         fe1eb24bd5ade085914248c527044e942f75e06a Revert "Introduce PHY listing and link_topology tracking"
          
