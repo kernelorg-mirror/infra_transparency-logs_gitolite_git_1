@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4164586393278100613=="
+Content-Type: multipart/mixed; boundary="===============4563733379854737418=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 05 Jan 2024 07:35:45 -0000
-Message-Id: <170444014525.1555.14954125745376116998@gitolite.kernel.org>
+Date: Fri, 05 Jan 2024 07:36:14 -0000
+Message-Id: <170444017438.1821.9246403002455241551@gitolite.kernel.org>
 
---===============4164586393278100613==
+--===============4563733379854737418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,80 +16,43 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 583cddb2b7d76d981b623eec4748c407043345c8
-    new: 1ca6d5d3c3689a07082a226e5921bd95245ce3b6
-    log: revlist-583cddb2b7d7-1ca6d5d3c368.txt
+    old: 1ca6d5d3c3689a07082a226e5921bd95245ce3b6
+    new: a8bd4088b90f1d691f2bce67ec5ec04c4699c005
+    log: revlist-1ca6d5d3c368-a8bd4088b90f.txt
 
---===============4164586393278100613==
+--===============4563733379854737418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-583cddb2b7d7-1ca6d5d3c368.txt
+Content-Disposition: attachment; filename=revlist-1ca6d5d3c368-a8bd4088b90f.txt
 
-400f6ebbc175286576c7f7fddf3c347d09d12310 wifi: iwlwifi: pcie: don't synchronize IRQs from IRQ
-044879ce54069cf5f0efe7b4e67200d92e23a7da MAINTAINERS: wifi: brcm80211: remove non-existing SHA-cyfmac-dev-list@infineon.com
-8c917f16eb6198073ff8bc5d5c83a1bef9fae813 wifi: mac80211: do not re-add debugfs entries during resume
-0a3d898ee9a8303d5b3982b97ef0703919c3ea76 wifi: mac80211: add/remove driver debugfs entries as appropriate
-0ae8e4cca78781401b17721bfb72718fdf7b4912 netfilter: nf_tables: set transport offset from mac header for netdev/egress
-7315dc1e122c85ffdfc8defffbb8f8b616c2eb1a netfilter: nf_tables: skip set commit for deleted/destroyed sets
-c95f919567d6f1914f13350af61a1b044ac85014 nfc: llcp_core: Hold a ref to llcp_local->dev when holding a ref to llcp_local
-6ec0d7527c4287369b52df3bcefd21a0c4fb2b7c nfc: Do not send datagram if socket state isn't LLCP_BOUND
-dff90e4a092b771354287fbe55e557467c9da620 Merge branch 'nfc-refcounting'
-fea7b71b8751a0bfa7fdf9977e5782f061f71589 idpf: fix corrupted frames and skb leaks in singleq mode
-a613fb464dc4d8902d1dbca836a0872a80d36296 idpf: avoid compiler introduced padding in virtchnl2_rss_key struct
-0ee2384a5a0f3b4eeac8d10bb01a0609d245a4d1 octeontx2-af: Fix marking couple of structure as __packed
-49fcf34ac908784f97bc0f98dc5460239cc53798 Merge tag 'wireless-2023-12-19' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-6a8d8bb55e7001de2d50920381cc858f3a3e9fb7 ice: Fix link_down_on_close message
-6d05ff55ef4f4954d28551236239f297bd52ea48 ice: Shut down VSI with "link-down-on-close" enabled
-8278a6a43d030a3aa8d7768148e74844331e39e3 ice: dpll: fix phase offset value
-3e48041d9820c17e0a51599d12e66c6e12a8d08d i40e: Fix filter input checks to prevent config with invalid values
-088464abd48cf3735aee91f9e211b32da9d81117 igc: Report VLAN EtherType matching back to user
-b5063cbe148b829e8eb97672c2cbccc058835476 igc: Check VLAN TCI mask
-7afd49a38e73afd57ff62c8d1cf5af760c4d49c0 igc: Check VLAN EtherType mask
-a4255b2e5c52abe4e94d320cf8276303e192d59d Merge tag 'nf-23-12-20' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-97417cd79ce179a774b245a3f5535cc3fbbaee50 ptp: ocp: fix bug in unregistering the DPLL subsystem
-dcea1bd45e6d111cc8fc1aaefa7e31694089bda3 mlxbf_gige: fix receive packet race condition
-8fcb0382af6f1ef50936f1be05b8149eb2f88496 net: sched: em_text: fix possible memory leak in em_text_destroy()
-b901a4e276943f61e11ddb597a0abc1e7dfadf0f net/tcp_sigpool: Use kref_get_unless_zero()
-9c476269bff2908a20930c58085bf0b05ebd569a r8169: Fix PCI error on system resume
-82585d5e2af13608dd18fe2458126cd82e2cc255 MAINTAINERS: step down as TJA11XX C45 maintainer
-9bf2e9165f90dc9f416af53c902be7e33930f728 net: qrtr: ns: Return 0 if server port is not present
-7f6ca95d16b96567ce4cf458a2790ff17fa620c3 net: Implement missing getsockopt(SO_TIMESTAMPING_NEW)
-059d37b718d38d26087121c754691df77acfc66b net: phy: linux/phy.h: fix Excess kernel-doc description warning
-c46bfba1337d301661dbb23cfd905d4cb51f27ca connector: Fix proc_event_num_listeners count not cleared
-61fa2493ca76fd7bb74e13f0205274f4ab0aa696 selftests: bonding: do not set port down when adding to bond
-8cdafdd94654ba418648d039c48e7a90508c1982 Revert "net: ipv6/addrconf: clamp preferred_lft to the minimum required"
-d5a306aedba34e640b11d7026dbbafb78ee3a5f6 sfc: fix a double-free bug in efx_probe_filters
-fe6d8300a7af390667359c661d78a24b733dc5ad MAINTAINERS: Update mvpp2 driver email
-118ba479d02c5a55e1c1d3c7a43de8937680e67d MAINTAINERS: add Geliang as reviewer for MPTCP
-4c0288299fd09ee7c6fbe2f57421f314d8c981db mptcp: prevent tcp diag from closing listener subflows
-d5a13915ae2f4df738bf4254ec25e19f82e3ff49 Merge branch 'mptcp-new-reviewer-and-prevent-a-warning'
-e584f2ff1e6cc9b1d99e8a6b0f3415940d1b3eb3 net: bcmgenet: Fix FCS generation for fragmented skbuffs
-e6345d2824a3f58aab82428d11645e0da861ac13 netfilter: nf_nat: fix action not being set for all ct states
-b29be0ca8e816119ccdf95cc7d7c7be9bde005f1 netfilter: nft_immediate: drop chain reference counter on error
-01b2885d9415152bcb12ff1f7788f500a74ea0ed net: Save and restore msg_namelen in sock_sendmsg
-6a15584e99db8918b60e507539c7446375dcf366 i40e: fix use-after-free in i40e_aqc_add_filters()
-371e576ff3e8580d91d49026e5d5faebf5565558 i40e: Restore VF MSI-X state during PCI reset
-9fb266dcb6aab27867b22f7bc9e4ad6bd14b2ddc ice: fix Get link status data length
-947dfc8138dfaeb6e966e2d661de89eb203e3064 igc: Fix hicredit calculation
-2311e06b9bf3d44e15f9175af177a782806f688f virtio_net: fix missing dma unmap for resize
-320fae9edf0184df767fffd5b5d011dc3ed99fb3 Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-89f45c30172c80e55c887f32f1af8e184124577b net/qla3xxx: fix potential memleak in ql_alloc_buffer_queues
-9dbe086c69b8902c85cece394760ac212e9e4ccc net/smc: fix invalid link access in dumping SMC-R connections
-0fa4f912eed7055f988e20b4b5fc6e755f78c8af Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-b77c1e3b9fb1f40be11c542d914054606e082592 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-cbc74fc025f905fca5154254b9d9acc0b09a8cf4 Merge tag 'nf-24-01-03' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-a0d9528f6daf7fe8de217fa80a94d2989d2a57a7 octeontx2-af: Always configure NIX TX link credits based on max frame size
-818ed8933bd17bc91a9fa8b94a898189c546fc1a octeontx2-af: Re-enable MAC TX in otx2_stop processing
-eaac6a2d26b65511e164772bec6918fcbc61938e asix: Add check for usbnet_get_endpoints
-9039cd4c61635b2d541009a7cd5e2cc052402f28 net: ravb: Wait for operating mode to be applied
-e009b2efb7a8850498796b360043ac25c8d3d28f bnxt_en: Remove mis-applied code from bnxt_cfg_ntp_filters()
-382a32018b74f407008615e0e831d05ed28e81cd net: Implement missing SO_TIMESTAMPING_NEW cmsg support
-2e957f9c32c154f8b823caa4f0921e0056c0c253 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-4c8530dc7d7da4abe97d65e8e038ce9852491369 net/tcp: Only produce AO/MD5 logs if there are any keys
-5d4acb62853abac1da2deebcb1c1c5b79219bf3b x86/csum: Remove unnecessary odd handling
-a476aae3f1dc78a162a0d2e7945feea7d2b29401 x86/csum: clean up `csum_partial' further
-1f874787ed9a2d78ed59cb21d0d90ac0178eceb0 Merge tag 'net-6.7-rc9' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-1ca6d5d3c3689a07082a226e5921bd95245ce3b6 Merge branch 'linus'
+a2101968e1eebf510350ad1ba9a763e0ddcc57d1 Merge branch into tip/master: 'sched/urgent'
+c1d82b1e6152da0e2fc9b19354727af2ee1d60a2 Merge branch into tip/master: 'x86/merge'
+a7c856e7863d4be8561bf2f7a961b981e122ccb2 Merge branch into tip/master: 'core/debugobjects'
+c00d6c4e98bb824b09e9c86afca72d3114e6637f Merge branch into tip/master: 'core/entry'
+cd822ab723d8eb36ca69717318e935bd3544b74a Merge branch into tip/master: 'core/merge'
+db5b803899018fbdb2dc108dba52d6cc93fceae0 Merge branch into tip/master: 'locking/core'
+69cf8a0fddb2b8aa7387af0aae039a56494a85de Merge branch into tip/master: 'objtool/core'
+ed40e351f3d7839a7d4d24aace32618e8ad81134 Merge branch into tip/master: 'perf/core'
+0919cde9ed4f191dea27d7ed60fbec1e4772330e Merge branch into tip/master: 'ras/core'
+7a50dd701e9345040d267da4152b5045fa3a31ef Merge branch into tip/master: 'sched/core'
+dda0fb7572f6b4cb8ad75051f2908059bb7c6c84 Merge branch into tip/master: 'smp/core'
+316205cd820df30aa5413bd0ebb14d5cb4c17098 Merge branch into tip/master: 'timers/core'
+2a61cf1cda1b76bda50d3c35b325b0d6319ae5bb Merge branch into tip/master: 'x86/apic'
+b702caa58898d0154e7216e53c13f8af26b04d50 Merge branch into tip/master: 'x86/asm'
+4bd8557481aa1f77a0d00442860db418c49ab88b Merge branch into tip/master: 'x86/boot'
+6d88e7a250e58d9949a84bf19877c1fdb83c659e Merge branch into tip/master: 'x86/build'
+3358f8ec7c74fe071621b0fc6811d53842a9ec18 Merge branch into tip/master: 'x86/cleanups'
+8d7261312a375436937807f2d20a3fcd6c0d33c8 Merge branch into tip/master: 'x86/core'
+44061cf1fbe800853805118cbcd40a18b3f773f8 Merge branch into tip/master: 'x86/cpu'
+fc4fc376eeec6c0a02ebb93b9949c62def6deb15 Merge branch into tip/master: 'x86/entry'
+ccef8b1adadfef9b7644f88144998bca83544b95 Merge branch into tip/master: 'x86/microcode'
+dd9031a26ff030ab94931b9676ea5f87cb1f4c8a Merge branch into tip/master: 'x86/misc'
+c7778e0e0150f51c399615719660160de4d1e2ea Merge branch into tip/master: 'x86/mm'
+365148b964d8b1f0e69a39c1296a8acc9d0f8aea Merge branch into tip/master: 'x86/paravirt'
+22e22e4e22fd3ffffd7b9bf1e20480b2f03015da Merge branch into tip/master: 'x86/percpu'
+ef756b3f0f28d2093efc759f37493f44cf21c4fb Merge branch into tip/master: 'x86/sev'
+336883fd94c65215d1277499f6b99dbfe7790055 Merge branch into tip/master: 'x86/sgx'
+a8bd4088b90f1d691f2bce67ec5ec04c4699c005 Merge branch into tip/master: 'x86/tdx'
 
---===============4164586393278100613==--
+--===============4563733379854737418==--
