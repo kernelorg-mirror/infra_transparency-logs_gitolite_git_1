@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 06 Jan 2024 03:33:15 -0000
-Message-Id: <170451199531.14084.3648915211686557265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Sat, 06 Jan 2024 03:39:48 -0000
+Message-Id: <170451238898.19291.9964293997031626341@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/heads/main
-    old: 8158a50f9058ce882a6a020c41cef6bae2c3eae3
-    new: 948f97f9d8d2aa3a742df028129d44130268f0e4
-    log: |
-         2114e83381d3289a88378850f43069e79f848083 selftests: forwarding: Avoid failures to source net/lib.sh
-         948f97f9d8d2aa3a742df028129d44130268f0e4 net: ethtool: reject unsupported RSS input xfrm values
-         
+  - ref: refs/heads/fixes
+    old: 5459e186a5c9f412334321cff58d70dcb0e48a04
+    new: ceb6a6f023fd3e8b07761ed900352ef574010bcb
