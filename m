@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3552141904143783226=="
+Content-Type: multipart/mixed; boundary="===============0640184772130037633=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 06 Jan 2024 04:04:21 -0000
-Message-Id: <170451386181.3562.17251640666760971268@gitolite.kernel.org>
+Date: Sat, 06 Jan 2024 04:04:27 -0000
+Message-Id: <170451386797.3647.6861425399977931306@gitolite.kernel.org>
 
---===============3552141904143783226==
+--===============0640184772130037633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 5fe4ee6ae187523f710f1b93024437a073d88b17
     new: 948f97f9d8d2aa3a742df028129d44130268f0e4
     log: revlist-5fe4ee6ae187-948f97f9d8d2.txt
 
---===============3552141904143783226==
+--===============0640184772130037633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -461,4 +461,4 @@ c72a657b5cca1d415a26c871ae114bbb119ad0c2 geneve: use DEV_STATS_INC()
 2114e83381d3289a88378850f43069e79f848083 selftests: forwarding: Avoid failures to source net/lib.sh
 948f97f9d8d2aa3a742df028129d44130268f0e4 net: ethtool: reject unsupported RSS input xfrm values
 
---===============3552141904143783226==--
+--===============0640184772130037633==--
