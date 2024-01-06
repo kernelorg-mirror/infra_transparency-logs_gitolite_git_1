@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8018073274965254043=="
+Content-Type: multipart/mixed; boundary="===============8038377804240630062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 06 Jan 2024 04:53:16 -0000
-Message-Id: <170451679648.7545.14739627349461902766@gitolite.kernel.org>
+Date: Sat, 06 Jan 2024 05:01:39 -0000
+Message-Id: <170451729961.13672.825877837824805700@gitolite.kernel.org>
 
---===============8018073274965254043==
+--===============8038377804240630062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,40 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/controller/cadence
-    old: 9ca59b45ecf3b1ab24e21294aa598837761dd1e8
-    new: 177c9ac6ab3fa585608a16877b1fa1aad832571c
+  - ref: refs/heads/misc
+    old: 9ca65c373f4451fdf2f82ebc30b17185253aec8f
+    new: 516f366434e1db71b83c77b970cfcc0804671e1c
     log: |
-         e49ad667815d37dc621ffdfb7302df6a7265bab8 PCI: j721e: Add TI J784S4 PCIe configuration
-         177c9ac6ab3fa585608a16877b1fa1aad832571c PCI: j721e: Make TI J721E depend on ARCH_K3
+         516f366434e1db71b83c77b970cfcc0804671e1c misc: pci_endpoint_test: Use a unique test pattern for each BAR
          
 
---===============8018073274965254043==
+--===============8038377804240630062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1704516794 +0000
+pusher 3DE334E7 1704517297 +0000
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1704516793-a835f3b02d8a29d31d49e0a06f856cc221d0202b
+nonce 1704517297-f06132975f55e8becd988d15bfdce2946089cc09
 
-9ca59b45ecf3b1ab24e21294aa598837761dd1e8 177c9ac6ab3fa585608a16877b1fa1aad832571c refs/heads/controller/cadence
+9ca65c373f4451fdf2f82ebc30b17185253aec8f 516f366434e1db71b83c77b970cfcc0804671e1c refs/heads/misc
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmWY3LoACgkQfGR2jT3j
-NOdurA//cloAmwaQ8gFVb4nQVjAcQwUB+KKGanCDDmeFCPSk5V0nRHxno4H6AWDn
-06TqPffj5wfg84CMZuJ2CVEtQq2tOlvQMubLtpMbXm0ongllGwFzt2PGhjnOlaMx
-JiTb4NlPC9XoMyNnS+xTyxKy9W5od/qupgTnTS2ilCOgSd1pyhrkx4/OQV2z5rUi
-xZMYdSyDhUknes5LX7czCkhBCAUYd3T68D6EleBDCdRJoo126BfL2SUhU8BltpBe
-UNucI3zHcv0iny1yxjQMb4JZ31o43vQoZFsEt74+KDmQTSHqo6oymm80l8UP6nwO
-Ei+iDdJEiSjwx3bxh9aKhuab5jOATQ2liYRn/Ek9XF2Hu0xF46z5JfmeMRJCAMRQ
-yn1Ws1iqlzxrxuDMdI0e9q0EZEwTWibe68AkWWLA4G3yON6GEHHeXJyrM8My7TxE
-S701ia7hAzeYkPSnCwtbSDbilpbYhXCc2fQ9smQ8Y5q5o2JjmhCZI2g9SQSj8ydm
-pHGppbRdmWRzZGL4D1ujW9TCPmP/qmcl9IxzdtCMawBVBIuQF50TA6uqw6/AE6E+
-QhAHQEThx1S6/UpRL+B61d3Tzsht7Uo9JwqLHmWWANC3J47agFTwwch5XRw3m8/p
-BrZvqAZoRYzsj+9NXaqU5Gd2OX8Jh5M1udF7TRV5wq8YE9+sqwQ=
-=+2Jh
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmWY3rEACgkQfGR2jT3j
+NOcZShAAlO0TJe3YZiz3wKVsldYIHJc4bS8A5Fa6O441GRXan9JawznTmuW846Nj
+2A7wz0UmcA+TcPskIl7kH72SEQKF+/39hf/zVKTQrQ3cfE8z1yXvObPcoZgon2Pi
+oUmN8u64AXOjdLdaJ7sxvLcCX8iRVpJVU7SzcIKsCUZg0Ln56Qo3Nd0FWoN2LaDg
+gf1x+KL3voHmVbPlOb27y1YPiWm0qLY1bIrA5vJ8WnWTgztW3/5rPMVl4BW3Fwf9
+fQG33sw0rH+iDzszqe1IekTRDIVzGROJPvBJbJXIkUGKGTp/PBgJKTlmRGbKCxga
+zxz2KuHwIw5Vx611DP49FxcCepqh7qF8339hGJ4MSVJ8xhlJdP59Soj8exIVkYm6
+h7WCoj8BMRXS1BTh3W3j1nHBrjipgLk9h5ZFKhAqxv4gojSLKHHK3JfWW9FIUzoj
+ty8tPfgWsGOTan3MBbwnSjAtrX1osW32sED8Czklgb4aplot+wiFsTdQoVsspH6p
+1DStrGxMrYG0zcvwM/Q6uvT16XwKiEcVkoHHZRh+VvL54P2N/JQJbTZ3PKOCub2y
+V9rSqDy0WOmDFRLMOqFCAtojmLGy4TYazHJBULPG0sHnnogydbykHedelSypvDs3
+ISeQQIb5aHnhKgxJRfP6kGOJxODHm52Dmgpp5jRDoFcs2zOz4/k=
+=MQCi
 -----END PGP SIGNATURE-----
 
---===============8018073274965254043==--
+--===============8038377804240630062==--
