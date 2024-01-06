@@ -1,55 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============8038377804240630062=="
+Content-Type: multipart/mixed; boundary="===============3962029444027629669=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 06 Jan 2024 05:01:39 -0000
-Message-Id: <170451729961.13672.825877837824805700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 06 Jan 2024 05:03:33 -0000
+Message-Id: <170451741351.14411.7628813582617820515@gitolite.kernel.org>
 
---===============8038377804240630062==
+--===============3962029444027629669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/misc
-    old: 9ca65c373f4451fdf2f82ebc30b17185253aec8f
-    new: 516f366434e1db71b83c77b970cfcc0804671e1c
-    log: |
-         516f366434e1db71b83c77b970cfcc0804671e1c misc: pci_endpoint_test: Use a unique test pattern for each BAR
-         
+  - ref: refs/heads/master
+    old: a4ab2706bb1280693e7dff1c5c42a8cb9d70c177
+    new: 95c8a35f1c017327eab3b6a2ff5c04255737c856
+    log: revlist-a4ab2706bb12-95c8a35f1c01.txt
 
---===============8038377804240630062==
+--===============3962029444027629669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a4ab2706bb12-95c8a35f1c01.txt
 
-certificate version 0.1
-pusher 3DE334E7 1704517297 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1704517297-f06132975f55e8becd988d15bfdce2946089cc09
+efa7df3e3bb5da8e6abbe37727417f32a37fba47 mm: align larger anonymous mappings on THP boundaries
+e0646b7590084a5bf3b056d3ad871d9379d2c25a mm: fix arithmetic for bdi min_ratio
+fa151a39a6879144b587f35c0dfcc15e1be9450f mm: fix arithmetic for max_prop_frac when setting max_ratio
+9bcef5973e31020e5aa8571eb994d67b77318356 mm: memcg: fix split queue list crash when large folio migration
+9eab0421fa94a3dde0d1f7e36ab3294fc306c99d mm: fix unmap_mapping_range high bits shift bug
+140a923bc18e5355ddc54fbe70c0ee0ac23a9616 MAINTAINERS: remove hugetlb maintainer Mike Kravetz
+4bdd58df05cf9df0c0e43daaa83e73d77629c252 MAINTAINERS: hand over hwpoison maintainership to Miaohe Lin
+c28ac3c7eb945fee6e20f47d576af68fdff1392a mm/mglru: skip special VMAs in lru_gen_look_around()
+46e714c729c8d1d8110bc0545d7ffe8a759c9dc0 arch/mm/fault: fix major fault accounting when retrying under per-VMA lock
+c1bacb02cb2f2c56db10f3d927acb5f91fe4d064 MAINTAINERS: change vmware.com addresses to broadcom.com
+5b8fbf50a54b02e09eb64679defdebd4bc7dfe8a mailmap: add entries for Mathieu Othacehe
+64e6304169f1e1f078e7f0798033f80a7fb0ea46 nfsd: drop the nfsd_put helper
+7fba9420b726561966e1671004df60a08b39beb3 mm: shrinker: use kvzalloc_node() from expand_one_shrinker_info()
+0d3ac66ed81cb7c0aa78fceec9fb0dbe384992ed Merge tag 'nfsd-6.7-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+95c8a35f1c017327eab3b6a2ff5c04255737c856 Merge tag 'mm-hotfixes-stable-2024-01-05-11-35' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
-9ca65c373f4451fdf2f82ebc30b17185253aec8f 516f366434e1db71b83c77b970cfcc0804671e1c refs/heads/misc
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmWY3rEACgkQfGR2jT3j
-NOcZShAAlO0TJe3YZiz3wKVsldYIHJc4bS8A5Fa6O441GRXan9JawznTmuW846Nj
-2A7wz0UmcA+TcPskIl7kH72SEQKF+/39hf/zVKTQrQ3cfE8z1yXvObPcoZgon2Pi
-oUmN8u64AXOjdLdaJ7sxvLcCX8iRVpJVU7SzcIKsCUZg0Ln56Qo3Nd0FWoN2LaDg
-gf1x+KL3voHmVbPlOb27y1YPiWm0qLY1bIrA5vJ8WnWTgztW3/5rPMVl4BW3Fwf9
-fQG33sw0rH+iDzszqe1IekTRDIVzGROJPvBJbJXIkUGKGTp/PBgJKTlmRGbKCxga
-zxz2KuHwIw5Vx611DP49FxcCepqh7qF8339hGJ4MSVJ8xhlJdP59Soj8exIVkYm6
-h7WCoj8BMRXS1BTh3W3j1nHBrjipgLk9h5ZFKhAqxv4gojSLKHHK3JfWW9FIUzoj
-ty8tPfgWsGOTan3MBbwnSjAtrX1osW32sED8Czklgb4aplot+wiFsTdQoVsspH6p
-1DStrGxMrYG0zcvwM/Q6uvT16XwKiEcVkoHHZRh+VvL54P2N/JQJbTZ3PKOCub2y
-V9rSqDy0WOmDFRLMOqFCAtojmLGy4TYazHJBULPG0sHnnogydbykHedelSypvDs3
-ISeQQIb5aHnhKgxJRfP6kGOJxODHm52Dmgpp5jRDoFcs2zOz4/k=
-=MQCi
------END PGP SIGNATURE-----
-
---===============8038377804240630062==--
+--===============3962029444027629669==--
