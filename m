@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 07 Jan 2024 14:30:31 -0000
-Message-Id: <170463783123.4675.7921838707073253946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 07 Jan 2024 14:58:40 -0000
+Message-Id: <170463952018.23661.16765239637672013070@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/kvm-arm64/sysreg-xarray
-    old: e3f080f17cb0bae7e3092c0f775b99b3bb088345
-    new: 416a671223edaeb25292ece45acd53de09a23f3c
+  - ref: refs/heads/main
+    old: 363096a27f9087bc3a081e157b09683ff18508d4
+    new: 405cd9fc6f44f7a54505019bea60de83f1c58365
     log: |
-         416a671223edaeb25292ece45acd53de09a23f3c fixup! KVM: arm64: Add debugfs file for ID registers
+         405cd9fc6f44f7a54505019bea60de83f1c58365 net/sched: simplify tc_action_load_ops parameters
          
