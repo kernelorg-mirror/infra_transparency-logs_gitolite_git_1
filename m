@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 07 Jan 2024 18:23:46 -0000
-Message-Id: <170465182636.8091.10073329895550488493@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Sun, 07 Jan 2024 18:25:18 -0000
+Message-Id: <170465191852.10262.4826705601289947254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/main
-    old: 2560a0695a895109edd53185986c3c119acb83da
-    new: 2ffca83aa39ce70003a792acf3443175fc82a655
-    log: |
-         2ffca83aa39ce70003a792acf3443175fc82a655 net/sched: Remove ipt action tests
-         
+  - ref: refs/heads/eventfs-show-files
+    old: 0000000000000000000000000000000000000000
+    new: 61f3afbc042abbcdba7e5b945d8ef71601852d2a
