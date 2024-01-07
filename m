@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7601767322972366685=="
+Content-Type: multipart/mixed; boundary="===============7449805859583401831=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 07 Jan 2024 21:42:01 -0000
-Message-Id: <170466372148.21758.2005776917822204932@gitolite.kernel.org>
+Date: Sun, 07 Jan 2024 21:42:21 -0000
+Message-Id: <170466374199.21948.5207059727917379025@gitolite.kernel.org>
 
---===============7601767322972366685==
+--===============7449805859583401831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-sve-trap-mitigation
-    old: a726c92ba87587f9458bfb347af7eaaab4cb4922
-    new: d7855dbc2c2c986cc43385dd41af6291e9794232
-    log: revlist-a726c92ba875-d7855dbc2c2c.txt
+  - ref: refs/heads/arm64-test-ptrace-regs
+    old: d46b1a9b68a990205dcad0b6a6e9e305c3037ab2
+    new: 71c25c81e19882f1175464012d1ceb3b30b3a174
+    log: revlist-d46b1a9b68a9-71c25c81e198.txt
 
---===============7601767322972366685==
+--===============7449805859583401831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a726c92ba875-d7855dbc2c2c.txt
+Content-Disposition: attachment; filename=revlist-d46b1a9b68a9-71c25c81e198.txt
 
-bbb8e71965c3737bdc691afd803a34bfd61cfbeb ALSA: usb-audio: Add Pioneer DJM-450 mixer controls
 cd14dedf15be432066e63783c63d650f2800cd48 ALSA: hda/realtek: fix speakers on XPS 9530 (2023)
 6f7e4664e597440dfbdb8b2931c561b717030d07 ALSA: hda/realtek: Enable headset on Lenovo M90 Gen5
 b8e0792449928943c15d1af9f63816911d139267 virtio_blk: fix snprintf truncation compiler warning
@@ -1048,7 +1047,8 @@ a4ab2706bb1280693e7dff1c5c42a8cb9d70c177 Merge tag 'firewire-fixes-6.7-final' of
 a3368e1186e3ce8e38f78cbca019622095b1f331 i2c: core: Fix atomic xfer check for non-preempt config
 52b1853b080a082ec3749c3a9577f6c71b1d4a90 Merge tag 'i2c-for-6.7-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 0dd3ee31125508cd67f7e7172247f05b7fd1753a Linux 6.7
-0e89c86d8b93b6831bade32f7808b4a3346a0b99 EDITME: cover title for arm64-sve-trap-mitigation
-d7855dbc2c2c986cc43385dd41af6291e9794232 arm64/fpsimd: Suppress SVE access traps when loading FPSIMD state
+e2b72c4ec0a7e969c92d465bed50b322bc77b64e arm64/ptrace: Don't flush ZA/ZT storage when writing ZA via ptrace
+3bf1f6a5b718cd5bbbb03fe9f2b4895ae37977ac EDITME: cover title for arm64-test-ptrace-regs
+71c25c81e19882f1175464012d1ceb3b30b3a174 kselftest/arm64: Test that ptrace takes effect in the target process
 
---===============7601767322972366685==--
+--===============7449805859583401831==--
