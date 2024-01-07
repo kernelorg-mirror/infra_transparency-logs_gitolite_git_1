@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6112170687370918394=="
+Content-Type: multipart/mixed; boundary="===============3513806312122281918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 07 Jan 2024 08:29:35 -0000
-Message-Id: <170461617592.25530.16854955356417418910@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sun, 07 Jan 2024 08:29:41 -0000
+Message-Id: <170461618110.25610.4601647053163319122@gitolite.kernel.org>
 
---===============6112170687370918394==
+--===============3513806312122281918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 610a9b8f49fbcf1100716370d3b5f6f884a2835a
     log: revlist-861deac3b092-610a9b8f49fb.txt
 
---===============6112170687370918394==
+--===============3513806312122281918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -79,4 +79,4 @@ b106bcf0f99ae0459f3c8c2f0af575ef9f5d9bde locking/osq_lock: Clarify osq_wait_next
 2639772a11c860628c5f7007842eca52a1c34d78 get_maintainer: remove stray punctuation when cleaning file emails
 610a9b8f49fbcf1100716370d3b5f6f884a2835a Linux 6.7-rc8
 
---===============6112170687370918394==--
+--===============3513806312122281918==--
