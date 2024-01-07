@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Sun, 07 Jan 2024 22:07:22 -0000
-Message-Id: <170466524208.7754.14071448074187925847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 07 Jan 2024 22:07:40 -0000
+Message-Id: <170466526084.8329.16365716359746628062@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: 844d06e3127228d495eaf365f22dfe33891bb106
-    new: 45e37afa2e1af645012745afe384c9d4c327deee
-    log: |
-         45e37afa2e1af645012745afe384c9d4c327deee video/logo: use %u format specifier for unsigned int values
-         
+  - ref: refs/tags/x86_paravirt_for_v6.8
+    old: 0000000000000000000000000000000000000000
+    new: 77d9b99a504e65912e900488427b7f795bf49cbe
