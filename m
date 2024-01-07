@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9103404056182760721=="
+Content-Type: multipart/mixed; boundary="===============7991060143850020085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 07 Jan 2024 20:58:16 -0000
-Message-Id: <170466109642.21202.10428471013070516574@gitolite.kernel.org>
+Date: Sun, 07 Jan 2024 20:58:36 -0000
+Message-Id: <170466111632.21392.5146602893783674548@gitolite.kernel.org>
 
---===============9103404056182760721==
+--===============7991060143850020085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/mtd-selftest
-    old: fe17c2c2b718e49e480842b42442e08972210883
-    new: 7dd42d586d17d1a6a2846b82a3ea66103677b7ce
-    log: revlist-fe17c2c2b718-7dd42d586d17.txt
+  - ref: refs/heads/thermal-sun8i-registration
+    old: 99846b06986c4742c6b0b47a35441e12a8233daf
+    new: 21e42b2034a4087002fe1988411b9ef7a89b1ee6
+    log: revlist-99846b06986c-21e42b2034a4.txt
 
---===============9103404056182760721==
+--===============7991060143850020085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe17c2c2b718-7dd42d586d17.txt
+Content-Disposition: attachment; filename=revlist-99846b06986c-21e42b2034a4.txt
 
 bbb8e71965c3737bdc691afd803a34bfd61cfbeb ALSA: usb-audio: Add Pioneer DJM-450 mixer controls
 cd14dedf15be432066e63783c63d650f2800cd48 ALSA: hda/realtek: fix speakers on XPS 9530 (2023)
@@ -1048,7 +1048,7 @@ a4ab2706bb1280693e7dff1c5c42a8cb9d70c177 Merge tag 'firewire-fixes-6.7-final' of
 a3368e1186e3ce8e38f78cbca019622095b1f331 i2c: core: Fix atomic xfer check for non-preempt config
 52b1853b080a082ec3749c3a9577f6c71b1d4a90 Merge tag 'i2c-for-6.7-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 0dd3ee31125508cd67f7e7172247f05b7fd1753a Linux 6.7
-82a1971dcf6f9b59ff6963c5f081796acb72fc78 EDITME: cover title for mtd-selftest
-7dd42d586d17d1a6a2846b82a3ea66103677b7ce selftests/mtd: Add read only MTD selftest
+629444a9b82d7b32455824820ed7abb6509b65a9 ignored header
+21e42b2034a4087002fe1988411b9ef7a89b1ee6 thermal/drivers/sun8i: Don't fail probe due to zone registration failure
 
---===============9103404056182760721==--
+--===============7991060143850020085==--
