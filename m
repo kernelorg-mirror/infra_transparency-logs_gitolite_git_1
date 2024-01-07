@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6890004345822884092=="
+Content-Type: multipart/mixed; boundary="===============7289161896775070908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 07 Jan 2024 21:43:18 -0000
-Message-Id: <170466379828.22517.12066981936739099033@gitolite.kernel.org>
+Date: Sun, 07 Jan 2024 21:43:35 -0000
+Message-Id: <170466381521.22694.16047302915244022260@gitolite.kernel.org>
 
---===============6890004345822884092==
+--===============7289161896775070908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/kselftest-seccomp-benchmark-timeout
-    old: f33154ba6abdc1a6e3635676d6f14444e8cd7a6d
-    new: dad3bd6a2ee16b058fd35371c127cdeb39abc5ac
-    log: revlist-f33154ba6abd-dad3bd6a2ee1.txt
+  - ref: refs/heads/kvm-arm64-fp-init
+    old: 02ea1f86a4d2bfe4dbbfc64bcec361dc0c87f507
+    new: aeed56c6b4b03b13c3d018cd2441031019b1d0ed
+    log: revlist-02ea1f86a4d2-aeed56c6b4b0.txt
 
---===============6890004345822884092==
+--===============7289161896775070908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f33154ba6abd-dad3bd6a2ee1.txt
+Content-Disposition: attachment; filename=revlist-02ea1f86a4d2-aeed56c6b4b0.txt
 
 bbb8e71965c3737bdc691afd803a34bfd61cfbeb ALSA: usb-audio: Add Pioneer DJM-450 mixer controls
 cd14dedf15be432066e63783c63d650f2800cd48 ALSA: hda/realtek: fix speakers on XPS 9530 (2023)
@@ -1048,7 +1048,7 @@ a4ab2706bb1280693e7dff1c5c42a8cb9d70c177 Merge tag 'firewire-fixes-6.7-final' of
 a3368e1186e3ce8e38f78cbca019622095b1f331 i2c: core: Fix atomic xfer check for non-preempt config
 52b1853b080a082ec3749c3a9577f6c71b1d4a90 Merge tag 'i2c-for-6.7-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 0dd3ee31125508cd67f7e7172247f05b7fd1753a Linux 6.7
-43d3f8c473912a2efa3a26cbdf68cd4f5d74a63c EDITME: cover title for b4/kselftest-seccomp-benchmark-timeout
-dad3bd6a2ee16b058fd35371c127cdeb39abc5ac selftests/seccomp: Try to fit runtime of benchmark into timeout
+b69b59fecc0c7cc4d0ebda097f58b8965bd29082 EDITME: cover title for kvm-arm64-fp-init
+aeed56c6b4b03b13c3d018cd2441031019b1d0ed KVM: arm64: Only default to enabling SVE when present
 
---===============6890004345822884092==--
+--===============7289161896775070908==--
