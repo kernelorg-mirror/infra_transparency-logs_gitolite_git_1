@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0039826829518471431=="
+Content-Type: multipart/mixed; boundary="===============6890004345822884092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 07 Jan 2024 21:42:54 -0000
-Message-Id: <170466377488.22299.682592704170613801@gitolite.kernel.org>
+Date: Sun, 07 Jan 2024 21:43:18 -0000
+Message-Id: <170466379828.22517.12066981936739099033@gitolite.kernel.org>
 
---===============0039826829518471431==
+--===============6890004345822884092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/iio-maple
-    old: 36bf42cb598c525549e04d142be6d10cf454c523
-    new: 9dcee3f6509ac6c1474358ebae61a8b286948f9e
-    log: revlist-36bf42cb598c-9dcee3f6509a.txt
+  - ref: refs/heads/kselftest-seccomp-benchmark-timeout
+    old: f33154ba6abdc1a6e3635676d6f14444e8cd7a6d
+    new: dad3bd6a2ee16b058fd35371c127cdeb39abc5ac
+    log: revlist-f33154ba6abd-dad3bd6a2ee1.txt
 
---===============0039826829518471431==
+--===============6890004345822884092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36bf42cb598c-9dcee3f6509a.txt
+Content-Disposition: attachment; filename=revlist-f33154ba6abd-dad3bd6a2ee1.txt
 
+bbb8e71965c3737bdc691afd803a34bfd61cfbeb ALSA: usb-audio: Add Pioneer DJM-450 mixer controls
+cd14dedf15be432066e63783c63d650f2800cd48 ALSA: hda/realtek: fix speakers on XPS 9530 (2023)
 6f7e4664e597440dfbdb8b2931c561b717030d07 ALSA: hda/realtek: Enable headset on Lenovo M90 Gen5
 b8e0792449928943c15d1af9f63816911d139267 virtio_blk: fix snprintf truncation compiler warning
 2fff0b5e1a6b9c577b4dd4958902c877159c856b pinctrl: amd: Mask non-wake source pins with interrupt enabled at suspend
@@ -1046,9 +1048,7 @@ a4ab2706bb1280693e7dff1c5c42a8cb9d70c177 Merge tag 'firewire-fixes-6.7-final' of
 a3368e1186e3ce8e38f78cbca019622095b1f331 i2c: core: Fix atomic xfer check for non-preempt config
 52b1853b080a082ec3749c3a9577f6c71b1d4a90 Merge tag 'i2c-for-6.7-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 0dd3ee31125508cd67f7e7172247f05b7fd1753a Linux 6.7
-de6e5be26dd5fbd6668c5ca10a9238467609d49f iio: Use maple tree register cache for single register I/O devices
-2d6370566e5dcb06629476256cb52e9b67c0d896 iio: apds9960: Use maple tree register cache
-849f1301383c644bd718762e30c0baf364225f01 iio: max44000: Use maple tree register cache
-9dcee3f6509ac6c1474358ebae61a8b286948f9e iio: mlx90632: Use maple tree register cache
+43d3f8c473912a2efa3a26cbdf68cd4f5d74a63c EDITME: cover title for b4/kselftest-seccomp-benchmark-timeout
+dad3bd6a2ee16b058fd35371c127cdeb39abc5ac selftests/seccomp: Try to fit runtime of benchmark into timeout
 
---===============0039826829518471431==--
+--===============6890004345822884092==--
