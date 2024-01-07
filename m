@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3233840733798770204=="
+Content-Type: multipart/mixed; boundary="===============7601767322972366685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 07 Jan 2024 21:41:45 -0000
-Message-Id: <170466370539.21571.6320398893687994889@gitolite.kernel.org>
+Date: Sun, 07 Jan 2024 21:42:01 -0000
+Message-Id: <170466372148.21758.2005776917822204932@gitolite.kernel.org>
 
---===============3233840733798770204==
+--===============7601767322972366685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,64 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-gcs
-    old: 34e2eceffc0acd0ac2b067a09447f02052e68788
-    new: 6786689ef884c13d59b8bfb6ed48a3b5e2871d0a
-    log: revlist-34e2eceffc0a-6786689ef884.txt
+  - ref: refs/heads/arm64-sve-trap-mitigation
+    old: a726c92ba87587f9458bfb347af7eaaab4cb4922
+    new: d7855dbc2c2c986cc43385dd41af6291e9794232
+    log: revlist-a726c92ba875-d7855dbc2c2c.txt
 
---===============3233840733798770204==
+--===============7601767322972366685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-34e2eceffc0a-6786689ef884.txt
+Content-Disposition: attachment; filename=revlist-a726c92ba875-d7855dbc2c2c.txt
 
+bbb8e71965c3737bdc691afd803a34bfd61cfbeb ALSA: usb-audio: Add Pioneer DJM-450 mixer controls
+cd14dedf15be432066e63783c63d650f2800cd48 ALSA: hda/realtek: fix speakers on XPS 9530 (2023)
+6f7e4664e597440dfbdb8b2931c561b717030d07 ALSA: hda/realtek: Enable headset on Lenovo M90 Gen5
+b8e0792449928943c15d1af9f63816911d139267 virtio_blk: fix snprintf truncation compiler warning
+2fff0b5e1a6b9c577b4dd4958902c877159c856b pinctrl: amd: Mask non-wake source pins with interrupt enabled at suspend
+a9f68ffe1170ca4bc17ab29067d806a354a026e0 HID: i2c-hid: Add IDEA5002 to i2c_hid_acpi_blacklist[]
+31e52523267faab5ed8569b9d5c22c9a2283872f HID: Add quirk for Labtec/ODDOR/aikeec handbrake
+fb9ad24485087e0f00d84bee7a5914640b2b9024 ASoC: ops: add correct range check for limiting volume
+716d4e5373e9d1ae993485ab2e3b893bf7104fb1 ASoC: qcom: sc8280xp: Limit speaker digital volumes
+5c687c287c46fadb14644091823298875a5216aa nvme: introduce helper function to get ctrl state
+e6e7f7ac03e40795346f1b2994a05f507ad8d345 nvme: ensure reset state check ordering
+7be866b1cf0bf1dfa74480fe8097daeceda68622 nvme-ioctl: move capable() admin check to the end
+29ac4b2f9263f52ba12fa35832cc6506ce3b4793 nvme: improve NVME_HOST_AUTH and NVME_TARGET_AUTH config descriptions
+20dc66f2d76b4a410df14e4675e373b718babc34 nvme: prevent potential spectre v1 gadget
+839a40d1e730977d4448d141fa653517c2959a88 nvme: fix deadlock between reset and scan
+d8792a5734b0f3e58b898c2e2f910bfac48e9ee3 riscv: Safely remove entries from relocation list
+4a92a87950c4f86bc372ee3b1da4ba9d092252a9 riscv: Correct type casting in module loading
+7c1593410bca9a66c89d528f523ae32e2e220e68 Merge patch series "riscv: Fix issues with module loading"
+815f986f33eeb06652d59d8a4d405d4fdb4e59a8 arm64: dts: rockchip: drop interrupt-names property from rk3588s dfi
+7b2404a886f8b91250c31855d287e632123e1746 cifs: Fix flushing, invalidation and file size with copy_file_range()
+c54fc3a4f375663f2361a9cbb2955fb4ef912879 cifs: Fix flushing, invalidation and file size with FICLONE
+c13c823a78b77ea0e5f1f73112d910e259911101 arm64: dts: rockchip: Fix PCI node addresses on rk3399-gru
+ef6fae4a13aecfa7966edff0445e5c920ad2ddd9 bcachefs; Don't use btree write buffer until journal replay is finished
+87b0d8d3d05028c59b64c0287efeca90c28e1152 bcachefs: Fix a journal deadlock in replay
+131898b0cb4ac6598d3537eeeee2711dec129f51 bcachefs: Fix bch2_extent_drop_ptrs() call
+adcf4ee64291b701d083bacf653eb10a4c46acd7 bcachefs: Convert compression_stats to for_each_btree_key2
+f88d811a238b12a261a04f125db952cf05c06d0b bcachefs: Don't run indirect extent trigger unless inserting/deleting
+0a10d15280a385e5971fb58a6d2eddbf7c0aa9f3 ASoC: qcom: Limit Digital gains on speaker
+1e535748449a51842872c46db61525f7524fc63a Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+bee0e7762ad2c6025b9f5245c040fcc36ef2bde8 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
+db3fadacaf0c817b222090290d06ca2a338422d0 packet: Move reference count in packet_sock to atomic_long_t
+4fbc3a52cd4d14de3793f4b2c721d7306ea84cf9 RDMA/core: Fix umem iterator when PAGE_SIZE is greater then HCA pgsz
+0a5ec366de7e94192669ba08de6ed336607fd282 RDMA/irdma: Ensure iWarp QP queue memory is OS paged aligned
+03769f72d66edab82484449ed594cb6b00ae0223 RDMA/irdma: Fix support for 64k pages
+e3e82fcb79eeb3f1a88a89f676831773caff514a RDMA/irdma: Avoid free the non-cqp_request scratch
+fcc9b50e5517f7d65cdc33d81f223b22536f863f Revert "greybus: gb-beagleplay: Ensure le for values in transport"
+e05501e8a84eee4f819f31b9ce663bddd01b3b69 cxl: Add cxl_num_decoders_committed() usage to cxl_test
+659aa050a53817157b7459529538598a6449c1d3 kernel/resource: Increment by align value in get_free_mem_region()
+6b17a597fc2f13aaaa0a2780eb7edb9ae7ac9aea arcnet: restoring support for multiple Sohard Arcnet cards
+33924328498e903bea74727353e5012d29653aff Merge tag 'drm-intel-fixes-2023-12-01-1' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+adbf100fc47001c93d7e513ecac6fd6e04d5b4a1 octeontx2-pf: consider both Rx and Tx packet stats for adaptive interrupt coalescing
+37e4b8df27bc68340f3fc80dbb27e3549c7f881c net: stmmac: fix FPE events losing
+4b3338aaa74d7d4ec5b6734dc298f0db94ec83d2 powerpc/ftrace: Fix stack teardown in ftrace_no_trace
+a5e400a985df8041ed4659ed1462aa9134318130 net/mlx5e: Honor user choice of IPsec replay window size
+3d42c8cc67a8fcbff0181f9ed6d03d353edcee07 net/mlx5e: Ensure that IPsec sequence packet number starts from 1
+94af50c0a9bb961fe93cf0fdd14eb0883da86721 net/mlx5e: Unify esw and normal IPsec status table creation/destruction
+5ad00dee43b98129b86930d457b983d4d04dc553 net/mlx5e: Remove exposure of IPsec RX flow steering struct
 dddb49b63d8683be81cff220b94a0196c1367b74 net/mlx5e: Add IPsec and ASO syndromes check in HW
 c2bf84f1d1a1595dcc45fe867f0e02b331993fee net/mlx5e: Tidy up IPsec NAT-T SA discovery
 baac8351f74c543896b8fd40138b7ad9365587a3 net/mlx5e: Reduce eswitch mode_lock protection context
@@ -1001,54 +1048,7 @@ a4ab2706bb1280693e7dff1c5c42a8cb9d70c177 Merge tag 'firewire-fixes-6.7-final' of
 a3368e1186e3ce8e38f78cbca019622095b1f331 i2c: core: Fix atomic xfer check for non-preempt config
 52b1853b080a082ec3749c3a9577f6c71b1d4a90 Merge tag 'i2c-for-6.7-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 0dd3ee31125508cd67f7e7172247f05b7fd1753a Linux 6.7
-57ef491f618e9f2babb98ee23cde492f386236dc fork: Support shadow stacks in clone3()
-533b43a7a475930f61952662532151b5379fc0ca mm: Introduce ARCH_HAS_USER_SHADOW_STACK
-ddb0c074daf6b08eee6709fa6cbc7f510be2f599 fork: Add shadow stack support to clone3()
-2fc8d7d65e04b6a751ad439619d1b57ec561301a selftests/clone3: Factor more of main loop into test_clone3()
-0a85e0811d892a9610eb9074e80a70fb7ba5be79 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
-a9c6b02f7c5a7d4156d3f554120b39f85df29d63 kselftest/clone3: Test shadow stack support
-c482b524cf471ada6d46edb1dd5967df33fe9d7a fork: Support shadow stacks in clone3()
-c54d17ad1c39e513d820da6f60029c39a8069327 fork: Support shadow stacks in clone3()
-1ef65161af22f21f7c080b44efe5a922843e308f tools/nolibc: Use linux/wait.h rather than duplicating it
-1d8bb497218a996be63e13ef8593cb63dcf661c0 arm64/gcs: Provide support for GCS in userspace
-f0a51184262e8a0793628450ae302480d5581334 arm64/mm: Restructure arch_validate_flags() for extensibility
-a5da99de40ce84889d6df1cf88483dde27f4f996 prctl: arch-agnostic prctl for shadow stack
-402cdfcad58127810fb2222c11d4038ba7dd0f1e mman: Add map_shadow_stack() flags
-f17ba57527a6c378e53661457a335eae1df3318f arm64: Document boot requirements for Guarded Control Stacks
-74e2c26f333e94e9f26d88284fde699196589649 arm64/gcs: Document the ABI for Guarded Control Stacks
-58e39f221bf87ed4b550c16b9e4d817b92cfbfbd arm64/sysreg: Add new system registers for GCS
-edb78699236d548f22c1b2d7d128febb169fe604 arm64/sysreg: Add definitions for architected GCS caps
-80e94f03f89d5428e63740fe810019e9f9e63006 arm64/gcs: Add manual encodings of GCS instructions
-9d5992b74dbcae321cf9493e4c9a74d13598481d arm64/gcs: Provide put_user_gcs()
-7f7ac9de689eb81ae49a251e8628027508eed919 arm64/cpufeature: Runtime detection of Guarded Control Stack (GCS)
-ee8e225b96b5af2fb77ea64498560cbe76ded2f6 arm64/mm: Allocate PIE slots for EL0 guarded control stack
-55438600cffda9c0796f5f8e78ef8785b05d11fc mm: Define VM_SHADOW_STACK for arm64 when we support GCS
-29a4476dde411c332f3901c56b5031ad1fce1bf1 arm64/mm: Map pages for guarded control stack
-f4987eb64d76b1a8097438c5a346e34ba8ae542b KVM: arm64: Manage GCS registers for guests
-a4c123bcb10b2b1796fd388ccf96e2e144a07597 arm64/gcs: Allow GCS usage at EL0 and EL1
-af9f784b0bb881430edd4c275d29d2809f6a62c6 arm64/idreg: Add overrride for GCS
-f1f22448b63f1584296fdd500cc20db69271f983 arm64/hwcap: Add hwcap for GCS
-0e408979a3205d41d4b9b63b0d153e0bd5a75fc8 arm64/traps: Handle GCS exceptions
-24e5a6cbe1b0038f9c041716739a722142ffdd8d arm64/mm: Handle GCS data aborts
-578c8b3f990d56806fec5d5591a52e1131f28970 arm64/gcs: Context switch GCS state for EL0
-79e8267969f06bd52769ed822f81d2737e64b544 arm64/gcs: Allocate a new GCS for threads with GCS enabled
-1a0ea68a0cc4fc7c7452253fcae97ac35955ec6c arm64/gcs: Implement shadow stack prctl() interface
-07fcb7e90dee4d1306f1309858bea5547ded47ae arm64/mm: Implement map_shadow_stack()
-9722c10d0e5577f36a405addfe24c69e9577c5f8 arm64/signal: Set up and restore the GCS context for signal handlers
-a8f8d47154a98239242f1970095cf5325d7370b2 arm64/signal: Expose GCS state in signal frames
-a7acd1f1e554ecda88c9a704af9297ce647958e0 arm64/ptrace: Expose GCS via ptrace and core files
-6fc5c404d7fb9d49a6d0037d9c7976f6bd1d5083 arm64: Add Kconfig for Guarded Control Stack (GCS)
-dde6ed369702487813a8e3af533927c29ac3aff6 kselftest/arm64: Verify the GCS hwcap
-e6151fadfb3f193f046b07134272d364eedd54aa kselftest/arm64: Add GCS as a detected feature in the signal tests
-8f2e83cfd7439fa10f1132c6a129d99d351191d3 kselftest/arm64: Add framework support for GCS to signal handling tests
-f46da0d2440614d4c27338daace7389f8f2539d1 kselftest/arm64: Allow signals tests to specify an expected si_code
-c9305545b5451a26eb003f80626170e4ae83aed3 kselftest/arm64: Always run signals tests with GCS enabled
-3b3950698635ea547f8019019c9ab666cb519f84 kselftest/arm64: Add very basic GCS test program
-e29fcc0a1dfdb36d594bf5a5cfacc04355a5d31b kselftest/arm64: Add a GCS test program built with the system libc
-239deb31942e6a6bc047d68b10d7130bfefb2c92 kselftest/arm64: Add test coverage for GCS mode locking
-374086f8cf26797399e2c7cb241660dade58b0ad selftests/arm64: Add GCS signal tests
-6a51e770e79e199c35789542081fe20f695ca5ff kselftest/arm64: Add a GCS stress test
-66f5c61e2ec08da2133fb5b28c9cd88da6a524c7 kselftest/arm64: Enable GCS for the FP stress tests
-6786689ef884c13d59b8bfb6ed48a3b5e2871d0a kselftest/clone3: Enable GCS in the clone3 selftests
+0e89c86d8b93b6831bade32f7808b4a3346a0b99 EDITME: cover title for arm64-sve-trap-mitigation
+d7855dbc2c2c986cc43385dd41af6291e9794232 arm64/fpsimd: Suppress SVE access traps when loading FPSIMD state
 
---===============3233840733798770204==--
+--===============7601767322972366685==--
