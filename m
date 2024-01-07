@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8045272314406113186=="
+Content-Type: multipart/mixed; boundary="===============3002701561937901726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 07 Jan 2024 21:43:50 -0000
-Message-Id: <170466383081.22879.8836808858112068498@gitolite.kernel.org>
+Date: Sun, 07 Jan 2024 21:44:09 -0000
+Message-Id: <170466384919.23067.2373844299206599489@gitolite.kernel.org>
 
---===============8045272314406113186==
+--===============3002701561937901726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,40 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/kvm-arm64-nvhe-sve-trap
-    old: 45937d9d8ac77dd73b85c9a561a94245bfdbbc8b
-    new: 82055afab88a23b9620d382e92382a76072742fb
-    log: revlist-45937d9d8ac7-82055afab88a.txt
+  - ref: refs/heads/kvm-arm64-sme
+    old: 03847375482dc4d7f7704b61178bfd65c10a5e01
+    new: 12d0b6f0f1c563f644a6feb3cba73aa937b958ff
+    log: revlist-03847375482d-12d0b6f0f1c5.txt
 
---===============8045272314406113186==
+--===============3002701561937901726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45937d9d8ac7-82055afab88a.txt
+Content-Disposition: attachment; filename=revlist-03847375482d-12d0b6f0f1c5.txt
 
-bbb8e71965c3737bdc691afd803a34bfd61cfbeb ALSA: usb-audio: Add Pioneer DJM-450 mixer controls
-cd14dedf15be432066e63783c63d650f2800cd48 ALSA: hda/realtek: fix speakers on XPS 9530 (2023)
-6f7e4664e597440dfbdb8b2931c561b717030d07 ALSA: hda/realtek: Enable headset on Lenovo M90 Gen5
-b8e0792449928943c15d1af9f63816911d139267 virtio_blk: fix snprintf truncation compiler warning
-2fff0b5e1a6b9c577b4dd4958902c877159c856b pinctrl: amd: Mask non-wake source pins with interrupt enabled at suspend
-a9f68ffe1170ca4bc17ab29067d806a354a026e0 HID: i2c-hid: Add IDEA5002 to i2c_hid_acpi_blacklist[]
-31e52523267faab5ed8569b9d5c22c9a2283872f HID: Add quirk for Labtec/ODDOR/aikeec handbrake
-fb9ad24485087e0f00d84bee7a5914640b2b9024 ASoC: ops: add correct range check for limiting volume
-716d4e5373e9d1ae993485ab2e3b893bf7104fb1 ASoC: qcom: sc8280xp: Limit speaker digital volumes
-5c687c287c46fadb14644091823298875a5216aa nvme: introduce helper function to get ctrl state
-e6e7f7ac03e40795346f1b2994a05f507ad8d345 nvme: ensure reset state check ordering
-7be866b1cf0bf1dfa74480fe8097daeceda68622 nvme-ioctl: move capable() admin check to the end
-29ac4b2f9263f52ba12fa35832cc6506ce3b4793 nvme: improve NVME_HOST_AUTH and NVME_TARGET_AUTH config descriptions
-20dc66f2d76b4a410df14e4675e373b718babc34 nvme: prevent potential spectre v1 gadget
-839a40d1e730977d4448d141fa653517c2959a88 nvme: fix deadlock between reset and scan
-d8792a5734b0f3e58b898c2e2f910bfac48e9ee3 riscv: Safely remove entries from relocation list
-4a92a87950c4f86bc372ee3b1da4ba9d092252a9 riscv: Correct type casting in module loading
-7c1593410bca9a66c89d528f523ae32e2e220e68 Merge patch series "riscv: Fix issues with module loading"
-815f986f33eeb06652d59d8a4d405d4fdb4e59a8 arm64: dts: rockchip: drop interrupt-names property from rk3588s dfi
-7b2404a886f8b91250c31855d287e632123e1746 cifs: Fix flushing, invalidation and file size with copy_file_range()
-c54fc3a4f375663f2361a9cbb2955fb4ef912879 cifs: Fix flushing, invalidation and file size with FICLONE
-c13c823a78b77ea0e5f1f73112d910e259911101 arm64: dts: rockchip: Fix PCI node addresses on rk3399-gru
-ef6fae4a13aecfa7966edff0445e5c920ad2ddd9 bcachefs; Don't use btree write buffer until journal replay is finished
 87b0d8d3d05028c59b64c0287efeca90c28e1152 bcachefs: Fix a journal deadlock in replay
 131898b0cb4ac6598d3537eeeee2711dec129f51 bcachefs: Fix bch2_extent_drop_ptrs() call
 adcf4ee64291b701d083bacf653eb10a4c46acd7 bcachefs: Convert compression_stats to for_each_btree_key2
@@ -1048,7 +1025,30 @@ a4ab2706bb1280693e7dff1c5c42a8cb9d70c177 Merge tag 'firewire-fixes-6.7-final' of
 a3368e1186e3ce8e38f78cbca019622095b1f331 i2c: core: Fix atomic xfer check for non-preempt config
 52b1853b080a082ec3749c3a9577f6c71b1d4a90 Merge tag 'i2c-for-6.7-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 0dd3ee31125508cd67f7e7172247f05b7fd1753a Linux 6.7
-9cbc15346ee08ed8b9246c389483ee9ad446102f EDITME: cover title for kvm-arm64-nvhe-sve-trap
-82055afab88a23b9620d382e92382a76072742fb KVM: arm64: Document why we trap SVE access from the host in nVHE
+6e462d804bbac64f26eac52753e55ac145f56a45 kselftest/arm64: Don't probe the current VL for unsupported vector types
+92ff7b79cfce5e9feaa75d41de0e4855800d42c0 kselftest/arm64: Log SVCR when the SME tests barf
+5288f5ccb5cf7fad6ae7f35d5045dffccf6a1e20 KVM: arm64: Implement support for SME in non-protected guests
+2d937ba92d6117011e2bbb51616730d630ceee63 KVM: arm64: Document why we trap SVE access from the host
+fcaeadffc59c00f9a0a627d99982985e8d6772e4 arm64/fpsimd: Make SVE<->FPSIMD rewriting available to KVM
+406c40aba2c7fbca5734a6f63eebecdfcc364b42 KVM: arm64: Move SVE state access macros after feature test macros
+9b612be79580bd6a804fd9868dbc4be797fb05d8 KVM: arm64: Store vector lengths in an array
+168d182ed6ba5d319c9972c3f9ea774b1e3c6ea2 KVM: arm64: Document the KVM ABI for SME
+428ac7041769edd57bce200d322388006cfbb190 KVM: arm64: Make FFR restore optional in __sve_restore_state()
+c5b3f08583ab4ad61df2b872f102019adc5f1c11 KVM: arm64: Define guest flags for SME
+ab98fb698f7ac9586ae1ad821fc855c14935f463 KVM: arm64: Rename SVE finalization constants to be more general
+878542cc0f7ceacaaa081e4420cd494124e2a44e KVM: arm64: Basic SME system register descriptions
+01f8e9e5ac0621fc8a86c31518d2334aa2f635af KVM: arm64: Add support for TPIDR2_EL0
+d907a6e6e8bf0e3c2c648743c3e6f8dd2c1b0a9c KVM: arm64: Make SMPRI_EL1 RES0 for SME guests
+716ce2e47e265c7fa5db947c86948fa12b3d7dc4 KVM: arm64: Make SVCR a normal system register
+52b40cfb122f175d30a222446ee22e354f572a3a KVM: arm64: Context switch SME state for guest
+803d71f378820efbbb75934adfa0937e5670054e KVM: arm64: Manage and handle SME traps
+1fbbf4017a54d68a0d8ae397028c7ebdf4fb67ce KVM: arm64: Implement SME vector length configuration
+6efefd60647683c9bc47f815a062f7cfa86056a4 KVM: arm64: Rename sve_state_reg_region
+9feb2b8804e5ffba2392d915afacdee552eccb87 KVM: arm64: Support userspace access to streaming mode SVE registers
+5c56492bda655f7cd9c325b5e04dbb12de4496d0 KVM: arm64: Expose ZA to userspace
+8bea7897f34c042a7ee5d2fefeaa167c351244d1 KVM: arm64: Provide userspace access to ZT0
+ccc348ea4a9fc3cf6644c03b8ad8db300154612c KVM: arm64: Support SME version configuration via ID registers
+a1a0e72187d0c992e0fe59ad17515b70f4d57384 KVM: arm64: Provide userspace ABI for enabling SME
+12d0b6f0f1c563f644a6feb3cba73aa937b958ff KVM: arm64: selftests: Add SME system registers to get-reg-list
 
---===============8045272314406113186==--
+--===============3002701561937901726==--
