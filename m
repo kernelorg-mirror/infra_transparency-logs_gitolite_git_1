@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 07 Jan 2024 16:05:15 -0000
-Message-Id: <170464351583.7806.3204968197530825955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 07 Jan 2024 16:15:45 -0000
+Message-Id: <170464414577.15975.3715101083004031289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/main
-    old: 61921bdaa132b580b6db6858e6d7dcdb870df5fe
-    new: ac631873c9e7a50d2a8de457cfc4b9f86666403e
+  - ref: refs/heads/testing
+    old: 5e43ba350ed0c6b96f3d3898f8392d04910b39ae
+    new: 46b6afed656faa5b0861573c0d349163eb9fd0ef
     log: |
-         ac631873c9e7a50d2a8de457cfc4b9f86666403e net: ethernet: cortina: Drop TSO support
+         4b62937adbd19cb4765d84c1f7ed0e7167e7b9f8 iio: accel: da280: Simplify id-matching
+         46b6afed656faa5b0861573c0d349163eb9fd0ef iio: adc: ti-ads1015: Use correct pga upper bound
          
