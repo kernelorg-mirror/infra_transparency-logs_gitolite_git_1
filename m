@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2064310008811426363=="
+Content-Type: multipart/mixed; boundary="===============0039826829518471431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 07 Jan 2024 21:42:39 -0000
-Message-Id: <170466375919.22117.8055032366533439373@gitolite.kernel.org>
+Date: Sun, 07 Jan 2024 21:42:54 -0000
+Message-Id: <170466377488.22299.682592704170613801@gitolite.kernel.org>
 
---===============2064310008811426363==
+--===============0039826829518471431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/clone3-shadow-stack
-    old: b0d6dfcb1537701b5d4ac3847be51a815b168427
-    new: a9c6b02f7c5a7d4156d3f554120b39f85df29d63
-    log: revlist-b0d6dfcb1537-a9c6b02f7c5a.txt
+  - ref: refs/heads/iio-maple
+    old: 36bf42cb598c525549e04d142be6d10cf454c523
+    new: 9dcee3f6509ac6c1474358ebae61a8b286948f9e
+    log: revlist-36bf42cb598c-9dcee3f6509a.txt
 
---===============2064310008811426363==
+--===============0039826829518471431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b0d6dfcb1537-a9c6b02f7c5a.txt
+Content-Disposition: attachment; filename=revlist-36bf42cb598c-9dcee3f6509a.txt
 
+6f7e4664e597440dfbdb8b2931c561b717030d07 ALSA: hda/realtek: Enable headset on Lenovo M90 Gen5
+b8e0792449928943c15d1af9f63816911d139267 virtio_blk: fix snprintf truncation compiler warning
 2fff0b5e1a6b9c577b4dd4958902c877159c856b pinctrl: amd: Mask non-wake source pins with interrupt enabled at suspend
 a9f68ffe1170ca4bc17ab29067d806a354a026e0 HID: i2c-hid: Add IDEA5002 to i2c_hid_acpi_blacklist[]
 31e52523267faab5ed8569b9d5c22c9a2283872f HID: Add quirk for Labtec/ODDOR/aikeec handbrake
@@ -1044,11 +1046,9 @@ a4ab2706bb1280693e7dff1c5c42a8cb9d70c177 Merge tag 'firewire-fixes-6.7-final' of
 a3368e1186e3ce8e38f78cbca019622095b1f331 i2c: core: Fix atomic xfer check for non-preempt config
 52b1853b080a082ec3749c3a9577f6c71b1d4a90 Merge tag 'i2c-for-6.7-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 0dd3ee31125508cd67f7e7172247f05b7fd1753a Linux 6.7
-57ef491f618e9f2babb98ee23cde492f386236dc fork: Support shadow stacks in clone3()
-533b43a7a475930f61952662532151b5379fc0ca mm: Introduce ARCH_HAS_USER_SHADOW_STACK
-ddb0c074daf6b08eee6709fa6cbc7f510be2f599 fork: Add shadow stack support to clone3()
-2fc8d7d65e04b6a751ad439619d1b57ec561301a selftests/clone3: Factor more of main loop into test_clone3()
-0a85e0811d892a9610eb9074e80a70fb7ba5be79 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
-a9c6b02f7c5a7d4156d3f554120b39f85df29d63 kselftest/clone3: Test shadow stack support
+de6e5be26dd5fbd6668c5ca10a9238467609d49f iio: Use maple tree register cache for single register I/O devices
+2d6370566e5dcb06629476256cb52e9b67c0d896 iio: apds9960: Use maple tree register cache
+849f1301383c644bd718762e30c0baf364225f01 iio: max44000: Use maple tree register cache
+9dcee3f6509ac6c1474358ebae61a8b286948f9e iio: mlx90632: Use maple tree register cache
 
---===============2064310008811426363==--
+--===============0039826829518471431==--
