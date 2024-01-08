@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6416717986941054127=="
+Content-Type: multipart/mixed; boundary="===============3338296958784551683=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Mon, 08 Jan 2024 00:37:58 -0000
-Message-Id: <170467427874.19481.15329330415300013769@gitolite.kernel.org>
+Date: Mon, 08 Jan 2024 00:38:20 -0000
+Message-Id: <170467430006.19664.5031917925596464076@gitolite.kernel.org>
 
---===============6416717986941054127==
+--===============3338296958784551683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ieee1394/linux1394
 user: takaswie
 changes:
-  - ref: refs/heads/for-next
-    old: 0be7f07d134d0fa3d47c80123dea1e6613d5cf6b
-    new: 14342e01cdbac7380cc92f228fd6f9c12cc12980
-    log: revlist-0be7f07d134d-14342e01cdba.txt
+  - ref: refs/heads/main
+    old: ffc253263a1375a65fa6c9f62a893e9767fbebfa
+    new: 0dd3ee31125508cd67f7e7172247f05b7fd1753a
+    log: revlist-ffc253263a13-0dd3ee311255.txt
 
---===============6416717986941054127==
+--===============3338296958784551683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0be7f07d134d-14342e01cdba.txt
+Content-Disposition: attachment; filename=revlist-ffc253263a13-0dd3ee311255.txt
 
+85ac6d92fdfd6097a16d9c61363fe1d0272c1604 iio: adc: MCP3564: fix calib_bias and calib_scale range checks
+408d4b33c2440600418a1eb9c89eaa27cf5867ad iio: adc: MCP3564: fix hardware identification logic
+bbb8e71965c3737bdc691afd803a34bfd61cfbeb ALSA: usb-audio: Add Pioneer DJM-450 mixer controls
+cd14dedf15be432066e63783c63d650f2800cd48 ALSA: hda/realtek: fix speakers on XPS 9530 (2023)
+6f7e4664e597440dfbdb8b2931c561b717030d07 ALSA: hda/realtek: Enable headset on Lenovo M90 Gen5
+b8e0792449928943c15d1af9f63816911d139267 virtio_blk: fix snprintf truncation compiler warning
+2fff0b5e1a6b9c577b4dd4958902c877159c856b pinctrl: amd: Mask non-wake source pins with interrupt enabled at suspend
+a9f68ffe1170ca4bc17ab29067d806a354a026e0 HID: i2c-hid: Add IDEA5002 to i2c_hid_acpi_blacklist[]
+31e52523267faab5ed8569b9d5c22c9a2283872f HID: Add quirk for Labtec/ODDOR/aikeec handbrake
 fb9ad24485087e0f00d84bee7a5914640b2b9024 ASoC: ops: add correct range check for limiting volume
 716d4e5373e9d1ae993485ab2e3b893bf7104fb1 ASoC: qcom: sc8280xp: Limit speaker digital volumes
 5c687c287c46fadb14644091823298875a5216aa nvme: introduce helper function to get ctrl state
@@ -1041,14 +1050,5 @@ a4ab2706bb1280693e7dff1c5c42a8cb9d70c177 Merge tag 'firewire-fixes-6.7-final' of
 a3368e1186e3ce8e38f78cbca019622095b1f331 i2c: core: Fix atomic xfer check for non-preempt config
 52b1853b080a082ec3749c3a9577f6c71b1d4a90 Merge tag 'i2c-for-6.7-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 0dd3ee31125508cd67f7e7172247f05b7fd1753a Linux 6.7
-10416a3578ba5f76d0b161d2d36a1d8a4c46a69d firewire: make fw_bus_type const
-f1e2f87834f4f8427e5dd282312f552e8ca02d1c firewire: core: adds constant qualifier for local helper functions
-afa36dadd3b3f509ab48eabc1a89f487be6c6af4 firewire: core: replace magic number with macro
-1770d39d10dd4c7b867e8e9f88d0f23373df3773 firewire: test: add KUnit test for device attributes
-1c8506d62624fbc57db75414a387f365da8422e9 firewire: test: add test of device attributes for simple AV/C device
-58aae0a00e0d1d677d064280c69aa10038af97ea firewire: test: add test of device attributes for legacy AV/C device
-b6a38057d06e282c1a4630db1d7b74548664a1d7 firewire: core: detect numeric model identifier for legacy layout of configuration ROM
-2eab8bc0f0c80ddb8c7d8192ff6f13c2bc505739 firewire: core: detect model name for legacy layout of configuration ROM
-14342e01cdbac7380cc92f228fd6f9c12cc12980 firewire: core: change modalias of unit device with backward incompatibility
 
---===============6416717986941054127==--
+--===============3338296958784551683==--
