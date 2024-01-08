@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2414276130211217485=="
+Content-Type: multipart/mixed; boundary="===============8116940941347496644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 08 Jan 2024 15:48:11 -0000
-Message-Id: <170472889191.9475.5437383868687945125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 08 Jan 2024 15:48:18 -0000
+Message-Id: <170472889858.9608.11056550309652251108@gitolite.kernel.org>
 
---===============2414276130211217485==
+--===============8116940941347496644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/asoc-6.8
     old: 15de2a27024132fcfe0078e2f56d697a0039e9fa
     new: 3ec71290db4de298b67659ef2bc2a8f84cf9537b
     log: |
@@ -24,28 +24,28 @@ changes:
          3ec71290db4de298b67659ef2bc2a8f84cf9537b ASoC: Intel: bxt_rt298: Fix kernel ops due to COMP_DUMMY change
          
 
---===============2414276130211217485==
+--===============8116940941347496644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1704728890 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1704728888-044deaf43bd32a662c26394b649f4f819cabf0c8
+pusher C3F436CA30F5D8EB 1704728897 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1704728896-a796494d240ffaf697d37cbc666252960b702064
 
-15de2a27024132fcfe0078e2f56d697a0039e9fa 3ec71290db4de298b67659ef2bc2a8f84cf9537b refs/heads/for-6.8
+15de2a27024132fcfe0078e2f56d697a0039e9fa 3ec71290db4de298b67659ef2bc2a8f84cf9537b refs/heads/asoc-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWcGToACgkQJNaLcl1U
-h9DFDQgAhdBQCFttn2gpeeHc9qscYD7c68CywL2cWNld1F4gvMhFMVnTmAmPc/Rn
-8NxMG/LyST6lwZIuPFiEjrgkRaxNBJnEUJtn/oZfkKTQq1IOjawwpLEOV986ggBl
-DUgBZayn8UMpUMalxIKjPaGqeQqzfwF0IJbrbL+BDqgB0jlArFsRMp5TdcNSTarS
-yLfU8FudISFpDG7H7+uqYUCJn1vQj0KJBKhl5MfJ8Zs6FfLTjvdBlFsatyeE+Q/K
-SogEJW4EGczd/1rhg9WRgwqfODWCkqJWYilkhV3qzbrG0cRV5MPJrXNnDMHDrXQe
-VeWCltYrTazQnDBZrlhIIu9qb6HWfw==
-=kiTs
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWcGUEACgkQJNaLcl1U
+h9Dyygf/VdWamngBuPetT67xcOMMD5FLTDI7xA6VH4m/JhP1FtgCrjYGjCWHlQyg
+vfkJpvFinA8wqjnInnVIU8nGQ4Hee5PlZw1UNrTVlLzEb++Vtn9AA+h/3UuIeRT3
+k3fPE3n5XXeQvwbx3kp66D9kP9AGyDShWEQlt+z12kyVpxyGiU7c1IjUqy3KZZGZ
+81C+2mRzVKLKzE/wFWzbC8SH2xHOkllJikhPqIDdGfN+3OxyCQ3S57D4LAlcMesG
+v/each/0AIkN7l0w417ILsUNfQCEdxJp4NGq9H7/Kb6PaPlVjAorGpnRD51+Ne56
+Shr8JczwuCdNMTC5QZ8MFZF77lsaYA==
+=uhw0
 -----END PGP SIGNATURE-----
 
---===============2414276130211217485==--
+--===============8116940941347496644==--
