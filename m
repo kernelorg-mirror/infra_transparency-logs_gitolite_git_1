@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtracefs
-Date: Mon, 08 Jan 2024 23:33:23 -0000
-Message-Id: <170475680395.19719.4871833782732451386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Mon, 08 Jan 2024 23:34:48 -0000
+Message-Id: <170475688858.20298.3498001045716867256@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtracefs
+repo: pub/scm/utils/trace-cmd/trace-cmd
 user: rostedt
 changes:
-  - ref: refs/heads/libtracefs
-    old: a1ecbff5649f97e4038be9c30cd85aba750c3cb1
-    new: 585ec77727e0b5f908792b87d4f736e553433f9f
+  - ref: refs/heads/master
+    old: 08435acd37326c7030747dc5c3a10daca185e6fe
+    new: d93049c367447b92e8e6c7e433a34ab257d2fd07
     log: |
-         93e20af8282369bd3bf7d99a2d302332ccb8d2ba libtracefs: Fix tracefs_instance_reset to clear synthetic events
-         a55e2e8c7271e67f8853efcb4f00d3059b3eb4a5 libtracefs meson: Add option to disable documentation
-         173ffc0b4b21da3c8b341c33e69b7b5f910f9d3c libtracefs meson: Add option to disable samples
-         2ed14b594f669fe5228d19e032467405b764833a libtracefs: Add ring buffer memory mapping APIs
-         585ec77727e0b5f908792b87d4f736e553433f9f libtracefs: Force off trace mmapping
+         420f542b624cf215263c5fc14d13ecd76e15bb02 trace-cmd record: Remove extra characters in man page
+         7d6c3bc4719579437c698fb5e4db25050d153439 libtracecmd: Add trace-rbtree to meson build
+         3e930655bd95a548b701a7ec16e4eaf03f8fc249 trace-cmd show: Add --hist and --trigger options
+         1d5ac88ee3262717211a17a1c61790cd38508948 trace-cmd sqlhist: Add 'sqlhist' command
+         d93049c367447b92e8e6c7e433a34ab257d2fd07 trace-cmd utest: Add tests for trace-cmd sqlhist
          
