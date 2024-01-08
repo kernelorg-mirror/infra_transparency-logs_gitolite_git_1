@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Mon, 08 Jan 2024 17:04:08 -0000
-Message-Id: <170473344846.30910.710573207323860336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Mon, 08 Jan 2024 17:06:22 -0000
+Message-Id: <170473358256.933.1249669718467107126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: borntraeger
 changes:
-  - ref: refs/heads/main
-    old: a903854bad1c5121b35f0f22af18c66a847d20de
-    new: 3a882b6b4e0ee8c7cfd11176d36a98d30fc449d3
+  - ref: refs/heads/master
+    old: fe752331d4b361d43cfd0b89534b4b2176057c32
+    new: 83303a4c776ce1032d88df59e811183479acea77
     log: |
-         3a882b6b4e0ee8c7cfd11176d36a98d30fc449d3 rdma: Fix the error of accessing string variable outside the lifecycle
+         83303a4c776ce1032d88df59e811183479acea77 KVM: s390: fix cc for successful PQAP
          
