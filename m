@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Mon, 08 Jan 2024 00:15:30 -0000
-Message-Id: <170467293082.3804.6137000660102593986@gitolite.kernel.org>
+Date: Mon, 08 Jan 2024 00:30:32 -0000
+Message-Id: <170467383248.13721.7440882862087845273@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/abelloni/linux
 user: abelloni
 changes:
   - ref: refs/heads/rtc-next
-    old: dc0684adf3b6be6b20fec9295027980021d30353
-    new: cd0d7d6639de4468d181c87e45cfd07d51b525da
+    old: cd0d7d6639de4468d181c87e45cfd07d51b525da
+    new: 2f80de657f83a1f6495e557096847f4626d57164
     log: |
-         9f67c1e63976d3403f0b250b03ffe959c890f9db rtc: tps6594: Add driver for TPS6594 RTC
-         cd0d7d6639de4468d181c87e45cfd07d51b525da rtc: lpc24xx: add missing dependency
+         3628d999e31e2e31b51f78b0f68e91275854c179 rtc: ds3232: avoid unused-const-variable warning
+         2f80de657f83a1f6495e557096847f4626d57164 rtc: rv8803: Add power management support
          
