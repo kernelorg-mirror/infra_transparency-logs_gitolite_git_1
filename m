@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 08 Jan 2024 16:20:07 -0000
-Message-Id: <170473080750.939.242276027231828728@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Mon, 08 Jan 2024 16:36:35 -0000
+Message-Id: <170473179543.12162.3764761386422275552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: egrumbach
 changes:
-  - ref: refs/heads/main
-    old: c82c9486680f024519b150f00371b1964501f75d
-    new: 5179d3558a336a270b38555579252ec81073ee5c
+  - ref: refs/heads/egrumbac_fixes_6.5
+    old: fdda66da480ddca4db1a1a03771260c3468e7e5f
+    new: 9020873b750549845a4f4526137b2e66d9001bcc
     log: |
-         2909bf41a051601e86129a9c2fcebf31c15eebc8 amdgpu: DMCUB updates for DCN314
-         5179d3558a336a270b38555579252ec81073ee5c Merge branch 'robot/pr-0-1704729100' into 'main'
+         7b44a2462e7c4f0c7a9faf73d54fc9af35209999 COSMETICS
+         9020873b750549845a4f4526137b2e66d9001bcc FIX_DVM_COMPIL
          
