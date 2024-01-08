@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3723135270151965485=="
+Content-Type: multipart/mixed; boundary="===============8025751658768451493=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 08 Jan 2024 19:01:41 -0000
-Message-Id: <170474050138.19545.723737595211215239@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 08 Jan 2024 19:01:51 -0000
+Message-Id: <170474051101.19700.5481670920087021941@gitolite.kernel.org>
 
---===============3723135270151965485==
+--===============8025751658768451493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 06f0875049ac2d11eb48273d04d0a6800c52abf5
 
---===============3723135270151965485==
+--===============8025751658768451493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -208,4 +208,4 @@ a3368e1186e3ce8e38f78cbca019622095b1f331 i2c: core: Fix atomic xfer check for no
 52b1853b080a082ec3749c3a9577f6c71b1d4a90 Merge tag 'i2c-for-6.7-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 0dd3ee31125508cd67f7e7172247f05b7fd1753a Linux 6.7
 
---===============3723135270151965485==--
+--===============8025751658768451493==--
