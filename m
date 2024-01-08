@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7230351772734173204=="
+Content-Type: multipart/mixed; boundary="===============5990816099416117746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 08 Jan 2024 05:39:04 -0000
-Message-Id: <170469234487.12431.5476062284928561962@gitolite.kernel.org>
+Date: Mon, 08 Jan 2024 05:39:26 -0000
+Message-Id: <170469236673.12629.5235152709128759907@gitolite.kernel.org>
 
---===============7230351772734173204==
+--===============5990816099416117746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/linux-next
     old: 861deac3b092f37b2c5e6871732f3e11486f7082
     new: 0dd3ee31125508cd67f7e7172247f05b7fd1753a
     log: revlist-861deac3b092-0dd3ee311255.txt
 
---===============7230351772734173204==
+--===============5990816099416117746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -257,4 +257,4 @@ a3368e1186e3ce8e38f78cbca019622095b1f331 i2c: core: Fix atomic xfer check for no
 52b1853b080a082ec3749c3a9577f6c71b1d4a90 Merge tag 'i2c-for-6.7-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 0dd3ee31125508cd67f7e7172247f05b7fd1753a Linux 6.7
 
---===============7230351772734173204==--
+--===============5990816099416117746==--
