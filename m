@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0214000336716665144=="
+Content-Type: multipart/mixed; boundary="===============1164377099259394384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 08 Jan 2024 12:57:44 -0000
-Message-Id: <170471866489.10042.12330063847136509707@gitolite.kernel.org>
+Date: Mon, 08 Jan 2024 12:57:49 -0000
+Message-Id: <170471866927.10126.17800427559727349006@gitolite.kernel.org>
 
---===============0214000336716665144==
+--===============1164377099259394384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,74 +16,82 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 24a9ac4626c3409c6fb07f2565ad3df86583b3ff
-    new: 56e1c72e52974edc8af922ef19613591e793066a
-    log: revlist-24a9ac4626c3-56e1c72e5297.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 0e041ba53eb20e1f865f01290a98949f19f09514
+    new: 0913ea94fba1b58cbf0a64fc2df5b41854f7579c
+    log: revlist-0e041ba53eb2-0913ea94fba1.txt
 
---===============0214000336716665144==
+--===============1164377099259394384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704718663 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704718667 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1704718662-8bff3645dd922751b79cfbeb6b1e1035c1d1080e
+nonce 1704718666-e81beb1d495cef11ef24b080f82baede573a587a
 
-24a9ac4626c3409c6fb07f2565ad3df86583b3ff 56e1c72e52974edc8af922ef19613591e793066a refs/heads/linux-5.4.y
+0e041ba53eb20e1f865f01290a98949f19f09514 0913ea94fba1b58cbf0a64fc2df5b41854f7579c refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWb8UcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QL8QAIfHK3pe3U1c3nnsmoK7
-IzAY5UvEIEA47A/dtBaiSjdyOrNMYq6LaeBFOPrvFo+KVU8d/osNAwjU331j+QV0
-RWlF7+KpvM5KqM4UfMerJrlSh8iLfaKC7kgpsBzTtLIFSExLPfWMS7AJeKsfDpOt
-HQdoTqAdaz1WAKwd6S66ViwSsRvyaSyWuaHpLj9RiWsqFMLdIfCaR6+pGk6ueDVZ
-03POXvCHo2Iv6/P9hKdih6mK5beAfJ+mTiW1TUNuMigjNGIfnNjnGGDVNVDxmax5
-0uTcjBINqSMqIILZ7d0xZOWGbTbVy5t1jhAAy6/OYPgLoMaANU7c77LqQEXjSQ19
-AD0Z9GPc4D05njARly+zkqvACynVOTcz/IkRZgu/GSIry4gXqhAIQKayQszrkV98
-kFQWAYyXUEgD8KqSeDW0K19tSMbLXga5btMoHWRhZV6a1DLaA3X1iW8sLDtxZJPa
-EEGOgnqANCkvgktR9SbwMB9p2LQTJ4W4LafG+t90fwoK9gXpo2PiTxZcyv9r2xI1
-jIsq1LxWh6zzLrpbAT0h/C5DPUDrgCCi5XtnNkDr1QhURQNKZTPioiKKIoucWIf0
-dLHU1SsEgQme6Uo9yPgS97BKtJQWxTi67Rx7IGrcXUmTl343yLJmZX5EmL8lTsPF
-t6V1OOeePXIMSiDhyAp8H8pa
-=l0eF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWb8UsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TsQQAIpYEEBPlZRdkUArP//P
+TAojhAkR8aBUcYIBuijC348+pEGGC3+aCz3J1bbxlkqHQrkx0Hf4VAbjqi2fBxE7
+Vxfq5RuBfv1L/rdVbwdpyjDtSbPr0V+fblu/+TB85kI6T35TlgsEttDhV2sRWWYQ
+oabH/gAFpTIn4OEjLnRoCGN6BOoJbmViqhhrbXMnTEM7MqXO2W1Sj2blHCX5l5/2
+9R6Fwygqz3o0REg1sa6JjuLKxt7K5l7ZNiyznvT89eJfpTkMtI9tRTdzyVjKxK/6
+47TLpJ9xxMbzb3EUpY7GpIikK9L3E4l6f/RFrb95DEPaiagZrlVwPEdGMSplQN2Z
+7EbqwD2tcJYzBbyTpw8Ra7iiYuJYddO/r7iqtLD3xU8XnabBknPDKaOpFW7tmiF7
+01XMnFgHPP2uXYRZLI4kFAVMsoWuHDvsi/DX2ut4+pSt38ex1dP+COFsA0l+BIT/
+70CFaGNCjgDk/ntPE1UL7ESCNRLRmoJQByuaWIONhDK3c6jLm0SNtj7qQGKeiV1B
+DQEfdTdC+dGRV/ccoXDvAjMqISsUgo/4hR5Ahfp2iRCxb1bk8e9iG+CTPqMwCyKU
+j/oTTEnmbnMc3CCuwiY/O6ZZ+RKIc7mS2BZivrgK/bcLrP9ur93Ji7hHThtIv8Ar
+/CI7NFkSI91sClZKb1cNNe09
+=1dOl
 -----END PGP SIGNATURE-----
 
---===============0214000336716665144==
+--===============1164377099259394384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24a9ac4626c3-56e1c72e5297.txt
+Content-Disposition: attachment; filename=revlist-0e041ba53eb2-0913ea94fba1.txt
 
-69ced8731df19dca259c3fb503003df3727f857d nfc: llcp_core: Hold a ref to llcp_local->dev when holding a ref to llcp_local
-1a8c8ec80a8374a6d97164a39ddbc03ab214f37a i40e: Fix filter input checks to prevent config with invalid values
-527292681dac582035884d69b2dd49c208c89ab1 net: sched: em_text: fix possible memory leak in em_text_destroy()
-e40e3b33123b293e690a6c7233d87b5ee5bf9c52 net: Implement missing getsockopt(SO_TIMESTAMPING_NEW)
-d68a04e302b6802b010fdfdef433d2d679d5823f can: raw: add support for SO_TXTIME/SCM_TXTIME
-ee7dfc36e22ecd2498d306e872cb4801936edd28 can: raw: add support for SO_MARK
-5ce693fa4174f85567d213f8634a19ed47130b0c net-timestamp: extend SOF_TIMESTAMPING_OPT_ID to HW timestamps
-24abd1b03c36f27b924d2b986368fc32796833cb ARM: sun9i: smp: Fix array-index-out-of-bounds read in sunxi_mc_smp_init
-03cff890044a0a69606fba2ffc43231a8518875d net: bcmgenet: Fix FCS generation for fragmented skbuffs
-f5e1e1ac3cf956c120c837f0b8e92781953b8f03 net: Save and restore msg_namelen in sock_sendmsg
-2150751662e1f589f3a9817b0fcf8b8d7c626e06 i40e: fix use-after-free in i40e_aqc_add_filters()
-403f9d7bd4a10d72ee707121eca339c3c45b9397 ASoC: meson: g12a: extract codec-to-codec utils
-78866374e33211550885dc0f89ce3b8a796249ab ASoC: meson: g12a-tohdmitx: Validate written enum values
-9e7e8294dd8427ed4762e19cb1aedacd2daaab47 ASoC: meson: g12a-tohdmitx: Fix event generation for S/PDIF mux
-3605ab441b04727521db3ed85eec216fe57b2fa8 i40e: Restore VF MSI-X state during PCI reset
-50f289b191cd102ed059a46df34f9329da50c60c net/qla3xxx: switch from 'pci_' to 'dma_' API
-53cdf4fb26901260ddccaaa74b9780eb49c2cace net/qla3xxx: fix potential memleak in ql_alloc_buffer_queues
-718dda52e16363cd27a6919e6c278101408156ae asix: Add check for usbnet_get_endpoints
-cd5dbec5eadf672574df7ee160e8cb0265372686 bnxt_en: Remove mis-applied code from bnxt_cfg_ntp_filters()
-3a48dde03da421cb3206024e6e85cd15ccbf617e net: Implement missing SO_TIMESTAMPING_NEW cmsg support
-4140d664d474d1f5500689ecc5108cd91de2ce01 mm/memory-failure: check the mapcount of the precise page
-767af217dc9678bf2495b63cf75a6f25fa3043e2 firewire: ohci: suppress unexpected system reboot in AMD Ryzen machines and ASM108x/VT630x PCIe cards
-5cd41bb95085173d9ef0666ba60c4b49cc6e50ae i2c: core: Fix atomic xfer check for non-preempt config
-811d8b22e7b35e94fafbca68574258524a7a7c06 mm: fix unmap_mapping_range high bits shift bug
-9e388ba27eb31617a2bbbeda895211b3f765b66b mmc: rpmb: fixes pause retune on all RPMB partitions.
-c72bd1c95cba60e326a1eecc53117a0ed70655c0 mmc: core: Cancel delayed work before releasing host
-31f5ae6b159e6e8ac29d76ea8e698d8f7e481f5a mmc: sdhci-sprd: Fix eMMC init failure after hw reset
-56e1c72e52974edc8af922ef19613591e793066a Linux 5.4.267-rc1
+9c2e136cfc801b67597d7beeacceb6c1e627ac47 keys, dns: Fix missing size check of V1 server-list header
+1036c48ac6ce4e0bd3d2853ecf44dc7c9d4a84f8 block: Don't invalidate pagecache for invalid falloc modes
+1cae5861901e21fa277f39eded23b5d1a537e8d5 ALSA: hda/realtek: Fix mute and mic-mute LEDs for HP ProBook 440 G6
+0dc718f41f3671092382665dbcd653ff1c3fe89f nfc: llcp_core: Hold a ref to llcp_local->dev when holding a ref to llcp_local
+46e326a158aae209be1953c91d13618b36eac986 octeontx2-af: Fix marking couple of structure as __packed
+b0bb8ecf61935e1afd8bf2e77f53edc013b736f6 drm/i915/dp: Fix passing the correct DPCD_REV for drm_dp_set_phy_test_pattern
+6f7d3e604cc0f71c564cf26368a6940d24cbb322 i40e: Fix filter input checks to prevent config with invalid values
+3416297995ff0792dfedf75d747f3e7e6eed99ea net: sched: em_text: fix possible memory leak in em_text_destroy()
+e7cb6b895c49269088f8c01e00e4f84f5a3e0e11 net: Implement missing getsockopt(SO_TIMESTAMPING_NEW)
+340cf70827d30351dbe9cb8610d1c28d58496644 ARM: sun9i: smp: Fix array-index-out-of-bounds read in sunxi_mc_smp_init
+10cb2ead5d17e5cc401e373926e71a5f67fa3a06 sfc: fix a double-free bug in efx_probe_filters
+6364966a04217593a922e4a336c931098384c24a net: bcmgenet: Fix FCS generation for fragmented skbuffs
+de2747afb503a8c388f895f8d27198015a87b2e6 netfilter: nftables: add loop check helper function
+d97d91c6e4fc6c9b7cb1a62d57367d845daf231a netfilter: nft_immediate: drop chain reference counter on error
+be0828cd695f2fe85a4466b96738c9a4563073d3 net: Save and restore msg_namelen in sock_sendmsg
+7c1893426096c90ac45c0fed31a2a0741b62852d i40e: fix use-after-free in i40e_aqc_add_filters()
+9fe96d0adfd662e3d3da05d9ed9ef31738d336f1 ASoC: meson: g12a-toacodec: Validate written enum values
+cbc7f10ebbdef15e052ac453a08cd31c3be3a0c4 ASoC: meson: g12a-tohdmitx: Validate written enum values
+ca9ee0a426541c78a1ed8be1b7f79a9ec4122b63 ASoC: meson: g12a-toacodec: Fix event generation
+3f0316161d002bbf8d79c3ce7fa791349ba30a10 ASoC: meson: g12a-tohdmitx: Fix event generation for S/PDIF mux
+5287276ff694765b4ad83ddde57faf61dac81fb6 i40e: Restore VF MSI-X state during PCI reset
+8a7a12c47d971e833ba236cf4431a1a4e6ab5b8f net/qla3xxx: switch from 'pci_' to 'dma_' API
+eb35e53a2ed68472cf837520967afcfeea3fd896 net/qla3xxx: fix potential memleak in ql_alloc_buffer_queues
+f9221e2c7d798b98b36b6dd70ed024baf3166440 asix: Add check for usbnet_get_endpoints
+da3b83ca5c1d4f88dd05b63339ec02688d9360a0 bnxt_en: Remove mis-applied code from bnxt_cfg_ntp_filters()
+3f0186488c228a58a3881e29e0a9c9a0822af550 net: Implement missing SO_TIMESTAMPING_NEW cmsg support
+1d68deb9c82dd876ec0bedadc24714fec49343ac mm/memory-failure: check the mapcount of the precise page
+f8cc680f0ee68c19ea2ce0348f563145454505b7 firewire: ohci: suppress unexpected system reboot in AMD Ryzen machines and ASM108x/VT630x PCIe cards
+f3825463aecaec65ce246e4da7bbe28bff343c39 x86/kprobes: fix incorrect return address calculation in kprobe_emulate_call_indirect
+578f6357c84378506aa4a76987889d5336e0b645 i2c: core: Fix atomic xfer check for non-preempt config
+01b5cdec3c2a354a4a80a5f7500e96f26ccef2d7 mm: fix unmap_mapping_range high bits shift bug
+4b89a8c7efeca7c5623ac68c3061c7c8d1ccb792 mmc: meson-mx-sdhc: Fix initialization frozen issue
+15734dd092c8b05e3f341698f7f669fcd3d0e92d mmc: rpmb: fixes pause retune on all RPMB partitions.
+49d39cb257d8c60501a18339ca5e97e0aaa2c54b mmc: core: Cancel delayed work before releasing host
+e8fb3106fd3b04a1cf0392768c7541c316aa8c08 mmc: sdhci-sprd: Fix eMMC init failure after hw reset
+0913ea94fba1b58cbf0a64fc2df5b41854f7579c Linux 5.10.207-rc1
 
---===============0214000336716665144==--
+--===============1164377099259394384==--
