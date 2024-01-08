@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3249756746072795467=="
+Content-Type: multipart/mixed; boundary="===============1089345672240101872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 08 Jan 2024 06:43:01 -0000
-Message-Id: <170469618109.32180.16672355444871887084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 08 Jan 2024 06:43:05 -0000
+Message-Id: <170469618580.32277.2763578447756332770@gitolite.kernel.org>
 
---===============3249756746072795467==
+--===============1089345672240101872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 0dd3ee31125508cd67f7e7172247f05b7fd1753a
     log: revlist-610a9b8f49fb-0dd3ee311255.txt
 
---===============3249756746072795467==
+--===============1089345672240101872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -205,4 +205,4 @@ a3368e1186e3ce8e38f78cbca019622095b1f331 i2c: core: Fix atomic xfer check for no
 52b1853b080a082ec3749c3a9577f6c71b1d4a90 Merge tag 'i2c-for-6.7-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 0dd3ee31125508cd67f7e7172247f05b7fd1753a Linux 6.7
 
---===============3249756746072795467==--
+--===============1089345672240101872==--
