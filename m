@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Mon, 08 Jan 2024 17:06:22 -0000
-Message-Id: <170473358256.933.1249669718467107126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Mon, 08 Jan 2024 17:15:35 -0000
+Message-Id: <170473413561.9075.5711803503749598161@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: borntraeger
+repo: pub/scm/linux/kernel/git/lee/backlight
+user: lee
 changes:
-  - ref: refs/heads/master
-    old: fe752331d4b361d43cfd0b89534b4b2176057c32
-    new: 83303a4c776ce1032d88df59e811183479acea77
-    log: |
-         83303a4c776ce1032d88df59e811183479acea77 KVM: s390: fix cc for successful PQAP
-         
+  - ref: refs/heads/for-backlight-next
+    old: f7baa9ccef93ba1c36a8ecf58c2f4e86fb3181b9
+    new: 7d84a63a39b78443d09f2b4edf7ecb1d586379b4
