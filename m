@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4550976020450937510=="
+Content-Type: multipart/mixed; boundary="===============2160600585077582568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 08 Jan 2024 11:23:06 -0000
-Message-Id: <170471298663.2431.18315633761532501773@gitolite.kernel.org>
+Date: Mon, 08 Jan 2024 11:23:10 -0000
+Message-Id: <170471299097.2533.13418260094049245521@gitolite.kernel.org>
 
---===============4550976020450937510==
+--===============2160600585077582568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,46 @@ repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 19698d21ea39dba65b415677758d8306f615d370
-    new: 109bfd626b5e0c0b2ad60465ca7c9c47214807b6
-    log: |
-         93cd22f62be0691796ff5d4749ac31bbdf8308ca drop queue-4.14/net-check-vlan-filter-feature-in-vlan_vids_add_by_de.patch
-         4dd9fdff0305e9eaa913e93ea9fd710f9d5f2776 Linux 4.14.335
-         1e017c57f31cf12a4fe7c8df8e466c8536cd0b0d Linux 4.19.304
-         a0614526df27b73f9198e4b282d289b308a9ef2d Linux 5.4.266
-         109bfd626b5e0c0b2ad60465ca7c9c47214807b6 Merge the latest releases into the main branch.
-         
+  - ref: refs/tags/v4.14.335
+    old: 0000000000000000000000000000000000000000
+    new: bd6443e28b58b070d84f5fe1befe457d757af4f1
+  - ref: refs/tags/v4.19.304
+    old: 0000000000000000000000000000000000000000
+    new: 0ec49329dcd7ef2776c5f4b62ca7159ccc614806
+  - ref: refs/tags/v5.4.266
+    old: 0000000000000000000000000000000000000000
+    new: ad1522018c0befb265a1ba22e757e068ef7c272a
 
---===============4550976020450937510==
+--===============2160600585077582568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704712983 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1704712990 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1704712982-34df7a08abc0fb6b08ad7e53809e513d10a48b87
+nonce 1704712989-a9ee940c0134e5089281c988249c6e88ce53d7ad
 
-19698d21ea39dba65b415677758d8306f615d370 109bfd626b5e0c0b2ad60465ca7c9c47214807b6 refs/heads/master
+0000000000000000000000000000000000000000 bd6443e28b58b070d84f5fe1befe457d757af4f1 refs/tags/v4.14.335
+0000000000000000000000000000000000000000 0ec49329dcd7ef2776c5f4b62ca7159ccc614806 refs/tags/v4.19.304
+0000000000000000000000000000000000000000 ad1522018c0befb265a1ba22e757e068ef7c272a refs/tags/v5.4.266
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWb2xcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uiIQAJtApZnEM7EajuqDueg4
-axEZLoOl5MgFTQ91ugF4XJBOL+VsEgCnda7gP8P1GSpr/YK68VjL+27TCbBcx9xO
-IVBS59SxfAT7z/dKmllRHMwcRyqXswzdWKNYqehrMBSAppP3BLK5gUxhXALH4Cvj
-0yJOhNQzijzGU6+70Vc3Ah61JX4GbhH1vEzY5M1Czc7p5MJmBfPiQaSaSoNvhnqZ
-Gywdj4TGdWkIYfGX7HhUHhBNyI3ABLeEjOpM6V7h7pD4n+CroomtJlhr9MZBz30x
-Trw0xrbZAzWeeb83nLGJIJ7JoU7i78G0FGcC77y0Rou3BWLStXPuOVqTeeuDWfpt
-FEKyZgVtMhWPGrOh4wvdhrjwrhSMB9He3rHmPum4VM3zPGwG278JmuuEpCJA7Flr
-3XlsVUVLojqQAoYLdTgnRebbNY4qWrvmVT2U+Xw2NVP3xUStSYBVNPdDD6LQWxIN
-k4V/AqhZZYq2DpdBl1yQnocrPz6xTjFUcyALrhsLcTTGZPhRDvMGZwD/E4ZPp7xL
-aCpntbztc1Y8KxwuYi+KsYJ/l5y5nDcHciYTfjOusqwkBrfApL24W3WeGuzhgDRe
-ZWqfmVLjz1jYWJndfvjZoIRpF4O1ym0LAgVpZNkxHuFxbX/d47e9U8Xlo6kJ/M6J
-3izhVRQIwXizHmiI69GOfwdf
-=ORIm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWb2x4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vUcP/05ZZ7W6vEWmMzWPXeNt
+S+k5GP+Dn1HC5YKGP9QG+ThORO1Rs/S/Z5ORXEDa7BsON6HEyd6ED71F2SL5IXuK
+uQphcLDAn486+Sgijh6Y9e5/sbXTwSzB2WCs/SitCg+ZOIOqc1qYT2yoUQG+mIlT
+UfWcjWgxPz7rP/BJ558SsA8IcMr3u/PflyF/p7jhwYzJTL0rUuIaq71iZ2iIIfJm
+2IlEr0kywN1yA2fbWTQb4ilBxJWhF+ufIH7ElG/ZK9lthGoYhKkvYKAp9LEhqh8q
+orYx9URTkjJa0t9/iJ2bAEpoJn/hIURZdWO1ln5M7kIQG1BKUz8dCRBD+iNy3BWo
+LXWZSKYiWX7+CoM0CkR0usvQLJxnrPVFAvvJeHDYYlX2xCYelA3CJeHZAL9xe9Nj
+nj78LKB/9Xzb0Cp/pA2/YuiuJ4lonVc2GGu7xfedXcz/CbMdWXvSmccpvZLuc1W/
+thpd5ZSQfZf8Na3sXoLfUAiUjU9GnPysY/38ozpUvQJex2TGd/NhIQmj5Z95VABC
+16tOxw3D5k569GwIBmcV46d08v402HFWB9xSKSr5JXe6XCabV2JC9Dd8bDEmhalk
+4lZRxyhEkIhkrPv0PmJVGsuf3nly0S9tsGWXh7K4UxNJmvGljJhOzYB2u/yMzqNc
+q4ARTq9pSbb3yMhOoyE1SYbS
+=RrkY
 -----END PGP SIGNATURE-----
 
---===============4550976020450937510==--
+--===============2160600585077582568==--
