@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3494776899843026201=="
+Content-Type: multipart/mixed; boundary="===============1798413304101865089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 08 Jan 2024 14:34:04 -0000
-Message-Id: <170472444404.17333.13644138050781247864@gitolite.kernel.org>
+Date: Mon, 08 Jan 2024 14:34:23 -0000
+Message-Id: <170472446352.17512.14135239956256972818@gitolite.kernel.org>
 
---===============3494776899843026201==
+--===============1798413304101865089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 948f97f9d8d2aa3a742df028129d44130268f0e4
     new: 3fbf61207c66ff7ac9b60ab76d4bfd239f97e973
     log: revlist-948f97f9d8d2-3fbf61207c66.txt
 
---===============3494776899843026201==
+--===============1798413304101865089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ e900274f27c37de76279e34e342847d7b5756bec ipvlan: Fix a typo in a comment
 e9ee910218ffd420454b52a052d6f1087354905b Revert "net: stmmac: Enable Per DMA Channel interrupt"
 3fbf61207c66ff7ac9b60ab76d4bfd239f97e973 Revert "mlx5 updates 2023-12-20"
 
---===============3494776899843026201==--
+--===============1798413304101865089==--
