@@ -1,27 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 09 Jan 2024 09:53:27 -0000
-Message-Id: <170479400715.558.16099569281732672329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Tue, 09 Jan 2024 09:59:47 -0000
+Message-Id: <170479438718.4565.1703108222389588927@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: egrumbach
 changes:
-  - ref: refs/heads/for-linus
-    old: 555810e198a80cd615a0e72c1ab71dbcb421d33f
-    new: 396ac74f8c968d5cf00bf6cfb60a9d52b8cef8fb
+  - ref: refs/heads/egrumbac_fixes_6.5
+    old: 9a1b32d1e9cff80526cab2834f9dfd7609d9c627
+    new: 63f1027ceb62b86b1d47d819af1ec153781a1226
     log: |
-         4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
-         396ac74f8c968d5cf00bf6cfb60a9d52b8cef8fb Merge remote-tracking branch 'asoc/for-6.7' into asoc-linus
-         
-  - ref: refs/heads/for-next
-    old: 555810e198a80cd615a0e72c1ab71dbcb421d33f
-    new: 396ac74f8c968d5cf00bf6cfb60a9d52b8cef8fb
-    log: |
-         4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
-         396ac74f8c968d5cf00bf6cfb60a9d52b8cef8fb Merge remote-tracking branch 'asoc/for-6.7' into asoc-linus
+         5955fac6fe1c30c7fc4fa0e46b7bd35b5360264f CFG80211
+         63f1027ceb62b86b1d47d819af1ec153781a1226 MAC80211
          
