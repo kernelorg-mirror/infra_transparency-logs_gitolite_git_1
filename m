@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7865611900628177917=="
+Content-Type: multipart/mixed; boundary="===============8980664379124331979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 09 Jan 2024 09:12:42 -0000
-Message-Id: <170479156251.22912.7804837702344503481@gitolite.kernel.org>
+Date: Tue, 09 Jan 2024 09:13:16 -0000
+Message-Id: <170479159604.23227.5384447454274895494@gitolite.kernel.org>
 
---===============7865611900628177917==
+--===============8980664379124331979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 570e476ebe547a2e767587dc4d1ce309ef490f1e
+  - ref: refs/heads/next
+    old: 59a32cd774b1ac326b5990c0a12503cf1cdcadff
     new: 2b6fad7a900d2a378b475e5c196c146fb71856be
-    log: revlist-570e476ebe54-2b6fad7a900d.txt
+    log: revlist-59a32cd774b1-2b6fad7a900d.txt
 
---===============7865611900628177917==
+--===============8980664379124331979==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-570e476ebe54-2b6fad7a900d.txt
+Content-Disposition: attachment; filename=revlist-59a32cd774b1-2b6fad7a900d.txt
 
 571d91dcadfa3cef499010b4eddb9b58b0da4d24 perf: Add branch stack counters
 85846b27072defc7ab3dcee7ff36563a040079dc perf/x86: Add PERF_X86_EVENT_NEEDS_BRANCH_STACK flag
@@ -769,4 +769,4 @@ bfe8eb3b85c571f7e94e1039f59b462505b8e0fc Merge tag 'sched-core-2024-01-08' of gi
 a4c7d794ac16224e5f86f359e65b89d5d8aad3bf tpm: nuvoton: Use i2c_get_match_data()
 2b6fad7a900d2a378b475e5c196c146fb71856be tpm: cr50: fix kernel-doc warning and spelling
 
---===============7865611900628177917==--
+--===============8980664379124331979==--
