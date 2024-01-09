@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 09 Jan 2024 08:39:57 -0000
-Message-Id: <170478959707.30995.17196548982119550110@gitolite.kernel.org>
+Date: Tue, 09 Jan 2024 08:40:36 -0000
+Message-Id: <170478963663.453.908225138432685853@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,12 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: cdfd4a5c63eee18f7652781963bdf8fd97a717b9
-    new: f76f79435834454fc2823f404bc552227b5d5354
+    old: f76f79435834454fc2823f404bc552227b5d5354
+    new: 8077832e93de3d0998191a5bc95d01752d8c91e3
     log: |
-         de8c6a352131f642b82474abe0cbb5dd26a7e081 x86/percpu: Use %RIP-relative address in untagged_addr()
-         f76f79435834454fc2823f404bc552227b5d5354 Merge branch into tip/master: 'x86/percpu'
+         9a3404b9b0ef96647e3996440c9b1e6ad3a7e12f Merge branch into tip/master: 'x86/merge'
+         78f8583909dd6116911edf9b71338e33479a4b4b Merge branch into tip/master: 'x86/mm'
+         01b5406d99ad1831f0010342e8412211f734b94c Merge branch into tip/master: 'x86/percpu'
+         ec124488d82698cd2aaf8095004237ca9245ca3e Merge branch into tip/master: 'x86/sgx'
+         8077832e93de3d0998191a5bc95d01752d8c91e3 Merge branch into tip/master: 'x86/tdx'
          
