@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 09 Jan 2024 19:06:06 -0000
-Message-Id: <170482716618.12251.10067843472933575173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 09 Jan 2024 19:10:26 -0000
+Message-Id: <170482742629.16717.9692299073937220114@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/kdevops
-    old: 17419aefcbfd9891863e8b8132f0bca9a6b2984e
-    new: 88c926e47d1ea4d2e4f51c8c3b87d401315de852
+  - ref: refs/heads/master
+    old: 7974b2128489d062c9d21419633eebde07f07032
+    new: f8c47ee39e6dc6170da06865b84e8c8b08e87ab0
     log: |
-         88c926e47d1ea4d2e4f51c8c3b87d401315de852 NFSD: Debugging.
+         a7ee39bea31519849985453b9acbab06894ee0d9 Bluetooth: Remove superfluous call to hci_conn_check_pending()
+         f8c47ee39e6dc6170da06865b84e8c8b08e87ab0 Bluetooth: hci_event: Use HCI error defines instead of magic values
          
