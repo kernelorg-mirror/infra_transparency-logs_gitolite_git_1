@@ -1,55 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============1323474443412401982=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 09 Jan 2024 04:34:23 -0000
-Message-Id: <170477486367.17457.11569412165176518272@gitolite.kernel.org>
-
---===============1323474443412401982==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Tue, 09 Jan 2024 04:40:32 -0000
+Message-Id: <170477523238.24074.13651092708232396610@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/controller/mediatek
-    old: 4fea201e110e66df871dab688f15563a26dc1e90
-    new: 8b7b89ef507c8a77d0b06d79be647e23b1419fe7
+  - ref: refs/heads/kbuild
+    old: 9f1104313298a50980a9b4e1b2afd6007bf5c5d6
+    new: 53bc4fa98f8dd5ccca9a8e038660bf0d30d9e22d
     log: |
-         8b7b89ef507c8a77d0b06d79be647e23b1419fe7 PCI: mediatek-gen3: Fix translation window size calculation
+         24ef38bc93a6308729d52d72d1c7e4d5f83d9c98 kbuild: deb-pkg: move 'make headers' to build-arch
+         343f74e7779c482c2fd4492cc6b45c64e18fe321 kbuild: deb-pkg: make debian/rules quiet by default
+         ce4c026fec01e00079512f3ee3d05cd1bd6e4284 kbuild: deb-pkg: use debian/<package> for tmpdir
+         0832e9bcfb0dc48833bbc8054cdc9b697afa8cd9 kbuild: deb-pkg: build binary-arch in parallel
+         53bc4fa98f8dd5ccca9a8e038660bf0d30d9e22d kbuild: deb-pkg: call more misc debhelper commands
          
-
---===============1323474443412401982==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 3DE334E7 1704774861 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1704774861-f4ce2adb86ca4c003eb9ebb45e9aac91b6b32a52
-
-4fea201e110e66df871dab688f15563a26dc1e90 8b7b89ef507c8a77d0b06d79be647e23b1419fe7 refs/heads/controller/mediatek
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmWczM0ACgkQfGR2jT3j
-NOctFA/+MYoCmBliiEdFw2jblsGGqDj5WUyElMPv7JxxQ6MaUCzTKsq0Ims+rwIH
-RV8btelzyRG7O13FmMrTZnei7ZAuGu3/eGIO2+lbs3hctDUU3t/T/ETnKWuxpg0F
-ClZX4YbIb7d3VGW2Ysi+4YtAYvEEScJP6PnjPfPaOhuIAF9nRj3UuixasMSvEoNA
-2Nqzd7P166jVIINFn1UdGOu7lSR1bfirdJXBIOQi8mVVtjJ4r3rgNyDWfOmSO73+
-W8+ydU9fZQpFlFuzy12CZK2H40a9GfJIKDS1F6/1H+oB7L5CxjzQxSdj1UdCg72V
-FQlKpqA5PMVsKfzykJt8GhR6pwZbiRYdH/fIF1kDfOAmR5vhVD+YtNuLN6iPvvua
-SKj2Sb80rxGS8X/5IwrB/jaBvp33UY0spZb36yDk6VjeqPSyju2UNicGFCYAZK1S
-0p9LKjjIHGNfYwqxCYRAyTNp+TKQlREKI9+mdvraFgzV8y0rO7ttT2yU4Vgx530s
-16OGt2sTVxMoVSDNQKcQFr/pk5fvcGZsKiwWVVN8E86PyECnxpVWGR5Go6QrZXwn
-+IDCrZ3RWC+0Op8j4Hm1GCYizZNZwdeC4AgSnHsALqzKNEgojsa4CT1I9rZk/yTo
-pUA3bbQy5WLlfNvFqShkDbKNdZvrXlJ+sny7GNSjY9uvjOqCITU=
-=Fzm+
------END PGP SIGNATURE-----
-
---===============1323474443412401982==--
