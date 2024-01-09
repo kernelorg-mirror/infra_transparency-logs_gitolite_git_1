@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Tue, 09 Jan 2024 08:16:57 -0000
-Message-Id: <170478821761.14939.2355927042770918479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Tue, 09 Jan 2024 08:19:03 -0000
+Message-Id: <170478834327.15753.11203760312734981795@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/s390/linux
+user: agordeev
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/tags/s390-6.8-1
     old: 0000000000000000000000000000000000000000
-    new: 14cd108f8e73d7461d3af3b066e0ae4c697a72bc
+    new: bbb163a2d03175972b9b94ea0d4c9b7d8afa98cc
