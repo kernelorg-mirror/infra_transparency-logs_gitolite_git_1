@@ -1,46 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============8235910887908468303=="
+Content-Type: multipart/mixed; boundary="===============0613835892096497718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 09 Jan 2024 15:28:09 -0000
-Message-Id: <170481408954.14944.12727541294080370870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Tue, 09 Jan 2024 15:41:12 -0000
+Message-Id: <170481487232.25595.2090590182262704669@gitolite.kernel.org>
 
---===============8235910887908468303==
+--===============0613835892096497718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: 3007ee876223ebce860bb2a88748d69042e58c04
-    new: 0753ab11c99caad2a2c789d928c7d9a87057c1d8
-    log: |
-         0753ab11c99caad2a2c789d928c7d9a87057c1d8 Add 7E7BED35318AA829 (Geliang Tang)
-         
+  - ref: refs/heads/master-pending
+    old: eceb0dd553946a0b13ab918e63b946f794e5a2c4
+    new: 7042ef5db6e04da123c5c2fc716a3c2673f0877b
+    log: revlist-eceb0dd55394-7042ef5db6e0.txt
+  - ref: refs/heads/pending
+    old: ff5f1e2b7cbc0b171677c2a2f5341b8e34710ba8
+    new: df0304954907c18130257b66054abe3d45022280
+    log: revlist-ff5f1e2b7cbc-df0304954907.txt
+  - ref: refs/tags/ath-pending-202401091539
+    old: 0000000000000000000000000000000000000000
+    new: 7042ef5db6e04da123c5c2fc716a3c2673f0877b
 
---===============8235910887908468303==
+--===============0613835892096497718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-eceb0dd55394-7042ef5db6e0.txt
 
-certificate version 0.1
-pusher B6C41CE35664996C! 1704814088 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1704814088-0f2b8a6a520743c0969fa7962f4e73f5d3ffd6f2
+fefa43d63e1928fce6e8c2bb626900e9ce98ca69 wifi: ath11k: fix IOMMU errors on buffer rings
+fe0570eab9283facc6907c3958d0e07657f6389f wifi: ath12k: refactor ath12k_wmi_tlv_parse_alloc()
+34f988924ce554f6c5bb73dcdbb080857a2e643f wifi: ath11k: add support to select 6 GHz regulatory type
+ef3957b14002c90591f8c3c84164fab488dfbe3b wifi: ath11k: store cur_regulatory_info for each radio
+5210a56916640894eaf7a15f2d88de09c76ba0bc wifi: ath11k: fix a possible dead lock caused by ab->base_lock
+0c62aa70da76bd4bd3c533a6ffb3ff1aa65309ba wifi: ath11k: update regulatory rules when interface added
+308dd55a4ee8cde08ec79e206218ef49a9038023 wifi: ath11k: update regulatory rules when connect to AP on 6 GHz band for station
+0be0846a303a13445c3b18207a1823f56860c4f7 wifi: ath11k: save power spectral density(PSD) of regulatory rule
+23371986c5ad4548e52a7035c8d99a5cc4e15a71 wifi: ath11k: add parse of transmit power envelope element
+d01b9133d1e8393f3b924ce053a7c3be592071ab wifi: ath11k: save max tx power in vdev start response event from firmware
+db82221c8348adfd57d75658212e2fa515e3bdf0 wifi: ath11k: fill parameters for vdev set tpc power WMI command
+2593be390c1448e1f6895d5014dfee20f9810719 wifi: ath11k: add WMI_TLV_SERVICE_EXT_TPC_REG_SUPPORT service bit
+60224932b4111ca55be31715d7eb7480da9ce7b9 wifi: ath11k: add handler for WMI_VDEV_SET_TPC_POWER_CMDID
+df0304954907c18130257b66054abe3d45022280 wifi: ath11k: use WMI_VDEV_SET_TPC_POWER_CMDID when EXT_TPC_REG_SUPPORT for 6 GHz
+7042ef5db6e04da123c5c2fc716a3c2673f0877b Merge branch 'pending' into master-pending
 
-3007ee876223ebce860bb2a88748d69042e58c04 0753ab11c99caad2a2c789d928c7d9a87057c1d8 refs/heads/master
------BEGIN PGP SIGNATURE-----
+--===============0613835892096497718==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ff5f1e2b7cbc-df0304954907.txt
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZZ1mCAAKCRC2xBzjVmSZ
-bIOuAQDsVmo/j46MwVUU7mKqFFkA/NMgUcQ5Z9+zjPaRKvORUwEAr5ZxGYvqSqRw
-5PrVcmARoATZ3NFbwd4NFi4mh5H+0wY=
-=EaXL
------END PGP SIGNATURE-----
+fefa43d63e1928fce6e8c2bb626900e9ce98ca69 wifi: ath11k: fix IOMMU errors on buffer rings
+fe0570eab9283facc6907c3958d0e07657f6389f wifi: ath12k: refactor ath12k_wmi_tlv_parse_alloc()
+34f988924ce554f6c5bb73dcdbb080857a2e643f wifi: ath11k: add support to select 6 GHz regulatory type
+ef3957b14002c90591f8c3c84164fab488dfbe3b wifi: ath11k: store cur_regulatory_info for each radio
+5210a56916640894eaf7a15f2d88de09c76ba0bc wifi: ath11k: fix a possible dead lock caused by ab->base_lock
+0c62aa70da76bd4bd3c533a6ffb3ff1aa65309ba wifi: ath11k: update regulatory rules when interface added
+308dd55a4ee8cde08ec79e206218ef49a9038023 wifi: ath11k: update regulatory rules when connect to AP on 6 GHz band for station
+0be0846a303a13445c3b18207a1823f56860c4f7 wifi: ath11k: save power spectral density(PSD) of regulatory rule
+23371986c5ad4548e52a7035c8d99a5cc4e15a71 wifi: ath11k: add parse of transmit power envelope element
+d01b9133d1e8393f3b924ce053a7c3be592071ab wifi: ath11k: save max tx power in vdev start response event from firmware
+db82221c8348adfd57d75658212e2fa515e3bdf0 wifi: ath11k: fill parameters for vdev set tpc power WMI command
+2593be390c1448e1f6895d5014dfee20f9810719 wifi: ath11k: add WMI_TLV_SERVICE_EXT_TPC_REG_SUPPORT service bit
+60224932b4111ca55be31715d7eb7480da9ce7b9 wifi: ath11k: add handler for WMI_VDEV_SET_TPC_POWER_CMDID
+df0304954907c18130257b66054abe3d45022280 wifi: ath11k: use WMI_VDEV_SET_TPC_POWER_CMDID when EXT_TPC_REG_SUPPORT for 6 GHz
 
---===============8235910887908468303==--
+--===============0613835892096497718==--
