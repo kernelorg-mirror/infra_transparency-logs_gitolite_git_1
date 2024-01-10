@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 10 Jan 2024 12:31:32 -0000
-Message-Id: <170488989283.11241.8607948563763072088@gitolite.kernel.org>
+Date: Wed, 10 Jan 2024 12:33:15 -0000
+Message-Id: <170488999594.11940.6406704950461925603@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/tags/erofs-for-6.8-rc1
-    old: 4718a50b7604eb17546a2593ebbf7a45f9ebf241
-    new: c424df9cb48980083ecbc034c0aed95a3f0f435f
+  - ref: refs/heads/dev
+    old: 070aafcd2482dc31a12a3eda5d459c45496d6fb6
+    new: aa12a790d31be14b289d5a2c6f41ca535fcc7841
+    log: |
+         496530c7c1dfc159d59a75ae00b572f570710c53 erofs: avoid debugging output for (de)compressed data
+         aa12a790d31be14b289d5a2c6f41ca535fcc7841 erofs: make erofs_{err,info}() support NULL sb parameter
+         
