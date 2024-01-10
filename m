@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 10 Jan 2024 04:18:53 -0000
-Message-Id: <170486033327.30819.4688423030471176213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Wed, 10 Jan 2024 04:34:04 -0000
+Message-Id: <170486124481.8807.9992065724460905764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/heads/for-next
-    old: cb51bfee7f62a8e26b694f9d84c0041b3e3ccc71
-    new: 474baa6883ad1251f1744a23ce259f34150b4401
+  - ref: refs/heads/next
+    old: e16bf7e015d75fdd805528bedaf285fcb71dad2a
+    new: 3601311593eb44d34f142b993cb6f38f9a7863b3
     log: |
-         e1b76bc00ed1835060c5ff89d19b77fcb9918b92 riscv: vector: Check SR_SD before saving vstate
-         b6da6cbe13ebf24716438de71d50573b9f36f35d riscv: introduce RISCV_EFFICIENT_UNALIGNED_ACCESS
-         d0fdc20b0429150c9dd09111f9b1d9d48117b56f riscv: select DCACHE_WORD_ACCESS for efficient unaligned access HW
-         474baa6883ad1251f1744a23ce259f34150b4401 Merge patch series "riscv: enable EFFICIENT_UNALIGNED_ACCESS and DCACHE_WORD_ACCESS"
+         6d0fc416c42a98b39a74151376928d577873941c cxl/trace: Pass UUID explicitly to event traces
+         26a1a86dd093a10d0653429bf013dae6e95dccbf cxl/events: Promote CXL event structures to a core header
+         4c115c9c1f81a6efe2bd68fcefec6836f7f3dc71 cxl/events: Create common event UUID defines
+         207a1f82301de0b4123f00a8d26ea55bb2484757 cxl/events: Remove passing a UUID to known event traces
+         6eade110754c085cee9e46f4d87d2c3ea4e59e8c cxl/events: Separate UUID from event structures
+         f9c683386f5bc0364615138ce2b14be50848dbcf cxl/events: Create a CXL event union
+         671a794c33c6e048ca5cedd5ad6af44d52d5d7e5 acpi/ghes: Process CXL Component Events
+         ced085ef369af7a2b6da962ec2fbd01339f60693 PCI: Introduce cleanup helpers for device reference counts and locks
+         dc97f6344f205b0dfa144e1b3e16d6dc05383d57 cxl/pci: Register for and process CPER events
+         3601311593eb44d34f142b993cb6f38f9a7863b3 Merge branch 'for-6.8/cxl-cper' into for-6.8/cxl
          
