@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 10 Jan 2024 18:28:14 -0000
-Message-Id: <170491129469.29495.4718347683635993835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Wed, 10 Jan 2024 18:46:00 -0000
+Message-Id: <170491236024.11178.14250100865004169472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/libs/libtrace/libtracefs
+user: rostedt
 changes:
-  - ref: refs/heads/arm64-ccm-cleanup
-    old: fc7abe51f160cd4bf3d4bad8a10166d4c605d914
-    new: ab2f09801de1910d8a08b159ba4eca3e7753dcdb
+  - ref: refs/heads/libtracefs
+    old: 8a1322ff962194519d90586d2cd21ae7b49b42f4
+    new: 67f3b2ab9f836e6c9c70c94db7aac3251119a263
     log: |
-         ab2f09801de1910d8a08b159ba4eca3e7753dcdb crypto: arm64/ccm - Merge finalization into en/decrypt asm helpers
+         67f3b2ab9f836e6c9c70c94db7aac3251119a263 libtracefs: version 1.8
          
