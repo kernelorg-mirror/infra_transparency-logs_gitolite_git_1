@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 10 Jan 2024 20:01:18 -0000
-Message-Id: <170491687882.32598.10490547271132647833@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Wed, 10 Jan 2024 20:06:45 -0000
+Message-Id: <170491720530.3872.14468154829934371456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: df313ec2fb7e2c6884ed322111cfb3c7e5a81b20
-    new: d65c1424507d37a27a6c330fed9a32e329975667
+  - ref: refs/heads/master
+    old: 724fed7ed9e401dc1d18720b2dccf329b7536af9
+    new: 40797ae3069ce08b83c4221839b53e754105be78
     log: |
-         3e999770ac1c7c31a70685dd5b88e89473509e9c PM: sleep: Restore asynchronous device resume optimization
-         eee34dc5decc458f0d6e5f68e54c0976693edf17 Merge branch 'thermal-core' into bleeding-edge
-         2bf502715761ee6e2a7a8ddb412cd6ec22726571 Merge branch 'thermal-intel' into bleeding-edge
-         949c3e8168a14b59129c84dd8bcd62a4f91503a0 Merge branch 'pm-cpufreq' into bleeding-edge
-         d65c1424507d37a27a6c330fed9a32e329975667 Merge branch 'pm-sleep' into bleeding-edge
+         40797ae3069ce08b83c4221839b53e754105be78 Fix: do not skip !allowed_cpus for mm_cid
          
