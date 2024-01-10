@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 10 Jan 2024 13:13:58 -0000
-Message-Id: <170489243813.10585.10727807838800417027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 10 Jan 2024 13:17:10 -0000
+Message-Id: <170489263038.13376.16839487768576414914@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/arm64-ccm-cleanup
-    old: 5621777b6b9e409dc18a4dfff5570c72c1be4bb2
-    new: a71782909d61c51c1cdd69bd3d1363fc5085042a
+  - ref: refs/heads/kbuild
+    old: 41eb43b3c73b34e8afd045fc356b8201cbe91678
+    new: 0f493ceef61bf7b3eab93fbac68fe93cc87949b8
     log: |
-         a71782909d61c51c1cdd69bd3d1363fc5085042a crypto: arm64/ccm - Merge encrypt and decrypt asm routines
+         1b5e94657320c86fc660745e3fc64321948649be kbuild: deb-pkg: move 'make headers' to build-arch
+         6185d32170b683abadddf1e68be998e24f3cc5de kbuild: deb-pkg: use debian/<package> for tmpdir
+         0f493ceef61bf7b3eab93fbac68fe93cc87949b8 linux/export.h: remove unneeded .balign directive
          
