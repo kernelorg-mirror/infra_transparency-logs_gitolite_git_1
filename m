@@ -1,25 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 10 Jan 2024 15:15:28 -0000
-Message-Id: <170489972833.9455.11584299812574404525@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8048826466557374999=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Wed, 10 Jan 2024 15:16:01 -0000
+Message-Id: <170489976141.9727.10059311149480571781@gitolite.kernel.org>
+
+--===============8048826466557374999==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: f423e0454d206959a88ed33c1e917050ef32e4a9
-    new: 99a9006d1eca59f30705e19914f008c122972890
-    log: |
-         99cc514d444ca207922cb861d15fcef554c2dd10 riscv: sbi: Introduce system suspend support
-         f503b167b66007fc6b4434cd07a044ce4a56b6a0 RISC-V: Add stubs for sbi_console_putchar/getchar()
-         f43fabf444ca3c4c74bf5fa5211bb2d0548715c4 RISC-V: Add SBI debug console helper routines
-         c77bf3607a0f0180aa674b58cfa76633215bb42f tty/serial: Add RISC-V SBI debug console based earlycon
-         88ead68e764cd164abb965e258c4e18841433ecf tty: Add SBI debug console support to HVC SBI driver
-         50942ad6ddb57d3cfe2e4fc1f08714d54b2565ef RISC-V: Enable SBI based earlycon support
-         99a9006d1eca59f30705e19914f008c122972890 Merge patch series "RISC-V SBI debug console extension support"
-         
+  - ref: refs/heads/slab/for-6.9/slab-removal-cleanups
+    old: 0000000000000000000000000000000000000000
+    new: a8b2f7e952b4f38f16726cf8fa70155966dbf367
+
+--===============8048826466557374999==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1704899718 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1704899718-675e180c55b6ed2e64f987c39cfc355abf37e98e
+
+0000000000000000000000000000000000000000 a8b2f7e952b4f38f16726cf8fa70155966dbf367 refs/heads/slab/for-6.9/slab-removal-cleanups
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmWetIYACgkQu+CwddJF
+iJpPLQf8CRzzS6zKLZ9FLkTsbXQNPikPZhKeUlpMyJ+1Ti/D0HBJVfwfNjjPBArO
+CTbvy94JbQglCDGTXTazjjOCHlwulRghjhNDozXQGdiu2eod3kIJ5CBRCpA+Vw1W
+b7ALJ2IoCXEGVilGXvt/Zm2nyV3dXkFE3yd45hsDjP7A0WdGqS4W+W3o0ic5+YbW
+MVZCNMXcTpAFLgp4TaDQDaUsjp1WtaQPjHOTN0MDYXrGfDfanNu5Jfjl5BeN4F0n
+lKRqWVoexhciEuOPZho5rj4TxHVAly56EonrfInriSPJWQGrkcV5V7K5mZ9y+I+o
+BbJwrEb0W8kPmlFyZO1jMC7mLU4U2Q==
+=hTFu
+-----END PGP SIGNATURE-----
+
+--===============8048826466557374999==--
