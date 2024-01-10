@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Wed, 10 Jan 2024 11:26:28 -0000
-Message-Id: <170488598852.28984.14554912512693727481@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 10 Jan 2024 11:32:58 -0000
+Message-Id: <170488637863.509.1503266174997297855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: 03d790f04fb2507173913cad9c213272ac983a60
-    new: 284d16c456e5d4b143f375b8ccc4038ab3f4ee0f
+  - ref: refs/heads/kbuild
+    old: c6113f13957f918762d54080b2e2adbe0d7889e5
+    new: 41eb43b3c73b34e8afd045fc356b8201cbe91678
     log: |
-         3208bcef366a1795f03abd93a0dfe7f1c364e4d7 mfd: ab8500-sysctrl: Drop ancient charger
-         64fe64f920f0b478c0fb350b1682b70c21160c98 dt-bindings: mfd: sprd: Add support for UMS9620
-         284d16c456e5d4b143f375b8ccc4038ab3f4ee0f mfd: ti_am335x_tscadc: Fix TI SoC dependencies
+         dd3032ba0de816706da7bc515d4b1dce326b3f00 kbuild: deb-pkg: use debian/<package> for tmpdir
+         41eb43b3c73b34e8afd045fc356b8201cbe91678 linux/export.h: remove unneeded .balign directive
          
