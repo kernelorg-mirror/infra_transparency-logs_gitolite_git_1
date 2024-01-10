@@ -1,31 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
-Date: Wed, 10 Jan 2024 15:03:40 -0000
-Message-Id: <170489902061.31169.6281395988490976381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 10 Jan 2024 15:15:28 -0000
+Message-Id: <170489972833.9455.11584299812574404525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bigeasy/staging
-user: bigeasy
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/net_ipi_4
-    old: 59de90ad019aafdf70f6689989f210af58d80779
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/net_ipi_5
-    old: 0000000000000000000000000000000000000000
-    new: f4398e4e39f5c08debece60a77442b1b851d3d26
-  - ref: refs/tags/v6.7
-    old: 0000000000000000000000000000000000000000
-    new: 06f0875049ac2d11eb48273d04d0a6800c52abf5
-  - ref: refs/tags/v6.7-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d8f30cf5e09a30e9a978b7df0aa5029afff0e1c1
-  - ref: refs/tags/v6.7-rc7
-    old: 0000000000000000000000000000000000000000
-    new: adab409b5eb1c5905c260f74c75725db3da46e38
-  - ref: refs/tags/v6.7-rc8
-    old: 0000000000000000000000000000000000000000
-    new: ff16c06a1757247b456096cbffeedf4ef5621ba4
+  - ref: refs/heads/for-next
+    old: f423e0454d206959a88ed33c1e917050ef32e4a9
+    new: 99a9006d1eca59f30705e19914f008c122972890
+    log: |
+         99cc514d444ca207922cb861d15fcef554c2dd10 riscv: sbi: Introduce system suspend support
+         f503b167b66007fc6b4434cd07a044ce4a56b6a0 RISC-V: Add stubs for sbi_console_putchar/getchar()
+         f43fabf444ca3c4c74bf5fa5211bb2d0548715c4 RISC-V: Add SBI debug console helper routines
+         c77bf3607a0f0180aa674b58cfa76633215bb42f tty/serial: Add RISC-V SBI debug console based earlycon
+         88ead68e764cd164abb965e258c4e18841433ecf tty: Add SBI debug console support to HVC SBI driver
+         50942ad6ddb57d3cfe2e4fc1f08714d54b2565ef RISC-V: Enable SBI based earlycon support
+         99a9006d1eca59f30705e19914f008c122972890 Merge patch series "RISC-V SBI debug console extension support"
+         
