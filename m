@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 10 Jan 2024 13:17:40 -0000
-Message-Id: <170489266028.13642.13472217969132710810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 10 Jan 2024 13:29:18 -0000
+Message-Id: <170489335814.20897.15911192865361240801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next
-    old: 41eb43b3c73b34e8afd045fc356b8201cbe91678
-    new: 0f493ceef61bf7b3eab93fbac68fe93cc87949b8
+  - ref: refs/heads/bleeding-edge
+    old: b88ccaed52c84ecb09cdb4a6f9810ff4c2419529
+    new: b3121f6d6b2b7c36d7e3e71bb4f807a05b6d742e
     log: |
-         1b5e94657320c86fc660745e3fc64321948649be kbuild: deb-pkg: move 'make headers' to build-arch
-         6185d32170b683abadddf1e68be998e24f3cc5de kbuild: deb-pkg: use debian/<package> for tmpdir
-         0f493ceef61bf7b3eab93fbac68fe93cc87949b8 linux/export.h: remove unneeded .balign directive
+         e7224eb27f2628269e65bc01bd3d0c9ddb10474e thermal: gov_power_allocator: avoid inability to reset a cdev
+         b3121f6d6b2b7c36d7e3e71bb4f807a05b6d742e Merge branch 'thermal-core' into bleeding-edge
          
