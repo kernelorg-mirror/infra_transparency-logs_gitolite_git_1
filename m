@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 10 Jan 2024 17:36:07 -0000
-Message-Id: <170490816710.23814.16607027164850674104@gitolite.kernel.org>
+Date: Wed, 10 Jan 2024 17:55:11 -0000
+Message-Id: <170490931114.5960.492399153883326711@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: 99a9006d1eca59f30705e19914f008c122972890
-    new: baa04909d10014390ed68785b26142cb436b2efc
+    old: baa04909d10014390ed68785b26142cb436b2efc
+    new: c4e4b793738c32b6c74372d29b1ceae8fdac576c
     log: |
-         b4070c2a242e6bdd9d355d18b8c589d9778a6fd8 dt-bindings: riscv: cpus: Clarify mmu-type interpretation
-         baa04909d10014390ed68785b26142cb436b2efc dt-bindings: riscv: permit numbers in "riscv,isa"
+         a4ff64edf9edc8f05e2183610dc8306d3279c6ac riscv: errata: thead: use riscv_nonstd_cache_ops for CMO
+         3690492612ecd2b3fd69f39f3a56f6313ea8ef8b riscv: errata: thead: use pa based instructions for CMO
+         c4e4b793738c32b6c74372d29b1ceae8fdac576c Merge patch series "riscv: errata: thead: use riscv_nonstd_cache_ops for CMO"
          
