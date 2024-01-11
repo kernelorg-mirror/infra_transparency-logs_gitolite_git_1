@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Thu, 11 Jan 2024 13:09:33 -0000
-Message-Id: <170497857306.21472.7225710290732302836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 11 Jan 2024 13:50:07 -0000
+Message-Id: <170498100707.19239.1733285979219908302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/linux
-user: legion
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/patchset/meminfo/v2.1
-    old: 45a805fce79feed28d92727147bf79ddf7ddaeb2
-    new: b26ce8a047fe25e6d094cd573ab62709263545fd
+  - ref: refs/heads/main
+    old: 323d51ed5b64519e5cffdd51e39c48919b3f3381
+    new: b3132c18d0be905d352dddf554230b14fc7eab5c
     log: |
-         2439736c86e8c172f141ff9230a8a5e87386dbe2 ARM: Show information about one cpu at each iteration
-         43315cc36a3050742d6b4b5f3129216bb874c75d ARM64: Show information about one cpu at each iteration
-         88c3f3ca430d419acc2c83e01936c871c8eae9cd CSKY: Show information about one cpu at each iteration
-         b26ce8a047fe25e6d094cd573ab62709263545fd PARISC: Show information about one cpu at each iteration
+         d4b77b4fdaa3ea00bf26822f38f05fb3fe62bdff linux-firmware: Add firmware for Cirrus CS35L41 for various Dell laptops
+         2b6dd0c8d9b4273b805943921842774ac71538fe cirrus: Add CS35L41 firmware for Legion Slim 7 Gen 8 laptops
+         75f16899bd8e2137635091b766122e984c6e0a65 qcom: Update the firmware for Adreno a630 family of GPUs
+         e90a918aedf9d6285b0c54156653638d148acf30 Merge branch 'robot/pr-0-1704899107' into 'main'
+         fabfd33aa1e3b811d1bae42b3fb2ff01e0e665ad Merge branch 'robot/pr-0-1704913579' into 'main'
+         b3132c18d0be905d352dddf554230b14fc7eab5c Merge branch 'robot/patch-0-1704975046' into 'main'
          
