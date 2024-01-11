@@ -1,26 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 11 Jan 2024 15:37:05 -0000
-Message-Id: <170498742577.31671.14505312632749802166@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6848281004865426246=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Thu, 11 Jan 2024 15:39:26 -0000
+Message-Id: <170498756606.1376.3616796644210200788@gitolite.kernel.org>
+
+--===============6848281004865426246==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: c4e4b793738c32b6c74372d29b1ceae8fdac576c
-    new: d3e591a38c98d448ae84eba1f89388c55382cb0e
+  - ref: refs/heads/master
+    old: dea5770e1653ca1a41e8f0262b97472a4bd0faa0
+    new: 7ea255e05e5a963f4be18d80131b0554c5aede67
     log: |
-         17f2c308051f8adccd913b63d105afdd9a1c7d9e Merge patch series "riscv: enable EFFICIENT_UNALIGNED_ACCESS and DCACHE_WORD_ACCESS"
-         3a58275099b9cbfb9d86b85824fb3a5de796c815 Merge patch series "riscv: modules: Fix module loading error handling"
-         4dc4af9ce32681fbd16aa0e757ccba341cc9d4ca riscv: sbi: Introduce system suspend support
-         951df4eb817cbb23fcac9e61de3ef4f8ca2c1a1d Merge patch series "RISC-V SBI debug console extension support"
-         a452816132d699bbb2af6fab8530685306054bda dt-bindings: riscv: cpus: Clarify mmu-type interpretation
-         07df87c0f8815898cb994408c4b6dd542a1394b8 dt-bindings: riscv: permit numbers in "riscv,isa"
-         2e605741e9dd26426ba2475afaf5966d781bfbc6 Merge patch series "riscv: errata: thead: use riscv_nonstd_cache_ops for CMO"
-         d3e591a38c98d448ae84eba1f89388c55382cb0e dt-bindings: riscv: Document cbop-block-size
+         7ea255e05e5a963f4be18d80131b0554c5aede67 Periodic mass update from keyservers
          
+
+--===============6848281004865426246==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1704987565 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1704987564-1b8fd3de51fcffb5c250aae301cdf13bfee842d1
+
+dea5770e1653ca1a41e8f0262b97472a4bd0faa0 7ea255e05e5a963f4be18d80131b0554c5aede67 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZaALrQAKCRC2xBzjVmSZ
+bEdpAQD0QCZiQLDvYtMMN6HsbvYDq6BuaYQmdV3g6n461SzaxgEA3DN2rPjY/xac
+w2YLKYKFnlmJsF/0OSJ6ZZKr6JvOOgY=
+=epqT
+-----END PGP SIGNATURE-----
+
+--===============6848281004865426246==--
