@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 11 Jan 2024 05:12:04 -0000
-Message-Id: <170494992404.17305.15549411369185094374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Thu, 11 Jan 2024 06:27:39 -0000
+Message-Id: <170495445973.5582.7807976628591612935@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: chandanbabu
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: egrumbach
 changes:
-  - ref: refs/tags/xfs-6.8-merge-4
+  - ref: refs/heads/6.5.13_backport_needed
     old: 0000000000000000000000000000000000000000
-    new: 0e33e2a1bdfcb08dd75ebb5f2322e2b5d476906e
+    new: d170327a0b082a58758f112f3485b99d7ae3e72c
