@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 11 Jan 2024 16:41:02 -0000
-Message-Id: <170499126204.16272.12236750575849985058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 11 Jan 2024 16:48:30 -0000
+Message-Id: <170499171008.20666.7352628963643984479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/kdevops
-    old: 5b16999d224b73789d39d7806d13fb27ae6223ab
-    new: a28da787a5c94fea88c0f86f404a4e3f3b2961ea
+  - ref: refs/heads/master
+    old: c1b1b22e87c03bd99f7a1ff79c3cc6968f95658a
+    new: 489b175c11cee48a4a2ee094075d0ff2a4da0024
     log: |
-         a28da787a5c94fea88c0f86f404a4e3f3b2961ea nfsd: Simplify code around svc_exit_thread() call in nfsd()
+         9f492c4963bb1a003de400a9d1fc0872a3b213d3 libblkid: (hfsplus) reduce false positive
+         489b175c11cee48a4a2ee094075d0ff2a4da0024 Merge branch 'PR/libblkid-hfsplus' of github.com:karelzak/util-linux-work
          
