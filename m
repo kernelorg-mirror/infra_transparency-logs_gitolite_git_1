@@ -1,18 +1,18 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 11 Jan 2024 15:36:59 -0000
-Message-Id: <170498741940.31565.15367459641114508359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 11 Jan 2024 15:37:05 -0000
+Message-Id: <170498742577.31671.14505312632749802166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: 25bbf9a420c549bdb2e8df77d50da15b1029424c
+    old: c4e4b793738c32b6c74372d29b1ceae8fdac576c
     new: d3e591a38c98d448ae84eba1f89388c55382cb0e
     log: |
          17f2c308051f8adccd913b63d105afdd9a1c7d9e Merge patch series "riscv: enable EFFICIENT_UNALIGNED_ACCESS and DCACHE_WORD_ACCESS"
