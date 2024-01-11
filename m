@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 11 Jan 2024 17:17:52 -0000
-Message-Id: <170499347242.9980.10242009023512862501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Thu, 11 Jan 2024 17:24:11 -0000
+Message-Id: <170499385166.13830.12062683886616645216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/kdevops
-    old: a28da787a5c94fea88c0f86f404a4e3f3b2961ea
-    new: b48ab487fe87c5fc8344842ff17a0180c542d890
+  - ref: refs/heads/main
+    old: 97d3edd74383628a01d7d6a1197196dd500d5357
+    new: 05a4fc72587fed4ad5a0a93c59394b3e39f30381
     log: |
-         9439c11931babf1b4a47ddbc2865b0b91988bdaa Revert "nfsd: call nfsd_last_thread() before final nfsd_put()"
-         b48ab487fe87c5fc8344842ff17a0180c542d890 Revert "nfsd: separate nfsd_last_thread() from nfsd_put()"
+         ba0d6e6d7dacc196a96b41885efada695fb7fd40 iplink_xstats: spelling fix in error message
+         05a4fc72587fed4ad5a0a93c59394b3e39f30381 genl: ctrl.c: spelling fix in error message
          
