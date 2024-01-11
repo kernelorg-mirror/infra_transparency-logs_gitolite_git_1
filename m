@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 11 Jan 2024 16:36:08 -0000
-Message-Id: <170499096843.11494.16810676564824806957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 11 Jan 2024 16:38:35 -0000
+Message-Id: <170499111546.13760.7236772321324596147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/kdevops
-    old: 3f707907019ac15a5c118bded15f7edee70a05af
-    new: 5b16999d224b73789d39d7806d13fb27ae6223ab
+  - ref: refs/heads/misc
+    old: 27985ce93bd6785cda684ba73b9b9271232b9d01
+    new: 6bd9c2e478a47daa0a6055418f7bb351871dfd85
     log: |
-         14463e16a30c12ceefa3125a07e818d3e8f9cec1 NFSD: simplify error paths in nfsd_svc()
-         5b16999d224b73789d39d7806d13fb27ae6223ab nfsd: drop the nfsd_put helper
+         6bd9c2e478a47daa0a6055418f7bb351871dfd85 PCI: Fix kernel-doc issues
          
