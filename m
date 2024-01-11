@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 11 Jan 2024 16:48:30 -0000
-Message-Id: <170499171008.20666.7352628963643984479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 11 Jan 2024 16:50:03 -0000
+Message-Id: <170499180398.22849.8389671143664759066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: c1b1b22e87c03bd99f7a1ff79c3cc6968f95658a
-    new: 489b175c11cee48a4a2ee094075d0ff2a4da0024
-    log: |
-         9f492c4963bb1a003de400a9d1fc0872a3b213d3 libblkid: (hfsplus) reduce false positive
-         489b175c11cee48a4a2ee094075d0ff2a4da0024 Merge branch 'PR/libblkid-hfsplus' of github.com:karelzak/util-linux-work
-         
+  - ref: refs/heads/for-6.8/block
+    old: 744bdfb30b119f011d800e865623f3eb0a28c949
+    new: b2da197565d7a2e8f357605a63971bf39597a9f0
