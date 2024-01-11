@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 11 Jan 2024 22:49:47 -0000
-Message-Id: <170501338797.24307.13853259152850732457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 11 Jan 2024 22:51:00 -0000
+Message-Id: <170501346088.26461.14118627046562486272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/dev-queue
-    old: b0b6dae67cd02b35da29c591157b06cf12e363af
-    new: 0c0c4981a30d52f9a912dd4a8e58ae1ac038680a
+  - ref: refs/heads/master
+    old: eb914a6fea47aa9e66d8e5cc78488b00461565b8
+    new: 86f8a4782638db571d58226b992a58c75a92204e
     log: |
-         c8c06ff7ca5d9fc593fd634e3c3ff78a7e2bc5fe e1000e: Minor flow correction in e1000_shutdown function
-         6ca3865da9d5c8b8aa7f190008f3af9a9884394f ice: introduce PTP state machine
-         c20fbcee3b745321254ebcf2d321a0baa4b782a2 ice: pass reset type to PTP reset functions
-         73bce3c6b707404d979683dc88c32f0087207805 ice: rename verify_cached to has_ready_bitmap
-         ad7fd33d07c97d32907769a98fd3fba216577792 ice: rename ice_ptp_tx_cfg_intr
-         a3f2fcf3b4592a50b589639a293161ee6c834791 ice: factor out ice_ptp_rebuild_owner()
-         4e636d458c18f3fbb2e652d36c8260838b985c1a ice: stop destroying and reinitalizing Tx tracker during reset
-         0c0c4981a30d52f9a912dd4a8e58ae1ac038680a idpf: avoid compiler padding in virtchnl2_ptype struct
+         86f8a4782638db571d58226b992a58c75a92204e foo
          
