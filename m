@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 12 Jan 2024 12:17:56 -0000
-Message-Id: <170506187675.18103.10664960314455734061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+Date: Fri, 12 Jan 2024 12:22:40 -0000
+Message-Id: <170506216023.21461.5658019496737688258@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+user: jlayton
 changes:
-  - ref: refs/heads/main
-    old: e398822c4751017fe401f57409488f5948d12fb5
-    new: 907ee6681788556b9ade3ad0a1f6f4aea192399c
+  - ref: refs/heads/fixes
+    old: fd97e4b897709a7e31f686115a5bdd576e9174af
+    new: f9ab637d48df82773720b8a483f827caeecc9805
     log: |
-         907ee6681788556b9ade3ad0a1f6f4aea192399c net: fill in MODULE_DESCRIPTION()s for wx_lib
+         f9ab637d48df82773720b8a483f827caeecc9805 t_mtab: increase the lock timeout to 60
          
