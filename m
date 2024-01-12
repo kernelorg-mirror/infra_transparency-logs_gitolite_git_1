@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0434698920074658379=="
+Content-Type: multipart/mixed; boundary="===============1860426580628175552=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 12 Jan 2024 18:40:35 -0000
-Message-Id: <170508483519.4551.13714573341097413182@gitolite.kernel.org>
+Date: Fri, 12 Jan 2024 18:41:08 -0000
+Message-Id: <170508486859.4819.6470974932006477640@gitolite.kernel.org>
 
---===============0434698920074658379==
+--===============1860426580628175552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 3e7aeb78ab01c2c2f0e1f784e5ddec88fcd3d106
-    new: 907ee6681788556b9ade3ad0a1f6f4aea192399c
-    log: revlist-3e7aeb78ab01-907ee6681788.txt
+  - ref: refs/heads/dev-queue
+    old: 6ea424c2461f0a48bdbc7350f082d2b809073374
+    new: 0b8082f8f6806cb67d9a14ccf469f62f2ce3e741
+    log: revlist-6ea424c2461f-0b8082f8f680.txt
 
---===============0434698920074658379==
+--===============1860426580628175552==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3e7aeb78ab01-907ee6681788.txt
+Content-Disposition: attachment; filename=revlist-6ea424c2461f-0b8082f8f680.txt
 
 e1b1d282d5ccabbf17e5556191af248a35293e16 net: fill in MODULE_DESCRIPTION()s for SLIP
 417d8c571cb49fcace83a6b6477da2970802bf26 net: fill in MODULE_DESCRIPTION()s for HSR
@@ -56,5 +56,12 @@ bec161add35b478a7746bf58bcdea6faa19129ef amt: do not use overwrapped cb area
 acd66c2126eb9b5da2d89ae07dbcd73b909c2111 net: micrel: Fix PTP frame parsing for lan8841
 e398822c4751017fe401f57409488f5948d12fb5 net: phy: micrel: populate .soft_reset for KSZ9131
 907ee6681788556b9ade3ad0a1f6f4aea192399c net: fill in MODULE_DESCRIPTION()s for wx_lib
+ba737b428ad9a65dfe7fa4bafdaee7952789c03d i40e: Fix waiting for queues of all VSIs to be disabled
+ebe0cf6dfda2a8cc5e08b2f53209b0c0d6d8333e i40e: Fix wrong mask used during DCB config
+22f5be7b1b5795d5090b000876e490eaf4eaa8e0 e1000e: correct maximum frequency adjustment values
+5121a79af4c34429311c89ec6790b4b587da1ddc e1000e: remove force SMBUS from ULP enable flow to avoid PHY loss issue
+b8b3c93791b7648ea5b1b18013926dec1a5694cc e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+c22b02b1adc96267acb2a4031724e6bcf0f87df4 idpf: avoid compiler padding in virtchnl2_ptype struct
+0b8082f8f6806cb67d9a14ccf469f62f2ce3e741 i40e: Include types.h to some headers
 
---===============0434698920074658379==--
+--===============1860426580628175552==--
