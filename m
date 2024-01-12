@@ -1,32 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 12 Jan 2024 08:46:39 -0000
-Message-Id: <170504919914.12339.18109223483244011953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 12 Jan 2024 08:55:21 -0000
+Message-Id: <170504972117.18719.4608789092456120933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/for-linus
-    old: fd38dd6abda589a8771e7872e4dea28c99c6a6ef
-    new: cdac6e1f716419ce307ad3e44a718557a5469c17
+  - ref: refs/heads/vfs.fixes
+    old: e321b4b5a7c8897a267e53f5b81d722a1dc542c8
+    new: 1a99ae6ea7917054926b20163da050f6ff3b0acf
     log: |
-         cdac6e1f716419ce307ad3e44a718557a5469c17 ALSA: aloop: Introduce a function to get if access is interleaved mode
-         
-  - ref: refs/heads/for-next
-    old: fd38dd6abda589a8771e7872e4dea28c99c6a6ef
-    new: cdac6e1f716419ce307ad3e44a718557a5469c17
-    log: |
-         cdac6e1f716419ce307ad3e44a718557a5469c17 ALSA: aloop: Introduce a function to get if access is interleaved mode
-         
-  - ref: refs/heads/master
-    old: c04df3959d4393d5a9610e2bf522e7d91304c80e
-    new: 33c0ad39c914a17740307a5b51c1f9fa121997dd
-    log: |
-         cdac6e1f716419ce307ad3e44a718557a5469c17 ALSA: aloop: Introduce a function to get if access is interleaved mode
-         33c0ad39c914a17740307a5b51c1f9fa121997dd Merge branch 'for-linus'
+         1a99ae6ea7917054926b20163da050f6ff3b0acf listmount: massage error handling
          
