@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 12 Jan 2024 00:35:56 -0000
-Message-Id: <170501975628.6256.4079822214446426392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Fri, 12 Jan 2024 00:42:08 -0000
+Message-Id: <170502012833.11429.17535100119388202578@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/main
-    old: b33fb5b801c6db408b774a68e7c8722796b59ecc
-    new: 844f104790bd69c2e4dbb9ee3eba46fde1fcea7b
-    log: |
-         844f104790bd69c2e4dbb9ee3eba46fde1fcea7b net: dsa: fix netdev_priv() dereference before check on non-DSA netdevice events
-         
+  - ref: refs/tags/damon/next-2024-01-11-16-42-on-v6.7
+    old: 0000000000000000000000000000000000000000
+    new: 6fe4590b704a295fd97323f751df65b5c75f3004
