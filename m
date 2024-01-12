@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 12 Jan 2024 00:08:18 -0000
-Message-Id: <170501809865.17987.17545020867315656559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Fri, 12 Jan 2024 00:10:46 -0000
+Message-Id: <170501824685.20547.1535358529574204476@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/min-wait
-    old: b470820b7ec45965f05065d372ada15a0e04441d
-    new: 5d48a50f19aebbae1f27bc6c8113e096b2a5ba6b
+  - ref: refs/heads/for-next
+    old: bfed9a92940bae1fbdaad80b82562ce4e122434a
+    new: e6abb921392e83d6eb643ee526fdbb49ff7a1a06
     log: |
-         5d48a50f19aebbae1f27bc6c8113e096b2a5ba6b Add io_uring_submit_and_wait_min_timeout() man page
+         e6abb921392e83d6eb643ee526fdbb49ff7a1a06 gfs2: Improve gfs2_consist_inode() usage
          
