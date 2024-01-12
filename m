@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0223532459648038445=="
+Content-Type: multipart/mixed; boundary="===============8197809074665103998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 12 Jan 2024 02:53:48 -0000
-Message-Id: <170502802837.15430.12340956644889005925@gitolite.kernel.org>
+Date: Fri, 12 Jan 2024 02:53:52 -0000
+Message-Id: <170502803268.15535.5129869214542610834@gitolite.kernel.org>
 
---===============0223532459648038445==
+--===============8197809074665103998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: b4813bc1a482a0706a45236b7914d5ef7faeee7b
-    new: 9bbd0193975bf37d9b8a5742ab62ed2f66d5cfc3
+  - ref: refs/heads/6.8/scsi-queue
+    old: 45a2c87f28ad0ee8c286bb6dd5686bc54f5b7160
+    new: 904fdd2062f3101fb09db8ee077abf7ffd95e538
     log: |
          daf7795406bf307997366f694888bd317ae5b5fa scsi: ufs: core: Simplify power management during async scan
          ee36710912b2075c417100a8acc642c9c6496501 scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
@@ -29,33 +29,33 @@ changes:
          904fdd2062f3101fb09db8ee077abf7ffd95e538 scsi: mpi3mr: Fix mpi3mr_fw.c kernel-doc warnings
          
 
---===============0223532459648038445==
+--===============8197809074665103998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1705028008 -0500
+pusher 75C5DE3D 1705028031 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1705028007-2630c02b3596312e0d8f43bdeb069d8dae880dc6
+nonce 1705028031-331f9b8c70709e00f06d81f95facf3bc0c3c9082
 
-b4813bc1a482a0706a45236b7914d5ef7faeee7b 9bbd0193975bf37d9b8a5742ab62ed2f66d5cfc3 refs/tags/mkp-scsi-queue
+45a2c87f28ad0ee8c286bb6dd5686bc54f5b7160 904fdd2062f3101fb09db8ee077abf7ffd95e538 refs/heads/6.8/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWgqagACgkQ7ulgGnXF
-3j0m7xAAjdXJzyqjI5R/WuEwDVg223XcCuyQtnyHA5kdAdXhwGU8rU4/kIsH2tP2
-xUFMd7CMhHrMOf9MKETd7rbDOK+dm+B7tXVmvBdh/XfdzWlTSoH+3lBRbSN8aBbS
-l7dVCZd63RHcyvkh7hY9z1aW96gViXvyGXagZQGoykvMKcr10/nhxPrfs45wSx1X
-htNjoHfQbyCCCnV9bA5MKn9tu0N0BeOfc3QVB622OgfGY8T9tAqs2Yp9DKnDHwNC
-pbVs6m0s0pQHTaLO3ygC4iKWNBvR+3Ofqi5SzlqgLiW3PQ+4YVuuvVQaO1IkD+7P
-RbxGeYhn/+hkvjdFUdV3PDgo6zdTFIXBJignPmA5YzUtPCRUcCCHYLOqlB9sN4tZ
-/1hi0jIGTSHUnuW1f4rtokMIF9W+zdA3B4t+hxtbmzFfQoIyqaCnWqeoCcUjKKAD
-ERbSsoz7/Uz9nD2zCITl3ZZXEgUaS8MvdsUOuvmu+SZJtTz7MdhAdd/dRpeb3/qB
-GxyG0vT+tchxp1F+N7Ob7EESEOLxcVlq4Bu6OTWX7mTL9+AbH8GzW/5G/NE8CSny
-PA6pIqWHJ9dVOUh6bNuxr6eRSlBcMm6JKcvIB3UVky0Te3i20FBjNxI6ZVol2gF7
-VKQsAe0HZ7M7/helCepZs6tdCDKESusLeeAiuD9E3fp1fp6uhs4=
-=4mrM
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWgqb8ACgkQ7ulgGnXF
+3j1ehg//T5dZJM/qDfv2sPBINIILQFw2tfvYBra2v4sXnOGTRYPJYh9dktvwJgDf
+CCeQsKKfDgFqHJ457uqLvh53s6d4mmjr8ccA353LVE6lr0EjHhBYd+TAm6/25z+p
+6DuOGWQi64BwI7WISxt3l0KWWY37LXQEVUA3lAm4ajEBV32PqlnFQqzMFfNcUZw9
+bQJAX7ul3KbmlLiIbV5OgyrvkxmGz5W2qy6NqxFc73pPUy+SkbgRypAg8WSrQ9fx
+TUoYxs5DCjE81xbLxpBhSKXZ0FGjP+qyG6sE3hiX7eq10fYfk66M/wdyI9oGalgi
+y6eAZtIJxMLXH9gydZXCfsCXV03PjqjxfKxBbVAC+1OT+KYolyHM6M8O7nE0gobH
+qM63KXR5oj0GNzTfyey3zVhEilYJhfuc1BhfUvdWJwml/xfpoa9Kh23O8dL50Hkf
+WapXi2aCHCfll8rFAwqtHQxfuOalsoEPJkjtK6YZ1vvXjX9ks9E77Olt5K6lcFI2
+4Yy2xuvkjovJfB4rf/nIaTQg1cblA8A2402KpV1gSoKDbVz7DGL8pZypcBX3KNsc
+NmCO0Nde5eegZIznFW9TnRKz631BaU9qy+4wfyl76JgNlnGVQPt6/wU/Dq0NAXVl
+S/0GsCd0HZsGIGkGmdUtJ8bzuqbBmsI4Jj+Gcy8jDwddGWVfCWU=
+=gQJl
 -----END PGP SIGNATURE-----
 
---===============0223532459648038445==--
+--===============8197809074665103998==--
