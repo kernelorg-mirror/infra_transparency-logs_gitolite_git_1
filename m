@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 12 Jan 2024 02:38:50 -0000
-Message-Id: <170502713058.5287.5963089655583524053@gitolite.kernel.org>
+Date: Fri, 12 Jan 2024 02:41:43 -0000
+Message-Id: <170502730308.7960.17756349093619140902@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
   - ref: refs/heads/master
-    old: fd707fb8dc2498ec539b17b13d51a064d98f3915
-    new: ed145390380db06453556be48069b8de00721bac
+    old: ed145390380db06453556be48069b8de00721bac
+    new: 32e14348077cfbd87a78a1c6db2ab315212914f2
     log: |
-         ed145390380db06453556be48069b8de00721bac selftests/bpf: detect testing prog flags support
+         32e14348077cfbd87a78a1c6db2ab315212914f2 selftests/bpf: Update LLVM Phabricator links
          
