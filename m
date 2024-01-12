@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1987415253860231527=="
+Content-Type: multipart/mixed; boundary="===============1857399639420439695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 12 Jan 2024 14:35:06 -0000
-Message-Id: <170507010645.19833.3632161617764841383@gitolite.kernel.org>
+Date: Fri, 12 Jan 2024 14:36:11 -0000
+Message-Id: <170507017178.20288.2758073628156544745@gitolite.kernel.org>
 
---===============1987415253860231527==
+--===============1857399639420439695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs.fixes
-    old: d171549d6e25f2dbb70a5c1d67813a1d8b52c73d
-    new: 44414675de3236795059acd4ee8130b828c0f031
-    log: revlist-d171549d6e25-44414675de32.txt
+  - ref: refs/heads/vfs.all
+    old: 7c5d81332f49fdc91c742b07dffcb89bd2077bf3
+    new: f4be541f7ec10cf6f0d51e0f4890f7ffeb018ba5
+    log: revlist-7c5d81332f49-f4be541f7ec1.txt
 
---===============1987415253860231527==
+--===============1857399639420439695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d171549d6e25-44414675de32.txt
+Content-Disposition: attachment; filename=revlist-7c5d81332f49-f4be541f7ec1.txt
 
-d14cf8edd30678b5d1e3671466d458bf72a53e86 afs: Mark address lists with configured priorities
-92f091cdddace38e57ad570663b058a38b4d8bed afs: Dispatch fileserver probes in priority order
-e6a7d7f71b17e0a44e2155bdad47eae7b5368503 afs: Dispatch vlserver probes in priority order
-f49b594df3ebca53c91f4d6448680463f10aa479 afs: Keep a record of the current fileserver endpoint state
-21c1f410d20295dbeee4178f7fdde5e167e20b43 afs: Combine the endpoint state bools into a bitmask
-ca0e79a46097d54e4af46c67c852479d97af35bb afs: Make it possible to find the volumes that are using a server
-445f9b6952869586990ec3140dcd87c86d795d2e afs: Defer volume record destruction to a workqueue
 dfa0a44946e29bd38c054df04ca7a3f8143dafe7 afs: Move the vnode/volume validity checking code into its own file
 32222f09782f1894fcfc37f6505ca676a6f4d1d6 afs: Apply server breaks to mmap'd files in the call processor
 dd94888938f8fefc6ee29ef57560c1e87cc3e05e afs: Fix comment in afs_do_lookup()
@@ -371,6 +364,8 @@ fd56cd5f6d76e93356d9520cf9dabffe1e3d1aa0 eventfs: Fix bitwise fields for "is_eve
 3e64db35bc37edbe9e37aaa987df92cde12ddb6c Revert "net: mdio: get/put device node during (un)registration"
 8cdafdd94654ba418648d039c48e7a90508c1982 Revert "net: ipv6/addrconf: clamp preferred_lft to the minimum required"
 8dc4c410006531ddad981ca9578f83cb93860819 xsk: make struct xsk_cb_desc available outside CONFIG_XDP_SOCKETS
+f93e71aea6c60ebff8adbd8941e678302d377869 Revert "PCI/ASPM: Remove pcie_aspm_pm_state_change()"
+0ee2030af4e3e0a9cd26dfaa8c2f935beffa91d1 MAINTAINERS: Orphan Cadence PCIe IP
 7c402f77e8cb6dd593217270e2643eeba1a89b01 net: ethtool: copy input_xfrm to user-space in ethtool_get_rxfh
 0dd415d155050f5c1cf360b97f905d42d44f33ed net: ethtool: add a NO_CHANGE uAPI for new RXFH's input_xfrm
 88b8fd9770896231791ad0026d8dddde537d3c82 Merge branch 'bug-fixes-for-rss-symmetric-xor'
@@ -388,6 +383,7 @@ b29be0ca8e816119ccdf95cc7d7c7be9bde005f1 netfilter: nft_immediate: drop chain re
 8abf77c88929b6d20fa4f9928b18d6448d64e293 mmc: sdhci-sprd: Fix eMMC init failure after hw reset
 6aa09a5bccd8e224d917afdb4c278fc66aacde4d async: Split async_schedule_node_domain()
 7d4b5d7a37bdd63a5a3371b988744b060d5bb86f async: Introduce async_schedule_dev_nocall()
+54aa699e8094efb7d7675fefbc03dfce24f98456 arch/x86: Fix typos
 8c14dbf36424eb751d70c15f9a671549390057b2 ALSA: hda: cs35l41: fix building without CONFIG_SPI
 3b82024c5ba93e7a0db2d0b9635ca6b28338efd7 OPP: Move dev_pm_opp_icc_bw to internal opp.h
 7839d0078e0d5e6cc2fa0b0dfbee71de74f1e557 PM: sleep: Fix possible deadlocks in core system-wide PM code
@@ -399,6 +395,8 @@ e956c884ef50a02d23fd594f3ab291444f22a6f3 Merge tag 'cpufreq-arm-updates-6.8' of 
 01b2885d9415152bcb12ff1f7788f500a74ea0ed net: Save and restore msg_namelen in sock_sendmsg
 0daaa610c8e033cdfb420db728c2b40eb3a75134 landlock: Optimize the number of calls to get_access_mask slightly
 2ab1efad60ad119b616722b81eeb73060728028c net/sched: cls_api: complement tcf_tfilter_dump_policy
+a15f2d48c6f84ae0dd2000288592c79d5d1acd0e nubus: Make nubus_bus_type static and constant
+6b9c045b0602cf64b33ea6da5e6aa6f81dd47ae8 m68k: defconfig: Update defconfigs for v6.7-rc1
 8a8b6bb93c704776c4b05cb517c3fa8baffb72f5 thermal: intel: hfi: Refactor enabling code into helper functions
 ac1f9230d92a04619331c600dbcead0e32b3e80e thermal: intel: hfi: Enable an HFI instance from its first online CPU
 1c53081d773c2cb4461636559b0d55b46559ceec thermal: intel: hfi: Disable an HFI instance when all its CPUs go offline
@@ -651,6 +649,7 @@ cf22fc2846cee83061082fa373574d6cdeb4c006 drm/nouveau/gsp: Fix ACPI MXDM/MXDS met
 9c9dd22ba5d747cceee3d1b1757448b5c48ac705 nouveau/gsp: always free the alloc messages on r535
 eacabb5462717a52fccbbbba458365a4f5e61f35 nouveau: push event block/allowing out of the fence context
 eb284f4b37817d2038fdfe1a9d51769730ab7b5f drm/nouveau/dp: Honor GSP link training retry timeouts
+64e6304169f1e1f078e7f0798033f80a7fb0ea46 nfsd: drop the nfsd_put helper
 00bc8988807985e32f5103f1ac099baf593bd8a3 bpf, x86: Use emit_nops to replace memcpy x86_nops
 f2fec3e99a32d7c14dbf63c824f8286ebc94b18d ext4: delete redundant calculations in ext4_mb_get_buddy_page_lock()
 e89fdcc425b6feea4dfb33877e9256757905d763 ext4: enable dioread_nolock as default for bs < ps case
@@ -1050,5 +1049,6 @@ bf4e7080aeed29354cb156a8eb5d221ab2b6a8cc Merge tag 'pull-rename' of git://git.ke
 70d201a40823acba23899342d62bc2644051ad2e Merge tag 'f2fs-for-6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 7ea26f9460c6c76b1d6e36f39fce34b16cb88300 fsnotify: compile out fsnotify permission hooks if !FANOTIFY_ACCESS_PERMISSIONS
 44414675de3236795059acd4ee8130b828c0f031 fs: rework listmount() implementation
+f4be541f7ec10cf6f0d51e0f4890f7ffeb018ba5 Merge branch 'vfs.fixes' into vfs.all
 
---===============1987415253860231527==--
+--===============1857399639420439695==--
