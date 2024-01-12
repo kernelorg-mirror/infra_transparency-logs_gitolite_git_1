@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5472670320310881837=="
+Content-Type: multipart/mixed; boundary="===============0507785676100163609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 12 Jan 2024 20:01:15 -0000
-Message-Id: <170508967529.5084.12568514454447828839@gitolite.kernel.org>
+Date: Fri, 12 Jan 2024 20:04:12 -0000
+Message-Id: <170508985248.6508.17376619980668511359@gitolite.kernel.org>
 
---===============5472670320310881837==
+--===============0507785676100163609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,154 +16,212 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.19
-    old: 0516d8265e57621d0f0625859d4ea4135dfdcd6e
-    new: 69b3267b07be9a649a1cb16dadc79764adb96313
-    log: revlist-0516d8265e57-69b3267b07be.txt
+    old: 69b3267b07be9a649a1cb16dadc79764adb96313
+    new: 09cea77222baa628ef42d54453b0479db827120a
+    log: revlist-69b3267b07be-09cea77222ba.txt
+  - ref: refs/heads/queue/5.10
+    old: 0abaa2acc03279b9e69e975607083a50be683f7c
+    new: 0807b500c6419a950eb4ad30be21284793530a2c
+    log: revlist-0abaa2acc032-0807b500c641.txt
   - ref: refs/heads/queue/5.15
-    old: 22087bcc29b503415b7a8516a736c3835c178b85
-    new: c974496a5f4480274174ff1acb325e443ebba13f
-    log: revlist-22087bcc29b5-c974496a5f44.txt
+    old: c974496a5f4480274174ff1acb325e443ebba13f
+    new: 210c56a4c65dbd4f92ea636e5fbbafb8d321df41
+    log: revlist-c974496a5f44-210c56a4c65d.txt
   - ref: refs/heads/queue/5.4
-    old: ea486063e68c1658af74ea130bff6d361c4d1e6d
-    new: 8b874c88567c88a210ef07567425f8052fced210
-    log: revlist-ea486063e68c-8b874c88567c.txt
+    old: 8b874c88567c88a210ef07567425f8052fced210
+    new: cd697fd17dae6b7e2aa775533464ab9e3d8bf5a2
+    log: revlist-8b874c88567c-cd697fd17dae.txt
   - ref: refs/heads/queue/6.1
-    old: 28bcc909d0455631967bf804aae8fd9a8e854c9e
-    new: b92799096bd3c7c65fad7475ceae5bc69f423b89
+    old: b92799096bd3c7c65fad7475ceae5bc69f423b89
+    new: 3b3c7713ae3d0628fb291eb5a905f246a9e9f908
     log: |
-         3c1b83f2dd9eb497b3d6555502c019283963affd nfsd: drop the nfsd_put helper
-         b92799096bd3c7c65fad7475ceae5bc69f423b89 ipv6: remove max_size check inline with ipv4
+         9b84967ea80079cac588fbd7502f791397564c98 nfsd: drop the nfsd_put helper
+         3b3c7713ae3d0628fb291eb5a905f246a9e9f908 ipv6: remove max_size check inline with ipv4
          
   - ref: refs/heads/queue/6.6
-    old: ba6d08bd4b70e101b1ffc455558895951d073017
-    new: 32c1d8222c4b4170a33dac6a1dda5c62a8008a3a
+    old: 32c1d8222c4b4170a33dac6a1dda5c62a8008a3a
+    new: 2f0af6fbe49ddf799a62278fbc4981a4f175c9a7
     log: |
-         32c1d8222c4b4170a33dac6a1dda5c62a8008a3a nfsd: drop the nfsd_put helper
+         2f0af6fbe49ddf799a62278fbc4981a4f175c9a7 nfsd: drop the nfsd_put helper
          
 
---===============5472670320310881837==
+--===============0507785676100163609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0516d8265e57-69b3267b07be.txt
+Content-Disposition: attachment; filename=revlist-69b3267b07be-09cea77222ba.txt
 
-0793cbda1c76e10ba90e3bf5d0afe4afa0a75e2e nfc: llcp_core: Hold a ref to llcp_local->dev when holding a ref to llcp_local
-58c7dbacd04b35539b510c36a2160111e676c24d i40e: Fix filter input checks to prevent config with invalid values
-8cd770bd056288fd1d63d1b48aceb8cd534d3894 net: sched: em_text: fix possible memory leak in em_text_destroy()
-8b4d6aa3dff3cdffa294037e07a0f4818f54074e ARM: sun9i: smp: Fix array-index-out-of-bounds read in sunxi_mc_smp_init
-87c8a5e7e619886f8948b127f53c67adb57e8ab6 net: bcmgenet: Fix FCS generation for fragmented skbuffs
-ab6e7049b11052f07b509dc862256474c262c3ed net: Save and restore msg_namelen in sock_sendmsg
-2b122980aec148ef0d077878f7ea78c787da32ba i40e: fix use-after-free in i40e_aqc_add_filters()
-4afd2ab6879554eb0f438c215e1780e3e01200c9 i40e: Restore VF MSI-X state during PCI reset
-7d4559b7b38f2d08c2fb3ec2597e36bf3b4ab25a net/qla3xxx: switch from 'pci_' to 'dma_' API
-0f2b92b4f38811dc23ba1dc6205365fb9674a380 net/qla3xxx: fix potential memleak in ql_alloc_buffer_queues
-4661f887728d0962ad0cebe3110575d2d6b3f14a asix: Add check for usbnet_get_endpoints
-e38d7da3466670f4c1fda064e6aa8b55534c84b3 bnxt_en: Remove mis-applied code from bnxt_cfg_ntp_filters()
-f7233cd547a4d58c9b94bb887957445d233b4e83 mm/memory-failure: check the mapcount of the precise page
-a8791b3f0067258cdb1a18df53085252856ccb07 firewire: ohci: suppress unexpected system reboot in AMD Ryzen machines and ASM108x/VT630x PCIe cards
-b8029f9d990163991fed4960d2369b2aef4c10f8 mm: fix unmap_mapping_range high bits shift bug
-2a3ee84ee1eb7de216a2e75bfbf1382fab5cd2ed mmc: rpmb: fixes pause retune on all RPMB partitions.
-72653d0600b1e715cc7da095261384da530e63f6 mmc: core: Cancel delayed work before releasing host
-69b3267b07be9a649a1cb16dadc79764adb96313 fuse: nlookup missing decrement in fuse_direntplus_link
+b56d85e0d564b69d73eb63bc5b211ea7669d9296 nfc: llcp_core: Hold a ref to llcp_local->dev when holding a ref to llcp_local
+f2796ee3bbfc8e06b823ab7dc144c3331f61efb6 i40e: Fix filter input checks to prevent config with invalid values
+ecc22d3e8ffd5c1d9aa18b8cafcf8b9a2e7835f8 net: sched: em_text: fix possible memory leak in em_text_destroy()
+11b7348aebf0e9f2db9dfeaafdbd22fb6f7b07f8 ARM: sun9i: smp: Fix array-index-out-of-bounds read in sunxi_mc_smp_init
+75e72ca4ae3a86bd6b116758fd92b2cebbbd4a97 net: bcmgenet: Fix FCS generation for fragmented skbuffs
+15d7f919f0e60a0c1c31f4a2469f79ce80c3a56b net: Save and restore msg_namelen in sock_sendmsg
+b893d21f70156b5162dfd249fc47fe433811a83d i40e: fix use-after-free in i40e_aqc_add_filters()
+a14945b29186f97afd11516e26c6f894003752ad i40e: Restore VF MSI-X state during PCI reset
+0a9bfa1cb5f592a9b59f1ab25cb5ad38371840fe net/qla3xxx: switch from 'pci_' to 'dma_' API
+788e18507fd23cac9ca0bf8ed9bed99171140433 net/qla3xxx: fix potential memleak in ql_alloc_buffer_queues
+a2a952503019de36e6db1b61c72c2d0966304d6b asix: Add check for usbnet_get_endpoints
+8e33110b7d2ffd084b994906bb790fd4d3069f0d bnxt_en: Remove mis-applied code from bnxt_cfg_ntp_filters()
+87fc4b3c593a76ce3a5a9b04b198eb62efc92cce mm/memory-failure: check the mapcount of the precise page
+d00a55337a8a0ca04682bdd1b646767433562696 firewire: ohci: suppress unexpected system reboot in AMD Ryzen machines and ASM108x/VT630x PCIe cards
+115573a88e9d3caa18c670b2ae65a56d9633b2a0 mm: fix unmap_mapping_range high bits shift bug
+2f2ee6a52513903454bff0fcce24f37341852b19 mmc: rpmb: fixes pause retune on all RPMB partitions.
+bfc13dccf6635655c639dc117ca4a36457e791cf mmc: core: Cancel delayed work before releasing host
+09cea77222baa628ef42d54453b0479db827120a fuse: nlookup missing decrement in fuse_direntplus_link
 
---===============5472670320310881837==
+--===============0507785676100163609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22087bcc29b5-c974496a5f44.txt
+Content-Disposition: attachment; filename=revlist-0abaa2acc032-0807b500c641.txt
 
-c29538226cbfa41e01c0cc89db9cca2137bfa0c0 keys, dns: Fix missing size check of V1 server-list header
-0fbf22dc36e38feb26524409b73f4823bfc32261 block: Don't invalidate pagecache for invalid falloc modes
-f609bce500354a32c06a4525543378256f0f034c ALSA: hda/realtek: Fix mute and mic-mute LEDs for HP ProBook 440 G6
-1eb5fc0c6b7048324451d04401a520cf0cc6335f Revert "PCI/ASPM: Remove pcie_aspm_pm_state_change()"
-d6a90be5e31cb44f66549f37d922a78e16d1feea wifi: iwlwifi: pcie: don't synchronize IRQs from IRQ
-674fdcc6c545d9bbc21a73194fda5c0ed7acf890 drm/bridge: ti-sn65dsi86: Never store more than msg->size bytes in AUX xfer
-618f6e28880e23fda867ff382076a76a8ef1ba7b nfc: llcp_core: Hold a ref to llcp_local->dev when holding a ref to llcp_local
-04c8df66b898fd865883908b6a96f7c065ef024a octeontx2-af: Fix marking couple of structure as __packed
-034a0f8fe22f6f9e27304b5b6dcb2c1747353f7f drm/i915/dp: Fix passing the correct DPCD_REV for drm_dp_set_phy_test_pattern
-eb4919d34322b55ea371696e9bae971f67f9c06b i40e: Fix filter input checks to prevent config with invalid values
-7f1a96d7dc6a631b2f234b6c7b0208f7f5c3e402 igc: Report VLAN EtherType matching back to user
-55b4c924409856884b1d4b32f5f7f09e50b6d5eb igc: Check VLAN TCI mask
-67e7e1d6a158f723d6bfe23125c86f428dfd5898 igc: Check VLAN EtherType mask
-edd889da2d4f83387e98f2e0fff3593bbeb1036a ASoC: fsl_rpmsg: Fix error handler with pm_runtime_enable
-3ba401b62c21f48e5bacaee8c46db8c72121ad66 mlxbf_gige: fix receive packet race condition
-6ff820f44697d9928b1719ed1c1ebd6985911e03 net: sched: em_text: fix possible memory leak in em_text_destroy()
-0da5fcaa53fd492aca17a94fe2bc3b37ec118be8 r8169: Fix PCI error on system resume
-3dcb9d1dd680b2c6c3d271fb34840be02952cc4b net: Implement missing getsockopt(SO_TIMESTAMPING_NEW)
-2127c0dfcd97d8298e148bab74a04c9dc3773e23 can: raw: add support for SO_TXTIME/SCM_TXTIME
-1700a9ce174a9365816a4673f8477a283a919041 can: raw: add support for SO_MARK
-86aa0fc23ef97754c68e2134509fcaa70e2caf77 net-timestamp: extend SOF_TIMESTAMPING_OPT_ID to HW timestamps
-b558859ef1250b80fd95c69946e31f60335f89c0 ARM: sun9i: smp: Fix array-index-out-of-bounds read in sunxi_mc_smp_init
-15e75e34d0d00657b793625cc9b450aa49ebaf47 sfc: fix a double-free bug in efx_probe_filters
-0e22a73173522490741021f66a6bb21a32d03079 net: bcmgenet: Fix FCS generation for fragmented skbuffs
-078e8a85a040223f94736fd5d49cd73f94f753ab netfilter: nft_immediate: drop chain reference counter on error
-b8f01ab1985c436bc0ac59412224c981abd6d8dd net: Save and restore msg_namelen in sock_sendmsg
-870fc1190f17058240ff3eba8982605db932cd8e i40e: fix use-after-free in i40e_aqc_add_filters()
-6446425d653723ded18ba5b85edffa1b37a4c3c4 ASoC: meson: g12a-toacodec: Validate written enum values
-87adc61098cc81b923850c4b535b34d2b2864be7 ASoC: meson: g12a-tohdmitx: Validate written enum values
-d42c0f933092dcb4d923e3f3cb666a6b6ecbeda6 ASoC: meson: g12a-toacodec: Fix event generation
-46dc002f24289f96b080fd6288bb899cfbc23506 ASoC: meson: g12a-tohdmitx: Fix event generation for S/PDIF mux
-af26ab046696e375c52374ab306fdd4affc439cd i40e: Restore VF MSI-X state during PCI reset
-e1faaa670ff5afb1d4fe9d1a3d46cf471b439bb4 igc: Fix hicredit calculation
-c10de2216145e5b1427e7eff657f501b77781d94 net/qla3xxx: fix potential memleak in ql_alloc_buffer_queues
-073cff85840267c4268b7bb91120212be5e0601d octeontx2-af: Don't enable Pause frames by default
-c3c06cf3848f2ceafe204ab6e60c4f12dc1fe0c8 octeontx2-af: Set NIX link credits based on max LMAC
-6816adebdd31de742da25d3ae82923fa07cf4af2 octeontx2-af: Always configure NIX TX link credits based on max frame size
-ecae6dd75c68d23efd1be5dab9a6bb2c4ddd5a47 octeontx2-af: Re-enable MAC TX in otx2_stop processing
-4b6f04b7beda05e9adb627e9ad43f5e5c3f922a9 asix: Add check for usbnet_get_endpoints
-f5fc2863656b352daa8c925bba99a34f1061095f bnxt_en: Remove mis-applied code from bnxt_cfg_ntp_filters()
-9d7704cebb8c413e251ff54f823691ea3cc694b5 net: Implement missing SO_TIMESTAMPING_NEW cmsg support
-4c87a5f525567b1b5218ac7b1cd613a87f29dad0 selftests: secretmem: floor the memory size to the multiple of page_size
-47a762c7fc6b0c3cf4066e5e3d7576c80527bc7d mm/memory-failure: check the mapcount of the precise page
-0bc70f72250d1cc50d3e7f8c39ae776a85589b71 firewire: ohci: suppress unexpected system reboot in AMD Ryzen machines and ASM108x/VT630x PCIe cards
-98ca16bcb2289b92b0219e587edbe766029dfbe9 x86/kprobes: fix incorrect return address calculation in kprobe_emulate_call_indirect
-5b898ac65d8631e1fb9d1ef572790eaf6b487d49 i2c: core: Fix atomic xfer check for non-preempt config
-57bcaea0f421b06b7b439a3514f1dd4e1302ee38 mm: fix unmap_mapping_range high bits shift bug
-e494e461b2420852496d309753c3a03c40cb49c6 mmc: meson-mx-sdhc: Fix initialization frozen issue
-0e028bc5515030718b6d520c20326ab6732d25d1 mmc: rpmb: fixes pause retune on all RPMB partitions.
-e511b21d39787b896fbcbaec84ad553a8eff5956 mmc: core: Cancel delayed work before releasing host
-1d5b2e323967be3095be25c3723f84a08ef4cfd7 mmc: sdhci-sprd: Fix eMMC init failure after hw reset
-ad7bb174e454cddc2a68804cff0a0677a41e50f2 net: tls, update curr on splice as well
-3724803bd21e066be42f28a4f021449603e07951 ipv6: remove max_size check inline with ipv4
-c974496a5f4480274174ff1acb325e443ebba13f perf inject: Fix GEN_ELF_TEXT_OFFSET for jit
+6963d049a422693bfeffe0112183481a0a0ea328 Revert "scsi: core: Always send batch on reset or error handling command"
+cea19678bf55f8d087bf617478f249208432156c Revert "scsi: core: Use a structure member to track the SCSI command submitter"
+2129297760278dc48649b9d50b4b646b36b5ff6d Revert "scsi: core: Use scsi_cmd_to_rq() instead of scsi_cmnd.request"
+a5edb407029321066c0ebbc2fd3d91acdd644d1e Revert "scsi: core: Make scsi_get_lba() return the LBA"
+f60f60e1deca9729c596b2bca9f1e1bf47bf8a0e Revert "scsi: core: Introduce scsi_get_sector()"
+e30419672e3acc039389236d0f4e77a08b217710 Revert "scsi: core: Add scsi_prot_ref_tag() helper"
+a7fd5c7ba4b95be7c83a6e6805b8eb4e111d9ae7 scsi: core: Always send batch on reset or error handling command
+03a0e87f70e806c0f94471eb451cc7a46d6eb762 Linux 5.10.207
+ccdbdd5a116499c1b3f9bf3e3a5ce30d0176a043 keys, dns: Fix missing size check of V1 server-list header
+8a4ce5f2c5eb45f5a6b3d4269c3fbcff66a6248a block: Don't invalidate pagecache for invalid falloc modes
+3860268711120c4d0b32cfc6dd0781497dfddf13 ALSA: hda/realtek: Fix mute and mic-mute LEDs for HP ProBook 440 G6
+7eb1af60845a2d150e2c4614d24d5c1895dfad2c nfc: llcp_core: Hold a ref to llcp_local->dev when holding a ref to llcp_local
+82697e841160acd2fac2e09a5d0e5311c5a2ca18 octeontx2-af: Fix marking couple of structure as __packed
+e320c9fcbb54df69311ec9812d918f277fa6167e drm/i915/dp: Fix passing the correct DPCD_REV for drm_dp_set_phy_test_pattern
+b1211af7582622dc4c8d626b86877d7e3b60f9d6 i40e: Fix filter input checks to prevent config with invalid values
+875f51933e486a85d819232b7ff61e1dedd191ee net: sched: em_text: fix possible memory leak in em_text_destroy()
+2c823370f793140d6feec6ebbe769c602ad6f147 net: Implement missing getsockopt(SO_TIMESTAMPING_NEW)
+f26e375dfc850d2cda82b02a958225f103b82b99 ARM: sun9i: smp: Fix array-index-out-of-bounds read in sunxi_mc_smp_init
+74d9ba93b12740dfa8a77096b8b13bb2ee2fcc6f sfc: fix a double-free bug in efx_probe_filters
+963fee55cc14681a27c07e6586e9870116853270 net: bcmgenet: Fix FCS generation for fragmented skbuffs
+82b456c731c4989ab2ebb1f2ab42a6f28b1f5919 netfilter: nftables: add loop check helper function
+ea415d4c6c1ed24e5c385b59a97870be51891e75 netfilter: nft_immediate: drop chain reference counter on error
+a9519074f9354980a27c6b2d41fbf4208652223a net: Save and restore msg_namelen in sock_sendmsg
+93f6f89ad08e9936d6a0fdef3f45d341349bea20 i40e: fix use-after-free in i40e_aqc_add_filters()
+61d83afc2a7691a099c9a657a9ae4128c432925a ASoC: meson: g12a-toacodec: Validate written enum values
+5afa976a944760bbfbeab1b353e3378a2be73926 ASoC: meson: g12a-tohdmitx: Validate written enum values
+b285a13ec03c93082468db61c60f0c6615e93045 ASoC: meson: g12a-toacodec: Fix event generation
+7f5400096765dacadedae672095100c58a300759 ASoC: meson: g12a-tohdmitx: Fix event generation for S/PDIF mux
+b74191c83165c0878c1200a2564fd33d454675b2 i40e: Restore VF MSI-X state during PCI reset
+10f769023df0491af7e0091848021c6c2b1e2483 net/qla3xxx: switch from 'pci_' to 'dma_' API
+8359dc610640df81eb670077c8234e1a2be7cfb6 net/qla3xxx: fix potential memleak in ql_alloc_buffer_queues
+92a881afbf5da62219d7682ca17ec6c5b0917649 asix: Add check for usbnet_get_endpoints
+2f4e7ae99c4b09959e4d236dbb825b568cb326a8 bnxt_en: Remove mis-applied code from bnxt_cfg_ntp_filters()
+b1d67402dfb63804cb34e74e7f6424ee93d5edfa net: Implement missing SO_TIMESTAMPING_NEW cmsg support
+2404c6eb0ab0bf99fd4e908495c8f025c80f1741 mm/memory-failure: check the mapcount of the precise page
+d53091e6986dedf02356d88b5ce8f05987dc0ea6 firewire: ohci: suppress unexpected system reboot in AMD Ryzen machines and ASM108x/VT630x PCIe cards
+f963dece5367a248f5876f84072adeda22978e57 x86/kprobes: fix incorrect return address calculation in kprobe_emulate_call_indirect
+b84f053e9f52b5b7bf00850e5745d071b68324ad i2c: core: Fix atomic xfer check for non-preempt config
+cc342f6236aaa8aa4c345aaeb21220899aee7103 mm: fix unmap_mapping_range high bits shift bug
+9ed9d648fd477816ebb02c53939dddc75fb28dea mmc: meson-mx-sdhc: Fix initialization frozen issue
+b384a99e4e40b01dde6e16d74f7c7f77bc506482 mmc: rpmb: fixes pause retune on all RPMB partitions.
+3be0a63bf5f80b093b5295b3d4531ff00ee56007 mmc: core: Cancel delayed work before releasing host
+63b6581ad37557e4f23d4416f27fa575acab5dff mmc: sdhci-sprd: Fix eMMC init failure after hw reset
+5e979ef2ee3358d22165b7a942f882730cfe1dfc powerpc: update ppc_save_regs to save current r1 in pt_regs
+441c6e4a021f1f2295f15a7cd9a593eb92c9d038 net: tls, update curr on splice as well
+f9f74823769250fd0c740bc93cb969a069c9737a ipv6: remove max_size check inline with ipv4
+0807b500c6419a950eb4ad30be21284793530a2c drm/qxl: fix UAF on handle creation
 
---===============5472670320310881837==
+--===============0507785676100163609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea486063e68c-8b874c88567c.txt
+Content-Disposition: attachment; filename=revlist-c974496a5f44-210c56a4c65d.txt
 
-68529d7832568340ed9c597db697ce8ec8348d75 nfc: llcp_core: Hold a ref to llcp_local->dev when holding a ref to llcp_local
-d47960d5f0cb5dc8572d42b662ea7637f25f5080 i40e: Fix filter input checks to prevent config with invalid values
-d75e80027116b296399e707ec494ae0cd91b0823 net: sched: em_text: fix possible memory leak in em_text_destroy()
-1043e9bd11f223b2abdfa7c6b29afc76757ad908 net: Implement missing getsockopt(SO_TIMESTAMPING_NEW)
-a04a52cfc3ec7fba6d9ac25f2bc7b3086b942fdc can: raw: add support for SO_TXTIME/SCM_TXTIME
-f77656eb6bcb838c85888d57c64be0263788626b can: raw: add support for SO_MARK
-9cb3112c96a323e6462c43708d67a9218b8f4b53 net-timestamp: extend SOF_TIMESTAMPING_OPT_ID to HW timestamps
-06061629313d2911aedbccbe7f533e18236695c2 ARM: sun9i: smp: Fix array-index-out-of-bounds read in sunxi_mc_smp_init
-a0d236c6c0b6c50d8943bd05dc9d54db1d7accf5 net: bcmgenet: Fix FCS generation for fragmented skbuffs
-c310eb6c1fcfa0729e1425cec5d1250dfaf65629 net: Save and restore msg_namelen in sock_sendmsg
-12448aac45224ae7bcdbc6c20f04dd0dc173a75b i40e: fix use-after-free in i40e_aqc_add_filters()
-4318230afa73377d1828d39aaa83a6632748a0bd ASoC: meson: g12a: extract codec-to-codec utils
-04c7bf4acd27d2c4b5d117599b20bf396b63e1cf ASoC: meson: g12a-tohdmitx: Validate written enum values
-5950a7ea1386f4c436e92fbd1e3f36f32b5d82b1 ASoC: meson: g12a-tohdmitx: Fix event generation for S/PDIF mux
-8432704c6a52ff440f8fec6f47d99f5e6b60aaa4 i40e: Restore VF MSI-X state during PCI reset
-b737097db8df2c99f58ea1070625d494993c9a23 net/qla3xxx: switch from 'pci_' to 'dma_' API
-1d92c8b447f8f954744472d1b3f2110d3ce3fd4a net/qla3xxx: fix potential memleak in ql_alloc_buffer_queues
-969e26437c46e48e0543cdd3a441f6fb724b015f asix: Add check for usbnet_get_endpoints
-1a9199b937ee4defbfa7336a8da1872fd6fae429 bnxt_en: Remove mis-applied code from bnxt_cfg_ntp_filters()
-ee0b57e07f5413c01279cef72d619a5275d7d70c net: Implement missing SO_TIMESTAMPING_NEW cmsg support
-738018a505dff936c7de4b1b5a44adecbd65cdc9 mm/memory-failure: check the mapcount of the precise page
-ce8c8ac41615011229d42584c6ced46e1632d744 firewire: ohci: suppress unexpected system reboot in AMD Ryzen machines and ASM108x/VT630x PCIe cards
-2e150fc88b708e555b5d47b777603ba003372e86 i2c: core: Fix atomic xfer check for non-preempt config
-1247a378663a464c5ca39791ecaad0ef14f7e100 mm: fix unmap_mapping_range high bits shift bug
-cef3b0df4aba8cc4ddfe83c052022cb094e39150 mmc: rpmb: fixes pause retune on all RPMB partitions.
-4b7304910d85530fb46d3094ff47ae8ab483a308 mmc: core: Cancel delayed work before releasing host
-785fa1b091605eaebf4a49da52622fe4dfe95c80 mmc: sdhci-sprd: Fix eMMC init failure after hw reset
-589968f5ec00eb94332017f16633c070f43a7b82 ath10k: Wait until copy complete is actually done before completing
-7141f72c5e34c9e42a72130c02e4835812fbe3c9 ath10k: Add interrupt summary based CE processing
-c9c7ecef765a09781d27cd425e5e175a17f78bc2 ath10k: Keep track of which interrupts fired, don't poll them
-820ac3e65b0a429a4d771b6546389c64fc7e4d40 ath10k: Get rid of "per_ce_irq" hw param
-8b874c88567c88a210ef07567425f8052fced210 net: tls, update curr on splice as well
+43bc56a6a6a8155048832db4fad76b1847a9ccf7 keys, dns: Fix missing size check of V1 server-list header
+6ecc6d056922e93788b27ac9acc7f418266f5fc8 block: Don't invalidate pagecache for invalid falloc modes
+5d31933f4d2419dcf4e0028e2bc4c82ccb4b180e ALSA: hda/realtek: Fix mute and mic-mute LEDs for HP ProBook 440 G6
+3d65eb6cc5049074ba0226a1701c7dd56c9844f0 Revert "PCI/ASPM: Remove pcie_aspm_pm_state_change()"
+358b0f8787487df15c65f80b6517072bb4ff1cc0 wifi: iwlwifi: pcie: don't synchronize IRQs from IRQ
+0e0b534e7c44154d0e9682f92915f7235d932f82 drm/bridge: ti-sn65dsi86: Never store more than msg->size bytes in AUX xfer
+054da784ffb278bce554336c1475b4795a7b4a36 nfc: llcp_core: Hold a ref to llcp_local->dev when holding a ref to llcp_local
+aaf23c98e6961cfa84a15ef3d1acf40b1a6a06e2 octeontx2-af: Fix marking couple of structure as __packed
+1ae8fdef4483998db2cb35815927bd1267c72114 drm/i915/dp: Fix passing the correct DPCD_REV for drm_dp_set_phy_test_pattern
+40c1a72173fb39678d9b8d7801087d8d6c1590d8 i40e: Fix filter input checks to prevent config with invalid values
+b532a4fd85af0d11908d07ca2c9eae6e7f7269c5 igc: Report VLAN EtherType matching back to user
+547f6887a09c4d9288c7f72db8ed27b1f9dfa28d igc: Check VLAN TCI mask
+fcfc83f79144081d4513eb9fca48cc61ef4d5ede igc: Check VLAN EtherType mask
+c64b1829e46d70be55fc50e1dd7666c3b23ca2e3 ASoC: fsl_rpmsg: Fix error handler with pm_runtime_enable
+7afbf707909751e2b0c4daad284221575d8b836b mlxbf_gige: fix receive packet race condition
+160047c950c8f80537a3002b035f75e76ec05481 net: sched: em_text: fix possible memory leak in em_text_destroy()
+2afdf0d032ee00908b5885b41aa238da15645578 r8169: Fix PCI error on system resume
+c51823d229e4b86897d10578ffc2f7288717a1b0 net: Implement missing getsockopt(SO_TIMESTAMPING_NEW)
+173e6f8d69bfdf0438abcbdbf567d0e2a53ff674 can: raw: add support for SO_TXTIME/SCM_TXTIME
+633ffb88bd7ca934bda21803213763377e9e8398 can: raw: add support for SO_MARK
+e08036aed92c71bf6498f2d360988ce102bbbca3 net-timestamp: extend SOF_TIMESTAMPING_OPT_ID to HW timestamps
+ebf2df922a972921792b4c91749fdcf3cc136cc2 ARM: sun9i: smp: Fix array-index-out-of-bounds read in sunxi_mc_smp_init
+92b82cf2455254d77c277306759e7a6e22cf1334 sfc: fix a double-free bug in efx_probe_filters
+f29f56bb7e19e2e851e7aaa0238ab4b1d819952e net: bcmgenet: Fix FCS generation for fragmented skbuffs
+8f35f5caf67acfe4eb2e6c015d06e703bd637ee6 netfilter: nft_immediate: drop chain reference counter on error
+97fcd06403b2314ede6b4ba91df781ffb4ee5018 net: Save and restore msg_namelen in sock_sendmsg
+84b805a5ebc2d104bb8704174dfc79c7844bf95c i40e: fix use-after-free in i40e_aqc_add_filters()
+91d3418cfa487d0509daf67da8f22e00bec9a441 ASoC: meson: g12a-toacodec: Validate written enum values
+4ff412bf8892bc473e0f731a3d26a543fbf5981b ASoC: meson: g12a-tohdmitx: Validate written enum values
+5b5e5cd29cf5b78a2017642caac5277208d485ab ASoC: meson: g12a-toacodec: Fix event generation
+1814c0c4c9018f2bab79d6ab870b2e42492d34c7 ASoC: meson: g12a-tohdmitx: Fix event generation for S/PDIF mux
+10e2795a143fcedc6e501f1eff3990f7463e0b07 i40e: Restore VF MSI-X state during PCI reset
+a12a01db7f04b79778e040a0dc3d299860dd2ba8 igc: Fix hicredit calculation
+839c3d62521b6ec9291917919eb4b4a534432d6d net/qla3xxx: fix potential memleak in ql_alloc_buffer_queues
+c984fe31cacc6d85f4b0e3a565c6e1eb9c05918d octeontx2-af: Don't enable Pause frames by default
+676d9ba6f1debb3fda256d1cac107d99237cf77b octeontx2-af: Set NIX link credits based on max LMAC
+787f6ae7a25111f7aa7339b437ff099fa9790713 octeontx2-af: Always configure NIX TX link credits based on max frame size
+0e2b4cf9f0f4c64804abd491b1231d2268e73062 octeontx2-af: Re-enable MAC TX in otx2_stop processing
+1ff6ca7802109bd1ad0419f2c2e777463088085c asix: Add check for usbnet_get_endpoints
+0f28996a5f166ad35c32b5395fdf6f9f4d0b811f bnxt_en: Remove mis-applied code from bnxt_cfg_ntp_filters()
+c2c8d8bc313b15d8a95a4d82acc83eebe02c9bb8 net: Implement missing SO_TIMESTAMPING_NEW cmsg support
+90ce32d8d51c3610e0732d2df2fc6f847640b3e0 selftests: secretmem: floor the memory size to the multiple of page_size
+32107ccaf4605c4f4ffeb947a8956da441c061a8 mm/memory-failure: check the mapcount of the precise page
+73738b83363be5e785ab9ca7092908f48da4bf1e firewire: ohci: suppress unexpected system reboot in AMD Ryzen machines and ASM108x/VT630x PCIe cards
+5fb5786564b4e0c5413d5de7383ee71aac51ff6e x86/kprobes: fix incorrect return address calculation in kprobe_emulate_call_indirect
+9e45178d12789fe8ae2ddce7fbb8ccc52b4ba89e i2c: core: Fix atomic xfer check for non-preempt config
+419fccbd7d3b071a745b0d548d1d43fd7c7b5221 mm: fix unmap_mapping_range high bits shift bug
+dccb3374975b53b664fb15341449d486da02f602 mmc: meson-mx-sdhc: Fix initialization frozen issue
+2212452facef282fa1402e1f16702df4a1f5a9a9 mmc: rpmb: fixes pause retune on all RPMB partitions.
+42a6f79178a85c4259d015a56f2580a247e93210 mmc: core: Cancel delayed work before releasing host
+149b61cb00b5b50537d5a9b9dd14ecda36a286a2 mmc: sdhci-sprd: Fix eMMC init failure after hw reset
+c9c81db08c7763be8c1d5d74512846ecc72ad42f net: tls, update curr on splice as well
+7f2bc6997c2872472b62729c5227a7112ea77e4a ipv6: remove max_size check inline with ipv4
+210c56a4c65dbd4f92ea636e5fbbafb8d321df41 perf inject: Fix GEN_ELF_TEXT_OFFSET for jit
 
---===============5472670320310881837==--
+--===============0507785676100163609==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8b874c88567c-cd697fd17dae.txt
+
+a026a312f4507de9feeb283efb3d0fb418cebd71 nfc: llcp_core: Hold a ref to llcp_local->dev when holding a ref to llcp_local
+652855aba1ca5f419dff4304ce84def9aa84695a i40e: Fix filter input checks to prevent config with invalid values
+fbffae5d5b311c420ed9513dade66763013621c6 net: sched: em_text: fix possible memory leak in em_text_destroy()
+a9d1b0a9c5839925ddc9df83eb8b5dcf403773db net: Implement missing getsockopt(SO_TIMESTAMPING_NEW)
+5f8ee71e92b6af54bf60b9a62f9464a8840663ef can: raw: add support for SO_TXTIME/SCM_TXTIME
+0f6a376b41b4f27c3e1a00f52f8fb9792924c889 can: raw: add support for SO_MARK
+8a4b2294af461d6f723d9b6c34ab1c18da574441 net-timestamp: extend SOF_TIMESTAMPING_OPT_ID to HW timestamps
+d5ab6184a0afd96676ab777a2f4ffef7118603c0 ARM: sun9i: smp: Fix array-index-out-of-bounds read in sunxi_mc_smp_init
+fa5a21637422f4ca8aba8ca05f0bffaa0ef0a701 net: bcmgenet: Fix FCS generation for fragmented skbuffs
+5ef76ff3da8d12d0ed66de899c164acedddb34ee net: Save and restore msg_namelen in sock_sendmsg
+aeffb7eb1267f09a1c3e95fec31fa35d91165c9f i40e: fix use-after-free in i40e_aqc_add_filters()
+e8c62934d64546fb3d75fbcb7610bb263560904c ASoC: meson: g12a: extract codec-to-codec utils
+936f16072ea490bf0643115766e83b3553f413dd ASoC: meson: g12a-tohdmitx: Validate written enum values
+e403052517fb5368770a8a45149de286ebc62d16 ASoC: meson: g12a-tohdmitx: Fix event generation for S/PDIF mux
+1e6b96209a21bb490e6734507968f761d38f8800 i40e: Restore VF MSI-X state during PCI reset
+513decf9b2dc5490c242fed6bd4ee179b21d8dd4 net/qla3xxx: switch from 'pci_' to 'dma_' API
+867ed55a26aef84b18636dc6a231584275d1c654 net/qla3xxx: fix potential memleak in ql_alloc_buffer_queues
+bb4b41079c58e8feea1be2a33235daeb524309e3 asix: Add check for usbnet_get_endpoints
+8f90ad32b977c65aceec27fd8f128f8ae1491737 bnxt_en: Remove mis-applied code from bnxt_cfg_ntp_filters()
+82faf77fa09d5c0783567842fdbf57761c942b5e net: Implement missing SO_TIMESTAMPING_NEW cmsg support
+7397f46bd2cb99a18ecc5fec252a0e25234f596c mm/memory-failure: check the mapcount of the precise page
+8710483eb7e530acc30477fc91f30f45c50b30c3 firewire: ohci: suppress unexpected system reboot in AMD Ryzen machines and ASM108x/VT630x PCIe cards
+68a501e3cbb6aaa558580b80892d4bbaa506c5fb i2c: core: Fix atomic xfer check for non-preempt config
+e6d253a9a5208a6616fe9758694e86da69d0ef75 mm: fix unmap_mapping_range high bits shift bug
+6209110e90dca974b436ad034f1ca9cc5b79fb18 mmc: rpmb: fixes pause retune on all RPMB partitions.
+c6807814450ce46d342196e283bad764783ca405 mmc: core: Cancel delayed work before releasing host
+eaa4bcba686688f9b923fb249b5ea2fad4f61806 mmc: sdhci-sprd: Fix eMMC init failure after hw reset
+cc0a4c7d849763a6ea67a7a8682dfb9fe8a6105b ath10k: Wait until copy complete is actually done before completing
+ae38414c1316ef7b7c18074e25fa2e1cb7440e5c ath10k: Add interrupt summary based CE processing
+3b43c8401faed934300f2a01fbed182b7dd3043c ath10k: Keep track of which interrupts fired, don't poll them
+0dab69d69f27cf92d7c3bcc756e86a774cd4592c ath10k: Get rid of "per_ce_irq" hw param
+cd697fd17dae6b7e2aa775533464ab9e3d8bf5a2 net: tls, update curr on splice as well
+
+--===============0507785676100163609==--
