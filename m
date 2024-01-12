@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7658964790911192862=="
+Content-Type: multipart/mixed; boundary="===============3717871442247156553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 12 Jan 2024 19:57:27 -0000
-Message-Id: <170508944740.30329.13994978598547381375@gitolite.kernel.org>
+Date: Fri, 12 Jan 2024 19:57:30 -0000
+Message-Id: <170508945026.30445.10880441879781465198@gitolite.kernel.org>
 
---===============7658964790911192862==
+--===============3717871442247156553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: cf13ba74e8eb7f37cba10d64f17e39b2679a8178
-    new: 03a0e87f70e806c0f94471eb451cc7a46d6eb762
-    log: |
-         6963d049a422693bfeffe0112183481a0a0ea328 Revert "scsi: core: Always send batch on reset or error handling command"
-         cea19678bf55f8d087bf617478f249208432156c Revert "scsi: core: Use a structure member to track the SCSI command submitter"
-         2129297760278dc48649b9d50b4b646b36b5ff6d Revert "scsi: core: Use scsi_cmd_to_rq() instead of scsi_cmnd.request"
-         a5edb407029321066c0ebbc2fd3d91acdd644d1e Revert "scsi: core: Make scsi_get_lba() return the LBA"
-         f60f60e1deca9729c596b2bca9f1e1bf47bf8a0e Revert "scsi: core: Introduce scsi_get_sector()"
-         e30419672e3acc039389236d0f4e77a08b217710 Revert "scsi: core: Add scsi_prot_ref_tag() helper"
-         a7fd5c7ba4b95be7c83a6e6805b8eb4e111d9ae7 scsi: core: Always send batch on reset or error handling command
-         03a0e87f70e806c0f94471eb451cc7a46d6eb762 Linux 5.10.207
-         
+  - ref: refs/tags/v5.10.207
+    old: 0000000000000000000000000000000000000000
+    new: e02edec6fbe94f5d71bd55efe7e8b154b3513f9c
 
---===============7658964790911192862==
+--===============3717871442247156553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705089446 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705089449 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1705089445-4da1dce4cf00344e62d60a34771ad703e37f5c25
+nonce 1705089448-67be3846a679387ce765a5a2786664c83229d1b7
 
-cf13ba74e8eb7f37cba10d64f17e39b2679a8178 03a0e87f70e806c0f94471eb451cc7a46d6eb762 refs/heads/linux-5.10.y
+0000000000000000000000000000000000000000 e02edec6fbe94f5d71bd55efe7e8b154b3513f9c refs/tags/v5.10.207
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWhmaYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+77UP/0G4SAVmHiZiTfAQcD8B
-xpPZjDbdnyd7lrhtRFZ1DtfGTZTTYNbbHcaUp85yQghC2rifKGysom9glpDlqZ46
-7GrGrQBoPAuZcW8/7P4N1qPDfBRRSHKQIWuIWpzxO/988C5ocCqnNBBPofXXR7Wp
-3Yslxolsou5zJlDEGsiar1F2fYd2yhJsZr2z5HjBb85t9/d4dhDw17iTLezBMtL3
-t1xiDhYH2QCwhWtxI6X2cMDT8+JLqjt2/D3Fv6HPfxJJZsdvlXkkL924JHCOfeBy
-w4FOplNQJdlJ/oTWoZy9e87ZmvbttmG2PV3/QD2M2jeEhNmUrhJqcBEUS01g7D3F
-/FrXkvA79Pm0W79vu2CYGxXmbpyGPcdSWahjVhl423cAEIz1J8221DmMklWGcrEs
-qH6pSfuyWEgfnXmUPhwKTorl1h+qx5329aXPpxpE5jCQ9EOvqWcvWO/apvGc2kAs
-1aeDxeySe5f/2AbJN/jnrmjB2n2r6iCXVePht9F8atfXUi6BBL5hdRKX/TkCtva5
-SEpsNg2xzZ3R30+6qe4YXPWOP2oXs1Gp3inLai6s6EQYukkGgojIA0dJA/IFyaly
-qwrq+f1TNbZIfGj+ckfOcz1b7lN0mX/0RDBSBCNHuC7VNz+upvRpP3CfQ3IGZ7h4
-gw/Jnz+zg8W+h2adRBMWCEJL
-=TNGF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWhmakbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GRsP/0/uTfh2s1IJF4No5Ac+
+T5PwMJo/pQBRk/mde5sVmb9ihfCS3nRagjG5sPTFtKyIASnVn+bXibL4U4yYOGmo
+2wTs63+oZPbHpVB5sVXGM5gq0DU+bvJbQvtA8a36B/5C2nyg9S2zbpYTBZdNb9FE
+RkoK6oeadFFEqq28EfyIsQbQIdfvKgth7F0bL5LI3cgLY0LZ3TiPBJtPBwQSj0qH
+AMjovnGSRkjMXMfuuyHO0Zax7NRpPxBRwsOKc+AMunrDyA4IDI5K2gy6u0/Dzbd6
+88Sgj67bSeWcWKIDlnMZakOjvA/nhjJ7xi++NDjGwFedxrDvQOWRQKVeWTaNBRIY
+bIDT9IZd3mbdUbdxSrWFdwuxg7YNCBYVQqRDV2r0NZ5oL7Zg1me7vcfpEur3GhJB
+AbkDy6mrVpLkehQ7cqYnf2mgBwPYwTlOh5o0x/0UBOcliBrnq5Io4mDWl0D8Y+mD
+0cXiZYCB7EkafJk61VA+BjBZQQrSuK6HgzNq4od7w0q9LR7Kkt8ADdVQbiFE6t2V
+SnO4K36NU1WtSNncGMPWQBq0WpFqN2YY8kfZFWoAiMsHgMhJW1av65h9+dlZjrtW
+KmR0GAqqM8qOMOQHfjkV/u99PS46wvLIXamyESA+nxyepKAbsXbdde167GgSB3fz
+fEAYUhuxPRd5onLIkD2QIEn2
+=F+FC
 -----END PGP SIGNATURE-----
 
---===============7658964790911192862==--
+--===============3717871442247156553==--
