@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Fri, 12 Jan 2024 00:27:27 -0000
-Message-Id: <170501924701.31935.13541625548414736789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 12 Jan 2024 00:31:58 -0000
+Message-Id: <170501951853.2985.12909507009101625941@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: a5556b4fbfc4bd40dbccc2d7a2fd5d47eabe78b2
-    new: cd5606aaa0f2d2633c93560f511c27bddc7e4e96
+  - ref: refs/heads/main
+    old: b3739fb3a9e6633b233d829ee799323d75162775
+    new: e689a876969833cb1317f8752cd064595e7b61e2
     log: |
-         cd5606aaa0f2d2633c93560f511c27bddc7e4e96 trace-cmd meson: Add trace-sqlhist.c to meson.build
+         e689a876969833cb1317f8752cd064595e7b61e2 selftests/net/tcp-ao: Use LDLIBS instead of LDFLAGS
          
