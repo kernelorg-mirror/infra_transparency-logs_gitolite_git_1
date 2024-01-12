@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1671926763131360842=="
+Content-Type: multipart/mixed; boundary="===============8267023597607550876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 12 Jan 2024 02:54:31 -0000
-Message-Id: <170502807169.16075.14648034449357202452@gitolite.kernel.org>
+Date: Fri, 12 Jan 2024 02:54:36 -0000
+Message-Id: <170502807603.16168.14776629670677643115@gitolite.kernel.org>
 
---===============1671926763131360842==
+--===============8267023597607550876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging
+  - ref: refs/heads/for-next
     old: 904fdd2062f3101fb09db8ee077abf7ffd95e538
     new: 83ab68168a3d990d5ff39ab030ad5754cbbccb25
     log: |
@@ -26,33 +26,33 @@ changes:
          83ab68168a3d990d5ff39ab030ad5754cbbccb25 scsi: target: core: Add TMF to tmr_list handling
          
 
---===============1671926763131360842==
+--===============8267023597607550876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1705028070 -0500
+pusher 75C5DE3D 1705028074 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1705028070-8e3e544a4b8da67faa2fde5113823106df49e7f1
+nonce 1705028074-e40f28929f3c19ffe13b12e29bb235d90cff5bab
 
-904fdd2062f3101fb09db8ee077abf7ffd95e538 83ab68168a3d990d5ff39ab030ad5754cbbccb25 refs/heads/staging
+904fdd2062f3101fb09db8ee077abf7ffd95e538 83ab68168a3d990d5ff39ab030ad5754cbbccb25 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWgqeYACgkQ7ulgGnXF
-3j3VmRAAgjnSxCUZezx6geWULoY1o5pk1vOKIShMVT8tlGyOVmusH6tEz2oKnLPi
-wdHzljkECwnFNF1lNLgn79Aw6Xr8P+J7kSJnJnwXg7X2R/neSWfT2NSFx7M9gGZW
-BXZlndjPH40kBBxxLgApKeKusN6pX0axwd95I0FXTxhRwhOe9wauKUv44SKxZSlw
-EgIy1zp0sEMbesjjrB0ntl7Ygs6VFcL5Tbk+jgcuvMU/d/U7IIlJhYg5Y9DKyEGU
-QE1QveVqSfOqNo3OEc1Setu3iI6liOHYnWCPdh0G8MU7rH5haM70f7hCOyp3y6fC
-zeX/XEny+lEkSQXDCokonqj41G3To1Prjc4Tv+LXBARc0+RoqNZstx0K2quDrMGn
-QB4NYUxIoDqnZ+JRse7ATEOMuB72zWB0fOlMIGmeHAZou69iEir0pvHdBENUeqlT
-1Y1prFkrC4LGXbRn3tzBURFUEPejWuxw8C44KmL3e7un2JF/9Dyf5df9/dNcDX/4
-Ce8MEz7+dY1NoheVKu0LWV+lttZRdd/VWkY9ryFbSBnCCgjOARBIVHT++IiSrhQI
-JvM38RsGMLDr55jTwwgGMrkF0XFTxB9MSDE8BAlD1+a3k3R+e1slZfKTsQ7g92FH
-Tw16eUgla9yo/FiwKv8MXxIjpK8r09mAy0PLHOP/EO6AokwBlgY=
-=kFtD
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWgqeoACgkQ7ulgGnXF
+3j26lxAAnoJBqHhPBO47a45Nchtt9tk9Fg5qt5AVOmtiIFNahIxhwn2CHgfLYeoD
+fNBv0X2wL9rw1FRIh03DJFDP/YK4+kbn9e/SiuUAx8GikhkpThDeowiOZiQJUNlh
+yhSZpNN2PdOcLyrh05PGgfMhdlNwGhllNzklL5N1CD+dZXP4LRXIDIU9LN/9L4KJ
+CPJdG/U/EZvyX3T7g99ch1OyGaRAA7n9RfoQCTbsUusSxx+bO9EtpRyW9vLLS6ww
+vITLm9CwVYucuKZ7sde6rLU+u8BMpuFWjROk9OILwxXzyq4FanLRWo6zAnadV/wg
+S/ut+OIaDi6LGwMUVO5MxT73S2kuoK6dt30lXCnaQ0hEfFQyVpUdNCZKTQRVoQkK
+IGUZEK67Oybrbj4eaHNxefvsCEsemW78Bnl2Y3ahciSAkxV5B/8OjyouoZKXIcEL
+TNj5O7dLKf9NYhYoaFiJk6JBOboKjMv/3aoyU+XcJ5l4KqSnp9q4bc5jzQolSeHP
+d+5rCNqe2JjYlV7tufLuPScBmyOpKgqkUQJGGOF0/+Gns/yJnUVRHNni79Hcf7lt
+tA4VAqB+mYOyKWQSQEijdgrn1Lni2mrZgMGoY6NGOEf4EasQQJXAQk6mCujqcCft
+LwFL0tkZ78IpXgM4xz75i1AObkoaCpLNpjJpJU0DswjIbVmBRyQ=
+=hi3+
 -----END PGP SIGNATURE-----
 
---===============1671926763131360842==--
+--===============8267023597607550876==--
