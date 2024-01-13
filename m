@@ -1,38 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3435012718074497122=="
+Content-Type: multipart/mixed; boundary="===============4995533233753800772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Sat, 13 Jan 2024 02:59:50 -0000
-Message-Id: <170511479053.13720.13764983520235000004@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sat, 13 Jan 2024 04:17:16 -0000
+Message-Id: <170511943604.6316.14221013479523782483@gitolite.kernel.org>
 
---===============3435012718074497122==
+--===============4995533233753800772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/tags/fscrypt-for-linus
-    old: 931d63ab9b716067290b417f299c9cc5d2e56643
-    new: a3eac93d82ffdd16c79979c8af08e6e9e33ed09d
-    log: revlist-931d63ab9b71-a3eac93d82ff.txt
+  - ref: refs/heads/for-next
+    old: b345389b921f9ea68165638c10de7f8ffac0633e
+    new: 052d534373b7ed33712a63d5e17b2b6cdbce84fd
+    log: revlist-b345389b921f-052d534373b7.txt
 
---===============3435012718074497122==
+--===============4995533233753800772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-931d63ab9b71-a3eac93d82ff.txt
+Content-Disposition: attachment; filename=revlist-b345389b921f-052d534373b7.txt
 
-200a6b3af05918ddb18832fa4d5a8f15c9dd99e0 drm/gpuvm: fix all kernel-doc warnings in include/drm/drm_gpuvm.h
-eee706839333ec0643f1b4898a37588025bf4cb5 drm/imagination: pvr_device.h: fix all kernel-doc warnings
-2ad815797ef01136091e502944e05b6794b9e5b8 Merge tag 'platform-drivers-x86-v6.7-6' into pdx86/for-next
-10ed9ee0af5a6cab8b36b301865417a288179b06 platform/x86/intel/pmc/arl: Add GBE LTR ignore during suspend
-6f9fac5535ba2038063c656f0afb496d7f87bcc1 platform/x86/intel/pmc/lnl: Add GBE LTR ignore during suspend
-669f157fd7ad987dd5beba46576ec357f4d6c686 platform/x86/intel/pmc: Add missing extern
-87d8f1ee1d4070571095859d310f6951440f288c platform/x86: wmi: linux/wmi.h: fix Excess kernel-doc description warning
 9dd3f1ef40d01fdfe69c3ada28b1f201a7207f6e platform/x86/amd/pmf: Return directly after a failed apmf_if_call() in apmf_sbios_heartbeat_notify()
 4527898e300ce65e9ac5d5a05e086a07e212753c platform/x86/amd/pmf: Return a status code only as a constant in two functions
 07938d774f189c47b3117c332b0e3d1d1bb50813 ptp: ocp: Use DEFINE_RES_*() in place
@@ -801,6 +794,10 @@ cdb3033e191fd03da2d7da23b9cd448dfa180a8e Merge branch 'sched/urgent' into sched/
 4ee4ffccc01c8b3ff18abd6fdf56aad32a994442 Merge tag 'opp-updates-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm into pm-opp
 0b055cf4412240bec9fe684bde157c7161879f5c Merge branches 'pm-cpuidle', 'pm-cpufreq' and 'pm-devfreq'
 f1e5e4639781724d05d90309900321baaecfde74 Merge branch 'pm-sleep'
+7423546040194e0e74fcfedd089a8b2720fcfc6e exfat: using hweight instead of internal logic
+34939ae005ec402ee183956114b1a74cb57b8b9d exfat: using ffs instead of internal logic
+11a347fb6cef62ce47e84b97c45f2b2497c7593b exfat: change to get file size from DataLength
+f55c096f62f100aa9f5f48d86e1b6846ecbd67e7 exfat: do not zero the extended part
 7aeb259086487417f0fecf66e325bee133e8813a ALSA: hda/conexant: Fix headset auto detect fail in cx8070 and SN6140
 8249a0e25dd2972e919a2552425bf4faa2581d24 hwmon: (lm75) Fix tmp112 default config
 6945a1804e5c2a3382232a8d6c2143930b833362 sd: remove the !ZBC && blk_queue_is_zoned case in sd_read_block_characteristics
@@ -1049,6 +1046,9 @@ d97a78423c33f68ca6543de510a409167baed6f5 Merge tag 'fbdev-for-6.8-rc1' of git://
 fef018d8199661962b5fc0f0d1501caa54b2b533 Merge tag 'hid-for-linus-2024010801' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 42bff4d0f9b9c8b669c5cef25c5116f41eb45c6b Merge tag 'pwm/for-6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/thierry.reding/linux-pwm
 38814330fedd778edffcabe0c8cb462ee365782e Merge tag 'devicetree-for-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-c919330dd57835970b37676d377de3eaaea2c1e9 f2fs: fix double free of f2fs_sb_info
+23a80d462c67406303df852d58b745b8618acc4a Merge tag 'rcu.release.v6.8' of https://github.com/neeraju/linux
+1acc24b300bfa8b2f03daabbba67db600fd38e08 Merge tag 'pull-simple_recursive_removal' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+f16ab99c2eba233bc97b9f9cc374f7a371fcc363 Merge tag 'pull-bcachefs-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+052d534373b7ed33712a63d5e17b2b6cdbce84fd Merge tag 'exfat-for-6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 
---===============3435012718074497122==--
+--===============4995533233753800772==--
