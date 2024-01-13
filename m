@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 13 Jan 2024 17:06:58 -0000
-Message-Id: <170516561874.31995.12960159608408503091@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 13 Jan 2024 18:00:56 -0000
+Message-Id: <170516885639.5994.765951077969462720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/dev
-    old: 64fa68320872429ee3e17fa559bafb6d6810a493
-    new: a1b5077473ff3afbb4ff7e09029eb51763073716
+  - ref: refs/heads/nfsd-testing
+    old: a7bba9cce42cd6eacc47f40d00cb7811f1a65e6d
+    new: 5e9c9c40bddc3222b9e79cb6f3a1686af116fa2c
     log: |
-         eda466bc0c7d32dd2b8a4383332d61b0e41817e5 erofs-utils: lib: fix up compact indexes for block size < 4096
-         4a95277cbe8348801c50c332ca45eece7f8bb5df erofs-utils: mkfs: support compact indexes for smaller block sizes
-         a2d74cf58560d223e10b947a74aa380827e54307 erofs-utils: fuse: support FUSE 2/3 multi-threading
-         aa2fc177abba5a2a7254cdb57d0845f396fdb0ad erofs-utils: lib: add z_erofs_need_refill()
-         686cc883540fa5d960e2675d0f6a94ae8dcbc38d erofs-utils: lib: split vle_compress_one()
-         a1b5077473ff3afbb4ff7e09029eb51763073716 erofs-utils: lib: generate compression indexes in memory first
+         5e9c9c40bddc3222b9e79cb6f3a1686af116fa2c NFSD: Debugging.
          
