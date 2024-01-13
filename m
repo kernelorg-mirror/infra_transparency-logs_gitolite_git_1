@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Sat, 13 Jan 2024 01:39:51 -0000
-Message-Id: <170510999189.22164.12156103983122937170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Sat, 13 Jan 2024 01:47:49 -0000
+Message-Id: <170511046957.28182.2486919172316965446@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lenb/linux
-user: lenb
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/turbostat
-    old: 97a40be302d8221c1d70b81dfe817df12224df1e
-    new: 6f3d1803d2475586800b7bae89bc203d164cf9f8
+  - ref: refs/heads/main
+    old: 05a4fc72587fed4ad5a0a93c59394b3e39f30381
+    new: 5659cf775210d215721c78e25df391dbf9944bfd
     log: |
-         6f3d1803d2475586800b7bae89bc203d164cf9f8 tools/power turbostat: Print ucode revision only if valid
+         5659cf775210d215721c78e25df391dbf9944bfd man: drop references to ifconfig
          
