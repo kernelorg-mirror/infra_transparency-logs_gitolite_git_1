@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4091241919439971729=="
+Content-Type: multipart/mixed; boundary="===============8765420146100972004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 13 Jan 2024 09:42:07 -0000
-Message-Id: <170513892795.7008.3146690807372488076@gitolite.kernel.org>
+Date: Sat, 13 Jan 2024 09:42:09 -0000
+Message-Id: <170513892967.7093.4717179597898997591@gitolite.kernel.org>
 
---===============4091241919439971729==
+--===============8765420146100972004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,72 +16,85 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 224990893f9c9129c958395454c5721d7b8e50bf
-    new: cb74230da5071e4cb54b342a0d079296ecc14a98
-    log: revlist-224990893f9c-cb74230da507.txt
+  - ref: refs/heads/linux-5.4.y
+    old: d2cf8f2e834674b266fd3fc053511a13d79a298e
+    new: 86b133f1f903a253af84a135ff1afeec162143e7
+    log: revlist-d2cf8f2e8346-86b133f1f903.txt
 
---===============4091241919439971729==
+--===============8765420146100972004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705138926 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705138928 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1705138926-af2a4269764c3df112a4e497e17d53c362877441
+nonce 1705138928-5ae14c1dbffbcf1e85b4b636293a739335b3ebea
 
-224990893f9c9129c958395454c5721d7b8e50bf cb74230da5071e4cb54b342a0d079296ecc14a98 refs/heads/linux-4.19.y
+d2cf8f2e834674b266fd3fc053511a13d79a298e 86b133f1f903a253af84a135ff1afeec162143e7 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWiWu4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+voYQAK++HuyyIY6ZcJULcFzv
-KGH4Lq1QXABhethH01e9Hr3iJlUtjQltmcXlE/2aMTM5TqCKaZE1osG2m1SZSsqN
-c6rfA3kro9ZpDoOpTwSpSRMXbTrxddxPMtigXp31IoQZSXm3pHMqbyA8qS6LIIi7
-W8lXtlx150aYg8i5pRfVWi3+HVy8kHqbYGlT+kNGguKFq99pZWJpAq7VFbgT77Z6
-YTAo1a+fw7ZoQ3P2JnZXMHc1SyqRLkvWzU0w6qQFxiYR6ehA4sFr+G6xTxIiJE6W
-DMTjZAUIJBI46XCL4Sbzk+UlVgrvr7jJWs6jWweAp76EOZhLJiLhcNxUpBPc5A39
-jKvgPXnw5SMTxfBSObPn5rLohZTMKYTs3yRDtBIhzB73b1cqlwX9Fq+3onTT7TwJ
-k4aFlaQtNN+jsvtFOot69d5C+KxkJRTOwuF06np3dqbuMDjtqgiKDrhKngn8oDqW
-VWgzKBxlmDNsdmyPiwi+ljVEAC8Ws/ZnUJI9OBM2OskDIY1UfyorxBBWc7pgVQR/
-oDO5+J182B3/C8NOe0FSKmfncunZPqbG7x05KorMhpcc36FxO91MxMYPsMilzbJ4
-zBICwdZgIIKUrPLALH7b2jS1yQoQv5bLcIkgq27PUw1S5G6J76hPMnEbObwqaamD
-+hMRzuF7Ok10VFqefqCJ7odM
-=iRNo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWiWvAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zwAQAL1tnjncoHDbWbvo+JR1
+y2/kITZ0FIxLLXkz/XwubRaxzPjjEvCkjdDLB1AoEE7h94Qhs4Wj2pjdTm5kVzAM
+XhpFBcXRy7S7MtSgi59vYHEeV/vq3yYztzTcQmpOWr2IiAhAbsLgGcDjwmvH9f8o
+39ilCZEcWauWFWZmJz0jFlzUMe6t1YRFj5cH2ki859IUofxKntd+lWnLsm/iVKDN
+JLX9L3xvUEcB0jMmYzEpKAPJuA+L0Me2S/jpm0phJ3CZrj+r1aans/8IloOoKSfw
+vyaTyhYJNaSoDENcs3NePPBmGNVWHvhiPVFoa4yPmpx6Kyj/KvJQPeSdjkvtpj1V
+ZNG+aX4Jmr5hilLJerPr9saUYEQjK+H7HkEjLJYbfn0OqlLqpj2hjWfq3sfFHGyR
+DkgRy07MAI0k0UY+5tv9FFdS6cV2TFlIoylZxW6KeuKsF+9vTtia1sbgJvM6uahb
++jxGB4biHy78M2kqNzbI6fuzev5SwAzTrS5b1P+LSnnIFSj36EK6vbKIrAHiTl30
+LmD4ucNhnZQOfG5ygUOJsnbdCbQAL8Zqlkj0mGxX0+z++XRK5mQ5Fm4ALKA9lIxo
+OG/krayLlYKvWBreGOOtXxv0Ex1oL81vauxdk0+xwig07FhVqJBWDD+nFpPkkYS2
+E68SvynXGEtCF6cmGUW/fIcv
+=RlFQ
 -----END PGP SIGNATURE-----
 
---===============4091241919439971729==
+--===============8765420146100972004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-224990893f9c-cb74230da507.txt
+Content-Disposition: attachment; filename=revlist-d2cf8f2e8346-86b133f1f903.txt
 
-74fc028f10d8e01e29e8bed5f33807b693d0a86c nfc: llcp_core: Hold a ref to llcp_local->dev when holding a ref to llcp_local
-5790f8dce5c2d5312ca879232693f7038c930029 i40e: Fix filter input checks to prevent config with invalid values
-eea03f97ef5e613153a3c4442d0a901eabcd241c net: sched: em_text: fix possible memory leak in em_text_destroy()
-b7a74ecb44f8554c7dc3b40e62baaa97a7daa402 ARM: sun9i: smp: Fix array-index-out-of-bounds read in sunxi_mc_smp_init
-50bfa8631a7ae5afb9f5d9a62f574fb7cf8e4164 net: bcmgenet: Fix FCS generation for fragmented skbuffs
-3eee6af5eb93e81a25a6fb30c7540bbd5bce5d7a net: Save and restore msg_namelen in sock_sendmsg
-ca0e5b0027e5f5dd33cf8e0da8d9bb6972e3e484 i40e: fix use-after-free in i40e_aqc_add_filters()
-5739d9e7af6b11ee9fbb8fdee73f485b9138be44 i40e: Restore VF MSI-X state during PCI reset
-1163a8593ef7ae6eb29b2fa42a6a4472858cdeb0 net/qla3xxx: switch from 'pci_' to 'dma_' API
-0a836b859bcbb54665e1d6f80ec4d98dc05c2f1d net/qla3xxx: fix potential memleak in ql_alloc_buffer_queues
-516f398e7af0799015548b883662537d90d48c64 asix: Add check for usbnet_get_endpoints
-8113c27431c9df204729871d75fdfdb7323d009a bnxt_en: Remove mis-applied code from bnxt_cfg_ntp_filters()
-6a22319e68f84fc5082de97183062124bf76f1fb mm/memory-failure: check the mapcount of the precise page
-fb7a38130380522feb2dd79cdd559ee78ee0dfa8 firewire: ohci: suppress unexpected system reboot in AMD Ryzen machines and ASM108x/VT630x PCIe cards
-3bf13d122fe8e2348fcc6b78aea6e961dad1e6ce mm: fix unmap_mapping_range high bits shift bug
-82abeb6ec4e44bd57b96f9be8c64c1c9c3514fb1 mmc: rpmb: fixes pause retune on all RPMB partitions.
-5b6fe1c2eae5309993b63228b361d09ea821cce7 mmc: core: Cancel delayed work before releasing host
-7e6267d3c621f8711bee108468d9513b2c21fcf5 fuse: nlookup missing decrement in fuse_direntplus_link
-fedc1fed76c1f538fc575404fb52a0106fc2dd08 netfilter: nf_tables: Reject tables of unsupported family
-c1fbc4055a8246b7eb3bf141015aa99a7af91da5 PCI: Extract ATS disabling to a helper function
-c061c11cec8e15fd5f86af62c15c11744c35041f PCI: Disable ATS for specific Intel IPU E2000 devices
-736de6afa527076ecf4591febe50b5cfbc6062a2 net: add a route cache full diagnostic message
-14163b2445acd90e3cf511b0ac8956bc8196da5c net/dst: use a smaller percpu_counter batch for dst entries accounting
-593de675928effcef446393da65bd0aa26fe808c ipv6: make ip6_rt_gc_expire an atomic_t
-1f7541fe0b18879ee5c6f861e4c999569a19c2c3 ipv6: remove max_size check inline with ipv4
-cb74230da5071e4cb54b342a0d079296ecc14a98 Linux 4.19.305-rc1
+e6198afbe10979730589f1b92c78d8966b29be6f nfc: llcp_core: Hold a ref to llcp_local->dev when holding a ref to llcp_local
+8d0d6d40055f6a57b18ecd07a75aebd8acabb45d i40e: Fix filter input checks to prevent config with invalid values
+ec12fd8c9ed9bea6ca61104eb85101534f2fa23a net: sched: em_text: fix possible memory leak in em_text_destroy()
+57d1c4321d01da6a68fb0c38eff00b9dba97d767 net: Implement missing getsockopt(SO_TIMESTAMPING_NEW)
+c4ef44925308ec733d2c42c75d2cf7711d92cb94 can: raw: add support for SO_TXTIME/SCM_TXTIME
+da79c692666c4908e89f165beb1c34fff42171a8 can: raw: add support for SO_MARK
+fbb3fca015cfae198a5a9c519e8eb3d9eb6f5601 net-timestamp: extend SOF_TIMESTAMPING_OPT_ID to HW timestamps
+72c7376f9586b227e9fbc6c15eda95e4e64968e2 ARM: sun9i: smp: Fix array-index-out-of-bounds read in sunxi_mc_smp_init
+1fc229cd8ebd0e39a93bcb406e5746a219e3457f net: bcmgenet: Fix FCS generation for fragmented skbuffs
+9a6d1ed9d83243a7af0bb36c657d89c3942d33cd net: Save and restore msg_namelen in sock_sendmsg
+878f42ee2700dcec4cd2f8e624f6cf0b647d81cd i40e: fix use-after-free in i40e_aqc_add_filters()
+91fa007a5f41e26ddd1ec8e5aee49c98947e8217 ASoC: meson: g12a: extract codec-to-codec utils
+ff93683b57cd8cee3b3ac3182f22bce058346b87 ASoC: meson: g12a-tohdmitx: Validate written enum values
+5208e02e3c5e49ed1001757e7d6bf74ea407c5ae ASoC: meson: g12a-tohdmitx: Fix event generation for S/PDIF mux
+4d7ac4e9d86a1bbe47b4b2ae1d5492b3eb4de19d i40e: Restore VF MSI-X state during PCI reset
+b0408de7bfd168fae81a6f333d2ac37e761ec0fd net/qla3xxx: switch from 'pci_' to 'dma_' API
+d76ab935bdaa9fd22e1927ddffd3782816640bf1 net/qla3xxx: fix potential memleak in ql_alloc_buffer_queues
+96651a12a349b2326151708e950148c5f803f568 asix: Add check for usbnet_get_endpoints
+2bc88e880ff63a8b05cbe4a555d964a24f7ca359 bnxt_en: Remove mis-applied code from bnxt_cfg_ntp_filters()
+db62abc5cd8b45680ebc380d2eaca5d68c14eb05 net: Implement missing SO_TIMESTAMPING_NEW cmsg support
+f97f1cb85e4b1b0f41135d21eb0f40065ef5eb56 mm/memory-failure: check the mapcount of the precise page
+93f2bbcdc213d908e34a92f31f8dfd450dab2724 firewire: ohci: suppress unexpected system reboot in AMD Ryzen machines and ASM108x/VT630x PCIe cards
+e10e2235eaf8a131430569af74fca42b4b4e1cff i2c: core: Fix atomic xfer check for non-preempt config
+ceac536989ad413143b04264a3338c47c93ab8dd mm: fix unmap_mapping_range high bits shift bug
+6ee584472c0fd61aafb86637b3ce72dcaf3984e5 mmc: rpmb: fixes pause retune on all RPMB partitions.
+76d39e9a533a89aa42da0d940149ccde5c7cd642 mmc: core: Cancel delayed work before releasing host
+f3e54deeec6184afd5b49b0c05b2032529984181 mmc: sdhci-sprd: Fix eMMC init failure after hw reset
+c38e76378d52d0344eb05f4b309a2291526e94c7 ath10k: Wait until copy complete is actually done before completing
+5276e9197ed7d1519f4dbccb3e5f02b0e41531f4 ath10k: Add interrupt summary based CE processing
+66bdb1d41711594f611c1f06b46374e75c2870da ath10k: Keep track of which interrupts fired, don't poll them
+6c972b17e7d32c3de4052073caf6a702395f1904 ath10k: Get rid of "per_ce_irq" hw param
+bc82a4421d7ffeaf82f910589acf0d8e97f46e68 net: tls, update curr on splice as well
+2fe342810a15d2359b66d31fcb1f4b0be5db2078 netfilter: nf_tables: Reject tables of unsupported family
+b0a6f271fdb45bab03bc5e26796fdf2a9878e034 PCI: Extract ATS disabling to a helper function
+18d3e2190a1feee38086051b9157fae7487dbcd9 PCI: Disable ATS for specific Intel IPU E2000 devices
+8f648cbcb0acb284131e546588aa0c2223fcac1c net/dst: use a smaller percpu_counter batch for dst entries accounting
+2cbd96dcd7a0e65d87d49eac1ac8d67159bff6e2 ipv6: make ip6_rt_gc_expire an atomic_t
+cdb3beb72f65204be61e392bba06d7bb76115911 ipv6: remove max_size check inline with ipv4
+86b133f1f903a253af84a135ff1afeec162143e7 Linux 5.4.267-rc1
 
---===============4091241919439971729==--
+--===============8765420146100972004==--
