@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Sun, 14 Jan 2024 12:24:11 -0000
-Message-Id: <170523505104.23455.16934759897385146478@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Sun, 14 Jan 2024 12:24:34 -0000
+Message-Id: <170523507450.23685.6366693923397654483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: andy
 changes:
   - ref: refs/tags/v6.7
