@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 14 Jan 2024 12:17:38 -0000
-Message-Id: <170523465859.19513.13171739667550869242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Sun, 14 Jan 2024 12:23:48 -0000
+Message-Id: <170523502819.23270.13003692583344451562@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/main
-    old: 894d7508316e7ad722df597d68b4b1797a9eee11
-    new: 5ef7f6b308bb98b385076bd623d08d107f6445f4
-    log: |
-         dc9dfc8dc629e42f2234e3327b75324ffc752bc9 net: tls, fix WARNIING in __sk_msg_free
-         034ea1305e659ddae44c19ba8449166fec318e2d net: tls, add test to capture error on large splice
-         5ef7f6b308bb98b385076bd623d08d107f6445f4 Merge branch 'tls-splice-hint-fixes'
-         
+  - ref: refs/tags/v6.7
+    old: 0000000000000000000000000000000000000000
+    new: 06f0875049ac2d11eb48273d04d0a6800c52abf5
+  - ref: refs/tags/v6.7-rc6
+    old: 0000000000000000000000000000000000000000
+    new: d8f30cf5e09a30e9a978b7df0aa5029afff0e1c1
+  - ref: refs/tags/v6.7-rc7
+    old: 0000000000000000000000000000000000000000
+    new: adab409b5eb1c5905c260f74c75725db3da46e38
+  - ref: refs/tags/v6.7-rc8
+    old: 0000000000000000000000000000000000000000
+    new: ff16c06a1757247b456096cbffeedf4ef5621ba4
