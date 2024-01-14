@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Sun, 14 Jan 2024 04:40:20 -0000
-Message-Id: <170520722045.7043.10429248653367256573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sun, 14 Jan 2024 04:46:15 -0000
+Message-Id: <170520757564.10836.11801676063606176196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lenb/linux
-user: lenb
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/turbostat
-    old: 6f3d1803d2475586800b7bae89bc203d164cf9f8
-    new: 98632e8c4ba37290df09973ea9492f05a0b0bfb2
+  - ref: refs/heads/master
+    old: 715fcea945b7dd8da2d750dc98b1e24b3ada2f57
+    new: 70a8eaaff6f5ca8ab01c47d55f08311ccad8b2c7
     log: |
-         53436d978a10251d8a18813315850c6dd04ced9c tools/power turbostat: expand probe_intel_uncore_frequency()
-         98632e8c4ba37290df09973ea9492f05a0b0bfb2 tools/power turbostat: Print ucode revision only if valid
+         70a8eaaff6f5ca8ab01c47d55f08311ccad8b2c7 foo
          
