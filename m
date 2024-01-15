@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============8621575024822760171=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 15 Jan 2024 17:54:22 -0000
-Message-Id: <170534126248.26415.12628762727592008478@gitolite.kernel.org>
-
---===============8621575024822760171==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Mon, 15 Jan 2024 17:55:13 -0000
+Message-Id: <170534131350.4359.7390667685423229985@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 9229736134474845018e1a90a91e3b7015e3177d
-    new: 3caaf69b36291eecc93f6ae188b120136694a546
+  - ref: refs/heads/queue/6.1
+    old: 684b40de4aef323b3b11e19b7f84f0b7c75a6716
+    new: 647e6d5d44d5e70495653eeea9c02e8ce26af283
     log: |
-         3caaf69b36291eecc93f6ae188b120136694a546 Notes added by 'git notes add'
+         f18ac86ac8664e19ee3fd8186ac746ba73a50abc Revert "nfsd: call nfsd_last_thread() before final nfsd_put()"
+         21d1507be39f1179415ab0a1e8356abb95cb385f Revert "nfsd: separate nfsd_last_thread() from nfsd_put()"
+         7a9fd84203d21bb651a420cdc3cfc3253ebfd66c ipv6: remove max_size check inline with ipv4
+         647e6d5d44d5e70495653eeea9c02e8ce26af283 cifs: fix flushing folio regression for 6.1 backport
          
-
---===============8621575024822760171==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705341261 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1705341260-7c36834a10dc83156d1b2465737c2c12811649a2
-
-9229736134474845018e1a90a91e3b7015e3177d 3caaf69b36291eecc93f6ae188b120136694a546 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWlcU0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g14QAIbWDVpwZLbsTELJJI3n
-73RpfHeSy07mvgIl6g/F0LRYECxTc9pB5jt4DaFY6cLZrMexmW0cUuBfKMr9Ov/c
-ODk9TZSZXR5iwC4YpYPytJOdX+wp8PbROyPxn09lDOe1AhFBU3xyAO1+yHj3Lnj8
-Ncl+lmiHqu4C+weBuLo/kUd4t9JF6E3Yw2t1iZZAkBfnlIi5gjgxXV7M0aT2QSbn
-D7M7H6aq7C32+e3DPe62KBh569nyp0F2hQHGXfh2TklfhJBQq22tGr0/1heuoCuj
-xGGBRZ2OmJDDe0rwZLkx35ORYaseO2Cf7FyDuifbkGDWl10kjd4Y5hi37A8jCxho
-eg+v1xF/wozaOXatz+vj/lXKGIUy8hcH4nldzvisAm+/rUsYpnafTUm9X9xgEGUI
-b70eZkVydDxZOu9zUFiJlRacDWbM03pUtyAVc7FHLC264vT75krfK5VeElonpgx9
-eeEVxHSHD/qfmfWaJ8j4tX2GjKJVztp0+GHQBo7tmp8GQrkM2g/ij7vY9i6VdcJt
-jwH4JuucvPSfg8UN2Lk8L3bkDY7bn8H/S9M+PTefmRW8+oMUwnGy0WxtjjFEmsRh
-aB4SpuuUT7OAyp2dNUbymw/X0msLrAI3s28VhUUh9RG3xyw7gkA2nOCnEfVusbhm
-VxVaG+6Lzbyx6YUCg/vc+Git
-=K15e
------END PGP SIGNATURE-----
-
---===============8621575024822760171==--
+  - ref: refs/heads/queue/6.6
+    old: 66234958f1eb365a571fda7aee0b63e44532c72a
+    new: ee43d554ab8351f9a0ed4459bd9093fa6c5401df
+    log: |
+         ee43d554ab8351f9a0ed4459bd9093fa6c5401df nfsd: drop the nfsd_put helper
+         
