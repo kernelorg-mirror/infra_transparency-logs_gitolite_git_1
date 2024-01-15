@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 15 Jan 2024 14:05:10 -0000
-Message-Id: <170532751085.11412.14417542072231362159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 15 Jan 2024 14:12:36 -0000
+Message-Id: <170532795664.16943.14555084385137121309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/20240115_peter_ujfalusi_asoc_sof_ipc4_kernel_log_noise_reduction_for_6_8
-    old: 0000000000000000000000000000000000000000
-    new: ab09fb9c629ed3aaea6a82467f08595dbc549726
+  - ref: refs/heads/master
+    old: f65154cbabd19b6ff2fd4089439a3cf0959ce07f
+    new: d82ce270c70b49c3dd3558ea81d42ccb65f69eee
+    log: |
+         d82ce270c70b49c3dd3558ea81d42ccb65f69eee locale.5: tfix
+         
