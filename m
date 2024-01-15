@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 15 Jan 2024 16:02:42 -0000
-Message-Id: <170533456293.30030.14635714342042445858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 15 Jan 2024 16:14:07 -0000
+Message-Id: <170533524714.6097.2158314282194448085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/mips_6.8
-    old: 0000000000000000000000000000000000000000
-    new: 0f0f17ddeab1f49dab9f0c6d6bf92fdaa6f8b83c
+  - ref: refs/heads/arm64-test-ptrace-regs
+    old: a630b0a50d7634d9ac7ee3aba8529f16ef43ba82
+    new: 2394fe8b85f2427eb044f1bc874f90617caa9f7e
+    log: |
+         2394fe8b85f2427eb044f1bc874f90617caa9f7e kselftest/arm64: Test that ptrace takes effect in the target process
+         
