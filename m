@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 15 Jan 2024 15:53:23 -0000
-Message-Id: <170533400369.23560.33558815629959304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Mon, 15 Jan 2024 16:02:42 -0000
+Message-Id: <170533456293.30030.14635714342042445858@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/fixes
-    old: 118a8cf504d7dfa519562d000f423ee3ca75d2c4
-    new: 2b872b0f466d2acb4491da845c66b49246d5cdf9
-    log: |
-         2b872b0f466d2acb4491da845c66b49246d5cdf9 erofs: Don't use certain unnecessary folio_*() functions
-         
+  - ref: refs/tags/mips_6.8
+    old: 0000000000000000000000000000000000000000
+    new: 0f0f17ddeab1f49dab9f0c6d6bf92fdaa6f8b83c
