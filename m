@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 16 Jan 2024 10:02:33 -0000
-Message-Id: <170539935345.4887.1537041547854337352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 16 Jan 2024 10:03:52 -0000
+Message-Id: <170539943277.5578.11232974311689099346@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 7a2826e9e78c5c5b059e14e8bc0420fec75ded66
-    new: 1ac6b49423e83af2abed9be7fbdf2e491686c66b
+  - ref: refs/heads/for-linus
+    old: 19adbe96d3e3c2188ad5838b936550e073cba54d
+    new: b018cee7369896c7a15bfdbe88f168f3dbd8ba27
     log: |
-         e37617c8e53a1f7fcba6d5e1041f4fd8a2425c27 sched/fair: Fix frequency selection for non-invariant case
-         36cb2b04c337c7bd58a0f024ddfdcdaefe426c30 Merge branch into tip/master: 'sched/urgent'
-         8ee473113e78edb5da89c06016f2dd9921834d3c Merge branch into tip/master: 'x86/merge'
-         dabd3148530908bf14bae303fb4ceea96a086b45 Merge branch into tip/master: 'x86/bugs'
-         7e481d52d9495efaa6906e862b2f163cb989f01c Merge branch into tip/master: 'x86/mm'
-         bf92c2ed7a86ac15af57290141e348752591cdc6 Merge branch into tip/master: 'x86/percpu'
-         fb2b23337997fb61276189e99b7234548fe4aacc Merge branch into tip/master: 'x86/sgx'
-         1ac6b49423e83af2abed9be7fbdf2e491686c66b Merge branch into tip/master: 'x86/tdx'
+         bc7863d18677df66b2c7a0e172c91296ff380f11 ALSA: hda/relatek: Enable Mute LED on HP Laptop 15s-fq2xxx
+         b018cee7369896c7a15bfdbe88f168f3dbd8ba27 ALSA: hda/realtek: Enable mute/micmute LEDs and limit mic boost on HP ZBook
+         
+  - ref: refs/heads/master
+    old: 0956ba707d2030f6b6359287e27d4cfe4c5828fb
+    new: f79bb5c91bc43a0d9806eb83dd10d05ec0616bef
+    log: |
+         bc7863d18677df66b2c7a0e172c91296ff380f11 ALSA: hda/relatek: Enable Mute LED on HP Laptop 15s-fq2xxx
+         b018cee7369896c7a15bfdbe88f168f3dbd8ba27 ALSA: hda/realtek: Enable mute/micmute LEDs and limit mic boost on HP ZBook
+         f79bb5c91bc43a0d9806eb83dd10d05ec0616bef Merge branch 'for-linus'
          
