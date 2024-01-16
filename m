@@ -1,56 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Tue, 16 Jan 2024 11:50:00 -0000
-Message-Id: <170540580021.17330.9734759969997294689@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7506867646444885190=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 16 Jan 2024 12:01:59 -0000
+Message-Id: <170540651941.26341.5537716685930235692@gitolite.kernel.org>
+
+--===============7506867646444885190==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/coverity_scan
-    old: 18277e4ecf7c4276683e53dfa794196918bce9bb
-    new: b776717f6f81608dc426bb59f6fa58e2ffa91d38
-    log: |
-         f0683703f694c25dcdcb04af3183ea1eb0f4582e Allow linking multiple VKs (also in reencryption).
-         dd7d739ed3011224ac74ad60bf983c6aaa1c7022 Add tests for storing multiple VKs in a custom keyring.
-         bc0a9ec2f59b1e6cc6ac099ce50c916d52ae5d65 Add tests for storing VK in keyring during resume.
-         99984706cedc1c6cacc3dab397850f69c57d2cc1 Allow activating multi key devices using VKs in keyring.
-         5ad843aa347a6158c3a93697a106a4a42f5fb664 Add tests for device activation using multiple VKs.
-         b776717f6f81608dc426bb59f6fa58e2ffa91d38 Try gcc 13 for GitHub actions.
-         
-  - ref: refs/heads/wip-luks2
-    old: 18277e4ecf7c4276683e53dfa794196918bce9bb
-    new: b776717f6f81608dc426bb59f6fa58e2ffa91d38
-    log: |
-         f0683703f694c25dcdcb04af3183ea1eb0f4582e Allow linking multiple VKs (also in reencryption).
-         dd7d739ed3011224ac74ad60bf983c6aaa1c7022 Add tests for storing multiple VKs in a custom keyring.
-         bc0a9ec2f59b1e6cc6ac099ce50c916d52ae5d65 Add tests for storing VK in keyring during resume.
-         99984706cedc1c6cacc3dab397850f69c57d2cc1 Allow activating multi key devices using VKs in keyring.
-         5ad843aa347a6158c3a93697a106a4a42f5fb664 Add tests for device activation using multiple VKs.
-         b776717f6f81608dc426bb59f6fa58e2ffa91d38 Try gcc 13 for GitHub actions.
-         
-  - ref: refs/merge-requests/580/head
-    old: f12ee310bbf71ac9cc06220a224efb64b659204f
-    new: d6d04aee5ae92f05e2b607266f4ca17dfe7a724e
-    log: |
-         05b401f9f330762eff49727e2d1c828c3589e28e Allow linking multiple VKs (also in reencryption).
-         1f3a6b95d9911144abf3ade15d606720f1b32452 Add tests for storing multiple VKs in a custom keyring.
-         4c1f9024399b7a05fef13a5d7cea8d0ce2ea060e Add tests for storing VK in keyring during resume.
-         049a75d157daef1587adf814815b50320dcefa7d Allow activating multi key devices using VKs in keyring.
-         d6d04aee5ae92f05e2b607266f4ca17dfe7a724e Add tests for device activation using multiple VKs.
-         
-  - ref: refs/merge-requests/580/merge
-    old: f88f603dd73810685ede2ff28bf33e3091b984d8
-    new: 06e77e9a01b43fb0b139b7584ca61e053fa707ce
-    log: |
-         05b401f9f330762eff49727e2d1c828c3589e28e Allow linking multiple VKs (also in reencryption).
-         1f3a6b95d9911144abf3ade15d606720f1b32452 Add tests for storing multiple VKs in a custom keyring.
-         4c1f9024399b7a05fef13a5d7cea8d0ce2ea060e Add tests for storing VK in keyring during resume.
-         049a75d157daef1587adf814815b50320dcefa7d Allow activating multi key devices using VKs in keyring.
-         d6d04aee5ae92f05e2b607266f4ca17dfe7a724e Add tests for device activation using multiple VKs.
-         06e77e9a01b43fb0b139b7584ca61e053fa707ce Merge branch 'reencryption-linking' into 'main'
-         
+  - ref: refs/heads/thermal
+    old: 17e8b76491b007698cf63bc10093bc8991e45001
+    new: dd75558b2d0b5e2b36ec0ef7e494d2763517d801
+    log: revlist-17e8b76491b0-dd75558b2d0b.txt
+  - ref: refs/tags/thermal-6.8-rc1-2
+    old: 0000000000000000000000000000000000000000
+    new: 75786459eeb4992356a36a3ce4398f65109ab45e
+
+--===============7506867646444885190==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-17e8b76491b0-dd75558b2d0b.txt
+
+7e72fc41d4243800206ff76615cfebb15d632027 thermal: netlink: Pass pointers to thermal_notify_tz_trip_change()
+f52557edf0648b471e2006f9377ea0ba4f73f9b2 thermal: netlink: Pass pointers to thermal_notify_tz_trip_up/down()
+4ae535f37d0e3c5731f90c385e883c0bada59fc9 thermal: netlink: Drop thermal_notify_tz_trip_add/delete()
+2f521890aa5b8a5619d31a95caec0b08d4cb9e1a thermal: netlink: Pass thermal zone pointer to notify routines
+755113d7678681a137c330f7997ceb680adb644e thermal/debugfs: Add thermal cooling device debugfs information
+7ef01f228c9f54c6260319858be138a8a7e9e704 thermal/debugfs: Add thermal debugfs information for mitigation episodes
+57a427c81c322c5f0cdfe7c46cdee553d18b1ec6 thermal: core: Use kstrdup_const() during cooling device registration
+11fde939314836c4375b567d60407d752d987069 thermal: netlink: Rework notify API for cooling devices
+fd881eac3af6c4e36b34ce92d69fb1d7e95f5920 thermal: helpers: Rearrange thermal_cdev_set_cur_state()
+e95fa7404716f6e25021e66067271a4ad8eb1486 thermal: gov_power_allocator: avoid inability to reset a cdev
+97566d09fd02d2ab329774bb89a2cdf2267e86d9 thermal: intel: hfi: Add syscore callbacks for system-wide PM
+6dcb35088e264306b948141971286257681ca412 thermal/debugfs: Unlock on error path in thermal_debug_tz_trip_up()
+dd75558b2d0b5e2b36ec0ef7e494d2763517d801 Merge branches 'thermal-core' and 'thermal-intel'
+
+--===============7506867646444885190==--
