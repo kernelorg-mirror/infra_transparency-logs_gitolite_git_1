@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 16 Jan 2024 08:32:31 -0000
-Message-Id: <170539395145.22982.18348235421730546201@gitolite.kernel.org>
+Date: Tue, 16 Jan 2024 08:53:29 -0000
+Message-Id: <170539520951.5519.1451547440004651425@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: e327b2372bc0f18c30433ac40be07741b59231c5
-    new: 915805b5058554bae48e5c162ddcc4c329bf4efc
+    old: 915805b5058554bae48e5c162ddcc4c329bf4efc
+    new: a23aa04042187cbde16f470b49d4ad60d32e9206
     log: |
-         c2518da8e6b0e248cfff1d4b6682e14020bd4d3f selftests: bonding: Change script interpreter
-         49078c1b80b6f7e214ff60cf6f44750b33019cad selftests: forwarding: Remove executable bits from lib.sh
-         915805b5058554bae48e5c162ddcc4c329bf4efc Merge branch 'selftests-net-small-fixes'
+         a23aa04042187cbde16f470b49d4ad60d32e9206 net: stmmac: ethtool: Fixed calltrace caused by unbalanced disable_irq_wake calls
          
