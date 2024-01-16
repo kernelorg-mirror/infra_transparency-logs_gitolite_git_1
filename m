@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Tue, 16 Jan 2024 17:00:46 -0000
-Message-Id: <170542444658.17626.14238225572635406296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 16 Jan 2024 17:18:26 -0000
+Message-Id: <170542550634.30093.6774705593869071438@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/tags/i2c-for-6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: bb866d4f88ff97b07af9edf225144a9a6d7836a0
+  - ref: refs/heads/master
+    old: 770ad5614e7e8074133e6f563495ce4822f63fe4
+    new: 2a3e935f3f652f2b625af72d2c9abda64d742c28
+    log: |
+         2a3e935f3f652f2b625af72d2c9abda64d742c28 shared/bap: Fix dereference of null pointer
+         
