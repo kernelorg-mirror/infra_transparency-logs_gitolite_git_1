@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 16 Jan 2024 22:26:14 -0000
-Message-Id: <170544397423.24991.13450552029445640143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Tue, 16 Jan 2024 22:27:23 -0000
+Message-Id: <170544404337.25472.6656665280610928516@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/master
-    old: 1be3af174bc5d2d2e5368b91fa6109aaacb355f5
-    new: 67a94b555afe0f3a705851f35f39c715d67377e9
+  - ref: refs/heads/for-later
+    old: e6abb921392e83d6eb643ee526fdbb49ff7a1a06
+    new: 695aa17ba370fc64ecb5f48990fb6bfa61f700b8
     log: |
-         67a94b555afe0f3a705851f35f39c715d67377e9 foo
+         95c66feee739eb898656343f6750e8d4990a03c0 gfs2: Improve gfs2_consist_inode() usage
+         695aa17ba370fc64ecb5f48990fb6bfa61f700b8 gfs2: Use [NO_]CREATE consistently for gfs2_glock_get
          
