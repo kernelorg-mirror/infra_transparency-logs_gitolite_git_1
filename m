@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0770637546340803673=="
+Content-Type: multipart/mixed; boundary="===============7495788038613951806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 16 Jan 2024 06:45:39 -0000
-Message-Id: <170538753914.13198.15482606074658691132@gitolite.kernel.org>
+Date: Tue, 16 Jan 2024 06:46:42 -0000
+Message-Id: <170538760281.13671.6846917969306718840@gitolite.kernel.org>
 
---===============0770637546340803673==
+--===============7495788038613951806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 76df934c6d5f5c93ba7a0112b1818620ddc10b19
     new: e327b2372bc0f18c30433ac40be07741b59231c5
     log: revlist-76df934c6d5f-e327b2372bc0.txt
 
---===============0770637546340803673==
+--===============7495788038613951806==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ dc9dfc8dc629e42f2234e3327b75324ffc752bc9 net: tls, fix WARNIING in __sk_msg_free
 c061be1bd5e74e9685630cc95b818e13dbff9713 MAINTAINERS: eth: mvneta: update entry
 e327b2372bc0f18c30433ac40be07741b59231c5 net: ravb: Fix dma_addr_t truncation in error case
 
---===============0770637546340803673==--
+--===============7495788038613951806==--
