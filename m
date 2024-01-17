@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3756446920228979071=="
+Content-Type: multipart/mixed; boundary="===============3435308465835255929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 17 Jan 2024 20:08:51 -0000
-Message-Id: <170552213169.11266.7508168637710850646@gitolite.kernel.org>
+Date: Wed, 17 Jan 2024 20:09:08 -0000
+Message-Id: <170552214832.11428.16583768289385927725@gitolite.kernel.org>
 
---===============3756446920228979071==
+--===============3435308465835255929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,43 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 904fdd2062f3101fb09db8ee077abf7ffd95e538
-    new: 83ab68168a3d990d5ff39ab030ad5754cbbccb25
+  - ref: refs/tags/mkp-scsi-staging
+    old: b0d536104ea7a23bd738964b346e71d4fa62d31f
+    new: 6e03d74bc146a66ac950b9c98b4b81eda78e70f6
     log: |
-         567a1e852e872e702b18d271a3dbce2a75efbaff scsi: fcoe: Fix unsigned comparison with zero in store_ctlr_mode()
-         38945c2b006b23a1a7a0c88d76e3294c6199891c scsi: fnic: unlock on error path in fnic_queuecommand()
-         6df0e077d76bd144c533b61d6182676aae6b0a85 scsi: core: Kick the requeue list after inserting when flushing
-         83ab68168a3d990d5ff39ab030ad5754cbbccb25 scsi: target: core: Add TMF to tmr_list handling
+         658365c6b0857e6a306436e315a8633937e3af42 scsi: isci: Fix an error code problem in isci_io_request_build()
+         d6b75ba5218915be48542bcd7e2a09776b7c66c9 scsi: virtio_scsi: Remove duplicate check if queue is broken
+         e6f3799de2f2b2cd23c3894a127921dfb6c6a512 scsi: initio: Remove redundant variable 'rb'
+         7d1ae55ffed0ff78ed33b1465c1233e05024e135 scsi: MAINTAINERS: Update ibmvscsi_tgt maintainer
          
 
---===============3756446920228979071==
+--===============3435308465835255929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1705522130 -0500
+pusher 75C5DE3D 1705522136 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1705522130-6714a647d4a0bb1b1ae8df2e24127b712f7cda38
+nonce 1705522135-5c290b2f2b9ef64e5862643b23dd9889849d2292
 
-904fdd2062f3101fb09db8ee077abf7ffd95e538 83ab68168a3d990d5ff39ab030ad5754cbbccb25 refs/heads/queue
+b0d536104ea7a23bd738964b346e71d4fa62d31f 6e03d74bc146a66ac950b9c98b4b81eda78e70f6 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWoM9IACgkQ7ulgGnXF
-3j1mwA//f7uFPrnzqrK436QviFdVfjmSlR4WvKmYTS0JM0piuS1gIQEVIkEPDNWm
-sbH/Q6M2oIxbHsW60j9o4uDGMMVQM5vNWcPM95BluyG5Q+U4kQqzt+aacOXAsD69
-U7xNPGx+CAr10Rg7XivmwrGDi9qoDfJzNtGniB2TKfigIwDdEQd58I7pSC+R6Tie
-zX4e1fDESWydLqsBmvV69z4ZVZ98MqCiW0cQl2YFaIasHkwGaTyHQ3w/OJq83WYG
-YrvNDZE/WNbVRH5PNoI9GwyF/7hHUikQsjOLbpJE8dFx2d2jynxwCxyAh3qvm0ou
-DZ6d4xCEHvVe5+/0fIkSriCFdScrTqHhqDPt1GIzfITbL1u/47rPgxknQytBI1qs
-elvgOHd9yvYmD7zWu21RjsdY3+r/2OlrZSIelh7HQ/72aI9rqEk8SmeZ4iJwheLz
-ZJmHp/qlJvHht14dd4URcKmDDDPYGxpTBiEewvNhbfP6a6flA5lWXZnqRNom9O0d
-UAgbnvd9k+1r2dIaunrtrqU22/rj7zt07M3Lt5dhHlRyQtK4OFHQi3i8wLU9ZNZL
-gw6RmjlrZgGUFdP8Rp42BVUbH1ESz4p3Akj9lwiLSWGxHjDsnivJ6rZt/Vlkb2Dr
-KR1o+ne64JPotKtfjAvDcx4faTJK6IcWKXNQNtuqWp14hNwDtxY=
-=MgCX
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWoM9gACgkQ7ulgGnXF
+3j2BxA//TfzSGSXm8izc3+u4q4pCgnSIfxh71C8itQhgOVnu/0IhtshR+R4fo/2+
+eaaijtSs+t3FhQ6JP1eJpBlYOL5t9oLom6RWZgnzQ9wQOmZvPerH70VK0u27LAio
+T+WE7cZe9Cl2eX6d6aRog9O/pNt3kYVsIsjkiH1u31dBG5i+wYEcExOZRy3Mtf/n
+QBsOdBHtVk+qV6gO4rOg9mZGL6/3EOnW2jnL0xO9tk502eLWXgoRA7c0asT6iRZB
+4UTEWbqV0ZS1Oqr5pgPABHd5lomNygDD0SnmqKV3sZPeS22rKCd42eNwkdOcye0k
+gzhpg7MCRu3KzXpqZ4z11m97/jLGcSsc/NBgvcoPESe3XGLNCNKwT+HWoNekA2F7
+WtQxqQKrSIRnJP3soNOEfVqGeGBGAbdbRg9qB6lC0f/8GiI0DBNZDI5FBcOyqHuH
+gsM0Y2+wOWqwaj3+JrkFVV2tW5wd3qh8T1CrVw4R6d33C2L175F9a29P0qLtaO+k
+UGA8Fi50KBjxys7fFukeG/9+DJwVe2AvEqVBq3P6t+qETVlfZ5tmDRxOT2zbHNNh
+niHjfGJAhDC9vd8qCTWSri7ENUMUXvo/FefqpxL0TpswsN7Qm8hsnCtm2MPusZwn
+F4ww1bDKEtu+pGCZ91I2TaomOm01hJuuoZ1BtX7CpfgFLM9pjkg=
+=v7ci
 -----END PGP SIGNATURE-----
 
---===============3756446920228979071==--
+--===============3435308465835255929==--
