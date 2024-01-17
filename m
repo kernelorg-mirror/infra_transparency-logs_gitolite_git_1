@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5060966106936109767=="
+Content-Type: multipart/mixed; boundary="===============5750106343802289444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Wed, 17 Jan 2024 12:09:44 -0000
-Message-Id: <170549338419.21135.2933774832516504293@gitolite.kernel.org>
+Message-Id: <170549338437.21157.15030061006708355962@gitolite.kernel.org>
 
---===============5060966106936109767==
+--===============5750106343802289444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 68e48239fdae9aba74f74a72923c7999a66302a0
-    new: 59aee4d10078cb76a8c551f2ff1015dffe112578
-    log: revlist-68e48239fdae-59aee4d10078.txt
+  - ref: refs/heads/linux-6.7.y
+    old: 0dd3ee31125508cd67f7e7172247f05b7fd1753a
+    new: 5b37b1240caed223224b1397268d7ef7e320f453
+    log: revlist-0dd3ee311255-5b37b1240cae.txt
 
---===============5060966106936109767==
+--===============5750106343802289444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,53 +32,42 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705493383 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1705493382-ec23ebf2e00a5c810382e7d2b44fe3f419328c39
 
-68e48239fdae9aba74f74a72923c7999a66302a0 59aee4d10078cb76a8c551f2ff1015dffe112578 refs/heads/linux-4.19.y
+0dd3ee31125508cd67f7e7172247f05b7fd1753a 5b37b1240caed223224b1397268d7ef7e320f453 refs/heads/linux-6.7.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWnw4cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R14P/33gtR4pD70qageXZs18
-YFxVednnMzkfb9ZuDWHBr4GY15ZhsUmqhyJwqbxW8l1MC0yp1XwrRBJZtg2RQ2Ff
-zGM+cqXw7lRHqSghc6qoYAhLyc7x6i0/6nIfo1YwCB8boENIx8V08tQM3E1OtH2b
-UQuPpiTOPwLnEwGZolx2DP3JAYkl94hZiRZ2/XPjI45KtHJMbmroDUm0/ejEOcQA
-VAOgQMwdK30pShLmZXQR9LivKFyB10ASdwdoTJcktka6xRZc4tIQ/e0L8prEDv6Z
-LBNzF7SKYM58xaXyY5fK93IKxos7peBZZpGMehXnZedkfj3N7elOgZvGQKg9D7pd
-sRzwvSv4VePI0vUJ/vKRpXES/4A795yUsRa6JnC2GaWAK9C3mKfKdAPliSmwv/Oo
-nVoAl2PcBPifcQa3gBL4jmMFjNRytSiNTPAsagnpmDEPISr/Vvj2Xcx7QekwNplL
-PyXNmHIUOAMckut4nGOG8mR5wduiXzUYAcnPm/LsltO9jiFLAlOL6Tdc+JytSvDx
-FmVH4UENe9bMmxJFXL6h3p3QaMhX0gbesAhtPcas2+gD+TVZ1oYf8E6rJjMnIIif
-SGjIm7bDT/eR68lpTmeS8jl8iOZ7pH+X5SE6tUlRljaFnp9AcDkmb0Mz1lw14/yi
-CSf/lwMMMyAb0CZ+0Y3GaFxA
-=IeUn
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+owsP/2555XfcOK3gworIvnQk
+usIZZFrTloCzb0lFSIQTlwINiyIxv/HojQky+hjJW3pLCdpWEqh4lxgC1iqpH/LO
+u/9siOACAp5LuF2XqPD2ZHqjeaEnpM2znBRtZT5mLDcC+S+25ucBd+9E/rkgXR3e
+gHJ/4aQUxvLTbm+9TI/i93RV456NEIhwGazfM2aSVbN25rmmrX+ZAlfNQq6ma6D/
+enqSClCWVK1spKZf574y4WDH2Z+ec8Xokijsqah+6+a9oHS94GOHmtTXtpNU79XO
+lBc+e8NvdnYIT0jrQ2YHddePWn8/y+CfM2V9J/sSqvyMCUHbiacyleGDxgxmrCNn
+WioOZbDEMidi1xJmr1PknMngKGuFxtTohL/jOF+n6wDNk/NA6B6sId2xXCjn5imv
+k7rHS78Og8aoCiMxLRR0g10eAUcyAJHvoG3ON4f1NOKgjaKImGOi2hMd4AjgQ/H/
+rxCCzZRR00aVxsgwpV2qW+seGazfVX6DIZ3UWKxHM/1vJmNmtoFwlQe7yDXwLbOp
+pYr66Ajem0lfEGwOQ9EMT4mF9iZxgshf5WCelQasJhDOVKdDWM7vP6U1IdE+ZnEM
+uWrCk16tZIku591ZH/Gz212Fj1l0c2wuRt5fEKwD+OKGTRvbHBa3Fy7EuL9Dcqh/
+tkIGsE8z/aWDI1tDKMg1PO9A
+=/Uvh
 -----END PGP SIGNATURE-----
 
---===============5060966106936109767==
+--===============5750106343802289444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68e48239fdae-59aee4d10078.txt
+Content-Disposition: attachment; filename=revlist-0dd3ee311255-5b37b1240cae.txt
 
-b542fda0699f0f3c3a1b6f572b560dcf11f5546d f2fs: explicitly null-terminate the xattr list
-1ea0a463f471c4c8b8373f0f8086533887e3473a ASoC: Intel: Skylake: mem leak in skl register function
-fc5989b630d24ec8b34798549cc9e035a67de790 ASoC: cs43130: Fix the position of const qualifier
-ce4a0d1fc628ad9164dec77f3c2e878974b535ac ASoC: cs43130: Fix incorrect frame delay configuration
-e8f5c9ad386102545dfacd6f5c425b687bee9bfe ASoC: rt5650: add mutex to avoid the jack detection failure
-17de8f142f38d42d15892a4aea66b5f5bc408223 net/tg3: fix race condition in tg3_reset_task()
-a4843dca5f460afb2e2cb89c9b4a0975340f6601 ASoC: da7219: Support low DC impedance headset
-070ea7896fd0e0d40b11732149b68017978e40c6 drm/exynos: fix a potential error pointer dereference
-0e69651226e3e14dfb758d35e74f2e974bfeb67f clk: rockchip: rk3128: Fix HCLK_OTG gate register
-db1f30247bd03e80cbaf03927da388260ccb2ae2 jbd2: correct the printing of write_flags in jbd2_write_superblock()
-f041809532367b6ca8232d216a91d6a446a557ef drm/crtc: Fix uninit-value bug in drm_mode_setcrtc
-531b53c469c8a7dd6dd568b877e5a048cf7df759 tracing: Have large events show up as '[LINE TOO BIG]' instead of nothing
-d76d587d80da8d777b108df78f876e70be59749a tracing: Add size check when printing trace_marker output
-1c81789521ea7ad17356adca4065b5a2011ff199 ring-buffer: Do not record in NMI if the arch does not support cmpxchg in NMI
-a7f5cf6ef6b5f3fd0ecfcf7651442f0891f3738f reset: hisilicon: hi6220: fix Wvoid-pointer-to-enum-cast warning
-0a3cce96eff73cac4efc1f7f7ba00ea04b6805ea Input: atkbd - skip ATKBD_CMD_GETID in translated mode
-fb7be9a5afd5cc68fbbcb5b8a6348ff504246428 Input: i8042 - add nomux quirk for Acer P459-G2-M
-eb76da48eda92e99e1b688954120844814fe502d s390/scm: fix virtual vs physical address confusion
-02effa2b6501ea761173340de161f3c68d94dbde ARC: fix spare error
-510dcae9b4fa64e321de33351e5d50c44263be71 Input: xpad - add Razer Wolverine V2 support
-db2c9d6c97a62225a78f0da6bb7e2d27389fef8b ARM: sun9i: smp: fix return code check of of_property_match_string
-d1f68aaf82a622dbd4e1486a6c8683183aa7e184 drm/crtc: fix uninitialized variable use
-59aee4d10078cb76a8c551f2ff1015dffe112578 Linux 4.19.306-rc1
+ac1d023dbe054b6862c7b610834e0aed15f606bb f2fs: explicitly null-terminate the xattr list
+b4b70d7614886cf849fba69d0a81b30e2d4d015e ALSA: hda/realtek: Add quirks for Dell models
+6bcf456de3f20f56a48e985b536821ef212d2ff8 ALSA: hda: cs35l41: Support additional Dell models without _DSD
+c357940e3657887adc5a2f46d2a730bcde0c750d ALSA: hda: cs35l41: Prevent firmware load if SPI speed too low
+5af56dee655e7d9f91ecb2d10070304403df052a ALSA: hda: Add driver properties for cs35l41 for Lenovo Legion Slim 7 Gen 8 serie
+877d7a2cca263504349b67084f5656d0c9f9fcc6 ALSA: hda/realtek: enable SND_PCI_QUIRK for Lenovo Legion Slim 7 Gen 8 (2023) serie
+967fd7ab8025788e823014dbdfbcba76763cddd5 ALSA: hda/realtek: Fix mute and mic-mute LEDs for HP Envy X360 13-ay0xxx
+161c4810114496c4a5f12eec0846d9dcce5bdd72 ALSA: hda: cs35l41: Support more HP models without _DSD
+ddee7173bbd9ef3fc152850946456cca3f2c5ba5 ACPI: resource: Add another DMI match for the TongFang GMxXGxx
+f97cc755d967c439abf390fcb1dedd6f67d674a3 bus: moxtet: Mark the irq as shared
+c0f849417d541e323ef5d5a1d01bdac90d1d6e63 bus: moxtet: Add spi device table
+5b37b1240caed223224b1397268d7ef7e320f453 Linux 6.7.1-rc1
 
---===============5060966106936109767==--
+--===============5750106343802289444==--
