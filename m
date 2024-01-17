@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 17 Jan 2024 09:00:20 -0000
-Message-Id: <170548202070.563.14173431417966819297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 17 Jan 2024 09:25:43 -0000
+Message-Id: <170548354338.18928.4405516426081695704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 62b38f30a00ff47142e58d0a6d60dd296e0e8108
-    new: efb8235bfdbe661c460f803150b50840a73b5f03
+  - ref: refs/heads/master
+    old: 836734f474c9ea5d005ff71565a49d76c262245e
+    new: be7c19de9ecf4d93a9908003a1a3b8f1e8f8a672
     log: |
-         efb8235bfdbe661c460f803150b50840a73b5f03 gpiolib: revert the attempt to protect the GPIO device list with an rwsem
+         985b8ea9ec7efe6abb6acfc266459e31e9755e6d bpf, docs: Fix bpf_redirect_peer header doc
+         be7c19de9ecf4d93a9908003a1a3b8f1e8f8a672 bpf: Sync uapi bpf.h header for the tooling infra
          
