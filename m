@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5719515110230466832=="
+Content-Type: multipart/mixed; boundary="===============4873993940358040857=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Wed, 17 Jan 2024 04:44:56 -0000
-Message-Id: <170546669617.11790.5393866641527541279@gitolite.kernel.org>
+Date: Wed, 17 Jan 2024 04:47:39 -0000
+Message-Id: <170546685939.14444.16393971386056186451@gitolite.kernel.org>
 
---===============5719515110230466832==
+--===============4873993940358040857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-next
-    old: b93fcedebede1f009d954e8622815e1203dc9d1a
-    new: efe1f329f78a8d1b8d235c3b8a690aa2e6e2724b
-    log: revlist-b93fcedebede-efe1f329f78a.txt
+  - ref: refs/tags/loongarch-6.8
+    old: 9c734e8e122b49c5e41349666716c052848058bb
+    new: 439051dcd36628705b077f6974da338f2532f2c7
+    log: revlist-9c734e8e122b-439051dcd366.txt
 
---===============5719515110230466832==
+--===============4873993940358040857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b93fcedebede-efe1f329f78a.txt
+Content-Disposition: attachment; filename=revlist-9c734e8e122b-439051dcd366.txt
 
 2772ae4d66d17c6a8b4c167ddb660fc8d7972da5 modpost: Ignore relaxation and alignment marker relocs on LoongArch
 f58b0abae839f06be9d791d16196922a4b281777 scripts/min-tool-version.sh: Raise minimum clang version to 18.0.0 for loongarch
@@ -48,6 +48,5 @@ c2396651309eba291c15e32db8fbe44c738b5921 LoongArch: Fix and simplify fcsr initia
 36a87385e31c9343af9a4756598e704741250a67 LoongArch: BPF: Prevent out-of-bounds memory access
 fc562925f51c0ce462c17b24a5c538db676af576 LoongArch: Update Loongson-3 default config file
 6e441fa3ac475be73c03c9a85bd305d66ea476a6 MAINTAINERS: Add BPF JIT for LOONGARCH entry
-efe1f329f78a8d1b8d235c3b8a690aa2e6e2724b Merge branch 'loongarch-kvm' into loongarch-next
 
---===============5719515110230466832==--
+--===============4873993940358040857==--
