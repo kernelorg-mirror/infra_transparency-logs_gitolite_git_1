@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5637886089800651757=="
+Content-Type: multipart/mixed; boundary="===============3285415119446960921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Wed, 17 Jan 2024 16:56:08 -0000
-Message-Id: <170551056848.2564.14264975289286072865@gitolite.kernel.org>
+Date: Wed, 17 Jan 2024 16:56:14 -0000
+Message-Id: <170551057461.2689.11415535931365109182@gitolite.kernel.org>
 
---===============5637886089800651757==
+--===============3285415119446960921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,132 +15,96 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
 user: colyli
 changes:
-  - ref: refs/heads/OLK-5.10
-    old: 41d32fcd4a03f9df2740bab7a084000ed48ab96f
-    new: 4ab210f9ccc9d3718760515636ed70d628bcb49d
-    log: revlist-41d32fcd4a03-4ab210f9ccc9.txt
+  - ref: refs/heads/openEuler-1.0-LTS
+    old: a59a7e7807f889e376cd00a4964b80e6f7430b9f
+    new: deb75da8f1505a151af1f1e86c99df8e4c96a1ae
+    log: revlist-a59a7e7807f8-deb75da8f150.txt
 
---===============5637886089800651757==
+--===============3285415119446960921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41d32fcd4a03-4ab210f9ccc9.txt
+Content-Disposition: attachment; filename=revlist-a59a7e7807f8-deb75da8f150.txt
 
-d5127f1c4c5fd23ce0413484f858beee5d6848d0 arm64: config: add Phytium Drm config
-29bef482980f0d7db548c6d7bbbcba73f6bcac62 x86/kprobes: Fix the error judgment for debug exceptions
-38f910c8446514d95387961777417b54ad3a57e2 md: factor out a mddev_alloc_unit helper from mddev_find
-6c6292c22ff845ebcbf8b81647a55fff4ff4052d md: refactor mddev_find_or_alloc
-10b2c6ae5fad3f7c2c2de4e59dfc56944cdde0a8 md: do not return existing mddevs from mddev_find_or_alloc
-730c627d94815666a0508d46a18f63678f82b654 loongarch/kvm: Remove SW timer switch when vcpu is halt polling
-d709d6db711a4100388c3dd541f0e35aa79a00bf loongarch/kvm: Fix oneshot timer emulation
-c2f5068b21f71fed62fc2dc51af7e44768c874dc loongarch/kvm: disable hugepage during migration process
-e7dc0e1e1d7e701e0e2c8205eda634302c5ac995 md: factor out a helper to wake up md_thread directly
-9c29808f657c454dd1cdc45e33dae40de195619a dm-raid: remove useless checking in raid_message()
-3298644f50daa6a633bf14b7cfd940b98dead41c md/bitmap: always wake up md_thread in timeout_store
-8fdf4ba59bb3b8a7f2ff3e10808f84c8b0d09868 md/bitmap: factor out a helper to set timeout
-448fbeaf0f07ea578841346b938245f5c5220b9b md: protect md_thread with rcu
-3ac98d7a119b0cd27f3638e96e09b1cc43779e32 dm: add error handling support for add_disk()
-a333d59090dfb854659f75e531c4adf1cd229c38 sched/fair: reset idlest_cpu if not meet the conditions for preferred CPU
-f902150df7fc832a988720801a2c9a01181cde02 livepatch/core: Disable support for replacing
-3590a68c04c28ebf80d77cb0a75aea1148a3e0ef network_mgmt: Merge the openEuler modification suggestions.
-68747e50ad6fcd24ee9aca40febba477de7e0137 !3084 [OLK-5.10] add Phytium DRM drivers CONFIG
-e318095d78b89cec4f2cb17caa505b7cd8df8bd4 net: hns3: fix kernel crash when 1588 is received on HIP08 devices
-a147931df7799c598da3662ca8c76f95c9a10042 roh/hns3: Fix the processing flow of ROH CMDq during the reset process.
-00acfc98159b43ec7d4a697894048981de1095d2 !3508  roh/hns3: Fix the processing flow of ROH CMDq during the reset process.
-6cfb70fbc25bca2a19bdd1b8ec98be4778ed9499 tick/broadcast-hrtimer: Prevent the timer device on broadcast duty CPU from being disabled
-0ffcd407efb19980363e901d9c0cc4dc24cea69d !3504 net: hns3: fix kernel crash when 1588 is received on HIP08 devices
-3b95cf968b7920ba927c662a96dad2e80ae18cb2 Revert "RDMA/hns: Add cap_flag check for check_vf_support()"
-4c5c787523a4dad7275e99aee1360420330acf27 RDMA/hns: Fix init check of VFs on RoCE bonding slaves
-ec799ad0f9d35faaf67b71a4cbe7320335463272 RDMA/hns: Fix Use-After-Free of rsv_qp
-055844c70849950a750e99ebb587405dd6a1020e !3519  tick/broadcast-hrtimer: Prevent the timer device on broadcast duty CPU from being disabled
-f4801a05859617ad6bcbff04f9820d4e94a9e14a !3535 Bugfixes for RDMA/hns
-655a2be86dd3efacbc6fd88bd7c73ff1c58b5f89 block: warn once for each partition in bio_check_ro()
-062a070f912aed7df643f71200fd4a70aa5efca4 block: fix kabi broken in struct hd_part
-6dc3188454841fa393da0e886bca23a430fc9366 kernel: update SP3 OPENEULER_MINOR value to 3
-c9ec719fb094635be99b40a9182173ef53a4757e openEuler: introduced OPENEULER_LTS to identify LTS Release
-2670bf3007ddc2b115142b8594b3ee7dc72827f0 !3553  kernel: update SP3 OPENEULER_MINOR and introduced OPENEULER_LTS
-e1591d50fa736d39ee6050ae9143c8d4df1c9307 tty: n_gsm: fix the UAF caused by race condition in gsm_cleanup_mux
-22aabc99d95152c5db7053c91627caa45873064a perf: Fix perf_event_validate_size()
-59b4e4124ade82f3a36a0475d9d6babd7db99d66 perf: Fix perf_event_validate_size() lockdep splat
-bbae0caaad58b66a5bd0c4bcd5033aa7d625e55f ravb: Fix use-after-free issue in ravb_tx_timeout_work()
-9542c73a3dae25936a05eec701d2d7cd4e0abde3 ravb: Fix races between ravb_tx_timeout_work() and net related ops
-cf1ee1831fdfce9e2fe1ce17d5e24546dc4427b3 netfilter: nft_set_pipapo: skip inactive elements during set walk
-ee1817150bb0d1ee429e8198f00f2ad9d17ab22b !3617  netfilter: nft_set_pipapo: skip inactive elements during set walk
-e4c5860f68a9eb87c438f5447d43e300292912f0 jbd2: fix soft lockup in journal_finish_inode_data_buffers()
-6e409b9ddd9f6afe8ad85e31d230873b02687658 atm: Fix Use-After-Free in do_vcc_ioctl
-74e6905327e246eb25841866a275de9ef68e30ed net/rose: Fix Use-After-Free in rose_ioctl
-ff923ebba004707673b7428b030b7b261761b087 Bluetooth: af_bluetooth: Fix Use-After-Free in bt_sock_recvmsg
-ddef575091422884824e1c949e9bda2872d630d6 smb: client: fix OOB in smbCalcSize()
-3374bf64a6a17460b6f7c0591e39904f7ce1645a smb: client: fix potential OOB in smb2_dump_detail()
-ac8309ae0c6c39a7cb39bb9849cfbcea76c24361 appletalk: Fix Use-After-Free in atalk_ioctl
-08d96aa42e875d9566f81e37edf2b3f6df30717b !3379  md: do not return existing mddevs from mddev_find_or_alloc
-5e65e7d415f57590e02d4df894d23dd6f0cbc1b3 !3420  md: protect md_thread with rcu
-bffb3bc9c9b26578de046d250f17681fce9bed01 !3447  dm: add error handling support for add_disk()
-a7dc8eb59b5ae972d2a375e15f1a207d5d292151 !3272  x86/kprobes: Fix the error judgment for debug exceptions
-519be7d360672518c745078b5b971576997160ae !3459 reset idlest_cpu if not meet the conditions for preferred CPU
-9878e32876f9ff56ed81ae2b480dfc103a98e2e4 smart_grid: make sure hot zone have the highest priority
-4393c46c11a1660969199535ebe4abece914af3a !3637  jbd2: fix soft lockup in journal_finish_inode_data_buffers()
-6bc715d662f064cdee9a6423d8617bde9aaf37ed md: fix double free of mddev->private in autorun_array()
-9d321cf18049cf4cf90c6a1aa823a625094dff3a md: use msleep() in md_notify_reboot()
-acd79c2c9fd669b37f13e026cc0e8185f898e886 md/raid10: fix improper BUG_ON() in raise_barrier()
-2d046fe63657f94338d966f38b7db502b18dec89 md: convert to blk_alloc_disk/blk_cleanup_disk
-acd17df750d76b6ab1c2d664d9f1ae19262d50f1 md: add error handling support for add_disk()
-11d8b0e6db0ffa76c01ec2dc9b751baeea92d2d7 md: add the bitmap group to the default groups for the md kobject
-8999f7dfb81e51df1364827e73411b95e5d5afe8 md: extend disks_mutex coverage
-14f37d255f002f7bc20770cd7e8e55f150b897a4 md: properly unwind when failing to add the kobject in md_alloc
-ece14f9774b51a2235cadaf667cc751fd6336637 md: fix mddev->kobj lifetime
-da72f3d2b9fcbaa42d6df7a10b96c9c04838a5e3 md: Constify attribute_group structs
-6d01bb59a71cfc5d3b84745f38701f05d25dd5ca md: fix error handling in md_alloc
-5d6a5d50fe30052e5a94f908d3b20b669527238d !3715  appletalk: Fix Use-After-Free in atalk_ioctl
-e936844352997e181f05f206def4865a08e20c2a !3466  livepatch/core: Disable support for replacing
-d2dbfe812da68e487f76f69f391e75543ab08837 !3552  block: warn once for each partition in bio_check_ro()
-7af62ccc8d793b6c2ce8c76ae3a4225a24da228b !3594  CVE-2023-35827 patchset
-a74e7ec184c357d85154b8697b8d322b05113a7e !3686  Bluetooth: af_bluetooth: Fix Use-After-Free in bt_sock_recvmsg
-6cb3706de412ca52679d3ca5cd8dc1f82b4da9d4 !3480 drivers: net: ub: dev: network_mgmt: ip_notify: ip_notify: Merge the openEuler modification  suggestions.
-2380c87d399a1dba67c749bb4e1a720f989cf5cf !3668  net/rose: Fix Use-After-Free in rose_ioctl
-0f7dc69737e87ba938b5cc6297542177e62c3a87 tls: suppress wakeups unless we have a full record
-e2ed9e1d16f70f92e1308280681ab49d66a12ae2 ext4: fix uninitialized ratelimit_state->lock access in __ext4_fill_super()
-e2a9b819ab8cce2377fcf728eabcc134f25143eb Revert "sched: clear credit count in error branch"
-733bb2cd81bdee2f0f40e4ea1d92b5bc36a06656 cppc_cpufreq: get cpunum from fb_ctrs instead of smp_processor_id()
-8aa11dc8deeca7916a9fb6ef2d9425af0a12ba25 cppc_cpufreq: clean up cpu, cpu_num and cpunum variable use
-ce5a3a8e5973daeea8e96dc967208166c4918aeb cppc_cpufreq: use policy->cpu as driver of frequency setting
-081df9e145fffb08e2e176339cbbccf7afcf7c35 !3771  ext4: fix uninitialized ratelimit_state->lock access in __ext4_fill_super()
-474c3b024db14f03cf42fdb9397de0d173fd5cf2 !3659  atm: Fix Use-After-Free in do_vcc_ioctl
-7cb80924aaf184ee16aa796ab4848c5fe17fda6c MAINTAINERS: Update maintainers of HiSilicon RoCE
-a8542d921691f7d4956a8afc713c1d8f78289e9c MAINTAINERS: Add Chengchang Tang as Hisilicon RoCE maintainer
-2ecc3dae6cf09e899c79770fd7efffd98bbbc131 !3570  perf/core: Fix CVE-2023-6931
-e19e0e3e307623278f8bcb8d5ff7c455abac0ebf !3769  tls: suppress wakeups unless we have a full record
-4e0b6612cc9438d687fdeeaffc2dafa7e7f7523e net: hns3: unsigned value not need to judge to be less than 0
-49f3230c871aa0221f60e49b13d2bd1ea9d29c94 net: hns3: remove unnecessary variables initialization
-ef003ce053464c273c5e20c6ffe37d5078173934 net: hns3: set the freed pointers to NULL when lifetime is not end
-695becd47b5fb077a9c94080f467eca7ee89ff8f network_mgmt: Modified OLK5.10 ub compilation missing header files.
-fd403e84826a25f0337b533081d1f6e502e83ac0 !3811 drivers: net: ub: dev: network_mgmt: Modified OLK5.10 ub compilation missing header files.
-1587126a0f2a79b3ee6cb309bbfaf079c39eda29 ext4: fix kernel BUG in 'ext4_write_inline_data_end()'
-97eef9762e765afaa1c44017c01806adfe9827f5 !3793  cppc_cpufreq: use policy->cpu in cppc_set_perf()
-f053e7c195d19c2790b9c6ec736bd0b76dcc4b5f !3822  ext4: fix kernel BUG in 'ext4_write_inline_data_end()'
-68648150621e66258f226c627b1304814a72e02a MAINTAINERS: Add Youming Luo as Hisilicon RoCE maintainer
-2c01c99cfe5dbf53a2cd3732aefe2ad533d27c83 openEuler/MAINTAINERS: Update maintainers of HiSilicon RoCE
-350d4b3a9f88e74125f6d2227205e2d7c865f9f0 !3694  Fix tow CVEs of CIFS
-76838c25d5037eb6a1ddfeaaee78aee67f4cd759 KVM: x86/mmu: Allocate pml4_root for guest PAE mode shadowing
-2807514fdbeffbcd1df44b139282f9a795205796 !3756  md: mainline backport
-164513e373945cd887d1451d9a47f6f03c70f37b !3804 MAINTAINERS: Update maintainers of HiSilicon RoCE
-a6e07e9f17304df066b63b53b2a2f9408e6a0efa !3810 Some cleanup and bugfix for HNS3
-fe7f595db4b991b7044d954c6fc735b1ed49c611 !3746  smart_grid: make sure hot zone have the highest priority
-046b0191c6c4f1cdfba27ea4bd1514533879b0d3 !3776  Revert "sched: clear credit count in error branch"
-f1fdfccad2273f7dcfb1749a8dde3e6195795269 !3562  tty: n_gsm: fix the UAF caused by race condition in gsm_cleanup_mux
-af2762708bd9a1dbfc138ce4087dc03c5a164f15 !3848 [22.03-LTS-SP3] Bug fix for KVM MMU
-960c2cc1333a26693416942ccde448e665572ec5 net: bridge: multicast: fix UAF of net_bridge
-d23b262c5d466b822570b7dc2b278158e6d4c864 nvmet: nul-terminate the NQNs passed in the connect command
-c8fb1865572bf4fbb864c3d0b172604a2f9dbc93 !3915  nvmet: nul-terminate the NQNs passed in the connect command
-d4784d04b6f36874cec63877ce596f777683f094 net: hns3: fix reset timeout under full functions and queues
-eacbff0c48cca4b6d87145609742adc7e7295450 hns3 udma: add support of DWQE in create qp
-67852ec0f7bb4a605b91342204b03debd35e5c71 !3925 udma: add capability of DWQE in RC mode
-6d9d4951bf741189c66627715d5ae8a8cf1df85f !3940 net: hns3: fix the cmdq reset command times out when all VFs are enabled and the queue is full.
-96f70fb853daf9400c3ee816732b9347f3db5c25 arm64: make cma=0 as default for openeuler
-1b1f50a7b636e0394b4347e141c6176980b837d2 !3972  arm64: make cma=0 as default for openeuler
-ed5f35130ad5655cfcad1003f81e5f3726ee8c46 ACPI: CPPC: Assume no transition latency if no PCCT
-5bfcd84f728d69b038861936da2c8df6898f0eec !3982  ACPI: CPPC: Assume no transition latency if no PCCT
-acbbc49d4e85e42a89af125619f914f8705b3a78 !3912  net: bridge: multicast: fix UAF of net_bridge
-4ab210f9ccc9d3718760515636ed70d628bcb49d !3418 [sync] PR-2918: fix some bugs in loongarch kvm
+766ab5dcac651bfbd3dbc2d3f85d463e5a3f4cfe fs: don't audit the capability check in simple_xattr_list()
+f153a1e5e708c7cf9607ad375bf7145060ababd4 SCSI: hisi_raid: support SPxxx serial RAID/HBA controllers
+18bfaaff840ac3186230b458c290fbc89b614a62 ip: Fix data-races around sysctl_ip_fwd_update_priority.
+8498a1c2adb9f951061bfcf227c78cc4d8c371cd ip: Fix data-races around sysctl_ip_no_pmtu_disc.
+579e1fbcf01640396a4b95f5f13d7b7a25063bb9 net: Remove acked SYN flag from packet in the transmit queue correctly
+5baa16e59e9fb415e78f0d3c3d4d3d0a28e4d4ae !3483  net: Remove acked SYN flag from packet in the transmit queue correctly
+edcaa01d217ce9a2a198cf537ca063acab13ef7f i2c: hisi: Avoid redundant interrupts
+d9d9e7a3e1eb24a786c2669c4a2e66e95cd2c299 i2c: hisi: Only use the completion interrupt to finish the transfer
+6e276f5595126a59429ea5e139bd2a78f2f9ef9f i2c: hisi: Only handle the interrupt of the driver's transfer
+57e15e4b79abb4485815e6d48c797988e5304c1e !3531 Fix kernel panic occurs during ISO installation on the 20.03 SP3/SP4
+e454b028dbeec0163c6b5cb79311d1269d5f793e net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
+09d5f548ff280a6b49855f3486ba86de4272c5c5 !3417  SCSI: hisi_raid: support SPxxx serial RAID/HBA controllers
+6763259e79e8f0e7a77b5850c42b8da3c336e393 ravb: Fix use-after-free issue in ravb_tx_timeout_work()
+c3a12f117bbf0053d0a4b9c8249658fec56f4bc3 ravb: Fix races between ravb_tx_timeout_work() and net related ops
+87de37bc789254093d61a824cb46ec4055ea3d85 perf: Fix perf_event_validate_size()
+8ab9ce3d61fdc3e96113f1464f60c2c49e876f34 perf: Fix perf_event_validate_size() lockdep splat
+6ec821f56b356d4556cda52162717ea1fee7a824 tty: n_gsm: fix restart handling via CLD command
+d354c17db63bdaf807841f27a64bd50a9f38f3c0 tty: n_gsm: fix the UAF caused by race condition in gsm_cleanup_mux
+6b9208d8155cdda3c32321dea35112bf5133339c !3606  perf/core: Fix CVE-2023-6931
+7a3d112c47c552deacf92e7328c8ba835bdda576 !3607  Fix CVE-2023-6546
+f451338c8882e8928f859dd15775e88ac196954d jbd2: fix soft lockup in journal_finish_inode_data_buffers()
+acc86fc91abb75cde54f5bf14e71c39c96ecc3fe !3449  Fix data-races around
+694d2102a2b446e62288b7e8527b91c6c34ae3a0 !3592  CVE-2023-35827 patchset
+114a7062059ac9c2e5288198dfa4db49f89b8507 atm: Fix Use-After-Free in do_vcc_ioctl
+c114dc3b1c27de451072c8dc0a18adb4646b06a6 !3555  net: check vlan filter feature in vlan_vids_add_by_dev() and vlan_vids_del_by_dev()
+d6754016ca1963bd1aa0d108dc59441426393fba net/rose: Fix Use-After-Free in rose_ioctl
+8e266ede52c419dfb66cbee9d0ef18e2ef02b8ce smb: client: fix OOB in smbCalcSize()
+d887e2c0cc072aafff3c3ecc15a5d09ce19b20d2 smb: client: fix potential OOB in smb2_dump_detail()
+15fd51ac4e8ff3d48c31a31f6475c5cfef7cbf79 !3189  fs: don't audit the capability check in simple_xattr_list()
+0e1a9c9eb569e18b2ba2dd8cbb46ee4c9fec595a !3627  jbd2: fix soft lockup in journal_finish_inode_data_buffers()
+f99278bcc7d3bcd69c36d34022b89df6625da93f !3671  smb: client: fix OOB in smbCalcSize()
+d09efbc6bdae2866e4abf440b2468ffdcd772d49 !3672  smb: client: fix potential OOB in smb2_dump_detail()
+4e6a2c5b37dac4644b979aef1b7cd4651c82d70f Bluetooth: af_bluetooth: Fix Use-After-Free in bt_sock_recvmsg
+27c99427ad69a8164fb178111fae896bc4aab402 !3687  Bluetooth: af_bluetooth: Fix Use-After-Free in bt_sock_recvmsg
+865c6290b939a76fdea2f2fc73e8a65b2c8a9ef3 appletalk: Fix Use-After-Free in atalk_ioctl
+67e00fea2727fb865bb97c394745abd2f4e457e1 !3660  atm: Fix Use-After-Free in do_vcc_ioctl
+64aa724221a4cf44632d84f04addc9ee6790ee6e !3667  net/rose: Fix Use-After-Free in rose_ioctl
+2d032cb803b88e2b762afac2ac25750a8d65640b !3716  appletalk: Fix Use-After-Free in atalk_ioctl
+96cb9cba485441c61725ff0f5c37af28cb1ec31b driver core: Release all resources during unbind before updating device links
+f8fd036c9f3e35f5c75e3748217ffcd129e8c5db devcoredump : Serialize devcd_del work
+c221b29d9d8d2aecee2c876f6328c9a011701156 devcoredump: Send uevent once devcd is ready
+40a1ac0857799f08d21dcf7cdf0f48467b15b68f !3757  Fix bugs from LTS patches
+8a4c9fc6bf0a0ce098f55b13f7d0c2521174cc6a iomap: add support to track dirty state of sub pages
+4bb3021a1ab12bd0b03c57dcbc1dcf4cba6f172f ext4: fix uninitialized ratelimit_state->lock access in __ext4_fill_super()
+1d4f07f1128c5d0b79a4a49fbbd91b47a39e53db !3770  ext4: fix uninitialized ratelimit_state->lock access in __ext4_fill_super()
+b2239f607df25fc401179e6dd4b7406f942a7632 net/sched: cbs: Fix not adding cbs instance to list
+0e4e78dd0dd0bc89f3419d3b463a1670e107b108 !3803  net/sched: cbs: Fix not adding cbs instance to list
+cf1d16ea2f1086c0765348344b70aa2361436642 ext4: fix kernel BUG in 'ext4_write_inline_data_end()'
+6ccec634461ef4d3a9c440dae75a468bebfab2c6 !3823 [sync] PR-3822:  ext4: fix kernel BUG in 'ext4_write_inline_data_end()'
+9d445bf0c0f39e9535f45b7df27997c99544d849 netfilter: ctnetlink: fix possible refcount leak in ctnetlink_create_conntrack()
+f6ffd92933f7d672215d9fd95a34edacb35663ce nvmet: nul-terminate the NQNs passed in the connect command
+19c82a7a105bf8f62de164ff150346a6dba44ecd audit: don't take task_lock() in audit_exe_compare() code path
+fe8847f77e607c2344028d0930ff807c817f196e audit: don't WARN_ON_ONCE(!current->mm) in audit_exe_compare()
+5843948433e873167a48807c8b770339e087ca6c genirq/generic_chip: Make irq_remove_generic_chip() irqdomain aware
+67c4ef1c9ec73b21d40881bbb25bd71ac3e690ae x86/CPU/AMD: Check vendor in the AMD microcode callback
+7978f9d75bacd14d31424b07c76d089efbcedfbd Revert "PCI: acpiphp: Reassign resources on bridge if necessary"
+cb154d931dbf5557db470c65f318472afe3e2ff0 asm-generic: qspinlock: fix queued_spin_value_unlocked() implementation
+6df6ed71d5115f3e89a9082ed2d5dee6214a5f80 arm64: mm: Always make sw-dirty PTEs hw-dirty in pte_modify
+be7367b3856ad2993e8ad3b198745e533fc744e2 ring-buffer: Fix memory leak of free page
+8377dd14ef90ea5efc8614cdbed71e2373d0dddc !3862 linux-4.19.y inclusion(4.19.299..4.19.303) part1
+c2ff4dad290b05eeee431b28940c45bba709b423 net: annotate data-races around sk->sk_tx_queue_mapping
+995f9b676121d9bb5ba7bdbed5eaff5a520397c3 net: annotate data-races around sk->sk_dst_pending_confirm
+48ed2d918cdfa244a00968c07ae66aa4cab62535 tty: Fix uninit-value access in ppp_sync_receive()
+7c47581ec5f55dd9c2a56cacbd8326bba5e0e367 ppp: limit MRU to 64K
+721d0e461ab68752795725538b4932f48390dc57 macvlan: Don't propagate promisc change to lower dev in passthru
+8652ced73c049614cff4bf5d3c088f277f498f5b net: sched: fix race condition in qdisc_graft()
+3aeffaa97e95ef1dca6a944b4c55e44dcc02e0d7 ipv4: Correct/silence an endian warning in __ip_do_redirect
+718b1164e222ec328aa40d8dfd721d9bd8e0153e ipv6: fix potential NULL deref in fib6_add()
+70b09f35281c06521fcbc0b5231ac2aa12e0edd7 ipv4: ip_gre: Avoid skb_pull() failure in ipgre_xmit()
+6acca9b1e016c2dfed990de4a5c1c704b2dd0e4a tcp: do not accept ACK of bytes we never sent
+b2486f8ad86218b034ccaf37fe882f676cc9d122 packet: Move reference count in packet_sock to atomic_long_t
+ff206ede930b650392cdff9a57cccd69f1a0f078 team: Fix use-after-free when an option instance allocation fails
+1a402e69eb295a9fb51e96d7ba3b494a93152ee5 !3863 linux-4.19.y inclusion(4.19.299..4.19.303) part2
+0887d88e45f75310bd6c4c3f5ee208b1b417fda5 !3847  nvmet: nul-terminate the NQNs passed in the connect command
+d0555ff642e8d94f8a18d43deb6bd2cce292707b !3845  netfilter: ctnetlink: fix possible refcount leak in ctnetlink_create_conntrack()
+9b8b6ad39cc58aa26fb70284f482daec61e17c22 !3768  iomap: add support to track dirty state of sub pages
+2619a304558621fd79c73977c6219612ac2a96d0 net: bridge: multicast: fix UAF of net_bridge
+1f0983450549eeea71fb9333517330947a779262 !3923  net: bridge: multicast: fix UAF of net_bridge
+7d47c65543f88aef0735a27ce4bcf6521db2591d crypto: hisilicon/sec2: fix memory use-after-free issue
+deb75da8f1505a151af1f1e86c99df8e4c96a1ae !4006  crypto: hisilicon/sec2: fix memory use-after-free issue
 
---===============5637886089800651757==--
+--===============3285415119446960921==--
