@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3934715945693243109=="
+Content-Type: multipart/mixed; boundary="===============0333391363312550707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 17 Jan 2024 11:26:20 -0000
-Message-Id: <170549078018.21788.11615371826501276792@gitolite.kernel.org>
+Date: Wed, 17 Jan 2024 11:26:21 -0000
+Message-Id: <170549078172.21856.953926036684141737@gitolite.kernel.org>
 
---===============3934715945693243109==
+--===============0333391363312550707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,79 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: abc2dd6a248d443c27888aee13cfefd94c3f7407
-    new: 68e48239fdae9aba74f74a72923c7999a66302a0
-    log: revlist-abc2dd6a248d-68e48239fdae.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 9153fc9664959aa6bb35915b2bbd8fbc4c762962
+    new: 4971173024fcf01cfca3b999908c72a59dfe0c77
+    log: revlist-9153fc966495-4971173024fc.txt
 
---===============3934715945693243109==
+--===============0333391363312550707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705490779 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705490780 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1705490778-485b5e3dc830403f1a7abcc8cebcfceaa4d6544b
+nonce 1705490780-28562d75141f8d36c411e36993a839c438eab179
 
-abc2dd6a248d443c27888aee13cfefd94c3f7407 68e48239fdae9aba74f74a72923c7999a66302a0 refs/heads/linux-4.19.y
+9153fc9664959aa6bb35915b2bbd8fbc4c762962 4971173024fcf01cfca3b999908c72a59dfe0c77 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWnuVsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uJ4P/0d5hWeMRjU+jDQEcDa3
-n6pbXrgP4bNhAlnMR/GXd1tmvw9bgwHf9Gh9dEgX/t0/Vu1D37og7E6SsoWUcmCq
-rg6B1smwiJfIrwDsmgTTRFnLv9SoJ/ka3pj47cNhnvA+Uy8/PTZkPRG7/uBOsZHF
-VsUjaVsTHrHOf/Y1MU2ttgotWdORWhA6LE3YO6r6nw8i4s8h8BanaiG/Y64kMlml
-BZ0W/hzIDcx9udMdKFo/V9w2o9kaDpG34fE21SNbjCXHFU/lfN2RWY7VvBJYvIv1
-3APFNnb/BxSuZXFWq6yAXROIK9nRLGIdrPsUbjKx9MDOYsB+d5leAm/6K9JlKvU0
-wjHNDW1DcGG3cbd69SZ4IvS7H/oiUBff4ZQ6Y82h+Or2uCNVjoLYaRVaOxlGmCx9
-5Kq1c78ozpvnyKCCJ0B6KjvCUysAKlLU/pg3Aqu+xpxVDIceEIQxRrbOhfedBUXr
-E5OMTWHBb8oLULf1iCpMta2KJkWwu6JN34GJKv50cSFdJ+vGPU35ZSO39ZFuIQoB
-Cx8B9L9xszrs96CkNJLrD4iozUcrDWO4kdt6it8ITjMZU81FZSDazTiAuZ3Ryn9t
-3K2XO0VTwCHS3rs40UgMbyjajqAzPruDK1cKJ02rCc21LRzxf2kpR1yzewX9m/wt
-u63nf4tOMlrR7fH7TZA0MkzC
-=6Y5W
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWnuVwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V64P/jfOkU1eUZCZSmfgMHBp
+IE/azprM4Rp8MXvQvd2yuj4QJxM69uaLiRq7nMKi9noPKDOwktdmO+8A5K0PyPxR
+UuFItSOVgxI9VBe0muxODzX6yU0091sA34tepnNja8tJsf6wn65Wk5Ic3JI0qugb
+QeWRTuU49lun70bdvehcGgfzumLxi7W5kiqueE4GTUaplQg8z6FWXJVgit5bZ0Sa
+LdpFkYD8Oz5mlOyd6v7CAsM/AdFtBqzWGfxCtNY+aycdA/thuR2D7hdIooNrVx1q
+NJ52SZ2TzkrFSzXsG38KJThcvdVtfny36WOMuJjm/s7UPCDiknMm5E1kfXVativT
+4dHksZksrvWI32D1RUNaVlGl+lA6qsEd0vGt7f38R7+fKiuwP/P0Lde1mXfLvCeO
++Jrv6ai+ag/tM7gCDHRQNXVyWxux56ahxTGHgRU9N0BUHBonRCZU56HTt1nUUSm3
+trGp0nRxq1kfKSefuUWijj4JjAu4OttZNFk1l7RHBfk9TmlJWXq0+wGL+Wjkxcs1
+CwZC4+54MMpI7IX9kQx8yURJSL0cBdqhLYx6VJmwUIobw42EHYCxqunYJ3jwmstz
+qMyf+sCXETzYfLmVLcPYOJhjq50kkk6TFpGoCCNFNW7or7VWbDW1Voh7GBR6hkfs
+iszhacVXq9QWnR7n/rn4JfKu
+=kvlt
 -----END PGP SIGNATURE-----
 
---===============3934715945693243109==
+--===============0333391363312550707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-abc2dd6a248d-68e48239fdae.txt
+Content-Disposition: attachment; filename=revlist-9153fc966495-4971173024fc.txt
 
-6a6fff74b8eb4db0982d19db48b31c0f62c98abd f2fs: explicitly null-terminate the xattr list
-6a235aff216fe5c509ac828f96e9679d87f75891 ASoC: Intel: Skylake: mem leak in skl register function
-d173ba8bd829bedfd5dfda6cad7db65c3f303b68 ASoC: cs43130: Fix the position of const qualifier
-c040caf41237cea6423215247b88390158313029 ASoC: cs43130: Fix incorrect frame delay configuration
-fff554b40efb5ff96441fa06739d10da6fdba251 ASoC: rt5650: add mutex to avoid the jack detection failure
-1ad96a881cae99412ed08087557a7624172c55a7 net/tg3: fix race condition in tg3_reset_task()
-f805afdcf768eda3e0e3b29ef66be7a21da27cc6 ASoC: da7219: Support low DC impedance headset
-53a05c0a15a6ad4f8aee256674b48c431e8f862b drm/exynos: fix a potential error pointer dereference
-0d76359883ad86d072a266dcfa7d19eebf9adc8e clk: rockchip: rk3128: Fix HCLK_OTG gate register
-831d5ed7d078f7256a5c11d281e4dd810fac6fe6 jbd2: correct the printing of write_flags in jbd2_write_superblock()
-40f7824f74cb8412afa77ef89d5dea1d5890dd26 drm/crtc: Fix uninit-value bug in drm_mode_setcrtc
-39cc816ddc34740ca5711604504048e93af2d872 tracing: Have large events show up as '[LINE TOO BIG]' instead of nothing
-d59dc5bf8b0566b2b7c103711007bcc3c931f1e4 tracing: Add size check when printing trace_marker output
-b556afe89a992cd5dcc35058aa4e1fa5f15efae3 ring-buffer: Do not record in NMI if the arch does not support cmpxchg in NMI
-1dea841681328b7e00e7f3fb00950ffb7a334c2e reset: hisilicon: hi6220: fix Wvoid-pointer-to-enum-cast warning
-d95de0c9c615bc02911817be68a07e2f5acda768 Input: atkbd - skip ATKBD_CMD_GETID in translated mode
-836eda5edaff7929b2474715c0704e2457019d02 Input: i8042 - add nomux quirk for Acer P459-G2-M
-1de4944d53c24afda60267e8a70b463cca5ab2af s390/scm: fix virtual vs physical address confusion
-ef758e4410f08df281082571ca9beb7e58674f5a ARC: fix spare error
-a84da702291fecaa55866216f61cda118850c524 Input: xpad - add Razer Wolverine V2 support
-a38f23c9aa32e0ef90083ec981768ef976b23f8c ARM: sun9i: smp: fix return code check of of_property_match_string
-089764f77fa0e31bb3950d9d58d0c6ff5c92fefd drm/crtc: fix uninitialized variable use
-68e48239fdae9aba74f74a72923c7999a66302a0 Linux 4.19.306-rc1
+d9951db9df60c19dce5fc4361bf80465c81be2ef f2fs: explicitly null-terminate the xattr list
+2da5d5282c2a549f0e51d03ab775c24a0e5e2742 pinctrl: lochnagar: Don't build on MIPS
+877d68881cf61ba105119774dc551b5432988b66 ALSA: hda - Fix speaker and headset mic pin config for CHUWI CoreBook XPro
+0aff8ab035ee61965245ea87fc474abe601b42f9 ASoC: Intel: Skylake: Fix mem leak in few functions
+548517e894f6dce65973199d8232e7f13bedd1d6 ASoC: nau8822: Fix incorrect type in assignment and cast to restricted __be16
+1ec050329cc773161df41a50ac7531c46df6d7e5 ASoC: Intel: Skylake: mem leak in skl register function
+4ad6b9acfe5f41faa2c287729af736bb100764ba ASoC: cs43130: Fix the position of const qualifier
+26564c8a8c59a7f49174759df10b04b675a2187d ASoC: cs43130: Fix incorrect frame delay configuration
+5f79d4218061f2be1f0ccee16682fbbda3abffe1 ASoC: rt5650: add mutex to avoid the jack detection failure
+2ab4d268bb81e515447f2fc478bfe16bb25a9883 nouveau/tu102: flush all pdbs on vmm flush
+f32dfb09a749aba6d3c1e1b4cc782f44348da972 net/tg3: fix race condition in tg3_reset_task()
+fd18fd442be09e5c78774582553f66e4c71061b4 ASoC: da7219: Support low DC impedance headset
+308715deaca0e34af6f932c02cf2637b784c63e1 nvme: introduce helper function to get ctrl state
+003287131924bb448ca4cb06dc79889d9c217562 drm/exynos: fix a potential error pointer dereference
+ecb3e98c86acee63730bd40b3bd4143c2026ba9a drm/exynos: fix a wrong error checking
+25052d65db2bc513dabf10cc948eccc85baa9aaa clk: rockchip: rk3128: Fix HCLK_OTG gate register
+ac05ca5358dcfbf8f219ed69051c294cbaf05d35 jbd2: correct the printing of write_flags in jbd2_write_superblock()
+13c7e160a1608d88c85126a538b349fda416a16f drm/crtc: Fix uninit-value bug in drm_mode_setcrtc
+007dd4cf25c08fc135fc1c9cbba8df9f0fa44ad3 neighbour: Don't let neigh_forced_gc() disable preemption for long
+d8530906d108f9df949891cf08ed6f76f93faa29 tracing: Have large events show up as '[LINE TOO BIG]' instead of nothing
+e291f66168c5a0322424293b9c6ed02c2a5a0230 tracing: Add size check when printing trace_marker output
+eb20c91acf7a8198ea60a5917076b8d52cc73578 ring-buffer: Do not record in NMI if the arch does not support cmpxchg in NMI
+0feb7fc4487a01c1c43534b5f7377daf2a9f2966 reset: hisilicon: hi6220: fix Wvoid-pointer-to-enum-cast warning
+a7d141e08e302acdefb38803c245f714d5abc21c Input: atkbd - skip ATKBD_CMD_GETID in translated mode
+381562f0c27ed440995251154412bc3c67bcf529 Input: i8042 - add nomux quirk for Acer P459-G2-M
+91ffd86c78daf08860cb336169baef6cd9846918 s390/scm: fix virtual vs physical address confusion
+bdf6c2657a83fda3b44cbf8edfc713cd3ae871db ARC: fix spare error
+e22b6c8011892ca910e09ba6e780501b61ca6b82 Input: xpad - add Razer Wolverine V2 support
+6e051c7ec7c9192f35534510f5916719f9d4039d ida: Fix crash in ida_free when the bitmap is empty
+0f8b4e6fde1bcc27278be208f78019a166f0c250 ARM: sun9i: smp: fix return code check of of_property_match_string
+87b38930d696c51b53ef43ac4b8e09e8455bd6f9 drm/crtc: fix uninitialized variable use
+d4a42dcef2c1d3bdb2801d956c2048190205e390 ACPI: resource: Add another DMI match for the TongFang GMxXGxx
+4971173024fcf01cfca3b999908c72a59dfe0c77 Linux 5.4.268-rc1
 
---===============3934715945693243109==--
+--===============0333391363312550707==--
