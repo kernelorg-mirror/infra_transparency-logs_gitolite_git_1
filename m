@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3435308465835255929=="
+Content-Type: multipart/mixed; boundary="===============7039459234936918976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 17 Jan 2024 20:09:08 -0000
-Message-Id: <170552214832.11428.16583768289385927725@gitolite.kernel.org>
+Date: Wed, 17 Jan 2024 20:09:23 -0000
+Message-Id: <170552216385.11600.13493494957645464733@gitolite.kernel.org>
 
---===============3435308465835255929==
+--===============7039459234936918976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: b0d536104ea7a23bd738964b346e71d4fa62d31f
-    new: 6e03d74bc146a66ac950b9c98b4b81eda78e70f6
+  - ref: refs/heads/6.8/scsi-staging
+    old: 83ab68168a3d990d5ff39ab030ad5754cbbccb25
+    new: 7d1ae55ffed0ff78ed33b1465c1233e05024e135
     log: |
          658365c6b0857e6a306436e315a8633937e3af42 scsi: isci: Fix an error code problem in isci_io_request_build()
          d6b75ba5218915be48542bcd7e2a09776b7c66c9 scsi: virtio_scsi: Remove duplicate check if queue is broken
@@ -26,33 +26,33 @@ changes:
          7d1ae55ffed0ff78ed33b1465c1233e05024e135 scsi: MAINTAINERS: Update ibmvscsi_tgt maintainer
          
 
---===============3435308465835255929==
+--===============7039459234936918976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1705522136 -0500
+pusher 75C5DE3D 1705522151 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1705522135-5c290b2f2b9ef64e5862643b23dd9889849d2292
+nonce 1705522151-abe55bc00d28abcc24e1a40298c80ad2704f2569
 
-b0d536104ea7a23bd738964b346e71d4fa62d31f 6e03d74bc146a66ac950b9c98b4b81eda78e70f6 refs/tags/mkp-scsi-staging
+83ab68168a3d990d5ff39ab030ad5754cbbccb25 7d1ae55ffed0ff78ed33b1465c1233e05024e135 refs/heads/6.8/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWoM9gACgkQ7ulgGnXF
-3j2BxA//TfzSGSXm8izc3+u4q4pCgnSIfxh71C8itQhgOVnu/0IhtshR+R4fo/2+
-eaaijtSs+t3FhQ6JP1eJpBlYOL5t9oLom6RWZgnzQ9wQOmZvPerH70VK0u27LAio
-T+WE7cZe9Cl2eX6d6aRog9O/pNt3kYVsIsjkiH1u31dBG5i+wYEcExOZRy3Mtf/n
-QBsOdBHtVk+qV6gO4rOg9mZGL6/3EOnW2jnL0xO9tk502eLWXgoRA7c0asT6iRZB
-4UTEWbqV0ZS1Oqr5pgPABHd5lomNygDD0SnmqKV3sZPeS22rKCd42eNwkdOcye0k
-gzhpg7MCRu3KzXpqZ4z11m97/jLGcSsc/NBgvcoPESe3XGLNCNKwT+HWoNekA2F7
-WtQxqQKrSIRnJP3soNOEfVqGeGBGAbdbRg9qB6lC0f/8GiI0DBNZDI5FBcOyqHuH
-gsM0Y2+wOWqwaj3+JrkFVV2tW5wd3qh8T1CrVw4R6d33C2L175F9a29P0qLtaO+k
-UGA8Fi50KBjxys7fFukeG/9+DJwVe2AvEqVBq3P6t+qETVlfZ5tmDRxOT2zbHNNh
-niHjfGJAhDC9vd8qCTWSri7ENUMUXvo/FefqpxL0TpswsN7Qm8hsnCtm2MPusZwn
-F4ww1bDKEtu+pGCZ91I2TaomOm01hJuuoZ1BtX7CpfgFLM9pjkg=
-=v7ci
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWoM+cACgkQ7ulgGnXF
+3j2soQ/+Ju7wJ+AEwS9QClBWbKkT8gbmdlo+PuYf2Dv1HmK7WmEeGM15HbHGWSMd
+jJNiXvHyjHp8LU0pN3eeDdyOvbhNaCe+a5MQN7pWWC4vmnGaEJtd+F2W/44D8LHb
+X/nrRFGc9XwhgCmzSX/OkiGKzBZVMuct0Be4BzF2GewVwCRsrkQGxJOQ8aa0gM/C
+5TFd1xrt9Hmv3OdJSu/nsIkfQ0NS+er36x1mE9WK7vi17p1DVJlNgaZSXJc8v9D0
+xLrMNs2fuIxxtArO5KnGDBSK0mgJUdcj6HsuWdJROCJIqgl2KF1IeArCBTT+khGC
+TRc0pIawYGnlNil1JFqDEkzZNJXjGrVBjkThurKRsp9Ldz+EON0j3bM8hf0p1vT6
+ruemvMpWcEZyxtuAxEO6aa6Iy++N+Vz/GFdcnZVHQurZ5/LAi8Yq+Yilsf15OLRe
+kTyleAb7RrJM8uODc37tgpirMJuVck1Iv9O0aC0yyYW/Uu1OGBXRSTannyXDIpnE
+3patdHQwcuWwP3lRiUOlxvnnC1QxNuHyHChT1gnmvX91qzX+Z/gOBCvyKulka8jq
+ezn4Qf1HvyWGRs/5mPwEdHi2I+wziIG2Apy8F2CmZcWruyBHNauJzzBNwtPSgDck
+izuu4wt7q4Omfs1ausoMsMs7a/GyxAneWTI/qzb7Y7QzA4Y/Guw=
+=UBy3
 -----END PGP SIGNATURE-----
 
---===============3435308465835255929==--
+--===============7039459234936918976==--
