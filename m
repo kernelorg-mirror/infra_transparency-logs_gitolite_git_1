@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 17 Jan 2024 10:56:07 -0000
-Message-Id: <170548896711.31464.9917630796118226582@gitolite.kernel.org>
+Date: Wed, 17 Jan 2024 10:56:57 -0000
+Message-Id: <170548901723.31816.17376445720050990041@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: c2945c435c999c63e47f337bc7c13c98c21d0bcc
-    new: c0f5aec28edf98906d28f08daace6522adf9ee7a
+    old: c0f5aec28edf98906d28f08daace6522adf9ee7a
+    new: ea937f77208323d35ffe2f8d8fc81b00118bfcda
     log: |
-         c0f5aec28edf98906d28f08daace6522adf9ee7a mptcp: relax check on MPC passive fallback
+         ea937f77208323d35ffe2f8d8fc81b00118bfcda net: netdevsim: don't try to destroy PHC on VFs
          
