@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-Date: Wed, 17 Jan 2024 15:04:34 -0000
-Message-Id: <170550387473.18254.15104624190566403388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Wed, 17 Jan 2024 15:42:17 -0000
+Message-Id: <170550613740.14483.15533407069421019505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
-user: jlayton
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/fixes
-    old: f6783a78c43a2040ea332351d54c4aa7860fbb60
-    new: d45fe78f07f1bc2843b3af3956ecce5b3994227a
-    log: |
-         8e3a44a2f636570fdccaba344075a159744462d5 common/rc: NFSv2/3 do not support negative timestamps
-         d45fe78f07f1bc2843b3af3956ecce5b3994227a generic/089: increase the lock timeout to 300s
-         
+  - ref: refs/tags/nf-24-01-17
+    old: 0000000000000000000000000000000000000000
+    new: dcd84eb79811e4c33e587c06555ef4bddf4d209b
+  - ref: refs/tags/v6.7
+    old: 0000000000000000000000000000000000000000
+    new: 06f0875049ac2d11eb48273d04d0a6800c52abf5
+  - ref: refs/tags/v6.7-rc7
+    old: 0000000000000000000000000000000000000000
+    new: adab409b5eb1c5905c260f74c75725db3da46e38
+  - ref: refs/tags/v6.7-rc8
+    old: 0000000000000000000000000000000000000000
+    new: ff16c06a1757247b456096cbffeedf4ef5621ba4
