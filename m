@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4517528212302852298=="
+Content-Type: multipart/mixed; boundary="===============0139809625906928991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Wed, 17 Jan 2024 16:56:29 -0000
-Message-Id: <170551058905.2923.4368879116360469451@gitolite.kernel.org>
+Date: Wed, 17 Jan 2024 16:56:32 -0000
+Message-Id: <170551059283.2993.15982527905113606546@gitolite.kernel.org>
 
---===============4517528212302852298==
+--===============0139809625906928991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,61 +15,59 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
 user: colyli
 changes:
-  - ref: refs/heads/openEuler-22.03-LTS
-    old: 9e8286c8ef68d5bd78b56cc4d03ab73cd89ec13e
-    new: 90e6333993aa8f758c0436d29d9a0d5f5e85e3ae
-    log: revlist-9e8286c8ef68-90e6333993aa.txt
+  - ref: refs/heads/openEuler-22.03-LTS-SP1
+    old: 1686287aea43fed47190c80e55b4852b9bbe7528
+    new: 8ce94f2bdb3146c8d31e902a99d69f742116ecb6
+    log: revlist-1686287aea43-8ce94f2bdb31.txt
 
---===============4517528212302852298==
+--===============0139809625906928991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e8286c8ef68-90e6333993aa.txt
+Content-Disposition: attachment; filename=revlist-1686287aea43-8ce94f2bdb31.txt
 
-89997c51a089e957f54ad6d313c3d4dd5f127c04 loongarch/kvm: Modify the kvm code style
-c2361d3aa3a61a05e4282c353766d92fd888ccf1 perf: Fix perf_event_validate_size()
-5564312dcccbf6b98eeb413bd695e243816e0979 perf: Fix perf_event_validate_size() lockdep splat
-514791dd0524a3907eb64997b661d4c9efa646f9 tty: n_gsm: fix the UAF caused by race condition in gsm_cleanup_mux
-5330bb22c0c0e967a28e6ba98fffb2895de3b83e !3580 [sync] PR-3577:  perf/core: Fix CVE-2023-6931
-3df640002f618918204cabdbf2bf7acbb7aedd27 !3583  tty: n_gsm: fix the UAF caused by race condition in gsm_cleanup_mux
-204c04842739f79a0896d8624fc8c7ad7a728103 netfilter: nft_set_pipapo: skip inactive elements during set walk
-2cdbab2f684062ff019de2d17c49d7d2c268efba ipv4: igmp: fix refcnt uaf issue when receiving igmp query packet
-b687cb249cdee3ff4e402b8bc9628ca66fdfe992 !3621  netfilter: nft_set_pipapo: skip inactive elements during set walk
-31f62ae8302e10cde93d7c2f9083e854718d9275 !3624  ipv4: igmp: fix refcnt uaf issue when receiving igmp query packet
-fc7c6a957cbafcc782745aef357f88e1dccedf2e Bluetooth: af_bluetooth: Fix Use-After-Free in bt_sock_recvmsg
-9f1433c223320bc9c0309e34aaf340f66b4fccdb ravb: Fix use-after-free issue in ravb_tx_timeout_work()
-bd061b2a8547a51cd24533e1e38d88e41848e284 ravb: Fix races between ravb_tx_timeout_work() and net related ops
-e801687f02e0bfec46d6a03ce332563a52143898 md: factor out a mddev_alloc_unit helper from mddev_find
-28a90e4bf0b91e13f7d369c9ba01ee75a92e5ca7 md: refactor mddev_find_or_alloc
-defad9b0ddccbbaadc689af8df20503f1f7fad98 md: do not return existing mddevs from mddev_find_or_alloc
-250e4b92ddde22ef33cd4c9296ee5acb11dd2b6e dm: add error handling support for add_disk()
-b468f0e76ad2a26ff6ee595150b5330ebe08f6d5 md: factor out a helper to wake up md_thread directly
-cd58a25bef021395dee9f1831c07bef9ce676d66 dm-raid: remove useless checking in raid_message()
-31dfd208476f49bbbbbb6262e03670f32d29146c md/bitmap: always wake up md_thread in timeout_store
-3aae4f2bb7549ca3077b0e29b685f6eb14726d36 md/bitmap: factor out a helper to set timeout
-ee988c0e2b924490ff9cfd76cfa1c511c8d52e6c md: protect md_thread with rcu
-5999bf22c0aa47435938d4b73e3dfa33d0b2c4c6 ext4: fix uninitialized ratelimit_state->lock access in __ext4_fill_super()
-d8cba99ff077e53728c6fcc884b217b597186c6c atm: Fix Use-After-Free in do_vcc_ioctl
-4227cbb663041ad2f6243005567d8f5ec99751b0 !3778 [sync] PR-3379:  md: do not return existing mddevs from mddev_find_or_alloc
-f075a16d45b1995e859c8d74493d4afa9bee7564 !3780 [sync] PR-3447:  dm: add error handling support for add_disk()
-57120a6eb8737a9f90aae2c9bced74aa0cb71fc1 ext4: fix kernel BUG in 'ext4_write_inline_data_end()'
-3f361f455a2f1ded5b8f1fb88c73e68d8a1f6a95 !3794  md: protect md_thread with rcu
-01620604b3280ebd59937b677c275a23447063e0 !3824 [sync] PR-3822:  ext4: fix kernel BUG in 'ext4_write_inline_data_end()'
-95982be1aa8140f22bbb90b0edf3e6644167f729 !3799 [sync] PR-3659:  atm: Fix Use-After-Free in do_vcc_ioctl
-737f2e0876ac57d8037ec428dbf678cc7c31767b smb: client: fix OOB in smbCalcSize()
-49c9eee9faf935285424c8b5c04e7926d2a1c028 smb: client: fix potential OOB in smb2_dump_detail()
-f04289acdae57aa4066adee541dadd70b062ac88 !3773 [sync] PR-3594:  CVE-2023-35827 patchset
-e71480afe49b6358d7ebf336271ef0b41f10caa7 !3853 [sync] PR-3694:  Fix tow CVEs of CIFS
-648d973544dabdff9f2b91de2d8e78dd859a32e6 livepatch/core: Disable support for replacing
-6413d6a73cbb6d19f5267e765d509bbfe8d2ce48 !3924  livepatch/core: Disable support for replacing
-7ad60fad84f43114cf7d09a27cc97ec2d4f1f3c2 nvmet: nul-terminate the NQNs passed in the connect command
-b2de40b3f0abab1ede35a96f4fb33ec4b96c30be appletalk: Fix Use-After-Free in atalk_ioctl
-07b30bbe56d5e91017ef634f5a4ce1d463c9ba98 net/rose: Fix Use-After-Free in rose_ioctl
-f9bed99904d48a8ddfa34f689e9b53cd96358f2b !3763 [sync] PR-3686:  Bluetooth: af_bluetooth: Fix Use-After-Free in bt_sock_recvmsg
-30ff9745550e19dce40ab5bcea40e8a77bfa233f !3795 [sync] PR-3771:  ext4: fix uninitialized ratelimit_state->lock access in __ext4_fill_super()
-3988d4f85240856551ab2d76fb9768a8db5b0fee !3983 [sync] PR-3915:  nvmet: nul-terminate the NQNs passed in the connect command
-d44625878b093e93d8b3329bad59c7679091e11d !3416 Modify the kvm code style
-0c5d5a0682f22ea98efdbb067e01cd58bf3ae88f !3989 [sync] PR-3668:  net/rose: Fix Use-After-Free in rose_ioctl
-90e6333993aa8f758c0436d29d9a0d5f5e85e3ae !3986 [sync] PR-3715:  appletalk: Fix Use-After-Free in atalk_ioctl
+e948268ed32b0740b90f4a23d610cc6ae0324952 perf: Fix perf_event_validate_size()
+8fcbefb71f7aeb01f1948ab9e87d2aff0b0f7d9c perf: Fix perf_event_validate_size() lockdep splat
+5866e646a23a51af7b17e35eb0ff53670c08e326 !3581 [sync] PR-3577:  perf/core: Fix CVE-2023-6931
+e1949f278648c28cf47b0ea56711f5e56d1649f3 tty: n_gsm: fix the UAF caused by race condition in gsm_cleanup_mux
+042ecd415ae317d3672c112210e537dbd125c570 !3595 [sync] PR-3583:  tty: n_gsm: fix the UAF caused by race condition in gsm_cleanup_mux
+4a58d7408c1ba92e5cf5d6c01c842cad6c982218 netfilter: nft_set_pipapo: skip inactive elements during set walk
+35705cbaa47e153d9b5dfa9572f84ee4dd18eb0c ipv4: igmp: fix refcnt uaf issue when receiving igmp query packet
+1be017fad00b66feaad8d23ac259d3e0d9189b95 !3622  netfilter: nft_set_pipapo: skip inactive elements during set walk
+8008dd0f15dc26e7e0f265fabfab4663e9e7299d !3625  ipv4: igmp: fix refcnt uaf issue when receiving igmp query packet
+1a6b0c0d9e967b3c1829292f32077c0d4096e29f ravb: Fix use-after-free issue in ravb_tx_timeout_work()
+0daceb84b27b0b8904d567551aabf63efce6b23c ravb: Fix races between ravb_tx_timeout_work() and net related ops
+146c0fe2d5065c8967342869f1cbd0852dbec7fb Bluetooth: af_bluetooth: Fix Use-After-Free in bt_sock_recvmsg
+f44c3efd4761514b8c9935a3323a7981ae32da00 dm: add error handling support for add_disk()
+cc61706aaa6803c3d55d2bb3df9871cba70586a4 md: factor out a mddev_alloc_unit helper from mddev_find
+80b5619e5d9fa4d982a1ef0971e3066bd8e16866 md: refactor mddev_find_or_alloc
+70a5b0293ca81f6a460a3a108f24eb1894c7743d md: do not return existing mddevs from mddev_find_or_alloc
+13eb2f33da08aace99802c41e2969efeeaf4796e ext4: fix uninitialized ratelimit_state->lock access in __ext4_fill_super()
+8f7906005730f92691b132c5152caccfd84393ac md: factor out a helper to wake up md_thread directly
+e5af7a13d3e6054ea00c94ce8b2f3d333df10283 dm-raid: remove useless checking in raid_message()
+dc18fbe09e6041e35d22c355cb04b563341ab6f4 md/bitmap: always wake up md_thread in timeout_store
+aa3a8624fe5ef9066bfabb11b069c3d1f0cac0f0 md/bitmap: factor out a helper to set timeout
+87e47df1946f8aa41613937b7f16175dbac074b3 md: protect md_thread with rcu
+c6778e51bd76373f1afdb6bc8108a37fa73db34b atm: Fix Use-After-Free in do_vcc_ioctl
+e8709841416eda1f53e61e5c57020c75a2747008 !3783 [sync] PR-3379:  md: do not return existing mddevs from mddev_find_or_alloc
+aff5e72bfe08b4f1a8bead312b78415ecff9fccf !3781 [sync] PR-3447:  dm: add error handling support for add_disk()
+4cc6bb513fe40dc52ad6d544dcafef2cf5832e35 ext4: fix kernel BUG in 'ext4_write_inline_data_end()'
+d03a2a1e28cda14f3a002001d5b7ec773a456578 !3798  md: protect md_thread with rcu
+2ea2c90a51b5ad7d57cd16e03f0ad897dea54914 !3825 [sync] PR-3822:  ext4: fix kernel BUG in 'ext4_write_inline_data_end()'
+47752a8d242bfbeaf2c7a4fb8f76b126873e63a7 !3800 [sync] PR-3659:  atm: Fix Use-After-Free in do_vcc_ioctl
+66f923e5619b6a025d33f955ec3d633e76c86a1c smb: client: fix OOB in smbCalcSize()
+e7dace67e1520f30ac2cdf75f2cfac5d8553ba6a smb: client: fix potential OOB in smb2_dump_detail()
+99cce59a4e3063753e2c34f56933046a362aec1c !3765 [sync] PR-3594:  CVE-2023-35827 patchset
+bb4990857991eb1fc42ead855a3bdc3c443e0adf livepatch/core: Disable support for replacing
+32f8668125ade567d3ca3050115837c0d2aca4ed !3854 [sync] PR-3694:  Fix tow CVEs of CIFS
+340c56df89a6f0a541a2147e67a8b744449e2176 !3878 [sync] PR-3466:  livepatch/core: Disable support for replacing
+8cecea18eeace08978a2b6991edaf5405462ff17 nvmet: nul-terminate the NQNs passed in the connect command
+106e5ebc670b97ab7f5275ddad088ebf4322c019 appletalk: Fix Use-After-Free in atalk_ioctl
+7248111ed4fd76cb610add6baf1f5bf324bc398b net/rose: Fix Use-After-Free in rose_ioctl
+bc90f50b56e3eea3d219f0938083ac808ab9c826 !3772 [sync] PR-3686:  Bluetooth: af_bluetooth: Fix Use-After-Free in bt_sock_recvmsg
+5bb9a417137dd09bdb5685d4f6769ac0283dd0dd !3796 [sync] PR-3771:  ext4: fix uninitialized ratelimit_state->lock access in __ext4_fill_super()
+90c446ea73b8929782f76f1d9c47dce3e2693db6 !3984 [sync] PR-3915:  nvmet: nul-terminate the NQNs passed in the connect command
+be1cd5631bfa5044e98a8b318b339e13b0a69b4a !3990 [sync] PR-3668:  net/rose: Fix Use-After-Free in rose_ioctl
+8ce94f2bdb3146c8d31e902a99d69f742116ecb6 !3987 [sync] PR-3715:  appletalk: Fix Use-After-Free in atalk_ioctl
 
---===============4517528212302852298==--
+--===============0139809625906928991==--
