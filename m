@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1344940796793282255=="
+Content-Type: multipart/mixed; boundary="===============5634284046842487678=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 17 Jan 2024 16:51:55 -0000
-Message-Id: <170551031580.31501.14632318286091201028@gitolite.kernel.org>
+Date: Wed, 17 Jan 2024 16:52:29 -0000
+Message-Id: <170551034952.31822.12241266810193780785@gitolite.kernel.org>
 
---===============1344940796793282255==
+--===============5634284046842487678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 907ee6681788556b9ade3ad0a1f6f4aea192399c
-    new: ea937f77208323d35ffe2f8d8fc81b00118bfcda
-    log: revlist-907ee6681788-ea937f772083.txt
+  - ref: refs/heads/dev-queue
+    old: 0b8082f8f6806cb67d9a14ccf469f62f2ce3e741
+    new: 5aa465fd0bab9dc492c41cf3d2e6dae4a0cf2ea7
+    log: revlist-0b8082f8f680-5aa465fd0bab.txt
 
---===============1344940796793282255==
+--===============5634284046842487678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-907ee6681788-ea937f772083.txt
+Content-Disposition: attachment; filename=revlist-0b8082f8f680-5aa465fd0bab.txt
 
 cbdd50ec8b1daef6d71fb3325e436c8dec2d2e15 net: liquidio: fix clang-specific W=1 build warnings
 89e23277f9c16df6f9f9c1a1a07f8f132339c15c mptcp: mptcp_parse_option() fix for MPTCPOPT_MP_JOIN
@@ -56,5 +56,12 @@ e9ce7ededf14af3396312f02d1622f4889d676ca selftests: rtnetlink: use setup_ns in b
 c2945c435c999c63e47f337bc7c13c98c21d0bcc net: stmmac: Prevent DSA tags from breaking COE
 c0f5aec28edf98906d28f08daace6522adf9ee7a mptcp: relax check on MPC passive fallback
 ea937f77208323d35ffe2f8d8fc81b00118bfcda net: netdevsim: don't try to destroy PHC on VFs
+8c775b2e30e851b6bafddf97be6f15623aa4b566 i40e: Fix waiting for queues of all VSIs to be disabled
+a445d384c9a58eb622aa0b50207c91da5771124e i40e: Fix wrong mask used during DCB config
+de1fb0ac980118feac0684dc604782e47f1f2a11 e1000e: correct maximum frequency adjustment values
+19de160b63d674af4effd9e4b7ffc500c47c5c4d e1000e: remove force SMBUS from ULP enable flow to avoid PHY loss issue
+55389621e40ae11703f25bbc631490590989ed15 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+312ca8ea7b4d553cd884bbbd600bc0099412274d idpf: avoid compiler padding in virtchnl2_ptype struct
+5aa465fd0bab9dc492c41cf3d2e6dae4a0cf2ea7 i40e: Include types.h to some headers
 
---===============1344940796793282255==--
+--===============5634284046842487678==--
