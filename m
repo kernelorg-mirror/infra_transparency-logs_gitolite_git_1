@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4142116650277663631=="
+Content-Type: multipart/mixed; boundary="===============2668809553984789925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 18 Jan 2024 10:43:03 -0000
-Message-Id: <170557458398.12719.11730676316510478663@gitolite.kernel.org>
+Date: Thu, 18 Jan 2024 10:43:04 -0000
+Message-Id: <170557458427.12742.9797980396842929171@gitolite.kernel.org>
 
---===============4142116650277663631==
+--===============2668809553984789925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,86 +16,75 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 145e15b749472d2e4db9adf62c62cb1c5adb5cbb
-    new: 0dd585baea5706b34e15f25818434163a9d516bf
-    log: revlist-145e15b74947-0dd585baea57.txt
+  - ref: refs/heads/linux-6.7.y
+    old: 5b37b1240caed223224b1397268d7ef7e320f453
+    new: ef44e963b02edb00d4de5fa3528a21f3e7b33a85
+    log: revlist-5b37b1240cae-ef44e963b02e.txt
 
---===============4142116650277663631==
+--===============2668809553984789925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705574582 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705574583 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1705574582-35a350d69f9da00320ff54e4f6bbaf5bfbd690ca
 
-145e15b749472d2e4db9adf62c62cb1c5adb5cbb 0dd585baea5706b34e15f25818434163a9d516bf refs/heads/linux-5.4.y
+5b37b1240caed223224b1397268d7ef7e320f453 ef44e963b02edb00d4de5fa3528a21f3e7b33a85 refs/heads/linux-6.7.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWpALYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PAAP/0xgQnna2DnzHx1b+j49
-7M9QQF0qISlC4NZhUIrSPgADN7H4F7XcBlmWaXa06zbypTOmrCLBFAvnOxQhCM0u
-ah/5bKq+g1M4wfe1khmyMvKXgatPs0A4h9Ve0kMthFzNhLwlAyH1MqTBENW1bqg1
-UxrnGdy31fiWvufrq17RmdSK+5FZMEPZ6btxt1NIyCGJiF3JNbr+N8udLyEAzJbp
-XDRKHjO2ybfXPnDy6rRNe1zqGcq7USwCAeJy/erhqLzXpKwQFEZ5KZY+tsjYMUJ0
-vA2gIA1tuzl70ZF7ZGSvXVbSsULZC5k1w7I3JzQpYXPV/z8SzLpi5bCr/jyjKpet
-NFvw1Kd0F/G8EX0JgpC8nJLj0cI8k/jMmRQdW1aUW2fXF/J9+l4BNG7+UCZaNd1H
-IfB9hH6PlY9u59+PA1JADQ39cRgGaBiXlZC00uZZWapUZCjRwUNw2uKZH+yWlDYa
-neczBbrRHXzAd25g+CRn/vLwIAygeECzwnV5Pk1405rMmAus86k46SIouc898dAh
-+/ZEwIFFBk8YiQz+vZhZewdmyZqPPsRuje1pUdP2j9JW3u8aaWu9ZdG5U6uZqIIC
-DxmSYMexAO6cQ2Zer2QGJzAi0S4vBG3fc0WWpETvFhhOhgZ4ttmR5vv89JVtdKNv
-oXe8uV5bA1ZiuLNNdbmbwtbV
-=DM81
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWpALcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t84P/1tKH2fg8htBoGiGv1zw
+gACsOhYnEuJz1he1Y068OSwjNhsLFxgN3+ERjBaa2P//VA3HclOjwyB78c9WNQ2m
+pw+rbVLceeQTPg6+uU4cJavJxP2426wDa30+p4lLHL2Uhksjsm5Xk2Ir3cmoYsav
+tdq5ZC97hFcsCd+hgAvYVBfBO2iXPXy1aC/jbJtewLE+52S8Ao2uDhtcmAJtRWmI
+cWXnJsemuEnwM4zndSQxq/6IT94K0mwZwORrSQt582tksZO8IEjNhD2riLv6i+2I
+CZKfdSGEzuidm3APii62cZU9ruTORsLMNMulHZwytR76seB6YJBFHZKyhyCYflnI
+7p00pTiYJZqP1syHCSUI73XRzpJHyheyl197srB1p89OoKnTLy8AWMZaBIUqm17c
+iRTPU8xG51z+FsEIUxMOwPcNbqccqDhwhyk0qo8O3+pZCBkcQEF9y9JNdsByuvuN
+iTMQB8ztIIADQmWfROXfs4vn2ZNiIepwtwtc7EGQxXLyRagdZR7GPPwkjmCrgsFa
+WOzZee4pxKoRzxi03PbW7WtrDg9IgiCUAeAm3ufH/1AwHQN+de/f4vRHAnUPV0FN
+/Pa2hSYcjUl9xDuj+BCvLevAjMUsJy/KsNUaqFd53r3pQiRwJqgN1jKcmZ6dnGCB
+bzD7ky4MbFLh6JZfXD9eO45P
+=dHGD
 -----END PGP SIGNATURE-----
 
---===============4142116650277663631==
+--===============2668809553984789925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-145e15b74947-0dd585baea57.txt
+Content-Disposition: attachment; filename=revlist-5b37b1240cae-ef44e963b02e.txt
 
-6306caeb0f1087ce3b6e4db9abef1814b9e03888 f2fs: explicitly null-terminate the xattr list
-cd0b265440b3d154fcdb3822b692ecd2ef161922 pinctrl: lochnagar: Don't build on MIPS
-9fad9c021b9d213a206c8ad340c899239732aff4 ALSA: hda - Fix speaker and headset mic pin config for CHUWI CoreBook XPro
-325293ac145170355737286b7006ad6ff6f55209 ASoC: Intel: Skylake: Fix mem leak in few functions
-9148c6c23b0c950ead2bc59f2fdd7d6d9afbf031 ASoC: nau8822: Fix incorrect type in assignment and cast to restricted __be16
-e0efcceee994deb5e97d0b9ac51d609703789e4d ASoC: Intel: Skylake: mem leak in skl register function
-3c6055e5651d8cfb1e9a27b0d40a64ef6fc9c035 ASoC: cs43130: Fix the position of const qualifier
-6870e7dbdb395b91994e485be8023690dda5ec0c ASoC: cs43130: Fix incorrect frame delay configuration
-a844587316548a2b6de5c0f08a1f449b66b30b90 ASoC: rt5650: add mutex to avoid the jack detection failure
-02dae163097f7e639a31124daaa16a2fd8db64e2 nouveau/tu102: flush all pdbs on vmm flush
-88e1790d578c8372959dfac7330ecd26ff3c0436 net/tg3: fix race condition in tg3_reset_task()
-8b5d0484b9c8314544eb1ae7470bf7e12d480575 ASoC: da7219: Support low DC impedance headset
-57dc83c3055ae6a1f68857ca4274cc3d026da042 nvme: introduce helper function to get ctrl state
-1f426eadc168277082f5ece1b48fbf9d982b2e33 drm/exynos: fix a potential error pointer dereference
-bb48f1613dad38a851c7e9bf961923b42c756d58 drm/exynos: fix a wrong error checking
-243bc70fe58b5e339d549c03edbd48b2a37067ec clk: rockchip: rk3128: Fix HCLK_OTG gate register
-8ac937160ae8c3d72caf3623f15086bcc21cb541 jbd2: correct the printing of write_flags in jbd2_write_superblock()
-d530c60f3b190f3796ede564342dba3de604c203 drm/crtc: Fix uninit-value bug in drm_mode_setcrtc
-46d3081b1467d7db89e16718a691b96947f945a4 neighbour: Don't let neigh_forced_gc() disable preemption for long
-51e17b48074670b0da5a51af0401285c4147def8 tracing: Have large events show up as '[LINE TOO BIG]' instead of nothing
-53ec4551022259dc49e237fb2d5c45ffccbcb8f6 tracing: Add size check when printing trace_marker output
-d78095ca5a908ef9df2b5fdd758d27cc2be9fbcc ring-buffer: Do not record in NMI if the arch does not support cmpxchg in NMI
-302af57c7609a035769ca7f7c2e99d65eca80a61 reset: hisilicon: hi6220: fix Wvoid-pointer-to-enum-cast warning
-1e8eee7fb5eef86af903f659f0e4c465cec87310 Input: atkbd - skip ATKBD_CMD_GETID in translated mode
-4986652132ada42ac096772d045a315de97d0861 Input: i8042 - add nomux quirk for Acer P459-G2-M
-3bf9cfb6671907351dfe6987c441ed6d5b8d289b s390/scm: fix virtual vs physical address confusion
-434230df1c7926955c7e9282a6da1173bd2a34ef ARC: fix spare error
-a73ab4f8044e9331469ecc0502be2e7ba2dda697 Input: xpad - add Razer Wolverine V2 support
-425e3fa7db77e63f58fb2986408ea6a9c8961554 ida: Fix crash in ida_free when the bitmap is empty
-c54b284ff2d5b8f1daa5bb29059e09a4c7b0dfc8 ARM: sun9i: smp: fix return code check of of_property_match_string
-75f87a0e6ce442e941722332cb0c200516762923 drm/crtc: fix uninitialized variable use
-57cd5bc7caa2fc319cb5fec52edd9aba8eec721b ACPI: resource: Add another DMI match for the TongFang GMxXGxx
-a03d108bc033b5122f4c112cc9f729708929ba80 binder: use EPOLLERR from eventpoll.h
-ec800485813af7f7464eea596363c58f3fae15b4 binder: fix trivial typo of binder_free_buf_locked()
-b3e9fdb1beb1159fcc1c52d0f169d8488b0ffd48 binder: fix comment on binder_alloc_new_buf() return value
-0989f05bd08e4165b6575ba8058438259d778b68 uio: Fix use-after-free in uio_open
-b1f45d7ec5f2e0241fb0b03fadebcb5296716968 parport: parport_serial: Add Brainboxes BAR details
-597881dc3f1bbd7fc84a569846d0a1f93f81fd7d parport: parport_serial: Add Brainboxes device IDs and geometry
-8886093b7313dd9d70818187e906a2c706d99d7b coresight: etm4x: Fix width of CCITMIN field
-0dd585baea5706b34e15f25818434163a9d516bf Linux 5.4.268-rc1
+21c2e578cb6ea85b3c6cd11ee3b4fea334c1c221 f2fs: explicitly null-terminate the xattr list
+11272665d08ce09fa4b1bb20a79b5cda3654b23a ALSA: hda/realtek: Add quirks for Dell models
+cc35d3e9add914a61cf3f7e85a341760712570ac ALSA: hda: cs35l41: Support additional Dell models without _DSD
+65bc2fe75d7bae409d04e83a0f9211f3e064d165 ALSA: hda: cs35l41: Prevent firmware load if SPI speed too low
+484db3822e0b5ce9e755ddb67c906ce950a6a017 ALSA: hda: Add driver properties for cs35l41 for Lenovo Legion Slim 7 Gen 8 serie
+5ae19c45a3268e35eca5ea523b81292d2f7c0990 ALSA: hda/realtek: enable SND_PCI_QUIRK for Lenovo Legion Slim 7 Gen 8 (2023) serie
+96cf227f940e0fef1b7cc01d79500f6d384f31e3 ALSA: hda/realtek: Fix mute and mic-mute LEDs for HP Envy X360 13-ay0xxx
+8fda977ac4c65dd842e9e959f310171086c7da28 ALSA: hda: cs35l41: Support more HP models without _DSD
+11da5969770d2e51864d813dd9eec73f96b13e61 ACPI: resource: Add another DMI match for the TongFang GMxXGxx
+1cc4a7f72ae4ee0da4ba915ef43afc4252dc5916 bus: moxtet: Mark the irq as shared
+a483ceb94f57dd08aaa2214acdbd580f41f844a8 bus: moxtet: Add spi device table
+a5ef5d7b68951dbef54999670d33d83a79769769 drm/amd/display: Pass pwrseq inst for backlight and ABM
+2f71039813c302543640a9be6b8078f32326f2cc ksmbd: don't allow O_TRUNC open on read-only share
+817a7c18da1f17573cacd9d7e3796c3c5e874bef ksmbd: free ppace array on error in parse_dacl
+40bba9206056a21b316cba3c54d60e7d575341f9 Revert "md/raid5: Wait for MD_SB_CHANGE_PENDING in raid5d"
+378037ead079bc16421e91d500562f237edd3b72 binder: use EPOLLERR from eventpoll.h
+fee46572faee182abe214d083826585ea5967be7 binder: fix use-after-free in shinker's callback
+8a762373221a41b279bb29545a4795ca212eb8b5 binder: fix trivial typo of binder_free_buf_locked()
+6bc417370896fbc237aeb9205c5bcbcb19d655e8 binder: fix comment on binder_alloc_new_buf() return value
+bb91d500c9bf9604d85dd3b2df1df5cb50717b99 uio: Fix use-after-free in uio_open
+099591ad2c9a1063abd05e69435e13f12915684e parport: parport_serial: Add Brainboxes BAR details
+b84b3404f55ab790896b2ce1d1deeb0149c6df89 parport: parport_serial: Add Brainboxes device IDs and geometry
+b7c17050325906072a4c8d7da6253137ec03050d leds: ledtrig-tty: Free allocated ttyname buffer on deactivate
+2771dd766932e2617eb3f84604c9b3f5cce30502 PCI: Add ACS quirk for more Zhaoxin Root Ports
+1413daa5ba1edcefc68a37dc62522bc074096bfe coresight: etm4x: Fix width of CCITMIN field
+741c9ec5e4b64a117287ac8c8a1fa9b428aa4208 scripts/decode_stacktrace.sh: optionally use LLVM utilities
+e015bfb2fe2077eb537e354100afee26d6b596f2 docs: kernel_feat.py: fix potential command injection
+f3742ca528719f9473b456246df1ec0182bdbf2a mm/memory_hotplug: fix memmap_on_memory sysfs value retrieval
+ef44e963b02edb00d4de5fa3528a21f3e7b33a85 Linux 6.7.1-rc1
 
---===============4142116650277663631==--
+--===============2668809553984789925==--
