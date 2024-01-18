@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8907831849591990006=="
+Content-Type: multipart/mixed; boundary="===============3611326406368014407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 18 Jan 2024 13:46:21 -0000
-Message-Id: <170558558150.20227.5892530469694334097@gitolite.kernel.org>
+Date: Thu, 18 Jan 2024 13:53:07 -0000
+Message-Id: <170558598722.24261.11238584970290892583@gitolite.kernel.org>
 
---===============8907831849591990006==
+--===============3611326406368014407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: 70d201a40823acba23899342d62bc2644051ad2e
-    new: 296455ade1fdcf5f8f8c033201633b60946c589a
-    log: revlist-70d201a40823-296455ade1fd.txt
+  - ref: refs/heads/for-linux-next
+    old: 27345a7b7bba72bd4b6d183088e4025fbc416b7f
+    new: 69ed67014c40a1f740c59123c88bfb76aef837bb
+    log: revlist-27345a7b7bba-69ed67014c40.txt
 
---===============8907831849591990006==
+--===============3611326406368014407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70d201a40823-296455ade1fd.txt
+Content-Disposition: attachment; filename=revlist-27345a7b7bba-69ed67014c40.txt
 
-e05c6c9774630702143bf4d35f2a753e61a57622 drm/xe: Deprecate XE_EXEC_QUEUE_SET_PROPERTY_COMPUTE_MODE implementation
 abce4e4b0742f0a0773213144601ea7e18389228 drm/xe: Rename exec_queue_kill_compute to xe_vm_remove_compute_exec_queue
 bffb2573726beabc8ad70532d5655a976f9053d8 drm/xe: Remove XE_EXEC_QUEUE_SET_PROPERTY_COMPUTE_MODE from uAPI
 5dc079d1a8e5e880ae18b4f4585d7dc28e51e68e drm/xe/uapi: Use common drm_xe_ext_set_property extension
@@ -1050,5 +1049,6 @@ ed6c23b175471d7bdecd06b5f37a0b1057c90cce Merge tag 'pinctrl-v6.8-1' of git://git
 a3f4a07b5027e88209a7f47f572d8eed126ca870 Merge tag 'i3c/for-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 e1aa9df440186af73a9e690244eb49cbc99f36ac Merge tag 'pci-v6.8-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 296455ade1fdcf5f8f8c033201633b60946c589a Merge tag 'char-misc-6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+69ed67014c40a1f740c59123c88bfb76aef837bb Merge branches 'for-next/scmi/fixes' and 'for-next/ffa/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============8907831849591990006==--
+--===============3611326406368014407==--
