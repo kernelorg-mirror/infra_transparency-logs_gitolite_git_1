@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0202452426189658778=="
+Content-Type: multipart/mixed; boundary="===============8794340024827253731=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Thu, 18 Jan 2024 09:46:12 -0000
-Message-Id: <170557117211.3418.17390483795796109024@gitolite.kernel.org>
+Date: Thu, 18 Jan 2024 09:46:40 -0000
+Message-Id: <170557120021.3665.5045710960098334171@gitolite.kernel.org>
 
---===============0202452426189658778==
+--===============8794340024827253731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 10faae933f2b0316cbbf2fb14144d3f62c3358a0
-    new: 18c376eca10d6609fa6a2842ed8eed06710f09af
-    log: revlist-10faae933f2b-18c376eca10d.txt
+  - ref: refs/heads/exynos-drm-next
+    old: 3c064aea46d071ccf95a142be5532768a7fa6f02
+    new: 205e18c13545ab43cc4fe4930732b4feef551198
+    log: revlist-3c064aea46d0-205e18c13545.txt
 
---===============0202452426189658778==
+--===============8794340024827253731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10faae933f2b-18c376eca10d.txt
+Content-Disposition: attachment; filename=revlist-3c064aea46d0-205e18c13545.txt
 
 5169477081a1ed08924949e4893732de92ad7d25 drm/i915/selftests: Fix spelling mistake "initialiased" -> "initialised"
 ac3420d3d428443a08b923f9118121c170192b62 drm/i915/hwmon: Fix static analysis tool reported issues
@@ -158,9 +158,5 @@ d505a16e00c35919fd9fe5735894645e0f70a415 drm/i915/perf: reconcile Excess struct 
 e8aaca57f9d95be26f179137821ad447678a17ca Merge tag 'drm-intel-next-fixes-2024-01-11' of git://anongit.freedesktop.org/drm/drm-intel into drm-next
 9caaeb090174a5486f9e410b4f561f7569ce2654 Merge tag 'drm-misc-next-fixes-2024-01-11' of git://anongit.freedesktop.org/drm/drm-misc into drm-next
 205e18c13545ab43cc4fe4930732b4feef551198 nouveau/gsp: handle engines in runl without nonstall interrupts.
-b4cee475f40a3a4e63989eb45f5cf5aff662e210 dt-bindings: display: samsung,exynos-mixer: Fix 'regs' typo
-1ca9cf6375cfd071de6a21069276bb6f4dd6bd03 drm/exynos: fix incorrect type issue
-f3ee085bc55db52187b01f275e6a524b1ab1cd9b drm/exynos: fix accidental on-stack copy of exynos_drm_plane
-18c376eca10d6609fa6a2842ed8eed06710f09af drm/exynos: gsc: minor fix for loop iteration in gsc_runtime_resume
 
---===============0202452426189658778==--
+--===============8794340024827253731==--
