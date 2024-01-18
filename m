@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 18 Jan 2024 10:52:14 -0000
-Message-Id: <170557513461.20004.3804378717777726180@gitolite.kernel.org>
+Date: Thu, 18 Jan 2024 10:52:53 -0000
+Message-Id: <170557517358.20304.16626332506983176762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
 user: agruen
 changes:
-  - ref: refs/heads/lookup-rcu-fix
-    old: 0379939869e2eb05bf374afeb7b646793701450f
+  - ref: refs/heads/for-next
+    old: dc33003bffec99504639416fd1338c0ddf62e226
     new: 55d695cad2f602be7e8cbaca57a803a9a030df9e
     log: |
          d671e03b29670f6e9700efdaa224415f847851a3 gfs2: Fix gfs2_drevalidate NULL pointer dereference
