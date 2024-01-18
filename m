@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 18 Jan 2024 22:21:27 -0000
-Message-Id: <170561648780.22451.12626484191865687538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 18 Jan 2024 22:42:22 -0000
+Message-Id: <170561774239.5071.633415485421986386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: f9e1de3c326393bd877df4b64a0c0b5d952760d2
-    new: 8d53b372acfccc670ed160ed7bb256b8da8d1c6e
+  - ref: refs/heads/for-next
+    old: 66f962d8939fd2ac74de901d30d30310c8ddca79
+    new: 4525462dd0db9e86bb67c10dedbbaa4f8d62697d
     log: |
-         8448702eb555d2ee53b6db976e94ba3bff8157e4 foo
-         8d53b372acfccc670ed160ed7bb256b8da8d1c6e foo
+         4525462dd0db9e86bb67c10dedbbaa4f8d62697d riscv: lib: Check if output in asm goto supported
          
