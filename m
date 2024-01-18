@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2668809553984789925=="
+Content-Type: multipart/mixed; boundary="===============6454717774751179963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 18 Jan 2024 10:43:04 -0000
-Message-Id: <170557458427.12742.9797980396842929171@gitolite.kernel.org>
+Date: Thu, 18 Jan 2024 10:43:06 -0000
+Message-Id: <170557458666.12880.2721995623134372912@gitolite.kernel.org>
 
---===============2668809553984789925==
+--===============6454717774751179963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,75 +16,96 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.7.y
-    old: 5b37b1240caed223224b1397268d7ef7e320f453
-    new: ef44e963b02edb00d4de5fa3528a21f3e7b33a85
-    log: revlist-5b37b1240cae-ef44e963b02e.txt
+  - ref: refs/heads/linux-5.10.y
+    old: e5d6b9465ce24e5c3eaadbe1c9c120b1432fd988
+    new: ede6264a1f69da51def59842f7aea58d4a9c0ead
+    log: revlist-e5d6b9465ce2-ede6264a1f69.txt
 
---===============2668809553984789925==
+--===============6454717774751179963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705574583 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705574585 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1705574582-35a350d69f9da00320ff54e4f6bbaf5bfbd690ca
+nonce 1705574585-a04166dd9ac0dff9e5300100ba65bc8a95d763f7
 
-5b37b1240caed223224b1397268d7ef7e320f453 ef44e963b02edb00d4de5fa3528a21f3e7b33a85 refs/heads/linux-6.7.y
+e5d6b9465ce24e5c3eaadbe1c9c120b1432fd988 ede6264a1f69da51def59842f7aea58d4a9c0ead refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWpALcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t84P/1tKH2fg8htBoGiGv1zw
-gACsOhYnEuJz1he1Y068OSwjNhsLFxgN3+ERjBaa2P//VA3HclOjwyB78c9WNQ2m
-pw+rbVLceeQTPg6+uU4cJavJxP2426wDa30+p4lLHL2Uhksjsm5Xk2Ir3cmoYsav
-tdq5ZC97hFcsCd+hgAvYVBfBO2iXPXy1aC/jbJtewLE+52S8Ao2uDhtcmAJtRWmI
-cWXnJsemuEnwM4zndSQxq/6IT94K0mwZwORrSQt582tksZO8IEjNhD2riLv6i+2I
-CZKfdSGEzuidm3APii62cZU9ruTORsLMNMulHZwytR76seB6YJBFHZKyhyCYflnI
-7p00pTiYJZqP1syHCSUI73XRzpJHyheyl197srB1p89OoKnTLy8AWMZaBIUqm17c
-iRTPU8xG51z+FsEIUxMOwPcNbqccqDhwhyk0qo8O3+pZCBkcQEF9y9JNdsByuvuN
-iTMQB8ztIIADQmWfROXfs4vn2ZNiIepwtwtc7EGQxXLyRagdZR7GPPwkjmCrgsFa
-WOzZee4pxKoRzxi03PbW7WtrDg9IgiCUAeAm3ufH/1AwHQN+de/f4vRHAnUPV0FN
-/Pa2hSYcjUl9xDuj+BCvLevAjMUsJy/KsNUaqFd53r3pQiRwJqgN1jKcmZ6dnGCB
-bzD7ky4MbFLh6JZfXD9eO45P
-=dHGD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWpALkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bSoQAL6mK01gj02WOegqhpEh
+F5YySWAUHyl/w4cHFl2mbrKPQ34dn6/alda5im4yM8kqyAZtx5zxagkxtp+TRR/x
+Y/hyoePv5K+/1IE25rZvjNiaJpB+jlRaege+Ma9fyJ++dJddkKbLO1QgANwhSeEW
+xMBDL3QHa8M1sdrvcojCAGpJMZxONxbGPh44sJSwRZgoZbUMAEWrzNOeGnC029G/
+gl3wWOOmfMv+SGC/+KpBDow7FHDOKEfEflnqPHl7xBzCRtrZRPPrz7RUV2x9xqHo
+z4m40TbfrW/kvYHUZBYDd6uiLBmnUro6mKA65Uo/QXzQNe0+AjEatP/EfDxs0eXI
+IjCYGGiF2R2oa6xF24yJPswHSzW3+29jl3XSDofLAB0TD+oBXh6gGFwTN4QdGTG3
+AhDm6oozZtQEtMqpcykZRmDFDcgPVjua9Lea7/76N4sIXBhTigOUVeFJGjaUaUer
+QXVfP//8dKC6RsjjLjqpshj2ZkVUA5pjAnBCXJoO2FSwAjkpE/C+lC5Q2fErkdn8
+fJJBLNETUB4Or8ACrnRelq7f19qzcGFULK2tCr2cMMSN6ev51wwgQKoVDeV7LM/W
+dTXjagvA/rEjFNlMGEvFdXwFwcyD/L+5HJe6ABlN1mFofE0T/SUIGHHT9HDvDiNz
+JMM3/k3J1R5+DyYEHQKA2j1T
+=gNSz
 -----END PGP SIGNATURE-----
 
---===============2668809553984789925==
+--===============6454717774751179963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b37b1240cae-ef44e963b02e.txt
+Content-Disposition: attachment; filename=revlist-e5d6b9465ce2-ede6264a1f69.txt
 
-21c2e578cb6ea85b3c6cd11ee3b4fea334c1c221 f2fs: explicitly null-terminate the xattr list
-11272665d08ce09fa4b1bb20a79b5cda3654b23a ALSA: hda/realtek: Add quirks for Dell models
-cc35d3e9add914a61cf3f7e85a341760712570ac ALSA: hda: cs35l41: Support additional Dell models without _DSD
-65bc2fe75d7bae409d04e83a0f9211f3e064d165 ALSA: hda: cs35l41: Prevent firmware load if SPI speed too low
-484db3822e0b5ce9e755ddb67c906ce950a6a017 ALSA: hda: Add driver properties for cs35l41 for Lenovo Legion Slim 7 Gen 8 serie
-5ae19c45a3268e35eca5ea523b81292d2f7c0990 ALSA: hda/realtek: enable SND_PCI_QUIRK for Lenovo Legion Slim 7 Gen 8 (2023) serie
-96cf227f940e0fef1b7cc01d79500f6d384f31e3 ALSA: hda/realtek: Fix mute and mic-mute LEDs for HP Envy X360 13-ay0xxx
-8fda977ac4c65dd842e9e959f310171086c7da28 ALSA: hda: cs35l41: Support more HP models without _DSD
-11da5969770d2e51864d813dd9eec73f96b13e61 ACPI: resource: Add another DMI match for the TongFang GMxXGxx
-1cc4a7f72ae4ee0da4ba915ef43afc4252dc5916 bus: moxtet: Mark the irq as shared
-a483ceb94f57dd08aaa2214acdbd580f41f844a8 bus: moxtet: Add spi device table
-a5ef5d7b68951dbef54999670d33d83a79769769 drm/amd/display: Pass pwrseq inst for backlight and ABM
-2f71039813c302543640a9be6b8078f32326f2cc ksmbd: don't allow O_TRUNC open on read-only share
-817a7c18da1f17573cacd9d7e3796c3c5e874bef ksmbd: free ppace array on error in parse_dacl
-40bba9206056a21b316cba3c54d60e7d575341f9 Revert "md/raid5: Wait for MD_SB_CHANGE_PENDING in raid5d"
-378037ead079bc16421e91d500562f237edd3b72 binder: use EPOLLERR from eventpoll.h
-fee46572faee182abe214d083826585ea5967be7 binder: fix use-after-free in shinker's callback
-8a762373221a41b279bb29545a4795ca212eb8b5 binder: fix trivial typo of binder_free_buf_locked()
-6bc417370896fbc237aeb9205c5bcbcb19d655e8 binder: fix comment on binder_alloc_new_buf() return value
-bb91d500c9bf9604d85dd3b2df1df5cb50717b99 uio: Fix use-after-free in uio_open
-099591ad2c9a1063abd05e69435e13f12915684e parport: parport_serial: Add Brainboxes BAR details
-b84b3404f55ab790896b2ce1d1deeb0149c6df89 parport: parport_serial: Add Brainboxes device IDs and geometry
-b7c17050325906072a4c8d7da6253137ec03050d leds: ledtrig-tty: Free allocated ttyname buffer on deactivate
-2771dd766932e2617eb3f84604c9b3f5cce30502 PCI: Add ACS quirk for more Zhaoxin Root Ports
-1413daa5ba1edcefc68a37dc62522bc074096bfe coresight: etm4x: Fix width of CCITMIN field
-741c9ec5e4b64a117287ac8c8a1fa9b428aa4208 scripts/decode_stacktrace.sh: optionally use LLVM utilities
-e015bfb2fe2077eb537e354100afee26d6b596f2 docs: kernel_feat.py: fix potential command injection
-f3742ca528719f9473b456246df1ec0182bdbf2a mm/memory_hotplug: fix memmap_on_memory sysfs value retrieval
-ef44e963b02edb00d4de5fa3528a21f3e7b33a85 Linux 6.7.1-rc1
+536bd000e8099e0c02191a9425558653682b04fb f2fs: explicitly null-terminate the xattr list
+b8993e42288fccdf3407229513c35b2151477a85 pinctrl: lochnagar: Don't build on MIPS
+2e847f62b2af8e579b54fed12393c9abd381d771 ALSA: hda - Fix speaker and headset mic pin config for CHUWI CoreBook XPro
+6dcf3ad9b9c2d0fbb5982b508a4c5a04c0509fb2 mptcp: fix uninit-value in mptcp_incoming_options
+bfbe52498815b7e41c33a51de2cab45464a43336 debugfs: fix automount d_fsdata usage
+416129e6fca4526c481ab36d18b69fc7e0e37a5f drm/amdgpu: Fix cat debugfs amdgpu_regs_didt causes kernel null pointer
+2250850a86566f23c3c38640cefc15cca7b06545 nvme-core: check for too small lba shift
+cd2e8478a6283db071595fcbb544755f19de18d1 ASoC: wm8974: Correct boost mixer inputs
+9a07f8a68ee1ec34db2c3aa32a6250f5a49829b5 ASoC: Intel: Skylake: Fix mem leak in few functions
+1116b21b9bb33c520647957304eef7ee2bba8d25 ASoC: nau8822: Fix incorrect type in assignment and cast to restricted __be16
+62b6b02421377cc92f0e82202d32f3251fa6194b ASoC: Intel: Skylake: mem leak in skl register function
+d3dbe74d228abb50e4426ce416a8aa36b4656f8d ASoC: cs43130: Fix the position of const qualifier
+03672cf7c3c047c1c5b5cae5a9fed0082de24b4c ASoC: cs43130: Fix incorrect frame delay configuration
+8b6b49c88cf456364ed680c236630b5670c86484 ASoC: rt5650: add mutex to avoid the jack detection failure
+4fa42b98166c1c37586440f2e3c56babba397c29 nouveau/tu102: flush all pdbs on vmm flush
+b027eb43cfee84c3f50aa412297deea97337656d net/tg3: fix race condition in tg3_reset_task()
+9f1b726ddaaa225b98f4db732b559d8f402eecf0 ASoC: da7219: Support low DC impedance headset
+3edee6441aa603a2a94e0e15c5ebab4efb98f630 nvme: introduce helper function to get ctrl state
+83dbf7392878c540f54c029ec35bc3b45003820b mips/smp: Call rcutree_report_cpu_starting() earlier
+0539ec60172462b6cfbda590e1501f3ae7e9aaec drm/exynos: fix a potential error pointer dereference
+977b1c607df400510e843ec495ac19c149239168 drm/exynos: fix a wrong error checking
+75854e3f6ef741ecd1b27c539b4377b169f6bd12 clk: rockchip: rk3128: Fix HCLK_OTG gate register
+deb136be03a4cc66f3a5e7f2a3e92c7a98222257 jbd2: correct the printing of write_flags in jbd2_write_superblock()
+92657e297229e7281cdc185c46012e689017dc9b drm/crtc: Fix uninit-value bug in drm_mode_setcrtc
+52a53515b34af3f4a94ee9948bf4a8cc6ea2d5b0 neighbour: Don't let neigh_forced_gc() disable preemption for long
+b79b8029f00750b4ed57627719600bfc0e162c37 jbd2: fix soft lockup in journal_finish_inode_data_buffers()
+1def1456033bacdc38afb1dbc0f2f3de3470db7a tracing: Have large events show up as '[LINE TOO BIG]' instead of nothing
+7e9e68a11a1121b245c2d9bb357955afe39e506f tracing: Add size check when printing trace_marker output
+e4dc0ecbbd42a8f876cb6f2bd2d1e79d6ce0d629 ring-buffer: Do not record in NMI if the arch does not support cmpxchg in NMI
+567b423e62cff5f6c02b645aa4d2aabfabed0817 reset: hisilicon: hi6220: fix Wvoid-pointer-to-enum-cast warning
+73e601e221d62643e9e90913138ce568459eadec Input: atkbd - skip ATKBD_CMD_GETID in translated mode
+c62112d7615928ba542cd215ffa17747e8e1cdc7 Input: i8042 - add nomux quirk for Acer P459-G2-M
+f49555ee5dc599f914c75a1a0d71223ae8f36690 s390/scm: fix virtual vs physical address confusion
+e29522e5614a126b7d39dd35f9f657113d7152b2 ARC: fix spare error
+9dd30f1d08bd02304e0ca4baf416ab933807e435 Input: xpad - add Razer Wolverine V2 support
+4b8cd75538e4a5aaabb9b01c30233b0dbe7c02ce i2c: rk3x: fix potential spinlock recursion on poll
+a786a6faa0447901a81d3e3c67ff24d0b1a472e2 ida: Fix crash in ida_free when the bitmap is empty
+8d2ed74a58e3a64165ea47027d125839294dfa73 net: qrtr: ns: Return 0 if server port is not present
+4a5e64c5743809ec50a191a0c18b2c6f1df5c5c2 ARM: sun9i: smp: fix return code check of of_property_match_string
+fc31e753c1222349bdd198770c2d803c13115c54 drm/crtc: fix uninitialized variable use
+abac8386d1ad1d636f66909aeb0b722a16bc9c9c ACPI: resource: Add another DMI match for the TongFang GMxXGxx
+6b5abd8a34849390247fc9702b966b97e95f009e binder: use EPOLLERR from eventpoll.h
+53bc5d295651c460825ee03bf69ff31a7a93d900 binder: fix trivial typo of binder_free_buf_locked()
+df04d4ebae6145a9b6210ad7421e36d6f4462bba binder: fix comment on binder_alloc_new_buf() return value
+8dcaa50c177617c726ca6b03a9297b76aaf434e1 uio: Fix use-after-free in uio_open
+78d29fbb4d86e793a7429e8eac248d6d41997653 parport: parport_serial: Add Brainboxes BAR details
+fc5eb27c9c139622357c6db5ba9da5af8e00cba1 parport: parport_serial: Add Brainboxes device IDs and geometry
+59c9506ff63b5fdc0f684cdfbb9f219e4b3f8a38 PCI: Add ACS quirk for more Zhaoxin Root Ports
+76df9e2148dc6d33e7f57096dd184e6576460057 coresight: etm4x: Fix width of CCITMIN field
+ede6264a1f69da51def59842f7aea58d4a9c0ead Linux 5.10.209-rc1
 
---===============2668809553984789925==--
+--===============6454717774751179963==--
