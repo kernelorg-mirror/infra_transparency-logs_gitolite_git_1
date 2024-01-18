@@ -1,24 +1,59 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Thu, 18 Jan 2024 14:51:53 -0000
-Message-Id: <170558951302.2810.3954207075211303617@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7832912435089083774=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Thu, 18 Jan 2024 15:01:48 -0000
+Message-Id: <170559010804.9453.15582487683593911903@gitolite.kernel.org>
+
+--===============7832912435089083774==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/b4/arm32-cfi
-    old: c07f33ce58bf0d0f48c3547979ff3fd70834c56a
-    new: 98f7bb8c9f58d28851e6bdf4365ac7674abd4963
+  - ref: refs/heads/main
+    old: 556857aa1d0855aba02b1c63bc52b91ec63fc2cc
+    new: bcbc84af1183c8cf3d1ca9b78540c2185cd85e7f
     log: |
-         6ac159edfaf5614c8d3cb878753c623139455bcd CFI for ARM32 using LLVM
-         40fbc4dfe0183ffe53a6bb5e7fc3dee4e6320172 ARM: Support CLANG CFI
-         21930e39da8a378289f7004fb01bc6d469562a93 ARM: tmbflush: Make TLB flushes into static inlines
-         a38f5eb1932f972e54d65ccab57deb43be43ad36 ARM: bugs: Check in the vtable instead of defined aliases
-         7281031fcdf0f48924681e6190c7ad6eecdc3f71 ARM: proc: Use inlines instead of defines
-         98f7bb8c9f58d28851e6bdf4365ac7674abd4963 ARM: delay: Turn delay functions into static inlines
+         a6e4f85d3820d00694ed10f581f4c650445dbcda wifi: cfg80211: fix missing interfaces when dumping
+         26490da5a71da9064e58f0d4ce82756c26ef9eb1 wifi: cfg80211/mac80211: remove dependency on non-existing option
+         b01a74b3ca6fd51b62c67733ba7c3280fa6c5d26 wifi: mac80211: fix potential sta-link leak
+         cf4a0d840ecc72fcf16198d5e9c505ab7d5a5e4d wifi: iwlwifi: fix a memory corruption
+         bcbc84af1183c8cf3d1ca9b78540c2185cd85e7f wifi: mac80211: fix race condition on enabling fast-xmit
          
+
+--===============7832912435089083774==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1705590084 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1705590083-c8a5ef97399e6f84feb1356abffb047422961e44
+
+556857aa1d0855aba02b1c63bc52b91ec63fc2cc bcbc84af1183c8cf3d1ca9b78540c2185cd85e7f refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmWpPUQACgkQ10qiO8sP
+aAAyCA/8CZSXSXUJjAjXjHA9IbSGCG8ghHrXpK+ngoLnjpO/aEVVi5PGhDsNsb8A
+wwPeVbGs7vcO7RFemgGaaO5LCS6urEeDd3+0JTt+GbNsw1wT1AFVF1JbfJ691ijl
+bEneNV/O+FIh5DzvtyAAOmV1CjN83DovS7t0gGyzpvIMvQ613PczLAUwEHWST4AX
+B0SmuzVfdpb0RM6lQZa3o9Ulp4aPuv0OLgRynmGjiBi8TTtl5FNtAzv74Sb9FAjY
+txJ0qsT3SQvWGIVr6XwujlgdmL4i2DgtA+Vc/8isdnPs7yT5/spzp1saf6Vl2atJ
+tcLtNNUc981kwdCnapMvlYE9YK1gfq2h4xORbFJrvmjwnlsrVk25FPXUONI1EeYK
+lbJFv7PgfDbtHZZYYWwSvhoRg2KEt3rWW8Q7OoOacNdKDZsEhECJ3whbAv4BXqzT
++SSPxd8c72KReI2ZleB640bbZPzxwGFVRj39MZvGcLTRXP8TJGIIst9ZEME2fjPh
+EFx3+CzEDh3UvymddwWmzhLzG+MqjaF3+akHb9NMB30XtwAbLCNTCqsgmkCvAeIw
+m8hR1GN4OYQVtAKCsorHmyJmt/+kSICArdp2LNadWG9wzNi86pMDQ6073qER5G6d
++/P8zMfyYUeu5U6HVhUB1f0BUSAUnlSGqDiSdQo2CPCQqTivs3Q=
+=xK6n
+-----END PGP SIGNATURE-----
+
+--===============7832912435089083774==--
