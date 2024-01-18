@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6454717774751179963=="
+Content-Type: multipart/mixed; boundary="===============6805697988716447528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 18 Jan 2024 10:43:06 -0000
-Message-Id: <170557458666.12880.2721995623134372912@gitolite.kernel.org>
+Date: Thu, 18 Jan 2024 10:43:10 -0000
+Message-Id: <170557459024.12970.7961558525806944489@gitolite.kernel.org>
 
---===============6454717774751179963==
+--===============6805697988716447528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,96 +16,110 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: e5d6b9465ce24e5c3eaadbe1c9c120b1432fd988
-    new: ede6264a1f69da51def59842f7aea58d4a9c0ead
-    log: revlist-e5d6b9465ce2-ede6264a1f69.txt
+  - ref: refs/heads/linux-5.15.y
+    old: a04b8b54547de768610fb5c24801da4c0a19029d
+    new: 0434b6ee1860085e52f7749167031d6e91096a97
+    log: revlist-a04b8b54547d-0434b6ee1860.txt
 
---===============6454717774751179963==
+--===============6805697988716447528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705574585 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705574588 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1705574585-a04166dd9ac0dff9e5300100ba65bc8a95d763f7
+nonce 1705574588-4cef77f9ed3028d31c4a69976d16ba23f1820d04
 
-e5d6b9465ce24e5c3eaadbe1c9c120b1432fd988 ede6264a1f69da51def59842f7aea58d4a9c0ead refs/heads/linux-5.10.y
+a04b8b54547de768610fb5c24801da4c0a19029d 0434b6ee1860085e52f7749167031d6e91096a97 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWpALkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bSoQAL6mK01gj02WOegqhpEh
-F5YySWAUHyl/w4cHFl2mbrKPQ34dn6/alda5im4yM8kqyAZtx5zxagkxtp+TRR/x
-Y/hyoePv5K+/1IE25rZvjNiaJpB+jlRaege+Ma9fyJ++dJddkKbLO1QgANwhSeEW
-xMBDL3QHa8M1sdrvcojCAGpJMZxONxbGPh44sJSwRZgoZbUMAEWrzNOeGnC029G/
-gl3wWOOmfMv+SGC/+KpBDow7FHDOKEfEflnqPHl7xBzCRtrZRPPrz7RUV2x9xqHo
-z4m40TbfrW/kvYHUZBYDd6uiLBmnUro6mKA65Uo/QXzQNe0+AjEatP/EfDxs0eXI
-IjCYGGiF2R2oa6xF24yJPswHSzW3+29jl3XSDofLAB0TD+oBXh6gGFwTN4QdGTG3
-AhDm6oozZtQEtMqpcykZRmDFDcgPVjua9Lea7/76N4sIXBhTigOUVeFJGjaUaUer
-QXVfP//8dKC6RsjjLjqpshj2ZkVUA5pjAnBCXJoO2FSwAjkpE/C+lC5Q2fErkdn8
-fJJBLNETUB4Or8ACrnRelq7f19qzcGFULK2tCr2cMMSN6ev51wwgQKoVDeV7LM/W
-dTXjagvA/rEjFNlMGEvFdXwFwcyD/L+5HJe6ABlN1mFofE0T/SUIGHHT9HDvDiNz
-JMM3/k3J1R5+DyYEHQKA2j1T
-=gNSz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWpALwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/Z4QAJYZzdJoao/YrS5IqBEr
+SbBwqbBiXMQDdrtKiQpVtK0FEVDuSOPhTS/p9C75bPq8IK8rlyp0nR1MEEI02kY6
+wycmCn0k8vaGuO5FdhGcVI8K7kkluNuucaauJvGT/NN2jHG6C0PvLTTwrzMggzyc
+8IvZccfLW/F9t7yyf1H1Vo1w/D4egXDc7wx7J4YPMyHv3asV7xzAjInIBLiF2B5w
+WBbgRClxe1CNggI2vX5Xp5F8YLN4bgGbZlnpbaHsb8P766o/8LjfqHfXCJ7RO+0q
+n4XSAFwCsdPxtnlDw6bnR+RHyP4uFWcp+ua4rytniCcuBh8V92XxEClIGUITkgn5
+dSBYjsHHeQHgppZjaDGb6LLCfER0r749b2n0W3tsrNeojPUBG0kfU+hmVKg3/iTV
+gAi1ebZl0QyZ32Ki5bB2Ia0Q0VgloH4bFU+SeYA5R8bj/4qR9Cpj+8oQVHWqywK2
+6atSEcyHYLHBfFlje4743Tnz0jlMU9cJaEun18D37bpvFJ+oYhdPUvxMAGtSiog2
+WMSGOK9hnL+8+zzNfzTaUXMmY5JtSGcL8p2JpOYPnjJNylv4vS5id88qhZwlbzEA
+tpx8/J68+SEaK5rKp6Y/lb7LXVAvdWW7ZuGORzR6Z1IKCM5XnQCe1PNYo5QXiGMU
+d1cDM3m1Y3jhoETHf5mQBLBs
+=4RPg
 -----END PGP SIGNATURE-----
 
---===============6454717774751179963==
+--===============6805697988716447528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5d6b9465ce2-ede6264a1f69.txt
+Content-Disposition: attachment; filename=revlist-a04b8b54547d-0434b6ee1860.txt
 
-536bd000e8099e0c02191a9425558653682b04fb f2fs: explicitly null-terminate the xattr list
-b8993e42288fccdf3407229513c35b2151477a85 pinctrl: lochnagar: Don't build on MIPS
-2e847f62b2af8e579b54fed12393c9abd381d771 ALSA: hda - Fix speaker and headset mic pin config for CHUWI CoreBook XPro
-6dcf3ad9b9c2d0fbb5982b508a4c5a04c0509fb2 mptcp: fix uninit-value in mptcp_incoming_options
-bfbe52498815b7e41c33a51de2cab45464a43336 debugfs: fix automount d_fsdata usage
-416129e6fca4526c481ab36d18b69fc7e0e37a5f drm/amdgpu: Fix cat debugfs amdgpu_regs_didt causes kernel null pointer
-2250850a86566f23c3c38640cefc15cca7b06545 nvme-core: check for too small lba shift
-cd2e8478a6283db071595fcbb544755f19de18d1 ASoC: wm8974: Correct boost mixer inputs
-9a07f8a68ee1ec34db2c3aa32a6250f5a49829b5 ASoC: Intel: Skylake: Fix mem leak in few functions
-1116b21b9bb33c520647957304eef7ee2bba8d25 ASoC: nau8822: Fix incorrect type in assignment and cast to restricted __be16
-62b6b02421377cc92f0e82202d32f3251fa6194b ASoC: Intel: Skylake: mem leak in skl register function
-d3dbe74d228abb50e4426ce416a8aa36b4656f8d ASoC: cs43130: Fix the position of const qualifier
-03672cf7c3c047c1c5b5cae5a9fed0082de24b4c ASoC: cs43130: Fix incorrect frame delay configuration
-8b6b49c88cf456364ed680c236630b5670c86484 ASoC: rt5650: add mutex to avoid the jack detection failure
-4fa42b98166c1c37586440f2e3c56babba397c29 nouveau/tu102: flush all pdbs on vmm flush
-b027eb43cfee84c3f50aa412297deea97337656d net/tg3: fix race condition in tg3_reset_task()
-9f1b726ddaaa225b98f4db732b559d8f402eecf0 ASoC: da7219: Support low DC impedance headset
-3edee6441aa603a2a94e0e15c5ebab4efb98f630 nvme: introduce helper function to get ctrl state
-83dbf7392878c540f54c029ec35bc3b45003820b mips/smp: Call rcutree_report_cpu_starting() earlier
-0539ec60172462b6cfbda590e1501f3ae7e9aaec drm/exynos: fix a potential error pointer dereference
-977b1c607df400510e843ec495ac19c149239168 drm/exynos: fix a wrong error checking
-75854e3f6ef741ecd1b27c539b4377b169f6bd12 clk: rockchip: rk3128: Fix HCLK_OTG gate register
-deb136be03a4cc66f3a5e7f2a3e92c7a98222257 jbd2: correct the printing of write_flags in jbd2_write_superblock()
-92657e297229e7281cdc185c46012e689017dc9b drm/crtc: Fix uninit-value bug in drm_mode_setcrtc
-52a53515b34af3f4a94ee9948bf4a8cc6ea2d5b0 neighbour: Don't let neigh_forced_gc() disable preemption for long
-b79b8029f00750b4ed57627719600bfc0e162c37 jbd2: fix soft lockup in journal_finish_inode_data_buffers()
-1def1456033bacdc38afb1dbc0f2f3de3470db7a tracing: Have large events show up as '[LINE TOO BIG]' instead of nothing
-7e9e68a11a1121b245c2d9bb357955afe39e506f tracing: Add size check when printing trace_marker output
-e4dc0ecbbd42a8f876cb6f2bd2d1e79d6ce0d629 ring-buffer: Do not record in NMI if the arch does not support cmpxchg in NMI
-567b423e62cff5f6c02b645aa4d2aabfabed0817 reset: hisilicon: hi6220: fix Wvoid-pointer-to-enum-cast warning
-73e601e221d62643e9e90913138ce568459eadec Input: atkbd - skip ATKBD_CMD_GETID in translated mode
-c62112d7615928ba542cd215ffa17747e8e1cdc7 Input: i8042 - add nomux quirk for Acer P459-G2-M
-f49555ee5dc599f914c75a1a0d71223ae8f36690 s390/scm: fix virtual vs physical address confusion
-e29522e5614a126b7d39dd35f9f657113d7152b2 ARC: fix spare error
-9dd30f1d08bd02304e0ca4baf416ab933807e435 Input: xpad - add Razer Wolverine V2 support
-4b8cd75538e4a5aaabb9b01c30233b0dbe7c02ce i2c: rk3x: fix potential spinlock recursion on poll
-a786a6faa0447901a81d3e3c67ff24d0b1a472e2 ida: Fix crash in ida_free when the bitmap is empty
-8d2ed74a58e3a64165ea47027d125839294dfa73 net: qrtr: ns: Return 0 if server port is not present
-4a5e64c5743809ec50a191a0c18b2c6f1df5c5c2 ARM: sun9i: smp: fix return code check of of_property_match_string
-fc31e753c1222349bdd198770c2d803c13115c54 drm/crtc: fix uninitialized variable use
-abac8386d1ad1d636f66909aeb0b722a16bc9c9c ACPI: resource: Add another DMI match for the TongFang GMxXGxx
-6b5abd8a34849390247fc9702b966b97e95f009e binder: use EPOLLERR from eventpoll.h
-53bc5d295651c460825ee03bf69ff31a7a93d900 binder: fix trivial typo of binder_free_buf_locked()
-df04d4ebae6145a9b6210ad7421e36d6f4462bba binder: fix comment on binder_alloc_new_buf() return value
-8dcaa50c177617c726ca6b03a9297b76aaf434e1 uio: Fix use-after-free in uio_open
-78d29fbb4d86e793a7429e8eac248d6d41997653 parport: parport_serial: Add Brainboxes BAR details
-fc5eb27c9c139622357c6db5ba9da5af8e00cba1 parport: parport_serial: Add Brainboxes device IDs and geometry
-59c9506ff63b5fdc0f684cdfbb9f219e4b3f8a38 PCI: Add ACS quirk for more Zhaoxin Root Ports
-76df9e2148dc6d33e7f57096dd184e6576460057 coresight: etm4x: Fix width of CCITMIN field
-ede6264a1f69da51def59842f7aea58d4a9c0ead Linux 5.10.209-rc1
+abf5dc6572f569ea3470a72baa813989b2b4807b f2fs: explicitly null-terminate the xattr list
+2294e732b9b8bef1a150df2d7f6dc049a6b2fc31 pinctrl: lochnagar: Don't build on MIPS
+95644176a6178e1a100e1dcc3c767d39a255266e ALSA: hda - Fix speaker and headset mic pin config for CHUWI CoreBook XPro
+6b99580713ea7bd396adfa5fb955445df54a368d mptcp: fix uninit-value in mptcp_incoming_options
+5b9f993c063271a537b9b1ec96ffd07a354de46c wifi: cfg80211: lock wiphy mutex for rfkill poll
+79158d6818e51a865b1056f1c14c76cb0b5a5335 debugfs: fix automount d_fsdata usage
+2766898d6642d01a129cfa611f24ba3e6a839e14 drm/amdgpu: Fix cat debugfs amdgpu_regs_didt causes kernel null pointer
+034ae6b508b9f8ccbaac6b232170b0b9e88a0f2d nvme-core: check for too small lba shift
+b610b1def8c5381bdd186cd883e2b76d80d6ac2b ASoC: wm8974: Correct boost mixer inputs
+196ca67187d34ca617fa4921d4efcb50bd3d747f ASoC: Intel: Skylake: Fix mem leak in few functions
+86e927a7a222c1956cb1bdf1e2c42bf3ff51853a ASoC: nau8822: Fix incorrect type in assignment and cast to restricted __be16
+0cf382c73cb7096b44cfbc9f03963f4581dfbabe ASoC: Intel: Skylake: mem leak in skl register function
+53b314d3852c8e6e74fd520ae7e9ac02007fcb33 ASoC: cs43130: Fix the position of const qualifier
+d1e91010f5a8fc85bf38b734c855a2e5b18201f7 ASoC: cs43130: Fix incorrect frame delay configuration
+a92a703222a78e33de1bf05602ffe7fa2d21e89a ASoC: rt5650: add mutex to avoid the jack detection failure
+688f7e36b8d6574e9dc9f5f83052a9fca90dbeae nouveau/tu102: flush all pdbs on vmm flush
+df015f8f5f0c51bcbba4cb28da1ae6fc8117eac2 net/tg3: fix race condition in tg3_reset_task()
+fa6371d7a7d4f77b1f545d961ddb6c047fa1e567 ASoC: da7219: Support low DC impedance headset
+70274006d5a545566dcc92fb1a334f3132fa9955 ASoC: ops: add correct range check for limiting volume
+1aedb6db5558cd49f3ec198c3eeb0e32d615b260 nvme: introduce helper function to get ctrl state
+3d291ecd935b6c4e7e301d1fa7f070ea34bc3343 mips/smp: Call rcutree_report_cpu_starting() earlier
+a1b6fad02b6ff819fc658abf5b0b6aaa6fb54c94 drm/amdgpu: Add NULL checks for function pointers
+3be12adbb4e729be91a31ef9579919a90c0833dc drm/exynos: fix a potential error pointer dereference
+e99c4cee42609c0f5a2e561714e855a7052e8a8d drm/exynos: fix a wrong error checking
+10409e2f208edc3ae49b0ea01702314a528b4f16 hwmon: (corsair-psu) Fix probe when built-in
+a7a9fd8dbd9b67f8f6fc1f374a9a00db96c35e52 clk: rockchip: rk3128: Fix HCLK_OTG gate register
+2a307da08f2c54b347189448a5800154ce1e30e7 jbd2: correct the printing of write_flags in jbd2_write_superblock()
+6a7921d4b3f6c5ce25a1d5b48aea5aa5026400e1 drm/crtc: Fix uninit-value bug in drm_mode_setcrtc
+bb7701fc7ea5bed180b30134ac1fdf7626d90a0a neighbour: Don't let neigh_forced_gc() disable preemption for long
+5cc1d53395434388e0a00df91d4a5ba45b690b1b platform/x86: intel-vbtn: Fix missing tablet-mode-switch events
+207ce25d0bfcd02b25ba4fd0fa5ea9c1c35162c9 jbd2: fix soft lockup in journal_finish_inode_data_buffers()
+0014be7ae662dca419eb6e8dd6846cfc23a64612 tracing: Have large events show up as '[LINE TOO BIG]' instead of nothing
+c06c364c8df57871d881a8beb420b5a370be2abb tracing: Add size check when printing trace_marker output
+31e96037e2bf59fdbda3743bef901bd30c6c3a31 stmmac: dwmac-loongson: drop useless check for compatible fallback
+9157aea99403e839a72d56c66ea867c1e4c4de4e MIPS: dts: loongson: drop incorrect dwmac fallback compatible
+214758700811ec6757db7285fedaa0aaa1a6fee8 tracing: Fix uaf issue when open the hist or hist_debug file
+ab109578c53381a594a294db509c2cad09a4a833 ring-buffer: Do not record in NMI if the arch does not support cmpxchg in NMI
+3544c6b3e5a91cb2fea8a9dcc6e9f9fbdba0d153 reset: hisilicon: hi6220: fix Wvoid-pointer-to-enum-cast warning
+fb09bd04025859939d6632c2d1aad09e525a198a Input: atkbd - skip ATKBD_CMD_GETID in translated mode
+6ec3102348003bd12b64fc26996dc00a0e51f3c9 Input: i8042 - add nomux quirk for Acer P459-G2-M
+349638e3553d0111585b91ae8cb3934c7843fddf s390/scm: fix virtual vs physical address confusion
+1d029713999598087a872ac5f76663f0dc53594e ARC: fix spare error
+a73b98fe47c205102797c9204e1284063d9f23f5 wifi: iwlwifi: pcie: avoid a NULL pointer dereference
+19e94ca5eca0a9fddea031683e71aeb4e537b7a7 Input: xpad - add Razer Wolverine V2 support
+f7b34eaae595a430434f22ca531410c000b2eae2 ASoC: Intel: bytcr_rt5640: Add quirk for the Medion Lifetab S10346
+dfc9afc138fe47aab2728f3dc162642b2e38eff3 i2c: rk3x: fix potential spinlock recursion on poll
+44c394cac17731b2a81e34bc0dde9698196c4205 ida: Fix crash in ida_free when the bitmap is empty
+1041336e7056d87c04f07579d30b94906fbcfd5b net: qrtr: ns: Return 0 if server port is not present
+5018efc89f743c4b1b5e2273a11668170ea71a7f ARM: sun9i: smp: fix return code check of of_property_match_string
+838e6eee90d1665dfd2a891b3eb40173d1ef2243 drm/crtc: fix uninitialized variable use
+27eaa2d9204f943cbcd39578298ab8065a4f511e ACPI: resource: Add another DMI match for the TongFang GMxXGxx
+fb648ee886d363a1755cce0dfcdcb5f83f58a122 Revert "ASoC: atmel: Remove system clock tree configuration for at91sam9g20ek"
+402382d2b568ff984780026a107620b85fd0fc3c Revert "md/raid5: Wait for MD_SB_CHANGE_PENDING in raid5d"
+811b67b89c7af7db059bbf4cd860f7b72bfbca5b binder: use EPOLLERR from eventpoll.h
+c64c1dea871331ba945674dfdcff46cf1dd9df99 binder: fix use-after-free in shinker's callback
+4ea51d45b5c4a98a9bb54d200026809eec6f0f55 binder: fix trivial typo of binder_free_buf_locked()
+ce14bc697fdbb051a6c3479da2f87627d994f0bd binder: fix comment on binder_alloc_new_buf() return value
+ad754c8aedfb534a0245b552610e67fe61e7c1d3 uio: Fix use-after-free in uio_open
+fa847e410b44639f7111943248c64abcfa54bf03 parport: parport_serial: Add Brainboxes BAR details
+dfb47f94062d6c7a7af5f787bff065aa64085586 parport: parport_serial: Add Brainboxes device IDs and geometry
+b53fcb18c4f55f0ecc3a003e8ba57e6a7cdc3b92 leds: ledtrig-tty: Free allocated ttyname buffer on deactivate
+3cc0d1e2146e809269b38c55af5b03fc7cbb5772 PCI: Add ACS quirk for more Zhaoxin Root Ports
+6cd9b534465943987e18f06f702f88571481ba87 coresight: etm4x: Fix width of CCITMIN field
+0434b6ee1860085e52f7749167031d6e91096a97 Linux 5.15.148-rc1
 
---===============6454717774751179963==--
+--===============6805697988716447528==--
