@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6871416270899051895=="
+Content-Type: multipart/mixed; boundary="===============4849056330548115637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 19 Jan 2024 05:47:59 -0000
-Message-Id: <170564327979.27827.6261789520892740839@gitolite.kernel.org>
+Date: Fri, 19 Jan 2024 05:48:04 -0000
+Message-Id: <170564328432.27904.3439407446645393898@gitolite.kernel.org>
 
---===============6871416270899051895==
+--===============4849056330548115637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 98b1cc82c4affc16f5598d4fa14b1858671b2263
+  - ref: refs/heads/staging-next
+    old: 0a46c21c21c1f1c9a65e29eaae243d0f240bbd6b
     new: 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847
-    log: revlist-98b1cc82c4af-9d1694dc91ce.txt
+    log: revlist-0a46c21c21c1-9d1694dc91ce.txt
 
---===============6871416270899051895==
+--===============4849056330548115637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705643278 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705643283 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1705643278-ee672122494aa5012e499d6fda295994b02f7d35
+nonce 1705643282-7c41315fd21ffb0e4e68ad6934bb3700f407dad6
 
-98b1cc82c4affc16f5598d4fa14b1858671b2263 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 refs/heads/staging-linus
+0a46c21c21c1f1c9a65e29eaae243d0f240bbd6b 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWqDQ8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hqAQAM0OxNKr0jRvzDPqJlYo
-eRdfybg6rHuWIV9y3gNTCtXECpKjaFoAMvtVY4PyEZHh9wUJD8NCimRnawxhGXCU
-2u8dnwINkbP4mFcq3McfnEFxppZLvqNeY/+LBTh5Wm+x6yxvwDGw8YUPjgYP2eUY
-jTkwgVPgMVIhFvniaic4eNWCIu3pS4CXrPKbCfU6784x1dOVzgFfzmeB+KfmTAwB
-G8zF3/1ucQJXvjslXtr0nF/DPgu/B+Qawl/nFZta9WhHNU96FXox27OXU0nD7AcO
-To4iGNpJqwq+ThV3PVG9rBMGRdXc3HMSUfmyn3UomrA2XvzXjJMZ3Hif6i9XxEao
-GbLeHpdn4A6AhrZswOuonGprAt/a6ynhdjNMJJbcmiaeI4f1HFimZcNme4car9X8
-w4Dogc1kqn3rwYzEDdxtoNPKAdepoVi8kAFpURT15sdceCNbyazOsS3lIzCmjUvd
-P6GfJN0FCYIPRM1Am4Q+FIRm2CQcIqj8DqSYBh5PrVKFm5shnWqWcZHczvzeMyqo
-lALq1KBvBuzhmZqvjV2n4GyRfPRPNSg2QLNPUft9ekG2mtpo+6egynHLs8ElIurl
-V7ACibKCVLPNapNUuziFFcJibHXQ4KtsodYjgxiGkqfhFHUU9l6+bnGrA2gzf9Rn
-uH+Ov06Xsl/25IDoj+1RUrJQ
-=RO6y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWqDRMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UAMP/RLKLpM787Pm3DrNEyrW
+oGKMlARJ1gjI+sD2/JfdTQQV07ApOX2SLwAWd/pQqGHQBV9xdqoX2AP5s+8luKpb
+XHRdo5nxlFwy50UKFoScoeng8O8WVpvraQp3bnVL9vAfATa3I41iOawL1l08KDgz
+aQ8+oCHVpC0qTEOcXq1ZDfAjUfO+i8xMiRKhZAS72aAT0o/ziROaHwDZGS/OKniC
+HsPZM2MJiBHaczje6uzsFlxWb9QlKSB5KtB3AoKFyK7ToQH1Te+nF+0R6DkY7Mgh
+ubaKgEJ7jVMejXSXGu7adiwZ7pkx8MT4ls7EeT6HCWQTAH/hZAosfgwxvnpGXxSS
+NIAlzQbGbohJWcnJymbd1dlmQWQJyCRaRelWmWJ2GJX9mbHXbN4WAWIfQtNw/6KY
+n/GGX2qJaQBhVEw0Fe7k6vSyqYwQH68aL4MuT8NoLdfEl/xVocEsTPnQEpUSdUBN
++Q6n/gmohYZ7n/imObh5NT9jiDA+hEAzlAtRkh967WIDpkOMHWCaihcAMNT3+AHx
+Do1Yoja+lj6aiYwbcJ9OivokIX5tcIn+DDCPPFNSogTiG83afOriWQQDtrGQZPCH
+ErV6fB2lY//WwXzDJugO1U+EOEgTLDhdeWnDAI62Ch5uJMRREcT6SeYId69kTtIb
+kRL1Vtq4Zccs8p5hrzl0hbVn
+=opff
 -----END PGP SIGNATURE-----
 
---===============6871416270899051895==
+--===============4849056330548115637==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-98b1cc82c4af-9d1694dc91ce.txt
+Content-Disposition: attachment; filename=revlist-0a46c21c21c1-9d1694dc91ce.txt
 
 745b13e647cd119e70d16b57698e12b7c86ca264 mm/mglru: remove CONFIG_MEMCG
 533c67e6358406727145efae32882c4dc355d6c5 mm/mglru: add dummy pmd_dirty()
@@ -1082,4 +1082,4 @@ b5f66ba2d07180706ffa10df07f202335df190f1 Merge tag 'kbuild-v6.8' of git://git.ke
 e9a5a78d1ad8ceb4e3df6d6ad93360094c84ac40 Merge tag 'for-6.8/io_uring-2024-01-18' of git://git.kernel.dk/linux
 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 Merge tag 'for-6.8/block-2024-01-18' of git://git.kernel.dk/linux
 
---===============6871416270899051895==--
+--===============4849056330548115637==--
