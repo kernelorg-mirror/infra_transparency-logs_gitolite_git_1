@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 19 Jan 2024 13:29:02 -0000
-Message-Id: <170567094211.29217.2863559415655261010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 19 Jan 2024 13:38:52 -0000
+Message-Id: <170567153247.4884.603594564773104072@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/tags/spi-fix-v6.8-merge-window
-    old: 0000000000000000000000000000000000000000
-    new: c350c29aa41338185f56e689eae819b7b2318a2c
+  - ref: refs/heads/vfs.misc
+    old: 30a1b9d12728ba6c56f1967db2b8754f844e5e3b
+    new: 0778b0a1a8d2d64af602143097b029de44cf8642
+    log: |
+         f67dae6ba1749cf420a3de565ce2dbc778e5eea2 selftests/filesystems:fix build error in overlayfs
+         0778b0a1a8d2d64af602143097b029de44cf8642 selftests/move_mount_set_group:Make tests build with old libc
+         
