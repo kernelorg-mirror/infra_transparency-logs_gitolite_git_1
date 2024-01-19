@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2716600881539592499=="
+Content-Type: multipart/mixed; boundary="===============5234028256673117696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 19 Jan 2024 05:42:58 -0000
-Message-Id: <170564297831.24045.11756630828673333292@gitolite.kernel.org>
+Date: Fri, 19 Jan 2024 05:43:05 -0000
+Message-Id: <170564298523.24139.5244084152022149051@gitolite.kernel.org>
 
---===============2716600881539592499==
+--===============5234028256673117696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 2cc14f52aeb78ce3f29677c2de1f06c0e91471ab
+  - ref: refs/heads/driver-core-next
+    old: e3977e0609a07d86406029fceea0fd40d7849368
     new: 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847
-    log: revlist-2cc14f52aeb7-9d1694dc91ce.txt
+    log: revlist-e3977e0609a0-9d1694dc91ce.txt
 
---===============2716600881539592499==
+--===============5234028256673117696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705642977 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705642984 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1705642976-5b850798b8bfce9bd1256be91966c3d0d363a9c5
+nonce 1705642981-b8e9e06099fbc42055ebe60402ace4b806c19390
 
-2cc14f52aeb78ce3f29677c2de1f06c0e91471ab 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 refs/heads/driver-core-linus
+e3977e0609a07d86406029fceea0fd40d7849368 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWqC+EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PNUQAJxa2Bfj0vZ2AKp7hJC6
-GAAJkA0PDdlvak5T/7JPEkakKcDM2XhO5ha4eAdBnm4mKJoKPxAXroTqSB84nQU0
-p7ewl7A0P5/VqYFkOy6u/JBUmpc9BwginpiwnkrytcQ0pdMFkJMnAWc2S97G5da7
-oe2vBHRWTazvohr9ZkebAM0+OByR3k6uc7szkg1iQBkgjl781fzrLTtGvqJqZBHz
-jSHilcBd59fn4g+Oe0uxadjD73h+IG4Gra/YnH8Aw8RttLJ9moM6Kg32uTfFXxtf
-z98dXZRz0QdwGc8htxowXT2+iZMYHSq9Gzt5F1R+HR0zxpOalX0h8rpR4BSCpoie
-fnrDfmSJU6Erca/L5fSe34BhYKmyYX28v4D4JyoY8ajBJ5+93tMS7taQ67zAWssf
-augFaIGt46w5v0C/NUZBs+Y3aM1NRaDlgxXjaLUtuK1LHAQyE23hQ34a8mm9sGSU
-zpUuXx09Na3ACnQdad15QEOnU28gr+jm85dKPeM5G112NvubPmHm33ndUvOyCJKU
-YuYDA/VpDGyoEu3aWD0ceKZ1yXekEPwXSffEPeIeME0NCGi620FL5llHY6+PKZg3
-zwAxwt3Do1a2F4iuGEf2B41ftmSKr/YCPdD9D9sver5g02N2XqmxitN8fFkzoxGy
-NbFrgPIPKGQJE9B7+aOJq0Ox
-=JPc0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWqC+gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NdIP/1gyZqBGORDreV92knxo
+yhLFsv/sX3wThPAO10njwD3soqz1F/FmNulsXWEkNRvKEqlWdrec3b0IiPcryA9B
+oh5jMRIcLzXW4tSU62Zs1ORmE2sFmwctPn4kj/ZvIfuu1w+gyOH98euBr29LV6m4
+iEuSUqoPaYRvWSHZnTI8351xhcS69fZTEyluFl4z4MmYHqvoAE38MOGez5SJVHkC
+W/GNni426JTwb7YPG/Sg7NjncTwFjPssfZ2fEICINFCLTm2IwIFj76PInr8143cQ
+aYyd/t0gW+5NGxJGbX0YWrM/FbWwXW7VWkxEb0NN33bu5TZ5tGaTIas7ukhl/meX
+Vw1SyKYs/DGFO+p3pOwwJnhJnmsP6prkUKSWK9ZrZPA0sCHRWCfF99tWxEUV1JQv
+9oV5OzcqCLi4mVJz5yttar39YtgFqi4wj3JQwNNWla/P6bOWWCZ/GmZdnPTrnEw9
+JY04lyH3WpT4XLty4CBPHSKihsf5YTGw1W7E4kqBqHSHFIFmX7WcKaPF76RdHfiw
+RO1QAVMdYvBg5qZEv8pvxlYy976pSbpFB8iG4vxn+kzXTsUDob5U7UUyW8aQ3Bq5
+yeAbwreA/GJzHy5RdkFeUM+DjcanFssC4VOCoBl9/bvoH37jdSxNAdWz1rwauGwz
+dZy/XsEZj0JrY2ZAVlPxlauS
+=dMEd
 -----END PGP SIGNATURE-----
 
---===============2716600881539592499==
+--===============5234028256673117696==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2cc14f52aeb7-9d1694dc91ce.txt
+Content-Disposition: attachment; filename=revlist-e3977e0609a0-9d1694dc91ce.txt
 
+61dd3f246b3adaabff3241c586f2210ac91b05a4 mm/mglru: add CONFIG_LRU_GEN_WALKS_MMU
 745b13e647cd119e70d16b57698e12b7c86ca264 mm/mglru: remove CONFIG_MEMCG
 533c67e6358406727145efae32882c4dc355d6c5 mm/mglru: add dummy pmd_dirty()
 7eb2d01a1bea78310a83bdebc880625c03cb94f6 mm/mglru: remove CONFIG_TRANSPARENT_HUGEPAGE
@@ -629,7 +630,6 @@ de927f6c0b07d9e698416c5b287c521b07694cac Merge tag 's390-6.8-1' of git://git.ker
 183a967ad19c97585a4fa79b8748b237311af76c ARM: defconfig: remove CONFIG_NET_ETHERNET references
 114854438defa24fc82948591fe4d56f8ee925da ARM: defconfig: remove CONFIG_SLUB references
 c2dba4d19f6542e52e59873a596cce0388d0df64 ARM: defconfig: remove dead platform options
-e3977e0609a07d86406029fceea0fd40d7849368 Revert "kernfs: convert kernfs_idr_lock to an irq safe raw spinlock"
 89c4b588d11e9acf01d604de4b0c715884f59213 MIPS: Alchemy: Fix an out-of-bound access in db1200_dev_setup()
 3c1e5abcda64bed0c7bffa65af2316995f269a61 MIPS: Alchemy: Fix an out-of-bound access in db1550_dev_setup()
 14b15aeb3628fc2fd1fe7f6c94f6ea7b1557bc27 dt-bindings: PCI: brcmstb: Add property "brcm,clkreq-mode"
@@ -1082,4 +1082,4 @@ b5f66ba2d07180706ffa10df07f202335df190f1 Merge tag 'kbuild-v6.8' of git://git.ke
 e9a5a78d1ad8ceb4e3df6d6ad93360094c84ac40 Merge tag 'for-6.8/io_uring-2024-01-18' of git://git.kernel.dk/linux
 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 Merge tag 'for-6.8/block-2024-01-18' of git://git.kernel.dk/linux
 
---===============2716600881539592499==--
+--===============5234028256673117696==--
