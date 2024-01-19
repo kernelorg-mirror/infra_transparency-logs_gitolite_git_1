@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============8288968184693624294=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Fri, 19 Jan 2024 15:53:09 -0000
-Message-Id: <170567958910.5417.7117611973008877963@gitolite.kernel.org>
+Date: Fri, 19 Jan 2024 15:53:16 -0000
+Message-Id: <170567959603.5544.4309573758963933814@gitolite.kernel.org>
+
+--===============8288968184693624294==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,18 +15,31 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
 user: colyli
 changes:
-  - ref: refs/heads/OLK-5.10
-    old: 4ab210f9ccc9d3718760515636ed70d628bcb49d
-    new: 26f718c6e41b3a8a59f843439fa6f2f6816427d8
-    log: |
-         79d78b3cf516b73f843f6bf826f665728e54e0bf vhost: use kzalloc() instead of kmalloc() followed by memset()
-         8592c567d98119dad7d09d050c969b9d63eb7639 mm/filemap: avoid buffered read/write race to read inconsistent data
-         e4bd0053052e24e0c30e34d05ec042203c41976c !3981  vhost: use kzalloc() instead of kmalloc() followed by memset()
-         b3d21fd2e1824b2684bb3dc54d0ebbeca760a109 hns3 udma: add print mailbox description
-         7be0499d34e546011235007c1b37a860522f616b !4024 udma: add mailbox description printing.
-         ac9ef820bdaa653e44497342c6a142e97482a0a1 smb: client: fix OOB in receive_encrypted_standard()
-         26672a9971450d74fc171eedc25c96ae6a916dbe tipc: fix a potential deadlock on &tx->lock
-         c30365124a8f93765bf3aafae50e2377169c9eb4 !4064  smb: client: fix OOB in receive_encrypted_standard()
-         ce086fc72e5bf903d922fed11609b26553379238 !4069  tipc: fix a potential deadlock on &tx->lock
-         26f718c6e41b3a8a59f843439fa6f2f6816427d8 !4019  mm/filemap: avoid buffered read/write race to read inconsistent data
-         
+  - ref: refs/heads/openEuler-1.0-LTS
+    old: deb75da8f1505a151af1f1e86c99df8e4c96a1ae
+    new: 0d29fbb6f9321a629cbf0ca30f15ce6f333ed7b9
+    log: revlist-deb75da8f150-0d29fbb6f932.txt
+
+--===============8288968184693624294==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-deb75da8f150-0d29fbb6f932.txt
+
+b657055e2873ed0555695f9a994b67f596bdaa64 vhost: use kzalloc() instead of kmalloc() followed by memset()
+e8cafee5b3497f95a53977527811b1704fb469c7 netfilter: nf_tables: Reject tables of unsupported family
+f69412d6e6521d81441b06deeee66f0761d118ba crypto: hisilicon - replace 'smp_processor_id' with the raw version of the macro
+75be503b1135c0e5bb91f646c04c38a39fe07d19 crypto: hisilicon/qm: fix several issues
+9c16bc9b692feee4d789eb6179550170d88295c0 !3980  vhost: use kzalloc() instead of kmalloc() followed by memset()
+6d42798c7373bc6dd09bbf2b2c01bb78730a2e90 !4025  crypto: hisilicon - replace 'smp_processor_id' with the raw version of the macro
+b57fe44e4c021d6fcce623b2aa52c019a4e45e05 !4039  crypto: hisilicon/qm: fix several issues
+8d08629f3850b00f026301fb76d59b0fb1f67ca6 smb: client: fix OOB in receive_encrypted_standard()
+217d499c2ca887d4a7540346ed1914003a7ae2f5 Input: add bounds checking to input_set_capability()
+1a78fe97f0ee413ef97df1ff6ca2952df43d51ab !4021  netfilter: nf_tables: Reject tables of unsupported family
+304fb2de6dbe50b59185f8f54771d9b64671b582 !4065  smb: client: fix OOB in receive_encrypted_standard()
+ab9b34b6c4e75ed66cc38a60cf7027e84d5c80e3 Revert "rtnetlink: Reject negative ifindexes in RTM_NEWLINK"
+78aea8e05ba4a14c074df96b0c0b553f7dcb92eb rtnetlink: Reject negative ifindexes in RTM_NEWLINK
+8135318753544d6f8afa1f01a47c81fbccb59e39 !4080  rtnetlink: Reject negative ifindexes in RTM_NEWLINK
+0d29fbb6f9321a629cbf0ca30f15ce6f333ed7b9 !4067  fix CVE-2022-48619
+
+--===============8288968184693624294==--
