@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5146008477983770282=="
+Content-Type: multipart/mixed; boundary="===============4301801242201975749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 19 Jan 2024 04:05:03 -0000
-Message-Id: <170563710382.16974.7089784486548538730@gitolite.kernel.org>
+Date: Fri, 19 Jan 2024 04:43:12 -0000
+Message-Id: <170563939255.12688.122036060651109263@gitolite.kernel.org>
 
---===============5146008477983770282==
+--===============4301801242201975749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -13,49 +13,19 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+user: andrii
 changes:
-  - ref: refs/heads/master
-    old: 35ac085a94efe82d906d3a812612d432aa267cbe
-    new: 736b5545d39ca59d4332a60e56cc8a1a5e264a8e
-    log: revlist-35ac085a94ef-736b5545d39c.txt
+  - ref: refs/tags/for-linus
+    old: bcaedf3608b9f2aa2a829348c581390e375137d3
+    new: 4d5b6bd29c970e9216743cd2bfbc01c7ac7d00f9
+    log: revlist-bcaedf3608b9-4d5b6bd29c97.txt
 
---===============5146008477983770282==
+--===============4301801242201975749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35ac085a94ef-736b5545d39c.txt
+Content-Disposition: attachment; filename=revlist-bcaedf3608b9-4d5b6bd29c97.txt
 
-66e82d219924f6112509f7e8f8e687fcc81a16e3 ALSA: mark all struct bus_type as const
-68f7f3ff6c2a0998be9dc07622bd0d16fd1fda20 ALSA: hda/tas2781: configure the amp after firmware load
-99af5b11c57d33c32d761797f6308b40936c22ed ALSA: hda/realtek: enable SND_PCI_QUIRK for Lenovo Legion Slim 7 Gen 8 (2023) serie
-ba7053b4b4a4ddcf530fa2b897e697004715d086 ALSA: hda: Add driver properties for cs35l41 for Lenovo Legion Slim 7 Gen 8 serie
-bd968aef071ab177a47034c2e45048a3c192f0b8 Merge branch 'topic/cs35l41' into for-next
-682fb5be353117b7321f1dfb65b7bb98cbfe59ab MIPS: Allow vectored interrupt handler to reside everywhere for 64bit
-8e1803900ef1b61ed33e6963d9e6a95028b41110 MIPS: Remove unused shadow GPR support from vector irq setup
-68cf9d82f75c07d4117bca8129a770efa9d89f62 RDMA/erdma: Introduce dma pool for hardware responses of CMDQ requests
-63a43a675cb90e8a56e9119fff68292561204b27 RDMA/erdma: Add hardware statistics support
-b1a1eaf6183697b77f7243780a25f35c7c0c8bdf Merge tag 'iio-for-6.8b' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
-0eccea7150e3b8dfb3a08694964478966525c4c3 PCI: vmd: Remove usage of the deprecated ida_simple_*() API
-130f335630b6475d314658ef69b225db8e328daa misc: pci_endpoint_test: Remove usage of the deprecated ida_simple_*() API
-0171e067d7daf06374c3e9c6ddf1a99fca10469c dw-xdata: Remove usage of the deprecated ida_simple_*() API
-65cdd3ada7dcec1863022b2ca218ae409f99c759 dt-bindings: input: iqs269a: Add bindings for slider gestures
-00521a9bf96eaab358886d7a0c531d52027d3241 Input: iqs269a - add support for slider gestures
-56c083e3f5723c68055ab5f97d21e55aab7bd8ef dt-bindings: input: iqs269a: Add bindings for OTP variants
-992bbc9e9ab9abe5bc1ea9a1a8d61331b28f848e Input: iqs269a - add support for OTP variants
-f7e2910fcec1fb2f78888e33ee994653fc29fb15 ACPI: NFIT: Use cleanup.h helpers instead of devm_*()
-ced296f636358c1593df0ef15523fa9aa93468ac ARM: Delete ARM11MPCore perf leftovers
-fcf410e050a9c046b2907e3ab9145eb974044e0e ARM: MAINTAINERS: drop empty entries for removed boards
-ea15d0c571deaafe90281dbec74f8bd2e143b3db Merge tag 'qcom-arm64-defconfig-for-6.8-2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/defconfig
-f81647e76136d2a98b2623e02ef563b0e5f9519c Merge tag 'sprd-dt-6.8-rc1' of https://github.com/lyrazhang/linux into soc/dt
-1e672c2585ee3ef13695d5936cc59a0d73143fc0 Merge tag 'arm-soc/for-6.8/devicetree' of https://github.com/Broadcom/stblinux into soc/dt
-2f5ed2cacc1125e5b48677b92a445761c2ca8e4e Merge tag 'qcom-arm32-for-6.8-2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/dt
-f3a4d7c3ffc3970e0f658711a2bb604d08999c0f Merge tag 'qcom-arm64-for-6.8-2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/dt
-228307ad3f9e937fcdc4ea4c24b52acf40bbfc32 Merge tag 'v6.8-rockchip-dts64-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into soc/dt
-c810729fe6471aa18e2b05bde4b7fb9d872b4ca0 kernfs: fix reference to renamed function
-b2363297508a83b9f92ac8dadfbd1fbec2ee22a9 Merge tag 'v6.8-rockchip-dts32-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into soc/dt
-34281b4d916f167a6f77975380e1df07f06248b7 HID: hid-steam: Avoid overwriting smoothing parameter
-917972636e8271c5691710ce5dcd66c2d3bd04f2 HID: hid-steam: Disable watchdog instead of using a heartbeat
 691ead124a0c35e56633dbb73e43711ff3db23ef HID: hid-steam: Clean up locking
 555b818adb97eca70210a49ba3f1d27882dde092 HID: hid-steam: Make client_opened a counter
 4f9a5a9769cc77075e606537e15747e8b8e9c7c9 HID: hid-steam: Update list of identifiers from SDL
@@ -1050,5 +1020,35 @@ da3c45c721e2807b2effdea8f41ece96bbf47b15 Merge tag 'hwmon-for-v6.8-p2' of git://
 378de6df19800dc2c18c355c8c2c5528f98e879a Merge tag 'rtc-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 ed8d84530ab0a3b7b370e8b28f12179314dcfcc3 Merge tag 'i2c-for-6.8-rc1-rebased' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 736b5545d39ca59d4332a60e56cc8a1a5e264a8e Merge tag 'net-6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+6bca561f30d27d5c7b11a9f9d9923fb4ca2a8de3 bpf: align CAP_NET_ADMIN checks with bpf_capable() approach
+7e9b27ddd237ea63a131a5830f23d895fd805a68 bpf: add BPF token delegation mount options to BPF FS
+15c9f34144afa6efbd09d5696bf76d539bdc000e bpf: introduce BPF token object
+c4a6599f80378b000135ccd0ad930deee982710c bpf: add BPF token support to BPF_MAP_CREATE command
+a62281c3ac4fcde482aa16c0051e9161c6844ea4 bpf: add BPF token support to BPF_BTF_LOAD command
+4762570d701c16d816899c8e7bee5fdfffc4e313 bpf: add BPF token support to BPF_PROG_LOAD command
+355fd4048202b4f07155acc2a9d3178a7b2cf15f bpf: take into account BPF token when fetching helper protos
+88148ed24b666bf1af3e306d343f3c430c4316f8 bpf: consistently use BPF token throughout BPF verifier logic
+03188e8dc35742c8562d93d5d030c6f85741ac63 bpf,lsm: refactor bpf_prog_alloc/bpf_prog_free LSM hooks
+cc32b12242e671eed547e9cbee1cba90c5a501e4 bpf,lsm: refactor bpf_map_alloc/bpf_map_free LSM hooks
+c04cfa2a6199c6aa926ef51aef1d93503d7118e2 bpf,lsm: add BPF token LSM hooks
+c08853e9482b1beb0d5a471d25000552af00d80b libbpf: add bpf_token_create() API
+09a93f98bbc2f16ff74ff5bf9946911b17f52c79 libbpf: add BPF token support to bpf_map_create() API
+1a280395127a8448387ea5d43eb4b9ef0b9314b7 libbpf: add BPF token support to bpf_btf_load() API
+19c770626db843e1a3ae8be65f3245fc9a6ccdd1 libbpf: add BPF token support to bpf_prog_load() API
+dd068d102b455e113a05eecc9dd13080b5c0607c selftests/bpf: add BPF token-enabled tests
+b92bbaca088562fe7fd666879a05f6448a4087cf bpf,selinux: allocate bpf_security_struct per BPF token
+08235e1aa493743ead00d0d60e342516d3049b61 bpf: fail BPF_TOKEN_CREATE if no delegation option was set on BPF FS
+10d7d8abcd52987bf12967249f2f00d68118aa2f bpf: support symbolic BPF FS delegation mount options
+4fe0c39251da7cff3a78548a073aeebbcf595ff9 selftests/bpf: utilize string values for delegate_xxx mount options
+d672bd80e531fd052d4d6ef15b921c6ca9bae14f libbpf: split feature detectors definitions from cached results
+eecb0db9b52c90a54c04ca361f28683b86e4a311 libbpf: further decouple feature checking logic from bpf_object
+b419a3b76599b58eb5bbe720b69c5c9825911dfe libbpf: move feature detection code into its own file
+588e01a321a68e49af1ccc16a407aee235d720b8 libbpf: wire up token_fd into feature probing logic
+eeb1054bac20f422c4427510a390904e11f063d9 libbpf: wire up BPF token support at BPF object level
+3e65f58053fe70e5a32336276b1b61302041963f selftests/bpf: add BPF object loading tests with explicit token passing
+4b7a641ff4a8652cc6ed0993c404645d8c5671c2 selftests/bpf: add tests for BPF object load with implicit token
+572bddb13e965369eec93367b7e99dbaab10a9a1 libbpf: support BPF token path setting through LIBBPF_BPF_TOKEN_PATH envvar
+340247c1f0fc8f663a666cc6d65f2510a391ff11 selftests/bpf: add tests for LIBBPF_BPF_TOKEN_PATH envvar
+df4ffe6e674b8421230276238a0107966b85e044 selftests/bpf: incorporate LSM policy to token-based tests
 
---===============5146008477983770282==--
+--===============4301801242201975749==--
