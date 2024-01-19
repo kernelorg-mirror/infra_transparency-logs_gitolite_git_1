@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 19 Jan 2024 15:21:43 -0000
-Message-Id: <170567770349.15843.10876155617089209484@gitolite.kernel.org>
+Date: Fri, 19 Jan 2024 15:22:02 -0000
+Message-Id: <170567772289.16017.6893813182867938754@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf
 user: andrii
 changes:
-  - ref: refs/heads/bpf-token
-    old: df4ffe6e674b8421230276238a0107966b85e044
-    new: cf5e8dc4a8e902c29a493350e2f4b2ff0c8028fb
+  - ref: refs/tags/for-linus
+    old: 4d5b6bd29c970e9216743cd2bfbc01c7ac7d00f9
+    new: 5236330c08bb34d106dc658279b64668fb4c2b3d
     log: |
          a5a4e1b20cd4de4398f6e54b818bb0315b44675c libbpf: move feature detection code into its own file
          396765b5dff91f8ee5a0c83e1eddf8d1d5ed04cb libbpf: wire up token_fd into feature probing logic
