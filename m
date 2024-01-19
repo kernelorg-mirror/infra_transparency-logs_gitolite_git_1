@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3793342087584731964=="
+Content-Type: multipart/mixed; boundary="===============0419886724726166287=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 19 Jan 2024 05:39:51 -0000
-Message-Id: <170564279113.20829.17471171589102285593@gitolite.kernel.org>
+Date: Fri, 19 Jan 2024 05:39:59 -0000
+Message-Id: <170564279905.20953.11608666216872505103@gitolite.kernel.org>
 
---===============3793342087584731964==
+--===============0419886724726166287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 610a9b8f49fbcf1100716370d3b5f6f884a2835a
+  - ref: refs/heads/char-misc-next
+    old: 5850edccec30325707f953bc088497b3b9041231
     new: 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847
-    log: revlist-610a9b8f49fb-9d1694dc91ce.txt
+    log: revlist-5850edccec30-9d1694dc91ce.txt
 
---===============3793342087584731964==
+--===============0419886724726166287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705642790 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705642798 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1705642789-4b98b6e2a17632b98fbab8f2a200fbda7b51385c
+nonce 1705642795-68172666a4d8f13df6504ca0c8f0be9e700f310a
 
-610a9b8f49fbcf1100716370d3b5f6f884a2835a 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 refs/heads/char-misc-linus
+5850edccec30325707f953bc088497b3b9041231 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWqCyYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K9cP/0hlg1ZRdOHWIm4eINZ0
-zMms7KGm3gtvINyzD91ptsuqODmh08vMDMy/QPNWdmZHKVqPbAKFi5Um1pwxp06O
-r8vCUNdqU+jWgRPYu/rozzDc+NDM20FDKIigE7iwuwmV4X6qyZTY89FbQRfaSL09
-QaelOIeL1bbDLAAC2v7Axow/XcVzFuWfgMJV4WaI6MB02fvoZxDDhmb8TI+8mPTZ
-rsl/L8nnICTqorEkx6K0gO2/zmFayICDzG269DCNp+xb7H/mGUBhXf7JrgH2V5Vl
-JtdzviLfrx5Kq7/EMrTfPqBdCN3+WUE1shPebcCr0chTjI3GOzbtmNIyYw0YZ12x
-f5CJzBIcCRxjSA7K2WNFtq2Iz6MFWWZjsVErNx4W9eDei4yrCRaAXEwTkUZ31bpM
-hm8Wk2L0z9Uk36r+5Kj6PqkUZ5KomESVJIHcelIey0nZiEgtDy3JFE767qst4ZSz
-M8f4HSTLrmrtWxFhlyIKCp9HEJOEdEFy+QA55PT37NsBPzS6Tyb44lmZDpdGxd2W
-N/6IqUDYTbHcKbhNlqnUBnavzOGtQmt2Tx5GsGs1uCZJd85T3OS7rrxKLnUUWMAg
-dIG3dwEkV4Vyam7UNIPyTDemJLdX6vMcvalyjVslKOfujlqEXxiuHO3QMuLFKXPD
-Q8hJH6Qp34CKt7m+CJou54BM
-=1Cgn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWqCy4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+90AP/R/nrNi4GLniX5Hbd4Lm
+gG/bT+Z1BqsLdSJjLJRxNBcNb9nP3y7ePi3gDM7D19gjqalwHg3CF4A+NhXHRSkS
+gv1IPJkjOvmlNldtVTvUIYXkI3nsFSzyI5SMn+gGB/fmIPTMjIWVGvsBgSxX4xvo
+JYYzkmK95FFLe3O3ZlnbYvEZEB7yvi4/AR9/ODUpewB/yYqVvWCLdPmWfuths4hv
+y7S3ZLOn4fELbPKFVloJk3n4P7X0h6dvU+dwc8vNG+3NE2IIvFlfRQrn0ZzZ/Gcs
+iJKzSyPar58o2yOzxi+6/otUiAuKeE/IdNFDaxdUtNfhNlq0UYYm8IAD+PsN71OP
+iZzdskPVpc33bBB470KdCfn4LDWVbDd7HzVwPqGZnVF/vfNuDEvkiBIzSpfmJzM+
+lBAa5xiUFK+Nf0ducK1d8ts8i4J4w1BFOKOWU1fq4OVKHuKrEP0PIzL3IRvTO99b
+YqV9DwId1gO49ZoS7kig1W+r+qCcaVf+ztYqfiob6qaiy2rEp99yh+bgu6O7Z6CF
+fpZdyMYpl3IFXuX5tAsV42hn/JDYrY12mMq6Z4x/YGS9X/2HdVEo4bBPEH7vYN/+
+EJ4xmDuEY2eRSg1TSb8z18CCA2bUVcdi1J/FKPc0BEvoee/5xfFtiHcfu2d2SuIh
+mAOTqiHjw1u5bo5YuK91EivV
+=FJ/M
 -----END PGP SIGNATURE-----
 
---===============3793342087584731964==
+--===============0419886724726166287==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-610a9b8f49fb-9d1694dc91ce.txt
+Content-Disposition: attachment; filename=revlist-5850edccec30-9d1694dc91ce.txt
 
+61dd3f246b3adaabff3241c586f2210ac91b05a4 mm/mglru: add CONFIG_LRU_GEN_WALKS_MMU
 745b13e647cd119e70d16b57698e12b7c86ca264 mm/mglru: remove CONFIG_MEMCG
 533c67e6358406727145efae32882c4dc355d6c5 mm/mglru: add dummy pmd_dirty()
 7eb2d01a1bea78310a83bdebc880625c03cb94f6 mm/mglru: remove CONFIG_TRANSPARENT_HUGEPAGE
@@ -204,7 +205,6 @@ e30948f7c0730d9fb2271ff3eadd43eda4e44740 ubi: Split io_failures into write_failu
 2fe48aaab2669b3fbb11bf1b822a1b07424eef56 mtd: Add several functions to the fail_function list
 ac8e9f64f51b6e61e7181a44525e1d4cd1cb338a ubifs: fix kernel-doc warnings
 adbf4c4954e33e623897058a617c583d65a177f6 ubi: block: fix memleak in ubiblock_create()
-5850edccec30325707f953bc088497b3b9041231 android: removed duplicate linux/errno
 2307157c85096026043ba11f9ad8393c31515c45 RDMA/efa: Add EFA query MR support
 363096a27f9087bc3a081e157b09683ff18508d4 nfp: flower: Remove usage of the deprecated ida_simple_xx() API
 405cd9fc6f44f7a54505019bea60de83f1c58365 net/sched: simplify tc_action_load_ops parameters
@@ -1082,4 +1082,4 @@ b5f66ba2d07180706ffa10df07f202335df190f1 Merge tag 'kbuild-v6.8' of git://git.ke
 e9a5a78d1ad8ceb4e3df6d6ad93360094c84ac40 Merge tag 'for-6.8/io_uring-2024-01-18' of git://git.kernel.dk/linux
 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 Merge tag 'for-6.8/block-2024-01-18' of git://git.kernel.dk/linux
 
---===============3793342087584731964==--
+--===============0419886724726166287==--
