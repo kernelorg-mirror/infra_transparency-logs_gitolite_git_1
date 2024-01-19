@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5234028256673117696=="
+Content-Type: multipart/mixed; boundary="===============9034694248303757316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 19 Jan 2024 05:43:05 -0000
-Message-Id: <170564298523.24139.5244084152022149051@gitolite.kernel.org>
+Date: Fri, 19 Jan 2024 05:43:13 -0000
+Message-Id: <170564299325.24272.1434858569099654090@gitolite.kernel.org>
 
---===============5234028256673117696==
+--===============9034694248303757316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: e3977e0609a07d86406029fceea0fd40d7849368
     new: 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847
     log: revlist-e3977e0609a0-9d1694dc91ce.txt
 
---===============5234028256673117696==
+--===============9034694248303757316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705642984 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705642991 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1705642981-b8e9e06099fbc42055ebe60402ace4b806c19390
+nonce 1705642989-f626ea060f43e25f929b0d52a37ae7c50f2fe387
 
-e3977e0609a07d86406029fceea0fd40d7849368 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 refs/heads/driver-core-next
+e3977e0609a07d86406029fceea0fd40d7849368 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWqC+gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NdIP/1gyZqBGORDreV92knxo
-yhLFsv/sX3wThPAO10njwD3soqz1F/FmNulsXWEkNRvKEqlWdrec3b0IiPcryA9B
-oh5jMRIcLzXW4tSU62Zs1ORmE2sFmwctPn4kj/ZvIfuu1w+gyOH98euBr29LV6m4
-iEuSUqoPaYRvWSHZnTI8351xhcS69fZTEyluFl4z4MmYHqvoAE38MOGez5SJVHkC
-W/GNni426JTwb7YPG/Sg7NjncTwFjPssfZ2fEICINFCLTm2IwIFj76PInr8143cQ
-aYyd/t0gW+5NGxJGbX0YWrM/FbWwXW7VWkxEb0NN33bu5TZ5tGaTIas7ukhl/meX
-Vw1SyKYs/DGFO+p3pOwwJnhJnmsP6prkUKSWK9ZrZPA0sCHRWCfF99tWxEUV1JQv
-9oV5OzcqCLi4mVJz5yttar39YtgFqi4wj3JQwNNWla/P6bOWWCZ/GmZdnPTrnEw9
-JY04lyH3WpT4XLty4CBPHSKihsf5YTGw1W7E4kqBqHSHFIFmX7WcKaPF76RdHfiw
-RO1QAVMdYvBg5qZEv8pvxlYy976pSbpFB8iG4vxn+kzXTsUDob5U7UUyW8aQ3Bq5
-yeAbwreA/GJzHy5RdkFeUM+DjcanFssC4VOCoBl9/bvoH37jdSxNAdWz1rwauGwz
-dZy/XsEZj0JrY2ZAVlPxlauS
-=dMEd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWqC+8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J9IQALXyMF4PLe/KhF8xzAf6
+ZyCGva4lDJZOACx5X725/M/pplEmefjehhJ3Q1emZd7QzSoeIpCcAA0T99D+6zrL
+plhhBGCcUMwhVHdoQVED0O1xeXherNc2qvz48glMPVadhPGlZ85AJkQv4k2pwOp3
+QE0rH2Mt0jKVqGOEaVFVonuW4XsMiy+DP30Tl/RtLJNkrMiX7YCkri0q6dSg3BWm
+/OPWoQMGIJ0TaymDeZrchBh0U7bPCXAdpZf+q2sbyLLuVJptfQi0vatl4qO2g6xS
+atyTA7S2H6YQ28bJeeclc2kSkvpd1Ap9cJ9iRTofYHG0aRPrVgY4INnmhuOJJ+nf
+x7eByzjpemH7DCmHm62LyvU5BdHmySi5mqMfdCidsKgSX7ZSJUTN7ZZUk/GpABL1
+NK4saPqpsedWaYQCmhgHKJto1SMZjb/X67VkHY4XfPsFMfNqJM6KDD+5pj7Y4d3X
+Dau0BMuyJVZvHZ23EAv9KjdWnZXqVLL5eHPhEoyiftIlO1qw3sSvXiC7GVVw/+Jc
+Ap0nga8Zbn5KUX/+YdY3qD7Faq1cfgZiaSPaV5dSLCkbJniuNA7pnB6auu1O0X0g
+6QrHWAWn4xfgKdbcTuPT19324NGX7eeHjvlLPGli25Mc972MGzQ7PF0KZNhrsoIr
+OXzhraUA98scONiBmDtvaCTI
+=X2Ip
 -----END PGP SIGNATURE-----
 
---===============5234028256673117696==
+--===============9034694248303757316==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ b5f66ba2d07180706ffa10df07f202335df190f1 Merge tag 'kbuild-v6.8' of git://git.ke
 e9a5a78d1ad8ceb4e3df6d6ad93360094c84ac40 Merge tag 'for-6.8/io_uring-2024-01-18' of git://git.kernel.dk/linux
 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 Merge tag 'for-6.8/block-2024-01-18' of git://git.kernel.dk/linux
 
---===============5234028256673117696==--
+--===============9034694248303757316==--
