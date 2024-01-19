@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5895150587709762976=="
+Content-Type: multipart/mixed; boundary="===============6185743055870317159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 19 Jan 2024 22:08:16 -0000
-Message-Id: <170570209621.20297.8054641490450521391@gitolite.kernel.org>
+Date: Fri, 19 Jan 2024 22:08:56 -0000
+Message-Id: <170570213622.20589.7044722997939426749@gitolite.kernel.org>
 
---===============5895150587709762976==
+--===============6185743055870317159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,40 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 3e7aeb78ab01c2c2f0e1f784e5ddec88fcd3d106
-    new: 736b5545d39ca59d4332a60e56cc8a1a5e264a8e
-    log: revlist-3e7aeb78ab01-736b5545d39c.txt
+  - ref: refs/heads/dev-queue
+    old: 227fb90808ad708d1e9cd890d51be1b52db74673
+    new: 5db323adbcf17274a6e72abd7010af891379e1d8
+    log: revlist-227fb90808ad-5db323adbcf1.txt
 
---===============5895150587709762976==
+--===============6185743055870317159==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3e7aeb78ab01-736b5545d39c.txt
+Content-Disposition: attachment; filename=revlist-227fb90808ad-5db323adbcf1.txt
 
-f7ba616f948a08d83425b4b0c75359ae01e2fd3d dt-bindings: mmc: synopsys-dw-mshc: add iommus for Intel SocFPGA
-ef62548f4a162d1f5096c7a16673081dd72c6f4e dt-bindings: mmc: sdhci-msm: document dedicated IPQ4019 and IPQ8074
-76f5f55c45b906710c9565a7e68c8d782c46b394 ALSA: hda/tas2781: add ptrs to calibration functions
-c021ca729fe870d25a4798491c383c89b3091650 ALSA: hda/tas2781: add configurable global i2c address
-c3ca4458cc2f719b1652abaa8d2fbf7f3d4311cb ALSA: hda/tas2781: add TAS2563 support for 14ARB7
-b5cb53fd32779f3a971c45bcd997ae2608aa1086 ALSA: hda/tas2781: add fixup for Lenovo 14ARB7
-0c459759ca971ee49a313b19ba50fc499c6cf8ca hwmon: (pmbus) Add ltc4286 driver
-6ec09effb2af9911e6c98b0ce59f3abd6c823508 hwmon: (sht3x) add sts3x support
-4359b7d254ed1a0df76c19ab1b765f9bdd1e63a1 MAINTAINERS: Add maintainer for Baikal-T1 PVT hwmon driver
-3b018391b6158039ee459c9d8ce203fed408cf51 hwmon: (smsc47m1) Mark driver struct with __refdata to prevent section mismatch
-5c2833c8824d6fb5c9de155f7a9cc4e8afc6e1e8 hwmon: (smsc47m1) Convert to platform remove callback returning void
-581076958ee6455588fe3d3368d5e0db3c2d0c69 hwmon: (smsc47m1) Simplify device registration
-7ae587eb163ee25576532098a3bc19a45b8fc2e2 hwmon: (smsc47m1) Rename global platform device variable
-42ac68e3d4ba06ad17bc56b790dbccc37e76e0ba hwmon: Add driver for Gigabyte AORUS Waterforce AIO coolers
-06f34bcc9a050f350067006d665b7900ca33be98 hwmon: (k10temp) Add support for AMD Family 19h Model 8h
-4ec21eeac4772e2d931103599569ff010c5b405e dt-bindings: hwmon: gpio-fan: Convert txt bindings to yaml
-f60b9d405f49c8c9cd95e95fb1df02d9e61f89b2 hwmon: (aquacomputer_d5next) Remove unneeded CONFIG_DEBUG_FS #ifdef
-956cf0986ad5a965444d5f2916f5190059d99edc dt-bindings: Add MP2856/MP2857 voltage regulator device
-f9e5f289b686bbb8e7fbed7a533e570ad5d863da hwmon: (pmbus) Add support for MPS Multi-phase mp2856/mp2857 controller
-cfe09564467b8217b992aa329430897d0983e7db hwmon: (lm75) remove now-unused include
-de9c6033fb4de6013c5a4f6cc23b3b40c618cad2 dt-bindings: hwmon: (lm75) Add AMS AS6200 temperature sensor
-4b6358e1fe4668e88cd654b345a2a62da9d373f7 hwmon: (lm75) Add AMS AS6200 temperature sensor
-84a6be7db9050dd2601c9870f65eab9a665d2d5d mmc: mmc_spi: remove custom DMA mapped buffers
 b062136d0d6f46d7ad5c88219cbd75f90cb18e81 mmc: mmc_test: Add re-tuning test
 e4df56ad0bf3506c5189abb9be83f3bea05a4c4f mmc: core: Add wp_grp_size sysfs node
 cb052da7f031b0d2309a4895ca236afb3b4bbf50 mmc: sdhci_am654: Fix TI SoC dependencies
@@ -1050,5 +1027,28 @@ da3c45c721e2807b2effdea8f41ece96bbf47b15 Merge tag 'hwmon-for-v6.8-p2' of git://
 378de6df19800dc2c18c355c8c2c5528f98e879a Merge tag 'rtc-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 ed8d84530ab0a3b7b370e8b28f12179314dcfcc3 Merge tag 'i2c-for-6.8-rc1-rebased' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 736b5545d39ca59d4332a60e56cc8a1a5e264a8e Merge tag 'net-6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+73970cb51ec4154417171acf9b39c857c0cb503e i40e: Fix waiting for queues of all VSIs to be disabled
+bee95ef49738d7800cbf41209740819d2f69355c i40e: Fix wrong mask used during DCB config
+2b372d12d4adfdeeb14e45a0f4ca788923452d82 i40e: Use existing helper to find flow director VSI
+f0c226ca60c5c28e16744a866ce00575b577fdb5 i40e: Introduce and use macros for iterating VSIs and VEBs
+385c0fd1f882e0c5c94639af8dfd6580c9c3a286 i40e: Add helpers to find VSI and VEB by SEID and use them
+c36ed2a5243941314f1fbba8ba1a52f331d1195c i40e: Fix broken support for floating VEBs
+4e4d14e359431f0694ebd8972d266c5f85338cdd i40e: Remove VEB recursion
+b3ace6e57e3ed5de75c53f90d58ee4272af8094f ice: introduce new E825C devices family
+ca9ffeb797fad19c896e44d7a5848f1c431a44b4 ice: Add helper function ice_is_generic_mac
+3b48f07ab181417c00114b7e51545de2c3d5c8ab ice: add support for 3k signing DDP sections for E825C
+4b1c4b769b377abeb7567b418c68d286a510c3fc ice: Add support for devlink loopback param.
+8c6ee46d1c04728f1bbfaf0a50f31c71f0686635 e1000e: correct maximum frequency adjustment values
+60ccfe6fe5df029eb800949301dc3e98688ba0d2 e1000e: remove force SMBUS from ULP enable flow to avoid PHY loss issue
+656a52f78c8af70cba0da4da1910f8c8801c8d7f e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+d06c698d12230fff99509b2dacfc4d6b7b07c201 ice: Add a new counter for Rx EIPE errors
+3d1d80f84ecbf4793204a3cdf0f77926bfe7c13a e1000e: Minor flow correction in e1000_shutdown function
+235a02f6808b34ffe4dbac08cd633d9df9816adc ice: introduce PTP state machine
+2637fe153b06566842f1c67dc46942f148596aab ice: pass reset type to PTP reset functions
+2deb4a8f35a26b16bde2cce5567e0e9d5757654d ice: rename verify_cached to has_ready_bitmap
+b8901ef65ac7763595abc8a5e78b167a647a27cd ice: rename ice_ptp_tx_cfg_intr
+6091e7a342a967033def4db4c63db22e4a5be7d8 ice: factor out ice_ptp_rebuild_owner()
+8b0111073088c6288e8d599dc1d23b825fbca6e1 ice: stop destroying and reinitalizing Tx tracker during reset
+5db323adbcf17274a6e72abd7010af891379e1d8 idpf: avoid compiler padding in virtchnl2_ptype struct
 
---===============5895150587709762976==--
+--===============6185743055870317159==--
