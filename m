@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 19 Jan 2024 08:51:31 -0000
-Message-Id: <170565429138.29880.13735765699063859845@gitolite.kernel.org>
+Date: Fri, 19 Jan 2024 08:52:50 -0000
+Message-Id: <170565437041.30448.4092292266800392195@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: iwamatsu
 changes:
-  - ref: refs/tags/v5.10.208-cip43-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 82c31c1cfc78192809ba403b9027e0f3a7bb32cc
+  - ref: refs/notes/signatures/tar
+    old: 02c43777b491055f5507b8b487f3700aa3b8f210
+    new: 4dd857382cccea273c471333c2362422253aae4a
+    log: |
+         4dd857382cccea273c471333c2362422253aae4a Notes added by 'git notes add'
+         
