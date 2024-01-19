@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7240196189074403333=="
+Content-Type: multipart/mixed; boundary="===============2411584278747418919=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 19 Jan 2024 17:40:07 -0000
-Message-Id: <170568600719.20135.5302167564552940473@gitolite.kernel.org>
+Date: Fri, 19 Jan 2024 17:40:45 -0000
+Message-Id: <170568604540.20446.7419458422246482704@gitolite.kernel.org>
 
---===============7240196189074403333==
+--===============2411584278747418919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: ea937f77208323d35ffe2f8d8fc81b00118bfcda
-    new: dbc153fd3c142909e564bb256da087e13fbf239c
-    log: revlist-ea937f772083-dbc153fd3c14.txt
+  - ref: refs/heads/dev-queue
+    old: 5aa465fd0bab9dc492c41cf3d2e6dae4a0cf2ea7
+    new: 8121182f2afe78c0e7a1803c10f9e619b6a0113e
+    log: revlist-5aa465fd0bab-8121182f2afe.txt
 
---===============7240196189074403333==
+--===============2411584278747418919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea937f772083-dbc153fd3c14.txt
+Content-Disposition: attachment; filename=revlist-5aa465fd0bab-8121182f2afe.txt
 
-e9f12b5fff8ad0eefd0340273767d329ef65fd69 RISC-V: KVM: Implement SBI STA extension
-0dcab5c4762ac166aa7e635ae4b6d649e15717e2 RISC-V: KVM: selftests: Move sbi_ecall to processor.c
-945d880d6be0fd19bbc77d80d113bd2ca74c74f8 RISC-V: KVM: selftests: Add guest_sbi_probe_extension
-60b6e31c499643b25d4b3ccb4cc8e365dfdb8863 RISC-V: KVM: selftests: Add steal_time test support
-aad86da229bc9d0390dc2c02eb0db9ab1f50d059 RISC-V: KVM: selftests: Add get-reg-list test for STA registers
-66e82d219924f6112509f7e8f8e687fcc81a16e3 ALSA: mark all struct bus_type as const
 68f7f3ff6c2a0998be9dc07622bd0d16fd1fda20 ALSA: hda/tas2781: configure the amp after firmware load
 99af5b11c57d33c32d761797f6308b40936c22ed ALSA: hda/realtek: enable SND_PCI_QUIRK for Lenovo Legion Slim 7 Gen 8 (2023) serie
 ba7053b4b4a4ddcf530fa2b897e697004715d086 ALSA: hda: Add driver properties for cs35l41 for Lenovo Legion Slim 7 Gen 8 serie
@@ -1050,5 +1044,11 @@ da3c45c721e2807b2effdea8f41ece96bbf47b15 Merge tag 'hwmon-for-v6.8-p2' of git://
 ed8d84530ab0a3b7b370e8b28f12179314dcfcc3 Merge tag 'i2c-for-6.8-rc1-rebased' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 736b5545d39ca59d4332a60e56cc8a1a5e264a8e Merge tag 'net-6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 dbc153fd3c142909e564bb256da087e13fbf239c net/smc: fix illegal rmb_desc access in SMC-D connection dump
+1e0e57ce83c1c493120067f3b7420d8b28873eba i40e: Fix waiting for queues of all VSIs to be disabled
+954440ba02fbcc33b16f4eb0548de514b28318d3 i40e: Fix wrong mask used during DCB config
+9080b9618047eeb15de663b8e3dfd92133b9d80a e1000e: correct maximum frequency adjustment values
+e54ae98c1a1d7c5cb1f1664293c466dfe7b15903 e1000e: remove force SMBUS from ULP enable flow to avoid PHY loss issue
+8c2f8573ff2d119ad5b62ca7e9e19465c97051f8 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+8121182f2afe78c0e7a1803c10f9e619b6a0113e idpf: avoid compiler padding in virtchnl2_ptype struct
 
---===============7240196189074403333==--
+--===============2411584278747418919==--
