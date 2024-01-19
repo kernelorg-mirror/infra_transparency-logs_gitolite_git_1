@@ -1,162 +1,104 @@
-Content-Type: multipart/mixed; boundary="===============1913027889586270252=="
+Content-Type: multipart/mixed; boundary="===============5450363806280327278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Fri, 19 Jan 2024 17:51:27 -0000
-Message-Id: <170568668754.27568.4568810026960323091@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 19 Jan 2024 18:01:56 -0000
+Message-Id: <170568731600.2239.17615143764140394158@gitolite.kernel.org>
 
---===============1913027889586270252==
+--===============5450363806280327278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/master-pending
-    old: 698b9927b5dcf9f22c14ceb59f0e6eaff139f7ff
-    new: 9c3e7305eb7a4cc452fc0d7f45a17a89baf561f7
-    log: revlist-698b9927b5dc-9c3e7305eb7a.txt
-  - ref: refs/heads/pending
-    old: 693123111579b6560900c319a3194b6ca63abb4f
-    new: 32546abffb9410c71b8038a65ec28d2aab79f8c8
-    log: |
-         b856f023b40fa7735ca19de433fc1307d69c36d0 wifi: ath12k: Refactor the mac80211 hw access from link/radio
-         6db6e70a17f6fb3f2cfae31bb212a2179d0f6e6b wifi: ath12k: Introduce the container for mac80211 hw
-         9f9df1a2535f6c890242b80d8538bd90ae540647 wifi: ath12k: add support for collecting firmware log
-         1779487e72e0390d240df271be0005397d0110f3 wifi: ath10k: add missing wmi_10_4_feature_mask documentation
-         5f813b0447feef3a4883b66e600c7317a4d7d76b wifi: ath10k: correctly document enum wmi_tlv_tx_pause_id
-         75dd17fdef110d99a2613d1284d2863cfc7cf6e9 wifi: ath10k: fix htt_q_state_conf & htt_q_state kernel-doc
-         c80cc5cfefbaca35e019a26f31faa11031c13665 wifi: ath10k: Fix htt_data_tx_completion kernel-doc warning
-         f020c30299323c206b9041dd478ac040dd828ec0 wifi: ath10k: Fix enum ath10k_fw_crash_dump_type kernel-doc
-         f0a722a2d86045d928082684e99a8f70d92bab34 wifi: ath12k: add firmware-2.bin support
-         32546abffb9410c71b8038a65ec28d2aab79f8c8 wifi: ath12k: Fix issues in channel list update
-         
-  - ref: refs/tags/ath-pending-202401191749
-    old: 0000000000000000000000000000000000000000
-    new: 9c3e7305eb7a4cc452fc0d7f45a17a89baf561f7
+  - ref: refs/heads/master
+    old: 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847
+    new: 556e2d17cae620d549c5474b1ece053430cd50bc
+    log: revlist-9d1694dc91ce-556e2d17cae6.txt
 
---===============1913027889586270252==
+--===============5450363806280327278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-698b9927b5dc-9c3e7305eb7a.txt
+Content-Disposition: attachment; filename=revlist-9d1694dc91ce-556e2d17cae6.txt
 
-3f14b377d01d8357eba032b4cabc8c1149b458b6 net/sched: act_ct: fix skb leak and crash on ooo frags
-ef210ef85d5cb543ce34a57803ed856d0c8c08c2 mlxbf_gige: Fix intermittent no ip issue
-a460f4a684511e007bbf1700758a41f05d9981e6 mlxbf_gige: Enable the GigE port in mlxbf_gige_open
-4fc68c4c1a114ba597b4f3b082f04622dfa0e0f6 rxrpc: Fix skbuff cleanup of call's recvmsg_queue and rx_oos_queue
-d375b98e0248980681e5e56b712026174d617198 ip6_tunnel: fix NEXTHDR_FRAGMENT handling in ip6_tnl_parse_tlv_enc_lim()
-61921bdaa132b580b6db6858e6d7dcdb870df5fe net: stmmac: fix ethtool per-queue statistics
-ac631873c9e7a50d2a8de457cfc4b9f86666403e net: ethernet: cortina: Drop TSO support
-e9ee910218ffd420454b52a052d6f1087354905b Revert "net: stmmac: Enable Per DMA Channel interrupt"
-3fbf61207c66ff7ac9b60ab76d4bfd239f97e973 Revert "mlx5 updates 2023-12-20"
-9496d62f3877bc0f97b415bc04af98d092878026 wifi: rtw89: pci: use DBI function for 8852AE/8852BE/8851BE
-ac770f07a93bd70d1f371ade465e2fe282d19fa0 wifi: rtw89: 8852b: update TX power tables to R36
-e52fafea56b22df97d7adda31f6ad213437246b1 wifi: rtw89: 8851b: update TX power tables to R37
-9225b9734670090d02690d768a15c3d376bdc5e7 wifi: rtw89: phy: move bb_gain_info used by WiFi 6 chips to union
-0edcdd82337a6bd028cbf8869a9a6fa12e21b484 wifi: rtw89: phy: add parser to support RX gain dynamic setting flow
-cac432a08537b5becabfbbdbdea1eb6cfe28df14 wifi: rtw89: 8922a: set RX gain along with set_channel operation
-d16f34b084d9734644932ca17812baec56fb0041 wifi: rtw89: 8922a: update the register used in DIG and the DIG flow
-0377e2a77201f22bb7336b5671f3f43fc094b44a wifi: rtw89: phy: ignore special data from BB parameter file
-c207e14d9328a97635dd78090e4296ef97149a2d wifi: rtw89: 8922a: add NCTL pre-settings for WiFi 7 chips
-ce84ecbdc16877b70b3bb3c59ee4991d148f7b61 wifi: rtw89: phy: add BB wrapper of TX power for WiFi 7 chips
-6bd232192261f199d3801ecb246bd7d722a6e2d5 wifi: rtw89: phy: set channel_info for WiFi 7 chips
-6aeaa379291bac24be568808da5e305d975d8860 wifi: rtw89: mac: Fix spelling mistakes "notfify" -> "notify"
-8d101b15f86dae41fcf1afe448d5a52c1956c465 wifi: rtw88: 8822ce: refine power parameters for RFE type 5
-d55cb6d8a99441aff55cb9ce663a07f7f1667e83 wifi: rtl8xxxu: remove assignment of priv->vif in rtl8xxxu_bss_info_changed()
-2bbd7d584046038ce655e476628bb15e1460fac6 wifi: rtl8xxxu: prepare supporting two virtual interfaces
-7f444692cde83c1455682c2d0d2c9a666422b867 wifi: rtl8xxxu: support setting linktype for both interfaces
-a047e46a7b98de384a158b25a05dc09aa7d70c5f wifi: rtl8xxxu: 8188e: convert usage of priv->vif to priv->vifs[0]
-00add60cad3c9690ac0f9d4f6685f96ccd607670 wifi: rtl8xxxu: support setting mac address register for both interfaces
-9aa776209ca31695bead52674ad943848ccc97d5 wifi: rtl8xxxu: extend wifi connected check to both interfaces
-80fd8687db41b1e04f78c37137d090f2165cca6e wifi: rtl8xxxu: extend check for matching bssid to both interfaces
-f86dd8eaf8da84ee5b803d90b8c311d7e2725d0b wifi: rtl8xxxu: don't parse CFO, if both interfaces are connected in STA mode
-3ff7a05996f901a7a10068b42e9dc8435f908a4c wifi: rtl8xxxu: support setting bssid register for multiple interfaces
-43532c050f8eec4056a21978fdb5b958e1477553 wifi: rtl8xxxu: support multiple interfaces in set_aifs()
-05b22e9b7d84253f765cde01cb09d144094b61c9 wifi: rtl8xxxu: support multiple interfaces in update_beacon_work_callback()
-6b76638287055791e74b32c401a39ea1b91e7158 wifi: rtl8xxxu: support multiple interfaces in configure_filter()
-3f9baa99f8429ea6f56e7cc8d881c027518e9573 wifi: rtl8xxxu: support multiple interfaces in watchdog_callback()
-eef55f1545c92c7181d5083453dee1296298ad3e wifi: rtl8xxxu: support multiple interfaces in {add,remove}_interface()
-073401c3b6b9eaea027240baf07f2b84dd2d2d26 wifi: rtl8xxxu: support multiple interfaces in bss_info_changed()
-61fdbd9e2a9d74c716bf4d9684653de5efdee691 wifi: rtl8xxxu: support multiple interface in start_ap()
-5ce0d7e8aee03e73b35f0fe1f1ebbdd4e45776f3 wifi: rtl8xxxu: add macids for STA mode
-f232e9d91bb84817c60c051a3e3b56dd2721a7b3 wifi: rtl8xxxu: remove obsolete priv->vif
-b837f78fbffa5f8e7e7c59879db54793abf161ec wifi: rtl8xxxu: add hw crypto support for AP mode
-69abad618efd17e50bc6f880332ab36b660b0b34 wifi: rtl8xxxu: make supporting AP mode only on port 0 transparent
-1cd165adf314f6bf25cde58f02f4ff51d01730b0 wifi: rtl8xxxu: declare concurrent mode support for 8188f
-9475cc7ac31503521af95e38151e9d856e8ff30b wifi: rtl8xxxu: Fix LED control code of RTL8192FU
-80850ca041f2c7ee28fa5e47c5c1b106415f099f wifi: rtl8xxxu: Fix off by one initial RTS rate
-9636951e4468f02c72cc75a82dc65d003077edbc wifi: b43: Stop/wake correct queue in DMA Tx path when QoS is disabled
-77135a38f6c2f950d2306ac3d37cbb407e6243f2 wifi: b43: Stop/wake correct queue in PIO Tx path when QoS is disabled
-581c8967d66c4961076dbbee356834e9c6777184 wifi: b43: Stop correct queue in DMA worker when QoS is disabled
-09795bded2e725443fe4a4803cae2079cdaf7b26 wifi: b43: Disable QoS for bcm4331
-989cd9fd1ffe1a964429325f9092ea8f0db3f953 wifi: p54: fix GCC format truncation warning with wiphy->fw_version
-535733e90e5d8912ebeccebb05b354a2d06ff459 wifi: wilc1000: fix declarations ordering
-205c50306acf58a335eb19fa84e40140f4fe814f wifi: wilc1000: fix RCU usage in connect path
-6f066439f9dc9584543aac3d60cfecba10c4a579 wifi: rtw89: add firmware H2C command of BA CAM V1
-3b96833a5727135a206001f941b43288f6d61099 wifi: rtw89: mac: add feature_init to initialize BA CAM V1
-5d461dba16fa0887ad434b66298b3f8dd2d13235 wifi: rtw89: add chip_ops::h2c_ba_cam() to configure BA CAM
-2d623151bf26c81e6af4847907a01935f0a5285e wifi: rtw89: 8922a: update BA CAM number to 24
-cdd368ce1ca4a6d70dc08da4175309a93ed88062 wifi: rtw89: fw: use struct to fill BA CAM H2C commands
-e3552b37dacea361a2ae488cc10c3d2e243ee514 wifi: rtw89: refine H2C command that pause transmitting by MAC ID
-c313c31ff40d6fe65570eaf237c8ba4428aeace6 wifi: rtw89: add new H2C command to pause/sleep transmitting by MAC ID
-69466b979a72008022ee7c054b6123488eb00472 wifi: rtw89: use struct to fill H2C command to download beacon frame
-a880b9283009b312a7a5e8f03e068712f8750651 wifi: rtw89: add H2C command to download beacon frame for WiFi 7 chips
-bcd1ae78448ea15d5d93ac5e07070e46e5d082da wifi: rtw89: add chip_ops::update_beacon to abstract update beacon operation
-0ac008b6357f3f5f0b3751ee952c827e87c09458 wifi: rtlwifi: cleanup few rtlxxx_tx_fill_desc() routines
-178cc55d5129556e290cc05e152138037930419f wifi: rtlwifi: rtl_usb: Use sync register writes
-1213acb478a7181cd73eeaf00db430f1e45b1361 wifi: rtl8xxxu: add cancel_work_sync() for c2hcmd_work
-ece90a8622320bf5a24d3326da1f8e109891573c wifi: rtl8xxxu: enable channel switch support
-23b8330156e55aa80027d2e962146ada78a693ce wifi: rtw88: use kstrtoX_from_user() in debugfs handlers
-c19443700370d77f400625246df9a825f4ff85f4 wifi: rtw89: adjust init_he_cap() to add EHT cap into iftype_data
-c5bdcddaa32c602a8864a3a1df3a10429f0ed8a9 wifi: rtw89: change supported bandwidths of chip_info to bit mask
-9156181f62744ddea2f2b7a5d7180c08f143a056 wifi: rtw89: add EHT capabilities for WiFi 7 chips
-4f47e0cf1a84debed285b2b6a4a567a2cfec7e9b wifi: rtw89: declare EXT NSS BW of VHT capability
-8d666e57545525e160af96f52ba5027c5f3430de wifi: rtw89: fw: add H2C command to update security CAM v2
-7992619306562fa70fc2ed9ee859daf5408b0c1f wifi: rtw89: fw: fill CMAC table to associated station for WiFi 7 chips
-7e24cc86c9c9ac5102494e89289a4a276da9c224 wifi: rtw89: fw: add chip_ops to update CMAC table to associated station
-999db6f48b28008d0045d29b739d0d670a9ab453 wifi: rtw89: fw: update TX AMPDU parameter to CMAC table
-3d49ed071582c612815a20463e727a4b8b2875fd wifi: rtw89: fw: add H2C command to reset CMAC table for WiFi 7
-011e276865d32db280381a166ac9245451555459 wifi: rtw89: fw: add H2C command to reset DMAC table for WiFi 7
-85eacdcabd0f9293fd20e598424a1cf990542b73 wifi: rtw89: fw: use struct to fill JOIN H2C command
-3832a9c40b356500c5b85a6fdf9577c590fcd637 wifi: rtw89: fw: extend JOIN H2C command to support WiFi 7 chips
-0635d73d85c1264060a92cbe1c53b7f010b6dd4a wifi: rtlwifi: rtl8192de: Don't read register in _rtl92de_query_rxphystatus
-52284952cbf38c3026c2c61e8582ec01f8ee61c7 wifi: wilc1000: fix driver_handler when committing initial configuration
-328efda22af81130c2ad981c110518cb29ff2f1d wifi: wilc1000: do not realloc workqueue everytime an interface is added
-a4f1a05b832e212f8e5b7adcb1b5e8c5c072ae88 wifi: wilc1000: fix incorrect power down sequence
-12cfc9c8d3faf887a202c89bc312202445fca7e8 wifi: wilc1000: fix multi-vif management when deleting a vif
-426e7b4773921d07ab4ab8ba16fbad396d6c9971 wifi: rtl8xxxu: convert EN_DESC_ID of TX descriptor to le32 type
-92c7428f942da7dfcdc629b05b5114f80822d7a4 wifi: rtl8xxxu: make instances of iface limit and combination to be static const
-556857aa1d0855aba02b1c63bc52b91ec63fc2cc wifi: ath11k: rely on mac80211 debugfs handling for vif
-47f0e32ffe4ecfa038eadffad7f15831d0d843fb wifi: brcmsmac: phy: Remove unreachable code
-899c0e8a221983ce20e887932dfed7955662609c wifi: mwifiex: Use helpers to check multicast addresses
-50180c7f8e3de7c2d87f619131776598fcb1478d wifi: mwifiex: debugfs: Drop unnecessary error check for debugfs_create_dir()
-173b0fb47c3dbd1e489cb449422c1037076a66d7 wifi: rt2x00: simplify rt2x00crypto_rx_insert_iv()
-0f7352557a35ab7888bc7831411ec8a3cbe20d78 wifi: brcmfmac: Fix use-after-free bug in brcmf_cfg80211_detach
-a6e4f85d3820d00694ed10f581f4c650445dbcda wifi: cfg80211: fix missing interfaces when dumping
-26490da5a71da9064e58f0d4ce82756c26ef9eb1 wifi: cfg80211/mac80211: remove dependency on non-existing option
-b01a74b3ca6fd51b62c67733ba7c3280fa6c5d26 wifi: mac80211: fix potential sta-link leak
-cf4a0d840ecc72fcf16198d5e9c505ab7d5a5e4d wifi: iwlwifi: fix a memory corruption
-bcbc84af1183c8cf3d1ca9b78540c2185cd85e7f wifi: mac80211: fix race condition on enabling fast-xmit
-24d1be4a3fc536506224f29a829bde9d4110527e Merge remote-tracking branch 'wireless/main'
-bd272f6dc40ef8473777fc7d56b85f6023e0839a Merge remote-tracking branch 'wireless-next/main'
-4011aac77dd54e85033be3e4f604ae002c1f99b4 Add localversion to identify builds from this tree
-b856f023b40fa7735ca19de433fc1307d69c36d0 wifi: ath12k: Refactor the mac80211 hw access from link/radio
-6db6e70a17f6fb3f2cfae31bb212a2179d0f6e6b wifi: ath12k: Introduce the container for mac80211 hw
-9f9df1a2535f6c890242b80d8538bd90ae540647 wifi: ath12k: add support for collecting firmware log
-1779487e72e0390d240df271be0005397d0110f3 wifi: ath10k: add missing wmi_10_4_feature_mask documentation
-5f813b0447feef3a4883b66e600c7317a4d7d76b wifi: ath10k: correctly document enum wmi_tlv_tx_pause_id
-75dd17fdef110d99a2613d1284d2863cfc7cf6e9 wifi: ath10k: fix htt_q_state_conf & htt_q_state kernel-doc
-c80cc5cfefbaca35e019a26f31faa11031c13665 wifi: ath10k: Fix htt_data_tx_completion kernel-doc warning
-f020c30299323c206b9041dd478ac040dd828ec0 wifi: ath10k: Fix enum ath10k_fw_crash_dump_type kernel-doc
-7410769cde98c966a9db464244d09f1f23a78f96 Merge branch 'ath-next'
-4320593a09303db85301791c1e924b3c7aa7a368 Merge remote-tracking branch 'mhi/mhi-next'
-8ff464a183f92836d7fd99edceef50a89d8ea797 Add localversion-wireless-testing-ath
-f0a722a2d86045d928082684e99a8f70d92bab34 wifi: ath12k: add firmware-2.bin support
-32546abffb9410c71b8038a65ec28d2aab79f8c8 wifi: ath12k: Fix issues in channel list update
-9c3e7305eb7a4cc452fc0d7f45a17a89baf561f7 Merge branch 'pending' into master-pending
+47757ea83a545536cdd418fec84b7a970710e48b netfs, fscache: Move fs/fscache/* into fs/netfs/
+915cd30cdea8811cddd8f59e57dd9dd0a814b76c netfs, fscache: Combine fscache with netfs
+4498a8eccc97de3d65f876b6fdeddb439ef73abc netfs, fscache: Remove ->begin_cache_operation
+7eb5b3e3a0a55f2d166ca949ef47ca6e0c704aab netfs, fscache: Move /proc/fs/fscache to /proc/fs/netfs and put in a symlink
+c9c4ff12df110feb1b91951010f673f4b16e49e8 netfs: Move pinning-for-writeback from fscache to netfs
+87b57a048964abfd5f3d8b79bc55687327f5a380 netfs: Add a procfile to list in-progress requests
+cc3cb0a18da46a51d9fc173155576ba1d068e536 netfs: Allow the netfs to make the io (sub)request alloc larger
+5f5ce7ba15e7e6a6539ac8e1f845757aaebecf0d netfs: Add a ->free_subrequest() op
+a34847d4b73c3a98b565b1d1cc6e1b70c661e18b afs: Don't use folio->private to record partial modification
+c1ec4d7c2e13471558cfea302b7583856284f94c netfs: Provide invalidate_folio and release_folio calls
+46ed60dcd4f2c94d27735743ce55cd8d6b93cc1d netfs: Implement unbuffered/DIO vs buffered I/O locking
+92b6cc5d1e7cbe569f00e9c1249ac8214fd5e2d2 netfs: Add iov_iters to (sub)requests to describe various buffers
+21d706d5cf570917594b21edee81893bdce09ab8 netfs: Add support for DIO buffering
+7d828a06634799aba0fa392913c7fe2953eb64a6 netfs: Provide tools to create a buffer in an xarray
+cae932d3aee55035a54415dcea8e7ecf2ec469b5 netfs: Add func to calculate pagecount/size-limited span of an iterator
+768ddb1eacf5dd997ecf393e7bab9796bad047e0 netfs: Limit subrequest by size or number of segments
+16af134ca4b7051b1587108f2066ec90ae029f74 netfs: Extend the netfs_io_*request structs to handle writes
+c6dc54dd91bbf597942b4975b8adec660a16827d netfs: Add a hook to allow tell the netfs to update its i_size
+6ba22d8d1521f35ca1343e64f69d7857f0340e5e netfs: Make netfs_put_request() handle a NULL pointer
+4fcccc38ebbdcff74494701c50a8e2fe4689837e netfs: Make the refcounting of netfs_begin_read() easier to use
+9ebff83e648148b9ece97d4e4890dd84ca54d6ce netfs: Prep to use folio->private for write grouping and streaming write
+0e0f2dfe880fb19e4b15a7ca468623eb0b4ba586 netfs: Dispatch write requests to process a writeback slice
+c38f4e96e605f17990e871214e6ea1496bc4e65f netfs: Provide func to copy data to pagecache for buffered write
+7f84a7b9892d1c9429a6f5d6f67916c61b3fc183 netfs: Make netfs_read_folio() handle streaming-write pages
+e2e2e83924b1fe4c28bf5617db90e893755e9cbd netfs: Allocate multipage folios in the writepath
+016dc8516aec8719641e7aaaacd78d344759178e netfs: Implement unbuffered/DIO read support
+153a9961b551101cd38e94e26cd92fbfd198b19b netfs: Implement unbuffered/DIO write support
+938e13a73b244278a3777f38fa915bd239b2efd2 netfs: Implement buffered write API
+102a7e2c598c22bd2621fa97eb1c93c89d469a12 netfs: Allow buffered shared-writeable mmap through netfs_page_mkwrite()
+80645bd4aa33a5c325f11b8dc6b38b38410ad5c0 netfs: Provide netfs_file_read_iter()
+e0ace6ca98bef0d8d354040f13ffc0a498813ee9 netfs, cachefiles: Pass upper bound length to allow expansion
+62c3b7481b9a108cb99ef9438dba66bb4738768b netfs: Provide a writepages implementation
+4a79616cfb27d76947ea37f0336745ef929d56be netfs: Provide a launder_folio implementation
+41d8e7673a7726cba57cb8112d81c89cfb6c3e35 netfs: Implement a write-through caching option
+100ccd18bb41ea7abb4fbb419202c06079559501 netfs: Optimise away reads above the point at which there can be no data
+545b135b72002145ade758f7e59c113915283188 netfs: Export the netfs_sreq tracepoint
+3560358a49569d0ade0ee5c9cecb3606dac863c2 afs: Use the netfs write helpers
+80105ed2fd2715fb09a8fdb0655a8bdc86c120db 9p: Use netfslib read/write_iter
+86fb59411553c553fe327db067a2435ecb72c80f Merge tag 'netfs-lib-20231228' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+7097c96411d22a1b3f6370dfd7eb2e3b7b83ff98 cachefiles: Fix __cachefiles_prepare_write()
+9546ac78b232bac56ff975072b1965e0e755ebd4 9p: Fix initialisation of netfs_inode for 9p
+6c2c1e0009e97381a032d8c84747a46082fd327c 9p: Do a couple of cleanups
+252cf7b2eaf7cb904580ffbb0126d23411bcb43d 9p: Use length of data written to the server in preference to error
+040a82be54c09a72162a3db2f5cd2ba289c0f224 netfs: Rearrange netfs_io_subrequest to put request pointer first
+43833f2ba5ce1543148a1b7cdd2513f5a663a17c netfs: Fix proc/fs/fscache symlink to point to "netfs" not "../netfs"
+d271c4b406f75e27efd79fe132981e475db1dd7e Merge tag 'netfs-lib-20240104' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+0e4d464cda4c5996402343d4c9e2b6ceec716f93 netfs: Mark netfs_unbuffered_write_iter_locked() static
+4088e389476e3baababf9b22f34b9d8b3e557344 netfs: Count DIO writes
+92a714d727ec9e7ccfcc7432d348aba730145914 netfs: Fix interaction between write-streaming and cachefiles culling
+807c6d09cc99cbdf9933edfadcbaa8f0b856848d netfs: Fix the loop that unmarks folios after writing to the cache
+3d1d4aa0cc13b1883a5a56c945837a2e0ecb5143 cachefiles: Fix signed/unsigned mixup
+e2bdb5272f4314256f51d91eee7babcae58b194b netfs: Fix wrong #ifdef hiding wait
+d61b40bf15ce453f3aa71f6b423938e239e7f8f8 xfs: fix backwards logic in xfs_bmap_alloc_account
+1d5911d43cab5fb99229b02bce173b0c6d9da7d2 Merge tag 'netfs-lib-20240109' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs into vfs.netfs
+fdfd6dde4328635861db029f6fdb649e17350526 ksmbd: update feature status in documentation
+92e470163d96df8db6c4fa0f484e4a229edb903d ksmbd: validate mech token in session setup
+38d20c62903d669693a1869aa68c4dd5674e2544 ksmbd: fix UAF issue in ksmbd_tcp_new_connection()
+77bebd186442a7d703b796784db7495129cc3e70 ksmbd: only v2 leases handle the directory
+cbcb358b744bf8d8c52b35d5efb1a960438c31cd ceph: skip reconnecting if MDS is not ready
+f48e0342a74d7770cdf1d11894bdc3b6d989b29e ceph: reinitialize mds feature bit even when session in open
+b79e4a0aa902322756ced7361a2c637d462c3c1c libceph: remove MAX_EXTENTS check for sparse reads
+aaefabc4a5f7ae48682c4d2d5d10faaf95c08eb9 ceph: try to allocate a smaller extent map for sparse read
+b493ad718b1f0357394d2cdecbf00a44a36fa085 ceph: fix deadlock or deadcode of misusing dget()
+9c896d6bc3dfef86659a6a1fb25ccdea5dbef6a3 ceph: select FS_ENCRYPTION_ALGS if FS_ENCRYPTION
+66207de308df82242da0bf88035b24bcd4377562 ceph: rename create_session_open_msg() to create_session_full_msg()
+6df89bf220fdac9f40b0d35cd132eef54cf99d4b ceph: send oldest_client_tid when renewing caps
+b36b03344f5fccb81e5cf3b3ede68b7e7a7e930a ceph: remove duplicated code in ceph_netfs_issue_read()
+0f4cf64eabc6e16cfc2704f1960e82dc79d91c8d ceph: fix invalid pointer access if get_quota_realm return ERR_PTR
+f6fb21b22fbe443f92b0d580391a7fb46d1840df ceph: d_obtain_{alias,root}(ERR_PTR(...)) will do the right thing
+2a965d1b15d28065b35ab4ebd1e51558fcd91aa5 ceph: get rid of passing callbacks in __dentry_leases_walk()
+16df6e07d6a88dc3049a5674654ed44dfbc74d81 Merge tag 'vfs-6.8.netfs' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+8cb1bb178cdbdf005b7ac07bb67a1e1f3e365e5a Merge tag '6.8-rc-smb-server-fixes-part2' of git://git.samba.org/ksmbd
+ec2d264ae4bb624f1b48a6f6ee1c47d7ea385f0a Merge tag 'xfs-6.8-merge-4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+556e2d17cae620d549c5474b1ece053430cd50bc Merge tag 'ceph-for-6.8-rc1' of https://github.com/ceph/ceph-client
 
---===============1913027889586270252==--
+--===============5450363806280327278==--
