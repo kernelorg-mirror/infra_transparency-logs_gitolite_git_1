@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 19 Jan 2024 00:18:29 -0000
-Message-Id: <170562350931.9242.17513227708213873310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 19 Jan 2024 00:25:10 -0000
+Message-Id: <170562391098.14742.9094261169573375160@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 4eaa61a1ff68da1caaf333281991059a27b5d8a7
-    new: 39880e4a5a023307f3dd730b4b4a044c7f4b1c8d
+  - ref: refs/heads/for-next
+    old: 080c4324fa5e81ff3780206a138223abfb57a68e
+    new: 4525462dd0db9e86bb67c10dedbbaa4f8d62697d
     log: |
-         7add07532158956004ed2b82d284211b3da4a136 NFSD: Add callback operation lifetime trace points
-         9101d20630e583479992c4cd9e7db2d579010b76 NFSD: Reset cb_seq_status after NFS4ERR_DELAY
-         39880e4a5a023307f3dd730b4b4a044c7f4b1c8d NFSD: Reschedule CB operations when backchannel rpc_clnt is shut down
+         66f962d8939fd2ac74de901d30d30310c8ddca79 riscv: Fix build error on rv32 + XIP
+         4525462dd0db9e86bb67c10dedbbaa4f8d62697d riscv: lib: Check if output in asm goto supported
          
