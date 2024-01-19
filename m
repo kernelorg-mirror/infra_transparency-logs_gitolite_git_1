@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 19 Jan 2024 02:08:44 -0000
-Message-Id: <170563012432.30755.17837564072501313638@gitolite.kernel.org>
+Date: Fri, 19 Jan 2024 02:20:26 -0000
+Message-Id: <170563082651.7289.12053388708730826345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: d8e59a673752f0e85c468d8d800f87171ef568ef
-    new: d7309c20ef3a48e1592d95c82039262f64b6e785
+    old: d7309c20ef3a48e1592d95c82039262f64b6e785
+    new: 615c30a4ef6ac0657b5169779c70d1d0b1676b0c
     log: |
-         d7309c20ef3a48e1592d95c82039262f64b6e785 selftests: bonding: Increase timeout to 1200s
+         615c30a4ef6ac0657b5169779c70d1d0b1676b0c tcp: make sure init the accept_queue's spinlocks once
          
