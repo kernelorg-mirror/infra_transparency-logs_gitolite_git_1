@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4301801242201975749=="
+Content-Type: multipart/mixed; boundary="===============7415671518864711968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 19 Jan 2024 04:43:12 -0000
-Message-Id: <170563939255.12688.122036060651109263@gitolite.kernel.org>
+Date: Fri, 19 Jan 2024 04:43:25 -0000
+Message-Id: <170563940523.12856.15122859608635077880@gitolite.kernel.org>
 
---===============4301801242201975749==
+--===============7415671518864711968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf
 user: andrii
 changes:
-  - ref: refs/tags/for-linus
-    old: bcaedf3608b9f2aa2a829348c581390e375137d3
-    new: 4d5b6bd29c970e9216743cd2bfbc01c7ac7d00f9
-    log: revlist-bcaedf3608b9-4d5b6bd29c97.txt
+  - ref: refs/heads/bpf-token
+    old: 10486d0247497a7e16fddb9b374e88ebf851403a
+    new: df4ffe6e674b8421230276238a0107966b85e044
+    log: revlist-10486d024749-df4ffe6e674b.txt
 
---===============4301801242201975749==
+--===============7415671518864711968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bcaedf3608b9-4d5b6bd29c97.txt
+Content-Disposition: attachment; filename=revlist-10486d024749-df4ffe6e674b.txt
 
 691ead124a0c35e56633dbb73e43711ff3db23ef HID: hid-steam: Clean up locking
 555b818adb97eca70210a49ba3f1d27882dde092 HID: hid-steam: Make client_opened a counter
@@ -1051,4 +1051,4 @@ eeb1054bac20f422c4427510a390904e11f063d9 libbpf: wire up BPF token support at BP
 340247c1f0fc8f663a666cc6d65f2510a391ff11 selftests/bpf: add tests for LIBBPF_BPF_TOKEN_PATH envvar
 df4ffe6e674b8421230276238a0107966b85e044 selftests/bpf: incorporate LSM policy to token-based tests
 
---===============4301801242201975749==--
+--===============7415671518864711968==--
