@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 19 Jan 2024 13:38:52 -0000
-Message-Id: <170567153247.4884.603594564773104072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 19 Jan 2024 13:47:12 -0000
+Message-Id: <170567203249.10973.3337522479837388030@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/vfs.misc
-    old: 30a1b9d12728ba6c56f1967db2b8754f844e5e3b
-    new: 0778b0a1a8d2d64af602143097b029de44cf8642
-    log: |
-         f67dae6ba1749cf420a3de565ce2dbc778e5eea2 selftests/filesystems:fix build error in overlayfs
-         0778b0a1a8d2d64af602143097b029de44cf8642 selftests/move_mount_set_group:Make tests build with old libc
-         
+  - ref: refs/tags/riscv-for-linus-6.8-mw2
+    old: c805a6c0b16cdc0e018a4e399b28a66728d6f1bc
+    new: d053dc7af20fec6811747ecb9fde8efecc049801
