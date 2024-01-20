@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3571750442273727484=="
+Content-Type: multipart/mixed; boundary="===============8605896756789563902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Sat, 20 Jan 2024 20:34:43 -0000
-Message-Id: <170578288300.3188.16729377704393028160@gitolite.kernel.org>
+Date: Sat, 20 Jan 2024 20:34:46 -0000
+Message-Id: <170578288681.3315.10612229095989384241@gitolite.kernel.org>
 
---===============3571750442273727484==
+--===============8605896756789563902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
-  - ref: refs/heads/fixes
-    old: b8b2711336f03ece539de61479d6ffc44fb603d3
+  - ref: refs/heads/master
+    old: 3ca112b71f35dd5d99fc4571a56b5fc6f0c15814
     new: e5075d8ec5647322fb9e699bfb76331cc8ee098d
-    log: revlist-b8b2711336f0-e5075d8ec564.txt
+    log: revlist-3ca112b71f35-e5075d8ec564.txt
 
---===============3571750442273727484==
+--===============8605896756789563902==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b8b2711336f0-e5075d8ec564.txt
+Content-Disposition: attachment; filename=revlist-3ca112b71f35-e5075d8ec564.txt
 
-17419aefcbfd9891863e8b8132f0bca9a6b2984e nfsd: rename nfsd_last_thread() to nfsd_destroy_serv()
-317bacf960a4879af22d12175f47d284930b3273 i3c: master: add enable(disable) hot join in sys entry
-05b26c31a4859af9e75b7de77458e99358364fe1 i3c: master: svc: add hot join support
-e5e3df06ac98d15cfb10bb5c12356709365e91b2 i3c: add actual_len in i3c_priv_xfer
 6fb61734a74eaa307a5b6a0bee770e736d8acf89 i3c: master: svc: rename read_len as actual_len
 6d1a19d34e2cc07ca9cdad8892da94e716e9d15f i3c: master: svc: return actual transfer data len
 18e5794879905a788e06fb2bc40b6f5b58eae5c2 i3c: master: fix Excess kernel-doc description warning
@@ -214,6 +210,10 @@ b4068f1ef36d634ef44ece894738284d756d6627 ksmbd: auth: fix most kernel-doc warnin
 4dde83569832f9377362e50f7748463340c5db6b of: Fix double free in of_parse_phandle_with_args_map
 d592a9158a112d419f341f035d18d02f8d232def ksmbd: don't allow O_TRUNC open on read-only share
 3fc74c65b367476874da5fe6f633398674b78e5a ksmbd: send lease break notification on FILE_RENAME_INFORMATION
+420370f3ae3d3b883813fd3051a38805160b2b9f riscv: Check if the code to patch lies in the exit section
+c29fc621e1a49949a14c7fa031dd4760087bfb29 riscv: Fix wrong usage of lm_alias() when splitting a huge linear mapping
+749b94b08005929bbc636df21a23322733166e35 riscv: Fix module_alloc() that did not reset the linear mapping permissions
+b8b2711336f03ece539de61479d6ffc44fb603d3 riscv: Fix set_direct_map_default_noflush() to reset _PAGE_EXEC
 fb46e22a9e3863e08aef8815df9f17d0f4b9aede Merge tag 'mm-stable-2024-01-08-15-31' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 9f2a635235823cf016eb8af0aeb3c0b2b25cea64 Merge tag 'mm-nonmm-stable-2024-01-09-10-33' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 76a2ee33762e18eef15f2677f70b251a1839f0c5 Merge branches 'clk-renesas', 'clk-rockchip', 'clk-allwinner' and 'clk-cleanup' into clk-next
@@ -1051,4 +1051,4 @@ b1737ad4406a35f20eaae0e8079cc6ca6447e83a Merge tag 'fbdev-for-6.8-rc1-2' of git:
 c25b24fa72c734f8cd6c31a13548013263b26286 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 e5075d8ec5647322fb9e699bfb76331cc8ee098d Merge tag 'riscv-for-linus-6.8-mw4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============3571750442273727484==--
+--===============8605896756789563902==--
