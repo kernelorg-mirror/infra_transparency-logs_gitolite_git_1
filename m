@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6670538673193366188=="
+Content-Type: multipart/mixed; boundary="===============3571750442273727484=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Sat, 20 Jan 2024 20:34:32 -0000
-Message-Id: <170578287257.3065.11304413245454582435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Sat, 20 Jan 2024 20:34:43 -0000
+Message-Id: <170578288300.3188.16729377704393028160@gitolite.kernel.org>
 
---===============6670538673193366188==
+--===============3571750442273727484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: e5075d8ec5647322fb9e699bfb76331cc8ee098d
     log: revlist-b8b2711336f0-e5075d8ec564.txt
 
---===============6670538673193366188==
+--===============3571750442273727484==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b1737ad4406a35f20eaae0e8079cc6ca6447e83a Merge tag 'fbdev-for-6.8-rc1-2' of git:
 c25b24fa72c734f8cd6c31a13548013263b26286 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 e5075d8ec5647322fb9e699bfb76331cc8ee098d Merge tag 'riscv-for-linus-6.8-mw4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============6670538673193366188==--
+--===============3571750442273727484==--
