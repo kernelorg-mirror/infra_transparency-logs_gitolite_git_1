@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4787284721485401120=="
+Content-Type: multipart/mixed; boundary="===============1483099633507012461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 20 Jan 2024 06:57:57 -0000
-Message-Id: <170573387779.14727.15078125959787322900@gitolite.kernel.org>
+Date: Sat, 20 Jan 2024 06:58:01 -0000
+Message-Id: <170573388109.14846.1015034841359205740@gitolite.kernel.org>
 
---===============4787284721485401120==
+--===============1483099633507012461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847
     new: 9d64bf433c53cab2f48a3fff7a1f2a696bc5229a
     log: revlist-9d1694dc91ce-9d64bf433c53.txt
 
---===============4787284721485401120==
+--===============1483099633507012461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705733877 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705733880 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1705733876-400fccd1f3ef9e6d1fc1b7c2b6b0eead01ba7dae
+nonce 1705733879-94ddd4fbf3d8bff839eccdf8d7852e5d60540cf4
 
-9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 9d64bf433c53cab2f48a3fff7a1f2a696bc5229a refs/heads/staging-linus
+9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 9d64bf433c53cab2f48a3fff7a1f2a696bc5229a refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWrbvUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L2QQALGmcDrCSgpxJsCCUe9f
-OrlXRSABFZa/QSzCDEBW3Po1mo43Wh2hGOxsAgxHQcsKMMpS2xTu1jprpn7S0Y0m
-gccjgGlg6DStSg2hSA5/x18V5K46j+NzOVFQbp6dYFk+4aFn8mP6kVWkZ8TbSQ21
-LFYSRykltzgC28xihj2opB71hq3RfbyVnuZHntBLaglt/zaGjQCbvaQC8y82E0GN
-abxIQ2qu3Lel1yWofENvDARRuvW6t2N7GjXESzr8JZ5uJp8RQ4CkUO0T3Mel1iZa
-xqrhWCG988QBpwsQoCi3d3wYziZyWztHNHCjsJ3DcKxpvNdkeiYl1iEp1aonP1hY
-jN/JLh4IywlBz3GA6xza6XmIZ4xP7y2rOssPSuC3f4ysgnnS3rKLFfyoT15U5NLI
-eOYPBlk4bXG2Y3rI3aOBhZefbaBjfzLLZJJNHI/e389fGWmqp5S+6L0D/6zAOC2G
-7+x9ebbaVWI7W+Qq6O7O0BJgUbsIo9Gbz756F52UGW91Glr0Kzz6Y8uCWQz3g+mq
-OxoqPPiwnPW3/dpxXjG3//txT3nIt/rEJNYDBL7gzQ3xef9o7jtumnrpTPE1cvnT
-tlAD4H1QhcunCmavaSvS1bPkv8VMAaE5jPRFnDGTPj0xydvBnhEe51FssewHJmXH
-pS4FHt5O9EfddDPFnO5LXNZy
-=udiK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWrbvgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XD4QAJGM5kuHZXEGe5WRl95c
+VCrIj3BF/4X+vYQVhp7F3MhkcXoKDLCOEy4lfpW9tK7J42l2Ija8szRKpRyNd21U
+ofBXB5MShc5fa45I7q9Tnp+vRCVf7RLeZr7Ea2hBjA1ojjMW/QGR/SEwTiDIExE8
+uxY+QHASh2Un2eo5U/GMPBHY86IzSgqKMJnklJE6sr8GZQn3TkjwmTWy5Ab39Tww
+46WRAk6d2h4cGJNdkmhmhxZT2A6fm3uSF6qvoyRPIq1nfparKOqidpRBDX7ph6vI
+VowWkvWNmUSpVdrh5CmjWH7DFHxzExz1ov7ULCGkY+D3bFFIy41cD356T20k8qTj
+5pkKenv/FlRQVslDVWhQomhORMr3JuWLten/ioSbROG3YoRIeBgYi5ZD4RQRY3hj
++oSYEcb02ZC+OzWMMsArvCetA3PbJM6jPe57FmBQ0PaX6saGTyxJDh/SThKgS6Or
+xhByltkinw2Y+isDYHVWR+cwawC+ucpbtpJCNI4YJ3UfnEInIt+9LkpnxJXnhg9M
+ZA/NBaPXrji2iWX1A9xV5yWAOtTk+B+t1pS2cQVCVC92FDIPeReasTo1N2wjNrQD
+ResNy9+6ofXfUnZNiWI8IV8nS4nuYhvZ2laCwOXTrL5yj2MO0Um0TjxqDEsZfDJA
+X7bGI4TnY82NI7jPjZPioKSg
+=D8GO
 -----END PGP SIGNATURE-----
 
---===============4787284721485401120==
+--===============1483099633507012461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -505,4 +505,4 @@ a638bfbfa1f8e8fbf36d84679916c60c1382a2ef Merge tag 'spi-fix-v6.8-merge-window' o
 57f22c8dab6b266ae36b89b073a4a33dea71e762 Merge tag 'strlcpy-removal-v6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 9d64bf433c53cab2f48a3fff7a1f2a696bc5229a Merge tag 'perf-tools-for-v6.8-1-2024-01-09' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============4787284721485401120==--
+--===============1483099633507012461==--
