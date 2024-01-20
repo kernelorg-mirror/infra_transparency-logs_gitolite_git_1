@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Sat, 20 Jan 2024 00:19:18 -0000
-Message-Id: <170570995857.15985.10744825718474097714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 20 Jan 2024 00:28:54 -0000
+Message-Id: <170571053435.22449.4457453514051795791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/fbdev-for-6.8-rc1-2
-    old: 0000000000000000000000000000000000000000
-    new: 7c1798ac2317515778912ea9ec36642c509342ad
+  - ref: refs/heads/master
+    old: d08d4a7c02fce9b52d9ef481b6b7083c71da7563
+    new: c5f6f934f385730d7dc192ec699ee0324fd793a6
+    log: |
+         c5f6f934f385730d7dc192ec699ee0324fd793a6 Sat Jan 20 12:22:05 AM UTC 2024
+         
