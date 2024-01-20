@@ -1,42 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============9210024493316245652=="
+Content-Type: multipart/mixed; boundary="===============7096247952365991159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-misc
-Date: Sat, 20 Jan 2024 17:39:25 -0000
-Message-Id: <170577236568.6327.13642500203437204078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 20 Jan 2024 17:52:56 -0000
+Message-Id: <170577317634.15912.15895773714162513114@gitolite.kernel.org>
 
---===============9210024493316245652==
+--===============7096247952365991159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-misc
-user: sre
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/uti260b
-    old: 2356c77727a7d2ddb0b9b5825a6ea034643ae972
-    new: 7da342183d381dd8a360db7652aa89e28c3a5ff4
-    log: revlist-2356c77727a7-7da342183d38.txt
+  - ref: refs/heads/master
+    old: 125514880ddd381fdaaa4d11f32afdb55f1c0307
+    new: c25b24fa72c734f8cd6c31a13548013263b26286
+    log: revlist-125514880ddd-c25b24fa72c7.txt
 
---===============9210024493316245652==
+--===============7096247952365991159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2356c77727a7-7da342183d38.txt
+Content-Disposition: attachment; filename=revlist-125514880ddd-c25b24fa72c7.txt
 
-abcf6e24cff7bac22c5101fdb21477bdf545e3e4 dt-bindings: pinctrl: fsl,imx6ul-pinctrl: convert to YAML
-abddbf79859e3ef23e7ee661d1bb2ec9f821776a dt-bindings: bus: imx-weim: convert to YAML
-f4f81496996be39fc54baf8ff6c9022a2c6342b9 dt-bindings: sound: fsl,imx-asrc: convert to YAML
-f34adadd74938e89ac42b73f85ac08c20e481c05 dt-bindings: input: touchscreen: fsl,imx6ul-tsc convert to YAML
-14d35440bf116cf070edc447137aa0922f40e308 dt-bindings: soc: imx: fsl,imx-anatop: add binding
-c5481f26f151e0c9479969c040f3684e7e6db7d0 dt-bindings: soc: imx: fsl,imx-iomuxc-gpr: add imx6
-b3bcbbcb77ada7766f400e5b771ff6cf51569028 dt-bindings: lcdif: Do not require power-domains for i.MX6ULL
-e5911c12e1eac10f3c4a341fb46dfb982b2518a6 ARM: dts: imx6ull: fix pinctrl node name
-ac494065fa0c83f1ff19f365c968ecea0524736b ARM: dts: imx6ul: Remove fsl,anatop from usbotg1
-92a483199e014326e88523c30d3ea23b88e7f8aa ARM: dts: imx6ul: add missing #thermal-sensor-cells
-7c05c23b41c2219f085097ee13e7b870cf5baf31 dt-bindings: fsl-imx-sdma: fix HDMI Audio index
-7da342183d381dd8a360db7652aa89e28c3a5ff4 [NOTFORUPSTREAM] Kernel config for uti260b thermal camera
+daf7795406bf307997366f694888bd317ae5b5fa scsi: ufs: core: Simplify power management during async scan
+ee36710912b2075c417100a8acc642c9c6496501 scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
+b08d86e6eb03566c5dc32e6ff10147f80aeb7511 scsi: ufs: qcom: Remove unnecessary goto statement from ufs_qcom_config_esi()
+c6d5aa44eaf6d119f9ceb3bfc7d22405ac04232a scsi: smartpqi: Add new controller PCI IDs
+fb4cece17b4583f55b34a8538e27a4adc833c9d4 scsi: smartpqi: Fix logical volume rescan race condition
+8c9955107762a23043db544d83959c4e0103bae3 scsi: smartpqi: Bump driver version to 2.1.26-030
+904fdd2062f3101fb09db8ee077abf7ffd95e538 scsi: mpi3mr: Fix mpi3mr_fw.c kernel-doc warnings
+567a1e852e872e702b18d271a3dbce2a75efbaff scsi: fcoe: Fix unsigned comparison with zero in store_ctlr_mode()
+38945c2b006b23a1a7a0c88d76e3294c6199891c scsi: fnic: unlock on error path in fnic_queuecommand()
+6df0e077d76bd144c533b61d6182676aae6b0a85 scsi: core: Kick the requeue list after inserting when flushing
+83ab68168a3d990d5ff39ab030ad5754cbbccb25 scsi: target: core: Add TMF to tmr_list handling
+c25b24fa72c734f8cd6c31a13548013263b26286 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============9210024493316245652==--
+--===============7096247952365991159==--
