@@ -1,31 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============7346935193174151337=="
+Content-Type: multipart/mixed; boundary="===============5062342369334235180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 20 Jan 2024 19:41:33 -0000
-Message-Id: <170577969319.31110.10094982057034223477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sat, 20 Jan 2024 20:07:29 -0000
+Message-Id: <170578124903.16996.12081658191982436962@gitolite.kernel.org>
 
---===============7346935193174151337==
+--===============5062342369334235180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
   - ref: refs/heads/master
-    old: c25b24fa72c734f8cd6c31a13548013263b26286
+    old: 9d64bf433c53cab2f48a3fff7a1f2a696bc5229a
     new: e5075d8ec5647322fb9e699bfb76331cc8ee098d
-    log: revlist-c25b24fa72c7-e5075d8ec564.txt
+    log: revlist-9d64bf433c53-e5075d8ec564.txt
 
---===============7346935193174151337==
+--===============5062342369334235180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c25b24fa72c7-e5075d8ec564.txt
+Content-Disposition: attachment; filename=revlist-9d64bf433c53-e5075d8ec564.txt
 
+daf7795406bf307997366f694888bd317ae5b5fa scsi: ufs: core: Simplify power management during async scan
+ee36710912b2075c417100a8acc642c9c6496501 scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
+b08d86e6eb03566c5dc32e6ff10147f80aeb7511 scsi: ufs: qcom: Remove unnecessary goto statement from ufs_qcom_config_esi()
+c6d5aa44eaf6d119f9ceb3bfc7d22405ac04232a scsi: smartpqi: Add new controller PCI IDs
+fb4cece17b4583f55b34a8538e27a4adc833c9d4 scsi: smartpqi: Fix logical volume rescan race condition
+8c9955107762a23043db544d83959c4e0103bae3 scsi: smartpqi: Bump driver version to 2.1.26-030
+904fdd2062f3101fb09db8ee077abf7ffd95e538 scsi: mpi3mr: Fix mpi3mr_fw.c kernel-doc warnings
 b6da6cbe13ebf24716438de71d50573b9f36f35d riscv: introduce RISCV_EFFICIENT_UNALIGNED_ACCESS
 d0fdc20b0429150c9dd09111f9b1d9d48117b56f riscv: select DCACHE_WORD_ACCESS for efficient unaligned access HW
 78996eee79ebdfe8b6f0e54cb6dcc792d5129291 riscv: Fix module loading free order
@@ -58,6 +65,10 @@ adb1f95d388a43c4c564ef3e436f18900dde978e riscv: Fix an off-by-one in get_early_c
 5f449e245e5b0d9d63eef6c8968fbdc3a8594407 riscv: mm: Fixup compat mode boot failure
 97b7ac69be2e5a683e898f5267f659fde52efdd5 riscv: mm: Fixup compat arch_get_mmap_end
 d4abde52b4b116111537593e2744b3234d18808d Merge patch series "riscv: mm: Fixup & Optimize COMPAT code"
+567a1e852e872e702b18d271a3dbce2a75efbaff scsi: fcoe: Fix unsigned comparison with zero in store_ctlr_mode()
+38945c2b006b23a1a7a0c88d76e3294c6199891c scsi: fnic: unlock on error path in fnic_queuecommand()
+6df0e077d76bd144c533b61d6182676aae6b0a85 scsi: core: Kick the requeue list after inserting when flushing
+83ab68168a3d990d5ff39ab030ad5754cbbccb25 scsi: target: core: Add TMF to tmr_list handling
 ecd2ada8a5e0b464dab54f71d4ba7bbf5708711f riscv: Add support for kernel mode vector
 956895b9d8f74df015636288a81872c07c4fded3 riscv: vector: make Vector always available for softirq context
 c5674d00cacdb1c47c72e19a552fbae401bc3532 riscv: Add vector extension XOR implementation
@@ -91,7 +102,13 @@ c4db7ff7a9edf504752704f08aabb5554bd6c37f riscv: add dependency among Image(.gz),
 080c4324fa5e81ff3780206a138223abfb57a68e riscv: optimize ELF relocation function in riscv
 66f962d8939fd2ac74de901d30d30310c8ddca79 riscv: Fix build error on rv32 + XIP
 4525462dd0db9e86bb67c10dedbbaa4f8d62697d riscv: lib: Check if output in asm goto supported
+d87123aa9a7920e88633ffc5c5a0a22ab08bdc06 sh: ecovec24: Rename missed backlight field from fbdev to dev
+99fe83ab3bb0e8aac4d45a9361919794336b2ba8 sh: vsyscall: Remove unnecessary $(foreach ...)
 f24a70106dc1ad2a755b2d42f47cf1dcf24f0b27 lib: checksum: Fix build with CONFIG_NET=n
+2bebc3cd48701607e38e8258ab9692de9b1a718b Revert "firmware/sysfb: Clear screen_info state after consuming it"
+b1737ad4406a35f20eaae0e8079cc6ca6447e83a Merge tag 'fbdev-for-6.8-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
+125514880ddd381fdaaa4d11f32afdb55f1c0307 Merge tag 'sh-for-v6.8-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
+c25b24fa72c734f8cd6c31a13548013263b26286 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 e5075d8ec5647322fb9e699bfb76331cc8ee098d Merge tag 'riscv-for-linus-6.8-mw4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============7346935193174151337==--
+--===============5062342369334235180==--
