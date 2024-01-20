@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6111174085982191604=="
+Content-Type: multipart/mixed; boundary="===============5052816999026043183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 20 Jan 2024 08:22:27 -0000
-Message-Id: <170573894762.10944.17523325835277403544@gitolite.kernel.org>
+Date: Sat, 20 Jan 2024 08:37:39 -0000
+Message-Id: <170573985950.22252.8671892306412796447@gitolite.kernel.org>
 
---===============6111174085982191604==
+--===============5052816999026043183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847
-    new: 9d64bf433c53cab2f48a3fff7a1f2a696bc5229a
-    log: revlist-9d1694dc91ce-9d64bf433c53.txt
+  - ref: refs/heads/kbuild
+    old: 74c793c834f2b953410304a115395686c38b2668
+    new: 45a6224a6fa00c33c3a4b85efe0e4b4718823fff
+    log: revlist-74c793c834f2-45a6224a6fa0.txt
 
---===============6111174085982191604==
+--===============5052816999026043183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d1694dc91ce-9d64bf433c53.txt
+Content-Disposition: attachment; filename=revlist-74c793c834f2-45a6224a6fa0.txt
 
 1715b6359c1ae37f24d6774f0bcd73b6bf839eaa perf beauty socket/prctl_option: Cope with extended regexp complaint by grep
 c8e3ade38bc6545faece71cc6c642ad744d4cea3 perf tests make: Remove the last egrep call, use 'grep -E' instead
@@ -473,5 +473,11 @@ a638bfbfa1f8e8fbf36d84679916c60c1382a2ef Merge tag 'spi-fix-v6.8-merge-window' o
 18b5cb6cb85c2ac96b8e94e698d11b909225ce4a Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 57f22c8dab6b266ae36b89b073a4a33dea71e762 Merge tag 'strlcpy-removal-v6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 9d64bf433c53cab2f48a3fff7a1f2a696bc5229a Merge tag 'perf-tools-for-v6.8-1-2024-01-09' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+fafa2ee1199c7ffc2a6fba463dfcc7c4d8f28df1 kconfig: remove unneeded buffer allocation in zconf_initscan()
+48c995c8acd5a46065d3c7bbd6aabc3c927357ff kbuild: deb-pkg: show verbose log for direct package builds
+a247cab9121f95f1475681c7afb8bfe9c3cb2de6 kbuild: deb-pkg: make debian/rules quiet for 'make deb-pkg'
+e950b268f1a079d5b56b7892aeae1d156db3ecd1 kbuild: deb-pkg: build binary-arch in parallel
+08db8f58ee5ad820842bbeee4864643786b124b3 kbuild: deb-pkg: call more misc debhelper commands
+45a6224a6fa00c33c3a4b85efe0e4b4718823fff docs: kbuild/kconfig: reformat/cleanup
 
---===============6111174085982191604==--
+--===============5052816999026043183==--
