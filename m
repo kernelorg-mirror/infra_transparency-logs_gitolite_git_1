@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5062342369334235180=="
+Content-Type: multipart/mixed; boundary="===============2855781079785460686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 20 Jan 2024 20:07:29 -0000
-Message-Id: <170578124903.16996.12081658191982436962@gitolite.kernel.org>
+Date: Sat, 20 Jan 2024 20:11:49 -0000
+Message-Id: <170578150936.20242.15455121606120564770@gitolite.kernel.org>
 
---===============5062342369334235180==
+--===============2855781079785460686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 9d64bf433c53cab2f48a3fff7a1f2a696bc5229a
-    new: e5075d8ec5647322fb9e699bfb76331cc8ee098d
-    log: revlist-9d64bf433c53-e5075d8ec564.txt
+  - ref: refs/heads/kbuild
+    old: 45a6224a6fa00c33c3a4b85efe0e4b4718823fff
+    new: de2d2ae4098177f61bd919cf388030f0653bf083
+    log: revlist-45a6224a6fa0-de2d2ae40981.txt
 
---===============5062342369334235180==
+--===============2855781079785460686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d64bf433c53-e5075d8ec564.txt
+Content-Disposition: attachment; filename=revlist-45a6224a6fa0-de2d2ae40981.txt
 
 daf7795406bf307997366f694888bd317ae5b5fa scsi: ufs: core: Simplify power management during async scan
 ee36710912b2075c417100a8acc642c9c6496501 scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
@@ -110,5 +110,11 @@ b1737ad4406a35f20eaae0e8079cc6ca6447e83a Merge tag 'fbdev-for-6.8-rc1-2' of git:
 125514880ddd381fdaaa4d11f32afdb55f1c0307 Merge tag 'sh-for-v6.8-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 c25b24fa72c734f8cd6c31a13548013263b26286 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 e5075d8ec5647322fb9e699bfb76331cc8ee098d Merge tag 'riscv-for-linus-6.8-mw4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+9e23bd1684ac1e8da3323a68c6a1f635092bc1b9 kconfig: remove unneeded buffer allocation in zconf_initscan()
+7c983684c4dae3c47cdea891a72126bb51a538bf kbuild: deb-pkg: show verbose log for direct package builds
+e3ef0724db70b6d94e271b1a7346cb1bebf9c667 kbuild: deb-pkg: make debian/rules quiet for 'make deb-pkg'
+1a3a93e60861dac1e8927b3f009b99d34cba074e kbuild: deb-pkg: build binary-arch in parallel
+52dff36810b9117d89ee2195c7fd570df2e7fff0 kbuild: deb-pkg: call more misc debhelper commands
+de2d2ae4098177f61bd919cf388030f0653bf083 docs: kbuild/kconfig: reformat/cleanup
 
---===============5062342369334235180==--
+--===============2855781079785460686==--
