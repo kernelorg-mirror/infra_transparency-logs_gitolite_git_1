@@ -1,57 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4212815141950744149=="
+Content-Type: multipart/mixed; boundary="===============6111174085982191604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 20 Jan 2024 06:58:04 -0000
-Message-Id: <170573388443.14917.9790543506746905517@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sat, 20 Jan 2024 08:22:27 -0000
+Message-Id: <170573894762.10944.17523325835277403544@gitolite.kernel.org>
 
---===============4212815141950744149==
+--===============6111174085982191604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/staging-testing
+  - ref: refs/heads/master
     old: 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847
     new: 9d64bf433c53cab2f48a3fff7a1f2a696bc5229a
     log: revlist-9d1694dc91ce-9d64bf433c53.txt
 
---===============4212815141950744149==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705733883 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1705733883-e300b1e2e2b02790df0610db05bc74f8325446e9
-
-9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 9d64bf433c53cab2f48a3fff7a1f2a696bc5229a refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWrbvwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hnkQAMLwczUijwnFyQMF2lWJ
-Iow7Ak7gJKYtR0yreZ0fCQbzOLz0UChEi+HH5LqsbUsFmIWoc+EuZNoTfMmRSGgl
-o0UNa6ZY82iCs9vjt4nB+cvK3gDcx0tSKJRbsy/mqU9r8bbZidFcRP53gnaNn8N7
-ItgdOmOf4xbD/g2CH6f5QglDMkdAzFqqaQmNmKlji552vihxQ6EBcAI4nCLV40BV
-AtVhIxQF6pcagzwrq/GNh9GczOO6I/WTGyExZzNP/e0PA8Nr6XskRXpI5qKcwUcy
-BJ+rxsf87WqP1ngdhI7c1OcHrBDhtpHZMd6OKOYGTslmVEN90CSAeEdEnRR8rnvg
-2s9Mw2pCnSQLpyXbI/9Z50euN4M5SPGrEYqwZ7IoKLpnB4b9Np9Ahld8Py/OBkhs
-Dis4Ax2/rIBfk9jrra21tmfiiyqHEFuTn/u3krUy8PNPukIV86gc1BsfLfIAqig4
-DH6JKqbK3X3eFYeSNUMRQkazTI4e53NCLQEkIgbdzub/dOpRRo1wM5vgdIBE7VGI
-EaENXx3FZB5vgCgxwlKitUnHuK4bPLOeuCk+N2itecaB6hex8Wgyr+yvKJiDc6he
-n+TA7Hi4bNg6TZytLZe8BPZtarjOo4bao1qMjQHHp6gfdgKPfwArOJ7NEYZcV/JD
-37yaYkBfBVUBqQnUQUGEQrNG
-=MIYA
------END PGP SIGNATURE-----
-
---===============4212815141950744149==
+--===============6111174085982191604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -505,4 +474,4 @@ a638bfbfa1f8e8fbf36d84679916c60c1382a2ef Merge tag 'spi-fix-v6.8-merge-window' o
 57f22c8dab6b266ae36b89b073a4a33dea71e762 Merge tag 'strlcpy-removal-v6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 9d64bf433c53cab2f48a3fff7a1f2a696bc5229a Merge tag 'perf-tools-for-v6.8-1-2024-01-09' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============4212815141950744149==--
+--===============6111174085982191604==--
