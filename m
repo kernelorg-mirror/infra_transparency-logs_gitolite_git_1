@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4681887457259098720=="
+Content-Type: multipart/mixed; boundary="===============6798985910154689277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 20 Jan 2024 20:19:02 -0000
-Message-Id: <170578194271.24439.5270213548893734268@gitolite.kernel.org>
+Date: Sat, 20 Jan 2024 20:19:12 -0000
+Message-Id: <170578195294.24549.12354090895917138363@gitolite.kernel.org>
 
---===============4681887457259098720==
+--===============6798985910154689277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/for-next
-    old: 6185d32170b683abadddf1e68be998e24f3cc5de
+  - ref: refs/heads/fixes
+    old: 753547de0daecbdbd1af3618987ddade325d9aaa
     new: e5075d8ec5647322fb9e699bfb76331cc8ee098d
-    log: revlist-6185d32170b6-e5075d8ec564.txt
+    log: revlist-753547de0dae-e5075d8ec564.txt
 
---===============4681887457259098720==
+--===============6798985910154689277==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6185d32170b6-e5075d8ec564.txt
+Content-Disposition: attachment; filename=revlist-753547de0dae-e5075d8ec564.txt
 
-05b26c31a4859af9e75b7de77458e99358364fe1 i3c: master: svc: add hot join support
-e5e3df06ac98d15cfb10bb5c12356709365e91b2 i3c: add actual_len in i3c_priv_xfer
 6fb61734a74eaa307a5b6a0bee770e736d8acf89 i3c: master: svc: rename read_len as actual_len
 6d1a19d34e2cc07ca9cdad8892da94e716e9d15f i3c: master: svc: return actual transfer data len
 18e5794879905a788e06fb2bc40b6f5b58eae5c2 i3c: master: fix Excess kernel-doc description warning
@@ -316,6 +314,8 @@ d505a16e00c35919fd9fe5735894645e0f70a415 drm/i915/perf: reconcile Excess struct 
 3208bcef366a1795f03abd93a0dfe7f1c364e4d7 mfd: ab8500-sysctrl: Drop ancient charger
 64fe64f920f0b478c0fb350b1682b70c21160c98 dt-bindings: mfd: sprd: Add support for UMS9620
 284d16c456e5d4b143f375b8ccc4038ab3f4ee0f mfd: ti_am335x_tscadc: Fix TI SoC dependencies
+1b5e94657320c86fc660745e3fc64321948649be kbuild: deb-pkg: move 'make headers' to build-arch
+6185d32170b683abadddf1e68be998e24f3cc5de kbuild: deb-pkg: use debian/<package> for tmpdir
 496530c7c1dfc159d59a75ae00b572f570710c53 erofs: avoid debugging output for (de)compressed data
 aa12a790d31be14b289d5a2c6f41ca535fcc7841 erofs: make erofs_{err,info}() support NULL sb parameter
 e70b8dd26711704b1ff1f1b4eb3d048ba69e29da ASoC: mediatek: mt8195: Remove afe-dai component and rework codec link
@@ -1051,4 +1051,4 @@ b1737ad4406a35f20eaae0e8079cc6ca6447e83a Merge tag 'fbdev-for-6.8-rc1-2' of git:
 c25b24fa72c734f8cd6c31a13548013263b26286 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 e5075d8ec5647322fb9e699bfb76331cc8ee098d Merge tag 'riscv-for-linus-6.8-mw4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============4681887457259098720==--
+--===============6798985910154689277==--
