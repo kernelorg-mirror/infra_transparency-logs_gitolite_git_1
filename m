@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 20 Jan 2024 22:03:11 -0000
-Message-Id: <170578819124.3554.13692224526830758419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 20 Jan 2024 22:15:19 -0000
+Message-Id: <170578891997.13894.1682192673647083650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: e5075d8ec5647322fb9e699bfb76331cc8ee098d
-    new: 31e97d7c9ae3de072d7b424b2cf706a03ec10720
+    old: 7a9b10bfa110f8c5fda3be4e9b2d112910ac0cad
+    new: 33c85479a7285da4c962db32d83ecc5fa4b50b4e
     log: |
-         978ffcbf00d82b03b79e64b5c8249589b50e7463 execve: open the executable file before doing anything else
-         31e97d7c9ae3de072d7b424b2cf706a03ec10720 media: solo6x10: replace max(a, min(b, c)) by clamp(b, a, c)
+         33c85479a7285da4c962db32d83ecc5fa4b50b4e Sat Jan 20 10:13:57 PM UTC 2024
          
