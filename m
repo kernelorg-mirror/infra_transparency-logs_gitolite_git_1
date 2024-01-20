@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Fri, 19 Jan 2024 23:56:31 -0000
-Message-Id: <170570859105.32726.18254533157588059510@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sat, 20 Jan 2024 00:19:18 -0000
+Message-Id: <170570995857.15985.10744825718474097714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/for-6.9
-    old: 1a65a6d17cbc58e1aeffb2be962acce49efbef9c
-    new: 7bd20b6b87183db2ebf789bcf9d0aa6d06a0defb
-    log: |
-         7bd20b6b87183db2ebf789bcf9d0aa6d06a0defb workqueue: mark power efficient workqueue as unbounded if nohz_full enabled
-         
-  - ref: refs/heads/for-next
-    old: 1a65a6d17cbc58e1aeffb2be962acce49efbef9c
-    new: 7bd20b6b87183db2ebf789bcf9d0aa6d06a0defb
-    log: |
-         7bd20b6b87183db2ebf789bcf9d0aa6d06a0defb workqueue: mark power efficient workqueue as unbounded if nohz_full enabled
-         
+  - ref: refs/tags/fbdev-for-6.8-rc1-2
+    old: 0000000000000000000000000000000000000000
+    new: 7c1798ac2317515778912ea9ec36642c509342ad
