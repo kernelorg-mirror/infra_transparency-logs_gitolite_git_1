@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4598159205676483501=="
+Content-Type: multipart/mixed; boundary="===============2476316440317320377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 20 Jan 2024 06:56:12 -0000
-Message-Id: <170573377205.13497.3470504748478468372@gitolite.kernel.org>
+Date: Sat, 20 Jan 2024 06:56:36 -0000
+Message-Id: <170573379654.13757.16724097060904847098@gitolite.kernel.org>
 
---===============4598159205676483501==
+--===============2476316440317320377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: c9d85bf0421b8d2ba7678878db687bdc50902592
-    new: 9591b2ef48c212c08b8edfc756c37f8601cf97b2
-    log: revlist-c9d85bf0421b-9591b2ef48c2.txt
+  - ref: refs/heads/class_cleanup
+    old: 37e1dd7bcbc676cef37fcc8634e994b42a7c2c72
+    new: deed9f6482107383cf9248b573ee0b8458d67066
+    log: revlist-37e1dd7bcbc6-deed9f648210.txt
 
---===============4598159205676483501==
+--===============2476316440317320377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705733769 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705733794 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1705733768-9b7765e5a43949f79654201108dc5922b24b55cc
+nonce 1705733793-6698f114f8a6b8c614826c640f48b8d61c12b059
 
-c9d85bf0421b8d2ba7678878db687bdc50902592 9591b2ef48c212c08b8edfc756c37f8601cf97b2 refs/heads/bus_cleanup
+37e1dd7bcbc676cef37fcc8634e994b42a7c2c72 deed9f6482107383cf9248b573ee0b8458d67066 refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWrbokbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FOYQAIipFwsNQkoRCbt/D+X1
-PqK2r2YZ80bumMSbiDV5uDPuSYgFKV3Csgf8snLZADgNpEhRQ6Rs/BTNOoHrlDC6
-wNRWlCbO6GdZ6pniO75yEy5Da5EbFhKiEFMMKkCN0QMR6YLnF4H3j0LaVbmvcI6I
-U7wHnUvk0P87/x6l82DOy4QBhfncVHMb9ewyN9PCg7w/NRx9s59s+oW8kLM2Us9s
-oV7f3ZhfmfQqxzvKzZ4VHgA5andnMKB1dLNasKaribiSukyBh4sk0X8scspXHeW5
-8pp3p0Xr/zhDKEh7cgU5d+0cLklTBH2SrQCHa+oHrgiBCjZrcWQptppRlYVXqaGf
-lZZAidvAmaRO98q4pBMGn+QtHgmmh9e9yjcPwRM1aVT8zV1BP9XNqlCIDOxZYkPg
-FJPSyssi39nWJ9JSL/e0BuTJFuG1F4Gzxc75VxB9B7WI/mxdaNu4vNXnJHqdmYdR
-fnPC1CB1EhEEkUZXRCgZiawLJoA9DXQGipufcd+XP2BwMnsTaWoeGK0GcOua56xj
-DLzNtjG5YFikNNllVHIGI8nlfnk6DKJU07giQU8bAQCnfhyYE1cJTm9B96hibh7y
-Q9OVXhDVizZQEX/AGYL66900V/OEsesLSeWOI5/HTHF1JNHu/ULaq0Loc4n//rES
-+iw2o7apfwQOYSS5ULCrha9R
-=0LkH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWrbqIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k38QANB8t0XQra/t2ItjMx4U
+P0TaCkTCFtHzAo2+0+F/Wre66AlFTgT5YunIalxIaXhxIKcCx7pGdWjZeblWiPGE
+nsOHI5ZTI2JI41EWjqPRCko2cmoDq2nZ/n12I1r4d87dAvtaH/GRySOOP8wr080I
+A624hrYoRZsQSbNlmJlKwTejLDWhcZ92pMg9WmfrczQl7LX1zZr7uJWEzYUoCKbR
+vNWyvkmCDdFflUlHQF3e+FakKqmG1IBC6vkL5SUYf4iT7ZazC2ENifI0WycqkNc8
+xIcBx/WRebXFDf0vRi/7C3bLcwvmMn8z4tGsw9BKDXWDLxJwpbBHTc3yOQIx2kn6
+lZbgmK35PqCuq8/Ib4cBH7MYRTUWLh+PLl6wt6z9BG6QQjC5vemp0B8Sg8IFi9SS
+HsT4etqgwti88SePydlOHyJxFF8PRXs7PRZ9xBaGIUmSuNDmZsVlrBlNVL6doXS7
+PUobPW/vC+QyTEKpSK8yc3uUAKBndfVUPLUj6Wh87olNfQOt08pq70cUTXuZ31Gr
+ngyqXPqmogDDM6q1c3QxI58Nqec3p4j2iG0dxhkyh7twgWsfkO139nrBkJur1WTu
+J7HaL4teD04onshQAUzoZh+JSDOLDHc72qbbaKTxFOP+/96Ac0e47rwTnUOCLVuw
+8QoSQet3w8vZVBFu1DhQSh11
+=Lp38
 -----END PGP SIGNATURE-----
 
---===============4598159205676483501==
+--===============2476316440317320377==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c9d85bf0421b-9591b2ef48c2.txt
+Content-Disposition: attachment; filename=revlist-37e1dd7bcbc6-deed9f648210.txt
 
-b805ab3c6935d14654ccc28f16ffce7a13c2c528 mm/vmstat: move pgdemote_* out of CONFIG_NUMA_BALANCING
-e2cfedf4b07cd3cdcb3648729fb1ce09c8c1fcc0 mm/selftests: hugepage-mremap: conform test to TAP format output
 cb6e7cae18868422a23d62670110c61fd1b15029 selftests/mm: gup_test: conform test to TAP format output
 84ba3f226ce1a1f0255b3fc9eb9abbd66d3e0d94 selftests: mm: hugepage-mmap: conform to TAP format output
 9a21701edc41465de56f97914741bfb7bfc2517d selftests/mm: conform test to TAP format output
@@ -1069,17 +1067,19 @@ b5f66ba2d07180706ffa10df07f202335df190f1 Merge tag 'kbuild-v6.8' of git://git.ke
 6f3625006b157c5a460970ca4d651b100bfa67bf Merge tag 'erofs-for-6.8-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 e9a5a78d1ad8ceb4e3df6d6ad93360094c84ac40 Merge tag 'for-6.8/io_uring-2024-01-18' of git://git.kernel.dk/linux
 9d1694dc91ce7b80bc96d6d8eaf1a1eca668d847 Merge tag 'for-6.8/block-2024-01-18' of git://git.kernel.dk/linux
-077c6f68128ba73b1693aa260c1d0e69cee2ddaf FIXME: driver core: platform: make platform_bus_type constant
-17336eac54c4c7f5d791fcf44c7f6622ec79eced FIXME: PCI: make pci_bus_type const
-e5bfc09f0aee05f9bbe714b94f59e577ca43b7c3 FIXME: amba: make amba_bustype constant
-10f37e14d8217b1f44a02838b9bee49cdf6c4529 FIXME: bus: fsl-mc: make fsl_mc_bus_type constant
-8f0e43f503ecc3f1393005042f26658fd75ca66f FIXME: gpu: host1x: make host1x_context_device_bus_type constant
-180c82d8180e394ad102ec790cb8c4f4367d02ca FIXME: cdx: make cdx_bus_type constant
-92ea6d3f67743a9c8060b8b0de0817910d7e4749 greybus: make greybus_bus_type const
-9302c334d1ab24df4da3b084e848ff3ee0e462fe driver core: cpu: make cpu_subsys const
-119f95e82ff5ab85aee18c8518803df2d484258f spi: make spi_bus_type const
-c2b81421feaef2518616052fec49603fd43e4790 staging: greybus: gbphy: make gbphy_bus_type const
-33b139c08dc224bc8d6f00684a105ee90f214ade coresight: make coresight_bustype const
-9591b2ef48c212c08b8edfc756c37f8601cf97b2 make a bunch of struct bus_type const.
+8bec643bfdc396979d771e75184d32f6edcd019c coda: psdev: make coda_psdev_class a static const structure
+ccafed96f2f0f8f0ac943b51c98bc47b5269de99 cuse: make cuse_class a static const structure
+9d7f05888766b242bdb7f92a6f69f76e5f6d8a38 pstore: pmsg: make pmsg_class a static const structure
+4fda0ff4a8ed8a1fbda1c0b210a2b129c9a38f4a netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
+cb7646da7a1bfd618c2856e0c577d7c54cba399d PM: wakeup: make wakeup_class a static const structure
+b1eb05ead09a0810c23c341e4cc9826999976366 PM / devfreq: make all 'class' structures const
+11585d258c340145da1b8bc3469d10341323f81a dca: make dca_class a static const structure
+81d795eb57651bd969b323a5702fd4dcb303ecbf gnss: make gnss_class a static const structure
+58bda221f0837706851d30a492d3fe2570862e24 extcon: make extcon_class a static const structure
+fdfdaa1cd283fbf654219dd4f8b413c60278e4ad misc: c2port: core: make c2port_class a static const structure
+d48c83edfb21286ee43ce1b49537a2b21091d629 nvdimm: make nd_class constant
+15d0cea501fc383c9a4709fab80b0886da0d3676 PCI: endpoint: make pci_epc_class constant
+a24d6632082f9d6caea9c85cd41b48710555afc3 PCI: switchtec: make switchtec_class constant
+deed9f6482107383cf9248b573ee0b8458d67066 crypto: qat: make adf_ctl_class constant
 
---===============4598159205676483501==--
+--===============2476316440317320377==--
