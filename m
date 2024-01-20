@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 20 Jan 2024 22:21:49 -0000
-Message-Id: <170578930903.17841.4716112009330973741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 20 Jan 2024 22:32:01 -0000
+Message-Id: <170578992148.24624.18083254258334817806@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 31e97d7c9ae3de072d7b424b2cf706a03ec10720
-    new: 80fc600fafee8ba981da6ed41a572800c8e11de6
+    old: 33c85479a7285da4c962db32d83ecc5fa4b50b4e
+    new: 0c42c960a2e1ba20b6c61d87da3fa8a50ce2b900
     log: |
-         68ea60a7961ca6c7c38f856572a146f66949815d coccinelle: device_attr_show: Adapt to the latest Documentation/filesystems/sysfs.rst
-         ff82e84e80fc0c93095f5a36e0a3508ac121ab80 coccinelle: device_attr_show: simplify patch case
-         80fc600fafee8ba981da6ed41a572800c8e11de6 Merge tag 'coccinelle-for-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
+         0c42c960a2e1ba20b6c61d87da3fa8a50ce2b900 Sat Jan 20 10:30:39 PM UTC 2024
          
