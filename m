@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7313142787681718614=="
+Content-Type: multipart/mixed; boundary="===============0677372273625207662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 21 Jan 2024 09:15:03 -0000
-Message-Id: <170582850388.1155.2015228539613941593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Date: Sun, 21 Jan 2024 09:15:20 -0000
+Message-Id: <170582852044.1454.6410036706287331834@gitolite.kernel.org>
 
---===============7313142787681718614==
+--===============0677372273625207662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
+  - ref: refs/heads/main
     old: 9d64bf433c53cab2f48a3fff7a1f2a696bc5229a
     new: 7a396820222d6d4c02057f41658b162bdcdadd0e
     log: revlist-9d64bf433c53-7a396820222d.txt
 
---===============7313142787681718614==
+--===============0677372273625207662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705828503 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1705828502-9298ea0018633322daf154319ec66b5b58b81222
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705828517 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
+nonce 1705828516-a7f737f3ee74bb9d79ce2235d14fb4470ca84aaf
 
-9d64bf433c53cab2f48a3fff7a1f2a696bc5229a 7a396820222d6d4c02057f41658b162bdcdadd0e refs/heads/staging-testing
+9d64bf433c53cab2f48a3fff7a1f2a696bc5229a 7a396820222d6d4c02057f41658b162bdcdadd0e refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWs4JcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zh8QALTUfjkAzi1PXV0uYCkP
-/FOLqyrWuDJ78vTbTimqjHBzCgfOf2OvzkjBUOByD96+cUBwYPldR6QfzR5Vu2in
-G6lgyrC0jz8vsZ+MM+2K8HtbH4LBeCetfPLoaF6LM+CPL1gMH0QjyffWPPOT243W
-ts6t+/ME4RhRjfLlsJAPDO3SD9wN2VWda6560AmGMg4KmZHOWxhyR9bzmagLdlSd
-y1yG1W0dXX2lFNwC9Anj5GjJNzpiCWFI/p5kcj2xCnS3x77eJRpLr5wzWvGbbl3k
-cXSFYw7SlnqFLrEPi9K7UsO/QuTnLklbNTJY+mFm0EiN0fao44bbZHYkQhMiFvP/
-YDUKpEnUOyDkB0C6ekHWQM+5TyN5591Vom7ZgAEsrbSkUs47FdSzs0cfEvsYVcbp
-kBhkDssjoWiuJuAxCW5xhEyB9oqC3OaLc/YdFzVqI+S/UIpmqSS8zjMszYdb9gLE
-ihyhD5rCAP9xbCihFzU7PyS7zW4FMC77x73VAS1tjeTDkidx9pDKT3fdw/QQhzwB
-JX/40/OA/o4J3sISY6WE56PLDSRGaDZB4Eu+/Jn68wBhtK71gos6vhHtYl0E9M+X
-JuAKpbvLyvogG+Pv2BH0ZlL0vn8N0X8m1QSVIn0qqba4Vm3SvnQ4mQFUPxO+egHR
-1mha2xIP5i2wGbzUFjY9y+D4
-=uMo8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWs4KUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EIAQAKYJRrjIk9EIBPq0sNUr
+vAYHWdFOw22OsrgMwkc/a/ysPGRlo/pN4nFCblx/HT3roDM6LCIBddU+MEkBrzwt
+zTYG8c6XFcOkNuzuMNROhXxH5mBi9o8etVzrc/jZOBmXjCcUyY6FmTkasm+mm9XZ
+t7Q74rfi5HCGqyATPFOnL8JO+k4WWFYS9ff+sV7R1Ub3EvkdFnAfIaptlz3sOhRg
+cX+w3Dnrv/fdqo6WtbteuJo6PFhtQZbYDLJFCGkD+TzBsfJWN4yJeGl9EpL1ctBq
+kw4IJOltPNq7rqEA47FkOxylOgV/AHPFYwU8Nd+I9XkgDsrz2lFmnv2aJ9Q1jH2D
+VJZIwp1hq82RVoJIHuw85I9bNMt+MyqHKTIAfewQjjiQawVL2J5lO5ZYuqyH2Dqa
+77Y6tP+Ui0C0t45SOBvtWXGLHTE4aT3KPhUNVtkw6Hi4cn14w9ujg0fGGk/3/Rph
+H+TcGl8gxY/cjT6PTxru7wlO8XhuHtK4RhjW0TMHEgwpjviL5jYa/nIZ7jDEUCeV
+/t2PmKjNNfXL8qPhWA78JWyIP1EZrJq0YTpSrdkp5SFtv4G5dlnnYheHp1oafzDn
+K5gCytZQB1ZxhFp76x8iK39ARV8HjsDc55TAER79rze3RnmXL88hV/bfyRQTVFXd
+JbHRFuVFflPuRC2egAkpgSUE
+=Yvzd
 -----END PGP SIGNATURE-----
 
---===============7313142787681718614==
+--===============0677372273625207662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -225,4 +225,4 @@ ff82e84e80fc0c93095f5a36e0a3508ac121ab80 coccinelle: device_attr_show: simplify 
 65163d16fcaef37733b5f273ffe4d00d731b34de Merge tag 'dmaengine-fix-6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 7a396820222d6d4c02057f41658b162bdcdadd0e Merge tag 'v6.8-rc-part2-smb-client' of git://git.samba.org/sfrench/cifs-2.6
 
---===============7313142787681718614==--
+--===============0677372273625207662==--
