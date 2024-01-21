@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2283545706130098755=="
+Content-Type: multipart/mixed; boundary="===============1398711932551101397=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Sun, 21 Jan 2024 23:55:32 -0000
-Message-Id: <170588133236.31896.10886177480184086271@gitolite.kernel.org>
+Date: Sun, 21 Jan 2024 23:56:22 -0000
+Message-Id: <170588138261.32257.12695950933507138475@gitolite.kernel.org>
 
---===============2283545706130098755==
+--===============1398711932551101397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/test
-    old: b85ea95d086471afb4ad062012a4d73cd328fa86
+  - ref: refs/heads/nolibc
+    old: d543d9ddf593b1f4cb1d57d9ac0ad279fe18adaf
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-b85ea95d0864-6613476e225e.txt
+    log: revlist-d543d9ddf593-6613476e225e.txt
 
---===============2283545706130098755==
+--===============1398711932551101397==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b85ea95d0864-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-d543d9ddf593-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============2283545706130098755==--
+--===============1398711932551101397==--
