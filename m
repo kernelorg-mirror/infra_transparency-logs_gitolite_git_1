@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6130036464983845232=="
+Content-Type: multipart/mixed; boundary="===============2744540871488866069=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 21 Jan 2024 09:14:57 -0000
-Message-Id: <170582849753.31647.2800989776540046562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sun, 21 Jan 2024 09:15:00 -0000
+Message-Id: <170582850060.31816.4457754051438138044@gitolite.kernel.org>
 
---===============6130036464983845232==
+--===============2744540871488866069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/staging-next
     old: 9d64bf433c53cab2f48a3fff7a1f2a696bc5229a
     new: 7a396820222d6d4c02057f41658b162bdcdadd0e
     log: revlist-9d64bf433c53-7a396820222d.txt
 
---===============6130036464983845232==
+--===============2744540871488866069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705828496 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1705828496-6f534fecb4d0a5f15f77f912afc29e4f2cb8ab6f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705828499 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1705828499-9e4525092e4f5b19963fafca432f714c1bb11456
 
-9d64bf433c53cab2f48a3fff7a1f2a696bc5229a 7a396820222d6d4c02057f41658b162bdcdadd0e refs/heads/usb-next
+9d64bf433c53cab2f48a3fff7a1f2a696bc5229a 7a396820222d6d4c02057f41658b162bdcdadd0e refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWs4JAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sF4P/Ro9kkXXQNGZZ0rPCxVb
-r18uXEZvL1B86vpORoqWjOlCLlS81itikFL9S9JQT0j1BBmbmNkm5U9mUTSWRgnj
-4/HNzF9NEDtlzwdQsA6IgRVpZNomv+Eryl4o69B0Dv1Jwfb88Y/Yy6QT5ELFf5lz
-H70h/Lhqvtl5EP+9kRhMDXrVYhSEYaIgnIF4ZB+qe8pDLfdBN6jHlaAlfcdBwVuT
-aNRYbVMMIFfQD/48V9EdzgTvxtJRZ8rx5zZOXxVu9Dyb+CWJsLU45qdipLUmKpy2
-kfV712x3AsGb43Yv25yD6kGDyaok5E46/c15sUf/lQbeYoI95C2dOCgkXPY3Ae1K
-mgVscLEsZ02IGd+AIdCXJmpGsg3fvKVsLKSgVB91rrazQa9OwXhllkNVFrIFxNw5
-MUbf1p9cNNhHjczvffBHsQBQqjU7cvSFy/Xq0BA/Efyyx/HIYgoh7ZLsSsYvb/q0
-1hxiMnCn8G4HrGIMRSCtkwelgOf5fefZCuX9Fw+sylLWmcBabvPS1spZVnTBgP2c
-eL84kdvgW3ENE0bOPaTrzmOMVY3dddobYApmDDl+pidbdlKUO96ZkymcDtNLOvbV
-Rg1ZFu8vboMbg0yIALd2Oi1ZTX3j2cpIJ1wL9clh8yPVUofbK7AmQF/d1uZdYeir
-KntV5/VWCD9AC+/WXA50wxVh
-=YMHF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWs4JMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uKIP/3BixbDjCGpxwl/iBoEo
+40cDSylHiLZdaeNuoWhrQ8ZuBUqLW1GK6dslCJIq6zI72R3Ch0tBr5NkC0AXGcJS
+4TE3ULntle9YuCBwTKEm/K+QC/zgWwhHxld8QDZ/Q89uGYvZYmtZEesqwPC9upDs
+/CVgBvQuHdQJdK9gpKHhOQ1D/468CSj6kOvjrsMg0rLWTwVm3GmELUqq4vXZsDQN
+aeyYmhwq8Rz7HbfTWWQtL6OkjQ+rJUBCaRY3LUlWk+xLJ5uWqu3Tr6mtjIvSkF6F
+5ygws01oVMFJUY+zJOhiCPhzpBHGDlDcjW6f2E4cF0zbdqasZBYTCXVEBnpp4ws6
+IUXME/51gNA3qMIKT7QeIfqlS+512e98b7Yj0CG6Gd9stENp9b52YPBG0E2kbDkv
+CzVAE341h29j60EP9JCWx3y34LWaWJP6ICIMD9vd6nvElUno+sIIAZ6D07YmkBzK
+og4J7VMi6bNoB7UZGAL8Bx/aEkwxAfV2crzJsP+DNNq7Aac+7SDFtMKfTVG3G177
+VMOT/00SoVMfO+9eDRxCcTpDFwIT7hZsTmHFqOL71i3XEXoCujRWSODFtYEhUOxy
+GiTNaR12NzwSMlHijPKXo02x6vYrm9ZUGKWQdJ9OX/mD1dnuJtOWj6S8wVvLZ4uB
++nU6D5+H7HCiz/sBL1EfRrhp
+=4YGe
 -----END PGP SIGNATURE-----
 
---===============6130036464983845232==
+--===============2744540871488866069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -225,4 +225,4 @@ ff82e84e80fc0c93095f5a36e0a3508ac121ab80 coccinelle: device_attr_show: simplify 
 65163d16fcaef37733b5f273ffe4d00d731b34de Merge tag 'dmaengine-fix-6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 7a396820222d6d4c02057f41658b162bdcdadd0e Merge tag 'v6.8-rc-part2-smb-client' of git://git.samba.org/sfrench/cifs-2.6
 
---===============6130036464983845232==--
+--===============2744540871488866069==--
