@@ -1,27 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5455578831739968166=="
+Content-Type: multipart/mixed; boundary="===============6130036464983845232=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
 Date: Sun, 21 Jan 2024 09:14:57 -0000
-Message-Id: <170582849735.31628.17718400685091544072@gitolite.kernel.org>
+Message-Id: <170582849753.31647.2800989776540046562@gitolite.kernel.org>
 
---===============5455578831739968166==
+--===============6130036464983845232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/usb-next
     old: 9d64bf433c53cab2f48a3fff7a1f2a696bc5229a
     new: 7a396820222d6d4c02057f41658b162bdcdadd0e
     log: revlist-9d64bf433c53-7a396820222d.txt
 
---===============5455578831739968166==
+--===============6130036464983845232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -29,29 +29,29 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705828496 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1705828496-d81305bd79f29dfacca1a0c090af037bd131c096
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1705828496-6f534fecb4d0a5f15f77f912afc29e4f2cb8ab6f
 
-9d64bf433c53cab2f48a3fff7a1f2a696bc5229a 7a396820222d6d4c02057f41658b162bdcdadd0e refs/heads/staging-linus
+9d64bf433c53cab2f48a3fff7a1f2a696bc5229a 7a396820222d6d4c02057f41658b162bdcdadd0e refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWs4JAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QvkP/2tGZWqiiJRjkpqOlyxZ
-3di/JuVkewVyiAqY9eErGzXDkQCbl19SpU8U/8GZhAMMrR+aIrXC4uALllZ0/rjl
-Sb+bz5amcn98ZE4R0c6BnOo0kmqEkFXaI5L9xumeHdSmFt+wB2yn/KpCnLLX7C8q
-MnyoOqfAr9tsrheKoB2zKh0sDpVpCq3BafHP/HpX9fxzNcseuk3dxID5AOCKI0Ds
-C2u+pFTJK2EIYKP2qySti+POy6TDO/PtBONkk2UTIFo1YKo5iuWsSzTY9fhS/qGF
-ubw0GjHSrtRTPHyzVhcvpOOtjqBHIOkro5RTcc+0uH46/x/5J6cmn1BFRyc0r/Oz
-AF6pGkGny++tjBKZeMeKqXsLN6RNeVd5Bhrtv/Cw9kzF/ZOw0XT2m2J1R+jqM6b3
-U+PWZNxxxy3JPfF1KUVf6nWsk/0MNU6VKv90aAt4VnPhJcMbcU4hlGzMjlcstvhw
-nwKYIgzMC2ZDmL9xTP66v5w3FYBW/tVWER3aASlGWHaFQ29m0UN3Wys12cEd32EL
-6EBh1OR5pLUAYYQ+d087MWYXEcpEL+NDUaxJvv/I6uCErrP3Ga2ZAeSI1F5f0Ypa
-0X3WeJrcH1fLLJhONNaunQA5BP0x4FJLFBlW1a5dwzF9PHElQzy0PdAWd5ZQsnwf
-1UHCs682UtR7GWKSysMnhcWB
-=VNlO
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sF4P/Ro9kkXXQNGZZ0rPCxVb
+r18uXEZvL1B86vpORoqWjOlCLlS81itikFL9S9JQT0j1BBmbmNkm5U9mUTSWRgnj
+4/HNzF9NEDtlzwdQsA6IgRVpZNomv+Eryl4o69B0Dv1Jwfb88Y/Yy6QT5ELFf5lz
+H70h/Lhqvtl5EP+9kRhMDXrVYhSEYaIgnIF4ZB+qe8pDLfdBN6jHlaAlfcdBwVuT
+aNRYbVMMIFfQD/48V9EdzgTvxtJRZ8rx5zZOXxVu9Dyb+CWJsLU45qdipLUmKpy2
+kfV712x3AsGb43Yv25yD6kGDyaok5E46/c15sUf/lQbeYoI95C2dOCgkXPY3Ae1K
+mgVscLEsZ02IGd+AIdCXJmpGsg3fvKVsLKSgVB91rrazQa9OwXhllkNVFrIFxNw5
+MUbf1p9cNNhHjczvffBHsQBQqjU7cvSFy/Xq0BA/Efyyx/HIYgoh7ZLsSsYvb/q0
+1hxiMnCn8G4HrGIMRSCtkwelgOf5fefZCuX9Fw+sylLWmcBabvPS1spZVnTBgP2c
+eL84kdvgW3ENE0bOPaTrzmOMVY3dddobYApmDDl+pidbdlKUO96ZkymcDtNLOvbV
+Rg1ZFu8vboMbg0yIALd2Oi1ZTX3j2cpIJ1wL9clh8yPVUofbK7AmQF/d1uZdYeir
+KntV5/VWCD9AC+/WXA50wxVh
+=YMHF
 -----END PGP SIGNATURE-----
 
---===============5455578831739968166==
+--===============6130036464983845232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -225,4 +225,4 @@ ff82e84e80fc0c93095f5a36e0a3508ac121ab80 coccinelle: device_attr_show: simplify 
 65163d16fcaef37733b5f273ffe4d00d731b34de Merge tag 'dmaengine-fix-6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 7a396820222d6d4c02057f41658b162bdcdadd0e Merge tag 'v6.8-rc-part2-smb-client' of git://git.samba.org/sfrench/cifs-2.6
 
---===============5455578831739968166==--
+--===============6130036464983845232==--
