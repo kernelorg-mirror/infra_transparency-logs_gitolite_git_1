@@ -1,49 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============7062697805391348240=="
+Content-Type: multipart/mixed; boundary="===============0434539260955210465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 21 Jan 2024 13:22:25 -0000
-Message-Id: <170584334591.28663.4001788344665862090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
+Date: Sun, 21 Jan 2024 13:22:36 -0000
+Message-Id: <170584335630.28827.2941410783398310604@gitolite.kernel.org>
 
---===============7062697805391348240==
+--===============0434539260955210465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
+user: egrumbach
 changes:
-  - ref: refs/heads/rdma-next
-    old: f3022f1f80d2d93a46de82d5fc11f1972ca848d5
-    new: b070ad9716140fbe1c5aff3c371f41d4a0f26fd2
-    log: revlist-f3022f1f80d2-b070ad971614.txt
+  - ref: refs/heads/chromeos-5.4__release/core85
+    old: 1ae47f9bc7ab9c2a56993a30dbe1d89feac1881f
+    new: e66502464b5f0c1a46e71635135065e9b6f472db
+    log: revlist-1ae47f9bc7ab-e66502464b5f.txt
 
---===============7062697805391348240==
+--===============0434539260955210465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f3022f1f80d2-b070ad971614.txt
+Content-Disposition: attachment; filename=revlist-1ae47f9bc7ab-e66502464b5f.txt
 
-d24b923f1d696ddacb09f0f2d1b1f4f045cfe65e RDMA/bnxt_re: Fix error code in bnxt_re_create_cq()
-f294308368a231608bc1699eb190537bd7480da0 net/sched: Don't print dump stack in event of transmission timeout
-a46f8f44178c6a8c3ae84f06f9d0c1ad4274459c RDMA/core: Introduce peer memory interface
-f4959650661d80cf4e3c21aa82cd6e0bb42a6189 RDMA/mlx5: Get upper device only if device is lagged
-51633dd2e591c000a6ef8e9d81e12c41b4ffe09c RDMA/mlx5: Send currect port events
-d39964d31547f04bf94f808f02087f5d6185e5fb TEMP: Increase lockdep depth
-4fb19e8b98927270d80441a7dda3d29a23021a4c RDMA/mlx5: Fix fortify source warning while accessing Eth segment
-32bc9aec35c44ceec834ffe656fef8bf049291f0 IB/mlx5: Don't expose debugfs entries for RRoCE general parameters if not supported
-aefbc9ed0aef16859f53b21821e238fdb5fd5980 RDMA/mlx5: Relax DEVX access upon modify commands
-6428ee4b03e749bf4582c797beea6cc1aae47a85 RDMA/mlx5: Uncacheable mkey has neither rb_key or cache_ent
-10fb9a4c432285df457fd3e5a149276b92a37a5f RDMA/mlx5: Change check for cacheable user mkeys
-9cfb2365602dd043cb78139f61a4f627861860ab RDMA/mlx5: Adding remote atomic access flag to updatable flags
-810f5ded27e5d1acde518ab8015ccf1babfea785 x86: Stop using weak symbols for __iowrite32_copy()
-e5d12224b4a1af44d3c0c12a77405d592a43378e s390: Implement __iowrite32_copy()
-1c9079e83c4d32dc2ff774ff1fdb0a76b76eef09 s390: Use the correct count for __iowrite64_copy()
-df0f1bcd871e9b51f223cf9377796b65aaa2077b s390: Stop using weak symbols for __iowrite64_copy()
-f1b4de452a65b448ba32d4b352cab4b98a1f12c5 arm64/io: Provide a WC friendly __iowriteXX_copy()
-542f2e931760fc03bbc2d539106a2bfc3444b89b net: hns3: Remove io_stop_wc() calls after __iowrite64_copy()
-b070ad9716140fbe1c5aff3c371f41d4a0f26fd2 IB/mlx5: Use __iowrite64_copy() for write combining stores
+e4f496b260bcf0d36647bb9a0160c23f7d74a5ba UPSTREAM: arm64: dts: qcom: sc7180: Make watchdog bark interrupt edge triggered
+d0f9d7ffac45b1b5471e3e8e1aee6b70c8be0cc6 UPSTREAM: arm64: dts: qcom: sdm845: Make watchdog bark interrupt edge triggered
+53faea079f827e6ee7517df4baef73efe6e2fc89 Revert "CHROMIUM: hung_task: dump all UNINTERUPTIBLE tasks"
+341f6ac437b1c26556abe6ff5f8c9226036be0f0 UPSTREAM: netfilter: nf_tables: mark newset as dead on transaction abort
+5185d5523504d6b99159157a23a29f020ec44929 CHROMIUM: config: x86_64: Rename chromiumos-x86_64.flavour.config
+6e2c00b114faa5f41d528e7e6ce0f53f0366c096 UPSTREAM: Revert "usb: dwc3: Soft reset phy on probe for host"
+a623a9f13f32792e3c4cf3748efbd401fcc2b803 UPSTREAM: x86/kvm: Do not try to disable kvmclock if it was not enabled
+c1891f8555adedc4c5cfcb70db1d9ffed5b09446 BACKPORT: FROMGIT: wifi: rtw88: 8822ce: refine power parameters for RFE type 5
+f725215a4e72d2cdde8bda541c73fda662454265 FROMLIST: platform/chrome: Update binary interface for EC-based watchdog
+572008c38acc91ca3202f2e72b4f1683de544f2e BACKPORT: FROMLIST: watchdog: Add ChromeOS EC-based watchdog driver
+96228b99ea784908d3823f323821cde0d7638c84 FROMLIST: mfd: cros_ec: Register EC-based watchdog subdevice
+523574650d0feade53e8bbd4fe08afe989ee8413 UPSTREAM: usb: xhci-mtk: fix a short packet issue of gen1 isoc-in transfer
+857913372f9a04b59f6b15bb63bb4cfe3c7d5c2c CHROMIUM: Allow writes to latency_sensitive for CAP_SYS_NICE
+94bcad61c656027698f62cb48b97084bc486c460 CHROMIUM: Add null check in sched_latsense_access
+7f175f0bf825dee166acb7576e12c21018e4d0e1 CHROMIUM: iwl7000: mvm: propagate the error code in iwl_mvm_sta_state_notexist_to_none
+a0ddfbd5134bd91eedefb2bfa6e50c8ffa3c58cc CHROMIUM: iwl7000: xvt: pass array size and not struct size
+bd5d73992e95e6ebce6c5d0ac3431954a481d093 CHROMIUM: iwl7000: mvm: don't set replay counters to 0xff
+a2667857c3827fde28d42f31028c1cd46cd8a069 CHROMIUM: iwl7000: xvt: fix slab-out-of-bounds read
+e66502464b5f0c1a46e71635135065e9b6f472db Merge remote-tracking branch 'remotes/google/chromeos-5.4' into chromeos-5.4__release/core85
 
---===============7062697805391348240==--
+--===============0434539260955210465==--
