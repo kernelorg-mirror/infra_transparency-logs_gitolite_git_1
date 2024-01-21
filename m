@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 21 Jan 2024 18:09:42 -0000
-Message-Id: <170586058288.7984.14667944401238751895@gitolite.kernel.org>
+Date: Sun, 21 Jan 2024 18:11:22 -0000
+Message-Id: <170586068209.10253.5221385197633019276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: e3f9bed9bee261e3347131764e42aeedf1ffea61
-    new: a54d51fb2dfb846aedf3751af501e9688db447f5
+    old: a54d51fb2dfb846aedf3751af501e9688db447f5
+    new: 359724fa3ab79fbe9f42c6263cddc2afae32eef3
     log: |
-         a54d51fb2dfb846aedf3751af501e9688db447f5 udp: fix busy polling
+         359724fa3ab79fbe9f42c6263cddc2afae32eef3 idpf: distinguish vports by the dev_port attribute
          
