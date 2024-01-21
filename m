@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5141836264809265614=="
+Content-Type: multipart/mixed; boundary="===============8313238856338526557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Sun, 21 Jan 2024 23:51:51 -0000
-Message-Id: <170588111144.28642.430523926130630282@gitolite.kernel.org>
+Date: Sun, 21 Jan 2024 23:52:42 -0000
+Message-Id: <170588116255.28992.1596246817944159647@gitolite.kernel.org>
 
---===============5141836264809265614==
+--===============8313238856338526557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/next
-    old: ee9793be08b1a1c29308a099c01790a3befb390a
+  - ref: refs/heads/master
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-ee9793be08b1-6613476e225e.txt
+    log: revlist-b85ea95d0864-6613476e225e.txt
 
---===============5141836264809265614==
+--===============8313238856338526557==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ee9793be08b1-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-b85ea95d0864-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============5141836264809265614==--
+--===============8313238856338526557==--
