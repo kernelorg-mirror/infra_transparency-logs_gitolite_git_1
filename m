@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1205948525996203691=="
+Content-Type: multipart/mixed; boundary="===============2283545706130098755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Sun, 21 Jan 2024 23:54:48 -0000
-Message-Id: <170588128864.29986.4753284639967121475@gitolite.kernel.org>
+Date: Sun, 21 Jan 2024 23:55:32 -0000
+Message-Id: <170588133236.31896.10886177480184086271@gitolite.kernel.org>
 
---===============1205948525996203691==
+--===============2283545706130098755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/test
     old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
     log: revlist-b85ea95d0864-6613476e225e.txt
 
---===============1205948525996203691==
+--===============2283545706130098755==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============1205948525996203691==--
+--===============2283545706130098755==--
