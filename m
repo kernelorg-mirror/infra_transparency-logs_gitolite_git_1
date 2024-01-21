@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7143440964588134585=="
+Content-Type: multipart/mixed; boundary="===============4843060443575491384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Sun, 21 Jan 2024 23:53:21 -0000
-Message-Id: <170588120112.29343.4272102547430481655@gitolite.kernel.org>
+Date: Sun, 21 Jan 2024 23:54:09 -0000
+Message-Id: <170588124960.29681.4454811223366329138@gitolite.kernel.org>
 
---===============7143440964588134585==
+--===============4843060443575491384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit
-    old: 539e582a375dedee95a4fa9ca3f37cdb25c441ec
+  - ref: refs/heads/kunit-fixes
+    old: 1bddcf77ce6668692fc15e968fd0870d5524d112
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-539e582a375d-6613476e225e.txt
+    log: revlist-1bddcf77ce66-6613476e225e.txt
 
---===============7143440964588134585==
+--===============4843060443575491384==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-539e582a375d-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-1bddcf77ce66-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============7143440964588134585==--
+--===============4843060443575491384==--
