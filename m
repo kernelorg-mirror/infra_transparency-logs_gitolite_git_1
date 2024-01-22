@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0664799086173959597=="
+Content-Type: multipart/mixed; boundary="===============1964957310686846279=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 22 Jan 2024 18:08:55 -0000
-Message-Id: <170594693564.29287.10361401487654505976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 22 Jan 2024 18:09:04 -0000
+Message-Id: <170594694488.29426.8272910238531850797@gitolite.kernel.org>
 
---===============0664799086173959597==
+--===============1964957310686846279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
     log: revlist-0dd3ee311255-6613476e225e.txt
 
---===============0664799086173959597==
+--===============1964957310686846279==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============0664799086173959597==--
+--===============1964957310686846279==--
