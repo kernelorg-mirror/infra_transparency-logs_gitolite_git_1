@@ -1,31 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============1083948690289635003=="
+Content-Type: multipart/mixed; boundary="===============4539116297129298248=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 22 Jan 2024 13:22:52 -0000
-Message-Id: <170592977237.30422.2025592165712983293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Mon, 22 Jan 2024 13:42:03 -0000
+Message-Id: <170593092348.12416.1903850890473607966@gitolite.kernel.org>
 
---===============1083948690289635003==
+--===============4539116297129298248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/arm64-lpa2-v7
-    old: 8a273ef0eb6593e2441edb2d52448ba0ca084027
-    new: 3bd273f9f098d7bb217bf41fbbe6ca98ecce5b29
-    log: revlist-8a273ef0eb65-3bd273f9f098.txt
+  - ref: refs/heads/arm64/alternatives/info
+    old: 6f588eff153679438506dcadefbe3ff90e27beb3
+    new: b0b5e23fe88a1e89631cc59ff11ae553d720489a
+    log: revlist-6f588eff1536-b0b5e23fe88a.txt
 
---===============1083948690289635003==
+--===============4539116297129298248==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8a273ef0eb65-3bd273f9f098.txt
+Content-Disposition: attachment; filename=revlist-6f588eff1536-b0b5e23fe88a.txt
 
+1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
+fd37721803c6e73619108f76ad2e12a9aa5fafaf mm, treewide: introduce NR_PAGE_ORDERS
+5e0a760b44417f7cadd79de2204d6247109558a0 mm, treewide: rename MAX_ORDER to MAX_PAGE_ORDER
+e900042f04848b5be9238d866df0952cfc548cf9 Merge tag 'x86_sev_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+bef91c28f28fe8a36b91e9a39f60054ae1874280 Merge tag 'x86_cpu_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3edbe8afb617a736ae0dcc877311bdb112a00123 Merge tag 'ras_core_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+968b80332432172dbbb773e749a43bdc846d1a13 Merge tag 'powerpc-6.8-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+3cf1d6a5fbf3f724d12b01635319924239d42c00 Merge tag 'm68k-for-v6.8-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
+ab5f3fcb7c72094684760e0cd8954d8d570b5e83 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+c3a11c0ec66c1e0652e3a2bb4f5cc74eea0ba486 cifs: delete unnecessary NULL checks in cifs_chan_update_iface()
+33034c4f9497b7fe33b0d97740a4bf1c0552316b Merge tag 'x86-apic-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+106b88d7a91e2b4d40369a20b8ef07bb827dafd5 Merge tag 'x86-asm-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f73857ece4d85d2ee36571df9c13a733f3ba2732 Merge tag 'x86-boot-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+42c371f8ec4296cee49b10d8e6be50aae90f2d70 Merge tag 'x86-build-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b51cc5d02834a9c38cfd95b00b7d981b701b13f9 Merge tag 'x86-cleanups-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+33677aef32cf07ebbed07647e88136258c4b95ba Merge tag 'x86-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+2fdbcf715a1b9dd1468317f7cd4b4cd327a09781 Merge tag 'x86-entry-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f0a78b3e2a0c842cc7b4c2686f4a35681f02ca72 arm64: Update __NR_compat_syscalls for statmount/listmount
+6cbf5b3105f31217053570e7ca722b739a9242a4 Merge tag 'locking-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+669d089a7fe1eacf4e86160297f32c678ee71ec5 Merge tag 'objtool-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+ab9517fa9aab71e312c7acc6fefefe080db3c972 Merge tag 'core-debugobjects-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+cdc202281a5d5e2c4bbbbf78bbd68f035a49421a Merge tag 'core-entry-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+46a08b4d4836c721e012ff4c542a8baa8baa3594 Merge tag 'smp-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f24dc33f8e0a765bf9bdf1c190ae5b9a23343d65 Merge tag 'timers-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b59db45d7eba9894e7834d768ec4236fca39bd7d tcp: Revert no longer abort SYN_SENT when receiving some ICMP
+1ef4cacaae2f907db79faea4110ef90545467b7c bnxt_en: Remove unneeded variable in bnxt_hwrm_clear_vnic_filter()
+fd7769798de8a3748c286da65d7e32437f9854bf bnxt_en: Fix RCU locking for ntuple filters in bnxt_srxclsrldel()
+d8214d0f0135010acf7205c646cda31601bbb7ad bnxt_en: Fix RCU locking for ntuple filters in bnxt_rx_flow_steer()
+1c835c81eb5c2ca12bc3d0fdc448ba229694d47f Merge branch 'bnxt_en-ntuple-filter-fixes'
+5733d139a6745382c733020c7d60a1cf9fb1fc29 lan743x: remove redundant statement in lan743x_ethtool_get_eee
+9b0f510971470b495a707a4475d5a065c6e4d1f6 lan78xx: remove redundant statement in lan78xx_get_eee
+0bdf0621f89f87858ca26344378188eff194eddd Merge tag 'irq-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+aac4de465af08ccec90ef47bdcc13435e48a7223 Merge tag 'perf-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+c12ca110c613a81cb0f0099019c839d078cd0f38 PCI: keystone: Fix race condition when initializing PHYs
+bfe8eb3b85c571f7e94e1039f59b462505b8e0fc Merge tag 'sched-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9f8413c4a66f2fb776d3dc3c9ed20bf435eb305e Merge tag 'cgroup-for-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+8d606c311b75e81063b4ea650b301cbe0c4ed5e1 cifs: make cifs_chan_update_iface() a void function
+a3f763fdcb2f784c355aed66ddac6748ff8dbfa6 cifs: remove unneeded return statement
+6db359b5eef5de3d5fbf4cb412958186850df106 soc: pxa: ssp: fix casts
+40974ee421b4d1fc74ac733d86899ce1b83d8f65 ARM: davinci: always select CONFIG_CPU_ARM926T
+dd1d4bd6e5cfd6a6ad51d3123895e34cf36ab31b ARM: multi_v7_defconfig: Enable STM32 IPCC mailbox driver
+a4c7d794ac16224e5f86f359e65b89d5d8aad3bf tpm: nuvoton: Use i2c_get_match_data()
+2b6fad7a900d2a378b475e5c196c146fb71856be tpm: cr50: fix kernel-doc warning and spelling
+8ead196be219adade3bd0d4115cc9b8506643121 apparmor: Fix memory leak in unpack_profile()
+125c0a646a257fd58de223f2c3e1fe8a99085644 xen: update PV-device interface headers
 f1479f0a4f53ef4fc12108a59caee61c39bc6843 xen/xenbus: client: fix kernel-doc comments
 7e72fc41d4243800206ff76615cfebb15d632027 thermal: netlink: Pass pointers to thermal_notify_tz_trip_change()
 f52557edf0648b471e2006f9377ea0ba4f73f9b2 thermal: netlink: Pass pointers to thermal_notify_tz_trip_up/down()
@@ -1000,55 +1049,6 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-9fb925b99a682c5fb6ca50d47d0a70c16d91d058 arm64: mm: Move PCI I/O emulation region above the vmemmap region
-6cb030c20be3d0bce1fad7ba0ef022cd7826749f arm64: mm: Move fixmap region above vmemmap region
-b3fd69943825db817e3da33b5f96297b2ac40254 arm64: ptdump: Allow all region boundaries to be defined at boot time
-bf219ab25c8745f712a0da7b8e33174ba6d606d4 arm64: ptdump: Discover start of vmemmap region at runtime
-3bb330c093816fc97e2b01bd424d82327529a2e4 arm64: vmemmap: Avoid base2 order of struct page size to dimension region
-54bf1eb0c8bf706e05802ead9133e2323513aea3 arm64: mm: Reclaim unused vmemmap region for vmalloc use
-01d553ebe08f3e7898df2777179b507fcd7a4317 arm64: kaslr: Adjust randomization range dynamically
-cb1bbe2740294cf9e803c0db3105729e7ce7b772 arm64: kernel: Manage absolute relocations in code built under pi/
-726ef08803efd72c0a096624f3c728da90010526 arm64: kernel: Don't rely on objcopy to make code under pi/ __init
-b9341a0fd3642022a685de489f0151f4c2e1dfdc arm64: head: move relocation handling to C code
-a32d6fdf9a826a83354ef75ff0d0161d4b962de2 arm64: idreg-override: Move to early mini C runtime
-083f0314b94a2f82a2967b34b9a5dba62bdcfd1f arm64: kernel: Remove early fdt remap code
-e16ba1cc7407b2c0d365cd0acef3e6781ba33c05 arm64: head: Clear BSS and the kernel page tables in one go
-223385aac9e2e50662f5c5f706219c5262f8ddf8 arm64: Move feature overrides into the BSS section
-32987890d1c9bcae1832b952825fd6e832cf22a2 arm64: head: Run feature override detection before mapping the kernel
-3bef2c2843a18c98d919aeb2e0502dee92d0aed5 arm64: head: move dynamic shadow call stack patching into early C runtime
-4f68053c9a4f08bb0293f3ad44d591431fd46482 arm64: cpufeature: Add helper to test for CPU feature overrides
-6d7242d0325fa2cb6605ec74c80cba3f032bfebe arm64: kaslr: Use feature override instead of parsing the cmdline again
-6458f579ee88b87d2308795a3084491084a10940 arm64: idreg-override: Create a pseudo feature for rodata=off
-6df00e5ccaf94f8f0ca5f2553353cc57581c0c92 arm64: Add helpers to probe local CPU for PAC and BTI support
-411b6efaf4db26d26c6a921d639576412eb82b6c arm64: head: allocate more pages for the kernel mapping
-947ed7c5ec70d57b91d1a71de496edcc7d72bb60 arm64: head: move memstart_offset_seed handling to C code
-6355f5983fc7478230e9ce8d6496567a996abcd1 arm64: mm: Make kaslr_requires_kpti() a static inline
-b6ee7b3a97ea7347d07ac64ae2b8a387ca5eadb7 arm64: mmu: Make __cpu_replace_ttbr1() out of line
-7d37125933419bc6f5a67ffecd9283d22a4840b9 arm64: head: Move early kernel mapping routines into C code
-e5779d6c34b8af271e34d37d4c7cf4f920171480 arm64: mm: Use 48-bit virtual addressing for the permanent ID map
-d9e6fd67f64a4d828e197dd0665665c74f8b4577 arm64: pgtable: Decouple PGDIR size macros from PGD/PUD/PMD levels
-d99413b9f8331a2da0b5eb053f09a41c623018d4 arm64: kernel: Create initial ID map from C code
-42925e8b70131b0d70b0ae2a6d46c0dfd8d6f85f arm64: mm: avoid fixmap for early swapper_pg_dir updates
-603946e748b3c06ca512d8f85ef778817efff864 arm64: mm: omit redundant remap of kernel image
-30256a95aebe0ef84dcefd90dcf056ee70415f6e arm64: Revert "mm: provide idmap pointer to cpu_replace_ttbr1()"
-c9eb3a6afbadcd2ee229558f4ea4af76c106e27a arm64: mm: Handle LVA support as a CPU feature
-e8cfb67bf97088138be7ff5ca217a9432dcd54a7 arm64: mm: Add feature override support for LVA
-ac324d0748dcae935d690303752386484e6a978c arm64: Avoid #define'ing PTE_MAYBE_NG to 0x0 for asm use
-08ee038a72b56d428cec6cf202cc235a3eef900c arm64: Add ESR decoding for exceptions involving translation level -1
-a3da3a173f6d3192aef329af8a2182e611aa6125 arm64: mm: Wire up TCR.DS bit to PTE shareability fields
-e0bcda4bdc7c7d8ae0fef8331abaa2ed361ad09a arm64: mm: Add LPA2 support to phys<->pte conversion routines
-7639e26efb42c5000b14141908b96ba503a97831 arm64: mm: Add definitions to support 5 levels of paging
-8fd0c84033944c47a40067f2bbfee3d0592c9d55 arm64: mm: add LPA2 and 5 level paging support to G-to-nG conversion
-776f7d0173dfbd326eccbb39309cef0a81a38a33 arm64: Enable LPA2 at boot if supported by the system
-188a038c3f16eeb170848e17b218d2871cd00b55 arm64: mm: Add 5 level paging support to fixmap and swapper handling
-166a7a11cc8a040718ac7a71606865d67b686c34 arm64: kasan: Reduce minimum shadow alignment and enable 5 level paging
-3869109363e3c060baf3c0f7c6eba66cf2015cb3 arm64: mm: Add support for folding PUDs at runtime
-ac9af4abd5395c97dca622d16a91a7a1d2299044 arm64: ptdump: Disregard unaddressable VA space
-239652a97a6a5269ebfe9d32097af5bdaac40391 arm64: ptdump: Deal with translation levels folded at runtime
-ac8464cc041f340f70ee528f40fe33fa4386bc0a arm64: Enable 52-bit virtual addressing for 4k and 16k granule configs
-212bbe76e37107d4659b65190eec6fa499bcf6c3 arm64: defconfig: Enable LPA2 support
-88f8e5001161bece3042effe14bf7ae9bd904ba5 mm: add arch hook to validate mmap() prot flags
-8fc1238b1a085aa5b9b5d9e3ca6246307097cfb1 arm64: mm: add support for WXN memory translation attribute
-3bd273f9f098d7bb217bf41fbbe6ca98ecce5b29 arm64: Set the default CONFIG_ARM64_VA_BITS_52 in Kconfig rather than defconfig
+b0b5e23fe88a1e89631cc59ff11ae553d720489a HACK: arm64: alternatives: dump summary of alternatives
 
---===============1083948690289635003==--
+--===============4539116297129298248==--
