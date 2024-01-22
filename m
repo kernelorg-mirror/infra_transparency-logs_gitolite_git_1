@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4309810686530166669=="
+Content-Type: multipart/mixed; boundary="===============2094293614604829887=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 22 Jan 2024 09:57:30 -0000
-Message-Id: <170591745060.3997.2855126212921091874@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 09:57:43 -0000
+Message-Id: <170591746308.4121.18138788482755652761@gitolite.kernel.org>
 
---===============4309810686530166669==
+--===============2094293614604829887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/fixes
-    old: b85ea95d086471afb4ad062012a4d73cd328fa86
+  - ref: refs/heads/next/clk
+    old: 5583e92be5c45448e6ea461e1780d46c17d14963
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-b85ea95d0864-6613476e225e.txt
+    log: revlist-5583e92be5c4-6613476e225e.txt
 
---===============4309810686530166669==
+--===============2094293614604829887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1705917449 +0100
+pusher krzk@kernel.org 1705917461 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1705917448-7e204eae30e7e12ef0256ae277fc1cfe69863ff5
+nonce 1705917460-9c024be7b80cc3bfb1b436c8225f5443d80b676a
 
-b85ea95d086471afb4ad062012a4d73cd328fa86 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/fixes
+5583e92be5c45448e6ea461e1780d46c17d14963 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/next/clk
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmWuPAkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1xJQD/4kxAKiDOK/N+W9yNIWlYLUozAWyImSJDai
-d8L+ujw7J4GEUiEufewl0aUiS4GeCuYgsnlcMAwDu2SFcVi5AGrNVqm+dm1OYUlS
-ged7MBkJxqRac50/VulxtmD8YzGUOa0LYlnkdyjWB4NYDBSQqmWjuI7VbFqowJjM
-LJuHn9y+kxog3QfDRiP8uzvOIiF/sBt4pYyCl2CVVZyjhPCyEsV461OT1xW7fq+w
-ci5DTag2eMFb3tp27Uup9/6dWkhj+83yslRJu7eFEh1/kdVrl/wBK8t9mQAVXSVt
-aVQ5USjwrblilF+BNcMj3OF4b2AkGDMLx4SzcR0ZLur6OQaGNIxUlaN5HyIFsVj4
-/KKK0zoEyqBWIrLOVjSQcq5Uyb8/w1f9+2i4vSszn740At5kp+oC8wPWWEe24RCl
-hDZHqhWh16cABhzPHZvTs3gZcZRVXBhI6fEv9Yz/iRSn9wPU6ggWzY7MNsdnoU3a
-fVjZZj5TCyV9sixdIXIPVsES/Guj0IbPnl51OSVyW+pjypd4pd+CHbhPKMALNEF1
-0f70wXtEiwJfQCT76a0GkOSQFQbx5zhgpnCVgOOwXZ6320oDvxyaAywgZqem/xf8
-udda7j1ER0qOTC/BQlZ4PdGukcdG6mGoY7ed1sA0K2QY7XzwUKfNkXHHAF3BE02K
-bAAlpcO2bA==
-=e0vi
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmWuPBUQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1ysQD/0XqQIo4627prw9qIj54G5BCTij7LmWW1Cq
++JvyeXAPwLMTRI11Mq820D0Y/OSaw4BVsu2fs6u/ELDcM/9UEXpcS+W10AdOfTMx
+M7vIWwtPc6c8kyy8OrUjYS8iT639o95s5MCxOrHsP8UsmK1JjWEdWxS55yzNviWF
+TJPdYdKyQAUL9830UZQ37Fmi09UI4/N2WaxvHK/kMHyvJWNr4yPUs9IAGge46DRY
+CnH8FWfoNrzQz80qyZ5ULs4PgOHIdIZ3GkXWiTKvxpCZx9Q/REaJcVBtclX0JVYV
+U/3Y7jXzkBJZEO51T9b5gM+zGyKxQ0gGh+b0Y40XqZLYhziNIcVm02UksjuIr4Zr
+qcx8e4O9D1IbmQQSCX9zyrTYvC8kZg3gH4av/levtzKhRPTyU+tZgD8Ywh5ccXzt
+piZWa2pSWxZkdCP3wG/hbO6ETkDzOv9bp6G3NO/bGZ85iUxtxPJ2jLXETFbRQYqA
+9Bi982zZC9Q2+QLIVkimPdbaMct03y5cmTEBVb6//cTnk9Ni1LiQo84ZiLHXcg07
+sh4KfRYwf8QO7hYxAjtU3bYuXCu1M5AOHHOOYCvV01uJ6bfWx1ukkVAhvtX0TIWn
+l/q5jzkb2l+m4oqcthdOmdJTa+eyA/WnHNTVpwnzZZPPJpA5OE/mfuY0MX0NvkVz
+Xx1ryXkPSA==
+=T1Fh
 -----END PGP SIGNATURE-----
 
---===============4309810686530166669==
+--===============2094293614604829887==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b85ea95d0864-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-5583e92be5c4-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1082,4 +1082,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============4309810686530166669==--
+--===============2094293614604829887==--
