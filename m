@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============8573256320901611424=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 22 Jan 2024 15:07:57 -0000
-Message-Id: <170593607758.19116.15105871840375088044@gitolite.kernel.org>
-
---===============8573256320901611424==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Mon, 22 Jan 2024 15:09:34 -0000
+Message-Id: <170593617496.19782.2972596812751963980@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/master
-    old: bebebd4805ef381aa4b2b895e3368e43fa1eeae8
-    new: ff260531b2af0883d380dfbe584dbdf4f012887e
+  - ref: refs/heads/next
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: 0235c4cef0ffbfc27b3bdbd0690f1647257b8c9e
     log: |
-         ff260531b2af0883d380dfbe584dbdf4f012887e 6.7-stable patches
+         8b4e2d8976b6c93b3786ced79f1c55d5d7b38737 pmdomain: core: Scale down parent/child performance states in reverse order
+         aafef05b6399a2c4ce1c457d7fadf19443cdda2c pmdomain: qcom: rpmpd: Keep one RPM handle for all RPMPDs
+         2afe7095791a48696940c8921c7b67c442882317 pmdomain: core: Print a message when unused power domains are disabled
+         741ba0134fa7822fcf4e4a0a537a5c4cfd706b20 pmdomain: core: Move the unused cleanup to a _sync initcall
+         f0e4a1356466ec1858ae8e5c70bea2ce5e55008b pmdomain: renesas: r8a77980-sysc: CR7 must be always on
+         d901fa88145178db7bfedfbdc13924b564c94d50 pmdomain: renesas: rcar-gen4-sysc: Remove unneeded includes
+         05170c8598f1edccc5948fe797a40125d55c4f65 pmdomain: ti: Add a null pointer check to the omap_prm_domain_init
+         768c04ccb9013c0eab51dd31f63474ef8a7456db pmdomain: imx8mp-blk-ctrl: Error out if domains are missing in DT
+         0235c4cef0ffbfc27b3bdbd0690f1647257b8c9e pmdomain: Merge branch fixes into next
          
-
---===============8573256320901611424==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705936076 -0800
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1705936076-01f161c03d63afa7653230a1cc8eec39270ea14c
-
-bebebd4805ef381aa4b2b895e3368e43fa1eeae8 ff260531b2af0883d380dfbe584dbdf4f012887e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWuhMwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q5oQAJM6P7Ol+XWUo0DHAuC/
-u/6Spe9+mvJ4FIO4NPVHWfPlPz0mXW0e+rLBVNVaofXInsusUtgOd6igVNOxmflW
-5rr2XWtkgtIholgD5dPQwdceGsojPe/himv5M9/cSbrY7lY7S/f8FjDHJdx5TRXg
-uthgqSZH4lDqtsz2hnTdXZTrtADFR/E8Ca0zY8ygpy/GtZ4xPVadItTiG31ERAeT
-OhainQ+C/DgBTh/TVB+hvBPKUhQZ+QLj8WrRzKf8ePP/MQwKw/L4JZCeYdyBIGGO
-3RzhsMl0ZdLBbtPlatfiaYPuJ5lRODAPxIWnNXF51lzFP2H5lHPQOqwje2Mvr+Mg
-Wnc/QkhQgXoM7otSi6B9v2wp7ESIyC78KbwA1TSlOljeQJVOqfH80q/KeGJpuUia
-Q66zycWZMYkzNRlDOWpMoXgdrDHP+UdIpN9O+C7fs+O6pVsTcoXR1ZEJDywOsbYS
-UYmN32JRM/ibIhJGwDEQfQe6Z8GFu6Gst9AuNDt9lsa5yXT+qKNEfrA+ycEKF5cF
-3dgWL1R+XhNu6/+bKKrHFY5bl2uQQa9sBS6awZSFwPGQt2YXTsnFAlktWk5D86US
-Df10K6zRcGoUE6TU5/cUiYbGKEi929uqHMwkIiho7OVGvcAAex9L5sZxLKBJxRaD
-XD0AQP87vfrtLwjI1FJ9s4ax
-=jKUw
------END PGP SIGNATURE-----
-
---===============8573256320901611424==--
