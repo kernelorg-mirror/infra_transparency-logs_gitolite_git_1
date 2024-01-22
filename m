@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============5693140962626426956=="
+Content-Type: multipart/mixed; boundary="===============6323483332848103644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 22 Jan 2024 10:05:51 -0000
-Message-Id: <170591795123.12103.2944667401719521588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Mon, 22 Jan 2024 10:10:55 -0000
+Message-Id: <170591825505.16837.12735136455489358631@gitolite.kernel.org>
 
---===============5693140962626426956==
+--===============6323483332848103644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/pinctrl-next
-    old: 6cf96df77338c6a7e753229fe6d330ab60e28cda
+  - ref: refs/heads/fixes
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-6cf96df77338-6613476e225e.txt
+    log: revlist-b85ea95d0864-6613476e225e.txt
 
---===============5693140962626426956==
+--===============6323483332848103644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1705917949 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1705917948-7bc4d1620d0168dfeb983fcff3410641871eafaf
+pusher krzk@kernel.org 1705918253 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1705918252-8a472537a6ea84eb02f4de75503b48d9e68c6b54
 
-6cf96df77338c6a7e753229fe6d330ab60e28cda 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/pinctrl-next
+b85ea95d086471afb4ad062012a4d73cd328fa86 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmWuPf0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD126TD/47WRXqJfcVzueCfPdqmZKTc74ybwiXoHiv
-/UZQ0KRR3o7detMkQa3q4dprIxZg4QjY7akHCNv4RvWRkGTQQLy+0fd7rS2fMGdk
-IiZ8LSzHosOccIfXJq828j+PWzTJf0sac46pZZ2skJMTTZsB3AUKNzggAimeCvXW
-KpeSQiYPip+MbKjH6gFWIhCEM/cqPpZobQGnoM2MImYlUArgt+AtVZsRS/qyuSu7
-g7uAGKWQSs8jAxTw4LqOWbKCNMPpHDK/pIiOczuSPUt90TfMuIuWyyxX4Mn1JRSs
-PA2bpH0acJfDmvMf5gay7tLGwQEWFc1Yfrf+qUCAmYuTeMLhLxgQDutXVoxuOOFr
-uWykD/nlwTq4YI+ntwSbuYZR5Z3j5po59WnWlp3Axj2iKMe8l1SZrO+u+dwDSao9
-c06hLxBY2wyKeJrF5rUpjWBR6OCTg2kO4adlW3pTrQU8Jx2x6hjnQonm7YrwDYqn
-3UshwdicGzNGBxl2sldrbj9mrEOM5XcEo/HC6m8KtlxItGDw9eFQocws8CJih9BE
-jaAMecf8mga+9DxNb7FivGdA8sl9Tbt0mNpWghUchAMdFEZSL74SkZOvAttyN+wY
-S+7GipLCYoVfkM7iPtqwaDuvZSeMnwIy5fIUAfm7G3NLYIYAj1gcmo0IMvxWGVGh
-t33U08l7iA==
-=FAOk
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmWuPy0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18bWD/9mSDF8ws1rx4ayjwguiXHMIMLrWsUBCi4e
+UcpunXyaoApWi5JIGoCJhdjLRlDrRfSo+6/Wma9cJAKi7nQPQZte72WdM1FL1Zxm
+L81oZaFqfYM/lZIV9DufJ9B422JZjH5T5XdDiBTCyRW3U3nxrcZM3wVdL1TUBs85
+tuCnbVk+73VFvYgi01oD9MPRuh5n/GPvWrxYukWbeI1xkCq3e41xuscOmO13qFBy
+hRg90CGVzbJ+qXdP0PVRqXHx8anysgLL/fPqOk/qwscPDkfuLFqRVjcBOiZTaz54
+k403Mr3VINw/D0iClze+07lHDW8nwQDcrCjuUbE3ePkhiHqXly3cIRqHOPZPaVDt
+M9up0NDUKmHQ6bJKKsNzB+PhIRu5quA9CmX+kvlrzooOO36xxVQ3vGTtZRUhItP3
+FzWqw0yAKRj7XwWfRIzu8SNO+ea4RjtZqgEx4zKeUTQaeCqS5G5UjRMIeqHeDk/J
+07fWPYRm2Lkl5h4fG3gkf+KS81p4wg6aSg7/6hWp3pGA0M2gGbeJ56JD2yK+ufUe
+RMKB1Expb0lsLp6OBCzJtfSd6n2oRClVLOjNS91ToYkTETmDkS8v0I7HZqmAMvDm
+M/38V0fKwOSeOjTgRfm/NtANE3twIKGEd2s28WQluT7jDifOkmUwvSLb9NTFzwSR
+Yob3disOlQ==
+=m8DV
 -----END PGP SIGNATURE-----
 
---===============5693140962626426956==
+--===============6323483332848103644==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6cf96df77338-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-b85ea95d0864-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1082,4 +1082,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============5693140962626426956==--
+--===============6323483332848103644==--
