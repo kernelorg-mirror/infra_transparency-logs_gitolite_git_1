@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1822893783189685602=="
+Content-Type: multipart/mixed; boundary="===============4316739773192293191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 22 Jan 2024 09:59:57 -0000
-Message-Id: <170591759787.5528.15596034623235844200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 22 Jan 2024 10:00:17 -0000
+Message-Id: <170591761760.7397.3695431933004452506@gitolite.kernel.org>
 
---===============1822893783189685602==
+--===============4316739773192293191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 1b97a284a293f1ce0c31fff372c4c90b1100ced6
+  - ref: refs/heads/fixes
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-1b97a284a293-6613476e225e.txt
+    log: revlist-b85ea95d0864-6613476e225e.txt
 
---===============1822893783189685602==
+--===============4316739773192293191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1705917596 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1705917595-dd2824cc156995176350f98d575f8f021d7277c7
+pusher krzk@kernel.org 1705917616 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1705917615-3eb4cecbf69edd7d7629c535e902f56747ebf1f1
 
-1b97a284a293f1ce0c31fff372c4c90b1100ced6 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/for-next
+b85ea95d086471afb4ad062012a4d73cd328fa86 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmWuPJwQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD15r9D/9NbQhaJTPzFrmifWf7UYc3cjREdQdS0jGq
-+hcto1x2oJMHRw0RXYhQnoD84Uo+6+/laEy5XCRYlkZgQ3/sJoECQtJrAjgyIPmI
-nYSQvNylaRdSimuS4uUTXtWCPFYeB7h3osLZHJ8Vxkd87udd/gjWfq/fSpIBs0kd
-QFOK+N0T27wIGuR2Dx5ydaSXpYdf39u9HUuIce5Rmv9B8X1ntzf/uzmz++gzLcK7
-swAkn4xUk5xM5L4FNTbxeqojSyshe1s6JbtC+SBExHbtORNSNzPXaBEePK+y6bGa
-eBbUsg/DmPy3aIv31tKvSPDKOQC9GBv/kR+jp/IeSjMm34AZ/ezYJqL5TR6knOU2
-5OjTZNqgL6TxlpkF1w13v4NgDUJnYcEy+gwgnN2rUjCSZF4JiAIBlQ+pB28A3z/6
-Ifw6NX/ZgfrtObp6NS8hTZkayanPejGNwDfF5n3Oa5mP1dsvoiAB5cg6yNVtZoqY
-pgEufQEHQtePXnSlbCIvyu5WnE+ORl629VURhaKsn/JFka5eHVMZ+C38Dw/P4zeM
-3RRNgyX5OipA0Wr094vPyxABbl5cfmKf+kvS0q2dIbGjw9MiEHKJKAikF5ZFG1vx
-lcVsBF8jCLAi8KTfjgyIjjlto9V6+xH03jmd7Ylt/h4f7X0/M7Ab2xRX8h1af+fl
-JQ6hCBwdbA==
-=wkt1
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmWuPLAQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1zgjD/9YOtXoNY96mRotDtAc04UfMHu90wa945/z
+cRYTGYccGpjO/aoBJOIPmKNk6gNIFALZ+d2RQs4rEf4J0kpjPuuiufquv0KkWjlo
+hciCmpK/HEMjcu7ZE2hokSBxTQ1E8y5dmmz+sujGDYMtgF//yUoMNLEsCHwhWDbu
+/bKmSmUafmHih2r9xiRXgR0Pqla/BYD5L48jk0mdaLyDRO7Qd5H1T5isNe+aHyGH
+zx7T4HaDBvXyzPaLkAIg6zNOtK9nWGb1jUYkNq3B6T96Hl/71PhDTAckAhzVYmR8
+AFAgUFzNBoe0EKqZvuY9Y/bvomcSDrPOB+Mcl3CgnkMw1j9TVVPF9T1qfPkCnk6q
+8QLVypDxMoIImhVxYLFj0s+sxnu4ajxAeCbT5egSWzhTYv3GEn1xqFz2qFK/tUbf
+ifQ6s88xonYwMkdXLL8SppxgMzTFyt8gYLl5CGNk+DqY7M3k952d3UYmGcG7vpVr
+vB8zsmieXlxaTPYSkM7naUm3Vxs0gSB8mYpAypeIltk1RL0GOrw6QCypVfB+fcIN
+n2HXNXy9O91BAjSz8dzaoz5EMrmBiR1jOz8FTtP0hM7jBghMAgJNjhvBimrac4n0
+IzhfGCORV3Jeev7VfOxzd5PDrknFoOVs95YRLB2Y4iFFQtNE+16F+BKzAGs3e/p4
+vjddWIJinw==
+=cuEI
 -----END PGP SIGNATURE-----
 
---===============1822893783189685602==
+--===============4316739773192293191==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1b97a284a293-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-b85ea95d0864-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1082,4 +1082,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============1822893783189685602==--
+--===============4316739773192293191==--
