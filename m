@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 22 Jan 2024 16:38:12 -0000
-Message-Id: <170594149202.22017.9423892237464967284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 22 Jan 2024 16:39:53 -0000
+Message-Id: <170594159356.22689.17780406097570000301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/dt/linus
-    old: 935024212dafebe065ccb5c4d399f19e4b8dbb82
-    new: 6154fb9c2134f8d9534b2de10491aa3a22f3c9ff
+  - ref: refs/heads/riscv-soc-drivers-fixes
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: 6dd9a236042e305d7b69ee92db7347bf5943e7d3
     log: |
-         6154fb9c2134f8d9534b2de10491aa3a22f3c9ff kselftest: dt: Stop relying on dirname to improve performance
+         6dd9a236042e305d7b69ee92db7347bf5943e7d3 soc: microchip: Fix POLARFIRE_SOC_SYS_CTRL input prompt
          
