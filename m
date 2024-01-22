@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8011831040046746674=="
+Content-Type: multipart/mixed; boundary="===============1938798461733549119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 22 Jan 2024 19:32:26 -0000
-Message-Id: <170595194614.28248.7170978978566112822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 22 Jan 2024 19:32:33 -0000
+Message-Id: <170595195301.28410.14729609425858768768@gitolite.kernel.org>
 
---===============8011831040046746674==
+--===============1938798461733549119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/asoc-6.8
     old: 6613476e225e090cc9aad49be7fa504e290dd33d
     new: 70b4769956651e986591dd94b3ff9649122b1513
     log: |
@@ -29,37 +29,37 @@ changes:
          35314e39dabcfb256832654ad0e856a9fba744bd ASoC: codecs: wcd934x: drop unneeded regulator include
          70b4769956651e986591dd94b3ff9649122b1513 ASoC: allow up to eight CPU/codec DAIs
          
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/asoc-6.9
     old: be69eae9673638583cfcad44c1da6abf91efc4a3
     new: 395228688d9a1dfb7143947729e12db1f762fa1b
     log: revlist-be69eae96736-395228688d9a.txt
 
---===============8011831040046746674==
+--===============1938798461733549119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1705951944 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1705951943-4c074d3aa297ed5358e42cc70eee8dcc790063c6
+pusher C3F436CA30F5D8EB 1705951950 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1705951950-b8c43356c4eb28026969e8d6c461dfe9f4af45ae
 
-6613476e225e090cc9aad49be7fa504e290dd33d 70b4769956651e986591dd94b3ff9649122b1513 refs/heads/for-6.8
-be69eae9673638583cfcad44c1da6abf91efc4a3 395228688d9a1dfb7143947729e12db1f762fa1b refs/heads/for-6.9
+6613476e225e090cc9aad49be7fa504e290dd33d 70b4769956651e986591dd94b3ff9649122b1513 refs/heads/asoc-6.8
+be69eae9673638583cfcad44c1da6abf91efc4a3 395228688d9a1dfb7143947729e12db1f762fa1b refs/heads/asoc-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWuwsgACgkQJNaLcl1U
-h9AKrgf/cUEupmiHwnLEmtMxJyLzVsStmR0tCqSlLqhz7mVx3bbKAhXM2gwqMP6/
-MR3C+8nhVfyUm5bEB1pjjIFJJ6RkYcUalQakkXhl44/jbMkVOAlhiArpbNKWypCL
-K8vQBGkoafTOzpbTHxyg2ibFGuCGUPb0sbHX//67QmTbxgYSeOI0hUmBOpWWrPnc
-u+ap5bKbmHNmDUgKCd/7vqYzQadmh7w9u6FXz3dvUBostitU5s8clJTGD4nsARIu
-oFpDW/qNd5AJ5vvFvrMWKGOeBLHZgzceep3BQ7+/pRs4Qab6lwWbuB2uDqNkVIK9
-KuznP2JRsC2/RRUBhbSefXi/vcSUbg==
-=191k
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWuws4ACgkQJNaLcl1U
+h9C6nwf+NycCd8kuXymxdfaceSwnn6y4QhyhSmt5VMFRQLEozO+RBFRj4PZfktdj
+9sgcuZ++Y6HdJVwNTyju9qfmMmM7z4Cbn9zyYkZrwwrQvqR7/FBsuoxS8odsjboN
+l+nnSEJfII/QMeND40QPgy1aKb8PqT3WBbc95neTCgv5prOv+v8Rk7cH3aPtWmpS
+Pe6dCj7JBJAka8jZfvZDj+MoZHaiuOA4RjrI5h6hs7fioPB0v6fQkd4wPSqcb3Oh
+sN80GHOoZeqaNB4X76pZI7VkJicrHmFrE2D/r7CRmmmOlr1UjrMhusP6uuj5/8aj
+8Hmh5NKrDD3BNWTLstGv8u2Olpy4Og==
+=r3bD
 -----END PGP SIGNATURE-----
 
---===============8011831040046746674==
+--===============1938798461733549119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -81,4 +81,4 @@ d9cacc1a2af2e1cd781b5cd2a3e57fbde64f5a2d ASoC: SOF: amd: Compute file paths on f
 5fe14c55fdd5f9ee3d857001b7f25904ba49766b Improve SOF support for Steam Deck OLED
 395228688d9a1dfb7143947729e12db1f762fa1b ASoC: codecs: add support for WCD939x Codec
 
---===============8011831040046746674==--
+--===============1938798461733549119==--
