@@ -1,68 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3805139322840790234=="
+Content-Type: multipart/mixed; boundary="===============1422124254712921939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Mon, 22 Jan 2024 10:00:53 -0000
-Message-Id: <170591765324.7978.15868015218923133644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 22 Jan 2024 10:01:30 -0000
+Message-Id: <170591769074.8312.9460318143493515678@gitolite.kernel.org>
 
---===============3805139322840790234==
+--===============1422124254712921939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/next/qcom-pinctrl
-    old: b85ea95d086471afb4ad062012a4d73cd328fa86
-    new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-b85ea95d0864-6613476e225e.txt
+  - ref: refs/heads/for-next/scmi/fixes
+    old: 9b85fa343970a6fdd90525da198026a15bf1afd1
+    new: 6bd1b3fede83d8ba5314886062a9bfdada5102a9
+    log: revlist-9b85fa343970-6bd1b3fede83.txt
 
---===============3805139322840790234==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1705917651 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1705917650-61b0c5d5fee9639de01c43d3c7a9df074b44108f
-
-b85ea95d086471afb4ad062012a4d73cd328fa86 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/next/qcom-pinctrl
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmWuPNMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD10smD/4uyD2JLno84wISEaRmXM2fo8PQKEOjCOLZ
-jA9fzYIOeyhJVjZOaBXVYy7vgXUm1jeEyA5qY788QYwr7YQBjFnFL9vEuSotzmtV
-yeBCU5wBDXRhTfwv9Ps3Pi9brpx/2KMxCJ8NZF/F8qvL9wlKq+FlFn96PpBFnZ2s
-KSbYqBGoRlHG+yMsu4xqvSPok8rncx2YZWzDxW/TCcqrkmOBbns2hgiuxr8owVjk
-agL75+J76HlsN0IgSgLQDAxgL1H3USWyy/UV1d19k1tDnNJT8np+qCHUDi3RY2Ix
-xMWOh6g3m5famoPFe7M50GRqUevY0iwyG8BNrsQ2k7i3hziQyzXaEn0c+e9rq2so
-rt5wXhJ1WCWAC2DG9ztIOtwi/dPgVsyuV6RCe34HstT9jmMCM5CC83vOmi51XPIZ
-j8ancxcaf417ze1EKU2hcoaKUKxrNrtepSEdGgtkQHFKBv5MtiE5QHlP7j6hCTsg
-taDKe+VE8ijm7bVzCUWapwuxgTihwNV/S9gHwVEf2v/BspM7MzLtG+UdfepzTal5
-s6ISlmdi7k6BFTuCXuKYiQCBwi3XGgF26IQJyCq/5MS3IoYfx4ljkvdxH8bP5TfR
-dPiYT7f7aAr8CSbcRaRu4zl6jJXs7oB7SE3SRSnokifcdF7dqyyyaCtCPdCLjJXo
-XX+l234ipg==
-=jVPI
------END PGP SIGNATURE-----
-
---===============3805139322840790234==
+--===============1422124254712921939==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b85ea95d0864-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-9b85fa343970-6bd1b3fede83.txt
 
-4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
-1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
 fd37721803c6e73619108f76ad2e12a9aa5fafaf mm, treewide: introduce NR_PAGE_ORDERS
 5e0a760b44417f7cadd79de2204d6247109558a0 mm, treewide: rename MAX_ORDER to MAX_PAGE_ORDER
 e900042f04848b5be9238d866df0952cfc548cf9 Merge tag 'x86_sev_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1081,5 +1044,11 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
+437a310b22244d4e0b78665c3042e5d1c0f45306 firmware: arm_scmi: Check mailbox/SMT channel for consistency
+0726fcc8d4af75441b38aaa082f820e63b3a8748 firmware: arm_scmi: Replace asm-generic/bug.h with linux/bug.h
+e8ef4bbe39b9576a73f104f6af743fb9c7b624ba firmware: arm_scmi: Use xa_insert() to store opps
+b5dc0ffd36560dbadaed9a3d9fd7838055d62d74 firmware: arm_scmi: Use xa_insert() when saving raw queues
+27600c96e2ffa6c1b2cb378ddc75c6620c628d04 firmware: arm_scmi: Fix the clock protocol version for v3.2
+6bd1b3fede83d8ba5314886062a9bfdada5102a9 firmware: arm_scmi: Fix the clock protocol supported version
 
---===============3805139322840790234==--
+--===============1422124254712921939==--
