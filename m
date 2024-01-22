@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5428479969616738761=="
+Content-Type: multipart/mixed; boundary="===============7999649656603644373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 22 Jan 2024 00:20:23 -0000
-Message-Id: <170588282380.19318.17367085536690320475@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 00:20:36 -0000
+Message-Id: <170588283660.19477.6673156187088875387@gitolite.kernel.org>
 
---===============5428479969616738761==
+--===============7999649656603644373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-sve-trap-mitigation
-    old: d294a8b93fb57799f95832c1b3c858c71fd90312
-    new: 9c2331fd77d0b98b3fb97038b08c1a447bcbfa91
-    log: revlist-d294a8b93fb5-9c2331fd77d0.txt
+  - ref: refs/heads/arm64-test-ptrace-regs
+    old: 4fb83b04160a0761f3f1761e885616705acd83f2
+    new: 317d1ef808c18577768bbc14917bbf938fe2cd9c
+    log: revlist-4fb83b04160a-317d1ef808c1.txt
 
---===============5428479969616738761==
+--===============7999649656603644373==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d294a8b93fb5-9c2331fd77d0.txt
+Content-Disposition: attachment; filename=revlist-4fb83b04160a-317d1ef808c1.txt
 
 6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1048,7 +1048,7 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-d1223b179914de701036cc76e24b74834a7865be EDITME: cover title for arm64-sve-trap-mitigation
-9c2331fd77d0b98b3fb97038b08c1a447bcbfa91 arm64/fpsimd: Suppress SVE access traps when loading FPSIMD state
+f6bb1e2ab10658b9b8a8c7a82d9ff58d47bd4920 EDITME: cover title for arm64-test-ptrace-regs
+317d1ef808c18577768bbc14917bbf938fe2cd9c kselftest/arm64: Test that ptrace takes effect in the target process
 
---===============5428479969616738761==--
+--===============7999649656603644373==--
