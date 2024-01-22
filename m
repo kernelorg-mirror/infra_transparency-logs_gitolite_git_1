@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1139545030235915051=="
+Content-Type: multipart/mixed; boundary="===============5428479969616738761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 22 Jan 2024 00:20:03 -0000
-Message-Id: <170588280336.18354.1825480138775654448@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 00:20:23 -0000
+Message-Id: <170588282380.19318.17367085536690320475@gitolite.kernel.org>
 
---===============1139545030235915051==
+--===============5428479969616738761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-sve-sme-doc
-    old: ac2e90437274d6ce1ce153f4a464f38e769cba98
-    new: 8bcfe54de8ff8a439f69c30e68a63f64f287c8e8
-    log: revlist-ac2e90437274-8bcfe54de8ff.txt
+  - ref: refs/heads/arm64-sve-trap-mitigation
+    old: d294a8b93fb57799f95832c1b3c858c71fd90312
+    new: 9c2331fd77d0b98b3fb97038b08c1a447bcbfa91
+    log: revlist-d294a8b93fb5-9c2331fd77d0.txt
 
---===============1139545030235915051==
+--===============5428479969616738761==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ac2e90437274-8bcfe54de8ff.txt
+Content-Disposition: attachment; filename=revlist-d294a8b93fb5-9c2331fd77d0.txt
 
+6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
 fd37721803c6e73619108f76ad2e12a9aa5fafaf mm, treewide: introduce NR_PAGE_ORDERS
 5e0a760b44417f7cadd79de2204d6247109558a0 mm, treewide: rename MAX_ORDER to MAX_PAGE_ORDER
@@ -1045,10 +1048,7 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-23c240b9096ad274bbf67e03d2e5aa2c09924912 EDITME: cover title for arm64-sve-sme-doc
-becc70510caea9e23127c09f1891397a7f8ef9a7 arm64/sve: Remove bitrotted comment about syscall behaviour
-ad1787d2a2e2432da1d10166b8bbbdbee919882b arm64/sme: Fix cut'n'paste in ABI document
-428ac7c712cb8c70ffac2c15bbd8a0a54d34136e arm64/fp: Clarify effect of setting an unsupported system VL
-8bcfe54de8ff8a439f69c30e68a63f64f287c8e8 arm64/sme: Remove spurious 'is' in SME documentation
+d1223b179914de701036cc76e24b74834a7865be EDITME: cover title for arm64-sve-trap-mitigation
+9c2331fd77d0b98b3fb97038b08c1a447bcbfa91 arm64/fpsimd: Suppress SVE access traps when loading FPSIMD state
 
---===============1139545030235915051==--
+--===============5428479969616738761==--
