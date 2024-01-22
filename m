@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4539116297129298248=="
+Content-Type: multipart/mixed; boundary="===============1412302119396100222=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 22 Jan 2024 13:42:03 -0000
-Message-Id: <170593092348.12416.1903850890473607966@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 13:43:37 -0000
+Message-Id: <170593101750.13056.10578886578803588243@gitolite.kernel.org>
 
---===============4539116297129298248==
+--===============1412302119396100222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mark/linux
 user: mark
 changes:
-  - ref: refs/heads/arm64/alternatives/info
-    old: 6f588eff153679438506dcadefbe3ff90e27beb3
-    new: b0b5e23fe88a1e89631cc59ff11ae553d720489a
-    log: revlist-6f588eff1536-b0b5e23fe88a.txt
+  - ref: refs/heads/arm64/kprobes/kretprobe-brk-trampoline
+    old: b02e10b792a7edd5a2799abadba38b2a045538e9
+    new: e3c47d7bd02d6e92db9fa00e480795531c6b38bc
+    log: revlist-b02e10b792a7-e3c47d7bd02d.txt
 
---===============4539116297129298248==
+--===============1412302119396100222==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6f588eff1536-b0b5e23fe88a.txt
+Content-Disposition: attachment; filename=revlist-b02e10b792a7-e3c47d7bd02d.txt
 
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1049,6 +1049,6 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-b0b5e23fe88a1e89631cc59ff11ae553d720489a HACK: arm64: alternatives: dump summary of alternatives
+e3c47d7bd02d6e92db9fa00e480795531c6b38bc arm64: kretprobes: acquire the regs via a BRK exception
 
---===============4539116297129298248==--
+--===============1412302119396100222==--
