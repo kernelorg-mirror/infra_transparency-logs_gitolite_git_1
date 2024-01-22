@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6399312870618310820=="
+Content-Type: multipart/mixed; boundary="===============7220857077901436333=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Mon, 22 Jan 2024 11:09:52 -0000
-Message-Id: <170592179258.28554.12989162447660594071@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 11:10:17 -0000
+Message-Id: <170592181776.30368.10171595046442361799@gitolite.kernel.org>
 
---===============6399312870618310820==
+--===============7220857077901436333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/dt
-    old: f32f977fa8ab1d2fde0cd7136e0d0393fce31d84
+  - ref: refs/heads/next
+    old: d6948c13b663a284574cb9e502dd663e70d910e8
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-f32f977fa8ab-6613476e225e.txt
-  - ref: refs/tags/v6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a0706eba72b90a4702dde6a0b8cc82d78e9b2495
+    log: revlist-d6948c13b663-6613476e225e.txt
 
---===============6399312870618310820==
+--===============7220857077901436333==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f32f977fa8ab-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-d6948c13b663-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1054,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============6399312870618310820==--
+--===============7220857077901436333==--
