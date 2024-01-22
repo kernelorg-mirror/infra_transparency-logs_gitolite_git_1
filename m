@@ -1,31 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5616221385868864914=="
+Content-Type: multipart/mixed; boundary="===============2554100988914498273=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 22 Jan 2024 16:29:59 -0000
-Message-Id: <170594099930.13358.4440240832379881180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 22 Jan 2024 16:30:03 -0000
+Message-Id: <170594100368.14892.17796423435902550771@gitolite.kernel.org>
 
---===============5616221385868864914==
+--===============2554100988914498273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/arm64-2023-dpisa
-    old: aca3ecc6e13c655f28e4857ff64cb6337a6fdd82
-    new: 280184bbe6e8d5237ce90b4f339ed05b5726a46a
-    log: revlist-aca3ecc6e13c-280184bbe6e8.txt
+  - ref: refs/heads/riscv-soc-for-next
+    old: a3ee4347490b0e7c1b7111ea668a194807b0e20b
+    new: 6613476e225e090cc9aad49be7fa504e290dd33d
+    log: revlist-a3ee4347490b-6613476e225e.txt
 
---===============5616221385868864914==
+--===============2554100988914498273==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-aca3ecc6e13c-280184bbe6e8.txt
+Content-Disposition: attachment; filename=revlist-a3ee4347490b-6613476e225e.txt
 
+4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
+1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
+fd37721803c6e73619108f76ad2e12a9aa5fafaf mm, treewide: introduce NR_PAGE_ORDERS
+5e0a760b44417f7cadd79de2204d6247109558a0 mm, treewide: rename MAX_ORDER to MAX_PAGE_ORDER
+e900042f04848b5be9238d866df0952cfc548cf9 Merge tag 'x86_sev_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+bef91c28f28fe8a36b91e9a39f60054ae1874280 Merge tag 'x86_cpu_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3edbe8afb617a736ae0dcc877311bdb112a00123 Merge tag 'ras_core_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+968b80332432172dbbb773e749a43bdc846d1a13 Merge tag 'powerpc-6.8-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+3cf1d6a5fbf3f724d12b01635319924239d42c00 Merge tag 'm68k-for-v6.8-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
+ab5f3fcb7c72094684760e0cd8954d8d570b5e83 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+c3a11c0ec66c1e0652e3a2bb4f5cc74eea0ba486 cifs: delete unnecessary NULL checks in cifs_chan_update_iface()
 33034c4f9497b7fe33b0d97740a4bf1c0552316b Merge tag 'x86-apic-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 106b88d7a91e2b4d40369a20b8ef07bb827dafd5 Merge tag 'x86-asm-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f73857ece4d85d2ee36571df9c13a733f3ba2732 Merge tag 'x86-boot-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1035,20 +1050,5 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-c4a15bd5978704111b7e1a3349050ca4cc03d772 arm64: Support for 2023 DPISA extensions
-28cfbbc4639bd2a1d9193a994e6c462923b22067 arm64/cpufeature: Hook new identification registers up to cpufeature
-91c0f1b4d3f9edfe5a334afd3033ed981193ef5d arm64/fpsimd: Enable host kernel access to FPMR
-24ed13bdf1e9b95ddaf6b49facda8906bb81878b arm64/fpsimd: Support FEAT_FPMR
-ccc9660b182551a66ea8b5ff074cdc33dce0b247 arm64/signal: Add FPMR signal handling
-b1b473a036d161515cf9f0b547fcc1684f20d3bf arm64/ptrace: Expose FPMR via ptrace
-55396fd079f543bb6864e0dfe105c21fd99aaf0b arm64/hwcap: Define hwcaps for 2023 DPISA features
-d80c2a5291f5b3c0cd32237ebe2290ae8979f750 kselftest/arm64: Handle FPMR context in generic signal frame parser
-72b6979e8ff13540555aeeb7cfe34a73e8333906 kselftest/arm64: Add basic FPMR test
-be33ae9393caffec1aae4228a2b0861e46776fe0 kselftest/arm64: Add 2023 DPISA hwcap test coverage
-58aed64cf62e8f0e90439001b1fd64236635e89e KVM: arm64: Share all userspace hardened thread data with the hypervisor
-da62d51c80c972aaca5829a543024ee4eea2c1de KVM: arm64: Add newly allocated ID registers to register descriptions
-ceb54ea07d2e5c61445d42fa224c549141670d77 KVM: arm64: Support FEAT_FPMR for guests
-4774cf7c67cea0ac0c50b684831b1d2a628475af KVM: arm64: selftests: Document feature registers added in 2023 extensions
-280184bbe6e8d5237ce90b4f339ed05b5726a46a KVM: arm64: selftests: Teach get-reg-list about FPMR
 
---===============5616221385868864914==--
+--===============2554100988914498273==--
