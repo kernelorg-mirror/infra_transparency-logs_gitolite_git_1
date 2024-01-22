@@ -1,32 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============5932790330193963925=="
+Content-Type: multipart/mixed; boundary="===============8569793149032106771=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Mon, 22 Jan 2024 05:25:06 -0000
-Message-Id: <170590110694.17512.15025082457061035793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Mon, 22 Jan 2024 05:25:28 -0000
+Message-Id: <170590112811.17715.11067197812600028652@gitolite.kernel.org>
 
---===============5932790330193963925==
+--===============8569793149032106771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
+repo: pub/scm/linux/kernel/git/phy/linux-phy
 user: vkoul
 changes:
   - ref: refs/heads/fixes
-    old: 393cae5f32d640b9798903702018a48c7a45e59f
+    old: 2a9c713825b3127ece11984abf973672c9779518
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-393cae5f32d6-6613476e225e.txt
+    log: revlist-2a9c713825b3-6613476e225e.txt
   - ref: refs/heads/master
     old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
     log: revlist-0bb80ecc33a8-6613476e225e.txt
   - ref: refs/heads/next
-    old: becfce5233a78956654f36555f1b9187f8d11d56
+    old: 2029e71482fcd94dcc7df2c66c7fa635479748bf
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-becfce5233a7-6613476e225e.txt
+    log: revlist-2029e71482fc-6613476e225e.txt
   - ref: refs/tags/v6.8-rc1
     old: 0000000000000000000000000000000000000000
     new: a0706eba72b90a4702dde6a0b8cc82d78e9b2495
@@ -55,11 +55,11 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: ff16c06a1757247b456096cbffeedf4ef5621ba4
 
---===============5932790330193963925==
+--===============8569793149032106771==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-393cae5f32d6-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-2a9c713825b3-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1086,7 +1086,7 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============5932790330193963925==
+--===============8569793149032106771==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -2117,11 +2117,11 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============5932790330193963925==
+--===============8569793149032106771==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-becfce5233a7-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-2029e71482fc-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -3148,4 +3148,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============5932790330193963925==--
+--===============8569793149032106771==--
