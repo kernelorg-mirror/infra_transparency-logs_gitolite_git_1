@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7955687717367560037=="
+Content-Type: multipart/mixed; boundary="===============0837049577000956482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 22 Jan 2024 12:50:57 -0000
-Message-Id: <170592785722.7870.4766981455074259608@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 12:51:02 -0000
+Message-Id: <170592786218.7989.12355389556263610688@gitolite.kernel.org>
 
---===============7955687717367560037==
+--===============0837049577000956482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 9fe7fc109ed28e03a9d62e36980137152287036e
-    new: 92ec7527115b966a345535039dcb5e69f8528d75
-    log: revlist-9fe7fc109ed2-92ec7527115b.txt
+  - ref: refs/heads/m68k-queue
+    old: 68f7a449731d9081a261c75fecf6896872e0a194
+    new: 32357d98922087a23ff47f243429886e94ff815d
+    log: revlist-68f7a449731d-32357d989220.txt
 
---===============7955687717367560037==
+--===============0837049577000956482==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9fe7fc109ed2-92ec7527115b.txt
+Content-Disposition: attachment; filename=revlist-68f7a449731d-32357d989220.txt
 
-1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
@@ -1049,6 +1047,8 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-92ec7527115b966a345535039dcb5e69f8528d75 Merge tag 'v6.8-rc1'
+497c25a5ac94c297744e2dbf35154e29b5535f0d m68k: atari: usb: Add ISP1160 USB host controller support
+b25ac78a324f722d2563704a5b6f34eeac8903a2 m68k: atari: Update Kconfig.bus help text
+32357d98922087a23ff47f243429886e94ff815d m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7955687717367560037==--
+--===============0837049577000956482==--
