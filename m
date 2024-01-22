@@ -1,62 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============6123481126283143406=="
+Content-Type: multipart/mixed; boundary="===============5187300297085888064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 22 Jan 2024 16:32:33 -0000
-Message-Id: <170594115300.16385.11276350746276713741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 22 Jan 2024 16:32:39 -0000
+Message-Id: <170594115952.16490.9854154176143844398@gitolite.kernel.org>
 
---===============6123481126283143406==
+--===============5187300297085888064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/asoc-6.8
     old: ab09fb9c629ed3aaea6a82467f08595dbc549726
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
     log: revlist-ab09fb9c629e-6613476e225e.txt
-  - ref: refs/heads/for-6.9
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+  - ref: refs/heads/asoc-6.9
+    old: 0000000000000000000000000000000000000000
     new: be69eae9673638583cfcad44c1da6abf91efc4a3
-    log: |
-         322ed3a10bf2dc85568aa9ed285aba448347080c ASoC: qcom: Use devm_kcalloc() instead of devm_kzalloc()
-         059870e53aa06831f1ccdc5e9cf29f933cdf284e ASoC: dt-bindings: Do not override firmware-name $ref
-         90050b8d2e1556238d4c69abc11270de523bf955 ASoC: p1022_rdk: fix all kernel-doc warnings
-         9423d7b9edba043c39f1607c752677c8b769922f ASoC: nau8540: Add pre-charge actions for input
-         be69eae9673638583cfcad44c1da6abf91efc4a3 ASoC: ti: j721e-evm: Use devm_kcalloc() instead of devm_kzalloc()
-         
 
---===============6123481126283143406==
+--===============5187300297085888064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1705941151 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1705941150-93b7bb4b9b83fc9d5faafade4d859c0f53e20368
+pusher C3F436CA30F5D8EB 1705941157 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1705941157-e7fd13e954555d2c64f49357f760c59b89791897
 
-ab09fb9c629ed3aaea6a82467f08595dbc549726 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/for-6.8
-6613476e225e090cc9aad49be7fa504e290dd33d be69eae9673638583cfcad44c1da6abf91efc4a3 refs/heads/for-6.9
+ab09fb9c629ed3aaea6a82467f08595dbc549726 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/asoc-6.8
+0000000000000000000000000000000000000000 be69eae9673638583cfcad44c1da6abf91efc4a3 refs/heads/asoc-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWumJ8ACgkQJNaLcl1U
-h9BLSAf/e3r01xzeL1FAbCnJYijGOwkkMg/cVaTkCFfotA2wAAKf253GFt/Z2fEe
-8fRZORWQQzJVbZD7AvglXciUDvhLXnP8p5g3b7GakRDDS0aI0dM5sr3Q5JIWAcul
-2tmZLaSFOreUaq5R7m/uONWcBdnEnycoOw0svev0rfIc/y0KuKQDivxX0pVDk9p3
-fXqEKuwXFMEV58aIz0HPY4yyDQYfvq2CgqgOT7dSp7+ZR2nxe2wO88Bpwh/7ptJB
-/+poOTkEKp4yMptxzHa/IhotXi5sX33gyit4bKjA3y7RFAH5a/juBRIXOSWeLro+
-uR2nyPXNqF1mYhod+B/MGlAyS+gviw==
-=vj0H
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWumKUACgkQJNaLcl1U
+h9CeYgf+KDZw1lNKEVM4dYEG6YMateH6mgbmkKpk9N6yiwmKORIFtokIZOnD3ma+
+7LlVitv+uVVOy+4NorPsS0qwugS8zKQEh2YWzf7SD8pKDFOAc5BhenJVTytyQxTk
+fqApgRf1HSSzbj0P0wLVpJp0jMJAQE2QFGStCJJKm3ADZNK6HDhguoVYC0NCnZ44
+/nd9Id3TMzPNt/KQ4SJ8pEz2EQMcAPJef+wQ/j+V0Go9JxwIqUo+SacWUK1uMQxd
+Js1uBf4y6zaTyPjMjbb1Qc9kuUtBN4LkKdNrujwoIiAc/qrzzDcND0n2S81qAupp
+oF6gl8FIkEQSBeGaTqPtxVfLBZFKug==
+=L8pi
 -----END PGP SIGNATURE-----
 
---===============6123481126283143406==
+--===============5187300297085888064==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1087,4 +1080,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============6123481126283143406==--
+--===============5187300297085888064==--
