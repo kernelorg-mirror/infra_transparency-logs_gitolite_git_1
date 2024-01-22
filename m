@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3045442779469399226=="
+Content-Type: multipart/mixed; boundary="===============3535559703454352126=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 22 Jan 2024 14:52:07 -0000
-Message-Id: <170593512739.6229.9426834659346702528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Mon, 22 Jan 2024 14:56:09 -0000
+Message-Id: <170593536976.9271.9089775156640921939@gitolite.kernel.org>
 
---===============3045442779469399226==
+--===============3535559703454352126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/x86/urgent
-    old: d5a10b976ecb77fa49b95f3f1016ca2997c122cb
-    new: f7cfe7017b531e08c108ac6615b1ddedcc892428
-    log: revlist-d5a10b976ecb-f7cfe7017b53.txt
+  - ref: refs/heads/for-usb-linus
+    old: 657bf30937b7bae04de67611741e0a767589151d
+    new: 311ba5815da7441e2fc7cd709bf1770e13445cd1
+    log: revlist-657bf30937b7-311ba5815da7.txt
 
---===============3045442779469399226==
+--===============3535559703454352126==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d5a10b976ecb-f7cfe7017b53.txt
+Content-Disposition: attachment; filename=revlist-657bf30937b7-311ba5815da7.txt
 
-1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
@@ -1049,6 +1047,8 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-f7cfe7017b531e08c108ac6615b1ddedcc892428 x86/paravirt: Make BUG_func() usable by non-GPL modules
+2ab8dbad9d67c6a7b3bc5dc08a76a3eb04e33a70 xhci: fix possible null pointer dereference at secondary interrupter removal
+641fe6c4ba1e7284ef597d3e3be3cd7bb170ec61 xhci: fix off by one check when adding a secondary interrupter.
+311ba5815da7441e2fc7cd709bf1770e13445cd1 xhci: process isoc TD properly when there was a transaction error mid TD.
 
---===============3045442779469399226==--
+--===============3535559703454352126==--
