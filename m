@@ -1,52 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4639944173056918699=="
+Content-Type: multipart/mixed; boundary="===============2168912921644721566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 22 Jan 2024 19:39:39 -0000
-Message-Id: <170595237934.2322.10936127970172615118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 22 Jan 2024 19:39:54 -0000
+Message-Id: <170595239465.2485.16827655671267271804@gitolite.kernel.org>
 
---===============4639944173056918699==
+--===============2168912921644721566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.8
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
-    new: b3cbdcc191819b75c04178142e2d0d4c668f68c0
+  - ref: refs/heads/master
+    old: ee3431b77a2beff001efc3f87bdce2151c2e0aae
+    new: 0f9cc2cc798ddd5eadecdfd7847ee47730421ffc
     log: |
-         c92688cac239794e4a1d976afa5203a4d3a2ac0e regulator: pwm-regulator: Add validity checks in continuous .get_voltage
-         6a7d11efd6915d80a025f2a0be4ae09d797b91ec regulator: pwm-regulator: Calculate the output voltage for disabled PWMs
-         b3cbdcc191819b75c04178142e2d0d4c668f68c0 regulator: pwm-regulator: Manage boot-on with disabled PWM channels
+         0f9cc2cc798ddd5eadecdfd7847ee47730421ffc 4.19-stable patches
          
 
---===============4639944173056918699==
+--===============2168912921644721566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1705952377 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1705952377-e9c8883b96dec885f0c8471dc45ac66f8a7e4cd0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705952389 -0800
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1705952387-6b19cdb6e1b7d09f5e94a8d4178aba2bd64747d7
 
-6613476e225e090cc9aad49be7fa504e290dd33d b3cbdcc191819b75c04178142e2d0d4c668f68c0 refs/heads/regulator-6.8
+ee3431b77a2beff001efc3f87bdce2151c2e0aae 0f9cc2cc798ddd5eadecdfd7847ee47730421ffc refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWuxHkACgkQJNaLcl1U
-h9BLhAf+METtLjyxfitZJdjyfsR3ZGw/ogeZ2TgXbg5iPInDl4ASzDSKDD4fypEY
-Z9USbjhgRa8Nu9yA8gZ5xRQSXhfA/qSNg6Nx6M5KnYpmng5rQMBvQ2rk62hRUKIE
-Ut76o0wy8lxpBc3J7eomAK5eH2vTS18nfPTO11nxvRX4oVFvkwcu4PYIFWvocgY9
-px6dWETNziW0iv6aKun1mHyhgWgoc2GMtrADi2hhypwQdSJgL6wUGpP6jkj2NlUU
-HnsP8pcjWK3N6JsXjMo9z4ixZeXH+4r85ewMFW3+L8phOmgclz55RQwJ+UTluXFC
-8J0iZuCb5eHrIOcXj9CxS5ksXbOBfQ==
-=kePB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWuxIUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VvIP/2aPtPc1w03G8qxM52BX
+cvdMduX+Zo88iO7V9rvGUdTxbn52coUVjYOwI81GtqXK+e+H8k+6bDtE60EIPky4
+Fv8MnINM80EIAmdK5MmAtv2k2W7E5xpNwmkBEBMlcOM5yLAo7Su6ftr9i9vSBmky
+eHSqka+7VV64p+pDcd6Dgp/4eaIdOz8HYJ1f9kY5CQrnkI6g0WBN3xtq8NRsDBP5
++uPvruKe0wRmxgBQKL3x0jXJCZTpoNGVsppBXh3b8BTFOPCGSt9ZqKBZHT4P8yan
+ZdNAcoSaXOEl2pU+/MDZDEzUENWvXF2uBUVHX3K0GcK4P0C2TJwJU7A4r7MRLdZj
+DlTNqg3Mfx8l0Hk9ro/lMjLIg+Q2t4U/czn7aX7gcOG+6K/X6xzEIVX6Jau3EQMB
+IqM1rOXoLplecODmDldB1n/hTFXzSh1vn+ixJT4IWVfpwyVjFCH1Q6/tMO5qu8Op
+XF4iCmgMAbmq+t1vOR+QK8OcJ0ztyGujgpbm/fz2Z9qdceh9IRjLtziE9Px+9hex
+FiB2nrCsjejbeRBlbloPDQqllTByizwMxY6yJ4/T/qsbLUiRo8I1+OKoWzAEkIem
+MogCD/yYAEO4+IHoBsTup3KnXjChiMudM23+/EAevpFpjDMWSsBuym6Y4NHdgAeU
+FjeY5Frul8AK6SGKH6veebcH
+=pWkv
 -----END PGP SIGNATURE-----
 
---===============4639944173056918699==--
+--===============2168912921644721566==--
