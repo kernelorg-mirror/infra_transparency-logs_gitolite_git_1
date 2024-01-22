@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3777085654350977385=="
+Content-Type: multipart/mixed; boundary="===============1901141112033087882=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Mon, 22 Jan 2024 09:17:19 -0000
-Message-Id: <170591503986.26016.4381568978461438092@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 09:17:58 -0000
+Message-Id: <170591507860.26341.8258402983409867076@gitolite.kernel.org>
 
---===============3777085654350977385==
+--===============1901141112033087882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mediatek/linux
 user: matthias.bgg
 changes:
-  - ref: refs/heads/master
-    old: 06dc10eae55b5ceabfef287a7e5f16ceea204aa0
-    new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-06dc10eae55b-6613476e225e.txt
+  - ref: refs/heads/for-next
+    old: e660c23bf43e89d5d0e7825d9ad38d894dbf918e
+    new: f25d1d5b94553d532b84297b0d06947e01254c39
+    log: revlist-e660c23bf43e-f25d1d5b9455.txt
 
---===============3777085654350977385==
+--===============1901141112033087882==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-06dc10eae55b-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-e660c23bf43e-f25d1d5b9455.txt
 
-4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
-1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
-fd37721803c6e73619108f76ad2e12a9aa5fafaf mm, treewide: introduce NR_PAGE_ORDERS
-5e0a760b44417f7cadd79de2204d6247109558a0 mm, treewide: rename MAX_ORDER to MAX_PAGE_ORDER
-e900042f04848b5be9238d866df0952cfc548cf9 Merge tag 'x86_sev_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-bef91c28f28fe8a36b91e9a39f60054ae1874280 Merge tag 'x86_cpu_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3edbe8afb617a736ae0dcc877311bdb112a00123 Merge tag 'ras_core_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-968b80332432172dbbb773e749a43bdc846d1a13 Merge tag 'powerpc-6.8-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-3cf1d6a5fbf3f724d12b01635319924239d42c00 Merge tag 'm68k-for-v6.8-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
-ab5f3fcb7c72094684760e0cd8954d8d570b5e83 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-c3a11c0ec66c1e0652e3a2bb4f5cc74eea0ba486 cifs: delete unnecessary NULL checks in cifs_chan_update_iface()
 33034c4f9497b7fe33b0d97740a4bf1c0552316b Merge tag 'x86-apic-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 106b88d7a91e2b4d40369a20b8ef07bb827dafd5 Merge tag 'x86-asm-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f73857ece4d85d2ee36571df9c13a733f3ba2732 Merge tag 'x86-boot-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1050,5 +1035,20 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
+88ca06414ca6cbd43e4cc91ca92f2827a1fbc367 arm64: dts: mt8183: Move CrosEC base detection node to kukui-based DTs
+27d3b23992c1e9956d5c283524780797588b32e0 dt-bindings: arm64: mediatek: Add MT7981B and Xiaomi AX3000T
+504d31f6edcfac60805d6be271c30a5939a646f6 arm64: dts: mediatek: Add initial MT7981B and Xiaomi AX3000T
+a37e34831a2caa68132028e12e4ec1d3ee380b17 dt-bindings: arm64: mediatek: Add MT7988A and BPI-R4
+8f7c9cbb0fb1dd1c880e2ef723237c172d9708ce arm64: dts: mediatek: Add initial MT7988A and BPI-R4
+77cd5c2bdbfba37bc9adfcb357fe5518c31a8dbe arm64: dts: mediatek: mt7988: add clock controllers
+03b82b191aa8b81af3389dbdf7639b451d352fd2 arm64: dts: mediatek: mt7986: fix reference to PWM in fan node
+d12c3f453c9ac99bc9f6459f690bd0a80204a283 arm64: dts: mediatek: mt7986: drop crypto's unneeded/invalid clock name
+0d1c615385e04e0a38d0194b81e71ec97c4ca9a6 arm64: dts: mediatek: mt7986: fix SPI bus width properties
+f394d735fe187ac6770bf61fbbcbf3391c285549 arm64: dts: mediatek: mt7986: fix SPI nodename
+8a57fcd8ac7f43ec8c252ecee48f89de066837ca arm64: dts: mediatek: mt8173: Enable cros-ec-spi as wake source
+38360340b0c77e8ed45e713af7c1fa0f5a831fa8 arm64: dts: mediatek: mt8183: Enable cros-ec-spi as wake source
+96c86d3551675e0c61a172a07022ee3907c7cbe2 arm64: dts: mediatek: mt8192: Enable cros-ec-spi as wake source
+a6146b8a057d7bcb261fce3376aabb89bb10b8a9 arm64: dts: mediatek: mt8195: Enable cros-ec-spi as wake source
+f25d1d5b94553d532b84297b0d06947e01254c39 Merge branch 'v6.8-next/fixes' into for-next
 
---===============3777085654350977385==--
+--===============1901141112033087882==--
