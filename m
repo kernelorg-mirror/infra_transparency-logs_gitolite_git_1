@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7999649656603644373=="
+Content-Type: multipart/mixed; boundary="===============8882931536056795486=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 22 Jan 2024 00:20:36 -0000
-Message-Id: <170588283660.19477.6673156187088875387@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 00:21:34 -0000
+Message-Id: <170588289418.19891.3660733644568069425@gitolite.kernel.org>
 
---===============7999649656603644373==
+--===============8882931536056795486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-test-ptrace-regs
-    old: 4fb83b04160a0761f3f1761e885616705acd83f2
-    new: 317d1ef808c18577768bbc14917bbf938fe2cd9c
-    log: revlist-4fb83b04160a-317d1ef808c1.txt
+  - ref: refs/heads/kselftest-clone3-set-tid
+    old: 37ed266184ddc38ee997a405f936b660941c3927
+    new: 6c70cca572e52df29083121a2392a5b17d36f598
+    log: revlist-37ed266184dd-6c70cca572e5.txt
 
---===============7999649656603644373==
+--===============8882931536056795486==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4fb83b04160a-317d1ef808c1.txt
+Content-Disposition: attachment; filename=revlist-37ed266184dd-6c70cca572e5.txt
 
 6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1048,7 +1048,7 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-f6bb1e2ab10658b9b8a8c7a82d9ff58d47bd4920 EDITME: cover title for arm64-test-ptrace-regs
-317d1ef808c18577768bbc14917bbf938fe2cd9c kselftest/arm64: Test that ptrace takes effect in the target process
+c9a2093f18f5695b526a4d1e4a1e467fe6e95d57 EDITME: cover title for kselftest-clone3-set-tid
+6c70cca572e52df29083121a2392a5b17d36f598 kselftest/clone3: Make test names for set_tid test stable
 
---===============7999649656603644373==--
+--===============8882931536056795486==--
