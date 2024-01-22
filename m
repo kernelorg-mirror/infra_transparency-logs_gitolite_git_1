@@ -1,59 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1858377632498388006=="
+Content-Type: multipart/mixed; boundary="===============1838715398891708034=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 22 Jan 2024 17:38:41 -0000
-Message-Id: <170594512135.4910.14168523174267363116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 22 Jan 2024 17:38:47 -0000
+Message-Id: <170594512787.5048.2655003958105027412@gitolite.kernel.org>
 
---===============1858377632498388006==
+--===============1838715398891708034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/regulator-6.8
     old: 1cadc04c1a1ac5015c2eb0fadfabf4b61bbe167e
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
     log: revlist-1cadc04c1a1a-6613476e225e.txt
-  - ref: refs/heads/for-6.9
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+  - ref: refs/heads/regulator-6.9
+    old: 0000000000000000000000000000000000000000
     new: a6ffa02ba7a28fe1bba06eacb224554d89a1cd4d
-    log: |
-         5df3b41bd6b5432010d6d85e5aa7217bd8f6b0cb regulator: qcom_smd: Keep one rpm handle for all vregs
-         a6ffa02ba7a28fe1bba06eacb224554d89a1cd4d dt-bindings: regulator: Convert ti,tps65132 to YAML
-         
 
---===============1858377632498388006==
+--===============1838715398891708034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1705945119 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1705945119-7f4288726e5cdf26c6f1c822c2762bbd384d312d
+pusher C3F436CA30F5D8EB 1705945126 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1705945125-5798ff5e7f9f01f910dba4b81142300ec9a3cd0d
 
-1cadc04c1a1ac5015c2eb0fadfabf4b61bbe167e 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/for-6.8
-6613476e225e090cc9aad49be7fa504e290dd33d a6ffa02ba7a28fe1bba06eacb224554d89a1cd4d refs/heads/for-6.9
+1cadc04c1a1ac5015c2eb0fadfabf4b61bbe167e 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/regulator-6.8
+0000000000000000000000000000000000000000 a6ffa02ba7a28fe1bba06eacb224554d89a1cd4d refs/heads/regulator-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWuqB8ACgkQJNaLcl1U
-h9BkIAf9E/M8AbImxTuCylXJfKvuh/jhdzpHOCMw7tbTDtW/li7nnXpmpmmtiQws
-qio1Oh4BSAoE1iGEbRxBiW+l/w6UeGGuPPfGGiTbA+5774fjfVCktowhXLylxVbp
-9KRLYXUEf/WU1+S+edR7ZfWd3QZTNpCHd0afUOmC7Ow2U1sgAcFCIpZmYJINXuZe
-DCQdtEnEuyFOrcgUuGkhtSdAWinMx/wDp67962Fa6jogF9EA4sW5yzIkjoG87tiV
-q2LeQMjfslXgEvyPYGIOH0Bhpow748YoNp1qnhnC2LoqqxBgku82HaDxT4yGOr5p
-qSJ7I+KoOL/nIZDtueQBrAU0cLRlUg==
-=CU6n
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWuqCYACgkQJNaLcl1U
+h9Cb5wf/aJL2dDua1UUPgc/o4HCzmeg4SvXrh8h5k4u0Pfl2EWcar/GGjnmKI64O
+fcDrAIFyFUP6SnpnfT1TSjWXk8+ufgPonPZhPyk87W+9t2yxKZMmwE3bV+/B6k8R
+ntH0EFZGUgw98QRL8TBpsRn3e6y+zjdlZKEzKbRX/eteOCqDqRdv+XNSu4pHlmRx
+Lly5dDFDdh8/Ym5QH8CU+o+cwo6zrooTbFEajMOOZ4SAeTWMaqdsFs6ideL9f68P
+K5/tZ0rx5jcfisdasQ73hVIXvySImKQGdXyWeONZoTz4cRsHQe5nBNKLs42lfppj
+IbiRoH/l5uHEPD2vDGPYkzx2lvfgqg==
+=3KMX
 -----END PGP SIGNATURE-----
 
---===============1858377632498388006==
+--===============1838715398891708034==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1084,4 +1080,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============1858377632498388006==--
+--===============1838715398891708034==--
