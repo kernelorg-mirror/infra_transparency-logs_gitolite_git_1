@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6393797155353826953=="
+Content-Type: multipart/mixed; boundary="===============1238214362373671823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Mon, 22 Jan 2024 00:36:57 -0000
-Message-Id: <170588381731.31050.17496125255390713966@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 00:37:03 -0000
+Message-Id: <170588382359.31195.15554814873933331375@gitolite.kernel.org>
 
---===============6393797155353826953==
+--===============1238214362373671823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
-  - ref: refs/heads/for-next
-    old: 8cb7cfb04af28da54d51b5d798a2195184a9a2f8
-    new: 3a6dd5f614a13033a47eaf439ac34e7b6fbc7705
-    log: revlist-8cb7cfb04af2-3a6dd5f614a1.txt
+  - ref: refs/heads/fixes
+    old: e5075d8ec5647322fb9e699bfb76331cc8ee098d
+    new: 6613476e225e090cc9aad49be7fa504e290dd33d
+    log: revlist-e5075d8ec564-6613476e225e.txt
 
---===============6393797155353826953==
+--===============1238214362373671823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cb7cfb04af2-3a6dd5f614a1.txt
+Content-Disposition: attachment; filename=revlist-e5075d8ec564-6613476e225e.txt
 
 aaf7b392347bc4b32ffcab11c414d983a782e651 dt-bindings: dma: ti: k3-*: Add descriptions for register regions
 f04470678132c2d044b92befab39a933ac4d106c dt-bindings: dma: ti: k3-bcdma: Describe cfg register regions
@@ -170,6 +170,5 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-3a6dd5f614a13033a47eaf439ac34e7b6fbc7705 riscv: remove unneeded #include <asm-generic/export.h>
 
---===============6393797155353826953==--
+--===============1238214362373671823==--
