@@ -1,57 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0242111138352550026=="
+Content-Type: multipart/mixed; boundary="===============6889033406759447460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Mon, 22 Jan 2024 08:11:44 -0000
-Message-Id: <170591110479.10191.17734982257193406491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Mon, 22 Jan 2024 08:19:17 -0000
+Message-Id: <170591155728.14513.7317701274701408890@gitolite.kernel.org>
 
---===============0242111138352550026==
+--===============6889033406759447460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-linus
     old: 0dd3ee31125508cd67f7e7172247f05b7fd1753a
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
     log: revlist-0dd3ee311255-6613476e225e.txt
 
---===============0242111138352550026==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1705911103 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1705911102-a161283363c0244ee43627bff46d87158c57e7c4
-
-0dd3ee31125508cd67f7e7172247f05b7fd1753a 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmWuIz8QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD17qtD/0fdG+2aG86ULQFsRY3Bww0GC4Up4BvRt2K
-pjJerMtSJ8SdqO5SM+Z8fFExULTl4sLtp7UOUqKgegf67cxInoO8jUIU7fLg6qSM
-YSKOiwBLoMwV+QZpxNFxLTi3DF0SNddH26/7f/04oH3itdeKPlu4UzWlDzn1V88L
-oIGh2c70EHdRAloXGZnnWd0MTHHg7WtIR4ePhZyVQQbYQEI8EMCrwYSMVaEw/q90
-sUQ7or1rfr3Hz7dcsWLXZlQiPbZNAFEzxoVg4poqO/s6wiZ7eP90lq3HKmZYT/GF
-Hev1yXFwIxQR966Slz1MzLOfF62/jvaENNeRbS8pk+YO/WVlwcUNOc+mGtVsVTp3
-J58kvLd9xamv+Ek7kBuKe3Zb/hQ+KjmiKyoxAUV7YYsksl0UlfmtZS2j7/SqKus1
-OXjOod6nbXEM2V7WfDG5Xc29YiKJ8bhes2CcDR8WjDJYEtQznBEmOaoVXvtj4Nd6
-x08OEFugEyYKbjJNIExyqooJXepB0RBBYnSI6qKLh9svx79jPutdi5ztGLLewZxl
-6XVVMjd5MY/bFqo4hMysazHMSb5w2XSD3tlDsxgtyq++gWMzvPRgghKexDGpfrdo
-XBBp1jlW1AI/s0YOBb4k7TkZ/zMQGF4FjPU4GkvrCAdvu2I0rY76M+S6qm3Prjzv
-qoFrOmeo1A==
-=RMYs
------END PGP SIGNATURE-----
-
---===============0242111138352550026==
+--===============6889033406759447460==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============0242111138352550026==--
+--===============6889033406759447460==--
