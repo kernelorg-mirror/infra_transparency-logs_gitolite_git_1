@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8000899879116815615=="
+Content-Type: multipart/mixed; boundary="===============6324086704839492746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 22 Jan 2024 09:02:58 -0000
-Message-Id: <170591417845.13962.2110223087706030139@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 09:03:14 -0000
+Message-Id: <170591419465.14169.13033886140439536837@gitolite.kernel.org>
 
---===============8000899879116815615==
+--===============6324086704839492746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 6789dc4e85595424b3dd2b1b11d6da32ff4a4149
-    new: a70319e919d665138916eb65e32b00ffdae66671
-    log: revlist-6789dc4e8559-a70319e919d6.txt
-  - ref: refs/heads/renesas-dts-for-v6.9
-    old: 0000000000000000000000000000000000000000
-    new: 8b93657c976a61726d7ffbe8d019b84b4abfb673
-  - ref: refs/tags/renesas-devel-2024-01-22-v6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: c33a8a700d03d28332ad0d15c54d9440b2dfdbe3
-  - ref: refs/tags/renesas-next-2024-01-22-v6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 6231c81608287b894618787122b9e8932ade91c5
-  - ref: refs/tags/v6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a0706eba72b90a4702dde6a0b8cc82d78e9b2495
+  - ref: refs/heads/next
+    old: a4ce2434e9bb0e1ded26c7bdfc45893d3dadc700
+    new: 6251f25da3c72088c750c8f5ce28c3a23d69c1a7
+    log: revlist-a4ce2434e9bb-6251f25da3c7.txt
 
---===============8000899879116815615==
+--===============6324086704839492746==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6789dc4e8559-a70319e919d6.txt
+Content-Disposition: attachment; filename=revlist-a4ce2434e9bb-6251f25da3c7.txt
 
+fd37721803c6e73619108f76ad2e12a9aa5fafaf mm, treewide: introduce NR_PAGE_ORDERS
 5e0a760b44417f7cadd79de2204d6247109558a0 mm, treewide: rename MAX_ORDER to MAX_PAGE_ORDER
 e900042f04848b5be9238d866df0952cfc548cf9 Merge tag 'x86_sev_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bef91c28f28fe8a36b91e9a39f60054ae1874280 Merge tag 'x86_cpu_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1061,6 +1050,5 @@ dd9cc6afcbe7a81b73ad05a46bb51300e6f37a10 ARM: dts: renesas: r8a73a4: Add cp cloc
 d2339555c36a07ace3fdd5d7ad584072b3214ff6 ARM: dts: renesas: r8a73a4: Fix thermal parent clock
 8b93657c976a61726d7ffbe8d019b84b4abfb673 arm64: dts: renesas: r8a779g0: Restore sort order
 6251f25da3c72088c750c8f5ce28c3a23d69c1a7 Merge branch 'renesas-dts-for-v6.9' into renesas-next
-a70319e919d665138916eb65e32b00ffdae66671 Merge branch 'renesas-next' into renesas-devel
 
---===============8000899879116815615==--
+--===============6324086704839492746==--
