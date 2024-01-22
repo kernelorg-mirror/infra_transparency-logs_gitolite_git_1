@@ -1,59 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============1655267384537793442=="
+Content-Type: multipart/mixed; boundary="===============1788781639976190998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 22 Jan 2024 16:48:58 -0000
-Message-Id: <170594213883.29916.16786884885142116848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 22 Jan 2024 16:49:23 -0000
+Message-Id: <170594216309.30108.185655043101360358@gitolite.kernel.org>
 
---===============1655267384537793442==
+--===============1788781639976190998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.8
-    old: 17dc11a02d8dacc7e78968daa2a8c16281eb7d1e
+  - ref: refs/heads/for-linus
+    old: ec9809cc9137dd60175364dcf8733b3c8234fdb9
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-17dc11a02d8d-6613476e225e.txt
-  - ref: refs/heads/spi-6.9
-    old: 0000000000000000000000000000000000000000
+    log: revlist-ec9809cc9137-6613476e225e.txt
+  - ref: refs/heads/for-next
+    old: 35000c83a0e637ce324ed4966c1ec0d3666cfd45
     new: 50c4f8172dbf9fdf152eae5179e233879a72dd47
+    log: |
+         4247d7f2ca564bbede54054da1f35a359bb061bd spi: spi-mt65xx: Support sleep pin control
+         6df534cc7136fc9e023cbd4e0011a04e3659e74d spi: make spi_bus_type const
+         50c4f8172dbf9fdf152eae5179e233879a72dd47 spi: nxp-fspi: Adjust LUT debug output alignment
+         
 
---===============1655267384537793442==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1705942137 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1705942136-3a8b2c87298d173176c9876fdae82c2b39a37589
-
-17dc11a02d8dacc7e78968daa2a8c16281eb7d1e 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/spi-6.8
-0000000000000000000000000000000000000000 50c4f8172dbf9fdf152eae5179e233879a72dd47 refs/heads/spi-6.9
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWunHkACgkQJNaLcl1U
-h9CKcgf/aWsRNdWOxGIRkdV8wMeW6JlEJoKTgpXHYkKFgS4nVoN1+dT4nBhxEpQH
-tRJS70AGWZ7ZBBzuouzi00RVXVi3P/YlPQTtgpb18eDLY5XNksTAT+/JbswraOVQ
-VJOw4e5kZmb/GkAFt9Aag9qzkY5w4rliVCOf2mKtZ5NNKbmrLhVUUVi4a6u1/dyQ
-qO9qu56ks+pihBdsbxGTGkrv0Ifh7OJGwq3f7pm698TEKNZaP7XMgp+wJRpHMbwl
-f4tRPnED5PoFmzOP1P9NLE47Q3zrCaZ8G2CfhoNOvklDzc5ZdQ0dMRObt5u8SjLr
-XGYMA+dZtMkcEwNNTnnT3aERk5Nukg==
-=rdKE
------END PGP SIGNATURE-----
-
---===============1655267384537793442==
+--===============1788781639976190998==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-17dc11a02d8d-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-ec9809cc9137-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1080,4 +1059,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============1655267384537793442==--
+--===============1788781639976190998==--
