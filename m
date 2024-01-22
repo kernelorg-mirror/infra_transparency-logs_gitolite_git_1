@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7004401097722383484=="
+Content-Type: multipart/mixed; boundary="===============1809617772266718254=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Mon, 22 Jan 2024 01:52:23 -0000
-Message-Id: <170588834347.26964.13813193929620494968@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 01:53:04 -0000
+Message-Id: <170588838483.27296.6002566991579649750@gitolite.kernel.org>
 
---===============7004401097722383484==
+--===============1809617772266718254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 18c376eca10d6609fa6a2842ed8eed06710f09af
-    new: 2e40521c9ba528ce74e312a3b914623e6ce7448c
-    log: revlist-18c376eca10d-2e40521c9ba5.txt
+  - ref: refs/heads/exynos-drm-next
+    old: 205e18c13545ab43cc4fe4930732b4feef551198
+    new: 009f0a64f9ccee9db9d758b883059e5c74bb7330
+    log: revlist-205e18c13545-009f0a64f9cc.txt
 
---===============7004401097722383484==
+--===============1809617772266718254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18c376eca10d-2e40521c9ba5.txt
+Content-Disposition: attachment; filename=revlist-205e18c13545-009f0a64f9cc.txt
 
 47bf0f83fc86df1bf42b385a91aadb910137c5c9 drm/amdkfd: Fix lock dependency warning
 17e74e11ac2b46e7514705ae7abfb93ac0e20bd6 drm/amd/display: To adjust dprefclk by down spread percentage
@@ -99,9 +99,5 @@ aa0901a9008eeb2710292aff94e615adf7884d5f drm/amdgpu: Enable GFXOFF for Compute o
 0a1123c7b9f17fb06cc51fb9ce2f880a512be408 Merge tag 'amd-drm-fixes-6.8-2024-01-18' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
 cacea81390fd8c8c85404e5eb2adeb83d87a912e nouveau/vmm: don't set addr on the fail path to avoid warning
 009f0a64f9ccee9db9d758b883059e5c74bb7330 Merge tag 'drm-xe-next-fixes-2024-01-16' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-next
-7f85df4469895585724107e08e202ff2ee22b11f dt-bindings: display: samsung,exynos-mixer: Fix 'regs' typo
-6fee47d3306253f59ad030be1e8a877b6d089566 drm/exynos: fix incorrect type issue
-ddfb24f30d3a9cf8eef81064718ad2d41bc3e899 drm/exynos: fix accidental on-stack copy of exynos_drm_plane
-2e40521c9ba528ce74e312a3b914623e6ce7448c drm/exynos: gsc: minor fix for loop iteration in gsc_runtime_resume
 
---===============7004401097722383484==--
+--===============1809617772266718254==--
