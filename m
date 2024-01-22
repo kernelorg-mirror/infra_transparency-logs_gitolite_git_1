@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3757390124075696359=="
+Content-Type: multipart/mixed; boundary="===============8264116221532597270=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 22 Jan 2024 19:50:30 -0000
-Message-Id: <170595303067.12868.5507282564366814556@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 19:51:36 -0000
+Message-Id: <170595309684.13337.7051714158433864264@gitolite.kernel.org>
 
---===============3757390124075696359==
+--===============8264116221532597270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: 2b6fad7a900d2a378b475e5c196c146fb71856be
     new: 610347effc2ecb5ededf5037e82240b151f883ab
     log: revlist-2b6fad7a900d-610347effc2e.txt
 
---===============3757390124075696359==
+--===============8264116221532597270==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a5e0ace04fbf56c1794b1a2fa7a93672753b3fc7 init: Kconfig: Disable -Wstringop-overf
 0f0d819aef6feb711dfd773ef906b9cbd02a2419 Merge tag 'xsa448-6.8-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 610347effc2ecb5ededf5037e82240b151f883ab Merge tag 'Wstringop-overflow-for-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
 
---===============3757390124075696359==--
+--===============8264116221532597270==--
