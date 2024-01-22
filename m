@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8749430997891212995=="
+Content-Type: multipart/mixed; boundary="===============3805139322840790234=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Mon, 22 Jan 2024 10:00:46 -0000
-Message-Id: <170591764616.7874.157551271195180613@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 10:00:53 -0000
+Message-Id: <170591765324.7978.15868015218923133644@gitolite.kernel.org>
 
---===============8749430997891212995==
+--===============3805139322840790234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt-bindings
+  - ref: refs/heads/next/qcom-pinctrl
     old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
     log: revlist-b85ea95d0864-6613476e225e.txt
 
---===============8749430997891212995==
+--===============3805139322840790234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1705917644 +0100
+pusher krzk@kernel.org 1705917651 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1705917643-16160e97c1aa62f1bddf46281f9ad3b17b914036
+nonce 1705917650-61b0c5d5fee9639de01c43d3c7a9df074b44108f
 
-b85ea95d086471afb4ad062012a4d73cd328fa86 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/next/dt-bindings
+b85ea95d086471afb4ad062012a4d73cd328fa86 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/next/qcom-pinctrl
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmWuPMwQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD15raD/9k4S/MAQuJkXCpsPeyrPU3zLO0Nwp41PZZ
-0GaElUpLmWPVkbXNmBk3+bMCFB+xDWe/LeiKw3laAkOHPw08t9ei0u5ZiQMKKkW3
-V6SqTrXiFBC+v1yjnYo6EQ0jOnsd9dF9iuOwUhj+RgpuPbs8eZKEAvSu7e92CL45
-VZStRnVK/DjN2pTkx84qpFoDBLn804vG7yCa/F5LW0EiqH+rh+JCnNwPX2d2Cwl3
-p1aYy3tyLDEHGicW8SxDj6NSmafRsjdjOze/ftm94kTaFRt/Yk4w0u6D/aos1mWE
-YcaEUEw6WVI7RmijxKms4ECF8376KWaXf09pRJiZ2PekyDrCHBRkp0rJR/HOQ6xX
-xWuFT566zYqf6g0Z+pzay6V+rts51D2qEeHbGVTOf7nsRGsfvdNPPD/+uoepESJh
-RLq4KzX1I4R4uPov/NZldbWyBwKiRHua0QVbOBn3H6cfB0BZAOhOxWNgneRTCvcI
-ePmV/kQrqDm507Hp1QiiZXoMEWoksOTu7rrVDLpAl9UrtNqt3x+uOy9nG+5X5P1P
-VxCmn7IzgZrtRxdnMkch3K1CQBhba1eVfe1IUl0ndskH8W/YYBvXoetCocTcszEr
-bFD41Qjs/tAtj1J8BlZP/UCkAqtmoZN/uSIGyo0cXpqv42t1uHWuXReP4oyg/uSP
-Mxh+l0c/og==
-=5WaH
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmWuPNMQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD10smD/4uyD2JLno84wISEaRmXM2fo8PQKEOjCOLZ
+jA9fzYIOeyhJVjZOaBXVYy7vgXUm1jeEyA5qY788QYwr7YQBjFnFL9vEuSotzmtV
+yeBCU5wBDXRhTfwv9Ps3Pi9brpx/2KMxCJ8NZF/F8qvL9wlKq+FlFn96PpBFnZ2s
+KSbYqBGoRlHG+yMsu4xqvSPok8rncx2YZWzDxW/TCcqrkmOBbns2hgiuxr8owVjk
+agL75+J76HlsN0IgSgLQDAxgL1H3USWyy/UV1d19k1tDnNJT8np+qCHUDi3RY2Ix
+xMWOh6g3m5famoPFe7M50GRqUevY0iwyG8BNrsQ2k7i3hziQyzXaEn0c+e9rq2so
+rt5wXhJ1WCWAC2DG9ztIOtwi/dPgVsyuV6RCe34HstT9jmMCM5CC83vOmi51XPIZ
+j8ancxcaf417ze1EKU2hcoaKUKxrNrtepSEdGgtkQHFKBv5MtiE5QHlP7j6hCTsg
+taDKe+VE8ijm7bVzCUWapwuxgTihwNV/S9gHwVEf2v/BspM7MzLtG+UdfepzTal5
+s6ISlmdi7k6BFTuCXuKYiQCBwi3XGgF26IQJyCq/5MS3IoYfx4ljkvdxH8bP5TfR
+dPiYT7f7aAr8CSbcRaRu4zl6jJXs7oB7SE3SRSnokifcdF7dqyyyaCtCPdCLjJXo
+XX+l234ipg==
+=jVPI
 -----END PGP SIGNATURE-----
 
---===============8749430997891212995==
+--===============3805139322840790234==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============8749430997891212995==--
+--===============3805139322840790234==--
