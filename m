@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8882931536056795486=="
+Content-Type: multipart/mixed; boundary="===============9183894021135485489=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 22 Jan 2024 00:21:34 -0000
-Message-Id: <170588289418.19891.3660733644568069425@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 00:21:55 -0000
+Message-Id: <170588291501.20097.9724961149486055916@gitolite.kernel.org>
 
---===============8882931536056795486==
+--===============9183894021135485489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/kselftest-clone3-set-tid
-    old: 37ed266184ddc38ee997a405f936b660941c3927
-    new: 6c70cca572e52df29083121a2392a5b17d36f598
-    log: revlist-37ed266184dd-6c70cca572e5.txt
+  - ref: refs/heads/kselftest-seccomp-benchmark-ktap
+    old: bb94019905757de0ddac22e897b7648b55aeef8e
+    new: b1420c8af55da698e3391679ebe562f47266a3c3
+    log: revlist-bb9401990575-b1420c8af55d.txt
 
---===============8882931536056795486==
+--===============9183894021135485489==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-37ed266184dd-6c70cca572e5.txt
+Content-Disposition: attachment; filename=revlist-bb9401990575-b1420c8af55d.txt
 
-6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
@@ -1048,7 +1047,8 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-c9a2093f18f5695b526a4d1e4a1e467fe6e95d57 EDITME: cover title for kselftest-clone3-set-tid
-6c70cca572e52df29083121a2392a5b17d36f598 kselftest/clone3: Make test names for set_tid test stable
+bc656c4caf78cf3bf57ee59103a1cdaafd35f997 kselftest/seccomp: Convert to KTAP output
+418e45e3700dc12080fdb168595e2aeb142b54a4 kselftest/seccomp: Use kselftest output functions for benchmark
+b1420c8af55da698e3391679ebe562f47266a3c3 kselftest/seccomp: Report each expectation we assert as a KTAP test
 
---===============8882931536056795486==--
+--===============9183894021135485489==--
