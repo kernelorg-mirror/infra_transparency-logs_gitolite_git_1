@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2100786518167430150=="
+Content-Type: multipart/mixed; boundary="===============3294603801009655606=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 22 Jan 2024 13:53:26 -0000
-Message-Id: <170593160625.21679.8677882966443150060@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 13:53:31 -0000
+Message-Id: <170593161130.21806.10211629650038441551@gitolite.kernel.org>
 
---===============2100786518167430150==
+--===============3294603801009655606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 7a396820222d6d4c02057f41658b162bdcdadd0e
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
     log: revlist-7a396820222d-6613476e225e.txt
 
---===============2100786518167430150==
+--===============3294603801009655606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705931605 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705931610 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1705931605-06f0e034c8b28981a88fb006a448e61457d58fd6
+nonce 1705931610-916b26c68936037eee12301776f7138ed92abc01
 
-7a396820222d6d4c02057f41658b162bdcdadd0e 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/driver-core-next
+7a396820222d6d4c02057f41658b162bdcdadd0e 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWuc1UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DYcP/iP2CpkYufJCj2bJ7qdW
-F473HX1mnxnD35/rRn/UuX8GScuQ9nWRHTqpoJg2tvFvDhhLIDeHmiHrScyOQQAL
-4wRtgnHx8kmvVjOgFQIg9NFqLQIRSMwBDE8jNL2w9UCHau7YQJ8/z2mG8kdq0V11
-/sDbOwCCOo3bGJXKopdY1wCW6Ik2VD6f3zUtkUhoX6gJenETr1TEoanWvBZJ/dZ0
-tjTcXrDNxlKxfb/v9ASCA4JWV9ghMeLO4Nic357Wjc4yUrIG/B6TQA5xmtOy+hKa
-TrLDR5e7LtFzrHAXZFqFt2knDlVbopJGcsfDmXvJaq55l3VaD7rSb7Q1nk8KuA9t
-zqYKbfdfhBXVkiFCTFwvcRpWl44aKIQymkMMgiA+ecd0jjde3Z78KD1wn26QeE0B
-RIjCHqsfPrUTxaIf3q51tLmwuikVTYZfHDb8FDr3uxyEnfxwVxswpKQub7i+5hAN
-jZg+qSAfEr/J7ELorhgEKvhFstCCNdg+RFP0m6l9IdHUCPh0MN+BjhxQWye7Q6jd
-3z61KtGnB9MSQWDK0YwTXr52Q1wf3L1Pa82vkSbh1RwZRRO+MgTA+88PuW+cMiCj
-Ir1s4rSxj5jpp89J45xJEeWgreYLv05Ug2K8bk0QIIjXQlfSvlgvSf5WyFasQY/a
-VdGXuyAxgrqAhipF/Wg0nIsN
-=8hFQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWuc1obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n8MP/2kOzrEdas9LHJS1DeK8
+VVT48B49PPWaognmUpQgAlLBVvOUpIsBaF1BDvqIxoVWgmCIqk0xbKVttRqvnGvP
+ZJLHhch0aubHadD/Bvodtt5QOA4BLl5Gw2kM5F0Tw82w769my/CNnQ/kueRtFvla
+3fr6gjWRymb/YJ3HjipeEl91i+ktEaaAKlqOvx6WPifOvLnuLtzIh3qAcf+ajd9s
+Wkad0ifSHVWZQTAlL4rFucr6/TPyd2K3u4uQxmA+mL5jQW3F0hpLRbGMYoH83k4+
+bujJh5UIcXP0tfnkDfBoi9UcIZdDIcmnXRuIi6RA9ypafJ66EM5SA8Z90Q3G+eb5
+9EbpD/Ujuu3tx4Q5BjKp7YUww/25PC3Vj9RrBt0uvNFg/wfwlsu6G0kh4iut8JAx
+vc9P8X+7TE6fzYzhRoREgVGJRra1tdUbbO9HjIbb4JoANNJzbUjpolj7N+5pXh0P
+BC5Nob/4AOTBNHO646Kt9lrL5GDoz+PXP9+Jit7UgzmbVN62fGEnM0kPGzmlSSr8
+r7UNpCDJrKHl23sv6Ljd0yyhIZ43QUNd3n1dhCXA+51OUyYBs0RDWLonW632y/rW
+BYdbeECYlToiJdiXFsVSTXSGog5DXynTpgGtEUxM3HZHzFcuXgOxKZOmPaiSOB8n
+OXFVsa1JTcSQlOf/IPMXUXxa
+=Ulol
 -----END PGP SIGNATURE-----
 
---===============2100786518167430150==
+--===============3294603801009655606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -119,4 +119,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============2100786518167430150==--
+--===============3294603801009655606==--
