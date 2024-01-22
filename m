@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2434725154412048416=="
+Content-Type: multipart/mixed; boundary="===============0458443929806778796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 22 Jan 2024 13:54:14 -0000
-Message-Id: <170593165443.22366.6675479512686696174@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 13:54:19 -0000
+Message-Id: <170593165994.22445.17554147514977561219@gitolite.kernel.org>
 
---===============2434725154412048416==
+--===============0458443929806778796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: 7a396820222d6d4c02057f41658b162bdcdadd0e
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
     log: revlist-7a396820222d-6613476e225e.txt
 
---===============2434725154412048416==
+--===============0458443929806778796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705931653 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705931659 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1705931653-6e01b17d9d3f804588db66889e3c5f061a012f5a
+nonce 1705931659-feeb7ca1f16c9de2b7e7a7ba6faef30ac1642a5b
 
-7a396820222d6d4c02057f41658b162bdcdadd0e 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/staging-next
+7a396820222d6d4c02057f41658b162bdcdadd0e 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWuc4UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NqcQAMw35TE8ilcYmxxWXZBg
-CMBSU3ArHAhRbNDhhbyWwY/963T523xwku0IwoMjWQXGjz5G9Rfj2/Csh1kpN8nI
-M/W58dA0m9TObIHAobEKlkuMfQ44DawnrXds+DM8YRVYk8dyZbZc8Di9Pw1USjtC
-WvuGWyJyBqzhbGuEab9Xvx2lSKJnVOag2Y11yXq7Ued6ESiXN74a9kgX6ztT2Lhf
-BxayZD2LYAkGzZBdxzR1R7wsqYm7OSJ0XJ253WB4SiAUXZ8XKDl4PDk2cOGP83Ir
-CgavSsmnXv8C5oZsOjfufr4GTPVBQznTo7zViBZ/xUAHt9oE0hnoIVlE9RiB+3/x
-SJxgkMPFRMAR7KGKNGvg2+drW7MD+4gFkHZa1galId6Osvk4I/atNacPMdCjjlzN
-Pi8Jryhyqrd8uGV+9UvxlGXPfWW92MJRX2fi5gztipbvhMCyCj+mjux8HznHBRfV
-eq1/RIfvmuOqe37S54Np2z7ydR/k38G9oHhoyz+wvf/cmFAeQNcimJ3dAWNtySAN
-5HL76mzssHfroZKAe7u0MAXXfwJoOiBVHtvvyJrEFDp/t/UIBipydxcp0z7qw5jB
-nI5fKvl1NcgCfR7K60it0ehvP0rZUpSA0hBkEYdl+Lzxx020jDe7hA4rgMk0WSvO
-Fgr5jPxv9+aQe38BNmbRueYx
-=mOxD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWuc4sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K5oP/jlQpELH/UwmIJGR8+Wb
+W/yKydcVO9uv592wzGabUcS1DTDRBokp7uTKZL4mEAWbnht/m9N5ocAQt3R5bPkR
+Uk5WAGPajW9pN2xh6tm2vM9ZAabfDwB4lpjeSodDqhFHRXoyzIzzyq/bS0I2/tfh
+IINXaYCQcwSVph6hjaj12N/ft0+4CpF6kERGxZJ/YzuzMoaYdpP1st82TOcctZAb
+VFv+3AeAif1wkHKNXZsXwlhek8YHgOVdCHaQ8JiG6CjmB/t49xaKEeXw0c6v2XMK
+k5duIzDJGJ9GALuDo17A5tcxljajTVKSa4YSleRfbVWqx87kX6lbPeaTntvloRkR
+SyfGoh2t/B1TId4fHyqB8oDgMSgTlqfvstHnD+/VdfmPXS/LpFMw+Kn601l5Euw5
+49EnJav91zo9QW2N5uK13wz6XxhLswxu4tZ8/xVk2zGL7Bx33i/c1uD5cmbCGgaA
+qUxtcHJ9v2Rx2aiMdo1CSOoP0bvymuM1hhiqMs/8Tlou1Ct7yD0ooggQgAsrd2sb
+PSin6av1OmSPm1E+mTrAtdblcojmEy5+bxINc9yeiyPX1qNIbkaVA1yt26oBmzxr
+xt7+cL5P0WHadCgq8gvDLUJfTcPNV/9MkufbH557Z+F0nOSqTQooxQq5+y2cHsHu
+FyCHIwQ8vi7TtIf4F9l3isgb
+=0pso
 -----END PGP SIGNATURE-----
 
---===============2434725154412048416==
+--===============0458443929806778796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -119,4 +119,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============2434725154412048416==--
+--===============0458443929806778796==--
