@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3378799195740176669=="
+Content-Type: multipart/mixed; boundary="===============3358398332511668990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 22 Jan 2024 20:43:21 -0000
-Message-Id: <170595620132.23212.257428353951355202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 22 Jan 2024 20:43:31 -0000
+Message-Id: <170595621149.23368.5177338445233596246@gitolite.kernel.org>
 
---===============3378799195740176669==
+--===============3358398332511668990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.9
-    old: a6ffa02ba7a28fe1bba06eacb224554d89a1cd4d
-    new: 4c716711a5c5e89202facc9ca816bc89d4b8c745
+  - ref: refs/heads/for-6.9
+    old: 50c4f8172dbf9fdf152eae5179e233879a72dd47
+    new: 460efee706c2b6a4daba62ec143fea29c2e7b358
     log: |
-         4c716711a5c5e89202facc9ca816bc89d4b8c745 regulator: fixed-helper: Save a few bytes of memory when registering a 'nfc_llc' engine
+         460efee706c2b6a4daba62ec143fea29c2e7b358 spi: s3c64xx: Extract FIFO depth calculation to a dedicated macro
          
 
---===============3378799195740176669==
+--===============3358398332511668990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1705956199 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1705956199-4adec7d5ea86329af2908caeabf93ef8fbe9e03b
+pusher C3F436CA30F5D8EB 1705956210 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1705956209-391f46c3141ea442ab353f87136471421333b29b
 
-a6ffa02ba7a28fe1bba06eacb224554d89a1cd4d 4c716711a5c5e89202facc9ca816bc89d4b8c745 refs/heads/regulator-6.9
+50c4f8172dbf9fdf152eae5179e233879a72dd47 460efee706c2b6a4daba62ec143fea29c2e7b358 refs/heads/for-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWu02cACgkQJNaLcl1U
-h9CPwAf+LmoCRtvBAt5nc4AV0eb9VQdgnp9aT4i1I9HGiVOVbtbDjhvn1ivynnrm
-NdxlRPLp3HJE7qmuV7disYbVCe5tBYjMEV5Im4Mv4HER1Yc2VPUdhCR/ERSsTVeb
-qMfkqhym5zsAolRQemYsf8qg2e0zbc39RqSGXqM4ecjT8aiP6QOXFnAsZQqcM3lS
-eXvITwWrf1E7e3dRKOGahsfcxMMqIyoZkrViA2Kx8kg8QtbRnM8tfArtpmnawbwn
-sxgmPjHSOUF+fFUOyRjRO9nY0gi1Z6dQ04zj+asEzy/LCur+FFeju0roeCidK9UP
-pKIscLlLbjUymhQhL/kY9DCirrUmcQ==
-=khs8
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWu03IACgkQJNaLcl1U
+h9BeqAf/UHekry9c8tcfLube3Yl6opCZlbcLC3zoZ+4wreNzio45cOvLfE0DUPZL
+twFph7d/H4Uh8SHAe+v4NFXRCJ9EHFzLSqz0EEGDXGwPJvn/MxKy9Bpg4onXrGN/
+jlGsBlDaZ0t0MvYdiSMMuhezjRPBsF1UUzVlgk1MUeIlldKbQlJjrxI1qb9188KQ
+W9asUOhICAEppsc0ExZ18vt2jntjzNScXqSbXL+QUm5BC99QacR5O6Z2l69l21Zh
+Ad1WQa77uCYIO+K60q9EA++PR61mx1U3F4c2Zfx7OSXxcE+SBGSkACFmEHFrQB5z
+sJzP7ZapvSN5CIYSN0B0bdB30YrFag==
+=JEYg
 -----END PGP SIGNATURE-----
 
---===============3378799195740176669==--
+--===============3358398332511668990==--
