@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1238214362373671823=="
+Content-Type: multipart/mixed; boundary="===============2055350391632866901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Mon, 22 Jan 2024 00:37:03 -0000
-Message-Id: <170588382359.31195.15554814873933331375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Mon, 22 Jan 2024 00:37:10 -0000
+Message-Id: <170588383007.31317.5235581198334264554@gitolite.kernel.org>
 
---===============1238214362373671823==
+--===============2055350391632866901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
     log: revlist-e5075d8ec564-6613476e225e.txt
 
---===============1238214362373671823==
+--===============2055350391632866901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -171,4 +171,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============1238214362373671823==--
+--===============2055350391632866901==--
