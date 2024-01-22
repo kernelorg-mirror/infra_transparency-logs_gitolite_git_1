@@ -1,21 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 22 Jan 2024 19:16:07 -0000
-Message-Id: <170595096793.16008.5531681379063082436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Mon, 22 Jan 2024 19:16:44 -0000
+Message-Id: <170595100473.16333.8335503487568136034@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/fixes
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
-    new: 6c8c9d6e1bce2871df58a85d2c0c545007c34f5f
+  - ref: refs/heads/master
+    old: d259f137461b9067ff46a10922e66a6e9fc38e12
+    new: ab30e1a93c07bab9374fac83fdde9bf5794da2af
     log: |
-         d53271c05965b4469c57a18c66585075df81c504 selftests/rseq: Do not skip !allowed_cpus for mm_cid
-         b5a8a6de69bc8b4d2192195dcc3ffc7ee377ed7d selftests/core: Fix build issue with CLOSE_RANGE_UNSHARE
-         6c8c9d6e1bce2871df58a85d2c0c545007c34f5f selftests/livepatch: fix and refactor new dmesg message code
+         698b43780ba2b0566c6940f0ebb65b14f2f99f5f Input: leds - set default-trigger for mute
+         ab30e1a93c07bab9374fac83fdde9bf5794da2af Input: 88pm80x_onkey - add SPDX and drop GPL boilerplate
+         
+  - ref: refs/heads/next
+    old: d259f137461b9067ff46a10922e66a6e9fc38e12
+    new: ab30e1a93c07bab9374fac83fdde9bf5794da2af
+    log: |
+         698b43780ba2b0566c6940f0ebb65b14f2f99f5f Input: leds - set default-trigger for mute
+         ab30e1a93c07bab9374fac83fdde9bf5794da2af Input: 88pm80x_onkey - add SPDX and drop GPL boilerplate
          
