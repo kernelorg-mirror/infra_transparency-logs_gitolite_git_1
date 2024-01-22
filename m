@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2545439554197892821=="
+Content-Type: multipart/mixed; boundary="===============7848473731063912006=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 22 Jan 2024 00:22:16 -0000
-Message-Id: <170588293623.20322.1827769932111772474@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 00:22:51 -0000
+Message-Id: <170588297158.20608.5059255266638827596@gitolite.kernel.org>
 
---===============2545439554197892821==
+--===============7848473731063912006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/kselftest-seccomp-benchmark-timeout
-    old: dad3bd6a2ee16b058fd35371c127cdeb39abc5ac
-    new: b9d8bfe7319ebb30369e67ebc02b9751bac561ec
-    log: revlist-dad3bd6a2ee1-b9d8bfe7319e.txt
+  - ref: refs/heads/kvm-arm64-nvhe-sve-trap
+    old: 7e725cfef4a97665746867edb9b77da4512f7370
+    new: 564549ed2af0237612aae1ab72ecbeec7b05f819
+    log: revlist-7e725cfef4a9-564549ed2af0.txt
 
---===============2545439554197892821==
+--===============7848473731063912006==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-dad3bd6a2ee1-b9d8bfe7319e.txt
+Content-Disposition: attachment; filename=revlist-7e725cfef4a9-564549ed2af0.txt
 
 6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1048,7 +1048,7 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-2c260ec4bc41c3ce97866557685e7ead8fe531d1 EDITME: cover title for b4/kselftest-seccomp-benchmark-timeout
-b9d8bfe7319ebb30369e67ebc02b9751bac561ec selftests/seccomp: Try to fit runtime of benchmark into timeout
+9ea93f1b9be581ef064e386dfbe8a39030fa00d3 EDITME: cover title for kvm-arm64-nvhe-sve-trap
+564549ed2af0237612aae1ab72ecbeec7b05f819 KVM: arm64: Document why we trap SVE access from the host in nVHE
 
---===============2545439554197892821==--
+--===============7848473731063912006==--
