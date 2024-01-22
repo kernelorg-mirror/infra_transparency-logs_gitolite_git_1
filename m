@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6132021711024623656=="
+Content-Type: multipart/mixed; boundary="===============5532192366879359347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 22 Jan 2024 22:29:27 -0000
-Message-Id: <170596256762.7013.14058368451202308033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 22 Jan 2024 22:29:45 -0000
+Message-Id: <170596258505.7269.1323251512309681784@gitolite.kernel.org>
 
---===============6132021711024623656==
+--===============5532192366879359347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/origin-master
     old: 6613476e225e090cc9aad49be7fa504e290dd33d
     new: 5d9248eed48054bf26b3d5ad3d7073a356a17d19
     log: revlist-6613476e225e-5d9248eed480.txt
 
---===============6132021711024623656==
+--===============5532192366879359347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ a5e0ace04fbf56c1794b1a2fa7a93672753b3fc7 init: Kconfig: Disable -Wstringop-overf
 610347effc2ecb5ededf5037e82240b151f883ab Merge tag 'Wstringop-overflow-for-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gustavoars/linux
 5d9248eed48054bf26b3d5ad3d7073a356a17d19 Merge tag 'for-6.8-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============6132021711024623656==--
+--===============5532192366879359347==--
