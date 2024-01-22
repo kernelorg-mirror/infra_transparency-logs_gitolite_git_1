@@ -1,31 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============7859431594909250281=="
+Content-Type: multipart/mixed; boundary="===============3302477435660563120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Mon, 22 Jan 2024 12:00:31 -0000
-Message-Id: <170592483134.2268.17775697542119800010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
+Date: Mon, 22 Jan 2024 12:01:05 -0000
+Message-Id: <170592486571.2571.9774527493630049645@gitolite.kernel.org>
 
---===============7859431594909250281==
+--===============3302477435660563120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/srini/slimbus
+user: srini
 changes:
-  - ref: refs/heads/for_next
-    old: 46ee834035ac224e4e1240532e27290981e4c7ad
-    new: 249f374eb9b6b969c64212dd860cc1439674c4a8
-    log: revlist-46ee834035ac-249f374eb9b6.txt
+  - ref: refs/heads/for-next
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
+    new: 6613476e225e090cc9aad49be7fa504e290dd33d
+    log: revlist-b85ea95d0864-6613476e225e.txt
 
---===============7859431594909250281==
+--===============3302477435660563120==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-46ee834035ac-249f374eb9b6.txt
+Content-Disposition: attachment; filename=revlist-b85ea95d0864-6613476e225e.txt
 
+4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
+1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
@@ -1047,8 +1050,5 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-c8238508c85e262d46e19e2ff039d9238d436321 quota: Replace BUG_ON in dqput()
-d44c576637238d2dafdd22dc856f0cb2a1553049 quota: Remove BUG_ON in dquot_load_quota_sb()
-249f374eb9b6b969c64212dd860cc1439674c4a8 quota: Remove BUG_ON from dqget()
 
---===============7859431594909250281==--
+--===============3302477435660563120==--
