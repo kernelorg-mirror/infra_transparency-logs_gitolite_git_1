@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3692075787155859772=="
+Content-Type: multipart/mixed; boundary="===============7295253756893931876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 22 Jan 2024 19:04:09 -0000
-Message-Id: <170595024965.4840.17397843474819897263@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 19:10:01 -0000
+Message-Id: <170595060183.10331.3442134712568059797@gitolite.kernel.org>
 
---===============3692075787155859772==
+--===============7295253756893931876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 880a9bf88de839892ad39ade20e8274ef09b9fb6
-    new: bf48cbb7f8f2a711717dd70a74b97af35620344d
+    old: bf48cbb7f8f2a711717dd70a74b97af35620344d
+    new: 1b0e35cd28ad683367923b91d8efa73eff86e1ef
     log: |
-         bf48cbb7f8f2a711717dd70a74b97af35620344d 6.1-stable patches
+         1b0e35cd28ad683367923b91d8efa73eff86e1ef drop usb-dwc3-gadget-handle-ep0-request-dequeuing-properly.patch from 5.10 5.15 and 6.1
          
 
---===============3692075787155859772==
+--===============7295253756893931876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705950248 -0800
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1705950601 -0800
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1705950240-46e821edf4b531ee0af4dc9cb9171bb2c1d5fd0a
+nonce 1705950599-962cc037281adc6601506a64f372b68c34304233
 
-880a9bf88de839892ad39ade20e8274ef09b9fb6 bf48cbb7f8f2a711717dd70a74b97af35620344d refs/heads/master
+bf48cbb7f8f2a711717dd70a74b97af35620344d 1b0e35cd28ad683367923b91d8efa73eff86e1ef refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWuvCgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3vkP/2EfgLFF6x1+YsFhRoOp
-jrHBJSWr1ktDvjqbwuJKwV/AqA3PaIFmNZZAEBQi94GsAbSJuerfKAZXdQg3db6D
-8gi13mUmNZTth8iC3PDQ/p0fnMKENYdPNvPa4d0myZpzg3E1T/1cxmoNEislFRsP
-We+0Bq620SQ6ZQXkyWMM7FlonktW6Ksnhtms9MlZDH3vQq0h7kxfSnk4QjmGkkY0
-jrXzmiQb35Abag7b70dzKZdJqz9g7S+6OGM7eWAo6ZOUZomvPMeFV2uLg5r25Wjw
-jV9UuwgxXznKUPyGXl8geyuFrYaxOwXcNryWssw/ZUcGDifegBJF2aYsh4m8bbBD
-BYyw+B1/aohZoUJpnyaQGlOXzkDOvJj9N74EZrb4yQ+gVnsV2V/HdTnC46wq+BrU
-STYNlrZ4zo6Nlot3xeZXdHWtM9IdeGMiesCf9fg7LIbBAuTqi1/j66PqU0OCBvYq
-OEfJtKhKaTXvDp+LYGuQhMjvQALepqyejaAF3jBJ0udVRK3J65U4mvGB0qRjpr0Y
-S2iCJ99lpvcJV0ZDfbP5Nrn5mSVnM2SYW/tXGUCEFIOpjWCjJUqv1V9RrHT6w0j2
-J+ffaLH595W3/RUhDNUE9sV/IjDFVHRLi3x4bD7JRvhubc5o3I/QkIYlJmwG4Yxf
-g8Ltbo9vkm2+l/eACzMVSG33
-=W/Xu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWuvYkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eusP/3fqP3fFHDADa8L4j3CD
+rxLvyDz/VtSJd/5uyA96BSjjQ52Il8q3z3IVbxz3H5nDF3dEHsS8nEvKXCJSVnU3
+KgCxD0N1K0mTGnxLa3Ut1QEDp4YXvB3vQz5l7me8Yd5e7iKDDP9mc5gYaiJBfM46
+fjWD0yeDBbnw6BT0RJHuLhAmFMZKirKDzFUFfzPugoLfiGCbFYnMafRRBasI8NHd
+wWSmAYh5dq3RN/BnbCwZvr989V6iGrJ2RWRPLJTbx1DiOsgcUYDGzGa2TswCZfSg
+RP9uw1E7qr/q1D58OrKsKGhiXAJaUoi2/sfKqXDUazho2Z7Lf83M8mbuY61nXC5F
+wHA/zV5HaTRz3bZAmUehRWv5pp7aKUH59i7iAuyRfcjcY/cxH5JNRt0r0J5BoKGA
+HEZulwN57XTkQ2PKexeHfBdb2m4YmoN7Pw/D/6E0UzEZG8MOlHxsDPW4Sd2gMco+
+WCxVloRdCrkSuF2z3b37urgx+ijs2e0637o0CtOp0z532Gfl35uGh0urPoJLikEo
+zQHk81PES3Ai+oH2UbLxrj+JLB0SsQeHm1pIJIg4WK93ldkDq83hwNFkaZl6O+U5
+1JwesE3pidXaZnec10WM4BOlAIbZA+qHtGCxHhMaOhcsz52yasoSSPjGqm5JWMe9
+VeTk5R8SCIcaHuMMIAUhuB3U
+=aKf3
 -----END PGP SIGNATURE-----
 
---===============3692075787155859772==--
+--===============7295253756893931876==--
