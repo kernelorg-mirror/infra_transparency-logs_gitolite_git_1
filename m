@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9061118262137743539=="
+Content-Type: multipart/mixed; boundary="===============8215219914833577457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 22 Jan 2024 11:17:40 -0000
-Message-Id: <170592226062.3004.13142118239397826194@gitolite.kernel.org>
+Date: Mon, 22 Jan 2024 11:18:24 -0000
+Message-Id: <170592230446.3339.13636648263132340371@gitolite.kernel.org>
 
---===============9061118262137743539==
+--===============8215219914833577457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
-    old: 0dd3ee31125508cd67f7e7172247f05b7fd1753a
+  - ref: refs/heads/next
+    old: 04b99eac389adc6485f7913d83ec9ed68bbc8326
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-0dd3ee311255-6613476e225e.txt
+    log: revlist-04b99eac389a-6613476e225e.txt
 
---===============9061118262137743539==
+--===============8215219914833577457==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0dd3ee311255-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-04b99eac389a-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============9061118262137743539==--
+--===============8215219914833577457==--
