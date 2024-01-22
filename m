@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3167571257745494687=="
+Content-Type: multipart/mixed; boundary="===============8218608993446720502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 22 Jan 2024 22:06:33 -0000
-Message-Id: <170596119349.22604.17199549559969717070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 22 Jan 2024 22:06:39 -0000
+Message-Id: <170596119992.22705.9618869175894774017@gitolite.kernel.org>
 
---===============3167571257745494687==
+--===============8218608993446720502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/spi-6.8
     old: 6613476e225e090cc9aad49be7fa504e290dd33d
     new: fbc7ee6cc16918ea64a963a4ee097699cc159a8d
     log: |
@@ -27,28 +27,28 @@ changes:
          fbc7ee6cc16918ea64a963a4ee097699cc159a8d spi: spi-imx: Use dev_err_probe for failed DMA channel requests
          
 
---===============3167571257745494687==
+--===============8218608993446720502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1705961192 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1705961191-6da64fc501bb60c9fe12d75a21c24c606673093c
+pusher C3F436CA30F5D8EB 1705961198 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1705961197-c67af5ad4db24595d0fca703f5d4582e83df4469
 
-6613476e225e090cc9aad49be7fa504e290dd33d fbc7ee6cc16918ea64a963a4ee097699cc159a8d refs/heads/for-6.8
+6613476e225e090cc9aad49be7fa504e290dd33d fbc7ee6cc16918ea64a963a4ee097699cc159a8d refs/heads/spi-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWu5ugACgkQJNaLcl1U
-h9DPrwf/aXgVf86bFlOINZBCMqYaPv/RU876HWd5FTVRLDxAK0vkilDAu67lwv+B
-DD5rr7ZvjOKIR+P0PrpU1wc6oh44Xy7TI4YhCuLEv3WiP52fvvTPssCh1GNMXHoy
-jznb7+U6+ofcPPBoKs6f5t7eW5UT3CtA7+hBmLV06h3St5uDHUmPoVxWCOgN0S6p
-Oaxc8WBrwMkoYxveicfydkn1laNQnTEyJKGtyKpst1YExOHjRfjZhlNCF73TnPYO
-7WX+6jfZGSCQpwONN8oD1Dau5Lv+kgayR9DUtfnsRz8ljR7828qTeJ+ZgAgPPTP1
-a4aEbZ55kkwSFBcTMZHxCsmPDEv8Cg==
-=L2V0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWu5u4ACgkQJNaLcl1U
+h9ACKgf7Bm8cNId1A1RLcVyR99hNRUEHxsQFIebra3P1LQqbuQNRonEfuct/rOl5
+rDrvXT1Zd+HeqLinRO9h8Z9s07PNcTZiC4tEjY5Aj8zuinwqro4nM4WxoRLW+wQ3
+Ysy0Ke639QwzRq9I3cYUKuBtKHjUyhoM/FBvuLX1Hi/VLNww2FMIZrfFBoi2wVtt
+xbHkrLgI4IqNVzdrK8wGKdjRcdnfpCib+cCrrWp0U472T0J4fD+eT9tdtXo/IErN
+xSzRS4v1dLpXxvB17Y2FlWTXOo4nabcZfV6kYN3FloyP/DW99kjUybto2VLeHLEr
+vkffbjpDrdwAUxhW4wzGeoeB60cQTg==
+=FE+T
 -----END PGP SIGNATURE-----
 
---===============3167571257745494687==--
+--===============8218608993446720502==--
