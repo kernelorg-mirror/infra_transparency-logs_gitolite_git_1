@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Tue, 23 Jan 2024 01:15:29 -0000
-Message-Id: <170597252987.7260.14921351302317916901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 23 Jan 2024 01:25:48 -0000
+Message-Id: <170597314833.15306.6292778974735791950@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/lookup-rcu-fix
-    old: 0000000000000000000000000000000000000000
-    new: acd2d246f4b26460d0499bc4e0042f63380e526b
+  - ref: refs/heads/master
+    old: acee25370b6cb28d16a5df4e42a1ef9852f411c1
+    new: a26562419e445381e2e2e436896f896fe7c49cd9
+    log: |
+         a26562419e445381e2e2e436896f896fe7c49cd9 foo
+         
