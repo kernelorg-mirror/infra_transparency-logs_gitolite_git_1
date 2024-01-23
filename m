@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7791072173782816599=="
+Content-Type: multipart/mixed; boundary="===============4719905506077094469=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 23 Jan 2024 01:31:28 -0000
-Message-Id: <170597348860.19306.7051671590932998420@gitolite.kernel.org>
+Date: Tue, 23 Jan 2024 01:31:45 -0000
+Message-Id: <170597350506.19473.9525778495722525776@gitolite.kernel.org>
 
---===============7791072173782816599==
+--===============4719905506077094469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,55 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 04c116e2bdfc3969f9819d2cebfdf678353c354c
-    new: 52998cdd8d3438df9a77c858a827b8932da1bb28
-    log: revlist-04c116e2bdfc-52998cdd8d34.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: f968180b02a538d6fbbb4c822f06db34d834c2f4
+    new: c4450adad4691863671843ad5bb63978e023bca5
+    log: revlist-f968180b02a5-c4450adad469.txt
 
---===============7791072173782816599==
+--===============4719905506077094469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1705973487 -0500
+pusher 75C5DE3D 1705973492 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1705973485-48978cbb93a2bc83ce4b7ff80f93ffa99df103a5
+nonce 1705973492-b9752aa3f39179dbf444197bfa2b5d493aa76b2a
 
-04c116e2bdfc3969f9819d2cebfdf678353c354c 52998cdd8d3438df9a77c858a827b8932da1bb28 refs/heads/fixes
+f968180b02a538d6fbbb4c822f06db34d834c2f4 c4450adad4691863671843ad5bb63978e023bca5 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWvFu8ACgkQ7ulgGnXF
-3j2rzw/+L1LU5vkin6cd3CvPH0YBiR7PqngQdeeX5LX4D7SnxJ7Ne7OfA6hDYlVf
-MqXlEnn687Lsf+rM9yrqo7pK99j4jWLt8zV9Y5IOnmENQ7rHEHtmuLDJgcw3V12Z
-qEfjmOcv85ZftKPy9QdyTMbD09LH8RHwk0+DakxpipgwWjp/RCT9PVYGgBpZSU0W
-8HlaqMWslQvRzedIFo0eSC+HKYvoVeWIx9xfFPbZyPeZe5eeEay8ALiGTwbwzlDV
-qa9CeNVXb2JdnosEfmrriw5z3XiReKIL/H/maCMqaN3pMymdYpmhwJRpWZF+AEN2
-61Bt1mtBG7P6zlRw5/ssHAFmXAuluyVS7fQ1KTPVlUT62agLgMySJdKBqofxFplK
-Oo7gSJf4BQcWgZ+jE1qW6NQJ5efeuzItIOxwTHlS4v071eEJXTpay8yWupZWn3nt
-MKraZn7AoAuDS2REXqsmmeOYE4osDKpGPlgJeKQ0eP/TGoQAYJ3NnopjrabTAJLO
-tZ/7e5S7n/HyO5sJvnWYcONuDhM6SR6i2a9GjmFDdtmed1jO982uDnyhRY8mji27
-6tucdysQ68OFJKVownSiFImniRP1pwn8DfxcxJH6NxgI24dBK87JyXFef1fJnogr
-hk7iwacm0aDgE8BIoqxFjFrcBwSh7v10AghfjTdKKQDzZIP8AKk=
-=BiZr
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWvFvQACgkQ7ulgGnXF
+3j22Yg/9ERR/ZOkyXkw4Gf7DawJQpY7IhT0k6I0sQvPVCsawT6hn6jgwD/1ATbCB
+N/2PiIt3jUOHyFFA7BUkmjzv/NrBOMX2yvVbRyez8YQFRFB6EIOoXvQi2PX5eqNS
+jqB1LU4NxJbe96FRkBAtf/xg9IePiCk4RRM9B2j87XMmee69OupQ/5uhmUA7ccMt
+cLylVOS0ZMBap4qvI/r/BIbbPCKx1NVqvZu3hgajO0Llq8qllCTI5rs6Kr8kKP+0
+40kpRIIir/En/LJF6LtjyM0G5D2DqbJ+L93GtTPtOXDKQsVcYCh9Ji5RjO6oqotV
+++Ch7/IvlHy1BgzCMtEBNTm7kpdmNX0bCoY3OJCddr1DXKEg5uKB/8xie+VPYpvZ
+1RYwerfcPqCzBU9KRtalI2Bj8RTPtj/40Hg836pqdGyBrJDo9ay89bFjugIN3QHu
+DOR9fYy5gERSdFzojzNJ08Xj1gRdEMOJnkLjVOkI2JJq6UYqdkYwxtvF7dR8kJgU
+wwALmtZ+IXgva6xOKGC0/tQRQFRPKNMRdxukAH2LwIutojha1GGtHSZYAVJzhgiA
+5yV1uOIn2zB5BFdHYI9O+rk6+nv9+QjF84O6NmTNkRLg7QT5BIzZD1iVGsT4oxzU
+v1x4WyqX7RQLBK8wnwTRxIqi/SOYk9nwCjmxW30XF3Lhx+frEuc=
+=OouR
 -----END PGP SIGNATURE-----
 
---===============7791072173782816599==
+--===============4719905506077094469==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-04c116e2bdfc-52998cdd8d34.txt
+Content-Disposition: attachment; filename=revlist-f968180b02a5-c4450adad469.txt
 
+333b217c151c0d2de5fc0bf5dafb71110c80cd90 Merge branch 'for-6.8/sensor-hub' into for-linus
+53eb9356388169df4d805ba1fe14d5c7369bcf69 Merge branch 'for-6.8/steam' into for-linus
+0b43615af19742e1f4f71d332e72381430804804 Merge branch 'for-6.8/wacom' into for-linus
+d988c9f511af71a3445b6a4f3a2c67208ff8e480 MAINTAINERS: Add Namhyung as tools/perf/ co-maintainer
+4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
+1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
 fd37721803c6e73619108f76ad2e12a9aa5fafaf mm, treewide: introduce NR_PAGE_ORDERS
 5e0a760b44417f7cadd79de2204d6247109558a0 mm, treewide: rename MAX_ORDER to MAX_PAGE_ORDER
@@ -436,10 +445,6 @@ e3fe8d28c67bf6c291e920c6d04fa22afa14e6e4 virtio_net: Fix "‘%d’ directive wri
 64e47d8afb5ca533b27efc006405e5bcae2c4a7b net: ethernet: ti: am65-cpsw: Fix max mtu to fit ethernet frames
 66cee759ffa3d1146a22182c3d5a6404c7cfe9fd Merge branch 'net-ethernet-ti-am65-cpsw-allow-for-mtu-values'
 bec161add35b478a7746bf58bcdea6faa19129ef amt: do not use overwrapped cb area
-567a1e852e872e702b18d271a3dbce2a75efbaff scsi: fcoe: Fix unsigned comparison with zero in store_ctlr_mode()
-38945c2b006b23a1a7a0c88d76e3294c6199891c scsi: fnic: unlock on error path in fnic_queuecommand()
-6df0e077d76bd144c533b61d6182676aae6b0a85 scsi: core: Kick the requeue list after inserting when flushing
-83ab68168a3d990d5ff39ab030ad5754cbbccb25 scsi: target: core: Add TMF to tmr_list handling
 a03cd7602a090eae277d2b79d43925661e7fbe9a xtensa: don't produce FDPIC output with fdpic toolchain
 5b9b41617bf3e1282cc60f07d3d52e62399aa4ba Merge tag 'docs-6.8' of git://git.lwn.net/linux
 2f444347a8d6b03b4e6a9aeff13d67b8cbbe08ce Merge tag 'pull-minix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
@@ -792,12 +797,8 @@ eebe75827b73b0a61e84acd2033ce304a3166d70 Merge tag 'fscrypt-for-linus' of git://
 284a4ddeed35091a356fb8274d91d2dded62136c Merge tag 'microblaze-v6.8' of git://git.monstr.eu/linux-2.6-microblaze
 c4c6044d35f06a93115e691e79436839962c203e Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
 47ce834fbb6ce6cb9e802f651b647b8030c5fc7f Merge tag 'xtensa-20240117' of https://github.com/jcmvbkbc/linux-xtensa
-658365c6b0857e6a306436e315a8633937e3af42 scsi: isci: Fix an error code problem in isci_io_request_build()
 bce3b5d6764b1e8cd8e24f4ced54ec0c42a64c32 Merge tag 'parisc-for-6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-d6b75ba5218915be48542bcd7e2a09776b7c66c9 scsi: virtio_scsi: Remove duplicate check if queue is broken
-e6f3799de2f2b2cd23c3894a127921dfb6c6a512 scsi: initio: Remove redundant variable 'rb'
 1b1934dbbdcf9aa2d507932ff488cec47999cf3f Merge tag 'docs-6.8-2' of git://git.lwn.net/linux
-7d1ae55ffed0ff78ed33b1465c1233e05024e135 scsi: MAINTAINERS: Update ibmvscsi_tgt maintainer
 09d1c6a80f2cf94c6e70be919203473d4ab8e26c Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 49e60333d743ae32db3bdde2f93bc818482dd741 blk-mq: Remove the hctx 'run' debugfs attribute
 82fd5ee9d8a516d47a17e8c99c2712a3fd937014 Merge tag 'for-linus-6.8-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
@@ -1079,6 +1080,5 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-52998cdd8d3438df9a77c858a827b8932da1bb28 Merge branch '6.8/scsi-staging' into 6.8/scsi-fixes
 
---===============7791072173782816599==--
+--===============4719905506077094469==--
