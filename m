@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4545667707615373130=="
+Content-Type: multipart/mixed; boundary="===============5500811185000870788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 23 Jan 2024 01:38:08 -0000
-Message-Id: <170597388859.25099.14649754080793451224@gitolite.kernel.org>
+Date: Tue, 23 Jan 2024 01:38:27 -0000
+Message-Id: <170597390707.25271.8308104839167126701@gitolite.kernel.org>
 
---===============4545667707615373130==
+--===============5500811185000870788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rpmsg-next
-    old: d5362c37e1f8a40096452fc201c30e705750e687
-    new: acc48fee5e740d787edca168100b5284cae30c7b
-    log: revlist-d5362c37e1f8-acc48fee5e74.txt
+  - ref: refs/heads/rproc-next
+    old: 300ed425dfa99f6926299ec196a1eedf05f47b21
+    new: b327c72753d6a78de37aed6c35756f2ef62897ee
+    log: revlist-300ed425dfa9-b327c72753d6.txt
 
---===============4545667707615373130==
+--===============5500811185000870788==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d5362c37e1f8-acc48fee5e74.txt
+Content-Disposition: attachment; filename=revlist-300ed425dfa9-b327c72753d6.txt
 
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1049,6 +1049,6 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-acc48fee5e740d787edca168100b5284cae30c7b rpmsg: Remove usage of the deprecated ida_simple_xx() API
+b327c72753d6a78de37aed6c35756f2ef62897ee remoteproc: virtio: Fix wdg cannot recovery remote processor
 
---===============4545667707615373130==--
+--===============5500811185000870788==--
