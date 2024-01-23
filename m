@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4267482138356410516=="
+Content-Type: multipart/mixed; boundary="===============3092772627910633225=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Tue, 23 Jan 2024 01:13:40 -0000
-Message-Id: <170597242061.4680.9657056837593244031@gitolite.kernel.org>
+Date: Tue, 23 Jan 2024 01:14:24 -0000
+Message-Id: <170597246494.5045.1854312131882182848@gitolite.kernel.org>
 
---===============4267482138356410516==
+--===============3092772627910633225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
 user: agruen
 changes:
-  - ref: refs/heads/lookup-rcu-fix
+  - ref: refs/heads/for-next
     old: 55d695cad2f602be7e8cbaca57a803a9a030df9e
     new: acd2d246f4b26460d0499bc4e0042f63380e526b
     log: revlist-55d695cad2f6-acd2d246f4b2.txt
 
---===============4267482138356410516==
+--===============3092772627910633225==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ add350d5501e99ef7229d08e47f2790d578ead1d gfs2: Pass FGP flags to gfs2_meta_{,ino
 949eda30775ddda2704ad72c999e6d4112957fb3 gfs2: Minor gfs2_drevalidate cleanup
 acd2d246f4b26460d0499bc4e0042f63380e526b gfs2: Fix LOOKUP_RCU support in gfs2_drevalidate
 
---===============4267482138356410516==--
+--===============3092772627910633225==--
