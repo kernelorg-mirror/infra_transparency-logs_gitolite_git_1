@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 23 Jan 2024 22:34:52 -0000
-Message-Id: <170604929222.17249.13007755837412198529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 23 Jan 2024 22:36:10 -0000
+Message-Id: <170604937057.19331.8412371674819000418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 63342497bec87b72d4b415c8bed930c15ff83b0d
-    new: bc576ca398661b266d3e4a4f5db3a9cf7f33fe62
-    log: |
-         bc576ca398661b266d3e4a4f5db3a9cf7f33fe62 test/fd-install: check that passing in any creds will fail
-         
+  - ref: refs/tags/ipvs-fixes-for-v3.16
+    old: ceecbbaaf86cdb8f85b5a031aa80442b11c34c2f
+    new: 0000000000000000000000000000000000000000
