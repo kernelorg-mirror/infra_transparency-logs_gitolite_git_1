@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 23 Jan 2024 10:19:50 -0000
-Message-Id: <170600519007.25724.11518377338608011545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 23 Jan 2024 10:20:22 -0000
+Message-Id: <170600522265.27592.8758736609421153698@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/master
-    old: be7a2d9e6d626e8ee8b936e5330e4ce87e66b21d
-    new: cd9c4cac3d7c7969c6ca7f063cef42e862ce98a7
+  - ref: refs/heads/for-next
+    old: babc330ef109ee4229947fe57b721761ef647c7f
+    new: daa91de36d42eefa7bc27c26a46e23d6ca0f346a
     log: |
-         cd9c4cac3d7c7969c6ca7f063cef42e862ce98a7 lscpu: cure empty output of lscpu -b/-p
+         92aec2026dece012dc88c604fa97d727771a3fc0 HID: nintendo: Remove some unused functions
+         daa91de36d42eefa7bc27c26a46e23d6ca0f346a Merge branch 'for-6.9/nintendo' into for-next
          
+  - ref: refs/heads/for-6.9/nintendo
+    old: 0000000000000000000000000000000000000000
+    new: 92aec2026dece012dc88c604fa97d727771a3fc0
