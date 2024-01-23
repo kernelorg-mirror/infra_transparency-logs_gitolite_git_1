@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 23 Jan 2024 09:49:33 -0000
-Message-Id: <170600337397.3449.558472455695247586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
+Date: Tue, 23 Jan 2024 09:52:04 -0000
+Message-Id: <170600352414.5990.6690002559486464395@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/overlayfs/vfs
+user: amir73il
 changes:
-  - ref: refs/heads/main
-    old: 7267e8dcad6b2f9fce05a6a06335d7040acbc2b6
-    new: 97de5a15edf2d22184f5ff588656030bbb7fa358
+  - ref: refs/heads/ovl-fixes
+    old: 3db8a7f05447fb1d02241f6384c3de34e46e450f
+    new: 6ed5f57dd198b92bead57f732f39e257deab0e41
     log: |
-         97de5a15edf2d22184f5ff588656030bbb7fa358 selftest: Don't reuse port for SO_INCOMING_CPU test.
+         6ed5f57dd198b92bead57f732f39e257deab0e41 ovl: mark xwhiteouts directory with overlay.opaque='x'
          
