@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 23 Jan 2024 23:13:52 -0000
-Message-Id: <170605163284.21887.12956669211474791851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 23 Jan 2024 23:15:19 -0000
+Message-Id: <170605171902.24603.15619714275673247779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/tags/vfio-v6.6-rc4
-    old: ba3d41f03055d44cbe829751fa2a451bed7f4d43
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: c80c6434aaccc689b2c7ff432d43abad8f4217b2
+    new: bc308d011ab8cc61bf1be15a2920bcd7d7b9b9d3
+    log: |
+         bc308d011ab8cc61bf1be15a2920bcd7d7b9b9d3 libbpf: call dup2() syscall directly
+         
