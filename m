@@ -1,57 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============7178235922337267965=="
+Content-Type: multipart/mixed; boundary="===============3644826001413347374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 23 Jan 2024 18:27:49 -0000
-Message-Id: <170603446984.29664.1206513261442294213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 23 Jan 2024 18:29:25 -0000
+Message-Id: <170603456565.30292.13442721736456174355@gitolite.kernel.org>
 
---===============7178235922337267965==
+--===============3644826001413347374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
+repo: pub/scm/utils/b4/b4
+user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 5cd071799f3c52169cc5d16f2cc440771f50e3e6
-    new: 9328e6d0359e4fc1a1ecac2fb2805a29cf5e1af7
+    old: f0463198e476b04df470f2170d5d3f2fce5eefa0
+    new: c3bdb04772565ccd2a20ddd990f5f1c2b4dc77ed
     log: |
-         4471c428c383fd8bacb35d8f2a4d1f8f2526ee5f cves: moved allocated to reserved, wrong state
-         9328e6d0359e4fc1a1ecac2fb2805a29cf5e1af7 cve/CVE_JSON_5.0_schema.json: add the json scheme we must follow for CVE entries
+         c3bdb04772565ccd2a20ddd990f5f1c2b4dc77ed Add typing hints where still missing
          
 
---===============7178235922337267965==
+--===============3644826001413347374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1706034466 -0800
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1706034465-848f4e1f9d5834af50bbb586a347ee68b960fd33
+pusher B6C41CE35664996C! 1706034563 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1706034563-65e4d83fad4b03e7767dec31f2b34cbb1a9b6482
 
-5cd071799f3c52169cc5d16f2cc440771f50e3e6 9328e6d0359e4fc1a1ecac2fb2805a29cf5e1af7 refs/heads/master
+f0463198e476b04df470f2170d5d3f2fce5eefa0 c3bdb04772565ccd2a20ddd990f5f1c2b4dc77ed refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmWwBSIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J9oP/3y3HJZPO95ZRpiI0CFf
-IzV7WDAKO6gWaf9q2nxkxzpYhAWk5kRluuaHhWrx8cRuyiuQhLwFr2rC2d3bozYa
-efhf068Js3I7ZEkmeLsTMTd4wb1tsLQqn051oFqGlSrm5mr0qpIWDka94RgA8odG
-mDN5Xi+MH/e4Vn4aCmQ5HTG6WtM7/hUlDhDLvW7dboyXSxEREreHw4wYqmYbuSqG
-KWpkP6AbUkSrGT2wJCUWYb4BDnsjitozyRm5s8kavTnEsBk+IQBnRpD/H49+lyKP
-div/rLRdXxAvaNzgSMXZYGk4z4YgKawOUtRFYmKvqzgIIjlRxpthZpYlYm9WHKk3
-R1F6CsiUpzxgd8w3SvRy/FitLZRW0ndlAppwd2wkq9l6RDhVQuAi9iqWUAzY0ItH
-48Px0QxQQDVOqnZxwPXvpak856ahvNYeqHPLXJ3Yec+P+896epOW2Ftr0Ep1aVnt
-pOT4+jIkJTz6TwXgLsylyg2zs/c4r5C5dGMcgHGCIEoXtZNuISso6XeT99BUJABo
-B7WVpWc7pTcPnomWFBFd5AKHbsQKw6xwJxSA7cIbmNjDafeVFgTC5V5dpPthIEv3
-d8iDYR3l+giQHPWlQFbdxZGyKWtqcMbJTpa/JVkVZm7kYfCnU2U1PgO3yuGysT5P
-cB5RMMG8shzbD/N3ec6ryyiv
-=F0qF
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZbAFgwAKCRC2xBzjVmSZ
+bKFkAP0VKA3ZPj3RBLcZBGHcewm7IiA6xcEk/rLewjNAF+saBgEA0pw9BvohelKE
+nBTBThXY/c+JBzB7nR9CXxx7Zjq9Igo=
+=Uuwm
 -----END PGP SIGNATURE-----
 
---===============7178235922337267965==--
+--===============3644826001413347374==--
