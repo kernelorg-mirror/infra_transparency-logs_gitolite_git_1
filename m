@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
-Date: Tue, 23 Jan 2024 20:34:54 -0000
-Message-Id: <170604209477.24533.17697131852289743422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Tue, 23 Jan 2024 20:46:59 -0000
+Message-Id: <170604281941.2588.15649578337883497769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rt-tests/rt-tests
-user: jkacur
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/main
-    old: 326e7c65f07a6caee814eb1e385704aa1b5b129e
-    new: 0ff13431d2d132ba21ce82a6def38e7d0e18a045
-    log: |
-         ddc9e44f4f7666a4caf26837d30e8d06021a6572 rt-tests: Add interactive source-to-image Dockerfile
-         0ff13431d2d132ba21ce82a6def38e7d0e18a045 rt-tests: Add Dockerfile README
-         
+  - ref: refs/heads/renesas/net/upport_tsn_alpha_draft_experimental
+    old: b8edde3cedef1afe61406eac00fb2e0585be8ddd
+    new: 0000000000000000000000000000000000000000
