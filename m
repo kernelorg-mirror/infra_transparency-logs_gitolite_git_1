@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============8659439550140868696=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 23 Jan 2024 23:10:33 -0000
-Message-Id: <170605143301.19021.11054735086071265146@gitolite.kernel.org>
-
---===============8659439550140868696==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 23 Jan 2024 23:10:34 -0000
+Message-Id: <170605143407.19092.17370393488315488539@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: dc0c5559df0ba626dd42d4fe144419585ea609ba
-    new: 76426faacd9216b0a7115262c0058eb29e2d1d69
+    old: b3f086a7a136d721d112f35fe4cd7272e93cf06b
+    new: 20e109ea9842158a153b24ef42ec5cc3d44e9485
     log: |
-         76426faacd9216b0a7115262c0058eb29e2d1d69 am: Build patch series when additional patches appear in a thread
+         20e109ea9842158a153b24ef42ec5cc3d44e9485 bpf, docs: Clarify that MOVSX is only for BPF_X not BPF_K
          
-
---===============8659439550140868696==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1706051432 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1706051432-0a226790a79907682e57f63fb9f9c74485be8eec
-
-dc0c5559df0ba626dd42d4fe144419585ea609ba 76426faacd9216b0a7115262c0058eb29e2d1d69 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZbBHaAAKCRC2xBzjVmSZ
-bECbAP4jnjyyiHB0U/HOHCHaX2QWnwjGXvYWDSPhtf2WlzOv2gD5AYEszgcEwz61
-TEU+e60+Hyvz9uKKkKItRK/Mk2OG2AQ=
-=8yT2
------END PGP SIGNATURE-----
-
---===============8659439550140868696==--
