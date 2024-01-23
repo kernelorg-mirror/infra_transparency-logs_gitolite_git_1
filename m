@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============3998802361064135109=="
+Content-Type: multipart/mixed; boundary="===============7404941115981815604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 23 Jan 2024 01:39:03 -0000
-Message-Id: <170597394326.25568.14113675659574871341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Tue, 23 Jan 2024 01:42:54 -0000
+Message-Id: <170597417457.28591.11890259894436794299@gitolite.kernel.org>
 
---===============3998802361064135109==
+--===============7404941115981815604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/for-next
-    old: ff9af5732fe761fa8e7aa66cb482f93a37e284ee
-    new: 3a1987131a7dfacc574cba7f2f712913add0d083
-    log: revlist-ff9af5732fe7-3a1987131a7d.txt
+  - ref: refs/heads/for-next/hardening
+    old: a75b3809dce2ad006ebf7fa641f49881fa0d79d7
+    new: edb6538da3df83806fffcfc1b873d0895c81b9e8
+    log: revlist-a75b3809dce2-edb6538da3df.txt
 
---===============3998802361064135109==
+--===============7404941115981815604==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ff9af5732fe7-3a1987131a7d.txt
+Content-Disposition: attachment; filename=revlist-a75b3809dce2-edb6538da3df.txt
 
+6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
@@ -1047,8 +1048,7 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-b327c72753d6a78de37aed6c35756f2ef62897ee remoteproc: virtio: Fix wdg cannot recovery remote processor
-acc48fee5e740d787edca168100b5284cae30c7b rpmsg: Remove usage of the deprecated ida_simple_xx() API
-3a1987131a7dfacc574cba7f2f712913add0d083 Merge branches 'rproc-next' and 'rpmsg-next' into for-next
+189a4edb774b9ee5daf345e703e53fffaf509285 lkdtm: Make lkdtm_do_action() return to avoid tail call optimization
+edb6538da3df83806fffcfc1b873d0895c81b9e8 lkdtm/bugs: Adjust lkdtm_HUNG_TASK() to avoid tail call optimization
 
---===============3998802361064135109==--
+--===============7404941115981815604==--
