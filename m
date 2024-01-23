@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Tue, 23 Jan 2024 15:56:39 -0000
-Message-Id: <170602539991.14802.4295773788428374001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 23 Jan 2024 15:59:25 -0000
+Message-Id: <170602556549.15835.5381446927652749808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/kasan/dev
-    old: a1ba55c9518d709fb3af9ec75bfb2c1887ecf474
-    new: 22932cc8492a23ace6b45731717767b3cad35a2b
+  - ref: refs/heads/exportfs-next
+    old: 4213483e1c20c127de34f007cef3c5be50d418f3
+    new: 42c3732fa8073717dd7d924472f1c0bc5b452fdc
     log: |
-         2467f2e4963fe6816b3549ffd5da27e749108b21 stackdepot: use variable size records for non-evictable entries
-         22932cc8492a23ace6b45731717767b3cad35a2b kasan: revert eviction of stack traces in generic mode
+         9473c4450e9c83d890d435577a3776d925fa748c exportfs: fix the fallback implementation of the get_name export operation
+         42c3732fa8073717dd7d924472f1c0bc5b452fdc fs: Create a generic is_dot_dotdot() utility
          
