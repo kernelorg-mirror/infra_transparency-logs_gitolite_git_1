@@ -1,55 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6241202237577122377=="
+Content-Type: multipart/mixed; boundary="===============1770292105188282006=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cem/xfsprogs-dev
-Date: Tue, 23 Jan 2024 10:45:12 -0000
-Message-Id: <170600671204.13356.7261737492469361134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 23 Jan 2024 10:46:21 -0000
+Message-Id: <170600678156.13903.15908363907852582380@gitolite.kernel.org>
 
---===============6241202237577122377==
+--===============1770292105188282006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cem/xfsprogs-dev
-user: cem
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: ef6c1d34627fbf6fd6737711f5fcb651e15b31dc
-    new: 3ec53d43866f7cd35c8453206e5d855b1088a4a3
-    log: revlist-ef6c1d34627f-3ec53d43866f.txt
+  - ref: refs/heads/slab/for-next
+    old: 98d3b6d98f8013d4e96f40d8d4b22d4da0d3f699
+    new: 55f3fdd627cc24ef5174f0c2db57ced80b939859
+    log: |
+         90b1e56641bbab801e22141c56aa79dc095a3764 mm/slub: directly load freelist from cpu partial slab in the likely case
+         a6def11b6dcde5d8f1fcc9e2c0ae71399432b62e mm/slub: remove full list manipulation for non-debug slab
+         c63349fc4a2d10f5d1b5ee805cb639ee88fd6e4a mm/slub: remove unused parameter in next_freelist_entry()
+         55f3fdd627cc24ef5174f0c2db57ced80b939859 Merge branch 'slab/for-6.9/optimize-get-freelist' into slab/for-next
+         
 
---===============6241202237577122377==
+--===============1770292105188282006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef6c1d34627f-3ec53d43866f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-55021e7533bc55100f8ae0125aec513885cc5987 libxfs: fix krealloc to allow freeing data
-dc0611945e7ee98f73b04f4b1b7a88b12d70a413 debian: install scrub services with dh_installsystemd
-7c4b91c5c119ea4b1e4d7640a64aac7671de36ff xfs_scrub_all: escape service names consistently
-8d318d62dde5fcd4f15a730e4796a0685badb365 xfs_scrub: fix author and spdx headers on scrub/ files
-595874f26b6d8f989d4258faacbe9309ad65d80e xfs_scrub: fix pathname escaping across all service definitions
-eb62fccabfb4bc6f982604f31b26816d5c718148 xfs_scrub: add missing license and copyright information
-497ca97c1cefbd41b5f758ee66350995d0440897 xfs_scrub: flush stdout after printing to it
-83535ee5c9e3f040258d6d7456c8b5504fb6e6f5 xfs_scrub_fail: fix sendmail detection
-52520522199efa984dcf172a3eb8d835b93e324e xfs_scrub: update copyright years for scrub/ files
-96ac83c88e01ff7f59563ff76a96e555477c8637 xfs_scrub: don't report media errors for space with unknowable owner
-731c95408dc8667e2616b4b79e0d6c89aec1b936 xfs_scrub_fail: return the failure status of the mailer program
-2201a9d57ad221bbecb68b4e25c5ad4232ac2036 xfs_scrub_fail: add content type header to failure emails
-27df677a7b31c51c4595d2ae9078927b790d94b9 xfs_scrub_all: fix argument passing when invoking xfs_scrub manually
-fd650873e1dab125329b9b17c69f895fccc62c5c xfs_scrub_fail: advise recipients not to reply
-3abc6a0c3979bf19fa3e1d1126e363ea42c48971 xfs_scrub_all: survive systemd restarts when waiting for services
-e0cb10f5f8fc9c22b3dcc8671e3edbcaa1eecf5c xfs_scrub_fail: move executable script to /usr/libexec
-0c22427fe07e22e25991742f7948945a039272fc xfs_scrub_all: simplify cleanup of run_killable
-3d37d8bf535fd6a8ab241a86433b449152746e6a xfs_scrub_all.cron: move to package data directory
-1c95c17c8857223d05e8c4516af42c6d41ae579a xfs_scrub_all: fix termination signal handling
-dd8306b39652e07961db3779279ec1d090575c7b Merge tag 'xfsprogs-fixes-6.6_2023-12-21' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfsprogs-dev into for-next
-b5f2a1ff19313d6dd766da8289c4a706d822ad96 Merge tag 'xfsprogs-fixes-6.6_2024-01-11' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfsprogs-dev into for-next
-813262c781cb976f8dfba7a7b5a3e1abedc6d837 Merge tag 'scrub-fix-legalese-6.6_2024-01-11' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfsprogs-dev into for-next
-0f7e58a387f57ebda2566916b545077f51dc2da1 Merge tag 'scrub-repair-fixes-6.6_2024-01-11' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfsprogs-dev into for-next
-9b641bcd17122dba0a6e919531b2a7531d94e420 Merge tag 'scrub-service-fixes-6.6_2024-01-11' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfsprogs-dev into for-next
-3ec53d43866f7cd35c8453206e5d855b1088a4a3 Merge tag 'scruball-service-fixes-6.6_2024-01-11' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfsprogs-dev into for-next
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1706006777 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1706006776-140b60a523eb6f6fc8f683dfd6c19973a4c9339d
 
---===============6241202237577122377==--
+98d3b6d98f8013d4e96f40d8d4b22d4da0d3f699 55f3fdd627cc24ef5174f0c2db57ced80b939859 refs/heads/slab/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmWvmPkACgkQu+CwddJF
+iJq7vQf+LHdDQHRVF0HiAKz9aLr9ibAQtUbHDOj8qj1lbwpbD7vUwPdEr84Y+5x4
+j4a08TyAfMoR/BREO1VmWKp8/T4vGAO6kPNiR5eiQrsoCoi+x+eoSraw3EnBSzlT
+HNYCF738kTLhjZQPfyIsEgSP2L5FllsE6m8j/gowlDzt8X5IX0+7l/ZlFDoxHAIF
+d51hhenOwZXgSG5ybHrsEuSTmdiEsdzH9DIhO97UvYBMrfBWmDt4xw2mPdVCfO/o
+4sgD1UO5VLTFjDTPLsApsNMQbziB8y2gFleYvGwqCjtZFDPgopUouBPIfqlm1yAT
+5wdXEnOtIuvaVPDEoRn4qHxSkHwqRg==
+=e6/F
+-----END PGP SIGNATURE-----
+
+--===============1770292105188282006==--
