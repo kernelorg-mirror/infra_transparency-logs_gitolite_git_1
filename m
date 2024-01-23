@@ -1,22 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 23 Jan 2024 07:11:29 -0000
-Message-Id: <170599388913.6488.17083155291226577983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 23 Jan 2024 07:52:47 -0000
+Message-Id: <170599636775.2595.15995103737500727925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 57c8f1073f14452223f3d1bd8bd2b690af93d745
-    new: 68f87f24f953cf3147afa01ef123d8fd3c1162b6
+  - ref: refs/heads/for-linus
+    old: 1513664f340289cf10402753110f3cff12a738aa
+    new: a2ed0a44d637ef9deca595054c206da7d6cbdcbc
     log: |
-         ccc606a7d3122200c102a250d2b73c394a7c3888 perf sched: Sync state char array with the kernel
-         2f29a74f1dffe463d457b11cb39421a45c82044f perf util: Add helpers to parse task state string from libtraceevent
-         df8bc77e4a6b2d29bab0a092e1ed30fcabdea35e perf util: Add evsel__taskstate() to parse the task state info instead
-         68f87f24f953cf3147afa01ef123d8fd3c1162b6 perf sched: Commit to evsel__taskstate() to parse task state info
+         3526860f26febbe46960f9b37f5dbd5ccc109ea8 ALSA: hda: Replace numeric device IDs with constant values
+         56beedc88405fd8022edfd1c2e63d1bc6c95efcb ALSA: hda: Increase default bdl_pos_adj for Apollo Lake
+         a2ed0a44d637ef9deca595054c206da7d6cbdcbc ALSA: hda/cs8409: Suppress vmaster control for Dolphin models
+         
+  - ref: refs/heads/master
+    old: d1448cb5b89f8489bc28a67d0489ff7f65543f5f
+    new: ef1167ccf5d81a2dceb4abb184359ffccef53144
+    log: |
+         3526860f26febbe46960f9b37f5dbd5ccc109ea8 ALSA: hda: Replace numeric device IDs with constant values
+         56beedc88405fd8022edfd1c2e63d1bc6c95efcb ALSA: hda: Increase default bdl_pos_adj for Apollo Lake
+         e62cb6558503b7ed5427b84f16a0517668d06901 Merge branch 'for-linus'
+         a2ed0a44d637ef9deca595054c206da7d6cbdcbc ALSA: hda/cs8409: Suppress vmaster control for Dolphin models
+         ef1167ccf5d81a2dceb4abb184359ffccef53144 Merge branch 'for-linus'
          
