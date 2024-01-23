@@ -1,66 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3064757383350980314=="
+Content-Type: multipart/mixed; boundary="===============4545667707615373130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 23 Jan 2024 01:32:33 -0000
-Message-Id: <170597355388.20205.16221451931245100717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Tue, 23 Jan 2024 01:38:08 -0000
+Message-Id: <170597388859.25099.14649754080793451224@gitolite.kernel.org>
 
---===============3064757383350980314==
+--===============4545667707615373130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/for-next
-    old: 7d1ae55ffed0ff78ed33b1465c1233e05024e135
-    new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-7d1ae55ffed0-6613476e225e.txt
+  - ref: refs/heads/rpmsg-next
+    old: d5362c37e1f8a40096452fc201c30e705750e687
+    new: acc48fee5e740d787edca168100b5284cae30c7b
+    log: revlist-d5362c37e1f8-acc48fee5e74.txt
 
---===============3064757383350980314==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1705973552 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1705973550-b9be777950b018fd3f8421b34e9d313220d6dd9f
-
-7d1ae55ffed0ff78ed33b1465c1233e05024e135 6613476e225e090cc9aad49be7fa504e290dd33d refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWvFzAACgkQ7ulgGnXF
-3j08GRAAqcEu1XCnKoo+CiCRtio9jtTZtmLgPAC29Czs4xzl7y7TcGm7MmZVLU+Y
-ZenZYteUSVVswk8qrzHjeXOG/lykuAt9pBacyKAYoPRtkQ3q2t+3JVaJ0fG6Kysl
-CsYJCATinCXODBZNaB9bvRpyZjsWVAg+HZe4SizGWhEDa1mWRFsuYeNoYHttTpBK
-hXm4fw4skzKDvsFfM9Z0/Yq64PLDLr5NfaTr7VI1iXgb4mFb/7NLKGYe4XQNI2jP
-377v+IFtiqn73Ld7twcqdV+Iqif8uvDG0DV/I7M2EeFtqf9NU0CRJI0eKXpc78NE
-PiafQQkKhLxTWimxR2oA7upjMvsLkiDYEP81UbB4W69H+5iS1lkWoetGESzEurQm
-ZUpdKpUXlEjiA7ORf6hJNCGTvKn3o77jwR4ltnH9VkKS3jqjyt4pAv0aQBXxSJi5
-gkIGFhkJ1XRAABDE9T60Qe+8+7OWwHQ6MBGpIpU+EheY4x5vbaDPKfsR1iRasKsl
-SBOpxR50vFQraPwVVEeR+ApElBSKZXh/EaKcYUOwRo6B3xPB8ozBbQZc6d7p4O9x
-DBONFQpyl6bUDJIhfPzOw5lXj1r2PkFRDhaWZZ/AHtXsjbGg5FDXFDxhrfUPMkvU
-jI9S4tubZK5hkkELTX0X3Cb2N+SjMhV3A8e+iIrP843POPk2AzI=
-=ygBg
------END PGP SIGNATURE-----
-
---===============3064757383350980314==
+--===============4545667707615373130==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7d1ae55ffed0-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-d5362c37e1f8-acc48fee5e74.txt
 
-333b217c151c0d2de5fc0bf5dafb71110c80cd90 Merge branch 'for-6.8/sensor-hub' into for-linus
-53eb9356388169df4d805ba1fe14d5c7369bcf69 Merge branch 'for-6.8/steam' into for-linus
-0b43615af19742e1f4f71d332e72381430804804 Merge branch 'for-6.8/wacom' into for-linus
-d988c9f511af71a3445b6a4f3a2c67208ff8e480 MAINTAINERS: Add Namhyung as tools/perf/ co-maintainer
-4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -445,6 +410,10 @@ e3fe8d28c67bf6c291e920c6d04fa22afa14e6e4 virtio_net: Fix "‘%d’ directive wri
 64e47d8afb5ca533b27efc006405e5bcae2c4a7b net: ethernet: ti: am65-cpsw: Fix max mtu to fit ethernet frames
 66cee759ffa3d1146a22182c3d5a6404c7cfe9fd Merge branch 'net-ethernet-ti-am65-cpsw-allow-for-mtu-values'
 bec161add35b478a7746bf58bcdea6faa19129ef amt: do not use overwrapped cb area
+567a1e852e872e702b18d271a3dbce2a75efbaff scsi: fcoe: Fix unsigned comparison with zero in store_ctlr_mode()
+38945c2b006b23a1a7a0c88d76e3294c6199891c scsi: fnic: unlock on error path in fnic_queuecommand()
+6df0e077d76bd144c533b61d6182676aae6b0a85 scsi: core: Kick the requeue list after inserting when flushing
+83ab68168a3d990d5ff39ab030ad5754cbbccb25 scsi: target: core: Add TMF to tmr_list handling
 a03cd7602a090eae277d2b79d43925661e7fbe9a xtensa: don't produce FDPIC output with fdpic toolchain
 5b9b41617bf3e1282cc60f07d3d52e62399aa4ba Merge tag 'docs-6.8' of git://git.lwn.net/linux
 2f444347a8d6b03b4e6a9aeff13d67b8cbbe08ce Merge tag 'pull-minix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
@@ -1080,5 +1049,6 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
+acc48fee5e740d787edca168100b5284cae30c7b rpmsg: Remove usage of the deprecated ida_simple_xx() API
 
---===============3064757383350980314==--
+--===============4545667707615373130==--
