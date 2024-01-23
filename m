@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 23 Jan 2024 23:12:59 -0000
-Message-Id: <170605157981.21298.1984200887985670211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 23 Jan 2024 23:13:06 -0000
+Message-Id: <170605158699.21404.2677031259081469576@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: 20e109ea9842158a153b24ef42ec5cc3d44e9485
-    new: c80c6434aaccc689b2c7ff432d43abad8f4217b2
-    log: |
-         18a45f12d746c06b7361b0cce59cf8e8b9e38da6 bpf, arm64: Enable the inline of bpf_kptr_xchg()
-         29f868887a7dd3efc6faecc6fc91b28fc25cf5b0 selftests/bpf: Enable kptr_xchg_inline test for arm64
-         c80c6434aaccc689b2c7ff432d43abad8f4217b2 Merge branch 'enable-the-inline-of-kptr_xchg-for-arm64'
-         
+  - ref: refs/tags/vfio-v6.4-rc4
+    old: 6afa814ec17d7212728c9a4f9d2958d67463a197
+    new: 0000000000000000000000000000000000000000
