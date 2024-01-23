@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6661134354054144414=="
+Content-Type: multipart/mixed; boundary="===============5153876673875530160=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 23 Jan 2024 06:05:41 -0000
-Message-Id: <170598994177.22649.9554705719624222666@gitolite.kernel.org>
+Date: Tue, 23 Jan 2024 06:05:57 -0000
+Message-Id: <170598995715.22810.12847069708813856696@gitolite.kernel.org>
 
---===============6661134354054144414==
+--===============5153876673875530160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: dcfec12b67980cba139a6c3afba57ebd4936ebe8
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 0990319a0400db1d6069b5549327cd9105a266d5
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-dcfec12b6798-6613476e225e.txt
+    log: revlist-0990319a0400-6613476e225e.txt
 
---===============6661134354054144414==
+--===============5153876673875530160==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-dcfec12b6798-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-0990319a0400-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============6661134354054144414==--
+--===============5153876673875530160==--
