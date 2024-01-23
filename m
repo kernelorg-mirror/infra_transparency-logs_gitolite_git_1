@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 23 Jan 2024 18:42:17 -0000
-Message-Id: <170603533702.9317.3674709316939500407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 23 Jan 2024 18:42:26 -0000
+Message-Id: <170603534605.9439.10830278131646887630@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/arm64-sve-sme-doc
-    old: f0019162512fa52f776706578049fac0dee94e3d
-    new: 089253817ee33eb34fa1f099e7316c295eed5125
+  - ref: refs/heads/dm-vdo-wip
+    old: d1167342dc8a99d205176e473ad5cd07ed10f65b
+    new: d31842945655f6477444a8dede302ec62f109ed1
     log: |
-         1419285cc08cd0e72e8145740b558dd025d1573e arm64/fp: Documentation cleanups and clarifications
-         d77a2ea44c0015972aa9a2a754d4338bda68ab63 arm64/sve: Remove bitrotted comment about syscall behaviour
-         faa553a9250b838573c1ce0e42c4cfc00f03a39b arm64/sme: Fix cut'n'paste in ABI document
-         fba80e12daff4eecda61e68fc093825030147e06 arm64/fp: Clarify effect of setting an unsupported system VL
-         089253817ee33eb34fa1f099e7316c295eed5125 arm64/sme: Remove spurious 'is' in SME documentation
+         6e748cc6e193caaada6a4350a91882b5dbaaa635 dm vdo: fix sparse warnings about missing statics
+         30c3adecc0095289c726eec4d0990047b01f237e dm vdo: fix sparse 'warning: Using plain integer as NULL pointer'
+         902bfa232cd81e5c4dcd668c30029f05fc2e8266 dm vdo: fix various blk_opf_t sparse warnings
+         314aaa342a562e2183a708cde4dc92367401e7e7 dm vdo data-vio: silence sparse warnings about locking context imbalances
+         46d298be96836dde01b31915e997e3b71f583254 dm vdo dedupe: silence sparse warnings about locking context imbalances
+         d31842945655f6477444a8dede302ec62f109ed1 dm vdo recovery-journal: fix sparse 'mixed bitwiseness' warning
          
