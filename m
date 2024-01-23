@@ -1,31 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============7638021954538640043=="
+Content-Type: multipart/mixed; boundary="===============7080272708762115185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Tue, 23 Jan 2024 13:55:14 -0000
-Message-Id: <170601811445.23228.7607624716077233777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 23 Jan 2024 13:55:55 -0000
+Message-Id: <170601815589.23534.14998903357971614433@gitolite.kernel.org>
 
---===============7638021954538640043==
+--===============7080272708762115185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/edac-misc
-    old: 1e92af09fab1b5589f3a7ae68109e3c6a5ca6c6e
-    new: b57c1a1e7effab067a65bab54c5d83a67cffd043
-    log: revlist-1e92af09fab1-b57c1a1e7eff.txt
+  - ref: refs/heads/hmm
+    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    new: 6613476e225e090cc9aad49be7fa504e290dd33d
+    log: revlist-0bb80ecc33a8-6613476e225e.txt
+  - ref: refs/heads/wip/for-testing
+    old: 0bb80ecc33a8fb5a682236443c1e740d5c917d1d
+    new: 6613476e225e090cc9aad49be7fa504e290dd33d
+    log: revlist-0bb80ecc33a8-6613476e225e.txt
 
---===============7638021954538640043==
+--===============7080272708762115185==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1e92af09fab1-b57c1a1e7eff.txt
+Content-Disposition: attachment; filename=revlist-0bb80ecc33a8-6613476e225e.txt
 
+4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1049,6 +1054,5 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-b57c1a1e7effab067a65bab54c5d83a67cffd043 EDAC/synopsys: Convert to devm_platform_ioremap_resource()
 
---===============7638021954538640043==--
+--===============7080272708762115185==--
