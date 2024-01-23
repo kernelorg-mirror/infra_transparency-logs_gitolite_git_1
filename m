@@ -1,51 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Tue, 23 Jan 2024 13:24:31 -0000
-Message-Id: <170601627148.32051.14720051507420216841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 23 Jan 2024 13:28:17 -0000
+Message-Id: <170601649716.2638.14308414932354464592@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 8dd3266599b2048b7a68f8254a84d493d97d986e
-    new: cbc7253400d6b63dc275b09b2de484c1258ead93
+  - ref: refs/heads/for-6.8
+    old: 8715c23b6540d142b955efe64f91b8bc2d3cf623
+    new: 633cd6fe6e1993ba80e0954c2db127a0b1a3e66f
     log: |
-         7eca077490c6f061b78a09eaf596804354be1ad2 Replace code for missing key error in API.
-         35ec935cc21bb9963b15d24923b410d0426035dd Update API documentation for crypt_set_keyring_to_link.
-         cbc7253400d6b63dc275b09b2de484c1258ead93 Unify error code for missing key description.
+         574bf7bbe83794a902679846770f75a9b7f28176 spi: bcm-qspi: fix SFDP BFPT read by usig mspi read
+         e267a5b3ec59ce88d6be21078e2deb807ca3b436 spi: spi-imx: Use dev_err_probe for failed DMA channel requests
+         633cd6fe6e1993ba80e0954c2db127a0b1a3e66f spi: spi-cadence: Reverse the order of interleaved write and read operations
          
-  - ref: refs/heads/master
-    old: 8dd3266599b2048b7a68f8254a84d493d97d986e
-    new: cbc7253400d6b63dc275b09b2de484c1258ead93
-    log: |
-         7eca077490c6f061b78a09eaf596804354be1ad2 Replace code for missing key error in API.
-         35ec935cc21bb9963b15d24923b410d0426035dd Update API documentation for crypt_set_keyring_to_link.
-         cbc7253400d6b63dc275b09b2de484c1258ead93 Unify error code for missing key description.
-         
-  - ref: refs/merge-requests/420/merge
-    old: ac05826b8f700a6516d5424b97d3323479bfb678
-    new: c0a08d52625fba3e71fb27c9253b50b3b7a9bf5d
-    log: |
-         135ed491d1ce7abc135ac53a41354dcab4987dc0 Do not drop keys from keyring on successfull reencryption recovery.
-         8dd3266599b2048b7a68f8254a84d493d97d986e tests: use per-test keyring for caching VKs.
-         c0a08d52625fba3e71fb27c9253b50b3b7a9bf5d Merge branch 'xchacha20-random' into 'main'
-         
-  - ref: refs/merge-requests/590/merge
-    old: 9d49a46c50f93e09132530cedb4e9a2c544f77f8
-    new: ee3d3c963036293b211e34238756d8f971b10dfe
-    log: |
-         135ed491d1ce7abc135ac53a41354dcab4987dc0 Do not drop keys from keyring on successfull reencryption recovery.
-         8dd3266599b2048b7a68f8254a84d493d97d986e tests: use per-test keyring for caching VKs.
-         ee3d3c963036293b211e34238756d8f971b10dfe Merge branch 'keyring' into 'main'
-         
-  - ref: refs/merge-requests/597/head
-    old: 0000000000000000000000000000000000000000
-    new: cbc7253400d6b63dc275b09b2de484c1258ead93
-  - ref: refs/merge-requests/597/merge
-    old: 0000000000000000000000000000000000000000
-    new: 005f940fe7c925a6ffef187cfe19807b7e3ad18c
