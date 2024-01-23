@@ -1,33 +1,52 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 23 Jan 2024 19:50:03 -0000
-Message-Id: <170603940391.26662.6417912267483082540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 23 Jan 2024 20:14:13 -0000
+Message-Id: <170604085370.10401.469108502362779340@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/block-deadline
-    old: 0f3afc8f71bcd920dfefc2100438a079206491ba
-    new: 78b015a5c0a90e95e69717a9ec55a1426ee26b0a
+  - ref: refs/heads/bleeding-edge
+    old: f890729ea3ca4d549b4e2414c42e932163814f09
+    new: 3d5bdaa27c031adcd79e46503159fa720ff8535f
     log: |
-         5ad2f22d9c408feafcfa57f5b8701183625a0dda block/mq-deadline: serialize request dispatching
-         7350d1100393b8633e78d867dd95b023cc3a9378 block/mq-deadline: skip expensive merge lookups if contended
-         8fcc9e576106a8e32c18833404586a839c5f0cd8 block/mq-deadline: use separate insertion lists
-         b1f805c4a1fc09c3959726b795d40f71596ce34e block/bfq: pass in queue directly to bfq_insert_request()
-         68b130ae6295ac50a92707181cbebb9ef0f2ce67 block/bfq: serialize request dispatching
-         0b3e8b1bedc47840e7ab7a37baf1b0d323861379 block/bfq: skip expensive merge lookups if contended
-         78b015a5c0a90e95e69717a9ec55a1426ee26b0a block/bfq: use separate insertion lists
+         0086ffec768bec6f5d61fc7e406af640eb912a24 tools cpupower bench: Override CFLAGS assignments
+         22fb4f041999f5f16ecbda15a2859b4ef4cbf47e cpufreq/amd-pstate: Fix setting scaling max/min freq values
+         0d2e01d5490ccc903bd0ffcfdf62e40fceb77bb9 Merge branches 'pm-sleep' and 'pm-cpufreq' into linux-next
+         ab1e11a528c4c50549c33ba3919390846d97b37f Merge branch 'thermal-intel' into linux-next
+         d3b93fe159b8d3a48565c4ecd602e3499764d549 Merge tag 'linux-cpupower-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux
+         3d5bdaa27c031adcd79e46503159fa720ff8535f Merge branch 'pm-tools' into linux-next
          
-  - ref: refs/heads/block-issue-ts
-    old: db1ac2dbb32215cd118b265b4282155af4f51514
-    new: 8ee966ea730c3f72d47009715de07cb3090afba9
+  - ref: refs/heads/linux-next
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: 3d5bdaa27c031adcd79e46503159fa720ff8535f
     log: |
-         26a338b9c5f6334bbde8575661501e8028cd66c4 block: update cached timestamp post schedule/preemption
-         efbad937006dda589295f9695c0f0e905e45378b block: shrink plug->{nr_ios, rq_count} to unsigned char
-         8ee966ea730c3f72d47009715de07cb3090afba9 block: convert struct blk_plug callback list to hlists
+         0086ffec768bec6f5d61fc7e406af640eb912a24 tools cpupower bench: Override CFLAGS assignments
+         c6a783be82c893c6f124a5853bef2edeaf26dadf thermal: intel: powerclamp: Remove dead code for target mwait value
+         192cdb1c907fd8df2d764c5bb17496e415e59391 cpufreq: intel_pstate: Refine computation of P-state for given frequency
+         5d872146e7f55e15c26d0a5600b155ee54bfdee6 PM: sleep: Use bool for all 1-bit fields in struct dev_pm_info
+         22fb4f041999f5f16ecbda15a2859b4ef4cbf47e cpufreq/amd-pstate: Fix setting scaling max/min freq values
+         0d2e01d5490ccc903bd0ffcfdf62e40fceb77bb9 Merge branches 'pm-sleep' and 'pm-cpufreq' into linux-next
+         ab1e11a528c4c50549c33ba3919390846d97b37f Merge branch 'thermal-intel' into linux-next
+         d3b93fe159b8d3a48565c4ecd602e3499764d549 Merge tag 'linux-cpupower-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux
+         3d5bdaa27c031adcd79e46503159fa720ff8535f Merge branch 'pm-tools' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: 3d5bdaa27c031adcd79e46503159fa720ff8535f
+    log: |
+         0086ffec768bec6f5d61fc7e406af640eb912a24 tools cpupower bench: Override CFLAGS assignments
+         c6a783be82c893c6f124a5853bef2edeaf26dadf thermal: intel: powerclamp: Remove dead code for target mwait value
+         192cdb1c907fd8df2d764c5bb17496e415e59391 cpufreq: intel_pstate: Refine computation of P-state for given frequency
+         5d872146e7f55e15c26d0a5600b155ee54bfdee6 PM: sleep: Use bool for all 1-bit fields in struct dev_pm_info
+         22fb4f041999f5f16ecbda15a2859b4ef4cbf47e cpufreq/amd-pstate: Fix setting scaling max/min freq values
+         0d2e01d5490ccc903bd0ffcfdf62e40fceb77bb9 Merge branches 'pm-sleep' and 'pm-cpufreq' into linux-next
+         ab1e11a528c4c50549c33ba3919390846d97b37f Merge branch 'thermal-intel' into linux-next
+         d3b93fe159b8d3a48565c4ecd602e3499764d549 Merge tag 'linux-cpupower-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux
+         3d5bdaa27c031adcd79e46503159fa720ff8535f Merge branch 'pm-tools' into linux-next
          
