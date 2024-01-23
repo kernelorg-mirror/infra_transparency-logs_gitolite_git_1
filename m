@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 23 Jan 2024 16:27:26 -0000
-Message-Id: <170602724608.4764.7134927063574153912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 23 Jan 2024 16:28:45 -0000
+Message-Id: <170602732580.5335.3821065701287036920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/vfs.misc
-    old: 297983dc9011461cba6278bfe03f4305c4a2caa0
-    new: 41d54434063ca282a98245ab759a429b68a8b31e
+  - ref: refs/heads/for-next
+    old: dde506a00628cc0b906a55fa422e852fa8609def
+    new: e2d6b54b935a98c7d83f7e27597738be903d6703
     log: |
-         294a229020f182facc22c6fbdf78775785ea4f24 eventfd: move 'eventfd-count' printing out of spinlock
-         9473c4450e9c83d890d435577a3776d925fa748c exportfs: fix the fallback implementation of the get_name export operation
-         42c3732fa8073717dd7d924472f1c0bc5b452fdc fs: Create a generic is_dot_dotdot() utility
-         41d54434063ca282a98245ab759a429b68a8b31e Merge tag 'exportfs-6.9' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/cel/linux
+         e2d6b54b935a98c7d83f7e27597738be903d6703 Revert "RISC-V: mark hibernation as nonportable"
          
