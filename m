@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3147703249964285016=="
+Content-Type: multipart/mixed; boundary="===============5419325165954920316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 23 Jan 2024 16:05:11 -0000
-Message-Id: <170602591120.21403.5528137471791144982@gitolite.kernel.org>
+Date: Tue, 23 Jan 2024 16:05:56 -0000
+Message-Id: <170602595678.21743.12679729363045686740@gitolite.kernel.org>
 
---===============3147703249964285016==
+--===============5419325165954920316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 0dd3ee31125508cd67f7e7172247f05b7fd1753a
+  - ref: refs/heads/nfsd-next
+    old: 17419aefcbfd9891863e8b8132f0bca9a6b2984e
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-0dd3ee311255-6613476e225e.txt
+    log: revlist-17419aefcbfd-6613476e225e.txt
 
---===============3147703249964285016==
+--===============5419325165954920316==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0dd3ee311255-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-17419aefcbfd-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============3147703249964285016==--
+--===============5419325165954920316==--
