@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6862457783038991257=="
+Content-Type: multipart/mixed; boundary="===============8939808833646197453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 23 Jan 2024 11:32:54 -0000
-Message-Id: <170600957467.15107.3744332069205624953@gitolite.kernel.org>
+Date: Tue, 23 Jan 2024 11:33:02 -0000
+Message-Id: <170600958204.15236.11303675477861233386@gitolite.kernel.org>
 
---===============6862457783038991257==
+--===============8939808833646197453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: d24b923f1d696ddacb09f0f2d1b1f4f045cfe65e
+  - ref: refs/heads/for-rc
+    old: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-d24b923f1d69-6613476e225e.txt
+    log: revlist-a39b6ac3781d-6613476e225e.txt
 
---===============6862457783038991257==
+--===============8939808833646197453==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d24b923f1d69-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-a39b6ac3781d-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============6862457783038991257==--
+--===============8939808833646197453==--
