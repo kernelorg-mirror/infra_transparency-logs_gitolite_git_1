@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 23 Jan 2024 06:39:46 -0000
-Message-Id: <170599198636.14753.9228632081515986361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Tue, 23 Jan 2024 06:43:14 -0000
+Message-Id: <170599219466.17648.15678762981791251315@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
-    new: ace4b31b297dfd7b8c969ff5046c8128c3e025be
+  - ref: refs/heads/damon/next
+    old: 487fe14a45fdf45af2010af48e40d48280dd3795
+    new: 123471207ac15a4a169e0c99f7c3755853f7d9f3
     log: |
-         ace4b31b297dfd7b8c969ff5046c8128c3e025be cpufreq: Move dev_pm_opp_{init|free}_cpufreq_table() to pm_opp.h
+         123471207ac15a4a169e0c99f7c3755853f7d9f3 mm/damon: rename CONFIG_DAMON_DBGFS to DAMON_DBGFS_DEPRECATED
          
