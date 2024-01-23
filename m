@@ -1,27 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 23 Jan 2024 20:24:13 -0000
-Message-Id: <170604145306.17348.14124468235982209853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Tue, 23 Jan 2024 20:24:42 -0000
+Message-Id: <170604148251.17610.11973320709834265553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/renesas-clk
-    old: 01288ef20bd1fa9e250b355747a9146c3c59c5cd
-    new: 4ae2c995c4339959ef04eb9afbbda1966299e5d6
+  - ref: refs/heads/renesas-arm-defconfig-for-v6.9
+    old: d5215d7afb67fcf1ea6e6a91844cd0f34caf9c42
+    new: 9317322218102c7ad0a1a155b8e779c7cd8a93bd
     log: |
-         6aa175476490166847df7659d30be8b1b9bac395 clk: renesas: cpg-mssr: Ignore all clocks assigned to non-Linux system
-         4ae2c995c4339959ef04eb9afbbda1966299e5d6 clk: renesas: mstp: Remove obsolete clkdev registration
-         
-  - ref: refs/heads/renesas-clk-for-v6.9
-    old: 01288ef20bd1fa9e250b355747a9146c3c59c5cd
-    new: 4ae2c995c4339959ef04eb9afbbda1966299e5d6
-    log: |
-         6aa175476490166847df7659d30be8b1b9bac395 clk: renesas: cpg-mssr: Ignore all clocks assigned to non-Linux system
-         4ae2c995c4339959ef04eb9afbbda1966299e5d6 clk: renesas: mstp: Remove obsolete clkdev registration
+         626b1ec6f7438b68ab08670b01b69924e6bf9a09 ARM: shmobile: defconfig: Disable staging
+         9317322218102c7ad0a1a155b8e779c7cd8a93bd ARM: multi_v7_defconfig: Disable board staging
          
