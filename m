@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 23 Jan 2024 23:30:04 -0000
-Message-Id: <170605260409.2786.2641018177702564755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 23 Jan 2024 23:33:25 -0000
+Message-Id: <170605280558.4156.18199841377007212192@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 8b3190c3ea38af87778a68c576947f8797215d33
-    new: 1ee0469f6d180a98d31196bea787f37269ff9cdd
-    log: |
-         1ee0469f6d180a98d31196bea787f37269ff9cdd configure: Don't use cross_prefix when invoking pkg-config
-         
+  - ref: refs/tags/sent/20230718-thermal-sun8i-registration-df3a136ccafa-v3
+    old: 0000000000000000000000000000000000000000
+    new: 0945c93be2474dd16df2ff3678597edc5ad9c2e4
