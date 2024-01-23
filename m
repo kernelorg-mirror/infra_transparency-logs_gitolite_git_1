@@ -1,22 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 23 Jan 2024 18:25:03 -0000
-Message-Id: <170603430350.28298.12014764389233010727@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7521750067803333505=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 23 Jan 2024 18:25:25 -0000
+Message-Id: <170603432569.28486.8156299584453592593@gitolite.kernel.org>
+
+--===============7521750067803333505==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.8
-    old: 8715c23b6540d142b955efe64f91b8bc2d3cf623
-    new: de8b6e1c231a95abf95ad097b993d34b31458ec9
+  - ref: refs/heads/for-6.8
+    old: b3cbdcc191819b75c04178142e2d0d4c668f68c0
+    new: a67e1f0bd4564b485e0f0c3ed7f6bf17688be268
     log: |
-         574bf7bbe83794a902679846770f75a9b7f28176 spi: bcm-qspi: fix SFDP BFPT read by usig mspi read
-         e267a5b3ec59ce88d6be21078e2deb807ca3b436 spi: spi-imx: Use dev_err_probe for failed DMA channel requests
-         633cd6fe6e1993ba80e0954c2db127a0b1a3e66f spi: spi-cadence: Reverse the order of interleaved write and read operations
-         de8b6e1c231a95abf95ad097b993d34b31458ec9 spi: hisi-sfc-v3xx: Return IRQ_NONE if no interrupts were detected
+         a67e1f0bd4564b485e0f0c3ed7f6bf17688be268 regulator: ti-abb: don't use devm_platform_ioremap_resource_byname for shared interrupt register
          
+
+--===============7521750067803333505==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1706034324 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1706034323-51271b38084e374f82fe4ffa946d5abbed088049
+
+b3cbdcc191819b75c04178142e2d0d4c668f68c0 a67e1f0bd4564b485e0f0c3ed7f6bf17688be268 refs/heads/for-6.8
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWwBJQACgkQJNaLcl1U
+h9DQ8Qf/W0YnyVCCy5O+r7siHVKG5Uo2LHvXdtoE+eKQ5sNqcs6T84dhjlX/b15n
+Zf8JuM9NMLQudi+b+5yAofX26pjsoozWla0jq4H5tZBuZ/GWdq0VGJSDZr7VulZr
+5b8m7uGhN8aFn7xCeTwv1orlYN1I5cytSgmwkFXwquC2cp9Y5uX77IYZOn2+D4Ax
+/U8rXaZs+wDMmC/XIs+/kq40lE5X7/2pYRQdp+iHQaFEsxCCTO3FwrewhKnHOwJQ
+Uput1uwm5hLs2XRj5nOMdMYnfunZDqSHovjzuY7+hy61ffcEFz8/NIYIEn6D/6n7
+Qk/c1hJueGQdsbrdoQdqTwDIKJKZ6A==
+=Qlra
+-----END PGP SIGNATURE-----
+
+--===============7521750067803333505==--
