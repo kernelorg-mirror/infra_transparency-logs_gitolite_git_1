@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5478414150286589589=="
+Content-Type: multipart/mixed; boundary="===============4238723907337666775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 23 Jan 2024 11:32:03 -0000
-Message-Id: <170600952345.14659.7273693606138360512@gitolite.kernel.org>
+Date: Tue, 23 Jan 2024 11:32:35 -0000
+Message-Id: <170600955547.14939.7791829665512020726@gitolite.kernel.org>
 
---===============5478414150286589589==
+--===============4238723907337666775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
+  - ref: refs/heads/wip/leon-for-next
+    old: abdde500cdf4562960195c9bd0f13ea1536d7774
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-a39b6ac3781d-6613476e225e.txt
+    log: revlist-abdde500cdf4-6613476e225e.txt
 
---===============5478414150286589589==
+--===============4238723907337666775==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a39b6ac3781d-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-abdde500cdf4-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============5478414150286589589==--
+--===============4238723907337666775==--
