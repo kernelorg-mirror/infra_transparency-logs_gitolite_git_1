@@ -1,79 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7424297085070692128=="
+Content-Type: multipart/mixed; boundary="===============2251706431723767394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 23 Jan 2024 22:08:03 -0000
-Message-Id: <170604768391.31728.1340462483192736052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 23 Jan 2024 22:08:07 -0000
+Message-Id: <170604768742.31821.14353181929403577762@gitolite.kernel.org>
 
---===============7424297085070692128==
+--===============2251706431723767394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/testing
-    old: 824adc9cc314be065db726e30fae876c87660775
-    new: f9e9183367fded46fcfced4f468bd54fbeaa1c4b
-    log: revlist-824adc9cc314-f9e9183367fd.txt
+  - ref: refs/heads/dev-queue
+    old: 96c6412de8e2a1a47f034027f0522592008ba3ea
+    new: d0cee6dbfbea00c070e7d9297b3d79a82372641e
+    log: revlist-96c6412de8e2-d0cee6dbfbea.txt
 
---===============7424297085070692128==
+--===============2251706431723767394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-824adc9cc314-f9e9183367fd.txt
+Content-Disposition: attachment; filename=revlist-96c6412de8e2-d0cee6dbfbea.txt
 
-9e65506ca9c7ff716c8441a33417820ad61d3a16 iio: pressure: mprls0025pa fix off-by-one enum
-0a0fb0e63e5178905e9fdba8195686b4e2de26c4 iio: pressure: mprls0025pa improve driver error resilience
-b586b40e1952a343ae68142d16512f39596ca71b iio: pressure: mprls0025pa remove defaults
-369cc90a020f1cbc5c08bd53a23fb0c69c4ec3df iio: pressure: mprls0025pa whitespace cleanup
-63cd31d320b50b7e004964c04ce3e73935cd3873 iio: pressure: mprls0025pa refactor to split core and i2c parts.
-d8fd0449e2208407a2f4b191b6d4161203c50f0c iio: pressure: mprls0025pa add triplet property
-a0858f0cd28e822b91376ae288d5548bc1847531 iio: pressure: mprls0025pa add SPI driver
-e91847646081a4096173d43481577939ad054e88 iio: accel: da280: Stop using ACPI_PTR()
-ab3764c77560a8cd1b2b22500494a7951f277522 iio: accel: kxcjk-1013: Move acpi_device_id table under ifdef CONFIG_ACPI
-9b397c11e04adb86b8bbf2bd969ef6fad005f1ab iio: accel: mma9551: Drop ACPI_PTR() usage
-3572c3700ebd4e73da0ac236f573e53294414d31 iio: accel: mma9553: Drop ACPI_PTR() usage
-a55c3fec3bf6710b0f43252c4954d2df3ecd48a6 iio: accel: mxc4005: Drop ACPI_PTR() usage
-39d76808a80a8b03a96151a9b7fddd76e386bbd9 iio: accel: mxc6255: Drop ACPI_PTR() usage
-095f3ed5833f55ae3f712b0dcc1bf58d2e03871d iio: accel: stk8ba50: Drop ACPI_PTR() usage
-3b63f5e8f78b0e7c1ebaf47ce192003a67d81c82 iio: accel: bmc150: Drop ACPI_PTR()
-fa9ab814e8e40cf9428d5ea46e2da09e3127561a iio: gyro: bmg160: Drop ACPI_PTR() usage
-3049e64036d71f4e248beee94de26d47e64f05e6 iio: humidity: hts221: Drop ACPI_PTR() usage
-37b1ea30651ad80af158625250558851f4510f2e iio: imu: fxos8700: Drop ACPI_PTR() usage
-3460cb9c6b86193b23f8bae4650f9fe9d0389f04 iio: imu: kmx61: Drop ACPI_PTR() usage
-cc4ac27b4ac9076a384a78b773e75fc0c852bff9 iio: light: jsa1212: Drop ACPI_PTR() usage
-730697c1915ce2e58aa05ab4f87de73a404d9b65 iio: light: ltr501: Drop ACPI_PTR() usage
-944ea6c36454c22f91e797f0f878776a4d7f8b43 iio: light: rpr0521: Drop ACPI_PTR() usage
-8b6522c614208e4b6201f373f55b7dd41bf3c5ea iio: light: stk3310: Drop ACPI_PTR() usage
-92f82a9f2a8e1e4ad8893bd88d1ffb237237c6ea iio: light: us5182d: Drop ACPI_PTR() usage
-e0d77ee640c3288edb6022971280f2a1ecd18a65 iio: magnetometer: bmc150: Drop ACPI_PTR() usage
-b87412052cbddf2d441dad93ea30296999600358 iio: magnetometer: mmc35240: Drop ACPI_PTR() usage
-3c35281c8e7339ae9f6d452c4f32a2ac9a56a206 iio: potentiometer: max5487: Drop ACPI_PTR() usage
-042ffa6daf6db36d387da66d49116557a93468e2 iio: st_sensors: drop ACPI_PTR() and CONFIG_ACPI guards
-51feb3e35899837362f7a3864c198f9de52280e8 iio: pressure: hp206c: drop ACPI_PTR() and CONFIG_ACPI guards
-5291fed7e324436a2119d4143fde0c07f1cd7a78 iio: light: max44000: drop ACPI_PTR() and CONFIG_ACPI guards
-3ab574ee39f7acd34fa004e34b52588b53ccebda iio: adc: ti-adc109s102: drop ACPI_PTR() and CONFIG_ACPI guards
-b2463c49ab68376b20d5165400e47fc675976dd2 iio: accel: bmi088: add i2c support for bmi088 accel driver
-b58b13f156c00c2457035b7071eaaac105fe6836 iio: invensense: remove redundant initialization of variable period
-4e6500bfa053dc133021f9c144261b77b0ba7dc8 tools: iio: replace seekdir() in iio_generic_buffer
-66b5591697294171b7e574b7e253a0d7ecce99dd MAINTAINERS: correct file entry for AD7091R
-e7748c17bda04758a01f1241896b553f8b3873cc iio: core: use INDIO_ALL_BUFFER_MODES in iio_buffer_enabled()
-82cc631881206827570d2d84e8a22524afe3638f iio: buffer-dmaengine: make use of the 'struct device *' argument
-41b5684e58b1286ae0fa180bc50b661a27efee33 dt-bindings: iio: adc: rtq6056: add support for the whole RTQ6056 family
-89a1034cd84148d4040385386850377cdbfeb70c iio: adc: rtq6056: Add support for the whole RTQ6056 family
-64b4ea871b86e0177c3938360ff83d528ac10018 dt-bindings: iio: adc: Add binding for AD7380 ADCs
-b93eb80bcbfcc83c8be426db0890d2afb73dcc95 iio: adc: ad7380: new driver for AD7380 ADCs
-39b07546c16c8ba33f4af147adb9a957bc4c4e60 iio: dummy_evgen: remove Excess kernel-doc comments
-81213aa75de810e08eaa49e8fbb80054cc9a90b1 iio: imu: adis16475: make use of irq_get_trigger_type()
-40c47eaf39707a28db9a0d4794f1209b0e59a86b iio: imu: adis16480: make use of irq_get_trigger_type()
-3730b66783b07a0c9ae0e423f72c8518a82ddcb6 iio: adc: ad_sigma_delta: allow overwriting the IRQ flags
-69bd07480c60a6a7dae34ce1a1f8e906bc8c3146 iio: adc: ad_sigma_delta: Follow renaming of SPI "master" to "controller"
-f8a2dbeb45b039c9c3263d381d72148988c52d9a iio: light: vcnl4000: Set ps high definition for 4040/4200
-e15e29d6b57cc4bcf2c6866f92af16e69eeff497 iio: test: test gain-time-scale helpers
-f9e9183367fded46fcfced4f468bd54fbeaa1c4b MAINTAINERS: add IIO GTS tests
+989cd9fd1ffe1a964429325f9092ea8f0db3f953 wifi: p54: fix GCC format truncation warning with wiphy->fw_version
+556857aa1d0855aba02b1c63bc52b91ec63fc2cc wifi: ath11k: rely on mac80211 debugfs handling for vif
+a6e4f85d3820d00694ed10f581f4c650445dbcda wifi: cfg80211: fix missing interfaces when dumping
+26490da5a71da9064e58f0d4ce82756c26ef9eb1 wifi: cfg80211/mac80211: remove dependency on non-existing option
+b01a74b3ca6fd51b62c67733ba7c3280fa6c5d26 wifi: mac80211: fix potential sta-link leak
+cf4a0d840ecc72fcf16198d5e9c505ab7d5a5e4d wifi: iwlwifi: fix a memory corruption
+bcbc84af1183c8cf3d1ca9b78540c2185cd85e7f wifi: mac80211: fix race condition on enabling fast-xmit
+7267e8dcad6b2f9fce05a6a06335d7040acbc2b6 tcp: Add memory barrier to tcp_push()
+97de5a15edf2d22184f5ff588656030bbb7fa358 selftest: Don't reuse port for SO_INCOMING_CPU test.
+234ec0b6034b16869d45128b8cd2dc6ffe596f04 netlink: fix potential sleeping issue in mqueue_flush_file
+435e202d645c197dcfd39d7372eb2a56529b6640 ipv6: init the accept_queue's spinlocks in inet6_create
+1347775dea7f62798b4d5ef60771cdd7cfff25d8 Merge tag 'wireless-2024-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+edebf0d69f7158cb3369625a5f84f2acd416cb4b i40e: Fix waiting for queues of all VSIs to be disabled
+45e3a6424af0bf5257aa465ebc5db66da909ad3f i40e: Fix wrong mask used during DCB config
+b9508ff3eba794a99cb30cf6af5126da57e0747c e1000e: correct maximum frequency adjustment values
+2e07c8d3fcea64f477ac4d11ce889fae0c9d2771 e1000e: remove force SMBUS from ULP enable flow to avoid PHY loss issue
+0122be81c82e395f3a3356b1b8d139c77b1e0fb1 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+d1ce25c1e7efa95d7372819a05245233cdb76a81 idpf: avoid compiler padding in virtchnl2_ptype struct
+0d60c4108fa7c5ed49054e69ab49ee4e0bed951b igb: Fix string truncation warnings in igb_set_fw_version
+1a237997fef9adee2d524d8fe288d9a654140d79 ice: Add check for lport extraction to LAG init
+d0cee6dbfbea00c070e7d9297b3d79a82372641e ixgbe: Fix an error handling path in ixgbe_read_iosf_sb_reg_x550()
 
---===============7424297085070692128==--
+--===============2251706431723767394==--
