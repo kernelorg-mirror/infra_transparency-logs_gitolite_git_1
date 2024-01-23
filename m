@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 23 Jan 2024 09:35:11 -0000
-Message-Id: <170600251181.12393.9933586364780078933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 23 Jan 2024 09:41:35 -0000
+Message-Id: <170600289523.31299.9656181477480033759@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master-pending
-    old: 9c3e7305eb7a4cc452fc0d7f45a17a89baf561f7
-    new: 8b00c9aee43f105e26f7f9014bb66a34939f35ff
+  - ref: refs/heads/main
+    old: 13e788deb7348cc88df34bed736c3b3b9927ea52
+    new: 7267e8dcad6b2f9fce05a6a06335d7040acbc2b6
     log: |
-         8b00c9aee43f105e26f7f9014bb66a34939f35ff Merge branch 'pending' into master-pending
+         7267e8dcad6b2f9fce05a6a06335d7040acbc2b6 tcp: Add memory barrier to tcp_push()
          
-  - ref: refs/tags/ath-pending-202401230933
-    old: 0000000000000000000000000000000000000000
-    new: 8b00c9aee43f105e26f7f9014bb66a34939f35ff
