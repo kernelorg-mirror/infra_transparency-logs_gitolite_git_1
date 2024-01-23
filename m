@@ -1,42 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 23 Jan 2024 12:31:35 -0000
-Message-Id: <170601309537.26199.7590584012191608163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 23 Jan 2024 12:31:49 -0000
+Message-Id: <170601310906.26354.9950104973692235146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: c481016bb4f8a9c059c39ac06e7b65e233a61f6a
-    new: 7c70825d1603001e09907b383ed5d1bd283d61a0
+    old: fbc7ee6cc16918ea64a963a4ee097699cc159a8d
+    new: 8715c23b6540d142b955efe64f91b8bc2d3cf623
     log: |
-         523d242d4309797e6b27c708fbd1463f301c199a ASoC: codecs: ES8326: improving crosstalk performance
-         14a0a1ec3335ac3945a96437c35465e4a9616b88 ASoC: codecs: ES8326: Improving the THD+N performance
-         a3aa9255d6ccb1bff13c7c98e5d3bf10ba67f92e ASoC: codecs: ES8326: Minimize the pop noise on headphone
-         8c99a0a607b5e0cf6b79b283d7bb2c2b84e01da5 ASoC: codecs: ES8326: fix the capture noise issue
-         b53cc6144a3f6c8b56afcdec89d81195c9b0dc69 ASoC: codecs: wsa883x: fix PA volume control
-         46188db080bd1df7d2d28031b89e56f2fdbabd67 ASoC: codecs: lpass-wsa-macro: fix compander volume hack
-         aafa3acf62f1f63e620753fb9fd75095325617b2 ASoC: codecs: wcd9335: drop unused gain hack remnant
-         7c834a7265960545b17b5703e8510691350faf97 ASoC: codecs: fix ES8326 performance and pop noise
-         7c70825d1603001e09907b383ed5d1bd283d61a0 ASoC: qcom: volume fixes and codec cleanups
+         8715c23b6540d142b955efe64f91b8bc2d3cf623 spi: spi-cadence: Reverse the order of interleaved write and read operations
          
   - ref: refs/heads/for-next
-    old: d8bce659e379d993585e627201a8609aa206ce47
-    new: 9777f6f37d569d17b40ba1f09e91a4893b30b1a8
+    old: d6d471cc346ccf6b8257d168a3ef23e90dbaa17f
+    new: ac7efef2bb39e9878678c2451adf9af04bec62e7
     log: |
-         523d242d4309797e6b27c708fbd1463f301c199a ASoC: codecs: ES8326: improving crosstalk performance
-         14a0a1ec3335ac3945a96437c35465e4a9616b88 ASoC: codecs: ES8326: Improving the THD+N performance
-         a3aa9255d6ccb1bff13c7c98e5d3bf10ba67f92e ASoC: codecs: ES8326: Minimize the pop noise on headphone
-         8c99a0a607b5e0cf6b79b283d7bb2c2b84e01da5 ASoC: codecs: ES8326: fix the capture noise issue
-         b53cc6144a3f6c8b56afcdec89d81195c9b0dc69 ASoC: codecs: wsa883x: fix PA volume control
-         46188db080bd1df7d2d28031b89e56f2fdbabd67 ASoC: codecs: lpass-wsa-macro: fix compander volume hack
-         aafa3acf62f1f63e620753fb9fd75095325617b2 ASoC: codecs: wcd9335: drop unused gain hack remnant
-         7c834a7265960545b17b5703e8510691350faf97 ASoC: codecs: fix ES8326 performance and pop noise
-         7c70825d1603001e09907b383ed5d1bd283d61a0 ASoC: qcom: volume fixes and codec cleanups
-         9777f6f37d569d17b40ba1f09e91a4893b30b1a8 Merge remote-tracking branch 'asoc/for-6.9' into asoc-next
+         6685d552a0cc3a86e10dbe6d98e1b51717a27a63 dt-bindings: spi: fsl-lpspi: support i.MX95 LPSPI
+         18ab9e9e8889ecba23a5e8b7f8924f09284e33d8 dt-bindings: spi: nxp-fspi: support i.MX93 and i.MX95
+         8715c23b6540d142b955efe64f91b8bc2d3cf623 spi: spi-cadence: Reverse the order of interleaved write and read operations
+         ac7efef2bb39e9878678c2451adf9af04bec62e7 Merge remote-tracking branch 'spi/for-6.9' into spi-next
          
