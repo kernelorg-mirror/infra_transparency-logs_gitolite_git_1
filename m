@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3130667179850711148=="
+Content-Type: multipart/mixed; boundary="===============5570422985077141643=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Tue, 23 Jan 2024 20:50:03 -0000
-Message-Id: <170604300378.4964.7645556486210812344@gitolite.kernel.org>
+Date: Tue, 23 Jan 2024 20:50:07 -0000
+Message-Id: <170604300793.5632.6707144347553243803@gitolite.kernel.org>
 
---===============3130667179850711148==
+--===============5570422985077141643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/cgroup
 user: tj
 changes:
-  - ref: refs/heads/master
-    old: 861deac3b092f37b2c5e6871732f3e11486f7082
-    new: 7ed2632ec7d72e926b9e8bcc9ad1bb0cd37274bf
-    log: revlist-861deac3b092-7ed2632ec7d7.txt
-  - ref: refs/heads/for-6.9
-    old: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next
+    old: b7aaea747923ec5492d17a2e26de347135e2c6b9
     new: 8d4c171f451d384f3a287eb14bd60825d0b2381b
-  - ref: refs/heads/test-merge-for-6.8
-    old: 0000000000000000000000000000000000000000
-    new: be2990f2dbb9501747180e955b8363b86359b2bb
+    log: revlist-b7aaea747923-8d4c171f451d.txt
 
---===============3130667179850711148==
+--===============5570422985077141643==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-861deac3b092-7ed2632ec7d7.txt
+Content-Disposition: attachment; filename=revlist-b7aaea747923-8d4c171f451d.txt
 
-ab9517fa9aab71e312c7acc6fefefe080db3c972 Merge tag 'core-debugobjects-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 cdc202281a5d5e2c4bbbbf78bbd68f035a49421a Merge tag 'core-entry-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46a08b4d4836c721e012ff4c542a8baa8baa3594 Merge tag 'smp-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f24dc33f8e0a765bf9bdf1c190ae5b9a23343d65 Merge tag 'timers-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1056,5 +1049,6 @@ a5e0ace04fbf56c1794b1a2fa7a93672753b3fc7 init: Kconfig: Disable -Wstringop-overf
 5d9248eed48054bf26b3d5ad3d7073a356a17d19 Merge tag 'for-6.8-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 e01a83e12604aa2f8d4ab359ec44e341a2248b4a Revert "btrfs: zstd: fix and simplify the inline extent decompression"
 7ed2632ec7d72e926b9e8bcc9ad1bb0cd37274bf drm/ttm: fix ttm pool initialization for no-dma-device drivers
+8d4c171f451d384f3a287eb14bd60825d0b2381b docs: cgroup-v1: add missing code-block tags
 
---===============3130667179850711148==--
+--===============5570422985077141643==--
