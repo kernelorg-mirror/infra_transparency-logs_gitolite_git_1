@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5968127476771911343=="
+Content-Type: multipart/mixed; boundary="===============4659524109800685315=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Wed, 24 Jan 2024 15:53:57 -0000
-Message-Id: <170611163752.21813.10313510604458587236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Wed, 24 Jan 2024 15:53:58 -0000
+Message-Id: <170611163872.21917.15105187346469811398@gitolite.kernel.org>
 
---===============5968127476771911343==
+--===============4659524109800685315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
+repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/for-backlight-fixes
+  - ref: refs/heads/for-mfd-fixes
     old: 88603b6dc419445847923fcb7fe5080067a30f98
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
     log: revlist-88603b6dc419-6613476e225e.txt
 
---===============5968127476771911343==
+--===============4659524109800685315==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============5968127476771911343==--
+--===============4659524109800685315==--
