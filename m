@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6927674368746695262=="
+Content-Type: multipart/mixed; boundary="===============1327967021903543878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 24 Jan 2024 18:27:20 -0000
-Message-Id: <170612084019.13237.4882167722715951198@gitolite.kernel.org>
+Date: Wed, 24 Jan 2024 18:27:33 -0000
+Message-Id: <170612085398.13411.10330322343021770415@gitolite.kernel.org>
 
---===============6927674368746695262==
+--===============1327967021903543878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/irq/urgent
-    old: d3badb15613c14dd35d3495b1dde5c90fcd616dd
-    new: b184c8c2889ceef0a137c7d0567ef9fe3d92276e
-    log: revlist-d3badb15613c-b184c8c2889c.txt
+  - ref: refs/heads/irq/core
+    old: 69ffab9b9e698248cbb4042e47f82afb00dc1bb4
+    new: 22653244a9fed06f2f864b44808a85bf5c4e3ef2
+    log: revlist-69ffab9b9e69-22653244a9fe.txt
 
---===============6927674368746695262==
+--===============1327967021903543878==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d3badb15613c-b184c8c2889c.txt
+Content-Disposition: attachment; filename=revlist-69ffab9b9e69-22653244a9fe.txt
 
-1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
 fd37721803c6e73619108f76ad2e12a9aa5fafaf mm, treewide: introduce NR_PAGE_ORDERS
 5e0a760b44417f7cadd79de2204d6247109558a0 mm, treewide: rename MAX_ORDER to MAX_PAGE_ORDER
@@ -1050,5 +1046,9 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 b184c8c2889ceef0a137c7d0567ef9fe3d92276e genirq: Initialize resend_node hlist for all interrupt descriptors
+a0c446dc4d9365a24d81f2ee024bdde46e40365f irqchip/gic-v3: Use readl_relaxed_poll_timeout_atomic()
+d22083a5f09b2066728a91f3abb71284451247b1 irqchip/gic(v3): Replace gic_irq() with irqd_to_hwirq()
+9676635685fe348003a29948d9726e5d9e4b4a6e genirq: Remove unneeded forward declaration
+22653244a9fed06f2f864b44808a85bf5c4e3ef2 genirq: Deduplicate interrupt descriptor initialization
 
---===============6927674368746695262==--
+--===============1327967021903543878==--
