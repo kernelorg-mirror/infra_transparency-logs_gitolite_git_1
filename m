@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4694409175389312744=="
+Content-Type: multipart/mixed; boundary="===============8692684792390284869=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 24 Jan 2024 04:35:30 -0000
-Message-Id: <170607093033.5915.2625091215465475051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 24 Jan 2024 04:35:40 -0000
+Message-Id: <170607094022.6054.2519101287873880463@gitolite.kernel.org>
 
---===============4694409175389312744==
+--===============8692684792390284869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 774551425799cb5bbac94e1768fd69eec4f78dd4
     new: 8bf1262c53f50fa91fe15d01e5ef5629db55313c
     log: revlist-774551425799-8bf1262c53f5.txt
-  - ref: refs/heads/stable
-    old: 5d9248eed48054bf26b3d5ad3d7073a356a17d19
-    new: 7ed2632ec7d72e926b9e8bcc9ad1bb0cd37274bf
-    log: |
-         e01a83e12604aa2f8d4ab359ec44e341a2248b4a Revert "btrfs: zstd: fix and simplify the inline extent decompression"
-         7ed2632ec7d72e926b9e8bcc9ad1bb0cd37274bf drm/ttm: fix ttm pool initialization for no-dma-device drivers
-         
-  - ref: refs/tags/next-20231024
-    old: e83c5b422a2ffb69e3189af93e4d8129f73f64e7
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240124
     old: 0000000000000000000000000000000000000000
     new: 36c3eea2d7a918d38efde3ffded6da6896e38a9f
 
---===============4694409175389312744==
+--===============8692684792390284869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -701,4 +691,4 @@ b32666764faaf09fbad7eeb951536c0ec9925749 Merge branch 'for-next/execve' of git:/
 f5f80de20d4e1a04b1cbe1f07e6199610b865270 Merge branch 'bitmap-for-next' of https://github.com/norov/linux.git
 8bf1262c53f50fa91fe15d01e5ef5629db55313c Add linux-next specific files for 20240124
 
---===============4694409175389312744==--
+--===============8692684792390284869==--
