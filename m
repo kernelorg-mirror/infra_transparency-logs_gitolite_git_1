@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4798855700230333702=="
+Content-Type: multipart/mixed; boundary="===============1333361833862994638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 24 Jan 2024 02:59:59 -0000
-Message-Id: <170606519982.31576.16697560168361592327@gitolite.kernel.org>
+Date: Wed, 24 Jan 2024 03:00:15 -0000
+Message-Id: <170606521508.1022.17969746166547900025@gitolite.kernel.org>
 
---===============4798855700230333702==
+--===============1333361833862994638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: e2253770cd2499074aa23acdf88f27628723f0df
-    new: 9b960005425078e39068f713178961c87f36f199
-    log: revlist-e2253770cd24-9b9600054250.txt
+  - ref: refs/heads/6.9/scsi-staging
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: f1aa6437733a5433cf7e22d4c2058129cf98b0f8
+    log: revlist-6613476e225e-f1aa6437733a.txt
 
---===============4798855700230333702==
+--===============1333361833862994638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1706065187 -0500
+pusher 75C5DE3D 1706065203 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1706065187-6c92b0b7025aa71808a885b8e770c7d97fc1f565
+nonce 1706065202-8be72817600a333e84c2a40a07da8b135e1e799a
 
-e2253770cd2499074aa23acdf88f27628723f0df 9b960005425078e39068f713178961c87f36f199 refs/tags/mkp-scsi-staging
+6613476e225e090cc9aad49be7fa504e290dd33d f1aa6437733a5433cf7e22d4c2058129cf98b0f8 refs/heads/6.9/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWwfSMACgkQ7ulgGnXF
-3j3ThA//eMIdyohTCAbSJ050ytv/TsAPlVB9Di6+CBK4zGbIbYK127iQ8b3PSW07
-LHRdK0Vr8I9i0APg3rp2xoDJ/tL9HOlO/o/PUNTInl5sBuN3sdFNM8YPVwLJNfOx
-ud3eYWVtpVpRbCCh4QdbNN43inq6ZzQbB9+2kjssLOL04sNHoKWCgE9pGQMANvC0
-YZ3iRMh6100kSa5xrhyRDFqJ/kDTkVyVpA3WBd5EooWBqlHrpzSXHFeHdY3+ijZ7
-F7PxNdWaFbr8Bu6UxzXmHKXcWpbHagSrsaflWDl+447rgr4ymZufsC8wyaQay67F
-D6j7GfJcX29WPNiNl/zVAL/cgScf8D7xV8Bj2744HWIoRcc2A2OAjb5GlcuRnuac
-1yj8YL9Tmo1p68DQloJ6uEOWiOljIVJhE5SmMi8YLW7fhXsMHQH/xElvj8JVdBTm
-wSfC9ih/v+YDxf1FUD9/gMtzWBxV3WdP6qWphnVnqAJFVhsYQxAIYkrcv8x2+c0T
-ZrzSUU8w0w7no6x7tKWP3xZGlfvAzgWkCPxuTk9kAOqGzHYC7Y2OSiwiGiWMCX53
-s/nC6C/tQElUMeTppxmr14i2fD2P1CuAUxOkutWdR7/KSgZwNpbgVX9Wv+hGa5u4
-e8oe7XrMXKf8Eu/c+8vegK6CaYnokW6D+DPA63X0Ren2gTNCSKw=
-=/W4H
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWwfTMACgkQ7ulgGnXF
+3j0WTw//cmexAKT6INAUClzIcdOG/gFQywGPbD46D2JzITsuc/VBwuCAeiIBOnh9
+FUgLQAHye6MUIT4uA8DtGaxATJbSO8QsrUujWrWu+X+sWFntYmDjvsPI9QMPj8po
+31Ez2rk+z/xiKZ5FqVERvtmYLWvClYEYJLs2g0lZF1rXciWVqIxENuXNQk8oDI3X
+i4HyXXJpemPCAvp5ZhUyEFy68u9jg2gsu+XNg55ZgzFp8QgmtuUPQJ5mOc2j032p
+Q8y3PU5sb7Ow8BawSnwdIWitr+Pn1HGeNvtcjUSvq2bzVxgJ2gfV7AmfQzNmkQAE
+Rxo080CK1AhLESPFKrOcp/3EX+P8rlwTi6349oV3Shh5gFAXJkrKiORmdG6oLPPw
+LZPclmkxLVvtMsd7kLn37L7fM7R4//pxjHQXSMSuj7Zoq0W7mGXetUMTOH+zHbZa
+MJvdMAOvbwTwHHFdRGpJl9mBNEwDOm/a//175uW/zpiEFGQc4vuApM7tVvWMbn66
+ghQhUYPEZqIEiwJ+gxDbxoNvRphrDN9UT25/D2jpFRKgEfCrM8uzrxVlRUVk7xYd
+vuZgenJ7VptVx11RvXqhbEvZdnRxXoIupfqaB7kJcFRFO1nptP5pfyVaqbJXHm3l
+kNbok3xS52JPNdJujPRmj5vWmaFj2yAJdJKZfgAXOQr0bemJA7Q=
+=KZFj
 -----END PGP SIGNATURE-----
 
---===============4798855700230333702==
+--===============1333361833862994638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2253770cd24-9b9600054250.txt
+Content-Disposition: attachment; filename=revlist-6613476e225e-f1aa6437733a.txt
 
 2777e73fc154e2e87233bdcc0e2402b33815198e scsi: ufs: core: Add CPU latency QoS support for UFS driver
 0652205b4ce2c954a08f9cbba432aadda79c6484 scsi: ufs: ufs-mediatek: Migrate to UFSHCD generic CPU latency PM QoS support
@@ -73,4 +73,4 @@ be7fc734b658497aa8fe937c8109e0121c1881af scsi: message: fusion: Remove redundant
 29b75184f721b16c51ef6e67eec0e40ed88381c7 scsi: mpi3mr: Use ida to manage mrioc ID
 f1aa6437733a5433cf7e22d4c2058129cf98b0f8 scsi: fnic: Clean up some inconsistent indenting
 
---===============4798855700230333702==--
+--===============1333361833862994638==--
