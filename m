@@ -1,30 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 24 Jan 2024 23:20:30 -0000
-Message-Id: <170613843031.2091.13236130415478939698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 24 Jan 2024 23:37:48 -0000
+Message-Id: <170613946890.14074.5616298363646106410@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/dev-queue
-    old: c7e3af0aac3b6a77015820de2b22a76a54da6be1
-    new: a8dcaf051f099cc3ef9e75f1676a4e917577d790
+  - ref: refs/heads/master
+    old: 443b349019f2d9461b23213a4308f9cf72e41c5e
+    new: cf10015a24f36a82370151a88cb8610c8779e927
     log: |
-         ae1e0fe72bd96cc10b1527b1ac0ccdf026c57468 iavf: fix reset in early states
-         b033ef476c08d835e366ee1497b4e3c66832d974 iavf: allow an early reset event to be processed
-         b6e59a3083ccc769a14c201f2e3242ced7b2b765 ice: remove duplicate comment
-         44e6c53296e65f2506debf7a387980116a5189b9 ice: introduce PTP state machine
-         7bf6c27b03225c13d8a7e772baeca6a47adabaa3 ice: pass reset type to PTP reset functions
-         bfa1fca681bcef2ea946ea2b5516898f59c292cf ice: rename verify_cached to has_ready_bitmap
-         fb545e65f6ff11ce10b71ce7157fac24184e9de1 ice: don't check has_ready_bitmap in E810 functions
-         51bc565f17d063d0a86bc48baa74e22706de4df3 ice: rename ice_ptp_tx_cfg_intr
-         2d9c8d4e56359094905a79f2b4c084d9fedc87c0 ice: factor out ice_ptp_rebuild_owner()
-         42149683c810aa2d44f703fa6a858f8b254ef651 ice: stop destroying and reinitalizing Tx tracker during reset
-         10df98a8079cec345f96da7df12b66d72cb53aa7 ice: make ice_vsi_cfg_rxq() static
-         a8dcaf051f099cc3ef9e75f1676a4e917577d790 ice: make ice_vsi_cfg_txq() static
+         27daa514c48d5796d564ea5410cb72f78a521891 ELF, MAINTAINERS: specifically mention ELF
+         8788a17c2319f020ccdc3f2907179a5ae81b7ad6 exec: remove useless comment
+         bdd8f62431ebcf15902a5fce3336388e436405c6 exec: Add do_close_execat() helper
+         84c39ec57d409e803a9bb6e4e85daf1243e0e80b exec: Fix error handling in begin_new_exec()
+         90383cc07895183c75a0db2460301c2ffd912359 exec: Distinguish in_execve from in_exec
+         3eab830189d94f0f80f34cbff609b5bb54002679 uselib: remove use of __FMODE_EXEC
+         cf10015a24f36a82370151a88cb8610c8779e927 Merge tag 'execve-v6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
          
