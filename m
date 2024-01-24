@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 24 Jan 2024 01:25:20 -0000
-Message-Id: <170605952036.29997.17612540889248598319@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 24 Jan 2024 01:25:27 -0000
+Message-Id: <170605952760.30095.5947539068946331984@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 6941f67ad37d5465b75b9ffc498fcf6897a3c00e
-    new: 04fe7c5029cbdbcdb28917f09a958d939a8f19f7
+    old: a2a7f98aeeec48118fac73c22bd54f8889815e16
+    new: 20df28fb5bd8081a05ec34542bd45e4f3feeced5
     log: |
-         04fe7c5029cbdbcdb28917f09a958d939a8f19f7 selftests: fill in some missing configs for net
+         a6348a7104e0dac7b9b4b7042c3c8c36b81d71e7 net/ipv6: Remove unnecessary pr_debug() logs
+         20df28fb5bd8081a05ec34542bd45e4f3feeced5 net/ipv6: resolve warning in ip6_fib.c
          
