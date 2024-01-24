@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5474748840742935114=="
+Content-Type: multipart/mixed; boundary="===============9017029527871758078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Wed, 24 Jan 2024 19:07:53 -0000
-Message-Id: <170612327338.11261.12268091294987345559@gitolite.kernel.org>
+Date: Wed, 24 Jan 2024 19:10:07 -0000
+Message-Id: <170612340707.13735.9651838346640363693@gitolite.kernel.org>
 
---===============5474748840742935114==
+--===============9017029527871758078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-fixes
-    old: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
-    new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-a39b6ac3781d-6613476e225e.txt
+  - ref: refs/heads/counter-next
+    old: 49ca40f8d6ceb76bff83713f79215d8e6252f045
+    new: 0b3bbd8f9baf245ec77d86f6f5bc902105b4bfa9
+    log: revlist-49ca40f8d6ce-0b3bbd8f9baf.txt
 
---===============5474748840742935114==
+--===============9017029527871758078==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a39b6ac3781d-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-49ca40f8d6ce-0b3bbd8f9baf.txt
 
-4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1050,5 +1049,6 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
+0b3bbd8f9baf245ec77d86f6f5bc902105b4bfa9 counter: linux/counter.h: fix Excess kernel-doc description warning
 
---===============5474748840742935114==--
+--===============9017029527871758078==--
