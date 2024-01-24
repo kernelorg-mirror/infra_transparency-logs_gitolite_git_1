@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7218797974444482236=="
+Content-Type: multipart/mixed; boundary="===============0335678918508483499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 24 Jan 2024 02:59:23 -0000
-Message-Id: <170606516395.31110.12991308160755205264@gitolite.kernel.org>
+Date: Wed, 24 Jan 2024 02:59:39 -0000
+Message-Id: <170606517904.31285.1712389892307949172@gitolite.kernel.org>
 
---===============7218797974444482236==
+--===============0335678918508483499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 1a9bfa74959d512ce34eb29af655b587ab82aab7
-    new: b330201fa32791db71280229c90ddaec06fbeeb5
+  - ref: refs/heads/6.8/scsi-fixes
+    old: 52998cdd8d3438df9a77c858a827b8932da1bb28
+    new: f4469f3858352ad1197434557150b1f7086762a0
     log: |
          4373534a9850627a2695317944898eb1283a2db0 scsi: core: Move scsi_host_busy() out of host lock for waking up EH handler
          f4469f3858352ad1197434557150b1f7086762a0 scsi: storvsc: Fix ring buffer size calculation
          
 
---===============7218797974444482236==
+--===============0335678918508483499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1706065149 -0500
+pusher 75C5DE3D 1706065167 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1706065149-0facb4fa2995d190578e96372219e45d1b4dab57
+nonce 1706065166-5c71dbaf61871240a0527bc0c6a931d0364d3046
 
-1a9bfa74959d512ce34eb29af655b587ab82aab7 b330201fa32791db71280229c90ddaec06fbeeb5 refs/tags/mkp-scsi-fixes
+52998cdd8d3438df9a77c858a827b8932da1bb28 f4469f3858352ad1197434557150b1f7086762a0 refs/heads/6.8/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWwfP0ACgkQ7ulgGnXF
-3j03UQ/+JDm8v+PAmzgBvuANdcZioCRDGmGewASjOawQbTJoTw36TqbMPyoR1ass
-sMcRPjT1jAn3uMO39rr90dMava/vC96KOMaoMBengjeV6xL5ZPN463wAh0v6DH4i
-gwLByP7jzRSSvjURRVBY4NbRDZOjzJ/Z6WZqrX/lgSU1TtyL+se6sizTlgCLPQA4
-dS7E4i7DbMroPpd/Om1SIvCBSGvH5PaGmJ4xITdt/iHYHM8kexnb1cnls79FaRFJ
-6Szt73A1sNn6y0rczhwLLdgbjD/kFrDlb/FIx/7pjvuzfKy2G2jM7mghBvDEd0So
-KZh5BmCu5dVDpesn7co+HkawXsWQ2ixybVw2OimsYw9vYUhZ0kgoOJ4Gg+Cajt1Z
-XRleoLeiZPjExUcPNsizdRHhYDW3Qpl0Qe8WaVdYAs3M2bqCwatu/N2OTYBBnb+w
-o+CuzOL+h/VHkID2e9FPtntMrSlrP7Sv9Ufx1+WxwUG88yzKvDCHCrtW+nrxGn0R
-LTEJ59a40YfEN/FLYyzujsym2tmNlfzIBQj6OyLfHuGXdxXoh2jf8kEXD6UKnnyQ
-W/3u6JfnSXUppNwnzrJnTfcfDqUPFNpfN4gLW7pb2JeZ1z66MEyH4164Mq/dnwHQ
-hcZn5f2uT4TmMwKSM93kGruGEMcv/FVxEmkxG4IoHgP+BE0R/nQ=
-=rhDh
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWwfQ8ACgkQ7ulgGnXF
+3j3b7RAAlgiz0bDW83GT82Iru1vo5uqK6/HMxNkhOEJnzJX9lDjzJMfCKBnfHQwQ
+RPqifVMlwyIjeTaxOWGtZ/uFo81apsjqav3mYw7VK40CHCrsznYOFtGULYSa5Qwy
+65VsOXIXAW0aTmtkkVYe6j1qEPT+giPi7Qrw7TvvCdWBg9aejo43n+OGBzAPSPos
+lxT3mnjwxqD9cKdARsMAIu8HsDgxA/iu4DuZE2n5MHujRI7SGA/0BpIpIRzX2/22
+XctWVEJAOzmOQP6gvviXWrkaOj2DcCYoCzK3Np6Rc5iT7FSOFK/yNSpTBXJTth5e
+4UPPh0qsO3hKfaf+MYulnNmYHDLhUVIfoKwLCSeW1IzXdtvyTABikxFWTusFs1mr
+1fzF/d/indZw4E2fZqOKcvL1Jcp+/8OBPmVUq58EGfPsF4fo+Q7v0PfL5qfcyg5/
+XiOSm8KxHOjOQipCK/A2Zi2iv+PxCAM1HPeAaTsvpgdSQq9BlAudoV/983N5adUD
+p2tWh3bE4kxsicySxP2xClkP45W//bqegWEljLOm07Mgrq51jm1ZZheYCPiHRYPl
+0Q62U1d76UDWauJ1nlyRB/o2tFbW56JlKMHvL9HO9ow+w2XtBMRrfQEVQTOJXdB+
+g9YSmnmKXtejIxO/cAT7B61gCuh6nE2V7NOpxXfpmcjPNaVtoKI=
+=3NTO
 -----END PGP SIGNATURE-----
 
---===============7218797974444482236==--
+--===============0335678918508483499==--
