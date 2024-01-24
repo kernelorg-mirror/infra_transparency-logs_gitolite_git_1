@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6682453257117184727=="
+Content-Type: multipart/mixed; boundary="===============7942615282617673892=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 24 Jan 2024 22:14:37 -0000
-Message-Id: <170613447719.17573.12406779669285320877@gitolite.kernel.org>
+Date: Wed, 24 Jan 2024 22:14:50 -0000
+Message-Id: <170613449039.17721.362401467610825785@gitolite.kernel.org>
 
---===============6682453257117184727==
+--===============7942615282617673892==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/for-current
+  - ref: refs/heads/i2c/for-next
     old: 6eaae198076080886b9e7d57f4ae06fa782f90ef
     new: cf10015a24f36a82370151a88cb8610c8779e927
     log: revlist-6eaae1980760-cf10015a24f3.txt
 
---===============6682453257117184727==
+--===============7942615282617673892==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ e01a83e12604aa2f8d4ab359ec44e341a2248b4a Revert "btrfs: zstd: fix and simplify t
 3eab830189d94f0f80f34cbff609b5bb54002679 uselib: remove use of __FMODE_EXEC
 cf10015a24f36a82370151a88cb8610c8779e927 Merge tag 'execve-v6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 
---===============6682453257117184727==--
+--===============7942615282617673892==--
