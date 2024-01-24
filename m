@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 24 Jan 2024 22:45:22 -0000
-Message-Id: <170613632201.8982.856660125984315954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Wed, 24 Jan 2024 23:10:55 -0000
+Message-Id: <170613785540.26943.482409127565019604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/master
-    old: d7a86ba206b9c14b21a7fac4f7ce38e62e641b0d
-    new: 944f3881b61fb9a41a67a28285c1b03d71f7225c
+  - ref: refs/heads/main
+    old: 325c96e749436fc8305e7a67a6f1e54e37045450
+    new: 64ed1886e719f40acb554ac895305acb43f27bea
     log: |
-         944f3881b61fb9a41a67a28285c1b03d71f7225c Wed Jan 24 10:43:43 PM UTC 2024
+         da5a2d94dc012a923133e94bed25a67f6bd74657 color: handle case where fmt is NULL
+         64ed1886e719f40acb554ac895305acb43f27bea bpf: include libgen.h for basename
          
