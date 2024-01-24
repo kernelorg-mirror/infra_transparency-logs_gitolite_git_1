@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8315832943590594520=="
+Content-Type: multipart/mixed; boundary="===============1895335431527633280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 24 Jan 2024 23:16:50 -0000
-Message-Id: <170613821045.31174.2082642502145684743@gitolite.kernel.org>
+Date: Wed, 24 Jan 2024 23:17:25 -0000
+Message-Id: <170613824503.31458.6087796056905806709@gitolite.kernel.org>
 
---===============8315832943590594520==
+--===============1895335431527633280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 32f2a0afa95fae0d1ceec2ff06e0e816939964b8
-    new: 77be22473b28f0538d69d58f64d35091095688cd
-    log: revlist-32f2a0afa95f-77be22473b28.txt
+  - ref: refs/heads/dev-queue
+    old: 885867bd77a86aa6780728700c86fb315ef9ab62
+    new: 36f8f3c5f06a3d1c1b634d2304f80b172a246fb6
+    log: revlist-885867bd77a8-36f8f3c5f06a.txt
 
---===============8315832943590594520==
+--===============1895335431527633280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32f2a0afa95f-77be22473b28.txt
+Content-Disposition: attachment; filename=revlist-885867bd77a8-36f8f3c5f06a.txt
 
 a5f5eee282a0aae80227697e1d9c811b1726d31d net: stmmac: Wait a bit for the reset to take effect
 9f538b415db862e74b8c5d3abbccfc1b2b6caa38 net: mvpp2: clear BM pool before initialization
@@ -41,5 +41,16 @@ bb567fbbbbb41d61b685e224098806a90df8cef2 net: fill in MODULE_DESCRIPTION()s for 
 07d1e0ce874377a88c13bb56a336d6c544367837 net: fill in MODULE_DESCRIPTION()s for litex
 bdc6734115d7f66d8bea155454d4ce9259821660 net: fill in MODULE_DESCRIPTION()s for rvu_mbox
 77be22473b28f0538d69d58f64d35091095688cd Merge branch 'fix-module_description-for-net-p2'
+a1a228612cf17f1a6c4790af1a86ea92061a1344 i40e: Fix waiting for queues of all VSIs to be disabled
+c3ec4c7751b28987a6b2bdbb9a3620d9a1e4fddb i40e: Fix wrong mask used during DCB config
+cb01e6c85abc7c193b95bc3889704f018f7952e1 e1000e: correct maximum frequency adjustment values
+2ca4622379accd45e9fb987669ef13f363d0f630 e1000e: remove force SMBUS from ULP enable flow to avoid PHY loss issue
+e296d7e8b6e71fc37dd5eb324407802362c8d5d1 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+4e077393260c5980d31fddc6cb9537b409115fd2 idpf: avoid compiler padding in virtchnl2_ptype struct
+280b6a5821eaf8e4b082e7ea0951f8dc35341ef6 igb: Fix string truncation warnings in igb_set_fw_version
+65e925c0be0a87e008ab8d93482d1f89b9bebd15 ice: Add check for lport extraction to LAG init
+466202d6635dd4a428a5130b823b58791c5a00e0 ixgbe: Fix an error handling path in ixgbe_read_iosf_sb_reg_x550()
+d3d1375c7c916e7a18741df7db24e03185a35f3a iavf: fix reset in early states
+36f8f3c5f06a3d1c1b634d2304f80b172a246fb6 iavf: allow an early reset event to be processed
 
---===============8315832943590594520==--
+--===============1895335431527633280==--
