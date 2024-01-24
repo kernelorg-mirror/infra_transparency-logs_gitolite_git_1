@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4809000664707202947=="
+Content-Type: multipart/mixed; boundary="===============2873997233081387806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Wed, 24 Jan 2024 18:59:42 -0000
-Message-Id: <170612278215.3651.3704792832532830823@gitolite.kernel.org>
+Date: Wed, 24 Jan 2024 18:59:52 -0000
+Message-Id: <170612279201.3804.15112291829262298854@gitolite.kernel.org>
 
---===============4809000664707202947==
+--===============2873997233081387806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/counter-current
     old: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
     log: revlist-a39b6ac3781d-6613476e225e.txt
 
---===============4809000664707202947==
+--===============2873997233081387806==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============4809000664707202947==--
+--===============2873997233081387806==--
