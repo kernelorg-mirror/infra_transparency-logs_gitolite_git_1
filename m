@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Wed, 24 Jan 2024 22:34:14 -0000
-Message-Id: <170613565486.30999.16835318320252737403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
+Date: Wed, 24 Jan 2024 22:34:20 -0000
+Message-Id: <170613566092.31104.643600917194930653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
+repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
 user: rostedt
 changes:
   - ref: refs/heads/master
