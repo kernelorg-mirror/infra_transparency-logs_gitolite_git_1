@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 24 Jan 2024 15:22:30 -0000
-Message-Id: <170610975012.31382.13979240218882913338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 24 Jan 2024 15:33:49 -0000
+Message-Id: <170611042937.6228.10854243848933589311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/x86-pie-for-sev-v2
-    old: c11c3a47b9b3764d7585b8a647bb958d5d81326c
-    new: b8b16573b6d0090db2f530fb9c5f049650806e61
-    log: |
-         b8b16573b6d0090db2f530fb9c5f049650806e61 x86/sev: Drop inline asm LEA instructions for RIP-relative references
-         
+  - ref: refs/heads/dev
+    old: 2ca82c777c258d85e932581f1bb1ab5704bdd23e
+    new: 8230dd8db9c65e85bf612152df59b4a8c056a6af
