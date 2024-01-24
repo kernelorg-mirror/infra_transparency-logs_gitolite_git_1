@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8755214491018878550=="
+Content-Type: multipart/mixed; boundary="===============3260614057937967664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 24 Jan 2024 18:10:44 -0000
-Message-Id: <170611984417.1972.11719816667745784049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 24 Jan 2024 18:10:50 -0000
+Message-Id: <170611985039.2074.4790948375337588823@gitolite.kernel.org>
 
---===============8755214491018878550==
+--===============3260614057937967664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/spi-6.8
     old: de8b6e1c231a95abf95ad097b993d34b31458ec9
     new: 2f8c7c3715f2c6fb51a4ecc0905c04dd78a3da29
     log: |
          2f8c7c3715f2c6fb51a4ecc0905c04dd78a3da29 spi: Raise limit on number of chip selects
          
 
---===============8755214491018878550==
+--===============3260614057937967664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1706119842 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1706119842-37185aef0511dfc80bf2847015b1e929e0810d16
+pusher C3F436CA30F5D8EB 1706119848 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1706119848-041287f2c96576de6c61efe0a2d017eecb02a51d
 
-de8b6e1c231a95abf95ad097b993d34b31458ec9 2f8c7c3715f2c6fb51a4ecc0905c04dd78a3da29 refs/heads/for-6.8
+de8b6e1c231a95abf95ad097b993d34b31458ec9 2f8c7c3715f2c6fb51a4ecc0905c04dd78a3da29 refs/heads/spi-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWxUqIACgkQJNaLcl1U
-h9C0Sgf/Qy8XM0gXis0K+PIHX7QpPyQIBrVoboumHmlz8+LDdBTDSlS5ODnQh+A6
-HNQVjGyVNCDf48sfAHA98UYKmwiSWVnjOKDtY+z8elOKCi1AlzAOcW7UeC343fvT
-7vXTT9apWQlQOkNHfR4RBmB/KgaD6BR82WE3blZ+C49UcuUGlnBVXpmqgButTLSD
-fhRjZygPaK3RlpKV3rLbD5s1vYpzBnplOB0RPj4/UgHBPvLiiWeKEonGPpQT4nPX
-9UYCdkkokEiAvPhqUTteHYGp/MkqjkkAFi7ffWmqZfTe+ciozlsrXX8QHY3SyCD0
-nVOQDygY1mJTHxBi5qpR+DuxfnZT8Q==
-=JyEI
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWxUqgACgkQJNaLcl1U
+h9AJIAf8CO3aPIRMn2pXDJ0HuAgNTJflHS+E85YY2rBy31bX54P2kHTCgn1YSr/H
+6kBejYja3zSOgr98cqTcoIv0MnvtoRq9cN7ZjdWl9k9q9mI0BMTGQePB8pZO4+6z
+8jclilFDfQJq9N4PTSDdZ9COe2a+FsuPW9TbtZuXzJwMO91jOQx3AGLvygHpF09g
+VlveubOp/qlG2ImD5KZ2YnUDiBqSUq2Lw170qmE2f9QhdaBqQPYkxUXxKsE0dTh1
+2X1HBF0J/8MYyQhpKYt7HFmzHFQo8ddGmVQDbK9B4AoLE1DzYKMJ/gzfRqG/9T3d
+LLF/wv4aSLFqvcoH9pq4UZsC0sSEQg==
+=NQJ2
 -----END PGP SIGNATURE-----
 
---===============8755214491018878550==--
+--===============3260614057937967664==--
