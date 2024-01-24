@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5107969580629632749=="
+Content-Type: multipart/mixed; boundary="===============0877930684078062102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 24 Jan 2024 01:24:20 -0000
-Message-Id: <170605946051.27926.3647059358321131662@gitolite.kernel.org>
+Date: Wed, 24 Jan 2024 01:24:38 -0000
+Message-Id: <170605947818.28100.7915089322407948871@gitolite.kernel.org>
 
---===============5107969580629632749==
+--===============0877930684078062102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: martin.lau
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b7d1af3791036a619ca8ffde5f832111b05ca833
     new: 8b593021319d4893a8fbeb7bd1f668657e68403c
     log: revlist-b7d1af379103-8b593021319d.txt
 
---===============5107969580629632749==
+--===============0877930684078062102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ f6be98d19985411ca1f3d53413d94d5b7f41c200 bpf, net: switch to dynamic registratio
 0253e0590e2dc46996534371d56b5297099aed4e selftests/bpf: test case for register_bpf_struct_ops().
 8b593021319d4893a8fbeb7bd1f668657e68403c Merge branch 'Registrating struct_ops types from modules'
 
---===============5107969580629632749==--
+--===============0877930684078062102==--
