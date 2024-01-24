@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Wed, 24 Jan 2024 23:10:55 -0000
-Message-Id: <170613785540.26943.482409127565019604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 24 Jan 2024 23:11:29 -0000
+Message-Id: <170613788986.27254.4472776725958830568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: 325c96e749436fc8305e7a67a6f1e54e37045450
-    new: 64ed1886e719f40acb554ac895305acb43f27bea
+    old: 0719b5338a0cbe80d1637a5fb03d8141b5bfc7a1
+    new: 0879020a7817e7ce636372c016b4528f541c9f4d
     log: |
-         da5a2d94dc012a923133e94bed25a67f6bd74657 color: handle case where fmt is NULL
-         64ed1886e719f40acb554ac895305acb43f27bea bpf: include libgen.h for basename
+         0879020a7817e7ce636372c016b4528f541c9f4d selftests: netdevsim: fix the udp_tunnel_nic test
          
