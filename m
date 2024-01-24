@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 24 Jan 2024 23:54:33 -0000
-Message-Id: <170614047306.24931.4237888771710873850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 24 Jan 2024 23:57:33 -0000
+Message-Id: <170614065335.27659.10059876705319572270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 0382b6f0605b4d3aa55ae037aa9f049a63f09318
-    new: 33a07f5c5d3861ffc05d28eea8ef87fa3ae75b4f
+  - ref: refs/heads/for-next
+    old: d7e76ce7b76e104936d0898080b1255a848ea0b1
+    new: 7f43d57b900d7e221a73204239b74d4001193599
     log: |
-         33a07f5c5d3861ffc05d28eea8ef87fa3ae75b4f Drop keys-encrypted-add-check-for-strsep.patch
+         8246601a7d391ce8207408149d65732f28af81a1 riscv: tlb: fix __p*d_free_tlb()
+         40d1bb92a49313b3e0dc5513fdd2578362c40312 riscv: tlb: convert __p*d_free_tlb() to inline functions
+         69be3fb111e73bd025ce6d2322371da5aa497c70 riscv: enable MMU_GATHER_RCU_TABLE_FREE for SMP && MMU
+         3f910b7a522e064d7261f31a00d9c9dca31d902a riscv: enable HAVE_FAST_GUP if MMU
+         7f43d57b900d7e221a73204239b74d4001193599 Merge patch series "riscv: support fast gup"
          
