@@ -1,26 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 24 Jan 2024 10:57:58 -0000
-Message-Id: <170609387857.1352.7274316578247032765@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4201715169163492008=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 24 Jan 2024 11:01:45 -0000
+Message-Id: <170609410564.4446.14291977635094362765@gitolite.kernel.org>
+
+--===============4201715169163492008==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 451b2bc29430fa147e36a48348f8b6b615fd6820
-    new: 51af95d9040b0cd23bf15d79cafa069e2c96f44c
+  - ref: refs/heads/review-ilpo
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: e5afa3d7a91bb673018a2a9540c12c82e64e652c
     log: |
-         0976783bb123f30981bc1e7a14d9626a6f63aeac x86/resctrl: Remove hard-coded memory bandwidth limit
-         54e35eb8611cce5550d3d7689679b1a91c864f28 x86/resctrl: Read supported bandwidth sources from CPUID
-         49527ca264341f9b6278089e274012a2db367ebf Documentation/kernel-parameters: Add spec_rstack_overflow to mitigations=off
-         c2427e70c1630d98966375fffc2b713ab9768a94 x86/resctrl: Implement new mba_MBps throttling heuristic
-         56062d60f117dccfb5281869e0ab61e090baf864 x86/entry/ia32: Ensure s32 is sign extended to s64
-         c13125f57d4f63f9972d088d1c758c662cf85de6 Merge branch into tip/master: 'x86/urgent'
-         4782357520defd44de843f5e3639989abca96aee Merge branch into tip/master: 'x86/cache'
-         51af95d9040b0cd23bf15d79cafa069e2c96f44c Merge branch into tip/master: 'x86/misc'
+         214509e5d61d294193b220f397418e76879f74c0 platform/x86: thinkpad_acpi: remove redundant assignment to variable i
+         890a48ca7b05406c538505a92148de7ab0d50591 platform/x86: silicom-platform: clean up a check
+         2cee4d0c82c023c9012a3a8814cc5c2bcc9b6db6 platform/x86: remove obsolete calls to ledtrig_audio_get
+         0959afbafaf8791a9810fba2c55a64dfdcc3b66e platform/x86: Support for mode FN key
+         e5afa3d7a91bb673018a2a9540c12c82e64e652c drivers/platform/mellanox: Convert snprintf to sysfs_emit
          
+
+--===============4201715169163492008==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1706094100 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1706094100-f32ef656c09f4e70fc133a7817020af347add23b
+
+6613476e225e090cc9aad49be7fa504e290dd33d e5afa3d7a91bb673018a2a9540c12c82e64e652c refs/heads/review-ilpo
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZbDuFwAKCRBZrE9hU+XO
+MXtVAQCF+JKv7q92gOEaAXST/6PiVXcwU8ixW9tSU0+fmrxKPQD+J7oedKfB0eDl
+NgQYm/ADXAQaByDTRrKJDQWQYKbYvQc=
+=3HVV
+-----END PGP SIGNATURE-----
+
+--===============4201715169163492008==--
