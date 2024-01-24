@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Wed, 24 Jan 2024 20:30:05 -0000
-Message-Id: <170612820554.7011.18244010948508286444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 24 Jan 2024 20:30:38 -0000
+Message-Id: <170612823817.7278.11407779693946281380@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 1ee0469f6d180a98d31196bea787f37269ff9cdd
-    new: 7f250f7514bacef1a3cea24a22ecce8bd30378bd
+  - ref: refs/heads/main
+    old: a5f5eee282a0aae80227697e1d9c811b1726d31d
+    new: 9f538b415db862e74b8c5d3abbccfc1b2b6caa38
     log: |
-         7f250f7514bacef1a3cea24a22ecce8bd30378bd ci: resolve GitHub Actions Node.js warnings
+         9f538b415db862e74b8c5d3abbccfc1b2b6caa38 net: mvpp2: clear BM pool before initialization
          
