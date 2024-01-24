@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Wed, 24 Jan 2024 22:43:18 -0000
-Message-Id: <170613619857.6578.10108556573020775439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 24 Jan 2024 22:45:22 -0000
+Message-Id: <170613632201.8982.856660125984315954@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/integrity-v6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d051e89e7356260709f212bf68fa8a50a95aa77f
+  - ref: refs/heads/master
+    old: d7a86ba206b9c14b21a7fac4f7ce38e62e641b0d
+    new: 944f3881b61fb9a41a67a28285c1b03d71f7225c
+    log: |
+         944f3881b61fb9a41a67a28285c1b03d71f7225c Wed Jan 24 10:43:43 PM UTC 2024
+         
