@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krisman/unicode
-Date: Wed, 24 Jan 2024 20:05:53 -0000
-Message-Id: <170612675396.21393.10250688404728796625@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 24 Jan 2024 20:26:35 -0000
+Message-Id: <170612799558.3956.844374076898745381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krisman/unicode
-user: krisman
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: 7f29d67809293992a721edeab3903ad498e0e9cd
-    new: 367122c529f35b4655acbe33c0cc4d6d3b32ba71
+  - ref: refs/heads/master
+    old: d47288a47ade003e3d994b779d0a760e9b6820d8
+    new: 8018ada39ca0f50c406ae7fb8a7fc240cc977811
     log: |
-         367122c529f35b4655acbe33c0cc4d6d3b32ba71 libfs: Attempt exact-match comparison first during casefolded lookup
+         8018ada39ca0f50c406ae7fb8a7fc240cc977811 Wed Jan 24 08:25:08 PM UTC 2024
          
