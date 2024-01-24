@@ -1,53 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5588888444271351328=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Wed, 24 Jan 2024 20:38:20 -0000
-Message-Id: <170612870035.13320.13452417881116001577@gitolite.kernel.org>
-
---===============5588888444271351328==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 24 Jan 2024 20:50:03 -0000
+Message-Id: <170612940369.22175.15168868417592876440@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/tags/v6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a0706eba72b90a4702dde6a0b8cc82d78e9b2495
-
---===============5588888444271351328==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Stephen Boyd <sboyd@kernel.org> 1706128699 -0800
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
-nonce 1706128699-6885c44519f892c0469c275d3ef3ab0f41dad7da
-
-0000000000000000000000000000000000000000 a0706eba72b90a4702dde6a0b8cc82d78e9b2495 refs/tags/v6.8-rc1
------BEGIN PGP SIGNATURE-----
-
-iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmWxdTsRHHNib3lkQGtl
-cm5lbC5vcmcACgkQrQKIl8bklSVIFBAAy3RMaCrvT4d09y2nDXA2XR8unzinqfu0
-ZIqJUsKxGWfiW/7Zbw4/wfQ8xMdjNSVoGFqoqJ1JmuB0qsPaGIY+cpyvnr++1+yL
-q/ekd8f+u8gJBBezSL7ZG2r22MqRBw7a8kzJx5DhbSfMOX7kqxjDFx5y/2XYOIQo
-91os4y6xJrvYdNLqOYBIk8ByEhTzk8+8tVfOgGVvW1zh9kt2IEu5UARo3qp+YUDW
-JpOjLP5Drutil/BE2bImKjXOr+pHgX0+tepYzBdlqH4Bjcly1rVuU4zHfBWTt3fD
-wvyed5XbhWcJ2EIxr3mpvBWdN0/nyOTeUZrTd4etBK73Bv20/YeNX4i1YGDcPI3E
-C+JCDIdjdhTRCXeBOlQuqtipr5eKgpuHiHm/AGcdA4jrjNXv/YkeBZAcvjn3dLXG
-zHny6TqHIJMdToiVOcClDjTZdM/0etPb8uj2E1/jzvmUhFNU7//K7c2AZbpNLd5n
-XE+RRFj6v3mrjkvnNiyBTpcQMKo3+a1TbfkmSoGnoIiGEY1lpx1jNz+Mdlen1KIN
-i/CrGFtt2aU8gKCrxYQdADfccgBs5Sq7FFUHGuFND8PTUknGhF7BeGzUAkMMzkAM
-NEHiAt/m5LF1nj1FPA6Bg0/e2Cj5ma90PQOItpVE24HwjQRdsbRE5osQ8qk5PsHa
-elky7PDs/S8=
-=WddU
------END PGP SIGNATURE-----
-
---===============5588888444271351328==--
+  - ref: refs/heads/master
+    old: 615d300648869c774bd1fe54b4627bb0c20faed4
+    new: 4759ff71f23e1a9cba001009abab68cde6dc327a
+    log: |
+         fead90507a37e73d41f6059b325b34412ed8d84b fbdev: vt8500lcdfb: Remove unnecessary print function dev_err()
+         04e5eac8f3ab2ff52fa191c187a46d4fdbc1e288 fbdev: savage: Error out if pixclock equals zero
+         e421946be7d9bf545147bea8419ef8239cb7ca52 fbdev: sis: Error out if pixclock equals zero
+         018856c3f171517c66d5d7d3755ae0c517924fd7 fbcon: Fix incorrect printed function name in fbcon_prepare_logo()
+         4b088005c897a62fe98f70ab69687706cb2fad3b fbdev: stifb: Fix crash in stifb_blank()
+         1110ebe058268b5425c69a23a99456f2331063bf Merge tag 'fbdev-for-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
+         4759ff71f23e1a9cba001009abab68cde6dc327a exec: Check __FMODE_EXEC instead of in_execve for LSMs
+         
