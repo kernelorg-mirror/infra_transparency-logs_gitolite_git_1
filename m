@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Thu, 25 Jan 2024 16:22:42 -0000
-Message-Id: <170619976209.15317.7917476579313373958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Thu, 25 Jan 2024 16:23:48 -0000
+Message-Id: <170619982812.15821.349277274438120687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/for-next
-    old: 292feca57fd9ce1ec91e45c93a1e7d02c477dd93
-    new: 3f105cfbe8a3d4da4a805602f59c58d5924b1f54
+  - ref: refs/heads/for-6.9
+    old: 7bd20b6b87183db2ebf789bcf9d0aa6d06a0defb
+    new: a6b48c83d28e21ddcd6a080128bb73f9e3d130ac
     log: |
-         20730e9b277873deeb6637339edcba64468f3da3 ahci: add 43-bit DMA address quirk for ASMedia ASM1061 controllers
-         3f105cfbe8a3d4da4a805602f59c58d5924b1f54 Merge remote-tracking branch 'libata/for-6.8-fixes' into for-next
+         a6b48c83d28e21ddcd6a080128bb73f9e3d130ac tools/workqueue/wq_dump.py: Clean up code and drop duplicate information
+         
+  - ref: refs/heads/for-next
+    old: 7bd20b6b87183db2ebf789bcf9d0aa6d06a0defb
+    new: a6b48c83d28e21ddcd6a080128bb73f9e3d130ac
+    log: |
+         a6b48c83d28e21ddcd6a080128bb73f9e3d130ac tools/workqueue/wq_dump.py: Clean up code and drop duplicate information
          
