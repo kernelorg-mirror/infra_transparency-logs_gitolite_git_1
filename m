@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
-Date: Thu, 25 Jan 2024 20:54:06 -0000
-Message-Id: <170621604643.28056.11783071539385845913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Thu, 25 Jan 2024 21:00:22 -0000
+Message-Id: <170621642257.1163.8627497271319069359@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sysctl/sysctl
-user: joel.granados
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/heads/sysctl-next
-    old: 0000000000000000000000000000000000000000
-    new: 6613476e225e090cc9aad49be7fa504e290dd33d
+  - ref: refs/heads/fixes
+    old: d72a4caf685989e353dff0a97d7376ee10edbf87
+    new: d76779dd3681c01a4c6c3cae4d0627c9083e0ee6
+    log: |
+         d76779dd3681c01a4c6c3cae4d0627c9083e0ee6 cxl/region：Fix overflow issue in alloc_hpa()
+         
