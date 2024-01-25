@@ -1,31 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============0541295833884409557=="
+Content-Type: multipart/mixed; boundary="===============5408167913073879766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Thu, 25 Jan 2024 13:55:56 -0000
-Message-Id: <170619095630.6468.5194576743948650639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Thu, 25 Jan 2024 13:56:01 -0000
+Message-Id: <170619096143.6586.16548244277490934942@gitolite.kernel.org>
 
---===============0541295833884409557==
+--===============5408167913073879766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/backlight
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 4289e434c46c8cbd32cf8b67fa7689b3d2ca4361
-    new: 54602f38551e89b520611ffb9df05232d1bf73f8
-    log: revlist-4289e434c46c-54602f38551e.txt
+  - ref: refs/heads/for-backlight-next
+    old: 7d84a63a39b78443d09f2b4edf7ecb1d586379b4
+    new: 3b75d271e161e22aff8171940a77510d2fb2ad6f
+    log: revlist-7d84a63a39b7-3b75d271e161.txt
 
---===============0541295833884409557==
+--===============5408167913073879766==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4289e434c46c-54602f38551e.txt
+Content-Disposition: attachment; filename=revlist-7d84a63a39b7-3b75d271e161.txt
 
+1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
+fd37721803c6e73619108f76ad2e12a9aa5fafaf mm, treewide: introduce NR_PAGE_ORDERS
+5e0a760b44417f7cadd79de2204d6247109558a0 mm, treewide: rename MAX_ORDER to MAX_PAGE_ORDER
+e900042f04848b5be9238d866df0952cfc548cf9 Merge tag 'x86_sev_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+bef91c28f28fe8a36b91e9a39f60054ae1874280 Merge tag 'x86_cpu_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3edbe8afb617a736ae0dcc877311bdb112a00123 Merge tag 'ras_core_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+968b80332432172dbbb773e749a43bdc846d1a13 Merge tag 'powerpc-6.8-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+3cf1d6a5fbf3f724d12b01635319924239d42c00 Merge tag 'm68k-for-v6.8-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
+ab5f3fcb7c72094684760e0cd8954d8d570b5e83 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+c3a11c0ec66c1e0652e3a2bb4f5cc74eea0ba486 cifs: delete unnecessary NULL checks in cifs_chan_update_iface()
+33034c4f9497b7fe33b0d97740a4bf1c0552316b Merge tag 'x86-apic-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+106b88d7a91e2b4d40369a20b8ef07bb827dafd5 Merge tag 'x86-asm-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f73857ece4d85d2ee36571df9c13a733f3ba2732 Merge tag 'x86-boot-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+42c371f8ec4296cee49b10d8e6be50aae90f2d70 Merge tag 'x86-build-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b51cc5d02834a9c38cfd95b00b7d981b701b13f9 Merge tag 'x86-cleanups-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 33677aef32cf07ebbed07647e88136258c4b95ba Merge tag 'x86-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2fdbcf715a1b9dd1468317f7cd4b4cd327a09781 Merge tag 'x86-entry-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1031,24 +1049,6 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-f4c098d1d58bf15c3272c0e0ab263a2ac25d50dd leds: trigger: netdev: Skip setting baseline state in activate if hw-controlled
-36b96910ef6d5e2a5b0aee1356168a4ec4dcb302 dt-bindings: leds: leds-qcom-lpg: Add support for LPG PPG
-8148c8234e101daa0d1c4a73463dc4b5867ef9b9 leds: rgb: leds-qcom-lpg: Add support for PPG through single SDAM
-65753334f85859d757af06c59686b68a4a9956d4 leds: rgb: leds-qcom-lpg: Update PMI632 lpg_data to support PPG
-e0b86093f4ea24e435f8c9b7979852b8ccd00ac4 leds: rgb: leds-qcom-lpg: Include support for PPG with dedicated LUT SDAM
-fce41451795e5116cdcc59f14c138d0df446565b leds: rgb: Update PM8350C lpg_data to support two-nvmem PPG Scheme
-21e8fcd962bbef3c05ea5b676b91432a7907081e leds: trigger: Load trigger modules on-demand if used as default trigger
-13a566490cde00bef4c934fc7dd3575e1f28c821 leds: trigger: netdev: Add module alias ledtrig:netdev
-1c75c424bd43b3c3bd6cd2f9b646d046a2b2034b leds: class: If no default trigger is given, make hw_control trigger the default trigger
-3a27463204032e89685ab8d523f1ff16d2ba9b23 leds: trigger: netdev: Display only supported link speed attribute
-2b5bb91a533c81276297ab6bcc23751308f1fa91 docs: ABI: sysfs-class-led-trigger-netdev: Document now hidable link_*
-a612e4fcdde623fd53c635bbc57e7a23993bc548 Documentation: leds: Update led-trigger-tty ABI description
-de330a3521108011b390bd130a27b1486b9078cd leds: trigger: audio: Set module alias for module auto-loading
-9458344867e19e3adc2a1de2ec82345ebaba8786 leds: triggers: default-on: Add module alias for module auto-loading
-89d9d3eedc8804e06a770e3cf1279f9131b785f1 dt-bindings: leds: Add FUNCTION defines for per-band WLANs
-682e98564ffb67989a77002844767318d366a9ee leds: trigger: panic: Simplify led_trigger_set_panic
-bcc7f2ee83dc1dace6eeb6b25014f253ca2a2a51 leds: aw200xx: Make read-only array coeff_table static const
-c0b64609dada48907b04b48873ba052efa8f121d leds: Remove led_init_default_state_get() and devm_led_classdev_register_ext() stubs
-54602f38551e89b520611ffb9df05232d1bf73f8 leds: Make flash and multicolor dependencies unconditional
+3b75d271e161e22aff8171940a77510d2fb2ad6f backlight: hx8357: Fix potential NULL pointer dereference
 
---===============0541295833884409557==--
+--===============5408167913073879766==--
