@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8059650388313202461=="
+Content-Type: multipart/mixed; boundary="===============7939330230244524706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 25 Jan 2024 10:52:47 -0000
-Message-Id: <170617996706.1041.7346087370804722269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Thu, 25 Jan 2024 11:04:30 -0000
+Message-Id: <170618067032.8419.18095181758124327086@gitolite.kernel.org>
 
---===============8059650388313202461==
+--===============7939330230244524706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/main
-    old: fdf8e6d18c6dcc0421d65aa6382f5a4fa0050149
-    new: 5da4597163562689033ed5728511782708e667f2
-    log: revlist-fdf8e6d18c6d-5da459716356.txt
+  - ref: refs/heads/mem-ctrl-next
+    old: f0b203bf9bbc89d3230d6a3d6254d11f7a4b6064
+    new: 2f542c937c48c2bd5a8ddf180b417fbe7152559f
+    log: |
+         2f542c937c48c2bd5a8ddf180b417fbe7152559f dt-bindings: memory-controllers: narrow regex for unit address to hex numbers
+         
 
---===============8059650388313202461==
+--===============7939330230244524706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fdf8e6d18c6d-5da459716356.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-25461ce8b3d28528f2c55f5e737e99d2906eda83 net/mlx5e: Use the correct lag ports number when creating TISes
-cfbc3608a8c69b48bf238bd68f768192f0238e0d net/mlx5: Fix query of sd_group field
-3876638b2c7ebb2c9d181de1191db0de8cac143a net/mlx5e: Fix operation precedence bug in port timestamping napi_poll context
-c20767fd45e82d64352db82d4fc8d281a43e4783 net/mlx5e: Fix inconsistent hairpin RQT sizes
-d76fdd31f953ac5046555171620f2562715e9b71 net/mlx5e: Fix peer flow lists handling
-cc8091587779cfaddb6b29c9e9edb9079a282cad net/mlx5: Fix a WARN upon a callback command failure
-ec7cc38ef9f83553102e84c82536971a81630739 net/mlx5: Bridge, fix multicast packets sent to uplink
-5665954293f13642f9c052ead83c1e9d8cff186f net/mlx5: DR, Use the right GVMI number for drop action
-5b2a2523eeea5f03d39a9d1ff1bad2e9f8eb98d2 net/mlx5: DR, Can't go to uplink vport on RX rule
-20cbf8cbb827094197f3b17db60d71449415db1e net/mlx5: Use mlx5 device constant for selecting CQ period mode for ASO
-20f5468a7988dedd94a57ba8acd65ebda6a59723 net/mlx5e: Allow software parsing when IPsec crypto is enabled
-315a597f9bcfe7fe9980985031413457bee95510 net/mlx5e: Ignore IPsec replay window values on sender side
-3c6d5189246f590e4e1f167991558bdb72a4738b net/mlx5e: fix a double-free in arfs_create_groups
-aef855df7e1bbd5aa4484851561211500b22707e net/mlx5e: fix a potential double-free in fs_any_create_groups
-5da4597163562689033ed5728511782708e667f2 Merge tag 'mlx5-fixes-2024-01-24' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+certificate version 0.1
+pusher krzk@kernel.org 1706180666 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1706180665-85106251d1ab5fb105d23df8631359ff13257e51
 
---===============8059650388313202461==--
+f0b203bf9bbc89d3230d6a3d6254d11f7a4b6064 2f542c937c48c2bd5a8ddf180b417fbe7152559f refs/heads/mem-ctrl-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmWyQDoQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/w9D/4zxyKtWmnuZTUAMawR1mTM1vJR2SVpS6GV
+sLrJIhkblnBdRZsTngoS2Os/e5kAF4MZ30xjLEJHRureyfLTDpiqg3DtLq9E/6Oz
++lqhooBQIi9cgZxaBA/6y/s9f1oo/jpub23aIBimdxcwS7cZz3itZ6jHaHnV1gkF
+5S/Lzc6nJBmQWb997WV/4QhVZNCtr4p8SNEj5WDiWGllk6a2eJp+K+Rjcp4P1qsQ
+bYGCHu0i4u3pqaGHMhsiyGxeHHSt9iT3/8WsGbsj2PXm9cNzl4BdSdE12VBch7Qc
+mQYFk8qm7gOXQr1H01JS2oMVI33Yocba/PqBr1hgpD+cES2gm9tGS7oFnjThW9Ni
+9mjavWHS9k4YkZaMzhPlDLlFelETZzX+Q61JRUvBa61+/uQz5Nbsae25tRbGAaQv
+MpyXGcjWJqH2zpy9a9tNygLUAGCDhcWpnaF/ROlQ4pXMx0Q9GGTlulOs+dMA//HQ
+gIAki40FiqcIzOjlUjrxYY1Ricwa00o6f+3MObdYM+M6yACIKzq6L1dH+6vC8DPw
+shX8ruNRtMUyUxHh33AD6fXJcP3JRmhWw7TlG5awDUQTMOfDAGY1meu///ZdjqJu
+lA6iuG2+WjjSK3b6p0exA16odllXGgEEHnobgk/ssW3ak4xX+P9yM9SaGleCDYNG
+JCJi7Lf8kQ==
+=hLkj
+-----END PGP SIGNATURE-----
+
+--===============7939330230244524706==--
