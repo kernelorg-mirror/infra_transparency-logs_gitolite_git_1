@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Thu, 25 Jan 2024 15:06:54 -0000
-Message-Id: <170619521494.25058.4138534121142651614@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Thu, 25 Jan 2024 15:08:23 -0000
+Message-Id: <170619530340.26988.1348907551381001268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/stm32-next
-    old: 1d4e8b91d242c4afa1970ca6f7e850aab66bf452
-    new: bda732fda19365b7a7397d0d37090f6dc253232c
+  - ref: refs/heads/dev
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: 3104d0e94f7169ab589919f7c4ed6197f0a826cb
     log: |
-         bda732fda19365b7a7397d0d37090f6dc253232c ARM: dts: stm32: fix DSI peripheral clock on stm32mp15 boards
+         3104d0e94f7169ab589919f7c4ed6197f0a826cb audit: remove unnecessary assignment in audit_dupe_lsm_field()
          
