@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8997739985940528115=="
+Content-Type: multipart/mixed; boundary="===============8582094582330550879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 25 Jan 2024 00:07:09 -0000
-Message-Id: <170614122902.2287.2291247146838238641@gitolite.kernel.org>
+Date: Thu, 25 Jan 2024 00:07:21 -0000
+Message-Id: <170614124170.2613.6287150289800192883@gitolite.kernel.org>
 
---===============8997739985940528115==
+--===============8582094582330550879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 77c03cf314b47086821e32b29df1798bff368aa0
     new: 2d5db760a73a59f004c908fbeb9ec03ed9bda324
     log: revlist-77c03cf314b4-2d5db760a73a.txt
 
---===============8997739985940528115==
+--===============8582094582330550879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ d168bbfbf7760597fd8d219ad0706d807e24e3f9 selftests/bpf: Add tests for LIBBPF_BPF
 6e9f733303fad8f63fe124bb6b29f21eee9c0d95 Merge branch 'bpf-token'
 2d5db760a73a59f004c908fbeb9ec03ed9bda324 libbpf: Ensure undefined bpf_attr field stays 0
 
---===============8997739985940528115==--
+--===============8582094582330550879==--
