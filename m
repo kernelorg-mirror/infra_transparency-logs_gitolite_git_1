@@ -1,43 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3441714126631635429=="
+Content-Type: multipart/mixed; boundary="===============0541295833884409557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Thu, 25 Jan 2024 13:55:51 -0000
-Message-Id: <170619095101.6362.18362796165128602790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Thu, 25 Jan 2024 13:55:56 -0000
+Message-Id: <170619095630.6468.5194576743948650639@gitolite.kernel.org>
 
---===============3441714126631635429==
+--===============0541295833884409557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: da4326075cff7ee6416309a9c3641d7eca2a53c7
-    new: 1e0ea9e75ff3f395ad6f85f0be2258ef114a53dc
-    log: revlist-da4326075cff-1e0ea9e75ff3.txt
+  - ref: refs/heads/for-leds-next
+    old: 4289e434c46c8cbd32cf8b67fa7689b3d2ca4361
+    new: 54602f38551e89b520611ffb9df05232d1bf73f8
+    log: revlist-4289e434c46c-54602f38551e.txt
 
---===============3441714126631635429==
+--===============0541295833884409557==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-da4326075cff-1e0ea9e75ff3.txt
+Content-Disposition: attachment; filename=revlist-4289e434c46c-54602f38551e.txt
 
-5e0a760b44417f7cadd79de2204d6247109558a0 mm, treewide: rename MAX_ORDER to MAX_PAGE_ORDER
-e900042f04848b5be9238d866df0952cfc548cf9 Merge tag 'x86_sev_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-bef91c28f28fe8a36b91e9a39f60054ae1874280 Merge tag 'x86_cpu_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3edbe8afb617a736ae0dcc877311bdb112a00123 Merge tag 'ras_core_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-968b80332432172dbbb773e749a43bdc846d1a13 Merge tag 'powerpc-6.8-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-3cf1d6a5fbf3f724d12b01635319924239d42c00 Merge tag 'm68k-for-v6.8-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
-ab5f3fcb7c72094684760e0cd8954d8d570b5e83 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-c3a11c0ec66c1e0652e3a2bb4f5cc74eea0ba486 cifs: delete unnecessary NULL checks in cifs_chan_update_iface()
-33034c4f9497b7fe33b0d97740a4bf1c0552316b Merge tag 'x86-apic-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-106b88d7a91e2b4d40369a20b8ef07bb827dafd5 Merge tag 'x86-asm-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-f73857ece4d85d2ee36571df9c13a733f3ba2732 Merge tag 'x86-boot-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-42c371f8ec4296cee49b10d8e6be50aae90f2d70 Merge tag 'x86-build-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b51cc5d02834a9c38cfd95b00b7d981b701b13f9 Merge tag 'x86-cleanups-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 33677aef32cf07ebbed07647e88136258c4b95ba Merge tag 'x86-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2fdbcf715a1b9dd1468317f7cd4b4cd327a09781 Merge tag 'x86-entry-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -215,6 +203,9 @@ ae8986e681e9c26fb6c140ae1ed41e6d74d38fc4 drm/i915/dp: Fix the PSR debugfs entrie
 53cd65a9c95109eef402db0ed7822b7c9a8ad732 drm/i915/gt: reconcile Excess struct member kernel-doc warnings
 af3cfcad492f2ffbef5de36c8ee1e8f8a701938f drm/i915/guc: reconcile Excess struct member kernel-doc warnings
 d505a16e00c35919fd9fe5735894645e0f70a415 drm/i915/perf: reconcile Excess struct member kernel-doc warnings
+3208bcef366a1795f03abd93a0dfe7f1c364e4d7 mfd: ab8500-sysctrl: Drop ancient charger
+64fe64f920f0b478c0fb350b1682b70c21160c98 dt-bindings: mfd: sprd: Add support for UMS9620
+284d16c456e5d4b143f375b8ccc4038ab3f4ee0f mfd: ti_am335x_tscadc: Fix TI SoC dependencies
 1b5e94657320c86fc660745e3fc64321948649be kbuild: deb-pkg: move 'make headers' to build-arch
 6185d32170b683abadddf1e68be998e24f3cc5de kbuild: deb-pkg: use debian/<package> for tmpdir
 496530c7c1dfc159d59a75ae00b572f570710c53 erofs: avoid debugging output for (de)compressed data
@@ -1040,15 +1031,24 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-4e05c06df7d321e8fd8ceda2c8d4712f62ffb469 mfd: intel-lpss: Switch to generalized quirk table
-b47f1f55e26b98bf6811137735d2d3bc3bc6c3bc mfd: intel-lpss: Introduce QUIRK_CLOCK_DIVIDER_UNITY for XPS 9530
-5394040d0b67177344662bc2b928e9d67e8f431d mfd: lpc_ich: Use ALIGN_DOWN() to obtain the start of the SPI base range
-5a6a8580defaf01f5b59c95cdd702a3ae1c7f224 mfd: sun4i-gpadc: Correct specified GPADC interrupt numbers
-91c63e4f2f88696097e93ebf59fe4c7e07d1d4ab mfd: omap-usb-host: Increase size of buffer to include all possible values
-47f28ec99bef945f173251d26496e77f767ecf17 dt-bindings: mfd: iqs62x: Do not override firmware-name $ref
-cd84e6bd331fd556116ec4889dc282b07c392e42 dt-bindings: mfd: qcom,tcsr: Add compatibles for QCM2290 and SM6115
-a1958f84deb5cdba020af725fc5003a05af4819c mfd: cros_ec: Register EC-based watchdog subdevice
-67421634ade0979dafd3e3f21c9b63bc93ef4760 mfd: rave-sp: Avoid unnecessary use of comma operator
-1e0ea9e75ff3f395ad6f85f0be2258ef114a53dc mfd: wm831x: Remove redundant forever while loop
+f4c098d1d58bf15c3272c0e0ab263a2ac25d50dd leds: trigger: netdev: Skip setting baseline state in activate if hw-controlled
+36b96910ef6d5e2a5b0aee1356168a4ec4dcb302 dt-bindings: leds: leds-qcom-lpg: Add support for LPG PPG
+8148c8234e101daa0d1c4a73463dc4b5867ef9b9 leds: rgb: leds-qcom-lpg: Add support for PPG through single SDAM
+65753334f85859d757af06c59686b68a4a9956d4 leds: rgb: leds-qcom-lpg: Update PMI632 lpg_data to support PPG
+e0b86093f4ea24e435f8c9b7979852b8ccd00ac4 leds: rgb: leds-qcom-lpg: Include support for PPG with dedicated LUT SDAM
+fce41451795e5116cdcc59f14c138d0df446565b leds: rgb: Update PM8350C lpg_data to support two-nvmem PPG Scheme
+21e8fcd962bbef3c05ea5b676b91432a7907081e leds: trigger: Load trigger modules on-demand if used as default trigger
+13a566490cde00bef4c934fc7dd3575e1f28c821 leds: trigger: netdev: Add module alias ledtrig:netdev
+1c75c424bd43b3c3bd6cd2f9b646d046a2b2034b leds: class: If no default trigger is given, make hw_control trigger the default trigger
+3a27463204032e89685ab8d523f1ff16d2ba9b23 leds: trigger: netdev: Display only supported link speed attribute
+2b5bb91a533c81276297ab6bcc23751308f1fa91 docs: ABI: sysfs-class-led-trigger-netdev: Document now hidable link_*
+a612e4fcdde623fd53c635bbc57e7a23993bc548 Documentation: leds: Update led-trigger-tty ABI description
+de330a3521108011b390bd130a27b1486b9078cd leds: trigger: audio: Set module alias for module auto-loading
+9458344867e19e3adc2a1de2ec82345ebaba8786 leds: triggers: default-on: Add module alias for module auto-loading
+89d9d3eedc8804e06a770e3cf1279f9131b785f1 dt-bindings: leds: Add FUNCTION defines for per-band WLANs
+682e98564ffb67989a77002844767318d366a9ee leds: trigger: panic: Simplify led_trigger_set_panic
+bcc7f2ee83dc1dace6eeb6b25014f253ca2a2a51 leds: aw200xx: Make read-only array coeff_table static const
+c0b64609dada48907b04b48873ba052efa8f121d leds: Remove led_init_default_state_get() and devm_led_classdev_register_ext() stubs
+54602f38551e89b520611ffb9df05232d1bf73f8 leds: Make flash and multicolor dependencies unconditional
 
---===============3441714126631635429==--
+--===============0541295833884409557==--
