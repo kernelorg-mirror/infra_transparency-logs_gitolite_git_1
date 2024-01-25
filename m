@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0151113027973467893=="
+Content-Type: multipart/mixed; boundary="===============3274680148165276695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Thu, 25 Jan 2024 07:36:42 -0000
-Message-Id: <170616820206.6461.12082215600822226205@gitolite.kernel.org>
+Date: Thu, 25 Jan 2024 07:38:01 -0000
+Message-Id: <170616828132.8348.11513128350054585777@gitolite.kernel.org>
 
---===============0151113027973467893==
+--===============3274680148165276695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 3e7aeb78ab01c2c2f0e1f784e5ddec88fcd3d106
     new: 5ca1a5153a28dc8bcfeeafa983915b76af457929
     log: revlist-3e7aeb78ab01-5ca1a5153a28.txt
 
---===============0151113027973467893==
+--===============3274680148165276695==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ e18c709230cb05886fdcf6b90ef21a0a733079d7 vsock/test: add '--peer-port' input arg
 88bf1b8f3c3196c175c9291605ec741756979862 tipc: socket: remove Excess struct member kernel-doc warning
 5ca1a5153a28dc8bcfeeafa983915b76af457929 tipc: node: remove Excess struct member kernel-doc warnings
 
---===============0151113027973467893==--
+--===============3274680148165276695==--
