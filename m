@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 25 Jan 2024 18:09:11 -0000
-Message-Id: <170620615181.1958.9054492746796633450@gitolite.kernel.org>
+Date: Thu, 25 Jan 2024 18:09:27 -0000
+Message-Id: <170620616707.2116.5986117200156760274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/tags/drm-misc-next-2021-10-06
-    old: ddfc5ef95788edabc051544923a5fa27fd5dd040
+  - ref: refs/tags/drm-misc-fixes-2021-10-06
+    old: b34569819c93a7f388518e0f3ca75ec10cda93b5
     new: 0000000000000000000000000000000000000000
