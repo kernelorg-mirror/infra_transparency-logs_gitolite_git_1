@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============9083814393074952346=="
+Content-Type: multipart/mixed; boundary="===============0323535735790260767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 25 Jan 2024 14:31:45 -0000
-Message-Id: <170619310590.32152.914681069578216347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Thu, 25 Jan 2024 14:31:58 -0000
+Message-Id: <170619311886.32313.10749237123276024514@gitolite.kernel.org>
 
---===============9083814393074952346==
+--===============0323535735790260767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
@@ -20,7 +20,7 @@ changes:
     new: 751aea8e468ff18e1b92cedcf3af198c9f177efc
     log: revlist-d988c9f511af-751aea8e468f.txt
 
---===============9083814393074952346==
+--===============0323535735790260767==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f22face166ef6327fe5b2cab61d2a78578b94534 Merge tag 'integrity-v6.8-rc1' of git:/
 36650da3de0031c49e0c1fa4a6a06a52fbb35985 tools headers UAPI: Sync linux/fcntl.h with the kernel sources
 751aea8e468ff18e1b92cedcf3af198c9f177efc perf test: Fix 'perf script' tests on s390
 
---===============9083814393074952346==--
+--===============0323535735790260767==--
