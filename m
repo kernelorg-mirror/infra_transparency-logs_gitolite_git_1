@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0624928427061513124=="
+Content-Type: multipart/mixed; boundary="===============8241388421326851277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 25 Jan 2024 00:21:58 -0000
-Message-Id: <170614211813.13819.17423617036485699521@gitolite.kernel.org>
+Date: Thu, 25 Jan 2024 00:22:04 -0000
+Message-Id: <170614212403.13910.12054142124578071901@gitolite.kernel.org>
 
---===============0624928427061513124==
+--===============8241388421326851277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 2d5db760a73a59f004c908fbeb9ec03ed9bda324
     new: c8632acf193beac64bbdaebef013368c480bf74f
     log: revlist-2d5db760a73a-c8632acf193b.txt
 
---===============0624928427061513124==
+--===============8241388421326851277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ fadf54935e859c4d512aed6ad54f639b87a3b4d3 selftests/bpf: Add tests for LIBBPF_BPF
 906ee42cb1be1152ef24465704cc89edc3f571c1 selftests/bpf: Incorporate LSM policy to token-based tests
 c8632acf193beac64bbdaebef013368c480bf74f Merge branch 'bpf-token'
 
---===============0624928427061513124==--
+--===============8241388421326851277==--
