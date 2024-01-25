@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 25 Jan 2024 08:32:30 -0000
-Message-Id: <170617155067.14159.17794692403148258166@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Thu, 25 Jan 2024 08:33:02 -0000
+Message-Id: <170617158284.14424.9431212517741940087@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/tags/for-netdev
+  - ref: refs/heads/x86-pie-for-sev-v2a
     old: 0000000000000000000000000000000000000000
-    new: 5088c3117f2a98050ee35efb6e44fffe08b54415
+    new: c983e4de56ead59534a310c19bf3cebb85d6ddc2
