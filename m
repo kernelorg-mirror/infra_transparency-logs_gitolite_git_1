@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Thu, 25 Jan 2024 16:23:48 -0000
-Message-Id: <170619982812.15821.349277274438120687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 25 Jan 2024 16:27:20 -0000
+Message-Id: <170620004016.18696.4220458034526624655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-6.9
-    old: 7bd20b6b87183db2ebf789bcf9d0aa6d06a0defb
-    new: a6b48c83d28e21ddcd6a080128bb73f9e3d130ac
+  - ref: refs/heads/x86/misc
+    old: 49527ca264341f9b6278089e274012a2db367ebf
+    new: e487f6d5f1ee5b4e1aad795a4a65c1273070ce2d
     log: |
-         a6b48c83d28e21ddcd6a080128bb73f9e3d130ac tools/workqueue/wq_dump.py: Clean up code and drop duplicate information
-         
-  - ref: refs/heads/for-next
-    old: 7bd20b6b87183db2ebf789bcf9d0aa6d06a0defb
-    new: a6b48c83d28e21ddcd6a080128bb73f9e3d130ac
-    log: |
-         a6b48c83d28e21ddcd6a080128bb73f9e3d130ac tools/workqueue/wq_dump.py: Clean up code and drop duplicate information
+         e487f6d5f1ee5b4e1aad795a4a65c1273070ce2d x86/nmi: Rate limit unknown NMI messages
          
