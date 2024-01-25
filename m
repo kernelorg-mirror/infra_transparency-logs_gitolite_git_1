@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 25 Jan 2024 16:29:43 -0000
-Message-Id: <170620018396.19631.1723847921228803530@gitolite.kernel.org>
+Date: Thu, 25 Jan 2024 16:32:17 -0000
+Message-Id: <170620033706.22256.13492252962549777962@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
   - ref: refs/heads/x86/misc
-    old: e487f6d5f1ee5b4e1aad795a4a65c1273070ce2d
-    new: e2fbc857d3c677ce96d9260577491e0d8f21b6f7
+    old: e2fbc857d3c677ce96d9260577491e0d8f21b6f7
+    new: b37bf5ef177a1aae937451f2e272943a9333dd5c
     log: |
-         e2fbc857d3c677ce96d9260577491e0d8f21b6f7 x86/nmi: Rate limit unknown NMI messages
+         b37bf5ef177a1aae937451f2e272943a9333dd5c Documentation/maintainer-tip: Add Closes tag
          
