@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Thu, 25 Jan 2024 21:00:22 -0000
-Message-Id: <170621642257.1163.8627497271319069359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Thu, 25 Jan 2024 21:10:40 -0000
+Message-Id: <170621704007.9313.4284200912897989617@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djbw
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/fixes
-    old: d72a4caf685989e353dff0a97d7376ee10edbf87
-    new: d76779dd3681c01a4c6c3cae4d0627c9083e0ee6
-    log: |
-         d76779dd3681c01a4c6c3cae4d0627c9083e0ee6 cxl/region：Fix overflow issue in alloc_hpa()
-         
+  - ref: refs/heads/v6.9-armsoc/dts64
+    old: 0000000000000000000000000000000000000000
+    new: 6cb02674a061e4ef4f437ab60c91038d4c0d85ef
+  - ref: refs/heads/v6.9-armsoc/dts32
+    old: 0000000000000000000000000000000000000000
+    new: 5aab66e319df2a6fc4ab06bcb4bd974c1ac4927e
+  - ref: refs/heads/v6.8-armsoc/dtsfixes
+    old: 0000000000000000000000000000000000000000
+    new: fc4657971be31ae679e2bbeee2fb8e93a7a063eb
