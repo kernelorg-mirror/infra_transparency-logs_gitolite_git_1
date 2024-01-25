@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1529672037314464693=="
+Content-Type: multipart/mixed; boundary="===============1539859065634933556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 25 Jan 2024 03:41:34 -0000
-Message-Id: <170615409443.1208.10916368440958535070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 25 Jan 2024 03:41:43 -0000
+Message-Id: <170615410312.1461.12623137354651745224@gitolite.kernel.org>
 
---===============1529672037314464693==
+--===============1539859065634933556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 8bf1262c53f50fa91fe15d01e5ef5629db55313c
     new: 01af33cc9894b4489fb68fa35c40e9fe85df63dc
     log: revlist-8bf1262c53f5-01af33cc9894.txt
-  - ref: refs/heads/stable
-    old: 7ed2632ec7d72e926b9e8bcc9ad1bb0cd37274bf
-    new: cf10015a24f36a82370151a88cb8610c8779e927
-    log: revlist-7ed2632ec7d7-cf10015a24f3.txt
-  - ref: refs/tags/next-20231025
-    old: f890f696b34c5f8bcc94a5159de8de257fa4cc48
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240125
     old: 0000000000000000000000000000000000000000
     new: f5a26b58f9d7c06e12996c8333470a9d6e9333cd
 
---===============1529672037314464693==
+--===============1539859065634933556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -589,29 +582,4 @@ b5045313561f73d26fbaaf8beebcfcf14e600c26 Merge branch 'rust-next' of https://git
 8110b7d94bc5765f8470a64e148b4b5eabf323fe fix up for "ppc, crash: enforce KEXEC and KEXEC_FILE to select CRASH_DUMP"
 01af33cc9894b4489fb68fa35c40e9fe85df63dc Add linux-next specific files for 20240125
 
---===============1529672037314464693==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ed2632ec7d7-cf10015a24f3.txt
-
-fead90507a37e73d41f6059b325b34412ed8d84b fbdev: vt8500lcdfb: Remove unnecessary print function dev_err()
-04e5eac8f3ab2ff52fa191c187a46d4fdbc1e288 fbdev: savage: Error out if pixclock equals zero
-e421946be7d9bf545147bea8419ef8239cb7ca52 fbdev: sis: Error out if pixclock equals zero
-27daa514c48d5796d564ea5410cb72f78a521891 ELF, MAINTAINERS: specifically mention ELF
-8788a17c2319f020ccdc3f2907179a5ae81b7ad6 exec: remove useless comment
-bdd8f62431ebcf15902a5fce3336388e436405c6 exec: Add do_close_execat() helper
-84c39ec57d409e803a9bb6e4e85daf1243e0e80b exec: Fix error handling in begin_new_exec()
-018856c3f171517c66d5d7d3755ae0c517924fd7 fbcon: Fix incorrect printed function name in fbcon_prepare_logo()
-2b44760609e9eaafc9d234a6883d042fc21132a7 tracing: Ensure visibility when inserting an element into tracing_map
-4b088005c897a62fe98f70ab69687706cb2fad3b fbdev: stifb: Fix crash in stifb_blank()
-834bf76add3e6168038150f162cbccf1fd492a67 eventfs: Save directory inodes in the eventfs_inode structure
-615d300648869c774bd1fe54b4627bb0c20faed4 Merge tag 'trace-v6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-1110ebe058268b5425c69a23a99456f2331063bf Merge tag 'fbdev-for-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
-4759ff71f23e1a9cba001009abab68cde6dc327a exec: Check __FMODE_EXEC instead of in_execve for LSMs
-90383cc07895183c75a0db2460301c2ffd912359 exec: Distinguish in_execve from in_exec
-443b349019f2d9461b23213a4308f9cf72e41c5e samples/cgroup: add .gitignore file for generated samples
-3eab830189d94f0f80f34cbff609b5bb54002679 uselib: remove use of __FMODE_EXEC
-cf10015a24f36a82370151a88cb8610c8779e927 Merge tag 'execve-v6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-
---===============1529672037314464693==--
+--===============1539859065634933556==--
