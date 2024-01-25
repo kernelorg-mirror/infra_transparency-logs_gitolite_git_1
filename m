@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Thu, 25 Jan 2024 17:23:45 -0000
-Message-Id: <170620342536.27858.13348764378051948937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 25 Jan 2024 17:26:10 -0000
+Message-Id: <170620357066.30318.17098705378396484927@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/md-6.8-20240126
+  - ref: refs/heads/arm/fixes
     old: 0000000000000000000000000000000000000000
-    new: 9f3fe29d77ef4e7f7cb5c4c8c59f6dc373e57e78
+    new: 0d1d824a4ac102db35bc8524a8be97ada8ad37ab
