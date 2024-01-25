@@ -1,47 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============3300710676938835237=="
+Content-Type: multipart/mixed; boundary="===============8059650388313202461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Thu, 25 Jan 2024 10:52:00 -0000
-Message-Id: <170617992027.634.4718841715080971277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 25 Jan 2024 10:52:47 -0000
+Message-Id: <170617996706.1041.7346087370804722269@gitolite.kernel.org>
 
---===============3300710676938835237==
+--===============8059650388313202461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/x86-pie-for-sev-v2a
-    old: 39b1dd6b7103a2f36c52892b9a24ffdeb88a585d
-    new: dd108b463dbdd73234b6bc533a0cfac2441bd38f
-    log: revlist-39b1dd6b7103-dd108b463dbd.txt
+  - ref: refs/heads/main
+    old: fdf8e6d18c6dcc0421d65aa6382f5a4fa0050149
+    new: 5da4597163562689033ed5728511782708e667f2
+    log: revlist-fdf8e6d18c6d-5da459716356.txt
 
---===============3300710676938835237==
+--===============8059650388313202461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39b1dd6b7103-dd108b463dbd.txt
+Content-Disposition: attachment; filename=revlist-fdf8e6d18c6d-5da459716356.txt
 
-4d0eb3e8ca52b5ef25890839827273588dc352cc x86/startup_64: Drop long return to initial_code pointer
-29bc22bf5699fca10023421a8508438705bd6b20 x86/startup_64: Simplify calculation of initial page table address
-9866e1496d6a05d579f04f74d132770a3243450f x86/startup_64: Simplify CR4 handling in startup code
-af4ee18d4042b6c7ac8cf69d5c6e43671485dcf7 x86/startup_64: Drop global variables to keep track of LA57 state
-9c4299ddee24f649d247a22b9273a8ea64fbb2af x86/startup_64: Simplify virtual switch on primary boot
-2cadeb047a5c6ded4e7a532400fd1280a7c9269d x86/head64: Replace pointer fixups with PIE codegen
-a40ac22448e076e91e49247f20431ffb0e142c10 x86/head64: Simplify GDT/IDT initialization code
-18000105bf0a8965b9d6f004389946dc0d6f0817 asm-generic: Add special .pi.text section for position independent code
-018f90d5b2a0dcfdc21aa24318e0e622faca1981 x86: Move return_thunk to __pitext section
-07b82798f75ef01cc85d4adaefe211d9cfcfe478 x86/head64: Move early startup code into __pitext
-52f2835e448f6b6d40e4c4b5c1f13a71592b78e2 modpost: Warn about calls from __pitext into other text sections
-80890a568ecbca6b713d8e07f49072d223c9b3eb x86/coco: Make cc_set_mask() static inline
-83f306426e8464e9a9d0734d96b6e23b80d1fb2b x86/sev: Make all code reachable from 1:1 mapping __pitext
-92c742d57846ae6a032f1255f599681c5f81e1f1 x86/sev: Avoid WARN() in early code
-6e2ab2ea0c8ca4502d333eff52d95f877f6c664a x86/sev: Use PIC codegen for early SEV startup code
-166eba718aeeea28b2576b79f87de7bcb6934472 x86/sev: Drop inline asm LEA instructions for RIP-relative references
-dd108b463dbdd73234b6bc533a0cfac2441bd38f x86/startup_64: Don't bother setting up GS before the kernel is mapped
+25461ce8b3d28528f2c55f5e737e99d2906eda83 net/mlx5e: Use the correct lag ports number when creating TISes
+cfbc3608a8c69b48bf238bd68f768192f0238e0d net/mlx5: Fix query of sd_group field
+3876638b2c7ebb2c9d181de1191db0de8cac143a net/mlx5e: Fix operation precedence bug in port timestamping napi_poll context
+c20767fd45e82d64352db82d4fc8d281a43e4783 net/mlx5e: Fix inconsistent hairpin RQT sizes
+d76fdd31f953ac5046555171620f2562715e9b71 net/mlx5e: Fix peer flow lists handling
+cc8091587779cfaddb6b29c9e9edb9079a282cad net/mlx5: Fix a WARN upon a callback command failure
+ec7cc38ef9f83553102e84c82536971a81630739 net/mlx5: Bridge, fix multicast packets sent to uplink
+5665954293f13642f9c052ead83c1e9d8cff186f net/mlx5: DR, Use the right GVMI number for drop action
+5b2a2523eeea5f03d39a9d1ff1bad2e9f8eb98d2 net/mlx5: DR, Can't go to uplink vport on RX rule
+20cbf8cbb827094197f3b17db60d71449415db1e net/mlx5: Use mlx5 device constant for selecting CQ period mode for ASO
+20f5468a7988dedd94a57ba8acd65ebda6a59723 net/mlx5e: Allow software parsing when IPsec crypto is enabled
+315a597f9bcfe7fe9980985031413457bee95510 net/mlx5e: Ignore IPsec replay window values on sender side
+3c6d5189246f590e4e1f167991558bdb72a4738b net/mlx5e: fix a double-free in arfs_create_groups
+aef855df7e1bbd5aa4484851561211500b22707e net/mlx5e: fix a potential double-free in fs_any_create_groups
+5da4597163562689033ed5728511782708e667f2 Merge tag 'mlx5-fixes-2024-01-24' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 
---===============3300710676938835237==--
+--===============8059650388313202461==--
