@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6820578079101701729=="
+Content-Type: multipart/mixed; boundary="===============1582890840139183659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 25 Jan 2024 17:42:14 -0000
-Message-Id: <170620453427.11302.10172998000764531707@gitolite.kernel.org>
+Date: Thu, 25 Jan 2024 17:43:18 -0000
+Message-Id: <170620459831.11771.2343600671175586653@gitolite.kernel.org>
 
---===============6820578079101701729==
+--===============1582890840139183659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
 user: paulmck
 changes:
-  - ref: refs/heads/dev
-    old: 8230dd8db9c65e85bf612152df59b4a8c056a6af
-    new: 5fab032ede42b290e16116ad188834df0d1aece5
-    log: revlist-8230dd8db9c6-5fab032ede42.txt
-  - ref: refs/heads/dev.2024.01.25a
-    old: 8230dd8db9c65e85bf612152df59b4a8c056a6af
-    new: 81622751ca402d42e7c1bd4b8e95a8dbbd3645a0
-    log: |
-         81622751ca402d42e7c1bd4b8e95a8dbbd3645a0 squash! hrtimer: Report offline hrtimer enqueue
-         
+  - ref: refs/heads/rcu/next
+    old: 0af3acc42dbe991b20a14767b99da5c512c03d21
+    new: bc31e6cb27a9334140ff2f0a209d59b08bc0bc8c
+    log: revlist-0af3acc42dbe-bc31e6cb27a9.txt
 
---===============6820578079101701729==
+--===============1582890840139183659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8230dd8db9c6-5fab032ede42.txt
+Content-Disposition: attachment; filename=revlist-0af3acc42dbe-bc31e6cb27a9.txt
 
 e787644caf7628ad3269c1fbd321c3255cf51710 rcu: Defer RCU kthreads wakeup when CPU is dying
 73b9e13998fa51839f051873ab03967fdf3fe795 doc: Spinlocks are implied RCU readers
@@ -65,19 +59,5 @@ a48606b1f7c8d1dbc53c0a980b1303798e5b8177 rcu/exp: Handle parallel exp gp kworker
 fd3b5e371b1b8aa5bb050ba5bc2839feb58d95b9 rcu/sync: remove un-used rcu_sync_enter_start function
 7b4989d7fbc92d7ff1d317e1293bea4a47aab18a rcu/nocb: Check rdp_gp->nocb_timer in __call_rcu_nocb_wake()
 bc31e6cb27a9334140ff2f0a209d59b08bc0bc8c rcu-tasks: Eliminate deadlocks involving do_exit() and RCU tasks
-b4c7e7e4a1dbc25d4ba376f3492b93bc5012b514 EXP locking: Comment out virt_spin_lock() check in queued_spin_lock_slowpath()
-af3545e1fa5d3eb2d9f2e7ebc03ed899732d9383 EXP rcutorture: Test NMI diagnostics
-0c8b145b34a4cabe852008bd1b88ee55cca036f2 EXP qspinlock: Diagnostics for excessive lock-drop wait loop time
-8739a527c23299f38c6cdf831c49a2377a443e49 EXP qspinlock: Lockless diagnostics for excessive spin-drop wait loop time
-ec2b593426da438be35f80d68506d233b1a2d036 EXP x86/nmi: Add a set_nmi_torture() function to control NMI testing
-376512893e10f912aaf99053b21cd0dc9b1344cd EXP qspinlock: debugging
-713f2af0001592154843c193556dfa8e70893af6 EXP locktorture: Add RCU CPU stall-warning notifier stub
-f993ef75204ea85682ebba0eba672841aab4a554 EXP qspinlock: Add spinlock_dump() to dump lock state
-cac8c0d3407f51b91260bafacbbead6634307ddb EXP locktorture: invoke spinlock_dump() to dump lock state
-a2c4e770091ab25ce1049dba012c05dafe57c443 locktorture: Add indication of task write-holding lock
-de904f958b8d9a41a8ede9d768f0f244e9603056 EXP qspinlock: Dump full qnode structure
-edeb52faabbc8296c965b75afb34e4120ec5dfb7 locktorture: Dump CPUs running writer tasks when RCU stalls
-944bbb912ed4e1c7567645dd89b73c570175e0ef locktorture: Prevent spinloop from escaping lock-held diagnostics
-5fab032ede42b290e16116ad188834df0d1aece5 EXP sched: Export dump_cpu_task() to GPL modules for locktorture
 
---===============6820578079101701729==--
+--===============1582890840139183659==--
