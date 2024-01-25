@@ -1,28 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 25 Jan 2024 08:23:44 -0000
-Message-Id: <170617102453.7698.8358608466802915759@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7348105470246130435=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Thu, 25 Jan 2024 08:25:11 -0000
+Message-Id: <170617111170.9783.8236806606821928418@gitolite.kernel.org>
+
+--===============7348105470246130435==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: f86f4f15d9db59aa7c04a885b6c4e81c7f031368
-    new: a1857008451f3252f7371a34566be1f9c573366c
-    log: |
-         ac203cdbe97a197dddd2925c542ad5a52a8693fa HID: samsung: Broaden device compatibility in samsung driver
-         6168f717afc368747a368188e8a98df90b5740d5 HID: samsung: Rewrite rdesc checking code using memcmp()
-         9b8e4adad160f5d084f28eb6075dadd1efe80c65 HID: samsung: Add Samsung wireless keyboard support
-         944536c2a4de9dadd39bda5e8e4f2617df8c3b57 HID: samsung: Add Samsung wireless gamepad support
-         46e779b087f6061d6453f3b263cc8602b407b6d1 HID: samsung: Add Samsung wireless action mouse support
-         e7290046728627e8c7a8f49632581437ab6d4300 HID: samsung: Add Samsung wireless bookcover and universal keyboard support
-         a1857008451f3252f7371a34566be1f9c573366c Merge branch 'for-6.9/samsung' into for-next
-         
-  - ref: refs/heads/for-6.9/samsung
+  - ref: refs/tags/samsung-clk-fixes-6.8
     old: 0000000000000000000000000000000000000000
-    new: e7290046728627e8c7a8f49632581437ab6d4300
+    new: 396f3f145fb794c732c38a9406f4883a37698f63
+
+--===============7348105470246130435==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher krzk@kernel.org 1706171110 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1706171109-7c00a5f3a792026b74975f52d54f4b1201b17def
+
+0000000000000000000000000000000000000000 396f3f145fb794c732c38a9406f4883a37698f63 refs/tags/samsung-clk-fixes-6.8
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmWyGuYQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD17zQD/4gxOvgo/IkN/arrsGOr76JDK4IOdl8UaCr
+HrB1wkZ1yhyIDThk4oDURmJlGvyaX5xcq74OrpmWYnWSCPPOtMZnqnuBkgOPL7f4
+wPTHkpPKY+1LYOcJZH4wjG8VsG3ND1Wjq5lUBlH7AunyMv1rQOtLTDOPuf8N75kG
+HKPMxfMkOovG69FCCn0HX8CIcLyzaIXfWf9quMs1odbyd9C3NimY7ffkiO8WATjM
+MDeI03aZtWA3qgR0OkFKxmJBok/tyGBj9Zhb1szPIAPg4v0YAIH+gG1eTCdpb8mP
+oBpZq9Y4hwwIcQysoc2T6BRcaa0qHRL6myhRGnMFzyfmPc4GEt23w1aj77dnYUqa
+clMtyXcdbmOt9J6RnbdNyUnOpYKiiRSh/hNiF94a+F7f+Ld9fF1uugr23gEXaSp6
+eIvSGk80f6GzL9QlQNVLgf/wgrGfylLDVEL/NvBiuRvTaDXF7+bdDSqdPY0Sac6+
+c0wWkzdoUtNVdNburZN262Ri92buImvnqmjO8oIaYtNkmpIYKShAxdBBBE6JIFru
+POlSbiYGtXcpyblWlf6V/UTq3UUX00VgiPKEqbLtirVkYNrYAE287wVWZURoUI6i
+19tIauDI9eeqMVu4vLQT4pplCto1GmIgB1BSQ6A7923eiBdu89s+IqC2oWSQFtOd
+YVvuFZfn0Q==
+=fQ1n
+-----END PGP SIGNATURE-----
+
+--===============7348105470246130435==--
