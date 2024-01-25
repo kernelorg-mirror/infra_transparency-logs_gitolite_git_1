@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Thu, 25 Jan 2024 17:18:53 -0000
-Message-Id: <170620313327.24443.5265018677796560321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Thu, 25 Jan 2024 17:23:24 -0000
+Message-Id: <170620340453.27645.14518198144362505704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/master
-    old: f5b05d19752968d35ba3e6c1460ac8ff6101d1d2
-    new: e53ab33dd68f67858e816508e796b5ba3892c8b0
+  - ref: refs/heads/md-6.8
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: 9f3fe29d77ef4e7f7cb5c4c8c59f6dc373e57e78
     log: |
-         e53ab33dd68f67858e816508e796b5ba3892c8b0 libtracecmd: trace-cmd split: Do not fail if cmdlines are not present
+         9f3fe29d77ef4e7f7cb5c4c8c59f6dc373e57e78 md: fix a suspicious RCU usage warning
          
