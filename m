@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5429970991520553998=="
+Content-Type: multipart/mixed; boundary="===============6791402490039171862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 25 Jan 2024 02:43:22 -0000
-Message-Id: <170615060282.23519.13490424405969270467@gitolite.kernel.org>
+Date: Thu, 25 Jan 2024 02:43:38 -0000
+Message-Id: <170615061803.23689.3615611461910787235@gitolite.kernel.org>
 
---===============5429970991520553998==
+--===============6791402490039171862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 9b960005425078e39068f713178961c87f36f199
-    new: 31b23871d23f40a6d8cca041cfa5c2c0e2bc42bb
+  - ref: refs/heads/6.9/scsi-staging
+    old: f1aa6437733a5433cf7e22d4c2058129cf98b0f8
+    new: a34fc8c7361c4abb7474a77ce907065db371657f
     log: |
          3c4f53b2c341ec6428b98cb51a89a09b025d0953 scsi: hisi_sas: Fix a deadlock issue related to automatic dump
          3f030550476566b12091687c70071d05ad433e0d scsi: hisi_sas: Remove redundant checks for automatic debugfs dump
@@ -31,33 +31,33 @@ changes:
          a34fc8c7361c4abb7474a77ce907065db371657f scsi: mpt3sas: Update driver version to 48.100.00.00
          
 
---===============5429970991520553998==
+--===============6791402490039171862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1706150581 -0500
+pusher 75C5DE3D 1706150605 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1706150581-6c2fe7fca7507c98021be98c98f59327937e7eb9
+nonce 1706150605-15c95a7ded66cd40e49a18f847e307483d267044
 
-9b960005425078e39068f713178961c87f36f199 31b23871d23f40a6d8cca041cfa5c2c0e2bc42bb refs/tags/mkp-scsi-staging
+f1aa6437733a5433cf7e22d4c2058129cf98b0f8 a34fc8c7361c4abb7474a77ce907065db371657f refs/heads/6.9/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWxyrUACgkQ7ulgGnXF
-3j3NMA//b35ORxQm4aUTlqpXApuWKnc97p1RclGLy1ijQ0TPh+3lJPmwWnxHgktk
-/fqR/dk+TfBCFDXSzgUWgpHsSvSsFQQTJ09+mFK6h0zJOfmPZKREEA9yKF2gjIZ3
-KZf8uZb8g7RNjJwr6yhICnvNEcZU50B8W4rAh986MO/ztGCDrMzzKSr4sgto2WNC
-ZRhDp0dnouplD0aFOA9uDg7cnjgpIYlbFpVn0UNDlmziLKZrlo6RWChtneihuixs
-b4VEnnff1grW+CTpifL68HHkq993rEPRd/Wj1JO6FDZxeLyk1qQqp1fsDfCtEgvU
-HpsmxOZTQAwIsZDpSa3BOPJqaqI83WCnnqDS5DYsYsAudsrZIkyMDaoLWmcFyByR
-PLJJUAH9RMkX7y6XAhLAmUINpLDTbYehX7twRJujKePeQI9lUJYLpcLaB2ZVdXd8
-EdRGp4K9bZyB9KBQpwarJghLQ1TBwzMa4RZQHTvqloVBaZVA5bU5pB0yaaHKmUG9
-Xk1ITXjUuiqbCLk6+JbHou2Ehuqr+I+IlePIUqs7Xg5R4PzsVDUBlzoA6AmW/8Gu
-IPhQ0m0a0JMIYAaTHdURUrUrO0dEuc5wQGg9VpXc81DKwZnLMIDHjAGr9Eqkcfj1
-Qwpz107X9gMMfumRuBLZOsu4m7Qir34I8eilQuSdhBFMj8OK2No=
-=AzwG
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmWxys0ACgkQ7ulgGnXF
+3j3CsRAAksG6/WB8dna8+B0Nsglh4qsOwmrD0XZ+4ST15jLIBr/IueL4Yn/a5p1o
++39RcbxiF7GMrQI3VmVn5pYd9oBiwtum/lHtxU071juqb6G0iZdL3MC360FFANA/
+BLNCjl1sEeTrItIMYzWSxfIapP3jNs154Ju3R7zyEs9nRoEZiT0aI3+iEgMXhVRe
+1pnHho3R4ApgTYu57OX4a6qbZ9K+omiAeF+mH58vFM+S/OJq2OOPLyYW2F3vUSFd
+tzVBripwHHk0z5lCxHHSA+i/JDdG19CEcUYGPMyeQFTF/XRsJBeR2ABjGncLQ3Gw
+SEa3ElcrjvXR2D2/Rsgnos6QO0jNm7ylilUJBHx59vA/idgI5aPQ5L8jUEUVFpwg
+SEACERA2N4XPknnyvVBMaK0zZa2JL3wbqxrRVEpsuzJh0+Pik3cprOJXdcdhknHb
+byWT7YfoxVZ2cAzBuTVVaQXdyekbdwhy1+mOl6EQN/9ssYFo5lc2IGDsi9azyMG+
+Tl+zTrDoatg/QCQb5oRdZiWW+ab353KlRXrCwsLmN6/L0k0S6ulaNYraLorc+7sh
+hdxO2V8CrMY2uQI6ikIHlUerINynX02aC7OV8C2+5Ni3WreJnKIY4sprU0hkEzaP
+yRDa1a0Yr9TdXsHRKIxHE2L3EkhK/ahlu5LD7J85aUD23tLtwbc=
+=xoW1
 -----END PGP SIGNATURE-----
 
---===============5429970991520553998==--
+--===============6791402490039171862==--
