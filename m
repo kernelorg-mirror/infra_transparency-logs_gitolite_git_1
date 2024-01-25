@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Thu, 25 Jan 2024 13:12:03 -0000
-Message-Id: <170618832332.6956.11244632387160236118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 25 Jan 2024 13:37:57 -0000
+Message-Id: <170618987737.25432.11487222131056149319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: 6530623212338fc0902e211ea624e790aacb00ef
-    new: 8c376899a1628d030c341533480a2f03419954db
+  - ref: refs/heads/tip
+    old: 480f4e07a5966d64b1ece6083174c57a76fced39
+    new: 4220d2d9bb848528ddb356af4e69f7bb2580ab16
     log: |
-         8c376899a1628d030c341533480a2f03419954db pwm: mediatek: Update kernel doc for struct pwm_mediatek_of_data
-         
-  - ref: refs/heads/pwm/for-nexxt
-    old: 6530623212338fc0902e211ea624e790aacb00ef
-    new: 8c376899a1628d030c341533480a2f03419954db
-    log: |
-         8c376899a1628d030c341533480a2f03419954db pwm: mediatek: Update kernel doc for struct pwm_mediatek_of_data
+         4220d2d9bb848528ddb356af4e69f7bb2580ab16 auto-x86-next: Add x86/fred
          
