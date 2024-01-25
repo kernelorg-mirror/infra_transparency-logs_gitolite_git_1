@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Thu, 25 Jan 2024 15:08:23 -0000
-Message-Id: <170619530340.26988.1348907551381001268@gitolite.kernel.org>
+Date: Thu, 25 Jan 2024 15:13:58 -0000
+Message-Id: <170619563860.30846.14764447474243868044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
   - ref: refs/heads/dev
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
-    new: 3104d0e94f7169ab589919f7c4ed6197f0a826cb
+    old: 3104d0e94f7169ab589919f7c4ed6197f0a826cb
+    new: aa13b709084a0287ef250a9fbde5993e4dfc3078
     log: |
-         3104d0e94f7169ab589919f7c4ed6197f0a826cb audit: remove unnecessary assignment in audit_dupe_lsm_field()
+         aa13b709084a0287ef250a9fbde5993e4dfc3078 audit: use KMEM_CACHE() instead of kmem_cache_create()
          
