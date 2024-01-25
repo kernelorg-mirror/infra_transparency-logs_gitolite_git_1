@@ -1,28 +1,235 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Thu, 25 Jan 2024 17:03:46 -0000
-Message-Id: <170620222638.12385.7048439421219720364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 25 Jan 2024 17:07:19 -0000
+Message-Id: <170620243918.15624.13766224021032497383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/unbound-system-wide-max_active-v3
-    old: ea1f59b5387b45fe2c4447377e03803a3ad81b4b
-    new: 019cef570cc3a4819a83285edc007793240ed0e6
-    log: |
-         749a821ec255fa075462332d1f62fd36e1e7c565 workqueue: Move pwq->max_active to wq->max_active
-         15842d52818d8525b5bdb84dccf5683212757141 workqueue: Factor out pwq_is_empty()
-         fa8dc210ff2984e1069510f2c2718b6d33cea8f6 workqueue: Replace pwq_activate_inactive_work() with [__]pwq_activate_work()
-         ebd1e48b6c5b0122723466f7c487dfa1bf0def15 workqueue: Move nr_active handling into helpers
-         5eb08c393bdd856b487b2dc70276f44d3d8fc8dd workqueue: Make wq_adjust_max_active() round-robin pwqs while activating
-         c7cee1f7b6563cc14599d0037972d7e98a49648a workqueue: RCU protect wq->dfl_pwq and implement accessors for it
-         d0c34f58326dd4f84e43d77bea6f424fd679e005 workqueue: Move pwq_dec_nr_in_flight() to the end of work item handling
-         254069b5cebb91d4846d8499f5783806988344df workqueue: Introduce struct wq_node_nr_active
-         2fab3aba0b4c8003764cf2b321878c824f144c66 workqueue: Implement system-wide nr_active enforcement for unbound workqueues
-         019cef570cc3a4819a83285edc007793240ed0e6 tools/workqueue/wq_dump.py: Add node_nr/max_active dump
-         
+  - ref: refs/heads/amlogic/drivers
+    old: d8385d7433f9c7d718448465e30d6b8c1207b59f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/amlogic/dt64
+    old: eb54ef36282f670c704ed5af8593da62bebba80d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm/fixes
+    old: 643fe70e7bcdcc9e2d96952f7fc2bab56385cce5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/asahi/soc
+    old: 4dae8c047a70307d83d912afbda2e2c94de155b6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/at91/dt
+    old: abe18175269ac8433c9cd52efd72d16b1731d479
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/at91/soc
+    old: aa1cfba75b77ca93ab9a0b03c2c9124a16d96479
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/broadcom/dt
+    old: dadc77c93b6e8ca8edd1e290fc1702dc5cef18e3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/drivers/bus-cleanup
+    old: fc540426f7baa0c7d4b477e80435d075659092a2
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/drivers/memory
+    old: 4a23d0f9814c38308dc82b6dbc466666a400b27d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/drivers/memory-2
+    old: 365fcc03b6321f36eb7cbda8baa737238c387907
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/drivers/reset
+    old: c3c46acd5be9a3351c163d2869045cab4d5342dc
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/firmware/scmi
+    old: b5efc28a754d2e90b9d52ba5aaa051cc24a5c85d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/fsl/cpm1
+    old: 7a2ee1576dcc6bbe017a8283fba237b05b13fd15
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/hisi/drivers
+    old: be2f78a8a638e71bbbc2109bc052524143e8f42a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/hisi/dt
+    old: 94fa073377db02ef0ca391f32e11e0f4649b2657
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/imx/drivers
+    old: fcefbb49ebb7ad9f06ecee33ae87e4d7075728ff
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/imx/dt
+    old: 47360e40dcb92c09f417ccbe956e646bd95a09b6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/imx/dt-bindings
+    old: 6cbac23b309cc6454779703a741392df4e80455f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/imx/dt64
+    old: f43c3a62e7d57e5da8d5f0c50d7254808af15920
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/imx/soc
+    old: c8705471b94d0d869e2e3ac80c0d960f0215474f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/juno/dt
+    old: fb4d25d7a33f568bcbb945e64fb94d18ddf229fd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/k3/defconfig
+    old: e8779517788fa0f3d04840cb7d4121d3df8dfd54
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/k3/dt
+    old: 8bbe8a7dbaabb84d93321f116966af73ba6a7233
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/k3/soc-driver
+    old: 2c2235292b33d788a1436f1d2a6108184a657f51
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/keystone/dt
+    old: c1170c1d04d5bfbd9b38cb968d45b77e6bda2098
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/mediatek/defconfig
+    old: ebb78614ce2ff73be14ed7339b832e24e381d3fc
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/mediatek/dt
+    old: 5dc289e08a4d0704583d8df70181cbeb47c817d9
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/mediatek/soc-drivers
+    old: 2bfbf82956e2de75249ce83901800c68d17d9e62
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/mvebu/drivers
+    old: aaafe88d5500ba18b33be72458439367ef878788
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/mvebu/dt
+    old: 62f34e3ec2befcbe5d8a5003f21d53dab80bb03c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/mvebu/dt64
+    old: c11e7732a90c21155de8db40dbba84f043520821
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/mvebu/soc
+    old: a2c568ad9936014020e5586a0bdb5f5bf1d94e21
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/omap/defconfig
+    old: ac10d6c3c5f9b85e780ec5cfaf0608ae048c5205
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/omap/dt
+    old: 10dfde4bec529aa1d78e4b3acce7882a312880b7
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/omap/maintainer
+    old: 6353ed6f311b9daab93df4d968d72ddf2070fe7f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/optee/cleanup
+    old: b19773a1c6c02f5efc35e9f506aeddd2c7d2ac29
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/optee/ffa-notification
+    old: d0476a59de064205f4aaa8f7c6d6f32bc28a44d4
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/optee/shmem
+    old: 225a36b96359aceaa9a6399f2dff99627397e637
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/optee/system-thread
+    old: 4b391c9c37646f25118355f414b9e6d9fefe782f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/qcom/defconfig
+    old: 48a9ba5eb4d720c6e21c6e4d2a6fb6e1a97f5f2a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/qcom/dt-2
+    old: c493a2b37a9e9b7864389d72dd9c67d1d39cfc61
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/qcom/dt32
+    old: 648002a27c6b3ae293cc415e1fbf20aaa6af8bd3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/qcom/dt32-2
+    old: 8677233e59137f78d4d578f3d5a21557c1bab342
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/qcom/dt32-3
+    old: cc6fc55c7ae04ab19b3972f78d3a8b1be32bf533
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/qcom/dt64
+    old: b7b9a6aa7aea2bcba2d35d65e4ce2913115485a3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/qcom/dt64-2
+    old: 78403b37f6770441f80a78d13772394731afe055
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/qcom/soc-drivers
+    old: 110cb8d861cc1a040cdab495b22ac436c49d1454
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/renesas/defconfig
+    old: 7c77368b6c42ec87aed9976288a9b50bccb272a6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/renesas/dt
+    old: 95d516f3eb96bac466a6bfec28a1e55b8ed5160b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/renesas/dt-2
+    old: fc67495680f60e88bb8ca43421c1dd628928d581
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/renesas/soc-drivers
+    old: 31b2daea07643d8b83d62c670c76d95acca84f06
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/riscv/cache-drivers
+    old: 9a9e8d8d2b6e61a516cbb8a43c5cec51c065ffa4
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/riscv/drivers
+    old: 0f2d06dd1910cc7f6591620a2070d44ca3f56551
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/riscv/dt
+    old: 56b10953da7e9e92eb1a72860db656ac6a5699a1
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/rockchip/dt32
+    old: 569b26af7919c15a8ce231b4fae29cfbd811f144
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/rockchip/dt32-2
+    old: bb0b255fb6f14b1620566d7d32c43adaca09c5e5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/rockchip/dt64
+    old: 8174dff9e583f7791dacf6d8ce034eb18ec2b292
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/rockchip/dt64-2
+    old: 8586a5d217ef7bfeee24943c600a8a7890d6f477
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/samsung/drivers
+    old: 35f32e39b4d9b436354c2a37623c393a2ac7cf87
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/samsung/dt
+    old: 50c7cdc9a4d2d21373c1ab52c131109ab30c53f5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/samsung/dt64
+    old: 40af852a7ca59d23ab4afd02af2623121da2f116
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/samsung/dt64-2
+    old: d0da0de31e1d50ff905eb8f095628eea666f8c67
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/soc/arm
+    old: 40974ee421b4d1fc74ac733d86899ce1b83d8f65
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/soc/defconfig
+    old: c2dba4d19f6542e52e59873a596cce0388d0df64
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/soc/drivers
+    old: db0a7c09b2a552c5028a29942e80a4848d182934
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/soc/dt
+    old: 18a1ee9d716d355361da2765f87dbbadcdea03bf
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/socfpga/dt-fixes
+    old: 16615a2aa5370a3f16422e9bfdbe07c2204f8513
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/stm32/dt
+    old: 2de1bb183a6999521a114d3ed0b17d15b8e75e04
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/sunxi/dt
+    old: 557e5347ba8bb050fec39c488486c4a948f2e4aa
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/tee/shmem
+    old: 7bdee41575919773818e525ea19e54eb817770af
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/unisoc/dt
+    old: 1cff7243334f851b7dddf450abdaa6223a7a28e3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/ux500/dt
+    old: 4ecae2ae9535cf1509b9404080b448bce179d662
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/zymqmp/soc-drivers
+    old: 87fda1acfc3b9048261799817ef749e6deb95724
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/zynqmp/dt
+    old: a98b6987de7d44cb621294041364f70285b3d2c6
+    new: 0000000000000000000000000000000000000000
