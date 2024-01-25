@@ -1,235 +1,77 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 25 Jan 2024 17:07:19 -0000
-Message-Id: <170620243918.15624.13766224021032497383@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2923059211763298257=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Thu, 25 Jan 2024 17:18:34 -0000
+Message-Id: <170620311412.24152.11851113776841380047@gitolite.kernel.org>
+
+--===============2923059211763298257==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/amlogic/drivers
-    old: d8385d7433f9c7d718448465e30d6b8c1207b59f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/amlogic/dt64
-    old: eb54ef36282f670c704ed5af8593da62bebba80d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/arm/fixes
-    old: 643fe70e7bcdcc9e2d96952f7fc2bab56385cce5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/asahi/soc
-    old: 4dae8c047a70307d83d912afbda2e2c94de155b6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/at91/dt
-    old: abe18175269ac8433c9cd52efd72d16b1731d479
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/at91/soc
-    old: aa1cfba75b77ca93ab9a0b03c2c9124a16d96479
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/broadcom/dt
-    old: dadc77c93b6e8ca8edd1e290fc1702dc5cef18e3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/drivers/bus-cleanup
-    old: fc540426f7baa0c7d4b477e80435d075659092a2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/drivers/memory
-    old: 4a23d0f9814c38308dc82b6dbc466666a400b27d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/drivers/memory-2
-    old: 365fcc03b6321f36eb7cbda8baa737238c387907
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/drivers/reset
-    old: c3c46acd5be9a3351c163d2869045cab4d5342dc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/firmware/scmi
-    old: b5efc28a754d2e90b9d52ba5aaa051cc24a5c85d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/fsl/cpm1
-    old: 7a2ee1576dcc6bbe017a8283fba237b05b13fd15
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/hisi/drivers
-    old: be2f78a8a638e71bbbc2109bc052524143e8f42a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/hisi/dt
-    old: 94fa073377db02ef0ca391f32e11e0f4649b2657
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/drivers
-    old: fcefbb49ebb7ad9f06ecee33ae87e4d7075728ff
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/dt
-    old: 47360e40dcb92c09f417ccbe956e646bd95a09b6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/dt-bindings
-    old: 6cbac23b309cc6454779703a741392df4e80455f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/dt64
-    old: f43c3a62e7d57e5da8d5f0c50d7254808af15920
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/soc
-    old: c8705471b94d0d869e2e3ac80c0d960f0215474f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/juno/dt
-    old: fb4d25d7a33f568bcbb945e64fb94d18ddf229fd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/k3/defconfig
-    old: e8779517788fa0f3d04840cb7d4121d3df8dfd54
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/k3/dt
-    old: 8bbe8a7dbaabb84d93321f116966af73ba6a7233
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/k3/soc-driver
-    old: 2c2235292b33d788a1436f1d2a6108184a657f51
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/keystone/dt
-    old: c1170c1d04d5bfbd9b38cb968d45b77e6bda2098
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mediatek/defconfig
-    old: ebb78614ce2ff73be14ed7339b832e24e381d3fc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mediatek/dt
-    old: 5dc289e08a4d0704583d8df70181cbeb47c817d9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mediatek/soc-drivers
-    old: 2bfbf82956e2de75249ce83901800c68d17d9e62
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mvebu/drivers
-    old: aaafe88d5500ba18b33be72458439367ef878788
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mvebu/dt
-    old: 62f34e3ec2befcbe5d8a5003f21d53dab80bb03c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mvebu/dt64
-    old: c11e7732a90c21155de8db40dbba84f043520821
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mvebu/soc
-    old: a2c568ad9936014020e5586a0bdb5f5bf1d94e21
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/omap/defconfig
-    old: ac10d6c3c5f9b85e780ec5cfaf0608ae048c5205
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/omap/dt
-    old: 10dfde4bec529aa1d78e4b3acce7882a312880b7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/omap/maintainer
-    old: 6353ed6f311b9daab93df4d968d72ddf2070fe7f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/optee/cleanup
-    old: b19773a1c6c02f5efc35e9f506aeddd2c7d2ac29
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/optee/ffa-notification
-    old: d0476a59de064205f4aaa8f7c6d6f32bc28a44d4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/optee/shmem
-    old: 225a36b96359aceaa9a6399f2dff99627397e637
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/optee/system-thread
-    old: 4b391c9c37646f25118355f414b9e6d9fefe782f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/defconfig
-    old: 48a9ba5eb4d720c6e21c6e4d2a6fb6e1a97f5f2a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/dt-2
-    old: c493a2b37a9e9b7864389d72dd9c67d1d39cfc61
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/dt32
-    old: 648002a27c6b3ae293cc415e1fbf20aaa6af8bd3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/dt32-2
-    old: 8677233e59137f78d4d578f3d5a21557c1bab342
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/dt32-3
-    old: cc6fc55c7ae04ab19b3972f78d3a8b1be32bf533
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/dt64
-    old: b7b9a6aa7aea2bcba2d35d65e4ce2913115485a3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/dt64-2
-    old: 78403b37f6770441f80a78d13772394731afe055
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/soc-drivers
-    old: 110cb8d861cc1a040cdab495b22ac436c49d1454
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/defconfig
-    old: 7c77368b6c42ec87aed9976288a9b50bccb272a6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/dt
-    old: 95d516f3eb96bac466a6bfec28a1e55b8ed5160b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/dt-2
-    old: fc67495680f60e88bb8ca43421c1dd628928d581
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/soc-drivers
-    old: 31b2daea07643d8b83d62c670c76d95acca84f06
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv/cache-drivers
-    old: 9a9e8d8d2b6e61a516cbb8a43c5cec51c065ffa4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv/drivers
-    old: 0f2d06dd1910cc7f6591620a2070d44ca3f56551
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv/dt
-    old: 56b10953da7e9e92eb1a72860db656ac6a5699a1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rockchip/dt32
-    old: 569b26af7919c15a8ce231b4fae29cfbd811f144
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rockchip/dt32-2
-    old: bb0b255fb6f14b1620566d7d32c43adaca09c5e5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rockchip/dt64
-    old: 8174dff9e583f7791dacf6d8ce034eb18ec2b292
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rockchip/dt64-2
-    old: 8586a5d217ef7bfeee24943c600a8a7890d6f477
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/samsung/drivers
-    old: 35f32e39b4d9b436354c2a37623c393a2ac7cf87
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/samsung/dt
-    old: 50c7cdc9a4d2d21373c1ab52c131109ab30c53f5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/samsung/dt64
-    old: 40af852a7ca59d23ab4afd02af2623121da2f116
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/samsung/dt64-2
-    old: d0da0de31e1d50ff905eb8f095628eea666f8c67
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/soc/arm
-    old: 40974ee421b4d1fc74ac733d86899ce1b83d8f65
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/soc/defconfig
-    old: c2dba4d19f6542e52e59873a596cce0388d0df64
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/soc/drivers
-    old: db0a7c09b2a552c5028a29942e80a4848d182934
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/soc/dt
-    old: 18a1ee9d716d355361da2765f87dbbadcdea03bf
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/socfpga/dt-fixes
-    old: 16615a2aa5370a3f16422e9bfdbe07c2204f8513
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/stm32/dt
-    old: 2de1bb183a6999521a114d3ed0b17d15b8e75e04
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/dt
-    old: 557e5347ba8bb050fec39c488486c4a948f2e4aa
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tee/shmem
-    old: 7bdee41575919773818e525ea19e54eb817770af
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/unisoc/dt
-    old: 1cff7243334f851b7dddf450abdaa6223a7a28e3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/ux500/dt
-    old: 4ecae2ae9535cf1509b9404080b448bce179d662
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/zymqmp/soc-drivers
-    old: 87fda1acfc3b9048261799817ef749e6deb95724
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/zynqmp/dt
-    old: a98b6987de7d44cb621294041364f70285b3d2c6
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master-pending
+    old: 6ef1f0e7300f60b29ff78794fc846986f6bca869
+    new: 617239c015d5024b8b5c53a6ecb4fa47d909ec75
+    log: revlist-6ef1f0e7300f-617239c015d5.txt
+  - ref: refs/heads/pending
+    old: 63e6be5f7dc74ed8a882d55b292ee832bfedade8
+    new: 2c471f31297856be56f60ef29f2565dea1470800
+    log: revlist-63e6be5f7dc7-2c471f312978.txt
+  - ref: refs/tags/ath-pending-202401251717
+    old: 0000000000000000000000000000000000000000
+    new: 617239c015d5024b8b5c53a6ecb4fa47d909ec75
+
+--===============2923059211763298257==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6ef1f0e7300f-617239c015d5.txt
+
+dbd73acb22d85873ecca51fdb33a0e50d11e8021 wifi: ath11k: enable 36 bit mask for stream DMA
+171203f0c4093dfe7e73ceb6c38033595f329f56 wifi: ath11k: remove invalid peer create logic
+629642fa8b25b8dfecefc9e2177a44c009858da7 wifi: ath11k: rename ath11k_start_vdev_delay()
+ce59902e56ea0477ad9bef0067d0e47b6c4d707d wifi: ath11k: avoid forward declaration of ath11k_mac_start_vdev_delay()
+9d5f28c1366f48efae7b1df0f622285519e74dce wifi: ath11k: fix connection failure due to unexpected peer delete
+f520184fe7b6534ea6ac0f2ddeb12f31bc8d548e Merge branch 'ath-next'
+17f4b952f067b1f87d14e6df4c8c216fe7a245d1 Add localversion-wireless-testing-ath
+c5e631879f8548969ce85eadc5a3f938829e426d wifi: ath12k: change interface combination for P2P mode
+346debe2036faba42e9dfdd44cc4a0fcbdcf5c8f wifi: ath12k: add P2P IE in beacon template
+896bb16181fe8c43a846eb40b558969ed9709d04 wifi: ath12k: implement handling of P2P NoA event
+617c6edc090b6876f04670fa831c54d7438edb3d wifi: ath12k: implement remain on channel for P2P mode
+ed20834db3251ec98074ed1574a050cf26e7c69e wifi: ath12k: change WLAN_SCAN_PARAMS_MAX_IE_LEN from 256 to 512
+56e74185ea619cc1942596f8bcbc89b702415b4c wifi: ath12k: allow specific mgmt frame tx while vdev is not up
+594fb681e039b5db20c1c8ffebf682d8c39d714a wifi: ath12k: fix broken structure wmi_vdev_create_cmd
+a01dcc0642746380dbcfb49b6c1e7f5dc976d5cf wifi: ath12k: move peer delete after vdev stop of station for WCN7850
+0af585304328158496032dc3daf79593c4f66840 wifi: ath12k: designating channel frequency for ROC scan
+2c471f31297856be56f60ef29f2565dea1470800 wifi: ath12k: advertise P2P dev support for WCN7850
+617239c015d5024b8b5c53a6ecb4fa47d909ec75 Merge branch 'pending' into master-pending
+
+--===============2923059211763298257==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-63e6be5f7dc7-2c471f312978.txt
+
+dbd73acb22d85873ecca51fdb33a0e50d11e8021 wifi: ath11k: enable 36 bit mask for stream DMA
+171203f0c4093dfe7e73ceb6c38033595f329f56 wifi: ath11k: remove invalid peer create logic
+629642fa8b25b8dfecefc9e2177a44c009858da7 wifi: ath11k: rename ath11k_start_vdev_delay()
+ce59902e56ea0477ad9bef0067d0e47b6c4d707d wifi: ath11k: avoid forward declaration of ath11k_mac_start_vdev_delay()
+9d5f28c1366f48efae7b1df0f622285519e74dce wifi: ath11k: fix connection failure due to unexpected peer delete
+c5e631879f8548969ce85eadc5a3f938829e426d wifi: ath12k: change interface combination for P2P mode
+346debe2036faba42e9dfdd44cc4a0fcbdcf5c8f wifi: ath12k: add P2P IE in beacon template
+896bb16181fe8c43a846eb40b558969ed9709d04 wifi: ath12k: implement handling of P2P NoA event
+617c6edc090b6876f04670fa831c54d7438edb3d wifi: ath12k: implement remain on channel for P2P mode
+ed20834db3251ec98074ed1574a050cf26e7c69e wifi: ath12k: change WLAN_SCAN_PARAMS_MAX_IE_LEN from 256 to 512
+56e74185ea619cc1942596f8bcbc89b702415b4c wifi: ath12k: allow specific mgmt frame tx while vdev is not up
+594fb681e039b5db20c1c8ffebf682d8c39d714a wifi: ath12k: fix broken structure wmi_vdev_create_cmd
+a01dcc0642746380dbcfb49b6c1e7f5dc976d5cf wifi: ath12k: move peer delete after vdev stop of station for WCN7850
+0af585304328158496032dc3daf79593c4f66840 wifi: ath12k: designating channel frequency for ROC scan
+2c471f31297856be56f60ef29f2565dea1470800 wifi: ath12k: advertise P2P dev support for WCN7850
+
+--===============2923059211763298257==--
