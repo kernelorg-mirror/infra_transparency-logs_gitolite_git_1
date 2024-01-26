@@ -1,50 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============9223159170844692816=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 26 Jan 2024 14:34:09 -0000
-Message-Id: <170627964906.10352.13295707735297241690@gitolite.kernel.org>
-
---===============9223159170844692816==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 26 Jan 2024 14:35:06 -0000
+Message-Id: <170627970669.12311.11748485525530260999@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/spi-6.8
-    old: f9f4b0c6425eb9ffd9bf62b8b8143e786b6ba695
-    new: 8c2ae772fe08e33f3d7a83849e85539320701abd
+  - ref: refs/heads/main
+    old: 0c40df810685c15141413cee5bea7233e1db43fb
+    new: 8fa621d2f9c17abc28d6c2d24651819621341bf3
     log: |
-         8c2ae772fe08e33f3d7a83849e85539320701abd spi: fix finalize message on error return
+         9f4771365348f41a7cfae9469d47fffc1869aa10 linux-firmware: Add firmware for Cirrus CS35L41 on HP Consumer Laptops
+         85d372744a19cf78f7437c6027d7037baa0f0a52 qcom: Add Audio firmware for SM8650 MTP
+         32e2c4ac4ca9ac36e4dbf137363bbf60c6891d4a Merge branch 'robot/pr-0-1706276257' into 'main'
+         8fa621d2f9c17abc28d6c2d24651819621341bf3 Merge branch 'robot/pr-0-1706269048' into 'main'
          
-
---===============9223159170844692816==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1706279647 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1706279646-e89459b7f2bd45b2a4b8750a4b9979e4e73c8887
-
-f9f4b0c6425eb9ffd9bf62b8b8143e786b6ba695 8c2ae772fe08e33f3d7a83849e85539320701abd refs/heads/spi-6.8
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmWzwt8ACgkQJNaLcl1U
-h9AdnAf/RkzL9Ii86ouegqzy7VnqK+6NH3uxdh8tzxv4AQS4hlRJj4RylhUwcoR1
-GO1xJfuTNHQL8gVu1cCfRT8gWlgqufE5tE53yCYOp6D/OEy+1WqvUss2PVQ6vcap
-QCoG71Nx3yZk0TV3oGWrRBtBcfqJ35Ev5JzBoIknliq5npZBVP5dCKVN4OCxF/e5
-xmph39bT0UcKxijZ8hgNls4MwBUIrpoiJwFcmgTT+wPraJ0S9c0ENKzXP2VWSAMX
-WoJ2vLAYIdxZ8gmUv0kkKvp8XlZtOJUUNb+OSNpMkDcwVlMz4XiX0MLjBPAcgyiO
-BYH5Yuo2IyYDWPlpDd1XIInOlGmirw==
-=Rsjh
------END PGP SIGNATURE-----
-
---===============9223159170844692816==--
