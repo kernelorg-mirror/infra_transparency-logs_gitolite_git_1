@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 26 Jan 2024 18:42:06 -0000
-Message-Id: <170629452650.5963.1136529411588603661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 26 Jan 2024 19:09:51 -0000
+Message-Id: <170629619168.24783.13515756467378565350@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/hwmon
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
-    new: 97aab852c4b9e1b378de48a55f8c9b8d76c36ccc
+  - ref: refs/heads/master
+    old: e48f0f4a9bfed8947e4d1123e8b6a15c18ee1708
+    new: fa7178b0f12e55a4f2d4906df3f25d6d4f88d962
     log: |
-         97aab852c4b9e1b378de48a55f8c9b8d76c36ccc hwmon: gigabyte_waterforce: Fix locking bug in waterforce_get_status()
+         fa7178b0f12e55a4f2d4906df3f25d6d4f88d962 selftests/bpf: Add missing line break in test_verifier
          
