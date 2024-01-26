@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Fri, 26 Jan 2024 17:44:16 -0000
-Message-Id: <170629105657.27816.12411190539609291875@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 26 Jan 2024 17:52:30 -0000
+Message-Id: <170629155039.1671.6885282689410181754@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/urgent
-    old: a7a6a01f88e87dec4bf2365571dd2dc7403d52d0
-    new: 9ec96d83b3d3c0759c9a7e59c6aa1510b49cb049
+  - ref: refs/heads/for-6.8/upstream-fixes
+    old: a3bdcdd022c68942a774e8e63424cc11c85aab78
+    new: 00aab7dcb2267f2aef59447602f34501efe1a07f
     log: |
-         c52a2738e92f2c392fd00e98ffd97225aa919294 efi/x86: Set the PE/COFF header's NX compat flag unconditionally
-         9ec96d83b3d3c0759c9a7e59c6aa1510b49cb049 efi/libstub: Add one kernel-doc comment
+         00aab7dcb2267f2aef59447602f34501efe1a07f HID: i2c-hid-of: fix NULL-deref on failed power up
+         
+  - ref: refs/heads/for-next
+    old: a1857008451f3252f7371a34566be1f9c573366c
+    new: 53cc9efee5e9da6261327958a2847cf5789f3ab0
+    log: |
+         00aab7dcb2267f2aef59447602f34501efe1a07f HID: i2c-hid-of: fix NULL-deref on failed power up
+         53cc9efee5e9da6261327958a2847cf5789f3ab0 Merge branch 'for-6.8/upstream-fixes' into for-next
          
