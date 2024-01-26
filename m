@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Fri, 26 Jan 2024 14:00:11 -0000
-Message-Id: <170627761194.14919.2565807406067821023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 26 Jan 2024 14:04:58 -0000
+Message-Id: <170627789860.16732.16910255598048163060@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/tags/drm-misc-fixes-2024-01-26
-    old: 0000000000000000000000000000000000000000
-    new: 8139932d33d3350b4004783347a974b1d84fe6fe
-  - ref: refs/tags/drm-misc-fixes-for-v6.8-rc2
-    old: 0000000000000000000000000000000000000000
-    new: d50e4c4b13c057278991f10dabe0e18146670345
+  - ref: refs/heads/master
+    old: 9d9045c58015cbbb3126b5473874ac4a2f538604
+    new: fc8d5c4ab95e876076aae6cbf825515564d9dc19
+    log: |
+         3c8a8d18916c8e426617de329a349385cd319fea Fixes for 6.7
+         dc9bb9e8c0a9458b19e9d2e0810e103287b57fc5 Fixes for 6.6
+         5afabfdea5bd8c0d7fad9eca773f756f99f4b3c3 Fixes for 6.1
+         566da90a2e72a8f629cf7bf553669546488d3c0a Fixes for 5.15
+         8faade6732d4d39ef8ab74037916343b2fa2aafd Fixes for 5.10
+         2fcda5c38db236b66c57fa90e5a81170f3aad026 Fixes for 5.4
+         fc8d5c4ab95e876076aae6cbf825515564d9dc19 Fixes for 4.19
+         
