@@ -1,43 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3302598728726396840=="
+Content-Type: multipart/mixed; boundary="===============6402022129163303953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Fri, 26 Jan 2024 23:18:41 -0000
-Message-Id: <170631112164.13230.8873683620281772919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 26 Jan 2024 23:21:29 -0000
+Message-Id: <170631128965.15911.2230551348147614344@gitolite.kernel.org>
 
---===============3302598728726396840==
+--===============6402022129163303953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/unbound-system-wide-max_active-v3
-    old: 019cef570cc3a4819a83285edc007793240ed0e6
-    new: 92bc77ef9aeba62026e49f1380685f379787c817
-    log: revlist-019cef570cc3-92bc77ef9aeb.txt
+  - ref: refs/heads/master
+    old: 168174d78157bba1315d5f8e1c66548b92c84ae9
+    new: 914e17088e91a96ea4ce5af2504588678f96edb8
+    log: revlist-168174d78157-914e17088e91.txt
 
---===============3302598728726396840==
+--===============6402022129163303953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-019cef570cc3-92bc77ef9aeb.txt
+Content-Disposition: attachment; filename=revlist-168174d78157-914e17088e91.txt
 
-8318d6a6362f5903edb4c904a8dd447e59be4ad1 workqueue: Shorten events_freezable_power_efficient name
-6a229b0e2ff6143b65ba4ef42bd71e29ffc2c16d workqueue: Drop unnecessary kick_pool() in create_worker()
-e563d0a7cdc1890ff36bb177b5c8c2854d881e4d workqueue: Break up enum definitions and give names to the types
-2100803c1ff4272a937dbdf17b364ba347f291b5 workqueue: Move pwq->max_active to wq->max_active
-88951fcdeea2a94e99231dd67698259bcbb72c98 workqueue: Factor out pwq_is_empty()
-b513ef75e99534fd0f19d3ef9fc440e0f1ddc211 workqueue: Replace pwq_activate_inactive_work() with [__]pwq_activate_work()
-534e1f27872f6afdec42b176ab893209461fc341 workqueue: Move nr_active handling into helpers
-4349a73c2b9e03d015b90106dcf0f90eee7f19b6 workqueue: Make wq_adjust_max_active() round-robin pwqs while activating
-6e8b2e02c9f0bca470a61ee7654ad9756b361651 workqueue: RCU protect wq->dfl_pwq and implement accessors for it
-3febfb040f83d8c94dc4fa4e431905b7d07d2a85 workqueue: Move pwq_dec_nr_in_flight() to the end of work item handling
-e0c013f35048354e221a6f0bbdaec7c14f73c3d3 workqueue: Introduce struct wq_node_nr_active
-0aa92282131dd42e8e8579fdb8b62f72004595ca workqueue: Implement system-wide nr_active enforcement for unbound workqueues
-92bc77ef9aeba62026e49f1380685f379787c817 tools/workqueue/wq_dump.py: Add node_nr/max_active dump
+0086ffec768bec6f5d61fc7e406af640eb912a24 tools cpupower bench: Override CFLAGS assignments
+c6a783be82c893c6f124a5853bef2edeaf26dadf thermal: intel: powerclamp: Remove dead code for target mwait value
+192cdb1c907fd8df2d764c5bb17496e415e59391 cpufreq: intel_pstate: Refine computation of P-state for given frequency
+7777f47f2ea64efd1016262e7b59fab34adfb869 block: Move checking GENHD_FL_NO_PART to bdev_add_partition()
+22fb4f041999f5f16ecbda15a2859b4ef4cbf47e cpufreq/amd-pstate: Fix setting scaling max/min freq values
+13f3956eb5681a4045a8dfdef48df5dc4d9f58a6 block: Fix WARNING in _copy_from_iter
+d3b93fe159b8d3a48565c4ecd602e3499764d549 Merge tag 'linux-cpupower-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux
+d2d0223441d3caad65f6978c07869321bce968e0 docs/sphinx: Fix TOC scroll hack for the home page
+3f0e4df37a1b505307f61fbfa7b1f9a2fa2c40bc docs/accel: correct links to mailing list archives
+ea7dcd8a48ea3b440a7070b1a0f70f757f8ed9a8 doc: admin-guide/kernel-parameters: remove useless comment
+d546978e0c07b6333fdbcbd81b2f2e058d4560b5 docs: admin-guide: remove obsolete advice related to SLAB allocator
+16bae3e1377846734ec6b87eee459c0f3551692c io_uring: enable audit and restrict cred override for IORING_OP_FIXED_FD_INSTALL
+e169bd4fb2b36c4b2bee63c35c740c85daeb2e86 aoe: avoid potential deadlock at set_capacity
+9f3fe29d77ef4e7f7cb5c4c8c59f6dc373e57e78 md: fix a suspicious RCU usage warning
+5af2c3f44e004b5618ebef34ac30bd3511babb27 Merge tag 'md-6.8-20240126' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.8
+f3bdd82c5834219a5b272c2310c83aef68667486 Merge branch 'pm-cpufreq'
+70da22eb63f73a1ce41c7d106a5a417c352089f8 Merge tag 'docs-6.8-fixes' of git://git.lwn.net/linux
+0c879d88138cab3477eb71dda962cb13b3dd8973 Merge tag 'pm-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+667c889308a171748dd19d496a9714b77c688a86 Merge tag 'thermal-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+cced1c5e72b7466e6c9091370eaf5d55a4ddeecb Merge tag 'io_uring-6.8-2024-01-26' of git://git.kernel.dk/linux
+914e17088e91a96ea4ce5af2504588678f96edb8 Merge tag 'block-6.8-2024-01-26' of git://git.kernel.dk/linux
 
---===============3302598728726396840==--
+--===============6402022129163303953==--
