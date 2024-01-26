@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1864621170503524662=="
+Content-Type: multipart/mixed; boundary="===============2617595874251149053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Fri, 26 Jan 2024 11:22:07 -0000
-Message-Id: <170626812713.30221.12247419820538959704@gitolite.kernel.org>
+Date: Fri, 26 Jan 2024 11:22:15 -0000
+Message-Id: <170626813574.30366.5291352018057921120@gitolite.kernel.org>
 
---===============1864621170503524662==
+--===============2617595874251149053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt
-    old: 831e0cd4f9ee15a4f02ae10b67e7fdc10eb2b4fc
+  - ref: refs/heads/for-next
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
     new: 2df26223650027602d017368f4e8dc1eff90404e
     log: |
+         831e0cd4f9ee15a4f02ae10b67e7fdc10eb2b4fc arm: dts: marvell: Fix maxium->maxim typo in brownstone dts
          2df26223650027602d017368f4e8dc1eff90404e ARM: dts: marvell: dove-cubox: fix si5351 node names
          
 
---===============1864621170503524662==
+--===============2617595874251149053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1706268125 +0100
+pusher krzk@kernel.org 1706268134 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1706268124-429b2e90c7679bd52ca1bc2823fdd1721443f4e5
+nonce 1706268133-7e681406361cbd9aa6df6619d0051b6297ec9637
 
-831e0cd4f9ee15a4f02ae10b67e7fdc10eb2b4fc 2df26223650027602d017368f4e8dc1eff90404e refs/heads/next/dt
+6613476e225e090cc9aad49be7fa504e290dd33d 2df26223650027602d017368f4e8dc1eff90404e refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmWzld0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD16iYD/kBwBL2W+vfjeUHallcvtp644n/oErj/uIL
-qLLBQpiZmjUerruQVAzf8C1GGUyFCoc6pmOli5XZLThYBFm+DX5eHUlRGr/5NNg7
-yYWoR1WjFnSR7Y/8qpwFw2V2BEJHw5miCgkrjbdnsSHf11RQ2leCpE5IHf2Cl0zL
-G3Zo2Zx8I2nR3hohFmPU2J6t2v5FGMriFK8zHCgeoKNSEX1biMbEFKVO7lUnXpKC
-qAQx5M9qcg9eglYUOYlb60+KJOYPIg1A6brp9ZTzBaEarj2bx0mrhyXt0Fy9ibiF
-PR+7vCmnNe9O2dHC4LhCxaORuEBLmr3/D4CSsZZbdHEOw+BhyBrY3Su7aNKT72CN
-Qg7n1QI79lAqaVjDSlYXIWVC340DP49qleD77UDyUupl8Z9WEDW2nL/w79W8wc66
-39IWjQqifjHJGhlSvdOuqRM4ITCMJLPeDIPtieDqp+OmXiUDXoDA7xat5b6KXABI
-yGNdaYrcHT7AArTA3d9JdRY3AQV9Uv0MftlJVw+hyf52ODCMqtJ157BPBYsKDLSK
-dW4+atsm0ctyKE+s7KAxMQSfrP4qxQ7OCOG1nGNHLNWQzgX9mLQHEnq2sKxMjCyJ
-0mqZccEE32ONA7wQvthRYlaf14J0TfmYLvWiA2NOVgsuar2T+GtOveKmGMR85lud
-JYYlDYcgDA==
-=pCns
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmWzleYQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/8yD/9wuaptHewb+ETQ2DzALWQ4zMdQIeu3z8Q2
+pA4jzELvOi9/BivjJr8YLWQMEInZz+ekNtEFw17NCxvXzLMyTxg9QRVJYJ9MosnX
+cOwOuPCiYpUNQOM2bIg7uTZ7WqA1j+/z4ecz0x6Cdzziuw8VOG9RYvqmqOVbRLlx
+Wjf7uetqLAtfseg5JDWmKh47l1SNQqKgPntb5OtZtEFAPandof8sY3APazwjKeyY
+ApNylTfZhfulqS/8P93bj8ooiO3L/JCQW6KmthNjA5Ep1nIiAB0IrK4GD+c6ZaLZ
+2ssyC7vvu/ER0ZU+w2mOEIL2g+UdUSBRFMn11kjBaRondIF7m80BIUjVcyXBYPei
+PJtkGLiV7FDUteEtgAXQLzS8DxZG7yIQWC0joD70z7jY6AQK+LjcL+cMma379bNB
+3hoLYl2aEDw05r3cMv/9SMLaeSS0qnPho8eeDxV/n3FKs8yyC+GQyjeQFHCabMNn
+jGj/5CnnGW6vn8Gzko2RY1gGnp6cuy64gXcw519vqeB1LAYhXL5OIyOT/HqjwkXF
+ITWhOOSuu3hFzid9Yztc+/SG+SjxFS3ZAxrznWl5kNa3n+lmXdbscqQV2qnVAxSq
+rous/VqARH2Iq7W7BwZPCU9QKknWJETjficLHyE2Wof8/vFSIFPvy6twYCHPqkhm
+dvtru/OXAQ==
+=lloB
 -----END PGP SIGNATURE-----
 
---===============1864621170503524662==--
+--===============2617595874251149053==--
