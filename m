@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 26 Jan 2024 09:30:54 -0000
-Message-Id: <170626145422.829.16172635632868887999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Fri, 26 Jan 2024 09:37:35 -0000
+Message-Id: <170626185588.6144.7638827032965879820@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/master
-    old: ba837d65c5bbe8f2d5809b97311608b18beb1d55
-    new: 3e6f99949769a0819c019660da7c76ce437fd155
+  - ref: refs/heads/mips-fixes
+    old: f64fdde9bc771d7d790e8bcc30a7e03bbe0b1a9f
+    new: 4bf2a626dc4bb46f0754d8ac02ec8584ff114ad5
     log: |
-         42ac0be18bfa09c03f52244f7c3e15c89b38532f Merge branch 'linus' into x86/mm, to refresh the branch and pick up fixes
-         8f588afe6256c50b3d1f8a671828fc4aab421c05 x86/mm: Get rid of conditional IF flag handling in page fault path
-         3e6f99949769a0819c019660da7c76ce437fd155 Merge branch into tip/master: 'x86/mm'
+         dd3c33ccbb8f0dc6a256dc55e7607569aea69721 MIPS: BCM63XX: Fix missing prototypes
+         abcabb9e30a1f9a69c76776f8abffc31c377b542 MIPS: reserve exception vector space ONLY ONCE
+         ce7b1b97776ec0b068c4dd6b6dbb48ae09a23519 MIPS: loongson64: set nid for reserved memblock region
+         4bf2a626dc4bb46f0754d8ac02ec8584ff114ad5 MIPS: lantiq: register smp_ops on non-smp platforms
          
-  - ref: refs/tags/v6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a0706eba72b90a4702dde6a0b8cc82d78e9b2495
