@@ -1,22 +1,17 @@
-Content-Type: multipart/mixed; boundary="===============0769083467030148664=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 26 Jan 2024 21:37:44 -0000
-Message-Id: <170630506405.2158.13472071211851738835@gitolite.kernel.org>
-
---===============0769083467030148664==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 26 Jan 2024 21:37:54 -0000
+Message-Id: <170630507499.2368.15978152527569506221@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.9
+  - ref: refs/heads/for-next
     old: 966323dd9a65dde599f59176280468a0cb04c875
     new: 01dffdcaa094858a03e3694694815f1a4915940c
     log: |
@@ -30,29 +25,3 @@ changes:
          31c6e53a4da5fe626b99e1ebf777d751994e3281 ASoC: cs42l43: Use fls to calculate the pre-divider for the PLL
          01dffdcaa094858a03e3694694815f1a4915940c ASoC: dt-bindings: audio-graph-port: Drop type from "clocks"
          
-
---===============0769083467030148664==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1706305062 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1706305061-87c08a1455d2553fce55cd8d4b2197af079538c0
-
-966323dd9a65dde599f59176280468a0cb04c875 01dffdcaa094858a03e3694694815f1a4915940c refs/heads/asoc-6.9
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmW0JiYACgkQJNaLcl1U
-h9Bizwf/QQwHhAtRNF7QUzBxQgktNVgJe+9t2Q6ycHShFedlQ0RfwvEKoPG/H9kG
-zWMkTkSBKFLSJI2XrJHrXpNzlVjSgQaCvzRQ7fgIA96fCPLeLWoL0QojF8leX59Z
-7UzWYNqleVRyLJU6r+J6ruu4pjR2mn8qLBpEzUTpkXMtUWBXZlikPvRw+YgM/FnZ
-3+qspTgfqT83q2FD127Z5LgTEvk8E6r5qABCrdjJHrTHp4c7l4hHk+QMAleHjr3n
-9VtcJJcvFrTBcH8icQCjgCEQJN9KLvPl8XE7qJ5ndhUJt06xCXxpjili5qKcfIFP
-YCODaFxGnFG2TQf+qRsdEzqHpLki5Q==
-=+Lk1
------END PGP SIGNATURE-----
-
---===============0769083467030148664==--
