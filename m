@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6426915066723200547=="
+Content-Type: multipart/mixed; boundary="===============0748193997571804704=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 26 Jan 2024 17:29:25 -0000
-Message-Id: <170629016563.16081.835902036165008177@gitolite.kernel.org>
+Date: Fri, 26 Jan 2024 17:30:03 -0000
+Message-Id: <170629020306.16815.7933039630692209161@gitolite.kernel.org>
 
---===============6426915066723200547==
+--===============0748193997571804704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 06f609b3119876b42f19fdb690b10896d3c648e6
-    new: 5f76499fb541c3e8ae401414bfdf702940c8c531
-    log: revlist-06f609b31198-5f76499fb541.txt
+  - ref: refs/heads/dev-queue
+    old: 3b5d33b750a209fff557b537c720f4a7f92d695e
+    new: ed8335c2c66932168126be560f3680b51d2b58d1
+    log: revlist-3b5d33b750a2-ed8335c2c669.txt
 
---===============6426915066723200547==
+--===============0748193997571804704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06f609b31198-5f76499fb541.txt
+Content-Disposition: attachment; filename=revlist-3b5d33b750a2-ed8335c2c669.txt
 
 9496d62f3877bc0f97b415bc04af98d092878026 wifi: rtw89: pci: use DBI function for 8852AE/8852BE/8851BE
 ac770f07a93bd70d1f371ade465e2fe282d19fa0 wifi: rtw89: 8852b: update TX power tables to R36
@@ -145,5 +145,36 @@ ad9b701aed48b0a682f56b4bee03731d9d1834bd selftest: Update PATH for nettest in fc
 5535fcc59a16aea4bd454a97b4b73faa8a6b1c69 Merge branch 'selftests-updates-to-fcnal-test-for-autoamted-environment'
 3df18416267bb0d390399f4e63f74f7d76c5d92e gve: Modify rx_buf_alloc_fail counter centrally and closer to failure
 5f76499fb541c3e8ae401414bfdf702940c8c531 tsnep: Add link down PHY loopback support
+a6e3b1b237465e04c949da3dd6691691fc1f9d1a i40e: Fix waiting for queues of all VSIs to be disabled
+ef86c51884371fbcf3918ab5bb07b1b6f91d74b5 i40e: Fix wrong mask used during DCB config
+ffe449a4ccaf4ef4dc68f885422eac92612cfd1a i40e: Use existing helper to find flow director VSI
+600f14212a9b0c4fddfd80d9d36480507d4652eb i40e: Introduce and use macros for iterating VSIs and VEBs
+2d88c56dae43b64b2783a00b1785da22f84af567 i40e: Add helpers to find VSI and VEB by SEID and use them
+4b3c94281d488812d4305cdf031134e51df7ab45 i40e: Fix broken support for floating VEBs
+8f56402671338840395c7fb3b7beb25d27d356cb i40e: Remove VEB recursion
+69afd560813035f5d3f40d2bc48e7f61fe3b1dbd ice: introduce new E825C devices family
+627132675bd90e472517c3b32d67dec5de6e9147 ice: Add helper function ice_is_generic_mac
+5870bb4becf706977aad7f9d37cf079f54441e88 ice: add support for 3k signing DDP sections for E825C
+0eb591c51686fdb0208c01e2baea595c4f784f8b ice: Add support for devlink loopback param.
+54cefbb4977d4c5759dc615accbf4cf0f9bfc02b e1000e: correct maximum frequency adjustment values
+f7b4c13a40b6ca28d77252f5949c483370de6ad3 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+2f73173f64d5ea769be771cad609086f7c0dc310 ice: Add a new counter for Rx EIPE errors
+35ce91477e6f4d924654d943c7a281774336351f e1000e: Minor flow correction in e1000_shutdown function
+79a7f4d55ca188a7444745be30121f77e9aefd04 igb: Fix string truncation warnings in igb_set_fw_version
+1315eca856b68563045382a0869425fb39d3a8ee ice: Add check for lport extraction to LAG init
+44c0c8ba41bbdba2d167aa87b979046372ec061a ixgbe: Fix an error handling path in ixgbe_read_iosf_sb_reg_x550()
+7eaaad0b9a906f00735d72f755fef78f11c8b339 iavf: fix reset in early states
+f9b8d41bf4c353e34a0e6620b1f82e029fa32e25 iavf: allow an early reset event to be processed
+e2ed1d8982c67c27a727baa6d399be387adc5fac ice: remove duplicate comment
+301b08c4c4acc43901c7fdba4187c60e1e5c2872 ice: introduce PTP state machine
+227622392b2956dac0e4286509a92826ac060121 ice: pass reset type to PTP reset functions
+9289572033ae3a3dcd949e9f00d53f07fd4afab8 ice: rename verify_cached to has_ready_bitmap
+01e26d9a533519a965a4e084945032ab07dec407 ice: don't check has_ready_bitmap in E810 functions
+452f17a96502924bc0c0ed40fc5acdffa1dc7cdc ice: rename ice_ptp_tx_cfg_intr
+e7d9057c54251bd4842ebbba360db3ea561fd35a ice: factor out ice_ptp_rebuild_owner()
+1820e4aa89fb5a8553cec44cd5a279acfaf14f6c ice: stop destroying and reinitalizing Tx tracker during reset
+a81b3b88349e1ccf037c10c150cc6485ecc63d8f ice: make ice_vsi_cfg_rxq() static
+ffa7990a354567bfbc5eca58fb6e5c78b608d0fd ice: make ice_vsi_cfg_txq() static
+ed8335c2c66932168126be560f3680b51d2b58d1 idpf: avoid compiler padding in virtchnl2_ptype struct
 
---===============6426915066723200547==--
+--===============0748193997571804704==--
