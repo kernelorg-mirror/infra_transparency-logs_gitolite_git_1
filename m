@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3336468328005095706=="
+Content-Type: multipart/mixed; boundary="===============7216564240503752640=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 26 Jan 2024 22:34:17 -0000
-Message-Id: <170630845764.10302.5123636755519779590@gitolite.kernel.org>
+Date: Fri, 26 Jan 2024 22:35:34 -0000
+Message-Id: <170630853416.12480.18355639724054069237@gitolite.kernel.org>
 
---===============3336468328005095706==
+--===============7216564240503752640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,176 +16,188 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
   - ref: refs/heads/queue/4.19
-    old: 4778858ca71f43ad09572ba6885790224bb904a9
-    new: 7af35c2d0a27e4fd3205a4869a3ce87d3f4f2fc0
-    log: revlist-4778858ca71f-7af35c2d0a27.txt
+    old: 7af35c2d0a27e4fd3205a4869a3ce87d3f4f2fc0
+    new: 2e7ab25228cb225598533af1802399b49694e177
+    log: revlist-7af35c2d0a27-2e7ab25228cb.txt
   - ref: refs/heads/queue/5.10
-    old: 7f7ee1fa4ad64dfb1722ef2a7067b0e6bf262c18
-    new: eaeea4bc5fb134ed555d8066fa47fc5b05a215f7
-    log: revlist-7f7ee1fa4ad6-eaeea4bc5fb1.txt
+    old: eaeea4bc5fb134ed555d8066fa47fc5b05a215f7
+    new: 0796b5595f70b09bed4ce7be93bd13392ad0c8b8
+    log: revlist-eaeea4bc5fb1-0796b5595f70.txt
   - ref: refs/heads/queue/5.15
-    old: abe28508cb45f98d76b529305825e46f520717ac
-    new: d19e132c5e83715af43f9a136929e674f953f767
-    log: revlist-abe28508cb45-d19e132c5e83.txt
+    old: d19e132c5e83715af43f9a136929e674f953f767
+    new: d5658e2bcd97d034c54f857b133eb6b76617f4be
+    log: revlist-d19e132c5e83-d5658e2bcd97.txt
   - ref: refs/heads/queue/5.4
-    old: a7311e92852426dc3989e18c09988bf9b1d5e58e
-    new: d55a1121b90016fc34020ef6390939c7b17483ac
-    log: |
-         07173ce9f870f04e492b07ee558950e7b35b0e31 PCI: mediatek: Clear interrupt status before dispatching handler
-         54a6c02f84b6885e2ecc710fbe7de5831ac9e85d include/linux/units.h: add helpers for kelvin to/from Celsius conversion
-         c8dfa0d49109f31227307463055d11c9384c6228 units: Add Watt units
-         c4d4c04781259c7fe9f4b928c80ee62a915143b0 units: change from 'L' to 'UL'
-         7491b30bfec16ec1bd2568d34016213a24b96723 units: add the HZ macros
-         cdd911a3f6feba25d95ecfaff157c3d2b6766e29 serial: sc16is7xx: set safe default SPI clock frequency
-         782664fd36744d619ce745568b70c595c67fde8f spi: introduce SPI_MODE_X_MASK macro
-         d55a1121b90016fc34020ef6390939c7b17483ac serial: sc16is7xx: add check for unsupported SPI modes during probe
-         
+    old: d55a1121b90016fc34020ef6390939c7b17483ac
+    new: 5e237d65380331c9888d36f76dc0f118fe0aef81
+    log: revlist-d55a1121b900-5e237d653803.txt
   - ref: refs/heads/queue/6.1
-    old: 661a62042f979f75f539644f552b9bb7a686cd8f
-    new: 25daf0aa5c5ecd750da27445698bc376e9e6b1f8
+    old: 25daf0aa5c5ecd750da27445698bc376e9e6b1f8
+    new: eb54fd1dc64fa0be13404d4a74d79c28faae79c9
     log: |
-         71a8d7891b9f3ce9a6fd79875ed6720c3976cef4 usb: dwc3: gadget: Refactor EP0 forced stall/restart into a separate API
-         ae8e12ed56895fdb09a71568afab30b1c0525278 usb: dwc3: gadget: Queue PM runtime idle on disconnect event
-         53f471407037c40eb95aa53656b7f122bd50beef usb: dwc3: gadget: Handle EP0 request dequeuing properly
-         75f5d247ffbef00ca3779277f0da7c1e28d82086 Revert "nSVM: Check for reserved encodings of TLB_CONTROL in nested VMCB"
-         71d14791d46d7395ae2d81137ae2b17e8d77313c iio: adc: ad7091r: Set alert bit in config register
-         0ab4b0bff9d5c02754313b067e55f2c3681a3241 iio: adc: ad7091r: Allow users to configure device events
-         73029a2cc8645dc1f634ad885fab3ed34bf29b04 iio: adc: ad7091r: Enable internal vref if external vref is not supplied
-         eca313c3b6703ac365fdfe5c9a1a8ec3b92dac44 dmaengine: fix NULL pointer in channel unregistration function
-         25daf0aa5c5ecd750da27445698bc376e9e6b1f8 scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
+         537b08c4e98163983a54c55d71f47c4b22e735e7 usb: dwc3: gadget: Refactor EP0 forced stall/restart into a separate API
+         edf7fe92c4ef7f682cf1f4d404649e6bbc2febf1 usb: dwc3: gadget: Queue PM runtime idle on disconnect event
+         62794865a8227d6c419ae54c6b3e7c12b6f7d5ac usb: dwc3: gadget: Handle EP0 request dequeuing properly
+         65fe76e37e000c63e9f21ecd1e82ba938f5b8e1a Revert "nSVM: Check for reserved encodings of TLB_CONTROL in nested VMCB"
+         30aba55cf4e3e19599639c8bc1ab2acecdec5d00 iio: adc: ad7091r: Set alert bit in config register
+         78ea33b9fd6c374b3de6961e555beffc0cb6e39c iio: adc: ad7091r: Allow users to configure device events
+         05150f3656130b3ae2a52ae719275184e1a64bbb iio: adc: ad7091r: Enable internal vref if external vref is not supplied
+         0b1f8ba48594d56a860fa060b668be369c28480b dmaengine: fix NULL pointer in channel unregistration function
+         eb54fd1dc64fa0be13404d4a74d79c28faae79c9 scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
          
   - ref: refs/heads/queue/6.6
-    old: c74d4faa49f8528e16918eb6c0698f9ef93e1ab7
-    new: d7505d6eb485467de21c9ddeee8851f5ef62bc53
-    log: revlist-c74d4faa49f8-d7505d6eb485.txt
+    old: d7505d6eb485467de21c9ddeee8851f5ef62bc53
+    new: a799ddbd0d5417f72a45cd195bb6e1ca6ece2efb
+    log: revlist-d7505d6eb485-a799ddbd0d54.txt
   - ref: refs/heads/queue/6.7
-    old: 55254c47922aa641efeee944d5875d917f8d0c9c
-    new: 59b2c6660cf655aa439863a71a380b8cdd09c697
-    log: revlist-55254c47922a-59b2c6660cf6.txt
+    old: 59b2c6660cf655aa439863a71a380b8cdd09c697
+    new: b61318b586f6eec1c7ac5a19bad4b8fcc4484c0c
+    log: revlist-59b2c6660cf6-b61318b586f6.txt
 
---===============3336468328005095706==
+--===============7216564240503752640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4778858ca71f-7af35c2d0a27.txt
+Content-Disposition: attachment; filename=revlist-7af35c2d0a27-2e7ab25228cb.txt
 
-0ee7aa6a4c4f02564eef66ac45f55baef79cd2b8 PCI: mediatek: Clear interrupt status before dispatching handler
-22c5bb1a9f65860bbfc7f9be0b6c3cb83bfb2ae9 include/linux/units.h: add helpers for kelvin to/from Celsius conversion
-854359c5ec0266015563513c1488dd187097be4a units: Add Watt units
-22790d76c14cb61e40516b50f666784993ff9de0 units: change from 'L' to 'UL'
-3729f54d6f6b89295379269663dfebe2578a29b6 units: add the HZ macros
-12bcd0258fb043b958e3bac82b4deea900fa4518 serial: sc16is7xx: set safe default SPI clock frequency
-11f77e5cc768282bf098cce152288fafdcb945e4 driver core: add device probe log helper
-888c0df65acd986ade2d8e17c5c3179cda4db837 spi: introduce SPI_MODE_X_MASK macro
-1b5b12a1a9a3c376ab1982684e8fcafae7450f42 serial: sc16is7xx: add check for unsupported SPI modes during probe
-94553b2dccff9df97188e01176adf932ea0649ea ext4: allow for the last group to be marked as trimmed
-df4576b28cbb459c887a8470b12d942771c409e9 crypto: api - Disallow identical driver names
-f8d93de0e5965d56d5c7bc2e1a4cd01ed8b44d26 PM: hibernate: Enforce ordering during image compression/decompression
-3223a2cbd1a18e2b5cadda0bdedbb5fd425f3fdc hwrng: core - Fix page fault dead lock on mmap-ed hwrng
-b5bfddc5fefa5ec49f9c7c40ff59ec0345fd3b57 rpmsg: virtio: Free driver_override when rpmsg_remove()
-7af35c2d0a27e4fd3205a4869a3ce87d3f4f2fc0 parisc/firmware: Fix F-extend for PDC addresses
+5ff91fbda83b76a3f7d7572e645d5b7f8dada770 PCI: mediatek: Clear interrupt status before dispatching handler
+f58db112f98718a1537e834c3bde263c59965617 include/linux/units.h: add helpers for kelvin to/from Celsius conversion
+718ad79802a8d208c8208cfb3a821ba8e166e405 units: Add Watt units
+4e0ede96d75e28cbf8c341763f57e28f06b724d1 units: change from 'L' to 'UL'
+e799b8e77eb5bf41e824e01a7111b5bc52bb16f6 units: add the HZ macros
+bb9ec05b257d2800d8df45cad25159bc271e2197 serial: sc16is7xx: set safe default SPI clock frequency
+ab5abf10ff62338d5cbeb3d6e69517e05f185573 driver core: add device probe log helper
+1763970bf0d09320288aa7a3a01b2769249f720d spi: introduce SPI_MODE_X_MASK macro
+87357221a863669ea893410cb6595137625b30a4 serial: sc16is7xx: add check for unsupported SPI modes during probe
+76f50740faa6e58ec508dec09a541bd0abfb0d5b ext4: allow for the last group to be marked as trimmed
+9b183e48b484953edda8042ec8c4923949166858 crypto: api - Disallow identical driver names
+f0a38cfac5913fc18071b2051120ad22ed3f51ab PM: hibernate: Enforce ordering during image compression/decompression
+4496fab510fc0d3caf8e44036d05544f7a364d57 hwrng: core - Fix page fault dead lock on mmap-ed hwrng
+e8a86b489939ed0f3d7739cac9a0429a71b6ce0d rpmsg: virtio: Free driver_override when rpmsg_remove()
+2e7ab25228cb225598533af1802399b49694e177 parisc/firmware: Fix F-extend for PDC addresses
 
---===============3336468328005095706==
+--===============7216564240503752640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f7ee1fa4ad6-eaeea4bc5fb1.txt
+Content-Disposition: attachment; filename=revlist-eaeea4bc5fb1-0796b5595f70.txt
 
-4c06b5bb427eea241566062402d1349793ee3d7f usb: cdns3: Fixes for sparse warnings
-5bdffdfa1616212d7508936bc79d9be7680279a2 usb: cdns3: fix uvc failure work since sg support enabled
-11830b2b4b0277959b6bbba0656d43af8b721842 usb: cdns3: fix incorrect calculation of ep_buf_size when more than one config
-7336f521eaf3834ab85a8d6a84da06cc97c3b829 usb: cdns3: fix iso transfer error when mult is not zero
-c3089bc3056559ec0e7666c21f7e32af273fcb1d usb: cdns3: Fix uvc fail when DMA cross 4k boundery since sg enabled
-d1260da98657d0a1cae138f33a3bec16ba6be9c4 PCI: mediatek: Clear interrupt status before dispatching handler
-72eb2fe042f8db6005d38f780d493d7cdf0070e2 units: change from 'L' to 'UL'
-8fcad796fe06e19cd22bfd97983bcb478888d4dc units: add the HZ macros
-15df2fce80a9242d0561ecb179949270d7657ff2 serial: sc16is7xx: set safe default SPI clock frequency
-422cabc05eed714f221d4b23390bbef420321110 spi: introduce SPI_MODE_X_MASK macro
-add6d327acb7b104db2c54b06d5364995b93120d serial: sc16is7xx: add check for unsupported SPI modes during probe
-84baaf39477f94365b5ad4c8b33da9714a81c5d7 iio: adc: ad7091r: Set alert bit in config register
-e68763e6837ebfdaa27587b688e48273c4796733 iio: adc: ad7091r: Allow users to configure device events
-aea7203516441a750b233f5a2a333cf1c0e8be4c iio: adc: ad7091r: Enable internal vref if external vref is not supplied
-cd0a742ee70744fb7200c92c946d218b1c04ad44 dmaengine: fix NULL pointer in channel unregistration function
-eaeea4bc5fb134ed555d8066fa47fc5b05a215f7 iio:adc:ad7091r: Move exports into IIO_AD7091R namespace.
+e587b21efa6fe2be024cdff8704e46b4537a81c6 usb: cdns3: Fixes for sparse warnings
+fca2bd5deeeaaabbe59f10ca7991bcc63a1a17e7 usb: cdns3: fix uvc failure work since sg support enabled
+70f660bc778b57c5a03eb4d6652756f11ac12c5f usb: cdns3: fix incorrect calculation of ep_buf_size when more than one config
+2cfe84bd0bf3e8ee38ffd087f103583f2290fb3b usb: cdns3: fix iso transfer error when mult is not zero
+383276ce3634905c448caef770833f17cf5a7595 usb: cdns3: Fix uvc fail when DMA cross 4k boundery since sg enabled
+3b0d65baa8adcc6640902c67b5fb9bf6cb4c70ab PCI: mediatek: Clear interrupt status before dispatching handler
+f806b7051dda5f3befe0d5083a7e87de37ea6808 units: change from 'L' to 'UL'
+beb341ee90915a3c420248c2ea781feca8915842 units: add the HZ macros
+01007c46e53b7cb9035037769032872a75f41b70 serial: sc16is7xx: set safe default SPI clock frequency
+a66a1fb042a53f8e9af4210c8e309caf02fd2b49 spi: introduce SPI_MODE_X_MASK macro
+77e9103c7d6fb28f18dee9c183e8f11d0e49f9f4 serial: sc16is7xx: add check for unsupported SPI modes during probe
+14907d55510ab707ecf623f3e2a87cdc4c1b9aca iio: adc: ad7091r: Set alert bit in config register
+803fd6be8d14a6019acf5825d12de9fcd55a4b64 iio: adc: ad7091r: Allow users to configure device events
+56de95a2cabd989c836a1670b875681af1e0abc2 iio: adc: ad7091r: Enable internal vref if external vref is not supplied
+ade5427dbff11482e910ae0f6966419005dfd5d5 dmaengine: fix NULL pointer in channel unregistration function
+0796b5595f70b09bed4ce7be93bd13392ad0c8b8 iio:adc:ad7091r: Move exports into IIO_AD7091R namespace.
 
---===============3336468328005095706==
+--===============7216564240503752640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-abe28508cb45-d19e132c5e83.txt
+Content-Disposition: attachment; filename=revlist-d19e132c5e83-d5658e2bcd97.txt
 
-c69ddcb4be938544f4896dca2c076ee1ac1ca4ee ksmbd: free ppace array on error in parse_dacl
-9e045aa98f2106e5ecc50721e2f43fe9d7225341 ksmbd: don't allow O_TRUNC open on read-only share
-4512557974f3e3061e071fea75bf1a1feefea883 ksmbd: validate mech token in session setup
-22ec898103c93ab10454762e37d2d9a3d7244325 ksmbd: fix UAF issue in ksmbd_tcp_new_connection()
-b9412a2d5961fb07d4ca24ceaf18fe87e28407eb ksmbd: only v2 leases handle the directory
-01b02d9f31d5eec27ccf39015705aa3fe82fd9c5 iio: adc: ad7091r: Set alert bit in config register
-4945e277bed23b1eaa901a656c2328d2b2ca8c2f iio: adc: ad7091r: Allow users to configure device events
-ec865019e1144deebaf78127900378a9484d5752 iio: adc: ad7091r: Enable internal vref if external vref is not supplied
-b893779f30fcb88b7c36e75ceabf9d5f9e1f779c dmaengine: fix NULL pointer in channel unregistration function
-378a2e16476455a902a1688d82c34a7feefbbcd4 scsi: ufs: core: Simplify power management during async scan
-7d2fe10935f2b7979477c0d9fab154a1e2a42f62 scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
-d19e132c5e83715af43f9a136929e674f953f767 iio:adc:ad7091r: Move exports into IIO_AD7091R namespace.
+7039c8979c478a8e1a050e09b3328125c8a69a4e ksmbd: free ppace array on error in parse_dacl
+e3fc99ccd62e71e34f38dd26ad54a8b6b8ae7047 ksmbd: don't allow O_TRUNC open on read-only share
+3a80f53dc60d437a2fbedadca1d6417bc4b2d6af ksmbd: validate mech token in session setup
+32995e40d2148c4e25f9cfa0a540f6761a82f79c ksmbd: fix UAF issue in ksmbd_tcp_new_connection()
+e31800ffe4eb83789d7b21ed06c77a69b5f8f87c ksmbd: only v2 leases handle the directory
+e968a3425f2a6e95521fc22311d231c065759837 iio: adc: ad7091r: Set alert bit in config register
+9c209c9f96e11b3b4d40618f7e95ccff29570f93 iio: adc: ad7091r: Allow users to configure device events
+f85fec93957a244bf67bdad2e69f1d4eb352b452 iio: adc: ad7091r: Enable internal vref if external vref is not supplied
+8d5c12d9a801c67df9e72eb71f49752de986114e dmaengine: fix NULL pointer in channel unregistration function
+03efe1a6b91cc7b6e1aa650f7620cea8ea9d1c85 scsi: ufs: core: Simplify power management during async scan
+96972347c4850c56883ff9778ffdd4cc8c8b8186 scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
+d5658e2bcd97d034c54f857b133eb6b76617f4be iio:adc:ad7091r: Move exports into IIO_AD7091R namespace.
 
---===============3336468328005095706==
+--===============7216564240503752640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c74d4faa49f8-d7505d6eb485.txt
+Content-Disposition: attachment; filename=revlist-d55a1121b900-5e237d653803.txt
 
-f8ca16b5cf6938630abe5d9cacfb73efb40d377e docs: sparse: move TW sparse.txt to TW dev-tools
-88a243120516c68d2f1bf0a91f075f76d5c0799f docs: sparse: add sparse.rst to toctree
-6ebeb11fb9558db4d1ff263afe88931bc17c6dc6 docs: kernel_feat.py: fix potential command injection
-973536f88895fe73cd84ead4e786e38d1c017686 serial: core: Simplify uart_get_rs485_mode()
-c9ffc6e5bf7dd4e8813d123a2351181b38ea1ddc serial: core: set missing supported flag for RX during TX GPIO
-108893f125077b90db857479001ae7ccd101328d soundwire: bus: introduce controller_id
-279c5dcd65a5e7429323aafed2cb85b6a0772c1e soundwire: fix initializing sysfs for same devices on different buses
-3e95678e62985dd1cbbdc4c19c6ee0cd325760ee net: stmmac: Tx coe sw fallback
-f00b19eb52a39fd6b2b23e1ab6b89538da903ac3 net: stmmac: Prevent DSA tags from breaking COE
-16815c0c41d530b9644fc4e14bbaee6328dc2d86 iio: adc: ad7091r: Set alert bit in config register
-e863247e9ccf054b30979a4756261a8df0616b5d iio: adc: ad7091r: Allow users to configure device events
-a412b1f55c32f6bdaf664cb90202681248b79d0f iio: adc: ad7091r: Enable internal vref if external vref is not supplied
-7c6d4ca0e4f33d2e2e5afd6085d5dc2168e30752 dmaengine: fsl-edma: fix eDMAv4 channel allocation issue
-344b5d7805ecaf052bfadedeecda5bcfb2fb02dd dmaengine: fix NULL pointer in channel unregistration function
-fdd6c6db34e6193cb63acec34b9fa50c533462d9 dmaengine: idxd: Move dma_free_coherent() out of spinlocked context
-5e46a58139f0485a6e52e8069c8d7c18476ca0a0 scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
-2c26b6d30ad83bccf9a6627281d8e81ef35faab6 riscv: Fix an off-by-one in get_early_cmdline()
-18e86923d51d0007d2cb94698e7b8244c6cb01e3 scsi: core: Kick the requeue list after inserting when flushing
-0458a50dfbf4ed1d0ffde3aa71bd329344cc5500 sh: ecovec24: Rename missed backlight field from fbdev to dev
-e5d81e5e5924d60190a49e39cb45e64492aee2f4 smb: client: fix parsing of SMB3.1.1 POSIX create context
-4dd87006ca934a3393f35e3fee822711787bc070 cifs: handle cases where a channel is closed
-a921b95eb2fef59311057a57231d76dc1c222004 cifs: reconnect work should have reference on server struct
-afeceffdded48ad488c4515c6af2d278be2e50dc cifs: handle when server starts supporting multichannel
-5a2992b6bbf7b94762e46d2b1b559fd2ed63e9a2 cifs: handle when server stops supporting multichannel
-3be380cb7d84f3a900f8196c8913a4b6271ffd03 Revert "cifs: reconnect work should have reference on server struct"
-e837432b195730c2c72b0a37197603bac7df199f cifs: reconnect worker should take reference on server struct unconditionally
-3c51fea9fa5c4e382075ad29c444bd502229ba34 cifs: handle servers that still advertise multichannel after disabling
-d7505d6eb485467de21c9ddeee8851f5ef62bc53 cifs: update iface_last_update on each query-and-update
+37fbdd4e22523a868547f536a28d1c9f8f15558e PCI: mediatek: Clear interrupt status before dispatching handler
+e78b182e7379d03dbba7c0ebb71f21881bb58b75 include/linux/units.h: add helpers for kelvin to/from Celsius conversion
+15c19c3f85adcea2cff01b7a6387e2ca1f6b21d3 units: Add Watt units
+75b8543a39adfcef6a49e7bc7a80b44422f1316e units: change from 'L' to 'UL'
+2b4dc82a97b38fdbe6f5c82fb408d213b8329240 units: add the HZ macros
+b88bb36e2bb43fa6e80edbb18aa0a2e912a3dd69 serial: sc16is7xx: set safe default SPI clock frequency
+220066e80555532b1824e983e29b83ef80b12409 spi: introduce SPI_MODE_X_MASK macro
+23401c83dcf0af07cff9c2c874f67fc8eb45f4dd serial: sc16is7xx: add check for unsupported SPI modes during probe
+d56325e91f0d948f9bef2f0d41bb56005fdc1c5c ext4: allow for the last group to be marked as trimmed
+1d34be41c4c6c50501b6c92cea533fb5fdadec25 crypto: api - Disallow identical driver names
+597ffa2303bee693ccd18d0280da30f660dc8208 PM: hibernate: Enforce ordering during image compression/decompression
+5e427fda0cc012a664addf19daf18646437c5b2b hwrng: core - Fix page fault dead lock on mmap-ed hwrng
+e01564cf2479a3ed8eea8716ee208c63b1fc363b rpmsg: virtio: Free driver_override when rpmsg_remove()
+5e237d65380331c9888d36f76dc0f118fe0aef81 parisc/firmware: Fix F-extend for PDC addresses
 
---===============3336468328005095706==
+--===============7216564240503752640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55254c47922a-59b2c6660cf6.txt
+Content-Disposition: attachment; filename=revlist-d7505d6eb485-a799ddbd0d54.txt
 
-c2674ecef94a69156dbbe6312de033e4dac3b2b3 soundwire: bus: introduce controller_id
-5ea8b3d9ebac2af37b15ead771f872260c9af895 soundwire: fix initializing sysfs for same devices on different buses
-9800e780f162494a8e6880a647cf266930fe997b iio: adc: ad7091r: Set alert bit in config register
-06f660efc95458bb9e41361d80675e4f2330f0d0 iio: adc: ad7091r: Allow users to configure device events
-6ea8458a36b6e0c52fbd5944ebdc9f01164778aa iio: adc: ad7091r: Enable internal vref if external vref is not supplied
-f99b5377a688a2412ca1e017970397987ca8600a dmaengine: fsl-edma: fix eDMAv4 channel allocation issue
-6c146c1f17bddd9a3a1be3ccd44bebb2f8e28be2 dmaengine: fix NULL pointer in channel unregistration function
-bed27050f1d675e63b8de72b89e5ab907b2e7752 dmaengine: idxd: Move dma_free_coherent() out of spinlocked context
-06cbaed03ba4df3fb1b647928e5191fce90b78ad dmaengine: xilinx: xdma: Fix the count of elapsed periods in cyclic mode
-2ce5a2e8b3441bc8e4f555c326f1c52acbcf3b1a scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
-45d22d7a7c2fa6dd220fe20c089f2d046e7e47b0 riscv: Fix module loading free order
-316599935eba8ac44cd9f3ca0ccd02a18d4850a1 riscv: Correctly free relocation hashtable on error
-1514e4dde5b624b2ead6c84c16791cd078785239 riscv: Fix relocation_hashtable size
-149764770e4a0ee487b581efd7f17ab8d4f2446a riscv: Fix an off-by-one in get_early_cmdline()
-c631b24c419b41fd815e1694315995ed3c09c492 scsi: core: Kick the requeue list after inserting when flushing
-721523b4c9da4bdf87011cbc69511e76c3c92545 sh: ecovec24: Rename missed backlight field from fbdev to dev
-f532d53fe058421231186930fc3f48cb7abd62e2 smb: client: fix parsing of SMB3.1.1 POSIX create context
-9730a757c021994e5345d3ea0928067a50759c14 cifs: handle servers that still advertise multichannel after disabling
-59b2c6660cf655aa439863a71a380b8cdd09c697 cifs: update iface_last_update on each query-and-update
+95ed11f9db75769c6213aee918e955f4def69d77 docs: sparse: move TW sparse.txt to TW dev-tools
+d32e499d50fc76545223b412b226cc4140edc68f docs: sparse: add sparse.rst to toctree
+afbe6708cebf23ef87827f20881d6bb1f15420e4 docs: kernel_feat.py: fix potential command injection
+1ae0c8559bb76c05454e7ae905c0d3890ce26bb2 serial: core: Simplify uart_get_rs485_mode()
+070e1506039300b6e644c696f184e6ecec076d45 serial: core: set missing supported flag for RX during TX GPIO
+fdf8af8e1766ef62e557a6f09056df5f6f37eb07 soundwire: bus: introduce controller_id
+bc34910d886542cc715c25fb09066f326eef5b1c soundwire: fix initializing sysfs for same devices on different buses
+cb58b4cac81fcd5361051902d70a8be8f28a44ce net: stmmac: Tx coe sw fallback
+69e5b32139337baebffca587f7a9411777bf926e net: stmmac: Prevent DSA tags from breaking COE
+6e0c5bf4bf6e0fb8e2cd8c0c371fd774dbdb822f iio: adc: ad7091r: Set alert bit in config register
+19c63397ccf71c6bbb13b02804a72b1ddb1a16a6 iio: adc: ad7091r: Allow users to configure device events
+8cf0d7a51eff4399b4bf9aa586bf7156b9dbc360 iio: adc: ad7091r: Enable internal vref if external vref is not supplied
+49ce02f12ff623e95682583683d6ae27afd5395b dmaengine: fsl-edma: fix eDMAv4 channel allocation issue
+66b11bd1ac1230ac4a352e0e536dab63b64b5a43 dmaengine: fix NULL pointer in channel unregistration function
+bf1880646002ea4a7c26967ade45ba410a6a9ab2 dmaengine: idxd: Move dma_free_coherent() out of spinlocked context
+498aef75b6ca3da2de1afe2da520ca1f43f4a4d6 scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
+7e3c66dcd60537ce077a593fd120c73a6c32f4ce riscv: Fix an off-by-one in get_early_cmdline()
+2977033dfae917546e71aa7c016a73532fb98f11 scsi: core: Kick the requeue list after inserting when flushing
+86b198d7426427cd5aaf546e50726b2fb5df055d sh: ecovec24: Rename missed backlight field from fbdev to dev
+32934c5dcd3c74376f5dfdace38066fa2df8f31a smb: client: fix parsing of SMB3.1.1 POSIX create context
+6fe329e92aa48fb34e52095e73543d5ccf87b080 cifs: handle cases where a channel is closed
+7eebe416e88a3e151e686b7cf3eb9af2ac0b0d6a cifs: reconnect work should have reference on server struct
+5d97e3748350a8376d35f083372b258eeefde263 cifs: handle when server starts supporting multichannel
+e88076a01c59ad471057e2177c4cdfaf7405f6ab cifs: handle when server stops supporting multichannel
+eb7d2ab46ccf4f81f9a8c18cbd012bb63d1feac1 Revert "cifs: reconnect work should have reference on server struct"
+64c1319921ab24ddbb55d50f167f1d23291d7e14 cifs: reconnect worker should take reference on server struct unconditionally
+26bba697eee5da6588236772e16f39a0c3e6c78f cifs: handle servers that still advertise multichannel after disabling
+a799ddbd0d5417f72a45cd195bb6e1ca6ece2efb cifs: update iface_last_update on each query-and-update
 
---===============3336468328005095706==--
+--===============7216564240503752640==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-59b2c6660cf6-b61318b586f6.txt
+
+91e20e6666e34d5e3ade826cfce5282b1ada1c30 soundwire: bus: introduce controller_id
+d2bb4f4de91d0eaa05cdfda118dab62bd6fa2717 soundwire: fix initializing sysfs for same devices on different buses
+9720d080b248d27b0603789ebba1608847182c8b iio: adc: ad7091r: Set alert bit in config register
+996a0692ae56792f75c6cbc138320c652abc85c3 iio: adc: ad7091r: Allow users to configure device events
+1e711ddd6d2ad56421255dadea5336e6cf4a71fa iio: adc: ad7091r: Enable internal vref if external vref is not supplied
+10e0e0b673a914ed9a73bda49b83cd722fca41d5 dmaengine: fsl-edma: fix eDMAv4 channel allocation issue
+bd7c3130dc5de96784f76861389cd62bab965400 dmaengine: fix NULL pointer in channel unregistration function
+7fbe41d59beb4e5025cb11dd5d05d7b36146e76f dmaengine: idxd: Move dma_free_coherent() out of spinlocked context
+f69cd32bf93db1d5958077ae91fa98dc86adfdc9 dmaengine: xilinx: xdma: Fix the count of elapsed periods in cyclic mode
+951099af68315d6bbd86e118c7782afaa9c9ce8a scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
+e435d582cbef7ac5900e89582f6c5e5b7878a74a riscv: Fix module loading free order
+e15a9c32b11625421455f483ccf063355a6135b5 riscv: Correctly free relocation hashtable on error
+efe1a2d80e2d2ff395894a4bf2752d6650d3b390 riscv: Fix relocation_hashtable size
+cbc2bbb130bba34ce27090f75d57822f2c1e231f riscv: Fix an off-by-one in get_early_cmdline()
+419e99a04a57743f843b46ae7ecd74da0085558e scsi: core: Kick the requeue list after inserting when flushing
+ff42f7e053ee02917f3211ebd7936ee0fb6d7fbb sh: ecovec24: Rename missed backlight field from fbdev to dev
+5817ffe87f2287fc575d316941288ed45f02e3e9 smb: client: fix parsing of SMB3.1.1 POSIX create context
+e533806eb1182d691f4a6b40604fd5cebabfbd50 cifs: handle servers that still advertise multichannel after disabling
+b61318b586f6eec1c7ac5a19bad4b8fcc4484c0c cifs: update iface_last_update on each query-and-update
+
+--===============7216564240503752640==--
