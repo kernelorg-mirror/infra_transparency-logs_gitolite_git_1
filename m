@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6800961446710124912=="
+Content-Type: multipart/mixed; boundary="===============1242160194083646423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 26 Jan 2024 00:30:12 -0000
-Message-Id: <170622901287.27383.2720586688731814369@gitolite.kernel.org>
+Date: Fri, 26 Jan 2024 00:30:50 -0000
+Message-Id: <170622905046.27724.15458655743701543191@gitolite.kernel.org>
 
---===============6800961446710124912==
+--===============1242160194083646423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 91374ba537bd60caa9ae052c9f1c0fe055b39149
-    new: 06f609b3119876b42f19fdb690b10896d3c648e6
-    log: revlist-91374ba537bd-06f609b31198.txt
+  - ref: refs/heads/dev-queue
+    old: 0a27dfe7e8adcf3edd6adecb0cbd4b0dc312f2ad
+    new: 3b5d33b750a209fff557b537c720f4a7f92d695e
+    log: revlist-0a27dfe7e8ad-3b5d33b750a2.txt
 
---===============6800961446710124912==
+--===============1242160194083646423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-91374ba537bd-06f609b31198.txt
+Content-Disposition: attachment; filename=revlist-0a27dfe7e8ad-3b5d33b750a2.txt
 
 1715b6359c1ae37f24d6774f0bcd73b6bf839eaa perf beauty socket/prctl_option: Cope with extended regexp complaint by grep
 c8e3ade38bc6545faece71cc6c642ad744d4cea3 perf tests make: Remove the last egrep call, use 'grep -E' instead
@@ -986,5 +986,36 @@ a658e0e98688f4a41873fcf9b036a887a5be0de1 Merge tag 'vfs-6.8-rc2.netfs' of git://
 bdc010200eb5e2cddf1c76c83386bdde8aad0899 Merge tag 'ovl-fixes-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 ecb1b8288dc7ccbdcb3b9df005fa1c0e0c0388a7 Merge tag 'net-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 06f609b3119876b42f19fdb690b10896d3c648e6 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+bf5a9b1a6537bce3412d60cbb3800a66fa163f0d i40e: Fix waiting for queues of all VSIs to be disabled
+8d490b9dcfd9fbda64cac5b6a15da00be5055f57 i40e: Fix wrong mask used during DCB config
+9f2a8121dcc450398ed5b23beb8657e2bfae1f93 i40e: Use existing helper to find flow director VSI
+0f8caf8aef24924e37c7a208ca607db38bd68387 i40e: Introduce and use macros for iterating VSIs and VEBs
+1f29b4c838e8a612d0c38ee31ec9e0ae0a2d9975 i40e: Add helpers to find VSI and VEB by SEID and use them
+75a95ce20ed0cdaf51e39478da0bc1d6b749529d i40e: Fix broken support for floating VEBs
+6bb035883daa7bb8e5954f79b5cc4f46a2dcc5b0 i40e: Remove VEB recursion
+2fa2900da2ae46f060da5f684ddd266581a6d267 ice: introduce new E825C devices family
+ad4ebc7b4abc1607070631ec6754468336b36044 ice: Add helper function ice_is_generic_mac
+ccb7208923c0c19176c77b5e7ac2f8b7e1d4ac84 ice: add support for 3k signing DDP sections for E825C
+96211521062c0785f875ae0326e60b12526b6d2a ice: Add support for devlink loopback param.
+1d2a4d66be705b5a02f2fd9d2cdda1e109a408ad e1000e: correct maximum frequency adjustment values
+0d19a91bb99e8b19b5dc0fcae3224ca1c9dd1131 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+99ee6777f3f128b2e44d346b705b897f2b676f8f ice: Add a new counter for Rx EIPE errors
+fa84b08c4f4ef666cca385129eaf87287e551619 e1000e: Minor flow correction in e1000_shutdown function
+8b73b32bac219d388688753d27700b0a6083477a igb: Fix string truncation warnings in igb_set_fw_version
+1fe8c2ed46647b65a508699ede829b9ab50a7619 ice: Add check for lport extraction to LAG init
+e47cdbe369712d511cf6ddfe3209e8b6ff91b4c3 ixgbe: Fix an error handling path in ixgbe_read_iosf_sb_reg_x550()
+48c7614694109492f33bd862f9d0f1a8720b0478 iavf: fix reset in early states
+38f6ce912dacf2d06e4ddd0e8c19b838045401a9 iavf: allow an early reset event to be processed
+573591479526390ce8aa1be9750e20a7c1467827 ice: remove duplicate comment
+3e2db3b029db19c93882002c517b1716617639e0 ice: introduce PTP state machine
+c2a6f04da07b05dc58e44576c790b57f7652869b ice: pass reset type to PTP reset functions
+b8c8ae2aff8fa10ac2f1d53bd2456a7c8f6cf6b7 ice: rename verify_cached to has_ready_bitmap
+aaf69e5e15e5b458981139f1fb04e87e329dc5b8 ice: don't check has_ready_bitmap in E810 functions
+28f5f7155631b6f1b3c231886ddbdcebff3be2f7 ice: rename ice_ptp_tx_cfg_intr
+5e2e6948cf3b2b23d765ff815b95e06f42ecefb4 ice: factor out ice_ptp_rebuild_owner()
+16b9669f08f9a0d69fc7ed44b4918832ade2b558 ice: stop destroying and reinitalizing Tx tracker during reset
+b864be4bd7790817e128e1cdec51b4b80f1b6202 ice: make ice_vsi_cfg_rxq() static
+ba73c3ba23e2ec7e55bd2821aa2b3b5268e5ca6d ice: make ice_vsi_cfg_txq() static
+3b5d33b750a209fff557b537c720f4a7f92d695e idpf: avoid compiler padding in virtchnl2_ptype struct
 
---===============6800961446710124912==--
+--===============1242160194083646423==--
