@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 26 Jan 2024 13:52:33 -0000
-Message-Id: <170627715391.8800.16516948748713823166@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Fri, 26 Jan 2024 13:53:10 -0000
+Message-Id: <170627719090.9091.3978110151074498652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: 286672f8105d9195833f1ee14e2e42bf93f43ef8
-    new: 948d432bb41b5f65666d174375e8e47bc042102f
+  - ref: refs/heads/asm-generic
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: 34b2321cc648a246d08cc51e423532eac690ccf1
     log: |
-         a6fc5c5b35f688480167a7a7947ddd91c07e72c8 spi: cs42l43: Handle error from devm_pm_runtime_enable()
-         948d432bb41b5f65666d174375e8e47bc042102f Merge remote-tracking branch 'spi/for-6.9' into spi-next
+         34b2321cc648a246d08cc51e423532eac690ccf1 MAINTAINERS: Add Andreas Larsson as co-maintainer for arch/sparc
+         
+  - ref: refs/heads/master
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: 34b2321cc648a246d08cc51e423532eac690ccf1
+    log: |
+         34b2321cc648a246d08cc51e423532eac690ccf1 MAINTAINERS: Add Andreas Larsson as co-maintainer for arch/sparc
          
