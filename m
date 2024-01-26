@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 26 Jan 2024 17:17:59 -0000
-Message-Id: <170628947984.7920.1889455803745060165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 26 Jan 2024 17:18:07 -0000
+Message-Id: <170628948734.8025.13668392529250490729@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/fileZGbwBS
-    old: 0da9a5794cfda615668eaefde811e8ef378134fe
+  - ref: refs/tags/pci-v5.5-fixes-2
+    old: 510740411c6348cc315e6a30bdb25cbef6456f7e
     new: 0000000000000000000000000000000000000000
