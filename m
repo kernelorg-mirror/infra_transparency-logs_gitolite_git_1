@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6402267873136840920=="
+Content-Type: multipart/mixed; boundary="===============3616504832589988954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 26 Jan 2024 14:31:25 -0000
-Message-Id: <170627948576.8898.6675150360858009096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Fri, 26 Jan 2024 14:32:34 -0000
+Message-Id: <170627955405.9383.7396086255088541408@gitolite.kernel.org>
 
---===============6402267873136840920==
+--===============3616504832589988954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/x86-pie-for-sev-v3
-    old: 0574677aacf7e1ca10666ee9d26f64bd06f47de9
-    new: 76018d102c84ba52d1ee5747cf97577d60e299f7
-    log: revlist-0574677aacf7-76018d102c84.txt
+  - ref: refs/heads/next/dt
+    old: 8af75ce86f7d55124e41b499aa43f50748138bec
+    new: 8c82b4eef2972200f6171aaa260d7bba2ad29889
+    log: |
+         8c82b4eef2972200f6171aaa260d7bba2ad29889 ARM: dts: sti: minor whitespace cleanup around '='
+         
 
---===============6402267873136840920==
+--===============3616504832589988954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0574677aacf7-76018d102c84.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f5c224d9d789e7a1da0e70fb090641849f97d81b x86/startup_64: Drop global variables keeping track of LA57 state
-a6f9d47d37c786108155657929dff5d5e6c5e593 x86/startup_64: Simplify virtual switch on primary boot
-0df6e8e9a52994483d30a259acbc0c5789815953 x86/head64: Replace pointer fixups with PIE codegen
-6b55333b5598523fb42efeb4112a75d1cefbe639 x86/head64: Simplify GDT/IDT initialization code
-4c64a695d92f1bd5d62d11c53a7280c52a9f9a90 asm-generic: Add special .pi.text section for position independent code
-ee112376f72b81b4e057670a58fed55acc05218d x86: Move return_thunk to __pitext section
-9fb247618f4844bebd4bfbb9b57992723eab526a x86/head64: Move early startup code into __pitext
-4aa2633962e54ff385b007239a8cc476a981e402 modpost: Warn about calls from __pitext into other text sections
-d9f83f91bf8f647de0bc9b27295be262efe62b54 x86/coco: Make cc_set_mask() static inline
-0fe954066fb5e85812b4dbe94bd26c3ed7c335d7 x86/sev: Make all code reachable from 1:1 mapping __pitext
-847a84b314574985806e9dd091ec59b81a8d9d77 x86/sev: Avoid WARN() in early code
-acd3567a5b3ca947e3fda608da2efdd29fb8a4a4 x86/sev: Use PIC codegen for early SEV startup code
-a84fd195c0a80479aaad2cc1a80b5581e3bfe23a x86/sev: Drop inline asm LEA instructions for RIP-relative references
-76018d102c84ba52d1ee5747cf97577d60e299f7 x86/startup_64: Don't bother setting up GS before the kernel is mapped
+certificate version 0.1
+pusher krzk@kernel.org 1706279549 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1706279549-1a35842ea7df8361d6a9e97c0e8262503d2dd434
 
---===============6402267873136840920==--
+8af75ce86f7d55124e41b499aa43f50748138bec 8c82b4eef2972200f6171aaa260d7bba2ad29889 refs/heads/next/dt
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmWzwn0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1024D/0XjwsDmQLqi1+HE8aLDjcJ1lUcYpNY2luG
++4ReG7ot4mtoxsWDSWlqfrSE/eph2r34qnE7JLiMf1vfC0iSttjWbaa+1iLGrBvF
+isr+hfDm1BhcgiZp2vrQjZroIjYy8RHfjHJNAs9J4gWzl81VrAKX+hVp4JrRXY7J
+H203jQakTA1/KXH7VJqxHAau+3XJ1YrxV8Lz/htLxZaltDvo8g9VXNY7loLh0G7n
+qEUv5NWaWz++K/AIcioOANgl1MiHe2OjVa4gFhGBepBiZZWXN+iJkRD9TK/pxhZG
+C/dYEDtg5qGiulBiX3rDRb16vnLa1wyW1SX7nXqRhV0qIV8oHqpo5s8xl7in707E
+ISZ1ZjojlXssjjXgpBhFa+TIcBCdW6OcL5qZUy5mMEgQWXULNFzesqwEVvq0d8VW
+25f1D5qKHIqA0u2j+Pm4LVC9hjfiDrPoMoiPh1dKCpFNigd5UfAu2inkQlmgwjJW
+/mXWPpwIFc/zYz8Hz8vI71tkwNbgFJEmmK227YUvh/Fp9lhD9Jf5qVNrzQWnwcTs
+EidnRMEem3R2dm20JtlndR3FiqTZIl6pPLg6bGyK3WL9YXlxGxNmFGAi0hHZ2lIM
+0yEQ+sp2OS3IDi08jVsfHROtITZV8U0VE/s3Q3JIBto6MLNEjyjKipMCaIKHR/e8
+eFm86R3i8g==
+=AB7m
+-----END PGP SIGNATURE-----
+
+--===============3616504832589988954==--
