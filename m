@@ -1,26 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 26 Jan 2024 14:42:20 -0000
-Message-Id: <170628014068.18797.8548421522484837832@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5388387883245329154=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 26 Jan 2024 14:48:21 -0000
+Message-Id: <170628050192.22590.3034237063509503633@gitolite.kernel.org>
+
+--===============5388387883245329154==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/vfs.all
-    old: 8577a331532bb1d75f3536461739a0a8e15b219c
-    new: 5628f06c9a988bfca6c918f2a12e077d47d34ca0
-    log: |
-         89d0b83ecf392efdb7a41d7a57f7e9df1e2cda55 iov_iter: streamline iovec/bvec alignment iteration
-         6238fe4d7cad3c53ba73a427338a7c289da4c821 fs: make the i_size_read/write helpers be smp_load_acquire/store_release()
-         bf7aad3980da2f97abf86cf38fa56839a43e302d Revert "mm/filemap: avoid buffered read/write race to read inconsistent data"
-         e9cbdca0a2435e83c7aad692c3e9d890f2c8dc76 asm-generic: remove extra type checking in acquire/release for non-SMP case
-         2502da71386143c7a188e53f9db2ff7457552958 pidfd: cleanup the usage of __pidfd_prepare's flags
-         4095c43a27deecf607cf485b411e98e512df3e17 Merge branch 'vfs.misc' into vfs.all
-         b4fdad7f3282aa9a713a233c9dd9650bbcaa1960 Merge branch 'vfs.netfs' into vfs.all
-         5628f06c9a988bfca6c918f2a12e077d47d34ca0 Merge branch 'vfs.fs' into vfs.all
-         
+  - ref: refs/heads/fileriVppw
+    old: cd650e27648418b73a65583a35c21619171dc9d0
+    new: 01dffdcaa094858a03e3694694815f1a4915940c
+    log: revlist-cd650e276484-01dffdcaa094.txt
+
+--===============5388387883245329154==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cd650e276484-01dffdcaa094.txt
+
+e7214441ca1562fbfb002200f46d7f83bbc2e621 ASoC: codecs: Remove unneeded semicolon
+966323dd9a65dde599f59176280468a0cb04c875 ASoC: codecs: ES8326: Adding new volume kcontrols
+36553eb7785da18568de2b8ecafb3d80db1a0d6b ASoC: dt-bindings: samsung,tm2: Correct "audio-codec" constraints
+fb430b06397e5eebefd42584fe4dfabf2a3632e0 ASoC: cs42l43: Tidy up header includes
+40f6281c1e7d733399bd42fe97a0aae00b967a91 ASoC: cs42l43: Minor code tidy ups
+a2e7cf55db781654fdb2d3b2529e28c4d93e24fc ASoC: cs42l43: Check error from device_property_read_u32_array()
+7a93a9abe44386b4caa0e67977f41b8c9f06b51c ASoC: cs42l43: Add pm_ptr around the power ops
+96c716887c1a918d4cb4610f5cf111280fda48f0 ASoC: cs42l43: Use USEC_PER_MSEC rather than hard coding
+fe04d1632cb4130fb47d18fe70ac292562a3b9c3 ASoC: cs42l43: Refactor to use for_each_set_bit()
+31c6e53a4da5fe626b99e1ebf777d751994e3281 ASoC: cs42l43: Use fls to calculate the pre-divider for the PLL
+01dffdcaa094858a03e3694694815f1a4915940c ASoC: dt-bindings: audio-graph-port: Drop type from "clocks"
+
+--===============5388387883245329154==--
