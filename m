@@ -1,41 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============5388387883245329154=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 26 Jan 2024 14:48:21 -0000
-Message-Id: <170628050192.22590.3034237063509503633@gitolite.kernel.org>
-
---===============5388387883245329154==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 26 Jan 2024 14:57:02 -0000
+Message-Id: <170628102250.28916.2392549083849239929@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/fileriVppw
-    old: cd650e27648418b73a65583a35c21619171dc9d0
-    new: 01dffdcaa094858a03e3694694815f1a4915940c
-    log: revlist-cd650e276484-01dffdcaa094.txt
-
---===============5388387883245329154==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd650e276484-01dffdcaa094.txt
-
-e7214441ca1562fbfb002200f46d7f83bbc2e621 ASoC: codecs: Remove unneeded semicolon
-966323dd9a65dde599f59176280468a0cb04c875 ASoC: codecs: ES8326: Adding new volume kcontrols
-36553eb7785da18568de2b8ecafb3d80db1a0d6b ASoC: dt-bindings: samsung,tm2: Correct "audio-codec" constraints
-fb430b06397e5eebefd42584fe4dfabf2a3632e0 ASoC: cs42l43: Tidy up header includes
-40f6281c1e7d733399bd42fe97a0aae00b967a91 ASoC: cs42l43: Minor code tidy ups
-a2e7cf55db781654fdb2d3b2529e28c4d93e24fc ASoC: cs42l43: Check error from device_property_read_u32_array()
-7a93a9abe44386b4caa0e67977f41b8c9f06b51c ASoC: cs42l43: Add pm_ptr around the power ops
-96c716887c1a918d4cb4610f5cf111280fda48f0 ASoC: cs42l43: Use USEC_PER_MSEC rather than hard coding
-fe04d1632cb4130fb47d18fe70ac292562a3b9c3 ASoC: cs42l43: Refactor to use for_each_set_bit()
-31c6e53a4da5fe626b99e1ebf777d751994e3281 ASoC: cs42l43: Use fls to calculate the pre-divider for the PLL
-01dffdcaa094858a03e3694694815f1a4915940c ASoC: dt-bindings: audio-graph-port: Drop type from "clocks"
-
---===============5388387883245329154==--
+  - ref: refs/heads/master
+    old: f41429b5ce0a2436ac93bfb768877d3e674be847
+    new: fa26ddf600d2b1ed0803fc09bb3d07beca1b84c5
+    log: |
+         d12a82848eac28d248e67940378fe4a72b0a8cd3 bitmap: Define a cleanup function for bitmaps
+         3832f390423302e373a1818f6cf8cb29ebf3a195 genirq/irq_sim: Remove unused field from struct irq_sim_irq_ctx
+         8dab7fd47e53865d37fce73c67bac97b41d5d64a genirq/irq_sim: Order headers alphabetically
+         590610d72a790458431cbbebc71ee24521533b5e genirq/irq_sim: Shrink code by using cleanup helpers
+         fa26ddf600d2b1ed0803fc09bb3d07beca1b84c5 Merge branch into tip/master: 'irq/core'
+         
