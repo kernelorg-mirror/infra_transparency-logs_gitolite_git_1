@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Fri, 26 Jan 2024 13:28:19 -0000
-Message-Id: <170627569995.22750.11363730234813571027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 26 Jan 2024 13:33:37 -0000
+Message-Id: <170627601770.26344.1941236227697246976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/work.alpha
-    old: f0dd84d59c06420e960d40fdb660e851b9377594
-    new: 267674e3b4fd1ff6cedf9b22cd304daa75297966
-    log: |
-         267674e3b4fd1ff6cedf9b22cd304daa75297966 alpha: trim the unused stuff from asm-offsets.c
-         
+  - ref: refs/tags/arm-fixes-6.8-1
+    old: 0000000000000000000000000000000000000000
+    new: 72b8173a56b34bf5175563180f091388d66e054a
