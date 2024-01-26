@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 26 Jan 2024 00:40:26 -0000
-Message-Id: <170622962602.3424.12548744170015135888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
+Date: Fri, 26 Jan 2024 00:41:35 -0000
+Message-Id: <170622969571.3960.4543116688978901670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/wireless/wireless-testing
+user: bcopeland
 changes:
-  - ref: refs/heads/main
-    old: 85da9d9ff2dd777af54a698af15e73b3e44725c0
-    new: 767ec326f98546a1c7ab556cd379cd625332b5e1
+  - ref: refs/heads/master
+    old: 1886e5c4ec71bb0b1b039ea700c0f8ab6c4e541a
+    new: daf48011a46e17e680c0bbade3fda4e7621c8e40
     log: |
-         767ec326f98546a1c7ab556cd379cd625332b5e1 vsock/test: print type for SOCK_SEQPACKET
+         585ec2dd6dfeca31f776df7fb9cb44cf13224918 Merge remote-tracking branch 'wireless/main'
+         447dc246e45064745f40e20c7ffcb47f2271c09c Merge remote-tracking branch 'wireless-next/main'
+         daf48011a46e17e680c0bbade3fda4e7621c8e40 Add localversion to identify builds from this tree
          
