@@ -1,31 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============9108454307925653553=="
+Content-Type: multipart/mixed; boundary="===============4663845265809073742=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ericvh/v9fs
-Date: Fri, 26 Jan 2024 16:36:45 -0000
-Message-Id: <170628700574.2738.12043966450619589147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 26 Jan 2024 16:44:58 -0000
+Message-Id: <170628749883.8540.1548968653158539998@gitolite.kernel.org>
 
---===============9108454307925653553==
+--===============4663845265809073742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ericvh/v9fs
-user: ericvh
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/b4/ericvh-fix-cache-dups
-    old: 94c1546f18bd34a999fcd0f414e9899a7085d472
-    new: daf7f38dea78f549aa0e65e7cf0170e6a0fd29e5
-    log: revlist-94c1546f18bd-daf7f38dea78.txt
+  - ref: refs/heads/smp/core
+    old: fe22944cf05ede8e6f841cfecdb7093a53a3d9b3
+    new: ef7e585bf48013baabc00de1a15753dd7b626a2d
+    log: revlist-fe22944cf05e-ef7e585bf480.txt
 
---===============9108454307925653553==
+--===============4663845265809073742==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-94c1546f18bd-daf7f38dea78.txt
+Content-Disposition: attachment; filename=revlist-fe22944cf05e-ef7e585bf480.txt
 
+1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
+fd37721803c6e73619108f76ad2e12a9aa5fafaf mm, treewide: introduce NR_PAGE_ORDERS
+5e0a760b44417f7cadd79de2204d6247109558a0 mm, treewide: rename MAX_ORDER to MAX_PAGE_ORDER
+e900042f04848b5be9238d866df0952cfc548cf9 Merge tag 'x86_sev_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bef91c28f28fe8a36b91e9a39f60054ae1874280 Merge tag 'x86_cpu_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3edbe8afb617a736ae0dcc877311bdb112a00123 Merge tag 'ras_core_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 968b80332432172dbbb773e749a43bdc846d1a13 Merge tag 'powerpc-6.8-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
@@ -1041,14 +1049,6 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-76e0cb7d53c82a8cc04940b8502fced12b74f805 fs/9p: simplify inode lookup operations
-2eaa8175af0e90b4bcd62f95037baf601a42670b fs/9p: switch vfsmount to use v9fs_get_new_inode
-93311d4b170365439ed9f9bffedbf331294941ee fs/9p: convert mkdir to use get_new_inode
-a5bf73c0ca62d1b52d0fd0018ed08d7b8e0692ce fs/9p: remove walk and inode allocation from symlink
-ddf67f935987d70cb088b392e81abb62d74a48fe fs/9p: Eliminate redundant non-cache path in mknod
-468c3c29d747fc8998cb86d3b6d3a181433d7401 fs/9p: Eliminate now unused v9fs_get_inode
-08f7f69ad7fb882014a54b52d8cf1482968da897 fs/9p: rework qid2ino logic
-7809471f82c810c94bb208504e1b2126de2132fa fs/9p: simplify iget to remove unnecessary paths
-daf7f38dea78f549aa0e65e7cf0170e6a0fd29e5 fs/9p: fix dups even in uncached mode
+ef7e585bf48013baabc00de1a15753dd7b626a2d cpu/hotplug: Delete an extraneous kernel-doc description
 
---===============9108454307925653553==--
+--===============4663845265809073742==--
