@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Fri, 26 Jan 2024 13:21:33 -0000
-Message-Id: <170627529355.18795.14114784038524639143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Fri, 26 Jan 2024 13:28:19 -0000
+Message-Id: <170627569995.22750.11363730234813571027@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: holtmann
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/master
-    old: 807ad961777ffffad36f53ea034583466a7073de
-    new: ee0046efd0f36740d0330ffb0146cf4238bff3d6
+  - ref: refs/heads/work.alpha
+    old: f0dd84d59c06420e960d40fdb660e851b9377594
+    new: 267674e3b4fd1ff6cedf9b22cd304daa75297966
     log: |
-         ff19b5985aafe49684129f1c2e9e7afca4ddb106 ofono: Remove support for CDMA
-         ee0046efd0f36740d0330ffb0146cf4238bff3d6 ofono: Don't invoke SetProperty unnecessarily
+         267674e3b4fd1ff6cedf9b22cd304daa75297966 alpha: trim the unused stuff from asm-offsets.c
          
