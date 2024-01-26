@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 26 Jan 2024 05:09:05 -0000
-Message-Id: <170624574562.7632.5386178554610055613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Fri, 26 Jan 2024 05:46:15 -0000
+Message-Id: <170624797514.2296.10894826927577581191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: be4840b33eb2ea7d80830530aab5fcbeaa90e857
-    new: e6be8cd5d3cf54ccd0ae66027d6f4697b15f4c3e
+  - ref: refs/heads/dev-test
+    old: 0ac8d103bdeadbae49371bc08bfd6c6897157677
+    new: b969a2c07e6ed9b99b62bebe59bbf421f758a47a
     log: |
-         e6be8cd5d3cf54ccd0ae66027d6f4697b15f4c3e bpf: Fix error checks against bpf_get_btf_vmlinux().
+         0f102875a061fc7d20f7707c149b39e3518f3f5b erofs: fix infinite loop due to a race of filling compressed_bvecs
+         b969a2c07e6ed9b99b62bebe59bbf421f758a47a erofs: relaxed temporary buffers allocation on readahead
+         
+  - ref: refs/heads/fixes
+    old: 16c8869ae303dea329549c25d8407a1af03d3282
+    new: b969a2c07e6ed9b99b62bebe59bbf421f758a47a
+    log: |
+         0f102875a061fc7d20f7707c149b39e3518f3f5b erofs: fix infinite loop due to a race of filling compressed_bvecs
+         b969a2c07e6ed9b99b62bebe59bbf421f758a47a erofs: relaxed temporary buffers allocation on readahead
          
