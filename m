@@ -1,147 +1,179 @@
-Content-Type: multipart/mixed; boundary="===============0885045802117291294=="
+Content-Type: multipart/mixed; boundary="===============8516827453333741433=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 26 Jan 2024 22:04:29 -0000
-Message-Id: <170630666969.20353.10559428427413958661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 26 Jan 2024 22:06:29 -0000
+Message-Id: <170630678971.22787.7381979692359799980@gitolite.kernel.org>
 
---===============0885045802117291294==
+--===============8516827453333741433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: sashal
 changes:
-  - ref: refs/heads/master
-    old: ecb1b8288dc7ccbdcb3b9df005fa1c0e0c0388a7
-    new: 168174d78157bba1315d5f8e1c66548b92c84ae9
-    log: revlist-ecb1b8288dc7-168174d78157.txt
+  - ref: refs/heads/queue/4.19
+    old: bb18bf1fa8449ce01ec9e1465b57c5975bdab445
+    new: 4778858ca71f43ad09572ba6885790224bb904a9
+    log: |
+         e6e4cfea08071fe6c4251b9ff878e2cf1c52b9fe PCI: mediatek: Clear interrupt status before dispatching handler
+         e734758906c3a43dc1a744c5f801cee91c9bb61b include/linux/units.h: add helpers for kelvin to/from Celsius conversion
+         6c47e4973fea58468770065cd6efa861ad4a2a89 units: Add Watt units
+         ca1bac7df780c361f90bb08d289785cf71a241ed units: change from 'L' to 'UL'
+         8f627f99cad72d8fe38770183a2cae46edcdf27b units: add the HZ macros
+         7072f2968c495bfa32987f81865a455a2c015fc3 serial: sc16is7xx: set safe default SPI clock frequency
+         d0718c87d996969acc87c0930de35e3ea5c2d984 driver core: add device probe log helper
+         7c43e136129c23106a17174cb60c1d7b9bacb458 spi: introduce SPI_MODE_X_MASK macro
+         4778858ca71f43ad09572ba6885790224bb904a9 serial: sc16is7xx: add check for unsupported SPI modes during probe
+         
+  - ref: refs/heads/queue/5.10
+    old: b976148f0b59729706fea7d8f22f6e1b231d704c
+    new: 7f7ee1fa4ad64dfb1722ef2a7067b0e6bf262c18
+    log: revlist-b976148f0b59-7f7ee1fa4ad6.txt
+  - ref: refs/heads/queue/5.15
+    old: df915776fe3a371e2ab943a93e47689d445bfacc
+    new: abe28508cb45f98d76b529305825e46f520717ac
+    log: revlist-df915776fe3a-abe28508cb45.txt
+  - ref: refs/heads/queue/5.4
+    old: 6f3cc55c4c25ed49fffa7f4e5106934561e98fb2
+    new: a7311e92852426dc3989e18c09988bf9b1d5e58e
+    log: |
+         ba069360e83bf52b1580084728b42c6459bc02aa PCI: mediatek: Clear interrupt status before dispatching handler
+         37015cde5fa710b7d43e04248f9d3656136dcc8e include/linux/units.h: add helpers for kelvin to/from Celsius conversion
+         f5b6555ca17d09773b4684fb42ad97ca16a13b08 units: Add Watt units
+         acd00cbf589ac276abcf3431601c364a8e8e9fc6 units: change from 'L' to 'UL'
+         161e2bdec197273d45eb629885d78f1955fb83d7 units: add the HZ macros
+         4c6a1fb99520e1c8df4d57cda466bbebb3fc3ea7 serial: sc16is7xx: set safe default SPI clock frequency
+         632640e2322d71fea09e03b2ae45e3ab9e560399 spi: introduce SPI_MODE_X_MASK macro
+         a7311e92852426dc3989e18c09988bf9b1d5e58e serial: sc16is7xx: add check for unsupported SPI modes during probe
+         
+  - ref: refs/heads/queue/6.1
+    old: 04393a26c495cda98668345aaf3ec680d23cfebf
+    new: 661a62042f979f75f539644f552b9bb7a686cd8f
+    log: |
+         0de571cf78e31361dd3c04e4a3c53589ffcaba9d usb: dwc3: gadget: Refactor EP0 forced stall/restart into a separate API
+         94ce679caacda6d1c7ddca32fd9e21cb33f8a2f8 usb: dwc3: gadget: Queue PM runtime idle on disconnect event
+         8f9e401dc49efcd30d694a99adb75f8409b8919c usb: dwc3: gadget: Handle EP0 request dequeuing properly
+         b192b0a72c1e80182c2d78687c18075998b775a1 Revert "nSVM: Check for reserved encodings of TLB_CONTROL in nested VMCB"
+         71615374b67d72cd8f03f42d9f2b8a9f945bf890 iio: adc: ad7091r: Set alert bit in config register
+         d9a100a8cdc209d8c56ded69b04d67d362b9a705 iio: adc: ad7091r: Allow users to configure device events
+         139fdfb6df7b02f21242bcbef9983edebe5aa934 iio: adc: ad7091r: Enable internal vref if external vref is not supplied
+         960f30382cb4a64e5c331da7b913fb4da298ecbb dmaengine: fix NULL pointer in channel unregistration function
+         661a62042f979f75f539644f552b9bb7a686cd8f scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
+         
+  - ref: refs/heads/queue/6.6
+    old: 3168b54e1a3700edd4c4f2896b462e1718200c81
+    new: c74d4faa49f8528e16918eb6c0698f9ef93e1ab7
+    log: revlist-3168b54e1a37-c74d4faa49f8.txt
+  - ref: refs/heads/queue/6.7
+    old: 87e87c0daf852b1cf4073d1a44984d74ede6f290
+    new: 55254c47922aa641efeee944d5875d917f8d0c9c
+    log: revlist-87e87c0daf85-55254c47922a.txt
 
---===============0885045802117291294==
+--===============8516827453333741433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ecb1b8288dc7-168174d78157.txt
+Content-Disposition: attachment; filename=revlist-b976148f0b59-7f7ee1fa4ad6.txt
 
-024b32db43a359e0ded3fcc6cd86247cbbed4224 drm/bridge: parade-ps8640: Wait for HPD when doing an AUX transfer
-571c7ed0baa928447bac29ef79a90bd6525d1ebc dt-bindings: display: samsung,exynos-mixer: Fix 'regs' typo
-2ad62d16cd24b5e2f18318e97e1f06bef9f1ce7d drm/v3d: Free the job and assign it to NULL if initialization fails
-45dd7df26cee741b31c25ffdd44fb8794eb45ccd drm: panel-simple: add missing bus flags for Tianma tm070jvhg[30/33]
-62b143b5ec4a14e1ae0dede5aabaf1832e3b0073 drm/panel: samsung-s6d7aa0: drop DRM_BUS_FLAG_DE_HIGH for lsl080al02
-589830b13ac21bddf99b9bc5a4ec17813d0869ef drm/panel/raydium-rm692e5: select CONFIG_DRM_DISPLAY_DP_HELPER
-1f1626ac0428820f998245478610f452650bcab5 drm/ttm: fix ttm pool initialization for no-dma-device drivers
-08ac6f132dd77e40f786d8af51140c96c6d739c9 drm/bridge: sii902x: Fix probing race issue
-3fc6c76a8d208d3955c9e64b382d0ff370bc61fc drm/bridge: sii902x: Fix audio codec unregistration
-0a8c1feed387f8460b8b65fc46fb3608afa7512e drm/ttm: allocate dummy_read_page without DMA32 on fail
-3d9e9020b92288871b02f194c3ec88e03a1afa88 drm/i915/dp: Fix passing the correct DPCD_REV for drm_dp_set_phy_test_pattern
-0103b4496087c99c195800456bf6a4fcf24fd444 drm/i915/perf: Update handling of MMIO triggered reports
-3eb791c891aa91603a5fbbfea940f8acf5f17d45 drm/tests: mm: Call drm_mm_print in drm_test_mm_debug
-26db46bc9c675e43230cc6accd110110a7654299 drm/bridge: parade-ps8640: Ensure bridge is suspended in .post_disable()
-a20f1b02bafcbf5a32d96a1d4185d6981cf7d016 drm/bridge: parade-ps8640: Make sure we drop the AUX mutex in the error case
-6992eb815d087858f8d7e4020529c2fe800456b3 Revert "drm/i915/dsi: Do display on sequence later on icl+"
-84b5ece64477df4394d362d494a2496bf0878985 drm/i915: Drop -Wstringop-overflow
-477552e1d339d9fa654a363c9c0f1e9c4f087d2b drm/exynos: fix incorrect type issue
-960b537e91725bcb17dd1b19e48950e62d134078 drm/exynos: fix accidental on-stack copy of exynos_drm_plane
-4050957c7c2c14aa795dbf423b4180d5ac04e113 drm/exynos: gsc: minor fix for loop iteration in gsc_runtime_resume
-cf79f291f985662150363b4a93d16f88f12643bc Merge v6.8-rc1 into drm-misc-fixes
-805c74eac8cb306dc69b87b6b066ab4da77ceaf1 gpiolib: acpi: Ignore touchpad wakeup on GPD G1619-04
-30cf36bb0408a163eb3d58ea6b883c612c029286 accel/ivpu: Dump MMU events in case of VPU boot timeout
-929acfb9c53986d5ba37cfb9e1172ad79735f8eb accel/ivpu: Call diagnose failure in ivpu_mmu_cmdq_sync()
-8047d36fe563bf7ee7b28a284a0892506a6000a9 accel/ivpu: Add debug prints for MMU map/unmap operations
-2a20b857dd654595d332f2521d80bd67b03536a0 accel/ivpu: Add diagnostic messages when VPU fails to boot or suspend
-7f66319927a8ced3be715eb7616a890b9bf0348b accel/ivpu: Fix for missing lock around drm_gem_shmem_vmap()
-a8c099d5d0e4b0400cfddfd95b881c8bd9349a88 accel/ivpu: Free buffer sgt on unbind
-b7a0e75632eb6568c82de9108bd29e130dd082d9 accel/ivpu: Disable buffer sharing among VPU contexts
-37dee2a2f4330a030abc5674bcec25ccc4addbcc accel/ivpu: Improve buffer object debug logs
-b246271d257b4b0573e88f443ed8091f8b044895 accel/ivpu: Deprecate DRM_IVPU_PARAM_CONTEXT_PRIORITY param
-437a310b22244d4e0b78665c3042e5d1c0f45306 firmware: arm_scmi: Check mailbox/SMT channel for consistency
-0726fcc8d4af75441b38aaa082f820e63b3a8748 firmware: arm_scmi: Replace asm-generic/bug.h with linux/bug.h
-e8ef4bbe39b9576a73f104f6af743fb9c7b624ba firmware: arm_scmi: Use xa_insert() to store opps
-b5dc0ffd36560dbadaed9a3d9fd7838055d62d74 firmware: arm_scmi: Use xa_insert() when saving raw queues
-27600c96e2ffa6c1b2cb378ddc75c6620c628d04 firmware: arm_scmi: Fix the clock protocol version for v3.2
-6bd1b3fede83d8ba5314886062a9bfdada5102a9 firmware: arm_scmi: Fix the clock protocol supported version
-59b2e242b13192e50bf47df3780bf8a7e2260e98 firmware: arm_ffa: Add missing rwlock_init() in ffa_setup_partitions()
-5ff30ade16cd9efc2466d3ea22bbaf370772941a firmware: arm_ffa: Add missing rwlock_init() for the driver partition
-c00d9738fd5fce15dc5494d05b7599dce23e8146 firmware: arm_ffa: Check xa_load() return value
-ad9d9a107a4308e75ec34890547447c7095b4781 firmware: arm_ffa: Simplify ffa_partitions_cleanup()
-ace760d9c0498fb226269ed34f0e86417d90f91b firmware: arm_ffa: Use xa_insert() and check for result
-0c565d16b80074e57e3e56240d13fc6cd6ed0334 firmware: arm_ffa: Handle partitions setup failures
-84aef4ed59705585d629e81d633a83b7d416f5fb gpio: eic-sprd: Clear interrupt after set the interrupt type
-80c86ff6800b857c8008cebe7b8d22a6e574e68d arm64: dts: exynos: gs101: comply with the new cmu_misc clock names
-eab4f56d3e75dad697acf8dc2c8be3c341d6c63e ARM: dts: exynos4212-tab3: add samsung,invert-vclk flag to fimd
-4b5581f112075e46d73b34b9848be041e6c1e489 accel/ivpu: Disable PLL after VPU IP reset during FLR
-6c314425b9ef6b247cefd0903e287eb072580c3b spi: intel-pci: Remove Meteor Lake-S SoC PCI ID from the list
-8afe3c7fcaf72fca1e7d3dab16a5b7f4201ece17 spi: intel-pci: Add support for Arrow Lake SPI serial flash
-4d5b7daa3c610af3f322ad1e91fc0c752ff32f0e drm/bridge: anx7625: Ensure bridge is suspended in disable()
-1a84c213146a06aca1fd0e5b376ab7d36d15e1b3 drm/dp_mst: Separate @failing_port list in drm_dp_mst_atomic_check_mgr() comment
-574bf7bbe83794a902679846770f75a9b7f28176 spi: bcm-qspi: fix SFDP BFPT read by usig mspi read
-e267a5b3ec59ce88d6be21078e2deb807ca3b436 spi: spi-imx: Use dev_err_probe for failed DMA channel requests
-633cd6fe6e1993ba80e0954c2db127a0b1a3e66f spi: spi-cadence: Reverse the order of interleaved write and read operations
-de8b6e1c231a95abf95ad097b993d34b31458ec9 spi: hisi-sfc-v3xx: Return IRQ_NONE if no interrupts were detected
-3213b8070ac69b32f05fa2328cbebe0eca75c1bd drm/xe/dmabuf: Make xe_dmabuf_ops static
-03b72dbbd4e96d0197aa8cf894a24a4db8623031 drm/xe: Use a NULL pointer instead of 0.
-32f6c3325703c98edee8f1005ad47b4d8431b758 drm/xe: Use _ULL for u64 division
-52e8948c6b6a41603371996b9bc0e43e17d690b4 drm/xe/mmio: Cast to u64 when printing
-981460d8ee6042b14149fd8931ae27b91f2146b1 drm/xe/display: Avoid calling readq()
-c0e2508cb1004fdb153fbbcf0101404abfefdddd drm/xe/xe2: Use XE_CACHE_WB pat index
-d186e51b0ed05a0cd94c7c9756740a855325c557 drm/xe/vm: bugfix in xe_vm_create_ioctl
-9e3a13f3eef6b14a26cc2660ca2f43f0e46b4318 drm/xe: Remove PVC from xe_wa kunit tests
-2f8c7c3715f2c6fb51a4ecc0905c04dd78a3da29 spi: Raise limit on number of chip selects
-d1b163aa0749706379055e40a52cf7a851abf9dc Revert "drivers/firmware: Move sysfb_init() from device_initcall to subsys_initcall_sync"
-520d9708979349dcf6e044eac51efc43788b5cec dt-bindings: media: Remove K3 Family Prefix from Compatible
-c14d17a32568679385d32fe7a23994560c12772c media: chips-media: wave5: Remove K3 References
-78e23c3e914a5e678a20286fb09bc218017af89a media: media videobuf2: Stop direct calls to queue num_buffers field
-b32431b753217d8d45b018443b1a7aac215921fb media: vb2: refactor setting flags and caps, fix missing cap
-f9f4b0c6425eb9ffd9bf62b8b8143e786b6ba695 spi: cs42l43: Handle error from devm_pm_runtime_enable
-b8c68345949c27edc05157bae97726cb59da5552 Merge tag 'drm-intel-next-fixes-2024-01-19' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-e5767a95abf7a51352746e159e05d990aca39f5d Merge tag 'drm-misc-next-fixes-2024-01-19' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-b16702be210bb49256f8a32df2c310383134dd57 Merge tag 'exynos-drm-fixes-for-v6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-fixes
-f9f031dd21a7ce13a13862fa5281d32e1029c70f drm/i915/psr: Only allow PSR in LPSP mode on HSW non-ULT
-f1cc6aceecd04964304786530eaa4ad87d90b972 accel/ivpu: Fix dev open/close races with unbind
-264b271d12d0af794f3d1dc3793e6589fae8c66c accel/ivpu: Improve stability of ivpu_submit_ioctl()
-27d19268cf394f2c78db732be0cb31852eeadb0a accel/ivpu: Improve recovery and reset support
-8412c47d68436b9f9a260039a4a773daa6824925 ARM: dts: Fix TPM schema violations
-5e2400f11d4deec444ac00b73e96267e057fbb37 arm64: dts: Fix TPM schema violations
-d77b016bc9178b4ebcf0160100202e1293ac3139 Merge tag 'scmi-fixes-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
-8ad2c84e2ecb476c96eb5508848e6f160962d3f5 Merge tag 'ffa-fixes-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
-0d1d824a4ac102db35bc8524a8be97ada8ad37ab Merge tag 'samsung-fixes-6.8' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/fixes
-fdaca31a7668cb17f70df5c32b6a9b90e82fc9b5 drm/amd/pm: udpate smu v13.0.6 message permission
-a58371d632ebab9ea63f10893a6b6731196b6f8d drm/amd/display: Fix uninitialized variable usage in core_link_ 'read_dpcd() & write_dpcd()' functions
-ca1ffb174f16b699c536734fc12a4162097c49f4 drm/amdgpu/pm: Fix the power source flag error
-90751bdeee4e3ac87ebf814bf282b0fa97edfeab drm/amdgpu: Avoid fetching vram vendor information
-30269954745c6cac730352829ac9850918457440 drm/amd/pm: update the power cap setting
-89a7c0bd74918f723c94c10452265e25063cba9b drm/amdgpu: Show vram vendor only if available
-bc8f6d42b1334f486980d57c8d12f3128d30c2e3 drm/amdgpu: Fix null pointer dereference
-f1807682de0edbff6c1e46b19642a517d2e15c57 drm/amd/pm: Fetch current power limit from FW
-e7a8594cc2af920a905db15653c19c362d4ebd3f drm/amd/amdgpu: Assign GART pages to AMD device mapping
-03ff6d7238b77e5fb2b85dc5fe01d2db9eb893bd drm/amdgpu/gfx10: set UNORD_DISPATCH in compute MQDs
-3380fcad2c906872110d31ddf7aa1fdea57f9df6 drm/amdgpu/gfx11: set UNORD_DISPATCH in compute MQDs
-ff8caade7429f28217c293672ab64323031f350e drm/amd/display: Allow IPS2 during Replay
-955406e6fd241b2936e7f033a03b2956922c8f32 drm/amd/display: Add Replay IPS register for DMUB command table
-196107eb1e1557df25e1425bbfb53e0f7588b80a drm/amd/display: Add IPS checks before dcn register access
-f37f7979202d45489d84469838f5352cda3557bc drm/amd/display: Replay + IPS + ABM in Full Screen VPB
-8894b9283afd35b8d22ae07a0c118eb5f7d2e78b drm/amd/display: Disable ips before dc interrupt setting
-d45669eb5e68c052d0d890cd88c33a65c115d9f3 drm/amd: Add a DC debug mask for IPS
-c82eb25c5f005b33aebb1415a8472fc2eeea0deb drm/amd/display: "Enable IPS by default"
-8c2ae772fe08e33f3d7a83849e85539320701abd spi: fix finalize message on error return
-83cd3be8648fe3cbdf35cdea080b3535ef4449fc Merge tag 'drm-xe-fixes-2024-01-25' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-77fe8f195737056e26b84a4d7fbe693587ab887e Merge tag 'amd-drm-fixes-6.8-2024-01-25' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-66dbd9004a55073c5931f5f65f5fe2bbd414bdaa drm/sched: Drain all entities in DRM sched run job worker
-1f4a994be2c3d13852fd5c1054f292bd303352cc riscv: dts: sophgo: separate sg2042 mtime and mtimecmp to fit aclint format
-ff3d5d04db07e5374758baa7e877fde8d683ebab drm: bridge: samsung-dsim: Don't use FORCE_STOP_STATE
-61f61c89fa5d9925e0b874854fb62e51948a6de1 MAINTAINERS: Add Andreas Larsson as co-maintainer for arch/sparc
-ddd2b472a1b7e7c2ec9bdc9420045ba08eb9f664 Merge tag 'drm-misc-fixes-2024-01-26' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
-9c4a1126ad9ce6699cc6ad2ca7c590cd1203c70f Merge tag 'drm-intel-fixes-2024-01-26' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-4d7acc8f48bcf27d0dc068f02e55c77e840b9110 Revert "nouveau: push event block/allowing out of the fence context"
-987940f05735a960dd143214f7cc2d699885b625 Merge tag 'drm-misc-fixes-for-v6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-fixes
-4aeb083707d6a2535bfea5d16140b72a81efb62b Merge tag 'media/v6.8-3' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-5f91b9ba5acada5e56c874af82660d29a7f84e25 Merge tag 'gpio-fixes-for-v6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-48fa8ec61569efe122ac92694ce6ff4324b61bd8 Merge tag 'spi-fix-v6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-ae971859f810d90c2e844cb2eb3daa5e061dd446 Merge tag 'arm-fixes-6.8-1' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-2047b0b2750855a8a5b489915b203b4a8b5ec56e Merge tag 'asm-generic-6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
-168174d78157bba1315d5f8e1c66548b92c84ae9 Merge tag 'drm-fixes-2024-01-27' of git://anongit.freedesktop.org/drm/drm
+38c82a6f4b4b50599ffb464704f20a1c4de69552 usb: cdns3: Fixes for sparse warnings
+b7adc8d6a47f0afb9842aba08a2483a7f1bd0a10 usb: cdns3: fix uvc failure work since sg support enabled
+111826413900bc64eb3789f3a05d7354d395d31c usb: cdns3: fix incorrect calculation of ep_buf_size when more than one config
+42a907ff1b92f38392c7b657ac02d40ce5b5d7cb usb: cdns3: fix iso transfer error when mult is not zero
+d8fd4b36687e1a8d12f72295ed07f5ca81f11b20 usb: cdns3: Fix uvc fail when DMA cross 4k boundery since sg enabled
+ca0ac34ea0432dd1fd8d84b73e0f87b42369166b PCI: mediatek: Clear interrupt status before dispatching handler
+1704b63ed5465ecb7be2ea5f327cc84290e5d12c units: change from 'L' to 'UL'
+558ec915ba06cfa4c1735382fd41445ee8199bc0 units: add the HZ macros
+9544271f12bc51a9efbb2a18092081bd49e71d13 serial: sc16is7xx: set safe default SPI clock frequency
+b5f4d155aefccc0e6a96b52e16290fb6661dd4a4 spi: introduce SPI_MODE_X_MASK macro
+e09ca425ab0975ddfe82c24e89d441a0cb81bba4 serial: sc16is7xx: add check for unsupported SPI modes during probe
+a0e301cd28c4eedbf1c07551ac31d52bbf3eb92a iio: adc: ad7091r: Set alert bit in config register
+845eab7ddebb136a068a7e28ef12b8c077e4d413 iio: adc: ad7091r: Allow users to configure device events
+0813f82472d4f38dc409fc2cdb0e9569be7a5ebb iio: adc: ad7091r: Enable internal vref if external vref is not supplied
+b38000e7ad38400d461f08674e92df2c14d3deed dmaengine: fix NULL pointer in channel unregistration function
+7f7ee1fa4ad64dfb1722ef2a7067b0e6bf262c18 iio:adc:ad7091r: Move exports into IIO_AD7091R namespace.
 
---===============0885045802117291294==--
+--===============8516827453333741433==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-df915776fe3a-abe28508cb45.txt
+
+7112eb8cf138e4b34d59603bb4e1fb03f95a5e00 ksmbd: free ppace array on error in parse_dacl
+0e23fc02962c8a4cfa562844e0af4e0444bfe388 ksmbd: don't allow O_TRUNC open on read-only share
+b7ce3d7e0c05813b0f8091f43c2bee4d633ff8d7 ksmbd: validate mech token in session setup
+5e78e0982bb7812fee4eeed0b1d24a84b04d61eb ksmbd: fix UAF issue in ksmbd_tcp_new_connection()
+d91ddb4275f927a67cc1fd4537df25d3451a497d ksmbd: only v2 leases handle the directory
+1343d9a3d6a70e7dc97c9df9978abde5afe31fcb iio: adc: ad7091r: Set alert bit in config register
+f1138df81ce63782b81128c6a02b97077c14533c iio: adc: ad7091r: Allow users to configure device events
+b1ef069b959380dfc406bcc6ba9e6751da4e8abd iio: adc: ad7091r: Enable internal vref if external vref is not supplied
+cf3cdc98cec5a744c46cc9e5ba0c24816592bcbb dmaengine: fix NULL pointer in channel unregistration function
+5e9b230d9a92c3b37b69f7247342e169c4a94ad1 scsi: ufs: core: Simplify power management during async scan
+b496199f45d3bf77981390b760116e8ee18fe493 scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
+abe28508cb45f98d76b529305825e46f520717ac iio:adc:ad7091r: Move exports into IIO_AD7091R namespace.
+
+--===============8516827453333741433==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3168b54e1a37-c74d4faa49f8.txt
+
+abd5f690f5514ec3018fa5fafe6db2d1de878e71 docs: sparse: move TW sparse.txt to TW dev-tools
+a41c1bfbf798ed1cd8bdd26f7dcc6034d39a79b0 docs: sparse: add sparse.rst to toctree
+7aaed71e4e3c814bad8cf51b5828ec04ff91faa1 docs: kernel_feat.py: fix potential command injection
+518d214b17def6a693527d04074e04ab452e07e3 serial: core: Simplify uart_get_rs485_mode()
+a401c84ca8105ff68729548d963339dc535ed16e serial: core: set missing supported flag for RX during TX GPIO
+87d7df428d69a48709046846f1cf5ac2d0f695e0 soundwire: bus: introduce controller_id
+fce3dd05d6436c0f0fa1589b2a3a2e646479284c soundwire: fix initializing sysfs for same devices on different buses
+f5db40206f88175c5738369f75953ced8bb4782d net: stmmac: Tx coe sw fallback
+f1b672cb5c9303b6d81318adbe936b0946f54564 net: stmmac: Prevent DSA tags from breaking COE
+b0bd0b93366604e4577c229bc3e1b8064370effe iio: adc: ad7091r: Set alert bit in config register
+2c50824e001ebbc5908002db72a0534270caa95a iio: adc: ad7091r: Allow users to configure device events
+b0965a3e12b6452b49ed6fbdde69ac9c23f59391 iio: adc: ad7091r: Enable internal vref if external vref is not supplied
+739ebd4d2c7776bdc36ac9abc9e69ce25b62df72 dmaengine: fsl-edma: fix eDMAv4 channel allocation issue
+59d0e2af1ac12ae0d8b16b780a35f21f174bbb58 dmaengine: fix NULL pointer in channel unregistration function
+52f6c8e11b0766c3cbcb00d05ea764434b52b923 dmaengine: idxd: Move dma_free_coherent() out of spinlocked context
+d2d6084683fa9285741ff159c43dbe15df63b707 scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
+27062af2d1c0ebc24a3730067828e4bc329109e5 riscv: Fix an off-by-one in get_early_cmdline()
+0730669c6cfb4fdc35e0c1fbfdc0f1737ab9b768 scsi: core: Kick the requeue list after inserting when flushing
+3bd8edf05bc571449fc6eda18a177d94e8104ca8 sh: ecovec24: Rename missed backlight field from fbdev to dev
+a13d85b1bc46dfae0d8921ea8300de0cfd06361e smb: client: fix parsing of SMB3.1.1 POSIX create context
+6a6f5cb7064770e7fce6b5f15cd1b4c6a2309c36 cifs: handle cases where a channel is closed
+0ca1464ae23aa3a968d14a4a3f5a6ab991a56f12 cifs: reconnect work should have reference on server struct
+b72cbb1319f22bdb318629c896f0c5625b9c3bf4 cifs: handle when server starts supporting multichannel
+b3f89fa414c54aca8388570aa25db87421163297 cifs: handle when server stops supporting multichannel
+059cadfd1302e07ca0059027bc80cdc0984056d6 Revert "cifs: reconnect work should have reference on server struct"
+434a7113095c37b4faf6cb168ce292deda9b0f46 cifs: reconnect worker should take reference on server struct unconditionally
+2c016cfdda3de44dd8fe5daba5c7ac65d0520119 cifs: handle servers that still advertise multichannel after disabling
+c74d4faa49f8528e16918eb6c0698f9ef93e1ab7 cifs: update iface_last_update on each query-and-update
+
+--===============8516827453333741433==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-87e87c0daf85-55254c47922a.txt
+
+70c85e84ff910565ce66e8fb9274569b37920592 soundwire: bus: introduce controller_id
+d33977caad80f219dd7eb8f6c5e69fd65d07b458 soundwire: fix initializing sysfs for same devices on different buses
+0b5d5db1554af84e2ea408439565b42b3d13a061 iio: adc: ad7091r: Set alert bit in config register
+d7867b1064133a9de28b19e72f212c837ff60735 iio: adc: ad7091r: Allow users to configure device events
+3f09e7bc3e1aadc523391b3e08746f0b84a78776 iio: adc: ad7091r: Enable internal vref if external vref is not supplied
+d4d109859adba49df86cbedb15919c491fe63fc3 dmaengine: fsl-edma: fix eDMAv4 channel allocation issue
+1ce800663ebc464efcc58f28cb3fb7f97034e3fc dmaengine: fix NULL pointer in channel unregistration function
+484256850199a337835facd79dacbe81ac7d508d dmaengine: idxd: Move dma_free_coherent() out of spinlocked context
+15d349faf46f1a182a5e5420bd1cb960600dbe52 dmaengine: xilinx: xdma: Fix the count of elapsed periods in cyclic mode
+a9d7935719f0b581ce6605f9af3185beb43dfbff scsi: ufs: core: Remove the ufshcd_hba_exit() call from ufshcd_async_scan()
+af021851b7e66f089a9162db055143d5ba98058d riscv: Fix module loading free order
+035db9d7c53681ed9b7655b7774f1545fa33c2fc riscv: Correctly free relocation hashtable on error
+fc1ad61e4fe5775015c82af4ad038169d91b653f riscv: Fix relocation_hashtable size
+d52ac5a6726aa9c0efeb883e3e52ff3152442f54 riscv: Fix an off-by-one in get_early_cmdline()
+f2b23aa9a5b52b1e622356c5b48603911b75d2ef scsi: core: Kick the requeue list after inserting when flushing
+b6583509bfc184cca567cd41d5a2bf3e121c1527 sh: ecovec24: Rename missed backlight field from fbdev to dev
+43fcca0ff336fe325756ed95525f000bed403bd0 smb: client: fix parsing of SMB3.1.1 POSIX create context
+61d43f23b02c57667b8611bf1607837eab8a1389 cifs: handle servers that still advertise multichannel after disabling
+55254c47922aa641efeee944d5875d917f8d0c9c cifs: update iface_last_update on each query-and-update
+
+--===============8516827453333741433==--
