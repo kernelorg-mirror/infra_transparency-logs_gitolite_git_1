@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2203809256656017625=="
+Content-Type: multipart/mixed; boundary="===============4985211020865574159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Fri, 26 Jan 2024 08:22:50 -0000
-Message-Id: <170625737043.15315.9425623242634091904@gitolite.kernel.org>
+Date: Fri, 26 Jan 2024 08:23:01 -0000
+Message-Id: <170625738121.15448.18108259694145909957@gitolite.kernel.org>
 
---===============2203809256656017625==
+--===============4985211020865574159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: b56c0bbdf40d6f3cdfbd950d44b8cadd818f9d04
     new: 48ef9e87b407f89f230f804815af7ac2031ec17a
     log: revlist-b56c0bbdf40d-48ef9e87b407.txt
 
---===============2203809256656017625==
+--===============4985211020865574159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -258,4 +258,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 614f362918c782d1cfa4ee50f96072a95eac264e LoongArch: KVM: Fix build due to API changes
 48ef9e87b407f89f230f804815af7ac2031ec17a LoongArch: KVM: Add returns to SIMD stubs
 
---===============2203809256656017625==--
+--===============4985211020865574159==--
