@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0125299828296107291=="
+Content-Type: multipart/mixed; boundary="===============9016660577112914423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Sat, 27 Jan 2024 00:33:54 -0000
-Message-Id: <170631563495.4120.4164169552633525826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 27 Jan 2024 00:39:13 -0000
+Message-Id: <170631595390.8935.13226275882547192255@gitolite.kernel.org>
 
---===============0125299828296107291==
+--===============9016660577112914423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: b282c30dad3e10738a4f03043efaff93d9e8de02
-    new: 4c5d387d79a65355b73e526cbf5754a9dcd5377b
-    log: revlist-b282c30dad3e-4c5d387d79a6.txt
+  - ref: refs/heads/master
+    old: cc6e14339f0e2831d0e7420c261ec72fa5779b5e
+    new: efff6dc53c63448254f4797379288fb1cad9d656
+    log: |
+         efff6dc53c63448254f4797379288fb1cad9d656 4.19-stable patches
+         
 
---===============0125299828296107291==
+--===============9016660577112914423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b282c30dad3e-4c5d387d79a6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-98be59bd03aa50d155ba84208cd964017e397fc9 power: supply: da9030: Use devm_power_supply_register() helper
-57261cda154b3d0f8671ea222672f75b1e965c15 power: supply: da9052: Use devm_power_supply_register() helper
-88a72257a438375894de446885bb40946e0f979f power: supply: ds2760: Use devm_power_supply_register() helper
-ada63f1ec91b77417cf195dadd646eaadb6f121c power: supply: goldfish: Use devm_power_supply_register() helper
-3b4d07fdaf17a8bb79173c2c40876d3221edeea4 power: supply: lp8727: Use devm_power_supply_register() helper
-2abb571143c39f581df9951d263948726db42d86 power: supply: lp8788: Use devm_power_supply_register() helper
-e90a67f618c4a1128c49b11ddec37d9f1728ff5b power: supply: pcf50633: Use devm_power_supply_register() helper
-3a93da231c12bb153224bbbdd3d9a83da9e0ba33 power: supply: rt5033: Use devm_power_supply_register() helper
-503920abb586c3e355a19c680089ff5b33d97262 power: supply: tps65090: Use devm_power_supply_register() helper
-aa0c8959dac7207e3b7b25bcb01730bff9c61713 power: supply: wm831x: Use devm_power_supply_register() helper
-f2a7667c6cc09431575a286ec87e823fddd4dd41 power: supply: wm831x: Use devm_power_supply_register() helper
-9115c677071a09cf51cace59c33ed71ec61bdfec power: supply: da9150: Use devm_iio_channel_get() helper
-077c1df8456f97d89e4880ba503d8ddf6af5be12 power: supply: da9150: Use devm_power_supply_register() helper
-a16dc57e97558dcff7c422b3abec4f9880e8272b power: supply: rx51: Use devm_iio_channel_get() helper
-4cb372a0ca220fff4a3878c4d1239af3e057e7cc power: supply: rx51: Use devm_power_supply_register() helper
-8ac675344280a406835f03746594345209f2c1ae power: supply: twl4030_madc: Use devm_iio_channel_get() helper
-4c5d387d79a65355b73e526cbf5754a9dcd5377b power: supply: twl4030_madc: Use devm_power_supply_register() helper
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1706315953 -0800
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1706315952-30602a6642faef1ef0aefc81ceed80334d5d3e0c
 
---===============0125299828296107291==--
+cc6e14339f0e2831d0e7420c261ec72fa5779b5e efff6dc53c63448254f4797379288fb1cad9d656 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW0ULEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T2YQAKlPtlnpdIvcj9dOHgi2
+QgH98WK1cjAnfpec0uoMqM3vLITRmGiDJbCm1dsOMQGmDZ4G66TTX76S2x9K/8To
+PtW6pAw7QgRUziY75fIpdR+Rs9a6DrOKxrdWEVkG4W42nrA6HTpiHfOfk8sv17wG
+NBsTCaQ8IvOwuaijbDfUu3c9nLESTHVGiWye1GZvZlhgGqDwxPld4tvJTzweP6rG
+BCH5LJjLrVTpY1ryk+mctEnJ0ZH+y5UHMbB4UiRRLHdxeV1mcYGXxguiuA6x1ll7
+qHtc9vPiReY9OS3S274TEBFEpZxjFGL5DrEZccAXvnV3KYlZpznVSI7yZhMmfsPR
+FKq/lPq6PpOtIzSZfnJXbhBKnqeOJmAui05qN8i8nh7OzqYE6Yqp2uZah3aFiCEe
+6c6l65lxfKWqPtEW2NFbeMMfmzUPHRCp7l2UqqohX6M6WgvV4jxEAwvdoNYsIfPg
+R6Fbqihdyg8nq4n7bxPbBOuXWjETFJtta7yAucMgD+h+8uEiVxL0eJpWeLvnLeQ2
+eEZ4yE8utn+Ay8MNCU3+PeALw5ZHi8HCKHl7UteaiCWmtckNYZNDK7foVpgNeesh
+D5DTx8ClosOWBheggQGSES4gOKiUGecMLjJarlrnl/KJQEO3Xgaif3B9hjpj0K+c
+hNCwsDEI/O3BmHn2fXj4zg96
+=FA7G
+-----END PGP SIGNATURE-----
+
+--===============9016660577112914423==--
