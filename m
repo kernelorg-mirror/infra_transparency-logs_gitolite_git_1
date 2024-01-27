@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4095571619384886950=="
+Content-Type: multipart/mixed; boundary="===============8892929589459662026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Sat, 27 Jan 2024 00:10:00 -0000
-Message-Id: <170631420074.18787.4363907464411760896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 27 Jan 2024 00:10:36 -0000
+Message-Id: <170631423679.20714.9181339908216569842@gitolite.kernel.org>
 
---===============4095571619384886950==
+--===============8892929589459662026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools
@@ -20,7 +20,7 @@ changes:
     new: 7bbe8f0071dfa23fcc3b2864ec9f3b1aeb7ab2df
     log: revlist-d988c9f511af-7bbe8f0071df.txt
 
---===============4095571619384886950==
+--===============8892929589459662026==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a734c7f969750302b1150ef20468704498f74e64 perf test: Workaround debug output in l
 79baac8acfc60a7a5114f6d60731e28c242ef8ce perf top: Remove needless malloc(0) call that triggers -Walloc-size
 7bbe8f0071dfa23fcc3b2864ec9f3b1aeb7ab2df perf tools: Fix calloc() arguments to address error introduced in gcc-14
 
---===============4095571619384886950==--
+--===============8892929589459662026==--
