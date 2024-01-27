@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1185867416900739708=="
+Content-Type: multipart/mixed; boundary="===============7838383180864195769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 27 Jan 2024 18:41:42 -0000
-Message-Id: <170638090280.25108.7036326289742932229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Sat, 27 Jan 2024 18:42:08 -0000
+Message-Id: <170638092841.25369.6145412097965880075@gitolite.kernel.org>
 
---===============1185867416900739708==
+--===============7838383180864195769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
@@ -20,7 +20,7 @@ changes:
     new: e30dca91e5667568a6be54886020c43f1f6f95d3
     log: revlist-177f246a7564-e30dca91e566.txt
 
---===============1185867416900739708==
+--===============7838383180864195769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -161,4 +161,4 @@ a734c7f969750302b1150ef20468704498f74e64 perf test: Workaround debug output in l
 7bbe8f0071dfa23fcc3b2864ec9f3b1aeb7ab2df perf tools: Fix calloc() arguments to address error introduced in gcc-14
 e30dca91e5667568a6be54886020c43f1f6f95d3 tools headers UAPI: Sync kvm headers with the kernel sources
 
---===============1185867416900739708==--
+--===============7838383180864195769==--
