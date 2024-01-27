@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4789748973961466377=="
+Content-Type: multipart/mixed; boundary="===============8041274794034247806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 27 Jan 2024 18:45:20 -0000
-Message-Id: <170638112085.28225.1337621590234082046@gitolite.kernel.org>
+Date: Sat, 27 Jan 2024 18:45:38 -0000
+Message-Id: <170638113817.28400.924519272255068066@gitolite.kernel.org>
 
---===============4789748973961466377==
+--===============8041274794034247806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: fa7178b0f12e55a4f2d4906df3f25d6d4f88d962
     new: beb53f32698ff9cd0ca442c1f856ea0ecfb82be3
     log: revlist-fa7178b0f12e-beb53f32698f.txt
 
---===============4789748973961466377==
+--===============8041274794034247806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a70f2588584b635b35e753261f992c91d007d7dd Merge branch 'net-dsa-microchip-impleme
 aefd013624a10f39b0bfaee8432a235128705380 net: txgbe: use irq_domain for interrupt controller
 beb53f32698ff9cd0ca442c1f856ea0ecfb82be3 Merge branch 'txgbe-irq_domain'
 
---===============4789748973961466377==--
+--===============8041274794034247806==--
