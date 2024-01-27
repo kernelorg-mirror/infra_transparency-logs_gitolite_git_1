@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 27 Jan 2024 10:02:13 -0000
-Message-Id: <170634973323.8968.14055797710347649668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jmondi/linux
+Date: Sat, 27 Jan 2024 10:57:50 -0000
+Message-Id: <170635307054.15724.17184032342232233521@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/jmondi/linux
+user: jmondi
 changes:
-  - ref: refs/heads/main
-    old: 586e40aa883cab255ab8ddfe332c4092a5349cb7
-    new: 62b4248105353e7d1debd30ca5c57ec5e5f28e35
-    log: |
-         62b4248105353e7d1debd30ca5c57ec5e5f28e35 net: lan966x: Fix port configuration when using SGMII interface
-         
+  - ref: refs/heads/pispbe/media-staging/be-upstream
+    old: 0000000000000000000000000000000000000000
+    new: 03bddc683ece55f6f5603e9ebfad948d75253414
