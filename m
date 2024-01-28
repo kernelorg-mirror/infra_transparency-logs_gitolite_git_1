@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2377857935993612952=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 28 Jan 2024 18:57:24 -0000
-Message-Id: <170646824448.20357.13814768001691516472@gitolite.kernel.org>
-
---===============2377857935993612952==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sun, 28 Jan 2024 20:00:00 -0000
+Message-Id: <170647200000.31463.10796963560100571158@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/attribute_hide
-    old: 6f081e0aca6e3a2b2d2cc2d3ad40bd770600eef7
-    new: 4c8046850ae84de139ea6e4f0557749a63bbfc10
+  - ref: refs/heads/work.alpha
+    old: 267674e3b4fd1ff6cedf9b22cd304daa75297966
+    new: cf6ed9c20eb5672b267e095f8eb2ac82d40dab54
     log: |
-         4c8046850ae84de139ea6e4f0557749a63bbfc10 platform/x86/amd/hsmp: switch to use device_add_groups()
+         ff7d8775c91fc3f02aa579c6ad5258cebd2e97b7 alpha: add clone3() support
+         22ac83db5ceb8b33e7eff1d35ef5c3561cc7dea6 alpha: don't make functions public without a reason
+         97980ef1143c3f9115cc23720349ac99b40c2d0b alpha sys_sio: fix misspelled ifdefs
+         5c64e76af77bacf58e68d7d6e0c917fc203748f7 alpha: missing includes
+         e399cc09ab5830aa9abf0104feb8df774cce3639 core_lca: take the unused functions out
+         f0d842e409ca9d49c7ee0e7ea3d136c180a14946 alpha: jensen, t2 - make __EXTERN_INLINE same as for the rest
+         cf6ed9c20eb5672b267e095f8eb2ac82d40dab54 alpha: trim the unused stuff from asm-offsets.c
          
-
---===============2377857935993612952==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1706468239 -0800
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1706468239-fa759f9c949900227bffdf5aaf07d495b3966604
-
-6f081e0aca6e3a2b2d2cc2d3ad40bd770600eef7 4c8046850ae84de139ea6e4f0557749a63bbfc10 refs/heads/attribute_hide
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW2o48bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FwkP/0n/NNE8w3+wGyQaokFu
-lxa7LSffqgrDTE0WK7yjSeMwZHOIkBI9F6GJACn2kJY8/jh/n8sVwixnAxYU45sh
-SKAyVv/AZun3UBr+Lg2/RE3XWDMmlx+rQTLFtY9oPjZWS9/NhJ4LPtbJgWskdc4x
-/5eCg/G79SEFQitSbDx62K79sw4B6fEOtUXe03gxYV2i8/B9A+d3NvmfCODIsco1
-qEz4/kHRGuTwMMxTgtFsVISVnMaTdCBV1SK3OIKs0GDj+HZA9tcy6uItgLvH6duI
-XJDx15aLaf+FHnvNfKHTi+06GC8mtoXColaxpRz1jU2Fcrc0rb1VnnEgxQvkhgw5
-m8+vxOE2RkQgwG7vvlWhqLw3ZH+qWHmiSh2pzHBsjJL/tKlxB8nuQJjOcPtIrtkC
-w++L97tclyvidkiIJmPmw1442CQNQUE4lfg/lW1En3IGpjQZaPD/WLVCR2yb8i9W
-s4WlpywK8oNsP2BiuTgSbM1edOoNA62vYIOizETSNcUdQxEqRB8GBg689MzvPyt+
-wus8zXMqBbfzCxjrU1Rl8gHji+V80iFTLnQIAnEjMdE3IJk8AMgvO7IDV4+rhjz1
-bXHboIWIHHzMpSKOQvn5/sFHwgX+FTA6NmY9Epyp64JMqUhFYrh0AnDHb4Upszqs
-KIE076wsr0xnvtzYMjOIhmYP
-=3QRD
------END PGP SIGNATURE-----
-
---===============2377857935993612952==--
