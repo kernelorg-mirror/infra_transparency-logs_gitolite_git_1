@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3789321275721222217=="
+Content-Type: multipart/mixed; boundary="===============4237838347818700313=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 28 Jan 2024 01:51:54 -0000
-Message-Id: <170640671433.17869.1683917509157758635@gitolite.kernel.org>
+Date: Sun, 28 Jan 2024 01:51:56 -0000
+Message-Id: <170640671635.17940.7311514375619425304@gitolite.kernel.org>
 
---===============3789321275721222217==
+--===============4237838347818700313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,89 +16,100 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 9ac1950106511ee27b05496e01b189202bf2298e
-    new: a83086d24af53474143b33c9a13a78f57285ad7b
-    log: revlist-9ac195010651-a83086d24af5.txt
+  - ref: refs/heads/linux-5.4.y
+    old: eb33273b4c72d83d85753738bc59bbc951471387
+    new: 9267b69053867f70466431031defba819828435e
+    log: revlist-eb33273b4c72-9267b6905386.txt
 
---===============3789321275721222217==
+--===============4237838347818700313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1706406713 -0800
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1706406715 -0800
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1706406712-4d0a4ff45d42b881d6a0448d33aac30896a7f6e2
+nonce 1706406714-ffbb19b4ac1a494c58615cf604c18de01ac83fcb
 
-9ac1950106511ee27b05496e01b189202bf2298e a83086d24af53474143b33c9a13a78f57285ad7b refs/heads/linux-4.19.y
+eb33273b4c72d83d85753738bc59bbc951471387 9267b69053867f70466431031defba819828435e refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW1szkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tyMQANMLesnYXWeDAh01eduQ
-irRTc1vf6uhd8aTfX8VEgbb8nB92xjX2Pxwx+vkbTX7o9ohmvNbkZz4JMXxU1FQg
-RgOOH3X++ZdpH+ltwbl2fYYC8izQmukH41ZmOFz5NyA3watjlAV4aYX4t50L9qOF
-ZrSv2Q6QjmBmE6amgZVc5M6YfT66Tgp430VsFcAUMx68SMQ4h7IxQeWL6i2O5IMa
-NBOuqZgx+dd0rULs3xJpnxLFWtPGVtc8G2nPbZVvDgAO/UUbxVKfY/3jrwEeqYhJ
-Rg/mlDS+EKfOBbg24aL5EVSHZPQKqabPYusA6j3VZgOUI47xhAsOT7IG9cq9mgX6
-vCpKXtzusQ2EdCbYCM3GON8kjEvT/hge4vId9h9d7dMDu2R47V3ZRIqiHJe91GUe
-pxymZRDuMemtBOd31esjqKxzgQvFisPbIKsWjuQqwBlu7NxunSCxd3d9tlvtv3pg
-HPF0/2nLEOWfmPeGfdE+ZrzFHSmw5vTvEtdx8S65h0UBF0sHSh5RI8VivqxmaRWE
-ZkUzErMmPA3I62qgtZdd/8Dn0NH4X1C+oyGrPW0tJGSnpTWeTkUXPwvLQ1+C8HL5
-99Fq62bMOBADwZFqTGhLxoYLrHoPt8F/LbugJtT1TAq9NQ2KJVvY3wpEnEsr2Vfu
-uZ7Y/8tNOXN4YRZ9sW146Had
-=Wu4H
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW1szsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7pEQAL+m/hzpyMMhrWZwWXNT
+zMy4mDdlVmna+UPOWRYHVAQZBJzvTK5VTKY+KUoMsM9M5OD2RVsHjR5dbbm3JBhz
+TO+uZT8nqflfygNrxme3xjZVKZyGJZIgBbiBGaheswyvYtwLAg9MFsWqUn8arnNx
+5wif1pGF1xDd3mIwiKA2J7xJli8Y+hWAcDdldMc6scxEC+iNI2IbsHq5kC2oyV69
+CYYVJzW1XdCLhl//8TXzqf3u8XifzledD2wMPmJnowwn+WrRa5ujcJiLDQ3fu1JJ
+5qHBSirHoRTrIsxCZTpGxHpmZIbpL++Jpstz5Djzz0OiaZcjqeAawFnAzP4FazBq
+UneG6YUNxLM+Ort/lA1+wp+zJKrOLVXWN5fjaMxhouyfRNel8lZRGi/m9ws8Ni/C
+H1CdH5zCqpSC6rgeDxugBtSPemvDptFz7rfnkbWpId4mcACGWu7Pisjl9rLC8MJK
+HAeb5hm7Pam/swIbTHw0RYz0VYs91nLDEZg44QIEp03sRxNzHZ1695vO5i0avHtC
+eDpBefs780R9FLcdgYydTRJ8KuS2TmCiCQyoWT133ThS+/fBoulxRPSby595pc7/
++vIDftmDFkj4aRimFtiSR+wpJ8z9w6khFtqnkGetbEzVLTUSOk2QIIrLN1H54sya
+FvC78XV71J9xxHCO4fRFpRM7
+=P49Q
 -----END PGP SIGNATURE-----
 
---===============3789321275721222217==
+--===============4237838347818700313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ac195010651-a83086d24af5.txt
+Content-Disposition: attachment; filename=revlist-eb33273b4c72-9267b6905386.txt
 
-358fa5d5dcc29594f776f8d3f3473edfe5f03aed PCI: mediatek: Clear interrupt status before dispatching handler
-40b73b3b30e946bfa55af73d90cdd8c50358c155 include/linux/units.h: add helpers for kelvin to/from Celsius conversion
-9e425cbc49cd82b34a65ae18cc329fb4cc499864 units: Add Watt units
-b67e4f0d1277c84cad30e61cf021cfce86e3c897 units: change from 'L' to 'UL'
-7e4d9d0b3a284409d48fc302ca63d3d5fa9cf84e units: add the HZ macros
-f58387118365418666c5ec7597b5c0ce84b2f761 serial: sc16is7xx: set safe default SPI clock frequency
-f0f76a1355c72015fa1ef1e7ea917a9ba72e6c76 driver core: add device probe log helper
-4325f2d7204036c919fa1aad7e889c588aa402e4 spi: introduce SPI_MODE_X_MASK macro
-ef2f024e69307e2741b745b95b468c08a49e3f9f serial: sc16is7xx: add check for unsupported SPI modes during probe
-abca01d509741a505ce93c777f57a10028822c07 ext4: allow for the last group to be marked as trimmed
-6f64e61654bd688a9d1d3680b59a707103da9014 crypto: api - Disallow identical driver names
-03734fc6ab66a2da06442c77dc04afc56cd2dd91 PM: hibernate: Enforce ordering during image compression/decompression
-ccd7478a58f4c593496b10cf8bd4a9a5a2000f9f hwrng: core - Fix page fault dead lock on mmap-ed hwrng
-acdc8b0f0631d40279d787ea8f5693a565e850a0 rpmsg: virtio: Free driver_override when rpmsg_remove()
-858e084afc63680feaad3d5885e18759872caaa6 parisc/firmware: Fix F-extend for PDC addresses
-72ef31f232a83f73200f10ae299e7179eb64b592 nouveau/vmm: don't set addr on the fail path to avoid warning
-570e2913864d26320fc076ae510df7aa24737825 block: Remove special-casing of compound pages
-a35669be9b10f645c0fe0347548a2addd19b411c powerpc: Use always instead of always-y in for crtsavres.o
-cd9cfdcf5ad2add8557289384a2b43f87d0f1b49 x86/CPU/AMD: Fix disabling XSAVES on AMD family 0x17 due to erratum
-880395ba222d0d828288b0e605611f400f529cf7 driver core: Annotate dev_err_probe() with __must_check
-fd29710f2e2b8a4b6a27ef971a19bf73f857d369 driver code: print symbolic error code
-687f18d2a6985ed79fb52280766d0f1dc1ad27e9 drivers: core: fix kernel-doc markup for dev_err_probe()
-30a58bd1fe19d5f8a91f9acb95fee8e6e9935775 net/smc: fix illegal rmb_desc access in SMC-D connection dump
-61b2492ee14ce2dc09c21f58ed5069ae55dfac30 vlan: skip nested type that is not IFLA_VLAN_QOS_MAPPING
-30256e00ba73dcbc6155707d399e10018ee0535d llc: make llc_ui_sendmsg() more robust against bonding changes
-544964db7c6a90991ed6ba1e161edb767cab7f40 llc: Drop support for ETH_P_TR_802_2.
-afa18b7ebda35308be615c9fc3d84604c2f37bb8 net/rds: Fix UBSAN: array-index-out-of-bounds in rds_cmsg_recv
-bb399625abbf741f454418ea19a183d3afa29df9 tracing: Ensure visibility when inserting an element into tracing_map
-9d585739be1f39b1b09114a4512ec9ab2c1c276c tcp: Add memory barrier to tcp_push()
-ec5f65253453636a50af6741c50689b4bd6e6e9b netlink: fix potential sleeping issue in mqueue_flush_file
-b2a3ec2f1fe12001bc92b0c31e4ce56be89c302f net/mlx5: Use kfree(ft->g) in arfs_create_groups()
-bdc218ac57726c9d0a4170d8aefb94939562428b net/mlx5e: fix a double-free in arfs_create_groups
-b72c33f4b71dc7f58ff398e301d7f221369a15e7 netfilter: nf_tables: restrict anonymous set and map names to 16 bytes
-411939d032bfc7dc5a560954f1764bfbaa1adb1a fjes: fix memleaks in fjes_hw_setup
-bcd517c9a6af2332f7c2d61495f7d6d9cf7f1464 net: fec: fix the unhandled context fault from smmu
-8ccc3ab8d3e74963e835b1c06ed5a365929ac81c btrfs: don't warn if discard range is not aligned to sector
-08ef898812d8c3a8071daeb22fe96574ca4d30f3 btrfs: defrag: reject unknown flags of btrfs_ioctl_defrag_range_args
-f962ec0ca98a8a26450a3b9684d3694853d42e1a netfilter: nf_tables: reject QUEUE/DROP verdict parameters
-eff1f37e49e555d1e7f39d629d97521184ceb748 gpiolib: acpi: Ignore touchpad wakeup on GPD G1619-04
-4f8db97c470cff24d30056fa828fb69299c02a9e drm: Don't unref the same fb many times by mistake due to deadlock handling
-cac06bf169ffa649c36a9868fab890dd21607742 drm/bridge: nxp-ptn3460: fix i2c_master_send() error checking
-6099a2e792c86a5417b80f28bef0d141ece7590f drm/bridge: nxp-ptn3460: simplify some error checking
-a83086d24af53474143b33c9a13a78f57285ad7b Linux 4.19.307-rc1
+61f4e934402049d849bcc2edc26bd487d26505a9 PCI: mediatek: Clear interrupt status before dispatching handler
+a8fc22364db9df60e1b21a2c73a2f72b4ddc8bac include/linux/units.h: add helpers for kelvin to/from Celsius conversion
+10d76dfbf9aa286c4d199ca86d8ad5062e69bdd9 units: Add Watt units
+8cd19a2e28461ad1a3d74500958b0e8bc9a2e7a2 units: change from 'L' to 'UL'
+9b8cb321c133eb376b09ed38f2faaeef340d539d units: add the HZ macros
+05fedb5be9f50893417fdfec89b00ee2cfc7b20c serial: sc16is7xx: set safe default SPI clock frequency
+aba173bf73b13c32033b9ef1148daaa785a2475c spi: introduce SPI_MODE_X_MASK macro
+3f6e4aca60b380b99e8481fa89725f89a1174fc1 serial: sc16is7xx: add check for unsupported SPI modes during probe
+8d860acc292adb155227b1ec94c44c4a6baaf23d ext4: allow for the last group to be marked as trimmed
+1629bd4932284e99d20b159097c3d764d24b1dfc crypto: api - Disallow identical driver names
+c13f6a3502a5b7c63871cf6c7c69cf355c4d2e42 PM: hibernate: Enforce ordering during image compression/decompression
+0fe0103a22455687e889dbabbbc7c9758b4ffa5f hwrng: core - Fix page fault dead lock on mmap-ed hwrng
+3641e9106b35cc43e54ffd87a42477a4f1b8440e rpmsg: virtio: Free driver_override when rpmsg_remove()
+49bfe626d6efffbe982e2685e95c69495b6d850c parisc/firmware: Fix F-extend for PDC addresses
+34ea46b94b32e997324827a09642f92975cee81c arm64: dts: qcom: sdm845: fix USB wakeup interrupt types
+5d72b981e6cefa4f04d60ba9eb3a53e30b639e90 arm64: dts: qcom: sdm845: fix USB DP/DM HS PHY interrupts
+d086650a55cc2390c67fa3d6f169a8170125117b arm64: dts: qcom: sdm845: fix USB SS wakeup
+6feeae611338eb76714a35fd9f9647f07a04806c mmc: core: Use mrq.sbc in close-ended ffu
+22e96bddc36d97bac68cbc58ec815c033bdf76be nouveau/vmm: don't set addr on the fail path to avoid warning
+e29565646350fb50dba5c9e554f20c1f29ced098 ubifs: ubifs_symlink: Fix memleak of inode->i_link in error path
+63cb42fe87679fab989bbadf819f9887cc2294e7 rename(): fix the locking of subdirectories
+44242ec5d8e33412fae03d2740843c3062db2d39 block: Remove special-casing of compound pages
+ee6c72c343578e4589593b403b011918f8332dc0 mtd: spinand: macronix: Fix MX35LFxGE4AD page size
+bd4ab329dd36178e739ecc89adfc221c9da52446 fs: add mode_strip_sgid() helper
+d626eeebbf840db75760a5ef8ff87442d4f8bf59 fs: move S_ISGID stripping into the vfs_*() helpers
+f0f97840f9cc3cad1053b9a81d128b5d46c8bd04 powerpc: Use always instead of always-y in for crtsavres.o
+f10fb149ed69ad941e56ec5a92b1e484b405c593 x86/CPU/AMD: Fix disabling XSAVES on AMD family 0x17 due to erratum
+08f0e6370df558f922cb1454f394a01163069991 net/smc: fix illegal rmb_desc access in SMC-D connection dump
+9a69ec0d6422007c8a829be81d3e5898f2b2aea8 vlan: skip nested type that is not IFLA_VLAN_QOS_MAPPING
+df915029d5d3b93f6c8f84a40527d3f4a185b649 llc: make llc_ui_sendmsg() more robust against bonding changes
+31319e926942d768373f0d61c66654f6aec474b8 llc: Drop support for ETH_P_TR_802_2.
+4fc6485a57a6cf498f0587f3d7a9938bf32077c2 net/rds: Fix UBSAN: array-index-out-of-bounds in rds_cmsg_recv
+2160eabd20476ce48158d7b1d4c7b8ee5b82abbb tracing: Ensure visibility when inserting an element into tracing_map
+c00ebb55171bee8fc6b4fe2eb0f3cc0c6192c6d7 afs: Hide silly-rename files from userspace
+13fd6554bc2fe53f3dba6de6f96d329dc26d8b88 tcp: Add memory barrier to tcp_push()
+c0ca1ec8e9306adcc311288800377d8a3e10d37d netlink: fix potential sleeping issue in mqueue_flush_file
+9906329e29bdbdf9cafb7d283abcde1e661daab0 net/mlx5: DR, Use the right GVMI number for drop action
+f8648e8ce6b760bba2d3558743b0bfeb6b940f0f net/mlx5: Use kfree(ft->g) in arfs_create_groups()
+eafbb10b0e7e42be0a3f33110bbdc1dffd4f9b5b net/mlx5e: fix a double-free in arfs_create_groups
+837faeceabf3069abce6bfe0a0e74478978dd36b netfilter: nf_tables: restrict anonymous set and map names to 16 bytes
+3417097b66c6b2457e1b2d77265d559b778ec722 netfilter: nf_tables: validate NFPROTO_* family
+b305e8d7f7c1f0b6c576bf39559b61e501e409a3 fjes: fix memleaks in fjes_hw_setup
+808f5d3bf7922548c91073b5a0781ccb75f2bfea net: fec: fix the unhandled context fault from smmu
+e704069fd39f5509316394c6d9967649183ed2c0 btrfs: ref-verify: free ref cache before clearing mount opt
+ac073224725a0ab34b214e990ca0d6ccbe6e45a2 btrfs: tree-checker: fix inline ref size in error messages
+407d84e366cf86054fe54e1f30971d53cb10d787 btrfs: don't warn if discard range is not aligned to sector
+6687a4a69910f40e89a7b24e86450c43e80e1d2f btrfs: defrag: reject unknown flags of btrfs_ioctl_defrag_range_args
+4d53c41bec25fe62355265c9fb64e1b689c52bfc rbd: don't move requests to the running list on errors
+67d224dbe43a11b92772afc42ae51624418a114e netfilter: nf_tables: reject QUEUE/DROP verdict parameters
+dc314e7db5cd9cd0f369aac5cfe9e98f0e24c07f gpiolib: acpi: Ignore touchpad wakeup on GPD G1619-04
+78af6167131bbea8067b77f28d3b73dea06a97d4 drm: Don't unref the same fb many times by mistake due to deadlock handling
+0442fa73b1b7d6c27481ef0fce820125caffd3f7 drm/bridge: nxp-ptn3460: fix i2c_master_send() error checking
+55923e589d4bfdee081ba2cf8c79ffd4f432fd46 drm/bridge: nxp-ptn3460: simplify some error checking
+9267b69053867f70466431031defba819828435e Linux 5.4.269-rc1
 
---===============3789321275721222217==--
+--===============4237838347818700313==--
