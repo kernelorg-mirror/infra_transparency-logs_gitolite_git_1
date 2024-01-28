@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8626565809704651559=="
+Content-Type: multipart/mixed; boundary="===============1905111765777633778=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Sun, 28 Jan 2024 11:30:16 -0000
-Message-Id: <170644141644.26002.8619624780275368278@gitolite.kernel.org>
+Date: Sun, 28 Jan 2024 11:30:23 -0000
+Message-Id: <170644142306.26101.18051378521053889996@gitolite.kernel.org>
 
---===============8626565809704651559==
+--===============1905111765777633778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: 92fc925f838660eec25862a7fa7e6ef79d22f3ea
+  - ref: refs/heads/fixes
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-92fc925f8386-6613476e225e.txt
+    log: revlist-b85ea95d0864-6613476e225e.txt
 
---===============8626565809704651559==
+--===============1905111765777633778==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-92fc925f8386-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-b85ea95d0864-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============8626565809704651559==--
+--===============1905111765777633778==--
