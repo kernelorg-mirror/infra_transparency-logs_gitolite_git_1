@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 28 Jan 2024 23:42:40 -0000
-Message-Id: <170648536050.30305.8971294749232399629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ethtool/ethtool
+Date: Sun, 28 Jan 2024 23:45:17 -0000
+Message-Id: <170648551758.468.4443102378250940364@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/network/ethtool/ethtool
+user: mkubecek
 changes:
-  - ref: refs/heads/fixes
-    old: 10a73af988802b8d50f1745a3c0a15ff7ed13d2b
-    new: 3e7f4b0af8b67585efe4b0c9e6a77c82dac0da32
+  - ref: refs/heads/master
+    old: 02e15b078a173d87c16a4f89ccec71103521e5b5
+    new: 0aadd41eab7ea76501e557ccba705a08c07ce088
     log: |
-         3e7f4b0af8b67585efe4b0c9e6a77c82dac0da32 kbuild: fix W= flags in the help message
+         994ad92166c97e9cc29f0aa542c260180d2b7a3f update UAPI header copies
+         7e3ccd489f522825117e1367f79465d267a04f58 netlink: fix -Walloc-size
+         1a1dcfca4d670dbe01374ceb4e7c9c71ae75e15c ethtool: Fix SFF-8472 transceiver module identification
+         6bb620009e2e4aeaa41313247a0a5668abf393df net: ethtool: Add default branch to sff8636_show_all_ioctl switch
+         17628a0e44bdf57f082a49cf8ba3a0fd75c4bf53 ethtool: add support for setting TCP data split
+         a91f54d75dabcc21d04681fbecc62ded4bd5819d update UAPI header copies
+         8f58bb80c665d274d6a369992faf85290376bba4 changelog: fix 6.6 release entry date
+         0aadd41eab7ea76501e557ccba705a08c07ce088 Release version 6.7.
          
