@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2617987950246422747=="
+Content-Type: multipart/mixed; boundary="===============2359647049841987231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 28 Jan 2024 00:53:05 -0000
-Message-Id: <170640318540.7507.17783988924812022062@gitolite.kernel.org>
+Date: Sun, 28 Jan 2024 00:54:07 -0000
+Message-Id: <170640324785.7938.753412189096514440@gitolite.kernel.org>
 
---===============2617987950246422747==
+--===============2359647049841987231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: b558469580f82b925d6651ac8d7a01070402dbf8
-    new: 44481a0103443e465ea562b3d5f908051bfa932a
+    old: 44481a0103443e465ea562b3d5f908051bfa932a
+    new: c63fe1cc70933ca667d834a8d836162d3bfc7b0a
     log: |
-         7626c52b6b461b44a46cea4d51b4cf749657f5a8 usb: usb_autopm_get_interface use modern helper
-         d6429a3555fb29f380c5841a12f5ac3f7444af03 usb: storage: sddr55: fix sloppy typing in sddr55_{read|write}_data()
-         cde644ae1967d4fcb0fb27b47709654fd24208ae dt-bindings: usb: Introduce ITE IT5205 Alt. Mode Passive MUX
-         41fe9ea1696c85fdef1b0ea3f9184edb9ab7faba usb: typec: mux: Add ITE IT5205 Alternate Mode Passive MUX driver
-         44481a0103443e465ea562b3d5f908051bfa932a usb: dwc3-of-simple: Stop using of_reset_control_array_get() directly
+         4ca79255101b9edd6ac874d39361fd2b52927af0 usb: audio-v2: Correct comments for struct uac_clock_selector_descriptor
+         05d039e176cccc4c435c36ccd39170d218563a94 ucsi_ccg: Refine the UCSI Interrupt handling
+         2fa5c7e53112a5ffef385c587d7d5de96d0b2d08 dt-bindings: usb: Add Marvell ac5
+         c63fe1cc70933ca667d834a8d836162d3bfc7b0a usb: host: Add ac5 to EHCI Orion
          
 
---===============2617987950246422747==
+--===============2359647049841987231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1706403184 -0800
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1706403246 -0800
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1706403183-50f344eb8cf0b2d4fc726919db5fd33135cb34ef
+nonce 1706403246-5bd777e419bc6811e7c4153b24f2cb2f4483aa2b
 
-b558469580f82b925d6651ac8d7a01070402dbf8 44481a0103443e465ea562b3d5f908051bfa932a refs/heads/usb-testing
+44481a0103443e465ea562b3d5f908051bfa932a c63fe1cc70933ca667d834a8d836162d3bfc7b0a refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW1pXAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XAwQALLT37vMMQhh4c0f6Q8F
-O/YNaY3OsrXawprbywn5PQ5XJeSZLVV5ydaxOXAe85nkuvCeHaVATrIUbQhcoREX
-pUtSLSg6kjV+ct8i338OVCuQewoaWWas8rLxY4xV9EcWV0GTCw/1zJfWfg9aTQSD
-qmUL0I3lV7Js+NrehNc7swXciFjMZ6I6xa0BiinF7GwXQGdzIsa0F9iRzwP9lYs5
-quwaURZvcr5iWzfkL/h7Fpa9j5Ya5MEsw2Y8ksxX5w48WTcPQA4PFzFNw9HJHMfu
-tz66gnMOVSCkSB9+Xnk/INPVwkxg3e493ULj2R7x0vLnsAozty7R/beu+IyaGRCW
-zAr30qKRaZyf/ZWk4NCOzQPfVabHwlKk3R5QM5EcNYkRhlIKJ+50nkMDYO+g5aaS
-ypQCAxrTtwBsqlweBToBPIhibdBjeVKPYg/wTsX88T4TqkZuQCFbc2tP2tVjzv+B
-IVPLQyfK8xI7OTYp/yIErBKK/urt2Dk53Dx4xhELjbWX1IpMzbOxJnk+7K3nbq+u
-RTfJeQHlJ/NlJVgt4ARO2xcAgobXP7BNjQxl1eZzkcjsgxmigRNemicRBiVbMiH9
-538I8ob+fgFPnCNkKvgoI7Fl+a23ByTPlTxPkbqEnqXmM4TqbMhUBuOz6tysiVg1
-RyUlQINLZKVrTd5RDi8EDHIc
-=n80x
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW1pa4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Hu4QAK1kA3dvb87UMudbvx97
+OTH+wmcMbciW5JQeCxs5MznWq3t9fVNtI/rNv9y3++GTT7wGGRJ3eOIf1RG30+lJ
+toyaCnANMB/CpWnhk3aufL5InE0MU5Bfqy/RGmk+qlY5ZdBlSTdwsVkgIMGGNmxK
+8lBGvAwi2ntn4yO0rlbG/H6cl7jAiZxuLtG4RpULSEOYnXeUgGHUrGTT8yzpnSxW
+ZKCkTlzVBPcJk4I0F4QXVj21SIpV79qVr4UQIK5ET7kqwnizSEL/sOQYiOcJUTsh
+UFH1jmEY/ap/dKq4FBMe4Q+h8aPZZ7/SiIjEofBVFqtpLbBxKJvT4eQ/iSXd4i2b
+p9238ju9z0UfKBhkpS00vB3WwGSjytdD2okr/9JawubHYKBQrFDuTXSOScT+hDIL
+73vLgQY1461yR9/z0cRiSN20U1qYtlpzn0V9Jffr37jAeJjsyvJlF7Q6c16wFODt
+QXsXq5m23aXADvTrFwF5YRaGWCkKeOzMkpppmtdXNAcaDz2GoDf04XooRwcAH26k
+0xtakw32JFOYjjKj2GG+W60MgalDOzTkEQXcPsj6Xo+rlj7/1jgrhrxN2jMzdHwR
+S2ai/e2XSYs3vsM9VZJqsdoNs6Ky669viPiKqwH7C50jLrfGKmr2lxEXE4wopCZj
+lkvGGcntzDl9kAI/3+JDu9rZ
+=EFjZ
 -----END PGP SIGNATURE-----
 
---===============2617987950246422747==--
+--===============2359647049841987231==--
