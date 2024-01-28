@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1630773705160804221=="
+Content-Type: multipart/mixed; boundary="===============9086944163700547038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Sun, 28 Jan 2024 11:29:51 -0000
-Message-Id: <170644139180.24083.14783252807124674696@gitolite.kernel.org>
+Date: Sun, 28 Jan 2024 11:29:57 -0000
+Message-Id: <170644139746.24162.15737041112879529425@gitolite.kernel.org>
 
---===============1630773705160804221==
+--===============9086944163700547038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: ebe7f3393784857c487bf82f86813a8b1384e278
+  - ref: refs/heads/fixes
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-ebe7f3393784-6613476e225e.txt
+    log: revlist-b85ea95d0864-6613476e225e.txt
 
---===============1630773705160804221==
+--===============9086944163700547038==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ebe7f3393784-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-b85ea95d0864-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============1630773705160804221==--
+--===============9086944163700547038==--
