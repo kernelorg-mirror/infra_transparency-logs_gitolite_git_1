@@ -1,110 +1,116 @@
-Content-Type: multipart/mixed; boundary="===============1669503952239147404=="
+Content-Type: multipart/mixed; boundary="===============4609033041326187850=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 28 Jan 2024 20:31:09 -0000
-Message-Id: <170647386922.22485.1648935146764014147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Sun, 28 Jan 2024 20:54:41 -0000
+Message-Id: <170647528124.5978.17500636955219465753@gitolite.kernel.org>
 
---===============1669503952239147404==
+--===============4609033041326187850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 10e70ab10802e50ff6432964dc289d2bf93c2693
-    new: 909d8d33f8b4664c9b6c7fd585114921af77fc2b
-    log: |
-         909d8d33f8b4664c9b6c7fd585114921af77fc2b hwmon: Drop non-functional I2C_CLASS_HWMON support for drivers w/o detect()
-         
-  - ref: refs/heads/master
-    old: 3a5879d495b226d0404098e3564462d5f1daa33b
-    new: 4854cf9c61d060209d2b431f4a787f6952967022
-    log: revlist-3a5879d495b2-4854cf9c61d0.txt
+  - ref: refs/heads/devel/overflow/enable-unsigned-sanitizer
+    old: 6bc0f661febe1f593a0adb260f15c2cdeed8e6a5
+    new: 3dae3e4044f1ae8d1903bfc5b413ab57e2d51129
+    log: revlist-6bc0f661febe-3dae3e4044f1.txt
 
---===============1669503952239147404==
+--===============4609033041326187850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a5879d495b2-4854cf9c61d0.txt
+Content-Disposition: attachment; filename=revlist-6bc0f661febe-3dae3e4044f1.txt
 
-6a9531c3a88096a26cf3ac582f7ec44f94a7dcb2 memblock: fix crash when reserved memory is not added to memory
-e626cb02ee8399fd42c415e542d031d185783903 futex: Prevent the reuse of stale pi_state
-72b0cbf6b81003c01d63c60180b335f7692d170e smb: Fix some kernel-doc comments
-d8d222e09dab84a17bb65dda4b94d01c565f5327 xfs: read only mounts with fsopen mount API are busted
-0dd20a48a541ea5485b8bfc0e0bdbc6ae29b389f MIPS: Cobalt: Fix missing prototypes
-feab19143a1c8c5efdf1934dd0b1defb29bb5026 MIPS: Alchemy: Fix missing prototypes
-f134bd1ebc28d40010328e5b314e10575e3550e0 MIPS: sgi-ip27: Fix missing prototypes
-e3a4f1b7ada8360c1838ac3aad9837749a698c7a MIPS: fw arc: Fix missing prototypes
-ab58a2f319de945f631150a190653a90e307df8e MIPS: sgi-ip30: Fix missing prototypes
-f64fdde9bc771d7d790e8bcc30a7e03bbe0b1a9f MIPS: sgi-ip32: Fix missing prototypes
-6ba7843b59b77360812617d071313c7f35f3757a platform/x86: wmi: Fix error handling in legacy WMI notify handler functions
-3d8a29fec2cb96b3aa75a595f20c4b73ff294a97 platform/x86: wmi: Return immediately if an suitable WMI event is found
-3ea7f59af8ffa17ce5f5173d6f4bfbc73334187d platform/x86: wmi: Decouple legacy WMI notify handlers from wmi_block_list
-29e473f4b51ee56b5808323e274a8369b4d181cb platform/x86: wmi: Fix notify callback locking
-8446f9d11678bc268897882e86733d73204f83c4 platform/x86: wmi: Fix wmi_dev_probe()
-416de0246f35f43d871a57939671fe814f4455ee platform/x86: intel-uncore-freq: Fix types in sysfs callbacks
-5913320eb0b3ec88158cfcb0fa5e996bf4ef681b platform/x86: p2sb: Allow p2sb_bar() calls during PCI device probe
-9e054ed05ddae2c1b4b2bcb5dfcae49c5ac7637e platform/x86: p2sb: Use pci_resource_n() in p2sb_read_bar0()
-348d9cc7bde30852aa4f54aa70a22c3ad5dd081a platform/x86: intel-wmi-sbl-fw-update: Fix function name in error message
-41237735ccde2cc3fe1d83ae0b776a085be6a22f platform/x86: silicom-platform: Add missing "Description:" for power_cycle sysfs attr
-452c314988dbccc491a32b674a3945d93a23c87c MAINTAINERS: Remove Perry Yuan as DELL WMI HARDWARE PRIVACY SUPPORT maintainer
-20fe5e9be47efc952c66374334f7bb94e4a51d90 MAINTAINERS: add Luke Jones as maintainer for asus notebooks
-8530ecaf35f23d02fdce49aded7227fc8f14ebcc MAINTAINERS: remove defunct acpi4asus project info from asus notebooks section
-8cbc756b802605dee3dd40019bd75960772bacf5 platform/mellanox: mlxbf-tmfifo: Drop Tx network packet when Tx TmFIFO is full
-732c35ce6d4892f7b07cc9aca61a6ad0fd400a26 platform/mellanox: mlxbf-pmc: Fix offset calculation for crspace events
-f7cfe7017b531e08c108ac6615b1ddedcc892428 x86/paravirt: Make BUG_func() usable by non-GPL modules
-612e1110d689387aab81b2727895cd307d3cbbfd bcachefs: Add gfp flags param to bch2_prt_task_backtrace()
-3e44f325f6f75078cdcd44cd337f517ba3650d05 bcachefs: fix incorrect usage of REQ_OP_FLUSH
-3e4147f33f8b647775357bae0248b9a2aeebfcd2 x86/CPU/AMD: Add X86_FEATURE_ZEN5
-090e3bec01763e415bccae445f5bfe3d0c61b629 x86/cpu: Add model number for Intel Clearwater Forest processor
-5d390df3bdd13d178eb2e02e60e9a480f7103f7b smb: client: delete "true", "false" defines
-8deb05c84b63b4fdb8549e08942867a68924a5b8 smb: Work around Clang __bdos() type confusion
-966cc171c8be4fbeae1bf166d264e0bfb09e141c cifs: Share server EOF pos with netfslib
-fc43a8ac396d302ced1e991e4913827cf72c8eb9 cifs: cifs_pick_channel should try selecting active channels
-a68106a6928e0a6680f12bcc7338c0dddcfe4d11 cifs: translate network errors on send to -ECONNABORTED
-64cc377b7628b81ffdbdb1c6bacfba895dcac3f8 cifs: helper function to check replayable error codes
-4f1fffa2376922f3d1d506e49c0fd445b023a28e cifs: commands that are retried should have replay flag set
-4cdad80261862c8cdcbb5fd232aa713d0bdefe24 cifs: set replay flag for retries of write command
-993d1c346b1a51ac41b2193609a0d4e51e9748f4 cifs: fix stray unlock in cifs_chan_skip_or_disable
-56062d60f117dccfb5281869e0ab61e090baf864 x86/entry/ia32: Ensure s32 is sign extended to s64
-b184c8c2889ceef0a137c7d0567ef9fe3d92276e genirq: Initialize resend_node hlist for all interrupt descriptors
-096386a5bcf02e4053dc8b6cacb09a8493eeee4f bcachefs: discard path uses unlock_long()
-ebeae8adf89d9a82359f6659b1663d09beec2faa ksmbd: fix global oob in ksmbd_nl_policy
-644649553508b9bacf0fc7a5bdc4f9e0165576a5 clocksource: Skip watchdog check for large watchdog intervals
-9a574ea9069be30b835a3da772c039993c43369b tick/sched: Preserve number of idle sleeps across CPU hotplug events
-b9328fd636bd50da89e792e135b234ba8e6fe59f x86/CPU/AMD: Add more models to X86_FEATURE_ZEN5
-d2fda304bb739b97c1a3e46e39700eb49f07a62c bcachefs: __lookup_dirent() works in snapshot, not subvol
-5056c596c3d1848021a4eaa76ee42f4c05c50346 LoongArch/smp: Call rcutree_report_cpu_starting() at tlb_init()
-614f362918c782d1cfa4ee50f96072a95eac264e LoongArch: KVM: Fix build due to API changes
-48ef9e87b407f89f230f804815af7ac2031ec17a LoongArch: KVM: Add returns to SIMD stubs
-dd3c33ccbb8f0dc6a256dc55e7607569aea69721 MIPS: BCM63XX: Fix missing prototypes
-abcabb9e30a1f9a69c76776f8abffc31c377b542 MIPS: reserve exception vector space ONLY ONCE
-ce7b1b97776ec0b068c4dd6b6dbb48ae09a23519 MIPS: loongson64: set nid for reserved memblock region
-4bf2a626dc4bb46f0754d8ac02ec8584ff114ad5 MIPS: lantiq: register smp_ops on non-smp platforms
-118063f3803324411be0e601d560ed7d1c9824b0 platform/x86/amd/pmf: Get Human presence information from AMD SFH driver
-cedecdba60f4a42a8562574119f317ed0c674b5a platform/x86/amd/pmf: Get ambient light information from AMD SFH driver
-a692a86efe97fe0aba7cb15f38cbce866c080689 platform/x86/amd/pmf: Fix memory leak in amd_pmf_get_pb_data()
-8c898ec07a2fc1d4694e81097a48e94a3816308d platform/x86/intel/ifs: Call release_firmware() when handling errors.
-1abdf288b0ef5606f76b6e191fa6df05330e3d7e platform/x86: touchscreen_dmi: Add info for the TECLAST X16 Plus tablet
-c91c6b2f08afb7be111678ceade563158c9a31ba Revert "MIPS: loongson64: set nid for reserved memblock region"
-822df315cc7c85c3c10afcc6408b254a6fa0f166 MIPS: loongson64: set nid for reserved memblock region
-59be5c35850171e307ca5d3d703ee9ff4096b948 mips: Call lose_fpu(0) before initializing fcr31 in mips_set_personality_nan
-d1bba17e20d513e09d0977afc82cd85b91d0fef8 Merge tag '6.8-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-8c6f6a76465a4c001770992867b0a4985d20f927 Merge tag '6.8-rc2-smb3-server-fixes' of git://git.samba.org/ksmbd
-064a4a5bfac8bb24af08ec8a4c2664ff61a06f16 Merge tag 'bcachefs-2024-01-26' of https://evilpiepirate.org/git/bcachefs
-cd2286fc577526f0a6798f68977a95eb85fe3d52 Merge tag 'xfs-6.8-fixes-1' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-955340433a7926ab80838e904814461598adcd8c Merge tag 'loongarch-fixes-6.8-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-8a696a29c6905594e4abf78eaafcb62165ac61f1 Merge tag 'platform-drivers-x86-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-a08ebda97e2a32b8f1de2c8240337f726c2e1ba7 Merge tag 'fixes-2024-01-28' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
-9d451912dbef72b4b4dcaa99229f98b309338b39 Merge tag 'x86_urgent_for_v6.8_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-90db544ebaf4325044402cdfecf1cf9247ca3ae6 Merge tag 'timers_urgent_for_v6.8_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-0e4363ac1a21268c0c02ff65e16b3d33dde3bee8 Merge tag 'irq_urgent_for_v6.8_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-648f575d5e626f8d45ef0989db60ea60a9067560 Merge tag 'locking_urgent_for_v6.8_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4854cf9c61d060209d2b431f4a787f6952967022 Merge tag 'mips-fixes_6.8_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+0d35fc0697fd5c719f17f9b2cba3b72d33a9a228 [WIP] arch/x86/lib/kaslr.c: wrapping add: use __unsigned_wrap due to early boot
+c3838456fc1b71a2509e40b7455ef8f09bf0a38c [WIP] include/linux/jiffies.h: wrapping jiffies: use sub_wrap()
+39fa81b85bcf68b1cf6362a73c2443eaaf01ceed [WIP] include/linux/compiler.h: add wrap: use __unsigned_wrap
+051c53bea9066daeb78e990e157df0d0cd686d8a [WIP] include/linux/bitops.h: wrapping math: use __unsigned_wrap
+435a73ed8c008ca4b056a610aaa86748a51fea3e [WIP] drivers/char/random.c: wrapping math: use __unsigned_wrap
+5bbad225d85e7334624c254c775ca571ede8b266 [WIP] arch/x86/platform/efi/efi_64.c: wrapping math: use __unsigned_wrap
+e12a18a8fd416082eb1c6d6965dc14523703426a [WIP] include/linux/stringhash.h: hash math: use __unsigned_wrap
+8c8705d77d37ea12c3bb0ccce3355f79a7f3bb47 [WIP] include/linux/percpu-defs.h: negated variable: use sub_wrap()
+2481000ed0fbf9ba41dec891d1c946e216490194 [WIP] arch/x86/include/asm/word-at-a-time.h: wrapping math: use __unsigned_wrap
+65623475f9ff3056f09cdad29d37523d9391865a [WIP] include/linux/jhash.h: wrapping math: use __unsigned_wrap
+1288a2fb8aac86e55850a6b084ae2c7db536c179 [WIP] drivers/acpi/acpica/dsutils.c: loop bounds: use __unsigned_wrap
+2dfd6b2f1dea9568d4b1be44dee10cae056d5946 [WIP] drivers/acpi/acpica/exmisc.c: wrapping math: use __unsigned_wrap
+9e713e21f47de0f84fd592723e27d19ec618ccf1 [WIP] drivers/char/hpet.c: wrapping math: use __unsigned_wrap
+b93725e835c74b9730c5752b732cfee1b1cd238b [WIP] security/keys/keyring.c: wrapping math: use __unsigned_wrap
+728b3978414d3958435e09804cc72504e759f58d [WIP] drivers/pnp/resource.c: post decrement: refactor
+83d3e213dedcbd664e683335ffebd6e7d7e668f4 [WIP] block/blk-timeout.c: wrapping math jiffies: use __unsigned_wrap
+8b3807d38bc098d65a3d9560e4fc5fbf0caea4c8 [WIP] drivers/rtc/lib.c: wrapping math: use __unsigned_wrap
+a04e0b9ad8a32e6d91a41e48505d2eb142eb5e29 [WIP] drivers/base/power/trace.c: wrapping math hash: use __unsigned_wrap
+e83b286545da7786dc5c84049e37f0c89cf01154 [WIP] arch/x86/entry/vdso/vma.c: wrapping math: use __unsigned_wrap
+7806f0109743aa2ca906a3555d6352f650070fb2 [WIP] include/linux/skbuff.h: negative offsets: use sub_wrap()
+fbe02f667366128c544d8d819cb287b74616ccd7 [WIP] include/linux/random.h: wrapping math: use __unsigned_wrap
+5551700d6aa01deb8ccd027e3790534feafd6a0c [WIP] arch/x86/lib/csum-partial_64.c: wrapping math: use __unsigned_wrap
+cd7b233016a80c10520c072cf3aff99ad5fc1d21 [WIP] include/asm-generic/percpu.h: wrapping math: use *_wrap()
+707843970a2fe783341fbd336d01b630019760b5 [WIP] arch/x86/include/asm/percpu.h: wrapping math: use add_wrap()
+b871ef7c7748e974e4e103baa3f845651be7c125 [WIP] arch/x86/events/core.c: wrapping math: use __unsigned_wrap
+f3e76a6dfb30edfefd21e5656f40a0328f8e60ea [WIP] arch/x86/include/uapi/asm/vsyscall.h: negative constant: use ULONG_MAX
+59349aa10f131f9a8dc1a9b744ae21d82fdfdcd4 [WIP] arch/x86/kernel/cpu/mtrr/generic.c: negation: use sub_wrap()
+f09af7370bb9b8cd4a307586db1ef0968a9205a9 [WIP] include/linux/llist.h: member NULL test: use add_wrap()
+95b3401448b6d2852f9bf6126e02a819ad6fc57b [WIP] include/linux/module.h: wrapping math address: use sub_wrap()
+a5098c29cd602cb58aa863b13edd8825db0fb5ed [WIP] fs/namei.c: hash math: use __unsigned_wrap and mul_wrap()
+b11c7dc2f0a869e9c234e673150883e64a78ee44 [WIP] fs/inode.c: wrapping math: use __unsigned_wrap
+e97df790677293dcfa3a173cd110616d186d5a75 [WIP] fs/buffer.c: wrapping math: use __unsigned wrap
+bfbbf7cbf9b992d2f71fe75974ed532f0a4cda09 [WIP] fs/ext4/hash.c: wrapping math hash: use __unsigned_wrap
+1f1951260ea74a53ef7bccbe0dfad706094f30a5 [WIP] fs/exec.c: negative offsets: use sub_wrap()
+863ba6d55e9a05ac6f0c394651d8ec4042f64286 [WIP] fs/pipe.c: negative offsets: use sub_wrap()
+48c64392298285b0c7433e7a5719949793ac8b22 [WIP] fs/jbd2/transaction.c: wrapping math jiffies: use sub_wrap()
+6424021120981155f1a0e643d93c3ffd4c5fb675 [WIP] fs/namespace.c: wrapping counter: use inc_wrap()
+eaf49b133c8b554585c302847d5d4548a34da758 [WIP] fs/jbd2/commit.c: wrapping math: use __unsigned_wrap
+8c30d9445be3f40d2689c791bcd523f80711c30d [WIP] fs/jbd2/journal.c: wrapping math: use __unsigned_wrap
+8deb68e75295efdce82cdb25af2186482d5a3b2e [WIP] Makefile: mass UBSAN_WRAP_UNSIGNED disabling
+e4dfe7e65c0b71cfffd155c7bdeb137ddfb9a3c7 [WIP] kernel/Makefile: wrapping math: use per-target UBSAN_WRAP_UNSIGNED
+a39e361a89083f933446ff287219a4281c984adb [WIP] kernel/time/time.c: variable underflow: use dec_wrap()
+5f50056af443292a4115333cf1ed0e1582728285 [WIP] kernel/time/timekeeping.c: wrapping math: use __unsigned_wrap
+0ea81c45bd26222591034e5c958c60626010dd18 [WIP] kernel/time/vsyscall.c: add wrap: use __unsigned_wrap
+e040fc6c95ed67da373b6e93d4f7271f2d8cf38e [WIP] kernel/time/timer.c: wrapping jiffies: use __unsigned_wrap
+498a2bd71511012984680cf26b45b296aa1cb652 [WIP] kernel/cgroup/cgroup.c: hash math; use __unsigned_wrap
+66eec57a75ae34b167d0872868b28cd32a4aa478 [WIP] kernel/events/core.c: wrapping math: use __unsigned_wrap
+802088401a0d85da3ff6d18fb4ad1e28794c8a2f [WIP] kernel/time/timekeeping_internal.h: wrapping math: use __unsigned_wrap
+17ce681dff18e14dfa9f250888383f5c3984716e [WIP] kernel/hung_task.c: wrapping math jiffies: use __unsigned_wrap
+0ad3b3e027d28a1f244818913238c5ae0f92d515 [WIP] kernel/sysctl.c: negative unsigned variable: use sub_wrap()
+01cfc5b2843969df01d946c57765945b10de6d0e [WIP] kernel/static_call_inline.c: wrapping math address: use __unsigned_wrap
+509e7d992c970d8e9252d03a559c937a6139ed0f [WIP] kernel/fork.c: wrapping math counter: use __unsigned_wrap
+e805a951ac5d150fdf812d208f8aadccdda7140c [WIP] kernel/fork.c: wrapping math counter: use inc_wrap()
+089ad418e411bdf550161575ee8093c0b9e744b0 [WIP] kernel/time/ntp.c: wrapping math time: use add/sub_wrap()
+941c81f0d01b1c38da63030991238a633061c880 [WIP] kernel/printk/printk_ringbuffer.c: negative offsets: use __unsigned_wrap and add_wrap()
+483bb7c7e6743ad57558ec3085ae49faa525e35b [WIP] fs/ext4/namei.c: wrapping math hash: use __unsigned_wrap
+a3a34d4789df7f6eb745389efd1711a1a0196816 [WIP] fs/ext4/mballoc.c: wrapping math offsets: use __unsigned_wrap
+d1f23dda46da9154a848127bea7b734a6787eb45 [WIP] net/sched/sch_generic.c: wrapping math offsets: use __unsigned_wrap
+8182506b9e8cbbefe878dda762babf2780d50164 [WIP] net/netlink/af_netlink.c: underflow bug?: report
+adc07cca2584a1bd5592486f0b6ec3a0752381fe [WIP] net/netfilter/nf_conntrack_core.c: negative offsets: use sub_wrap()
+d3d42acf15a705cf250c9299118c8eacf5040c0a [WIP] net/unix/af_unix.c: negative offsets: use __unsigned_wrap
+bacf172261e1b69fadffda2ffd4c8357de85710b [WIP] include/linux/skbuff.h: wrapping math bug?: use add_wrap()
+c0ddbf6929b691cc3d0198cca936be07950f6a03 [WIP] include/net/netlink.h: wrapping math: use sub_wrap()
+4be1894850d9b28ea1db6b343b138b6643747624 [WIP] include/net/tcp.h: wrapping math hash: use __unsigned_wrap
+6e644973c2034b2ac90349e5b256f15b18402bcc [WIP] include/net/tcp.h: wrapping math: use sub_wrap()
+0d623c90f550a41760ce9498c8bb3f52f0f1bcc9 [WIP] include/net/arp.h: wrapped math hash: use __unsigned_wrap
+a5bec3aa9a27c7188e9dc0e2560c4f8dd02217da [WIP] include/net/ndisc.h: wrapping math hash: use __unsigned_wrap
+f593db52e57955abca9030e3b8eb2ca1ef87bcce [WIP] net/ipv4/: wrapping math: use UBSAN_WRAP_UNSIGNED
+8873b7b7842e4e38b36e6b9cba12b833dd4628dd [WIP] net/ipv4/fib_trie.c: wrapping negative: use __unsigned_wrap
+cedc1411506fb558e8574b13ffb22e8ff262e609 [WIP] net/ipv4/udp.c: wrapping math random: use __unsigned_wrap
+e791f11fd3895f6dba05907f77a29cc8e0d05bd5 [WIP] net/ipv4/route.c: wrapping math jiffies: use __unsigned_wrap
+f31ef13c7fba6777e3a60e130a1e08a0e621aac4 [WIP] net/ipv4/inet_hashtables.c: wrapping math: use __signed_wrap
+cefdd5af7c5b7641415ad8749ddeb3dfb106d0b9 [WIP] net/ipv4/fib_trie.c: wrapping decrement bug?: use dec_wrap()
+29aa72f4486941b89bb510b76ee95c4c232e8c93 [WIP] net/ipv4/tcp_metrics.c: wrapping math counters: use __unsigned_wrap
+d6c9140ef5979b0f6ed4768c0c3f9b0235b53544 [WIP] net/ipv4/tcp.c: wrapping math: use inc_wrap()
+e680effd512b5dd7d1d81bf9cfd47ecc9214c074 [WIP] net/ipv4/icmp.c: int cast math: use sub_wrap()
+49f463008b545f495aad5b15ddb561b151953234 [WIP] net/ipv4/tcp_cubic.c: wrapping math: use __unsigned_wrap
+b221f64bc40ea6fe683d799175347a478ae0196e [WIP] net/ipv4/tcp_input.c: wrapping math: use __unsigned_wrap
+571026ebb02d7941e758011952451ed4f9d3c51b [WIP] net/core/: wrapping math: use UBSAN_WRAP_UNSIGNED
+2b50cf9eca62fe2da859ec0bfebe20c063e62780 [WIP] net/core/skbuff.c: wrapping math: use __unsigned_wrap
+6cd211f665eb6d19abc481ac80db80df03d940cc [WIP] net/core/link_watch.c: wrapping math jiffies: use __unsigned_wrap
+65d3066bce02cc3b19e9c7e9b368a77d41a19932 [WIP] net/core/gro.c: negative offsets: use __unsigned_wrap
+6e998d612f52e34ac8f9363388998321c2570424 [WIP] net/core/gro.c: wrapping math: use __unsigned_wrap
+a5bf0276e31ce4a86839da3e2950fb0e87161160 [WIP] net/core/scm.c: needless arithmetic: refactor
+a9dc53a7e157e0414eb50dd040325891496d0f99 [WIP] net/core/dev.c: wrapping math: use sub_wrap()
+3dae3e4044f1ae8d1903bfc5b413ab57e2d51129 [WIP] net/core/neighbour.c: wrapping math jiffies: use __unsigned_wrap
 
---===============1669503952239147404==--
+--===============4609033041326187850==--
