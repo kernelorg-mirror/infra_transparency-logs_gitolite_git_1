@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1916534033409246556=="
+Content-Type: multipart/mixed; boundary="===============6624880375692078551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 28 Jan 2024 02:14:49 -0000
-Message-Id: <170640808949.1699.13315286346161731317@gitolite.kernel.org>
+Date: Sun, 28 Jan 2024 02:16:14 -0000
+Message-Id: <170640817469.3976.6446813937942004788@gitolite.kernel.org>
 
---===============1916534033409246556==
+--===============6624880375692078551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: cf066f9334b9632ca1a8185118083a9218504e0a
-    new: fed99212acae832607817b24fa589f8aaf03103f
+  - ref: refs/heads/tty-linus
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: e15c99be0c915bbe70dfe55450d268d7bd5bdac8
     log: |
-         fed99212acae832607817b24fa589f8aaf03103f treewide, serdev: change receive_buf() return type to size_t
+         e15c99be0c915bbe70dfe55450d268d7bd5bdac8 tty: serial: Fix bit order in RS485 flag definitions
          
 
---===============1916534033409246556==
+--===============6624880375692078551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1706408088 -0800
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1706408173 -0800
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1706408087-a800b3690922264ad4993064930ea38f8ae5b2c6
+nonce 1706408173-8cf091dc9a3bd71adc95ea1d5a96850a2d688e0f
 
-cf066f9334b9632ca1a8185118083a9218504e0a fed99212acae832607817b24fa589f8aaf03103f refs/heads/tty-testing
+6613476e225e090cc9aad49be7fa504e290dd33d e15c99be0c915bbe70dfe55450d268d7bd5bdac8 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW1uJgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NNsP/AgmEmQB6tBgj9ibqoua
-s9+TedmMyfSWNJiHkvEK1aKcXrDrxu+rLV+biSZIKkySyrgr6ZocMlXf/25+0caz
-GwHxhiRBP3wx6LPPkXR1NWIefj/kxWUgRpQRbfBrspCgxu8JgOtDtrzrU+kfTNOG
-oGY6AI/Qwo/PBwpOXzIYK0w/4Sy09ZCF4ZYJu4O2js8kqFIKZSZckKIgKKZ7krhG
-Y/DQdQF/SeZBUmyBe87F/Y/7B0iK3UrZT8slaN/14X+vIDpdBSBEjdkrWboXhXMA
-53VHioj8ZzmESsoMSLMJfh4BzGxZi8s4Y+BOcUPAtjUXqhtEdJTjFTjONekR8LgP
-3Lv/i3IUnA2cjhrRxrenakftUISbGm9I/9XVcO8/ykRrNYTTff9w+S/E32Hw5f3d
-ehE4Vd5MdXi7Z/iUGAeJpj7yjaaD4et8Bz+GXgbMDfhEAbCiejWNCoo709+bj+PQ
-PV89Noj0X8Twl+5JflkzyzIP75JacJeCjhkhDXIdJu9KLtcJDt5tDKzeeOr7tYmv
-TZdD6fPeQRxN2mt72iZASlg1nKQ8jh97907/0kb59VI99HLRgJbriMsLY8XFg1Zf
-TPTrEWhVKv9iPETaQQ2NKmWYwCd+nA0G3VKPzRtgKCFuwFunV8QXUsy5HLQbpEey
-HOpU5nyTdUlLiCBW30HfnT2M
-=2FSG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW1uO0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FfoQAJT+kGq9dZocXnPCnKxi
+kng+mwX+JeQlh1evbCWkGdzVLVktCKkhKuTNuRzJETFO2O5odk+JIHhHQJjx7kv8
+v8PmD2hVgt5tXtM7x/O0lYk1PaW2e9mNueFo5tlc4UFEhJdqBPdIb7JATuy8Gi1y
+KQqPRtvhLaDIVviwnDS3wkjtmyrTK7G+AA/e090b73MvCBLxgGU/dQxSQ/ySa0RK
+ENBRFVM+i7xEpla0M7g45hsbKCxzeQhEQPerAF4f01V6CLK8rtrZjkmBSXAc3NBS
+bSsz7wrO3AyzB8uaiN7MeS8zEiwCCGwN92bfQP2q1Rs5VlAWtmB1wEU6U3+WPdp5
+6O2e21liUqPiG4oC538LhH56g7ciq8Fobhpjm2hPzqbkNyYYO4Qo6vW8OX18wo6n
+T44K55I5HZTT9AWav8C1TPCUBpOQGQZ7gAm3Cq4BPKbAInqczlf8wcSu2hVTxQfd
+FbhfY8fhPU9F7GVl21e2111oP7VvvYptX1ZoqiGawbNlpoDCxUNQN0iE8NitehIf
+I/TJgNj53o85EXAEITmwO2C+q/5Uq247aJtERkeR+8DIUOBbvtWyoAINnqzJtEVT
+RHjUsAHG46WkIIuwSQ+iV2aeAE0gpfg/X5EgRb7MVAfQ/wPUu6kMAoP2tokFHns7
+tmMNjLe+I4Kw6poDYFR8y/3b
+=esyE
 -----END PGP SIGNATURE-----
 
---===============1916534033409246556==--
+--===============6624880375692078551==--
