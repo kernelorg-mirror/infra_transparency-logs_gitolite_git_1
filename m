@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4282331783934170032=="
+Content-Type: multipart/mixed; boundary="===============8358827230110910659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Mon, 29 Jan 2024 09:18:28 -0000
-Message-Id: <170651990899.13242.11851270625121874392@gitolite.kernel.org>
+Date: Mon, 29 Jan 2024 09:18:31 -0000
+Message-Id: <170651991152.13309.4639386002271480014@gitolite.kernel.org>
 
---===============4282331783934170032==
+--===============8358827230110910659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-next
-    old: 58f72e7817f1f46d1a61558bc8dae1059c0d9379
+  - ref: refs/heads/at91-soc
+    old: aa1cfba75b77ca93ab9a0b03c2c9124a16d96479
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-58f72e7817f1-6613476e225e.txt
+    log: revlist-aa1cfba75b77-6613476e225e.txt
 
---===============4282331783934170032==
+--===============8358827230110910659==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-58f72e7817f1-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-aa1cfba75b77-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============4282331783934170032==--
+--===============8358827230110910659==--
