@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============9099001076294590964=="
+Content-Type: multipart/mixed; boundary="===============0838717412850290946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 29 Jan 2024 23:08:18 -0000
-Message-Id: <170656969807.1066.9781853869142841716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 29 Jan 2024 23:08:24 -0000
+Message-Id: <170656970409.1182.13614367172530435250@gitolite.kernel.org>
 
---===============9099001076294590964==
+--===============0838717412850290946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/asoc-6.8
     old: c6dce23ec993f7da7790a9eadb36864ceb60e942
     new: 5513c5d0fb3d509cdd0a11afc18441c57eb7c94c
     log: |
@@ -27,28 +27,28 @@ changes:
          5513c5d0fb3d509cdd0a11afc18441c57eb7c94c ASoC: amd: acp: Fix support for a Huawei Matebook laptop
          
 
---===============9099001076294590964==
+--===============0838717412850290946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1706569696 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1706569696-4dbcdb195913bb92d374e3af41a3302ce8a3767c
+pusher C3F436CA30F5D8EB 1706569702 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1706569702-e2a02e1ef3c669d587ebb0a222d50bc0ac2affe0
 
-c6dce23ec993f7da7790a9eadb36864ceb60e942 5513c5d0fb3d509cdd0a11afc18441c57eb7c94c refs/heads/for-6.8
+c6dce23ec993f7da7790a9eadb36864ceb60e942 5513c5d0fb3d509cdd0a11afc18441c57eb7c94c refs/heads/asoc-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmW4L+AACgkQJNaLcl1U
-h9Al3Af+InXQSKyU5BXW1NHiRPFI7QQZr9o2JxrsHDFJx/3WDUtcZlZImIrKo301
-uJJH5bWoK8wpDLfCIp+3/cfpMYlovUicdBpRvTJVmKdltIStJxfNalEVZo87rTHy
-XU9jTHstn2DHgOiV5Jh3BRmVlIUnGWYognIgPB5iNBQtm7Ndnt96rrEoG/gO1W21
-a5SwjoRZCGRmGl2fVcK7yESTLWbAMkjwr66nNgKx1ue+mcf8a7yYGKyTxfVI9wOI
-YSYmNGFbMMI3/CrlUcyeu4I7C34ESWfGXtc+2p/fT17nurDuZxBeF6Dbw80+10c5
-Jv+faNlJIdfkuvqMjasNPfRtLBas3g==
-=Jn+f
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmW4L+YACgkQJNaLcl1U
+h9BVlAf+LdaP7Svcpfy+dLgmsdaBwX0e7sXclzy7tYMF0YBZaDKjgfUAQZtVf23E
+uElD6HwrH0Y1wUw60VbmnL6bqqdBvDh4NAiX7DTrB/DfZyz5Hge38KLBV49QuDtM
+gUfOzrhEa4WNZTtxEdUDcR8inZrx5b11Lwjdgm9wpB/b+ldx+VdzlNNhQUoVYVbp
+ifeHqY78MqYsRsN8yBMQrIPkNth32C2yZTQaiaqpybLj+EH6j+Oq0bSr/PAg/SK4
+RD2r3To6Lcau+rUEptv4U9xugF5DCHRA03UyOBDfgVj+pxMy80to/ThvDbmxPQP+
+uEq9AAR1+dNkJ5N+MUocMGgwSsKC9A==
+=pDnq
 -----END PGP SIGNATURE-----
 
---===============9099001076294590964==--
+--===============0838717412850290946==--
