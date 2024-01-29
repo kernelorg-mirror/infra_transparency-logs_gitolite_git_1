@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 29 Jan 2024 21:50:03 -0000
-Message-Id: <170656500333.8648.7558155664592724924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/backports/backports
+Date: Mon, 29 Jan 2024 22:25:27 -0000
+Message-Id: <170656712750.2838.16701243516572602294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/backports/backports
+user: hauke
 changes:
-  - ref: refs/heads/for-6.9/io_uring
-    old: 6f3063dd2d5a892ceee91a4b90709fc6be93ab2b
-    new: 712fc7e5862c2b9af7cf37418e4b398c5493ffb5
+  - ref: refs/heads/master
+    old: 90b97a641352cd20dea2fe0952a45a630a4224b8
+    new: c9ba2fbc30dd7623b8cb7ee2264588fa3ba96f06
     log: |
-         712fc7e5862c2b9af7cf37418e4b398c5493ffb5 io_uring: use file_mnt_idmap helper
+         389c317d2ba3d040e8eea754a6b37be55254d7e7 backports: Add usb_check_bulk_endpoints()
+         620dd154e8354d9542ab25b57701f3845bc580fc headers: stddef.h: Add struct_group
+         c9ba2fbc30dd7623b8cb7ee2264588fa3ba96f06 patches: Refresh on top of kernel 5.15.148
          
+  - ref: refs/tags/v5.15.148-1
+    old: 0000000000000000000000000000000000000000
+    new: 337e5bd86ea06bfe6824a9abe60ab1a6ace6123f
