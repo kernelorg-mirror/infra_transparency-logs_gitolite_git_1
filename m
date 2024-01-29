@@ -1,30 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4014210541676046820=="
+Content-Type: multipart/mixed; boundary="===============7983435308609055185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Mon, 29 Jan 2024 13:41:36 -0000
-Message-Id: <170653569680.26070.7570987740290924959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 29 Jan 2024 13:43:17 -0000
+Message-Id: <170653579757.26733.4914895430847634325@gitolite.kernel.org>
 
---===============4014210541676046820==
+--===============7983435308609055185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/loongarch-fixes
-    old: 48ef9e87b407f89f230f804815af7ac2031ec17a
-    new: df7bf582b426f00402fbffb1cf3b7340b5215790
-    log: revlist-48ef9e87b407-df7bf582b426.txt
+  - ref: refs/heads/master
+    old: 05f5ab22e2ee3974e366c09d59419933c49f7a14
+    new: 2545fe70be0ef3a7a24cc6837b163906b8694576
+    log: revlist-05f5ab22e2ee-2545fe70be0e.txt
+  - ref: refs/heads/renesas-dts-for-v6.9
+    old: 8b93657c976a61726d7ffbe8d019b84b4abfb673
+    new: 55cda67bf3121c7cdf9aa65ed2a5d1927027c5b0
+    log: |
+         bb235b728bf6ba0a1e369c9f88265ddf4f284aad arm64: dts: renesas: ulcb-kf: Drop duplicate 3.3v regulators
+         7eb30251e157eb34814fdcaed2f54c5b400290ae arm64: dts: renesas: ulcb-kf: Add node for GNSS
+         c90efc452ac121c11ea4dcd5a235f66fc2b5b46b arm64: dts: renesas: r8a779g0: Add standalone White Hawk CPU support
+         48683d4a88ddf08f5582655c651736c0887618b9 arm64: dts: renesas: white-hawk-cpu: Restore sort order
+         1b940d036d5a2235323851c579100d1d835d1474 arm64: dts: renesas: white-hawk: Drop SoC parts from sub boards
+         a9baf0b42d2048984027ab456f30ee3e93815893 arm64: dts: renesas: white-hawk: Add SoC name to top-level comment
+         b84bd2230a58e5c208ac3ebe75047179e7441866 arm64: dts: renesas: white-hawk-cpu: Factor out common parts
+         874dca5d211559e6124d422809687381e2534cfe arm64: dts: renesas: white-hawk: Factor out common parts
+         7605e7e90b6a5c87e05d031018a8e6d024b73953 arm64: dts: renesas: Add Renesas R8A779G2 SoC support
+         55cda67bf3121c7cdf9aa65ed2a5d1927027c5b0 arm64: dts: renesas: r8a779g2: Add White Hawk Single support
+         
+  - ref: refs/heads/renesas-dt-bindings-for-v6.9
+    old: 0000000000000000000000000000000000000000
+    new: c18327b36e9c1efb917953fc14b869c37d2884e1
+  - ref: refs/tags/renesas-devel-2024-01-29-v6.8-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 1ed2a0e15f01002e9296c454ea0f3378e45f2ee7
+  - ref: refs/tags/renesas-next-2024-01-29-v6.8-rc1
+    old: 0000000000000000000000000000000000000000
+    new: c54f6e7429f642182134cdb4e225d5ed56c34f39
+  - ref: refs/tags/v6.8-rc2
+    old: 0000000000000000000000000000000000000000
+    new: c18956a7ed4b71eec72700a0899ad21167b994bb
 
---===============4014210541676046820==
+--===============7983435308609055185==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-48ef9e87b407-df7bf582b426.txt
+Content-Disposition: attachment; filename=revlist-05f5ab22e2ee-2545fe70be0e.txt
 
 c7ec4f2d684e17d69bbdd7c4324db0ef5daac26a xen-netback: don't produce zero-size SKB frags
 024b32db43a359e0ded3fcc6cd86247cbbed4224 drm/bridge: parade-ps8640: Wait for HPD when doing an AUX transfer
@@ -201,6 +228,8 @@ e01a83e12604aa2f8d4ab359ec44e341a2248b4a Revert "btrfs: zstd: fix and simplify t
 97de5a15edf2d22184f5ff588656030bbb7fa358 selftest: Don't reuse port for SO_INCOMING_CPU test.
 3e4147f33f8b647775357bae0248b9a2aeebfcd2 x86/CPU/AMD: Add X86_FEATURE_ZEN5
 090e3bec01763e415bccae445f5bfe3d0c61b629 x86/cpu: Add model number for Intel Clearwater Forest processor
+626b1ec6f7438b68ab08670b01b69924e6bf9a09 ARM: shmobile: defconfig: Disable staging
+9317322218102c7ad0a1a155b8e779c7cd8a93bd ARM: multi_v7_defconfig: Disable board staging
 234ec0b6034b16869d45128b8cd2dc6ffe596f04 netlink: fix potential sleeping issue in mqueue_flush_file
 420332b94119cdc7db4477cc88484691cb92ae71 ovl: mark xwhiteouts directory with overlay.opaque='x'
 435e202d645c197dcfd39d7372eb2a56529b6640 ipv6: init the accept_queue's spinlocks in inet6_create
@@ -368,6 +397,9 @@ d2fda304bb739b97c1a3e46e39700eb49f07a62c bcachefs: __lookup_dirent() works in sn
 83cd3be8648fe3cbdf35cdea080b3535ef4449fc Merge tag 'drm-xe-fixes-2024-01-25' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 77fe8f195737056e26b84a4d7fbe693587ab887e Merge tag 'amd-drm-fixes-6.8-2024-01-25' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 66dbd9004a55073c5931f5f65f5fe2bbd414bdaa drm/sched: Drain all entities in DRM sched run job worker
+5056c596c3d1848021a4eaa76ee42f4c05c50346 LoongArch/smp: Call rcutree_report_cpu_starting() at tlb_init()
+614f362918c782d1cfa4ee50f96072a95eac264e LoongArch: KVM: Fix build due to API changes
+48ef9e87b407f89f230f804815af7ac2031ec17a LoongArch: KVM: Add returns to SIMD stubs
 dd3c33ccbb8f0dc6a256dc55e7607569aea69721 MIPS: BCM63XX: Fix missing prototypes
 abcabb9e30a1f9a69c76776f8abffc31c377b542 MIPS: reserve exception vector space ONLY ONCE
 ce7b1b97776ec0b068c4dd6b6dbb48ae09a23519 MIPS: loongson64: set nid for reserved memblock region
@@ -414,6 +446,18 @@ a08ebda97e2a32b8f1de2c8240337f726c2e1ba7 Merge tag 'fixes-2024-01-28' of git://g
 4854cf9c61d060209d2b431f4a787f6952967022 Merge tag 'mips-fixes_6.8_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 3eb5ca857d38ae7a694de6e59a3de7990af87919 Merge tag 'cxl-fixes-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 41bccc98fb7931d63d03f326a746ac4d429c1dd3 Linux 6.8-rc2
-df7bf582b426f00402fbffb1cf3b7340b5215790 LoongArch: Fix earlycon parameter if KASAN enabled
+c18327b36e9c1efb917953fc14b869c37d2884e1 dt-bindings: soc: renesas: Document R-Car V4H White Hawk Single
+bb235b728bf6ba0a1e369c9f88265ddf4f284aad arm64: dts: renesas: ulcb-kf: Drop duplicate 3.3v regulators
+7eb30251e157eb34814fdcaed2f54c5b400290ae arm64: dts: renesas: ulcb-kf: Add node for GNSS
+c90efc452ac121c11ea4dcd5a235f66fc2b5b46b arm64: dts: renesas: r8a779g0: Add standalone White Hawk CPU support
+48683d4a88ddf08f5582655c651736c0887618b9 arm64: dts: renesas: white-hawk-cpu: Restore sort order
+1b940d036d5a2235323851c579100d1d835d1474 arm64: dts: renesas: white-hawk: Drop SoC parts from sub boards
+a9baf0b42d2048984027ab456f30ee3e93815893 arm64: dts: renesas: white-hawk: Add SoC name to top-level comment
+b84bd2230a58e5c208ac3ebe75047179e7441866 arm64: dts: renesas: white-hawk-cpu: Factor out common parts
+874dca5d211559e6124d422809687381e2534cfe arm64: dts: renesas: white-hawk: Factor out common parts
+7605e7e90b6a5c87e05d031018a8e6d024b73953 arm64: dts: renesas: Add Renesas R8A779G2 SoC support
+55cda67bf3121c7cdf9aa65ed2a5d1927027c5b0 arm64: dts: renesas: r8a779g2: Add White Hawk Single support
+ad98371eb2971392926292b59020a78ebaaf7dfa Merge branches 'renesas-arm-defconfig-for-v6.9', 'renesas-dt-bindings-for-v6.9' and 'renesas-dts-for-v6.9' into renesas-next
+2545fe70be0ef3a7a24cc6837b163906b8694576 Merge branch 'renesas-next', tag 'v6.8-rc2' into renesas-devel
 
---===============4014210541676046820==--
+--===============7983435308609055185==--
