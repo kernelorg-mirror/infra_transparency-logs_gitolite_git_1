@@ -1,85 +1,107 @@
-Content-Type: multipart/mixed; boundary="===============5062489058950896560=="
+Content-Type: multipart/mixed; boundary="===============6061834696785836506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 29 Jan 2024 01:33:02 -0000
-Message-Id: <170649198289.17477.12937958468879048309@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 29 Jan 2024 01:42:45 -0000
+Message-Id: <170649256573.6534.5720060017847775173@gitolite.kernel.org>
 
---===============5062489058950896560==
+--===============6061834696785836506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: uli
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y-st-rc
-    old: 24e9edbce704e7ef26f58b1d371d9ca4f68973ab
-    new: 4daf8df4558b5aae717516f7e941014c463772c2
-    log: revlist-24e9edbce704-4daf8df4558b.txt
+  - ref: refs/heads/usb-next
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: f1a27f081c1fa1eeebf38406e45f29636114470f
+    log: revlist-6613476e225e-f1a27f081c1f.txt
 
---===============5062489058950896560==
+--===============6061834696785836506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24e9edbce704-4daf8df4558b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-23ab43535ff64872728896050a75e558e17a6bda ravb: Fix races between ravb_tx_timeout_work() and net related ops
-7b40b07144357e7b646ef29f5fe1ce4e2155cd86 net: ravb: Start TX queues after HW initialization succeeded
-09b066b06915d07ef35cc3e6db4160cc163d7018 tg3: Move the [rt]x_dropped counters to tg3_napi
-deaa95906fef1fabe224b35c259dd7afc6e813bf tg3: Increment tx_dropped in tg3_tso_bug()
-4bfa1ecaea98ba1b36e01a33b916193b05e6f00e drm/amdgpu: correct chunk_ptr to a pointer to chunk.
-ac30c08ffa7b20741b6babb5fe4c738756b0bba4 tcp: do not accept ACK of bytes we never sent
-f9989453cc635daf535869f558c9bf600c56dc66 hwmon: (acpi_power_meter) Fix 4.29 MW bug
-492613080d4a454e25bbac01f8d2adf32083c082 scsi: be2iscsi: Fix a memleak in beiscsi_init_wrb_handle()
-9d1eeb6694bf67c23746db5201e59dca3bc9bc52 ALSA: pcm: fix out-of-bounds in snd_pcm_state_names
-8ed962df4f2a87f0d6ec1c4690a6191a189032e6 nilfs2: prevent WARNING in nilfs_sufile_set_segment_usage()
-5ffac381db741d75e97588690e9c2fc66e8eaebc tracing: Always update snapshot buffer size
-ce33133de51c235135d583678b9141b9b0e8d711 packet: Move reference count in packet_sock to atomic_long_t
-252d56e7af069e80d49fb703d114293a10684211 parport: Add support for Brainboxes IX/UC/PX parallel cards
-173931e996ca67c9f64cb45b8474c72e45113499 serial: sc16is7xx: address RX timeout interrupt errata
-6a3e0d3cc5ffc3dde70f7c5646cdfce11d1ddf07 nilfs2: fix missing error check for sb_set_blocksize call
-6e54f8ab9819cada16a606c3ce8dbf6f1408e0c0 qca_debug: Fix ethtool -G iface tx behavior
-9e3318db0fff49ffdec37a733fd4b75efbacc1ef qca_spi: Fix reset behavior
-be9a5e014bcb4596bcab194bfd3c94aa4eee9fef atm: solos-pci: Fix potential deadlock on &cli_queue_lock
-745b107b47dabb71c6ff79b4d53bcaa266ca7433 atm: solos-pci: Fix potential deadlock on &tx_queue_lock
-e90e83ea362661ebaf6b9d307b876b75b19ed621 atm: Fix Use-After-Free in do_vcc_ioctl
-5b9b106326fac770d7f60992a2c9f050479c6bd7 net/rose: Fix Use-After-Free in rose_ioctl
-bdf81abe977ee2c08b26aa29b1b618d7c8fe08d5 qed: Fix a potential use-after-free in qed_cxt_tables_alloc
-0bb59ff4da3651290f27ce33c39efa2666ce8946 net: Remove acked SYN flag from packet in the transmit queue correctly
-3dedaa9f34ec39aabc55bc3d46befe322612c368 appletalk: Fix Use-After-Free in atalk_ioctl
-c6f52cdea0b59ae851ccba6254fd768d131ad180 cred: switch to using atomic_long_t
-0cc7019a0cdc56f18addf656d9cbb537a596ea8a bcache: add code comments for bch_btree_node_get() and __bch_btree_node_alloc()
-8886cdde0b08c03fa8d95a4c3578b775c32e1134 HID: multitouch: Add quirk for HONOR GLO-GXXX touchpad
-36126668cf1e70439cf3c4a73df3865003ad6132 asm-generic: qspinlock: fix queued_spin_value_unlocked() implementation
-a92cddb48fe0655b0f76853e0dc42dcf03adc4c1 net: usb: qmi_wwan: claim interface 4 for ZTE MF290
-97471254a3b026ae0b94c0fc4c28b8d611a8ad5e ext4: prevent the normalized size from exceeding EXT_MAX_BLOCKS
-62194bb8f03cbd7011236d0c88d9236edc7f1d75 team: Fix use-after-free when an option instance allocation fails
-bd96671330d6b113e71d0a8db285ec2597f407e7 qca_debug: Prevent crash on TX ring changes
-5f248dca22631342476f4fffc5d774eebfcfdff2 blk-throttle: fix lockdep warning of "cgroup_mutex or RCU read lock required!"
-47a300df6f8dd4da73a222889fe28c378bbbabaf Revert "md: fix a crash in mempool_free"
-7107c2a794baad1966136a65be58aa844a296613 Update localversion-st, tree is up-to-date with 4.14.334-rc1.
-156ded184bf8319191f3cf9ba9b60fdd33a20bca string.h: add memcpy_and_pad()
-b8615dd96ec3efd7386e1c14ad3f46181b5cc299 string.h: un-fortify memcpy_and_pad
-8f1d35441803874b83337f76849b15573547ddc3 string: uninline memcpy_and_pad
-182b2470722f2d4d4fb3f5d4aa759fe45b53026f Bluetooth: hci_sock: Correctly bounds check and pad HCI_MON_NEW_INDEX name
-7679b63c178e4d5387394c03365d5732dcf46d35 ARM: OMAP2+: Fix null pointer dereference and memory leak in omap_soc_device_init
-265c6e3cc77d232bd827e7ffb944916c6030391d wifi: mac80211: mesh_plink: fix matches_local logic
-12da841a7611332f8ab1714553f3b834e538d461 ethernet: atheros: fix a memleak in atl1e_setup_ring_resources
-d6683704ef1f4346e73afd3a957d36c68604bf08 Input: ipaq-micro-keys - add error handling for devm_kmemdup
-a0c9b5ab8c11aa8b7568c7f44bbebc6f79a6082e iio: common: ms_sensors: ms_sensors_i2c: fix humidity conversion time table
-fe846c1b25ddf0dbe795590d99d034b082558e60 wifi: cfg80211: Add my certificate
-081ea67781e565844a75312c9940e2ec59fb8382 wifi: cfg80211: fix certs build to not depend on file order
-0b35963071df0c6d85a3e492d5c7580eff07522c USB: serial: ftdi_sio: update Actisense PIDs constant names
-31e3d9a6c95d02240a034b973781bb06e0fe18de USB: serial: option: add Foxconn T99W265 with new baseline
-2eae879d3b52408048abb4b85198d93eba6531f8 Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
-59e004d79468dc3253d671a7fc89ce6341b7d415 net: 9p: avoid freeing uninit memory in p9pdu_vreadf
-52764cc0d33d4be45c8bf34099eedb45c4e23242 net: rfkill: gpio: set GPIO direction
-5d5a4ce366616eeb016ebaf6e19ad6810052e951 nfc: llcp_core: Hold a ref to llcp_local->dev when holding a ref to llcp_local
-55ada8e6f33cc7132ae28cf4c0c630fca15736ce net: sched: em_text: fix possible memory leak in em_text_destroy()
-bbedde6f6e7a6cbc1baa85063c8ba979ba655a14 firewire: ohci: suppress unexpected system reboot in AMD Ryzen machines and ASM108x/VT630x PCIe cards
-4daf8df4558b5aae717516f7e941014c463772c2 mmc: core: Cancel delayed work before releasing host
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1706492566 -0800
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1706492565-e37eebd086c395064d9f6950ff69bbd24982dbda
 
---===============5062489058950896560==--
+6613476e225e090cc9aad49be7fa504e290dd33d f1a27f081c1fa1eeebf38406e45f29636114470f refs/heads/usb-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW3ApYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+elAQAKEsqIXnimR7eLdU5HK7
+s2vfG5/GbSKPiG2pAQZ/LdPoHz7CLqtrHS9wZKiB0BhHFo88VlItUw4Di7Y4Z8b3
+FfF+0MSqe0q864jwhuGAv1lo0a1nU47dvEHT8fyxYDEcsDMkyI9xYERwX2xGQqd6
+UnKUylzevkWpRVxFFJ4WO3uxQtvjD13oOSQDzvnw96X1gdJcZTWtL6I0hoqxKM+x
+HNgDZRVyrYo25I6nUXpipKkydsIP6c/slQ7ogEaTzXbAc4+b9sfqM/fekl6b5kWy
+fGwkbgaIEmQEwPx+hV+f6gUvjlIn3TTLu1NG6o1Nb+Bl1C0/o94AS7RRP9SxFxCP
+HVMr8yT3Txl/gC2raZOS17x/1+PVjNjxAwpp5kKTQPuCwKCbdKD9uSZ0i1Dq4rs6
+lbWq5sLjKqq1MWvUNUSpUdqE8/ss8EoTOjWyS3uc+0/7LaKYUGXNtGmT60DNG2p5
+kcpYlHaKI0onmWZxqCmNEGEmrrd5XcKFvSlJJZSRg7ghu286e+/XIdFtx/4zz/Vb
+ggRVsCVyzIFhL/mHoNA089HiX4/Shf4kcam5AgRXn0rahzp+8/5KiDb1RfZrNqx4
+5DZHdMN8PvPr1Sqqjsx0/it4qn6iJH/BSQ/sA+ueUAHiZcvtXpdu2Xld4l306W9j
+5L2pIdJUfVa+Uw4R0Ni73Pb0
+=2SFy
+-----END PGP SIGNATURE-----
+
+--===============6061834696785836506==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6613476e225e-f1a27f081c1f.txt
+
+b558469580f82b925d6651ac8d7a01070402dbf8 USB: uapi: OTG 3.0
+7626c52b6b461b44a46cea4d51b4cf749657f5a8 usb: usb_autopm_get_interface use modern helper
+d6429a3555fb29f380c5841a12f5ac3f7444af03 usb: storage: sddr55: fix sloppy typing in sddr55_{read|write}_data()
+cde644ae1967d4fcb0fb27b47709654fd24208ae dt-bindings: usb: Introduce ITE IT5205 Alt. Mode Passive MUX
+41fe9ea1696c85fdef1b0ea3f9184edb9ab7faba usb: typec: mux: Add ITE IT5205 Alternate Mode Passive MUX driver
+44481a0103443e465ea562b3d5f908051bfa932a usb: dwc3-of-simple: Stop using of_reset_control_array_get() directly
+4ca79255101b9edd6ac874d39361fd2b52927af0 usb: audio-v2: Correct comments for struct uac_clock_selector_descriptor
+05d039e176cccc4c435c36ccd39170d218563a94 ucsi_ccg: Refine the UCSI Interrupt handling
+2fa5c7e53112a5ffef385c587d7d5de96d0b2d08 dt-bindings: usb: Add Marvell ac5
+c63fe1cc70933ca667d834a8d836162d3bfc7b0a usb: host: Add ac5 to EHCI Orion
+aa6e11e9a792997a183d3b6936b01601233c570d usb: core: Amend initial authorized_default value
+bec7e43b162c58798e6dc30d8e70d1e2318aaf2d usb: core: Make default authorization mode configurable
+5de5f1e292e56fe4b8d28923d325f4c16f3766cf phy: core: add notify_connect and notify_disconnect callback
+eeda494542e55b603c7b80e14bfc5ee4ab7f9814 phy: realtek: usb: add new driver for the Realtek RTD SoC USB 2.0 PHY
+b48415afe5fd7e6f5912d4c45720217b77d8e7ea phy: realtek: usb: add new driver for the Realtek RTD SoC USB 3.0 PHY
+53a2d95df83688d0e160e3d55a925d85dbfd4809 usb: core: add phy notify connect and disconnect
+fd2a052ccd69f3780b96291cacc21089e198d02c dt-bindings: usb: add common Type-C USB Switch schema
+665029ecd1e0e21718d284c4024add683c05e9f8 dt-bindings: usb: Clean-up "usb-phy" constraints
+f99044cd1451d13f2d812ede24eb186ea6335a07 dt-bindings: usb: mtu3: Add MT8195 MTU3 ip-sleep support
+4158af057c7f84790d7b04f589d5b8a93fddf469 usb: mtu3: Add MT8195 MTU3 ip-sleep wakeup support
+c281d8a5a58a8c2dca797132ff48033d50fde742 dt-bindings: usb: usb-nop-xceiv: Repurpose vbus-regulator
+75fd6485cccef269ac9eb3b71cf56753341195ef usb: phy: generic: Get the vbus supply
+562898808cb17fdea92953e6a69c193b783d7b3f usb: phy: generic: Implement otg->set_vbus
+9f60a0cfa8fb8aa66262638771e9e9804efa490e usb: phy: generic: Disable vbus on removal
+7494d4bc8e32a9480fd56b018db8e404b54b24e6 usb: typec: altmodes: add typec_cable_ops to typec_altmode
+231b7318413cef0f8e5c2ca8db1a95b666c25d70 usb: typec: altmodes: add svdm version info for typec cables
+59cd27a0cab1ceddcc4251309fd3643921ed9ab9 usb: typec: tcpci: add cable_comm_capable attribute
+3bbb9ba4f66006f27ad0d5ceaf2480117e16d489 usb: typec: tcpci: add tcpm_transmit_type to tcpm_pd_receive
+e03f6fef5ea885f80dc6c7339a7f8aea1b0a609f usb: typec: tcpm: process receive and transmission of sop' messages
+6bd181ba60e198fef6f750b543832f161fbd9f39 usb: typec: tcpm: add control message support to sop'
+030509ac473da439e3d5438b1cd3c5b899844046 usb: typec: tcpci: add attempt_vconn_swap_discovery callback
+fb7ff25ae43332cb64c9e7bbbe36a6cc308d8de1 usb: typec: tcpm: add discover identity support for SOP'
+af8b627046bcb024e34923a8fa3903dcfc297dee usb: typec: tcpm: add state machine support for SRC_VDM_IDENTITY_REQUEST
+41d9d75344d900814b883ba85164645eebbaf846 usb: typec: tcpm: add discover svids and discover modes support for sop'
+7e7877c55eb1e4dbf1ce11e40af9e1d6b2c83e5b usb: typec: tcpm: add alt mode enter/exit/vdm support for sop'
+71ba4fe566560d1d4740d8fbce5a71e16f2fc23e usb: typec: altmodes/displayport: add SOP' support
+dacf1d7a78bf8a131346c47bfba7fe1f3ff44beb kselftest: Add test to verify probe of devices from discoverable buses
+a1d086db92bdd200f564fe983f6a77aa8caacf77 kselftest: devices: Add sample board file for google,spherion
+983d23e2938c1292ab5db02b98f3efe85b5e76c8 kselftest: devices: Add sample board file for XPS 13 9300
+c35ba0ac48355df1d11fcce85945f76c42d250ac XHCI: Separate PORT and CAPs macros into dedicated file
+bc83a87759cabbf6f3366568e44bda088b315204 dt-bindings: usb: dwc3: Add snps,host-vbus-glitches-quirk avoid vbus glitch
+2d2a3349521de1757b685b664af849b0824c205d usb: dwc3: Add workaround for host mode VBUS glitch when boot
+43a029724d1c8219cc4e58e9fafbeedd1bc283fa usb: gadget: f_fs: expose ready state in configfs
+65145a03d65be80d389bf24c1874c634527de849 usb: typec: qcom-pmic-typec: fix arguments of qcom_pmic_typec_pdphy_set_roles
+d2f9b93de0fe71b5040be391afd3d065ab113fb7 usb: typec: qcom-pmic-typec: allow different implementations for the PD PHY
+f1a27f081c1fa1eeebf38406e45f29636114470f usb: typec: qcom-pmic-typec: allow different implementations for the port backend
+
+--===============6061834696785836506==--
