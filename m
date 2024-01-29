@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6617619113549616996=="
+Content-Type: multipart/mixed; boundary="===============6286386098326444158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 29 Jan 2024 15:24:19 -0000
-Message-Id: <170654185970.4033.13110223136910082104@gitolite.kernel.org>
+Date: Mon, 29 Jan 2024 15:25:55 -0000
+Message-Id: <170654195520.6243.5170021800502931769@gitolite.kernel.org>
 
---===============6617619113549616996==
+--===============6286386098326444158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: abf1e93911d697b606fcd02f52fcd4ec7c3f9e5d
-    new: 1e8e1a9dd3d09ac59a95e78918f32c1ad7c0504c
-    log: revlist-abf1e93911d6-1e8e1a9dd3d0.txt
+  - ref: refs/heads/bus_cleanup
+    old: 1a5c6920d9c89a08cda81cacb10a24d3798d4394
+    new: 26105f537f0c60eacfeb430abd2e05d7ddcdd8aa
+    log: revlist-1a5c6920d9c8-26105f537f0c.txt
 
---===============6617619113549616996==
+--===============6286386098326444158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1706541852 -0800
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1706541953 -0800
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1706541848-336cb9520d860a04b83c697a3b2570b62ebc95d5
+nonce 1706541952-d55dab4bc8cba2b1035f7c05be8a0645c56802de
 
-abf1e93911d697b606fcd02f52fcd4ec7c3f9e5d 1e8e1a9dd3d09ac59a95e78918f32c1ad7c0504c refs/heads/class_cleanup
+1a5c6920d9c89a08cda81cacb10a24d3798d4394 26105f537f0c60eacfeb430abd2e05d7ddcdd8aa refs/heads/bus_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW3wx0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fqoP+JbOFvYfPyT4jus2iSfm
-1GMUbZr0B29PSnq5Nl390IhFt3Ou1Mh1d4UEC4bEZTy9r9NZp+T+nfH14XL8r4ny
-AQN/ET66aVmUwnvK9tfcDedwmIWxOlX6WsS4PV4rE90oqcY+/MSx/LNBrzXBgNqg
-nrzCYfRCz6cqyMKBBp+dHLPrVRI4K4Ah1lheQTgtjyYzAexjVeOj8tHdiI30+9dc
-eVCRfAbNSX4xQS0kuw5rEex7vBhNWYQvBMIQaHSvDAqHIa1exn5WjEiflC4Vlp3f
-o08UScW8DA+X/rr80fmsh+8GEOXTR0HVQ3FOEQhjpQiAoRlUwQky2B/rIGccCPob
-z56/o8zbM5SXGIhlorgrbDO6HK/Ptx5FR4lE9+aLES60Imn01RRg+/sh7Gavzry3
-JSXHlYCRCSFQDJCeGCoWkPJS15d8FBejVDVSlxcOID6USi/mjpD/RlYOnDGzGXYh
-j/PvZyPqtkxQzdJ70Nzk2yOpMVMycP3UV0LnE8f2qIk+xTDESWypPBmNXHzrix5z
-aWbKOu8zOtd9gWik2ABL+bcS7BfxyXjCTOQykGUMoGbXR/cEbEFvEhfG2ndVbe69
-ReqXYaNNLSEoNeaWJd0JSSLxCr8mFZq7hpukLR+S0iBQ1UZDmy8Weg89J7gGu+Qq
-aYwtclTKj7F0lu3BhNt8LeM=
-=/i4I
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW3w4EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1uQQAIWEMVRsoe2TyVjjGXww
+qe2nMTe3eFkoVlG0lOue/Wml2x6D6M/swA35beYJNmut+ScfLjrKsMcdPl4rkZ+7
+jlqENH7CKMswkqvIOXO00y0DPrKgFta+bsfwMnjdN77LUI6S1jmd4Yb5lK42Jusm
+9lANlI535wxw8JyG4qToJhSLhUK4wtNb67eioqW5R30ATgQZmygV0VIlwXkYI1IH
+Wi+Wd+P/hUzMF3qR/W2BH6BRg+O+bwcot5hI37g+/w+Qcm+HSVvqXMwldnF05xlW
+Atv5QSFaNvzI7n8LC2+pcLoq/xmndRTWmCFaNRxOyvE12HO4r/5eCdguE5C0YoDH
+reSDxe9L76AW8Ik6B6OI9DN1hqk9KRbT0CJJHyXFgYAaUbItl6+XS9xbcxtWryJE
+1lElK9uTbzR+2s3LBxFdwgKq98UKflSVR0VEsGZDfSFIfwVNAPKU+oK0krt9ZgQV
+/czIyYpP3lI54ad7TdvuIAGnbr2UVZJ0OC2m0K6QhpYdXfETNwsCn6Iq9UJQc5C3
+Bpc0rNSbO09i5MhL9CGwXhUzbGNcx1v4fNZCsGTUIDTl1Pp1Hhs4nshkks7Hx1+u
+UEO0om8Hgdo8tD02UR+6PpAjJ6MQnLyc8vbjAC5hn+zdukHYTipcKuGudvMXmCZU
+b9lTrufynwJEGhqffZLYrImm
+=oCOC
 -----END PGP SIGNATURE-----
 
---===============6617619113549616996==
+--===============6286386098326444158==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-abf1e93911d6-1e8e1a9dd3d0.txt
+Content-Disposition: attachment; filename=revlist-1a5c6920d9c8-26105f537f0c.txt
 
 c7ec4f2d684e17d69bbdd7c4324db0ef5daac26a xen-netback: don't produce zero-size SKB frags
 024b32db43a359e0ded3fcc6cd86247cbbed4224 drm/bridge: parade-ps8640: Wait for HPD when doing an AUX transfer
@@ -448,19 +448,17 @@ a08ebda97e2a32b8f1de2c8240337f726c2e1ba7 Merge tag 'fixes-2024-01-28' of git://g
 4854cf9c61d060209d2b431f4a787f6952967022 Merge tag 'mips-fixes_6.8_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 3eb5ca857d38ae7a694de6e59a3de7990af87919 Merge tag 'cxl-fixes-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 41bccc98fb7931d63d03f326a746ac4d429c1dd3 Linux 6.8-rc2
-3cf81d1095a5b9ba126665301a586f49ed616694 coda: psdev: make coda_psdev_class a static const structure
-1e2ae81cef04c21f977fcc7001dc6e56fc5be733 cuse: make cuse_class a static const structure
-b61d19c82682c740ca2856448464f7eeae178e75 pstore: pmsg: make pmsg_class a static const structure
-d59be1abd3af3a13ba1023d9a77fd9da179909f5 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
-b20021b8943916f54916592f63def4bfdbc12248 PM: wakeup: make wakeup_class a static const structure
-e6dbdc37d68d40dcce057df6d07e82e8342c124f PM / devfreq: make all 'class' structures const
-b788d4b9ebbe57cd431bccea1810998a9e99c9b2 dca: make dca_class a static const structure
-e33f117ce3ed2b57a32b729788dde6495a74ee58 gnss: make gnss_class a static const structure
-da75d55d663c38207bd7ad56961ae0d4e55e2ca6 extcon: make extcon_class a static const structure
-09e9c6ab3bc1ba523dd358e6cc6f13163f1b253d misc: c2port: core: make c2port_class a static const structure
-fdaf0c2b3153a10ce3b2d501caf80401d6c5d19c nvdimm: make nd_class constant
-fec6cc4fc43dd86c5efb499e33c771e6f9eec75f PCI: endpoint: make pci_epc_class constant
-1da983c2b103b51af911de210ef2a7520009b698 PCI: switchtec: make switchtec_class constant
-1e8e1a9dd3d09ac59a95e78918f32c1ad7c0504c crypto: qat: make adf_ctl_class constant
+99d4af32cbc29a721f0060905656f1a8d9fe8ab7 FIXME: driver core: platform: make platform_bus_type constant
+8e276e6be202c85caac842dc45d77696009f6927 FIXME: PCI: make pci_bus_type const
+10175906f1d2e8e63ffff58dc2d840aff24e5d67 FIXME: amba: make amba_bustype constant
+6e09b13a8b01af5f016da19e084aee02ff17238b FIXME: bus: fsl-mc: make fsl_mc_bus_type constant
+a59d0908f370257a5bfd3e39260ac090ed04747b FIXME: gpu: host1x: make host1x_context_device_bus_type constant
+3f7305421fcba4a8a32a2a171e56fa479ae41dae FIXME: cdx: make cdx_bus_type constant
+44621c851338fb38b214076bf5825ac011dcfef3 greybus: make greybus_bus_type const
+cb253ce295ba4a2051de2a050e9c6ee71c238957 driver core: cpu: make cpu_subsys const
+47600c7b9c6b3fc8ecd5f739807cbf4797d0ee31 spi: make spi_bus_type const
+d7a09c36c5e3b3476d1394a5e68d81a76d2c3aa5 staging: greybus: gbphy: make gbphy_bus_type const
+5e71603cf19debea46cb8c69db1e60484d2ae1b9 coresight: make coresight_bustype const
+26105f537f0c60eacfeb430abd2e05d7ddcdd8aa make a bunch of struct bus_type const.
 
---===============6617619113549616996==--
+--===============6286386098326444158==--
