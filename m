@@ -1,22 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 29 Jan 2024 16:50:04 -0000
-Message-Id: <170654700422.4730.2621541940166988147@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8053714927971928945=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 29 Jan 2024 16:53:44 -0000
+Message-Id: <170654722419.6109.916216899741665538@gitolite.kernel.org>
+
+--===============8053714927971928945==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.9/io_uring
-    old: c6a04e151d5756b1d3a77a26dc796e1a4a783091
-    new: fbba031f8e18d90f3e5be8df48dffcc3c4decc41
+  - ref: refs/heads/master
+    old: 202bf62d70c9fa80620a674232f8a23cfacde36e
+    new: 717dfea7560756440f806b496a5211221f1b0bc2
     log: |
-         51b5f63828afe06a6e578638fec4b3d0eba9e08f io_uring/cancel: don't default to setting req->work.cancel_seq
-         4de047ba8643917b6d3622c8f3b222f39280af90 io_uring: move io_kiocb->nr_tw into comp_list union
-         fe6259dd95763c40a8294434d9f38dfe4e33e3eb io_uring: mark the need to lock/unlock the ring as unlikely
-         fbba031f8e18d90f3e5be8df48dffcc3c4decc41 io_uring/rw: remove dead file == NULL check
+         717dfea7560756440f806b496a5211221f1b0bc2 6.1-stable patches
          
+
+--===============8053714927971928945==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1706547223 -0800
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1706547223-0df3ecc78f2a3f402af01dac19e934ba95abaa3a
+
+202bf62d70c9fa80620a674232f8a23cfacde36e 717dfea7560756440f806b496a5211221f1b0bc2 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW32BcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GKYP/RYtsvPyrptjSxkNfh4I
+42iGO3aLGOBdRTNJc0Jg+5fxCb9yvM+dCUl1vrUDA1yBHwyshNGTTyP/BeZ4broE
+ry16eTQ+jw4VIzak5VI1p6J19fJ/m895KKWF7HhMaJUuL0x3LUyL+syFeFsH6nJ+
+rZPPodZy92RGQjmAWA9iOzJrF4m+qYHbWep2yVfLjay7wyU7g7csI8E8O/wxMGTZ
+DxLmTVFCSN5LokhKG5AMiKA/BQg0IxlkrxApti/K3GFx2oQQ1+xBHpY8B0CE116u
+qXrtM1XznPUIG80mZiSGZd/e4d7cq23ODRKp+qasTXlxaUtIOiOF10x37uTvyJm/
+4PnpxdmW+Ia/MynoeKVTWgk2Uzvl2sPnUCTgIvVnNd318/WkzcE+y7HznZtkzjNI
+rsMXYfE6V+VW2mBqkke3EWbFDLHKprM1DZ/RYhQEbAAYdsOsX2jseIhU5UvNgToB
+0HgGMOFiyRlwxJ+Tsag9TXhMRq9d4vS5uu5r8cxbcuDhF6o+YZTl3MFuRg2qZH59
+F7rAIZIe+Eby2no00WscNAQq3FUzip3inPrfNdWd9m5PX8slCalKiYGwF2dc14B7
+7qIGPEIozlMXoiovPP1Tgs3kp6is+nznvA9alhMnTc346OoNn5mib/pXstoyKBkz
+gN9aHyZBlNPyL5k0I0Oq+BsT
+=0Ikf
+-----END PGP SIGNATURE-----
+
+--===============8053714927971928945==--
