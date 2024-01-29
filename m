@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 29 Jan 2024 09:46:37 -0000
-Message-Id: <170652159711.16662.17115491207340387104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 29 Jan 2024 09:47:29 -0000
+Message-Id: <170652164955.17084.2832145269710597313@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 3548d3e72cf8f70a577090543fb9f27c2b471fd4
-    new: 17435fa71412eeccf1512666682b9033803a265f
+  - ref: refs/heads/x86-pie-for-sev-v3
+    old: 9adeff768ade6e1e9b3e163092d19dd65fea36ed
+    new: 26d36b8816af1d2f669df1e4503f5198504806d5
     log: |
-         d6b93971bcf5680777bfbba5a35f105b4e6d101e Merge branch into tip/master: 'x86/merge'
-         0cc36e955b024ddcabccba09ca9b61387b15fd9e Merge branch into tip/master: 'irq/core'
-         7e68b48d3c266c878e3d1876f284388b16075f7b Merge branch into tip/master: 'smp/core'
-         ef8aefdaef7ece224daadd5fde3457bc834c05e0 Merge branch into tip/master: 'x86/bugs'
-         2b474422eec4702cd7565f5253e594ae6e71fbb5 Merge branch into tip/master: 'x86/cache'
-         b5301379181a80e9a64d6da219476bff6d993b60 Merge branch into tip/master: 'x86/entry'
-         e3e2b4418affe75369737726cbd2617e340e9beb Merge branch into tip/master: 'x86/misc'
-         5bc803c677acd84b45c12f5e42fb7488619d5b5b Merge branch into tip/master: 'x86/mm'
-         17435fa71412eeccf1512666682b9033803a265f Merge branch into tip/master: 'x86/sev'
+         fb6c22406d51ff871ebb1e12c80695328721c9ea x86/sev: Make all code reachable from 1:1 mapping __pitext
+         98d2ec34146d5669077381bbcc70cd70fe74ead8 x86/sev: Avoid WARN() in early code
+         09d6eb4114f9e0e8f063c917f868af0b62b85733 x86/sev: Use PIC codegen for early SEV startup code
+         2aadf02a8b249b0e6d0eef83c866af3c285c2d3e x86/sev: Drop inline asm LEA instructions for RIP-relative references
+         5f9d50745c343a337a49d5995ef5f0b9202d501b x86/startup_64: Don't bother setting up GS before the kernel is mapped
+         89ee4561238aecdc25182f7e4a9cac31c142564a x86/efistub: Give up if memory attribute protocol returns an error
+         a63aa34fdf89c5a9905bc5fcea604debe9780303 x86/efi: Remap kernel code read-only before dropping NX attribute
+         26d36b8816af1d2f669df1e4503f5198504806d5 x86/coco: Move vendor/mask variables out of __ro_after_init
          
