@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7258223604462394047=="
+Content-Type: multipart/mixed; boundary="===============3702198743591933235=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 29 Jan 2024 18:45:06 -0000
-Message-Id: <170655390653.665.13519106883566414120@gitolite.kernel.org>
+Date: Mon, 29 Jan 2024 18:45:43 -0000
+Message-Id: <170655394378.1097.14096665127847892733@gitolite.kernel.org>
 
---===============7258223604462394047==
+--===============3702198743591933235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 5f76499fb541c3e8ae401414bfdf702940c8c531
-    new: 723de3ebef03bc14bd72531f00f9094337654009
-    log: revlist-5f76499fb541-723de3ebef03.txt
+  - ref: refs/heads/dev-queue
+    old: 518a33af540d98b9999c2c662a5e1ed7ead72b38
+    new: 7f1e0ccee2f9e074b0808bd19d5f0475e097f1fa
+    log: revlist-518a33af540d-7f1e0ccee2f9.txt
 
---===============7258223604462394047==
+--===============3702198743591933235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f76499fb541-723de3ebef03.txt
+Content-Disposition: attachment; filename=revlist-518a33af540d-7f1e0ccee2f9.txt
 
 7c05e7f3e74e7e550534d524e04d7e6f78d6fa24 bpf: Support inlining bpf_kptr_xchg() helper
 b4b7a4099b8ccea224577003fcf9d321bf0817b7 selftests/bpf: Factor out get_xlated_program() helper
@@ -183,5 +183,40 @@ ea1cc3ee34a5f3144f6c2cdc07c19c914ccb9526 ptp: introduce PTP_CLOCK_EXTOFF event f
 1ddfecafabf71e0e5345dff877d2680083c7e078 ptp: add FemtoClock3 Wireless as ptp hardware clock
 9e1aa985d61eacd5931496b80fbd1c2d2cdeece5 dt-bindings: nfc: ti,trf7970a: fix usage example
 723de3ebef03bc14bd72531f00f9094337654009 net: free altname using an RCU callback
+a8b482a7cb9bd9c5dbd5a7ae8ea8c59f781a7ef0 i40e: Fix waiting for queues of all VSIs to be disabled
+6f90cc9d402a31a2fb18c80f231836e924484528 i40e: Fix wrong mask used during DCB config
+2da07505ac857973c7ad7cc7879f72e0c0597f6a i40e: Use existing helper to find flow director VSI
+7cd1f9633ae4ede2effcf622955808bc2deedf0f i40e: Introduce and use macros for iterating VSIs and VEBs
+ad9015ac053afc7992a669e46d97d81781b82a6f i40e: Add helpers to find VSI and VEB by SEID and use them
+8a73a0a5bf20c08b34ddf173bd8a9328330b7bba i40e: Fix broken support for floating VEBs
+b6dd83b367d2f55fa20762ee3895d9d5008bac75 i40e: Remove VEB recursion
+335118b5f8948e134339972e7aa5742373539207 ice: introduce new E825C devices family
+c54d5f24168fc1cce513fc0e4b09a2293ae257d5 ice: Add helper function ice_is_generic_mac
+5ac699a409a4c3880e9d3118aa692706b9e38892 ice: add support for 3k signing DDP sections for E825C
+c1ea40400b72761f37379910ff9793f834acf94f ice: Add support for devlink loopback param.
+7761eefc313b5a2622a9d7e60956ba2d628d607a e1000e: correct maximum frequency adjustment values
+515d5dbe832a64c56bee8e8becc1eaec30e70fed e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+7e32822328eba02af5826ac47d524b7a5aacc0ac ice: Add a new counter for Rx EIPE errors
+87d3c06dbcaf928905916391afbcbc993c573385 e1000e: Minor flow correction in e1000_shutdown function
+e6cfffc4227cb35e45a19a531dc073ca6f02c088 igb: Fix string truncation warnings in igb_set_fw_version
+1c381280bfe33c9cb47105164b0d27c0b1f94851 ice: Add check for lport extraction to LAG init
+31df0edee6f7d227a734beac8b8dfa893df1e37d ixgbe: Fix an error handling path in ixgbe_read_iosf_sb_reg_x550()
+2c1ff06f0b2a2bd1dc4e5744a4620facf1a3d9d7 iavf: fix reset in early states
+3ecf4e2d8e845f80380dbdbde8a0f8d9481cf27a iavf: allow an early reset event to be processed
+6f8ec8a250373aff98c0775dbed7be068339337c ice: remove duplicate comment
+c0ab21fd8cd75a46a4586d379fcc34180ad8597f ice: introduce PTP state machine
+bcd8bd4c10a12ec1e17d27aab0f5ab55cdc27373 ice: pass reset type to PTP reset functions
+788a175e80316db4b6206dbcb2998decdff61f0d ice: rename verify_cached to has_ready_bitmap
+b63120e288a309b8a0bcf5938f49b5ec12dd3237 ice: don't check has_ready_bitmap in E810 functions
+9357638b542feae7a5b149a8fa5fda2158122452 ice: rename ice_ptp_tx_cfg_intr
+09fe7ceb515aa2580bd4f34a686fba4b9356c9a6 ice: factor out ice_ptp_rebuild_owner()
+17416ab705e0f0d803ffe44cb7a1005c3a5ede8b ice: stop destroying and reinitalizing Tx tracker during reset
+731cdbebabba3b8a2c134c71786f6ea4935770d6 ice: make ice_vsi_cfg_rxq() static
+b91206f3635eefacd8305a7dfcb4920021471701 ice: make ice_vsi_cfg_txq() static
+0146352cc58a1c859ed8143d59d1f79077b3ad2a idpf: avoid compiler padding in virtchnl2_ptype struct
+3305a8f6c53d70d93a8ac90ffee1b5b6c83d3cad igc: Use reverse xmas tree
+2b88ec9ce76c0790f044a70f736da4de7f7caec6 igc: Use netdev printing functions for flex filters
+f2aae2089368d8e5abb4ec01542c31bc4d011a74 igc: Unify filtering rule fields
+7f1e0ccee2f9e074b0808bd19d5f0475e097f1fa ice: Remove and readd netdev during devlink reload
 
---===============7258223604462394047==--
+--===============3702198743591933235==--
