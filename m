@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/quota/quota-tools
-Date: Mon, 29 Jan 2024 11:57:11 -0000
-Message-Id: <170652943193.14352.10991480305434448201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 29 Jan 2024 12:05:45 -0000
+Message-Id: <170652994538.20650.9631629134960389955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/quota/quota-tools
-user: jack
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: d90b7d585067e87c56d8462b8e3e1c68996e2fc1
-    new: 00534e79856c8ce385ea1fdcdc2dcb32b1ed5de6
+  - ref: refs/heads/main
+    old: 37e8c97e539015637cb920d3e6f1e404f707a06e
+    new: bfb007aebe6bff451f7f3a4be19f4f286d0d5d9c
     log: |
-         c18e5a1b1e51c0382f5d1431120fe65f7e9c982c Rename searched_dir->sd_dir to sd_isdir
-         ded570b1fffbeaefbecb6c191f0b5168f3b8ad0d Add quotactl_fd() support
-         00534e79856c8ce385ea1fdcdc2dcb32b1ed5de6 Enable support for tmpfs quotas
+         bfb007aebe6bff451f7f3a4be19f4f286d0d5d9c nfc: nci: free rx_data_reassembly skb on NCI device cleanup
          
