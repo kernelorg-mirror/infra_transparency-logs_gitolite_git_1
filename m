@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Mon, 29 Jan 2024 10:20:20 -0000
-Message-Id: <170652362040.9427.6596382644973317330@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Mon, 29 Jan 2024 10:41:10 -0000
+Message-Id: <170652487039.24267.16848120883811718876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/v6.8-next/dts64
-    old: a6146b8a057d7bcb261fce3376aabb89bb10b8a9
-    new: 8997b364ba392e8b86abd1d04c5352b00e3ba13d
+  - ref: refs/heads/master
+    old: fc2f2feaa99dce8aab6381168051f2725b537621
+    new: cfac97acb4392b3be317f1a18bdb12f2b7f0e2ca
     log: |
-         8997b364ba392e8b86abd1d04c5352b00e3ba13d arm64: dts: mediatek: Add socinfo efuses to MT8173/83/96/92/95 SoCs
+         cfac97acb4392b3be317f1a18bdb12f2b7f0e2ca core: check for positive values returned by calls to ioctl()
          
