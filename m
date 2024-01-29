@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1302446372567931834=="
+Content-Type: multipart/mixed; boundary="===============1729385168778703692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dennis/percpu
-Date: Mon, 29 Jan 2024 08:55:33 -0000
-Message-Id: <170651853337.29311.12141594528962995195@gitolite.kernel.org>
+Date: Mon, 29 Jan 2024 08:55:36 -0000
+Message-Id: <170651853605.29386.743551208243984735@gitolite.kernel.org>
 
---===============1302446372567931834==
+--===============1729385168778703692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dennis/percpu
 user: dennis
 changes:
-  - ref: refs/heads/master
-    old: 33cc938e65a98f1d29d0a18403dbbee050dcad9a
-    new: 41bccc98fb7931d63d03f326a746ac4d429c1dd3
-    log: revlist-33cc938e65a9-41bccc98fb79.txt
-  - ref: refs/heads/for-6.8-fixes
-    old: 0000000000000000000000000000000000000000
-    new: ebd4acc0cbeae9efea15993b11b05bd32942f3f0
+  - ref: refs/heads/for-next
+    old: 1e653a292c260fd99d0dc7e7d8fd886c22a4593f
+    new: 2d9ad81ef93570bc0d4929d05d0601ea400d6fcf
+    log: revlist-1e653a292c26-2d9ad81ef935.txt
 
---===============1302446372567931834==
+--===============1729385168778703692==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-33cc938e65a9-41bccc98fb79.txt
+Content-Disposition: attachment; filename=revlist-1e653a292c26-2d9ad81ef935.txt
 
-02444f2ac26eae6385a65fcd66915084d15dffba btrfs: zoned: optimize hint byte for zoned allocator
-6ff09b6b8c2fb6b3edda4ffaa173153a40653067 btrfs: fix kvcalloc() arguments order in btrfs_ioctl_send()
 f03e274a8b29d1d1c1bbd7f764766cb5ca537ab7 btrfs: ref-verify: free ref cache before clearing mount opt
 d967c914a633ee797255261808720f791b658f24 btrfs: fix unbalanced unlock of mapping_tree_lock
 b18f3b60b35a8c01c9a2a0f0d6424c6d73971dc3 btrfs: zoned: fix lock ordering in btrfs_zone_activate()
@@ -1053,5 +1048,7 @@ a08ebda97e2a32b8f1de2c8240337f726c2e1ba7 Merge tag 'fixes-2024-01-28' of git://g
 4854cf9c61d060209d2b431f4a787f6952967022 Merge tag 'mips-fixes_6.8_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 3eb5ca857d38ae7a694de6e59a3de7990af87919 Merge tag 'cxl-fixes-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 41bccc98fb7931d63d03f326a746ac4d429c1dd3 Linux 6.8-rc2
+ebd4acc0cbeae9efea15993b11b05bd32942f3f0 riscv: Fix wrong size passed to local_flush_tlb_range_asid()
+2d9ad81ef93570bc0d4929d05d0601ea400d6fcf Merge branch 'for-6.8-fixes' into for-next
 
---===============1302446372567931834==--
+--===============1729385168778703692==--
