@@ -1,29 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 29 Jan 2024 12:13:17 -0000
-Message-Id: <170653039712.26425.8493299617147244342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 29 Jan 2024 12:19:33 -0000
+Message-Id: <170653077392.30312.7796373668273393786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/main
-    old: 0efc7e541fd51ed11a328c43ccf10a12f1727746
-    new: cf8e51ef518654f3b68c1fed93690d2df8e98a4b
+  - ref: refs/heads/master
+    old: a81e893f2b9316869e6098c3a079c30a48158092
+    new: 5f971ca8d6d9974d5c5e4c369841027f7edd47ca
     log: |
-         dec836ed69d1d3641ea881671fa2ac6ec6b9dc3d net: fill in MODULE_DESCRIPTION()s for encx24j600
-         1c870c63d7d2474646472b13ac3d4a75d5aec368 net: fill in MODULE_DESCRIPTION()s for ocelot
-         9ba4295b2eab99fa0a1768432b5e54e214d47310 net: fill in MODULE_DESCRIPTION()s for SMSC drivers
-         66c164633bb04f00d920415b6f8b14c749c06a9d net: fill in MODULE_DESCRIPTION()s for Qualcom drivers
-         23f487f70c73e31e72ecc0293ee3657da6c67425 net: fill in MODULE_DESCRIPTION()s for dwmac-socfpga
-         3e4620c891480e2058b0fb6dd1d1bbcd90aba72a net: fill in MODULE_DESCRIPTION()s for cpsw-common
-         ad979679d64befabd9bdfa0756aefd8c4a34fd91 net: fill in MODULE_DESCRIPTION()s for ec_bhf
-         be884c15de370804238f5801afb545a71b5af658 net: fill in MODULE_DESCRIPTION()s for PCS drivers
-         6aa89bf8ac9a1f5e420c0f00bdc0101994544736 net: fill in MODULE_DESCRIPTION()s for ieee802154
-         d06aa0eb0a7052b580fc06c16e30e5df872d4b7c net: fill in MODULE_DESCRIPTION()s for arcnet
-         cf8e51ef518654f3b68c1fed93690d2df8e98a4b Merge branch 'net-module-description'
+         40b0e23eb8df398c0aa7223b69c3b7fa11a5a8ad man*/: Use '(date)' in TH line
+         a899cc8c89fc748448839a53560769a6e70671f7 charsets.7: Say ISO/IEC 4873
+         d5e5db91ece5955b21ae1aedc03ba1d56d3cf423 man*/: Say ISO/IEC 2022
+         3ed1de0ddccb42bae4151c7225d3fddeab04ff43 man*/: Say ISO/IEC 8859
+         44b7300b52e3505f24a6dec16fe1da963412f921 nl_langinfo.3: ffix
+         3f3da5b7922e2b4d4733840df7a72966555cb94d man3/: Say ISO 8601
+         18fe26f31e29b635a4894c1b97ff8555bd5766c3 man*/: Say ISO/IEC 6429
+         107995d7b4b4b2c5453d8d23af45e917f7c1e55a man*/: Say ISO/IEC 8208
+         83938c8f020a5789c5d4d363e42a4993196636c4 filesystems.5: Say ISO/IEC 9660
+         fb46444916b17e927eb13e36b448231558fff33b man*/: Say ISO/IEC 646
+         c701df714ea5c77e12b1d30f032dd4293e5f956a man*/: Say ISO 639
+         4c7fedbad0a11af7218da319e5174bc62e96ad77 locale.5: Say ISO 4217
+         d9ea5808ed5c678fb1480bff609ff9a5c5ca9177 man*/: Say ISO 3166
+         76fcba21723fcb1f1281babee2fa5308bbc5ef2b charsets.7: Say ISO/IEC 2375
+         5f971ca8d6d9974d5c5e4c369841027f7edd47ca adjtime.3: wfix
          
