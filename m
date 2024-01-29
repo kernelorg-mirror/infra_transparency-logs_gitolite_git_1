@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1175496052611050012=="
+Content-Type: multipart/mixed; boundary="===============5511204436833758609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 29 Jan 2024 15:07:05 -0000
-Message-Id: <170654082569.21992.1817520212504414558@gitolite.kernel.org>
+Date: Mon, 29 Jan 2024 15:07:28 -0000
+Message-Id: <170654084890.23270.15437049047731954962@gitolite.kernel.org>
 
---===============1175496052611050012==
+--===============5511204436833758609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: beb53f32698ff9cd0ca442c1f856ea0ecfb82be3
     new: 723de3ebef03bc14bd72531f00f9094337654009
     log: revlist-beb53f32698f-723de3ebef03.txt
-  - ref: refs/tags/v6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a0706eba72b90a4702dde6a0b8cc82d78e9b2495
 
---===============1175496052611050012==
+--===============5511204436833758609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +44,4 @@ ea1cc3ee34a5f3144f6c2cdc07c19c914ccb9526 ptp: introduce PTP_CLOCK_EXTOFF event f
 9e1aa985d61eacd5931496b80fbd1c2d2cdeece5 dt-bindings: nfc: ti,trf7970a: fix usage example
 723de3ebef03bc14bd72531f00f9094337654009 net: free altname using an RCU callback
 
---===============1175496052611050012==--
+--===============5511204436833758609==--
