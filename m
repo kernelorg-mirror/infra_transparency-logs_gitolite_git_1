@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8358827230110910659=="
+Content-Type: multipart/mixed; boundary="===============0513047103815691479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Mon, 29 Jan 2024 09:18:31 -0000
-Message-Id: <170651991152.13309.4639386002271480014@gitolite.kernel.org>
+Date: Mon, 29 Jan 2024 09:18:34 -0000
+Message-Id: <170651991406.13374.6110507212273212132@gitolite.kernel.org>
 
---===============8358827230110910659==
+--===============0513047103815691479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-soc
-    old: aa1cfba75b77ca93ab9a0b03c2c9124a16d96479
+  - ref: refs/heads/clk-microchip
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-aa1cfba75b77-6613476e225e.txt
+    log: revlist-b85ea95d0864-6613476e225e.txt
 
---===============8358827230110910659==
+--===============0513047103815691479==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-aa1cfba75b77-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-b85ea95d0864-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============8358827230110910659==--
+--===============0513047103815691479==--
