@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0594048604361783479=="
+Content-Type: multipart/mixed; boundary="===============4738740294705146272=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 29 Jan 2024 13:59:07 -0000
-Message-Id: <170653674799.4909.9783713600401154720@gitolite.kernel.org>
+Date: Mon, 29 Jan 2024 14:01:54 -0000
+Message-Id: <170653691489.7629.9560319429879802259@gitolite.kernel.org>
 
---===============0594048604361783479==
+--===============4738740294705146272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
-    new: 41bccc98fb7931d63d03f326a746ac4d429c1dd3
-    log: revlist-6613476e225e-41bccc98fb79.txt
+  - ref: refs/heads/nfsd-next
+    old: 1110eff8e65d40ec6f20e952fa18a9f6ac7bd69a
+    new: a670b682f0500a921682917422c947e2b4275df5
+    log: revlist-1110eff8e65d-a670b682f050.txt
 
---===============0594048604361783479==
+--===============4738740294705146272==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6613476e225e-41bccc98fb79.txt
+Content-Disposition: attachment; filename=revlist-1110eff8e65d-a670b682f050.txt
 
 c7ec4f2d684e17d69bbdd7c4324db0ef5daac26a xen-netback: don't produce zero-size SKB frags
 024b32db43a359e0ded3fcc6cd86247cbbed4224 drm/bridge: parade-ps8640: Wait for HPD when doing an AUX transfer
@@ -417,5 +417,39 @@ a08ebda97e2a32b8f1de2c8240337f726c2e1ba7 Merge tag 'fixes-2024-01-28' of git://g
 4854cf9c61d060209d2b431f4a787f6952967022 Merge tag 'mips-fixes_6.8_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 3eb5ca857d38ae7a694de6e59a3de7990af87919 Merge tag 'cxl-fixes-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 41bccc98fb7931d63d03f326a746ac4d429c1dd3 Linux 6.8-rc2
+e248feeb2519e4a00e44482f5045d1ae4ec7fa13 SUNRPC: fix a memleak in gss_import_v2_context
+b66d75139458ec91c4e1c0f33b2c7f676df24604 SUNRPC: fix some memleaks in gssx_dec_option_array
+c7cb8c19bc73e6a6ee3dbabbc8299b8f469ee4e7 SUNRPC: Use a static buffer for the checksum initialization vector
+2df0218807f5846a235039410e44048bb676d0f4 nfsd: Don't leave work of closing files to a work queue
+fc6bfd4bace624be26652cbd5efa1deb2d4c3e0c nfsd: use __fput_sync() to avoid delayed closing of files.
+26efb5e8c0b15f4f5da1046a3e3ea1e51c9f71ee nfsd: drop st_mutex and rp_mutex before calling move_to_close_lru()
+135d5626e96952a2d09abdea5622e689aff2c4a6 NFSD: fix nfsd4_listxattr_validate_cookie
+42ec6645cb8f43a4062f8c62bbd13a43fa73351b NFSD: change LISTXATTRS cookie encoding to big-endian
+1d6bbeca66aaff9a1698f7fbee243cb379012364 NFSD: fix LISTXATTRS returning a short list with eof=TRUE
+3713a52d5a7df24ab62ba6d9a0a72b1dae473a6e NFSD: fix LISTXATTRS returning more bytes than maxcount
+c1365ef33ad700b0a1fcdc65110e6c94d274f348 sunrpc: don't change ->sv_stats if it doesn't exist
+93af2fc6e6589e225e27e96e96604fb1352c8366 nfsd: stop setting ->pg_stats for unused stats
+6b32f5f1e4c2e77d3e8a811cc40a2b5d8d11dd2b sunrpc: pass in the sv_stats struct through svc_create_pooled
+2896caafbc9efc3188ee0e38440efd29130fdd94 sunrpc: remove ->pg_stats from svc_program
+b3b72309149a69c7e16911fbbf77dde058f75491 sunrpc: use the struct net as the svc proc private
+a96efc8859539ce5da7e2a7cd0dd177d41b1810f nfsd: rename NFSD_NET_* to NFSD_STATS_*
+bdf92cbe7097b5cccf4e3e9ae6619c0f315346f7 nfsd: expose /proc/net/sunrpc/nfsd in net namespaces
+fce33795b2c3284637713515f4aaf6970942aa8c nfsd: make all of the nfsd stats per-network namespace
+39ed42f221ad514767163d3c5fb5701fb5be47ef nfsd: remove nfsd_stats, make th_cnt a global counter
+52ebfd3e83cda597a4ea431a682e4424d4cadea1 nfsd: make svc_stat per-network namespace instead of global
+3b818452f12d6d2e25c8e4f40cc88d6761e838ea NFSD: Reset cb_seq_status after NFS4ERR_DELAY
+1d3befc1d9d5c705955315037055e4f9ea2003b7 NFSD: Convert the callback workqueue to use delayed_work
+4bfc8cc603d73d757dafed5eb270aca6d189543e NFSD: Reschedule CB operations when backchannel rpc_clnt is shut down
+fa8fbe5970231df591aca7d9075c7da4ec85b473 NFSD: Retransmit callbacks after client reconnects
+5c2be2ed0f80683c8773b379b0af2a97f194a1a2 NFSD: Add nfsd_seq4_status trace event
+2a2547f8a32216f0e1079b61b85790e8567a4565 NFSD: Replace dprintks in nfsd4_cb_sequence_done()
+d5927e2267c8f247f77e027be01b82407fbac04f NFSD: Rename nfsd_cb_state trace point
+035544bdf2ac5f0ab809e3b87cebeae5ae47035d NFSD: Add callback operation lifetime trace points
+33ad6a2f38e313cea2bf7bc56ea60215cddfacf8 SUNRPC: Remove EXPORT_SYMBOL_GPL for svc_process_bc()
+2ae8a993e913b7e071ec503c91f9304a38af16d9 NFSD: Remove unused @reason argument
+0275e5a9e5c217115c96dc026e90c5913483f24c NFSD: Replace comment with lockdep assertion
+d7b0002517bbb67b5e0835c25fa3142d6224c621 NFSD: Remove BUG_ON in nfsd4_process_cb_update()
+e36b4d5f581085f88d2ddf6e143b211972e44bbd SUNRPC: Remove stale comments
+a670b682f0500a921682917422c947e2b4275df5 NFSD: Remove redundant cb_seq_status initialization
 
---===============0594048604361783479==--
+--===============4738740294705146272==--
