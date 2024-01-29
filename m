@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 29 Jan 2024 15:57:58 -0000
-Message-Id: <170654387884.28968.1979157267241402850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 29 Jan 2024 16:07:32 -0000
+Message-Id: <170654445265.4426.9448530136286513148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: efaa47db92451608499ab7edf108bf30141c33db
-    new: ced33f2cfa21a14a292a00e31dc9f85c1bfbda1c
-    log: |
-         ced33f2cfa21a14a292a00e31dc9f85c1bfbda1c docs/bpf: Improve documentation of 64-bit immediate instructions
-         
+  - ref: refs/heads/flsplit
+    old: 8f5e79e8625156dd93dc034209cd9b3920509ee0
+    new: 0000000000000000000000000000000000000000
