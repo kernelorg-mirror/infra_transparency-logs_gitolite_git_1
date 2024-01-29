@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5101815328168181798=="
+Content-Type: multipart/mixed; boundary="===============4631751085685220037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 29 Jan 2024 11:11:08 -0000
-Message-Id: <170652666898.14188.14460883089410430813@gitolite.kernel.org>
+Date: Mon, 29 Jan 2024 11:11:26 -0000
+Message-Id: <170652668690.14379.14277109054968892911@gitolite.kernel.org>
 
---===============5101815328168181798==
+--===============4631751085685220037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 92ec7527115b966a345535039dcb5e69f8528d75
-    new: e6d0024441d8fbcdf27914e168c40fafdc253593
-    log: revlist-92ec7527115b-e6d0024441d8.txt
+  - ref: refs/heads/m68k-queue
+    old: 32357d98922087a23ff47f243429886e94ff815d
+    new: a55ae0d77f2af74e793d4271220c12ce70720cc3
+    log: revlist-32357d989220-a55ae0d77f2a.txt
 
---===============5101815328168181798==
+--===============4631751085685220037==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-92ec7527115b-e6d0024441d8.txt
+Content-Disposition: attachment; filename=revlist-32357d989220-a55ae0d77f2a.txt
 
 c7ec4f2d684e17d69bbdd7c4324db0ef5daac26a xen-netback: don't produce zero-size SKB frags
 024b32db43a359e0ded3fcc6cd86247cbbed4224 drm/bridge: parade-ps8640: Wait for HPD when doing an AUX transfer
@@ -417,6 +417,8 @@ a08ebda97e2a32b8f1de2c8240337f726c2e1ba7 Merge tag 'fixes-2024-01-28' of git://g
 4854cf9c61d060209d2b431f4a787f6952967022 Merge tag 'mips-fixes_6.8_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 3eb5ca857d38ae7a694de6e59a3de7990af87919 Merge tag 'cxl-fixes-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 41bccc98fb7931d63d03f326a746ac4d429c1dd3 Linux 6.8-rc2
-e6d0024441d8fbcdf27914e168c40fafdc253593 Merge tag 'v6.8-rc2'
+0bdd4bf975fd038d3ed7f5ec35ff473cefcb4313 m68k: atari: usb: Add ISP1160 USB host controller support
+0f8a76a07fa56770afabc01190099698808ba052 m68k: atari: Update Kconfig.bus help text
+a55ae0d77f2af74e793d4271220c12ce70720cc3 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5101815328168181798==--
+--===============4631751085685220037==--
