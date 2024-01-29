@@ -1,43 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Mon, 29 Jan 2024 18:12:06 -0000
-Message-Id: <170655192683.7835.5044323917807477174@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8674440733507139624=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 29 Jan 2024 18:12:32 -0000
+Message-Id: <170655195221.8076.664074094796191836@gitolite.kernel.org>
+
+--===============8674440733507139624==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.9
-    old: e563d0a7cdc1890ff36bb177b5c8c2854d881e4d
-    new: 07daa99b7fd7adfffa22180184e39ec124e73013
+  - ref: refs/heads/for-6.8
+    old: 7c70825d1603001e09907b383ed5d1bd283d61a0
+    new: c6dce23ec993f7da7790a9eadb36864ceb60e942
     log: |
-         a045a272d887575da17ad86d6573e82871b50c27 workqueue: Move pwq->max_active to wq->max_active
-         afa87ce85379e2d93863fce595afdb5771a84004 workqueue: Factor out pwq_is_empty()
-         4c6380305d21e36581b451f7337a36c93b64e050 workqueue: Replace pwq_activate_inactive_work() with [__]pwq_activate_work()
-         1c270b79ce0b8290f146255ea9057243f6dd3c17 workqueue: Move nr_active handling into helpers
-         c5404d4e6df6faba1007544b5f4e62c7c14416dd workqueue: Make wq_adjust_max_active() round-robin pwqs while activating
-         9f66cff212bb3c1cd25996aaa0dfd0c9e9d8baab workqueue: RCU protect wq->dfl_pwq and implement accessors for it
-         dd6c3c5441263723305a9c52c5ccc899a4653000 workqueue: Move pwq_dec_nr_in_flight() to the end of work item handling
-         91ccc6e7233bb10a9c176aa4cc70d6f432a441a5 workqueue: Introduce struct wq_node_nr_active
-         5797b1c18919cd9c289ded7954383e499f729ce0 workqueue: Implement system-wide nr_active enforcement for unbound workqueues
-         07daa99b7fd7adfffa22180184e39ec124e73013 tools/workqueue/wq_dump.py: Add node_nr/max_active dump
+         c6dce23ec993f7da7790a9eadb36864ceb60e942 ASoC: amd: yc: Add DMI quirk for MSI Bravo 15 C7VF
          
-  - ref: refs/heads/for-next
-    old: e563d0a7cdc1890ff36bb177b5c8c2854d881e4d
-    new: 07daa99b7fd7adfffa22180184e39ec124e73013
-    log: |
-         a045a272d887575da17ad86d6573e82871b50c27 workqueue: Move pwq->max_active to wq->max_active
-         afa87ce85379e2d93863fce595afdb5771a84004 workqueue: Factor out pwq_is_empty()
-         4c6380305d21e36581b451f7337a36c93b64e050 workqueue: Replace pwq_activate_inactive_work() with [__]pwq_activate_work()
-         1c270b79ce0b8290f146255ea9057243f6dd3c17 workqueue: Move nr_active handling into helpers
-         c5404d4e6df6faba1007544b5f4e62c7c14416dd workqueue: Make wq_adjust_max_active() round-robin pwqs while activating
-         9f66cff212bb3c1cd25996aaa0dfd0c9e9d8baab workqueue: RCU protect wq->dfl_pwq and implement accessors for it
-         dd6c3c5441263723305a9c52c5ccc899a4653000 workqueue: Move pwq_dec_nr_in_flight() to the end of work item handling
-         91ccc6e7233bb10a9c176aa4cc70d6f432a441a5 workqueue: Introduce struct wq_node_nr_active
-         5797b1c18919cd9c289ded7954383e499f729ce0 workqueue: Implement system-wide nr_active enforcement for unbound workqueues
-         07daa99b7fd7adfffa22180184e39ec124e73013 tools/workqueue/wq_dump.py: Add node_nr/max_active dump
-         
+
+--===============8674440733507139624==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1706551950 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1706551950-297a20eb3e8120b84bc6efa5f1f2d0ac3c81c090
+
+7c70825d1603001e09907b383ed5d1bd283d61a0 c6dce23ec993f7da7790a9eadb36864ceb60e942 refs/heads/for-6.8
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmW36o4ACgkQJNaLcl1U
+h9CE8gf/eyLUc5naKyzUxyOXNmZVMC4fwwCV/bjGHR6RxiXNVgK7zjF/MJkhKFMc
+plALVjOoH70jH7LZ0kTavomnapnh5RwV2IK+iC+1uvWfZN64VQqEKsEZBsYy50gB
+2iqxRtoj6GoM7L0Ge9XY2x2DCAlSsq+pnMNWdy3nnOA/IIeMYKwVA6WEUiC6qrbD
+HyFxu90oQea0qknPkLi2r5uBrdx1jcZV9V0R+tEwT+NxUrm8JQYpHX5b5/6Orws3
+YBJJYsTSFd1YZy+80h7MkZpMXOXko1D07RKz/notWPhFJS7TVXuAsv8LXmzl7c9d
+bQBCqBGgErNWEpRQiyb6Bd9oVJAkRg==
+=KIsE
+-----END PGP SIGNATURE-----
+
+--===============8674440733507139624==--
