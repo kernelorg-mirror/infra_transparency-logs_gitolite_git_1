@@ -1,72 +1,95 @@
-Content-Type: multipart/mixed; boundary="===============5032182998360908801=="
+Content-Type: multipart/mixed; boundary="===============3172706357072793614=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 29 Jan 2024 21:43:03 -0000
-Message-Id: <170656458336.2866.10522205870072735354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
+Date: Mon, 29 Jan 2024 21:49:37 -0000
+Message-Id: <170656497772.6829.17405700834120247029@gitolite.kernel.org>
 
---===============5032182998360908801==
+--===============3172706357072793614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/next/linux-next
+user: sfr
 changes:
-  - ref: refs/heads/kdevops
-    old: a95ff31d907acdb706ce82965bf26aec101c5bad
-    new: 182ad31203116c2e2ecd44cf24d852ca4f41ccb7
-    log: revlist-a95ff31d907a-182ad3120311.txt
+  - ref: refs/heads/pending-fixes
+    old: d0322f611f9c83a5b2a1e22f2a9edd853de4a581
+    new: 21abc01c4bcb50e8eb38cc07192ed520641e7285
+    log: revlist-d0322f611f9c-21abc01c4bcb.txt
 
---===============5032182998360908801==
+--===============3172706357072793614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a95ff31d907a-182ad3120311.txt
+Content-Disposition: attachment; filename=revlist-d0322f611f9c-21abc01c4bcb.txt
 
-23aa0bd4766a1e7734394aa38f54877411ff61f5 filelock: split struct file_lock into file_lock and file_lease structs
-2446cf47e9edf7b156aafdad51385df078042955 filelock: rename some fields in tracepoints
-c333b880016b747b407eea0a1495463391a81eaa filelock: rename fl_pid variable in lock_get_status
-ec93226dbf6f8ffd50e18a9c5a6b3f1343b3bed7 dlm: rename fl_flags variable in dlm_posix_unlock
-13073dabbab2b5358c97f62738b19629028be947 nfs: rename fl_flags variable in nfs4_proc_unlck
-0d935df1d6023e87e386f1bf683b1727eb8cfc70 nfsd: rename fl_type and fl_flags variables in nfsd4_lock
-f24a251e163c50c4e9b72edf9845996813341c2a lockd: rename fl_flags and fl_type variables in nlmclnt_lock
-e1b6cd6e3eeb43ef37b71c4f9db1c86d5b0874b7 9p: rename fl_type variable in v9fs_file_do_lock
-e7e8949a7114c455628a26d4155195e5c4739c44 afs: rename fl_type variable in afs_next_locker
-601b92d18d8c87a83ff07dcc2610b08aa3a6eeb9 filelock: drop the IS_* macros
-7b9e34a8ea9580170d4f042b76a8fa09afa4a7ae filelock: split common fields into struct file_lock_core
-8323d1dd6efa665a01736cb6d0c22af343c0fed6 filelock: add coccinelle scripts to move fields to struct file_lock_core
-17b2ccfdfa15ad67e76f3ddc4313237a908250e2 filelock: have fs/locks.c deal with file_lock_core directly
-e4d5f216c365651500a4c80ec4f954036feb8173 filelock: convert more internal functions to use file_lock_core
-ef634667eb353ef12c117b9034f577f53abfa162 filelock: make posix_same_owner take file_lock_core pointers
-4bd154ec7ae169067827cb02c32193eae8d99765 filelock: convert posix_owner_key to take file_lock_core arg
-3c29be096ba0837a4e08c7a62f0330089285275a filelock: make locks_{insert,delete}_global_locks take file_lock_core arg
-dc7fd12581b5fcb50bcbc8bb56b676d23a9f8565 filelock: convert locks_{insert,delete}_global_blocked
-4a18001634ed37cbec833f5660ede4dd903f5a3c filelock: make __locks_delete_block and __locks_wake_up_blocks take file_lock_core
-6f9833e22cc3b4c93c669ce2ac4a12b8fcc09331 filelock: convert __locks_insert_block, conflict and deadlock checks to use file_lock_core
-2f022b73c06d56db360a0e0cf038eec8a2ea196c filelock: convert fl_blocker to file_lock_core
-f502588002b58833384721ae856aad17fb3666bd filelock: clean up locks_delete_block internals
-8c4622f50427cf36754425069cb26775d656115b filelock: reorganize locks_delete_block and __locks_insert_block
-c90e8052b9f8768826a1ab299ffab2bc3fc451ba filelock: make assign_type helper take a file_lock_core pointer
-8405e06c6631d9e388a8af89cee95f87818ea7a3 filelock: convert locks_wake_up_blocks to take a file_lock_core pointer
-ccbf9025aac7094ee81c520a84547d090e3d1c05 filelock: convert locks_insert_lock_ctx and locks_delete_lock_ctx
-5dc5aaa34ff899d9dd2e32670624ffc2ba2ed759 filelock: convert locks_translate_pid to take file_lock_core
-9b76ea28b316754194c7b5afbc397a8dba230f6d filelock: convert seqfile handling to use file_lock_core
-6a99155e0ee5ba03210752b6808eb35ed28a6d87 9p: adapt to breakup of struct file_lock
-1773e4a5f2802ba97c1a70ce66faef8841180c83 afs: adapt to breakup of struct file_lock
-bb5141f7fcec7185dd97deeca21e49437fbe7148 ceph: adapt to breakup of struct file_lock
-6c88c4e11db2c976bce23ee4f6c1b61099db3be7 dlm: adapt to breakup of struct file_lock
-f42dad41364a2c4baff678f5faa739ef57d07988 gfs2: adapt to breakup of struct file_lock
-e44ce2c43929c53ae1d231160ea39c280e423cbd fuse: adapt to breakup of struct file_lock
-b12c93a12427762a381b657e9f40597a4699a49a lockd: adapt to breakup of struct file_lock
-028fff2e35cc408a418e17c1bcc3c6eaafa93a0d nfs: adapt to breakup of struct file_lock
-9143c6c64565eea27094da94d1c1449a91b58ade nfsd: adapt to breakup of struct file_lock
-acedc6e226365c0278729fc84f1163e53ea2cbc7 ocfs2: adapt to breakup of struct file_lock
-62b8ba4f254da1018dfccf23bd77d592cf5e6b7a smb/client: adapt to breakup of struct file_lock
-0aaa13c9a0611cf83555aaa961fd02d3cdccbcee smb/server: adapt to breakup of struct file_lock
-ff361d459ab9559f70535a13649e7fcb84b5cbc9 filelock: remove temporary compatability macros
-182ad31203116c2e2ecd44cf24d852ca4f41ccb7 filelock: split leases out of struct file_lock
+3eb5ca857d38ae7a694de6e59a3de7990af87919 Merge tag 'cxl-fixes-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
+3e7f4b0af8b67585efe4b0c9e6a77c82dac0da32 kbuild: fix W= flags in the help message
+41bccc98fb7931d63d03f326a746ac4d429c1dd3 Linux 6.8-rc2
+47f850287062da48e85b0d27ab986f32bbc359c3 mm: add a mapping_clear_large_folios helper
+190c2acdeb7e4cc68e69a8f485e830e5b3375ca1 xfs: disable large folio support in xfile_create
+2cf446818d85366f8da80d425b608e328b913dcd mm: hugetlb pages should not be reserved by shmat() if SHM_NORESERVE
+9c527d871069582b99670947e3c9ddd1a1703722 getrusage: move thread_group_cputime_adjusted() outside of lock_task_sighand()
+51dca78b63415e5ac93da452fdddb93f1c6962d5 getrusage: use sig->stats_lock rather than lock_task_sighand()
+37e0cbdf251bf947a6d50d9433a5ca0f62240db8 fs/proc: do_task_stat: move thread_group_cputime_adjusted() outside of lock_task_sighand()
+527d44a4c6e6dd877599581b6f6e61658f79882d fs/proc: do_task_stat: use sig->stats_lock to gather the threads/children stats
+ceb0ac103678b4e38993e3303cfc46881257b80b exit: wait_task_zombie: kill the no longer necessary spin_lock_irq(siglock)
+16214e24b0108d728bbcd58d3082be1cc1d2b185 mm/userfaultfd: UFFDIO_MOVE implementation should use ptep_get()
+6dfd7b0b7c94c59500368c550663ae30c0b9d220 nilfs2: fix data corruption in dsync block recovery for small block sizes
+f91fa489211dabed6ec22174a67d8e9fcb17aea2 mm: memcg: optimize parent iteration in memcg_rstat_updated()
+1df782c4ca0961022a51875209da6a46490668a5 mm/memory-failure: fix crash in split_huge_page_to_list from soft_offline_page
+d30dd96c85f9f2fbfd7f419703a275e340699388 selftests: core: include linux/close_range.h for CLOSE_RANGE_* macros
+5184047be3f0d43bdd784034110d9bc51075b370 arch/arm/mm: fix major fault accounting when retrying under per-VMA lock
+75d6d9683f70874cfe838a518b71b806467daaa1 mm/madvise: don't forget to leave lazy MMU mode in madvise_cold_or_pageout_pte_range()
+ec4d82f855ce332de26fe080892483de98cc1a19 thunderbolt: Fix setting the CNS bit in ROUTER_CS_5
+efb56d84dd9c3de3c99fc396abb57c6d330038b5 ALSA: hda/realtek: Fix the external mic not being recognised for Acer Swift 1 SF114-32
+f0d78972f27dc1d1d51fbace2713ad3cdc60a877 ALSA: hda/realtek: Enable Mute LED on HP Laptop 14-fq0xxx
+c0787fcff88bce36d21e5b726bdeab694baba6a5 Revert "ALSA: usb-audio: Skip setting clock selector for single connections"
+9c64e749cebd9c2d3d55261530a98bcccb83b950 drm/virtio: Set segment size for virtio_gpu device
+37e8c97e539015637cb920d3e6f1e404f707a06e net: hsr: remove WARN_ONCE() in send_hsr_supervision_frame()
+bfb007aebe6bff451f7f3a4be19f4f286d0d5d9c nfc: nci: free rx_data_reassembly skb on NCI device cleanup
+577e4432f3ac810049cb7e6b71f4d96ec7c6e894 tcp: add sanity checks to rx zerocopy
+346f59d1e8ed0eed41c80e1acb657e484c308e6a ALSA: usb-audio: Check presence of valid altsetting control
+c6dce23ec993f7da7790a9eadb36864ceb60e942 ASoC: amd: yc: Add DMI quirk for MSI Bravo 15 C7VF
+e4ad71e2367f3f7b7409c30df9cdbb34da15e012 MAINTAINERS: wifi: brcm80211: cleanup entry
+ccbca118ef1a71d5faa012b9bb1ecd784e9e2b42 NFSv4.1: Assign the right value for initval and retries for rpc timeout
+9112d33eab4076ba4c761b220dd8fb20b5c20dc8 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+0dc6896ea4fb02c7b0e309ab30fe5ac4cf102991 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild.git
+fc1b441ebdbba22dede078cbd53c139a7d7ae93b Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
+4cc033c97d67aab58e8c292a0c8069387aed9985 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
+a5e669c7e22d2a935e806f94e5b7be1d5e14bc6b Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
+19c3f6c5edf4583c558019bc0af0c51d8901c39a Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
+acc59959914fddda0513a90c7e24383647a614f2 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
+31508a3f125c8a105d32de40d8210011c4bfad3f Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+56fbb6692fde2d3ab8951125a9ec75edade17605 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+4aa58ac87c2a4c8b9078620f15b1b0fde035cf70 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+67588de18e3ceeb44ce9b46ba62127700fd5326a Merge branch 'tty-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git
+89edc23c906dbaacd4096bc4f83376c393af483e Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
+7c7dfc449269ecabab315dbc732b99656b8388eb Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
+f84488b274653ea98f7dc90ef9d59313cca0b6bc Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
+304c4753de8e2ba0489b413a7a12a598b9df0d10 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt.git
+d9126df7833be892894d0928faa855c874ceb059 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
+32110b7b08eb43e28683a41949d2292ae01c1604 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6.git
+d42c1dcfb33bc5f0f2722c3965815de7c6a5ce01 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
+09843e1d95f67d7c74325b844b7797f118215e02 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
+099e08dd6d59e0b77d082685beddc58cabb91152 Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
+9ab76158f5b5d1c4a06a329fbc0eb303a712686d Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux.git
+103f2f9e4590842505e3e724d73d4e3f11e364a6 Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
+2b17ea2003557427a80c7c120a2face9d4166411 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+2335ebfe7e6d787eb89df98ba169761eaf0b63f7 Merge branch 'dt/linus' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git
+82d81186ccefe211889613c6e75fa66d28c52b83 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
+e7c5f29c0b6c3615f8753369bb26334eb796e9de Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
+609bbe1e42448fe9649680331e5032713c228741 Merge branch 'riscv-soc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
+c71f8444ec2af63966b53f38fc23f705e90e777e Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
+f8cab5c69ded4ae78bb645004627a99357ad2486 Merge branch 'kunit-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
+defa311349b80a28251f5c143539cd4ac1b3995d Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+6fb401ad0e1551a0dff6b689afc89e96b2fce408 Merge branch 'perf-tools' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+0d7ba30cd8f1e91adc422731a7929211ca6baf15 Merge branch 'urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
+5e3669f20348116fe62066ac9384380eb9b14a98 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
+fc8d22ccd42bf39e3503035cc83372a56b5c5a69 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm.git
+21abc01c4bcb50e8eb38cc07192ed520641e7285 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
 
---===============5032182998360908801==--
+--===============3172706357072793614==--
