@@ -1,20 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 30 Jan 2024 02:10:18 -0000
-Message-Id: <170658061895.10043.1147865098237207526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Tue, 30 Jan 2024 02:19:26 -0000
+Message-Id: <170658116656.14931.11408979939986364155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: sashal
 changes:
-  - ref: refs/heads/master
-    old: 90812522ebb5b8cbdbe88c1ecffab42c37bbddb6
-    new: bcecb0ee2ca0dfb9c49cfc65b7ae8d1176bde425
-    log: |
-         d462a1b73dc9a29ff2b4c9a8660f61a36a3b3a77 mails/lsfmm_2024: Wordsmith and update
-         bcecb0ee2ca0dfb9c49cfc65b7ae8d1176bde425 todo: Move debugfs deprecation work item to under review section
-         
+  - ref: refs/heads/queue/4.19
+    old: 9f09d224115220373d083cc6cf23fb5c1dff019d
+    new: b060cfd3f707ad3c8ae8322e1b149ba7e2cf33e0
+  - ref: refs/heads/queue/5.10
+    old: c01899e7d844495f7d58d2b5179700d1b19d5add
+    new: 16ad71c250c180a095f9d11b02579b81a47aaa84
+  - ref: refs/heads/queue/5.15
+    old: 7d68be9b012686c313b477f5fe0826914a8b07ef
+    new: 6139f2a02fe0ac7a08389b4eb786e0c659039ddd
+  - ref: refs/heads/queue/5.4
+    old: 6934bb4f7d4b7a7788d679145b4637dc822aa7e3
+    new: f0602893f43a54097fcf22bd8c2f7b8e75ca643e
+  - ref: refs/heads/queue/6.1
+    old: 89b2d16e9eb5f1d1bf5441c8d5cefb9cbbd5f86b
+    new: 883d1a9562083922c6d293e9adad8cca4626adf3
+  - ref: refs/heads/queue/6.6
+    old: 1871db43146a68ccd2759e749a9630284b2fb4ff
+    new: 98817289bcec2331c6893139c52105738090afc0
+  - ref: refs/heads/queue/6.7
+    old: 2ba3acec07f6b205d5c0bb9d5e830ecef9be599e
+    new: 7bbf3b67cb49d0f8a20e64b7473923041b758211
