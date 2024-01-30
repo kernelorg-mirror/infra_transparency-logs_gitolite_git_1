@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0476603097637412314=="
+Content-Type: multipart/mixed; boundary="===============6500922960993455681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 30 Jan 2024 02:26:37 -0000
-Message-Id: <170658159787.20802.6969703948454241133@gitolite.kernel.org>
+Date: Tue, 30 Jan 2024 02:26:54 -0000
+Message-Id: <170658161423.20973.10609461080299806701@gitolite.kernel.org>
 
---===============0476603097637412314==
+--===============6500922960993455681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,75 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
-    new: a34fc8c7361c4abb7474a77ce907065db371657f
-    log: revlist-6613476e225e-a34fc8c7361c.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 31b23871d23f40a6d8cca041cfa5c2c0e2bc42bb
+    new: 393a705b9d745c5497213607f5256aa28e31d6fd
+    log: revlist-31b23871d23f-393a705b9d74.txt
 
---===============0476603097637412314==
+--===============6500922960993455681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1706581596 -0500
+pusher 75C5DE3D 1706581601 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1706581596-c875e217dee32fd3dd1a029ae8c48a63f0187e54
+nonce 1706581601-4f810d7fd133e05e033580495e7bec178b32961b
 
-6613476e225e090cc9aad49be7fa504e290dd33d a34fc8c7361c4abb7474a77ce907065db371657f refs/heads/queue
+31b23871d23f40a6d8cca041cfa5c2c0e2bc42bb 393a705b9d745c5497213607f5256aa28e31d6fd refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmW4XlwACgkQ7ulgGnXF
-3j2hBA//UrqxYl3z5uVelLqHcSafeRwAqQXdR1DKzbys9HUW/p6ovntZpI2b85kk
-fCo418MCfDBkWbQcwoIVW+1BXbVj01N0ZekSIzjZ7P/4e8Rh9pcLN/thR+sGOA1J
-jHT7xwMv+hVFE1usHLGkXGhShbVaii5zdr/lUi+ewP97P96ku8HLDa2ba1Sfyd3p
-EkpT770CfNoQ7HZJ/OgNS9giwFnRSwRFmL8Qf+gizJp9nQeaTk1w2y0V1VIoXCQW
-NZ+sQCn0064XG/iJosWH9R1JmzYy4cF3BTj2wG4ztn5M7dY+r7DF8Pn2Q4riNgUq
-PZ4sRVMj9RcYa6WkHyGy6raLBMfOCJMUh2qdEzFJXwcl8zTHObSTS8SFs8k/3c9h
-+geGKcjT/fSZYnH5wk3TbwwObBecahU5IU7JIBwvZKOCKwo/O5/xgr1yyvd23xaT
-oYoeLbcdFlpf+pZGGidVNyshMWzosHwzyGst7l/2E28Eg+wtGX9WUfTeCuJ7RwB7
-8/P4aRFmpVw+XueRipCw6kRa/VxU6VZ8iBZYn9VDqcORTNeOXw+1YrjVbtgs3cTg
-8VWxEeTEs4BHBx43BcVwAkSZPDgMGpWPxH8MsPyooHgQXOVrs/zswnbuVXBV15ub
-JsGVVQ/geX9jXkyAn3Cy8d1A095XQxgZxnzGeQMssX+M5gujXDA=
-=qVTn
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmW4XmEACgkQ7ulgGnXF
+3j1A6g//WJ994ZuDdvPyEoxJX5ntBk0QkznkpNwCuAlqoNblplG10SKWT+XvPgCo
+M6qppT+/C5e2BIt/m0ygpc9sOoXiCWDpaESv5CB0HTL34RIwpmiTilYI1LXxct4Z
+3aSHzbhZTATTI+7Da6AanzysVDQQ/TcpR1LgX5DeO1pGqFEAhvxi/VBcQnnBRc5h
+POUp8PV9/5RvPHsLSe9Xy2CXbwuVt7TG+f+nORYLWB8x3c/LaN+YuR3i6+EoIxZk
+6Rnige8Hp6Niselcde1GKm15HVbgXwweAYTvXrUhfOxUux1qqFIZQMiEsXKQ6L7E
+hBsCIgv3WauBZVS9BGqe9WWzQLcb7HhSJl8V0x2dremL913pK/6G9wDp2Y5tv+Bk
+deh0DtpE+Bi0YtDzlbr9ipT+WOzG7W/OwhwtXiN/rAsxxzLCvdn+IditO+JByjJ8
+9AJDaizP1AUJdt5Q72F804Z1ThrymjY2i1fiJeYuH7MRATWA0G9ANSNhObQr2PBv
+D9OUnv8bJS+28knolrbwyQd/eR+qMMu+CXCsjEj5rNfE7R+AGxkJ//uccxWn/zzZ
+8De40m3uv6JJ35qpVc9LHC0SRGGZOYwiJzbNSnlMDF5cyBGU5ANjR52oGJca4ywF
+BZNRZQNb/7csJgs3DY7CLtOLYpQM0tmFQxtwwadfdls3KH5+5LA=
+=8UzK
 -----END PGP SIGNATURE-----
 
---===============0476603097637412314==
+--===============6500922960993455681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6613476e225e-a34fc8c7361c.txt
+Content-Disposition: attachment; filename=revlist-31b23871d23f-393a705b9d74.txt
 
-2777e73fc154e2e87233bdcc0e2402b33815198e scsi: ufs: core: Add CPU latency QoS support for UFS driver
-0652205b4ce2c954a08f9cbba432aadda79c6484 scsi: ufs: ufs-mediatek: Migrate to UFSHCD generic CPU latency PM QoS support
-29b3a373e2df30b1f8bb9ef8a0d480cce3d0e295 scsi: ufs: ufs-mediatek: Check link status after exiting hibern8
-468b3e0a3bca659bff6ddc48d5baeddfd678be7b scsi: ufs: ufs-mediatek: Fix MCQ mode TM cmd timeout
-e0dc13e5a3cb9de98fd00b7718738f9eef4bd0ce scsi: ufs: ufs-mediatek: Disable MCQ IRQ when clock off
-4380e64a94e16c757552e8e2fbdc856415012fc8 scsi: core: Move autosuspend timer delay to Scsi_Host
-332973850054aaf540f9e02a6f037fac449cdeae scsi: ufs: ufs-mediatek: Change default autosuspend timer
-796cae1a79b192510041563c95d3fc0fab31ec6e scsi: core: Safe warning about bad dev info string
-ab3e6c4e0ea149f16d5b719ecf7572862060d215 scsi: ufs: mcq: Add definition for REG_UFS_MEM_CFG register
-325ec4ac7da6272da9b2da51b7c5cc75e48bf654 scsi: ufs: mcq: Use ufshcd_mcq_req_to_hwq() to simplify updating hwq
-01f256228c0f89c4b48fbc7c67b64a26cdcfd740 scsi: ufs: mcq: Remove unused parameters
-9759cdc1bcb8659dae638bd0c3927eac6db9c874 scsi: megaraid: Remove redundant assignment to variable 'retval'
-be7fc734b658497aa8fe937c8109e0121c1881af scsi: message: fusion: Remove redundant pointer 'hd'
-165470fb260020861bea61a18f3e3a543a20c804 scsi: ibmvscsi_tgt: Replace deprecated strncpy() with strscpy()
-29b75184f721b16c51ef6e67eec0e40ed88381c7 scsi: mpi3mr: Use ida to manage mrioc ID
-f1aa6437733a5433cf7e22d4c2058129cf98b0f8 scsi: fnic: Clean up some inconsistent indenting
-3c4f53b2c341ec6428b98cb51a89a09b025d0953 scsi: hisi_sas: Fix a deadlock issue related to automatic dump
-3f030550476566b12091687c70071d05ad433e0d scsi: hisi_sas: Remove redundant checks for automatic debugfs dump
-69097a631c034451a75ca7cb6025460ba3a08f80 scsi: hisi_sas: Check whether debugfs is enabled before removing or releasing it
-f9242f166770b681d9f71341d96adc01c4da00ef scsi: hisi_sas: Remove hisi_hba->timer for v3 hw
-2b9bc9efa815f7264158007ad3f77cb6359c15ff Merge patch series "scsi: hisi_sas: Minor fixes and cleanups"
-883a8b451cf4c659d5bba0becfc3780394b597c8 scsi: ufs: qcom: Clarify comments about the initial phy_gear
-10a39667a117daf0c1baaebcbe589715ee79178b scsi: ufs: qcom: Avoid re-init quirk when gears match
-c0767560b012d07fb4915510e35148052cb83493 scsi: mpt3sas: Reload SBR without rebooting HBA
-a34fc8c7361c4abb7474a77ce907065db371657f scsi: mpt3sas: Update driver version to 48.100.00.00
+a977c8158a42146dcb0f25c5ce8e1122d781b845 scsi: 3w-9xxx: Remove snprintf() from sysfs call-backs and replace with sysfs_emit()
+7eaa48e9e497ecdddfbcd9323520908d6239a498 scsi: 3w-sas: Remove snprintf() from sysfs call-backs and replace with sysfs_emit()
+30cc6aa09eeea5a8ab66d4471f6bdb47dbfa14f9 scsi: 3w-xxxx: Remove snprintf() from sysfs call-backs and replace with sysfs_emit()
+f615c74de38300f2918033b5c44ac829d1fb7794 scsi: 53c700: Remove snprintf() from sysfs call-backs and replace with sysfs_emit()
+bc978cc18d46dd54160f6c29aaf9475772686dfc scsi: aacraid: aachba: Replace snprintf() with the safer scnprintf() variant
+1ad717c92925e0d4d794ea04f45a4ba121d2da69 scsi: fnic: Convert snprintf() to sysfs_emit()
+29ff822f466e3dad904b14fb978576ff4c39102b scsi: ibmvscsi: Convert snprintf() to sysfs_emit()
+01105c23de4263559919dd44e6ffc557fd261f0f scsi: ibmvscsi_tgt: Convert snprintf() to sysfs_emit()
+5fbf37e53091057fc53f1046ded8a967464c2ecf scsi: isci: Convert snprintf() to sysfs_emit()
+8179041f801d085b14441c5c92cf4beb7b429e35 scsi: pm8001: Convert snprintf() to sysfs_emit()
+994724e6b3f05fb3b6e4b1e87d7e074b65d47bf9 scsi: core: Allow passthrough to request midlayer retries
+2a1f96f60a4bf28207da653a844ea471840d2b91 scsi: core: Have midlayer retry scsi_probe_lun() errors
+987d7d3db0b9b5428c4888ed375cca290667a597 scsi: core: Retry INQUIRY after timeout
+1008f5776fe5c398e1202c93b835943b04de3ec6 scsi: sd: Use separate buf for START_STOP in sd_spinup_disk()
+c1acf38cd11efdc921f7d41107b00c2cb79453fc scsi: sd: Have midlayer retry sd_spinup_disk() errors
+fabe3ee92e180726edf7c7509dc625410a88084b scsi: device_handler: hp_sw: Have midlayer retry scsi_execute_cmd() errors
+f316ff46a0ffeada53da7e046bf67b0f3246d4b3 scsi: device_handler: rdac: Have midlayer retry send_mode_select() errors
+5dbf10473642f822de62038a70addb54756b0109 scsi: spi: Have midlayer retry spi_execute() UAs
+183053203d4532431bfdbddc04dd9306a03164a5 scsi: sd: Have midlayer retry sd_sync_cache() errors
+11a26723210e91476b15f3d4f5def88609d04880 scsi: ch: Remove unit_attention
+e11f35c46ebd746049a3d84dc68e7e8681aa26e8 scsi: ch: Have midlayer retry ch_do_scsi() UAs
+21bdff48e12bf674208e0575a03ca89d663f1a3c scsi: core: Have midlayer retry scsi_mode_sense() UAs
+8d24677ebb9e79201801cedefc5127655d5e8c3f scsi: core: Have SCSI midlayer retry scsi_report_lun_scan() errors
+eea6ef3792e34bd9476bef2fad074a8ce24915ec scsi: sd: Have pr commands retry UAs
+0f11328f2f46618c8c4734041fdb2aacfa99b802 scsi: sd: Have midlayer retry read_capacity_10() errors
+3a7b4579328ec741d909066d648ca6be139f7bb6 scsi: ses: Have midlayer retry scsi_execute_cmd() errors
+b72f2d149e24747ff686c21b44e04762fc9d3a2f scsi: sr: Have midlayer retry get_sectorsize() errors
+b8c3a7bac9b6cddeeb7cb82f3372310ecabf83ef scsi: ufs: Have midlayer retry start stop errors
+25a1f7a0a1fe6fa69a5370fbb5cc6dcf3726d81e scsi: core: Add kunit tests for scsi_check_passthrough()
+3f90ac7138edb995b4312221647b58afcc15ec06 Merge patch series "scsi: Allow scsi_execute users to request retries"
 
---===============0476603097637412314==--
+--===============6500922960993455681==--
