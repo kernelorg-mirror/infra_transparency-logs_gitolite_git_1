@@ -1,50 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7365270311124770840=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 30 Jan 2024 19:38:19 -0000
-Message-Id: <170664349942.11724.590307945239773771@gitolite.kernel.org>
-
---===============7365270311124770840==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 30 Jan 2024 19:38:36 -0000
+Message-Id: <170664351677.11923.9520730938543007337@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.8
-    old: 8c2ae772fe08e33f3d7a83849e85539320701abd
-    new: 6500ad28fd5d67d5ca0fee9da73c463090842440
+  - ref: refs/heads/for-linus
+    old: a67e1f0bd4564b485e0f0c3ed7f6bf17688be268
+    new: a3fa9838e8140584a6f338e8516f2b05d3bea812
     log: |
-         6500ad28fd5d67d5ca0fee9da73c463090842440 spi: sh-msiof: avoid integer overflow in constants
+         a3fa9838e8140584a6f338e8516f2b05d3bea812 regulator (max5970): Fix IRQ handler
          
-
---===============7365270311124770840==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1706643497 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1706643497-5bd51170828116a1abb3d3ff3c552377be3fda77
-
-8c2ae772fe08e33f3d7a83849e85539320701abd 6500ad28fd5d67d5ca0fee9da73c463090842440 refs/heads/spi-6.8
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmW5UCoACgkQJNaLcl1U
-h9Bwmwf9E3rXiTe7HC0MHyaiLZcZ8vpKcY/Gh9LIpi+cCn3BJWcWiQpxQPyUYthj
-0fCkp8VoISgpMshu6HnrenMVSR/u6OgwiTkvBu0JnuF2e98uGPpJEtqQ+r+kufHO
-yfpLcbIrnksBsadKhtL/s9tXf2g70UW75EqzAF5LZvzMUFHQ8gZJPBtdcN4rqXKf
-nopxpz5YvtMN4RoMOC4XX3FXHujRfzVCEgvPmnKkPUpb9OkeaA4uvOeglKqlvvSO
-rrBsvPGYwUrLU2COJbgFBvXjaTde7s/hQtwdnxa+Fc/LNDFuudRqgQNatM+wPzYc
-4Sw1AYrL3kFOTm/ys3nyvocXUBYruQ==
-=YLNt
------END PGP SIGNATURE-----
-
---===============7365270311124770840==--
+  - ref: refs/heads/for-next
+    old: fad5e0b6d357a6e60a16d85d916b8180b2ea0d25
+    new: a2fc922ece40709ac81f7a9901dd84ecb3298740
+    log: |
+         a3fa9838e8140584a6f338e8516f2b05d3bea812 regulator (max5970): Fix IRQ handler
+         a2fc922ece40709ac81f7a9901dd84ecb3298740 Merge remote-tracking branch 'regulator/for-6.9' into regulator-next
+         
