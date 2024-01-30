@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1137658102804374952=="
+Content-Type: multipart/mixed; boundary="===============0567709627173741388=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 30 Jan 2024 12:31:30 -0000
-Message-Id: <170661789055.16298.9379545646874422382@gitolite.kernel.org>
+Date: Tue, 30 Jan 2024 12:31:35 -0000
+Message-Id: <170661789585.16395.8759564636376302099@gitolite.kernel.org>
 
---===============1137658102804374952==
+--===============0567709627173741388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/for-next
+  - ref: refs/heads/i2c/for-current
     old: cf10015a24f36a82370151a88cb8610c8779e927
     new: 861c0981648f5b64c86fd028ee622096eb7af05a
     log: revlist-cf10015a24f3-861c0981648f.txt
 
---===============1137658102804374952==
+--===============0567709627173741388==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -405,4 +405,4 @@ e42e29cc442395d62f1a8963ec2dfb700ba6a5d7 Revert "jfs: fix shift-out-of-bounds in
 9b7bd05bebfcd3d369272d41ef32a379708ec933 Merge tag 'trace-v6.8-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 861c0981648f5b64c86fd028ee622096eb7af05a Merge tag 'jfs-6.8-rc3' of github.com:kleikamp/linux-shaggy
 
---===============1137658102804374952==--
+--===============0567709627173741388==--
