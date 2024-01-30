@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1035908698977955044=="
+Content-Type: multipart/mixed; boundary="===============9130554644483646573=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 30 Jan 2024 12:05:53 -0000
-Message-Id: <170661635331.29593.306588097568341915@gitolite.kernel.org>
+Date: Tue, 30 Jan 2024 12:06:10 -0000
+Message-Id: <170661637052.29765.5348260422368372159@gitolite.kernel.org>
 
---===============1035908698977955044==
+--===============9130554644483646573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 5d40213347480e3ab903d5438dbd0d6b0110e6b8
-    new: 4e99ffb173faaf38f010acb369bff57a20e9e531
-    log: revlist-5d4021334748-4e99ffb173fa.txt
-  - ref: refs/tags/v6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a0706eba72b90a4702dde6a0b8cc82d78e9b2495
-  - ref: refs/tags/v6.8-rc2
-    old: 0000000000000000000000000000000000000000
-    new: c18956a7ed4b71eec72700a0899ad21167b994bb
+  - ref: refs/heads/fixes
+    old: 8abf77c88929b6d20fa4f9928b18d6448d64e293
+    new: 41bccc98fb7931d63d03f326a746ac4d429c1dd3
+    log: revlist-8abf77c88929-41bccc98fb79.txt
 
---===============1035908698977955044==
+--===============9130554644483646573==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5d4021334748-4e99ffb173fa.txt
+Content-Disposition: attachment; filename=revlist-8abf77c88929-41bccc98fb79.txt
 
+02444f2ac26eae6385a65fcd66915084d15dffba btrfs: zoned: optimize hint byte for zoned allocator
+6ff09b6b8c2fb6b3edda4ffaa173153a40653067 btrfs: fix kvcalloc() arguments order in btrfs_ioctl_send()
+f03e274a8b29d1d1c1bbd7f764766cb5ca537ab7 btrfs: ref-verify: free ref cache before clearing mount opt
 d967c914a633ee797255261808720f791b658f24 btrfs: fix unbalanced unlock of mapping_tree_lock
 b18f3b60b35a8c01c9a2a0f0d6424c6d73971dc3 btrfs: zoned: fix lock ordering in btrfs_zone_activate()
 7081929ab2572920e94d70be3d332e5c9f97095a btrfs: don't abort filesystem when attempting to snapshot deleted subvolume
@@ -1053,8 +1050,5 @@ a08ebda97e2a32b8f1de2c8240337f726c2e1ba7 Merge tag 'fixes-2024-01-28' of git://g
 4854cf9c61d060209d2b431f4a787f6952967022 Merge tag 'mips-fixes_6.8_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 3eb5ca857d38ae7a694de6e59a3de7990af87919 Merge tag 'cxl-fixes-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 41bccc98fb7931d63d03f326a746ac4d429c1dd3 Linux 6.8-rc2
-21a3b988053a05e0c397ce407fa5fb01550c6e0d mmc: core: Remove usage of the deprecated ida_simple_xx() API
-05c7b901a03f5ac745ebd8205b1400ce26606588 dt-bindings: mmc: fsl-imx-esdhc: add i.MX95 compatible string
-4e99ffb173faaf38f010acb369bff57a20e9e531 mmc: core Drop BLK_BOUNCE_HIGH
 
---===============1035908698977955044==--
+--===============9130554644483646573==--
