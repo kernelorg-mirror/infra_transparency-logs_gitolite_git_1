@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0789899881484695232=="
+Content-Type: multipart/mixed; boundary="===============3493127426976993664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 30 Jan 2024 12:59:20 -0000
-Message-Id: <170661956072.3287.16042177495620450129@gitolite.kernel.org>
+Date: Tue, 30 Jan 2024 12:59:38 -0000
+Message-Id: <170661957879.3490.11471162702160911700@gitolite.kernel.org>
 
---===============0789899881484695232==
+--===============3493127426976993664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
-    new: a34fc8c7361c4abb7474a77ce907065db371657f
-    log: revlist-6613476e225e-a34fc8c7361c.txt
+  - ref: refs/heads/for-next
+    old: f4469f3858352ad1197434557150b1f7086762a0
+    new: 890d900e7fec7f7956c26bd47b4f0f07a0a507b1
+    log: revlist-f4469f385835-890d900e7fec.txt
 
---===============0789899881484695232==
+--===============3493127426976993664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6613476e225e-a34fc8c7361c.txt
+Content-Disposition: attachment; filename=revlist-f4469f385835-890d900e7fec.txt
 
 2777e73fc154e2e87233bdcc0e2402b33815198e scsi: ufs: core: Add CPU latency QoS support for UFS driver
 0652205b4ce2c954a08f9cbba432aadda79c6484 scsi: ufs: ufs-mediatek: Migrate to UFSHCD generic CPU latency PM QoS support
@@ -51,5 +51,6 @@ f9242f166770b681d9f71341d96adc01c4da00ef scsi: hisi_sas: Remove hisi_hba->timer 
 10a39667a117daf0c1baaebcbe589715ee79178b scsi: ufs: qcom: Avoid re-init quirk when gears match
 c0767560b012d07fb4915510e35148052cb83493 scsi: mpt3sas: Reload SBR without rebooting HBA
 a34fc8c7361c4abb7474a77ce907065db371657f scsi: mpt3sas: Update driver version to 48.100.00.00
+890d900e7fec7f7956c26bd47b4f0f07a0a507b1 Merge branch 'misc' into for-next
 
---===============0789899881484695232==--
+--===============3493127426976993664==--
