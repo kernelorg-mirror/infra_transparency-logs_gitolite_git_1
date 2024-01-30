@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7905794405835720409=="
+Content-Type: multipart/mixed; boundary="===============1893173913121129320=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 30 Jan 2024 14:28:39 -0000
-Message-Id: <170662491947.3489.7846456438624655407@gitolite.kernel.org>
+Date: Tue, 30 Jan 2024 14:28:48 -0000
+Message-Id: <170662492818.3623.12748868579935825452@gitolite.kernel.org>
 
---===============7905794405835720409==
+--===============1893173913121129320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/master
-    old: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
+  - ref: refs/heads/usb-linus
+    old: 610a9b8f49fbcf1100716370d3b5f6f884a2835a
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-a39b6ac3781d-6613476e225e.txt
+    log: revlist-610a9b8f49fb-6613476e225e.txt
 
---===============7905794405835720409==
+--===============1893173913121129320==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a39b6ac3781d-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-610a9b8f49fb-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============7905794405835720409==--
+--===============1893173913121129320==--
