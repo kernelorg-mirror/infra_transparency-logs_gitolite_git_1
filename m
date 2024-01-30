@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 30 Jan 2024 14:50:04 -0000
-Message-Id: <170662620409.20504.464612987090805170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Tue, 30 Jan 2024 14:51:06 -0000
+Message-Id: <170662626694.20988.1610051991631423772@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/perf/perf-tools
+user: acme
 changes:
-  - ref: refs/heads/for-6.9/io_uring
-    old: 712fc7e5862c2b9af7cf37418e4b398c5493ffb5
-    new: ab2162895e46ad9dd656257fbdde67ee2f8df3e7
+  - ref: refs/heads/tmp.perf-tools
+    old: becc24e96ad4b9bc5c5bba800dc184661b6702bc
+    new: 1f8c43b09ec6906079ac1f02e2b0a381c6f48c6c
     log: |
-         c89beb6de220ad973f70356107983c85df5c9d5c io_uring/kbuf: cleanup passing back cflags
-         bfd073658ec681c76cae82b3a78cb906a69d5175 io_uring: remove looping around handling traditional task_work
-         d800eb09ca95847b9c51a77e32bdb8db0dd61691 io_uring: remove 'loops' argument from trace_io_uring_task_work_run()
-         ab2162895e46ad9dd656257fbdde67ee2f8df3e7 io_uring: handle traditional task_work in FIFO order
+         21fdd8dd3726199451fc495f20104356e071a997 tools headers UAPI: Sync unistd.h to pick {list,stat}mount, lsm_{[gs]et_self_attr,list_modules} syscall numbers
+         15d6daad8f8add8ef99b6e4e2b5bf0db48e1a8db tools headers x86 cpufeatures: Sync with the kernel sources to pick TDX, Zen, APIC MSR fence changes
+         efe80f9c9063228136bc3824f7ac6b4ff2e273b4 tools headers: Update the copy of x86's mem{cpy,set}_64.S used in 'perf bench'
+         7814fe24a6211a610db0b408d87420403b5b7a36 perf evlist: Fix evlist__new_default() for > 1 core PMU
+         1f8c43b09ec6906079ac1f02e2b0a381c6f48c6c tools include UAPI: Sync linux/mount.h copy with the kernel sources
          
