@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
-Date: Tue, 30 Jan 2024 08:08:57 -0000
-Message-Id: <170660213704.8444.13645132033839806260@gitolite.kernel.org>
+Date: Tue, 30 Jan 2024 08:09:39 -0000
+Message-Id: <170660217921.8788.1748842486237589046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zx2c4/cgit
 user: zx2c4
 changes:
-  - ref: refs/heads/ch/about-link
-    old: 0c5c027d88a0b4086a0d4cb5e1cbba205085485a
-    new: c40704523b9936fefb418494f9bf4e96e8923b73
+  - ref: refs/heads/ch/dynamic-aging
+    old: 9618ad50647d41a5313505a333502d7edd9ed07c
+    new: 8a99af4999ad8170e7c92c380f6774ee19a712d0
     log: |
          00ecfaadea2c40cc62b7a43e246384329e6ddb98 config: make empty js= omit script tag
-         c30a42306ad379fa2d843486804b4a976cdb2d64 ui-tree: provide link to about page for pretty formatting
-         c40704523b9936fefb418494f9bf4e96e8923b73 ui-tree: add about link in tree view list
+         3c9e68ed67b1a62de573470622d32108038e5301 ui-shared: add now-dynamic age to footer
+         8a99af4999ad8170e7c92c380f6774ee19a712d0 css: make the footer opaque
          
