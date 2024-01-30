@@ -1,42 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7941330423743325784=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 30 Jan 2024 23:25:40 -0000
-Message-Id: <170665714050.15968.4448222176431408520@gitolite.kernel.org>
-
---===============7941330423743325784==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Tue, 30 Jan 2024 23:32:25 -0000
+Message-Id: <170665754518.20016.13288291324322969498@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
   - ref: refs/heads/master
-    old: 861c0981648f5b64c86fd028ee622096eb7af05a
-    new: 2a6526c4f389bb741e511be11721b3d1cbf1034a
-    log: revlist-861c0981648f-2a6526c4f389.txt
-
---===============7941330423743325784==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-861c0981648f-2a6526c4f389.txt
-
-ed1a72fb0d646c983c85b62144fb1d134a8edb71 kunit: Fix a NULL vs IS_ERR() bug
-083974ebb8fc65978d6cacd1bcfe9158d6234b98 kunit: device: Fix a NULL vs IS_ERR() check in init()
-57e39086fb868a84f772cf097004f4715d8aaccb MAINTAINERS: kunit: Add Rae Moar as a reviewer
-a1af6a2bfa0cb46d70b7df5352993e750da6c79b kunit: run test suites only after module initialization completes
-1a9f2c776d1416c4ea6cb0d0b9917778c41a1a7d Documentation: KUnit: Update the instructions on how to test static functions
-d53271c05965b4469c57a18c66585075df81c504 selftests/rseq: Do not skip !allowed_cpus for mm_cid
-f1fea725cc93fcc3c5af9a2af63ffdc40dd2259e selftests/livepatch: fix and refactor new dmesg message code
-5820cfee443f8a90ea3eb9f99f57f2049a4a93c3 kselftest/seccomp: Use kselftest output functions for benchmark
-b54761f6e9773350c0d1fb8e1e5aacaba7769d0f kselftest/seccomp: Report each expectation we assert as a KTAP test
-53ed2ac8fc1de6658aadae5714627ac99b9dddb0 soc: apple: mailbox: error pointers are negative integers
-d1d873a9bfac44a9a455d2ec47b85ea66f7888b9 Merge tag 'linux_kselftest-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-2a6526c4f389bb741e511be11721b3d1cbf1034a Merge tag 'linux_kselftest-kunit-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-
---===============7941330423743325784==--
+    old: a4791bbfc65f19dd2efe3a37af6b10dd20ba6ad0
+    new: 80bfc1ebe32b3621f68403d7118996cd6d6ba304
+    log: |
+         a372c567956bd7fce7671bc78a5470f9b7927478 CodeSamples/cpu: Update coe/fre/rfe data to that of clean script run
+         515b31fcda9170df11edfbc6e7c25a8ef43d79dd CodeSamples/cpu: Remove old experimental coe/fre/rfe data
+         154a6b68ca33cca1ee7e7bdb9f133efa00ae93a8 memorder: Tweak size of figures in Answer to QQz on x86 memory ordering
+         8f17c47fee6a9341724d62578cd5d11f05038321 memorder: Wordsmith quick quiz on x86 memory ordering
+         a10c638c3dbb2bfc4748990596d42ac33cb7856c CodeSamples/cpu/data/.../plots.sh: Fix typo in xlabel for fre plot
+         065052e729ba4f0ebc84583403416d4c964e7fb2 CodeSamples/cpu/data: Use "smooth frequency" for plotting histogram
+         970173e49a07a3bc3ec55a0d27f3a3cba39e488f CodeSamples/cpu: Finalize Akira's switch from .png to .eps
+         80bfc1ebe32b3621f68403d7118996cd6d6ba304 memorder: Self-review January 30
+         
