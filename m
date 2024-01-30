@@ -1,29 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Tue, 30 Jan 2024 15:50:06 -0000
-Message-Id: <170662980637.6086.10587051218172733885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Tue, 30 Jan 2024 15:56:53 -0000
+Message-Id: <170663021389.10965.310416860428170168@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/main
-    old: 139a74134c52a7f96cc7b16a53988097dd2d4175
-    new: 91e3be8fdf1b9c48c7bfc98516aac3d51858a9a5
+  - ref: refs/heads/fixes
+    old: 93ffe3f1e97da3657451004145e767f88ca218c6
+    new: b54761f6e9773350c0d1fb8e1e5aacaba7769d0f
     log: |
-         071144c0bbb9a95f5c529fd536488cebcc652374 tc: add NLM_F_ECHO support for actions
-         cf0eae9a9fc4a40e98bac883919dc872244ee570 tc: Add NLM_F_ECHO support for filters
-         91e3be8fdf1b9c48c7bfc98516aac3d51858a9a5 Merge branch 'echo-tc-filter-actions' into next
-         
-  - ref: refs/heads/master
-    old: 139a74134c52a7f96cc7b16a53988097dd2d4175
-    new: 91e3be8fdf1b9c48c7bfc98516aac3d51858a9a5
-    log: |
-         071144c0bbb9a95f5c529fd536488cebcc652374 tc: add NLM_F_ECHO support for actions
-         cf0eae9a9fc4a40e98bac883919dc872244ee570 tc: Add NLM_F_ECHO support for filters
-         91e3be8fdf1b9c48c7bfc98516aac3d51858a9a5 Merge branch 'echo-tc-filter-actions' into next
+         f1fea725cc93fcc3c5af9a2af63ffdc40dd2259e selftests/livepatch: fix and refactor new dmesg message code
+         5820cfee443f8a90ea3eb9f99f57f2049a4a93c3 kselftest/seccomp: Use kselftest output functions for benchmark
+         b54761f6e9773350c0d1fb8e1e5aacaba7769d0f kselftest/seccomp: Report each expectation we assert as a KTAP test
          
