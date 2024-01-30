@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6500922960993455681=="
+Content-Type: multipart/mixed; boundary="===============3978010183070509085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 30 Jan 2024 02:26:54 -0000
-Message-Id: <170658161423.20973.10609461080299806701@gitolite.kernel.org>
+Date: Tue, 30 Jan 2024 02:27:09 -0000
+Message-Id: <170658162928.21142.9051299513227115944@gitolite.kernel.org>
 
---===============6500922960993455681==
+--===============3978010183070509085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 31b23871d23f40a6d8cca041cfa5c2c0e2bc42bb
-    new: 393a705b9d745c5497213607f5256aa28e31d6fd
-    log: revlist-31b23871d23f-393a705b9d74.txt
+  - ref: refs/heads/6.9/scsi-staging
+    old: a34fc8c7361c4abb7474a77ce907065db371657f
+    new: 3f90ac7138edb995b4312221647b58afcc15ec06
+    log: revlist-a34fc8c7361c-3f90ac7138ed.txt
 
---===============6500922960993455681==
+--===============3978010183070509085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1706581601 -0500
+pusher 75C5DE3D 1706581617 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1706581601-4f810d7fd133e05e033580495e7bec178b32961b
+nonce 1706581616-8008e15cbcb74a2c8abe0ff5af7299346a8b5762
 
-31b23871d23f40a6d8cca041cfa5c2c0e2bc42bb 393a705b9d745c5497213607f5256aa28e31d6fd refs/tags/mkp-scsi-staging
+a34fc8c7361c4abb7474a77ce907065db371657f 3f90ac7138edb995b4312221647b58afcc15ec06 refs/heads/6.9/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmW4XmEACgkQ7ulgGnXF
-3j1A6g//WJ994ZuDdvPyEoxJX5ntBk0QkznkpNwCuAlqoNblplG10SKWT+XvPgCo
-M6qppT+/C5e2BIt/m0ygpc9sOoXiCWDpaESv5CB0HTL34RIwpmiTilYI1LXxct4Z
-3aSHzbhZTATTI+7Da6AanzysVDQQ/TcpR1LgX5DeO1pGqFEAhvxi/VBcQnnBRc5h
-POUp8PV9/5RvPHsLSe9Xy2CXbwuVt7TG+f+nORYLWB8x3c/LaN+YuR3i6+EoIxZk
-6Rnige8Hp6Niselcde1GKm15HVbgXwweAYTvXrUhfOxUux1qqFIZQMiEsXKQ6L7E
-hBsCIgv3WauBZVS9BGqe9WWzQLcb7HhSJl8V0x2dremL913pK/6G9wDp2Y5tv+Bk
-deh0DtpE+Bi0YtDzlbr9ipT+WOzG7W/OwhwtXiN/rAsxxzLCvdn+IditO+JByjJ8
-9AJDaizP1AUJdt5Q72F804Z1ThrymjY2i1fiJeYuH7MRATWA0G9ANSNhObQr2PBv
-D9OUnv8bJS+28knolrbwyQd/eR+qMMu+CXCsjEj5rNfE7R+AGxkJ//uccxWn/zzZ
-8De40m3uv6JJ35qpVc9LHC0SRGGZOYwiJzbNSnlMDF5cyBGU5ANjR52oGJca4ywF
-BZNRZQNb/7csJgs3DY7CLtOLYpQM0tmFQxtwwadfdls3KH5+5LA=
-=8UzK
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmW4XnEACgkQ7ulgGnXF
+3j2l5w/6A9ONL9oGrptKlLjwwB3boJ1RwLUkF09+YX4GVXiL0LQsMI97NBBEOlyz
+HFBHYHdJ0+uU+yK3I5voz+WL2U2gqZFoH/9QRiIEH7D+AiM4k1P0ZUfiNzwAYVim
+US0T6Fi8UngeY4FjoupyRaUuOL2g8SKmIfwvtsjcyy2J1v5HRUHKr76VFnSJ3iJ/
+MNvHOVjA9mTa1b4nvn67+16098ASF6yOcIWW4rzSTD/MlvUsrJ72WF9ykZOYFqMg
+93k5QV8gSrfWcBGfBwL4THAnkueU/0IDxtIphTCn+mwRB+3IqbV5BJjXn33Jnbsr
+qAN8qZ9gAXZc+FjWUj89RmrIKtgjmrAHIGfL6wK7SO2mGRV9VhRyqyYsx2kAaqrJ
+1SR3K3NPo8PAWAwkWdwEwq3lj3wNCA4Owr6IOTaChraLERvCc1qZvotAGFqVVSO4
+f0EK00Hyz1O0IAyx9mPGKh+Fu6ppuvC17bgU6T+BTeuKQEmiMDKXf5dRNUos8guA
+JFGKALMOtngiG86fVR/8nE5BSCPjceQ/oy81/CTHhvnna0HFPeXFajyjj2mi9su8
+F8nv+/CdmUmyjDakkqKg7ynxiyi4q2zUld1MCcdDHGR9uYd2RytPhNrqD3PF5Zr5
+4XV6mFxlI/AALWwXZpj8KWLDagqjhtdnoAeChfTb9CWfFt9P7LM=
+=tSZ6
 -----END PGP SIGNATURE-----
 
---===============6500922960993455681==
+--===============3978010183070509085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-31b23871d23f-393a705b9d74.txt
+Content-Disposition: attachment; filename=revlist-a34fc8c7361c-3f90ac7138ed.txt
 
 a977c8158a42146dcb0f25c5ce8e1122d781b845 scsi: 3w-9xxx: Remove snprintf() from sysfs call-backs and replace with sysfs_emit()
 7eaa48e9e497ecdddfbcd9323520908d6239a498 scsi: 3w-sas: Remove snprintf() from sysfs call-backs and replace with sysfs_emit()
@@ -87,4 +87,4 @@ b8c3a7bac9b6cddeeb7cb82f3372310ecabf83ef scsi: ufs: Have midlayer retry start st
 25a1f7a0a1fe6fa69a5370fbb5cc6dcf3726d81e scsi: core: Add kunit tests for scsi_check_passthrough()
 3f90ac7138edb995b4312221647b58afcc15ec06 Merge patch series "scsi: Allow scsi_execute users to request retries"
 
---===============6500922960993455681==--
+--===============3978010183070509085==--
