@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 30 Jan 2024 12:50:26 -0000
-Message-Id: <170661902649.30810.5061741919434715213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 30 Jan 2024 12:56:56 -0000
+Message-Id: <170661941652.2358.7653211840338886112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: f8affba725487381046e918277de58fa864802b7
-    new: aa2b2eb3934859904c287bf5434647ba72e14c1c
+    old: 8e41d6644f9aff1f898997418e4f2fee6bb959e5
+    new: 4acf4e62cd572b0c806035046b3698f5585ab821
     log: |
-         aa2b2eb3934859904c287bf5434647ba72e14c1c llc: call sock_orphan() at release time
+         4acf4e62cd572b0c806035046b3698f5585ab821 selftests: forwarding: Add missing config entries
          
