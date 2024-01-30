@@ -1,27 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Tue, 30 Jan 2024 22:09:05 -0000
-Message-Id: <170665254577.23839.1375510895611914966@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8863986284927222114=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 30 Jan 2024 22:10:17 -0000
+Message-Id: <170665261779.25935.9790122085709475453@gitolite.kernel.org>
+
+--===============8863986284927222114==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 15e8e6a8fe07faa5514d1bee601beada06582b2b
-    new: 5a287d3d2b9de2b3e747132c615599907ba5c3c1
+  - ref: refs/heads/master
+    old: d0889f1b2000525d77c7d9b8e4a7ac977d550504
+    new: c47a47d8890a855f30dcd00676489ac19dbefe74
     log: |
-         99b817c173cd213671daecd25ca27f56b0c7c4ec lsm: fix the logic in security_inode_getsecctx()
-         5a287d3d2b9de2b3e747132c615599907ba5c3c1 lsm: fix default return value of the socket_getpeersec_*() hooks
+         c47a47d8890a855f30dcd00676489ac19dbefe74 init: don't crash when user.name or user.email arent't set
          
-  - ref: refs/heads/stable-6.8
-    old: 15e8e6a8fe07faa5514d1bee601beada06582b2b
-    new: 5a287d3d2b9de2b3e747132c615599907ba5c3c1
-    log: |
-         99b817c173cd213671daecd25ca27f56b0c7c4ec lsm: fix the logic in security_inode_getsecctx()
-         5a287d3d2b9de2b3e747132c615599907ba5c3c1 lsm: fix default return value of the socket_getpeersec_*() hooks
-         
+
+--===============8863986284927222114==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1706652616 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1706652616-9e62f2f8172f48b7a9cc86dcf124a89154fa4f06
+
+d0889f1b2000525d77c7d9b8e4a7ac977d550504 c47a47d8890a855f30dcd00676489ac19dbefe74 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZblzyAAKCRC2xBzjVmSZ
+bF7rAP9ZNkblh9VD7lDAV05RtcLHI8aQWZQp/N7VOViYVE2Q9wD/SULRhw8Ed+Ny
+qTAQD9qbLxCF2X+wxfchpjhmy5B5bA0=
+=+q+3
+-----END PGP SIGNATURE-----
+
+--===============8863986284927222114==--
