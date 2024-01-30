@@ -1,38 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============5595079481898781346=="
+Content-Type: multipart/mixed; boundary="===============8292292737708622822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 30 Jan 2024 02:57:17 -0000
-Message-Id: <170658343795.11134.8249403024819698297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 30 Jan 2024 02:57:27 -0000
+Message-Id: <170658344796.11278.18062233733881727923@gitolite.kernel.org>
 
---===============5595079481898781346==
-Content-Type: text/plain; charset="utf-8"
+--===============8292292737708622822==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 596764183be8ebb13352b281a442a1f1151c9b06
     new: 41d66f96d0f15a0a2ad6fa2208f6bac1a66cbd52
     log: revlist-596764183be8-41d66f96d0f1.txt
-  - ref: refs/heads/stable
-    old: 4854cf9c61d060209d2b431f4a787f6952967022
-    new: 41bccc98fb7931d63d03f326a746ac4d429c1dd3
-    log: |
-         68deb9972079c9904fe714c049a7f08bd997a9ee tools/testing/cxl: Disable "missing prototypes / declarations" warnings
-         c97dac57c804b53eab492ca0230d86356729d633 tools/testing/nvdimm: Disable "missing prototypes / declarations" warnings
-         d72a4caf685989e353dff0a97d7376ee10edbf87 cxl/pci: Skip irq features if MSI/MSI-X are not supported
-         d76779dd3681c01a4c6c3cae4d0627c9083e0ee6 cxl/region：Fix overflow issue in alloc_hpa()
-         3eb5ca857d38ae7a694de6e59a3de7990af87919 Merge tag 'cxl-fixes-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-         41bccc98fb7931d63d03f326a746ac4d429c1dd3 Linux 6.8-rc2
-         
-  - ref: refs/tags/next-20231030
-    old: 5fd9e96c182e6a7e1279df7c62a177517c33b9d9
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240130
     old: 0000000000000000000000000000000000000000
     new: 4407fe6bdb3d2b1769839b1f0d0a2b601e7539af
@@ -40,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: c18956a7ed4b71eec72700a0899ad21167b994bb
 
---===============5595079481898781346==
+--===============8292292737708622822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -872,4 +858,4 @@ a68c28547c8e0fa2fade4082169e2fd9237c0744 Merge branch 'rust-next' of https://git
 efc82b5cdb19fc5cf9fabf27b20f0ac7c0d46d79 Merge branch 'for-next/kspp' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux.git
 41d66f96d0f15a0a2ad6fa2208f6bac1a66cbd52 Add linux-next specific files for 20240130
 
---===============5595079481898781346==--
+--===============8292292737708622822==--
