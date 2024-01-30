@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8815435009655934838=="
+Content-Type: multipart/mixed; boundary="===============7422864363322932308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Tue, 30 Jan 2024 14:26:19 -0000
-Message-Id: <170662477951.2447.15236941118839803742@gitolite.kernel.org>
+Date: Tue, 30 Jan 2024 14:26:31 -0000
+Message-Id: <170662479124.2632.17742345331447951564@gitolite.kernel.org>
 
---===============8815435009655934838==
+--===============7422864363322932308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
-    old: 0cbbbe09d49b959d0225f7f2223a8ae3b2c1964c
+  - ref: refs/heads/gnss-linus
+    old: a39b6ac3781d46ba18193c9dbb2110f31e9bffe9
     new: 41bccc98fb7931d63d03f326a746ac4d429c1dd3
-    log: revlist-0cbbbe09d49b-41bccc98fb79.txt
+    log: revlist-a39b6ac3781d-41bccc98fb79.txt
 
---===============8815435009655934838==
+--===============7422864363322932308==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0cbbbe09d49b-41bccc98fb79.txt
+Content-Disposition: attachment; filename=revlist-a39b6ac3781d-41bccc98fb79.txt
 
 02444f2ac26eae6385a65fcd66915084d15dffba btrfs: zoned: optimize hint byte for zoned allocator
 6ff09b6b8c2fb6b3edda4ffaa173153a40653067 btrfs: fix kvcalloc() arguments order in btrfs_ioctl_send()
@@ -1051,4 +1051,4 @@ a08ebda97e2a32b8f1de2c8240337f726c2e1ba7 Merge tag 'fixes-2024-01-28' of git://g
 3eb5ca857d38ae7a694de6e59a3de7990af87919 Merge tag 'cxl-fixes-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 41bccc98fb7931d63d03f326a746ac4d429c1dd3 Linux 6.8-rc2
 
---===============8815435009655934838==--
+--===============7422864363322932308==--
