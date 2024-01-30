@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1136574848697920103=="
+Content-Type: multipart/mixed; boundary="===============3533442479131309367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 30 Jan 2024 02:26:29 -0000
-Message-Id: <170658158918.20623.17587924031580844240@gitolite.kernel.org>
+Date: Tue, 30 Jan 2024 02:26:33 -0000
+Message-Id: <170658159349.20706.11302632139622051547@gitolite.kernel.org>
 
---===============1136574848697920103==
+--===============3533442479131309367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: c4450adad4691863671843ad5bb63978e023bca5
-    new: 60c472d0afb4f0c382121250ebece89b50aa0e9a
-    log: revlist-c4450adad469-60c472d0afb4.txt
+  - ref: refs/heads/6.9/scsi-queue
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: a34fc8c7361c4abb7474a77ce907065db371657f
+    log: revlist-6613476e225e-a34fc8c7361c.txt
 
---===============1136574848697920103==
+--===============3533442479131309367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1706581577 -0500
+pusher 75C5DE3D 1706581592 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1706581576-47e54586d9d4fb1228c2e79db18120e589b1477d
+nonce 1706581591-bff2d89ee186619e6952da85b67e465efc3f73f5
 
-c4450adad4691863671843ad5bb63978e023bca5 60c472d0afb4f0c382121250ebece89b50aa0e9a refs/tags/mkp-scsi-queue
+6613476e225e090cc9aad49be7fa504e290dd33d a34fc8c7361c4abb7474a77ce907065db371657f refs/heads/6.9/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmW4XkkACgkQ7ulgGnXF
-3j2wvxAAlpVHtjS6Uys+RRETXE9aIPWVHICusCbHwEzIotca0S7lCK+LSb2Id+K1
-zI4PFgTsGe4r7Cl+qfcPb95+q2Ft16uEWttITEcHrzymm57C+v7R/+uCMSLguZDy
-Y6Tn1Zy+s80d86AIalqGjGzCqiztn7TcG+j6HdCIV/k2Cr0LbJpyRwDTJAtPLa0a
-UX+wzpHdz6Djc8QrfXOCYegi775hHWuc55gM4SHgaBbjKHST/vcGAGEKhxf4ZjYs
-fGV58nN+QtJXyIeRYmy3itsAWA3/k+Mzi7v8ZJ4+bKdSeL8Omd4KrGCbebPmtMB6
-kjAno2p2uQ9wbtWYOd7UsP4sJvMSitCNA/YDkel9xovzzHw9G8zbqrdOEvtAbLhS
-DErNgmO5r3KESrQGEmtmKBLmnBzufuYwJNgtCN/0NVEeZaHFzRXi5c0bTngSq9Cz
-zI/baIA3X1tC2O+Oh/IPhdF6N49BiAr8OfsoYTSoAC+owMMfyP77xCV/PMAUOJhE
-tRYwd9MqWchdfR0WPqtLPS83sgA9Kx3SvasXRBAGrnnE/yYvzLe+KboQz8z4mSGu
-FaBQk57SbI5WsFAjsGCUIJcmHyejQBOOwaIWAbntthKWIPfdqOHViCsKiwSF15IF
-EDHXcxh+sGj95M6gYUKQD+jFKG6S9/IRIS/b9bIR4IkUDwKWp78=
-=AnsL
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmW4XlgACgkQ7ulgGnXF
+3j1akxAAnrh89jTJmh2Eew6/TR1icrFdNnbvnp8AcrHTLyJJ4Xxl4KFCfd4x0WiV
+PPH/VY+rri1GGidsUcVAyiymlWonRYHwG3e7xZwSGRHdl2nXAuAsgBOmZ2IaLbQ1
+foweRlshRWexsBGe3r1D3cxUyKNTxPLmYlVZuNyL5KZnafs9c67tp5rM/H6N3gFP
+vn69EMXI3G3A/Y+9gTeKTUt3vJUNfPV1fi0lab4ObBB0SUvfJ44w6SwTtGi2Xp/t
+jHquq7r7rFc3co7NUZpc3kWs4BnFjQRWxqpVoV6S6M8bynKNkxTR1QXFgz6P5Sux
+2mnOTUSTCJbWktqs0r7J5MjHpVpEqcTo7Mz0jRkv9gxmAgYy7VlK9B+SGOXWuUBn
+EJT7FvA84qZeetc+ZLGPXcpBVtChuULb+C8Hk4B90/ParOmLoyEwZes2WNPghoi2
+sU5CpcH2uyYcPElaF/Gr//Dd6D7WunwJER0IFKlOj9u3RAzhgIkcxfbFBXBcnOq9
+3v/ZqYbLh+VlpoEokaBBNHgULSS6hysy4/eDUZnynAL+MiQZQ2Z2Ms4xyf6w+UAs
+irvFKFY4jDpJgac+NXPciHTut8M74dxDhgmo04Zz6vqJoZFi8EpqTh8coED8Rfkb
+euC610/AtI5yVSMU989oChjqYQ8oKQlYzcvtoGfbivzhDQoCAXQ=
+=p4Sh
 -----END PGP SIGNATURE-----
 
---===============1136574848697920103==
+--===============3533442479131309367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4450adad469-60c472d0afb4.txt
+Content-Disposition: attachment; filename=revlist-6613476e225e-a34fc8c7361c.txt
 
 2777e73fc154e2e87233bdcc0e2402b33815198e scsi: ufs: core: Add CPU latency QoS support for UFS driver
 0652205b4ce2c954a08f9cbba432aadda79c6484 scsi: ufs: ufs-mediatek: Migrate to UFSHCD generic CPU latency PM QoS support
@@ -82,4 +82,4 @@ f9242f166770b681d9f71341d96adc01c4da00ef scsi: hisi_sas: Remove hisi_hba->timer 
 c0767560b012d07fb4915510e35148052cb83493 scsi: mpt3sas: Reload SBR without rebooting HBA
 a34fc8c7361c4abb7474a77ce907065db371657f scsi: mpt3sas: Update driver version to 48.100.00.00
 
---===============1136574848697920103==--
+--===============3533442479131309367==--
