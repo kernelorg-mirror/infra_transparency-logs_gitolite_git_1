@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 30 Jan 2024 04:05:32 -0000
-Message-Id: <170658753206.27638.6406897093204160705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Tue, 30 Jan 2024 04:25:11 -0000
+Message-Id: <170658871149.10764.15055246305069393092@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/for-next
-    old: ff2071a7b7fd77908417603c4a785822939b3841
-    new: 6668e818f960b0f32110a9efa7c97351a5771b35
-    log: |
-         6668e818f960b0f32110a9efa7c97351a5771b35 bpf,token: Use BIT_ULL() to convert the bit mask
-         
+  - ref: refs/heads/md-tmp-6.9
+    old: 0000000000000000000000000000000000000000
+    new: 861c0981648f5b64c86fd028ee622096eb7af05a
