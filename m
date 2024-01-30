@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 30 Jan 2024 20:22:35 -0000
-Message-Id: <170664615503.11184.4572710780589788616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Tue, 30 Jan 2024 20:26:50 -0000
+Message-Id: <170664641055.14326.17714548413160420957@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/i2c/for-next
-    old: 861c0981648f5b64c86fd028ee622096eb7af05a
-    new: 6b572ea231236bb3be4b819d92119470ac121a9e
-    log: |
-         8e7d967f04df0fa2c2db00f47ac4cd5ea16ade91 dt-bindings: i2c: pca954x: Add custom properties for MAX7357
-         6b572ea231236bb3be4b819d92119470ac121a9e i2c: muxes: pca954x: Enable features on MAX7357
-         
+  - ref: refs/heads/modules-next
+    old: 93c09dc434bb81bfc7be3ca14142af93c5c78980
+    new: 3559ad395bf02f3dee576dc9acab4ce330ce57b5
