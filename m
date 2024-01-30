@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 30 Jan 2024 15:10:02 -0000
-Message-Id: <170662740285.3130.9352467593072888409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 30 Jan 2024 15:12:22 -0000
+Message-Id: <170662754298.4909.9854048492128458482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/asoc-6.9
-    old: 01dffdcaa094858a03e3694694815f1a4915940c
-    new: 84b22af29ff6c74e09e3faa0ad52c843cca1f426
+  - ref: refs/heads/master
+    old: 6668e818f960b0f32110a9efa7c97351a5771b35
+    new: 27a90b14b93d3b2e1efd10764e456af7e2a42991
     log: |
-         84b22af29ff6c74e09e3faa0ad52c843cca1f426 ASoC: Intel: mtl-match: Add cs42l43_l0 cs35l56_l23 for MTL
+         27a90b14b93d3b2e1efd10764e456af7e2a42991 bpf: Build type-punning BPF selftests with -fno-strict-aliasing
          
