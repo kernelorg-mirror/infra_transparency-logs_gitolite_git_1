@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4174576128451399606=="
+Content-Type: multipart/mixed; boundary="===============0432274653868130394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Tue, 30 Jan 2024 18:23:54 -0000
-Message-Id: <170663903406.17495.17856869920019758492@gitolite.kernel.org>
+Date: Tue, 30 Jan 2024 18:24:07 -0000
+Message-Id: <170663904771.17696.4735827875005347614@gitolite.kernel.org>
 
---===============4174576128451399606==
+--===============0432274653868130394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mani/mhi
 user: mani
 changes:
-  - ref: refs/heads/master
-    old: b85ea95d086471afb4ad062012a4d73cd328fa86
-    new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-b85ea95d0864-6613476e225e.txt
+  - ref: refs/heads/mhi-next
+    old: 01bd694ac2f682fb8017e16148b928482bc8fa4b
+    new: 8ddf54a32111f6dbe06cd318af443c6545a6c037
+    log: revlist-01bd694ac2f6-8ddf54a32111.txt
 
---===============4174576128451399606==
+--===============0432274653868130394==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b85ea95d0864-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-01bd694ac2f6-8ddf54a32111.txt
 
-4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
-1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1050,5 +1048,7 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
+bce3f770684cc1d91ff9edab431b71ac991faf29 bus: mhi: host: Add MHI_PM_SYS_ERR_FAIL state
+8ddf54a32111f6dbe06cd318af443c6545a6c037 bus: mhi: host: Read PK HASH dynamically
 
---===============4174576128451399606==--
+--===============0432274653868130394==--
