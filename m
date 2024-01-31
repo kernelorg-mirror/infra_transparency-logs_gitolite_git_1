@@ -1,20 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 31 Jan 2024 18:50:04 -0000
-Message-Id: <170672700458.12130.14563166708395579390@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Wed, 31 Jan 2024 18:55:39 -0000
+Message-Id: <170672733946.15736.12833469316385071458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/for-6.9/io_uring
-    old: ab2162895e46ad9dd656257fbdde67ee2f8df3e7
-    new: 1221a44efc82768535e845c37ac18ecae219559b
+  - ref: refs/heads/master
+    old: 3aa182bbc5b657329a8b85fa5303b8af0f461636
+    new: 7d0f351da46098b3bbb147f886f059473b84ff48
     log: |
-         e0d54a3477b30a93474f5f0b5fd852f82c81efba io_uring: remove next io_kiocb fetch in task_work running
-         1221a44efc82768535e845c37ac18ecae219559b io_uring: remove unconditional looping in local task_work handling
+         a96fb711c6be76bcfbcf594a865002fa7c0eb525 Input: matrix_keypad - avoid repeatedly converting GPIO to IRQ
+         8cf4b3683a713a4b54d44565e8a32b4cca357084 Input: matrix_keypad - consolidate handling of clustered interrupt
+         7d0f351da46098b3bbb147f886f059473b84ff48 Input: matrix_keypad - switch to using managed resources
+         
+  - ref: refs/heads/next
+    old: 3aa182bbc5b657329a8b85fa5303b8af0f461636
+    new: 7d0f351da46098b3bbb147f886f059473b84ff48
+    log: |
+         a96fb711c6be76bcfbcf594a865002fa7c0eb525 Input: matrix_keypad - avoid repeatedly converting GPIO to IRQ
+         8cf4b3683a713a4b54d44565e8a32b4cca357084 Input: matrix_keypad - consolidate handling of clustered interrupt
+         7d0f351da46098b3bbb147f886f059473b84ff48 Input: matrix_keypad - switch to using managed resources
          
