@@ -1,49 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============5323079361758449823=="
+Content-Type: multipart/mixed; boundary="===============0618010283578198481=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 31 Jan 2024 19:50:25 -0000
-Message-Id: <170673062572.23778.6801094383928160269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Wed, 31 Jan 2024 19:52:17 -0000
+Message-Id: <170673073729.24582.16183977530575399972@gitolite.kernel.org>
 
---===============5323079361758449823==
+--===============0618010283578198481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/vfs.all
-    old: e0ee7b583f0493c8bbbf958425c507fbea384694
-    new: de9861b0c277e1d86067255a2634e19a9a0e329b
-    log: revlist-e0ee7b583f04-de9861b0c277.txt
+  - ref: refs/heads/master
+    old: 861c0981648f5b64c86fd028ee622096eb7af05a
+    new: 6764c317b6bb91bd806ef79adf6d9c0e428b191e
+    log: revlist-861c0981648f-6764c317b6bb.txt
 
---===============5323079361758449823==
+--===============0618010283578198481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0ee7b583f04-de9861b0c277.txt
+Content-Disposition: attachment; filename=revlist-861c0981648f-6764c317b6bb.txt
 
-6b7704ff03d397788e75b8db78479222f0e80d3f iov_iter: streamline iovec/bvec alignment iteration
-38c5f831b7aed53416db6c3b0297ea4cfac41294 fs: make the i_size_read/write helpers be smp_load_acquire/store_release()
-a17ab4403eaf06f54de8bd2f2217b4b69089ba93 Revert "mm/filemap: avoid buffered read/write race to read inconsistent data"
-cf6e3cf145eb352e28812a741fde5065f1652ee8 asm-generic: remove extra type checking in acquire/release for non-SMP case
-458a1af5373e269a1f253440c35dac48ce107727 pidfd: cleanup the usage of __pidfd_prepare's flags
-2147caaac7349698f2a392c5e2911a6861a09650 netfs: Fix i_dio_count leak on DIO read past i_size
-ca9ca1a5d5a980550db1001ea825f9fdfa550b83 netfs: Fix missing zero-length check in unbuffered write
-a16ab6713e2e4993e6a7152e848aee65b038cd1c pidfd: don't do_notify_pidfd() if !thread_group_empty()
-e0bad07869f7bf341152b37df89d30b9d2cfd7b6 fs/pipe: Convert to lockdep_cmp_fn
-27931312fd50069dcad71e9660a84417b36224b3 sysv: don't call sb_bread() with pointers_lock held
-994fe04908b762031eaadd6bcaf343e85f3cf163 ntfs3: use file_mnt_idmap helper
-563bd99dc1910e62b4d99eb1906bc8858acf483b iov_iter: Avoid wrap-around instrumentation in copy_compat_iovec_from_user()
-ee393cff29bd46cbf469abbfb795857ffc96b98b select: Avoid wrap-around instrumentation in do_sys_poll()
-6f351af0c85fdbc9fe184bd9744b1b3caf4e9431 fs: Use KMEM_CACHE instead of kmem_cache_create
-b473491b6cf8063c040e6863b74f6d31cabf52f8 fork: Using clone_flags for legacy clone check
-2c30c237b18027aa9d29c5d99f988541791f80ae pidfd: implement PIDFD_THREAD flag for pidfd_open()
-4daaa78fcf7932c1e2f3e0865cac67a6cdae7bd1 Merge branch 'vfs.misc' into vfs.all
-c4fbe31e1f22349570ef6bee3e8702fdaf380094 Merge branch 'vfs.netfs' into vfs.all
-de9861b0c277e1d86067255a2634e19a9a0e329b Merge branch 'vfs.fs' into vfs.all
+658365c6b0857e6a306436e315a8633937e3af42 scsi: isci: Fix an error code problem in isci_io_request_build()
+d6b75ba5218915be48542bcd7e2a09776b7c66c9 scsi: virtio_scsi: Remove duplicate check if queue is broken
+e6f3799de2f2b2cd23c3894a127921dfb6c6a512 scsi: initio: Remove redundant variable 'rb'
+7d1ae55ffed0ff78ed33b1465c1233e05024e135 scsi: MAINTAINERS: Update ibmvscsi_tgt maintainer
+ed1a72fb0d646c983c85b62144fb1d134a8edb71 kunit: Fix a NULL vs IS_ERR() bug
+083974ebb8fc65978d6cacd1bcfe9158d6234b98 kunit: device: Fix a NULL vs IS_ERR() check in init()
+57e39086fb868a84f772cf097004f4715d8aaccb MAINTAINERS: kunit: Add Rae Moar as a reviewer
+a1af6a2bfa0cb46d70b7df5352993e750da6c79b kunit: run test suites only after module initialization completes
+1a9f2c776d1416c4ea6cb0d0b9917778c41a1a7d Documentation: KUnit: Update the instructions on how to test static functions
+d53271c05965b4469c57a18c66585075df81c504 selftests/rseq: Do not skip !allowed_cpus for mm_cid
+52998cdd8d3438df9a77c858a827b8932da1bb28 Merge branch '6.8/scsi-staging' into 6.8/scsi-fixes
+4373534a9850627a2695317944898eb1283a2db0 scsi: core: Move scsi_host_busy() out of host lock for waking up EH handler
+f4469f3858352ad1197434557150b1f7086762a0 scsi: storvsc: Fix ring buffer size calculation
+97cf5d53b4812dcb52c13fda700dad5aa8d3446c erofs: get rid of unneeded GFP_NOFS
+cc4b2dd95f0d1eba8c691b36e8f4d1795582f1ff erofs: fix infinite loop due to a race of filling compressed_bvecs
+d9281660ff3ffb4a05302b485cc59a87e709aefc erofs: relaxed temporary buffers allocation on readahead
+f1fea725cc93fcc3c5af9a2af63ffdc40dd2259e selftests/livepatch: fix and refactor new dmesg message code
+5820cfee443f8a90ea3eb9f99f57f2049a4a93c3 kselftest/seccomp: Use kselftest output functions for benchmark
+b54761f6e9773350c0d1fb8e1e5aacaba7769d0f kselftest/seccomp: Report each expectation we assert as a KTAP test
+53ed2ac8fc1de6658aadae5714627ac99b9dddb0 soc: apple: mailbox: error pointers are negative integers
+d1d873a9bfac44a9a455d2ec47b85ea66f7888b9 Merge tag 'linux_kselftest-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+2a6526c4f389bb741e511be11721b3d1cbf1034a Merge tag 'linux_kselftest-kunit-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+1bbb19b6eb1b8685ab1c268a401ea64380b8bbcb Merge tag 'erofs-for-6.8-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+6764c317b6bb91bd806ef79adf6d9c0e428b191e Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============5323079361758449823==--
+--===============0618010283578198481==--
