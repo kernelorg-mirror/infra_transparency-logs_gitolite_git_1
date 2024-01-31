@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7945750357146916737=="
+Content-Type: multipart/mixed; boundary="===============3227151890401767093=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Wed, 31 Jan 2024 13:20:10 -0000
-Message-Id: <170670721085.22397.7478565317861953876@gitolite.kernel.org>
+Date: Wed, 31 Jan 2024 13:21:54 -0000
+Message-Id: <170670731428.23136.11496509084769699721@gitolite.kernel.org>
 
---===============7945750357146916737==
+--===============3227151890401767093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/djakov/icc
 user: djakov
 changes:
-  - ref: refs/heads/icc-fixes
-    old: 9085b23b668ad5aca62df4f071b306a47152e6b3
-    new: d349eed53b7d814067263ec808d84cfba94c0026
-    log: revlist-9085b23b668a-d349eed53b7d.txt
+  - ref: refs/heads/icc-next
+    old: 869b601db3b75d7b780260096d6eafb9935388f1
+    new: de37bd275a0b6db10043105cdf2dba4968ed9896
+    log: revlist-869b601db3b7-de37bd275a0b.txt
 
---===============7945750357146916737==
+--===============3227151890401767093==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9085b23b668a-d349eed53b7d.txt
+Content-Disposition: attachment; filename=revlist-869b601db3b7-de37bd275a0b.txt
 
-e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
-fd37721803c6e73619108f76ad2e12a9aa5fafaf mm, treewide: introduce NR_PAGE_ORDERS
-5e0a760b44417f7cadd79de2204d6247109558a0 mm, treewide: rename MAX_ORDER to MAX_PAGE_ORDER
-e900042f04848b5be9238d866df0952cfc548cf9 Merge tag 'x86_sev_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bef91c28f28fe8a36b91e9a39f60054ae1874280 Merge tag 'x86_cpu_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3edbe8afb617a736ae0dcc877311bdb112a00123 Merge tag 'ras_core_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 968b80332432172dbbb773e749a43bdc846d1a13 Merge tag 'powerpc-6.8-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
@@ -224,6 +220,11 @@ d505a16e00c35919fd9fe5735894645e0f70a415 drm/i915/perf: reconcile Excess struct 
 6185d32170b683abadddf1e68be998e24f3cc5de kbuild: deb-pkg: use debian/<package> for tmpdir
 496530c7c1dfc159d59a75ae00b572f570710c53 erofs: avoid debugging output for (de)compressed data
 aa12a790d31be14b289d5a2c6f41ca535fcc7841 erofs: make erofs_{err,info}() support NULL sb parameter
+85e985a4f46e462a37f1875cb74ed380e7c0c2e0 interconnect: qcom: sc8180x: Mark CO0 BCM keepalive
+98f7ad26fd52dc1b569091c2cda13c07136ee7b1 interconnect: qcom: sm8550: Remove bogus per-RSC BCMs and nodes
+67168c59417096c2d5868d06a5bfc326c712ca21 interconnect: qcom: sm8550: Enable sync_state
+61e771f96dd99d13f75c2cbd051baa652e163cec interconnect: qcom: x1e80100: Remove bogus per-RSC BCMs and nodes
+d349eed53b7d814067263ec808d84cfba94c0026 dt-bindings: interconnect: Remove bogus interconnect nodes
 e70b8dd26711704b1ff1f1b4eb3d048ba69e29da ASoC: mediatek: mt8195: Remove afe-dai component and rework codec link
 bde4f5ff8295601554601f78a523d4d97e42433e cpufreq: intel_pstate: Update hybrid scaling factor for Meteor Lake
 03c305861c70d6db898dd2379b882e7772a5c5d0 Documentation: admin-guide: PM: Fix two typos
@@ -1045,10 +1046,9 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-85e985a4f46e462a37f1875cb74ed380e7c0c2e0 interconnect: qcom: sc8180x: Mark CO0 BCM keepalive
-98f7ad26fd52dc1b569091c2cda13c07136ee7b1 interconnect: qcom: sm8550: Remove bogus per-RSC BCMs and nodes
-67168c59417096c2d5868d06a5bfc326c712ca21 interconnect: qcom: sm8550: Enable sync_state
-61e771f96dd99d13f75c2cbd051baa652e163cec interconnect: qcom: x1e80100: Remove bogus per-RSC BCMs and nodes
-d349eed53b7d814067263ec808d84cfba94c0026 dt-bindings: interconnect: Remove bogus interconnect nodes
+47878b451216cf5e5a23bb3f931a9f932464e93d dt-bindings: interconnect: Add Qualcomm MSM8909 DT bindings
+1cef9f2d1ef8ccdf7414a39e054852b66376b631 interconnect: qcom: Add MSM8909 interconnect provider driver
+572dc55cea3a2ac70593b935466cd9f5ac259bb6 Merge branch 'icc-msm8909' into icc-next
+de37bd275a0b6db10043105cdf2dba4968ed9896 Merge branch 'icc-fixes' into icc-next
 
---===============7945750357146916737==--
+--===============3227151890401767093==--
