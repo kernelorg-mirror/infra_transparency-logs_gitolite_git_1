@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 31 Jan 2024 01:04:25 -0000
-Message-Id: <170666306529.25118.11427747616175599909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 31 Jan 2024 01:09:27 -0000
+Message-Id: <170666336753.30058.9634918240699624837@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 4d8ebe1304e99cf6e08e432c23041638d6d1de56
-    new: e4009250574c69d2a3dd838af81cc3d4d72058e4
+  - ref: refs/heads/main
+    old: d0005e76b73b095138cee9d662831761ffde84a8
+    new: 047a7d261be652e0a8c756ac75936cc0dc537fc6
     log: |
-         20d59ee55172fdf6072abf871fa62b2070d6383f libbpf: add bpf_core_cast() macro
-         ea9d561686fbd0e1ddf05d861d8f2c1ae8291870 selftests/bpf: convert bpf_rdonly_cast() uses to bpf_core_cast() macro
-         e4009250574c69d2a3dd838af81cc3d4d72058e4 Merge branch 'libbpf: add bpf_core_cast() helper'
+         047a7d261be652e0a8c756ac75936cc0dc537fc6 net: rds: Simplify the allocation of slab caches in rds_conn_init
          
