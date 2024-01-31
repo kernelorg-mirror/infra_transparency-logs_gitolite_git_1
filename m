@@ -1,58 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============8936873791724466828=="
+Content-Type: multipart/mixed; boundary="===============1076401899881138657=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 31 Jan 2024 07:13:24 -0000
-Message-Id: <170668520495.2153.106331629077546833@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 31 Jan 2024 07:15:29 -0000
+Message-Id: <170668532903.4577.13139608946246822366@gitolite.kernel.org>
 
---===============8936873791724466828==
+--===============1076401899881138657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/x86/fred
-    old: a9f26154bf5478fc155309fc69128415f3a1be08
-    new: b564b0111a3f03d1a92ba87c4b0f054ad1845963
-    log: revlist-a9f26154bf54-b564b0111a3f.txt
+  - ref: refs/heads/master
+    old: 861c0981648f5b64c86fd028ee622096eb7af05a
+    new: 1bbb19b6eb1b8685ab1c268a401ea64380b8bbcb
+    log: revlist-861c0981648f-1bbb19b6eb1b.txt
 
---===============8936873791724466828==
+--===============1076401899881138657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9f26154bf54-b564b0111a3f.txt
+Content-Disposition: attachment; filename=revlist-861c0981648f-1bbb19b6eb1b.txt
 
-3810da12710aaa05c6101418675c923642a80c0c x86/fred: Add a fred= cmdline param
-567f7205dd7a0e168314b480e4bd80c77cbe71cb x86/opcode: Add ERET[US] instructions to the x86 opcode map
-379ae086a73c804df39866d28eb4ce693e7af486 x86/objtool: Teach objtool about ERET[US]
-95d34efac1a0aff6da00ad177168d99c60a3b7cd x86/cpu: Add X86_CR4_FRED macro
-0b2e6c1c724fc7b72c86a72d49b16c7617d6f5f9 x86/cpu: Add MSR numbers for FRED configuration
-ed262541af195f452c43cd4f28310a09065039ec x86/ptrace: Cleanup the definition of the pt_regs structure
-c125443456e97f7bcc87cc7ba1346c2b92c4db94 x86/ptrace: Add FRED additional information to the pt_regs structure
-c413db75cb7db9740330f3375d1854994bd0c8cb x86/fred: Add a new header file for FRED definitions
-fcd06abf6de2b81724a1e39c121d288f66b1d392 x86/fred: Reserve space for the FRED stack frame
-f393835cbab6184f3ee6ed90499a88e9930a8512 x86/fred: Update MSR_IA32_FRED_RSP0 during task switch
-5710910a6c94bcb08d1081ca94119220066331ad x86/fred: Disallow the swapgs instruction when FRED is enabled
-d0fb796dc3475cf71d788ec960d8ed5de4d7a429 x86/fred: No ESPFIX needed when FRED is enabled
-f102fe126d2811eded63d700fbe27527d936af74 x86/fred: Allow single-step trap and NMI when starting a new task
-9f6870bafc183644d20cba702168e37b48e291a7 x86/fred: Make exc_page_fault() work for FRED
-2ad2917c6f50c707fc9872f6885807e4133bd882 x86/idtentry: Incorporate definitions/declarations of the FRED entries
-4af12f6a393ca2be76de6c5484f79acc1167e1c8 x86/fred: Add a debug fault entry stub for FRED
-3e91abaa567300fd48a0fac4c9aaedd30fa2f3f9 x86/fred: Add a NMI entry stub for FRED
-5dd56c94ca2f8834e7689cac0045d312ef3ac9c6 x86/fred: Add a machine check entry stub for FRED
-6786137bf8fd717bed7ff9ce4eee34ce03a26631 x86/fred: FRED entry/exit and dispatch code
-db7c787d8ba268a8d8beabb0027715246375c6e0 x86/traps: Add sysvec_install() to install a system interrupt handler
-531ff17a705a0f0ecafb8823956f69d5fbfda6fd x86/fred: Let ret_from_fork_asm() jmp to asm_fred_exit_user when FRED is enabled
-ed63bc7d4953bd5fe93a5c3acef7f485fb216208 x86/fred: Fixup fault on ERETU by jumping to fred_entrypoint_user
-8c968f4df73c62be94229c7dbbb330ba9fadbd50 x86/entry/calling: Allow PUSH_AND_CLEAR_REGS being used beyond actual entry code
-d8fbd04962865730bb67106e862bfbe363a9c284 x86/entry: Add fred_entry_from_kvm() for VMX to handle IRQ/NMI
-cb5429aaa0c53d60414a08fb40f8d15d748c4cda KVM: VMX: Call fred_entry_from_kvm() for IRQ/NMI handling
-ae46f3978ae4eb9da013ff9963f105de2db2f8ec x86/syscall: Split IDT syscall setup code into idt_syscall_init()
-43ca697baecf3c90fe108a61cf444de20bbfa5b9 x86/fred: Add FRED initialization functions
-b564b0111a3f03d1a92ba87c4b0f054ad1845963 x86/fred: Invoke FRED initialization code to enable FRED
+ed1a72fb0d646c983c85b62144fb1d134a8edb71 kunit: Fix a NULL vs IS_ERR() bug
+083974ebb8fc65978d6cacd1bcfe9158d6234b98 kunit: device: Fix a NULL vs IS_ERR() check in init()
+57e39086fb868a84f772cf097004f4715d8aaccb MAINTAINERS: kunit: Add Rae Moar as a reviewer
+a1af6a2bfa0cb46d70b7df5352993e750da6c79b kunit: run test suites only after module initialization completes
+1a9f2c776d1416c4ea6cb0d0b9917778c41a1a7d Documentation: KUnit: Update the instructions on how to test static functions
+d53271c05965b4469c57a18c66585075df81c504 selftests/rseq: Do not skip !allowed_cpus for mm_cid
+97cf5d53b4812dcb52c13fda700dad5aa8d3446c erofs: get rid of unneeded GFP_NOFS
+cc4b2dd95f0d1eba8c691b36e8f4d1795582f1ff erofs: fix infinite loop due to a race of filling compressed_bvecs
+d9281660ff3ffb4a05302b485cc59a87e709aefc erofs: relaxed temporary buffers allocation on readahead
+f1fea725cc93fcc3c5af9a2af63ffdc40dd2259e selftests/livepatch: fix and refactor new dmesg message code
+5820cfee443f8a90ea3eb9f99f57f2049a4a93c3 kselftest/seccomp: Use kselftest output functions for benchmark
+b54761f6e9773350c0d1fb8e1e5aacaba7769d0f kselftest/seccomp: Report each expectation we assert as a KTAP test
+53ed2ac8fc1de6658aadae5714627ac99b9dddb0 soc: apple: mailbox: error pointers are negative integers
+d1d873a9bfac44a9a455d2ec47b85ea66f7888b9 Merge tag 'linux_kselftest-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+2a6526c4f389bb741e511be11721b3d1cbf1034a Merge tag 'linux_kselftest-kunit-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+1bbb19b6eb1b8685ab1c268a401ea64380b8bbcb Merge tag 'erofs-for-6.8-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 
---===============8936873791724466828==--
+--===============1076401899881138657==--
