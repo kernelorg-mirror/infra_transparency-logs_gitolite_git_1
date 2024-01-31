@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 31 Jan 2024 01:09:27 -0000
-Message-Id: <170666336753.30058.9634918240699624837@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 31 Jan 2024 01:20:38 -0000
+Message-Id: <170666403878.8113.3693757350370440398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/main
-    old: d0005e76b73b095138cee9d662831761ffde84a8
-    new: 047a7d261be652e0a8c756ac75936cc0dc537fc6
+  - ref: refs/heads/fixes
+    old: e126a69c0156f2dfcf6111a84ab7295eb1fc62e0
+    new: e320a188b5ab9f797471710ed5e4b8123c6694c3
     log: |
-         047a7d261be652e0a8c756ac75936cc0dc537fc6 net: rds: Simplify the allocation of slab caches in rds_conn_init
+         83d5b157ec133dff3c5bcb15e37c98b2a9458eda kbuild: Replace tabs with spaces when followed by conditionals
+         e320a188b5ab9f797471710ed5e4b8123c6694c3 rpm-pkg: simplify installkernel %post
          
