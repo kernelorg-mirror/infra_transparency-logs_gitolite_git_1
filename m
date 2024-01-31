@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sailus/linux-firmware
-Date: Wed, 31 Jan 2024 21:54:03 -0000
-Message-Id: <170673804383.15510.14395639392809838304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Wed, 31 Jan 2024 22:04:38 -0000
+Message-Id: <170673867819.22436.6021204199647000018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sailus/linux-firmware
-user: sailus
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/tags/ipu6-2024-01-31
-    old: 0000000000000000000000000000000000000000
-    new: cc36fc99931390b8bdb211092f93ac7a7693da2a
+  - ref: refs/heads/dt/linus
+    old: 8f7e917907385e112a845d668ae2832f41e64bf5
+    new: 607aad1e4356c210dbef9022955a3089377909b2
+    log: |
+         607aad1e4356c210dbef9022955a3089377909b2 of: unittest: Fix compile in the non-dynamic case
+         
