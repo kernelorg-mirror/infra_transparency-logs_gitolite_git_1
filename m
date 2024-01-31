@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Wed, 31 Jan 2024 22:42:40 -0000
-Message-Id: <170674096073.19211.9899997213766281840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Wed, 31 Jan 2024 22:48:55 -0000
+Message-Id: <170674133589.23087.16117724177379883001@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/trace/urgent
-    old: 29142dc92c37d3259a33aef15b03e6ee25b0d188
-    new: b868c92f4962f0f5fc0693989b0e6d90a8e9e62b
+  - ref: refs/heads/main
+    old: a2933a8759a62269754e54733d993b19de870e84
+    new: 8059918a1377f2f1fff06af4f5a4ed3d5acd6bc4
     log: |
-         66bbea9ed6446b8471d365a22734dc00556c4785 ring-buffer: Clean ring_buffer_poll_wait() error return
-         d81786f53aec14fd4d56263145a0635afbc64617 tracefs: Zero out the tracefs_inode when allocating it
-         4fa4b010b83fb2f837b5ef79e38072a79e96e4f1 eventfs: Initialize the tracefs inode properly
-         99c001cb617df409dac275a059d6c3f187a2da7a tracefs: Avoid using the ei->dentry pointer unnecessarily
-         0372872d49b68962b9716fdc5b559d00a6ad93ba tracefs: dentry lookup crapectomy
-         ec882d5019004f9316f339602e02b842b9960e8f eventfs: Remove unused d_parent pointer field
-         50fb0e78d771668721e3d39e83c6b5d7335d51ee eventfs: Clean up dentry ops and add revalidate function
-         b868c92f4962f0f5fc0693989b0e6d90a8e9e62b eventfs: Get rid of dentry pointers without refcounts
+         fb366fc7541a1de521ab3df58471746aa793b833 netfilter: conntrack: correct window scaling with retransmitted SYN
+         776d451648443f9884be4a1b4e38e8faf1c621f9 netfilter: nf_tables: restrict tunnel object to NFPROTO_NETDEV
+         6e348067ee4bc5905e35faa3a8fafa91c9124bc7 netfilter: conntrack: check SCTP_CID_SHUTDOWN_ACK for vtag setting in sctp_new
+         97f7cf1cd80eeed3b7c808b7c12463295c751001 netfilter: ipset: fix performance regression in swap operation
+         259eb32971e9eb24d1777a28d82730659f50fdcb netfilter: nf_log: replace BUG_ON by WARN_ON_ONCE when putting logger
+         8059918a1377f2f1fff06af4f5a4ed3d5acd6bc4 netfilter: nft_ct: sanitize layer 3 and 4 protocol number in custom expectations
          
