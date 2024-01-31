@@ -1,43 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============0901814798013884443=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 31 Jan 2024 00:57:09 -0000
-Message-Id: <170666262929.16545.18230231347212164794@gitolite.kernel.org>
-
---===============0901814798013884443==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pablo/gtp
+Date: Wed, 31 Jan 2024 01:02:33 -0000
+Message-Id: <170666295326.24220.4076095896945332806@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/pablo/gtp
+user: pablo
 changes:
-  - ref: refs/meta/cgit
-    old: 0000000000000000000000000000000000000000
-    new: 3d8fcb04710ff76245076cbe090577b74b4dc355
-
---===============0901814798013884443==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Andi Shyti <andi.shyti@kernel.org> 1706662628 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1706662627-1ff2374b8bd1a17fc69256de6163f0b19d7369d4
-
-0000000000000000000000000000000000000000 3d8fcb04710ff76245076cbe090577b74b4dc355 refs/meta/cgit
------BEGIN PGP SIGNATURE-----
-
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZbma5BYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uNnYA/RjPQ4eMJndsg6D+9pW5zl8kpJVc
-skhkOg7VSJU8SW2dAP9NuUReUftR5NMu3v9StgqUL2wuTX9JYslBicTada9YDw==
-=TY67
------END PGP SIGNATURE-----
-
---===============0901814798013884443==--
+  - ref: refs/heads/main
+    old: 74d1cb7e57ad3e95344fc4db174bd395a7c07fb3
+    new: 39a44f7ab153264518156c5d247e2c4c8741938f
+    log: |
+         c79033c4b272cf9915cc62cdb9789d1bc8296728 gtp: pass up link local traffic to userspace socket
+         7bdd525d85db58862fb6bf52191af3b59490697d gtp: use IPv6 address /64 prefix for UE/MS
+         39a44f7ab153264518156c5d247e2c4c8741938f gtp: identify tunnel via GTP version + TEID + family
+         
