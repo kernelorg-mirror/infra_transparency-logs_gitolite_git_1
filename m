@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Wed, 31 Jan 2024 12:44:41 -0000
-Message-Id: <170670508136.27265.6910795707582729915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 31 Jan 2024 12:50:28 -0000
+Message-Id: <170670542818.32657.5645191832117064112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: 8b1d72395635af45410b66cc4c4ab37a12c4a831
-    new: 8340b93438549415b5e0809c99d8a581ccb2e64d
+  - ref: refs/heads/master
+    old: 2cd89de14549d2b2c079a4f8b73f75500d229fee
+    new: 854a675e8801a559c2ef7cb2efd4e906d377cf0a
     log: |
-         8340b93438549415b5e0809c99d8a581ccb2e64d parisc: BTLB: Fix crash when setting up BTLB at CPU bringup
+         854a675e8801a559c2ef7cb2efd4e906d377cf0a docs: add enosys to ReleaseNotes
          
