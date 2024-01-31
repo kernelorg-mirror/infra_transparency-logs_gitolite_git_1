@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Wed, 31 Jan 2024 05:00:37 -0000
-Message-Id: <170667723701.4083.14256468040646349427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 31 Jan 2024 05:30:28 -0000
+Message-Id: <170667902838.25547.6402389870296795116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-6.9
-    old: aae17ebb53cd3da37f5dfbde937acd091eb4340c
-    new: 15930da42f8981dc42c19038042947b475b19f47
+  - ref: refs/heads/master
+    old: 2a6526c4f389bb741e511be11721b3d1cbf1034a
+    new: 1bbb19b6eb1b8685ab1c268a401ea64380b8bbcb
     log: |
-         15930da42f8981dc42c19038042947b475b19f47 workqueue: Don't call cpumask_test_cpu() with -1 CPU in wq_update_node_max_active()
-         
-  - ref: refs/heads/for-next
-    old: aae17ebb53cd3da37f5dfbde937acd091eb4340c
-    new: 15930da42f8981dc42c19038042947b475b19f47
-    log: |
-         15930da42f8981dc42c19038042947b475b19f47 workqueue: Don't call cpumask_test_cpu() with -1 CPU in wq_update_node_max_active()
+         97cf5d53b4812dcb52c13fda700dad5aa8d3446c erofs: get rid of unneeded GFP_NOFS
+         cc4b2dd95f0d1eba8c691b36e8f4d1795582f1ff erofs: fix infinite loop due to a race of filling compressed_bvecs
+         d9281660ff3ffb4a05302b485cc59a87e709aefc erofs: relaxed temporary buffers allocation on readahead
+         1bbb19b6eb1b8685ab1c268a401ea64380b8bbcb Merge tag 'erofs-for-6.8-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
          
