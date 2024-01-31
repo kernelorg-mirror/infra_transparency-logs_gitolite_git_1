@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 31 Jan 2024 18:38:03 -0000
-Message-Id: <170672628345.3068.4449128336789541419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 31 Jan 2024 18:43:10 -0000
+Message-Id: <170672659051.6483.9836228138158873627@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/perf-tools
-    old: 1f8c43b09ec6906079ac1f02e2b0a381c6f48c6c
-    new: fdd0ae72b34e56eb5e896d067c49a78ecb451032
+  - ref: refs/heads/master
+    old: a5bbbfb78162cab3a2358525e249ec03e8576796
+    new: 7eaf16ceaa8d436357d1f43e4291a838e392fab7
     log: |
-         fdd0ae72b34e56eb5e896d067c49a78ecb451032 perf tools headers: update the asm-generic/unaligned.h copy with the kernel sources
+         7eaf16ceaa8d436357d1f43e4291a838e392fab7 Wed Jan 31 01:42:35 PM EST 2024
          
