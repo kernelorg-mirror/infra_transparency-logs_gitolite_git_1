@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 31 Jan 2024 14:24:52 -0000
-Message-Id: <170671109204.3268.1659169729754699532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 31 Jan 2024 14:38:03 -0000
+Message-Id: <170671188368.13972.10959767434548719599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/fixes
-    old: 736aa206be27a86db657a383f1505737e03b5891
-    new: 007a90fd68f73038b784080bbd8d0ddca6c5363a
+  - ref: refs/heads/kdevops
+    old: cf537c4ae882f17ab85f17ec2b6934b2a393aea4
+    new: e3f9ea089e777061c8a7d70b6c4a80e1960986b1
     log: |
-         89876175c8c83c35cf0cc8e21b7460dfed7b118a kbuild: fix W= flags in the help message
-         cda5f94e88b45c9209599bac15fc44add5a59f60 modpost: avoid using the alias attribute
-         82175d1f9430d5a026e2231782d13da0bf57155c kbuild: Replace tabs with spaces when followed by conditionals
-         358de8b4f201bc05712484b15f0109b1ae3516a8 kbuild: rpm-pkg: simplify installkernel %post
-         007a90fd68f73038b784080bbd8d0ddca6c5363a kconfig: initialize sym->curr.tri to no for all symbol types again
+         d1e4d9ecdb435c5953332add6102eabae28600b0 smb/client: adapt to breakup of struct file_lock
+         8302ded46a59bd0463095393f6e335a30ca4755e smb/server: adapt to breakup of struct file_lock
+         dbf3ff159833c0e121fdc6c38ead11678c3f47c7 filelock: remove temporary compatability macros
+         e3f9ea089e777061c8a7d70b6c4a80e1960986b1 filelock: split leases out of struct file_lock
          
