@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2558384252142276654=="
+Content-Type: multipart/mixed; boundary="===============8122925787629508860=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 31 Jan 2024 20:41:11 -0000
-Message-Id: <170673367132.28206.10704474552050314188@gitolite.kernel.org>
+Date: Wed, 31 Jan 2024 20:41:40 -0000
+Message-Id: <170673370037.28474.2895602224597091095@gitolite.kernel.org>
 
---===============2558384252142276654==
+--===============8122925787629508860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.8
-    old: 798e286aca3acbb9cb20c73333ffb8bab3656068
+  - ref: refs/heads/for-next
+    old: 5d6f447b07d5432686ba69183af6e96ac58069c9
     new: 40ef8756fbdd9faec4da5d70352b28f1196132ed
-    log: revlist-798e286aca3a-40ef8756fbdd.txt
+    log: revlist-5d6f447b07d5-40ef8756fbdd.txt
 
---===============2558384252142276654==
+--===============8122925787629508860==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-798e286aca3a-40ef8756fbdd.txt
+Content-Disposition: attachment; filename=revlist-5d6f447b07d5-40ef8756fbdd.txt
 
 d967c914a633ee797255261808720f791b658f24 btrfs: fix unbalanced unlock of mapping_tree_lock
 b18f3b60b35a8c01c9a2a0f0d6424c6d73971dc3 btrfs: zoned: fix lock ordering in btrfs_zone_activate()
@@ -1051,4 +1051,4 @@ bd504bcfec41a503b32054da5472904b404341a4 dm: limit the number of targets and par
 9cf11ce06ea52911245578032761e40a6409cf35 dm stats: limit the number of entries
 40ef8756fbdd9faec4da5d70352b28f1196132ed dm writecache: allow allocations larger than 2GiB
 
---===============2558384252142276654==--
+--===============8122925787629508860==--
