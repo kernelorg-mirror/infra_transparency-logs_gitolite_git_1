@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Wed, 31 Jan 2024 08:12:53 -0000
-Message-Id: <170668877300.12571.2458671243959436563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Wed, 31 Jan 2024 08:36:04 -0000
+Message-Id: <170669016479.28536.1596403761371545009@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/thermal/bleeding-edge
-    old: 578504848bcc153d3101debe051980a0b67cf135
-    new: 6bd9d0bb7f3ec7006d9ed9c97c197522e839bf3b
+  - ref: refs/heads/v6.8-next/dts64
+    old: 71e147d069291d0c92e4df903a2895eb5587b559
+    new: d464e09e60f024aea0de7adb680a8e8582ab8df8
     log: |
-         5327c77c531184d456f86dfe1bddedbfdaa266a0 thermal/drivers/mediatek/lvts_thermal: Fix a memory leak in an error handling path
-         6bd9d0bb7f3ec7006d9ed9c97c197522e839bf3b thermal/drivers/mediatek: Fix control buffer enablement on MT7896
+         d464e09e60f024aea0de7adb680a8e8582ab8df8 arm64: dts: mediatek: mt8195: Add MTU3 nodes and correctly describe USB
          
