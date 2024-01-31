@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3291590109158165068=="
+Content-Type: multipart/mixed; boundary="===============7001678619061651588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 31 Jan 2024 17:34:36 -0000
-Message-Id: <170672247647.19696.3516416947248888195@gitolite.kernel.org>
+Date: Wed, 31 Jan 2024 17:35:12 -0000
+Message-Id: <170672251253.21532.2345608754379814443@gitolite.kernel.org>
 
---===============3291590109158165068==
+--===============7001678619061651588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: d0005e76b73b095138cee9d662831761ffde84a8
-    new: 84fc2408cfc676eeb7ce2f0f0776ee815f7db689
-    log: revlist-d0005e76b73b-84fc2408cfc6.txt
+  - ref: refs/heads/dev-queue
+    old: dd5cddbfd781d93df1e301ba4a3a57411e2ba326
+    new: 4aca4e1e767e9f682996254f885a0d88351f8dbb
+    log: revlist-dd5cddbfd781-4aca4e1e767e.txt
 
---===============3291590109158165068==
+--===============7001678619061651588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0005e76b73b-84fc2408cfc6.txt
+Content-Disposition: attachment; filename=revlist-dd5cddbfd781-4aca4e1e767e.txt
 
 941988af572434e4aa93fb0f2f509f92adfd691a netfilter: uapi: Document NFT_TABLE_F_OWNER flag
 da5141bbe0c2693d85f14a89ee991921904f4d0c netfilter: nf_tables: Introduce NFT_TABLE_F_PERSIST
@@ -78,5 +78,32 @@ a47996ebbe405b2d89f371d3fc349d390097edfa mailmap: add entry for Stefan Wahren
 23b8a64b6c9fd9c6b959550059ba48fe32ebe6fe MAINTAINERS: add entry for qca7k driver(s)
 a9c3d39b6b39cbd1b5ccadeaf76bc4d705c1e24d Merge branch 'qca_spi-improvements'
 84fc2408cfc676eeb7ce2f0f0776ee815f7db689 Merge tag 'nf-next-24-01-29' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next Florian Westphal says:
+b5add571519666612fb999a8147a6a24b3fce5b8 i40e: Fix waiting for queues of all VSIs to be disabled
+a423c924106cffce3a28147981d30b55efe97b35 i40e: Fix wrong mask used during DCB config
+e7c659f99dbf00021fd8410da5c54844b49564c7 i40e: Use existing helper to find flow director VSI
+edb7f6c2042061dd65557a96eb547945303ce5db i40e: Introduce and use macros for iterating VSIs and VEBs
+cdc15e6af794311c57a8ab5eab81de795ef2b9b9 i40e: Add helpers to find VSI and VEB by SEID and use them
+d4776399e1f2cebf08b80c78b15de7aa35d6023b i40e: Fix broken support for floating VEBs
+af6915496cc33df715b6f58e1cc1493e70c33006 i40e: Remove VEB recursion
+12f8bd7e6cd75030e9bc069e2b8c123b04980e3f ice: introduce new E825C devices family
+5e91e718b8624c295b78a49a51ecab1513117df2 ice: Add helper function ice_is_generic_mac
+ff877c9bd7520191bb2a65c5406c8dd511f6c922 ice: add support for 3k signing DDP sections for E825C
+74032fe0c1ce0d095d27de45d0d39423b4a3fb28 ice: Add support for devlink loopback param.
+dcdf2e334e4bf0f6ea20b4bde3bce5965c05b898 e1000e: correct maximum frequency adjustment values
+49053df5486f52bc23204449a5bb36c4ee1be5d8 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+3f70d5535cbcffcd5bfd06d77b9a0184bb009362 ice: Add a new counter for Rx EIPE errors
+b241a44aecfad0cdc8b531a0fa5ad12db6dd3ba3 e1000e: Minor flow correction in e1000_shutdown function
+33203b1393d7af37b97b9eabfb15ab3621de75a2 igb: Fix string truncation warnings in igb_set_fw_version
+ccd51edd4b645ed6314769c5467e8a786ac28f93 ice: Add check for lport extraction to LAG init
+5c675f47101e267b96899027421400ad6257461c ixgbe: Fix an error handling path in ixgbe_read_iosf_sb_reg_x550()
+cdde7a259dea7ffe4a788a0c810c07c2ccf52f00 iavf: fix reset in early states
+f06863c87592e7573b5ab3fe8264b40084933cff iavf: allow an early reset event to be processed
+5e74d5259e9eae69b05f44eea26e8c1d69648780 ice: remove duplicate comment
+6b8622b1186584c1a8eae408fda475faffa74a9b ice: make ice_vsi_cfg_rxq() static
+7cf1ddc1a78bba77bca8dd9ac9443864ef0331c7 ice: make ice_vsi_cfg_txq() static
+43ee34159229b44e92a4baa68e2b9eead4789081 idpf: avoid compiler padding in virtchnl2_ptype struct
+71c19f4464d4740d4018af9cc56d782ac43d597d igc: Use reverse xmas tree
+e60de1bfa7fd0e9cd61bec894e79dd5d5e5f856a igc: Use netdev printing functions for flex filters
+4aca4e1e767e9f682996254f885a0d88351f8dbb igc: Unify filtering rule fields
 
---===============3291590109158165068==--
+--===============7001678619061651588==--
