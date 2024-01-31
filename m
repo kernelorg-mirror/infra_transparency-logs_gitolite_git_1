@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 31 Jan 2024 20:10:17 -0000
-Message-Id: <170673181779.6506.1682495043191817534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 31 Jan 2024 20:16:24 -0000
+Message-Id: <170673218466.10348.14016644495272806497@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/for-next
-    old: 2ef61296d2844c6a4211e07ab70ef2fb412b2c30
-    new: cd1c194ffe28820e0389299060b2cd425ce3ec44
+  - ref: refs/heads/fixes
+    old: eb70c97995147c7febb0f3ad67ca6210d19f5724
+    new: 138b5cd4ff96a00880d89c0a2f773d48b0174271
     log: |
-         79b47344bbc5a693a92ed6b2b09dac59254bfac8 bpf: btf: Support flags for BTF_SET8 sets
-         2747e0ee57c2742dacf27920e815d87c6ab62643 bpf: btf: Add BTF_KFUNCS_START/END macro pair
-         6e7769e6419f7836227c74da1f569961e5de0c0e bpf: treewide: Annotate BPF kfuncs in BTF
-         cd1c194ffe28820e0389299060b2cd425ce3ec44 Merge branch 'annotate-kfuncs-in-btf_ids-section'
+         138b5cd4ff96a00880d89c0a2f773d48b0174271 riscv: mm: execute local TLB flush after populating vmemmap
          
