@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 31 Jan 2024 12:22:47 -0000
-Message-Id: <170670376797.11195.17255015352153813210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 31 Jan 2024 12:24:30 -0000
+Message-Id: <170670387023.11883.5156375256746545033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/rdma-next
-    old: 6834c0bab58d61dd90667a143509ee55fbfb299b
-    new: b00760369553856c69e7cf355c7c64ba5bb666a6
+  - ref: refs/heads/main
+    old: 57bf3dd2fe91aa144d2c8f53b02dc4e65c9b1135
+    new: 2acfd589e50e6a4d63fc007b9ac3e366bbf819fb
     log: |
-         5c242cb71d712c4f9c505d9800fa039e71bcf221 RDMA/core: Separate DMA mapping to caching IOVA and page linkage
-         83144ebdeeba5ff1735224569dde2562a4650493 net/mlx5: Add the IFC related bits for query tracker
-         c109b7e86dd009dbd7db1c8ac355120f78d66c1d vfio/mlx5: Add support for tracker object events
-         0492bd9c3211bca93cdb16625870cfb87fd0bf68 vfio/mlx5: Handle the EREMOTEIO error upon the SAVE command
-         d73a4bb612594c75bb08d31f311c6ea4eaf3fce2 vfio/mlx5: Block incremental query upon migf state error
-         b00760369553856c69e7cf355c7c64ba5bb666a6 vfio/mlx5: Let firmware knows upon leaving PRE_COPY back to RUNNING
+         c5c3e1bfc9e0ee72af528df8d773980f4855938a net: stmmac: Offload queueMaxSDU from tc-taprio
+         fd5a6a71313e27c4f601526081b69d4e76f03dea net: stmmac: est: Per Tx-queue error count for HLBF
+         5ca63ffdb94ba2bac4c23c8609aabd7edd03c312 net: stmmac: Report taprio offload status
+         2acfd589e50e6a4d63fc007b9ac3e366bbf819fb Merge branch 'stmmac-EST'
          
