@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8812108785842205935=="
+Content-Type: multipart/mixed; boundary="===============5610879081920056311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 31 Jan 2024 12:25:47 -0000
-Message-Id: <170670394720.14081.17249468504438784984@gitolite.kernel.org>
+Date: Wed, 31 Jan 2024 12:26:12 -0000
+Message-Id: <170670397268.14280.4442458460349844899@gitolite.kernel.org>
 
---===============8812108785842205935==
+--===============5610879081920056311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/xfs-6.8-fixes
+  - ref: refs/heads/for-next
     old: d8d222e09dab84a17bb65dda4b94d01c565f5327
     new: 881f78f472556ed05588172d5b5676b48dc48240
     log: revlist-d8d222e09dab-881f78f47255.txt
 
---===============8812108785842205935==
+--===============5610879081920056311==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -419,4 +419,4 @@ a08ebda97e2a32b8f1de2c8240337f726c2e1ba7 Merge tag 'fixes-2024-01-28' of git://g
 82ef1a5356572219f41f9123ca047259a77bd67b xfs: reset XFS_ATTR_INCOMPLETE filter on node removal
 881f78f472556ed05588172d5b5676b48dc48240 xfs: remove conditional building of rt geometry validator functions
 
---===============8812108785842205935==--
+--===============5610879081920056311==--
