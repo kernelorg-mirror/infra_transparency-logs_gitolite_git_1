@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Wed, 31 Jan 2024 18:37:12 -0000
-Message-Id: <170672623201.1440.14457919444781302229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 31 Jan 2024 18:37:37 -0000
+Message-Id: <170672625765.2658.6416965763871444321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/for-linus
-    old: 80441f76ee67002437db61f3b317ed80cce085d2
-    new: 2b9c3eb32a699acdd4784d6b93743271b4970899
+  - ref: refs/heads/tmp.perf-tools
+    old: 1f8c43b09ec6906079ac1f02e2b0a381c6f48c6c
+    new: fdd0ae72b34e56eb5e896d067c49a78ecb451032
     log: |
-         2b9c3eb32a699acdd4784d6b93743271b4970899 Input: bcm5974 - check endpoint type before starting traffic
+         fdd0ae72b34e56eb5e896d067c49a78ecb451032 perf tools headers: update the asm-generic/unaligned.h copy with the kernel sources
          
