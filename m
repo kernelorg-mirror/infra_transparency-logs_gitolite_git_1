@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5467270744885078203=="
+Content-Type: multipart/mixed; boundary="===============8660774644957859866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Wed, 31 Jan 2024 23:55:27 -0000
-Message-Id: <170674532747.8458.3356578226261553709@gitolite.kernel.org>
+Date: Wed, 31 Jan 2024 23:55:55 -0000
+Message-Id: <170674535571.8732.11965870865508730943@gitolite.kernel.org>
 
---===============5467270744885078203==
+--===============8660774644957859866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-next
+  - ref: refs/heads/for-linux-next
     old: 6613476e225e090cc9aad49be7fa504e290dd33d
     new: 41bccc98fb7931d63d03f326a746ac4d429c1dd3
     log: revlist-6613476e225e-41bccc98fb79.txt
 
---===============5467270744885078203==
+--===============8660774644957859866==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -418,4 +418,4 @@ a08ebda97e2a32b8f1de2c8240337f726c2e1ba7 Merge tag 'fixes-2024-01-28' of git://g
 3eb5ca857d38ae7a694de6e59a3de7990af87919 Merge tag 'cxl-fixes-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 41bccc98fb7931d63d03f326a746ac4d429c1dd3 Linux 6.8-rc2
 
---===============5467270744885078203==--
+--===============8660774644957859866==--
