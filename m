@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 31 Jan 2024 18:10:36 -0000
-Message-Id: <170672463639.15993.16575647740812921964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 31 Jan 2024 18:29:55 -0000
+Message-Id: <170672579588.27481.18189084477757591029@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: d5a34698dca83260236b8af52c269f914435406b
-    new: 078b7b997b47c7166c1240cf1d39db9f646a56be
+  - ref: refs/heads/main
+    old: 84fc2408cfc676eeb7ce2f0f0776ee815f7db689
+    new: 5264ab612e28058536de8069bcf83eb20fd65c29
     log: |
-         15675706241887ed7fdad9e91f4bf977b9896d0f x86/startup_64: Drop long return to initial_code pointer
-         078b7b997b47c7166c1240cf1d39db9f646a56be Merge x86/boot into tip/master
+         5264ab612e28058536de8069bcf83eb20fd65c29 selftests/net: calibrate txtimestamp
          
