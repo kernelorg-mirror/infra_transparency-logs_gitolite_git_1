@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7923620280741423476=="
+Content-Type: multipart/mixed; boundary="===============4748656175959217705=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 30 Jan 2024 23:59:51 -0000
-Message-Id: <170665919150.6750.1312301927690976953@gitolite.kernel.org>
+Date: Wed, 31 Jan 2024 00:01:44 -0000
+Message-Id: <170665930403.9183.11010093856787709165@gitolite.kernel.org>
 
---===============7923620280741423476==
+--===============4748656175959217705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 05d8f255867e3196565bb31a911a437697fab094
-    new: f297a3844aa059c53be3f69be85ebc071b8a6d16
+  - ref: refs/heads/driver-core-linus
+    old: 41bccc98fb7931d63d03f326a746ac4d429c1dd3
+    new: 98323e9d70172f1b46d1cadb20d6c54abf62870d
     log: |
-         3a480d4bb5b1e1f09426223e68acaa90da32e384 driver core: cpu: make cpu_subsys const
-         f297a3844aa059c53be3f69be85ebc071b8a6d16 driver core: component: fix spellos
+         98323e9d70172f1b46d1cadb20d6c54abf62870d topology: Set capacity_freq_ref in all cases
          
 
---===============7923620280741423476==
+--===============4748656175959217705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1706659190 -0800
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1706659302 -0800
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1706659189-6d7d20c90964801cdd6de29fb86e21087edd439a
+nonce 1706659302-a5f9b553685d788e537497d231b5624fc8a3ca9c
 
-05d8f255867e3196565bb31a911a437697fab094 f297a3844aa059c53be3f69be85ebc071b8a6d16 refs/heads/driver-core-testing
+41bccc98fb7931d63d03f326a746ac4d429c1dd3 98323e9d70172f1b46d1cadb20d6c54abf62870d refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW5jXYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UIMQAMN+TD6yGxXd2x/YJcJf
-sK7rNeVuQ5rUNHbwjqQanQPQDJHpOBwVfrGPxJY33YfxsP/Mj4JgRjssEV8PBiOd
-/wN59QXksf7kzmGYwd1Cm6uHQEZAJbheqRswiLkJ6Hd0amw97tsYG4Ym3U+9wAGv
-xRM2oZiFgehAsm8VgWgjXqmvHD2pDv4lMaPo4Vi2auzZ76ghCnoGy2QRBtBpiNEw
-knlpYXqJT/J6Nb/F9f1dJlx46z8MwT4wFKZZ56znJa91Hj63BlFIS0MRGAGZ+SL4
-WIOOYH1znoCzqffXpMnW69vggGvj0er7r31vXhyARvA0WPsfcS3MI/JvLyAMOgRJ
-oQw4+Lz6QQ3KmNJ1o3oNdpsrOPXbZEUU+mWqzSC8EX0AMl4f8awOKmZQj50P1g3H
-J7MDkeq173Yrt/eP17OwnzkTM5YpRtuGkonDwZpB54rAlhZttnvgfiQmMXjpHhFT
-Sm27haYwkGaIzeSRMtIBRtOvBelSv3TgncCC68BW15quyq3xksVL4STCpu+8SEU7
-41KcC0LsokE+nK2uo9ynaUkicEIEg12j5rumUMtF+tlEAXPevbw7eNhyNUKAeYIU
-FGhbCpmRvMeQs7PhBx6UXJ6NoDO5YUAWD2+nLtmr9QWNtv8y508l6+YHQHI8xsfQ
-WJEZf2/YSxH23YHCjNEObBQC
-=KlJe
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW5jeYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nEEP/2k4ZIfingFhdwLouZkm
+BVL59yPbThEnVKCqRMEBZEOg4gfDM1Y92PESv7u8UrYHTfLhwAsZmiEY66lU1BMk
+rO2qV9ksmDfJ0XjW2kwoBTZ+Mb5Bao9BjbJ1UOZLE8esT6RuB9cVvfuCDKlEWTlI
+j2ueEckHf2SiQhOM9PgtWiRDinrKhXN/Ff5jU/3RKpxk2uzPeTnx6cC1/1ImyKll
+mKrVd9OuAfspY7T9qUM7xkuSiN0zQnAbV/Pm7zZFNatMrqX4A63OMz1OJ8LIjkYi
+sLvq8T7Oz+OeCg0LFOFIO6dr+Lfi20hwX9AY4Djm8zYaJYVmcli9SI+g+8grDD5X
+v/tZBFH5exQPix42rUiBmkIixX2rUa5dg5kjMdjHK3gDUQ1jNDgMS5xTTS4ZHWKz
+4ErypRy9Ldufds+trZ6imtjK2g5l/J62jyRLdRcmNoRHF+0rW/Oeyuug7VtlQlGD
+hC7gFyyf+lsrKRJMABz1rQg6VtJrPV6tWLr0X3acVJEOKpLsF2KGgfPA8Q7yjQ1w
+Iwt2wzCTvpJgVFYo5CO5835WmaPgpqEUWmpMXpxc5/5+eDCM5EDPSG7sXr3PcoO4
+uQnHjYbb69h9bBOJxOvxqPwWVRSepZhBpBiVuR1yiGaJ06alh5PfjPnFXs3jvCvt
+8VETVatHaG+6G1C2Ei1Au8gE
+=eoc1
 -----END PGP SIGNATURE-----
 
---===============7923620280741423476==--
+--===============4748656175959217705==--
