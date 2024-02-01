@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 01 Feb 2024 16:33:34 -0000
-Message-Id: <170680521438.12381.1632040079776658925@gitolite.kernel.org>
+Date: Thu, 01 Feb 2024 16:33:51 -0000
+Message-Id: <170680523183.12552.6527407914079442345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/tags/kbuild-fixes-v4.20
-    old: eae1315ca403fde6172c43ae0deae7e087f61367
+  - ref: refs/tags/kbuild-v4.20-2
+    old: 49b2c4c979092093b9f76426bf78590edc19783d
     new: 0000000000000000000000000000000000000000
