@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5536898274634874418=="
+Content-Type: multipart/mixed; boundary="===============1793620299720576124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 01 Feb 2024 23:12:54 -0000
-Message-Id: <170682917493.25973.13196929192732219999@gitolite.kernel.org>
+Date: Thu, 01 Feb 2024 23:13:05 -0000
+Message-Id: <170682918597.26152.4307080647606084609@gitolite.kernel.org>
 
---===============5536898274634874418==
+--===============1793620299720576124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: 55e5b8e854ebc5fb222cb6ac3da1ad32e9a58677
+  - ref: refs/heads/for-next
+    old: bd768db42ef6d27c3eca1d29ec8beb4474e4ba35
     new: a8fdabe1e15ddec9491d3895786a21de492c0fd9
-    log: revlist-55e5b8e854eb-a8fdabe1e15d.txt
+    log: revlist-bd768db42ef6-a8fdabe1e15d.txt
 
---===============5536898274634874418==
+--===============1793620299720576124==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-55e5b8e854eb-a8fdabe1e15d.txt
+Content-Disposition: attachment; filename=revlist-bd768db42ef6-a8fdabe1e15d.txt
 
 c7ec4f2d684e17d69bbdd7c4324db0ef5daac26a xen-netback: don't produce zero-size SKB frags
 024b32db43a359e0ded3fcc6cd86247cbbed4224 drm/bridge: parade-ps8640: Wait for HPD when doing an AUX transfer
@@ -486,6 +486,9 @@ e622502c310f1069fd9f41cd38210553115f610a ipmr: fix kernel panic when forwarding 
 c91c6b2f08afb7be111678ceade563158c9a31ba Revert "MIPS: loongson64: set nid for reserved memblock region"
 822df315cc7c85c3c10afcc6408b254a6fa0f166 MIPS: loongson64: set nid for reserved memblock region
 59be5c35850171e307ca5d3d703ee9ff4096b948 mips: Call lose_fpu(0) before initializing fcr31 in mips_set_personality_nan
+6c20faec8ffc97af21acb43382adda011eb39359 kbuild: defconf: use SRCARCH to find merged configs
+846cfbeed09b45d985079a9173cf390cc053715b um: Fix adding '-no-pie' for clang
+397586506c3da005b9333ce5947ad01e8018a3be modpost: Add '.ltext' and '.ltext.*' to TEXT_SECTIONS
 d1bba17e20d513e09d0977afc82cd85b91d0fef8 Merge tag '6.8-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 8c6f6a76465a4c001770992867b0a4985d20f927 Merge tag '6.8-rc2-smb3-server-fixes' of git://git.samba.org/ksmbd
 064a4a5bfac8bb24af08ec8a4c2664ff61a06f16 Merge tag 'bcachefs-2024-01-26' of https://evilpiepirate.org/git/bcachefs
@@ -541,6 +544,11 @@ f5c3eb4b7251baba5cd72c9e93920e710ac8194a bridge: mcast: fix disabled snooping af
 89be8aa5b0ecb3b729c7bcff64bb2af7921fec63 HID: bpf: actually free hdev memory after attaching a HID-BPF program
 764ad6b02777d77dca3659ca490f0898aa593670 HID: bpf: use __bpf_kfunc instead of noinline
 913b9d443a0180cf0de3548f1ab3149378998486 parisc: BTLB: Fix crash when setting up BTLB at CPU bringup
+89876175c8c83c35cf0cc8e21b7460dfed7b118a kbuild: fix W= flags in the help message
+cda5f94e88b45c9209599bac15fc44add5a59f60 modpost: avoid using the alias attribute
+82175d1f9430d5a026e2231782d13da0bf57155c kbuild: Replace tabs with spaces when followed by conditionals
+358de8b4f201bc05712484b15f0109b1ae3516a8 kbuild: rpm-pkg: simplify installkernel %post
+bfef491df67022c56aab3b831044f8d259f9441f kconfig: initialize sym->curr.tri to 'no' for all symbol types again
 c9ec85153fea6873c52ed4f5055c87263f1b54f9 selftests: net: add missing config for GENEVE
 6764c317b6bb91bd806ef79adf6d9c0e428b191e Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 fb366fc7541a1de521ab3df58471746aa793b833 netfilter: conntrack: correct window scaling with retransmitted SYN
@@ -617,4 +625,4 @@ de13a61022a1852a0fa9111c1c1322bcc86df681 kbuild: deb-pkg: show verbose log for d
 79ee005dc0f971cd23532f72927d106ce6283b4d kbuild: deb-pkg: build binary-arch in parallel
 a8fdabe1e15ddec9491d3895786a21de492c0fd9 kbuild: deb-pkg: call more misc debhelper commands
 
---===============5536898274634874418==--
+--===============1793620299720576124==--
