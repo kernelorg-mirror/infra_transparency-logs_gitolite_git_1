@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 01 Feb 2024 00:41:07 -0000
-Message-Id: <170674806748.22992.12590236048777794901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 01 Feb 2024 00:50:03 -0000
+Message-Id: <170674860351.28917.509940463364145407@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: e5a77529971caba88130fe38f26c083fda03bb78
-    new: 2dc23b6f852bc7816d7ab421979d95223e894be3
+  - ref: refs/heads/for-6.9/io_uring
+    old: 1221a44efc82768535e845c37ac18ecae219559b
+    new: f4316b444fdce4fd86e7b22d65096977f3699300
     log: |
-         57f2c6350f2d8d835def0a613a3d37c28d146102 net: ipv4: Simplify the allocation of slab caches in inet_initpeers
-         2dc23b6f852bc7816d7ab421979d95223e894be3 net: bridge: Use KMEM_CACHE instead of kmem_cache_create
+         f4316b444fdce4fd86e7b22d65096977f3699300 io_uring: remove unconditional looping in local task_work handling
          
