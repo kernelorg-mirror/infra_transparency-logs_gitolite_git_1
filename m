@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1715051560894774591=="
+Content-Type: multipart/mixed; boundary="===============5536898274634874418=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 01 Feb 2024 23:12:15 -0000
-Message-Id: <170682913578.25407.16936285641123516469@gitolite.kernel.org>
+Date: Thu, 01 Feb 2024 23:12:54 -0000
+Message-Id: <170682917493.25973.13196929192732219999@gitolite.kernel.org>
 
---===============1715051560894774591==
+--===============5536898274634874418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/fixes
-    old: bfef491df67022c56aab3b831044f8d259f9441f
-    new: 41b9fb381a486360b2daaec0c7480f8e3ff72bc7
-    log: revlist-bfef491df670-41b9fb381a48.txt
+  - ref: refs/heads/kbuild
+    old: 55e5b8e854ebc5fb222cb6ac3da1ad32e9a58677
+    new: a8fdabe1e15ddec9491d3895786a21de492c0fd9
+    log: revlist-55e5b8e854eb-a8fdabe1e15d.txt
 
---===============1715051560894774591==
+--===============5536898274634874418==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bfef491df670-41b9fb381a48.txt
+Content-Disposition: attachment; filename=revlist-55e5b8e854eb-a8fdabe1e15d.txt
 
 c7ec4f2d684e17d69bbdd7c4324db0ef5daac26a xen-netback: don't produce zero-size SKB frags
 024b32db43a359e0ded3fcc6cd86247cbbed4224 drm/bridge: parade-ps8640: Wait for HPD when doing an AUX transfer
@@ -607,5 +607,14 @@ cfdf0c09a68b6026c0b214b484f1dab60b8b78ba Merge tag 'nfsd-6.8-2' of git://git.ker
 a412682659b3832ac6f1a301e1c147027926f605 Merge tag 'kbuild-fixes-v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 91481c9092465d68bcb4540ac0dbfd65024a0170 Merge tag 'parisc-for-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 41b9fb381a486360b2daaec0c7480f8e3ff72bc7 Merge tag 'net-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+91c6f3a3a51008ea36663f87344f266c46188c9e kconfig: remove unneeded buffer allocation in zconf_initscan()
+03fc74949a2352a1cc31b53eb30c7ffa5bbc3038 kconfig: fix line number in recursive inclusion detection
+d31de133dc0525d001ddc6db071a26e4ab07b1e6 docs: kbuild/kconfig: reformat/cleanup
+a438c5eb91dfbd41eccd7b9acaa4adc5ea2744a2 kbuild: create a list of all built DTB files
+6db99069377c7125f02e032aac45fc7eadf658a6 kbuild: simplify dtbs_install by reading the list of compiled DTBs
+de13a61022a1852a0fa9111c1c1322bcc86df681 kbuild: deb-pkg: show verbose log for direct package builds
+8f40857b3767ef3566c8108225cb1daa60072f11 kbuild: deb-pkg: make debian/rules quiet for 'make deb-pkg'
+79ee005dc0f971cd23532f72927d106ce6283b4d kbuild: deb-pkg: build binary-arch in parallel
+a8fdabe1e15ddec9491d3895786a21de492c0fd9 kbuild: deb-pkg: call more misc debhelper commands
 
---===============1715051560894774591==--
+--===============5536898274634874418==--
