@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Thu, 01 Feb 2024 12:05:38 -0000
-Message-Id: <170678913838.9578.50019991140606499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 01 Feb 2024 12:05:51 -0000
+Message-Id: <170678915174.9750.7371762438890222603@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/tags/firewire-fixes-6.8-rc3
+  - ref: refs/tags/spi-fix-v6.8-rc2
     old: 0000000000000000000000000000000000000000
-    new: 84d9eb860e13925679373c2dae7670594ea314ba
+    new: 43eb90f730e7aeb3a1edb5ce8cb62365e2d661a7
