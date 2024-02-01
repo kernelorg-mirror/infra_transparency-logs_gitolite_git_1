@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7504638288424603370=="
+Content-Type: multipart/mixed; boundary="===============0122168605373401630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Thu, 01 Feb 2024 12:01:52 -0000
-Message-Id: <170678891265.6325.12540988167461240839@gitolite.kernel.org>
+Date: Thu, 01 Feb 2024 12:02:01 -0000
+Message-Id: <170678892141.6494.12350435930005105993@gitolite.kernel.org>
 
---===============7504638288424603370==
+--===============0122168605373401630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,38 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: dacb0e0dc7703573dde85147562f7f0ac551b681
-    new: 8f5b7dbc644d6217a2fd35cb82594b215818eb16
-    log: |
-         8f5b7dbc644d6217a2fd35cb82594b215818eb16 Revert "arm64: dts: exynos: Add SPI nodes for Exynos850"
-         
+  - ref: refs/heads/next/dt64
+    old: 98473b0d78caa5502b7eee05553ee168f0b0b424
+    new: c0fe557853f3d4b61c4e2e729061482f4da901db
 
---===============7504638288424603370==
+--===============0122168605373401630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1706788911 +0100
+pusher krzk@kernel.org 1706788920 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1706788909-f3e4f362af82a8548378df9bc76db94b100ac200
+nonce 1706788919-86653b947b11df5de938d8acafc0029462d473d4
 
-dacb0e0dc7703573dde85147562f7f0ac551b681 8f5b7dbc644d6217a2fd35cb82594b215818eb16 refs/heads/for-next
+98473b0d78caa5502b7eee05553ee168f0b0b424 c0fe557853f3d4b61c4e2e729061482f4da901db refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmW7iC8QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD13TtD/9do26uAZ5X5VqKgHZK5fiSl1XGSf89UScV
-8aFUPSeNPuwIe/LEXPff9zUO3AtfoDnbfrRHS2GtaTnDhd75jtHktw/QGNhxZ17A
-M0UKHRdDZmvhalfNgHTTLMOkJ9pgNAElJd63ho/TVWY/wt3tc4OsIihVkFFhAVcS
-A0boiAwBYBATRcLJT8BWf5M2V75VSMhUvnX+qVa7uQyVLi2gcPvhfx7mrqbAZYUD
-+hoRxM/4Eec4zdF5mpNmNmLrYGsULtChv/wg1rQ0C9d3EV5OawCRG2LU0hPfaKTL
-aQbQdizZvHeK81CnKpJ/ta9B6BOmnHBivQgX4n5y4EZW3531QfpMA8otj1uzs0C0
-EyeKzwCh5FvEIsgPMECivGSu8MoW0xwiiy9u/QBLybQTDHyMw6yEQuHHY2Z2Cb7n
-jCph63bPe4qz7lD7cK/Rw+1J+27My16W9fTsj6/YemMthfS8QVdCGZm11XUmOUHK
-jRlPVzFbfCCCdqvgvNKCx2sL2k/gy7NmI7nG+eDPPUslisDP1DjRcGz779lWgLjF
-OXPGnvaYekCPTvGEIp6Gw0nx5UBO75qks5pO7s59p8wiGeJpDxbBfkV+fWP0OuB5
-Vzw4usS7HGh7l4escd3+smGb7iL1oUskbyepDIQJzI2L8K8Auv9tP44Jz4Hqx1MI
-U8y8fE6IQA==
-=4xN4
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmW7iDgQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1wPeEACAguOqwE2BBqVOsVCJI9Xk+Rdnjiouco2D
+I1byax74Kh1/PXebQki2urAaeNtQW1L7soUGHZXm4aUROKounRYYBG6E7L0F/e2L
+X6Rpqz4vFvUMKcoIH0M0yjE9LyIOgwp75LopW++iTyDFsSCry43fz+nrfPc5P09W
+Fff59LLv/eLXsLzJCZhJ/7V6w0DsDlktP9tYBitFvqzJ6hAJjQdzKCoeNorqt0c6
+4RoM5Mlv7kNsiVLCL8D7YBAeLiYUAxUuoNOF15Q87w1rxZ02Z5FBeWgFIMaa9e2i
+fwQ5IjOjzkMNam4Svr8v0tyUzmdY5LHiiF6ioHCtymkKKfXh+cmt0HK4pTc6s/wu
+rXQJqlelV3wJytvmVuHeHRQoXl0S62jH8yypa+8/RavfAqKCvEbGdOcXRUq5BQHX
+KBonx3h4Ekf8u/4KVvsaMyp4IFNSHvaIrZAmUwjpdBR1PDamV6D+K795Lq/Oi+3o
+NdAi3dcfuESjlm6auI1NZXeMGaky4fYLh2A7fLwefHeYfyZiNxqog2CCFzAss/Mv
+vhoJlvZ5lL9NJgS0Nd1QiaKW+lcGdlwGdw2ALvJaXWJb2MH+KdALMPh+OqWSjdkq
+z1+I2l/olSWnmpV0fFHbNGMgRBO5jXLFMheH1utdiKOtzn5ynqKALn+vBojEaMpN
+WXGSOuHshg==
+=IU6H
 -----END PGP SIGNATURE-----
 
---===============7504638288424603370==--
+--===============0122168605373401630==--
