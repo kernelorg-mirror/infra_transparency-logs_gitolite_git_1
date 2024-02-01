@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Thu, 01 Feb 2024 13:42:28 -0000
-Message-Id: <170679494819.17300.14539138558481578952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 01 Feb 2024 13:44:37 -0000
+Message-Id: <170679507727.18088.1109776451606239108@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/wt-2024-02-01
-    old: 0000000000000000000000000000000000000000
-    new: 9e094eb41dbd9c27c7f24533c08f51054747e06b
+  - ref: refs/heads/fileCxVWzA
+    old: e6c5812dc4d0b3e890608cb9c98597d1bed7e937
+    new: 0000000000000000000000000000000000000000
