@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6098263108273406122=="
+Content-Type: multipart/mixed; boundary="===============2514458252119554718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 01 Feb 2024 18:10:16 -0000
-Message-Id: <170681101603.27158.5133656885098774547@gitolite.kernel.org>
+Date: Thu, 01 Feb 2024 18:10:49 -0000
+Message-Id: <170681104975.27423.2916274146144145670@gitolite.kernel.org>
 
---===============6098263108273406122==
+--===============2514458252119554718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: c9ec85153fea6873c52ed4f5055c87263f1b54f9
-    new: 4e192be1a225b7b1c4e315a44754312347628859
-    log: revlist-c9ec85153fea-4e192be1a225.txt
+  - ref: refs/heads/dev-queue
+    old: 470772954660fdbc5bbad2bdc5ef2e84f0cb8563
+    new: f6b361052c93406f263efe908fbdc4d424856528
+    log: revlist-470772954660-f6b361052c93.txt
 
---===============6098263108273406122==
+--===============2514458252119554718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9ec85153fea-4e192be1a225.txt
+Content-Disposition: attachment; filename=revlist-470772954660-f6b361052c93.txt
 
 59f7ea703c38abc3f239068d49cc8897740e4c54 batman-adv: mcast: fix mcast packet type counter on timeouted nodes
 0a186b49bba596b81de5a686ce5bfc9cd48ab3ef batman-adv: mcast: fix memory leak on deleting a batman-adv interface
@@ -79,5 +79,14 @@ f0588b157f48b9c6277a75c9f14650e86d969e03 idpf: avoid compiler padding in virtchn
 93561eefbf87c0a57e15ebf647895e9ca83911c7 Merge tag 'nf-24-01-31' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 069a6ed2992df8eaae90d69d7770de8d545327d9 doc/netlink/specs: Add missing attr in rt_link spec
 4e192be1a225b7b1c4e315a44754312347628859 Merge tag 'batadv-net-pullrequest-20240201' of git://git.open-mesh.org/linux-merge
+7b0832bcdc971305f7fdc5756e3f16e9d83b17e1 i40e: Fix waiting for queues of all VSIs to be disabled
+9af588886caed86bb9fac0247a3af7b7dea13204 i40e: Fix wrong mask used during DCB config
+87ed8e611d663d27e34e97d3a93b81f307125ecc e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+d31026c71e175fc094352e5ab596255db0f33a0f igb: Fix string truncation warnings in igb_set_fw_version
+987f1777aece0cebf81cecb340118afe0f7eee6a ice: Add check for lport extraction to LAG init
+0b28d305e4aaebaf66148aa34832c387760caa50 iavf: fix reset in early states
+7b94214e17623e9a1e0154567d061b5d6ef8c821 iavf: allow an early reset event to be processed
+9847e28ae0d0421b42ba5dd7d37ad615b3fbe1b2 igc: Remove temporary workaround
+f6b361052c93406f263efe908fbdc4d424856528 ice: fix connection state of DPLL and out pin
 
---===============6098263108273406122==--
+--===============2514458252119554718==--
