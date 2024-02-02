@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Fri, 02 Feb 2024 16:18:25 -0000
-Message-Id: <170689070551.10573.9354074096396809313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Fri, 02 Feb 2024 16:23:14 -0000
+Message-Id: <170689099412.13978.117322047184933866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/fixes
-    old: a22fe1d6dec7e98535b97249fdc95c2be79120bb
-    new: bd6081be2251c3700eca8a7bbe071e1bb8cd2af4
-    log: |
-         bd6081be2251c3700eca8a7bbe071e1bb8cd2af4 dmaengine: at_hdmac: add missing kernel-doc style description
-         
+  - ref: refs/tags/gfs2-v6.8-rc2-revert
+    old: 0000000000000000000000000000000000000000
+    new: 4c81f59b234be8362a7a589bc53fb49e3a412fd9
