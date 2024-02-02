@@ -1,78 +1,144 @@
-Content-Type: multipart/mixed; boundary="===============5035007641415800465=="
+Content-Type: multipart/mixed; boundary="===============1878855149304708472=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Fri, 02 Feb 2024 13:45:23 -0000
-Message-Id: <170688152377.30827.3881571199886835681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 02 Feb 2024 13:49:49 -0000
+Message-Id: <170688178939.32451.11156690743134171331@gitolite.kernel.org>
 
---===============5035007641415800465==
+--===============1878855149304708472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/main
-    old: b341590e77d89d8812051fdd2354ff04e12f211b
-    new: 5932ad87828b267649d750869c89c0f1a3873477
-    log: revlist-b341590e77d8-5932ad87828b.txt
+  - ref: refs/heads/master-pending
+    old: b7808c36861b96b548d038d803f7373763f2567a
+    new: c7f51f5a802b3c401a0046a5031178da84e55055
+    log: revlist-b7808c36861b-c7f51f5a802b.txt
+  - ref: refs/heads/pending
+    old: fa921dd2ba7b3f00633c433aeca6c094aca7886b
+    new: f776fd9ccb6561c4e4fdf05552a8b57a06686a90
+    log: revlist-fa921dd2ba7b-f776fd9ccb65.txt
+  - ref: refs/tags/ath-pending-202402021348
+    old: 0000000000000000000000000000000000000000
+    new: c7f51f5a802b3c401a0046a5031178da84e55055
 
---===============5035007641415800465==
+--===============1878855149304708472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b7808c36861b-c7f51f5a802b.txt
 
-certificate version 0.1
-pusher 7BF9099A 1706881493 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1706881493-1fe78e1ac0af5cf7c2ea6580336d93b89d061904
+e4ad71e2367f3f7b7409c30df9cdbb34da15e012 MAINTAINERS: wifi: brcm80211: cleanup entry
+5b778e1c2e9760ffe99482de26e70cd74683ba5c wifi: fill in MODULE_DESCRIPTION()s for wlcore
+2f2b503ea770cf817044851a583e8880d1de4ae2 wifi: fill in MODULE_DESCRIPTION()s for wl1251 and wl12xx
+257ca10c7317d4a424e48bb95d14ca53a1f1dd6f wifi: fill in MODULE_DESCRIPTION()s for Broadcom WLAN
+f8782ea450ad83df5f3dfdb1fca093f46238febe wifi: fill in MODULE_DESCRIPTION()s for ar5523
+e063d2a05d713d396044124867704b08e5c30860 wifi: fill in MODULE_DESCRIPTION()s for wcn36xx
+714ea2f109d9d561789078fd8a1beeffa9af36d6 wifi: fill in MODULE_DESCRIPTION()s for p54spi
+35337ac472605da9db051827fa2d39e6c02c6d81 wifi: fill in MODULE_DESCRIPTION()s for wl18xx
+c9013880284d78bac6498d9c0b0b7043cf0f5639 wifi: fill in MODULE_DESCRIPTION()s for wilc1000
+f3f8f050316893fe2da523458ff7f5f6d61fb1a6 wifi: fill in MODULE_DESCRIPTION()s for mt76 drivers
+aa125f229076a8230a171d519dbdb2a862145d33 wifi: iwlwifi: remove extra kernel-doc
+57b9426952c46f8d0aa7fad27fe55403fb28974f wifi: rtw89: pci: update SER timer unit and timeout time
+26cdaee43dc5f9c9d0c5429b365b8f094afad717 wifi: rtw89: pci: interrupt v2 refine IMR for SER
+0bc7d1d4e63cf31ff1b4396b0e2f0e3c76828d26 wifi: rtw89: pci: validate RX tag for RXQ and RPQ
+c108b4a50dd7650941d4f4ec5c161655a73711db wifi: rtw89: pci: enlarge RX DMA buffer to consider size of RX descriptor
+f8a7840e98a440f466954c0b9eed99a9f064a564 wifi: rtw89: 8922a: hook handlers of TX/RX descriptors to chip_ops
+b16daa62125e3f841a135c37dfd996cdf7e7960d wifi: rtw89: 8922a: implement {stop,resume}_sch_tx and cfg_ppdu
+1ba63a8a752a76ebe4b26d80c6d25bd04484a9eb wifi: rtw89: 8922a: add chip_ops::cfg_txrx_path
+88d1f9b22fab815dd8c27ccb06f30d4814eaa11a wifi: rtw89: 8922a: add RF read/write v2
+1de97cd362c4080aab595b84bf0bff3ebc702446 wifi: rtw89: 8922a: add chip_ops to get thermal value
+a6c759c8962b11fdc62ced6f70a3f6ed0a50e033 wifi: rtw89: 8922a: set chip_ops FEM and GPIO to NULL
+b5d7020134d91ccb9ae763f738aaa466e37ac25a wifi: rtw89: update scan C2H messages for wifi 7 IC
+ac54faf507e5d2776a7dca2c13665745d4490cd5 wifi: rtw89: debug: add FW log component for scan
+a412920b70199c07504ea9e937b00f07916a541a wifi: rtw89: prepare scan leaf functions for wifi 7 ICs
+4ba24331c973eb1df0d3b67b0e3f8b7cde7765a7 wifi: rtw89: 8922a: add ieee80211_ops::hw_scan
+e58e3117019cfa732706211c151fd94d8fb08ce3 wifi: rtw89: add new H2C for PS mode in 802.11be chip
+f651300cd8849a3703892fe5efd397c7a44a7f60 wifi: rtw89: update ps_state register for chips with different generation
+f1abee76dba829ada6e30ac640443e81bde2f878 wifi: rtw89: 8922a: add more fields to beacon H2C command to support multi-links
+17903a283593c1dbf9da041f836004163ca30f7b wifi: rtl8xxxu: fix error messages
+0abd31e871afddfcd506c7361fa0b38d3bce816f Merge remote-tracking branch 'wireless/main'
+5201f6d55310a945864a14a1d09fd79ae8f3e45f Merge remote-tracking branch 'wireless-next/main'
+7b1cc41d57fbe333aac210c02b743bdc17064a00 Add localversion to identify builds from this tree
+08d82175bfbbbf7fc2bfca391877abed320b5e29 wifi: ath9k:  remove redundant assignment to variable ret
+24355fcb0d4cbcb6ddda262596558e8cfba70f11 wifi: ath9k: delay all of ath9k_wmi_event_tasklet() until init is complete
+413e20e82ee78f142cb5194fd317db514f012602 wifi: ath11k: change to move WMI_VDEV_PARAM_SET_HEMU_MODE before WMI_PEER_ASSOC_CMDID
+12f491cd6d812559e2d986b7836e9062d2efde96 wifi: ath12k: add firmware-2.bin support
+6925eba532e1e9a30ae0f6807dba07f596ba0cd6 wifi: ath12k: indicate NON MBSSID vdev by default during vdev start
+9f06911998cac015e333f519243f1601ca687f47 wifi: ath12k: fetch correct pdev id from WMI_SERVICE_READY_EXT_EVENTID
+28703381099022e18df1de7c2c665d72f92c7819 wifi: ath12k: add support for peer meta data version
+902700d55d4a4522bb3eb4ef94f752a19c42230a wifi: ath12k: fix fetching MCBC flag for QCN9274
+94e8235c679db3e3b130a91d4c1d8f5023a5bb01 wifi: ath12k: Add logic to write QRTR node id to scratch
+664a1c96b297965c443446e61ccb02ebc961ddc3 wifi: ath12k: fix firmware assert during insmod in memory segment mode
+f7019c2fcdf68a0df3a30735c91bb4fb8e2b810d wifi: ath12k: split hal_ops to support RX TLVs word mask compaction
+3cf1a9f7a1b2823af5a57e277bbb7c730c8d737b wifi: ath12k: remove hal_desc_sz from hw params
+419927ec8438e336f9dea183de9153da4e65dafc wifi: ath12k: subscribe required word mask from rx tlv
+57c8b5c332e587cceec5d6bde57146edc2f4af87 wifi: ath12k: add MAC id support in WBM error path
+afeee629e72eeed719eb3f2918d7c8f3ae33497f wifi: ath12k: fix PCI read and write
+af9bc78d14fbe77db6e7526efaced162060f27bc wifi: ath12k: Read board id to support split-PHY QCN9274
+2d3a7384b9c8ea0b640747176cc01af64cf722ec wifi: ath12k: disable QMI PHY capability learn in split-phy QCN9274
+2f92b22beef74a4051ee04dba390b59080ad85e2 wifi: ath12k: add processing for TWT enable event
+ad2b29ad94c3ed9e39f2eae50915c0f34af4f6fc wifi: ath12k: add processing for TWT disable event
+e7c7fbb582bc7936cf7ee744f62b82bd46a7d4a8 wifi: ath12k: refactor the rfkill worker
+cf07ca10ce3a9e82df74cc0b23b1c2b1a7c21a62 Merge branch 'ath-next'
+46c81a2b83af0e27f3df055f5ffef02a49e9a782 Merge remote-tracking branch 'mhi/mhi-next'
+b19ed35ba15f0001248416f6000a6cc2f7c08780 Add localversion-wireless-testing-ath
+57a9026fa2dc0408f26d5095031eb9252727a200 wifi: ath12k: fix broken structure wmi_vdev_create_cmd
+126404b451b03190808b26952d419bbfe1de99f0 wifi: ath12k: fix incorrect logic of calculating vdev_stats_id
+a9f3e95cf8f303e1757ffe02e356d352ab4211cc wifi: ath12k: change interface combination for P2P mode
+87065dd6386dc5e12a2d4a55e96e1713f8e657ea wifi: ath12k: add P2P IE in beacon template
+cbcb45c458a93d32a48b9280c13294e0853fa5dd wifi: ath12k: implement handling of P2P NoA event
+dfc5c3584f9fd84e16093e0ae7cdf632fa924665 wifi: ath12k: implement remain on channel for P2P mode
+e7e5391e97f79325c6461a31aa3e1e7722683029 wifi: ath12k: change WLAN_SCAN_PARAMS_MAX_IE_LEN from 256 to 512
+8c712e3afe50a56eb39d60b249118e69558ce618 wifi: ath12k: allow specific mgmt frame tx while vdev is not up
+5227706e51258daf3e86b8283cd7276a6b01390e wifi: ath12k: move peer delete after vdev stop of station for WCN7850
+70f4208792d0f74b46d6804dcb63782b7429191f wifi: ath12k: designating channel frequency for ROC scan
+c67f4313ddffba03121b3edaf57e31ea5206a1f3 wifi: ath12k: advertise P2P dev support for WCN7850
+f776fd9ccb6561c4e4fdf05552a8b57a06686a90 wifi: ath12k: enable 802.11 power save mode in station mode
+c7f51f5a802b3c401a0046a5031178da84e55055 Merge branch 'pending' into master-pending
 
-b341590e77d89d8812051fdd2354ff04e12f211b 5932ad87828b267649d750869c89c0f1a3873477 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmW88dUACgkQ10qiO8sP
-aACNLg/+I0yH4aJ6UD5iq3xrKYBFJk1s2ZnECNo3ZJnZ7dm/Zen4NxpaE/muBKpS
-xbrbDelYpebYi5t69WhFE8r8zTbXMkgkXevYjMPEJ17qobNsnKpIok+7X/2s5GCp
-v2cKy15vbjlO5o7Pf5oRxnR75AV8vACOQh1TqScM7xKbXy9y29OGbnvysG7BmgaM
-QK13Ytk9ktaIQkTQYj2QPSfysM0TzsnoCNZWjFSPB2G4eHXREn0w941mZHOPxm+l
-E80IOZDLG/5UpE/++wyJqrmlTPZUZisWcQFOkKA7SK+0oLutm+B5yXX3v/Eq6b3c
-gfBZ8pfqNpgIxNh6RabfcU4izTSalInRquUk27cEdn9JMYPC+aq4Wyq7OoCsuhDY
-IJN0yXlKeq2969KCpiBCQ2njdoeS25McW/A3+tqIaVrfvJ7iXgqwOiLeAdYx1r3C
-2XsDwH7Bbsv0Fl69ZOwqw6SU5m7+9ogeHP0ewAhLJIGZDaCai3/AuetgVPceCmsn
-rJjP/tY++1ZjvRm27bv9fNGBaqSJ8U0Fst0qjFfMU24UE2VyDaZMWbTxNPwqLQzq
-QrSt1TVRJF4S2QgtoCB4hPHAQOEaKUERtv4a4qS4wFLBB0UW4o+1vtm9hO/H5v1+
-tKeyqqhoN3Knv4V6jvalunEwDqsq3lgJDmt9ioxzlExceP7TJ70=
-=Tg8Q
------END PGP SIGNATURE-----
-
---===============5035007641415800465==
+--===============1878855149304708472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b341590e77d8-5932ad87828b.txt
+Content-Disposition: attachment; filename=revlist-fa921dd2ba7b-f776fd9ccb65.txt
 
-d10fb5ecc82211691264156bbf8b8a988d57944e iwlwifi: fw: fix more kernel-doc warnings
-3ec064e0a2cb667eceea7410d2ce7945a186beb2 wifi: iwlwifi: remove unused function prototype
-f74f397afe2b7a1e2f8a0a3384006e36fb940f87 wifi: iwlwifi: api: clean up some kernel-doc/typos
-a51d1cf5ad64a17230cf90e1770d363c5cbc0d5c wifi: iwlwifi: prepare for reading SPLC from UEFI
-18f523654d4943c87da3ec512dad74828be764e4 wifi: iwlwifi: read SPLC from UEFI
-61ff84440c402ad3e0c3989b3bef99f0db5e6766 wifi: iwlwifi: mvm: don't send NDPs for new tx devices
-dd273e8a22f9302c499ae4248c95a212fccd6811 wifi: iwlwifi: mvm: use fast balance scan in case of an active P2P GO
-4dde4ff0eadd6cde43aa5f39fbea36355f9f6e44 wifi: iwlwifi: support link command version 2
-669761e897a4fc87ae0e4625590f2a396a87a3d1 wifi: iwlwifi: read WRDD table from UEFI
-20935f3e646e687f32f044d9d75a4a8637c086db wifi: iwlwifi: read ECKV table from UEFI
-dc2b94a111e0fb3779a86dd8d303ad842880f869 wifi: iwlwifi: rfi: use a single DSM function for all RFI configurations
-b97ada404c4eecb90c79fd884cdc09022d549d20 wifi: iwlwifi: take send-DSM-to-FW flows out of ACPI ifdef
-091d89428f18ac8e67b4032dfa305e957040bdd9 wifi: iwlwifi: simplify getting DSM from ACPI
-dc4fe7500e7a1a1ab56a7708ac9be4c90fd12174 wifi: iwlwifi: prepare for reading DSM from UEFI
-fc7214c3c986142758ae9d2cd456c98e48547b5e wifi: iwlwifi: read DSM functions from UEFI
-c1b393a7dc237505088129945a85b570af8742da wifi: iwlwifi: mvm: don't send BT_COEX_CI command on new devices
-12e1a6a5b038bcf2c58fd356758710180222e5bc wifi: iwlwifi: bump FW API to 88 for AX/BZ/SC devices
-5932ad87828b267649d750869c89c0f1a3873477 wifi: iwlwifi: mvm: make functions public
+08d82175bfbbbf7fc2bfca391877abed320b5e29 wifi: ath9k:  remove redundant assignment to variable ret
+24355fcb0d4cbcb6ddda262596558e8cfba70f11 wifi: ath9k: delay all of ath9k_wmi_event_tasklet() until init is complete
+413e20e82ee78f142cb5194fd317db514f012602 wifi: ath11k: change to move WMI_VDEV_PARAM_SET_HEMU_MODE before WMI_PEER_ASSOC_CMDID
+12f491cd6d812559e2d986b7836e9062d2efde96 wifi: ath12k: add firmware-2.bin support
+6925eba532e1e9a30ae0f6807dba07f596ba0cd6 wifi: ath12k: indicate NON MBSSID vdev by default during vdev start
+9f06911998cac015e333f519243f1601ca687f47 wifi: ath12k: fetch correct pdev id from WMI_SERVICE_READY_EXT_EVENTID
+28703381099022e18df1de7c2c665d72f92c7819 wifi: ath12k: add support for peer meta data version
+902700d55d4a4522bb3eb4ef94f752a19c42230a wifi: ath12k: fix fetching MCBC flag for QCN9274
+94e8235c679db3e3b130a91d4c1d8f5023a5bb01 wifi: ath12k: Add logic to write QRTR node id to scratch
+664a1c96b297965c443446e61ccb02ebc961ddc3 wifi: ath12k: fix firmware assert during insmod in memory segment mode
+f7019c2fcdf68a0df3a30735c91bb4fb8e2b810d wifi: ath12k: split hal_ops to support RX TLVs word mask compaction
+3cf1a9f7a1b2823af5a57e277bbb7c730c8d737b wifi: ath12k: remove hal_desc_sz from hw params
+419927ec8438e336f9dea183de9153da4e65dafc wifi: ath12k: subscribe required word mask from rx tlv
+57c8b5c332e587cceec5d6bde57146edc2f4af87 wifi: ath12k: add MAC id support in WBM error path
+afeee629e72eeed719eb3f2918d7c8f3ae33497f wifi: ath12k: fix PCI read and write
+af9bc78d14fbe77db6e7526efaced162060f27bc wifi: ath12k: Read board id to support split-PHY QCN9274
+2d3a7384b9c8ea0b640747176cc01af64cf722ec wifi: ath12k: disable QMI PHY capability learn in split-phy QCN9274
+2f92b22beef74a4051ee04dba390b59080ad85e2 wifi: ath12k: add processing for TWT enable event
+ad2b29ad94c3ed9e39f2eae50915c0f34af4f6fc wifi: ath12k: add processing for TWT disable event
+e7c7fbb582bc7936cf7ee744f62b82bd46a7d4a8 wifi: ath12k: refactor the rfkill worker
+57a9026fa2dc0408f26d5095031eb9252727a200 wifi: ath12k: fix broken structure wmi_vdev_create_cmd
+126404b451b03190808b26952d419bbfe1de99f0 wifi: ath12k: fix incorrect logic of calculating vdev_stats_id
+a9f3e95cf8f303e1757ffe02e356d352ab4211cc wifi: ath12k: change interface combination for P2P mode
+87065dd6386dc5e12a2d4a55e96e1713f8e657ea wifi: ath12k: add P2P IE in beacon template
+cbcb45c458a93d32a48b9280c13294e0853fa5dd wifi: ath12k: implement handling of P2P NoA event
+dfc5c3584f9fd84e16093e0ae7cdf632fa924665 wifi: ath12k: implement remain on channel for P2P mode
+e7e5391e97f79325c6461a31aa3e1e7722683029 wifi: ath12k: change WLAN_SCAN_PARAMS_MAX_IE_LEN from 256 to 512
+8c712e3afe50a56eb39d60b249118e69558ce618 wifi: ath12k: allow specific mgmt frame tx while vdev is not up
+5227706e51258daf3e86b8283cd7276a6b01390e wifi: ath12k: move peer delete after vdev stop of station for WCN7850
+70f4208792d0f74b46d6804dcb63782b7429191f wifi: ath12k: designating channel frequency for ROC scan
+c67f4313ddffba03121b3edaf57e31ea5206a1f3 wifi: ath12k: advertise P2P dev support for WCN7850
+f776fd9ccb6561c4e4fdf05552a8b57a06686a90 wifi: ath12k: enable 802.11 power save mode in station mode
 
---===============5035007641415800465==--
+--===============1878855149304708472==--
