@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joro/iommu
-Date: Fri, 02 Feb 2024 11:49:31 -0000
-Message-Id: <170687457171.27534.18324891196305741068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 02 Feb 2024 11:52:00 -0000
+Message-Id: <170687472098.30067.3588376949585776744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joro/iommu
-user: joro
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/iommu/fixes
-    old: fae6e669cdc52fdbb843e7fb1b8419642b6b8cba
-    new: d2d00e15808c37ec476a5c040ee2cdd23854ef18
+  - ref: refs/heads/x86/fred
+    old: cba9ff33451162a6aa9b1424b32503354d7ef20e
+    new: e13841907b8fda0ae0ce1ec03684665f578416a8
     log: |
-         d2d00e15808c37ec476a5c040ee2cdd23854ef18 powerpc: iommu: Bring back table group release_ownership() call
-         
-  - ref: refs/heads/next
-    old: fae6e669cdc52fdbb843e7fb1b8419642b6b8cba
-    new: d2d00e15808c37ec476a5c040ee2cdd23854ef18
-    log: |
-         d2d00e15808c37ec476a5c040ee2cdd23854ef18 powerpc: iommu: Bring back table group release_ownership() call
+         e13841907b8fda0ae0ce1ec03684665f578416a8 MAINTAINERS: Add a maintainer entry for FRED
          
