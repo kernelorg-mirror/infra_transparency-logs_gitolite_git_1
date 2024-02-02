@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Fri, 02 Feb 2024 18:45:46 -0000
-Message-Id: <170689954647.31542.6065984402322432157@gitolite.kernel.org>
+Date: Fri, 02 Feb 2024 18:46:06 -0000
+Message-Id: <170689956610.31738.12794529413747244448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rproc-next
-    old: c77b35ce66af25bdd6fde60b62e35b9b316ea5c2
-    new: e160d811c5603f6205fd260cb6f5a4a22e84b80f
+  - ref: refs/heads/for-next
+    old: 99f59b148871dadb9104366e3d25b120a97f897b
+    new: 80255b24efbe83a6a01600484b6959259a30ded5
     log: |
          64e17ec2504a542acd239f91589927ed266bca13 remoteproc: k3-dsp: Use devm_rproc_alloc() helper
          961a919a6dbd24b670766ae0613085d63e9c79e3 remoteproc: k3-dsp: Add devm action to release reserved memory
@@ -22,4 +22,5 @@ changes:
          f1e05cc10a3e129c669c169b88fb935e7d3c64ec remoteproc: imx_rproc: Use devm_rproc_alloc() helper
          173d2c6326e39a9d87cadab179e2177a1d76294e remoteproc: st: Use devm_rproc_alloc() helper
          e160d811c5603f6205fd260cb6f5a4a22e84b80f remoteproc: stm32: Use devm_rproc_alloc() helper
+         80255b24efbe83a6a01600484b6959259a30ded5 Merge branches 'rproc-next' and 'rpmsg-next' into for-next
          
