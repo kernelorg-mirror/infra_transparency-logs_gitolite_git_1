@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 02 Feb 2024 04:58:18 -0000
-Message-Id: <170684989822.10785.5341510224033989307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
+Date: Fri, 02 Feb 2024 04:59:23 -0000
+Message-Id: <170684996335.11241.11767494068995102665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/ast/bpf
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: cf244463a286ea57ea7e63c33614d302f776e62e
-    new: 747056a9a954d694dac91d1da6cfff5e6f0e3fc6
+  - ref: refs/heads/uptr_v3
+    old: 575d8af77d7600ceda300206a2f2af1647231309
+    new: 1c0762dad1db25dd8ae43e3c58afbe9e1988de48
     log: |
-         102c28b83ddf021c9902dc59e6436278a0975916 net: ipa: stash modem TX and RX endpoints
-         844ecc4aa78e2f291071025cf76a98287b38856a net: ipa: begin simplifying TX queue stop
-         688de12f080f10dff8f3ddc80103e432ad8deb0b net: ipa: kill the STARTED IPA power flag
-         86c9a4929258299498480a542871a4604cc3766c net: ipa: kill the IPA power STOPPED flag
-         30cdaea236009c6f626f0660ac4ca08558a2166f net: ipa: kill ipa_power_modem_queue_stop()
-         2acf5fc8dabaf9a5b14a678cd039f974dc749768 net: ipa: kill ipa_power_modem_queue_active()
-         e01bbdc9f8513395a8554aeeeef8f45dd26dfe15 net: ipa: kill ipa_power_modem_queue_wake()
-         747056a9a954d694dac91d1da6cfff5e6f0e3fc6 Merge branch 'net-ipa-simplify-tx-power-handling'
+         232cf5a4611d903f7294276e7de176df4d59cba4 bpf: Add x86-64 JIT support for bpf_cast_user instruction.
+         189fb768bffa1d6de9bad719c43512c15b825adc bpf: Recognize cast_kern/user instructions in the verifier.
+         beff82f50d84e6d261d6b99fb0ee0fc6c8528dee bpf: Recognize btf_decl_tag("arg:arena") as PTR_TO_ARENA.
+         bf9b081f398f5d28bf1e29d9fd3caf8844f5bfc9 libbpf: Add __arg_arena to bpf_helpers.h
+         883ebd6643fa2e3b75afaeddc04af75f03072fe8 libbpf: Add support for bpf_arena.
+         615afe96dec0cb6491b8103e0e5c5ff125589fd8 bpf: Tell bpf programs kernel's PAGE_SIZE
+         7379ca0fa049b7a59d26712422a27d585c6dac5c bpf: Add helper macro bpf_arena_cast()
+         1a082852ece9323263ea5152ce36b636c463ef2c selftests/bpf: Add bpf_arena_list test.
+         1c0762dad1db25dd8ae43e3c58afbe9e1988de48 selftests/bpf: Add bpf_arena_htab test.
          
