@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Fri, 02 Feb 2024 10:09:39 -0000
-Message-Id: <170686857999.20080.11253706096961453183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 02 Feb 2024 10:10:31 -0000
+Message-Id: <170686863179.22076.447522983481520022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
 user: herbert
 changes:
   - ref: refs/heads/master
-    old: c5a2f74db71a849f3a60bc153d684d6d28a0c665
-    new: 24c890dd712f6345e382256cae8c97abb0406b70
+    old: 4d314d27130b674a3687135fe94f44a40f107f76
+    new: 9a14b311f2f786a7ac68f445bc550459b36d3190
     log: |
-         ccb88e9549e7cfd8bcd511c538f437e20026e983 crypto: ccp - Fix null pointer dereference in __sev_platform_shutdown_locked
-         69fba378edcaffba7bc7d299fdee02e377069d30 crypto: cbc - Ensure statesize is zero
-         24c890dd712f6345e382256cae8c97abb0406b70 crypto: algif_hash - Remove bogus SGL free on zero-length error path
+         68baa4289b8554998771799ed1f9695721e41a22 crypto: hisilicon/sec2 - updates the sec DFX function register
+         c4af422545474a0dbae1b17d306ec94e32ee0551 crypto: hisilicon/sec2 - modify nested macro call
+         dd1a502cabcaa410c68ee9f74eae50d85e89fee3 crypto: hisilicon/sec2 - fix some cleanup issues
+         0c753f33428d824f476c1e76fac2f06b8dd0b3d5 crypto: hisilicon/sec - remove unused parameter
+         9a14b311f2f786a7ac68f445bc550459b36d3190 crypto: ahash - unexport crypto_hash_alg_has_setkey()
          
-  - ref: refs/tags/v6.8-p3
-    old: 0000000000000000000000000000000000000000
-    new: 9fa91862a84d954c187de9da05360a6a77d70868
