@@ -1,61 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 02 Feb 2024 17:54:00 -0000
-Message-Id: <170689644079.23661.16268219404204266837@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 02 Feb 2024 17:57:04 -0000
+Message-Id: <170689662407.26408.1152243213744477832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/tags/block-6.7-2023-12-22
+  - ref: refs/heads/master-pending
+    old: c7f51f5a802b3c401a0046a5031178da84e55055
+    new: 54be8d02f1f8ef8a54a54e6c42e3f974cf7b450c
+    log: |
+         1b9d7d34ee83e7a7be3f3925c79bf93312fa4e83 wifi: ath11k: initialize rx_mcs_80 and rx_mcs_160 before use
+         9eb2860d7bffa43dab71f6f9b4e32c48b38ff9b8 wifi: ath11k: initialize eirp_power before use
+         54be8d02f1f8ef8a54a54e6c42e3f974cf7b450c Merge branch 'pending' into master-pending
+         
+  - ref: refs/heads/pending
+    old: f776fd9ccb6561c4e4fdf05552a8b57a06686a90
+    new: 9eb2860d7bffa43dab71f6f9b4e32c48b38ff9b8
+    log: |
+         1b9d7d34ee83e7a7be3f3925c79bf93312fa4e83 wifi: ath11k: initialize rx_mcs_80 and rx_mcs_160 before use
+         9eb2860d7bffa43dab71f6f9b4e32c48b38ff9b8 wifi: ath11k: initialize eirp_power before use
+         
+  - ref: refs/tags/ath-pending-202402021755
     old: 0000000000000000000000000000000000000000
-    new: bb282b09b30da34d2408286af72970a8fc5bf542
-  - ref: refs/tags/block-6.7-2023-12-29
-    old: 0000000000000000000000000000000000000000
-    new: a453b54f5ce5e5acc833cd14eee74ac92cef9918
-  - ref: refs/tags/block-6.8-2024-01-26
-    old: 0000000000000000000000000000000000000000
-    new: 4480a0d14a09557afa49e75780bdd0d96dcf0a6a
-  - ref: refs/tags/block-6.8-2024-02-01
-    old: 0000000000000000000000000000000000000000
-    new: b084e9af5808f8fc908f70be203a0683f3d9528d
-  - ref: refs/tags/for-6.8/block-2024-01-08
-    old: 0000000000000000000000000000000000000000
-    new: ea81ad3092512483cdf3734189cec91d3e3ed8b1
-  - ref: refs/tags/for-6.8/block-2024-01-18
-    old: 0000000000000000000000000000000000000000
-    new: aeffa8efdf3258cb0431c145a00bf251d4e9ee90
-  - ref: refs/tags/for-6.8/dm-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 2de30150dede03c1cce1892218e4f25cd809e3e0
-  - ref: refs/tags/for-6.8/io_uring-2024-01-08
-    old: 0000000000000000000000000000000000000000
-    new: 75f79dad7e3fa2a335ea0577ae5bfc1df0e94ca7
-  - ref: refs/tags/for-6.8/io_uring-2024-01-18
-    old: 0000000000000000000000000000000000000000
-    new: a3be603b9249f6f6f6b1ad1076cddd8b9c521248
-  - ref: refs/tags/io_uring-6.8-2024-01-26
-    old: 0000000000000000000000000000000000000000
-    new: 29160114af66179d3456fcbc107243db31830fd3
-  - ref: refs/tags/io_uring-6.8-2024-02-01
-    old: 0000000000000000000000000000000000000000
-    new: 5fdae2182a4344918c97df555d7ce2bfe8dfd6fb
-  - ref: refs/tags/v6.7
-    old: 0000000000000000000000000000000000000000
-    new: 06f0875049ac2d11eb48273d04d0a6800c52abf5
-  - ref: refs/tags/v6.7-rc7
-    old: 0000000000000000000000000000000000000000
-    new: adab409b5eb1c5905c260f74c75725db3da46e38
-  - ref: refs/tags/v6.7-rc8
-    old: 0000000000000000000000000000000000000000
-    new: ff16c06a1757247b456096cbffeedf4ef5621ba4
-  - ref: refs/tags/v6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a0706eba72b90a4702dde6a0b8cc82d78e9b2495
-  - ref: refs/tags/v6.8-rc2
-    old: 0000000000000000000000000000000000000000
-    new: c18956a7ed4b71eec72700a0899ad21167b994bb
+    new: 54be8d02f1f8ef8a54a54e6c42e3f974cf7b450c
