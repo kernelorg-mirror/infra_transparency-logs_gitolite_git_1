@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 02 Feb 2024 21:26:46 -0000
-Message-Id: <170690920652.19298.11879090537891674421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 02 Feb 2024 21:27:56 -0000
+Message-Id: <170690927654.19805.2100059170376822694@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: d8fa61462de28d6d3e26032a1b26af502c229aa1
-    new: 6b4f55983ba8b8bdd536a78fc641afc6347f568c
+  - ref: refs/heads/main
+    old: d81c0792e640586c8639cf10ac6d0a0e79da6466
+    new: 73c59d6fe109d5376e6b9b564789c0189e8d28f3
     log: |
-         6b4f55983ba8b8bdd536a78fc641afc6347f568c Fri Feb  2 04:26:01 PM EST 2024
+         b26577001af49a20f09770fd6e6cfd10d5daac93 net/sched: Add helper macros with module names
+         241a94abcf465ba9363d93168da5ddd47002930f net/sched: Add module aliases for cls_,sch_,act_ modules
+         2c15a5aee2f32e341d1585fa1867eece76a1edb8 net/sched: Load modules via their alias
+         6cff015817890a97311a10d3482906cfb67f14bf net/sched: Remove alias of sch_clsact
+         73c59d6fe109d5376e6b9b564789c0189e8d28f3 Merge branch 'net-sched-load-modules-via-alias'
          
