@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 02 Feb 2024 20:04:43 -0000
-Message-Id: <170690428356.23393.2483602100973043667@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Fri, 02 Feb 2024 20:32:57 -0000
+Message-Id: <170690597748.11596.4133551666216511517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/x86-pie-for-sev-v4a
-    old: c790a7a2b45da490258e14fb93b2c2373ff5c743
-    new: 05725648733ca4ac9c337fdfd9b7eede269a1fa1
+  - ref: refs/heads/damon/next
+    old: f6e7c1b13a21144372e59d6033baea311cbb3083
+    new: 8cefb26a1eae8ea770806d5d8d05d83b1ae6fd0a
     log: |
-         65d0e5f4ed6ca807cdf28a1c5c0389af2c9f9bda x86/sev: Fix position dependent variable references in startup code
-         05725648733ca4ac9c337fdfd9b7eede269a1fa1 x86/coco: Make cc_set_mask() static inline
+         8cefb26a1eae8ea770806d5d8d05d83b1ae6fd0a mm/damon/sysfs: handle 'state' file inputs for every sampling interval if possible
          
