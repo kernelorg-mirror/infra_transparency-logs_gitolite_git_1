@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8178219283885334058=="
+Content-Type: multipart/mixed; boundary="===============5450676536139087716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 02 Feb 2024 03:44:44 -0000
-Message-Id: <170684548437.14190.9214222055176471322@gitolite.kernel.org>
+Date: Fri, 02 Feb 2024 03:44:54 -0000
+Message-Id: <170684549472.14298.12820362909039529587@gitolite.kernel.org>
 
---===============8178219283885334058==
+--===============5450676536139087716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: uli
 changes:
-  - ref: refs/heads/linux-4.4.y-st
-    old: 7107c2a794baad1966136a65be58aa844a296613
-    new: 32c8d563e356f1b156afc0ba28f0aee7561dd2b6
-    log: revlist-7107c2a794ba-32c8d563e356.txt
+  - ref: refs/heads/linux-4.4.y-cip
+    old: a0ac575eeff89882d3aa16d67979a86e668f5d1d
+    new: 779dae67e799dfb8a0267e26038ab74c58261f24
+    log: revlist-a0ac575eeff8-779dae67e799.txt
 
---===============8178219283885334058==
+--===============5450676536139087716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7107c2a794ba-32c8d563e356.txt
+Content-Disposition: attachment; filename=revlist-a0ac575eeff8-779dae67e799.txt
 
 156ded184bf8319191f3cf9ba9b60fdd33a20bca string.h: add memcpy_and_pad()
 b8615dd96ec3efd7386e1c14ad3f46181b5cc299 string.h: un-fortify memcpy_and_pad
@@ -48,5 +48,7 @@ b31b8cd82b73d7631857e9615a7b515f754bcf2b net: sched: em_text: fix possible memor
 d755d7c697b845281f3e47f0ba6a659be575c6c9 mmc: core: Cancel delayed work before releasing host
 ebd78351151f70fd2660c6d4be5f5840b0413575 m68k: include module.h to make use of exception handling in traps.c
 32c8d563e356f1b156afc0ba28f0aee7561dd2b6 Update localversion-st, tree is up-to-date with 4.14.336.
+669ec7e3445717e179b380a8578b8a0d2cea56ae Merge branch 'linux-4.4.y-st' into linux-4.4.y-cip
+779dae67e799dfb8a0267e26038ab74c58261f24 CIP: Bump version suffix to -cip84 after merge from cip/linux-4.4.y-st tree
 
---===============8178219283885334058==--
+--===============5450676536139087716==--
