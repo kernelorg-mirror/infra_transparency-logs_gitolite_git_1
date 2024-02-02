@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 02 Feb 2024 10:08:27 -0000
-Message-Id: <170686850703.19579.16222924441542809586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
+Date: Fri, 02 Feb 2024 10:09:39 -0000
+Message-Id: <170686857999.20080.11253706096961453183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+user: herbert
 changes:
-  - ref: refs/heads/main
-    old: 747056a9a954d694dac91d1da6cfff5e6f0e3fc6
-    new: 969337a4c98cd3d34f0139fd8d31e95f1b72b0f7
+  - ref: refs/heads/master
+    old: c5a2f74db71a849f3a60bc153d684d6d28a0c665
+    new: 24c890dd712f6345e382256cae8c97abb0406b70
     log: |
-         9484b9555de04ed16952dda6518b324f61a6fd6a dt-bindings: net: ipq4019-mdio: document now supported clock-frequency
-         bdce82e960d1205d118662f575cec39379984e34 net: mdio: ipq4019: add support for clock-frequency property
-         969337a4c98cd3d34f0139fd8d31e95f1b72b0f7 Merge branch 'net-ipq4019-rate'
+         ccb88e9549e7cfd8bcd511c538f437e20026e983 crypto: ccp - Fix null pointer dereference in __sev_platform_shutdown_locked
+         69fba378edcaffba7bc7d299fdee02e377069d30 crypto: cbc - Ensure statesize is zero
+         24c890dd712f6345e382256cae8c97abb0406b70 crypto: algif_hash - Remove bogus SGL free on zero-length error path
          
+  - ref: refs/tags/v6.8-p3
+    old: 0000000000000000000000000000000000000000
+    new: 9fa91862a84d954c187de9da05360a6a77d70868
