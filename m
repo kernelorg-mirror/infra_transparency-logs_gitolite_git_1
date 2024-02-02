@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 02 Feb 2024 18:04:15 -0000
-Message-Id: <170689705583.30903.512934124288001959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 02 Feb 2024 18:13:40 -0000
+Message-Id: <170689762028.6358.17505278101521407379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/clone3-shadow-stack
-    old: c7f04b2191b4653da0b2c0bfb857deb5b89264cf
-    new: 50abefbf1bc07f5c4e403fd28f71dcee855100f7
+  - ref: refs/heads/bleeding-edge
+    old: 52a5ace0e28c9b0ce76b2367cb19b009daf48c9a
+    new: 7f82463a4ec5fd466fa00e93d627b38da5d43ae2
     log: |
-         9928aa0d93595f9b7453c4d1c4e73e5e2f45f97c selftests: Provide helper header for shadow stack testing
-         99e49451e55e41ff38f68132369e49ba85429f34 mm: Introduce ARCH_HAS_USER_SHADOW_STACK
-         afc394dec8c710938918918596fbd8d6d3c408a1 fork: Add shadow stack support to clone3()
-         d9348d21fb0d4c27bda18c19969fae34155edd02 selftests/clone3: Factor more of main loop into test_clone3()
-         e34537116997baf04a0864b81b3d2b182691d0d7 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
-         50abefbf1bc07f5c4e403fd28f71dcee855100f7 selftests/clone3: Test shadow stack support
+         26da9a8d279f30f1d0aa33cea0003a3d37fa051c ACPI: NFIT: Switch to use acpi_evaluate_dsm_typed()
+         2a42d20b8e3724e73a88fb1d1db538a504040523 Merge branch 'acpi-tables' into bleeding-edge
+         b377252eeec91f347cd538011f956a4fe73794b3 thermal: core: Change governor name to const char pointer
+         7f82463a4ec5fd466fa00e93d627b38da5d43ae2 Merge branch 'thermal-core' into bleeding-edge
          
