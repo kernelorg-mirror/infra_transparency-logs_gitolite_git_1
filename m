@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sat, 03 Feb 2024 13:48:59 -0000
-Message-Id: <170696813998.31996.14486654655818098224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 03 Feb 2024 13:49:17 -0000
+Message-Id: <170696815732.32161.15377124698529459204@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
   - ref: refs/heads/arm64-gcs
