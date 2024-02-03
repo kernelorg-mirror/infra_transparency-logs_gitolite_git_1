@@ -1,31 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============2797222745145984513=="
+Content-Type: multipart/mixed; boundary="===============6349910228827594901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 03 Feb 2024 13:47:30 -0000
-Message-Id: <170696805099.31279.14951349190843625716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sat, 03 Feb 2024 13:48:09 -0000
+Message-Id: <170696808920.31588.16359477210035768434@gitolite.kernel.org>
 
---===============2797222745145984513==
+--===============6349910228827594901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
   - ref: refs/heads/arm64-gcs
-    old: 1db56354b5c5faaffbecb201c65992bf364fcf3a
+    old: 9202f4d0a80823835bacee9fb7bb462dc326979a
     new: 860f9350404b9287eabb74ee48dce38f094967e8
-    log: revlist-1db56354b5c5-860f9350404b.txt
+    log: revlist-9202f4d0a808-860f9350404b.txt
 
---===============2797222745145984513==
+--===============6349910228827594901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1db56354b5c5-860f9350404b.txt
+Content-Disposition: attachment; filename=revlist-9202f4d0a808-860f9350404b.txt
 
+4592ecfa9943c75df89e0430e4e733e5d52cd488 fork: Support shadow stacks in clone3()
+8c5ec4cf09d231570e90e36076814c70260cbba5 Documentation: userspace-api: Add shadow stack API documentation
+dce56cffc1830f845035e4602a87e0c76452b4e6 selftests: Provide helper header for shadow stack testing
+407f297464f34a291120279673ae17bd3cd4c7ee mm: Introduce ARCH_HAS_USER_SHADOW_STACK
+e83b955aa884797e5b3d1c68619766266774d1d4 fork: Add shadow stack support to clone3()
+bdfc1a8b44c50524683b8f1a42fe5c75230b2df8 selftests/clone3: Factor more of main loop into test_clone3()
+348cc6110a4d07dd9388a04dc12472706dbc1835 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
+0069d7af3c3c8f9fd15ba242ddcce2b8bccd9cf7 selftests/clone3: Test shadow stack support
 3974517a46936c740ffcbcbcd56e817ca33a829d arm64/gcs: Provide support for GCS in userspace
 421d34c54bd67dd09ec6b718d8124000617f03c8 arm64/mm: Restructure arch_validate_flags() for extensibility
 ae8966b2d7bed429bec4c8887c86365b5184b602 prctl: arch-agnostic prctl for shadow stack
@@ -67,4 +75,4 @@ e2502fd81f27143e8e2c8ad51ca00d2981fbb7ba kselftest/arm64: Add GCS signal tests
 a551a7d7af931376273f88f6fe631d47614dcfdb kselftest/arm64: Enable GCS for the FP stress tests
 860f9350404b9287eabb74ee48dce38f094967e8 kselftest/arm64: Quick test for fork() clobbering the parent stack
 
---===============2797222745145984513==--
+--===============6349910228827594901==--
