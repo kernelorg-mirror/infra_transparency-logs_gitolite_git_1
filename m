@@ -1,77 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============6184068799042904173=="
+Content-Type: multipart/mixed; boundary="===============6640269298113937409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 03 Feb 2024 12:35:08 -0000
-Message-Id: <170696370828.10895.13137154937840756397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Sat, 03 Feb 2024 12:39:29 -0000
+Message-Id: <170696396984.13861.13673858595261478672@gitolite.kernel.org>
 
---===============6184068799042904173==
+--===============6640269298113937409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/arm64-gcs
-    old: 517c1b662c2c6961b2828899b3bcbf8a070c5099
-    new: 320ad656dc3f94d69cdf14ac9644beda26dca82d
-    log: revlist-517c1b662c2c-320ad656dc3f.txt
+  - ref: refs/heads/x86-pie-for-sev-v4a
+    old: 05725648733ca4ac9c337fdfd9b7eede269a1fa1
+    new: d03d94c6d2d07e0b213729367059328444cd9a70
+    log: revlist-05725648733c-d03d94c6d2d0.txt
 
---===============6184068799042904173==
+--===============6640269298113937409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-517c1b662c2c-320ad656dc3f.txt
+Content-Disposition: attachment; filename=revlist-05725648733c-d03d94c6d2d0.txt
 
-28b1770bcc724c48052eae0db1777a06b46e5f6b fork: Support shadow stacks in clone3()
-c3436305ecbc43533de8a891827bea4bd6977bdf Documentation: userspace-api: Add shadow stack API documentation
-9928aa0d93595f9b7453c4d1c4e73e5e2f45f97c selftests: Provide helper header for shadow stack testing
-99e49451e55e41ff38f68132369e49ba85429f34 mm: Introduce ARCH_HAS_USER_SHADOW_STACK
-afc394dec8c710938918918596fbd8d6d3c408a1 fork: Add shadow stack support to clone3()
-d9348d21fb0d4c27bda18c19969fae34155edd02 selftests/clone3: Factor more of main loop into test_clone3()
-e34537116997baf04a0864b81b3d2b182691d0d7 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
-50abefbf1bc07f5c4e403fd28f71dcee855100f7 selftests/clone3: Test shadow stack support
-bada1026c0969516cd54423fa22796341a7bf49d arm64/gcs: Provide support for GCS in userspace
-c41b95c18822db916a0c65841d43a60722fae187 arm64/mm: Restructure arch_validate_flags() for extensibility
-3a7577e54db4e2526edd9673f39e2904c581dbce prctl: arch-agnostic prctl for shadow stack
-34c4667dd836983fe78cad1fb125f699f879d368 mman: Add map_shadow_stack() flags
-93d99749e37304c743c7e0a9d47da22fb8bfd8ee arm64: Document boot requirements for Guarded Control Stacks
-7798faaa8ac5b5177be1cb8d8530332022e773d9 arm64/gcs: Document the ABI for Guarded Control Stacks
-acbc5b601a7e174359293ce181ad63c7689d9ef3 arm64/sysreg: Add definitions for architected GCS caps
-ed8bba085dee84c829e96f825a9c54695964a9c6 arm64/gcs: Add manual encodings of GCS instructions
-6a4043f35722846d1ac9c55d8aec703f8911d212 arm64/gcs: Provide put_user_gcs()
-69031d0278626445f7c6efeaf83d7266571a04eb arm64/cpufeature: Runtime detection of Guarded Control Stack (GCS)
-a48ac0c116fd80a72e6acccc3354d05e5a4d34cd arm64/mm: Allocate PIE slots for EL0 guarded control stack
-32b0c93d2ffed7b69284c3c2827b43a04d330954 mm: Define VM_SHADOW_STACK for arm64 when we support GCS
-ca20b21ca54a87c499f9a21cc0f34de9efefddca arm64/mm: Map pages for guarded control stack
-865d60347d294d7fc501d7a02a27d6667b442dd9 KVM: arm64: Manage GCS registers for guests
-2d75c41ae2e83e1252600f59842b8d4e075428ff arm64/gcs: Allow GCS usage at EL0 and EL1
-24ceea44760233ea3b99c450cf2e06191b028a86 arm64/idreg: Add overrride for GCS
-5d02efbaf1844eab09fbbd71a8aa5e08b95cc62e arm64/hwcap: Add hwcap for GCS
-c81f84f9ec737be1d5e6df577380e2d3ea79c394 arm64/traps: Handle GCS exceptions
-cce4c0feecd3d42e88551cd00c45451d436aa0ba arm64/mm: Handle GCS data aborts
-7f420eccc886bd418d100cea27b1e1834654d95e arm64/gcs: Context switch GCS state for EL0
-e64460218f8dabaed443b64c459d1b2ef5588ca3 arm64/gcs: Ensure that new threads have a GCS
-fef38ec17a532e0750188935eaf46331f5662823 arm64/gcs: Implement shadow stack prctl() interface
-e05f81918f114acb270f5f7c415a58336989476b arm64/mm: Implement map_shadow_stack()
-6f47cb60e55a910ec75d7a40ea3f19697b2587ec arm64/signal: Set up and restore the GCS context for signal handlers
-9f44d8135006592d12732d6e54e6fdbc92fa7ebc arm64/signal: Expose GCS state in signal frames
-6e6bc4b8da25bdf35cd08e12d4b1ac00f3bae1dd arm64/ptrace: Expose GCS via ptrace and core files
-c9a8c16ce2299a01f70d860c1c6d6f0e35175177 arm64: Add Kconfig for Guarded Control Stack (GCS)
-2ac48add78952ca1d8463cb4260950e95f368c73 kselftest/arm64: Verify the GCS hwcap
-da2d51d97f24e83feccccb81d3a6359b27f4d21d kselftest/arm64: Add GCS as a detected feature in the signal tests
-7256da4d496d5f31b0f664aabd182675645a41d9 kselftest/arm64: Add framework support for GCS to signal handling tests
-4579f2cbb04d5da74d16556cb69ed44d8b1b92b8 kselftest/arm64: Allow signals tests to specify an expected si_code
-77260397c97e77775be3fb815b67d529f0f7edfb kselftest/arm64: Always run signals tests with GCS enabled
-9e3581ad6b4fae3677d44f84e05b5fb4d4b8f91b kselftest/arm64: Add very basic GCS test program
-4137d18552061100c0d9afef18586efaa7a6ca99 kselftest/arm64: Add a GCS test program built with the system libc
-345ab3a0e1902cc4e87c01240b6e1a92222a08ec kselftest/arm64: Add test coverage for GCS mode locking
-851cdf00b20e47eba4fc7d8d456642454cf1ebf0 selftests/arm64: Add GCS signal tests
-1d14c6bba3949b106fb0062ed81bb184a464a2a2 kselftest/arm64: Add a GCS stress test
-bdb2e418b998d35cda034cfdb5a64ff2f33606a6 kselftest/arm64: Enable GCS for the FP stress tests
-320ad656dc3f94d69cdf14ac9644beda26dca82d kselftest: Provide shadow stack enable helpers for arm64
+e3ef461af35a8c74f2f4ce6616491ddb355a208f x86/sev: Harden #VC instruction emulation somewhat
+4cab62c058f5a150d9960c112362e5c76d204d9d x86/mm: Fix memory encryption features advertisement
+e814b59e6c2b11f5a3d007b2e61f7d550c354c3a x86/sme: Fix memory encryption setting if enabled by default and not overridden
+b6e0f6666f74f0794530e3557f5b0a4ce37bd556 x86/cpufeatures: Add SEV-SNP CPU feature
+acaa4b5c4c854b5009f4d4a5395b2609ad0f4937 x86/speculation: Do not enable Automatic IBRS if SEV-SNP is enabled
+04d65a9dbb33e20500005e151d720acead78c539 iommu/amd: Don't rely on external callers to enable IOMMU SNP support
+216d106c7ff7b3dcabacf2b5dc6c9c40eba7495c x86/sev: Add SEV-SNP host initialization support
+e3fd08afb7c350d5612f113eadfb4ebb6ed08deb x86/mtrr: Don't print errors if MtrrFixDramModEn is set when SNP enabled
+94b36bc244bb134ec616dd3f2d37343cd8c1be54 x86/sev: Add RMP entry lookup helpers
+1f568d36361b4891696280b719ca4b142db872ba x86/fault: Add helper for dumping RMP entries
+54055344b232c917a9e492a8bf5864fed99ad6b8 x86/traps: Define RMP violation #PF error code
+e8bbd303d7de3fb32be1434a5d5ce3e1cb182018 x86/fault: Dump RMP table information when RMP page faults occur
+2c35819ee00b8893626914b3384cdef2afea7dbd x86/sev: Add helper functions for RMPUPDATE and PSMASH instruction
+661b1c6169e2b260753b850823d583d9f2c01be4 x86/sev: Adjust the directmap to avoid inadvertent RMP faults
+3a45dc2b419e691f3dd7fb42c2a1b1cc8146be4f crypto: ccp: Define the SEV-SNP commands
+1ca5614b84eed5904f65f143e0e7aaab0ac4c6b2 crypto: ccp: Add support to initialize the AMD-SP for SEV-SNP
+18085ac2f2fbf56aee9cbf5846740150e394f4f4 crypto: ccp: Provide an API to issue SEV and SNP commands
+8dac642999b1542e0f0abefba100d8bd11226c83 x86/sev: Introduce an SNP leaked pages list
+24512afa4336a1c14de750238abe32759cfba4b0 crypto: ccp: Handle the legacy TMR allocation when SNP is enabled
+7364a6fbca45f826952ea932699fb2171d06ee73 crypto: ccp: Handle non-volatile INIT_EX data when SNP is enabled
+a867ad6b340f47b7333b80a54b8507fc2cd80aa4 crypto: ccp: Handle legacy SEV commands when SNP is enabled
+f366a8dac1b8fef28a470d4e67b9843ebb8e2a1f iommu/amd: Clean up RMP entries for IOMMU pages during SNP shutdown
+8ef979584ea86c247b768f4420148721a842835f crypto: ccp: Add panic notifier for SEV/SNP firmware shutdown on kdump
+75253db41a467ab7983b62616b25ff083c28803a KVM: SEV: Make AVIC backing, VMSA and VMCB memory allocation SNP safe
+c3b86e61b75645276aa2565649a6da5d6e77030f x86/cpufeatures: Enable/unmask SEV-SNP CPU feature
+f5db8841ebe59dbdf07fda797c88ccb51e0c893d crypto: ccp: Add the SNP_PLATFORM_STATUS command
+fad133c79afa02344d05001324a0474e20f3e055 crypto: ccp: Add the SNP_COMMIT command
+cb645fe478eaad32b6168059bb6b584295af863e crypto: ccp: Add the SNP_SET_CONFIG command
+1bfca8d2800ab5ef0dfed335a2a29d1632c99411 Documentation: virt: Fix up pre-formatted text block for SEV ioctls
+29956748339aa8757a7e2f927a8679dd08f24bb6 x86/Kconfig: Remove CONFIG_AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT
+f9e6f00d93d34f60f90b42c24e80194b11a72bb2 crypto: ccp: Make snp_range_list static
+d03d94c6d2d07e0b213729367059328444cd9a70 x86/sev: Fix position dependent variable references in startup code
 
---===============6184068799042904173==--
+--===============6640269298113937409==--
