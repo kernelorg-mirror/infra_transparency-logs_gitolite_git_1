@@ -1,43 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============3165988927588703775=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sat, 03 Feb 2024 22:19:20 -0000
-Message-Id: <170699876009.13750.15852259028396703572@gitolite.kernel.org>
-
---===============3165988927588703775==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sat, 03 Feb 2024 23:53:32 -0000
+Message-Id: <170700441294.15634.7593372788979766218@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/seen
-    old: 0fd6bcfbb081f760fb7c85e41895f1db806b84c1
-    new: 4007505b481b4e140743c7818a529c76adb5d75a
-    log: revlist-0fd6bcfbb081-4007505b481b.txt
-
---===============3165988927588703775==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fd6bcfbb081-4007505b481b.txt
-
-10ae21aebb7d715ca8b6f0f63a5d01636c91eff8 add-patch: remove unnecessary NEEDSWORK comment
-e9701531461a46cfc8bc6629c1a189a013f795b8 add-patch: classify '@' as a synonym for 'HEAD'
-58bb672b39614783eb028de7017b7de736fa8521 SQUASH???
-483b759b47cc9d1624ae92bfa56d278a0b673bbd Merge branch 'jk/unit-tests-buildfix' into js/unit-test-suite-runner
-44400f58407e58ccf48996c21dfa85213b47577e t0080: turn t-basic unit test into a helper
-7ec2967b22e95e143d19820b904badeab72673a6 test-tool run-command testsuite: get shell from env
-c891d05c9f370758a9ecdb4a89f76c107b387a07 test-tool run-command testsuite: remove hardcoded filter
-24ba1476805928073e8c87dace19efd7bb443985 test-tool run-command testsuite: support unit tests
-cac51df484955d76fa959049d23274a0f31351ad unit tests: add rule for running with test-tool
-b3b269c2d8931642c4b9f03b9ce9e81c20995eb8 t/Makefile: run unit tests alongside shell tests
-6194a728e69710763d00de26931ab5157d62dc80 Merge branch 'jh/sparse-index-expand-to-path-fix' into seen
-53fbb6ca769b32f574bdefb3740800f4e6fe9169 Merge branch 'js/unit-test-suite-runner' into seen
-4007505b481b4e140743c7818a529c76adb5d75a Merge branch 'gt/at-is-synonym-for-head-in-add-patch' into seen
-
---===============3165988927588703775==--
+  - ref: refs/heads/master
+    old: 2b0b48b0acb2a18a640123117f330f5cae8ccba0
+    new: 452f15569fc3cb1697b6482754dd51a56fcab970
+    log: |
+         bd7badfdf16ef975af4af3dfd3829319bcd567dd CONTRIBUTING: neomutt(1) can now be used to sign patches
+         3e7901ffe694f82d5fccce32f82f9924ac1b772c CONTRIBUTING, CONTRIBUTING.d/bugs, README: Split CONTRIBUTING file
+         ebc51bed31c9075d2070d2029e91876803fdd712 CONTRIBUTING, CONTRIBUTING.d/external_pages: Split CONTRIBUTING file
+         89cd7d9c9ca03976a3459e45cc055b38e47bd134 CONTRIBUTING, CONTRIBUTING.d/lint: Split CONTRIBUTING file
+         42fa24a282f06fca545d9bc839bc0d760dd5d579 CONTRIBUTING, CONTRIBUTING.d/style: Split CONTRIBUTING file
+         beb01a3cb231ca22108469f35dab08f35ca07330 CONTRIBUTING, CONTRIBUTING.d/patches: Split CONTRIBUTING file
+         452f15569fc3cb1697b6482754dd51a56fcab970 CONTRIBUTING, CONTRIBUTING.d/mail: Split file, and rewrite CONTRIBUTING as an intro
+         
