@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Sat, 03 Feb 2024 04:57:23 -0000
-Message-Id: <170693624303.29088.2034778405461449058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 03 Feb 2024 05:04:16 -0000
+Message-Id: <170693665612.803.8833887858394060684@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/mhi-next
-    old: 8ddf54a32111f6dbe06cd318af443c6545a6c037
-    new: ae1d892d518af5c092f2b1f8e6921996c6a95cb3
+  - ref: refs/heads/main
+    old: 5befa3728b855e9f75b29bb0069a1ca7f5bab2f7
+    new: f5d59230ec26aa5e8b59e9f4a4d288703a737479
     log: |
-         ae1d892d518af5c092f2b1f8e6921996c6a95cb3 bus: mhi: ep: Use kcalloc() instead of kzalloc()
+         f5d59230ec26aa5e8b59e9f4a4d288703a737479 r8169: simplify EEE handling
          
