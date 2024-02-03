@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 03 Feb 2024 02:08:33 -0000
-Message-Id: <170692611325.1893.7533060491712307121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 03 Feb 2024 02:14:26 -0000
+Message-Id: <170692646639.5701.4143687078067184717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 366fb5f59d470ad1271cd4bbc3c580ad6118943d
-    new: 4774bdb80a720c840c35456f6abc0c5ec5b45491
+  - ref: refs/heads/master
+    old: a68b50f47bec8bd6a33b07b7e1562db2553981a7
+    new: 2a79690eae953daaac232f93e6c5ac47ac539f2d
     log: |
-         2882358b8b83b417a9d82205ae6aae5be00bd989 perf tsc: Add missing newlines to debug statements
-         f5144ecad74101f87843aa08070df26a3937102a perf parse-events: Improve error location of terms cloned from an event
-         fd7b8e8fb20f51d60dfee7792806548f3c6a4c2c perf parse-events: Print all errors
-         b8db070f389c902f48e83ee7a94952e9557199e8 perf jevents: Drop or simplify small integer values
-         ffd856537b95dd65facb4e0c78ca1cb92c2048ff perf bpf: Clean up the generated/copied vmlinux.h
-         acfd65c89403f3f6478d4451d76377dd8b88bf02 tools: perf: Expose sample ID / stream ID to python scripts
-         4774bdb80a720c840c35456f6abc0c5ec5b45491 perf augmented_raw_syscalls.bpf: Move 'struct timespec64' to vmlinux.h
+         8f13c34087d3eb64329529b8517e5a6251653176 bpf: handle trusted PTR_TO_BTF_ID_OR_NULL in argument check logic
+         e2e70535dd76c6f17bdc9009ffca3d26cfd35ea4 selftests/bpf: add more cases for __arg_trusted __arg_nullable args
+         1eb986746a67952df86eb2c50a36450ef103d01b bpf: don't emit warnings intended for global subprogs for static subprogs
+         2a79690eae953daaac232f93e6c5ac47ac539f2d Merge branch 'two-small-fixes-for-global-subprog-tagging'
          
