@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 03 Feb 2024 12:48:33 -0000
-Message-Id: <170696451350.20517.17490688238265602018@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 03 Feb 2024 12:51:07 -0000
+Message-Id: <170696466771.23083.14115254293370761623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: f3616173bf9be9bf39d131b120d6eea4e6324cb5
-    new: b09b58e31b0f43d76f79b9943da3fb7c2843dcbb
+    old: 0eb1ec426cfcdac021c3f5c0c8fc1127047050e5
+    new: d6aa8e0aa605a6baba08220e4a83fa2619a4c4d7
     log: |
-         b09b58e31b0f43d76f79b9943da3fb7c2843dcbb octeontx2-pf: Fix a memleak otx2_sq_init
+         f2ec98566775dd4341ec1dcf93aa5859c60de826 net: phy: qcom: qca808x: fix logic error in LED brightness set
+         f203c8c77c7616c099647636f4c67d59a45fe8a2 net: phy: qcom: qca808x: default to LED active High if not set
+         d6aa8e0aa605a6baba08220e4a83fa2619a4c4d7 Merge branch 'qca-phy-led-fixes'
          
