@@ -1,78 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============0629993989117556456=="
+Content-Type: multipart/mixed; boundary="===============7521356789890008956=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 03 Feb 2024 13:03:50 -0000
-Message-Id: <170696543019.31030.2197912480633153628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 03 Feb 2024 13:14:47 -0000
+Message-Id: <170696608744.7347.10848528562328658918@gitolite.kernel.org>
 
---===============0629993989117556456==
+--===============7521356789890008956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/arm64-gcs
-    old: 320ad656dc3f94d69cdf14ac9644beda26dca82d
-    new: 1db56354b5c5faaffbecb201c65992bf364fcf3a
-    log: revlist-320ad656dc3f-1db56354b5c5.txt
+  - ref: refs/heads/master
+    old: 56897d51886fa7e9f034ff26128eb09f1b811594
+    new: b555d191561a7f89b8d2108dff687d9bc4284e48
+    log: revlist-56897d51886f-b555d191561a.txt
 
---===============0629993989117556456==
+--===============7521356789890008956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-320ad656dc3f-1db56354b5c5.txt
+Content-Disposition: attachment; filename=revlist-56897d51886f-b555d191561a.txt
 
-4592ecfa9943c75df89e0430e4e733e5d52cd488 fork: Support shadow stacks in clone3()
-8c5ec4cf09d231570e90e36076814c70260cbba5 Documentation: userspace-api: Add shadow stack API documentation
-dce56cffc1830f845035e4602a87e0c76452b4e6 selftests: Provide helper header for shadow stack testing
-407f297464f34a291120279673ae17bd3cd4c7ee mm: Introduce ARCH_HAS_USER_SHADOW_STACK
-e83b955aa884797e5b3d1c68619766266774d1d4 fork: Add shadow stack support to clone3()
-bdfc1a8b44c50524683b8f1a42fe5c75230b2df8 selftests/clone3: Factor more of main loop into test_clone3()
-348cc6110a4d07dd9388a04dc12472706dbc1835 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
-0069d7af3c3c8f9fd15ba242ddcce2b8bccd9cf7 selftests/clone3: Test shadow stack support
-635cb4472dc01f3936159e3be0fc6d84dcb43d82 arm64/gcs: Provide support for GCS in userspace
-3889a7dc302b0cec8d1f345b2c95d64addf6784b arm64/mm: Restructure arch_validate_flags() for extensibility
-0356f4fb8a5afa9ce30f774d0c4a61729764efc4 prctl: arch-agnostic prctl for shadow stack
-44bf9abc0b97d2b2be8387dae9edb6f2c29a4691 mman: Add map_shadow_stack() flags
-261b29721a2147015f3185aeb98d23c4e6a77728 arm64: Document boot requirements for Guarded Control Stacks
-93d348ebead1971d3669bbf28640ed677b3853c3 arm64/gcs: Document the ABI for Guarded Control Stacks
-6c62e000e715415971e30051c14dead9b21dc82b arm64/sysreg: Add definitions for architected GCS caps
-127267a52d25ef3ea972c95ee81894c51515dce8 arm64/gcs: Add manual encodings of GCS instructions
-b07ccc754694f0ebabf4beb797ccc90498bb5b4e arm64/gcs: Provide put_user_gcs()
-b36358e475e46901cf9fe9e781ecc7fb06cd0807 arm64/cpufeature: Runtime detection of Guarded Control Stack (GCS)
-820e5fa77a77cb198b55e7f1e344f69e6f5c842e arm64/mm: Allocate PIE slots for EL0 guarded control stack
-487d209432b73f9ce419d058fa88bfc7a2d14375 mm: Define VM_SHADOW_STACK for arm64 when we support GCS
-d4750e18133153199cd70521443546d28484c572 arm64/mm: Map pages for guarded control stack
-daeda306d44a7038e7697868c06b95123f41e4e4 KVM: arm64: Manage GCS registers for guests
-271b09f3e9b5bdfb2868a6f0ab7c307d805eb4c0 arm64/gcs: Allow GCS usage at EL0 and EL1
-c0016d1c6f2088163f1fe40e747298ccc89dfea1 arm64/idreg: Add overrride for GCS
-bb23a9743afa860b696de345f2800805ba45c636 arm64/hwcap: Add hwcap for GCS
-2c92b2402028b219fb8189e4040239c67b83d829 arm64/traps: Handle GCS exceptions
-87c15afb703a0f18bf26927b94a582b6ce4fe988 arm64/mm: Handle GCS data aborts
-fac1e48a68e1e77996e2bba2d89966fc5bb3249c arm64/gcs: Context switch GCS state for EL0
-4c6bf73c227563689cc8d82c9e49a9d9cb634e48 arm64/gcs: Ensure that new threads have a GCS
-7c0c2d98c978e2ae7e0adfa9ba721cc8433663ae arm64/gcs: Implement shadow stack prctl() interface
-0e73b5791f9bc3adfb458b48702a6ceebd672a4f arm64/mm: Implement map_shadow_stack()
-5cb993f8af687234d68a8f6fc3c613646e68ea31 arm64/signal: Set up and restore the GCS context for signal handlers
-8b1de05c117fa804c53e282e099499b104556a41 arm64/signal: Expose GCS state in signal frames
-e81887821faa81e65d1c27bad0be11326267b545 arm64/ptrace: Expose GCS via ptrace and core files
-9a849cd7ebb231750c45e435583a6836135ae5d8 arm64: Add Kconfig for Guarded Control Stack (GCS)
-ec8a430234baa720f5d2c14d842cd79078fd3174 kselftest/arm64: Verify the GCS hwcap
-9af63768d0167c40f35475499e8b1127c943e1ad kselftest/arm64: Add GCS as a detected feature in the signal tests
-e00ae29c669b628de49234129c8b6b12e69ea732 kselftest/arm64: Add framework support for GCS to signal handling tests
-fca3a290c3219d9a306ed237efb64ee24e43d137 kselftest/arm64: Allow signals tests to specify an expected si_code
-df5e5b75ecccf73bdb53221b2e801a638773927e kselftest/arm64: Always run signals tests with GCS enabled
-34ffb69d6f91d08311a0577265410806f32f59af kselftest/arm64: Add very basic GCS test program
-03a2cf953d3a23bb1e4a077fa366b6cf111904cb kselftest/arm64: Add a GCS test program built with the system libc
-e22e87369e12e0624331d3fab9c5aff2d97ed239 kselftest/arm64: Add test coverage for GCS mode locking
-e3a0e33c6b9b833b745476d327e051de59d76d5a kselftest/arm64: Add GCS signal tests
-727d0e0ab16b30be6d956ca5141092ba468588ec kselftest/arm64: Add a GCS stress test
-f8782338ef244c344ddddfbbdc7558b35dd42186 kselftest/arm64: Enable GCS for the FP stress tests
-3414414e6ce39730a30780ea767f2ff8265d5545 kselftest: Provide shadow stack enable helpers for arm64
-1db56354b5c5faaffbecb201c65992bf364fcf3a kselftest/arm64: Quick test for fork() clobbering the parent stack
+690811f0128eb6034e5fd011c3c54878839b4014 tools headers uapi: Sync linux/stat.h with the kernel sources to pick STATX_MNT_ID_UNIQUE
+174372668933ede569b9e56eab26971669a6a0a9 tools arch x86: Sync the msr-index.h copy with the kernel sources to pick IA32_MKTME_KEYID_PARTITIONING
+b0dc99215598d7fc7c6903437d49f0b33d1ef899 tools headers UAPI: Sync linux/fcntl.h with the kernel sources
+2dac1f089add90a45d93fe8217938281532b86c7 perf test: Fix 'perf script' tests on s390
+9d95c6be48fc8d3d622658da8fbd6d6787d5c2e7 perf list: Switch error message to pr_err() to respect debug settings (-v)
+79bacb6ad73ce63faba3564671c2028e6c3fa1e2 perf list: Add output file option
+a734c7f969750302b1150ef20468704498f74e64 perf test: Workaround debug output in list test
+1c2124ec8431f88f5c122be73cb4b784b558d600 perf test shell script: Fix test for python being disabled
+9a8dd2f24d1cb8e8df2c5d18b4973298db1006e1 perf test shell daemon: Make signal test less racy
+1233d1d54b7f66813cfa748aaaeca8c4f9c36c6b tools headers UAPI: Update tools's copy of drm.h headers to pick DRM_IOCTL_MODE_CLOSEFB
+39af67413997a350fa02a88e15eaacf202c94884 perf build: Make minimal shellcheck version to v0.6.0
+79baac8acfc60a7a5114f6d60731e28c242ef8ce perf top: Remove needless malloc(0) call that triggers -Walloc-size
+7bbe8f0071dfa23fcc3b2864ec9f3b1aeb7ab2df perf tools: Fix calloc() arguments to address error introduced in gcc-14
+e30dca91e5667568a6be54886020c43f1f6f95d3 tools headers UAPI: Sync kvm headers with the kernel sources
+becc24e96ad4b9bc5c5bba800dc184661b6702bc perf vendor events intel: Alderlake/sapphirerapids metric fixes
+21fdd8dd3726199451fc495f20104356e071a997 tools headers UAPI: Sync unistd.h to pick {list,stat}mount, lsm_{[gs]et_self_attr,list_modules} syscall numbers
+15d6daad8f8add8ef99b6e4e2b5bf0db48e1a8db tools headers x86 cpufeatures: Sync with the kernel sources to pick TDX, Zen, APIC MSR fence changes
+efe80f9c9063228136bc3824f7ac6b4ff2e273b4 tools headers: Update the copy of x86's mem{cpy,set}_64.S used in 'perf bench'
+7814fe24a6211a610db0b408d87420403b5b7a36 perf evlist: Fix evlist__new_default() for > 1 core PMU
+1f8c43b09ec6906079ac1f02e2b0a381c6f48c6c tools include UAPI: Sync linux/mount.h copy with the kernel sources
+fdd0ae72b34e56eb5e896d067c49a78ecb451032 perf tools headers: update the asm-generic/unaligned.h copy with the kernel sources
+b555d191561a7f89b8d2108dff687d9bc4284e48 Merge tag 'perf-tools-fixes-for-v6.8-1-2024-02-01' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============0629993989117556456==--
+--===============7521356789890008956==--
