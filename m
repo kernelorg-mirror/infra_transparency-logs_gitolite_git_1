@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Sat, 03 Feb 2024 04:50:07 -0000
-Message-Id: <170693580741.24247.9924504017358117379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Sat, 03 Feb 2024 04:57:23 -0000
+Message-Id: <170693624303.29088.2034778405461449058@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/main
-    old: 3677750467cb8286c59462e490df23d8462a84f9
-    new: b4b04a5cbcbb0f67d0d63fa66aa68f32b9dc5fa7
+  - ref: refs/heads/mhi-next
+    old: 8ddf54a32111f6dbe06cd318af443c6545a6c037
+    new: ae1d892d518af5c092f2b1f8e6921996c6a95cb3
     log: |
-         bd2ad5e65d3bc38fc35eed8c3dbb5e40ae45df20 amdgpu: update DMCUB to v0.0.203.0 for DCN314 and DCN32
-         b4b04a5cbcbb0f67d0d63fa66aa68f32b9dc5fa7 Merge branch 'amd-staging' into 'main'
+         ae1d892d518af5c092f2b1f8e6921996c6a95cb3 bus: mhi: ep: Use kcalloc() instead of kzalloc()
          
