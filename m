@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 04 Feb 2024 13:38:23 -0000
-Message-Id: <170705390302.23264.4543648844465759294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 04 Feb 2024 13:45:18 -0000
+Message-Id: <170705431855.28927.1488379923817874129@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/main
-    old: b09b58e31b0f43d76f79b9943da3fb7c2843dcbb
-    new: 9cae43da9867412f8bd09aee5c8a8dc5e8dc3dc2
+  - ref: refs/heads/testing
+    old: a0295c1bd4a79461f291c9b0df0523cbbeb75560
+    new: 3b37de34c2e57c72baad4ed3f7a0b05aafcc12e7
     log: |
-         9cae43da9867412f8bd09aee5c8a8dc5e8dc3dc2 hv_netvsc: Register VF in netvsc_probe if NET_DEVICE_REGISTER missed
+         096220dfaf614ceed07e6a46e3e0caa1f97c6a15 dt-bindings: iio: pressure: honeywell,hsc030pa.yaml add spi props
+         f2dd46b681901f190913e7da7fc76fafb8a4024a iio: pressure: hsc030pa cleanup
+         a8b13f47ec09df5cfbefb45013eaaef145539313 iio: pressure: hsc030pa add mandatory delay
+         3b37de34c2e57c72baad4ed3f7a0b05aafcc12e7 iio: pressure: hsc030pa add triggered buffer
          
