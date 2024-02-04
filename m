@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4376422590358843019=="
+Content-Type: multipart/mixed; boundary="===============1400717721415917821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 04 Feb 2024 14:44:06 -0000
-Message-Id: <170705784677.10860.1780234437595803929@gitolite.kernel.org>
+Date: Sun, 04 Feb 2024 14:44:49 -0000
+Message-Id: <170705788927.11185.14060037094441062326@gitolite.kernel.org>
 
---===============4376422590358843019==
+--===============1400717721415917821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
-    old: 915644189c22d9c93e9fee7c7c993b58e745bef7
-    new: 34cf8c657cf0365791cdc658ddbca9cc907726ce
-    log: revlist-915644189c22-34cf8c657cf0.txt
+  - ref: refs/heads/hwmon-next
+    old: b6485f7cba59c1c42d702d2d4b43d00c5afa216d
+    new: 112bda98573929be5387b3ad7f71eb21b4d3de8e
+    log: revlist-b6485f7cba59-112bda985739.txt
 
---===============4376422590358843019==
+--===============1400717721415917821==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-915644189c22-34cf8c657cf0.txt
+Content-Disposition: attachment; filename=revlist-b6485f7cba59-112bda985739.txt
 
 c7ec4f2d684e17d69bbdd7c4324db0ef5daac26a xen-netback: don't produce zero-size SKB frags
 024b32db43a359e0ded3fcc6cd86247cbbed4224 drm/bridge: parade-ps8640: Wait for HPD when doing an AUX transfer
@@ -530,6 +530,7 @@ ddd2b472a1b7e7c2ec9bdc9420045ba08eb9f664 Merge tag 'drm-misc-fixes-2024-01-26' o
 4d7acc8f48bcf27d0dc068f02e55c77e840b9110 Revert "nouveau: push event block/allowing out of the fence context"
 987940f05735a960dd143214f7cc2d699885b625 Merge tag 'drm-misc-fixes-for-v6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-fixes
 f3bdd82c5834219a5b272c2310c83aef68667486 Merge branch 'pm-cpufreq'
+97aab852c4b9e1b378de48a55f8c9b8d76c36ccc hwmon: gigabyte_waterforce: Fix locking bug in waterforce_get_status()
 118063f3803324411be0e601d560ed7d1c9824b0 platform/x86/amd/pmf: Get Human presence information from AMD SFH driver
 cedecdba60f4a42a8562574119f317ed0c674b5a platform/x86/amd/pmf: Get ambient light information from AMD SFH driver
 a692a86efe97fe0aba7cb15f38cbce866c080689 platform/x86/amd/pmf: Fix memory leak in amd_pmf_get_pb_data()
@@ -540,6 +541,7 @@ fcf67d82b8b878bdd95145382be43927bce07ec6 selftests: net: add missing config for 
 4aeb083707d6a2535bfea5d16140b72a81efb62b Merge tag 'media/v6.8-3' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 5f91b9ba5acada5e56c874af82660d29a7f84e25 Merge tag 'gpio-fixes-for-v6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 48fa8ec61569efe122ac92694ce6ff4324b61bd8 Merge tag 'spi-fix-v6.8-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+c60fe56c169eb552113a4711db3a5f99e3acd4c1 hwmon: (pmbus/mp2975) Fix driver initialization for MP2975 device
 ae971859f810d90c2e844cb2eb3daa5e061dd446 Merge tag 'arm-fixes-6.8-1' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 2047b0b2750855a8a5b489915b203b4a8b5ec56e Merge tag 'asm-generic-6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
 d0266d7ab1618482d58015d67a5220e590333298 Revert "power: supply: qcom_battmgr: Register the power supplies after PDR is up"
@@ -566,6 +568,7 @@ e622502c310f1069fd9f41cd38210553115f610a ipmr: fix kernel panic when forwarding 
 c91c6b2f08afb7be111678ceade563158c9a31ba Revert "MIPS: loongson64: set nid for reserved memblock region"
 822df315cc7c85c3c10afcc6408b254a6fa0f166 MIPS: loongson64: set nid for reserved memblock region
 59be5c35850171e307ca5d3d703ee9ff4096b948 mips: Call lose_fpu(0) before initializing fcr31 in mips_set_personality_nan
+915644189c22d9c93e9fee7c7c993b58e745bef7 hwmon: (pmbus/mp2975) Correct comment inside 'mp2975_read_byte_data'
 6c20faec8ffc97af21acb43382adda011eb39359 kbuild: defconf: use SRCARCH to find merged configs
 846cfbeed09b45d985079a9173cf390cc053715b um: Fix adding '-no-pie' for clang
 397586506c3da005b9333ce5947ad01e8018a3be modpost: Add '.ltext' and '.ltext.*' to TEXT_SECTIONS
@@ -928,5 +931,39 @@ fc86e5c9909b1b9a80ff0e7946279dfae6b96ded Merge tag 'xfs-6.8-fixes-2' of git://gi
 4e440abc894585a34c2904a32cd54af1742311b3 hwmon: (coretemp) Fix out-of-bounds memory access
 fdaf0c8629d4524a168cb9e4ad4231875749b28c hwmon: (coretemp) Fix bogus core_id to attr name mapping
 34cf8c657cf0365791cdc658ddbca9cc907726ce hwmon: (coretemp) Enlarge per package core count limit
+f0dc9058024bbeb743a1607605486dad5fd2fcb5 hwmon: put HWMON_CHANNEL_INFO() initializers in rodata
+81d8fa6e769ad8644f661f19b85839763a52cd3b hwmon: (nct6683) Add another customer ID for MSI
+9589fd1752d3d4ac40126aaf725259115f71866c dt-bindings: hwmon: ina2xx: Add label property
+4ab0b16778688936d1b7e3d5ab6789ac5672675e dt-bindings: hwmon: ina2xx: Describe #io-channel-cells property
+d97166d4f440952750d265857c0fef6448069e47 dt-bindings: hwmon: ina2xx: Describe ina260 chip
+eb6cb35ccf2d6fce8dafb29ffd56bd9ee4332d1e hwmon: Remove I2C_CLASS_HWMON from drivers w/o detect() and address_list
+2102449ab2d7935cc39bae7bb1cab4ea06fe7f24 MAINTAINERS: Drop entries for hwmon devices with unreachable maintainers
+e6763fec5ecd632db1ce4832afdc1aa8c5e411b0 hwmon: Drop non-functional I2C_CLASS_HWMON support for drivers w/o detect()
+664e2a1360cacec564bce6042b49e84f2021d7a4 hwmon: (pmbus_core) Allow to hook PMBUS_SMBALERT_MASK
+6442b7045a6a4e4fbb870d7fb17b4054756fd686 dt-bindings: hwmon: Add LTC4282 bindings
+24b03998a9bb0ea4716d56887823ca6ba2f0b0b1 hwmon: add fault attribute for voltage channels
+848a5019ded5a526d8fe19dc595ce76245a30275 hwmon: ltc4282: add support for the LTC4282 chip
+e4ff95cc8bbef12d8e411847580a58cdd07aca72 hwmon: add fan speed monitoring driver for Surface devices
+23727e9f12d4d749fc7346f34b4a5c856dc32521 dt-bindings: Add MPQ8785 voltage regulator device
+7dd62e578cb433c704d6047ebf12425dc6d12059 hwmon: Add driver for MPS MPQ8785 Synchronous Step-Down Converter
+c2d8853237f1c70c69a492eabd40eb8c1df3b05f hwmon: (sht3x) read out sensor serial number
+58a8333bcda183128097604837c969cf0b2a7b79 hwmon: (adt7x10) convert to use maple tree register cache
+75fb9c7af65f623a592731c0a81371ca8cfe6a17 hwmon: (emc1403) convert to use maple tree register cache
+ce378f2ff130831fdadf9448b86b11f041e45b8e hwmon: (ina3221) convert to use maple tree register cache
+bfc50e9f66c59aecd3a33fbc456ee9228b932f0a hwmon: (jc42) convert to use maple tree register cache
+f5dbd9396ef3aac2c2ca4e254d7e8f61503be597 hwmon: (lm83) convert to use maple tree register cache
+38f5facbf6f80adc3391ab82538a06b9549421b8 hwmon: (max31760) convert to use maple tree register cache
+523f3140de422cd9b0c71aec100500c790c3f88f hwmon: (nct7802) convert to use maple tree register cache
+2a016fb0554f8b07307e948813a03c7365f8036a hwmon: (sch5627) convert to use maple tree register cache
+4a739002c42b403ad450f2ca36ffee39d666dc5a hwmon: (tmp401) convert to use maple tree register cache
+dfb922e7ef24e1051b7c87b3fb663098faf31294 dt-bindings: vendor-prefixes: add Amphenol
+6795325eed8df65d5029427bfe939f51145f380b hwmon: (core) Add support for humidity min/max alarm
+c64d4101a5f08ae59c5069d7f5e8cbb873daeef8 ABI: sysfs-class-hwmon: add descriptions for humidity min/max alarms
+6c0f9d442f7d101facab2bb9f0b6d8b5381e18ba dt-bindings: hwmon: Add Amphenol ChipCap 2
+f04e09e87028c6a87e6db85a4c9e74692e706e3b hwmon: Add support for Amphenol ChipCap 2
+ab429b51cc93a426159d0ae81f15d79939618602 dt-bindings: vendor-prefixes: add asteralabs
+2a2974af086e33346ea8b90622f6121ef9cd7076 dt-bindings: trivial-devices: add Astera Labs PT5161L
+f2feb7b47a16fe596bb43fa7d68e0a9d31311504 hwmon: Add driver for NZXT Kraken X and Z series AIO CPU coolers
+112bda98573929be5387b3ad7f71eb21b4d3de8e hwmon: Add driver for ASUS ROG RYUJIN II 360 AIO cooler
 
---===============4376422590358843019==--
+--===============1400717721415917821==--
