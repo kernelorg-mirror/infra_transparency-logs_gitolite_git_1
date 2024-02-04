@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2151175622201622098=="
+Content-Type: multipart/mixed; boundary="===============3280273544483936598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 04 Feb 2024 14:21:46 -0000
-Message-Id: <170705650675.27342.20174197616729417@gitolite.kernel.org>
+Date: Sun, 04 Feb 2024 14:21:57 -0000
+Message-Id: <170705651759.27449.528348813798352096@gitolite.kernel.org>
 
---===============2151175622201622098==
+--===============3280273544483936598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: b35f8dbbce818b02c730dc85133dc7754266e084
-    new: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
-    log: revlist-b35f8dbbce81-54be6c6c5ae8.txt
+  - ref: refs/heads/tty-next
+    old: fccc9d9233f918ee50cf2955ae7134a7f3418351
+    new: a802f50d6e92298d44a806d326a2ba3eefa6db72
+    log: revlist-fccc9d9233f9-a802f50d6e92.txt
 
---===============2151175622201622098==
+--===============3280273544483936598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707056505 -0800
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707056514 -0800
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1707056504-ca57b62dfdaba7a0ee54665fbec4d06626ae5960
+nonce 1707056514-9d17bfb2ed376613b45e38971f98d4eac70e9e6a
 
-b35f8dbbce818b02c730dc85133dc7754266e084 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 refs/heads/tty-linus
+fccc9d9233f918ee50cf2955ae7134a7f3418351 a802f50d6e92298d44a806d326a2ba3eefa6db72 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW/nXkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7e8P/0DAxjg+KpuK8wSd2QuC
-1eIs6s6CqVxD8LFGa6//zt/NBSeRklTMe834nFRb/KHCyd/yjvmsY1Qc7cHi3S6F
-eMTDHVIkde66iW+GvWNGkZBws7QTdyio6rQ49eTgRdjPh9G3Q2LIUn56I2+DVoID
-X3cjv072BEpzacaFi9202dnUetxiE6klbpYBW/rhLeXClhMHAyjq59BuJY74eSHW
-avYJ3J8SeMJVz3tRA0Xf2YSxXz75EKgQ6WvokRlz6V1yVkF5zK+W7c1cNCtU+Ko0
-hynka2BvEj+fPpMMwzaVpBYw2XCnhYGpaM3dJQojrJzppDMH6ZCRlPtVjzfNcleE
-nvqlwl8iUMxFZlcihDwo62oAAtg/Oq97ifsy6HWkfPDOs+iyNIQRoJe1graINbhZ
-SyAGfS+lseQDYpbvf4i0HrAh/6a+sWwRVXVwX7leZpclxSQ98aBPQxlObdTOcXai
-XHye4b66Z5YO+HJPDX07hxhzBN6Gfq/awJL4Nzqw3/jru5LuIHTSAw1gPSMhJac4
-dHkjodTbdP/np7Qgq2rUCdBqJVg0nkFOoWbx0ALiLJu29gxB2c628rJS0tisbeap
-Ryup2vY9D8Pf7F9qAMnXN+mbzNYl4RP7tOzIJSeYxPi7yuonxcPyjIpO6vKD3RKi
-VvR96alUO8UhNT2B6MhNDu/0
-=4wQy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW/nYIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2FMP/1L3d1JWuOQ6ctdhhIro
+W/wj+JLHeWQKLocrSlS+H5r4rlya1lbxtEyKI3q+K3TUACsiat7yP6YUL07tAYk8
+tR3iH19/m7IHicMc1MpYQ9uaiquuUWdN/KOcgz9+FJHXqEhX/iSJO0f+XpGpgSVD
+nVD6ptXzzjKQJyRNn2v0XjUHkHM1GidX4RjD80M72xoZhjf+WjxBMbUKIWm0CLQr
+wUV29vCKRxtzW/cfJX9LAagstGmxHABAk3Pk46Ne84kowYQim+qJZV3dXCqJeMeO
+8/hDh536yc4+jDuyCZyEME13hAZAtb1/q6LCNyqoHHVsfLLbuerne7RZbLBH+csK
+G0AQGmGt3f+a2ga7tlHmchTUxIOEUpq8TomI2fWAilw8zXGZ7KmSv7u7NQEEYaMs
+Kjiy4EhPZvxhmssXVvPlpHQ3Mov81QxpgPHbj8hAn6JgxFNgT553KlHbaQruRsnd
+RRQ/H+r76esTU8r+xavivDdkOH6Dl+XGHVkMoHRFLDFnpEOtkWn6RtcNfqfcAT6Y
+y2MMA0ozZMSjoXl8wyJ7pgx2OG+3+mVXlkkBRLvO8jAVXAxGicMmIUby3lZ1Fdao
+gpjo8wAMQdFylCLa0JA8gbh6R+HyJYJvtM7znyXOSBUb2JADQ32PyChWQDHXCypx
+eJjVLtbXu101iyt6DX87hu8U
+=98S2
 -----END PGP SIGNATURE-----
 
---===============2151175622201622098==
+--===============3280273544483936598==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b35f8dbbce81-54be6c6c5ae8.txt
+Content-Disposition: attachment; filename=revlist-fccc9d9233f9-a802f50d6e92.txt
 
 c7ec4f2d684e17d69bbdd7c4324db0ef5daac26a xen-netback: don't produce zero-size SKB frags
 024b32db43a359e0ded3fcc6cd86247cbbed4224 drm/bridge: parade-ps8640: Wait for HPD when doing an AUX transfer
@@ -632,6 +632,13 @@ c9aed03a0a683fd1600ea92f2ad32232d4736272 usb: ucsi: Add missing ppm_lock
 2840143e393a4ddc1caab4372969ea337371168c usb: ucsi_acpi: Fix command completion handling
 f3be347ea42dbb0358cd8b2d8dc543a23b70a976 usb: ucsi_acpi: Quirk to ack a connector change ack cmd
 f2e5d3de7e1fbf24483e7f996e519b3ebc3935a1 usb: typec: tcpm: fix the PD disabled case
+e15c99be0c915bbe70dfe55450d268d7bd5bdac8 tty: serial: Fix bit order in RS485 flag definitions
+86ee55e9bc7ff7308eda67e5bcb3f8c834c7c113 serial: 8250_pci1xxxx: fix off by one in pci1xxxx_process_read_data()
+30926783a46841c2d1bbf3f74067ba85d304fd0d serial: core: Fix atomicity violation in uart_tiocmget
+0419373333c2f2024966d36261fd82a453281e80 serial: max310x: set default value when reading clock ready bit
+93cd256ab224c2519e7c4e5f58bb4f1ac2bf0965 serial: max310x: improve crystal stable clock detection
+8afa6c6decea37e7cb473d2c60473f37f46cea35 serial: max310x: fail probe if clock crystal is unstable
+b35f8dbbce818b02c730dc85133dc7754266e084 serial: max310x: prevent infinite while() loop in port startup
 2751153b9945c31eb905deb9fbe2d7f127b4b34c parisc: Make RO_DATA page aligned in vmlinux.lds.S
 b9402e3b97289ca9e0f0f79f4df64bd6c9176a86 parisc: Check for valid stride size for cache flushes
 c8708d758e715c3824a73bf0cda97292b52be44d parisc: Prevent hung tasks when printing inventory on serial console
@@ -951,5 +958,6 @@ fc86e5c9909b1b9a80ff0e7946279dfae6b96ded Merge tag 'xfs-6.8-fixes-2' of git://gi
 9e28c7a23bac7452935d1768fbfedad113586f9b Merge tag 'v6.8-rc3-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 3f24fcdacd40c70dd2949c1cfd8cc2e75942a9e3 Merge tag 'for-linus-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 Linux 6.8-rc3
+a802f50d6e92298d44a806d326a2ba3eefa6db72 Merge 6.8-rc3 into tty-next
 
---===============2151175622201622098==--
+--===============3280273544483936598==--
