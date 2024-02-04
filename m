@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7396428556974645085=="
+Content-Type: multipart/mixed; boundary="===============1327861623144724841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 04 Feb 2024 14:19:00 -0000
-Message-Id: <170705634074.19590.11400643655259079119@gitolite.kernel.org>
+Date: Sun, 04 Feb 2024 14:19:07 -0000
+Message-Id: <170705634745.19702.10955554833864666556@gitolite.kernel.org>
 
---===============7396428556974645085==
+--===============1327861623144724841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 41bccc98fb7931d63d03f326a746ac4d429c1dd3
+  - ref: refs/heads/char-misc-linus
+    old: 97830f3c3088638ff90b20dfba2eb4d487bf14d7
     new: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
-    log: revlist-41bccc98fb79-54be6c6c5ae8.txt
+    log: revlist-97830f3c3088-54be6c6c5ae8.txt
 
---===============7396428556974645085==
+--===============1327861623144724841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707056338 -0800
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707056346 -0800
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1707056339-40ad645a0ac2066da8a0453a2c7a27f1ea229088
+nonce 1707056345-b4fb7e508bad95feead523f9f61ac3b80d2882c6
 
-41bccc98fb7931d63d03f326a746ac4d429c1dd3 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 refs/heads/main
+97830f3c3088638ff90b20dfba2eb4d487bf14d7 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW/nNIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dxoP/jGxEd5JHO0wLhL0M5cf
-3OkPD88g18aVTsW+ZS8JXeZmPHAERTCuB+CC/g6Zxp+gza1eW9faPyaoAkskj/x+
-N6gG0n+rVUZFclQ1oRurd5BKL6hbVRVtYDOkVbK6zLX8AGbl/JrVYdGT+SQeNsnj
-etqX5bcuMg9bprSnSqm+jN9mOtkUUZlOtBIrqG84C3GGI5jbFYeVzgtevVPX40w/
-h5HOEtGWqAjyfjoPpP+t85qvtiSU5Lqa+auW3ccbeAPYoJd0CbOt/sy4gCJGvNgb
-+RhdJcZu1oCYMfEVqa49599bL/k0iGXfuPFlnkAEYE3pz96nIs/axKeeOtNo2vb/
-i/PNdA87mzAIyPVTB141cAk21dLvy93SoRA6bwv2RCm9aQ2GVUqdocBPFG7mU7NJ
-htF90BxczgQPaYh9bziLsmSDjvJUzDcVeSNJrQGdAGQRSdmIGcfhBrWITaJ5Spmy
-pw30NqH/48WJDffel4KEdcFxc7jClbFwKV9PJApS/zdgCqXlJ5o6g3OfxqjLTjNz
-x1L1WR0h2tZCjuEeLnkzodlMfNFfRMpdKxzim/6DkXW5tkQRki+Mmljb/irr833a
-Ah5Lb0ZhV8vDZP84UZnvczmfIPpT46IzwrphiKk8XZ8KFXcJnYTVBVORfh8FNrIO
-RwQLcIRRUM8EhGIex5iw6AMN
-=Gs7Q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW/nNobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N0gP/RaG3FIT+GpG7s7ophIJ
+sNOzFIImXc3boLq94rgdKVEZEkbNF2o/2A42SbuDOZVIU9QQCBBvUOeDRaf1uf91
+XKPzhowicvVch8E2EQ2aw8U6qLyMKukTHjZsyVsdFAcOrrjqsUJMxk0UVZmYHvDv
+qAyzmglN73ZoA84QJE2LFIs2IfhHEK4/MXvcifzipEEX43HwGrvrbXs6DgaII4ag
+9JHYE0FiYcFrHrtJEf3TNQra1Rkn52CS3PH9lmoW94YOR48sEQHeHqetoL6BCops
+vCRvFuNEpjpi4nw3Wwu/bec34MheR0A+sFEUMn8WiDJvFonsxAbjco0WulF457NG
+46ZzDajlOkrDF0NiavwXxqvll37uqZrQSFVa4rNjALDC8YdW6y3a4xXzentUz6as
+LElehSbtqWNwuZJVwnD04TaHX51bMv5dBIkPCI2GWjmm99oOXDBH7iTGS5L4iGCQ
+Rgd4bBjVkW3OPBCD5WcHkuuxHmwCeBYquT3bie5jsFBtK2B539LH+ZKG4utliJjU
+itCfWkjb0nP+32c7QMR3C5XKRxEs0makz9nZm552l69L2jiaUdJhXmhpjMh64CRV
+18QcNN/a0Cfz+cEDzClpSsWtSz7DzjBa+6ho1aTouneroUCAk6UXGxy3YFno9sxW
+NJMyyb8eEqBj0kR6RElS1c7V
+=4jTR
 -----END PGP SIGNATURE-----
 
---===============7396428556974645085==
+--===============1327861623144724841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41bccc98fb79-54be6c6c5ae8.txt
+Content-Disposition: attachment; filename=revlist-97830f3c3088-54be6c6c5ae8.txt
 
 a9668169961106f3598384fe95004106ec191201 HID: hid-steam: remove pointless error message
 a9f1da09c69f13ef471db8b22107a28042d230ca HID: hid-steam: Fix cleanup in probe()
@@ -327,8 +327,6 @@ bd504bcfec41a503b32054da5472904b404341a4 dm: limit the number of targets and par
 80441f76ee67002437db61f3b317ed80cce085d2 Input: xpad - add Lenovo Legion Go controllers
 d1d873a9bfac44a9a455d2ec47b85ea66f7888b9 Merge tag 'linux_kselftest-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 2a6526c4f389bb741e511be11721b3d1cbf1034a Merge tag 'linux_kselftest-kunit-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-a4e61de63e34860c36a71d1a364edba16fb6203b misc: fastrpc: Mark all sessions as invalid in cb_remove
-ac9762a74c7ca7cbfcb4c65f5871373653a046ac misc: open-dice: Fix spurious lockdep warning
 b40f873a7c80dbafbb6f4a7a569f2dcaf969d283 selftests: net: Add missing matchall classifier
 f5c3eb4b7251baba5cd72c9e93920e710ac8194a bridge: mcast: fix disabled snooping after long uptime
 1a89e24f8bfd3e3562d69709c9d9cd185ded869b devlink: Fix referring to hw_addr attribute during state validation
@@ -361,7 +359,6 @@ d81786f53aec14fd4d56263145a0635afbc64617 tracefs: Zero out the tracefs_inode whe
 db2aad036e77100e04a96c67f65ae7d49fb538fb drm/amdgpu: move the drm client creation behind drm device registration
 fb366fc7541a1de521ab3df58471746aa793b833 netfilter: conntrack: correct window scaling with retransmitted SYN
 776d451648443f9884be4a1b4e38e8faf1c621f9 netfilter: nf_tables: restrict tunnel object to NFPROTO_NETDEV
-97830f3c3088638ff90b20dfba2eb4d487bf14d7 binder: signal epoll threads of self-work
 6e348067ee4bc5905e35faa3a8fafa91c9124bc7 netfilter: conntrack: check SCTP_CID_SHUTDOWN_ACK for vtag setting in sctp_new
 97f7cf1cd80eeed3b7c808b7c12463295c751001 netfilter: ipset: fix performance regression in swap operation
 259eb32971e9eb24d1777a28d82730659f50fdcb netfilter: nf_log: replace BUG_ON by WARN_ON_ONCE when putting logger
@@ -568,4 +565,4 @@ fc86e5c9909b1b9a80ff0e7946279dfae6b96ded Merge tag 'xfs-6.8-fixes-2' of git://gi
 3f24fcdacd40c70dd2949c1cfd8cc2e75942a9e3 Merge tag 'for-linus-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 Linux 6.8-rc3
 
---===============7396428556974645085==--
+--===============1327861623144724841==--
