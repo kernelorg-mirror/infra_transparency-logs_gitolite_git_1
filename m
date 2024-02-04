@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Sun, 04 Feb 2024 07:46:44 -0000
-Message-Id: <170703280450.1333.7315312776985087832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 04 Feb 2024 07:46:55 -0000
+Message-Id: <170703281557.1448.17658811460568255393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/rcu-doc.2024.01.29a
-    old: 0000000000000000000000000000000000000000
-    new: 9ec3da25f9d4fbe9bef217a07e776143e338c716
+  - ref: refs/heads/master
+    old: 7ab90e8dfb48d30ccc83aec3709f9200c930eee8
+    new: 632f7700484c02293f5ba55224d539844ae4285d
+    log: |
+         632f7700484c02293f5ba55224d539844ae4285d Sun Feb  4 02:46:14 AM EST 2024
+         
