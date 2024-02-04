@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8535659247004273881=="
+Content-Type: multipart/mixed; boundary="===============2151175622201622098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 04 Feb 2024 14:21:40 -0000
-Message-Id: <170705650005.27217.2069725107436688346@gitolite.kernel.org>
+Date: Sun, 04 Feb 2024 14:21:46 -0000
+Message-Id: <170705650675.27342.20174197616729417@gitolite.kernel.org>
 
---===============8535659247004273881==
+--===============2151175622201622098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+  - ref: refs/heads/tty-linus
+    old: b35f8dbbce818b02c730dc85133dc7754266e084
     new: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
-    log: revlist-6613476e225e-54be6c6c5ae8.txt
+    log: revlist-b35f8dbbce81-54be6c6c5ae8.txt
 
---===============8535659247004273881==
+--===============2151175622201622098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707056496 -0800
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707056505 -0800
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1707056497-3b95a0d26033fed8d85a229dc7db2943c701dd85
+nonce 1707056504-ca57b62dfdaba7a0ee54665fbec4d06626ae5960
 
-6613476e225e090cc9aad49be7fa504e290dd33d 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 refs/heads/main
+b35f8dbbce818b02c730dc85133dc7754266e084 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW/nXAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FW8P/igxGo9ycu2HG+VVqchu
-P6rLuoLIxXqOWwijWvzD9kwcylMEhVdltGVOjBF3FLN1n3IBFCVt7GfPPPyIy3TI
-HHhD84TyXq7YJN2CRmp1yhPOD340In6MQ7jec1Wk2fVyxpv+dKhk+B6W97Q9mVpO
-XMVAvenKidnOpIFo7N8QuSYg4EFAtrEE4oTvYowmt8KW6/N75eKbTIf/zil95AqB
-FTBN2Pwdx/MaUi5D4yTJdPM985dN6NM8FysjgfuIVOREmqAOcn9NEDMM2BZ2wBzV
-owvYlegUqNs70e43RybDcM4sRK0fGikWEipUrld1k7yqZ+i5gVwzUWMbMby3uOCq
-Cs4PGHKvJ91kvp9k1mj6i6R4sewp2Vq0giqNY3vsXXzxOYRWqZBfrwMWUePBaPPL
-2o3bTpUsggoM92ek1IYaN6YlguePPbzpfYBjeo6D8lRGvbAVJ2SRqJopWnJthluB
-cg+2tQbSEIKd7b21fdwl7ChaAMaR3Zvi4lO57QmRKB+XSXnqsNh/ioT/X8jyaOix
-XLW+G5GVgnxZI9Fz4viATXEUC+qttLRyF64pVF9oaSgvZxGvOa+OQVTBvSdAkTOl
-Fpp6JlxzJ8kJLFH09y+BpwT+IIedf30OQKjoWfNC5sp3Jcddz8eXapKUnpikBE21
-LGtTLQNk/DfRnH3OH/JlN6J7
-=pnW9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW/nXkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7e8P/0DAxjg+KpuK8wSd2QuC
+1eIs6s6CqVxD8LFGa6//zt/NBSeRklTMe834nFRb/KHCyd/yjvmsY1Qc7cHi3S6F
+eMTDHVIkde66iW+GvWNGkZBws7QTdyio6rQ49eTgRdjPh9G3Q2LIUn56I2+DVoID
+X3cjv072BEpzacaFi9202dnUetxiE6klbpYBW/rhLeXClhMHAyjq59BuJY74eSHW
+avYJ3J8SeMJVz3tRA0Xf2YSxXz75EKgQ6WvokRlz6V1yVkF5zK+W7c1cNCtU+Ko0
+hynka2BvEj+fPpMMwzaVpBYw2XCnhYGpaM3dJQojrJzppDMH6ZCRlPtVjzfNcleE
+nvqlwl8iUMxFZlcihDwo62oAAtg/Oq97ifsy6HWkfPDOs+iyNIQRoJe1graINbhZ
+SyAGfS+lseQDYpbvf4i0HrAh/6a+sWwRVXVwX7leZpclxSQ98aBPQxlObdTOcXai
+XHye4b66Z5YO+HJPDX07hxhzBN6Gfq/awJL4Nzqw3/jru5LuIHTSAw1gPSMhJac4
+dHkjodTbdP/np7Qgq2rUCdBqJVg0nkFOoWbx0ALiLJu29gxB2c628rJS0tisbeap
+Ryup2vY9D8Pf7F9qAMnXN+mbzNYl4RP7tOzIJSeYxPi7yuonxcPyjIpO6vKD3RKi
+VvR96alUO8UhNT2B6MhNDu/0
+=4wQy
 -----END PGP SIGNATURE-----
 
---===============8535659247004273881==
+--===============2151175622201622098==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6613476e225e-54be6c6c5ae8.txt
+Content-Disposition: attachment; filename=revlist-b35f8dbbce81-54be6c6c5ae8.txt
 
 c7ec4f2d684e17d69bbdd7c4324db0ef5daac26a xen-netback: don't produce zero-size SKB frags
 024b32db43a359e0ded3fcc6cd86247cbbed4224 drm/bridge: parade-ps8640: Wait for HPD when doing an AUX transfer
@@ -632,13 +632,6 @@ c9aed03a0a683fd1600ea92f2ad32232d4736272 usb: ucsi: Add missing ppm_lock
 2840143e393a4ddc1caab4372969ea337371168c usb: ucsi_acpi: Fix command completion handling
 f3be347ea42dbb0358cd8b2d8dc543a23b70a976 usb: ucsi_acpi: Quirk to ack a connector change ack cmd
 f2e5d3de7e1fbf24483e7f996e519b3ebc3935a1 usb: typec: tcpm: fix the PD disabled case
-e15c99be0c915bbe70dfe55450d268d7bd5bdac8 tty: serial: Fix bit order in RS485 flag definitions
-86ee55e9bc7ff7308eda67e5bcb3f8c834c7c113 serial: 8250_pci1xxxx: fix off by one in pci1xxxx_process_read_data()
-30926783a46841c2d1bbf3f74067ba85d304fd0d serial: core: Fix atomicity violation in uart_tiocmget
-0419373333c2f2024966d36261fd82a453281e80 serial: max310x: set default value when reading clock ready bit
-93cd256ab224c2519e7c4e5f58bb4f1ac2bf0965 serial: max310x: improve crystal stable clock detection
-8afa6c6decea37e7cb473d2c60473f37f46cea35 serial: max310x: fail probe if clock crystal is unstable
-b35f8dbbce818b02c730dc85133dc7754266e084 serial: max310x: prevent infinite while() loop in port startup
 2751153b9945c31eb905deb9fbe2d7f127b4b34c parisc: Make RO_DATA page aligned in vmlinux.lds.S
 b9402e3b97289ca9e0f0f79f4df64bd6c9176a86 parisc: Check for valid stride size for cache flushes
 c8708d758e715c3824a73bf0cda97292b52be44d parisc: Prevent hung tasks when printing inventory on serial console
@@ -959,4 +952,4 @@ fc86e5c9909b1b9a80ff0e7946279dfae6b96ded Merge tag 'xfs-6.8-fixes-2' of git://gi
 3f24fcdacd40c70dd2949c1cfd8cc2e75942a9e3 Merge tag 'for-linus-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 Linux 6.8-rc3
 
---===============8535659247004273881==--
+--===============2151175622201622098==--
