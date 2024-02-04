@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6636452929609725449=="
+Content-Type: multipart/mixed; boundary="===============2296258709047971753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 04 Feb 2024 14:20:40 -0000
-Message-Id: <170705644046.26331.2220710871066964772@gitolite.kernel.org>
+Date: Sun, 04 Feb 2024 14:20:47 -0000
+Message-Id: <170705644745.26458.4181000023390188018@gitolite.kernel.org>
 
---===============6636452929609725449==
+--===============2296258709047971753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+  - ref: refs/heads/usb-linus
+    old: ad834c7c8e4a74dd6cd4397848aa255e473d4a63
     new: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
-    log: revlist-6613476e225e-54be6c6c5ae8.txt
+    log: revlist-ad834c7c8e4a-54be6c6c5ae8.txt
 
---===============6636452929609725449==
+--===============2296258709047971753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707056438 -0800
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707056446 -0800
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1707056439-40e653f339381b6b3528da88682ec67d9a51fda9
+nonce 1707056445-b6b24addfa6077eb27d869625c85eef5683fa1e8
 
-6613476e225e090cc9aad49be7fa504e290dd33d 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 refs/heads/main
+ad834c7c8e4a74dd6cd4397848aa255e473d4a63 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW/nTYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eJoP/2Vbargx2w0lnwNQAM+u
-7k725M+YwfjVnJrxpO2Wl/S89GZYEBDr0TcIDCPpREBrg3fg5Cnx5ZnHDko19Fzg
-6v+kjj9C2FB+hw5YXaKyd8ugd7m5NEYR/e+jARKwwQiEnCcMixm8Je986I2HNTEi
-T6XYWr29e4fLlif9ZIQ5bghMYRj0bS47XJFQysPc6xNBR/tcuCl0smKJa7hO2qmp
-b/MbndszVdTJBC5AjvpdFU3ilpemqDj+NMIxXasmp7ygTIsKEw1MdICGHIJ19V4s
-nf2ZBLCUfgZ2zU1mYi/wFgHEv03ulTV+6EIkq9PSyQyTolnWhS4cBu65IceJ9/57
-vNx5+3MNyOdnNrUODkzTNtyxywul5/Lgy+6/+H4iRgZ/1AM04/J7TCztg/N6mHDa
-xDBgrCddKrlmgSuZxAtBYCoDOqdu9yoM0S9hYnwC5iX6KrCinnIDP84R6DJ6RkVL
-/xX4ejViBCHv5ZB0B/uLe14Paomv97Feqe+sZdNYGlLXMIFAZT/EXoNwvQ3BLHK2
-BqL/Rvdtx792x6TQsRT1aDoUbVXEzJHcdWUT0N1x+HAYyShOQUpnok7BRaVtzhfv
-Ux/5+Uhot+JFQQ0NFakEibUXPWm/hKm1y7HswvscOT+mleR6Gn5BF0vEPqN38ki3
-ht17HAdMdJ9v/13d915j80Zu
-=fVlP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW/nT4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XhEP/3kzC5UgENw4mp5741jx
+RPtucafmawtS6S+zJI0AUbhBzR73aexWMHwRUmyVqvmI3iKfpJIzQnSNbbGpP3Ir
+SPctLXgU0goEg84JZtxI8vV+g77Ew5tBoso9hQlm0N5Fh4b0lV6aJ9giVCpvmBzZ
+ToNZUYJreLl33k4qD3na11xDFiDt4qA37e03VZbQ5+Akrw8F7ox66Zv8qDuPN4gc
+IzSKUQpm42IewSL7x4Kbs4Cc+l+2x7Y1i/M1MfR6F/G7gWNRJToiXvbpmmuneyOB
+gnPILm9d3cxi3sinDYlS4aJht269/pNY6R/mIyLPSR3gEAcq0e7S4RXuKzFgLfCI
+hBNT8IIS7QYT9xREsWV7d3QHNvKkeeWB9lDYUaiV0YyDo1aG7+8/L0hkJAWKSHBY
+4hGmQEL7PjKaNyiHWrdYG7imsxZa2n4gKvL8ZHnSmXTlR2QJAd/rRGFqJWPnYbEY
+UYgE/Cf6VuKTFhUAI+c69RlYGmFKUqQWRKfjqEuIsB3MzFSPz+XvwAslNaKsRcqw
+N25JASCBlJGSexqw4YdleDgNV+21Sw0TaVgu3+/AEXexkFdoiF+TYZ0tZDAL5ZLG
+tCQ66pI19L6n4c48QVEGxa2BdaE2J0vbUtRfZpN/Pyo7YxkB6mh44rB5ceKR7Gcz
+PWhdkm0T/AYQWtRBE/DaNqzL
+=bIoI
 -----END PGP SIGNATURE-----
 
---===============6636452929609725449==
+--===============2296258709047971753==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6613476e225e-54be6c6c5ae8.txt
+Content-Disposition: attachment; filename=revlist-ad834c7c8e4a-54be6c6c5ae8.txt
 
 c7ec4f2d684e17d69bbdd7c4324db0ef5daac26a xen-netback: don't produce zero-size SKB frags
 024b32db43a359e0ded3fcc6cd86247cbbed4224 drm/bridge: parade-ps8640: Wait for HPD when doing an AUX transfer
@@ -611,27 +611,6 @@ cd2286fc577526f0a6798f68977a95eb85fe3d52 Merge tag 'xfs-6.8-fixes-1' of git://gi
 8a696a29c6905594e4abf78eaafcb62165ac61f1 Merge tag 'platform-drivers-x86-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 e30dca91e5667568a6be54886020c43f1f6f95d3 tools headers UAPI: Sync kvm headers with the kernel sources
 becc24e96ad4b9bc5c5bba800dc184661b6702bc perf vendor events intel: Alderlake/sapphirerapids metric fixes
-20d03ae36ec010aa97a97495d9dd9202cb93cb87 usb: gadget: ncm: Fix indentations in documentation of NCM section
-817349b6d26aadd8b38283a05ce0bab106b4c765 usb: dwc3: host: Set XHCI_SG_TRB_CACHE_SIZE_QUIRK
-520b391e3e813c1dd142d1eebb3ccfa6d08c3995 usb: host: xhci-plat: Add support for XHCI_SG_TRB_CACHE_SIZE_QUIRK
-9dc292413c56a2d01e34787d3fc4a76635e4a498 usb: gadget: ncm: Fix endianness of wMaxSegmentSize variable in ecm_desc
-a54a594d72f25b08f39d743880a76721fba9ae77 xhci: fix possible null pointer dereference at secondary interrupter removal
-09f197225cbc35db8ac135659cdd21bc1e29bda0 xhci: fix off by one check when adding a secondary interrupter.
-5372c65e1311a16351ef03dd096ff576e6477674 xhci: process isoc TD properly when there was a transaction error mid TD.
-7c4650ded49e5b88929ecbbb631efb8b0838e811 xhci: handle isoc Babble and Buffer Overrun events properly
-12783c0b9e2c7915a50d5ec829630ff2da50472c usb: core: Prevent null pointer dereference in update_port_device_state
-de4b5b28c87ccae4da268a53c5df135437f5cfde usb: dwc3: pci: add support for the Intel Arrow Lake-H
-61a348857e869432e6a920ad8ea9132e8d44c316 usb: dwc3: gadget: Fix NULL pointer dereference in dwc3_gadget_suspend
-cc509b6a47e7c8998d9e41c273191299d5d9d631 usb: chipidea: core: handle power lost in workqueue
-f17c34ffc792bbb520e4b61baa16b6cfc7d44b13 USB: hub: check for alternate port before enabling A_ALT_HNP_SUPPORT
-b2d2d7ea0dd09802cf5a0545bf54d8ad8987d20c usb: f_mass_storage: forbid async queue when shutdown happen
-032178972f8e992b90f9794a13265fec8c8314b0 usb: gadget: pch_udc: fix an Excess kernel-doc warning
-b717dfbf73e842d15174699fe2c6ee4fdde8aa1f Revert "usb: typec: tcpm: fix cc role at port reset"
-3caf2b2ad7334ef35f55b95f3e1b138c6f77b368 usb: ulpi: Fix debugfs directory leak
-c9aed03a0a683fd1600ea92f2ad32232d4736272 usb: ucsi: Add missing ppm_lock
-2840143e393a4ddc1caab4372969ea337371168c usb: ucsi_acpi: Fix command completion handling
-f3be347ea42dbb0358cd8b2d8dc543a23b70a976 usb: ucsi_acpi: Quirk to ack a connector change ack cmd
-f2e5d3de7e1fbf24483e7f996e519b3ebc3935a1 usb: typec: tcpm: fix the PD disabled case
 e15c99be0c915bbe70dfe55450d268d7bd5bdac8 tty: serial: Fix bit order in RS485 flag definitions
 86ee55e9bc7ff7308eda67e5bcb3f8c834c7c113 serial: 8250_pci1xxxx: fix off by one in pci1xxxx_process_read_data()
 30926783a46841c2d1bbf3f74067ba85d304fd0d serial: core: Fix atomicity violation in uart_tiocmget
@@ -700,8 +679,6 @@ f7c4cb4a3f77867612b45c6327f80eac58a8ce65 ALSA: pcm: Add missing formats to forma
 efe80f9c9063228136bc3824f7ac6b4ff2e273b4 tools headers: Update the copy of x86's mem{cpy,set}_64.S used in 'perf bench'
 7814fe24a6211a610db0b408d87420403b5b7a36 perf evlist: Fix evlist__new_default() for > 1 core PMU
 1f8c43b09ec6906079ac1f02e2b0a381c6f48c6c tools include UAPI: Sync linux/mount.h copy with the kernel sources
-12b17b4eb82a41977eb848048137b5908d52845c USB: serial: cp210x: add ID for IMST iM871A-USB
-129690fb229a20b6e563a77a2c85266acecf20bc USB: serial: qcserial: add new usb-id for Dell Wireless DW5826e
 a3fa9838e8140584a6f338e8516f2b05d3bea812 regulator (max5970): Fix IRQ handler
 6500ad28fd5d67d5ca0fee9da73c463090842440 spi: sh-msiof: avoid integer overflow in constants
 f1fea725cc93fcc3c5af9a2af63ffdc40dd2259e selftests/livepatch: fix and refactor new dmesg message code
@@ -725,7 +702,6 @@ f5c3eb4b7251baba5cd72c9e93920e710ac8194a bridge: mcast: fix disabled snooping af
 1a89e24f8bfd3e3562d69709c9d9cd185ded869b devlink: Fix referring to hw_addr attribute during state validation
 6af191034c8f2e5b7cf1f0f6a86b0effe9a85879 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 1bbb19b6eb1b8685ab1c268a401ea64380b8bbcb Merge tag 'erofs-for-6.8-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-b4a1f4eaf1d798066affc6ad040f76eb1a16e1c9 USB: serial: option: add Fibocom FM101-GL variant
 7cdd2108903a4e369eb37579830afc12a6877ec2 HID: bpf: remove double fdget()
 89be8aa5b0ecb3b729c7bcff64bb2af7921fec63 HID: bpf: actually free hdev memory after attaching a HID-BPF program
 764ad6b02777d77dca3659ca490f0898aa593670 HID: bpf: use __bpf_kfunc instead of noinline
@@ -928,7 +904,6 @@ b5e69be185495696652405088a27ab0b21812147 nouveau/gsp: use correct size for regis
 d2d00e15808c37ec476a5c040ee2cdd23854ef18 powerpc: iommu: Bring back table group release_ownership() call
 bd6081be2251c3700eca8a7bbe071e1bb8cd2af4 dmaengine: at_hdmac: add missing kernel-doc style description
 e9f1e6bb55bea4f8cb48f8f7443bbac99b60d285 Revert "gfs2: Use GL_NOBLOCK flag for non-blocking lookups"
-ad834c7c8e4a74dd6cd4397848aa255e473d4a63 Merge tag 'usb-serial-6.8-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 0a9bab391e336489169b95cb0d4553d921302189 dm-crypt, dm-verity: disable tasklets
 a60e6c3918d20848906ffcdfcf72ca6a8cfbcf2e Input: i8042 - fix strange behavior of touchpad on Clevo NS70PU
 ec86369c88f6794a6cfa0383f715f276305399ed Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
@@ -959,4 +934,4 @@ fc86e5c9909b1b9a80ff0e7946279dfae6b96ded Merge tag 'xfs-6.8-fixes-2' of git://gi
 3f24fcdacd40c70dd2949c1cfd8cc2e75942a9e3 Merge tag 'for-linus-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 Linux 6.8-rc3
 
---===============6636452929609725449==--
+--===============2296258709047971753==--
