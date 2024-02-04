@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3038122281947868029=="
+Content-Type: multipart/mixed; boundary="===============7228851168106366732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sun, 04 Feb 2024 04:37:02 -0000
-Message-Id: <170702142246.23004.14444571387555077293@gitolite.kernel.org>
+Date: Sun, 04 Feb 2024 04:42:03 -0000
+Message-Id: <170702172368.27560.4018972861973430461@gitolite.kernel.org>
 
---===============3038122281947868029==
+--===============7228851168106366732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.ufs
-    old: 66470896801ca837d41adce40f0db5e508297304
-    new: d5271400584b72795ff3da95daef4e945353e724
-    log: revlist-66470896801c-d5271400584b.txt
+  - ref: refs/heads/work.misc
+    old: c5f3fd21789cff8fa1120e802dd1390d34e3eec0
+    new: 44b376e7fd6f12877e2c104462de1388d14199f5
+    log: revlist-c5f3fd21789c-44b376e7fd6f.txt
 
---===============3038122281947868029==
+--===============7228851168106366732==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-66470896801c-d5271400584b.txt
+Content-Disposition: attachment; filename=revlist-c5f3fd21789c-44b376e7fd6f.txt
 
+e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
+fd37721803c6e73619108f76ad2e12a9aa5fafaf mm, treewide: introduce NR_PAGE_ORDERS
+5e0a760b44417f7cadd79de2204d6247109558a0 mm, treewide: rename MAX_ORDER to MAX_PAGE_ORDER
+e900042f04848b5be9238d866df0952cfc548cf9 Merge tag 'x86_sev_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+bef91c28f28fe8a36b91e9a39f60054ae1874280 Merge tag 'x86_cpu_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3edbe8afb617a736ae0dcc877311bdb112a00123 Merge tag 'ras_core_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+968b80332432172dbbb773e749a43bdc846d1a13 Merge tag 'powerpc-6.8-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+3cf1d6a5fbf3f724d12b01635319924239d42c00 Merge tag 'm68k-for-v6.8-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
+ab5f3fcb7c72094684760e0cd8954d8d570b5e83 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 c3a11c0ec66c1e0652e3a2bb4f5cc74eea0ba486 cifs: delete unnecessary NULL checks in cifs_chan_update_iface()
 33034c4f9497b7fe33b0d97740a4bf1c0552316b Merge tag 'x86-apic-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 106b88d7a91e2b4d40369a20b8ef07bb827dafd5 Merge tag 'x86-asm-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1036,19 +1045,10 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-17e7939b8824db9d1286a7e24ffc7c3edd688cb3 ufs: fix ufs_read_cylinder() failure handling
-f3ac2e4ef8a0557f62379c334f0f52a66c4698c0 fs/ufs: Use the offset_in_page() helper
-5de5a60dc2b13a0d4c3e58b4f79851ada6fb5db3 fs/ufs: Change the signature of ufs_get_page()
-20d0fcdfeff9cff3f0b96dff3160e7745182daff fs/ufs: Use ufs_put_page() in ufs_rename()
-4a60f4ffe6d0d105cf81af384f0f0e57939871b9 fs/ufs: Replace kmap() with kmap_local_page()
-db48edc3bc671779b34824d11df477662f4800d9 ufs: fix handling of delete_entry and set_link failures
-259b41d0386ba0df25ae37f03c58313ab020aa7b ufs: untangle ubh_...block...() macros, part 1
-50f20785bbb1e57685d4b86f7f26794cc93a8500 ufs: untangle ubh_...block...(), part 2
-3b68682c80f79fac4ef8539b3c2c5935e440d505 ufs: untangle ubh_...block...(), part 3
-9027905db86a49757fd93148366d51ca36374fa5 ufs_clusteracct(): switch to passing fragment number
-90e87867fcc5d6ea583726484b7611087214fd68 ufs_inode_getfrag(): remove junk comment
-6d608d4c37e531150416f20c5ffc2555583fbe69 ufs: get rid of ubh_{ubhcpymem,memcpyubh}()
-68a2c5b848602641f769b249a10e3e8f04cb144f clean ufs_trunc_direct() up a bit...
-d5271400584b72795ff3da95daef4e945353e724 ufs: take the handling of free block counters into a helper
+d0515fca5b907f85a77fc64d82fdeb17c1ab2261 close_on_exec(): pass files_struct instead of fdtable
+1cfb8ae5e5736155c7a8a527b1bde68c7b7f3d34 fd_is_open(): move to fs/file.c
+be6351662fd54cb236b0a124818be1d482b068da get_file_rcu(): no need to check for NULL separately
+1b89d4b3d9d1b2d4314c2dc7ae70ea0cade63649 kernel_file_open(): get rid of inode argument
+44b376e7fd6f12877e2c104462de1388d14199f5 do_dentry_open(): kill inode argument
 
---===============3038122281947868029==--
+--===============7228851168106366732==--
