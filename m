@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1327861623144724841=="
+Content-Type: multipart/mixed; boundary="===============6407658623865208238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 04 Feb 2024 14:19:07 -0000
-Message-Id: <170705634745.19702.10955554833864666556@gitolite.kernel.org>
+Date: Sun, 04 Feb 2024 14:19:13 -0000
+Message-Id: <170705635396.19822.13237940353168452578@gitolite.kernel.org>
 
---===============1327861623144724841==
+--===============6407658623865208238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 97830f3c3088638ff90b20dfba2eb4d487bf14d7
-    new: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
-    log: revlist-97830f3c3088-54be6c6c5ae8.txt
+  - ref: refs/heads/char-misc-next
+    old: 390b60f7638a8755beee22f83a5fbe54fdc9831d
+    new: e21817acb23ece75d41a4fa7b40c85550f147389
+    log: revlist-390b60f7638a-e21817acb23e.txt
 
---===============1327861623144724841==
+--===============6407658623865208238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707056346 -0800
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707056351 -0800
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1707056345-b4fb7e508bad95feead523f9f61ac3b80d2882c6
+nonce 1707056352-0cfab19e3caeea1ec4c5720f377318e58cf60f5b
 
-97830f3c3088638ff90b20dfba2eb4d487bf14d7 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 refs/heads/char-misc-linus
+390b60f7638a8755beee22f83a5fbe54fdc9831d e21817acb23ece75d41a4fa7b40c85550f147389 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW/nNobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N0gP/RaG3FIT+GpG7s7ophIJ
-sNOzFIImXc3boLq94rgdKVEZEkbNF2o/2A42SbuDOZVIU9QQCBBvUOeDRaf1uf91
-XKPzhowicvVch8E2EQ2aw8U6qLyMKukTHjZsyVsdFAcOrrjqsUJMxk0UVZmYHvDv
-qAyzmglN73ZoA84QJE2LFIs2IfhHEK4/MXvcifzipEEX43HwGrvrbXs6DgaII4ag
-9JHYE0FiYcFrHrtJEf3TNQra1Rkn52CS3PH9lmoW94YOR48sEQHeHqetoL6BCops
-vCRvFuNEpjpi4nw3Wwu/bec34MheR0A+sFEUMn8WiDJvFonsxAbjco0WulF457NG
-46ZzDajlOkrDF0NiavwXxqvll37uqZrQSFVa4rNjALDC8YdW6y3a4xXzentUz6as
-LElehSbtqWNwuZJVwnD04TaHX51bMv5dBIkPCI2GWjmm99oOXDBH7iTGS5L4iGCQ
-Rgd4bBjVkW3OPBCD5WcHkuuxHmwCeBYquT3bie5jsFBtK2B539LH+ZKG4utliJjU
-itCfWkjb0nP+32c7QMR3C5XKRxEs0makz9nZm552l69L2jiaUdJhXmhpjMh64CRV
-18QcNN/a0Cfz+cEDzClpSsWtSz7DzjBa+6ho1aTouneroUCAk6UXGxy3YFno9sxW
-NJMyyb8eEqBj0kR6RElS1c7V
-=4jTR
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmW/nN8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9u4P/2uxtqAW7Uo8hUrBW7Hs
+83dt5D6o1R6K/k0igXQ52mgur2AYEt5aUnEw4iDoDaSG3fHC5D9wQHFZ4/kg1HoR
+2BkHu/OmeULynmwvDbrFmbX9RgJt3jFmF7xTHNRs0UtEKztCNZVK68LiTJuG3qw2
+lq3uq0pZcNu3isquTTC29bsXI4v9vgAkJV5Y0lvTDAWHpjUbArVMNp8j6uFRgVlj
+l8N6bwAXmmCcqh4jcL+QI4e4MX647Xt8TW297f3q61TJRfHjSLkdH5i9j9KO8i9n
+fMH7qR89D+uk5J+VAftvvEDbNkb7lbHBbWkzQVjTZREF8WoPJOPeUpikzp2M2G2R
+YsfHHSgtjIkxvuB+JqBfn35dfODMlId9fEonW6XUWOV+rcKhr8t/r6tTRD94lRNu
+xbxY+Y9BXfI7Vfg2csu2MnXKW/4qXBoBlC7lkHNkbHN+dUczlCp+gxOm499NoqQE
++ZFPsLrD5UB3mTzDQm1AMBYY5xPWvJ6u0FXrQxeirtmTlZTE34SI0VagZsVQDt2/
+Qcg1EeuKLkonxrXs0AslO4KZIQ0QrjXK1mjDYXh8HBnDu8KTKSZuwvX9XuCVWO2R
+pEu4V8K4rOEoRwyQyO9H1GGmvnLzD5NGZM5jqzo2iePut3s4LO7zJPZsUoXVbr4F
+aUjDlcebuugIwx20poTK6j1Y
+=oTk1
 -----END PGP SIGNATURE-----
 
---===============1327861623144724841==
+--===============6407658623865208238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-97830f3c3088-54be6c6c5ae8.txt
+Content-Disposition: attachment; filename=revlist-390b60f7638a-e21817acb23e.txt
 
 a9668169961106f3598384fe95004106ec191201 HID: hid-steam: remove pointless error message
 a9f1da09c69f13ef471db8b22107a28042d230ca HID: hid-steam: Fix cleanup in probe()
@@ -327,6 +327,8 @@ bd504bcfec41a503b32054da5472904b404341a4 dm: limit the number of targets and par
 80441f76ee67002437db61f3b317ed80cce085d2 Input: xpad - add Lenovo Legion Go controllers
 d1d873a9bfac44a9a455d2ec47b85ea66f7888b9 Merge tag 'linux_kselftest-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 2a6526c4f389bb741e511be11721b3d1cbf1034a Merge tag 'linux_kselftest-kunit-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+a4e61de63e34860c36a71d1a364edba16fb6203b misc: fastrpc: Mark all sessions as invalid in cb_remove
+ac9762a74c7ca7cbfcb4c65f5871373653a046ac misc: open-dice: Fix spurious lockdep warning
 b40f873a7c80dbafbb6f4a7a569f2dcaf969d283 selftests: net: Add missing matchall classifier
 f5c3eb4b7251baba5cd72c9e93920e710ac8194a bridge: mcast: fix disabled snooping after long uptime
 1a89e24f8bfd3e3562d69709c9d9cd185ded869b devlink: Fix referring to hw_addr attribute during state validation
@@ -359,6 +361,7 @@ d81786f53aec14fd4d56263145a0635afbc64617 tracefs: Zero out the tracefs_inode whe
 db2aad036e77100e04a96c67f65ae7d49fb538fb drm/amdgpu: move the drm client creation behind drm device registration
 fb366fc7541a1de521ab3df58471746aa793b833 netfilter: conntrack: correct window scaling with retransmitted SYN
 776d451648443f9884be4a1b4e38e8faf1c621f9 netfilter: nf_tables: restrict tunnel object to NFPROTO_NETDEV
+97830f3c3088638ff90b20dfba2eb4d487bf14d7 binder: signal epoll threads of self-work
 6e348067ee4bc5905e35faa3a8fafa91c9124bc7 netfilter: conntrack: check SCTP_CID_SHUTDOWN_ACK for vtag setting in sctp_new
 97f7cf1cd80eeed3b7c808b7c12463295c751001 netfilter: ipset: fix performance regression in swap operation
 259eb32971e9eb24d1777a28d82730659f50fdcb netfilter: nf_log: replace BUG_ON by WARN_ON_ONCE when putting logger
@@ -564,5 +567,6 @@ fc86e5c9909b1b9a80ff0e7946279dfae6b96ded Merge tag 'xfs-6.8-fixes-2' of git://gi
 9e28c7a23bac7452935d1768fbfedad113586f9b Merge tag 'v6.8-rc3-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 3f24fcdacd40c70dd2949c1cfd8cc2e75942a9e3 Merge tag 'for-linus-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 Linux 6.8-rc3
+e21817acb23ece75d41a4fa7b40c85550f147389 Merge 6.8-rc3 into char-misc-next
 
---===============1327861623144724841==--
+--===============6407658623865208238==--
