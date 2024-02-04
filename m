@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 04 Feb 2024 14:51:10 -0000
-Message-Id: <170705827054.16706.4153072897165708243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 04 Feb 2024 14:59:57 -0000
+Message-Id: <170705879748.21322.17353019658908997797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 112bda98573929be5387b3ad7f71eb21b4d3de8e
-    new: c2aa8df015156880269b3c077b10d0ba35572c57
+  - ref: refs/heads/testing
+    old: 3b37de34c2e57c72baad4ed3f7a0b05aafcc12e7
+    new: 64cab65f028252a0b1a8f8ef2ad72c63309fe4f8
     log: |
-         68b1206614f46532e8b7c46ada494a73aa1f2407 hwmon: (coretemp) Introduce enum for attr index
-         0d60b79ca735e114d5a7627b2e44ddf53cd061b2 hwmon: (coretemp) Remove unnecessary dependency of array index
-         54e1026d347791ec3db5d779f9d271ad8708ef0b hwmon: (coretemp) Replace sensor_device_attribute with device_attribute
-         31220fba29e2d64314df5ef87c271a60be2a5734 hwmon: (coretemp) Remove redundant pdata->cpu_map[]
-         61b607716be2a10862582779adfaa629538f9d4f hwmon: (coretemp) Abstract core_temp helpers
-         9794924b03c55c6f62bbf92c135832d564ec44ef hwmon: (coretemp) Split package temp_data and core temp_data
-         307a1da6d74b573467a0671f3b86ecba9230cfe3 hwmon: (coretemp) Remove redundant temp_data->is_pkg_data
-         c2aa8df015156880269b3c077b10d0ba35572c57 hwmon: (coretemp) Use dynamic allocated memory for core temp_data
+         8bad85d9f092c0659a6a0d4e81a5254cabdb8a00 iio: adc: ad7380: don't use bool in FIELD_PREP
+         b7bc1fe0e3aed5d11f7e96328b1945911104be8c dt-bindings: adc: ad9467: add new io-backend property
+         57c13e1fde6b9dbdb3541841537633f6fe7f1160 dt-bindings: adc: axi-adc: update bindings for backend framework
+         d9f05658f52cb844515fa038503142d47cdb053b of: property: add device link support for io-backends
+         8f54602880b25f8facc08ad18791ee3d0ddbc077 iio: buffer-dmaengine: export buffer alloc and free functions
+         979b0215bc3dbdf0bb49dcb16971417f65f2a2c7 iio: add the IIO backend framework
+         fe8cd77b8c2d27650d929b9a5b0a3ed262dba53a iio: adc: ad9467: convert to backend framework
+         64cab65f028252a0b1a8f8ef2ad72c63309fe4f8 iio: adc: adi-axi-adc: move to backend framework
          
