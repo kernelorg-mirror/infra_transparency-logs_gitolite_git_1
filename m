@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3612167564438950871=="
+Content-Type: multipart/mixed; boundary="===============6303936434736319823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 04 Feb 2024 14:43:37 -0000
-Message-Id: <170705781778.10477.8296309474665450789@gitolite.kernel.org>
+Date: Sun, 04 Feb 2024 14:43:57 -0000
+Message-Id: <170705783767.10689.13838927505846702453@gitolite.kernel.org>
 
---===============3612167564438950871==
+--===============6303936434736319823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 41b9fb381a486360b2daaec0c7480f8e3ff72bc7
-    new: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
-    log: revlist-41b9fb381a48-54be6c6c5ae8.txt
-  - ref: refs/tags/v6.8-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0b5b909d9a9083afacaac2a75dac24ba3649f692
+  - ref: refs/heads/kbuild
+    old: a8fdabe1e15ddec9491d3895786a21de492c0fd9
+    new: 2b9708d31dcef303aa1540347963fde533ff4ef4
+    log: revlist-a8fdabe1e15d-2b9708d31dce.txt
 
---===============3612167564438950871==
+--===============6303936434736319823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41b9fb381a48-54be6c6c5ae8.txt
+Content-Disposition: attachment; filename=revlist-a8fdabe1e15d-2b9708d31dce.txt
 
 55583e899a5357308274601364741a83e78d6ac4 ext4: fix double-free of blocks due to wrong extents moved_len
 172202152a125955367393956acf5f4ffd092e0d ext4: do not trim the group with corrupted block bitmap
@@ -341,5 +338,45 @@ fc86e5c9909b1b9a80ff0e7946279dfae6b96ded Merge tag 'xfs-6.8-fixes-2' of git://gi
 9e28c7a23bac7452935d1768fbfedad113586f9b Merge tag 'v6.8-rc3-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 3f24fcdacd40c70dd2949c1cfd8cc2e75942a9e3 Merge tag 'for-linus-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 Linux 6.8-rc3
+2ae1f44c49909635322cf8aa89f04536ae55f6fa kconfig: remove unneeded buffer allocation in zconf_initscan()
+042da992f90607cead5cf74229788d0ae48b9890 kconfig: fix line number in recursive inclusion detection
+7cbfa8031c840df1cec455679b674ca76482767a docs: kbuild/kconfig: reformat/cleanup
+6b33391214ac19dc10a4365d5262ee717c44ba9d kbuild: create a list of all built DTB files
+0de4877a9b9ed7f1ed7bed2c07428a3672ca783f kbuild: simplify dtbs_install by reading the list of compiled DTBs
+5ed73f11f02c21bae3bee2f90f394de5855b0205 kbuild: deb-pkg: show verbose log for direct package builds
+e9482623777a42cccf8f5404ac4836398f77c152 kbuild: deb-pkg: make debian/rules quiet for 'make deb-pkg'
+f47c39ae424fcd32ca3268d0f234698f956e4624 kbuild: deb-pkg: build binary-arch in parallel
+a40a323f799eb03c0d8ac5e453acee2681626705 kbuild: deb-pkg: call more misc debhelper commands
+f24bdfb9a7dbc9c5b6939628ca04bdf886a99e60 kbuild: rpm-pkg: do not include depmod-generated files
+218a6a87965753d4ccd32813f93f77fa48ce5f76 kbuild: rpm-pkg: mark installed files in /boot as %ghost
+64523746b2fd714951ab9526bed7aefcfbb14fa8 Revert "kbuild/mkspec: support 'update-bootloader'-based systems"
+81da7ad1beee0616a899fc56e88f434ea998104f Revert "kbuild/mkspec: clean boot loader configuration on rpm removal"
+514ca3984b23217a24b08c986539863cb7ae2ddb kconfig: fix infinite loop when expanding a macro at the end of file
+e258f33896601f3ec4e60291c15719e2fb9a7be3 kconfig: fix off-by-one in zconf_error()
+9b69586b4edd829f3aa771a91b83f774ba80087d kconfig: remove orphan lookup_file() declaration
+8449d71baf9332470be91c14ba45ad06f82c4956 kconfig: remove compat_getline()
+9bbf1eec5af1af77dac80de2a5deeb467d44631b kconfig: remove unneeded sym_find() call in conf_parse()
+ce3017aa8868a7bb0ec0f4aa04c1c5a9216bfae4 kconfig: write Kconfig files to autoconf.cmd in order
+9912da728e9e16ec980de3fc7e9b4218f2bb7199 kconfig: call env_write_dep() right after yyparse()
+4ddebca9c84a6e96501f028be6506675c302cf93 kconfig: split preprocessor prototypes into preprocess.h
+61678d696c8ff2fa0a5cdaa5d9dab95a635b9edd kconfig: replace current_pos with separate cur_{filename,lineno}
+de1c95edd99bf86c1d31eb5067b065d57eb054ff kconfig: remove zconf_curname() and zconf_lineno()
+a727ff64e4beb64be9c6f63ea11fce9eb835026a kconfig: associate struct menu with file name directly
+14488e036136bbe6494631654662d8fd59d51658 kconfig: associate struct property with file name directly
+82c7fd55548b242ce00d9383d11bf2eed4d20a17 kconfig: replace file->name with name in zconf_nextfile()
+327d27b32d15805035e7f8188ffed2287d451085 kconfig: do not delay the cur_filename update
+a6bc4bfb7fd948a1472116a650e18980721cc3a6 kconfig: replace remaining current_file->name with cur_filename
+1f1ce161374e09b84c2b0cc33740cdd368154e1b kconfig: move the file and lineno in struct file to struct buffer
+51963ae828afb1cc18ad56a5c1856f7e9b181c41 kconfig: make file::name a flexible array member
+daa5849f368cbdc2ef5edf46adc8e0e774744082 kconfig: change file_lookup() to return the file name
+0246fa76580981dbfd76208f5473f15f00cc4380 kconfig: split list_head into a separate header
+ee333f22b78c2ab1bf22cfcf06b913acbc806ae4 kconfig: resync list.h
+8372d8843c0f3f7fd87f0e50e4b9ffdac8d630fe kconfig: import more list macros and inline functions
+a4141fd0322efd06fefdf0cde093ddfd063c5a0b kconfig: add macros useful for hashtable
+d3ff6c9d77f4fa7e396059c04e7b6ef7c04eed02 kconfig: move ARRAY_SIZE to a header
+7b6fbca633d2e3b933de064c87e3e73f269375eb kconfig: move strhash() to a header
+6010df35c6bad2e3071e19bb9eb1b1ccbc9623c4 kconfig: convert linked list of files to hash table
+748921bcc35b345d3113038c560a7cfbbc3d0f2c kconfig: use generic macros to implement symbol hashtable
+2b9708d31dcef303aa1540347963fde533ff4ef4 kconfig: do not imply the type of choice value
 
---===============3612167564438950871==--
+--===============6303936434736319823==--
