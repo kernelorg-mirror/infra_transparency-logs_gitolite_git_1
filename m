@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6533878537463117011=="
+Content-Type: multipart/mixed; boundary="===============2305426755916650905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 05 Feb 2024 08:49:48 -0000
-Message-Id: <170712298854.10614.6485697057653426393@gitolite.kernel.org>
+Date: Mon, 05 Feb 2024 08:49:56 -0000
+Message-Id: <170712299602.10716.10943560586774127368@gitolite.kernel.org>
 
---===============6533878537463117011==
+--===============2305426755916650905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-linus
+  - ref: refs/heads/gnss-next
     old: 41bccc98fb7931d63d03f326a746ac4d429c1dd3
     new: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
     log: revlist-41bccc98fb79-54be6c6c5ae8.txt
 
---===============6533878537463117011==
+--===============2305426755916650905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -537,4 +537,4 @@ fc86e5c9909b1b9a80ff0e7946279dfae6b96ded Merge tag 'xfs-6.8-fixes-2' of git://gi
 3f24fcdacd40c70dd2949c1cfd8cc2e75942a9e3 Merge tag 'for-linus-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 Linux 6.8-rc3
 
---===============6533878537463117011==--
+--===============2305426755916650905==--
