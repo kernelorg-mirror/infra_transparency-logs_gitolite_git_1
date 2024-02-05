@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4423960214981297809=="
+Content-Type: multipart/mixed; boundary="===============7627540577263071046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 05 Feb 2024 08:27:39 -0000
-Message-Id: <170712165903.27055.8626463155553829201@gitolite.kernel.org>
+Date: Mon, 05 Feb 2024 08:28:06 -0000
+Message-Id: <170712168622.27301.14589519744301594681@gitolite.kernel.org>
 
---===============4423960214981297809==
+--===============7627540577263071046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: e6d0024441d8fbcdf27914e168c40fafdc253593
-    new: 0bd8a354c65a73a681fc2cb00f7745ed3f21c334
-    log: revlist-e6d0024441d8-0bd8a354c65a.txt
+  - ref: refs/heads/m68k-queue
+    old: a55ae0d77f2af74e793d4271220c12ce70720cc3
+    new: ad50fcab1731d79dfbe897c26ac00551bbfee4d6
+    log: revlist-a55ae0d77f2a-ad50fcab1731.txt
 
---===============4423960214981297809==
+--===============7627540577263071046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6d0024441d8-0bd8a354c65a.txt
+Content-Disposition: attachment; filename=revlist-a55ae0d77f2a-ad50fcab1731.txt
 
 a9668169961106f3598384fe95004106ec191201 HID: hid-steam: remove pointless error message
 a9f1da09c69f13ef471db8b22107a28042d230ca HID: hid-steam: Fix cleanup in probe()
@@ -536,6 +536,8 @@ fc86e5c9909b1b9a80ff0e7946279dfae6b96ded Merge tag 'xfs-6.8-fixes-2' of git://gi
 9e28c7a23bac7452935d1768fbfedad113586f9b Merge tag 'v6.8-rc3-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 3f24fcdacd40c70dd2949c1cfd8cc2e75942a9e3 Merge tag 'for-linus-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 Linux 6.8-rc3
-0bd8a354c65a73a681fc2cb00f7745ed3f21c334 Merge tag 'v6.8-rc3'
+b411eb07e32a1e72e4bb73e5b13e9bd8f43aafbc m68k: atari: usb: Add ISP1160 USB host controller support
+dc7bfc3c23caf9fd839c4ad741c7798537c04de1 m68k: atari: Update Kconfig.bus help text
+ad50fcab1731d79dfbe897c26ac00551bbfee4d6 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4423960214981297809==--
+--===============7627540577263071046==--
