@@ -1,47 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4066908076777849807=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Mon, 05 Feb 2024 17:51:52 -0000
-Message-Id: <170715551295.12223.795623174398267764@gitolite.kernel.org>
-
---===============4066908076777849807==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Mon, 05 Feb 2024 17:52:43 -0000
+Message-Id: <170715556324.12624.13438048107206878759@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/slub-percpu-caches-v4r1-BROKEN
-    old: 769a361e3d36bf4b006b69c6adbdcd24fe2e470a
-    new: 0000000000000000000000000000000000000000
-
---===============4066908076777849807==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1707155509 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1707155509-fd7ed50e8bc5f5a0f1b6b612344385c97b1e53d3
-
-769a361e3d36bf4b006b69c6adbdcd24fe2e470a 0000000000000000000000000000000000000000 refs/heads/slub-percpu-caches-v4r1-BROKEN
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmXBIDUACgkQu+CwddJF
-iJo2OQf9H9vkSHUHyScbGpld3+UrpBZ2Kx5Wc4odpPZFUIykz8IcxDdz9orZPOPh
-21WUu7MAJUeWBCYtGkOq0LRruLt5GxOx5JZXXXl7XaFVkqrdrhs+PsYwV2vVUE7h
-ypoDmj3yzzjFaVdIS3xGTsxl+BYpxyxUOOQdx8NTfHlOmI68WpQZi/vjU16FDDiT
-CfFltM7kknZxiVTvmPDcu2XUo9IPHcSH2Td6AbZXhkPySGGV96gGn1u/KW+RKg0D
-u+Gt8+HbqmYOdCzGZI6t21Yt6SdqcBUQ4r3y3w5nfZRVzCtCeE6K/EtnkZ+svsKx
-rslk0xst6YKt12vR01+bwCj/++BLYg==
-=M7dx
------END PGP SIGNATURE-----
-
---===============4066908076777849807==--
+  - ref: refs/heads/for-6.9
+    old: 96068b6030391082bf0cd97af525d731afa5ad63
+    new: 8eb17dc1a6b5db7e89681f59285242af8d182f95
+    log: |
+         8eb17dc1a6b5db7e89681f59285242af8d182f95 workqueue: Skip __WQ_DESTROYING workqueues when updating global unbound cpumask
+         
+  - ref: refs/heads/for-next
+    old: f36fd56075d2ea249e0d8bc9dcc2a22e0493c6c9
+    new: ef60b2d50f4629868b61d6a1f3c1d20e1095afa8
+    log: |
+         8eb17dc1a6b5db7e89681f59285242af8d182f95 workqueue: Skip __WQ_DESTROYING workqueues when updating global unbound cpumask
+         ef60b2d50f4629868b61d6a1f3c1d20e1095afa8 Merge branch 'for-6.9' into for-next
+         
