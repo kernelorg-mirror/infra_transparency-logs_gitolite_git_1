@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 05 Feb 2024 18:38:00 -0000
-Message-Id: <170715828003.8387.17337022150349254965@gitolite.kernel.org>
+Date: Mon, 05 Feb 2024 18:49:29 -0000
+Message-Id: <170715896904.15626.3722140424460099711@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,11 +9,11 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: 2a79690eae953daaac232f93e6c5ac47ac539f2d
-    new: df9705eaa0bad034dad0f73386ff82f5c4dd7e24
+  - ref: refs/heads/master
+    old: df9705eaa0bad034dad0f73386ff82f5c4dd7e24
+    new: 7e428638bd784fd9e8944bfbf11513520e141b91
     log: |
-         df9705eaa0bad034dad0f73386ff82f5c4dd7e24 bpf: Remove an unnecessary check.
+         7e428638bd784fd9e8944bfbf11513520e141b91 selftests/bpf: Fix flaky test ptr_untrusted
          
