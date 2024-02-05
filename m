@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5589995258025888640=="
+Content-Type: multipart/mixed; boundary="===============7904759830123595144=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 05 Feb 2024 13:15:44 -0000
-Message-Id: <170713894410.2584.14330205514624530119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 05 Feb 2024 13:16:24 -0000
+Message-Id: <170713898401.2876.3346957539067169415@gitolite.kernel.org>
 
---===============5589995258025888640==
+--===============7904759830123595144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 0b5b909d9a9083afacaac2a75dac24ba3649f692
 
---===============5589995258025888640==
+--===============7904759830123595144==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -908,4 +908,4 @@ fc86e5c9909b1b9a80ff0e7946279dfae6b96ded Merge tag 'xfs-6.8-fixes-2' of git://gi
 3f24fcdacd40c70dd2949c1cfd8cc2e75942a9e3 Merge tag 'for-linus-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 Linux 6.8-rc3
 
---===============5589995258025888640==--
+--===============7904759830123595144==--
