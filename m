@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 05 Feb 2024 11:11:32 -0000
-Message-Id: <170713149232.13006.9633942324791741594@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 05 Feb 2024 11:15:32 -0000
+Message-Id: <170713173205.16378.14005624049372741565@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: eef00a82c568944f113f2de738156ac591bbd5cd
-    new: fdeba0b57d61b40a708de361294fde3e1495588d
+    old: 89304f91bf8efe832557b00f034493420f16dbdb
+    new: 1e08223272c7bd5b26196389fab3892ba9942be3
     log: |
-         b3d4f7f2288901ed2392695919b3c0e24c1b4084 nfp: use correct macro for LengthSelect in BAR config
-         1a1c13303ff6d64e6f718dc8aa614e580ca8d9b4 nfp: flower: prevent re-adding mac index for bonded port
-         0f4d6f011bca0df2051532b41b596366aa272019 nfp: enable NETDEV_XDP_ACT_REDIRECT feature flag
-         fdeba0b57d61b40a708de361294fde3e1495588d Merge branch 'nfp-fixes'
+         1e08223272c7bd5b26196389fab3892ba9942be3 tsnep: Add helper for RX XDP_RING_NEED_WAKEUP flag
          
