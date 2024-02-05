@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Mon, 05 Feb 2024 18:34:28 -0000
-Message-Id: <170715806872.4106.4880389091792263411@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 05 Feb 2024 18:37:50 -0000
+Message-Id: <170715827000.8228.1943124353978208653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
   - ref: refs/heads/master
-    old: 7d0f351da46098b3bbb147f886f059473b84ff48
-    new: a0835e67031d9dc27eac7355243aefa2702ffbc3
+    old: 2a79690eae953daaac232f93e6c5ac47ac539f2d
+    new: df9705eaa0bad034dad0f73386ff82f5c4dd7e24
     log: |
-         a0835e67031d9dc27eac7355243aefa2702ffbc3 input: gameport: make gameport_bus const
-         
-  - ref: refs/heads/next
-    old: 7d0f351da46098b3bbb147f886f059473b84ff48
-    new: a0835e67031d9dc27eac7355243aefa2702ffbc3
-    log: |
-         a0835e67031d9dc27eac7355243aefa2702ffbc3 input: gameport: make gameport_bus const
+         df9705eaa0bad034dad0f73386ff82f5c4dd7e24 bpf: Remove an unnecessary check.
          
