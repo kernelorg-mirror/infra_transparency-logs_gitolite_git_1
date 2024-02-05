@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 05 Feb 2024 13:42:11 -0000
-Message-Id: <170714053125.2385.9448086521240356582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Mon, 05 Feb 2024 14:14:18 -0000
+Message-Id: <170714245853.5483.16993202946326890216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 4019f2060bf562ddaedb221f6e6b4c81f52031f2
-    new: 97dab7cfa128180a2a34208472cebc4ab10038e6
+  - ref: refs/tags/efi-fixes-for-v6.8-1
+    old: 5ecbeab0c14440caa5bbdbbdbe62b1ffd021bd90
+    new: 911f2aef1996465c63a7aa477571bbfa77ace55c
     log: |
-         97dab7cfa128180a2a34208472cebc4ab10038e6 Notes added by 'git notes add'
+         1ad55cecf22f05f1c884adf63cc09d3c3e609ebf x86/efistub: Use 1:1 file:memory mapping for PE/COFF .compat section
          
