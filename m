@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 05 Feb 2024 10:57:20 -0000
-Message-Id: <170713064021.1796.9543799641716896353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 05 Feb 2024 11:08:23 -0000
+Message-Id: <170713130360.10153.13907693994738597447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/stable/v2.40
-    old: 0000000000000000000000000000000000000000
-    new: ef1501d8a8ec69c0d3431c676cefc428b11fd5b5
+  - ref: refs/heads/main
+    old: ffabe98cb576097b77d404d39e8b3df03caa986a
+    new: 89304f91bf8efe832557b00f034493420f16dbdb
+    log: |
+         89304f91bf8efe832557b00f034493420f16dbdb sctp: preserve const qualifier in sctp_sk()
+         
