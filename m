@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 05 Feb 2024 11:18:32 -0000
-Message-Id: <170713191279.17590.15728217941999812018@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Mon, 05 Feb 2024 11:23:44 -0000
+Message-Id: <170713222431.21034.11054392045839474157@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/main
-    old: 1e08223272c7bd5b26196389fab3892ba9942be3
-    new: c3b39ea2371b283d4faf5e69be6c41d1bf3f7957
+  - ref: refs/heads/linux-6.1.y-cip
+    old: f555c0a7ff8af9ddf857352bab79675e17c358ec
+    new: eddeb7f8123c49b652f55156c9bdfabba5de8021
     log: |
-         1c09d7cbb57abcea66148923cef717cc7ab35704 mptcp: annotate access for msk keys
-         d440a4e27acdede686b974b62a6b2b2bd7914437 mptcp: annotate lockless access for the tx path
-         9426ce476a705d13eb086d4be7c817856417816f mptcp: annotate lockless access for RX path fields
-         b9f4554356f60c6ab33ef6604d1aa94475449b1f mptcp: annotate lockless access for token
-         28e5c138050670e813017102c1ac842a6a0aa297 mptcp: annotate lockless accesses around read-mostly fields
-         c3b39ea2371b283d4faf5e69be6c41d1bf3f7957 Merge branch 'mptcp-annotate-lockless'
+         b64a87688acb7fd5985f946e9ebc1c7c1d4fc684 arm64: defconfig: Enable Renesas VersaClock 3 clock generator config
+         cb60d8ed397869e6ccd95487c02b21c8ddccef36 clk: versaclock3: Update vc3_get_div() to avoid divide by zero
+         a48974d18f4c240c667f942012494618761bc92a clk: versaclock3: Avoid unnecessary padding
+         cf6f3a40d55af903b5529ecb233c65b481515fab clk: versaclock3: Use u8 return type for get_parent() callback
+         a99122dccf496cc82dffdb709e72eb56925873bc clk: versaclock3: Add missing space between ')' and '{'
+         eddeb7f8123c49b652f55156c9bdfabba5de8021 clk: versaclock3: Drop ret variable
          
