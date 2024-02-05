@@ -1,71 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============0479033457254683201=="
+Content-Type: multipart/mixed; boundary="===============0545472118447051300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Mon, 05 Feb 2024 06:49:42 -0000
-Message-Id: <170711578277.21128.14935450035629177664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 05 Feb 2024 06:58:23 -0000
+Message-Id: <170711630399.27458.145726186412724829@gitolite.kernel.org>
 
---===============0479033457254683201==
+--===============0545472118447051300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/imx/dt
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
-    new: a2921599ecfae1bd627d0f2692dd3e26a3182863
-    log: revlist-6613476e225e-a2921599ecfa.txt
-  - ref: refs/heads/imx/dt64
-    old: 6196fe777513b0dc65c831bcec3adc678cfce6f6
-    new: 1a8f6ff6a291ec281847e998b2c220b4f3abe282
-    log: |
-         ee6f057a7359da3dd1c4592bc90cb1e50cf75835 arm64: dts: imx8mm-venice-gw7901: add digital I/O direction control GPIO's
-         15ae00dd16a04eb1c9244a0e99b34f4a132c0908 arm64: dts: imx8mm-venice-gw7901: add TPM device
-         ec2cb52fcfef5d58574f2cfbc9a99ffc20ae5a9d arm64: dts: imx8mm-venice-gw71xx: fix USB OTG VBUS
-         51322a6eb4e9af9dc7ca4df5943ea4cb5593b4c2 arm64: dts: imx8mm-venice-gw71xx: add TPM device
-         1a8f6ff6a291ec281847e998b2c220b4f3abe282 arm64: dts: imx8mp-venice-gw71xx: add TPM device
-         
-  - ref: refs/heads/imx/fixes
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
-    new: f03869698bc3bd6d9d2d9f216b20da08a8c2508a
-    log: |
-         f03869698bc3bd6d9d2d9f216b20da08a8c2508a arm64: dts: imx8mp: Disable UART4 by default on Data Modul i.MX8M Plus eDM SBC
-         
+  - ref: refs/heads/hwmon-next
+    old: fb0833325ac45560e6b62681c77bed56bcfc20a9
+    new: 2beee5b56187cc2859b1bf27a8208cd1d320573d
+    log: revlist-fb0833325ac4-2beee5b56187.txt
 
---===============0479033457254683201==
+--===============0545472118447051300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6613476e225e-a2921599ecfa.txt
+Content-Disposition: attachment; filename=revlist-fb0833325ac4-2beee5b56187.txt
 
-e67e40cff8fc89f74624a0d700b29697d9f28bde ARM: dts: imx7-tqma7/mba7: convert fsl,pins to uint32-matrix
-d32fb60fc4220fb974d517d49c4df488561f9819 ARM: dts: imx7[d]-mba7: Move ethernet PHY reset into PHY node
-7d37d9df42ad9dc5a792fa1cb86301e72e76bb3a ARM: dts: imx7[d]-mba7: disable USB OC on USB host and USB OTG2
-ad3af2957802e3c44aee91aa61c5a1de9699deb7 ARM: dts: imx7[d]-mba7: disable PCIe interface
-90ca55dc1382887f9e63460dca092b9b7a79db03 ARM: dts: imx7[d]-mba7: hog Mini PCIe signals
-d78dd8472e52ecbfe3b37233ce02e6d94dbb57d3 ARM: dts: imx7-mba7: Mark gpio-buttons as wakeup-source
-f8d998b00e6f681bc8c7b4124e8d51b035e23389 ARM: dts: imx7-mba7: Enable SNVS power key
-123098a15dde63d89c367bda871c04d1a8d8d34c ARM: dts: imx7-mba7: Add RTC aliases
-1c8b4df70c9f641e91142672dc5e5ca4cb60ee86 ARM: dts: imx7-mba7: Add SPI1_SS0 as chip select 3
-908bfeb6a72fbd074c26e721de666b5bd5582fbe ARM: dts: imx7-tqma7: Add i2c bus recovery
-8dc2bd48227925a4f530f3fc5fa7bb1cb9c9286b ARM: dts: imx7-mba7: Add i2c bus recovery
-c4d9a26b088310896ad34e2bd0716591967f3e94 ARM: dts: imx7-tqma7: fix EEPROM compatible for SE97BTP
-cfda4a44e6e2dda617a7ad6a6b8934c6fc703545 ARM: dts: imx7-mba7: Fix iomuxc node names
-e7073f96f124715220d963739e5702924eee23f8 ARM: dts: imx7-tqma7: Fix iomuxc node names
-d430a7e0e181d0cfc89289f11cce171e43474745 ARM: dts: imx7-mba7: restrict usdhc interface modes
-e498d366c2e5e7405dd661018cad87f31ee3fb72 ARM: dts: imx7-tqma7: restrict usdhc interface modes
-10a568290489b969e869e6996aa85b0174c0adf5 ARM: dts: imx7-tqma7: remove superfluous status property
-c3daa6513e2ea2a4daa82f5fc886c1f0d44833a6 ARM: dts: imx7-tqma7: mark system data eeprom as read-only
-5ec4722f4939d0766706286c7d8e0e4f31d1d3a4 ARM: dts: imx7-tqma7: rename node for SE97BTP
-b669a87ed367a9d02ba928a2ed82e49fd139c2c0 ARM: dts: imx7d-mba7: Remove USB OTG related properties on USB node
-cf22d879694046d26f2b45fdadd48ede14c739cb ARM: dts: imx7-tqma7: Add missing vcc supply to i2c eeproms
-4afd99042571ab5a328834c8a6c7adfae1421b53 ARM: dts: imx7-mba7: Add missing vcc supply to i2c devices
-1263f35e5ea2e4230f6bd41db8ead1cfa3763b00 ARM: dts: imx7-tqma7: Fix PMIC v33 rail voltage range
-38c0483d08aa905852b3fd7d62334223daf90079 ARM: dts: imx6ull-dhcor: Remove 900MHz operating point
-a2921599ecfae1bd627d0f2692dd3e26a3182863 ARM: dts: imx6sl-tolino-shine2hd: fix touchscreen rotation
+42c88a7d1474b6f6e53acca3522d179d3c9b1c6f hwmon: add fan speed monitoring driver for Surface devices
+94ff955348c2049b00e73785ce0cfc75c92df1e2 dt-bindings: Add MPQ8785 voltage regulator device
+5e420e5594d80bb2525a754dd5cdad81b953fe66 hwmon: Add driver for MPS MPQ8785 Synchronous Step-Down Converter
+43857144b193bad6e15e22534eb71875f92d3608 hwmon: (sht3x) read out sensor serial number
+b215513a2e3d52626ee63dbcdd543b4cbabf3a89 hwmon: (adt7x10) convert to use maple tree register cache
+70263002cbbdc6afba656ceff84ef3b5207a0d7d hwmon: (emc1403) convert to use maple tree register cache
+6eadc5417ca3496a7d8bf618e3e6622891ac53b5 hwmon: (ina3221) convert to use maple tree register cache
+f7322a69b3a2e7cd81f203e793dd01c7d0b590e8 hwmon: (jc42) convert to use maple tree register cache
+1fbccb6dd0de6804ed08ee6a3e5e7fde723dbd7c hwmon: (lm83) convert to use maple tree register cache
+14aaab1c4e54bd901b99d685478b16e039a87921 hwmon: (max31760) convert to use maple tree register cache
+e8f54fde041ed92364ec20204790cb52887bf4d1 hwmon: (nct7802) convert to use maple tree register cache
+e14f2605d4a69a87fefb01b277f6eddfd4fc4d6d hwmon: (sch5627) convert to use maple tree register cache
+3497e43dfe1c81187d661060b267448864182ca8 hwmon: (tmp401) convert to use maple tree register cache
+6159057dc58f28de6c249af161b8cb65358913cd dt-bindings: vendor-prefixes: add Amphenol
+2d1e6642561d36bb39c0f592eadc49950395d2d1 hwmon: (core) Add support for humidity min/max alarm
+cd7c366debf2fca852b878df58410794d353a998 ABI: sysfs-class-hwmon: add descriptions for humidity min/max alarms
+33a19f61417e094d291903c3d78ecd14a8e99063 dt-bindings: hwmon: Add Amphenol ChipCap 2
+94886f41106f64a645459351da9d8f310d7c019e hwmon: Add support for Amphenol ChipCap 2
+0f9d45e4d7ad2e94e28d3c32a9ac92864c0a8b6e dt-bindings: vendor-prefixes: add asteralabs
+42ec38d497cf5c469c9d0c4ad4494a405de6b799 dt-bindings: trivial-devices: add Astera Labs PT5161L
+a86d5846001c2c6a131d7b28cbc2c497b54021e9 hwmon: Add driver for NZXT Kraken X and Z series AIO CPU coolers
+7f68c8ca2460497fadc6ab2ab278e1a50b387691 hwmon: Add driver for ASUS ROG RYUJIN II 360 AIO cooler
+b73ae75b7337fb90dd3157922b42de17a3dc9835 hwmon: (coretemp) Introduce enum for attr index
+5c39217368729e7fa4abf4d45a0db216d5c0e8a1 hwmon: (coretemp) Remove unnecessary dependency of array index
+6fef72ecc8c9e56c6267b545cf7d33463dd20250 hwmon: (coretemp) Replace sensor_device_attribute with device_attribute
+1f253e5895d5efab41a3045633c79c7c256a43e9 hwmon: (coretemp) Remove redundant pdata->cpu_map[]
+535323aa65fea4e4eefdae94ed8189372d320c3c hwmon: (coretemp) Abstract core_temp helpers
+95f7d5c67f6c791a97f9865eca7fe1b4897cc610 hwmon: (coretemp) Split package temp_data and core temp_data
+2831eb15cb49b8a8dff19fe107a34277550ca48b hwmon: (coretemp) Remove redundant temp_data->is_pkg_data
+2beee5b56187cc2859b1bf27a8208cd1d320573d hwmon: (coretemp) Use dynamic allocated memory for core temp_data
 
---===============0479033457254683201==--
+--===============0545472118447051300==--
