@@ -1,47 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4752725411552234534=="
+Content-Type: multipart/mixed; boundary="===============1771319656277371148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 05 Feb 2024 17:45:26 -0000
-Message-Id: <170715512664.7706.4663832306688957920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 05 Feb 2024 17:45:55 -0000
+Message-Id: <170715515587.7961.15376017042803661506@gitolite.kernel.org>
 
---===============4752725411552234534==
+--===============1771319656277371148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.9
-    old: 0000000000000000000000000000000000000000
-    new: 0ec74ad3c157bd4bcbcc8b294777733687e8cd2a
+  - ref: refs/heads/for-6.8
+    old: 6500ad28fd5d67d5ca0fee9da73c463090842440
+    new: c712c05e46c8ce550842951e9e2606e24dbf0475
+    log: |
+         c712c05e46c8ce550842951e9e2606e24dbf0475 spi: imx: fix the burst length at DMA mode and CPU mode
+         
 
---===============4752725411552234534==
+--===============1771319656277371148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1707155125 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1707155124-02f2ba32de66eaa63fcdd9d76785d4d1f39ca6bb
+pusher Mark Brown <broonie@kernel.org> 1707155154 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1707155142-5f253a7c19a2bc6ba8e0b3cedc6f4e73d6a12325
 
-0000000000000000000000000000000000000000 0ec74ad3c157bd4bcbcc8b294777733687e8cd2a refs/heads/regmap-6.9
+6500ad28fd5d67d5ca0fee9da73c463090842440 c712c05e46c8ce550842951e9e2606e24dbf0475 refs/heads/for-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXBHrUTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0E1oB/91+NqHw1FDZdTeYXSxFe7ILQRpsn4C
-ruB++uLCjfyWysb1D1aCctLfEH1H9gfDJgw3OMROmLaFKb1elpuPsnRZ7sO/MUcz
-xXlhrInLkcH313y5HuWchMSwoptOjAff5Yl0DXQWp/pigdf3Gu9MuY5R/FiTq04u
-zdL0e49dVuIbVnt/7v8ByMNO5Gzg7gMb2eBaiK6UwJc+rk7qmaaYVqJOT8fmBVnP
-Kq+ojVrXJQtFaiRxcD2Kv2o/yhVnWc2JXuEFXVKmB1hWiU4B27zDGT9AcdXyjAen
-Y1fFc9kBnQy8RWmw2vGKCBGccZ5RuQYFPaMhUr83rMONSETuOS4v5+k5
-=5lYg
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXBHtITHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0D2uB/9UB6vwXtYznuI5WuOnecxjBdYlX2b5
+tlYnIXp7TnnfZvuMZpKqa9hVU1ZDhva96GOZQz+Ze3wMjnAOnif70HW3Dt5jBk3p
+lA0TOqdPmSNwuMFQFvKp/DlQAub/rSUQt1YSQEuNrPoTmsmwRkaO0IgKBbMqVXHB
+OlTxTr1DS7RXooWDgulPZsaA8wR1oIMsGIGOmk40x0IwP5ay+foa3b/aE58AU5Qk
+sIecZQul702/LJwsWq4J0k0KBTtn21kuSlaC2X+jkXwautoddSJPvKy3VoHIAsz5
+Lg4cJtl1AlFtyczPnkmYCOhb3rQkvJic1ed42KG8/qtnOxy65A93Rylp
+=D5gh
 -----END PGP SIGNATURE-----
 
---===============4752725411552234534==--
+--===============1771319656277371148==--
