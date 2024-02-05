@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 05 Feb 2024 17:46:21 -0000
-Message-Id: <170715518137.8292.4283049317717175656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 05 Feb 2024 17:46:50 -0000
+Message-Id: <170715521068.8541.13373748785410604270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 8b921545ddc68c960f86699af906b6c6f361f16c
-    new: 1a1b27115ae1b7c19e48b7ef3712769c4c026f1c
+    old: 6500ad28fd5d67d5ca0fee9da73c463090842440
+    new: c712c05e46c8ce550842951e9e2606e24dbf0475
     log: |
-         1a1b27115ae1b7c19e48b7ef3712769c4c026f1c Merge remote-tracking branch 'regmap/for-6.7' into regmap-linus
+         c712c05e46c8ce550842951e9e2606e24dbf0475 spi: imx: fix the burst length at DMA mode and CPU mode
          
   - ref: refs/heads/for-next
-    old: a1214cdfe92bd421a449f16d75d4dae2df36060b
-    new: 371a2e3c97899587d8fd47813e588ca172dc493b
+    old: b9b98f594b6f4c0b0fb2da4493453aef183bca4b
+    new: 4e10c6738385254e07cffc0a767e190c3e2afbb0
     log: |
-         0ec74ad3c157bd4bcbcc8b294777733687e8cd2a regmap: rework ->max_register handling
-         1a1b27115ae1b7c19e48b7ef3712769c4c026f1c Merge remote-tracking branch 'regmap/for-6.7' into regmap-linus
-         494215ff8c01645b917999997a1e99f3cfa9d3b7 Merge branch 'regmap-linus' into regmap-next
-         371a2e3c97899587d8fd47813e588ca172dc493b Merge remote-tracking branch 'regmap/for-6.9' into regmap-next
+         c712c05e46c8ce550842951e9e2606e24dbf0475 spi: imx: fix the burst length at DMA mode and CPU mode
+         4e10c6738385254e07cffc0a767e190c3e2afbb0 Merge remote-tracking branch 'spi/for-6.9' into spi-next
          
