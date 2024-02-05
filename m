@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1507911950859906840=="
+Content-Type: multipart/mixed; boundary="===============5980355618377568715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 05 Feb 2024 08:49:22 -0000
-Message-Id: <170712296207.10244.8149549706833482750@gitolite.kernel.org>
+Date: Mon, 05 Feb 2024 08:49:29 -0000
+Message-Id: <170712296922.10374.13005312695059690702@gitolite.kernel.org>
 
---===============1507911950859906840==
+--===============5980355618377568715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: b4a1f4eaf1d798066affc6ad040f76eb1a16e1c9
+  - ref: refs/heads/usb-next
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
     new: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
-    log: revlist-b4a1f4eaf1d7-54be6c6c5ae8.txt
+    log: revlist-6613476e225e-54be6c6c5ae8.txt
 
---===============1507911950859906840==
+--===============5980355618377568715==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b4a1f4eaf1d7-54be6c6c5ae8.txt
+Content-Disposition: attachment; filename=revlist-6613476e225e-54be6c6c5ae8.txt
 
 c7ec4f2d684e17d69bbdd7c4324db0ef5daac26a xen-netback: don't produce zero-size SKB frags
 024b32db43a359e0ded3fcc6cd86247cbbed4224 drm/bridge: parade-ps8640: Wait for HPD when doing an AUX transfer
@@ -669,6 +669,8 @@ f7c4cb4a3f77867612b45c6327f80eac58a8ce65 ALSA: pcm: Add missing formats to forma
 efe80f9c9063228136bc3824f7ac6b4ff2e273b4 tools headers: Update the copy of x86's mem{cpy,set}_64.S used in 'perf bench'
 7814fe24a6211a610db0b408d87420403b5b7a36 perf evlist: Fix evlist__new_default() for > 1 core PMU
 1f8c43b09ec6906079ac1f02e2b0a381c6f48c6c tools include UAPI: Sync linux/mount.h copy with the kernel sources
+12b17b4eb82a41977eb848048137b5908d52845c USB: serial: cp210x: add ID for IMST iM871A-USB
+129690fb229a20b6e563a77a2c85266acecf20bc USB: serial: qcserial: add new usb-id for Dell Wireless DW5826e
 a3fa9838e8140584a6f338e8516f2b05d3bea812 regulator (max5970): Fix IRQ handler
 6500ad28fd5d67d5ca0fee9da73c463090842440 spi: sh-msiof: avoid integer overflow in constants
 f1fea725cc93fcc3c5af9a2af63ffdc40dd2259e selftests/livepatch: fix and refactor new dmesg message code
@@ -692,6 +694,7 @@ f5c3eb4b7251baba5cd72c9e93920e710ac8194a bridge: mcast: fix disabled snooping af
 1a89e24f8bfd3e3562d69709c9d9cd185ded869b devlink: Fix referring to hw_addr attribute during state validation
 6af191034c8f2e5b7cf1f0f6a86b0effe9a85879 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 1bbb19b6eb1b8685ab1c268a401ea64380b8bbcb Merge tag 'erofs-for-6.8-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+b4a1f4eaf1d798066affc6ad040f76eb1a16e1c9 USB: serial: option: add Fibocom FM101-GL variant
 7cdd2108903a4e369eb37579830afc12a6877ec2 HID: bpf: remove double fdget()
 89be8aa5b0ecb3b729c7bcff64bb2af7921fec63 HID: bpf: actually free hdev memory after attaching a HID-BPF program
 764ad6b02777d77dca3659ca490f0898aa593670 HID: bpf: use __bpf_kfunc instead of noinline
@@ -925,4 +928,4 @@ fc86e5c9909b1b9a80ff0e7946279dfae6b96ded Merge tag 'xfs-6.8-fixes-2' of git://gi
 3f24fcdacd40c70dd2949c1cfd8cc2e75942a9e3 Merge tag 'for-linus-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 Linux 6.8-rc3
 
---===============1507911950859906840==--
+--===============5980355618377568715==--
