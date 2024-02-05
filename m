@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Mon, 05 Feb 2024 15:16:41 -0000
-Message-Id: <170714620158.19221.11082759170351315267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 05 Feb 2024 15:34:26 -0000
+Message-Id: <170714726699.30151.3908233453405655350@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/mtd/fixes
-    old: 5ab9bbf6c678444dd99afabd44665e7f04047cc5
-    new: e6a30d0c48a1e8a68f1cc413bee65302ab03ddfb
+  - ref: refs/heads/main
+    old: a8882313c5640103f93a07cf352f6ccf8e7defc3
+    new: 8ff25dac88f616ebebb30830e3a20f079d7a30c9
     log: |
-         e6a30d0c48a1e8a68f1cc413bee65302ab03ddfb mtd: rawnand: marvell: fix layouts
+         8ff25dac88f616ebebb30830e3a20f079d7a30c9 netdevsim: add Makefile for selftests
          
