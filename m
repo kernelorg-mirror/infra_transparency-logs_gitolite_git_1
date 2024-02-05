@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6518845716646446612=="
+Content-Type: multipart/mixed; boundary="===============5021553638274935730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 05 Feb 2024 20:10:28 -0000
-Message-Id: <170716382865.10820.10027733142113643458@gitolite.kernel.org>
+Date: Mon, 05 Feb 2024 20:13:22 -0000
+Message-Id: <170716400246.11924.6867385335266478283@gitolite.kernel.org>
 
---===============6518845716646446612==
+--===============5021553638274935730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 68aa90f8320fd7f3c68e824b5d6e30f13f818b24
-    new: b4464d87a073a0c94b485723295992a815d7bc84
+    old: b4464d87a073a0c94b485723295992a815d7bc84
+    new: 80c572ae94aa88337a9ed611c0f9ed767d0c29a7
     log: |
-         b4464d87a073a0c94b485723295992a815d7bc84 drop netfilter-ipset-fix-performance-regression-in-swap-o.patch for now
+         80c572ae94aa88337a9ed611c0f9ed767d0c29a7 Linux 6.1.77
          
 
---===============6518845716646446612==
+--===============5021553638274935730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707163827 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707164001 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1707163827-546cc230f9c856f9efa0f4ebfe5f3697a0057806
+nonce 1707164000-9c62a3754307874248e903574556fb5e1b8c7e5f
 
-68aa90f8320fd7f3c68e824b5d6e30f13f818b24 b4464d87a073a0c94b485723295992a815d7bc84 refs/heads/master
+b4464d87a073a0c94b485723295992a815d7bc84 80c572ae94aa88337a9ed611c0f9ed767d0c29a7 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXBQLMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rTgP/0ypMyQFec2ZCWz6VbRN
-7x1YZBcGWUs9d+v8MjqEFZzfFq2xZoPPgRUyhRRB7lIopECSwue5LGK0QHV+fEzw
-O2LoFT1J8/ugPty+WJDkdE+Lvg79KmdGEyKKGjm1Ruuy0SnOE9VMeRv2L8HBGl6N
-75kexq7C8/abDAF488RtEFZ330NNxclbgBxaAjvSjx76LXA5LoEaUkUsauJqods/
-TskFMjnKxDz1nbkQIspsrC7d4KN7A6aTGeXGM6EGXpuChs57dSJTIADdu5uQFkFN
-t4ifjOJbymzP7FlRJCTh1DF7uGgvzb6riPQYhAeCtqrqS0i5+Qdl2AiIG2THAiWk
-i7YPl1D+fpus7vSKbMPCYqBLUIAzYszhyyI0RYAEG1lsvTIuETJ3nbqNYOPEWvX9
-f6Ry7pCIc4whOtHWbl8hcWb7qr7y8gOcbErceun5+G78a4yHQdkRssYrfTrtbICw
-BXgEDdW+PeFwTLIf4biGPFhM+4GngCcMkPc0e+8rBNo2EP+FylIkh0HGqKpsr+f6
-RuIakSiSLIHpSOTs94d1MLjNh7N/BAmXEus0fHWxxzQq+BYBNWvM8b9q+tU6ynmg
-iEPaSK1FabiFfR3quvmRn8+7+LO/PSriZvpLoPvapj5zhtLc9UsB1GxF8DkVMULU
-MIqJ6B/9C9JocofCf80X+TIE
-=meO+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXBQWEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1lYQAKwwOCAH9AV8zhS9DjvH
+v7hTnWmc0NRK3UxpQQMWFYKDPpLMQ4qTHqPErHPeWfPq2bCxX3y8kLK6YBa/7nE6
+W1gZsnox64uymXVYNgBWWtqAgpXhXqtfootSvQTiAYpRnaIhn+KaWcTNzGDgQdXa
+TYpicdQTANuKtkg5F0ZR8uvGD7H4TVbXwTC0PUu6AP6t1WPX/Dwd1ilf+l+BpffL
+MiS9FQGC6eIicpHjLIchLNRhZJg5ZX4czS5bqXlMScSB+zUZQNexM+G4sWdBhyb3
++1+LHJCwoG9KLUH4V+Jv1Yp0+4fwx7mCsm/pPZr/0UtPaTBbIqVyro7rkUhrjS2+
+ecsEFI8gLlgR/dLilZOi+VE35xeI/SfVVhkyvgVvR0vQAxs4xRK+BN7Rw53VwvLH
+VwQX6XEtzyg6EEz8yIsSgMlAt4DYoThtJp+ycUFfmDsSGriHYvfr1MshQgUGML+W
+En4ZbfI2Z1EdcEFHf9OBltY0P+oEmdIZpw7HSu6LN7n0HXiH16WocdKHVEzo0VHo
+R7CedSRmyhtdax8PTT/Tdv1WoaPWXZNdXL3EQgLXQDDGZGBQCkDJL1K81f6mwuXh
+/kYFAmlbC/chAVEBzTpHUgd+EQL7ZjiE3LmTE48A1iZlB3qzq0stY/FNiqr6tlm0
+rvovSxlq7GimvBpzMfXQjC+N
+=YHph
 -----END PGP SIGNATURE-----
 
---===============6518845716646446612==--
+--===============5021553638274935730==--
