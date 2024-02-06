@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7464767331815917071=="
+Content-Type: multipart/mixed; boundary="===============7002657007809031198=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Tue, 06 Feb 2024 16:55:50 -0000
-Message-Id: <170723855087.11370.2768773776957014797@gitolite.kernel.org>
+Date: Tue, 06 Feb 2024 16:56:07 -0000
+Message-Id: <170723856708.11547.12773594407380356477@gitolite.kernel.org>
 
---===============7464767331815917071==
+--===============7002657007809031198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,71 +15,107 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
 user: colyli
 changes:
-  - ref: refs/heads/openEuler-1.0-LTS
-    old: 0d29fbb6f9321a629cbf0ca30f15ce6f333ed7b9
-    new: 3a28772f4b29bdda924e9a5d2e3ff1ff1b23fd14
-    log: revlist-0d29fbb6f932-3a28772f4b29.txt
+  - ref: refs/heads/openEuler-22.03-LTS
+    old: 7332e91bf01db4cef0bcd05338fca2f23610f95d
+    new: 6b4b08cf0b18ddcb49bbe3ffef1741fdf3865d3a
+    log: revlist-7332e91bf01d-6b4b08cf0b18.txt
 
---===============7464767331815917071==
+--===============7002657007809031198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d29fbb6f932-3a28772f4b29.txt
+Content-Disposition: attachment; filename=revlist-7332e91bf01d-6b4b08cf0b18.txt
 
-7e9c59f90e0d0b78aa3ad27fc2baf37b9333b41f spi: phytium: fix phytium_spi_irq panic on boot
-a5d647cbe9d14e3cd8ac88e1e52cd735ab0d6a3b efi/x86: Map the entire EFI vendor string before copying it
-ba0ac2e8b77616d1d271f220568e04f98e8d0706 timerqueue: Use rb_entry_safe() in timerqueue_getnext()
-d7adf3280ad2e113fd8205e443cf947294cc4d4a time: Handle negative seconds correctly in timespec64_to_ns()
-6cdccdffc71961508c97c8a21c8b17a6f24c9e5f netfilter: nf_tables: fix pointer math issue in nft_byteorder_eval()
-d7de179b5122c922d0dcae88231947a26f47b632 !2954 spi: phytium: fix phytium_spi_irq panic on boot
-fb3a7131883be36037affebc26a6597087cbd012 !4101  netfilter: nf_tables: fix pointer math issue in nft_byteorder_eval()
-3f469030c4d1cb1cf237388cb9092be41fd760a2 sctp: fix potential deadlock on &net->sctp.addr_wq_lock
-0ff07578f017c011d7806126c4aaafdbf39b32fa !4137  sctp: fix potential deadlock on &net->sctp.addr_wq_lock
-8e17c72c327f10e800d22aa220aae92f673d6691 sched/fair: Fix qos_timer deadlock when cpuhp offline
-c147f19e06e08b90efa3dda49bc4dcaf06424518 !4166  sched/fair: Fix qos_timer deadlock when cpuhp offline
-6924f558937f27a336066b54d7ed49035ec5c43e !3942  efi/x86: Map the entire EFI vendor string before copying it
-fc334a8cc576a16c4086e3638a39ed9c4221b3fc !3943  timerqueue: Use rb_entry_safe() in timerqueue_getnext()
-e0207e2784d0f836e732608faf1a6966546a8eb3 !3944  time: Handle negative seconds correctly in timespec64_to_ns()
-096ad87561c02a8097cea200d7d66b5fec81055a dhugetlb: introduce page_belong_to_dynamic_hugetlb() function
-596500bdf4dc5c4b6b932738b721c04fa777e36c dhugetlb: skip unexpected migration
-f35453010a5c3c4ebad85566477e1ba4b81de533 netlink: fix potential sleeping issue in mqueue_flush_file
-992b5fc139d3aa14b25613b06adee4bb9c110b28 !4212  netlink: fix potential sleeping issue in mqueue_flush_file
-30f27164de604f34a90a82693f0edcb3fb320a87 tcp: make sure init the accept_queue's spinlocks once
-3e43a040ffac763e30538933023608a084ef6b41 ipv6: init the accept_queue's spinlocks in inet6_create
-267bce716c1008522c3b8ddbeac8d3c65514e98f crypto: hisilicon/qm - drop unnecessary IS_ENABLE(CONFIG_NUMA) check
-902416bffda0b502576de510f1b35cbe28f68c55 nfc: nci: fix possible NULL pointer dereference in send_acknowledge()
-acf72db532a7791fde53af3dc7b4d0a6adcf6eff !4231  crypto: hisilicon/qm - drop unnecessary IS_ENABLE(CONFIG_NUMA) check
-7a514405c3476644ceac0a3f45de2be61dba135a drm/amdgpu: Fix potential fence use-after-free v2
-480e1a43d693560dcd979b72db9714a3f57f9f01 !4209  dhugetlb: skip unexpected migration
-7988e3304ef8205a860d8ccfc640884778050906 !4255  drm/amdgpu: Fix potential fence use-after-free v2
-57170d7c6abf13d99cc5635153623a98c7569d90 !4235  nfc: nci: fix possible NULL pointer dereference in send_acknowledge()
-0f4e7166bfab1f2dfe680fd14724f52ac04971dc fs:/dcache.c: fix negative dentry limit not complete problem
-ef2982312942ba96fb8217df5d832051bae4afd2 !4228  fix spinlock already unlocked in inet_csk_reqsk_queue_add' bug
-1fd54506cdd630781f698aae652eb1ad2f42e6a9 net/rds: Fix UBSAN: array-index-out-of-bounds in rds_cmsg_recv
-7edca569b886414a1e49f5a5db2024927d91b91f smb: client: fix NULL deref in asn1_ber_decoder()
-942cf9e3c538e5f4b65b209fce31a22cd794ccf0 io_uring/af_unix: disable sending io_uring over sockets
-2fd8a5881fab120c201df9327f5ffc59c416aea1 !4299  smb: client: fix NULL deref in asn1_ber_decoder()
-81dcc378cd061ecf667965004c683de69d2744be !4288  net/rds: Fix UBSAN: array-index-out-of-bounds in rds_cmsg_recv
-86fa3a7503e26630f069c0add827814a7e841bdd !4277  fs:/dcache.c: fix negative dentry limit not complete problem
-cd7b614037cfa51ce116437418ef94f947bd6a4b net/sched: sch_hfsc: upgrade 'rt' to 'sc' when it becomes a inner curve
-ace91c88a05aadbe3c21d77f24f9e30f75d37e44 !4320  io_uring/af_unix: disable sending io_uring over sockets
-0ec2c5ee4e0f8c1bdd76fa1b5f9eb0cf68d4d62d !4360  net/sched: sch_hfsc: upgrade 'rt' to 'sc' when it becomes a inner curve
-6927b17e6b558b2c76901b747f0a6b10e9ed2349 mm/filemap: avoid buffered read/write race to read inconsistent data
-57c64090843670847d67e2da2cf3259c07e467be x86/alternatives: Sync core before enabling interrupts
-21ba1d8e2c15495a1c692b4bebf64895f92218ef mm: fix unmap_mapping_range high bits shift bug
-35dcfffe22a112752ac6184e001efd937d6e1967 net: warn if gso_type isn't set for a GSO SKB
-015307abdd03da9d982ce3b237f7c8da0fad0963 net: check dev->gso_max_size in gso_features_check()
-f5703759e9bc5dbb5fc4af492db4bbb53635c78e net: add a route cache full diagnostic message
-6bb432e9acb17954db71e9040f7ca94a81508001 net/dst: use a smaller percpu_counter batch for dst entries accounting
-4bcac70a7a9e8e60b41073901f652edf40fffd3e !4369  mm/filemap: avoid buffered read/write race to read inconsistent data
-d707b08b6e6d093a120355a92c1a52f641ea6030 !4392 linux-4.19.y inclusion
-33811fb3fc50ccf7a74381d2c1cfbd4ef238d467 drm/atomic: Fix potential use-after-free in nonblocking commits
-4a112fbfdb06e8b8b071c82ea691871705d7fb47 !4399  net: dst: Optimized route gc
-1380b4f73f27304c486161a4d16a3c6e07b152db net: prevent rewrite of msg_name in sock_sendmsg()
-0ac2fa0829817edf6f1664de1ce779218b02eeb5 net: Save and restore msg_namelen in sock_sendmsg
-c06633e418682094c5628962f5409dc0535ff59d !4412 v3  Save and restore msg_namelen in sock_sendmsg
-5bc2c7cbdcbc5c8e5bbe65d3542ec2fccbc61492 !4411 v2  drm/atomic: Fix potential use-after-free in nonblocking commits
-d01855f356d5f000fd5c22863c7a27b4871d1b4f netfilter: nf_tables: reject QUEUE/DROP verdict parameters
-3a28772f4b29bdda924e9a5d2e3ff1ff1b23fd14 !4454  netfilter: nf_tables: reject QUEUE/DROP verdict parameters
+bfdbbfa22bce2da47cea608fe99fea0ad16a5249 net: bcmgenet: Remove phy_stop() from bcmgenet_netif_stop()
+bfd307dab6dae2571968472605f8b903f4aa62e7 net: bcmgenet: Restore phy_stop() depending upon suspend/close
+e481620ab9f3feb9e403da0c2ddd0358805534e1 bnxt_en: Don't issue AP reset during ethtool's reset operation
+6d4a54c654b177d183d480fd92da13b3caf8b2ff bnxt_en: Query default VLAN before VNIC setup on a VF
+7b4c83b857f31ba58ae61c34a77c560b24f66642 bnxt_en: Implement .set_port / .unset_port UDP tunnel callbacks
+873d4cce0c9ba14fe6b242178b9ac5018e7ad9e5 Add MODULE_FIRMWARE() for FIRMWARE_TG357766.
+2eb44237228334248cd068bf69481bb033cf3b67 md: fix double free of mddev->private in autorun_array()
+e84e59e444933f4f18bc86a08353815f9c184d81 md: use msleep() in md_notify_reboot()
+72c9a464d8e5430291cf637a2b13252b38060e5a md/raid10: fix improper BUG_ON() in raise_barrier()
+d6c1b093565bac48cfd09d113c230c6a93a93583 md: convert to blk_alloc_disk/blk_cleanup_disk
+8a9852e7936f2b34c2c7a2a56ca9c444daff9525 md: add error handling support for add_disk()
+77029acdc404cbda9d1ba166b19412f432d4a87b md: add the bitmap group to the default groups for the md kobject
+cf7f79ae4dd676576bbcc0360bb40b75cc5883ee md: extend disks_mutex coverage
+f44b57f7c609887dedbff64ef74800d3577c2a9c md: properly unwind when failing to add the kobject in md_alloc
+f6fca5d6a28502fc841e1f9db1b04a274434e800 md: fix mddev->kobj lifetime
+6789f93ab5ea44eb7a431cb9894ac4113be9316e md: Constify attribute_group structs
+2b7a1b4072b3273fbb9c598898e2a4a13bd6e08f md: fix error handling in md_alloc
+831a155db60f2fc232547c86cbf8311f0b4f09da ext4: Fix best extent lstart adjustment logic in ext4_mb_new_inode_pa()
+d3d133366cf96e08c3720d408bd2af4e4cdef5f7 ext4: add two helper functions extent_logical_end() and pa_logical_end()
+439dab08bde6e3a82c5651e457257f7108ea7ab4 ext4: fix BUG in ext4_mb_new_inode_pa() due to overflow
+6f8d68d94cb84de875e82313685f61fe76206a90 ext4: avoid overlapping preallocations due to overflow
+2581aac8d8cb76f3d778a183dd512fb84f5dc0a6 ext4: prevent the normalized size from exceeding EXT_MAX_BLOCKS
+99f456b2513c65125a2f5632661c6bb7132ce3c8 ext4: correct return value of ext4_convert_meta_bg
+f6f97d0275e41f9fda4fea6c7a18ec3f46dda250 ext4: reject casefold inode flag without casefold feature
+36aa395e085899fa3d9172758328059de18c5ffa ext4: improve error handling from ext4_dirhash()
+a79baf7a56c05d881adc384c80b033f36125b54b tipc: fix a potential deadlock on &tx->lock
+e8011b70d79c61383c212eecd770759128c0f459 !4077 [sync] PR-4069:  tipc: fix a potential deadlock on &tx->lock
+6358a3b45bd23aaeac8cbf93131a48c43681b547 ida: Fix crash in ida_free when the bitmap is empty
+8b1aed068719187203ecae74a74f3a3ba1de2cc7 Revert "md/raid10: fix softlockup in raid10_unplug"
+332f457176ac60449dc99eff7d5a692ccd3ae4bc md: drop queue limitation for RAID1 and RAID10
+1aa33ecc553304c5c9e4f701d3a85793555907b6 md: raid1/raid10: drop pending_cnt
+5654e1a9e3dda177e354b664fe3806951bce4e4e md/raid10: prevent soft lockup while flush writes
+c1a470b62dccc9859a58b7eaccf6222468383d8a md/raid1-10: factor out a helper to add bio to plug
+e9f7edad38da44b9b1408b6d5d0e61ebb1908f6d md/raid1-10: factor out a helper to submit normal write
+0846eeccead8c3e75c87bc030687bd79c85a9617 md/raid1-10: submit write io directly if bitmap is not enabled
+29c4a6e24fcf69a7e94ffdac9d92b238ad164baf md/md-bitmap: add a new helper to unplug bitmap asynchrously
+404e22823f1b950e125b608eea8883006f463dad md/raid1-10: don't handle pluged bio by daemon thread
+18dcb00b880dacd8d3fe3740a30f67e479d9dde3 md/raid1-10: limit the number of plugged bio
+d9259e23160e077182e4c3267fb9c5e3127aa15d md/raid1-10: fix casting from randomized structure in raid1_submit_write()
+bdb7c8bbfb967f9adfe579131360ac2f2678192b netfilter: nf_tables: Reject tables of unsupported family
+020c07ab4e0121a68089955911bf8779f4af1d7e netfilter: nf_tables: fix pointer math issue in nft_byteorder_eval()
+c4a09bd5537763797ca837642ac01793f79b97fe !4061  ext4: synchronize the casefold bugfix from the mainline
+a6eddbeb1709713cf1430eabcfdfa019db430f22 !4055  ext4: correct return value of ext4_convert_meta_bg
+ee05239664a1852eb196f42fc274a30d48a01d5c !4125 [sync] PR-4022:  netfilter: nf_tables: Reject tables of unsupported family
+9c2e42d573f70c15e711d49fdf5cf97e6093d026 !4129 [sync] PR-4100:  netfilter: nf_tables: fix pointer math issue in nft_byteorder_eval()
+40f1ba6b810c55991942e0280e7ec858621d9e6d drm/radeon: possible buffer overflow
+0bfd02bad58ed6f40fd16f31d680e4337c751f22 drm/amdgpu: Fix a null pointer access when the smc_rreg pointer is NULL
+25e76102984135ab369561b1a21faf8cc4f66cf2 drm/dp_mst: Fix NULL deref in get_mst_branch_device_by_guid_helper()
+70b9f5c6da071c460307521f48a1dfa868c85366 drm/amdgpu: correct the amdgpu runtime dereference usage count
+03778c6d97d87a57b1b545d2150a6c177459c85e mm/dynamic_hugetlb: skip unexpected migration
+9a1cfda7efe957d7c0a2e03709c4fe5203c03f9c netlink: fix potential sleeping issue in mqueue_flush_file
+6cd7e31e2956a24eacbbf1d44241c37a2759e895 block: remove precise_iostat
+933c10d3cd46a8de9629d747cd4e167099eb74c9 drm/amd/display: Exit idle optimizations before attempt to access PHY
+5aabbff1f644d65b598b7e2f30760a3343a2d26e drm/amdgpu: correct chunk_ptr to a pointer to chunk.
+ecdf2c09580e9f588d84de20d9d23916d286efa6 net: txgbe: Fix memleak in txgbe_calc_eeprom_checksum()
+99f34c126322861d86789cd1663b6881917ac51c drm/amdgpu: Fix potential fence use-after-free v2
+0acecb73ab23a2ad23f7b3d04225aaf87b102219 !4004  ext4: fix some ext4_lblk_t overflow issues
+53ed4dfbf0635f2ed4e6db8b4780b2c5144715d3 !4205 [sync] PR-4203:  mm/dynamic_hugetlb: skip unexpected migration
+6dc91895ed95f864d10b7452580277832c8e7305 !4222 [sync] PR-4213:  netlink: fix potential sleeping issue in mqueue_flush_file
+02a6e26b630dd1dea36249c23d0b8b5393c7e00a tcp: make sure init the accept_queue's spinlocks once
+f585c0ea562f84fb065f095f5f80132539525d0f ipv6: init the accept_queue's spinlocks in inet6_create
+cab37ff1ffe56e7a9acf64f155dbac561a13d0b1 nfc: nci: fix possible NULL pointer dereference in send_acknowledge()
+a02aafee8072af875ecb8c8584a6634ede9b6fa8 fs:/dcache.c: fix negative dentry limit not complete problem
+5fd15fee01abdf5682f93db7f6879414453da12c !4263 [sync] PR-4255:  drm/amdgpu: Fix potential fence use-after-free v2
+5b518b98af597ae72547022b58f2b1e8897d65fa ksmbd: fix slab-out-of-bounds in smb_strndup_from_utf16()
+ed7103b81da118f43d3335b00a85a9fef9c1c15d !4285 [sync] PR-4257:  nfc: nci: fix possible NULL pointer dereference in send_acknowledge()
+7f388a996eecbd81056eacac997e8ce1db4373ac !4289  fs:/dcache.c: fix negative dentry limit not complete problem
+7a501b80026ff5cbb391c4b2b5ece9a4a99d364a Revert "mtd/ubi/block: Fix uaf problem in ubiblock_cleanup"
+90987c36353f17a18ca1c7b7efbb902dc3305c4b ubi: block: Fix use-after-free in ubiblock_cleanup
+7d680ce7c53b0390127e1b4584008c7c0cf43433 ubifs: fix possible dereference after free
+be76fd8b9f2a10f71103aaf5c666a583ba79174c !4324 [sync] PR-4266:  ksmbd: fix slab-out-of-bounds in smb_strndup_from_utf16()
+344a5a864b14fbc057e6a3b676cd733514f80596 !4348 [sync] PR-4268:  linux Mainline ubifs Fix Patch bacnport to 5.10
+ea4700a6b09c7ea8e565c8e500ed3d92b31bf5d3 !4225 [sync] PR-4149:  block: remove precise_iostat
+ef7b78e39617c867eda95735901b84aed6d03087 !4180 [sync] PR-3955:  drm/radeon: possible buffer overflow
+8676a15ec057df469cb13b647f7e897d108c9480 !4232 [sync] PR-4010:  drm/amd/display: Exit idle optimizations before attempt to access PHY
+e52f1121818eb17016fa95c07ca4ee54b35190ce !4185 [sync] PR-4012:  drm/amdgpu: Fix a null pointer access when the smc_rreg pointer is NULL
+e5b2fa923b7850d9f3fc4b0914f8739bfd9fbf31 !4233 [sync] PR-4013:  drm/amdgpu: correct chunk_ptr to a pointer to chunk.
+bcb0e2a869286e7ac349d3e981e6fdd6705d058b !4190 [sync] PR-4014:  drm/dp_mst: Fix NULL deref in get_mst_branch_device_by_guid_helper()
+775d81b5af8f2edd4db16a5cdbd16f968b37960c !4193 [sync] PR-4015:  drm/amdgpu: correct the amdgpu runtime dereference usage count
+4a0bb0a4d67ede9b06603944c268ba4b24df692a !3155  backport Broadcom NIC driver patches
+1b9bd5c73ae094c4a95c1a3f28bdf087dcde8af1 !4240 [sync] PR-3228:  net: txgbe: Fix memleak in txgbe_calc_eeprom_checksum()
+aa0a1a8336c246b5f801f36b7ffa5ae7d06b8c3e !4281 [sync] PR-4270:  fix spinlock already unlocked in inet_csk_reqsk_queue_add' bug
+48c21bafebfd5a63a4b3860de15f2ed6a1a80d5f !3858 [sync] PR-3756:  md: mainline backport
+d8cecf126091e32a0fbb3e9301b4aa546af77e7d drm/atomic: Fix potential use-after-free in nonblocking commits
+13edc4abf995e317e31ce20e0d5003a4c49e56f8 !4117 [sync] PR-3975:  md/raid1-10: limit the number of plugged bio
+b226f15658150a8d922c81ae4115cff2368495ca io_uring/af_unix: disable sending io_uring over sockets
+a77f3ab8fa76d5223bd25b22624c1a8760026a6e !4422 v2  drm/atomic: Fix potential use-after-free in nonblocking commits
+385ff2185c0c9653e39e129529dd54aada092a74 !4095 [sync] PR-4090:  ida: Fix crash in ida_free when the bitmap is empty
+3f85bc3deab025d53a7c6fedb379fff1c291f3bc ubifs: Queue up space reservation tasks if retrying many times
+fa447ef9fffce05082aa6ecbc266e013416df876 !4446 [sync] PR-4321:  io_uring/af_unix: disable sending io_uring over sockets
+6b4b08cf0b18ddcb49bbe3ffef1741fdf3865d3a !4497 [sync] PR-4362:  ubifs: Queue up space reservation tasks if retrying many times
 
---===============7464767331815917071==--
+--===============7002657007809031198==--
