@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6121001068200959494=="
+Content-Type: multipart/mixed; boundary="===============6334656195204653150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
-Date: Tue, 06 Feb 2024 15:08:03 -0000
-Message-Id: <170723208304.16469.12072776428690706563@gitolite.kernel.org>
+Date: Tue, 06 Feb 2024 15:08:08 -0000
+Message-Id: <170723208854.16565.2400881916261332917@gitolite.kernel.org>
 
---===============6121001068200959494==
+--===============6334656195204653150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-hsi
 user: sre
 changes:
-  - ref: refs/heads/for-next
-    old: fa72d143471d04ce3055d8dad9743b08c19e4060
+  - ref: refs/heads/fixes
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: 6613476e225e090cc9aad49be7fa504e290dd33d
-    log: revlist-fa72d143471d-6613476e225e.txt
+    log: revlist-b85ea95d0864-6613476e225e.txt
 
---===============6121001068200959494==
+--===============6334656195204653150==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fa72d143471d-6613476e225e.txt
+Content-Disposition: attachment; filename=revlist-b85ea95d0864-6613476e225e.txt
 
 4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
 1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1051,4 +1051,4 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
 
---===============6121001068200959494==--
+--===============6334656195204653150==--
