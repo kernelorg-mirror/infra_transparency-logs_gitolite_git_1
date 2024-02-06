@@ -1,51 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============0299327583242750984=="
+Content-Type: multipart/mixed; boundary="===============5403880515277856437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 06 Feb 2024 10:14:21 -0000
-Message-Id: <170721446145.14462.4219204202172833486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Tue, 06 Feb 2024 10:17:15 -0000
+Message-Id: <170721463545.17206.2758586389632079638@gitolite.kernel.org>
 
---===============0299327583242750984==
+--===============5403880515277856437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/review-ilpo
-    old: 682c259a849610c7864cc75d52415c782c78653a
-    new: 197b980644eae1184844d451d10fe3ea51c7597d
+  - ref: refs/heads/for-next
+    old: c5322f244bbc3cc5f84fe89d5a20e35d1ecc3ca7
+    new: b57058d218ccb203a334806dd326bd46988439d4
     log: |
-         6468e64ee380514b331ccb743fa491b23cd8b4dd platform/x86: wmi: Stop using ACPI device class
-         24b10e5f8e0d2bee1a10fc67011ea5d936c1a389 platform/x86: hp-wmi: Tidy up module source code
-         3a057bf30e044a51af8e6a8fe8cbfac49e2b9bc5 platform/x86: hp-wmi: Add thermal profile support for 8BAD boards
-         10fdfd13a35994ac1dcc3003d4046cb1955e66a8 platform: x86: wmi: make wmi_bus_type const
-         41b43c75121208a9e4e84fd148f918bddb3f5d1f platform: x86: ibm_rtl: make rtl_subsys const
-         197b980644eae1184844d451d10fe3ea51c7597d platform/surface: aggregator_registry: add entry for fan speed
+         9a5dbb835fd396c78da34b26ee91db6d529d096d ARM: dts: samsung: exynos5420-galaxy-tab: decrease available memory
+         b57058d218ccb203a334806dd326bd46988439d4 Merge branch 'next/dt' into for-next
+         
+  - ref: refs/heads/next/dt
+    old: 497b447cf89b87c8fb0d0b27994258ed18ac355e
+    new: 9a5dbb835fd396c78da34b26ee91db6d529d096d
+    log: |
+         9a5dbb835fd396c78da34b26ee91db6d529d096d ARM: dts: samsung: exynos5420-galaxy-tab: decrease available memory
          
 
---===============0299327583242750984==
+--===============5403880515277856437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1707214454 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1707214454-64ae4ad467f76968a3bb7edcedad7dfd55076662
+pusher krzk@kernel.org 1707214633 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1707214633-d7592b4de4d8a7a60da1007a255b0d429cdb45a3
 
-682c259a849610c7864cc75d52415c782c78653a 197b980644eae1184844d451d10fe3ea51c7597d refs/heads/review-ilpo
+c5322f244bbc3cc5f84fe89d5a20e35d1ecc3ca7 b57058d218ccb203a334806dd326bd46988439d4 refs/heads/for-next
+497b447cf89b87c8fb0d0b27994258ed18ac355e 9a5dbb835fd396c78da34b26ee91db6d529d096d refs/heads/next/dt
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZcIGewAKCRBZrE9hU+XO
-MRVcAP0X5ThhUgn5BDHJ3NKVa8N+6/Owja56ZirdjmHbo8ClFgD/SUe9hcpD7JBJ
-dBlfirEMlTUmZNBBeCZxWJivG5XRPg0=
-=saVM
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmXCBykQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD15T5D/4mJ41DjN2JkHMUwaxandDaDbY2i1a6ezvl
+1MvD+Nq6YcpAm0GrVPIbHLn+VrWdg4MhXyLxbJ946b4k1zFT7vKfH8/FrA3UwelK
+NBf//wbPqzDo+oT1wCTDDRZeIIMDWXa2UTA7hrI45BGv8B0Ydvr88euBq9FxyWJu
+G7KVil87YPry3MK7n7VtckpF5dzW6WhcXZeBmJoJ3HgbBykQxf902Lw4HxMmRtb2
+cR0Gkd1857leDY3+JAKgeDGKT2q0eSoJVSYB5KPQvXDzzPJSFBILL28S7szwJAEw
+TGoUm8qNXQf2EqKAJ3vyArc5w6cQ4LGP+Povzr2SczVZa1uH7Zn+LDSwDIPHHWXv
+HmjsJyhus4SN+vhjbajbS7hzEP+y8mlIaSH0H2RXRcimt5D5KWWiQCbMeYhAitfK
+IRjlSniQpPi1XvOntrgViDNxQRKlcW0xVsuYARYdQxPre5wRPHoRamIwc3pM2y9h
+73ic6LW6lY4sG2Wudrxd2doPLngAGi1LhKeUfWMwA8V3fFDvxreVEKAbB0AHEmYT
+VEosl1enrAJ/LS0S0JL5vlEVLX8216Sp8lFcYQZOv/UFjl40H/55Lx7JXdczdxRr
+hUlpL+bqcb7rSrzUbteGxpFRpM8dC5izFBu4HLYiR+f0zrCNvuUlGOuU3uVQomE3
+MUkb9BPlLA==
+=zmNH
 -----END PGP SIGNATURE-----
 
---===============0299327583242750984==--
+--===============5403880515277856437==--
