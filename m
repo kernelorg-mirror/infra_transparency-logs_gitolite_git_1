@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2320211292864954105=="
+Content-Type: multipart/mixed; boundary="===============8484884132171005585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 06 Feb 2024 18:34:27 -0000
-Message-Id: <170724446762.25713.15356368294585687730@gitolite.kernel.org>
+Date: Tue, 06 Feb 2024 18:35:03 -0000
+Message-Id: <170724450317.26952.8363642307646070282@gitolite.kernel.org>
 
---===============2320211292864954105==
+--===============8484884132171005585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/topic/renesas-overlays
+  - ref: refs/heads/topic/renesas-overlays-v6.7-rc1
     old: b50f899602738986cbd30e8a61436181c32fee63
     new: 0561374d806b07f6b38b8dfa428558fda99fd290
     log: revlist-b50f89960273-0561374d806b.txt
 
---===============2320211292864954105==
+--===============8484884132171005585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -155,4 +155,4 @@ b9614a9275e28ed720da3605fd55aaf0b2f75be6 arm64: dts: renesas: whitehawk: cn34: A
 48fbe4ac522e9ebf1f639ffb0f6f61a9eff08a2e arm64: dts: renesas: whitehawk: cp55/57/58: Add overlay for PWM
 0561374d806b07f6b38b8dfa428558fda99fd290 arm64: dts: renesas: whitehawk-cpu: Add overlay for CP97/98
 
---===============2320211292864954105==--
+--===============8484884132171005585==--
