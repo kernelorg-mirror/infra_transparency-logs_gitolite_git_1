@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0506553785277659420=="
+Content-Type: multipart/mixed; boundary="===============7606166890674270663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 06 Feb 2024 07:53:34 -0000
-Message-Id: <170720601423.32301.13091970887814635096@gitolite.kernel.org>
+Date: Tue, 06 Feb 2024 07:53:52 -0000
+Message-Id: <170720603243.32520.14619939297284423328@gitolite.kernel.org>
 
---===============0506553785277659420==
+--===============7606166890674270663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: a34fc8c7361c4abb7474a77ce907065db371657f
-    new: 3f90ac7138edb995b4312221647b58afcc15ec06
-    log: revlist-a34fc8c7361c-3f90ac7138ed.txt
+  - ref: refs/heads/for-next
+    old: 890d900e7fec7f7956c26bd47b4f0f07a0a507b1
+    new: 59828c7b5975f442ad5bb74a031fe388341f323e
+    log: revlist-890d900e7fec-59828c7b5975.txt
 
---===============0506553785277659420==
+--===============7606166890674270663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a34fc8c7361c-3f90ac7138ed.txt
+Content-Disposition: attachment; filename=revlist-890d900e7fec-59828c7b5975.txt
 
 a977c8158a42146dcb0f25c5ce8e1122d781b845 scsi: 3w-9xxx: Remove snprintf() from sysfs call-backs and replace with sysfs_emit()
 7eaa48e9e497ecdddfbcd9323520908d6239a498 scsi: 3w-sas: Remove snprintf() from sysfs call-backs and replace with sysfs_emit()
@@ -56,5 +56,11 @@ b72f2d149e24747ff686c21b44e04762fc9d3a2f scsi: sr: Have midlayer retry get_secto
 b8c3a7bac9b6cddeeb7cb82f3372310ecabf83ef scsi: ufs: Have midlayer retry start stop errors
 25a1f7a0a1fe6fa69a5370fbb5cc6dcf3726d81e scsi: core: Add kunit tests for scsi_check_passthrough()
 3f90ac7138edb995b4312221647b58afcc15ec06 Merge patch series "scsi: Allow scsi_execute users to request retries"
+4e6c9011990726f4d175e2cdfebe5b0b8cce4839 scsi: core: Move scsi_host_busy() out of host lock if it is for per-command
+d6c1b19153f92e95e5e1801d540e98771053afae scsi: lpfc: Use unsigned type for num_sge
+b513d30d59bb383a6a5d6b533afcab2cee99a8f8 scsi: ufs: core: Fix shift issue in ufshcd_clear_cmd()
+17e94b2585417e04dabc2f13bc03b4665ae687f3 scsi: ufs: core: Remove the ufshcd_release() in ufshcd_err_handling_prepare()
+1180c6b8730eda2b4485c90e970b17fc79ddeb97 Merge branch 'fixes' into for-next
+59828c7b5975f442ad5bb74a031fe388341f323e Merge branch 'misc' into for-next
 
---===============0506553785277659420==--
+--===============7606166890674270663==--
