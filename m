@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7336555801673181194=="
+Content-Type: multipart/mixed; boundary="===============3700260352683368685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 06 Feb 2024 12:08:06 -0000
-Message-Id: <170722128601.14708.11602136573782937845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 06 Feb 2024 12:08:12 -0000
+Message-Id: <170722129230.14793.10706703676395389722@gitolite.kernel.org>
 
---===============7336555801673181194==
+--===============3700260352683368685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/asoc-6.8
     old: 34a1066981a967eab619938e7b35a9be6b4c34e1
     new: 610010737f74482a61896596a0116876ecf9e65c
     log: |
          610010737f74482a61896596a0116876ecf9e65c ASoC: amd: yc: Add DMI quirk for Lenovo Ideapad Pro 5 16ARP8
          
 
---===============7336555801673181194==
+--===============3700260352683368685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1707221284 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1707221284-c00332d26e85ab6bef13bb237fae8d3a00dfc150
+pusher Mark Brown <broonie@kernel.org> 1707221291 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1707221290-4f132f6a1c05f4d0c61620af8f67ddbbe308ab5f
 
-34a1066981a967eab619938e7b35a9be6b4c34e1 610010737f74482a61896596a0116876ecf9e65c refs/heads/for-6.8
+34a1066981a967eab619938e7b35a9be6b4c34e1 610010737f74482a61896596a0116876ecf9e65c refs/heads/asoc-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXCISQTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0MouB/98sOcQPTLtBHexNzxGtYyrL2iNLAF1
-sYZ5zOWPqh1ZBnE1FfNLRs2mLbLKKdF1KHTbg7YOpjiXIgTRZwOxCgFs2Zu9JLNL
-x02boKZby+41F+1ql5RgUY45AX/vZliq0NGoxDSyahWr8uUm8v46/GQGYJxf8unZ
-OvpjMFyvD59Ps5rE0M5r+heZra5Y0ODEz0dyr9xO7eU1jNzmTfSJe/jObCO8wONZ
-Q4o7v5ExfBGj0v4BSzRORby4xOKn2dFV2AxN4ncZtknXOBN/c7/J+lvilSnDJnYp
-lHgYFtgShi1Hj8qjApde6lu1kotnENuj0d3oIljVclQyhL+co9GUV8GJ
-=tdlN
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXCISsTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0LL7B/9UZNohNaNJ4suQ8Ixh4d5gI/GXbs1r
+V4CBloLmW4z9OMBJ+dWhYP5Bh32c5fPMFBZIQihG2uaZ5eksDiQeZQhhOIiapHSB
+xikylOaoN2zpT60da/buiQcRS4vZXdbVavzmGN8FxoFotX8iMN9fyi/YuWkvBDUp
+2I9ZheAJG5K6OOkxxCsqdkHKGOS5G05exJloonYeL3sPOMTeukn/6/8cLAHhUcN9
+JSIpnOyb7o55y7De4Ayc5jZBXxz585DfBixfgZXWuJd6TB8FIJADJbU6+qvXxT+e
+u1Cx/F4gwzuNwcWsxiVlCfcGvSFMJf4ZwnGRGSoeszc5asETGhQzeZ95
+=i7BX
 -----END PGP SIGNATURE-----
 
---===============7336555801673181194==--
+--===============3700260352683368685==--
