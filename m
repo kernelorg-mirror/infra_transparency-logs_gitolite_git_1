@@ -1,31 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============3703986505678582774=="
+Content-Type: multipart/mixed; boundary="===============5207723250510994766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
-Date: Tue, 06 Feb 2024 15:06:48 -0000
-Message-Id: <170723200805.14555.16941545616242285372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
+Date: Tue, 06 Feb 2024 15:07:45 -0000
+Message-Id: <170723206522.16244.8030662087270073611@gitolite.kernel.org>
 
---===============3703986505678582774==
+--===============5207723250510994766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mhiramat/linux
-user: mhiramat
+repo: pub/scm/linux/kernel/git/sre/linux-hsi
+user: sre
 changes:
-  - ref: refs/heads/topic/fprobe-on-fgraph
-    old: 316fc441b5a594420019c75052677527ebf7414c
-    new: 16faadea75ebaf7a228a30f1424387cac61e478e
-    log: revlist-316fc441b5a5-16faadea75eb.txt
+  - ref: refs/heads/master
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
+    new: 6613476e225e090cc9aad49be7fa504e290dd33d
+    log: revlist-b85ea95d0864-6613476e225e.txt
 
---===============3703986505678582774==
+--===============5207723250510994766==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-316fc441b5a5-16faadea75eb.txt
+Content-Disposition: attachment; filename=revlist-b85ea95d0864-6613476e225e.txt
 
+4d4e1b6319e5c4425ea3faeaf9a10b8b4c16c1e1 ASoC: mediatek: mt8192: Check existence of dai_name before dereferencing
+1dee7f509db20402a25be94003f8f1ac3e17bdc1 Merge tag 'edac_updates_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+6e0b939180fcd2658d2eb8e5bfa4192d1bc32fad Merge tag 'x86_microcode_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+41a80ca4ae2de711e04b399f614f676daf72d938 Merge tag 'x86_misc_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fc5e5c5923407b4b312d999af27aaddbdd33c790 Merge tag 'x86_paravirt_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e54478fbdad20f2c58d0a4f99d01299ed8e7fe9c Merge tag 'amd-drm-next-6.8-2024-01-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
+fd37721803c6e73619108f76ad2e12a9aa5fafaf mm, treewide: introduce NR_PAGE_ORDERS
+5e0a760b44417f7cadd79de2204d6247109558a0 mm, treewide: rename MAX_ORDER to MAX_PAGE_ORDER
+e900042f04848b5be9238d866df0952cfc548cf9 Merge tag 'x86_sev_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+bef91c28f28fe8a36b91e9a39f60054ae1874280 Merge tag 'x86_cpu_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3edbe8afb617a736ae0dcc877311bdb112a00123 Merge tag 'ras_core_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+968b80332432172dbbb773e749a43bdc846d1a13 Merge tag 'powerpc-6.8-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+3cf1d6a5fbf3f724d12b01635319924239d42c00 Merge tag 'm68k-for-v6.8-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
+ab5f3fcb7c72094684760e0cd8954d8d570b5e83 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+c3a11c0ec66c1e0652e3a2bb4f5cc74eea0ba486 cifs: delete unnecessary NULL checks in cifs_chan_update_iface()
+33034c4f9497b7fe33b0d97740a4bf1c0552316b Merge tag 'x86-apic-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+106b88d7a91e2b4d40369a20b8ef07bb827dafd5 Merge tag 'x86-asm-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f73857ece4d85d2ee36571df9c13a733f3ba2732 Merge tag 'x86-boot-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+42c371f8ec4296cee49b10d8e6be50aae90f2d70 Merge tag 'x86-build-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b51cc5d02834a9c38cfd95b00b7d981b701b13f9 Merge tag 'x86-cleanups-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+33677aef32cf07ebbed07647e88136258c4b95ba Merge tag 'x86-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+2fdbcf715a1b9dd1468317f7cd4b4cd327a09781 Merge tag 'x86-entry-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f0a78b3e2a0c842cc7b4c2686f4a35681f02ca72 arm64: Update __NR_compat_syscalls for statmount/listmount
+6cbf5b3105f31217053570e7ca722b739a9242a4 Merge tag 'locking-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+669d089a7fe1eacf4e86160297f32c678ee71ec5 Merge tag 'objtool-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+ab9517fa9aab71e312c7acc6fefefe080db3c972 Merge tag 'core-debugobjects-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+cdc202281a5d5e2c4bbbbf78bbd68f035a49421a Merge tag 'core-entry-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+46a08b4d4836c721e012ff4c542a8baa8baa3594 Merge tag 'smp-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f24dc33f8e0a765bf9bdf1c190ae5b9a23343d65 Merge tag 'timers-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b59db45d7eba9894e7834d768ec4236fca39bd7d tcp: Revert no longer abort SYN_SENT when receiving some ICMP
+1ef4cacaae2f907db79faea4110ef90545467b7c bnxt_en: Remove unneeded variable in bnxt_hwrm_clear_vnic_filter()
+fd7769798de8a3748c286da65d7e32437f9854bf bnxt_en: Fix RCU locking for ntuple filters in bnxt_srxclsrldel()
+d8214d0f0135010acf7205c646cda31601bbb7ad bnxt_en: Fix RCU locking for ntuple filters in bnxt_rx_flow_steer()
+1c835c81eb5c2ca12bc3d0fdc448ba229694d47f Merge branch 'bnxt_en-ntuple-filter-fixes'
+5733d139a6745382c733020c7d60a1cf9fb1fc29 lan743x: remove redundant statement in lan743x_ethtool_get_eee
+9b0f510971470b495a707a4475d5a065c6e4d1f6 lan78xx: remove redundant statement in lan78xx_get_eee
+0bdf0621f89f87858ca26344378188eff194eddd Merge tag 'irq-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+aac4de465af08ccec90ef47bdcc13435e48a7223 Merge tag 'perf-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+c12ca110c613a81cb0f0099019c839d078cd0f38 PCI: keystone: Fix race condition when initializing PHYs
+bfe8eb3b85c571f7e94e1039f59b462505b8e0fc Merge tag 'sched-core-2024-01-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9f8413c4a66f2fb776d3dc3c9ed20bf435eb305e Merge tag 'cgroup-for-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+8d606c311b75e81063b4ea650b301cbe0c4ed5e1 cifs: make cifs_chan_update_iface() a void function
+a3f763fdcb2f784c355aed66ddac6748ff8dbfa6 cifs: remove unneeded return statement
+6db359b5eef5de3d5fbf4cb412958186850df106 soc: pxa: ssp: fix casts
+40974ee421b4d1fc74ac733d86899ce1b83d8f65 ARM: davinci: always select CONFIG_CPU_ARM926T
+dd1d4bd6e5cfd6a6ad51d3123895e34cf36ab31b ARM: multi_v7_defconfig: Enable STM32 IPCC mailbox driver
+a4c7d794ac16224e5f86f359e65b89d5d8aad3bf tpm: nuvoton: Use i2c_get_match_data()
+2b6fad7a900d2a378b475e5c196c146fb71856be tpm: cr50: fix kernel-doc warning and spelling
+8ead196be219adade3bd0d4115cc9b8506643121 apparmor: Fix memory leak in unpack_profile()
+125c0a646a257fd58de223f2c3e1fe8a99085644 xen: update PV-device interface headers
+f1479f0a4f53ef4fc12108a59caee61c39bc6843 xen/xenbus: client: fix kernel-doc comments
+7e72fc41d4243800206ff76615cfebb15d632027 thermal: netlink: Pass pointers to thermal_notify_tz_trip_change()
 f52557edf0648b471e2006f9377ea0ba4f73f9b2 thermal: netlink: Pass pointers to thermal_notify_tz_trip_up/down()
 4ae535f37d0e3c5731f90c385e883c0bada59fc9 thermal: netlink: Drop thermal_notify_tz_trip_add/delete()
 2f521890aa5b8a5619d31a95caec0b08d4cb9e1a thermal: netlink: Pass thermal zone pointer to notify routines
@@ -998,57 +1050,5 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-2b44760609e9eaafc9d234a6883d042fc21132a7 tracing: Ensure visibility when inserting an element into tracing_map
-834bf76add3e6168038150f162cbccf1fd492a67 eventfs: Save directory inodes in the eventfs_inode structure
-0958b33ef5a04ed91f61cef4760ac412080c4e08 tracing/trigger: Fix to return error if failed to alloc snapshot
-29142dc92c37d3259a33aef15b03e6ee25b0d188 tracefs: remove stale 'update_gid' code
-66bbea9ed6446b8471d365a22734dc00556c4785 ring-buffer: Clean ring_buffer_poll_wait() error return
-d81786f53aec14fd4d56263145a0635afbc64617 tracefs: Zero out the tracefs_inode when allocating it
-4fa4b010b83fb2f837b5ef79e38072a79e96e4f1 eventfs: Initialize the tracefs inode properly
-99c001cb617df409dac275a059d6c3f187a2da7a tracefs: Avoid using the ei->dentry pointer unnecessarily
-49304c2b93e4f7468b51ef717cbe637981397115 tracefs: dentry lookup crapectomy
-408600be78cdb8c650a97ecc7ff411cb216811b5 eventfs: Remove unused d_parent pointer field
-8dce06e98c70a7fcbb4bca7d90faf40522e65c58 eventfs: Clean up dentry ops and add revalidate function
-43aa6f97c2d03a52c1ddb86768575fc84344bdbb eventfs: Get rid of dentry pointers without refcounts
-7f7e5d4de51f1ab6659a0e4435afa90ac222ae13 eventfs: Warn if an eventfs_inode is freed without is_freed being set
-38cda92eb967b9bd422fc5d883eeca6e96819478 eventfs: Restructure eventfs_inode structure to be more condensed
-ed202b26ea73541be57558aa067dbe691abfc94a eventfs: Remove fsnotify*() functions from lookup()
-e2412e51fdea837b50ce31fea8e5dfc885237f3a eventfs: Keep all directory links at 1
-bc7df320decb8ec30746af16f9c904d4ec2ea44e ftrace: Fix DIRECT_CALLS to use SAVE_REGS by default
-6814b2673bcfc5791616d5c90132b7027bd433b0 tracing: Add a comment about ftrace_regs definition
-bfaa43d8b65ace3846e3d815c418f6d1955e4025 tracing: Rename ftrace_regs_return_value to ftrace_regs_get_return_value
-a17127cde8e1bb9d3de8ab3052d1ff24bc5a6a41 x86: tracing: Add ftrace_regs definition in the header
-237814cde9e81c3de20ed3fe135e2e5a6bedcbaf function_graph: Convert ret_stack to a series of longs
-cd51e6e303f6366f39f325b3c2f0b54115bd1c78 fgraph: Use BUILD_BUG_ON() to make sure we have structures divisible by long
-5ca263372a3ef49ffba31d4fd019e83d52c2d81d function_graph: Add an array structure that will allow multiple callbacks
-3dc08bce956f4dbb651a863fce0e04e89ece5fd2 function_graph: Allow multiple users to attach to function graph
-347f878a8a517fb32f56ee00a87c9649b2391061 function_graph: Remove logic around ftrace_graph_entry and return
-3b6fb107b16335684e7b690f6da606252a66ba47 ftrace/function_graph: Pass fgraph_ops to function graph callbacks
-e664d8ca22f81332f2fdb8646fb97d5d209479ac ftrace: Allow function_graph tracer to be enabled in instances
-27aa95524aba15941007398366b0b24eebd9e20b ftrace: Allow ftrace startup flags exist without dynamic ftrace
-83bf31855f46d3518ed42295c912c11d593bed59 function_graph: Have the instances use their own ftrace_ops for filtering
-357fcc49826d4a09154bfecb6932566d3896bc77 function_graph: Use a simple LRU for fgraph_array index number
-87f2b01a2af809b3c6e4c80b39619111f4fc3cb4 function_graph: Add "task variables" per task for fgraph_ops
-766b85731094bf283ee86b702cda0bb70f695661 function_graph: Move set_graph_function tests to shadow stack global var
-b34d7307f3fde61f92df443ee3a06cefe3c6392b function_graph: Move graph depth stored data to shadow stack global var
-2ed087a7a4a79bea3ec378c8ca9814c1f9753119 function_graph: Move graph notrace bit to shadow stack global var
-99dd35c9edb2ad48873f8d66e9989020b385f300 function_graph: Implement fgraph_reserve_data() and fgraph_retrieve_data()
-89d12fbf6e0ed605adf5f180e37d0b46b3597cc2 function_graph: Improve push operation for several interrupts
-6325d12ce2ae5da32af4768a9ccafacbe6334187 function_graph: Add selftest for passing local variables
-500b4dba7f1ad3aa7f35bf514abdca2c02a76f7a function_graph: Add a new entry handler with parent_ip and ftrace_regs
-05614fdfbec529a5d552d3e21e8372064cd1dc4b function_graph: Add a new exit handler with parent_ip and ftrace_regs
-59bc43a18d06777bd9a0a4a154c4b17d29e23bba x86/ftrace: Enable HAVE_FUNCTION_GRAPH_FREGS
-40441a3919abe5046c4203b4d77b35e0e53c4029 arm64: ftrace: Enable HAVE_FUNCTION_GRAPH_FREGS
-43b2e53dda9e6c6dd39a27b4f3164ea785754a48 fprobe: Use ftrace_regs in fprobe entry handler
-0bdaf5dd3eeb00d5edc591039085c073862342f3 fprobe: Use ftrace_regs in fprobe exit handler
-69694c23399e3e1be92e55abd54133e3dd493fe5 tracing: Add ftrace_partial_regs() for converting ftrace_regs to pt_regs
-87df5afe69f5ddd3221542cb06679c6a6656bea5 tracing: Add ftrace_fill_perf_regs() for perf event
-38a6de42fb3df095a9beee9d8c7ebf026044b027 tracing/fprobe: Enable fprobe events with CONFIG_DYNAMIC_FTRACE_WITH_ARGS
-604699e2079f1456a2032bb72462b9ac384b580a bpf: Enable kprobe_multi feature if CONFIG_FPROBE is enabled
-d973b3a5a584e99b21efa3d041c939cadccac4be fprobe: Rewrite fprobe on function-graph tracer
-b2e5a18e4c3732d75707aa53273fca8429952911 tracing/fprobe: Remove nr_maxactive from fprobe
-c3c1c2c65d6e74b6af10d61e2a082446ae56f26f selftests: ftrace: Remove obsolate maxactive syntax check
-f27c6f96c60c1efb3632ccab828cdf531d6c3c50 selftests/ftrace: Add a test case for repeating register/unregister fprobe
-16faadea75ebaf7a228a30f1424387cac61e478e Documentation: probes: Update fprobe on function-graph tracer
 
---===============3703986505678582774==--
+--===============5207723250510994766==--
