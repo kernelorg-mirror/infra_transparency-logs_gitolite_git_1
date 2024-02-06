@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Tue, 06 Feb 2024 23:35:33 -0000
-Message-Id: <170726253391.19556.15514172948301956927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Tue, 06 Feb 2024 23:38:10 -0000
+Message-Id: <170726269084.21864.13287625452057888482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/meta/cgit
-    old: f0d6bed4a6b7a6adc4f11b46499f3723d9b83a6b
-    new: 473cbc4fb9f02ab13ca2cafaf64985ec0891b460
+  - ref: refs/heads/renesas/sdhi/tmio-simplification
+    old: cccb4dda1ee496a1baabb6283db1e5f52808b706
+    new: e76faac904b7f8ce23a72c618ccb3d2a51a5c0fc
     log: |
-         473cbc4fb9f02ab13ca2cafaf64985ec0891b460 update base for for-linus and for-next to 6.8-rc3
+         bf3b60b9f69f18f0166866a7bda9d2df63664e86 mmc: tmio/sdhi: fix includes
+         a2c73da7ab127ec78aea4104067c23d651ef3967 mfd: tmio: update include files
+         c3624a035f2a9cc7f5de63173c166ee7ee968de2 mfd: tmio: sanitize comments
+         e76faac904b7f8ce23a72c618ccb3d2a51a5c0fc mfd: tmio: move header to platform_data
          
