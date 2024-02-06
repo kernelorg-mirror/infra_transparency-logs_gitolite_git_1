@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8102708685203011529=="
+Content-Type: multipart/mixed; boundary="===============0173899713160509627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Tue, 06 Feb 2024 14:49:47 -0000
-Message-Id: <170723098749.1922.7321368593174849739@gitolite.kernel.org>
+Date: Tue, 06 Feb 2024 14:51:18 -0000
+Message-Id: <170723107881.4196.4669897344171882017@gitolite.kernel.org>
 
---===============8102708685203011529==
+--===============0173899713160509627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 4eb42afed5d488c4707be5362e8e0f0771f5218e
-    new: 1e6bbc5185bcd113c8d2f7aa0a02f588a6bdbe5d
-    log: revlist-4eb42afed5d4-1e6bbc5185bc.txt
+  - ref: refs/heads/ti-next
+    old: 8f722faaf1ec2059dedfcfcc097c38bb5f2351d5
+    new: bc805e337f696a9b96f5019a676333c04938178a
+    log: revlist-8f722faaf1ec-bc805e337f69.txt
 
---===============8102708685203011529==
+--===============0173899713160509627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4eb42afed5d4-1e6bbc5185bc.txt
+Content-Disposition: attachment; filename=revlist-8f722faaf1ec-bc805e337f69.txt
 
 01e886c4dfdacc2956d9857a3b5c985ea74e9ddd arm64: dts: ti: Use https for urls
 89bd4c373649b81d4255d9c5a3e49d3fd10df708 arm64: dts: ti: k3-am62a7: Add MIT license along with GPL-2.0
@@ -42,5 +42,6 @@ b87c44dd974e13aab1d0a9a01a5f94f1fe5fd1fb arm64: dts: ti: k3-j7200: Add MIT licen
 049010c9604f87568ae59ee5ea1b885ece19e6c6 arm64: dts: ti: phycore*: Add MIT license along with GPL-2.0
 c32953cf00a5ab9059483d825f866a528ad80460 arm64: dts: ti: iot2050*: Clarify GPL-2.0 as GPL-2.0-only
 1e6bbc5185bcd113c8d2f7aa0a02f588a6bdbe5d arm64: dts: ti: Makefile: Clarify GPL-2.0 as GPL-2.0-only
+bc805e337f696a9b96f5019a676333c04938178a Merge branch 'ti-k3-dts-next' into ti-next
 
---===============8102708685203011529==--
+--===============0173899713160509627==--
