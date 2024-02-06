@@ -1,115 +1,89 @@
-Content-Type: multipart/mixed; boundary="===============6553522035830990101=="
+Content-Type: multipart/mixed; boundary="===============0848819483340055563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Tue, 06 Feb 2024 16:56:13 -0000
-Message-Id: <170723857369.11726.6525599026368846137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 06 Feb 2024 17:13:36 -0000
+Message-Id: <170723961645.24220.10106687818475870069@gitolite.kernel.org>
 
---===============6553522035830990101==
+--===============0848819483340055563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-user: colyli
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/openEuler-22.03-LTS-SP2
-    old: e53af80d1e34c8f1f6de80f519619e22f4662f49
-    new: 8b0ef4f265af79b47989995e44e9eadc4695fa4d
-    log: revlist-e53af80d1e34-8b0ef4f265af.txt
+  - ref: refs/heads/vfs.all
+    old: 05964d0a843c634a8f2e03651b7bb7f47cfe06da
+    new: 23b006406f6bf12029e0104c0586c903d154cec6
+    log: revlist-05964d0a843c-23b006406f6b.txt
 
---===============6553522035830990101==
+--===============0848819483340055563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e53af80d1e34-8b0ef4f265af.txt
+Content-Disposition: attachment; filename=revlist-05964d0a843c-23b006406f6b.txt
 
-cc470794bbf23a79abcb908959789e377f133aa8 md: fix double free of mddev->private in autorun_array()
-64e25af65d0e3d1a08eff2341ff39613c4b1627b md: use msleep() in md_notify_reboot()
-95165e05dcb810a1009838b46019cd54d03fcd07 md/raid10: fix improper BUG_ON() in raise_barrier()
-d2c20edb09a9c9c031b59a95143631ccf626f864 md: convert to blk_alloc_disk/blk_cleanup_disk
-a2c62d8e69b1b464ee716052f48266b2bfded5a4 md: add error handling support for add_disk()
-ba3b22849350b4c7a3d2b4ea15ad2788af56f6cf md: add the bitmap group to the default groups for the md kobject
-b0e1cf3d82e174e0bf51f848c5582b14d101b166 md: extend disks_mutex coverage
-0d1ad45e18565eac71d9daa71f03a4fcd843c5ae md: properly unwind when failing to add the kobject in md_alloc
-db08dffdae0e9874c3f84eba04de2c0602efc753 md: fix mddev->kobj lifetime
-024dc8ecc16d6732cdaa8e9af9c0798fa9edab7f md: Constify attribute_group structs
-73acaff54b7391575cbff86490d079ff825fc529 md: fix error handling in md_alloc
-71512bc01d82a529360f9ff00547b859f6a7b819 ext4: add two helper functions extent_logical_end() and pa_logical_end()
-ee4c16fc7de497d38aede1b7ead1ece875093345 ext4: fix BUG in ext4_mb_new_inode_pa() due to overflow
-c9877c5b5f0f955768f0cc871e12272b7eb59f57 ext4: avoid overlapping preallocations due to overflow
-8121bbf73873d96b90b4a59cd906bedf5eb649e7 ext4: prevent the normalized size from exceeding EXT_MAX_BLOCKS
-79b0d688b1313ec7bf56d6a372facc5ede687a5c ext4: correct return value of ext4_convert_meta_bg
-64a4ccb1ec214024773be583fefdad8e2fb7a52e ext4: reject casefold inode flag without casefold feature
-bf30b3ce980cc8491fae24dfc88cb4531c3bdfd5 ext4: improve error handling from ext4_dirhash()
-6863f976b0d989d32ae6da4c9396fe4b3b6356ff tipc: fix a potential deadlock on &tx->lock
-92b28c01e678be53235b68c30480da4bae2e0555 !4079 [sync] PR-4069:  tipc: fix a potential deadlock on &tx->lock
-d42a492b93bb5b9076c8b3a57afff9fc072c2ce8 ida: Fix crash in ida_free when the bitmap is empty
-0203e0e401a44585e2e342bb1cd0b4ba9c78ef2e Revert "md/raid10: fix softlockup in raid10_unplug"
-2c636ffa274d6c8b96a80722dc4727f568a2fdde md: drop queue limitation for RAID1 and RAID10
-4093144b4548942e146743bdfd3e96beb377fa94 md: raid1/raid10: drop pending_cnt
-d8aa28f1c1354f4e672227cc6480ed3fd7dd5c60 md/raid10: prevent soft lockup while flush writes
-45a10e2da70e4f07ff402a4192edde75d22571a2 md/raid1-10: factor out a helper to add bio to plug
-415d86ef5fe911d4b8aa35e31e031eea26758ff0 md/raid1-10: factor out a helper to submit normal write
-a5e16079b6c9c6f8acedc1583b647856d89a5e16 md/raid1-10: submit write io directly if bitmap is not enabled
-a73811078d77616304db630debd65de35b606c6d md/md-bitmap: add a new helper to unplug bitmap asynchrously
-baf87f5f3e68141b79772b9101ad352f95f813ca md/raid1-10: don't handle pluged bio by daemon thread
-eae0bdb9f24fe13cc0a1fc5f493f24277949fd3e md/raid1-10: limit the number of plugged bio
-83df35700b40b5b16e8256dd6e7abae863444087 md/raid1-10: fix casting from randomized structure in raid1_submit_write()
-ca4d1244d4fc83c5ce43f40653500f1c9137e911 netfilter: nf_tables: Reject tables of unsupported family
-c9f9d7276d7322e16ab0bc07131e28e1c024acc9 netfilter: nf_tables: fix pointer math issue in nft_byteorder_eval()
-387e36a1bd5e5540dc2d1abf092beb6b186bb627 !4059  ext4: synchronize the casefold bugfix from the mainline
-be7c7446700324c0fa84e8fa03216c68e84a8bdc !4057  ext4: correct return value of ext4_convert_meta_bg
-15640ae1ce9a18123e375a0c050c30c9d46804c1 !4127 [sync] PR-4022:  netfilter: nf_tables: Reject tables of unsupported family
-31ca0b66856b1857e442d9bf69510df02e8ce6a8 !4131 [sync] PR-4100:  netfilter: nf_tables: fix pointer math issue in nft_byteorder_eval()
-d7a31a261585e9798fb096aa4166a9f440a05b14 drm/radeon: possible buffer overflow
-b53891dafde205b7f721abe04c54830544d6c17d drm/amd/display: Exit idle optimizations before attempt to access PHY
-f9589653c9df95e8c7e01991bd5ada2ee516f9c5 drm/amdgpu: Fix a null pointer access when the smc_rreg pointer is NULL
-dde01e36acaf4750eb1aba984a01107345a82336 drm/amdgpu: correct chunk_ptr to a pointer to chunk.
-99ee83440f610f42ac46d5f01401bde4f45a0544 drm/dp_mst: Fix NULL deref in get_mst_branch_device_by_guid_helper()
-ede183228f2e693bd0f50fa2ca023f9b00e617c1 drm/amdgpu: correct the amdgpu runtime dereference usage count
-9145ef947af412dd2a060b8f4209125ba761ae82 mm/dynamic_hugetlb: skip unexpected migration
-e6340715ca680f3e9f95fb65d097c0ab1940139c netlink: fix potential sleeping issue in mqueue_flush_file
-f6448975d33e9af4bb8ad62647a23f11461fd27f block: remove precise_iostat
-c62b0e92b1ac0fafc849fbb2f4b93d650c8ef9a0 net: txgbe: Fix memleak in txgbe_calc_eeprom_checksum()
-cc4b5e034d134332a95601b6fb0be7966d663360 drm/amdgpu: Fix potential fence use-after-free v2
-fed6649f28741caaf328ba6d05fc49d1342f2a3d !3866  ext4: fix some ext4_lblk_t overflow issues
-275dc2b6b94b7ca9592a8f0e60f66d4818740404 !4207 [sync] PR-4203:  mm/dynamic_hugetlb: skip unexpected migration
-a5dd8358c7c984f3f8be2713db2185a79fcdbd06 Add MODULE_FIRMWARE() for FIRMWARE_TG357766.
-8902bc951f885eac4863044ccb4658402854b775 !4224 [sync] PR-4213:  netlink: fix potential sleeping issue in mqueue_flush_file
-e574d925e1bca219190984912ac38841ddea3c9f tcp: make sure init the accept_queue's spinlocks once
-7267f8febea367dff4283c2bff6c27fe1a2e9f22 ipv6: init the accept_queue's spinlocks in inet6_create
-baed3e0ae2aad3c9e87c596b71bab8ff14d461da nfc: nci: fix possible NULL pointer dereference in send_acknowledge()
-660b0ac1658b7516bd122258da30635831c31e08 !4265 [sync] PR-4255:  drm/amdgpu: Fix potential fence use-after-free v2
-0fdc312fdb0ddc93f51d3a1e1db81e30ff33233b ksmbd: fix slab-out-of-bounds in smb_strndup_from_utf16()
-bac53353e0d714fbd196ba0dfe0617a4ecfe4394 !4287 [sync] PR-4257:  nfc: nci: fix possible NULL pointer dereference in send_acknowledge()
-c2443b4da2c1c57dd0b73af1530a6b6266d3aba1 fs:/dcache.c: fix negative dentry limit not complete problem
-45ece75951c8d210959872c61eff1a98a2570e60 Revert "mtd/ubi/block: Fix uaf problem in ubiblock_cleanup"
-970bc26c8b7fb7b67a310ee0eb084aa1883664e4 ubi: block: Fix use-after-free in ubiblock_cleanup
-6cdff0d1ba68ceff68417b2058316fbf9c4588ee ubifs: fix possible dereference after free
-14a9f3f085238e4f9226125a2b022473b41a6704 !4326 [sync] PR-4266:  ksmbd: fix slab-out-of-bounds in smb_strndup_from_utf16()
-dd40f0e2ddaeca98d1536fcf97a095d1c4a699ed !4336 [sync] PR-4289:  fs:/dcache.c: fix negative dentry limit not complete problem
-be0b4454d0a8fc549b2235489ab5056c59547cd9 !4350 [sync] PR-4268:  linux Mainline ubifs Fix Patch bacnport to 5.10
-76679552c8baa6abaf6f81019488a47a4f4ac3b5 !4227 [sync] PR-4149:  block: remove precise_iostat
-517803775a4047467c1207bc16210398cb93389a !4183 [sync] PR-3955:  drm/radeon: possible buffer overflow
-e4668e3affcbfefafa379195c8ed92792b66b712 !4184 [sync] PR-4010:  drm/amd/display: Exit idle optimizations before attempt to access PHY
-0b22d093b3414b1ceef876f2981650d9e2852f80 !4188 [sync] PR-4012:  drm/amdgpu: Fix a null pointer access when the smc_rreg pointer is NULL
-8faa83f86c67a5b218678f373f2c7cd8b72f9919 !4189 [sync] PR-4013:  drm/amdgpu: correct chunk_ptr to a pointer to chunk.
-b654f9119fc41c31f582be06d69373e164a96ea9 !4192 [sync] PR-4014:  drm/dp_mst: Fix NULL deref in get_mst_branch_device_by_guid_helper()
-ec2954b107bd4551fb982d1cc56087614a1c7959 !4195 [sync] PR-4015:  drm/amdgpu: correct the amdgpu runtime dereference usage count
-c91aab5d204806a9dea45aee287f061025d35ffb !4234 [sync] PR-3228:  net: txgbe: Fix memleak in txgbe_calc_eeprom_checksum()
-3ef7a7271a9c5df23a3b561df9824bc5c8087d16 !4283 [sync] PR-4270:  fix spinlock already unlocked in inet_csk_reqsk_queue_add' bug
-1343c17017b96132ffc9c308a93d1df661507245 !3860 [sync] PR-3756:  md: mainline backport
-331c661dd8f754936d311ffa4e27b94898853409 drm/atomic: Fix potential use-after-free in nonblocking commits
-aa21e010452a9aaad76821980a49b8f9fb20cf89 !4276 [sync] PR-3134:  Add MODULE_FIRMWARE() for FIRMWARE_TG357766.
-7d0404f22d0c6e3623f454fd1c89a6d41f01f04c !4119 [sync] PR-3975:  md/raid1-10: limit the number of plugged bio
-37647b2f36c836a5eb67edfb1e60370f9bcea52d io_uring/af_unix: disable sending io_uring over sockets
-a60664c9752da0526c0978eeeae6ad9935ee81ed !4421 v2  drm/atomic: Fix potential use-after-free in nonblocking commits
-508ce6ae60cf3b231d646bd0a6bc5c8343e6fa56 !4097 [sync] PR-4090:  ida: Fix crash in ida_free when the bitmap is empty
-4f2482687616f4a376df68027284f23426a6f50e ubifs: Queue up space reservation tasks if retrying many times
-955edfba3825871b05cbd7fdbf076cb7d70b424d !4448 [sync] PR-4321:  io_uring/af_unix: disable sending io_uring over sockets
-8b0ef4f265af79b47989995e44e9eadc4695fa4d !4499 [sync] PR-4362:  ubifs: Queue up space reservation tasks if retrying many times
+b639585e71e63008373d3a9fd060b87315fe7ea8 fork: Using clone_flags for legacy clone check
+cdefbf2324ceda662e2667aa2f44e8b9de3d780f pidfd: cleanup the usage of __pidfd_prepare's flags
+21e25205d7f9b6d7d3807546dd12ea93844b7c8e pidfd: don't do_notify_pidfd() if !thread_group_empty()
+64bef697d33b75fc06c5789b3f8108680271529f pidfd: implement PIDFD_THREAD flag for pidfd_open()
+43f0df54c96fa5abcab9df8649c1e52119bf0238 pidfd_poll: report POLLHUP when pid_task() == NULL
+90f92b68c9869913753f8bc1d87b7762a5f36873 pidfd: kill the no longer needed do_notify_pidfd() in de_thread()
+a1c6d5439fbddd06aad3ddbb7f12df0b98354070 pid: kill the obsolete PIDTYPE_PID code in transfer_pid()
+7b8001013d720c232ad9ae7aae0ef0e7c281c6d4 filelock: don't do security checks on nfsd setlease calls
+0f679ded64a81cee6f1ba68451b75e4b094c5495 pidfd: change do_notify_pidfd() to use __wake_up(poll_to_key(EPOLLIN))
+91d5bbf6d41eea2f1f84705f2ebcc308bbcf6c7e epoll: Remove ep_scan_ready_list() in comments
+c3aefe52aa1c2c627cc06cf036ccd5c819fc9a11 pidfd: exit: kill the no longer used thread_group_exited()
+292fcaa1f937345cb65f3af82a1ee6692c8df9eb smb: remove redundant check
+94ea8fd1c5d2dcf255250633ac3e952a651bbd27 pidfd: clone: allow CLONE_THREAD | CLONE_PIDFD together
+8d9fc18d95a49799584a564289d660903a173454 bdev: open block device as files
+ab1842fb361b8731e0884582efd58a9b20150763 init: ensure that block devices are closed
+6a244774e2665bd6a4a531f0c7d70ae7a84585a5 block/ioctl: port blkdev_bszset() to file
+022ff246dab0035436f170ef9fc678134720bbf7 block/genhd: port disk_scan_partitions() to file
+c0e6aa7914d508b1f4551bb76522e5815790fbe1 md: port block device access to file
+9bd03d60ebb7208234b0bf1ffa14a596b5c55c23 swap: port block device usage to file
+396e8eeb82cb4f02925a88744720206f0d91c767 power: port block device access to file
+9321999f92e88360cd3f4d0644dbe9be48558045 xfs: port block device access to files
+c913cbcc1342db51cabd9f8d5167baf3dc571d5e drbd: port block device access to file
+95d5f6756ad04952b14fde00c0320d01a45ea634 pktcdvd: port block device access to file
+1b139d3eddf6c2c1c52adcd02dd5c360bbb4b991 rnbd: port block device access to file
+6cc51e23047b253bff511bbff923cafc568fad5c xen: port block device access to file
+74c72c3c93c4d1f5a31ce1f09916b78d8edc9528 zram: port block device access to file
+854fcc3ea00134d01543e584208f155c2638714b bcache: port block device access to files
+ef0f2361ae946c2d674b176583ecaf5bc3f8df00 block2mtd: port device access to files
+7f497efcdac41f1781ea191917f6c661b1dbdc11 nvme: port block device access to file
+ab7643ff23e3df6c44907fd619f88a87a61095e1 s390: port block device access to file
+3cb5f4e94f7e5d8e15f9046f0c30550bccded1f3 target: port block device access to file
+1a3c30ff7568c86ea04c936e318658d3c9b47419 bcachefs: port block device access to file
+3ae381366b04b88fae53e8b6a0a6e00916b5ee2f btrfs: port device access to file
+3102c3e339950a9da12cf8cde47b429d91556ca0 erofs: port device access to file
+d1adc619b326ba51d51bf84f7cfe2a7d0e3006fb ext4: port block device access to file
+499024228c0e1d3c014d31b3e2f5fc530da897f5 f2fs: port block device access to files
+76edd3ef13ab5f208b7e6d351b072ea4c4870753 jfs: port block device access to file
+93995e432af197c0211cfb6e6ae9571771cfca6c nfs: port block device access to files
+de4201d222a8c3d2696502df6361add7e6c2e1ad ocfs2: port block device access to file
+601a11457af42f235b44a8c94a8ffabecb85aa5c reiserfs: port block device access to file
+022925521a98ee5849407e3d9693c4964a293e20 bdev: remove bdev_open_by_path()
+2da2a8ee3a610f2adcc4094c4dd653b6a6ca3d12 bdev: make bdev_{release, open_by_dev}() private to block layer
+c6c14f926fbe37330af6271d26f98e70d1a07372 fs: make file_dentry() a simple accessor
+2109cc619e733c8709250b62d7f1d43461589f57 fs: remove the inode argument to ->d_real() method
+73389afd1cbb18838bf4148b54cafb1f3267409b fs/mnt_idmapping.c: Return -EINVAL when no map is written
+853b8d7597eea4ccaaefbcf0942cd42fc86d542a remap_range: merge do_clone_file_range() into vfs_clone_file_range()
+7b7f44d4ce51eb6fe6863e93646b62801743d4eb bdev: make struct bdev_handle private to the block layer
+b06f4b63e1025cddfef5ab2aa1f3d07fb39b14a1 bdev: remove bdev pointer from struct bdev_handle
+4e3ed4d2c242995ddee7c08514f42dc5b90e23d7 block: don't rely on BLK_OPEN_RESTRICT_WRITES when yielding write access
+1967d4f4e4ac12e1bb7d6f6d3ee839c27f96d9a1 block: remove bdev_handle completely
+bc7cb6c829e2c736e2f51dc73d8e90bded3f8f9a Merge series 'Open block devices as files' of https://lore.kernel.org/r/20240123-vfs-bdev-file-v2-0-adbd023e19cc@kernel.org
+c3e492ab4790fe272fc48e288184daad84385df9 Merge branch 'vfs.fixes' into vfs.all
+0150d897c2e385bde00e8105ed9ef7bc3b55d0be Merge branch 'vfs.misc' into vfs.all
+e34d0ac6373a7ed04298ad383ef3b8021298acfe Merge branch 'vfs.fs' into vfs.all
+a8a757e6f2440b64e31ffeafa90a138617758c6b Merge branch 'vfs.iomap' into vfs.all
+ba21cef1ba6dfcbe8e0c0633b0451619a20c6aeb Merge branch 'vfs.pidfd' into vfs.all
+c05e11dc103d47e2fccea8acf5dc5bbfa4ac2ea2 Merge branch 'vfs.file' into vfs.all
+b3e665628ab45213cfcca94657880b95a49ad36b Merge branch 'vfs.netfs' into vfs.all
+23b006406f6bf12029e0104c0586c903d154cec6 Merge branch 'vfs.super' into vfs.all
 
---===============6553522035830990101==--
+--===============0848819483340055563==--
