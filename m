@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2702757403729513465=="
+Content-Type: multipart/mixed; boundary="===============7502354938950570875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 06 Feb 2024 18:44:21 -0000
-Message-Id: <170724506189.1738.18275418483389426535@gitolite.kernel.org>
+Date: Tue, 06 Feb 2024 18:44:55 -0000
+Message-Id: <170724509590.1996.15771532405507567014@gitolite.kernel.org>
 
---===============2702757403729513465==
+--===============7502354938950570875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: ba5e1272142d051dcc57ca1d3225ad8a089f9858
-    new: 1ce2654d87e2fb91fea83b288bd9b2641045e42a
-    log: revlist-ba5e1272142d-1ce2654d87e2.txt
+  - ref: refs/heads/dev-queue
+    old: cef6969786db632a7948eed6a43ef9a71414ca5b
+    new: cc3b22a8509230fc8381bc85797159faa7dcaaaa
+    log: revlist-cef6969786db-cc3b22a85092.txt
 
---===============2702757403729513465==
+--===============7502354938950570875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba5e1272142d-1ce2654d87e2.txt
+Content-Disposition: attachment; filename=revlist-cef6969786db-cc3b22a85092.txt
 
 2e7d3b67630dfd8f178c41fa2217aa00e79a5887 net: atlantic: Fix DMA mapping for PTP hwts ring
 cb9f4a30fb85e1f4f149ada595a67899adb3db19 selftests: net: cut more slack for gro fwd tests.
@@ -51,5 +51,18 @@ a19747c3b9bf6476cc36d0a3a5ef0ff92999169e selftests: net: let big_tcp test cope w
 3871aa01e1a779d866fa9dfdd5a836f342f4eb87 tipc: Check the bearer type before calling tipc_udp_nl_bearer_add()
 b083d24fcf57580cc0b45dd7b0b4f84d8c4624f4 selftests/net: Amend per-netns counter checks
 1ce2654d87e2fb91fea83b288bd9b2641045e42a net: stmmac: xgmac: fix a typo of register name in DPP safety handling
+cb0bb3bb001635ea4f7625b7197230fff6fb8502 i40e: Fix waiting for queues of all VSIs to be disabled
+1b35e64fc3d9b05e498f6df902814e62f6bf85c8 i40e: Fix wrong mask used during DCB config
+744d2c315928715449a2caea9993dd5d5f89c495 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+b0d0f4eba785da982893b78d6c5051b99fc14ab2 igb: Fix string truncation warnings in igb_set_fw_version
+98570e3adb0efa3edcbeb94c0dec56269516db74 ice: Add check for lport extraction to LAG init
+647f2fd471bc191a58394c9517d1255e931ba6aa iavf: fix reset in early states
+3902090562bdc0d11fa54c3bc5ee7630ce4eb3c3 iavf: allow an early reset event to be processed
+3f646d511d46bf90490e22bce1c443324a767e42 igc: Remove temporary workaround
+a4da5957f446979306053cbb07e02c5031ccd250 ice: fix connection state of DPLL and out pin
+4883d02d70cc864e53df3926a9c6ef30e1f03d70 i40e: Do not allow untrusted VF to remove administratively set MAC
+f6d4e45c3a386dd7deeb1500e51ce8a6140b02f1 ice: virtchnl: stop pretending to support RSS over AQ or registers
+8de59997b2f0a001abfb30251b315eb28466498e i40e: avoid double calling i40e_pf_rxq_wait()
+cc3b22a8509230fc8381bc85797159faa7dcaaaa i40e: take into account XDP Tx queues when stopping rings
 
---===============2702757403729513465==--
+--===============7502354938950570875==--
