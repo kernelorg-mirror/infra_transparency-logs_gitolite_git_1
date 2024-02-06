@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============0327540883138247696=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 06 Feb 2024 11:47:00 -0000
-Message-Id: <170722002042.31430.12945635548657697528@gitolite.kernel.org>
+Date: Tue, 06 Feb 2024 11:47:23 -0000
+Message-Id: <170722004315.31654.7480737137740304571@gitolite.kernel.org>
+
+--===============0327540883138247696==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -12,13 +16,29 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d4ab8097e1f3a376ec1b7c9f6c6f5d95ee85c852
-    new: 43c040393ba9215957665d8bb2da63f85e1ce19b
-    log: |
-         eba38cc7578bef94865341c73608bdf49193a51d bcachefs: Fix build on parisc by avoiding __multi3()
-         6bb3f7f4c3f4da8e09de188f2f63e8f741bba3bd bcachefs: unlock parent dir if entry is not found in subvolume deletion
-         dd839f31d7cd5e04f4111a219024268c6f6973f0 bcachefs: install fd later to avoid race with close
-         7b508b323b2ec45be59769bd4e4aeba729c52cf6 bcachefs: time_stats: Check for last_event == 0 when updating freq stats
-         99bd3cb0d12e85d5114425353552121ec8f93adc Merge tag 'bcachefs-2024-02-05' of https://evilpiepirate.org/git/bcachefs
-         43c040393ba9215957665d8bb2da63f85e1ce19b Merge branch 'linus'
-         
+    old: 43c040393ba9215957665d8bb2da63f85e1ce19b
+    new: 6d461dc4863ffe5f9c26456bbecbe33966df576c
+    log: revlist-43c040393ba9-6d461dc4863f.txt
+
+--===============0327540883138247696==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-43c040393ba9-6d461dc4863f.txt
+
+148b32019e0f765983a89089dd43308f6f7ec115 Merge branch into tip/master: 'timers/urgent'
+0ca0195c3a92c8617d30e2666e466ea6bff79b90 Merge branch into tip/master: 'x86/urgent'
+3688ef72e233ff7375a9a40815cd90f4d86347ac Merge branch into tip/master: 'x86/merge'
+b9f92d3fc580fa03b0fa1c10d2c2dfd9a57d0daa Merge branch into tip/master: 'irq/core'
+8e9a911cb96ac9a4342d60b19c9d528e17e8f5b2 Merge branch into tip/master: 'ras/core'
+c5b9c37d9d349068ab7c26c74654b59c39f36467 Merge branch into tip/master: 'smp/core'
+b7435b235f6b95c64dbaf87f5796b252972075a5 Merge branch into tip/master: 'x86/boot'
+5eccbe65bfdf270cc80f208fba30da2f7cf560a3 Merge branch into tip/master: 'x86/build'
+a1787a6b637d4ebba17780abf74b1bbfbfdb60ac Merge branch into tip/master: 'x86/cache'
+059dd4661bb7883ffada42be1143b96a575d1f22 Merge branch into tip/master: 'x86/entry'
+6c1af9e3dbd51393481c9887caa408450d6fc0bc Merge branch into tip/master: 'x86/fred'
+dc0697efda25faf4bdfcc89d69fa67cbf2083061 Merge branch into tip/master: 'x86/misc'
+6b9a9e9a0e755b0b261720c8a653ae5e15379f9b Merge branch into tip/master: 'x86/mm'
+6d461dc4863ffe5f9c26456bbecbe33966df576c Merge branch into tip/master: 'x86/sev'
+
+--===============0327540883138247696==--
