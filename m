@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 06 Feb 2024 18:50:46 -0000
-Message-Id: <170724544695.7360.14189107578040993714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 06 Feb 2024 18:52:26 -0000
+Message-Id: <170724554624.7993.13781029422427313952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: cc3b22a8509230fc8381bc85797159faa7dcaaaa
-    new: f6d4e45c3a386dd7deeb1500e51ce8a6140b02f1
+    old: 9a8941c9a29dba6bbdeab259edb8b92c3b9464cc
+    new: 2dcd8bd524907a97790504e3f7763d04c3c1d6d0
+    log: |
+         4fee030f3f2cc09e99e17cc93ee081fea1b6155c ixgbe: Convert ret val type from s32 to int
+         b703e7078a93cf89ce4b971e160dc8f04489c597 ixgbe: Rearrange args to fix reverse Christmas tree
+         2dcd8bd524907a97790504e3f7763d04c3c1d6d0 ixgbe: Clarify the values of the returning status
+         
