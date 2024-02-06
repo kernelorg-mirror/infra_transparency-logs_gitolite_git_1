@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 06 Feb 2024 22:25:51 -0000
-Message-Id: <170725835118.32054.8744176888511624812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 06 Feb 2024 22:35:36 -0000
+Message-Id: <170725893663.8306.10725729492712761140@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: de8c249f785d9ca54f8fee6d1e5b0cbbfef7f0d4
-    new: cfbaa68e5134e636ca3f3c095bb2d86d1dc6401a
+  - ref: refs/heads/dev-queue
+    old: 2dcd8bd524907a97790504e3f7763d04c3c1d6d0
+    new: e9c94d723ae08a21483d4a32c9d5c09e2ee6f4c7
     log: |
-         141513cd0229ef47cc96031666eb758b1824f43f mgmt-tester: Add a 0-entry to expect_hci_list lists
-         6a264df7200b3350712decf5d09d7bcef7a50fc2 mgmt-tester: Adjust a test for recent kernel changes
-         d5c1c0e80f4ac26edd29e45ea3c8a4679a5eab60 emulator/btdev: Send page timeout after 5.12 secs delay
-         c3613b8a933d62bef10a8f4258976c41156e095f monitor: parse Google's Opus A2DP vendor codec capabilities
-         1c60eb02e6c3d0e639d8edb82c251caef2e41f9a client/player: parse Google's Opus A2DP vendor codec capabilities
-         cfbaa68e5134e636ca3f3c095bb2d86d1dc6401a mgmt-tester: Fix Read Ext Controller Info tests
+         884519031043650641673803e8b88cc8aa2808f2 ice: remove eswitch changing queues algorithm
+         cf4de0c2bf122250ee25c5877bebf9166f58979e ice: do Tx through PF netdev in slow-path
+         6e5dd43e78cb76730c6277fe59da1d408810f84a ice: default Tx rule instead of to queue
+         2c0d8bf499ba1871af09cf26b6c13590668a39dc ice: control default Tx rule in lag
+         2705b3ef8cd940cbed4a52ee5d06d9fe21c836de ice: remove switchdev control plane VSI
+         e2e0fb24489b63ca51303f2ca13c5b5adf0e0706 ice: change repr::id values
+         be55136934c70bbaf7cc65b2e00a92b9fbe873e2 ice: do switchdev slow-path Rx using PF VSI
+         e9c94d723ae08a21483d4a32c9d5c09e2ee6f4c7 ice: count representor stats
          
