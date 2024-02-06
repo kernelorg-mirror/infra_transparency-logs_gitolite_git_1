@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Tue, 06 Feb 2024 19:23:02 -0000
-Message-Id: <170724738211.29945.1097786974650475848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 06 Feb 2024 19:39:00 -0000
+Message-Id: <170724834085.9234.10833993294176531358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/arena
-    old: 78b87c1668dbde98adef38b69416fd02eae98408
-    new: deae1396583544915db10f0e3f07b03be7f6f73a
+  - ref: refs/heads/riscv-dt-for-next
+    old: 6c7353836a91b1479e6b81791cdc163fb04b4834
+    new: 5669bb5a16a0b8bfc3f2877dbfcd77b62cc9ebf4
     log: |
-         a25cd3e9c45772e85d7cf631782562291a263a5c selftests/bpf: Add bpf_arena_list test.
-         deae1396583544915db10f0e3f07b03be7f6f73a selftests/bpf: Add bpf_arena_htab test.
+         5669bb5a16a0b8bfc3f2877dbfcd77b62cc9ebf4 riscv: dts: microchip: add specific compatible for mpfs pdma
          
