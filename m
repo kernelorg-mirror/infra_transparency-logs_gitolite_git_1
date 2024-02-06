@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7002657007809031198=="
+Content-Type: multipart/mixed; boundary="===============8123482912511032518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Tue, 06 Feb 2024 16:56:07 -0000
-Message-Id: <170723856708.11547.12773594407380356477@gitolite.kernel.org>
+Date: Tue, 06 Feb 2024 16:56:10 -0000
+Message-Id: <170723857063.11614.6413366163896671036@gitolite.kernel.org>
 
---===============7002657007809031198==
+--===============8123482912511032518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,107 +15,114 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
 user: colyli
 changes:
-  - ref: refs/heads/openEuler-22.03-LTS
-    old: 7332e91bf01db4cef0bcd05338fca2f23610f95d
-    new: 6b4b08cf0b18ddcb49bbe3ffef1741fdf3865d3a
-    log: revlist-7332e91bf01d-6b4b08cf0b18.txt
+  - ref: refs/heads/openEuler-22.03-LTS-SP1
+    old: 8dda2cdc7d7d5d37e2fb5752b20b737d86e630ec
+    new: 81444bdeb99cedd929824215a1638b314efc8bfd
+    log: revlist-8dda2cdc7d7d-81444bdeb99c.txt
 
---===============7002657007809031198==
+--===============8123482912511032518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7332e91bf01d-6b4b08cf0b18.txt
+Content-Disposition: attachment; filename=revlist-8dda2cdc7d7d-81444bdeb99c.txt
 
-bfdbbfa22bce2da47cea608fe99fea0ad16a5249 net: bcmgenet: Remove phy_stop() from bcmgenet_netif_stop()
-bfd307dab6dae2571968472605f8b903f4aa62e7 net: bcmgenet: Restore phy_stop() depending upon suspend/close
-e481620ab9f3feb9e403da0c2ddd0358805534e1 bnxt_en: Don't issue AP reset during ethtool's reset operation
-6d4a54c654b177d183d480fd92da13b3caf8b2ff bnxt_en: Query default VLAN before VNIC setup on a VF
-7b4c83b857f31ba58ae61c34a77c560b24f66642 bnxt_en: Implement .set_port / .unset_port UDP tunnel callbacks
-873d4cce0c9ba14fe6b242178b9ac5018e7ad9e5 Add MODULE_FIRMWARE() for FIRMWARE_TG357766.
-2eb44237228334248cd068bf69481bb033cf3b67 md: fix double free of mddev->private in autorun_array()
-e84e59e444933f4f18bc86a08353815f9c184d81 md: use msleep() in md_notify_reboot()
-72c9a464d8e5430291cf637a2b13252b38060e5a md/raid10: fix improper BUG_ON() in raise_barrier()
-d6c1b093565bac48cfd09d113c230c6a93a93583 md: convert to blk_alloc_disk/blk_cleanup_disk
-8a9852e7936f2b34c2c7a2a56ca9c444daff9525 md: add error handling support for add_disk()
-77029acdc404cbda9d1ba166b19412f432d4a87b md: add the bitmap group to the default groups for the md kobject
-cf7f79ae4dd676576bbcc0360bb40b75cc5883ee md: extend disks_mutex coverage
-f44b57f7c609887dedbff64ef74800d3577c2a9c md: properly unwind when failing to add the kobject in md_alloc
-f6fca5d6a28502fc841e1f9db1b04a274434e800 md: fix mddev->kobj lifetime
-6789f93ab5ea44eb7a431cb9894ac4113be9316e md: Constify attribute_group structs
-2b7a1b4072b3273fbb9c598898e2a4a13bd6e08f md: fix error handling in md_alloc
-831a155db60f2fc232547c86cbf8311f0b4f09da ext4: Fix best extent lstart adjustment logic in ext4_mb_new_inode_pa()
-d3d133366cf96e08c3720d408bd2af4e4cdef5f7 ext4: add two helper functions extent_logical_end() and pa_logical_end()
-439dab08bde6e3a82c5651e457257f7108ea7ab4 ext4: fix BUG in ext4_mb_new_inode_pa() due to overflow
-6f8d68d94cb84de875e82313685f61fe76206a90 ext4: avoid overlapping preallocations due to overflow
-2581aac8d8cb76f3d778a183dd512fb84f5dc0a6 ext4: prevent the normalized size from exceeding EXT_MAX_BLOCKS
-99f456b2513c65125a2f5632661c6bb7132ce3c8 ext4: correct return value of ext4_convert_meta_bg
-f6f97d0275e41f9fda4fea6c7a18ec3f46dda250 ext4: reject casefold inode flag without casefold feature
-36aa395e085899fa3d9172758328059de18c5ffa ext4: improve error handling from ext4_dirhash()
-a79baf7a56c05d881adc384c80b033f36125b54b tipc: fix a potential deadlock on &tx->lock
-e8011b70d79c61383c212eecd770759128c0f459 !4077 [sync] PR-4069:  tipc: fix a potential deadlock on &tx->lock
-6358a3b45bd23aaeac8cbf93131a48c43681b547 ida: Fix crash in ida_free when the bitmap is empty
-8b1aed068719187203ecae74a74f3a3ba1de2cc7 Revert "md/raid10: fix softlockup in raid10_unplug"
-332f457176ac60449dc99eff7d5a692ccd3ae4bc md: drop queue limitation for RAID1 and RAID10
-1aa33ecc553304c5c9e4f701d3a85793555907b6 md: raid1/raid10: drop pending_cnt
-5654e1a9e3dda177e354b664fe3806951bce4e4e md/raid10: prevent soft lockup while flush writes
-c1a470b62dccc9859a58b7eaccf6222468383d8a md/raid1-10: factor out a helper to add bio to plug
-e9f7edad38da44b9b1408b6d5d0e61ebb1908f6d md/raid1-10: factor out a helper to submit normal write
-0846eeccead8c3e75c87bc030687bd79c85a9617 md/raid1-10: submit write io directly if bitmap is not enabled
-29c4a6e24fcf69a7e94ffdac9d92b238ad164baf md/md-bitmap: add a new helper to unplug bitmap asynchrously
-404e22823f1b950e125b608eea8883006f463dad md/raid1-10: don't handle pluged bio by daemon thread
-18dcb00b880dacd8d3fe3740a30f67e479d9dde3 md/raid1-10: limit the number of plugged bio
-d9259e23160e077182e4c3267fb9c5e3127aa15d md/raid1-10: fix casting from randomized structure in raid1_submit_write()
-bdb7c8bbfb967f9adfe579131360ac2f2678192b netfilter: nf_tables: Reject tables of unsupported family
-020c07ab4e0121a68089955911bf8779f4af1d7e netfilter: nf_tables: fix pointer math issue in nft_byteorder_eval()
-c4a09bd5537763797ca837642ac01793f79b97fe !4061  ext4: synchronize the casefold bugfix from the mainline
-a6eddbeb1709713cf1430eabcfdfa019db430f22 !4055  ext4: correct return value of ext4_convert_meta_bg
-ee05239664a1852eb196f42fc274a30d48a01d5c !4125 [sync] PR-4022:  netfilter: nf_tables: Reject tables of unsupported family
-9c2e42d573f70c15e711d49fdf5cf97e6093d026 !4129 [sync] PR-4100:  netfilter: nf_tables: fix pointer math issue in nft_byteorder_eval()
-40f1ba6b810c55991942e0280e7ec858621d9e6d drm/radeon: possible buffer overflow
-0bfd02bad58ed6f40fd16f31d680e4337c751f22 drm/amdgpu: Fix a null pointer access when the smc_rreg pointer is NULL
-25e76102984135ab369561b1a21faf8cc4f66cf2 drm/dp_mst: Fix NULL deref in get_mst_branch_device_by_guid_helper()
-70b9f5c6da071c460307521f48a1dfa868c85366 drm/amdgpu: correct the amdgpu runtime dereference usage count
-03778c6d97d87a57b1b545d2150a6c177459c85e mm/dynamic_hugetlb: skip unexpected migration
-9a1cfda7efe957d7c0a2e03709c4fe5203c03f9c netlink: fix potential sleeping issue in mqueue_flush_file
-6cd7e31e2956a24eacbbf1d44241c37a2759e895 block: remove precise_iostat
-933c10d3cd46a8de9629d747cd4e167099eb74c9 drm/amd/display: Exit idle optimizations before attempt to access PHY
-5aabbff1f644d65b598b7e2f30760a3343a2d26e drm/amdgpu: correct chunk_ptr to a pointer to chunk.
-ecdf2c09580e9f588d84de20d9d23916d286efa6 net: txgbe: Fix memleak in txgbe_calc_eeprom_checksum()
-99f34c126322861d86789cd1663b6881917ac51c drm/amdgpu: Fix potential fence use-after-free v2
-0acecb73ab23a2ad23f7b3d04225aaf87b102219 !4004  ext4: fix some ext4_lblk_t overflow issues
-53ed4dfbf0635f2ed4e6db8b4780b2c5144715d3 !4205 [sync] PR-4203:  mm/dynamic_hugetlb: skip unexpected migration
-6dc91895ed95f864d10b7452580277832c8e7305 !4222 [sync] PR-4213:  netlink: fix potential sleeping issue in mqueue_flush_file
-02a6e26b630dd1dea36249c23d0b8b5393c7e00a tcp: make sure init the accept_queue's spinlocks once
-f585c0ea562f84fb065f095f5f80132539525d0f ipv6: init the accept_queue's spinlocks in inet6_create
-cab37ff1ffe56e7a9acf64f155dbac561a13d0b1 nfc: nci: fix possible NULL pointer dereference in send_acknowledge()
-a02aafee8072af875ecb8c8584a6634ede9b6fa8 fs:/dcache.c: fix negative dentry limit not complete problem
-5fd15fee01abdf5682f93db7f6879414453da12c !4263 [sync] PR-4255:  drm/amdgpu: Fix potential fence use-after-free v2
-5b518b98af597ae72547022b58f2b1e8897d65fa ksmbd: fix slab-out-of-bounds in smb_strndup_from_utf16()
-ed7103b81da118f43d3335b00a85a9fef9c1c15d !4285 [sync] PR-4257:  nfc: nci: fix possible NULL pointer dereference in send_acknowledge()
-7f388a996eecbd81056eacac997e8ce1db4373ac !4289  fs:/dcache.c: fix negative dentry limit not complete problem
-7a501b80026ff5cbb391c4b2b5ece9a4a99d364a Revert "mtd/ubi/block: Fix uaf problem in ubiblock_cleanup"
-90987c36353f17a18ca1c7b7efbb902dc3305c4b ubi: block: Fix use-after-free in ubiblock_cleanup
-7d680ce7c53b0390127e1b4584008c7c0cf43433 ubifs: fix possible dereference after free
-be76fd8b9f2a10f71103aaf5c666a583ba79174c !4324 [sync] PR-4266:  ksmbd: fix slab-out-of-bounds in smb_strndup_from_utf16()
-344a5a864b14fbc057e6a3b676cd733514f80596 !4348 [sync] PR-4268:  linux Mainline ubifs Fix Patch bacnport to 5.10
-ea4700a6b09c7ea8e565c8e500ed3d92b31bf5d3 !4225 [sync] PR-4149:  block: remove precise_iostat
-ef7b78e39617c867eda95735901b84aed6d03087 !4180 [sync] PR-3955:  drm/radeon: possible buffer overflow
-8676a15ec057df469cb13b647f7e897d108c9480 !4232 [sync] PR-4010:  drm/amd/display: Exit idle optimizations before attempt to access PHY
-e52f1121818eb17016fa95c07ca4ee54b35190ce !4185 [sync] PR-4012:  drm/amdgpu: Fix a null pointer access when the smc_rreg pointer is NULL
-e5b2fa923b7850d9f3fc4b0914f8739bfd9fbf31 !4233 [sync] PR-4013:  drm/amdgpu: correct chunk_ptr to a pointer to chunk.
-bcb0e2a869286e7ac349d3e981e6fdd6705d058b !4190 [sync] PR-4014:  drm/dp_mst: Fix NULL deref in get_mst_branch_device_by_guid_helper()
-775d81b5af8f2edd4db16a5cdbd16f968b37960c !4193 [sync] PR-4015:  drm/amdgpu: correct the amdgpu runtime dereference usage count
-4a0bb0a4d67ede9b06603944c268ba4b24df692a !3155  backport Broadcom NIC driver patches
-1b9bd5c73ae094c4a95c1a3f28bdf087dcde8af1 !4240 [sync] PR-3228:  net: txgbe: Fix memleak in txgbe_calc_eeprom_checksum()
-aa0a1a8336c246b5f801f36b7ffa5ae7d06b8c3e !4281 [sync] PR-4270:  fix spinlock already unlocked in inet_csk_reqsk_queue_add' bug
-48c21bafebfd5a63a4b3860de15f2ed6a1a80d5f !3858 [sync] PR-3756:  md: mainline backport
-d8cecf126091e32a0fbb3e9301b4aa546af77e7d drm/atomic: Fix potential use-after-free in nonblocking commits
-13edc4abf995e317e31ce20e0d5003a4c49e56f8 !4117 [sync] PR-3975:  md/raid1-10: limit the number of plugged bio
-b226f15658150a8d922c81ae4115cff2368495ca io_uring/af_unix: disable sending io_uring over sockets
-a77f3ab8fa76d5223bd25b22624c1a8760026a6e !4422 v2  drm/atomic: Fix potential use-after-free in nonblocking commits
-385ff2185c0c9653e39e129529dd54aada092a74 !4095 [sync] PR-4090:  ida: Fix crash in ida_free when the bitmap is empty
-3f85bc3deab025d53a7c6fedb379fff1c291f3bc ubifs: Queue up space reservation tasks if retrying many times
-fa447ef9fffce05082aa6ecbc266e013416df876 !4446 [sync] PR-4321:  io_uring/af_unix: disable sending io_uring over sockets
-6b4b08cf0b18ddcb49bbe3ffef1741fdf3865d3a !4497 [sync] PR-4362:  ubifs: Queue up space reservation tasks if retrying many times
+bb8bf87ede869ede6123b9babd88505e093396d5 nvme-pci: fix timeout request state check
+6c99bcf561b6525480c4403d9fd7337af80b9a83 nvme-pci: fix DMA direction of unmapping integrity data
+d1900083e1904f5d8601a7275b11b9464d3a4411 nvme-pci: clear the prp2 field when not used
+c8197dce7e7f9ad26eb724bd4ef32bf53d02c17f scsi: lpfc: Prevent lpfc_debugfs_lockstat_write() buffer overflow
+451459c5f187945cbd946362df22fb009b0ba274 scsi: lpfc: Fix ioremap issues in lpfc_sli4_pci_mem_setup()
+43507db65861b88dc4ba0f6ae3df8432dbf75fff nvme-pci: fix mempool alloc size
+8a9fd46e9bd0dcd376c3208268acd46440e0552b nvme-pci: fix doorbell buffer value endianness
+de82d856c45edab7037e675988b4273ad71a99e9 md: fix double free of mddev->private in autorun_array()
+e66f3fd4c8abb332d86a0cbd62ea8acb14b5114d md: use msleep() in md_notify_reboot()
+605a8e3e9d608b02e39b52526356e09b320c2ad7 md/raid10: fix improper BUG_ON() in raise_barrier()
+aaeed1047ed4c2e9e7712d6345d8ff37eea1f594 md: convert to blk_alloc_disk/blk_cleanup_disk
+b36aaac87318f8e826ed6006ceea588015f26955 md: add error handling support for add_disk()
+22427ff1aa2e2d91097875eec1f1722378989539 md: add the bitmap group to the default groups for the md kobject
+e68d7794534fd61f3fbae7a5487fcebed2c24b68 md: extend disks_mutex coverage
+b94eb472294233b3bc2446a826acbf3878e19f31 md: properly unwind when failing to add the kobject in md_alloc
+708136b11cb1bb35981f0a71d86b51ec83922092 md: fix mddev->kobj lifetime
+ae692b05f6f5e24ba0c1e432337250bcaced6180 md: Constify attribute_group structs
+fe441c399734319927ab84826c8b2b01f988af85 md: fix error handling in md_alloc
+1262bf52f55c94ce02647f50b0274a523dee517e ext4: Fix best extent lstart adjustment logic in ext4_mb_new_inode_pa()
+4abb593cd35ae20d4d6d352c510730d3cdb66f05 ext4: add two helper functions extent_logical_end() and pa_logical_end()
+59462dca5c64436070c33d16a9ca92ffd7cd702b ext4: fix BUG in ext4_mb_new_inode_pa() due to overflow
+fc273986ba7ad32f33bc867f729474f6d0a04fba ext4: avoid overlapping preallocations due to overflow
+fa8fc3f0f876ae4364fd07948b9206218ec4eb03 ext4: prevent the normalized size from exceeding EXT_MAX_BLOCKS
+f886288e1120993da0ab71a06ec631b07ba91e15 ext4: correct return value of ext4_convert_meta_bg
+8f2f1910c4effbd5e76549b22273e03e7b70ed7c ext4: reject casefold inode flag without casefold feature
+44076f1fee409a689afd899208395dfeeb34487d ext4: improve error handling from ext4_dirhash()
+abd395c0f0f98b28d88f0d7fd5a448ef3994469d tipc: fix a potential deadlock on &tx->lock
+40332686f19b193302d7a7636fb1c34c4c704ce5 !4078 [sync] PR-4069:  tipc: fix a potential deadlock on &tx->lock
+a119f515d586b8878b1f4611fd6985f902a1673e ida: Fix crash in ida_free when the bitmap is empty
+6989f3428d516c45d3c65fff6294f25d29907f73 Revert "md/raid10: fix softlockup in raid10_unplug"
+8a29cb123be1dfea21956df7f6e82e5df9780f47 md: drop queue limitation for RAID1 and RAID10
+d9542f43258de0e20fb048bbadc32f5132065f53 md: raid1/raid10: drop pending_cnt
+768aafab3e19878d801d9ae798146a92fa45289e md/raid10: prevent soft lockup while flush writes
+cca932ba88de58250c46f88eda1a2afa42e444d9 md/raid1-10: factor out a helper to add bio to plug
+1fb7ca2139fede559acec3744ceb3dc78ac4f004 md/raid1-10: factor out a helper to submit normal write
+c386cb7f04f91509576e785a1c7fd633f117a5b6 md/raid1-10: submit write io directly if bitmap is not enabled
+2e69772357fad33f35bbbcb9f512071c71229ec0 md/md-bitmap: add a new helper to unplug bitmap asynchrously
+7960c739ee93e7710e62e4eedae5e7e48444bdb0 md/raid1-10: don't handle pluged bio by daemon thread
+3bd8f981ef1c792f0105c00bacda112a068e0f28 md/raid1-10: limit the number of plugged bio
+bcbe08c61c53b0280ff18179992a47fcd2d59aec md/raid1-10: fix casting from randomized structure in raid1_submit_write()
+23dd4f42e2c728af2ace267331237a5df4287042 netfilter: nf_tables: Reject tables of unsupported family
+0472fee03605287cf48e5ca90ebddd7180077332 netfilter: nf_tables: fix pointer math issue in nft_byteorder_eval()
+1547ae89c6c813482f9c71c4ae6554c58c88e868 !4060  ext4: synchronize the casefold bugfix from the mainline
+6b30bcf5dec8754a84be87c0550918d4ef5b561d !4056  ext4: correct return value of ext4_convert_meta_bg
+2991037bf0a0c6119004b1ae80ab6112c7f0b081 !4126 [sync] PR-4022:  netfilter: nf_tables: Reject tables of unsupported family
+29c5ee6db46a2348c09d709669d5842a7983e5fa !4130 [sync] PR-4100:  netfilter: nf_tables: fix pointer math issue in nft_byteorder_eval()
+df8f44ca85565ee0d4e4ce78c877e5abd8ab9654 drm/radeon: possible buffer overflow
+cb9ec018031739afbd10e5386fb64ddb8299e944 drm/amd/display: Exit idle optimizations before attempt to access PHY
+a7087fb115505d0da67a24ec505085e7375289ab drm/amdgpu: Fix a null pointer access when the smc_rreg pointer is NULL
+25c87933d5450f3ca5cdad6a2365c4bdb38d6c5e drm/amdgpu: correct chunk_ptr to a pointer to chunk.
+897c55a19764caf54d27bf71e56579cd32c15e22 drm/dp_mst: Fix NULL deref in get_mst_branch_device_by_guid_helper()
+3e7a92e3735b15de19b3f9ab7f7c7a1114d7e3d7 drm/amdgpu: correct the amdgpu runtime dereference usage count
+6c1b3773d97bde76faf93e693366b9b5ade2a77e mm/dynamic_hugetlb: skip unexpected migration
+fa57222bb3a469c8904447d8aede7b6c92e23e36 netlink: fix potential sleeping issue in mqueue_flush_file
+40ecd30d5d156bf3aa5fcb1f74d968c73dee2ed5 block: remove precise_iostat
+d5bea38263ff0bacfe387afd05f2ed7dc929e866 net: txgbe: Fix memleak in txgbe_calc_eeprom_checksum()
+c8b1072e11555f28445ff5fbc0c3b780b710e44c drm/amdgpu: Fix potential fence use-after-free v2
+40b08209eba22e972fc26b66e255ca3823e43025 !4005  ext4: fix some ext4_lblk_t overflow issues
+408c6b38afbd943d3b2164d0a45291d6a3069520 !4206 [sync] PR-4203:  mm/dynamic_hugetlb: skip unexpected migration
+7949708fc7d4080a922b3cb0334ab9f2f86e2225 !4223 [sync] PR-4213:  netlink: fix potential sleeping issue in mqueue_flush_file
+307bebd1e35f39aa1cff759ec05522efb96317b0 tcp: make sure init the accept_queue's spinlocks once
+1a0242d0b0e0215fb80e34864a2a85787f516970 ipv6: init the accept_queue's spinlocks in inet6_create
+620e9e8ad431d41e201d01250c224849a2b3a3cb nfc: nci: fix possible NULL pointer dereference in send_acknowledge()
+1e7e31258c261792bb63cba0da47be337b930594 !4264 [sync] PR-4255:  drm/amdgpu: Fix potential fence use-after-free v2
+247330188f78d378aa352a53fc2cd36105972b40 ksmbd: fix slab-out-of-bounds in smb_strndup_from_utf16()
+2aee6fcffa91c49e3ace028b0cb04352617a63ea !4286 [sync] PR-4257:  nfc: nci: fix possible NULL pointer dereference in send_acknowledge()
+bda87c0004cfb48022cf79979fea338979e87b9d fs:/dcache.c: fix negative dentry limit not complete problem
+70af8691c5a903a6512a91228e8985c2fd92b61c Revert "mtd/ubi/block: Fix uaf problem in ubiblock_cleanup"
+6d1f7d106ee80b7e9b0cf0b293edaed2a797af24 ubi: block: Fix use-after-free in ubiblock_cleanup
+f8b6f61c47ff612aee62115c68231bcc2491953b ubifs: fix possible dereference after free
+47fdefa245ef790f85385ce868102668a681e4fe !4325 [sync] PR-4266:  ksmbd: fix slab-out-of-bounds in smb_strndup_from_utf16()
+73075f05752bd1de33b75a65f276c46782ece655 !4335 [sync] PR-4289:  fs:/dcache.c: fix negative dentry limit not complete problem
+c37b52ab74dcd06dcabe152dda8058baeea56603 !4349 [sync] PR-4268:  linux Mainline ubifs Fix Patch bacnport to 5.10
+e910dc73ce406ec513243cc85a0f93b482d233fd !4226 [sync] PR-4149:  block: remove precise_iostat
+dee5f19f33f9fda9aa7640a9257ef2b74bc6b7a6 !4181 [sync] PR-3955:  drm/radeon: possible buffer overflow
+a45e6dd67d10e6a2de8b12bf5bb065b5b934ffee !4182 [sync] PR-4010:  drm/amd/display: Exit idle optimizations before attempt to access PHY
+1cf2d0e1cc33b26d1d1925f6185a9b46bc03857b !4186 [sync] PR-4012:  drm/amdgpu: Fix a null pointer access when the smc_rreg pointer is NULL
+409970d8435e816fb8a3f85fa3e71426e1edae00 !4187 [sync] PR-4013:  drm/amdgpu: correct chunk_ptr to a pointer to chunk.
+f81f7fbca9892804071c85a99478aa180168d322 !4191 [sync] PR-4014:  drm/dp_mst: Fix NULL deref in get_mst_branch_device_by_guid_helper()
+b2f4b034cc37221ad89263f98ffe33de6665ec1e !4194 [sync] PR-4015:  drm/amdgpu: correct the amdgpu runtime dereference usage count
+8bd5c8d6df95ee1da30270b46df97840b5032dea !3354 [sync] PR-1778:  nvme-pci: fix DMA direction of unmapping integrity data
+31c336cefa990db692f00226c49b6be7e7c3b7fb !3355 [sync] PR-1779:  nvme-pci: clear the prp2 field when not used
+8c7242231da9aa1bdb07af1073a3570b71f9c970 !3358 [sync] PR-2286:  scsi: lpfc: Prevent lpfc_debugfs_lockstat_write() buffer overflow
+766f3ecdf538b3ce3c8cf66b00d8f4349e62e402 !3359 [sync] PR-2287:  scsi: lpfc: Fix ioremap issues in lpfc_sli4_pci_mem_setup()
+8382d4a74617ad68c306fa4f25c084028a9275ce !3023 [sync] PR-1666:  nvme-pci: fix timeout request state check
+2b01bc8d4f04fd4939d8b6c54fb715d7e5323dd3 !3361 [sync] PR-2188:  nvme-pci: fix mempool alloc size
+d6f370a8e3116bf8a98d9105945c116b3847b472 !3362 [sync] PR-1680:  nvme-pci: fix doorbell buffer value endianness
+5264faf90ddca017dbe35de93c97ef53ef4a389d !4239 [sync] PR-3228:  net: txgbe: Fix memleak in txgbe_calc_eeprom_checksum()
+1c7bc6f288fac5ca2ca4cce089122e572f93d9d3 !4282 [sync] PR-4270:  fix spinlock already unlocked in inet_csk_reqsk_queue_add' bug
+53a3534647e7a125ed5944b6bed0b05913c226bc !3859 [sync] PR-3756:  md: mainline backport
+b9e6952c76d971e07eb1f45f2d1228f19b651ceb drm/atomic: Fix potential use-after-free in nonblocking commits
+75eff6aedad4158b9001d5e3b884766b382e9b6b !4118 [sync] PR-3975:  md/raid1-10: limit the number of plugged bio
+034d4639a80e9bb3475ad921b55f0cff364cf6bc io_uring/af_unix: disable sending io_uring over sockets
+f06cd32eb12eb9bff2e725696490578e92db9090 !4420 v2  drm/atomic: Fix potential use-after-free in nonblocking commits
+7f1a2e37a3580ef4efd3125a2b63b7bc497c92f2 !4096 [sync] PR-4090:  ida: Fix crash in ida_free when the bitmap is empty
+8fdea5ad5a5de632af1be81ff3e94d1bd6d9cc2d ubifs: Queue up space reservation tasks if retrying many times
+8446c1ccd5d888d309e44f5bf7541e7e83385361 !4447 [sync] PR-4321:  io_uring/af_unix: disable sending io_uring over sockets
+81444bdeb99cedd929824215a1638b314efc8bfd !4498 [sync] PR-4362:  ubifs: Queue up space reservation tasks if retrying many times
 
---===============7002657007809031198==--
+--===============8123482912511032518==--
