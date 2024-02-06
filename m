@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============8962937406687836862=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 06 Feb 2024 18:38:14 -0000
-Message-Id: <170724469478.30086.5993058993817996083@gitolite.kernel.org>
-
---===============8962937406687836862==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
+Date: Tue, 06 Feb 2024 18:39:39 -0000
+Message-Id: <170724477935.30634.9737085220550367170@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 3ee6a7b0eda7305f8c6b94ffd4eb5d31d92762d8
-    new: b5913f2e30867fe535c1d28a8bb7460a71bb1715
+    old: 96d874780bf5b6352e45b4c07c247e37d50263c3
+    new: 4479efc1f1aa89ac9bcb8ac8420e317eef7d7c50
     log: |
-         b5913f2e30867fe535c1d28a8bb7460a71bb1715 Update B458ABB0D8D378E3 (Michael Walle)
+         9755f5179e1ff3139a94f2ba3517d11f00908564 Bluetooth: Enforce validation on max value of connection interval
+         b23205e3689d7120401703f3d61a09832160c00e Bluetooth: btintel: Fix null ptr deref in btintel_read_version
+         81fa26ea8bfae03cc8dd0b61a7f0124132ac5304 Bluetooth: qca: Fix wrong event type for patch config command
+         1fec15bb4d99dae8b2a8535089669e6853eea477 Bluetooth: hci_qca: Set BDA quirk bit if fwnode exists in DT
+         4479efc1f1aa89ac9bcb8ac8420e317eef7d7c50 Bluetooth: qca: Fix triggering coredump implementation
          
-
---===============8962937406687836862==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1707244694 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1707244694-f20161aa1a66b71e68e2333488fddc4001ee777d
-
-3ee6a7b0eda7305f8c6b94ffd4eb5d31d92762d8 b5913f2e30867fe535c1d28a8bb7460a71bb1715 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZcJ8lgAKCRC2xBzjVmSZ
-bOBgAQCjtMBm/e1LNaRGxT+6+6stpIsjHDW3qL2MLOEa8r5RIgEAsqM+BUtlZbVZ
-2ORwFX+kS0F9zzYnb0xFF1A0dRR9dQQ=
-=Qf7E
------END PGP SIGNATURE-----
-
---===============8962937406687836862==--
