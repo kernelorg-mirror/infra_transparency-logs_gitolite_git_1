@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 06 Feb 2024 07:44:04 -0000
-Message-Id: <170720544458.24484.1981631800844208398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 06 Feb 2024 07:47:05 -0000
+Message-Id: <170720562587.27609.7449849209857746401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 4774bdb80a720c840c35456f6abc0c5ec5b45491
-    new: e024fa6a5566da09365453b778e758a44e0dd5ff
+  - ref: refs/heads/master
+    old: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
+    new: 99bd3cb0d12e85d5114425353552121ec8f93adc
     log: |
-         e024fa6a5566da09365453b778e758a44e0dd5ff perf/pmu-events/powerpc: Update json mapfile with Power11 PVR
+         eba38cc7578bef94865341c73608bdf49193a51d bcachefs: Fix build on parisc by avoiding __multi3()
+         6bb3f7f4c3f4da8e09de188f2f63e8f741bba3bd bcachefs: unlock parent dir if entry is not found in subvolume deletion
+         dd839f31d7cd5e04f4111a219024268c6f6973f0 bcachefs: install fd later to avoid race with close
+         7b508b323b2ec45be59769bd4e4aeba729c52cf6 bcachefs: time_stats: Check for last_event == 0 when updating freq stats
+         99bd3cb0d12e85d5114425353552121ec8f93adc Merge tag 'bcachefs-2024-02-05' of https://evilpiepirate.org/git/bcachefs
          
