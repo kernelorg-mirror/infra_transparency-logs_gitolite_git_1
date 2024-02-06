@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Tue, 06 Feb 2024 03:58:27 -0000
-Message-Id: <170719190733.22699.6776522037303768321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 06 Feb 2024 03:59:09 -0000
+Message-Id: <170719194910.23041.4600410645696943707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-firmware-kernelci
-    old: c6b0a4ceb7c9d8bb014d2967c97c8c7cbf60b006
-    new: e3c5df138169b5494a16b20e74db1ee14b1901ce
+  - ref: refs/heads/master
+    old: 2d9a925d0fbf0dae99af148adaf4f5cadf1be5e0
+    new: 8244ab509f89d63941d5ee207967c5a3e00bb493
     log: |
-         e3c5df138169b5494a16b20e74db1ee14b1901ce firmware: coreboot: make coreboot_bus_type const
-         
-  - ref: refs/heads/for-firmware-next
-    old: c6b0a4ceb7c9d8bb014d2967c97c8c7cbf60b006
-    new: e3c5df138169b5494a16b20e74db1ee14b1901ce
-    log: |
-         e3c5df138169b5494a16b20e74db1ee14b1901ce firmware: coreboot: make coreboot_bus_type const
+         a44b1334aadd82203f661adb9adb41e53ad0e8d1 bpf: Allow calling static subprogs while holding a bpf_spin_lock
+         e8699c4ff85baedcf40f33db816cc487cee39397 selftests/bpf: Add test for static subprog call in lock cs
+         8244ab509f89d63941d5ee207967c5a3e00bb493 Merge branch 'enable-static-subprog-calls-in-spin-lock-critical-sections'
          
