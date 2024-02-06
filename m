@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5086590105552077441=="
+Content-Type: multipart/mixed; boundary="===============1687282402799494227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 06 Feb 2024 17:33:55 -0000
-Message-Id: <170724083527.32597.8251670353085689135@gitolite.kernel.org>
+Date: Tue, 06 Feb 2024 17:34:06 -0000
+Message-Id: <170724084664.32759.2137969340730703957@gitolite.kernel.org>
 
---===============5086590105552077441==
+--===============1687282402799494227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.9
-    old: cd86e7c02aa28fc2537fd08b092e4e7297c0b968
+  - ref: refs/heads/for-next
+    old: 0a9bab391e336489169b95cb0d4553d921302189
     new: 6fb4540a00c9e058154b39364c5b31e770feca79
-    log: revlist-cd86e7c02aa2-6fb4540a00c9.txt
+    log: revlist-0a9bab391e33-6fb4540a00c9.txt
 
---===============5086590105552077441==
+--===============1687282402799494227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd86e7c02aa2-6fb4540a00c9.txt
+Content-Disposition: attachment; filename=revlist-0a9bab391e33-6fb4540a00c9.txt
 
 a9668169961106f3598384fe95004106ec191201 HID: hid-steam: remove pointless error message
 a9f1da09c69f13ef471db8b22107a28042d230ca HID: hid-steam: Fix cleanup in probe()
@@ -540,4 +540,4 @@ e39721ac2ce5035761f914f75c40074a0913a23d dm verity: Fix IO priority lost when re
 60ba148dce7509fb7669bcc36e13d7069f6e4064 dm crypt: Fix IO priority lost when queuing write bios
 6fb4540a00c9e058154b39364c5b31e770feca79 dm verity: set DM_TARGET_SINGLETON feature flag
 
---===============5086590105552077441==--
+--===============1687282402799494227==--
