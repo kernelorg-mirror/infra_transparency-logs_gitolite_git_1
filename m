@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 06 Feb 2024 00:12:37 -0000
-Message-Id: <170717835791.14445.9371424846836678063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Tue, 06 Feb 2024 00:19:25 -0000
+Message-Id: <170717876500.18436.828917096070525247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 366fb5f59d470ad1271cd4bbc3c580ad6118943d
-    new: acfd65c89403f3f6478d4451d76377dd8b88bf02
+  - ref: refs/heads/for-6.9
+    old: 8eb17dc1a6b5db7e89681f59285242af8d182f95
+    new: 3bc1e711c26bff01d41ad71145ecb8dcb4412576
     log: |
-         2882358b8b83b417a9d82205ae6aae5be00bd989 perf tsc: Add missing newlines to debug statements
-         f5144ecad74101f87843aa08070df26a3937102a perf parse-events: Improve error location of terms cloned from an event
-         fd7b8e8fb20f51d60dfee7792806548f3c6a4c2c perf parse-events: Print all errors
-         b8db070f389c902f48e83ee7a94952e9557199e8 perf jevents: Drop or simplify small integer values
-         ffd856537b95dd65facb4e0c78ca1cb92c2048ff perf bpf: Clean up the generated/copied vmlinux.h
-         acfd65c89403f3f6478d4451d76377dd8b88bf02 tools: perf: Expose sample ID / stream ID to python scripts
+         3bc1e711c26bff01d41ad71145ecb8dcb4412576 workqueue: Don't implicitly make UNBOUND workqueues w/ @max_active==1 ordered
+         
+  - ref: refs/heads/for-next
+    old: 8fea0c8fda30129b4168464975505d5dc9735ac1
+    new: 466287083d46f9c39aa3dc75650a66d935e0b3e2
+    log: |
+         3bc1e711c26bff01d41ad71145ecb8dcb4412576 workqueue: Don't implicitly make UNBOUND workqueues w/ @max_active==1 ordered
+         466287083d46f9c39aa3dc75650a66d935e0b3e2 Merge branch 'for-6.9' into for-next
          
