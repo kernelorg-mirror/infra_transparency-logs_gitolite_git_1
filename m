@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 06 Feb 2024 17:21:51 -0000
-Message-Id: <170724011176.11626.9860783169441451068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Tue, 06 Feb 2024 17:30:20 -0000
+Message-Id: <170724062035.31251.16146193181229805180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/linux-4.19.y-cip
-    old: 6617f4528449a329abd3b2dab36052b341610d99
-    new: 5723c66be3b09629fae4fec9711e11f0d020e81a
+  - ref: refs/heads/master
+    old: 48b0c75f79f86140314b9656d3d855a515e18a73
+    new: b29704cd448aaa455dba4e656fc0f0d3c686df3f
     log: |
-         a51f5c8b66b78463dcc0a93684e671f30a59cdb8 ravb: update "undocumented" annotations
-         5723c66be3b09629fae4fec9711e11f0d020e81a ravb: remove undocumented endianness selection
+         594f102cf575b0d5c01ebff22aae450c8a204d45 Drop python bindings
+         9b8b4af54c8c4cba49f4a1ab355b52c6376251f6 ci: drop travis config
+         1043f6f0234dbdb872372d419222d80e6c7fdce7 testsuite: drop mkosi
+         b29704cd448aaa455dba4e656fc0f0d3c686df3f gitignore: Ignore *.pc files
          
