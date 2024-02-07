@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2705678650594108555=="
+Content-Type: multipart/mixed; boundary="===============3798838141371570845=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 07 Feb 2024 23:23:19 -0000
-Message-Id: <170734819910.9218.6202213558181341301@gitolite.kernel.org>
+Date: Wed, 07 Feb 2024 23:23:53 -0000
+Message-Id: <170734823398.9509.17917922412785153031@gitolite.kernel.org>
 
---===============2705678650594108555==
+--===============3798838141371570845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 5001bfe927b594470f3a2484cb410b8b42a47903
-    new: 335bac1daae3fd9070d0f9f34d7d7ba708729256
-    log: revlist-5001bfe927b5-335bac1daae3.txt
+  - ref: refs/heads/dev-queue
+    old: 95f49c86fa083e05b00fcd12913a61f03ab0b1c1
+    new: bd43c5687e058641da10c9467860522155c2580c
+    log: revlist-95f49c86fa08-bd43c5687e05.txt
 
---===============2705678650594108555==
+--===============3798838141371570845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5001bfe927b5-335bac1daae3.txt
+Content-Disposition: attachment; filename=revlist-95f49c86fa08-bd43c5687e05.txt
 
 9b3058d1f456464a02e202cc7fc660508709097c MAINTAINERS: remove myself as iwlwifi driver maintainer
 353d321f63f7dbfc9ef58498cc732c9fe886a596 wifi: iwlwifi: fix double-free bug
@@ -59,5 +59,19 @@ a23c0af103e184bb1252dddddda040f6641bea7b wifi: iwlwifi: do not announce EPCS sup
 0647903efbc84b772325b4d24d9487e24d6d1e03 wifi: mt76: mt7996: fix fortify warning
 75428f537d7cae33c7e4dd726144074f78622c09 net: intel: fix old compiler regressions
 335bac1daae3fd9070d0f9f34d7d7ba708729256 Merge tag 'wireless-2024-02-06' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+3a7b9cfbf5b3784ee9337c8c4a8099f08b71a5c9 i40e: Fix waiting for queues of all VSIs to be disabled
+257f0bd2c5974138e6b8ee980f930d2b86436d08 i40e: Fix wrong mask used during DCB config
+991382f82052c76b4fa7601cf0bc6361d2515c29 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+349df2710d374504342b602c4a82145c4ce7ea8e igb: Fix string truncation warnings in igb_set_fw_version
+1f02da0f6aa87fa128a1855d752529792c0452df ice: Add check for lport extraction to LAG init
+0876cef1d73e0ad750cc8000a193ae6b2bd9dce4 iavf: fix reset in early states
+4919ba0dbea5dac988085b718920a9dfaeb27063 iavf: allow an early reset event to be processed
+360bf506065d2721b695a5c0e941b3c3d9a3afae igc: Remove temporary workaround
+b9098bfb5a05b878b2a298ee4c8c216920d86ad3 ice: fix connection state of DPLL and out pin
+3990c7e86b55bcbd1e03f2cc99689c8a08637c46 i40e: Do not allow untrusted VF to remove administratively set MAC
+0582cb94010f55480017d8752091d785fd7a2a55 ice: virtchnl: stop pretending to support RSS over AQ or registers
+387d751b346ca9c0d407f67780259d6b606ad517 i40e: avoid double calling i40e_pf_rxq_wait()
+23e0996348c8530a8a545fdd4ef3ee7e33b3a05f i40e: take into account XDP Tx queues when stopping rings
+bd43c5687e058641da10c9467860522155c2580c ice: Refactor FW data type and fix bitmap casting issue
 
---===============2705678650594108555==--
+--===============3798838141371570845==--
