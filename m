@@ -1,46 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============1894666390393313072=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 07 Feb 2024 17:16:28 -0000
-Message-Id: <170732618866.32550.11083099854323692052@gitolite.kernel.org>
-
---===============1894666390393313072==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 07 Feb 2024 17:19:10 -0000
+Message-Id: <170732635039.1142.10300700505746404493@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 2d94097cd5aedddd6985ec6154e0956293f4143b
-    new: 0fe26a3bbadfeb4a86f92b7b1e32aef203fe59f7
+  - ref: refs/heads/main
+    old: 1ce2654d87e2fb91fea83b288bd9b2641045e42a
+    new: 5001bfe927b594470f3a2484cb410b8b42a47903
     log: |
-         0fe26a3bbadfeb4a86f92b7b1e32aef203fe59f7 ty: auto-matching: Do not consume commit decorations
+         1279f9d9dec2d7462823a18c29ad61359e0a007d af_unix: Call kfree_skb() for dead unix_(sk)->oob_skb in GC.
+         58086721b7781c3e35b19c9b78c8f5a791070ba3 devlink: avoid potential loop in devlink_rel_nested_in_notify_work()
+         cb88cb53badb8aeb3955ad6ce80b07b598e310b8 ppp_async: limit MRU to 64K
+         38cc3c6dcc09dc3a1800b5ec22aef643ca11eab8 net: stmmac: protect updates of 64-bit statistics counters
+         4b00d0c513da58b68df015968721b11396fe4ab3 selftests: cmsg_ipv6: repeat the exact packet
+         5001bfe927b594470f3a2484cb410b8b42a47903 MAINTAINERS: Maintainer change for rds
          
-
---===============1894666390393313072==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1707326187 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1707326187-6a1376e2fe62c8d28a4eff835b47ed46838764da
-
-2d94097cd5aedddd6985ec6154e0956293f4143b 0fe26a3bbadfeb4a86f92b7b1e32aef203fe59f7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZcO66wAKCRC2xBzjVmSZ
-bJu4AP90cpAe6QRGFV69b14oAPSHhhOBAdWhtyekGOXlGlx5tgD+J/Cefmh+HXS6
-/AnRcAKZNhH3e/bYh6C9lmTw4D4AbQw=
-=cQAI
------END PGP SIGNATURE-----
-
---===============1894666390393313072==--
