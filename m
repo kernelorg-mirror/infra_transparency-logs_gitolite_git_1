@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 07 Feb 2024 05:06:23 -0000
-Message-Id: <170728238392.5257.5867915904623862430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 07 Feb 2024 05:09:41 -0000
+Message-Id: <170728258136.7807.7188401735944015666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 1f1a48cb443225cb9884cdac94b28fbe72eb3874
-    new: 65f976a4299c5de2d2c9162c0337f95b7447243d
+  - ref: refs/heads/tmp.perf-tools-next
+    old: f659d580f8fab98de719077b9b1747defba28fec
+    new: 7f21597b5caa02c9f84b809955ee812117f4780b
     log: |
-         65f976a4299c5de2d2c9162c0337f95b7447243d hwmon: Add driver for Astera Labs PT5161L retimer
+         7f21597b5caa02c9f84b809955ee812117f4780b perf record: Display data size on pipe mode
          
