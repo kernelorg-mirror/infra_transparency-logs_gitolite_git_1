@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7508785706223243721=="
+Content-Type: multipart/mixed; boundary="===============8264172032681990605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 07 Feb 2024 16:54:39 -0000
-Message-Id: <170732487914.14653.9126913979523510516@gitolite.kernel.org>
+Date: Wed, 07 Feb 2024 16:54:44 -0000
+Message-Id: <170732488435.14793.16649760661495273316@gitolite.kernel.org>
 
---===============7508785706223243721==
+--===============8264172032681990605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-vdo-wip
-    old: 1c60650a5fd620283a0e4170dc8e38717574e4a2
-    new: c7fe1bdd051ffbd074c800b212ab4a0a50da0175
-    log: revlist-1c60650a5fd6-c7fe1bdd051f.txt
+  - ref: refs/heads/dm-vdo
+    old: fdd7e1fc5f10a54c01c9291644215fc9522d004e
+    new: 6206712f8d19a7ea4c8f628a9923fe1aa2f08562
+    log: revlist-fdd7e1fc5f10-6206712f8d19.txt
 
---===============7508785706223243721==
+--===============8264172032681990605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c60650a5fd6-c7fe1bdd051f.txt
+Content-Disposition: attachment; filename=revlist-fdd7e1fc5f10-6206712f8d19.txt
 
 bd43c29003b96d9c29927e4febb7b271e40378b8 dm ioctl: update DM_DRIVER_EMAIL to new dm-devel mailing list
 85cf3b1504d7823f277a9d5840028064560d907f dm: add documentation for dm-vdo target
@@ -102,7 +102,5 @@ e5cf7d400e65063372d378941f24cd55372a9e94 dm vdo: fix various blk_opf_t sparse wa
 ef72db6722b1f07310e37d37dd22aa2370900851 dm vdo data-vio: silence sparse warnings about locking context imbalances
 347d4f444ab3fbadca63ef2ad2a7e8c42f75978c dm vdo dedupe: silence sparse warnings about locking context imbalances
 6206712f8d19a7ea4c8f628a9923fe1aa2f08562 dm vdo recovery-journal: fix sparse 'mixed bitwiseness' warning
-53a21cd50fa4595f3c3d0b0f6a1ef35f8ee3f4ca dm vdo: move encoding constants to encodings.c
-c7fe1bdd051ffbd074c800b212ab4a0a50da0175 dm vdo: use #define for NO_CHAPTER and NO_CHAPTER_INDEX_ENTRY
 
---===============7508785706223243721==--
+--===============8264172032681990605==--
