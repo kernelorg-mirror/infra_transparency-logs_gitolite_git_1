@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 07 Feb 2024 20:37:11 -0000
-Message-Id: <170733823121.18399.14477141108529372642@gitolite.kernel.org>
+Date: Wed, 07 Feb 2024 20:37:18 -0000
+Message-Id: <170733823814.18701.10964276516049683139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-vdo-wip
+  - ref: refs/heads/for-next
     old: c7fe1bdd051ffbd074c800b212ab4a0a50da0175
     new: 3166856d9cef7d96125f6781e1c3648da5165513
     log: |
