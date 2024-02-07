@@ -1,42 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2221353657952288149=="
+Content-Type: multipart/mixed; boundary="===============8949293896175274506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 07 Feb 2024 06:39:30 -0000
-Message-Id: <170728797049.6609.10425246545274012280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 07 Feb 2024 06:39:40 -0000
+Message-Id: <170728798032.6747.8983449864881371768@gitolite.kernel.org>
 
---===============2221353657952288149==
+--===============8949293896175274506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: ac139fc7db67968e5061715508b5fc4aa7c40c56
     new: 2ae0a045e6814c8c1d676d6153c605a65746aa29
     log: revlist-ac139fc7db67-2ae0a045e681.txt
-  - ref: refs/heads/stable
-    old: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
-    new: 99bd3cb0d12e85d5114425353552121ec8f93adc
-    log: |
-         eba38cc7578bef94865341c73608bdf49193a51d bcachefs: Fix build on parisc by avoiding __multi3()
-         6bb3f7f4c3f4da8e09de188f2f63e8f741bba3bd bcachefs: unlock parent dir if entry is not found in subvolume deletion
-         dd839f31d7cd5e04f4111a219024268c6f6973f0 bcachefs: install fd later to avoid race with close
-         7b508b323b2ec45be59769bd4e4aeba729c52cf6 bcachefs: time_stats: Check for last_event == 0 when updating freq stats
-         99bd3cb0d12e85d5114425353552121ec8f93adc Merge tag 'bcachefs-2024-02-05' of https://evilpiepirate.org/git/bcachefs
-         
-  - ref: refs/tags/next-20231107
-    old: fe2667a6031ca503a6e896261a3ebfaa12301c19
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240207
     old: 0000000000000000000000000000000000000000
     new: fd0385d268867daeb8aed7bc77cf7dbb7c5eaa27
 
---===============2221353657952288149==
+--===============8949293896175274506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1067,4 +1054,4 @@ c15d59a8fd0ce7fd9351fb1570301aa45797a2da Merge branch 'slab/for-next' of git://g
 de20c5e21f37ace305a0c754a1ec3bba3a918fe0 fix up for "mm/swap: fix race condition in direct swapin path"
 2ae0a045e6814c8c1d676d6153c605a65746aa29 Add linux-next specific files for 20240207
 
---===============2221353657952288149==--
+--===============8949293896175274506==--
