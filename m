@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 07 Feb 2024 16:18:10 -0000
-Message-Id: <170732269041.13879.1387444469669756618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 07 Feb 2024 16:18:12 -0000
+Message-Id: <170732269222.13945.3208478506549325658@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: b8695d5e5444ee8784148e714d8f2b6f7e523570
-    new: 1c60650a5fd620283a0e4170dc8e38717574e4a2
-    log: |
-         1c60650a5fd620283a0e4170dc8e38717574e4a2 dm vdo: use #define for NO_CHAPTER and NO_CHAPTER_INDEX_ENTRY
-         
+  - ref: refs/tags/drm-intel-next-2017-08-18
+    old: 68b724e58c31b24e00b981d892eb5d45fbb09e8e
+    new: 0000000000000000000000000000000000000000
