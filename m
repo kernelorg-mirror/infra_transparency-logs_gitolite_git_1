@@ -1,105 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1645381467699695690=="
+Content-Type: multipart/mixed; boundary="===============2573900708594950662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 07 Feb 2024 17:55:37 -0000
-Message-Id: <170732853795.29909.16092921878196761377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 07 Feb 2024 18:07:56 -0000
+Message-Id: <170732927638.6532.16495743240279823329@gitolite.kernel.org>
 
---===============1645381467699695690==
+--===============2573900708594950662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/next
-    old: 7a6a6b9afef46aae13590758ab4d6e6832820410
-    new: 2cd6caaf70bde253cc33426fc7789b69cb8ef8f4
-    log: revlist-7a6a6b9afef4-2cd6caaf70bd.txt
-  - ref: refs/heads/seen
-    old: 1b52b9ad6cb195bfcf5b8f748f745cf2b558efdf
-    new: cbd9e6f05c769f9fb4b11d3277d957cd98d17bf2
-    log: revlist-1b52b9ad6cb1-cbd9e6f05c76.txt
+  - ref: refs/heads/master
+    old: 6d280f4d760e3bcb4a8df302afebf085b65ec982
+    new: 547ab8fc4cb04a1a6b34377dd8fad34cd2c8a8e3
+    log: revlist-6d280f4d760e-547ab8fc4cb0.txt
 
---===============1645381467699695690==
+--===============2573900708594950662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a6a6b9afef4-2cd6caaf70bd.txt
+Content-Disposition: attachment; filename=revlist-6d280f4d760e-547ab8fc4cb0.txt
 
-77d1ae47937f35352efe22a960b544088f2f6158 Merge branch 'jc/reftable-core-fsync' into ps/reftable-multi-level-indices-fix
-d55fc5128b26a64c2e7b6612d0442c9e924696e8 reftable/reader: be more careful about errors in indexed seeks
-9ebb2d7b08c9f17a846b7c90082c9d15b9f6c9d2 reftable/writer: use correct type to iterate through index entries
-b66e006ff534c72c70132105fff06601aa60a625 reftable/writer: simplify writing index records
-e7485601ca4da6a09c6488add181609cffec5799 reftable/writer: fix writing multi-level indices
-4950acae7d0db40c327003eff2621aaa2172322c reftable: document reading and writing indices
-e94dec0c1d7709282c2bff168bdad5485a95baa8 GitHub Actions: update to checkout@v4
-c4ddbe043ebfecba68943e1b38b9d6c179e734da GitHub Actions: update to github-script@v7
-dcce2bda214ac4c838f4b85f2c550816df3a6ac9 Merge branch 'jc/maint-github-actions-update' into jc/github-actions-update
-143f47a07919756128d2780b49b120362778c539 Merge branch 'ps/reftable-multi-level-indices-fix' into next
-2cd6caaf70bde253cc33426fc7789b69cb8ef8f4 Merge branch 'jc/github-actions-update' into next
+fe752331d4b361d43cfd0b89534b4b2176057c32 KVM: s390: vsie: fix race during shadow creation
+83303a4c776ce1032d88df59e811183479acea77 KVM: s390: fix cc for successful PQAP
+367188297254e7f81e3c3c94e6d6a623f757c4cb RISC-V: KVM: Allow Zbc extension for Guest/VM
+ac396141308d07a9534c5a7f1f7c80cb95e35b20 KVM: riscv: selftests: Add Zbc extension to get-reg-list test
+f370b4e668f017f523968f7490163fa922dcd92e RISC-V: KVM: Allow scalar crypto extensions for Guest/VM
+14d70de562dfd78be638fc59b0a323235acc67be KVM: riscv: selftests: Add scaler crypto extensions to get-reg-list test
+afd1ef3adfbc36e35fcf4f742fd90aea6480a276 RISC-V: KVM: Allow vector crypto extensions for Guest/VM
+2ddf79070f7edada19fecec57d8591d6b718fa53 KVM: riscv: selftests: Add vector crypto extensions to get-reg-list test
+f3901ece5b3894177d1816208d0fb06b295617e0 RISC-V: KVM: Allow Zfh[min] extensions for Guest/VM
+496ee21a17ce45e92483fdf1827ba91f4867f160 KVM: riscv: selftests: Add Zfh[min] extensions to get-reg-list test
+ab6da9cdc3f3d1d091d657219fb6e98f710ee098 RISC-V: KVM: Allow Zihintntl extension for Guest/VM
+1a3bc507821d24a80a6af8beb08af8032c33ebd7 KVM: riscv: selftests: Add Zihintntl extension to get-reg-list test
+f46300285926c2b0d0c79bf40c87d45e169cecb6 RISC-V: KVM: Allow Zvfh[min] extensions for Guest/VM
+1216fdd99be113fa75ccdd0497802bd0fe4369aa KVM: riscv: selftests: Add Zvfh[min] extensions to get-reg-list test
+41182cc6f507011a2e6c82657779e451ed9942bb RISC-V: KVM: Allow Zfa extension for Guest/VM
+4d0e8f9a361b3a1f7b67418c536b258323de734f KVM: riscv: selftests: Add Zfa extension to get-reg-list test
+3f5198c7f6722b07e6c827d674fdaf3d7019ed21 Merge tag 'kvm-s390-master-6.8-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
+11f563320917d4c9cee5d572a344c1360487530d Merge tag 'kvm-riscv-6.8-2' of https://github.com/kvm-riscv/linux into HEAD
+9e05d9b06757732477cca428e87f3d72163d01cf KVM: x86: Check irqchip mode before create PIT
+d52734d00b8e86604a66b4cdfa9e8bb541daca2d KVM: x86: Give a hint when Win2016 might fail to boot due to XSAVES erratum
+a9ef277488cfc1b7da88235dc11c338a14f34835 x86/kvm: Fix SEV check in sev_map_percpu_data()
+5ea9a7c5fe4149f165f0e3b624fe08df02b6c301 nfsd: don't take fi_lock in nfsd_break_deleg_cb()
+b3ff2d9c3a9c64cd0a011cdd407ffc38a6ea8788 LoongArch: Select ARCH_ENABLE_THP_MIGRATION instead of redefining it
+6b79ecd084c99b31c8b4d0beda08893716d5558e LoongArch: Select HAVE_ARCH_SECCOMP to use the common SECCOMP menu
+4551b30525cf3d2f026b92401ffe241eb04dfebe LoongArch: Change acpi_core_pic[NR_CPUS] to acpi_core_pic[MAX_CORE_PIC]
+639420e9f6cd9ca074732b17ac450d2518d5937f LoongArch: Fix earlycon parameter if KASAN enabled
+cca5efe77a6a2d02b3da4960f799fa233e460ab1 LoongArch: vDSO: Disable UBSAN instrumentation
+e459647710070684a48384d67742822379de8c1c x86/coco: Define cc_vendor without CONFIG_ARCH_HAS_CC_PLATFORM
+c8d80f83de47fd183a0eef2d6b1085d4fdecea37 Merge tag 'nfsd-6.8-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+5c24ba20555acd68537be26f05296649e171a27d Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+547ab8fc4cb04a1a6b34377dd8fad34cd2c8a8e3 Merge tag 'loongarch-fixes-6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 
---===============1645381467699695690==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b52b9ad6cb1-cbd9e6f05c76.txt
-
-db489ea4f368656d7b0d5702f0bcc06779ea89d0 completion: tests: always use 'master' for default initial branch name
-e1f74dd58b77fe9bc5ed196221642395cf8951d0 completion: bisect: complete bad, new, old, and help subcommands
-af8910a2d4cdc3452c4b48e073e18fc10ff76723 completion: bisect: complete custom terms and related options
-41928aeb45e70d4361c780cc69d3975faee5eec4 completion: bisect: complete missing --first-parent and - -no-checkout options
-a9e5b7a76da5ceab772166c94830dd899cf55b88 completion: new function __git_complete_log_opts
-d115b877879cc8d072971437395ea2b97d47a7d7 completion: bisect: complete log opts for visualize subcommand
-d8e08f0717c17b2ee629c50844c34adc83575ad0 completion: bisect: recognize but do not complete view subcommand
-57db2a094d5ec781abc05d682c20d4eaa9dbdc11 refs: introduce reftable backend
-c0350cb96465b152ce67ef381af058594713f99b ci: add jobs to test with the reftable backend
-15236b5b0169ad29d84977e9a6ba7d6bfc9f8382 merge-tree: fail with a non-zero exit code on missing tree objects
-785f4f6846ad904c4ff59ff40df6ced9cd50a83d merge-ort: do check `parse_tree()`'s return value
-88d5722104e11963966a95cf785fb459813de5e5 t4301: verify that merge-tree fails on missing blob objects
-3f9726018931edf7fd912bd2366bd0ac96fdd280 Always check `parse_tree*()`'s return value
-c9518b52816f775b073b8b2d9759673d43484869 cache-tree: avoid an unnecessary check
-1dbe40156307763255d96653cc853ef4ff841920 show-ref --verify: accept pseudorefs
-1af410d455c5cddae1cdea3e5333ffd6ab616045 t1400: use show-ref to check pseudorefs
-75cab7722b9c1c92bda67461edbabfc5b736e71f Merge branch 'cp/unit-test-prio-queue' into jch
-41c4570d404244ebcc8df742c172590c325d5f05 Merge branch 'jc/index-pack-fsck-levels' into jch
-6ddaee2effb978337d324a85cf441b416a85d8ce Merge branch 'jk/unit-tests-buildfix' into jch
-a2a64a8abc2816ce451a66c80fc1629bac67535b Merge branch 'mh/credential-oauth-refresh-token-with-wincred' into jch
-ab61a68d980d8c22a121e9564395ce52d5c8fc33 Merge branch 'ja/doc-placeholders-fix' into jch
-2c47c383d78813317d65df3288010e1ddd8fa33c Merge branch 'pb/imap-send-wo-curl-build-fix' into jch
-dd504ca357c75e29257d5973a7d768fbafb6bbe0 Merge branch 'jh/sparse-index-expand-to-path-fix' into jch
-f9365a9c644d1d7ca860942cbaad67578f20c103 Merge branch 'js/merge-tree-3-trees' (early part) into jch
-ec15475fcaec68419461235736ae27eb352b0f3f Merge branch 'ps/reftable-multi-level-indices-fix' into jch
-51f023f6e5ee819466a60630eb28655041ae9d62 Merge branch 'jc/github-actions-update' into jch
-50f0c51d355385293bea8bdef6408660ef4357e4 ### match next
-090668ad06a47dcd738561ab28b4d27d6eb1aade Merge branch 'ps/reftable-styles' into jch
-00b8b0728d141102ba86be2a79839f59d5e968fa Merge branch 'ps/reftable-backend' into jch
-e910d153c1b861f22d7707649b46c8350a6ea15b Merge branch 'cp/apply-core-filemode' into jch
-1c5d4df449a720343f0ddfe38415332959f983fe Merge branch 'jc/bisect-doc' into jch
-6ca28e6b0891541e3592e1cc4f92a1ce5438ca75 Merge branch 'ml/log-merge-with-cherry-pick-and-other-pseudo-heads' into jch
-04c1dfb3edf1a1cc49d48bd47058a5fbe71d027f Merge branch 'tb/path-filter-fix' into jch
-ec6c1fca94ac068f8e0f9b0d115c9bf2d01b50b0 Merge branch 'jc/sign-buffer-failure-propagation-fix' into jch
-819b9999f13b5c4f24fa1ed120249a1a055d28e4 Merge branch 'pb/template-for-single-commit-pr' into jch
-29194ba483513a15639ac987c2dea9d3cd99fdcf Merge branch 'js/merge-tree-3-trees' into jch
-0c2ff8f37bf5e8b8f21b747d0058cf0d9c48927f Merge branch 'ps/report-failure-from-git-stash' into jch
-3fc1d1aa8b009911e6b2a45358348aa3bf1b8ece Merge branch 'js/check-null-from-read-object-file' into jch
-a61b0aa16e06261f6c1dace9065324cb29825e57 Merge branch 'la/trailer-api' into seen
-30111d97ec38a2c6a1e4ce76b50a6d374260234d Merge branch 'rj/complete-reflog' into seen
-189fca3de586492aefc18531d7bb64f6616f17bd Merge branch 'pb/complete-config' into seen
-23a37a512c058641e69f7fdf84b69227170aa89c Merge branch 'eb/hash-transition' into seen
-11d9b1819b30d153af65d66b55a3543ad2ce9a3e Merge branch 'ak/color-decorate-symbols' into seen
-f60ffbce7da10cdb3e928fd7c82a604b7fb74587 Merge branch 'jc/rerere-cleanup' into seen
-7af89b9a1abf7c2ad9015eba4eaa4d21a89f5ac6 Merge branch 'bk/complete-bisect' into seen
-e46538b6c2ae991fff4452e8e4edc7edf1526f9c Merge branch 'bk/complete-send-email' into seen
-dc68d5d1677a863be55bc0cffc483bf25297b033 Merge branch 'bk/complete-dirname-for-am-and-format-patch' into seen
-37fec3f451de694a2279f599df2be78ae9e8df48 Merge branch 'cc/rev-list-allow-missing-tips' into seen
-2b8f3fb2f1b50cabbf062eb4731771e2b4cf7d2f Merge branch 'ps/reftable-iteration-perf' into seen
-81fe213067c8eb025622244420d456a6943099f1 Merge branch 'js/unit-test-suite-runner' into seen
-1ec004e2b12d0ce8a442c979f75803c63aad777b Merge branch 'gt/at-is-synonym-for-head-in-add-patch' into seen
-5fbe461c9d6b16ffc0bd073b09f33cb4366145a7 Merge branch 'tb/multi-pack-reuse-experiment' into seen
-cbd9e6f05c769f9fb4b11d3277d957cd98d17bf2 Merge branch 'pw/show-ref-pseudorefs' into seen
-
---===============1645381467699695690==--
+--===============2573900708594950662==--
