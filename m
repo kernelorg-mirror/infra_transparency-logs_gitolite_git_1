@@ -1,28 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 07 Feb 2024 15:23:19 -0000
-Message-Id: <170731939931.3555.11437291312411168262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 07 Feb 2024 15:24:20 -0000
+Message-Id: <170731946086.4021.4460567463399725867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: 610010737f74482a61896596a0116876ecf9e65c
-    new: 64353af49fecbdec1de9aadf2369d54fc00f1899
-    log: |
-         d1722057477a3786b8c0d60c28fc281f6ecf1cc3 ASoC: cs42l43: Handle error from devm_pm_runtime_enable
-         64353af49fecbdec1de9aadf2369d54fc00f1899 ASoC: cs42l43: Add system suspend ops to disable IRQ
-         
-  - ref: refs/heads/for-next
-    old: 2d742f069c1c509b39a13777bd7e33e3a1d93a90
-    new: 258ba1561411325b6b913f757f85c3da626f1288
-    log: |
-         d1722057477a3786b8c0d60c28fc281f6ecf1cc3 ASoC: cs42l43: Handle error from devm_pm_runtime_enable
-         64353af49fecbdec1de9aadf2369d54fc00f1899 ASoC: cs42l43: Add system suspend ops to disable IRQ
-         258ba1561411325b6b913f757f85c3da626f1288 Merge remote-tracking branch 'asoc/for-6.9' into asoc-next
-         
+  - ref: refs/heads/file7jnbFx
+    old: 0000000000000000000000000000000000000000
+    new: 565abf586f3554c94c81027b1f0af1f6a6beea1b
+  - ref: refs/heads/fileDk0hPU
+    old: 0000000000000000000000000000000000000000
+    new: 46d5baf046abeffcb3754321fbc2551027fe7de9
+  - ref: refs/heads/filevf6OiW
+    old: 0000000000000000000000000000000000000000
+    new: 44d3b8a19b91cd2af11f918b2fd05628383172de
+  - ref: refs/heads/v2_20240207_dlechner_spi_axi_spi_engine_performance_improvements
+    old: 0000000000000000000000000000000000000000
+    new: abb4b46c43689dd1f4d80c41e49127ca0ede75b3
