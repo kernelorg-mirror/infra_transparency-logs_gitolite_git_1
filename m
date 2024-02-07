@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 07 Feb 2024 13:38:26 -0000
-Message-Id: <170731310663.24641.15452057409226106165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 07 Feb 2024 13:40:37 -0000
+Message-Id: <170731323758.27064.7456293345166074075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 38cc3c6dcc09dc3a1800b5ec22aef643ca11eab8
-    new: 4b00d0c513da58b68df015968721b11396fe4ab3
+    old: 59d6bccebe5c747d6f4dcbc4862ad7b52571b3fc
+    new: 56b93cd358b304b2d1945c0330dffe8f872bc0d3
     log: |
-         4b00d0c513da58b68df015968721b11396fe4ab3 selftests: cmsg_ipv6: repeat the exact packet
+         56b93cd358b304b2d1945c0330dffe8f872bc0d3 netdevsim: make nsim_bus const
          
