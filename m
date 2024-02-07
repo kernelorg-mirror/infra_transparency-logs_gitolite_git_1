@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 07 Feb 2024 01:00:21 -0000
-Message-Id: <170726762133.17890.16082736076794051035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 07 Feb 2024 01:11:09 -0000
+Message-Id: <170726826977.29278.11503657246229503343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/fixes
-    old: 7914c840451e179bced0a45908f74b8271741082
-    new: dab6d6f7bc49196347946dd6e3665fe71f9ff7f3
+  - ref: refs/heads/todo
+    old: 12caff32f33d34f5840112942db6d2981ee4bf5a
+    new: 111690af4faec484d952d845e5dc5985d47a9861
     log: |
-         dab6d6f7bc49196347946dd6e3665fe71f9ff7f3 riscv: Fix arch_hugetlb_migration_supported() for NAPOT
+         111690af4faec484d952d845e5dc5985d47a9861 What's cooking (2024/02 #03)
          
