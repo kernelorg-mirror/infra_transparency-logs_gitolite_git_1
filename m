@@ -1,39 +1,54 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Wed, 07 Feb 2024 08:49:48 -0000
-Message-Id: <170729578854.1828.15388736343243402100@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8546334123954871876=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
+Date: Wed, 07 Feb 2024 08:52:19 -0000
+Message-Id: <170729593946.4408.18291286416559317149@gitolite.kernel.org>
+
+--===============8546334123954871876==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/jolsa/perf
+user: jolsa
 changes:
-  - ref: refs/heads/fixes
-    old: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
-    new: 9ba17defd9edd87970b701085402bc8ecc3a11d4
-    log: |
-         cd665bfc757c71e9b7e0abff0f362d8abd38a805 dmaengine: dw-edma: Fix the ch_count hdma callback
-         7b52ba8616e978bf4f38f207f11a8176517244d0 dmaengine: dw-edma: Fix wrong interrupt bit set for HDMA
-         930a8a015dcfde4b8906351ff081066dc277748c dmaengine: dw-edma: HDMA_V0_REMOTEL_STOP_INT_EN typo fix
-         e2f6a5789051ee9c632f27a12d0f01f0cbf78aac dmaengine: dw-edma: Add HDMA remote interrupt configuration
-         712a92a48158e02155b4b6b21e03a817f78c9b7e dmaengine: dw-edma: HDMA: Add sync read before starting the DMA transfer in remote setup
-         bbcc1c83f343e580c3aa1f2a8593343bf7b55bba dmaengine: dw-edma: eDMA: Add sync read before starting the DMA transfer in remote setup
-         9d739bccf261dd93ec1babf82f5c5d71dd4caa3e dmaengine: fsl-qdma: fix SoC may hang on 16 byte unaligned read
-         87a39071e0b639f45e05d296cc0538eef44ec0bd dmaengine: fsl-qdma: init irq after reg initialization
-         9ba17defd9edd87970b701085402bc8ecc3a11d4 dmaengine: fsl-edma: correct calculation of 'nbytes' in multi-fifo scenario
-         
-  - ref: refs/heads/next
-    old: 93bdff7bb83a9ea79f41d4e48e1711fd5f4ec4ed
-    new: de7d9cb3b064fdfb2e0e7706d14ffee20b762ad2
-    log: |
-         d2363272ef9f96709ec1a146bb66378256c92e1d dt-bindings: mmp-dma: convert to YAML
-         5dc604455dcf20bdca639bf6b8ea2ea60d39c022 dmaengine: fsl-edma: involve help macro fsl_edma_set(get)_tcd()
-         537df9ab2d72bb782926a7d263a9f0a101e60b2e dmaengine: fsl-edma: fix spare build warning
-         e0a08ed25492b6437e366b347113db484037b9b9 dmaengine: fsl-edma: add address for channel mux register in fsl_edma_chan
-         b51dd7c8aac292396d038d0a9fb9c1589addb515 dmaengine: mcf-edma: utilize edma_write_tcdreg() macro for TCD Access
-         b7b8715b430ee4431bd675687c5bcda113e7ddd4 dt-bindings: fsl-dma: fsl-edma: add fsl,imx95-edma5 compatible string
-         de7d9cb3b064fdfb2e0e7706d14ffee20b762ad2 dmaengine: fsl-edma: integrate TCD64 support for i.MX95
-         
+  - ref: refs/heads/bpf/kprobe_multi_fixes
+    old: 28988caa3898069dd0db4c9a1cf4c8ee813aef60
+    new: de098ca8ef46843dde57ce9e7daefca87b534b35
+    log: revlist-28988caa3898-de098ca8ef46.txt
+
+--===============8546334123954871876==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-28988caa3898-de098ca8ef46.txt
+
+df9705eaa0bad034dad0f73386ff82f5c4dd7e24 bpf: Remove an unnecessary check.
+7e428638bd784fd9e8944bfbf11513520e141b91 selftests/bpf: Fix flaky test ptr_untrusted
+169e650069647325496e5a65408ff301874c8e01 selftests/bpf: Suppress warning message of an unused variable.
+e7f31873176a345d72ca77c7b4da48493ccd9efd selftests/bpf: Fix flaky selftest lwt_redirect/lwt_reroute
+2d9a925d0fbf0dae99af148adaf4f5cadf1be5e0 bpf, docs: Expand set of initial conformance groups
+a44b1334aadd82203f661adb9adb41e53ad0e8d1 bpf: Allow calling static subprogs while holding a bpf_spin_lock
+e8699c4ff85baedcf40f33db816cc487cee39397 selftests/bpf: Add test for static subprog call in lock cs
+8244ab509f89d63941d5ee207967c5a3e00bb493 Merge branch 'enable-static-subprog-calls-in-spin-lock-critical-sections'
+6fceea0fa59f6786a2847a4cae409117624e8b58 bpf: Transfer RCU lock state between subprog calls
+8be6a0147af314fd60db9da2158cd737dc6394a7 selftests/bpf: Add tests for RCU lock transfer between subprogs
+20a286c1a35ba4dc2fca5d4c1fb2e7ced101e576 Merge branch 'transfer-rcu-lock-state-across-subprog-calls'
+2863d665ea41282379f108e4da6c8a2366ba66db xsk: support redirect to any socket bound to the same umem
+968595a93669b6b4f6d1fcf80cf2d97956b6868f xsk: document ability to redirect to any socket bound to the same umem
+6146fae67bc2b92100bff8b2d6a6d5bca07edcf8 Merge branch 'xsk-support-redirect-to-any-socket-bound-to-the-same-umem'
+d7bc416aa5cc183691287e8f0b1d5b182a7ce9c3 libbpf: fix return value for PERF_EVENT __arg_ctx type fix up check
+c7dcb6c9aa85fa310251dad7e233eb955a5235ed selftests/bpf: mark dynptr kfuncs __weak to make them optional on old kernels
+563918a0e3afd97bcfb680b72c52ec080c82aea6 bpf, docs: Fix typos in instructions-set.rst
+c27aa462aa78ff157fdda222af242e4571803d4a bpf: Use -Wno-address-of-packed-member in some selftests
+92a871ab9fa59a74d013bc04f321026a057618e7 libbpf: Use OPTS_SET() macro in bpf_xdp_query()
+f6a8001c4063771b4c67c4d2e16dd6dd10b625ed fix
+1247137ee1a86c088705cebf59de90af52833568 fprobe: Add entry/exit callbacks types
+581053fbc9518dc910e217ba480bdc7c18e64e03 bpf: Add return prog to kprobe multi
+23721a3c72bf30065bb0266ab6d256bc8af8cd14 libbpf: Add return_prog_fd to kprobe multi opts
+de098ca8ef46843dde57ce9e7daefca87b534b35 selftests/bpf: Add kprobe multi return prog test
+
+--===============8546334123954871876==--
