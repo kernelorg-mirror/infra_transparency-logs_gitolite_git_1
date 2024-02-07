@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 07 Feb 2024 20:34:57 -0000
-Message-Id: <170733809771.15641.15158830453524437879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 07 Feb 2024 20:37:11 -0000
+Message-Id: <170733823121.18399.14477141108529372642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 290172535873424c51dc94fb342552788faf538c
-    new: 6eedb37f26fd027e16e72daeed9ccd54bda6a538
+  - ref: refs/heads/dm-vdo-wip
+    old: c7fe1bdd051ffbd074c800b212ab4a0a50da0175
+    new: 3166856d9cef7d96125f6781e1c3648da5165513
     log: |
-         6ae7d795c6b7a5ec1dcbf087b45ffc9765885052 todo: Update
-         1dba9b434c9d8ce30307b5343e7c71ff1f1fbcbd todo: Update status
-         6eedb37f26fd027e16e72daeed9ccd54bda6a538 todo: Update for selftest patches posting
+         be9a6b6dc8228a38b2d5c7e7b4bcab242ef703b0 dm vdo logger: switch UDS_LOG_NOTICE to be alias for UDS_LOG_INFO
+         3166856d9cef7d96125f6781e1c3648da5165513 dm vdo logger: update logging to start with "device-mapper: vdo"
          
