@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 07 Feb 2024 22:30:49 -0000
-Message-Id: <170734504982.4498.6488575715342270880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 07 Feb 2024 22:35:50 -0000
+Message-Id: <170734535033.7842.8867411625141823540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/testing
-    old: 80f019b7d5fde983d507416a61712be6aa6cb106
-    new: a7eaa3316ffa17957ee70a705000a3a942128820
-    log: |
-         bfdd7df496fc8cd026e230e94627b5d9605235e3 netfilter: nft_set_pipapo: store index in scratch maps
-         2210a75d044a3110d0a70bad5eeff268c01492e2 netfilter: nft_set_pipapo: add helper to release pcpu scratch area
-         a7eaa3316ffa17957ee70a705000a3a942128820 netfilter: nft_set_pipapo: remove scratch_aligned pointer
-         
+  - ref: refs/heads/kdevops
+    old: 2f026ace6d490c9c745d3e4ce560bf815e8828d6
+    new: 0ee8f00bd8d3765663b378d0dbda1da79096556f
