@@ -1,42 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============8517091033259664375=="
+Content-Type: multipart/mixed; boundary="===============6939120544151309180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 07 Feb 2024 15:26:11 -0000
-Message-Id: <170731957177.6619.4043616697491052516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Wed, 07 Feb 2024 15:32:04 -0000
+Message-Id: <170731992484.10366.17399882800569564834@gitolite.kernel.org>
 
---===============8517091033259664375==
+--===============6939120544151309180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 94829c7196fb48fc5e4f2170b9808c156b074caf
-    new: a0e452100f6c16cbcdac369628735f578d31ebf3
-    log: revlist-94829c7196fb-a0e452100f6c.txt
+  - ref: refs/tags/samsung-dt-bindings-clk-6.9-3
+    old: 0000000000000000000000000000000000000000
+    new: 58d46003ce4d5b38bcf5d795cff2720c494c3bb0
 
---===============8517091033259664375==
+--===============6939120544151309180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94829c7196fb-a0e452100f6c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0ea74b4de34a12396fe3790590007aa50fcb5d45 MAINTAINERS: Add UBSAN section
-167ebeda36fae4bb47ace32bcacecde7d24d2850 ubsan: Use Clang's -fsanitize-trap=undefined option
-30edbdf9b98ddc9087f5f8b9a9644fa5c05fa5b1 ubsan: Silence W=1 warnings in self-test
-918327e9b7ffb45321cbb4b9b86b58ec555fe6b3 ubsan: Remove CONFIG_UBSAN_SANITIZE_ALL
-2c312f328894df239807173b5b34f1db4cfc397f ubsan: Reintroduce signed overflow sanitizer
-8a05fa1fd114b2e274e43829ce64d3fbea16a283 string: Redefine strscpy_pad() as a macro
-671fa62f7a99df877f89ee77c394e966ee4e631a string: Allow 2-argument strscpy()
-0bf7961afff1f49f20e3f04c3714ee3b47ec6018 string: Allow 2-argument strscpy_pad()
-4a426ec72e48744f392e30809f9f018bf1b732ed um: Convert strscpy() usage to 2-argument style
-9eb24d524bcd61f574c845f12c5c6234785ed56c overflow: Adjust check_*_overflow() kern-doc to reflect results
-f602b19e7837df2ff0045eb517be7da1aa129d53 overflow: Introduce wrapping_add(), wrapping_sub(), and wrapping_mul()
-a0e452100f6c16cbcdac369628735f578d31ebf3 overflow: Introduce wrapping_inc() and wrapping_dec()
+certificate version 0.1
+pusher krzk@kernel.org 1707319922 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1707319922-59c62a390c9e4e827db078e327348c9dd868bddd
 
---===============8517091033259664375==--
+0000000000000000000000000000000000000000 58d46003ce4d5b38bcf5d795cff2720c494c3bb0 refs/tags/samsung-dt-bindings-clk-6.9-3
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmXDonIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD14jMD/wPkmBAnFfOGHTHh1vUW37UA6kKPS6Eakvx
+vK/noM1vBUbm9LmuwobfDH16mUeFQ3lE2YNSVTLxkq7O99DhbBVWFoZHPnNMIYRU
+HEpqwEEfxSAuvwCav9VXnP00cFQKJYtrf1NfnpA05xZGxvoLVfM8WByBs2QstRBL
+8jIoMCEMq82hTHaz2LiIjy1rbi28GOgMIhnOItK+z21OlXh54VUtpxZTC72p4lNX
+1utl0yyZmb5f4j0kr1SGMTxqnfFur6RUm6fUbFtVMikz9GsYehUv9ee9dayhTZuQ
+qaRgiq08l6gz9gsZ4txjBZwbLF+8FcEnL3hI3xPfguU5zrhWWmyQgNRE4hKaMhAO
+FdW14eizc/cz89qihr2mcCScvKkfYOskkRIjjXe7MIclMFpx0JUd8AqBd9/4fUN+
+PpGPrBk/OBk5bOGwDHxDwP0zN600CCx5ydvFWPA/JPpFkYADkJQuN4TnCQQJDan3
+47TfaYut2tNJDPSiv2kv6HE1WmNLg7yk73zWctZti+2Fxzk/1T3GyrZq3lwAUHRt
+DMiRy1LoxW5PHft/z08D47F1x9g8VA887MlirdH0v8ExP77hvDQFONGx+fe0p+Jh
+AUVW4vCACmhDavNhv8qRVAsPWgLDNN26JU6QB7hYn+UY85dj7FAu4T/3RLao6s5N
+fDpz9nCjBw==
+=Aupp
+-----END PGP SIGNATURE-----
+
+--===============6939120544151309180==--
