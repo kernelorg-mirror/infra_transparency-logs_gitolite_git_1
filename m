@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7578910446921292947=="
+Content-Type: multipart/mixed; boundary="===============5310568360814253945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 07 Feb 2024 15:37:26 -0000
-Message-Id: <170732024675.15395.7715861736181958544@gitolite.kernel.org>
+Date: Wed, 07 Feb 2024 15:39:36 -0000
+Message-Id: <170732037616.16442.7663515855021173198@gitolite.kernel.org>
 
---===============7578910446921292947==
+--===============5310568360814253945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-vdo
-    old: e46dd2fa6e0780b24b91d8b967c30a3cd395b065
+  - ref: refs/heads/dm-vdo-wip
+    old: 076f0dbc1ae258e8a872499b84e65bb10aa5c5f3
     new: bbe10a8c5483c419cdc5ed9301efd5189c352d0e
-    log: revlist-e46dd2fa6e07-bbe10a8c5483.txt
+    log: revlist-076f0dbc1ae2-bbe10a8c5483.txt
 
---===============7578910446921292947==
+--===============5310568360814253945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e46dd2fa6e07-bbe10a8c5483.txt
+Content-Disposition: attachment; filename=revlist-076f0dbc1ae2-bbe10a8c5483.txt
 
 c49b3df8b1ae4cb7481da186b1f53cf012f15642 dm bufio: Support IO priority
 b8aa4d407eff03cb23eb0bb49e96c78e80dcf58a dm verity: Fix IO priority lost when reading FEC and hash
@@ -107,4 +107,4 @@ cde991d95a097507d890219ef1738f6842039089 dm vdo data-vio: silence sparse warning
 fdd7e1fc5f10a54c01c9291644215fc9522d004e dm vdo recovery-journal: fix sparse 'mixed bitwiseness' warning
 bbe10a8c5483c419cdc5ed9301efd5189c352d0e dm vdo: move encoding constants to encodings.h
 
---===============7578910446921292947==--
+--===============5310568360814253945==--
