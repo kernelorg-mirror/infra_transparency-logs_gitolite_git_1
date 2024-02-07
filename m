@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 07 Feb 2024 18:55:17 -0000
-Message-Id: <170733211752.11009.6531856783629505069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 07 Feb 2024 19:10:35 -0000
+Message-Id: <170733303520.22422.10266002497316430220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/main
-    old: c474dd5a52df18f255509733f087b5c0b471eb4d
-    new: 9736c648370d237f61065a7e45e668e2db4374e9
+  - ref: refs/heads/for-linus
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: 67057f48df79a3d73683385f521215146861684b
     log: |
-         9736c648370d237f61065a7e45e668e2db4374e9 dpll: check that pin is registered in __dpll_pin_unregister()
+         b5d1b4b46f856da1473c7ba9a5cdfcb55c9b2478 PCI: dwc: Fix a 64bit bug in dw_pcie_ep_raise_msix_irq()
+         67057f48df79a3d73683385f521215146861684b PCI: dwc: Clean up dw_pcie_ep_raise_msi_irq() alignment
          
