@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1890098832838764367=="
+Content-Type: multipart/mixed; boundary="===============9001376534154222573=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 07 Feb 2024 18:15:50 -0000
-Message-Id: <170732975012.13514.4784412568481918042@gitolite.kernel.org>
+Date: Wed, 07 Feb 2024 18:15:55 -0000
+Message-Id: <170732975514.13602.18336515496755829139@gitolite.kernel.org>
 
---===============1890098832838764367==
+--===============9001376534154222573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/clk-for-6.9
-    old: fb86b16d687efd7f07ef767c6febc92c41360043
-    new: 429726494d7a17927450917ad1dea6fac7acc46e
-    log: revlist-fb86b16d687e-429726494d7a.txt
+  - ref: refs/heads/for-next
+    old: 4ad6cf32ed0656ad4099dd02bca44c8b1b572520
+    new: fdec1fa91eb76475e13fa03b8140097b05caa7ff
+    log: revlist-4ad6cf32ed06-fdec1fa91eb7.txt
 
---===============1890098832838764367==
+--===============9001376534154222573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fb86b16d687e-429726494d7a.txt
+Content-Disposition: attachment; filename=revlist-4ad6cf32ed06-fdec1fa91eb7.txt
 
 2f8cf2c3f3e3f7ef61bd19abb4b0bb797ad50aaf clk: qcom: reset: Ensure write completion on reset de/assertion
 892909633ad1057c764c9fe08ef982d56eea81e4 clk: qcom: gcc-sa8775p: Set delay for Venus CLK resets
@@ -51,5 +51,6 @@ d3b2afb925e07276e2b333c3069816c11f90418a Merge branch '20240125-msm8953-mdss-res
 286ffaafa6dcf91d1c119d8e2d59be303fadb8fc Merge branch '20240131-ufs-phy-clock-v3-3-58a49d2f4605@linaro.org' into clk-for-6.9
 bb5c0229285fb12a5f433b2b8c5fd0ec2e4795e2 clk: qcom: gcc-sc8180x: Add missing UFS QREF clocks
 429726494d7a17927450917ad1dea6fac7acc46e clk: qcom: dispcc-sm8250: Make clk_init_data and pll_vco const
+fdec1fa91eb76475e13fa03b8140097b05caa7ff Merge branches 'arm32-for-6.9', 'arm64-defconfig-for-6.9', 'arm64-fixes-for-6.8', 'arm64-for-6.9', 'clk-for-6.9' and 'drivers-for-6.9' into for-next
 
---===============1890098832838764367==--
+--===============9001376534154222573==--
