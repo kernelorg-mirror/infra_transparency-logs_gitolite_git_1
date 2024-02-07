@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Wed, 07 Feb 2024 08:53:06 -0000
-Message-Id: <170729598652.4780.17711688575072508183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 07 Feb 2024 09:00:48 -0000
+Message-Id: <170729644813.10756.12109526389708211971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
-user: vkoul
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/next
-    old: 0707496ff4e416ea08c90053fd5fde5811b11b22
-    new: 9282cfa2eb080e3bbb95f488af35618b614cdf76
+  - ref: refs/heads/main
+    old: cb88cb53badb8aeb3955ad6ce80b07b598e310b8
+    new: 38cc3c6dcc09dc3a1800b5ec22aef643ca11eab8
     log: |
-         9282cfa2eb080e3bbb95f488af35618b614cdf76 soundwire: intel_auxdevice: remove redundant assignment to variable link_flags
+         38cc3c6dcc09dc3a1800b5ec22aef643ca11eab8 net: stmmac: protect updates of 64-bit statistics counters
          
