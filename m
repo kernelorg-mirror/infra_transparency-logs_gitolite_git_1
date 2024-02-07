@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 07 Feb 2024 15:24:20 -0000
-Message-Id: <170731946086.4021.4460567463399725867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 07 Feb 2024 15:25:16 -0000
+Message-Id: <170731951689.6010.3087476633138780369@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/file7jnbFx
-    old: 0000000000000000000000000000000000000000
-    new: 565abf586f3554c94c81027b1f0af1f6a6beea1b
-  - ref: refs/heads/fileDk0hPU
-    old: 0000000000000000000000000000000000000000
-    new: 46d5baf046abeffcb3754321fbc2551027fe7de9
-  - ref: refs/heads/filevf6OiW
-    old: 0000000000000000000000000000000000000000
-    new: 44d3b8a19b91cd2af11f918b2fd05628383172de
-  - ref: refs/heads/v2_20240207_dlechner_spi_axi_spi_engine_performance_improvements
-    old: 0000000000000000000000000000000000000000
-    new: abb4b46c43689dd1f4d80c41e49127ca0ede75b3
+  - ref: refs/heads/dm-6.9
+    old: 6fb4540a00c9e058154b39364c5b31e770feca79
+    new: ae037b406e46a3628e73c9f45ccb388c0ebf04ad
+    log: |
+         8604bbbe72dd9875eca6f1945b679f50d9fbac65 dm bufio: Support IO priority
+         795b3a10955a91e267b53ffe5d644d40dd8a30ee dm verity: Fix IO priority lost when reading FEC and hash
+         474244ddc679010f59cbfd2053af41d11061f711 dm crypt: Fix IO priority lost when queuing write bios
+         ae037b406e46a3628e73c9f45ccb388c0ebf04ad dm verity: set DM_TARGET_SINGLETON feature flag
+         
