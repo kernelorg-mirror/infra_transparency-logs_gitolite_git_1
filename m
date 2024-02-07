@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 07 Feb 2024 16:15:11 -0000
-Message-Id: <170732251138.11726.8786099850241455442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 07 Feb 2024 16:15:16 -0000
+Message-Id: <170732251606.11854.11914274569316451864@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/tags/sound-4.14-rc1
-    old: 7ce1c5d3115c878b9e46c2caa7eab30b33b3b7ed
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/dm-vdo-wip
+    old: bbe10a8c5483c419cdc5ed9301efd5189c352d0e
+    new: b8695d5e5444ee8784148e714d8f2b6f7e523570
+    log: |
+         e89536943c9099b6d3f796c371ee377dc8d43a39 dm vdo: move encoding constants to encodings.c
+         b8695d5e5444ee8784148e714d8f2b6f7e523570 dm vdo: use #define for NO_CHAPTER and NO_CHAPTER_INDEX_ENTRY
+         
