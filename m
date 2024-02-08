@@ -1,39 +1,60 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 08 Feb 2024 13:57:36 -0000
-Message-Id: <170740065617.11879.13315498086821403436@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0724806179294337245=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Thu, 08 Feb 2024 13:57:40 -0000
+Message-Id: <170740066016.11945.8411733706282467249@gitolite.kernel.org>
+
+--===============0724806179294337245==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 2b193a61fc6368d228cabd417440508b9f306c4a
-    new: 3bc0691f168df771a9ba970b0a10975164095995
+  - ref: refs/heads/main
+    old: 0647903efbc84b772325b4d24d9487e24d6d1e03
+    new: b7198383ef2debe748118996f627452281cf27d7
     log: |
-         5d389afc1f8fea707225bc2ee64e00d85dab623a ACPI: video: Handle fetching EDID that is longer than 256 bytes
-         0ef1b1ae082a1631e8658a6b771aaa2816faea6b Merge branch 'acpi-video' into linux-next
-         2e171a57c312cb732d633c5ccc51551588b7a855 iwlwifi: mvm: Drop unused fw_trips_index[] from iwl_mvm_thermal_device
-         61d88437546f5f40b6411aac17c55d0298c7a19d iwlwifi: mvm: Populate trip table before registering thermal zone
-         85af3310df34b0931daba8732d5b2c64a81c3b8d iwlwifi: mvm: Use for_each_thermal_trip() for walking trip points
-         7b4c6f88beffe5d2a0a89a4894483a89db153731 Merge branch 'thermal-core' into bleeding-edge
-         3bc0691f168df771a9ba970b0a10975164095995 Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
+         c98d8836b817d11fdff4ca7749cbbe04ff7f0c64 wifi: mac80211: reload info pointer in ieee80211_tx_dequeue()
+         2e57b77583ca34fdb6e14f253172636c52f81cf2 wifi: iwlwifi: mvm: use correct address 3 in A-MSDU
+         3012477cd510044d346c5e0465ead4732aef8349 wifi: iwlwifi: clear link_id in time_event
+         c6ebb5b67641994de8bc486b33457fe0b681d6fe wifi: iwlwifi: Fix some error codes
+         65c6ee90455053cfd3067c17aaa4a42b0c766543 wifi: iwlwifi: uninitialized variable in iwl_acpi_get_ppag_table()
+         b7198383ef2debe748118996f627452281cf27d7 wifi: iwlwifi: mvm: fix a crash when we run out of stations
          
-  - ref: refs/heads/linux-next
-    old: da60429b5e6b47f941e6ee4366a64b8335df1b27
-    new: 0ef1b1ae082a1631e8658a6b771aaa2816faea6b
-    log: |
-         5d389afc1f8fea707225bc2ee64e00d85dab623a ACPI: video: Handle fetching EDID that is longer than 256 bytes
-         0ef1b1ae082a1631e8658a6b771aaa2816faea6b Merge branch 'acpi-video' into linux-next
-         
-  - ref: refs/heads/testing
-    old: da60429b5e6b47f941e6ee4366a64b8335df1b27
-    new: 0ef1b1ae082a1631e8658a6b771aaa2816faea6b
-    log: |
-         5d389afc1f8fea707225bc2ee64e00d85dab623a ACPI: video: Handle fetching EDID that is longer than 256 bytes
-         0ef1b1ae082a1631e8658a6b771aaa2816faea6b Merge branch 'acpi-video' into linux-next
-         
+
+--===============0724806179294337245==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1707400637 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1707400636-b729fb2f6e3798d5a368f63c1c41bc9bc0a9e3c0
+
+0647903efbc84b772325b4d24d9487e24d6d1e03 b7198383ef2debe748118996f627452281cf27d7 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmXE3b0ACgkQ10qiO8sP
+aABQuxAAipM/sRBhQrwhs4L4gNRAnorS7jp8ADjJNFwJiLd/8g0cROyxEGlA5JO6
+855eWNE3L4xe2rRzvXolQXtT2btcYg+elEMiVHkUu4NhgZYZs5bxE3sWXWH937E7
+/j/gJ9aAEQVwUw0nys19mCmN5TSNtW3LY0aKiEm5t0i3ccyq4FnH8R8+vlFCw6PC
+pQLi2xVaC5OUZwNSstnp2HAbS4Oxgw/gyVznjHnYhzCAmLhNQfbQ6ZHJxTG+Wb9t
+BZuXN09mtCj0T6Re+x8tBv6M1tWXojHKnZR0XYeOecvmekTU4AsKOC/Tl1wxYBPH
+WDWN5jwofnjw1g0tIxUjS6gvOR8Cc7SM/zInIVB7ewztGW04mtJn1pV4n2mifDuC
+d4+HdBPQ+XrzMgPBnER0zIxpXcBngHdDJUg8Tp7JbIc8sM3m1tVoCuvMlTuVYyJ4
+CXW5h651FdFa085Xbxj+VGV1lCy+xdc8yHqDoMJXlf1NP/EJ1wK20K+VldKoN4mw
++Xt0q1oiuoT0Yx1q0KeKPcxlIdpW7gFULRCS8yqWJM0sAvra7G1YGMepPAcG+HJL
+t5IRKxKRx7S0u1IoqINQIHAqmuhG/Cgn2CZNeuK0hc/k0UBX5bBdI0XjBD2WYirE
+bgnswK0qR+riIvakuWDLKOUFzmWGREvziTaEzzXfepBntbuJgC8=
+=hovi
+-----END PGP SIGNATURE-----
+
+--===============0724806179294337245==--
