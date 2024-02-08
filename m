@@ -1,57 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============4288363373925297533=="
+Content-Type: multipart/mixed; boundary="===============0898812096970460935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 08 Feb 2024 12:17:47 -0000
-Message-Id: <170739466766.3935.12982667350359295190@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 08 Feb 2024 12:24:16 -0000
+Message-Id: <170739505690.7835.17467387196047667459@gitolite.kernel.org>
 
---===============4288363373925297533==
+--===============0898812096970460935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/usb-testing
-    old: ed5551279c9100aff6adf337d809057a7532b6f7
-    new: 88bae831f3810e02c9c951233c7ee662aa13dc2c
-    log: |
-         6677138d7310697b69f8842f95c1d8c06da2b689 dt-bindings: soc: qcom: qcom,pmic-glink: document QCM6490 compatible
-         88bae831f3810e02c9c951233c7ee662aa13dc2c usb: typec: ucsi: Add qcm6490-pmic-glink as needing PDOS quirk
-         
+  - ref: refs/heads/main
+    old: 2fe8a236436fe40d8d26a1af8d150fc80f04ee1a
+    new: 63e4b9d693e0f8c28359c7ea81e1ee510864c37b
+    log: revlist-2fe8a236436f-63e4b9d693e0.txt
 
---===============4288363373925297533==
+--===============0898812096970460935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2fe8a236436f-63e4b9d693e0.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707394665 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1707394664-22f649f3c62f221ad49aaddffaae80e51738e705
+36fa8d697132b4bed2312d700310e8a78b000c84 netfilter: nft_compat: narrow down revision to unsigned 8-bits
+292781c3c5485ce33bd22b2ef1b2bed709b4d672 netfilter: nft_compat: reject unused compat flag
+d694b754894c93fb4d71a7f3699439dec111decc netfilter: nft_compat: restrict match/target protocol to u16
+ab0beafd52b98dfb8b8244b2c6794efbc87478db netfilter: nft_set_pipapo: remove static in nft_pipapo_get()
+27c5a095e2518975e20a10102908ae8231699879 netfilter: ipset: Missing gc cancellations fixed
+fa173a1b4e3fd1ab5451cbc57de6fc624c824b0a netfilter: ctnetlink: fix filtering for zone 0
+38ed1c7062ada30d7c11e7a7acc749bf27aa14aa netfilter: nft_ct: reject direction for ct id
+7395dfacfff65e9938ac0889dafa1ab01e987d15 netfilter: nf_tables: use timestamp to check for set element timeout
+f82777e8ce6c039cdcacbcf1eb8619b99a20c06d netfilter: nfnetlink_queue: un-break NF_REPEAT
+60c0c230c6f046da536d3df8b39a20b9a9fd6af0 netfilter: nft_set_rbtree: skip end interval element from gc
+76313d1a4aa9e30d5b43dee5efd8bcd4d8250006 netfilter: nft_set_pipapo: store index in scratch maps
+47b1c03c3c1a119435480a1e73f27197dc59131d netfilter: nft_set_pipapo: add helper to release pcpu scratch area
+5a8cdf6fd860ac5e6d08d72edbcecee049a7fec4 netfilter: nft_set_pipapo: remove scratch_aligned pointer
+63e4b9d693e0f8c28359c7ea81e1ee510864c37b Merge tag 'nf-24-02-08' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
-ed5551279c9100aff6adf337d809057a7532b6f7 88bae831f3810e02c9c951233c7ee662aa13dc2c refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXExmkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iDgQAKCjsMOyDUUi0yscU+px
-B/Os9V83TVRmc6j06AqZYkqIm1TMSShcIUnl8LHMB9OOR1MEZU7c29F6bMJjFP6j
-b9fyPZvi7FetPHcGPn6xtehmS53LDp+euU6mNf7+kqpAaDNspmLKMCBiCEOn9rdz
-r12u5FiHxiRPJG8hwJaoxIZ5kAHkQw+SwCu/69Ba5xaDDBk3BwbRmf0OLqmfVsND
-MAPk6aPWpxzCD1wRU2d73TlOaqVIswUPpshz6Qug6sMZ24ZDG+/+SRjChEvxEQ8Z
-76DQl64ZkW+1+NdDOCClsoaAaOeF57DXXkykiHwpo8+66Hee5SBtDUhVR6FWccLP
-f1wYjJFvsfk77NjyTVY4YvB4lCsD4OqH8R79wwJu1992PdGx5WBnhhIQcSjgCmY6
-PpXThMpJQMbz42pRmvglGp+ro6i99kuTSiEI64LInnddAr7y4uas/koHeUa0N4dR
-xyPw1aAJ5Jlyl/b6AUEN/Phh/3ZqiZLIq6gCVhogCUbkJMVl5Grnq8dDaiO3QNqB
-G35uotsvZmRUtzW6s+ED/IckElR64RVyuhTnuTezmWe+nJT/atm85jkR3Dwoakd8
-ZHdRxI4VkOcxYZKTXhhdkzGfOkGOvHuVjHTCI2aklusrwZxce3ZmScOd8v/yJGzw
-f1jybSFQtlP5jyn6u8TH1k7V
-=YH+P
------END PGP SIGNATURE-----
-
---===============4288363373925297533==--
+--===============0898812096970460935==--
