@@ -1,64 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8449763107131895579=="
+Content-Type: multipart/mixed; boundary="===============2298989648736556953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 08 Feb 2024 14:18:49 -0000
-Message-Id: <170740192942.27457.5765030049966062569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Thu, 08 Feb 2024 14:20:11 -0000
+Message-Id: <170740201165.29625.9230809182414289209@gitolite.kernel.org>
 
---===============8449763107131895579==
+--===============2298989648736556953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/lee/leds
+user: lee
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 186ba25a7a11bc3784eb940ec4531cb02c902bb5
-    new: d2f568bf838140f9a3d359d63fc26be38131b14b
-    log: revlist-186ba25a7a11-d2f568bf8381.txt
+  - ref: refs/heads/for-leds-next
+    old: e684dcca3659a3f88945a2a5c6fe5a156d4b0178
+    new: 12ce20e02e532f101b725d71c52a36c5cc8ad1e6
+    log: revlist-e684dcca3659-12ce20e02e53.txt
 
---===============8449763107131895579==
+--===============2298989648736556953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-186ba25a7a11-d2f568bf8381.txt
+Content-Disposition: attachment; filename=revlist-e684dcca3659-12ce20e02e53.txt
 
-14703cbdddb67e754a8b93b5c55d3bcc2865818b hwmon: ltc4282: add support for the LTC4282 chip
-c1c4a37f1b06c3e0c4e604de13ead2f78e8940a5 hwmon: add fan speed monitoring driver for Surface devices
-ad886c3746f9975484f7f96526d9e6d8d7ee6500 dt-bindings: Add MPQ8785 voltage regulator device
-b8cc0569add078792a65457a44f909062bf851ad hwmon: Add driver for MPS MPQ8785 Synchronous Step-Down Converter
-c3e6b7d18e2f7c06b95db07ef84fb867b36780eb hwmon: (sht3x) read out sensor serial number
-1ee54d9e7b781d07b3c425dfe0e7f63404b4d2d6 hwmon: (adt7x10) convert to use maple tree register cache
-d94184c156362a71c69a2504d7572f36030ffe33 hwmon: (emc1403) convert to use maple tree register cache
-e4740fd418ef2db8a9dd4c9fc06f6be01ba91ad3 hwmon: (ina3221) convert to use maple tree register cache
-4a469b8fbc1d57d41ad4726137f7ddb82471b70a hwmon: (jc42) convert to use maple tree register cache
-bcad42f331c53c7feba69e2eff1a520404212c75 hwmon: (lm83) convert to use maple tree register cache
-be5d58e603486ab69560a7da4fa6066324e00b48 hwmon: (max31760) convert to use maple tree register cache
-b89eecd4e530c67610aae0370a07f4ea637ca50b hwmon: (nct7802) convert to use maple tree register cache
-1650a7fbc2898c634fee1d6ca83859c09231bc4a hwmon: (sch5627) convert to use maple tree register cache
-d7622e97e3513808ff619d43f7a26c42a040f957 hwmon: (tmp401) convert to use maple tree register cache
-541627ebd2c67c3387a7314a35098f14d9a7dc29 dt-bindings: vendor-prefixes: add Amphenol
-f427591585002da121e2d1d4726b692dc4a56e1f hwmon: (core) Add support for humidity min/max alarm
-739b750d174f9129be2d15e067a1a46b965edf49 ABI: sysfs-class-hwmon: add descriptions for humidity min/max alarms
-679df443a79f748068c5b36f8a6d7ef88ada6a4f dt-bindings: hwmon: Add Amphenol ChipCap 2
-fb045fec45399dc4b10f206dcfe4bb089bdcfb5b hwmon: Add support for Amphenol ChipCap 2
-3b70de7b286e2039f9932b78f15232c11280b6ad dt-bindings: vendor-prefixes: add asteralabs
-12fd4f922b3259836b388814194acf4ebc91b682 dt-bindings: trivial-devices: add Astera Labs PT5161L
-40ab972325700f47086ceed44699666ce9e13207 hwmon: Add driver for NZXT Kraken X and Z series AIO CPU coolers
-f6e9cbd4653e3136b8e7e97a72e743faca14dfbb hwmon: Add driver for ASUS ROG RYUJIN II 360 AIO cooler
-419ed10e481cf80154d51bcfd56755c0f9d49293 hwmon: (coretemp) Introduce enum for attr index
-91df5755655a8df287c0008ad13f6d2e922f706b hwmon: (coretemp) Remove unnecessary dependency of array index
-4367917994460db4d892da6bf31334e222e62316 hwmon: (coretemp) Replace sensor_device_attribute with device_attribute
-b23c6e5138cbfe8c05dda90ad56a6edf47d888a1 hwmon: (coretemp) Remove redundant pdata->cpu_map[]
-02b8bf40b06bfa6f7105610cc1834373fc421fbd hwmon: (coretemp) Abstract core_temp helpers
-9d1ed8419be706fcadf7b5bae2a055f35b357ea5 hwmon: (coretemp) Split package temp_data and core temp_data
-8e2dfd48a5961d42a581ed9ce71c3034b4a023b9 hwmon: (coretemp) Remove redundant temp_data->is_pkg_data
-c6d2ae2d780773a074f3ed815d3ad39eb1d26bae hwmon: (coretemp) Use dynamic allocated memory for core temp_data
-13c75be9839e3ab32e7d69667c1f4283fc47f738 hwmon: Add driver for Astera Labs PT5161L retimer
-688874abd37ce2292250e4f3acfd09eb837c3a3a hwmon: chipcap2: fix uninitialized variable in cc2_get_reg_val()
-d2f568bf838140f9a3d359d63fc26be38131b14b hwmon: chipcap2: fix return path in cc2_request_alarm_irqs()
+641fde51bdb26c09ea8cdbd82084e93bd88d1fcb dt-bindings: soc: qcom: Add qcom,pbs bindings
+5b2dd77be1d85ac3a8be3749f5605bf0830e2998 soc: qcom: add QCOM PBS driver
+c2eb366dc5d1e5821c253a928e5d36739ebda055 leds: trigger: netdev: Skip setting baseline state in activate if hw-controlled
+cf493b66f5a6ee27a65e9ab66676b3ab42b9ca6f dt-bindings: leds: leds-qcom-lpg: Add support for LPG PPG
+214110175679aadf4ccaf5ddccc7e252295b2349 leds: rgb: leds-qcom-lpg: Add support for PPG through single SDAM
+cabf7243e82ebd68c2a61ec746718991d2ba77de leds: rgb: leds-qcom-lpg: Update PMI632 lpg_data to support PPG
+aa78768e95e62b24a9c05a46bea3b96763748e10 leds: rgb: leds-qcom-lpg: Include support for PPG with dedicated LUT SDAM
+261603923fc99de24cc7b58434397933e7211190 leds: rgb: Update PM8350C lpg_data to support two-nvmem PPG Scheme
+e34aab02c63adcb57e378d54e3a1b9783ac742c0 leds: trigger: Load trigger modules on-demand if used as default trigger
+3c56893060dfc5a6cd70852859e0029607e9c530 leds: trigger: netdev: Add module alias ledtrig:netdev
+8e78980832eb0e07c9d4cc7efdc9477046573724 leds: class: If no default trigger is given, make hw_control trigger the default trigger
+e01e2225511d2d0ff8b7f6bd008ee3e92bb15d09 leds: trigger: netdev: Display only supported link speed attribute
+1d8cc1ff2dfa675d3473725df4dd910872d96126 docs: ABI: sysfs-class-led-trigger-netdev: Document now hidable link_*
+4694dcab92cf0e78ff65978888ae14a6373f1ceb Documentation: leds: Update led-trigger-tty ABI description
+83323575228082de61a1278cc5babc090ddb2b54 leds: trigger: audio: Set module alias for module auto-loading
+1e147c37ed09dda38fe738e73a8a3d64c22b1751 leds: triggers: default-on: Add module alias for module auto-loading
+cf177262ac22eee478a339b1c7a5c4d2f5da904a dt-bindings: leds: Add FUNCTION defines for per-band WLANs
+a7f3597e61b845d1c30b598ef7258edc08267258 leds: trigger: panic: Simplify led_trigger_set_panic
+11173194833f4cad1fb657274140d637ff378b38 leds: aw200xx: Make read-only array coeff_table static const
+ac3bd9ed1f55da7901c374c42b7c55efc552b578 leds: Remove led_init_default_state_get() and devm_led_classdev_register_ext() stubs
+ff7d3c763f63502b627575b02bee8ef46068233a leds: Make flash and multicolor dependencies unconditional
+87ce6eaa089dc246aeb1b6bb56944c5f89b0fbe1 leds: trigger: Stop exporting trigger_list
+27c110ccae2b12375f8275ebb15dd941d20ad250 leds: triggers: Add helper led_match_default_trigger
+3e3c40d6b1fe42afbc28b7653c852c2e6561ad05 leds: pca963x: Add support for suspend and resume
+af8d42cae2941cb87087b8e6ee314935ac8adc3a leds: spi-byte: Use devm_led_classdev_register_ext()
+f63b9c34b9dd18dedf55d6e14dd47d015b38b838 leds: qcom-lpg: Add PM660L configuration and compatible
+12ce20e02e532f101b725d71c52a36c5cc8ad1e6 leds: trigger: netdev: Fix kernel panic on interface rename trig notify
 
---===============8449763107131895579==--
+--===============2298989648736556953==--
