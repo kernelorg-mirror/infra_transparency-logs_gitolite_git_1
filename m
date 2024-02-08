@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3180575864863068587=="
+Content-Type: multipart/mixed; boundary="===============7675516033603465324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 08 Feb 2024 07:18:31 -0000
-Message-Id: <170737671155.855.11860453203623000505@gitolite.kernel.org>
+Date: Thu, 08 Feb 2024 07:19:10 -0000
+Message-Id: <170737675048.1183.9644546385693784519@gitolite.kernel.org>
 
---===============3180575864863068587==
+--===============7675516033603465324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,53 +16,30 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 72dbec6d96aff74a13082b2ab7d302270b7c2de7
-    new: 399fdbd3b174be48ff3d241a3fbcacd9e1db4598
-    log: revlist-72dbec6d96af-399fdbd3b174.txt
+    old: 399fdbd3b174be48ff3d241a3fbcacd9e1db4598
+    new: 1d7bf93a57b4230a4c04122f7b67e7c252169220
+    log: revlist-399fdbd3b174-1d7bf93a57b4.txt
 
---===============3180575864863068587==
+--===============7675516033603465324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72dbec6d96af-399fdbd3b174.txt
+Content-Disposition: attachment; filename=revlist-399fdbd3b174-1d7bf93a57b4.txt
 
-fe752331d4b361d43cfd0b89534b4b2176057c32 KVM: s390: vsie: fix race during shadow creation
-83303a4c776ce1032d88df59e811183479acea77 KVM: s390: fix cc for successful PQAP
-367188297254e7f81e3c3c94e6d6a623f757c4cb RISC-V: KVM: Allow Zbc extension for Guest/VM
-ac396141308d07a9534c5a7f1f7c80cb95e35b20 KVM: riscv: selftests: Add Zbc extension to get-reg-list test
-f370b4e668f017f523968f7490163fa922dcd92e RISC-V: KVM: Allow scalar crypto extensions for Guest/VM
-14d70de562dfd78be638fc59b0a323235acc67be KVM: riscv: selftests: Add scaler crypto extensions to get-reg-list test
-afd1ef3adfbc36e35fcf4f742fd90aea6480a276 RISC-V: KVM: Allow vector crypto extensions for Guest/VM
-2ddf79070f7edada19fecec57d8591d6b718fa53 KVM: riscv: selftests: Add vector crypto extensions to get-reg-list test
-f3901ece5b3894177d1816208d0fb06b295617e0 RISC-V: KVM: Allow Zfh[min] extensions for Guest/VM
-496ee21a17ce45e92483fdf1827ba91f4867f160 KVM: riscv: selftests: Add Zfh[min] extensions to get-reg-list test
-ab6da9cdc3f3d1d091d657219fb6e98f710ee098 RISC-V: KVM: Allow Zihintntl extension for Guest/VM
-1a3bc507821d24a80a6af8beb08af8032c33ebd7 KVM: riscv: selftests: Add Zihintntl extension to get-reg-list test
-f46300285926c2b0d0c79bf40c87d45e169cecb6 RISC-V: KVM: Allow Zvfh[min] extensions for Guest/VM
-1216fdd99be113fa75ccdd0497802bd0fe4369aa KVM: riscv: selftests: Add Zvfh[min] extensions to get-reg-list test
-41182cc6f507011a2e6c82657779e451ed9942bb RISC-V: KVM: Allow Zfa extension for Guest/VM
-4d0e8f9a361b3a1f7b67418c536b258323de734f KVM: riscv: selftests: Add Zfa extension to get-reg-list test
-3f5198c7f6722b07e6c827d674fdaf3d7019ed21 Merge tag 'kvm-s390-master-6.8-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
-11f563320917d4c9cee5d572a344c1360487530d Merge tag 'kvm-riscv-6.8-2' of https://github.com/kvm-riscv/linux into HEAD
-ebd4acc0cbeae9efea15993b11b05bd32942f3f0 riscv: Fix wrong size passed to local_flush_tlb_range_asid()
-9e05d9b06757732477cca428e87f3d72163d01cf KVM: x86: Check irqchip mode before create PIT
-d52734d00b8e86604a66b4cdfa9e8bb541daca2d KVM: x86: Give a hint when Win2016 might fail to boot due to XSAVES erratum
-a9ef277488cfc1b7da88235dc11c338a14f34835 x86/kvm: Fix SEV check in sev_map_percpu_data()
-ccb88e9549e7cfd8bcd511c538f437e20026e983 crypto: ccp - Fix null pointer dereference in __sev_platform_shutdown_locked
-69fba378edcaffba7bc7d299fdee02e377069d30 crypto: cbc - Ensure statesize is zero
-24c890dd712f6345e382256cae8c97abb0406b70 crypto: algif_hash - Remove bogus SGL free on zero-length error path
-5ea9a7c5fe4149f165f0e3b624fe08df02b6c301 nfsd: don't take fi_lock in nfsd_break_deleg_cb()
-b3ff2d9c3a9c64cd0a011cdd407ffc38a6ea8788 LoongArch: Select ARCH_ENABLE_THP_MIGRATION instead of redefining it
-6b79ecd084c99b31c8b4d0beda08893716d5558e LoongArch: Select HAVE_ARCH_SECCOMP to use the common SECCOMP menu
-4551b30525cf3d2f026b92401ffe241eb04dfebe LoongArch: Change acpi_core_pic[NR_CPUS] to acpi_core_pic[MAX_CORE_PIC]
-639420e9f6cd9ca074732b17ac450d2518d5937f LoongArch: Fix earlycon parameter if KASAN enabled
-cca5efe77a6a2d02b3da4960f799fa233e460ab1 LoongArch: vDSO: Disable UBSAN instrumentation
-e459647710070684a48384d67742822379de8c1c x86/coco: Define cc_vendor without CONFIG_ARCH_HAS_CC_PLATFORM
-c8d80f83de47fd183a0eef2d6b1085d4fdecea37 Merge tag 'nfsd-6.8-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-5c24ba20555acd68537be26f05296649e171a27d Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-547ab8fc4cb04a1a6b34377dd8fad34cd2c8a8e3 Merge tag 'loongarch-fixes-6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-860d7dcb20105af1fc7228a162886c421296cd86 Merge tag 'percpu-for-6.8-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/dennis/percpu
-047371968ffc470769f541d6933e262dc7085456 Merge tag 'v6.8-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-399fdbd3b174be48ff3d241a3fbcacd9e1db4598 Merge branch 'linus'
+c7d0cc2959e14af04394242408fdb89d6a7713b5 Merge branch 'linus' into x86/merge, to ease integration testing
+6da47ba10dd688bb25e071303da7a85ba0680bd6 Merge branch into tip/master: 'timers/urgent'
+f83a526e0bf64126b8ae219b0a85c290c2c713af Merge branch into tip/master: 'x86/urgent'
+313c3f70c73177b8eff69c577f4ea128d67e9228 Merge branch into tip/master: 'x86/merge'
+e8c7b4b51190fac4c15253838553446a8bc541d2 Merge branch into tip/master: 'irq/core'
+2173a06c44dd28c2d958b47ed1b8093ac54a3246 Merge branch into tip/master: 'ras/core'
+0f2d7b529954dc961beb4ead9d1fec5186a2b571 Merge branch into tip/master: 'smp/core'
+699ab384d8a55966392cdc39c9f2ec6944bddf01 Merge branch into tip/master: 'timers/core'
+cb7e82d6c7bcf459fd3d866bba8b7d0741aa3f12 Merge branch into tip/master: 'x86/boot'
+af285c1d0532d3dac86ec5014c4b0322ef8a36cb Merge branch into tip/master: 'x86/cache'
+9b36dbc3e0a1a1ddaa788ff84ef92e5097de570a Merge branch into tip/master: 'x86/entry'
+9b0f13a44d52ab433a9a833f154c37b1895750d9 Merge branch into tip/master: 'x86/fred'
+e6b701d2a611513ee419550777be38f5d016cc4c Merge branch into tip/master: 'x86/misc'
+61114ab3c2bbe9b2af427fdb62733b3a59c542cf Merge branch into tip/master: 'x86/mm'
+1d7bf93a57b4230a4c04122f7b67e7c252169220 Merge branch into tip/master: 'x86/sev'
 
---===============3180575864863068587==--
+--===============7675516033603465324==--
