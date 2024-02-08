@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1891056322975955354=="
+Content-Type: multipart/mixed; boundary="===============6104959259510232827=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 08 Feb 2024 21:44:35 -0000
-Message-Id: <170742867581.9027.3783936242835832627@gitolite.kernel.org>
+Date: Thu, 08 Feb 2024 21:45:15 -0000
+Message-Id: <170742871563.10979.10181685657540577066@gitolite.kernel.org>
 
---===============1891056322975955354==
+--===============6104959259510232827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 9736c648370d237f61065a7e45e668e2db4374e9
-    new: b6b614558ed5b2ca50edacc0f2fbf5f52158c86c
-    log: revlist-9736c648370d-b6b614558ed5.txt
+  - ref: refs/heads/dev-queue
+    old: ce1833c065c8c9aec8b147dd682b0ddca8c30071
+    new: 4bd95f6150b73303a367aacc07a93445a349999e
+    log: revlist-ce1833c065c8-4bd95f6150b7.txt
 
---===============1891056322975955354==
+--===============6104959259510232827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9736c648370d-b6b614558ed5.txt
+Content-Disposition: attachment; filename=revlist-ce1833c065c8-4bd95f6150b7.txt
 
 fd2bc4195d5107f88c1b90e1ec935888ccbfc5c0 xfrm: generalize xdo_dev_state_update_curlft to allow statistics update
 f9f221c98fd83df518fbb2f5ad33980cfedfe1bf xfrm: get global statistics from the offloaded device
@@ -77,5 +77,56 @@ de02deab27fd63063e056811d0473ad5b9a56e5e sit: use exit_batch_rtnl() method
 806b67850787bae3df1bc2e5a30e8c658c579d80 bridge: use exit_batch_rtnl() method
 8962daccc2d32812fe24bd21496c036eb4f454b0 xfrm: interface: use exit_batch_rtnl() method
 b6b614558ed5b2ca50edacc0f2fbf5f52158c86c Merge branch 'net-more-factorization-in-cleanup_net-paths'
+98ebe33823fbbead0278a63eb7484a460f1294ec i40e: Fix waiting for queues of all VSIs to be disabled
+9da9cf4471099e30e25542d9755604fdc8ddf38d i40e: Fix wrong mask used during DCB config
+3a4fefc8b277a26e9a90724a70f3621ad01181cf i40e: Use existing helper to find flow director VSI
+58d6a86f5392e05d9ebfed777dd2c6086cc49e07 i40e: Introduce and use macros for iterating VSIs and VEBs
+a1c46b8e536405c1fb24b926a0b52bacf6438348 i40e: Add helpers to find VSI and VEB by SEID and use them
+141c92d505a015c3fe8713c169980df0054a0c30 i40e: Fix broken support for floating VEBs
+ee6eeea84b84355ec055f8c0fd84d63a0ecaaf61 i40e: Remove VEB recursion
+9a00ca1ed007f9b3c5382c5692277d715d40b722 ice: introduce new E825C devices family
+be7dca371e07891a53cf90d21e29b781c0d349c2 ice: Add helper function ice_is_generic_mac
+e54b7aaf0b7a20720818b55aa96912ede881aebb ice: add support for 3k signing DDP sections for E825C
+e4c92e949f72d05bfe5c3a622ffb7552b703206e ice: Add support for devlink loopback param.
+ffcdffd3e9b5d588cecf0ac66444780d4654b0e7 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+bdbe07fe436840a48b80e965f4c570ccd3541d63 e1000e: Minor flow correction in e1000_shutdown function
+ead1b173ad4e7fc9ce7ef21066eca77b2f1af718 igb: Fix string truncation warnings in igb_set_fw_version
+f57c16518821b860a2e7b0d72f69af634a47dcac ice: Add check for lport extraction to LAG init
+2fed1c2ef77a814d6671f077fa93a8a782edf275 iavf: fix reset in early states
+ca56c1a43f326e4ebbcd0fa3be1e9b5a19053b3b iavf: allow an early reset event to be processed
+4841872634f34a929a95b763f5cef020e25adfe2 igc: Use reverse xmas tree
+f9f2b346a5ca8c3e52c3c4e214b06bb515b0c356 igc: Use netdev printing functions for flex filters
+2ad39b4a3782d1f4ff3bfff1eb80631470f19bdc igc: Unify filtering rule fields
+c204363c083f328e291fbbc2041d9eb3da4d828c igc: Remove temporary workaround
+748fb6403b5ba77abf2d498f690a148b1db2fadf ice: fix connection state of DPLL and out pin
+f6135f76a19a217d523cef403fcad8daeb1c91e6 i40e: Do not allow untrusted VF to remove administratively set MAC
+437e919bbb7e2b95be8844dda98b9ae28eea3949 ice: virtchnl: stop pretending to support RSS over AQ or registers
+259562b9640a815fa992a09b7a49ea2cdfb83181 ixgbe: Convert ret val type from s32 to int
+cc87fa7f295ea53cf1ea815e1b6a3916fce4fcca ixgbe: Rearrange args to fix reverse Christmas tree
+c299095c84e5cb20da0f2704722c520a66d48bd7 ixgbe: Clarify the values of the returning status
+73d9f44f38a69db159b3249a9363619c2f3f0846 ice: remove eswitch changing queues algorithm
+979ec885e205a283f496f04ec1a03752f9c101aa ice: do Tx through PF netdev in slow-path
+ffb3619e528b6f63bf416b575d2daf237e282a89 ice: default Tx rule instead of to queue
+c7e4ca365e598f022c34691b2b17e02e084b1c2c ice: control default Tx rule in lag
+dad081139a94cb44ec87b5118106cc88ddcd4a25 ice: remove switchdev control plane VSI
+89d3b1443235b09ade303351ac72af31db76d8c0 ice: change repr::id values
+b6058937bc7cb2c9091f6880ce39a1e8e5c02a11 ice: do switchdev slow-path Rx using PF VSI
+72b84773563fb7bdda213f106275625aaddac5d8 ice: count representor stats
+16ac4cfe8560b3afbdf180f5ea3140aa333580c7 ice: Remove and readd netdev during devlink reload
+32b8ccd67b73a4751c547992006c7c3f7761780d ice: Fix debugfs with devlink reload
+be570c02df4950693e1442c5048656766fd3ef58 i40e: avoid double calling i40e_pf_rxq_wait()
+ece9c8ec07303e83161db9b586f0115e25fa2118 i40e: take into account XDP Tx queues when stopping rings
+6598b3df7e35478b42e18213e0d42ac658bda229 ice: Refactor FW data type and fix bitmap casting issue
+65b7c4a32a53d3cbe6c3ad61f5a3b26396c345a7 idpf: implement virtchnl transaction manager
+c881c6d76aa35bbab583e2d865ab574a5ab278c0 idpf: refactor vport virtchnl messages
+fdcad8f36ad6f39d0df5d7c0a58ed325a95d2ef8 idpf: refactor queue related virtchnl messages
+35d4d18fba14c9fbe0f9554d771fe84ec64a6a49 idpf: refactor remaining virtchnl messages
+f5da5cc780e7a135fe4bd8731fe94aebbc5dd7cc idpf: add async_handler for MAC filter messages
+4c0a94ddb559e108356b483e6feb7687602259e6 idpf: refactor idpf_recv_mb_msg
+69fa11df4895a7e36cdaaab0100dc65698a3e1ad idpf: cleanup virtchnl cruft
+d211e3a4680a9e8987ab4de559bb8feaf9ef5f21 idpf: prevent deinit uninitialized virtchnl core
+13446e350ff83000de85f5c5ce8ffda0a27996ec idpf: fix minor controlq issues
+8c150b896c7566bb892339a56a0ec5ac0ea6cbb8 idpf: remove dealloc vector msg err in idpf_intr_rel
+4bd95f6150b73303a367aacc07a93445a349999e igc: Add support for LEDs on i225/i226
 
---===============1891056322975955354==--
+--===============6104959259510232827==--
