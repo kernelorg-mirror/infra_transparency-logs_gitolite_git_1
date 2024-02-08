@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1616215721290937915=="
+Content-Type: multipart/mixed; boundary="===============8172573166309799714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 08 Feb 2024 21:20:43 -0000
-Message-Id: <170742724345.24786.866502863474192310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 08 Feb 2024 21:21:19 -0000
+Message-Id: <170742727978.25075.13977518590136676797@gitolite.kernel.org>
 
---===============1616215721290937915==
+--===============8172573166309799714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.9
-    old: abb4b46c43689dd1f4d80c41e49127ca0ede75b3
-    new: 4f4857730c61e579497e25a474b1d31336c164b0
-    log: revlist-abb4b46c4368-4f4857730c61.txt
+  - ref: refs/heads/for-next
+    old: 0b2262989b8bbd01ff49b7fb2cb00b810b504008
+    new: 5111fd347aee731964993fc021e428f8cf46a076
+    log: revlist-0b2262989b8b-5111fd347aee.txt
 
---===============1616215721290937915==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1707427241 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1707427240-bd41ff7b77044c445beecb4c06669a05041b9ad7
-
-abb4b46c43689dd1f4d80c41e49127ca0ede75b3 4f4857730c61e579497e25a474b1d31336c164b0 refs/heads/spi-6.9
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXFRakTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0FXaB/9pqx4TuLxhGdjafchHKmobjhflE1sl
-cWuC9rD08lFuc4LhI7LtV0qm0xhwjiCp/vu6+o5CigvTW1YzSYVZlWLUEMjdODyN
-NWLwqeG1uSxQAyFluZ0O7MVQs+ZZs/Tys/2ZUoaOg4BaBRh/fdVODaJONe0lRLP/
-n/sctQnDTpc171/OobfWDKvMJxW3dgnc6TQcQjS8kEH5ObH1Ck29R8MRHzoUPk7q
-9Er7fgmoMjANnO8tYccT4V7iiG56xYzmvmVhfKzpFPy5C8ZjgRTJ1bOzZtGWxuHu
-/UAOQAgLLldKirFHvsesLNAwOAa+xgkEKIWv96L2A8nQC73kzi/Gkkrm
-=LMbz
------END PGP SIGNATURE-----
-
---===============1616215721290937915==
+--===============8172573166309799714==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-abb4b46c4368-4f4857730c61.txt
+Content-Disposition: attachment; filename=revlist-0b2262989b8b-5111fd347aee.txt
 
 c7ec4f2d684e17d69bbdd7c4324db0ef5daac26a xen-netback: don't produce zero-size SKB frags
 024b32db43a359e0ded3fcc6cd86247cbbed4224 drm/bridge: parade-ps8640: Wait for HPD when doing an AUX transfer
@@ -247,8 +222,6 @@ aafa3acf62f1f63e620753fb9fd75095325617b2 ASoC: codecs: wcd9335: drop unused gain
 c92688cac239794e4a1d976afa5203a4d3a2ac0e regulator: pwm-regulator: Add validity checks in continuous .get_voltage
 6a7d11efd6915d80a025f2a0be4ae09d797b91ec regulator: pwm-regulator: Calculate the output voltage for disabled PWMs
 b3cbdcc191819b75c04178142e2d0d4c668f68c0 regulator: pwm-regulator: Manage boot-on with disabled PWM channels
-6c314425b9ef6b247cefd0903e287eb072580c3b spi: intel-pci: Remove Meteor Lake-S SoC PCI ID from the list
-8afe3c7fcaf72fca1e7d3dab16a5b7f4201ece17 spi: intel-pci: Add support for Arrow Lake SPI serial flash
 7777f47f2ea64efd1016262e7b59fab34adfb869 block: Move checking GENHD_FL_NO_PART to bdev_add_partition()
 4d5b7daa3c610af3f322ad1e91fc0c752ff32f0e drm/bridge: anx7625: Ensure bridge is suspended in disable()
 1a84c213146a06aca1fd0e5b376ab7d36d15e1b3 drm/dp_mst: Separate @failing_port list in drm_dp_mst_atomic_check_mgr() comment
@@ -302,14 +275,10 @@ b6eda11c44dc89a681e1c105f0f4660e69b1e183 HID: nvidia-shield: Add missing null po
 26dd6a5667f500c5d991f90a9ac5998a71afaf5c HID: i2c-hid: Skip SET_POWER SLEEP for Cirque touchpad on system suspend
 420332b94119cdc7db4477cc88484691cb92ae71 ovl: mark xwhiteouts directory with overlay.opaque='x'
 435e202d645c197dcfd39d7372eb2a56529b6640 ipv6: init the accept_queue's spinlocks in inet6_create
-574bf7bbe83794a902679846770f75a9b7f28176 spi: bcm-qspi: fix SFDP BFPT read by usig mspi read
-e267a5b3ec59ce88d6be21078e2deb807ca3b436 spi: spi-imx: Use dev_err_probe for failed DMA channel requests
-633cd6fe6e1993ba80e0954c2db127a0b1a3e66f spi: spi-cadence: Reverse the order of interleaved write and read operations
 67794f882adca00d043899ac248bc002751da9f6 ALSA: usb-audio: Skip setting clock selector for single connections
 834bf76add3e6168038150f162cbccf1fd492a67 eventfs: Save directory inodes in the eventfs_inode structure
 f13d8f28fe9fb0a4d0a6c21fb3c1577d0eda4ed8 Merge branch 'netfs-fixes' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
 a67e1f0bd4564b485e0f0c3ed7f6bf17688be268 regulator: ti-abb: don't use devm_platform_ioremap_resource_byname for shared interrupt register
-de8b6e1c231a95abf95ad097b993d34b31458ec9 spi: hisi-sfc-v3xx: Return IRQ_NONE if no interrupts were detected
 13f3956eb5681a4045a8dfdef48df5dc4d9f58a6 block: Fix WARNING in _copy_from_iter
 41353fbad4f551e82c2792f7e82ac225c79cc710 nvmet: unify aer type enum
 1347775dea7f62798b4d5ef60771cdd7cfff25d8 Merge tag 'wireless-2024-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
@@ -370,7 +339,6 @@ fcfc9f711d1e2fc7876ac12b1b16c509404b9625 ALSA: hda/realtek - Add speaker pin ver
 d62ccb59afcd94e8d301433974672b156392289d ALSA: virtio: remove duplicate check if queue is broken
 d915a6850e27efb383cd4400caadfe47792623df ALSA: usb-audio: Add delay quirk for MOTU M Series 2nd revision
 edcf9725150e42beeca42d085149f4c88fa97afd nfsd: fix RELEASE_LOCKOWNER
-2f8c7c3715f2c6fb51a4ecc0905c04dd78a3da29 spi: Raise limit on number of chip selects
 92b0b0ff0ba32e7b3f1e789cc96df1359db712ef nvme: add module description to stop warnings
 41951f83ef9044e906e11f5ea7db35a30dc9f581 nvmet: add module description to stop warnings
 7822baa844a87cbb93308c1032c3d47d4079bb8a ALSA: usb-audio: add quirk for RODE NT-USB+
@@ -384,7 +352,6 @@ c14d17a32568679385d32fe7a23994560c12772c media: chips-media: wave5: Remove K3 Re
 b32431b753217d8d45b018443b1a7aac215921fb media: vb2: refactor setting flags and caps, fix missing cap
 1110ebe058268b5425c69a23a99456f2331063bf Merge tag 'fbdev-for-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 e787644caf7628ad3269c1fbd321c3255cf51710 rcu: Defer RCU kthreads wakeup when CPU is dying
-f9f4b0c6425eb9ffd9bf62b8b8143e786b6ba695 spi: cs42l43: Handle error from devm_pm_runtime_enable
 b253d87fd78bf8d3e7efc5d149147765f044e89d netfilter: nf_tables: cleanup documentation
 01acb2e8666a6529697141a6017edbf206921913 netfilter: nft_chain_filter: handle NETDEV_UNREGISTER for inet/ingress basechain
 c9d9eb9c53d37cdebbad56b91e40baf42d5a97aa netfilter: nft_limit: reject configurations that cause integer overflow
@@ -480,7 +447,6 @@ f37f7979202d45489d84469838f5352cda3557bc drm/amd/display: Replay + IPS + ABM in 
 8894b9283afd35b8d22ae07a0c118eb5f7d2e78b drm/amd/display: Disable ips before dc interrupt setting
 d45669eb5e68c052d0d890cd88c33a65c115d9f3 drm/amd: Add a DC debug mask for IPS
 c82eb25c5f005b33aebb1415a8472fc2eeea0deb drm/amd/display: "Enable IPS by default"
-8c2ae772fe08e33f3d7a83849e85539320701abd spi: fix finalize message on error return
 b64787840080bdbd048bb9c68222ad17236cbd7e selftests: tcp_ao: add a config file
 98cb12eb52a780e682bea8372fdb2912c08132dd selftests: net: remove dependency on ebpf tests
 f5173fe3e13b2cbd25d0d73f40acd923d75add55 selftests: net: included needed helper in the install targets
@@ -697,7 +663,6 @@ efe80f9c9063228136bc3824f7ac6b4ff2e273b4 tools headers: Update the copy of x86's
 12b17b4eb82a41977eb848048137b5908d52845c USB: serial: cp210x: add ID for IMST iM871A-USB
 129690fb229a20b6e563a77a2c85266acecf20bc USB: serial: qcserial: add new usb-id for Dell Wireless DW5826e
 a3fa9838e8140584a6f338e8516f2b05d3bea812 regulator (max5970): Fix IRQ handler
-6500ad28fd5d67d5ca0fee9da73c463090842440 spi: sh-msiof: avoid integer overflow in constants
 f1fea725cc93fcc3c5af9a2af63ffdc40dd2259e selftests/livepatch: fix and refactor new dmesg message code
 5820cfee443f8a90ea3eb9f99f57f2049a4a93c3 kselftest/seccomp: Use kselftest output functions for benchmark
 b54761f6e9773350c0d1fb8e1e5aacaba7769d0f kselftest/seccomp: Report each expectation we assert as a KTAP test
@@ -1010,5 +975,6 @@ e010c04958604edd7034913c5348f537852449bc spi: s3c64xx: add support for google,gs
 0f0212558bc9e33fad4148d3f44745a367076b20 spi: s3c64xx: add support for google,gs101-spi
 0da9a7e5c86b003a9b446b30c90eaf96b2e442c2 spi: get rid of some legacy macros
 4f4857730c61e579497e25a474b1d31336c164b0 spi: s3c64xx: straightforward cleanup
+5111fd347aee731964993fc021e428f8cf46a076 Merge remote-tracking branch 'spi/for-6.9' into spi-next
 
---===============1616215721290937915==--
+--===============8172573166309799714==--
