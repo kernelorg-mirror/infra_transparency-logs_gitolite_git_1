@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1609800327002429766=="
+Content-Type: multipart/mixed; boundary="===============7684439164235056435=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 08 Feb 2024 23:58:45 -0000
-Message-Id: <170743672514.10054.14200092593567630807@gitolite.kernel.org>
+Date: Thu, 08 Feb 2024 23:59:13 -0000
+Message-Id: <170743675383.10298.12872611060933189352@gitolite.kernel.org>
 
---===============1609800327002429766==
+--===============7684439164235056435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/100GbE
     old: 63e4b9d693e0f8c28359c7ea81e1ee510864c37b
     new: 1f719a2f3fa67665578c759ac34fd3d3690c1a20
     log: revlist-63e4b9d693e0-1f719a2f3fa6.txt
 
---===============1609800327002429766==
+--===============7684439164235056435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -389,4 +389,4 @@ c8d80f83de47fd183a0eef2d6b1085d4fdecea37 Merge tag 'nfsd-6.8-3' of git://git.ker
 b0d5d0f73761124f0ece33f5fec421e76a22a9fd Merge tag 'pinctrl-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 1f719a2f3fa67665578c759ac34fd3d3690c1a20 Merge tag 'net-6.8-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============1609800327002429766==--
+--===============7684439164235056435==--
