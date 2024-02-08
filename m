@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8532970899881578800=="
+Content-Type: multipart/mixed; boundary="===============1616215721290937915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 08 Feb 2024 21:20:36 -0000
-Message-Id: <170742723601.24650.11798380098876695955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 08 Feb 2024 21:20:43 -0000
+Message-Id: <170742724345.24786.866502863474192310@gitolite.kernel.org>
 
---===============8532970899881578800==
+--===============1616215721290937915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/spi-6.9
     old: abb4b46c43689dd1f4d80c41e49127ca0ede75b3
     new: 4f4857730c61e579497e25a474b1d31336c164b0
     log: revlist-abb4b46c4368-4f4857730c61.txt
 
---===============8532970899881578800==
+--===============1616215721290937915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1707427233 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1707427232-8538d54661ceb1613010ea735ace510283482151
+pusher Mark Brown <broonie@kernel.org> 1707427241 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1707427240-bd41ff7b77044c445beecb4c06669a05041b9ad7
 
-abb4b46c43689dd1f4d80c41e49127ca0ede75b3 4f4857730c61e579497e25a474b1d31336c164b0 refs/heads/for-6.9
+abb4b46c43689dd1f4d80c41e49127ca0ede75b3 4f4857730c61e579497e25a474b1d31336c164b0 refs/heads/spi-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXFRaETHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0IFeB/0cA5ZJnd0Yh+V/QRsRp3gI133Fb2t6
-ulbX9wVkNQ86ugxQ791vdh5cqP6LdAHs1V3Sb2s7ad9XaoGixg8vYoOyPSc3KSQP
-CuUV9ORkLXg6cL1m8UV/QlU2PPj/UfMnEOtVM67tERkNZ3nAtJ1T8rCPtxn+PGCJ
-7k+BuHVVRjh6hBUP/TgZwIxEbNRME7ICb+apD6CUjaIduO2Mgjag8iYPkDx6mS49
-Ou2du4NVBJHBaK/lSeTYeTRlZith/PGb7Yo69gDOT/4jiTNagRwWwArU+mpBOOG3
-Cw+XgaypEcxsD8M9/wwXzd6N87J3OJj4U+V+WxUbg54LS1n+k+S3eNQN
-=dTZn
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXFRakTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0FXaB/9pqx4TuLxhGdjafchHKmobjhflE1sl
+cWuC9rD08lFuc4LhI7LtV0qm0xhwjiCp/vu6+o5CigvTW1YzSYVZlWLUEMjdODyN
+NWLwqeG1uSxQAyFluZ0O7MVQs+ZZs/Tys/2ZUoaOg4BaBRh/fdVODaJONe0lRLP/
+n/sctQnDTpc171/OobfWDKvMJxW3dgnc6TQcQjS8kEH5ObH1Ck29R8MRHzoUPk7q
+9Er7fgmoMjANnO8tYccT4V7iiG56xYzmvmVhfKzpFPy5C8ZjgRTJ1bOzZtGWxuHu
+/UAOQAgLLldKirFHvsesLNAwOAa+xgkEKIWv96L2A8nQC73kzi/Gkkrm
+=LMbz
 -----END PGP SIGNATURE-----
 
---===============8532970899881578800==
+--===============1616215721290937915==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1011,4 +1011,4 @@ e010c04958604edd7034913c5348f537852449bc spi: s3c64xx: add support for google,gs
 0da9a7e5c86b003a9b446b30c90eaf96b2e442c2 spi: get rid of some legacy macros
 4f4857730c61e579497e25a474b1d31336c164b0 spi: s3c64xx: straightforward cleanup
 
---===============8532970899881578800==--
+--===============1616215721290937915==--
