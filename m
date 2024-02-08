@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5157725171991418533=="
+Content-Type: multipart/mixed; boundary="===============1609800327002429766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 08 Feb 2024 23:50:00 -0000
-Message-Id: <170743620045.3789.4082304801591826461@gitolite.kernel.org>
+Date: Thu, 08 Feb 2024 23:58:45 -0000
+Message-Id: <170743672514.10054.14200092593567630807@gitolite.kernel.org>
 
---===============5157725171991418533==
+--===============1609800327002429766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 262b6afac48a2e2836ec3876a8d33527632f1d96
-    new: b0dab921d990bba7f57e81cb0c300e40d5a10bb9
-    log: revlist-262b6afac48a-b0dab921d990.txt
+  - ref: refs/heads/10GbE
+    old: 63e4b9d693e0f8c28359c7ea81e1ee510864c37b
+    new: 1f719a2f3fa67665578c759ac34fd3d3690c1a20
+    log: revlist-63e4b9d693e0-1f719a2f3fa6.txt
 
---===============5157725171991418533==
+--===============1609800327002429766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-262b6afac48a-b0dab921d990.txt
+Content-Disposition: attachment; filename=revlist-63e4b9d693e0-1f719a2f3fa6.txt
 
 fe752331d4b361d43cfd0b89534b4b2176057c32 KVM: s390: vsie: fix race during shadow creation
 83303a4c776ce1032d88df59e811183479acea77 KVM: s390: fix cc for successful PQAP
@@ -388,19 +388,5 @@ c8d80f83de47fd183a0eef2d6b1085d4fdecea37 Merge tag 'nfsd-6.8-3' of git://git.ker
 047371968ffc470769f541d6933e262dc7085456 Merge tag 'v6.8-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 b0d5d0f73761124f0ece33f5fec421e76a22a9fd Merge tag 'pinctrl-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 1f719a2f3fa67665578c759ac34fd3d3690c1a20 Merge tag 'net-6.8-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-caee50be54636890dcc0a97127d9e3803bf5fc66 i40e: Fix waiting for queues of all VSIs to be disabled
-f8dce5fd9b32376240277730d3c6be317ed19302 i40e: Fix wrong mask used during DCB config
-b00828612552e8397f4f8338b36f154a14a713a6 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
-5978cbd81ea274f9c8fb5ecab9d90a87d6eb7439 igb: Fix string truncation warnings in igb_set_fw_version
-88363c94f24337eda86da977fd61d153f9b2467a ice: Add check for lport extraction to LAG init
-7b6079fa28860cac1f1ca865936a2ba55923eb00 iavf: fix reset in early states
-c512d56d140470912efce112e224e502689f72e6 iavf: allow an early reset event to be processed
-5a316999f9e5b4ea9d9267ca9f5127cf0a4e2560 igc: Remove temporary workaround
-f65b8f3771ef9caed883822b873f6aa289a519a2 ice: fix connection state of DPLL and out pin
-2d72c848defdd3e3093b6a12e0d8dd062e3491e9 i40e: Do not allow untrusted VF to remove administratively set MAC
-58bf7c0352cbbd71c005ed8c8ad87d3717fe598c ice: virtchnl: stop pretending to support RSS over AQ or registers
-595d07f2742ee58be19bbe15f7ecde1dbd3429a3 i40e: avoid double calling i40e_pf_rxq_wait()
-e21523233e98452e46fbf1571b700116fa808776 i40e: take into account XDP Tx queues when stopping rings
-b0dab921d990bba7f57e81cb0c300e40d5a10bb9 ice: Refactor FW data type and fix bitmap casting issue
 
---===============5157725171991418533==--
+--===============1609800327002429766==--
