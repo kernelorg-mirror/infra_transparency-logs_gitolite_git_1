@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0052940525874632009=="
+Content-Type: multipart/mixed; boundary="===============6814761688626152139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Thu, 08 Feb 2024 23:40:15 -0000
-Message-Id: <170743561563.30385.5661250722400358180@gitolite.kernel.org>
+Date: Thu, 08 Feb 2024 23:40:45 -0000
+Message-Id: <170743564594.30635.12257692842382748110@gitolite.kernel.org>
 
---===============0052940525874632009==
+--===============6814761688626152139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: bf0987d3cd77a284ed6bab4b2e8c4d62516e6b66
-    new: fbef4d381e3d0143427e1a8c924be8e738c0fc2d
-    log: revlist-bf0987d3cd77-fbef4d381e3d.txt
+  - ref: refs/heads/dev-queue
+    old: b8348fa07c69e43dd897d60e54d1b1806dd90d68
+    new: 618d30a86d28526897a85ed9fdf250e624903515
+    log: revlist-b8348fa07c69-618d30a86d28.txt
 
---===============0052940525874632009==
+--===============6814761688626152139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf0987d3cd77-fbef4d381e3d.txt
+Content-Disposition: attachment; filename=revlist-b8348fa07c69-618d30a86d28.txt
 
 7991b07b8c742b93929fcebcde17615795eee009 amdgpu: update aldebaran firmware
 ffe88f5a72de4be50946e221a175b7d50f773fa6 amdgpu: update navi10 firmware
@@ -109,5 +109,6 @@ e34e1e5078b8020c789c7f11e0176c86630f4d3f amdgpu: DMCUB Updates for DCN321: 7.0.3
 b88f448df01e2bc19dbf4abfaf1b44e348f134da Merge branch 'amd-staging' into 'main'
 c01388616e35c2f9dbcc4a207703e1ae0b47fcd9 panthor: Add initial firmware for Gen10 Arm Mali GPUs
 fbef4d381e3d0143427e1a8c924be8e738c0fc2d Merge branch 'main' into 'main'
+618d30a86d28526897a85ed9fdf250e624903515 ice: update ice DDP package to 1.3.36.0
 
---===============0052940525874632009==--
+--===============6814761688626152139==--
