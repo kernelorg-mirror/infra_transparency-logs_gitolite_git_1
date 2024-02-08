@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 08 Feb 2024 16:34:24 -0000
-Message-Id: <170741006484.28598.16423715966560043051@gitolite.kernel.org>
+Date: Thu, 08 Feb 2024 16:35:02 -0000
+Message-Id: <170741010252.29797.4709518783638636118@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,13 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
   - ref: refs/heads/vfs.uuid
-    old: 1adb5a28ef5e5e638445be6a02e470b529cdd165
-    new: 4f8b7c044043a0c91b06fcb9c163dad737eb0dcd
+    old: 4f8b7c044043a0c91b06fcb9c163dad737eb0dcd
+    new: 43fb0e6b67b092e79630cb8ca9c9a9ecdb139d9f
     log: |
-         b7dc9cacc5b4b286b423aa7fc6943135651cd50a ovl: Convert to super_set_uuid()
-         f81bb137ee1c86a2931830ddb938d0b2c7511a22 fs: FS_IOC_GETUUID
-         afe0335badfb0ef18295672ef2d8b57f5622c497 fat: Hook up sb->s_uuid
-         e7040acec8cb8df1cee4d6e56c8757bd115a9848 fs: add FS_IOC_GETFSSYSFSPATH
-         867240187e69f92020d0243e59ea586d8e5ffaa7 xfs: add support for FS_IOC_GETFSSYSFSPATH
-         4f8b7c044043a0c91b06fcb9c163dad737eb0dcd Merge series "filesystem visibility ioctls" of https://lore.kernel.org/r/20240207025624.1019754-1-kent.overstreet@linux.dev
+         aedb35bf19ddae06b2ab86aae1e8503ec9ede458 ovl: convert to super_set_uuid()
+         5441d0c29f56d8068761e323359196791bca2c08 fs: FS_IOC_GETUUID
+         7f65fd215da72c79a20c4669212ef6cf25e7e633 fat: Hook up sb->s_uuid
+         72829fc547d97a5c1b6a5a22d5e1be6187bc9ea2 fs: add FS_IOC_GETFSSYSFSPATH
+         e3e2589aab68d8c7794880fc55b529df9248c569 xfs: add support for FS_IOC_GETFSSYSFSPATH
+         43fb0e6b67b092e79630cb8ca9c9a9ecdb139d9f Merge series "filesystem visibility ioctls" of https://lore.kernel.org/r/20240207025624.1019754-1-kent.overstreet@linux.dev
          
