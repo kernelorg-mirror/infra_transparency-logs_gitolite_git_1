@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 08 Feb 2024 11:45:23 -0000
-Message-Id: <170739272306.13335.6373495963353190316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 08 Feb 2024 11:48:46 -0000
+Message-Id: <170739292639.14619.11297837504292810357@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/spi-6.9
-    old: 3279b2b5c8240c2303462869d32d9c25b724780b
+  - ref: refs/heads/for-6.9
+    old: 148b93a5062d3738348fab813930615700a266c3
     new: abb4b46c43689dd1f4d80c41e49127ca0ede75b3
+    log: |
+         531860e12da76a444e0ecfd37a9d786e7986957a spi: axi-spi-engine: remove use of ida for sync id
+         abb4b46c43689dd1f4d80c41e49127ca0ede75b3 spi: axi-spi-engine: move msg finalization out of irq handler
+         
