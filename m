@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 08 Feb 2024 16:33:05 -0000
-Message-Id: <170740998535.28069.3256285725233015388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 08 Feb 2024 16:34:24 -0000
+Message-Id: <170741006484.28598.16423715966560043051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/for-next
-    old: a38b305cf404013abcaba060d61597e231198724
-    new: 0b2262989b8bbd01ff49b7fb2cb00b810b504008
+  - ref: refs/heads/vfs.uuid
+    old: 1adb5a28ef5e5e638445be6a02e470b529cdd165
+    new: 4f8b7c044043a0c91b06fcb9c163dad737eb0dcd
     log: |
-         531860e12da76a444e0ecfd37a9d786e7986957a spi: axi-spi-engine: remove use of ida for sync id
-         abb4b46c43689dd1f4d80c41e49127ca0ede75b3 spi: axi-spi-engine: move msg finalization out of irq handler
-         0b2262989b8bbd01ff49b7fb2cb00b810b504008 Merge remote-tracking branch 'spi/for-6.9' into spi-next
+         b7dc9cacc5b4b286b423aa7fc6943135651cd50a ovl: Convert to super_set_uuid()
+         f81bb137ee1c86a2931830ddb938d0b2c7511a22 fs: FS_IOC_GETUUID
+         afe0335badfb0ef18295672ef2d8b57f5622c497 fat: Hook up sb->s_uuid
+         e7040acec8cb8df1cee4d6e56c8757bd115a9848 fs: add FS_IOC_GETFSSYSFSPATH
+         867240187e69f92020d0243e59ea586d8e5ffaa7 xfs: add support for FS_IOC_GETFSSYSFSPATH
+         4f8b7c044043a0c91b06fcb9c163dad737eb0dcd Merge series "filesystem visibility ioctls" of https://lore.kernel.org/r/20240207025624.1019754-1-kent.overstreet@linux.dev
          
