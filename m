@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3346066311807585918=="
+Content-Type: multipart/mixed; boundary="===============0495105075210286817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 08 Feb 2024 08:36:15 -0000
-Message-Id: <170738137510.24155.18364264439177555893@gitolite.kernel.org>
+Date: Thu, 08 Feb 2024 08:36:45 -0000
+Message-Id: <170738140518.24398.5856664321856912987@gitolite.kernel.org>
 
---===============3346066311807585918==
+--===============0495105075210286817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 4b5cb5c1a346d4e5e35a1032ff0a1e8dd3b27052
-    new: d9a9657a1343a7eef7bcbf6e974bf4cea75121a5
-    log: revlist-4b5cb5c1a346-d9a9657a1343.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 9189526c46f2ad14df25dbdc30443f79d03dc7bd
+    new: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
+    log: revlist-9189526c46f2-54be6c6c5ae8.txt
 
---===============3346066311807585918==
+--===============0495105075210286817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1707381374 +0100
+pusher andi.shyti@kernel.org 1707381404 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1707381373-6ce84726aec85401caf19322bf0d51534d7bc9e6
+nonce 1707381403-910961afe89128b630ec35d5cc017ec87a2fd2de
 
-4b5cb5c1a346d4e5e35a1032ff0a1e8dd3b27052 d9a9657a1343a7eef7bcbf6e974bf4cea75121a5 refs/heads/i2c/i2c-host
+9189526c46f2ad14df25dbdc30443f79d03dc7bd 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZcSSfhYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u/REBAJS1YLzuTHa2CudkiinIAhId/u8n
-Qn5HQCF7/5VIxJwTAQCQHjBwZEZ9CeY3ewmCPWv4skDPE70ro4GYLoihNhyYAQ==
-=xHz+
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZcSSnBYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uXIABANmpg5CvlU9QQw9YhPMhEyhyEg2F
+eECzNO2Bw58MsTWTAQDcrnrWc0OsXpa4lmqnrfFbzdJm6YpwEyJFq+0c3gW6DQ==
+=H3Nm
 -----END PGP SIGNATURE-----
 
---===============3346066311807585918==
+--===============0495105075210286817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b5cb5c1a346-d9a9657a1343.txt
+Content-Disposition: attachment; filename=revlist-9189526c46f2-54be6c6c5ae8.txt
 
 a9668169961106f3598384fe95004106ec191201 HID: hid-steam: remove pointless error message
 a9f1da09c69f13ef471db8b22107a28042d230ca HID: hid-steam: Fix cleanup in probe()
@@ -53,6 +53,8 @@ a9f1da09c69f13ef471db8b22107a28042d230ca HID: hid-steam: Fix cleanup in probe()
 d6b75ba5218915be48542bcd7e2a09776b7c66c9 scsi: virtio_scsi: Remove duplicate check if queue is broken
 e6f3799de2f2b2cd23c3894a127921dfb6c6a512 scsi: initio: Remove redundant variable 'rb'
 7d1ae55ffed0ff78ed33b1465c1233e05024e135 scsi: MAINTAINERS: Update ibmvscsi_tgt maintainer
+fe33c0fbed75dd464747c0faaedf94c7d8eb4101 Merge branch 'master' into mm-hotfixes-stable
+5aa1c96e8ef347430e7a7c898f290425d1b568ef Merge branch 'master' into mm-hotfixes-stable
 4d695869d3fb952d6f690bec0260ffe2a8b99b37 selftests/hid: wacom: fix confidence tests
 0991abeddefa118479b0af32c28bcd662dec1561 exfat: fix zero the unwritten part for dio read
 55583e899a5357308274601364741a83e78d6ac4 ext4: fix double-free of blocks due to wrong extents moved_len
@@ -111,6 +113,7 @@ afa6ac2690bb9904ff883c6e942281e1032a484d HID: logitech-hidpp: add support for Lo
 52998cdd8d3438df9a77c858a827b8932da1bb28 Merge branch '6.8/scsi-staging' into 6.8/scsi-fixes
 7c834a7265960545b17b5703e8510691350faf97 ASoC: codecs: fix ES8326 performance and pop noise
 7c70825d1603001e09907b383ed5d1bd283d61a0 ASoC: qcom: volume fixes and codec cleanups
+f0b7a0d1d46625db5b0e631c05ae96d78eda6c70 Merge branch 'master' into mm-hotfixes-stable
 3526860f26febbe46960f9b37f5dbd5ccc109ea8 ALSA: hda: Replace numeric device IDs with constant values
 56beedc88405fd8022edfd1c2e63d1bc6c95efcb ALSA: hda: Increase default bdl_pos_adj for Apollo Lake
 a2ed0a44d637ef9deca595054c206da7d6cbdcbc ALSA: hda/cs8409: Suppress vmaster control for Dolphin models
@@ -150,8 +153,30 @@ cefa98e806fd4e2a5e2047457a11ae5f17b8f621 nfp: flower: add hardware offload check
 d833683d43854ad041ed64fdc175cbd1a19253eb Merge branch 'nfp-flower-a-few-small-conntrack-offload-fixes'
 cae1f1c36661f28c92a1db9113961a9ebd61dbaa net: ethernet: mtk_eth_soc: set DMA coherent mask to get PPE working
 ff63cc2e95065bea978d2db01f7e7356cca3d021 net: phy: mediatek-ge-soc: sync driver with MediaTek SDK
+ab4443fe3ca6298663a55c4a70efc6c3ce913ca6 readahead: avoid multiple marked readahead pages
+19d3e221807772f8443e565234a6fdc5a2b09d26 fs/hugetlbfs/inode.c: mm/memory-failure.c: fix hugetlbfs hwpoison handling
+f8ee4361b7be3f0c5bd21ee47561473ddf3aa17b selftests/mm: mremap_test: fix build warning
+4dca82d14174fe53f656a6bc32398db1bdd8f481 uprobes: use pagesize-aligned virtual address when replacing pages
+c4608d1bf7c6536d1a3d233eb21e50678681564e mm: mmap: map MAP_STACK to VM_NOHUGEPAGE
+63fd327016fdfca6f2fa27eba3496bd079eb8ed3 mm: memcontrol: don't throttle dying tasks on memory.high
+0d7e68c0271853c30655b05934d66cec81dc6afc MAINTAINERS: add man-pages git trees
+bc29036e1da1cf66e5f8312649aeec2d51ea3d86 selftests/mm: switch to bash from sh
+9319b647902cbd5cc884ac08a8a6d54ce111fc78 mm/writeback: fix possible divide-by-zero in wb_dirty_limits(), again
+f6564fce256a3944aa1bc76cb3c40e792d97c1eb mm, kmsan: fix infinite recursion due to RCU critical section
+c2a292545cd43dcab86d5290ed95b006f1cefe90 stackdepot: add stats counters exported via debugfs
+4434a56ec20925333d6cf4d4093641d063abd35b stackdepot: make fast paths lock-less again
+0fe8ff51efb3fe5cb25da13229f95aa709613cb3 MAINTAINERS: supplement of zswap maintainers update
+91b80cc5b39f00399e8e2d17527cad2c7fa535e2 selftests: mm: fix map_hugetlb failure on 64K page size systems
+52e63d67b5bb423b33d7a262ac7f8bd375a90145 selftests/mm: Update va_high_addr_switch.sh to check CPU for la57 flag
+db44c658f798ad907219f15e033229b8d1aadb93 mm/huge_memory: fix folio_set_dirty() vs. folio_mark_dirty()
+e4e3df290f65da6cb27dac1309389c916f27db1a mm/memory: fix folio_set_dirty() vs. folio_mark_dirty() in zap_pte_range()
+6f9dc684cae638dda0570154509884ee78d0f75c scs: add CONFIG_MMU dependency for vfree_atomic()
+d021b442cf312664811783e92b3d5e4548e92a53 selftests/mm: ksm_tests should only MADV_HUGEPAGE valid memory
+67695f18d55924b2013534ef3bdc363bc9e14605 userfaultfd: fix mmap_changing checking in mfill_atomic_hugetlb
+4ef9ad19e17676b9ef071309bc62020e2373705d mm: huge_memory: don't force huge page alignment on 32 bit
 e1d54d153fc3e697b841999df7cbad51492def8e crypto: qat - fix arbiter mapping generation algorithm for QAT 402xx
 c5a2f74db71a849f3a60bc153d684d6d28a0c665 crypto: caam - fix asynchronous hash
+96204e15310c218fd9355bdcacd02fed1d18070e mm: thp_get_unmapped_area must honour topdown preference
 cc4b2dd95f0d1eba8c691b36e8f4d1795582f1ff erofs: fix infinite loop due to a race of filling compressed_bvecs
 690811f0128eb6034e5fd011c3c54878839b4014 tools headers uapi: Sync linux/stat.h with the kernel sources to pick STATX_MNT_ID_UNIQUE
 174372668933ede569b9e56eab26971669a6a0a9 tools arch x86: Sync the msr-index.h copy with the kernel sources to pick IA32_MKTME_KEYID_PARTITIONING
@@ -171,6 +196,7 @@ eeca59a6e8e610e593d17e12f67324c615ec5ef2 ALSA: usb-audio: Support read-only cloc
 00aab7dcb2267f2aef59447602f34501efe1a07f HID: i2c-hid-of: fix NULL-deref on failed power up
 97aab852c4b9e1b378de48a55f8c9b8d76c36ccc hwmon: gigabyte_waterforce: Fix locking bug in waterforce_get_status()
 fcf67d82b8b878bdd95145382be43927bce07ec6 selftests: net: add missing config for big tcp tests
+0958b33ef5a04ed91f61cef4760ac412080c4e08 tracing/trigger: Fix to return error if failed to alloc snapshot
 c60fe56c169eb552113a4711db3a5f99e3acd4c1 hwmon: (pmbus/mp2975) Fix driver initialization for MP2975 device
 d0266d7ab1618482d58015d67a5220e590333298 Revert "power: supply: qcom_battmgr: Register the power supplies after PDR is up"
 c3dfcdb65ec1a4813ec1e0871c52c671ba9c71ac net/smc: fix incorrect SMC-D link group matching logic
@@ -224,6 +250,7 @@ b35f8dbbce818b02c730dc85133dc7754266e084 serial: max310x: prevent infinite while
 b9402e3b97289ca9e0f0f79f4df64bd6c9176a86 parisc: Check for valid stride size for cache flushes
 c8708d758e715c3824a73bf0cda97292b52be44d parisc: Prevent hung tasks when printing inventory on serial console
 20e08a720cc526dacc0678067ffc81613aa738ca parisc: Drop unneeded semicolon in parse_tree_node()
+29142dc92c37d3259a33aef15b03e6ee25b0d188 tracefs: remove stale 'update_gid' code
 c79f52f0656eeb3e4a12f7f358f760077ae111b6 io_uring/rw: ensure poll based multishot read retries appropriately
 efb56d84dd9c3de3c99fc396abb57c6d330038b5 ALSA: hda/realtek: Fix the external mic not being recognised for Acer Swift 1 SF114-32
 f0d78972f27dc1d1d51fbace2713ad3cdc60a877 ALSA: hda/realtek: Enable Mute LED on HP Laptop 14-fq0xxx
@@ -234,6 +261,7 @@ c0787fcff88bce36d21e5b726bdeab694baba6a5 Revert "ALSA: usb-audio: Skip setting c
 bfb007aebe6bff451f7f3a4be19f4f286d0d5d9c nfc: nci: free rx_data_reassembly skb on NCI device cleanup
 577e4432f3ac810049cb7e6b71f4d96ec7c6e894 tcp: add sanity checks to rx zerocopy
 c92c108403b09f75f3393588c2326ecad49ee2e2 Revert "drm/amd/pm: fix the high voltage and temperature issue"
+e42e29cc442395d62f1a8963ec2dfb700ba6a5d7 Revert "jfs: fix shift-out-of-bounds in dbJoin"
 6d3c7fb17b4c047ccd0b42cf1308da693ab45acb nvme: use ctrl state accessor
 346f59d1e8ed0eed41c80e1acb657e484c308e6a ALSA: usb-audio: Check presence of valid altsetting control
 21fdd8dd3726199451fc495f20104356e071a997 tools headers UAPI: Sync unistd.h to pick {list,stat}mount, lsm_{[gs]et_self_attr,list_modules} syscall numbers
@@ -250,8 +278,11 @@ e84b01a880f635e3084a361afba41f95ff500d12 io_uring/poll: move poll execution help
 91e5d765a82fb2c9d0b7ad930d8953208081ddf1 io_uring/net: un-indent mshot retry path in io_recv_finish()
 704ea888d646cb9d715662944cf389c823252ee0 io_uring/poll: add requeue return code from poll multishot handling
 76b367a2d83163cf19173d5cb0b562acbabc8eac io_uring/net: limit inline multishot retries
+6f3d7d5cedbad7a859bb34161a2807c58e6cdda8 Merge tag 'mm-hotfixes-stable-2024-01-28-23-21' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 c44fc98f0a8ffd94fa0bd291928e7e312ffc7ca4 net: dsa: qca8k: fix illegal usage of GPIO
 59c93583491ab15db109f9902524d241c4fa4c0b selftests: net: add missing config for nftables-backed iptables
+9b7bd05bebfcd3d369272d41ef32a379708ec933 Merge tag 'trace-v6.8-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+861c0981648f5b64c86fd028ee622096eb7af05a Merge tag 'jfs-6.8-rc3' of github.com:kleikamp/linux-shaggy
 881f78f472556ed05588172d5b5676b48dc48240 xfs: remove conditional building of rt geometry validator functions
 60365049ccbacd101654a66ddcb299abfabd4fc5 ipv6: Ensure natural alignment of const ipv6 loopback and router addresses
 2fa28abd1090562b4d9bc4aedd70abcca26561af arm64: Revert "scs: Work around full LTO issue with dynamic SCS"
@@ -308,7 +339,6 @@ cda5f94e88b45c9209599bac15fc44add5a59f60 modpost: avoid using the alias attribut
 bfef491df67022c56aab3b831044f8d259f9441f kconfig: initialize sym->curr.tri to 'no' for all symbol types again
 1e560864159d002b453da42bd2c13a1805515a20 PCI/ASPM: Fix deadlock when enabling ASPM
 925bd5e08106bd5bfbd1cb8e124c89a0b4003569 MAINTAINERS: Add Manivannan Sadhasivam as PCI Endpoint maintainer
-9189526c46f2ad14df25dbdc30443f79d03dc7bd MAINTAINERS: Update i2c host drivers repository
 c9ec85153fea6873c52ed4f5055c87263f1b54f9 selftests: net: add missing config for GENEVE
 fdd0ae72b34e56eb5e896d067c49a78ecb451032 perf tools headers: update the asm-generic/unaligned.h copy with the kernel sources
 6764c317b6bb91bd806ef79adf6d9c0e428b191e Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
@@ -526,14 +556,5 @@ fc86e5c9909b1b9a80ff0e7946279dfae6b96ded Merge tag 'xfs-6.8-fixes-2' of git://gi
 9e28c7a23bac7452935d1768fbfedad113586f9b Merge tag 'v6.8-rc3-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 3f24fcdacd40c70dd2949c1cfd8cc2e75942a9e3 Merge tag 'for-linus-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 Linux 6.8-rc3
-5731cb4bef55d1fb649bc862b8e6f8e4cfd10e92 dt-bindings: i2c: pca954x: Add custom properties for MAX7357
-df7cbce47a993b14dc2cf71ba0cba081766277e0 i2c: muxes: pca954x: Enable features on MAX7357
-ecaaeff9006c0577e31d211066e193ce34ffba46 i2c: i801: Replace magic value with constant in dmi_check_onboard_devices
-4810603ce35482865c2f88d0cc09ff5caca12120 i2c: i801: Remove unused argument from tco functions
-c0fcc4d9fc0784f8c11af0343092f8d945339431 i2c: imx: move to generic GPIO recovery
-7a7fd335f821f93f9327f581e1677361c48a0dea i2c: sh_mobile: Switch R-Mobile A1/APE6 and SH-Mobile AG5 to new frequency calculation
-5c015726a266b33227bc91a6926b3e93de834117 i2c: hisi: Optimized the value setting of maxwrite limit to fifo depth - 1
-9911be1d372946924b1fedaa1b96574920f35519 i2c: hisi: Add clearing tx aempty interrupt operation
-d9a9657a1343a7eef7bcbf6e974bf4cea75121a5 dt-bindings: i2c: renesas,rcar-i2c: Add r8a779h0 support
 
---===============3346066311807585918==--
+--===============0495105075210286817==--
