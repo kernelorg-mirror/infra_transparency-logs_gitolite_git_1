@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 08 Feb 2024 06:24:16 -0000
-Message-Id: <170737345642.26314.698106828598750231@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 08 Feb 2024 07:04:31 -0000
+Message-Id: <170737587146.21921.1144149652765169340@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 547ab8fc4cb04a1a6b34377dd8fad34cd2c8a8e3
-    new: 047371968ffc470769f541d6933e262dc7085456
+    old: 93e1e1fe2f97859cb079078b6b750542ebbfdea8
+    new: 72dbec6d96aff74a13082b2ab7d302270b7c2de7
     log: |
-         ebd4acc0cbeae9efea15993b11b05bd32942f3f0 riscv: Fix wrong size passed to local_flush_tlb_range_asid()
-         ccb88e9549e7cfd8bcd511c538f437e20026e983 crypto: ccp - Fix null pointer dereference in __sev_platform_shutdown_locked
-         69fba378edcaffba7bc7d299fdee02e377069d30 crypto: cbc - Ensure statesize is zero
-         24c890dd712f6345e382256cae8c97abb0406b70 crypto: algif_hash - Remove bogus SGL free on zero-length error path
-         860d7dcb20105af1fc7228a162886c421296cd86 Merge tag 'percpu-for-6.8-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/dennis/percpu
-         047371968ffc470769f541d6933e262dc7085456 Merge tag 'v6.8-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+         2bc7fc24f9a85cb6b7335354b2733615727689f6 clocksource: Make clocksource_subsys const
+         49f1ff50d49fb8b40bc0271177de8092226396e9 clockevents: Make clockevents_subsys const
+         45ba5b3c0a02949a4da74ead6e11c43e9b88bdca iommu/amd: Fix failure return from snp_lookup_rmpentry()
+         c5b62856da4fcd6dc03ae05b9efafb91981cf4f2 Merge branch into tip/master: 'timers/core'
+         72dbec6d96aff74a13082b2ab7d302270b7c2de7 Merge branch into tip/master: 'x86/sev'
          
