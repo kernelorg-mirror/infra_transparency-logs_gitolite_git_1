@@ -1,22 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 09 Feb 2024 20:58:41 -0000
-Message-Id: <170751232159.15134.9792404441917277857@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7636637581083511784=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 09 Feb 2024 21:01:01 -0000
+Message-Id: <170751246177.17707.7892988487480375670@gitolite.kernel.org>
+
+--===============7636637581083511784==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/main
-    old: d02bfae3646a679ed8ca0660d12336ef54d44817
-    new: aae09a6c7783e28d1bcafee85e172fe411923b22
-    log: |
-         6e2f90d31fe09f2b852de25125ca875aabd81367 net: openvswitch: limit the number of recursions from action sets
-         bd128f62c365504e1268dc09fcccdfb1f091e93a selftests: openvswitch: Add validation for the recursion test
-         6a12401b65a5ba57cfe1361c9a3e054ffde68611 Merge branch 'net-openvswitch-limit-the-recursions-from-action-sets'
-         aae09a6c7783e28d1bcafee85e172fe411923b22 net/sched: act_mirred: Don't zero blockid when net device is being deleted
-         
+  - ref: refs/heads/dm-vdo-wip
+    old: 9097fdee708a6c5d9afaf6d80e9f39c888a8a188
+    new: c0a9590484873caedd1079ee7a57730fadec1c67
+    log: revlist-9097fdee708a-c0a959048487.txt
+
+--===============7636637581083511784==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9097fdee708a-c0a959048487.txt
+
+8f9d7e0bb0189461bb8fd49e373a005c60fd1b76 dm vdo: tweak wait_for_completion_interruptible callers
+9e5d1447bcf39c8f382eaaebcada198940870ce6 dm vdo: fold thread-cond-var.c into uds-threads
+8a8219ce233ea0c3f7e2b352d318eb0c182d3477 dm vdo: rename uds-threads.[ch] to thread-utils.[ch]
+3adc5aafeb81976669bc726df70ab865de994b73 dm vdo thread-utils: eliminate uds_*_semaphore interfaces
+747e8d1ed847765d3f5fce08f2e06476dc385af3 dm vdo thread-utils: push 'barrier' down to indexer's sparse-cache
+008a18b0f0d343f660c3c6ed721e7dbd26be6786 dm vdo indexer sparse-cache: cleanup threads_barrier code
+79a1a75b863a91db1c5232d6ee67dd524dfcd0a7 dm vdo thread-utils: further cleanup of thread functions
+aa73a1f8f8207266b0bc501382c76b35f0306150 dm vdo indexer: rename uds.h to indexer.h
+94b8fbf86a4e3fb05d1de28145d1615620128837 dm vdo thread-utils: remove all uds_*_mutex wrappers
+7f5c5d29ce5f6d02ca5aa8cfa010b97c2fbe643c dm vdo thread-utils: push uds_*_cond interface down to indexer
+07491ab136131749548507f7f3a3ab8016cdcc56 dm vdo thread-utils: cleanup included headers
+d3ce9732f1ec3d36aa9db57db9a17ab0679de0f3 dm vdo thread-registry: rename all methods to reflect vdo-only use
+48db68615e459277883d93f5678c12d8489b3791 dm vdo memory-alloc: simplify allocations_allowed()
+c0a9590484873caedd1079ee7a57730fadec1c67 dm vdo thread-device: rename all methods to reflect vdo-only use
+
+--===============7636637581083511784==--
