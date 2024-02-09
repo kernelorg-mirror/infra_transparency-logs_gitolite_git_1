@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Fri, 09 Feb 2024 19:16:46 -0000
-Message-Id: <170750620636.4920.3882285094660417330@gitolite.kernel.org>
+Date: Fri, 09 Feb 2024 19:19:13 -0000
+Message-Id: <170750635310.5882.1029993420887929186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/network/ofono/ofono
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: d70bcc06096a911955ca87487fd08cf4a3f5c6e2
-    new: 3bdb52ed7e49eaf404c15c306711011ac8f1b402
+    old: 3bdb52ed7e49eaf404c15c306711011ac8f1b402
+    new: 24c225e8fe6cc8a6eef0424fe17ed3a96bf7a6ff
     log: |
-         3bdb52ed7e49eaf404c15c306711011ac8f1b402 provision: Move the JSON source into a separate data directory
+         24c225e8fe6cc8a6eef0424fe17ed3a96bf7a6ff build: Require at least version 0.62 when building with external ELL
          
