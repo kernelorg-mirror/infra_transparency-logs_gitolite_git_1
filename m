@@ -1,41 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1544542880620047976=="
+Content-Type: multipart/mixed; boundary="===============0430385774812742201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 09 Feb 2024 15:52:21 -0000
-Message-Id: <170749394143.4951.3677195392368281627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/kvmtool
+Date: Fri, 09 Feb 2024 15:55:07 -0000
+Message-Id: <170749410703.7652.5439759121655261492@gitolite.kernel.org>
 
---===============1544542880620047976==
+--===============0430385774812742201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/will/kvmtool
+user: will
 changes:
-  - ref: refs/heads/dir-deleg
-    old: 7b60285292bdd8a4c76775a8eabde93e9dd5b8a2
-    new: bbc24bba5c1b3f92bc88efbb08afd159cffceba2
-    log: revlist-7b60285292bd-bbc24bba5c1b.txt
+  - ref: refs/heads/master
+    old: 095773e707ae1509f5bca0ad82f4e510e2ecdf80
+    new: e73a6b29f1ebf30c44f59a0a228ebed70aa76586
+    log: revlist-095773e707ae-e73a6b29f1eb.txt
 
---===============1544542880620047976==
+--===============0430385774812742201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b60285292bd-bbc24bba5c1b.txt
+Content-Disposition: attachment; filename=revlist-095773e707ae-e73a6b29f1eb.txt
 
-ebd4acc0cbeae9efea15993b11b05bd32942f3f0 riscv: Fix wrong size passed to local_flush_tlb_range_asid()
-ccb88e9549e7cfd8bcd511c538f437e20026e983 crypto: ccp - Fix null pointer dereference in __sev_platform_shutdown_locked
-69fba378edcaffba7bc7d299fdee02e377069d30 crypto: cbc - Ensure statesize is zero
-24c890dd712f6345e382256cae8c97abb0406b70 crypto: algif_hash - Remove bogus SGL free on zero-length error path
-860d7dcb20105af1fc7228a162886c421296cd86 Merge tag 'percpu-for-6.8-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/dennis/percpu
-047371968ffc470769f541d6933e262dc7085456 Merge tag 'v6.8-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-b149586c3ded8f1d6437f5a9c253d004b40c3b2f nfs: remove unused NFS_CALL macro
-22e26a285e22d05545c9999a77d48668ff0973d2 nfsd: encoders and decoders for GET_DIR_DELEGATION
-c9998b36f5610b30388116f7dbf93dd3908f87c2 nfs: add encoders and decoders for GET_DIR_DELEGATION
-18aef845539142f2ddaa3e75f3e3039f659f735f nfs: new GET_DIR_DELEGATION procedure
-bbc24bba5c1b3f92bc88efbb08afd159cffceba2 nfs: add an ioctl to fetch a directory delegation
+92ef2dcd2c095420b73e04a1cabbddf8e246834d Sync kernel headers with v6.7 to enable additional Risc-V extensions
+fcb076756ab2dae13684e89d3fc9ce551c3e2d38 riscv: Improve warning in generate_cpu_nodes()
+7887b3989ac22f362b755fa96f9e8318f4dc020e riscv: Make CPU_ISA_MAX_LEN depend upon isa_info_arr array size
+6331850d6bc0a791b9ad8a03920ae8509fa0a977 riscv: Add Zba and Zbs extension support
+667685691c5dc9a4144feb008ebff71d5f7b1e68 riscv: Add Zicntr and Zihpm extension support
+3436684940bc4359d5aed6c28992f5af91448929 riscv: Add Zicsr and Zifencei extension support
+8d02d5a895c30d679d2ec0f235a98ee324972cef riscv: Add Smstateen extension support
+8cd71ca57fb01ad880524496bfed06d3ae421ea3 riscv: Add Zicond extension support
+ef89838e376037602eab589382520bb0a76e9cbb riscv: Set mmu-type DT property based on satp_mode ONE_REG interface
+4ddaa4249e0c59a9ef6e09c1e32b042dd01e4c08 riscv: Handle SBI DBCN calls from Guest/VM
+f6cc06d6b53540b0c8d9eada04fb6c5bd90e56fd riscv: Fix guest poweroff when using PLIC emulation
+e73a6b29f1ebf30c44f59a0a228ebed70aa76586 x86: Enable in-kernel irqchip before creating PIT
 
---===============1544542880620047976==--
+--===============0430385774812742201==--
