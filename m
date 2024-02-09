@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 09 Feb 2024 16:58:20 -0000
-Message-Id: <170749790076.28702.3717460656652916292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 09 Feb 2024 16:58:32 -0000
+Message-Id: <170749791200.28859.16982912851572052266@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 1f719a2f3fa67665578c759ac34fd3d3690c1a20
-    new: 02d9009f4e8c27dcf10c3e39bc0666436686a219
+  - ref: refs/heads/for-next
+    old: 34668a5332f4bf0097cf65c0832abb089092264c
+    new: 42469b97ffbe316fbfc327eb60d02dcf1962d1c3
     log: |
-         53c0441dd2c44ee93fddb5473885fd41e4bc2361 dpll: fix possible deadlock during netlink dump operation
-         aa1eec2f546f2afa8c98ec41e5d8ee488165d685 net/mlx5: DPLL, Fix possible use after free after delayed work timer triggers
-         4e1d71cabb19ec2586827adfc60d68689c68c194 net/handshake: Fix handshake_req_destroy_test1
-         9b0ed890ac2ae233efd8b27d11aee28a19437bb8 bonding: do not report NETDEV_XDP_ACT_XSK_ZEROCOPY
-         4ab18af47a2c2a80ac11674122935700caf80cc6 devlink: Fix command annotation documentation
-         02d9009f4e8c27dcf10c3e39bc0666436686a219 selftests: net: add more missing kernel config
+         4089d82e67a9967fc5bf2b4e5ef820d67fe73924 ASoC: tas2781: remove unused acpi_subysystem_id
+         f7fc624be3dbfb78047a1cab795b93c7235fbf1c ASoC: Intel: avs: Expose FW version with sysfs
+         42469b97ffbe316fbfc327eb60d02dcf1962d1c3 Merge remote-tracking branch 'asoc/for-6.9' into asoc-next
          
