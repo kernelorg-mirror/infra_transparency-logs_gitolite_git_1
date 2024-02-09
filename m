@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 09 Feb 2024 16:30:49 -0000
-Message-Id: <170749624951.4788.11140999411922227570@gitolite.kernel.org>
+Date: Fri, 09 Feb 2024 16:31:04 -0000
+Message-Id: <170749626426.4957.4051415092108070676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/tags/pci-v4.6-fixes-3
-    old: aa61c32b721654955831624e89926a4aa4ddfd49
+  - ref: refs/tags/drm-intel-next-2016-05-08
+    old: 8192a200f8928a95c5365503338b8b5a3385b213
     new: 0000000000000000000000000000000000000000
