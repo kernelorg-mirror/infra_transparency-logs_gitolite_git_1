@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Fri, 09 Feb 2024 11:47:47 -0000
-Message-Id: <170747926719.20920.15237619648603725837@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 09 Feb 2024 12:08:21 -0000
+Message-Id: <170748050133.3511.6073825252107079075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for_next
-    old: 9e9a976eaa1dfbe0752ff0df15f1a60fd0a373e4
-    new: 71b12545f603de39a967b52287c29ede3f85ff2f
+  - ref: refs/heads/main
+    old: 20ad40187d5badb13e492b553080ec18fb1cdfe9
+    new: 4ec3b4aafc87b4cb9c89da594c4640491f582661
     log: |
-         4243bf80c79211a8ca2795401add9c4a3b1d37ca isofs: handle CDs with bad root inode but good Joliet root directory
-         179b8c97ebf63429589f5afeba59a181fe70603e quota: Fix rcu annotations of inode dquot pointers
-         ccb49011bb2ebfd66164dbf68c5bff48917bb5ef quota: Properly annotate i_dquot arrays with __rcu
-         223bfb57631b10036e55579ecb5718123fa41c8c quota: Detect loops in quota tree
-         71b12545f603de39a967b52287c29ede3f85ff2f Pull quota rcu annotations and qtree loop detection code.
+         e3caf184107a4e2e196528b98b218ddc41e4cb8c wwan: core: Add WWAN fastboot port type
+         409c38d4f156740bf3165fd6ceae4fa6425eebf4 net: wwan: t7xx: Add sysfs attribute for device state machine
+         d27553c14f06f4db61cb9ddaf88e8d4df91d740c net: wwan: t7xx: Infrastructure for early port configuration
+         2dac6381c3da50d4b2525fd0514e41e8041ad974 net: wwan: t7xx: Add fastboot WWAN port
+         4ec3b4aafc87b4cb9c89da594c4640491f582661 Merge branch 'wan-t7x-fastboot'
          
