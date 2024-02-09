@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3159274508554905289=="
+Content-Type: multipart/mixed; boundary="===============9160229103675113896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 09 Feb 2024 10:25:28 -0000
-Message-Id: <170747432893.26811.17226677848148265109@gitolite.kernel.org>
+Date: Fri, 09 Feb 2024 10:26:40 -0000
+Message-Id: <170747440044.27287.6805191197661297355@gitolite.kernel.org>
 
---===============3159274508554905289==
+--===============9160229103675113896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: ed5551279c9100aff6adf337d809057a7532b6f7
-    new: 88bae831f3810e02c9c951233c7ee662aa13dc2c
+  - ref: refs/heads/usb-linus
+    old: b55fe36efc22f1f1c8f69e1cdf12c9f5d6ca371e
+    new: 7d708c145b2631941b8b0b4a740dc2990818c39c
     log: |
-         6677138d7310697b69f8842f95c1d8c06da2b689 dt-bindings: soc: qcom: qcom,pmic-glink: document QCM6490 compatible
-         88bae831f3810e02c9c951233c7ee662aa13dc2c usb: typec: ucsi: Add qcm6490-pmic-glink as needing PDOS quirk
+         7d708c145b2631941b8b0b4a740dc2990818c39c Revert "usb: dwc3: Support EBC feature of DWC_usb31"
          
 
---===============3159274508554905289==
+--===============9160229103675113896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707474328 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707474398 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1707474327-8a0a02eb5a658b2eb288ae47f4d7b1303c4f113f
+nonce 1707474398-fe8d005deb0813e18cf5a018d6e45341e6ecaa1b
 
-ed5551279c9100aff6adf337d809057a7532b6f7 88bae831f3810e02c9c951233c7ee662aa13dc2c refs/heads/usb-next
+b55fe36efc22f1f1c8f69e1cdf12c9f5d6ca371e 7d708c145b2631941b8b0b4a740dc2990818c39c refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXF/ZgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eSIQAIRJoqXLpOUslM+/dlSL
-8BdN2Czc61soLZ6x4QR0iQcwQZHDRosbF5umcLp8bFHSq4R6nEVy+S40WvqEa8XQ
-bX8yvV5j6rfvql6jsPDDaOMD8TDjc7UGviE5trBV/BT587nw2GR7QI9zgdArG8gA
-WFO3pPGq2QFJeWRsK1P1y8QVyrGexyUVpwswrtSF2WP7y6HKjyBgkw27mvSu818v
-mrpzGjd/WcKqd47MjDsrYNMTr8Vuro19sIsrB0BGhRhtG00yl4OxOFoNLZ0nw/cs
-bqomvtK+qBs5xTyH95w0bH19fh14DwaKJSqGfVP6qFc50d/l280gGkBIZOb+mMkQ
-6i7nsIb4O2ZJiHjXYY8eIb+PMsSg5DIb+86T9deiY7mS+Wtu5WaJlF7G2fNtQpWK
-ivpzo8HB6ihtm3d8bUFqhy0qofca00BKT8EOEgtc5CoFIF6cvEjj1gNw6WrMKFnO
-L8TqhMZh5oCbdUOvTsAOomeOEELzXKRrY4YNPXBkwxitRE7Pkvdqc4Esub3DveIk
-afr+JHPTgychyjpKXVzPXdu8KFhySKdOJXskKcdBzk+fnCv3dGlg1K2UGPkqCTjn
-uISzj/6fXT2LFw3FPOgAYHU0Xsbs1nOLrGqje2cl0DCQZKTuxABNfVM1RMihLpvv
-CNic8DR5v4jRBBEqGZv28UT3
-=dmWx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXF/d4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s44P/068PQ21qy3P1/zjzBNZ
+7gbzUiej+cfQ3RLS/0bTUVhAU1RDuJ0W1Rb2Y5kWs+/eYKk1FDYu1fImPNFZhGES
+CNWIYVxgU+HsZlsN5aQOIqN0Rq4FKrOKi+zBDyxgFQvrmrcbTZBIHDTS7sULtKk/
+oQBifRMHSQvDE+skytXx4qZeRkTxtymUWsutD0LdIA3IU8YQKFYTnYgZwj8uMjGm
+OAnm2Bjytpi5C3lH/lSVphEBChLqMZYHLRXe99vavq6GAVypIA98oylEcXuizPs6
+fG1p+Si5CGxQqk41QzrrmEv1k9bbhPfrh2b5pxXY8vu65xI5swEUiL/bFCsfzv/z
+brzFDj85QxzJLvGWVaCU+udALUZ90jY9FKKH/+No285izVY8AF86R4y0cDVy0+sl
+O+T4GhNNM+zZe9aLs3Xuwpm9WtRZR0JqGxLU+Tu9p3Gats8co1AD6JqBRBtqkGdj
+xuCH92w9XV97R/4XtjjefWRPclzZk5EcW95H6kFDm4pF6gKVEOpeVHTxsHgZBmKZ
+JeIHenes+o5+JZgNNl8rUFjShg435UHzAnivXATCm1Ggo9yjXmmPxS9Xbzvqx3fO
+jiLn6zVVY01vkjNMYRgte4eUtxK1zYsmAWExC+HCQrpVaKUY1T7E6lxfYnrUvm0v
+xLUU4Qnld36706WwiMslQ5nf
+=Mfn/
 -----END PGP SIGNATURE-----
 
---===============3159274508554905289==--
+--===============9160229103675113896==--
