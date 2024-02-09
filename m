@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 09 Feb 2024 15:40:53 -0000
-Message-Id: <170749325378.29694.4857499429395156341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 09 Feb 2024 15:47:54 -0000
+Message-Id: <170749367498.1537.11439579613768984480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/x86/urgent
-    old: d877550eaf2dc9090d782864c96939397a3c6835
-    new: f6a1892585cd19e63c4ef2334e26cd536d5b678d
-    log: |
-         f6a1892585cd19e63c4ef2334e26cd536d5b678d x86/Kconfig: Transmeta Crusoe is CPU family 5, not 6
-         
+  - ref: refs/tags/pci-v6.8-fixes-2
+    old: 0000000000000000000000000000000000000000
+    new: 9958fa224e80e3e4f920d1ec05760102f79b6b81
