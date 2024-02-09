@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 09 Feb 2024 21:10:25 -0000
-Message-Id: <170751302589.25502.5892209703922211158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 09 Feb 2024 21:12:03 -0000
+Message-Id: <170751312338.26169.9126876264483183289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: holtmann
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 593c9dee6c8cb811c7b2c39c7dfb62c37a7d72da
-    new: bcfbaa096df80fcf6f883a15484af4b25768ecfa
+    old: 0c6cee05bc64c8d9eb8cd0d11a1f66d623f9bc61
+    new: 50a0e1dbdefc5a8cc8f86fd11b1f222331587600
     log: |
-         bcfbaa096df80fcf6f883a15484af4b25768ecfa build: Require at least version 0.62 when building with external ELL
+         50a0e1dbdefc5a8cc8f86fd11b1f222331587600 Fri Feb  9 04:11:19 PM EST 2024
          
