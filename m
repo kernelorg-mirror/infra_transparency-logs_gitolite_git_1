@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Fri, 09 Feb 2024 22:40:54 -0000
-Message-Id: <170751845442.26273.14478186883176099779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 09 Feb 2024 23:08:54 -0000
+Message-Id: <170752013478.12868.7924783559435136670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/timers/anna
-    old: 7e542ba8af9a26c2951f3c5ec4c5e1513da16201
-    new: 9a654aebd02182bcaff7e5a26b632ee20a1536ad
+  - ref: refs/heads/regmap-kunit-random-change
+    old: cc42dedb4c38645299910640154f26705f1e8bd1
+    new: 4a8eaa6ecc4424f96288073917b9fb41913845c0
     log: |
-         72f7476104330353dc837150ab56d3314ab01a26 return value of handle_remote_cpu shouldnt be required
-         e1d95a0b5e081b068c5f89cd3b4240a00401118a cleanup update_event
-         5c001b35b7b86a628295d529ec0df40b48f08460 timer_migration: Add tracepoints
-         9a654aebd02182bcaff7e5a26b632ee20a1536ad timers: Always queue timers on the local CPU
+         9f9bfeba1f18c6cacc73747c37d0478413d5f290 EDITME: cover title for regmap-kunit-random-change
+         4a8eaa6ecc4424f96288073917b9fb41913845c0 regmap: kunit: Ensure that changed bytes are actually different
          
