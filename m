@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Fri, 09 Feb 2024 01:58:11 -0000
-Message-Id: <170744389111.4456.5339106747822737834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 09 Feb 2024 02:32:16 -0000
+Message-Id: <170744593683.28885.8970680739348394753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/renesas/sdhi/tmio-simplification
-    old: 04760fb9ed680f940228a7c9f03799b8899515de
-    new: efb48601e84f7cdbf08d763dd9139853372802a5
+  - ref: refs/heads/main
+    old: 1f719a2f3fa67665578c759ac34fd3d3690c1a20
+    new: 53c0441dd2c44ee93fddb5473885fd41e4bc2361
     log: |
-         2827469815eabb302f272a26327bf8918cc91b54 mfd: tmio: sanitize comments
-         efb48601e84f7cdbf08d763dd9139853372802a5 mfd: tmio: move header to platform_data
+         53c0441dd2c44ee93fddb5473885fd41e4bc2361 dpll: fix possible deadlock during netlink dump operation
          
