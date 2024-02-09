@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4500404216362877434=="
+Content-Type: multipart/mixed; boundary="===============5465537587708179162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Fri, 09 Feb 2024 05:08:21 -0000
-Message-Id: <170745530138.12708.9989225984008844691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Fri, 09 Feb 2024 05:08:30 -0000
+Message-Id: <170745531073.12872.11850886557703334969@gitolite.kernel.org>
 
---===============4500404216362877434==
+--===============5465537587708179162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: b1d3a0e70c3881d2f8cf6692ccf7c2a4fb2d030d
     new: 445a555e0623387fa9b94e68e61681717e70200a
     log: revlist-b1d3a0e70c38-445a555e0623.txt
-  - ref: refs/heads/stable
-    old: 547ab8fc4cb04a1a6b34377dd8fad34cd2c8a8e3
-    new: 047371968ffc470769f541d6933e262dc7085456
-    log: |
-         ebd4acc0cbeae9efea15993b11b05bd32942f3f0 riscv: Fix wrong size passed to local_flush_tlb_range_asid()
-         ccb88e9549e7cfd8bcd511c538f437e20026e983 crypto: ccp - Fix null pointer dereference in __sev_platform_shutdown_locked
-         69fba378edcaffba7bc7d299fdee02e377069d30 crypto: cbc - Ensure statesize is zero
-         24c890dd712f6345e382256cae8c97abb0406b70 crypto: algif_hash - Remove bogus SGL free on zero-length error path
-         860d7dcb20105af1fc7228a162886c421296cd86 Merge tag 'percpu-for-6.8-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/dennis/percpu
-         047371968ffc470769f541d6933e262dc7085456 Merge tag 'v6.8-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-         
-  - ref: refs/tags/next-20231109
-    old: 41518de9a96aae7c001dd3b1d2a59b003db04c6b
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240209
     old: 0000000000000000000000000000000000000000
     new: dbe41c5dc26acaa7564180aa97c351e9925a70f2
 
---===============4500404216362877434==
+--===============5465537587708179162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1068,4 +1054,4 @@ a19e02faed6bf6be82f153726472b626cccc98bf Merge branch 'for-next/kspp' of git://g
 c43ecbe49717b0a08ce705f8fc21bcd631508a0d Revert "mm: report per-page metadata information"
 445a555e0623387fa9b94e68e61681717e70200a Add linux-next specific files for 20240209
 
---===============4500404216362877434==--
+--===============5465537587708179162==--
