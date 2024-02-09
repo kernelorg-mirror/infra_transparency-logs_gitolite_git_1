@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 09 Feb 2024 12:22:23 -0000
-Message-Id: <170748134352.13266.3589497001258005403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 09 Feb 2024 12:25:51 -0000
+Message-Id: <170748155142.16149.14132981596119444682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/kdevops
-    old: 749a289fc5ca92bfa26cec519f9623dbc627b4b9
-    new: b0b4b242f62b43496e889c2ced3fa837abdf7d9b
-    log: |
-         b0b4b242f62b43496e889c2ced3fa837abdf7d9b HACK: add some bits to the zero bitmaps
-         
+  - ref: refs/tags/gpio-fixes-for-v6.8-rc4
+    old: 0000000000000000000000000000000000000000
+    new: a29c89ff0f3efdf9db50c12527854a4ba9582b87
