@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7636637581083511784=="
+Content-Type: multipart/mixed; boundary="===============8512694932816703921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 09 Feb 2024 21:01:01 -0000
-Message-Id: <170751246177.17707.7892988487480375670@gitolite.kernel.org>
+Date: Fri, 09 Feb 2024 21:01:18 -0000
+Message-Id: <170751247807.17876.7834650393703420083@gitolite.kernel.org>
 
---===============7636637581083511784==
+--===============8512694932816703921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-vdo-wip
-    old: 9097fdee708a6c5d9afaf6d80e9f39c888a8a188
+  - ref: refs/heads/for-next
+    old: 43cd5dac5426ab49aa60c6e43d440cbd7c301fb8
     new: c0a9590484873caedd1079ee7a57730fadec1c67
-    log: revlist-9097fdee708a-c0a959048487.txt
+    log: revlist-43cd5dac5426-c0a959048487.txt
 
---===============7636637581083511784==
+--===============8512694932816703921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9097fdee708a-c0a959048487.txt
+Content-Disposition: attachment; filename=revlist-43cd5dac5426-c0a959048487.txt
 
+9097fdee708a6c5d9afaf6d80e9f39c888a8a188 dm vdo: move indexer files into sub-directory
 8f9d7e0bb0189461bb8fd49e373a005c60fd1b76 dm vdo: tweak wait_for_completion_interruptible callers
 9e5d1447bcf39c8f382eaaebcada198940870ce6 dm vdo: fold thread-cond-var.c into uds-threads
 8a8219ce233ea0c3f7e2b352d318eb0c182d3477 dm vdo: rename uds-threads.[ch] to thread-utils.[ch]
@@ -41,4 +42,4 @@ d3ce9732f1ec3d36aa9db57db9a17ab0679de0f3 dm vdo thread-registry: rename all meth
 48db68615e459277883d93f5678c12d8489b3791 dm vdo memory-alloc: simplify allocations_allowed()
 c0a9590484873caedd1079ee7a57730fadec1c67 dm vdo thread-device: rename all methods to reflect vdo-only use
 
---===============7636637581083511784==--
+--===============8512694932816703921==--
