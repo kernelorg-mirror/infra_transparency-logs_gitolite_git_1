@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7679796848957637798=="
+Content-Type: multipart/mixed; boundary="===============7496103302016797662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 09 Feb 2024 17:21:58 -0000
-Message-Id: <170749931844.17579.854459120380641404@gitolite.kernel.org>
+Date: Fri, 09 Feb 2024 17:22:22 -0000
+Message-Id: <170749934212.17768.10102940801092605403@gitolite.kernel.org>
 
---===============7679796848957637798==
+--===============7496103302016797662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: b6b614558ed5b2ca50edacc0f2fbf5f52158c86c
     new: 4ec3b4aafc87b4cb9c89da594c4640491f582661
     log: revlist-b6b614558ed5-4ec3b4aafc87.txt
 
---===============7679796848957637798==
+--===============7496103302016797662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -508,4 +508,4 @@ d27553c14f06f4db61cb9ddaf88e8d4df91d740c net: wwan: t7xx: Infrastructure for ear
 2dac6381c3da50d4b2525fd0514e41e8041ad974 net: wwan: t7xx: Add fastboot WWAN port
 4ec3b4aafc87b4cb9c89da594c4640491f582661 Merge branch 'wan-t7x-fastboot'
 
---===============7679796848957637798==--
+--===============7496103302016797662==--
