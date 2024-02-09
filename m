@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 09 Feb 2024 19:27:36 -0000
-Message-Id: <170750685650.12393.12737346513080607891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 09 Feb 2024 19:30:03 -0000
+Message-Id: <170750700346.14936.7263424810188363267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f6ce9a1f6aecccac25635125f6bd9072322c3747
-    new: f0ddf15f0a74c27eb4b2271a90e69948acc3fa2c
+    old: 02d9009f4e8c27dcf10c3e39bc0666436686a219
+    new: 38ee0cb2a2e2ade077442085638eb181b0562971
     log: |
-         f0ddf15f0a74c27eb4b2271a90e69948acc3fa2c selftests: forwarding: Add missing multicast routing config entries
+         38ee0cb2a2e2ade077442085638eb181b0562971 selftests: net: Fix bridge backup port test flakiness
          
