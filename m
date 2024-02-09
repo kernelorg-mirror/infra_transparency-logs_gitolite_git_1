@@ -1,41 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============2076056288688302217=="
+Content-Type: multipart/mixed; boundary="===============0261930519991403557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 09 Feb 2024 07:15:22 -0000
-Message-Id: <170746292221.6526.13112625531326956058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Fri, 09 Feb 2024 07:29:26 -0000
+Message-Id: <170746376602.14546.16470722117092993476@gitolite.kernel.org>
 
---===============2076056288688302217==
+--===============0261930519991403557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 5f70c6c559908984ea93d61a62108b2aff017a99
-    new: 43f50bc0bc244b6acf0800e9873d38c52664a6e7
-    log: revlist-5f70c6c55990-43f50bc0bc24.txt
+  - ref: refs/heads/for-next
+    old: dcff456e57eafb709e35be32b2fe9338094b609b
+    new: fee3a71dc8d26629e5d87e20cff08763f522633f
+    log: |
+         28fafd554d233ef2344ee4a8709175b69bc93787 arm64: dts: exynos: gs101: minor whitespace cleanup
+         3197329072f0ed2b1272af98ad4299a290036f65 arm64: dts: fsd: Add fifosize for UART in Device Tree
+         fee3a71dc8d26629e5d87e20cff08763f522633f Merge branch 'next/dt64' into for-next
+         
+  - ref: refs/heads/next/dt64
+    old: 72ccd925dcbd2ad6935a4874679b6cf5b3de7156
+    new: 3197329072f0ed2b1272af98ad4299a290036f65
+    log: |
+         28fafd554d233ef2344ee4a8709175b69bc93787 arm64: dts: exynos: gs101: minor whitespace cleanup
+         3197329072f0ed2b1272af98ad4299a290036f65 arm64: dts: fsd: Add fifosize for UART in Device Tree
+         
 
---===============2076056288688302217==
+--===============0261930519991403557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f70c6c55990-43f50bc0bc24.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-214f91ba9709e1be15f7ca27c0bb53faa0e57741 perf: build: introduce the libcapstone
-9c18a5d4fd80df5ac479c795a9e5b4a86c763f0e perf: util: use capstone disasm engine to show assembly instructions
-3451efd0031aa124dfc05ffc1f629e049d018fbe perf: script: add field 'disasm' to display mnemonic instructions
-7502faada565754c368bb6abc277f5647d683da3 perf: script: add raw|disasm arguments to --insn-trace option
-391eeed70ba1c25a2b66481613aeb3a87e0c4bf0 perf: script: prefer capstone to XED
-c8e7b0ee889252d8d22de4c69523d6c56cc74811 perf sched: Move start_work_mutex and work_done_wait_mutex initialization to perf_sched__replay()
-167e49f35ae8c35f320b51a3cbaff0b94a58ecb8 perf sched: Fix memory leak in perf_sched__map()
-cee7928f6f8bfb72ce31ca16d6e0f7a7be43a7d8 perf sched: Move curr_thread initialization to perf_sched__map()
-d002a83b3eb563447040afea1a6ada85075101fd perf sched: Move curr_pid and cpu_last_switched initialization to perf_sched__{lat|map|replay}()
-149484dd4caeb34596e168428b94b43e71758cd0 perf thread_map: Free strlist on normal path in thread_map__new_by_tid_str()
-43f50bc0bc244b6acf0800e9873d38c52664a6e7 perf tools: Remove misleading comments on map functions
+certificate version 0.1
+pusher krzk@kernel.org 1707463762 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1707463762-8815aedf91c4b31c5487cdd32c150c48fbe4c39b
 
---===============2076056288688302217==--
+dcff456e57eafb709e35be32b2fe9338094b609b fee3a71dc8d26629e5d87e20cff08763f522633f refs/heads/for-next
+72ccd925dcbd2ad6935a4874679b6cf5b3de7156 3197329072f0ed2b1272af98ad4299a290036f65 refs/heads/next/dt64
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmXF1FIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD13xTD/9Mdtl1PvvxcfBTSWIHI1Kq5aO0YBJkwLld
+k+5FNNUBpJ4gN+pN/9Xokxfzg8EIRedYo8XIIlzb7i1ge9nkXhMEpk/9dpFoVzDF
+7XjpAHsBanZpMh/VF1fI/XZyFWwU3jumihuEb8nCqR5w5DzeTTL3xwAfaupEqikR
+xy29H2e0TuXXHHDXogfLUmh19ARX+4WhaEdE9FC0nEeTAdaij7icCM1+QmJEXXJL
+x940/KYARmxK1Frsg6oIH6c2PkyXfj1pjSfZtC41L9QuD4JeFCzB4JlLsieRME+r
+sgBKcQkgNwm3kUslN6yMUcsmOPR9WkyZPDP3r5SVtYOcvPE4Ya0Ba7d5iqirz1zG
+SIrF4Wsqf41xsZ7kgZwCntt48mnGk1uaftJtsjApc96G6AYnruidLLiTl9iFWJEm
+LtYutFshEFcfx1cKtuOZszPiPh1fy/jFf4LW7JqOTVe3ey/jfDl4ggPSZ//0xX4C
+LyYI5nuS7dRfRmLWXPDdjzvRHFw8Zm+QAiWEtXfOSwUVbepMJE27aiv2U9KU9alQ
+O+l9EqNL6asPlfCIJKUHL9SpZktKYo8JyZnAD6Xxsx0/99xoj6w+DIcolEym/609
+DtINsQtpSIJ0NDTjpLFqxCT41dDk6pEjERg8zyElkH36/9Xbgj6bI+Hfp8Skxb8P
+gO43gK5VqA==
+=sKps
+-----END PGP SIGNATURE-----
+
+--===============0261930519991403557==--
