@@ -1,31 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============5330450423393341531=="
+Content-Type: multipart/mixed; boundary="===============2296865777081003477=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Fri, 09 Feb 2024 18:29:40 -0000
-Message-Id: <170750338002.1112.6169230129115166984@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 09 Feb 2024 18:30:31 -0000
+Message-Id: <170750343108.3297.8158953580309905108@gitolite.kernel.org>
 
---===============5330450423393341531==
+--===============2296865777081003477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
+repo: pub/scm/linux/kernel/git/arm64/linux
 user: will
 changes:
   - ref: refs/heads/for-next/perf
     old: bb339db4d363c84e0a8d70827df591397ccd7312
-    new: fd185a245155be9cb90839fa451ba8f2c3e4004c
-    log: revlist-bb339db4d363-fd185a245155.txt
+    new: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
+    log: revlist-bb339db4d363-54be6c6c5ae8.txt
 
---===============5330450423393341531==
+--===============2296865777081003477==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bb339db4d363-fd185a245155.txt
+Content-Disposition: attachment; filename=revlist-bb339db4d363-54be6c6c5ae8.txt
 
+0d9cf23ed55d7ba3ab26d617a3ae507863674c8f i2c: s3c24xx: fix read transfers in polling mode
+990489e1042c6c5d6bccf56deca68f8dbeed8180 i2c: s3c24xx: fix transferring more than one message in polling mode
+187432b82173c86e0450d0e3d516b415ab2455f8 i2c: s3c24xx: add support for atomic transfers
+92a85b7c6262f19c65a1c115cf15f411ba65a57c i2c: rk3x: Adjust mask/value offset for i2c2 on rv1126
+13e3a512a29001cab68fe9a0c12be94e6d42a10c i2c: smbus: Support up to 8 SPD EEPROMs
+db63eacdf61d6bbcde783f15aaafbd8e66476e9a i2c: imx: Make SDA actually optional for bus recovering
+e535af5c4225fe2715d12322b645853ab9724648 i2c: cpm: Remove linux,i2c-index conversion from be32
+2b0eee4f6add17a74f696a6f40ad2a4fa173613e eeprom: at24: use of_match_ptr()
+614ef4d30fe724ff8558a74a1926bd3051d39b67 dt-bindings: at24: add ROHM BR24G04
+94959c0e796e41128483588d133b9a7003b409f9 i2c: make i2c_bus_type const
+a8355235dbd571b32c750ee756dd6dac216d18f2 i2c: mux: reg: Remove class-based device auto-detection support
+462e9804d2c90bfffb494718b5aae5c374ff3b78 i2c: wmt: Reduce redundant: bus busy check
+8a22991a48f2602aaab79df1301483d50bc51b2c i2c: wmt: Reduce redundant: wait event complete
+7108ecf3cbc728ec4a72ce29136cbcfedf4a9242 i2c: wmt: Reduce redundant: clock mode setting
+4c541c6a66df396c35693a21c5bc40553cd4d2fa i2c: wmt: Reduce redundant: function parameter
+bb7c0209c4fead37fbc9fd07f9617f40ba21189e i2c: wmt: Reduce redundant: REG_CR setting
+6d9450464ce1825d7d0e7ef5d33a9d2701f41c76 i2c: i801: Add lis3lv02d for Dell Precision 3540
+2f189493ae32be9768b27072c9388e62b38d2dda i2c: i801: Add lis3lv02d for Dell XPS 15 7590
+a51e224c2f42417e95a3e1a672ade221bcd006ba i2c: stm32f7: use dev_err_probe upon calls of devm_request_irq
+e6103cd45ef0e14eb02f0666bc6b494902cfe821 i2c: stm32f7: perform most of irq job in threaded handler
+33a00d919253022aabafecae6bc88a6fad446589 i2c: stm32f7: simplify status messages in case of errors
+bf12998e1a68a82d596ea33b00b3ebc75ce52bb5 dt-bindings: i2c: document st,stm32mp25-i2c compatible
+a058b24c08023ea0ea0a7c38e6845f1d25139a22 i2c: stm32f7: perform I2C_ISR read once at beginning of event isr
+90f9b1406236853bd524ddde86cc5a945690c6b7 i2c: stm32f7: add support for stm32mp25 soc
 4503538d3066f6dd0a66ecc902b382912b97d8a1 MAINTAINERS: use proper email for my I2C work
 e28b0359587fe4055c838698172de0530b511702 bcachefs: Replace strlcpy() with strscpy()
 925781a471d8156011e8f8c1baf61bbe020dac55 Merge tag 'nf-24-01-18' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
@@ -1026,29 +1050,5 @@ fc86e5c9909b1b9a80ff0e7946279dfae6b96ded Merge tag 'xfs-6.8-fixes-2' of git://gi
 9e28c7a23bac7452935d1768fbfedad113586f9b Merge tag 'v6.8-rc3-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 3f24fcdacd40c70dd2949c1cfd8cc2e75942a9e3 Merge tag 'for-linus-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 Linux 6.8-rc3
-3bc9d71775eef9f2642cc6e85ee7593cae2bdbbf perf: alibaba_uncore_drw: Convert to platform remove callback returning void
-94843f269abd4a9821848380061d05f0600b9d10 perf: amlogic: Convert to platform remove callback returning void
-4df3bddf8707ae74bc5c8eb54e44a588a01e02e1 perf: arm-cci: Convert to platform remove callback returning void
-0767f1a4853239bd5688d93e2e0d29be9d58e2d7 perf: arm-ccn: Convert to platform remove callback returning void
-3909cb3b5f8dee759622697ec1d3540f6d35c002 perf: arm-cmn: Convert to platform remove callback returning void
-79dc1570b322dbbbbfd04037113bcf3f83385025 perf: arm_cspmu: Convert to platform remove callback returning void
-ca1e01c8d34a8d5290b7b32f88d0e04207b1d4e2 perf: arm_dmc620: Convert to platform remove callback returning void
-02d77ac1ac7ebcad5a92dd392166636194faec60 perf: arm_dsu: Convert to platform remove callback returning void
-d67c3a61f063ebb582ed807aaf9bf85538d05db6 perf: arm_smmuv3: Convert to platform remove callback returning void
-e63b3aef186b254f2a58263429a28caf65c5ad8f perf: arm_spe: Convert to platform remove callback returning void
-1bb639382d3fe5498afdfcd64ba350b2075a2ee4 perf: fsl_imx8_ddr: Convert to platform remove callback returning void
-78da2a93b55b647e0770c6394cc938f6918db124 perf: fsl_imx9_ddr: Convert to platform remove callback returning void
-e07486a832bba776f298082bfd964951e9357cdf perf: hisilicon: Convert to platform remove callback returning void
-c802bd9e354f321b40146bea45c62822f364fd05 perf: marvell_cn10k_ddr: Convert to platform remove callback returning void
-86e8963f9dbac37a7427916da3c6e91f790e88dc perf: marvell_cn10k_tad: Convert to platform remove callback returning void
-8a2e438e710c674765cc52a59c5bf1d352f21bf0 perf: qcom_l2: Convert to platform remove callback returning void
-d4c5cef73b257d3377cd82dc0142fc374d32d38b perf: thunderx2: Convert to platform remove callback returning void
-b07ebe8f14282bd67074d1be05bbca3f12a3c110 perf: xgene: Convert to platform remove callback returning void
-a1083ee717e9bde012268782e084d343314490a4 perf/arm-cmn: Improve debugfs pretty-printing for large configs
-df2675ad7748ea1a4bdb47f9835a30f50d4dc5ea perf/arm_cspmu: Simplify initialisation
-7e6a3c3f85886f5e54dba5eb3bee7f5400685e95 perf/arm_cspmu: Simplify attribute groups
-e7e8fa8e82afddb3c9ff56d6a7030558776c5b1c perf/arm_cspmu: Simplify counter reset
-7255cfb19941b4681e545be47b9f13b61b1b4cb6 dt-bindings/perf: Add Arm CoreSight PMU
-fd185a245155be9cb90839fa451ba8f2c3e4004c perf/arm_cspmu: Add devicetree support
 
---===============5330450423393341531==--
+--===============2296865777081003477==--
