@@ -1,27 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 10 Feb 2024 16:13:56 -0000
-Message-Id: <170758163637.10257.7640740526839402304@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4068249008312104006=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 10 Feb 2024 16:25:58 -0000
+Message-Id: <170758235851.19261.429951806666635501@gitolite.kernel.org>
+
+--===============4068249008312104006==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/testing
-    old: 81e8e40ea16329914f78ca1f454d04f570540ca8
-    new: 1f59bd796093023ed31888cc62170eaefbeff59c
-    log: |
-         a613df4cfb94f75744ea24a0311dd36d4459e3f5 iio: imu: st_lsm6dsx: improve kernel docs and comments
-         f81cd7124f89ffd0c6f37c0f34401cc29b7b54fd iio: imu: st_lsm6dsx: add support to ASM330LHHXG1
-         a1951f79ce12a96af9eeb43ebcbad982d06c5925 dt-bindings: iio: imu: st_lsm6dsx: add asm330lhhxg1
-         671d4e80d63abfd4898555ed2c0d05da46424afe iio: core: make iio_bus_type const
-         996094eb3ae96ce7cf4b7f1c3adb72dca68989cb Add 10EC5280 to bmi160_i2c ACPI IDs to allow binding on some devices
-         d16963a6eeeabe0816728d8402b1e97d3f88b834 iio: hid-sensor-als: Assign channels dynamically
-         5c462a64550f03dcbcdc528adfb4cfa72cf119fc iio: hid-sensor-als: Remove hardcoding of values for enums
-         8aba9991082f66faf8313e6da6d89af8d1410014 iio: hid-sensor-als: Add light color temperature support
-         1f59bd796093023ed31888cc62170eaefbeff59c iio: hid-sensor-als: Add light chromaticity support
-         
+  - ref: refs/heads/master
+    old: 4a7bbe7519b6a5d189feeba1d417c8ce9f7e852b
+    new: a5b6244cf87c50358f5562b8f07f7ac35fc7f6b0
+    log: revlist-4a7bbe7519b6-a5b6244cf87c.txt
+
+--===============4068249008312104006==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4a7bbe7519b6-a5b6244cf87c.txt
+
+f0377ff97509f5a4921993d5d61da000361bd884 nvme-host: fix the updating of the firmware version
+f814bdda774c183b0cc15ec8f3b6e7c6f4527ba5 blk-wbt: Fix detection of dirty-throttled tasks
+7ed4380009e96d9e9c605e12822e987b35b05648 firewire: core: send bus reset promptly on gap count error
+1f4137e882c621f8ed4bd4da9b10cf91d059e52a nvme: move passthrough logging attribute to head
+e8c263ed6de8183e670fbd127c2512292a2ad8eb nvme-core: fix comment to reflect right functions
+4054705215ad7e6dd8e4e6ff27c39abd7667f700 nvme: use ns->head->pi_size instead of t10_pi_tuple structure size
+a12bc36032a2f7917068f9ce9eb26d869e54b31a ksmbd: Add kernel-doc for ksmbd_extract_sharename() function
+108a020c64434fed4b69762879d78cd24088b4c7 ksmbd: free aux buffer if ksmbd_iov_pin_rsp_read fails
+2a427b49d02995ea4a6ff93a1432c40fa4d36821 blk-iocost: Fix an UBSAN shift-out-of-bounds warning
+4ce6e2db00de8103a0687fb0f65fd17124a51aaa virtio-blk: Ensure no requests in virtqueues before deleting vqs.
+5f63a493b99c848ad5200402bebe26211e00025a Merge tag 'nvme-6.8-2023-02-08' of git://git.infradead.org/nvme into block-6.8
+5a7ec87063c0fbb7706fdccb0cc890757da6f4a1 Merge tag '6.8-rc3-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+a38ff5bbf9799dd944c762412aaebc54818407f5 Merge tag 'firewire-fixes-6.8-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
+a5b6244cf87c50358f5562b8f07f7ac35fc7f6b0 Merge tag 'block-6.8-2024-02-10' of git://git.kernel.dk/linux
+
+--===============4068249008312104006==--
