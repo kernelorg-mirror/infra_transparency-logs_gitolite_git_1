@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 10 Feb 2024 16:46:29 -0000
-Message-Id: <170758358911.1841.6242353932091237434@gitolite.kernel.org>
+Date: Sat, 10 Feb 2024 16:53:50 -0000
+Message-Id: <170758403002.6045.7999878705043356409@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 1f59bd796093023ed31888cc62170eaefbeff59c
-    new: bd2f1ed8873d4bbb2798151bbe28c86565251cfb
+  - ref: refs/heads/fixes-togreg
+    old: 4cb81840d8f29b66d9d05c6d7f360c9560f7e2f4
+    new: 78367c32bebfe833cd30c855755d863a4ff3fdee
     log: |
-         bd2f1ed8873d4bbb2798151bbe28c86565251cfb dt-bindings: iio: afe: voltage-divider: Add io-channel-cells
+         a22b0a2be69a36511cb5b37d948b651ddf7debf3 iio: adc: ad4130: zero-initialize clock init data
+         78367c32bebfe833cd30c855755d863a4ff3fdee iio: adc: ad4130: only set GPIO_CTRL if pin is unused
          
