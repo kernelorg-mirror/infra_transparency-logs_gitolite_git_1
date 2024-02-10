@@ -1,41 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1922111913639196106=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 10 Feb 2024 15:36:44 -0000
-Message-Id: <170757940491.15822.12716651794228894493@gitolite.kernel.org>
-
---===============1922111913639196106==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Sat, 10 Feb 2024 15:51:00 -0000
+Message-Id: <170758026047.26953.3456794264648095196@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/main
-    old: b63cc73341e076961d564a74cc3d29b2fd444079
-    new: 970cb1ceda170a3e583a5f26afdbebdfe5bf5a80
-    log: revlist-b63cc73341e0-970cb1ceda17.txt
-
---===============1922111913639196106==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b63cc73341e0-970cb1ceda17.txt
-
-8453c88c7a150a5ae52382b0bfda00a4b0a643ef dt-bindings: net: document ethernet PHY package nodes
-385ef48f468696d6d172eb367656a3466fa0408d net: phy: add support for scanning PHY in PHY packages nodes
-471e8fd3afcef5a9f9089f0bd21965ad9ba35c91 net: phy: add devm/of_phy_package_join helper
-737eb75a815f9c08dcbb6631db57f4f4b0540a5b net: phy: qcom: move more function to shared library
-dd87eaa137870bfc7aab38953384768bf1c87a3f dt-bindings: net: Document Qcom QCA807x PHY package
-9b1d5e055508393561e26bd1720f4c2639b03b1a net: phy: provide whether link has changed in c37_read_status
-d1cb613efbd3cd7d0c000167816beb3f248f5eb8 net: phy: qcom: add support for QCA807x PHY Family
-ee9d9807bee0e6af8ca2a4db6f0d1dc0e5b41f44 net: phy: qcom: move common qca808x LED define to shared header
-47b930d0dd437af927145dba50a2e2ea1ba97c67 net: phy: qcom: generalize some qca808x LED functions
-f508a226b517a6a8afd78a317de46bc83e3e3d51 net: phy: qca807x: add support for configurable LED
-970cb1ceda170a3e583a5f26afdbebdfe5bf5a80 Merge branch 'phy-package'
-
---===============1922111913639196106==--
+  - ref: refs/heads/bleeding-edge
+    old: 2bc44535ed4f6a6013ec53b505c4c381e166f0ce
+    new: a0687876c660e8cce5fc4e5c890b273bf607a61c
+    log: |
+         17b18dc6b67afacf16f235f4646ab6827850779f thermal: intel: Set THERMAL_TRIP_WRITABLE_TEMP directly
+         b35906dabdf156a0a19ec20bf172e70bef2772be mlxsw: core_thermal: Set THERMAL_TRIP_WRITABLE_TEMP directly
+         cfdae2c270b98154f1a1ba01f8a37339af6c9b1d iwlwifi: mvm: Set THERMAL_TRIP_WRITABLE_TEMP directly
+         b6da4d42da2b8ee629a042d8365e801e895a225b thermal: imx: Set THERMAL_TRIP_WRITABLE_TEMP directly
+         81ff5ebe6bb7f8ee40edb981248cce1498b71e51 thermal: of: Set THERMAL_TRIP_WRITABLE_TEMP directly
+         a2d883fea2cda3dcea02d2b72651448d3df0d8b5 thermal: core: Eliminate writable trip points masks
+         af0c508eaaf052006a183dab9c3a2994615942d1 thermal: core: Store zone ops in struct thermal_zone_device
+         45a4b3883afd821f37c639b1d71a02f106194dbc thermal: ACPI: Constify acpi_thermal_zone_ops
+         46025e16a4958a6c440c91df2531ff8c918d3cc9 thermal: intel: Adjust ops handling during thermal zone registration
+         a0687876c660e8cce5fc4e5c890b273bf607a61c Merge branch 'thermal-core-testing' into bleeding-edge
+         
