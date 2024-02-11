@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5328725866513762506=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 11 Feb 2024 20:16:54 -0000
-Message-Id: <170768261494.21334.14331176994039643612@gitolite.kernel.org>
-
---===============5328725866513762506==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Sun, 11 Feb 2024 20:22:57 -0000
+Message-Id: <170768297779.25084.7380906846359388911@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: jernej
 changes:
-  - ref: refs/heads/master
-    old: 380d9712829386fda27d28fda43c8c20462e36b3
-    new: fb6dcb9b9b9cc901680a0188bb1d16c63c1719fd
+  - ref: refs/heads/sunxi/dt-for-6.9
+    old: 7ef7d495bb10fe338f85f0769e6a3cac4ebf2d74
+    new: 3db737fa0d5a73de64769aef8f1715c0564afe25
     log: |
-         fb6dcb9b9b9cc901680a0188bb1d16c63c1719fd scripts/bippy: generate a vuln list in text form
+         3fd5f075759bc0026e4b26393f209ba33a3fb1c3 dt-bindings: vendor-prefixes: add Jide
+         e71abf65df471cb6eaf67ad25bab4996d5bb3f9a dt-bindings: arm: sunxi: document Remix Mini PC name
+         f0d86f545a47f6c6ea9c5b78d3da1b5dae4669bb arm64: dts: allwinner: Add Jide Remix Mini PC support
+         69b92598af490f8eefb12510cd3c4f3926bf7b76 arm64: dts: allwinner: h616: Add 32K fanout pin
+         c46671c251c1f432105423fca5dbbd8e0ac754ce arm64: dts: allwinner: Transpeed 8K618-T: add WiFi nodes
+         668aa84be1795a5b04fc17b0f5e9ee060d679e65 arm64: dts: allwinner: use capital "OR" for multiple licenses in SPDX
+         3db737fa0d5a73de64769aef8f1715c0564afe25 arm64: dts: allwinner: h616: minor whitespace cleanup
          
-
---===============5328725866513762506==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707682613 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1707682614-a870cb3f5e1c21df3b78f73acb0fecc40f5b835e
-
-380d9712829386fda27d28fda43c8c20462e36b3 fb6dcb9b9b9cc901680a0188bb1d16c63c1719fd refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXJKzUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pzcQAIz2vtVIq/dcJ1OT0t3o
-5Ij+KuqgP4ptMoFWBGn95dLoVxiNdZ7ksOPbom5fbsz52u157fAmy1MrNJjChOT8
-UKnCXX+u7cqjY6pxUei1413y8jqjIxv8lC6M1SIMEooBhNrdCk8v/5teq6CqiHhR
-7xIG3c6DkeGbCnHa+riE0uz03986eXaqLCbQD1KY0dD2DPnH/bj3kVbmwGc7ZLTD
-sxdy3x6awzSoukhjJHvqAqp7kNrADfyQ3JIqGj1/opi0Z5H+oyxAqQPcrLyzFYdg
-usTyXlf0axPXEyNwWK5Lyw9mFSxNlnFozGP4kmFY8e1HwMDn3HEN0Yr/R6CIX0YR
-LC2DDfdNOoQa+7/3ceXMGumfUUGcCjoXbJ4sCWcDJEFuOop5NblQVtL3Scl8JOeK
-IBfN49/BN/8cBbzuTBuS6C8ElRF8dbvNuqx2f+abQSut8n0ZcN39apy0FaxBiala
-p3IFpOU/SsSDgDae2UozAGefCoyJkLEkib8b7FqZbmNasDqgeWfJgSlkHIa4uqL6
-yNkvDVwmixHd6ieLd3oFElglOMSB0yiGyGTY81W9qtetKA1hp7ddlBSRjSZ8k34e
-tJqm3G5FQbXnfjjlC1dqVAOMeXpchSW6PgNegal/EWXlUi8V7R52Cz5R+x3qG4xC
-SPi0rPI51En+S7s0ulpd+KaA
-=sS+E
------END PGP SIGNATURE-----
-
---===============5328725866513762506==--
