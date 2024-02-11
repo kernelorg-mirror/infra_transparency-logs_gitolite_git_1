@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 11 Feb 2024 19:59:57 -0000
-Message-Id: <170768159707.7476.17030945733911540438@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2690095463128719106=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sun, 11 Feb 2024 20:07:03 -0000
+Message-Id: <170768202347.13448.9807077523624850320@gitolite.kernel.org>
+
+--===============2690095463128719106==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 7521f258ea303c827434c101884b62a2b137a942
-    new: 2766f59ca44e517a1d6226979c784b026f0e89c2
+    old: 260baf41532d1cd3ea6725da9667dffb91a04ec7
+    new: 380d9712829386fda27d28fda43c8c20462e36b3
     log: |
-         8eed4e00a370b37b4e5985ed983dccedd555ea9d x86/lib: Revert to _ASM_EXTABLE_UA() for {get,put}_user() fixups
-         d877550eaf2dc9090d782864c96939397a3c6835 x86/fpu: Stop relying on userspace for info to fault in xsave buffer
-         dad6a09f3148257ac1773cd90934d721d68ab595 hrtimer: Report offline hrtimer enqueue
-         f6a1892585cd19e63c4ef2334e26cd536d5b678d x86/Kconfig: Transmeta Crusoe is CPU family 5, not 6
-         c021e191cf3da2fea766d784546f4c5acbfcd137 Merge tag 'x86_urgent_for_v6.8_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         2766f59ca44e517a1d6226979c784b026f0e89c2 Merge tag 'timers_urgent_for_v6.8_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+         380d9712829386fda27d28fda43c8c20462e36b3 scripts/cve_update: add script to update all existing cve entries
          
+
+--===============2690095463128719106==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707682018 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1707682019-176104a693e3abcea17d1f5fe708f16804bf8f7a
+
+260baf41532d1cd3ea6725da9667dffb91a04ec7 380d9712829386fda27d28fda43c8c20462e36b3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXJKOIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+34sQALk8Qjb8elTVNg3668rf
+cMbjOqrjLHBByujMVwBZ1x2oMVLDbjGOJj7L2h4+TRYDg2peHlcFM4+89Kg83Ljr
+J+ak2k6Kz/Q1f1HP8W8cz5C08gXwfeb1KFA6ojjrntwav4tgS4G3hE1jp59uVieJ
+mXBmXvLW1SqetgIwyo7N+g1fFx8xcld2LyPSNCBs8rHwVgMKdKqs24uD+Ej1rHGc
+2GioJV9lDu9WeUE5izC+9SIYeq/CmuNxOdJp3/UBrGhv5a7yLeYMxa1k7704GdAE
+ho9lblrA6d4FwoGbn+rSaoFSaOc31ZgOdqHJPWlYjrYQb093lZe8EJrmCTI3WOcg
+5fHuxRAYfiOdUdGHhEk6JXgW7KzTNL5fze2tjayCSyAHXmjSTK62l93Gwztc0doX
+1zzxCJJV2nfp7N+WJF8RTKOysaRcNRmlOpgi/kHOpUnw+Tt+dKSkhkMzKANorMn3
+xH+1Yr76gCylUwQAIo0aZXztJGRXFz8RWCIuQEEWx/MlJ0tnu2m3WHOB3nDXddvq
+ojYqBSudvxMfeDZcWKT4Qe96v6vQbCG2uOwBOLX6FI5G8SpQCkOG4M6FBUJfq+da
+oHdPsVr5cFmyP2FimXFUH/qnyo3fFOryvImd1ZWNG3Qu1XxqQcIEwdPVbIt3rPT8
+/+nw9xHdP8RpTuJlmEynMY+q
+=1omx
+-----END PGP SIGNATURE-----
+
+--===============2690095463128719106==--
