@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Sun, 11 Feb 2024 20:27:07 -0000
-Message-Id: <170768322787.28376.8890995185737216261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Sun, 11 Feb 2024 20:40:11 -0000
+Message-Id: <170768401180.6677.622809935623804273@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: jernej
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 38ed19495066966979ba821b9e0f549ad5ea620d
-    new: 97b8088a448c1dd3d75e9b9cb8c9a4defd3156c9
+  - ref: refs/heads/icc-next
+    old: ce7516555b9bac8408b463a31381cf06a82ca666
+    new: b9a9c447277f247b453b92eddb5eb2732408dd28
     log: |
-         3fd5f075759bc0026e4b26393f209ba33a3fb1c3 dt-bindings: vendor-prefixes: add Jide
-         e71abf65df471cb6eaf67ad25bab4996d5bb3f9a dt-bindings: arm: sunxi: document Remix Mini PC name
-         f0d86f545a47f6c6ea9c5b78d3da1b5dae4669bb arm64: dts: allwinner: Add Jide Remix Mini PC support
-         69b92598af490f8eefb12510cd3c4f3926bf7b76 arm64: dts: allwinner: h616: Add 32K fanout pin
-         c46671c251c1f432105423fca5dbbd8e0ac754ce arm64: dts: allwinner: Transpeed 8K618-T: add WiFi nodes
-         668aa84be1795a5b04fc17b0f5e9ee060d679e65 arm64: dts: allwinner: use capital "OR" for multiple licenses in SPDX
-         3db737fa0d5a73de64769aef8f1715c0564afe25 arm64: dts: allwinner: h616: minor whitespace cleanup
-         0daf87e7b47e05d0c9ccab648d5e45eaddb547f8 bus: sunxi-rsb: make sunxi_rsb_bus const
-         64e32e59f0f1e9b4f46ea81fa3ed80483ef6cce3 Merge branch 'sunxi/drivers-for-6.9' into sunxi/for-next
-         97b8088a448c1dd3d75e9b9cb8c9a4defd3156c9 Merge branch 'sunxi/dt-for-6.9' into sunxi/for-next
+         5f1b39718d38276d7e4c65282dae480f6b2e1976 interconnect: qcom: msm8909: constify pointer to qcom_icc_node
+         79144087d9d165a65106ca90468c122184bab070 interconnect: qcom: sa8775p: constify pointer to qcom_icc_node
+         bf6c62fb80d67cf00635d4d2fec6f8d9aad517cf interconnect: qcom: sm8250: constify pointer to qcom_icc_node
+         57d6c77e02b7f381d3c5e83154fa69b6c060d222 interconnect: qcom: sm6115: constify pointer to qcom_icc_node
+         e6e1bf1359df11382ab07a9468d82f3c1ed8e17e interconnect: qcom: sa8775p: constify pointer to qcom_icc_bcm
+         a804adfb753ef3fa87e0e1336aa6987617e5945a interconnect: qcom: x1e80100: constify pointer to qcom_icc_bcm
+         cd6d762c20d9e140c04c47ba5f078c4abf383e14 Merge branch 'icc-msm8909' into icc-next
+         ab431edb4eed88c405532d6a8fcb902f24eae439 Merge branch 'icc-cleanup' into icc-next
+         b9a9c447277f247b453b92eddb5eb2732408dd28 Merge branch 'icc-fixes' into icc-next
          
