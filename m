@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Sun, 11 Feb 2024 19:54:52 -0000
-Message-Id: <170768129248.4118.7379665002999721071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 11 Feb 2024 19:59:57 -0000
+Message-Id: <170768159707.7476.17030945733911540438@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: a9cb4ea68d14ab6349c0ba9741ccfa0de5490bbd
-    new: d09c618b7824d1966b4902b15f147067c7556829
+  - ref: refs/heads/master
+    old: 7521f258ea303c827434c101884b62a2b137a942
+    new: 2766f59ca44e517a1d6226979c784b026f0e89c2
     log: |
-         a37b88a43ab9494382b9cb08f578f45be65b6f42 dm vdo slab-depot: delete unnecessary check in allocate_components
-         d466c5620f2c095580e5ecfade2256a224051654 dm vdo flush: initialize return to NULL in allocate_flush
-         d09c618b7824d1966b4902b15f147067c7556829 dm vdo indexer-volume: fix missing mutex_lock in process_entry
+         8eed4e00a370b37b4e5985ed983dccedd555ea9d x86/lib: Revert to _ASM_EXTABLE_UA() for {get,put}_user() fixups
+         d877550eaf2dc9090d782864c96939397a3c6835 x86/fpu: Stop relying on userspace for info to fault in xsave buffer
+         dad6a09f3148257ac1773cd90934d721d68ab595 hrtimer: Report offline hrtimer enqueue
+         f6a1892585cd19e63c4ef2334e26cd536d5b678d x86/Kconfig: Transmeta Crusoe is CPU family 5, not 6
+         c021e191cf3da2fea766d784546f4c5acbfcd137 Merge tag 'x86_urgent_for_v6.8_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+         2766f59ca44e517a1d6226979c784b026f0e89c2 Merge tag 'timers_urgent_for_v6.8_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
          
