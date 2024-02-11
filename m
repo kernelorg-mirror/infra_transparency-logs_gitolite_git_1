@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5736031861417859131=="
+Content-Type: multipart/mixed; boundary="===============4593233215921175052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 11 Feb 2024 21:43:22 -0000
-Message-Id: <170768780241.18695.222834759037945089@gitolite.kernel.org>
+Date: Sun, 11 Feb 2024 21:43:35 -0000
+Message-Id: <170768781560.18857.4250770405938599919@gitolite.kernel.org>
 
---===============5736031861417859131==
+--===============4593233215921175052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
-    old: 34cf8c657cf0365791cdc658ddbca9cc907726ce
-    new: 841c35169323cd833294798e58b9bf63fa4fa1de
-    log: revlist-34cf8c657cf0-841c35169323.txt
+  - ref: refs/heads/hwmon-next
+    old: f3a1cc17a7f916619911d83cd383ad88927c146a
+    new: 1c365b5017d017260161de296bf0b35fb1f0dbb9
+    log: revlist-f3a1cc17a7f9-1c365b5017d0.txt
 
---===============5736031861417859131==
+--===============4593233215921175052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-34cf8c657cf0-841c35169323.txt
+Content-Disposition: attachment; filename=revlist-f3a1cc17a7f9-1c365b5017d0.txt
 
 c39de951282df9a60ef70664e4378d88006b2670 fs/ntfs3: Improve alternative boot processing
 22457c047ed971f2f2e33be593ddfabd9639a409 fs/ntfs3: Modified fix directory element type detection
@@ -346,5 +346,51 @@ a5b6244cf87c50358f5562b8f07f7ac35fc7f6b0 Merge tag 'block-6.8-2024-02-10' of git
 c021e191cf3da2fea766d784546f4c5acbfcd137 Merge tag 'x86_urgent_for_v6.8_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2766f59ca44e517a1d6226979c784b026f0e89c2 Merge tag 'timers_urgent_for_v6.8_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 841c35169323cd833294798e58b9bf63fa4fa1de Linux 6.8-rc4
+b9f55084aa0962af6247fa971f0b1e9c7aa676ef hwmon: put HWMON_CHANNEL_INFO() initializers in rodata
+7fce84a991cdc1b28e03d14c997ec65187df6da5 hwmon: (nct6683) Add another customer ID for MSI
+eea32fafadd3e648537e2653a2e2291431c990ff dt-bindings: hwmon: ina2xx: Add label property
+f29996d0295ec581d1e7cf5e72894656dc7f9f57 dt-bindings: hwmon: ina2xx: Describe #io-channel-cells property
+f7ab2d180e6a312b885d1aadb8ca6ea0933a55df dt-bindings: hwmon: ina2xx: Describe ina260 chip
+e7b631d798716bba5cf1499caf62c548c7905439 hwmon: Remove I2C_CLASS_HWMON from drivers w/o detect() and address_list
+3317f2385f093d7dc17cf492a6676e7be5597349 MAINTAINERS: Drop entries for hwmon devices with unreachable maintainers
+7a0564448a861952e9dc032de146abd19ea5a096 hwmon: Drop non-functional I2C_CLASS_HWMON support for drivers w/o detect()
+9c6df63a66c1fdf99d6e1ad278d140080c724120 hwmon: (pmbus_core) Allow to hook PMBUS_SMBALERT_MASK
+d07c41eb963a4f621d1867c36ad3b79b2f5faa20 dt-bindings: hwmon: Add LTC4282 bindings
+35c1bfb99fef9c71f9df5c1325db99a79300bc97 hwmon: add fault attribute for voltage channels
+abab990ce4198a817d7d33be4664481f565cd97a hwmon: ltc4282: add support for the LTC4282 chip
+c34fd707333a94e71745f01c2fd91f383a113880 hwmon: add fan speed monitoring driver for Surface devices
+ce70fba87f41bf61ecea2e0e90758779b084f2bb dt-bindings: Add MPQ8785 voltage regulator device
+c5068b4d9076ec558522af0b50a589e22c674efc hwmon: Add driver for MPS MPQ8785 Synchronous Step-Down Converter
+11d1be0fd07e78f4a684b5dc153a04322432688f hwmon: (sht3x) read out sensor serial number
+21d23ec005b3f8c742dc1a30205d4580344c8686 hwmon: (adt7x10) convert to use maple tree register cache
+e947f1cfda5c99d3053eae38dc0966f8aa7e3def hwmon: (emc1403) convert to use maple tree register cache
+64334bbfd2c47228f2e101faa9946251f3662c91 hwmon: (ina3221) convert to use maple tree register cache
+54a47150af1920d1215f672ece8936a31e716619 hwmon: (jc42) convert to use maple tree register cache
+052a7074c11e3c91b0a137a9ead2bcf7c2852957 hwmon: (lm83) convert to use maple tree register cache
+c7e7ec2411d7707ac7c97d48eedb10685ba4b044 hwmon: (max31760) convert to use maple tree register cache
+5afba04453a6eb750326757b7cab294f626fed6b hwmon: (nct7802) convert to use maple tree register cache
+746a8a938512320ef4d3d53953d80d9085efe2d8 hwmon: (sch5627) convert to use maple tree register cache
+b00d69193ab012edc02d8a2e4fb7b001f9a9ebe0 hwmon: (tmp401) convert to use maple tree register cache
+097e8677537fd49ab6244d167b6a3264b3f17e60 dt-bindings: vendor-prefixes: add Amphenol
+f4ef2317c4333c29aedc7b86428c4f711c760d39 hwmon: (core) Add support for humidity min/max alarm
+a64431ea5cf4511d972d909db3f98a4e9dd5d510 ABI: sysfs-class-hwmon: add descriptions for humidity min/max alarms
+d2cec120bfd983d0e207126eed8abbf4efccadd0 dt-bindings: hwmon: Add Amphenol ChipCap 2
+0149debb023c6dc5028d7281320fb965fbe1c400 hwmon: Add support for Amphenol ChipCap 2
+3bdd2db1122f607e108826926738a8c5929005aa dt-bindings: vendor-prefixes: add asteralabs
+08c06fb56e52dc907a4415da27f185da6320f1b5 dt-bindings: trivial-devices: add Astera Labs PT5161L
+b38ac9f445546b9fd95672ac405e033c2d40ba1b hwmon: Add driver for NZXT Kraken X and Z series AIO CPU coolers
+b8fb6a85c29a7ec594d574b427abe7d062a8e323 hwmon: Add driver for ASUS ROG RYUJIN II 360 AIO cooler
+d534f90d68bdab606c3545afb5d558594a50f32e hwmon: (coretemp) Introduce enum for attr index
+819ec33a3d80b0a57d0c73060eb68a3abfc95c89 hwmon: (coretemp) Remove unnecessary dependency of array index
+2179f654c6479c8298d0cafb7ae83b2910a95770 hwmon: (coretemp) Replace sensor_device_attribute with device_attribute
+b54d847d36d80d4c594b92d8ec35a991024b684f hwmon: (coretemp) Remove redundant pdata->cpu_map[]
+a749c25cd63fdf8f584bb37395de72aa5741eb4b hwmon: (coretemp) Abstract core_temp helpers
+c24bc938beb01a9f744e979cb7d92657a0aa9718 hwmon: (coretemp) Split package temp_data and core temp_data
+1a9ed43879bdb54c65d932cfd6514753c097ca70 hwmon: (coretemp) Remove redundant temp_data->is_pkg_data
+1ec93e101fa617b666c7fbe9c26e9813335160b9 hwmon: (coretemp) Use dynamic allocated memory for core temp_data
+f576d12cf2a0154b2f962bb34bb457682ba38283 hwmon: Add driver for Astera Labs PT5161L retimer
+f1d14873cb31bfbf2783490bf87a1c2483ac53b6 hwmon: chipcap2: fix uninitialized variable in cc2_get_reg_val()
+7c9ac35977761ea3eee2f3aab4b7339ce497c009 hwmon: chipcap2: fix return path in cc2_request_alarm_irqs()
+1c365b5017d017260161de296bf0b35fb1f0dbb9 hwmon: (oxp-sensors) Add support for Ayaneo Air Plus 7320u.
 
---===============5736031861417859131==--
+--===============4593233215921175052==--
