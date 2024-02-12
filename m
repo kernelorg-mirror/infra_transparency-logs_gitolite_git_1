@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 12 Feb 2024 22:44:12 -0000
-Message-Id: <170777785239.5387.7879832684058387877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Mon, 12 Feb 2024 22:45:23 -0000
+Message-Id: <170777792372.7534.6539335515235220736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/for-next
-    old: 574849054d97cee5be78d6c149d84685647fe774
-    new: db7f204f5092fdac68c5fd8fcf9a2ab5d69b2337
+  - ref: refs/heads/testme
+    old: f1423564fd426c134f00c77dd0f97e350f1d2f41
+    new: 2090cc45c0c00382b93218fd710bf56bf23154d3
     log: |
-         0eaef900b05f0bd111e94602d60c64a282dfa1ef dt-bindings: can: fsl,flexcan: add i.MX95 compatible string
-         15ff10ea77a526c3e0b73e97450966e271a501e8 dt-bindings: i2c: mux: i2c-demux-pinctrl: Drop i2c-mux.yaml reference
-         91f9a47ddb9d6f24028540d843d8464b97f05b0a dt-bindings: i2c: mux: i2c-demux-pinctrl: Define "i2c-parent" constraints
-         bd4dbae91f742ac247b3788ece87a49544c31e2b dt-bindings: ufs: qcom: Add SC7180 compatible string
-         db7f204f5092fdac68c5fd8fcf9a2ab5d69b2337 MAINTAINERS: of: Add Saravana Kannan
+         2090cc45c0c00382b93218fd710bf56bf23154d3 x86/mm/ident_map: Use gbpages only where full GB page should be mapped.
          
