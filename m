@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Mon, 12 Feb 2024 10:19:48 -0000
-Message-Id: <170773318886.30009.13794625143317310145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Mon, 12 Feb 2024 10:19:50 -0000
+Message-Id: <170773319018.30084.6976353567764021992@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: suzukikp
 changes:
-  - ref: refs/heads/for-next
-    old: 86e5e6217fc02a87257a1e048f1a454fb0b36589
-    new: 0bedeff4c9c127c00d7f2e5017cb3a61453564e6
+  - ref: refs/heads/next
+    old: d999c7dd52790e294d78d06e6535e318275c1ea5
+    new: dd95255d44c05c9977f962bf0f2afe5e11f8ab3e
     log: |
-         2c877bc7c808a11bc407b142aab6cace5af57cca arm64: dts: mediatek: mt8186: Add video decoder device nodes
-         79a13f4cde4d48967c728ac4c6a4a87de42801b7 dt-bindings: arm64: mediatek: Add MT8395 Radxa NIO 12L board compatible
-         87403183dfd2c848251dc001b0cb2a74a6559d20 arm64: dts: mediatek: Introduce the MT8395 Radxa NIO 12L board
-         0bedeff4c9c127c00d7f2e5017cb3a61453564e6 Merge branch 'v6.8-next/dts64' into for-next
+         dd95255d44c05c9977f962bf0f2afe5e11f8ab3e coresight: make coresight_bustype const
          
