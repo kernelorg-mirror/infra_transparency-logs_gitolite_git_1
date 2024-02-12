@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7690768444159688533=="
+Content-Type: multipart/mixed; boundary="===============7587189510947667256=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 12 Feb 2024 17:22:08 -0000
-Message-Id: <170775852829.28778.18280879208021964043@gitolite.kernel.org>
+Date: Mon, 12 Feb 2024 17:22:47 -0000
+Message-Id: <170775856761.29104.1352318670963453384@gitolite.kernel.org>
 
---===============7690768444159688533==
+--===============7587189510947667256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 4ec3b4aafc87b4cb9c89da594c4640491f582661
-    new: 0f37666d87d2dea42ec21776c3d562b7cbd71612
-    log: revlist-4ec3b4aafc87-0f37666d87d2.txt
+  - ref: refs/heads/dev-queue
+    old: 7c9b8de2aec60f9217e04a6b13f325b81aec00bd
+    new: 736b9bb7584b4a063d759059146faecbe375e643
+    log: revlist-7c9b8de2aec6-736b9bb7584b.txt
 
---===============7690768444159688533==
+--===============7587189510947667256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ec3b4aafc87-0f37666d87d2.txt
+Content-Disposition: attachment; filename=revlist-7c9b8de2aec6-736b9bb7584b.txt
 
 50534a55774ce5f6180eaca854fb3c63578b7cf7 igc: Use reverse xmas tree
 5edcf51d0b5e0257587d918a7bae8e5a1af63fb8 igc: Use netdev printing functions for flex filters
@@ -108,5 +108,52 @@ bba140a566ed075304c49c52ab32c0016cab624a net: dsa: realtek: use the same mii bus
 78c3253f27e579f7f3a1f5c0cb8266693a7b4f41 net: use synchronize_rcu_expedited in cleanup_net()
 1ebb85f9c03de0b66c334de219f224159e24e549 netfilter: conntrack: expedite rcu in nf_conntrack_cleanup_net_list
 0f37666d87d2dea42ec21776c3d562b7cbd71612 Merge branch 'net-avoid-slow-rcu'
+4adc23b7d9f4aedd2fbaf749e8b4074d8f3ac9e8 i40e: Fix waiting for queues of all VSIs to be disabled
+8c0f8d2d99a2b6c1272d0087e7ceb8b18c7299fc i40e: Fix wrong mask used during DCB config
+5f13a31583af6ca480dc5a5fb9d3b2554048b7c5 i40e: Use existing helper to find flow director VSI
+23b963e1de337cad4d598421858378f58c208245 i40e: Introduce and use macros for iterating VSIs and VEBs
+da39860795fb6acd57f601311b7dade86a321d88 i40e: Add helpers to find VSI and VEB by SEID and use them
+334c07c37d0f1326c2efd079fe401aa4df757485 i40e: Fix broken support for floating VEBs
+0231ed533b32870e7bd084e9f6b4e7bce6fb2787 i40e: Remove VEB recursion
+157c89dcfb4d793ee26add4fd0f5a5ee07f21012 ice: introduce new E825C devices family
+3261e6d50c8efd55304e0e107c3114ae4f10f4da ice: Add helper function ice_is_generic_mac
+9f556bf6fabef0095e7d3cbfa24e5a9977dff400 ice: add support for 3k signing DDP sections for E825C
+1139b2491316115a8022923ec33af324f1e4550d ice: Add support for devlink loopback param.
+c30f9897179cbf986bcb009154a7e573a787b647 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+a1be835db26cddf1cbe2bb44b5077c1effdc10fa e1000e: Minor flow correction in e1000_shutdown function
+46b6ba759060d3a904a4618290e57d5cdc67d203 igb: Fix string truncation warnings in igb_set_fw_version
+2c22ce578c6fa8461fb117218a2b503affca598e ice: Add check for lport extraction to LAG init
+619051e1b4c17349f5cb6f03058513b8c2fd8363 iavf: fix reset in early states
+384b83fd2654c1fd0dd6844cde4e3921551d1451 iavf: allow an early reset event to be processed
+3b9d30a11ed8212fe0e9117d8cc6c9633154b013 igc: Remove temporary workaround
+b3a42ae4a5a1d124e88e9a0867cd51961afd5183 ice: fix connection state of DPLL and out pin
+97fd5bcecdef04e9394f3cc2c22c4937472a3ac4 i40e: Do not allow untrusted VF to remove administratively set MAC
+6505189b69e73fc18affd8b92b3c701ff0ed665b ice: virtchnl: stop pretending to support RSS over AQ or registers
+9d8a906a28efd9df50eec7400e736f47f02f48ab ice: remove eswitch changing queues algorithm
+b498248f7fa5899b03632455dfe98272c60ae00a ice: do Tx through PF netdev in slow-path
+c5cd5bf83c8fb6b33a88ac8df6deb794f623b755 ice: default Tx rule instead of to queue
+d93c71a8d94dc08483741acd7d70257642df7190 ice: control default Tx rule in lag
+a75ae0477f5ef0a6af4df324e5a82007529bb221 ice: remove switchdev control plane VSI
+4829cbbcfff4ee40cd50f4d3eec3aff57df97fe6 ice: change repr::id values
+0689bc81d3c5e55e180f57a5e40835f6de20f753 ice: do switchdev slow-path Rx using PF VSI
+7c52867d80de55bc3766007e36c8d95fd10bd7a5 ice: count representor stats
+1d94416fb25dba06403b1a621b574fb28cc50b97 ice: Remove and readd netdev during devlink reload
+e848ff1b9d2a58393df993f0eb819e29720aaeba ice: Fix debugfs with devlink reload
+a7b4d6383e7928dd8ebb8f839b68319743547be9 i40e: avoid double calling i40e_pf_rxq_wait()
+65963f3289d279d1d793305f67db93e60253566c i40e: take into account XDP Tx queues when stopping rings
+6137cd1ad5f6f82d208b04a0e969d4b12a174f46 ice: Refactor FW data type and fix bitmap casting issue
+19aa38b9a74fc0b78fce41b5bec5da48133064e5 idpf: implement virtchnl transaction manager
+27eda0e682ca988db77747985756f4c6e4fa29ec idpf: refactor vport virtchnl messages
+b102c8ecfebf7f421d345b2179c842562022e589 idpf: refactor queue related virtchnl messages
+3d025b1e4f0f2b6d6925028480cebe786ac1e1fa idpf: refactor remaining virtchnl messages
+76e925d032966b2e9fef1ecf138836a6bbf3c2ac idpf: add async_handler for MAC filter messages
+f323e42272a57257c0af6a08f01ff1eb79a7bce5 idpf: refactor idpf_recv_mb_msg
+fafa7b1d8fd164a0ebdb0617eaaa758379730d19 idpf: cleanup virtchnl cruft
+0568e8a13189d56cf9be2edb3842d365f143dd05 idpf: prevent deinit uninitialized virtchnl core
+119db6858b39278450b67d72105477bcaad3b1ee idpf: fix minor controlq issues
+d611262d72a9608781fbf37411f248cb16d25979 idpf: remove dealloc vector msg err in idpf_intr_rel
+5fd654682d66658203f818158537d5695b33d08d igc: Add support for LEDs on i225/i226
+ac76ea5f37a7cf958c3276763c36496eee638ac0 idpf: disable local BH when scheduling napi for marker packets
+736b9bb7584b4a063d759059146faecbe375e643 ice: Add switch recipe reusing feature
 
---===============7690768444159688533==--
+--===============7587189510947667256==--
