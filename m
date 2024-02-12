@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8052581851372660807=="
+Content-Type: multipart/mixed; boundary="===============8742807705069044455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Mon, 12 Feb 2024 12:37:58 -0000
-Message-Id: <170774147885.2310.12439316537648676947@gitolite.kernel.org>
+Date: Mon, 12 Feb 2024 12:40:43 -0000
+Message-Id: <170774164350.4919.874399283610376467@gitolite.kernel.org>
 
---===============8052581851372660807==
+--===============8742807705069044455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mediatek/linux
 user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/v6.8-next/dts64
-    old: 2e341912d343fa2c5e7eda01708a599afcc4fd9b
-    new: 3f79e8f3364499750d7442767b101b7bc5864ddf
-    log: revlist-2e341912d343-3f79e8f33644.txt
+  - ref: refs/heads/for-next
+    old: e0118b492e87af78de320204745a1af5ebee8814
+    new: 61efbb601b9eb397148bef5ed8b0dbd3654dca07
+    log: revlist-e0118b492e87-61efbb601b9e.txt
 
---===============8052581851372660807==
+--===============8742807705069044455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e341912d343-3f79e8f33644.txt
+Content-Disposition: attachment; filename=revlist-e0118b492e87-61efbb601b9e.txt
 
 04bd6411f506357fd1faedc2b2156e7ef206aa9a arm64: dts: mt8183: Move CrosEC base detection node to kukui-based DTs
 7865abbbdf1e1ee57a0bb8ec83079f8840c16854 arm64: dts: mediatek: mt7986: fix reference to PWM in fan node
@@ -69,5 +69,6 @@ d9cd3b12883034be34e7379b43d4049dc8806a9e dt-bindings: arm64: dts: mediatek: Add 
 ea28a27475fe186825d0ff8f35ac641467cdccc5 arm64: dts: mediatek: Add Acelink EW-7886CAX
 7eb133c99fbebc6adb1cbd22c926d42d2bbca648 arm64: dts: mediatek: mt7986: reorder properties
 3f79e8f3364499750d7442767b101b7bc5864ddf arm64: dts: mediatek: mt7986: reorder nodes
+61efbb601b9eb397148bef5ed8b0dbd3654dca07 Merge branches 'v6.8-fixes/dts32', 'v6.8-next/soc' and 'v6.8-next/dts64' into for-next
 
---===============8052581851372660807==--
+--===============8742807705069044455==--
