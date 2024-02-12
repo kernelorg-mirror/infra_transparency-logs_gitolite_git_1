@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 12 Feb 2024 16:25:46 -0000
-Message-Id: <170775514684.12158.16046231390308525064@gitolite.kernel.org>
+Date: Mon, 12 Feb 2024 16:25:56 -0000
+Message-Id: <170775515695.12295.16046123164249606862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.9
-    old: f7fc624be3dbfb78047a1cab795b93c7235fbf1c
-    new: 2b9cdef13648bebf79f029deb622e02099146c18
+  - ref: refs/heads/regmap-6.8
+    old: 7011b51f13b391ee06708bb1f82653a2953f8cfc
+    new: 2f0dbb24f78a333433a2b875c0b76bf55c119cd4
     log: |
-         2b9cdef13648bebf79f029deb622e02099146c18 ASoC: SOF: imx: Add devicetree support to select topologies
+         2f0dbb24f78a333433a2b875c0b76bf55c119cd4 regmap: kunit: Ensure that changed bytes are actually different
          
