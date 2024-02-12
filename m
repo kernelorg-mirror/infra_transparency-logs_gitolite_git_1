@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 12 Feb 2024 15:29:45 -0000
-Message-Id: <170775178579.1560.5854642994491406437@gitolite.kernel.org>
+Date: Mon, 12 Feb 2024 15:29:56 -0000
+Message-Id: <170775179632.1680.16411048008483501381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.8
-    old: 8c41be259973c9b8e283c7c28d385c7651e4a729
-    new: d6755a53b8dde434220a164c756190345772843a
+  - ref: refs/heads/spi-6.8
+    old: b3aa619a8b4706f35cb62f780c14e68796b37f3f
+    new: 8f44e3808200c1434c26ef459722f88f48b306df
     log: |
-         551539a8606e28cb2a130f8ef3e9834235b456c4 ASoC: rt5645: Make LattePanda board DMI match more precise
-         d6755a53b8dde434220a164c756190345772843a ASoC: rt5645: Add DMI quirk for inverted jack-detect on MeeGoPad T8
+         e56c671c2272d939d48a66be7e73b92b74c560c2 spi: omap2-mcspi: Revert FIFO support without DMA
+         8f44e3808200c1434c26ef459722f88f48b306df spi: intel-pci: Add support for Lunar Lake-M SPI serial flash
          
