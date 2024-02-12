@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Mon, 12 Feb 2024 18:25:37 -0000
-Message-Id: <170776233762.11784.7808894626418713886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 12 Feb 2024 18:29:34 -0000
+Message-Id: <170776257435.13241.13825480601258577470@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
+repo: pub/scm/linux/kernel/git/tip/tip
 user: daveh
 changes:
-  - ref: refs/heads/testme
-    old: b595e4f765a03dac24d46fc8ff19365e75967539
+  - ref: refs/heads/x86/urgent
+    old: f6a1892585cd19e63c4ef2334e26cd536d5b678d
     new: f1423564fd426c134f00c77dd0f97e350f1d2f41
     log: |
-         f6a1892585cd19e63c4ef2334e26cd536d5b678d x86/Kconfig: Transmeta Crusoe is CPU family 5, not 6
          15d59300ac706c5e1d95ab867ff5734ddae92c67 x86/bugs: Add asm helpers for executing VERW
          cbe72ed2412c1e8b6c99600c9db1f148c48fa453 x86/entry_64: Add VERW just before userspace transition
          a67d262a840e0cc2daf4b55940f4a318b831d911 x86/entry_32: Add VERW just before userspace transition
