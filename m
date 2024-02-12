@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 12 Feb 2024 01:57:12 -0000
-Message-Id: <170770303270.13369.13912185763108020820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Mon, 12 Feb 2024 03:05:19 -0000
+Message-Id: <170770711926.29896.2107746056535051053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: eed18437a50278742235df33ad8a53ab34c0c1d7
-    new: a1e22a8c359660394afdc9f838c87eb0d38e7903
+    old: e582982b814349f06296b484bd912adf98b034c3
+    new: a51b6a96c8f4dd4a1b5097a39541fa49aa828739
     log: |
-         a1e22a8c359660394afdc9f838c87eb0d38e7903 Start of man-pages-NEXT: Move Changes to Changes.old
+         a51b6a96c8f4dd4a1b5097a39541fa49aa828739 tools: Don't use f-string syntax
          
