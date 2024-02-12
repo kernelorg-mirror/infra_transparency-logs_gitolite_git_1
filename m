@@ -1,30 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============8800356817614401649=="
+Content-Type: multipart/mixed; boundary="===============1582164922357430693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 12 Feb 2024 09:29:37 -0000
-Message-Id: <170773017784.12066.18130712158850691005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 12 Feb 2024 09:36:00 -0000
+Message-Id: <170773056008.17545.11447649638342423273@gitolite.kernel.org>
 
---===============8800356817614401649==
+--===============1582164922357430693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/dev-test
-    old: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
-    new: 841c35169323cd833294798e58b9bf63fa4fa1de
-    log: revlist-54be6c6c5ae8-841c35169323.txt
+  - ref: refs/heads/master
+    old: d9725adb75e9a17df52743713a914fb7449ba066
+    new: 9e0cc09169b2f36ea51ce2f1b05b2432c20d5d0b
+    log: revlist-d9725adb75e9-9e0cc09169b2.txt
+  - ref: refs/tags/renesas-devel-2024-02-12-v6.8-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 89772ebd40484cd4e3d73fae7409ef39bced458c
+  - ref: refs/tags/v6.8-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 251168394b084796bcd8f3e3655f2eb38c524ea3
 
---===============8800356817614401649==
+--===============1582164922357430693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-54be6c6c5ae8-841c35169323.txt
+Content-Disposition: attachment; filename=revlist-d9725adb75e9-9e0cc09169b2.txt
 
 c39de951282df9a60ef70664e4378d88006b2670 fs/ntfs3: Improve alternative boot processing
 22457c047ed971f2f2e33be593ddfabd9639a409 fs/ntfs3: Modified fix directory element type detection
@@ -350,5 +356,6 @@ a5b6244cf87c50358f5562b8f07f7ac35fc7f6b0 Merge tag 'block-6.8-2024-02-10' of git
 c021e191cf3da2fea766d784546f4c5acbfcd137 Merge tag 'x86_urgent_for_v6.8_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2766f59ca44e517a1d6226979c784b026f0e89c2 Merge tag 'timers_urgent_for_v6.8_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 841c35169323cd833294798e58b9bf63fa4fa1de Linux 6.8-rc4
+9e0cc09169b2f36ea51ce2f1b05b2432c20d5d0b Merge tag 'v6.8-rc4' into renesas-devel
 
---===============8800356817614401649==--
+--===============1582164922357430693==--
