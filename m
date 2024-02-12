@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6555853008584132682=="
+Content-Type: multipart/mixed; boundary="===============7798840307985702081=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 12 Feb 2024 22:02:35 -0000
-Message-Id: <170777535514.6906.18377055021421005793@gitolite.kernel.org>
+Date: Mon, 12 Feb 2024 22:02:46 -0000
+Message-Id: <170777536603.7052.9479282358651603091@gitolite.kernel.org>
 
---===============6555853008584132682==
+--===============7798840307985702081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-next
+  - ref: refs/heads/master
     old: 6613476e225e090cc9aad49be7fa504e290dd33d
     new: 841c35169323cd833294798e58b9bf63fa4fa1de
     log: revlist-6613476e225e-841c35169323.txt
 
---===============6555853008584132682==
+--===============7798840307985702081==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c021e191cf3da2fea766d784546f4c5acbfcd137 Merge tag 'x86_urgent_for_v6.8_rc4' of 
 2766f59ca44e517a1d6226979c784b026f0e89c2 Merge tag 'timers_urgent_for_v6.8_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 841c35169323cd833294798e58b9bf63fa4fa1de Linux 6.8-rc4
 
---===============6555853008584132682==--
+--===============7798840307985702081==--
