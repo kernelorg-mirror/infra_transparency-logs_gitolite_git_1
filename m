@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0810486724661850781=="
+Content-Type: multipart/mixed; boundary="===============6303685532435916906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 12 Feb 2024 17:35:07 -0000
-Message-Id: <170775930757.6134.14822217553690548420@gitolite.kernel.org>
+Date: Mon, 12 Feb 2024 17:35:42 -0000
+Message-Id: <170775934216.6391.12863930513901668199@gitolite.kernel.org>
 
---===============0810486724661850781==
+--===============6303685532435916906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 02d9009f4e8c27dcf10c3e39bc0666436686a219
-    new: 5b3fbd61b9d1f4ed2db95aaf03f9adae0373784d
-    log: revlist-02d9009f4e8c-5b3fbd61b9d1.txt
+  - ref: refs/heads/dev-queue
+    old: b1011aaeb1aacceb4a4f998ef5bc23358971cff6
+    new: f33c7fdee6a0fc4e94ea0eefdca6bbbb7bd7cc36
+    log: revlist-b1011aaeb1aa-f33c7fdee6a0.txt
 
---===============0810486724661850781==
+--===============6303685532435916906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02d9009f4e8c-5b3fbd61b9d1.txt
+Content-Disposition: attachment; filename=revlist-b1011aaeb1aa-f33c7fdee6a0.txt
 
 38ee0cb2a2e2ade077442085638eb181b0562971 selftests: net: Fix bridge backup port test flakiness
 93590849a05edffaefa11695fab98f621259ded2 selftests: forwarding: Fix layer 2 miss test flakiness
@@ -68,5 +68,20 @@ f012d796a6de662692159c539689e47e662853a8 mptcp: check addrs list in userspace_pm
 68990d006d42b6ef7910fa263f87e9e0d812113b MAINTAINERS: update Geliang's email address
 603604c8be421b88ff594c8ea696d6c8a9165cb5 Merge branch 'mptcp-misc-fixes'
 5b3fbd61b9d1f4ed2db95aaf03f9adae0373784d net: sysfs: Fix /sys/class/net/<iface> path for statistics
+09ecfdb3f403ef55810c072d795a72338e98ac7a i40e: Fix waiting for queues of all VSIs to be disabled
+515f6dbf15a7010b2715293318fc02ac5283d0d8 i40e: Fix wrong mask used during DCB config
+54227aea88d6bb739cd835dc4d05c1182d7c68ed e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+dbb5f9bb1baf394fb8ccc690aaf27ac9f008e9cc igb: Fix string truncation warnings in igb_set_fw_version
+9a88bc685fa189c510fac534dbafe22a01091382 ice: Add check for lport extraction to LAG init
+03d5edcabd97afcfbed72a7e6e18b4ac3657ab61 iavf: fix reset in early states
+ffdb16b40cba21edab7cb3a2989866049f5159bf iavf: allow an early reset event to be processed
+5257cee0cd2fbd598caf8a052ae7e3afc81428aa igc: Remove temporary workaround
+0fc2671b7d5d0cb371821ab5b91ded29b3a94248 ice: fix connection state of DPLL and out pin
+b299a0a75667bc421965710bb2c91725889dc677 i40e: Do not allow untrusted VF to remove administratively set MAC
+d8777eca17cffaf8f885eb91ac4f8dca6a1e1ab9 ice: virtchnl: stop pretending to support RSS over AQ or registers
+219cd22fb3559a638b5e37888e59a0e986ad0e06 i40e: avoid double calling i40e_pf_rxq_wait()
+a1581455cd9a04592ea5d4e3b76939adda2aa9c0 i40e: take into account XDP Tx queues when stopping rings
+0700d2f338589e07a19565c6d70c08ef7407b2b5 ice: Refactor FW data type and fix bitmap casting issue
+f33c7fdee6a0fc4e94ea0eefdca6bbbb7bd7cc36 idpf: disable local BH when scheduling napi for marker packets
 
---===============0810486724661850781==--
+--===============6303685532435916906==--
