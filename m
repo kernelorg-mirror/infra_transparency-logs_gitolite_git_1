@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 12 Feb 2024 21:20:23 -0000
-Message-Id: <170777282356.9032.14915431447310347930@gitolite.kernel.org>
+Date: Mon, 12 Feb 2024 21:20:33 -0000
+Message-Id: <170777283356.9187.12838049747687026732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.8
-    old: d6755a53b8dde434220a164c756190345772843a
-    new: f7fe85b229bc30cb5dc95b4e9015a601c9e3a8cd
+  - ref: refs/heads/asoc-6.9
+    old: 2b9cdef13648bebf79f029deb622e02099146c18
+    new: 00933c4993f132a53d31f995a011945b3835826c
     log: |
-         f7fe85b229bc30cb5dc95b4e9015a601c9e3a8cd ASoC: amd: yc: Fix non-functional mic on Lenovo 82UU
+         00933c4993f132a53d31f995a011945b3835826c ASoC: codecs: fix TYPO 'reguest' to 'request' in error log
          
