@@ -1,58 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============4299539978606449988=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 12 Feb 2024 15:48:35 -0000
-Message-Id: <170775291590.16839.822145630865754640@gitolite.kernel.org>
-
---===============4299539978606449988==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 12 Feb 2024 15:50:04 -0000
+Message-Id: <170775300402.18990.14524140316389423585@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 88e12e8029528cd2fa5552083a55a87ca53efeff
-    new: 7e3f145bb0e8d51c85a2a70fc2208ff874b7dc98
+  - ref: refs/heads/for-6.9/block
+    old: c3116e62ddeff79cae342147753ce596f01fcf06
+    new: 921e81db524d17db683cc29aed7ff02f06ea3f96
     log: |
-         6c271b337ce5c410d7b9c9bd90d216e12cb34c86 scripts/bippy: add more fields to filter out
-         a6f4445f1ffbaf51ce7f257364ac14d16cdcb3cd more test records created to test filters and version information.
-         7e3f145bb0e8d51c85a2a70fc2208ff874b7dc98 scripts/cve_publish_json:  script to publish the cve entries
+         9105ce591b424771b1502ef9836ca7953c3e0af4 zonefs: pass GFP_KERNEL to blkdev_zone_mgmt() call
+         218082010aceb40b5495ebc30028ede6e30ee755 dm: dm-zoned: guard blkdev_zone_mgmt with noio scope
+         d9d556755f16f6af8d1d8ebac38b83a9263394c5 btrfs: zoned: call blkdev_zone_mgmt in nofs scope
+         147ec1c60e3273d21ea1f212c6636f231d6d2771 f2fs: guard blkdev_zone_mgmt with nofs scope
+         71f4ecdbb42addf82b01b734b122a02707fed521 block: remove gfp_flags from blkdev_zone_mgmt
+         6b5c132a3f0d3b7c024ae98f0ace07c04d32cf73 block: refactor guard helpers
+         60d21aac52e26531affdadb7543fe5b93f58b450 block: support PI at non-zero offset within metadata
+         921e81db524d17db683cc29aed7ff02f06ea3f96 nvme: allow integrity when PI is not in first bytes
          
-
---===============4299539978606449988==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707752913 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1707752912-b638632f833e436ca9780471abbe7870e8db13c9
-
-88e12e8029528cd2fa5552083a55a87ca53efeff 7e3f145bb0e8d51c85a2a70fc2208ff874b7dc98 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXKPdEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HqoP/0TbXSKHisMTEUQkZRRR
-9WupH+q3k+TMTGuq7VlpomdA1l79MkZMhz40r6mI2/r18ZwDzhbXufXMjKKgC4YH
-5TXdl/HJlCkOEqe8OmLvcTwNgcmLnXYUq+hFnjMbMlrpTSbx1F2FsncA1SMcWin8
-YG8+yppjWMMWdUi7PgniEQeYwhA/zyO6xQATbJ0zO/+tjdw+RCjBT92VcyLijSIY
-uDxhCz9dBGbn7GkS3UDAjdLkpv8Kb9kq7x47SFdUL33bZn4dDRV8fm4EM90axBNC
-+dSBsF7mencISyk8LDCwLazDJxaUTh7Xs+EFuEdjqJPYXUiY6XTFJjMzj07Vi1rY
-j7aTTb1byEYYA1g+D+RjA8CtE2cLQIvJvTXTvZ1vyR3/KBp6xehlqIeqZLyWYCan
-myHIOtbUd4Du7ZUHmFN7aYyGZbK+gc9ip4yu7/1Pj07uIwC96HO53IaTP0rr+6gf
-qdxK1BcHRQpKX1N+IVurmx5MiT56g7PX9QFTTlXmt3Qazk1TJs0r1pdbF9H31W2+
-4HpEd9qA2gBzXi83ZRmv3JFaAAScMtDq7P+zQWs/e0RrrBcMKjcUxIeQI8LDNQ6l
-wyZ1tgK1QAqne4zcqwvt/2AXdfWiL466xbaalJbC7Kc2GA7u841duJOnhYBQyPs1
-8xSZCWhVsZZ/U8/msIeFtmMt
-=7wf+
------END PGP SIGNATURE-----
-
---===============4299539978606449988==--
+  - ref: refs/heads/for-next
+    old: 42614783f46ef665ec01ea4ecfd7a65cfc9cec8e
+    new: f8c9abbb8fa6c80788969eab3fb38a22d3b2ebf4
+    log: |
+         9105ce591b424771b1502ef9836ca7953c3e0af4 zonefs: pass GFP_KERNEL to blkdev_zone_mgmt() call
+         218082010aceb40b5495ebc30028ede6e30ee755 dm: dm-zoned: guard blkdev_zone_mgmt with noio scope
+         d9d556755f16f6af8d1d8ebac38b83a9263394c5 btrfs: zoned: call blkdev_zone_mgmt in nofs scope
+         147ec1c60e3273d21ea1f212c6636f231d6d2771 f2fs: guard blkdev_zone_mgmt with nofs scope
+         71f4ecdbb42addf82b01b734b122a02707fed521 block: remove gfp_flags from blkdev_zone_mgmt
+         d0c761cfb3993e1e7c39568390e6489a5df74157 Merge branch 'for-6.9/block' into for-next
+         6b5c132a3f0d3b7c024ae98f0ace07c04d32cf73 block: refactor guard helpers
+         60d21aac52e26531affdadb7543fe5b93f58b450 block: support PI at non-zero offset within metadata
+         921e81db524d17db683cc29aed7ff02f06ea3f96 nvme: allow integrity when PI is not in first bytes
+         f8c9abbb8fa6c80788969eab3fb38a22d3b2ebf4 Merge branch 'for-6.9/block' into for-next
+         
