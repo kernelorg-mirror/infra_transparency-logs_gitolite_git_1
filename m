@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8660089155403765676=="
+Content-Type: multipart/mixed; boundary="===============7716904516570556671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 12 Feb 2024 08:56:19 -0000
-Message-Id: <170772817998.21052.13412983071243159917@gitolite.kernel.org>
+Date: Mon, 12 Feb 2024 08:56:31 -0000
+Message-Id: <170772819128.21213.1949399970825009719@gitolite.kernel.org>
 
---===============8660089155403765676==
+--===============7716904516570556671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 0bd8a354c65a73a681fc2cb00f7745ed3f21c334
-    new: 5dc6bdd91324628a3e93d8cda217cb0d26c8b818
-    log: revlist-0bd8a354c65a-5dc6bdd91324.txt
+  - ref: refs/heads/m68k-queue
+    old: ad50fcab1731d79dfbe897c26ac00551bbfee4d6
+    new: 0b20aebdd3f6b269507694b2fd905e28013b1f65
+    log: revlist-ad50fcab1731-0b20aebdd3f6.txt
 
---===============8660089155403765676==
+--===============7716904516570556671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bd8a354c65a-5dc6bdd91324.txt
+Content-Disposition: attachment; filename=revlist-ad50fcab1731-0b20aebdd3f6.txt
 
 c39de951282df9a60ef70664e4378d88006b2670 fs/ntfs3: Improve alternative boot processing
 22457c047ed971f2f2e33be593ddfabd9639a409 fs/ntfs3: Modified fix directory element type detection
@@ -350,6 +350,8 @@ a5b6244cf87c50358f5562b8f07f7ac35fc7f6b0 Merge tag 'block-6.8-2024-02-10' of git
 c021e191cf3da2fea766d784546f4c5acbfcd137 Merge tag 'x86_urgent_for_v6.8_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2766f59ca44e517a1d6226979c784b026f0e89c2 Merge tag 'timers_urgent_for_v6.8_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 841c35169323cd833294798e58b9bf63fa4fa1de Linux 6.8-rc4
-5dc6bdd91324628a3e93d8cda217cb0d26c8b818 Merge tag 'v6.8-rc4'
+5d4e63bb0cf061a6f8ef895c41974ac83ab7c304 m68k: atari: usb: Add ISP1160 USB host controller support
+4d2070470a9853ae0b13450f4f89d3d778de6bc4 m68k: atari: Update Kconfig.bus help text
+0b20aebdd3f6b269507694b2fd905e28013b1f65 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8660089155403765676==--
+--===============7716904516570556671==--
