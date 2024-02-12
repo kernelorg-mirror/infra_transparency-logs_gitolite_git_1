@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 12 Feb 2024 18:15:39 -0000
-Message-Id: <170776173933.5119.7450510073764981901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Mon, 12 Feb 2024 18:25:37 -0000
+Message-Id: <170776233762.11784.7808894626418713886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/100GbE
-    old: 5d81af0207176329da19e031987697cf05a2e821
-    new: 5b3fbd61b9d1f4ed2db95aaf03f9adae0373784d
+  - ref: refs/heads/testme
+    old: b595e4f765a03dac24d46fc8ff19365e75967539
+    new: f1423564fd426c134f00c77dd0f97e350f1d2f41
+    log: |
+         f6a1892585cd19e63c4ef2334e26cd536d5b678d x86/Kconfig: Transmeta Crusoe is CPU family 5, not 6
+         15d59300ac706c5e1d95ab867ff5734ddae92c67 x86/bugs: Add asm helpers for executing VERW
+         cbe72ed2412c1e8b6c99600c9db1f148c48fa453 x86/entry_64: Add VERW just before userspace transition
+         a67d262a840e0cc2daf4b55940f4a318b831d911 x86/entry_32: Add VERW just before userspace transition
+         2e428f24fc2a2a3e061cccbfea08bc105899b15c x86/bugs: Use ALTERNATIVE() instead of mds_user_clear static key
+         e1920bd6fa76385fbfaf27f5460b60ad1d4c1b9b KVM/VMX: Use BT+JNC, i.e. EFLAGS.CF to select VMRESUME vs. VMLAUNCH
+         f1423564fd426c134f00c77dd0f97e350f1d2f41 KVM/VMX: Move VERW closer to VMentry for MDS mitigation
+         
