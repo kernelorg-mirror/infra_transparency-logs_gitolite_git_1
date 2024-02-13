@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7761883934371859164=="
+Content-Type: multipart/mixed; boundary="===============9171436595079466992=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 13 Feb 2024 04:07:27 -0000
-Message-Id: <170779724739.20451.221043275665140931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 13 Feb 2024 04:07:36 -0000
+Message-Id: <170779725696.20642.14793275104067187692@gitolite.kernel.org>
 
---===============7761883934371859164==
+--===============9171436595079466992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: ae00c445390b349e070a64dc62f08aa878db7248
     new: 46d4e2eb58e14c8935fa0e27d16d4c62ef82849a
     log: revlist-ae00c445390b-46d4e2eb58e1.txt
-  - ref: refs/heads/stable
-    old: 841c35169323cd833294798e58b9bf63fa4fa1de
-    new: 716f4aaa7b48a55c73d632d0657b35342b1fefd7
-    log: |
-         853b8d7597eea4ccaaefbcf0942cd42fc86d542a remap_range: merge do_clone_file_range() into vfs_clone_file_range()
-         46f5ab762d048dad224436978315cbc2fa79c630 fs: relax mount_setattr() permission checks
-         716f4aaa7b48a55c73d632d0657b35342b1fefd7 Merge tag 'vfs-6.8-rc5.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-         
-  - ref: refs/tags/next-20231113
-    old: 4d33b680dbd5ff9ad5cb1d9fa1fe5d40aaf00e47
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240213
     old: 0000000000000000000000000000000000000000
     new: 7dcd65e975e4ddd2f0b192037b3cdc1011a3431d
 
---===============7761883934371859164==
+--===============9171436595079466992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -753,4 +742,4 @@ e963293e14595f6aa3d62e8446db59280978f9a9 Merge branch 'bitmap-for-next' of https
 048abb25f20c624afd60a8e2aacefae830f8f7ba fixup for "drm/amd: Stop evicting resources on APUs in suspend"
 46d4e2eb58e14c8935fa0e27d16d4c62ef82849a Add linux-next specific files for 20240213
 
---===============7761883934371859164==--
+--===============9171436595079466992==--
