@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 13 Feb 2024 22:53:23 -0000
-Message-Id: <170786480339.14438.3522498853824360096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 13 Feb 2024 23:00:44 -0000
+Message-Id: <170786524495.20380.15226366798470436113@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/next
-    old: 02c801376bdd3dc9bcfae46ea9db382611f7612a
-    new: 2439e5bddb4e8b693402566aed25d58abc30e652
+  - ref: refs/heads/master
+    old: 42b4da1be2cfd5017273ec0cfa379b73aaaaaf77
+    new: 6315b4286184257c5de05b12916b61536b48904a
     log: |
-         ff3206d2186d84e4f77e1378ba1d225633f17b9b mmc: core: Fix eMMC initialization with 1-bit bus connection
-         2439e5bddb4e8b693402566aed25d58abc30e652 mmc: Merge branch fixes into next
+         6315b4286184257c5de05b12916b61536b48904a netdev: use reason code from netdev_deauthenticate_event
          
-  - ref: refs/tags/v6.8-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 251168394b084796bcd8f3e3655f2eb38c524ea3
