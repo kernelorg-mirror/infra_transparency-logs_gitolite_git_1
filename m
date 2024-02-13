@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Tue, 13 Feb 2024 14:44:35 -0000
-Message-Id: <170783547586.26365.2965429201587551132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 13 Feb 2024 14:45:13 -0000
+Message-Id: <170783551354.28320.1918128485249182918@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/mediatek-cmdq8
-    old: 572ee20058cf30ec608e6009421d89e45a6b6f5e
-    new: 9e8c60c505a0820c8e4cb1d59feac5ba43c99db2
+  - ref: refs/heads/main
+    old: 400909df6e6543cb5cce3db9bbcd413d59125327
+    new: 32c7eec21c11e149a9195cf0d48cc530d1e5a637
     log: |
-         9e8c60c505a0820c8e4cb1d59feac5ba43c99db2 media: platform: mtk-mdp3: use cmdq_pkt_eoc() and cmdq_pkt_nop() to replace cmdq_pkt_finalize()
+         32c7eec21c11e149a9195cf0d48cc530d1e5a637 net: sched: codel replace GPLv2/BSD boilerplate
          
