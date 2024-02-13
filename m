@@ -1,26 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 13 Feb 2024 18:44:45 -0000
-Message-Id: <170784988547.24741.7063495989103164939@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1667374665737742524=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 13 Feb 2024 18:56:37 -0000
+Message-Id: <170785059719.1487.15226163994091718507@gitolite.kernel.org>
+
+--===============1667374665737742524==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 8f44e3808200c1434c26ef459722f88f48b306df
-    new: 269e31aecdd0b70f53a05def79480f15cbcc0fd6
+  - ref: refs/heads/master
+    old: 1d8c58b15facf490336e0146aaabb1c5194bf733
+    new: b7ccd0f51896e38b995fe0e36f2388f65535593c
     log: |
-         269e31aecdd0b70f53a05def79480f15cbcc0fd6 spi-mxs: Fix chipselect glitch
+         b7ccd0f51896e38b995fe0e36f2388f65535593c ez: fall back to regular merge-base if --fork-point mode fails
          
-  - ref: refs/heads/for-next
-    old: 7bf8e2dd6d5c5732edb50749183df4952127ea8a
-    new: 66b76d9aabb2a7826c1a4d4e0ce99b6f55b88a55
-    log: |
-         269e31aecdd0b70f53a05def79480f15cbcc0fd6 spi-mxs: Fix chipselect glitch
-         66b76d9aabb2a7826c1a4d4e0ce99b6f55b88a55 Merge remote-tracking branch 'spi/for-6.9' into spi-next
-         
+
+--===============1667374665737742524==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1707850596 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1707850596-5114a750bf64da269d10f57a96b5563426c24fe0
+
+1d8c58b15facf490336e0146aaabb1c5194bf733 b7ccd0f51896e38b995fe0e36f2388f65535593c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZcu7ZAAKCRC2xBzjVmSZ
+bMu0AP9zfDgl8yyUSDCOBgkVX336GdKZXe89/WrT/7l+D4jZsQEA8NuT7wetAyfb
+J54Abxj6EjrVB29ElSSyepbB/gp0yA4=
+=X7gJ
+-----END PGP SIGNATURE-----
+
+--===============1667374665737742524==--
