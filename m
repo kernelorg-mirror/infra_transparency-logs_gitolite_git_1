@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3855970691709264374=="
+Content-Type: multipart/mixed; boundary="===============0920150018535603039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 13 Feb 2024 22:09:16 -0000
-Message-Id: <170786215636.14409.18399494201048648747@gitolite.kernel.org>
+Date: Tue, 13 Feb 2024 22:09:23 -0000
+Message-Id: <170786216310.14526.7796702636308982517@gitolite.kernel.org>
 
---===============3855970691709264374==
+--===============0920150018535603039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-vdo-wip
+  - ref: refs/heads/for-next
     old: 00a456844c5c22d2bd74103b44a95c3985a58f4a
     new: d8b06afcd517da56800397344c8a2f7f7293f2c8
     log: revlist-00a456844c5c-d8b06afcd517.txt
 
---===============3855970691709264374==
+--===============0920150018535603039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ d341dc2034eef4da527d2d87e317b3139fbd6109 dm vdo permassert: audit all of ASSERT 
 3ba7fd80bbe31a039522e296245e5c09f57c40f4 dm vdo encodings: update some stale comments
 d8b06afcd517da56800397344c8a2f7f7293f2c8 dm vdo target: eliminate inapropriate uses of UDS_SUCCESS
 
---===============3855970691709264374==--
+--===============0920150018535603039==--
