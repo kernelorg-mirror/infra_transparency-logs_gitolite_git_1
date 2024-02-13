@@ -1,16 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 13 Feb 2024 18:29:48 -0000
-Message-Id: <170784898884.12492.15274782492004448098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 13 Feb 2024 18:30:44 -0000
+Message-Id: <170784904478.14584.16602137003511032352@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/dlserver-feb-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 15e0f8d8cfadf9d2a110e37f510ff53a970a64c8
+  - ref: refs/heads/1GbE
+    old: 0f37666d87d2dea42ec21776c3d562b7cbd71612
+    new: d059a37286a85db786d677c41bd77608d4744d83
+    log: |
+         f25e7b82635f59af87bd720bbb8c2ea19e8e0f67 net/mlx5e: link NAPI instances to queues and IRQs
+         a3522a2edb3faf8cb98d38c2a99f5967beef24e2 ipv4: Set the routing scope properly in ip_route_output_ports().
+         6256fbfd651c8b3653b7f1cfe08e635404e4b51d net: stmmac: Simplify mtl IRQ status checking
+         86fe596b588fc9ec23bf93a5c8f86fc16225dd3a net: sched: Remove NET_ACT_IPT from Kconfig
+         400909df6e6543cb5cce3db9bbcd413d59125327 r8169: simplify code by using core-provided pcpu stats allocation
+         32c7eec21c11e149a9195cf0d48cc530d1e5a637 net: sched: codel replace GPLv2/BSD boilerplate
+         bed90b06b6812d9c8c848414b090ddf38f0e6cc1 net: phy: aquantia: clear PMD Global Transmit Disable bit during init
+         d059a37286a85db786d677c41bd77608d4744d83 igc: Add support for LEDs on i225/i226
+         
