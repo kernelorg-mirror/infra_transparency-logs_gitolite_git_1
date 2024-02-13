@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0143115269736845201=="
+Content-Type: multipart/mixed; boundary="===============4765579762685802070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 13 Feb 2024 01:55:35 -0000
-Message-Id: <170778933545.20925.6146514641749346990@gitolite.kernel.org>
+Date: Tue, 13 Feb 2024 01:55:39 -0000
+Message-Id: <170778933985.21021.2978618048337790794@gitolite.kernel.org>
 
---===============0143115269736845201==
+--===============4765579762685802070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 211d3e06305cbc17a21a6f26556bf66fc338fb50
-    new: 22b80a7505e72c8975d7d3d42d7399be2e44900e
-    log: revlist-211d3e06305c-22b80a7505e7.txt
+  - ref: refs/heads/6.9/scsi-queue
+    old: 3f90ac7138edb995b4312221647b58afcc15ec06
+    new: 4ad9465365378d696545a337c4b1a28277de84d7
+    log: revlist-3f90ac7138ed-4ad946536537.txt
 
---===============0143115269736845201==
+--===============4765579762685802070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1707789323 -0500
+pusher 75C5DE3D 1707789338 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1707789323-5271d677609d78a00b39ea653f7213a8e376c084
+nonce 1707789338-0f27ef5287947141f7febcf622db918986c74b63
 
-211d3e06305cbc17a21a6f26556bf66fc338fb50 22b80a7505e72c8975d7d3d42d7399be2e44900e refs/tags/mkp-scsi-queue
+3f90ac7138edb995b4312221647b58afcc15ec06 4ad9465365378d696545a337c4b1a28277de84d7 refs/heads/6.9/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmXKzAsACgkQ7ulgGnXF
-3j0icxAAiXEc5gVB6oJZkWDs5lA1GWcFdHICAsrHUQRkVmKbv0tGQi2hDu0Pk3ZJ
-7L9i/kC7TG0iesk61cq0+PRAXiB/IBSneJzkW0M3wuzOwVvjsJw9LFEacVLGL2KS
-u3u42KmOdqN7tPc2Nc6VR1X9hbH/xdQKd4NEBb2ty+jt7fezv++BTNbMWg1f/CL3
-WWbOldL8Kfoqus4HesM5lYsFsowba3y9Av4efeNOReg9qiAZXQZqWeiT1oQmJvcM
-+LKhlUtZSi+FoZUnsjbmgwfI1gpf5QEvR8dOQI0vLimg35zAuqGB8J6ygiNhfpXd
-4WWHlm4E1GmvjSo40fOEyu4n9uTPuF1iN2eBHBjkEA4CImRS8fef/jcWB4RynYTf
-XrH/T6D4u88QVeNBxmc6MiQTFCMCoIyGAU47gWhCl5LKZvRGHMWsMAamLR7HfGYq
-CRg5En17PrankPiQYjj6+R7V7hO5Z0ie9ke1YwOxLvCcYl0IBSU5yaWeDvui/gcJ
-904wkKh7BiKQ+Xx/nf02Wu94wIVVx7W+hIKDeupSGFCifK72e8aowfLn/AyKV0FL
-imiKPtM0HwmFZFWqH9GVW9kpxcreYi+6AoP8wd8KuKiyQspCMG7rcFG5RS0FWZdf
-0fPKCpJKphSY7qYGU2Z49yJX/Y0u4xkMKAfQQWzKsYDOShHh3KA=
-=Cnn0
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmXKzBoACgkQ7ulgGnXF
+3j0N/xAArp8yqDQi8RBa7uuQuvI6YL1wC+ciT4WsnUqfLpFCmEaj0AxBMMAMTsU1
+M2ie1LO4U0GZhWD/8+k6UNyzOo2Bh7FFRfHVhl/959HqKwqlnceqGDmfgEE+lQw/
+wY6RIwERPw6mFB+fhXFRhjnr1F6p5Ej9sA6w//NvE+UjCFSolwouUBHVaA7lZ6Yc
+0Syu5vpKXxjpu6Njtzohz5QaqwSCQVqOkRz9tzh0lrc//JbaGUf2Sj9VTCrlEOnF
+LMeHuj5KO29lehPYoyqrGVygnz5NBnnt0IHke+GZlQJ4TNT3qLhZHBGkxAPYR7L+
+LpTbz6lIBSJZCeqTUYuBw9whdHurdh2P31os7BepHt+e/83V0wPeUAmKnitPadwI
+xJT8ypzFrQEWQj8zJuDo+kGlprZK5b7ed5MaUzc3gLY6+hqfCoWXdTE2Skod/lVJ
+6nPBXcXX/QnMCd/2dpWXPU+ioRmlbB/lvLNUo/9te96fDqdNeIrjRfWSPNcQi4n/
+ai6ASYwixhzl5P/xo6qitHcdeAiqGhSNLVrE6vUuLvWd7CetVSlIY8+Dc5Yd2p86
+cxi5Z1Egacm+tzdQ6OnPgSjIyGACgJ0C/FC3qxq8i/XMN9oIGw7V/kwgACerNw7o
+vSQXp3LAF6il3m+EGfYKHdjlo9BTW+h89VSVrnusXC6jZmi3ke4=
+=53YK
 -----END PGP SIGNATURE-----
 
---===============0143115269736845201==
+--===============4765579762685802070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-211d3e06305c-22b80a7505e7.txt
+Content-Disposition: attachment; filename=revlist-3f90ac7138ed-4ad946536537.txt
 
 3d0f9342ae200aa1ddc4d6e7a573c6f8f068d994 scsi: lpfc: Initialize status local variable in lpfc_sli4_repost_sgl_list()
 2ae917d4bcab80ab304b774d492e2fcd6c52c06b scsi: lpfc: Fix possible memory leak in lpfc_rcv_padisc()
@@ -79,4 +79,4 @@ ea4044e4dd0d0cea5cc476c7d4857425e793b7e1 scsi: lpfc: Copyright updates for 14.4.
 ac0dd0f33adb804b8301ae415a91f56f97f40bae scsi: scsi_debug: Make pseudo_lld_bus const
 4ad9465365378d696545a337c4b1a28277de84d7 scsi: target: tcm_loop: Make tcm_loop_lld_bus const
 
---===============0143115269736845201==--
+--===============4765579762685802070==--
