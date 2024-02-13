@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 13 Feb 2024 10:19:05 -0000
-Message-Id: <170781954532.8776.12220742320607403810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 13 Feb 2024 10:22:55 -0000
+Message-Id: <170781977595.11749.3857643232084659153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/irq/core
-    old: e955a71f83598a347eb45af5576e7eb6cb5bf285
-    new: ee4c1592b7e9a5bf89b962d7afd7e9b04c8d16ee
+  - ref: refs/heads/main
+    old: f1acf1ac84d2ae97b7889b87223c1064df850069
+    new: 8929f95b2b587791a7dcd04cc91520194a76d3a6
     log: |
-         ee4c1592b7e9a5bf89b962d7afd7e9b04c8d16ee irqchip/gic-v3-its: Remove usage of the deprecated ida_simple_xx() API
+         8929f95b2b587791a7dcd04cc91520194a76d3a6 connector/cn_proc: revert "connector: Fix proc_event_num_listeners count not cleared"
          
