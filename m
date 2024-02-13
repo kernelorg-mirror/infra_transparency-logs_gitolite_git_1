@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 13 Feb 2024 10:31:23 -0000
-Message-Id: <170782028350.18274.8134329561697964673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 13 Feb 2024 10:35:42 -0000
+Message-Id: <170782054220.21450.16292766950622782405@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-6.8/upstream-fixes
-    old: 1741a8269e1c51fa08d4bfdf34667387a6eb10ec
-    new: bdab6c94bb24758081625e619330b04cfd56570a
+  - ref: refs/heads/main
+    old: 8929f95b2b587791a7dcd04cc91520194a76d3a6
+    new: 25236c91b5ab4a26a56ba2e79b8060cf4e047839
     log: |
-         bdab6c94bb24758081625e619330b04cfd56570a HID: Intel-ish-hid: Ishtp: Fix sensor reads after ACPI S3 suspend
-         
-  - ref: refs/heads/for-next
-    old: 014b1b943c4f41c2e618cc5525df9052e069f3b9
-    new: f5106f9b7c965fc7ebdce6d74c9830544bae35d1
-    log: |
-         bdab6c94bb24758081625e619330b04cfd56570a HID: Intel-ish-hid: Ishtp: Fix sensor reads after ACPI S3 suspend
-         f5106f9b7c965fc7ebdce6d74c9830544bae35d1 Merge branch 'for-6.8/upstream-fixes' into for-next
+         25236c91b5ab4a26a56ba2e79b8060cf4e047839 af_unix: Fix task hung while purging oob_skb in GC.
          
