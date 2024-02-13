@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 13 Feb 2024 01:40:44 -0000
-Message-Id: <170778844410.10533.10300727295283608620@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Tue, 13 Feb 2024 01:43:22 -0000
+Message-Id: <170778860275.11539.2605380096655224808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: oupton
 changes:
-  - ref: refs/heads/main
-    old: 2f74258d997c8b93627041d94daa265b5f0d1b4d
-    new: 9f30831390ede02d9fcd54fd9ea5a585ab649f4a
+  - ref: refs/heads/next
+    old: 680f749c272378a796388a3244bab53b5a952d67
+    new: 160ab417fdd087ba80d4a3e9274afb1c5eabca0d
     log: |
-         3e36031cc0540ca97b615cbb940331892cbd3d21 pds_core: no health-thread in VF path
-         9f30831390ede02d9fcd54fd9ea5a585ab649f4a net: add rcu safety to rtnl_prop_list_size()
+         8cdc71fbf65567dca6f52aac206d91754ad55147 KVM: selftests: Print timer ctl register in ISTATUS assertion
+         160ab417fdd087ba80d4a3e9274afb1c5eabca0d Merge branch kvm-arm64/misc into kvmarm/next
          
