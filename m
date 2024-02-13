@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3294306018281646228=="
+Content-Type: multipart/mixed; boundary="===============3474534089724496298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 13 Feb 2024 18:30:56 -0000
-Message-Id: <170784905614.14704.11432395123205784401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 13 Feb 2024 18:31:03 -0000
+Message-Id: <170784906310.14843.13328394760502987536@gitolite.kernel.org>
 
---===============3294306018281646228==
+--===============3474534089724496298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/asoc-6.8
     old: fcbe4873089c84da641df75cda9cac2e9addbb4b
     new: 9dbe95e28ff1473837a2838d621c75d365a13822
     log: |
@@ -24,7 +24,7 @@ changes:
          b029482011bffd57319507c2bf4c5a7e06eca756 ASoC: SOF: Intel: pci-lnl: Change the topology path to intel/sof-ipc4-tplg
          9dbe95e28ff1473837a2838d621c75d365a13822 ASoC: SOF: Intel: pci-tgl/lnl: Change default paths
          
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/asoc-6.9
     old: d0611f617d823a87f04186ad165e2990208c040b
     new: e49676a5fc83e5d396f45ce4b90ca9c44736c69a
     log: |
@@ -34,29 +34,29 @@ changes:
          e49676a5fc83e5d396f45ce4b90ca9c44736c69a ASoC: SOF: ipc4-topology: set config_length based on device_count
          
 
---===============3294306018281646228==
+--===============3474534089724496298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1707849054 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1707849053-b9a41f15514e20ca91a782d89cb416dd0f999a47
+pusher C3F436CA30F5D8EB 1707849061 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1707849060-4ce6596b171bb55555cdaae0ae203e8758f928db
 
-fcbe4873089c84da641df75cda9cac2e9addbb4b 9dbe95e28ff1473837a2838d621c75d365a13822 refs/heads/for-6.8
-d0611f617d823a87f04186ad165e2990208c040b e49676a5fc83e5d396f45ce4b90ca9c44736c69a refs/heads/for-6.9
+fcbe4873089c84da641df75cda9cac2e9addbb4b 9dbe95e28ff1473837a2838d621c75d365a13822 refs/heads/asoc-6.8
+d0611f617d823a87f04186ad165e2990208c040b e49676a5fc83e5d396f45ce4b90ca9c44736c69a refs/heads/asoc-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXLtV4ACgkQJNaLcl1U
-h9ARvAf8De/NXvdXG0X9xLA8MQIGFgpjYriOHESYT5DQNmi8QVHqNOj4cyEw4RlJ
-SAsT5WqoUeMg7CkfTY3j7sccv/XjKF18DPaNQ0q7+ZgNBJmwnniCtJQTQp2SOehM
-NoaQHDg7p3CreDx0L8QpEvqkvbtZIW0cVXJGdxqW+8y5P26put9EW0XOYmlbDcTw
-yr9IAcCp14DTgehYd3Ha10s57iIieOGrFpEXkqT0vXtt1cWSaIu4Wydow8NRnpM0
-4J19SBBOHhqZVS94w9DUzkeAccFzsTA1FSvMhiw6Z081fBg0beueAHVY6RJVsYCx
-bZApdq0pnwORPspkdWGH0R4aJcJBNA==
-=of/2
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXLtWUACgkQJNaLcl1U
+h9Dotgf/W2qLjWthvJFATjYV7IpH2GCvXFectp5TZ7KQNy4P3oSN7IG6nGw5H1R6
+Tgo9zI/OOoDX8bEMtzpgy3FdhcJd5YIQ7XM2sZ1SlljlShKIAXMwOOam15YEt2YM
+/3QqDMweNI8yxfTMkH2phuaX9CQIDNpOyqfqoYpRaRzu+QJDGLWn9kX50cKkw0G0
+HjC18cftJTKbcb5wwk6NXDknSmUoBupc05/5UnWIDa8WluLuH7Z+KFyMlRVVnNr0
+U940mhjsmyMAHzlU9fH4PcAj6dRV+J7KtXdXK0w1VHWnG/Rt24ZDmuOL4hbwNuNg
+dLsMOHWyD10kjVJDoK+0s3IJGpx+HA==
+=eCNM
 -----END PGP SIGNATURE-----
 
---===============3294306018281646228==--
+--===============3474534089724496298==--
