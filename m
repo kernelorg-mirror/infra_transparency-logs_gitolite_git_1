@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 13 Feb 2024 23:00:44 -0000
-Message-Id: <170786524495.20380.15226366798470436113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 13 Feb 2024 23:07:43 -0000
+Message-Id: <170786566367.25769.16260145288703190448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 42b4da1be2cfd5017273ec0cfa379b73aaaaaf77
-    new: 6315b4286184257c5de05b12916b61536b48904a
-    log: |
-         6315b4286184257c5de05b12916b61536b48904a netdev: use reason code from netdev_deauthenticate_event
-         
+  - ref: refs/tags/sent/20240129-arm64-sme-resume-3266150292b6-v3
+    old: 0000000000000000000000000000000000000000
+    new: 320809fd085f458b53349ae290868dc404d23e90
