@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 13 Feb 2024 01:38:54 -0000
-Message-Id: <170778833436.8199.2685974200299310115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 13 Feb 2024 01:40:44 -0000
+Message-Id: <170778844410.10533.10300727295283608620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f25e7b82635f59af87bd720bbb8c2ea19e8e0f67
-    new: a3522a2edb3faf8cb98d38c2a99f5967beef24e2
+    old: 2f74258d997c8b93627041d94daa265b5f0d1b4d
+    new: 9f30831390ede02d9fcd54fd9ea5a585ab649f4a
     log: |
-         a3522a2edb3faf8cb98d38c2a99f5967beef24e2 ipv4: Set the routing scope properly in ip_route_output_ports().
+         3e36031cc0540ca97b615cbb940331892cbd3d21 pds_core: no health-thread in VF path
+         9f30831390ede02d9fcd54fd9ea5a585ab649f4a net: add rcu safety to rtnl_prop_list_size()
          
