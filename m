@@ -1,22 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Tue, 13 Feb 2024 05:49:40 -0000
-Message-Id: <170780338064.28212.1231239628206019518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Tue, 13 Feb 2024 06:48:25 -0000
+Message-Id: <170780690567.5560.17986817851556231703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/riscv-pending
-    old: 08ab68831e0b8c88ac6ebb39a3c4c97e69ad8e2f
-    new: 84db81e8bb9cd8be6f6c551178df7f3a390cd21c
+  - ref: refs/heads/master-pending
+    old: 94066d7e663208eb331821601533b1f16a6b4766
+    new: a0f5e27988aadc7ad738b316a952d6cc657fd542
     log: |
-         df7f3237bd9b58e4f42dac0e433e8359ec638858 crypto: riscv - add vector crypto accelerated AES-CBC-CTS
-         45844891e41aa1c726d5c8254deed1264028a233 RISC-V: fix check for zvkb with tip-of-tree clang
-         ae369bdc9bd62e708929be1b199ee1138d3590b6 RISC-V: Drop invalid test from CONFIG_AS_HAS_OPTION_ARCH
-         84db81e8bb9cd8be6f6c551178df7f3a390cd21c kbuild: Add -Wa,--fatal-warnings to as-instr invocation
+         2e6697cfcc1ab88af5ef215b677fb9b72a4f287f wifi: carl9170: Remove redundant assignment to pointer super
+         0372f22785611804b2472620ef9aa395e07d5a11 wifi: ath12k: Do not use scan_flags from struct ath12k_wmi_scan_req_arg
+         99c101b6ef156add24fe521e640949d10557978d wifi: ath12k: Remove unused scan_flags from struct ath12k_wmi_scan_req_arg
+         5936628a562d1708e69c12c1a750e543bc4acbf8 wifi: ath12k: remove the unused scan_events from ath12k_wmi_scan_req_arg
+         a0f5e27988aadc7ad738b316a952d6cc657fd542 Merge branch 'pending' into master-pending
          
+  - ref: refs/heads/pending
+    old: cfd26dd2db06a67d396dbfcf39b2c034f67b9503
+    new: 5936628a562d1708e69c12c1a750e543bc4acbf8
+    log: |
+         2e6697cfcc1ab88af5ef215b677fb9b72a4f287f wifi: carl9170: Remove redundant assignment to pointer super
+         0372f22785611804b2472620ef9aa395e07d5a11 wifi: ath12k: Do not use scan_flags from struct ath12k_wmi_scan_req_arg
+         99c101b6ef156add24fe521e640949d10557978d wifi: ath12k: Remove unused scan_flags from struct ath12k_wmi_scan_req_arg
+         5936628a562d1708e69c12c1a750e543bc4acbf8 wifi: ath12k: remove the unused scan_events from ath12k_wmi_scan_req_arg
+         
+  - ref: refs/tags/ath-pending-202402130646
+    old: 0000000000000000000000000000000000000000
+    new: a0f5e27988aadc7ad738b316a952d6cc657fd542
