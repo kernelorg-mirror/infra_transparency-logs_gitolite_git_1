@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 13 Feb 2024 01:37:55 -0000
-Message-Id: <170778827540.7768.5244488812457653427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 13 Feb 2024 01:38:54 -0000
+Message-Id: <170778833436.8199.2685974200299310115@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: c2b3ec36b422a331e153a9e40d14adcf82685cee
-    new: 2f74258d997c8b93627041d94daa265b5f0d1b4d
+    old: f25e7b82635f59af87bd720bbb8c2ea19e8e0f67
+    new: a3522a2edb3faf8cb98d38c2a99f5967beef24e2
     log: |
-         1692b9775e745f84b69dc8ad0075b0855a43db4e net: stmmac: xgmac: use #define for string constants
-         2f74258d997c8b93627041d94daa265b5f0d1b4d ionic: minimal work with 0 budget
+         a3522a2edb3faf8cb98d38c2a99f5967beef24e2 ipv4: Set the routing scope properly in ip_route_output_ports().
          
