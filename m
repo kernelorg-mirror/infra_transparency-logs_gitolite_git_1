@@ -1,55 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Tue, 13 Feb 2024 11:58:45 -0000
-Message-Id: <170782552542.16881.15640486551554555389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
+Date: Tue, 13 Feb 2024 12:01:59 -0000
+Message-Id: <170782571930.19773.2850829048840032742@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/jirislaby/linux
+user: jirislaby
 changes:
-  - ref: refs/heads/main
-    old: fdac0d7ee2301f9a2b8e9cd4229014cb6d1cb80a
-    new: f681194b57c406d655e45564fb2b49f823015bc8
+  - ref: refs/heads/devel
+    old: 894d15cec14be2b95c5ee0930b7873d7547e67a9
+    new: df443cdf9662acf3b90794e0caedc27e873ebb5a
     log: |
-         f681194b57c406d655e45564fb2b49f823015bc8 Fix mistake in crypt_set_keyring_to_link documentation.
+         a0ebafe2b66cf38aab396413cef65073444066bf i915: remove intel_vbt_panel_data::edp::initialized
+         d5770d62773b6ee4ef6bba482ca18abd89720746 i915: remove intel_dsi::port_bits and ::hs
+         45cd43a76d8fb6ac157c31ce2cc2505112d5373b i915: remove unused intel_dvo_dev_ops hooks
+         076abb972fd17fe91b548888c76b34f6d39afa52 i915: remove intel_guc::ads_engine_usage_size
+         737d4aa3aa80ec51d7e900dcb8875318f757ff39 i915_drm_client::id
+         6b2405a7119242fc169f6bb446f8f6d33e9d553c i915_perf_stream::size_exponent
+         df443cdf9662acf3b90794e0caedc27e873ebb5a BRANCH_MARKER: work
          
-  - ref: refs/heads/master
-    old: fdac0d7ee2301f9a2b8e9cd4229014cb6d1cb80a
-    new: f681194b57c406d655e45564fb2b49f823015bc8
-    log: |
-         f681194b57c406d655e45564fb2b49f823015bc8 Fix mistake in crypt_set_keyring_to_link documentation.
-         
-  - ref: refs/merge-requests/420/merge
-    old: 87c43c82ea797b85bf73e095d10a270dfd020285
-    new: 83e7c30c81f47872f1a608cbbea50d1e78b5157a
-    log: |
-         fdac0d7ee2301f9a2b8e9cd4229014cb6d1cb80a cryptsetup.spec: drop libargon2 in favour of openssl implementation.
-         f681194b57c406d655e45564fb2b49f823015bc8 Fix mistake in crypt_set_keyring_to_link documentation.
-         83e7c30c81f47872f1a608cbbea50d1e78b5157a Merge branch 'xchacha20-random' into 'main'
-         
-  - ref: refs/merge-requests/590/merge
-    old: dd214d765cbe6fbe0772b87cc5ec5822c8cce020
-    new: 85ac9749ac8b4c113213a7c6de3cc37b8f81bb1e
-    log: |
-         fdac0d7ee2301f9a2b8e9cd4229014cb6d1cb80a cryptsetup.spec: drop libargon2 in favour of openssl implementation.
-         85ac9749ac8b4c113213a7c6de3cc37b8f81bb1e Merge branch 'keyring' into 'main'
-         
-  - ref: refs/heads/argon2-include
-    old: 0000000000000000000000000000000000000000
-    new: a6d9dc0a16b8896e9f4148a7761b922567698469
-  - ref: refs/merge-requests/603/head
-    old: 0000000000000000000000000000000000000000
-    new: f681194b57c406d655e45564fb2b49f823015bc8
-  - ref: refs/merge-requests/603/merge
-    old: 0000000000000000000000000000000000000000
-    new: 4ae5c8357f58a0f6ae4507a1c193a9cb82ccd913
-  - ref: refs/merge-requests/604/head
-    old: 0000000000000000000000000000000000000000
-    new: a6d9dc0a16b8896e9f4148a7761b922567698469
-  - ref: refs/merge-requests/604/merge
-    old: 0000000000000000000000000000000000000000
-    new: b161432b98cb109838ca4f7c6e37d983d8a51eca
