@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4472941710878408031=="
+Content-Type: multipart/mixed; boundary="===============6761676879571783359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Tue, 13 Feb 2024 08:46:59 -0000
-Message-Id: <170781401953.25706.14521278413596559714@gitolite.kernel.org>
+Date: Tue, 13 Feb 2024 08:47:42 -0000
+Message-Id: <170781406261.26008.6867921461427946269@gitolite.kernel.org>
 
---===============4472941710878408031==
+--===============6761676879571783359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/amlogic/linux
 user: narmstrong
 changes:
-  - ref: refs/heads/v6.9/arm64-dt
-    old: 507b3e756ffcb174d383dd05df5084aed9bb6d14
-    new: 9225771676d14673acd225a48eaa49ef3998af41
-    log: revlist-507b3e756ffc-9225771676d1.txt
+  - ref: refs/heads/for-next
+    old: 0dd3ee31125508cd67f7e7172247f05b7fd1753a
+    new: c1fd40a190058e2743f2c100111b8367b1527289
+    log: revlist-0dd3ee311255-c1fd40a19005.txt
 
---===============4472941710878408031==
+--===============6761676879571783359==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-507b3e756ffc-9225771676d1.txt
+Content-Disposition: attachment; filename=revlist-0dd3ee311255-c1fd40a19005.txt
 
-fd37721803c6e73619108f76ad2e12a9aa5fafaf mm, treewide: introduce NR_PAGE_ORDERS
 5e0a760b44417f7cadd79de2204d6247109558a0 mm, treewide: rename MAX_ORDER to MAX_PAGE_ORDER
 e900042f04848b5be9238d866df0952cfc548cf9 Merge tag 'x86_sev_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bef91c28f28fe8a36b91e9a39f60054ae1874280 Merge tag 'x86_cpu_for_v6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1050,5 +1049,6 @@ d1159418fbd5880d3285f4797d3f11eeaf6d0d42 arch: arm64: dts: meson: a1: add assign
 7c3215fe05fe3b8faacc03245cc922c4b98075d7 arm64: dts: amlogic: axg: move cpu cooling-cells to common dtsi
 a06d4fdec1ce800188bec15c0219d6774dd145f8 arm64: dts: amlogic: axg: initialize default SoC capacitance
 9225771676d14673acd225a48eaa49ef3998af41 arm64: dts: amlogic: t7: minor whitespace cleanup
+c1fd40a190058e2743f2c100111b8367b1527289 Merge branch 'v6.9/arm64-dt' into for-next
 
---===============4472941710878408031==--
+--===============6761676879571783359==--
