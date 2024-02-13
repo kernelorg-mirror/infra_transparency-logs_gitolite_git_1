@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5243894349530815403=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 13 Feb 2024 09:15:00 -0000
-Message-Id: <170781570068.13011.6231669616502516379@gitolite.kernel.org>
-
---===============5243894349530815403==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Tue, 13 Feb 2024 09:15:12 -0000
+Message-Id: <170781571214.14754.16257610026556381040@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/master
-    old: fdd137f8b3924679df6bb4e361ba228b9fe7d12b
-    new: 76b07a5b607a7a5c7e44630660d9cdf16c5c2fd6
+  - ref: refs/heads/linux-next
+    old: 841c35169323cd833294798e58b9bf63fa4fa1de
+    new: fa765c4b4aed2d64266b694520ecb025c862c5a9
     log: |
-         76b07a5b607a7a5c7e44630660d9cdf16c5c2fd6 bippy: support tags better
+         7d8c67dd5d4f2ed1907e192c73dd948d35145641 xen/xenbus: document will_handle argument for xenbus_watch_path()
+         3693bb4465e6e32a204a5b86d3ec7e6b9f7e67c2 x86/xen: Add some null pointer checking to smp.c
+         b2c52b8c128ea07f1632c516cec0d72cb63b5599 xen/privcmd: Use memdup_array_user() in alloc_ioreq()
+         2528dcbea94496f080aad9311327baedc11831d7 xen: pcpu: make xen_pcpu_subsys const
+         b0f2f82c9c16427722b8782371c2efe82b1f815c xen: balloon: make balloon_subsys const
+         bf5802238dc181b1f7375d358af1d01cd72d1c11 xen/gntalloc: Replace UAPI 1-element array
+         fa765c4b4aed2d64266b694520ecb025c862c5a9 xen/events: close evtchn after mapping cleanup
          
-
---===============5243894349530815403==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1707815697 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1707815697-130341f5d665b4715615e09b8e665c4343bc0bf1
-
-fdd137f8b3924679df6bb4e361ba228b9fe7d12b 76b07a5b607a7a5c7e44630660d9cdf16c5c2fd6 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXLMxEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vhQP/iDL/kmAa2OM4oG5cRs7
-0E8JfoAzVnI1bfyRR2IdyLiTS2MWIjx4dzkiAJDGZwmIJpYdxaJ8iZ34ur+CZpEe
-d4BeIxtavvP3DRQeJdY38MztUDxvZNLzOCINh+kdeaRpKP+X2VWaeEwm9JSq+Naa
-1kRNsbz7AKJKxgehNO7vpbf+jc7LAYjc4elADEle4yzogNEHYrW+5iDISQxXyLJN
-YjX6GtkCOc5v2G/nQsgqp2Us6cVNYo5AxlXSESIJYmd12dN1kvGVFWhC/MSxwkLb
-FeAXyMHobrheXqans1GiehsPMDvnF58ZH4UMZjwHG6YvEugSA3g4JFzQvFL9E+v6
-tURoQPh1CnFSIEhgJdMaGb3ICO31S63WolCI5+Rkq5YCsPfRkrzpxi4uuAPIKodn
-DSJJssqPSbA+xhQVKQacyAG1vf3jPJjTtaK6+XIvl86obhprPkKHi58lGeXTquh0
-/cOuCdW13Rmt7EiIWOl+Ioom9o0JxPGxyceB/hG3PtPEYuobrkUh7fiCM1O2k39f
-B1a2RMKHWbYT2Yq+3AGr1lJfImjJedYq2yO9yOdoyZJHvOJNwYBR39T6OJrlJm2o
-QTmS0KW2wkK7/pEwhuRIwgiC25QODHZdo2/wqqcCBbWH4HhzR7Aqc9XwR/+gifUj
-tRrFT07O11OEBtN5VSrzMpvq
-=0P2W
------END PGP SIGNATURE-----
-
---===============5243894349530815403==--
