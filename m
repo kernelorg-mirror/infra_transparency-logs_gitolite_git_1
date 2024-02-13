@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 13 Feb 2024 10:28:43 -0000
-Message-Id: <170782012360.15527.10417970712851595899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 13 Feb 2024 10:30:05 -0000
+Message-Id: <170782020508.17712.3929193490691780887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-6.8/upstream-fixes
-    old: c1d6708bf0d3dd976460d435373cf5abf21ce258
-    new: 1741a8269e1c51fa08d4bfdf34667387a6eb10ec
+  - ref: refs/heads/irq/urgent
+    old: 8ad032cc8c499af6f3289c796f411e8874b50fdb
+    new: af9acbfc2c4b72c378d0b9a2ee023ed01055d3e2
     log: |
-         1741a8269e1c51fa08d4bfdf34667387a6eb10ec HID: multitouch: Add required quirk for Synaptics 0xcddc device
-         
-  - ref: refs/heads/for-next
-    old: b582e8c3ccc7d93150d903d5d0c0744180e4cc6c
-    new: 014b1b943c4f41c2e618cc5525df9052e069f3b9
-    log: |
-         1741a8269e1c51fa08d4bfdf34667387a6eb10ec HID: multitouch: Add required quirk for Synaptics 0xcddc device
-         014b1b943c4f41c2e618cc5525df9052e069f3b9 Merge branch 'for-6.8/upstream-fixes' into for-next
+         846297e11e8ae428f8b00156a0cfe2db58100702 irqchip/gic-v3-its: Handle non-coherent GICv4 redistributors
+         8b02da04ad978827e5ccd675acf170198f747a7a irqchip/gic-v3-its: Restore quirk probing for ACPI-based systems
+         af9acbfc2c4b72c378d0b9a2ee023ed01055d3e2 irqchip/gic-v3-its: Fix GICv4.1 VPE affinity update
          
