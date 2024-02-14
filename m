@@ -1,48 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============3618636738807099571=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 14 Feb 2024 21:45:30 -0000
-Message-Id: <170794713047.18090.5464368565044295587@gitolite.kernel.org>
-
---===============3618636738807099571==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 14 Feb 2024 21:50:03 -0000
+Message-Id: <170794740350.21238.5039997682900298408@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: f8567a118fe0aa750b6c41d0f8c7dad23b035e92
-    new: cf14a4aa8342fa0eca91a5e0a384256e99519468
+  - ref: refs/heads/for-6.9/io_uring
+    old: 428f13826855e3eea44bf13cedbf33f382ef8794
+    new: c8d8fc3b2d9d4c81e3d3b23eca504ad713a91219
     log: |
-         3fab8a74c71a4ba32b2fa1dca7340f9107ff8dfc i2c: pasemi: split driver into two separate modules
-         eb9f7f654f251b57db310eab90bbae5876898ae3 i2c: i801: Fix block process call transactions
-         cf14a4aa8342fa0eca91a5e0a384256e99519468 Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
+         78f9b61bd8e5466f0e90823e64e3d87c41f6258c io_uring: wake SQPOLL task when task_work is added to an empty queue
+         c8d8fc3b2d9d4c81e3d3b23eca504ad713a91219 io_uring/sqpoll: use the correct check for pending task_work
          
-
---===============3618636738807099571==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher andi.shyti@kernel.org 1707947129 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1707947128-bfe8364d5a0cd9adf158ff7de2cd00936be413f0
-
-f8567a118fe0aa750b6c41d0f8c7dad23b035e92 cf14a4aa8342fa0eca91a5e0a384256e99519468 refs/heads/i2c/i2c-host-next
------BEGIN PGP SIGNATURE-----
-
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZc00eRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uC84A/3jr5I7NEJJtbmXYz3f9plpMfTAR
-FNbsBFttG5xDfK1FAQDysYg7cc53pKTqWzZ7US5an6XJpWpQbk/uEuCWA5/nDg==
-=smse
------END PGP SIGNATURE-----
-
---===============3618636738807099571==--
+  - ref: refs/heads/for-next
+    old: 15d5eb2560e7c31c07d614a305cd17c1554a2585
+    new: 03d8e37dfd70e28b15ae412ac28dc8fc80483f85
+    log: |
+         78f9b61bd8e5466f0e90823e64e3d87c41f6258c io_uring: wake SQPOLL task when task_work is added to an empty queue
+         c8d8fc3b2d9d4c81e3d3b23eca504ad713a91219 io_uring/sqpoll: use the correct check for pending task_work
+         03d8e37dfd70e28b15ae412ac28dc8fc80483f85 Merge branch 'for-6.9/io_uring' into for-next
+         
