@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3471135355808517560=="
+Content-Type: multipart/mixed; boundary="===============0981078271173937459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 14 Feb 2024 13:21:35 -0000
-Message-Id: <170791689551.22627.13092508309913234585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 14 Feb 2024 13:21:49 -0000
+Message-Id: <170791690936.22768.8870119527347239419@gitolite.kernel.org>
 
---===============3471135355808517560==
+--===============0981078271173937459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.9
-    old: fd236653ab60bf64fde341ed9c940c04a542483a
-    new: 81ff296a8163ed791fd05a3dba1a826c598a3c84
-    log: revlist-fd236653ab60-81ff296a8163.txt
+  - ref: refs/heads/for-next
+    old: 060500dd9ac4725a05aa3c7d7816e8d9dcb63ed0
+    new: d56cd0a659418f4a4664f3c6f122f8b7b245b927
+    log: revlist-060500dd9ac4-d56cd0a65941.txt
 
---===============3471135355808517560==
+--===============0981078271173937459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1707916893 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1707916893-bfe1f4dcfd35cfd3a23bc2b8bc89d5df58a67afa
-
-fd236653ab60bf64fde341ed9c940c04a542483a 81ff296a8163ed791fd05a3dba1a826c598a3c84 refs/heads/asoc-6.9
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXMvl0ACgkQJNaLcl1U
-h9Da3Af+LXT99i0Tc3lLbRVEWhxW2hsylb9pVzbqoH4Ka3VllhIXlBvD2XkDChod
-kCa9YWGV1x7M4pFH2FESBM5Jf0MhCWNt5YZ5/OdfV1zrb1MkBlwX5NplqvCXhWRp
-LbVrLBJPaboirQLTglEBhLhgqzdUQJEKO9r3h27gYTekffYU36ImvBtzMkUaS5El
-U1Lwh0n9JxWQ0MRuqp3qsiUYGhcFbFJX+MBz3pNxOdCVj/jYVOQa5jlsXjia3NBB
-2lVJFr2N5KrJTHE6bsU2AnmBao9q4PXTnzGx5IymR+f+P90EvyvTllwK3FDUJEW0
-Irtbal2dY0OPDTnDJ2Ct9GxIIFL/7A==
-=lasl
------END PGP SIGNATURE-----
-
---===============3471135355808517560==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd236653ab60-81ff296a8163.txt
+Content-Disposition: attachment; filename=revlist-060500dd9ac4-d56cd0a65941.txt
 
 3858464de57b77db51f83e3831950cf18a6aff28 ASoC: SOF: ipc4-topology: change chain_dma handling in dai_config
 ba91d0919a78d344d19b02a3899d0921b2f903d1 ASoC: SOF: ops: add new 'is_chain_dma_supported' callback
@@ -70,5 +45,6 @@ f9618ff105a0f6f5a6beed3edc557ea6a7d26df6 ASoC: SOF: topology: Parse DAI type tok
 5ad992c71b6a8e8a547954addc7af9fbde6ca10a ASoC: meson: t9015: fix function pointer type mismatch
 2775f88becc8190462527ab35ee1f7c05d0303cd ASoC: SOF: Extend ChainDMA and DSPless mode to LNL+
 81ff296a8163ed791fd05a3dba1a826c598a3c84 ASoC: meson: aiu: fix function pointer type
+d56cd0a659418f4a4664f3c6f122f8b7b245b927 Merge remote-tracking branch 'asoc/for-6.9' into asoc-next
 
---===============3471135355808517560==--
+--===============0981078271173937459==--
