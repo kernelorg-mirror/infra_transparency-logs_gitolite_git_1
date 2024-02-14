@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 14 Feb 2024 16:55:11 -0000
-Message-Id: <170792971115.29108.11286698383621981022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Wed, 14 Feb 2024 16:58:46 -0000
+Message-Id: <170792992664.30471.6440663338384264095@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/tags/v5.15.9
-    old: 2fa66ecca1032dbba33466fa7c0ea01c2e16b9a1
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 26e4465f538b98693bbf88e3a7d0aea31c28e53f
+    new: 11c1f40a77c7d9d9cf7a29ae1d91dab374e5e90c
+    log: |
+         11c1f40a77c7d9d9cf7a29ae1d91dab374e5e90c log: add l_notice
+         
