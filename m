@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7440720218482113674=="
+Content-Type: multipart/mixed; boundary="===============6131628857185047829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 14 Feb 2024 17:34:32 -0000
-Message-Id: <170793207204.24697.13404289450820361250@gitolite.kernel.org>
+Date: Wed, 14 Feb 2024 17:35:11 -0000
+Message-Id: <170793211185.26560.3214434481560279068@gitolite.kernel.org>
 
---===============7440720218482113674==
+--===============6131628857185047829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: ad08c289826ddfd39a1d81133a96af62e1f09197
-    new: 002938c46b97f82f6cab5de2be33cca845547078
-    log: revlist-ad08c289826d-002938c46b97.txt
+  - ref: refs/heads/10GbE
+    old: bed90b06b6812d9c8c848414b090ddf38f0e6cc1
+    new: d1d77120bc2867b3e449e07ee656a26b2fb03d1e
+    log: revlist-bed90b06b681-d1d77120bc28.txt
 
---===============7440720218482113674==
+--===============6131628857185047829==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ad08c289826d-002938c46b97.txt
+Content-Disposition: attachment; filename=revlist-bed90b06b681-d1d77120bc28.txt
 
 fec846fa7eddf7bb651bf88bd78c7db1410ae3b1 can: bcm: add recvmsg flags for own, local and remote traffic
 e1aa35e16399d600215470411dfb56e1d6f8e017 can: isotp: support dynamic flow control parameters
@@ -103,54 +103,5 @@ e51b962438741f5482c82fb225c1d59136f0fd87 net: remove dev_base_lock from register
 7c754e6a6c94804b6c7c87e56a2fdcfa970e5ad7 Merge branch 'dev_base_lock-remove'
 ed1d7dac08c532a23dd1da62451b40dbe1305dbd dt-bindings: net: dp83826: support TX data voltage tuning
 d1d77120bc2867b3e449e07ee656a26b2fb03d1e net: phy: dp83826: support TX data voltage tuning
-ba159cebb960235db7f6739ad64ecef44bc1aeaf i40e: Fix waiting for queues of all VSIs to be disabled
-be4c213241f004b6f43eb92afde97c8255512949 i40e: Fix wrong mask used during DCB config
-68af519ac08455f078b463b22b676b3dabee3466 i40e: Use existing helper to find flow director VSI
-806d1a23d8a7d5713297fb06f07d8b298400e45f i40e: Introduce and use macros for iterating VSIs and VEBs
-283e66e0b447f3627835dfcb2abf5637130a1614 i40e: Add helpers to find VSI and VEB by SEID and use them
-5793cfe612378c8054a47111b66fb26dbfb6d63e i40e: Fix broken support for floating VEBs
-2a1e77b45aaab6eca59ddd064cec426f3b954ab0 i40e: Remove VEB recursion
-d1db2ccdabe81d0674a6eaaa2cf2f22a5331b9ce ice: Add support for devlink loopback param.
-5fe5443b511d5fa8d1d4725987a3b4867b9f5a7e e1000e: Workaround for sporadic MDI error on Meteor Lake systems
-86f70c37207258f83e1be9e701c529f7e086b143 e1000e: Minor flow correction in e1000_shutdown function
-14e15383186a4de2015417884568f41c347c842d igb: Fix string truncation warnings in igb_set_fw_version
-0acab54e3ee4d74d1e1eb5d8d2e9a33040c5815e ice: Add check for lport extraction to LAG init
-9d495d6b50282b6334c57c719e28b470055c77bd iavf: fix reset in early states
-87953b49c8b1037d2cda5f9e96b169f2f9060138 iavf: allow an early reset event to be processed
-8d882107dffada103f4311acd967ee81e89ec0cc igc: Remove temporary workaround
-736909e0f9fb744b42f4b89cc09802af827201d7 ice: fix connection state of DPLL and out pin
-4567c4b38702cb5a2421f38fd09f6581ea1f4549 i40e: Do not allow untrusted VF to remove administratively set MAC
-bbc6b29b70c8e3448d4132e960ff88cd7546a48d ice: virtchnl: stop pretending to support RSS over AQ or registers
-b84ed1aa9c89ff586f50c3751c28676166fe00e8 ice: remove eswitch changing queues algorithm
-928c2e927bc2b3642e676abe3ba063ed264e4759 ice: do Tx through PF netdev in slow-path
-b3826359df709221ab257c14be0959dfacd48829 ice: default Tx rule instead of to queue
-f80f5edf249cd59d520d8122c0456253a078fe7e ice: control default Tx rule in lag
-82d7854eadc524f893a29cdf516d2822c1ff4db5 ice: remove switchdev control plane VSI
-105dae3a815d6429cbd07fb043614caa682216fe ice: change repr::id values
-8ae74ac971fae5ceee81d34d069b44ad1c9acfd7 ice: do switchdev slow-path Rx using PF VSI
-9667d36a8267d969871a3c32153c77340e9aa1c1 ice: count representor stats
-4e937a9db580baae4defb78a65e87c02c08379f3 i40e: avoid double calling i40e_pf_rxq_wait()
-cec96b695a62036160d1ef1621a09165467d6411 i40e: take into account XDP Tx queues when stopping rings
-f4f0a086b2b717b7f47fe2664bd2cd0060a9ff27 ice: Refactor FW data type and fix bitmap casting issue
-0f69dc25f8199a54d9acfa11c122a45a26cbd191 idpf: implement virtchnl transaction manager
-4382d9b27e637edf30e5190d236cd75292891a51 idpf: refactor vport virtchnl messages
-3d148974faaec84c6b067814dc7ccb6e9e5f4a50 idpf: refactor queue related virtchnl messages
-f37e8d230acef99fd4d821e1c8164f00b1ea8cfd idpf: refactor remaining virtchnl messages
-c880f5087e21e9d62e1874b705c980a8d4afad45 idpf: add async_handler for MAC filter messages
-97140474596783dd7fafb8177f7c1518a1fef246 idpf: refactor idpf_recv_mb_msg
-ef59693d56309eab910fcb1154839705c97f71c2 idpf: cleanup virtchnl cruft
-f5fae7ffff54ad2eacd5c03aaa41f5ca775e458d idpf: prevent deinit uninitialized virtchnl core
-667d4c3a2d3559e17aa64d18357b241935f7decd idpf: fix minor controlq issues
-04ca34dcb736c4bac050f59cfaeedf2c8d6910f9 idpf: remove dealloc vector msg err in idpf_intr_rel
-afd94508b89764c404f25c1ea6cec51cc7ce825d igc: Add support for LEDs on i225/i226
-aa69dae6e9be62be15ba06f226f7aaba5b90aac2 idpf: disable local BH when scheduling napi for marker packets
-a3ceb3498c4643aaa7a2053595353d4476e65626 ice: Add switch recipe reusing feature
-23a13f77bbb9008f1bbc72b1b6144a976bdd3f97 ice: fix dpll input pin phase_adjust value updates
-d55fad6fe9d13d1df722648d3804131adaf07352 ice: fix dpll and dpll_pin data access on PF reset
-e8ffa2ca5e81ad956ee3690f14619104618517b3 ice: fix dpll periodic work data updates on PF reset
-6b6db7eeb1c358adaa03e3350717fc40be43ffff ice: fix pin phase adjust updates on PF reset
-3accfda50827f627dd9b8e9854b49c2dd1067c8f igb: simplify pci ops declaration
-0ffec07eefc01d581edee4a267fad13932beabc1 net: intel: implement modern PM ops declarations
-002938c46b97f82f6cab5de2be33cca845547078 igc: Refactor runtime power management flow
 
---===============7440720218482113674==--
+--===============6131628857185047829==--
