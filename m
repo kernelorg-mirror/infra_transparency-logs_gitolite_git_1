@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 14 Feb 2024 15:35:17 -0000
-Message-Id: <170792491799.24650.10207201267961992988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 14 Feb 2024 15:40:35 -0000
+Message-Id: <170792523551.29509.6644008027143466626@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/kdevops
-    old: b5caf9ac60c0ee1d5c15a842c0873fd489db6fb0
-    new: ef2230a2192f89954f1bcdc4a5a0e50bc040e80d
+  - ref: refs/heads/for-next
+    old: d8b06afcd517da56800397344c8a2f7f7293f2c8
+    new: 4b768cda204c80c5328d2dfb5d3a01b13927c913
     log: |
-         ef2230a2192f89954f1bcdc4a5a0e50bc040e80d filelock: allow leases on directories to be delegations
+         2b20b778d0c88fe60a7a3042d35f428f3d248ef7 dm vdo logger: remove log level to string conversion code
+         9e1d202cda1eab72813a718e36008894bee6c4d8 dm vdo logger: change from uds_ to vdo_ namespace
+         4b768cda204c80c5328d2dfb5d3a01b13927c913 dm vdo string-utils: change from uds_ to vdo_ namespace
          
