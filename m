@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4597363507083515619=="
+Content-Type: multipart/mixed; boundary="===============1387116947147603014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 14 Feb 2024 17:36:00 -0000
-Message-Id: <170793216059.27055.11075652337127170984@gitolite.kernel.org>
+Date: Wed, 14 Feb 2024 17:36:20 -0000
+Message-Id: <170793218093.27254.11945389357707001364@gitolite.kernel.org>
 
---===============4597363507083515619==
+--===============1387116947147603014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: 500d0df5b4b2394a06b949bab05f7ed0242b9858
+  - ref: refs/heads/200GbE
+    old: bed90b06b6812d9c8c848414b090ddf38f0e6cc1
     new: d1d77120bc2867b3e449e07ee656a26b2fb03d1e
-    log: revlist-500d0df5b4b2-d1d77120bc28.txt
+    log: revlist-bed90b06b681-d1d77120bc28.txt
 
---===============4597363507083515619==
+--===============1387116947147603014==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-500d0df5b4b2-d1d77120bc28.txt
+Content-Disposition: attachment; filename=revlist-bed90b06b681-d1d77120bc28.txt
 
 fec846fa7eddf7bb651bf88bd78c7db1410ae3b1 can: bcm: add recvmsg flags for own, local and remote traffic
 e1aa35e16399d600215470411dfb56e1d6f8e017 can: isotp: support dynamic flow control parameters
@@ -50,15 +50,13 @@ c306c3873de0804bea4bb2ac717bd2c088acc589 can: m_can: Implement transmit submissi
 7d06d15df2077499b139af76f29d212500c6dcee Merge patch "can network drivers maintainer"
 85216f56bde74ec365da3fdff1929505538ce894 can: kvaser_pciefd: Add support for Kvaser M.2 PCIe 4xCAN
 383de5664c87abe097d6369d18305c3a6e559bb2 can: softing: remove redundant NULL check
-f25e7b82635f59af87bd720bbb8c2ea19e8e0f67 net/mlx5e: link NAPI instances to queues and IRQs
-a3522a2edb3faf8cb98d38c2a99f5967beef24e2 ipv4: Set the routing scope properly in ip_route_output_ports().
-6256fbfd651c8b3653b7f1cfe08e635404e4b51d net: stmmac: Simplify mtl IRQ status checking
-86fe596b588fc9ec23bf93a5c8f86fc16225dd3a net: sched: Remove NET_ACT_IPT from Kconfig
+f64e189442332f198cea239eee4da6f72465059e ice: introduce new E825C devices family
+7a15668f665c014f345761fdc283051b97a48e00 ice: Add helper function ice_is_generic_mac
+372e27de4ca8e5f22586198cd9429bfea75021ac ice: add support for 3k signing DDP sections for E825C
+41cc4e53934c30f1cf7745c257154e538c78a1f5 ice: Remove and readd netdev during devlink reload
+500d0df5b4b2394a06b949bab05f7ed0242b9858 ice: Fix debugfs with devlink reload
 c83c22ec1493c0b7cc77327bedbd387e295872b6 can: canxl: add virtual CAN network identifier support
 73b8f5015889d4b5fbd885fa310ad8905fe50e4f MAINTAINERS: can: xilinx_can: remove Naga Sureshkumar Relli
-400909df6e6543cb5cce3db9bbcd413d59125327 r8169: simplify code by using core-provided pcpu stats allocation
-32c7eec21c11e149a9195cf0d48cc530d1e5a637 net: sched: codel replace GPLv2/BSD boilerplate
-bed90b06b6812d9c8c848414b090ddf38f0e6cc1 net: phy: aquantia: clear PMD Global Transmit Disable bit during init
 f383ced24d6ae6c1989394d052d3109b9d645f11 vlan: use xarray iterator to implement /proc/net/vlan/config
 3e41af90767dcf8e5ca91cfbbbcb772584940df9 rtnetlink: use xarray iterator to implement rtnl_dump_ifinfo()
 88c9d07b96bb02108ef786f574cd0e730ebab678 Merge branch 'net-use-net-dev_by_index-in-two-places'
@@ -106,4 +104,4 @@ e51b962438741f5482c82fb225c1d59136f0fd87 net: remove dev_base_lock from register
 ed1d7dac08c532a23dd1da62451b40dbe1305dbd dt-bindings: net: dp83826: support TX data voltage tuning
 d1d77120bc2867b3e449e07ee656a26b2fb03d1e net: phy: dp83826: support TX data voltage tuning
 
---===============4597363507083515619==--
+--===============1387116947147603014==--
