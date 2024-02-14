@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 14 Feb 2024 09:01:11 -0000
-Message-Id: <170790127157.9873.9878238091220886604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Wed, 14 Feb 2024 09:06:59 -0000
+Message-Id: <170790161968.13757.4927623999731132410@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/timers/core
-    old: 86342554e102b0d18d50abec43d40f4fc92f1993
-    new: 49f1ff50d49fb8b40bc0271177de8092226396e9
+  - ref: refs/heads/for-next
+    old: 99d100e00144bc01b49a697f4bc4398f2f7e7ce4
+    new: 1af98c3e53da5a8f627855cecd68b017e753ffd3
+    log: |
+         a00d4a98af44e025891e97c490b2545368a25e08 arm64: dts: mediatek: mt8186: Add missing clocks to ssusb power domains
+         1af98c3e53da5a8f627855cecd68b017e753ffd3 arm64: dts: mediatek: mt8186: Add missing xhci clock to usb controllers
+         
