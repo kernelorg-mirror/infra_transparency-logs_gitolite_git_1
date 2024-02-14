@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Wed, 14 Feb 2024 03:16:30 -0000
-Message-Id: <170788059051.19489.10537102301389229778@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 14 Feb 2024 03:40:54 -0000
+Message-Id: <170788205420.4944.4907364336106223572@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/mediatek-cmdq8
-    old: 920b66ba925f2b560daf7ce29bb7558b671a5a52
-    new: bd595b7d817e1dd15211e15490e2fafdf92a9fa0
+  - ref: refs/heads/main
+    old: 32e4a5447ed9fa904a2dfcf4609c64bce053b4e8
+    new: f77581bfda2409a0a3f3a42fa70cab9ef0891e9c
     log: |
-         fe793f12bae95118986a7e1f8fdf4a2e7e566124 drm/mediatek: Do not store struct cmdq_client in struct cmdq_pkt
-         882adc55c4095b21ae36228f41d3ecd64f79961e media: platform: mtk-mdp3: do not store struct cmdq_client in struct cmdq_pkt
-         bd595b7d817e1dd15211e15490e2fafdf92a9fa0 mailbox: mtk-cmdq: remove cl in struct cmdq_pkt
+         2b0cfa6e49566c8fa6759734cf821aa6e8271a9e net: add generic percpu page_pool allocator
+         4d2bb0bfe8741a8778e0053f31a4e0f0cba80e8b xdp: rely on skb pointer reference in do_xdp_generic and netif_receive_generic_xdp
+         e6d5dbdd20aa6a86974af51deb9414cd2e7794cb xdp: add multi-buff support for xdp running in generic mode
+         27accb3cc08a0ec4e348356774042d5fa5f30cce veth: rely on skb_pp_cow_data utility routine
+         f77581bfda2409a0a3f3a42fa70cab9ef0891e9c Merge branch 'add-multi-buff-support-for-xdp-running-in-generic-mode'
          
