@@ -1,31 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 14 Feb 2024 13:46:45 -0000
-Message-Id: <170791840542.8968.17477323332102609623@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2230795584328695744=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
+Date: Wed, 14 Feb 2024 13:55:01 -0000
+Message-Id: <170791890165.13516.12725114891885950972@gitolite.kernel.org>
+
+--===============2230795584328695744==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/mkl/linux-can
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 6cdab80fe56b8cccb4961fc548b0b76edc48ffce
-    new: 39c31257598fc74b16e2c899a7da7b1a03c66e0e
-    log: |
-         bf7f26be8db9207149cff414f86b37f8f615a77a lslogins: Add support for lastlog2
-         919a325cc1931a0331b9833e5808c1228d9645a8 cleanup; Added testcase for lslogins and lastlog2 DB
-         412fc17d814c926368fdca9f1e92f534b45b97a1 check test output
-         a46d1739cdf9569b02ec76bef71aa462fc2cfd4d creating lastlog2 database in the tests
-         c8c8be7f7175b78dfb1c13951a7462141188a94c fixed time-stamp
-         4a6120c289158bb5c7077a1a530b5c9771abd6d9 cleanup tests
-         b3cf355aa275b767e0fc2f2b32cf728f28180033 cleanup tests
-         b3fdf52f2be18ba155368392a35a1093d01449a7 unifiy test output
-         a68e58e56ca51caa1d15565ffe3b07dad1f7b636 fixed time
-         ab01b3428155b28c69b3fb5ad0cb79c1d94d461c added sqlite3 to debian build
-         3c1584b97457e4632e12497d1584d935f411ac29 added sqlite3 to packit
-         e8b6e4ea9ccfb2ce29ba85704c0f1ee7a8085826 added build option login-lastlogin
-         39c31257598fc74b16e2c899a7da7b1a03c66e0e Merge branch 'lslogins-lastlog2' of https://github.com/schubi2/util-linux
-         
+  - ref: refs/tags/linux-can-fixes-for-6.8-20240214
+    old: 0000000000000000000000000000000000000000
+    new: 915437b36ca9e7ecc5da6450fc2386ca44d6d694
+
+--===============2230795584328695744==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1707918896 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
+nonce 1707918888-9ababaa4e52ed4604d5dab2ad25c4431ff45841e
+
+0000000000000000000000000000000000000000 915437b36ca9e7ecc5da6450fc2386ca44d6d694 refs/tags/linux-can-fixes-for-6.8-20240214
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmXMxjETHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAoOKI+ei28b7UmB/40JGHJPAcpZmUdyPLPM8hvaGfmHson
+U13Bvikvd+Rabi2JT/wvTKoOg4qfHHvUJph/lDWvDvZ7lJwU+XY5xRLQ+TgDJImR
+a1k35w4F6pJoS+SdbjRKZbhgRtH6V8i3Rf2xaaHTTcsrD8g6EMYIrUv+uu4txEyE
+HNz9NOpxu9Ju7QiXYAKMTcIXoxKiS9gPav2AlMvj8ZSdDNmiwwsU0uSiyglxCgdV
+lbkQrhmOK4lRISt1czM+lXq6DJ042J3MTuUHJMM2X71asJc2P94nPUKmc4pPhOAr
+Wljw6dDE5IJBauTGkXeinw8PVx/mv5tuPcai0x0HqM6Bg88R07i0dhW1
+=vwHV
+-----END PGP SIGNATURE-----
+
+--===============2230795584328695744==--
