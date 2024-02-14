@@ -1,47 +1,156 @@
-Content-Type: multipart/mixed; boundary="===============5186601437456289954=="
+Content-Type: multipart/mixed; boundary="===============7440720218482113674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Wed, 14 Feb 2024 17:34:12 -0000
-Message-Id: <170793205222.24457.9678787553139692797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 14 Feb 2024 17:34:32 -0000
+Message-Id: <170793207204.24697.13404289450820361250@gitolite.kernel.org>
 
---===============5186601437456289954==
+--===============7440720218482113674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/kvm-coco-queue
-    old: 0000000000000000000000000000000000000000
-    new: 3428d62d5effe9bed1b9084ea8f7722761441ec0
+  - ref: refs/heads/dev-queue
+    old: ad08c289826ddfd39a1d81133a96af62e1f09197
+    new: 002938c46b97f82f6cab5de2be33cca845547078
+    log: revlist-ad08c289826d-002938c46b97.txt
 
---===============5186601437456289954==
-Content-Type: text/plain; charset="us-ascii"
+--===============7440720218482113674==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-ad08c289826d-002938c46b97.txt
 
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1707932045 -0500
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1707932043-477fa5d4c2fc15b82afb2fa8a5a4a52708223092
+fec846fa7eddf7bb651bf88bd78c7db1410ae3b1 can: bcm: add recvmsg flags for own, local and remote traffic
+e1aa35e16399d600215470411dfb56e1d6f8e017 can: isotp: support dynamic flow control parameters
+4dcd08b9676aa43782fbfa34d6a9d4e23e89ea26 MAINTAINERS: add Stefan Mätje as maintainer for the esd electronics GmbH PCIe/402 CAN drivers
+9721866f07e108f892c15ae0c03059e5221b5594 can: esd: add support for esd GmbH PCIe/402 CAN interface family
+dbd86e47fd00c01d34444d4616bcb14e48bcbc1d Merge patch series "can: esd: add support for esd GmbH PCIe/402 CAN interface"
+a163c5761019b94258ca655b27b46e82657fd6f5 can: m_can: Start/Cancel polling timer together with interrupts
+ba72f6c78b9beb3d85736b62b8167eaa93e0866b can: m_can: Move hrtimer init to m_can_class_register
+4248ba9ea24fa2c8a2106bfb14f775035e9ea8aa can: m_can: Write transmit header and data in one transaction
+07f25091ca0265da65ea7a4bd2409c627f529c6f can: m_can: Implement receive coalescing
+ec390d0876170c075fb5ada568db1e03dd790b5b can: m_can: Implement transmit coalescing
+9515223bd0bb9bb0a31b61a68f1049148c1d85ff can: m_can: Add rx coalescing ethtool support
+e55b963e4e94011e9de7a6448ea8e50a12bb9953 can: m_can: Add tx coalescing ethtool support
+14f0a0a4407ebb6f36eb7d394d497d4632c654dc can: m_can: Use u32 for putidx
+80c5bac02a820dc569e38e102456ec4b34f6f607 can: m_can: Cache tx putidx
+e668673ed3992579f23413a13d7ed314cb62ee74 can: m_can: Use the workqueue as queue
+1fa80e23c15051edc1c594270517de3517ded798 can: m_can: Introduce a tx_fifo_in_flight counter
+7508a10ca295c635fad9c9f34ac96384d806af89 can: m_can: Use tx_fifo_in_flight for netif_queue control
+251f913d19a8a960126359c20bd5719461e5399f can: m_can: Implement BQL
+c306c3873de0804bea4bb2ac717bd2c088acc589 can: m_can: Implement transmit submission coalescing
+2ea9b94c502f6681a453c036294d332511915743 Merge patch series "can: m_can: Optimizations for m_can/tcan part 2"
+7af9682d9eab968afe3293d0cde8f43d7bf4e622 can: change can network drivers maintainer
+7d06d15df2077499b139af76f29d212500c6dcee Merge patch "can network drivers maintainer"
+85216f56bde74ec365da3fdff1929505538ce894 can: kvaser_pciefd: Add support for Kvaser M.2 PCIe 4xCAN
+383de5664c87abe097d6369d18305c3a6e559bb2 can: softing: remove redundant NULL check
+f64e189442332f198cea239eee4da6f72465059e ice: introduce new E825C devices family
+7a15668f665c014f345761fdc283051b97a48e00 ice: Add helper function ice_is_generic_mac
+372e27de4ca8e5f22586198cd9429bfea75021ac ice: add support for 3k signing DDP sections for E825C
+41cc4e53934c30f1cf7745c257154e538c78a1f5 ice: Remove and readd netdev during devlink reload
+500d0df5b4b2394a06b949bab05f7ed0242b9858 ice: Fix debugfs with devlink reload
+c83c22ec1493c0b7cc77327bedbd387e295872b6 can: canxl: add virtual CAN network identifier support
+73b8f5015889d4b5fbd885fa310ad8905fe50e4f MAINTAINERS: can: xilinx_can: remove Naga Sureshkumar Relli
+f383ced24d6ae6c1989394d052d3109b9d645f11 vlan: use xarray iterator to implement /proc/net/vlan/config
+3e41af90767dcf8e5ca91cfbbbcb772584940df9 rtnetlink: use xarray iterator to implement rtnl_dump_ifinfo()
+88c9d07b96bb02108ef786f574cd0e730ebab678 Merge branch 'net-use-net-dev_by_index-in-two-places'
+9a3c93af549185863761fc4815ace9ab17dfc350 vlan: use netdev_lockdep_set_classes()
+c74e1039912e63b91e8697796e321d157b44692e net: bridge: use netdev_lockdep_set_classes()
+0bef512012b1cd8820f0c9ec80e5f8ceb43fdd59 net: add netdev_lockdep_set_classes() to virtual drivers
+65d53afddc5861c4b89d15a5d484ecc893e294d3 Merge branch 'net-adopt-netdev_lockdep_set_classes'
+ff049886671ccd4e624a30ec464cb20e4c39a313 net: fec: Refactor: #define magic constants
+f7859a03fba93778594a90d9581f679b3a4ad561 net: fec: Refactor: Replace FEC_ENET_FCE with FEC_RCR_FLOWCTL
+4a78f0173be2673cbdadf91023085982888474a6 dt-bindings: net: qca,ar9331: convert to DT schema
+be51ed104ba9929c741afb718ef7198dbcecef94 r8169: add LED support for RTL8125/RTL8126
+2ce30993831041b9dcd31eb12896be6611e8b7e2 r8169: add generic rtl_set_eee_txidle_timer function
+57d2d2c8f132c830565058a5cdd8138350e068ec r8169: support setting the EEE tx idle timer on RTL8168h
+9c50139727265c088f936e496777bf588850e9f1 r8169: add support for returning tx_lpi_timer in ethtool get_eee
+239ce99c28e31c47a6ef9ffa4c6b423aa00dc3e7 Merge branch 'r8169-extend-eee-tx-idle-timer-support'
+32e4a5447ed9fa904a2dfcf4609c64bce053b4e8 net: dsa: realtek: fix digital interface select macro for EXT0
+2b0cfa6e49566c8fa6759734cf821aa6e8271a9e net: add generic percpu page_pool allocator
+4d2bb0bfe8741a8778e0053f31a4e0f0cba80e8b xdp: rely on skb pointer reference in do_xdp_generic and netif_receive_generic_xdp
+e6d5dbdd20aa6a86974af51deb9414cd2e7794cb xdp: add multi-buff support for xdp running in generic mode
+27accb3cc08a0ec4e348356774042d5fa5f30cce veth: rely on skb_pp_cow_data utility routine
+f77581bfda2409a0a3f3a42fa70cab9ef0891e9c Merge branch 'add-multi-buff-support-for-xdp-running-in-generic-mode'
+e1a00373e1305578cd09526aa056940409e6b877 Merge tag 'linux-can-next-for-6.9-20240213' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+b53e84645b369e27e89f3af7ad09d6209d5eb0fe Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+997814491cee7b19c162ad82439818e555f99ad9 Octeontx2-af: Fetch MAC channel info from firmware
+723615a14b870ab48d92dc39483043022ef05e12 net: ena: Remove redundant assignment
+85455c795c07882091b15c0613f78d4567d9be36 eventpoll: support busy poll per epoll instance
+c6aa2a7778d8e3ba7c6f84c8095f0b89f0617830 eventpoll: Add per-epoll busy poll packet budget
+de57a251082211b68e8c01e0e8210a23c022ac57 eventpoll: Add per-epoll prefer busy poll option
+18e2bf0edf4dd88d9656ec92395aa47392e85b61 eventpoll: Add epoll ioctl for epoll_params
+b7f9ef72783927d152f362912889b72948f49e23 Merge branch 'per-epoll-context-busy-poll'
+1c07dbb0cccfe85060b6eb089db3d6bfeb6aaf31 net: annotate data-races around dev->name_assign_type
+f694eee9e1c00d6ca06c5e59c04e3b6ff7d64aa9 ip_tunnel: annotate data-races around t->parms.link
+a6473fe9b623f6667af72d972b87cd9a5ff87e21 dev: annotate accesses to dev->link
+4d42b37def70327b2bb19f823d42289aed2cd7c7 net: convert dev->reg_state to u8
+12692e3df2dacf2993c56aa23b6d3de921a5bdff net-sysfs: convert netdev_show() to RCU
+c7d52737e7ebd31cc5fef46380d94b58becf9479 net-sysfs: use dev_addr_sem to remove races in address_show()
+004d138364fd10dd5ff8ceb54cfdc2d792a7b338 net-sysfs: convert dev->operstate reads to lockless ones
+e154bb7a6ebbe5414accb5d94dc5ba80c204ea64 net-sysfs: convert netstat_show() to RCU
+328771deab16fcac55763309bb59e28b1c050853 net: remove stale mentions of dev_base_lock in comments
+6a2968ee1ee2cc6fce30f6f5724442b34b1483b3 net: add netdev_set_operstate() helper
+2dd4d828d648e101aaf19326afcdfee8667cb185 net: remove dev_base_lock from do_setlink()
+e51b962438741f5482c82fb225c1d59136f0fd87 net: remove dev_base_lock from register_netdevice() and friends.
+1b3ef46cb7f2618cc0b507393220a69810f6da12 net: remove dev_base_lock
+7c754e6a6c94804b6c7c87e56a2fdcfa970e5ad7 Merge branch 'dev_base_lock-remove'
+ed1d7dac08c532a23dd1da62451b40dbe1305dbd dt-bindings: net: dp83826: support TX data voltage tuning
+d1d77120bc2867b3e449e07ee656a26b2fb03d1e net: phy: dp83826: support TX data voltage tuning
+ba159cebb960235db7f6739ad64ecef44bc1aeaf i40e: Fix waiting for queues of all VSIs to be disabled
+be4c213241f004b6f43eb92afde97c8255512949 i40e: Fix wrong mask used during DCB config
+68af519ac08455f078b463b22b676b3dabee3466 i40e: Use existing helper to find flow director VSI
+806d1a23d8a7d5713297fb06f07d8b298400e45f i40e: Introduce and use macros for iterating VSIs and VEBs
+283e66e0b447f3627835dfcb2abf5637130a1614 i40e: Add helpers to find VSI and VEB by SEID and use them
+5793cfe612378c8054a47111b66fb26dbfb6d63e i40e: Fix broken support for floating VEBs
+2a1e77b45aaab6eca59ddd064cec426f3b954ab0 i40e: Remove VEB recursion
+d1db2ccdabe81d0674a6eaaa2cf2f22a5331b9ce ice: Add support for devlink loopback param.
+5fe5443b511d5fa8d1d4725987a3b4867b9f5a7e e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+86f70c37207258f83e1be9e701c529f7e086b143 e1000e: Minor flow correction in e1000_shutdown function
+14e15383186a4de2015417884568f41c347c842d igb: Fix string truncation warnings in igb_set_fw_version
+0acab54e3ee4d74d1e1eb5d8d2e9a33040c5815e ice: Add check for lport extraction to LAG init
+9d495d6b50282b6334c57c719e28b470055c77bd iavf: fix reset in early states
+87953b49c8b1037d2cda5f9e96b169f2f9060138 iavf: allow an early reset event to be processed
+8d882107dffada103f4311acd967ee81e89ec0cc igc: Remove temporary workaround
+736909e0f9fb744b42f4b89cc09802af827201d7 ice: fix connection state of DPLL and out pin
+4567c4b38702cb5a2421f38fd09f6581ea1f4549 i40e: Do not allow untrusted VF to remove administratively set MAC
+bbc6b29b70c8e3448d4132e960ff88cd7546a48d ice: virtchnl: stop pretending to support RSS over AQ or registers
+b84ed1aa9c89ff586f50c3751c28676166fe00e8 ice: remove eswitch changing queues algorithm
+928c2e927bc2b3642e676abe3ba063ed264e4759 ice: do Tx through PF netdev in slow-path
+b3826359df709221ab257c14be0959dfacd48829 ice: default Tx rule instead of to queue
+f80f5edf249cd59d520d8122c0456253a078fe7e ice: control default Tx rule in lag
+82d7854eadc524f893a29cdf516d2822c1ff4db5 ice: remove switchdev control plane VSI
+105dae3a815d6429cbd07fb043614caa682216fe ice: change repr::id values
+8ae74ac971fae5ceee81d34d069b44ad1c9acfd7 ice: do switchdev slow-path Rx using PF VSI
+9667d36a8267d969871a3c32153c77340e9aa1c1 ice: count representor stats
+4e937a9db580baae4defb78a65e87c02c08379f3 i40e: avoid double calling i40e_pf_rxq_wait()
+cec96b695a62036160d1ef1621a09165467d6411 i40e: take into account XDP Tx queues when stopping rings
+f4f0a086b2b717b7f47fe2664bd2cd0060a9ff27 ice: Refactor FW data type and fix bitmap casting issue
+0f69dc25f8199a54d9acfa11c122a45a26cbd191 idpf: implement virtchnl transaction manager
+4382d9b27e637edf30e5190d236cd75292891a51 idpf: refactor vport virtchnl messages
+3d148974faaec84c6b067814dc7ccb6e9e5f4a50 idpf: refactor queue related virtchnl messages
+f37e8d230acef99fd4d821e1c8164f00b1ea8cfd idpf: refactor remaining virtchnl messages
+c880f5087e21e9d62e1874b705c980a8d4afad45 idpf: add async_handler for MAC filter messages
+97140474596783dd7fafb8177f7c1518a1fef246 idpf: refactor idpf_recv_mb_msg
+ef59693d56309eab910fcb1154839705c97f71c2 idpf: cleanup virtchnl cruft
+f5fae7ffff54ad2eacd5c03aaa41f5ca775e458d idpf: prevent deinit uninitialized virtchnl core
+667d4c3a2d3559e17aa64d18357b241935f7decd idpf: fix minor controlq issues
+04ca34dcb736c4bac050f59cfaeedf2c8d6910f9 idpf: remove dealloc vector msg err in idpf_intr_rel
+afd94508b89764c404f25c1ea6cec51cc7ce825d igc: Add support for LEDs on i225/i226
+aa69dae6e9be62be15ba06f226f7aaba5b90aac2 idpf: disable local BH when scheduling napi for marker packets
+a3ceb3498c4643aaa7a2053595353d4476e65626 ice: Add switch recipe reusing feature
+23a13f77bbb9008f1bbc72b1b6144a976bdd3f97 ice: fix dpll input pin phase_adjust value updates
+d55fad6fe9d13d1df722648d3804131adaf07352 ice: fix dpll and dpll_pin data access on PF reset
+e8ffa2ca5e81ad956ee3690f14619104618517b3 ice: fix dpll periodic work data updates on PF reset
+6b6db7eeb1c358adaa03e3350717fc40be43ffff ice: fix pin phase adjust updates on PF reset
+3accfda50827f627dd9b8e9854b49c2dd1067c8f igb: simplify pci ops declaration
+0ffec07eefc01d581edee4a267fad13932beabc1 net: intel: implement modern PM ops declarations
+002938c46b97f82f6cab5de2be33cca845547078 igc: Refactor runtime power management flow
 
-0000000000000000000000000000000000000000 3428d62d5effe9bed1b9084ea8f7722761441ec0 refs/heads/kvm-coco-queue
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmXM+Y4UHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroNz2AgAn4QxHk7ugPiwEXt4QOanWqFfHnXA
-WkqqLmtUi50VRnsQ2l61XiXUNApc47Mk2EKeCxuBfHmjx8MJVxPY7MxqXfL/zj1/
-jvg7AUET5+PKO9ELEyYVcEL7NWR0HTiOMs8OCIfGGD8AgHzmPFo0Wf/xRNG8ZlyG
-UcrmiRpTDzZFMClOQhBQ5k/T3Yef4jF/saFRHwcajsuGpVkuDbTmzPbDxhb6GYOn
-ljiDLkFp1lp79GsPGoLbXO4ZfNxeXR87B+FChH5GcozZYwzxzD9x4YjKozOVRkLj
-bPxQ+g+WKIrSdWPYRUKvyOcjYfmaLKhkwGTeGoCyIVgg1eif4qbWqLBBxA==
-=+F+Q
------END PGP SIGNATURE-----
-
---===============5186601437456289954==--
+--===============7440720218482113674==--
