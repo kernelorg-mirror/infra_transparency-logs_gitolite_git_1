@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4159657445682614945=="
+Content-Type: multipart/mixed; boundary="===============1523996165647413764=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 14 Feb 2024 09:30:12 -0000
-Message-Id: <170790301210.32488.2434643536549514406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 14 Feb 2024 09:30:18 -0000
+Message-Id: <170790301858.32617.10406278825447845118@gitolite.kernel.org>
 
---===============4159657445682614945==
+--===============1523996165647413764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 841c35169323cd833294798e58b9bf63fa4fa1de
     log: revlist-41bccc98fb79-841c35169323.txt
 
---===============4159657445682614945==
+--===============1523996165647413764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -861,4 +861,4 @@ c021e191cf3da2fea766d784546f4c5acbfcd137 Merge tag 'x86_urgent_for_v6.8_rc4' of 
 2766f59ca44e517a1d6226979c784b026f0e89c2 Merge tag 'timers_urgent_for_v6.8_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 841c35169323cd833294798e58b9bf63fa4fa1de Linux 6.8-rc4
 
---===============4159657445682614945==--
+--===============1523996165647413764==--
