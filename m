@@ -1,45 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0021323070888639027=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 14 Feb 2024 13:41:00 -0000
-Message-Id: <170791806064.5266.8464876945442486835@gitolite.kernel.org>
-
---===============0021323070888639027==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 14 Feb 2024 13:46:45 -0000
+Message-Id: <170791840542.8968.17477323332102609623@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: e4618114eb74bab416949fe230e8f721a7179877
-    new: 520a2cee1fbceebd7d61a3e1eb5e9df8dd91b748
-    log: revlist-e4618114eb74-520a2cee1fbc.txt
-
---===============0021323070888639027==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4618114eb74-520a2cee1fbc.txt
-
-2151fd9a6d4ff8732a32f9ef2498fb7b95a0da29 s390/boot: add support for CONFIG_LD_ORPHAN_WARN
-bdf2cd27a3293618c794c74bd2f4dee32bc6f477 s390: vmlinux.lds.S: handle '.data.rel' sections explicitly
-30226853d6ecd274ec35b9d7b8dcdfc1e0981f05 s390: vmlinux.lds.S: explicitly handle '.got' and '.plt' sections
-a691c8a6efe0220f244f7bb59a3af39383b57d2c s390: vmlinux.lds.S: explicitly keep various sections
-b23ab303dd95d940a3cb718ef15323fb428cba63 s390/boot: vmlinux.lds.S: handle '.init.text'
-64d590a24f7a570fd8d25d05edd4f433e32900a8 s390/boot: vmlinux.lds.S: handle '.rela' sections
-ba6c26af1ee72f1812cbdac899416e7e1afa1fdb s390/boot: vmlinux.lds.S: handle DWARF debug sections
-6a4d37c886c1324c10452c06192bf6d7ebb7c8af s390/boot: vmlinux.lds.S: handle ELF required sections
-c0f98ea0e7eafb3ca5ea4a178de6d0ce36333ae7 s390/boot: vmlinux.lds.S: handle commonly discarded sections
-acb7c202baa76235ed478043809366e7de1741c2 s390: select CONFIG_ARCH_WANT_LD_ORPHAN_WARN
-55cce52f1cec914870a12e8e9f82659037648cb8 s390: link vmlinux with '-z notext'
-3938490e78f443fb0b734a15a50abba020638ff8 s390/bug: remove entry size from __bug_table section
-616c4ea9bce426aa6efd6dc333bdd479ce352df0 s390/vdso: remove unused ENTRY in linker scripts
-8e7b9eec9ae819d5f80f917d1a7e09013cfc4cc2 Merge branch 'fixes' into for-next
-520a2cee1fbceebd7d61a3e1eb5e9df8dd91b748 Merge branch 'features' into for-next
-
---===============0021323070888639027==--
+  - ref: refs/heads/master
+    old: 6cdab80fe56b8cccb4961fc548b0b76edc48ffce
+    new: 39c31257598fc74b16e2c899a7da7b1a03c66e0e
+    log: |
+         bf7f26be8db9207149cff414f86b37f8f615a77a lslogins: Add support for lastlog2
+         919a325cc1931a0331b9833e5808c1228d9645a8 cleanup; Added testcase for lslogins and lastlog2 DB
+         412fc17d814c926368fdca9f1e92f534b45b97a1 check test output
+         a46d1739cdf9569b02ec76bef71aa462fc2cfd4d creating lastlog2 database in the tests
+         c8c8be7f7175b78dfb1c13951a7462141188a94c fixed time-stamp
+         4a6120c289158bb5c7077a1a530b5c9771abd6d9 cleanup tests
+         b3cf355aa275b767e0fc2f2b32cf728f28180033 cleanup tests
+         b3fdf52f2be18ba155368392a35a1093d01449a7 unifiy test output
+         a68e58e56ca51caa1d15565ffe3b07dad1f7b636 fixed time
+         ab01b3428155b28c69b3fb5ad0cb79c1d94d461c added sqlite3 to debian build
+         3c1584b97457e4632e12497d1584d935f411ac29 added sqlite3 to packit
+         e8b6e4ea9ccfb2ce29ba85704c0f1ee7a8085826 added build option login-lastlogin
+         39c31257598fc74b16e2c899a7da7b1a03c66e0e Merge branch 'lslogins-lastlog2' of https://github.com/schubi2/util-linux
+         
