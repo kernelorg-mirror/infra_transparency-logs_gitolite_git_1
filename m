@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 14 Feb 2024 23:42:27 -0000
-Message-Id: <170795414784.5396.7419378993052777200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Wed, 14 Feb 2024 23:55:01 -0000
+Message-Id: <170795490186.13094.9375457296814302827@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/dev
-    old: 2cea2e569bf1d785d8565f30d16518040c9d5c74
-    new: 1b85e92eabcd8ab4ac2c6846e832674d1311b87c
-    log: |
-         6a4352fd14180271cdbcb20056165a3caa134193 rcu: Update lockdep while in RCU read-side critical section
-         1b85e92eabcd8ab4ac2c6846e832674d1311b87c rcu: Make TINY_RCU depend on !PREEMPT_RCU rather than !PREEMPTION
-         
+  - ref: refs/tags/damon/next-2024-02-14-15-54-on-v6.8-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 0268f428d1f13b2c9921df3992755e19d54a4eeb
