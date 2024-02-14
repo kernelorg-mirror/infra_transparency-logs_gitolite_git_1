@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9083199042270723267=="
+Content-Type: multipart/mixed; boundary="===============0021323070888639027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 14 Feb 2024 13:40:46 -0000
-Message-Id: <170791804613.5088.16609639279669140316@gitolite.kernel.org>
+Date: Wed, 14 Feb 2024 13:41:00 -0000
+Message-Id: <170791806064.5266.8464876945442486835@gitolite.kernel.org>
 
---===============9083199042270723267==
+--===============0021323070888639027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: 340750c13c3af2fc8cc4f993823a0b82b8a22845
-    new: 616c4ea9bce426aa6efd6dc333bdd479ce352df0
-    log: revlist-340750c13c3a-616c4ea9bce4.txt
+  - ref: refs/heads/for-next
+    old: e4618114eb74bab416949fe230e8f721a7179877
+    new: 520a2cee1fbceebd7d61a3e1eb5e9df8dd91b748
+    log: revlist-e4618114eb74-520a2cee1fbc.txt
 
---===============9083199042270723267==
+--===============0021323070888639027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-340750c13c3a-616c4ea9bce4.txt
+Content-Disposition: attachment; filename=revlist-e4618114eb74-520a2cee1fbc.txt
 
 2151fd9a6d4ff8732a32f9ef2498fb7b95a0da29 s390/boot: add support for CONFIG_LD_ORPHAN_WARN
 bdf2cd27a3293618c794c74bd2f4dee32bc6f477 s390: vmlinux.lds.S: handle '.data.rel' sections explicitly
@@ -39,5 +39,7 @@ acb7c202baa76235ed478043809366e7de1741c2 s390: select CONFIG_ARCH_WANT_LD_ORPHAN
 55cce52f1cec914870a12e8e9f82659037648cb8 s390: link vmlinux with '-z notext'
 3938490e78f443fb0b734a15a50abba020638ff8 s390/bug: remove entry size from __bug_table section
 616c4ea9bce426aa6efd6dc333bdd479ce352df0 s390/vdso: remove unused ENTRY in linker scripts
+8e7b9eec9ae819d5f80f917d1a7e09013cfc4cc2 Merge branch 'fixes' into for-next
+520a2cee1fbceebd7d61a3e1eb5e9df8dd91b748 Merge branch 'features' into for-next
 
---===============9083199042270723267==--
+--===============0021323070888639027==--
