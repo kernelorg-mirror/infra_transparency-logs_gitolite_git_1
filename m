@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5476937855202167636=="
+Content-Type: multipart/mixed; boundary="===============4775471276144645744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Wed, 14 Feb 2024 18:06:39 -0000
-Message-Id: <170793399993.17260.13046479916719135351@gitolite.kernel.org>
+Date: Wed, 14 Feb 2024 18:07:09 -0000
+Message-Id: <170793402939.17700.18192324882478853403@gitolite.kernel.org>
 
---===============5476937855202167636==
+--===============4775471276144645744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: fbef4d381e3d0143427e1a8c924be8e738c0fc2d
-    new: 98db5411b132623478549d3abdb06e184724128b
-    log: revlist-fbef4d381e3d-98db5411b132.txt
+  - ref: refs/heads/dev-queue
+    old: 618d30a86d28526897a85ed9fdf250e624903515
+    new: 223cf6017673e732e614163459b33d30c09be2ba
+    log: revlist-618d30a86d28-223cf6017673.txt
 
---===============5476937855202167636==
+--===============4775471276144645744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fbef4d381e3d-98db5411b132.txt
+Content-Disposition: attachment; filename=revlist-618d30a86d28-223cf6017673.txt
 
 61f4716b7ac45ce6d0f02706a77c71c6f1b12778 linux-firmware: Fix filenames for some CS35L41 firmwares for HP
 1cf931df1c390227c02594b61edebca6cf77a2f4 linux-firmware: Remove 2 HP laptops using CS35L41 Audio Firmware
@@ -40,5 +40,6 @@ dcab028b36f5054a26264eb8aeb01edf698dacef check_whence: Add a check for duplicate
 dbc294d3e49aa63a61bb4026b5784bae5b75aa2b Intel IPU6: Move firmware binaries under ipu/
 08ab13d5d079c90dc21145710a2cc42326562aee Intel IPU3 ImgU: Move firmware file under intel/ipu
 98db5411b132623478549d3abdb06e184724128b Merge branch 'robot/pr-0-1707900738' into 'main'
+223cf6017673e732e614163459b33d30c09be2ba ice: update ice DDP package to 1.3.36.0
 
---===============5476937855202167636==--
+--===============4775471276144645744==--
