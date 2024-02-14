@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5159713876967795207=="
+Content-Type: multipart/mixed; boundary="===============4147587123499454478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 14 Feb 2024 12:48:21 -0000
-Message-Id: <170791490168.28868.3086860491055936738@gitolite.kernel.org>
+Date: Wed, 14 Feb 2024 12:48:29 -0000
+Message-Id: <170791490907.28997.10260868498856058549@gitolite.kernel.org>
 
---===============5159713876967795207==
+--===============4147587123499454478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/x86/bugs
-    old: 4461438a8405e800f90e0e40409e5f3d07eed381
+  - ref: refs/heads/x86/percpu
+    old: de8c6a352131f642b82474abe0cbb5dd26a7e081
     new: 841c35169323cd833294798e58b9bf63fa4fa1de
-    log: revlist-4461438a8405-841c35169323.txt
+    log: revlist-de8c6a352131-841c35169323.txt
 
---===============5159713876967795207==
+--===============4147587123499454478==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4461438a8405-841c35169323.txt
+Content-Disposition: attachment; filename=revlist-de8c6a352131-841c35169323.txt
 
 1513664f340289cf10402753110f3cff12a738aa ALSA: hda/realtek: fix mute/micmute LEDs for HP ZBook Power
 4b5581f112075e46d73b34b9848be041e6c1e489 accel/ivpu: Disable PLL after VPU IP reset during FLR
@@ -1051,4 +1051,4 @@ c021e191cf3da2fea766d784546f4c5acbfcd137 Merge tag 'x86_urgent_for_v6.8_rc4' of 
 2766f59ca44e517a1d6226979c784b026f0e89c2 Merge tag 'timers_urgent_for_v6.8_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 841c35169323cd833294798e58b9bf63fa4fa1de Linux 6.8-rc4
 
---===============5159713876967795207==--
+--===============4147587123499454478==--
