@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6131628857185047829=="
+Content-Type: multipart/mixed; boundary="===============0336816522046589571=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 14 Feb 2024 17:35:11 -0000
-Message-Id: <170793211185.26560.3214434481560279068@gitolite.kernel.org>
+Date: Wed, 14 Feb 2024 17:35:36 -0000
+Message-Id: <170793213625.26825.6325932365548413569@gitolite.kernel.org>
 
---===============6131628857185047829==
+--===============0336816522046589571==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: bed90b06b6812d9c8c848414b090ddf38f0e6cc1
     new: d1d77120bc2867b3e449e07ee656a26b2fb03d1e
     log: revlist-bed90b06b681-d1d77120bc28.txt
 
---===============6131628857185047829==
+--===============0336816522046589571==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -104,4 +104,4 @@ e51b962438741f5482c82fb225c1d59136f0fd87 net: remove dev_base_lock from register
 ed1d7dac08c532a23dd1da62451b40dbe1305dbd dt-bindings: net: dp83826: support TX data voltage tuning
 d1d77120bc2867b3e449e07ee656a26b2fb03d1e net: phy: dp83826: support TX data voltage tuning
 
---===============6131628857185047829==--
+--===============0336816522046589571==--
