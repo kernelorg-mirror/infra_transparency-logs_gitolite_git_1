@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5572787954000948975=="
+Content-Type: multipart/mixed; boundary="===============4097648014744021566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 14 Feb 2024 22:42:56 -0000
-Message-Id: <170795057637.26447.2058600169182721068@gitolite.kernel.org>
+Date: Wed, 14 Feb 2024 22:45:02 -0000
+Message-Id: <170795070276.28503.16714229872456086240@gitolite.kernel.org>
 
---===============5572787954000948975==
+--===============4097648014744021566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: andi.shyti
 git_push_cert_status: E
 changes:
   - ref: refs/meta/cgit
-    old: 3d8fcb04710ff76245076cbe090577b74b4dc355
-    new: 48767f71676b289ef9242c1c2f9564c2d7122a96
+    old: 48767f71676b289ef9242c1c2f9564c2d7122a96
+    new: 5dc2b8a485b1e11d4445ba0eef2c36eafacfea76
     log: |
-         48767f71676b289ef9242c1c2f9564c2d7122a96 README: Update the branches and reword better
+         5dc2b8a485b1e11d4445ba0eef2c36eafacfea76 README: Fix typo
          
 
---===============5572787954000948975==
+--===============4097648014744021566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1707950575 +0100
+pusher andi.shyti@kernel.org 1707950701 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1707950574-2a231c7b0896e07851022a14c3df645200ae7141
+nonce 1707950701-d83ff9c1d32bda65c4d5d2f9254b53f8043e303a
 
-3d8fcb04710ff76245076cbe090577b74b4dc355 48767f71676b289ef9242c1c2f9564c2d7122a96 refs/meta/cgit
+48767f71676b289ef9242c1c2f9564c2d7122a96 5dc2b8a485b1e11d4445ba0eef2c36eafacfea76 refs/meta/cgit
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZc1B7xYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uRocBALoYo2NWPMHh1qzayS0Ca+8X2mWM
-je++dBns1mLVRP4xAP0fPH1oXobN6hAttKIEjCtxW1rHlPBDpx4fag1VzZh5Cw==
-=+Y3K
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZc1CbRYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1um0QBAKJp8aQDP64FaoqpOOA08P1NdaGf
+B7xnl88S/LE30ppfAQDFF3bxD4kWs61OUwMvMKyejzuZ5xFjbXuWcZ7YOcRDAw==
+=VUkN
 -----END PGP SIGNATURE-----
 
---===============5572787954000948975==--
+--===============4097648014744021566==--
