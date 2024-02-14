@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 14 Feb 2024 22:54:20 -0000
-Message-Id: <170795126024.1609.2730355180228263711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Wed, 14 Feb 2024 23:06:33 -0000
+Message-Id: <170795199303.10675.12889422341678050135@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: 1159d27852207e8efb8d6ef2dae5aaa87ec4e225
-    new: a4561f5afef8a8ff25a2cfd46d587f65869494f2
+  - ref: refs/heads/master
+    old: a1e492c39bae3762095c54b9d24b7e620047b5a7
+    new: 8af8136f61742be963b67b88f18e85c12509e0f9
     log: |
-         a4561f5afef8a8ff25a2cfd46d587f65869494f2 bpf: Use O(log(N)) binary search to find line info record
+         8af8136f61742be963b67b88f18e85c12509e0f9 qmimodem: implement call-settings driver
          
