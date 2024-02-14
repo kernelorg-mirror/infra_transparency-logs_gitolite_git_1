@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 14 Feb 2024 09:32:04 -0000
-Message-Id: <170790312484.1023.7669560891081552916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 14 Feb 2024 09:40:04 -0000
+Message-Id: <170790360426.3077.15009260491155896194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: 1e41f11f08bcc38609d83a8b35fa15bf148f7144
-    new: 858b31133dbec88465bcc0a006f4dc43173662b8
+  - ref: refs/heads/gpio/for-next
+    old: ba5c5effe02c4ae06291c7c5e67de8fedad3cf9a
+    new: e3f927f2b0a23902923c768f07e274a1373216f3
     log: |
-         858b31133dbec88465bcc0a006f4dc43173662b8 octeontx2-af: Remove the PF_FUNC validation for NPC transmit rules
+         9e69d6d84e3841df073601440774a2221781fc1e Documentation: gpio: clarify sysfs line values are logical
+         e3f927f2b0a23902923c768f07e274a1373216f3 Documentation: gpio: consistently use logical line value terminology
          
