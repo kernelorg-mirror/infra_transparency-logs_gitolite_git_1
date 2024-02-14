@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 14 Feb 2024 03:14:09 -0000
-Message-Id: <170788044961.16932.17785317669197348517@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Wed, 14 Feb 2024 03:16:30 -0000
+Message-Id: <170788059051.19489.10537102301389229778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/main
-    old: be51ed104ba9929c741afb718ef7198dbcecef94
-    new: 32e4a5447ed9fa904a2dfcf4609c64bce053b4e8
+  - ref: refs/heads/mediatek-cmdq8
+    old: 920b66ba925f2b560daf7ce29bb7558b671a5a52
+    new: bd595b7d817e1dd15211e15490e2fafdf92a9fa0
     log: |
-         2ce30993831041b9dcd31eb12896be6611e8b7e2 r8169: add generic rtl_set_eee_txidle_timer function
-         57d2d2c8f132c830565058a5cdd8138350e068ec r8169: support setting the EEE tx idle timer on RTL8168h
-         9c50139727265c088f936e496777bf588850e9f1 r8169: add support for returning tx_lpi_timer in ethtool get_eee
-         239ce99c28e31c47a6ef9ffa4c6b423aa00dc3e7 Merge branch 'r8169-extend-eee-tx-idle-timer-support'
-         32e4a5447ed9fa904a2dfcf4609c64bce053b4e8 net: dsa: realtek: fix digital interface select macro for EXT0
+         fe793f12bae95118986a7e1f8fdf4a2e7e566124 drm/mediatek: Do not store struct cmdq_client in struct cmdq_pkt
+         882adc55c4095b21ae36228f41d3ecd64f79961e media: platform: mtk-mdp3: do not store struct cmdq_client in struct cmdq_pkt
+         bd595b7d817e1dd15211e15490e2fafdf92a9fa0 mailbox: mtk-cmdq: remove cl in struct cmdq_pkt
          
