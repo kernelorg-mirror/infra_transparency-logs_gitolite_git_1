@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 14 Feb 2024 12:48:43 -0000
-Message-Id: <170791492383.29162.7690059482260718438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 14 Feb 2024 12:49:59 -0000
+Message-Id: <170791499943.29689.5626489381651612904@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/tags/v6.8-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 251168394b084796bcd8f3e3655f2eb38c524ea3
+  - ref: refs/heads/main
+    old: 6cf9ff463317217d95732a6cce6fbdd12508921a
+    new: 5d07e432cb387b9f7d4f0e07245705744c7fb05b
+    log: |
+         5d07e432cb387b9f7d4f0e07245705744c7fb05b bnad: fix work_queue type mismatch
+         
