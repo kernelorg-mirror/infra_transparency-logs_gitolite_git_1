@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 15 Feb 2024 17:08:45 -0000
-Message-Id: <170801692569.16410.15609514513511324671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/glaubitz/sh-linux
+Date: Thu, 15 Feb 2024 17:09:05 -0000
+Message-Id: <170801694599.16627.10696872926185380537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/glaubitz/sh-linux
+user: glaubitz
 changes:
   - ref: refs/heads/for-next
-    old: 5f97ce009a7f744f7e27ed0d15380e7cd3d16bff
-    new: c093297ed9c750056ed15c93f15d55c8174ec1b5
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: 1e0ab148af4a7efbd393cd1ac998fc367c21c64c
     log: |
-         74e0259495cfab4f92c64ddcbbfe454e5c2f962a ASoC: codecs: remove redundant 'tristate' in sound/soc/codecs/Kconfig
-         c093297ed9c750056ed15c93f15d55c8174ec1b5 Merge remote-tracking branch 'asoc/for-6.9' into asoc-next
+         94fa4457084f166d9737061997ec2e68581a01b6 dma: dma-sysfs: Make dma_subsys const
+         a4867d2e8d6b03603c7029e22033c0f39efd41f5 sh: intc: Make intc_subsys const
+         1e0ab148af4a7efbd393cd1ac998fc367c21c64c sh: hd64461: Make setup_hd64461 static
          
