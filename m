@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 15 Feb 2024 02:00:32 -0000
-Message-Id: <170796243293.14299.8276377849792906338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 15 Feb 2024 02:01:02 -0000
+Message-Id: <170796246299.14554.4373770558225449778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 6eedb37f26fd027e16e72daeed9ccd54bda6a538
-    new: dbca46d800bb7ec2004c11ba7b826e9d4edb7881
+  - ref: refs/heads/main
+    old: 63a3dd6e62c8c4e7a80d8531da2a7faa94772178
+    new: dadd1701ae11a204dd4bea8086905a9576c4b63c
     log: |
-         46c7041b7b4346eb816d73d7c0394aa06b269638 todo: Update
-         dbca46d800bb7ec2004c11ba7b826e9d4edb7881 todo: Update
+         dadd1701ae11a204dd4bea8086905a9576c4b63c ice: Add check for lport extraction to LAG init
          
