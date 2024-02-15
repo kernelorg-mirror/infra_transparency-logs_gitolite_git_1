@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 15 Feb 2024 19:23:51 -0000
-Message-Id: <170802503110.17746.7233509136926232603@gitolite.kernel.org>
+Date: Thu, 15 Feb 2024 19:29:32 -0000
+Message-Id: <170802537242.21337.8284618890838464570@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
   - ref: refs/heads/for-next/hardening
-    old: e9ae38cda7dc749c622679e6a0954a8df10dac65
-    new: 337e1556891d57b63264343a589ffe4f386d01ba
+    old: 337e1556891d57b63264343a589ffe4f386d01ba
+    new: 7ceb0508c2e6eed368bb843aa37efaaca45bee32
     log: |
-         bf10745c005324ceac37561e4756230771f07b50 lib/string_choices: Add str_plural() helper
-         337e1556891d57b63264343a589ffe4f386d01ba cocci: Add rules to find str_plural() replacements
+         a9355db444bfcd89ef0e2e0adb590e9c3e6ad584 overflow: Introduce wrapping_assign_add() and wrapping_assign_sub()
+         310462a15c0dc656d282bff1cee0ce9cce3688b1 lib/string_choices: Add str_plural() helper
+         7ceb0508c2e6eed368bb843aa37efaaca45bee32 cocci: Add rules to find str_plural() replacements
          
