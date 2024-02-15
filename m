@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9167731125219129522=="
+Content-Type: multipart/mixed; boundary="===============4991869494601343677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 15 Feb 2024 20:37:59 -0000
-Message-Id: <170802947937.8673.16482713439403762938@gitolite.kernel.org>
+Date: Thu, 15 Feb 2024 20:38:15 -0000
+Message-Id: <170802949571.8832.3625430238052406986@gitolite.kernel.org>
 
---===============9167731125219129522==
+--===============4991869494601343677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 4ad9465365378d696545a337c4b1a28277de84d7
-    new: a0bcad233fd6a4cdd14441d7cc27b28475721fe8
+  - ref: refs/tags/mkp-scsi-staging
+    old: 95b6b0a97b2107ac80973a4c3fa6a239000a02a0
+    new: 0898019eb49633ec8f428d0cb70daa04d6f3ab34
     log: |
-         f7c7190f49b8486fac3b9d499e826bf724f94652 scsi: core: Really include kunit tests with SCSI_LIB_KUNIT_TEST
-         a0bcad233fd6a4cdd14441d7cc27b28475721fe8 scsi: core: Make scsi_bus_type const
+         b628db427fd24892e1690ff50e8bf568210fa333 scsi: qla1280: Remove redundant assignment to variable 'mr'
+         9f3dbcb5632d6876226031d552ef6163bb3ad215 scsi: csiostor: Avoid function pointer casts
          
 
---===============9167731125219129522==
+--===============4991869494601343677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1708029478 -0500
+pusher 75C5DE3D 1708029483 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1708029477-0d27eef89923b131ed7fdf1f0942f46b92a29625
+nonce 1708029483-559394186f98d0a017fea28268aaeff4bd47d03b
 
-4ad9465365378d696545a337c4b1a28277de84d7 a0bcad233fd6a4cdd14441d7cc27b28475721fe8 refs/heads/queue
+95b6b0a97b2107ac80973a4c3fa6a239000a02a0 0898019eb49633ec8f428d0cb70daa04d6f3ab34 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmXOdiYACgkQ7ulgGnXF
-3j0Wlg//dcb5RTN/yYivSTuE1Y/HlZmAQ6GzsiOEOySSZP3Ir8NgOV/h4/jKW/CY
-TQpfP8ZM3ZP7wG5yUniWXWGumc6OEKdZR54qNeK0M2RtVUijDEwiSjbwkMAtjuzi
-XE81tdNgbrRPp6vGPcnvNq8htSniYzGNMsLvSV9CEFKSJ6DZta2/LxaywZ7ZuVzT
-vys1zX7ZfUojU1yEERe/N/Wovfx+1N059uDwNwkG4H1yB1znK30RIiMXzU5POdNF
-BHJbA88RoDFkT4L6sRGGjDDtuqWlfpowH5FQxrVZV9Tv6gDmfOD10vXIsOlTSYXj
-ri3OP6j6dQRv4C2fwo+v2v/FpJWLatrVscsiAVsMhwBDYJ28MZAc9BGFgZqk9PsL
-yr/Nuy+Oq6kMUlAy64tUIMtxnb8KLHQXUQIZMVULdIW78kFgtgnd+Ue0Tu2JBNl2
-uWMEg3OwzJ625hJReRBHUbtsx0ASABNgIp4IwAScK0qU9IKJmS+qKdWuA7Na4Abl
-Jv5fIjA8SnV6bYPbWIz+IbT53tI+cfc2b5I8wAgUBAX3C4R4T3bqjqLj1TS+ivSM
-evu15as6H/J8G9/Xn4eKe2f0sh4Q2DQG9tlVw/OAymkLjYE1X/9XuJvvqSh0P9CQ
-v364S6R4CvsjDRu5h/1abbSO8Eza5Ulbf9lMOz8ECKLZHNqVPT4=
-=qkc/
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmXOdisACgkQ7ulgGnXF
+3j1cLQ//cFSHYgMJsg/zKG+6PaJ7R27DJk+XTGLNXNMiN/5wf8FRwSeQ3pnwuAxE
+JBT8dIIH3KKr50EU/Li0glL+ft2ncXPpii3Dy1QlkN3BgosVUBkUYR4XnCsipyCV
+0U2elmTnWBcZlVp4qSOlEET4Cm5H/9TJYgqTAXyodQJnSV3x+j5qBdbSqVMURdaC
+ed9QdWbtZaS/wdkYHe0YYyaC0iq1CMIXxHoGZjWnILgOm6sSrD2DwLhSY0YfP/kq
+mgY6xelm+cILJYhIxBXERMFWSQcPZtRF5oNrJ9RV6ld5k7ENYkBdsID3O6iUj/Xo
+FNkIRwthC160G4BwdxczOWJG/JiQFpXXpiiq0bQSFUfvhspGkg9T3sulMc6zTUWJ
+oVhyTPOMaUcMweKW4tV6Bc2rVUfA6gKPhXma1Xg0ApBUzfRNiOuTIFRyrurgu7oB
+IMRZjk3Sg6bgmkfDefJge6N80uSU4rjf/WO2V0Bpp7RzSOzIMi8YtiYUdsekgSky
+wlshHtJl2FpCfWPCLrUKpDDamNuDXGBDRh8fzIRFGcmPH37q11Nhz7sFDmpvsx79
+kMRHkqeP//Whd2TonQtFCyE4ooC5XRb7bKtkq6cKK1eBiJto7d7stBulWL5UBDvh
+wjNsSFw+INSbmJn3RlodXCqQb42qnwP94RmbvXZEVSMr6JHLThg=
+=K/V8
 -----END PGP SIGNATURE-----
 
---===============9167731125219129522==--
+--===============4991869494601343677==--
