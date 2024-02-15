@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7757433802481534493=="
+Content-Type: multipart/mixed; boundary="===============7289175994899292981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 15 Feb 2024 16:13:02 -0000
-Message-Id: <170801358214.6580.16908632404467007545@gitolite.kernel.org>
+Date: Thu, 15 Feb 2024 16:13:38 -0000
+Message-Id: <170801361877.6858.6620093868018304230@gitolite.kernel.org>
 
---===============7757433802481534493==
+--===============7289175994899292981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 9b23fceb4158a3636ce4a2bda28ab03dcfa6a26f
     new: c40c0d3a768c78a023a72fb2ceea00743e3a695d
     log: revlist-9b23fceb4158-c40c0d3a768c.txt
 
---===============7757433802481534493==
+--===============7289175994899292981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -60,4 +60,4 @@ e1e5ef2aefc2ab77dacf77626f9f25f332ba91b7 net: fill in MODULE_DESCRIPTION()s for 
 b2c6c5291124451729d40f5adda22452512e7068 Merge branch 'fix-module_description-for-net-p6'
 c40c0d3a768c78a023a72fb2ceea00743e3a695d Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 
---===============7757433802481534493==--
+--===============7289175994899292981==--
