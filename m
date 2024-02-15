@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4543623780575419445=="
+Content-Type: multipart/mixed; boundary="===============3092459634990515015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Thu, 15 Feb 2024 14:04:16 -0000
-Message-Id: <170800585639.30741.3389389500724029718@gitolite.kernel.org>
+Date: Thu, 15 Feb 2024 14:04:25 -0000
+Message-Id: <170800586573.30861.17285830305632346019@gitolite.kernel.org>
 
---===============4543623780575419445==
+--===============3092459634990515015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/w1-next
+  - ref: refs/heads/for-next
     old: 178cf9db9e6d8fb0c026098c8f2d1fd92ae3d79b
     new: a3c08804364e80328a9ffdac59bb26676b938195
     log: revlist-178cf9db9e6d-a3c08804364e.txt
 
---===============4543623780575419445==
+--===============3092459634990515015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1708005854 +0100
+pusher krzk@kernel.org 1708005864 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1708005854-f83e63340ac69e4b30a8670d584a58dcbf991381
+nonce 1708005863-fa3965921c217ac2c804de9497728de69eea16f6
 
-178cf9db9e6d8fb0c026098c8f2d1fd92ae3d79b a3c08804364e80328a9ffdac59bb26676b938195 refs/heads/w1-next
+178cf9db9e6d8fb0c026098c8f2d1fd92ae3d79b a3c08804364e80328a9ffdac59bb26676b938195 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmXOGd4QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD14v1D/9NBz60p5fA1TMboqT+yZLtcbvWQIkXf7+P
-Ossbs10sO3kxLfQ+yHqz3lYkAFiOOAgF0/ci7Jrm3bPkvYTRBXKPfcthIZl52foD
-Yurx5ztrverSXnrEHrU9U/2f80XE2ydidDSRQm3yuROTMtfDgaaNg8gqmQjv7Rzw
-PVp2aef5u6F4eoXu/2gAnbv/HUp/52Me37H/fnnkjyHoErIQxIXDCInRhkaqDV0+
-IAVytF1qLddIbE2fBZ+pVI/jSkSzr473wo2Qb/KENCuflsqeuBIZQYcSkMPvmWoi
-p75bo6VNpc0akXD+Afd3X5IMCnSSJOgW7Xe81cSq0k4JL7ZuiuU8dYlXwgqC/b03
-de0rArHf6/BmlXdQFaMYX3WWjzmP/GGJknEcAM2jJH40ZwxD9nMz1EZ2+diF1ZAZ
-rg32upwz5TcCehAC4fQf8AULK5hdorRE1pjPITXKrhuvrSB/mW0IDLnqOrNKR+/+
-os2+oxCj0FAz45VXzz3jPh6/YwkKvXjHzV/HTT3YglJGkkm0v4NmzrFr2mf11kuA
-wssawsqDpXufw59CXO4avD9XdMSpW5lzhoFbjFZZiEZH6sWqUuxG1ufVaWBOgYqr
-yr3+SC631yMxYSbqzqA1ubLaWRoylWUibr/IgOga9kP8ueOJdhw5Mm656kKQ59mL
-B2+3u27mAQ==
-=pSg4
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmXOGegQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1xpXD/9KHu0Uv20GAi9hMyB7w+CzTaFFDfMLU+EM
+fSfaluwpiuyE1DISmwhPVDI//gGw5LlVzUbop4qqgcHsbGNDmMTbTsvv0WTulKQw
+6P98j+N6NpP6uBEz5DRmmUtn7e2WZvvspp0Af3mpfyKjb7yKNgmIBspyfInUy3oR
+D0QpdbpqeppL5gikKjyiqLxKgJ2of+zN8jXdumHdQEfiElVfDXcP5HJa9EHz///N
+bo++6vfhd6tgZSg7EU8hZ2iyvQiDHAWoMsCx70kauIUycnB2AjdJQPwGLBu7b1VC
+V1cH5u46lXwwbc4mRJLTIMVdbWnSjfI7sst4MzQYE1ZJtlBQHj9WeuhGfeWxyzfW
+14h64a76eB/etkq1u3QyYVAc8LVN3EW3wkZuQyYqHGZF9HPrUw79ABBQHq0m8upH
+Lol7bIyLYlhh0NeMJBb1Y3i+fPQIUjyePUREhrIqahlWHwhVpPNZ5FuoVcu4aU5F
+NKfNrZhoFFnyd9lyQJfLyAKrTX+TAmtI1Inmj5XBBxJRL9t3Ujcb2ldaGQs13u6D
+VcVf+X9v5WSMWgXhnQiSe+OWfS+NL9UvNr/68O/BPGIRkHuObXC086Z410ASUiFx
+aVv7q7meZp0L2n7UL8myQ+ZmJJ36JFfsXVLLJhh+tB54MUbHclKkD7IZgjXr3fke
+bJmk+XC5VQ==
+=qqAp
 -----END PGP SIGNATURE-----
 
---===============4543623780575419445==
+--===============3092459634990515015==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ a5251cd9614cf2ac24a513359b5265b44605cf82 w1: make w1_bus_type const
 23b333375317f6c2866e1ede7e7c4a726fc22aa8 dt-bindings: w1: UART 1-Wire bus
 a3c08804364e80328a9ffdac59bb26676b938195 w1: add UART w1 bus driver
 
---===============4543623780575419445==--
+--===============3092459634990515015==--
