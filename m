@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 15 Feb 2024 21:04:07 -0000
-Message-Id: <170803104795.26542.5428314586467449444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 15 Feb 2024 21:06:14 -0000
+Message-Id: <170803117479.28911.8401765022337539834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/for-next
-    old: a4561f5afef8a8ff25a2cfd46d587f65869494f2
-    new: 57354f5fdee8017783b5cc2e53b263641b6862e9
+  - ref: refs/heads/master
+    old: fb339bde646ca9717f0787aefd6f6cbe4fb13f78
+    new: 055a83c84761705be4295c3fabb6b9038945bf39
     log: |
-         57354f5fdee8017783b5cc2e53b263641b6862e9 bpf: improve duplicate source code line detection
+         055a83c84761705be4295c3fabb6b9038945bf39 shared/bap: Fix wrong value used when extracting LTVs
          
