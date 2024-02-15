@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/glaubitz/sh-linux
-Date: Thu, 15 Feb 2024 17:09:05 -0000
-Message-Id: <170801694599.16627.10696872926185380537@gitolite.kernel.org>
+Date: Thu, 15 Feb 2024 17:12:06 -0000
+Message-Id: <170801712694.19423.16884316289485091185@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/glaubitz/sh-linux
 user: glaubitz
 changes:
   - ref: refs/heads/for-next
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
-    new: 1e0ab148af4a7efbd393cd1ac998fc367c21c64c
+    old: 1e0ab148af4a7efbd393cd1ac998fc367c21c64c
+    new: 0a2d3ce0031f504b2e3ad47625e149ad5759ad33
     log: |
-         94fa4457084f166d9737061997ec2e68581a01b6 dma: dma-sysfs: Make dma_subsys const
-         a4867d2e8d6b03603c7029e22033c0f39efd41f5 sh: intc: Make intc_subsys const
-         1e0ab148af4a7efbd393cd1ac998fc367c21c64c sh: hd64461: Make setup_hd64461 static
+         d32b8d7e3d207bf4d5ae06b1e0fca27fd7639371 sh: dma-sysfs: Make dma_subsys const
+         ad4acb2ec205464e5c352c0466603174aecb3a38 sh: intc: Make intc_subsys const
+         0a2d3ce0031f504b2e3ad47625e149ad5759ad33 sh: hd64461: Make setup_hd64461 static
          
