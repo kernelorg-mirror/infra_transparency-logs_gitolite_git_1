@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 15 Feb 2024 10:48:17 -0000
-Message-Id: <170799409767.16941.11197499164734137659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Thu, 15 Feb 2024 11:09:50 -0000
+Message-Id: <170799539092.32114.15975541309274347116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/main
-    old: d1d77120bc2867b3e449e07ee656a26b2fb03d1e
-    new: 3be0d950b62852a693182cb678948f481de02825
+  - ref: refs/heads/v6.8-next/dts64
+    old: e630c7b0b6a69f667c80e68035c843a653664d0d
+    new: 5b6df373ec95cf051264f655be0dbe1d6caa173c
     log: |
-         3be0d950b62852a693182cb678948f481de02825 net: phy: qca807x: move interface mode check to .config_init_once
+         5b6df373ec95cf051264f655be0dbe1d6caa173c arm64: dts: mediatek: Replace deprecated extcon-usb-gpio id-gpio/vbus-gpio properties
          
