@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 15 Feb 2024 15:30:26 -0000
-Message-Id: <170801102620.7509.3625512349009229176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 15 Feb 2024 15:31:04 -0000
+Message-Id: <170801106454.7851.15359156262796910104@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/for-next
-    old: 9281b5c2a9698c965eba732c950cb54d1448de96
-    new: 536049ddc7dcaaa1751206f32fc801a57b0073cc
-    log: |
-         5319aaa9bb121b4a4fddabf207eae9c57dc62e19 regulator: lp87565: Use bitfield helpers
-         2601b6fb7d715fe5a808d12232ed9ae05fb86eef regulator: lp873x: Use bitfield helpers
-         536049ddc7dcaaa1751206f32fc801a57b0073cc Merge remote-tracking branch 'regulator/for-6.9' into regulator-next
-         
+  - ref: refs/tags/devicetree-fixes-for-6.8-1
+    old: 0000000000000000000000000000000000000000
+    new: 341a65d05496f6b3de4aa225fa57026b2385f504
