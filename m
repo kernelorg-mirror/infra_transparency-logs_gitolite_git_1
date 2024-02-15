@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8089166781617290366=="
+Content-Type: multipart/mixed; boundary="===============1073654247120219173=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Thu, 15 Feb 2024 08:58:30 -0000
-Message-Id: <170798751016.21218.5593206126913978221@gitolite.kernel.org>
+Date: Thu, 15 Feb 2024 09:08:10 -0000
+Message-Id: <170798809061.29176.15990096110195317983@gitolite.kernel.org>
 
---===============8089166781617290366==
+--===============1073654247120219173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 1e6bbc5185bcd113c8d2f7aa0a02f588a6bdbe5d
-    new: ef94eb7b86498075520b05e4f0c9117a1484482a
-    log: revlist-1e6bbc5185bc-ef94eb7b8649.txt
+  - ref: refs/heads/ti-next
+    old: bc805e337f696a9b96f5019a676333c04938178a
+    new: 1e900defe7b998ad582d4470e609cd096b11061f
+    log: revlist-bc805e337f69-1e900defe7b9.txt
 
---===============8089166781617290366==
+--===============1073654247120219173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e6bbc5185bc-ef94eb7b8649.txt
+Content-Disposition: attachment; filename=revlist-bc805e337f69-1e900defe7b9.txt
 
 91e93fdae6bab038f5913f766a9640371f9c630a arm64: dts: ti: k3-am64: Convert serdes_ln_ctrl node into reg-mux
 80d835defb8c9c696be35d86cb7949e5e7c0f1f6 arm64: dts: ti: k3-j7200: Convert serdes_ln_ctrl node into reg-mux
@@ -56,5 +56,6 @@ ee239d358088d6cdf57d6c341040dc92e162f872 arm64: dts: ti: iot2050: Factor out DP 
 4f1202e947fdbadd12cc6ef71b9891c9e246aba3 dt-bindings: arm: ti: Add bindings for J722S SoCs
 3959f4d3d4285ed1f9983c5d82a83574936bf988 arm64: dts: ti: Introduce J722S family of SoCs
 ef94eb7b86498075520b05e4f0c9117a1484482a arm64: dts: ti: Add support for TI J722S Evaluation Module
+1e900defe7b998ad582d4470e609cd096b11061f Merge branch 'ti-k3-dts-next' into ti-next
 
---===============8089166781617290366==--
+--===============1073654247120219173==--
