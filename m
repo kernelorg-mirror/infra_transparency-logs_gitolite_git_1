@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 15 Feb 2024 12:30:11 -0000
-Message-Id: <170800021175.28004.14886869029254796037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Thu, 15 Feb 2024 12:34:13 -0000
+Message-Id: <170800045319.29520.9566630389008878771@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+user: andy
 changes:
-  - ref: refs/heads/main
-    old: d74b23d0c29cb3498642e8673c51e5978ce03496
-    new: e5b2e810daf9f2d87fe132eb4d2a85fb08a0db98
+  - ref: refs/heads/for-next
+    old: fe5bd82f5941e44f31aec72f5b29a3253bbebe11
+    new: 70fb97c0611ed76be5b44cbd3593d1c0b731321e
     log: |
-         e5b2e810daf9f2d87fe132eb4d2a85fb08a0db98 net: bcmasp: Handle RX buffer allocation failure
+         70fb97c0611ed76be5b44cbd3593d1c0b731321e auxdisplay: linedisp: Provide struct linedisp_ops for future extension
          
