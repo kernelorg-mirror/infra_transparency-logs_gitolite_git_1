@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 15 Feb 2024 20:49:33 -0000
-Message-Id: <170803017340.16232.3809875903199341890@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 15 Feb 2024 20:53:13 -0000
+Message-Id: <170803039376.19248.14439091693182943853@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: 5acfe6fbac7a5f4d19202e39714d17290e88b937
-    new: fd2e1a3505e0133701ccdde40825d3950ec9d1b9
+  - ref: refs/heads/for-next/hardening
+    old: 7ceb0508c2e6eed368bb843aa37efaaca45bee32
+    new: 88224081a5cb7db60ae0a1b8b001ef1a106fccc7
     log: |
-         fd2e1a3505e0133701ccdde40825d3950ec9d1b9 Thu Feb 15 03:48:53 PM EST 2024
+         ef80fc515991b7c8da46fbab2edf8869e66a8fe6 overflow: Adjust check_*_overflow() kern-doc to reflect results
+         dcc18e499ba3a128266606dc94fb2f2c3edf4ff9 overflow: Introduce wrapping_add(), wrapping_sub(), and wrapping_mul()
+         068aa6c547dc923a3cac2b47bfd0e6e55c9bf722 overflow: Introduce wrapping_assign_add() and wrapping_assign_sub()
+         f9c66b22e11436c7ecb5c99dcf7d7f696e9f72a5 lib/string_choices: Add str_plural() helper
+         88224081a5cb7db60ae0a1b8b001ef1a106fccc7 cocci: Add rules to find str_plural() replacements
          
