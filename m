@@ -1,46 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============7124632577690473747=="
+Content-Type: multipart/mixed; boundary="===============6531414280950007020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 15 Feb 2024 19:19:10 -0000
-Message-Id: <170802475078.13835.11915920005316971637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Thu, 15 Feb 2024 19:19:41 -0000
+Message-Id: <170802478169.14093.14786053828484410211@gitolite.kernel.org>
 
---===============7124632577690473747==
+--===============6531414280950007020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: b7ccd0f51896e38b995fe0e36f2388f65535593c
-    new: 5ce50f54f57947c2a259f58b94f0579a7363953f
-    log: |
-         5ce50f54f57947c2a259f58b94f0579a7363953f Update version to 0.14-dev
-         
+  - ref: refs/tags/i2c-host-fixes-6.8-rc5
+    old: 0000000000000000000000000000000000000000
+    new: ca2f207f5f39477ca9e7e1a4b5669d91483ba066
 
---===============7124632577690473747==
+--===============6531414280950007020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1708024749 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1708024749-78e731128f58a47931ab2f88e23b7a72862a0277
+pusher andi.shyti@kernel.org 1708024780 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
+nonce 1708024780-fd9f328c7ae4e0b8c46099685c6865f0cfa019ce
 
-b7ccd0f51896e38b995fe0e36f2388f65535593c 5ce50f54f57947c2a259f58b94f0579a7363953f refs/heads/master
+0000000000000000000000000000000000000000 ca2f207f5f39477ca9e7e1a4b5669d91483ba066 refs/tags/i2c-host-fixes-6.8-rc5
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZc5jrQAKCRC2xBzjVmSZ
-bPZgAQDwBXFqKtZG5A+H+BGFY4RN8kywZLwSaGXDVgeuRYUmAAD/bmuWCH50SydR
-snXaBQ60GEbsWvaQzeNFIoXCl9iLoAE=
-=y6Vv
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZc5jzBYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ulWMA/jreNHYg9F0N5lqThmTr/4LqVGz5
+xAazBcZynyUVHxLEAQCPOOhBMzyJoM3/NYtLGc6egtuuhi7awq5uUxVza4UDAQ==
+=je3B
 -----END PGP SIGNATURE-----
 
---===============7124632577690473747==--
+--===============6531414280950007020==--
