@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Thu, 15 Feb 2024 12:42:07 -0000
-Message-Id: <170800092751.4714.7391194090716475499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
+Date: Thu, 15 Feb 2024 12:46:16 -0000
+Message-Id: <170800117626.7873.8652550687991799754@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/bp/bp
+user: bp
 changes:
-  - ref: refs/heads/for-next/fixes
-    old: 50572064ec7109b00eef8880e905f55861c8b3de
-    new: 2813926261e436d33bc74486b51cce60b76edf78
+  - ref: refs/heads/edac-amd-atl-new
+    old: d014eb26409e5c1adbad3c5eab164b94b0be0277
+    new: 6a0cb596a98372bbd363c5925fec8d168d8614a4
     log: |
-         fb091ff394792c018527b3211bbdfae93ea4ac02 arm64: Subscribe Microsoft Azure Cobalt 100 to ARM Neoverse N2 errata
-         2813926261e436d33bc74486b51cce60b76edf78 arm64/sve: Lower the maximum allocation for the SVE ptrace regset
+         6a0cb596a98372bbd363c5925fec8d168d8614a4 Fix Kconfig deps
          
