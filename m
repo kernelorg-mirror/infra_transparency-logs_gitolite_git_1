@@ -1,20 +1,55 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 15 Feb 2024 17:35:24 -0000
-Message-Id: <170801852409.3841.17087165208200598030@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0999510780435957858=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 15 Feb 2024 17:38:33 -0000
+Message-Id: <170801871387.6343.6087607993854401017@gitolite.kernel.org>
+
+--===============0999510780435957858==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/simple-offset-maple
-    old: 88441d2264cc10fa4b73edd29fcaca274fb61bde
-    new: 380438ec8aea040862920a4abd295062125939fe
-    log: |
-         6d4535bae3cad2f092a66c5587fc4fdb9a5b3bf4 libfs: Convert simple directory offsets to use a Maple Tree
-         380438ec8aea040862920a4abd295062125939fe libfs: Re-arrange locking in offset_iterate_dir()
-         
+  - ref: refs/heads/kdevops
+    old: 01b954e5cb84e9e21c61042db9ec01b341cf90fc
+    new: 4fdf0a6041ac128fcf1239b65dd5f950240dbf65
+    log: revlist-01b954e5cb84-4fdf0a6041ac.txt
+
+--===============0999510780435957858==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-01b954e5cb84-4fdf0a6041ac.txt
+
+116099ed345c932a8ae4a0d884a8f6cc54fd5fed selftests/landlock: Fix net_test build with old libc
+40b7835e74e0383be308d528c5e0e41b3bf72ade selftests/landlock: Fix fs_test build with old libc
+bb6f4dbe2639d5b8a9fde4bfb6fefecfd3f18df3 selftests/landlock: Fix capability for net_test
+829388b725f8d266ccec32a2f446717d8693eaba kunit: device: Unregister the kunit_bus on shutdown
+5571e41ec6e56e35f34ae9f5b3a335ef510e0ade btrfs: don't drop extent_map for free space inode on write error
+1693d5442c458ae8d5b0d58463b873cd879569ed btrfs: add and use helper to check if block group is used
+f4a9f219411f318ae60d6ff7f129082a75686c6c btrfs: do not delete unused block group if it may be used soon
+12c5128f101bfa47a08e4c0e1a75cfa2d0872bcd btrfs: add new unused block groups to the list of unused block groups
+d55347bfe4e66dce2e1e7501e5492f4af3e315f8 MIPS: Add 'memory' clobber to csum_ipv6_magic() inline assembler
+11ba1728be3edb6928791f4c622f154ebe228ae6 ptrace: Introduce exception_ip arch hook
+9d6e21ddf20293b3880ae55b9d14de91c5891c59 MIPS: Clear Cause.BD in instruction_pointer_set
+8fa5070833886268e4fb646daaca99f725b378e9 mm/memory: Use exception ip to search exception tables
+feefe1f49d26bad9d8997096e3a200280fa7b1c5 btrfs: don't reserve space for checksums when writing to nocow files
+1bd96c92c6a0a4d43815eb685c15aa4b78879dc9 btrfs: reject encoded write if inode has nodatasum flag set
+88e81a67773017a2b93f6d5fe7c78bb0c5a6e4dd btrfs: zoned: fix chunk map leak when loading block group zone info
+2f6397e448e689adf57e6788c90f913abd7e1af8 btrfs: don't refill whole delayed refs block reserve when starting transaction
+91f842ffe6ca1e97a3966e9e499c3ac6fbcc4bc4 Merge tag 'linux_kselftest-kunit-fixes-6.8-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+1f3a3e2aaeb4e6ba9b6df6f2e720131765b23b82 Merge tag 'for-6.8-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+6004b044f77121d09cacf47073c19dc106da0e9d Merge tag 'landlock-6.8-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
+8d3dea210042f54b952b481838c1e7dfc4ec751d Merge tag 'mips-fixes_6.8_2' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+02cf45c6220a7ffb5fd80c3f03e6f9ee7b04ee6f nfsd: wire up GET_DIR_DELEGATION handling
+737d12b389b751b00952cc3c965f8fed1a76bb1b Merge remote-tracking branch 'brauner/vfs.file' into kdevops
+a9401cd845d14b0891f0fb6d2fc042e89882f6fc Merge remote-tracking branch 'mrchuck/nfsd-next' into kdevops
+1bb51815f4a2cd9214be94cee7dc6c1f38fa3161 Merge branch 'nfsd-next-netlink-new-cmds-public-v7' into kdevops
+4fdf0a6041ac128fcf1239b65dd5f950240dbf65 Merge branch 'dir-deleg' into kdevops
+
+--===============0999510780435957858==--
