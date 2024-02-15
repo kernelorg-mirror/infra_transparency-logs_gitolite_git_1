@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6725551205566655839=="
+Content-Type: multipart/mixed; boundary="===============7757433802481534493=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 15 Feb 2024 16:12:30 -0000
-Message-Id: <170801355022.6325.11930231576800352194@gitolite.kernel.org>
+Date: Thu, 15 Feb 2024 16:13:02 -0000
+Message-Id: <170801358214.6580.16908632404467007545@gitolite.kernel.org>
 
---===============6725551205566655839==
+--===============7757433802481534493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: 55ea989977f4e11a1c3bdfabb51295090bb0f7d6
+  - ref: refs/heads/10GbE
+    old: 9b23fceb4158a3636ce4a2bda28ab03dcfa6a26f
     new: c40c0d3a768c78a023a72fb2ceea00743e3a695d
-    log: revlist-55ea989977f4-c40c0d3a768c.txt
+    log: revlist-9b23fceb4158-c40c0d3a768c.txt
 
---===============6725551205566655839==
+--===============7757433802481534493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55ea989977f4-c40c0d3a768c.txt
+Content-Disposition: attachment; filename=revlist-9b23fceb4158-c40c0d3a768c.txt
 
 c98d8836b817d11fdff4ca7749cbbe04ff7f0c64 wifi: mac80211: reload info pointer in ieee80211_tx_dequeue()
 2e57b77583ca34fdb6e14f253172636c52f81cf2 wifi: iwlwifi: mvm: use correct address 3 in A-MSDU
@@ -35,6 +35,8 @@ b7198383ef2debe748118996f627452281cf27d7 wifi: iwlwifi: mvm: fix a crash when we
 6cdedc18ba7b9dacc36466e27e3267d201948c8d can: j1939: prevent deadlock by changing j1939_socks_lock to rwlock
 efe7cf828039aedb297c1f9920b638fffee6aabc can: j1939: Fix UAF in j1939_sk_match_filter during setsockopt(SO_J1939_FILTER)
 2aa0a5e65eae27dbd96faca92c84ecbf6f492d42 can: netlink: Fix TDCO calculation using the old data bittiming
+c56d055893cbe97848611855d1c97d0ab171eccc igb: Fix string truncation warnings in igb_set_fw_version
+55ea989977f4e11a1c3bdfabb51295090bb0f7d6 igc: Remove temporary workaround
 f6374a82fc85bf911d033e2fa791372ce3356270 netfilter: nft_set_pipapo: fix missing : in kdoc
 0f1ae2821fa4b13ab0f5ad7ff89fa57efcb04fe0 netfilter: nat: restore default DNAT behavior
 84443741faab9045d53f022a9ac6a6633067a481 netfilter: nf_tables: fix bidirectional offload regression
@@ -58,4 +60,4 @@ e1e5ef2aefc2ab77dacf77626f9f25f332ba91b7 net: fill in MODULE_DESCRIPTION()s for 
 b2c6c5291124451729d40f5adda22452512e7068 Merge branch 'fix-module_description-for-net-p6'
 c40c0d3a768c78a023a72fb2ceea00743e3a695d Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 
---===============6725551205566655839==--
+--===============7757433802481534493==--
