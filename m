@@ -1,25 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 15 Feb 2024 09:34:57 -0000
-Message-Id: <170798969752.14420.2526485042329343795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Thu, 15 Feb 2024 09:55:29 -0000
+Message-Id: <170799092929.12122.5694538254034333643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/master
-    old: c369f48df4ed9378538872dc8ee8233029fd97a4
-    new: 9cb7b7671d903573d6c3b9d8112ec13953cdcdc6
+  - ref: refs/heads/pwm/for-next
+    old: ab105bfee27776dd946f8003d1e895fbf7674a3f
+    new: 62c72f6a16aada8cf807021156e9d1be063c8c6a
     log: |
-         9cb7b7671d903573d6c3b9d8112ec13953cdcdc6 docs: add hints about systemd
+         d9efe395c68d6ba273e2a95efe4833f7baafcc41 pwm: atmel-hlcdc: Don't use pwm consumer API
+         32224e394b3ff02fb705c8b82326070cda167f3d pwm: atmel: Don't use pwm consumer API
+         487a38bca889b2cc3522fd44751da41c5ca1d32c pwm: imx27: Don't use pwm consumer API
+         62c72f6a16aada8cf807021156e9d1be063c8c6a dt-bindings: atmel,hlcdc: convert pwm bindings to json-schema
          
-  - ref: refs/heads/stable/v2.40
-    old: 09e65ff7c37887068e995fb8793f17582298be07
-    new: d8318d5961cedbe96e09f446268bd0f6562e54d8
+  - ref: refs/heads/pwm/for-nexxt
+    old: ab105bfee27776dd946f8003d1e895fbf7674a3f
+    new: 62c72f6a16aada8cf807021156e9d1be063c8c6a
     log: |
-         d8318d5961cedbe96e09f446268bd0f6562e54d8 docs: add hints about systemd
+         d9efe395c68d6ba273e2a95efe4833f7baafcc41 pwm: atmel-hlcdc: Don't use pwm consumer API
+         32224e394b3ff02fb705c8b82326070cda167f3d pwm: atmel: Don't use pwm consumer API
+         487a38bca889b2cc3522fd44751da41c5ca1d32c pwm: imx27: Don't use pwm consumer API
+         62c72f6a16aada8cf807021156e9d1be063c8c6a dt-bindings: atmel,hlcdc: convert pwm bindings to json-schema
          
