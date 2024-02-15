@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 15 Feb 2024 21:06:14 -0000
-Message-Id: <170803117479.28911.8401765022337539834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Thu, 15 Feb 2024 21:09:22 -0000
+Message-Id: <170803136287.31392.1779947865040687742@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/master
-    old: fb339bde646ca9717f0787aefd6f6cbe4fb13f78
-    new: 055a83c84761705be4295c3fabb6b9038945bf39
+  - ref: refs/heads/testing/WFAMNAE-next20240215
+    old: ff96745d4bed1e60fa6edc602766af6e8fad90f6
+    new: e8fa66f8ba04cf7f130ab371337afe3744e5e804
     log: |
-         055a83c84761705be4295c3fabb6b9038945bf39 shared/bap: Fix wrong value used when extracting LTVs
+         e8fa66f8ba04cf7f130ab371337afe3744e5e804 treewide: Address -Wflexible-array-member-not-at-end warnings
          
