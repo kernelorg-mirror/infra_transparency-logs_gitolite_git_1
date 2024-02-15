@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6129109140170972944=="
+Content-Type: multipart/mixed; boundary="===============1578337657099731784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 15 Feb 2024 16:26:31 -0000
-Message-Id: <170801439137.16533.14427707995513946114@gitolite.kernel.org>
+Date: Thu, 15 Feb 2024 16:26:57 -0000
+Message-Id: <170801441760.16730.4396343558949213363@gitolite.kernel.org>
 
---===============6129109140170972944==
+--===============1578337657099731784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/100GbE
     old: d1d77120bc2867b3e449e07ee656a26b2fb03d1e
     new: dfe7f12788f5428d8bc16e86eedcfa889a3e3b29
     log: revlist-d1d77120bc28-dfe7f12788f5.txt
 
---===============6129109140170972944==
+--===============1578337657099731784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ a5fcea2d2f790aa90b6e996d411ae2cf8db55186 net: ipv6/addrconf: introduce a regen_m
 f4bcbf360ac8dc424dc4d2b384b528e69b6f34d9 net: ipv6/addrconf: clamp preferred_lft to the minimum required
 dfe7f12788f5428d8bc16e86eedcfa889a3e3b29 Merge branch 'net-ipv6-addrconf-ensure-that-temporary-addresses-preferred-lifetimes-are-long-enough'
 
---===============6129109140170972944==--
+--===============1578337657099731784==--
