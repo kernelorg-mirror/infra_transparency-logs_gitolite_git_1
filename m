@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 16 Feb 2024 09:36:59 -0000
-Message-Id: <170807621971.27087.17158441786361358303@gitolite.kernel.org>
+Date: Fri, 16 Feb 2024 09:42:08 -0000
+Message-Id: <170807652802.13076.17362303737551817987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: b4ea9b6a18ebf7f9f3a7a60f82e925186978cfcf
-    new: 82a678e22d0bbfd8fd2b4581bd4cc848fe930abc
+    old: 82a678e22d0bbfd8fd2b4581bd4cc848fe930abc
+    new: 66b60b0c8c4a163b022a9f0ad6769b0fd3dc662f
     log: |
-         dc489f86257cab5056e747344f17a164f63bff4b net: bridge: switchdev: Skip MDB replays of deferred events on offload
-         f7a70d650b0b6b0134ccba763d672c8439d9f09b net: bridge: switchdev: Ensure deferred event delivery on unoffload
-         82a678e22d0bbfd8fd2b4581bd4cc848fe930abc Merge branch 'bridge-mdb-events'
+         66b60b0c8c4a163b022a9f0ad6769b0fd3dc662f dccp/tcp: Unhash sk from ehash for tb2 alloc failure after check_estalblished().
          
