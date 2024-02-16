@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3320294531636391675=="
+Content-Type: multipart/mixed; boundary="===============2569819143212039733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 16 Feb 2024 23:54:46 -0000
-Message-Id: <170812768665.14122.1627677423347094119@gitolite.kernel.org>
+Date: Fri, 16 Feb 2024 23:54:51 -0000
+Message-Id: <170812769120.14213.18236773490947041525@gitolite.kernel.org>
 
---===============3320294531636391675==
+--===============2569819143212039733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,42 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 2db53550230b9d90144a35e0112d5b40f3e8dcb4
-    new: 2d02cd3930263dcb75616d8e4f974cc985ad50d0
-    log: revlist-2db53550230b-2d02cd393026.txt
+  - ref: refs/heads/master
+    old: 683b783c2093e0172738f899ba188bc406b0595f
+    new: c1ca10ceffbb289ed02feaf005bc9ee6095b4507
+    log: revlist-683b783c2093-c1ca10ceffbb.txt
 
---===============3320294531636391675==
+--===============2569819143212039733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2db53550230b-2d02cd393026.txt
+Content-Disposition: attachment; filename=revlist-683b783c2093-c1ca10ceffbb.txt
 
-076470168c9cce6035e51d9ad0cb691bf15b1552 ===== expose effective quota
-155472b4034e135c34b736d0ce4e7b2ffe039cf5 mm/damon/sysfs-schemes: implement quota effective_bytes file
-aa2be3a364380e8975a9e137fa919b4ae2255dbd mm/damon/sysfs: implement a kdamond command for updating schemes' effective quotas
-6cb7a689327ca596083e3faff7cdfee7943e646d Docs/ABI/damon: document .../quotas/effective_bytes sysfs file
-08cd522a8f33569a5b2fe933b4ba78dc468d2c1b Docs/admin-guide/mm/damon/usage: document effective_bytes file
-71f0a13e0d9edfb02ef286e5176e556ed3b18d80 ===== quota goal refactoring
-dd0e0db0793170a97d753fd418cbaae265298607 mm/damon/core: Set damos_quota->esz as public field and document
-52550097c0f2a12fe2950e0a24d2fa1de6a28deb mm/damon: move comments and fields for damos-quota-prioritization to the end
-51ad78caf20f6cd71139bc634436a9419a03e96e mm/damon/core: split out quota goal related fields to a struct
-1469b55eaa296516ad45ff0616eb13cdd4105071 mm/damon/core: add multiple goals per damos_quota and helpers for those
-b85dfe0195df3aef818275e4bd90675e7e07d024 mm/damon/sysfs: use only quota->goals
-8fe0f2c2a1b7b70ba11ce4841ea84b6d445bf0ed mm/damon/core: remove ->goal field of damos_quota
-6ab065a5abd2187c4b5a4937a6f45a561c955014 mm/damon/core: let goal specified with only target and current values
-51325f9a2c376e28ed54373deece1f3133d1dd4f mm/damon/sysfs-schemes: remove unused function, damos_sysfs_get_quota_score()
-03f91bac1eb2006e8b03d4ca685f37475fe534eb ===== implement self-feed metrics
-b5b12e6ce229370376953ffb8d8cb89c16745175 mm/damon/core: support multiple metrics for quota goal
-ea2c40805c1dcd46ab12e5f592ed210ccba7dffa mm/damon/core: implement PSI metric DAMOS quota goal
-e67146cbe69fa5694cbff76c4fed25fa4436e38f mm/damon/sysfs-schemes: support PSI-based quota auto-tune
-d0e7c20a1b0d87ea76bc7cf8270760b689e5d8f5 Docs/mm/damon/design: document quota goal metric-based self-feedback
-2da07c295747dd40d4a481d4cdfff00677c14159 Docs/admin-guide/mm/damon/usage: document quota goal metric file
-241011e49ceb1602a8b5f882140be86866d88267 Docs/ABI/damon: document quota goal metric file
-cde470d34be2b28d13de575886f3b5baefdf91e8 ===== damon_reclaim auto-tune
-6e12640571564ed0e4aa2fa2a18b4bd4e393bea7 mm/damon/reclaim: implement user-feedback driven quota auto-tuning
-d8271c6705cd64201775878d84321b6442f3b566 mm/damon/reclaim: implement memory PSI-driven quota auto-tuning
-d63bcf2c32ae7e7d96b00a5971147ae740ee58ff Docs/admin-guide/damon/reclaim: document auto-tuning parameters
-2d02cd3930263dcb75616d8e4f974cc985ad50d0 Add debug log for PSI
+aac8a59537dfc704ff344f1aacfd143c089ee20f Revert "workqueue: Override implicit ordered attribute in workqueue_apply_unbound_cpumask()"
+4cbec7e89a416294c46e71c967b57b9119fe0054 scsi: target: Fix unmap setup during configuration
+977fe773dcc7098d8eaf4ee6382cb51e13e784cb scsi: Revert "scsi: fcoe: Fix potential deadlock on &fip->ctlr_lock"
+379a58caa19930e010b7efa1c1f3b9411d3d2ca3 scsi: fnic: Move fnic_fnic_flush_tx() to a work queue
+902d6d013f75b68f31d208c6f3ff9cdca82648a7 ceph: always queue a writeback when revoking the Fb caps
+dbc347ef7f0c53aa4a5383238a804d7ebbb0b5ca ceph: add ceph_cap_unlink_work to fire check_caps() immediately
+79bd7eab8366b29eaa099908d5694cb473684b9d nvme-fabrics: fix I/O connect error handling
+29f6975332479f92233594901c649ff4d71f8cb6 nvme: implement support for relaxed effects
+8d30528a170905ede9ab6ab81f229e441808590b nvmet: remove superfluous initialization
+a37ee9e117ef73bbc2f5c0b31911afd52d229861 io_uring/net: fix multishot accept overflow handling
+9c10f2b172eb26007e9b641271798234911d24c2 Merge tag 'nvme-6.8-2024-02-15' of git://git.infradead.org/nvme into block-6.8
+3f9c1b315d65fb4b3a2352d579c35d662b0c2ae0 Merge tag 'ceph-for-6.8-rc5' of https://github.com/ceph/ceph-client
+8096015082592cf282fdee9d052aa1d3bbadb805 Merge tag 'io_uring-6.8-2024-02-16' of git://git.kernel.dk/linux
+7edfe0aaa6e74b8fb2aa178d3b140e1468cf85ff Merge tag 'block-6.8-2024-02-16' of git://git.kernel.dk/linux
+975b26ab307e30e7ccec2a83eae6c017622a9125 Merge tag 'wq-for-6.8-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+c1ca10ceffbb289ed02feaf005bc9ee6095b4507 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============3320294531636391675==--
+--===============2569819143212039733==--
