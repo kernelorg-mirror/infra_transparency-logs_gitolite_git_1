@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Fri, 16 Feb 2024 13:17:32 -0000
-Message-Id: <170808945253.6507.17566607037159848310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 16 Feb 2024 13:20:20 -0000
+Message-Id: <170808962018.9131.13960779016198180212@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/togreg
-    old: bd2f1ed8873d4bbb2798151bbe28c86565251cfb
-    new: b2abddd3164bd188951bd1c3ca10c9a2bf4e7b3e
+  - ref: refs/heads/gpio/for-next
+    old: 8ff0d55ba3fb56b69e40c50ff030a77c27a072ca
+    new: 91510d5959ad9eac451685e3bfc8385b89c23908
     log: |
-         af55e19ccceffcd78efee6500691afe80a86130d iio: humidity: hdc3020: switch to 16bit register defines
-         941fd236c9b5cd2e9a4af75f729ee54c65d28861 dt-bindings: iio: humidity: hdc3020: add interrupt bindings in example
-         b2abddd3164bd188951bd1c3ca10c9a2bf4e7b3e iio: humidity: hdc3020: add threshold events support
+         91510d5959ad9eac451685e3bfc8385b89c23908 gpio: cdev: fix a NULL-pointer dereference with DEBUG enabled
          
