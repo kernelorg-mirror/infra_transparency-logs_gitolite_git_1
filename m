@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9027305210820598294=="
+Content-Type: multipart/mixed; boundary="===============3790569349463027792=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Fri, 16 Feb 2024 04:46:03 -0000
-Message-Id: <170805876322.13002.7621959234781698825@gitolite.kernel.org>
+Date: Fri, 16 Feb 2024 04:46:13 -0000
+Message-Id: <170805877313.13148.17918122268366426588@gitolite.kernel.org>
 
---===============9027305210820598294==
+--===============3790569349463027792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
-  - ref: refs/heads/dev
-    old: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
-    new: b6c0dec9f78bc691166d60347b52b3adf03d5875
-    log: revlist-54be6c6c5ae8-b6c0dec9f78b.txt
+  - ref: refs/heads/next
+    old: 97280fa1ed9411d166f6b5051120b34a33d62feb
+    new: 1fc5baf574b7b3011b49571811cafdd7e2295e5d
+    log: revlist-97280fa1ed94-1fc5baf574b7.txt
 
---===============9027305210820598294==
+--===============3790569349463027792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-54be6c6c5ae8-b6c0dec9f78b.txt
+Content-Disposition: attachment; filename=revlist-97280fa1ed94-1fc5baf574b7.txt
 
 bad5247a2c4f7eab6fb922af3362740a562dc665 ima: Align ima_inode_post_setattr() definition with LSM infrastructure
 0298c5a9b168f0d74ea3bf881301c4bd9252d367 ima: Align ima_file_mprotect() definition with LSM infrastructure
@@ -51,5 +51,6 @@ cd3cec0a02c7338ce2901c574f3935b8f6984aab ima: Move to LSM infrastructure
 75a323e604fc77c50c7ef2af6f0eeef221637642 evm: Make it independent from 'integrity' LSM
 4de2f084fbff41113d9adec3c9e15ab12bf05e21 ima: Make it independent from 'integrity' LSM
 b6c0dec9f78bc691166d60347b52b3adf03d5875 integrity: Remove LSM
+1fc5baf574b7b3011b49571811cafdd7e2295e5d Automated merge of 'dev' into 'next'
 
---===============9027305210820598294==--
+--===============3790569349463027792==--
