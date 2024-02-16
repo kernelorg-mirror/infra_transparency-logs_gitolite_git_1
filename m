@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Fri, 16 Feb 2024 23:43:44 -0000
-Message-Id: <170812702465.6638.13616146681133855066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
+Date: Fri, 16 Feb 2024 23:46:11 -0000
+Message-Id: <170812717139.9161.6822845225304714736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wbg/counter
-user: wbg
+repo: pub/scm/linux/kernel/git/namhyung/linux-perf
+user: namhyung
 changes:
-  - ref: refs/heads/counter-next
-    old: 295afc57e51c666fffc50d6b25c0ba542dbc6854
-    new: b6dce0452a0276339392bc5eeb722370a466ba25
-    log: |
-         b6dce0452a0276339392bc5eeb722370a466ba25 counter: fix privdata alignment
-         
+  - ref: refs/heads/perf/data-profile-v6
+    old: 0000000000000000000000000000000000000000
+    new: 6d7ba4e701993044bb21dd6fb6ec0170f62fa38f
