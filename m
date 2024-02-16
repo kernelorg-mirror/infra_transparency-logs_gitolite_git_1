@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Fri, 16 Feb 2024 12:04:46 -0000
-Message-Id: <170808508633.17220.6856265663771897980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Fri, 16 Feb 2024 12:04:52 -0000
+Message-Id: <170808509240.17323.18089069752690304309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
-user: bp
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/edac-amd-atl-new
-    old: 6a0cb596a98372bbd363c5925fec8d168d8614a4
-    new: acee46219cddc05c4133638b853bde5b1c95803b
+  - ref: refs/heads/riscv-soc-fixes
+    old: a9d022ae8c4faca73467f70ca4a880787d855f94
+    new: bf456162601ff701267a33a082350cceee8b1f5f
     log: |
-         53a292e4037d8e6fd0f219bb1db76bb979c1a2f9 Add init_fmps() failure path
-         19bb202bb75bfdef85e7ac72d4792b81a450d109 Fix CPU match in init_fmps()
-         bf2de2234754965b0e2e3fe51c036cc873d97a3a Skip invalid CPUs in retire_mem_fmp()
-         8e4549aae15b0be35ae3a0e5dfb74df200179cd4 More pr_debug for fmp_is_valid()
-         5ee7b83ec1b53c3a8653fb3c3226bc373031a7d3 Adjust length check and misc.
-         ac27c147712c14ac02070a02b985d171ac85c496 Fixup CPU matching
-         0fe42e07ba083efd5f4836c8a4fb51f5531ecb98 Fixup retire_mem_fmp()
-         acee46219cddc05c4133638b853bde5b1c95803b Touchups
+         0abcac4fe3ca3aeaef40ad53c0b295b2d5f8cbf1 firmware: microchip: fix wrong sizeof argument
+         8bbccdd8c264ccac9d6b7c3beafec093c42996a7 cache: ax45mp_cache: Align end size to cache boundary in ax45mp_dma_cache_wback()
+         bf456162601ff701267a33a082350cceee8b1f5f Merge branches 'riscv-cache-fixes' and 'riscv-firmware-fixes' into riscv-soc-fixes
          
