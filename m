@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 16 Feb 2024 23:10:38 -0000
-Message-Id: <170812503889.15690.9749635328401475636@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Fri, 16 Feb 2024 23:11:07 -0000
+Message-Id: <170812506773.15999.15084290222847927175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/master
-    old: e44a2df60fe0bb01cb7d6a538806cde0f56a192b
-    new: 1896f8021ed3870a09564e0efe02c469b3208cd8
+  - ref: refs/heads/for-next
+    old: 14c5678720bdee7c5b582839a8dbcffd0c50de5c
+    new: a9b254892ce1a447b06c5019cbf0e9caeb48c138
     log: |
-         d0a1452bb1a54a0263db7d3e3b84080eed43f228 examples/proxy: send the sme size we received
-         1896f8021ed3870a09564e0efe02c469b3208cd8 examples/proxy: add bi-directional mode
+         a9b254892ce1a447b06c5019cbf0e9caeb48c138 power: supply: axp288_fuel_gauge: Add STCK1A* Intel Compute Sticks to the deny-list
          
