@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Fri, 16 Feb 2024 13:29:39 -0000
-Message-Id: <170809017986.13958.999630661223647452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Fri, 16 Feb 2024 13:36:29 -0000
+Message-Id: <170809058983.19619.13382426152377686689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: db14d8463b3d36b1a47ba52400ae4ccebc0b00c8
-    new: a6ea53ce77e9dd6e388d673bdd4d80741f97b914
+  - ref: refs/heads/nfsd-next
+    old: 1dc3c314af65ddde18dc33734583596dd0a812df
+    new: 6b2ca3c4c0c0288fd5586213c7457b4a4bbd82fd
     log: |
-         a6ea53ce77e9dd6e388d673bdd4d80741f97b914 parisc/unaligned: Rewrite 64-bit inline assembly of emulate_ldd()
+         df450cf22231f7d22c8e5bae41bc2964af7290ac NFSD: add support for CB_GETATTR callback
+         6b2ca3c4c0c0288fd5586213c7457b4a4bbd82fd NFSD: handle GETATTR conflict with write delegation
          
