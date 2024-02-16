@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Fri, 16 Feb 2024 22:44:29 -0000
-Message-Id: <170812346974.27357.2306883773467696140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 16 Feb 2024 22:44:57 -0000
+Message-Id: <170812349741.27572.16699861033986216138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/fixes
-    old: 30d5297862410418bb8f8b4c0a87fa55c3063dd7
-    new: 2df70149e73e79783bcbc7db4fa51ecef0e2022c
+  - ref: refs/heads/for-linus
+    old: 41044d5360685e78a869d40a168491a70cdb7e73
+    new: 172c0cf519fb52860157c57067f1a58cfc0aa861
     log: |
-         2df70149e73e79783bcbc7db4fa51ecef0e2022c power: supply: bq27xxx-i2c: Do not free non existing IRQ
+         172c0cf519fb52860157c57067f1a58cfc0aa861 MAINTAINERS: Add Siddharth Vadapalli as PCI TI DRA7XX/J721E reviewer
          
