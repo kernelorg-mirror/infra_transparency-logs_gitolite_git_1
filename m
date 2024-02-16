@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7474737969930269013=="
+Content-Type: multipart/mixed; boundary="===============1116235393927441118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Fri, 16 Feb 2024 13:46:42 -0000
-Message-Id: <170809120249.27958.7730042541936335209@gitolite.kernel.org>
+Date: Fri, 16 Feb 2024 13:48:23 -0000
+Message-Id: <170809130335.28638.5925143550529283112@gitolite.kernel.org>
 
---===============7474737969930269013==
+--===============1116235393927441118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity
-    old: 1ed4b563100230ea68821a2b25a3d9f25388a3e6
+  - ref: refs/heads/next-integrity-testing
+    old: 55ede3a5e7d1d8ae5e0dfd44f5a8214920866b3b
     new: 85445b96429057d87446bcb24ec0cac9ea9c7fdf
-    log: revlist-1ed4b5631002-85445b964290.txt
+    log: revlist-55ede3a5e7d1-85445b964290.txt
 
---===============7474737969930269013==
+--===============1116235393927441118==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1ed4b5631002-85445b964290.txt
+Content-Disposition: attachment; filename=revlist-55ede3a5e7d1-85445b964290.txt
 
-1513664f340289cf10402753110f3cff12a738aa ALSA: hda/realtek: fix mute/micmute LEDs for HP ZBook Power
 4b5581f112075e46d73b34b9848be041e6c1e489 accel/ivpu: Disable PLL after VPU IP reset during FLR
 192cdb1c907fd8df2d764c5bb17496e415e59391 cpufreq: intel_pstate: Refine computation of P-state for given frequency
 3c18703079b6c7149d037b71d685d6fcaf6c4cd0 netfs, cachefiles: Change mailing list
@@ -209,6 +208,7 @@ d0009effa8862c20a13af4cb7475d9771b905693 netfilter: nf_tables: validate NFPROTO_
 443b349019f2d9461b23213a4308f9cf72e41c5e samples/cgroup: add .gitignore file for generated samples
 a5f5eee282a0aae80227697e1d9c811b1726d31d net: stmmac: Wait a bit for the reset to take effect
 9f538b415db862e74b8c5d3abbccfc1b2b6caa38 net: mvpp2: clear BM pool before initialization
+1ed4b563100230ea68821a2b25a3d9f25388a3e6 Revert "KEYS: encrypted: Add check for strsep"
 3eab830189d94f0f80f34cbff609b5bb54002679 uselib: remove use of __FMODE_EXEC
 cf10015a24f36a82370151a88cb8610c8779e927 Merge tag 'execve-v6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 1793ce9f205efe07ca2992ef129b86dab2c329f5 drm/msm/dpu: fix kernel-doc warnings
@@ -1051,4 +1051,4 @@ c021e191cf3da2fea766d784546f4c5acbfcd137 Merge tag 'x86_urgent_for_v6.8_rc4' of 
 841c35169323cd833294798e58b9bf63fa4fa1de Linux 6.8-rc4
 85445b96429057d87446bcb24ec0cac9ea9c7fdf integrity: eliminate unnecessary "Problem loading X.509 certificate" msg
 
---===============7474737969930269013==--
+--===============1116235393927441118==--
