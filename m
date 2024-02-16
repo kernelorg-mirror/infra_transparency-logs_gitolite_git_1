@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 16 Feb 2024 09:42:08 -0000
-Message-Id: <170807652802.13076.17362303737551817987@gitolite.kernel.org>
+Date: Fri, 16 Feb 2024 09:43:46 -0000
+Message-Id: <170807662693.13726.17653186342732336253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 82a678e22d0bbfd8fd2b4581bd4cc848fe930abc
-    new: 66b60b0c8c4a163b022a9f0ad6769b0fd3dc662f
+    old: 66b60b0c8c4a163b022a9f0ad6769b0fd3dc662f
+    new: a9f80df4f51440303d063b55bb98720857693821
     log: |
-         66b60b0c8c4a163b022a9f0ad6769b0fd3dc662f dccp/tcp: Unhash sk from ehash for tb2 alloc failure after check_estalblished().
+         a9f80df4f51440303d063b55bb98720857693821 net: ethernet: adi: requires PHYLIB support
          
