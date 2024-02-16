@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Fri, 16 Feb 2024 19:16:38 -0000
-Message-Id: <170811099855.7419.11855099197026846432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Fri, 16 Feb 2024 19:16:57 -0000
+Message-Id: <170811101799.7613.2225942085926402930@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/for-next-next
-    old: 231f5fb92c1cdbb89aef2107f5246298af08eb31
-    new: 364bd5f2c65458734fe53d2b3e8bb284fc9fa639
+  - ref: refs/heads/modules-next
+    old: 157285397f6a7b35d8f7f115e1be24f49e947ba3
+    new: 9f4af9fd4ebf3aaaa3de9d32753afb26152ed5fc
     log: |
-         364bd5f2c65458734fe53d2b3e8bb284fc9fa639 parisc/unaligned: Rewrite 64-bit inline assembly of emulate_ldd()
+         9f4af9fd4ebf3aaaa3de9d32753afb26152ed5fc module: Don't ignore errors from set_memory_XX()
          
