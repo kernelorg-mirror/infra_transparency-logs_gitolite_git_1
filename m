@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0982783242687419527=="
+Content-Type: multipart/mixed; boundary="===============7388885296688522767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 17 Feb 2024 16:46:28 -0000
-Message-Id: <170818838853.9491.4740588225367203064@gitolite.kernel.org>
+Date: Sat, 17 Feb 2024 16:47:13 -0000
+Message-Id: <170818843345.9851.16298972619192608793@gitolite.kernel.org>
 
---===============0982783242687419527==
+--===============7388885296688522767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 6cc3028f797a549f256d593867a769ab6a8265f2
-    new: baa864d1ac1f2901499f52e6a7e67b4dfe42ccff
+    old: baa864d1ac1f2901499f52e6a7e67b4dfe42ccff
+    new: 0bbd517337f07a39199105e82d6801edf2e6551c
     log: |
-         8524788abf564fb7927873ff3fbc8056c6f02195 tty/vt: Corrected doc of vc_sanitize_unicode(), vc_translate_unicode()
-         42af6bcbc351d544889fcbcfc9c3d4bd39191b7d tty: hvc-iucv: fix function pointer casts
-         394e3dbac214e6144a4a0fd27cfd5e5164daea3d serial: 8250_pci1xxxx: Don't use "proxy" headers
-         baa864d1ac1f2901499f52e6a7e67b4dfe42ccff serial: st-asc: don't get/put GPIOs in atomic context
+         00302ba7605ffea59d7d59603d91dd7a095096e4 serial: 8250_bcm7271: Replace custom unit definitions
+         a5542e36ce9724e05d115a401d209a0811a5b618 serial: lpc32xx_hs: remove redundant check and assignment of hsu_rate
+         0bbd517337f07a39199105e82d6801edf2e6551c tty: jsm: Remove redundant assignment to variable linestatus
          
 
---===============0982783242687419527==
+--===============7388885296688522767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708188384 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708188429 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1708188382-5a5bd18bd47e6600efb3595ce9ff39e7ab611d1a
+nonce 1708188428-50e2f606de3fec19957ad572305eb29e9a22dfd3
 
-6cc3028f797a549f256d593867a769ab6a8265f2 baa864d1ac1f2901499f52e6a7e67b4dfe42ccff refs/heads/tty-testing
+baa864d1ac1f2901499f52e6a7e67b4dfe42ccff 0bbd517337f07a39199105e82d6801edf2e6551c refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXQ4uAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZGcQAKK7PTu1irctd6KffCxP
-e2fXcE53L3CQDwellAcRrldJJhhCpZ/fi3lWaGjiXgtmZvP4TfCZSslGZrj5ToOr
-ZUhcYYs3Z97rBY5Rsw5Lfs/hragwarM/FrqA3Xhltn/U+dNAjaHzyfnhVIDUW7H3
-je7AfaNJR9fOENb2rOtQmt0qtZHNlrHmD0uxsO96sCZfCr7wuF98LQePnov1tbRq
-q4m59weGo1pKdkh0NTcub2UJNd3EtackYR/h+9rosh5dDrVgPkyKAO2867NJmSTb
-dVyKSt278nFBhLYDyQwRXpJkUdXWUPiB/Il9hLMNd8sSoRadNMRnnNEtL8aMQer2
-DZ6yKPU0/2ogJrfpZKUw9OopA1KUyrAfV3UBWx1PDmyDW++cyFpso+YODG+BKiXT
-x+8286mZ5B9XrF0w8q8K22XU+XWy503yfroSmw2terD3mUoXSkd4Rw1I7q7pvoOw
-nWyKG///JCJyV5AQdhdyYZn0bRODuYh4XLfo1eg5pTTcySdfMxrFW62fDaflByiG
-ILKX3GnE0KuECWXOQC3zsNiDYM3ONzLQ09vUvQmMvfn8c/elLESYOkBE+bb4zTDs
-lRApFSc870Ygq3Lg4xa00ZQOSQ3de4c0Xvn+FR32jVqWi0CyiC50bhqIsSzpRJsu
-pxSwAYrO0HajPjdgqyLMPzwm
-=Qi44
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXQ4w0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FPoQAJkschqDsTWUTlxjbWE4
+qcziCxDk11JLsYbWRY5tEzQEXQV73U9G9UFXitZrw1Rar2dSr3Jz/HpgvQS/tQ6V
+rzJmSiOnJxAyhTxuvcVWbh4XPHIUllFNzZHp6oLvWNIlXLr9G8fqncAzYdSW3D7z
+Iq2oF3Delm1mz9miyqr+DABRlA06gRnHu4gz6N4cOi2B2v6xqRlFnQ1JiDvsYFPI
+fN7R4827UHzDF5TeyilQhUezr93g9vsbWfLfzesXfnJ26wpK367EqHak4QqVEIxy
+dYULDMah8DxD5JJxJsNOoTsiJKuTjrMtInMO0sb9/AnGRgybRQWTHTcUQWyhCIAr
+PB/voXUzEY1m3+AegL+XHNYR4srMh37w1LR7DlH4PcdmQ36IdgnKTfAHAIsSwDDU
+sxHEaRCXFnPvTjnbXqw2OE+QtZdti2sbcsFTZd80fA7SgMeH+tRilN5PjPgWLLZC
+iuc/FXRd7urKSsYdZe8cjZcpO/GciSUXw5LQEoR3uq/hKk8Kv6lDrQ0kQpbuJ5g3
+g3x1Xbde8oSMy7jGuLSGlkYUGVpqnLXHe/P44mczxq9vtsfsrMKNjzyJ+vHwR8/X
++KrI/3Oq1Mj8ymPiHH65i14e5uX4l8IgpjQTsQXxnvIBNZoK9s8fNWcPk4PTHedL
+jtUIkxzmyxjJRrpurwzbzpPU
+=QCVL
 -----END PGP SIGNATURE-----
 
---===============0982783242687419527==--
+--===============7388885296688522767==--
