@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4861583749713340295=="
+Content-Type: multipart/mixed; boundary="===============6217101725319938558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 17 Feb 2024 13:48:35 -0000
-Message-Id: <170817771561.9464.5525055190748040340@gitolite.kernel.org>
+Date: Sat, 17 Feb 2024 13:56:44 -0000
+Message-Id: <170817820496.15506.8105018349869196058@gitolite.kernel.org>
 
---===============4861583749713340295==
+--===============6217101725319938558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,38 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 3ca8fbabcceb8bfe44f7f50640092fd8f1de375c
-    new: 5928d411557ec5d53832cdd39fc443704a3e5b77
-    log: |
-         5928d411557ec5d53832cdd39fc443704a3e5b77 Documentation: Document the Linux Kernel CVE process
-         
+  - ref: refs/tags/driver-core-6.8-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 4506c94ae340da1b25e11aa37df71e448c9f30dc
 
---===============4861583749713340295==
+--===============6217101725319938558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708177709 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708178201 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1708177709-4144f979f34e00baf225f69d71810c93f77a3fa1
+nonce 1708178200-5be187d12db19185a1167c7468ab434c828032d9
 
-3ca8fbabcceb8bfe44f7f50640092fd8f1de375c 5928d411557ec5d53832cdd39fc443704a3e5b77 refs/heads/driver-core-linus
+0000000000000000000000000000000000000000 4506c94ae340da1b25e11aa37df71e448c9f30dc refs/tags/driver-core-6.8-rc5
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXQuS0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZwIP/0FfQe6vYkcauVqZ3EV/
-snK1P3o5gVnnfk7L2V1QV2ZhI6Vwf97OiGU98bb9ar3KradPEhx1A4i6BeJO/p+m
-MlgRYQFX2OL03VzVmMBSTB+otvnAOOyMrWtzgKfsC8coBySddO2w2JbMR+bgMwB+
-9GNCnwYvAAJ8LI7SPNapclSa+0EFoOIIy0cX0D8mcljJDVPQcyYvf5D6661KaOPQ
-WoTI49To8QxhfAYwC/zltIwcilZHFPSfgSM6oXbJmH1JmJEeqMgS8qEBSPSc4xMh
-2vydtuFL5PBT39mYpAJRvHYt388fE6GjlhU+7U028ZikeS8C7bri0NBRT1gF30Gk
-fxCYaBW61kw81VQhEnTqsLU7foz+JWhPpFJlO06FYDD4Ycsc/N2G4s9czOxSz7sL
-mDsJrx2TLoT6vAeTwgEk1WT892/CfCeXn4IWo13bBGzOgLuzR7o8vYnqSN439S50
-jr9iw82uFE41SyHw6loOYW4yzubX7NZ4gzRuqlj/i5yM5Yzewpzx/pBQ1+wujsj5
-mpPskyGEgIEXCmUmjCGcTzSpkgGkPRFTHkuZHGf7p7v15hEiOngfqTu+rAnj6mR+
-a3psSGJfcnFu8GDhhQa9XZ1ZIWEgHSvT9CPrziov71F5ZWpSfj5EsujgqDAjGuLp
-Mf5sOWttfnJDc246MBwPSOIz
-=XLdQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXQuxkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cyEP/iuQHg3SIfi9NqUmNZyl
+LhQKdaLn7yi89OdX6thLW0TqLvOAGwa/mQKmN1pcxVVQV9q7Tgs8W3SIFKVBexre
+y7pYB4R3eTmjanP3F2IAIXE0QcYFupj0fvWFPBPsFV3U1dmtxm11fmBE3FbTafvl
+YtXDtq32SpEjDEPGvzwvSYZyndgbAqn6aqm4mZVd8eB/3SyshkNz0QrlHtzasdRB
+3nRDEK3rbp7dOue90LXLDQtXHFfnbVWyUy+8MvOCamVKiQDtqC1bJE+19C5o6ZF9
+GcSN7vQOWg76gliRK1zW7EsqkpwvUiyztbI0U09yI/91iQsHbXyznUV9gAkMzj/M
+gJGAxYAUlHHxfKKxPMzIGWocMqZf4VbTaAvEEbGrtF/rtWZMUxOZ5PWa5P9q/l5b
+YrVpORhQsRhUk16zACf49gMVRBOqvTeGuVWk9jmAjvAL2Tyil0I6zAFwzK9AAjwJ
+DlF4WWlBaVyRQ3BbsRkUEisW8YDJYHyaKgXvNUObRVcg2Fn7CoZeJMF0/YzJ25y1
+nDwh6lVv93LMNvc71124/X0164tNYC0I3RGC8rFawkUNGnQB9wQdXYiqnXmOPaze
+6chXtDLExFpQLoE74Mk1Yf1RQYUvFHOkIYcOQHSJ/DopOV7p40HfGkC8I0n/OAI/
+gzDrPK5PavmJT9aK9tkFfN5k
+=5nqj
 -----END PGP SIGNATURE-----
 
---===============4861583749713340295==--
+--===============6217101725319938558==--
