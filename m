@@ -1,48 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============7984623805473219748=="
+Content-Type: multipart/mixed; boundary="===============3932869227935249750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 17 Feb 2024 16:26:45 -0000
-Message-Id: <170818720547.26643.1339402800170289358@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 17 Feb 2024 16:29:48 -0000
+Message-Id: <170818738802.27789.1006761885455070912@gitolite.kernel.org>
 
---===============7984623805473219748==
+--===============3932869227935249750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: c1ca10ceffbb289ed02feaf005bc9ee6095b4507
-    new: ac00b6546d390bc12d1d2824c2b5d95046097eb2
-    log: revlist-c1ca10ceffbb-ac00b6546d39.txt
+  - ref: refs/heads/staging-testing
+    old: ce54e9342124ededf0a00ed4e8a8aee535bfbf00
+    new: cfd87832dfa1b69069d3e6c598044a5568e1a1ef
+    log: revlist-ce54e9342124-cfd87832dfa1.txt
 
---===============7984623805473219748==
+--===============3932869227935249750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1ca10ceffbb-ac00b6546d39.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a107d643b2a3382e0a2d2c4ef08bf8c6bff4561d media: Revert "media: rkisp1: Drop IRQF_SHARED"
-ffb635bb398fc07cb38f8a7b4a82cbe5f412f08e media: rkisp1: Fix IRQ handling due to shared interrupts
-f66556c1333b3bd4806fc98ee07c419ab545e6ee media: atomisp: Adjust for v4l2_subdev_state handling changes in 6.8
-6a9d552483d50953320b9d3b57abdee8d436f23f media: rc: bpf attach/detach requires write permission
-dc9ceb90c4b42c6e5c6757df1d6257110433788e media: ir_toy: fix a memleak in irtoy_tx
-346c84e281a963437b9fe9dfcd92c531630289de media: pwm-ir-tx: Depend on CONFIG_HIGH_RES_TIMERS
-41044d5360685e78a869d40a168491a70cdb7e73 PCI: Fix active state requirement in PME polling
-cffe487026be13eaf37ea28b783d9638ab147204 cifs: fix underflow in parse_server_interfaces()
-79520587fe42cd4988aff8695d60621e689109cb cifs: update the same create_guid on replay
-4508ec17357094e2075f334948393ddedbb75157 smb: client: set correct id, uid and cruid for multiuser automounts
-8bde59b20de06339d598e8b05e5195f7c631c38b smb: client: handle path separator of created SMB symlinks
-4860abb91f3d7fbaf8147d54782149bb1fc45892 smb: Fix regression in writes when non-standard maximum write size negotiated
-172c0cf519fb52860157c57067f1a58cfc0aa861 MAINTAINERS: Add Siddharth Vadapalli as PCI TI DRA7XX/J721E reviewer
-9704669c386f9bbfef2e002e7e690c56b7dcf5de tracing/probes: Fix to search structure fields correctly
-55f626f2d0c81b33552ce0e59b63a0110807bad2 Merge tag '6.8-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-ad645dea35c1381890bb190f208f8e62c61e3cbd Merge tag 'probes-fixes-v6.8-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-4a7571485c467b76cc19fae304452fd56921c789 Merge tag 'pci-v6.8-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-ac00b6546d390bc12d1d2824c2b5d95046097eb2 Merge tag 'media/v6.8-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708187383 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1708187383-e14e87c418b75e324584f23c5e5498ef0804ba60
 
---===============7984623805473219748==--
+ce54e9342124ededf0a00ed4e8a8aee535bfbf00 cfd87832dfa1b69069d3e6c598044a5568e1a1ef refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXQ3vcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8wsP+QF9ucHnZxq914sdaJic
+/PmilheFLQmkdz1qi9qusm69bI5CVL97EVlGKHO14H7Zr/sOmEB3h5JLMLbr13Vw
+/1pvhjfdz+00QbcfnmHiydYTQmA+r1DPs3TI4cdtvbPj3LMnJCsG1+yUAhFCK4Ik
+BQ22CP0UG36HEgKLpLlBUYA43XErNnMFZA2aSZymtvyBJeKlg8jKQuGN8VmHo2TI
+Fy7jkD4ht5D8rYjjcE13OFb8wpXXMR561R3cxfm2P7s5PKZzFdoTPIvAMpz0RE9r
+LEAmoSkLoDnpM4z41fKalxn28GrdctcZkKFmyDZtBOp6b8UXvisPKt0AUFsEBwqC
+1syldzKJvIpLjEG6uGpJ4Sx6qVvisesBVG6/njwqa9DBon53SZsgbigNLAA15n/C
+Cx5yHqJPfcgv+MECpWgg3YfinGeiJzdDYt3t8hPue19+L3UKh6GEJl89HyvynoJq
+n0qf11D3rFH0QitJt+Y+sd3glcVdLEtiWIT/ZXXhs5iee9L7UcOcSR8Jt23eBNga
+GAGQdUz7h9YJjl9qivBhG2mcbbivgUh3jxyL5A2m2EJiWC+8UJdi9AsUsbgqgXsg
+kurgWs8XGJJPDXJRADYgNglWwXl+sN/F3ZIunwA1GPwfwEPrUz8na5Jdf+Un9umt
+5RjumTbx6S9HThLg180Tb05a
+=BEWs
+-----END PGP SIGNATURE-----
+
+--===============3932869227935249750==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ce54e9342124-cfd87832dfa1.txt
+
+dfc5660b2438e2c89c43b8cb4303531a05cc3d49 Staging: rtl8192e: Rename variable FirstIe_InScan
+a372b8023741783d7753b8993538084b033a45ac Staging: rtl8192e: Rename function rtllib_rx_ADDBARsp()
+808f35c4e635e54c4b3e205cb5b54bd1ed47cdc9 Staging: rtl8192e: Rename variable LPSAwakeIntvl_tmp
+6b7a8b468befd36890e6d333c85d200c610f8121 Staging: rtl8192e: Rename variable LPSDelayCnt
+583b7e3b93f584549379c2e204181fbb92fabdc9 Staging: rtl8192e: Rename function pointer SetHwRegHandler()
+e51e94692d5952dc24f16831a3a6c4363c703ea0 Staging: rtl8192e: Rename function MgntQuery_TxRateExcludeCCKRates()
+05ee6e2ffc959af78155367c7f3256b690e95693 Staging: rtl8192e: Rename variable PeerHTCapBuf
+332fe0ec286427713607064021b712914bef701c Staging: rtl8192e: Rename variable PeerHTInfoBuf
+a9055dc8e5cad4a47c2101db9ef10de7ca55461a Staging: rtl8192e: Rename variable LPSAwakeIntvl
+0efe628a94b6503d0152b88db4a71f064c3334fc Staging: rtl8192e: Rename variable SelfHTCap
+459a6c2b25806214d0f41dc539561a66954f9194 Staging: rtl8192e: Fix paren alignment for rtllib_disable_net_monitor_mode()
+9842cb03969ec55eee44ffed2ad938e80b5d3844 Staging: rtl8192e: Fixup if statement broken across multiple lines.
+c64b64c98bc714db87bd062fbb936c88a0832970 Staging: rtl8192e: Remove unnecessary blank line
+3f3dd0a07c8a7646c1e1038ca611c7b7a3cbde3f Staging: rtl8192e: Fix if statement alignment with open parenthesis
+1650401eac5ff0f90f9ac717183cf8c2fa5c1dca Staging: rtl8192e: Rename variable Octet
+0dd08a4b53de1f6b5af0eb52c8b3db38a8d98e54 Staging: rtl8192e: Rename variable LpsIdleCount
+34eb6bea1ffb8fd9dff2a7174651e6aaac4b3b7e Staging: rtl8192e: Rename variable NumRecvBcnInPeriod
+b4a89adc2ff369f825c3427e9bb5c9cac096dc65 Staging: rtl8192e: Rename variable bForcedBgMode
+0ef4a26928d7d7efd052b044d0583ddbb9eab33f staging: rtl8192e: remove braces from single statement blocks
+2025908b8e3ab4318295c3dfc4c2781157a266f0 staging: rtl8192e: remove return from void function rtl92e_set_channel
+72c068a1c71ffac8d522ad50beda775b45cd5953 staging: rtl8192e: initialize variables at declaration
+cfd87832dfa1b69069d3e6c598044a5568e1a1ef staging: axis-fifo: Use sysfs_emit()
+
+--===============3932869227935249750==--
