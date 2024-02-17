@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 17 Feb 2024 22:59:51 -0000
-Message-Id: <170821079160.24183.17799588589628081981@gitolite.kernel.org>
+Date: Sat, 17 Feb 2024 23:04:47 -0000
+Message-Id: <170821108758.27653.2885720561904581758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: af3642a605c23b6cec751d8a5452d334e840779a
-    new: 4b566a3fa9f32e0573392accc23f02f77aeb1cf8
+    old: 4b566a3fa9f32e0573392accc23f02f77aeb1cf8
+    new: c0492953cb97d01e6c0764dcf04d18db66f9b95a
     log: |
-         4b566a3fa9f32e0573392accc23f02f77aeb1cf8 examples/proxy: fix anal CI fallout
+         c0492953cb97d01e6c0764dcf04d18db66f9b95a examples/list: remove extra ';'
          
