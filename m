@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 17 Feb 2024 23:10:34 -0000
-Message-Id: <170821143448.1989.16560825323896029450@gitolite.kernel.org>
+Date: Sat, 17 Feb 2024 23:23:24 -0000
+Message-Id: <170821220455.9927.2443127798279568308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: c0492953cb97d01e6c0764dcf04d18db66f9b95a
-    new: b1fe487aa6279e99790962632b00e1c6024ac0e6
+    old: b1fe487aa6279e99790962632b00e1c6024ac0e6
+    new: 01e4c36f4572fadd066fa19351f78165783466cd
     log: |
-         b1fe487aa6279e99790962632b00e1c6024ac0e6 examples/proxy: get rid of need to track submission state separately
+         01e4c36f4572fadd066fa19351f78165783466cd examples/proxy: more comments
          
