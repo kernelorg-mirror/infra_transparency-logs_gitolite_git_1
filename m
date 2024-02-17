@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7781515816359871423=="
+Content-Type: multipart/mixed; boundary="===============0982783242687419527=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 17 Feb 2024 16:34:28 -0000
-Message-Id: <170818766871.31427.8109440689794953217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 17 Feb 2024 16:46:28 -0000
+Message-Id: <170818838853.9491.4740588225367203064@gitolite.kernel.org>
 
---===============7781515816359871423==
+--===============0982783242687419527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: cfd87832dfa1b69069d3e6c598044a5568e1a1ef
-    new: 455c5e12a3b7d08c2ab47b7dd54944901c69cdcd
+  - ref: refs/heads/tty-testing
+    old: 6cc3028f797a549f256d593867a769ab6a8265f2
+    new: baa864d1ac1f2901499f52e6a7e67b4dfe42ccff
     log: |
-         e1f97d7ef608962de2206a8899c6f18dc4f36fdc staging: fieldbus: make anybus_bus const
-         869eb452aed66ac74c0ee7ecd6f9d545b975c676 staging: vc04_services: vchiq_arm: make vchiq_bus_type const
-         133951fda02c5440cf7048d9886a226bbc7504a2 staging: vme: make vme_bus_type const
-         455c5e12a3b7d08c2ab47b7dd54944901c69cdcd staging: gdm724x: constantify the struct device_type usage
+         8524788abf564fb7927873ff3fbc8056c6f02195 tty/vt: Corrected doc of vc_sanitize_unicode(), vc_translate_unicode()
+         42af6bcbc351d544889fcbcfc9c3d4bd39191b7d tty: hvc-iucv: fix function pointer casts
+         394e3dbac214e6144a4a0fd27cfd5e5164daea3d serial: 8250_pci1xxxx: Don't use "proxy" headers
+         baa864d1ac1f2901499f52e6a7e67b4dfe42ccff serial: st-asc: don't get/put GPIOs in atomic context
          
 
---===============7781515816359871423==
+--===============0982783242687419527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708187665 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1708187664-49d57a863c125fff195a943d0261d46c04529c3d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708188384 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1708188382-5a5bd18bd47e6600efb3595ce9ff39e7ab611d1a
 
-cfd87832dfa1b69069d3e6c598044a5568e1a1ef 455c5e12a3b7d08c2ab47b7dd54944901c69cdcd refs/heads/staging-testing
+6cc3028f797a549f256d593867a769ab6a8265f2 baa864d1ac1f2901499f52e6a7e67b4dfe42ccff refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXQ4BEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8HwP/0/7eCCdhLRSjXuWGjSE
-niZ1hcUE0smXWJsxpYYnWrutu8+2C8A+/ycpEnQksivEq2CZ3oecrwQiWIqFIFdW
-mxZjwrAUIYYuG/kKgR4c8uS/UIrkFDkI93LYV4Yv63JFNYj3IYcUC+L+fih94EPC
-7kH3EkLlIrm7E2CJbVOlyGSD1ALBFj+qC/qCAsUja7qGr3iKPqIEeP1yzw+9gYiA
-1B4/lISfcr/BrjL9EzofbuuM9Qf9QjST+7RyRDg9XA9i38BPsy3LHEZ+OknKk5Tp
-6lzhyf5htkPG+Z1GJBAjKqzBWJMNRtWwG+FgP8uUVjXfBHcI4CZMrCpKd4V64clK
-2wZbrsxYDNjo575BGAHqTJfTisvahN1cy5K+4N/T25lgyORt0TuBzoGR7IEmcS8k
-QYC7DYToMFnoj70wRAFI/itce96k+g0aOqkWgPhqSYpUR0fDa/6EV7D+iI2qzTN8
-NRN/iefLhcAh7aDVqWhRuGlLNX5ez9UGkg4K4HQ7ijJXT8p0Fn3xHrU+Rrx10/JF
-en4rFgRaz4P/pXzWXL7/oIvYuiK281SajiwT/DwdkOgzwn+E8ocEQOYkiWe3BRbn
-HdjTJFpCXxj9jH8BxMmIoFeMzkjD/2Btu/zNtkeymdYhOAb3EATR2EmsOR8+CrXh
-WpjqTzjiNqFyCfLSWiiu4Q57
-=OVLL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXQ4uAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZGcQAKK7PTu1irctd6KffCxP
+e2fXcE53L3CQDwellAcRrldJJhhCpZ/fi3lWaGjiXgtmZvP4TfCZSslGZrj5ToOr
+ZUhcYYs3Z97rBY5Rsw5Lfs/hragwarM/FrqA3Xhltn/U+dNAjaHzyfnhVIDUW7H3
+je7AfaNJR9fOENb2rOtQmt0qtZHNlrHmD0uxsO96sCZfCr7wuF98LQePnov1tbRq
+q4m59weGo1pKdkh0NTcub2UJNd3EtackYR/h+9rosh5dDrVgPkyKAO2867NJmSTb
+dVyKSt278nFBhLYDyQwRXpJkUdXWUPiB/Il9hLMNd8sSoRadNMRnnNEtL8aMQer2
+DZ6yKPU0/2ogJrfpZKUw9OopA1KUyrAfV3UBWx1PDmyDW++cyFpso+YODG+BKiXT
+x+8286mZ5B9XrF0w8q8K22XU+XWy503yfroSmw2terD3mUoXSkd4Rw1I7q7pvoOw
+nWyKG///JCJyV5AQdhdyYZn0bRODuYh4XLfo1eg5pTTcySdfMxrFW62fDaflByiG
+ILKX3GnE0KuECWXOQC3zsNiDYM3ONzLQ09vUvQmMvfn8c/elLESYOkBE+bb4zTDs
+lRApFSc870Ygq3Lg4xa00ZQOSQ3de4c0Xvn+FR32jVqWi0CyiC50bhqIsSzpRJsu
+pxSwAYrO0HajPjdgqyLMPzwm
+=Qi44
 -----END PGP SIGNATURE-----
 
---===============7781515816359871423==--
+--===============0982783242687419527==--
