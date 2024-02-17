@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1471143066812675869=="
+Content-Type: multipart/mixed; boundary="===============9115717032459510604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 17 Feb 2024 13:41:44 -0000
-Message-Id: <170817730442.4967.3852530297526426021@gitolite.kernel.org>
+Date: Sat, 17 Feb 2024 13:41:59 -0000
+Message-Id: <170817731919.5160.17152317189169187347@gitolite.kernel.org>
 
---===============1471143066812675869==
+--===============9115717032459510604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/gadget_char
-    old: deb1d3064bc1a73e72ee1404c5f69c472477fdd3
-    new: c84c01a2bfa9f355b2729c29c4137392ef6f745f
-    log: revlist-deb1d3064bc1-c84c01a2bfa9.txt
+  - ref: refs/heads/rndis-removal
+    old: fefa5dd02e1900017bcb9be4a819301e5969fbe5
+    new: f96c7d259c3525e4e8881a340e61d091683a6896
+    log: revlist-fefa5dd02e19-f96c7d259c35.txt
 
---===============1471143066812675869==
+--===============9115717032459510604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708177300 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708177314 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1708177299-184e0fe5aea8a829ce60e5563b5e93eca83df1b3
+nonce 1708177314-bcc754cef2c6471195c902c9d0731a9ebd8db787
 
-deb1d3064bc1a73e72ee1404c5f69c472477fdd3 c84c01a2bfa9f355b2729c29c4137392ef6f745f refs/heads/gadget_char
+fefa5dd02e1900017bcb9be4a819301e5969fbe5 f96c7d259c3525e4e8881a340e61d091683a6896 refs/heads/rndis-removal
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXQt5QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3MQQAJeLmTTIsHGr06V70cNB
-wEr+vcgCkEbO2syY9TQPyPU2EG2y94LMXlEyyxWCxvdTka2Aza1mYILimNxxP8Rg
-e9Dtw7HE3eaXkW3O3ys160xZFNZn4yp2DL3IHFe/tRL4vlsFO2+dh50KafyHtDss
-fSFcXHLZqHocxegMcIMu6tkKNy6kqatGoHAQkGkwWGa/Ot4hZLHcVhvi3ol4//TC
-NVxsKh2vXnvtxkltaCSOObeqUF5cGXLfh/wHH73fxchBbPI/Wb5k75RLqxpey8Hn
-lPOsp/w53dX90QI39xNOrvKZuYXTe+lv10B6DXQfJZmxnV5KHvvH8meMnSj2Z4da
-zR4wZQYlhn9ePyyNW/JuyzjDtRav7z8d8LT7UzzR+NF7VNYj3wQ4CDEdIfIKXaDh
-yi3MdIsgnHnU808zOwYRA9SiDjHwdT9rIoUKy2LJOc3it+PzxUQBLHUcLIW1iHZs
-iJ7gISLhvJTmVzOsRr87xX3PdVSAwjVWfQU+Fo0Z1Rljpoi2oDPlwHxSye6p4bpM
-HQY2Igtq7SUbXfHqLvDZgDiLdZKH4R3JkvOfM7quXtmCtS19OMOEnVmYQLgoJhVe
-gpa9LcfzGD6sM77QufXnaDdpkMgFsXTjTz/O6/G01nVM+ZUv5EA4KBONXP1+O4W1
-XfJ5YIgVGTqCBuociSTrIHTA
-=SNDg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXQt6IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nmMP/irc4Y3wNMfJbRdICUJz
+Ki3z1T1T9LyAWWZ81XETTzLDhSfwmq0StBo1mXUBCEK/LU23arQPSbc4pY7gX7eF
+m6w1fjLHvTnijoP0pxwGVHhZm3DMRNBWE2hWEDiNxlpVNa4d4RDCmt4xvPrEkMS/
+sR2wD6aJjV5M7YwAghHReOtQATwuy2CUW0b1W3O59sKpXMi4jPf+Km7CjRv+S0IK
+SsebTBPZi9vFFY4d9xWvk9B6qXA7v6ULecEf045w4GdHjHRkGV+KIhx5tJtQ3yf1
+g7WzkBaTSxdM6vP2vRqllfXj9FQEnY0TkczgfXNYN2gHocIKR6128CN3Bbg2v3TK
+Q0PKaGN6mBsRAi29iba+v/23qrRrOCfyQB+bfL7XnZQGM+X5ECg5cXc/Z+8HFW3P
+Ve9d9KD8Wd9bf3VoxE+pc/dGvKEubJPKL0dlKR2D9k4DGxkXr0/Ajd3KPhFidD3P
+P8LAnKa+hK7qK4R1OfVxh8mVXcNOeG2d7uL2XRPU70fEovaOb/nc7jpLcsMsfAvO
+s22HJ9Qa4RrZbEltxGvVdR5eRvCKG2qbYwk9yOXQ7nuxlfrVha3PdjEBYQLEAwtX
+b1htf0LqYnyy/oljXUcAYXcLT9m/yX1C+1lTkOkbPAv2vPBxnTLCMiGWN35haA1Y
+d6UgR3jOOrF4dELiv0WTTEfs
+=tjEl
 -----END PGP SIGNATURE-----
 
---===============1471143066812675869==
+--===============9115717032459510604==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-deb1d3064bc1-c84c01a2bfa9.txt
+Content-Disposition: attachment; filename=revlist-fefa5dd02e19-f96c7d259c35.txt
 
 990489e1042c6c5d6bccf56deca68f8dbeed8180 i2c: s3c24xx: fix transferring more than one message in polling mode
 187432b82173c86e0450d0e3d516b415ab2455f8 i2c: s3c24xx: add support for atomic transfers
@@ -1080,6 +1080,6 @@ fc86e5c9909b1b9a80ff0e7946279dfae6b96ded Merge tag 'xfs-6.8-fixes-2' of git://gi
 9e28c7a23bac7452935d1768fbfedad113586f9b Merge tag 'v6.8-rc3-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 3f24fcdacd40c70dd2949c1cfd8cc2e75942a9e3 Merge tag 'for-linus-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 Linux 6.8-rc3
-c84c01a2bfa9f355b2729c29c4137392ef6f745f USB: gadget: dummy_hcd: switch char * to u8 *
+f96c7d259c3525e4e8881a340e61d091683a6896 USB: disable all RNDIS protocol drivers
 
---===============1471143066812675869==--
+--===============9115717032459510604==--
