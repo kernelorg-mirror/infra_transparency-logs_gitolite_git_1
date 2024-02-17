@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 17 Feb 2024 04:54:56 -0000
-Message-Id: <170814569648.2274.16922618649432548183@gitolite.kernel.org>
+Date: Sat, 17 Feb 2024 04:55:45 -0000
+Message-Id: <170814574593.4210.10074955386513865156@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: d3b29965166e304dafa18b6457a88db8cb139823
-    new: 8bfa467fbe99901e365c2769b99aee8a3dd4713f
+    old: 8bfa467fbe99901e365c2769b99aee8a3dd4713f
+    new: dc9421fc3e3657bc36669e958435fec801e33754
     log: |
-         8bfa467fbe99901e365c2769b99aee8a3dd4713f examples/proxy: simplify bidi mode
+         dc9421fc3e3657bc36669e958435fec801e33754 examples/proxy: use hex print for user_data
          
