@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7167226991932600665=="
+Content-Type: multipart/mixed; boundary="===============7840106339454790611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 17 Feb 2024 13:35:33 -0000
-Message-Id: <170817693305.31907.2366395617644956070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 17 Feb 2024 13:37:31 -0000
+Message-Id: <170817705136.1628.11291788032373283339@gitolite.kernel.org>
 
---===============7167226991932600665==
+--===============7840106339454790611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: f297a3844aa059c53be3f69be85ebc071b8a6d16
-    new: 5df9197edd731a44682444631d68c2384f381bf1
+  - ref: refs/heads/master
+    old: cebfae0197f58eb4f69fc2cefbebe8fbba71e6d2
+    new: 3232173016b45773580ed8a3f9cc011af6b9b031
     log: |
-         5df9197edd731a44682444631d68c2384f381bf1 workqueue: make wq_subsys const
+         3232173016b45773580ed8a3f9cc011af6b9b031 6.1-stable patches
          
 
---===============7167226991932600665==
+--===============7840106339454790611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708176932 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1708176931-bf329dd32d579959594b24afab7b2aed7a9c8af9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708177050 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1708177046-38a2016cd8ca27935bb0711fce5b27f07938f5d0
 
-f297a3844aa059c53be3f69be85ebc071b8a6d16 5df9197edd731a44682444631d68c2384f381bf1 refs/heads/driver-core-next
+cebfae0197f58eb4f69fc2cefbebe8fbba71e6d2 3232173016b45773580ed8a3f9cc011af6b9b031 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXQtiQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6hkP/0Gxfgkg2gRfcOFhQQpg
-9U9vuP6X44Ihd3bJtzz1+KZGSA4pMKFra4lLY5It+KaTWRPd3yY7dkaMnzbe5/dY
-yyUkDddIj90vXRL7lpsJKCxok4buwUqZS+iVJvYJtAmnAmrOv2nHKm+uToihnwi7
-5ExWxoY2VAvaokW/kdSL1o9g1T5BgOwPaNwUkitsVf/0OP6U3n/1qASeO8apH9pG
-OH9yccdsOi5qZ5GzZtdVxe4hNwReBOXX3WN/voBbtYaQz1GJkgjBj6HcPjnb5Efq
-H7JBTjvTrA3sJqL7zYqNVVlsrxVsEJK/n/JrS5pEHJznbeZ91YPszjKWbXUoeSR6
-62xecEn/tUUIHQ587OhpSfEQpEOghHVVB3Y7s7NrhLJl2AdIHXmAa921uuV7lhRw
-YIXTjwBQ6JdS6ItIyyluBgRe4wOaUX2KkNQxbh5XP7kVameJ7YksBW3Tx4S3K6Ss
-OkcuUKdbD3mBnyMBSDkktAk9pnpmyGmUe1R9kGjh6/cBlGzFmEUR+MeRua/9eV1W
-bKUJYrnFK6uALKfNXjrBgvI2VI1TCT7bUbUnsrk98dw/aW70JNeX5ThX6HJE6tvt
-FU3pgLnaJY6tmlcdYWm/zSmAETpmlqu1lNGjG3PmlTWYxSF9xAG/30lQHOm5IMHA
-BLMfrn0L/YezTZMs1CpoQNFd
-=uUev
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXQtpobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tD0P/j/D5JC0//SlOGCYE3ik
+9dh2LemrE3gMAYEcD7Mpp8ROdUonS/HyhH7kJ8tqB7GtlZscTnlxxszXr4xRwq8+
+FsnlkMeW1Sae1nCjdKJoQMJLag1jBzUWCLPG34zKDvNRn08fgZQB+lslkR0Aw9oU
+TOhl4sPHMS+t5+XJcnTfvC+7yNcSYxfHogrORysy1NuI5UQKumfXde4Ndr7fRTTh
+ieNAB9hwsoohkaxgTijcdFh7FnwIeIXp2i32Q6z7ubxzBVMyN1oTyGWY2m1LgU/o
+dcE5v1zu5oB/VCzkPQSGnaRSwE9sECU0TBJNnXmwV9HDkuByF5hmptJ0zZFhy1cD
+WV4VEtAPz6y5cGzkYf/Ysi7GAWANQdzTyNQk3Gfn/zGC8fJXIQE5XV1/zoBp2CLc
+P6Nt1LO705WVRj3Em0QhNl8phjY7IOo0A7AvDjbei7BXI0+WhjbzaCjZ9e+z/+a+
+ASTS2w/1/oLDD7L5TVHFfbStkelOfD0KmsgfyM6PxXzQZvdVppYo5wRa72/53D/a
+Y9fhde/awezeWdUtQMY43Sb6NtZ8MoDelxtsHXfrz/D7DhSfxlqz5LR7b5OlxctA
+mDK+PndSE8q79DiND2MYYm8lZByjECYUuaZfpc7eZ2lXYTRZqcMKgzlShHlKaq8C
+iyTRhgYYhXxiLBJrhyiyqBQf
+=+j3f
 -----END PGP SIGNATURE-----
 
---===============7167226991932600665==--
+--===============7840106339454790611==--
