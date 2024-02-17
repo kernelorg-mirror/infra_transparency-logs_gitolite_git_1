@@ -1,29 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Sat, 17 Feb 2024 00:55:30 -0000
-Message-Id: <170813133044.26628.2433579038102122420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Sat, 17 Feb 2024 01:10:13 -0000
+Message-Id: <170813221341.5765.5580899266992730927@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/for-firmware-kernelci
-    old: e3c5df138169b5494a16b20e74db1ee14b1901ce
-    new: 8a0a62941a042612f7487f6c4ff291f9054ff214
+  - ref: refs/heads/master
+    old: e8829ef1f73fa4051a936ab9f0204195dae4ef2b
+    new: 7d42e097607c4d246d99225bf2b195b6167a210c
     log: |
-         c2b28f6806d2a26a8d46c0f02d4852bf9904929d firmware: coreboot: Generate modalias uevent for devices
-         f1cebae1dbf85f9de65c13a2d9f5cc3be7e51dc4 firmware: coreboot: Generate aliases for coreboot modules
-         8a0a62941a042612f7487f6c4ff291f9054ff214 firmware: coreboot: Replace tag with id table in driver struct
-         
-  - ref: refs/heads/for-firmware-next
-    old: e3c5df138169b5494a16b20e74db1ee14b1901ce
-    new: 8a0a62941a042612f7487f6c4ff291f9054ff214
-    log: |
-         c2b28f6806d2a26a8d46c0f02d4852bf9904929d firmware: coreboot: Generate modalias uevent for devices
-         f1cebae1dbf85f9de65c13a2d9f5cc3be7e51dc4 firmware: coreboot: Generate aliases for coreboot modules
-         8a0a62941a042612f7487f6c4ff291f9054ff214 firmware: coreboot: Replace tag with id table in driver struct
+         6e031ef2c201cea07bea3b286ed151378c4099f3 crypto: ccp - State in dmesg that TSME is enabled
+         12b8ae68f50de200c038246c2496822f38b18fe2 crypto: hisilicon/qm - add stop function by hardware
+         ce133a22123055f5f988499cd9ac7953d2bf0677 crypto: hisilicon/qm - obtain stop queue status
+         9066ac364d8659ab7c993b83c60a6182c3ec1ef9 crypto: hisilicon/qm - change function type to void
+         3ee2cee56c5e399424bb6d18de3b63be7126f28a MAINTAINERS: adjust file entries after crypto vmx file movement
+         c2304e1a0b8051a60d4eb9c99a1c509d90380ae5 crypto: qat - change SLAs cleanup flow at shutdown
+         7d42e097607c4d246d99225bf2b195b6167a210c crypto: qat - resolve race condition during AER recovery
          
