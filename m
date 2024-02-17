@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 17 Feb 2024 22:51:54 -0000
-Message-Id: <170821031467.19695.13499098384699898239@gitolite.kernel.org>
+Date: Sat, 17 Feb 2024 22:55:05 -0000
+Message-Id: <170821050579.22425.12809764963591096756@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: dc9421fc3e3657bc36669e958435fec801e33754
-    new: c6e5f378e37207853a2d1c87870c0f8ec4497fd1
+    old: c6e5f378e37207853a2d1c87870c0f8ec4497fd1
+    new: af3642a605c23b6cec751d8a5452d334e840779a
     log: |
-         c6e5f378e37207853a2d1c87870c0f8ec4497fd1 test/truncate: don't leave test files around when exiting
+         af3642a605c23b6cec751d8a5452d334e840779a examples/proxy: thorough cleaning and bug fixes
          
