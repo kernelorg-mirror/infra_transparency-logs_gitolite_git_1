@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 18 Feb 2024 14:02:13 -0000
-Message-Id: <170826493371.6978.7748509131678809751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 18 Feb 2024 14:28:15 -0000
+Message-Id: <170826649522.25100.12670531753087472952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: 334053855583392b6ce60d07a8d5c2271951c7f3
-    new: 1f0a0c706a9fe5b2a8907b0fcfa1c0959950cdb7
+  - ref: refs/heads/main
+    old: ea7f3cfaa58873bbe271577efa800647e30f18bd
+    new: 6d47302a3f0ba31445478d518d98bd55918bc8ab
     log: |
-         1f0a0c706a9fe5b2a8907b0fcfa1c0959950cdb7 examples/proxy: explicitly cancel receives
+         6d47302a3f0ba31445478d518d98bd55918bc8ab net: phy: aquantia: add AQR813 PHY ID
          
