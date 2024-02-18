@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 18 Feb 2024 01:21:16 -0000
-Message-Id: <170821927698.31515.11768149142406683249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 18 Feb 2024 01:30:48 -0000
+Message-Id: <170821984886.5790.16117732895979317467@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 5f7b85bfdab94deef56289f65c5e3ba857080698
-    new: b4ddf19d4a789703a1961372c228d6aa6f979838
+    old: 73d3ddea112696024502e0c9141f9ad2e5cac70e
+    new: 469ecf367643eb6e1d8253361131ba1cdaa2116f
     log: |
-         afbb655dc3ed0b16729a52c798663dd239b36272 examples/proxy: size the SQ ring more appropriately
-         b4ddf19d4a789703a1961372c228d6aa6f979838 examples/proxy: handle unlikely case of shutdown returning an error
+         469ecf367643eb6e1d8253361131ba1cdaa2116f Sat Feb 17 08:30:02 PM EST 2024
          
