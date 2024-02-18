@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8407752518176120770=="
+Content-Type: multipart/mixed; boundary="===============2516485904708696152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Sun, 18 Feb 2024 05:38:25 -0000
-Message-Id: <170823470526.21363.6040570829436943656@gitolite.kernel.org>
+Date: Sun, 18 Feb 2024 05:41:28 -0000
+Message-Id: <170823488877.24116.3264040197497891142@gitolite.kernel.org>
 
---===============8407752518176120770==
+--===============2516485904708696152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 296455ade1fdcf5f8f8c033201633b60946c589a
-    new: c02197fc9076e7d991c8f6adc11759c5ba52ddc6
-    log: revlist-296455ade1fd-c02197fc9076.txt
+  - ref: refs/heads/dev
+    old: 0991abeddefa118479b0af32c28bcd662dec1561
+    new: 3a7845041eb7235f2fb00ef0960995da5be63b11
+    log: revlist-0991abeddefa-3a7845041eb7.txt
 
---===============8407752518176120770==
+--===============2516485904708696152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-296455ade1fd-c02197fc9076.txt
+Content-Disposition: attachment; filename=revlist-0991abeddefa-3a7845041eb7.txt
 
-6c20faec8ffc97af21acb43382adda011eb39359 kbuild: defconf: use SRCARCH to find merged configs
 846cfbeed09b45d985079a9173cf390cc053715b um: Fix adding '-no-pie' for clang
 397586506c3da005b9333ce5947ad01e8018a3be modpost: Add '.ltext' and '.ltext.*' to TEXT_SECTIONS
 d1bba17e20d513e09d0977afc82cd85b91d0fef8 Merge tag '6.8-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
@@ -1050,5 +1049,6 @@ a3a7d1627429545cddcc60314f1596912138daf1 Merge tag 'usb-6.8-rc5' of git://git.ke
 ced59052315615ffb3c39eb96e7b33f2cff6f781 Merge tag 'driver-core-6.8-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 f2667e0c32404a68496891b2d2015825de189b06 Merge tag 'bcachefs-2024-02-17' of https://evilpiepirate.org/git/bcachefs
 c02197fc9076e7d991c8f6adc11759c5ba52ddc6 Merge tag 'powerpc-6.8-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+3a7845041eb7235f2fb00ef0960995da5be63b11 exfat: fix appending discontinuous clusters to empty file
 
---===============8407752518176120770==--
+--===============2516485904708696152==--
