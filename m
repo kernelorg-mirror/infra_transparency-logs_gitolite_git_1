@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 18 Feb 2024 00:56:49 -0000
-Message-Id: <170821780945.13098.4685789922146812840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Sun, 18 Feb 2024 01:01:49 -0000
+Message-Id: <170821810950.16597.11467217761348278325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/master
-    old: 889741770b3e22385afb6fc9b4ba247ea0705c61
-    new: d5cf7ff3b9df08c087edfee6e1904c654628f983
+  - ref: refs/heads/timers/anna-experimental
+    old: 5e0c7651ee666d756c853a5dbee5451de303bf02
+    new: bf34a4caae3c7157400677723e466a5573a0c3ec
     log: |
-         d5cf7ff3b9df08c087edfee6e1904c654628f983 examples/proxy: split opcode handling into separate helpers
+         bf34a4caae3c7157400677723e466a5573a0c3ec test
          
