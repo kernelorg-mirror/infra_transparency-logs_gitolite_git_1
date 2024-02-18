@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 18 Feb 2024 22:35:40 -0000
-Message-Id: <170829574000.27487.9776543137852090811@gitolite.kernel.org>
+Date: Sun, 18 Feb 2024 22:38:15 -0000
+Message-Id: <170829589530.29865.12296357680614911838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: 49db21796512b93c8f1684f23a37eeae61622c0a
-    new: bb2e7bd08521fe470902dfab3d40d1b067ef4514
+    old: bb2e7bd08521fe470902dfab3d40d1b067ef4514
+    new: a69b12e3bab3ba17c2d1bccb17801529ad36c1ca
     log: |
-         bb2e7bd08521fe470902dfab3d40d1b067ef4514 examples/proxy: move some of the tricky cqe -> buffer conversion to helpers
+         a69b12e3bab3ba17c2d1bccb17801529ad36c1ca examples/proxy: pass 'cqe' in to defer_send()
          
