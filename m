@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 18 Feb 2024 13:32:44 -0000
-Message-Id: <170826316488.18168.17076544455602863307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sun, 18 Feb 2024 13:50:04 -0000
+Message-Id: <170826420401.31791.18075483652321696156@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
+repo: pub/scm/linux/kernel/git/axboe/linux-block
 user: axboe
 changes:
-  - ref: refs/heads/master
-    old: c784d28645f781e73d86528259eb7d7b6bc4dd1f
-    new: 334053855583392b6ce60d07a8d5c2271951c7f3
+  - ref: refs/heads/for-6.9/block
+    old: d69591caec243811449d4e6571fbf460f06fb8f6
+    new: 31edf4bbe0ba27fd03ac7d87eb2ee3d2a231af6d
     log: |
-         aecf002dc507c3770cb97e6f878ad3c15918d46f examples/proxy: use cqe->res in handle_receive()
-         56e9ea5cf2d359b9b2002b3e15e21ca54e5e1e5e examples/proxy: start opcode numbering from 1
-         334053855583392b6ce60d07a8d5c2271951c7f3 examples/proxy: make the initial struct / defines more logical
+         31edf4bbe0ba27fd03ac7d87eb2ee3d2a231af6d nbd: null check for nla_nest_start
+         
+  - ref: refs/heads/for-next
+    old: 364d210aee8fe675ac8b19651c1824daf9312aa0
+    new: 8a717f2af0ee50fba6754b87ad2c9a8d2b896dfe
+    log: |
+         31edf4bbe0ba27fd03ac7d87eb2ee3d2a231af6d nbd: null check for nla_nest_start
+         8a717f2af0ee50fba6754b87ad2c9a8d2b896dfe Merge branch 'for-6.9/block' into for-next
          
