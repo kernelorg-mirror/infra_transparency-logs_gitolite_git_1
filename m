@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 18 Feb 2024 01:06:56 -0000
-Message-Id: <170821841667.20286.6021123609988587871@gitolite.kernel.org>
+Date: Sun, 18 Feb 2024 01:21:16 -0000
+Message-Id: <170821927698.31515.11768149142406683249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: d5cf7ff3b9df08c087edfee6e1904c654628f983
-    new: 5f7b85bfdab94deef56289f65c5e3ba857080698
+    old: 5f7b85bfdab94deef56289f65c5e3ba857080698
+    new: b4ddf19d4a789703a1961372c228d6aa6f979838
     log: |
-         5f7b85bfdab94deef56289f65c5e3ba857080698 examples/proxy: make the uni directional index the first one
+         afbb655dc3ed0b16729a52c798663dd239b36272 examples/proxy: size the SQ ring more appropriately
+         b4ddf19d4a789703a1961372c228d6aa6f979838 examples/proxy: handle unlikely case of shutdown returning an error
          
