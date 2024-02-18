@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6808542450533395816=="
+Content-Type: multipart/mixed; boundary="===============3953572492886879512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 18 Feb 2024 18:02:11 -0000
-Message-Id: <170827933182.18041.1975600021259811214@gitolite.kernel.org>
+Date: Sun, 18 Feb 2024 18:02:18 -0000
+Message-Id: <170827933840.18170.531562906730415832@gitolite.kernel.org>
 
---===============6808542450533395816==
+--===============3953572492886879512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
+  - ref: refs/heads/tty-linus
+    old: 7be50f2e8f20fc2299069b28dea59a28e3abe20a
     new: c02197fc9076e7d991c8f6adc11759c5ba52ddc6
-    log: revlist-54be6c6c5ae8-c02197fc9076.txt
+    log: revlist-7be50f2e8f20-c02197fc9076.txt
 
---===============6808542450533395816==
+--===============3953572492886879512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708279320 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708279337 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1708279320-5fa2ba1bb921d484a4bd606eeb1c5b2a6b987792
+nonce 1708279335-b2b1cbbfe12630a4fee49105500cdf3ac48ac28c
 
-54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478 c02197fc9076e7d991c8f6adc11759c5ba52ddc6 refs/heads/main
+7be50f2e8f20fc2299069b28dea59a28e3abe20a c02197fc9076e7d991c8f6adc11759c5ba52ddc6 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXSRhgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hqQQAInSA6N+hIe9jmKoq8aC
-SPyyj4yjdFJRV4gnfPKFWtVODq0R8XDcRHsRntA7rS6TQ4gLl1TE9xSWlr2RiWvQ
-n2enDS0UdpvTv4zAAiGE/qj8i9PQAdrkcLGnRVIoMPqeqCuXEIak0lkNpoFY20CG
-tZVp7gt6lc0kSk5OiB8RAyifGKVlE21fMyUfOR0iNV2jGFO4CViYEVy53hwlsRnO
-D+9t9TwI+ck/ykX9k7gHMfUVC1wsilB7NabOv/uu6qmEDS7Kwq7SbriZfJQy4frJ
-IMaQIOlwakM1xNelIkKTapPxcjwnNW37FWUzx5koR2fdcsokqCJHYHnfFU80tdBe
-p4kTtw/ZMll7FKLrmnB8j3vMi3L4gfzjiht9fhVRRz5/ncsuhnZLuThNt88Nhcg7
-e02pHlhd3QMKoUreQfb2GTwZRXV3sGEKwE5u3/ORbTRRLMgaWGQXl8ALN1zBKNCX
-jXUMGvzJ6tW+GBcvVfZD0btjBv+s2X/+jcqZ9r4l/s6uUM2mPAY1pX1VDqRsEm8g
-hszlPEyipnE9weiMcvTtreNKO1UxzRUv8ABEjviiaFxdimfvJ/q5bE+cCmOkxjUf
-p4bR0qAL704/++vxb9DOWbrG7LFUkCFjdejG3jekaEVPvnKi+e36SkQ+cebYVrjp
-llVOwbaWQjav4wPaUZI0UNSm
-=lCgp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXSRikbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ft4P/iJOx6Q0nP1+daIt3vm5
+vbGTbX1EWSQtkzI+/T3J7KGjty9la/EdLgj3eJ3Y7qQaASnNsF+qrRy6u5aELTpG
+Fa7v+Du20CVp4P2hGS/5d6HhBmkipkYAhXu6FLz9cQrU5+kAn1d3ZT1xe3gG/YxS
+Vt/NJgSfgyzuc1gSYuctxnkPTJBXkNhPsyKxXY8TPvrOaycLx/uOMc2OzrQupSZ6
+ZZfhTbVATiQKbqBLw0cR/O/V7x6lfVWCQbd/TfJaxcCKKGCWC2/BfK/7DiVC0O1d
+ObL+hSCIP4hvoCDIWpUAFOXinuTGAVjGEB1XeKA2pwlI2wXBLrU50SW/wkV4WPpV
+zeMgNd282Xa7rUurhbXqtlYdb2WKCq9f/6q3Lj7qMDmTOR9B0pSQZcUFFkUPojd+
+MycMGvD1Oqte2bodsn5ZLd/3Oy7uzggetYgE1Fr2HwKZ8FcFwHJzqb7dH3ojMhTg
+8bBFbszy9fe473Pwiy8ngMyIZn17KJzqJS/Bv9WaoJtK6RNR8piVZk4y5DwC6KNN
+9yzGc1RIg71BsSLy3xJMMPCJ++BXY1YD0812U3PpEuRcDwWVCwwmIvW/+qnkQ0Sw
+Zvjbn9a1741oKxMBPffLaHL4kqWmX1BAqVBwBG5r9VJHHeEkKC9WvqLOohcD+j9d
+cHfukOWGOA9eYU/sLW52yt7j
+=18YM
 -----END PGP SIGNATURE-----
 
---===============6808542450533395816==
+--===============3953572492886879512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-54be6c6c5ae8-c02197fc9076.txt
+Content-Disposition: attachment; filename=revlist-7be50f2e8f20-c02197fc9076.txt
 
 c39de951282df9a60ef70664e4378d88006b2670 fs/ntfs3: Improve alternative boot processing
 22457c047ed971f2f2e33be593ddfabd9639a409 fs/ntfs3: Modified fix directory element type detection
@@ -318,9 +318,6 @@ a939c03d37788e4a9a645c88d5e5b6a475ba0fd5 accel/ivpu/40xx: Enable D0i3 message
 553099da45397914a995dce6307d6c26523c2567 accel/ivpu/40xx: Stop passing SKU boot parameters to FW
 5f8408aca66772d3aa9b4831577b2ac5ec41bcd9 accel/ivpu: Add job status for jobs aborted by the driver
 1ce2654d87e2fb91fea83b288bd9b2641045e42a net: stmmac: xgmac: fix a typo of register name in DPP safety handling
-720e78d7fa0f1df905a42ae68e7e3b0f95e53946 serial: 8250_pci1xxxx: partially revert off by one patch
-3ee07964d407411fd578a3bc998de44fd64d266a serial: core: introduce uart_port_tx_flags()
-7be50f2e8f20fc2299069b28dea59a28e3abe20a serial: mxs-auart: fix tx
 b55fe36efc22f1f1c8f69e1cdf12c9f5d6ca371e Merge tag 'thunderbolt-for-v6.8-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 411a20db905b44e18cc9129b745f1d5deba4eae5 HID: logitech-hidpp: Do not flood kernel log
 c1d6708bf0d3dd976460d435373cf5abf21ce258 HID: wacom: Do not register input devices until after hid_hw_start
@@ -792,4 +789,4 @@ ced59052315615ffb3c39eb96e7b33f2cff6f781 Merge tag 'driver-core-6.8-rc5' of git:
 f2667e0c32404a68496891b2d2015825de189b06 Merge tag 'bcachefs-2024-02-17' of https://evilpiepirate.org/git/bcachefs
 c02197fc9076e7d991c8f6adc11759c5ba52ddc6 Merge tag 'powerpc-6.8-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 
---===============6808542450533395816==--
+--===============3953572492886879512==--
