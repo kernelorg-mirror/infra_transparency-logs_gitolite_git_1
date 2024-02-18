@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 18 Feb 2024 23:25:11 -0000
-Message-Id: <170829871129.31959.4351177561935194754@gitolite.kernel.org>
+Date: Sun, 18 Feb 2024 23:32:11 -0000
+Message-Id: <170829913181.3832.10948526966781849662@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: f83e178cb517ad7603d0976d8d1f5c104a0bf10e
-    new: 01f623c6189cdad6a7efaeba4e6521cdd46df5d0
+    old: 01f623c6189cdad6a7efaeba4e6521cdd46df5d0
+    new: bb48bbce288c8242be259125858aa2d8d14816f5
     log: |
-         01f623c6189cdad6a7efaeba4e6521cdd46df5d0 examples/proxy: add comment on zero sized receive and buffers
+         bb48bbce288c8242be259125858aa2d8d14816f5 examples/proxy: move error handling out-of-line
          
