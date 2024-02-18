@@ -1,57 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============0457843554442902714=="
+Content-Type: multipart/mixed; boundary="===============3370865591583609287=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 18 Feb 2024 18:24:36 -0000
-Message-Id: <170828067694.2172.1205172180813745366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Sun, 18 Feb 2024 18:26:12 -0000
+Message-Id: <170828077274.4353.12472042486984070034@gitolite.kernel.org>
 
---===============0457843554442902714==
+--===============3370865591583609287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: e21817acb23ece75d41a4fa7b40c85550f147389
-    new: d0fc93f462b93983b73815e30c478a8d64d0ef68
-    log: |
-         57a9e5053c7c51c0fbf152b36ca74b997da2f77f comedi: remove redundant assignment to variable range
-         d0fc93f462b93983b73815e30c478a8d64d0ef68 misc: eeprom/idt_89hpesx: Convert data structures to LE explicitly
-         
+  - ref: refs/tags/dt-cleanup-6.9
+    old: 0000000000000000000000000000000000000000
+    new: b4a0e16780a823b132e1966f5cc0be8043abff91
 
---===============0457843554442902714==
+--===============3370865591583609287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708280673 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1708280671-4c0e913eba271074d83d6f1c517ba38576cb6bbf
+pusher krzk@kernel.org 1708280771 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1708280770-cd6307dabc1a19f9141dd540a9ceaad912c6ed17
 
-e21817acb23ece75d41a4fa7b40c85550f147389 d0fc93f462b93983b73815e30c478a8d64d0ef68 refs/heads/char-misc-testing
+0000000000000000000000000000000000000000 b4a0e16780a823b132e1966f5cc0be8043abff91 refs/tags/dt-cleanup-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXSS2EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+894P/iUcczwVqLrCW241SPnk
-Xoj6jn7wPuiBqz7QdkMBpP53DzCrHDuERuv+YvMICMXWQjMEG8IqBs3SxuwsSApi
-c6h5l5AHCLLhh9pspr6iqHiTDrQ1q/kb7D6xfS+ZNmLYDfzTqpyiYy9IBqvlpM5W
-P69nzIXWq++LeX0Ssl/lIliA7nRhcVcuIoBgLxyRsQy/UcaQpPWtSXI6ZykjsV5N
-TAr8LYSVMg4lRHzWLv9KNYpLJVmmeH1luoYSGoSFIn8hNC6FKqAaqad4IVfgmbNr
-ONOCIvAghRvq6NZQ6ye4VjeSBe1yZbO8JDSmRIc3leKfVTGbfF0oHL8agppJZbkY
-RVezDD4Wwkjwz/u4tF1s+CPaonKYC60yTZljM6KH+I/SLFHdKU399MI6Ntc5ekE/
-4NfUQnC7hUNpaF8+oyeCTMvAtmZZxseTuFik5g+tn+16r0pHHT/nqotG6B9caELQ
-MCDTwIylrnZCknnMiDLZyzfgflL6JSiGnCXTvqmTL/oiToJ6D6kqPZQ68eZ2+8yV
-kfXMpA5TKdWnaWYSAPvnd/0RNd2S9SwMsGXfEuR52ZFFonttbWw8XkuDJNmbH3T/
-xbbGqdqerAmVQscBoCe4MjUAoVqjYfx+IzirPizvTkCqKTdANCtbGW2bZLGMJwJ5
-LSCxS4E3xMImpUgm4v0fjIou
-=B9en
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmXSS8MQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD12hAD/9VEaeha00GwyfL8RxVpg2I9OzWaonL9ZB6
+AelWJg0l19RD610eDf9WMq9Boe1v4eLk7SCOvSde3gTR5ts+DlahbHrIlnBEAepz
+7XuOCC1JZ+3pygrhXl3Su6MxipQAnY5PXTZ99JLF7zs5BnJW1tCHx1rnX58AiTVV
+08BAa1qExzxaurNkPSpNjpr5ozULQJIFLUnYxaFPkfhW6ZLrzh2igYR+XM1VQ+2j
+vTvEBCMQq4fobTSDRtRLRrgqLWHTzP8gOKXpg6KPd+T+KY3KEdZXV7OYeAqNN5ft
+vf76zfHeuAJ58SqbSdAiwnvkISQvvON/dMOAa+f3gyMlyoLigPOG8j6D/5e/NB0h
+7iiKkNlK9TE7mnuco0E2guqSXMiwq3D82NPTFsRQ6CFIrCtRxa7w1DgIbI41otfA
++WWrUnbRggFJnqsKX+cUGHNHV0TxTpHg6NycennJM17OypSlSBsm+CmwHdUUUM2F
+yQ9MgebHWaqstWBa2/9WdGezgpWwtHzjAsV47e5oP5a9oEF2wcZ209iV9OY1yuhT
+KSSMKtgGr4inLE+M//IFChmZKZdpaCCokLdBfyB3/M0e+2+36Pt78KfOXf3nEBpe
+Ok6hPoVRtSy7vXBJ/nHIXCgyNNmOT4jIoNCHsZCbk93x1Kn9MPPDHu2akc/DwhT+
+TKuwFku5SA==
+=vCsi
 -----END PGP SIGNATURE-----
 
---===============0457843554442902714==--
+--===============3370865591583609287==--
