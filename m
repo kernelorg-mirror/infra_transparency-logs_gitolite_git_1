@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6650815703429122437=="
+Content-Type: multipart/mixed; boundary="===============3415483861247801419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 18 Feb 2024 16:19:50 -0000
-Message-Id: <170827319044.8056.4729699643975504473@gitolite.kernel.org>
+Date: Sun, 18 Feb 2024 16:19:57 -0000
+Message-Id: <170827319721.8141.12558176929460960710@gitolite.kernel.org>
 
---===============6650815703429122437==
+--===============3415483861247801419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,53 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 41bccc98fb7931d63d03f326a746ac4d429c1dd3
+  - ref: refs/heads/driver-core-linus
+    old: 5928d411557ec5d53832cdd39fc443704a3e5b77
     new: c02197fc9076e7d991c8f6adc11759c5ba52ddc6
-    log: revlist-41bccc98fb79-c02197fc9076.txt
+    log: revlist-5928d411557e-c02197fc9076.txt
 
---===============6650815703429122437==
+--===============3415483861247801419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708273184 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708273196 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1708273184-a210d5d9c3c00ce368581cac045adbe73e4709b1
+nonce 1708273194-f4ec05612c0c2e48db2927106e83ffeccf26f2bc
 
-41bccc98fb7931d63d03f326a746ac4d429c1dd3 c02197fc9076e7d991c8f6adc11759c5ba52ddc6 refs/heads/main
+5928d411557ec5d53832cdd39fc443704a3e5b77 c02197fc9076e7d991c8f6adc11759c5ba52ddc6 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXSLiAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CsQQALFXA27EfYoWGdGO2Uub
-FEuAUnlTMDjwbrFE622feNChFsUo6vLrrVMG8bywo4wE/2d57mBhxkb74yGAAfb7
-Sne/HyFHzJz1bbLG2DIODpe5ma5CPWueg84hFPnp0VFiwy0z5O0USc/22W0hutMd
-p4750LBd3URagE3osuTjaji/2f/yagJ3VLemqGLT8Y6cP0N4mZG+WwViNdWha4A1
-XERE1ILi06j/6Wgw8Qtr3lg6bC09p1a2UM44uRCgZk6ue3jOMeUez0fpLI1XCZ3j
-d3Rk+35oHg9XQ4XUiNzp3IO7f9R/dhUwrlHhdVFNKKMvA8ganbO9UPHOAh8Id/4B
-SN3MHa81WI4au32JyeP1vfYDdFqzdTK/R/8TOv2fvN4SN1T/BCzLFxF1FO7tz/BL
-K5Dno3b0uo6yaFw/imbKkW/lXRCGgJDr2jM75n4QstVEWIuhXlOEDMQF4nSQVONP
-IGu/MwnaCh70jxmpmcPIRiTKVBCthhfcdH9IRK2AeJkvYZ9eGnWAZvkiv+JzdjlP
-FBAKGoKqGOT237mKQsL1ZdCFvTSF4OuosyTeGdwfwhgg2aiuUwm1e/kt0smbpm49
-b/71vYlL9KwlT9nK83hZmC/xiDad2vQ9++ytTmTzLZiYG3c1EIoxtFl8bbKNK4XN
-ryZzJjp5VO20Qi/BdzdOT6wX
-=98/9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXSLiwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EOoQAMHEzGG38IJNZOZDu957
+LX19RKWiGTeSv5zK8iu3WRpx04wIwJfroJYjNfKIxd5oClAVQuPwWJJzmyEDueRq
+gvXBeQYYv4oC8HgqBpSOk8AkPJFTvCwlSF22EtRelSScZWImrWDgDHXYXlkxK7JX
+Z6elBwHxAGgAb7htSZIEKvgebcdBya+aP9WRdaLvrCAR+zb9CdvfUSHrjrKk8ThO
+kxq31toyJEfMjFMh20MTNu56guQLIfQJ75dKGaei6rrIiA4CHSL26x2JqMILXbPX
+pdueze6qUtCOI4fku2plFNPQYJ2CnzLW/+vxzrF9OVvfLbwSAbzjxscZdPTb9wD6
+s0RaE6Yv31LZDAEfIBOt/dQCjxVw6vsREdjZpwA9EC7E2+/VvdeILQntOdi2BK9Q
+qVAiFzUgNIYzI0S9LFBEE7Q0pDcrtlsxvzgtc2k5y/HK0OpJfLO9LlGfCyiWiTSM
+P2AdII6S4KrIFXtDeCdfoCrjEe9edgKd0JAGlX+jnEhyr31K5FSxnFV0vi29hNzD
+KF0VLAJjfNwDNfHe3N6MwCX9VaOUxgqJksjtwK8sNHVTSVy00KtnMoq/g2JqTbTt
+nnfNAvK+TkTiZl4La4fR6XYVmStWgAKIxJJtApThE7sD3Jhw/qgSlqn2MbxQLj46
+ziXspPmtdXbIO9ysKiH1xGia
+=+Ooz
 -----END PGP SIGNATURE-----
 
---===============6650815703429122437==
+--===============3415483861247801419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41bccc98fb79-c02197fc9076.txt
+Content-Disposition: attachment; filename=revlist-5928d411557e-c02197fc9076.txt
 
+fcf67d82b8b878bdd95145382be43927bce07ec6 selftests: net: add missing config for big tcp tests
+0958b33ef5a04ed91f61cef4760ac412080c4e08 tracing/trigger: Fix to return error if failed to alloc snapshot
+c60fe56c169eb552113a4711db3a5f99e3acd4c1 hwmon: (pmbus/mp2975) Fix driver initialization for MP2975 device
+d0266d7ab1618482d58015d67a5220e590333298 Revert "power: supply: qcom_battmgr: Register the power supplies after PDR is up"
+c3dfcdb65ec1a4813ec1e0871c52c671ba9c71ac net/smc: fix incorrect SMC-D link group matching logic
+281cb9d65a95c00bb844f332cd187491d2d55496 bnxt_en: Make PTP timestamp HWRM more silent
 d3cb3b0088ca92082e2bebc40cc6894a632173e2 selftests: net: add missing required classifier
 89abe628375301fedb68770644df845d49018d8b selftests: net: give more time for GRO aggregation
 8d975c15c0cd744000ca386247432d57b21f9df0 ip6_tunnel: make sure to pull inner header in __ip6_tnl_rcv()
@@ -205,7 +211,6 @@ aa0e784dea7c1a026aabff9db1cb5d2bd92b3e92 efi/libstub: Add one kernel-doc comment
 80441f76ee67002437db61f3b317ed80cce085d2 Input: xpad - add Lenovo Legion Go controllers
 d1d873a9bfac44a9a455d2ec47b85ea66f7888b9 Merge tag 'linux_kselftest-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 2a6526c4f389bb741e511be11721b3d1cbf1034a Merge tag 'linux_kselftest-kunit-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-98323e9d70172f1b46d1cadb20d6c54abf62870d topology: Set capacity_freq_ref in all cases
 a4e61de63e34860c36a71d1a364edba16fb6203b misc: fastrpc: Mark all sessions as invalid in cb_remove
 ac9762a74c7ca7cbfcb4c65f5871373653a046ac misc: open-dice: Fix spurious lockdep warning
 b40f873a7c80dbafbb6f4a7a569f2dcaf969d283 selftests: net: Add missing matchall classifier
@@ -477,9 +482,6 @@ fe92f874f09145a6951deacaa4961390238bbe0d net: Fix from address in memcpy_to_iter
 1fa942f31665ea5dc5d4d95893dd13723eaa97cc wifi: iwlwifi: mvm: fix a battery life regression
 16867c38bcd3be2eb9016a3198a096f93959086e wifi: iwlwifi: exit eSR only after the FW does
 a23c0af103e184bb1252dddddda040f6641bea7b wifi: iwlwifi: do not announce EPCS support
-7fddac12c38237252431d5b8af7b6d5771b6d125 driver core: Fix device_link_flag_is_sync_state_only()
-6442d79d880cf7a2fff18779265d657fef0cce4c driver core: fw_devlink: Improve detection of overlapping cycles
-6e7ad1aebb4fc9fed0217dd50ef6e58a53f17d81 driver core: fw_devlink: Improve logs for cycle detection
 bd6081be2251c3700eca8a7bbe071e1bb8cd2af4 dmaengine: at_hdmac: add missing kernel-doc style description
 e9f1e6bb55bea4f8cb48f8f7443bbac99b60d285 Revert "gfs2: Use GL_NOBLOCK flag for non-blocking lookups"
 ad834c7c8e4a74dd6cd4397848aa255e473d4a63 Merge tag 'usb-serial-6.8-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
@@ -734,7 +736,6 @@ d7332c4a4f1a7d16f054c6357fb65c597b6a86a7 ASoC: SOF: ipc3-topology: Fix pipeline 
 8c427cc2fa73684ea140999e121b7b6c1c717632 tracing/probes: Fix to show a parse error for bad type for $comm
 9a571c1e275cedacd48c66a6bddd0c23f1dffdbf tracing/probes: Fix to set arg size and fmt after setting type from BTF
 9efd24ec5599ed485b7c4d9aeb731141f6285167 kprobes: Remove unnecessary initial values of variables
-3ca8fbabcceb8bfe44f7f50640092fd8f1de375c Revert "kobject: Remove redundant checks for whether ktype is NULL"
 45be0882c5f91e1b92e645001dd1a53b3bd58c97 smb3: add missing null server pointer check
 55c7788c37242702868bfac7861cdf0c358d6c3d smb: client: set correct d_type for reparse points under DFS mounts
 2a427b49d02995ea4a6ff93a1432c40fa4d36821 blk-iocost: Fix an UBSAN shift-out-of-bounds warning
@@ -1070,7 +1071,6 @@ efb0b63afce6a6f470ee8eda5abe70d1e8aa558a Merge tag 'zonefs-6.8-rc5' of git://git
 c1ca10ceffbb289ed02feaf005bc9ee6095b4507 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 172c0cf519fb52860157c57067f1a58cfc0aa861 MAINTAINERS: Add Siddharth Vadapalli as PCI TI DRA7XX/J721E reviewer
 9704669c386f9bbfef2e002e7e690c56b7dcf5de tracing/probes: Fix to search structure fields correctly
-5928d411557ec5d53832cdd39fc443704a3e5b77 Documentation: Document the Linux Kernel CVE process
 55f626f2d0c81b33552ce0e59b63a0110807bad2 Merge tag '6.8-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 ad645dea35c1381890bb190f208f8e62c61e3cbd Merge tag 'probes-fixes-v6.8-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 4a7571485c467b76cc19fae304452fd56921c789 Merge tag 'pci-v6.8-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
@@ -1082,4 +1082,4 @@ ced59052315615ffb3c39eb96e7b33f2cff6f781 Merge tag 'driver-core-6.8-rc5' of git:
 f2667e0c32404a68496891b2d2015825de189b06 Merge tag 'bcachefs-2024-02-17' of https://evilpiepirate.org/git/bcachefs
 c02197fc9076e7d991c8f6adc11759c5ba52ddc6 Merge tag 'powerpc-6.8-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 
---===============6650815703429122437==--
+--===============3415483861247801419==--
