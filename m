@@ -1,63 +1,87 @@
-Content-Type: multipart/mixed; boundary="===============3636885418708351597=="
+Content-Type: multipart/mixed; boundary="===============0137238838828942535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 18 Feb 2024 18:01:13 -0000
-Message-Id: <170827927360.17489.4778078837956495201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sun, 18 Feb 2024 18:01:38 -0000
+Message-Id: <170827929808.17690.6743302017741675923@gitolite.kernel.org>
 
---===============3636885418708351597==
+--===============0137238838828942535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 6cc3028f797a549f256d593867a769ab6a8265f2
-    new: 548fcf037b3f8592e9fe41469110453a777416d6
-    log: |
-         8524788abf564fb7927873ff3fbc8056c6f02195 tty/vt: Corrected doc of vc_sanitize_unicode(), vc_translate_unicode()
-         42af6bcbc351d544889fcbcfc9c3d4bd39191b7d tty: hvc-iucv: fix function pointer casts
-         394e3dbac214e6144a4a0fd27cfd5e5164daea3d serial: 8250_pci1xxxx: Don't use "proxy" headers
-         0b38539633dbe1c9b88741c9b96a92135c42a369 serial: 8250_bcm7271: Replace custom unit definitions
-         1364ea8a561356760c86a38c76ddb553bb17c646 serial: lpc32xx_hs: remove redundant check and assignment of hsu_rate
-         5fcd6e71e8c5ac9091933dc44997f9ed68d9384a tty: jsm: Remove redundant assignment to variable linestatus
-         cd0eb354d441488feed6685adbeb1acd45db1b8d serial: 8250_of: Drop quirk fot NPCM from 8250_port
-         548fcf037b3f8592e9fe41469110453a777416d6 tty: Don't include tty_buffer.h in tty.h
-         
+  - ref: refs/heads/staging-next
+    old: ce54e9342124ededf0a00ed4e8a8aee535bfbf00
+    new: 455c5e12a3b7d08c2ab47b7dd54944901c69cdcd
+    log: revlist-ce54e9342124-455c5e12a3b7.txt
 
---===============3636885418708351597==
+--===============0137238838828942535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708279273 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1708279271-018bf9c99c1024cf36624553d68a4f132c21de7a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708279297 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1708279296-989a35315cacfde7107cde3237d477dde7d87f6f
 
-6cc3028f797a549f256d593867a769ab6a8265f2 548fcf037b3f8592e9fe41469110453a777416d6 refs/heads/tty-next
+ce54e9342124ededf0a00ed4e8a8aee535bfbf00 455c5e12a3b7d08c2ab47b7dd54944901c69cdcd refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXSRekbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BWgQAJ6C1oHIh6fQX6ohezS8
-Z6InqTZzkGt5HgzNXYb/jBLFHaePLxgb9TWvosIkOEst9RzgWE6qltAXIlDJRITn
-uSEsiD2zFejLRMX5PnfRf/cdIy4lxmOi2kfJFEX5OowFhn9S2lx67ycotZI0RE1K
-fas+6POGEV07rkvcx/dV4JrVKnm4XBbP1cuuLI4d32l3btbKMXfuYPDeR3+igdtA
-orcgWeR9vpDA59oMqCdsYyuwz0A0EZtNU9nuI/1LRD7NqhRSr9fHpymKYjGcjWEy
-iEf/CQh+d0IEeaPE4rLbKQp3uppZvxXZtes9/zXxliaijpmhHeQOwVE2MsTqhVXt
-8Zprs15t305LM5eHaCWegJXnDCX5i5vHXJxBkUS+hiwsdC4QCoVZot6pg6g/rZlQ
-UiqPfqP+janxL0wGKoR4xwCSn+3WmBoRbapxU27xpluoWnm+/0/4PgHdyodoZab1
-Fw7LSEQHCBXajqI2HWZv8HvbqXdTMUR5Mo+5d7rjtVw43XBo/Do6vWCpXs/lkAj9
-4Lcsl3ynIE87JdHGZefithbAUXtePBLr5qPYlnwIl2ALrrCGTimpBmyQYXbjCH0G
-eFKZeHNYMphOQ++MohpOM/WVJoOX6ZSs2ZY6QIu6xJ/CntYOCop4vgiaFBKL/+DJ
-mYcA28S/vuH+8onVeeLsvH72
-=M5Zm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXSRgEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4XAQAI5oJ4xZiV2zg0OqL1Ob
+MyYo0uMM2pKpJK1I8+PDZOdAwkZn6OuWo5wmIrPYMZ7O7EShr0rGmppMEcS1zTD1
+G0FQgScmx8ZTewf7PncS+PdOxNNs1IralUr6O+6DfOrqZYG9AOeXz2cePiuhr22O
+2SPrJISrGy1Dy4Srs4qQNRNnc4GXj8A7DGZ1YFke+fEg/69dLHu4Lf7y4dCWQp5n
+W4wgJ/GxwD9O5sGbJdUHmGDa3lcjdOBKs+4TgX4sHm2hi0um+1rgPF49VisuKeGz
+rTULQ6ukDLoiWp8XjxSfNJxxMeiJniDwZpuSS1iec+M1YwE92E6TGa3DXK7eyae1
+9JbjFnaZR5B9LJEsqo5XSQcwh7Cf2P0wTY95swO7bKDlvE9SbDhEUn1yOwK63jAx
+lpG58VrCYw4m0erMft49suyT/0LkJTS/vnTHFOlEPpSo0XRHdGd2ieSK0hcJKa0v
+PvsZZYYIdsIUmTYClMR+L5VsD/2d+RWRyaz14BuYyIJFy9jSMvbyBchsfcV+OW4V
+loJq9WEswB3p0ucZwkgrvaTOpiej2sawnMxvKRhvYy31olCLuEGYZxSEYpkz70vc
+YAGDSV6cBe2fOAMOA7WwX/swxgPC5KNn+t0MwW3XH1uHJsiLjx4pu2B976P3Fv5x
+p1O608aaaXp09O4ovWacq2lE
+=ePL4
 -----END PGP SIGNATURE-----
 
---===============3636885418708351597==--
+--===============0137238838828942535==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ce54e9342124-455c5e12a3b7.txt
+
+dfc5660b2438e2c89c43b8cb4303531a05cc3d49 Staging: rtl8192e: Rename variable FirstIe_InScan
+a372b8023741783d7753b8993538084b033a45ac Staging: rtl8192e: Rename function rtllib_rx_ADDBARsp()
+808f35c4e635e54c4b3e205cb5b54bd1ed47cdc9 Staging: rtl8192e: Rename variable LPSAwakeIntvl_tmp
+6b7a8b468befd36890e6d333c85d200c610f8121 Staging: rtl8192e: Rename variable LPSDelayCnt
+583b7e3b93f584549379c2e204181fbb92fabdc9 Staging: rtl8192e: Rename function pointer SetHwRegHandler()
+e51e94692d5952dc24f16831a3a6c4363c703ea0 Staging: rtl8192e: Rename function MgntQuery_TxRateExcludeCCKRates()
+05ee6e2ffc959af78155367c7f3256b690e95693 Staging: rtl8192e: Rename variable PeerHTCapBuf
+332fe0ec286427713607064021b712914bef701c Staging: rtl8192e: Rename variable PeerHTInfoBuf
+a9055dc8e5cad4a47c2101db9ef10de7ca55461a Staging: rtl8192e: Rename variable LPSAwakeIntvl
+0efe628a94b6503d0152b88db4a71f064c3334fc Staging: rtl8192e: Rename variable SelfHTCap
+459a6c2b25806214d0f41dc539561a66954f9194 Staging: rtl8192e: Fix paren alignment for rtllib_disable_net_monitor_mode()
+9842cb03969ec55eee44ffed2ad938e80b5d3844 Staging: rtl8192e: Fixup if statement broken across multiple lines.
+c64b64c98bc714db87bd062fbb936c88a0832970 Staging: rtl8192e: Remove unnecessary blank line
+3f3dd0a07c8a7646c1e1038ca611c7b7a3cbde3f Staging: rtl8192e: Fix if statement alignment with open parenthesis
+1650401eac5ff0f90f9ac717183cf8c2fa5c1dca Staging: rtl8192e: Rename variable Octet
+0dd08a4b53de1f6b5af0eb52c8b3db38a8d98e54 Staging: rtl8192e: Rename variable LpsIdleCount
+34eb6bea1ffb8fd9dff2a7174651e6aaac4b3b7e Staging: rtl8192e: Rename variable NumRecvBcnInPeriod
+b4a89adc2ff369f825c3427e9bb5c9cac096dc65 Staging: rtl8192e: Rename variable bForcedBgMode
+0ef4a26928d7d7efd052b044d0583ddbb9eab33f staging: rtl8192e: remove braces from single statement blocks
+2025908b8e3ab4318295c3dfc4c2781157a266f0 staging: rtl8192e: remove return from void function rtl92e_set_channel
+72c068a1c71ffac8d522ad50beda775b45cd5953 staging: rtl8192e: initialize variables at declaration
+cfd87832dfa1b69069d3e6c598044a5568e1a1ef staging: axis-fifo: Use sysfs_emit()
+e1f97d7ef608962de2206a8899c6f18dc4f36fdc staging: fieldbus: make anybus_bus const
+869eb452aed66ac74c0ee7ecd6f9d545b975c676 staging: vc04_services: vchiq_arm: make vchiq_bus_type const
+133951fda02c5440cf7048d9886a226bbc7504a2 staging: vme: make vme_bus_type const
+455c5e12a3b7d08c2ab47b7dd54944901c69cdcd staging: gdm724x: constantify the struct device_type usage
+
+--===============0137238838828942535==--
