@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6407940375459863396=="
+Content-Type: multipart/mixed; boundary="===============0859459620237661441=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 18 Feb 2024 18:36:27 -0000
-Message-Id: <170828138719.11348.3693985125251660042@gitolite.kernel.org>
+Date: Sun, 18 Feb 2024 18:37:18 -0000
+Message-Id: <170828143857.12217.2352502150145562071@gitolite.kernel.org>
 
---===============6407940375459863396==
+--===============0859459620237661441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,30 +16,33 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 33bf77421f6a89d9ebad13149088ab96f2d2d1ca
-    new: ce1590dfd593976e59e93bf91c73230549be6157
-    log: revlist-33bf77421f6a-ce1590dfd593.txt
+    old: ce1590dfd593976e59e93bf91c73230549be6157
+    new: e302d127a3334f62aa44dd6b37b9d3880642f3fa
+    log: revlist-ce1590dfd593-e302d127a333.txt
 
---===============6407940375459863396==
+--===============0859459620237661441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33bf77421f6a-ce1590dfd593.txt
+Content-Disposition: attachment; filename=revlist-ce1590dfd593-e302d127a333.txt
 
-83ef106fa732aea8558253641cd98e8a895604d7 i2c: qcom-geni: Correct I2C TRE sequence
-3b9ab248bc45abf8c2365ed3eec86cdefd4d626a kbuild: use 4-space indentation when followed by conditionals
-f44bff19268517ee98e80e944cad0f04f1db72e3 i2c: pasemi: split driver into two separate modules
-c1c9d0f6f7f1dbf29db996bd8e166242843a5f21 i2c: i801: Fix block process call transactions
-6388cfd0e69b56ca640610f1bf29334619d18142 docs: kconfig: Fix grammar and formatting
-e3a9ee963ad8ba677ca925149812c5932b49af69 kbuild: Fix changing ELF file type for output of gen_btf for big endian
-dae4a0171e25884787da32823b3081b4c2acebb2 gen_compile_commands: fix invalid escape sequence warning
-5d9a16b2a4d9e8fa028892ded43f6501bc2969e5 modpost: trim leading spaces when processing source files list
-a951884d82886d8453d489f84f20ac168d062b38 kallsyms: ignore ARMv4 thunks along with others
-67ec505fae32419354f4172c06c853def2541300 Merge tag 'i2c-host-fixes-6.8-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
-626721edeebd90df65691aed0df251b63c4ca4e2 Merge tag 'i2c-for-6.8-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-7cb7c32d60ad2dea48b7ac2845d86f10b0be089e Merge tag 'irq_urgent_for_v6.8_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ddac3d8b8a48dda6447a7f7a15f8124020a5add2 Merge tag 'x86_urgent_for_v6.8_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-6c160f16be5df1f66f6afe186c961ad446d7f94b Merge tag 'kbuild-fixes-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-ce1590dfd593976e59e93bf91c73230549be6157 Merge branch 'linus'
+6873b789cc48b63e9dd6a433941b3bf714c210ea Merge branch into tip/master: 'x86/merge'
+a6a1fbc4d43a7b6cb47b293eb99f5e503cc0689c Merge branch into tip/master: 'irq/core'
+1560af5cba7ac11836ad3ba2849854b2e47ce779 Merge branch into tip/master: 'irq/msi'
+eba12e82b5cf62b3b624e2373ed7a0cf9ddbca72 Merge branch into tip/master: 'ras/core'
+af1570bed497848fdc92bb6ebf85c8e4d6c11ad7 Merge branch into tip/master: 'sched/core'
+d5da9e070a882fb5a6231b7f120198ae5a2ad60e Merge branch into tip/master: 'smp/core'
+b66759174d37d9332bfcbc181297158af7b6ccde Merge branch into tip/master: 'timers/core'
+32455181baf13f2f3e3aafb93c28a1f1a2516534 Merge branch into tip/master: 'timers/ptp'
+e891b4def730eec5aa8a06e53953b31faa8bc102 Merge branch into tip/master: 'x86/boot'
+a0cdbd669a14019f997403abea3788caf2b14a9a Merge branch into tip/master: 'x86/cache'
+c7ac9c13a76fd1c83728787c8cb42cb3b2ad76c6 Merge branch into tip/master: 'x86/cleanups'
+a41bf16dd620bb0df293c1531ad730fbf983c106 Merge branch into tip/master: 'x86/cpu'
+d5d8023093052e8d325402d5e59f2566a9d9ce7b Merge branch into tip/master: 'x86/entry'
+55f96f9dac740faaf9a136007bc8b19ff9011334 Merge branch into tip/master: 'x86/fred'
+26cf310f8efb033bd7daa74522769f5efb1022a8 Merge branch into tip/master: 'x86/misc'
+58917f69ec0e961947d5d4cca916e8eb996c3fbf Merge branch into tip/master: 'x86/mm'
+889f30bc2fa06190f865b07f317aefd0beade2a1 Merge branch into tip/master: 'x86/sev'
+e302d127a3334f62aa44dd6b37b9d3880642f3fa Merge branch into tip/master: 'x86/vdso'
 
---===============6407940375459863396==--
+--===============0859459620237661441==--
