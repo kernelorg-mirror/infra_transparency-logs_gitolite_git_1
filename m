@@ -1,65 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5079137819791758752=="
+Content-Type: multipart/mixed; boundary="===============5558341249833710293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sun, 18 Feb 2024 18:19:51 -0000
-Message-Id: <170828039124.31062.13967050125329813691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 18 Feb 2024 18:21:12 -0000
+Message-Id: <170828047271.762.1869988237000374429@gitolite.kernel.org>
 
---===============5079137819791758752==
+--===============5558341249833710293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/tags/samsung-soc-6.9
-    old: 0000000000000000000000000000000000000000
-    new: e3220a7700d5493c65087731510ab96f41532390
-  - ref: refs/tags/samsung-dt64-6.9
-    old: 0000000000000000000000000000000000000000
-    new: 87b69fb9f7764cd38416df2f87c0ecfdb1b47507
-  - ref: refs/tags/samsung-dt-6.9
-    old: 0000000000000000000000000000000000000000
-    new: 922818fd803e4c7976f8fedf49d94f43fe635dbf
-  - ref: refs/tags/samsung-drivers-6.9
-    old: 0000000000000000000000000000000000000000
-    new: 061f2e7f4efb9f970f7c88db5d98c8266234538d
+  - ref: refs/heads/master
+    old: c02197fc9076e7d991c8f6adc11759c5ba52ddc6
+    new: 6c160f16be5df1f66f6afe186c961ad446d7f94b
+    log: revlist-c02197fc9076-6c160f16be5d.txt
 
---===============5079137819791758752==
+--===============5558341249833710293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c02197fc9076-6c160f16be5d.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1708280389 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1708280388-034e44c69775b9dc5d6b88d73ad2e4b0f2e3c9ec
+83ef106fa732aea8558253641cd98e8a895604d7 i2c: qcom-geni: Correct I2C TRE sequence
+d794734c9bbfe22f86686dc2909c25f5ffe1a572 x86/mm/ident_map: Use gbpages only where full GB page should be mapped.
+b0344d6854d25a8b3b901c778b1728885dd99007 irqchip/irq-brcmstb-l2: Add write memory barrier before exit
+f1c2765c6afcd1f71f76ed8c9bf94acedab4cecb irqchip/loongson-eiointc: Use correct struct type in eiointc_domain_alloc()
+8ad032cc8c499af6f3289c796f411e8874b50fdb irqchip/qcom-mpm: Fix IS_ERR() vs NULL check in qcom_mpm_init()
+846297e11e8ae428f8b00156a0cfe2db58100702 irqchip/gic-v3-its: Handle non-coherent GICv4 redistributors
+8b02da04ad978827e5ccd675acf170198f747a7a irqchip/gic-v3-its: Restore quirk probing for ACPI-based systems
+af9acbfc2c4b72c378d0b9a2ee023ed01055d3e2 irqchip/gic-v3-its: Fix GICv4.1 VPE affinity update
+3b9ab248bc45abf8c2365ed3eec86cdefd4d626a kbuild: use 4-space indentation when followed by conditionals
+f44bff19268517ee98e80e944cad0f04f1db72e3 i2c: pasemi: split driver into two separate modules
+c1c9d0f6f7f1dbf29db996bd8e166242843a5f21 i2c: i801: Fix block process call transactions
+6388cfd0e69b56ca640610f1bf29334619d18142 docs: kconfig: Fix grammar and formatting
+e3a9ee963ad8ba677ca925149812c5932b49af69 kbuild: Fix changing ELF file type for output of gen_btf for big endian
+dae4a0171e25884787da32823b3081b4c2acebb2 gen_compile_commands: fix invalid escape sequence warning
+5d9a16b2a4d9e8fa028892ded43f6501bc2969e5 modpost: trim leading spaces when processing source files list
+a951884d82886d8453d489f84f20ac168d062b38 kallsyms: ignore ARMv4 thunks along with others
+67ec505fae32419354f4172c06c853def2541300 Merge tag 'i2c-host-fixes-6.8-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
+626721edeebd90df65691aed0df251b63c4ca4e2 Merge tag 'i2c-for-6.8-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+7cb7c32d60ad2dea48b7ac2845d86f10b0be089e Merge tag 'irq_urgent_for_v6.8_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+ddac3d8b8a48dda6447a7f7a15f8124020a5add2 Merge tag 'x86_urgent_for_v6.8_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+6c160f16be5df1f66f6afe186c961ad446d7f94b Merge tag 'kbuild-fixes-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 
-0000000000000000000000000000000000000000 e3220a7700d5493c65087731510ab96f41532390 refs/tags/samsung-soc-6.9
-0000000000000000000000000000000000000000 87b69fb9f7764cd38416df2f87c0ecfdb1b47507 refs/tags/samsung-dt64-6.9
-0000000000000000000000000000000000000000 922818fd803e4c7976f8fedf49d94f43fe635dbf refs/tags/samsung-dt-6.9
-0000000000000000000000000000000000000000 061f2e7f4efb9f970f7c88db5d98c8266234538d refs/tags/samsung-drivers-6.9
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmXSSkUQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11OzEACTNZdCDVWDmgT0RDvXDtOigQtlbFwwtsNA
-AyN/vqJPkFrPQldstff70Cl36gAI6n+tivnO7h4ZGztjuv7DpVxavWEbJkgfZ6DM
-FaOfam6pPE/cuQdORZ7/BR8LHIjRNAYMXdIAL8gRJC6rVvSMfx/1RraOhkKWbGhK
-3qHAM7g5LbuGswqYEnkbN0tI6wVPSkJ7admQ/YZdYAmgObQRjsQM8w5/meMKl5Zq
-h38ktyFD3FMwcEZAzXcCjqHu1skk3nQIQM573EpMvt12dmID+fNZkQ4fxnWxfGTf
-Yas+N9/cmITqq3WKwnorB5ATOdLXsomGeJIyH5K+oIZrWuSR9fBkCFQxAIygT8zR
-71V8dUVSx5GUToPbbpIwwgciQWqwWSpbZDL7bgAilRrctikjC+lUkgKPrziwZKrH
-2re5GNzM6UjIU8KfMt2ktbOROF+Uo9LxZTiK/fZB+lrLtJVsXz3Ou8dLZFiVqrk7
-Ew4byvmZHCqQW40qIDKlvPJ1/jqRmNpaDcRIK9b4rvmTjHaBII0Ckq8Ua8H8Ezss
-4lJiqMjjJJ4T4KCZvNCQoQ5WxcWqDvX8QD3bP2oYXIGONrzKbIRQfg6N7V42CeWx
-GAmjm9erwJ37nV2oOz2gcdMIqj/v+xCe4EWF0QRsIeksyU0PzsgaLP3krxSHwHDv
-m05LCufXsw==
-=BRfq
------END PGP SIGNATURE-----
-
---===============5079137819791758752==--
+--===============5558341249833710293==--
