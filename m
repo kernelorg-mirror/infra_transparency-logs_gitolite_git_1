@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 19 Feb 2024 14:55:31 -0000
-Message-Id: <170835453100.4066.12463137503308336663@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 14:55:48 -0000
+Message-Id: <170835454852.4235.13050314484147043183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-6.9-merge
     old: 9ee85f235efeebd5146c4436fb255d636e8063d6
     new: 49c379d3a72ab86aafeafebe6b43577acb1ef359
     log: |
