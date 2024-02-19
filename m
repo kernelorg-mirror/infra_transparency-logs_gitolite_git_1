@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6635822113581966138=="
+Content-Type: multipart/mixed; boundary="===============5791679835641766946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 19 Feb 2024 08:10:48 -0000
-Message-Id: <170833024884.15376.11526993887094574911@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 08:11:01 -0000
+Message-Id: <170833026146.15537.1406289968174603755@gitolite.kernel.org>
 
---===============6635822113581966138==
+--===============5791679835641766946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis-removal
-    old: f96c7d259c3525e4e8881a340e61d091683a6896
-    new: 2130c17dfda45c932b1aeeba90a347314f21b806
-    log: revlist-f96c7d259c35-2130c17dfda4.txt
+  - ref: refs/heads/gadget_char
+    old: c84c01a2bfa9f355b2729c29c4137392ef6f745f
+    new: 2480893246ae0a78ae0d7f0eebba749ccaf4cc0d
+    log: revlist-c84c01a2bfa9-2480893246ae.txt
 
---===============6635822113581966138==
+--===============5791679835641766946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708330245 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708330257 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1708330244-e0bcae693d794ecf484547ec2afb56630bb7165d
+nonce 1708330257-42b45babd9dc83659638ed7a45baac3487182635
 
-f96c7d259c3525e4e8881a340e61d091683a6896 2130c17dfda45c932b1aeeba90a347314f21b806 refs/heads/rndis-removal
+c84c01a2bfa9f355b2729c29c4137392ef6f745f 2480893246ae0a78ae0d7f0eebba749ccaf4cc0d refs/heads/gadget_char
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXTDQUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p60P/0Te/I2+hVmtCVs+Bbdc
-NuACtULn/oWBHTlyIwrqVFjzlNMw+mrpt2yO/CH8GVCIuEf96itTeU0YVMeN92MW
-1TM+yKTMegp1JV2byyYfZ1cR61H77SJ9SlqYxPRrUB/B03sQItI83ThUPKS0OeyS
-tGhpQfXcadN5OMOFgp6s+TqLDqu9rRnZ7DfuidisC1fHfbK0iySiRW00t+wtNinx
-seSRtms54Nke+dvpuDNP1qdvkSF2oeBsL0M6YrYrkk5YJid+iRclUrJsvmiwAz7Z
-UBEUy8jrf5eP9+JER8mRjZelc7/Bt42j3hcL/m2zKFAl2Fnf6kjI9bFJZrgGsRyb
-JYUobq5gi9cRZG9KjDP1LaxEwDHufkYsTQFFZ6ctX/uclld2ygwpJPSryn0jEXbW
-vFqVAMI3yE+VoAFH3r7/IKhMT7CI26eeL8IuU2HC+BEjHc/Q1FKoGSluW8qVnSDc
-U2iwgJeEDXGzMySm7jNR8q+RZNecmxlYcnN0+bSYz3s8vg9INXjHgrO1E4o/+1xv
-vXtXts4J7MVkH4KU10tq9zF+ma2AylQtTP2U+BaruFopRInCMJtNxIpsjbzfXyoG
-Fe/HXqAUIdwSkxJ5UPyQfuHD+QLtDSkfHpTKYaTb0v4iyvUT5Sa6PeuQL1LWVjZN
-/bxoNn1HvZHb7EutvI00RDPx
-=8A4T
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXTDRIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qAkQALbcSCFPToaOef5eCyqk
+BwH19gqkHe3S1nprrC7jmjRW6mrtKAGabQHNE4nZvrk6T7P/7MYYBkFskR5mBQfl
+9R5JH70vANUt8hY0zMqHV+8xRcqzIlfutQaXibo0oH6ef6xBEcV2vB0X1pVyuFL4
+8NklZfCUB6CuJ4Eto4VCX8RGNCFkrkcVOoHJE+bJDMi26UjKHKx43ZdtoDWuFITm
+LDPstgGsVnByFvJGZKpjzqquRAtqX93ykVWqtbz06GgPHg4Mm+tayDIX8c39w3IC
+TNwX+/sjKvt+Q+/a7QdUm+heBw2pikkMp8mD8dB9HvG7Y6EXNXyCUeeyLwUXnd1+
+NzEVWsTmcVkcKXP0mu59bjVt9ChaeV9r91i8LzdYueKsTfRP2TtrHpwdsOZWcEJI
+Z4/RAD1CjVcMEiwlK+ik1GGXD+r74l17BrKwCNQGdQH0Aab3wcaCAPce+QMRpvML
+J4dx9tQmNZ5YS1IRe2HZA8fl4uxolKEKBw7Kpn/rrJco9w+/RXWYTInJF6C5/Ife
+12VexJ99dweDnWvrhXrpvd7EkP5efOZT6xfcYus25YBDA2M37jR+eioND7Jovxiq
+U8gIqhsbraQk5z4LpDur0R7z1TEXRgpwul6MbnntLe2+J5MD6ZMApb7zst/j8OWg
+F0T7oive6J/9mkyBsYEXzwST
+=R9oU
 -----END PGP SIGNATURE-----
 
---===============6635822113581966138==
+--===============5791679835641766946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f96c7d259c35-2130c17dfda4.txt
+Content-Disposition: attachment; filename=revlist-c84c01a2bfa9-2480893246ae.txt
 
 c39de951282df9a60ef70664e4378d88006b2670 fs/ntfs3: Improve alternative boot processing
 22457c047ed971f2f2e33be593ddfabd9639a409 fs/ntfs3: Modified fix directory element type detection
@@ -813,6 +813,6 @@ c02197fc9076e7d991c8f6adc11759c5ba52ddc6 Merge tag 'powerpc-6.8-3' of git://git.
 ddac3d8b8a48dda6447a7f7a15f8124020a5add2 Merge tag 'x86_urgent_for_v6.8_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6c160f16be5df1f66f6afe186c961ad446d7f94b Merge tag 'kbuild-fixes-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 b401b621758e46812da61fa58a67c3fd8d91de0d Linux 6.8-rc5
-2130c17dfda45c932b1aeeba90a347314f21b806 USB: disable all RNDIS protocol drivers
+2480893246ae0a78ae0d7f0eebba749ccaf4cc0d USB: gadget: dummy_hcd: switch char * to u8 *
 
---===============6635822113581966138==--
+--===============5791679835641766946==--
