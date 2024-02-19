@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0403611105564457164=="
+Content-Type: multipart/mixed; boundary="===============1205859512949691085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 19 Feb 2024 09:05:07 -0000
-Message-Id: <170833350725.22861.11380740047131963683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 19 Feb 2024 09:05:13 -0000
+Message-Id: <170833351328.22984.115120139232763027@gitolite.kernel.org>
 
---===============0403611105564457164==
+--===============1205859512949691085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: b401b621758e46812da61fa58a67c3fd8d91de0d
     log: revlist-841c35169323-b401b621758e.txt
 
---===============0403611105564457164==
+--===============1205859512949691085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -459,4 +459,4 @@ ddac3d8b8a48dda6447a7f7a15f8124020a5add2 Merge tag 'x86_urgent_for_v6.8_rc5' of 
 6c160f16be5df1f66f6afe186c961ad446d7f94b Merge tag 'kbuild-fixes-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 b401b621758e46812da61fa58a67c3fd8d91de0d Linux 6.8-rc5
 
---===============0403611105564457164==--
+--===============1205859512949691085==--
