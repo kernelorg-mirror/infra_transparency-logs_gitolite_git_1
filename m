@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3532467797947235405=="
+Content-Type: multipart/mixed; boundary="===============6092876815247586222=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 19 Feb 2024 06:52:31 -0000
-Message-Id: <170832555117.21150.8008396423446565247@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 06:56:00 -0000
+Message-Id: <170832576061.24056.18242774494330681377@gitolite.kernel.org>
 
---===============3532467797947235405==
+--===============6092876815247586222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,68 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.8-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0b5b909d9a9083afacaac2a75dac24ba3649f692
-  - ref: refs/tags/v6.8-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 251168394b084796bcd8f3e3655f2eb38c524ea3
-  - ref: refs/tags/v6.8-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 7e311d420f96ef38326a0f3b7d8cffa3dee32ae5
+  - ref: refs/heads/main
+    old: c02197fc9076e7d991c8f6adc11759c5ba52ddc6
+    new: b401b621758e46812da61fa58a67c3fd8d91de0d
+    log: revlist-c02197fc9076-b401b621758e.txt
 
---===============3532467797947235405==
+--===============6092876815247586222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708325548 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708325759 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1708325548-f25a0b3fcf461c0674b955ab0fa4a77eab3b3c97
+nonce 1708325759-2afdf29903e10dca43baac42e9e9c142cab5af43
 
-0000000000000000000000000000000000000000 0b5b909d9a9083afacaac2a75dac24ba3649f692 refs/tags/v6.8-rc3
-0000000000000000000000000000000000000000 251168394b084796bcd8f3e3655f2eb38c524ea3 refs/tags/v6.8-rc4
-0000000000000000000000000000000000000000 7e311d420f96ef38326a0f3b7d8cffa3dee32ae5 refs/tags/v6.8-rc5
+c02197fc9076e7d991c8f6adc11759c5ba52ddc6 b401b621758e46812da61fa58a67c3fd8d91de0d refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXS+qwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OCIP/07TlE08hkrlFPwmk3X0
-NBQ8nLwMl+GY3CqsrHlpmP2LoyRbrezajHuEmIhflAtSAzpP4Fn6xCndCBy/XvwB
-UWB6l54nWK22mtsTdNpHhLHWzSCG4cc8o9nT+1Kk8ZF0fXaUPBorCpJqWxG5gK0W
-KCaria7rWv9+BdWBVUZBZTrWOqXQbQlI5NNCC4/5Ffq4g8fS2tqreN5DYF1PUZOy
-Ld50vgGUwdnOXcnfq5KrHGjZamjEL4GPau6FXogSyim2NY6TphUgnC/5B+Jrbaxo
-++GvDo4E4iRys31gLAj5p9QTeyxfxC7CcbVRVt83RdOlK17O5yK9P/brmaW5y8y9
-cs4g6oVsACBwAOnk6bL3aHbLEaXm5yZ2CFpngCrD0QL4elhthngLosYpM/iY+KbK
-GnmIfS0xow4AetruXgns9T/YU8j80gjmWoV/KOagXcVwsHesDqFQN3dVxS84tPpR
-sLTmsuTtlPfXJUWTD1aDs+fob4d6hmDXCIQz4Wly6Zu1PuGXVjV43M4p6h++MlBJ
-ke6p4LJhWleR937009ivqyxht3c9C9ZOZm+4pdc6LbBT/HpNBRf9RtJWAuoeFQdR
-3XehAJwusVyLeBzOJKeXyyC2xyA9e/1S0hOgLV5J5TnWZse3o4InAWyFIu1SFJkP
-a4nP8KwcBwEksbTjtAmehvlZ
-=bev3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXS+38bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tJwQAJ+CndCI7ZEXtgVhG/WC
+E4DoA8dw5s2kjPReZ9OtQcFAjJRaelCzNd/vyKnN63v/7lj8HDmBUANWNIGboEQn
+UpXG0lSbV8v1yNBZeB8nM8fQ84IGKRjgXXIqjj681bVsksmkkJ2lRR795XHoAFwr
+5feMlVjUHQrvBFZGnzCXWBHPtye9GxHSFgEl5EG3u6hhnWc0WG6Ij5aoz9AQHse6
+BbR+mNHOh0QO1rfOa6XOiixeFVkqhHcfh7m4pji35QwbjKSwzPx831U6qAz/Ahi2
+IcxhwjQMkpDM8SmbY46OAjjI+Kv+HiObuTsRZSICOpUgO1XYRYEwFEn3gmTMQ0SR
+rIegc3Fm48gLLbw/0KJZaoOP3xVey2KjZd7Gd2cKqX1A2v/lm2RVbqNr6947J/u+
+1uZiT3aDeVV5x0CS+epxdyMhFiZrR95i+pX68mrI3HHl5dq6OvgSizq5gPkp+LM5
+HZXc4Rku1AhLwcKeivZCwIlQiHx6wokxw/YHA67hmEle1ZX+8SAnp3+XOnHWqhYT
+8i/mH92VECo4weLcPMVob45wL4xu5xixpeNdQ/qXnncHFU0Rf3h/61Tzf0OCorpH
+ArHoFwd5Gc1S/cNzjhgvvNnIM4Y/gMFnfXlgu6dGdn824cllxUpmuN+6YlcCZV3q
+YFGXjZDafCJmlndtaYhoL9GA
+=BDy6
 -----END PGP SIGNATURE-----
 
---===============3532467797947235405==--
+--===============6092876815247586222==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c02197fc9076-b401b621758e.txt
+
+83ef106fa732aea8558253641cd98e8a895604d7 i2c: qcom-geni: Correct I2C TRE sequence
+d794734c9bbfe22f86686dc2909c25f5ffe1a572 x86/mm/ident_map: Use gbpages only where full GB page should be mapped.
+b0344d6854d25a8b3b901c778b1728885dd99007 irqchip/irq-brcmstb-l2: Add write memory barrier before exit
+f1c2765c6afcd1f71f76ed8c9bf94acedab4cecb irqchip/loongson-eiointc: Use correct struct type in eiointc_domain_alloc()
+8ad032cc8c499af6f3289c796f411e8874b50fdb irqchip/qcom-mpm: Fix IS_ERR() vs NULL check in qcom_mpm_init()
+846297e11e8ae428f8b00156a0cfe2db58100702 irqchip/gic-v3-its: Handle non-coherent GICv4 redistributors
+8b02da04ad978827e5ccd675acf170198f747a7a irqchip/gic-v3-its: Restore quirk probing for ACPI-based systems
+af9acbfc2c4b72c378d0b9a2ee023ed01055d3e2 irqchip/gic-v3-its: Fix GICv4.1 VPE affinity update
+3b9ab248bc45abf8c2365ed3eec86cdefd4d626a kbuild: use 4-space indentation when followed by conditionals
+f44bff19268517ee98e80e944cad0f04f1db72e3 i2c: pasemi: split driver into two separate modules
+c1c9d0f6f7f1dbf29db996bd8e166242843a5f21 i2c: i801: Fix block process call transactions
+6388cfd0e69b56ca640610f1bf29334619d18142 docs: kconfig: Fix grammar and formatting
+e3a9ee963ad8ba677ca925149812c5932b49af69 kbuild: Fix changing ELF file type for output of gen_btf for big endian
+dae4a0171e25884787da32823b3081b4c2acebb2 gen_compile_commands: fix invalid escape sequence warning
+5d9a16b2a4d9e8fa028892ded43f6501bc2969e5 modpost: trim leading spaces when processing source files list
+a951884d82886d8453d489f84f20ac168d062b38 kallsyms: ignore ARMv4 thunks along with others
+67ec505fae32419354f4172c06c853def2541300 Merge tag 'i2c-host-fixes-6.8-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
+626721edeebd90df65691aed0df251b63c4ca4e2 Merge tag 'i2c-for-6.8-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+7cb7c32d60ad2dea48b7ac2845d86f10b0be089e Merge tag 'irq_urgent_for_v6.8_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+ddac3d8b8a48dda6447a7f7a15f8124020a5add2 Merge tag 'x86_urgent_for_v6.8_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+6c160f16be5df1f66f6afe186c961ad446d7f94b Merge tag 'kbuild-fixes-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+b401b621758e46812da61fa58a67c3fd8d91de0d Linux 6.8-rc5
+
+--===============6092876815247586222==--
