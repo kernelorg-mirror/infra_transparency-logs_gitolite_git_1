@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0170823619545526641=="
+Content-Type: multipart/mixed; boundary="===============2743276810803916210=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 19 Feb 2024 13:17:49 -0000
-Message-Id: <170834866944.29677.13937193446337136438@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 13:19:21 -0000
+Message-Id: <170834876194.30295.6489412948038557248@gitolite.kernel.org>
 
---===============0170823619545526641==
+--===============2743276810803916210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 2f277dbe1a4ac40b1157ba3b2914d39f4040bbed
-    new: 0f9eb43f009091501dd0c68232aa6530ba0e0185
-    log: revlist-2f277dbe1a4a-0f9eb43f0090.txt
+  - ref: refs/heads/ti-next
+    old: e7a45f5d7416bc1f03218bfee9670f3bfde22d83
+    new: 0ad5d338af6d04ae8c389120ecef0e9699f4f397
+    log: revlist-e7a45f5d7416-0ad5d338af6d.txt
 
---===============0170823619545526641==
+--===============2743276810803916210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f277dbe1a4a-0f9eb43f0090.txt
+Content-Disposition: attachment; filename=revlist-e7a45f5d7416-0ad5d338af6d.txt
 
 14a65ea5fee71d716d246b8cc494a95bc9924306 arm64: dts: ti: Add reserved memory for watchdog
 f00c6ead159fb028ac989916ed2999bac2f7d43b arm64: dts: ti: k3-j721s2-common-proc-board: Enable camera peripherals
@@ -55,5 +55,6 @@ ae0aba1218a0c67f144706c48502f534b2756491 arm64: dts: ti: k3-am642-evm: add overl
 1a5010eade10b409d353b770d97b548b0fbdf5d7 arm64: dts: ti: Add common1 register space for AM65x SoC
 7d8ee2c3b8a2aabb9ce75795bad20773bfe1ba13 arm64: dts: ti: Add common1 register space for AM62x SoC
 0f9eb43f009091501dd0c68232aa6530ba0e0185 arm64: dts: ti: Add common1 register space for AM62A SoC
+0ad5d338af6d04ae8c389120ecef0e9699f4f397 Merge branch 'ti-k3-dts-next' into ti-next
 
---===============0170823619545526641==--
+--===============2743276810803916210==--
