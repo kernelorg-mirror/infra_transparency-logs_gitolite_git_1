@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Mon, 19 Feb 2024 13:52:48 -0000
-Message-Id: <170835076850.22368.5618710337617470959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwestphal/nf
+Date: Mon, 19 Feb 2024 14:02:38 -0000
+Message-Id: <170835135853.29044.4268953837082209457@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/fwestphal/nf
+user: fwestphal
 changes:
-  - ref: refs/heads/mediatek-cmdq10
-    old: 4de181d57a45ae4600537b31da0a65654363f7fc
-    new: d9f0663b4f2d017258ed2a7b7136d23b18b80d4f
-    log: |
-         d9f0663b4f2d017258ed2a7b7136d23b18b80d4f soc: mediatek: cmdq: Add parameter shift_pa to cmdq_pkt_jump()
-         
+  - ref: refs/heads/dormant-reset
+    old: 0000000000000000000000000000000000000000
+    new: 34bfd872ad57df4214a47afc2cbd083c580311b9
