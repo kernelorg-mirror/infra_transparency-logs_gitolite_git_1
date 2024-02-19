@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 19 Feb 2024 21:29:32 -0000
-Message-Id: <170837817252.9572.7319045563916899745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 19 Feb 2024 21:48:29 -0000
+Message-Id: <170837930973.23911.8039300898767842292@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/tags/v6.8-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 7e311d420f96ef38326a0f3b7d8cffa3dee32ae5
+  - ref: refs/heads/vfs.pidfd
+    old: 3a80e74ce0810cf8e258484568bf7171a82f110b
+    new: 0d61ab77c5e4d9bd1ee022c5e186686c23ba70d6
+    log: |
+         0d61ab77c5e4d9bd1ee022c5e186686c23ba70d6 libfs: improve path_from_stashed() helper
+         
