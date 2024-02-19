@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6947225376342519599=="
+Content-Type: multipart/mixed; boundary="===============6350361690654433961=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 19 Feb 2024 19:36:59 -0000
-Message-Id: <170837141941.20818.8848567016282272223@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 19:37:19 -0000
+Message-Id: <170837143977.21156.16296566921759990922@gitolite.kernel.org>
 
---===============6947225376342519599==
+--===============6350361690654433961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 650e23991a5b75d11d3ed6d090b9084a2b18d154
+  - ref: refs/heads/testing
+    old: cd1c40fabcc03f0c472b6574d3da36004aefe764
     new: 3cc5ebd3a2d6247aeba81873d6b040d5d87f7db1
-    log: revlist-650e23991a5b-3cc5ebd3a2d6.txt
+    log: revlist-cd1c40fabcc0-3cc5ebd3a2d6.txt
 
---===============6947225376342519599==
+--===============6350361690654433961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-650e23991a5b-3cc5ebd3a2d6.txt
+Content-Disposition: attachment; filename=revlist-cd1c40fabcc0-3cc5ebd3a2d6.txt
 
 bb76cc45dcdfcd962a5994b8fe19ab74fc6c3c3a iio: gts-helper: Fix division loop
 49bb3839e0153b1f48aaa8dd502ea66b8b56db8a dt-bindings: adc: ad9467: add new io-backend property
@@ -48,4 +48,4 @@ bc4d251ee8442fa23758bf13de0bda603da01e22 dt-bindings: iio: adc: ti-ads1298: Add 
 5a01e812a6fe8e1541e84f897c8b74ebfef1df7c iio: accel: bmc150: Document duplicate ACPI entries with bmi323 driver
 3cc5ebd3a2d6247aeba81873d6b040d5d87f7db1 iio: imu: bmi323: Add ACPI Match Table
 
---===============6947225376342519599==--
+--===============6350361690654433961==--
