@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 19 Feb 2024 09:27:51 -0000
-Message-Id: <170833487164.7722.5461623574651370750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 19 Feb 2024 09:33:25 -0000
+Message-Id: <170833520537.11357.15743505415257445845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/for-6.8-fixes
-    old: 4b085736e44dbbe69b5eea1a8a294f404678a1f4
-    new: 9815e39617541ef52d0dfac4be274ad378c6dc09
+  - ref: refs/heads/x86-pie-for-sev-v5
+    old: 18b8ad417fdfc26bc67337723a9cd161b2fe6fa9
+    new: 113c6d95e6b9b85cde56b2a947e356f3feb79af3
     log: |
-         9815e39617541ef52d0dfac4be274ad378c6dc09 ahci: asm1064: correct count of reported ports
+         113c6d95e6b9b85cde56b2a947e356f3feb79af3 x86/startup_64: Drop global variables keeping track of LA57 state
          
