@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2358609709761915841=="
+Content-Type: multipart/mixed; boundary="===============7888961099979623474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 19 Feb 2024 07:50:16 -0000
-Message-Id: <170832901652.31574.5102504538703747017@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 07:50:24 -0000
+Message-Id: <170832902480.31688.3441961753343136443@gitolite.kernel.org>
 
---===============2358609709761915841==
+--===============7888961099979623474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,41 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 162eeb577d269e407f490abd0e2512b066c1871a
-    new: d9e0e7c68345ccaa06cfe6e3c34400670aef0064
+  - ref: refs/heads/next/dt
+    old: 5fb1252944fc3bba4a1026adaa9d150cfe8a3e16
+    new: b43b68935124f2e7558835f3e2f13d28afce1a31
     log: |
-         27ce5347f4ef5e76c6cd98dfc57bd21828224087 Revert "ARM: dts: exynos4212-tab3: limit usable memory range"
          b43b68935124f2e7558835f3e2f13d28afce1a31 ARM: dts: samsung: exynos4412: decrease memory to account for unusable region
-         d9e0e7c68345ccaa06cfe6e3c34400670aef0064 Merge branch 'next/dt' into for-next
          
 
---===============2358609709761915841==
+--===============7888961099979623474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1708329014 +0100
+pusher krzk@kernel.org 1708329023 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1708329013-144f73ad63d6e94a0aa39a636c3ed779062c0bf3
+nonce 1708329022-c36ab85f1e1eb618bf94167faff253a096d472c6
 
-162eeb577d269e407f490abd0e2512b066c1871a d9e0e7c68345ccaa06cfe6e3c34400670aef0064 refs/heads/for-next
+5fb1252944fc3bba4a1026adaa9d150cfe8a3e16 b43b68935124f2e7558835f3e2f13d28afce1a31 refs/heads/next/dt
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmXTCDYQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD173ID/0SWAh1UmkfyqA9nho+ZmRElqluHXBOVxfQ
-lUjBH6L9auREvBoiLUCwB8ika8aPZTdLIBI+dqSP70X+f1FRE7xEJsBIRcrc1YuE
-A8seZqA8smlV0tcnKxOwEyuwKOSJukI8Ch5BPImoXV6UVhD6cFivcOsIwc4+8u69
-J2wyWhpfx6rHGT2CPv42LrmM/8SuOqkf008pnTL7rMDyrWD7eUBNbImMF3k8Gmg0
-i2Akq6miHnxU1Rp3IZyROuRYQgWNbizzmezJhTmGFHYm3DsexyAFB+hE4nrB3i/r
-YrjkIdkAhB0gWVUFE8eZUGs8tsdw1oAktdPTKZnTrQJRBLHpvQ/xfZWVbjQPBvOD
-kmauiMJiZaLjlAszIhjewqhQRfmElGdqd0wBeeZsDX9r4ZMHEtJ9JC8KAqauTeVY
-eTci1OD2GmpltIDzy4KbywTlRGpzhImn4ADtHEbJD/9v4TtR0tRrHBMQA6+9EcfV
-mk96MSnLDtfuRK1x1Hj/jyoRsCCi4zIpEv9IV0KPLjXpLPogk/Q9bRah4hyvgkc9
-87GMO3Vk8nhKpWzBU0qCw6qKk2ciQHtSeeDK4wFtCEH24WDml9ufetxZAivy5tfn
-q8fc+8UZwKFxKCpcABXvLQndjaO4fVaDi06b1yOLy35PPkheotoYvWbJU2XqQ90a
-IxIE1YX5nQ==
-=TOey
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmXTCD8QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1xzDD/9yLJqm3LlUn05lGGmSrQlSzDTPfd0y0C1Q
+xx3Takkqv9lAQw4L+8aj0fqr8zWoJ5ioSNYMtOdqbF30edAaDKRR1T7LW2N3X2Jd
+LhgHduKAsQ9adRyipEzM/yfg7Ra66KvWMkaqw+k3P2gk6sbz90ONN4bwQuIF2tSC
+jVRWLG/wk90DcjFFL6fZzRU0gXftbIluJqDW9625cpl4t4bFsxV6mdUN+QxtZ30l
+Yi9pu1y8ngj/WD3KVtJ4HBzOSqNA+1AqMNGmPRKrPl/Y4oAG/Mm94qv5XEAJwaGQ
+/trufE2U+f9W06+Vk3pJslJSfOV1FVbHozJueV1Bop/H960kRj5DQnVt6ZJMvTnF
+s25YEeaB7z1VfpLJonOF6kVJ1LVKhMbzaRlgJGDxxEcHue+YK1tjMcuNE1CQpITy
+fO/KOz8saoWT5Iw79XqqAIh02QHhgVrWJbMAew0YmbCSmqeQVVrNhze5LVgmEYOc
+PO/RlnPNawifJ9hvEcItGRu+vt2EJc0/28TSm9x0THGRPCnZkymKapymx1Z7296Y
+/EyZjESNatoTUCGdJJDFxq2DIXe0hU2UqKohjFIDj70DtBy5nuibXOYqS1f9aKn0
+vmzqMVc4rMpIkJLLWyhOcfOXqDzxrX44OCNHjg7fkNhAPG8RZsDV8Z6xybL+GjHU
+ckSi4786dQ==
+=NAjM
 -----END PGP SIGNATURE-----
 
---===============2358609709761915841==--
+--===============7888961099979623474==--
