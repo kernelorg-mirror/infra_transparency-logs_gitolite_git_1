@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0100096833639634528=="
+Content-Type: multipart/mixed; boundary="===============0174568664342194043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 19 Feb 2024 11:03:59 -0000
-Message-Id: <170834063928.26828.212403479759747198@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 11:07:01 -0000
+Message-Id: <170834082180.29689.5098240904103381952@gitolite.kernel.org>
 
---===============0100096833639634528==
+--===============0174568664342194043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,33 +16,30 @@ repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
   - ref: refs/heads/x86-pie-for-sev-v5
-    old: 113c6d95e6b9b85cde56b2a947e356f3feb79af3
-    new: b50b8eb83db396c039cd207c680824f160b2152f
-    log: revlist-113c6d95e6b9-b50b8eb83db3.txt
+    old: b50b8eb83db396c039cd207c680824f160b2152f
+    new: 94f0a4898e8423dea0386e4f5c93667a3c7ec67e
+    log: revlist-b50b8eb83db3-94f0a4898e84.txt
 
---===============0100096833639634528==
+--===============0174568664342194043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-113c6d95e6b9-b50b8eb83db3.txt
+Content-Disposition: attachment; filename=revlist-b50b8eb83db3-94f0a4898e84.txt
 
-45ba5b3c0a02949a4da74ead6e11c43e9b88bdca iommu/amd: Fix failure return from snp_lookup_rmpentry()
-ee8ff8768735edc3e013837c4416f819543ddc17 crypto: ccp - Have it depend on AMD_IOMMU
-294f8789ab8d98fea6dc1bd7302cbbaca48197fb x86/startup_64: Simplify global variable accesses in GDT/IDT programming
-4efbb9472c7f120d494c5d462f2ce14c25458285 x86/startup_64: Use RIP_REL_REF() to assign phys_base
-495a760e7e1b44dd9e507454b42383f8e9884212 x86/startup_64: Use RIP_REL_REF() to access early_dynamic_pgts[]
-2108dc72d91d52b494b3bfb88b14fe6ad46dc901 x86/startup_64: Use RIP_REL_REF() to access __supported_pte_mask
-108e776e8b0145118a7a65d3a781d3124b6f41dc x86/startup_64: Use RIP_REL_REF() to access early page tables
-49c21cd274e9f19f4780d0a82e6b78196e6d2f54 x86/startup_64: Use RIP_REL_REF() to access early_top_pgt[]
-277fc719a85fdca3438b2fa0b0db23642e32f049 x86/startup_64: Simplify CR4 handling in startup code
-d7d0ba79bdbff3c88365343a09613ab138c48f25 x86/startup_64: Defer assignment of 5-level paging global variables
-432ecf397e1127c4000ba2682cc8099770039e1a x86/startup_64: Simplify calculation of initial page table address
-ad55d328b64aa8d891f57463bf901ea1678d963b x86/startup_64: Simplify virtual switch on primary boot
-24093c3be05d0252a098e3727731d292df81ee3d x86/sme: Avoid SME/SVE related checks on non-SME/SVE platforms
-6a8631a50b2abd7cd2ba346365b0efe97a444f13 efi/libstub: Add generic support for parsing mem_encrypt=
-8ce372c57b7651091027ac37086df0de728ecec6 x86/boot: Move mem_encrypt= parsing to the decompressor
-ec994ab3955294a5850d9da5dca12d7531a00cbe x86/sme: Move early SME kernel encryption handling into .head.text
-ed462e46cab1c6481787b648202c2e8cf70daed4 x86/sev: Move early startup code into .head.text section
-b50b8eb83db396c039cd207c680824f160b2152f x86/startup_64: Drop global variables keeping track of LA57 state
+105e15b659145a817553751bb7e3c7a23ce81fe2 x86/startup_64: Use RIP_REL_REF() to assign phys_base
+58359ea1e10283960361551f47c781eaa5f230ec x86/startup_64: Use RIP_REL_REF() to access early_dynamic_pgts[]
+6aa9a1912f07c538c1378cf201adc526f7f62efc x86/startup_64: Use RIP_REL_REF() to access __supported_pte_mask
+dc90c54f00ecdc49a2368a9aa4bef044a8a59a3e x86/startup_64: Use RIP_REL_REF() to access early page tables
+e803d9aa40a1b8c3eadd93a6989a5e02b5e66f5e x86/startup_64: Use RIP_REL_REF() to access early_top_pgt[]
+438032041b05dba8931cc20e9d1edaee4ac130fd x86/startup_64: Simplify CR4 handling in startup code
+ee01a7923d45b42c57f078f1061d92da876d8618 x86/startup_64: Defer assignment of 5-level paging global variables
+bc1229a40c01d92ea97de14fa5183e6c55699797 x86/startup_64: Simplify calculation of initial page table address
+d85437ef237148e869c4deb397e8105a177aba84 x86/startup_64: Simplify virtual switch on primary boot
+2e528e7bc76d4525141e3f41bb62dacbaff7196e x86/sme: Avoid SME/SVE related checks on non-SME/SVE platforms
+a5cbc447cfeb1e011e57bb0ff4a31281a5329f32 efi/libstub: Add generic support for parsing mem_encrypt=
+10d25da45adaaa0c37ddf19f885ff2084dd3b390 x86/boot: Move mem_encrypt= parsing to the decompressor
+43ca0a7a050324811b4aa2c4794b0735e6ec4e08 x86/sme: Move early SME kernel encryption handling into .head.text
+442cb35ead8a101dc8c299d17d0b908b7bf19787 x86/sev: Move early startup code into .head.text section
+94f0a4898e8423dea0386e4f5c93667a3c7ec67e x86/startup_64: Drop global variables keeping track of LA57 state
 
---===============0100096833639634528==--
+--===============0174568664342194043==--
