@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8557585245968712673=="
+Content-Type: multipart/mixed; boundary="===============1552234552764564065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 19 Feb 2024 09:26:16 -0000
-Message-Id: <170833477617.6991.3381181023797692410@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 09:26:28 -0000
+Message-Id: <170833478879.7165.5426160163771681909@gitolite.kernel.org>
 
---===============8557585245968712673==
+--===============1552234552764564065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: ead56c22dc299f4b6fea0d2915308336f75f8f50
+  - ref: refs/heads/for-next
+    old: ccc8c4a3df25d3c87e01e534caf86bd48998cedb
     new: 2c744f6889e43ba9fb55cfc6706d56471fa2e8ff
-    log: revlist-ead56c22dc29-2c744f6889e4.txt
+    log: revlist-ccc8c4a3df25-2c744f6889e4.txt
 
---===============8557585245968712673==
+--===============1552234552764564065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ead56c22dc29-2c744f6889e4.txt
+Content-Disposition: attachment; filename=revlist-ccc8c4a3df25-2c744f6889e4.txt
 
 c39de951282df9a60ef70664e4378d88006b2670 fs/ntfs3: Improve alternative boot processing
 22457c047ed971f2f2e33be593ddfabd9639a409 fs/ntfs3: Modified fix directory element type detection
@@ -827,4 +827,4 @@ d13a1cd97489a493175f20203589e5f24b0899fa treewide: replace or remove redundant d
 7ad693cf30f04aecfeee39ae36ca73c16a105b9d hexagon: select FRAME_POINTER instead of redefining it
 2c744f6889e43ba9fb55cfc6706d56471fa2e8ff hexagon: select GENERIC_IRQ_PROBE instead of redefining it
 
---===============8557585245968712673==--
+--===============1552234552764564065==--
