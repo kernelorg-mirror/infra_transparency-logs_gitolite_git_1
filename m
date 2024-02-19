@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 19 Feb 2024 21:50:03 -0000
-Message-Id: <170837940389.26099.14294532195457671506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 19 Feb 2024 21:50:20 -0000
+Message-Id: <170837942094.26310.14216300529211024687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/io_uring-send-queue
-    old: 3c89e9f11068b7354179665d6175ffd0cffbce16
-    new: cc6036fc6ca3b5e7220a02544269107a0ef4e776
+  - ref: refs/heads/vfs.pidfd
+    old: 0d61ab77c5e4d9bd1ee022c5e186686c23ba70d6
+    new: b5273dc51b5b5843659d6b3ee930ac10ff3ad816
     log: |
-         1b56afb7e8fc29bb0fa247864c6b43b80e3ddc69 io_uring/net: unify how recvmsg and sendmsg copy in the msghdr
-         18f5436de44b631263e01d930f557fcbba516960 net: remove {revc,send}msg_copy_msghdr() from exports
-         b3af8e7eb103513f7ed115f1f83b714c411d4ddd io_uring/net: add provided buffer support for IORING_OP_SEND
-         cc6036fc6ca3b5e7220a02544269107a0ef4e776 io_uring/net: add provided buffer support for IORING_OP_SENDMSG
+         a02c3067e1dc83b4a327268f2e28fe5a5df5af9d pidfdfs: convert to path_from_stashed() helper
+         b5273dc51b5b5843659d6b3ee930ac10ff3ad816 libfs: improve path_from_stashed() helper
          
