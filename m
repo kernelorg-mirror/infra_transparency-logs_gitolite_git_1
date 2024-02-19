@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5767712979792490501=="
+Content-Type: multipart/mixed; boundary="===============3997907231557827148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 19 Feb 2024 08:03:47 -0000
-Message-Id: <170832982714.7725.10918374970834988430@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 08:04:04 -0000
+Message-Id: <170832984403.7905.3534217862817634070@gitolite.kernel.org>
 
---===============5767712979792490501==
+--===============3997907231557827148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,54 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: 1e8e1a9dd3d09ac59a95e78918f32c1ad7c0504c
-    new: 33bd2b9b3e5119fbd5da07d359605ca4e4731eaa
-    log: revlist-1e8e1a9dd3d0-33bd2b9b3e51.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: de1c284183ca41880a76a3a0541a1e67daf0d524
+    new: 0f32ad963b042f927b5c69a038a24e37b8a60552
+    log: revlist-de1c284183ca-0f32ad963b04.txt
 
---===============5767712979792490501==
+--===============3997907231557827148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708329822 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708329839 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1708329821-be5097e444167550cff68ee97eb459c158055d01
+nonce 1708329838-e1ac978619cbe2d06bd702c34499a40a823c6349
 
-1e8e1a9dd3d09ac59a95e78918f32c1ad7c0504c 33bd2b9b3e5119fbd5da07d359605ca4e4731eaa refs/heads/class_cleanup
+de1c284183ca41880a76a3a0541a1e67daf0d524 0f32ad963b042f927b5c69a038a24e37b8a60552 refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXTC14bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Wl4P/jP/8j5AlOYZV8yomCC+
-nuRIHHsh5flayuss4J1trLzqZSW71M7iKZWqDE68GyBElDCaSMExzeZaCilk2RZC
-lW7698HGkgFiXb+7BRA5w9kxrgMJaq6jd5MPncXO4owCGvLIx3oEPI5yYS2XurkP
-Cmg+3ncNB+9S3P5va+qoFTzuUDySzqfBs8QLc5wPkHCPTdlhtb8CkBwKaEUZcJwl
-nywfRS4eCeqHqxaXI70LRqmhlwFkuE6c7Yi139WveTYr4EMF6iIrTo9HidRwN+G7
-WGCEviOg0fDALFtIGRL6w6UvlJ+6rEJfn7aXP+ltmvbtsHOmHygtAsjFtcaVFqD9
-LX7xOn/ODVUU3wHkOlCNOHl2g6bSCn21JUL3drJAodqsgcmvFtEu7o3/JOIoewL8
-QDIIvB3xZA8USxLXdO/UMv0YB9Z19ipIpJZckYIcB3u2amCFqblnlcIeKtTvbmih
-dhNiucUvJjLrdM691w5SS71w81JR+r5ipqUWlZnfTMBpYj65m4HomXNBulWYd1Ra
-WB1mBcHH4TB5Ebmkbv6s+pZ8ehw5yzvb32EcSHKdxATLjh5cJUVFNu54ZwivwSyy
-l9dCwzwCB23wmI9dTZCoOw84kGOVuvZmAtx/VwdImSlbtLewlt9TLNZQtx6WY0lJ
-XXHrV6TWJr+7PQfM1UFxV2Og
-=aNcC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXTC28bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7BAQAKad7xu/gSahc0Ed3fYB
+yr1l2xmrAqP+CBA+5KfbaUIQldYnmEARnxIlcsgoJpHfUG0AQOccaCuaPj9DYp/h
+JG3MsHJ5811wjItXKzTB7OhonTtQR+kqXF4P34d3OLwwyMXih+jtIpPSH7aCfapq
+Tr6aj49MUdKr+HElt75wv7ygR7h+3o8MrwofShO4NFYBuvz245ConGD7TbKaQsB7
+BfMJRK1UfX2QseDn/DwF3LY7ao+mD40Y2mMuNZ+JhpqOP/gRvPVDVW/zHY6qHJt1
+Iu5aPUw1unfJxS/LGVa7inR5FCQHmTR5x/hQjSpc3ZFfL32sdmM0QtQx3zSYLm2e
+IqTMM92gHgYEZN4h/HtJ2Eewx1Lti27/pXO1uNz/2D+hHgEH1N5Ic2xXBqEQQK8Z
+TpVMLORdCEUVYjQRI9RydCcvjgAd/VAf/CfaWE8cPoL3smZ8910GAbFadVG55mJg
+QG8KlX4PYKFgwtHndZ9KyDG0FR/FppJOOlGc0J2/mN6bi14ND8DlqsYSDoq+/5Jo
+hsRnmhgAovYBnSAbe29/JhgVDCqFA/SHigoU3eXtqTdiq9JIqyiu9sMTYJFjA15U
+g3tlbu8qMHZ3SgbeckmiLPPOPQcaiE1xwBN+vvtWfI1X+OSFNRx/ACPtU5KHqMX1
+7vDb2oylL4OVlNkFWRNa1S4J
+=ja57
 -----END PGP SIGNATURE-----
 
---===============5767712979792490501==
+--===============3997907231557827148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e8e1a9dd3d0-33bd2b9b3e51.txt
+Content-Disposition: attachment; filename=revlist-de1c284183ca-0f32ad963b04.txt
 
+f3be347ea42dbb0358cd8b2d8dc543a23b70a976 usb: ucsi_acpi: Quirk to ack a connector change ack cmd
+f2e5d3de7e1fbf24483e7f996e519b3ebc3935a1 usb: typec: tcpm: fix the PD disabled case
+e15c99be0c915bbe70dfe55450d268d7bd5bdac8 tty: serial: Fix bit order in RS485 flag definitions
+86ee55e9bc7ff7308eda67e5bcb3f8c834c7c113 serial: 8250_pci1xxxx: fix off by one in pci1xxxx_process_read_data()
+30926783a46841c2d1bbf3f74067ba85d304fd0d serial: core: Fix atomicity violation in uart_tiocmget
+0419373333c2f2024966d36261fd82a453281e80 serial: max310x: set default value when reading clock ready bit
+93cd256ab224c2519e7c4e5f58bb4f1ac2bf0965 serial: max310x: improve crystal stable clock detection
 8afa6c6decea37e7cb473d2c60473f37f46cea35 serial: max310x: fail probe if clock crystal is unstable
 b35f8dbbce818b02c730dc85133dc7754266e084 serial: max310x: prevent infinite while() loop in port startup
 2751153b9945c31eb905deb9fbe2d7f127b4b34c parisc: Make RO_DATA page aligned in vmlinux.lds.S
@@ -1067,19 +1074,12 @@ ddac3d8b8a48dda6447a7f7a15f8124020a5add2 Merge tag 'x86_urgent_for_v6.8_rc5' of 
 6c160f16be5df1f66f6afe186c961ad446d7f94b Merge tag 'kbuild-fixes-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 b401b621758e46812da61fa58a67c3fd8d91de0d Linux 6.8-rc5
 07749061b837a1268146dc8a620a522253cea877 Merge 6.8-rc5 into driver-core-next
-96d324405ac04763fd95448983e7a4cc83e1ce55 coda: psdev: make coda_psdev_class a static const structure
-a4674a03c5ffcc1e577707d5a7a5eb1de62efe02 cuse: make cuse_class a static const structure
-926eb0c39b4b0ce1c9773834ccbd9aac639ba4ee pstore: pmsg: make pmsg_class a static const structure
-5807a193dfe292f038023cc6a35e9eeb4ffb6711 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
-c8d721cb17823de693b2ba11be1cd3445393303c PM: wakeup: make wakeup_class a static const structure
-0bb9d1160f6c1b97954cd9ff8c94fde71dc7ea12 PM / devfreq: make all 'class' structures const
-f04e77a588c1ddff84e151361962ea89032acde7 dca: make dca_class a static const structure
-8e4aeaaf3fee3aad8b3492b9947e436616073d0d gnss: make gnss_class a static const structure
-a42e5bb64ec17b8c41f2c5abe2955389b4c6dbe3 extcon: make extcon_class a static const structure
-2785b8c5c3a8ecabed39e2c78c8ab359b0ecd351 misc: c2port: core: make c2port_class a static const structure
-08c6be418f63d985c8589125baf5ca6d33bd1cea nvdimm: make nd_class constant
-002251727d05615f59645319b0b228fa3aceaa9d PCI: endpoint: make pci_epc_class constant
-90744350758a39736c4dc4e4ea3255e855d2e27c PCI: switchtec: make switchtec_class constant
-33bd2b9b3e5119fbd5da07d359605ca4e4731eaa crypto: qat: make adf_ctl_class constant
+b4a69d54e597bb352153a0e8e059d8174c5dd780 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
+cd91cd362709147e2c7cd69b19f849a8f0128eca soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
+2fa6d188110ec2c18c13075af0d0d25dab69ab9f soundwire: sysfs: have the driver core handle the creation of the device groups
+69727337e03f71230d67ac5c60f8b8ccf4006ed4 soundwire: sysfs: remove sdw_slave_sysfs_init()
+f6ea6c32f66275687ad7ddfcccd86344ebc71621 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+78177915631fd2f2cfd3767039b8767afb6211ce driver core: remove devm_device_add_groups()
+0f32ad963b042f927b5c69a038a24e37b8a60552 sysfs: do not create empty directories if no attributes are present
 
---===============5767712979792490501==--
+--===============3997907231557827148==--
