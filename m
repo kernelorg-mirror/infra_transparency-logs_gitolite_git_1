@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7290297446353526913=="
+Content-Type: multipart/mixed; boundary="===============0857035040269365117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 19 Feb 2024 09:23:23 -0000
-Message-Id: <170833460341.4127.1461695597039881011@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 09:23:34 -0000
+Message-Id: <170833461402.4268.5491931767109275800@gitolite.kernel.org>
 
---===============7290297446353526913==
+--===============0857035040269365117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/mips-next
     old: 841c35169323cd833294798e58b9bf63fa4fa1de
     new: b401b621758e46812da61fa58a67c3fd8d91de0d
     log: revlist-841c35169323-b401b621758e.txt
 
---===============7290297446353526913==
+--===============0857035040269365117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -459,4 +459,4 @@ ddac3d8b8a48dda6447a7f7a15f8124020a5add2 Merge tag 'x86_urgent_for_v6.8_rc5' of 
 6c160f16be5df1f66f6afe186c961ad446d7f94b Merge tag 'kbuild-fixes-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 b401b621758e46812da61fa58a67c3fd8d91de0d Linux 6.8-rc5
 
---===============7290297446353526913==--
+--===============0857035040269365117==--
