@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Mon, 19 Feb 2024 16:34:16 -0000
-Message-Id: <170836045647.11765.17464668040334569271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 19 Feb 2024 16:39:39 -0000
+Message-Id: <170836077926.16610.9198010455427694871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/main
-    old: e1ea6db35fc3ba5ff063f097385e9f7a88c25356
-    new: dd66185c23f71af36397bebfc99ede608dca07b6
+  - ref: refs/heads/x86-pie-for-sev-v5
+    old: 60443126b4602860255b0841a62a3f7791452457
+    new: e090f2fb4de97dfa13a414ffeb4402586d323102
     log: |
-         ca1e1163889395cae54c4f051c301a8a6d6de311 wifi: rtw89: 8922a: add set_channel MAC part
-         f59cb1a030989ca0e5638fd4de91afddfbdbf89f wifi: rtw89: 8922a: add set_channel BB part
-         2c681cbf6c3a76ef3cdd9b33c3b1644caab209d1 wifi: rtw89: 8922a: add set_channel RF part
-         03830bb909a064bd590748127367878cf1d50fb0 wifi: rtw89: 8922a: add helper of set_channel
-         5d2dbccc2b3cec2db5af6b7305ca144b35200024 wifi: wilc1000: split deeply nested RCU list traversal in dedicated helper
-         059d0e3876abacd3967d22b6c59ff1e52d1c10ae wifi: wilc1000: use SRCU instead of RCU for vif list traversal
-         51e4aa8c449b4c3821170f5438d084bafb003bea wifi: wilc1000: fix declarations ordering
-         dd66185c23f71af36397bebfc99ede608dca07b6 wifi: wilc1000: add missing read critical sections around vif list traversal
+         5a2ae7f3fc0bbe9d19b02611b94127eed040e7ae x86/startup_64: Defer assignment of 5-level paging global variables
+         f3f494edc69752af1dd2db95097e575c3f651475 x86/startup_64: Simplify calculation of initial page table address
+         7053861c72f9df0dece440439c97a41bc702f3a3 x86/startup_64: Simplify virtual switch on primary boot
+         dd4f9229f55658ec8a1dae088d444c210978c801 x86/sme: Avoid SME/SVE related checks on non-SME/SVE platforms
+         fd9eeeb17b0ba014a56d227d23c9ee6447bb934e efi/libstub: Add generic support for parsing mem_encrypt=
+         7b71fdfc8ea610c6d2b3aef8efbed4f74ee5c8ed x86/boot: Move mem_encrypt= parsing to the decompressor
+         6d8a2b52879a816fc74529be675233a93936a5a3 x86/sme: Move early SME kernel encryption handling into .head.text
+         dde82a300034724854f69b12a80cba7a12d0156f x86/sev: Move early startup code into .head.text section
+         e090f2fb4de97dfa13a414ffeb4402586d323102 x86/startup_64: Drop global variables keeping track of LA57 state
          
