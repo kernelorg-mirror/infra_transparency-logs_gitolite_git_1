@@ -1,33 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5112810630969706546=="
+Content-Type: multipart/mixed; boundary="===============0038370798392658520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 19 Feb 2024 09:19:11 -0000
-Message-Id: <170833435137.794.9560665094166992226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Mon, 19 Feb 2024 09:23:13 -0000
+Message-Id: <170833459355.4019.15628848098350904720@gitolite.kernel.org>
 
---===============5112810630969706546==
+--===============0038370798392658520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/fixes
-    old: a951884d82886d8453d489f84f20ac168d062b38
+  - ref: refs/heads/mips-fixes
+    old: 8fa5070833886268e4fb646daaca99f725b378e9
     new: b401b621758e46812da61fa58a67c3fd8d91de0d
-    log: revlist-a951884d8288-b401b621758e.txt
-  - ref: refs/tags/v6.8-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 7e311d420f96ef38326a0f3b7d8cffa3dee32ae5
+    log: revlist-8fa507083388-b401b621758e.txt
 
---===============5112810630969706546==
+--===============0038370798392658520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a951884d8288-b401b621758e.txt
+Content-Disposition: attachment; filename=revlist-8fa507083388-b401b621758e.txt
 
 85e985a4f46e462a37f1875cb74ed380e7c0c2e0 interconnect: qcom: sc8180x: Mark CO0 BCM keepalive
 24406f6794aa631516241deb9e19de333d6a0600 interconnect: qcom: sm8550: Enable sync_state
@@ -243,10 +240,6 @@ f7fe85b229bc30cb5dc95b4e9015a601c9e3a8cd ASoC: amd: yc: Fix non-functional mic o
 4508ec17357094e2075f334948393ddedbb75157 smb: client: set correct id, uid and cruid for multiuser automounts
 8bde59b20de06339d598e8b05e5195f7c631c38b smb: client: handle path separator of created SMB symlinks
 3693bb4465e6e32a204a5b86d3ec7e6b9f7e67c2 x86/xen: Add some null pointer checking to smp.c
-d55347bfe4e66dce2e1e7501e5492f4af3e315f8 MIPS: Add 'memory' clobber to csum_ipv6_magic() inline assembler
-11ba1728be3edb6928791f4c622f154ebe228ae6 ptrace: Introduce exception_ip arch hook
-9d6e21ddf20293b3880ae55b9d14de91c5891c59 MIPS: Clear Cause.BD in instruction_pointer_set
-8fa5070833886268e4fb646daaca99f725b378e9 mm/memory: Use exception ip to search exception tables
 c664e16bb1ba1c8cf1d7ecf3df5fd83bbb8ac15a Merge tag 'docs-6.8-fixes2' of git://git.lwn.net/linux
 d794734c9bbfe22f86686dc2909c25f5ffe1a572 x86/mm/ident_map: Use gbpages only where full GB page should be mapped.
 73d9629e1c8c1982f13688c4d1019c3994647ccc i40e: Do not allow untrusted VF to remove administratively set MAC
@@ -345,8 +338,13 @@ e67391ca7aa6c96d32061260ffd68d5790765230 Merge tag 'kvm-riscv-fixes-6.8-1' of ht
 c56d055893cbe97848611855d1c97d0ab171eccc igb: Fix string truncation warnings in igb_set_fw_version
 55ea989977f4e11a1c3bdfabb51295090bb0f7d6 igc: Remove temporary workaround
 d8bdd795d383a23e38ac48a40d3d223caf47b290 lsm: fix integer overflow in lsm_set_self_attr() syscall
+3b9ab248bc45abf8c2365ed3eec86cdefd4d626a kbuild: use 4-space indentation when followed by conditionals
 f44bff19268517ee98e80e944cad0f04f1db72e3 i2c: pasemi: split driver into two separate modules
 c1c9d0f6f7f1dbf29db996bd8e166242843a5f21 i2c: i801: Fix block process call transactions
+6388cfd0e69b56ca640610f1bf29334619d18142 docs: kconfig: Fix grammar and formatting
+e3a9ee963ad8ba677ca925149812c5932b49af69 kbuild: Fix changing ELF file type for output of gen_btf for big endian
+dae4a0171e25884787da32823b3081b4c2acebb2 gen_compile_commands: fix invalid escape sequence warning
+5d9a16b2a4d9e8fa028892ded43f6501bc2969e5 modpost: trim leading spaces when processing source files list
 f6374a82fc85bf911d033e2fa791372ce3356270 netfilter: nft_set_pipapo: fix missing : in kdoc
 0f1ae2821fa4b13ab0f5ad7ff89fa57efcb04fe0 netfilter: nat: restore default DNAT behavior
 84443741faab9045d53f022a9ac6a6633067a481 netfilter: nf_tables: fix bidirectional offload regression
@@ -368,6 +366,7 @@ fb091ff394792c018527b3211bbdfae93ea4ac02 arm64: Subscribe Microsoft Azure Cobalt
 2813926261e436d33bc74486b51cce60b76edf78 arm64/sve: Lower the maximum allocation for the SVE ptrace regset
 d74b23d0c29cb3498642e8673c51e5978ce03496 Merge tag 'nf-24-02-15' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 e5b2e810daf9f2d87fe132eb4d2a85fb08a0db98 net: bcmasp: Handle RX buffer allocation failure
+a951884d82886d8453d489f84f20ac168d062b38 kallsyms: ignore ARMv4 thunks along with others
 3db9d4b395190103969707ed7ea6513f1162b9e3 Merge tag 'asoc-fix-v6.8-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 4e45170d9acc2d5ae8f545bf3f2f67504a361338 net: sctp: fix skb leak in sctp_inq_free()
 dc34ebd5c018b0edf47f39d11083ad8312733034 pppoe: Fix memory leak in pppoe_sendmsg()
@@ -456,4 +455,4 @@ ddac3d8b8a48dda6447a7f7a15f8124020a5add2 Merge tag 'x86_urgent_for_v6.8_rc5' of 
 6c160f16be5df1f66f6afe186c961ad446d7f94b Merge tag 'kbuild-fixes-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 b401b621758e46812da61fa58a67c3fd8d91de0d Linux 6.8-rc5
 
---===============5112810630969706546==--
+--===============0038370798392658520==--
