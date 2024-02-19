@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8640944468458070022=="
+Content-Type: multipart/mixed; boundary="===============9098850720295960875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 19 Feb 2024 20:39:28 -0000
-Message-Id: <170837516846.4389.18332393551711311222@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 20:40:22 -0000
+Message-Id: <170837522244.6337.18091118380390935036@gitolite.kernel.org>
 
---===============8640944468458070022==
+--===============9098850720295960875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: d60e4dae3dc5265042f92d4632ab719a4231cc5b
-    new: 69e6a64212d86986e983af47540422b29de6a31c
+    old: 69e6a64212d86986e983af47540422b29de6a31c
+    new: 0acfd41318d6e39a7f753f1f15320aab97d0b749
     log: |
-         69e6a64212d86986e983af47540422b29de6a31c bippy: read from the linux.uuid file.
+         0acfd41318d6e39a7f753f1f15320aab97d0b749 add allocated range of cves that are "real"
          
 
---===============8640944468458070022==
+--===============9098850720295960875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708375165 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708375222 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1708375165-885a8e19909c89c2dbe5a1d0ad8a564eee7ae75c
+nonce 1708375221-fa1d58bca700c9caadaee08905085aacd82b2363
 
-d60e4dae3dc5265042f92d4632ab719a4231cc5b 69e6a64212d86986e983af47540422b29de6a31c refs/heads/master
+69e6a64212d86986e983af47540422b29de6a31c 0acfd41318d6e39a7f753f1f15320aab97d0b749 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXTvH0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1fQQAJ0U5rjb8aL6SmXO1IVs
-hwvrk6UmgUjIJNbwNGoaTPaO1BhYpCadWMo09AGwfMfF/k8y7EChPjxIINSjL/Kg
-iqyShk15J+xI634N9nOJZ/mwLCDchs3NgsB15tzKE8M4yRaq+CpSTVjtMgtHf3Gd
-hl6FejfMvk94KJ1RXUGLZOkluQyDUykYDHUGNhx3bLZ5ujZNjLNJfZIe0glhAmio
-ASAcQZhz4RQTfTh0Hvd1vzKq3XojdOkQaE1A1uQKhKnVhsm1BnTEKM8E5itDP92H
-FvV/YpfgqTZmz+lL1VNCMSXVzn+jKcsqQcwayH1q6s7HGf8g1SOcfTQ0Vp7685QA
-IajcrImr4LShC5gEXuJqBx/bN77TnqyNZpGd7cKqK0ajpcmUQAX0TLXKPrHb1Xw+
-DLwqC8JJkLwji8Xjt5aPH1xrNiuDIFFiG7togkvV3sxLpaZB/3clxyK+LJih4+I6
-UEemr6StS7idCbqNQX4Ujehz/jaUvy+28imONBmpHrOZGCPQ5t4LRP4/meVefKFt
-exhSUuF1da/fTJJerwVIh0thkyF/WKoLifhJNS3uCiId2wbomYbymHb4ekXZIBA9
-K7zPCI2Nb5lUljtzJveeyfGXk+MlGTdT55bKLUAZSu5zcwbGyFCv1no3071PGiZw
-w/r7mbKR7rMSa/wCzoZsQd++
-=uZDI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXTvLYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u4MP/16vDWcHMqdOu1LYDwWb
+tSX2LnknQzDmViAnqQIQppHqOPBuOLcnRAH6/mjsO8diZMI77PpF9tEZKp7kA53i
+AkrekpOb5O79RGL4CN0XPym2q77/LRKTy3UvApYmiMqFc60yJTUoTPNffaEHLiX1
+owkf9+5XQopUEkH+3HHqd1u4ijsHIhaPD3Tg2Z+0Zb6rCZOp1UKyE8U6G2k5n81n
+OcRaBtTf3GuAXwZefZ0y0JBQLlQOIMd0qx5da8tRmmAhuOonB4u5qcDUBLfHS1F5
+z0AB2L5xU2EMLG2Ao7Ydt+9PQIoQHvd6f769vnhvMHy+kuex9OLRZK4Z+HMsjz3v
+sREUHGqj5G57fBaPO4cqoitc7P7W/GV49Ya01Ab9A7LR+bfhrUq13wx4NVsD/MFb
+kx6acX5BvKLHAggChbYQVVSAO0Op1Z+P9NCkXK4X4mdkjnnFGrCsjWwWL89cJNvg
+QHf9wK8SGDILFxsDvkKuz8Wi9jwVxhptHuKHDaZ+2ddhZZFgf+r+w6d5ds79YodY
+dRRP3nBe265lv+L2VLuYr567xIkg3zxrr0uiWS/PSwR8FwznnnYDqKHK8l4F9J/5
+IIfYOmqQJuiIK96eZPv7kXNGNya1B1abYLPMSenQ9Hpb0gxg/rENsx/OAwtPclw3
+cFrogHt1OCscfnAXSi8JsluL
+=Y0G/
 -----END PGP SIGNATURE-----
 
---===============8640944468458070022==--
+--===============9098850720295960875==--
