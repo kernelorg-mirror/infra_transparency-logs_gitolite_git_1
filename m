@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1321345646748960066=="
+Content-Type: multipart/mixed; boundary="===============2636000464556106854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 19 Feb 2024 08:39:58 -0000
-Message-Id: <170833199863.3747.17474459000889823244@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 08:41:27 -0000
+Message-Id: <170833208754.5879.1577427658642705384@gitolite.kernel.org>
 
---===============1321345646748960066==
+--===============2636000464556106854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 1ab40abcdbb2c409372223060078cc2347df2721
-    new: c5cde4f293500162cea466b193522eba55fde278
+  - ref: refs/heads/usb-linus
+    old: 76c51146820c5dac629f21deafab0a7039bc3ccd
+    new: 84b6238aff3db8f4fa72bc5e451ba34ce288d30a
     log: |
-         c5cde4f293500162cea466b193522eba55fde278 MAINTAINERS: Drop myself as maintainer of TYPEC port controller drivers
+         84b6238aff3db8f4fa72bc5e451ba34ce288d30a MAINTAINERS: Drop myself as maintainer of TYPEC port controller drivers
          
 
---===============1321345646748960066==
+--===============2636000464556106854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708331989 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708332084 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1708331987-3b09da60bc781538efff117d0707777a2965fad3
+nonce 1708332083-fd8d56e5243918f10d61585f411f3d9815c462da
 
-1ab40abcdbb2c409372223060078cc2347df2721 c5cde4f293500162cea466b193522eba55fde278 refs/heads/usb-testing
+76c51146820c5dac629f21deafab0a7039bc3ccd 84b6238aff3db8f4fa72bc5e451ba34ce288d30a refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXTE9UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PD0P/0YSXqNT9IXnHD7OGywE
-ee6Nc3e9QJcHW+LyHBMfK9fv3XrYoQ+lbxsDQxBnARMeaRfgEmcBu83WzXxaGK6V
-MMSqWi2DOK1+DkULhuLFh+50RKdMDtJrMvsohU2u3SMbdlGb54555vUWHoN2NNFF
-Y+UB7L7p/HRDPFXRFVfgn0w/n3tcOsj5lHrAP5uqHrrMDeu4cHXtB9lClKMWtt5E
-3VMCcVw5jGOP0JxThr4/YjnDrwof9ZliTrgMSu+ZZ/XOnAkpeIdW66HbQOulPldU
-5ttGFmIRPK23C1p5dhewC/dqL6DIcuEgbmpQ1xTtXQXxoh5txuQMZtyzCKXk8NZ0
-UXhaDEXoTMtHY6TwdSlsvn0xGXCi7jH3QULSuHK/fFWap4o0tDzJ/C98H8Ir078p
-UCqg1zLNUCUzh1QminG9s56B+OMF3l4P2hgAOYHb3p4/rdzYFXKEPBpyq9mbLqp4
-nvowD2AF/Av3gFrm5Y8KEcGLrqfNBQOt51p14/c9RIxu0cis6+0jCec3s6Ur0YAU
-I80YVGJn6/y9N1rqr0yrjfUnPy6eSQWpLvftwMIp0L2+1uXGXMRJl4pJRG1s2rnp
-Vhy4OWwjQ7Mofe5AeO1LuwG1IO7HMt2b/DkiuVDUfjsbENpL+OA0iZXDAntgCfzj
-QB1UvJQVbpnXh4qu756BbzpB
-=eUYi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXTFDQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nScQAIi+rK5dt1eJpqK9aEqY
+Y+v/PE+lzWME794zKt1me0MBX12IWOf9unzTMzZsoL+E7E7ThSnEtTZV76JJfJKl
+i9HvCVwXaLPkjfZC0Xnb+7vu1kn7748Pf/GVsdYZwZql6KM0n1UZAuLaEWFOLwK5
+fDLpt27uIXKB5rEyTbIMUN8YTpk2sPz2W66c1iytw+xJTo+pl1hNLGOIacQEEXZV
+bQq9MDfmFRelQPURBdGSgZ6EhjjEHJkR+uKPhhSW32MzNscln80ge6oOveKhvUcS
+m5420dZ+ZP8yGcAOd8eBWwjEkdc/dRgWMjRudEK3yFpIHjpk6AKH+jzG6KP2pFqh
+0L06nAG929z+H+UBRBR6vOjl0XB+iZuL+SfI6LH9kzut3tkBFAtrVSB6LrX/XZ3L
+qoqDQB+cUpPkwWj4M78nDqKAeYMYLdCrGZfpabV0QX/QGM8kEgC4aDTsed2M0/u8
+f5+I0LfYSGnsnZjgyXlYUun+MC/cZ4cTcXPXB+HjUKlwgy13XGwbAnsAKEpbCQvu
+ac4n+lE7vQ8Irz682EUjjQaHOE6cT6bQXjofmBPvdAbPeyjP/kzb8tuC/QhRYUri
+DYKL+azDT8bMBDPuQE7kfqRA9LcjsRZSb5yRkTCvJ8LNdoTjv26HJngUtMow+875
+WMT1lrRgwVWZmzHq51VaJcqF
+=MwOw
 -----END PGP SIGNATURE-----
 
---===============1321345646748960066==--
+--===============2636000464556106854==--
