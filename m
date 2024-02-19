@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3997907231557827148=="
+Content-Type: multipart/mixed; boundary="===============2906023706348814227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 19 Feb 2024 08:04:04 -0000
-Message-Id: <170832984403.7905.3534217862817634070@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 08:04:39 -0000
+Message-Id: <170832987980.8211.3487108037743691057@gitolite.kernel.org>
 
---===============3997907231557827148==
+--===============2906023706348814227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,55 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: de1c284183ca41880a76a3a0541a1e67daf0d524
-    new: 0f32ad963b042f927b5c69a038a24e37b8a60552
-    log: revlist-de1c284183ca-0f32ad963b04.txt
+  - ref: refs/heads/debugfs_lookup_fix
+    old: 5d0c230f1de8c7515b6567d9afba1f196fb4e2f4
+    new: b401b621758e46812da61fa58a67c3fd8d91de0d
+    log: revlist-5d0c230f1de8-b401b621758e.txt
 
---===============3997907231557827148==
+--===============2906023706348814227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708329839 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708329878 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1708329838-e1ac978619cbe2d06bd702c34499a40a823c6349
+nonce 1708329878-62e209300dfce3677b570e68294384479ea8634e
 
-de1c284183ca41880a76a3a0541a1e67daf0d524 0f32ad963b042f927b5c69a038a24e37b8a60552 refs/heads/debugfs_cleanup
+5d0c230f1de8c7515b6567d9afba1f196fb4e2f4 b401b621758e46812da61fa58a67c3fd8d91de0d refs/heads/debugfs_lookup_fix
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXTC28bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7BAQAKad7xu/gSahc0Ed3fYB
-yr1l2xmrAqP+CBA+5KfbaUIQldYnmEARnxIlcsgoJpHfUG0AQOccaCuaPj9DYp/h
-JG3MsHJ5811wjItXKzTB7OhonTtQR+kqXF4P34d3OLwwyMXih+jtIpPSH7aCfapq
-Tr6aj49MUdKr+HElt75wv7ygR7h+3o8MrwofShO4NFYBuvz245ConGD7TbKaQsB7
-BfMJRK1UfX2QseDn/DwF3LY7ao+mD40Y2mMuNZ+JhpqOP/gRvPVDVW/zHY6qHJt1
-Iu5aPUw1unfJxS/LGVa7inR5FCQHmTR5x/hQjSpc3ZFfL32sdmM0QtQx3zSYLm2e
-IqTMM92gHgYEZN4h/HtJ2Eewx1Lti27/pXO1uNz/2D+hHgEH1N5Ic2xXBqEQQK8Z
-TpVMLORdCEUVYjQRI9RydCcvjgAd/VAf/CfaWE8cPoL3smZ8910GAbFadVG55mJg
-QG8KlX4PYKFgwtHndZ9KyDG0FR/FppJOOlGc0J2/mN6bi14ND8DlqsYSDoq+/5Jo
-hsRnmhgAovYBnSAbe29/JhgVDCqFA/SHigoU3eXtqTdiq9JIqyiu9sMTYJFjA15U
-g3tlbu8qMHZ3SgbeckmiLPPOPQcaiE1xwBN+vvtWfI1X+OSFNRx/ACPtU5KHqMX1
-7vDb2oylL4OVlNkFWRNa1S4J
-=ja57
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXTC5YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4sYP/2Za0z9eWSW4nNNyvNzU
+00cY47OreOi1TQjcNXxhsIuwJx1QQ+PIWSqZh5JtYx/moaA3ROtL2xqoyr28hc5C
+CMDHgZPKx1x60OPzlAzKA4geoPwTyzhmX+rz98j3BjA316334DNp/eELrlmLA24P
+BUtSdw/vtTsHYX1H2psqUazFVZyfkA8kJdivHFm+a7aCL8Rtv94ZpxOtrpDKBLML
+ScB7EGxDrbtTVe1G4rrgZlqa38OjVu64VWquNZQ4sgfUX6DSNMhUEvIQghcNKMn8
+wLeR8XEG8WwcfV5joz0+6iS6LMSh4xTu5UDsGVAe5BJBZHH5PtIcsQZS06Qa3s/x
+K68YYOczynnZ19JVKFz3Mng3rCJlQKe26V91gvpCSMSUXwtPC/jRhguCArCLnCx2
+h3n2nzhKPbQ0UWCstqZEVKsoNhsgEz9RoQJTEzk+Ad7JKXIQbXTWgnarxN9dmIM0
+PTgNcEHoXz3BD3jeiE4qT0v32vpl4fNI5uJZDQHhIVbI3URo7Kd0ePcBy/21ktFm
+utr9fXMNHXNMk6H7S+EjYKleQwihfCobWbDE+ehGpe1/QWcuEq/KjEQC57VB8gcP
+bUWb9yYUctseMiE58UiSukfFMPT1qzXQENZp1yAP8Z1vs4M7p6sw6InBoI/yUG9B
+hWx3YK7qlKiBpo0GQQO712KE
+=kpaY
 -----END PGP SIGNATURE-----
 
---===============3997907231557827148==
+--===============2906023706348814227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de1c284183ca-0f32ad963b04.txt
+Content-Disposition: attachment; filename=revlist-5d0c230f1de8-b401b621758e.txt
 
+cc509b6a47e7c8998d9e41c273191299d5d9d631 usb: chipidea: core: handle power lost in workqueue
+f17c34ffc792bbb520e4b61baa16b6cfc7d44b13 USB: hub: check for alternate port before enabling A_ALT_HNP_SUPPORT
+b2d2d7ea0dd09802cf5a0545bf54d8ad8987d20c usb: f_mass_storage: forbid async queue when shutdown happen
+032178972f8e992b90f9794a13265fec8c8314b0 usb: gadget: pch_udc: fix an Excess kernel-doc warning
+b717dfbf73e842d15174699fe2c6ee4fdde8aa1f Revert "usb: typec: tcpm: fix cc role at port reset"
+3caf2b2ad7334ef35f55b95f3e1b138c6f77b368 usb: ulpi: Fix debugfs directory leak
+c9aed03a0a683fd1600ea92f2ad32232d4736272 usb: ucsi: Add missing ppm_lock
+2840143e393a4ddc1caab4372969ea337371168c usb: ucsi_acpi: Fix command completion handling
 f3be347ea42dbb0358cd8b2d8dc543a23b70a976 usb: ucsi_acpi: Quirk to ack a connector change ack cmd
 f2e5d3de7e1fbf24483e7f996e519b3ebc3935a1 usb: typec: tcpm: fix the PD disabled case
 e15c99be0c915bbe70dfe55450d268d7bd5bdac8 tty: serial: Fix bit order in RS485 flag definitions
@@ -71,7 +79,15 @@ b9402e3b97289ca9e0f0f79f4df64bd6c9176a86 parisc: Check for valid stride size for
 c8708d758e715c3824a73bf0cda97292b52be44d parisc: Prevent hung tasks when printing inventory on serial console
 20e08a720cc526dacc0678067ffc81613aa738ca parisc: Drop unneeded semicolon in parse_tree_node()
 6f6c72acddf4357fcc83593c20ef9064fb42db92 iio: move LIGHT_UVA and LIGHT_UVB to the end of iio_modifier
+a08ebda97e2a32b8f1de2c8240337f726c2e1ba7 Merge tag 'fixes-2024-01-28' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
+9d451912dbef72b4b4dcaa99229f98b309338b39 Merge tag 'x86_urgent_for_v6.8_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+90db544ebaf4325044402cdfecf1cf9247ca3ae6 Merge tag 'timers_urgent_for_v6.8_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+0e4363ac1a21268c0c02ff65e16b3d33dde3bee8 Merge tag 'irq_urgent_for_v6.8_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+648f575d5e626f8d45ef0989db60ea60a9067560 Merge tag 'locking_urgent_for_v6.8_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+4854cf9c61d060209d2b431f4a787f6952967022 Merge tag 'mips-fixes_6.8_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 29142dc92c37d3259a33aef15b03e6ee25b0d188 tracefs: remove stale 'update_gid' code
+3eb5ca857d38ae7a694de6e59a3de7990af87919 Merge tag 'cxl-fixes-6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
+41bccc98fb7931d63d03f326a746ac4d429c1dd3 Linux 6.8-rc2
 eba38cc7578bef94865341c73608bdf49193a51d bcachefs: Fix build on parisc by avoiding __multi3()
 6bb3f7f4c3f4da8e09de188f2f63e8f741bba3bd bcachefs: unlock parent dir if entry is not found in subvolume deletion
 c79f52f0656eeb3e4a12f7f358f760077ae111b6 io_uring/rw: ensure poll based multishot read retries appropriately
@@ -167,11 +183,6 @@ aa0e784dea7c1a026aabff9db1cb5d2bd92b3e92 efi/libstub: Add one kernel-doc comment
 80441f76ee67002437db61f3b317ed80cce085d2 Input: xpad - add Lenovo Legion Go controllers
 d1d873a9bfac44a9a455d2ec47b85ea66f7888b9 Merge tag 'linux_kselftest-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 2a6526c4f389bb741e511be11721b3d1cbf1034a Merge tag 'linux_kselftest-kunit-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-1c9f2c7606afe149800986182638f636646dd824 kernfs: Rearrange kernfs_node fields to reduce its size on 64bit
-4207b556e62f0a8915afc5da4c5d5ad915a253a5 kernfs: RCU protect kernfs_nodes and avoid kernfs_idr_lock in kernfs_find_and_get_node_by_id()
-05d8f255867e3196565bb31a911a437697fab094 kernfs: fix false-positive WARN(nr_mmapped) in kernfs_drain_open_files
-3a480d4bb5b1e1f09426223e68acaa90da32e384 driver core: cpu: make cpu_subsys const
-f297a3844aa059c53be3f69be85ebc071b8a6d16 driver core: component: fix spellos
 98323e9d70172f1b46d1cadb20d6c54abf62870d topology: Set capacity_freq_ref in all cases
 a4e61de63e34860c36a71d1a364edba16fb6203b misc: fastrpc: Mark all sessions as invalid in cb_remove
 ac9762a74c7ca7cbfcb4c65f5871373653a046ac misc: open-dice: Fix spurious lockdep warning
@@ -705,7 +716,6 @@ d7332c4a4f1a7d16f054c6357fb65c597b6a86a7 ASoC: SOF: ipc3-topology: Fix pipeline 
 45be0882c5f91e1b92e645001dd1a53b3bd58c97 smb3: add missing null server pointer check
 55c7788c37242702868bfac7861cdf0c358d6c3d smb: client: set correct d_type for reparse points under DFS mounts
 2a427b49d02995ea4a6ff93a1432c40fa4d36821 blk-iocost: Fix an UBSAN shift-out-of-bounds warning
-5df9197edd731a44682444631d68c2384f381bf1 workqueue: make wq_subsys const
 c23de7ceae59e4ca5894c3ecf4f785c50c0fa428 docs: kernel_feat.py: fix build error for missing files
 4ce6e2db00de8103a0687fb0f65fd17124a51aaa virtio-blk: Ensure no requests in virtqueues before deleting vqs.
 5f63a493b99c848ad5200402bebe26211e00025a Merge tag 'nvme-6.8-2023-02-08' of git://git.infradead.org/nvme into block-6.8
@@ -1056,8 +1066,6 @@ c1ca10ceffbb289ed02feaf005bc9ee6095b4507 Merge tag 'scsi-fixes' of git://git.ker
 67ec505fae32419354f4172c06c853def2541300 Merge tag 'i2c-host-fixes-6.8-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
 9704669c386f9bbfef2e002e7e690c56b7dcf5de tracing/probes: Fix to search structure fields correctly
 5928d411557ec5d53832cdd39fc443704a3e5b77 Documentation: Document the Linux Kernel CVE process
-2444a80c1cc2c4240f60f2162abef3797c1803de kobject: make uevent_seqnum atomic
-5c0941c55e5f681ffb05f395222ac673460bb3d0 kobject: reduce uevent_sock_mutex scope
 55f626f2d0c81b33552ce0e59b63a0110807bad2 Merge tag '6.8-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 ad645dea35c1381890bb190f208f8e62c61e3cbd Merge tag 'probes-fixes-v6.8-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 4a7571485c467b76cc19fae304452fd56921c789 Merge tag 'pci-v6.8-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
@@ -1073,13 +1081,5 @@ c02197fc9076e7d991c8f6adc11759c5ba52ddc6 Merge tag 'powerpc-6.8-3' of git://git.
 ddac3d8b8a48dda6447a7f7a15f8124020a5add2 Merge tag 'x86_urgent_for_v6.8_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6c160f16be5df1f66f6afe186c961ad446d7f94b Merge tag 'kbuild-fixes-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 b401b621758e46812da61fa58a67c3fd8d91de0d Linux 6.8-rc5
-07749061b837a1268146dc8a620a522253cea877 Merge 6.8-rc5 into driver-core-next
-b4a69d54e597bb352153a0e8e059d8174c5dd780 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
-cd91cd362709147e2c7cd69b19f849a8f0128eca soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
-2fa6d188110ec2c18c13075af0d0d25dab69ab9f soundwire: sysfs: have the driver core handle the creation of the device groups
-69727337e03f71230d67ac5c60f8b8ccf4006ed4 soundwire: sysfs: remove sdw_slave_sysfs_init()
-f6ea6c32f66275687ad7ddfcccd86344ebc71621 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
-78177915631fd2f2cfd3767039b8767afb6211ce driver core: remove devm_device_add_groups()
-0f32ad963b042f927b5c69a038a24e37b8a60552 sysfs: do not create empty directories if no attributes are present
 
---===============3997907231557827148==--
+--===============2906023706348814227==--
