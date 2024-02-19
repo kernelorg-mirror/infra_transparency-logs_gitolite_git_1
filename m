@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8016315741301630638=="
+Content-Type: multipart/mixed; boundary="===============5767712979792490501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 19 Feb 2024 08:03:27 -0000
-Message-Id: <170832980729.7496.15094927524373605275@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 08:03:47 -0000
+Message-Id: <170832982714.7725.10918374970834988430@gitolite.kernel.org>
 
---===============8016315741301630638==
+--===============5767712979792490501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,52 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: 4dba0e6fb3e119934e91ac10a51c5f7f854a0c23
-    new: d8bb892ee1980b9ee764b800482304939c8c9cdf
-    log: revlist-4dba0e6fb3e1-d8bb892ee198.txt
+  - ref: refs/heads/class_cleanup
+    old: 1e8e1a9dd3d09ac59a95e78918f32c1ad7c0504c
+    new: 33bd2b9b3e5119fbd5da07d359605ca4e4731eaa
+    log: revlist-1e8e1a9dd3d0-33bd2b9b3e51.txt
 
---===============8016315741301630638==
+--===============5767712979792490501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708329802 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708329822 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1708329801-9adf8ebef571b9c2581eb525e0eeae1cf2f12369
+nonce 1708329821-be5097e444167550cff68ee97eb459c158055d01
 
-4dba0e6fb3e119934e91ac10a51c5f7f854a0c23 d8bb892ee1980b9ee764b800482304939c8c9cdf refs/heads/bus_cleanup
+1e8e1a9dd3d09ac59a95e78918f32c1ad7c0504c 33bd2b9b3e5119fbd5da07d359605ca4e4731eaa refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXTC0obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6l4P/2eBdOseq4lvia9gt3fM
-qIjiq9ZlPicWfnuZgPfyHUb+IoLE5Dtcs9X57HBgebkc0UN1/n9PCc/Il9PIL+uH
-e1xVA5AGg9EQQAy6xQzGhQO1fyohBtWWS4MpDzvTUumLWCyPrnLXw+JMZgIBY7qp
-8DZpgwgz6rIktxIFvd0yc3LtHHmP6ogbpS0OgLutedjVYNTDFoIh/UkBcm7RQ3ii
-IZk5AzgldC1a3cE2ECV5g9SLz7otCxCZCk8kLxPW1Kx9azqET+YlW8bDG+agQ0NF
-vn7uBEeFS6zFTF9Vf+up6C1pNcqvQhKrLK01Lx0NfWy47v4JRHHOx/x0ftCfrNbN
-mA1T1YTokMqO3GcdBgfdL9jnPFRl011VZIpQOCVkI0tAZLBzXqppCIRuJhOZGEkX
-wkHszFHKFiN154FkFp9Ilke7UMrj7ZdZ/U/pl8OyUDWuEhBbKf0k8UrAw0TaFdGb
-nEXp7Os8enrUo+qPJTyokQcoZf6yBBOkNnZzPnpBa7RMhgqCY7fyjUX7iEt3zXqZ
-IX76t7MtLBPagUul6+8AJBkRqLNfobeMVEYuN/LGZraxYWPY5EA/Dz98S7JN/jx4
-Hz+g+7SEIjDbG32YOoUQTC2TG0V/qgFFD29n91tsLuVxsAuOcvS6RRlh+AEPYC76
-+0iRQhDFk/+/Msxu7nran5/j
-=fnuS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXTC14bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Wl4P/jP/8j5AlOYZV8yomCC+
+nuRIHHsh5flayuss4J1trLzqZSW71M7iKZWqDE68GyBElDCaSMExzeZaCilk2RZC
+lW7698HGkgFiXb+7BRA5w9kxrgMJaq6jd5MPncXO4owCGvLIx3oEPI5yYS2XurkP
+Cmg+3ncNB+9S3P5va+qoFTzuUDySzqfBs8QLc5wPkHCPTdlhtb8CkBwKaEUZcJwl
+nywfRS4eCeqHqxaXI70LRqmhlwFkuE6c7Yi139WveTYr4EMF6iIrTo9HidRwN+G7
+WGCEviOg0fDALFtIGRL6w6UvlJ+6rEJfn7aXP+ltmvbtsHOmHygtAsjFtcaVFqD9
+LX7xOn/ODVUU3wHkOlCNOHl2g6bSCn21JUL3drJAodqsgcmvFtEu7o3/JOIoewL8
+QDIIvB3xZA8USxLXdO/UMv0YB9Z19ipIpJZckYIcB3u2amCFqblnlcIeKtTvbmih
+dhNiucUvJjLrdM691w5SS71w81JR+r5ipqUWlZnfTMBpYj65m4HomXNBulWYd1Ra
+WB1mBcHH4TB5Ebmkbv6s+pZ8ehw5yzvb32EcSHKdxATLjh5cJUVFNu54ZwivwSyy
+l9dCwzwCB23wmI9dTZCoOw84kGOVuvZmAtx/VwdImSlbtLewlt9TLNZQtx6WY0lJ
+XXHrV6TWJr+7PQfM1UFxV2Og
+=aNcC
 -----END PGP SIGNATURE-----
 
---===============8016315741301630638==
+--===============5767712979792490501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4dba0e6fb3e1-d8bb892ee198.txt
+Content-Disposition: attachment; filename=revlist-1e8e1a9dd3d0-33bd2b9b3e51.txt
 
-e15c99be0c915bbe70dfe55450d268d7bd5bdac8 tty: serial: Fix bit order in RS485 flag definitions
-86ee55e9bc7ff7308eda67e5bcb3f8c834c7c113 serial: 8250_pci1xxxx: fix off by one in pci1xxxx_process_read_data()
-30926783a46841c2d1bbf3f74067ba85d304fd0d serial: core: Fix atomicity violation in uart_tiocmget
-0419373333c2f2024966d36261fd82a453281e80 serial: max310x: set default value when reading clock ready bit
-93cd256ab224c2519e7c4e5f58bb4f1ac2bf0965 serial: max310x: improve crystal stable clock detection
 8afa6c6decea37e7cb473d2c60473f37f46cea35 serial: max310x: fail probe if clock crystal is unstable
 b35f8dbbce818b02c730dc85133dc7754266e084 serial: max310x: prevent infinite while() loop in port startup
 2751153b9945c31eb905deb9fbe2d7f127b4b34c parisc: Make RO_DATA page aligned in vmlinux.lds.S
@@ -165,6 +160,11 @@ aa0e784dea7c1a026aabff9db1cb5d2bd92b3e92 efi/libstub: Add one kernel-doc comment
 80441f76ee67002437db61f3b317ed80cce085d2 Input: xpad - add Lenovo Legion Go controllers
 d1d873a9bfac44a9a455d2ec47b85ea66f7888b9 Merge tag 'linux_kselftest-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 2a6526c4f389bb741e511be11721b3d1cbf1034a Merge tag 'linux_kselftest-kunit-fixes-6.8-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+1c9f2c7606afe149800986182638f636646dd824 kernfs: Rearrange kernfs_node fields to reduce its size on 64bit
+4207b556e62f0a8915afc5da4c5d5ad915a253a5 kernfs: RCU protect kernfs_nodes and avoid kernfs_idr_lock in kernfs_find_and_get_node_by_id()
+05d8f255867e3196565bb31a911a437697fab094 kernfs: fix false-positive WARN(nr_mmapped) in kernfs_drain_open_files
+3a480d4bb5b1e1f09426223e68acaa90da32e384 driver core: cpu: make cpu_subsys const
+f297a3844aa059c53be3f69be85ebc071b8a6d16 driver core: component: fix spellos
 98323e9d70172f1b46d1cadb20d6c54abf62870d topology: Set capacity_freq_ref in all cases
 a4e61de63e34860c36a71d1a364edba16fb6203b misc: fastrpc: Mark all sessions as invalid in cb_remove
 ac9762a74c7ca7cbfcb4c65f5871373653a046ac misc: open-dice: Fix spurious lockdep warning
@@ -698,6 +698,7 @@ d7332c4a4f1a7d16f054c6357fb65c597b6a86a7 ASoC: SOF: ipc3-topology: Fix pipeline 
 45be0882c5f91e1b92e645001dd1a53b3bd58c97 smb3: add missing null server pointer check
 55c7788c37242702868bfac7861cdf0c358d6c3d smb: client: set correct d_type for reparse points under DFS mounts
 2a427b49d02995ea4a6ff93a1432c40fa4d36821 blk-iocost: Fix an UBSAN shift-out-of-bounds warning
+5df9197edd731a44682444631d68c2384f381bf1 workqueue: make wq_subsys const
 c23de7ceae59e4ca5894c3ecf4f785c50c0fa428 docs: kernel_feat.py: fix build error for missing files
 4ce6e2db00de8103a0687fb0f65fd17124a51aaa virtio-blk: Ensure no requests in virtqueues before deleting vqs.
 5f63a493b99c848ad5200402bebe26211e00025a Merge tag 'nvme-6.8-2023-02-08' of git://git.infradead.org/nvme into block-6.8
@@ -1066,20 +1067,19 @@ ddac3d8b8a48dda6447a7f7a15f8124020a5add2 Merge tag 'x86_urgent_for_v6.8_rc5' of 
 6c160f16be5df1f66f6afe186c961ad446d7f94b Merge tag 'kbuild-fixes-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 b401b621758e46812da61fa58a67c3fd8d91de0d Linux 6.8-rc5
 07749061b837a1268146dc8a620a522253cea877 Merge 6.8-rc5 into driver-core-next
-57e3031285e4418e458f85177f1e65f97efc5fdc FIXME: driver core: platform: make platform_bus_type constant
-1fa2e27e72b7d4b4bc9ac05d6615cfd3256c6951 FIXME: PCI: make pci_bus_type const
-a34c4f98b2f1a6f5be0724c70159c2d6afe7d731 FIXME: amba: make amba_bustype constant
-5a9f8795e0d59d30c2b44e30d667edd46a1a509b FIXME: bus: fsl-mc: make fsl_mc_bus_type constant
-55badee8e428851483624564f0cbc08c69bdfd63 FIXME: gpu: host1x: make host1x_context_device_bus_type constant
-6abf4bef1556973b6eded67b6c874dacf620c10f FIXME: cdx: make cdx_bus_type constant
-222faa5457707d449cddd470165ec45a37e027f4 greybus: make greybus_bus_type const
-8ce8c761843dd5b2f74f9e1588112c3b2d76d92b spi: make spi_bus_type const
-3f3bce50b4a6e50ee10048ceefc0853602fb6878 staging: greybus: gbphy: make gbphy_bus_type const
-382fd46f1cce06480c1cb4688e75117d61a67af6 coresight: make coresight_bustype const
-221f77b7b4d87bfa5b0fea23b51c9181af88968d staging: fieldbus: make anybus_bus const
-91b91d05a5975dcce90ecf35efdf1be8db0fa6c9 staging: vc04_services: vchiq_arm: make vchiq_bus_type const
-79d895a3a67047bf864a1e21606de6b292a119c7 staging: vme: make vme_bus_type const
-0c30eebc6dc0d2c824f3ba964f2b62e299926fb3 staging: gdm724x: constantify the struct device_type usage
-d8bb892ee1980b9ee764b800482304939c8c9cdf make a bunch of struct bus_type const.
+96d324405ac04763fd95448983e7a4cc83e1ce55 coda: psdev: make coda_psdev_class a static const structure
+a4674a03c5ffcc1e577707d5a7a5eb1de62efe02 cuse: make cuse_class a static const structure
+926eb0c39b4b0ce1c9773834ccbd9aac639ba4ee pstore: pmsg: make pmsg_class a static const structure
+5807a193dfe292f038023cc6a35e9eeb4ffb6711 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
+c8d721cb17823de693b2ba11be1cd3445393303c PM: wakeup: make wakeup_class a static const structure
+0bb9d1160f6c1b97954cd9ff8c94fde71dc7ea12 PM / devfreq: make all 'class' structures const
+f04e77a588c1ddff84e151361962ea89032acde7 dca: make dca_class a static const structure
+8e4aeaaf3fee3aad8b3492b9947e436616073d0d gnss: make gnss_class a static const structure
+a42e5bb64ec17b8c41f2c5abe2955389b4c6dbe3 extcon: make extcon_class a static const structure
+2785b8c5c3a8ecabed39e2c78c8ab359b0ecd351 misc: c2port: core: make c2port_class a static const structure
+08c6be418f63d985c8589125baf5ca6d33bd1cea nvdimm: make nd_class constant
+002251727d05615f59645319b0b228fa3aceaa9d PCI: endpoint: make pci_epc_class constant
+90744350758a39736c4dc4e4ea3255e855d2e27c PCI: switchtec: make switchtec_class constant
+33bd2b9b3e5119fbd5da07d359605ca4e4731eaa crypto: qat: make adf_ctl_class constant
 
---===============8016315741301630638==--
+--===============5767712979792490501==--
