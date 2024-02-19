@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 19 Feb 2024 17:03:28 -0000
-Message-Id: <170836220855.1712.10184459670411513596@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 19 Feb 2024 17:06:12 -0000
+Message-Id: <170836237228.4295.4198679696957580824@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/file1BAE0o
-    old: 0000000000000000000000000000000000000000
-    new: 055100d1a3b27ce154b3e3041d3cef24778821b3
-  - ref: refs/heads/fileCkSTu2
-    old: 0000000000000000000000000000000000000000
-    new: 3b4ec34602c562fa8fa59dd8545ac7f3cdfc235e
-  - ref: refs/heads/fileEYW4Ip
-    old: 0000000000000000000000000000000000000000
-    new: e33625c84b75e4f078d7f9bf58f01fe71ab99642
+  - ref: refs/heads/smp/core
+    old: effe6d278e06f85289b6ada0402a6d16ebc149a5
+    new: b57b4126dd3bb69db876ae7b271307ab7e0458b9
+    log: |
+         da92df490eeab7a97a3390ff32e0ae091e0dc2eb cpu: Mark cpu_possible_mask as __ro_after_init
+         b57b4126dd3bb69db876ae7b271307ab7e0458b9 smp: Make __smp_processor_id() 0-argument macro
+         
