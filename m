@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0610651387513673976=="
+Content-Type: multipart/mixed; boundary="===============4261509094489911485=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 19 Feb 2024 19:58:55 -0000
-Message-Id: <170837273514.4416.9988298603596169824@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 20:01:03 -0000
+Message-Id: <170837286393.6933.4352328938113419418@gitolite.kernel.org>
 
---===============0610651387513673976==
+--===============4261509094489911485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: a09ebb32afbe2b215075a81aa3f78795d553b91f
-    new: 1ab40abcdbb2c409372223060078cc2347df2721
+  - ref: refs/heads/usb-testing
+    old: 1ab40abcdbb2c409372223060078cc2347df2721
+    new: 3bf0514dc6f36f81ee11b1becd977cb87b4c90c6
     log: |
-         146bb64e49393317418630c85d0e1dbdf7e996e2 usb: typec: constify the struct device_type usage
-         df097bf988c082726d1b35d7132a915db2110a43 usb: phy: constify the struct device_type usage
-         3e383260dfd406d8bb09a64cadeafb5cd71a7e0c usb: gadget: constify the struct device_type usage
-         1ab40abcdbb2c409372223060078cc2347df2721 usb: core: constify the struct device_type usage
+         3bf0514dc6f36f81ee11b1becd977cb87b4c90c6 Revert "xhci: add helper to stop endpoint and wait for completion"
          
 
---===============0610651387513673976==
+--===============4261509094489911485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708372734 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708372860 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1708372732-436ee54652d672546c2292c7e8aeef038da20f24
+nonce 1708372858-67959c79e370c250cce5697e36a0347c7244fff9
 
-a09ebb32afbe2b215075a81aa3f78795d553b91f 1ab40abcdbb2c409372223060078cc2347df2721 refs/heads/usb-next
+1ab40abcdbb2c409372223060078cc2347df2721 3bf0514dc6f36f81ee11b1becd977cb87b4c90c6 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXTsv4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jHMP/0Vw42jTYNzW2HXftf5M
-yaxUdy1rznr9kfP1qc3VkfHD6mINExNLRTh4dGa0kM+FoxlsjEFMDTFjxo0elLZ/
-9uaBaCdNNkk8L9hSE8FS1XD3F7f/y4XhbL20zaMMV8t+BBZafo8Kmzt+bYWVMuTw
-2xGdeuQceIPmwxpiUFx9BISfalLL7WMgOC+7ZLYvIfBjPzFaRnfHdMzIeVT2y2B4
-S8KAelFMIoZVDOqXm82L+LlmB+/Jj4s1ujHcvQH//VvzavWz5AnAzjCbpavV6MdY
-BauCAlgbr/zhuv24mEn28UxPh0Ku6bTpG2mmzxY7P06fmhQrEHIJzyhWjoK8Ub6F
-EVhBFvbxYSbmijQYqYz/VEVzsEAsSqOOUo8/wRM47+iigLQJWgk2nhKxW72MYWFJ
-lAjhGafY19hDeY5Ya4jTJVCnUGcpffog8SrNqfhSJY9bQHQbewbyZR8hqH4irnZd
-Nzo44ifoctUeaxBVTXPU1XatOIS0QYI++LsP/GgUcSK33+T4zG7mskEcu3USaJoq
-M69jtEjCB/mnahm+uJCpUV28XdQ2nowyhnIGlIjR/C9eNJHZ9qpZBh+rfaX/E2SY
-IvKlQmK1hC7A2vHjg+XQ29b8c71Gsbm0gnQmLtLNekHff4nIyv+yPJXQW1GvkEJy
-0dsbTukhRW2XNaG3Cb+pDRrm
-=F+4G
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXTs3wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m/IP/12n7Gz882P5GrHhbI7r
+DY1Pn4HhFLFXGTDIlGUjdqRd6NNr8otXnoIbRv9sMY7vT49xiPm/drZy5lGayYRH
+S02TiqdDqwioRDM2OOIIFgG2gOyXRPUo1qn+iW7pMjgYZV++ASk8p08GuNfnmZqv
+ylOdNAYW+bFOTpme1GYMzUrVybUHJkwLI7m8qxWuKOGBF9Ri5GKBE7wbLUptyEIn
+qXrUoNEFpIAvt1QPGvryd1GPX6LK/+OOlWmwkQenfqGEXoy8jrH07SYawHNmesvm
+OiJCuTF1vfChsNkgPTXvEED85I8aYJ/Q4El/oYjmd2AELaI5qaXhhXigi+tUdp4f
+w9+zSfyPFk0xBHOYRFUTbEkJEMH0KlFXczzt7AxpqfCmKC3AV4Fdl/Mj0Jv9hDXj
+ZXIIyIqQrW47ePGoUzUsTr3QMCbnl1jd6i43211HPm7ZhB0rDIHc793SgGmzVxqC
+yjxTE7CJkOHqQTPcaklGW9tR9zhNW7zn8mNV1m6VnuvOWjpOKQ9JtwD96jLE4SgY
+qY4fslBGASNkzirV1ibvAytEb0CnMek6fWx9YoqzESXsuyU65f7Mbla7J8rXIwEY
+ecFcLcQ9GzmaEJs7CXYLpb0vfub48YhKDssW0Pf47m+vVF8f/7Ogn4bJOf2WKHrB
+OnYZBlKPI2TWhQJ2rTEefCKv
+=aJT3
 -----END PGP SIGNATURE-----
 
---===============0610651387513673976==--
+--===============4261509094489911485==--
