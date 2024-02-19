@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 19 Feb 2024 10:20:43 -0000
-Message-Id: <170833804384.28967.1575430711058958807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 19 Feb 2024 10:21:02 -0000
+Message-Id: <170833806280.29142.17836956048266178240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/next-fixes
-    old: 4f28045e1bdfb227b9a036176c8ad20f9b44ba5d
-    new: eb90d142fc1bc3bc59d42f14e7af7b7e3508f2e0
+  - ref: refs/heads/main
+    old: d0bcc15cbae806cad7d1d90003c82ecb5833b533
+    new: 06d53b03466fcbffb29441b886b26695eb31e862
     log: |
-         e42b9d8b9ea2672811285e6a7654887ff64d23f3 btrfs: defrag: avoid unnecessary defrag caused by incorrect extent size
-         b0ad381fa7690244802aed119b478b4bdafc31dd btrfs: fix deadlock with fiemap and extent locking
-         409d0bf193bbf1014d47ce49bc5400e7f32a4be0 btrfs: do not skip re-registration for the mounted device
-         eb90d142fc1bc3bc59d42f14e7af7b7e3508f2e0 Merge branch 'misc-6.8' into next-fixes
+         7e6cec7d3bb0ae2107cda6175bbf3b0275ca0d09 i40e: Use existing helper to find flow director VSI
+         b1f1b46f466a0855b92bd191d8fea8bf297bc7ab i40e: Introduce and use macros for iterating VSIs and VEBs
+         b7fac08db5e32a7de8c53e50dc7c841d123dda05 i40e: Add helpers to find VSI and VEB by SEID and use them
+         08cdde310e2252ea9381a37c3faa2125a5a663a3 i40e: Fix broken support for floating VEBs
+         f09cbb6c94e47b4be985bfd3c8cf453818f5ef9d i40e: Remove VEB recursion
+         06d53b03466fcbffb29441b886b26695eb31e862 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next -queue
          
