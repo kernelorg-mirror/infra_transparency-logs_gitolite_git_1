@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3972572620125795669=="
+Content-Type: multipart/mixed; boundary="===============6405620517522851818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 19 Feb 2024 06:39:21 -0000
-Message-Id: <170832476185.7087.12442984570133930555@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 06:39:29 -0000
+Message-Id: <170832476969.7218.11830844303041294108@gitolite.kernel.org>
 
---===============3972572620125795669==
+--===============6405620517522851818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: e20f378d993b1034eebe3ae78e67f3ed10e75356
-    new: b401b621758e46812da61fa58a67c3fd8d91de0d
-    log: revlist-e20f378d993b-b401b621758e.txt
+  - ref: refs/heads/char-misc-next
+    old: d0fc93f462b93983b73815e30c478a8d64d0ef68
+    new: 8d11c6d9b14f7a87f65529cb33edc5fed846ed9d
+    log: revlist-d0fc93f462b9-8d11c6d9b14f.txt
 
---===============3972572620125795669==
+--===============6405620517522851818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708324761 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708324767 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1708324758-f17f07dbf94bdd9444a43cc013a5e2f0f9aed22e
+nonce 1708324766-470f59e2d3ce738c3332eefb0435b700d567a3dd
 
-e20f378d993b1034eebe3ae78e67f3ed10e75356 b401b621758e46812da61fa58a67c3fd8d91de0d refs/heads/char-misc-linus
+d0fc93f462b93983b73815e30c478a8d64d0ef68 8d11c6d9b14f7a87f65529cb33edc5fed846ed9d refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXS95kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CkEP+QHTRzBKvA8mY3mWVr0w
-js9POClNsOK4IEYTroOZV+fpQYBSP9XJxFcjYmEoZ8A4Ur1LGVAjXukfuP+pbx57
-KsfkZQbsH14QFhgh3kNCH+pAf1VEyEwKsCjMWkbuUAuO+Aj1ofDtFv8+Wt1Uryav
-JXTIqkXpYkcb+/dsJPvUby+vlkY/FF03y2JXMc77fa3zsHcmcfvM9WtiI7M5oWrk
-ZLJbe+eofM7yTdhV3I6DtASQzXudJ/TAopEOgq3Z3X2gBaRCufv9rfoNyRgJtH5m
-1POTEObpsVopsnHiZVjEncjOziywOeGCmAcw5hXF8zLP20Xy4BOmXdi74ihcT/EU
-2k3TE85W4pdmKOepbTECUPSdhbG1cllBM4EYQH1oK4iULLxyci0ZuN1cho/ir2m3
-9efrhyzHZXosP7P5uURySKgC4c5fwXRWlKscJ2s248PlNEqO2mQvyOse3UM0Flon
-lrwgpS2f2Z48TcIYdGL52atDk1HD/RoLCPDIQQYGLKDagbMXesYnvWBJWpbntuO4
-qvtOy2fFHevtXRsq7n6hwTYifrGe0x4ylk6kX21L9dtM/jVeWfYs+Y+QQ5nDHDtR
-KlolI/DF9eP5xdkfmoz6LhOXGRL4rDREonpFiKlUSvLnXLG5/O6zxrUO63DMpGRI
-N/1pIRPMFaoX/ADvqRo1z8im
-=yXpI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXS958bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1YoP+wSbTyjjufoivdt+13lr
+Wa1Y5SYpEbCBffjiqSEYRf29AQ5oDJHMt6uZkzO272FrLBqJl2b8xBnv957yQRYZ
+VKT64KDgMtTGraPppIgwKB3RQUnt8sbYrMNx7uEwqRugnDxnriFzeyrG4z8WhaoW
+IiPnCKkmC87grcza/Orskvs5RXh0qobgSJ+ZUYY700KvY8bg5dW/Ykl0/lLvksdx
+4HDi1VZELxpIMsfGXDtbklp/ECWCWu3n2zq/HOQOOSlFSokxQ7qQ25nJyjAi2ded
+R8rRoOZfBX5xGkzYZd0QTh0SuuofdvjUfsMT8Pf3BrJ+wXfr1OGyRIcbwO/VYEjv
+hQWWFTxQjD2oF+ANE7L7s9FtX0Ju6hmSY3GuoSRmUJDyy97XA/V7vVRYWVC/O1Pb
+/syk3VwohR65eHo1kDjSN6HI/0SDbMjbQQ/049JQ8Dz+T/qRybetuMWp1J44jR+1
+JdQEF9BAjddiNiwbULcCI2LCRSpmIdrkJgU2E+EHY88rd9bEwT4mo8Ub2ZhfdkUT
+HhcrtOC9UKgAgN5sVevZZ3t7T2ACVkFbU/ScjjX3eJ8hvOrGOFJNr3FND9TjYgJt
+pt/px34ivAAfqN66YzGD31d6i6/ujQV+bFRu+PSpDzAJfsovnYzNyJzJLr3cRKzy
+GcVHlz3hWfx0G1pYgHN3w7cv
+=QLvn
 -----END PGP SIGNATURE-----
 
---===============3972572620125795669==
+--===============6405620517522851818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e20f378d993b-b401b621758e.txt
+Content-Disposition: attachment; filename=revlist-d0fc93f462b9-8d11c6d9b14f.txt
 
 c39de951282df9a60ef70664e4378d88006b2670 fs/ntfs3: Improve alternative boot processing
 22457c047ed971f2f2e33be593ddfabd9639a409 fs/ntfs3: Modified fix directory element type detection
@@ -76,6 +76,8 @@ aaab47f204aaf47838241d57bf8662c8840de60a fs/ntfs3: Add NULL ptr dereference chec
 fe752331d4b361d43cfd0b89534b4b2176057c32 KVM: s390: vsie: fix race during shadow creation
 4cdfb6e7bc9c80142d33bf1d4653a73fa678ba56 fs/ntfs3: Disable ATTR_LIST_ENTRY size check
 83303a4c776ce1032d88df59e811183479acea77 KVM: s390: fix cc for successful PQAP
+85e985a4f46e462a37f1875cb74ed380e7c0c2e0 interconnect: qcom: sc8180x: Mark CO0 BCM keepalive
+24406f6794aa631516241deb9e19de333d6a0600 interconnect: qcom: sm8550: Enable sync_state
 ddb17dc880eeaac37b5a6e984de07b882de7d78d fs/ntfs3: Use kvfree to free memory allocated by kvmalloc
 935024212dafebe065ccb5c4d399f19e4b8dbb82 dt-bindings: don't anchor DT_SCHEMA_FILES to bindings directory
 367188297254e7f81e3c3c94e6d6a623f757c4cb RISC-V: KVM: Allow Zbc extension for Guest/VM
@@ -95,6 +97,14 @@ f46300285926c2b0d0c79bf40c87d45e169cecb6 RISC-V: KVM: Allow Zvfh[min] extensions
 741ba0134fa7822fcf4e4a0a537a5c4cfd706b20 pmdomain: core: Move the unused cleanup to a _sync initcall
 f0e4a1356466ec1858ae8e5c70bea2ce5e55008b pmdomain: renesas: r8a77980-sysc: CR7 must be always on
 6154fb9c2134f8d9534b2de10491aa3a22f3c9ff kselftest: dt: Stop relying on dirname to improve performance
+95a0d596bbd0552a78e13ced43f2be1038883c81 iio: core: fix memleak in iio_device_register_sysfs
+b67f3e653e305abf1471934d7b9fdb9ad2df3eef iio: pressure: bmp280: Add missing bmp085 to SPI id table
+792595bab4925aa06532a14dd256db523eb4fa5e iio: magnetometer: rm3100: add boundary check for the value read from RM3100_REG_TMRC
+35ec2d03b282a939949090bd8c39eb37a5856721 iio: imu: bno055: serdev requires REGMAP
+f1dfcbaa7b9d131859b0167c428480ae6e7e817d iio: humidity: hdc3020: Add Makefile, Kconfig and MAINTAINERS entry
+8e98b87f515d8c4bae521048a037b2cc431c3fd5 iio: imu: adis: ensure proper DMA alignment
+59598510be1d49e1cff7fd7593293bb8e1b2398b iio: adc: ad_sigma_delta: ensure proper DMA alignment
+9c46e3a5232d855a65f440b298a2a66497f799d2 iio: adc: ad7091r8: Fix error code in ad7091r8_gpio_setup()
 c41336f4d69057cbf88fed47951379b384540df5 pmdomain: mediatek: fix race conditions with genpd
 afb2a4fb84555ef9e61061f6ea63ed7087b295d5 riscv/efistub: Ensure GP-relative addressing is not used
 d2baf8cc82c17459fca019a12348efcf86bfec29 riscv/efistub: Tighten ELF relocation check
@@ -113,6 +123,9 @@ b743287d7a0007493f5cada34ed2085d475050b4 wifi: cfg80211: fix wiphy delayed work 
 a7a6a01f88e87dec4bf2365571dd2dc7403d52d0 x86/efistub: Give up if memory attribute protocol returns an error
 3f5198c7f6722b07e6c827d674fdaf3d7019ed21 Merge tag 'kvm-s390-master-6.8-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 11f563320917d4c9cee5d572a344c1360487530d Merge tag 'kvm-riscv-6.8-2' of https://github.com/kvm-riscv/linux into HEAD
+a69eeaad093dd2c8fd0b216c8143b380b73d672d iio: humidity: hdc3020: fix temperature offset
+6db053cd949fcd6254cea9f2cd5d39f7bd64379c staging: iio: ad5933: fix type mismatch regression
+6f6c72acddf4357fcc83593c20ef9064fb42db92 iio: move LIGHT_UVA and LIGHT_UVB to the end of iio_modifier
 eba38cc7578bef94865341c73608bdf49193a51d bcachefs: Fix build on parisc by avoiding __multi3()
 6bb3f7f4c3f4da8e09de188f2f63e8f741bba3bd bcachefs: unlock parent dir if entry is not found in subvolume deletion
 d6d33f03baa43d763fe094ca926eeae7d3421d07 fs/ntfs3: use non-movable memory for ntfs3 MFT buffer cache
@@ -228,11 +241,16 @@ b09b58e31b0f43d76f79b9943da3fb7c2843dcbb octeontx2-pf: Fix a memleak otx2_sq_ini
 dbea519d6878c298dd0f48e6ec2dbacebe4bbb2a cxl/trace: Remove unnecessary memcpy's
 42dfa94d802a48c871e2017cbf86153270c86632 KVM: arm64: Do not source virt/lib/Kconfig twice
 9cae43da9867412f8bd09aee5c8a8dc5e8dc3dc2 hv_netvsc: Register VF in netvsc_probe if NET_DEVICE_REGISTER missed
+621c6257128149e45b36ffb973a01c3f3461b893 iio: hid-sensor-als: Return 0 for HID_USAGE_SENSOR_TIME_TIMESTAMP
 1168491e7f53581ba7b6014a39a49cfbbb722feb hwmon: (aspeed-pwm-tacho) mutex for tach reading
 4e440abc894585a34c2904a32cd54af1742311b3 hwmon: (coretemp) Fix out-of-bounds memory access
 fdaf0c8629d4524a168cb9e4ad4231875749b28c hwmon: (coretemp) Fix bogus core_id to attr name mapping
 34cf8c657cf0365791cdc658ddbca9cc907726ce hwmon: (coretemp) Enlarge per package core count limit
+862cf85fef85becc55a173387527adb4f076fab0 iio: commom: st_sensors: ensure proper DMA alignment
+4cb81840d8f29b66d9d05c6d7f360c9560f7e2f4 iio: accel: bma400: Fix a compilation problem
 eef00a82c568944f113f2de738156ac591bbd5cd inet: read sk->sk_family once in inet_recv_error()
+a40f93e9286968863c661f2b9e314d97adc2f84e interconnect: qcom: sm8650: Use correct ACV enable_mask
+5464e7acea4a6c56b3c5c2d7aeef2eda92227b33 interconnect: qcom: x1e80100: Add missing ACV enable_mask
 c8bdef1560d976340e421d5e188f94789e4cfa28 Merge branch 'master' into mm-hotfixes-stable
 1a00897e5e96c29b21580dfcfec168dc16c67469 drm/i915: Replace dead 01.org link
 47caa96478b99d6d1199b89467cc3e5a6cc754ee drm/i915/gvt: Fix uninitialized variable in handle_mmio()
@@ -326,6 +344,7 @@ cd7d469c25704d414d71bf3644f163fb74e7996b libceph: fail sparse-read if the data l
 ee97302fbc0c98a25732d736fc73aaf4d62c4128 libceph: rename read_sparse_msg_*() to read_partial_sparse_msg_*()
 8e46a2d068c92a905d01cbb018b00d66991585ab libceph: just wait for more data to be available on the socket
 bbb20ea993f46743f7429092ddc52f1a5c5428ef ceph: always set initial i_blkbits to CEPH_FSCRYPT_BLOCK_SHIFT
+51c161008e0429eb40f78eff703bc5b8bfd572db Merge tag 'icc-6.8-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 cda4672da1c26835dcbd7aec2bfed954eda9b5ef ceph: prevent use-after-free in encode_cap_msg()
 07045648c07c5632e0dfd5ce084d3cd0cec0258a ceph: always check dir caps asynchronously
 44d3b8a19b91cd2af11f918b2fd05628383172de ASoC: Intel: avs: Fix dynamic port assignment when TDM is set
@@ -510,6 +529,8 @@ ca00c700c521916bacf7d490a2a5fd908059a927 Merge tag '6.8-rc3-smb3-client-fixes' o
 5a7ec87063c0fbb7706fdccb0cc890757da6f4a1 Merge tag '6.8-rc3-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 a38ff5bbf9799dd944c762412aaebc54818407f5 Merge tag 'firewire-fixes-6.8-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 a5b6244cf87c50358f5562b8f07f7ac35fc7f6b0 Merge tag 'block-6.8-2024-02-10' of git://git.kernel.dk/linux
+a22b0a2be69a36511cb5b37d948b651ddf7debf3 iio: adc: ad4130: zero-initialize clock init data
+78367c32bebfe833cd30c855755d863a4ff3fdee iio: adc: ad4130: only set GPIO_CTRL if pin is unused
 c57ca512f3b68ddcd62bda9cc24a8f5584ab01b1 net: tls: factor out tls_*crypt_async_wait()
 aec7961916f3f9e88766e2688992da6980f11b8d tls: fix race between async notify and socket close
 e01e3934a1b2d122919f73bc6ddbe1cdafc4bbdb tls: fix race between tx work scheduling and socket close
@@ -667,6 +688,8 @@ efe7cf828039aedb297c1f9920b638fffee6aabc can: j1939: Fix UAF in j1939_sk_match_f
 0846dd77c8349ec92ca0079c9c71d130f34cb192 powerpc/iommu: Fix the missing iommu_group_put() during platform domain attach
 8746c6c9dfa31d269c65dd52ab42fde0720b7d91 drm/buddy: Fix alloc_range() error handling code
 a64056bb5a3215bd31c8ce17d609ba0f4d5c55ea drm/tests/drm_buddy: add alloc_contiguous test
+23d62fb5d368b56fbfede3757c061d5de410a9b8 Merge tag 'iio-fixes-for-6.8a' of http://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
+e20f378d993b1034eebe3ae78e67f3ed10e75356 nvmem: include bit index in cell sysfs file name
 22d0bc072102233f94006907f15d97ca6352adc4 Merge tag 'kvm-x86-fixes-6.8-rcN' of https://github.com/kvm-x86/linux into HEAD
 2f8ebe43a02596f0a73866e506d2a5b4a5e1d8c2 Merge tag 'kvm-x86-selftests-6.8-rcN' of https://github.com/kvm-x86/linux into HEAD
 e67391ca7aa6c96d32061260ffd68d5790765230 Merge tag 'kvm-riscv-fixes-6.8-1' of https://github.com/kvm-riscv/linux into HEAD
@@ -790,5 +813,6 @@ c02197fc9076e7d991c8f6adc11759c5ba52ddc6 Merge tag 'powerpc-6.8-3' of git://git.
 ddac3d8b8a48dda6447a7f7a15f8124020a5add2 Merge tag 'x86_urgent_for_v6.8_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6c160f16be5df1f66f6afe186c961ad446d7f94b Merge tag 'kbuild-fixes-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 b401b621758e46812da61fa58a67c3fd8d91de0d Linux 6.8-rc5
+8d11c6d9b14f7a87f65529cb33edc5fed846ed9d Merge 6.8-rc5 into char-misc-next
 
---===============3972572620125795669==--
+--===============6405620517522851818==--
