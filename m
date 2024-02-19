@@ -1,53 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============6623987158783453235=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 19 Feb 2024 09:15:59 -0000
-Message-Id: <170833415982.31957.2075794120231184744@gitolite.kernel.org>
-
---===============6623987158783453235==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 19 Feb 2024 09:16:27 -0000
+Message-Id: <170833418751.32160.8877074157191418575@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/tty-testing
-    old: 9b9d8710e4e21461914775f14270eab5e57e8485
-    new: 1643281347f80116a500e6a17726351a7265a55c
-
---===============6623987158783453235==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708334153 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1708334151-42860257323d7b35e7525d77ebd428f4e4de23d5
-
-9b9d8710e4e21461914775f14270eab5e57e8485 1643281347f80116a500e6a17726351a7265a55c refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXTHEkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6iUP+wZAgBV0Hm/GRshcPPIA
-7b0wyEZbbV/qrDxCR4myES09GbB09VdluUJ9sbB+6UMgsHYNhxdhoBLCc0RVOU6F
-XOBEDddPFYoEvLFk6RfVoFJjPb8gg11HPOO8qHcN25yfi0xsH2AkJNLeddaCN0AM
-3+ZC1sa/8c+eWYu1unhu0Mnhpmh2S0ghNwtfoZIHtafnmqXixPtCNxtyiDhUVqSh
-nHSygt1Dv5XP8ev0XE9HUlh8HcUlttmYBUIMGiybT+oOGRI9v3FxJhdqEauUhCzW
-0BgpmWHf/Ms+9GpP1bPfiKQxAUjGv07KtFSn/Bu76m1dLUVUcgsb9ap7EV4DOVXa
-7blw3SU+G7qXC/IFin61eC+tOGolDSF+15N5QXiqraBVb32H8qOQcMe87vEw0Lu+
-3PwL5mhcSWBkxTZsBvOaI/Cs5iofda4fJDH1FVWo5KHTcD85NncfZAz758qpoDXi
-F+qsKej/+8E9hmQn5dCQxgVojbHl5CLQZTNilFMPAxmmCSBIPrwQvvION3kYCEIf
-g9MuJnPb24gsVC26wXw4dmDcA9hSA3KPcqUrWABrITNYxy9Er8P5FsVYdv/msRkY
-VCNeh0TY2VCtuA00JzA0orYq3k70aFvcP56cbpME3C8ws4SCHeWFW3OIIuaUgB34
-6VjiEjClEsTslNrnNooSuEy9
-=sfRj
------END PGP SIGNATURE-----
-
---===============6623987158783453235==--
+  - ref: refs/heads/x86-pie-for-sev-v5
+    old: 898f9ed1b1d5f7b57f90237d9f91263e3a5bdc82
+    new: 18b8ad417fdfc26bc67337723a9cd161b2fe6fa9
+    log: |
+         e0ea637efb2c887591118be9c7c09906f465bc00 x86/sme: Avoid SME/SVE related checks on non-SME/SVE platforms
+         1d9cdc0a3043f1ef240c2bb5329acc2c4b4ca917 efi/libstub: Add generic support for parsing mem_encrypt=
+         7a62dc72ad1a3658733a4543ab69d824e54da5b6 x86/boot: Move mem_encrypt= parsing to the decompressor
+         4f1276abcd791c4a9b0e3b90666ac11e7ecabfaa x86/sme: Move early SME kernel encryption handling into .head.text
+         143facc478d6fc24760b5b812428fe888ddcf63d x86/sev: Move early startup code into .head.text section
+         18b8ad417fdfc26bc67337723a9cd161b2fe6fa9 x86/startup_64: Drop global variables keeping track of LA57 state
+         
