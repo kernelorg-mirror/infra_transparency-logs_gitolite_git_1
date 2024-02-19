@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Mon, 19 Feb 2024 20:24:46 -0000
-Message-Id: <170837428602.25288.9433746138911262425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 19 Feb 2024 20:30:21 -0000
+Message-Id: <170837462107.30508.17300994862234395955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/i3c/next
-    old: 10201396ef6455a68ac671fa0163205d327ebb70
-    new: 8f06fb45853900b4deaa52e2a9e16f3d9550b011
+  - ref: refs/heads/main
+    old: 5983e5df86303564f0968e6e4108ca08e00828ee
+    new: 56ef27e3abe6d6453b1f4f6127041f3a65d7cbc9
     log: |
-         8f06fb45853900b4deaa52e2a9e16f3d9550b011 i3c: Make i3c_bus_type const
+         56ef27e3abe6d6453b1f4f6127041f3a65d7cbc9 page_pool: disable direct recycling based on pool->cpuid on destroy
          
