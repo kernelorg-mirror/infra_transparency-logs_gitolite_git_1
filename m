@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 19 Feb 2024 15:11:40 -0000
-Message-Id: <170835550089.16388.14797827716252828893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 19 Feb 2024 15:44:25 -0000
+Message-Id: <170835746577.6689.9412797243409815265@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/irq/urgent
-    old: 9c92006b896c767218aabe8947b62026a571cfd0
-    new: db744ddd59be798c2627efbfc71f707f5a935a40
+  - ref: refs/heads/master
+    old: b4212dfeeb9209b4e0f1fcd168bd92e481a40c86
+    new: 7bfff6dbc6eec46226ba8563c5605cae5adc0cfc
     log: |
-         db744ddd59be798c2627efbfc71f707f5a935a40 PCI/MSI: Prevent MSI hardware interrupt number truncation
+         7bfff6dbc6eec46226ba8563c5605cae5adc0cfc examples/proxy: simplify the ring buffer management and -ENOBUFS handling
          
