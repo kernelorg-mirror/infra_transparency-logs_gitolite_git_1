@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 19 Feb 2024 10:29:33 -0000
-Message-Id: <170833857361.1514.6524990419367541626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 19 Feb 2024 10:31:14 -0000
+Message-Id: <170833867403.3842.8866674436065653238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 06d53b03466fcbffb29441b886b26695eb31e862
-    new: da4a154ca262eec77b0a07ba1a2a00c91b2b7677
+    old: cd65c48d66920457129584553f217005d09b1edb
+    new: 121e4dcba3700b30e63f25203d09ddfccbab4a09
     log: |
-         d740f4be7cf0faded598fe43e2f472c47230c298 pds_core: add simple AER handler
-         2dac60e062340c1e5c975ad6465192d11c40d47a pds_core: delete VF dev on reset
-         2cbab3c296f1addd73b40549a2271b30f960df8b pds_core: use pci_reset_function for health reset
-         da4a154ca262eec77b0a07ba1a2a00c91b2b7677 Merge branch 'pds_core-AER-handling'
+         121e4dcba3700b30e63f25203d09ddfccbab4a09 ionic: use pci_is_enabled not open code
          
