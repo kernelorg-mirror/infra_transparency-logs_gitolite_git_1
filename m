@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============1134701907764027309=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 19 Feb 2024 21:04:03 -0000
-Message-Id: <170837664348.21939.2963897383659836612@gitolite.kernel.org>
-
---===============1134701907764027309==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 19 Feb 2024 21:06:54 -0000
+Message-Id: <170837681412.25114.17512461216805271830@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: d1571b04cf591bd63a2aed302e47dc259d7b26a6
-    new: 8bdbe754bd599674330c420f6faa4aeca2233d28
+  - ref: refs/heads/vfs.pidfd
+    old: fc886c36563c5134fa4cf9fd233d4e8e2869457c
+    new: a211767b02e79fa1984d8014a35932b7683db40b
     log: |
-         8bdbe754bd599674330c420f6faa4aeca2233d28 Use hashed requirements.txt
+         a211767b02e79fa1984d8014a35932b7683db40b libfs: improve path_from_stashed() helper
          
-
---===============1134701907764027309==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1708376642 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1708376642-2e270a94481f5523f6776ae098648b3bc066c9a4
-
-d1571b04cf591bd63a2aed302e47dc259d7b26a6 8bdbe754bd599674330c420f6faa4aeca2233d28 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZdPCQgAKCRC2xBzjVmSZ
-bGjDAP90IpqZbzxaxshgj/DxJXcE0KTzSiz6/1shKxXNTrXxLwD+OMTp/rrnmeyL
-O3bx+6ESjMnBFX1fNUH5WFOyX1CwXQs=
-=qK7E
------END PGP SIGNATURE-----
-
---===============1134701907764027309==--
