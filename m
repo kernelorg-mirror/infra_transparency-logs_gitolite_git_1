@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7741965367959417398=="
+Content-Type: multipart/mixed; boundary="===============5042798847714317555=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 19 Feb 2024 09:56:10 -0000
-Message-Id: <170833657026.10255.17716222849770843112@gitolite.kernel.org>
+Date: Mon, 19 Feb 2024 09:56:15 -0000
+Message-Id: <170833657544.10379.4328041616082898958@gitolite.kernel.org>
 
---===============7741965367959417398==
+--===============5042798847714317555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 5dc6bdd91324628a3e93d8cda217cb0d26c8b818
-    new: c55effe3a1fbec1b934d171db3976dde3a0eaf46
-    log: revlist-5dc6bdd91324-c55effe3a1fb.txt
+  - ref: refs/heads/m68k-queue
+    old: 0b20aebdd3f6b269507694b2fd905e28013b1f65
+    new: dec6306d49b089528306037ac40d6022cee27534
+    log: revlist-0b20aebdd3f6-dec6306d49b0.txt
 
---===============7741965367959417398==
+--===============5042798847714317555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5dc6bdd91324-c55effe3a1fb.txt
+Content-Disposition: attachment; filename=revlist-0b20aebdd3f6-dec6306d49b0.txt
 
 85e985a4f46e462a37f1875cb74ed380e7c0c2e0 interconnect: qcom: sc8180x: Mark CO0 BCM keepalive
 24406f6794aa631516241deb9e19de333d6a0600 interconnect: qcom: sm8550: Enable sync_state
@@ -458,6 +458,8 @@ c02197fc9076e7d991c8f6adc11759c5ba52ddc6 Merge tag 'powerpc-6.8-3' of git://git.
 ddac3d8b8a48dda6447a7f7a15f8124020a5add2 Merge tag 'x86_urgent_for_v6.8_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6c160f16be5df1f66f6afe186c961ad446d7f94b Merge tag 'kbuild-fixes-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 b401b621758e46812da61fa58a67c3fd8d91de0d Linux 6.8-rc5
-c55effe3a1fbec1b934d171db3976dde3a0eaf46 Merge tag 'v6.8-rc5'
+fffb03cd18e80c7998f67f9110ef17b480904ce8 m68k: atari: usb: Add ISP1160 USB host controller support
+6716ca0eec6af9c62956c47363c155a38f845ec3 m68k: atari: Update Kconfig.bus help text
+dec6306d49b089528306037ac40d6022cee27534 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7741965367959417398==--
+--===============5042798847714317555==--
