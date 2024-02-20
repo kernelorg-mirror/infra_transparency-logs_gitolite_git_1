@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3951765682569115456=="
+Content-Type: multipart/mixed; boundary="===============3419003104818630868=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 20 Feb 2024 18:47:26 -0000
-Message-Id: <170845484635.15984.16366277055191233253@gitolite.kernel.org>
+Date: Tue, 20 Feb 2024 18:50:12 -0000
+Message-Id: <170845501265.18663.1803220049310677675@gitolite.kernel.org>
 
---===============3951765682569115456==
+--===============3419003104818630868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,141 +16,122 @@ repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
   - ref: refs/heads/for-next
-    old: 4162ae412cbf63c038fc2ace8cb6214c0790d6d9
-    new: 5a75256887719526832934e5918414fe678c60f0
-    log: revlist-4162ae412cbf-5a7525688771.txt
+    old: 5a75256887719526832934e5918414fe678c60f0
+    new: 24e394ce67cc6b9f14950807e745043027dcef27
+    log: revlist-5a7525688771-24e394ce67cc.txt
 
---===============3951765682569115456==
+--===============3419003104818630868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4162ae412cbf-5a7525688771.txt
+Content-Disposition: attachment; filename=revlist-5a7525688771-24e394ce67cc.txt
 
-04bf7ac646ab5eb0987bbd6e87b156b856b1b03f dm: add documentation for dm-vdo target
-a3957b1f3ec9ec78dd33422f3a8b4ee6781d8e3b dm vdo: add the MurmurHash3 fast hashing algorithm
-46766d4888ffdfd2bce91a6879bd6285a92a4881 dm vdo: add memory allocation utilities
-03d1089e1dc7f05afb2bfc76bffc71de17e4297e dm vdo: add basic logging and support utilities
-4fcb4290dfe303de048fe01968513da6f4512147 dm vdo: add vdo type declarations, constants, and simple data structures
-89f9b701f5b800daa76506d5bba197624e97ee44 dm vdo: add thread and synchronization utilities
-d9e894d9b2ec9f3117f4d16400a3981c48bb0639 dm vdo: add specialized request queueing functionality
-cc46b9554b3f6d2f09b1111386b2706e5b4f56c8 dm vdo: add basic hash map data structures
-4390aa138b61cf257989e1f0a0deb53e46adae96 dm vdo: add deduplication configuration structures
-b46d79bdb82aa12bf1101c1a38f0233cefe94cb1 dm vdo: add deduplication index storage interface
-024512e7326a27311de5158d5396eb39bbe030bc dm vdo: implement the delta index
-a4eb7e2555171a95135678ea111a60f0d2a154e6 dm vdo: implement the volume index
-6afc7bcaa40d7ec6bf37483b35e68615cfaad524 dm vdo: implement the open chapter and chapter indexes
-4e7ff03922cba20997680dbe78531997760d6117 dm vdo: implement the chapter volume store
-766130e8a9f358652a43dd7ab3edfc6fca5b9b73 dm vdo: implement top-level deduplication index
-8ce89dde122b4e3913552b68983e95e606710837 dm vdo: implement external deduplication index interface
-3f493fcea0fc7b93dc1296030445575e363ccb51 dm vdo: add administrative state and action manager
-9533d804ae02f3908acccaa45031fd868d720ba8 dm vdo: add vio, the request object for vdo metadata
-79535a7881c0cbe95063a2670d840cc950ae9282 dm vdo: add data_vio, the request object which services incoming bios
-062401f0de3540322db559946249f639c6a211ec dm vdo: add flush support
-c65bfacedc3e9d394c06dacd7b9c70e6bdf41702 dm vdo: add the vdo io_submitter
-cfaf07fae7a262865a67b6010eef3bc0a1ae50b2 dm vdo: add hash locks and hash zones
-b0530561331c12dd6abf480e09e3deff84899bd1 dm vdo: add use of deduplication index in hash zones
-58a55a59160cc2f59168431859b6ae154b154246 dm vdo: add the compressed block bin packer
-09eff388df02ac0fff7d726ca2136d623d1db907 dm vdo: add slab structure, slab journal and reference counters
-883069e30e0be28d792db04b97a1785848155d6b dm vdo: add the slab summary
-c9ba9fd33cbb400589a8b3e6a612243cde71d1e6 dm vdo: add the block allocators and physical zones
-7ce49449ffb9409935d78712550be97cd5e68bb2 dm vdo: add the slab depot
-ddb12d6714a5c28c87826180a331f5c68a66c5a5 dm vdo: add the block map
-14d531d7b7a124151c54f05e929d6e6fa896b68d dm vdo: implement the block map page cache
-95a72357688803736bf60db973cbf94c0ff3a6da dm vdo: add the recovery journal
-4fa98386be2ff32f18b939d3bf5f6841d638fccd dm vdo: add repair of damaged vdo volumes
-06e932fea1aafbaa62c0c872060de5f28f717814 dm vdo: add the primary vdo structure
-827c6389c6e496a9d8bd2f94667dd7638c75fe3e dm vdo: add the on-disk formats and marshalling of vdo structures
-a9457ab9d084047d6ac6a920d95bf431255672b0 dm vdo: add statistics reporting
-92f8d7a94fe743831728943aa8988ddf1dddac22 dm vdo: add sysfs support for setting parameters and fetching stats
-29a811959c72b60601842b5c61a66d677ecbcc92 dm vdo: add debugging support
-03d1e20fa16e0aaa753c09f2ae72faec27a01273 dm vdo: add the top-level DM target
-f11aca85b0346fe7d04eca6eb8db2011398782e7 dm vdo: enable configuration and building of dm-vdo
-77bc133191c132da55c1533c16100191f863a211 dm vdo: add MAINTAINERS file entry
-0dc2009d9791b158746c6ed48486e992e0901342 dm vdo io-submitter: remove get_bio_sector
-f7f46761ccd9b46392ff14e22b8c2ed9f5ecc06d dm vdo io-submitter: rename to vdo_submit_metadata_vio
-ebe16015c389bcc1721dfdcba74c13100b849a5b dm vdo io-submitter: rename to vdo_submit_flush_vio
-d58d3c86c3af96de44171a3748f3e534c5d1631b dm vdo io-submitter: rename to vdo_submit_data_vio
-46a707cce078303e4114ae5547eb48162bae7323 dm vdo io-submitter: rename to vdo_submit_vio and submit_data_vio
-d6e260cc426164820a496528fda809add15be1ea dm vdo wait-queue: add proper namespace to interface
-cd1227dd8341dca720ec71ad7dd2824fbf60ed4e dm vdo wait-queue: remove unused debug function vdo_waitq_get_next_waiter
-e752e5c33b960085f1ae12e391b18dd8fc5ceef1 dm vdo wait-queue: optimize vdo_waitq_dequeue_matching_waiters
-29f0ef873c5ab5d8d59553447e4175e90287e731 dm vdo block-map: optimize enter_zone_read_only_mode
-a4bba246ecdea4bf73602dcedbc9091656d63872 dm vdo wait-queue: rename to vdo_waitq_dequeue_waiter
-db6b0a7ffeef58df70290b5d52bc469f7d9021d4 dm vdo dedupe: switch to using int-map instead of pointer-map
-ffb8d9654100804998223ba2659044279cc6bc46 dm vdo int-map: rename functions to use a common vdo_int_map preamble
-9165dac82273579b150bb56f76c6cf3222eb1a58 dm vdo int-map: remove unused parameter from vdo_int_map_create
-4c79d55678b8bf993cb94c6181180997112bb353 dm vdo: fix how dm_kcopyd_client_create() failure is checked
-f36b1d3ba533d21b5b793623f05761b0297d114e dm vdo: use a proper Makefile for dm-vdo
-6bda10727d1651abc32763fbf081602df61cd9ad dm vdo block-map: fix a few small nits
-8810d3d59494fb8404d5ca5f72a5b05ed5fbeaa1 dm vdo block-map: use uds_log_ratelimit() rather than open code it
-36778716a2cf7003d7b45bfb9ed6e88f47511b35 dm vdo block-map: remove extra vdo arg from initialize_block_map_zone
-3ccf136a4925c852197dd5fb5f7ee88514757e4e dm vdo block-map: avoid extra dereferences to access vdo object
-b06d5c37b88b97359e98820eecae99e243512c1b dm vdo block-map: rename struct cursors member to 'completion'
-86492a3f698de5d66777ba18e06e030cb2c5cf9a dm vdo: slight cleanup of UDS error codes
-c10497b3b11d0d040eaff25bef47dec569ae0779 dm vdo: rename uds_map_to_system_error to uds_status_to_errno
-f7c1c2e085cd8232e24ebae6a0a72998010ea8cc dm vdo: rename vdo_map_to_system_error to vdo_status_to_errno
-97b6f0e752ce862759c95ab0e83d84623236bb8d dm vdo data-vio: rename is_trim flag to is_discard
-1ccef45aa889a0a3cd3f82681bfd90e0d4c2b203 dm vdo slab-depot: fix various small nits
-ac9ae5769d61e4fe1c5e4245c5cbcd6c0f0f0e9e dm vdo dedupe: fix various small nits
-5c45cd10c085f46148f1b6030c5d710d842dd1d0 dm vdo index: fix various small nits
-7f67d0f1c83939e3282a1311de58341d615d42b8 dm vdo: rename struct geometry to index_geometry
-952b57a58d400e5495d0f5d402c5ff9737dd5995 dm vdo: rename struct configuration to uds_configuration
-3fa8e6ec07f7d326cbd9af2daa29b5fe3fb9eb12 dm vdo: fix sparse warnings about missing statics
-ff9199464886500bd0c3df4a5ebae4760607aeda dm vdo: fix sparse 'warning: Using plain integer as NULL pointer'
-a6c05c981ecc841a3e95af666c2a1a6a265e7adc dm vdo: fix various blk_opf_t sparse warnings
-872564c501b72ae0c84af51084753e8652e4a84b dm vdo data-vio: silence sparse warnings about locking context imbalances
-f46b1ab7e7e4dacd748ccb6e12a77a3fea229764 dm vdo dedupe: silence sparse warnings about locking context imbalances
-b863d7f7503c42bc3c7033bcf8fff70d0bf825a7 dm vdo recovery-journal: fix sparse 'mixed bitwiseness' warning
-a03652238d252e6c8a138f04eec71a90e0a99379 dm vdo: add vdo documentation to device-mapper index
-512039b41b08177dce08f5cf324f2f57f9629639 dm vdo: add vio life cycle details to design doc
-ea9ca07affd80668b207703919eaba849654e11f dm vdo: add documentation details on zones and locking
-b196d6bd30c39548436cbc7cfd40efcf4f006dfa dm vdo: move encoding constants to encodings.c
-fbbd7a25e8b568259e2b4125714308d765e70baf dm vdo: use #define for NO_CHAPTER and NO_CHAPTER_INDEX_ENTRY
-5f770bd1f250217846e8c055ec1858a93bffd56b dm vdo message-stats: reformat to remove excessive newlines
-181547bbb81e8ed91e1df7eaa0303fcbc44caeff dm vdo string-utils: remove unnecessary includes
-d008f6eeab44798943a86f7a0b50f1b1a6192f38 dm vdo dedupe: fix various small nits
-571eff3969a58cce63b02acda4462aa0ca12e116 dm vdo: cleanup style for comments in structs
-dea93aab18341d6d96a49e840e5605cebca7e8ea dm vdo chapter_index: fix a few small nits
-5581a43d302fb860f88f649c1a48a1c65c566eb0 dm vdo delta-index: fix various small nits
-cae3816d9933dc8041e1f3e14f10df34707f0b06 dm vdo: tweak wait_for_completion_interruptible callers
-318a9ce59bfaf47d23b7e80eb8c2697281108a5f dm vdo logger: switch UDS_LOG_NOTICE to be alias for UDS_LOG_INFO
-1e00d57694bc2f050f73b632ce3822fe28af63d2 dm vdo logger: update logging to start with "device-mapper: vdo"
-e685fa827c538c3035afd2aee841c044309a6e86 dm vdo: move indexer files into sub-directory
-5b85590056f8b0d4b899e9d3822c6eca981abfae dm vdo: fold thread-cond-var.c into uds-threads
-ed67c91ebae31089c273027b862c87dd5bafebc6 dm vdo: rename uds-threads.[ch] to thread-utils.[ch]
-dc1bca550701ebf1cbf06bf9086ab83829896b5d dm vdo thread-utils: eliminate uds_*_semaphore interfaces
-e367bc659821d802201b5bfa594ba523fc06f6aa dm vdo thread-utils: push 'barrier' down to indexer's sparse-cache
-5da00cc83b1c420789fa88bbad086f85f044e1c5 dm vdo indexer sparse-cache: cleanup threads_barrier code
-0706d4b6a95ee1c55cf38628c0a7c7bffa8706a4 dm vdo thread-utils: further cleanup of thread functions
-e8e16de05b19fd3130c60eac729d819bcc9b896e dm vdo indexer: rename uds.h to indexer.h
-60bc8cb18b5b6abaefaa619ef8f5a81f775d7472 dm vdo thread-utils: remove all uds_*_mutex wrappers
-297443734a81d3f9f211f3b148c025814044049c dm vdo thread-utils: push uds_*_cond interface down to indexer
-63fe8d09401f4a4f51c2806f6523daeb0bd88070 dm vdo thread-utils: cleanup included headers
-4c30e81611099856c2c3ac0ebc22fb14263052ef dm vdo thread-registry: rename all methods to reflect vdo-only use
-993f5ad757cb9d3fa43d703456860eb4f0704383 dm vdo memory-alloc: simplify allocations_allowed()
-7462a3ef8fc4a029a69d70d66020705889c6dd69 dm vdo thread-device: rename all methods to reflect vdo-only use
-6bca66a650d0a84dffd773ca1ac0a691aef328eb dm vdo: remove all sysfs interfaces
-1ba96866cc6fad9146b0b628ddb7b7c2cf19dc28 dm vdo: add 'log_level' module parameter
-26248f47f3b0264d3cf0cd13378ea6fcccaf1941 dm vdo slab-depot: delete unnecessary check in allocate_components
-c6fa7712f0dfd4d73ce90f6f62974ad90bb8330a dm vdo flush: initialize return to NULL in allocate_flush
-817b308b090fc750fc0b0aa3f0b71d5d30d7151b dm vdo indexer-volume: fix missing mutex_lock in process_entry
-c5a0654be4d259846b313ac850c9833f1e762404 dm vdo volume-index: fix an assert statement in start_restoring_volume_sub_index()
-26640da64ee8d44678a8cfddd38a8423e7af0143 dm vdo: include <asm/current.h> to resolve current being undeclared
-e3141c327acef4e24faff404a8c88e39a3844142 dm vdo block-map: rename page state name from "UDS_FREE" to "FREE"
-b6285412846d618f00d194d3703b2290c18a8c7c dm vdo memory-alloc: change from uds_ to vdo_ namespace
-4450012c39f81dee99b783785cf86318bf166a49 dm vdo memory-alloc: rename vdo_do_allocation to __vdo_do_allocation
-7a90afce84e4e3e20547fee0772d2338c0170f34 dm vdo memory-alloc: return VDO_SUCCESS on success
-86f9f4167258036ca897cd62ebd676b321ddb70b dm vdo: check for VDO_SUCCESS return value from memory-alloc functions
-8abe53f40e7426def7fbd8e2c0d5d57d3dcd783c dm vdo int-map: return VDO_SUCCESS on success
-555797d8a43e8a4d2251a98d3b28f866eb78e468 dm vdo thread-utils: return VDO_SUCCESS on vdo_create_thread success
-8144264361eaf33b2668fa9f2304ef305e7ea6cb dm vdo funnel-queue: change from uds_ to vdo_ namespace
-533f49bcbe0ce9be60797ba4683b8e9e98617a00 dm vdo: move funnel-requestqueue to dm-vdo/indexer/
-f039f872c842657fa53d5f74bde2b793a3c118ee dm-vdo funnel-workqueue: return VDO_SUCCESS from make_simple_work_queue
-99a1b51f91a9b49f02eaa0da7464bff67499bce6 dm vdo permassert: audit all of ASSERT to test for VDO_SUCCESS
-16ee863acc220c4cb9f4f3c7f1449c066cbeef03 dm vdo encodings: update some stale comments
-86727d98f86075e91c8a8c0c547513b1d25c8faa dm vdo target: eliminate inapropriate uses of UDS_SUCCESS
-958115d11d28762b4d35fb12b4181987b6ff906a dm vdo logger: remove log level to string conversion code
-82cbad98d1f9f5ccebdda6c1208a3bfeed12afd3 dm vdo logger: change from uds_ to vdo_ namespace
-5a75256887719526832934e5918414fe678c60f0 dm vdo string-utils: change from uds_ to vdo_ namespace
+0f299da55ac3d28bc9de23a84fae01a85c4e253a blk-mq: move blk_mq_attempt_bio_merge out blk_mq_get_new_requests
+337e89feb7c29043dacd851b6ac28542a9a8aacf blk-mq: introduce a blk_mq_peek_cached_request helper
+72e84e909eb5354e1e405c968dfdc4dcc23d41cc blk-mq: special case cached requests less
+c4e47bbb00dad9240f4c054859950e962042ecb8 block: move cgroup time handling code into blk.h
+08420cf70cfb32eed2a0abfeb5c54c5651bd0c99 block: add blk_time_get_ns() and blk_time_get() helpers
+da4c8c3d0975f031ef82d39927102e39fa6ddfac block: cache current nsec time in struct blk_plug
+06b23f92af87a84d70881b2ecaa72e00f7838264 block: update cached timestamp post schedule/preemption
+3bca7640b4c50621b94365a1746f4b86116fec56 blk-throttle: Eliminate redundant checks for data direction
+61c90765e131e63ead773b9b99167415e246a945 md: remove redundant check of 'mddev->sync_thread'
+faeaf210a559eb05bc1a294082d100d01c49a1e9 md: remove redundant md_wakeup_thread()
+9cfcf99e7ed613e6b3697e1c1034a24487ec3154 md: get rdev->mddev with READ_ONCE()
+570b9147deb6b07b955b55e06c714ca12a5f3e16 md: use RCU lock to protect traversal in md_spares_need_change()
+95b77082b790633129e318efde85a51571570395 md/linear: Get rid of md-linear.h
+83cbdaf61b1ab9cdaa0321eeea734bc70ca069c8 md/multipath: Remove md-multipath.h
+052618c71c66d5de5e9b6cbcbad26932d951919c block: rbd: make rbd_bus_type const
+e5de34db1e95ef549236f9a2630d396a41c208a2 s390/dasd: Simplify uid string generation
+9c386d0f6e04fee1b4161e49f8e9f5756bcab04c s390/dasd: Use sysfs_emit() over sprintf()
+8d7ac904c90be7a1ed1aafa34953c40270c30bd0 s390/dasd: Remove unnecessary errorstring generation
+4849494f05994f411c9cc0504843c6adefd1f2de s390/dasd: Move allocation error message to DBF
+32312cf229117b781bd02d93b0b11c8b47dfcc0a s390/dasd: Remove unused message logging macros
+0b3644b475e2564abe26a916af8447beb7c4966b s390/dasd: Use dev_err() over printk()
+4ba6366dbb03c2a58d0e7cbe140942bcf715006c s390/dasd: Remove %p format specifier from error messages
+c6c6c69df6598aacf3921f26f89b12d5e321ea83 s390/dasd: Remove PRINTK_HEADER and KMSG_COMPONENT definitions
+79ae56fc475869d636071f66d9e4ef2a3819eee6 s390/dasd: Use dev_*() for device log messages
+c9f5f3aa19c617fe85085b19abbf7a9a077336d0 block: extend bio caching to task context
+e516c3fc6c182736aec5418a73f15199640491e2 block: optimise in irq bio put caching
+48ff13a618b54aabc447659a9016068cf0cae322 block: Simplify the allocation of slab caches
+14509b748ff58df3f0980b1cd70ade0e4a805e99 null_blk: add configfs variable shared_tags
+1df0f512faa71f1e106f36529ceff52f48209e30 s390/dasd: Improve ERP error messages
+c3116e62ddeff79cae342147753ce596f01fcf06 s390/dasd: fix double module refcount decrement
+9105ce591b424771b1502ef9836ca7953c3e0af4 zonefs: pass GFP_KERNEL to blkdev_zone_mgmt() call
+218082010aceb40b5495ebc30028ede6e30ee755 dm: dm-zoned: guard blkdev_zone_mgmt with noio scope
+d9d556755f16f6af8d1d8ebac38b83a9263394c5 btrfs: zoned: call blkdev_zone_mgmt in nofs scope
+147ec1c60e3273d21ea1f212c6636f231d6d2771 f2fs: guard blkdev_zone_mgmt with nofs scope
+71f4ecdbb42addf82b01b734b122a02707fed521 block: remove gfp_flags from blkdev_zone_mgmt
+6b5c132a3f0d3b7c024ae98f0ace07c04d32cf73 block: refactor guard helpers
+60d21aac52e26531affdadb7543fe5b93f58b450 block: support PI at non-zero offset within metadata
+921e81db524d17db683cc29aed7ff02f06ea3f96 nvme: allow integrity when PI is not in first bytes
+6cf350658736681b9d6b0b6e58c5c76b235bb4c4 md: fix kmemleak of rdev->serial
+7789bf05529889a39bcf4cd17a68521de063b88b floppy: fix function pointer cast warnings
+fe0b1e9a73d60f01fdc391925be74e823af7c91d drbd: fix function cast warnings in state machine
+8c4955c069ea3b77dc63b55d13afa9341e894849 block: move max_{open,active}_zones to struct queue_limits
+b9947297d00b9c75b271db88165e39c0208bec2e block: refactor disk_update_readahead
+c490f226a0ea22639e81ac34edc884e238ea955a block: decouple blk_set_stacking_limits from blk_set_default_limits
+d690cb8ae14bd377d422b7905b6959c7e7a45b95 block: add an API to atomically update queue limits
+0327ca9d53bfbb0918867313049bba7046900f73 block: use queue_limits_commit_update in queue_max_sectors_store
+4f563a64732dabb2677c7d1232a8f714a18b41b3 block: add a max_user_discard_sectors queue limit
+ff956a3be95b45b2a823693a8c9db740939ca35e block: use queue_limits_commit_update in queue_discard_max_store
+ad751ba1f8d5d4f4f4b429b552a154e888524a93 block: pass a queue_limits argument to blk_alloc_queue
+9ac4dd8c47d533eb420af6a679e66ec74771125c block: pass a queue_limits argument to blk_mq_init_queue
+27e32cd23fed1ab88098897897dcb9ec2bdba4de block: pass a queue_limits argument to blk_mq_alloc_disk
+718628adfcfdc80466eb42cd9c615d1d5514f74c virtio_blk: split virtblk_probe
+8b837256560c783415b42748959900befcde2d00 virtio_blk: pass queue_limits to blk_mq_alloc_disk
+65bdd16f8c72bb2178f5e4db40305bef6c96b309 loop: cleanup loop_config_discard
+02aed4a1f2c355e41d82a8e9831031ca9e0eb45d loop: pass queue_limits to blk_mq_alloc_disk
+473516b361936cbc27d7728df649a5b3094b6170 loop: use the atomic queue limits update API
+d69591caec243811449d4e6571fbf460f06fb8f6 Merge tag 'md-6.9-20240216' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-6.9/block
+31edf4bbe0ba27fd03ac7d87eb2ee3d2a231af6d nbd: null check for nla_nest_start
+74fa8f9c553f7b5ccab7d103acae63cc2e080465 block: pass a queue_limits argument to blk_alloc_disk
+2cfe0104bc1b4a94f81e386f5ff11041f39c1882 nfblock: pass queue_limits to blk_mq_alloc_disk
+b5baaba4ce5c8a0e36b5232b16c0731e3eb0d939 brd: pass queue_limits to blk_mq_alloc_disk
+cc7f05c7ec0b26e1eda8ec7a99452032d08d305e n64cart: pass queue_limits to blk_mq_alloc_disk
+4190b3f291d9563a438bf32424a3f049442fc3a5 zram: pass queue_limits to blk_mq_alloc_disk
+b3f0846e720ee59291e3c5235f8a46e70dbc652c bcache: pass queue_limits to blk_mq_alloc_disk
+77c059222c31b0480c61964f361b28a4ce111e52 btt: pass queue_limits to blk_mq_alloc_disk
+c3d9c3031e18f145d8a12026d4d704125fe901ac pmem: pass queue_limits to blk_mq_alloc_disk
+af190c53c995bf7c742c3387f6537534f8b92322 dcssblk: pass queue_limits to blk_mq_alloc_disk
+5d6789ce33a97718564d0b8d2ea34e03d650e624 ubd: pass queue_limits to blk_mq_alloc_disk
+9999200f583107f7e244e50935d480433b7d8a3b aoe: pass queue_limits to blk_mq_alloc_disk
+48bc8c7ba6fb39a4325b07f3abe8fe5a77361c7e floppy: pass queue_limits to blk_mq_alloc_disk
+68c3135fb5fbd85c7b2ca851184f30f54433a9d3 mtip: pass queue_limits to blk_mq_alloc_disk
+9a0d4970288de29191fa45bf0ab4d8398bfa3a01 nbd: pass queue_limits to blk_mq_alloc_disk
+a7f18b74dbe171625afc2751942a92f71a4dd4ba ps3disk: pass queue_limits to blk_mq_alloc_disk
+24f30b770c0f450346f1c99120427b2e938cdfd0 rbd: pass queue_limits to blk_mq_alloc_disk
+e6ed9892f10d7195d621ede1cedc41421f1ca607 rnbd-clt: pass queue_limits to blk_mq_alloc_disk
+d0fa9a8b0af71b69cf3dec10feaebe19d55a72cf sunvdc: pass queue_limits to blk_mq_alloc_disk
+a339cf2bbfbe6e16ead79276d608912d36065884 gdrom: pass queue_limits to blk_mq_alloc_disk
+f93b43ae3feafedc5777099ca1a0e05352b92671 ms_block: pass queue_limits to blk_mq_alloc_disk
+9f633ecd43046659e3345bc4a4404e1d2ba67463 mspro_block: pass queue_limits to blk_mq_alloc_disk
+3ec44e52bfce60f6da65165bc86eb382462d173d mtd_blkdevs: pass queue_limits to blk_mq_alloc_disk
+21b700c0812b6aa8f794c36b971772b2b08dab9a ubiblock: pass queue_limits to blk_mq_alloc_disk
+066be10aef5a7ddd8ad537db7a5145c6d79d4ea2 scm_blk: pass queue_limits to blk_mq_alloc_disk
+494ea040bcb5f4cc78c37dc53c7915752c24f739 ublk: pass queue_limits to blk_mq_alloc_disk
+616f8766179277324393f7b77e07f14cb3503825 mmc: pass queue_limits to blk_mq_alloc_disk
+8b631f9cf0b84ac59cd4f0c6dcd2d0cb80dd8a49 null_blk: remove the bio based I/O path
+e32b0855367b65095823b4427aad3da7c6a771a6 null_blk: initialize the tag_set timeout in null_init_tag_set
+72ca28765fc461c1aeb87372359ec0cfd609448b null_blk: refactor tag_set setup
+0a39e550c18244cdb9c4e671266a2a1d682d15c2 null_blk: remove null_gendisk_register
+e440626b1caf3767eda2d78610dfdc0ae7fd5238 null_blk: pass queue_limits to blk_mq_alloc_disk
+c88f5e553fe38b2ffc4c33d08654e5281b297677 dm-integrity: recheck the integrity tag after a failure
+9177f3c0dea6143d05cac1bbd28668fd0e216d11 dm-verity: recheck the hash after a failure
+50c70240097ce41fe6bce6478b80478281e4d0f7 dm-crypt: don't modify the data when using authenticated encryption
+42e15d12070b4ff9af2b980f1b65774c2dab0507 dm-crypt: recheck the integrity tag after a failure
+787f1b2800464aa277236a66eb3c279535edd460 dm-verity, dm-crypt: align "struct bvec_iter" correctly
+0e0c50e85a364bb7f1c52c84affe7f9e88c57da7 dm-crypt, dm-integrity, dm-verity: bump target version
+47c00dcdd53bb118b03a465c75f70abf09024812 dm thin: add braces around conditional code that spans lines
+b9d3ac48a855ed295ce660f73d3b6ba6f91fae42 dm crypt: remove redundant state settings after waking up
+f932a959682fe31ac01e3c5848a45fafcb33d785 dm io: Support IO priority
+4b75443f2c523924b2e879aecb32394e18fb326f dm bufio: Support IO priority
+05e495ed0cdb3d6286a04e47c1bebecfe9831ff9 dm verity: Fix IO priority lost when reading FEC and hash
+20487cc6bd98b9ea2f91d32ce4beb61a6f63cf0c dm crypt: Fix IO priority lost when queuing write bios
+8add9acf6d076a21dfc623cc50d46bf3258c7d16 dm verity: set DM_TARGET_SINGLETON feature flag
+5ab84adc69f7ff16bf753cef36cfae626e68d6b7 dm ioctl: update DM_DRIVER_EMAIL to new dm-devel mailing list
+66fa9c85c0f13e2f287267393aa1b2681c28c151 dm: update relevant MODULE_AUTHOR entries to latest dm-devel mailing list
+dddfa4eec58a6fd6f1ce6852726a3e95044c2be6 Merge branch 'dm-6.8' into for-next
+1221afbcf7070a845218c1fe52ec9dd33056281b Merge branch 'dm-6.9' into for-next
+24e394ce67cc6b9f14950807e745043027dcef27 Merge branch 'dm-vdo-wip' into for-next
 
---===============3951765682569115456==--
+--===============3419003104818630868==--
