@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jmondi/linux
-Date: Tue, 20 Feb 2024 08:02:38 -0000
-Message-Id: <170841615805.32470.2557170674443215327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Tue, 20 Feb 2024 08:08:39 -0000
+Message-Id: <170841651984.5207.12500469288963386501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jmondi/linux
-user: jmondi
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/pispbe/media-staging/be-upstream
-    old: 728775b95062efdecedad4df4013a8db5382d470
-    new: a6ddaac8898da04a9e3f8515894bcbd3625a4003
+  - ref: refs/heads/master
+    old: b29704cd448aaa455dba4e656fc0f0d3c686df3f
+    new: e98cef6f3f8cd6f8bfb26d147b2c209297453cca
     log: |
-         c87f0e2bbf257cd0c6c822719248fb5d560c882c media: raspberrypi: Add support for PiSP BE
-         fcbf3ce0d8012f6a37ed938930330bbc326ac8bb media: admin-guide: Document the Raspberry Pi PiSP BE
-         a6ddaac8898da04a9e3f8515894bcbd3625a4003 be: Implement job cleanup on buffer error
+         607abb818a5249292f08c0e8602a5a62d12e42a5 configure: tweak the module_directory help string
+         e98cef6f3f8cd6f8bfb26d147b2c209297453cca make: install/uninstall tools symlinks to kmod
          
