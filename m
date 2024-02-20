@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2989578309579634307=="
+Content-Type: multipart/mixed; boundary="===============2306161529906250574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 20 Feb 2024 16:43:57 -0000
-Message-Id: <170844743784.20841.1428222036428727257@gitolite.kernel.org>
+Date: Tue, 20 Feb 2024 16:44:31 -0000
+Message-Id: <170844747131.21160.2555026944430578047@gitolite.kernel.org>
 
---===============2989578309579634307==
+--===============2306161529906250574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 166c2c8a6a4dc2e4ceba9e10cfe81c3e469e3210
-    new: 23f9c2c066e7e5052406fb8f04a115d3d0260b22
-    log: revlist-166c2c8a6a4d-23f9c2c066e7.txt
+  - ref: refs/heads/dev-queue
+    old: f4a5f899fab0ef2aac2a6345c7fa6d061c85f772
+    new: 6beb0b45d5ef92a683042a3fbc69b291fc9a6840
+    log: revlist-f4a5f899fab0-6beb0b45d5ef.txt
 
---===============2989578309579634307==
+--===============2306161529906250574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-166c2c8a6a4d-23f9c2c066e7.txt
+Content-Disposition: attachment; filename=revlist-f4a5f899fab0-6beb0b45d5ef.txt
 
 97dde84026339e4b4af9a6301f825d1828d7874b net: stmmac: Fix incorrect dereference in interrupt handlers
 081a0e3b0d4c061419d3f4679dec9f68725b17e4 ipv4: properly combine dev_base_seq and ipv4.dev_addr_genid
@@ -54,5 +54,18 @@ cd65c48d66920457129584553f217005d09b1edb selftests: bonding: set active slave to
 def689fc26b9a9622d2e2cb0c4933dd3b1c8071c devlink: fix possible use-after-free and memory leaks in devlink_init()
 a7d6027790acea24446ddd6632d394096c0f4667 arp: Prevent overflow in arp_req_get().
 23f9c2c066e7e5052406fb8f04a115d3d0260b22 docs: netdev: update the link to the CI repo
+11d54bf5dfeb7911f04e2ac8f9f0a67908fdf2f8 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+0727558ab832c1954621068994c3c449763cde2c iavf: fix reset in early states
+fd0a5e34a2ddcca78c701f11be30631890a77add iavf: allow an early reset event to be processed
+0b2af62cd8f7c1a551946653fc4e26e8e86c929b ice: fix connection state of DPLL and out pin
+ed4dbe3a974466bf661864f30ff02afa4c49c244 ice: virtchnl: stop pretending to support RSS over AQ or registers
+b74fdfa84ea74d4fd67263ce979136464638ac28 ice: Refactor FW data type and fix bitmap casting issue
+6dbb23eac07f1f8fd745d3343b011a61e9003531 idpf: disable local BH when scheduling napi for marker packets
+9e232e1e3facb5c7e629020e352dc9e478dfeb32 ice: fix dpll input pin phase_adjust value updates
+e1b9fb1167d7e3d10adf64a51055cbe49fc364d1 ice: fix dpll and dpll_pin data access on PF reset
+e2e18769305ad619dd98d63e1e46aef3b3974267 ice: fix dpll periodic work data updates on PF reset
+69701092337a26e55119d994ea9ead002467e5a8 ice: fix pin phase adjust updates on PF reset
+509ce2d0b748b47c72857c5fc0a8fa28d703f8e4 igb: extend PTP timestamp adjustments to i211
+6beb0b45d5ef92a683042a3fbc69b291fc9a6840 ice: Fix ASSERT_RTNL() warning during certain scenarios
 
---===============2989578309579634307==--
+--===============2306161529906250574==--
