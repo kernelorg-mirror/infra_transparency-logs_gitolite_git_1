@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 20 Feb 2024 09:42:32 -0000
-Message-Id: <170842215273.23685.3261648866556999126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 20 Feb 2024 09:53:45 -0000
+Message-Id: <170842282589.30843.9320150987364398354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 5636f6a6c935381a597213913ed82436a98d90a9
-    new: 1c14996da1e132830bcc024c2ca7430fe3c2ac28
+  - ref: refs/heads/main
+    old: def689fc26b9a9622d2e2cb0c4933dd3b1c8071c
+    new: a7d6027790acea24446ddd6632d394096c0f4667
     log: |
-         1c14996da1e132830bcc024c2ca7430fe3c2ac28 lastlog2: Don't print space if Service column is not printed
+         a7d6027790acea24446ddd6632d394096c0f4667 arp: Prevent overflow in arp_req_get().
          
