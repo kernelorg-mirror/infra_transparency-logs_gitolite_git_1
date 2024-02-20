@@ -1,59 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2565294509073546017=="
+Content-Type: multipart/mixed; boundary="===============3064643479540394919=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 20 Feb 2024 14:17:02 -0000
-Message-Id: <170843862275.29169.2681178888023462533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Tue, 20 Feb 2024 14:17:26 -0000
+Message-Id: <170843864621.29391.12572639314489746598@gitolite.kernel.org>
 
---===============2565294509073546017==
+--===============3064643479540394919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/master
-    old: 7d84494cf872455e6955d78d521c84ca9a236a03
-    new: 8e6df488109d1a8c344a30516897860472e8c599
-    log: |
-         20bb46458f4eb960562b415068931403a1e22db8 fix up queue-6.1/modpost-don-t-let-driver-s-reference-.exit.patch
-         ee462f091066f463b449591746ff241371fc8929 drop exit-wait_task... patch
-         10bc53f45e43a0fed1c32b601added59644e30fc fix up queue-6.1/modpost-don-t-let-driver-s-reference-.exit.patch
-         8e6df488109d1a8c344a30516897860472e8c599 add dep-of tags
-         
+  - ref: refs/heads/for-next
+    old: cd3b4e469604ed89edaa1cd040218dcd097cf93a
+    new: cba7aa7faf8624b2e9c865cc125c9c1949775f0d
+    log: revlist-cd3b4e469604-cba7aa7faf86.txt
 
---===============2565294509073546017==
+--===============3064643479540394919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-cd3b4e469604-cba7aa7faf86.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708438618 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1708438613-e7fe11a6b7e839cde27ad92bf835129e22f2bf47
+d065bdb4d15957fef3e115c65ab3ac34196fd7e3 s390/ap: explicitly include ultravisor header
+fe861b0c8d0693cb65fd45b7e8c756937b5182ae s390/pai: save PAI counter value page in event structure
+82cb9b618531109824eb8e25b6a3da28d33178ac s390/pai: simplify event start function for perf stat
+29f6fe17f3eb14d490ba27f8b9d0cbd766bd9158 s390/pai: adjust whitespace indentation
+0d48566d4b58946c8e1b0baac0347616060a81c9 s390/pci: rename lock member in struct zpci_dev
+bcb5d6c769039c8358a2359e7c3ea5d97ce93108 s390/pci: introduce lock to synchronize state of zpci_dev's
+6ee600bfbe0f818ffb7748d99e9b0c89d0d9f02a s390/pci: remove hotplug slot when releasing the device
+d0c8fd21006777b3952263973237fcd82e049ec4 s390/pci: fix three typos in comments
+9ea30fd166e9b869546059f714beab78cb150b11 s390/boot: add 'alloc' to info.bin .vmlinux.info section flags
+8192a1b3807510d0ed5be1f8988c08f8d41cced9 s390/vdso64: filter out munaligned-symbols flag for vdso
+55dc65b46023540d5136dcd1f3076661f850dd99 s390: add relocs tool
+778666df60f0d96f215e33e27448de47a2207fb3 s390: compile relocatable kernel without -fPIE
+71172443160bf3b0057dfe7fd9179cc24794741a Merge branch 'fixes' into for-next
+cba7aa7faf8624b2e9c865cc125c9c1949775f0d Merge branch 'features' into for-next
 
-7d84494cf872455e6955d78d521c84ca9a236a03 8e6df488109d1a8c344a30516897860472e8c599 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXUtFobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yV4P/RKdv6s1gjbSjdZtua3a
-Z61ndEDDMo6mgweRZdqFOSeWT66ThsmTQkTER9v6OFQwOd8mj3+MwnsFaMvOyi3a
-PLX3m9ERo+X8zbF2oY/VlByB9MLThis15pK7X6oxlfVzfFQaGUXk0NB67K1Ue82z
-k0HJbjyOHB9j+cu6UZH2xi8cTbluAJ9pclS/gxxwEpDbQB6CBekQekpbfwc6Nk8L
-4PC/jRF3UFMGI6VGlP2n/bXou+z8w5I4m0UBOAAiXY24wE8GDOfUsCN5Pn3AJtN3
-6eUrVlQGFoWtjZ2TfDG8dWc2+IpPSaMfQH4oW0D/7g3EUQcsFjhxtsstetb48EVo
-SpYr24AXCuBLv4FfX7X7wHWzG+EJVU12SxdxzthItmKotvwQU+3XfDKCT9/nzi6y
-d+n+QZU+yfRfjITmLskFTXKq2ZM6cnE1an/cW3/HjVE/X4p29eOAqLeFKxuOvuqv
-PF3h07eGXmUNiB00AUWQYEr9K21NBbwnekCKKWSD65fqNCJvD5F5+q9wzB0HHGFF
-BLsq+flsimnsQSEFDW4JKntHlHFSyVfmMWuPWCEwAeXTrVKLFuIw4VH4hOOhysAs
-EI+I8GhmreaWnnTa/xMV8ynL5TmfTcutnbHiT7XXuSpF9sUvOFShq/pOALdkVTTC
-QY+OYpyQVSrCdgerts0e4nat
-=9LeF
------END PGP SIGNATURE-----
-
---===============2565294509073546017==--
+--===============3064643479540394919==--
