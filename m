@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1216046167929596336=="
+Content-Type: multipart/mixed; boundary="===============7112931244455113973=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 20 Feb 2024 17:44:34 -0000
-Message-Id: <170845107422.757.3296679675222971577@gitolite.kernel.org>
+Date: Tue, 20 Feb 2024 17:45:02 -0000
+Message-Id: <170845110210.1062.1891672312848320838@gitolite.kernel.org>
 
---===============1216046167929596336==
+--===============7112931244455113973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 71b605d32017e5b8d257db7344bc2f8e8fcc973e
     new: 4934446297c292611d3b6cd388efb215f2ba5698
     log: revlist-71b605d32017-4934446297c2.txt
 
---===============1216046167929596336==
+--===============7112931244455113973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ bb18fc7a521b41bfee201643f65d7b74bc6b901f Merge branch 'abstract-page-from-net-st
 219eee9c0d16f1b754a8b85275854ab17df0850a net: skbuff: add overflow debug check to pull/push helpers
 4934446297c292611d3b6cd388efb215f2ba5698 Merge tag 'linux-can-next-for-6.9-20240220' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
 
---===============1216046167929596336==--
+--===============7112931244455113973==--
