@@ -1,22 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-gpio
-Date: Tue, 20 Feb 2024 08:35:48 -0000
-Message-Id: <170841814890.24735.4218138560107598807@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1772097599398677030=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
+Date: Tue, 20 Feb 2024 08:44:47 -0000
+Message-Id: <170841868701.30817.16204129848964477907@gitolite.kernel.org>
+
+--===============1772097599398677030==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-gpio
-user: linusw
+repo: pub/scm/linux/kernel/git/mkl/linux-can-next
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/b4/descriptors-regulators
-    old: 70f1ac1c0e32e3d7fb546eac70f113bd57b659fa
-    new: 6c9bd621a7d8762a434ecbe20597d2c0b291f320
-    log: |
-         35b55c96434b9cf7fe85257f7fcdc8cfb8e1158d regulator: da9055: Fully convert to GPIO descriptors
-         8e68fb4766ae86070e66818caf351df4c23ce836 regulator: lp8788-buck: Fully convert to GPIO descriptors
-         11f2a0304762ce6be385eba509f1f8dafa48a76e regulator: max8997: Convert to GPIO descriptors
-         6c9bd621a7d8762a434ecbe20597d2c0b291f320 regulator: max8998: Convert to GPIO descriptors
-         
+  - ref: refs/tags/linux-can-next-for-6.9-20240220
+    old: 0000000000000000000000000000000000000000
+    new: b544a3e28133e0ed8ce982c0f682662c7afa1885
+
+--===============1772097599398677030==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1708418683 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
+nonce 1708418677-2a22892f88107c27aa301d89daf5a25fc798dbef
+
+0000000000000000000000000000000000000000 b544a3e28133e0ed8ce982c0f682662c7afa1885 refs/tags/linux-can-next-for-6.9-20240220
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmXUZnsTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAoOKI+ei28b7evB/9xrCJlAOcbkwJFNo1494R173KxiAy8
+NGjrCbmKOSglQljDirgnUHuL0Q0aKRQ9SJ8u2FliwMSR8bOX8kTnQ/MedI3Q8BOP
+EK0p++9iRiMmMrUC1AQh9V38GPdqm2PAUQUjXnlaWgV5G6tOmL68PLf7miic8nuv
+a3mNbWKa+iMnn0y756pAYi8IkopymauTMrQC81NEcRTRXVyMYGPMSNFyiXhWU2Mj
+PM3na6/5n4ma7FhHesJWpTE5B0xKlSIcQDzDuH4RalAix3KCxA9MTVmcYbrPmnGS
+A65JH7lykw5cUBbO8sOtBt+8qhwDpb4y4BibT/gltYpF5vCCsD2UdrUt
+=55O5
+-----END PGP SIGNATURE-----
+
+--===============1772097599398677030==--
