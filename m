@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4283780084321500312=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 20 Feb 2024 18:28:23 -0000
-Message-Id: <170845370334.1323.2744382340144016268@gitolite.kernel.org>
-
---===============4283780084321500312==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 20 Feb 2024 18:46:53 -0000
+Message-Id: <170845481327.15461.17959589705021023484@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: fb4f963f90a36ab804a02c2d11807daf18119d1e
-    new: 847fe571c2fae82e17fdd248252855a52752cf67
+  - ref: refs/heads/dm-6.8
+    old: d4cfabc0536d74c43be6ddabab9c00a8835ba4dd
+    new: 0e0c50e85a364bb7f1c52c84affe7f9e88c57da7
     log: |
-         847fe571c2fae82e17fdd248252855a52752cf67 cve/published/2023/CVE-2023-52435.json: update json descriptor
+         c88f5e553fe38b2ffc4c33d08654e5281b297677 dm-integrity: recheck the integrity tag after a failure
+         9177f3c0dea6143d05cac1bbd28668fd0e216d11 dm-verity: recheck the hash after a failure
+         50c70240097ce41fe6bce6478b80478281e4d0f7 dm-crypt: don't modify the data when using authenticated encryption
+         42e15d12070b4ff9af2b980f1b65774c2dab0507 dm-crypt: recheck the integrity tag after a failure
+         787f1b2800464aa277236a66eb3c279535edd460 dm-verity, dm-crypt: align "struct bvec_iter" correctly
+         0e0c50e85a364bb7f1c52c84affe7f9e88c57da7 dm-crypt, dm-integrity, dm-verity: bump target version
          
-
---===============4283780084321500312==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708453702 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1708453702-d1974323506109a5067541b2206069ec7f0456eb
-
-fb4f963f90a36ab804a02c2d11807daf18119d1e 847fe571c2fae82e17fdd248252855a52752cf67 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXU70cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TbcP9RLZNFoGObnMomcZSbwg
-uuLowBAs2fUY7vU2obZkoEx1xU89deTkILmEIHqDpeQFV5+NOt4Fg4VF0rNmDv4c
-T8V7MuyvfHbOcrk0rRQ9xZ9OMEDfm8dFMC3TFHjMM14jnQZCvlvEbumGcIjR98FT
-RAXPbVUBPb5iw2JyiukQ+HaqQt6v3FxOQ+vva5joc79WIfkV6m6Y/LIGZgygcvzZ
-jyuIMfkDkT13YdTV0D1Y1s0fnxstUTgxZAEGf/FS5vFx8Wr1ct2oilvRCW/2z4n0
-6Cyk3w4/58LYKjAzZTNozq4566MAyJ/+RmhSXCgtNY/rV2UIvXPd1nK4slHJ5Zm3
-rM0j3z785izXdu0luqr/fi5ft6/SH9AXemWYuq+u1yK6GQA57bZK7v5cf/zZjfR/
-uanqwZubcJm3khFeRrcU4AUauE6pkZEoAUU7sNv5eIYWwdEpMmTiwEZklwDb7JAx
-fwvAvRV0iUb4GS65Nv+ez7bdhujRvkFUh0RX6vEMHxCy+BEFyGswmD8rV0ok5z/x
-WqwZf3QiB7vdFt3asqWbMS2f1swnb24PtEylssrJyTF24oxAPLGVCUiK8c2CjVgS
-anawyj7vsetmqM2pAT82oCkNfurfcgL/XXk8wZPtAf2I3KLSHL5pgaHcD+s83t9u
-gLv6pV0SjiIhebctqmyl0IM=
-=nBr9
------END PGP SIGNATURE-----
-
---===============4283780084321500312==--
