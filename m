@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Tue, 20 Feb 2024 13:54:38 -0000
-Message-Id: <170843727862.11398.2239896777686091831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Tue, 20 Feb 2024 13:56:06 -0000
+Message-Id: <170843736661.13579.7667600345989529153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/for-next/fixes
-    old: 2813926261e436d33bc74486b51cce60b76edf78
-    new: d7b77a0d565b048cb0808fa8a4fb031352b22a01
+  - ref: refs/heads/kbuild
+    old: 2c744f6889e43ba9fb55cfc6706d56471fa2e8ff
+    new: d2bb08ef44005c468d40b149c4ca92725788dfc3
     log: |
-         802379b8f9e169293e9ba7089e5f1a6340e2e7a3 perf: CXL: fix CPMU filter value mask length
-         a6b3eb304a82c29665a0ab947cfe276f6d29f523 Revert "arm64: jump_label: use constraints "Si" instead of "i""
-         9533864816fb4a6207c63b7a98396351ce1a9fae arm64/sme: Restore SME registers on exit from suspend
-         d7b77a0d565b048cb0808fa8a4fb031352b22a01 arm64/sme: Restore SMCR_EL1.EZT0 on exit from suspend
+         7c4aa901bd9d7e95be95a5c888d026b3214bae05 kconfig: move strhash() to util.c as a global function
+         980c9e198f1c5563380bed2a2672e592edf9efaa kconfig: convert linked list of files to hash table
+         7d5f52a4334c5227408b14c2e76d8840aa26f132 kconfig: do not imply the type of choice value
+         cc25cfc563adc48c84f1eec6432b369bcab73ca6 kconfig: print recursive dependency errors in the parsed order
+         91b69454f93d1c905f3a56bb39856db9a220c791 kconfig: use generic macros to implement symbol hashtable
+         cd14b01846612f3f3277e97bfbecba4c8cee5ce9 treewide: replace or remove redundant def_bool in Kconfig files
+         6b1c2a19cb30563c11c6d2dd0b6fc7af6a8e4455 hexagon: select FRAME_POINTER instead of redefining it
+         ec923eaa1d3ff7a544eeb0fa282daeaeaa911cbf hexagon: select GENERIC_IRQ_PROBE instead of redefining it
+         0f3f21977f163f3389c701af593a0c03654d808f kconfig: lxdialog: fix cursor render in checklist
+         d2bb08ef44005c468d40b149c4ca92725788dfc3 kbuild: remove EXPERT and !COMPILE_TEST guarding from TRIM_UNUSED_KSYMS
          
