@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 20 Feb 2024 01:35:57 -0000
-Message-Id: <170839295708.12150.8694309812058536751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 20 Feb 2024 01:50:04 -0000
+Message-Id: <170839380457.23291.17383927859805748581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 28fc1a05fe9d006a16fe377c100078e30e37d243
-    new: 72b372cf7a4890128980cfa2828aeb22b5ae1e56
+  - ref: refs/heads/io_uring-send-queue
+    old: afd37f1e658eabc56986a5afdab3821cfdd88ab9
+    new: 5f7b633dbb888de6c3a1a202d2a6e6e881804545
     log: |
-         3aa341fc39b823dd5e13b78df727813709daa1c3 man*/: tfix
-         8de121d7446dfbec2e0f70054711693ddef49bf9 getaddrinfo.3: tfix
-         2fe73d74a661e7a9122482b840150e6ef867cdd6 close_range.2: Add _GNU_SOURCE and <unistd.h> to SYNOPSIS
-         72b372cf7a4890128980cfa2828aeb22b5ae1e56 GNUmakefile: help: Document 'distcheck'
+         5f7b633dbb888de6c3a1a202d2a6e6e881804545 io_uring/net: WIP multishot send
          
