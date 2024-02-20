@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8894471495635551454=="
+Content-Type: multipart/mixed; boundary="===============2813630578565482720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Tue, 20 Feb 2024 10:09:26 -0000
-Message-Id: <170842376654.10594.1442444554198387594@gitolite.kernel.org>
+Date: Tue, 20 Feb 2024 10:09:45 -0000
+Message-Id: <170842378517.10801.17299604050778512519@gitolite.kernel.org>
 
---===============8894471495635551454==
+--===============2813630578565482720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: aed5ed595960c6d301dcd4ed31aeaa7a8054c0c6
+  - ref: refs/heads/devfreq-fixes
+    old: b85ea95d086471afb4ad062012a4d73cd328fa86
     new: b401b621758e46812da61fa58a67c3fd8d91de0d
-    log: revlist-aed5ed595960-b401b621758e.txt
+    log: revlist-b85ea95d0864-b401b621758e.txt
 
---===============8894471495635551454==
+--===============2813630578565482720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aed5ed595960-b401b621758e.txt
+Content-Disposition: attachment; filename=revlist-b85ea95d0864-b401b621758e.txt
 
 cc509b6a47e7c8998d9e41c273191299d5d9d631 usb: chipidea: core: handle power lost in workqueue
 f17c34ffc792bbb520e4b61baa16b6cfc7d44b13 USB: hub: check for alternate port before enabling A_ALT_HNP_SUPPORT
@@ -1051,4 +1051,4 @@ ddac3d8b8a48dda6447a7f7a15f8124020a5add2 Merge tag 'x86_urgent_for_v6.8_rc5' of 
 6c160f16be5df1f66f6afe186c961ad446d7f94b Merge tag 'kbuild-fixes-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 b401b621758e46812da61fa58a67c3fd8d91de0d Linux 6.8-rc5
 
---===============8894471495635551454==--
+--===============2813630578565482720==--
