@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 20 Feb 2024 01:50:19 -0000
-Message-Id: <170839381911.23506.9282195359200140143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 20 Feb 2024 02:47:57 -0000
+Message-Id: <170839727774.31328.7969363785058820969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: cdae14661160ff9e0fe612bacecde3d7e4747c3c
-    new: a5bd20460a7a5fe39bc291a46822808c22b25cb7
+    old: 0e69e6d0fbc16586b8b8b73e814e5f3638e3a65e
+    new: b2cfd49832130391ae428b79189d854e795494f7
     log: |
-         3a2ad0e2191fba1fcbd71cb3499fb5d55df3864b todo: Update
-         93128739bfc5be94b8af61f818d0f101ecc170dd build_each_commit: Fix missed 'then' keyword
-         a5bd20460a7a5fe39bc291a46822808c22b25cb7 todo: Update
+         ba3b4ccec697fada8982778d1f774fbd00929183 foo
+         128c0f270f64e32b840cfcf6443f0eaaa4e1b425 foo
+         b2cfd49832130391ae428b79189d854e795494f7 foo
          
