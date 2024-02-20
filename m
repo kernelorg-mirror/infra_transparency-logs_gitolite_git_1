@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3413527948060410753=="
+Content-Type: multipart/mixed; boundary="===============3951765682569115456=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 20 Feb 2024 18:47:15 -0000
-Message-Id: <170845483570.15841.6840155398343025484@gitolite.kernel.org>
+Date: Tue, 20 Feb 2024 18:47:26 -0000
+Message-Id: <170845484635.15984.16366277055191233253@gitolite.kernel.org>
 
---===============3413527948060410753==
+--===============3951765682569115456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-vdo-wip
+  - ref: refs/heads/for-next
     old: 4162ae412cbf63c038fc2ace8cb6214c0790d6d9
     new: 5a75256887719526832934e5918414fe678c60f0
     log: revlist-4162ae412cbf-5a7525688771.txt
 
---===============3413527948060410753==
+--===============3951765682569115456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -153,4 +153,4 @@ f039f872c842657fa53d5f74bde2b793a3c118ee dm-vdo funnel-workqueue: return VDO_SUC
 82cbad98d1f9f5ccebdda6c1208a3bfeed12afd3 dm vdo logger: change from uds_ to vdo_ namespace
 5a75256887719526832934e5918414fe678c60f0 dm vdo string-utils: change from uds_ to vdo_ namespace
 
---===============3413527948060410753==--
+--===============3951765682569115456==--
