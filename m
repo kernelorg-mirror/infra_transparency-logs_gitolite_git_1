@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 20 Feb 2024 02:47:57 -0000
-Message-Id: <170839727774.31328.7969363785058820969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 20 Feb 2024 02:50:03 -0000
+Message-Id: <170839740362.566.13176631429852373888@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 0e69e6d0fbc16586b8b8b73e814e5f3638e3a65e
-    new: b2cfd49832130391ae428b79189d854e795494f7
+  - ref: refs/heads/io_uring-send-queue
+    old: 5f7b633dbb888de6c3a1a202d2a6e6e881804545
+    new: d7188d6e4fd03954c909031754157a80bac88203
     log: |
-         ba3b4ccec697fada8982778d1f774fbd00929183 foo
-         128c0f270f64e32b840cfcf6443f0eaaa4e1b425 foo
-         b2cfd49832130391ae428b79189d854e795494f7 foo
+         234232760bc417c0049728ba23f160ff187aae83 io_uring/net: WIP multishot send
+         d7188d6e4fd03954c909031754157a80bac88203 io_uring/net: WIP multishot sendmsg
          
