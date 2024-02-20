@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 20 Feb 2024 08:10:50 -0000
-Message-Id: <170841665027.7641.14472701431689137407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Tue, 20 Feb 2024 08:11:33 -0000
+Message-Id: <170841669352.7997.36030086850375716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/vfs.pidfd
-    old: b96784a5f82406f559841bdc14652524ecc5f5cb
-    new: b0df368dc953d04250bc76ab669491b0940c41ed
+  - ref: refs/heads/edac-amd-atl
+    old: c2064388aa8765abd7c2c5785e7bfe266a2f6cd3
+    new: 4b7b36e49f3bb95898d1871ae80f53dfd75d5b03
     log: |
-         6f188d853cb13218eb4349605b6cc212af796d16 pidfd: add pidfs
-         122f7620625a4637d6a85f626a6dd795c2adfd3a libfs: add path_from_stashed()
-         7ff09a4d26451bc4a7ec06a506e0ad741d89b6a0 nsfs: convert to path_from_stashed() helper
-         93c886eb45dfb76a6f785da0cf69f22216c21bfe pidfdfs: convert to path_from_stashed() helper
-         b0df368dc953d04250bc76ab669491b0940c41ed libfs: improve path_from_stashed() helper
+         0e4fd816b08e85484e4dbe06e91466c85273f8e0 Documentation: Move RAS section to admin-guide
+         3b566b30b41401888ee0e8eb904a1e7a6693794b RAS/AMD/ATL: Add MI300 row retirement support
+         4b7b36e49f3bb95898d1871ae80f53dfd75d5b03 RAS: Introduce a FRU memory poison manager
          
