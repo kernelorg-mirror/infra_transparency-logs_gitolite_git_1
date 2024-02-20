@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6865621893678846639=="
+Content-Type: multipart/mixed; boundary="===============3413527948060410753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 20 Feb 2024 18:47:08 -0000
-Message-Id: <170845482891.15697.5153201829771215873@gitolite.kernel.org>
+Date: Tue, 20 Feb 2024 18:47:15 -0000
+Message-Id: <170845483570.15841.6840155398343025484@gitolite.kernel.org>
 
---===============6865621893678846639==
+--===============3413527948060410753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-vdo
-    old: 1ec940edd7c1be841314f7e98b6af90cc38e0a35
-    new: 1e00d57694bc2f050f73b632ce3822fe28af63d2
-    log: revlist-1ec940edd7c1-1e00d57694bc.txt
+  - ref: refs/heads/dm-vdo-wip
+    old: 4162ae412cbf63c038fc2ace8cb6214c0790d6d9
+    new: 5a75256887719526832934e5918414fe678c60f0
+    log: revlist-4162ae412cbf-5a7525688771.txt
 
---===============6865621893678846639==
+--===============3413527948060410753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ec940edd7c1-1e00d57694bc.txt
+Content-Disposition: attachment; filename=revlist-4162ae412cbf-5a7525688771.txt
 
 04bf7ac646ab5eb0987bbd6e87b156b856b1b03f dm: add documentation for dm-vdo target
 a3957b1f3ec9ec78dd33422f3a8b4ee6781d8e3b dm vdo: add the MurmurHash3 fast hashing algorithm
@@ -115,5 +115,42 @@ dea93aab18341d6d96a49e840e5605cebca7e8ea dm vdo chapter_index: fix a few small n
 cae3816d9933dc8041e1f3e14f10df34707f0b06 dm vdo: tweak wait_for_completion_interruptible callers
 318a9ce59bfaf47d23b7e80eb8c2697281108a5f dm vdo logger: switch UDS_LOG_NOTICE to be alias for UDS_LOG_INFO
 1e00d57694bc2f050f73b632ce3822fe28af63d2 dm vdo logger: update logging to start with "device-mapper: vdo"
+e685fa827c538c3035afd2aee841c044309a6e86 dm vdo: move indexer files into sub-directory
+5b85590056f8b0d4b899e9d3822c6eca981abfae dm vdo: fold thread-cond-var.c into uds-threads
+ed67c91ebae31089c273027b862c87dd5bafebc6 dm vdo: rename uds-threads.[ch] to thread-utils.[ch]
+dc1bca550701ebf1cbf06bf9086ab83829896b5d dm vdo thread-utils: eliminate uds_*_semaphore interfaces
+e367bc659821d802201b5bfa594ba523fc06f6aa dm vdo thread-utils: push 'barrier' down to indexer's sparse-cache
+5da00cc83b1c420789fa88bbad086f85f044e1c5 dm vdo indexer sparse-cache: cleanup threads_barrier code
+0706d4b6a95ee1c55cf38628c0a7c7bffa8706a4 dm vdo thread-utils: further cleanup of thread functions
+e8e16de05b19fd3130c60eac729d819bcc9b896e dm vdo indexer: rename uds.h to indexer.h
+60bc8cb18b5b6abaefaa619ef8f5a81f775d7472 dm vdo thread-utils: remove all uds_*_mutex wrappers
+297443734a81d3f9f211f3b148c025814044049c dm vdo thread-utils: push uds_*_cond interface down to indexer
+63fe8d09401f4a4f51c2806f6523daeb0bd88070 dm vdo thread-utils: cleanup included headers
+4c30e81611099856c2c3ac0ebc22fb14263052ef dm vdo thread-registry: rename all methods to reflect vdo-only use
+993f5ad757cb9d3fa43d703456860eb4f0704383 dm vdo memory-alloc: simplify allocations_allowed()
+7462a3ef8fc4a029a69d70d66020705889c6dd69 dm vdo thread-device: rename all methods to reflect vdo-only use
+6bca66a650d0a84dffd773ca1ac0a691aef328eb dm vdo: remove all sysfs interfaces
+1ba96866cc6fad9146b0b628ddb7b7c2cf19dc28 dm vdo: add 'log_level' module parameter
+26248f47f3b0264d3cf0cd13378ea6fcccaf1941 dm vdo slab-depot: delete unnecessary check in allocate_components
+c6fa7712f0dfd4d73ce90f6f62974ad90bb8330a dm vdo flush: initialize return to NULL in allocate_flush
+817b308b090fc750fc0b0aa3f0b71d5d30d7151b dm vdo indexer-volume: fix missing mutex_lock in process_entry
+c5a0654be4d259846b313ac850c9833f1e762404 dm vdo volume-index: fix an assert statement in start_restoring_volume_sub_index()
+26640da64ee8d44678a8cfddd38a8423e7af0143 dm vdo: include <asm/current.h> to resolve current being undeclared
+e3141c327acef4e24faff404a8c88e39a3844142 dm vdo block-map: rename page state name from "UDS_FREE" to "FREE"
+b6285412846d618f00d194d3703b2290c18a8c7c dm vdo memory-alloc: change from uds_ to vdo_ namespace
+4450012c39f81dee99b783785cf86318bf166a49 dm vdo memory-alloc: rename vdo_do_allocation to __vdo_do_allocation
+7a90afce84e4e3e20547fee0772d2338c0170f34 dm vdo memory-alloc: return VDO_SUCCESS on success
+86f9f4167258036ca897cd62ebd676b321ddb70b dm vdo: check for VDO_SUCCESS return value from memory-alloc functions
+8abe53f40e7426def7fbd8e2c0d5d57d3dcd783c dm vdo int-map: return VDO_SUCCESS on success
+555797d8a43e8a4d2251a98d3b28f866eb78e468 dm vdo thread-utils: return VDO_SUCCESS on vdo_create_thread success
+8144264361eaf33b2668fa9f2304ef305e7ea6cb dm vdo funnel-queue: change from uds_ to vdo_ namespace
+533f49bcbe0ce9be60797ba4683b8e9e98617a00 dm vdo: move funnel-requestqueue to dm-vdo/indexer/
+f039f872c842657fa53d5f74bde2b793a3c118ee dm-vdo funnel-workqueue: return VDO_SUCCESS from make_simple_work_queue
+99a1b51f91a9b49f02eaa0da7464bff67499bce6 dm vdo permassert: audit all of ASSERT to test for VDO_SUCCESS
+16ee863acc220c4cb9f4f3c7f1449c066cbeef03 dm vdo encodings: update some stale comments
+86727d98f86075e91c8a8c0c547513b1d25c8faa dm vdo target: eliminate inapropriate uses of UDS_SUCCESS
+958115d11d28762b4d35fb12b4181987b6ff906a dm vdo logger: remove log level to string conversion code
+82cbad98d1f9f5ccebdda6c1208a3bfeed12afd3 dm vdo logger: change from uds_ to vdo_ namespace
+5a75256887719526832934e5918414fe678c60f0 dm vdo string-utils: change from uds_ to vdo_ namespace
 
---===============6865621893678846639==--
+--===============3413527948060410753==--
