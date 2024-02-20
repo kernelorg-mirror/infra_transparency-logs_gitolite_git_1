@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8253275659189529903=="
+Content-Type: multipart/mixed; boundary="===============7020381654447517842=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 20 Feb 2024 21:07:06 -0000
-Message-Id: <170846322625.21264.16173501636805133289@gitolite.kernel.org>
+Date: Tue, 20 Feb 2024 21:07:30 -0000
+Message-Id: <170846325058.22566.16940845854729420553@gitolite.kernel.org>
 
---===============8253275659189529903==
+--===============7020381654447517842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: de4b6d6705a75de2c277e123ac30d13f4292771b
-    new: 37156e9b997483f1d08db52ef298b9878394eef0
-    log: revlist-de4b6d6705a7-37156e9b9974.txt
-  - ref: refs/heads/soc/defconfig
-    old: 849ffbf054ab4429df636a18af557b0195f3c2d0
-    new: 641a6e6962a1388944c6494a9a9f5374fe6f9b90
-    log: |
-         626b1ec6f7438b68ab08670b01b69924e6bf9a09 ARM: shmobile: defconfig: Disable staging
-         9317322218102c7ad0a1a155b8e779c7cd8a93bd ARM: multi_v7_defconfig: Disable board staging
-         93189f33fcb4e678c9494cddeff96b123ef5674f arm64: defconfig: Enable R8A779H0 SoC
-         6d761306740730574f7f89ed008ea6a25985a4ff ARM: multi_v7_defconfig: Enable BACKLIGHT_CLASS_DEVICE
-         9dcb9e583f1063be8d446037237718bb9e98c39a arm64: config: disable new platforms in virt.config
-         641a6e6962a1388944c6494a9a9f5374fe6f9b90 Merge tag 'renesas-arm-defconfig-for-v6.9-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into soc/defconfig
-         
-  - ref: refs/heads/soc/drivers
-    old: 0000000000000000000000000000000000000000
-    new: d22ee157fb2525fd0c35b9d18fd58ed2e4715f80
+  - ref: refs/heads/arm/fixes
+    old: 1b5af823d703ee183ffdde188aaf584ab93eea19
+    new: 78b6f8e7379b5399d1804f0852bb2ddabd049019
+    log: revlist-1b5af823d703-78b6f8e7379b.txt
 
---===============8253275659189529903==
+--===============7020381654447517842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de4b6d6705a7-37156e9b9974.txt
+Content-Disposition: attachment; filename=revlist-1b5af823d703-78b6f8e7379b.txt
 
 c39de951282df9a60ef70664e4378d88006b2670 fs/ntfs3: Improve alternative boot processing
 22457c047ed971f2f2e33be593ddfabd9639a409 fs/ntfs3: Modified fix directory element type detection
@@ -104,7 +90,6 @@ f46300285926c2b0d0c79bf40c87d45e169cecb6 RISC-V: KVM: Allow Zvfh[min] extensions
 180a8f12c21f41740fee09ca7f7aa98ff5bb99f8 Input: goodix - accept ACPI resources with gpio_count == 3 && gpio_int_idx == 0
 e4cec073b7755a78030f30cf627141c759035b50 dmaengine: at_hdmac: fix some kernel-doc warnings
 b73e43dcd7a8be26880ef8ff336053b29e79dbc5 dmaengine: fsl-dpaa2-qdma: Fix the size of dma pools
-a0f80b86ff53c2bb99662008269096ecb45d7288 dt-bindings: i2c: exynos5: add google,gs101-hsi2c compatible
 6e2276203ac9ff10fc76917ec9813c660f627369 dmaengine: ti: edma: Add some null pointer checks to the edma_probe
 bc9847c9ba134cfe3398011e343dcf6588c1c902 dmaengine: ti: k3-udma: Report short packet errors
 968bc1d7203d384e72afe34124a1801b7af76514 dmaengine: fsl-qdma: Fix a memory leak related to the status queue DMA
@@ -148,8 +133,6 @@ f0b7a0d1d46625db5b0e631c05ae96d78eda6c70 Merge branch 'master' into mm-hotfixes-
 56beedc88405fd8022edfd1c2e63d1bc6c95efcb ALSA: hda: Increase default bdl_pos_adj for Apollo Lake
 a2ed0a44d637ef9deca595054c206da7d6cbdcbc ALSA: hda/cs8409: Suppress vmaster control for Dolphin models
 a969210066054ea109d8b7aff29a9b1c98776841 ALSA: usb-audio: Add a quirk for Yamaha YIT-W12TX transmitter
-626b1ec6f7438b68ab08670b01b69924e6bf9a09 ARM: shmobile: defconfig: Disable staging
-9317322218102c7ad0a1a155b8e779c7cd8a93bd ARM: multi_v7_defconfig: Disable board staging
 b6eda11c44dc89a681e1c105f0f4660e69b1e183 HID: nvidia-shield: Add missing null pointer checks to LED initialization
 26dd6a5667f500c5d991f90a9ac5998a71afaf5c HID: i2c-hid: Skip SET_POWER SLEEP for Cirque touchpad on system suspend
 c41336f4d69057cbf88fed47951379b384540df5 pmdomain: mediatek: fix race conditions with genpd
@@ -157,10 +140,7 @@ afb2a4fb84555ef9e61061f6ea63ed7087b295d5 riscv/efistub: Ensure GP-relative addre
 d2baf8cc82c17459fca019a12348efcf86bfec29 riscv/efistub: Tighten ELF relocation check
 67794f882adca00d043899ac248bc002751da9f6 ALSA: usb-audio: Skip setting clock selector for single connections
 a67e1f0bd4564b485e0f0c3ed7f6bf17688be268 regulator: ti-abb: don't use devm_platform_ioremap_resource_byname for shared interrupt register
-b8631e4b96bb4b0c4f5a57d5767afe5e56eba075 memory: emif: Simplify code handling CONFIG_DEBUG_FS
-d10e03cf9a4d78c67ef779dab5a5f4fb94fb835e memory: emif: Simplify code handling CONFIG_OF
 41353fbad4f551e82c2792f7e82ac225c79cc710 nvmet: unify aer type enum
-f0b203bf9bbc89d3230d6a3d6254d11f7a4b6064 memory: emif: Drop usage of platform_driver_probe()
 4373534a9850627a2695317944898eb1283a2db0 scsi: core: Move scsi_host_busy() out of host lock for waking up EH handler
 f4469f3858352ad1197434557150b1f7086762a0 scsi: storvsc: Fix ring buffer size calculation
 f74c35b630d40d414ca6b53f7b1b468dd4abf478 phy: qcom-qmp-usb: fix register offsets for ipq8074/ipq6018
@@ -182,7 +162,6 @@ fcccdafd91f8bdde568b86ff70848cf83f029add drm/msm/dp: return correct Colorimetry 
 7f3d03c48b1eb6bc45ab20ca98b8b11be25f9f52 drm/msm/dpu: check for valid hw_pp in dpu_encoder_helper_phys_cleanup
 97cf5d53b4812dcb52c13fda700dad5aa8d3446c erofs: get rid of unneeded GFP_NOFS
 a3bdcdd022c68942a774e8e63424cc11c85aab78 HID: hidraw: fix a problem of memory leak in hidraw_release()
-2f542c937c48c2bd5a8ddf180b417fbe7152559f dt-bindings: memory-controllers: narrow regex for unit address to hex numbers
 fc4657971be31ae679e2bbeee2fb8e93a7a063eb arm64: dts: rockchip: mark system power controller on rk3588-evb1
 8d35217149daa33358c284aca6a56d5ab92cfc6c drm/msm/mdss: specify cfg bandwidth for SDM670
 b64787840080bdbd048bb9c68222ad17236cbd7e selftests: tcp_ao: add a config file
@@ -323,7 +302,6 @@ b2dd7b953c25ffd5912dda17e980e7168bebcf6c fs/ntfs3: Fix an NULL dereference bug
 731ab1f9828800df871c5a7ab9ffe965317d3f15 fs/ntfs3: Fix oob in ntfs_listxattr
 1f5fa4b3b85ceb43f1053290f0ade037b50e6297 fs/ntfs3: Add ioctl operation for directories (FITRIM)
 622cd3daa8eae37359a6fd3c07c36d19f66606b5 fs/ntfs3: Slightly simplify ntfs_inode_printk()
-423a54da3c7ee6d27b862b1bae6e639a1374a36a soc: mediatek: mtk-socinfo: Add driver for getting chip information
 8eed4e00a370b37b4e5985ed983dccedd555ea9d x86/lib: Revert to _ASM_EXTABLE_UA() for {get,put}_user() fixups
 37e8c97e539015637cb920d3e6f1e404f707a06e net: hsr: remove WARN_ONCE() in send_hsr_supervision_frame()
 bfb007aebe6bff451f7f3a4be19f4f286d0d5d9c nfc: nci: free rx_data_reassembly skb on NCI device cleanup
@@ -400,8 +378,6 @@ f884a9f9e59206a2d41f265e7e403f080d10b493 btrfs: send: return EOPNOTSUPP on unkno
 0c309d66dacddf8ce939b891d9ead4a8e21ad6f0 btrfs: forbid creating subvol qgroups
 a8df35619948bd8363d330c20a90c9a7fbff28c0 btrfs: forbid deleting live subvol qgroup
 e03ee2fe873eb68c1f9ba5112fee70303ebf9dfb btrfs: do not ASSERT() if the newly created subvolume already got read
-82e5d7d793e8aef1275dae266427cf048a7459d6 soc: mediatek: mtk-socinfo: Clean up NVMEM cell read
-54d21dea6a6c117f3cab4caa1f9c3ffafb515dd6 soc: mediatek: mtk-socinfo: Add extra entry for MT8183
 4451e8e8415e4ef48cdc763d66855f8c25fda94c pinctrl: amd: Add IRQF_ONESHOT to the interrupt request
 b4a1f4eaf1d798066affc6ad040f76eb1a16e1c9 USB: serial: option: add Fibocom FM101-GL variant
 7cdd2108903a4e369eb37579830afc12a6877ec2 HID: bpf: remove double fdget()
@@ -410,10 +386,6 @@ b4a1f4eaf1d798066affc6ad040f76eb1a16e1c9 USB: serial: option: add Fibocom FM101-
 51af8f255bdaca6d501afc0d085b808f67b44d91 ahci: Extend ASM1061 43-bit DMA address quirk to other ASM106x parts
 913b9d443a0180cf0de3548f1ab3149378998486 parisc: BTLB: Fix crash when setting up BTLB at CPU bringup
 2468e8922d2f6da81a6192b73023eff67e3fefdd ALSA: hda/realtek: Apply headset jack quirk for non-bass alc287 thinkpads
-93189f33fcb4e678c9494cddeff96b123ef5674f arm64: defconfig: Enable R8A779H0 SoC
-ae286bd7e9ed889b7284aa8bdb321a9938cc89ca soc: renesas: Introduce ARCH_RCAR_GEN4
-2969768dae22c1b76f3784f9630002113b5867d5 soc: renesas: Identify R-Car V4M
-14656ed72fa5d0a2f98be0ffd56274db30171f49 soc: renesas: rcar-rst: Add support for R-Car V4M
 89876175c8c83c35cf0cc8e21b7460dfed7b118a kbuild: fix W= flags in the help message
 cda5f94e88b45c9209599bac15fc44add5a59f60 modpost: avoid using the alias attribute
 82175d1f9430d5a026e2231782d13da0bf57155c kbuild: Replace tabs with spaces when followed by conditionals
@@ -630,8 +602,6 @@ d2d00e15808c37ec476a5c040ee2cdd23854ef18 powerpc: iommu: Bring back table group 
 ccb88e9549e7cfd8bcd511c538f437e20026e983 crypto: ccp - Fix null pointer dereference in __sev_platform_shutdown_locked
 69fba378edcaffba7bc7d299fdee02e377069d30 crypto: cbc - Ensure statesize is zero
 24c890dd712f6345e382256cae8c97abb0406b70 crypto: algif_hash - Remove bogus SGL free on zero-length error path
-6d761306740730574f7f89ed008ea6a25985a4ff ARM: multi_v7_defconfig: Enable BACKLIGHT_CLASS_DEVICE
-04453c3d24bf541f96572c0c1d2ce96d2468eae0 Merge branch 'soc/defconfig' into for-next
 349bd87f6091ac68b8eab368ce30bcaf6d45c50e Merge branch 'master' into mm-hotfixes-stable
 177fbbcb4ed6b306c1626a277fac3fb1c495a4c7 wifi: cfg80211: detect stuck ECSA element in probe resp
 35e2385dbe787936c793d70755a5177d267a40aa wifi: mac80211: improve CSA/ECSA connection refusal
@@ -775,8 +745,6 @@ ee97302fbc0c98a25732d736fc73aaf4d62c4128 libceph: rename read_sparse_msg_*() to 
 bbb20ea993f46743f7429092ddc52f1a5c5428ef ceph: always set initial i_blkbits to CEPH_FSCRYPT_BLOCK_SHIFT
 cda4672da1c26835dcbd7aec2bfed954eda9b5ef ceph: prevent use-after-free in encode_cap_msg()
 07045648c07c5632e0dfd5ce084d3cd0cec0258a ceph: always check dir caps asynchronously
-454436167232c18e2bd5cb904b282bd717837ccc dt-bindings: samsung: exynos-sysreg: gs101-peric0/1 require a clock
-97d4b55111efd72926eb92cbd81c5ad8e6a7b3b1 MAINTAINERS: Remove Tomasz from Samsung clock and pinctrl entries
 5001bfe927b594470f3a2484cb410b8b42a47903 MAINTAINERS: Maintainer change for rds
 75428f537d7cae33c7e4dd726144074f78622c09 net: intel: fix old compiler regressions
 c8d80f83de47fd183a0eef2d6b1085d4fdecea37 Merge tag 'nfsd-6.8-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
@@ -911,21 +879,11 @@ c22d03a95b0d815cd186302fdd93f74d99f1c914 arm64: dts: rockchip: Correct Indiedroi
 fdf87a0dc26d0550c60edc911cda42f9afec3557 ARM: ep93xx: Add terminator to gpiod_lookup_table
 d0a59944e34f915cdd8cc4d41e91376c29843d8f Merge tag 'imx-fixes-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
 0cf54e404d4f80470e81c42ca614264579c34acc Merge tag 'v6.8-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
-9dcb9e583f1063be8d446037237718bb9e98c39a arm64: config: disable new platforms in virt.config
-641a6e6962a1388944c6494a9a9f5374fe6f9b90 Merge tag 'renesas-arm-defconfig-for-v6.9-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into soc/defconfig
 e08f65491c0e467127310b13333dd61e89c14bc1 arm64: dts: freescale: Disable interrupt_map check
 96fd598e9c34cfa68402a4da3020c9236cfacf35 arm: dts: Fix dtc interrupt_provider warnings
 91adecf911e5df78ea3e8f866e69db2c33416a5c arm64: dts: Fix dtc interrupt_provider warnings
 f02b0f0dc26fbb77fe47b6e47cc5c211f0432c37 arm: dts: Fix dtc interrupt_map warnings
 704dccec0d490f2ad06f3f16ebed254d81906c3a arm64: dts: qcom: Fix interrupt-map cell sizes
 78b6f8e7379b5399d1804f0852bb2ddabd049019 dtc: Enable dtc interrupt_provider check
-d4aece85e8b8f59482f5a9e141f4d03d40d2c30e Merge tag 'mtk-soc-for-v6.9' of https://git.kernel.org/pub/scm/linux/kernel/git/mediatek/linux into soc/drivers
-6e66213fd5b1c74196fc36b3df4ac1c6b20908aa Merge tag 'renesas-drivers-for-v6.9-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into soc/drivers
-b256c24cf876988d538b685540442c6a80229c68 Merge tag 'samsung-drivers-6.9' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/drivers
-d22ee157fb2525fd0c35b9d18fd58ed2e4715f80 Merge tag 'memory-controller-drv-6.9' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into soc/drivers
-ebea8e893370b3f7c25e876e3144820403e3bffc Merge branch 'arm/fixes' into for-next
-1ac22bdeb199d3d5081d8a63d1240ccd2245a7f8 Merge branch 'soc/drivers' into for-next
-2f3bc8281e389b916a39bfe1bf57a9018ea44c88 Merge branch 'soc/defconfig' into for-next
-37156e9b997483f1d08db52ef298b9878394eef0 soc: document merges
 
---===============8253275659189529903==--
+--===============7020381654447517842==--
