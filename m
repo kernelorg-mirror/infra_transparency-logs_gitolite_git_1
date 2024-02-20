@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============6979112593347858228=="
+Content-Type: multipart/mixed; boundary="===============5168973655367822781=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 20 Feb 2024 07:44:31 -0000
-Message-Id: <170841507173.18948.2611840250632275939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 20 Feb 2024 07:46:45 -0000
+Message-Id: <170841520567.21470.1315872106871841333@gitolite.kernel.org>
 
---===============6979112593347858228==
+--===============5168973655367822781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 24c4fb611509ed74ea7c01ea2682cb3588e72ad0
-    new: f8ae0e3a3c42ced0520073210e7a1ad504ec5e56
-    log: |
-         f8ae0e3a3c42ced0520073210e7a1ad504ec5e56 6.6-stable patches
-         
+  - ref: refs/heads/x86-pie-for-sev-v5
+    old: e090f2fb4de97dfa13a414ffeb4402586d323102
+    new: 0cc3d2ea8faa59cc6406f95460e42ae5987ee35b
+    log: revlist-e090f2fb4de9-0cc3d2ea8faa.txt
 
---===============6979112593347858228==
+--===============5168973655367822781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e090f2fb4de9-0cc3d2ea8faa.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708415067 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1708415062-f676b36e88d44e529bce58aa8b2ee5d23f187039
+9167b873a0df1971defacaa100b91de60e6c399d x86/startup_64: Simplify global variable accesses in GDT/IDT programming
+548a446f825ed7bfe576950516e36bbd253b7c36 x86/startup_64: Use RIP_REL_REF() to assign phys_base
+dc8d87798d7fd01f5bd0fdfd6da95c504d231059 x86/startup_64: Use RIP_REL_REF() to access early_dynamic_pgts[]
+c8ce631aaaa50a678255ad00051d85f102cdb7a0 x86/startup_64: Use RIP_REL_REF() to access __supported_pte_mask
+e1b76071120a9f574838097619e36369801d8197 x86/startup_64: Use RIP_REL_REF() to access early page tables
+217c9013a56a44005bbcbc1b41c758c8579b37b8 x86/startup_64: Use RIP_REL_REF() to access early_top_pgt[]
+cba2d02aa58aa4158ed236a91d0f1ee263c4b38d x86/startup_64: Simplify CR4 handling in startup code
+cad445fac33677a7568b03f0ee0d10899bd37179 x86/startup_64: Defer assignment of 5-level paging global variables
+7b2311ece58ce1cba2313d088072e027610f783d x86/startup_64: Simplify calculation of initial page table address
+821c593f3d856b83c39d1572b1633b0c9ff6fa9c x86/startup_64: Simplify virtual switch on primary boot
+1f2c442a637fe3514a3943c09f6c5016c9c702d5 x86/sme: Avoid SME/SVE related checks on non-SME/SVE platforms
+9495e13c335df9962efcb77cdd110d6391a7b954 efi/libstub: Add generic support for parsing mem_encrypt=
+0dace027c7013eede142a607c416b2ddeb44c00e x86/boot: Move mem_encrypt= parsing to the decompressor
+8af34d6919c49958281f5ac7f5645b922e27b8ad x86/sme: Move early SME kernel encryption handling into .head.text
+ad014c8590cc45354f8652587d4a10ae4126d38c x86/sev: Move early startup code into .head.text section
+0cc3d2ea8faa59cc6406f95460e42ae5987ee35b x86/startup_64: Drop global variables keeping track of LA57 state
 
-24c4fb611509ed74ea7c01ea2682cb3588e72ad0 f8ae0e3a3c42ced0520073210e7a1ad504ec5e56 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXUWFsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZCwQAKfSd+WO5qb0idsQfToM
-yxwz7LzyO4n7c/1+CuM+dxV35jkEHUD8bMMK29SyeB9EPNekM9rpNcGtj2k7Setc
-7UP/wonTEHw8n3lWXF3LsCCfzTRfyHCUeWm/NEs86cfLd8kCkfwE8MT1lMUH+2Tb
-yvDBy5ZBytwFkAk44m3t3JYRiEbclUT7trM+aPIM/w6fSxvMzPCu/+uM80JPxLsM
-gyUg6EZXWXaXLHFSy9K5rp+Q0xBWcOFD+CcLmWPzR3KIOnhgDB2Y9iJt/ddnEcGv
-vGlYaEtMq2oYb+b0AckQfnAILnCd6us2JBeNd3uKj0l7joCGypgc9HC7F2PSVbB6
-cMRUaaNuHmQCAfaoZ2xc3bFoiXQhfXW2+MPIlBhDSfO80cjwB8+TBbL9YI8/W0SJ
-o8tpmdx/2akKLE5zGFxGbRqze/mNyWgL1yPZkBNBmJdnWsGBYW4YBUyVsCqGzh4W
-zz/jJpQ7I46bsErBv7hgu6ctKp35VNScxQj2b4ofq0pvcgGZktMQxy2EA/YQmru5
-UT1OhChyABZS9/GaTDRHSx0nacWARyP9mIjzqUyqySdspRCoR5lWxx0JcaimrPL+
-Nwi25mJRDrk1nhxb6innEFQg+IEsUhy+nKsSw2GfZ0meM2DBGyw0d+NbMSPuYr+Y
-jgJEGeLS1Ct6ZAqXw3u6bcvl
-=37zc
------END PGP SIGNATURE-----
-
---===============6979112593347858228==--
+--===============5168973655367822781==--
