@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1137329536308153230=="
+Content-Type: multipart/mixed; boundary="===============2091624271084355576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 20 Feb 2024 18:10:56 -0000
-Message-Id: <170845265656.21938.6380121213491870004@gitolite.kernel.org>
+Date: Tue, 20 Feb 2024 18:11:10 -0000
+Message-Id: <170845267027.22107.10137814306997068583@gitolite.kernel.org>
 
---===============1137329536308153230==
+--===============2091624271084355576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: ec23b87791c35c73a07f937023a695d84a9b6f42
+  - ref: refs/heads/next
+    old: cebb9ce9b939a91affb1ebb4d24ae12bb3aa7922
     new: 4a25541b236f5d8f98c1fd2f8848a290eafdb8a8
-    log: revlist-ec23b87791c3-4a25541b236f.txt
+    log: revlist-cebb9ce9b939-4a25541b236f.txt
 
---===============1137329536308153230==
+--===============2091624271084355576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec23b87791c3-4a25541b236f.txt
+Content-Disposition: attachment; filename=revlist-cebb9ce9b939-4a25541b236f.txt
 
 f46300285926c2b0d0c79bf40c87d45e169cecb6 RISC-V: KVM: Allow Zvfh[min] extensions for Guest/VM
 1216fdd99be113fa75ccdd0497802bd0fe4369aa KVM: riscv: selftests: Add Zvfh[min] extensions to get-reg-list test
@@ -1051,4 +1051,4 @@ fdc78ddb7889b0fbf25abf36c1cdce1f930ba60d tpm/tpm_ftpm_tee: fix all kernel-doc wa
 246275da5b7b9568fe0cd1fc4d7249a0a2b0d4a9 tpm_tis: Add compatible string atmel,at97sc3204
 4a25541b236f5d8f98c1fd2f8848a290eafdb8a8 tpm: tis_i2c: Add compatible string nuvoton,npct75x
 
---===============1137329536308153230==--
+--===============2091624271084355576==--
