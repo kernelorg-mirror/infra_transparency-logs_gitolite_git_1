@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7112931244455113973=="
+Content-Type: multipart/mixed; boundary="===============2898360977046906751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 20 Feb 2024 17:45:02 -0000
-Message-Id: <170845110210.1062.1891672312848320838@gitolite.kernel.org>
+Date: Tue, 20 Feb 2024 17:45:26 -0000
+Message-Id: <170845112625.2929.12194951914924876535@gitolite.kernel.org>
 
---===============7112931244455113973==
+--===============2898360977046906751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
-    old: 71b605d32017e5b8d257db7344bc2f8e8fcc973e
+  - ref: refs/heads/40GbE
+    old: f09cbb6c94e47b4be985bfd3c8cf453818f5ef9d
     new: 4934446297c292611d3b6cd388efb215f2ba5698
-    log: revlist-71b605d32017-4934446297c2.txt
+    log: revlist-f09cbb6c94e4-4934446297c2.txt
 
---===============7112931244455113973==
+--===============2898360977046906751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71b605d32017-4934446297c2.txt
+Content-Disposition: attachment; filename=revlist-f09cbb6c94e4-4934446297c2.txt
 
 e517293fd72d9044902efae59f05203203a60736 can: m_can: remove redundant check for pm_clock_support
 b00cf4f62969eb7067bc44851de9519953a7ae01 dt-bindings: can: tcan4x5x: Document the wakeup-source flag
@@ -35,11 +35,6 @@ b6b640c04446887486edd76b215f81668c7e6005 can: tcan4x5x: support resuming from rx
 8e6fbf7f66dc056cbf23e02d4b66e9afd2b89887 can: xilinx_can: Add ECC support
 e1d1698eb36c4e3af9cc77e610cfbe47861c491c can: xilinx_can: Add ethtool stats interface for ECC errors
 a93fca920167755db7e931f9b302b355edec910a Merge patch series "Add ECC feature support to Tx and Rx FIFOs for Xilinx CAN Controller."
-7e6cec7d3bb0ae2107cda6175bbf3b0275ca0d09 i40e: Use existing helper to find flow director VSI
-b1f1b46f466a0855b92bd191d8fea8bf297bc7ab i40e: Introduce and use macros for iterating VSIs and VEBs
-b7fac08db5e32a7de8c53e50dc7c841d123dda05 i40e: Add helpers to find VSI and VEB by SEID and use them
-08cdde310e2252ea9381a37c3faa2125a5a663a3 i40e: Fix broken support for floating VEBs
-f09cbb6c94e47b4be985bfd3c8cf453818f5ef9d i40e: Remove VEB recursion
 80e4021c25d8c1ddae0dd655ed5f6b1e938dd79b net: mdio: add helpers for accessing the EEE CAP2 registers
 ef6ee3a31bdc699391f2db4eff407fdb06895809 net: phy: add PHY_EEE_CAP2_FEATURES
 b63584c86edbaf7477c3569cec331672bb7714d5 net: phy: c45: add and use genphy_c45_read_eee_cap2
@@ -70,4 +65,4 @@ bb18fc7a521b41bfee201643f65d7b74bc6b901f Merge branch 'abstract-page-from-net-st
 219eee9c0d16f1b754a8b85275854ab17df0850a net: skbuff: add overflow debug check to pull/push helpers
 4934446297c292611d3b6cd388efb215f2ba5698 Merge tag 'linux-can-next-for-6.9-20240220' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
 
---===============7112931244455113973==--
+--===============2898360977046906751==--
