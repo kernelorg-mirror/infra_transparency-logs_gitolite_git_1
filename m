@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5059069696364324539=="
+Content-Type: multipart/mixed; boundary="===============3320960978107537789=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 20 Feb 2024 17:06:57 -0000
-Message-Id: <170844881716.5715.4701088214408292379@gitolite.kernel.org>
+Date: Tue, 20 Feb 2024 17:07:16 -0000
+Message-Id: <170844883699.6045.17026561251174878602@gitolite.kernel.org>
 
---===============5059069696364324539==
+--===============3320960978107537789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 166c2c8a6a4dc2e4ceba9e10cfe81c3e469e3210
     new: 23f9c2c066e7e5052406fb8f04a115d3d0260b22
     log: revlist-166c2c8a6a4d-23f9c2c066e7.txt
 
---===============5059069696364324539==
+--===============3320960978107537789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ def689fc26b9a9622d2e2cb0c4933dd3b1c8071c devlink: fix possible use-after-free an
 a7d6027790acea24446ddd6632d394096c0f4667 arp: Prevent overflow in arp_req_get().
 23f9c2c066e7e5052406fb8f04a115d3d0260b22 docs: netdev: update the link to the CI repo
 
---===============5059069696364324539==--
+--===============3320960978107537789==--
