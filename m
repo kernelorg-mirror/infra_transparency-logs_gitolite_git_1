@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 20 Feb 2024 08:59:11 -0000
-Message-Id: <170841955150.8842.16427869043807043935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Tue, 20 Feb 2024 09:01:08 -0000
+Message-Id: <170841966877.11328.6024820076826200530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/master
-    old: 0ced0254dca0bc06b09cfe31d6af411856379ea0
-    new: 0bf3f28ef9288e78f14c7f8b30a30a24b5997e22
+  - ref: refs/heads/for-next
+    old: d27816b7548c0ea24f9656cab6163446f356842a
+    new: ba90af39ba57b3fe3ecfdba0c87a80d20c7b788d
     log: |
-         baf8361e54550a48a7087b603313ad013cc13386 x86/bugs: Add asm helpers for executing VERW
-         3c7501722e6b31a6e56edd23cea5e77dbb9ffd1a x86/entry_64: Add VERW just before userspace transition
-         a0e2dab44d22b913b4c228c8b52b2a104434b0b3 x86/entry_32: Add VERW just before userspace transition
-         6613d82e617dd7eb8b0c40b2fe3acea655b1d611 x86/bugs: Use ALTERNATIVE() instead of mds_user_clear static key
-         706a189dcf74d3b3f955e9384785e726ed6c7c80 KVM/VMX: Use BT+JNC, i.e. EFLAGS.CF to select VMRESUME vs. VMLAUNCH
-         43fb862de8f628c5db5e96831c915b9aebf62d33 KVM/VMX: Move VERW closer to VMentry for MDS mitigation
-         0bf3f28ef9288e78f14c7f8b30a30a24b5997e22 Merge branch 'x86/urgent'
+         0c5f7c2f302fe2f695ba1d8709c9657e3de0cea0 arm64: dts: mediatek: mt8183-kukui-jacuzzi: Add ports node for anx7625
+         ba90af39ba57b3fe3ecfdba0c87a80d20c7b788d arm64: dts: mediatek: mt8183-pico6: Fix wake-on-X event node names
          
