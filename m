@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1660953117434226777=="
+Content-Type: multipart/mixed; boundary="===============1311409681098545434=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Tue, 20 Feb 2024 10:08:20 -0000
-Message-Id: <170842370084.10002.5985509381812057926@gitolite.kernel.org>
+Date: Tue, 20 Feb 2024 10:08:39 -0000
+Message-Id: <170842371988.10176.7277437686337251837@gitolite.kernel.org>
 
---===============1660953117434226777==
+--===============1311409681098545434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-next
-    old: 7803680964c025f598f827b7ea7433467ef21a56
+  - ref: refs/heads/extcon-fixes
+    old: ceb6a6f023fd3e8b07761ed900352ef574010bcb
     new: b401b621758e46812da61fa58a67c3fd8d91de0d
-    log: revlist-7803680964c0-b401b621758e.txt
+    log: revlist-ceb6a6f023fd-b401b621758e.txt
 
---===============1660953117434226777==
+--===============1311409681098545434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7803680964c0-b401b621758e.txt
+Content-Disposition: attachment; filename=revlist-ceb6a6f023fd-b401b621758e.txt
 
 cc509b6a47e7c8998d9e41c273191299d5d9d631 usb: chipidea: core: handle power lost in workqueue
 f17c34ffc792bbb520e4b61baa16b6cfc7d44b13 USB: hub: check for alternate port before enabling A_ALT_HNP_SUPPORT
@@ -1051,4 +1051,4 @@ ddac3d8b8a48dda6447a7f7a15f8124020a5add2 Merge tag 'x86_urgent_for_v6.8_rc5' of 
 6c160f16be5df1f66f6afe186c961ad446d7f94b Merge tag 'kbuild-fixes-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 b401b621758e46812da61fa58a67c3fd8d91de0d Linux 6.8-rc5
 
---===============1660953117434226777==--
+--===============1311409681098545434==--
