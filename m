@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2650201976904857239=="
+Content-Type: multipart/mixed; boundary="===============6142035907859799955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Tue, 20 Feb 2024 10:25:16 -0000
-Message-Id: <170842471637.22729.13395433604672224062@gitolite.kernel.org>
+Date: Tue, 20 Feb 2024 10:25:33 -0000
+Message-Id: <170842473306.22926.2871544131402861047@gitolite.kernel.org>
 
---===============2650201976904857239==
+--===============6142035907859799955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/w1-next
+  - ref: refs/heads/for-next
     old: a3c08804364e80328a9ffdac59bb26676b938195
     new: d97d263132a69a0bda54efce3df04e55fa6341f7
     log: |
@@ -26,34 +26,34 @@ changes:
          d97d263132a69a0bda54efce3df04e55fa6341f7 w1: w1-gpio: Convert to platform remove callback returning void
          
 
---===============2650201976904857239==
+--===============6142035907859799955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1708424712 +0100
+pusher krzk@kernel.org 1708424731 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1708424711-68d6d20b3fe7bac146b880920ba4630fa733e4be
+nonce 1708424730-785243481287f492232fab27d029ed4e7d9a898d
 
-a3c08804364e80328a9ffdac59bb26676b938195 d97d263132a69a0bda54efce3df04e55fa6341f7 refs/heads/w1-next
+a3c08804364e80328a9ffdac59bb26676b938195 d97d263132a69a0bda54efce3df04e55fa6341f7 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmXUfggQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1yKGD/9ivbwdBP+WJArFmux4YWKMufNQ59UIB4e3
-nOzaqSUXFPEtS8mcq1yi5wC8Ft7shHkyYAJlf/21vbP7gl04AXPeioVKItFfzhVW
-O1FJnfyk7XUdsVCRaweZX2Y8zQ8CF2WW6m7j+/Mhwd50Wkpk4fWByp61YrHhhn2b
-Nta4wltCSi2eglae1bYtA9sq+pol5uDal3FcVzlu89Qx/VIp3f+O4LSrYAZBXcjW
-xRu/mTQTmPrdb6KTygTX4dMJyKjWlH5pjS2tjnj7/OB908jF33N0uiWqBa1vEXtN
-9Qw6nNeDjgSdpHUOR7wXmFPNDbbxn7XtBi2SLqQHIk8Deao3C/byrK2bSS2yRNpn
-1N4jvVFoQqA6KBEsJwS7oEWYfaPU5pRRxFTa3IIVuwNAlAP/yU3kXYJPI0uxdaO9
-MXR5akUKDtRe3tUh3qpvcMICNgFnUll7j1Z6mi38TYnnb2uNQyPwFtn7IICjnsQN
-kQdJwSpE960GhioUfjEi1tdA6i3WzO0Xj2ocMhhy8RByRrCINwzqbCab3/I01SxQ
-9xDZ15R6RLPBM6dLUNPEjQXv9+u1tD4BSDVVJ1wNkKIuypo3sngukqrg/G8v81D/
-xo/IUOQbfnEZr0n3TeRRgN8rGnuywWYFoA3ekR4bJNggPtp7+rMf5fQxQ8hLL47o
-WTBR3t3XDg==
-=xA1v
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmXUfhsQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD17ftD/4lmhFgoYl1JxSzdH/yZxa5x0rVd5gBfEwl
+h+tBh6r/lhWntoOZpd4bdxAGkcPTqcbapS6RuR6HJ+igYi9movPwbDCREmx/lXOI
+qsnRD9tzFJUcVdMk9FtyDnt0OH3HOuHfs+dxlaLpM/WZnRTjikXey+gF8naBEE0Z
+DiRyUoJZx+dmZmLdasAqAaFEDxbbSm7/8K6VTEANeN2gcA00NV8T8Aj+AuMTCLi6
+47LrxuZ/R0DygyJWtLgTKLS6T9TyhcOcNiYAShLC4z0v0zWHPoHHIrE7pwVrqxPk
+KS7YEqu3IDG5Fo16S3E+FMiBbsMnl2aY0Xp47ktiZB5EIY9GEu7C6do29oJOuyvc
++a2LB+pA+LWo38Hm5Lzqe2ke5A+pFu79yzgmMFtiJUyAWmDJbMi4pWJnoIzLfxQm
+t30Hf2IjCK5/0iW1jmJE2s4tCro+K7nto0/0ZHpN6+fcyeC7BpuS71Qs+xH2GNrS
+M6iUT/g/eAaRHFbY6tUyC1IhW8LvuxuNxr4fNXRPeXt+0t7Kv9yOuIW+BrEpu6fm
+NGP+l0Kl+YuyejjPmLzYK7tEleGmFT/J2Ksc7UUW2X0NpfaooJA0qniHMZr/oPll
+Y9jAjy19IZ45ZeMiZ3s/YF1ue2EkkjRs4KhO24UFmhVK9d8p4thchuoPd1uuhxSH
+CIHJXnIEnw==
+=jlff
 -----END PGP SIGNATURE-----
 
---===============2650201976904857239==--
+--===============6142035907859799955==--
