@@ -1,27 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 20 Feb 2024 21:30:57 -0000
-Message-Id: <170846465767.7412.488541265518074795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 20 Feb 2024 21:43:20 -0000
+Message-Id: <170846540044.16277.18407347689486890106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 99eb229fd48bd82692e6f534d3b239db0de06f01
-    new: 5b44d15f9096d83f52c559240a89c21827691ccd
+  - ref: refs/heads/100GbE
+    old: 23f9c2c066e7e5052406fb8f04a115d3d0260b22
+    new: 080b0c8d6d261b400f24bb1075fbab8c6daaf69e
     log: |
-         cfeda05a7f7516be36e50e623f9d0501378ecf3f foo
-         7fec2ff0b1bfe2bfb04e45db9b7d54ab73815ef0 foo
-         b8810e910f4abae5db86aeb54abc418f400ce290 foo
-         3bc9929ac0cae86b7d537c5fc864480694fbb2e0 foo
-         53d66b0ce68f4b6a5ed3261a30be14e0d1f5800f foo
-         a4dee67b7fc0f1b8849cfc2e3174072ddd76c749 foo
-         13a3d04a58c79af5c39712326181d8e69df8f88f foo
-         4e8ea242f978988a573493524947efa02b8289a7 foo
-         5b44d15f9096d83f52c559240a89c21827691ccd foo
+         e8335ef57c6816d81b24173ba88cc9b3f043687f ice: fix connection state of DPLL and out pin
+         3b14430c65b4f510b2a310ca4f18ed6ca7184b00 ice: fix dpll input pin phase_adjust value updates
+         fc7fd1a10a9d2d38378b42e9a508da4c68018453 ice: fix dpll and dpll_pin data access on PF reset
+         9a8385fe14bcb250a3889e744dc54e9c411d8400 ice: fix dpll periodic work data updates on PF reset
+         ee89921da471edcb4b1e67f5bbfedddf39749782 ice: fix pin phase adjust updates on PF reset
+         080b0c8d6d261b400f24bb1075fbab8c6daaf69e ice: Fix ASSERT_RTNL() warning during certain scenarios
          
