@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 20 Feb 2024 19:05:27 -0000
-Message-Id: <170845592719.29671.18266522977233266374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 20 Feb 2024 19:23:56 -0000
+Message-Id: <170845703659.10137.13811426049786432261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 96fb2aab16bf3eb2fd69477fff9e70f128b52d30
-    new: 25956d989c603a269aeb04336164acef82da50c5
+  - ref: refs/heads/dm-6.9
+    old: 66fa9c85c0f13e2f287267393aa1b2681c28c151
+    new: fa34e5893ff2d5b0174c124a29e1be6d0426a169
     log: |
-         76912dcbabc64f2a8b405edc9ea7cc00e14bd63d Bluetooth: btbcm: Use strreplace()
-         d095e06a156945f8461510341f3a488b08372018 Bluetooth: btbcm: Use devm_kstrdup()
-         8a496378559fc8029ddcb05813067e9fe51890f6 Bluetooth: constify the struct device_type usage
-         55a7c10e71ae464444303a66128e6c272b295a8c Bluetooth: hci_sync: Fix UAF on hci_abort_conn_sync
-         df90bef42e65d3a3ea2a449515167a786f4d64b8 Bluetooth: hci_sync: Fix overwriting request callback
-         25956d989c603a269aeb04336164acef82da50c5 Bluetooth: hci_sync: Fix UAF on create_le_conn_complete
+         6e5f0f6383b4896c7e9b943d84b136149d0f45e9 dm io: Support IO priority
+         e9b2238e47cb66521381c0bf9234e979afa19d77 dm bufio: Support IO priority
+         d95e2c34a3ca76861014cde4205934e434c27c45 dm verity: Fix IO priority lost when reading FEC and hash
+         5d8d40815314684af2593c075e6eee1afb42bb92 dm crypt: Fix IO priority lost when queuing write bios
+         9356fcfe0ac4a8545f9fc32f2e404524e1115ee6 dm verity: set DM_TARGET_SINGLETON feature flag
+         86ab1b84b257bce8110947f563e168498d2d3860 dm ioctl: update DM_DRIVER_EMAIL to new dm-devel mailing list
+         fa34e5893ff2d5b0174c124a29e1be6d0426a169 dm: update relevant MODULE_AUTHOR entries to latest dm-devel mailing list
          
