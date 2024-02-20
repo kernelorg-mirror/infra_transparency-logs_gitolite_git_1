@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4921521617110096361=="
+Content-Type: multipart/mixed; boundary="===============0254345412355713512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 20 Feb 2024 17:29:39 -0000
-Message-Id: <170845017942.21748.15302666706521383287@gitolite.kernel.org>
+Date: Tue, 20 Feb 2024 17:43:45 -0000
+Message-Id: <170845102565.327.3234132888950698985@gitolite.kernel.org>
 
---===============4921521617110096361==
+--===============0254345412355713512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 71b605d32017e5b8d257db7344bc2f8e8fcc973e
-    new: 4934446297c292611d3b6cd388efb215f2ba5698
-    log: revlist-71b605d32017-4934446297c2.txt
+  - ref: refs/heads/dev-queue
+    old: 6cffde791c4f1c276fdfcf068554c3c77de35f40
+    new: a2662936c48bc0621df736e1fe8dc0934a04008f
+    log: revlist-6cffde791c4f-a2662936c48b.txt
 
---===============4921521617110096361==
+--===============0254345412355713512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71b605d32017-4934446297c2.txt
+Content-Disposition: attachment; filename=revlist-6cffde791c4f-a2662936c48b.txt
 
 e517293fd72d9044902efae59f05203203a60736 can: m_can: remove redundant check for pm_clock_support
 b00cf4f62969eb7067bc44851de9519953a7ae01 dt-bindings: can: tcan4x5x: Document the wakeup-source flag
@@ -69,5 +69,47 @@ bb18fc7a521b41bfee201643f65d7b74bc6b901f Merge branch 'abstract-page-from-net-st
 5d4cc87414c5d11345c4b11d61377d351b5c28a2 net: reorganize "struct sock" fields
 219eee9c0d16f1b754a8b85275854ab17df0850a net: skbuff: add overflow debug check to pull/push helpers
 4934446297c292611d3b6cd388efb215f2ba5698 Merge tag 'linux-can-next-for-6.9-20240220' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+481bb5dd7dfdfea367dd553fd56a309f9e566d04 ice: Add support for devlink loopback param.
+517f74b28c4555a702f2981ae56409087cac4f0d e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+22563208201b32bf2420c4a594dd0ae00082364f e1000e: Minor flow correction in e1000_shutdown function
+52732bfbd5bbc96539626237799f1c2f01ffce6a iavf: fix reset in early states
+c738fe9f44bea9280b6a1818f8409338daa240f4 iavf: allow an early reset event to be processed
+7798f10f15a5fa9ec5fa2c454ba2151c600c4611 ice: fix connection state of DPLL and out pin
+7bc77b6e54c50b1500a17b6fa72e3104146ef61d ice: virtchnl: stop pretending to support RSS over AQ or registers
+a9b8a7ba1c49ef24708a23dd4ebe7c2f03ca90c2 ice: remove eswitch changing queues algorithm
+e6a3d230de0d34b4088ebb05c1e5bde567d6444d ice: do Tx through PF netdev in slow-path
+7fce80800fca2cd61896d33056914fb55572ab4f ice: default Tx rule instead of to queue
+3357772ae6dc01a4a4064ad591959bbd03232ea3 ice: control default Tx rule in lag
+5520d5ccc86059348a462c7e17f655e0312d332b ice: remove switchdev control plane VSI
+5a2d23eb8b07c05a18bca97b85d599209a3a32bf ice: change repr::id values
+19dc1700890ad2d2f14e3fb5e9fdde1d16b42fd5 ice: do switchdev slow-path Rx using PF VSI
+452865b31828869062497158861a4b4b7f87e351 ice: count representor stats
+1d866c9c225695401c8a071e111e74e489a6555c ice: Refactor FW data type and fix bitmap casting issue
+c7e79911739ad8d57b622b79e2d713f7b6c46130 idpf: implement virtchnl transaction manager
+a20a6412712a66f1a085b4372fa1ccd796da7dca idpf: refactor vport virtchnl messages
+e5c284984b37ebc78122191a9eb3c6e484f1825a idpf: refactor queue related virtchnl messages
+2599dad1f5562655e72dcafe310ae9b45c3c44b7 idpf: refactor remaining virtchnl messages
+c02f5448ea8a4713ea47db76f565b9cb2d2e61fa idpf: add async_handler for MAC filter messages
+627f167d861b1d471970180d4b1a585923135292 idpf: refactor idpf_recv_mb_msg
+2075934e315d435691ba4ab3e112608fa7220bd0 idpf: cleanup virtchnl cruft
+980cd737b7578cc448ff88c33e6bf2228b644022 idpf: prevent deinit uninitialized virtchnl core
+1c82d07b2698d2ce867b4e75eeb2cbf2f205d003 idpf: fix minor controlq issues
+07e201d3863643482149879065fd69838eedc254 idpf: remove dealloc vector msg err in idpf_intr_rel
+63a6652a44846bc61a7a0f4a6f772fe2847a742d idpf: disable local BH when scheduling napi for marker packets
+3f4e2bb397322795f1225944b0b6bd4ebc5481ab ice: Add switch recipe reusing feature
+d40d2bb04c41b00453343b32a11f2436fd11cd1c ice: fix dpll input pin phase_adjust value updates
+c32b5f0df0f787599db267921dc1e71bfc1d14e3 ice: fix dpll and dpll_pin data access on PF reset
+7357f46ba6ace1a04882c41279c3263ec29f1f55 ice: fix dpll periodic work data updates on PF reset
+e2be3bd72eedcc20a1c480242ef22407067a0e19 ice: fix pin phase adjust updates on PF reset
+61ed3d79e10c72bfcea76fe9e2a4c8d7ad9a4f51 igb: simplify pci ops declaration
+2e9fa09c616fb8d168989a6d098db936508be37b net: intel: implement modern PM ops declarations
+862c2b331056c3e901d0001d5ce9b053e79ff43c igc: Refactor runtime power management flow
+2d5bcc5516c57d105567ee01fcac498c97174ab3 igb: extend PTP timestamp adjustments to i211
+29231d229fdbcc7676111d4cb3f9dbbe1f51b371 ice: Fix ASSERT_RTNL() warning during certain scenarios
+4d8ca8b8c8637df62947bdfdcfddc01b881b8018 ethtool: Add GTP RSS hash options to ethtool.h
+a193ea20bb5a35f894b3cd0853bd4ff770932ea0 ice: Implement RSS settings for GTP using ethtool
+ac46ec19c424cd276dd7b39727ad623337c733e7 ice: Remove unnecessary argument from ice_fdir_comp_rules()
+ac5c6858864cf174676a7df12d6e183c67ffedf6 ice: Implement 'flow-type ether' rules
+a2662936c48bc0621df736e1fe8dc0934a04008f intel: make module parameters readable in sys filesystem
 
---===============4921521617110096361==--
+--===============0254345412355713512==--
