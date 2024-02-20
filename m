@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Tue, 20 Feb 2024 15:29:37 -0000
-Message-Id: <170844297708.19000.10313818301523107890@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0506530293296309801=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 20 Feb 2024 15:31:55 -0000
+Message-Id: <170844311589.22311.9869449250833111206@gitolite.kernel.org>
+
+--===============0506530293296309801==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: e6fd9a2cba54f597099dc5b13de64d1a83cba574
-    new: 00444ee7c8bf259467a40ad0696240fb3862abab
+    old: fe18fedd9f47616b806082e5e2aea0b6e4b54d5c
+    new: 45d75eff4a438e36100afb59e72628b4107d2ae0
     log: |
-         600173832604c1dd2e4146b25d555ed5cd979cf2 smsutil: Remove g_string_* use
-         b72a40986eaf99f82838a34dbdc7638bec3fbd36 phonebook: Remove g_string_* use
-         a590cd1e47c2521db2ea7035e6fd402f024caeb2 treewide: Make modem drivers builtin
-         772eac040735a8c3651913abc42885e3571e4690 caif: Remove caif plugin
-         befa5fc9629ba962c798c6ef1571587b90d5ac3a qmimodem: call-forwarding: Fix possible buffer overflow
-         6984ddd426945f96aa01173513c682853daefc95 qmimodem: Support 16-bit service types
-         00444ee7c8bf259467a40ad0696240fb3862abab qmimodem: Fix checkpatch.pl warnings and errors
+         45d75eff4a438e36100afb59e72628b4107d2ae0 5.10-stable patches
          
+
+--===============0506530293296309801==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708443114 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1708443109-113d32349a3db051cc459270887a354cab440a74
+
+fe18fedd9f47616b806082e5e2aea0b6e4b54d5c 45d75eff4a438e36100afb59e72628b4107d2ae0 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXUxesbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l2MQALfNoi3VH/i+K8R1o4MQ
+YpUkaYSgz2Vt0/+AD2yTArGF3m115S9OhOFxgNqKX/f70TvuazCOJl4Os8xRX8WP
+n2Wb9PQaN3Rj6RRQL8a1ujphI4UAPc0YKNOBmVnZly1JGn9Grm2okKnAUst9tEhD
+pExZmrPDqYFoEstunQFICNxFWWMU0+S7yGOia4J2zY1Z4Kw6Fx6cP4buFy9zoMdT
+8cjpovFzT6w4QjlaIIrXiap6PVTewots06NrCaFJ5Jl0oKofgMCqnYO7iQOWSdZk
+IWbQDofGridKkFVNuaLh8MvnWmMvnN31CJUzkcdkuhyHo0CvbtZpvmwLS68y78TA
+ar+1449D+sUUIwfWsF6e37khGJNlAEocCparwu7te77H68C9wD2xEklocGqmLB06
+jkV2QEj1MfL3Ww0Z/r733S8yDe/2Y62XZWHfcxYIlDfju7BvI8l5x99O/Hom2icd
+qOySppMTbXVSlFNv8kzUP9yOZNvOpYhvxMoEMP5Tb8YcNiFONcrUI9zNweXYzO+2
+FY0nfl+hO2layRgrWbH1FsZwGQUQfZdsEi5uVdBMugSYmnDbiOi0pfWwB5e/uRQL
+nhBQ8SX9mXDgHSW9R6QHPT0qOMgk4pwXvt1f6a8z5+l1vlWFg5O04npq+CFBTciA
+nSWFiTkTtuPGdhBlogVB1fHz
+=oyIv
+-----END PGP SIGNATURE-----
+
+--===============0506530293296309801==--
