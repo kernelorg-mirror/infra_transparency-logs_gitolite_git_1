@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0312004101476198233=="
+Content-Type: multipart/mixed; boundary="===============5109724689568069866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Tue, 20 Feb 2024 16:59:57 -0000
-Message-Id: <170844839704.31391.1784940957618042437@gitolite.kernel.org>
+Date: Tue, 20 Feb 2024 17:00:31 -0000
+Message-Id: <170844843183.1022.13260869750336626634@gitolite.kernel.org>
 
---===============0312004101476198233==
+--===============5109724689568069866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,31 +17,35 @@ user: vbabka
 git_push_cert_status: E
 changes:
   - ref: refs/heads/b4/slab-cleanup-flags
-    old: 0000000000000000000000000000000000000000
-    new: 4f5baf453b36da37d195a99dc2645a8dd554da5f
+    old: 4f5baf453b36da37d195a99dc2645a8dd554da5f
+    new: 95c527f4e5dd5245977e9625ec6e1197dc0e733b
+    log: |
+         9cd1bbdf6848577e2e1c1a3cab62dbe91b993439 mm, slab: use an enum to define SLAB_ cache creation flags
+         95c527f4e5dd5245977e9625ec6e1197dc0e733b mm, slab, kasan: replace kasan_never_merge() with SLAB_NO_MERGE
+         
 
---===============0312004101476198233==
+--===============5109724689568069866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1708448392 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1708448428 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1708448392-ec544e1c0e01900141bf4169d59cb980bd2485f6
+nonce 1708448427-90da52cb8a023b0ef45326c4c7ff345613c40b53
 
-0000000000000000000000000000000000000000 4f5baf453b36da37d195a99dc2645a8dd554da5f refs/heads/b4/slab-cleanup-flags
+4f5baf453b36da37d195a99dc2645a8dd554da5f 95c527f4e5dd5245977e9625ec6e1197dc0e733b refs/heads/b4/slab-cleanup-flags
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmXU2ogACgkQu+CwddJF
-iJq9LAf+Lmb+3w0M2B49bx/j5hpDaxriYERslBt3j/10S1F2qcaKNUjmOgTnr5ua
-vKXwVHD28qeIwDy+sKuu48pUdgitUVJc4cKIReitFEs9hDBHLzmCwuRLWra7wbGh
-XUjaos2rSDOL8YNU/Afbrp61/7gCRB72VnYmM0EnICi5OYNM+6AzGYRI+fzBCENB
-H88sT1aT5m0h6mkdNZ1ybIXBtu8CkqjyZYtajInUEeEpf5nrKsracv1Q/24ab+du
-X26wH6jiTKf5Mv97v9YbfE99kVISFTqutnDaPgNrW+bzo4OnVre9epznseacgv6y
-tgELoEOjpJ2tcN45+w5TRv1ZTorgpg==
-=kkzH
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmXU2qwACgkQu+CwddJF
+iJq+lQf/cpOgP7yfmNrTCddOqQAQyZ+KcxxkMew+D8/FBXs9ofTIFdu+sWISRd5W
+ixIlUxJ3Ge3C4eR3tibNOdMVwCWn4XiHtDZCEwCh3GbNwSxddfzdqv2MTbBCd1Sj
+tEK7Kt2Ccsi5wHAAthGVb/QoRsqdPaEnaTEBWwl3aI6PActhcbXlCUL7NBcWPjy/
+uhibm4XA3tIoaC7AFBmKbplZd4XGucutZiCLRwyRq0LSJ+0Sp93C+VhyEIH5xaUI
+Bh9Axeb5Kj4boNW917CkHciHG2JHI0FQf3ecKYfKsGPMkNAsviw4XlxRT4yZCXH4
+6wsdXaUv8JS7H6hTJYBk3bXf4hqn2g==
+=/Xke
 -----END PGP SIGNATURE-----
 
---===============0312004101476198233==--
+--===============5109724689568069866==--
