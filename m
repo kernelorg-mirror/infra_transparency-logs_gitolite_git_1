@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Tue, 20 Feb 2024 08:08:39 -0000
-Message-Id: <170841651984.5207.12500469288963386501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 20 Feb 2024 08:10:50 -0000
+Message-Id: <170841665027.7641.14472701431689137407@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: b29704cd448aaa455dba4e656fc0f0d3c686df3f
-    new: e98cef6f3f8cd6f8bfb26d147b2c209297453cca
+  - ref: refs/heads/vfs.pidfd
+    old: b96784a5f82406f559841bdc14652524ecc5f5cb
+    new: b0df368dc953d04250bc76ab669491b0940c41ed
     log: |
-         607abb818a5249292f08c0e8602a5a62d12e42a5 configure: tweak the module_directory help string
-         e98cef6f3f8cd6f8bfb26d147b2c209297453cca make: install/uninstall tools symlinks to kmod
+         6f188d853cb13218eb4349605b6cc212af796d16 pidfd: add pidfs
+         122f7620625a4637d6a85f626a6dd795c2adfd3a libfs: add path_from_stashed()
+         7ff09a4d26451bc4a7ec06a506e0ad741d89b6a0 nsfs: convert to path_from_stashed() helper
+         93c886eb45dfb76a6f785da0cf69f22216c21bfe pidfdfs: convert to path_from_stashed() helper
+         b0df368dc953d04250bc76ab669491b0940c41ed libfs: improve path_from_stashed() helper
          
