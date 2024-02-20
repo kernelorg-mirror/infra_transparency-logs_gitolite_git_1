@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 20 Feb 2024 08:21:13 -0000
-Message-Id: <170841727378.14861.15619307212052291303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 20 Feb 2024 08:34:42 -0000
+Message-Id: <170841808277.22699.4245433184716327257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/vfs.pidfd
-    old: b0df368dc953d04250bc76ab669491b0940c41ed
-    new: 73d98ca0b54579908fa6a0a8df7f5bf2ddc38e54
+  - ref: refs/heads/main
+    old: 74293ea1c4db62cb969e741fbfd479a34d935024
+    new: bb18fc7a521b41bfee201643f65d7b74bc6b901f
     log: |
-         bb8576deed306ec1ccebdccc4aa9664ed2db5514 pidfd: move struct pidfd_fops
-         193d98b1d3aa72761cf7a9cae5f8ac9933ef4d0a pidfd: add pidfs
-         5d910367b75254981f5ebb40b0dadca91a8c2912 libfs: add path_from_stashed()
-         b46d6924a876dbc445e63e8ce1fed2b3d2f54081 nsfs: convert to path_from_stashed() helper
-         26c747b339da14f146425672a0f6058e917628b8 pidfdfs: convert to path_from_stashed() helper
-         73d98ca0b54579908fa6a0a8df7f5bf2ddc38e54 libfs: improve path_from_stashed() helper
+         18ddbf5cf0e7553fd05c3e1a02d740514ee3f0a6 net: introduce abstraction for network memory
+         21d2e6737c9789aa9b23c8a4131cbca8260139fd net: add netmem to skb_frag_t
+         bb18fc7a521b41bfee201643f65d7b74bc6b901f Merge branch 'abstract-page-from-net-stack'
          
