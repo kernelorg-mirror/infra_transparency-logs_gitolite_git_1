@@ -1,53 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3448081928858704084=="
+Content-Type: multipart/mixed; boundary="===============6909110802485473474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 20 Feb 2024 09:11:16 -0000
-Message-Id: <170842027611.19590.4789917211899816000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 20 Feb 2024 09:11:45 -0000
+Message-Id: <170842030573.19846.17879015824724133664@gitolite.kernel.org>
 
---===============3448081928858704084==
+--===============6909110802485473474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo
-    old: b27bb403e136b12cafeff4467d495bbc8c9b7441
-    new: d954c68aa3b33bb501e3a310cac3efcfb94c568a
+  - ref: refs/heads/master
+    old: ca469ed7179c79c7ee78f26306c448c4fefad3a2
+    new: 95b5e38416174ac8243ce2b4d3e11299c77e9663
     log: |
-         ee8b738e7f7adf78700afd9ab9642fe015464885 platform/x86: thinkpad_acpi: Simplify thermal mode checking
-         301c1904d638ea9f9c9da34952a63faa5ceed26b platform/x86: thinkpad_acpi: Fix to correct wrong temp reporting on some ThinkPads
-         611d56d76dee8fb4a362cda7eec787cec70dac75 platform/x86/fujitsu-laptop: Add battery charge control support
-         4ba225a3f827b0be38e8c8e71851d0143b5777ee platform/x86: wmi: Prevent incompatible event driver from probing
-         d0f882e6928eb2fa65776de916f20a46017a00aa platform/x86: wmi: Check if event data is not NULL
-         a7a77ff35381b10409b97d0cdc9a7e84748978e0 platform/x86: wmi: Always evaluate _WED when receiving an event
-         f0e402827f35898852d15303c382f550e7ec8640 platform/x86: wmi: Update documentation regarding _WED
-         d954c68aa3b33bb501e3a310cac3efcfb94c568a Revert "platform/x86: asus-wmi: Support WMI event queue"
+         95b5e38416174ac8243ce2b4d3e11299c77e9663 6.6-stable patches
          
 
---===============3448081928858704084==
+--===============6909110802485473474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1708420271 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1708420272-39ab42912675db617ea0c81e18a2b0f001c5455a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708420304 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1708420297-12136609c1a4262ef87b4520ff9f7c779ab83acc
 
-b27bb403e136b12cafeff4467d495bbc8c9b7441 d954c68aa3b33bb501e3a310cac3efcfb94c568a refs/heads/review-ilpo
+ca469ed7179c79c7ee78f26306c448c4fefad3a2 95b5e38416174ac8243ce2b4d3e11299c77e9663 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZdRsswAKCRBZrE9hU+XO
-MS9OAPsE1Z2mNvvII/vgvHY7YR0vxiY0qCGsHLL2BgaRC/n6mQD/ZfRwWXZ1DDT+
-oSAdhbzhYFkd+JjnPUqhXaFheTNQQAg=
-=Jh/G
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXUbNAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IEMQAMrACc2SwEn283fYLu0x
+nSrZZp660eDw6HvMVRxWaY4p6JYM4ff8Ol8zkrJqMTmNvHF6/HJ8Q8qRbArRR1ET
+c52qdj5RYCvCb7nGroQSCbWAgV5aMaNBMEc3ba4AMnO4TeqK+I1CFeNIWDR/Tv0/
+95ip2IyH27H3VM6aLu8CUILSy3V8MpLGIfxXetQfw53/dfYiYVD25IiUfvimkPYt
+KkXqwyO+AuJ6YjTcXNEFJkSu53HnJJVOffkbBrLqOqE702QwcYQSklK7VJVS7lSe
+nddr+vt6SRmlCRCM5L0k5DqmcwGxAPG36GScFov1ft76qs8GlNPouTbxscJ/rtIr
+NY+pQP4TQncjwfzdEXwNJ7o+K1Y7jb7pJpsaAVy06FRqUNPFDS+z30F3Xb0Sq6Tc
+SvoUHMv8/hUiDly76Z+bqcqY206bmudgBGbR0M2lN61IpEZ6q3fo5IPpChFhAMzA
+9G9LvaAik7MyZyX6T/EtAy6PsWA07kFhRmyM4DIzlJa2Fs1Q0bdfAxeTqWrXWVPZ
+WtlgRCjghxhlgCyAohSKFS6aMVuhN1l4tnMMAlOj245hVLbRgYe7MqA8FCYKiO0w
+4bivBxuLhhzdg1Y0L0mqWzOaQj1BbqBIOgUAyrsCH61czzhQMwRNS+ZDd+wx6mno
+gtj40vqk+sxWv4q7lCXdq8Ol
+=Y3gR
 -----END PGP SIGNATURE-----
 
---===============3448081928858704084==--
+--===============6909110802485473474==--
