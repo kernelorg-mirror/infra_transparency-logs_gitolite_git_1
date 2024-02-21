@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3776867685100800679=="
+Content-Type: multipart/mixed; boundary="===============8548923597600106654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 21 Feb 2024 17:17:52 -0000
-Message-Id: <170853587265.11952.5770444337080921282@gitolite.kernel.org>
+Date: Wed, 21 Feb 2024 17:18:13 -0000
+Message-Id: <170853589306.12155.2830617176047453058@gitolite.kernel.org>
 
---===============3776867685100800679==
+--===============8548923597600106654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 4934446297c292611d3b6cd388efb215f2ba5698
     new: ca61ba3885274a684c83d8a538eb77b30e38ee92
     log: revlist-4934446297c2-ca61ba388527.txt
 
---===============3776867685100800679==
+--===============8548923597600106654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -439,4 +439,4 @@ ee2b4cf8b281606bbf332cbd73ce2a73eac417f0 net: bcmgenet: Pass "main" clock down t
 ba0b78371c46b2104197ff2c244f13f011ddfa80 Revert "net: bcmgenet: Ensure MDIO unregistration has clocks enabled"
 ca61ba3885274a684c83d8a538eb77b30e38ee92 Merge branch 'rework-genet-mdioclocking'
 
---===============3776867685100800679==--
+--===============8548923597600106654==--
