@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Wed, 21 Feb 2024 00:30:02 -0000
-Message-Id: <170847540260.5473.12788853387461997917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Wed, 21 Feb 2024 00:31:31 -0000
+Message-Id: <170847549176.7019.8628473746122749539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/jgg/iommufd
+user: jgg
 changes:
-  - ref: refs/heads/next
-    old: 2851f57d2dabd76a79365b78fedc80d2ed3ac2d8
-    new: 6f1a214d446b2f2f9c8c4b96755a8f0316ba4436
+  - ref: refs/heads/for-rc
+    old: 28b9f669e10f5584aba9856c5aa9d86d64ec9f69
+    new: 4bbcbc6ea2fa379632a24c14cfb47aa603816ac6
     log: |
-         5bc9dc068afe95e924136d57c1a385194282a919 selftest: ftrace: fix minor typo in log
-         3425a2005b291b62b6f6deeeab1156839c41cf85 selftests/ftrace: Add test to exercize function tracer across cpu hotplug
-         85506aca2eb4ea41223c91c5fe25125953c19b13 selftests/mqueue: Set timeout to 180 seconds
-         6f1a214d446b2f2f9c8c4b96755a8f0316ba4436 selftests: sched: Fix spelling mistake "hiearchy" -> "hierarchy"
+         a4ab7dedaee0e39b15653c5fd0367e420739f7ef iommufd/iova_bitmap: Bounds check mapped::pages access
+         d18411ec305728c6371806c4fb09be07016aad0b iommufd/iova_bitmap: Switch iova_bitmap::bitmap to an u8 array
+         42af95114535dd94c39714b97ad720602d406b9a iommufd/selftest: Test u64 unaligned bitmaps
+         2780025e01e2e1c92f83ee7da91d9727c2e58a3e iommufd/iova_bitmap: Handle recording beyond the mapped pages
+         407fc184f0e0bfde61026d6ce3fb1e70a15159a3 iommufd/selftest: Refactor dirty bitmap tests
+         02a8c61a8b06a4a082b58c3e643b28036c6be60f iommufd/selftest: Refactor mock_domain_read_and_clear_dirty()
+         7db521e23fe9e36855b61b01a67291281118570e iommufd/selftest: Hugepage mock domain support
+         fe13166f0562117c42fc60a109e664a914523e63 iommufd/selftest: Add mock IO hugepages tests
+         4bbcbc6ea2fa379632a24c14cfb47aa603816ac6 iommufd/iova_bitmap: Consider page offset for the pages to be pinned
          
