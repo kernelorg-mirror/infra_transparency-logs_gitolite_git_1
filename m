@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Wed, 21 Feb 2024 14:44:55 -0000
-Message-Id: <170852669557.10735.17259238712437025178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 21 Feb 2024 14:50:03 -0000
+Message-Id: <170852700398.15926.15934215188870481523@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/mediatek-cmdq10
-    old: 99381db67ea3c42dcad9aa6bacb88dac23c613e2
-    new: f31631ccb5220215ef32321bc23d904a99898a6d
+  - ref: refs/heads/for-6.9/block
+    old: e440626b1caf3767eda2d78610dfdc0ae7fd5238
+    new: a3911966bd51b05488203e6e685c4a09fdc52b77
     log: |
-         f31631ccb5220215ef32321bc23d904a99898a6d media: platform: mtk-mdp3: drop calling cmdq_pkt_finalize()
+         a3911966bd51b05488203e6e685c4a09fdc52b77 block: fix virt_boundary handling in blk_validate_limits
          
