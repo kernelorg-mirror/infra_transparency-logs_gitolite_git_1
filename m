@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Wed, 21 Feb 2024 15:10:00 -0000
-Message-Id: <170852820081.29791.12056975444492751442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 21 Feb 2024 15:10:18 -0000
+Message-Id: <170852821803.31566.9104864109960233234@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/mediatek-cmdq10
-    old: 7d36f1370bbc8d519213b3715fa7a77dc7149a70
-    new: 6b35fef609f91e0fa54fd0884a4ced52788f5a13
+  - ref: refs/heads/vfs.pidfd
+    old: 53ea4d825a6dab4561b3e4658374fbae535dd70e
+    new: 398275624f3b72cbf6628feb0f2888dcccb713a3
     log: |
-         6b35fef609f91e0fa54fd0884a4ced52788f5a13 soc: mediatek: cmdq: Refine cmdq_pkt_create() and cmdq_pkt_destroy()
+         862f919b4e42be28b3e2534a3999d63119c02a0f libfs: improve path_from_stashed() helper
+         398275624f3b72cbf6628feb0f2888dcccb713a3 libfs: add stashed_dentry_prune()
          
