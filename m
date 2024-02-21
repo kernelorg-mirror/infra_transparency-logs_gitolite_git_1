@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2034703950476312512=="
+Content-Type: multipart/mixed; boundary="===============7598798718066634060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Wed, 21 Feb 2024 10:59:33 -0000
-Message-Id: <170851317353.30406.5615277794586270893@gitolite.kernel.org>
+Date: Wed, 21 Feb 2024 11:00:28 -0000
+Message-Id: <170851322863.32513.2123696901119090691@gitolite.kernel.org>
 
---===============2034703950476312512==
+--===============7598798718066634060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: 219eee9c0d16f1b754a8b85275854ab17df0850a
-    new: b0117d136bb9e4a1facb7ce354e0580dde876f6b
-    log: revlist-219eee9c0d16-b0117d136bb9.txt
+  - ref: refs/heads/testing
+    old: c2af56c2c104253847218be43e64f14499826ab4
+    new: 18ded4442cfa6b83d57b180fb87ad81a67aca235
+    log: revlist-c2af56c2c104-18ded4442cfa.txt
 
---===============2034703950476312512==
+--===============7598798718066634060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-219eee9c0d16-b0117d136bb9.txt
+Content-Disposition: attachment; filename=revlist-c2af56c2c104-18ded4442cfa.txt
 
 e517293fd72d9044902efae59f05203203a60736 can: m_can: remove redundant check for pm_clock_support
 b00cf4f62969eb7067bc44851de9519953a7ae01 dt-bindings: can: tcan4x5x: Document the wakeup-source flag
@@ -54,5 +54,17 @@ e443f3acbc6d9ac4f7b138833cc93319294f58e3 net: geneve: constify the struct device
 7eccf41b3bacb97092bffb23853529277c20e46a net: wwan: core: constify the struct device_type usage
 55fad9c4a3c40f6853ce4570b69d5f8774c443b7 net: hso: constify the struct device_type usage
 b0117d136bb9e4a1facb7ce354e0580dde876f6b Merge branch 'net-constify-device_type'
+aa23cfe6ab500dbbfa630602b403f433522daf9f netfilter: expect: Simplify the allocation of slab caches in nf_conntrack_expect_init
+79578be4d35c842a802487e2f31c2aed80cc005f netfilter: nf_log: consolidate check for NULL logger in lookup function
+c47ec2b120b4a9d573e65baa33ff3f542f7ba273 netfilter: nf_log: validate nf_logger_find_get()
+29a280025580d72bc0daf6c040518a069870421f netfilter: nft_osf: simplify init path
+749d4ef0868c5d8a98e07073791b2198178c93b4 netfilter: xtables: fix up kconfig dependencies
+f04df573faf90bb828a2241b650598c02c074323 netfilter: nft_set_pipapo: constify lookup fn args where possible
+07ace0bbe03b3d8e85869af1dec5e4087b1d57b8 netfilter: nft_set_pipapo: do not rely on ZERO_SIZE_PTR
+aac14d516c2b575af20b426fa04129a28d45c287 netfilter: nft_set_pipapo: shrink data structures
+9f439bd6ef4f60c8a37bd9138fa9ed9b5e7ae0d7 netfilter: nft_set_pipapo: speed up bulk element insertions
+910b1abfcb8bcbca3c60c1b808154d9e7019bd58 netfilter: nft_set_pipapo: use GFP_KERNEL for insertions
+f6010e63d71dab8096ecf73ff5ac57ed5c64cd95 netfilter: move nf_reinject into nfnetlink_queue modules
+18ded4442cfa6b83d57b180fb87ad81a67aca235 netfilter: x_tables: Use unsafe_memcpy() for 0-sized destination
 
---===============2034703950476312512==--
+--===============7598798718066634060==--
