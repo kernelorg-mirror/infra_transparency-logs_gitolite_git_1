@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Wed, 21 Feb 2024 14:07:39 -0000
-Message-Id: <170852445901.16285.6089411910514321792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Wed, 21 Feb 2024 14:14:00 -0000
+Message-Id: <170852484015.20338.12638606807986842810@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-next
-    old: 8026dced77f2662a228a6f92ea4bceacc5b735d3
-    new: 15e1567404d7906acf9683672f5ae1d977bd8fbf
+  - ref: refs/heads/hwmon
+    old: 841c35169323cd833294798e58b9bf63fa4fa1de
+    new: 4a2f79976725d69001e29fd20684ec38b3bd3daf
     log: |
-         d881d79f8c77d7f9935a8d9424a1dc4364787bf1 arm64: dts: amlogic: add fbx8am DT overlays
-         15e1567404d7906acf9683672f5ae1d977bd8fbf Merge branch 'v6.9/arm64-dt' into for-next
+         4a2f79976725d69001e29fd20684ec38b3bd3daf nct6775: Fix access to temperature configuration registers
          
