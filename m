@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 21 Feb 2024 17:08:37 -0000
-Message-Id: <170853531779.4516.4683817412901836242@gitolite.kernel.org>
+Date: Wed, 21 Feb 2024 17:09:53 -0000
+Message-Id: <170853539327.5060.100530031195419750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 23f9c2c066e7e5052406fb8f04a115d3d0260b22
     new: 14dec56fdd4c70a0ebe40077368e367421ea6fef
     log: |
