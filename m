@@ -1,50 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5690043729952015955=="
+Content-Type: multipart/mixed; boundary="===============4223260383061149217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 21 Feb 2024 00:50:50 -0000
-Message-Id: <170847665013.22445.18325754498727202737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 21 Feb 2024 00:51:00 -0000
+Message-Id: <170847666053.22606.377199401074380731@gitolite.kernel.org>
 
---===============5690043729952015955==
+--===============4223260383061149217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.8
-    old: 0db0c1770834f39e11a2902e20e1f11a482f4465
-    new: e33625c84b75e4f078d7f9bf58f01fe71ab99642
+  - ref: refs/heads/for-6.9
+    old: d68ce3aa8142333a96a071a9a0207f21c04e54cc
+    new: 055100d1a3b27ce154b3e3041d3cef24778821b3
     log: |
-         e33625c84b75e4f078d7f9bf58f01fe71ab99642 ASoC: cs35l56: Must clear HALO_STATE before issuing SYSTEM_RESET
+         6037733963b8d4cd9ff9c1cabd3017ac5c1af1af regulator: pwm-regulator: Use dev_err_probe() for error paths in .probe()
+         055100d1a3b27ce154b3e3041d3cef24778821b3 regulator: core: Remove redundant assignment to variable possible_uV
          
 
---===============5690043729952015955==
+--===============4223260383061149217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1708476648 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1708476648-2fc3427477812494f64cf19412ee1aff5ea36e8b
+pusher C3F436CA30F5D8EB 1708476659 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1708476658-6c5220bf62e38287e5fda96d947de97382fea8bc
 
-0db0c1770834f39e11a2902e20e1f11a482f4465 e33625c84b75e4f078d7f9bf58f01fe71ab99642 refs/heads/asoc-6.8
+d68ce3aa8142333a96a071a9a0207f21c04e54cc 055100d1a3b27ce154b3e3041d3cef24778821b3 refs/heads/for-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXVSOgACgkQJNaLcl1U
-h9BAawf9HpbrOvkfnjnut3IEF0ze7nAVlolV2MN4jQbulgzffwCsA7cMnLcLqb/G
-uFh96jNm75Hu0n5SsNj5LVUw2/9XvW5SBh+KjuErFL5qlshK38hIQHnB6Ne82+Nr
-YDyQo9gCJvI2wjgAAxlMqT/SeBJ7Irs7YWbCDOmIpEaiLarKkeN+Z8faf28II9Sl
-u8Bb+jgJ25JCYfdwppXf+Hp3zF2iC0VYtrUHYv3LEcQMsWBmoska6EMD81sy2pDL
-moBxXwQiHS0ZxKLvfOqlX7Xh7RK/GZZrYp1h6mY3qLechzAPW8EQJ2P9k7HBAW/c
-f0t4l6tvSadV8K7gNP6AKiqzBLIXTw==
-=Ppwq
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXVSPMACgkQJNaLcl1U
+h9C2Kgf/QPeJQZPx+Z64tZDTc7JsUMbwmmxN6gSl+UoArDqE0amdfB841jajPDER
+I17GL1+dEiWk0rV2Ardb9TgFTKfuQCwLckZ+S87YwcRj4qA8ner8cnJGBdJhv58k
+3faq1FNlRzG80bjo2CfJYmFRSi5Qaanuke5RtiMDkIo97KLr5bCdRDAeobbQnaho
+OXGizLXbfLVKw1l4nNNcmVP0In67n7ygkc0QQpfSfAt2TOkVyl3o4XbCh/RXgexG
+AZhs4yLZsppnqNpJ3gu18XgsO7KZo/Kh+5eowC5ZYK2CbJ0PQFW2jRiT/Y6FwADo
+hVGiC0j8C0zh5rp3L7WpWVshlFP14A==
+=29RV
 -----END PGP SIGNATURE-----
 
---===============5690043729952015955==--
+--===============4223260383061149217==--
