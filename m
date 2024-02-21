@@ -1,17 +1,22 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 21 Feb 2024 00:46:47 -0000
-Message-Id: <170847640754.18488.12267197309296810253@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0720723964129961127=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 21 Feb 2024 00:47:39 -0000
+Message-Id: <170847645937.18859.363968392644103217@gitolite.kernel.org>
+
+--===============0720723964129961127==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.9
+  - ref: refs/heads/for-6.9
     old: 74e0259495cfab4f92c64ddcbbfe454e5c2f962a
     new: 3b4ec34602c562fa8fa59dd8545ac7f3cdfc235e
     log: |
@@ -25,3 +30,29 @@ changes:
          e480c0991db00b24b39010bfd56eda5ec2417186 ASoC: tas2781: Remove redundant initialization of pointer 'data'
          3b4ec34602c562fa8fa59dd8545ac7f3cdfc235e ASoC: cs42l42: Remove redundant delays in suspend().
          
+
+--===============0720723964129961127==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1708476457 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1708476457-ef5adf2a063d2b76df0c1ca431ec20865a22e47f
+
+74e0259495cfab4f92c64ddcbbfe454e5c2f962a 3b4ec34602c562fa8fa59dd8545ac7f3cdfc235e refs/heads/for-6.9
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXVSCkACgkQJNaLcl1U
+h9Avkwf+MnyjnMrpVzzNwDFanyh3oX+uAtvdx8+AHtbUCYbSRhUj/dMz+G6g/1wq
+PmTPaeUHLJtHv9p2JJ1mKa180gEdFwVeADmQ8qSg9emPuV2hjKyoi8RUO9XfSNr0
+lQw2Khi1jV5DmfFkiKwgyFjURHq0F5KQK5vRqXeQfp52noAOcPKzVNlMaze5nA3T
+pTfn0JsS4wy5cT6Cd16bwcY7tf6RbV+n/F+kWOeNOhoiH17DSsj9l7lFe5iHRy/A
+Yq4gYoH519dZafW+X2GGgvGMtw3WINAMBZSyZNRQZUZOuE48aSXUq2plcZvHyLYn
+0UKZ6PNRmvLCo8TKHijdD1ahjyapPQ==
+=Bh4t
+-----END PGP SIGNATURE-----
+
+--===============0720723964129961127==--
