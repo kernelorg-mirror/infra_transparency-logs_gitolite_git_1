@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 21 Feb 2024 01:17:48 -0000
-Message-Id: <170847826837.15841.6870914857172544703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Wed, 21 Feb 2024 01:35:42 -0000
+Message-Id: <170847934258.28472.12108264146523688913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/master
-    old: 5d856c93586febc41303ae1d1729911fc4b81ed7
-    new: 1dfb1e2af3f2a9100f57ba886a3a41e0fa6da3e3
+  - ref: refs/heads/testing/WFAMNAE-next20240215
+    old: b50c399b249bcb0fdc709e812b4e87519937299d
+    new: 07043432c7cce9e62313601702ce7ec0cc5eb3e4
     log: |
-         1dfb1e2af3f2a9100f57ba886a3a41e0fa6da3e3 Tue Feb 20 08:17:15 PM EST 2024
+         07043432c7cce9e62313601702ce7ec0cc5eb3e4 treewide: Address -Wflexible-array-member-not-at-end warnings
          
