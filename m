@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4345417221690400110=="
+Content-Type: multipart/mixed; boundary="===============4088774261074868530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 21 Feb 2024 17:57:25 -0000
-Message-Id: <170853824569.10141.15541478918202718607@gitolite.kernel.org>
+Date: Wed, 21 Feb 2024 18:03:21 -0000
+Message-Id: <170853860173.14117.13661759276380192648@gitolite.kernel.org>
 
---===============4345417221690400110==
+--===============4088774261074868530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev-test
-    old: 2a78ebed2b03fda331ec410631f12b3e925a9092
-    new: c86c21f20bd9c5aa0225df2d0016224a3b5deb6d
-    log: revlist-2a78ebed2b03-c86c21f20bd9.txt
+  - ref: refs/heads/dev
+    old: 21ec68234826b1b54ab980a8df6e33c74cfbee58
+    new: 48238f7bb55284a9a72346b07638627a672937de
+    log: revlist-21ec68234826-48238f7bb552.txt
 
---===============4345417221690400110==
+--===============4088774261074868530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a78ebed2b03-c86c21f20bd9.txt
+Content-Disposition: attachment; filename=revlist-21ec68234826-48238f7bb552.txt
 
+87161a2b0aed9e9b614bbf6fe8697ad560ceb0cb f2fs: deprecate io_bits
 9c1d3cd4ff8c0e0defa3c78884d2b05db47f0a89 f2fs: use BLKS_PER_SEG, BLKS_PER_SEC, and SEGS_PER_SEC
 50581e3bda8f5e5e7d27286b64bda7c776a0b3e4 f2fs: separate f2fs_gc_range() to use GC for a range
 697c9124d70ad0040e26fbdf7a061db2af5bbd64 f2fs: fix to create selinux label during whiteout initialization
@@ -40,7 +41,5 @@ bb516cc086ca79fd07f89f2d54bfbeb7e153e469 f2fs: doc: Fix bouncing email address f
 2fded30d8dce44599da8b7e07f500faaa5c0cd53 f2fs: support file pinning for zoned devices
 48777a1395cf751b9e60430b015f29c64547d891 f2fs: stop checkpoint when get a out-of-bounds segment
 48238f7bb55284a9a72346b07638627a672937de f2fs: introduce get_available_block_count() for cleanup
-2d3234b52a1ed6a17945449f8cacbe02e1688a95 f2fs: kill zone-capacity support
-c86c21f20bd9c5aa0225df2d0016224a3b5deb6d f2fs: introduce SEGS_TO_BLKS/BLKS_TO_SEGS for cleanup
 
---===============4345417221690400110==--
+--===============4088774261074868530==--
