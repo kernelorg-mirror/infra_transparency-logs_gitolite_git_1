@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 21 Feb 2024 23:41:57 -0000
-Message-Id: <170855891730.18725.3089094628549262908@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Wed, 21 Feb 2024 23:52:04 -0000
+Message-Id: <170855952486.25671.4925332517205485804@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/seen
-    old: 740b78728cc9eba352d03d384981ac7c3f613e2c
-    new: c2e32b2b496e1534f8fdb8c5cae88bdd2f778828
+  - ref: refs/heads/main
+    old: 40b9385dd8e6a0515e1c9cd06a277483556b7286
+    new: 195e5f88c2e48330ba5483e0bad2de3b3fad484f
     log: |
-         0824639ddf9c8ea9d7857440fb2414e12349f51a doc: clarify the format of placeholders
-         41bff66e354285a04205c4bd8d8e98c61ca9db07 doc: apply the new placeholder rules to git-add documentation
-         3837d2a75840645b096c3a3470ccbc13f652b7f1 Merge branch 'ja/doc-placeholders-markup-rules' into seen
-         c2e32b2b496e1534f8fdb8c5cae88bdd2f778828 Merge branch 'jc/doc-add-placeholder-fix' into seen
+         bccebf64701735533c8db37773eeacc6566cc8ec netfilter: nf_tables: set dormant flag on hook register failure
+         9e0f0430389be7696396c62f037be4bf72cf93e3 netfilter: nft_flow_offload: reset dst in route object after setting up flow
+         8762785f459be1cfe6fcf7285c123aad6a3703f0 netfilter: nft_flow_offload: release dst in case direct xmit path is used
+         d472e9853d7b46a6b094224d131d09ccd3a03daf netfilter: nf_tables: register hooks last when adding new chain/flowtable
+         195e5f88c2e48330ba5483e0bad2de3b3fad484f netfilter: nf_tables: use kzalloc for hook allocation
          
