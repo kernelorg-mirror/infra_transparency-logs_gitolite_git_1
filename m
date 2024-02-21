@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Wed, 21 Feb 2024 14:37:41 -0000
-Message-Id: <170852626156.6227.11748973764078774281@gitolite.kernel.org>
+Date: Wed, 21 Feb 2024 14:41:01 -0000
+Message-Id: <170852646185.9207.11395793019476104480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
   - ref: refs/heads/mediatek-cmdq10
-    old: 3289b91a4be17f007238f4a3934e590b28cddd34
-    new: def7356c191bcb277ec206411aa0d17aa7ecfeea
+    old: def7356c191bcb277ec206411aa0d17aa7ecfeea
+    new: 99381db67ea3c42dcad9aa6bacb88dac23c613e2
     log: |
-         def7356c191bcb277ec206411aa0d17aa7ecfeea soc: mediatek: cmdq: Add cmdq_pkt_eoc() helper function
+         ff7024277b37ad2bc71c6ab3fe0e57c0cf837703 drm/mediatek: Drop calling cmdq_pkt_finalize()
+         99381db67ea3c42dcad9aa6bacb88dac23c613e2 media: platform: mtk-mdp3: drop calling cmdq_pkt_finalize()
          
