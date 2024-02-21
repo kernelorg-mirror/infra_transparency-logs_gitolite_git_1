@@ -1,61 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4370279620871499021=="
+Content-Type: multipart/mixed; boundary="===============6903241246381945474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Wed, 21 Feb 2024 10:35:43 -0000
-Message-Id: <170851174342.12703.6172119968750613704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 21 Feb 2024 10:37:33 -0000
+Message-Id: <170851185375.14651.11334308729041540229@gitolite.kernel.org>
 
---===============4370279620871499021==
+--===============6903241246381945474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 9895ceeb5cd61092f147f8d611e2df575879dd6f
-    new: c48617fbbe831d4c80fe84056033f17b70a31136
+    old: 21e5c37f0214c710bcf7789f8e31494dcbcc5db6
+    new: 0d13d9997c1025a221de38d8f46fe423ace29db5
     log: |
-         8d3a7dfb801d157ac423261d7cd62c33e95375f8 KVM: arm64: vgic-its: Test for valid IRQ in its_sync_lpi_pending_table()
-         85a71ee9a0700f6c18862ef3b0011ed9dad99aca KVM: arm64: vgic-its: Test for valid IRQ in MOVALL handler
-         c48617fbbe831d4c80fe84056033f17b70a31136 Merge tag 'kvmarm-fixes-6.8-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-         
-  - ref: refs/tags/for-linus
-    old: 4c2347c3b4d4156e969d82f94d17f7f99cd08e08
-    new: e7dfcdc258aa4cfa602ef136b5f12473721c9372
-    log: |
-         8d3a7dfb801d157ac423261d7cd62c33e95375f8 KVM: arm64: vgic-its: Test for valid IRQ in its_sync_lpi_pending_table()
-         85a71ee9a0700f6c18862ef3b0011ed9dad99aca KVM: arm64: vgic-its: Test for valid IRQ in MOVALL handler
-         c48617fbbe831d4c80fe84056033f17b70a31136 Merge tag 'kvmarm-fixes-6.8-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+         db9f59a543d3b317cb5c8f43c7f1707587f94d40 drop mm patch
+         0d13d9997c1025a221de38d8f46fe423ace29db5 5.4-stable patches
          
 
---===============4370279620871499021==
+--===============6903241246381945474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1708511741 -0500
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1708511740-68dcbaa67c48c22b2fb01e4e82f168038d99c195
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708511852 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1708511847-ba83a318c3cd8d4d64769b4a2ea18fc6b61f7084
 
-9895ceeb5cd61092f147f8d611e2df575879dd6f c48617fbbe831d4c80fe84056033f17b70a31136 refs/heads/master
-4c2347c3b4d4156e969d82f94d17f7f99cd08e08 e7dfcdc258aa4cfa602ef136b5f12473721c9372 refs/tags/for-linus
+21e5c37f0214c710bcf7789f8e31494dcbcc5db6 0d13d9997c1025a221de38d8f46fe423ace29db5 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmXV0f0UHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroPJ3wgAmzZSbc0vjefTanT7YlPGW8jZR6w0
-c5R+TFgvoOZhRkFOFPF5dhmJoLLCNkm+ArmkPUU0o8JohlnYzqWHhkL+15zGKjDy
-Z8Y4nH4L42n+hacE4yno3oOfF3iuItxGf5D/dlauy53FwoHxHNX91yn8LiBoR0gg
-zs1FecDGJ2qXTzPaVVZGo1DQobaRDzfI8kuTicRS52VfunYo9c3Oi6Y6i6Rt6vcF
-GRwZxo1/XphGSzdTZ3NgarxYsgNTOt5aIOPriUT+MRNHQv1o4pTwmee7NIzoQ43x
-oivkd6vyWLj1uzYM8VUsF60215oEnaX6zJahYk+uZublQL6TuW9LE/0s+Q==
-=YCPV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXV0mwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tNAQANjcDqEqunkkQPOueF2t
+B20CoSbcRyL+8A38UCSEN1hhaC527ImzdvZ3lTfSOwjublgOmEcUtbhFL44G2+1z
+bVSWO6fLipvyj9k1+bPL05XEJ9/5iPq5O9VlVVpNgPrFOKI3HzvUlKHUTGi8dnAY
+eO//MfuhfplfRUSxlMeoO0J0Qv1AV6iS09Q8bTsJNoKZwCL4u6SX7rz5y22GdU7B
+NWQ4BntbiU+1EOA4lkKIFcuF14qntrx8Ww57EPjsq8Bg90dOah7oIVQHq4+rsVxF
+DkQkU/vEKaPDWLBOch70uQ3siL2Zki0N7fzAStGzbcj8hEsbjpRVSlM3iqq6rUsb
+3bb5GPPEpT0J5tMsh7XyexP6FjawCzMu0QeLXV7NhnTor4F+GUXsZ7jWrfclLe5P
+CHXiFmwzXYXJGlF/H9PlgG2LbRL89pvcNPakFTcWu8+6kZxr/1wgWouHGaK8+ba6
+60MDP4V+ovHV0tWrA1YZgYsQvNgd8FJGksSY1i5TmocSL8rTxF3yFRyPVdp0lMWw
+r4ofM4dDd7mTCd1fjgw13CYsIPl/bXknbTP+Ftvoe7xPfOGc5mWc4Wt89L/vmTaE
+0/JIkxyF7oeJ9dFSrlOhU1ErcxA2lMK6bxtfYKcY404CI3wshF76l6mfLUAGugsf
+M6fzkQYfDUgb6p08verlQZ6J
+=kewj
 -----END PGP SIGNATURE-----
 
---===============4370279620871499021==--
+--===============6903241246381945474==--
