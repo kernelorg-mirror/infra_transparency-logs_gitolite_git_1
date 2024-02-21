@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 21 Feb 2024 22:27:20 -0000
-Message-Id: <170855444056.27106.5534638971923527283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Wed, 21 Feb 2024 22:32:48 -0000
+Message-Id: <170855476817.30772.6997660706055252907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/main
-    old: 136cfaca22567a03bbb3bf53a43d8cb5748b80ec
-    new: f76d5f65805695afc65e4c265bd119b7e2e88442
-    log: |
-         10f41d0710fc81b7af93fa6106678d57b1ff24a7 tls: break out of main loop when PEEK gets a non-data record
-         fdfbaec5923d9359698cbb286bc0deadbb717504 tls: stop recv() if initial process_rx_list gave us non-DATA
-         ec823bf3a479d42c589dc0f28ef4951c49cd2d2a tls: don't skip over different type records from the rx_list
-         7b2a4c2a623a9f9c5fd9cff499bb9457fa2192ec selftests: tls: add test for merging of same-type control messages
-         2bf6172632e1d4a6ec7ee7e734d53a43a145f5c6 selftests: tls: add test for peeking past a record of a different type
-         f76d5f65805695afc65e4c265bd119b7e2e88442 Merge branch 'tls-fixes-for-record-type-handling-with-peek'
-         
+  - ref: refs/tags/v6.8-rc2
+    old: 0000000000000000000000000000000000000000
+    new: c18956a7ed4b71eec72700a0899ad21167b994bb
+  - ref: refs/tags/v6.8-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 0b5b909d9a9083afacaac2a75dac24ba3649f692
+  - ref: refs/tags/v6.8-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 251168394b084796bcd8f3e3655f2eb38c524ea3
+  - ref: refs/tags/v6.8-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 7e311d420f96ef38326a0f3b7d8cffa3dee32ae5
+  - ref: refs/tags/versatile-dts-v6.9
+    old: 0000000000000000000000000000000000000000
+    new: 804ba88fe38e638a2d0801ba298342f6a15bd243
