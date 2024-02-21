@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 21 Feb 2024 14:24:24 -0000
-Message-Id: <170852546454.27395.6292371673597410824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Wed, 21 Feb 2024 14:24:31 -0000
+Message-Id: <170852547199.27529.3242228846153125712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/master
-    old: af77bf2a82d2e71ffd1c353114ec24634c6e6d25
-    new: 0584faa90e6a6fa1ddc66c751e1b738aa758ad6b
+  - ref: refs/heads/for-next
+    old: cba7aa7faf8624b2e9c865cc125c9c1949775f0d
+    new: dca9f6083f5cad7e2af1194a8a23e24b32f775ed
     log: |
-         3ae058eb09afaa2bce9ecd3c410f5c6476008e47 examples/proxy: fix send ring default when unavailable
-         e00c84cf052e73cdb88c0ced5bd2ee75d6f682f3 examples/proxy: fix verbose log format
-         0584faa90e6a6fa1ddc66c751e1b738aa758ad6b Merge branch 'proxy-fixes' of https://github.com/wlukowicz/liburing
+         723a2cc8d69d4342b47dfddbfe6c19f1b135f09b s390: use the correct count for __iowrite64_copy()
+         4a5993287467d2d0401503256dc9d2690c7f2020 KVM: s390: introduce kvm_s390_fpu_(store|load)
+         e3b320f2ba825cca84356e87f96d09fbe5118542 Merge branch 'fixes' into for-next
+         dca9f6083f5cad7e2af1194a8a23e24b32f775ed Merge branch 'features' into for-next
          
