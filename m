@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8039825167085227327=="
+Content-Type: multipart/mixed; boundary="===============2604428608855363431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 21 Feb 2024 17:14:14 -0000
-Message-Id: <170853565454.8685.13394851517440738963@gitolite.kernel.org>
+Date: Wed, 21 Feb 2024 17:14:51 -0000
+Message-Id: <170853569196.8983.12687945567904589327@gitolite.kernel.org>
 
---===============8039825167085227327==
+--===============2604428608855363431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 4934446297c292611d3b6cd388efb215f2ba5698
-    new: ca61ba3885274a684c83d8a538eb77b30e38ee92
-    log: revlist-4934446297c2-ca61ba388527.txt
+  - ref: refs/heads/dev-queue
+    old: b6391ab515d4fd4ffef979883e0c65e8314972cd
+    new: 2564e510e1f68ddca64ba5c1829a703640cd705f
+    log: revlist-b6391ab515d4-2564e510e1f6.txt
 
---===============8039825167085227327==
+--===============2604428608855363431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4934446297c2-ca61ba388527.txt
+Content-Disposition: attachment; filename=revlist-b6391ab515d4-2564e510e1f6.txt
 
 ad25ee36f00172f7d53242dc77c69fff7ced0755 wifi: ath10k: fix NULL pointer dereference in ath10k_wmi_tlv_op_pull_mgmt_tx_compl_ev()
 f5e6c0c4b0877e0ec0221df6c0041c0f39b6ce0f wifi: ath11k: refactor ath11k_wmi_tlv_parse_alloc()
@@ -438,5 +438,42 @@ ee975351cf0c2a11cdf97eae58265c126cb32850 net: mdio: mdio-bcm-unimac: Manage cloc
 ee2b4cf8b281606bbf332cbd73ce2a73eac417f0 net: bcmgenet: Pass "main" clock down to the MDIO driver
 ba0b78371c46b2104197ff2c244f13f011ddfa80 Revert "net: bcmgenet: Ensure MDIO unregistration has clocks enabled"
 ca61ba3885274a684c83d8a538eb77b30e38ee92 Merge branch 'rework-genet-mdioclocking'
+08857ed10702de0cef0624f6af6c9c7ee9996250 ice: Add support for devlink loopback param.
+772b165a7de09c2060835fa23ff6ba0fe5c8b720 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+6ced903a281162a7b226db36b1fcc8a51a96c087 e1000e: Minor flow correction in e1000_shutdown function
+e2af6662fcc74d0912289bf174b5fa9544ce93bc ice: fix connection state of DPLL and out pin
+c9d843f02cc3130c0d90461ccb9db1a86bf3595f ice: virtchnl: stop pretending to support RSS over AQ or registers
+f03a9033816d817f7b3ea967c67acf271aa272d9 ice: Refactor FW data type and fix bitmap casting issue
+7e6503e90a4fa4af240acb75870c72add3a9a029 idpf: implement virtchnl transaction manager
+8695e2e32644e1a8b455c171f7334e80ac14e69f idpf: refactor vport virtchnl messages
+4e798cd3ec08b1929ec055b9b35e99aeca213942 idpf: refactor queue related virtchnl messages
+5c9de73aed589a09658de88358d30fccdf41ff29 idpf: refactor remaining virtchnl messages
+61f70a372acc633eaa419a6aa8978448f4bf2bc4 idpf: add async_handler for MAC filter messages
+c7ba073c21988c5122028eb954faa0b9ca5030f0 idpf: refactor idpf_recv_mb_msg
+183ee2f34262be910c60655b2044ab509bd5f69c idpf: cleanup virtchnl cruft
+66b469198d167b373325e84e0df816ef5fff8aa6 idpf: prevent deinit uninitialized virtchnl core
+4efa9b4fe34af7ca6bc1286a80ceab515c5dc44c idpf: fix minor controlq issues
+db0440c78115a2d3e1d190524d0d79b1994a8b0e idpf: remove dealloc vector msg err in idpf_intr_rel
+675c6d68705f4b7dab644c90f5230d4c2fcf025d idpf: disable local BH when scheduling napi for marker packets
+4558f66f9d5ac5fe27eaa6b6f7058a0756d9ee1a ice: Add switch recipe reusing feature
+f6d88148432b3eb21bf3d691c5c9157c532e06d5 ice: fix dpll input pin phase_adjust value updates
+41ffbb2cd1be604f7c5c5803ecaa8999865e8fbf ice: fix dpll and dpll_pin data access on PF reset
+5b09502b1733ff8ae8221b9efbb177114d7c5df6 ice: fix dpll periodic work data updates on PF reset
+c0248052938f2d7d4af2f356f36d06bec0f994eb ice: fix pin phase adjust updates on PF reset
+21c4241080c70412455cbff83f21ea55de6086c9 igb: simplify pci ops declaration
+f85e311b1c269efb3545b458ecaabbbadf9ab835 net: intel: implement modern PM ops declarations
+577a5a02319e3a0b4897f58123f5cfca1f2e2685 igc: Refactor runtime power management flow
+f6e8013a89e41ed4b233b4ee51447f2d50d18643 igb: extend PTP timestamp adjustments to i211
+fbd67af7e61134b8c64e501749e7727f89f91671 ice: Fix ASSERT_RTNL() warning during certain scenarios
+6ba6e27920198509857e85c8453423190d861493 ethtool: Add GTP RSS hash options to ethtool.h
+a790f4c70e6f60a1b17664eb8c6ca0b0d3a1eab8 ice: Implement RSS settings for GTP using ethtool
+132173bfc1305ac097a8bdb9a1daad5e18e6e813 ice: Remove unnecessary argument from ice_fdir_comp_rules()
+086149ee71dee97bd189fde16bc270bbe6a80612 ice: Implement 'flow-type ether' rules
+014c5047b88b90eb27f8d2136152b1128708631b intel: make module parameters readable in sys filesystem
+58a1565ef3ffb3b1710d6028eb26c1ae66377215 ixgbe: Add 1000BASE-BX support
+bd361f80449647e01f216ef1cb8472157e11e336 ice: pass VSI pointer into ice_vc_isvalid_q_id
+157dd24052b374bc86781454559cff6337a8c4c9 ice: remove unnecessary duplicate checks for VF VSI ID
+114d1d0a9f9a8c375648d95461a7f46e13645240 ice: use relative VSI index for VFs instead of PF VSI number
+2564e510e1f68ddca64ba5c1829a703640cd705f ice: remove vf->lan_vsi_num field
 
---===============8039825167085227327==--
+--===============2604428608855363431==--
