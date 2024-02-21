@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6082483249419699696=="
+Content-Type: multipart/mixed; boundary="===============9184060089624253800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 21 Feb 2024 05:42:01 -0000
-Message-Id: <170849412161.11580.14522808128527459315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 21 Feb 2024 05:42:12 -0000
+Message-Id: <170849413253.11723.16293511550384401644@gitolite.kernel.org>
 
---===============6082483249419699696==
+--===============9184060089624253800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 2d5c7b7eb345249cb34d42cbc2b97b4c57ea944e
     new: 4893c639cc3659cefaa675bf1e59f4e7571afb5c
     log: revlist-2d5c7b7eb345-4893c639cc36.txt
-  - ref: refs/heads/pending-fixes
-    old: 139b564a6aa7bdb227c3378775ca6f39d5ad7614
-    new: 5b87d67627563912b340d4f2d55db973289700a3
-    log: revlist-139b564a6aa7-5b87d6762756.txt
-  - ref: refs/heads/stable
-    old: b401b621758e46812da61fa58a67c3fd8d91de0d
-    new: fca7526b7d8910c6125cb1ebc3e78ccd5f50ec52
-    log: |
-         944d5fe50f3f03daacfea16300e656a1691c4a23 sched/membarrier: reduce the ability to hammer on sys_membarrier
-         fca7526b7d8910c6125cb1ebc3e78ccd5f50ec52 drm/tests/drm_buddy: fix build failure on 32-bit targets
-         
-  - ref: refs/tags/next-20231121
-    old: 624e82f9899e0a3b90ccb293496bfa4f460f177b
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240221
     old: 0000000000000000000000000000000000000000
     new: 0ff9fc42a25e850f1b00eb58cd4d1d39b7ee81ff
 
---===============6082483249419699696==
+--===============9184060089624253800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1068,118 +1054,4 @@ efac291baba88dfa64fb2199af42fa3ac0025f62 Merge branch 'bitmap-for-next' of https
 774fe9fb58d1c14a5c970a27f4a0c911e7b7ef3a Merge branch 'for-next/kspp' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux.git
 4893c639cc3659cefaa675bf1e59f4e7571afb5c Add linux-next specific files for 20240221
 
---===============6082483249419699696==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-139b564a6aa7-5b87d6762756.txt
-
-fc4657971be31ae679e2bbeee2fb8e93a7a063eb arm64: dts: rockchip: mark system power controller on rk3588-evb1
-f03869698bc3bd6d9d2d9f216b20da08a8c2508a arm64: dts: imx8mp: Disable UART4 by default on Data Modul i.MX8M Plus eDM SBC
-a41f91b4da1490b90ae5859f3464e94d418fea2c arm64: dts: rockchip: aliase sdmmc as mmc1 for Cool Pi 4B
-cebda3dd36bebb11d3e6df4d1944a1cdcf3cd4cf arm64: dts: rockchip: aliase sdmmc as mmc1 for Cool Pi CM5 EVB
-c7e8dbb3bc12f389d617e6c0e9537f11a1fa6eb1 arm64: dts: rockchip: rename vcc5v0_usb30_host regulator for Cool Pi CM5 EVB
-5556a8c3af8b4ee648b0fd4cdb4a1356d92de07b arm64: dts: rockchip: Fix the num-lanes of pcie3x4 on Cool Pi CM5 EVB
-f98643d8daf3443e3b414a82d0cb3d745f8c8bbc ARM: dts: rockchip: Drop interrupts property from pwm-rockchip nodes
-bab7ec1d80fe5998ce5ab4480f15e7cce43e2cdf arm64: dts: rockchip: drop unneeded status from rk3588-jaguar gpio-leds
-a620a7f2ae8b08c5beea6369f61e87064ee222dc arm64: dts: tqma8mpql: fix audio codec iov-supply
-f954785a124e77d4e6bb52cab689a8de447999aa Revert "arm64: dts: imx8mp-dhcom-pdk3: Describe the USB-C connector"
-690085d866f08cc72ae4d601821564a0b63e32f3 Revert "arm64: dts: imx8mn-var-som-symphony: Describe the USB-C connector"
-7bca405c986075c99b9f729d3587b5c45db39d01 bus: imx-weim: fix valid range check
-00890f5d15f50bd386bf222ddee355cec6c6d53a arm64: dts: rockchip: minor rk3588 whitespace cleanup
-334bf0710c98d391f4067b72f535d6c4c84dfb6f arm64: dts: rockchip: set num-cs property for spi on px30
-1bbd894e2ae67faf52632bc9290ff926d9b741ea arm64: dts: rockchip: Drop interrupts property from rk3328 pwm-rockchip node
-c22d03a95b0d815cd186302fdd93f74d99f1c914 arm64: dts: rockchip: Correct Indiedroid Nova GPIO Names
-a5c57fd2e9bd1c8ea8613a8f94fd0be5eccbf321 powerpc/pseries/iommu: DLPAR add doesn't completely initialize pci_controller
-1fdf4e8be7059e7784fec11d30cd32784f0bdc83 ALSA: hda/realtek: Enable Mute LED on HP 840 G8 (MB 8AB8)
-2c88c16dc20e88dd54d2f6f4d01ae1dce6cc9654 erofs: fix handling kern_mount() failure
-69f89168b310878be82d7d97bc0d22068ad858c0 usb: typec: tpcm: Fix issues with power being removed during reset
-5559cea2d5aa3018a5f00dd2aca3427ba09b386b ipv6: sr: fix possible use-after-free and null-ptr-deref
-def689fc26b9a9622d2e2cb0c4933dd3b1c8071c devlink: fix possible use-after-free and memory leaks in devlink_init()
-a7d6027790acea24446ddd6632d394096c0f4667 arp: Prevent overflow in arp_req_get().
-23f9c2c066e7e5052406fb8f04a115d3d0260b22 docs: netdev: update the link to the CI repo
-20c8c4dafe93e82441583e93bd68c0d256d7bed4 KVM: PPC: Book3S HV: Fix L2 guest reboot failure due to empty 'arch_compat'
-ae366ba8576da0135d7d3db2dfa6304f3338d0c2 gpiolib: Handle no pin_ranges in gpiochip_generic_config()
-802379b8f9e169293e9ba7089e5f1a6340e2e7a3 perf: CXL: fix CPMU filter value mask length
-a6b3eb304a82c29665a0ab947cfe276f6d29f523 Revert "arm64: jump_label: use constraints "Si" instead of "i""
-9533864816fb4a6207c63b7a98396351ce1a9fae arm64/sme: Restore SME registers on exit from suspend
-d7b77a0d565b048cb0808fa8a4fb031352b22a01 arm64/sme: Restore SMCR_EL1.EZT0 on exit from suspend
-eb0d253ff9c74dee30aa92fe460b825eb28acd73 accel/ivpu: Don't enable any tiles by default on VPU40xx
-49cbb7b7d36ec3ba73ce1daf7ae1d71d435453b8 ALSA: ump: Fix the discard error code from snd_ump_legacy_open()
-fdf87a0dc26d0550c60edc911cda42f9afec3557 ARM: ep93xx: Add terminator to gpiod_lookup_table
-d0a59944e34f915cdd8cc4d41e91376c29843d8f Merge tag 'imx-fixes-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
-944d5fe50f3f03daacfea16300e656a1691c4a23 sched/membarrier: reduce the ability to hammer on sys_membarrier
-fca7526b7d8910c6125cb1ebc3e78ccd5f50ec52 drm/tests/drm_buddy: fix build failure on 32-bit targets
-0cf54e404d4f80470e81c42ca614264579c34acc Merge tag 'v6.8-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
-e08f65491c0e467127310b13333dd61e89c14bc1 arm64: dts: freescale: Disable interrupt_map check
-96fd598e9c34cfa68402a4da3020c9236cfacf35 arm: dts: Fix dtc interrupt_provider warnings
-91adecf911e5df78ea3e8f866e69db2c33416a5c arm64: dts: Fix dtc interrupt_provider warnings
-f02b0f0dc26fbb77fe47b6e47cc5c211f0432c37 arm: dts: Fix dtc interrupt_map warnings
-704dccec0d490f2ad06f3f16ebed254d81906c3a arm64: dts: qcom: Fix interrupt-map cell sizes
-78b6f8e7379b5399d1804f0852bb2ddabd049019 dtc: Enable dtc interrupt_provider check
-6032f99a90c86f6be061baa00394cccb652a1457 mm: zswap: fix missing folio cleanup in writeback race path
-099eee8c5530ba3c9cdf9f9539c3bfa3fe43d2f1 mm/damon/core: check apply interval in damon_do_apply_schemes()
-cbab2e62929ece35d3558b5457dc26217d2df132 selftests/mm: uffd-unit-test check if huge page size is 0
-54883afaf2be5af5a5cd446e623c8de9689b5787 stackdepot: use variable size records for non-evictable entries
-df7b661e49cfb74cbe510e1c47b1f4f4810a84b3 stackdepot: fix -Wstringop-overflow warning
-5609186a13529c7fa20f246a24663684e2b3d112 kasan: revert eviction of stack traces in generic mode
-294c14634205e1a28009439c9753a15e830629a7 mm/swap_state: update zswap LRU's protection range with the folio locked
-97b552747a65042c526bc462f8c79f9fdf14f9ba mm/swap_state: update zswap LRU's protection range with the folio locked
-878baa40677e3694c8381fd3dfab3407f0db8e3f mm/swap_state: update zswap LRU's protection range with the folio locked (fix)
-1bbdf326c5f9f10b2e184abea02f565269746e17 mm/swap: fix race when skipping swapcache
-e55acdfcca6be072331e2656469308b8eb4f9c60 mm-swap-fix-race-when-skipping-swapcache-v4
-fda5ab1c59d19b02de769748db7a370203b3696f lib/Kconfig.debug: TEST_IOV_ITER depends on MMU
-2ea8f48cd4f4a286a1b25c35a4017cb6381f7fd4 mm/zswap: invalidate duplicate entry when !zswap_enabled
-648385d1e2225b9eb7be194df1e5548a96244dca mm/memblock: add MEMBLOCK_RSRV_NOINIT into flagname[] array
-87cb524a6a3420684a8939e0c172c400784479ec mm: memcontrol: clarify swapaccount=0 deprecation warning
-28c20622ca5954b1c19a77083a4919f86014d4e6 mm: Fix spelling mistake "commdandline" -> "commandline"
-0193bcaa0ca74746bc80ebb6ffd12869680efb28 kasan: guard release_free_meta() shadow access with kasan_arch_is_ready()
-17cdc59c7a70e0ff66c034c938b2a76a3b5f4c87 mm/damon/sysfs-schemes: handle schemes sysfs dir removal before commit_schemes_quota_goals
-04a4c28633193d8dfbb0f69e4f4c10e068de254b MAINTAINERS: mailmap: update Shakeel's email address
-c5210ef03786ee2144f25a66ba595133adae2ffa mm/damon/reclaim: fix quota stauts loss due to online tunings
-304e409769f465dfd93c402135e547309b8da2f8 mm/damon/lru_sort: fix quota status loss due to online tunings
-0565b4ed581ab00e81c4de21be28f7f5c190d6c8 mm/vmscan: fix a bug calling wakeup_kswapd() with a wrong zone index
-d1e64f82cdbb85411b303523cb5bc02b52b02ae4 MAINTAINERS: add memory mapping entry with reviewers
-25daab033dbd6da41a58f044318c18e5fc8171e8 mm: cachestat: fix folio read-after-free in cache walk
-0eb702ab51ac8e631795cd92f2c672ae40864b21 mm/debug_vm_pgtable: fix BUG_ON with pud advanced test
-4b758d70257d5c7830c5411639b03541336c9bf7 kunit: make kunit_bus_type const
-664842a6cf68daaf066b5d31435269f58dfe5bd4 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-e674e40d45a3ab097ed9a6ac0a08c391b6362ab5 Merge branch 'for-next/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-037abe5e93a0cea84bda6cac606a172b7682bbc7 Merge branch 'arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git
-5c25bbc0afdf35db4ffad4bf0a1170596fdb63f3 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k.git
-72ca0b955a6e5004783027bb1d964aefa34da3af Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
-f7deaba23ced1be9bca2bb089bde3ab25ebb342b Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux.git
-37770cea764a14407b50f9308d39c4ff4862051c Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-a1baded5e450eebff30902112057fdeb62d78cbf Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-d40107c194f5dd490a1b5356cf5eb6991ef50073 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-f7260ace8c0706436e85c16a5c9e664a31e03509 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
-98a6b12f3e146078490bae2c7049c6d6813470f4 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-46ef362064955ab894d2bb0b0aad57b31264261d Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-ca08189753ded87564f90783e3437493ad222d13 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-409eaeaa0982e713b6f5f35c4accddc739ba26e7 Merge branch 'tty-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git
-3391fc03b1f58cffae2cd45f0556bcd8ea71fb80 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
-2d416d3cf5981342124182ad974bd543a00c025a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-bd1d202dc114baee80798e6c5926573372bdfc18 Merge branch 'counter-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter.git
-44dfda33bc34aed0f2f4f66b7516ef35166d7554 Merge branch 'char-misc-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git
-5815c440ac987af7761f982ca1909140c65f335d Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt.git
-5cbf536fcd0d9dd1218d459b3899211622c0afbe Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6.git
-6979c3bf5d7d5ebc32a99d14863c16f55c2760a7 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
-eda6837220e490c7795afb673ca972746f508533 Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
-cfeea1888b8446b910dbf0eff355a4cca4387d8e Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl.git
-5b060e06e609f8bb52c0f487c125082a34677aa3 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-2fbd3414645365440ce480ffc7d8cf5e24349bbe Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-2e2c25d79ac4fb96a9fbd8630e3c146c31d3c858 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-6bcc112b6f1480ecbfda7034e38776a0a085f244 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-a7f2dd953d2b83596be1f9ad9377d88981a1b4cd Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-ab4d2315c8481914edac8c8d6aefbbf1627d978e Merge branch 'riscv-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-4320476c73b35370917aff620badf1c75658b529 Merge branch 'riscv-soc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-91f321cc5065981b81566302b713d6b1d4b852da Merge branch 'gpio/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
-2d35224369405a2a8c4787adb7d0b811e8bbcda6 Merge branch 'kunit-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
-9c9064f6ce4edda55f8421ffac2bc390b6dc6d67 Merge branch 'urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-9584c91593afa0b01b27a9b0e303c5758db637fb Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
-ef52c68d7243f51501b2c306f2bf18f72a05c165 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd.git
-144fd04d008d4b3d7320553e8fd6113d5d5642dd Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm.git
-ab533709ebc29e5150df90ebd99313b040564fae Merge branch 'i2c/i2c-host-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux.git
-5b87d67627563912b340d4f2d55db973289700a3 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
-
---===============6082483249419699696==--
+--===============9184060089624253800==--
