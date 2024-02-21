@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0245860415927029429=="
+Content-Type: multipart/mixed; boundary="===============6619036440208714274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Wed, 21 Feb 2024 13:43:18 -0000
-Message-Id: <170852299858.29598.18405759969390739821@gitolite.kernel.org>
+Date: Wed, 21 Feb 2024 13:43:25 -0000
+Message-Id: <170852300568.29698.13718562052528878866@gitolite.kernel.org>
 
---===============0245860415927029429==
+--===============6619036440208714274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: cca5efe77a6a2d02b3da4960f799fa233e460ab1
     new: 8fb82f66d1564cb74c3dd1634d65ce58cb9404b3
     log: revlist-cca5efe77a6a-8fb82f66d156.txt
 
---===============0245860415927029429==
+--===============6619036440208714274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -783,4 +783,4 @@ cba6c098fe65f7e170416013f89a6634e188eed9 LoongArch: KVM: Fix input validation of
 ff1cfbc4bb22688e4c19e5e24bed3ffe7d1f2ee6 LoongArch: KVM: Rename _kvm_get_cpucfg() to _kvm_get_cpucfg_mask()
 8fb82f66d1564cb74c3dd1634d65ce58cb9404b3 LoongArch: KVM: Streamline kvm_check_cpucfg() and improve comments
 
---===============0245860415927029429==--
+--===============6619036440208714274==--
