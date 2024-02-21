@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 21 Feb 2024 14:24:16 -0000
-Message-Id: <170852545605.27287.15723702573108637495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Wed, 21 Feb 2024 14:24:24 -0000
+Message-Id: <170852546454.27395.6292371673597410824@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/features
-    old: 778666df60f0d96f215e33e27448de47a2207fb3
-    new: 4a5993287467d2d0401503256dc9d2690c7f2020
+  - ref: refs/heads/master
+    old: af77bf2a82d2e71ffd1c353114ec24634c6e6d25
+    new: 0584faa90e6a6fa1ddc66c751e1b738aa758ad6b
     log: |
-         4a5993287467d2d0401503256dc9d2690c7f2020 KVM: s390: introduce kvm_s390_fpu_(store|load)
-         
-  - ref: refs/heads/fixes
-    old: 124468af7e769a52d27c3290007ac6e2ba346ccd
-    new: 723a2cc8d69d4342b47dfddbfe6c19f1b135f09b
-    log: |
-         723a2cc8d69d4342b47dfddbfe6c19f1b135f09b s390: use the correct count for __iowrite64_copy()
+         3ae058eb09afaa2bce9ecd3c410f5c6476008e47 examples/proxy: fix send ring default when unavailable
+         e00c84cf052e73cdb88c0ced5bd2ee75d6f682f3 examples/proxy: fix verbose log format
+         0584faa90e6a6fa1ddc66c751e1b738aa758ad6b Merge branch 'proxy-fixes' of https://github.com/wlukowicz/liburing
          
