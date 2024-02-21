@@ -1,35 +1,46 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Wed, 21 Feb 2024 15:50:57 -0000
-Message-Id: <170853065732.29731.12478242239769263687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Wed, 21 Feb 2024 15:51:16 -0000
+Message-Id: <170853067611.29949.1223536316272046988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/renesas-pinctrl
-    old: 97191e536c37359d17d6d32bc29acb911f731e60
-    new: a6f06b909fee72c679c565adfa7f080f9595e336
+  - ref: refs/heads/master
+    old: b69e73e919f617121d1fc0703b270e999ac5f559
+    new: 8d8825af79e738be6f93a55cfabb93ccfea3a2b8
     log: |
-         2fd4fe19d01507369cef18a037d84f3439dd5ab2 pinctrl: renesas: rzg2l: Configure interrupt input mode
-         d3c49299339051b17ae3f2fe70fa5af7bbb82011 pinctrl: renesas: rzg2l: Simplify rzg2l_gpio_irq_{en,dis}able()
-         1d2da79708cb4e23ec3d19c6c5b528753ca08e67 pinctrl: renesas: rzg2l: Avoid configuring ISEL in gpio_irq_{en,dis}able*(
-         fda5edd7d66f091770b600f789dd4190ce6a7907 pinctrl: renesas: rzg2l: Select GPIOLIB_IRQCHIP and IRQ_DOMAIN_HIERARCHY
-         254203f9a94cf8f8f406e241a11f38b8e4701d91 pinctrl: renesas: rzg2l: Add suspend/resume support
-         a6f06b909fee72c679c565adfa7f080f9595e336 pinctrl: renesas: Allow the compiler to optimize away sh_pfc_pm
+         bc732306dff90fee71869446def7cd75b4fe2ceb arm64: dts: renesas: rzg2l: Add missing interrupts to IRQC nodes
+         c37d8b14792135f0ac42512ab1d38961f298b607 arm64: dts: renesas: r9a08g045: Add missing interrupts to IRQC node
+         5e9e1fdbb15958d416ddb6e51796f945c378ca89 arm64: dts: renesas: rzg2ul-smarc: Enable CRU, CSI support
+         8da5df713f13e5bc5dfe15948c042e97e57db5ea Merge branch 'renesas-dts-for-v6.9' into renesas-next
+         8d8825af79e738be6f93a55cfabb93ccfea3a2b8 Merge branch 'renesas-next' into renesas-devel
          
-  - ref: refs/heads/renesas-pinctrl-for-v6.9
-    old: 97191e536c37359d17d6d32bc29acb911f731e60
-    new: a6f06b909fee72c679c565adfa7f080f9595e336
+  - ref: refs/heads/next
+    old: 0c096fb42ae57ad9733eb6c0e0ba8b1d856ddfc3
+    new: 8da5df713f13e5bc5dfe15948c042e97e57db5ea
     log: |
-         2fd4fe19d01507369cef18a037d84f3439dd5ab2 pinctrl: renesas: rzg2l: Configure interrupt input mode
-         d3c49299339051b17ae3f2fe70fa5af7bbb82011 pinctrl: renesas: rzg2l: Simplify rzg2l_gpio_irq_{en,dis}able()
-         1d2da79708cb4e23ec3d19c6c5b528753ca08e67 pinctrl: renesas: rzg2l: Avoid configuring ISEL in gpio_irq_{en,dis}able*(
-         fda5edd7d66f091770b600f789dd4190ce6a7907 pinctrl: renesas: rzg2l: Select GPIOLIB_IRQCHIP and IRQ_DOMAIN_HIERARCHY
-         254203f9a94cf8f8f406e241a11f38b8e4701d91 pinctrl: renesas: rzg2l: Add suspend/resume support
-         a6f06b909fee72c679c565adfa7f080f9595e336 pinctrl: renesas: Allow the compiler to optimize away sh_pfc_pm
+         bc732306dff90fee71869446def7cd75b4fe2ceb arm64: dts: renesas: rzg2l: Add missing interrupts to IRQC nodes
+         c37d8b14792135f0ac42512ab1d38961f298b607 arm64: dts: renesas: r9a08g045: Add missing interrupts to IRQC node
+         5e9e1fdbb15958d416ddb6e51796f945c378ca89 arm64: dts: renesas: rzg2ul-smarc: Enable CRU, CSI support
+         8da5df713f13e5bc5dfe15948c042e97e57db5ea Merge branch 'renesas-dts-for-v6.9' into renesas-next
          
+  - ref: refs/heads/renesas-dts-for-v6.9
+    old: 2be6d3e14d85b3aa15965e7840a7a6f0f3ad1fe8
+    new: 5e9e1fdbb15958d416ddb6e51796f945c378ca89
+    log: |
+         bc732306dff90fee71869446def7cd75b4fe2ceb arm64: dts: renesas: rzg2l: Add missing interrupts to IRQC nodes
+         c37d8b14792135f0ac42512ab1d38961f298b607 arm64: dts: renesas: r9a08g045: Add missing interrupts to IRQC node
+         5e9e1fdbb15958d416ddb6e51796f945c378ca89 arm64: dts: renesas: rzg2ul-smarc: Enable CRU, CSI support
+         
+  - ref: refs/tags/renesas-devel-2024-02-21-v6.8-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 5b97e1a0f5b5ca902ecac1674731f8de5cd8bd92
+  - ref: refs/tags/renesas-next-2024-02-21-v6.8-rc1
+    old: 0000000000000000000000000000000000000000
+    new: bd712f0ee9a8eb266f3604e40cd9e169308c4541
