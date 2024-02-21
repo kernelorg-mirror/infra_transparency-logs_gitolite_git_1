@@ -1,45 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============4088774261074868530=="
+Content-Type: multipart/mixed; boundary="===============4798550970906339444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 21 Feb 2024 18:03:21 -0000
-Message-Id: <170853860173.14117.13661759276380192648@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Wed, 21 Feb 2024 18:04:10 -0000
+Message-Id: <170853865058.14491.10042410828811096009@gitolite.kernel.org>
 
---===============4088774261074868530==
+--===============4798550970906339444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/dev
-    old: 21ec68234826b1b54ab980a8df6e33c74cfbee58
-    new: 48238f7bb55284a9a72346b07638627a672937de
-    log: revlist-21ec68234826-48238f7bb552.txt
+  - ref: refs/heads/ti-k3-dts-next
+    old: 0f9eb43f009091501dd0c68232aa6530ba0e0185
+    new: fa1ece8f4dc499bd346adf78199d9fe5fb36fdfa
+    log: revlist-0f9eb43f0090-fa1ece8f4dc4.txt
 
---===============4088774261074868530==
+--===============4798550970906339444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21ec68234826-48238f7bb552.txt
+Content-Disposition: attachment; filename=revlist-0f9eb43f0090-fa1ece8f4dc4.txt
 
-87161a2b0aed9e9b614bbf6fe8697ad560ceb0cb f2fs: deprecate io_bits
-9c1d3cd4ff8c0e0defa3c78884d2b05db47f0a89 f2fs: use BLKS_PER_SEG, BLKS_PER_SEC, and SEGS_PER_SEC
-50581e3bda8f5e5e7d27286b64bda7c776a0b3e4 f2fs: separate f2fs_gc_range() to use GC for a range
-697c9124d70ad0040e26fbdf7a061db2af5bbd64 f2fs: fix to create selinux label during whiteout initialization
-8bac4167fd1485c16c54b74a64096e07054ba775 f2fs: correct counting methods of free_segments in __set_inuse
-4acac2bf18d65af198897a2194784bb4a0e5e3d9 f2fs: fix panic issue in update_sit_entry
-b1a811cc68a8414fbfb8c85df36fd543325762ee f2fs: enhance judgment conditions of GET_SEGNO
-defcf26adff992a58f48ac9dd00538a8b61c8e78 f2fs: Use folio in f2fs_read_merkle_tree_page
-ff059dcdda5746cfb9761533e561285dfec62650 f2fs: compress: fix to check zstd compress level correctly in mount option
-ef952ede4a7b92dd648335653e6c5ff1d1cd9766 f2fs: support SEEK_DATA and SEEK_HOLE for compression files
-bb516cc086ca79fd07f89f2d54bfbeb7e153e469 f2fs: doc: Fix bouncing email address for Sahitya Tummala
-83addb539136b6b36090fe938d2682083e519753 f2fs: kill heap-based allocation
-2fded30d8dce44599da8b7e07f500faaa5c0cd53 f2fs: support file pinning for zoned devices
-48777a1395cf751b9e60430b015f29c64547d891 f2fs: stop checkpoint when get a out-of-bounds segment
-48238f7bb55284a9a72346b07638627a672937de f2fs: introduce get_available_block_count() for cleanup
+3d585389d454e147187684e492a0eb8f56adf311 arm64: dts: ti: k3-j721e: Fix mux-reg-masks in hbmc_mux
+9a0c0a9baa2d1f906589d715f9baeab93e7fcdcb arm64: dts: ti: k3-j784s4-main: Fix mux-reg-masks in serdes_ln_ctrl
+9aa197b64df4c382763f032a31b35cad92cbce17 arm64: dts: ti: k3-j722s-evm: Enable CPSW3G RGMII1
+2e53b9c05a1589577565625fdb45cf918b54eb39 arm64: dts: ti: k3-j722s-evm: Enable OSPI NOR support
+90a67583171f213711de662fab9f8d24a2d291a9 arm64: dts: ti: k3-am62p: Fix memory ranges for DMSS
+091e2e05228fa3fd424b1d775b04fb4734d5275b arm64: dts: ti: k3-am62p: Add DMASS1 for CSI
+a8787f4fd29a43c5351daf3059a6156ff089a441 arm64: dts: ti: k3-am62p: Add nodes for CSI-RX
+598139b8c7c56cc6fb30ef8b4cf34b53a7fa5d0f arm64: dts: ti: Enable overlays for SK-AM62P
+daa2eb7f30eeb7127b6050e18f491326d278b836 arm64: dts: ti: k3-am69-sk: Enable CAN interfaces for AM69 SK board
+fabd934c6df2fb0c351144e424727fead261f333 arm64: dts: ti: k3-am69-sk: Add support for OSPI flash
+7805623df1ff50e69fa66e91f7305144e9ef5c31 arm64: dts: ti: k3-j784s4: Add Wave5 Video Encoder/Decoder Node
+8caaf735b9114f77895608acde21a5163b1bf02e arm64: dts: ti: k3-j721s2-main: Add Wave5 Video Encoder/Decoder Node
+ab480b8036fde8c1ea628bb1027919bf399468e9 arm64: dts: ti: k3-am62p: Add Wave5 Video Encoder/Decoder Node
+fa1ece8f4dc499bd346adf78199d9fe5fb36fdfa arm64: defconfig: Enable Wave5 Video Encoder/Decoder
 
---===============4088774261074868530==--
+--===============4798550970906339444==--
