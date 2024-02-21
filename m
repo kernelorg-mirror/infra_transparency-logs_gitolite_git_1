@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 21 Feb 2024 08:03:03 -0000
-Message-Id: <170850258305.15237.16445116716691646922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 21 Feb 2024 08:26:50 -0000
+Message-Id: <170850401077.32606.15542135516660937011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/x86-pie-for-sev-v5
-    old: 0cc3d2ea8faa59cc6406f95460e42ae5987ee35b
-    new: fac9888bd2451da4b2988dddc86d8b09c1849ba7
+  - ref: refs/heads/experimental
+    old: 399f6d35025a8dc407e029ab59522d5e09825b59
+    new: 6e19ed81edbac516c11529bd57350d34ac12e892
     log: |
-         fac9888bd2451da4b2988dddc86d8b09c1849ba7 x86/startup_64: Drop global variables keeping track of LA57 state
+         af3de46915a65285266ef2e627a35e034fcbd14e erofs-utils: support liblzma auto-detection
+         6e19ed81edbac516c11529bd57350d34ac12e892 erofs-utils: lib: drop prefix_sha256 digests
          
