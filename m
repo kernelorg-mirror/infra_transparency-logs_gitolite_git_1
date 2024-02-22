@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 22 Feb 2024 18:38:11 -0000
-Message-Id: <170862709117.8285.578033287803747172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Thu, 22 Feb 2024 18:52:41 -0000
+Message-Id: <170862796127.18240.18379363200990643039@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: oupton
 changes:
-  - ref: refs/heads/for-next/pstore
-    old: d4bf247f1a39c32a98f844bd292d0b081f4e0982
-    new: 98bc7e26e14fbb26a6abf97603d59532475e97f8
+  - ref: refs/heads/next
+    old: 9e00a15ec81e56e8b330024e606fa9a1fca004e9
+    new: 370cb8ba7da11f14e3c4c7534a29a577fe1162ee
     log: |
-         a43e0fc5e9134a46515de2f2f8d4100b74e50de3 pstore: inode: Only d_invalidate() is needed
-         12dc54f568d4f589fd49d7c143cca0cc5fa221fd pstore/ram: Register to module device table
-         77a6557d2a58ad9abea0537509d6dfc946cddfd3 arm64: defconfig: Enable PSTORE_RAM
-         a28655c330ab294862cabe66deadb0f85cd4f191 efi: pstore: Allow dynamic initialization based on module parameter
-         98bc7e26e14fbb26a6abf97603d59532475e97f8 pstore/zone: Add a null pointer check to the psz_kmsg_read
+         99101dda29e3186b1356b0dc4dbb835c02c71ac9 KVM: arm64: Make build-time check of RES0/RES1 bits optional
+         370cb8ba7da11f14e3c4c7534a29a577fe1162ee Merge branch kvm-arm64/vm-configuration into kvmarm/next
          
