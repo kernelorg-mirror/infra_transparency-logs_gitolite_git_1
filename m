@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtracefs
-Date: Thu, 22 Feb 2024 16:10:49 -0000
-Message-Id: <170861824961.16944.5910917895323186847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 22 Feb 2024 16:11:37 -0000
+Message-Id: <170861829765.17304.13536542754285998579@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtracefs
-user: rostedt
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/libtracefs
-    old: 5823ff1da8c5d5388e99702d4b4569b4d7164339
-    new: 04505a07824592f039eac66fe565994635eb5d5d
-    log: |
-         ba750812f68f0f3314494558496c23f934f8faff libtracefs utest: Add PATH_MAX if it is not already defined
-         7b4a9c9c9b962929323f9d97e00fb5e51bb205b9 libtracefs utest: Define _LARGEFILE64_SOURCE for lseek64() with musl
-         04505a07824592f039eac66fe565994635eb5d5d libtracefs utest: Include libgen.h for basename()
-         
+  - ref: refs/tags/v2.6.22.5
+    old: 18d10a5c3a0f6d913205ddfb30b1140c2713f3dd
+    new: 0000000000000000000000000000000000000000
