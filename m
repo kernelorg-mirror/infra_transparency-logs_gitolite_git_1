@@ -1,51 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0760801522182714083=="
+Content-Type: multipart/mixed; boundary="===============4903188858907581326=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 22 Feb 2024 20:02:16 -0000
-Message-Id: <170863213617.4919.9665072376933398877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 22 Feb 2024 20:03:04 -0000
+Message-Id: <170863218410.5332.16598151438487435043@gitolite.kernel.org>
 
---===============0760801522182714083==
+--===============4903188858907581326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: c7138f7a354df7cadccda31173617a7f30c8b6c6
-    new: ffd2cb6b718e189e7e2d5d0c19c25611f92e061a
-    log: revlist-c7138f7a354d-ffd2cb6b718e.txt
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 659663f0bccce884059985d5e43e066419cda4e2
+    new: b482f5f8e0168f1e81bbb45c5238a3bed481818a
+    log: revlist-659663f0bccc-b482f5f8e016.txt
 
---===============0760801522182714083==
+--===============4903188858907581326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7138f7a354d-ffd2cb6b718e.txt
+Content-Disposition: attachment; filename=revlist-659663f0bccc-b482f5f8e016.txt
 
-a4ab7dedaee0e39b15653c5fd0367e420739f7ef iommufd/iova_bitmap: Bounds check mapped::pages access
-d18411ec305728c6371806c4fb09be07016aad0b iommufd/iova_bitmap: Switch iova_bitmap::bitmap to an u8 array
-42af95114535dd94c39714b97ad720602d406b9a iommufd/selftest: Test u64 unaligned bitmaps
-2780025e01e2e1c92f83ee7da91d9727c2e58a3e iommufd/iova_bitmap: Handle recording beyond the mapped pages
-407fc184f0e0bfde61026d6ce3fb1e70a15159a3 iommufd/selftest: Refactor dirty bitmap tests
-02a8c61a8b06a4a082b58c3e643b28036c6be60f iommufd/selftest: Refactor mock_domain_read_and_clear_dirty()
-7db521e23fe9e36855b61b01a67291281118570e iommufd/selftest: Hugepage mock domain support
-fe13166f0562117c42fc60a109e664a914523e63 iommufd/selftest: Add mock IO hugepages tests
-4bbcbc6ea2fa379632a24c14cfb47aa603816ac6 iommufd/iova_bitmap: Consider page offset for the pages to be pinned
-855678ed8534518e2b428bcbcec695de9ba248e8 md: Fix missing release of 'active_io' for flush
-1baae052cccd08daf9a9d64c3f959d8cdb689757 md: Don't ignore suspended array in md_check_recovery()
-55a48ad2db64737f7ffc0407634218cc6e4c513b md: Don't ignore read-only array in md_check_recovery()
-82ec0ae59d02e89164b24c0cc8e4e50de78b5fd6 md: Make sure md_do_sync() will set MD_RECOVERY_DONE
-ad39c08186f8a0f221337985036ba86731d6aafe md: Don't register sync_thread for reshape directly
-9e46c70e829bddc24e04f963471e9983a11598b7 md: Don't suspend the array for interrupted reshape
-15afd3d332b845b54ff09d7522b552457162fe7c Merge tag 'md-6.8-20240216' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-6.8
-5429c8de56f6b2bd8f537df3a1e04e67b9c04282 block: sed-opal: handle empty atoms when parsing response
-7adc0c1cfa7732b81bf7bf2ed16ffb99719ceebf iommufd: Reject non-zero data_type if no data_len is provided
-510325e5ac5f45c1180189d3bfc108c54bf64544 selftests/iommu: fix the config fragment
-4c36fbb46f1326c8a11d81594a710098909eb9bf Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
-ffd2cb6b718e189e7e2d5d0c19c25611f92e061a Merge tag 'block-6.8-2024-02-22' of git://git.kernel.dk/linux
+eee41e6b287e2adfefbe3b6fc80c66097c076f89 perf stat: Pass fewer metric arguments
+a59fb796a36bb6c2b7e6e256a9e5f9ba18109937 perf metrics: Compute unmerged uncore metrics individually
+bafd4e75c1ac5a9da0aec5c7c52c7a72613a0cf3 perf stat: Fix metric-only aggregation index
+b6968f9b5035e8e5a74a83209853f274345c74a2 perf list: fix short description for some cache events
+510e528786395e419e9a827ee5d42add021111ee perf thread_map: Skip exited threads when scanning /proc
+8ece26ad5ad33a1de7231059ec9692d303cb5f2f perf list: Add scandirat compatibility function
+526f2ac9f6a1d668fddf925897b55341bef22644 perf tests: Avoid fork in perf_has_symbol test
+1a562c0d44974d3cf89c6cc5c34c708c08af420e tools subcmd: Add a no exec function call option
+d5bcade989a86caa4314aa91d6d3f652e8a82fe5 perf test: Rename builtin-test-list and add missed header guard
+f3295f5b067d3c2655f0b2cd14d0b91b83ca41eb perf tests: Use scandirat for shell script finding
+964461ee370f3c0d63c173bfe4e4995f66d91578 perf tests: Run time generate shell test suites
+b482f5f8e0168f1e81bbb45c5238a3bed481818a perf tests: Add option to run tests in parallel
 
---===============0760801522182714083==--
+--===============4903188858907581326==--
