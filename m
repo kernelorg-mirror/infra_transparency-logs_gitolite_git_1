@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 22 Feb 2024 15:31:06 -0000
-Message-Id: <170861586626.19573.7294066535707103353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Thu, 22 Feb 2024 15:38:02 -0000
+Message-Id: <170861628231.24926.8882569790977151755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
   - ref: refs/heads/master
-    old: ba5a6df2d170fce96354f0c9ba281fe049d2f0a3
-    new: c54ef5a8da5c3c1bda359df08e6eecb6c77a3f4a
+    old: 40797ae3069ce08b83c4221839b53e754105be78
+    new: 470c530bcb81593ac6e62a79e67e4bd5c09c14e5
     log: |
-         a507c08bfe4fa59497091dc800f04ccab37f16b8 auto-t: fix failed_roam_test to pass when run on its own
-         c54ef5a8da5c3c1bda359df08e6eecb6c77a3f4a auto-t: timestamp log files in test-runner
+         470c530bcb81593ac6e62a79e67e4bd5c09c14e5 Document alignment of rseq_abi for allocated size
          
