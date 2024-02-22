@@ -1,48 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6278718201004863078=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 22 Feb 2024 09:45:05 -0000
-Message-Id: <170859510541.24096.4377563903043619871@gitolite.kernel.org>
-
---===============6278718201004863078==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Thu, 22 Feb 2024 09:49:38 -0000
+Message-Id: <170859537825.25813.3587244860190742131@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/master
-    old: 3ce8e121c322237e953f9a4f816a5deddd2ec1fd
-    new: 7ca98ca6aab919f271a15e40276cbb411e62f0e4
-    log: revlist-3ce8e121c322-7ca98ca6aab9.txt
-
---===============6278718201004863078==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ce8e121c322-7ca98ca6aab9.txt
-
-fd1786d372bb76bac426018cef656f136e2d435f include: introduce seccomp.h
-e6e606a9808e957b074bcd6fc76a911945596219 enosys: add functionality to dump filter
-acd8c7abb1b4df588a69ff14ab4e15b66f60f2c1 setpriv: add support for seccomp filters
-129b0d223afd27ce9f63730af737174d0a7159b0 setpriv: (tests) add seccomp test
-d2203ae361c228d232b2fa77d7503d1cc3526f75 lastlog2: improve coding style
-4e86ac6f7faef64831da5b2dfcd2b40bb7179bc4 lastlog: improve errors printing
-76fcb1c65afd7bbcd5f27b3f3b3408bc7d40ca00 lastlog2: make longopts[] static-const
-c71f38287c81cb06433e3949dadba8bc74dc8588 lastlog: cleanup function definitions
-af93603e52d56fdd6246a038139a5d0e83a5c6a2 lastlog2: convert check_user() to boolean-like macro
-fe23722854f651984fad597cbb5b44653f72832a more: fix poll() use
-3d4ce545f2563f5dde88e7bd50ef4944a65112db liblastlog2: Improved sqlite3 error handling
-4573bdfde6041b3322fa8724ec2728c90d399039 Merge branch 'enosys/dump' of https://github.com/t-8ch/util-linux
-46eabebbba19b56a66620644d49c69f103eb9368 autotools: make errnos.h available without lsfd
-766a9bd686e063c6a70bb92836a4d5f8492a7799 enosys: generalize named number parsing
-ced129dcf654836850f475413120b3a3fd8de707 enosys: add support for alternative error codes
-edce222c22752bcc69b6da7323bd9bc0884e51de Merge branch 'PR/lastlog2-cleanup' of github.com:karelzak/util-linux-work
-67c32ba44d7913424f0b3a8f3b1b12a8031c38da Merge branch 'PR/more-poll' of github.com:karelzak/util-linux-work
-7ca98ca6aab919f271a15e40276cbb411e62f0e4 Merge branch 'lastlog2_error' of https://github.com/schubi2/util-linux
-
---===============6278718201004863078==--
+  - ref: refs/heads/thermal/bleeding-edge
+    old: 6bd9d0bb7f3ec7006d9ed9c97c197522e839bf3b
+    new: cdeca41677cce82e498d54533f130bc47cfd3dec
+    log: |
+         bff77e47191eef18da3b905d230152f9b3bc8887 thermal: Drop spaces before TABs
+         edf6d3a9d4c6e58bb5707b197feeb248cf83195e dt-bindings: thermal: qoriq-thermal: Adjust fsl,tmu-range min/maxItems
+         96c3494bc621e3b7b528f4040899e4607d52c59d soc: sunxi: sram: export register 0 for THS on H616
+         a3eabec11b8e6773f1926a41cf50b96296ecbf3d dt-bindings: thermal: sun8i: Add H616 THS controller
+         b1852bb746724805bd3880be639ccad917e1a74a thermal/drivers/sun8i: Explain unknown H6 register value
+         f1d12e8c5933d3855e4c47876b08c925eca746e2 thermal/drivers/sun8i: Extend H6 calibration to support 4 sensors
+         bd2da382b117a4070ca8c0a26b0e781c64d8f06d thermal/drivers/sun8i: Add SRAM register access code
+         cdeca41677cce82e498d54533f130bc47cfd3dec thermal/drivers/sun8i: Add support for H616 THS controller
+         
