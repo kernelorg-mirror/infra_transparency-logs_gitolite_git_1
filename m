@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 22 Feb 2024 16:51:40 -0000
-Message-Id: <170862070042.25844.7296928852473568172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 22 Feb 2024 16:51:42 -0000
+Message-Id: <170862070248.25915.13381103690337821340@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/tags/v2.6.31.6
-    old: 689c4d58b7ace28dd7755c9886068961e851cb2c
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/smp/core
+    old: b57b4126dd3bb69db876ae7b271307ab7e0458b9
+    new: 266e95786452d97f42dcb9a881bba223584b9648
+    log: |
+         266e95786452d97f42dcb9a881bba223584b9648 cpu: Remove stray semicolon
+         
