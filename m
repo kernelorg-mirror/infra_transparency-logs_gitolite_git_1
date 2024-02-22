@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Thu, 22 Feb 2024 09:54:12 -0000
-Message-Id: <170859565202.29065.9480646728186299750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 22 Feb 2024 09:55:00 -0000
+Message-Id: <170859570024.29462.4672254592602276276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/thermal/bleeding-edge
-    old: cdeca41677cce82e498d54533f130bc47cfd3dec
-    new: b05d3cd9fe784652172c1dab15a41b65a59a01a1
+  - ref: refs/heads/stable/v2.40
+    old: e713047ab6dddbca71db82ef36d88180221c907c
+    new: 187bae5140d083d5ee96ba02c639e728ab71d1ff
     log: |
-         92e07e99334b5a823b612cae4c801cb3ac921604 dt-bindings: thermal: sun8i: Add H616 THS controller
-         a50b56c3399f4faa26e757569030d73bf7c213a4 thermal/drivers/sun8i: Explain unknown H6 register value
-         531ce6067427f8ff7f6c1dcf594e64035e65b574 thermal/drivers/sun8i: Extend H6 calibration to support 4 sensors
-         999017eef26117f56d1bf4b33645a06111db2602 thermal/drivers/sun8i: Add SRAM register access code
-         b05d3cd9fe784652172c1dab15a41b65a59a01a1 thermal/drivers/sun8i: Add support for H616 THS controller
+         b9fd1ff9076c5f9db643b7c2e8084505bf433b19 lastlog2: Don't print space if Service column is not printed
+         375833806db9747c3a7206ba8d33afc53e038768 lastlog2: improve coding style
+         85f213c8f85935aa500f71ddda8b299d62e35528 lastlog: improve errors printing
+         5ccda5faea795c4971c0993f8eea0f0a4cbe897d lastlog2: make longopts[] static-const
+         cfbe236dae22772009656cfb72e8a0c539046c7f lastlog: cleanup function definitions
+         e457cf097d8d6a1e5d9fe72caabd908aedfc2c19 lastlog2: convert check_user() to boolean-like macro
+         22f83602a4e466bfec705d149f4a34f56b25414d more: fix poll() use
+         187bae5140d083d5ee96ba02c639e728ab71d1ff docs: cleanup public domain license texts
          
