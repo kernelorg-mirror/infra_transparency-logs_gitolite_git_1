@@ -1,24 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 22 Feb 2024 08:42:15 -0000
-Message-Id: <170859133517.27732.16964942156334002813@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4428017166533880745=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Thu, 22 Feb 2024 08:45:02 -0000
+Message-Id: <170859150266.29119.14685772908106936612@gitolite.kernel.org>
+
+--===============4428017166533880745==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/vfs.pidfd
-    old: 398275624f3b72cbf6628feb0f2888dcccb713a3
-    new: 08126d21dbbbea9caa9e08eb29948df0bd467531
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: eb9f7f654f251b57db310eab90bbae5876898ae3
+    new: cf8281b1aeab93a03c87033a741075c39ace80d4
     log: |
-         ee17367e5229ab7e18636082c4411d422483eb36 pidfd: add pidfs
-         770d742feea29d4ae7b25c0bbdc872c4f4649018 libfs: add path_from_stashed()
-         b861a6fc1af9b80cc307ad5713fbf78c8bbcd7c7 nsfs: convert to path_from_stashed() helper
-         0e0a7fe53f07cb7f64e967bdc17f6df7c9168b7b pidfs: convert to path_from_stashed() helper
-         e4ef92ac3c66bdd51714cffbd5fadb2506e6499b libfs: improve path_from_stashed() helper
-         08126d21dbbbea9caa9e08eb29948df0bd467531 libfs: add stashed_dentry_prune()
+         cf8281b1aeab93a03c87033a741075c39ace80d4 i2c: imx: when being a target, mark the last read as processed
          
+
+--===============4428017166533880745==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher andi.shyti@kernel.org 1708591501 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
+nonce 1708591500-91a640cc2100480343523110c5aedd3f04b11f87
+
+eb9f7f654f251b57db310eab90bbae5876898ae3 cf8281b1aeab93a03c87033a741075c39ace80d4 refs/heads/i2c/i2c-host-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZdcJjRYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uzV4BALotrREFc3cMviZchP1RYdyRIB2Y
+5+bh5fClI/RI4kkkAP9zhBfdPXxPwDB7RLjI57FsujJ+GEW4oilHuIHMQbh7CQ==
+=ktsT
+-----END PGP SIGNATURE-----
+
+--===============4428017166533880745==--
