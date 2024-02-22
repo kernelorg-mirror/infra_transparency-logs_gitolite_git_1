@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============2113968562239442006=="
+Content-Type: multipart/mixed; boundary="===============5755672971804028356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 22 Feb 2024 06:14:44 -0000
-Message-Id: <170858248446.16700.4080467265703239112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Thu, 22 Feb 2024 06:15:22 -0000
+Message-Id: <170858252209.18611.2417810450803813067@gitolite.kernel.org>
 
---===============2113968562239442006==
+--===============5755672971804028356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/fs/xfs/xfs-linux
+user: chandanbabu
 changes:
-  - ref: refs/heads/master
-    old: d17cd7ec415e81f1fa2c1b610125357002d054c6
-    new: d2ff29b1d29472103fe0a26a6a3c573c66b2094a
-    log: |
-         d2ff29b1d29472103fe0a26a6a3c573c66b2094a drop nilfs2-replace-warn_ons-for-invalid-dat-metadata-block-requests.patch
-         
+  - ref: refs/heads/for-next
+    old: 7d5ba7ca6a4525b8908c285c2949bb946dfbbc54
+    new: 4b2f459d86252619448455013f581836c8b1b7da
+    log: revlist-7d5ba7ca6a45-4b2f459d8625.txt
 
---===============2113968562239442006==
+--===============5755672971804028356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7d5ba7ca6a45-4b2f459d8625.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708582481 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1708582477-b6060f51c0a284f4d608cc00b1e6e7e0334a9bb4
+b64e74e95aa6491b31477e9002aab1d8df3995bf mm: move mapping_set_update out of <linux/swap.h>
+aefacb2041f77784059b86c5fd151066859ad19a shmem: move shmem_mapping out of line
+e11381d83d72198565f4545d9988b4720288eb64 shmem: set a_ops earlier in shmem_symlink
+1cd81faaf61b42307e81f2dd173934005c220a64 shmem: move the shmem_mapping assert into shmem_get_folio_gfp
+d7468609ee0f90ceb24143a32edc47d433d1dbba shmem: export shmem_get_folio
+be9d93661d548a41bb8f135b9953191f0fb2e44b shmem: export shmem_kernel_file_setup
+9d8b36744935f83c5553e6f242b9961f676628ed shmem: document how to "persist" data when using shmem_*file_setup
+b44c0eb8ae9c3e22cfa113774134673ac18ac848 xfs: use VM_NORESERVE in xfile_create
+1b07ea2ab3dc0307f80c735cba8c3ef690bd9aab xfs: shmem_file_setup can't return NULL
+efc9dc096399c692bd258ec9cdbe6b868a59545a xfs: use shmem_kernel_file_setup in xfile_create
+a2078df025d92046cc98a9fce65220abd864781e xfs: don't modify file and inode flags for shmem files
+0473635d46e2344eed897dcfca12aa4688285262 xfs: remove xfile_stat
+e47e2e0ba9103df7b3d25356421e6832c4d0e7be xfs: remove the xfile_pread/pwrite APIs
+0e2a24afb99258acc147f7fbe6c1e178a951247d xfs: don't try to handle non-update pages in xfile_obj_load
+e62e26acc9ab85e996eff660318109470eae2607 xfs: don't allow highmem pages in xfile mappings
+fd2634e2dd4539f96ab9e037f62ad2828f7a15eb xfs: use shmem_get_folio in xfile_obj_store
+e97d70a57370817af59bb83f4219cd8aa63b81ed xfs: use shmem_get_folio in in xfile_load
+6907e3c00a4023d2456d17ba156d1e03aec4f185 xfs: add file_{get,put}_folio
+fd3d46e630404202c1d577481fafd2c8993874f3 xfs: remove xfarray_sortinfo.page_kaddr
+b2fdfe19dfd70ba047ab720eb52f00651ef8a5cd xfs: fix a comment in xfarray.c
+ee13fc67205b989c93c89a4800a4b1c84e448dde xfs: convert xfarray_pagesort to deal with large folios
+e5a2f47cff812c01018652f11d5e861e2a6b462b xfs: remove xfile_{get,put}_page
+4b2f459d86252619448455013f581836c8b1b7da xfs: fix SEEK_HOLE/DATA for regions with active COW extents
 
-d17cd7ec415e81f1fa2c1b610125357002d054c6 d2ff29b1d29472103fe0a26a6a3c573c66b2094a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXW5lEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uZMP/0QH3Jsi1cBwvUAMCjxJ
-Q2opf6ztAysHZ2j8H9geoE9oWxw8LqOyDejHYKC2wn0InfPjHuC8jhv10aWmjcSd
-zd07YgzqFVVLN0/PT8syx4WPBVXBhA1NgE7L0xpQEwLTR6qmGmmeIJcCAoqspOwC
-/b37DK3dNNLWsJD2QJLeLFHZQwXukgWS5IhZdvhr8IX4YGmlXi47ybIZCg9eli3o
-d8ci/zFVeRwyYhoVRiqa0Uvd1QcpIqndJjk7xLQSq/Dbq69ocEG5f4BSFWKxiPkX
-6v22x+8ZIhWlEPe4Qf5zL9yRQdM5pqSbV7oHMNYedOYKtQdju8BROWRHgfrjhn35
-7XQQ4lZnFmT/+Q16yKFCQZ1ggnjTsmnOkY2bgjbXd1iPD9EbpECirXWhB17rfC2R
-wOAKj/llKNkOnM/lHcFKB2ESnGWpooSUje4+JMDCMHJt2oMTekQqHUTgRP4ulW22
-/1dk8r45mcFnGFBGs0YxzGHBtQeBDNojk10XRZbBRJSL/Z+mor9oKrr/8/LKkz97
-Y0bYtr9JkPVSK16pMYJEBwhAQBN6rUIGgoffFXOVCA9a7rHaZIddqaQ7ZkmNOQYX
-xf8tX3zYoGlh3fNe0XBPNeV3Hm+RrUKpPDvQAzLoM3ejlo0luRo/DVr5BYikN8/P
-EgOigZIo9PFfdVYgt9EsDDs+
-=pH2g
------END PGP SIGNATURE-----
-
---===============2113968562239442006==--
+--===============5755672971804028356==--
