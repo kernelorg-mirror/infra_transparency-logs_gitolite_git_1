@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 22 Feb 2024 16:01:54 -0000
-Message-Id: <170861771425.9123.11120632502383796022@gitolite.kernel.org>
+Date: Thu, 22 Feb 2024 16:02:19 -0000
+Message-Id: <170861773983.9361.12503150877209144138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf
 user: ast
 changes:
-  - ref: refs/tags/v6.8-rc2
-    old: 0000000000000000000000000000000000000000
-    new: c18956a7ed4b71eec72700a0899ad21167b994bb
-  - ref: refs/tags/v6.8-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0b5b909d9a9083afacaac2a75dac24ba3649f692
-  - ref: refs/tags/v6.8-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 251168394b084796bcd8f3e3655f2eb38c524ea3
+  - ref: refs/tags/for-netdev
+    old: 5e08001f08aab48995797350443cfff55419694b
+    new: 0000000000000000000000000000000000000000
