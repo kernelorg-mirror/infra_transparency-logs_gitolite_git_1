@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 22 Feb 2024 16:35:01 -0000
-Message-Id: <170861970115.7294.13336920413533677656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 22 Feb 2024 16:35:10 -0000
+Message-Id: <170861971038.8993.12875124560501162319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/tags/v2.6.27.5
-    old: d63354ea9007ea9ce3bd40b708b04abed18f2eb9
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next/kspp
+    old: 66b9c92e21c256c580d4eff0bb2869b194f782bd
+    new: 4db021408d359e189bd373addd287c072fcebc27
+    log: |
+         a270d4c17da1f8d06c4004057ef03fb33105b34b fortify: Add KUnit tests for runtime overflows
+         6f58882a37de8b024cbd7c13bf9fbd9414a0c321 fortify: Improve buffer overflow reporting
+         4db021408d359e189bd373addd287c072fcebc27 x86/vdso: Move vDSO to mmap region
+         
