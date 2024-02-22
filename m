@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 22 Feb 2024 14:16:56 -0000
-Message-Id: <170861141632.29204.5143404375345284212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 22 Feb 2024 14:17:31 -0000
+Message-Id: <170861145187.29528.946271109571884700@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/asoc-6.9
-    old: b96ccdcf9d58ed49a576ee9ad10e94e98b9bbb2e
-    new: 0dae534c48239be0a99092e46e1baade0cf3e04a
+  - ref: refs/heads/kvm-arm64/enforce-idreg-config
+    old: 0a98cbf3eeecd7f4ff972eb97cc21fff5fdb09fe
+    new: bc67469940fd187045290caab1f28a1d0d7c414f
     log: |
-         26c8a435fce6ef8d1dea39cc52b15cf36c7e986b ASoC: dt-bindings: qcom,wsa8840: Add reset-gpios for shared line
-         0dae534c48239be0a99092e46e1baade0cf3e04a ASoC: codecs: wsa884x: Allow sharing reset GPIO
+         bc67469940fd187045290caab1f28a1d0d7c414f KVM: arm64: Make build-time check of RES0/RES1 bits optional
          
