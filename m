@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Thu, 22 Feb 2024 21:53:23 -0000
-Message-Id: <170863880382.24426.15523087495242018783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Thu, 22 Feb 2024 21:59:39 -0000
+Message-Id: <170863917994.28282.8310647742114198718@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/heads/dev
-    old: 936615f63768482be942644dd3b1b1dca862f25b
-    new: 260017f31a8c3879be5f9048a46f382b06c1923a
+  - ref: refs/heads/master
+    old: 7ee32349810482a1906303af23250890f0bb946a
+    new: 3b2f61a0be289c615a71a9a9fca4c255ef702b2c
     log: |
-         260017f31a8c3879be5f9048a46f382b06c1923a lsm: use default hook return value in call_int_hook()
-         
-  - ref: refs/heads/next
-    old: b6fc98c0707b03608f7cb7468f83c4726c6efee0
-    new: f89d47833d28f101fce65c7d08c00a4d6f28c1b1
-    log: |
-         260017f31a8c3879be5f9048a46f382b06c1923a lsm: use default hook return value in call_int_hook()
-         f89d47833d28f101fce65c7d08c00a4d6f28c1b1 Automated merge of 'dev' into 'next'
+         3b2f61a0be289c615a71a9a9fca4c255ef702b2c queue: Fix names of l_queue_match_func_t parameters
          
