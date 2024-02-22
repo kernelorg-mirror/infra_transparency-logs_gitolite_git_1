@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 22 Feb 2024 16:47:07 -0000
-Message-Id: <170862042798.21287.15400473479858237143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 22 Feb 2024 16:47:14 -0000
+Message-Id: <170862043468.21419.6641897739520685232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/tags/v2.6.27.30
-    old: 240af04ec821eea16f5d61f78bb32507cd820308
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next
+    old: a3c70a3cf11eb4b6409afc2cce1a3747e1dfe96f
+    new: 8425b6eb51460ef429920b2ee7e2b0881d4e23c5
+    log: |
+         b546b57526953be2981113171ed586c4c50b1b0a selftests/bpf: update tcp_custom_syncookie to use scalar packet offset
+         8425b6eb51460ef429920b2ee7e2b0881d4e23c5 Merge branch 'selftests-bpf-reduce-tcp_custom_syncookie-verification-complexity'
+         
