@@ -1,42 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============4903188858907581326=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 22 Feb 2024 20:03:04 -0000
-Message-Id: <170863218410.5332.16598151438487435043@gitolite.kernel.org>
-
---===============4903188858907581326==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 22 Feb 2024 20:09:30 -0000
+Message-Id: <170863257031.10549.9041550612013890672@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 659663f0bccce884059985d5e43e066419cda4e2
-    new: b482f5f8e0168f1e81bbb45c5238a3bed481818a
-    log: revlist-659663f0bccc-b482f5f8e016.txt
-
---===============4903188858907581326==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-659663f0bccc-b482f5f8e016.txt
-
-eee41e6b287e2adfefbe3b6fc80c66097c076f89 perf stat: Pass fewer metric arguments
-a59fb796a36bb6c2b7e6e256a9e5f9ba18109937 perf metrics: Compute unmerged uncore metrics individually
-bafd4e75c1ac5a9da0aec5c7c52c7a72613a0cf3 perf stat: Fix metric-only aggregation index
-b6968f9b5035e8e5a74a83209853f274345c74a2 perf list: fix short description for some cache events
-510e528786395e419e9a827ee5d42add021111ee perf thread_map: Skip exited threads when scanning /proc
-8ece26ad5ad33a1de7231059ec9692d303cb5f2f perf list: Add scandirat compatibility function
-526f2ac9f6a1d668fddf925897b55341bef22644 perf tests: Avoid fork in perf_has_symbol test
-1a562c0d44974d3cf89c6cc5c34c708c08af420e tools subcmd: Add a no exec function call option
-d5bcade989a86caa4314aa91d6d3f652e8a82fe5 perf test: Rename builtin-test-list and add missed header guard
-f3295f5b067d3c2655f0b2cd14d0b91b83ca41eb perf tests: Use scandirat for shell script finding
-964461ee370f3c0d63c173bfe4e4995f66d91578 perf tests: Run time generate shell test suites
-b482f5f8e0168f1e81bbb45c5238a3bed481818a perf tests: Add option to run tests in parallel
-
---===============4903188858907581326==--
+  - ref: refs/heads/master
+    old: fc19b814cf6c45f47e0541268c0c5228666260bb
+    new: 596e8fc0d83f226ad5c87db68b38399c59292cd0
+    log: |
+         596e8fc0d83f226ad5c87db68b38399c59292cd0 Thu Feb 22 03:08:56 PM EST 2024
+         
