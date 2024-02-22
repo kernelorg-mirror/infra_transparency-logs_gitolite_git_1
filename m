@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5303982579524333723=="
+Content-Type: multipart/mixed; boundary="===============5280150642963589097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 22 Feb 2024 23:05:53 -0000
-Message-Id: <170864315335.13678.16797701174579816726@gitolite.kernel.org>
+Date: Thu, 22 Feb 2024 23:06:28 -0000
+Message-Id: <170864318822.13998.9227158335940487718@gitolite.kernel.org>
 
---===============5303982579524333723==
+--===============5280150642963589097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 14dec56fdd4c70a0ebe40077368e367421ea6fef
-    new: 359e54a93ab43d32ee1bff3c2f9f10cb9f6b6e79
-    log: revlist-14dec56fdd4c-359e54a93ab4.txt
+  - ref: refs/heads/dev-queue
+    old: e238272ab296b1fa1195ad416a7ee63e88eaee12
+    new: 70b63920bd24cf15a6ecb28fedb7da1294616783
+    log: revlist-e238272ab296-70b63920bd24.txt
 
---===============5303982579524333723==
+--===============5280150642963589097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14dec56fdd4c-359e54a93ab4.txt
+Content-Disposition: attachment; filename=revlist-e238272ab296-70b63920bd24.txt
 
 11f522256e9043b0fcd2f994278645d3e201d20c bpf: Fix warning for bpf_cpumask in verifier
 2127c604383666675789fd4a5fc2aead46c73aad xsk: Add truesize to skb_add_rx_frag().
@@ -67,5 +67,23 @@ f198d933c2e4f8f89e0620fbaf1ea7eac384a0eb Fix write to cloned skb in ipv6_hop_ioa
 fdcd4467ba154465402432888f9ba9ad2122a37a Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 9ff27943060c0282ca14e40f05c2b907edc85a42 Merge tag 'nf-24-02-22' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 359e54a93ab43d32ee1bff3c2f9f10cb9f6b6e79 l2tp: pass correct message length to ip6_append_data
+df365b17c566a5d1716d9b249711d483685ba807 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+c08a5ad88671bf0fdd31f98d472feda0d8de2cb3 ice: fix connection state of DPLL and out pin
+8ed508e81870304bb9ae760c148f6bd03ad02d74 ice: virtchnl: stop pretending to support RSS over AQ or registers
+88bde0eea43cd916024db5330133c0dc586a29ee ice: Refactor FW data type and fix bitmap casting issue
+03e5d2ac87cb35c3082cec4d0e17a56f702e666c idpf: disable local BH when scheduling napi for marker packets
+5d9a021b8066cde54426ac0f4207a33cd01206c6 ice: fix dpll input pin phase_adjust value updates
+6b10123981eace47dda898569a3d609e2240f2d5 ice: fix dpll and dpll_pin data access on PF reset
+2e814e4209c338351b80b5a26db73b4b00356924 ice: fix dpll periodic work data updates on PF reset
+1cb4a486c63fccf42516e772d1ecb940b1d71c78 ice: fix pin phase adjust updates on PF reset
+7e5e8a66af590d78579d4e579ef1012fc070ffc1 igb: extend PTP timestamp adjustments to i211
+fac999533831c1d5c4514c492a4d4c647f60b4ee ice: Fix ASSERT_RTNL() warning during certain scenarios
+b4fec75b14c92f61a74c08b0ec553c1b33538487 intel: legacy: Partially revert of field get conversion
+10c6fecd59e4750a5a36e3cbe700fadd87ea5a05 igc: avoid returning frame twice in XDP_REDIRECT
+e8f020e1da0fe60c2446950737f3c8290ab5fa5a ixgbe: {dis, en}able irqs in ixgbe_txrx_ring_{dis, en}able
+9bc4d2816a2ad4ed331c0d9906df95145baf9105 i40e: disable NAPI right after disabling irqs when handling xsk_pool
+06c525e39a77ede706bacac44d3cc7ee4dc42a25 ice: reorder disabling IRQ and NAPI in ice_qp_dis
+ecc18cf4fa6c3b2db648d3be85e20f924b0bc352 igc: Fix missing time sync events
+70b63920bd24cf15a6ecb28fedb7da1294616783 igb: Fix missing time sync events
 
---===============5303982579524333723==--
+--===============5280150642963589097==--
