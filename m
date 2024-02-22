@@ -1,28 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 22 Feb 2024 16:28:39 -0000
-Message-Id: <170861931978.896.1475289950047552376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 22 Feb 2024 16:28:41 -0000
+Message-Id: <170861932180.973.9824694755147783320@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/for-next
-    old: 372709508b847e7df3bbe2c52ab4c783bbce738f
-    new: ec89fc1b71766c9e7a122f8ba7a21933fe6a95b4
+  - ref: refs/heads/for-next/hardening
+    old: e3508eabe0cce31e8bfd2c9da60fd45f129e37b9
+    new: 66b9c92e21c256c580d4eff0bb2869b194f782bd
     log: |
-         bc80e83ebbb274fcd40b17dd8c4f8a6b74808feb ALSA: hda: beep: Drop stale mutex
-         ec89fc1b71766c9e7a122f8ba7a21933fe6a95b4 ALSA: seq: prioq: Unify cell removal functions
-         
-  - ref: refs/heads/master
-    old: c17ea7100becd18743812089cae4ee0af6cc1a5f
-    new: 0d890c5bc42c38002def1604f1cd00183d8d4a24
-    log: |
-         bc80e83ebbb274fcd40b17dd8c4f8a6b74808feb ALSA: hda: beep: Drop stale mutex
-         ec89fc1b71766c9e7a122f8ba7a21933fe6a95b4 ALSA: seq: prioq: Unify cell removal functions
-         0d890c5bc42c38002def1604f1cd00183d8d4a24 Merge branch 'for-next'
+         152bfe4c82e8a5c20bcd632aecca7c356a1d214a fortify: Split reporting and avoid passing string pointer
+         9b5975fb0f9f93b35b7a3266a799c7e40ab50604 fortify: Allow KUnit test to build without FORTIFY
+         b54868a76b7f7eaca192ec208733aa853e6dbb01 fortify: Provide KUnit counters for failure testing
+         fb9d3e32af200ebb853a4307366ecc48ff512d27 fortify: Add KUnit tests for runtime overflows
+         127410326ae2358040ca139332d8173efa319b63 fortify: Improve buffer overflow reporting
+         66b9c92e21c256c580d4eff0bb2869b194f782bd x86/vdso: Move vDSO to mmap region
          
