@@ -1,58 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============1401836011296439751=="
+Content-Type: multipart/mixed; boundary="===============8366169501757364517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 22 Feb 2024 10:00:59 -0000
-Message-Id: <170859605980.2659.12106022805292791575@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 22 Feb 2024 10:12:58 -0000
+Message-Id: <170859677811.11365.1729375949628369289@gitolite.kernel.org>
 
---===============1401836011296439751==
+--===============8366169501757364517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 8c88d5398cf67306b0b6fb733ffbaa7f8f071ad9
-    new: 5871dd97782139de3e5d67ceabd68f40840a9824
-    log: |
-         e4203a57ce8afdb247e3e7271e02585f7e502418 cve/schema: update text for rejected entries
-         fbfb619aceeba47fd0c630b4ba1d6448436936f4 justfile: fix up directory traversal
-         5871dd97782139de3e5d67ceabd68f40840a9824 cve: update some older mbox entries with the latest info
-         
+    old: b7fb3c4de67a870f638c5e74e46441b9a366e67c
+    new: ae8ddf283df3a10fdfcc1153cfb605d5606ec0ee
+    log: revlist-b7fb3c4de67a-ae8ddf283df3.txt
 
---===============1401836011296439751==
+--===============8366169501757364517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b7fb3c4de67a-ae8ddf283df3.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708596056 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1708596056-acae5d6663c279fb9c1ae17b5d8bc9ff7c6644f7
+f14df823a61e45db6a92e1caf552d5ec64e06b1e Merge branch 'x86/vdso' into x86/core, to resolve conflict and to prepare for dependent changes
+b7bcffe752957c6eac7c4cd77dd6f5d943478769 x86/vdso/kbuild: Group non-standard build attributes and primary object file rules together
+72d1a292c9389363abe2fd827bd7bfde3fc7cd88 Merge branch 'x86/core' into x86/merge, to ease integration testing
+e2377512724c5a15fc0b30f87784ba40b36859c6 Merge branch 'x86/urgent' into x86/merge, to resolve conflict and ease integration testing
+fe198c852646f3bd7ee20f8f0db82f0df3260925 Merge branch 'x86/sev' into x86/merge, to resolve conflict and ease integration testing
+a96a55e1b924cda30c35891e9f3ff45e623556ff Merge branch 'x86/fred' into x86/merge, to resolve conflicts and ease integration testing
+95f0b570750f6ca025cb9f09499cfe3dfb03891b Merge branch 'x86/build' into x86/merge, to resolve conflict and to ease integration testing
+f51d8a9365b3460c2d5d50ba30c00b453c856fb6 Merge branch into tip/master: 'x86/merge'
+0fc4fb82b3ce7b62ac4e1dd598440d4c39d5e3f4 Merge branch into tip/master: 'irq/urgent'
+ef33f9d2078b846e4dacb78b1c6fa46c46921e3c Merge branch into tip/master: 'irq/core'
+64c35dda5f4270ffc2047c5eed8766e827ae0ed2 Merge branch into tip/master: 'locking/core'
+ceb2a65a9da286ff67e503664c2f54ca4e7740c5 Merge branch into tip/master: 'ras/core'
+18ee2b2ea1fdedb4a8ffa331649ccb9d8d3ad61a Merge branch into tip/master: 'sched/core'
+381db43719027c4e5339d6b7b53f492349dbaaa0 Merge branch into tip/master: 'smp/core'
+5159da5e0ee37c9c824cd264753eeabc26ad8f2b Merge branch into tip/master: 'timers/core'
+2df7ee056b6170ad9b6eb058d0a089551a5b2974 Merge branch into tip/master: 'timers/ptp'
+c367bd9906a55dde671cf6fed2f97e870c1aea03 Merge branch into tip/master: 'x86/boot'
+2b9b148a204f749c15e41e7ff0fe65a551a0ba39 Merge branch into tip/master: 'x86/cache'
+aaed95f27294caaf6d41dcb7f3c60a0d4cf64bbb Merge branch into tip/master: 'x86/cleanups'
+c967cbbff7aca4b96960ad5508af968972c56d7b Merge branch into tip/master: 'x86/cpu'
+fd72eafcc30e27e992b7fc0f1e06eaae212a5163 Merge branch into tip/master: 'x86/entry'
+12260611270cef5c78d13585a121582043d774e2 Merge branch into tip/master: 'x86/misc'
+3e0cca8dc4db1e499022fa8582ebf4ca8bd46a2d Merge branch into tip/master: 'x86/mm'
+ae8ddf283df3a10fdfcc1153cfb605d5606ec0ee Merge branch into tip/master: 'x86/mtrr'
 
-8c88d5398cf67306b0b6fb733ffbaa7f8f071ad9 5871dd97782139de3e5d67ceabd68f40840a9824 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXXG1gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cgkP/jgAuHrRMnSA8ckLcwDN
-lzQWo5S3gtHpr2eOyszp2t1MeP/uSvWTaLBA8TO8Pf4n4lX3zw3ELnpHx4wJlcKM
-EN+Ozn3u72q/3gB/SGa8dfOK88NR7GkTXRLX9lde02sRX+J5uErc4HQtTt+7J/TB
-nSzzmQJh5SP0TGFIfpXogrGAryKRz86clxJEHLaBTTIb86lOOoiHkL0CcVYNvDcP
-EMHUcVpfosCyiz4S5e48XJPQcpemAy7cLnd++VIlb6Bo/5lsk06/CzQZgSmsiRrL
-aqoq2YMrTs8T9IyUhrWgUTq9xG0dsOSrQZPknZA2mZj4Mw+V0JpTBwZehDJhJqQO
-g4km63wVij5bTNLiNTRyjoc/ZoStYn5pfNubRIxa2LnedH+H9Efh6PNtXMR1ADL7
-o8p6jBZKWTSrXS4Cjml2BP5XmhJnT9v6SvTIMGuUvHfs4z7OwhcokrCuX0k8Cb3d
-d6CnztAXypdW9+e/zpMgrfPm8bhKChtSlt5+sATIPAhZ5+4lqnvyw3xpblpAltSD
-p9Qf6M3GZLsYxtBgpBaG9W6Ytstg12YgMf6Il1egO4ApHAdCB2jIxNw9N1rMbO4e
-4v9j0f3UiJf6us3E6s7RUBISfGABq1M/G3PqFGjS4r5SNXazGQR65yqvawXp6uIC
-24/MOQis4pHufNd58ROeIVKa
-=oJwH
------END PGP SIGNATURE-----
-
---===============1401836011296439751==--
+--===============8366169501757364517==--
