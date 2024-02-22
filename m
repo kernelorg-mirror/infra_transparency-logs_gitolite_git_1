@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 22 Feb 2024 14:44:43 -0000
-Message-Id: <170861308325.16893.6931655774144020539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Thu, 22 Feb 2024 14:49:21 -0000
+Message-Id: <170861336162.20194.5231571873845724107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
+repo: pub/scm/libs/ell/ell
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 6315b4286184257c5de05b12916b61536b48904a
-    new: ba5a6df2d170fce96354f0c9ba281fe049d2f0a3
+    old: 11c1f40a77c7d9d9cf7a29ae1d91dab374e5e90c
+    new: 85eb0d27bfce1e4a60150400e37b49460b7083af
     log: |
-         ba5a6df2d170fce96354f0c9ba281fe049d2f0a3 wiphy: Remove basename() use
+         85eb0d27bfce1e4a60150400e37b49460b7083af pem: fix typo in a conditional in pem_next()
          
