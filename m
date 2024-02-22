@@ -1,26 +1,39 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 22 Feb 2024 08:17:41 -0000
-Message-Id: <170858986111.8974.12901670223322561137@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6912349025694397665=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 22 Feb 2024 08:19:30 -0000
+Message-Id: <170858997091.9732.4981437225128941465@gitolite.kernel.org>
+
+--===============6912349025694397665==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/for-next/scmi/updates
-    old: 1c2c88cfcb2bfb14245cf27661ade415fbb7ea9a
-    new: d1b68d2bbbe60e22c3352ee656197e1da17101cc
-    log: |
-         a9c049f47e06cebeefff33a27ae7111818950ab9 firmware: arm_scmi: Fix struct kernel-doc warnings in optee transport
-         8c80c42ad4014cc84bdcd4d5586730536f76f888 firmware: arm_scmi: Add support for v3.2 NEGOTIATE_PROTOCOL_VERSION
-         e4ad2b0130eff1cc72f93ea7fd184b0e420f0736 firmware: arm_scmi: Add clock check for extended config support
-         62092c428fb528fcd117a580216915af04df450e firmware: arm_scmi: Add standard clock OEM definitions
-         5e0d2fe70cb8030ded45da21bf5bce35b1dbfdfb firmware: arm_scmi: Update the supported clock protocol version
-         9ada276ee7c3503ad4270b0ae35938dd6601a4df clk: scmi: Add support for forbidden clock state controls
-         067ad55df757dfede014db6c4155169bd4c1ed91 clk: scmi: Allocate CLK operations dynamically
-         d1b68d2bbbe60e22c3352ee656197e1da17101cc clk: scmi: Support get/set duty_cycle operations
-         
+  - ref: refs/heads/master
+    old: 9fc1ccccfd8d53dc7936fe6d633f2373fc9f62e8
+    new: 39133352cbed6626956d38ed72012f49b0421e7b
+    log: revlist-9fc1ccccfd8d-39133352cbed.txt
+
+--===============6912349025694397665==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9fc1ccccfd8d-39133352cbed.txt
+
+c0ec2a712daf133d9996a8a1b7ee2d4996080363 crypto: virtio/akcipher - Fix stack overflow on memcpy
+e42b9d8b9ea2672811285e6a7654887ff64d23f3 btrfs: defrag: avoid unnecessary defrag caused by incorrect extent size
+b0ad381fa7690244802aed119b478b4bdafc31dd btrfs: fix deadlock with fiemap and extent locking
+8d3a7dfb801d157ac423261d7cd62c33e95375f8 KVM: arm64: vgic-its: Test for valid IRQ in its_sync_lpi_pending_table()
+85a71ee9a0700f6c18862ef3b0011ed9dad99aca KVM: arm64: vgic-its: Test for valid IRQ in MOVALL handler
+c48617fbbe831d4c80fe84056033f17b70a31136 Merge tag 'kvmarm-fixes-6.8-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+d8be5a55b8e3f7eab8f36ceed2512f457f914318 Merge tag 'v6.8-p4' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+8da8d88455ebbb4e05423cf60cff985e92d43754 Merge tag 'for-6.8-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+39133352cbed6626956d38ed72012f49b0421e7b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+
+--===============6912349025694397665==--
