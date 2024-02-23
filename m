@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 23 Feb 2024 21:25:01 -0000
-Message-Id: <170872350103.23230.2718222376845358285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Fri, 23 Feb 2024 21:33:56 -0000
+Message-Id: <170872403614.29700.12579080661871952554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
   - ref: refs/heads/master
-    old: dc3c2710c714122d3f7454f7e138c9602d7b471d
-    new: 5ae8b2c467da5b0212f874d3bd77b5f07ad34d16
+    old: 29f29261bf99c71fc429de2803df44908c3dce3e
+    new: 55adb82d8d7baa68f87f2b300eb44028db1a544a
     log: |
-         5ae8b2c467da5b0212f874d3bd77b5f07ad34d16 Fri Feb 23 04:24:09 PM EST 2024
+         08c32816684461f464f738cd8f5773bc14af66db trace-cmd split: Remove const to (struct handle_list).name
+         55adb82d8d7baa68f87f2b300eb44028db1a544a trace-cmd split: Enable support for buffer selection
          
