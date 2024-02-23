@@ -1,49 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============0085608065325965327=="
+Content-Type: multipart/mixed; boundary="===============1899848024423168847=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 23 Feb 2024 17:10:39 -0000
-Message-Id: <170870823918.29088.8612288444695433234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Fri, 23 Feb 2024 17:12:48 -0000
+Message-Id: <170870836871.30308.2907740103979870838@gitolite.kernel.org>
 
---===============0085608065325965327==
+--===============1899848024423168847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/40GbE
-    old: fecc51559a844b7f74119159c3cdb25b80b4e2c6
-    new: a818bd12538c1408c7480de31573cdb3c3c0926f
-    log: revlist-fecc51559a84-a818bd12538c.txt
+  - ref: refs/heads/for-mfd-next
+    old: a2caf6036cec73e4a2c31e533381f8d7eaf3d0e5
+    new: 2d8929f68a3cdb22104096ae723b6830e3e2ec4b
+    log: revlist-a2caf6036cec-2d8929f68a3c.txt
 
---===============0085608065325965327==
+--===============1899848024423168847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fecc51559a84-a818bd12538c.txt
+Content-Disposition: attachment; filename=revlist-a2caf6036cec-2d8929f68a3c.txt
 
-aa23cfe6ab500dbbfa630602b403f433522daf9f netfilter: expect: Simplify the allocation of slab caches in nf_conntrack_expect_init
-79578be4d35c842a802487e2f31c2aed80cc005f netfilter: nf_log: consolidate check for NULL logger in lookup function
-c47ec2b120b4a9d573e65baa33ff3f542f7ba273 netfilter: nf_log: validate nf_logger_find_get()
-29a280025580d72bc0daf6c040518a069870421f netfilter: nft_osf: simplify init path
-749d4ef0868c5d8a98e07073791b2198178c93b4 netfilter: xtables: fix up kconfig dependencies
-f04df573faf90bb828a2241b650598c02c074323 netfilter: nft_set_pipapo: constify lookup fn args where possible
-07ace0bbe03b3d8e85869af1dec5e4087b1d57b8 netfilter: nft_set_pipapo: do not rely on ZERO_SIZE_PTR
-aac14d516c2b575af20b426fa04129a28d45c287 netfilter: nft_set_pipapo: shrink data structures
-9f439bd6ef4f60c8a37bd9138fa9ed9b5e7ae0d7 netfilter: nft_set_pipapo: speed up bulk element insertions
-5b651783d80b97167ecd27dc6a4408c694873902 netfilter: nft_set_pipapo: use GFP_KERNEL for insertions
-3f801968889459ecae1eab524b039676e6eaa319 netfilter: move nf_reinject into nfnetlink_queue modules
-26f4dac11775a1ca24e2605cb30e828d4dbdea93 netfilter: x_tables: Use unsafe_memcpy() for 0-sized destination
-9eda38dc9150c260ae74edd2e1fe2e2b6fc62cee net/af_iucv: fix virtual vs physical address confusion
-cbe30f99431d596a0dbe42863162bbf6cb21dd20 net: microchip: lan743x: Fix spelling mistake "erro" -> "error"
-bcc115760ff32a5a256129a6eb39840288d269bd octeon_ep_vf: Improve help text grammar
-3e7a0dccf0703edd3a2d9e3361f672241c31773b ipv6/sit: Do not allocate stats in the driver
-4679f4f123cf5d26aea50348415776832b7e963f Merge tag 'nf-next-24-02-21' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
-a4634aa71fee11f5e3e13bf7d80ee1480a64ce70 bonding: rate-limit bonding driver inspect messages
-a818bd12538c1408c7480de31573cdb3c3c0926f net: stmmac: dwmac-qcom-ethqos: Add support for 2.5G SGMII
+3e038941c58753c88f2dcc2b1744806ac8727bb2 mfd: mc13xxx: Use bitfield helpers
+d2b0680cf3b05490b579e71b0df6e07451977745 mfd: syscon: Call of_node_put() only when of_parse_phandle() takes a ref
+0db017f8edd9b9af818bc1d68ba578df1b4c4628 mfd: syscon: Remove extern from function prototypes
+e28c28a34ee9fa2ea671a20e5e7064e6220d55e7 mfd: altera-sysmgr: Call of_node_put() only when of_parse_phandle() takes a ref
+0c7cc7497f6f62a65037e94cf0d885ab0af3c0d3 dt-bindings: mfd: ti,twl: Document system-power-controller
+ca9414a1d08756c8392f9219caee607e1b7bade1 mfd: twl-core: Add power off implementation for twl603x
+8ba560ec14267af1169e1f5407fbce514fd4f6f6 mfd: twl4030-power: Accept standard property for power controller
+bda40bf667d8d26b157a69d821872b2ade59bfa4 mfd: rk8xx-core: Fix interrupt processing order for power key button
+3cb10854004d2cb9c8f3a33deeeb499d0e0c7120 mfd: core: Constify the struct device_type usage
+3bb36528d46e494987ee5e9682d08318928ae041 mfd: twl: Select MFD_CORE
+365ea466d6aa5c8618e096141d72c48fb5707ee4 dt-bindings: cros-ec: Add properties for GPIO controller
+1fe6dcba7bcf0dbd53be0c7ea009524c4c44447b mfd: cros_ec_dev: Add GPIO device if feature present on EC
+8f4585bae2d30813e06000497905de7d4cfe6aea mfd: kempld-core: Don't replace resources provided by ACPI
+2d8929f68a3cdb22104096ae723b6830e3e2ec4b dt-bindings: mfd: Convert atmel-flexcom to json-schema
 
---===============0085608065325965327==--
+--===============1899848024423168847==--
