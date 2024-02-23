@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1612877534719268177=="
+Content-Type: multipart/mixed; boundary="===============0390238398753857286=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 23 Feb 2024 17:06:22 -0000
-Message-Id: <170870798224.23634.5710470170987589810@gitolite.kernel.org>
+Date: Fri, 23 Feb 2024 17:06:41 -0000
+Message-Id: <170870800113.23809.14547194643153974605@gitolite.kernel.org>
 
---===============1612877534719268177==
+--===============0390238398753857286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 6714ebb922ab15a209dfc3c1ed29d4bb0abc9f02
     new: b0b1210bc150fbd741b4b9fce8a24541306b40fc
     log: revlist-6714ebb922ab-b0b1210bc150.txt
 
---===============1612877534719268177==
+--===============0390238398753857286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ e872469c38b9283ef9de5e43d49286f9533ad848 Merge branch '100GbE' of git://git.kern
 734f06db599f66d6a159c78abfdbadfea3b7d43b net: dpaa: fman_memac: accept phy-interface-type = "10gbase-r" in the device tree
 b0b1210bc150fbd741b4b9fce8a24541306b40fc ps3/gelic: Fix SKB allocation
 
---===============1612877534719268177==--
+--===============0390238398753857286==--
