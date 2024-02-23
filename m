@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Fri, 23 Feb 2024 16:37:20 -0000
-Message-Id: <170870624040.27482.15401702794312658033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 23 Feb 2024 16:37:23 -0000
+Message-Id: <170870624396.27706.14976494025180340530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/tags/ata-6.8-rc6
-    old: 0000000000000000000000000000000000000000
-    new: ac4d8d87b863e81631df4de6d482d93b34643f9f
+  - ref: refs/tags/v2.6.38.2
+    old: a3dce2ade2993dfaf3e3abd0054ddc1da725d0ab
+    new: 0000000000000000000000000000000000000000
