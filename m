@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Fri, 23 Feb 2024 12:25:58 -0000
-Message-Id: <170869115828.22756.14158858609511458340@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Fri, 23 Feb 2024 12:44:48 -0000
+Message-Id: <170869228813.3291.8709360863627370217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinchartl/linux
-user: pinchartl
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/next/media/rkisp1
-    old: 0000000000000000000000000000000000000000
-    new: 9f9cd26aec8406bbae42d7d2afe23a5d368b7b9a
-  - ref: refs/tags/media-next-rkisp1-20240223
-    old: 0000000000000000000000000000000000000000
-    new: 8737d5f37a28761642663e7eac5b3f8ac9b1af80
+  - ref: refs/heads/kbuild
+    old: ba3b759fb688c09cd9b09852d2728b012cf040ba
+    new: c31f96a00f652a96a1a097b0c6a333509560900f
+    log: |
+         bf48d9b756b91e3c656511fa8b63eaba1f50dbd0 kbuild: change tool coverage variables to take the path relative to $(obj)
+         223390b1c4d266c3b684b99d0a1980c49ebccf0d kbuild: change DTC_FLAGS_<basetarget>.o to take the path relative to $(obj)
+         403198019890f2fdf8ad1cd2acb25a490e94da6b alpha: merge two entries for CONFIG_ALPHA_EV4
+         c31f96a00f652a96a1a097b0c6a333509560900f alpha: merge two entries for CONFIG_ALPHA_GAMMA
+         
