@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2935590602470410905=="
+Content-Type: multipart/mixed; boundary="===============3731924812872014708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 23 Feb 2024 15:20:01 -0000
-Message-Id: <170870160160.24428.18255543966199776435@gitolite.kernel.org>
+Date: Fri, 23 Feb 2024 15:20:28 -0000
+Message-Id: <170870162888.26267.8126667335500334269@gitolite.kernel.org>
 
---===============2935590602470410905==
+--===============3731924812872014708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: 4a25541b236f5d8f98c1fd2f8848a290eafdb8a8
     new: 27eaacc62adefa804a0ceed10b580aff59ec5122
     log: revlist-4a25541b236f-27eaacc62ade.txt
 
---===============2935590602470410905==
+--===============3731924812872014708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -196,4 +196,4 @@ ffd2cb6b718e189e7e2d5d0c19c25611f92e061a Merge tag 'block-6.8-2024-02-22' of git
 1b390c70822b3732937fa33cf8ad2291255a6df2 tpm_tis: Add compatible string atmel,at97sc3204
 27eaacc62adefa804a0ceed10b580aff59ec5122 tpm: tis_i2c: Add compatible string nuvoton,npct75x
 
---===============2935590602470410905==--
+--===============3731924812872014708==--
