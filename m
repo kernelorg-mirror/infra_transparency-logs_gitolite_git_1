@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1215232447315695453=="
+Content-Type: multipart/mixed; boundary="===============7626614356248165589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 23 Feb 2024 17:09:52 -0000
-Message-Id: <170870819202.26982.17719350582671163038@gitolite.kernel.org>
+Date: Fri, 23 Feb 2024 17:10:10 -0000
+Message-Id: <170870821036.28750.12746784795228162306@gitolite.kernel.org>
 
---===============1215232447315695453==
+--===============7626614356248165589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: fecc51559a844b7f74119159c3cdb25b80b4e2c6
     new: a818bd12538c1408c7480de31573cdb3c3c0926f
     log: revlist-fecc51559a84-a818bd12538c.txt
 
---===============1215232447315695453==
+--===============7626614356248165589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ bcc115760ff32a5a256129a6eb39840288d269bd octeon_ep_vf: Improve help text grammar
 a4634aa71fee11f5e3e13bf7d80ee1480a64ce70 bonding: rate-limit bonding driver inspect messages
 a818bd12538c1408c7480de31573cdb3c3c0926f net: stmmac: dwmac-qcom-ethqos: Add support for 2.5G SGMII
 
---===============1215232447315695453==--
+--===============7626614356248165589==--
