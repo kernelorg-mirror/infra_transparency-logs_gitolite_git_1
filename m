@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 23 Feb 2024 22:26:26 -0000
-Message-Id: <170872718600.4499.1895724345027972704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Fri, 23 Feb 2024 22:27:13 -0000
+Message-Id: <170872723327.4922.7763003050219241524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/next
-    old: 6f1a214d446b2f2f9c8c4b96755a8f0316ba4436
-    new: ae638551ab64a216364a63c4ee5061f82702fde2
+  - ref: refs/heads/thermal/bleeding-edge
+    old: b05d3cd9fe784652172c1dab15a41b65a59a01a1
+    new: 9ac53d5532cc4bb595bbee86ccba2172ccc336c3
     log: |
-         5339792bd64bd1605d3d51f8e52e94dfc385959b selftests/resctrl: Add test groups and name L3 CAT test L3_CAT
-         e331ac141f1df6d151d24e60ff16e93ec075509e selftests/resctrl: Add a helper for the non-contiguous test
-         00616416488868a8b98343863e5ac078506e44e8 selftests/resctrl: Split validate_resctrl_feature_request()
-         74e76cbabd7f71f46afdf125dd4f6a54447d87e0 selftests/resctrl: Add resource_info_file_exists()
-         ae638551ab64a216364a63c4ee5061f82702fde2 selftests/resctrl: Add non-contiguous CBMs CAT test
+         898d96c5464b69af44f6407c5de81ebc349d574b soc: sunxi: sram: export register 0 for THS on H616
+         0b95b2cb6cbe3286b07b4edd7a3d429963bad74f dt-bindings: thermal: sun8i: Add H616 THS controller
+         14f118aa50fe7c7c7330f56d007ecacca487cea8 thermal/drivers/sun8i: Explain unknown H6 register value
+         6c04a419a4c5fb18edefc44dd676fb95c7f6c55d thermal/drivers/sun8i: Extend H6 calibration to support 4 sensors
+         f8b54d1120b81ed57bed96cc8e814ba08886d1e5 thermal/drivers/sun8i: Add SRAM register access code
+         e7dbfa19572a1440a2e67ef70f94ff204849a0a8 thermal/drivers/sun8i: Add support for H616 THS controller
+         9ac53d5532cc4bb595bbee86ccba2172ccc336c3 thermal/drivers/sun8i: Don't fail probe due to zone registration failure
          
