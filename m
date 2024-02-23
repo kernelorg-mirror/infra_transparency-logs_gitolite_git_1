@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 23 Feb 2024 23:34:50 -0000
-Message-Id: <170873129028.20414.11401195301052536457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Fri, 23 Feb 2024 23:57:30 -0000
+Message-Id: <170873265028.5203.3012071355464626952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 09e0d17906598c77fc7831c2d257d573931952e8
-    new: 04f50f5033fdfd1f3116e33b01a4e1584d9591ec
+  - ref: refs/heads/for-next
+    old: 2b3c3fd6b5a6b9f9a7aa39cd343b233a11495bce
+    new: aa150e345a6278828f569aa211cd4cd7c1042f1c
     log: |
-         04f50f5033fdfd1f3116e33b01a4e1584d9591ec init/Kconfig: Lower GCC version check for -Warray-bounds
+         5d6d6c90e473df101fc5ca7fce31b9dc0fb8c2cc btrfs: fix double free of anonymous device after snapshot creation failure
+         e2ded9b3ae4899ebaeb41a4e1af6a0b34d63a713 btrfs: fix race between ordered extent completion and fiemap
+         aa150e345a6278828f569aa211cd4cd7c1042f1c btrfs: ensure fiemap doesn't race with writes when FIEMAP_FLAG_SYNC is given
          
