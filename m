@@ -1,43 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4270575873911108041=="
+Content-Type: multipart/mixed; boundary="===============0370541593836922637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Fri, 23 Feb 2024 15:33:12 -0000
-Message-Id: <170870239200.2066.8644228722680957402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Fri, 23 Feb 2024 15:37:08 -0000
+Message-Id: <170870262800.5324.11600816694512449218@gitolite.kernel.org>
 
---===============4270575873911108041==
+--===============0370541593836922637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
-user: lee
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/for-backlight-next
-    old: 770c0f4975fd7b4bb68ca7cf150d3b1c9c864a99
-    new: df05cd5f826e47ed6f2406c2b230a4d01a91356c
-    log: revlist-770c0f4975fd-df05cd5f826e.txt
+  - ref: refs/heads/has_ioport_v6
+    old: 1de35c5842016bbcca093edfda2226be9a1b5550
+    new: 54f8a32579d3d5e8fd6bd4f91e101e1004997c8d
+    log: revlist-1de35c584201-54f8a32579d3.txt
 
---===============4270575873911108041==
+--===============0370541593836922637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-770c0f4975fd-df05cd5f826e.txt
+Content-Disposition: attachment; filename=revlist-1de35c584201-54f8a32579d3.txt
 
-f7788026a8b419c199c5ece5f9029b50e0fbfe76 dt-bindings: backlight: Add Kinetic KTD2801 binding
-48749e2f14e3ae6c62ba7d51d140a848582df66c backlight: Add Kinetic KTD2801 backlight support
-f08209ed68e07199e8022566e1b2b5775b13b82f backlight: ktz8866: Correct the check for of_property_read_u32
-c94873769f01118b23004fca59289f798c0c7139 backlight: mp3309c: Use pwm_apply_might_sleep()
-f6740c7e331a69276c07d56fa10334d3f4d2952d backlight: hx8357: Make use of device properties
-577fa663466be56affa0654bbaf9a0cd0193dfab backlight: hx8357: Move OF table closer to its consumer
-844a5b22cf679c643c947e8f3a847e5c339cf125 backlight: hx8357: Make use of dev_err_probe()
-8a324353359c4428f99026a0bd2339a129147545 backlight: hx8357: Utilise temporary variable for struct device
-f842d487c6a2f17a9d4d9bbcbfdb90b49adac71d dt-bindings: backlight: qcom-wled: Fix bouncing email addresses
-92823aba2dffa9b2eacf670d7e171557f9717df3 backlight: mp3309c: Make use of device properties
-d6401dfb40cdf423d42f7d661bd2ccd3e5c06dba backlight: mp3309c: Use dev_err_probe() instead of dev_err()
-a1ce027acc6846ab0aca9c2b45f161eb41090707 backlight: mp3309c: Utilise temporary variable for struct device
-df05cd5f826e47ed6f2406c2b230a4d01a91356c backlight: ktd2801: Make timing struct static
+f6d8c1d4afc1d57f8757d61018ca715cda977c6b m68k: Let GENERIC_IOMAP depend on HAS_IOPORT
+7a49dbdea6263322a86b7bdafb23b8b227ab743e um: Select HAS_IOREMAP for UML_IOMEM_EMULATION
+25d97b760b5526a0cfe1dc8f9b4694160cc2204f hexagon: Don't select GENERIC_IOMAP without HAS_IOPORT support
+507c7925f9d4973742d5d1fa90052e545a513d51 kgdb: add HAS_IOPORT dependency
+581bb4eb779f39979d37393ef8ca0547cfe9840f Bluetooth: add HAS_IOPORT dependencies
+9ebc2919b85d90a4cfe348fb8aec71ff542fc420 ata: add HAS_IOPORT dependencies
+cc4134363fa36edb03fb164ff8d10e7bfe15fab1 char: ipmi: handle HAS_IOPORT dependencies
+0eb17e21db69bffbafeb6eb709128f464cffbfc2 char: tpm: handle HAS_IOPORT dependencies
+a6cb71f5c1d69ceea4690f93e84103a37b927139 /dev/port: don't compile file operations without CONFIG_DEVPORT
+5814db4523ce93f40a6b438fed6673e295d1c0d1 drm: handle HAS_IOPORT dependencies
+b12a7de3af14d4ed95ba02d2e216e7669cc09c84 hwmon: add HAS_IOPORT dependencies
+4220fdb632262d713bb82d7052edc89f3802b5d3 i2c: add HAS_IOPORT dependencies
+08be5502df8bd24909930ac0a561196c4dadbee4 net: handle HAS_IOPORT dependencies
+7f22a8554dc8e671bad7847054f8b4d9f3c19fae platform: add HAS_IOPORT dependencies
+6c7f246b4d62cb48ed0a74f7f3627cc537b8943a pnp: add HAS_IOPORT dependencies
+6ecb84d9b3a89396a60893c2ee8fc7c1ee661cc2 tty: serial: handle HAS_IOPORT dependencies
+354fa874fca59733051a85af92092408795398ec vgacon: add HAS_IOPORT dependencies
+c3e946f4c53a3cb311ea69f3ebabc0eacff6aaf0 fbdev: add HAS_IOPORT dependencies
+ab248f039abfac68b308963e76767982db39d2dc video: Handle HAS_IOPORT dependencies
+74fbd330b580f23cdf5a14174797327f2fd15d69 watchdog: add HAS_IOPORT dependencies
+54f8a32579d3d5e8fd6bd4f91e101e1004997c8d asm-generic/io.h: Remove I/O port accessors for HAS_IOPORT=n
 
---===============4270575873911108041==--
+--===============0370541593836922637==--
