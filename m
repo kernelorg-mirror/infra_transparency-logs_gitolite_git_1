@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Fri, 23 Feb 2024 20:14:13 -0000
-Message-Id: <170871925309.3313.2953009919336713156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Fri, 23 Feb 2024 20:15:15 -0000
+Message-Id: <170871931504.5360.1894894530405356269@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: jernej
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: cc0e0cb1c78949caed62afcd88fe04a948526272
-    new: a4aca12c3c93ef412e4e289da3315e9601315f70
+  - ref: refs/heads/for-next
+    old: b57d5e54e228d640ee6e21ec5f70adecce4d394d
+    new: 2b3c3fd6b5a6b9f9a7aa39cd343b233a11495bce
     log: |
-         a4aca12c3c93ef412e4e289da3315e9601315f70 Merge branch 'sunxi/dt-for-6.9' into sunxi/for-next
+         2b3c3fd6b5a6b9f9a7aa39cd343b233a11495bce btrfs: fix double free of anonymous device after snapshot creation failure
          
