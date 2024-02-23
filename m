@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============8828963414405088526=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 23 Feb 2024 16:02:35 -0000
-Message-Id: <170870415563.25808.3729453169151217659@gitolite.kernel.org>
+Date: Fri, 23 Feb 2024 16:04:02 -0000
+Message-Id: <170870424271.26508.6810638549848743168@gitolite.kernel.org>
+
+--===============8828963414405088526==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -12,78 +16,92 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
   - ref: refs/heads/queue/4.19
-    old: d2a308a13852b424e7417e1eadac17895b2566f9
-    new: dd012746375939b827b3ccf627c336fe4e6f9cb0
+    old: dd012746375939b827b3ccf627c336fe4e6f9cb0
+    new: d53fb4d1fa95802cf693656e83ee4e4284df192a
     log: |
-         e09beac94184a5cdb2f191dc99e1f47a92791ee6 net/sched: Retire CBQ qdisc
-         61e4b9a234ce12fcffaf3aacb099065f2a2ede2b net/sched: Retire ATM qdisc
-         32254af576b047e4079f4f79671f9f2619b3fc2a net/sched: Retire dsmark qdisc
-         13b2c6ddf3020ea61a4ac68ccc1147328c401157 stmmac: no need to check return value of debugfs_create functions
-         edc5be49d51f180d013b3ee1e5d23e9e281de779 net: stmmac: fix notifier registration
-         878cbf905862847cbec3318eb0e5ec2a56674b79 memcg: add refcnt for pcpu stock to avoid UAF problem in drain_all_stock()
-         c2657f7b332bc042766cc74abca6521fa87b923c nilfs2: replace WARN_ONs for invalid DAT metadata block requests
-         dd012746375939b827b3ccf627c336fe4e6f9cb0 userfaultfd: fix mmap_changing checking in mfill_atomic_hugetlb
+         fa9cab02356dab7ee78425d3ea2a2728fca7aa0b net/sched: Retire CBQ qdisc
+         e79c906218b673dcf012f82085d7faf9951696bb net/sched: Retire ATM qdisc
+         9c0d950d2218add33fece586d4706d3cf8eaee00 net/sched: Retire dsmark qdisc
+         e63264aae74a54d49dc42a0e98d348c58b12a983 stmmac: no need to check return value of debugfs_create functions
+         a9a69b6822d98a6ee65bc69ce31271d532517870 net: stmmac: fix notifier registration
+         04e8f90a4854d60964e4292a1eab7a29c9298b9e memcg: add refcnt for pcpu stock to avoid UAF problem in drain_all_stock()
+         4ef7b9872eff17e8bde6fcb08de295add7e496f3 nilfs2: replace WARN_ONs for invalid DAT metadata block requests
+         d53fb4d1fa95802cf693656e83ee4e4284df192a userfaultfd: fix mmap_changing checking in mfill_atomic_hugetlb
          
   - ref: refs/heads/queue/5.10
-    old: b1425b0f2c55f0a26dbd501e40cae01d64885704
-    new: 37f294dac2aaeaa0d3b6633bd36c4ca562a39d34
+    old: 37f294dac2aaeaa0d3b6633bd36c4ca562a39d34
+    new: 1c87ee98fe4c40715f8f4f67a96e93a0fe926019
     log: |
-         2a54d71ad51e3201ee4530c04a8301a318516ca4 net/sched: Retire CBQ qdisc
-         70ee4935d106d5360fdf4e2a623dd397ab169845 net/sched: Retire ATM qdisc
-         c1e5ab98677096c9a62deff2ca3daac82bbe69e8 net/sched: Retire dsmark qdisc
-         b56548bb3e015958aeb0eaaa9181c6e189a59c44 smb: client: fix OOB in receive_encrypted_standard()
-         d7c900b642e16a1dc1f901f3a315058f2979026f smb: client: fix potential OOBs in smb2_parse_contexts()
-         7e26e25b99558533b2bf32ed5bb10b21f7912e83 smb: client: fix parsing of SMB3.1.1 POSIX create context
-         9bf47364440b2e42ef6c5be3c5a42df880184bc2 sched/rt: sysctl_sched_rr_timeslice show default timeslice after reset
-         f68740100a8dd2a5177e51751213c85fece719de userfaultfd: fix mmap_changing checking in mfill_atomic_hugetlb
-         37f294dac2aaeaa0d3b6633bd36c4ca562a39d34 zonefs: Improve error handling
+         fa5833a02a356c949ecb524ec8bfdf739f94775b net/sched: Retire CBQ qdisc
+         055f78a7c171e37ccb6c0f50834192d5fdc17ba9 net/sched: Retire ATM qdisc
+         206a2625846ba8a271baadf88e5fbe7c49bce479 net/sched: Retire dsmark qdisc
+         64e29ffe76cbc7621846d154b28c2459798a1541 smb: client: fix OOB in receive_encrypted_standard()
+         16045e939e4f4d66c6015f4ef18da5a972f56958 smb: client: fix potential OOBs in smb2_parse_contexts()
+         267621d2035be81b7dc37c9ceae56250e9f4dd30 smb: client: fix parsing of SMB3.1.1 POSIX create context
+         77da75fb1723f85691ce8b15e123d10aee98de5f sched/rt: sysctl_sched_rr_timeslice show default timeslice after reset
+         d8958e027c59f94b494b1a246abf692ba54be26e userfaultfd: fix mmap_changing checking in mfill_atomic_hugetlb
+         1c87ee98fe4c40715f8f4f67a96e93a0fe926019 zonefs: Improve error handling
          
   - ref: refs/heads/queue/5.15
-    old: ed2ff304f902219262e67e66963d5d08436b9039
-    new: bf6813920386c0e87634d64695d0db1f8a30eece
-    log: |
-         35d28b6af8c5052199766692432c682e560b1f11 net/sched: Retire CBQ qdisc
-         0e1579e3f78057bd05dd0c1ee491c20511f1299a net/sched: Retire ATM qdisc
-         a37b910891b87e76fa032b3b5f1121918b4396d6 net/sched: Retire dsmark qdisc
-         368f626a91540197510a2a4fbc0d2ed37e25b44d smb: client: fix OOB in receive_encrypted_standard()
-         0742b1b6b80509ec17b3f557fd35f0e8ac721116 smb: client: fix potential OOBs in smb2_parse_contexts()
-         ae1b1f233600bdf5181ec0f922b40bdd3cea64c9 smb: client: fix parsing of SMB3.1.1 POSIX create context
-         490caa81304bcf6a8a169fd148689cd5db403f6f sched/rt: sysctl_sched_rr_timeslice show default timeslice after reset
-         bf6813920386c0e87634d64695d0db1f8a30eece PCI: dwc: Fix a 64bit bug in dw_pcie_ep_raise_msix_irq()
-         
+    old: bf6813920386c0e87634d64695d0db1f8a30eece
+    new: 23fd4be3520bfdfa444436586936640918853cc1
+    log: revlist-bf6813920386-23fd4be3520b.txt
   - ref: refs/heads/queue/5.4
-    old: bf75a73236988b1ce15613e6c56311b1ab0c68ab
-    new: 10625f2f34297728f6f3142fccfeda74975694f9
+    old: 10625f2f34297728f6f3142fccfeda74975694f9
+    new: 2610a13e2be8d3a773058b89530d164a5739cd5f
     log: |
-         abf0362374abd66d9ff305f1f66a3c7ebe3de885 net/sched: Retire CBQ qdisc
-         8aca8bc3a5a8b4c3175a9bfaba691fd286f35b1e net/sched: Retire ATM qdisc
-         a8add2311e790fad85b5c24288e11726c1c1a062 net/sched: Retire dsmark qdisc
-         d960425abf712c2456ff8237460261e70ac6eb0b sched/rt: sysctl_sched_rr_timeslice show default timeslice after reset
-         cb9a0645c437d5d417897a4a224d3c2c200149ec memcg: add refcnt for pcpu stock to avoid UAF problem in drain_all_stock()
-         5b1db16cfa6a2b8a8a7a3ebd9874e8ad62908c69 nilfs2: replace WARN_ONs for invalid DAT metadata block requests
-         10625f2f34297728f6f3142fccfeda74975694f9 userfaultfd: fix mmap_changing checking in mfill_atomic_hugetlb
+         d5cf4696f3aea37b3a82a8346bab226a5282446d net/sched: Retire CBQ qdisc
+         01ada06cbbd0fb3c81c1d37c3b19dfcbba0f5ff4 net/sched: Retire ATM qdisc
+         fa4bff672ffbe5a632cd3885a42c0a6cad86d435 net/sched: Retire dsmark qdisc
+         f9afb4d9a38d79476d02568368fef2660b357496 sched/rt: sysctl_sched_rr_timeslice show default timeslice after reset
+         276ec77a8243750e1bf3738756675fe926946bc3 memcg: add refcnt for pcpu stock to avoid UAF problem in drain_all_stock()
+         758b71ba5dc7075dc6f0ec27a2c1d22f3480757b nilfs2: replace WARN_ONs for invalid DAT metadata block requests
+         2610a13e2be8d3a773058b89530d164a5739cd5f userfaultfd: fix mmap_changing checking in mfill_atomic_hugetlb
          
   - ref: refs/heads/queue/6.1
-    old: 1aa55a6d8d7e94d56af8d205421c096bff40955c
-    new: 493ef635e7ae4b5b4c69d0cffa8c741f0d617a52
+    old: 493ef635e7ae4b5b4c69d0cffa8c741f0d617a52
+    new: f5dee7e9e68c1d1ae03cdc2c6632fe35ea29d3eb
     log: |
-         42e712dcbdcad5e70595b07daca5ed18387f4c0d net/sched: Retire CBQ qdisc
-         21f790666993f1b3a77b0f52796729e06b324e30 net/sched: Retire ATM qdisc
-         b6c72b245d0ce8602de42af26836849ed8c574a0 net/sched: Retire dsmark qdisc
-         8e5a8ee91363bf13b435a4623747da15f6cf35de sched/rt: Disallow writing invalid values to sched_rt_period_us
-         3d21673be15651c136b02182927d3f6768edd41a sched/rt: sysctl_sched_rr_timeslice show default timeslice after reset
-         493ef635e7ae4b5b4c69d0cffa8c741f0d617a52 PCI: dwc: Fix a 64bit bug in dw_pcie_ep_raise_msix_irq()
+         4c0f6b900bea68b1056d011658740622e2ec5fb5 net/sched: Retire CBQ qdisc
+         df2acd149b25f6ac2d89958ac65deeef332a72f1 net/sched: Retire ATM qdisc
+         588146be0cf0b03c40eff1f93b37e4848f68bf04 net/sched: Retire dsmark qdisc
+         8f643f265993d1379d3d5db3c5083c79df59f161 sched/rt: Disallow writing invalid values to sched_rt_period_us
+         81d23eb7f4cfc49ea0ef249df018200fb7b0d8a1 sched/rt: sysctl_sched_rr_timeslice show default timeslice after reset
+         f5dee7e9e68c1d1ae03cdc2c6632fe35ea29d3eb PCI: dwc: Fix a 64bit bug in dw_pcie_ep_raise_msix_irq()
          
   - ref: refs/heads/queue/6.6
-    old: 008200a5d6e9628d4f96b796d93b6f130d232ee2
-    new: f4f8e24b28ab0d60e0cd4a694b5361ff675e8c2b
+    old: f4f8e24b28ab0d60e0cd4a694b5361ff675e8c2b
+    new: 2f208ab21b023109817d89e27337c175c1015cb3
     log: |
-         aacc71556012a48f8f4b3a1f85dcec7f575005b8 sched/rt: Disallow writing invalid values to sched_rt_period_us
-         f4f8e24b28ab0d60e0cd4a694b5361ff675e8c2b PCI: dwc: Fix a 64bit bug in dw_pcie_ep_raise_msix_irq()
+         7303073692831ab32eeedc280cf03f2739a44e79 sched/rt: Disallow writing invalid values to sched_rt_period_us
+         2f208ab21b023109817d89e27337c175c1015cb3 PCI: dwc: Fix a 64bit bug in dw_pcie_ep_raise_msix_irq()
          
   - ref: refs/heads/queue/6.7
-    old: 6d3fb7f8a222bcdee45602e5ef627d8f79f3d883
-    new: 5894e552a02149e46ce02782308342bd6592c9ae
+    old: 5894e552a02149e46ce02782308342bd6592c9ae
+    new: e39371d360f70e59aed7de1b55808ca51a290487
     log: |
-         5894e552a02149e46ce02782308342bd6592c9ae drm/amd: Stop evicting resources on APUs in suspend
+         e39371d360f70e59aed7de1b55808ca51a290487 drm/amd: Stop evicting resources on APUs in suspend
          
+
+--===============8828963414405088526==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bf6813920386-23fd4be3520b.txt
+
+1f5b0824616f5a04bb5e27e01130e83e60f66a77 net/sched: Retire CBQ qdisc
+622e26a4a13cedadf5bc58991655dc2c0a4d2d20 net/sched: Retire ATM qdisc
+e5de22f583281ff99872f35b731099d8d6f8243b net/sched: Retire dsmark qdisc
+7e8e14a14377ec256229a1d8e8170891199b122e smb: client: fix OOB in receive_encrypted_standard()
+852288c79e818f2b86792e34d4d0eb7e1e92152d smb: client: fix potential OOBs in smb2_parse_contexts()
+050693314df8d620fd8ee766c974ae9341058c4c smb: client: fix parsing of SMB3.1.1 POSIX create context
+9a5597043e45c64e4fc39d3ea3272e3285bdf913 sched/rt: sysctl_sched_rr_timeslice show default timeslice after reset
+ed3819460016fa910202c0785523b636bf068b59 PCI: dwc: Fix a 64bit bug in dw_pcie_ep_raise_msix_irq()
+69616f8f78246975eb47813f1c75f10ba164de2d bpf: Merge printk and seq_printf VARARG max macros
+ecbf633546b47eac98236b5f0d7d79918f095fec bpf: Add struct for bin_args arg in bpf_bprintf_prepare
+d65bfebf239ae36e7c1a1c7e3843697e53ea47c6 bpf: Do cleanup in bpf_bprintf_cleanup only when needed
+a5c10af191b36e5df1cbde0f308a8e77b5839dc4 bpf: Remove trace_printk_lock
+33ed7637e4bb0b683eb35d8dac4b83c47665292b userfaultfd: fix mmap_changing checking in mfill_atomic_hugetlb
+23fd4be3520bfdfa444436586936640918853cc1 zonefs: Improve error handling
+
+--===============8828963414405088526==--
