@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5468605662242210812=="
+Content-Type: multipart/mixed; boundary="===============2163844551764289228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 23 Feb 2024 11:40:18 -0000
-Message-Id: <170868841831.21323.15567521984643939214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 23 Feb 2024 11:44:03 -0000
+Message-Id: <170868864342.22750.16305741095895091146@gitolite.kernel.org>
 
---===============5468605662242210812==
+--===============2163844551764289228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/qcom
-    old: c007a55055049c15ba8ced899a4cda07cc9fc1cf
-    new: 544e8f96efc08134454e8513667f59be1f2e3c57
+  - ref: refs/heads/master
+    old: 6fbae7a80942d09eaaceb6ec3a4acccf7f55aba2
+    new: f790c51584427d867e448caee82648c776d1e628
     log: |
-         d5e74915cb23bd191030bd20180acae5a4a466ad dt-bindings: PCI: qcom,pcie-sc8180x: Move SC8180X to dedicated schema
-         756485bfbb855e75834d524340c4f992e0ebb556 dt-bindings: PCI: qcom,pcie-sc7280: Move SC7280 to dedicated schema
-         544e8f96efc08134454e8513667f59be1f2e3c57 dt-bindings: PCI: qcom,pcie-sa8775p: Move SA8775p to dedicated schema
+         f790c51584427d867e448caee82648c776d1e628 4.19-stable patches
          
 
---===============5468605662242210812==
+--===============2163844551764289228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1708688415 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1708688415-dfd242b68a9c89f450a26db47c0b2067a0e3a984
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708688642 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1708688641-827bdbe041290bef010a2a8c435f31d6f747aa38
 
-c007a55055049c15ba8ced899a4cda07cc9fc1cf 544e8f96efc08134454e8513667f59be1f2e3c57 refs/heads/qcom
+6fbae7a80942d09eaaceb6ec3a4acccf7f55aba2 f790c51584427d867e448caee82648c776d1e628 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmXYhB8ACgkQfGR2jT3j
-NOf9zA/+P3Otg08k3oQ20+zM4YB4UJhriVoDQY2AsEx4el5FMUTN2fqdI6U06OJj
-RIh5yPCqi1UIj6E9vpcom+drUH3caKVzi68MyHAeFhYRvoB0ScQrSNqoGErqmqHr
-BNcqdqmEQe1GNRuXe5yQ5lzSHHo7kamKCsV3lrcG66S2eg/w6IUqUH9EZU1Q5mnu
-f2lQ/IXnqavdJZuJ45ffTYQfr7vwS5mDbhEbHOgp5vGL2fZhLmkwx9ZYJCTnPnPa
-mfSbLQEhv7sYZgwAQVkBwnMIXtgjHK1DZDzBGxcuI3C2pH91fXU1nk1k61hrPucn
-c7tIuhDbxlXEAFUWTiLWL8lzyh+aXK53Bdeaabi2cDyHmEtpn00cRiJnwArE7yji
-oIt6Wa859GoVZs+XN56zbMiYqRieuYQgJGQnKFUAwl/I0UCASXmd+c4XMOapqRWu
-zd2w2KEZY3uYYOa4AEITAKaRfdCGwUYOgru18mfQNHTAEFMOBRDeoPb6E7yVL8lY
-saWVv2QPxSsdMrPM2MBaXTOJbvtZxpTypv7RLWJJL64wjTbA8D4fe+ZN0BAX7Yxk
-nUZusEXWT+9p/gZaaIfVKWKzHyPgUy2A9cK0HWHAAVkE/k+biY4NPmsTaZps1a0A
-MC4FPXBTiJzbBNtvJ5gbCr2B/A/3OPoOocRv6EDg5duYNLuPuX4=
-=RtGN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXYhQIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pUkQAIjeOAugV9XANLUvRNj/
+7gyiZrPJSlZnwGr0SCHH7HxLrIducIqZkmV4wrf5BnQfxXziOg1t/tMlXEUdFZnK
+aRF9HrrQBg9Rwf+x2PMnD+S0KKrFC2KLw9xGDo6gXH1twTC7AI8r2/SlqGFwnuwA
+Jevd085bvG7EzBh6L+es8O1nFkTAAqVhz/CdgTraOLMzOEOfsigsoNWr/CT182Wa
+ezPj51KWxLDhhROiBJsBreZZueUR/fRcZgHm6+S2PZYmdQ6vcSy30tbBoL54f2f7
+RUppaFR1PJsVBxDG3LPiR2PfaISGcDB55X2W3ZFaRQfMvzP9xJUt7QumZzK9OrTO
+y4c5GRWLoBiWbOMf+fsxmKOz0hN1KtNV2qJYA+qejzFUqs8np5HEjTxsav4DFugR
+ldBZppApRZh5WAEz1JsRhVkGoU56p+xVWl9y9baqjGDykHlSaFkuqagSdB/Zagib
+dAYv+MUoEmexxFPx6o6/E5Uclau4fw322prRDNrYslZ2e8aiByo82c/wL7khyrcU
+EOQbtZKczP1zzYDSo9wBZgWANxpgnLa0ikDTZBck4UDTTo/nXm9oo9I41xiLLCH3
+T6nH4/DhvQD4juxSC5a5zlQjUbfzX5ZTqELKuxI9UhMTye2DiG81D0BzFlCWFW0X
+5pOumC+eyWtjtPg2LnAGcrER
+=hWLV
 -----END PGP SIGNATURE-----
 
---===============5468605662242210812==--
+--===============2163844551764289228==--
