@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
 Date: Fri, 23 Feb 2024 16:30:49 -0000
-Message-Id: <170870584984.21374.15740878843167241523@gitolite.kernel.org>
+Message-Id: <170870584985.21380.13903384020317015377@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/testme
-    old: 43b1d3e68ee7f41c494ee5558d8def3d3d0b7f1b
-    new: a3dc9135a78c9f5a63aa9b2b1712d538d6dc752f
-    log: |
-         a3dc9135a78c9f5a63aa9b2b1712d538d6dc752f x86/trampoline: Bypass compat mode in trampoline_start64() if not needed
-         
+  - ref: refs/tags/v2.6.36.1
+    old: 9d389cb6dcae347cfcdadf2a1ec5e66fc7a667ea
+    new: 0000000000000000000000000000000000000000
