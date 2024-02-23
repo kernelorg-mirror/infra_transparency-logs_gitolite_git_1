@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 23 Feb 2024 17:29:53 -0000
-Message-Id: <170870939311.9570.14977559736458145023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Fri, 23 Feb 2024 17:30:38 -0000
+Message-Id: <170870943845.11605.11304706471756255480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/heads/v2_20240223_rf_alsa_cs35l56_apply_calibration_from_efi
-    old: 0000000000000000000000000000000000000000
-    new: cfa43aaa7948be5a701ad4099588cf49d5a02708
+  - ref: refs/heads/ch/git-2-44
+    old: 6ae59db4b0b09b5c254b33e9ff7bcf4888dd7418
+    new: 0000000000000000000000000000000000000000
