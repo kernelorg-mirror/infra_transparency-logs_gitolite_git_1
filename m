@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Fri, 23 Feb 2024 11:18:25 -0000
-Message-Id: <170868710503.3912.17986087281805501682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 23 Feb 2024 11:22:55 -0000
+Message-Id: <170868737508.7193.12411611215538712438@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/tags/renesas-clk-for-v6.9-tag2
-    old: 0000000000000000000000000000000000000000
-    new: 968a6ce89727438e6a0c201d78f7fce44dbc2ceb
-  - ref: refs/tags/renesas-pinctrl-for-v6.9-tag2
-    old: 0000000000000000000000000000000000000000
-    new: 3617b82bfeef4678d829adf5c967db0777aa1573
+  - ref: refs/heads/main
+    old: 3773d65ae5154ed7df404b050fd7387a36ab5ef3
+    new: 734f06db599f66d6a159c78abfdbadfea3b7d43b
+    log: |
+         734f06db599f66d6a159c78abfdbadfea3b7d43b net: dpaa: fman_memac: accept phy-interface-type = "10gbase-r" in the device tree
+         
