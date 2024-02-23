@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Fri, 23 Feb 2024 22:19:13 -0000
-Message-Id: <170872675323.30925.3918520336589115224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 23 Feb 2024 22:25:07 -0000
+Message-Id: <170872710755.3953.16541284270202859734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/next
-    old: f89d47833d28f101fce65c7d08c00a4d6f28c1b1
-    new: 3dbf935dfe963b6a73cabcfa5ab92be73f201aba
+  - ref: refs/heads/tmp.perf-tools-next
+    old: b482f5f8e0168f1e81bbb45c5238a3bed481818a
+    new: c2bd08ba20a57e0ed55777a9d1724647a0f53e88
     log: |
-         0d99a9fa84f8b9c19a8e91236f41fec3ba5f1718 selinux: fix lsm_get_self_attr()
-         3dbf935dfe963b6a73cabcfa5ab92be73f201aba Automated merge of 'dev' into 'next'
+         25412c0364f7110faa6053c73e3fd47ca956b8c3 perf print-events: make is_event_supported() more robust
+         c2bd08ba20a57e0ed55777a9d1724647a0f53e88 treewide: remove meaningless assignments in Makefiles
          
