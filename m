@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Fri, 23 Feb 2024 11:08:53 -0000
-Message-Id: <170868653344.29033.15052179953596541062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Fri, 23 Feb 2024 11:10:13 -0000
+Message-Id: <170868661334.31174.17250607084055698482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mdadm/mdadm
-user: mtkaczyk
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/notes/signatures/tar
+  - ref: refs/tags/renesas-dt-bindings-for-v6.9-tag2
     old: 0000000000000000000000000000000000000000
-    new: 26592ee8e6a69c0f24cfabfa17bd54f794e7cfe5
+    new: 07cc193bdea19e46183111bc658981f2f90f68e8
+  - ref: refs/tags/renesas-dts-for-v6.9-tag2
+    old: 0000000000000000000000000000000000000000
+    new: 935c0378547baaa038021a0f9be30c2121a70ae9
