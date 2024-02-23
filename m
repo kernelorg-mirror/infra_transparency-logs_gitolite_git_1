@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Fri, 23 Feb 2024 17:12:54 -0000
-Message-Id: <170870837402.30422.2943974496406544255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Fri, 23 Feb 2024 17:12:59 -0000
+Message-Id: <170870837986.30563.11997697559762961130@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/backlight
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: c7cbca7886a90359a967c029a81994d08bb8d63a
-    new: 3e7b2b9309cd3eb1b82121b8a978d2dd19301924
+  - ref: refs/heads/for-backlight-next
+    old: df05cd5f826e47ed6f2406c2b230a4d01a91356c
+    new: 3c40590fafd4cc2447fb482a640c450e1a58ffa1
     log: |
-         58277b049cd6997d6fa6feeec5bf7ce2868da76b leds: ktd2692: Add GPIOLIB dependency
-         7a28f9cf6b7c8cad760b4d4ee7f53231cd76d8e4 Revert "leds: Only descend into leds directory when CONFIG_NEW_LEDS is set"
-         8cd0da0634222ceb434281f3034ad773ddfe0f4f leds: expresswire: Don't depend on NEW_LEDS
-         3e7b2b9309cd3eb1b82121b8a978d2dd19301924 leds: sgm3140: Add missing timer cleanup and flash gpio control
+         50a2c0aee92699ed47076636b652f9d27a20fbef backlight: mp3309c: Fully initialize backlight_properties during probe
+         4602c7615989e6e7052e317995a66014eb318082 backlight: lm3630a: Initialize backlight_properties on init
+         ebb3b9a65b56e9b21841ab9a15b946407cd6b104 backlight: lm3630a: Don't set bl->props.brightness in get_brightness
+         3c40590fafd4cc2447fb482a640c450e1a58ffa1 backlight: lm3630a: Use backlight_get_brightness helper in update_status
          
