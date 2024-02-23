@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5845967634831378883=="
+Content-Type: multipart/mixed; boundary="===============7837463441055252162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 23 Feb 2024 16:46:28 -0000
-Message-Id: <170870678810.6129.2336442142843720153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 23 Feb 2024 16:46:35 -0000
+Message-Id: <170870679517.6239.16063360480626695186@gitolite.kernel.org>
 
---===============5845967634831378883==
+--===============7837463441055252162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/asoc-6.8
     old: 1382d8b55129875b2e07c4d2a7ebc790183769ee
     new: eba2eb2495f47690400331c722868902784e59de
     log: |
          eba2eb2495f47690400331c722868902784e59de ASoC: soc-card: Fix missing locking in snd_soc_card_get_kcontrol()
          
 
---===============5845967634831378883==
+--===============7837463441055252162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1708706786 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1708706786-2a3344d94cfdbcbda48df39b7b01510eb7e004da
+pusher Mark Brown <broonie@kernel.org> 1708706793 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1708706792-e1286004ab6aa3876e02c1bdf0c821103a6a3b5a
 
-1382d8b55129875b2e07c4d2a7ebc790183769ee eba2eb2495f47690400331c722868902784e59de refs/heads/for-6.8
+1382d8b55129875b2e07c4d2a7ebc790183769ee eba2eb2495f47690400331c722868902784e59de refs/heads/asoc-6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXYy+ITHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0LzHB/4nnfXv8SXWM6qUpoMQPc2CH/7Gr8l/
-fb8GxrBj3EofEqfFcndkIRPkzHFjW2VmDyeK+1HAF8Nm2LPWk8oXCrDuOTj99Dt6
-wFfu8q1f85qrWx0KdOBlShq3j1y68tzg4a3Rjv71Ynt3cRzMaY7dcmZVVKE6IwZE
-Dmchu//uKJxzpY80AptRryzVkICzlJdFaFkPkXeQVFbdzco66jwpqtnTgD+M1/po
-ys+fAo2DityWtqeW0GAa3Gap8IqItrJ4h0+9tZLRsdAsL0KPIt3wkml1cJOBUSzD
-V0lUDeZD4GlTJuCGYi2zgtUK+Wu1V07G7NLLie0h+Q16mbZAUXfXJYHD
-=b/nd
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXYy+kTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0GELB/405k6iSTKd4RRM79ZjLpq+VRiZnU81
+N6SmNUlyvcDv0v1Wfg/rfiZ0oW0+7sfMRr1Wst+yAnOHwfB5raE34QVY6rqYjBMT
+0SNYu/PN/IzmDUvkmAiXxNI5TtvQDYcm6YBoz7U+BWPWU8J/axNXhTGtSHZoBbmd
+3kvqSV1OgjizmcBKaREcnZfmLcNab8gep6izbv5xedr0Oe7BK3J2poBHRVOi6XTQ
+HANhmc9YyNwOn/yZ40Mf1kweDpiXMxHps6ystyBgoeuzSJpwQRYZX4woeG/xZtoY
+TKQYLEDGs5fV89FF2Pb9osjboZKwC9jxuf7OCs18UwrkT4xIuxcy0q6I
+=BMwT
 -----END PGP SIGNATURE-----
 
---===============5845967634831378883==--
+--===============7837463441055252162==--
