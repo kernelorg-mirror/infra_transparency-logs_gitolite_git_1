@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6139339987245552737=="
+Content-Type: multipart/mixed; boundary="===============5734763801684696346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Fri, 23 Feb 2024 20:11:21 -0000
-Message-Id: <170871908167.2014.8441407446384117733@gitolite.kernel.org>
+Date: Fri, 23 Feb 2024 20:11:48 -0000
+Message-Id: <170871910892.2279.3747622050325943716@gitolite.kernel.org>
 
---===============6139339987245552737==
+--===============5734763801684696346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sunxi/linux
 user: jernej
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 5db172482d9de4ec130c8197881573fe78e77332
-    new: cc0e0cb1c78949caed62afcd88fe04a948526272
-    log: revlist-5db172482d9d-cc0e0cb1c789.txt
+  - ref: refs/heads/sunxi/dt-for-6.9
+    old: 1c1a1008f9f1623be800b57e9afdb2efee536a1c
+    new: 6d8d1124d7bb4a3341c9f8ed26ce5ed802fdbae6
+    log: revlist-1c1a1008f9f1-6d8d1124d7bb.txt
 
---===============6139339987245552737==
+--===============5734763801684696346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5db172482d9d-cc0e0cb1c789.txt
+Content-Disposition: attachment; filename=revlist-1c1a1008f9f1-6d8d1124d7bb.txt
 
 cbec657208bdd4bff4ff31cac5924aa18817027c arm64: dts: allwinner: h616: Add Orange Pi Zero 2W to Makefile
 02cc4c30dccf85d7e112ed99361b6a05cf6c1ace dt-bindings: sram: narrow regex for unit address to hex numbers
@@ -41,6 +41,5 @@ eff68845b7e387974e5fc81ec8b5a0c9ad754106 arm64: dts: allwinner: Transpeed 8K618-
 b9836187df7e688228d73cc3d93996a84cff7062 dt-bindings: arm: sunxi: Add Sipeed Longan Module 3H and Longan Pi 3H
 b9957d2d7d22001c94236e0e5b18a8d2a0981275 arm64: dts: allwinner: h616: Add Sipeed Longan SoM 3H and Pi 3H board support
 6d8d1124d7bb4a3341c9f8ed26ce5ed802fdbae6 ARM: dts: sun8i: Open FETA40i-C regulator aldo1
-cc0e0cb1c78949caed62afcd88fe04a948526272 Merge branch 'sunxi/dt-for-6.9' into sunxi/for-next
 
---===============6139339987245552737==--
+--===============5734763801684696346==--
