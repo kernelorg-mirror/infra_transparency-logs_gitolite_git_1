@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6522240881713383486=="
+Content-Type: multipart/mixed; boundary="===============6311771342290288899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 23 Feb 2024 13:53:01 -0000
-Message-Id: <170869638162.23856.12735378052247359074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Fri, 23 Feb 2024 14:15:05 -0000
+Message-Id: <170869770561.8673.18303042001589735930@gitolite.kernel.org>
 
---===============6522240881713383486==
+--===============6311771342290288899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: e9b5dcc71de62ce4afb7d5639b0b34ecbe1c43ad
-    new: 883e9729e3c249162f32d90f02fed9b708cb31de
-    log: |
-         883e9729e3c249162f32d90f02fed9b708cb31de scripts/cve_search: search for a git id in the assigned CVEs
-         
+  - ref: refs/heads/trace/core
+    old: e2f5851147e7b0049d13a1a3c9780a39eda192dd
+    new: 2bc0cf68e850e2ec1ee8de03c946532aacfec36a
+    log: revlist-e2f5851147e7-2bc0cf68e850.txt
 
---===============6522240881713383486==
+--===============6311771342290288899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e2f5851147e7-2bc0cf68e850.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708696378 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1708696378-3353d0de344a01054a9056b6dbe3e834eb78246a
+f70c4fdcd84672568a1b24ec3a9f464fea6b17a3 tracing/user_events: Prepare find/delete for same name events
+c35853a8298a09b62e35975803f1d1434d77d4f1 tracing/user_events: Introduce multi-format events
+3f7c88f05a2899100368c057ec88026f9edf9f16 selftests/user_events: Test multi-format events
+fa52cdb201b3cf0457b9d7999234c1d9215a9aba tracing/user_events: Document multi-format flag
+486db3ee8c9959dfee3a98a02bd3ef6643e5d1d7 tracing: Use init_utsname()->release
+0ef53cf859e49dac106fe9794d0a47c19bda08b3 NFSD: Fix nfsd_clid_class use of __string_len() macro
+127d1afa48376047caaa6c46610a70bfdff10bc6 drm/i915: Add missing ; to __assign_str() macros in tracepoint code
+cd8c68062fb2bcf982535bee60b03e1e2fe55503 tracing: Rework __assign_str() and __string() to not duplicate getting the string
+ee28be410e0a2224aab00fc1672df6ebd6357c6e tracing: Do not calculate strlen() twice for __string() fields
+47215304b4bb0aed210fd6a48752e8b59e6c1776 tracing: Use ? : shortcut in trace macros
+493e8d4c72d2c4cde28c93a8ecd09fb8e6c81b98 tracing: Use EVENT_NULL_STR macro instead of open coding "(null)"
+f40b1c31637bfe0d24936d33406482e91ea3fbda tracing: Fix snapshot counter going between two tracers that use it
+2bc0cf68e850e2ec1ee8de03c946532aacfec36a tracing: Decrement the snapshot if the snapshot trigger fails to register
 
-e9b5dcc71de62ce4afb7d5639b0b34ecbe1c43ad 883e9729e3c249162f32d90f02fed9b708cb31de refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXYozobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m1kQAKqyoOftuF5ZioHB403A
-ayFp+uKCK8deVQFxpbyL5YsK2ze1z9Baq5JzTwstOW2ViARkgm+Kw0rtPcLwaeex
-Svuk33Yv7I9rl6T1eodd8mCKW8gEyodaSOWyV7Mp3LL/SnYpAZCRcKlPCF/NqRFI
-0FaCaxBIuif/k/PVirkPnRf/9BLE8El6egEaUdHoteNvsnx7/jGE0TOJWBBrpDjj
-SUsYKRPVAG0CX75I8Luy7xZvLxpzNx7mfS8CY7vOyHZPEeJ+n+JhB77CpaKHirvO
-voPezOxMIicr+UtQpPKih8auVbvb8s6nTcmgTt/u+cEtALQKEUz50CnScAnbPp7Q
-P7AzFu2bil5HmEEOXg5YwFEvkE/QKvQH6KgrjOWANGPnymEX0D1br5OYsBiB9bKc
-BDjEYKRUa2oCcQ8FeRC7kDkIX3nMH1lnRKH3mLkbUJECHPQVbihkRTRNtAmIk43c
-L46Wx1UuQMq3GDNkh9iZ5QpQWPNDr8bXb6b8RfOcfwGwuAuxLsLQ2LMzH/RQcPlw
-7qkzn8Q4rU1exAyvXwYZyU0A2KxBPfWB0CO63zXQzCw4Ne2t7JqEbPwNuIFe7IKF
-zisj6ODb75Ti98fn7pT1YsTplcH4+645fMJP8BSnqEVK6NMo0D8iUF/ZK5ggqjmZ
-PcVGH0Ousl22EKLzFQRmk4v9
-=ZjOr
------END PGP SIGNATURE-----
-
---===============6522240881713383486==--
+--===============6311771342290288899==--
