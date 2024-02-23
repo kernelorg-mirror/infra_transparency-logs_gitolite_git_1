@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 23 Feb 2024 17:43:02 -0000
-Message-Id: <170871018242.21067.4772784116604038985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 23 Feb 2024 17:43:05 -0000
+Message-Id: <170871018539.21153.2516237012410868303@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 3ddfdbdb14185d69a9671a1058741c4bff4e8fe2
-    new: 09e0d17906598c77fc7831c2d257d573931952e8
+  - ref: refs/heads/master
+    old: 8f262a27bdf233f142a7bb22bf3f8c6db53debee
+    new: c8af669da59b264624a9c874f02e41b4a78da5e4
     log: |
-         9f938458a5dddd50fa8e38587b566f53fac83cbd kernel.h: Move lib/cmdline.c prototypes to string.h
-         b2592283da9977ec877a3f26499e0c97c9eddfa2 sparc: vdso: Disable UBSAN instrumentation
-         09e0d17906598c77fc7831c2d257d573931952e8 init/Kconfig: Lower GCC version check for -Warray-bounds
+         c8af669da59b264624a9c874f02e41b4a78da5e4 profiles/audio/ccp: Add CCP plugin for call control profile
          
