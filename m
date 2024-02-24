@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 24 Feb 2024 11:49:43 -0000
-Message-Id: <170877538305.13816.7804081372046639429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Sat, 24 Feb 2024 12:49:04 -0000
+Message-Id: <170877894489.23870.3436840653560560212@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/testing
-    old: 3cc5ebd3a2d6247aeba81873d6b040d5d87f7db1
-    new: 3291b824a9b31e7802ceac4f7fef561f44161de0
+  - ref: refs/heads/for-next
+    old: aa150e345a6278828f569aa211cd4cd7c1042f1c
+    new: 058b3de9f27e591b1bf5b3a7464c77d291eb7b2a
     log: |
-         8384ee8c05758f243c9704706eaf6fc72d9d47b5 device property: Move fwnode_handle_put() into property.h
-         95bcf9f9ca10acb12b40e4edd0af42bff9f57d3e device property: Add cleanup.h based fwnode_handle_put() scope based cleanup.
-         91330020c66a2a5928a0200ca65759e530ca4ae9 device property: Introduce device_for_each_child_node_scoped()
-         416606ace185f4b3dc02c97e146e254fc76213e2 iio: adc: max11410: Use device_for_each_child_node_scoped()
-         5b9459a256e4ea96f91394def41be08454c47e22 iio: addac: ad74413r: Use device_for_each_child_node_scoped()
-         3291b824a9b31e7802ceac4f7fef561f44161de0 iio: dac: ltc2688: Use device_for_each_child_node_scoped()
+         1695f62fa9832fd728bea0d958442aa450f179dc btrfs: fix race between ordered extent completion and fiemap
+         058b3de9f27e591b1bf5b3a7464c77d291eb7b2a btrfs: ensure fiemap doesn't race with writes when FIEMAP_FLAG_SYNC is given
          
