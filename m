@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 24 Feb 2024 19:19:05 -0000
-Message-Id: <170880234523.19654.15042764008659361971@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 24 Feb 2024 19:20:10 -0000
+Message-Id: <170880241079.21651.3372570984329783359@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/testing
-    old: abd033baad9a256143c32e9d0e8e92940ddc8ca6
-    new: 9dcbd08b27c90256725c9dfe83152e1debe079c9
+  - ref: refs/heads/master
+    old: 5ae8b2c467da5b0212f874d3bd77b5f07ad34d16
+    new: 04e6762302a7aebc62eaa37986ffde91f382f67b
     log: |
-         9dcbd08b27c90256725c9dfe83152e1debe079c9 dt-bindings: iio: light: vishay,veml6075: make vdd-supply required
+         04e6762302a7aebc62eaa37986ffde91f382f67b Sat Feb 24 02:19:22 PM EST 2024
          
