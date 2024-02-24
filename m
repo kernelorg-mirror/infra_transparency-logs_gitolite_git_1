@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4886493748185925482=="
+Content-Type: multipart/mixed; boundary="===============0552975412153476300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sat, 24 Feb 2024 02:56:23 -0000
-Message-Id: <170874338359.6944.2003752270181661841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 24 Feb 2024 02:56:31 -0000
+Message-Id: <170874339173.7076.13253212000469046285@gitolite.kernel.org>
 
---===============4886493748185925482==
+--===============0552975412153476300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/asoc-6.9
     old: c06a7a8e885753a024163bbb0dfd7349e8054643
     new: 0c4ebb28b3db4f435ddb68e1f4185f8c86b149ef
     log: |
@@ -28,28 +28,28 @@ changes:
          0c4ebb28b3db4f435ddb68e1f4185f8c86b149ef ALSA: cs35l56: Apply calibration from EFI
          
 
---===============4886493748185925482==
+--===============0552975412153476300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1708743380 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1708743379-3db8860b322801f91daa01b6455c21838997748b
+pusher Mark Brown <broonie@kernel.org> 1708743388 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1708743387-9d98641921f8b2db6d451de779f4657d6a7f8977
 
-c06a7a8e885753a024163bbb0dfd7349e8054643 0c4ebb28b3db4f435ddb68e1f4185f8c86b149ef refs/heads/for-6.9
+c06a7a8e885753a024163bbb0dfd7349e8054643 0c4ebb28b3db4f435ddb68e1f4185f8c86b149ef refs/heads/asoc-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXZWtQTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0PoyB/90GsMXYm/EQd5Qi96BBSN87CIzDBFv
-3DevcyXr2oWqiJHtX6eB8uqcTMA6N+CGkUgiPdd8CZ6S/WZdZmVxuIK6e5k6fcqG
-OPwC8ClmHgNSs8Nu8KCMJ0BLEuyCRbSk5BXCSGGshoG/tB1D/7ar8y6RhYqAL4NU
-/TsHhaq0q6+1ogoXkOFcS4F81k/Duevf4QIR3wCdaRA2W73Xw4zAi2Qyf3oYUywc
-2ND8mOXq6l6SLVLCvx1qnOAueRl4meFcn/x/r12xDqNKIPkAqC6/sl0Xukb1u1Wj
-pYwWBVFnhBwVj2MMtKxNOEHvg2mCzx/tkCeF/+XHIVbzIhFmcS9auFbc
-=fYFJ
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXZWtwTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0M/pB/oCM5h2GMmGwWyAsllIvpNBKQLlHYvk
+ZnOHLEJLYK1eRyYz6Usl5UmtTQUcHo29XKF7ODy7/qfc//Te2EmV+XdETdA2YLiJ
+sZSePUQPN7E9jsx2wFWHZE2/pdM4DRs6R21llpxrROfHpLA5k0S019UGy4a3InrG
+eIE7XbHhS9xNELeJorAj5C2G5HFP1ITXpi4/8XRA/phJcFFlPGwWihwNs524sz5q
+0fKW100R/rgJamwM3h3BKK0FNqfq9y+TCs8DMGDcwvVYrSAK3O/Foe9WRm7YK5ge
+hwhWIrEbjE4AUufA4qo/BJrvrSUpO0kD1qYv/0PBhY19OvMjhN18XMDi
+=UFnV
 -----END PGP SIGNATURE-----
 
---===============4886493748185925482==--
+--===============0552975412153476300==--
