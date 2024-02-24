@@ -1,27 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 24 Feb 2024 19:08:04 -0000
-Message-Id: <170880168469.12156.8408092577377788670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 24 Feb 2024 19:16:27 -0000
+Message-Id: <170880218700.18625.4069812871087604842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/hwmon-next
-    old: b22b51d2019cd4c47ae7badae9119447dffcd8e3
-    new: b40410c0849c99d71edec1d90b3b6a71a8926fc2
+  - ref: refs/heads/testing
+    old: 51da07b5e8ff628277883f43163582f2d12dcf48
+    new: abd033baad9a256143c32e9d0e8e92940ddc8ca6
     log: |
-         32de273845692f8cd222032487577785ea579c2d regulator: dt-bindings: promote infineon buck converters to their own binding
-         274d932c95fcdcdf4bfef09225638c992a33e457 hwmon: (pmbus/tda38640) Use PMBUS_REGULATOR_ONE to declare regulator
-         182a929dbed149b6a6a77e30396c5d42eafccf2c hwmon: (pmbus/lm25066) Use PMBUS_REGULATOR_ONE to declare regulator
-         89a35bfa2b8b65a119105cde2ecf3cd18deab20c hwmon: (pmbus/ir38064) Use PMBUS_REGULATOR_ONE to declare regulator
-         3b244885dc593b907b8f36eb614d79d695e5c68c dt-bindings: hwmon: add common properties
-         abba4a9ee30929b5b9a5b6c8d49ebec2eb366a0d dt-bindings: hwmon: ti,ina2xx: use common hwmon schema
-         6e517c1b2c09301c6cdd8f2245c596b0f2e5ec3f dt-bindings: hwmon: adi,adm1275: use common hwmon schema
-         d8515eb26972a291e3fc8a1e2264e019a2cf089c dt-bindings: hwmon: lltc,ltc4286: use common hwmon schema
-         b40410c0849c99d71edec1d90b3b6a71a8926fc2 dt-bindings: hwmon: reference common hwmon schema
+         8eefda5b832b04f503511729d52bc397e425eb1a iio: adc: ti-ads1298: Fix error code in probe()
+         82aa51eef188d0a822e924a08fd26de0631b8559 iio: adc: ti-ads1298: prevent divide by zero in ads1298_set_samp_freq()
+         5a9a3d1347e0d674563ae919534ac768581aa64d iio: temperature: ltc2983: make use of spi_get_device_match_data()
+         0a43dc20b372f35630155ee7d55e2061c982635f iio: temperature: ltc2983: rename ltc2983_parse_dt()
+         013bf923b5f5a801eaef50ed7b6debda3ae9d545 iio: temperature: ltc2983: explicitly set the name in chip_info
+         2e7f6b324b2b2ddd3b47eb6f1df7bbdede8746c6 dt-bindings: iio: adc: adding support for PAC193X
+         abd033baad9a256143c32e9d0e8e92940ddc8ca6 iio: adc: adding support for PAC193x
          
