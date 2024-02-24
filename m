@@ -1,46 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4275952523036479255=="
+Content-Type: multipart/mixed; boundary="===============7582875087123906024=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 24 Feb 2024 17:29:47 -0000
-Message-Id: <170879578740.4557.15175302088013546102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 24 Feb 2024 17:31:18 -0000
+Message-Id: <170879587854.6809.8108288193573365106@gitolite.kernel.org>
 
---===============4275952523036479255==
+--===============7582875087123906024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 479e9bf3416add24c55e0fafdcefdcbf9a639cdb
-    new: b22b51d2019cd4c47ae7badae9119447dffcd8e3
-    log: revlist-479e9bf3416a-b22b51d2019c.txt
+  - ref: refs/heads/testing
+    old: c10e17fe850c206519408e4fb202fe2f6d99adf4
+    new: ef3626e2264ce730bc57f6c57b7b7049bd8c45c9
+    log: revlist-c10e17fe850c-ef3626e2264c.txt
 
---===============4275952523036479255==
+--===============7582875087123906024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-479e9bf3416a-b22b51d2019c.txt
+Content-Disposition: attachment; filename=revlist-c10e17fe850c-ef3626e2264c.txt
 
-b2bd64165bb6dd20bab8556ab0a8c6d7110f7412 hwmon: (axi-fan-control) Use device firmware agnostic API
-c676719974bc696efca6dd1d8ed38c22d2ea6839 hwmon: (axi-fan-control) Make use of sysfs_emit()
-d4353996017247d193d63af272dc23270fe2b9fb hwmon: (axi-fan-control) Make use of dev_err_probe()
-430c3d3c78f527e3c66cb40bdb63df1da05bcf06 hwmon: (max6620) Update broken Datasheet URL in driver documentation
-a245ea103430288beabebaf79463c75b4c94d919 MAINTAINERS: Drop redundant hwmon entries
-c3594312cbd5db0d89b8ae62828c49d80739fd53 dt-bindings: hwmon: nuvoton,nct6775: Add compatible value for NCT6799
-9fdb5f2f48475c24dac0dde4fb6018ec8dfc0ca6 dt-bindings: hwmon/pmbus: ti,lm25066: document regulators
-3bdd470dc73864b69c44ef5ac1e9c00d2beb04f2 regulator: dt-bindings: promote infineon buck converters to their own binding
-413dba0a31ce03149087739c98b1010c2e081c04 hwmon: (pmbus/tda38640) Use PMBUS_REGULATOR_ONE to declare regulator
-ad7eb58894e2717faa88899fa3b07b8c6c85c007 hwmon: (pmbus/lm25066) Use PMBUS_REGULATOR_ONE to declare regulator
-3751c2caf51ce9155fd96481eb2f5509058b7baa hwmon: (pmbus/ir38064) Use PMBUS_REGULATOR_ONE to declare regulator
-a2425189ff8eaad89d7cda5ae26cfd90056468e1 dt-bindings: hwmon: add common properties
-8ee2be9d5c8cc52e8eff1a0f4ab29ac7ff1b3c89 dt-bindings: hwmon: ti,ina2xx: use common hwmon schema
-209d65ce7ba1d37418374ac2f3a92c3b05569e8c dt-bindings: hwmon: adi,adm1275: use common hwmon schema
-5005ff65906c810588eb32e6440fc9c951a517cc dt-bindings: hwmon: lltc,ltc4286: use common hwmon schema
-b22b51d2019cd4c47ae7badae9119447dffcd8e3 dt-bindings: hwmon: reference common hwmon schema
+d6bd1a450c7db22a833e4b3f436ab6a7f01b5191 iio: light: vl6180: Drop unused linux/of.h include
+90470abdddd22e9b150e9d6eb27319ef36c57fda iio: light: al3320a: Drop unused linux/of.h include
+35b22f54d6a2ae1e02bd0334d12903b1a9bf84cf iio: light: al3010: Switch from linux/of.h to linux/mod_devicetable.h
+e2d834afcc4eb2c7930b232e9f65927238e139d4 iio: adc: ads8688: Switch to mod_devicetable.h for struct of_device_id definition
+1a8c70f15cd446e3458ac1350e84a58f087c683f iio: accel: adxl372: Switch from linux/of.h to linux/mod_devicetable.h
+c8d4fb3b63d7b0b29690f53bbfbe9bb9d3a49d8a iio: accel: bma180: Switch from linux/of.h to linux/mod_devicetable.h
+fcfed1b761f92af470655d033e62f6f00b8f00e9 iio: accel: kxsd9: Switch from linux/of.h to linux/mod_devicetable.h
+d45bff2de94ca14732b39a787fe8dd52a6340cdc iio: dac: mcp4821: Switch to including mod_devicetable.h for struct of_device_id definition.
+90e02d45ad89a43a835ed55a3166c3966e8107a6 iio: accel: kxcjk-1013: Implement ACPI method ROTM to retrieve mount matrix.
+a97aedf1e882badf71feddcd3e2d2bd79a381132 iio: adc: mcp320x: Simplify device removal logic
+2fe82b77c7eca9214732096ce26bf2b22b895b0c dt-bindings: iio: ti,tmp117: add vcc supply binding
+e03ddfddc3af30a2c81e92dc7210059683cd5feb iio: temperature: tmp117: add support for vcc-supply
+a8c8c49a49a96fc51a6c5886a7f0653f674f3935 dt-bindings: iio: humidity: hdc20x0: add optional interrupts property
+f5352f20b0a044df9f14e83baade5a397fd8b30f dt-bindings: adc: add AD7173
+7882d5679832b2b47eb5ab890fc3bb567ff18830 iio: adc: ad_sigma_delta: Add optional irq selection
+ef3626e2264ce730bc57f6c57b7b7049bd8c45c9 iio: adc: ad7173: add AD7173 driver
 
---===============4275952523036479255==--
+--===============7582875087123906024==--
