@@ -1,67 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4847691394082407310=="
+Content-Type: multipart/mixed; boundary="===============1532247216785205232=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Sat, 24 Feb 2024 14:06:16 -0000
-Message-Id: <170878357672.15763.5862138075863934195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sat, 24 Feb 2024 14:16:44 -0000
+Message-Id: <170878420479.24019.12620349089714858391@gitolite.kernel.org>
 
---===============4847691394082407310==
+--===============1532247216785205232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 079b84326d4031496cd7921d4ce22b1a6fd20a55
-    new: 5d571ee0fe45e78ce04375466de596dab64e1adb
-    log: revlist-079b84326d40-5d571ee0fe45.txt
-  - ref: refs/heads/linux-next
-    old: bc3fe166fc9a98640b34558fe3cbe8a0d3173b48
-    new: b9dcbdb099e4c025188fd3f9c31ebd5fc6784049
+  - ref: refs/heads/master
+    old: 7b06d20fb775904c5baece8a711db46598f1edb0
+    new: 76400acda3cbe79ddac1eff05668efc4a17d4c51
     log: |
-         f0a0fc10abb062d122db5ac4ed42f6d1ca342649 cpufreq: intel_pstate: fix pstate limits enforcement for adjust_perf call back
-         240a8da623008eb9f4e32c7a19ce16a6605911dc cpufreq: intel_pstate: Allow model specific EPPs
-         1f4b7fdd71e066aa7c01e3e26ceeb39b47dd5461 cpufreq: intel_pstate: Update default EPPs for Meteor Lake
-         88debc69754f7fe5186954941bb1cc4d744f4f25 cpufreq: Remove references to 10ms min sampling rate
-         7156c4500fc928b0d86b9df58308eee6da7ffea8 Merge branch 'pm-cpufreq-fixes' into linux-next
-         b9dcbdb099e4c025188fd3f9c31ebd5fc6784049 Merge branches 'pm-cpufreq', 'pm-sleep', 'pm-runtime', 'pm-em' and 'pm-tools' into linux-next
-         
-  - ref: refs/heads/testing
-    old: bc3fe166fc9a98640b34558fe3cbe8a0d3173b48
-    new: b9dcbdb099e4c025188fd3f9c31ebd5fc6784049
-    log: |
-         f0a0fc10abb062d122db5ac4ed42f6d1ca342649 cpufreq: intel_pstate: fix pstate limits enforcement for adjust_perf call back
-         240a8da623008eb9f4e32c7a19ce16a6605911dc cpufreq: intel_pstate: Allow model specific EPPs
-         1f4b7fdd71e066aa7c01e3e26ceeb39b47dd5461 cpufreq: intel_pstate: Update default EPPs for Meteor Lake
-         88debc69754f7fe5186954941bb1cc4d744f4f25 cpufreq: Remove references to 10ms min sampling rate
-         7156c4500fc928b0d86b9df58308eee6da7ffea8 Merge branch 'pm-cpufreq-fixes' into linux-next
-         b9dcbdb099e4c025188fd3f9c31ebd5fc6784049 Merge branches 'pm-cpufreq', 'pm-sleep', 'pm-runtime', 'pm-em' and 'pm-tools' into linux-next
+         76400acda3cbe79ddac1eff05668efc4a17d4c51 cve/vulnerability.txt: first cut at how to evaluate things.
          
 
---===============4847691394082407310==
+--===============1532247216785205232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-079b84326d40-5d571ee0fe45.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-898d96c5464b69af44f6407c5de81ebc349d574b soc: sunxi: sram: export register 0 for THS on H616
-0b95b2cb6cbe3286b07b4edd7a3d429963bad74f dt-bindings: thermal: sun8i: Add H616 THS controller
-14f118aa50fe7c7c7330f56d007ecacca487cea8 thermal/drivers/sun8i: Explain unknown H6 register value
-6c04a419a4c5fb18edefc44dd676fb95c7f6c55d thermal/drivers/sun8i: Extend H6 calibration to support 4 sensors
-f8b54d1120b81ed57bed96cc8e814ba08886d1e5 thermal/drivers/sun8i: Add SRAM register access code
-e7dbfa19572a1440a2e67ef70f94ff204849a0a8 thermal/drivers/sun8i: Add support for H616 THS controller
-9ac53d5532cc4bb595bbee86ccba2172ccc336c3 thermal/drivers/sun8i: Don't fail probe due to zone registration failure
-f0a0fc10abb062d122db5ac4ed42f6d1ca342649 cpufreq: intel_pstate: fix pstate limits enforcement for adjust_perf call back
-240a8da623008eb9f4e32c7a19ce16a6605911dc cpufreq: intel_pstate: Allow model specific EPPs
-1f4b7fdd71e066aa7c01e3e26ceeb39b47dd5461 cpufreq: intel_pstate: Update default EPPs for Meteor Lake
-88debc69754f7fe5186954941bb1cc4d744f4f25 cpufreq: Remove references to 10ms min sampling rate
-7156c4500fc928b0d86b9df58308eee6da7ffea8 Merge branch 'pm-cpufreq-fixes' into linux-next
-b9dcbdb099e4c025188fd3f9c31ebd5fc6784049 Merge branches 'pm-cpufreq', 'pm-sleep', 'pm-runtime', 'pm-em' and 'pm-tools' into linux-next
-72579c78e71c712d65ae651525938aa334fd99bf Merge branch 'thermal/bleeding-edge' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux into bleeding-edge
-5d571ee0fe45e78ce04375466de596dab64e1adb Merge branch 'thermal-core-next' into bleeding-edge
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708784180 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1708784180-615839db17feee5a8769f87c732b9eaf349a890f
 
---===============4847691394082407310==--
+7b06d20fb775904c5baece8a711db46598f1edb0 76400acda3cbe79ddac1eff05668efc4a17d4c51 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXZ+jQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+epMQAKT4pZBZXhRJDWVtwMmE
+N3ZWBdYxCKjzOxSO8dfpsRNho9gUA/IF4ffiaDCVvP+iUhz6ZGt1aIBRiuETvvE0
+kJUtB8F+6VMwzXVA9Qn+j/t7U0bi4uft6a/4rzfaQm0Z7x52Yd60w2HGtgyhPNKU
+HUftonknZM2BfVyiPCcI+yrYO2rcgovMshEd6YYUFWapzml7X9dF5IQrEV0jLjXg
+El10tDU3w4Cbog0ztZ9cNksp0o8b6cEpvyuqEVoV13F00qHN9vZOkLkdbzgL5d+W
+EhlnggAZzJfAc4cK6+fWy1AZKQCeiZrvjqbFy4V0zwSAp3o+gqz765zfWQNuNZmJ
+z+9OjDlBY4UZvyKcl2hsNvbPJclY+ah1ZGaXJl18oLeLMtkFmJxcI9mhYjEhyA3N
+W63jdKntu1FpflrGDqIgObBL2YdSbqHKUHF+lB8LWR37cPe4M+7IiFnKaEb24eo9
+CcjtCsWoSZ/3VHRswI5FSqQl/8E+VxJEz5nEgiWbtW0SbUHxyiCuOuH2i2A2ImNn
+di2fGTLiU0XpaRtl1C2rpjhaUg3VNqahCIhmbcgtNN8j7f6LB/VkqDGzb+ni4EJe
+z3OenEKeOhhkXVsRuwggjSMYtU7Qgy0XSbyRXjQyzg2z+nYDNdfnAfOYqlvifbn1
+kggY9H/YZyn7/Li7RtN4vffG
+=e6z/
+-----END PGP SIGNATURE-----
+
+--===============1532247216785205232==--
