@@ -1,26 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============0202344489956505606=="
+Content-Type: multipart/mixed; boundary="===============1115046438064323877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 24 Feb 2024 19:49:57 -0000
-Message-Id: <170880419709.9736.15920789639991164704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 24 Feb 2024 19:51:25 -0000
+Message-Id: <170880428575.12028.1838941186496580310@gitolite.kernel.org>
 
---===============0202344489956505606==
+--===============1115046438064323877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
+  - ref: refs/heads/for-6.9/block
+    old: 03f12122b20b6e6028e9ed69030a49f9cffcbb75
+    new: af550e4c968294398fc76b075f12d51c76caf753
+    log: |
+         5affe497c346343ecc42e6095b60dafe15e1453e block: blkdev_issue_secure_erase loop style
+         76a27e1b53b94b5a23c221434146fda3e9d8d8e0 block: cleanup __blkdev_issue_write_zeroes
+         0eb4db4706603db09644ec3bc9bb0d63ea5d326c block: io wait hang check helper
+         8a08c5fd89b447a7de7eb293a7a274c46b932ba2 blk-lib: check for kill signal
+         b361c9027b4e4159e7bcca4eb64fd26507c19994 sched: Add a new function to compare if two cpus have the same capacity
+         af550e4c968294398fc76b075f12d51c76caf753 block/blk-mq: Don't complete locally if capacities are different
+         
+  - ref: refs/heads/for-next
+    old: df310bf18ea68320fce35861e1b45eac9ded11ea
+    new: 9a5ad69fd20663181e7bdd3aca14c63168b81042
+    log: |
+         5affe497c346343ecc42e6095b60dafe15e1453e block: blkdev_issue_secure_erase loop style
+         76a27e1b53b94b5a23c221434146fda3e9d8d8e0 block: cleanup __blkdev_issue_write_zeroes
+         0eb4db4706603db09644ec3bc9bb0d63ea5d326c block: io wait hang check helper
+         8a08c5fd89b447a7de7eb293a7a274c46b932ba2 blk-lib: check for kill signal
+         b361c9027b4e4159e7bcca4eb64fd26507c19994 sched: Add a new function to compare if two cpus have the same capacity
+         af550e4c968294398fc76b075f12d51c76caf753 block/blk-mq: Don't complete locally if capacities are different
+         9a5ad69fd20663181e7bdd3aca14c63168b81042 Merge branch 'for-6.9/block' into for-next
+         
   - ref: refs/heads/master
     old: ffd2cb6b718e189e7e2d5d0c19c25611f92e061a
     new: f2e367d6ad3bdc527c2b14e759c2f010d6b2b7a1
     log: revlist-ffd2cb6b718e-f2e367d6ad3b.txt
 
---===============0202344489956505606==
+--===============1115046438064323877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -161,4 +184,4 @@ fef85269a19d277f23fc5ff08a3c356beeb54cb3 Merge tag 'i2c-for-6.8-rc6' of git://gi
 6d20acbf3e3a32d331947dbc3802cf2d1a399e7d Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f2e367d6ad3bdc527c2b14e759c2f010d6b2b7a1 Merge tag 'for-6.8/dm-fix-3' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 
---===============0202344489956505606==--
+--===============1115046438064323877==--
