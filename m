@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 24 Feb 2024 20:50:03 -0000
-Message-Id: <170880780309.21385.9183836740531596976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sat, 24 Feb 2024 21:02:57 -0000
+Message-Id: <170880857703.30004.3294533715131015961@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-6.9/block
-    old: af550e4c968294398fc76b075f12d51c76caf753
-    new: 82c6515d8a970f471eeb8a5ceeaa04c3e5e1b45c
+  - ref: refs/heads/regulator-mp8859
+    old: bf4eb483a07ffae3014f2e76109a912d98f56546
+    new: 222b00652797ca59eee9bcfa5b6f424ad2d151ec
     log: |
-         82c6515d8a970f471eeb8a5ceeaa04c3e5e1b45c bdev: remove SLAB_MEM_SPREAD flag usage
-         
-  - ref: refs/heads/for-next
-    old: 9a5ad69fd20663181e7bdd3aca14c63168b81042
-    new: 571484af24f7d48b8ba3721454275c2c136469ca
-    log: |
-         82c6515d8a970f471eeb8a5ceeaa04c3e5e1b45c bdev: remove SLAB_MEM_SPREAD flag usage
-         571484af24f7d48b8ba3721454275c2c136469ca Merge branch 'for-6.9/block' into for-next
+         9d04a81900d8b50c3d19b068f530ffbb427d05b5 regulator: mp8859: Support mode operations
+         4cf11339797a269163d8d1edcf47c356cd23147f regulator: mp8859: Support active discharge control
+         dbacd2f60b31d54b3c810b0151f684a01ed844d9 regulator: mp8859: Support status and error readback
+         49a5b24f8fb34dd4d04142434b060d4ae89bd702 regulator: mp8859: Report slew rate
+         222b00652797ca59eee9bcfa5b6f424ad2d151ec regulator: mp8859: Implement set_current_limit()
          
