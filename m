@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 25 Feb 2024 16:20:57 -0000
-Message-Id: <170887805715.8359.10512119760215578842@gitolite.kernel.org>
+Date: Sun, 25 Feb 2024 16:21:59 -0000
+Message-Id: <170887811938.8839.12466240460466238620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
   - ref: refs/heads/wip/leon-for-next
-    old: d20a7cf9f714f0763efb56f0f2eeca1cb91315ed
-    new: 14b526f55ba5916856126f9793309fd6de5c5e7e
+    old: 14b526f55ba5916856126f9793309fd6de5c5e7e
+    new: 7a7b7f575a25aa68ee934ee8107294487efcb3fe
     log: |
-         7a8bccd8b29c321ac181369b42b04fecf05f98e2 RDMA/device: Fix a race between mad_client and cm_client init
-         14b526f55ba5916856126f9793309fd6de5c5e7e RDMA/uverbs: Remove flexible arrays from struct *_filter
+         7a7b7f575a25aa68ee934ee8107294487efcb3fe RDMA/rtrs-clt: Check strnlen return len in sysfs mpath_policy_store()
          
