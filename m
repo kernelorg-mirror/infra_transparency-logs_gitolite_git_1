@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 25 Feb 2024 14:33:58 -0000
-Message-Id: <170887163879.26228.13276233629227487773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Sun, 25 Feb 2024 14:35:16 -0000
+Message-Id: <170887171650.28293.3764892291937053155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: a1c9f508db2543aae59ea2378b07a026f6c917cf
-    new: 11dadb631007324c7a8bcb2650eda88ed2b9eed0
-    log: |
-         1b926914bbe4e30cb32f268893ef7d82a85275b8 iio: accel: adxl367: fix DEVID read after reset
-         11dadb631007324c7a8bcb2650eda88ed2b9eed0 iio: accel: adxl367: fix I2C FIFO data register
-         
+  - ref: refs/heads/x86-efi-peheader-backport-for-v5.15
+    old: 0000000000000000000000000000000000000000
+    new: d93dab8626aee14f59eb7f65806d62723d76f6c1
