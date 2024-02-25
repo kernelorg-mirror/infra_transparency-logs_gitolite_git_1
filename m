@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 25 Feb 2024 00:51:04 -0000
-Message-Id: <170882226488.3984.3906146316721019119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/hinawa-rs
+Date: Sun, 25 Feb 2024 01:06:56 -0000
+Message-Id: <170882321601.14360.14938365608967893377@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/libs/ieee1394/hinawa-rs
+user: takaswie
 changes:
-  - ref: refs/heads/master
-    old: 91403d50e9b133eea5fb48e473c6f7c9968341a4
-    new: ab0a97cffa0bb3b529ca08b0caea772ddb3e0b5c
+  - ref: refs/heads/main
+    old: 8171b78409146aa4cba1ad04d8b6064ece06a89b
+    new: 00d5fdca7c3630baa54dae2672e6243b43bd52a2
     log: |
-         a5c57fd2e9bd1c8ea8613a8f94fd0be5eccbf321 powerpc/pseries/iommu: DLPAR add doesn't completely initialize pci_controller
-         20c8c4dafe93e82441583e93bd68c0d256d7bed4 KVM: PPC: Book3S HV: Fix L2 guest reboot failure due to empty 'arch_compat'
-         ab0a97cffa0bb3b529ca08b0caea772ddb3e0b5c Merge tag 'powerpc-6.8-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+         fec3203bbdbc5b027c574283c5d5709ab0952826 rename symbolic link according to convention of gtk-rs project
+         3be17747a7933b172fb83a123abc1e7cdfce1e27 update gir files to 0.19.0 release
+         aa0d9b3f9187413c05c586faa26617f73daf67c1 update gir files to 0.19.0 release
+         63156d6c6b0a809a6db2d4ca1f494ef60f53bb55 hinawa-sys: regenerate FFI crate
+         19e4fad81c7b2c3f9036bad2ccfb01dd1055b55b hinawa: regenerate API crate
+         00d5fdca7c3630baa54dae2672e6243b43bd52a2 bump release version to 0.11.0
          
