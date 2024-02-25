@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5961965115845648361=="
+Content-Type: multipart/mixed; boundary="===============1390212662537950338=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Sun, 25 Feb 2024 17:37:38 -0000
-Message-Id: <170888265850.30482.2560607108739148499@gitolite.kernel.org>
+Date: Sun, 25 Feb 2024 17:38:20 -0000
+Message-Id: <170888270048.30936.14737874790484055690@gitolite.kernel.org>
 
---===============5961965115845648361==
+--===============1390212662537950338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: 759c4ff8f15b2b7d650f9799f393a6dbbb85f129
+  - ref: refs/heads/for-next/kspp
+    old: 9f938458a5dddd50fa8e38587b566f53fac83cbd
     new: c427b1a5e0f80a59be43d44a5222a1080ff2a9c4
-    log: revlist-759c4ff8f15b-c427b1a5e0f8.txt
+    log: revlist-9f938458a5dd-c427b1a5e0f8.txt
 
---===============5961965115845648361==
+--===============1390212662537950338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-759c4ff8f15b-c427b1a5e0f8.txt
+Content-Disposition: attachment; filename=revlist-9f938458a5dd-c427b1a5e0f8.txt
 
 e697572c09d21678e2e8cc1256af165106fccb7f refcount: Annotated intentional signed integer wrap-around
 a68169a26eb0fd03ac80c622666c7cc3c427f1e8 fortify: Split reporting and avoid passing string pointer
@@ -40,4 +40,4 @@ aaefe9b9d037987b113774497e5285fbb8be07ed fortify: Add KUnit tests for runtime ov
 044a35b6ccc6f44d0b320082879cdd46cf3d1e8c kernel.h: Move lib/cmdline.c prototypes to string.h
 c427b1a5e0f80a59be43d44a5222a1080ff2a9c4 sparc: vdso: Disable UBSAN instrumentation
 
---===============5961965115845648361==--
+--===============1390212662537950338==--
