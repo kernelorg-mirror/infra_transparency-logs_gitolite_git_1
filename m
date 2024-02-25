@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 25 Feb 2024 01:15:42 -0000
-Message-Id: <170882374297.22373.2096269909283215331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/hinoko-rs
+Date: Sun, 25 Feb 2024 01:25:34 -0000
+Message-Id: <170882433472.29087.18169443590741092919@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/libs/ieee1394/hinoko-rs
+user: takaswie
 changes:
-  - ref: refs/heads/master
-    old: 8a7875726a8837a0e463cc866a83d62972a674bd
-    new: 58fcc819bb03d642b1c3f9d48bfaed872d79e69a
+  - ref: refs/heads/main
+    old: 1f8e81a724c76ef65cb467e9304493b6b26fdd13
+    new: 24a4fe9bb671b62b9138d74b596e6136096472e0
     log: |
-         58fcc819bb03d642b1c3f9d48bfaed872d79e69a Sat Feb 24 08:14:55 PM EST 2024
+         96f7803de59eba7b474a9815434fecf9bd85f27f update gir files to 0.19.0 releases
+         74c843542b8e513a12dc615eec06b89cf17e1c9d update gir to 0.19.0 releases
+         262179348749f1fd6a30e016e04f1c277eb4daf3 hinoko-sys: regenerate SYS crate
+         7d369155dc3897236afe101261605941b426a261 hinoko: regenerate API crate
+         24a4fe9bb671b62b9138d74b596e6136096472e0 bump release version to 0.6.0
          
