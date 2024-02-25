@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 25 Feb 2024 16:21:59 -0000
-Message-Id: <170887811938.8839.12466240460466238620@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sun, 25 Feb 2024 16:50:03 -0000
+Message-Id: <170887980362.29028.8312902680678251913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 14b526f55ba5916856126f9793309fd6de5c5e7e
-    new: 7a7b7f575a25aa68ee934ee8107294487efcb3fe
+  - ref: refs/heads/io_uring-send-queue
+    old: 20e524bc09a0ace2b5c56f2db9df4ac9c034caf1
+    new: 828bde091833adf15fb46bdc82c69d2839154765
     log: |
-         7a7b7f575a25aa68ee934ee8107294487efcb3fe RDMA/rtrs-clt: Check strnlen return len in sysfs mpath_policy_store()
+         828bde091833adf15fb46bdc82c69d2839154765 io_uring/net: set MSG_MORE if we're doing multishot send and have more
          
