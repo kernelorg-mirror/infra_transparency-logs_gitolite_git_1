@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3891255138825040316=="
+Content-Type: multipart/mixed; boundary="===============4308758181079926514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 25 Feb 2024 09:55:44 -0000
-Message-Id: <170885494465.20891.6524947970533540167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 25 Feb 2024 10:39:22 -0000
+Message-Id: <170885756253.18974.4906860743230163528@gitolite.kernel.org>
 
---===============3891255138825040316==
+--===============4308758181079926514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 72b372cf7a4890128980cfa2828aeb22b5ae1e56
-    new: beba713f9e1bfdf6d147443f45315752bdca51cb
-    log: revlist-72b372cf7a48-beba713f9e1b.txt
+    old: 6176dc7f54ed8517ed661c24c94687fc5fc661aa
+    new: 6d84fad5c58dc88f88b93a4faba6c4e8c7713003
+    log: |
+         6d84fad5c58dc88f88b93a4faba6c4e8c7713003 5.15-stable patches
+         
 
---===============3891255138825040316==
+--===============4308758181079926514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72b372cf7a48-beba713f9e1b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d965e7374de4c683e9816efc197d304589d04a81 share/mk/: Use a variable to prefix recursive make(1) output
-475bc2a7776006df6a069955d180708d4196b5e2 close_range.2: srcfix
-8420e0e1278c0319bc3e5bc417a3dc12e53ae622 share/mk/: distcheck: Use temporary dirs within $builddir
-241bd45286ddf0b76a1b61cf3a1c41da4a595280 share/mk/: distcheck: Support an absolute path in $builddir
-20cfee67093394f47646425b0a2760afeaf12b4b share/mk/: Fix path
-6fa62c277eed2939568acb2219e5e68b317cf3ae share/mk/: distcheck: Fix dependencies
-dc9ab58614b7acbeddc80895feeaba871ca67e5c share/mk/: distcheck: Remove old directory before untarring the new tarball
-26a2a1ca3c9a68c8a0eadcdbe30d1f8a21e329d3 share/mk/configure/version.mk: $DISTNAME: Don't hide git(1) errors
-d3a1482d59c855eabc5493a433c155126c15d4c1 share/mk/configure/version.mk: $DISTNAME: Pass --dirty to git-describe(1)
-db42ad5e7f527d5169050f97a42827ff11c42f29 share/mk/: Consistently use 'cp -T'
-2750149d5af500665e7b554779bdd31b2d089149 share/mk/: dist: Preserve links with cp(1)
-cb497121b5fa4be0bb344b8f4bbbdcfb691b016d share/mk/: $DISTDATE: If the repository is "dirty", use the newest timestamp
-5fabf2b0c87e75792b5298e85efc536d6ba618ab share/mk/: dist: FORCE regeneration of version file if necessary
-beba713f9e1bfdf6d147443f45315752bdca51cb share/mk/: dist: Show CP instead of INSTALL
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708857560 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1708857560-a36e651089e4d9d166760ec473afbc28cfb8b1f2
 
---===============3891255138825040316==--
+6176dc7f54ed8517ed661c24c94687fc5fc661aa 6d84fad5c58dc88f88b93a4faba6c4e8c7713003 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXbGNkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rBUP/1zrmlAGOyHL9/GAKAQH
+8Q3mPdgxN4M6hGQ62bIjgC/wOxEisqT0JNwd9dFw8M41JEp/r1r2qB0Y/fs8kiDR
+KdkmVewpqaDDyFyKTQjjNNOQTHRrbWCm1rNxgL1fUQ2EjNw8w19JKjz1L5KRkzei
+wP/UqsiwyzAkL3GEajVd5vXkKBiUk9378VSwSwbeSRLDN9+T16B/iNxWNG9//L/s
+n3sBMDCcb5zAB4ENZ5RBSXO7j9KZL1S+v2skguQTquniTEi9xEs3ZV8I7iG3ox0t
+EnakeoyS0J4corDGQYOjtPnZOsnupsuj0GhFC8/oJE9tcCsxEwEH6NYiTVopeoqK
+hTpA4k44kdbkYl4IG9D7CYsjq9sDSx9414hoGhN6MAswHPY9LlXaoSlOa4SYUsdZ
+vylDEQ0/K+RMTfC20l7m5oQgf+fDLiVWbFI3z7marHuJGGT/reACtcjj6AYcSSiM
+4ufsA1Y0m4ISefn71ngeGFL++aSuhx7oYs5blQLxSxKfIYPGmqy/xwJH6xjLLs9G
+FKwo3xvOgP+BcKGXtI/yARrInq1+S9a2/ohoFW+uTkOzL5Qmyr2H6Sb07j1r+6WJ
+JE5ABe3vq8g0XLRVBXEYst2Ir3SEHqoiC8+2f+0oyvgWezvZCTu1E9H/GCgCK6C6
+KvVQFAyaGzhtzLeSDSarzg6M
+=urXX
+-----END PGP SIGNATURE-----
+
+--===============4308758181079926514==--
