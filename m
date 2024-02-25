@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 25 Feb 2024 00:50:03 -0000
-Message-Id: <170882220325.3303.13985821062990518127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 25 Feb 2024 00:51:04 -0000
+Message-Id: <170882226488.3984.3906146316721019119@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 04e6762302a7aebc62eaa37986ffde91f382f67b
-    new: 8a7875726a8837a0e463cc866a83d62972a674bd
+    old: 91403d50e9b133eea5fb48e473c6f7c9968341a4
+    new: ab0a97cffa0bb3b529ca08b0caea772ddb3e0b5c
     log: |
-         8a7875726a8837a0e463cc866a83d62972a674bd Sat Feb 24 07:49:09 PM EST 2024
+         a5c57fd2e9bd1c8ea8613a8f94fd0be5eccbf321 powerpc/pseries/iommu: DLPAR add doesn't completely initialize pci_controller
+         20c8c4dafe93e82441583e93bd68c0d256d7bed4 KVM: PPC: Book3S HV: Fix L2 guest reboot failure due to empty 'arch_compat'
+         ab0a97cffa0bb3b529ca08b0caea772ddb3e0b5c Merge tag 'powerpc-6.8-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
          
