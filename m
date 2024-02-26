@@ -1,46 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1839304385746271374=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 26 Feb 2024 20:53:33 -0000
-Message-Id: <170898081390.17068.11521027656545721384@gitolite.kernel.org>
-
---===============1839304385746271374==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan-next
+Date: Mon, 26 Feb 2024 21:10:13 -0000
+Message-Id: <170898181386.31208.8495874518467026775@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wpan/wpan-next
+user: sschmidt
 changes:
   - ref: refs/heads/master
-    old: f240dab2b85c05cb14374f6a1c51fb9c2783e889
-    new: 7f3284906e67f138eae82271a6c3bde1ebb30791
+    old: 2373699560a754079579b7722b50d1d38de1960e
+    new: 42683294cc0a9ba010de5d978fd23fd1e778b192
     log: |
-         7f3284906e67f138eae82271a6c3bde1ebb30791 ez: cosmetic changes to appease PEP8
+         35c6bba552a8469e6423727fba6a73616fcabd51 net: ieee802154: at86rf230: convert to use maple tree register cache
+         b0f413bc63ea39358ec42a7f16526b097cf1f3b4 net: ieee802154: mcr20a: convert to use maple tree register cache
+         36cc392d1ae142e82b38d137daaac282dd1aced1 net: ieee802154: mrf24j40: convert to use maple tree register cache
+         42683294cc0a9ba010de5d978fd23fd1e778b192 ieee802154: ca8210: Drop spurious WQ_UNBOUND from alloc_ordered_workqueue() call
          
-
---===============1839304385746271374==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1708980813 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1708980813-502ff0ad6d8c4e2d9b7162480f20fd805315f796
-
-f240dab2b85c05cb14374f6a1c51fb9c2783e889 7f3284906e67f138eae82271a6c3bde1ebb30791 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZdz6TQAKCRC2xBzjVmSZ
-bISYAQCGhU1kcXGl6w0b33tcI9GLRZnHw+TO9+w0kNuL9lOBwwEA4ZS7Nmvz5WtK
-ST8KJ+dmD93feAqOI4zs7RGRSuTTNAk=
-=StAh
------END PGP SIGNATURE-----
-
---===============1839304385746271374==--
