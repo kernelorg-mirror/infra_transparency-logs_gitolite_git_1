@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 26 Feb 2024 19:18:59 -0000
-Message-Id: <170897513990.10294.1906796206629519981@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 26 Feb 2024 19:20:35 -0000
+Message-Id: <170897523550.12524.1954599516867049270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/testing
-    old: d942554a6ec4106c47c31eccd77d2791428ea7cb
-    new: 256bb9853b2f2a3658aa7bc4182a531d4ea4d805
+  - ref: refs/heads/master
+    old: bce84a938ef27ffbd1dd655a2ba0f4ea03a74b6a
+    new: 956f7a28180768a22af1c1c4cb6159877f7d75e1
     log: |
-         b5e3284735847803013b61bf868fb0f5eb3c2e0f dt-bindings: iio: ti,tmp117: add optional label property
-         256bb9853b2f2a3658aa7bc4182a531d4ea4d805 dt-bindings: iio: adc: drop redundant type from label
+         7cecb020a33a9e2734a79be8d0c4621ed6a1b1fa Bluetooth: ISO: Add hcon for listening bis sk
+         956f7a28180768a22af1c1c4cb6159877f7d75e1 Bluetooth: ISO: Reassemble PA data for bcast sink
          
