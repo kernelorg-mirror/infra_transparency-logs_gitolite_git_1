@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5002303536711426029=="
+Content-Type: multipart/mixed; boundary="===============2942184870318277716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 26 Feb 2024 19:15:05 -0000
-Message-Id: <170897490567.8559.4369082286029868508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 26 Feb 2024 19:15:12 -0000
+Message-Id: <170897491251.8651.9391407520060935660@gitolite.kernel.org>
 
---===============5002303536711426029==
+--===============2942184870318277716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/spi-6.9
     old: e63aef9c9121e5061cbf5112d12cadc9da399692
     new: 786115655f4d9167bd855872bd55b0a37321806e
     log: |
@@ -27,28 +27,28 @@ changes:
          786115655f4d9167bd855872bd55b0a37321806e spi: add support for pre-cooking messages
          
 
---===============5002303536711426029==
+--===============2942184870318277716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1708974904 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1708974903-ff113e7b39ef29b80090948b2ac1338437b176bc
+pusher C3F436CA30F5D8EB 1708974910 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1708974910-dde0e86642884aee849a2795142403ff128790ed
 
-e63aef9c9121e5061cbf5112d12cadc9da399692 786115655f4d9167bd855872bd55b0a37321806e refs/heads/for-6.9
+e63aef9c9121e5061cbf5112d12cadc9da399692 786115655f4d9167bd855872bd55b0a37321806e refs/heads/spi-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXc4zgACgkQJNaLcl1U
-h9DNLAf9FmL7kbRy0DxXUZmop8pEZnnrrt5NI3ZYgxLm1bztng6K+OoUHthy+ta8
-d0shnmLAJT9YNvfcTcU9KizJiDogtaRZi8erw7lzDf+HyjtbnR4E95dCDN0u4mod
-XcFhTY1vUos3UO4cvZg0cHEraJsu9k7uDA77gXthCMF8xu1YuBKiAAQAOde/smO2
-x7EIumX1VUtmbhHB2gYQkHB191d7cIZUmjjIvTxauACkQB9m3x8SJrQTzd9xBlUJ
-l3eq/1ed73yf5JYSZvn6+qnxgRFrdqIeEpxv5MFFKzrQj6jWXGvb0JZdEO0g+V3y
-Njs7+5YrVAo1Ub/s35HrGigNmoiLIA==
-=sC2c
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXc4z4ACgkQJNaLcl1U
+h9DAfgf+NqA3RDTRjcfpniVRafmlY1PUfzHdUP0nCny19c3Suf++lSPOIvVYnnGu
+3VYJ6MLY1uSrEn6+2ee8M+qVVnpdWX44WAs2OKDP+faVA0G54n1RNrgKGRLw4exy
+6Zyjne8c4CTJa2bDQr0y2WqN9CXAYHIJQA7In9atwuwDX7CTWbZxj67r7mV3j32Z
+0Qi4kb6lDuuKvfT1OpvNZOJfwviTvoIZYTvkrE9iG5jizMZ4nzCbnyltqOaulZSw
+jqNeb9kA/Mprr/Fs9nMJ5UIVIXSBIACxNf/Gz6K/EoOKpJx1Ff7ti4hauZwvS23i
+g4moXPk9pJMyUS+iBSPgge7xmA7zvA==
+=oguP
 -----END PGP SIGNATURE-----
 
---===============5002303536711426029==--
+--===============2942184870318277716==--
