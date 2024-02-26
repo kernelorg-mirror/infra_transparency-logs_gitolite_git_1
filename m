@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 26 Feb 2024 14:55:16 -0000
-Message-Id: <170895931627.29510.12757039190185452678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vegard/linux
+Date: Mon, 26 Feb 2024 15:04:06 -0000
+Message-Id: <170895984691.2030.17660223585569926944@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/vegard/linux
+user: vegard
 changes:
-  - ref: refs/heads/master
-    old: c8af669da59b264624a9c874f02e41b4a78da5e4
-    new: f65cd924f2e60e7bd41dc27443c020e131880e8c
+  - ref: refs/notes/commits
+    old: 1d8e41db71b2a2ff8c67719b2d87c6040e2a2bea
+    new: 0ba13d5889532b225a5577d1dec8f52916e315b7
     log: |
-         f65cd924f2e60e7bd41dc27443c020e131880e8c btdev: Fix UAF on page_timeout
+         0ba13d5889532b225a5577d1dec8f52916e315b7 Update notes
          
