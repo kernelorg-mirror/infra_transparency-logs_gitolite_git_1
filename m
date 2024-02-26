@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Mon, 26 Feb 2024 18:05:46 -0000
-Message-Id: <170897074688.18618.8860283764748535480@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 26 Feb 2024 18:08:35 -0000
+Message-Id: <170897091587.21017.7532695246689556783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 6e665da56c78d436e0a13a0772f70ccb9bdd3f2c
-    new: 461f61ebaf8f31080f8e57656ce59b54ce5c97bd
+  - ref: refs/heads/main
+    old: b0b1210bc150fbd741b4b9fce8a24541306b40fc
+    new: 10bfd453da64a057bcfd1a49fb6b271c48653cdb
     log: |
-         461f61ebaf8f31080f8e57656ce59b54ce5c97bd dwarf_loader: Print the line number in addition to the function when not finding the abstract origin
+         2a770cdc4382b457ca3d43d03f0f0064f905a0d0 tun: Fix xdp_rxq_info's queue_index when detaching
+         fe9f801355f0b47668419f30f1fac1cf4539e736 net: veth: clear GRO when clearing XDP even when down
+         1a825e4cdf457b7aef7ebbc2f1206654f5beb150 selftests: net: veth: test syncing GRO and XDP state while device is down
+         10bfd453da64a057bcfd1a49fb6b271c48653cdb ipv6: fix potential "struct net" leak in inet6_rtm_getaddr()
          
