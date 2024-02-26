@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6439638926045219741=="
+Content-Type: multipart/mixed; boundary="===============7996049396866624784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 26 Feb 2024 18:28:14 -0000
-Message-Id: <170897209436.3943.12548719067705746937@gitolite.kernel.org>
+Date: Mon, 26 Feb 2024 18:28:32 -0000
+Message-Id: <170897211255.4117.4768921840756703602@gitolite.kernel.org>
 
---===============6439638926045219741==
+--===============7996049396866624784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: a818bd12538c1408c7480de31573cdb3c3c0926f
     new: 25d4342574644bca5cbe1ace865955e406b9a741
     log: revlist-a818bd12538c-25d434257464.txt
 
---===============6439638926045219741==
+--===============7996049396866624784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +64,4 @@ f5151005d379d9ce42e327fd3b2d2aaef61cda81 net: pcs: xpcs: Return EINVAL in the in
 361dd531a11bc2c63c3c906a202a9c8a7675f3e7 net: pcs: xpcs: Explicitly return error on caps validation
 25d4342574644bca5cbe1ace865955e406b9a741 Merge branch 'pcs-xpcs-cleanups'
 
---===============6439638926045219741==--
+--===============7996049396866624784==--
