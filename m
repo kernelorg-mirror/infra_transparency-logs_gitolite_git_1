@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3413789833957059245=="
+Content-Type: multipart/mixed; boundary="===============8202100511257763508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 26 Feb 2024 19:24:54 -0000
-Message-Id: <170897549446.14356.8436657570741597832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 26 Feb 2024 19:25:04 -0000
+Message-Id: <170897550455.16061.8200700804325426521@gitolite.kernel.org>
 
---===============3413789833957059245==
+--===============8202100511257763508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 8bf1e5a08989cf5c8d9c117ebc47554951a08d6d
 
---===============3413789833957059245==
+--===============8202100511257763508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -850,4 +850,4 @@ c46ac50ebec33907e5768012aa39ba1ab2f0ca14 Merge tag 'usb-6.8-rc6' of git://git.ke
 e231dbd452a79b9100846c0552fd9077251c042e Merge tag 'bcachefs-2024-02-25' of https://evilpiepirate.org/git/bcachefs
 d206a76d7d2726f3b096037f2079ce0bd3ba329b Linux 6.8-rc6
 
---===============3413789833957059245==--
+--===============8202100511257763508==--
