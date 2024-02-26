@@ -1,50 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============0295104019892481799=="
+Content-Type: multipart/mixed; boundary="===============5826011404762209382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 26 Feb 2024 11:43:03 -0000
-Message-Id: <170894778332.14930.6909805995284636314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 26 Feb 2024 11:46:38 -0000
+Message-Id: <170894799812.17938.12642972955688303215@gitolite.kernel.org>
 
---===============0295104019892481799==
+--===============5826011404762209382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: 0b23cddeba9f83ef7c41464db14c9d0b54a72997
-    new: 5d018d1d65743312a1907351fd03205ee232c563
-    log: revlist-0b23cddeba9f-5d018d1d6574.txt
+  - ref: refs/heads/main
+    old: 5f6000aa24b939a8853dbc76642ba3cd12765bd8
+    new: 5fc3903c46a743781cd35fdecfdd889c522e2c3b
+    log: revlist-5f6000aa24b9-5fc3903c46a7.txt
 
---===============0295104019892481799==
+--===============5826011404762209382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b23cddeba9f-5d018d1d6574.txt
+Content-Disposition: attachment; filename=revlist-5f6000aa24b9-5fc3903c46a7.txt
 
-bdd77f6e7c240319e198d440f72e314a9d7882e2 Merge branch into tip/master: 'x86/merge'
-1d12636840d7d689cb499969943a184fd2901a43 Merge branch into tip/master: 'irq/core'
-5aa2e320a00e193a020bcfacb3306ce9cf19c8f3 Merge branch into tip/master: 'irq/msi'
-b9ebcd55b37da8481d285afffafae32e549c6760 Merge branch into tip/master: 'locking/core'
-0fcc49a03da62494df8a75249956acc03cc911e8 Merge branch into tip/master: 'ras/core'
-c91beb75bfe8a28885bf96c9b14d6d5734c697db Merge branch into tip/master: 'sched/core'
-ced297e3f69f708763ae8a0e503fd297b6d04e74 Merge branch into tip/master: 'smp/core'
-06b6d31e8cf52d65567a29cbdceb756f96a7c88c Merge branch into tip/master: 'timers/core'
-91cd51ef46bffb8f333f2b48902cb90bbecff6e4 Merge branch into tip/master: 'timers/ptp'
-2f01cf964ab6b27868d2994266ff849ab9e6ecfe Merge branch into tip/master: 'x86/apic'
-e53485bcbd5d74bd719146f873a89889c42f0058 Merge branch into tip/master: 'x86/asm'
-6019c7162a155e5f05dc1e5a0ebdc437cbe89375 Merge branch into tip/master: 'x86/boot'
-d7f83308b1f7b8688cdabb072382b1b6c444ce5d Merge branch into tip/master: 'x86/cache'
-b45056778f81b71d9016a0d38e99431b904d941c Merge branch into tip/master: 'x86/cleanups'
-579d5cb58bdd9f96d68ece1299d9d3cca1dcb6ea Merge branch into tip/master: 'x86/cpu'
-4c7b93589f33eb7b6f9de1ad5a63095e9891df86 Merge branch into tip/master: 'x86/entry'
-f6a55cfd979ee94661a370c8ea94f1715d56b44a Merge branch into tip/master: 'x86/misc'
-9b4654cb224fb6113e7cffe1f74f063b1d126eff Merge branch into tip/master: 'x86/mm'
-fd11a3bd2d4f600625fd01fd044a18b9df35be7d Merge branch into tip/master: 'x86/mtrr'
-5d018d1d65743312a1907351fd03205ee232c563 Merge branch into tip/master: 'x86/tdx'
+e353ea9ce471331c13edffd5977eadd602d1bb80 rtnetlink: prepare nla_put_iflink() to run under RCU
+4ad268136421dc9813280c55940eca00796420e5 ipv6: prepare inet6_fill_ifla6_attrs() for RCU
+8afc7a78d55de726b2747d7775c54def79509ec5 ipv6: prepare inet6_fill_ifinfo() for RCU protection
+ac14ad9755d4f8f286fd2cd710aa5dcf9a3c777a ipv6: use xarray iterator to implement inet6_dump_ifinfo()
+6647b338fc5c6741736fe51a25fc2c0bec6398b8 netlink: fix netlink_diag_dump() return value
+b5590270068c4324dac4a2b5a4a156e02e21339f netlink: hold nlk->cb_mutex longer in __netlink_dump_start()
+e39951d965bf58b5aba7f61dc1140dcb8271af22 rtnetlink: change nlk->cb_mutex role
+386520e0ecc01004d3a29c70c5a77d4bbf8a8420 rtnetlink: add RTNL_FLAG_DUMP_UNLOCKED flag
+69fdb7e411b6d01eb08447e672302b69c9e176ad ipv6: switch inet6_dump_ifinfo() to RCU protection
+22e36ea9f5d7707ae3d64c497d172f4ef735c353 inet: allow ip_valid_fib_dump_req() to be called with RTNL or RCU
+0ac3fa0c3b365f97c3969f391edf7b44d3bb210d nexthop: allow nexthop_mpath_fill_node() to be called without RTNL
+4ce5dc9316de50e0da84beafe55d1344f829cece inet: switch inet_dump_fib() to RCU protection
+74808e72e0b2d7cac886151198c0330daadaee70 rtnetlink: make rtnl_fill_link_ifmap() RCU ready
+0ec4e48c3a233820e0bce1f5ba9ed3e4520f90e9 rtnetlink: provide RCU protection to rtnl_fill_prop_list()
+5fc3903c46a743781cd35fdecfdd889c522e2c3b Merge branch 'rtnetlink-reduce-rtnl-pressure'
 
---===============0295104019892481799==--
+--===============5826011404762209382==--
