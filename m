@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Mon, 26 Feb 2024 19:50:48 -0000
-Message-Id: <170897704827.3856.5988167422476833522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 26 Feb 2024 19:51:12 -0000
+Message-Id: <170897707246.4051.2467764068311172996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: holtmann
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: c0058c07bf5e629d565621dad8709fa0918b5f1f
-    new: b1edef3a14bb39b9d7f1fcb4e1d585c3d805102b
+  - ref: refs/heads/for-next
+    old: 290235652c95b9b309b48226fdc72dcd6a43b62e
+    new: 8ac81649f72056ece4405ff2cdbd6ab2457151ba
     log: |
-         b1edef3a14bb39b9d7f1fcb4e1d585c3d805102b build: Require at least version 0.63 when building with external ELL
+         531a0c0cdbff9cecf41073220a826f8b1132f9ab regulator: userspace-consumer: add module device table
+         8ac81649f72056ece4405ff2cdbd6ab2457151ba Merge remote-tracking branch 'regulator/for-6.9' into regulator-next
          
