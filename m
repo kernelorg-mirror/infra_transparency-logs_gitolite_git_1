@@ -1,37 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Mon, 26 Feb 2024 18:13:48 -0000
-Message-Id: <170897122889.24934.8596115985082323941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 26 Feb 2024 18:14:01 -0000
+Message-Id: <170897124196.25103.12128098499995801323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master-pending
-    old: ecd15e99c6ece08ab44d615710b72659722e76d3
-    new: c9d0feaf2a19a8d82dca708fc6589f8ed0d7d38a
+  - ref: refs/heads/100GbE
+    old: b0b1210bc150fbd741b4b9fce8a24541306b40fc
+    new: 10bfd453da64a057bcfd1a49fb6b271c48653cdb
     log: |
-         1b9ccd5f70c546885117d418104f63979e5adf68 wifi: ath12k: Refactor Rxdma buffer replinish argument
-         3da7e78ae5992a6d053591ac362d9f0302032cb5 wifi: ath12k: Optimize the lock contention of used list in Rx data path
-         745a7225e60560b47455e9b15f1a05df6c6335eb wifi: ath12k: Refactor error handler of Rxdma replenish
-         b0f21ae4a17cb71e652582b65b5b49a4a7253fa7 wifi: ath11k: constify MHI channel and controller configs
-         9d26e48b475334732e56414976f1921b819eff56 wifi: ath12k: fix license in p2p.c and p2p.h
-         c9d0feaf2a19a8d82dca708fc6589f8ed0d7d38a Merge branch 'pending' into master-pending
+         2a770cdc4382b457ca3d43d03f0f0064f905a0d0 tun: Fix xdp_rxq_info's queue_index when detaching
+         fe9f801355f0b47668419f30f1fac1cf4539e736 net: veth: clear GRO when clearing XDP even when down
+         1a825e4cdf457b7aef7ebbc2f1206654f5beb150 selftests: net: veth: test syncing GRO and XDP state while device is down
+         10bfd453da64a057bcfd1a49fb6b271c48653cdb ipv6: fix potential "struct net" leak in inet6_rtm_getaddr()
          
-  - ref: refs/heads/pending
-    old: 9612a7b696cb368c1be64942159b19db5cf5a9ea
-    new: 9d26e48b475334732e56414976f1921b819eff56
-    log: |
-         1b9ccd5f70c546885117d418104f63979e5adf68 wifi: ath12k: Refactor Rxdma buffer replinish argument
-         3da7e78ae5992a6d053591ac362d9f0302032cb5 wifi: ath12k: Optimize the lock contention of used list in Rx data path
-         745a7225e60560b47455e9b15f1a05df6c6335eb wifi: ath12k: Refactor error handler of Rxdma replenish
-         b0f21ae4a17cb71e652582b65b5b49a4a7253fa7 wifi: ath11k: constify MHI channel and controller configs
-         9d26e48b475334732e56414976f1921b819eff56 wifi: ath12k: fix license in p2p.c and p2p.h
-         
-  - ref: refs/tags/ath-pending-202402261812
-    old: 0000000000000000000000000000000000000000
-    new: c9d0feaf2a19a8d82dca708fc6589f8ed0d7d38a
