@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 26 Feb 2024 18:08:35 -0000
-Message-Id: <170897091587.21017.7532695246689556783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/aarch64-memcpy
+Date: Mon, 26 Feb 2024 18:08:44 -0000
+Message-Id: <170897092404.21143.16262082095153321539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/oupton/aarch64-memcpy
+user: oupton
 changes:
   - ref: refs/heads/main
-    old: b0b1210bc150fbd741b4b9fce8a24541306b40fc
-    new: 10bfd453da64a057bcfd1a49fb6b271c48653cdb
+    old: 60ad5c2833b090583eae724a6e1917f4efe0c702
+    new: 81d3391617f216f74e3712c82310c2dea5753707
     log: |
-         2a770cdc4382b457ca3d43d03f0f0064f905a0d0 tun: Fix xdp_rxq_info's queue_index when detaching
-         fe9f801355f0b47668419f30f1fac1cf4539e736 net: veth: clear GRO when clearing XDP even when down
-         1a825e4cdf457b7aef7ebbc2f1206654f5beb150 selftests: net: veth: test syncing GRO and XDP state while device is down
-         10bfd453da64a057bcfd1a49fb6b271c48653cdb ipv6: fix potential "struct net" leak in inet6_rtm_getaddr()
+         81d3391617f216f74e3712c82310c2dea5753707 Test dcache CMOs before copying memory
          
