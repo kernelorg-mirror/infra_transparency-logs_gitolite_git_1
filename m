@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 26 Feb 2024 19:51:12 -0000
-Message-Id: <170897707246.4051.2467764068311172996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 26 Feb 2024 19:55:28 -0000
+Message-Id: <170897732874.7225.4750802545013763492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/network/wireless/iwd
+user: holtmann
 changes:
-  - ref: refs/heads/for-next
-    old: 290235652c95b9b309b48226fdc72dcd6a43b62e
-    new: 8ac81649f72056ece4405ff2cdbd6ab2457151ba
+  - ref: refs/heads/master
+    old: b1edef3a14bb39b9d7f1fcb4e1d585c3d805102b
+    new: cc0fcb2bb4c33789315b58af3a6feff5e2064102
     log: |
-         531a0c0cdbff9cecf41073220a826f8b1132f9ab regulator: userspace-consumer: add module device table
-         8ac81649f72056ece4405ff2cdbd6ab2457151ba Merge remote-tracking branch 'regulator/for-6.9' into regulator-next
+         cc0fcb2bb4c33789315b58af3a6feff5e2064102 Release 2.15
          
