@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Mon, 26 Feb 2024 18:47:56 -0000
-Message-Id: <170897327630.19539.4568690440396879595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/aarch64-memcpy
+Date: Mon, 26 Feb 2024 18:48:14 -0000
+Message-Id: <170897329482.19758.9537582143759863278@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/oupton/aarch64-memcpy
+user: oupton
 changes:
-  - ref: refs/heads/send-mshot
-    old: d49a537a9d780d614ef6398e59ba29b26efbb095
-    new: f72ffd10286316c65bb522afc230c8ecbbe46019
+  - ref: refs/heads/main
+    old: 660be94c5daadf529a303c520422093780759c70
+    new: da4e9379ebf9a095d599301262be41f23599a7d5
     log: |
-         f72ffd10286316c65bb522afc230c8ecbbe46019 examples/proxy: use proper feature and send flag defines
+         da4e9379ebf9a095d599301262be41f23599a7d5 Throw some threads at the problem
          
