@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1272038751151874161=="
+Content-Type: multipart/mixed; boundary="===============1165588657408709259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 26 Feb 2024 11:24:07 -0000
-Message-Id: <170894664730.32165.2448157329152383395@gitolite.kernel.org>
+Date: Mon, 26 Feb 2024 11:30:22 -0000
+Message-Id: <170894702271.5317.13749788557457304866@gitolite.kernel.org>
 
---===============1272038751151874161==
+--===============1165588657408709259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 3877de636b1e1cf479054faf54b39bc07dc290c9
-    new: b7b9a646edf153c02e44aab9be36e4e8fb4a4d8e
-    log: revlist-3877de636b1e-b7b9a646edf1.txt
+  - ref: refs/heads/m68k-queue
+    old: bbd949ba17df9445a0d518a0f124208c3594634d
+    new: b8f85c7a2bbfd5461cf21f2af91e911854fd7a3d
+    log: revlist-bbd949ba17df-b8f85c7a2bbf.txt
 
---===============1272038751151874161==
+--===============1165588657408709259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3877de636b1e-b7b9a646edf1.txt
+Content-Disposition: attachment; filename=revlist-bbd949ba17df-b8f85c7a2bbf.txt
 
 1755c4b0372a2cf1e7124956b8cfebcb51083208 dt-bindings: clock: gs101: rename cmu_misc clock-names
 d76c762e7ee04af79e1c127422e0bbcb5f123018 clk: samsung: clk-gs101: comply with the new dt cmu_misc clock names
@@ -416,6 +416,9 @@ c46ac50ebec33907e5768012aa39ba1ab2f0ca14 Merge tag 'usb-6.8-rc6' of git://git.ke
 5197728f8182a93a07e5bf860726456322d3a908 bcachefs: fix bch2_save_backtrace()
 e231dbd452a79b9100846c0552fd9077251c042e Merge tag 'bcachefs-2024-02-25' of https://evilpiepirate.org/git/bcachefs
 d206a76d7d2726f3b096037f2079ce0bd3ba329b Linux 6.8-rc6
-b7b9a646edf153c02e44aab9be36e4e8fb4a4d8e Merge tag 'v6.8-rc6'
+46193de2d8fae097b2940054762937d2a782473f zorro: Make zorro_bus_type const
+ab583d888df56f749a1bbceb66038150d26d467d m68k: atari: usb: Add ISP1160 USB host controller support
+d7ab8d314a094a6b87e190222b4255b65d8da8c3 m68k: atari: Update Kconfig.bus help text
+b8f85c7a2bbfd5461cf21f2af91e911854fd7a3d m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1272038751151874161==--
+--===============1165588657408709259==--
