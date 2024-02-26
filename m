@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Mon, 26 Feb 2024 11:47:18 -0000
-Message-Id: <170894803836.18265.15555246706987344187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 26 Feb 2024 11:56:36 -0000
+Message-Id: <170894859613.24744.8733335104833683877@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/mhi-next
-    old: a52354173bea2224009d52ed4439932260d389fb
-    new: 2ec11b5d6d900b17c7d001fbee4751fd2aa58917
+  - ref: refs/heads/main
+    old: 1a825e4cdf457b7aef7ebbc2f1206654f5beb150
+    new: 10bfd453da64a057bcfd1a49fb6b271c48653cdb
     log: |
-         2ec11b5d6d900b17c7d001fbee4751fd2aa58917 bus: mhi: host: pci_generic: constify modem_telit_fn980_hw_v1_config
+         10bfd453da64a057bcfd1a49fb6b271c48653cdb ipv6: fix potential "struct net" leak in inet6_rtm_getaddr()
          
