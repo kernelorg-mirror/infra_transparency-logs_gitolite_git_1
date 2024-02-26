@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2736020370854888819=="
+Content-Type: multipart/mixed; boundary="===============6182141239666878647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 26 Feb 2024 05:56:13 -0000
-Message-Id: <170892697310.3684.9112990822010765994@gitolite.kernel.org>
+Date: Mon, 26 Feb 2024 05:56:17 -0000
+Message-Id: <170892697776.3808.17931743796380346249@gitolite.kernel.org>
 
---===============2736020370854888819==
+--===============6182141239666878647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 69f89168b310878be82d7d97bc0d22068ad858c0
-    new: d206a76d7d2726f3b096037f2079ce0bd3ba329b
-    log: revlist-69f89168b310-d206a76d7d27.txt
+  - ref: refs/heads/usb-next
+    old: e89fbb5bc21a10a0de2bb878d4df09f538dc523b
+    new: a560a5672826fc1e057068bda93b3d4c98d037a2
+    log: revlist-e89fbb5bc21a-a560a5672826.txt
 
---===============2736020370854888819==
+--===============6182141239666878647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708926972 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708926976 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1708926971-db9715261f953d530f57c51bd325a8f032b56369
+nonce 1708926975-c3b319bff95c9bf7ecb0769fdc624cfca1c0b0ea
 
-69f89168b310878be82d7d97bc0d22068ad858c0 d206a76d7d2726f3b096037f2079ce0bd3ba329b refs/heads/usb-linus
+e89fbb5bc21a10a0de2bb878d4df09f538dc523b a560a5672826fc1e057068bda93b3d4c98d037a2 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXcJ/wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+flcP/0qy7NYJRjYr42h8bwfy
-ACRLMYhfmVMMLc8KOsD8Th27ouJz5/GKySihH63gYCECP1w42m4cra+lkhJtWRDR
-KIRrkve87hUyWcazxthIiGOUCEdMpKnFr999bKA+yDuIERrDvzD/rLZWVBNyqvB5
-yiQL+7Mcr8wUvppAYNJMitj5lANEy5JxyyRtWxkf6EhrMTSSLb5FqEosg/1NdTKJ
-DYURyaolq0R3Rv8ml0lxZQp0xXOI8+QSBsXtNeXLBf5zS9FIX9ST8hzAwvxTK2VA
-/3FKDL0zpUwOuiv2JbDHJm96jUWVU5riyUXGAGJ+5JlagrUBi7awRBVLp3v0/ewA
-NWX9EB1LEBYLiUnTIDRBnhpdJDt1p1UKn6vHmqixHCwW+HEuxH0cByrAx6uljfus
-ZluytLkU8fdLiL1i5TKvk5dFddCs6tnhK+PMwCQoTJRa2w+IDg6TviDJMsKaw2cd
-Zt2PnnX/6JbH/1FgABN/FhpHiTy2RzTc6la4OvLIP8/SwA7yy9v3Va3OajP7gRfx
-IioR1jQ+lgdbrIlEG98odQ5NxUdctPI1f5HPsxhTfHfVV+YUu+lpdyXaqB79ZNn0
-ff39nVifJF8Uoe+4/7VAbMa5WrLTHjtjGpQh28tMOR9B+syq7UJ7HR6r+LYxvdX8
-ULHh9817nuLSERpncb0EFnA5
-=WBwo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXcKAAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VYEP/RaTel4FCd/VUzJ2wDa7
+uMa7y9Y21omayQfqRZ9Hx7xpEL3SCC7CCC1X08MDkfylZswzM06zNBrP3PYDIRz1
+XnhQz+oX3+dto80/5XbRuWWMeHbcMYnMijJz8sGVcXUyPCdlfI+kOrqDrDEwnM8+
+4oHHC7VYVG/nwwTO9c59qbZFzMCxcMr6FXGD9BWm0uIV+BOP1ljPsKX1UoLiseta
+Tr1u/XS6L3ZdgsBgmgo2jLOgfn6rPYCJBYF+PYh2398Zn93LAz4oLuBmPow46zrE
+WJY+tKJ4rFJ3kjFfBV3VWKneMDMreFb4M9xRqiJXwc0NW8AwT0w/43JlG0jPx2U/
+hObDYzeXFQOrJ7plDSE0E0gRGZhO9Bo+WjGnAPOWcy5kgFcUq+jIFbPCf2VXXKWR
+E9sSYaJKzgJcI99dS+9nN4+4RUtcMfS8wM+4NF4zX7+cRtVuP5aRiDGcpoqbzNN4
+PgAiz6pCNKP4m+GGV0TXy/IyEKtNuAFu4N0o7rOAL0CRGoArtX3agc6bXfID6NZK
+e0rnx3hMbseEKwePpYUAypvW823RUtwCHV1mlBx+My/iLcLQjr64wai2yjvfozTx
+kD80YD05vRWvyHQhBa19btjdOXHWad9ulZQ/t+Z0rcWrVSJ5WSsPkXleK0tbnPsV
+z4a/6ZW16m1aZ2bxMqskLsN4
+=OF7G
 -----END PGP SIGNATURE-----
 
---===============2736020370854888819==
+--===============6182141239666878647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-69f89168b310-d206a76d7d27.txt
+Content-Disposition: attachment; filename=revlist-e89fbb5bc21a-a560a5672826.txt
 
 1755c4b0372a2cf1e7124956b8cfebcb51083208 dt-bindings: clock: gs101: rename cmu_misc clock-names
 d76c762e7ee04af79e1c127422e0bbcb5f123018 clk: samsung: clk-gs101: comply with the new dt cmu_misc clock names
@@ -182,6 +182,18 @@ d2a2547565a9f1ad7989f7e21f97cbf065a9390d selftests: mptcp: pm nl: also list skip
 f120e62e37f0af4c4cbe08e5a88ea60a6a17c858 net: bcmasp: Sanity check is off by one
 ee710bbcad48fa930bd563340e7845f5051db40e Merge branch 'bcmasp-fixes'
 a5c57fd2e9bd1c8ea8613a8f94fd0be5eccbf321 powerpc/pseries/iommu: DLPAR add doesn't completely initialize pci_controller
+d70c7a6614ac2e1340a9fed044aec04d695c6645 usb: uhci-grlib: Explicitly include linux/platform_device.h
+18a6be674306c9acb05c08e5c3fd376ef50a917c usb: cdnsp: blocked some cdns3 specific code
+47625b018c6bc788bc10dd654c82696eb0a5ef11 usb: cdnsp: fixed issue with incorrect detecting CDNSP family controllers
+1c9be13846c0b2abc2480602f8ef421360e1ad9e usb: roles: fix NULL pointer issue when put module's reference
+b787a3e781759026a6212736ef8e52cf83d1821a usb: roles: don't get/set_role() when usb_role_switch is unregistered
+cd45f99034b0c8c9cb346dd0d6407a95ca3d36f6 usb: cdns3: fixed memory use after free at cdns3_gadget_ep_disable()
+5fd9e45f1ebcd57181358af28506e8a661a260b3 usb: cdns3: fix memory double free when handle zero packet
+b191a18cb5c47109ca696370a74a5062a70adfd0 usb: dwc3: gadget: Don't disconnect if not started
+858a74cb512833e276d96a72acb560ce8c138bec usb: gadget: omap_udc: fix USB gadget regression on Palm TE
+23b1d2d99b0f55326f05e7d757fa197c4a95dc5c Revert "usb: typec: tcpm: reset counter when enter into unattached state after try role"
+76c51146820c5dac629f21deafab0a7039bc3ccd usb: gadget: ncm: Avoid dropping datagrams of properly parsed NTBs
+84b6238aff3db8f4fa72bc5e451ba34ce288d30a MAINTAINERS: Drop myself as maintainer of TYPEC port controller drivers
 bd915ae73a2d78559b376ad2caf5e4ef51de2455 drm/meson: Don't remove bridges which are created by other drivers
 8b79d4e994074a058b6876dce843ee112656258d tty: hvc: Don't enable the RISC-V SBI console by default
 f418ae73311deb901c0110b08d1bbafc20c1820e serial: stm32: do not always set SER_RS485_RX_DURING_TX if RS485 is enabled
@@ -218,6 +230,7 @@ a0e2dab44d22b913b4c228c8b52b2a104434b0b3 x86/entry_32: Add VERW just before user
 706a189dcf74d3b3f955e9384785e726ed6c7c80 KVM/VMX: Use BT+JNC, i.e. EFLAGS.CF to select VMRESUME vs. VMLAUNCH
 43fb862de8f628c5db5e96831c915b9aebf62d33 KVM/VMX: Move VERW closer to VMentry for MDS mitigation
 2c88c16dc20e88dd54d2f6f4d01ae1dce6cc9654 erofs: fix handling kern_mount() failure
+69f89168b310878be82d7d97bc0d22068ad858c0 usb: typec: tpcm: Fix issues with power being removed during reset
 e21a2f17566cbd64926fb8f16323972f7a064444 cachefiles: fix memory leak in cachefiles_add_cache()
 bfacaf71a1482d936804213a3ffa6de73558280e afs: Fix ignored callbacks over ipv4
 6ea38e2aeb72349cad50e38899b0ba6fbcb2af3d afs: Increase buffer size in afs_update_volume_status()
@@ -434,5 +447,6 @@ c46ac50ebec33907e5768012aa39ba1ab2f0ca14 Merge tag 'usb-6.8-rc6' of git://git.ke
 5197728f8182a93a07e5bf860726456322d3a908 bcachefs: fix bch2_save_backtrace()
 e231dbd452a79b9100846c0552fd9077251c042e Merge tag 'bcachefs-2024-02-25' of https://evilpiepirate.org/git/bcachefs
 d206a76d7d2726f3b096037f2079ce0bd3ba329b Linux 6.8-rc6
+a560a5672826fc1e057068bda93b3d4c98d037a2 Merge v6.8-rc6 into usb-next
 
---===============2736020370854888819==--
+--===============6182141239666878647==--
