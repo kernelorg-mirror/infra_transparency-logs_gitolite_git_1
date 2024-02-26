@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 26 Feb 2024 22:29:35 -0000
-Message-Id: <170898657540.22766.10857933495407364475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 26 Feb 2024 22:44:40 -0000
+Message-Id: <170898748014.1828.11843631737074148402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: f65cd924f2e60e7bd41dc27443c020e131880e8c
-    new: c01c40498cfb770d4282f31edd9d75bb53646efa
+  - ref: refs/heads/x86/misc
+    old: 7dd0a21ccb5a937ca9f798afad34de4ba030f8d4
+    new: d54e56f31a34fa38fcb5e91df609f9633419a79a
     log: |
-         c01c40498cfb770d4282f31edd9d75bb53646efa advertising: Fix assigning mgmt callback id when adding advertisement
+         d54e56f31a34fa38fcb5e91df609f9633419a79a x86/nmi: Fix the inverse "in NMI handler" check
          
