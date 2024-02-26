@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9220928866073471790=="
+Content-Type: multipart/mixed; boundary="===============1747307723014039981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Mon, 26 Feb 2024 02:42:10 -0000
-Message-Id: <170891533076.20982.835029624358813409@gitolite.kernel.org>
+Date: Mon, 26 Feb 2024 02:42:36 -0000
+Message-Id: <170891535606.21224.1831838885066817384@gitolite.kernel.org>
 
---===============9220928866073471790==
+--===============1747307723014039981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-next
+  - ref: refs/heads/for-linux-next
     old: 9ac4beb7578a88baa4f7e6a59eeb5be79d7b011a
     new: 40d47c5fb4f2a7c1ef168598f01bdcbd31ba4038
     log: revlist-9ac4beb7578a-40d47c5fb4f2.txt
 
---===============9220928866073471790==
+--===============1747307723014039981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -112,4 +112,4 @@ f6aed043ee5d75b3d1bfc452b1a9584b63c8f76b drm/amd/display: Add 'replay' NULL chec
 31e0a586f3385134bcad00d8194eb0728cb1a17d drm/amdgpu: add MMHUB 3.3.1 support
 40d47c5fb4f2a7c1ef168598f01bdcbd31ba4038 Merge tag 'amd-drm-next-6.9-2024-02-19' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
 
---===============9220928866073471790==--
+--===============1747307723014039981==--
