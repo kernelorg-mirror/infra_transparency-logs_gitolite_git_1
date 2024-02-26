@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8195766908217980902=="
+Content-Type: multipart/mixed; boundary="===============3131093206916613705=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 26 Feb 2024 19:27:18 -0000
-Message-Id: <170897563819.16967.13435936066706950745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 26 Feb 2024 19:27:24 -0000
+Message-Id: <170897564471.17075.5261392601089761543@gitolite.kernel.org>
 
---===============8195766908217980902==
+--===============3131093206916613705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.8
+  - ref: refs/heads/asoc-6.8
     old: eba2eb2495f47690400331c722868902784e59de
     new: 50ee641643dd0f46702e9a99354398196e1734c2
     log: |
          50ee641643dd0f46702e9a99354398196e1734c2 ASoC: amd: yc: Add Lenovo ThinkBook 21J0 into DMI quirk table
          
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/asoc-6.9
     old: d34f0c8ee2e30b8a1470ce635289591148552a93
     new: b86143776573c2276a6e5b5ec99e92b12297a9d5
     log: revlist-d34f0c8ee2e3-b86143776573.txt
 
---===============8195766908217980902==
+--===============3131093206916613705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1708975636 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1708975635-0c93f304b14b4d2344aba3a6117e7f1cb85f514d
+pusher C3F436CA30F5D8EB 1708975642 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1708975642-ef841061dd6afc1e892cf350ec40d158a271a225
 
-eba2eb2495f47690400331c722868902784e59de 50ee641643dd0f46702e9a99354398196e1734c2 refs/heads/for-6.8
-d34f0c8ee2e30b8a1470ce635289591148552a93 b86143776573c2276a6e5b5ec99e92b12297a9d5 refs/heads/for-6.9
+eba2eb2495f47690400331c722868902784e59de 50ee641643dd0f46702e9a99354398196e1734c2 refs/heads/asoc-6.8
+d34f0c8ee2e30b8a1470ce635289591148552a93 b86143776573c2276a6e5b5ec99e92b12297a9d5 refs/heads/asoc-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXc5hQACgkQJNaLcl1U
-h9Atvgf/WvK3uWEkRiDR69SWscKKwYhKPv9FGMww1YHGKKh01qzz5qPRL7KBIVT3
-UeqwalsJCqoSzQwcgHp2ZvqETHCE+TGhTw5V4Up3pg8sQQV5b+P6YmqeWcfjO6LI
-R0RP0i+MKcTROm9Z6uBiksivbAvHzFErH4hBTWFvQoAht7OTsBRm+e6vytVSMM5c
-imrPaXnzjbRJIPZNb9XADSolsxzDQnvV8xlYBJqpI6UEqhcYrVRcZKmkzMpOAgpK
-cufaXT16o3usAF4SToKz6OkermGv0zvCMaMt4DICjfe+WY+WRB5zxX05jC3FxciB
-IFBwqQlJa2/XRdfOJ25mOrpaAyNsRQ==
-=Zs0T
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXc5hoACgkQJNaLcl1U
+h9Bdfgf9F4qDxWOcvG14iaJ2TjfWSY//Nnbc03yRvn8JcuUanK34r9Jy+riujRN1
+qyY+q0WvVeutoB7uEE6HxAyd6avEM3eEhVwoSVHCNkSBQjU7qHJ2I9Y4tQUjf1xg
+5TbpPkJYDrpJPM2NcgfRWZgIFWtBH1tQOGijNdxb0PxlcnN42PoHx/zK4cemiNML
+Pz4fzYHxI6GSzp+O1RmGipJYytMizZNbXQp0AjqVSiZ7ty5/QgUSNO9bVN1EIyzG
+aKDWJjRd3h0t6pJHNg68pSkFFtsR7208TtOK4pw+B8AI4GCMIWoRBn/fT/u2rWDg
+sWQzgaCAr8Vb6mX45nNdzC17GuP7sA==
+=r6WG
 -----END PGP SIGNATURE-----
 
---===============8195766908217980902==
+--===============3131093206916613705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ a2417b6c0f9c3cc914c88face9abd6e9b9d76c00 ASoC: meson: axg-spdifin: use max width
 306904db10e1d839b568809d5c505618062e2d63 ASoC: codecs: Simplify mclk initialization
 b86143776573c2276a6e5b5ec99e92b12297a9d5 ASoC: meson: axg fixes and clean-up
 
---===============8195766908217980902==--
+--===============3131093206916613705==--
