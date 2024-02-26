@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 26 Feb 2024 13:38:08 -0000
-Message-Id: <170895468891.5092.2768510752006922749@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7821995058863762238=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 26 Feb 2024 13:39:27 -0000
+Message-Id: <170895476756.5621.15083430878569364915@gitolite.kernel.org>
+
+--===============7821995058863762238==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 7bb5f3a7ca8856c5c1fa26a6e3f58a1254019dc0
-    new: 2ba3a060001d86ca02435ccee9845bfbbb06f5d6
+  - ref: refs/heads/master
+    old: e50ebca83b1d2de84708dc79f0f4d3a0e98cee18
+    new: 62f737e346c7f8c032d84e69d9a967e54f256b3a
     log: |
-         f837fe1bffe6976ed5e7198b1892ea248b75358b gpio: Add ChromeOS EC GPIO driver
-         16553250da2ed4ef41083346548c11d1db51b52d gpio: mmio: Support 64-bit BE access
-         029fc2fd34cf473b20ca0ac75f6db5c6219af7fb gpio: sim: add lockdep asserts
-         f22eb2ad6a78463b0656b9f6e489b1609d617b97 gpio: sim: delimit the fwnode name with a ":" when generating labels
-         d6b09b6f2baca5cdc81163217877e20896c7fbf5 gpio: don't warn about removing GPIO chips with active users anymore
-         34dd35ac944ded6a8211fab412db2b1ea3ab06c8 gpio: provide for_each_hwgpio()
-         2ba3a060001d86ca02435ccee9845bfbbb06f5d6 gpio: sim: use for_each_hwgpio()
+         62f737e346c7f8c032d84e69d9a967e54f256b3a drop btrfs-fix-deadlock-with-fiemap-and-extent-locking.patch from all queues
          
+
+--===============7821995058863762238==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1708954763 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1708954762-f57cca4c46ef38a1998fe7bef5aa1d3fbdb4b846
+
+e50ebca83b1d2de84708dc79f0f4d3a0e98cee18 62f737e346c7f8c032d84e69d9a967e54f256b3a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXclIsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uYUP/iaJMJ4m21Eo+iwuvgeo
+04Z5PNFZhOAAuHiAdvjzEjL0PjZ3Q/1adFuNopgS6QjPSrB++3rwYuGrC6IuAu0i
+3C84+ZIbPmweuKQpAfSmcr7mcClM4fuQ1zFILRyn1qvfheXyLhJLIaU2hwEVtKME
+gCNSo5XC/glNa/67VXT0AIhmfy+LXJcbmQb6PshnUTUI8EZXnSF65d4p9RS+P/6l
+MTPZibJADwGezBTbcctjxguKmkVdPzj9nqx/YuvXq3N1AbnGfUI0c1JoOvDYiJmx
+icBsYxP85H7SbnOqvMhcef3ANhlU3ZL/F/Yqzg6YF49UkORNtGHqG3GOZS4ljxkA
+4xImsBc5y0ZNbUPzaid6BMuT3quJfbDoYOBppDghGdnlmVKyGZ+czXWL+buzydxi
+OdZ2aDiByB1CxItag6tgSKr7bYPq5lLUoWgFWwd5qYdoPbQvLjzLHKbrgiAQOF6a
+/SGVCFzan5Ved2nM4Pcs0p6YEYRYETePOaE51I1y2gj/tCwsdmilKJEU205WGiRp
+zIt3IAVeBjGjnRhhiWpkEGXX+1MRZ9HwVuNGi46X1dHyVX3FyBGvQj8Rs4AZF3hJ
+NmERZK5/mnKrNeVNs0QDYVHHuvBRmBhduUiSwxo0JdF1Uv4GHVd4maLAWtjt7ngp
+9OCTvJDcY93mVSFJhXd2Lx+E
+=2EUC
+-----END PGP SIGNATURE-----
+
+--===============7821995058863762238==--
