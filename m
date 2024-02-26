@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vegard/linux
-Date: Mon, 26 Feb 2024 15:04:06 -0000
-Message-Id: <170895984691.2030.17660223585569926944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 26 Feb 2024 15:05:17 -0000
+Message-Id: <170895991727.4103.8556632957977184059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vegard/linux
-user: vegard
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/notes/commits
-    old: 1d8e41db71b2a2ff8c67719b2d87c6040e2a2bea
-    new: 0ba13d5889532b225a5577d1dec8f52916e315b7
+  - ref: refs/heads/master
+    old: 75518da8cf76df4510d452f3214130d17efce283
+    new: cd41fa3056ab1ecd7e3a8e613e0fa3cdb9954abd
     log: |
-         0ba13d5889532b225a5577d1dec8f52916e315b7 Update notes
+         cd41fa3056ab1ecd7e3a8e613e0fa3cdb9954abd Bluetooth: btintel: Fixe build regression
          
