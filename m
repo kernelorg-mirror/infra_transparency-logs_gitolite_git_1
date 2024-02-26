@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 26 Feb 2024 00:11:04 -0000
-Message-Id: <170890626429.3763.8672692194277912547@gitolite.kernel.org>
+Date: Mon, 26 Feb 2024 00:11:21 -0000
+Message-Id: <170890628149.3956.4351960189087562644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/hwmon
     old: 70ff1fe626a166dcaadb5a81bfe75e22c91f5dbf
     new: d206a76d7d2726f3b096037f2079ce0bd3ba329b
     log: |
@@ -25,6 +25,3 @@ changes:
          e231dbd452a79b9100846c0552fd9077251c042e Merge tag 'bcachefs-2024-02-25' of https://evilpiepirate.org/git/bcachefs
          d206a76d7d2726f3b096037f2079ce0bd3ba329b Linux 6.8-rc6
          
-  - ref: refs/tags/v6.8-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8bf1e5a08989cf5c8d9c117ebc47554951a08d6d
