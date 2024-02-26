@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 26 Feb 2024 10:56:22 -0000
-Message-Id: <170894498280.12523.901588616916050234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Mon, 26 Feb 2024 11:03:23 -0000
+Message-Id: <170894540352.16700.16268488044978911193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/affs
-    old: 4890f6001352db208f4856be0fbe39c3def17cf9
-    new: f7c79a40b575f2b6c156c8bee9a652401bf715b6
+  - ref: refs/heads/testing
+    old: 983a73da1f996faee9997149eb05b12fa7bd8cbf
+    new: 1a807e46aa93ebad1dfbed4f82dc3bf779423a6e
     log: |
-         f7c79a40b575f2b6c156c8bee9a652401bf715b6 affs: remove SLAB_MEM_SPREAD flag usage
+         1a807e46aa93ebad1dfbed4f82dc3bf779423a6e xfrm: Avoid clang fortify warning in copy_to_user_tmpl()
          
