@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
-Date: Tue, 27 Feb 2024 19:20:10 -0000
-Message-Id: <170906161084.1102.5648440949179846658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 27 Feb 2024 19:23:29 -0000
+Message-Id: <170906180987.2458.13948897007650736696@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/oupton/linux
-user: oupton
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/kvm-arm64/vm-configuration
-    old: 99101dda29e3186b1356b0dc4dbb835c02c71ac9
-    new: 5c1ebe9ada19f95e5582f80b37e0b5003dc79ddb
+  - ref: refs/heads/testing
+    old: 9cbaf4c4aa826997048fab0d5d6a5b2045977335
+    new: 6662639c5030c788c20458263831a7a2164e1945
     log: |
-         29ef55cec33de325562c6c056b167f58d61ddab0 KVM: arm64: Fail the idreg iterator if idregs aren't initialized
-         5c1ebe9ada19f95e5582f80b37e0b5003dc79ddb KVM: arm64: Don't initialize idreg debugfs w/ preemption disabled
+         6662639c5030c788c20458263831a7a2164e1945 dt-bindings: iio: gyroscope: bosch,bmg160: add spi-max-frequency binding
          
