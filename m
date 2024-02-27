@@ -1,43 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============9187056495145146229=="
+Content-Type: multipart/mixed; boundary="===============4601891988988808728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 27 Feb 2024 03:06:54 -0000
-Message-Id: <170900321419.5860.8346359905132512862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 27 Feb 2024 03:12:11 -0000
+Message-Id: <170900353199.10723.1368101452242173073@gitolite.kernel.org>
 
---===============9187056495145146229==
+--===============4601891988988808728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 10bfd453da64a057bcfd1a49fb6b271c48653cdb
-    new: 3980cf16551717f81d90402bc2aa3a8dbc8d4bfd
-    log: revlist-10bfd453da64-3980cf165517.txt
+    old: 25d4342574644bca5cbe1ace865955e406b9a741
+    new: 55a7246025cd3d5197d1733585e450eb5cdda456
+    log: revlist-25d434257464-55a7246025cd.txt
 
---===============9187056495145146229==
+--===============4601891988988808728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10bfd453da64-3980cf165517.txt
+Content-Disposition: attachment; filename=revlist-25d434257464-55a7246025cd.txt
 
-0e67899abfbfdea0c3c0ed3fd263ffc601c5c157 lan78xx: enable auto speed configuration for LAN7850 if no EEPROM is detected
-0d60d8df6f493bb46bf5db40d39dd60a1bafdd4e dpll: rely on rcu for netdev_dpll_pin()
-535d620ea5ff1a033dc64ee3d912acadc7470619 mptcp: map v4 address to v6 when destroying subflow
-7092dbee23282b6fcf1313fc64e2b92649ee16e8 selftests: mptcp: rm subflow with v4/v4mapped addr
-5b49c41ac8f27aa3a63a1712b1f54f91015c18f2 mptcp: avoid printing warning once on client side
-b9cd26f640a308ea314ad23532de9a8592cd09d2 mptcp: push at DSS boundaries
-adf1bb78dab55e36d4d557aa2fb446ebcfe9e5ce mptcp: fix snd_wnd initialization for passive socket
-b111d8fbd2cbc63e05f3adfbbe0d4df655dfcc5b mptcp: fix potential wake-up event loss
-9480f388a2ef54fba911d9325372abd69a328601 selftests: mptcp: join: add ss mptcp support check
-10048689def7e40a4405acda16fdc6477d4ecc5c mptcp: fix double-free on socket dismantle
-d6a9608af9a75d13243d217f6ce1e30e57d56ffe mptcp: fix possible deadlock in subflow diag
-b4b51d36bbaa3ddb93b3e1ca3a1ef0aa629d6521 selftests: mptcp: explicitly trigger the listener diag code-path
-3980cf16551717f81d90402bc2aa3a8dbc8d4bfd Merge branch 'mptcp-more-misc-fixes-for-v6-8'
+bcd53aff4d0cce9c4bedf345e6f896e35f2fd4c5 net/vsockmon: Leverage core stats allocator
+3a25e212306c2f9ecea5bee17ab90f5efad6e2a2 net/vsockmon: Do not set zeroed statistics
+5c237967e632c81db0504cffa26eaa19e7940650 dt-bindings: net: cdns,macb: add sam9x7 ethernet interface
+c3718936ec47ae811a7ce9a618b6cb1cda835bab ipv6: anycast: complete RCU handling of struct ifacaddr6
+9da74836740d9c753fb6cd270f7c75c5258836de selftests: mptcp: lib: catch duplicated subtest entries
+28de50eeb734bbdbc1c4397134fa3501d3490a62 mptcp: token kunit: set protocol
+dcc03f270d1e2f4b9715537d8deb734bd019e187 mptcp: check the protocol in tcp_sk() with DEBUG_NET
+14d29ec5302caac945267b9586fad01ecddc700c mptcp: check the protocol in mptcp_sk() with DEBUG_NET
+488ccbe76cb4fb3dff87722c35dd5e2ea6c5f8d6 selftests: mptcp: netlink: drop duplicate var ret
+fccf7c922459c588eb71bdda5c53727e539442e8 selftests: mptcp: simult flows: define missing vars
+8c6f6b4bb53a904f922dfb90d566391d3feee32c selftests: mptcp: join: change capture/checksum as bool
+e8ddc5f255c3e5371aed621fdda6dce227c69a68 selftests: mptcp: diag: change timeout_poll to 30
+55a7246025cd3d5197d1733585e450eb5cdda456 Merge branch 'mptcp-various-small-improvements'
 
---===============9187056495145146229==--
+--===============4601891988988808728==--
