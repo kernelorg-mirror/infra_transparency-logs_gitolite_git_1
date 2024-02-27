@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 27 Feb 2024 20:08:14 -0000
-Message-Id: <170906449453.4206.18182469440950956765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Tue, 27 Feb 2024 20:10:49 -0000
+Message-Id: <170906464960.6795.3531723178186502296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: 5bf225a9e212e5f8ae992cf6aba631533999ec1e
-    new: c764aace087489203e0b67409456301454e520b3
+  - ref: refs/heads/for-next
+    old: 24bdb5bb1b61a16beba2d4517f09d776e4ab8a9f
+    new: 5e1c73421d783ee6f6c55e24cfd8812436d81c36
     log: |
-         c764aace087489203e0b67409456301454e520b3 foo
+         5e1c73421d783ee6f6c55e24cfd8812436d81c36 parisc: More csum_ipv6_magic fixes
          
