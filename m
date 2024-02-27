@@ -1,61 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8089262125552061363=="
+Content-Type: multipart/mixed; boundary="===============4867456820749568540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 27 Feb 2024 18:50:04 -0000
-Message-Id: <170905980417.11164.15816805705846337367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 27 Feb 2024 18:59:09 -0000
+Message-Id: <170906034993.15967.12278345482344028177@gitolite.kernel.org>
 
---===============8089262125552061363==
+--===============4867456820749568540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.9/io_uring
-    old: c1a4d1023caa075cbad200cc577821ba2d736e45
-    new: 792060de8b3e9ca11fab4afc0c3c5927186152a2
+  - ref: refs/heads/master
+    old: 74bb0816baeb30a30baebf1e7b043b88cbc074b9
+    new: bdd9a6c527b3d3d02896e9f74313c043d3e99417
     log: |
-         52307ac4f2b507f60bae6df5be938d35e199c688 io_uring/net: unify how recvmsg and sendmsg copy in the msghdr
-         c55978024d123d43808ab393a0a4ce3ce8568150 io_uring/net: move receive multishot out of the generic msghdr path
-         792060de8b3e9ca11fab4afc0c3c5927186152a2 io_uring/net: improve the usercopy for sendmsg/recvmsg
+         bdd9a6c527b3d3d02896e9f74313c043d3e99417 justfile: print prettier stats
          
-  - ref: refs/heads/for-next
-    old: cea2fe258631a84da81b425a14db323237fcf7db
-    new: 3b79abc31aee390e9ac79b2fccd61413937ceed0
-    log: |
-         52307ac4f2b507f60bae6df5be938d35e199c688 io_uring/net: unify how recvmsg and sendmsg copy in the msghdr
-         c55978024d123d43808ab393a0a4ce3ce8568150 io_uring/net: move receive multishot out of the generic msghdr path
-         792060de8b3e9ca11fab4afc0c3c5927186152a2 io_uring/net: improve the usercopy for sendmsg/recvmsg
-         891d02b413a3038d3980269980b200a872635511 Merge branch 'for-6.9/io_uring' into for-next
-         3b79abc31aee390e9ac79b2fccd61413937ceed0 Merge branch 'for-6.9/block' into for-next
-         
-  - ref: refs/heads/io_uring-send-queue
-    old: ccb1ca75270fbdbfc069bedb4e59eac41724ba09
-    new: 03a0dce98fd4a943efa3a9ddfe32b9b036aabd54
-    log: revlist-ccb1ca75270f-03a0dce98fd4.txt
 
---===============8089262125552061363==
+--===============4867456820749568540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ccb1ca75270f-03a0dce98fd4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-52307ac4f2b507f60bae6df5be938d35e199c688 io_uring/net: unify how recvmsg and sendmsg copy in the msghdr
-c55978024d123d43808ab393a0a4ce3ce8568150 io_uring/net: move receive multishot out of the generic msghdr path
-792060de8b3e9ca11fab4afc0c3c5927186152a2 io_uring/net: improve the usercopy for sendmsg/recvmsg
-fde83151a2912ebb6deaaa51511a46fdfd188245 Merge branch 'for-6.9/io_uring' into io_uring-send-queue
-9af907f40d0ccce34041c695819c79cb455dd4ff net: remove {revc,send}msg_copy_msghdr() from exports
-8545ac28fc974e5b9bf82bb17af0ae4141bc3399 io_uring/net: add provided buffer support for IORING_OP_SEND
-9cf2d665e8751853aa0e68356c513f1e711ffd62 io_uring/net: add provided buffer support for IORING_OP_SENDMSG
-d4f9063971b02f13c15bd8c31d819c51c35829c6 io_uring/kbuf: flag request if buffer pool is empty after buffer pick
-5bb4effb10fd3fcccba0662faff060cf1e6c0e71 io_uring/net: avoid redundant -ENOBUFS on recv multishot retry
-03f228824b1c87b81e3f779cea508cfeec747cd3 io_uring/net: move recv/recvmsg flags out of retry loop
-56387e6817d2b2a14cf66de50038dd9c4cb5cfd0 io_uring/net: add generic multishot retry helper
-3efa5609f984589c0d6ea1b3687c5bed45aeb8e9 io_uring/net: support multishot for send
-03a0dce98fd4a943efa3a9ddfe32b9b036aabd54 io_uring/net: support multishot for sendmsg
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709060347 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1709060347-5e9d886502d91ef2627e6b81f40090d9d0ddf9e2
 
---===============8089262125552061363==--
+74bb0816baeb30a30baebf1e7b043b88cbc074b9 bdd9a6c527b3d3d02896e9f74313c043d3e99417 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXeMPsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sOIQAMMkrD88XxM4p366xx9P
+I9UYZG6UWsh734kqIMlvIerLoZrxUol311LF2xS0qYNmToOu1r4Q28B0lkOLQIdJ
+wc8sYyn/vE3MzvOuZ2KcEdbeIQVeIvuJto6wzs3dzqMUaeAWWd5ns0oG2LhsgJrZ
++T9gUiQiQIpCCOu+q8P5LYGo1q7bxw2Y+s5LcTDaCDIoKH1iXP7HIXpRz/HgBMfn
+bqK6cMNnGU3Svj98qFeGkUq0P0b5fQl47amjq1pth2V0XaEzCZoB1tLhADpIa73u
+FOPxAbHhfmsJLUSqL/Mb6GPac3/0f7mhNl//FgYoB0oRmJqjaJicLB005c65o12L
+JmYqQb+FKfqIIqlqd6Gf9bq5YWqn17qlbeJvR9PpSRFmGREgnwhTdE7IQvEnmIKV
+cnWf7qQyvRWsV3KpxFWx0JwHweTfHBg8UVU1baTMRzKeuoS7uyJn9kAOm8dsA9oE
+iLb/sMw1Pkb+fUdjxXWmyvf6bXL9aDbIw9r5beQa3zH+uy0z9enTF67CP9OGolM2
+IpRp7YcmTV0zPoar+YOOk4RpJ96Kiq0fvN+T1niRRKaOs9Y1WA332rL0E0N1JJSI
+2HMOaVVgnFB1s8DgqMpLMP5AXehAtfwv6K42YBSmvxKSec8lfAyPJI2XBpPfikC5
+8uGKK6nJ3stt0XIN9RgyXRPB
+=2wFk
+-----END PGP SIGNATURE-----
+
+--===============4867456820749568540==--
