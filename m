@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 27 Feb 2024 18:25:42 -0000
-Message-Id: <170905834240.25040.10011006300138570814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Tue, 27 Feb 2024 18:26:35 -0000
+Message-Id: <170905839526.25455.14007085724980112001@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/tick/keep-tick-on-hrt
-    old: ccaf5caf491994c99e1ea961befc231465dcda08
-    new: ea66469f96e554d83c2e8653992ebc3e22fcc7a7
+  - ref: refs/heads/trace/urgent
+    old: e78fb4eac817308027da88d02e5d0213462a7562
+    new: bbf8786dbe9002c1508139e4fee5ef27624afd35
     log: |
-         ea66469f96e554d83c2e8653992ebc3e22fcc7a7 fixup! tick-sched: Set last_tick correctly so that timer interrupts happen less
+         bbf8786dbe9002c1508139e4fee5ef27624afd35 tracing: Prevent trace_marker being bigger than unsigned short
          
