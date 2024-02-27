@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 27 Feb 2024 13:34:13 -0000
-Message-Id: <170904085326.28191.15891984356732188466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Tue, 27 Feb 2024 13:35:54 -0000
+Message-Id: <170904095457.30405.16191212673073380345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
   - ref: refs/heads/master
-    old: cc64c4af66d5c8a2a7c73595e8fb79b6573d25c0
-    new: 805911b7d5449379135d156661e4fdc2c79b4641
+    old: 461f61ebaf8f31080f8e57656ce59b54ce5c97bd
+    new: ba8f6eb0b6b67c6e387f2cfbdeebe84466d11ed5
     log: |
-         c91694dd066d07c2ca7d68cbe212b2e1f893e942 Adding Neoverse-V3/-N3 ARM cores
-         b837ab02711d1a9352232ed2ba6ffbd47c201446 meson: avoid future-deprecated feature
-         805911b7d5449379135d156661e4fdc2c79b4641 Merge branch 'patch-1' of https://github.com/ThomasKaiser/util-linux
-         
-  - ref: refs/heads/stable/v2.40
-    old: 7645148907592c0fb98373f07e1c887ebc9b376f
-    new: 7be163aa1657c4bd854bde84a83a8c5fcffd25dd
-    log: |
-         7be163aa1657c4bd854bde84a83a8c5fcffd25dd Adding Neoverse-V3/-N3 ARM cores
+         b2e0f084eca03613ce55dcbcac11bb58821f7b2d syscse: cus__load_files() requires a non NULL conf_load
+         f86ed770b5396cd510660fb455415ac92083c7f6 dtagnames: cus__load_files() requires a non NULL conf_load
+         90201c2bde4b0ca83cb07b7cc500885444ecef05 prefcnt: cus__load_files() requires a non NULL conf_load
+         ba8f6eb0b6b67c6e387f2cfbdeebe84466d11ed5 NEWS: Add missing list of changes for v1.25
          
