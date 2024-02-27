@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 27 Feb 2024 19:16:59 -0000
-Message-Id: <170906141993.30673.3187331147607191273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
+Date: Tue, 27 Feb 2024 19:17:59 -0000
+Message-Id: <170906147995.31131.7213822844195060197@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/oupton/linux
+user: oupton
 changes:
-  - ref: refs/heads/testing
-    old: 205bbf0d2dd2e0fcd6bf2a15b7df6fc570967e3b
-    new: 9cbaf4c4aa826997048fab0d5d6a5b2045977335
+  - ref: refs/heads/kvm-arm64/vm-configuration
+    old: 891766581deaf84919911c6a046592ce0ac49bc6
+    new: 99101dda29e3186b1356b0dc4dbb835c02c71ac9
     log: |
-         9cbaf4c4aa826997048fab0d5d6a5b2045977335 iio: adc: rzg2l_adc: Use device_for_each_child_node_scoped()
+         99101dda29e3186b1356b0dc4dbb835c02c71ac9 KVM: arm64: Make build-time check of RES0/RES1 bits optional
          
