@@ -1,31 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3182138570771720950=="
+Content-Type: multipart/mixed; boundary="===============7355618110789359525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 27 Feb 2024 06:03:03 -0000
-Message-Id: <170901378336.4850.641162267088872127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 27 Feb 2024 06:03:14 -0000
+Message-Id: <170901379459.5040.14945818273659143789@gitolite.kernel.org>
 
---===============3182138570771720950==
+--===============7355618110789359525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 8552c902efe7ef670b6961fb8885b67961aeb629
     new: 22ba90670a51a18c6b36d285fddf92b9887c0bc3
     log: revlist-8552c902efe7-22ba90670a51.txt
-  - ref: refs/heads/stable
-    old: 70ff1fe626a166dcaadb5a81bfe75e22c91f5dbf
-    new: 45ec2f5f6ed3ec3a79ba1329ad585497cdcbe663
-    log: revlist-70ff1fe626a1-45ec2f5f6ed3.txt
-  - ref: refs/tags/next-20231127
-    old: 88e65a5b68e75cd81645b36f3e921f9e4f722a1a
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240227
     old: 0000000000000000000000000000000000000000
     new: 1e567e490ea028a97f10bd84bd77921445eca919
@@ -33,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 8bf1e5a08989cf5c8d9c117ebc47554951a08d6d
 
---===============3182138570771720950==
+--===============7355618110789359525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -965,31 +958,4 @@ b04a581771c763ce9d1c8c744a6ce1d559e6cc8b Merge branch 'bitmap-for-next' of https
 9a26ac8d7433fec1bced41e015f132812b166072 Merge branch 'for-next/kspp' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux.git
 22ba90670a51a18c6b36d285fddf92b9887c0bc3 Add linux-next specific files for 20240227
 
---===============3182138570771720950==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70ff1fe626a1-45ec2f5f6ed3.txt
-
-59950610c0c00c7a06d8a75d2ee5d73dba4274cf mtd: spinand: gigadevice: Fix the get ecc status issue
-5ab9bbf6c678444dd99afabd44665e7f04047cc5 mtd: Fix possible refcounting issue when going through partition nodes
-e6a30d0c48a1e8a68f1cc413bee65302ab03ddfb mtd: rawnand: marvell: fix layouts
-5906333cc4af7b3fdb8cfff1cb3e8e579bd13174 btrfs: zoned: don't skip block group profile checks on conventional zones
-9845664b9ee47ce7ee7ea93caf47d39a9d4552c4 btrfs: dev-replace: properly validate device names
-5897710b28cabab04ea6c7547f27b7989de646ae btrfs: send: don't issue unnecessary zero writes for trailing hole
-e06cc89475eddc1f3a7a4d471524256152c68166 btrfs: fix data races when accessing the reserved amount of block reserves
-c7bb26b847e5b97814f522686068c5628e2b3646 btrfs: fix data race at btrfs_use_block_rsv() when accessing block reserve
-1f626223a0c8753f8f5c651bf7bfc9e3cfdef7f7 bcachefs: fix backpointer_to_text() when dev does not exist
-04fee68dd99a53dbf0716e99270b66da26519daf bcachefs: Kill __GFP_NOFAIL in buffered read path
-204f45140faa0772d2ca1b3de96d1c0fb3db8e77 bcachefs: Fix BTREE_ITER_FILTER_SNAPSHOTS on inodes btree
-b58b1b883b9b702e25204dbe2b221eecc8ecd159 bcachefs: fix iov_iter count underflow on sub-block dio read
-097471f9e458dbbe41e25394c1fb1ccd751f0bee bcachefs: Fix bch2_journal_flush_device_pins()
-c4333eb541b92d91be57f757dccf6d4368516746 bcachefs: Fix check_snapshot() memcpy
-5197728f8182a93a07e5bf860726456322d3a908 bcachefs: fix bch2_save_backtrace()
-e231dbd452a79b9100846c0552fd9077251c042e Merge tag 'bcachefs-2024-02-25' of https://evilpiepirate.org/git/bcachefs
-d206a76d7d2726f3b096037f2079ce0bd3ba329b Linux 6.8-rc6
-c8e314624a1666ed2eec28549713021a8ec801e9 fs/ntfs3: fix build without CONFIG_NTFS3_LZX_XPRESS
-b6c1f1ecb3bf2dcd8085cc7d927ade623182a26c Merge tag 'for-6.8-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-45ec2f5f6ed3ec3a79ba1329ad585497cdcbe663 Merge tag 'mtd/fixes-for-6.8-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
-
---===============3182138570771720950==--
+--===============7355618110789359525==--
