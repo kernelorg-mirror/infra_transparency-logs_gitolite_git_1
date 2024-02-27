@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 27 Feb 2024 22:04:15 -0000
-Message-Id: <170907145574.24328.9572031405844827488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Tue, 27 Feb 2024 22:11:39 -0000
+Message-Id: <170907189969.31438.12175748383659740043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/master
-    old: 2a87e98cebe66940d0d52868bebca67ff342f37b
-    new: 42273fd1228eb27df00fe30a09bc175e0a5ae036
+  - ref: refs/heads/next
+    old: bcc453fa765edbc8649034cb142c1dce313dcca1
+    new: 8b88ccad58ae046f358eed507a43c4f3a5f4b1bc
     log: |
-         14aa333a3986bf501962d1a2f2d585894010b42c crypto: fix uninitialized variable coverity warning
-         42273fd1228eb27df00fe30a09bc175e0a5ae036 station: warn on missing scan_bss in station_transition_start
+         ac514d1c87e0ae73f62008324d70a29924f0d81e apparmor: fix lsm_get_self_attr()
+         8b88ccad58ae046f358eed507a43c4f3a5f4b1bc Automated merge of 'dev' into 'next'
+         
+  - ref: refs/heads/stable-6.8
+    old: 72e63b7ba23134f20a141f277e16b463995ab044
+    new: ac514d1c87e0ae73f62008324d70a29924f0d81e
+    log: |
+         ac514d1c87e0ae73f62008324d70a29924f0d81e apparmor: fix lsm_get_self_attr()
          
