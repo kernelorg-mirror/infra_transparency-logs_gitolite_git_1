@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2768360829645256797=="
+Content-Type: multipart/mixed; boundary="===============8660799229726374929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 27 Feb 2024 11:30:25 -0000
-Message-Id: <170903342598.3037.16713104077367044088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 27 Feb 2024 11:31:17 -0000
+Message-Id: <170903347764.3441.3223180563112871116@gitolite.kernel.org>
 
---===============2768360829645256797==
+--===============8660799229726374929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.9
-    old: 531a0c0cdbff9cecf41073220a826f8b1132f9ab
-    new: fdf82f23ca25a80bee354b667259bf57dcfb607d
-    log: revlist-531a0c0cdbff-fdf82f23ca25.txt
+  - ref: refs/heads/for-next
+    old: 8ac81649f72056ece4405ff2cdbd6ab2457151ba
+    new: b915fdf06b41068e80829e6d09597ebfc649f48c
+    log: revlist-8ac81649f720-b915fdf06b41.txt
 
---===============2768360829645256797==
+--===============8660799229726374929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1709033423 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1709033423-15c3085ec63dc71c562d9cfdd11dbed1a67f7af6
-
-531a0c0cdbff9cecf41073220a826f8b1132f9ab fdf82f23ca25a80bee354b667259bf57dcfb607d refs/heads/regulator-6.9
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXdx88ACgkQJNaLcl1U
-h9AwSAf9EjBCjoPETP3fuN1o91zKxaSWmwyo1tIiClARJpea2S/7vMMmAEp4aJgm
-T9K/uMCKhOQiYq2GOyUw2Z9xmgoL6EHXRHcFkqlaX+l+gWVhfUT3MarxBYuQPQ8S
-4kRSBOAPHYtonKt5pvX5YxZ2NnpY4vHZfei3EyyRLb/BpusskIlHe+TNG5feoKi8
-L99J71WX5xUbPhJhg1m6Lqt/t7qmB8bcO6SNcV/iHKDSaweZ0wr8SrX565H539pN
-UMkvYQxfoGs6XeTxi+ICkoqYIrxEZhX1FrSyXTER0XH+I8tP9HmvWtR5QqmR9WG+
-770vPUVY4oRQSkq7P/q97dPmD8jHOw==
-=qc7J
------END PGP SIGNATURE-----
-
---===============2768360829645256797==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-531a0c0cdbff-fdf82f23ca25.txt
+Content-Disposition: attachment; filename=revlist-8ac81649f720-b915fdf06b41.txt
 
 09235bf3170fd4a0052af06825016d9557564f9b regulator: pwm-regulator: Use dev_err_probe() for error paths in .probe()
 7f719a953975dc3bb970ed8f7ef8a97bad6000ab regulator: core: Remove redundant assignment to variable possible_uV
@@ -69,5 +44,6 @@ d7217c91bbde48ee60d3ce67cda6557f56c6b639 regulator: mp8859: Support active disch
 c8e794cfb05344af7b9ae920b5548a25a7e91fe9 regulator: mp8859: Implement set_current_limit()
 802ec11e20d8031353d6897a28f56e26a307deca Convert some regulator drivers to GPIO descriptors
 fdf82f23ca25a80bee354b667259bf57dcfb607d regulator: mp8859: Cleanups and enhancements
+b915fdf06b41068e80829e6d09597ebfc649f48c Merge remote-tracking branch 'regulator/for-6.9' into regulator-next
 
---===============2768360829645256797==--
+--===============8660799229726374929==--
