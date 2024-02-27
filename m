@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9129720966471753679=="
+Content-Type: multipart/mixed; boundary="===============6467554634543000029=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 27 Feb 2024 17:02:31 -0000
-Message-Id: <170905335129.27152.1933205559983370303@gitolite.kernel.org>
+Date: Tue, 27 Feb 2024 17:02:49 -0000
+Message-Id: <170905336941.27317.826704722408683356@gitolite.kernel.org>
 
---===============9129720966471753679==
+--===============6467554634543000029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 10bfd453da64a057bcfd1a49fb6b271c48653cdb
     new: 1ce7d306ea63f3e379557c79abd88052e0483813
     log: revlist-10bfd453da64-1ce7d306ea63.txt
 
---===============9129720966471753679==
+--===============6467554634543000029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ a36b0787f074d7441f66c172745653570e09c320 ionic: check before releasing pci regio
 237274fa215753bcb5c4d32fe16f386d6b370e52 Merge branch 'ionic-pci-error-handling-fixes'
 1ce7d306ea63f3e379557c79abd88052e0483813 veth: try harder when allocating queue memory
 
---===============9129720966471753679==--
+--===============6467554634543000029==--
