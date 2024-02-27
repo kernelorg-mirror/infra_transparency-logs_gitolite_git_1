@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 27 Feb 2024 10:29:44 -0000
-Message-Id: <170902978461.19448.3498345324556181954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Tue, 27 Feb 2024 10:29:56 -0000
+Message-Id: <170902979679.19576.4667774873171517861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/main
-    old: 58cc8640b627558ffd1e6c5c415ff034688e3569
-    new: 2322467a0f5d6cf05752092938e6db1250a0b28e
+  - ref: refs/heads/master
+    old: 983a73da1f996faee9997149eb05b12fa7bd8cbf
+    new: a6dfa5405db114b2d7b99c4c14365da72e4d9a4b
     log: |
-         2322467a0f5d6cf05752092938e6db1250a0b28e net: ethernet: adi: adin1110: Reduce the MDIO_TRDONE poll interval
+         1a807e46aa93ebad1dfbed4f82dc3bf779423a6e xfrm: Avoid clang fortify warning in copy_to_user_tmpl()
+         a6dfa5405db114b2d7b99c4c14365da72e4d9a4b xfrm: Do not allocate stats in the driver
          
