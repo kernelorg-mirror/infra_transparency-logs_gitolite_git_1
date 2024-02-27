@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4248368509728112807=="
+Content-Type: multipart/mixed; boundary="===============6618629067903771448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Tue, 27 Feb 2024 15:08:49 -0000
-Message-Id: <170904652970.1140.17065150731353025976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 27 Feb 2024 15:08:59 -0000
+Message-Id: <170904653958.1353.8279131353960507521@gitolite.kernel.org>
 
---===============4248368509728112807==
+--===============6618629067903771448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 45ec2f5f6ed3ec3a79ba1329ad585497cdcbe663
     log: revlist-d206a76d7d27-45ec2f5f6ed3.txt
 
---===============4248368509728112807==
+--===============6618629067903771448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ c8e314624a1666ed2eec28549713021a8ec801e9 fs/ntfs3: fix build without CONFIG_NTFS
 b6c1f1ecb3bf2dcd8085cc7d927ade623182a26c Merge tag 'for-6.8-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 45ec2f5f6ed3ec3a79ba1329ad585497cdcbe663 Merge tag 'mtd/fixes-for-6.8-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 
---===============4248368509728112807==--
+--===============6618629067903771448==--
