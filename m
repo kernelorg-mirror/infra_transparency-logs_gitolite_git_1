@@ -1,60 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6877159092411481884=="
+Content-Type: multipart/mixed; boundary="===============5041252072225310536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Tue, 27 Feb 2024 09:18:24 -0000
-Message-Id: <170902550477.17783.15267543843185687589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 27 Feb 2024 09:18:30 -0000
+Message-Id: <170902551058.17916.12751321393770295867@gitolite.kernel.org>
 
---===============6877159092411481884==
+--===============5041252072225310536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mem-ctrl-next
-    old: 719e366a6696020af1e396946f7e56afbc427646
-    new: e46076906722ee6f9e7fd5abad7f909cd11a26af
+  - ref: refs/heads/master
+    old: 666d8eb8c5aef1e18b3c993fbea85860b22383d3
+    new: 2196dde712ce2edeb624de4bade5d75f622df677
     log: |
-         97dcd1ef76412d0f25d2d50215565fd4d9ef91db dt-bindings: memory-controller: st,stm32: add MP25 support
-         722463f73bcf65a8c818752a38c14ee672c77da1 memory: stm32-fmc2-ebi: check regmap_read return value
-         2ff761ff29f6e2d0e616b21af3e054dac1f2c5f4 memory: stm32-fmc2-ebi: add MP25 support
-         cc7d5cf8021983a736f9d963dda2dd45de02b395 memory: stm32-fmc2-ebi: add MP25 RIF support
-         e46076906722ee6f9e7fd5abad7f909cd11a26af memory: stm32-fmc2-ebi: keep power domain on
+         2196dde712ce2edeb624de4bade5d75f622df677 6.1-stable patches
          
 
---===============6877159092411481884==
+--===============5041252072225310536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1709025503 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1709025502-21105e64220ce5c8a8bb3c62c143167d1e7508d0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709025509 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1709025507-8e2eb29471d8293d18c3aecf92e7197b0b112eb7
 
-719e366a6696020af1e396946f7e56afbc427646 e46076906722ee6f9e7fd5abad7f909cd11a26af refs/heads/mem-ctrl-next
+666d8eb8c5aef1e18b3c993fbea85860b22383d3 2196dde712ce2edeb624de4bade5d75f622df677 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmXdqN8QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11k2D/4w9ZXASuEmxcKiHe2IQUzOCNTK1HFhlHVv
-XH9W3R2avRFTn26KBfbeOBwt+XC8lzFUI0igg7v25e1QIDojsT5jue6n5w1Hl3m7
-/27xFienRzv5mPmMPW0+0S9tx05Z4nsQIOixG9zvdASauWFkFcyWjkzuS9cwZuys
-zsSGVzFf1PywnTw/iyWWKeq3/Xls4oE+5j2EZ1kGZVGsjl5mEe8fbl83l0hT4CxF
-L7J+nyJu+tQ0xuM87jwi16niDVKqZrkKriCdvDSwZ0oHa4CxUVmnpUjMobH1in06
-HFIojbmuPWW6zgKwYFcD9iV5zbEcq+iRINsp3EX4lgCg987Xf5PVCiX4PsG3+ZUu
-RDiucPCg+h+l6G88rVXoQHrFP6FrbH0WHvWpwyYlaz4AzOAwFPWG7MVvvl786fYf
-sNyf8nRHbl/oTWxSjtiWjgGEaTDaXe0UChZgwD42HHVg2O9aYsg87C8rNxf8dTgz
-yF/KcVG/2/A2sHtXFhctgHhtFx4U7G5BUp8XAC3Nrfium4Q+8SPFDvPejO6xmuPV
-WPb4vPgMx5wt1XUbjxMGZBrYBYbUWbZVJzVzG2Wu8rx/g4oK4jEzdqvpNZ6Cnvo3
-IhCgxrZQgHSnEsg7QEsCJlLIdwWU9a06fKtkXLadef9j2Zi8z3uBUI8UOMSnIOk3
-I5+LJS0dTg==
-=IoCZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXdqOUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0SwP/0nWwemlkdd0tmCIFH/4
+cZDE5gbQWmRK27lV8m0T+CNVy6TwXS3QQS/GXEF8iLu8wrvTeEDpHcy7fQYCaUV1
+DunS6PMjrIm7Zxt7Gb/wjDxF698s3PFxLIINBkj4sk0ie09w17VzJnP4ZB0NRhOo
+ExYZJ3tV0ClMDwO06ITXGuyx9qy5FJKss3gzCMd0++0NnnCer9mpYL/k3fUcGmgS
+iBav2uBZQrwtfX3K/rtATGoLlvxC8eGaFyoQi7IhLGyvx6T3ODdnntlng4VsGgPY
+AKIbbK+niBl1+vBrYwFKx6jqm97mnt0vk5bvOF7GIZbm2uK3QPGf44eEgWDf6G6H
+n6xByzQRkdaZ80AOBic/BVfaf3ZCx4EJ01SfVth3MlQ7ztyX/cyCmp+J1z/zlKtW
+aF1EB1NR2aQdRyQWZD6cYydwQSMpB92UiICPsaPxY5dBSjD1PPsb2142OHHk669q
+CQTLW0RP1qi1XIxF3kbTKm7mZu2CLGzUqS9nqAtyp2rz/isbHqqiLxabZfJZ5esw
+ON5Tf2Tp64MiSIgp3mGJka9KM0lltjxxuuaGskO9M0vgxYdvB6lZpDm63NwHAT2G
+nc4yZW9FzYXmBEy3SE0FM1gSqsYt4Aag1L1SQttJKaPfoX2ED5RBCVITYCa/hr9J
+REn0mVaThgb6x/cPPdAwLWkr
+=402m
 -----END PGP SIGNATURE-----
 
---===============6877159092411481884==--
+--===============5041252072225310536==--
