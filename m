@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 27 Feb 2024 09:03:57 -0000
-Message-Id: <170902463747.5574.1760783016656697198@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 27 Feb 2024 09:07:43 -0000
+Message-Id: <170902486343.9826.9389840347448182548@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/kvm-arm64/vcpu-shrink
-    old: cf3249463fbf0249b08939ac82066df9cba634d0
-    new: 3ff97a38c546d080b5c4fa180f5f9e4000ab6a45
+  - ref: refs/heads/x86/apic
+    old: 62aaed88843a9a69b5614f99ec4a2930edd09658
+    new: 6be4ec29685c216ebec61d35f56c3808092498aa
     log: |
-         3ff97a38c546d080b5c4fa180f5f9e4000ab6a45 KVM: arm64: vgic: Allocate PPIs on demand
+         4c8a49854130da0117a0fdb858551824919a2389 smp: Avoid 'setup_max_cpus' namespace collision/shadowing
+         3c2f8859ae1ce53f2a89c8e4ca4092101afbff67 smp: Provide 'setup_max_cpus' definition on UP too
+         6be4ec29685c216ebec61d35f56c3808092498aa x86/apic: Build the x86 topology enumeration functions on UP APIC builds too
          
