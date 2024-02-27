@@ -1,22 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Tue, 27 Feb 2024 19:53:58 -0000
-Message-Id: <170906363837.24939.8752707929428383714@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6033282560940656160=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Tue, 27 Feb 2024 19:55:28 -0000
+Message-Id: <170906372824.27115.9857389823292639172@gitolite.kernel.org>
+
+--===============6033282560940656160==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/ndctl/ndctl
-user: vishal
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pending
-    old: 4d767c0c9b91d254e8ff0d7f0d3be04a498ad9f0
-    new: bb97d6de9d03c25f7123297e78925a3ca96c9ab7
+  - ref: refs/heads/master
+    old: a4ee7699fb086398f378d4da747fa4d8e933eff0
+    new: d3b3885a394fd3144c43bba98596665b42024e19
     log: |
-         796e18a330780fc8b852f57c442df944c3aa4d73 cxl/test: replace spaces with tabs in cxl-xor-region.sh
-         6fa74aae8f511eca532ea1fb35910d00fe230533 cxl/test: add double quotes in cxl-xor-region.sh
-         d1bc2578b15b7fd318db96944e225ef024d8d765 cxl/test: add 3-way HB interleave testcase to cxl-xor-region.sh
-         bb97d6de9d03c25f7123297e78925a3ca96c9ab7 Merge branch 'for-79/3way-xor-region' into pending
+         d3b3885a394fd3144c43bba98596665b42024e19 Periodic update from keyservers
          
+
+--===============6033282560940656160==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1709063727 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1709063727-0ce77650d18c387174438591a5ef15115aa02b0d
+
+a4ee7699fb086398f378d4da747fa4d8e933eff0 d3b3885a394fd3144c43bba98596665b42024e19 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZd4+LwAKCRC2xBzjVmSZ
+bP7wAP4v65BRDuX0L5BQ1nm54teQT9aVofWGMbF5OiAgtEy3dgD6A8LaagtcdqLa
+zpWLs/2Rv4NNu+dRzpwqxjWreJAkVw8=
+=Ciia
+-----END PGP SIGNATURE-----
+
+--===============6033282560940656160==--
