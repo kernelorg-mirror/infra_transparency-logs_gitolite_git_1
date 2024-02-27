@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6850969906587590683=="
+Content-Type: multipart/mixed; boundary="===============1438102172022319607=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 27 Feb 2024 16:51:14 -0000
-Message-Id: <170905267489.19522.5556199335992830210@gitolite.kernel.org>
+Date: Tue, 27 Feb 2024 16:51:49 -0000
+Message-Id: <170905270916.19809.13787706133204164742@gitolite.kernel.org>
 
---===============6850969906587590683==
+--===============1438102172022319607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 10bfd453da64a057bcfd1a49fb6b271c48653cdb
-    new: 1ce7d306ea63f3e379557c79abd88052e0483813
-    log: revlist-10bfd453da64-1ce7d306ea63.txt
+  - ref: refs/heads/dev-queue
+    old: ee912e70ea165a10bc7b954743d3a258805332b7
+    new: cd74e5de019108e671a32d57015bd1a060da74aa
+    log: revlist-ee912e70ea16-cd74e5de0191.txt
 
---===============6850969906587590683==
+--===============1438102172022319607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10bfd453da64-1ce7d306ea63.txt
+Content-Disposition: attachment; filename=revlist-ee912e70ea16-cd74e5de0191.txt
 
 0e67899abfbfdea0c3c0ed3fd263ffc601c5c157 lan78xx: enable auto speed configuration for LAN7850 if no EEPROM is detected
 0d60d8df6f493bb46bf5db40d39dd60a1bafdd4e dpll: rely on rcu for netdev_dpll_pin()
@@ -44,5 +44,18 @@ a36b0787f074d7441f66c172745653570e09c320 ionic: check before releasing pci regio
 155a1efc9b96a39857714aff49a11ebc93022c8c ionic: restore netdev feature bits after reset
 237274fa215753bcb5c4d32fe16f386d6b370e52 Merge branch 'ionic-pci-error-handling-fixes'
 1ce7d306ea63f3e379557c79abd88052e0483813 veth: try harder when allocating queue memory
+3f3e1e31f43032a60feb8de02cc02c5d61ec01d8 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+3ef6163a873f057b95e0e1634c65187462d01ab9 ice: virtchnl: stop pretending to support RSS over AQ or registers
+1662445a352f8fed81b116bbef37c41e464c10b8 ice: Refactor FW data type and fix bitmap casting issue
+99d5189aae210ab531cc4be08cb53a7f94f7d886 idpf: disable local BH when scheduling napi for marker packets
+2e3d548603bf3c05fe45a6886107214f297a3a70 igb: extend PTP timestamp adjustments to i211
+9c90436304eb92e0b9cb03e078f346727e63dd1a intel: legacy: Partially revert of field get conversion
+bcab434f84da0d712238a77022c123ee730c6e9f igc: avoid returning frame twice in XDP_REDIRECT
+74d25b1ed2d38c6454b9623cd2818d01a2ffa8b4 ixgbe: {dis, en}able irqs in ixgbe_txrx_ring_{dis, en}able
+b271d42cbbb200ea1bcd343fa8ec213b683d64c7 i40e: disable NAPI right after disabling irqs when handling xsk_pool
+e89d56f19f1a688dee350e0d946178d78f30d31c ice: reorder disabling IRQ and NAPI in ice_qp_dis
+3ce7645132eeedf860a6b6ff62803eff99c636b9 igc: Fix missing time sync events
+f30dda2bd114103ae35cbc728be7c86fbd9f4ce1 igb: Fix missing time sync events
+cd74e5de019108e671a32d57015bd1a060da74aa ice: reconfig host after changing MSI-X on VF
 
---===============6850969906587590683==--
+--===============1438102172022319607==--
