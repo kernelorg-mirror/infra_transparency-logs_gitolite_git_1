@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5193495737659382191=="
+Content-Type: multipart/mixed; boundary="===============4108232017088399923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 27 Feb 2024 02:46:42 -0000
-Message-Id: <170900200224.23959.1536551148953583027@gitolite.kernel.org>
+Date: Tue, 27 Feb 2024 02:46:57 -0000
+Message-Id: <170900201724.24158.17226369516686985897@gitolite.kernel.org>
 
---===============5193495737659382191==
+--===============4108232017088399923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 0898019eb49633ec8f428d0cb70daa04d6f3ab34
-    new: afd3d79bb4962ac3666cb56dc6f22df1c9962dba
-    log: revlist-0898019eb496-afd3d79bb496.txt
+  - ref: refs/heads/6.9/scsi-staging
+    old: 9f3dbcb5632d6876226031d552ef6163bb3ad215
+    new: b914227e421560e118029334fe6c4840b4da11ee
+    log: revlist-9f3dbcb5632d-b914227e4215.txt
 
---===============5193495737659382191==
+--===============4108232017088399923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1709001988 -0500
+pusher 75C5DE3D 1709002005 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1709001988-e15d72c5b7f26cbdc11681bd4e667044f3298b51
+nonce 1709002005-55ba87ec00c0184442d320ce029ed8dc0ca96f67
 
-0898019eb49633ec8f428d0cb70daa04d6f3ab34 afd3d79bb4962ac3666cb56dc6f22df1c9962dba refs/tags/mkp-scsi-staging
+9f3dbcb5632d6876226031d552ef6163bb3ad215 b914227e421560e118029334fe6c4840b4da11ee refs/heads/6.9/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmXdTQQACgkQ7ulgGnXF
-3j3Ieg//aN1OCwdZo+L/vvYYOSsFaMbjmztzxFpmOw10eDSKPaCM9f9+VX6aiJbz
-XBHp6/NbXxFg4naGhMZrHwLtwmzpKRkmcaX3/fUapRt5hmaV9wyrRt8w0Q7N3glL
-QLf7gGOfc/Sy+idB7kHYOUzKIM7Ir0g6ziEKDW+6T7N//coEbA6NAqsuDGC6s5fy
-BycUYF4PRRlwKZKqesIdeSRaQsLI3sWxEh0hSD4Je6H2hybliNX8yLzHwKfMhbaZ
-bFNiPD0H0ea4evvjx/RmYu67OLiVYItTuNnqihxtP0Eq3kffT1o1R0LUItHnAGig
-ds3IHaumvc1aJOuPcuUGmpC1BkLYkJpAcaLM69Bi1wfSvRbymgg3PfrDYSchrwMs
-zUN2dKuJG7gUVmqr4sb+7gYfaUzT83CTP5O69loVWbM5M4FutwqmzbIlWVk2PHUz
-QKqfGExWwBEcrI/603CCJVANQdjKVPjC8EZBcxtoqJlFv86QAp7x+Cai71HSqVco
-EdLRju2QnG4gYVg0EDD0GEp84dNCVGVABKJBwp7UYYRP7ghKeGIeosQ7yHCOaT4p
-vpKTnzexhpqEAiEj+8OQ+5IwkJcJk3BmVTdYs+gNPtRpeRAh06/cuPUzSeJMZ51n
-99W+g7xpUv6RSr8umIxfA1Kpk1hw8T/izSibL3C7hJ4rSh2PAZ0=
-=o1Md
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmXdTRUACgkQ7ulgGnXF
+3j29RRAAmzjPYuU1AQBFABTqFSSR8Luj2VVeJbhmhN7L4EE6jNftGMJC+S27Bc8+
+0gwUBzfjgNJXhuyXvhAycmkg8P/cjiAQBrJWJNQpkpsiakiPCLJxAgLYC7tH02Un
+ZzDpPN6B8xv6OCRdKevBCdC7o4jPcPHrfltzWK0XsAL4IfFVjCUI5cIPxTg3bk/x
+boPXTlLlJ4KJcyZjNxs51i+HCAWL7P8Tl9fWZOWu+6zfiwRNzWDoPqWtvJYEwgi3
+ZF6zRQyOy7p3LpJvJxI5TRHuzzDCSMndhBji4CALsoXMRq2t66jMKaQsMyXBG8d1
+Q0aePAEPkscBk7VGb2oZLGAw0fxSv8YvXpH9xDliLzF3xgnjOO0GdT6IWHTAILlK
+DEWfftYMuYoa0SGyW8P4K6JTjkaa/NAqL2hQrU8RMDEmIBUIZj8U5Rmb1kn5caq/
+gYlmRGnz4P6ylppwtNx7LuWrHeZOjzfhDUdoglAUxZWYk5wwz8WzDw/E8EDANBvz
+JBzz4pvOSd7LMOIXOwzvdhdzWxydx+/QSrut85hcOt/Ua4qkkCc/S1HhK5AFxq4+
+XV34niAsi12vKBLwNuCynieUL5/xbtyatpfpBJCNccidMaX0v/WKeue5byzuQ6fv
+8xwAdpHdiwKSEWP8P1aLzJpm3onVF+1taBpYKpUNYQdwHfzTAaA=
+=mPDo
 -----END PGP SIGNATURE-----
 
---===============5193495737659382191==
+--===============4108232017088399923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0898019eb496-afd3d79bb496.txt
+Content-Disposition: attachment; filename=revlist-9f3dbcb5632d-b914227e4215.txt
 
 ec16b147a55bfa14e858234eb7b1a7c8e7cd5021 fs: Fix rw_hint validation
 e769779c0c2c3a475c6b7313d35ff0aa3aceb780 fs: Verify write lifetime constants at compile time
@@ -81,4 +81,4 @@ ad620becda436fc02e50e5f6fe01de1d1f3794c9 scsi: scsi_debug: Implement GET STREAM 
 af180c0880f9df14be31807f0bb0fa6f0d34a943 scsi: scsi_debug: Maintain write statistics per group number
 b914227e421560e118029334fe6c4840b4da11ee Merge patch series "Pass data lifetime information to SCSI disk devices"
 
---===============5193495737659382191==--
+--===============4108232017088399923==--
