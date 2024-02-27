@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 27 Feb 2024 00:50:03 -0000
-Message-Id: <170899500312.28864.8047204103055324194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Tue, 27 Feb 2024 00:56:27 -0000
+Message-Id: <170899538765.348.10282511623398283131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/io_uring-send-queue
-    old: 066fe40fd4d816889b6cbc854e97de4918e9f800
-    new: ccb1ca75270fbdbfc069bedb4e59eac41724ba09
+  - ref: refs/heads/testme
+    old: 6890cb1ace350b4386c8aee1343dc3b3ddd214da
+    new: c642c7697107680d987ee06f8adf738c05321083
     log: |
-         1a5c271af083bccfed400bad7105d9d06290bbf6 io_uring/net: improve the usercopy for sendmsg/recvmsg
-         af450edf1112b2741d63d100589d64f3224ac022 io_uring/net: add provided buffer support for IORING_OP_SEND
-         8a691a285289f7e99594e1ea7b83eb93ca41121a io_uring/net: add provided buffer support for IORING_OP_SENDMSG
-         e53253d5f337f0b1b75b20f1771c4f8af8932f1a io_uring/kbuf: flag request if buffer pool is empty after buffer pick
-         817aa0410c036804526926ef79db470549df89c8 io_uring/net: avoid redundant -ENOBUFS on recv multishot retry
-         d1b52a6e8ad3324d5a029f3c2e1249cd200a5cf6 io_uring/net: move recv/recvmsg flags out of retry loop
-         46690a8b66ab46e270a1b218f3b1c3c905843cc4 io_uring/net: add generic multishot retry helper
-         07a48007841ce81262a591168e0d5b6dee992f61 io_uring/net: support multishot for send
-         ccb1ca75270fbdbfc069bedb4e59eac41724ba09 io_uring/net: support multishot for sendmsg
+         c642c7697107680d987ee06f8adf738c05321083 x86/bugs: Use fixed addressing for VERW operand
          
