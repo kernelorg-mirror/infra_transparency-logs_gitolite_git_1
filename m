@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7570863369489552069=="
+Content-Type: multipart/mixed; boundary="===============5759378811493769803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 27 Feb 2024 05:22:56 -0000
-Message-Id: <170901137665.8544.11006030397545070798@gitolite.kernel.org>
+Date: Tue, 27 Feb 2024 05:23:08 -0000
+Message-Id: <170901138890.8698.2248465471138412853@gitolite.kernel.org>
 
---===============7570863369489552069==
+--===============5759378811493769803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: b401b621758e46812da61fa58a67c3fd8d91de0d
+  - ref: refs/heads/tty-linus
+    old: 3b69e32e151bc4a4e3c785cbdb1f918d5ee337ed
     new: d206a76d7d2726f3b096037f2079ce0bd3ba329b
-    log: revlist-b401b621758e-d206a76d7d27.txt
+    log: revlist-3b69e32e151b-d206a76d7d27.txt
 
---===============7570863369489552069==
+--===============5759378811493769803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709011375 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709011388 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1709011375-32f776b0edf4abedc1d92364a772130d6968e9b4
+nonce 1709011384-7f5fafdbb806a93200d90404021569ebc8f625d0
 
-b401b621758e46812da61fa58a67c3fd8d91de0d d206a76d7d2726f3b096037f2079ce0bd3ba329b refs/heads/main
+3b69e32e151bc4a4e3c785cbdb1f918d5ee337ed d206a76d7d2726f3b096037f2079ce0bd3ba329b refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXdca8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+180P/jkuwoH+E26xzpYM6YKn
-CzIvU0w3dhIPbXu/aoaro0pxkpY0oaIO74OGLBqMIXmM2EMDV2TSBluVSXQjp6pi
-EdWrjKTrSjw62O+POChHJzTROcqhXLxTg1zRumnxk8s1BUe8OyeitlB5RkvhZia1
-uJNYvwRFTjl+aIF2h3GLtAeTXmqsrOrqcMpNXEslqpLrimnoMBKSu+zquD2JJ8OG
-3vsPT260s2ac0pUfOX300Cbq2FprYU74TtmoK4azL8w2bcQxmZ2cCSLwjPaQvUx3
-l6JQKMjNxGxBuzYd2YGISASjF7zvLau3IepHffINM9xIIwHTGn2WsXe9t6iuyuNJ
-WYzGXAaMs27xJ5mpRIdrPWA1djpkXqexNIIE0jBJdYGbmCseuxSmU2GSvXnEqBiv
-XBFXxMuKDrM9zWrZxzQtHe6jlzBqW9l00JGXGpJ1NEJbRSFHpe+3mSIZdKnkWXHU
-epIlc44wJeNx7rfUCsI9MU5DicdjhRIhs+Ty/HPUtyLMY/7Y6LDECPMb5aJq65k+
-VwJt/426YRRHTOFuzdRQrSnAXr46p1gzXmAwJ7Av+C52XBlcUNTjXo06NVxEiDug
-uLrJ9CCigLavtC0V/diuXbAXTTVuOl6erYMWNzQ7aGRuuS9foT+QHcoE2JCQQsGi
-ZJnYmAlaTyNyXZ+f5jWKTufu
-=Um9z
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXdcbwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yq4P/RXXaXxRtVqo8tpUVw9L
+gPUE/VGBQfrBYSMuGGQd+XKdgEhzZBWSWFyzw4vgmvENYafjDPTUPuP+a0ebWdiH
+sjscvw9BdGUrTTvKc5UVgvGaNLRozqZkpeL65mpMa3wZ6iWSytZOHtv4khYYUcUV
+zwVwj2pmFJdvZiaHOqJEPUR1UbiseW4duxBdtAPgVBzQ+pzOtFKu2B9RTLG56VlQ
+TzeTKcIeNyMx1PJQf2VAh4IsMGZy8TgSqCYIThkAQal8pRZ/Nzfm2S00QpbVTwVw
+fybIZRCFq0YCDbyp/3CqFhUwvcI+QSATkhSvyQya85HgFjME43KJ51OL/7cSA/L6
+h95XeNurnn+mJgd23nOhfFP+G1b1Xs4Tav0n13mbIPEqQlr7IFo2zTWXfdGD9LMY
+mcx2aZ9q8rj6Bo7tIVXoCKBEfn5K18tq2ufHYQPM0DSr+OwWchNPjWXYvSQ3JG4a
+qz7g53GJmhOFBvS8J4HAT1e4wpjhEGyUgkbxGY1jm5OR2ulmx66dCl3iXrnGKusH
+OPmN5AJtwOcd5BZGIO5ki2B44X1OnXzJQPKdW1bNF867pz7NHNIZZW9W94KiMNWu
+N6xqfGKoBCYUPqU22+9+nePs64R/o9vslCZfj2Y26JNN69yynu9/OwcuoywSdvUm
+69TJMQpGeeplhqW53RXgDXIr
+=1ZvM
 -----END PGP SIGNATURE-----
 
---===============7570863369489552069==
+--===============5759378811493769803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b401b621758e-d206a76d7d27.txt
+Content-Disposition: attachment; filename=revlist-3b69e32e151b-d206a76d7d27.txt
 
 1755c4b0372a2cf1e7124956b8cfebcb51083208 dt-bindings: clock: gs101: rename cmu_misc clock-names
 d76c762e7ee04af79e1c127422e0bbcb5f123018 clk: samsung: clk-gs101: comply with the new dt cmu_misc clock names
@@ -195,9 +195,6 @@ b191a18cb5c47109ca696370a74a5062a70adfd0 usb: dwc3: gadget: Don't disconnect if 
 76c51146820c5dac629f21deafab0a7039bc3ccd usb: gadget: ncm: Avoid dropping datagrams of properly parsed NTBs
 84b6238aff3db8f4fa72bc5e451ba34ce288d30a MAINTAINERS: Drop myself as maintainer of TYPEC port controller drivers
 bd915ae73a2d78559b376ad2caf5e4ef51de2455 drm/meson: Don't remove bridges which are created by other drivers
-8b79d4e994074a058b6876dce843ee112656258d tty: hvc: Don't enable the RISC-V SBI console by default
-f418ae73311deb901c0110b08d1bbafc20c1820e serial: stm32: do not always set SER_RS485_RX_DURING_TX if RS485 is enabled
-3b69e32e151bc4a4e3c785cbdb1f918d5ee337ed serial: amba-pl011: Fix DMA transmission in RS485 mode
 cd65c48d66920457129584553f217005d09b1edb selftests: bonding: set active slave to primary eth1 specifically
 9815e39617541ef52d0dfac4be274ad378c6dc09 ahci: asm1064: correct count of reported ports
 26c8404e162b43dddcb037ba2d0cb58c0ed60aab ata: ahci_ceva: fix error handling for Xilinx GT PHY support
@@ -448,4 +445,4 @@ c46ac50ebec33907e5768012aa39ba1ab2f0ca14 Merge tag 'usb-6.8-rc6' of git://git.ke
 e231dbd452a79b9100846c0552fd9077251c042e Merge tag 'bcachefs-2024-02-25' of https://evilpiepirate.org/git/bcachefs
 d206a76d7d2726f3b096037f2079ce0bd3ba329b Linux 6.8-rc6
 
---===============7570863369489552069==--
+--===============5759378811493769803==--
