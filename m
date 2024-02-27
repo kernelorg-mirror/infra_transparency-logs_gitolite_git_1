@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 27 Feb 2024 21:01:23 -0000
-Message-Id: <170906768384.10516.7618331193663465684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Tue, 27 Feb 2024 21:09:24 -0000
+Message-Id: <170906816457.16240.4197294249629320682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: e37ae6433a5eeb5fb66e3de4b97cdda68ee2c5e8
-    new: 47403a4b49767f1d533e4dc5f5cf5cc957f22a5e
-    log: |
-         47403a4b49767f1d533e4dc5f5cf5cc957f22a5e x86/nmi: Remove an unnecessary IS_ENABLED(CONFIG_SMP)
-         
+  - ref: refs/heads/objtool-kexec
+    old: 0000000000000000000000000000000000000000
+    new: e46a105c7eccd5ebbcc90f7e2fac1b3f3bc8051d
