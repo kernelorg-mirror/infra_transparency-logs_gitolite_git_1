@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5396103103083336214=="
+Content-Type: multipart/mixed; boundary="===============6206749664487988938=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 27 Feb 2024 17:11:48 -0000
-Message-Id: <170905390872.3156.17998036017025062477@gitolite.kernel.org>
+Date: Tue, 27 Feb 2024 17:12:07 -0000
+Message-Id: <170905392723.3353.14839501729339232140@gitolite.kernel.org>
 
---===============5396103103083336214==
+--===============6206749664487988938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 25d4342574644bca5cbe1ace865955e406b9a741
     new: c4b04a802d8e3996e588cbbb47756b2f9d239d78
     log: revlist-25d434257464-c4b04a802d8e.txt
 
---===============5396103103083336214==
+--===============6206749664487988938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -52,4 +52,4 @@ d0dc1e42109da515db92901ca07270930f15d619 net: stmmac: mmc_core: Drop interrupt r
 b819a8481a19043ca990980dd56b1a41389c665c selftests: netdevsim: be less selective for FW for the devlink test
 c4b04a802d8e3996e588cbbb47756b2f9d239d78 bnxt_en: fix accessing vnic_info before allocating it
 
---===============5396103103083336214==--
+--===============6206749664487988938==--
