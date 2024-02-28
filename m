@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 28 Feb 2024 19:42:23 -0000
-Message-Id: <170914934315.27901.12982916962086463748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 28 Feb 2024 19:47:30 -0000
+Message-Id: <170914965088.31418.7005612819899417603@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/dev
-    old: 7668d0a8e8fcde471cdc9815038ccd5409b89c82
-    new: cf08d175c9215abe0d8614b6760e2b48de760f59
+  - ref: refs/heads/bleeding-edge
+    old: 14bbf69dcd5af2b76b8d25199aa4f21a03ea26b1
+    new: 939eb8fef483f8cfbdc0ccb822c174934a49f9d4
     log: |
-         ea2014dbfa850b9fc9233eb9fe585f769ab18ee2 bpf: Chose RCU Tasks based on TASKS_RCU rather than PREEMPTION
-         cf08d175c9215abe0d8614b6760e2b48de760f59 ftrace: Chose RCU Tasks based on TASKS_RCU rather than PREEMPTION
+         f1f0c445226c8f03ad329cc2d8072556198fb24a thermal: int340x: processor_thermal: Add Lunar Lake-M PCI ID
+         939eb8fef483f8cfbdc0ccb822c174934a49f9d4 Merge branch 'thermal-intel' into bleeding-edge
          
