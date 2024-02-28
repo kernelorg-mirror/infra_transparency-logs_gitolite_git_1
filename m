@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 28 Feb 2024 00:37:44 -0000
-Message-Id: <170908066444.9087.9388114807303631664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Wed, 28 Feb 2024 00:48:16 -0000
+Message-Id: <170908129625.16048.5059972776659875387@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
 changes:
-  - ref: refs/heads/todo
-    old: 0a75d7853cd718fc08aaad1fdfbef380535c6892
-    new: 495ae5bc8a5f92f6bf83658484aca5ceb27948e6
-    log: |
-         495ae5bc8a5f92f6bf83658484aca5ceb27948e6 What's cooking (2024/02 #09)
-         
+  - ref: refs/heads/next/media/rkisp1
+    old: 9f9cd26aec8406bbae42d7d2afe23a5d368b7b9a
+    new: 0000000000000000000000000000000000000000
