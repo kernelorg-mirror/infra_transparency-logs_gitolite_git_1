@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Wed, 28 Feb 2024 17:14:36 -0000
-Message-Id: <170914047657.15340.13422581655836658866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 28 Feb 2024 17:22:12 -0000
+Message-Id: <170914093210.21184.13355682264696994453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: 929654e8f1add50b01d5a56171a31c311b0a739a
-    new: 3db631542bc9e7a9b8dcdc5697c9bbe5b8d8961d
+  - ref: refs/heads/kdevops
+    old: 23e41e0f2b4d7741ef29341c81edd41e26554ffc
+    new: 98be4be88369b5edfab44bdfc083fc7bc3ee71ea
     log: |
-         dff9327ac03dae26dd90acb76d1550dd94376a1b remoteproc: zynqmp: Fix lockstep mode memory region
-         3db631542bc9e7a9b8dcdc5697c9bbe5b8d8961d Merge branches 'rproc-next' and 'rpmsg-next' into for-next
+         7086d8e69014a940979fd4f69964a7c41611800f nfsd: use __fput_sync() to avoid delayed closing of files.
+         98be4be88369b5edfab44bdfc083fc7bc3ee71ea nfsd: drop st_mutex and rp_mutex before calling move_to_close_lru()
          
