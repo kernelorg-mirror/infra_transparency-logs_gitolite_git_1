@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 28 Feb 2024 11:17:44 -0000
-Message-Id: <170911906416.4998.13537887696924197181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 28 Feb 2024 11:20:07 -0000
+Message-Id: <170911920756.7455.15183865743004370484@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: 7230e347233147e9341551723401d4b363eeb2d9
-    new: 1509e022f063f4e4596b3a4433e258e13b1b086c
+  - ref: refs/heads/main
+    old: 3e46ec180ed91a2833f6cd637f919dcf2b53408c
+    new: cfb9eb611d30c0b8bfc2820d8808037b63df2802
     log: |
-         dfa1ad272528a92384adac523cf2f2949b767d8d hexdump: check blocksize when display data
-         1509e022f063f4e4596b3a4433e258e13b1b086c Merge branch 'PR/hexdump-overflow' of github.com:karelzak/util-linux-work
-         
-  - ref: refs/heads/stable/v2.40
-    old: 0e78f7c1b25e0390befe0c1d252420dab44b3488
-    new: 95aacefe18fa1ccb1296c752d292279a2f84fb51
-    log: |
-         277e3a872036d959b63317d15f7009dba3507c54 libmount: report kernel message from new API
-         95aacefe18fa1ccb1296c752d292279a2f84fb51 hexdump: check blocksize when display data
+         5fa918a33563e050d45fb8f260f9240b2039f432 uapi: ioam6: API for netlink multicast events
+         67c8e4bb4f54ad22ca0ce4700c8728ffd73acb66 net: ioam6: multicast event
+         f655c78d6225f585ef60a9d93ffb79d507ff3ad3 net: exthdrs: ioam6: send trace event
+         cfb9eb611d30c0b8bfc2820d8808037b63df2802 Merge branch 'ioam6-mcast-events'
          
