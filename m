@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 28 Feb 2024 12:23:42 -0000
-Message-Id: <170912302227.20142.4861584958044322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 28 Feb 2024 12:25:29 -0000
+Message-Id: <170912312960.22632.7271022143205977266@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 1509e022f063f4e4596b3a4433e258e13b1b086c
-    new: ea35ab0a08552a3be19ee8a964bfdd53a98d4f03
-    log: |
-         ea35ab0a08552a3be19ee8a964bfdd53a98d4f03 docs: use proper XSPD identifier for GPL-2.0
-         
+  - ref: refs/heads/file1b0ytw
+    old: 0000000000000000000000000000000000000000
+    new: ed00a6945dc32462c2d3744a3518d2316da66fcc
+  - ref: refs/heads/file5xNZUR
+    old: 0000000000000000000000000000000000000000
+    new: 666db8fd4265f938795004838d2a9335ce7b9da1
