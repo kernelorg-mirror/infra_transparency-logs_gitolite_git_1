@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5851992579434501381=="
+Content-Type: multipart/mixed; boundary="===============0766202645398348709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 28 Feb 2024 17:46:26 -0000
-Message-Id: <170914238670.7454.17706013206348740424@gitolite.kernel.org>
+Date: Wed, 28 Feb 2024 17:46:49 -0000
+Message-Id: <170914240916.7671.14980391582084399980@gitolite.kernel.org>
 
---===============5851992579434501381==
+--===============0766202645398348709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: c4b04a802d8e3996e588cbbb47756b2f9d239d78
     new: 4ac828960a604e2ae72af59ce44dafdc8b12675f
     log: revlist-c4b04a802d8e-4ac828960a60.txt
 
---===============5851992579434501381==
+--===============0766202645398348709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +64,4 @@ cfb9eb611d30c0b8bfc2820d8808037b63df2802 Merge branch 'ioam6-mcast-events'
 292fac464b012200c4e99d08974fed3bc087b848 net: ethtool: eee: Remove legacy _u32 from keee
 4ac828960a604e2ae72af59ce44dafdc8b12675f Merge branch 'eee-linkmode-bitmaps'
 
---===============5851992579434501381==--
+--===============0766202645398348709==--
