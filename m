@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5202201606358549232=="
+Content-Type: multipart/mixed; boundary="===============4276774921111186286=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 28 Feb 2024 19:27:17 -0000
-Message-Id: <170914843771.16069.8579570718649230345@gitolite.kernel.org>
+Date: Wed, 28 Feb 2024 19:27:26 -0000
+Message-Id: <170914844662.16176.1677290055224881010@gitolite.kernel.org>
 
---===============5202201606358549232==
+--===============4276774921111186286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
-  - ref: refs/heads/pm
-    old: f3bdd82c5834219a5b272c2310c83aef68667486
-    new: f0a0fc10abb062d122db5ac4ed42f6d1ca342649
-    log: revlist-f3bdd82c5834-f0a0fc10abb0.txt
-  - ref: refs/tags/pm-6.8-rc7
+  - ref: refs/heads/acpi
+    old: 5b5268cd49d233f03a5cfb1108dcd38bcb83f6d1
+    new: e0359f1551b8d4a8d00704699c07fabb11a07cf1
+    log: revlist-5b5268cd49d2-e0359f1551b8.txt
+  - ref: refs/tags/acpi-6.8-rc7
     old: 0000000000000000000000000000000000000000
-    new: eda6133dd3250dd6b359b22199418c40dd66a260
+    new: 003b3b9d575ca4d5b959ca3e36898e5a292b55bc
 
---===============5202201606358549232==
+--===============4276774921111186286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f3bdd82c5834-f0a0fc10abb0.txt
+Content-Disposition: attachment; filename=revlist-5b5268cd49d2-e0359f1551b8.txt
 
 f17c34ffc792bbb520e4b61baa16b6cfc7d44b13 USB: hub: check for alternate port before enabling A_ALT_HNP_SUPPORT
 b2d2d7ea0dd09802cf5a0545bf54d8ad8987d20c usb: f_mass_storage: forbid async queue when shutdown happen
@@ -1052,6 +1052,6 @@ c02197fc9076e7d991c8f6adc11759c5ba52ddc6 Merge tag 'powerpc-6.8-3' of git://git.
 ddac3d8b8a48dda6447a7f7a15f8124020a5add2 Merge tag 'x86_urgent_for_v6.8_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6c160f16be5df1f66f6afe186c961ad446d7f94b Merge tag 'kbuild-fixes-v6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 b401b621758e46812da61fa58a67c3fd8d91de0d Linux 6.8-rc5
-f0a0fc10abb062d122db5ac4ed42f6d1ca342649 cpufreq: intel_pstate: fix pstate limits enforcement for adjust_perf call back
+e0359f1551b8d4a8d00704699c07fabb11a07cf1 Revert "ACPI: EC: Use a spin lock without disabing interrupts"
 
---===============5202201606358549232==--
+--===============4276774921111186286==--
