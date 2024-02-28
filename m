@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 28 Feb 2024 11:25:50 -0000
-Message-Id: <170911955016.11434.6914601060679271548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Wed, 28 Feb 2024 11:26:20 -0000
+Message-Id: <170911958083.11691.3419577294721402244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/main
-    old: 8af411bbba1f457c33734795f024d0ef26d0963f
-    new: 4adfc94d4aeca1177e1188ba83c20ed581523fe1
+  - ref: refs/heads/mips-next
+    old: 188942f05ce45f80c06f7242ad7478bd204c3387
+    new: af43e871c93640a69af58ddb33aec2d4be80bf6b
     log: |
-         4adfc94d4aeca1177e1188ba83c20ed581523fe1 Documentations: correct net_cachelines title for struct inet_sock
+         af43e871c93640a69af58ddb33aec2d4be80bf6b MIPS: mipsregs: Parse fp and sp register by name in parse_r
          
