@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 28 Feb 2024 13:38:18 -0000
-Message-Id: <170912749863.10882.6362177657364446195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 28 Feb 2024 13:59:33 -0000
+Message-Id: <170912877334.24560.12686318751353050278@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: ea35ab0a08552a3be19ee8a964bfdd53a98d4f03
-    new: 69b9215a4e50a77f3663ee00f382c438ccc62ac9
+    old: 715b938b3a0fe772d52fc810402e0c91e1adca4d
+    new: d8f519096785273eef53f7b47a7bf4e6378718eb
     log: |
-         69b9215a4e50a77f3663ee00f382c438ccc62ac9 docs: move GPL-2.0 license text to Docimentation directory
-         
-  - ref: refs/heads/stable/v2.40
-    old: 9769e7b9562d5b856e95a93d0935f864be00baf9
-    new: 1ea0695525dc89afaf3ef78807426e494683dc33
-    log: |
-         1ea0695525dc89afaf3ef78807426e494683dc33 docs: move GPL-2.0 license text to Docimentation directory
+         afe04d6e61dd2d81ed28d6eccc45ace7f1978072 Bluetooth: hci_sync: Fix overwriting request callback
+         171271f419d8cfed7d541d909a9ce5153dd2825d Bluetooth: hci_h5: Add ability to allocate memory for private data
+         d8f519096785273eef53f7b47a7bf4e6378718eb Bluetooth: btrtl: fix out of bounds memory access
          
