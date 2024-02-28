@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 28 Feb 2024 19:47:30 -0000
-Message-Id: <170914965088.31418.7005612819899417603@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 28 Feb 2024 19:50:03 -0000
+Message-Id: <170914980348.915.7686291361202708859@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 14bbf69dcd5af2b76b8d25199aa4f21a03ea26b1
-    new: 939eb8fef483f8cfbdc0ccb822c174934a49f9d4
+  - ref: refs/heads/iowait
+    old: 719152219ac6fb2aba222722640b10baf1a8eb9c
+    new: 007404fd359892295a3570e321c743bb410132a0
     log: |
-         f1f0c445226c8f03ad329cc2d8072556198fb24a thermal: int340x: processor_thermal: Add Lunar Lake-M PCI ID
-         939eb8fef483f8cfbdc0ccb822c174934a49f9d4 Merge branch 'thermal-intel' into bleeding-edge
+         fd7eca408b70415870b002aadc019e1dc6c8001e sched/core: switch struct rq->nr_iowait to a normal int
+         007404fd359892295a3570e321c743bb410132a0 sched/core: split iowait state into two states
          
