@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 28 Feb 2024 11:22:35 -0000
-Message-Id: <170911935520.8509.17455548398346851779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 28 Feb 2024 11:23:16 -0000
+Message-Id: <170911939622.8818.13029608172574664259@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/stable/v2.40
-    old: 95aacefe18fa1ccb1296c752d292279a2f84fb51
-    new: 0901569a94dc42855e57b8e2aea859e287662263
+  - ref: refs/heads/main
+    old: 943d4bd67950685901addfa7b07aa3408ce17e7f
+    new: 995161edfdb830fd83a652495324e26e0a4bd694
     log: |
-         0901569a94dc42855e57b8e2aea859e287662263 meson: avoid future-deprecated feature
+         995161edfdb830fd83a652495324e26e0a4bd694 net: hsr: Fix typo in the hsr_forward_do() function comment
          
