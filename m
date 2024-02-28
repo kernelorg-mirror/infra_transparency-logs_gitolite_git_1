@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3221059436095823273=="
+Content-Type: multipart/mixed; boundary="===============0716925126127552047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 28 Feb 2024 17:33:50 -0000
-Message-Id: <170914163095.28801.6139020819504874451@gitolite.kernel.org>
+Date: Wed, 28 Feb 2024 17:34:10 -0000
+Message-Id: <170914165046.28969.63822655900374884@gitolite.kernel.org>
 
---===============3221059436095823273==
+--===============0716925126127552047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 1ce7d306ea63f3e379557c79abd88052e0483813
     new: 4adfc94d4aeca1177e1188ba83c20ed581523fe1
     log: revlist-1ce7d306ea63-4adfc94d4aec.txt
 
---===============3221059436095823273==
+--===============0716925126127552047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ ed2c0e4cb6938467174faef07fbba75c47cf69b8 Merge tag 'wireless-2024-02-27' of git:
 8af411bbba1f457c33734795f024d0ef26d0963f stmmac: Clear variable when destroying workqueue
 4adfc94d4aeca1177e1188ba83c20ed581523fe1 Documentations: correct net_cachelines title for struct inet_sock
 
---===============3221059436095823273==--
+--===============0716925126127552047==--
