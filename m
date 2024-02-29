@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 29 Feb 2024 20:32:44 -0000
-Message-Id: <170923876455.23862.2298895243127238342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 29 Feb 2024 20:33:07 -0000
+Message-Id: <170923878730.24067.13697903602094045676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 805d849d7c3cc1f38efefd48b2480d62b7b5dcb7
-    new: d4f76f8065681f55b3c69073829fe7e4c70c0818
+  - ref: refs/heads/for-next
+    old: b915fdf06b41068e80829e6d09597ebfc649f48c
+    new: 65e49e97703564bfa5281675f300576f75057597
     log: |
-         d9818b3e906a0ee1ab02ea79e74a2f755fc5461a landlock: Fix asymmetric private inodes referring
-         d4f76f8065681f55b3c69073829fe7e4c70c0818 Merge tag 'landlock-6.8-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
+         d73709646cafc0ea7e6cfa0bbc6fcd8a6c0f89c3 regulator: da9121: Remove unused of_gpio.h
+         65e49e97703564bfa5281675f300576f75057597 Merge remote-tracking branch 'regulator/for-6.9' into regulator-next
          
