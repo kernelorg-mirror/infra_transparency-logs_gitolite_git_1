@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Thu, 29 Feb 2024 03:44:24 -0000
-Message-Id: <170917826406.27626.13456672576434794334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 29 Feb 2024 03:47:18 -0000
+Message-Id: <170917843897.30344.1888940505680345820@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 5a37098fa47c7d0951adb677cf22f76fc3161cc4
-    new: c2b2c7e7e108ae767afddbb118cb9f7f258f21de
+  - ref: refs/heads/main
+    old: a68c0320fdefdab9ef880188bc20ba73a1bc61b7
+    new: 9ff74d77180a0b0b2705f62bd4dbd313e964ebf8
     log: |
-         d6196a4840b9c4231ead79e1d4e72cf97a3d5668 dbus: Drop default statement
-         6969749900b38fd35aac449f18441a064e7b4cb3 emulator: Check cb isn't NULL before invoking
-         db52bc052b0d5ff4eacb2a934a91009dfa3c40c1 sim-auth: Check for dbus_message_iter_init error
-         5244e1e40a57c2283b0014b191e7ee86c1eda31d voicecall: Handle possible NULL dereference
-         c2b2c7e7e108ae767afddbb118cb9f7f258f21de emulator: Add missing error checks
+         d4f01c5e477afecb0baede359e4b19b9882872fa net: remove SLAB_MEM_SPREAD flag usage
+         e83ddcea65491efe29e12765996966509aa795d3 net: phy: dp83826: disable WOL at init
+         0598f8f3bb77893a13105d47bb7dfe42f1dc1f4e inet: annotate devconf data-races
+         bbcf91053bb622c4c26a9bfc998d3b0c59227f10 inet: do not use RTNL in inet_netconf_get_devconf()
+         167487070d644a285ed863516c80b3c35ec929d6 inet: use xa_array iterator to implement inet_netconf_dump_devconf()
+         3cbab89268c60eb38a0371117fe5b258b1a22dbb Merge branch 'inet-implement-lockless-rtm_getnetconf-ops'
+         9ff74d77180a0b0b2705f62bd4dbd313e964ebf8 netlabel: remove impossible return value in netlbl_bitmap_walk
          
