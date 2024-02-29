@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 29 Feb 2024 03:47:20 -0000
-Message-Id: <170917844000.30409.8632961885571941299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 29 Feb 2024 04:15:04 -0000
+Message-Id: <170918010485.20157.7245779372263397763@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: b6c65eb20ffa8e3bd89f551427dbeee2876d72ca
-    new: 743ad091fb46e622f1b690385bb15e3cd3daf874
+    old: 9ff74d77180a0b0b2705f62bd4dbd313e964ebf8
+    new: 8a7746982ed797e1f511dece56c6675f0f845d6f
     log: |
-         743ad091fb46e622f1b690385bb15e3cd3daf874 rtnetlink: fix error logic of IFLA_BRIDGE_FLAGS writing back
+         8a7746982ed797e1f511dece56c6675f0f845d6f selftests: vxlan_mdb: Avoid duplicate test names
          
