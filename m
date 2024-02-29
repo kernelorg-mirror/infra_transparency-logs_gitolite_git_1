@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 29 Feb 2024 16:39:52 -0000
-Message-Id: <170922479220.32278.14003930020189894907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 29 Feb 2024 16:41:57 -0000
+Message-Id: <170922491704.2363.10757549957448574251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/v4.9.162
-    old: c32308832c36787a1546c4d252afdeab352fbe74
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/gpio/for-next
+    old: 0d776cfd5e5b559fdf2e38285c2aea4b7048acbd
+    new: 90680213a662349fb364510bd11ba3bdb96ae067
+    log: |
+         90680213a662349fb364510bd11ba3bdb96ae067 gpiolib: Fix the error path order in gpiochip_add_data_with_key()
+         
