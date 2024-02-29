@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1655713526889557751=="
+Content-Type: multipart/mixed; boundary="===============4637915585043360957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 29 Feb 2024 23:18:09 -0000
-Message-Id: <170924868906.19278.16393415049767345949@gitolite.kernel.org>
+Date: Thu, 29 Feb 2024 23:25:54 -0000
+Message-Id: <170924915424.25178.15641246044144052578@gitolite.kernel.org>
 
---===============1655713526889557751==
+--===============4637915585043360957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: d76414b1e42c542660c7d4369af6af7498157b66
-    new: 4bc4c8de7cc55cd93f38b2088fc2deab5682d615
-    log: revlist-d76414b1e42c-4bc4c8de7cc5.txt
+  - ref: refs/heads/1GbE
+    old: 616d82c3cfa2a2146dd7e3ae47bda7e877ee549e
+    new: 87adedeba51a822533649b143232418b9e26d08b
+    log: revlist-616d82c3cfa2-87adedeba51a.txt
 
---===============1655713526889557751==
+--===============4637915585043360957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d76414b1e42c-4bc4c8de7cc5.txt
+Content-Disposition: attachment; filename=revlist-616d82c3cfa2-87adedeba51a.txt
 
 1755c4b0372a2cf1e7124956b8cfebcb51083208 dt-bindings: clock: gs101: rename cmu_misc clock-names
 d76c762e7ee04af79e1c127422e0bbcb5f123018 clk: samsung: clk-gs101: comply with the new dt cmu_misc clock names
@@ -362,17 +362,5 @@ f7fa16d49837f947ee59492958f9e6f0e51d9a78 tls: decrement decrypt_pending if no as
 640f41ed33b5a420e05daf395afae85e6b20c003 dpll: fix build failure due to rcu_dereference_check() on unknown type
 d4f76f8065681f55b3c69073829fe7e4c70c0818 Merge tag 'landlock-6.8-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 87adedeba51a822533649b143232418b9e26d08b Merge tag 'net-6.8-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-65d6a10c27615127f2cdd8897a5480272ab52b52 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
-fc1747661bd07da6b566a412b7026397a083c4c8 ice: virtchnl: stop pretending to support RSS over AQ or registers
-29ca402846327cee8a9039327535e2c692a0f196 ice: Refactor FW data type and fix bitmap casting issue
-5c48d6f6951bbac604e6f0207933c41143bccf2a idpf: disable local BH when scheduling napi for marker packets
-916adb1a103130ce921a90052436daf5cab21271 intel: legacy: Partially revert of field get conversion
-3c29189b5a3ae2fc06bff184d6555e6bf900e816 igc: avoid returning frame twice in XDP_REDIRECT
-44b59a24c5cab09adc1ab4f800ad8b125cac94d0 ixgbe: {dis, en}able irqs in ixgbe_txrx_ring_{dis, en}able
-13548af8ac84bfce823063098dff2f95f648c67b i40e: disable NAPI right after disabling irqs when handling xsk_pool
-fea07f8d55d3d7894e1deb184258a81afcd2bfef ice: reorder disabling IRQ and NAPI in ice_qp_dis
-e6a16a8aab6502354323775780ec66b46c3a656f igc: Fix missing time sync events
-8eb87dae890e03c6a1e7710490cb82509a1869b7 igb: Fix missing time sync events
-4bc4c8de7cc55cd93f38b2088fc2deab5682d615 ice: reconfig host after changing MSI-X on VF
 
---===============1655713526889557751==--
+--===============4637915585043360957==--
