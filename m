@@ -1,33 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Thu, 29 Feb 2024 20:35:36 -0000
-Message-Id: <170923893684.27015.7743859048919880534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 29 Feb 2024 20:35:59 -0000
+Message-Id: <170923895929.27260.11057411146356598475@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/heads/for-6.8-fixes
-    old: 66f40b926dd249f74334a22162c09e7ec1ec5b07
-    new: 25125a4762835d62ba1e540c1351d447fc1f6c7c
-    log: |
-         25125a4762835d62ba1e540c1351d447fc1f6c7c cgroup/cpuset: Fix retval in update_cpumask()
-         
-  - ref: refs/heads/for-6.9
-    old: 8d4c171f451d384f3a287eb14bd60825d0b2381b
-    new: 3ab67a9ce82ff22447b1dad53b49a91d1abbf1ff
-    log: |
-         61a182ab61a6dbb8a8782d52347168dc2aa0aa0a cgroup/cpuset: Remove cpuset_do_slab_mem_spread()
-         3ab67a9ce82ff22447b1dad53b49a91d1abbf1ff cgroup/cpuset: Mark memory_spread_slab as obsolete
-         
   - ref: refs/heads/for-next
-    old: 96ea92731d4d8cf827e5404d127e19b2ce7b2f29
-    new: 13eb1d6e1cfcfc277d2cba521c6082ab3e16b43f
+    old: cb3ec1ac30b38828f98841d6a5f57ddb32761c48
+    new: bf790d87088a04d5f3a4659e04ff2a5a16eca294
     log: |
-         25125a4762835d62ba1e540c1351d447fc1f6c7c cgroup/cpuset: Fix retval in update_cpumask()
-         13eb1d6e1cfcfc277d2cba521c6082ab3e16b43f Merge branch 'for-6.8-fixes' into for-next
+         18ebe6f6fccfb093eec85bcdf3e77d48cc03a592 spi: pic32: Replace of_gpio.h by proper one
+         bc9c0a9967fea2c0333bea26ab1bbb66c2bff31a spi: stm32-qspi: Replace of_gpio.h by proper one
+         bf790d87088a04d5f3a4659e04ff2a5a16eca294 Merge remote-tracking branch 'spi/for-6.9' into spi-next
          
