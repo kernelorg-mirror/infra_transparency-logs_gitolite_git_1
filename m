@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0209315601275039123=="
+Content-Type: multipart/mixed; boundary="===============6167424627071338404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Thu, 29 Feb 2024 06:27:22 -0000
-Message-Id: <170918804232.17110.9842691113066640821@gitolite.kernel.org>
+Date: Thu, 29 Feb 2024 06:27:36 -0000
+Message-Id: <170918805672.17284.8744417514486567083@gitolite.kernel.org>
 
---===============0209315601275039123==
+--===============6167424627071338404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,50 +15,59 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
 user: colyli
 changes:
-  - ref: refs/heads/openEuler-1.0-LTS
-    old: 3a28772f4b29bdda924e9a5d2e3ff1ff1b23fd14
-    new: e5b3fc125c261e89df707841ae3e10abc87cc58e
-    log: revlist-3a28772f4b29-e5b3fc125c26.txt
+  - ref: refs/heads/openEuler-22.03-LTS
+    old: 6b4b08cf0b18ddcb49bbe3ffef1741fdf3865d3a
+    new: 23cd60d7d7c0ac04ee189949cdf7484485e1fdb3
+    log: revlist-6b4b08cf0b18-23cd60d7d7c0.txt
 
---===============0209315601275039123==
+--===============6167424627071338404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a28772f4b29-e5b3fc125c26.txt
+Content-Disposition: attachment; filename=revlist-6b4b08cf0b18-23cd60d7d7c0.txt
 
-0ad8c4169c436cc59ab4e8dd0a04764f44634e59 fs:/dcache.c: fix negative dentry flag warning in dentry_free
-6ed7ce891d0cc198c2d5a2cdfb68b34a0dbcd1c5 tracing/kprobes: Do the notrace functions check without kprobes on ftrace
-b16e88e5e6f7dfa3954cb9bf519228daed6327d2 arm64/openeuler_defconfig: add not set config to fix compiling error
-d254d0935f7ffca35e130ad2c17973d3c600a4e6 !4538  fix kprobe reenter bug
-d01cc5bcf8494ab844db4cee6adf1ae6753d25d3 ipv6: remove max_size check inline with ipv4
-7d42b1eb18aab3dbbf48cd8af94d3a496e9d009c ipv6: Document that max_size sysctl is deprecated
-9ea037e5b65ac4cfb49b349ac62a62982345a39a ipv6: fix kabi broken in struct dst_ops
-6f00368917623a29203f8459d5a62ccde333172b !4526 v2  fs:/dcache.c: fix negative dentry flag warning in dentry_free
-7efcac7603953bb58d80041f410b079378b5174c !4552 v4  CVE-2023-52340
-30d529c8b7202791d17dfc98e113974b32390aaf net: hns3: fix tm port shapping of fibre port is incorrect after driver initialization
-aaa5509c858420771f67e3e325bcf84122fc1acd net: hns3: update hns3 version to 24.2.1
-94f199d2ce0118d64c47192cef7247cf30560eba !4583  net: hns3: fix a bug and modify the hns3 driver version
-9dc65c662836ec1c1ceceee214ff6366dbfbab72 xen-netback: don't produce zero-size SKB frags
-caea2096c89e8d8cbaffde0d33f3c6d748c4d0c5 !4601 v2  xen-netback: don't produce zero-size SKB frags
-70f24f63c3102a79e6f3594a8cfab39799b7fd4d f2fs: explicitly null-terminate the xattr list
-b97b63500af297c36f80416fd1f1193d227cf51a !4643  f2fs: explicitly null-terminate the xattr list
-e44626250fe1b89baaa5df340746f922e0217c6f uio: Fix use-after-free in uio_open
-6afb646e4d095c62ebc08ac24e7b4513f1549f75 net: prevent mss overflow in skb_segment()
-cfbcb464b6c875e2c609d7d8593e2b4eb949bae2 net: Fix compile warning in skb_segment()
-56a57d471ebb9439d3318a2176b2b22ad8c3d5e8 mlxsw: spectrum_acl_tcam: Fix stack corruption
-dc7fac75a018506691927a617af59c5312b2d09d mlxsw: spectrum_acl_tcam: Fix NULL pointer dereference in error path
-dded5e231926ccfc744a26c1412474b4001228c1 mtd: Fix gluebi NULL pointer dereference caused by ftl notifier
-dc7c9de1de3d740755e721b5b96a897752fa770f usb: hso: check for return value in hso_serial_common_create()
-176f58c1f7c7a45f8e1fcaf51d4040385347ba7c net: hso: fix null-ptr-deref during tty device unregistration
-ffa0d69d975be471adcfcd5f0279db5fbca411d5 net: hso: fix NULL-deref on disconnect regression
-c297b42486fdb88f093b2d54f61cf0332cc7a71b !4684 v3  CVE-2023-52435
-835ce2116b79b1fbcbab143516034491c70122d6 !4701 v2  mlxsw: spectrum_acl_tcam: Fix NULL pointer dereference in error path
-8216cdc42c92871310944f505b129536ab888907 !4671  uio: Fix use-after-free in uio_open
-2e5e2919494b1ad90dc349fef8415cba098c93df i2c: hisi: Optimized the value setting of maxwrite limit to fifo depth - 1
-aff8d64f01742db851afc878557b28615c064d10 i2c: hisi: Add clearing tx aempty interrupt operation
-f4144fbf7c9ea25e28c09948789c71f86443c449 !4710  CVE-2021-46904 for openEuler1.0
-94da7394d29612695476dbb02f195f0236c9d3eb !4686  mlxsw: spectrum_acl_tcam: Fix stack corruption
-b8504baf97d8854acb051513f24d3867f35c6633 !4707  mtd: Fix gluebi NULL pointer dereference caused by ftl notifier
-e5b3fc125c261e89df707841ae3e10abc87cc58e !4751 [sync] PR-4623: i2c: Optimized the value setting of maxwrite limit to  fifo depth - 1
+850b35a0420dcd237a1207b17ced13478eb23207 net/rds: Fix UBSAN: array-index-out-of-bounds in rds_cmsg_recv
+b08d7f869f6131c7427c2eebf8951c3953987648 scsi: core: Add scsi_prot_ref_tag() helper
+cc18f3e60791703636fb2ab0d58367db8b26fa45 scsi: core: Introduce scsi_get_sector()
+219f6c671ffa8cd25e204a0ce887f61670397157 scsi: core: Make scsi_get_lba() return the LBA
+27e36a57a3f241df1c8f633ccfe99d2ffe5e4b41 scsi: core: Use scsi_cmd_to_rq() instead of scsi_cmnd.request
+d843fad0e34f733d9b0f6456eabf4e8d6dcf2b62 scsi: core: Use a structure member to track the SCSI command submitter
+b4388e4e12b2211af6cbede5cd7e1ca4b98ea33d scsi: core: Always send batch on reset or error handling command
+da94f1ad497e6ca1af3f62ce0ba07ed6420d58bb Revert "scsi: core: Always send batch on reset or error handling command"
+b808a8d407e412e2cf764b1dd15dfbd9f1867f37 Revert "scsi: core: Use a structure member to track the SCSI command submitter"
+5086b4ffa87862c550ab004164aea82e0e85eee5 Revert "scsi: core: Use scsi_cmd_to_rq() instead of scsi_cmnd.request"
+c3367d2ff9e88d6c9dba611de5831edc62b917de Revert "scsi: core: Make scsi_get_lba() return the LBA"
+7abdc6d30c4ac15c4a1fe2a172ccca9dc626976d Revert "scsi: core: Introduce scsi_get_sector()"
+48e3d9ea0c58afdf4de25e7e5171fe74daba71c8 Revert "scsi: core: Add scsi_prot_ref_tag() helper"
+3440dc004dae2fba654178c8c9769ec107c9d842 scsi: core: Always send batch on reset or error handling command
+904476b615ad9a3fc4ce641821e044228a4ac575 ipv6: remove max_size check inline with ipv4
+1c120fea1852aee80d972a0b15637d01b0038a53 ipv6: Document that max_size sysctl is deprecated
+78709c2a0bd0adb73632d5da3d4b1553fe8f8fbd ipv6: fix kabi change in struct dst_ops
+b825eb08eff282b9c611865440e8c53e42444052 netfilter: nf_tables: reject QUEUE/DROP verdict parameters
+7a38298cdb6cb2c296723ff1c0f5407b475a8d22 tracing: Increase trace array ref count on enable and filter files
+70c6b231b6b5d3c854a6b25f9fe0b6e9d6f254b6 tracing: Have trace_event_file have ref counters
+9ef113487c6f81a30c44c79a0a8669e4d2293a02 tracing: Have event inject files inc the trace array ref count
+1aee956045f025aa3efc1a8ce77db3911d4d98c6 tracing: Fix uaf issue when open the hist or hist_debug file
+952ed69964e47642b315e557ac44fe8e85a77e80 trace: Fix kabi breakage in struct trace_event_file
+ed27c56da4df0ea2c6224f0d642b703e837bea93 sctp: fix potential deadlock on &net->sctp.addr_wq_lock
+6dc3f197a3d0cf3151922d1272b95a82c27ac402 fs,hugetlb: fix NULL pointer dereference in hugetlbs_fill_super
+d575d7a35becee2eb232725fb8573f8a227a7477 !4585 [sync] PR-4562: v4  tracing: Backport bugfixes
+0c62daea9be1cccac2710d410ddf27af5820d00c xen-netback: don't produce zero-size SKB frags
+c099af8d7e257159627c8882c79ef2bc15497988 !4607 [sync] PR-4588:  fs,hugetlb: fix NULL pointer dereference in hugetlbs_fill_super
+bd8e4c23418edef0fbbf279c648b42b8b84e3d61 fs:/dcache.c: fix negative dentry flag warning in dentry_free
+290499f47f3b0e3c5e152f568966746b4ad43ec0 !4548 [sync] PR-4461:  netfilter: nf_tables: reject QUEUE/DROP verdict parameters
+3c4d04a4a9705edbc8fabba04486135d5c0b6850 !4591  sctp: fix potential deadlock on &net->sctp.addr_wq_lock
+eb67f5904d577c34a47ce3af3100ede09a3c9b9e !4613 [sync] PR-4521:  xen-netback: don't produce zero-size SKB frags
+b1157b93ca967d5101b529108d8ef867877e4a90 !4443 [sync] PR-4290:  net/rds: Fix UBSAN: array-index-out-of-bounds in rds_cmsg_recv
+5127e0fc11ecd46f11df2dafad2395e555392549 !4515 [sync] PR-4431: v2  patchset for CVE-2023-52340
+e58a75932fb794cfe04c05f9a52ccb5b9c379e58 net: prevent mss overflow in skb_segment()
+a808b7eb814dc22615f7e4423d971fcf9f73b884 net: Fix compile warning in skb_segment()
+4b7815bb923a64da34bcf4c61922a4fbf8270699 !4625 [sync] PR-4531:  fs:/dcache.c: fix negative dentry flag warning in dentry_free
+928a80597b50be8993284990318ac13b5d084704 ALSA: hda: fix a possible null-pointer dereference due to data race in snd_hdac_regmap_sync()
+28ffcf2049a22a9eaabc5a173769dff620e2ede1 !4691  ALSA: hda: fix a possible null-pointer dereference due to data race in snd_hdac_regmap_sync()
+745e8aeb6ced191ddce0a1cae31b88c08ef30c9f !4681 [sync] PR-4662: v3  CVE-2023-52435
+548b45dc0bcac5f98cfce088a582baf95dd17c92 !4466 [sync] PR-4256:  scsi: core: Always send batch on reset or error handling command
+9679d6f7aa9d12bc128236f5edbbb26a30944d85 mlxsw: spectrum_acl_tcam: Fix NULL pointer dereference in error path
+23cd60d7d7c0ac04ee189949cdf7484485e1fdb3 !4722 [sync] PR-4694: v2  mlxsw: spectrum_acl_tcam: Fix NULL pointer dereference in error path
 
---===============0209315601275039123==--
+--===============6167424627071338404==--
