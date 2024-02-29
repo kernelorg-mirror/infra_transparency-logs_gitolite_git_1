@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 29 Feb 2024 16:41:57 -0000
-Message-Id: <170922491704.2363.10757549957448574251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 29 Feb 2024 16:41:58 -0000
+Message-Id: <170922491800.2422.10697069488509438951@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 0d776cfd5e5b559fdf2e38285c2aea4b7048acbd
-    new: 90680213a662349fb364510bd11ba3bdb96ae067
+  - ref: refs/heads/timers/core
+    old: 8b3843ae3634b472530fb69c3861de0b70a5e6bf
+    new: a184d9835a0a689261ea6a4a8dbc18173a031b77
     log: |
-         90680213a662349fb364510bd11ba3bdb96ae067 gpiolib: Fix the error path order in gpiochip_add_data_with_key()
+         a184d9835a0a689261ea6a4a8dbc18173a031b77 tick/sched: Fix build failure for CONFIG_NO_HZ_COMMON=n
          
