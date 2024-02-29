@@ -1,22 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Thu, 29 Feb 2024 20:31:27 -0000
-Message-Id: <170923868742.23131.4790839549839227815@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0166299963668941554=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 29 Feb 2024 20:32:13 -0000
+Message-Id: <170923873305.23474.1671121455107678803@gitolite.kernel.org>
+
+--===============0166299963668941554==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 03160ab1fc34af98964ac62a25f68d6f43e59acd
-    new: 07f48b23e3877ef7d15a7b0b8b79d32ad0a3607e
+  - ref: refs/heads/for-6.9
+    old: fdf82f23ca25a80bee354b667259bf57dcfb607d
+    new: d73709646cafc0ea7e6cfa0bbc6fcd8a6c0f89c3
     log: |
-         8165dc6c175f1d355b3c6e1f305d541fffbce895 voicecall: Drop unused GError variables
-         a90421d8e45d63b304dc010baba24633e7869682 smsutil: ensure the address length in bytes <= 10
-         7f2adfa22fbae824f8e2c3ae86a3f51da31ee400 smsutil: Check cbs_dcs_decode return value
-         07f48b23e3877ef7d15a7b0b8b79d32ad0a3607e simutil: Make sure set_length on the parent succeeds
+         d73709646cafc0ea7e6cfa0bbc6fcd8a6c0f89c3 regulator: da9121: Remove unused of_gpio.h
          
+
+--===============0166299963668941554==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1709238730 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1709238730-45126ad6c4606c2dd8e6161731c0c11c2da9a594
+
+fdf82f23ca25a80bee354b667259bf57dcfb607d d73709646cafc0ea7e6cfa0bbc6fcd8a6c0f89c3 refs/heads/for-6.9
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXg6csACgkQJNaLcl1U
+h9BWTggAgVwXUOK0rNq8+huL55xXDnptfCsqxazjswGEsGN25vKiox3zFrsvyPHL
+QITOJ708+9mGMUPZARkEAIB4IGc6T9vAzzM/KaSXLDd6NGqUG9nNOrYkKSSKUnUA
+OfZTtlDmOgJ/GeMheiAFR9iYeh1qV4IyRKOfZEMOi7/sZ+q7xAzy+MC11AcJAeFZ
+C137oF9tbaszt0hmw5qFaH6bAHHrDl+lvkaM2LWOMJ/asdB8XkTO44fnCnvBaC8x
+BmuuHO5zeTMZqphzVjwXsxi5ySZZryoym2HlXPBpnx9L7whzux4rX0nRH/tlQRyD
+ItbuVb1ySfwechmZZXTEqyvnJaKNNg==
+=b14O
+-----END PGP SIGNATURE-----
+
+--===============0166299963668941554==--
