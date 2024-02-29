@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Thu, 29 Feb 2024 20:37:56 -0000
-Message-Id: <170923907635.29398.3025878383825131576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 29 Feb 2024 20:38:05 -0000
+Message-Id: <170923908562.29557.9323032529583364755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-6.9
-    old: 60b2ebf48526567b53e0188dbd1a4df8e646bcc1
-    new: 9162ad79f04add9d6cf2e85cf3e8ac9642b7f33d
+  - ref: refs/heads/master
+    old: 83c032a58357f968382c942e676f463ceac5e37a
+    new: c2ad0006ebac2718adc752c7f4d0dcf15e092599
     log: |
-         9162ad79f04add9d6cf2e85cf3e8ac9642b7f33d workqueue: Drain BH work items on hot-unplugged CPUs
-         
-  - ref: refs/heads/for-next
-    old: a0b5824d0a114ad3da367a6d4561c18f70ef0de3
-    new: 7bb0e606ba4ab32c919cd365a9fa2e7f5e20f909
-    log: |
-         9162ad79f04add9d6cf2e85cf3e8ac9642b7f33d workqueue: Drain BH work items on hot-unplugged CPUs
-         7bb0e606ba4ab32c919cd365a9fa2e7f5e20f909 Merge branch 'for-6.9' into for-next
+         338577bb3aa99e62dfe694146eb986f2cc99d502 ap: check that the last band_freq_attrs was set
+         6febe5bed194163ae1332943a163a0e08a720a6b ap: allow va_end to get called in ap_handshake_event
+         3a17c8e3c546a4014fb41a05cc46ddcf69304044 nl80211util: check l_genl_attr_recurse return in extract_nested
+         5fcfb430b2d75a269a9c3216089d76749ee28856 ap: verify ATTR_MAC exists in NEW_STATION
+         c2ad0006ebac2718adc752c7f4d0dcf15e092599 ap: bail in ap_del_station if AP is going down
          
