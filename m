@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 29 Feb 2024 18:17:56 -0000
-Message-Id: <170923067681.18749.5065904342466211393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 29 Feb 2024 18:18:45 -0000
+Message-Id: <170923072560.19160.13807323405899427075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/kdevops
-    old: 2eb3d14898b97bdc0596d184cbf829b5a81cd639
-    new: 60bc4d4c4f0a40d85004742d9860c0c40e8d1bb8
+  - ref: refs/heads/fixes
+    old: 325731481cea11f0d5e771f6d9ba78cf13f08407
+    new: 680945f0aa5084d49bbfb705ca162fc00cc146ae
     log: |
-         60bc4d4c4f0a40d85004742d9860c0c40e8d1bb8 nfsd: return NFS4ERR_DELAY on contention for v4.0 replay_owner
+         680945f0aa5084d49bbfb705ca162fc00cc146ae MAINTAINERS: Update SiFive driver maintainers
          
