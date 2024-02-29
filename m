@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 29 Feb 2024 12:30:45 -0000
-Message-Id: <170920984566.1987.17912644270903473583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 29 Feb 2024 12:45:13 -0000
+Message-Id: <170921071383.13181.14378840074998090990@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/kvm-arm64/vcpu-shrink
-    old: 3ff97a38c546d080b5c4fa180f5f9e4000ab6a45
-    new: 6757a912a3c7d15757c32ee51be5c08138c2e35b
+  - ref: refs/heads/kdevops
+    old: 1ae8ac0365158de4f4c9a8d6730b05a91c1b56dd
+    new: 167e7b99c49c07cf1152e970bab907f39a05a7cf
     log: |
-         6757a912a3c7d15757c32ee51be5c08138c2e35b KVM: arm64: vgic: Allocate PPIs on demand
+         167e7b99c49c07cf1152e970bab907f39a05a7cf DEBUG: dprintk the rp_buflen
          
