@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 29 Feb 2024 04:16:34 -0000
-Message-Id: <170918019427.21026.18082178035699752261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 29 Feb 2024 04:20:30 -0000
+Message-Id: <170918043062.24073.18170167726657550930@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 8a7746982ed797e1f511dece56c6675f0f845d6f
-    new: 82a48affb36f1fee36fe415051a8947d42861108
+    old: 743ad091fb46e622f1b690385bb15e3cd3daf874
+    new: 0bb7b09392eb74b152719ae87b1ba5e4bf910ef0
     log: |
-         d35150c79ffcd730e3c9f20cf128288606e3bf3b net: bridge: Do not allocate stats in the driver
-         82a48affb36f1fee36fe415051a8947d42861108 net: bridge: Exit if multicast_init_stats fails
+         0bb7b09392eb74b152719ae87b1ba5e4bf910ef0 igb: extend PTP timestamp adjustments to i211
          
