@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Thu, 29 Feb 2024 06:37:44 -0000
-Message-Id: <170918866422.25615.5538368085352298149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
+Date: Thu, 29 Feb 2024 06:38:13 -0000
+Message-Id: <170918869371.25965.2010103047097483954@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: oupton
+repo: pub/scm/utils/kernel/ndctl/ndctl
+user: vishal
 changes:
-  - ref: refs/heads/next
-    old: 8b177908c5fe6e38911f46c82dfa0fec7644d6dc
-    new: 16d120d23aade6eafd7d891e38467c6011abb00e
+  - ref: refs/heads/pending
+    old: bb97d6de9d03c25f7123297e78925a3ca96c9ab7
+    new: ffbbb0bc246d967d53821184047f1121e02f8a81
     log: |
-         43b3bedb7cc4348f2885a30e960b63b94d1be381 KVM: selftests: aarch64: Remove unused functions from vpmu test
-         16d120d23aade6eafd7d891e38467c6011abb00e Merge branch kvm-arm64/misc into kvmarm/next
+         ffbbb0bc246d967d53821184047f1121e02f8a81 cxl/event_trace: parse arrays separately from strings
          
