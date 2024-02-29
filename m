@@ -1,24 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 29 Feb 2024 17:33:40 -0000
-Message-Id: <170922802019.18292.12783967900984736751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Thu, 29 Feb 2024 18:05:57 -0000
+Message-Id: <170922995786.9891.6789345151939863830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/dev-test
-    old: ab70a40a1950fd149bd019e47aa313da6b40bfcf
-    new: 22932cceb98a27603db40cfe03cdd7943515b310
-    log: |
-         99bf79d3cab3dc74355a387c3fb2834310327879 f2fs: print zone status in string and some log
-         80d3964e8874ab7e6e710a0fa875440948b48ac1 f2fs: allow to mount if cap is 100
-         f22e62515fc4f10c34d62de705a1122bf8b69d68 f2fs: fix to use correct segment type in f2fs_allocate_data_block()
-         618a2841a77a46180c1c69031c7eda929c5418b6 f2fs: fix to check return value in f2fs_insert_range()
-         f373b1a59fc43e5d5ab39f0beb2ca10a720f2ada f2fs: ro: compress: fix to avoid caching unaligned extent
-         22932cceb98a27603db40cfe03cdd7943515b310 f2fs: ro: don't start discard thread for readonly image
-         
+  - ref: refs/tags/landlock-6.8-rc7
+    old: 0000000000000000000000000000000000000000
+    new: a4612f2737fd0186b630c83e2df003a7f70f8607
+  - ref: refs/tags/v6.8-rc2
+    old: 0000000000000000000000000000000000000000
+    new: c18956a7ed4b71eec72700a0899ad21167b994bb
+  - ref: refs/tags/v6.8-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 0b5b909d9a9083afacaac2a75dac24ba3649f692
+  - ref: refs/tags/v6.8-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 251168394b084796bcd8f3e3655f2eb38c524ea3
+  - ref: refs/tags/v6.8-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 7e311d420f96ef38326a0f3b7d8cffa3dee32ae5
+  - ref: refs/tags/v6.8-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8bf1e5a08989cf5c8d9c117ebc47554951a08d6d
