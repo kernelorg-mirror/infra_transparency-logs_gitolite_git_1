@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 29 Feb 2024 20:35:59 -0000
-Message-Id: <170923895929.27260.11057411146356598475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 29 Feb 2024 20:36:28 -0000
+Message-Id: <170923898885.27525.13761671953803335329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: cb3ec1ac30b38828f98841d6a5f57ddb32761c48
-    new: bf790d87088a04d5f3a4659e04ff2a5a16eca294
+  - ref: refs/heads/master
+    old: aef394895d82d53ef512b2bfa1bd20dfda9e5677
+    new: 83c032a58357f968382c942e676f463ceac5e37a
     log: |
-         18ebe6f6fccfb093eec85bcdf3e77d48cc03a592 spi: pic32: Replace of_gpio.h by proper one
-         bc9c0a9967fea2c0333bea26ab1bbb66c2bff31a spi: stm32-qspi: Replace of_gpio.h by proper one
-         bf790d87088a04d5f3a4659e04ff2a5a16eca294 Merge remote-tracking branch 'spi/for-6.9' into spi-next
+         5067654a6d4ff08ebd6b3976d8b3cf22e9a392fd auto-t: end process_io on HUP signal, detect process crash
+         816d258cab66a99a3930d2812a67030ecf883d9e auto-t: Add frame fuzzing test
+         52a47c9fd428904de611a90cbf8b223af879684d p2putil: fix crash/remove side effect parsing adv service info
+         d34b4e16e045142590ed7cb653e01ed0ae5362eb p2putil: initialize all parsing structures to zero
+         83c032a58357f968382c942e676f463ceac5e37a p2putil: check length of client info description
          
