@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0732733244751276580=="
+Content-Type: multipart/mixed; boundary="===============2322017645209324409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 29 Feb 2024 17:05:08 -0000
-Message-Id: <170922630872.19295.7747554189172405421@gitolite.kernel.org>
+Date: Thu, 29 Feb 2024 17:05:26 -0000
+Message-Id: <170922632695.19460.5766542043891575326@gitolite.kernel.org>
 
---===============0732733244751276580==
+--===============2322017645209324409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 4ac828960a604e2ae72af59ce44dafdc8b12675f
     new: 489645d3f1332f65a9337cb31c0ee12a1259a484
     log: revlist-4ac828960a60-489645d3f133.txt
 
---===============0732733244751276580==
+--===============2322017645209324409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ be9bd8d4e52a288a23d9c310462e4a3b25edf35c Merge branch 'net-dsa-mv88e6xxx-add-ame
 fa0cd90213695b928410484264b38982757a5c28 net: sit: Do not set .ndo_get_stats64
 489645d3f1332f65a9337cb31c0ee12a1259a484 Merge branch 'net-collect-tstats-automatically'
 
---===============0732733244751276580==--
+--===============2322017645209324409==--
