@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2000403953890385197=="
+Content-Type: multipart/mixed; boundary="===============6787372489407344944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 29 Feb 2024 21:38:37 -0000
-Message-Id: <170924271729.10593.13257434918843200671@gitolite.kernel.org>
+Date: Thu, 29 Feb 2024 21:39:16 -0000
+Message-Id: <170924275624.10906.18204460531294348139@gitolite.kernel.org>
 
---===============2000403953890385197==
+--===============6787372489407344944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
+  - ref: refs/heads/for-next/kspp
     old: f65084d2eff1a521ed58ed9a8cab8e848bbf222a
     new: 316e79e418daaa1f0e14594a3a2112e256e1c792
     log: revlist-f65084d2eff1-316e79e418da.txt
 
---===============2000403953890385197==
+--===============6787372489407344944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ c2efa5387c2676815ebbb6a954bf72fef2609709 lib: stackinit: Adjust target string to
 c5e6d3d85efa7451590edd94725b4b280e2fd8a3 overflow: Use POD in check_shl_overflow()
 316e79e418daaa1f0e14594a3a2112e256e1c792 x86, relocs: Ignore relocations in .notes section
 
---===============2000403953890385197==--
+--===============6787372489407344944==--
