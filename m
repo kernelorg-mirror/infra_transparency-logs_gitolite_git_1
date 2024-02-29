@@ -1,19 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 29 Feb 2024 18:51:30 -0000
-Message-Id: <170923269016.11608.1637502078472310788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 29 Feb 2024 18:54:43 -0000
+Message-Id: <170923288305.14770.9169251952059272300@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: f6c2d1e4d3f17de4419324af60840c9012566f18
-    new: 436ecf15fe5d08a3f0b9882c54a465154764a8ea
+    old: 311ea4e73b8b35788e1bbc784350082e45e9d445
+    new: 4aa584a0e7482b89599c01986cd4ea69a397f808
     log: |
-         436ecf15fe5d08a3f0b9882c54a465154764a8ea foo
+         4aa584a0e7482b89599c01986cd4ea69a397f808 setterm: Document behavior of redirection
+         
+  - ref: refs/heads/stable/v2.40
+    old: d36a8b1db7d9a5b3d5e3b52c09fe347a0c524b2f
+    new: 30eb9e10698c8431de08e8be3cfe0102b7dbe495
+    log: |
+         c0b2650acab9ec0aa1ab9473bf422afa920ed262 setterm: Document behavior of redirection
+         fc930b52e795c7fd86688c5d451c8924919773f8 lsfd: (cosmetic) normalize whitespaces
+         0964276250613c790d0cc8ebb0eac76c1811ac43 lsfd: make the way to read /proc/$pid/mountinfo robust
+         7a8881c63cf0b0ed9ccbc68f255812e4cd597032 lsfd: (refactor) rename add_nodevs to read_mountinfo
+         30eb9e10698c8431de08e8be3cfe0102b7dbe495 lsfd: read /proc/$pid/ns/mnt earlier
          
