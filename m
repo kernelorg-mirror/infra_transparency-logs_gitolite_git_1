@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Thu, 29 Feb 2024 13:15:37 -0000
-Message-Id: <170921253721.3080.8899469148838637022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Thu, 29 Feb 2024 13:18:34 -0000
+Message-Id: <170921271491.4194.15257499129418211711@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mdadm/mdadm
-user: mtkaczyk
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/master
-    old: 3c3ddeeccc1eb4accb62ce9920de430a564be806
-    new: d1cd231ae41d98b2555dbff08d0c79876b5059fe
+  - ref: refs/heads/for-linus
+    old: d206a76d7d2726f3b096037f2079ce0bd3ba329b
+    new: 8ee916627f357e0d9da5deae8af75442b8bb06b2
     log: |
-         d1cd231ae41d98b2555dbff08d0c79876b5059fe super-intel: respect IMSM_DEVNAME_AS_SERIAL flag
+         d0b06dc48fb15902d7da09c5c0861e7f042a9381 firewire: core: use long bus reset on gap count error
+         8ee916627f357e0d9da5deae8af75442b8bb06b2 firewire: ohci: prevent leak of left-over msi on unbind
          
