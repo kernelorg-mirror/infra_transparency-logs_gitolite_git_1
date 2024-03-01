@@ -1,29 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4590630815685494316=="
+Content-Type: multipart/mixed; boundary="===============3263785931342009905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 01 Mar 2024 00:14:33 -0000
-Message-Id: <170925207357.27579.5856393292156657784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 01 Mar 2024 00:17:52 -0000
+Message-Id: <170925227231.30438.6356820681448051160@gitolite.kernel.org>
 
---===============4590630815685494316==
+--===============3263785931342009905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
   - ref: refs/heads/main
     old: 489645d3f1332f65a9337cb31c0ee12a1259a484
     new: 65f5dd4f02a89df429b8212b4c2f3ada6c4f3fc1
     log: revlist-489645d3f133-65f5dd4f02a8.txt
-  - ref: refs/tags/v6.8-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8bf1e5a08989cf5c8d9c117ebc47554951a08d6d
 
---===============4590630815685494316==
+--===============3263785931342009905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -427,4 +424,4 @@ d4f76f8065681f55b3c69073829fe7e4c70c0818 Merge tag 'landlock-6.8-rc7' of git://g
 87adedeba51a822533649b143232418b9e26d08b Merge tag 'net-6.8-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 65f5dd4f02a89df429b8212b4c2f3ada6c4f3fc1 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============4590630815685494316==--
+--===============3263785931342009905==--
