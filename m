@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2163833956056627197=="
+Content-Type: multipart/mixed; boundary="===============8294289942288020656=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 01 Mar 2024 17:08:55 -0000
-Message-Id: <170931293531.22725.12996853340511938780@gitolite.kernel.org>
+Date: Fri, 01 Mar 2024 17:09:12 -0000
+Message-Id: <170931295283.22904.18438101988934929515@gitolite.kernel.org>
 
---===============2163833956056627197==
+--===============8294289942288020656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 65f5dd4f02a89df429b8212b4c2f3ada6c4f3fc1
     new: e960825709330cb199d209740326cec37e8c419d
     log: revlist-65f5dd4f02a8-e96082570933.txt
 
---===============2163833956056627197==
+--===============8294289942288020656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -80,4 +80,4 @@ a5fcf74d80bec9948701ff0f7529ae96a0c4a41c inet: annotate data-races around ifa->i
 cdb2f80f1c10654efc66c1624f66df2b87eabf06 inet: use xa_array iterator to implement inet_dump_ifaddr()
 e960825709330cb199d209740326cec37e8c419d Merge branch 'inet_dump_ifaddr-no-rtnl'
 
---===============2163833956056627197==--
+--===============8294289942288020656==--
