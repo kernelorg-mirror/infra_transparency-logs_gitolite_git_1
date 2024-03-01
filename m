@@ -1,34 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
-Date: Fri, 01 Mar 2024 18:54:39 -0000
-Message-Id: <170931927916.2553.11460647465168481009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 01 Mar 2024 19:01:46 -0000
+Message-Id: <170931970651.8363.14520240295869228348@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bigeasy/staging
-user: bigeasy
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/serial_sysrq
-    old: 0000000000000000000000000000000000000000
-    new: 10d736294b73878db26f851c20074bb5ed3c1cd9
-  - ref: refs/tags/v6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a0706eba72b90a4702dde6a0b8cc82d78e9b2495
-  - ref: refs/tags/v6.8-rc2
-    old: 0000000000000000000000000000000000000000
-    new: c18956a7ed4b71eec72700a0899ad21167b994bb
-  - ref: refs/tags/v6.8-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0b5b909d9a9083afacaac2a75dac24ba3649f692
-  - ref: refs/tags/v6.8-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 251168394b084796bcd8f3e3655f2eb38c524ea3
-  - ref: refs/tags/v6.8-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 7e311d420f96ef38326a0f3b7d8cffa3dee32ae5
-  - ref: refs/tags/v6.8-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8bf1e5a08989cf5c8d9c117ebc47554951a08d6d
+  - ref: refs/heads/kvm-arm64/vcpu-shrink
+    old: 6757a912a3c7d15757c32ee51be5c08138c2e35b
+    new: 1335d29b88713ed2aedf337e9b9c652eb3688b62
+    log: |
+         6dbcc2e12a6b11d869e712d735b8a9740ee889c3 KVM: arm64: Fix TRFCR_EL1/PMSCR_EL1 access in hVHE mode
+         58c2db2928230cbab64646610ccb859e01522772 KVM: Drop misleading comments regarding slots_lock in kvm_io_bus_{read,write}*()
+         4df4d02a7de4be96a6d304ec2ff0869cae9ddf49 KVM: arm64: Add accessor for per-CPU state
+         b4b7a4c89e24bb5b307e14c71d9a1d7c502f81da KVM: arm64: Exclude host_debug_data from vcpu_arch
+         7af213fa26829be638125b16fd824a8fb2fb1045 KVM: arm64: Move mdcr_el2_host into the host structure
+         8a3b8025325088206a31af8a36863f07f22c859f KVM: arm64: Move host_fpsimd_state pointer to host structure
+         59effa3061e0a2c4e2bc8b8b9deccb62f7d37ed4 KVM: arm64: Move FP ownership to host structure
+         1335d29b88713ed2aedf337e9b9c652eb3688b62 KVM: arm64: vgic: Allocate PPIs on demand
+         
