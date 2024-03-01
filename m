@@ -1,90 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============6606661699824440906=="
+Content-Type: multipart/mixed; boundary="===============7000399194179606661=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 01 Mar 2024 12:50:04 -0000
-Message-Id: <170929740492.24214.5698282910568809018@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 01 Mar 2024 12:51:26 -0000
+Message-Id: <170929748621.4226.13496875090982226224@gitolite.kernel.org>
 
---===============6606661699824440906==
+--===============7000399194179606661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.9/block
-    old: 13fe8e6825e44129b6cbeee41d3012554bf8d687
-    new: 86b1e613eb3b8e6a0f87676e33d847b2eb204b22
-    log: revlist-13fe8e6825e4-86b1e613eb3b.txt
-  - ref: refs/heads/for-next
-    old: 6401bc1bc4975951d806ebd0925c75eff4687398
-    new: 17f9af567cb8b52fd19169295d57034da1b21973
-    log: revlist-6401bc1bc497-17f9af567cb8.txt
+  - ref: refs/tags/v4.19.308
+    old: 0000000000000000000000000000000000000000
+    new: 81719a1f14bbf71dd11fef5eec3da92abbb46ccb
+  - ref: refs/tags/v5.10.211
+    old: 0000000000000000000000000000000000000000
+    new: 82cf8c3bcce368c2aeb026d9e5534e594e474021
+  - ref: refs/tags/v5.15.150
+    old: 0000000000000000000000000000000000000000
+    new: d4209d7e7ccbc317a5c70d6aa315359bceaf88f7
+  - ref: refs/tags/v5.4.270
+    old: 0000000000000000000000000000000000000000
+    new: 37d5b856de50f998b3c364063c56bd100c48c66e
+  - ref: refs/tags/v6.1.80
+    old: 0000000000000000000000000000000000000000
+    new: 568d896f2180886b9c98be930d87e790879bd8e8
+  - ref: refs/tags/v6.6.19
+    old: 0000000000000000000000000000000000000000
+    new: 76eef3c741456e20d309e19d671b154dc1d30aa2
+  - ref: refs/tags/v6.7.7
+    old: 0000000000000000000000000000000000000000
+    new: 5f9ce71f4f6ee86b34bbf354d658baad904b79bc
+  - ref: refs/tags/v6.8-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8bf1e5a08989cf5c8d9c117ebc47554951a08d6d
 
---===============6606661699824440906==
+--===============7000399194179606661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13fe8e6825e4-86b1e613eb3b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2fe4ffc3ecdcb69d0e5aded5abf5367e3519bd04 md: merge the check of capabilities into md_ioctl_valid()
-4e26593944e02446a75d911e11b759a9320c8273 md: changed the switch of RAID_VERSION to if
-9dd8702e7cd28ebf076ff838933f29cf671165ec md: clean up invalid BUG_ON in md_ioctl
-91b26a39fb83cf370d94980609bf649c3c46993c md: return directly before setting did_set_md_closing
-9674f54e41fffaf06f6a60202e1fa4cc13de3cf5 md: Don't clear MD_CLOSING when the raid is about to stop
-f74aaf614e84d8e5767a062e1172b4907c7b775e md: factor out a helper to sync mddev
-99b902ac17253ee65d23012e2be390c026b77fa4 md: sync blockdev before stopping raid or setting readonly
-650b2e69ff6ab4de8d895e933f2b6fbacb1f8411 md: clean up openers check in do_md_stop() and md_set_readonly()
-e9b0a1556ca2e18d67fa6452b2b99aa66b60ba6e md: check mddev->pers before calling md_set_readonly()
-ecbd8ebb51bf7e4939d83b9e6022a55cac44ef06 md/md-bitmap: fix incorrect usage for sb_index
-dfd2bf436709b2bccb78c2dda550dde93700efa7 md/raid5: fix atomicity violation in raid5_cache_count
-3a0f007b6979db6b5e0022d9edf4b61002be3e10 md: add a new helper rdev_has_badblock()
-969d6589abcb369d53d84ec7c9c37f4b23ec1ad9 md/raid1: factor out helpers to add rdev to conf
-2c27d09d3a76b33629d2e681bf8b774f776ade7f md/raid1: record nonrot rdevs while adding/removing rdevs to conf
-257ac239ffcfd097a9a0732bf5095fb00164f334 md/raid1: fix choose next idle in read_balance()
-f29841ff3b272e1703454f93b96baf0fe0d9f31a md/raid1-10: add a helper raid1_check_read_range()
-f109207629552cb04c2a48e90abe7c481e363984 md/raid1-10: factor out a new helper raid1_should_read_first()
-31a73331752d3c7d28c8fc089b21d3ae8c15e664 md/raid1: factor out read_first_rdev() from read_balance()
-dfa8ecd167c1753d4fc24a517e1d79c603183c94 md/raid1: factor out choose_slow_rdev() from read_balance()
-9f3ced792203891b8fa39afa37908eba843fcfac md/raid1: factor out choose_bb_rdev() from read_balance()
-ba58f57fdf98af642c57654599823640ffe8334c md/raid1: factor out the code to manage sequential IO
-0091c5a269eca7ab0e057c3083804daed9997f08 md/raid1: factor out helpers to choose the best rdev from read_balance()
-e81faa91a580cd151e3e88816786e0c270cefb98 Merge branch 'raid1-read_balance' into md-6.9
-86b1e613eb3b8e6a0f87676e33d847b2eb204b22 Merge tag 'md-6.9-20240301' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-6.9/block
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709297479 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1709297478-10c981a40b840bafaf75dad38270049ffdbad9fe
 
---===============6606661699824440906==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6401bc1bc497-17f9af567cb8.txt
+0000000000000000000000000000000000000000 81719a1f14bbf71dd11fef5eec3da92abbb46ccb refs/tags/v4.19.308
+0000000000000000000000000000000000000000 82cf8c3bcce368c2aeb026d9e5534e594e474021 refs/tags/v5.10.211
+0000000000000000000000000000000000000000 d4209d7e7ccbc317a5c70d6aa315359bceaf88f7 refs/tags/v5.15.150
+0000000000000000000000000000000000000000 37d5b856de50f998b3c364063c56bd100c48c66e refs/tags/v5.4.270
+0000000000000000000000000000000000000000 568d896f2180886b9c98be930d87e790879bd8e8 refs/tags/v6.1.80
+0000000000000000000000000000000000000000 76eef3c741456e20d309e19d671b154dc1d30aa2 refs/tags/v6.6.19
+0000000000000000000000000000000000000000 5f9ce71f4f6ee86b34bbf354d658baad904b79bc refs/tags/v6.7.7
+0000000000000000000000000000000000000000 8bf1e5a08989cf5c8d9c117ebc47554951a08d6d refs/tags/v6.8-rc6
+-----BEGIN PGP SIGNATURE-----
 
-2fe4ffc3ecdcb69d0e5aded5abf5367e3519bd04 md: merge the check of capabilities into md_ioctl_valid()
-4e26593944e02446a75d911e11b759a9320c8273 md: changed the switch of RAID_VERSION to if
-9dd8702e7cd28ebf076ff838933f29cf671165ec md: clean up invalid BUG_ON in md_ioctl
-91b26a39fb83cf370d94980609bf649c3c46993c md: return directly before setting did_set_md_closing
-9674f54e41fffaf06f6a60202e1fa4cc13de3cf5 md: Don't clear MD_CLOSING when the raid is about to stop
-f74aaf614e84d8e5767a062e1172b4907c7b775e md: factor out a helper to sync mddev
-99b902ac17253ee65d23012e2be390c026b77fa4 md: sync blockdev before stopping raid or setting readonly
-650b2e69ff6ab4de8d895e933f2b6fbacb1f8411 md: clean up openers check in do_md_stop() and md_set_readonly()
-e9b0a1556ca2e18d67fa6452b2b99aa66b60ba6e md: check mddev->pers before calling md_set_readonly()
-ecbd8ebb51bf7e4939d83b9e6022a55cac44ef06 md/md-bitmap: fix incorrect usage for sb_index
-dfd2bf436709b2bccb78c2dda550dde93700efa7 md/raid5: fix atomicity violation in raid5_cache_count
-3a0f007b6979db6b5e0022d9edf4b61002be3e10 md: add a new helper rdev_has_badblock()
-969d6589abcb369d53d84ec7c9c37f4b23ec1ad9 md/raid1: factor out helpers to add rdev to conf
-2c27d09d3a76b33629d2e681bf8b774f776ade7f md/raid1: record nonrot rdevs while adding/removing rdevs to conf
-257ac239ffcfd097a9a0732bf5095fb00164f334 md/raid1: fix choose next idle in read_balance()
-f29841ff3b272e1703454f93b96baf0fe0d9f31a md/raid1-10: add a helper raid1_check_read_range()
-f109207629552cb04c2a48e90abe7c481e363984 md/raid1-10: factor out a new helper raid1_should_read_first()
-31a73331752d3c7d28c8fc089b21d3ae8c15e664 md/raid1: factor out read_first_rdev() from read_balance()
-dfa8ecd167c1753d4fc24a517e1d79c603183c94 md/raid1: factor out choose_slow_rdev() from read_balance()
-9f3ced792203891b8fa39afa37908eba843fcfac md/raid1: factor out choose_bb_rdev() from read_balance()
-ba58f57fdf98af642c57654599823640ffe8334c md/raid1: factor out the code to manage sequential IO
-0091c5a269eca7ab0e057c3083804daed9997f08 md/raid1: factor out helpers to choose the best rdev from read_balance()
-e81faa91a580cd151e3e88816786e0c270cefb98 Merge branch 'raid1-read_balance' into md-6.9
-86b1e613eb3b8e6a0f87676e33d847b2eb204b22 Merge tag 'md-6.9-20240301' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into for-6.9/block
-17f9af567cb8b52fd19169295d57034da1b21973 Merge branch 'for-6.9/block' into for-next
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXhz0cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AuoQANIymQmcmwSeXck9ddgq
+Gt+Y8c8YSimAVXVSLRYkcehN0xZ9rwAL91KUdUfGsHNouj7fWwEXGx321TkX2+su
+IdN4GT+mq3qKPH7Sokmchx1YWWCc8scwdj/tyoiL7ieWiOf00uu7tfQ9bUtjyaTu
+7PAUIDs6G76KQ8ItrX63Bniys85VPmKjNC4hHvbE+bENbYXgqjbjHHuNvUmRaDUZ
+BrfavsIvbBjwLk227cAt6BAePAolLraJ0DiylZkP4jI68A6H7JubAza5itL6b6i2
+9yR+ep57/Be4x01ThGXx3B+3I5morBob8m/QH1OSazEDTbt3AuAhBjLmXAO93MpC
+Pb0he4c1LT0XQZtFujnSf0y/eWF+ZBMD/tbBWU+ldK3lrbEgKpZKioRnBIk5blV2
+7zbgQUUeCv5tNHXjdjU4Y5xXUj5gAbv70wnAp9uo0qayvRffYUm9dzlkZNHrzFSh
+JY0SHC+qYtKVrMF4nH/gvcbmkepzAsalM6MmInZIqWZWgrzlxJx6sUUYFNg8EsqQ
+LEbUEu10PWRGEZdcEgrRkf4Eu8LeyWUzl5K9nNZq7mCtsZXmOiFlzBA7knTmDvmy
+1420h8ZLpgHsJL8z+jNfsBkZz1cc0G+W5YuyYWm5FubWKMXVjROGreGQWr58egjF
+tiUgqBVuJ6u3BZsdtWWpdE7M
+=j9FH
+-----END PGP SIGNATURE-----
 
---===============6606661699824440906==--
+--===============7000399194179606661==--
