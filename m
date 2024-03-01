@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Fri, 01 Mar 2024 11:28:11 -0000
-Message-Id: <170929249194.17050.16946203939047925272@gitolite.kernel.org>
+Date: Fri, 01 Mar 2024 11:31:01 -0000
+Message-Id: <170929266124.19841.13529916358189953498@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,13 @@ repo: pub/scm/linux/kernel/git/tglx/devel
 user: tglx
 changes:
   - ref: refs/heads/x86/core
-    old: d42b836ad1ab53c53f6b7016a79fad44d96854aa
-    new: bacde2032ea88d5c2de87a9f6c9739ca8846a14a
+    old: bacde2032ea88d5c2de87a9f6c9739ca8846a14a
+    new: 01cb6acca70732069ed7105a5398a5bbc00388a6
     log: |
-         12a407d3be73971acef2a469e0d1668ba4d22d79 sched/idle: Conditionally handle tick broadcast in default_idle_call()
-         6398d319129a741791249447e86d6377be79601e x86/idle: Sanitize X86_BUG_AMD_E400 handling
-         63c8d62b5896989970da954971149a3fd78f950e x86/idle: Clean up idle selection
-         1a57a4d38b09a9a7d1f0c34835c9a2cc647eabfd x86/idle: Cleanup idle_setup()
-         7bb2630b76d99a68ae99da3505b6efab074018ef x86/idle: Let prefer_mwait_c1_over_halt() return bool
-         bacde2032ea88d5c2de87a9f6c9739ca8846a14a x86/idle: Select idle routine only once
+         ba89205ddd05cca08e830195eb043525149e662b sched/idle: Conditionally handle tick broadcast in default_idle_call()
+         b624545dd82cca88a047fd128b3e5944300490d1 x86/idle: Sanitize X86_BUG_AMD_E400 handling
+         e0247c4aed3365bd689902030193e735a2a8c5cc x86/idle: Clean up idle selection
+         9580e9d160d67d1f730789e85d0871e5185f4fa5 x86/idle: Cleanup idle_setup()
+         947d123a0700309d0b817dac51c02f3bf2ca050b x86/idle: Let prefer_mwait_c1_over_halt() return bool
+         01cb6acca70732069ed7105a5398a5bbc00388a6 x86/idle: Select idle routine only once
          
