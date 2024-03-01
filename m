@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 01 Mar 2024 08:45:03 -0000
-Message-Id: <170928270393.15354.16974242914410791804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 01 Mar 2024 08:46:28 -0000
+Message-Id: <170928278870.16117.14437899875496382572@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 9f780efa6eaa3870bd2ad487ee97872fe25f3e1d
-    new: f29f9199c2d2b3c258f577f438885288016847ed
+    old: 1eecc7ab82c42133b748e1895275942a054a7f67
+    new: eb2c11b27c58a62b5027b77f702c15cd0ca38f7d
     log: |
-         f29f9199c2d2b3c258f577f438885288016847ed Simplify net_dbg_ratelimited() dummy
+         eb2c11b27c58a62b5027b77f702c15cd0ca38f7d net: bql: fix building with BQL disabled
          
