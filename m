@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 01 Mar 2024 10:33:34 -0000
-Message-Id: <170928921428.9476.15965925719837697170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
+Date: Fri, 01 Mar 2024 10:35:09 -0000
+Message-Id: <170928930962.11681.5403285672403239802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+user: herbert
 changes:
-  - ref: refs/heads/main
-    old: eb2c11b27c58a62b5027b77f702c15cd0ca38f7d
-    new: 1c61728be22c1cb49c1be88693e72d8c06b1c81e
+  - ref: refs/heads/master
+    old: 183420038444547c149a0fc5f58e792c2752860c
+    new: c0afb6b88fbbc177fa322a835f874be217bffe45
     log: |
-         1c61728be22c1cb49c1be88693e72d8c06b1c81e MAINTAINERS: net: netsec: add myself as co-maintainer
+         c0afb6b88fbbc177fa322a835f874be217bffe45 crypto: rk3288 - Fix use after free in unprepare
          
+  - ref: refs/tags/v6.8-p6
+    old: 0000000000000000000000000000000000000000
+    new: 1b608f3dc288c879e9eabba01bfd66b82b1484f2
