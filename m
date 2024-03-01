@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 01 Mar 2024 08:18:14 -0000
-Message-Id: <170928109430.27207.11662558002376912372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 01 Mar 2024 08:32:45 -0000
+Message-Id: <170928196554.4767.8273166622608124246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 0d776cfd5e5b559fdf2e38285c2aea4b7048acbd
-    new: 177f954f56bdfeef8a104a356a566389fefd2f95
+  - ref: refs/heads/main
+    old: 87adedeba51a822533649b143232418b9e26d08b
+    new: 7be40883b1cb734a31a3cbfd5f8f64a97965d26f
     log: |
-         adcad5364a692dac85e6e741bdce2a7609449ab8 gpio: of: Make of_gpio_get_count() take firmware node as a parameter
-         8122c7c625fca4da427e85eac5f3261b6f6daeaa gpio: acpi: Make acpi_gpio_count() take firmware node as a parameter
-         177f954f56bdfeef8a104a356a566389fefd2f95 dt-bindings: gpio: aspeed,ast2400-gpio: Convert to DT schema
+         7be40883b1cb734a31a3cbfd5f8f64a97965d26f dt-bindings: net: renesas,ethertsn: Document default for delays
          
