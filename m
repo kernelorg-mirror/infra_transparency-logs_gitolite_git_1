@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0168181769091434579=="
+Content-Type: multipart/mixed; boundary="===============1476985554954915067=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 01 Mar 2024 16:58:49 -0000
-Message-Id: <170931232973.14259.5941247147851246462@gitolite.kernel.org>
+Date: Fri, 01 Mar 2024 16:59:27 -0000
+Message-Id: <170931236749.14565.9843031519659579051@gitolite.kernel.org>
 
---===============0168181769091434579==
+--===============1476985554954915067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 65f5dd4f02a89df429b8212b4c2f3ada6c4f3fc1
-    new: e960825709330cb199d209740326cec37e8c419d
-    log: revlist-65f5dd4f02a8-e96082570933.txt
+  - ref: refs/heads/dev-queue
+    old: 3128acbba846b8c899ff73a9a1c0560de2b7fdcb
+    new: 374fe91ee9d57042db554fdd483aa8044d5b8222
+    log: revlist-3128acbba846-374fe91ee9d5.txt
 
---===============0168181769091434579==
+--===============1476985554954915067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65f5dd4f02a8-e96082570933.txt
+Content-Disposition: attachment; filename=revlist-3128acbba846-374fe91ee9d5.txt
 
 096361b15577a583afcc28179a08c75cf95e9dae ipv6: add ipv6_devconf_read_txrx cacheline_group
 d289ab65b89c1d4d88417cb6c03e923f21f95fae ipv6: annotate data-races around cnf.disable_ipv6
@@ -79,5 +79,51 @@ a5fcf74d80bec9948701ff0f7529ae96a0c4a41c inet: annotate data-races around ifa->i
 590e92cdc835fcf435d8611f2477fff0e16877c7 inet: prepare inet_base_seq() to run without RTNL
 cdb2f80f1c10654efc66c1624f66df2b87eabf06 inet: use xa_array iterator to implement inet_dump_ifaddr()
 e960825709330cb199d209740326cec37e8c419d Merge branch 'inet_dump_ifaddr-no-rtnl'
+db30f5a7451e91b6c59bb86590f3d88a43af21ec e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+4b2f74b79538b8996e66dd26ec23d94091f367aa e1000e: Minor flow correction in e1000_shutdown function
+0eeaef43893c915990231e13e15839843f7d29bd ice: virtchnl: stop pretending to support RSS over AQ or registers
+2cb19cc4ea0f1617913a261b9be2b7f3bd759a79 ice: Refactor FW data type and fix bitmap casting issue
+16d3de42017edbd6df865f045a971b07aa622855 idpf: disable local BH when scheduling napi for marker packets
+2bcf9784b3a558d640c52d9b9bb71c307e9ac450 ice: Add switch recipe reusing feature
+57f08a164256c3d5b107e98ee808469270cbdab8 igc: Refactor runtime power management flow
+3e4edeb167d97d87d06f7ea1846abc7ca40e875d ethtool: Add GTP RSS hash options to ethtool.h
+91a6428fc5bde1a53884835ffcb1d498131199ee ice: Implement RSS settings for GTP using ethtool
+34e8db7248a7957b991394642596c2cc8b920b8a intel: make module parameters readable in sys filesystem
+89c9afb70df46314a23158868eecd6bd3b4803a5 ixgbe: Add 1000BASE-BX support
+912591c3b44875eeacaf13353acc9ad9049d47bf ice: pass VSI pointer into ice_vc_isvalid_q_id
+903b7dc54b9c90d5a14de29597f2cf24c8ce8cb1 ice: remove unnecessary duplicate checks for VF VSI ID
+1f80b11c3510aa4707cb49141554abb59f880973 ice: use relative VSI index for VFs instead of PF VSI number
+d89e6df587091d486fe94ae91a0e14ca18f8b815 ice: remove vf->lan_vsi_num field
+61012d8bfe2f1dff92f3e21d5de5ba6e5bbc4ad7 intel: legacy: Partially revert of field get conversion
+da8fa44996a9166cd18a512316da549c68711b99 igc: avoid returning frame twice in XDP_REDIRECT
+6e57eae721c1a0203a80ec9e489a1b2442e63f9e ixgbe: {dis, en}able irqs in ixgbe_txrx_ring_{dis, en}able
+064ddcd9f86bbfb8f44135d9b21582cfcd71833e i40e: disable NAPI right after disabling irqs when handling xsk_pool
+1788d52f8ea28ccf6e7d0a59d441af044f1d0bcf ice: reorder disabling IRQ and NAPI in ice_qp_dis
+a9190cb347d020427795622034d57a70d030e9fb igc: Fix missing time sync events
+55a862f236b784ac1197ae000723b818ce73c58b igb: Fix missing time sync events
+68c19ae590b622c20b5fb6a9ea49b6461070e103 ice: tc: check src_vsi in case of traffic from VF
+5c95fe49743af5beea2e02604a8eb64d731cf187 ice: tc: allow ip_proto matching
+70afb816e62602f897a3429e344b9294732b5486 idpf: add idpf_virtchnl.h
+51888f8a9e1e3ec27aa9230d8674b5e06ffe716d idpf: implement virtchnl transaction manager
+45a8511716abf9cc88aa002d3e6c0efac15e3f07 idpf: refactor vport virtchnl messages
+9afb80f81178034e2bb93e58f51c0292671eb62b idpf: refactor queue related virtchnl messages
+76723146812dbd859254f8b03c40ff38fb4a2fe2 idpf: refactor remaining virtchnl messages
+dd797781b8e64c74a2552d3a6dfa2f8b24fb9ff7 idpf: add async_handler for MAC filter messages
+1e1a425e147cc07ae4ca5488fcfa0c07c14e38a3 idpf: refactor idpf_recv_mb_msg
+1f9ac71fdfdd44d6d8c8115212e4dd9e0c7e8cb9 idpf: cleanup virtchnl cruft
+99819a78643d8c73539278a261b690829b4c016d idpf: prevent deinit uninitialized virtchnl core
+12012502ef2ba42ef61da3c2a16c582fb99c38df idpf: fix minor controlq issues
+4bbccc67fd50997b33e2d8be49829fe32c522b44 idpf: remove dealloc vector msg err in idpf_intr_rel
+1fe510f8b82102122cbfdcb6969d42de01a60afd ice: reconfig host after changing MSI-X on VF
+7343b4fc0d4992a31e9a326339bb4209431d4df0 ice: do not disable Tx queues twice in ice_down()
+ab00635a67be1f736b768a30c3685966e5fa53df ice: avoid unnecessary devm_ usage
+4c96560da9a801d8de8a8fda2dcea9e12e7744e2 ixgbe: pull out stats update to common routines
+743b1c414b85e1991f6911afd6942d015897ac40 igc: fix LEDS_CLASS dependency
+21f75eb21b7205f3a2f7f2da5a019974b65f5bfc iavf: drop duplicate iavf_{add|del}_cloud_filter() calls
+a34cdf5d327f62196be97373c6ab529a80033e67 i40e: remove unnecessary qv_info ptr NULL checks
+cb048300dcf933e7d9df699e3e66d0dad7e5ca75 ice: rename ice_write_* functions to ice_pack_ctx_*
+1bdf9fe86729e1e9815c3278b3fb7426a9d1df5c ice: use GENMASK instead of BIT(n) - 1 in pack functions
+d3ba3a6ef918e793bb796f9dd1329ebdac8c21f3 ice: cleanup line splitting for context set functions
+374fe91ee9d57042db554fdd483aa8044d5b8222 ice: fix stats being updated by way too large values
 
---===============0168181769091434579==--
+--===============1476985554954915067==--
