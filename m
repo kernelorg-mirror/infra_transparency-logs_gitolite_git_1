@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 01 Mar 2024 19:27:22 -0000
-Message-Id: <170932124259.27693.14367859466866053392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 01 Mar 2024 19:28:42 -0000
+Message-Id: <170932132266.28239.12363520104244571413@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 4dfae66534d453a6ec6018dd5439f56ec08f2453
-    new: 16137fe69362e117a61cde3257188ff4c028e337
+    old: 374fe91ee9d57042db554fdd483aa8044d5b8222
+    new: dfd54c3666e17ed2830868770b2d4b9c2e54ad1c
     log: |
-         e6ed7c1c8454c2eb65f238830193cf3bf2d31b81 i40e: Fix firmware version comparison function
-         16137fe69362e117a61cde3257188ff4c028e337 ice: fix uninitialized dplls mutex usage
+         3b3b87265bf66cd90381023a7ee5a3957c48599e i40e: Fix firmware version comparison function
+         dfd54c3666e17ed2830868770b2d4b9c2e54ad1c ice: fix uninitialized dplls mutex usage
          
