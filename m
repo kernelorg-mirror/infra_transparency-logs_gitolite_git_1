@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8841751074433012371=="
+Content-Type: multipart/mixed; boundary="===============1486564473859745622=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 02 Mar 2024 20:54:15 -0000
-Message-Id: <170941285598.3840.14862777093524213125@gitolite.kernel.org>
+Date: Sat, 02 Mar 2024 21:04:58 -0000
+Message-Id: <170941349872.10882.14666234286118774412@gitolite.kernel.org>
 
---===============8841751074433012371==
+--===============1486564473859745622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,48 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 044591a6adef0aab7dde3e46bcbb8f5c55c33a12
-    new: f75a010dcba0270c403cb680a0c662293dd98a60
+    old: f75a010dcba0270c403cb680a0c662293dd98a60
+    new: 65295eba1915cf27c363f26727f6da43d144d03b
     log: |
-         73b5a5c00be39e23b194bad10e1ea8bb73eee176 serial: 8250_exar: Don't remove GPIO device on suspend
-         7a345dc19a7c01a04a2d7bcd79238389b0838b78 serial: 8250_exar: Use dev_get_drvdata() directly in PM callbacks
-         5bc430afeba5d5101765c1f1a4437a90218b00b9 serial: 8250_exar: Clear interrupts before registering handler
-         73f76db8404b26d2257915f4cde25c6e00afed14 serial: 8250_exar: Use generic function to set firmware node
-         82f9cefadac4e7e360bb1b4266c2e2d35a862425 serial: 8250_exar: switch to DEFINE_SIMPLE_DEV_PM_OPS()
-         d813d90085aefacc3500db94d82c60e0702965fa serial: 8250_exar: Use 8250 PCI library to map and assign resources
-         66c736daae0d1dd5dda53a1982398f383d82c42d serial: 8250_exar: Don't use "proxy" headers
-         d676822a714af27e346407a4054cb2846d1ab0e5 serial: 8250_pci1xxxx: Drop quirk from 8250_port
-         f75a010dcba0270c403cb680a0c662293dd98a60 drivers/tty/serial: Remove unused function early_mcf_setup
+         b8a4ed3405d5f3f92a211ccc2579e54345bc3aeb serial: samsung: honor fifosize from dts at first
+         4e489a6e93e85726a41f85d1aaaab6f603ec2d33 serial: st-asc: don't get/put GPIOs in atomic context
+         675c00eb70534042be06c497605e35aa44aae19b serial: 8250: Use serial8250_do_set_termios for uartclk updating
+         28e4c31e53151aef19ce61464e396ccc035903b6 dt-bindings: serial: convert st,asc to DT schema
+         65295eba1915cf27c363f26727f6da43d144d03b serial: 8250_dw: Emit an error message if getting the baudclk failed
          
 
---===============8841751074433012371==
+--===============1486564473859745622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709412854 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709413497 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1709412854-94b9cb9a326ab0910813754b1d6ab4bf799d02f6
+nonce 1709413497-b38dcdedf5b0f80bf20fb47bcc659b6b8fddcc87
 
-044591a6adef0aab7dde3e46bcbb8f5c55c33a12 f75a010dcba0270c403cb680a0c662293dd98a60 refs/heads/tty-testing
+f75a010dcba0270c403cb680a0c662293dd98a60 65295eba1915cf27c363f26727f6da43d144d03b refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXjkfYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TcYQAJc4tZH5klpXY+Ibc7RO
-y+R2KwrV0og3yZbc/jMZcftGQQAYs3euWvewTQrhAhGDrIMGLph4qoLIH5d2vLhA
-e78+94SIiwo1HBq31XELhVVydzt8+QcFk6pXfjOJ3c3AUujCypGa1xW6201s/Ozo
-BRuvvCwkAXpOz8KniwbdyP12+dP7uJbhymvL7w5yXF2QNqf0AC2fT4snc5FMLGHW
-Z1+y/MX4j8u80OcGW735KpCi48bXSdqdItcVYwt4ejbSUjPjjRNmA0HFGgLN+JBT
-rhrKeDiFblnZRJBvs9rti7VRgrqebbRq2ifWg7RIQiAOAQ1gZ5IVuSx+jiwXPipD
-gP0JjySEOcPcsAIWF+Y+++B1pI7UVRfiv+AjdKI6J+XGpEPx4TZ++26XPTJ6vtiO
-AwGUcTb1bYe+RpTfESW7Tv+89Yc9hKEYc+q3FijJV3VZ4tEbn+amWidkpAn2UfKg
-R2NO32E6skvlrnHnc3renc/bKEA17MA5c6h+UX24D6yA1eh/XvEk++/f5M7U5riv
-WXvEyCgkAvYnN/fLtRRP4Yr+5s3ai0Ieia8utfpg8JsGjmPviTBKlu85X7HN7V6s
-DNecWGw4EuzuN7LLdA2nhDqhfwfSEj9mLQXeOZGw+JaSmzVoqB04q9CMeSmVHnMf
-823ujWJgnt3ftuM3X7YXR306
-=irtE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXjlHkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BXMP/2in1aNbBhyzXPY/xc8E
+9bqQjEwJ6+W2u8Jz8M+I/42t1IMfWcRPSRzFGeNv/AhTjE9nr8bYSMrYQ5LSr5X/
+Ibw9Sgp7MsS5Zsb57svzZSL+kWzi8kSyMi/6zExGxoNSx+vBYW9CQQ7zCjdEVm/Q
+AqWT1HklbHLCA06AMGj/W0mEyuIA0XZ+wJGy5h2Y76WehhYt5hk4isTLQop5tN8d
+3gmnvisB7cy/OzY064TH0srBBCTtuk1hR/ncJhsN4DO1vtXIt1gwtYtAXrGdH9q5
+BU/GbRoPI/mO31j5XJfp7FJ+8YGLMttD6SfhzrrOr4+8/OYYEJArjdgMM6F2w/5/
+CGgd7Y0K9hsvseGduh47dimE5P9WI8YiIurS31cAI8ZhIFpaE/8bwTenDVB7fEje
+RZ27f1U9qvUF7SPlwtGg5HqNuVTIzWJdcxj16B0DfhG30Krl8H95R4MxJo0QWsas
+ZRf+zT/9um7fE6fMWpuPoXSjXda2lbAMCpNoiG20dlmrH+fZhSOPQM3lxJe/8vHw
+qBU/MS/6NkOJ5TMWdD2HVU5hFMVzmvoxOJYBeqawXvXtL4qtKMPeHzpP1vTxy/Wq
+C+FFBd9FCJtv0ISX5KrmNalbbUJxuJlSqSWZevAyGl2BsED7JRa7cx0pAnbhwbBQ
+jRmJMyxyqP9/DSG42XY0MCw0
+=D7YN
 -----END PGP SIGNATURE-----
 
---===============8841751074433012371==--
+--===============1486564473859745622==--
