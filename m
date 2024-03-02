@@ -1,56 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============4835328624032562491=="
+Content-Type: multipart/mixed; boundary="===============2710516683345618668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 02 Mar 2024 17:30:23 -0000
-Message-Id: <170940062308.12302.11779947194634931226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 02 Mar 2024 17:30:42 -0000
+Message-Id: <170940064242.926.9657937550932831175@gitolite.kernel.org>
 
---===============4835328624032562491==
+--===============2710516683345618668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 2548e0e7ffae35d71990efa67182cb18e6223546
-    new: d6c4f065569ddf7592b97b325e8fdf36b7f4d958
+  - ref: refs/heads/linux-rolling-lts
+    old: 3d73f72ceb5bae4d55ef766b8da570d828dd5d3e
+    new: 2e93a10c227438a7b61a9598b40a495ce06eeda9
     log: |
-         d6c4f065569ddf7592b97b325e8fdf36b7f4d958 move back the 6.6 and 6.7 queues
+         af0d04f02145f09564aa1ae8eacac07bfb570eb3 fs/ntfs3: fix build without CONFIG_NTFS3_LZX_XPRESS
+         9b4a8eac17f0d840729384618b4b1e876233026c Linux 6.6.20
+         2e93a10c227438a7b61a9598b40a495ce06eeda9 Merge v6.6.20
+         
+  - ref: refs/heads/linux-rolling-stable
+    old: c31318e1020b48610ab9b22ea7cf8fa0b22da882
+    new: 168ae884213784273f58b77c07df2c1b8c68ae18
+    log: |
+         1752a632a68268573a92a18d9d656cf0c8fccfc2 fs/ntfs3: fix build without CONFIG_NTFS3_LZX_XPRESS
+         d6d6c49dbf4512f1421f5e42896e2d70dc121f9a Linux 6.7.8
+         168ae884213784273f58b77c07df2c1b8c68ae18 Merge v6.7.8
          
 
---===============4835328624032562491==
+--===============2710516683345618668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709400622 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1709400621-b4b179029e3986a58a1675e271f5e26f53749c5a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709400641 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1709400640-fe9b99ea07feab22c58154571b5dce6d793304f7
 
-2548e0e7ffae35d71990efa67182cb18e6223546 d6c4f065569ddf7592b97b325e8fdf36b7f4d958 refs/heads/master
+3d73f72ceb5bae4d55ef766b8da570d828dd5d3e 2e93a10c227438a7b61a9598b40a495ce06eeda9 refs/heads/linux-rolling-lts
+c31318e1020b48610ab9b22ea7cf8fa0b22da882 168ae884213784273f58b77c07df2c1b8c68ae18 refs/heads/linux-rolling-stable
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXjYi4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9BgQAMP+yKhn1euMU0UCjRoA
-2M4PEpl/MBUy7Ni+HMAguvRe94x11TVFt7Epf7jOFZO5UkdlDveCmbcciaF/HFHu
-twnk6LSzsVXb4ecHKYwg5W72mv8ujBm0BPrzahUzsL816mVw9MhILPkdtjB5ZYsO
-uTh80T8KlDhXtDL0QkSXvmeS3Ybwg6NWBlL3yEZZeV2gPJPh9rDtX7BcgZwL/7SS
-q1kPkgHf0crV33tSCVp/aB93MtxHfEGkOqPUr+8mgBWY5s9Uk0WlGAarUHFtoL5Q
-vKfR4e4Y1oOKrUbxmTD7odq07w+rfu+lqj1MMT3pP0PAGURxO27YJk0ivVmfI+fL
-dmrd4KZHJ0lEkslzkV/OxdOqI8uwlNffFTF/YkxoQGozxbm09kBW9D/GBiOCb0Kl
-TdDfnw3o0S4bN2dtAysnPJeqKoHixMrDlESTR2ypbD1xbIwnPmaWAv02l0kOk0lr
-BST7qjcWgMxMGYKSLSmEOuy7TJLYhNNKbiM5coQModovqsOLpIMnxYqahkx2MwVV
-8PvYvqtwpEiJuvGfoIUSar0LFb67FreKjemi1gSIpW/LPZcDOxJk8/rqEgpkZ8cg
-DPrRc+aaGliHplekMcG/Mnf0nV3ha57LijcnfaMBT+xRIE/O0Xu4IZsYwVSRmL2S
-c4SomKfV6BoAXm1Oe38ANTOg
-=dYST
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXjYkEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EWsP+QE7ICGO8OEx76qILwEc
+vq4lu4gERT8Zv0LreHpJpQzUXjcZVND35NlOeUrv1liLJn8yE1jQBTQyCBDlU4H8
+o+JHnXcBjMerv1+Gwaz/d8xKcb8ZEI7gbUQMSKvfN0zr+iRinrJr7wD61Vqxr+n1
+kPVX7pvJD9gAc65zhB0yNMczFjy/Ji8NdLIKV2w8yD0r/KuFYsqhiXSj/2+JvlfQ
+9JcNjKK0psPNbcFOLFiEfZYSFmjxQBsA/i4aMUCaR+EWxdtNEn6axYY0Vxg4n/Ov
+zGejnnS9bRy6YyZpCoR/HIekBCLls2sRTgH55fZKbwgg5iroH8pzAdQXzy7xraXF
+fivrgT7/hcPF6mtMxKZwdRqPnKKsdM5eoE6psjQjXFKbhznNjFHlfbnxdO0o6Z63
+jA7uDuTWV+VKAwJlVr0/WAwRI0khyRBCzzbToieWeSXcfB9hfpUzMiNztzfBDhMZ
+wW5Fp0MC3TG43zFy8GHlXnl5n2FUK1Y2pUsCAXJuuQHTgm/IQ7ck7i/LRr+ZQ6In
+y+mdLQ7ifT6wWv90suiXmwQs45OAA1IUpXmgAtIM5QAlM9MTdm/84QNjzxzeMweF
+kamlu55p912ELPA45urcTdu5K6gwj9DS8NXYGwre2TXma2g8v7Rz3JCN/fwQV1hc
+H/izMsz25omoFyk1Qk5UCyEe
+=Pl/L
 -----END PGP SIGNATURE-----
 
---===============4835328624032562491==--
+--===============2710516683345618668==--
