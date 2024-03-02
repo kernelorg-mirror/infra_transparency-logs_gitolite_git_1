@@ -1,57 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4850797926267865900=="
+Content-Type: multipart/mixed; boundary="===============0607752025727411847=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 02 Mar 2024 15:23:39 -0000
-Message-Id: <170939301988.8195.8266960773620278156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 02 Mar 2024 15:23:55 -0000
+Message-Id: <170939303553.8355.4687230979130522774@gitolite.kernel.org>
 
---===============4850797926267865900==
+--===============0607752025727411847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 455c5e12a3b7d08c2ab47b7dd54944901c69cdcd
-    new: 673f605ea73f1658cea26bfcdfbffd54c34b7828
-    log: |
-         6dde7d5fbdc3ad2c03c8c0fe3f2ed229fa31d1e5 staging/nvec: update comment regarding udelay in the isr
-         673f605ea73f1658cea26bfcdfbffd54c34b7828 staging/nvec: update TODO
-         
+  - ref: refs/tags/tty-6.8-rc6
+    old: a1f4c1a07f232bc9ee10fc9576cd064026d9e045
+    new: 0000000000000000000000000000000000000000
 
---===============4850797926267865900==
+--===============0607752025727411847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709393019 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1709393018-e2f670320c94a61cd77b16d69652f8d89022ec55
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709393035 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1709393034-1816b2648604378a1ea75b2769bcaa82464db350
 
-455c5e12a3b7d08c2ab47b7dd54944901c69cdcd 673f605ea73f1658cea26bfcdfbffd54c34b7828 refs/heads/staging-next
+a1f4c1a07f232bc9ee10fc9576cd064026d9e045 0000000000000000000000000000000000000000 refs/tags/tty-6.8-rc6
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXjRHsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I5gQAJmJUuBZOptaxTNqojRx
-fO/faBf+GGYxaffse0LIxqVKmrhwFJyERz5zV0z7gMGe38dRZehhFCdLqRXLw5hB
-Z1AFHIqFJOL0UMJwSm6rRUua2d7zYZUXGht1UiZS4Cr2oGBgizGH6iE2ULVVnANG
-SkT+aWUpLnrJ0GXclk2BBVeVI2qiuVBZlTuC6s0ygiNxu6IjjOz4YsohaA8XmBuT
-WDoTQAj9YpxuO42nEnL/67tuT1v8svVmrj4Bn86KSZNaATH6s4Ug3ZNnJzvfV9T3
-cT3mmaKMdAi7xZSyz7vFEhaA0ioeDCksIVC2LlFTlVlbC4vOsRWUidsKHdr3Rxve
-1LVTYOtVlSzJXk9AiBKcrSmucHNJeuVFOKKz59NUKEAhXvPLmLavfvSpoUVkP484
-GRyrKWjzVAVWyAMF16g6wNtBm3WYR8FkO0DsLGitr+x0UAgPanfzQBHCrfhYq4Cq
-TRDmnpT6Yp3ARn1aKEXREa7gz5Tu2r2q+Lkk/4eplYtWp79Pz4cCWCSSG/LcGOpU
-77d3sxKApC+k+jDxS1Zok6ehid1yWhNprAmgDLGdTMa//3s7hNgEK4OUabqHT3xJ
-DBKK4mZbEPt0HeuOn41MHDPEWXKOu+CL24/SnPz/jjqmt0IuTAt7Uo6QGoBd27bY
-v5xuKCzQNTbGEkv4znriRY7+
-=u5Da
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXjRIsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K68P/jPSErYWH9SRQwO7UbQT
+PdDDCTMGHc6KDElCy/kI+xAG8481Oe+KkU2EaYnlWi85IB3iYxa8lSbk5bsukOWc
+IMjazJxpb8ZtDfdCwmx+14cIlvILFxXa8TjJnja3RMnYbKd5ZpBLbfOWjr/pcFGZ
+/NRjFb5DdJH6sO5pmv9TBe8+18vukzOfsocH4ZX6U0kFvwNAebqBfrIDJpIPAen4
+ljlADf6ZFyb8SvOC1A2zNTMju3mhr0bWc2sc4TvgH1CmSzU5lZz+Xbya94hBnkQ5
+qwxfGQv3rB2ywmUGHQZV+vPLGCeEN97giJbuxeANo9M9U0x4kar2ykixHyL6E3Wp
+7wS2NYo+fNRQqX97WNt/g33KLIJuuhWW7WQ1xumHUfhpifzaS+6O7eb5J8+kFyac
+ZPULV5Cw//ADRlsYSTigf4pRY/QAPFCO6UrDIw6SKWJzWqd9OLvPUxvMdHIQFoLq
++z05GYSeHf9zURAZKEFzIek26g3WyhsjNoFoR5aWGPb5ACc5S/55j1INu+aADJ7c
+pEdkONZAcponwHoRC465hky14sSmmNMyvXf0N6Ne68chaUctQzQJZMFkW2STLHJz
+HWcwfRTTuU9fXuZX+SqQ3PtpnLa2+rP4bHoyrzB3QwxjV2cB69ywItGga2REsZ8A
+sUi8KSIXG0QZJvYzaFl4c5Eo
+=QKtr
 -----END PGP SIGNATURE-----
 
---===============4850797926267865900==--
+--===============0607752025727411847==--
