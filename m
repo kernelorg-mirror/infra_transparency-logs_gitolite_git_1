@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 02 Mar 2024 08:22:37 -0000
-Message-Id: <170936775716.17211.17349167842143049430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Sat, 02 Mar 2024 08:41:59 -0000
+Message-Id: <170936891946.31582.10764418604038630518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: 422ee57a8cf58fb29fe174a7fcc0adb54b19149f
-    new: 2c5d460821cc8bc512455de3e5425d39aa64a7bc
+  - ref: refs/heads/ib-nomadik-gpio
+    old: b824f841a4a8442f626fedeafb3c8fcfb7bef823
+    new: 528904342169c582c128c4f83fbc4a7c9611fb0a
     log: |
-         5cc2da0b60e5b4daf6cf7442ee66f1f91878c0b5 scsi: mpi3mr: Reduce stack usage in mpi3mr_refresh_sas_ports()
-         ee0017c3ed8a8abfa4d40e42f908fb38c31e7515 scsi: mpt3sas: Prevent sending diag_reset when the controller is ready
+         528904342169c582c128c4f83fbc4a7c9611fb0a gpio: nomadik: Finish conversion to use firmware node APIs
          
