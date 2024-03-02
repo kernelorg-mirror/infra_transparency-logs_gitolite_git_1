@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Sat, 02 Mar 2024 15:57:30 -0000
-Message-Id: <170939505032.11986.2732841103651007610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Sat, 02 Mar 2024 16:07:08 -0000
+Message-Id: <170939562813.18759.11500357307320873817@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/linux
-user: legion
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/patchset/cons-font-info/v1.0
+  - ref: refs/tags/trace-v6.8-rc6
     old: 0000000000000000000000000000000000000000
-    new: 06733914c1d2d19ebb61cdf6cd96d0a45d4da6ba
+    new: 81bbd14e994e785c073c62764e9479f26ef734a7
