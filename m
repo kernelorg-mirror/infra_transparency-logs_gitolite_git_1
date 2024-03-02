@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Fri, 01 Mar 2024 23:24:23 -0000
-Message-Id: <170933546363.21342.1744020987124795691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Sat, 02 Mar 2024 00:03:40 -0000
+Message-Id: <170933782034.16657.8408141274638058450@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
-  - ref: refs/heads/testing/WFAMNAE-next20240229
-    old: a31e7a397248c609a98284976ba3a7037bf2c266
-    new: a7bd23345c1ba22d6bb674cbea13cd91fc1badb2
+  - ref: refs/heads/master
+    old: 342237b10b866ed388c8abaad987dfd7ef027247
+    new: b7cd8fc2b15dfb00bde984498d826309620186d5
     log: |
-         a7bd23345c1ba22d6bb674cbea13cd91fc1badb2 cgroup: Avoid -Wflex-array-member-not-at-end warnings
+         0a4591e439ba9b65fe0deb99b81d4b1004f19885 qmi: Add an abstract group id to services and requests
+         13649064b06548c22a027bb9e0cde30dfcd3a52e qmi: Store the service info in the request
+         afa96ae4fa99dc93e917fe6b5ead2bc822c8b269 qmi: Clean up the __debug_msg function
+         b7cd8fc2b15dfb00bde984498d826309620186d5 qmi: Enable QRTR service writes and reads
          
