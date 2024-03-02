@@ -1,58 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============9008753851222892773=="
+Content-Type: multipart/mixed; boundary="===============4850797926267865900=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 02 Mar 2024 15:22:25 -0000
-Message-Id: <170939294515.7675.6252957747616947001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 02 Mar 2024 15:23:39 -0000
+Message-Id: <170939301988.8195.8266960773620278156@gitolite.kernel.org>
 
---===============9008753851222892773==
+--===============4850797926267865900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 01aacda0b10eca95444bf481ffdef858a0a883cc
-    new: 04edfa7fa059ba50d3236b55ba0ae23b1721e868
+  - ref: refs/heads/staging-next
+    old: 455c5e12a3b7d08c2ab47b7dd54944901c69cdcd
+    new: 673f605ea73f1658cea26bfcdfbffd54c34b7828
     log: |
-         cd69fedf58f8ab1ab511f7c6ac1969cebf1c935f sysfs: Fix crash on empty group attributes array
-         aa3c88990f77bb9acb3d445337bc088031ac63f9 sysfs: Document new "group visible" helpers
-         04edfa7fa059ba50d3236b55ba0ae23b1721e868 sysfs: Introduce DEFINE_SIMPLE_SYSFS_GROUP_VISIBLE()
+         6dde7d5fbdc3ad2c03c8c0fe3f2ed229fa31d1e5 staging/nvec: update comment regarding udelay in the isr
+         673f605ea73f1658cea26bfcdfbffd54c34b7828 staging/nvec: update TODO
          
 
---===============9008753851222892773==
+--===============4850797926267865900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709392944 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1709392944-e74372ed971356402acf9dadd30b8901ce418ca9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709393019 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1709393018-e2f670320c94a61cd77b16d69652f8d89022ec55
 
-01aacda0b10eca95444bf481ffdef858a0a883cc 04edfa7fa059ba50d3236b55ba0ae23b1721e868 refs/heads/driver-core-next
+455c5e12a3b7d08c2ab47b7dd54944901c69cdcd 673f605ea73f1658cea26bfcdfbffd54c34b7828 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXjRDAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5DcP/i+sqNF+0+rEGOw2vlqX
-NSVxUX0191R58P5H/BRgefwO1Dyo0c9nvDE4lAkBMK+FJbrZpTC5Htrxc5ErOWDN
-MX0H+gJQpui3NV9Yr/9wbZqn/+If7XiVilCj3tYe3/Srfu64IYEIuQlcFYUJ1uMi
-gb3jKDVhsRpUOxCV6iQZbdpaFII3svf5cJukjc3ekjnqgY+ge3mLYPXtvQghKYP+
-ckwq5rS2Fh9Ee9CvSgJKO0R0LkvM807/OC6+05/Y+Qa6mQjeDyp83oZ9CRb8JxT1
-Djj5GoB6933h7JR3sTkPnqDVUeuGLbjYKR/Xz+u7KucI9GfytkZBtWg66VlXNvzS
-LGVsxzxHhrkx2Yt39va2I6x8NAqKQ72MaBXAg6DEdJBKQpg6OleKIxulYE7DtMkj
-E8TUza1VpIWYN9Yz+0xIE5QxbdDiXXKbjBdJTiP6bY54HsekTkfwT5V+RBsX6VrT
-uTFPpMgQy9VkUO6Y2aqIBYWI90h7khVOEI8ohaiVrPgEOyTNuHJwCH0Soj+PYEWM
-+eyADihf0cRNKCCqLFn3Fjv7+vtSs7Eb5p8Onohqcqj4ffSCUV3fLqD8kLZ1OGP+
-gRSeWpb7OCbbe8fCZSWY0LJJKY7Rp5exnXpZ0QMRORH5NWQkwf0FFh4hKRmWM4sv
-fmnur9Qs8gYcF1B2VHVqY+LW
-=CPl3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXjRHsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I5gQAJmJUuBZOptaxTNqojRx
+fO/faBf+GGYxaffse0LIxqVKmrhwFJyERz5zV0z7gMGe38dRZehhFCdLqRXLw5hB
+Z1AFHIqFJOL0UMJwSm6rRUua2d7zYZUXGht1UiZS4Cr2oGBgizGH6iE2ULVVnANG
+SkT+aWUpLnrJ0GXclk2BBVeVI2qiuVBZlTuC6s0ygiNxu6IjjOz4YsohaA8XmBuT
+WDoTQAj9YpxuO42nEnL/67tuT1v8svVmrj4Bn86KSZNaATH6s4Ug3ZNnJzvfV9T3
+cT3mmaKMdAi7xZSyz7vFEhaA0ioeDCksIVC2LlFTlVlbC4vOsRWUidsKHdr3Rxve
+1LVTYOtVlSzJXk9AiBKcrSmucHNJeuVFOKKz59NUKEAhXvPLmLavfvSpoUVkP484
+GRyrKWjzVAVWyAMF16g6wNtBm3WYR8FkO0DsLGitr+x0UAgPanfzQBHCrfhYq4Cq
+TRDmnpT6Yp3ARn1aKEXREa7gz5Tu2r2q+Lkk/4eplYtWp79Pz4cCWCSSG/LcGOpU
+77d3sxKApC+k+jDxS1Zok6ehid1yWhNprAmgDLGdTMa//3s7hNgEK4OUabqHT3xJ
+DBKK4mZbEPt0HeuOn41MHDPEWXKOu+CL24/SnPz/jjqmt0IuTAt7Uo6QGoBd27bY
+v5xuKCzQNTbGEkv4znriRY7+
+=u5Da
 -----END PGP SIGNATURE-----
 
---===============9008753851222892773==--
+--===============4850797926267865900==--
