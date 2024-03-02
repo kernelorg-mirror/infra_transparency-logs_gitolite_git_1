@@ -1,26 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Sat, 02 Mar 2024 15:20:19 -0000
-Message-Id: <170939281950.6739.10897946905989491272@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6423188732822898940=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 02 Mar 2024 15:22:10 -0000
+Message-Id: <170939293062.7509.16030788730647815513@gitolite.kernel.org>
+
+--===============6423188732822898940==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dm-vdo
-    old: 24ca37704e96400c07d4c9d338857b3e9449900f
-    new: 003ff6a2d72a74159430bd2bb6e7e44f766c6fc3
+  - ref: refs/heads/driver-core-testing
+    old: 01aacda0b10eca95444bf481ffdef858a0a883cc
+    new: 04edfa7fa059ba50d3236b55ba0ae23b1721e868
     log: |
-         bd66691016f78a9b9c3e483260b20f920a5bfab1 dm vdo: remove all sysfs interfaces
-         ca37d58dbd475f489029ca8f3720a686260e21f5 dm vdo: add 'log_level' module parameter
-         7ab854431d0d2118f7a5214c3e482dbf701618a4 dm vdo: document log_level parameter
-         48f9d025db6366618f5725f901e0e27efbd4ade3 dm vdo logger: remove log level to string conversion code
-         c60169046b67c54be9960064110e767be2e1d458 dm vdo indexer: fix use after free
-         f125e341a1c01d02ef1fc66e09429af804ad7bd0 dm vdo funnel-queue: change from uds_ to vdo_ namespace
-         85d2e691a6d2bfb8e4997d05127681fb951a1498 dm vdo logger: change from uds_ to vdo_ namespace
-         003ff6a2d72a74159430bd2bb6e7e44f766c6fc3 dm vdo string-utils: change from uds_ to vdo_ namespace
+         cd69fedf58f8ab1ab511f7c6ac1969cebf1c935f sysfs: Fix crash on empty group attributes array
+         aa3c88990f77bb9acb3d445337bc088031ac63f9 sysfs: Document new "group visible" helpers
+         04edfa7fa059ba50d3236b55ba0ae23b1721e868 sysfs: Introduce DEFINE_SIMPLE_SYSFS_GROUP_VISIBLE()
          
+
+--===============6423188732822898940==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709392929 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1709392928-dfa79cbe75876aafd1b9a96e8c73b4cde6c0c585
+
+01aacda0b10eca95444bf481ffdef858a0a883cc 04edfa7fa059ba50d3236b55ba0ae23b1721e868 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXjRCEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m5gQAKGKvbTv2rjdQAbDulCD
+0KqFrxue6+WqOsMBxSUaf1GEyKr/OunYO2jbj7VZ4n0oayu73yA+BIikJRSRfEAW
+iaefULPMIvA+oValkqoHQTH83g/5JjZCoJ3d8xAV+hmvFnbQtxSs3hz8trnOWYHk
+XL/vYY1/9uDJETiQ084Abw+Q96eBpZTw4lRYAnt9OvGzBM449XSYa5R5FAa9x+ZW
+fqZoxQIznFHbMTZJJBZfZNb4o9WPunQP/oCtnFmSfRSRx9TKibQt8sjSt9C+vXwY
+PQfs7XndFfqzbFHpHcP8Q70pqkvXY9nLV4sQUu64+LNi3RRkZ986yQPL0Os+dOBa
+yl0DJ4rvCRj4UwMjlZRhGR/8C6tozVJ1wF/SmD5tNvMuw2WXME9wxmD3s/vSnYGk
+b/tvkvbO9LEqyOpWRHydJ4xQ8q8Yuqhuez+oAtwqUfwUsPBaKlDoiGBgxG1CG97r
+JXh9BgkTUXWdV95JcULWDYWEprGG5rjeSVP+h+2u5LfJ3HpPsShn0bv+KgJyIM9p
+Vux1QNUlOq1hFx3k5XBnaICorKLA2jBq6WVI/w1WphXF5fzAL1NKqX131t8UfCgG
+whpIyrKzyW2ycaFTL0V5Bg814abUxaIaCvRznL5S8P+Xl4LtTpzf3Rf9oJ3F76k6
+9OUMJvRThIyEVbva1G7Kg8NO
+=1Ew9
+-----END PGP SIGNATURE-----
+
+--===============6423188732822898940==--
