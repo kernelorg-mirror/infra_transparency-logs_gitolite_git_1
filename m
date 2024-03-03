@@ -1,79 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2075302539793247906=="
+Content-Type: multipart/mixed; boundary="===============7715887610385267759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Sun, 03 Mar 2024 12:08:59 -0000
-Message-Id: <170946773965.24302.8802586405515346320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 03 Mar 2024 12:15:53 -0000
+Message-Id: <170946815311.29961.13662411080254556861@gitolite.kernel.org>
 
---===============2075302539793247906==
+--===============7715887610385267759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: mpe
-git_push_cert_status: G
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/next
-    old: cb615bbe55268cc25a181e903862423670f97408
-    new: d9cf600ecb7b053345aa76c1988cf374260cfdaf
-    log: revlist-cb615bbe5526-d9cf600ecb7b.txt
+  - ref: refs/heads/master
+    old: c46ca4d1f6c0c45f9a3ea18bc31ba5ae89e02c70
+    new: 386c7b6aa69ebe8017a4728a994f80d55c660de4
+    log: revlist-c46ca4d1f6c0-386c7b6aa69e.txt
 
---===============2075302539793247906==
+--===============7715887610385267759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c46ca4d1f6c0-386c7b6aa69e.txt
 
-certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1709467737 +1100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1709467736-bf98b54d2a0c1173bf60065d4635625ce70d4945
+f836422ec228506f2397cc9fa89fbe15c94a4df9 fstests: introduce MKFS_BCACHEFS_PROG for bcachefs
+79e87ccf207fc6cd1478599118aca045dae983fa common/rc: improve block_size support for bcachefs
+b3da25544c60103f391f9013151e87dd24dfcdcc common/rc: NFSv2/3 do not support negative timestamps
+c689690fa3b0d68f4a931bbfe5f12df799ad7768 xfs/598: Add missing "fixed_by" hints
+7e1ca29d30389f385086f7be2c6547d05b208afd xfs: test xfs_growfs with too-small size expansion
+52c6d0f30ae5d087baff79a270f33144effd02e1 btrfs: verify the read behavior of compressed inline extent
+cf72e89fdc2d4e95cca55ff0cdb124f16a4d5f9f src/t_mtab.c: increase the lock timeout to 120s
+d99636b8efdc217bfb3ba9348ddfb45cb89326ab xfs/604: Make test as _notrun for higher blocksizes filesystem
+ef62fdb75bc658cb29a6d9ce2a51d327fa150e89 generic/020: Compute correct max_attrs for UBIFS
+750daa897667ff5efd8da171a300c25fe23d930e btrfs: Remove btrfs/303
+4e90abbc4d232082f3aac23a3a13b4d9b95f8c0b src/af_unix: drop unused offsetof macro definition
+acff198213e3d874e76f6a133a816c8dee5e128d gitignore: Add missing /src/t_reflink_read_race
+8ba89cc8bff15334c556a35a86df6e023bb949ae generic/597,598: Require groups
+d2c077611de7036acbfd10d19d8dbd0caf1ced24 build: remove unused m4 macros
+6b0efdc02753e3313949aa43cf340707ee41e53f t_snapshot_deleted_subvolume: add check for BTRFS_IOC_SNAP_DESTROY_V2
+c3eff0947047074fc99afa72297f017e39b94642 overlay/084: Fix test to match new xwhiteouts dir on-disk format
+20e0cf8b78d4356f567b338d04209a5211314f82 generic/256: constrain runtime with TIME_FACTOR
+a5339f1aeb001e425e2de7c00876c8b8b124f7fb common/xfs: simplify maximum metadump format detection
+1b36ec27ecfca54f15205731c8c19531a62af9e8 common/populate: always metadump full metadata blocks
+5261c7b46fd46812f228565e3032ba6c1a1d3450 xfs/336: fix omitted -a and -o in metadump call
+31238f2b0f50eaa181d595fe58ef81938476434f common: refactor metadump v1 and v2 tests, version 2
+9c01c6997c3016017d101a0ddcfa0cc271654926 xfs/{129,234,253,605}: disable metadump v1 testing with external devices
+76bfc02c31b86e5c730d33c2c64723b364a5926d xfs/503: test metadump obfuscation, not progressbars
+b809844c72b97b2ac0a01ffb7b7f114bf6364028 xfs/503: split copy and metadump into two tests
+e595ffddd23eed59e823b1bc42c0016b401090ad common/xfs: only pass -l in _xfs_mdrestore for v2 metadumps
+386c7b6aa69ebe8017a4728a994f80d55c660de4 xfs/122: fix for xfs_attr_shortform removal in 6.8
 
-cb615bbe55268cc25a181e903862423670f97408 d9cf600ecb7b053345aa76c1988cf374260cfdaf refs/heads/next
------BEGIN PGP SIGNATURE-----
-
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmXkaFkTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgLq2EACJxW6Gaeq6XVGHRWYvJO1t36mRWG+A
-QiRuEBgR1ribX/gxv7wLChDTAvfv28oNNXmffR0uABffzXVzFz0+LXnM+HegUOA5
-AXMb34Ftt7nMYka3oDDzUPo0J/OLfJKuOnDwWd60bJ8dH/ygedZApMhuoxCkQjrR
-GbV27mjZGjLzZqVtiO58PKYFti1tZB99/hCe8Ynpysr7wwxBpsyFraq9bMvC6K0Z
-3bbjtf79Q8p5BaI+znBLrM5sr+6jw8H/bl5BdA4GS6jVzlOr1Pi201fWJjyZ/O7w
-HJyMIqT2JWVB9I0QBD6S32gPoQ1t+Upg6xZPb/Gn+fyg/e/9Qsa8eYIdwMAlt35l
-qCj9H9qMA/wiHIs4hK6+Yj8gpLBWyjVI8CViJtBgdZ+SV/uN1h0XZRCMcK6nW8R7
-FQuoN/vzUQ1X69jhE49h1BDBe1CazOGm4FdEKnx3YZ+7ouYUCPFbhjyz/rAY7zMS
-H94kMlYED/vkYTCAROcV0eBDehB2+IjN2AYtFmZhCT3cG94fUTDrf/dJOm9Z47Pw
-+6VPQlmAcvL6UaDHWpSiSy21j2JlWlIUj4QA7/hX75mTLg87AUAtU/JCns/uBocG
-GYaqAI+Bkw6MI6Dbtom52WpgGOs4m2kt936jYkYtZ8Cd2Q4ux9+3lpSvln4qkBDZ
-ZJ05ggSuZ4iKTA==
-=Ommb
------END PGP SIGNATURE-----
-
---===============2075302539793247906==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb615bbe5526-d9cf600ecb7b.txt
-
-3c8016e681c5e0f5f3ad15edb4569727cd32eaff powerpc: Refactor __kernel_map_pages()
-9cbacb834b4afcb55eb8ac5115fa82fc7ede5c83 powerpc: Don't ignore errors from set_memory_{n}p() in __kernel_map_pages()
-b997bf240ebdfb36de5a138e94b77c3228507f07 powerpc: Enable support for 32 bit MSI-X vectors
-b72c066ba85a131091498a15a62d6068997278a4 powerpc/32: fix ADB_CUDA kconfig warning
-6035e7e35482653d6d93f35f01e1a320573d58f0 powerpc/32: Curb objtool unannotated intra-function call warning
-cda9c0d556283e2d4adaa9960b2dc19b16156bae powerpc/pseries: Fix potential memleak in papr_get_attr()
-69b0194ccec033c208b071e019032c1919c2822d powerpc/boot: Handle allocation failure in simple_realloc()
-f2d5bccaca3e8c09c9b9c8485375f7bdbb2631d2 powerpc/boot: Only free if realloc() succeeds
-3f9f3557aca2bc5335747f0ac613661fb573be54 powerpc/85xx: Make some pic_init functions static
-af1ebca503f4c5bb9345dd251faaa825431ce972 powerpc: Add allmodconfig for all 32-bit sub-arches
-c029b22f8a98e14988f800d5c0176a9eaec3c8db of: Add of_machine_compatible_match()
-cefdb366dcbe97908b6055595a15bf7689556bf8 of: Change of_machine_is_compatible() to return bool
-1ac8205f907517a306b661212496fedce79d7cc5 of: Reimplement of_machine_is_compatible() using of_machine_compatible_match()
-28da734d58c8d0113d0ac4f59880d94c9f249564 powerpc/machdep: Define 'compatibles' property in ppc_md and use it
-2a066ae11861257223500d7515e1541199cb7832 powerpc: Stop using of_root
-4eb20bf34ea296f648971a8528e32cd80efcbe89 powerpc/irq: Allow softirq to hardirq stack transition
-ad86d7ee43b22aa2ed60fb982ae94b285c1be671 powerpc/hv-gpci: Fix the H_GET_PERF_COUNTER_INFO hcall return value checks
-d9cf600ecb7b053345aa76c1988cf374260cfdaf powerpc/mm: Code cleanup for __hash_page_thp
-
---===============2075302539793247906==--
+--===============7715887610385267759==--
