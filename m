@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Sun, 03 Mar 2024 22:29:46 -0000
-Message-Id: <170950498643.15655.11638890081864294896@gitolite.kernel.org>
+Date: Sun, 03 Mar 2024 22:33:23 -0000
+Message-Id: <170950520394.18614.9644451258967200011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,18 +12,18 @@ repo: pub/scm/network/iproute2/iproute2-next
 user: dsahern
 changes:
   - ref: refs/heads/main
-    old: 4306b28650fe55650d8bb7943b0ab8f63319140f
-    new: 94107bba2456a855f92f697ce9822586440bc122
+    old: 94107bba2456a855f92f697ce9822586440bc122
+    new: b69e1e0445ab3cf2a90738317507a29a483c26b3
     log: |
-         691b688900a66016be481186531ef4e1bf7bc611 Update kernel headers
-         ae5c6f9b0391409f302fadfffa1021911affe89f ip: ioam6: add monitor command
-         94107bba2456a855f92f697ce9822586440bc122 man8: ioam: add doc for monitor command
+         4ce906c3d515973ec3f7c714495d6e3bd15645af nstat: constify name argument in generic_proc_open
+         2f8b36e146a555fd6a96590bf191ac634e3b350b nstat: use stack space for history file name
+         b69e1e0445ab3cf2a90738317507a29a483c26b3 nstat: convert sprintf to snprintf
          
   - ref: refs/heads/master
-    old: 4306b28650fe55650d8bb7943b0ab8f63319140f
-    new: 94107bba2456a855f92f697ce9822586440bc122
+    old: 94107bba2456a855f92f697ce9822586440bc122
+    new: b69e1e0445ab3cf2a90738317507a29a483c26b3
     log: |
-         691b688900a66016be481186531ef4e1bf7bc611 Update kernel headers
-         ae5c6f9b0391409f302fadfffa1021911affe89f ip: ioam6: add monitor command
-         94107bba2456a855f92f697ce9822586440bc122 man8: ioam: add doc for monitor command
+         4ce906c3d515973ec3f7c714495d6e3bd15645af nstat: constify name argument in generic_proc_open
+         2f8b36e146a555fd6a96590bf191ac634e3b350b nstat: use stack space for history file name
+         b69e1e0445ab3cf2a90738317507a29a483c26b3 nstat: convert sprintf to snprintf
          
