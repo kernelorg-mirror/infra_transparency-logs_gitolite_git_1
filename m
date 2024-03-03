@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8955902374417034393=="
+Content-Type: multipart/mixed; boundary="===============7224293106820801824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 03 Mar 2024 05:36:39 -0000
-Message-Id: <170944419958.23435.3595963944128487322@gitolite.kernel.org>
+Date: Sun, 03 Mar 2024 05:36:46 -0000
+Message-Id: <170944420661.23569.8776316283894768233@gitolite.kernel.org>
 
---===============8955902374417034393==
+--===============7224293106820801824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 0270d69121ba7fbc449a386f989b9b7b5eaebde3
     new: 4b2765ae410abf01154cf97876384d8a58c43953
     log: revlist-0270d69121ba-4b2765ae410a.txt
 
---===============8955902374417034393==
+--===============7224293106820801824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cdb2f80f1c10654efc66c1624f66df2b87eabf06 inet: use xa_array iterator to implemen
 e960825709330cb199d209740326cec37e8c419d Merge branch 'inet_dump_ifaddr-no-rtnl'
 4b2765ae410abf01154cf97876384d8a58c43953 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============8955902374417034393==--
+--===============7224293106820801824==--
