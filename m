@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 04 Mar 2024 16:55:22 -0000
-Message-Id: <170957132280.5119.15059741418913845100@gitolite.kernel.org>
+Date: Mon, 04 Mar 2024 16:56:53 -0000
+Message-Id: <170957141351.5727.7322222458707717224@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
   - ref: refs/heads/review-hans
-    old: a8a9ef6e78015c023e005a47909e458a67aa3b6e
-    new: 869383062ed5c55dac2d0a619d9612d2db876cdd
+    old: 869383062ed5c55dac2d0a619d9612d2db876cdd
+    new: 6ce9d627bfb62139b6200addf92b4c55ea07d55d
     log: |
-         869383062ed5c55dac2d0a619d9612d2db876cdd platform/x86: p2sb: On Goldmont only cache P2SB and SPI devfn BAR
+         6ce9d627bfb62139b6200addf92b4c55ea07d55d platform/x86/amd/pmf: Fix missing error code in amd_pmf_init_smart_pc()
          
