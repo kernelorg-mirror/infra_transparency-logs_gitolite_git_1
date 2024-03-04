@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 04 Mar 2024 16:20:40 -0000
-Message-Id: <170956924065.1510.9458773402630925879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 04 Mar 2024 16:20:51 -0000
+Message-Id: <170956925135.1667.10854733677303393192@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/rockchip/defconfig
-    old: 0000000000000000000000000000000000000000
-    new: 23ed255e74317b10b41b396d4af5b79b47b28c22
+  - ref: refs/tags/v4.14.76
+    old: 12019b3571763dc718269638da9aad3fafd4b0e9
+    new: 0000000000000000000000000000000000000000
