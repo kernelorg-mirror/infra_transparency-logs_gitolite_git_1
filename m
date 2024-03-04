@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============4556356272358608006=="
+Content-Type: multipart/mixed; boundary="===============4215005945429762174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 04 Mar 2024 11:34:11 -0000
-Message-Id: <170955205107.27676.17891381551082141628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 04 Mar 2024 11:38:24 -0000
+Message-Id: <170955230410.32169.13124827772575871845@gitolite.kernel.org>
 
---===============4556356272358608006==
+--===============4215005945429762174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: dd7a18cc720e883120e349c09d3659bc3ad07da0
-    new: 358585a8c185b7c9579a89e8501d05043863b5be
-    log: |
-         358585a8c185b7c9579a89e8501d05043863b5be 6.1-stable patches
-         
+  - ref: refs/heads/x86-efi-peheader-backport-for-v6.1
+    old: c2a53e6be9a8a409ae0fb29e5784071823db4327
+    new: 8fa87cc433ff81bd82934f9a2da824afd6b7d34a
+    log: revlist-c2a53e6be9a8-8fa87cc433ff.txt
 
---===============4556356272358608006==
+--===============4215005945429762174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c2a53e6be9a8-8fa87cc433ff.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709552049 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1709552049-12d4f4c9d455fb154aecbf316ae32c91d707f85d
+e867dc06d96af8fb1a247a614897b308f063e84b x86/efistub: Give up if memory attribute protocol returns an error
+bffa00164ee424aed3989b0a5476e12d465ef05f x86/efi: Drop EFI stub .bss from .data section
+ba26d63d7ca35895ea3cd27b212b2e370af3ac28 x86/efi: Disregard setup header of loaded image
+2fe1cfa361730b74cc9dffc74262af4dc4bef8df x86/efi: Drop alignment flags from PE section headers
+c1a986935401e5ab29d406420f0eb9e653b1ac42 x86/boot: Remove the 'bugger off' message
+481db19b9e53f43b0e29aa756e6acee5e0a62d22 x86/boot: Omit compression buffer from PE/COFF image memory footprint
+d38e19c3cc363fbcf8410dae9bea263a79f12ad6 x86/boot: Drop redundant code setting the root device
+3ae2f2d499a3fe271da753be06bee7c0fc2cf326 x86/boot: Drop references to startup_64
+bb7e73c7bdaa87425a53300d40c29888c2b5d0cc x86/boot: Grab kernel_info offset from zoffset header directly
+7929e3ffd21e7c04a659e2991e8fa443bb9ebae5 x86/boot: Set EFI handover offset directly in header asm
+f00d5982f9f4a5651a01983327892ee1738874ff x86/boot: Define setup size in linker script
+636105e2cd687a9bc918b14fe9ad2f495a05fbe8 x86/boot: Derive file size from _edata symbol
+7ec3970f183a288015c121fe46a2cac16896e4da x86/boot: Construct PE/COFF .text section from assembler
+81bf0ebd3e71f9504102b27efb697aec1fe0bfd7 x86/boot: Drop PE/COFF .reloc section
+83c2e8fbe828052d10c2868a49a1897bde2b22c1 x86/boot: Split off PE/COFF .data section
+15b3a3ab018a6f254f673ab48fcf248dd1a08304 x86/boot: Increase section and file alignment to 4k/512
+8fa87cc433ff81bd82934f9a2da824afd6b7d34a x86/efistub: Use 1:1 file:memory mapping for PE/COFF .compat section
 
-dd7a18cc720e883120e349c09d3659bc3ad07da0 358585a8c185b7c9579a89e8501d05043863b5be refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXlsbEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C4UP/i9AcnupTmbCIEuR4XSm
-JRzGkqkmQDIS7ZwoactRB4OyHpdY8N2ZVtU3lZrd6qgETKSiDjcbgzdOqlzYLxhP
-/QqXdV42ur92Lp0f1Lwgmv1LIgekctQsxuUFhVZnHuqcdbm2vDc/TwjzY7bj28lQ
-zMBUcOmi835rizw30918/ZvkjARHuPLC4JcXRxcVx21d2ATRJ9MiEmtsgYcPudTT
-l7oTWh10c113H12Dr7Fwl3k6tLCNFWRDPnxiSiXydtS4Nz0SpZlc8j8U4d+myJFn
-A+8WKvifntxfR8VqfW3PtQMRFmYERkbFMBYhiDP0NZ/6F1ABEgTIsGYqswfKmLHu
-3tUvedvvLbA6Ew3/2D9G7dkAE4O9qK9o6WljNEBDzu2rWmGbOzc2g1xG+aU8rcEz
-YHN1CC/hN16a9u3BPm9C0KjB8NW3MSZqpHEr7YomMdiOIKBmu4DnIwAcjVGXV45m
-mgiJrXAPILG7Egw9VJbQiWhMHQ/CWQ2Yr6Uf5+fqQ91pAjLjz4YhN/jasfCFIIgc
-pZ2MN8UG0Y1Oy98jBAPTFCoYUxkvPDc4C3r5CegHQClXBm00oadETtPalCepRDUV
-WVPSAatU95gk4fXirtKJ/NzFdGxw264N0pjFNg2g3VqL+Hu6aBy5FkT5hIt5vHtm
-zhSygpTw1b+40ds4Gvmtknst
-=BFtk
------END PGP SIGNATURE-----
-
---===============4556356272358608006==--
+--===============4215005945429762174==--
