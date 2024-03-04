@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 04 Mar 2024 07:12:34 -0000
-Message-Id: <170953635412.11685.8669002785834898299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 04 Mar 2024 07:13:53 -0000
+Message-Id: <170953643365.12251.6065078323280060972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 3093fa33539b54db77171d2919352ad4f044a1c5
-    new: 006af7c6958ebd8a94fe398e2fd68dcb4c65fa80
+  - ref: refs/heads/dev-test
+    old: 4288d8d12937c360343e61bb813e1be2c0c70dbd
+    new: b4c1d3a44aee2846937dd27c2673a507d418736f
     log: |
-         006af7c6958ebd8a94fe398e2fd68dcb4c65fa80 cpufreq: qcom-nvmem: add support for IPQ5321
+         b4c1d3a44aee2846937dd27c2673a507d418736f erofs: fix uninitialized page cache reported by KMSAN
+         
+  - ref: refs/heads/fixes
+    old: 4288d8d12937c360343e61bb813e1be2c0c70dbd
+    new: b4c1d3a44aee2846937dd27c2673a507d418736f
+    log: |
+         b4c1d3a44aee2846937dd27c2673a507d418736f erofs: fix uninitialized page cache reported by KMSAN
          
