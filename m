@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Mon, 04 Mar 2024 20:00:45 -0000
-Message-Id: <170958244523.12262.15698522123628722357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 04 Mar 2024 20:01:56 -0000
+Message-Id: <170958251618.12734.836367360404166423@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/testing/WFAMNAE-next20240229
-    old: f5c3e4f4592e9da926774689f0f098f79221a951
-    new: bdf9d404428098068c343d25765d41b3af76b88d
+  - ref: refs/heads/master
+    old: cb7375fb8a98776e6b33adb3507e4a23224cb5fc
+    new: d5a9195a6269e703c6e3a47c40982ec94d8cc838
     log: |
-         bdf9d404428098068c343d25765d41b3af76b88d cgroup: Avoid -Wflex-array-member-not-at-end warnings
+         9cc8b97b8f5d060e334207136100e947732aed08 build: obexd: Fix make distcheck
+         d5a9195a6269e703c6e3a47c40982ec94d8cc838 build: Fix distcheck
          
