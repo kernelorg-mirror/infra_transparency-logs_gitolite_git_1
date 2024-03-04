@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 04 Mar 2024 21:21:28 -0000
-Message-Id: <170958728854.9619.1647953460658649304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 04 Mar 2024 21:26:54 -0000
+Message-Id: <170958761475.13171.2258859122980265657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: d64e5af89e6ca949a550583844ce3a5d1af47f4e
-    new: 3da5589ad8087fbb5e6156dbafe658cc673defce
+  - ref: refs/heads/100GbE
+    old: 09fcde54776180a76e99cae7f6d51b33c4a06525
+    new: 90f821d72e112d5e4e4214a3704935283cc53375
     log: |
-         3f40a47f35890452337766e4dc039293cd15053d Bluetooth: btnxpuart: Fix btnxpuart_close
-         aa1767a3fcd75231e11822b0f95f017fc521691c Bluetooth: btmtk: Add MODULE_FIRMWARE() for MT7922
-         2ea671b1789685be8716f5fa90f0455f0a08dbb7 Bluetooth: btusb: Add support Mediatek MT7920
-         9f67e5ba6f6c2b1c7b57c9a507f77c6fe5487ee5 Bluetooth: mgmt: remove NULL check in mgmt_set_connectable_complete()
-         3da5589ad8087fbb5e6156dbafe658cc673defce Bluetooth: mgmt: remove NULL check in add_ext_adv_params_complete()
+         a21605993dd5dfd15edfa7f06705ede17b519026 ice: pass VSI pointer into ice_vc_isvalid_q_id
+         363f689600dd010703ce6391bcfc729a97d21840 ice: remove unnecessary duplicate checks for VF VSI ID
+         11fbb1bfb5bc8c98b2d7db9da332b5e568f4aaab ice: use relative VSI index for VFs instead of PF VSI number
+         1cf94cbfc61bac89cddeb075fbc100ebd3aea81b ice: remove vf->lan_vsi_num field
+         1260b45dbe2dbc415f3bc1e841c6c098083bcfb8 ice: rename ice_write_* functions to ice_pack_ctx_*
+         a45d1bf516c097bb7ae4983d3128ebf139be952c ice: use GENMASK instead of BIT(n) - 1 in pack functions
+         979c2c049fbea107ce9f8d31f3ba9dba83ddb0a2 ice: cleanup line splitting for context set functions
+         d5926e01e3739542bb047b77f850d7f641eaa7bc ice: do not disable Tx queues twice in ice_down()
+         90f821d72e112d5e4e4214a3704935283cc53375 ice: avoid unnecessary devm_ usage
          
