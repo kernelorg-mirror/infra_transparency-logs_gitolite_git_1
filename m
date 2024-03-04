@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 04 Mar 2024 11:40:44 -0000
-Message-Id: <170955244458.2441.13209622022024672914@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6762349232220232591=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 04 Mar 2024 11:42:32 -0000
+Message-Id: <170955255228.3142.5191756661087409387@gitolite.kernel.org>
+
+--===============6762349232220232591==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 67cdedd639f3ea285fe8d1508ad208334760e5cb
-    new: b12627f59efd2e1a5abd0c2cc3e69a92852b6f7c
+    old: 358585a8c185b7c9579a89e8501d05043863b5be
+    new: 2a2eda46bfa714cf7c8a3b90ec840aa6419d4daa
     log: |
-         121b37036cce04f5d6bf590d6eef13ecf8a09265 tests: (lsfd::mkfds-inotify) consider environments not having / as a mount point
-         720301e04f339274652150f305d9e9f3e504ac6e build-sys: make sure everywhere is localstatedir
-         b12627f59efd2e1a5abd0c2cc3e69a92852b6f7c Merge branch 'lsfd--github-issue-2819' of https://github.com/masatake/util-linux
+         2a2eda46bfa714cf7c8a3b90ec840aa6419d4daa 6.1-stable patches
          
-  - ref: refs/heads/stable/v2.40
-    old: 53d14ef4e3b80147900dd038c1aefe3f9c4135a8
-    new: d283c67c3e84595fdd6a67fe7a07a4b805cd4f8c
-    log: |
-         4069411ca37b2769b0e39dae749a5875e50fc422 tests: (lsfd::mkfds-inotify) consider environments not having / as a mount point
-         d283c67c3e84595fdd6a67fe7a07a4b805cd4f8c build-sys: make sure everywhere is localstatedir
-         
+
+--===============6762349232220232591==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709552551 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1709552550-974cbeb72b1f772b4841e4cc98a24bfd776550ba
+
+358585a8c185b7c9579a89e8501d05043863b5be 2a2eda46bfa714cf7c8a3b90ec840aa6419d4daa refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXls6cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+US8QAIHtFBBD4yCQvzeqly0G
+BAapfaKulViQEmthoP5DfIYrKt5y9pGrkl8N2p+DtQ1X8HdwrcnJhitbn2m6oQXb
+M+oRoiviQJ/wY/crqr3Q6IctMccFfgbZKysZwYvt9qRVHL5Jia8I/pZ5O/euwhck
+FB6Qd+FihaT9BUFkw+hsmYfGvgKhCeuafg50qulnOVjG8WllVL9QMeHzCkmJ0434
+DnJ5eWs/zPGp0oO7GYk2C9YAmxFENktyvvGzTxnKF5/BOb8KO9idPC4csuoMfNOD
+1Xbq/VRvkFPo3E/RsNOF3Faw2SO+ODrZzjYcFFNJQt7CkrewPLOYdGlEEdWPZH0a
+SqryN0TA/psR5aVpajksgf+sW5ejgjyrMggyQoaAiHHVsNmy9Dn8fjKpkvHZQc8I
+WV9t+HlAj6iFXy3UROv/FFJmdicICWswKseLVGA1gllcBNt5ieUHtwF8IuY9RyuX
+cadWKIBQofslLBg1Nt/AfcFq1Y77MH0pxj5ZE7tZNpdZ5tGYwrB1PB0FDLyoq+Bi
+JhA+YRadUIap0W8HScvfm8hYD075O1R791hOeKYLdpHbKB/njOlUGpOQhucQRilq
+XUIH/dhIxDzxwWDn02FT6oYntnox0ppfC66ZsiSLGyMtrahkTFPsN7KGxVaGs06F
+MVWR6/VktvluQiyYU5+oU+lo
+=FT3k
+-----END PGP SIGNATURE-----
+
+--===============6762349232220232591==--
