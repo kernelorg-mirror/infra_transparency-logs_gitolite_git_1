@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 04 Mar 2024 18:49:59 -0000
-Message-Id: <170957819979.24598.12901585885629903945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Mon, 04 Mar 2024 18:53:20 -0000
+Message-Id: <170957840080.27511.11851206313000594072@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/master
-    old: 7876a4bf53adcdfb024bbb05515b981ba475af55
-    new: edb297beb18980637910bc92103d2d2ada8be99b
+  - ref: refs/heads/md-6.8
+    old: 9e46c70e829bddc24e04f963471e9983a11598b7
+    new: 269eb79247f1d9a172535282f2677d4881780373
     log: |
-         62eb6f02adbd47967fd9cd86b92211ef8fac3fb7 foo
-         2d6b6df151e2705200bda035b962f1543da70793 foo
-         1af6477ee81b8a631dc691a382743fd80d16bcee foo
-         edb297beb18980637910bc92103d2d2ada8be99b foo
+         269eb79247f1d9a172535282f2677d4881780373 Revert "Revert "md/raid5: Wait for MD_SB_CHANGE_PENDING in raid5d""
          
