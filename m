@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 04 Mar 2024 14:03:25 -0000
-Message-Id: <170956100508.27044.10269188279907789225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 04 Mar 2024 14:09:48 -0000
+Message-Id: <170956138857.32232.13431626781780445168@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: 8f79870ec8a9409983ad5981e1b7d599cbf047bd
-    new: 01031fd473059bf69bb6edc6d51d4bd58ad92e50
+  - ref: refs/heads/nfsd-next
+    old: 235c35c11b99fc98c643756e6a78d40da6dd1d9b
+    new: b58385ea29db185f533da5219abb6cc84e5c098f
     log: |
-         01031fd473059bf69bb6edc6d51d4bd58ad92e50 selftests/bpf: xdp_hw_metadata reduce sleep interval
+         b58385ea29db185f533da5219abb6cc84e5c098f NFSD: send OP_CB_RECALL_ANY to clients when number of delegations reaches its limit
          
