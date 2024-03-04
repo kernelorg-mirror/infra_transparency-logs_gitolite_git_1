@@ -1,47 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============9128090102303633739=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Mon, 04 Mar 2024 09:13:38 -0000
-Message-Id: <170954361857.6684.12869869474060397016@gitolite.kernel.org>
-
---===============9128090102303633739==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 04 Mar 2024 09:18:47 -0000
+Message-Id: <170954392786.10222.526464425401420943@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can-next
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/linux-can-next-for-6.9-20240304
-    old: 0000000000000000000000000000000000000000
-    new: 724626bdcaf4fa93820cbe6b01a40babd9d8eca2
-
---===============9128090102303633739==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1709543589 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1709543587-125f2a9ba06cc8b0055f3ed3bbbcca3703ae9991
-
-0000000000000000000000000000000000000000 724626bdcaf4fa93820cbe6b01a40babd9d8eca2 refs/tags/linux-can-next-for-6.9-20240304
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmXlkKUTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAoOKI+ei28b0SXB/9Q/78mQcGcR+vlOCyC9EgNTzVoaebd
-u6iNuHPIkv/5uMe936wgjR3sW2nrgGgRuzGQnLs2m5L1PJPjQxxcK3q0T88JYzmc
-+mO2MYXA82K6+4rKnLEBqoAy36RyM1iWDihbm/iGt0m88R/YyzmJih///HRKIioS
-NnL8y4tXnagMsFt8ruawAmaWMHhVKNWsJg/45IsDon/2NZbf22bMqioo4raEArdE
-U+dPoPIg7nItBU4xxP/m7zDGiSoRe7rxFqSEEQliGkbo+tOg+czpJ4rlqSzHI5gL
-nPEPvy/mQpJGVK7gffLxwvK3/b445p6xYKiPxOgtvMoF86uOR0MgXvO1
-=1gVB
------END PGP SIGNATURE-----
-
---===============9128090102303633739==--
+  - ref: refs/heads/master
+    old: 628216e29239040d501d58979a4e64e2a8f11045
+    new: 7cdfde480bf9314606f5a3de0685bb473d63171b
+    log: |
+         7fd817c906503b6813ea3b41f5fdf4192449a707 x86/e820: Don't reserve SETUP_RNG_SEED in e820
+         2be2a197ff6c3a659ab9285e1d88cbdc609ac6de sched/idle: Conditionally handle tick broadcast in default_idle_call()
+         3b9b8e89c8e1e97c76be6abc67db702ea978d89b x86/idle: Sanitize X86_BUG_AMD_E400 handling
+         18a9f4806dcb33ed7eab93232d13facf5c6e2b70 x86/idle: Clean up idle selection
+         695f90619cf785f8a13cbf21bbfddae103542fdf x86/idle: Cleanup idle_setup()
+         71f3a783a758696b5f8084b6f1621240b8804568 x86/idle: Let prefer_mwait_c1_over_halt() return bool
+         25525edd9c99d3aa799e80a8e98bdd62ed1639f9 x86/idle: Select idle routine only once
+         28d5a1525cd9ec75472bc2279d58fe01bcc045de Merge branch into tip/master: 'x86/urgent'
+         7cdfde480bf9314606f5a3de0685bb473d63171b Merge branch 'x86/core'
+         
