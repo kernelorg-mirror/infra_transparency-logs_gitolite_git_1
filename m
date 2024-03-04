@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2565764085334547436=="
+Content-Type: multipart/mixed; boundary="===============4676641630568104710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 04 Mar 2024 17:19:37 -0000
-Message-Id: <170957277717.22408.12372999926879570921@gitolite.kernel.org>
+Date: Mon, 04 Mar 2024 17:19:57 -0000
+Message-Id: <170957279710.22585.18319101789285251632@gitolite.kernel.org>
 
---===============2565764085334547436==
+--===============4676641630568104710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: e960825709330cb199d209740326cec37e8c419d
     new: 09fcde54776180a76e99cae7f6d51b33c4a06525
     log: revlist-e96082570933-09fcde547761.txt
 
---===============2565764085334547436==
+--===============4676641630568104710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -221,4 +221,4 @@ b055671b39363ada7270b815448042aade4d60eb selftests: mptcp: add token for get_add
 4cc5cc7ca052c816e20ed0cbc160299b454cbb75 selftests: mptcp: userspace pm get addr tests
 09fcde54776180a76e99cae7f6d51b33c4a06525 Merge branch 'mptcp-userspace-pm'
 
---===============2565764085334547436==--
+--===============4676641630568104710==--
