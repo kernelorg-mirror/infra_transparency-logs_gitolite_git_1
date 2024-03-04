@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4645564047908251998=="
+Content-Type: multipart/mixed; boundary="===============4027795101407803422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 04 Mar 2024 12:52:37 -0000
-Message-Id: <170955675786.5467.14632700485021621917@gitolite.kernel.org>
+Date: Mon, 04 Mar 2024 12:52:54 -0000
+Message-Id: <170955677423.5637.2962139706190561772@gitolite.kernel.org>
 
---===============4645564047908251998==
+--===============4027795101407803422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: b7b9a646edf153c02e44aab9be36e4e8fb4a4d8e
-    new: 6f1b176c93a84fbaad55bb4e068baf701789ecf2
-    log: revlist-b7b9a646edf1-6f1b176c93a8.txt
+  - ref: refs/heads/m68k-queue
+    old: b8f85c7a2bbfd5461cf21f2af91e911854fd7a3d
+    new: e5ae9eb0f54dec0410e0aed8dd06748a174beadc
+    log: revlist-b8f85c7a2bbf-e5ae9eb0f54d.txt
 
---===============4645564047908251998==
+--===============4027795101407803422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7b9a646edf1-6f1b176c93a8.txt
+Content-Disposition: attachment; filename=revlist-b8f85c7a2bbf-e5ae9eb0f54d.txt
 
 8246601a7d391ce8207408149d65732f28af81a1 riscv: tlb: fix __p*d_free_tlb()
 59950610c0c00c7a06d8a75d2ee5d73dba4274cf mtd: spinand: gigadevice: Fix the get ecc status issue
@@ -305,6 +305,9 @@ e4f79000952e819d58b1edf56466413e7081e6ed Merge tag 'powerpc-6.8-5' of git://git.
 d57dd2d24ddb4c69635a72c6c36e7dc82142d499 Merge tag 'dmaengine-fix2-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 58c806d867bf265c6fd16fc3bc62e2d3c156b5c9 Merge tag 'phy-fixes2-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 90d35da658da8cff0d4ecbb5113f5fac9d00eb72 Linux 6.8-rc7
-6f1b176c93a84fbaad55bb4e068baf701789ecf2 Merge tag 'v6.8-rc7'
+c82ee2e78d1128b3baf841ad2aab6a6cc4f17985 zorro: Make zorro_bus_type const
+acc5de0923055668bd5cbdd1418782a93053b4c5 m68k: atari: usb: Add ISP1160 USB host controller support
+08f5a7a901b0cee41eb2e79fb4dfb88b30753191 m68k: atari: Update Kconfig.bus help text
+e5ae9eb0f54dec0410e0aed8dd06748a174beadc m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4645564047908251998==--
+--===============4027795101407803422==--
