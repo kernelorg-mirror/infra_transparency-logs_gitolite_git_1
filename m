@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 04 Mar 2024 13:24:38 -0000
-Message-Id: <170955867879.28678.9463440679327217304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Mon, 04 Mar 2024 13:28:06 -0000
+Message-Id: <170955888623.31575.13037575237613318676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/vfs.mount.api
-    old: 0000000000000000000000000000000000000000
-    new: 0540b5e5fc1fb89be71af08ddfc7c21a22828ec5
+  - ref: refs/heads/mips-next
+    old: af43e871c93640a69af58ddb33aec2d4be80bf6b
+    new: 78a0eda0ef4f3ed5e15bb8dfacc8c3366dfd937c
+    log: |
+         78a0eda0ef4f3ed5e15bb8dfacc8c3366dfd937c MAINTAINERS: remove entry to non-existing file in MOBILEYE MIPS SOCS
+         
