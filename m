@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4165409270798799084=="
+Content-Type: multipart/mixed; boundary="===============0327727085107378816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 04 Mar 2024 17:13:57 -0000
-Message-Id: <170957243773.18613.10699541764286859972@gitolite.kernel.org>
+Date: Mon, 04 Mar 2024 17:14:36 -0000
+Message-Id: <170957247649.18949.11825298905782740463@gitolite.kernel.org>
 
---===============4165409270798799084==
+--===============0327727085107378816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: e960825709330cb199d209740326cec37e8c419d
-    new: 09fcde54776180a76e99cae7f6d51b33c4a06525
-    log: revlist-e96082570933-09fcde547761.txt
+  - ref: refs/heads/dev-queue
+    old: dfd54c3666e17ed2830868770b2d4b9c2e54ad1c
+    new: b7573145bc9c77e03802190d6c7f187c1caafdc6
+    log: revlist-dfd54c3666e1-b7573145bc9c.txt
 
---===============4165409270798799084==
+--===============0327727085107378816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e96082570933-09fcde547761.txt
+Content-Disposition: attachment; filename=revlist-dfd54c3666e1-b7573145bc9c.txt
 
 29788f39a4171dd48a6d19eb78cf2ab168c4349a bpftool: Be more portable by using POSIX's basename()
 ad57654053805bf9a62602aaec74cc78edb6f235 libbpf: Fix faccessat() usage on Android
@@ -220,5 +220,53 @@ d32c8fb1c881478e4af8e6ac3c922d35c8ba3ca8 mptcp: implement mptcp_userspace_pm_get
 b055671b39363ada7270b815448042aade4d60eb selftests: mptcp: add token for get_addr
 4cc5cc7ca052c816e20ed0cbc160299b454cbb75 selftests: mptcp: userspace pm get addr tests
 09fcde54776180a76e99cae7f6d51b33c4a06525 Merge branch 'mptcp-userspace-pm'
+62553f64e59651f45e6d01882809f96040028e85 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+c1d02f05abd22eb5221d4ae727b67be69b4ec54b e1000e: Minor flow correction in e1000_shutdown function
+a6bde5673b76b7a61365e4554aca73e7dc040a09 ice: virtchnl: stop pretending to support RSS over AQ or registers
+8fdd34991b9a625ca2610882a5c73dfb3530a286 ice: Refactor FW data type and fix bitmap casting issue
+a537f1202f7fdd8577d37279eb625ee6f0dd9296 idpf: disable local BH when scheduling napi for marker packets
+c8191fab6c58575a56e20c9d4f8ec9c2f2f70704 ice: Add switch recipe reusing feature
+853742084ff5f13ac3ed3565759eb661710cde89 igc: Refactor runtime power management flow
+357fd68b528fbe0a7c48c2808c08c2411b08fabd ethtool: Add GTP RSS hash options to ethtool.h
+2670111dfef9b2d42ced3cdc33f941497374bd33 ice: Implement RSS settings for GTP using ethtool
+182fa75b2c7eb71de731968b6ed2d98a72d1049e intel: make module parameters readable in sys filesystem
+b56fc9ea3337b017b7766e90e4b6094f3a48f4ba ixgbe: Add 1000BASE-BX support
+c8c9941388207e1dcbb4b93d9c0697df3f684ae3 ice: pass VSI pointer into ice_vc_isvalid_q_id
+84f5f19eaaf1b6d8b1275d77a5d3fba71a961942 ice: remove unnecessary duplicate checks for VF VSI ID
+ad59c422c9ff1f086c57530a06fad817fd06cb48 ice: use relative VSI index for VFs instead of PF VSI number
+dd9b9c62b84f99201f78d61c2169d056d149c820 ice: remove vf->lan_vsi_num field
+07a61f47eb0b505e950e1a5df49f801b19c6ae9b intel: legacy: Partially revert of field get conversion
+39c8849e7fba288f57ba7bfc976486f09e46a454 igc: avoid returning frame twice in XDP_REDIRECT
+99732b747182a58c923abd99a1d45f725b361b9a ixgbe: {dis, en}able irqs in ixgbe_txrx_ring_{dis, en}able
+48bb96b14a2ce4cfd2c69da9e29df3b6e5b7efa5 i40e: disable NAPI right after disabling irqs when handling xsk_pool
+01c7f7b4451c040f414a76dd03c3a6f7a18e397f ice: reorder disabling IRQ and NAPI in ice_qp_dis
+27e9960ab0ba328166d565bf28d287686fec9bfc igc: Fix missing time sync events
+c18b5b06da9d74a45f4a47e5b90896869170dd39 igb: Fix missing time sync events
+8647fb644b71af0241b97e59a0c174dd21bcf731 ice: tc: check src_vsi in case of traffic from VF
+2f092296133baf3f1464752ee2f0f2c587bb9dab ice: tc: allow ip_proto matching
+3d5c118d931514785c24325fdd1a24bf0e34fbed idpf: add idpf_virtchnl.h
+8c84faba43decdb7afae14289992a3c8d08a82fd idpf: implement virtchnl transaction manager
+dfffc369b9b3e5a65bcf366f0167aa4c760c1328 idpf: refactor vport virtchnl messages
+373cf8d875bf74ba923ee482bb0924949d631b0f idpf: refactor queue related virtchnl messages
+30c1c4736e159629a08f6068cfbd333151e0c78d idpf: refactor remaining virtchnl messages
+a1428bebf2cfd1947fd9b73acb4cd5dea80d55bb idpf: add async_handler for MAC filter messages
+00e15e42e510c5dd05e51b9201048e040d916ae0 idpf: refactor idpf_recv_mb_msg
+59e47738ec3216a52975fcce2b5cfe3696264bd4 idpf: cleanup virtchnl cruft
+39497ee0d1276dcbca8495acfc5533a86d513e8d idpf: prevent deinit uninitialized virtchnl core
+2ef96e2339bfd7b90d25637809165c75d11eaaa0 idpf: fix minor controlq issues
+a55303c69e6dca787d32da3f5d0732f130eb2923 idpf: remove dealloc vector msg err in idpf_intr_rel
+e0713b37254257e6f94d0f01f63831f399c355a1 ice: reconfig host after changing MSI-X on VF
+00bffc8f209d0054abf6ab3693c60c909371197a ice: do not disable Tx queues twice in ice_down()
+cee0994c280191cefdd1a540d0b4d8083c75264a ice: avoid unnecessary devm_ usage
+e8fda485f96963922bf450a21b05bf85517e0289 ixgbe: pull out stats update to common routines
+e09d0e2150afc8b17954e315123ea2fb2387e982 igc: fix LEDS_CLASS dependency
+8441ebefec072c741b245dc9783ac0a3a14675bb iavf: drop duplicate iavf_{add|del}_cloud_filter() calls
+29dec428ed003b49739209bbe7bc73af77c275d1 i40e: remove unnecessary qv_info ptr NULL checks
+6c4423d2f999d3f242d374a643ab68da12e3861d ice: rename ice_write_* functions to ice_pack_ctx_*
+8ecfe98bc7be6a18e97a457249b139af4e667a09 ice: use GENMASK instead of BIT(n) - 1 in pack functions
+a4e5bf8c44f7efd2182ee8c397579236d36bb275 ice: cleanup line splitting for context set functions
+d1dfd364c41c4e2a0aeac5388c1a184c541393c2 ice: fix stats being updated by way too large values
+c519ba71cbf11900ff2fb631359e9cc922b6c67a i40e: Fix firmware version comparison function
+b7573145bc9c77e03802190d6c7f187c1caafdc6 ice: fix uninitialized dplls mutex usage
 
---===============4165409270798799084==--
+--===============0327727085107378816==--
