@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 04 Mar 2024 06:46:21 -0000
-Message-Id: <170953478169.24225.18272861243887741909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 04 Mar 2024 06:48:13 -0000
+Message-Id: <170953489379.24959.10458756349007541656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: chandanbabu
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: 601f8bc2440a25a386b1283ce15330c9ea3aaa07
-    new: 8d4dd9d741c330119ae14f688bfc4fb602b17e19
+  - ref: refs/heads/stm32/dt
+    old: 0000000000000000000000000000000000000000
+    new: a7b9ab6c880d4ce2c216f14482a6d3e24fc0c87a
