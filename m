@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 04 Mar 2024 10:18:14 -0000
-Message-Id: <170954749461.4399.16491517753796932209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Mon, 04 Mar 2024 10:24:29 -0000
+Message-Id: <170954786993.8243.17945732903458132664@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
 changes:
-  - ref: refs/heads/main
-    old: b8b85d048936bd304c7815fd2bce348a22c2055b
-    new: 26b5df99bf603d3eb1a0acae239192e7d01c6b0e
+  - ref: refs/heads/slab/for-6.9/slab-removal-cleanups
+    old: 3dd549a557f7dc326d59c5fa105e230ebf3d5458
+    new: 17cce771c5fc85f43680143ac8b3b944fdad113f
     log: |
-         4f41ce81a919cdaa6ae545f1c76264e719a7be0f net: nlmon: Remove init and uninit functions
-         26b5df99bf603d3eb1a0acae239192e7d01c6b0e net: nlmon: Simplify nlmon_get_stats64
+         17cce771c5fc85f43680143ac8b3b944fdad113f mm, slab: remove memcg_from_slab_obj()
          
