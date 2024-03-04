@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============4649974718120734853=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 04 Mar 2024 08:12:16 -0000
-Message-Id: <170953993691.25817.12434281978696001790@gitolite.kernel.org>
-
---===============4649974718120734853==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 04 Mar 2024 08:15:34 -0000
+Message-Id: <170954013474.28711.470491530366130409@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: d4ee1a54c441a83d46172c87cb032702dacff41b
-    new: 9788f7a3fffc84d12f5a9d6da09a9b979b278945
+  - ref: refs/heads/for-linus
+    old: 642b02b45de51a36f2f3ec9a3584a4df6212b315
+    new: b603d95692e47dc6f5f733e93c3841dc0c01e624
     log: |
-         9788f7a3fffc84d12f5a9d6da09a9b979b278945 drop mptcp patch from 5.4, went to the wrong queue, my fault
+         34ab5bbc6e82214d7f7393eba26d164b303ebb4e ALSA: hda/realtek - Add Headset Mic supported Acer NB platform
+         37d9d5ff5216df1908a41e6ddd72460c5d938b8a ALSA: hda: cs35l41: Support Lenovo Thinkbook 16P
+         6214e24cae9b10a7c1572f99552610a24614fffe ALSA: hda/realtek: Add quirks for Lenovo Thinkbook 16P laptops
+         b603d95692e47dc6f5f733e93c3841dc0c01e624 ALSA: hda: cs35l41: Overwrite CS35L41 configuration for ASUS UM5302LA
          
-
---===============4649974718120734853==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709539936 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1709539935-7a453f86b443f8eda8f328bd6d011d44e6a0fa47
-
-d4ee1a54c441a83d46172c87cb032702dacff41b 9788f7a3fffc84d12f5a9d6da09a9b979b278945 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXlgmAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m8wP/34fgdJAR6jVd9dWCYL/
-Z+uFGBCNjor7m0pgFv8YlZIibjOXbKEp8rF8EHov6y/LoOV4QspbpmuVFFmdb/Fm
-RH0f0rbEOMQ7d8JeWsM4qwUT9KOR+WHsS42IMwbEaXw5nU00bhrCM9P/9t027IX/
-a3WbsA5Pv/bMba1Eby9jHVcW33q0Uh5PV7jmKHNyPd8e8ILmSSEAtKhULZOyirXW
-5Ci+kY3Z8epjk8zGBbUhy0fLhWRcAv0nOcMo3KI1yPsp1jGVS1HGL6YnBK6XG8CM
-WFsTkBFMn9DoZcEo5Ncla92F3PVu+r5x7drPjfmJTHqPB7nMXrTVOBYkWOzZmDc+
-CgSylTXfQX10x1haHBu7PsHy4eG1IKR4JFCm9ghD77ZiBriI0k1IdnE+jhlFb5sJ
-3bUkUPyeledkRF/moYui42rqqX+4b7J7DgciU8OLrV6817jDk8W/jjaT9fCkrRgC
-/9bZvYsiWZFQus5fyTOaGtS1r8mNkmkiDc7AacWXCe8/de/JkpBJHl8J90RBd3/P
-5SDEloMkpMHtGu4dDtHsdxFBRDzLKDjDhKUgyk4yCBb6lUrUEf8+SYQBajKtd1L6
-W+zuY0SLJe7F1TAIgsuAUUALxYp133CUE2XEtMmRQiW81rBuibgRuphc2Yys5Xxu
-fh/tZZgi5FQzni4G4CTuQUtn
-=Yj6A
------END PGP SIGNATURE-----
-
---===============4649974718120734853==--
+  - ref: refs/heads/for-next
+    old: 72165c867f21d0724a9c900ff6e8bb5ba10cd8a8
+    new: 1601cd53c7e3197181277326dbfc131d20a74e46
+    log: |
+         1601cd53c7e3197181277326dbfc131d20a74e46 ALSA: usb-audio: Name feature ctl using output if input is PCM
+         
+  - ref: refs/heads/master
+    old: 916d251a27c1a68c863cc2b0c7038d81acaf0e2b
+    new: 2717f28eebf1e100a8c03449a4d797bc18746909
+    log: |
+         34ab5bbc6e82214d7f7393eba26d164b303ebb4e ALSA: hda/realtek - Add Headset Mic supported Acer NB platform
+         d9b5aae6c55fc8b7c82557d73118c7744793f908 Merge branch 'for-linus'
+         37d9d5ff5216df1908a41e6ddd72460c5d938b8a ALSA: hda: cs35l41: Support Lenovo Thinkbook 16P
+         6214e24cae9b10a7c1572f99552610a24614fffe ALSA: hda/realtek: Add quirks for Lenovo Thinkbook 16P laptops
+         b603d95692e47dc6f5f733e93c3841dc0c01e624 ALSA: hda: cs35l41: Overwrite CS35L41 configuration for ASUS UM5302LA
+         c62f899b8000585031201ed6ab635d658c57f78f Merge branch 'for-linus'
+         1601cd53c7e3197181277326dbfc131d20a74e46 ALSA: usb-audio: Name feature ctl using output if input is PCM
+         2717f28eebf1e100a8c03449a4d797bc18746909 Merge branch 'for-next'
+         
