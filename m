@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 04 Mar 2024 14:49:31 -0000
-Message-Id: <170956377118.28838.12978191462898343476@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
+Date: Mon, 04 Mar 2024 14:50:46 -0000
+Message-Id: <170956384668.30989.9091458238706271244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/legion/linux
+user: legion
 changes:
-  - ref: refs/heads/drivers/ffa
-    old: 0000000000000000000000000000000000000000
-    new: 989e8661dc45babf43070d519011dfc1e33c8875
+  - ref: refs/tags/patchset/cons-font-info/v1.0/cover
+    old: e74bda2810038bd558dd12146c65bc90db81bdb4
+    new: d8ebd48448be99564e9ed36ad4476c3868de1523
