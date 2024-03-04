@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6415547990314563288=="
+Content-Type: multipart/mixed; boundary="===============0397086716129144089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 04 Mar 2024 12:50:07 -0000
-Message-Id: <170955660751.3750.18227578870749391386@gitolite.kernel.org>
+Date: Mon, 04 Mar 2024 12:50:10 -0000
+Message-Id: <170955661059.3844.7402580008850194532@gitolite.kernel.org>
 
---===============6415547990314563288==
+--===============0397086716129144089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,73 +16,91 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: e133c1ee6d7271007fdba3dbe78818afd88943f9
-    new: 413c6c02c846b8d11aa3e5c7e629b7618c3a2444
-    log: revlist-e133c1ee6d72-413c6c02c846.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 9985c44f239fa0db0f3b4a1aee80794f113c135c
+    new: fe849b3e807d2a9b5e7890704143c5e4f0521971
+    log: revlist-9985c44f239f-fe849b3e807d.txt
 
---===============6415547990314563288==
+--===============0397086716129144089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709556606 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709556608 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1709556606-6e7f790d50186508e8d66490398fd8d3db175d93
+nonce 1709556608-e51fc8c268277f33e88dafcd4d7c2b2a793fd266
 
-e133c1ee6d7271007fdba3dbe78818afd88943f9 413c6c02c846b8d11aa3e5c7e629b7618c3a2444 refs/heads/linux-5.4.y
+9985c44f239fa0db0f3b4a1aee80794f113c135c fe849b3e807d2a9b5e7890704143c5e4f0521971 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXlw34bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7HgQANFG2TpfsPJRiOfbjFd2
-AKrXi95uTXEqBPE1vm+DGdYvw0c9kqrDSdZBXieawIFmCi8+wg8DAbRsCrXs8PwY
-eND1t+0oe+KVeOM0rckHSHLJQ7tyQPenHW2+fXZNBudr+ujklba85F384Ju+ml45
-vxOtia9mC8rtHcqjJ0gb9lPYxTFLzqH0cayCFlfG2zOl359rllPXSi/Cvb4p+RA8
-dbl29qkpKQzkhKadEX57ULdS5bE8XMEfsszbCqulozAoV54lcnV5zkzgZt6ssbMR
-2KgumEWCHySTw5F0R2ktWVf+nqzLZwKxgH5qCDyZZxl8jnsHfPhVXhuCWLTCWfN0
-JIlE/dN+Y6X/YEfQJFbV6QNpZ/yaFmY0XNAQ1EKXuA2Gr783yNmFCsZ0Q88g6kOx
-X+vSUYlAFd2yGfRfzdJdWmb45nTXuEhN3uop7Pj0W1VYQFGg5bUpSUdDRMVJ4dKV
-DUGGIhZSHL2drRaYkSCfyXrQTb/k1tsR1/xxFczfnAutBo71bdVXJhdeH32dHYZn
-ClcXE4LYr1Xsdk0kHu1HMye0dnyoCJv1OVvZ/hvX+Qo7W6raTQdTAPLZ4NmgA1iY
-fk+RgSzz+X5+Em5D3pwiRpOpKYuX/Nl9WIvUdvA8Ckp7W6mgFmGbh+AmtPhbmFuk
-HdKqC3Od7drzi++ORG4nSAhM
-=7rim
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXlw4AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+niMP/jZNrpEvrGOcXZuMBF07
+EPPMbZIelFMH/sJZlKN110S8SwoMpRtWOw9a3giirtHF+6eEEMS6eEV75AoPuig7
+q1vxZUWwR6eCm6KCpXLoBabMtY2vbYvBca9a4Yrq5kgn9oaSo8s4IDCVjjnW49Ak
+/+BtG+h1QOo0gAEad0SuvqLMOEMOymetJKBI8pQ6/mFYM6nWwSlweNdBioZMLS2i
+AVpreRoFWw/oZB6NZ3KJPg7shemDD8E15bAvjN3Qapo/Yu1n6OZHeQN97X1ibJpY
+ZSNaClCQ5CyDTHs6G2Zxhg480C7oMDnuUH58o2geXOgnwDbBPs7LXNdCMfp60etQ
+jd4qbpK/Y1L9pX0Ec2waUqdlLtmn9toaw7ikrgfbFPxvmUtv+A7znPyBhU6R2U9V
+r7Doa9SV0Gph630at+BLm9oVDGNpqAdBB80q3HXBX+zdutNAyDvhR4IicNtQP64s
+ENCyGzfJTGe8G9PfOF36Xo45iRO6JEzBE/ohl+jfyxIJ8+cgAxx4zRwwVfsfM8CH
+sgrUohg6qf4g1/+iF5XEjb6spPUiYaGWUbvp7ZC7GUlU1/KCvBBDtH13hiG5tUdX
+4PWJUKSWl44YOPpYgzMt6sJlsmB4HJWCVpEuV6EaFqmngnqmt06RWh9VU8ritKH/
+F+rNK29kLVz+ud+H6+CLs41i
+=yAwd
 -----END PGP SIGNATURE-----
 
---===============6415547990314563288==
+--===============0397086716129144089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e133c1ee6d72-413c6c02c846.txt
+Content-Disposition: attachment; filename=revlist-9985c44f239f-fe849b3e807d.txt
 
-662cf3ed2427f2136066925d9c72812add59aa0e netlink: Fix kernel-infoleak-after-free in __skb_datagram_iter
-bed841fa058751e9c94b2068826a7c4fd42754fd net: ip_tunnel: prevent perpetual headroom growth
-2dc442de207a7cb9514659721464b19414dd3e7b tun: Fix xdp_rxq_info's queue_index when detaching
-589a50667351e9d29f900c1e5c2df89db64f126d ipv6: fix potential "struct net" leak in inet6_rtm_getaddr()
-d6c1700b6100753e3ec63e4d05cb588ef50adcd3 lan78xx: enable auto speed configuration for LAN7850 if no EEPROM is detected
-444730b338243b87b73bc359b470dd0abdba7966 net: usb: dm9601: fix wrong return value in dm9601_mdio_read
-afd3984a3e5b4f333a8a5eb2ebf6a59ff79679d5 Bluetooth: Avoid potential use-after-free in hci_error_reset
-54dbb5745638db7c4c49e018a6b517a277b73b1e Bluetooth: hci_event: Fix handling of HCI_EV_IO_CAPA_REQUEST
-7f4912e945c6557a4bbb17c15ee33d55ab7ce606 Bluetooth: Enforce validation on max value of connection interval
-fe72dcb954a2ec8e2618b62dd720c9f9eccf6cfd netfilter: nf_tables: allow NFPROTO_INET in nft_(match/target)_validate()
-0f06c7d842da843ba8ef1742506ebc1a09693c8f rtnetlink: fix error logic of IFLA_BRIDGE_FLAGS writing back
-81f4cc30cb72c7cb5b895bc263552838f3405329 efi/capsule-loader: fix incorrect allocation size
-d01e4173b95bb6a3f9870c2fd7d8293d13ec9448 power: supply: bq27xxx-i2c: Do not free non existing IRQ
-e26ff757a510bf6eb416e237fa2f67dd2cdf4098 ALSA: Drop leftover snd-rtctimer stuff from Makefile
-de3fc2d75a0fcb7d839112369ba4d448491d5c45 afs: Fix endless loop in directory parsing
-fd8cb36db80f5ecd2f2efdc1740ad697273695e0 gtp: fix use-after-free and null-ptr-deref in gtp_newlink()
-9fe56976c8ceef064e72953e6f46c274f5aa2748 wifi: nl80211: reject iftype change with mesh ID change
-a54c8250ea9d76411d34da70d46c58b9fcf6c788 btrfs: dev-replace: properly validate device names
-709d92518699075aad0d37279c9857243c2d0753 dmaengine: fsl-qdma: fix SoC may hang on 16 byte unaligned read
-148f38a0df15d1dff82a6d22e7d292168932e1f9 dmaengine: fsl-qdma: init irq after reg initialization
-100622aa0de36fa68cecaf224a03a414e1c8a1c1 mmc: core: Fix eMMC initialization with 1-bit bus connection
-9e7e590680d9e221ef9352ddb525684a8a08ef4b fs/aio: Make io_cancel() generate completions again
-c5e2bf067b72ba7a9cd2d5bdf048bd20f37ab2f3 x86/cpu/intel: Detect TME keyid bits before setting MTRR mask registers
-f2755204ecd9cca3f71394011db037fd4a325b66 cachefiles: fix memory leak in cachefiles_add_cache()
-3a93ac6ca760e929526314e4a9daffcb8cf07fb8 fs,hugetlb: fix NULL pointer dereference in hugetlbs_fill_super
-6e17a19c344035027fa8668e1003f840bc29e8ba gpio: 74x164: Enable output pins after registers are reset
-413c6c02c846b8d11aa3e5c7e629b7618c3a2444 Linux 5.4.271-rc1
+faa990d419721f62126b1f9aeb113bc961ede239 software node: Introduce device_add_software_node()
+c54568d05135155087e3b45d91a4e9ce875db724 software node: Provide replacement for device_add_properties()
+c2ac889efcba1e3a3020f5df10eda87f97987665 platform/x86: touchscreen_dmi: Handle device properties with software node API
+7488f03f55b7315f09bfa12b4d1a404eb867373b platform/x86: touchscreen_dmi: Allow partial (prefix) matches for ACPI names
+861b4d3599eefa5b0b4a179abcbce7e8dd76f7a7 crypto: virtio/akcipher - Fix stack overflow on memcpy
+492c50d6143ea1c382c2b6b367fb61d718afb1b0 mtd: spinand: gigadevice: Support GD5F1GQ5UExxG
+042a74a72e9ec0560d35908d00560ad6ffa30df9 mtd: spinand: gigadevice: Fix the get ecc status issue
+b96fb19c249057156013f5b725e1b76160c713fe netlink: Fix kernel-infoleak-after-free in __skb_datagram_iter
+77f88cd5fce122069126debd9e272b91f126e330 net: ip_tunnel: prevent perpetual headroom growth
+8c21745d2c670202f74f29f40ba1e8c734cd0c61 tun: Fix xdp_rxq_info's queue_index when detaching
+b01b3b5564b3974e015fbba10ad13d058a01d03c ipv6: fix potential "struct net" leak in inet6_rtm_getaddr()
+734a8f079acb8fa7a8ecdc511dfdf7494bc4afa4 lan78xx: enable auto speed configuration for LAN7850 if no EEPROM is detected
+228522033a16b25079520a0d8f08bdc528a3cf41 net: usb: dm9601: fix wrong return value in dm9601_mdio_read
+40a1b6d4cc18d6309826eadf7db2e6f935903638 Bluetooth: Avoid potential use-after-free in hci_error_reset
+c91fa1034fe2b2807157ee737a909e879317e13f Bluetooth: hci_event: Fix wrongly recorded wakeup BD_ADDR
+01587f013a06550b90c620f39f8ea76615c7dc43 Bluetooth: hci_event: Fix handling of HCI_EV_IO_CAPA_REQUEST
+8dcf253cdce95b018df4e2b51666b3fafa84c7fe Bluetooth: Enforce validation on max value of connection interval
+cfbb68be9035fceee8661b36f249ab9c59391b92 netfilter: nf_tables: allow NFPROTO_INET in nft_(match/target)_validate()
+22a07329624a103e2b03f537b3c1580f9a9f3c74 rtnetlink: fix error logic of IFLA_BRIDGE_FLAGS writing back
+7c468ac450ff556674e391daba5aa51f804a17a7 efi/capsule-loader: fix incorrect allocation size
+3421eb7d007da7414f8d3813df3100fb51a2a874 power: supply: bq27xxx-i2c: Do not free non existing IRQ
+29cc186189b218439f82f5d32d9001576f32adee ALSA: Drop leftover snd-rtctimer stuff from Makefile
+e5b8fb03ee3038bdb944979a5ee010b2ddd9780b afs: Fix endless loop in directory parsing
+c7d2d365d2e002ccc988f1d2d4eb25bf96bdb0f4 riscv: Sparse-Memory/vmemmap out-of-bounds fix
+cc17aa09b060a024e7aa908ec7a9b5a00aea5d0e tomoyo: fix UAF write bug in tomoyo_write_control()
+4dd12aa70500043e996ca065f004c20eda15d343 gtp: fix use-after-free and null-ptr-deref in gtp_newlink()
+d02db2911749eabb0e07a323287f6c13d6890abc wifi: nl80211: reject iftype change with mesh ID change
+552eb1f85b368b6060894fd8ad5ac1ea9496b397 btrfs: dev-replace: properly validate device names
+0eb0d74d0cea8f39ea30cd2aa75c799f19ba006d dmaengine: fsl-qdma: fix SoC may hang on 16 byte unaligned read
+abca49f21ec18085e20447570b8b99b644f6d7c5 dmaengine: fsl-qdma: init irq after reg initialization
+e15508186811aa57850675653925360aaec74714 mmc: core: Fix eMMC initialization with 1-bit bus connection
+38edf42a4c742cea0c5f5f40c342a07b137cac06 mmc: sdhci-xenon: add timeout for PHY init complete
+058ae9137c741aed4f95586307217b0ea5fb2c0b mmc: sdhci-xenon: fix PHY init clock stability
+b059103461b2a594bdc9e23168a6ab43438b0f29 riscv: add CALLER_ADDRx support
+ce4ea501b08f3633a0a72a4838d190766f3192bc pmdomain: qcom: rpmhpd: Fix enabled_corner aggregation
+c28dea577f512bf3ca4a7b4ca415469a1c716573 fs/aio: Make io_cancel() generate completions again
+595c24018c9b128b3d68ec71c037e5f6b6ad90b8 x86/cpu/intel: Detect TME keyid bits before setting MTRR mask registers
+1548d1f76da0ef546c94b2f499c9d82b9c930063 mptcp: fix possible deadlock in subflow diag
+633697827fc953bcf66b806e6cceed7e9be88a81 ext4: avoid bb_free and bb_fragments inconsistency in mb_free_blocks()
+22ab5605afd886f735edd6cbbf2c90bff513d859 cachefiles: fix memory leak in cachefiles_add_cache()
+2fb1f9bab98411223fb52e474fb0ede00444ed13 fs,hugetlb: fix NULL pointer dereference in hugetlbs_fill_super
+70f106f0f78fe377f55d975e0c8a7ce42153a4b5 gpio: 74x164: Enable output pins after registers are reset
+c53a3adaa8098ea9bc8a871bef0b776dc7017281 gpiolib: Fix the error path order in gpiochip_add_data_with_key()
+d1d20ed7a575e2bda51dd1af68006b59582cff8d gpio: fix resource unwinding order in error path
+fe849b3e807d2a9b5e7890704143c5e4f0521971 Linux 5.10.212-rc1
 
---===============6415547990314563288==--
+--===============0397086716129144089==--
