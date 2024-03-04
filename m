@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Mon, 04 Mar 2024 16:51:33 -0000
-Message-Id: <170957109369.1143.7150998550662508265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 04 Mar 2024 16:51:43 -0000
+Message-Id: <170957110319.1367.7647807063217761565@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: d9342e955cef6b3ce2183d9782a55ff172ba9d76
-    new: f6ddbd31f450ec045c06a72e40b1af7dfc72ae0d
-    log: |
-         f6ddbd31f450ec045c06a72e40b1af7dfc72ae0d Rename RSEQ_ARCH_HAS_OFFSET_DEREF_ADDV to rseq_arch_has_load_add_load_load_add_store
-         
+  - ref: refs/tags/v4.9.108
+    old: 84349d60254b14e5b998c6394a3f44208d765db2
+    new: 0000000000000000000000000000000000000000
