@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
 Date: Mon, 04 Mar 2024 16:32:07 -0000
-Message-Id: <170956992700.12436.12174283516902199907@gitolite.kernel.org>
+Message-Id: <170956992745.12469.2889212690340083514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
+user: djiang
 changes:
-  - ref: refs/tags/v4.17.19
-    old: 59118c65e73f31ded8a21328077b274d04b12ab5
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/libnvdimm-for-next
+    old: bc22374c96d959084bea1287cfc6ea0fd9ca4e40
+    new: d9212b35da52109361247b66010802d43c6b1f0d
+    log: |
+         d9212b35da52109361247b66010802d43c6b1f0d dax: remove SLAB_MEM_SPREAD flag usage
+         
