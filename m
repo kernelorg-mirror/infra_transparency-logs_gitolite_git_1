@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 04 Mar 2024 19:06:44 -0000
-Message-Id: <170957920433.4825.11045969024290372848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Mon, 04 Mar 2024 19:17:28 -0000
+Message-Id: <170957984845.13401.8214173223667559440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/network/ofono/ofono
+user: holtmann
 changes:
-  - ref: refs/heads/riscv-firmware-for-next
-    old: 0000000000000000000000000000000000000000
-    new: 12c3d5e394886c6934bb0984e22c9e25fc425c98
+  - ref: refs/heads/master
+    old: b7cd8fc2b15dfb00bde984498d826309620186d5
+    new: 07e13a47f99856004c1c3dc7d53b99f48bf626bd
+    log: |
+         07e13a47f99856004c1c3dc7d53b99f48bf626bd Release 2.5
+         
