@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0496465838814244516=="
+Content-Type: multipart/mixed; boundary="===============6988959426155655631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 04 Mar 2024 10:04:09 -0000
-Message-Id: <170954664987.24572.5468875745130435771@gitolite.kernel.org>
+Date: Mon, 04 Mar 2024 10:04:20 -0000
+Message-Id: <170954666016.24710.6279524268958876345@gitolite.kernel.org>
 
---===============0496465838814244516==
+--===============6988959426155655631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/usb-next
     old: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
     new: d206a76d7d2726f3b096037f2079ce0bd3ba329b
     log: revlist-54be6c6c5ae8-d206a76d7d27.txt
 
---===============0496465838814244516==
+--===============6988959426155655631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c46ac50ebec33907e5768012aa39ba1ab2f0ca14 Merge tag 'usb-6.8-rc6' of git://git.ke
 e231dbd452a79b9100846c0552fd9077251c042e Merge tag 'bcachefs-2024-02-25' of https://evilpiepirate.org/git/bcachefs
 d206a76d7d2726f3b096037f2079ce0bd3ba329b Linux 6.8-rc6
 
---===============0496465838814244516==--
+--===============6988959426155655631==--
