@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 04 Mar 2024 19:18:40 -0000
-Message-Id: <170957992017.13951.7363970792821512000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 04 Mar 2024 19:22:51 -0000
+Message-Id: <170958017187.17104.10320878763835520045@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/riscv-firmware-for-next
-    old: 12c3d5e394886c6934bb0984e22c9e25fc425c98
-    new: af1e0a7d39f98c0dea1b186a76fcee7da6a5f7bc
+  - ref: refs/heads/kvm-arm64/pauth-trapectomy
+    old: 9aa3ba16fcb4955f40c0758526d7752fe5a841ae
+    new: d29828dcbca84eb0e0cb75a04b17f5c98ae21f66
     log: |
-         af1e0a7d39f98c0dea1b186a76fcee7da6a5f7bc firmware: microchip: Fix over-requested allocation size
+         d29828dcbca84eb0e0cb75a04b17f5c98ae21f66 KVM: arm64: Drop trapping of PAuth instructions/keys
          
