@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 05 Mar 2024 19:58:07 -0000
-Message-Id: <170966868712.6861.10843785137464723388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 05 Mar 2024 20:01:07 -0000
+Message-Id: <170966886710.9689.17147793044330957653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/riscv-firmware-for-v6.9
+  - ref: refs/heads/kselftest-tty-tname
     old: 0000000000000000000000000000000000000000
-    new: dc705ebead8d7a5bac1cffbb6bd2241d1b6ab839
+    new: b874b513ef9db84f2277d1d481beb311c523c3a8
