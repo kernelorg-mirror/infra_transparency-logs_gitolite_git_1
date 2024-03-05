@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 05 Mar 2024 09:15:22 -0000
-Message-Id: <170963012203.12745.17170096455056928076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Tue, 05 Mar 2024 09:15:33 -0000
+Message-Id: <170963013336.12894.9092091052669994405@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/lee/leds
+user: lee
 changes:
-  - ref: refs/heads/master
-    old: 677a3168b261f3289e282a02dfd85d7f37de0447
-    new: b0151dde235a218d24c5ff1f54a7a7fe2b87d6a0
+  - ref: refs/heads/for-leds-next
+    old: 3e7b2b9309cd3eb1b82121b8a978d2dd19301924
+    new: 6775aa0bed987fcbce05dafedea2d9166fb5f98e
     log: |
-         b3e9aadce221fef040e8a059650e351234c8a762 - Fixed report error code in blockdev. - Minor: Added a period at the end of "--rereadpt" description.
-         4b2e6f5071a4c5beebbd9668d24dc05defc096d7 su: fix use after free in run_shell
-         b0151dde235a218d24c5ff1f54a7a7fe2b87d6a0 Merge branch 'blockdev' of https://github.com/EvgeniyRogov/util-linux
-         
-  - ref: refs/heads/stable/v2.40
-    old: c8fd2a4d6d5a9ad504e4eff71efa040ca5bb459b
-    new: 81c528c4fc4a31e9c8de04eb96e64be9e3967697
-    log: |
-         81c528c4fc4a31e9c8de04eb96e64be9e3967697 su: fix use after free in run_shell
+         c0ef9799df8756968c236720658e492fbe636064 dt-bindings: leds: Add LED_FUNCTION_WAN_ONLINE for Internet access
+         8471d8737e3b4915ba0802985427364cd286ca5b leds: expresswire: Don't use "proxy" headers
+         3cc566d0a66dfcf929fb01154ac66e798106261f dt-bindings: leds: qcom-lpg: Drop redundant qcom,pm8550-pwm in if:then:
+         8bebf994a972369e327b1d3e8fb1a43b25d0bd09 dt-bindings: leds: qcom-lpg: Narrow nvmem for other variants
+         71c65d0ff79e3b21cb3eba67d87159533daaadbc leds: Fix ifdef check for gpio_led_register_device()
+         5edfca391c5fb2fa12c438aee5ccbe0b22713f31 leds: lm3601x: Fix struct lm3601_led kernel-doc warnings
+         0e225365753c8824b720588252458be87a0841a1 leds: leds-mlxcpld: Fix struct mlxcpld_led_priv member name
+         6775aa0bed987fcbce05dafedea2d9166fb5f98e leds: mlxreg: Drop an excess struct mlxreg_led_data member
          
