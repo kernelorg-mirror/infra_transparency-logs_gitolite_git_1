@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Tue, 05 Mar 2024 17:51:30 -0000
-Message-Id: <170966109066.11350.1856370094508268422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 05 Mar 2024 17:55:23 -0000
+Message-Id: <170966132335.14352.4862646016146177737@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: fbd5f5008fab2203fa21e82579b9b48a7256b8fd
-    new: b0f3f9ab419c243389da6c0dd6a9db0eea560146
+  - ref: refs/heads/kdevops
+    old: 5388818b6a7e987e4fe4e726725145948100e6c6
+    new: 67e3f67ea6b17c4d35816b72e1dcbc9d781669e1
     log: |
-         b0f3f9ab419c243389da6c0dd6a9db0eea560146 dt-bindings: input: allwinner,sun4i-a10-lrad: drop redundant type from label
-         
-  - ref: refs/heads/next
-    old: fbd5f5008fab2203fa21e82579b9b48a7256b8fd
-    new: b0f3f9ab419c243389da6c0dd6a9db0eea560146
-    log: |
-         b0f3f9ab419c243389da6c0dd6a9db0eea560146 dt-bindings: input: allwinner,sun4i-a10-lrad: drop redundant type from label
+         2a674272af705d107e38d24cb46130af609462da SQUASH: decoder
+         67e3f67ea6b17c4d35816b72e1dcbc9d781669e1 SQUASH: get_dir_deleg
          
