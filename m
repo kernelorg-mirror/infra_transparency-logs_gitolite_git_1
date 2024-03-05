@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7906320220922364128=="
+Content-Type: multipart/mixed; boundary="===============7882632541689225689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 05 Mar 2024 13:31:36 -0000
-Message-Id: <170964549635.794.5461640574254393902@gitolite.kernel.org>
+Date: Tue, 05 Mar 2024 13:33:37 -0000
+Message-Id: <170964561717.1662.12990869849308697765@gitolite.kernel.org>
 
---===============7906320220922364128==
+--===============7882632541689225689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: ac92ea6b656374abab230f9f38fd3f0ab6cd0d61
-    new: 87850f6cc20911e35eafcbc1d56b0d649ae9162d
+    old: 87850f6cc20911e35eafcbc1d56b0d649ae9162d
+    new: ec94233cb93c7525198b68c3be003472f8aaca0e
     log: |
-         1b4d8c77fd53408a6812efcd151f434f93dc93ec usb: gadget: fsl: Add of device table to enable module autoloading
-         87850f6cc20911e35eafcbc1d56b0d649ae9162d usb: gadget: fsl: Increase size of name buffer for endpoints
+         ec94233cb93c7525198b68c3be003472f8aaca0e usb: misc: onboard_hub: use pointer consistently in the probe function
          
 
---===============7906320220922364128==
+--===============7882632541689225689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709645493 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709645614 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1709645494-d055721d31d503b8a7a402a292693d19e9a0deef
+nonce 1709645616-a1f4ed54f6d6ed4428c52444f7ccee4373e8e79f
 
-ac92ea6b656374abab230f9f38fd3f0ab6cd0d61 87850f6cc20911e35eafcbc1d56b0d649ae9162d refs/heads/usb-testing
+87850f6cc20911e35eafcbc1d56b0d649ae9162d ec94233cb93c7525198b68c3be003472f8aaca0e refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnHrUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y2QP/11BxbEp9VBF50ennRis
-db8NGKKSLE6siXt/wk6w4HHN2V+zS1AOhqGWLTYWR6NrN3Gp4MPIrqi2EtcB4jJz
-HlZImMtUSa6VriEo1159Zd0lfpgbZJiG5ZgFTlfExn74OKJGiBPeatbJAa4tec2P
-/DT0D882tz/WXwW34v3NfudWLWs3zwxF8l3QXmsGoG7wkaK7tYD89tXYtzy9hN/o
-ygfcMTA8FNnl5OsiRgA8m2MKzGjvqFdN/SnlzIgreSW5j60G6ofj5ePkBPzy/r1m
-v2fRgw6HGCSNJw0j6YsPaoDnT+cJ1Kb54k4wZwLLup95i4aNaBaTdgtGAADEmKFC
-B/vkRFLL8skHlXdKg+38LS7imyawiwiNrNxOOioeHFlz7iRVIIh4TyYivMqKjGHF
-b7CidNUN5pedq9IAKkPPO6/oegDUR2jlk12fF4zf1ps2NC7vAje5U09ivyFSJNsY
-tuX5vyuxJG02VqS+PkeuNFvnVI5kqTcRI8ZZh7fKG+XotndwvdBQq25GMVkPirSc
-aqbbKyuyfoVDfEWlIP40PA4tOug9I01RZRCDQzjq0wsJ2m5Dy7XxVi+xvKDXAZe5
-3+vYKiNJwmSx+oQkVu62FtPIfvw/lP+n+zvZzTXymrALkrFO3BGFontv6p/n1pnH
-3G8VO9v6vD4ztFrCgidQKf8D
-=V6C0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnHy4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ehoP/1n8OcsWCTgfm90/jrr4
+z4X/QTwaJNlJEzYYXc3mcaR783Xw9j0A5wo+ARg3uGHPJx/Civ7Q4FVLPK/2Kyp9
+D5JaaJkG5t0m5YO1+AlZMUUbEpkXFcLanF6RvHGwz7E7q9Xn9bb7s6hajESvG/W3
+BGedDA5QjiqZUsE834Cxxi0ps78NaY3vLTiXdGoM5IhB3zIQn1UZagGsuZ5K2mWx
+zWFRyWRDppU/+gdNpFTSKjGg8l0vkd02dGUacyMm6biumFxyvXK056mJ/GnIAqKO
+1jt7EvWn91IOm7zeXn+7AXbZTW/jGEtnL+i3SdhuYD+aM/p4mwnmLqTkOa89sP39
+fOymD3pWeR0JV1W4rBxBmZkjDAdRmQ7qQurMxc4tcSHihIhGc0HXpqp4q9v/MpzV
+4ptCyNZI/JKFFClz5VD6hkF1oMF66uhunxPMt/cEQtG7fx0nffr+0rKgIdIR/rvE
+s/IGXeASF3MPa7o9HbD8SpzdwJSTpH5a9neV0anZgpQzyVvm1w/52Pxd34D0BPn/
+vTbRhKEmzS/n8WduxsNrx6FSglLz1W9tALfG0d+w2mrV2p74JzWhZXGd8jKMOI2D
+7TfmwuTdTku7mZ7bsjz9WYAYcb4zT9MgHueOOQ4LkYIwmCU6liZl6jI836K2CfcZ
+7JN5Ko8ozJ2z9+F20fsGWH0j
+=rp+Y
 -----END PGP SIGNATURE-----
 
---===============7906320220922364128==--
+--===============7882632541689225689==--
