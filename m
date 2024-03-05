@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2644531115851831126=="
+Content-Type: multipart/mixed; boundary="===============5401465893261793841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 05 Mar 2024 13:28:41 -0000
-Message-Id: <170964532121.30225.14872589028320446010@gitolite.kernel.org>
+Date: Tue, 05 Mar 2024 13:29:19 -0000
+Message-Id: <170964535967.30554.3106987013598038016@gitolite.kernel.org>
 
---===============2644531115851831126==
+--===============5401465893261793841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 0842b8feb4f1e40fd83bf981e78b341b9877b4c6
-    new: 966bf794e04358c68c4247302d02b587f41c5d09
+    old: 966bf794e04358c68c4247302d02b587f41c5d09
+    new: 6025f20f16c25d262680f6e1040d4bcdc0ecd0f3
     log: |
-         966bf794e04358c68c4247302d02b587f41c5d09 usb: misc: onboard_usb_hub: Add support for TI TUSB8020B
+         c44d9dab31d6a9b55731c986f2d47f35ab772669 dt-bindings: usb: Add downstream facing ports to realtek binding
+         82e82130a78b75a9ce5225df24d5a0b1b3290eb0 usb: core: Set connect_type of ports based on DT node
+         6025f20f16c25d262680f6e1040d4bcdc0ecd0f3 usb: gadget: fsl-udc: Replace custom log wrappers by dev_{err,warn,dbg,vdbg}
          
 
---===============2644531115851831126==
+--===============5401465893261793841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709645318 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709645357 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1709645320-4fc35e853384e689f1d081d386b2c696b3229448
+nonce 1709645357-29353fdf68a5c32fa0bb2901dae20a82381996c4
 
-0842b8feb4f1e40fd83bf981e78b341b9877b4c6 966bf794e04358c68c4247302d02b587f41c5d09 refs/heads/usb-testing
+966bf794e04358c68c4247302d02b587f41c5d09 6025f20f16c25d262680f6e1040d4bcdc0ecd0f3 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnHgYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s9gP/RCzIE4nGOgxQEbaY9yX
-q39d3srfyUOQo1C4FIMtXLxB42F3YWvhrFqibUDJZZNblEm4uCWqOgFKE9Y8m8/N
-LGe1ad08BPjPBtXu8vHQR+yR4/TpwIabSMKQlJVGJmaAOeQWsyNzlKRf60cFyO8X
-nLAihFKhUErjDlacG+j4TtS5NI3JMqTpJ89+zgw5u54WoWNrC19eiwR9MUr0+eDL
-aZI4VOqIZP0GD242R80Yuu8BtezlE6zlKeKwYvP+5M6aH6c9k7fkHOVBQ990aoUS
-dLc9ZoOFn9XxLZM2d/wCXENWUkvlZJsy7p0DRT3rTGMBCv4T0K1ZELZ/em3TRnv/
-OShr2eqhKH0w9YeubhMeOnqi+j+FQsDiSKoXq50HJ+h5xqbZ/wNrrZlrH6Oz682o
-wSPXjK2Yb8unmvZrYDdtas6S9buovym+4cMOUAlDk4QD/z2RxwqlZPRaHA1nBlBK
-0SjGfAv2ZzSmv9u3fSeMFx1WjZ2e7Zkbs6e9UWL9i1cBRM/SqWV1Q/xLtDbz0/8c
-2v6bN0SnfHkawTQzBorwD34i6h7zO5C4Fm9wt99YgbRPN0rFv0E7V8tsiJa1dQwv
-NuCieY8WsMc/sfO61YlHIjPTaGZ0tn96ddaG228di8oBj4O2WWGAVevwkwbFKcUV
-ktE9ZaeJiOggzEsDxj4BrbWp
-=ZiR0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnHi0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6pcQAIZceBWs/sX9LJGCLJOC
+s5g/VL0YCILfCYRmqIWJxDxpz8vjq0lc77RtfXkYuTsKZZeN0FWHWA5f3b/6xvtA
+snhCBzAPkjSBNpNo8bL+ecQEIAZM/tU0Zo45pgup8v7OKqwXY6mnN1P6dkaVFVJm
+1TmJ1xPaAiivlZQZFFKIVyUOTc+5rCGIfjPOn/+bgb1LTYdb2xRsG+PlZi/ooX6G
+238ht1aiNsbuL6nP71lVFcm4ai2m7ArwtlbccsVCHdkfmtMZFIosSgAtHQG+NxLL
+J+waje9M746Dx5zZ9KPsVEfqAwdhFE7o9uO7GBKfY+k/Tdg8/s+zvbEO436LEF4l
+zuQXA0RIWr67O5uZBS4jyDlMbn+UrpzvCASXGOHi9VJk/IGQEB4VocTMwv62Xj5R
+WqS32K77WCq9mm/o/eJrEqnQTGnVeYYBSVKUnBgsKrFO5DVyCrQJ5cD2FOpbEWRA
+EdAKqetTYQQtQPfOg6ooT+OP6Kd+IgROyJed5HIgQXqELfVFs+Yt2tJNDE4kCB8j
+54XS1Jo8/JynVoaYDOUexrXjCKVW8vLOekROdgaglzcFcOWbh/41mbYNVgnHU4eL
++Kz6sNpsyGrPlaoaufqShLFBKv3jpMNaLTvYBG5Bb0OSLqRTSZXKvS50dsHeeBGX
+kgnKTMGhpL3ZsOrDk1OMDrCQ
+=7y5T
 -----END PGP SIGNATURE-----
 
---===============2644531115851831126==--
+--===============5401465893261793841==--
