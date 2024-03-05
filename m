@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8252945052064061873=="
+Content-Type: multipart/mixed; boundary="===============4003688755526668611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 05 Mar 2024 13:40:23 -0000
-Message-Id: <170964602331.9188.440691510337940553@gitolite.kernel.org>
+Date: Tue, 05 Mar 2024 13:41:07 -0000
+Message-Id: <170964606742.9520.8649191930701847668@gitolite.kernel.org>
 
---===============8252945052064061873==
+--===============4003688755526668611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-linus
-    old: 1581dafaf0d34bc9c428a794a22110d7046d186d
-    new: 74cb7e0355fae9641f825afa389d3fba3b617714
+    old: 74cb7e0355fae9641f825afa389d3fba3b617714
+    new: 3d9319c27ceb35fa3d2c8b15508967f3fc7e5b78
     log: |
-         74cb7e0355fae9641f825afa389d3fba3b617714 tty: serial: fsl_lpuart: avoid idle preamble pending if CTS is enabled
+         3d9319c27ceb35fa3d2c8b15508967f3fc7e5b78 Revert "tty: serial: simplify qcom_geni_serial_send_chunk_fifo()"
          
 
---===============8252945052064061873==
+--===============4003688755526668611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709646022 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709646066 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1709646021-bc4d2b4486d3b2fa798ae20e7eb22f05f4b4fd62
+nonce 1709646066-22ddb6d8c83e99041ea7b6817dbe9e65f49023e3
 
-1581dafaf0d34bc9c428a794a22110d7046d186d 74cb7e0355fae9641f825afa389d3fba3b617714 refs/heads/tty-linus
+74cb7e0355fae9641f825afa389d3fba3b617714 3d9319c27ceb35fa3d2c8b15508967f3fc7e5b78 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnIMYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nHYQAKGsX3w3JzS8TBP50zO/
-NLHNCA/nSGtXbiK9ndKm17LE+KDzxlpxqAkRmXIDXfnnm4XiunC9aGvwsZOf65Vd
-DGkxfN+ktf9cb9aPho9e2Tb0UgV73IGLe3kZ6/nHntcZMJUZFbTjWLyV75mus3J9
-cPzodhARUClmZszQGv8AwsLvb3Bfh0Wm7DXz+N4PGc+zSI84wZ0ERYVrySDZMQUb
-D/OYaoCFB9wEuERZwWEFfB157viaPgOnGnPaIwpQ1Ow0m5N6XUlkotpWSHzgwTlw
-8wzj2nw/Q2lMN/dRTHsu4yKSZ2lrUPciAtI3r+HL9aeAWtM5Y/Zi3cRUBnk17m1d
-I3e4awKA4dU2bqZOhZZIzvUG04t3E+Dz7WxeM10QytKtazw/yGFfzfEPG18zHGlQ
-CnvidROI9EJGjLyyPw9g+k8u4tHaI9Vu2V0r3gnec3tlnneQHqRL9rxo78JuWXVI
-rFoMQ2KyiFfg/IT66qzBywjjbO0nhv/oxhiLkl0OM6MM1JE+QYoxThDVoxBqV4PW
-wxENSvQDKSBUcQMMfNCzlodp2Tw+/PCIdEI9jaugCJJhcvZRf/XzOCB81pdo+o45
-wXLn0SbvlqeUWY/o7tA91j4df1c4/JRKWj6k2qwWFw2QpoUvC2AyWpUvLAyO7RYd
-ID/Rh2hKUPP2bd1AJ7yfhTpG
-=KmyI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnIPIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YCYQAIb/shG3s+MZERMajHFs
+GZHHgFtNZCQcU6646BOmk7JZJdLtdk1GJEtnNMd/ZOPCVpRykvmbBTaJz+GkL8G8
+z58vq2kU5Prx99psdwOGNtR57kcIAsFTR3VocrM5dIPU1uSEwlDTdH75alYSws/i
+sRUx347LHHgD4l+W4UKVpqsIppXdosjHpLyJpEokFW79JDXQp1w+JbAsVq+Sku+W
+65KAHDLlAEFQiTEjYLQL7SKMmeljFuR2hvoaTwRrbm0oY3mk4dO40y2leusv+r1n
+hqqrVbq7dgnZjX4ivhqUpz02S4a/YeK2x8rSzdL5UHD7dvrfFpGxLPsJvZiVd4YQ
+I1dHH+G4rs0uiX21wZ5K+LqAODlx2rgm5CNvgLcFYhAHEFfVJyyBpaF8L/6t32xY
+uQzgGI/kZG+8TDCn4eeZOg6FXAJtdyuto6JErTXf6cNVLywqe/9e2Z0aE+11bsBU
+1dSidhGDU/37sGyenelIzvmX0YisTJi6iXrXgAvfPBA/7TqBM5j+dIblDF2BjHEa
+fuBhGp84ciP3EcCKpwRgO9D8NFnoGpU9tcGHEohLtchZYXPYfHZPfXdKsOKaEsdn
+sxAEUx+ZsSIMgF5lo2w8dEAfQOqJVSrtx2VogeHy8fwWBaJEfX6rlXe80jj8uKRK
+uGRVznmI2LPb6NpxyV7w92Jv
+=d74e
 -----END PGP SIGNATURE-----
 
---===============8252945052064061873==--
+--===============4003688755526668611==--
