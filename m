@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Tue, 05 Mar 2024 08:04:36 -0000
-Message-Id: <170962587663.24178.13581196612329894278@gitolite.kernel.org>
+Date: Tue, 05 Mar 2024 08:07:24 -0000
+Message-Id: <170962604405.28032.7938234693404214408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,13 @@ repo: pub/scm/linux/kernel/git/pinchartl/linux
 user: pinchartl
 changes:
   - ref: refs/heads/nxp/v6.8/compulab
-    old: c03fd4ec63dc8ad1aa28d9977ff7554cf67aaffc
-    new: 8a03ba552da9d4a52bbe227c5297b12ed7204c4d
+    old: 8a03ba552da9d4a52bbe227c5297b12ed7204c4d
+    new: 7a1fd7a53286e3b65074156476290e7c6fa3dd65
     log: |
-         d361fc874d220564fddfcb3f508d821dd321f063 dt-bindings: rtc: abx80x: convert to yaml
-         e245d1b9d770766d706f97dac9af116626b41e3c dt-bindings: rtc: abx80x: Improve checks on trickle charger constraints
-         ff1535aff1035397274662111606ce625d03a02e arm64: dts: freescale: Add device tree for Compulab UCM-iMX8M-Plus
-         d5c22168f164c3705cc2f580c2fbbc3658b7e4ce arm64: dts: freescale: Add device tree for Compulab SB-UCM-iMX8MPLUS
-         8a03ba552da9d4a52bbe227c5297b12ed7204c4d dt-bindings: leds: pca963x: Convert text bindings to YAML
+         113a6b1583926667ad2d84c0c1c1c9bcfa442b66 dt-bindings: arm: fsl: Add Compulab SB-UCM-iMX8MPLUS carrier board
+         e7c1e3e9e48c042fd316f7dd24ff76ce0d3f04da dt-bindings: rtc: abx80x: convert to yaml
+         dea6ca2d738253be8fa992306835e954704a34e0 dt-bindings: rtc: abx80x: Improve checks on trickle charger constraints
+         eab8183b748e8511a7ee82a8fbb765bd9a73bb02 arm64: dts: freescale: Add device tree for Compulab UCM-iMX8M-Plus
+         fba923577a791d27f43254d9ff82bbc47ceffc35 arm64: dts: freescale: Add device tree for Compulab SB-UCM-iMX8MPLUS
+         7a1fd7a53286e3b65074156476290e7c6fa3dd65 dt-bindings: leds: pca963x: Convert text bindings to YAML
          
