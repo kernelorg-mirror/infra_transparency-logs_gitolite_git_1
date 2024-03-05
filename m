@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Tue, 05 Mar 2024 15:37:24 -0000
-Message-Id: <170965304433.31196.5386649235003154752@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 05 Mar 2024 15:37:53 -0000
+Message-Id: <170965307341.31691.11795317970244160779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 25e59085d045d1a13b1b140d012541b30897b531
-    new: 0f963443529cf64515af5f9ec90dec7b754880dc
+  - ref: refs/heads/kdevops
+    old: 4b0e81391a8bc060e064db63a60e4fd52920413b
+    new: 3655ef4e68895d8251620a7e7cf2252fd3e1fda3
     log: |
-         0f963443529cf64515af5f9ec90dec7b754880dc Remove riscv has_load_add_load_load_add_store implementation
+         3655ef4e68895d8251620a7e7cf2252fd3e1fda3 nfs: add a tracepoint to nfs_inode_detach_delegation_locked
          
