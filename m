@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2528694417345592943=="
+Content-Type: multipart/mixed; boundary="===============7458452067552286667=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 05 Mar 2024 04:35:22 -0000
-Message-Id: <170961332252.5598.12269357922474016010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 05 Mar 2024 04:35:35 -0000
+Message-Id: <170961333563.5782.13265105976969064938@gitolite.kernel.org>
 
---===============2528694417345592943==
+--===============7458452067552286667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 67908bf6954b7635d33760ff6dfc189fc26ccc89
     new: 11afac187274a6177a7ac82997f8691c0f469e41
     log: revlist-67908bf6954b-11afac187274.txt
-  - ref: refs/tags/next-20231205
-    old: 8522827211d80d726b3144b352c44f4f04df3bc9
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240305
     old: 0000000000000000000000000000000000000000
     new: 4a6a504cd3769b6e6c075b3842fcb2dd8b9f1f93
 
---===============2528694417345592943==
+--===============7458452067552286667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -955,4 +952,4 @@ f9a55905f140f653e9f9459da0b105e1b23db41d next-20240304/kspp
 741a5fc05574a5e0651d49e8de1c0e72a9031acb Revert "s390: supplement for ptdesc conversion"
 11afac187274a6177a7ac82997f8691c0f469e41 Add linux-next specific files for 20240305
 
---===============2528694417345592943==--
+--===============7458452067552286667==--
