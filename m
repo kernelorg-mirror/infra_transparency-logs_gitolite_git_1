@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Tue, 05 Mar 2024 12:02:43 -0000
-Message-Id: <170964016348.31936.17071761597064990447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Tue, 05 Mar 2024 12:13:50 -0000
+Message-Id: <170964083023.8020.15110711338873613010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: c9e1e505cde1a8ddd0968b4d54ec2ea1937dfe00
-    new: 78334c343bef528b911da83a6b041d15a1a72efb
+  - ref: refs/heads/fixes
+    old: 09e23823ae9a3e2d5d20f2e1efe0d6e48cef9129
+    new: e8d1b41e69d72c62865bebe8f441163ec00b3d44
     log: |
-         78334c343bef528b911da83a6b041d15a1a72efb mfd: cs42l43: Fix wrong GPIO_FN_SEL and SPI_CLK_CONFIG1 defaults
+         e8d1b41e69d72c62865bebe8f441163ec00b3d44 mmc: tmio: avoid concurrent runs of mmc_request_done()
          
