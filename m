@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9091792472355380368=="
+Content-Type: multipart/mixed; boundary="===============8252945052064061873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 05 Mar 2024 13:39:24 -0000
-Message-Id: <170964596418.7175.6455269449536295516@gitolite.kernel.org>
+Date: Tue, 05 Mar 2024 13:40:23 -0000
+Message-Id: <170964602331.9188.440691510337940553@gitolite.kernel.org>
 
---===============9091792472355380368==
+--===============8252945052064061873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 26e8349c0d7624322e2daf9f062bc0338919a952
-    new: 801410b26a0e8b8a16f7915b2b55c9528b69ca87
+  - ref: refs/heads/tty-linus
+    old: 1581dafaf0d34bc9c428a794a22110d7046d186d
+    new: 74cb7e0355fae9641f825afa389d3fba3b617714
     log: |
-         801410b26a0e8b8a16f7915b2b55c9528b69ca87 serial: Lock console when calling into driver before registration
+         74cb7e0355fae9641f825afa389d3fba3b617714 tty: serial: fsl_lpuart: avoid idle preamble pending if CTS is enabled
          
 
---===============9091792472355380368==
+--===============8252945052064061873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709645963 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709646022 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1709645962-eafdf89ad5c9831f362f7843963dc9cf36eacd53
+nonce 1709646021-bc4d2b4486d3b2fa798ae20e7eb22f05f4b4fd62
 
-26e8349c0d7624322e2daf9f062bc0338919a952 801410b26a0e8b8a16f7915b2b55c9528b69ca87 refs/heads/tty-testing
+1581dafaf0d34bc9c428a794a22110d7046d186d 74cb7e0355fae9641f825afa389d3fba3b617714 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnIIsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zrsQAI/IK7J3dqbGbGjHxYmL
-yuvVQQ49tTnyV5CNkQSmtk5gXLn4dC37Se2Bh/09G+RMSEF/+AlGSOQoluLEcQTT
-MjuJLAbOnxb/bjqRb3TqYz5bTNVdmjufrCOUTmHWbMYeLEQMDqzFi0k72BtE3/nP
-Zen9oNP7WoRJWnF1etkDtDxeRnXBvm1PKt8dX2tDa5JzdbkdkxbezIIXym2gRe7E
-ZTvDAhhxZYbF3lSU8Cel7WWmUewGwbH1TOJrZQfHzg151ka0ZPg8Ga/mfP6QJHKM
-h5ZzLKGmiemNdGIBBrCVpYC278JNPzvAUc/F+GMkum5vD4LBAq6qGbuJqlyhgM35
-HlNXRp0ktanojtkJuMFwmG/FoezI9PE/UbQFsyDx06Ep0xXHMbBjnobR+/ohsJf7
-D2AQBPPai1LkNM0zBtOPx41+Nlcm2ENuMmYuI41ZWWxOo+AimkwdLhtOPPrRO78U
-qaBDWF5jqRdH8nd4Euk2IbZ5jQIeb8DpYo3L3t4Z7YkrkKwQALz7tJR+3bP3nMre
-y3Z/OiETwzfQrV92iQCZFlHgxyQupOmflHJvLK/2GBkZta6R/INhcCxrx6r6S7Cj
-ufrHYnS8mT+JW5kVYR8O6tECF9XwOgBEtihM8pBdQJeE7FE4pvOgpvfudPLt/cBf
-Fo0qs30bCwqQ4XUi9UgkWMsD
-=0d4S
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnIMYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nHYQAKGsX3w3JzS8TBP50zO/
+NLHNCA/nSGtXbiK9ndKm17LE+KDzxlpxqAkRmXIDXfnnm4XiunC9aGvwsZOf65Vd
+DGkxfN+ktf9cb9aPho9e2Tb0UgV73IGLe3kZ6/nHntcZMJUZFbTjWLyV75mus3J9
+cPzodhARUClmZszQGv8AwsLvb3Bfh0Wm7DXz+N4PGc+zSI84wZ0ERYVrySDZMQUb
+D/OYaoCFB9wEuERZwWEFfB157viaPgOnGnPaIwpQ1Ow0m5N6XUlkotpWSHzgwTlw
+8wzj2nw/Q2lMN/dRTHsu4yKSZ2lrUPciAtI3r+HL9aeAWtM5Y/Zi3cRUBnk17m1d
+I3e4awKA4dU2bqZOhZZIzvUG04t3E+Dz7WxeM10QytKtazw/yGFfzfEPG18zHGlQ
+CnvidROI9EJGjLyyPw9g+k8u4tHaI9Vu2V0r3gnec3tlnneQHqRL9rxo78JuWXVI
+rFoMQ2KyiFfg/IT66qzBywjjbO0nhv/oxhiLkl0OM6MM1JE+QYoxThDVoxBqV4PW
+wxENSvQDKSBUcQMMfNCzlodp2Tw+/PCIdEI9jaugCJJhcvZRf/XzOCB81pdo+o45
+wXLn0SbvlqeUWY/o7tA91j4df1c4/JRKWj6k2qwWFw2QpoUvC2AyWpUvLAyO7RYd
+ID/Rh2hKUPP2bd1AJ7yfhTpG
+=KmyI
 -----END PGP SIGNATURE-----
 
---===============9091792472355380368==--
+--===============8252945052064061873==--
