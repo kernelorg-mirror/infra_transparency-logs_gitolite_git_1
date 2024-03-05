@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 05 Mar 2024 19:17:04 -0000
-Message-Id: <170966622492.9773.6004272941517993563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 05 Mar 2024 19:17:30 -0000
+Message-Id: <170966625039.10022.8791181088884077059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/for/sched/dlserver.debug.mar5.2024
-    old: 6ae2955c9b4b561a0c80b0f594d812d096bf89d3
-    new: 873cc696d55aade8b43060de7ac577ea3b166ba4
+  - ref: refs/heads/main
+    old: 4daa873133d3db4e17f4ccd9fe1102e4fbab7700
+    new: 685f7d531264599b3f167f1e94bbd22f120e5fab
     log: |
-         873cc696d55aade8b43060de7ac577ea3b166ba4 Fix: Queue DL server on start_dl_timer failure
+         685f7d531264599b3f167f1e94bbd22f120e5fab net/ipv6: avoid possible UAF in ip6_route_mpath_notify()
          
