@@ -1,29 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 05 Mar 2024 09:00:22 -0000
-Message-Id: <170962922244.592.6020443270753007812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 05 Mar 2024 09:01:48 -0000
+Message-Id: <170962930887.1325.15922012383040409360@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/dma-split
-    old: 8afad9a83482b3ba2e17cd1e35f5a04164dc06d1
-    new: 7270ced9df860f490f15c8ddf06c2d323e14e063
+  - ref: refs/heads/x86/merge
+    old: 772b89d9bf22aa40797bb34b37d5e344b548a771
+    new: ff6e6391b54b98b4d3ed4c1ccf8238c941e0891a
     log: |
-         e323319fca1b4ee97a5672993ceb2bb629e6f25a block: add dma_link_range() based API
-         c7bb25974a42e1fbcaede08b12f8c9dd3a21e2c4 nvme-pci: use blk_rq_dma_map() for NVMe SGL
-         7270ced9df860f490f15c8ddf06c2d323e14e063 cover-letter: Split IOMMU DMA mapping operation to two steps
-         
-  - ref: refs/heads/rdma-next
-    old: fc5943c8613e81d1f6afad28625576eee0dcca0f
-    new: 9a1309977ab77599d5c66aa6a77b5b308f4f4379
-    log: |
-         d6bc00edad972dc9c214c239e8d253c7ba370a4a block: add dma_link_range() based API
-         789e323204a2cf15db93f2a48cbd8ebd8d76f618 nvme-pci: use blk_rq_dma_map() for NVMe SGL
-         9a1309977ab77599d5c66aa6a77b5b308f4f4379 IB/core: Add option to limit user mad receive list
+         cb81deefb59de01325ab822f900c13941bfaf67f x86/idle: Sanitize X86_BUG_AMD_E400 handling
+         0ab562875c01c91ec8167f8f6593ea61e510fd0a x86/idle: Clean up idle selection
+         f3d7eab7be871d948d896e7021038b092ece687e x86/idle: Cleanup idle_setup()
+         5f75916ec6ecdc6314b637746f3ad809f2fc7379 x86/idle: Let prefer_mwait_c1_over_halt() return bool
+         35ce64922c8263448e58a2b9e8d15a64e11e9b2d x86/idle: Select idle routine only once
+         64ee3a52b165f81e6d5689efaa5e337b73b5fa7f Merge branch 'x86/core' into x86/merge, to ease integration testing
+         ff6e6391b54b98b4d3ed4c1ccf8238c941e0891a Merge branch 'x86/apic' into x86/merge to resolve conflict and to ease integration testing
          
