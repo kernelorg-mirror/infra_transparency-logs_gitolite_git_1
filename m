@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 05 Mar 2024 13:53:40 -0000
-Message-Id: <170964682084.17388.14196360966148720833@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0014301510382118450=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 05 Mar 2024 13:53:56 -0000
+Message-Id: <170964683607.17555.7904494444721486135@gitolite.kernel.org>
+
+--===============0014301510382118450==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 2c6167bc6f53aae00c35f16c0ff228a0070f1a18
-    new: c40ffd6151bcf41420339ae78661da343fc4afe6
+  - ref: refs/heads/usb-testing
+    old: e9b4197e23da2c1d1deb9fea54bf5419da53318c
+    new: 28cbed496059fe1868203b76e9e0ef285733524d
     log: |
-         980ac57d4296bf4117b9dc42b2312d0e360b8f9c man*/: epoll_*(), fcntl(), flock(), ioctl(), msgctl(), *prctl(), ptrace(), quotactl(), reboot(), semctl(), shmctl(), lockf(): Consistently use 'op' and 'operation'
-         99f6ea6ac2ce3333ffe4835a32d7341213ed7033 nanosleep.2: Use 'duration' rather than 'request'
-         757c16cb307e6d9d6feec0f69797e94dff7e97ae clock_nanosleep.2: Use 't' rather than 'request'
-         0c09b173e7fb19a59f60458863d3ce049d1b7135 share/mk/: Add missing include
-         b8b26418dc0444b92da7cc54cd2f4aba595217c8 cgroups.7: tfix
-         c40ffd6151bcf41420339ae78661da343fc4afe6 clock_getres.2: HISTORY: Clarify that POSIX.1-2008 only makes mandatory the functions
+         28cbed496059fe1868203b76e9e0ef285733524d xhci: Allow RPM on the USB controller (1022:43f7) by default
          
+
+--===============0014301510382118450==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709646835 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1709646834-aebcb59f905db89cc64344421586b6c89222f5e9
+
+e9b4197e23da2c1d1deb9fea54bf5419da53318c 28cbed496059fe1868203b76e9e0ef285733524d refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnI/MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G5EQALT0CGXw9MRvskZTcB9z
+FSiM/9I6kGkd7ilIwmfloa/xn+9AZdcEkjmOlsUkNRKjE9tS7Mo3aGO1SL+zYGwt
+R/vfBL9QJy4HkgA3xbam3GClhGttsV5mamzIpHJdMnehx3qKp1+qI99T+KtqfbCT
+FjNqYkMR+ew4z8EfCkOEFdpXR0fIHqrCIKFV1ah1FjB31cNKyPLhFcqnURTon0iJ
+g4qJRLce8+ePt6v3ihLLEd8VuW7u5ByKU3NFXd0VRt25bu6VVy0uekIqKw9XVuE5
+e+nw7hqwsf6axKqDrMVkhdsBWkEMZ0hyI5W5KpaGHtaHtdzf1jUOgD1EeCznpU9X
+KYQz9q+Pltxs62EXje2gFGV3P1NJIz55jgmhfdUg/w4wAKe+byiwzcX5BXzzfGCx
+UqBYjXxtI74KNIW5KSBni6IEPz17aJJpPyImYDEqCUYeV2oCWbnvzqVQiRA+QMfB
+1+cmWpD135DsaLVeOwCP0W5cttA7nix2ASGu7yz5WOZrNi7vKUEkhX2Ov4kd0dlg
+yagXyMKtcFXTWmcds2dMVGjs5h/OijJiKokoNxYC8T86SXKp/3FpfoCRAnCh6/+5
+HiMa8b175emJv+Tze1Zg5grUK7viYgtkPHswmBDZR7/mu5QdGCnO9IstndTwSphA
+MAuNKDm+BZaner/DFmKQ8c1s
+=j4Jy
+-----END PGP SIGNATURE-----
+
+--===============0014301510382118450==--
