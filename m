@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4114770781633971756=="
+Content-Type: multipart/mixed; boundary="===============1786420864506921238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 05 Mar 2024 13:11:38 -0000
-Message-Id: <170964429857.18744.6923475306716136810@gitolite.kernel.org>
+Date: Tue, 05 Mar 2024 13:13:07 -0000
+Message-Id: <170964438709.19622.2281769629061426661@gitolite.kernel.org>
 
---===============4114770781633971756==
+--===============1786420864506921238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: d28240785e00ffb889d90368882bf382e22e9555
-    new: 3dd85520736349dea2b4f3f78a60cf367af83f20
+  - ref: refs/heads/usb-linus
+    old: 014bcf41d946b36a8f0b8e9b5d9529efbb822f49
+    new: 165376f6b23e9a779850e750fb2eb06622e5a531
     log: |
-         4d0a5a9915793377c0fe1a8d78de6bcd92cea963 usb: typec: ucsi: Clean up UCSI_CABLE_PROP macros
-         38ca416597b02fb99e38ea12a30f80593b1f2a05 usb: typec: ucsi: Register cables based on GET_CABLE_PROPERTY
-         f896d5e8726cd755f4868aaf8332daabaf480d7a usb: typec: ucsi: Register SOP/SOP' Discover Identity Responses
-         3dd85520736349dea2b4f3f78a60cf367af83f20 usb: typec: ucsi: Register SOP' alternate modes with cable plug
+         4a30dcac38c2b34f5b4f358630774bc2c2c104b0 usb: typec: ucsi: fix UCSI on SM8550 & SM8650 Qualcomm devices
+         197331b27ac890d0209232d5f669830cd00e8918 usb: typec: tpcm: Fix PORT_RESET behavior for self powered devices
+         165376f6b23e9a779850e750fb2eb06622e5a531 usb: typec: altmodes/displayport: create sysfs nodes as driver's default device attribute group
          
 
---===============4114770781633971756==
+--===============1786420864506921238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709644295 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709644384 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1709644296-21c2c7749e2d76ea8fd8feb9d463bb6bc5f329f4
+nonce 1709644385-fba9d0a92f991e0828166e9d2e84bddc8745717d
 
-d28240785e00ffb889d90368882bf382e22e9555 3dd85520736349dea2b4f3f78a60cf367af83f20 refs/heads/usb-testing
+014bcf41d946b36a8f0b8e9b5d9529efbb822f49 165376f6b23e9a779850e750fb2eb06622e5a531 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnGgcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V5QQAKZ+e8nOfcABM9ym8ECd
-tgPoKxfzc7DwRLcbkHBfdKsUsBwatMf1rG/gVNKQatDXDOnZbu9DbktYGabrPeRd
-y+7c76/KAooOAqZKvg/x0IM4Zy/1Ge25+cmXMZsayStEZXFbhgMsa8REdqpHv5lS
-Q1XQaLMDu8XEIv0IPX+yVo6HJKaTVDkUrZad6oygFmDsoyEBt0m+4KmEjxhWq11y
-tIj7UXIvxAKwWM2hDGOCFG263Rj/vGZkry6aI5muvkyrJGglWB4ZfD0XQYib3jpF
-VY14BGuAu8C3w64aHenyuSfgiMALBlbYMSXv9YTjb5WCRVUMTj5iXsbJsQ6DOA33
-DLeO8FTNyCJVII5k31n1cKjVGWvMjjU3OWfycci7e7sIQ+dSET6d9HNYdL4z7Th7
-8mVOfWh5VC7fGd7JSKHdyu/HVPioj9ri9fgIzJb1KkJuaVj4piQ29ACtX9HQ+S1+
-+26IhqYuczLTNxEDwkO1IbRnv/pi5nOW5UrB460OzpGcaaR8puZ3O9Yd4TWW7TCL
-hsQ8FcjxdLw1CwAbfoe2I7bhqk+KYLdcdAIeqX7pNGPeRjpiju++5+Q999VUgcfE
-pN8K0fpeyTDYOajNg8AY7H4Vmw063E58YPphPOlTvyMUixF1svSIqe/nVBjhLGX1
-pNwO7y1rOImCjdX8MaotLqHx
-=oR6o
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnGmAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++MUP/3KVNM2XcBNh5KXKPNEv
+AI8GfLWxYEzhhQuGVkYxZX89l779yvaJLVm6XV3V5WvKnaYVFKFtcegDIGLxEj5M
+V5MAqvLCrOccbuRkcztBuWW/ie2xrcdRVGQqJlOqSqPpVkwkptgHrg9E/bNp5gbG
+BhtCTEcWfhV7RJ+oYYMvEVpZ0tWN593y7OturT2S9aTaYn8HGFQM2Vik1obKCPzT
+aHvGn+JzrxNM327rdGv0lD66icANwODAMniTPc9YyOkHBqxmhhtZVvxYYT27DFY4
+5oDF6e0egRoOHVb+ZSou2tJIR9+N10Rgw+LKdlkmm86aA8p/7g9DpbdL0rWF5Fh+
+ewijE+qu/sfVUdE0MeAm4XbmXtodqXTyGe7PDv5QinpZQwchMpoVoxbawDXVa7Fq
+08G6EYNEDmg9fs08wWTYbmpIFuf7vRd31E5cjNI+5i5VXO9NU0KxQB2Cgp+PCH0y
+IhttanGivJ9aBgQyf+IIxNvX2jd67+PvQGjUmHlCqaEWOL0DFTF9p+Hq62snjjiC
+fL8304mcI982LnFwL95utveoN7+CGQexkqQdACRAYXwcZA2p3ETREELLJmUKtXDH
+zpGroDMVLxAvmXzLWrPKBDjYH3hfSz3sGRu4VkmNPuS8Qvl+B7sUZo+6M4xklbAQ
+iWDXzo8O+uat3E+qR4n5Rtew
+=CIyB
 -----END PGP SIGNATURE-----
 
---===============4114770781633971756==--
+--===============1786420864506921238==--
