@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============4640016005447557734=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 05 Mar 2024 07:57:39 -0000
-Message-Id: <170962545922.20014.17221498668789347894@gitolite.kernel.org>
-
---===============4640016005447557734==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Tue, 05 Mar 2024 08:04:36 -0000
+Message-Id: <170962587663.24178.13581196612329894278@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
 changes:
-  - ref: refs/heads/usb-testing
-    old: a14e6fd1b67799da7da9cc344023bd16aaf0d17d
-    new: 12fc84e8c4288cc8ed5f14a35e077130c2cfece2
+  - ref: refs/heads/nxp/v6.8/compulab
+    old: c03fd4ec63dc8ad1aa28d9977ff7554cf67aaffc
+    new: 8a03ba552da9d4a52bbe227c5297b12ed7204c4d
     log: |
-         12fc84e8c4288cc8ed5f14a35e077130c2cfece2 usb: Export BOS descriptor to sysfs
+         d361fc874d220564fddfcb3f508d821dd321f063 dt-bindings: rtc: abx80x: convert to yaml
+         e245d1b9d770766d706f97dac9af116626b41e3c dt-bindings: rtc: abx80x: Improve checks on trickle charger constraints
+         ff1535aff1035397274662111606ce625d03a02e arm64: dts: freescale: Add device tree for Compulab UCM-iMX8M-Plus
+         d5c22168f164c3705cc2f580c2fbbc3658b7e4ce arm64: dts: freescale: Add device tree for Compulab SB-UCM-iMX8MPLUS
+         8a03ba552da9d4a52bbe227c5297b12ed7204c4d dt-bindings: leds: pca963x: Convert text bindings to YAML
          
-
---===============4640016005447557734==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709625458 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1709625457-1036c1575eb0bbef122cbdd69d1837235d864a53
-
-a14e6fd1b67799da7da9cc344023bd16aaf0d17d 12fc84e8c4288cc8ed5f14a35e077130c2cfece2 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXm0HIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YcYP/3Irr96eH0NRwMtu0DRw
-66i3DHrfo8ELp1pkgur5YdXErMzVQpq2bNdj31ezNqqbPWTK6vxA6z3Zb5utwOXc
-8rEQ7i3Gt2C5wdN5/arP1H2dIymCdCQS8FbIR2BEAodhzIpDs+jIKK8LM+WXHqdJ
-b6OcC1wo8/3CW6PENYWR2uNtv7SzXcNC+ny1fkfBfljNPQXVC8Z+ftNl/ZJ2yTId
-ZQ+0nDcc4EwB/ucpHZhllsTlldyiGMQQrX3SX8IxSTHGefPYOVvLWsCooUhWpIMr
-q7VqmjaNOcYEEs81iic/oZvrwzyBIM3O3LQ0L+GDrh9PHoVG6f9eGMSIyrpMbrrj
-IcLwYqiYsvIGANcKSm9A1PZCidJ5klwgv4iIykdhnmq1sOAEpnJUPGQVTTsra1NN
-PpLl3r0flblYKTimnawA5/4UIPLqhNvzaFcsfVyW473xX4Uo776NZN+CPf/Gp8vK
-sb/XKUwRR6xBhEMLw6JhfVGu+FZoPjTDgzCYEQ6X2nL7ejmqJu+pkxEosTMGmF6T
-MB3oyYtPuQ7YqT7lGH0uJX0KuzUXfxLfxkHa1sYx+1boMlJMIPO0h0ABa/lCqXHe
-fzXAt5FOpY6YXpVbCpzswZBLgEEZkg+xWo5FxuKMO+bOx3in6ZGW6NBmib2MPX2F
-OTqQQvYJNyOIrMRnwyMhvT0c
-=f2ox
------END PGP SIGNATURE-----
-
---===============4640016005447557734==--
