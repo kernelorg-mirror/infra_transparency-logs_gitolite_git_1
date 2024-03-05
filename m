@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8808563563595469341=="
+Content-Type: multipart/mixed; boundary="===============1988676539834869842=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 05 Mar 2024 16:52:31 -0000
-Message-Id: <170965755145.31255.16257998136339328748@gitolite.kernel.org>
+Date: Tue, 05 Mar 2024 16:57:51 -0000
+Message-Id: <170965787140.2466.633643787029362767@gitolite.kernel.org>
 
---===============8808563563595469341==
+--===============1988676539834869842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 6923134fc6b62d7909169b3ad913ab72ee04233a
-    new: 88f02345dc70b5b6a926a143cef3201582acdbba
-    log: revlist-6923134fc6b6-88f02345dc70.txt
+  - ref: refs/heads/1GbE
+    old: 948abb59ebd3892c425165efd8fb2f5954db8de7
+    new: 4daa873133d3db4e17f4ccd9fe1102e4fbab7700
+    log: revlist-948abb59ebd3-4daa873133d3.txt
 
---===============8808563563595469341==
+--===============1988676539834869842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6923134fc6b6-88f02345dc70.txt
+Content-Disposition: attachment; filename=revlist-948abb59ebd3-4daa873133d3.txt
 
 cbf996f52c4e658b3fb4349a869a62fd2d4c3c1c ixgbe: {dis, en}able irqs in ixgbe_txrx_ring_{dis, en}able
 d562b11c1eac7d73f4c778b4cbe5468f86b1f20d i40e: disable NAPI right after disabling irqs when handling xsk_pool
@@ -42,17 +42,5 @@ b7cf07586c40f926063d4d09f7de28ff82f62b2a net/mlx5e: Use a memory barrier to enfo
 89d72d4125e94aa3c2140fedd97ce07ba9e37674 net: sparx5: Fix use after free inside sparx5_del_mact_entry
 47fe2fc1a22578cdb1a8c36baffacebcd8d37ed3 Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 4daa873133d3db4e17f4ccd9fe1102e4fbab7700 Merge tag 'mlx5-fixes-2024-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-f840546c093c94ff113ffa4db7a166c962b10b9f e1000e: Workaround for sporadic MDI error on Meteor Lake systems
-8d14ba72af2d10414e6c5642021c10ff59beeba2 ice: virtchnl: stop pretending to support RSS over AQ or registers
-e7446f498e322021383025b2f2a113dc500dcfaa ice: Refactor FW data type and fix bitmap casting issue
-9876ef04d69282a6d427666b2de45331c42680e0 idpf: disable local BH when scheduling napi for marker packets
-f8cb9fb437e10588cd93556cea8eb9e590f3e30e intel: legacy: Partially revert of field get conversion
-8538b4276ced887ad350af2b0eb823c526f72f83 igc: avoid returning frame twice in XDP_REDIRECT
-8fa97801a44add3136aec9c9ed81532b80c40f4c igc: Fix missing time sync events
-e37dc04cfccfa9f61d7fb2acf3ede8439ceadb29 igb: Fix missing time sync events
-576ecbe2209f1f44941a368162e1382367a8e14d ice: fix stats being updated by way too large values
-e77dd6aa2d5f924a551a25edd43a0eab9484a2dc i40e: Fix firmware version comparison function
-869947a302f15bb844843c78a980406f96661fed ice: fix uninitialized dplls mutex usage
-88f02345dc70b5b6a926a143cef3201582acdbba net: ice: Fix potential NULL pointer dereference in ice_bridge_setlink()
 
---===============8808563563595469341==--
+--===============1988676539834869842==--
