@@ -1,40 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 05 Mar 2024 17:10:38 -0000
-Message-Id: <170965863881.13883.5169820013017864206@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2685566709931509240=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Tue, 05 Mar 2024 17:18:35 -0000
+Message-Id: <170965911536.18635.3445052340781457613@gitolite.kernel.org>
+
+--===============2685566709931509240==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/for-next
-    old: c787ccf9bb1f38b1cc2213f54dc3803afee1495d
-    new: 1a04c9912d59d53d1795e7fe38ca934f785781d8
+  - ref: refs/heads/for-linus
+    old: 4255447ad34c5c3785fcdcf76cfa0271d6e5ed39
+    new: 963465a33141d0d52338e77f80fe543d2c9dc053
     log: |
-         738227ab42fe0c6047f932aef11b9fd647d203f9 dt-bindings: soc: rockchip: Add rk3588 hdptxphy syscon
-         c110b7e2d6bdad21caab3f4706a969b05aff7f62 dt-bindings: soc: rockchip: add clock to RK3588 VO grf
-         85a33544afa8895803798553c7510658dcbd3546 dt-bindings: soc: rockchip: add rk3588 USB3 syscon
-         d8999d151e4110effc760397f500dda25d7a60b1 arm64: defconfig: Enable support for cbmem entries in the coreboot table
-         befb226b10a24df964b011b24e4ab352eb16daec Merge tag 'v6.9-rockchip-drivers1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into soc/dt
-         98dcb872779f8bea30cd34716c7fdeb0963e3606 ARM: s32c: update MAINTAINERS entry
-         c0ba84b3561711aa9adfd5d312c28a8d49f64e1d Merge branch 'soc/arm' into for-next
-         2a47fcd4b7a6a90d218ad66f7f8f2d4f00fc0ba5 Merge branch 'soc/dt' into for-next
-         8b82bf10526ac93738f6cba1382dab99d11ab2d8 Merge branch 'soc/defconfig' into for-next
-         1a04c9912d59d53d1795e7fe38ca934f785781d8 soc: document merges
+         dd50f771af20fb02b1aecde04fbd085c872a9139 Input: xpad - add additional HyperX Controller Identifiers
+         7105e92c60c9cc4112c782d69c172e96b69a43dc Revert "Input: bcm5974 - check endpoint type before starting traffic"
+         963465a33141d0d52338e77f80fe543d2c9dc053 Input: gpio_keys_polled - suppress deferred probe error for gpio
          
-  - ref: refs/heads/soc/arm
-    old: b98ad40faa1c1a01f45561d5d9655bbaeb668c80
-    new: 98dcb872779f8bea30cd34716c7fdeb0963e3606
-    log: |
-         98dcb872779f8bea30cd34716c7fdeb0963e3606 ARM: s32c: update MAINTAINERS entry
-         
-  - ref: refs/heads/soc/defconfig
-    old: 758f836f9e979f9b5d02cebac59f692686a2d6fc
-    new: d8999d151e4110effc760397f500dda25d7a60b1
-    log: |
-         d8999d151e4110effc760397f500dda25d7a60b1 arm64: defconfig: Enable support for cbmem entries in the coreboot table
-         
+  - ref: refs/heads/master
+    old: d03f030115fe930de1222fef294730ba21b93045
+    new: fbd5f5008fab2203fa21e82579b9b48a7256b8fd
+    log: revlist-d03f030115fe-fbd5f5008fab.txt
+  - ref: refs/heads/next
+    old: d03f030115fe930de1222fef294730ba21b93045
+    new: fbd5f5008fab2203fa21e82579b9b48a7256b8fd
+    log: revlist-d03f030115fe-fbd5f5008fab.txt
+
+--===============2685566709931509240==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d03f030115fe-fbd5f5008fab.txt
+
+18970d4f6317a3595cc592c3c7815f63d1818932 Input: xpad - sort xpad_device by vendor and product ID
+0f82d108028a9dfea20e1c3c0ada1e64403002af Input: ti_am335x_tsc - remove redundant assignment to variable config
+849c34e63c0dd8d6ec1e3aed0bf34ffc72fa71e4 Input: leds - change config symbol dependency for audio mute trigger
+54a62ed17a705ef1ac80ebca2b62136b19243e19 input/touchscreen: imagis: Correct the maximum touch area value
+c53d309a4299fffde14e281440a25c2355d8b621 dt-bindings: input/touchscreen: Add compatible for IST3038B
+10ad7d7a428f7bb336c3cb226ab8aa0e6a947dac input/touchscreen: imagis: Add support for Imagis IST3038B
+d88f84bfccd2a17a81fbf404eaae77208e827c31 dt-bindings: input/touchscreen: imagis: add compatible for IST3032C
+90cb57a6c5717b83a110c0da720a03ee32ed255e input/touchscreen: imagis: add support for IST3032C
+d49193be636ab2b6e35727541bbdcdc1eab2d676 Input: xilinx_ps2 - fix kernel-doc for xps2_of_probe function
+d1278c91fec3e1d27d6e06d00a67a5a314341344 Input: synaptics-rmi4 - make rmi_bus_type const
+fbd5f5008fab2203fa21e82579b9b48a7256b8fd Input: serio - make serio_bus const
+
+--===============2685566709931509240==--
