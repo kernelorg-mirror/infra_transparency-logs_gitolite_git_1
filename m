@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7070870128520798762=="
+Content-Type: multipart/mixed; boundary="===============2121470648401837459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 05 Mar 2024 13:47:24 -0000
-Message-Id: <170964644448.13448.7384846152086917084@gitolite.kernel.org>
+Date: Tue, 05 Mar 2024 13:53:22 -0000
+Message-Id: <170964680215.17220.16241369174363064897@gitolite.kernel.org>
 
---===============7070870128520798762==
+--===============2121470648401837459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 69c63350e573367f9c8594162288cffa8a26d0d1
-    new: b234c70fefa7532d34ebee104de64cc16f1b21e4
+  - ref: refs/heads/usb-testing
+    old: ec94233cb93c7525198b68c3be003472f8aaca0e
+    new: e9b4197e23da2c1d1deb9fea54bf5419da53318c
     log: |
-         b234c70fefa7532d34ebee104de64cc16f1b21e4 xhci: Fix failure to detect ring expansion need.
+         e9b4197e23da2c1d1deb9fea54bf5419da53318c usb: isp1760: remove SLAB_MEM_SPREAD flag usage
          
 
---===============7070870128520798762==
+--===============2121470648401837459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709646443 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709646801 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1709646443-372fd218c1ae0d2267bae1529d68f37c4d426dc7
+nonce 1709646800-7894bbe79b4a77be5deac772fde23be1f74081a3
 
-69c63350e573367f9c8594162288cffa8a26d0d1 b234c70fefa7532d34ebee104de64cc16f1b21e4 refs/heads/usb-linus
+ec94233cb93c7525198b68c3be003472f8aaca0e e9b4197e23da2c1d1deb9fea54bf5419da53318c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnImsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1+wP/jxv/nVQLWjoBtpgCtr7
-75tZB8CKNpfypliROjI4s5EjLq716k3HWeXyMUjovmRhgnpqdnZB+Q0T7fQhiTsQ
-iTJa6tSkd5P2MX6JioUfdyp+Y8aSVT8UPbv+MRRZ1dIluD5RtlFEWCXWxGNdeeD5
-dDSxlHj8HOcecJ138rZ5X6dqB0gAfnjnsQWy2lbh2P82qqgnGDfkX5vAQScNWtXe
-orJIg7tUkpsk8p6NKqKq/5yCBq+o6fk3wVLutCP5o7vH4Qf/KkHgtiFUceJggdlC
-MZEJvwq74WfMu6umVOZ8u4xv491ubCxiABRjykUdFS/d3TkTlSdLTa0qLosbLqyW
-000iqdI1SF5wv4ITnV6CnA67gDWTfpPliWa5jquYi8+/mdWDoA918q3Zut73ZsEI
-8Na303U/zTgpb4Bpck3eG5HcRGd6tLgHzNxDjiNljR7zBL1Yv54eu52DUSc7mRyk
-yky1SMQdgTaT7ZRetVrJQiOIob7cKYe+27B7wHfLk8xF3T+3P6xvU9+aYCgAR9xB
-phiRdSn2OOKMQF7uXth1d3oy6WM9nwE3CyvVQ5JwotQayIZSr8ecaaJ0eEvWaWOM
-7x2Z6DTlRjKFwwpud/KGH1bpFKJaOTToihX4sccU6MwbsGm4zhjFZiLMA2Dtqall
-rS7/8CsrQZd1oarCS0vT7S8X
-=GzlQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnI9EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UNIP/0Mxn0Asj91Q/XT9k1bu
+FD3lLDZKLMkm7RmlrTSR9pAtuYnyFYFNz+DO6YvLYo///e2TxQT14IiR5TXdWuHc
+ZM+JhLsk1FyH9zCFhNXHdEdijORgbQN/FsOOdi5apuO+fv/nwhk3Tpqve8tSjojp
+XLytXUfWRhA/j4BdDAoKpWVv1pI27JVI30owUQ/uXIFdctnm+Ocy8IRcYDQqqLbK
+oafr4sIWZh5ojS0mgMO5PBLeYF+6QvG+K26UvHMhWUkS0vFrV1O+fGwOtmo3O11V
+5TuykQ1CJjoIzmfFcK+gLetoMtjOzB8L0jNTml7ltK5CE7YlsbFsx02NvIypnHZY
++lghmaW4qtu0pmR2CAlOSpaD8+fKxCHjF6OIWMm0Ch4J3RdfB5yGI+HIwxRRYnTO
+VbtalgvkX7EqLfQAARWIqxBhWjWlXVRlJ83Yf3hBgoaJXemh6fT7eRjEsICvFWK5
+hJDvlN15EjVPnLcGd/cGu8QDZO75JWqYFv/vcUYYAknpA7ddUA8J5cDIa89tVPSo
+viBJWFclUTwec76+NfYiWL2ZZ5UFC/zKfuwYITFWfIwK9QHUHIszmYiRiYuakbGx
+VfDyHTaCqhctjxCv+ETQRh2uS295OAtxCYN3tH4QMhzQHE5w1Go0C8p2CW0ZuVuj
+bHrkKcSHgYUZPZsIYEY6rdZa
+=XhtV
 -----END PGP SIGNATURE-----
 
---===============7070870128520798762==--
+--===============2121470648401837459==--
