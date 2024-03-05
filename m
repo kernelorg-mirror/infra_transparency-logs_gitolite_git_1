@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Tue, 05 Mar 2024 09:16:12 -0000
-Message-Id: <170963017225.13301.1412295071156545373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 05 Mar 2024 09:18:59 -0000
+Message-Id: <170963033990.14355.5212806602230963569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
-user: lee
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/for-backlight-next
-    old: 3c40590fafd4cc2447fb482a640c450e1a58ffa1
-    new: cd1995b6ac7384149ad755b74e3c3eb25195ab81
+  - ref: refs/heads/review-hans
+    old: 6ce9d627bfb62139b6200addf92b4c55ea07d55d
+    new: 0314cebb29be2f961abb37bd0b01cb16899868f2
     log: |
-         fc159b40e7980e7f78dbaa72dcc4e8f523dbfd92 backlight: da9052: Fully initialize backlight_properties during probe
-         aeb7ab878e90041776eae839faa117570dbcce93 backlight: lm3639: Fully initialize backlight_properties during probe
-         cd1995b6ac7384149ad755b74e3c3eb25195ab81 backlight: lp8788: Fully initialize backlight_properties during probe
+         aec7d25b497ce4a8d044e9496de0aa433f7f8f06 platform/x86: p2sb: On Goldmont only cache P2SB and SPI devfn BAR
+         0314cebb29be2f961abb37bd0b01cb16899868f2 platform/x86/amd/pmf: Fix missing error code in amd_pmf_init_smart_pc()
          
