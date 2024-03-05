@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2192719160188948499=="
+Content-Type: multipart/mixed; boundary="===============1223772547221129158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 05 Mar 2024 14:15:38 -0000
-Message-Id: <170964813851.2992.16204424777278741963@gitolite.kernel.org>
+Date: Tue, 05 Mar 2024 14:16:10 -0000
+Message-Id: <170964817087.3260.11980902697365219369@gitolite.kernel.org>
 
---===============2192719160188948499==
+--===============1223772547221129158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,65 +17,47 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 9bed49bfd17c8ffa808c250244ea9adf0497dfd6
-    new: ad0498f3ad3a5738a639c1a21560e72edbf938db
-    log: revlist-9bed49bfd17c-ad0498f3ad3a.txt
+    old: ad0498f3ad3a5738a639c1a21560e72edbf938db
+    new: b9e4dfb0a6c038dc9af3ba937daa8d33fa859dea
+    log: |
+         11f18611199a54a8b2ca6d5a3eda51ba379a203f Staging: rtl8192e: Fix 5 chckpatch alignment warnings in rtl819x_BAProc.c
+         8e231840af3fc03455d0c927b65b5a9fd4952424 Staging: rtl8192e: Rename variable TxRxSelect
+         2e5744d418adb815a24ea1b926153aaa340b30af Staging: rtl8192e: Rename function rtllib_send_ADDBAReq()
+         ea1bc302be47d3a6371461859d2c83d3a943de34 Staging: rtl8192e: Rename function rtllib_send_ADDBARsp()
+         b9a982d65437a98fa3cf92eda3c439ed389edf5e Staging: rtl8192e: Rename goto OnADDBAReq_Fail
+         72280b0182f90d11d0eddae2f5371372f7001ab1 Staging: rtl8192e: Rename goto OnADDBARsp_Reject
+         da8f893d0ecdbf0160ff7c2d1eeb11b2d25c6ddb Staging: rtl8192e: Rename function rtllib_FlushRxTsPendingPkts()
+         b9e4dfb0a6c038dc9af3ba937daa8d33fa859dea Staging: rtl8192e: Rename function GetHalfNmodeSupportByAPsHandler()
+         
 
---===============2192719160188948499==
+--===============1223772547221129158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709648137 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709648169 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1709648136-c80916f4b4b18f83882afe35b5a53b654dd02330
+nonce 1709648169-4ea29b27a6e3362f2f3883b31c4fc1f648cbc5fc
 
-9bed49bfd17c8ffa808c250244ea9adf0497dfd6 ad0498f3ad3a5738a639c1a21560e72edbf938db refs/heads/staging-testing
+ad0498f3ad3a5738a639c1a21560e72edbf938db b9e4dfb0a6c038dc9af3ba937daa8d33fa859dea refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnKQkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DKAP/Rxb0Fmf7ujb6VUXBPEs
-nPDWirfDVadwVxmLxtO3DfnT2MAEWbjf+eb4Yqv++cwomr99z8KqU1nfrUGnzXZY
-P460C7QEw8yGLO7dnQGmKCgwrQdw702rZDbkvnySZRG72kJirc+Wq+9XQVdXyK0u
-BGDmajuIPEEX+9+dAnSEc8TkW76Rwa7HMMsOW2ALnjEFLnfSSqoRb+woxdqaMkMg
-hRUM34Jd46VOEXbKswQiQzokRPZMKXv2mkb6HjRjjzXZyUxDwhBJqS8b0MApqK0q
-4As7Wgz0P7RWzZssTPNOkjqYp/PmYgUPuBIvJIEDGOr4RDjtVywl+AzSOfNf3FR3
-OH3RVW0HIDK+3fW8an42lPcWhOGHiVI2EOUEtpjZ9y675jls3mZ6KDj+V/h8sjsP
-sxz5mjDn25gDfqAZr38eOMpA5cMek67ywlnAeUDJJfbENuuk5iOxOJtFbrxedcCA
-Q1J/8K0jUKle1zM/PH+X0P1jAWESdbAbc9dXOhQf1x0sC3n7gcdbCEY1JExgnMpc
-tWHORboxYoamMcFxBujpi/XgztGkiyXBOg3cfkRH7nKl8df4S9romaSLuxlHJmfN
-lJG8yhEkqdJ8elii1Mwg9fY13KFdJKFIeocwBoUA//e6ZaeG9X0wB0GKJ1uTLOTr
-gcHPFJNTwsa20JIiqRPPJx0C
-=Gw/k
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnKSkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rtIP/jKfNU+6zTf+IzgX1iAz
+TIwYvpSySGSkq5fIjBim84D204v8TRyIITj4WQfJdmVx83NP5X/bfUTNjsbauzgZ
+v2r+XQdo4aCoNfKdK0YK41WJVplv3on8M4CjKV3bwDy1zCukWtcrlm53KLWol5AK
+n/dBrvIUMpHjsok6zlCnPaivjeF0P5OSQ0aXigZXvR08876e6Qt1fX25MXRLm0cn
+FEyu+o6g6GiRPU14llNaAQR0CvOfSSN4wOjTKFhjwZBQKfTP+vQnkRk6b9AnGTiq
+CPalt+1ejZ5OpfA7Zuc1lHDwTlNVXDqOljkAcp+yhQV7I2UwQSUKolqzDP3vPbJe
+vsVs38xVKa62swjQSjEjrECW7n6vQO0ItoBlV1OEaYG6W3+qO/Rpzew03eDBPASi
+1aCBsW4McnKvsfsHGKZ28Ert0+aXaLKy/dZ12pLGCt47wYR0ZhDsL0FiSKuX1Uv6
+qr1xeD9iSIdTK7u3Ks6z46/WFXWBUg3Pcfl/lexEJugAzb5y8nwfrmJ+B7wx8POX
+zonF5FzxjeLZ6flf43u/JfkOotrtr3E7l9Iwo5rFpSu0DLLO4TBmVyujRQw6tHME
+JMdzD+W+1ul/gDddrR2EZrNvVxNTMQEL4OYKkiacPiHmkolDiEeoCewCjZ5V0XEh
+TtaiErRbMBpo1dmKagZFEyU+
+=3JH4
 -----END PGP SIGNATURE-----
 
---===============2192719160188948499==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9bed49bfd17c-ad0498f3ad3a.txt
-
-d1c4f17f1a1dd1be1a22e198a518e8f682f4013e Staging: rtl8192e: Rename function rtllib_rx_ADDBAReq()
-9f965f1efc26c8ff65d02473d985852d181dff6a Staging: rtl8192e: Rename variable NumRecvDataInPeriod
-020d29db332275a6bcfad25308c7c4ad7a633cf9 Staging: rtl8192e: Rename function SecIsInPMKIDList()
-d674c6237d7c0033d912d9eccc60eb5ce609b285 Staging: rtl8192e: Rename variable PMKIDList
-9880998b9bfa0e77567d22d7fa3be6370ec7e114 Staging: rtl8192e: Rename variable Turbo_Enable
-99a21d5ae578be666f99e7de3ec9f7e46cd7e90d Staging: rtl8192e: Rename variable osCcxRmCap
-ce0ba55088eb4a5a75f6c8efbcfd3148abc27ab4 Staging: rtl8192e: Rename variable bCkipSupported
-98d602e87c9f11a63626a589f6969fd6afc241a8 Staging: rtl8192e: Rename variable bCcxRmEnable
-fbf63623ca47c853d20cb1c27b8ac7844c7f4058 Staging: rtl8192e: Rename variable CcxRmCapBuf
-ba15ff4840e53c130983188fd2855ae1e45a281c Staging: rtl8192e: Rename variable BssCcxVerNumber
-2c6dc84871bc900e843c480f4ecc97d9a283077f Staging: rtl8192e: Rename variable CcxVerNumBuf
-0c5d6ec42d575e14de3a0de25ba4dcf1737eb992 Staging: rtl8192e: Rename variable asRsn
-b526e4960a2cdb9d95d3ac96a90e7cd6d250ae57 Staging: rtl8192e: Rename variable AironetIeOui
-cfbcf6df4a7e37a56111e8715948220566e0b076 Staging: rtl8192e: Rename variable osCcxAironetIE
-39db18ddf68aaf8317388c0e547eb8acb4b1cee7 Staging: rtl8192e: Rename variable CcxAironetBuf
-41df5318a8ca50e053e4669764b7cf1cc368d9ac Staging: rtl8192e: Rename varoable osCcxVerNum
-99c7328a0c5f7766cb2baef4ef614edd6f2f9cea Staging: rtl8192e: Rename varoable asSta
-a033871ace33673c96f59681f9a16b4f1b661e2c Staging: rtl8192e: Rename reference AllowAllDestAddrHandler
-a4d4bbd206ce790c99e6d3724a8cd86254c094e6 Staging: rtl8192e: Rename boolean variable bHalfWirelessN24GMode
-ad0498f3ad3a5738a639c1a21560e72edbf938db Staging: rtl8192e: Rename function MgntQuery_MgntFrameTxRate
-
---===============2192719160188948499==--
+--===============1223772547221129158==--
