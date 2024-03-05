@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 05 Mar 2024 20:21:38 -0000
-Message-Id: <170967009836.24541.3043083120272839545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Tue, 05 Mar 2024 20:33:00 -0000
+Message-Id: <170967078078.31781.7692641788319891301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/kdevops
-    old: 8309435e4079e6c151de5f28933a6d8842ab8b1f
-    new: f623498e24aea2fb478bca99388c46ab1a360007
-    log: |
-         f623498e24aea2fb478bca99388c46ab1a360007 SQUASH: lookup
-         
+  - ref: refs/heads/md-6.8
+    old: c98ebd219303a265cf735f77d70b2f80302dc6d6
+    new: 9e46c70e829bddc24e04f963471e9983a11598b7
