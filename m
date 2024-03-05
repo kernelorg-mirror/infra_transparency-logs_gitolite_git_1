@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1789458515985449036=="
+Content-Type: multipart/mixed; boundary="===============4114770781633971756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 05 Mar 2024 13:10:49 -0000
-Message-Id: <170964424956.18360.6457179987113490708@gitolite.kernel.org>
+Date: Tue, 05 Mar 2024 13:11:38 -0000
+Message-Id: <170964429857.18744.6923475306716136810@gitolite.kernel.org>
 
---===============1789458515985449036==
+--===============4114770781633971756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 12fc84e8c4288cc8ed5f14a35e077130c2cfece2
-    new: d28240785e00ffb889d90368882bf382e22e9555
+    old: d28240785e00ffb889d90368882bf382e22e9555
+    new: 3dd85520736349dea2b4f3f78a60cf367af83f20
     log: |
-         41717b88abf1cacd953e9ea2ace2f62eaf763c48 usb: dwc3: qcom: Remove ACPI support from glue driver
-         f3ac348e6e04501479fecf55250b25ff2092540b usb: usb-acpi: Set port connect type of not connectable ports correctly
-         0e28790195fa65fde41fa127a89e0903388f6285 usb: typec: tcpm: fix SOP' sequences in tcpm_pd_svdm
-         5424a44276ee60d39335ba037c7e142fad4a259a usb: typec: altmodes/displayport: send configure message on sop'
-         d28240785e00ffb889d90368882bf382e22e9555 usb: typec: pd: no opencoding of FIELD_GET
+         4d0a5a9915793377c0fe1a8d78de6bcd92cea963 usb: typec: ucsi: Clean up UCSI_CABLE_PROP macros
+         38ca416597b02fb99e38ea12a30f80593b1f2a05 usb: typec: ucsi: Register cables based on GET_CABLE_PROPERTY
+         f896d5e8726cd755f4868aaf8332daabaf480d7a usb: typec: ucsi: Register SOP/SOP' Discover Identity Responses
+         3dd85520736349dea2b4f3f78a60cf367af83f20 usb: typec: ucsi: Register SOP' alternate modes with cable plug
          
 
---===============1789458515985449036==
+--===============4114770781633971756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709644246 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709644295 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1709644247-3c3fc33f8e4656f7dd7f2681e10c21903ac61bd4
+nonce 1709644296-21c2c7749e2d76ea8fd8feb9d463bb6bc5f329f4
 
-12fc84e8c4288cc8ed5f14a35e077130c2cfece2 d28240785e00ffb889d90368882bf382e22e9555 refs/heads/usb-testing
+d28240785e00ffb889d90368882bf382e22e9555 3dd85520736349dea2b4f3f78a60cf367af83f20 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnGdYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bz8QAM8ZMUVpoo4kyZZnnvE5
-+fzpDvDwyhFOX2lWnE5X0iwQSNxi0JQh953igwcOI3sTDcWdJSlAkPWf/ymKYxSk
-E2gYWPqO0FbiuhdACuFRXL6C2XCWzoFef2nV0Nt0fqlwixifko0oFWAPBcRad2GP
-o9plhqtXGafarNaNnfBVwvR4dIPDrRD+n/qzih3yKKGrg6RJ/WnWm14dTy3P8X7H
-j40cIjFx5fVVvCr3oRRS4R92MnLM1BaZSqEZU3T7uXT5XYxfCb7wDr0NONq9E5QC
-QzhNwJFZzxtSIt3cMAPafmv8vcCUzU09wR0gVitJCEFe+pUPKBfg5KEIu45aWUWk
-vqVN+wliykAtzt1YR4SMvYVkIM0exVvSqnpmnyhj+5kYauQakT6nif1MrOwIfcIu
-XhtIDSAaOGy4zMeU9OewtlkVr8lAH1/bKAYdHNJuwHU2fM3NM+67BplW9lj14TKA
-zRQHYUXeLhsF1WDLKCmwnDgLxoGhCf2yRA6a/gp1405G8JrnFNq/+/ELG5Kb0Lb8
-ax/HGfAzHa6LYOQDIFhWwn0PUYjO+xlEqnC0+ED0AjpyaBC4aGruU9Yct739DKYs
-zn4vHlE+iJP/XnvfGlZoLBFPP5jz+JkMXJWGJZ56Ry6p9V5v0pkIaFwdxR5PD6O9
-A5MHyLycFDK7jXr8OuEXuP9B
-=cXx1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXnGgcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V5QQAKZ+e8nOfcABM9ym8ECd
+tgPoKxfzc7DwRLcbkHBfdKsUsBwatMf1rG/gVNKQatDXDOnZbu9DbktYGabrPeRd
+y+7c76/KAooOAqZKvg/x0IM4Zy/1Ge25+cmXMZsayStEZXFbhgMsa8REdqpHv5lS
+Q1XQaLMDu8XEIv0IPX+yVo6HJKaTVDkUrZad6oygFmDsoyEBt0m+4KmEjxhWq11y
+tIj7UXIvxAKwWM2hDGOCFG263Rj/vGZkry6aI5muvkyrJGglWB4ZfD0XQYib3jpF
+VY14BGuAu8C3w64aHenyuSfgiMALBlbYMSXv9YTjb5WCRVUMTj5iXsbJsQ6DOA33
+DLeO8FTNyCJVII5k31n1cKjVGWvMjjU3OWfycci7e7sIQ+dSET6d9HNYdL4z7Th7
+8mVOfWh5VC7fGd7JSKHdyu/HVPioj9ri9fgIzJb1KkJuaVj4piQ29ACtX9HQ+S1+
++26IhqYuczLTNxEDwkO1IbRnv/pi5nOW5UrB460OzpGcaaR8puZ3O9Yd4TWW7TCL
+hsQ8FcjxdLw1CwAbfoe2I7bhqk+KYLdcdAIeqX7pNGPeRjpiju++5+Q999VUgcfE
+pN8K0fpeyTDYOajNg8AY7H4Vmw063E58YPphPOlTvyMUixF1svSIqe/nVBjhLGX1
+pNwO7y1rOImCjdX8MaotLqHx
+=oR6o
 -----END PGP SIGNATURE-----
 
---===============1789458515985449036==--
+--===============4114770781633971756==--
