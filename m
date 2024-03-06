@@ -1,54 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0569010411078351442=="
+Content-Type: multipart/mixed; boundary="===============6000593655884013764=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 06 Mar 2024 09:19:36 -0000
-Message-Id: <170971677668.23701.13928832963709490264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 06 Mar 2024 09:20:21 -0000
+Message-Id: <170971682156.25634.7716132558821910322@gitolite.kernel.org>
 
---===============0569010411078351442==
+--===============6000593655884013764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-next
-    old: 36c45cfc5cb3762b60707be2667c13d9a2562b34
-    new: d22168db08c4c8e6c5e25fa3570f50f0f2ff1ef1
-    log: |
-         21f168a1c5e19dc1af511fc5031678a9c0f823ee platform/x86: acer-wmi: Add support for Acer PH16-71
-         f4b63facc3a7da2de322ae4b53350b4b7152abd5 platform/x86: acer-wmi: Add predator_v4 module parameter
-         ad742f6580e1d50a5482fc4f2ed0d248fa784677 platform/x86/intel/vsec: Remove nuisance message
-         728720381879e9e0bc68ff9edca52261c1f5bc31 platform/x86/intel/pmc/lnl: Remove SSRAM support
-         a5e28e2b384fe5c8fed36907cf4297d629612bdb platform/x86/intel/pmc/arl: Put GNA device in D3
-         a8170d6a5d310eeaa3ecf3bbc8e3835004723f36 platform/x86: touchscreen_dmi: Add an extra entry for a variant of the Chuwi Vi8 tablet
-         0dfb4617af0d4cfbaf75590a83e2ce367b67134a platform/x86: thinkpad_acpi: Add more ThinkPads with non-standard reg address for fan
-         959e640cf7b2d456052b346fa50574242ca56aaa platform/x86: ISST: Allow reading core-power state on HWP disabled systems
-         d22168db08c4c8e6c5e25fa3570f50f0f2ff1ef1 platform/mellanox: mlxbf-pmc: fix signedness bugs
-         
+  - ref: refs/heads/master
+    old: 117a36f628cc170e73832889144614837ca88ad8
+    new: 1aa35edbdb61f4622dcb508cf980e3eb84212b36
+    log: revlist-117a36f628cc-1aa35edbdb61.txt
 
---===============0569010411078351442==
+--===============6000593655884013764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-117a36f628cc-1aa35edbdb61.txt
 
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1709716771 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1709716770-c29ff1167f0f607db1bf750ef6f052bf158b89bc
+8003a20adfb3f2bb07439476f2ccfcee197d936a Merge branch into tip/master: 'x86/merge'
+0b54d8a8a7705d228eab0b71433ed1aa9b02d069 Merge branch into tip/master: 'irq/core'
+254fc6c9f6b5d7fd01f9bc93ecad1b6946afd5f8 Merge branch into tip/master: 'irq/msi'
+4a61fcd640daf4b9e70fb20057b023021144d8dc Merge branch into tip/master: 'locking/core'
+22aa111b2f1cb9fba5bb4a6561ed2cc17ffcdeb8 Merge branch into tip/master: 'ras/core'
+6ca3c2f3c1b0c244bb06fbafe0fb3727c8a693ea Merge branch into tip/master: 'sched/core'
+aa8da0f9100d577b47b47977b2cc5c25fd2ad30b Merge branch into tip/master: 'smp/core'
+3cd00efe6d1fdbdd03b0b23c3c4747d36301fe75 Merge branch into tip/master: 'timers/core'
+033a6cf34721ffeae35888278c6956cef0051aa4 Merge branch into tip/master: 'timers/ptp'
+9e6aae80565227937b5536e03b19e4115704c280 Merge branch into tip/master: 'x86/asm'
+b7ff1d978c0d678145915345eebea815599a697e Merge branch into tip/master: 'x86/boot'
+421da8e7d15598e5fbe93b8b033f07775c2dee88 Merge branch into tip/master: 'x86/cache'
+552310457c183cb1bfcbd6f8961c4cc8e0e3f4b2 Merge branch into tip/master: 'x86/cleanups'
+94253ad3fef80f79fbeb961efa1ea27fb5862338 Merge branch into tip/master: 'x86/cpu'
+375e91d3949526fdedb1d6c2e62946a5047297ac Merge branch into tip/master: 'x86/entry'
+0ef2b4a3d1fa84058b7f722c0142eaf44c3fce6f Merge branch into tip/master: 'x86/misc'
+a87ceeede2db71ff77d7b4b5df1cb5c01d4a0cc1 Merge branch into tip/master: 'x86/mm'
+ee2df3a0e61b621fd6e26be38ddd5d4fe67e6937 Merge branch into tip/master: 'x86/mtrr'
+642fa6dc94a8a65286b45515ca6a121a952b0e69 Merge branch into tip/master: 'x86/sev'
+1aa35edbdb61f4622dcb508cf980e3eb84212b36 Merge branch into tip/master: 'x86/tdx'
 
-36c45cfc5cb3762b60707be2667c13d9a2562b34 d22168db08c4c8e6c5e25fa3570f50f0f2ff1ef1 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZeg1HAAKCRBZrE9hU+XO
-Mf83AP9B/jaKgaNTxulu6EdB1gjRAf4uoQ/JKdxAhdr1wTghwgEAmfeGuUSz0kSc
-n5Kyl8yLLa7A/LFpC+MKraVzqOsOrAE=
-=73gn
------END PGP SIGNATURE-----
-
---===============0569010411078351442==--
+--===============6000593655884013764==--
