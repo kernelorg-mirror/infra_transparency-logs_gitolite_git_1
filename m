@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7520531872749734878=="
+Content-Type: multipart/mixed; boundary="===============5207146879712568906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 06 Mar 2024 14:08:04 -0000
-Message-Id: <170973408483.25038.100939813099874756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 06 Mar 2024 14:08:33 -0000
+Message-Id: <170973411355.25289.18353433653280640378@gitolite.kernel.org>
 
---===============7520531872749734878==
+--===============5207146879712568906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.9
-    old: 0f1a277b3d9be9fff0a0d9c6b63492815ede5eb3
-    new: 7ad288208d24e42047e5bf0b88271684a32aa967
-    log: revlist-0f1a277b3d9b-7ad288208d24.txt
+  - ref: refs/heads/for-next
+    old: c53e085c10d9fa591d785fa1f61c1f4f09a263ce
+    new: 6bcd93930dbb91acc0df51295ba4bb580caf6381
+    log: revlist-c53e085c10d9-6bcd93930dbb.txt
 
---===============7520531872749734878==
+--===============5207146879712568906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1709734082 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1709734082-4c3b45bc39596a868f86242b2661bae8bc7a7edc
-
-0f1a277b3d9be9fff0a0d9c6b63492815ede5eb3 7ad288208d24e42047e5bf0b88271684a32aa967 refs/heads/spi-6.9
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXoeMIACgkQJNaLcl1U
-h9ApOQf/TIIf13WAnTmulmVQQf14KfOmINyOF/NOnEIjRXctSp6xO+qYuegtgN7Q
-gL2bFIIu7S7484//btAqtWK59iCf43tavPtZFlhz9az0s4xN9nyKDgqJo/JMSmP2
-ChKNQxFpLCmLGADuKTNRtqpp0LqIy5iOIlMLbKMK+3jA150aRvOlR9cdhMbVwdZN
-NJeieqHdnCOayd7sBmUY7qJSr+b6RsjbxFuAFQiP/MNmKj7a9+QcouRqR+ECnLlJ
-UOrO5rD4OjRjJftF08zwF1DAUakwMO5WRp7QqdGtIRS7rUtIL6Qx3BIrUaVeSWnr
-Bjn/dtyrk246VgSeK0t/RoZTanZf+Q==
-=3sZ1
------END PGP SIGNATURE-----
-
---===============7520531872749734878==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f1a277b3d9b-7ad288208d24.txt
+Content-Disposition: attachment; filename=revlist-c53e085c10d9-6bcd93930dbb.txt
 
 80a38bfbbd5965c8bda73b20aa78d308739bbc31 spi: dt-bindings: introduce FIFO depth properties
 ff8faa8a5c0f4c2da797cd22a163ee3cc8823b13 spi: s3c64xx: define a magic value
@@ -63,5 +38,6 @@ ea3fba7c41babda225fea324a72d171be9ff6de6 spi: s3c64xx: get rid of the OF alias I
 ad0adac84d42b693295f4bde407d9f20c9a694ab spi: s3c64xx: deprecate fifo_lvl_mask, rx_lvl_offset and port_id
 e8b16c7a420420a994f68c181abc4a82dcca0616 spi: s3c64xx: switch gs101 to new port config data
 7ad288208d24e42047e5bf0b88271684a32aa967 spi: s3c64xx: switch exynos850 to new port config data
+6bcd93930dbb91acc0df51295ba4bb580caf6381 Merge remote-tracking branch 'spi/for-6.9' into spi-next
 
---===============7520531872749734878==--
+--===============5207146879712568906==--
