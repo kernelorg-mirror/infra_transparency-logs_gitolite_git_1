@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3611374221389394750=="
+Content-Type: multipart/mixed; boundary="===============5291414437313511771=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 06 Mar 2024 16:57:08 -0000
-Message-Id: <170974422802.9745.18414189244736150754@gitolite.kernel.org>
+Date: Wed, 06 Mar 2024 16:57:33 -0000
+Message-Id: <170974425373.9973.5081872721912805805@gitolite.kernel.org>
 
---===============3611374221389394750==
+--===============5291414437313511771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 4daa873133d3db4e17f4ccd9fe1102e4fbab7700
     new: c055fc00c07be1f0df7375ab0036cebd1106ed38
     log: revlist-4daa873133d3-c055fc00c07b.txt
 
---===============3611374221389394750==
+--===============5291414437313511771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ b7fb7729c94fb2d23c79ff44f7a2da089c92d81c net: dsa: microchip: fix register write
 f287d6aafda7e59fddc9316fe6f0c46c64847f10 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 c055fc00c07be1f0df7375ab0036cebd1106ed38 net/rds: fix WARNING in rds_conn_connect_if_down
 
---===============3611374221389394750==--
+--===============5291414437313511771==--
