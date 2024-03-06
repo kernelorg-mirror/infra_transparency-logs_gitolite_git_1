@@ -1,26 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8727711246910777886=="
+Content-Type: multipart/mixed; boundary="===============2820780468553248041=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 06 Mar 2024 14:07:39 -0000
-Message-Id: <170973405955.24638.6866312029984119933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 06 Mar 2024 14:07:58 -0000
+Message-Id: <170973407819.24945.11093785103604037067@gitolite.kernel.org>
 
---===============8727711246910777886==
+--===============2820780468553248041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.9
+  - ref: refs/heads/for-6.9
     old: 0f1a277b3d9be9fff0a0d9c6b63492815ede5eb3
     new: 7ad288208d24e42047e5bf0b88271684a32aa967
     log: revlist-0f1a277b3d9b-7ad288208d24.txt
 
---===============8727711246910777886==
+--===============2820780468553248041==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1709734076 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1709734075-059d79795b3e39d125acec0e5d27d733092facac
+
+0f1a277b3d9be9fff0a0d9c6b63492815ede5eb3 7ad288208d24e42047e5bf0b88271684a32aa967 refs/heads/for-6.9
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXoeLwACgkQJNaLcl1U
+h9BO3wgAgVnuOl7+NgJJnKmJFUPxpjEqTTreOALv5JU8mEmiJl8/PNdwjUWgRtab
+5roNwRdI3HWrrbvRUolHeDqztARPjiyt9f6vi18MLPpjkJYNnMyEyUFF3cfc26Wy
+tmGT2L1DIWJsZsggl6BUW9hAGbdwd86zzWTLsAlSncpBCFFkQhQrqoMSe0gkwJxV
+3qe9LdiFas+PRBqGrcWmcxFqUPWTnpJ2jXnQnJhSc/YBVAg3QxTNGGDC/HzWV6S7
+0rBQdFLJZG15gU1KB4AEwa0ZOLInJw24Ylwgm5On/3iB4TCv1kALNmzfalJ466Ct
+aTLX+imEWK7f0E6V3T47lAcHKBnZcg==
+=wDjH
+-----END PGP SIGNATURE-----
+
+--===============2820780468553248041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +64,4 @@ ad0adac84d42b693295f4bde407d9f20c9a694ab spi: s3c64xx: deprecate fifo_lvl_mask, 
 e8b16c7a420420a994f68c181abc4a82dcca0616 spi: s3c64xx: switch gs101 to new port config data
 7ad288208d24e42047e5bf0b88271684a32aa967 spi: s3c64xx: switch exynos850 to new port config data
 
---===============8727711246910777886==--
+--===============2820780468553248041==--
