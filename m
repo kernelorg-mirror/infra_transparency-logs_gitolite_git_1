@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9073818379971614694=="
+Content-Type: multipart/mixed; boundary="===============6545120658419736747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 06 Mar 2024 19:21:04 -0000
-Message-Id: <170975286425.20299.16389561458598353905@gitolite.kernel.org>
+Date: Wed, 06 Mar 2024 19:21:06 -0000
+Message-Id: <170975286623.20381.17516892934361827238@gitolite.kernel.org>
 
---===============9073818379971614694==
+--===============6545120658419736747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: a74f509f3a3517ab54b3711a8a05f1332c8f2d00
     new: 7d763bc4a44a51e48dde406d6c6c8a26a60ec647
     log: revlist-a74f509f3a35-7d763bc4a44a.txt
 
---===============9073818379971614694==
+--===============6545120658419736747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ df32d591bf63f1074324e568093e8f970fe57c68 selftests/bpf: Test case for SEC("?.str
 bc22f9a13840d4bdd292c79438cf4475799cf782 selftests/bpf: Test cases for '?' in BTF names
 7d763bc4a44a51e48dde406d6c6c8a26a60ec647 Merge branch 'libbpf-type-suffixes-and-autocreate-flag-for-struct_ops-maps'
 
---===============9073818379971614694==--
+--===============6545120658419736747==--
