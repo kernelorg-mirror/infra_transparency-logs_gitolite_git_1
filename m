@@ -1,43 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============5207146879712568906=="
+Content-Type: multipart/mixed; boundary="===============1429938960644583122=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 06 Mar 2024 14:08:33 -0000
-Message-Id: <170973411355.25289.18353433653280640378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 06 Mar 2024 14:10:19 -0000
+Message-Id: <170973421993.27549.1973709159091603682@gitolite.kernel.org>
 
---===============5207146879712568906==
+--===============1429938960644583122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: c53e085c10d9fa591d785fa1f61c1f4f09a263ce
-    new: 6bcd93930dbb91acc0df51295ba4bb580caf6381
-    log: revlist-c53e085c10d9-6bcd93930dbb.txt
+  - ref: refs/heads/const_work
+    old: 0000000000000000000000000000000000000000
+    new: 04edfa7fa059ba50d3236b55ba0ae23b1721e868
 
---===============5207146879712568906==
+--===============1429938960644583122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c53e085c10d9-6bcd93930dbb.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-80a38bfbbd5965c8bda73b20aa78d308739bbc31 spi: dt-bindings: introduce FIFO depth properties
-ff8faa8a5c0f4c2da797cd22a163ee3cc8823b13 spi: s3c64xx: define a magic value
-d6911cf27e5c8491cbfedd4ae2d1ee74a3e685b4 spi: s3c64xx: allow full FIFO masks
-c6e776ab6abdfce5a1edcde7a22c639e76499939 spi: s3c64xx: determine the fifo depth only once
-414d7b8c9147db7dc34c0e2bae2e2361b922dc07 spi: s3c64xx: retrieve the FIFO depth from the device tree
-82b98fb8cd33db7793e3e695c44e4e75bca03b3e spi: s3c64xx: allow FIFO depth to be determined from the compatible
-e08433e095dda8b5e44c376648dbf65c6fb6771a spi: s3c64xx: let the SPI core determine the bus number
-2cda3623ff4f002877a81f4e7a4c3401fd98aa2d spi: s3c64xx: introduce s3c64xx_spi_set_port_id()
-ea3fba7c41babda225fea324a72d171be9ff6de6 spi: s3c64xx: get rid of the OF alias ID dependency
-ad0adac84d42b693295f4bde407d9f20c9a694ab spi: s3c64xx: deprecate fifo_lvl_mask, rx_lvl_offset and port_id
-e8b16c7a420420a994f68c181abc4a82dcca0616 spi: s3c64xx: switch gs101 to new port config data
-7ad288208d24e42047e5bf0b88271684a32aa967 spi: s3c64xx: switch exynos850 to new port config data
-6bcd93930dbb91acc0df51295ba4bb580caf6381 Merge remote-tracking branch 'spi/for-6.9' into spi-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709734218 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1709734219-17407f37e26b77cb754af8dc784912c86dac17dd
 
---===============5207146879712568906==--
+0000000000000000000000000000000000000000 04edfa7fa059ba50d3236b55ba0ae23b1721e868 refs/heads/const_work
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXoeUobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3CIP/3ufaR3h3WOUsSkxoJaA
+saXbRZ0XhPTi++9dnnMESCDjF+XxVRgED2VPZDujJFN6BoueUunylZCfNELX+7bo
+eLLDM/pUDlsE9tdgoCkj1E0X6B2WyUSOfy7oEMPLIjHn4t4x30wG2ozNdyDr4gYA
+HxcDu3CB9w7C1QHHM+WNedIXQ3KYmFqjY2a6ZEFUtTbTBjSnETByKFy3rHeFtDSE
+skOvyIulJxEmaJ51iDNEeB/dHcZLRKuhK3qMaY1en49yxpKeSheKC0goNy0Lwyg3
+GXU99eaBjzw6nfByiUISciW66PAFdJ1mOxJI3ta+2XW5/23SuoB2DpjLVmSDnB6y
+ug2aFpOzTDQbVxSQvl6Ny0+De0AqVWjF78ua8TBi8i8YktVS23JNQIYK0g1nxZNN
+piPY+hAoidjL5gubg1Cru82811uwT/Icaw3FcyAHIkENLlYy7jntOuANFArrEYNo
+fo4SH9GWFis6EVpvaPmjW75t/b03FMg7bz0qv4vELnCz5oYBmWYegBg3NCfgzHcZ
+jpkecv16DG0Bf+U0NZYXTC3l4YPlJiRVNAaN9uBKPpGIcj+74BqtGMxZClh3Jixv
+Fs3eU86tXpZZ6o6HA0JJQlQskhOBztacbZ6FExt7hnCuI9yWHId8gNffj98cns5r
+MwCwfUTKAHGk7dpDt3ksZ6kY
+=Xpkm
+-----END PGP SIGNATURE-----
+
+--===============1429938960644583122==--
