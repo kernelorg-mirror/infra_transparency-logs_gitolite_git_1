@@ -1,31 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 06 Mar 2024 09:39:06 -0000
-Message-Id: <170971794644.12466.4329782594275701365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 06 Mar 2024 09:48:17 -0000
+Message-Id: <170971849747.26611.12850646092326734495@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master-pending
-    old: c90cbc5f19280ea8a2762105d1daf9a57f4a7a1f
-    new: 04b14d8765320ba694dfe246d97ac150f686a44f
+  - ref: refs/heads/fixes
+    old: c85c8da5209d12d81c64cd30a41b85904fb22b46
+    new: f531a3c17e7a08896f505e19120c04f2c5e334f6
     log: |
-         36fd3cfc293820ce26b33c76a821814d65ebd816 dt-bindings: net: wireless: ath10k: describe firmware-name property
-         829870a1878b0bfd64d8845531b0e4d2f676c87c wifi: ath10k: support board-specific firmware overrides
-         04b14d8765320ba694dfe246d97ac150f686a44f Merge branch 'pending' into master-pending
+         f531a3c17e7a08896f505e19120c04f2c5e334f6 erofs: apply proper VMA alignment for memory mapped files on THP
          
-  - ref: refs/heads/pending
-    old: 709cd1c88a11bc1969cf573575b0a2027e720146
-    new: 829870a1878b0bfd64d8845531b0e4d2f676c87c
-    log: |
-         36fd3cfc293820ce26b33c76a821814d65ebd816 dt-bindings: net: wireless: ath10k: describe firmware-name property
-         829870a1878b0bfd64d8845531b0e4d2f676c87c wifi: ath10k: support board-specific firmware overrides
-         
-  - ref: refs/tags/ath-pending-202403060937
-    old: 0000000000000000000000000000000000000000
-    new: 04b14d8765320ba694dfe246d97ac150f686a44f
