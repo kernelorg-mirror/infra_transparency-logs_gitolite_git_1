@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1354810041224608778=="
+Content-Type: multipart/mixed; boundary="===============5394358867537994012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 06 Mar 2024 23:59:32 -0000
-Message-Id: <170976957251.30843.15912349759235257440@gitolite.kernel.org>
+Date: Wed, 06 Mar 2024 23:59:34 -0000
+Message-Id: <170976957470.30911.10602894039333800484@gitolite.kernel.org>
 
---===============1354810041224608778==
+--===============5394358867537994012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,85 +15,47 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: e08b1348db2dd15674fefee21f22d99c7a45a607
-    new: ea3bb7a8667a6d69f1ae7dd73e48aedda4b76228
-    log: revlist-e08b1348db2d-ea3bb7a8667a.txt
+  - ref: refs/heads/master
+    old: 5847c9777c303a792202c609bd761dceb60f4eed
+    new: 67be068d31d423b857ffd8c34dbcc093f8dfff76
+    log: revlist-5847c9777c30-67be068d31d4.txt
 
---===============1354810041224608778==
+--===============5394358867537994012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e08b1348db2d-ea3bb7a8667a.txt
+Content-Disposition: attachment; filename=revlist-5847c9777c30-67be068d31d4.txt
 
-fc37bbb3289f61e23e3f866eeeb6c865ee4d3088 hugetlb: code clean for hugetlb_hstate_alloc_pages
-d5c3eb3f5026aece935afca3cbe8f9fea113844c hugetlb: split hugetlb_hstate_alloc_pages
-2e73ff236e09bd2c91c91fd5c84804503b7ea90a hugetlb: pass *next_nid_to_alloc directly to for_each_node_mask_to_alloc
-eb52286634f042432ec775077a73334603a1c6e4 Author: Gang Li padata: dispatch works on
-bd5ed02e23958cb56d0f5a90ebe620c8b47dab47 padata: downgrade padata_do_multithreaded to serial execution for non-SMP
-26d1dc6bb2305cd64dc0cd18e5773cbbcec41bb1 hugetlb: have CONFIG_HUGETLBFS select CONFIG_PADATA
-c6c21c31d0d8b200d448b5edc1e2d47991b3df5a hugetlb: parallelize 2M hugetlb allocation and initialization
-b78b27d02930f6f0262353080d0f784ce7aa377e hugetlb: parallelize 1G hugetlb initialization
-dfbac6dc68bae989bd68a56947dcca16c5574fda mm: separate out FOLIO_FLAGS from PAGEFLAGS
-0d846469fd216d37a91845945e9baad11dfa107b mm: remove PageWaiters, PageSetWaiters and PageClearWaiters
-7da8988c7c0e28dad8d0e9a697d6e7baa66f4534 mm: remove PageYoung and PageIdle definitions
-fae7d834c43ccdb9fcecaf4d0f33145d884b3e5c mm: add __dump_folio()
-b3a3203309c89061452250f7384507787b7badcb mm: make dump_page() take a const argument
-ce3467af6bded1c0018ca67ea1599f45fbb8100b mm: constify testing page/folio flags
-29cfe7556bfd6be043b6eb602a29c89d43565d71 mm: constify more page/folio tests
-9164448d3100d5118bda5e9d38b69a9f32cea509 mm: remove cast from page_to_nid()
-ac96cc4d1ceda01d08deda1e45b9f1b55b0624d2 mm: make folio_pte_batch available outside of mm/memory.c
-f1cce6f7fa302e2ea996de33eeeeb3a70d93a3e7 mm/mempolicy: use a folio in do_mbind()
-72741db6836b4fc3c810e33a53f7cb9cf2cd48a7 mm: page_alloc: use div64_ul() instead of do_div()
-22beb471b46a1a408720498f7895232edab559d1 mm: pgtable: correct the wrong comment about ptdesc->__page_flags
-ea919671517a46b75f975fcf126e08ccf7e9c09f mm: pgtable: add missing pt_index to struct ptdesc
-57b77b75caf02c7f1784ba5f9ea55275bd9a27b4 s390: supplement for ptdesc conversion
-5aa598a72eafcf05239519646ec88638c8894dba mm: memory: fix shift-out-of-bounds in fault_around_bytes_set
-e35606e4167dd55d48aa6232c074137577818add mm/zswap: global lru and shrinker shared by all zswap_pools fix
-a2aa530d856dc725ae1073feebdc1a23c82ee2eb mm/powerpc: define pXd_large() with pXd_leaf()
-bd18b688220c7225fb50498dabd9f9d0c9988e67 mm/powerpc: replace pXd_is_leaf() with pXd_leaf()
-dba8e6f34f07674e7b6e33d74b4ff35c82abb13a mm/x86: replace p4d_large() with p4d_leaf()
-83ea65da325c643bd1fea078fb81c5415ed7a83a mm/x86: replace pgd_large() with pgd_leaf()
-924bd6a8c96767a05323d575bdefd664631dce73 mm/x86: drop two unnecessary pud_leaf() definitions
-b6c9d5a93b4ce7ff98281d712a809d73462ff615 mm/kasan: use pXd_leaf() in shadow_mapped()
-2f709f7bfd3d13f8878070a79e0983b5fac2225f mm/treewide: replace pmd_large() with pmd_leaf()
-0a845e0f6348ccfa2dcc8c450ffd1c9ffe8c4add mm/treewide: replace pud_large() with pud_leaf()
-e72c7c2b88666903f174a82cd5c4e0598601189f mm/treewide: drop pXd_large()
-c05995b7ec2a73bf813a8944978e175f8e4ec3ac mm/treewide: align up pXd_leaf() retval across archs
-82b1c07a0af603e3c47b906c8e991dc96f01688e mm: swap: fix race between free_swap_and_cache() and swapoff()
-84d6ac31c34f2a6e056f967e6105160b6e2891c4 mm,page_owner: check for null stack_record before bumping its refcount
-4839e79c7eae747810c81848729e050eb5440547 mm,page_owner: drop unnecessary check
-58f327f2ce80f9c7b4a70e9cf017ae8810d44a20 filemap: avoid unnecessary major faults in filemap_fault()
-2d14fd455b224662e65b397a128a4f9a35ec349c scripts/gdb/symbols: fix invalid escape sequence warning
-a711639c56d0f15c8159ea11e1e77b6855f3b607 Merge branch 'mm-stable' into mm-unstable
-dfa3df509576e50410e74a2028228ec0b807cb2f mm: fix list corruption in put_pages_list
-dd7af1720ffebee25fb7bdc4b0653a85b867e2e2 mm, vmscan: retry kswapd's priority loop with cache_trim_mode off on failure
-17ab441dc4a267fa07fe60ef8723774c911591ae mm: optimization on page allocation when CMA enabled
-3d37bce547c518c3dfc2f93e98cb9fab7fef7375 mm: add defines for min/max swappiness
-f4239a5d7acc1b5ff9bac4d5471000b952279ef0 mm: add swappiness= arg to memory.reclaim
-948cd558d9f40afe3ff7e83479091893343cfe23 === mark start of DAMON hack tree ===
-51993884a21603761d4a913f084b8eb9bc18b0c3 Add -damon suffix to the version name
-59e6f4ab0029187d1cdf4adb68b131b71416d391 === temporal fixes ===
-ec77546ffd75a6ef6da47107a6fac43c7a39f2a5 Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
-56878bf35890fa6f21d009ee568da4980775f841 === patches written or reviewed by SJ but not merged in -mm ===
-ad198d07efeae896c2ff927ca5293ce85a9e9a4c selftests/mqueue: Set timeout to 180 seconds
-40d0476f79b29ebac16e18afc5a1c74c590499b9 MAINTAINERS: Set the field name for subsystem profile section
-ce19bd3655709ea2e223cb6f60c25fbbe93cb2ec === commits aiming not to be posted ===
-192b59850159e03a43220781f62fea801f45073a mm/damon: Add debug code
-719e424e9eb493e6ca1a7dd372adc5738725e509 mm/damon/sysfs: Add a file for simple checking memcg ids and paths
-657d91d91625a1179ccb92451c0f161ebad9255a mm/damon/core: add todo for DAMOS interval validation
-1986dc42dd065752a8efac0c928819803abf060b mm/damon/core: add debugging-purpose log of tuned esz
-5d8087683159f9a9920e219d5c8b37b546813acf Add debug log for PSI
-42ea51a6c127fe785e2d1bf0339d5037e5b2e94d === hacks in progress ===
-d84f39d70a8b19af5b3c107da9a15319654802d6 Docs/mm/damon/design: add API link to damon_ctx
-49a3b5a03686c02b929701d9bd9058fb0ce8a1a5 selftests/damon/_damon_sysfs: support commit_schemes_quota_goals
-c92c734ad9996dbd7f9d0c69cdcacd48513aedc8 mm/damon/core: initialize ->esz_bp from damos_quota_init_priv()
-a223cb31c69335b5364a4af3706d59e8dfb69f01 mm/damon: implement DAMON context input-only update function
-8370de8d79d99143d844aa690d66abfc6c4dd96c mm/damon/core: reduce fields copying using temporal list_head backup
-2fae3144421d4305d6c623bffecbe97724bc6a9e mm/damon/core: a bit more cleanup and comments
-d76aeacd61bf48c5b20e26fed8b0041957780eca drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-0d3ceb00c94c29d747e3ac5ce0d28d423cf0ea75 mm/damon: add DAMOS filter type YOUNG
-3d8687fe68cb729455ca06ab8951991cd75f1e57 mm/damon/paddr: implement damon_folio_young()
-ea3bb7a8667a6d69f1ae7dd73e48aedda4b76228 mm/damon/paddr: support DAMOS filter type YOUNG
+361bb7c961403173be109d8892f3c23096dc098d arm64: dts: qcom: sm8650-qrd: add gpio74 as reserved gpio
+df77288f7e3accf246785c53cd5f117fc5d81611 arm64: dts: qcom: sm8650-mtp: add gpio74 as reserved gpio
+cb0bbdc4cc327ee91ba21ff744adbe07885db2b8 arm64: dts: qcom: sm6115: Fix missing interconnect-names
+4c892121d43bc2b45896ca207b54f39a8fa6b852 arm64: tegra: Set the correct PHY mode for MGBE
+ff6bd76f4d997642ef390bffe42e93d6f7be87d3 arm64: tegra: Fix Tegra234 MGBE power-domains
+2b0a5a8a397c0ae8f8cd25e7d3857c749239ceb8 ARM: imx_v6_v7_defconfig: Restore CONFIG_BACKLIGHT_CLASS_DEVICE
+cbec657208bdd4bff4ff31cac5924aa18817027c arm64: dts: allwinner: h616: Add Orange Pi Zero 2W to Makefile
+d2f8795d9e50aa33c1e2bc0fcbb98ba4a7795749 ARM: dts: imx7: remove DSI port endpoints
+892cc217565fcca477c15116c21cf666a3fdbf9d MAINTAINERS: Use a proper mailinglist for NXP i.MX development
+418a7fc5397719c4b8f50eaeca6694879f89a6ec arm64: dts: imx8mp: Fix TC9595 reset GPIO on DH i.MX8M Plus DHCOM SoM
+65e32301e1a0a436bf542674c23030d0dcc1afde arm64: dts: imx8mp: Fix LDB clocks property
+183420038444547c149a0fc5f58e792c2752860c crypto: sun8i-ce - Fix use after free in unprepare
+c0afb6b88fbbc177fa322a835f874be217bffe45 crypto: rk3288 - Fix use after free in unprepare
+db8138845cebcdd0c709570b8217bd052757b8df arm64: dts: qcom: sc8280xp-crd: limit pcie4 link speed
+7a1c6a8bf47b0b290c79b9cc3ba6ee68be5522e8 arm64: dts: qcom: sc8280xp-x13s: limit pcie4 link speed
+4f423c4cbe26d79d8974936eb01e0d6574c5d2ac Revert "arm64: dts: qcom: msm8996: Hook up MPM"
+95915ba4b987cf2b222b0f251280228a1ff977ac tee: optee: Fix kernel panic caused by incorrect error handling
+aa8bb984f7867c3e98ff49dde8416a4001538156 Merge tag 'sunxi-fixes-for-6.8-1' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
+2bb5a9ac8842506010e17747632079353375efee Merge tag 'qcom-arm64-fixes-for-6.8' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
+d20f2a196d2805ea9c2982489337d4d7a732f603 Merge tag 'imx-fixes-6.8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
+35edcf68a999028d12ef3203e1227d6b8dd650a1 Merge tag 'tegra-for-6.8-arm64-dt' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into arm/fixes
+64b9175055a6a4dd367f92cb2be097fbb8013cb0 Merge tag 'optee-fix-for-v6.8' of https://git.linaro.org/people/jens.wiklander/linux-tee into arm/fixes
+af1e0a7d39f98c0dea1b186a76fcee7da6a5f7bc firmware: microchip: Fix over-requested allocation size
+28468cbed92ea5eed19e2cbd2d55758c3c7938ca Revert "fs/aio: Make io_cancel() generate completions again"
+961ebd120565cb60cebe21cb634fbc456022db4a fs/aio: Check IOCB_AIO_RW before the struct aio_kiocb conversion
+415ba4ed598dff761915a2fbe5d0651a8a526674 Merge tag 'qcom-arm64-fixes-for-6.8-2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
+1c7cfb6158f6678374ed42393b013b379b4c3964 Merge tag 'riscv-firmware-for-v6.9' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
+a50026bdb867c8caf9d29e18f9fe9e1390312619 iov_iter: get rid of 'copy_mc' flag
+09dcdbac54f4e60c917251fea98a69e46817fe27 Merge tag 'v6.8-p6' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+5274d261404c22b8b966d20c09b2ebea3cad7aaf Merge tag 'arm-fixes-6.8-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+67be068d31d423b857ffd8c34dbcc093f8dfff76 Merge tag 'vfs-6.8-release.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 
---===============1354810041224608778==--
+--===============5394358867537994012==--
