@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4982613402244177603=="
+Content-Type: multipart/mixed; boundary="===============1190099760025933675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Wed, 06 Mar 2024 04:08:25 -0000
-Message-Id: <170969810512.13343.13619732285915206389@gitolite.kernel.org>
+Date: Wed, 06 Mar 2024 04:08:50 -0000
+Message-Id: <170969813008.13570.3261664773989129655@gitolite.kernel.org>
 
---===============4982613402244177603==
+--===============1190099760025933675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/for-linux-next
+  - ref: refs/heads/exynos-drm-next
     old: 40d47c5fb4f2a7c1ef168598f01bdcbd31ba4038
     new: f112b68f273fb0121cb64e0c3ac06adcb91e32b8
     log: revlist-40d47c5fb4f2-f112b68f273f.txt
 
---===============4982613402244177603==
+--===============1190099760025933675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fa58b59493665e81454079ad372b11a0ed34bd2d accel/habanalabs: modify pci health che
 aa775edbbe7b44cc732bfa7c56ac3957d84113d5 Merge tag 'drm-habanalabs-next-2024-02-26' of https://git.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into drm-next
 f112b68f273fb0121cb64e0c3ac06adcb91e32b8 Merge v6.8-rc6 into drm-next
 
---===============4982613402244177603==--
+--===============1190099760025933675==--
