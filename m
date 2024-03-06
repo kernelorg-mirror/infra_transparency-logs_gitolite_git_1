@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7440782801196278089=="
+Content-Type: multipart/mixed; boundary="===============4992181592112144833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 06 Mar 2024 23:19:49 -0000
-Message-Id: <170976718967.2845.14109956789881323879@gitolite.kernel.org>
+Date: Wed, 06 Mar 2024 23:20:49 -0000
+Message-Id: <170976724996.4870.16422189697973623835@gitolite.kernel.org>
 
---===============7440782801196278089==
+--===============4992181592112144833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: dfd646d117b7d426c26c85ba2d37f7e9fcbc9362
     new: e63985ecd22681c7f5975f2e8637187a326b6791
     log: revlist-dfd646d117b7-e63985ecd226.txt
 
---===============7440782801196278089==
+--===============4992181592112144833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ bd70a8fb7ca4fcb078086f4d96b048aaf1aa4786 bpf: Allow all printable characters in 
 516fca5a7516cde7a9968f84179ed20ffb438885 Merge branch 'libbpf-type-suffixes-and-autocreate-flag-for-struct_ops-maps'
 e63985ecd22681c7f5975f2e8637187a326b6791 bpf, riscv64/cfi: Support kCFI + BPF on riscv64
 
---===============7440782801196278089==--
+--===============4992181592112144833==--
