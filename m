@@ -1,30 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 06 Mar 2024 10:30:30 -0000
-Message-Id: <170972103031.25728.14042088530491870671@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5886234273310530697=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 06 Mar 2024 10:49:10 -0000
+Message-Id: <170972215080.5979.1288979694376824254@gitolite.kernel.org>
+
+--===============5886234273310530697==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 784ee615af7cfd85e62960da1d75c05df57c5a55
-    new: dbb0b6ca7d039e089bbf20992c2e9b63e37798ef
+  - ref: refs/heads/review-ilpo
+    old: d22168db08c4c8e6c5e25fa3570f50f0f2ff1ef1
+    new: f46d250d86236e8135e9fac58ec9510a6bc153b7
     log: |
-         5dc283fa5cf72011248b00e1036b17876e4f5a40 idpf: add idpf_virtchnl.h
-         34c21fa894a1af6166f4284c81d1dc21efed8f38 idpf: implement virtchnl transaction manager
-         8c49e68f542f6a3bf800103ead26df61ceaa18c3 idpf: refactor vport virtchnl messages
-         52361a06d3f2995f6cdbe35792ed1514067871d6 idpf: refactor queue related virtchnl messages
-         43b67308df98ac58055c6a3126427a76d7802e1a idpf: refactor remaining virtchnl messages
-         41252855df77a9bef119489b66671e317efb5a7e idpf: add async_handler for MAC filter messages
-         e54232da12388a45ba4c30de4f6eab4bbc71994f idpf: refactor idpf_recv_mb_msg
-         bcbedf253e918bcba8df999d300c3336e96fabff idpf: cleanup virtchnl cruft
-         14696ed173af247a2d80b779c2f0cb08c94dfb4d idpf: prevent deinit uninitialized virtchnl core
-         4f5126a075c415044d36e9e6948a8a3a43e97ad0 idpf: fix minor controlq issues
-         6009e63c57c9cee216c5f8d415a2f88353abc0a4 idpf: remove dealloc vector msg err in idpf_intr_rel
-         dbb0b6ca7d039e089bbf20992c2e9b63e37798ef Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+         98cfcece0ab86c99bc106633d764fb6ad4a35b8e platform/x86/amd/pmf: Fix return value of amd_pmf_start_policy_engine()
+         379a7c64c4fa33315b504ede86a87188dc88fef4 platform/x86/amd/pmf: Do not use readl() for policy buffer access
+         a87d92223084f61d37da4952ad68634ea8a7caaf platform/x86/amd/pmf: Use struct for cookie header
+         1e7a14ee259e2ff85be51bf36a7692b20233159a platform/x86/amd/pmf: Fix possible out-of-bound memory accesses
+         a6942796834d2aacfbec04a6604b6799a2a0d4be platform/x86: intel_scu_wdt: Remove unused intel-mid.h
+         f46d250d86236e8135e9fac58ec9510a6bc153b7 platform/x86: intel_scu_pcidrv: Remove unused intel-mid.h
          
+
+--===============5886234273310530697==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1709722146 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1709722146-81e98aa01fbd1cfe6d5383db17ec05b92845b882
+
+d22168db08c4c8e6c5e25fa3570f50f0f2ff1ef1 f46d250d86236e8135e9fac58ec9510a6bc153b7 refs/heads/review-ilpo
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZehKGgAKCRBZrE9hU+XO
+MWabAQC+pQIDBOq/ApDZFiPXjXdDdUXD0H4Nu4vRRXkPlZVc1wD/Ui1D6fMF5x/t
+ctOkWbngfDgJS4wkH2RUbg+VV/iAGAk=
+=RRcQ
+-----END PGP SIGNATURE-----
+
+--===============5886234273310530697==--
