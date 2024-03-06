@@ -1,78 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============3447979656039257717=="
+Content-Type: multipart/mixed; boundary="===============1794196083024715429=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 06 Mar 2024 08:45:56 -0000
-Message-Id: <170971475645.21339.8078937356325795180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Wed, 06 Mar 2024 08:48:16 -0000
+Message-Id: <170971489609.22232.13633184840119012432@gitolite.kernel.org>
 
---===============3447979656039257717==
+--===============1794196083024715429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: d47dd323bf959dbf5f3e7f83373c8ed5f3bec9c0
-    new: 801410b26a0e8b8a16f7915b2b55c9528b69ca87
-    log: revlist-d47dd323bf95-801410b26a0e.txt
+  - ref: refs/heads/master
+    old: 90d35da658da8cff0d4ecbb5113f5fac9d00eb72
+    new: 5847c9777c303a792202c609bd761dceb60f4eed
+    log: revlist-90d35da658da-5847c9777c30.txt
 
---===============3447979656039257717==
+--===============1794196083024715429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709714754 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1709714755-a885125f0822343bc44e5b7e15406f56433a6582
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709714894 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1709714894-9771b77f67ae3fcbdaf65880bc471636f43d49df
 
-d47dd323bf959dbf5f3e7f83373c8ed5f3bec9c0 801410b26a0e8b8a16f7915b2b55c9528b69ca87 refs/heads/tty-next
+90d35da658da8cff0d4ecbb5113f5fac9d00eb72 5847c9777c303a792202c609bd761dceb60f4eed refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXoLUIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HlgP/28kaWZMPk/TKR5uXlWi
-WQQtj/4VJrlMmJnzf8mNL7qRrAQuzJ9e7EWTmLK17Aav2cTLO/LrNEolHJbhl5tA
-xyG/ifYNCZYhhKw8Udtu+ZDboZ4RB439pDQBngLNmaLoXjOOLPXFcGyHGdCjEs+u
-wsu6KfUdNJeNdeNpFchcC1Gxu5BY2+L4wDWsgY110VOyukT/J90oU9KfkXTJV8M7
-tD8SZ7gZHZ9L6ulXhMD2+xy379KdyiukUJCnfgsu7EZmBZJ6aC4wD6LkVOirJpus
-LS8aZ6JiAmG4tY/WVxIXDmGJOAHyqqZrChC1+fIw+0mSvJoZtpQEq9W+FbTI5IP8
-+svepsbde3FhI/IEzAvhgYbyEwSdbibvBkcSlvLNQWlgGuNFF0jrnh2IkqYeg83A
-2mbG4+FSph5wjPGmSPrNWuZ4dA0rjc5OPK/32b2IDK5k5fKp4XLQzOTq3XC4qeDW
-MMSAT6HXXyhm/HtmaEjPm5t3yChWtHjmyxFZWPzWKoMNJTAk0jVqREfBsMjZNUqi
-kFJtMbevkkcEZ+lS4c6bgYk9KAS2BYmlQrG1rwwEtTAt3/RJl8+M+xKYashXWOgL
-yxRGg4oiLLDgXV6xHy6hvjyAIDJCmg1uzPiDugRHKP2KSp0W8UG32D1qbVwcTk5e
-0QHEMh93URr4uhBG6KD1YGmH
-=udhX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXoLc4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z1sQAIJ97WaySWelu75N0vSu
+55mKofiyrojrvtT+tx7hm/NLEXNLsiDBC7EGUAKnK03KULu1YYB2iA8l9wchvbu3
+eDrEJyeFniMZjuGqcj51IAbsQnwIFJaMcxNY8Obnwh5paWzXBB7/NzIjZo/nMoGh
+7ORFr8WdW+ClRjc0UFuADDfwk6xbAJbuIcbii11RdYFoksRCBmfPvxxSkHvlJbiU
+pYc544/d+nvA2jFBvnnzEEler7Z2nHcirOC0vBiFjCZZswRk8Zxn4b417CXzke9Q
+NYEvC9nvXFoJ45jB+dJqn4dPdv9WnjHhRsk14DE7PnlkdbeaCWyHnGgwnivPD5bh
+CV2o800PxjrC9W7FUGmAFDrg4YMnCdpULCdWymbz9MoCd7K0Vgx3Lxw5cK4P0g9B
+FRi/S/f3a9CQ7O+sJW33ZtoWFC2ljbofQABAzNz9cC6JTYuLaW2GhuXHUdJL0DtE
+XrzzE1gH/7uJTdK7JxuFwn1/BEbiwi5++wWWSNKFaiuVcT3350JuzhRervydYJQ4
+OLjUtTFN7XU1rozyj9N0CGS0OS5JFOb2es/RV1ODGZlBoMAEUUsYrtgA9jMTBKmM
+a9bAvCySLRan6dF1EuShlRJ3KH5fijvV6rm8jhk0pUwAldov8UCa4Iy8ewmdrB0E
+UGKRBcwSsUjyYf7GXK+c5a+W
+=D2g+
 -----END PGP SIGNATURE-----
 
---===============3447979656039257717==
+--===============1794196083024715429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d47dd323bf95-801410b26a0e.txt
+Content-Disposition: attachment; filename=revlist-90d35da658da-5847c9777c30.txt
 
-7bfb915a597a301abb892f620fe5c283a9fdbd77 serial: core: only stop transmit when HW fifo is empty
-6deab51402b129abea0e2f0a5e2ce27c06918973 serial: sh-sci: Call sci_serial_{in,out}() directly
-35c822a34b2293aedf475238c395e75858d1e8c8 serial: core: Move struct uart_port::quirks closer to possible values
-79d713baf63c8f23cc58b304c40be33d64a12aaf serial: core: Add UPIO_UNKNOWN constant for unknown port type
-e894b6005dce0ed621b2788d6a249708fb6f95f9 serial: port: Introduce a common helper to read properties
-dcdc7e09cfe31aa402f9b827a9c76ef7b9374859 serial: 8250_aspeed_vuart: Switch to use uart_read_port_properties()
-eb687309136b9f4abcc081630ee31a139c54c400 serial: 8250_bcm2835aux: Switch to use uart_read_port_properties()
-573d97545c2ec53ab5c7c5870287e81eff0d6d00 serial: 8250_bcm7271: Switch to use uart_read_port_properties()
-e6a46d073e11baba785245860c9f51adbbb8b68d serial: 8250_dw: Switch to use uart_read_port_properties()
-d6bd42f2c2a8f26d49516dd055420f0d6743b8c7 serial: 8250_ingenic: Switch to use uart_read_port_properties()
-0087b9e694ee01c61fa4e954198293fff172496d serial: 8250_lpc18xx: Switch to use uart_read_port_properties()
-1117a6fdc7c14d6fa336cf135e81e716d20d11c1 serial: 8250_of: Switch to use uart_read_port_properties()
-664f5d035f456af4aabad981db1cbd9cb7956888 serial: 8250_omap: Switch to use uart_read_port_properties()
-cc6628f07e0d994f92f04cd71755a3bf95667a14 serial: 8250_pxa: Switch to use uart_read_port_properties()
-266bc29dad6a74951bd23260ea5da89964898808 serial: 8250_tegra: Switch to use uart_read_port_properties()
-26e8349c0d7624322e2daf9f062bc0338919a952 serial: 8250_uniphier: Switch to use uart_read_port_properties()
-801410b26a0e8b8a16f7915b2b55c9528b69ca87 serial: Lock console when calling into driver before registration
+85445b96429057d87446bcb24ec0cac9ea9c7fdf integrity: eliminate unnecessary "Problem loading X.509 certificate" msg
+66f40b926dd249f74334a22162c09e7ec1ec5b07 cgroup/cpuset: Fix a memory leak in update_exclusive_cpumask()
+25125a4762835d62ba1e540c1351d447fc1f6c7c cgroup/cpuset: Fix retval in update_cpumask()
+adf47524b56a791734ae24da8412c6579e2fab4f hv_utils: Allow implicit ICTIMESYNCFLAG_SYNC
+b8209544296edbd1af186e2ea9c648642c37b18c Drivers: hv: vmbus: Calculate ring buffer size for more efficient use of memory
+20ee2ae8c58990ca9e98954b7ac2b66c53a0310e fbdev/hyperv_fb: Fix logic error for Gen2 VMs in hvfb_getmem()
+8db0edc4acb1c654e4c115a3978fb2681c5bfb74 Drivers: hv: vmbus: Remove duplication and cleanup code in create_gpadl_header()
+9645e74414fb725b0305f4f03035b68207659007 Drivers: hv: vmbus: Update indentation in create_gpadl_header()
+04ed680e76b0d320612601cef46cb7092f860b31 Documentation: hyperv: Add overview of PCI pass-thru device support
+9fef276f9f416a1e85eb48d3bd38e6018a220bf5 x86/hyperv: Use slow_virt_to_phys() in page transition hypervisor callback
+030ad7af94371f1faeecfc12dda296d8b5a17ef8 x86/mm: Regularize set_memory_p() parameters and make non-static
+0f34d11234868dc979730a905717c15067a7d205 x86/hyperv: Make encrypted/decrypted changes safe for load_unaligned_zeropad()
+0d63e4c0ebc2b5c329babde44fd61d3f08db814d x86/hyperv: Allow 15-bit APIC IDs for VTL platforms
+aa707b615ce1551c25c5a3500cca2cf620e36b12 Drivers: hv: vmbus: make hv_bus const
+aec7d25b497ce4a8d044e9496de0aa433f7f8f06 platform/x86: p2sb: On Goldmont only cache P2SB and SPI devfn BAR
+0314cebb29be2f961abb37bd0b01cb16899868f2 platform/x86/amd/pmf: Fix missing error code in amd_pmf_init_smart_pc()
+1c46d04a0dae3fcb8d6505de0091499b626cdb35 Merge tag 'hyperv-fixes-signed-20240303' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+127ec4c0b2ac4821e8de17b9a3d0c0af883770d2 Merge tag 'platform-drivers-x86-v6.8-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+29cd507cbec282e13dcf8f38072a100af96b2bb7 Merge tag 'integrity-v6.8-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
+5847c9777c303a792202c609bd761dceb60f4eed Merge tag 'cgroup-for-6.8-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 
---===============3447979656039257717==--
+--===============1794196083024715429==--
