@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 06 Mar 2024 16:43:43 -0000
-Message-Id: <170974342393.31754.7995860939102109954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Wed, 06 Mar 2024 16:43:58 -0000
+Message-Id: <170974343802.31885.16740502702539629418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/tags/v4.12.12
-    old: 5ebfbce6f4d2730263c73c149d5b8fe2856812a8
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/counter-next
+    old: 3bb282ef1149a08a94bc5321b758825bc99c84c0
+    new: 0e313270e0e91e8d48be7a58e1622228cf9e53f3
+    log: |
+         0e313270e0e91e8d48be7a58e1622228cf9e53f3 counter: Introduce the COUNTER_COMP_FREQUENCY() macro
+         
