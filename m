@@ -1,81 +1,120 @@
-Content-Type: multipart/mixed; boundary="===============1794196083024715429=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 06 Mar 2024 08:48:16 -0000
-Message-Id: <170971489609.22232.13633184840119012432@gitolite.kernel.org>
-
---===============1794196083024715429==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Wed, 06 Mar 2024 08:54:13 -0000
+Message-Id: <170971525388.4887.8834275611984609597@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
+  - ref: refs/heads/main
+    old: 9d38ea70e2b11ba8208a7038b0d5223e4d1a62e0
+    new: 6525b40a7bec47ad0c2f1b3783977248fa24d261
+    log: |
+         33b9a51fa8a1a168446f1caeb8099e198bed963a Fix regression in LUKS1 decryption.
+         201a4b7d8b2856adbe39b0aa245eb94b437fb41d Add regression test for resuming LUKS1 decryption.
+         41755b71b6a654e0020bab07362e83668bebc46e Set devel version.
+         8d6fc937da261cf2adae326a5f5f87c74aea2b7e po: update cs.po (from translationproject.org)
+         eccd46206d5f46f2e976a9e887984b824bed740f po: update de.po (from translationproject.org)
+         5eb9c8b27a296b9a947af14576843f9871a1982b po: update fr.po (from translationproject.org)
+         5ec40f98acf2a94331767eca3512332b24a454f9 po: update ja.po (from translationproject.org)
+         accc9c0ee95a06d87e0d3a9a1ddf4dfc78a668ef po: update pl.po (from translationproject.org)
+         31573693a031c9fee21977c640bee74d84797c00 po: update ro.po (from translationproject.org)
+         6525b40a7bec47ad0c2f1b3783977248fa24d261 po: update uk.po (from translationproject.org)
+         
   - ref: refs/heads/master
-    old: 90d35da658da8cff0d4ecbb5113f5fac9d00eb72
-    new: 5847c9777c303a792202c609bd761dceb60f4eed
-    log: revlist-90d35da658da-5847c9777c30.txt
-
---===============1794196083024715429==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709714894 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1709714894-9771b77f67ae3fcbdaf65880bc471636f43d49df
-
-90d35da658da8cff0d4ecbb5113f5fac9d00eb72 5847c9777c303a792202c609bd761dceb60f4eed refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXoLc4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z1sQAIJ97WaySWelu75N0vSu
-55mKofiyrojrvtT+tx7hm/NLEXNLsiDBC7EGUAKnK03KULu1YYB2iA8l9wchvbu3
-eDrEJyeFniMZjuGqcj51IAbsQnwIFJaMcxNY8Obnwh5paWzXBB7/NzIjZo/nMoGh
-7ORFr8WdW+ClRjc0UFuADDfwk6xbAJbuIcbii11RdYFoksRCBmfPvxxSkHvlJbiU
-pYc544/d+nvA2jFBvnnzEEler7Z2nHcirOC0vBiFjCZZswRk8Zxn4b417CXzke9Q
-NYEvC9nvXFoJ45jB+dJqn4dPdv9WnjHhRsk14DE7PnlkdbeaCWyHnGgwnivPD5bh
-CV2o800PxjrC9W7FUGmAFDrg4YMnCdpULCdWymbz9MoCd7K0Vgx3Lxw5cK4P0g9B
-FRi/S/f3a9CQ7O+sJW33ZtoWFC2ljbofQABAzNz9cC6JTYuLaW2GhuXHUdJL0DtE
-XrzzE1gH/7uJTdK7JxuFwn1/BEbiwi5++wWWSNKFaiuVcT3350JuzhRervydYJQ4
-OLjUtTFN7XU1rozyj9N0CGS0OS5JFOb2es/RV1ODGZlBoMAEUUsYrtgA9jMTBKmM
-a9bAvCySLRan6dF1EuShlRJ3KH5fijvV6rm8jhk0pUwAldov8UCa4Iy8ewmdrB0E
-UGKRBcwSsUjyYf7GXK+c5a+W
-=D2g+
------END PGP SIGNATURE-----
-
---===============1794196083024715429==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90d35da658da-5847c9777c30.txt
-
-85445b96429057d87446bcb24ec0cac9ea9c7fdf integrity: eliminate unnecessary "Problem loading X.509 certificate" msg
-66f40b926dd249f74334a22162c09e7ec1ec5b07 cgroup/cpuset: Fix a memory leak in update_exclusive_cpumask()
-25125a4762835d62ba1e540c1351d447fc1f6c7c cgroup/cpuset: Fix retval in update_cpumask()
-adf47524b56a791734ae24da8412c6579e2fab4f hv_utils: Allow implicit ICTIMESYNCFLAG_SYNC
-b8209544296edbd1af186e2ea9c648642c37b18c Drivers: hv: vmbus: Calculate ring buffer size for more efficient use of memory
-20ee2ae8c58990ca9e98954b7ac2b66c53a0310e fbdev/hyperv_fb: Fix logic error for Gen2 VMs in hvfb_getmem()
-8db0edc4acb1c654e4c115a3978fb2681c5bfb74 Drivers: hv: vmbus: Remove duplication and cleanup code in create_gpadl_header()
-9645e74414fb725b0305f4f03035b68207659007 Drivers: hv: vmbus: Update indentation in create_gpadl_header()
-04ed680e76b0d320612601cef46cb7092f860b31 Documentation: hyperv: Add overview of PCI pass-thru device support
-9fef276f9f416a1e85eb48d3bd38e6018a220bf5 x86/hyperv: Use slow_virt_to_phys() in page transition hypervisor callback
-030ad7af94371f1faeecfc12dda296d8b5a17ef8 x86/mm: Regularize set_memory_p() parameters and make non-static
-0f34d11234868dc979730a905717c15067a7d205 x86/hyperv: Make encrypted/decrypted changes safe for load_unaligned_zeropad()
-0d63e4c0ebc2b5c329babde44fd61d3f08db814d x86/hyperv: Allow 15-bit APIC IDs for VTL platforms
-aa707b615ce1551c25c5a3500cca2cf620e36b12 Drivers: hv: vmbus: make hv_bus const
-aec7d25b497ce4a8d044e9496de0aa433f7f8f06 platform/x86: p2sb: On Goldmont only cache P2SB and SPI devfn BAR
-0314cebb29be2f961abb37bd0b01cb16899868f2 platform/x86/amd/pmf: Fix missing error code in amd_pmf_init_smart_pc()
-1c46d04a0dae3fcb8d6505de0091499b626cdb35 Merge tag 'hyperv-fixes-signed-20240303' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-127ec4c0b2ac4821e8de17b9a3d0c0af883770d2 Merge tag 'platform-drivers-x86-v6.8-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-29cd507cbec282e13dcf8f38072a100af96b2bb7 Merge tag 'integrity-v6.8-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
-5847c9777c303a792202c609bd761dceb60f4eed Merge tag 'cgroup-for-6.8-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-
---===============1794196083024715429==--
+    old: 9d38ea70e2b11ba8208a7038b0d5223e4d1a62e0
+    new: 6525b40a7bec47ad0c2f1b3783977248fa24d261
+    log: |
+         33b9a51fa8a1a168446f1caeb8099e198bed963a Fix regression in LUKS1 decryption.
+         201a4b7d8b2856adbe39b0aa245eb94b437fb41d Add regression test for resuming LUKS1 decryption.
+         41755b71b6a654e0020bab07362e83668bebc46e Set devel version.
+         8d6fc937da261cf2adae326a5f5f87c74aea2b7e po: update cs.po (from translationproject.org)
+         eccd46206d5f46f2e976a9e887984b824bed740f po: update de.po (from translationproject.org)
+         5eb9c8b27a296b9a947af14576843f9871a1982b po: update fr.po (from translationproject.org)
+         5ec40f98acf2a94331767eca3512332b24a454f9 po: update ja.po (from translationproject.org)
+         accc9c0ee95a06d87e0d3a9a1ddf4dfc78a668ef po: update pl.po (from translationproject.org)
+         31573693a031c9fee21977c640bee74d84797c00 po: update ro.po (from translationproject.org)
+         6525b40a7bec47ad0c2f1b3783977248fa24d261 po: update uk.po (from translationproject.org)
+         
+  - ref: refs/heads/v2.7.x
+    old: bbdf692104017087deb1d618b6b748a510783210
+    new: 5d6bcc2c3bc6ea4f240f3717b321ef7cb4a7ebcf
+    log: |
+         25e3adab7e417004d83d0b2c037233ba702dfb88 Fix regression in LUKS1 decryption.
+         5c3dba86884989b2bb14ecbab0ff086f08b9cded Add regression test for resuming LUKS1 decryption.
+         004419e1d64b0e99663b97cd743466d0686b4f1b po: update cs.po (from translationproject.org)
+         2f72f227b5f7dec78671ff1c2ba900be8aa31b97 po: update de.po (from translationproject.org)
+         cb59aeb85ae16bb14941cb353de25dd7ccef64d5 po: update fr.po (from translationproject.org)
+         f8b4931bb142867c3402ba83cd230690b94a5e21 po: update ja.po (from translationproject.org)
+         60274f1fcf091852190901899fe1fc40a6efc02f po: update pl.po (from translationproject.org)
+         05b16f73f9d5c0b62460f3af40217dfaa9143833 po: update ro.po (from translationproject.org)
+         5d6bcc2c3bc6ea4f240f3717b321ef7cb4a7ebcf po: update uk.po (from translationproject.org)
+         
+  - ref: refs/merge-requests/420/merge
+    old: e257a04a30bad39d40d69de3f647833578fa51f5
+    new: d2245908d1f3ce77713a2632746bc41e5fd25cd1
+    log: |
+         5a0208cd06de89de0e628e63afbd68392d76e1dd Allow --link-vk-to-keyring with --test-passphrase option.
+         2cd0be9501af2185d8cba1dd08120ccce3904bc1 Allow all stable branches in GitHub actions.
+         9d38ea70e2b11ba8208a7038b0d5223e4d1a62e0 Require --debug log in bug report issue template.
+         33b9a51fa8a1a168446f1caeb8099e198bed963a Fix regression in LUKS1 decryption.
+         201a4b7d8b2856adbe39b0aa245eb94b437fb41d Add regression test for resuming LUKS1 decryption.
+         d2245908d1f3ce77713a2632746bc41e5fd25cd1 Merge branch 'xchacha20-random' into 'main'
+         
+  - ref: refs/merge-requests/494/head
+    old: 2a2027ee3e6846b17779870fa8bda57d50636968
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/494/merge
+    old: 83b14e92fe906fc675d7a5fb526702306e4593f3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/590/head
+    old: b80c7930c45be997e84d8d56de499f8fa8a3ad1a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/590/merge
+    old: 7024055eedaf0d74c47a23b0a88fc0160eeefdaa
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/604/head
+    old: a6d9dc0a16b8896e9f4148a7761b922567698469
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/604/merge
+    old: b161432b98cb109838ca4f7c6e37d983d8a51eca
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/605/merge
+    old: 143a4c642b9236271038f28fc538e9af41aba6c9
+    new: 14a6c15cee2545963b879506493e35f667dcc719
+    log: |
+         db635c428b0e70dfc734d3c2ea43affad7dd1777 Fix abort triggered by initializing decryption via --active-name.
+         5a0208cd06de89de0e628e63afbd68392d76e1dd Allow --link-vk-to-keyring with --test-passphrase option.
+         2cd0be9501af2185d8cba1dd08120ccce3904bc1 Allow all stable branches in GitHub actions.
+         9d38ea70e2b11ba8208a7038b0d5223e4d1a62e0 Require --debug log in bug report issue template.
+         33b9a51fa8a1a168446f1caeb8099e198bed963a Fix regression in LUKS1 decryption.
+         201a4b7d8b2856adbe39b0aa245eb94b437fb41d Add regression test for resuming LUKS1 decryption.
+         14a6c15cee2545963b879506493e35f667dcc719 Merge branch 'keyring-option' into 'main'
+         
+  - ref: refs/merge-requests/606/head
+    old: 91c1d2202a2f188ffac97d30f4115d24ce24198c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/606/merge
+    old: d332ea2860ed11a238be0fe69ec03e242761b5a1
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/610/merge
+    old: f459a1a58ca7f82de6678d166d2d5454b677f4d8
+    new: 7a85a97489751461a5f24956286aa03db608ab2d
+    log: |
+         db635c428b0e70dfc734d3c2ea43affad7dd1777 Fix abort triggered by initializing decryption via --active-name.
+         5a0208cd06de89de0e628e63afbd68392d76e1dd Allow --link-vk-to-keyring with --test-passphrase option.
+         2cd0be9501af2185d8cba1dd08120ccce3904bc1 Allow all stable branches in GitHub actions.
+         9d38ea70e2b11ba8208a7038b0d5223e4d1a62e0 Require --debug log in bug report issue template.
+         7a85a97489751461a5f24956286aa03db608ab2d Merge branch 'self-contained-keyslot-contexts' into 'main'
+         
+  - ref: refs/merge-requests/616/head
+    old: 0000000000000000000000000000000000000000
+    new: 201a4b7d8b2856adbe39b0aa245eb94b437fb41d
+  - ref: refs/merge-requests/616/merge
+    old: 0000000000000000000000000000000000000000
+    new: c15d7ed77454c60e58f824b9ed06315f6e42e30c
