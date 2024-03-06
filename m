@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7056254772199280100=="
+Content-Type: multipart/mixed; boundary="===============7931635782130501409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 06 Mar 2024 17:12:39 -0000
-Message-Id: <170974515971.22249.16578480062206902404@gitolite.kernel.org>
+Date: Wed, 06 Mar 2024 17:12:59 -0000
+Message-Id: <170974517986.22459.11671343216891467590@gitolite.kernel.org>
 
---===============7056254772199280100==
+--===============7931635782130501409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: 90f821d72e112d5e4e4214a3704935283cc53375
+  - ref: refs/heads/200GbE
+    old: 6009e63c57c9cee216c5f8d415a2f88353abc0a4
     new: eeb78df4063c0b162324a9408ef573b24791871f
-    log: revlist-90f821d72e11-eeb78df4063c.txt
+    log: revlist-6009e63c57c9-eeb78df4063c.txt
 
---===============7056254772199280100==
+--===============7931635782130501409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90f821d72e11-eeb78df4063c.txt
+Content-Disposition: attachment; filename=revlist-6009e63c57c9-eeb78df4063c.txt
 
 0b40cd9b4ecca68d95edd1a2ce688c64db58b095 can: kvaser_usb: Add support for Leaf v3
 9b221ba452aa752a088f88bc40196e8f927b26f3 can: kvaser_pciefd: Add support for Kvaser PCIe 8xCAN
 ef488e47e060eb6d6b08de12a2a9b40ba345c4d0 can: gs_usb: gs_cmd_reset(): use cpu_to_le32() to assign mode
 79f7319908fb568f60b7ddbe0cb9c9d2e714ac87 can: mcp251xfd: __mcp251xfd_get_berr_counter(): use CAN_BUS_OFF_THRESHOLD instead of open coding it
-5dc283fa5cf72011248b00e1036b17876e4f5a40 idpf: add idpf_virtchnl.h
-34c21fa894a1af6166f4284c81d1dc21efed8f38 idpf: implement virtchnl transaction manager
-8c49e68f542f6a3bf800103ead26df61ceaa18c3 idpf: refactor vport virtchnl messages
-52361a06d3f2995f6cdbe35792ed1514067871d6 idpf: refactor queue related virtchnl messages
-43b67308df98ac58055c6a3126427a76d7802e1a idpf: refactor remaining virtchnl messages
-41252855df77a9bef119489b66671e317efb5a7e idpf: add async_handler for MAC filter messages
-e54232da12388a45ba4c30de4f6eab4bbc71994f idpf: refactor idpf_recv_mb_msg
-bcbedf253e918bcba8df999d300c3336e96fabff idpf: cleanup virtchnl cruft
-14696ed173af247a2d80b779c2f0cb08c94dfb4d idpf: prevent deinit uninitialized virtchnl core
-4f5126a075c415044d36e9e6948a8a3a43e97ad0 idpf: fix minor controlq issues
-6009e63c57c9cee216c5f8d415a2f88353abc0a4 idpf: remove dealloc vector msg err in idpf_intr_rel
+a21605993dd5dfd15edfa7f06705ede17b519026 ice: pass VSI pointer into ice_vc_isvalid_q_id
+363f689600dd010703ce6391bcfc729a97d21840 ice: remove unnecessary duplicate checks for VF VSI ID
+11fbb1bfb5bc8c98b2d7db9da332b5e568f4aaab ice: use relative VSI index for VFs instead of PF VSI number
+1cf94cbfc61bac89cddeb075fbc100ebd3aea81b ice: remove vf->lan_vsi_num field
+1260b45dbe2dbc415f3bc1e841c6c098083bcfb8 ice: rename ice_write_* functions to ice_pack_ctx_*
+a45d1bf516c097bb7ae4983d3128ebf139be952c ice: use GENMASK instead of BIT(n) - 1 in pack functions
+979c2c049fbea107ce9f8d31f3ba9dba83ddb0a2 ice: cleanup line splitting for context set functions
+d5926e01e3739542bb047b77f850d7f641eaa7bc ice: do not disable Tx queues twice in ice_down()
+90f821d72e112d5e4e4214a3704935283cc53375 ice: avoid unnecessary devm_ usage
 fb0f02308126736c015afc0cac3c0e8712443299 selftests: net: Correct couple of spelling mistakes
 dcfaf1f758ee74cf059acf6e33faf83f988fad4a selftests/tc-testing: require an up to date iproute2 for blockcast tests
 345a6e2631c1267221b684e110bba03e4c26ece0 tcp: align tcp_sock_write_rx group
@@ -130,4 +128,4 @@ c0111878d45e3bb8779886fbf956b574bac8a3aa tools: ynl: add --dbg-small-recv for ea
 edf7468d9a027f7638e22d1ece65d3497294d787 Merge branch 'ynl-small-recv'
 eeb78df4063c0b162324a9408ef573b24791871f inet: Add getsockopt support for IP_ROUTER_ALERT and IPV6_ROUTER_ALERT
 
---===============7056254772199280100==--
+--===============7931635782130501409==--
