@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3490842159986187472=="
+Content-Type: multipart/mixed; boundary="===============2089538005673299396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 06 Mar 2024 21:29:41 -0000
-Message-Id: <170976058161.16145.10204129904236561964@gitolite.kernel.org>
+Date: Wed, 06 Mar 2024 21:31:52 -0000
+Message-Id: <170976071272.19303.16335907258080671518@gitolite.kernel.org>
 
---===============3490842159986187472==
+--===============2089538005673299396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 1457bc615a8ff06afba252a15480b61dd7cfef60
-    new: df2a0b6dbb9154266c973530435d95cbff887147
+    old: df2a0b6dbb9154266c973530435d95cbff887147
+    new: a2488d17998505267899f2df2c0b0fa74b523c5a
     log: |
-         df2a0b6dbb9154266c973530435d95cbff887147 docs: fix bad indent on heading
+         a2488d17998505267899f2df2c0b0fa74b523c5a Fix list address in .b4-config
          
 
---===============3490842159986187472==
+--===============2089538005673299396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1709760580 -0500
+pusher B6C41CE35664996C! 1709760711 -0500
 pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1709760580-12c40441fa8427479820a95bfaadacffb443afb9
+nonce 1709760711-c7b8aa1aa4393318ab3e6743573d4db376b12d6b
 
-1457bc615a8ff06afba252a15480b61dd7cfef60 df2a0b6dbb9154266c973530435d95cbff887147 refs/heads/master
+df2a0b6dbb9154266c973530435d95cbff887147 a2488d17998505267899f2df2c0b0fa74b523c5a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZejgRAAKCRC2xBzjVmSZ
-bOYDAQDkGLsz0sY1tmqfJwdFXsD/vK9VnIlCKKcbhGvYl/exiwD/eNFnAjcfnfhc
-9cO6eHd8i8JAZCOgdOAbqixT2g/xWgE=
-=9wBu
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZejgxwAKCRC2xBzjVmSZ
+bCzdAQDFTjB+lbMsD6fHE6MyQNRhChXCYCCRB4GQMs6Ye4/tOAEA38qsRybT7aA+
+9ITx9hcYiXHCSXpHcg+2cuiOmbSbKAs=
+=UrnG
 -----END PGP SIGNATURE-----
 
---===============3490842159986187472==--
+--===============2089538005673299396==--
