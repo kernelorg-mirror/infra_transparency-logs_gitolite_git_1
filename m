@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 06 Mar 2024 16:32:53 -0000
-Message-Id: <170974277314.20362.2330224501022875932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Wed, 06 Mar 2024 16:32:57 -0000
+Message-Id: <170974277789.20441.9240838110955191867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/shuah/linux
+user: shuah
 changes:
-  - ref: refs/tags/v4.9.59
-    old: dcc860c82d3dabbbf8a9893cd135e29d2e6853d3
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/cpupower
+    old: babb46746cc5683fc930fea7d0ef6d5323d6a6cd
+    new: a114d9f1f2cf4896d838ab0a9c30a75411736829
+    log: |
+         a114d9f1f2cf4896d838ab0a9c30a75411736829 Fix cpupower-frequency-info.1 man page typo
+         
