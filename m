@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 06 Mar 2024 17:24:16 -0000
-Message-Id: <170974585639.29885.18071675705167474562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Wed, 06 Mar 2024 17:25:12 -0000
+Message-Id: <170974591216.31806.3342524046245905399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/dm-6.9
-    old: fa34e5893ff2d5b0174c124a29e1be6d0426a169
-    new: f30e5ed1306be8a900b33317bc429dd3794d81a1
+  - ref: refs/heads/for_next
+    old: a98deefd34f1e79b716178fe74cf83cee942f67b
+    new: f4f47fac9759c48f0cb2619df4f1172032c81ffa
     log: |
-         f30e5ed1306be8a900b33317bc429dd3794d81a1 dm-integrity: set max_integrity_segments in dm_integrity_io_hints
+         3440e7e55ced4bf5bc338c48e5418b45ff408ffe fanotify: allow freeze when waiting response for permission events
+         f4f47fac9759c48f0cb2619df4f1172032c81ffa Pull fix to allow freezing of task waiting for fanotify event response.
          
