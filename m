@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7757643550722124937=="
+Content-Type: multipart/mixed; boundary="===============0967991049180347858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 06 Mar 2024 17:11:54 -0000
-Message-Id: <170974511427.21565.9047780694118460834@gitolite.kernel.org>
+Date: Wed, 06 Mar 2024 17:12:15 -0000
+Message-Id: <170974513523.21774.17106157141759869868@gitolite.kernel.org>
 
---===============7757643550722124937==
+--===============0967991049180347858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 00af2aa93b76b1bade471ad0d0525d4d29ca5cc0
     new: eeb78df4063c0b162324a9408ef573b24791871f
     log: revlist-00af2aa93b76-eeb78df4063c.txt
 
---===============7757643550722124937==
+--===============0967991049180347858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -101,4 +101,4 @@ c0111878d45e3bb8779886fbf956b574bac8a3aa tools: ynl: add --dbg-small-recv for ea
 edf7468d9a027f7638e22d1ece65d3497294d787 Merge branch 'ynl-small-recv'
 eeb78df4063c0b162324a9408ef573b24791871f inet: Add getsockopt support for IP_ROUTER_ALERT and IPV6_ROUTER_ALERT
 
---===============7757643550722124937==--
+--===============0967991049180347858==--
