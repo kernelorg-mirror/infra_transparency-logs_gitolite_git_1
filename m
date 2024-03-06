@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3285696447184062685=="
+Content-Type: multipart/mixed; boundary="===============3767259000446859066=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 06 Mar 2024 16:59:56 -0000
-Message-Id: <170974439660.11077.14889965569524425656@gitolite.kernel.org>
+Date: Wed, 06 Mar 2024 17:11:05 -0000
+Message-Id: <170974506508.21184.16574179033407778308@gitolite.kernel.org>
 
---===============3285696447184062685==
+--===============3767259000446859066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 00af2aa93b76b1bade471ad0d0525d4d29ca5cc0
-    new: eeb78df4063c0b162324a9408ef573b24791871f
-    log: revlist-00af2aa93b76-eeb78df4063c.txt
+  - ref: refs/heads/dev-queue
+    old: 18839349ec33dabdd7c66e600bfa4e441dd194cf
+    new: 99ada973f3634f7601fdfc3c3f2afcf1935338af
+    log: revlist-18839349ec33-99ada973f363.txt
 
---===============3285696447184062685==
+--===============3767259000446859066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-00af2aa93b76-eeb78df4063c.txt
+Content-Disposition: attachment; filename=revlist-18839349ec33-99ada973f363.txt
 
 5dc283fa5cf72011248b00e1036b17876e4f5a40 idpf: add idpf_virtchnl.h
 34c21fa894a1af6166f4284c81d1dc21efed8f38 idpf: implement virtchnl transaction manager
@@ -100,5 +100,40 @@ a6a41521f95e5263a52ac79c02167a59ccc7183b tools: ynl: support debug printing mess
 c0111878d45e3bb8779886fbf956b574bac8a3aa tools: ynl: add --dbg-small-recv for easier kernel testing
 edf7468d9a027f7638e22d1ece65d3497294d787 Merge branch 'ynl-small-recv'
 eeb78df4063c0b162324a9408ef573b24791871f inet: Add getsockopt support for IP_ROUTER_ALERT and IPV6_ROUTER_ALERT
+4ffcafae0aae3bd19b0451e3dce8afb1d3d30166 dpll: move all dpll<>netdev helpers to dpll code
+2f47d54155a39992954f6fded5413b14c5b1e709 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+fb4bacdffa16cdc92c0eda6da1174393e196d879 ice: virtchnl: stop pretending to support RSS over AQ or registers
+6ecc9872babd7e95e8a00306b6beed16b0221ffb ice: Refactor FW data type and fix bitmap casting issue
+60ffa19f6b09f4b5d6c38f5b066beacb15b341f6 idpf: disable local BH when scheduling napi for marker packets
+bdbb9be6b17d819dce78cb522dbc5dd8a6c655da ice: Add switch recipe reusing feature
+436b5b3b5932eef6bbdf281c30f5663f05f3774c igc: Refactor runtime power management flow
+ceb18119a4234175ad84b91d43b74c2b1896f481 ethtool: Add GTP RSS hash options to ethtool.h
+7756ca44f8587d85ad6dd19bbce5b7f3b1e3f6ce ice: Implement RSS settings for GTP using ethtool
+40b754e5bf253842b2de402cd12024ef52351b4c intel: legacy: Partially revert of field get conversion
+b8cbb414adc270071e71b3312861d96ca6c86e9d igc: avoid returning frame twice in XDP_REDIRECT
+5961cb272bf3a79050a141269189feb4ba092d01 ixgbe: {dis, en}able irqs in ixgbe_txrx_ring_{dis, en}able
+4b97194ecdcdbbcbfe79428f4af52526cbb7f696 i40e: disable NAPI right after disabling irqs when handling xsk_pool
+3d21babaf7ab228a1603d0e232804e0c449f343c ice: reorder disabling IRQ and NAPI in ice_qp_dis
+314e9eefea3ad6bbf4e153b04c50d770540287ea igc: Fix missing time sync events
+012e80b0d4b7eb3c9cd659c5e17cbba133a0601f igb: Fix missing time sync events
+3b83a1cb1ee38b4cd6c8903badfd12992bd86a34 ice: tc: check src_vsi in case of traffic from VF
+efaac50d6362955f06bc52b9dceaca2d9b4a13e1 ice: tc: allow ip_proto matching
+20df0d3abc119cd2a0b55860136fa09b223f0fe2 ice: reconfig host after changing MSI-X on VF
+7174e6878c45e95ec2f86ad26dff460774581f65 ixgbe: pull out stats update to common routines
+35ae5879437275dfbe2ffab7e25ede349dbfb9e1 iavf: drop duplicate iavf_{add|del}_cloud_filter() calls
+4cba2497519d2eff1c52fac964c5ce4ce954e6e0 i40e: remove unnecessary qv_info ptr NULL checks
+a97c8db1b7a023bc8a3158ad9d9e6dccab1b99f7 ice: fix stats being updated by way too large values
+19256ea572fa33bcf21ad31a8a4f5ff7a8ce3648 i40e: Fix firmware version comparison function
+0e1f959b8cf6a6f16effd3c66435734022efd142 ice: fix uninitialized dplls mutex usage
+a4f330b64e93c57627317d48ddf90db5a72f80b0 net: ice: Fix potential NULL pointer dereference in ice_bridge_setlink()
+d5178768d5cdae7fb4f5a034d1a70f136cae7115 ice: remove eswitch changing queues algorithm
+0305ea836194e00633623583104d7499c0205426 ice: do Tx through PF netdev in slow-path
+22e27fa53c7c410744b1107060794088a1b703a7 ice: default Tx rule instead of to queue
+f80ce7ab138b11cd609b1c5ec7a6ad1609074774 ice: control default Tx rule in lag
+375c4f3ca3ee99552719b145391fb21719566d27 ice: remove switchdev control plane VSI
+971627e036599e7a03551c148f929c89317af102 ice: change repr::id values
+9fdc45bca4c61ad3a1dc050ef7df9fde51f87b4b ice: do switchdev slow-path Rx using PF VSI
+610c3b755d9d970ccb0799a948313558129e02a3 ice: count representor stats
+99ada973f3634f7601fdfc3c3f2afcf1935338af ice: fix typo in assignment
 
---===============3285696447184062685==--
+--===============3767259000446859066==--
