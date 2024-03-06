@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 06 Mar 2024 12:08:07 -0000
-Message-Id: <170972688707.32359.10602552247580310788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 06 Mar 2024 12:09:09 -0000
+Message-Id: <170972694956.343.1752844392739569617@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/security/vulns
+user: lee
 changes:
-  - ref: refs/heads/main
-    old: b206acf1ffdc505844e6f7dc26848db068e45221
-    new: edf7468d9a027f7638e22d1ece65d3497294d787
+  - ref: refs/heads/master
+    old: f8fc27a2ba5550580a246f35902fde4ae0725cfe
+    new: a3a279b3c01c726befddd3db52b8f9cf3c223ee7
     log: |
-         7df7231d6a6b68b4b68fb4e38a4639997a208fd2 tools: ynl: move the new line in NlMsg __repr__
-         7c93a88785dae6b61dc736b46594d088989e484b tools: ynl: allow setting recv() size
-         a6a41521f95e5263a52ac79c02167a59ccc7183b tools: ynl: support debug printing messages
-         c0111878d45e3bb8779886fbf956b574bac8a3aa tools: ynl: add --dbg-small-recv for easier kernel testing
-         edf7468d9a027f7638e22d1ece65d3497294d787 Merge branch 'ynl-small-recv'
+         22809cbafbc9e08c739b2e3c88edce9b455c3fae proposed: Provide Lee's annotated versions of sasha-only for v6.7.2
+         98cfaf1cdecc07354527cb940d618a0657785dcb proposed: Simplify annotated files down to one per-user per-release
+         a535e443498157fdf299a9be987f2cd29828f0f9 cve_review: Simplify annotated files down to one per-user per-release
+         adf904d07fcb67ea97a96f8a07d8bdd8c5bc09b6 cve_review: Bomb out if a user attempts to annotate without providing input
+         868c618d3e8f3c6d835e931a3dd0ac8ac5748144 cve_review: Improve parameter checking
+         a3a279b3c01c726befddd3db52b8f9cf3c223ee7 cve_review: Do not write out the quit request as an annotation
          
