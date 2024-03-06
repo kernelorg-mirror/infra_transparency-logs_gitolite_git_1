@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 05 Mar 2024 23:54:20 -0000
-Message-Id: <170968286080.17097.4653360078972844038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Wed, 06 Mar 2024 00:08:42 -0000
+Message-Id: <170968372230.28236.11639073393064601169@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/sched/dlserver.debug.mar3.2024
-    old: 6783cc802cc25b0e2159d2377fb9ca056f6c68ba
-    new: aa77095b3ad308fd7272244e4d5edec0c3925442
+  - ref: refs/heads/riscv-dt-fixes
+    old: 7921e231f85a349d5927b26c812c86e03f4cd37b
+    new: 2672031b20f6681514bef14ddcfe8c62c2757d11
     log: |
-         aa77095b3ad308fd7272244e4d5edec0c3925442 sched/deadline: Do not mark defer_armed if timer not started in replenish
+         2672031b20f6681514bef14ddcfe8c62c2757d11 riscv: dts: Move BUILTIN_DTB_SOURCE to common Kconfig
          
