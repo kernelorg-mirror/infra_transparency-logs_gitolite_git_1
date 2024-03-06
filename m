@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 06 Mar 2024 18:45:29 -0000
-Message-Id: <170975072972.26616.4792972111260374937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 06 Mar 2024 18:46:30 -0000
+Message-Id: <170975079000.27083.10802734350328407504@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: b8c155412cea246830fea954556f94c6d80df210
-    new: a74f509f3a3517ab54b3711a8a05f1332c8f2d00
+  - ref: refs/heads/dev-queue
+    old: 99ada973f3634f7601fdfc3c3f2afcf1935338af
+    new: 71c21da52e40515e50a0e882f328a3a21f43febf
     log: |
-         9c4cab4e6756d09bf7f59a2d48abfaae65657d9e bpf: Introduce may_goto instruction
-         cc570d85e66e5262cb64a0ce85971131e5325d8d bpf: Recognize that two registers are safe when their ranges match
-         7825948e135bdb4dcd9198121bdfaf6bd9e4f0a9 bpf: Add cond_break macro
-         8089b99d46492948ca3943dd4ae5ec4ddd1a102a selftests/bpf: Test may_goto
-         a74f509f3a3517ab54b3711a8a05f1332c8f2d00 Merge branch 'bpf-introduce-may_goto-and-cond_break'
+         71c21da52e40515e50a0e882f328a3a21f43febf e1000e: move force SMBUS from enable ulp function to avoid PHY loss
          
