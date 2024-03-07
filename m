@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 07 Mar 2024 19:01:56 -0000
-Message-Id: <170983811642.16701.8372602243371945439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Thu, 07 Mar 2024 19:03:09 -0000
+Message-Id: <170983818964.17211.2101527497223996955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/heads/main
-    old: e3afe5dd3abea43e056a004df02fb49f24cc5ad7
-    new: 15d2540e0d626b7960c9cafb3c825554fdf1a2b4
+  - ref: refs/heads/master
+    old: 3be345a6292988bc3454ad13fe2432b9b1d28207
+    new: ca452fee753afcd39239d4225d39118c91a81918
     log: |
-         15d2540e0d626b7960c9cafb3c825554fdf1a2b4 tools: ynl: check for overflow of constructed messages
+         ca452fee753afcd39239d4225d39118c91a81918 percpu alloc: add pool name
          
