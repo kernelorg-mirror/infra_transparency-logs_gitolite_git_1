@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6474474909653376610=="
+Content-Type: multipart/mixed; boundary="===============3650827353189427914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Thu, 07 Mar 2024 08:09:15 -0000
-Message-Id: <170979895510.1818.10615067014068342993@gitolite.kernel.org>
+Date: Thu, 07 Mar 2024 08:09:59 -0000
+Message-Id: <170979899989.2191.4828552238040641491@gitolite.kernel.org>
 
---===============6474474909653376610==
+--===============3650827353189427914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
 user: linusw
 changes:
-  - ref: refs/heads/devel
-    old: 52279c3d50d964c646692c42a0db87ef7bb451cc
-    new: 64df5ea971956a9ff8796b55b9f4b85bb5f5435d
-    log: revlist-52279c3d50d9-64df5ea97195.txt
+  - ref: refs/heads/for-next
+    old: 0c7e80b1009b0f25690df6c5db1a362fac7c2ded
+    new: bd3de9defc3eb554978376291e34cfaa2a47d405
+    log: revlist-0c7e80b1009b-bd3de9defc3e.txt
 
---===============6474474909653376610==
+--===============3650827353189427914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52279c3d50d9-64df5ea97195.txt
+Content-Disposition: attachment; filename=revlist-0c7e80b1009b-bd3de9defc3e.txt
 
 62361b38315f1d4ae7b6d5311bb3890d660a133f dt-bindings: gpio: nomadik: convert into yaml format
 a610f544854374cd108dd75e8a0d5473d011fa37 dt-bindings: gpio: nomadik: add optional ngpios property
@@ -56,5 +56,6 @@ caddc92c57451d983c7e31e60b961c5aae4ece63 gpio: nomadik: Finish conversion to use
 5545d5013c0ec96f2a920bdfc681cdd72a570dd8 gpio: nomadik: Back out some managed resources
 a0c807b5b65a73b321a5313662625a85b18a7037 pinctrl: nomadik: fix dereference of error pointer
 64df5ea971956a9ff8796b55b9f4b85bb5f5435d Merge branch 'ib-nomadik-gpio' into devel
+bd3de9defc3eb554978376291e34cfaa2a47d405 Merge branch 'devel' into for-next
 
---===============6474474909653376610==--
+--===============3650827353189427914==--
