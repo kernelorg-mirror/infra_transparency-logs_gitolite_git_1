@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Thu, 07 Mar 2024 13:28:00 -0000
-Message-Id: <170981808058.20670.6293666719133830522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 07 Mar 2024 13:50:04 -0000
+Message-Id: <170981940433.5302.10844954848688357696@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/v2.7.x
-    old: 5d6bcc2c3bc6ea4f240f3717b321ef7cb4a7ebcf
-    new: 2c53e7141572fc8db7ba8fbabc10e11cf345951f
+  - ref: refs/heads/for-6.9/io_uring
+    old: 8ede3db5061bb1fe28e2c9683329aafa89d2b1b4
+    new: 70581dcd0601a09f134f23268e3374e15d736824
     log: |
-         ba7973236b087ea27e14caf66277aab2ac77a419 tests: fix fips mode detection contradiction in various tests.
-         0645219c9d9f259df36cb66fb2a0e118976f1432 tests: move luks1 decryption resume test.
-         d478e09f2e1475402de8142588480401229e96ef tests: fix compat-test-opal bug for empty LUKS2 passphrase.
-         2f0e804fd1b6b3a52a8aa9507c04ec83aea4df4c Add xfs V5 image to tests.
-         2c53e7141572fc8db7ba8fbabc10e11cf345951f test: Fix tests on RHEL7 clones (no keyring in dm-crypt).
+         70581dcd0601a09f134f23268e3374e15d736824 io_uring: fix mshot read defer taskrun cqe posting
+         
+  - ref: refs/heads/for-next
+    old: d33a48500be0b0b2aeb0519b296746fadbefe0e6
+    new: ecb33ca46ac706e6443b97ac975c2e092e048e93
+    log: |
+         70581dcd0601a09f134f23268e3374e15d736824 io_uring: fix mshot read defer taskrun cqe posting
+         ecb33ca46ac706e6443b97ac975c2e092e048e93 Merge branch 'for-6.9/io_uring' into for-next
          
