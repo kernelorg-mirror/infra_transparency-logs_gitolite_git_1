@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0452135666677281873=="
+Content-Type: multipart/mixed; boundary="===============2707075918541001365=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 07 Mar 2024 18:40:12 -0000
-Message-Id: <170983681203.1538.3098625048906479192@gitolite.kernel.org>
+Date: Thu, 07 Mar 2024 18:40:31 -0000
+Message-Id: <170983683149.1749.2943980157958976786@gitolite.kernel.org>
 
---===============0452135666677281873==
+--===============2707075918541001365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: c055fc00c07be1f0df7375ab0036cebd1106ed38
     new: df4793505abd5df399bc6d9a4d8fe81761f557cd
     log: revlist-c055fc00c07b-df4793505abd.txt
 
---===============0452135666677281873==
+--===============2707075918541001365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -272,4 +272,4 @@ d5b8aff73d159b9157db0ad3281a9af3185d59fa Merge tag 'nf-24-03-07' of git://git.ke
 ba18deddd6d502da71fd6b6143c53042271b82bd net: pds_core: Fix possible double free in error handling path
 df4793505abd5df399bc6d9a4d8fe81761f557cd Merge tag 'net-6.8-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0452135666677281873==--
+--===============2707075918541001365==--
