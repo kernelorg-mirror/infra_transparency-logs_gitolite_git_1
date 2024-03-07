@@ -1,25 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 07 Mar 2024 21:50:03 -0000
-Message-Id: <170984820390.15214.10701358390537902120@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3835367003807560585=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 07 Mar 2024 21:51:06 -0000
+Message-Id: <170984826649.15882.18289191984019695085@gitolite.kernel.org>
+
+--===============3835367003807560585==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/io_uring-recvsend-bundle
-    old: d0cb24f9d15258c15eea24e52547bcfbb8a3cd5e
-    new: eeb8f00d04109675d86ca903646f3d9a3f7265f9
+  - ref: refs/heads/char-misc-testing
+    old: 832c17b8b658aa88f237d7025906334cb96bbdcb
+    new: 813f008d4343bd5ecc14790cf98ad24deb7e8d2d
     log: |
-         a8ecdafb02b67da249c397b0b73983c024dd5d4c io_uring/net: add generic multishot retry helper
-         25f3ce4a124c3402ad9676306a400edca673e896 io_uring/net: add provided buffer support for IORING_OP_SEND
-         f28c926d12c3bd5c2bf5d4a6dd418cd924287570 io_uring/kbuf: add helpers for getting/peeking multiple buffers
-         0cba8de37eb70f43b7b1a3d3921396c330aab213 io_uring/net: switch io_send() and io_send_zc() to using io_async_msghdr
-         d743445c0bee6da42759d569da729fcd5734b003 io_uring/net: support bundles for send
-         0dfe2f06c8935a5e64b43f56b84872f9cda11528 io_uring/net: switch io_recv() to using io_async_msghdr
-         eeb8f00d04109675d86ca903646f3d9a3f7265f9 io_uring/net: support bundles for recv
+         adf4e1055522f62e2c23926c9c66d49c70dfcd15 parport: amiga: Convert to platform remove callback returning void
+         813f008d4343bd5ecc14790cf98ad24deb7e8d2d parport: sunbpp: Convert to platform remove callback returning void
          
+
+--===============3835367003807560585==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709848265 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1709848264-8b35600d2fe761f93c3b3c14b2512bae6c3d18b4
+
+832c17b8b658aa88f237d7025906334cb96bbdcb 813f008d4343bd5ecc14790cf98ad24deb7e8d2d refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXqNskbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3TQP/16oBefgeMLIbqXDMale
+teCzyU9rYM7R6c1sys+/UyajT4XJapo9OdiMznj8QeXWpAhblaODBojnzR9QyZu+
+cv3DzuwuQKc3hXrFq6Dq26z6gcrs4GExH2juSTcHhfBXWUk1vhBocSpRJ54m7num
+pmS4GJGSGKBZnjdqTMuF8H99dMSUcoCAkw0CqCrhclezdnh59l5quIuf1yYJ2kYq
+ayVSrNu+f/q0rUub4VqESgfziPkuEaq/cWfp1hlcDO/Ny/CnwSQiHKZB/SYKPrHp
+fZ/SBw6V8ln/HdW1h5jtlYmQ7SRJawaX/qQLlEMS0J+ZPBgRuy9Qscf7phZFz53Z
+3hTwdDRVQX/fLpQY85XeZbB/4/Vi9apI/EaAm2HrSbJ39XcIUdt3o3nGXmaVWIuJ
+5YCMVlnCL3Nnczv9D0kRq1raBevN4hmMM1ff7MgmcQDcjn+CrVzxYe16qR7GtpRq
+F2kxk+skNbsVRy0TIY2B1aRX9zwDoQ5Mn/PeSCAnnOwJGZKGdt0p9BSxwHj3/R1R
+bS26lPRevHT7bfeFz7hbPjQSGbrkpPV5ndehT7u15/MzKcqV2zEseAOhY75OQ/WD
+kHVC4wowLddQsCrd5f8YYyCr2I6kKx8/n9xEVOjsrEuX5kN+mOrjjwDVltDvLYry
+GQFr6IDJiwU1/ppON+PYlBxY
+=6LAe
+-----END PGP SIGNATURE-----
+
+--===============3835367003807560585==--
