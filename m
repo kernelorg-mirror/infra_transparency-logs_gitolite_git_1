@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5271105623512144220=="
+Content-Type: multipart/mixed; boundary="===============0596392592154290852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 07 Mar 2024 21:42:49 -0000
-Message-Id: <170984776910.9277.9894545840583973305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 07 Mar 2024 21:46:18 -0000
+Message-Id: <170984797847.12210.7165529006375615581@gitolite.kernel.org>
 
---===============5271105623512144220==
+--===============0596392592154290852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 664c89c56e854f1a8a8b1968690ba08f7fe843fc
-    new: a13bd6f3c936edff957f2d02cf65c44046cb1243
+  - ref: refs/heads/tty-testing
+    old: 173b097dcc8d74d6e135aed1bad38dbfa21c4d04
+    new: d6c0d892b44cd16e0421909cf7f2883b9e625e4a
     log: |
-         3bd291383c727bfbe6e8d21e2c16776fe9bd7dcf greybus: Remove usage of the deprecated ida_simple_xx() API
-         a13bd6f3c936edff957f2d02cf65c44046cb1243 greybus: move is_gb_* functions out of greybus.h
+         d6c0d892b44cd16e0421909cf7f2883b9e625e4a dt-bindings: serial: stm32: add power-domains property
          
 
---===============5271105623512144220==
+--===============0596392592154290852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709847768 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1709847767-447a319d02ff0f89aa7f35a215fbbe6af020c79f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709847977 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1709847977-ddadb751bae8fac61c130d2d3312a23fb810b4a9
 
-664c89c56e854f1a8a8b1968690ba08f7fe843fc a13bd6f3c936edff957f2d02cf65c44046cb1243 refs/heads/char-misc-testing
+173b097dcc8d74d6e135aed1bad38dbfa21c4d04 d6c0d892b44cd16e0421909cf7f2883b9e625e4a refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXqNNgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9N4QAIOwMav7XItPzil/Wts0
-z5MTueZsUIPWJ+T17zhSlyu/zvha2tfNeGvmiRrtIzScHCh+sm5wF3+LYTDfqtTN
-f8FsjMHynXObXWyE8bBs9Kdb8EJ4psTW3oylHMlyQc2Y6/9uO2V/X3rbAzyKmC/M
-/WqD4tZLjoVmxzbehc9oOZMTovX84mDlsQtdHSSe67lQ2vVVLWTTbI8kr6Ge9or4
-e5jPCeE2B4GqqpEA79jMs19NltNVx5Fwp0ontjUtBfLq6QV4BAiDDmKeYI2ezYUB
-+9CToOttjuYeiJ40m2Aht9oHmO7KM5L+VDRXmEFgdGcEnOxw4wfHTUzDFOeO0T0s
-SYFWaW5xCc7JRdN5Tyuiy89HJQyXbTvCPFlaO8k/NSLJZTNXdM1qeHU/l+E3ZMEE
-waNbOBKQE3+b+wiNq+k6sr34A12DeezH3Hxk3CWyMNyXUPlKRrtuYSKSZDzBYr2s
-ZwqPys7cilXFEdIk7G4o9u+Foruy2T8/WkBq3drAciIsIaKhrZpjRnunK+BNAJSR
-Tp2LOlbfCUhjvrgDC01kZ1MDQ/Af+kvnraaDu5gfjqN01Rikxnvw6xTt50r3Ea/3
-NEGeo5JpctGupj3z52U+rMBO3fxQ0jC+3cXtnYMDh/OQxwj+7oTAZ/I5yjUmk5MV
-tJAodX4tr64KjXvbzF8nldXH
-=n6ZS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXqNakbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/LcQAKw3KHUhbPzd0YbW9wia
+qHo6avFT78QHJOKf8rLucADZ/TvpZZ/pPnBibNhAwKB1qnYY60ucOSDKhJjHc1Pg
+X+Ohvjhb2M06RpSDAPKGrzKIrlYZY6t3W4QEEUVKGuEQ+KCII+2EIUZc7cK9HSLv
+PQDK5PzZwhlYkVskUfwAjGhMa0030bcX1jp+/VS0D8TPNDQ7mVvtvN9BsB/aPnho
+Ew4WrSxkUWgyIHnMBCu/e542meSpcKbz7X94Ngj5qGbf9pn1rzN6VDqeBUSv9EqN
+namRHvMBxxeBUPE6Tu5681qE6ZpZlMtsCJjNYUStolB3uODGFaYzk20JG8dSFZMx
+0S6ZZg5YpEK8sjOnzvAfjTTZ+TpwqhXIeldEvbyYhtXQ3G06+V3/nJfxeE8apKoZ
+00V1KfkiZ8ArvAV4kpf5nqwI66yOxZm4yPufpYWqfKk4mVj5sIylnwIWzmOMaGay
+hlAeUBgwPpOVltWteZNBGDRVA1zOl5bTe6HX9HHnUfXZJC9ND0vP6z+JTC0PLjHM
+rSEseTyzB6wnMyCDTO2c6vWSRWKZl7W3XZJtfbUv9Ih4sO4UoQxEFUtCzoerjv8J
++5gguJ/iera6kiPIEf77SFar4K32KOoTtC6d8t0Ad/nrg4Hu7c6ZSFhwwSR4nMhg
+8VR/ZXCQjG4sE4rKm4W0VwRW
+=CG3A
 -----END PGP SIGNATURE-----
 
---===============5271105623512144220==--
+--===============0596392592154290852==--
