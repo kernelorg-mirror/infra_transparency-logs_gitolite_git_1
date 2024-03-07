@@ -1,59 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4556227189053794000=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 07 Mar 2024 21:54:16 -0000
-Message-Id: <170984845603.17234.12032724105700983807@gitolite.kernel.org>
-
---===============4556227189053794000==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 07 Mar 2024 22:02:00 -0000
+Message-Id: <170984892073.23308.12858763597737520991@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 0e439ba38e615e505404b3935585f1898bafaea9
-    new: 019947805a8d703fbb57d607187ff1148bb267ff
+  - ref: refs/heads/aspm
+    old: 8c4190ac51de441025688442ff659ae8653771e0
+    new: ff92b9348534704e76e6b521ad68cc4249c5d0e5
     log: |
-         576882ef5e7fce030b65c92b508a0f84ea5a81c2 uio: introduce UIO_MEM_DMA_COHERENT type
-         bfe78793b264f9e7a809f755f8ef5cb9bb163827 cnic,bnx2,bnx2x: use UIO_MEM_DMA_COHERENT
-         7722151e4651c973c18df0c18c015edcc7b43b25 uio_pruss: UIO_MEM_DMA_COHERENT conversion
-         019947805a8d703fbb57d607187ff1148bb267ff uio_dmem_genirq: UIO_MEM_DMA_COHERENT conversion
+         fa84f4435a6202dd90248517f41e54bf3fb85bc5 PCI/ASPM: Move pci_configure_ltr() to aspm.c
+         f3994bba8200b49e3eacbe5914cd13f228e0db37 PCI/ASPM: Always build aspm.c
+         1e11b5494c3dbb1e5fce7e95021c1698799c7288 PCI/ASPM: Move pci_save_ltr_state() to aspm.c
+         f0939de62a3a99aa104d17605df4f75dee65e44a PCI/ASPM: Save L1 PM Substates Capability for suspend/resume
+         1b821461db869d4bf1da17b83eca0ead2ad1b3c1 PCI/ASPM: Call pci_save_ltr_state() from pci_save_pcie_state()
+         b67a88b348464f33959e584afe9fc694f6654439 PCI/ASPM: Disable L1 before configuring L1 Substates
+         ff92b9348534704e76e6b521ad68cc4249c5d0e5 PCI/ASPM: Update save_state when configuration changes
          
-
---===============4556227189053794000==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709848454 +0000
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1709848453-085f0e241538fbc871c0e95243f096e4b0510a51
-
-0e439ba38e615e505404b3935585f1898bafaea9 019947805a8d703fbb57d607187ff1148bb267ff refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXqN4YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E4MQALP0RsMt/DNsIqiQBRAP
-gf0Ws/5NqGguQ3/CL3Ip0IUenlytmqeXt21JvV5liKNuHAw+Q0kVF/+LDx4faUCW
-9kof/rIvJyZyp50jircHRZvlnkn3gGIN1u+x83d+PktLRhxvLki16GFxAuxq4YjI
-dlphb4VMenpi9zrxJvozMfpjrwuTo5yk7dAlb7XOczRD6UJ5lTagkbo5Dj/wFyHo
-3XLo54V1G+AHqTpd0dS94So5DnDA6mHKP9AVeMn3SklQuU80smf/8DxvYArI8n3N
-tfL/+iMOk6brCmCVPEBt/aJKS3Qe9aYY5tSPAP13Xp3vM+Oe6bCEQUOUoIoo1xhl
-pcXqwMDw/d50DBBM/Bz9qKgAc/10bXA9NvMk920Nk/SzPoJVG9Cz+p8SqD0gX1Kl
-Lq7e7HyUl4RPXAklsiXKMi6Atz7f5JOtsycRsZ0Zf9urlL3MS3IQydgQ81Ijf9ru
-WtquuKlBepeZ7kY6gYYlOhZHSYCJnRFL4lwCYE+lYa3ESTf5t+H8l3JTkg8DR1IA
-VoG8JjjJu0eBDV2fxbzp+aIdlTPqyIpbKQrl0kYWDGXBezHEc7Lw564tgpfIzA+f
-0XrPTq6hb5cd6Vq8NJDe94d92qEQhhig7tGsM1e/hUMi0yOqqhei2mqnSADOC8gO
-xIUqIKatve8g/Cp3rC+iPhl2
-=MEUF
------END PGP SIGNATURE-----
-
---===============4556227189053794000==--
