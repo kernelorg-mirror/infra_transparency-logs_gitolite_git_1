@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3835367003807560585=="
+Content-Type: multipart/mixed; boundary="===============1140239339806766563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 07 Mar 2024 21:51:06 -0000
-Message-Id: <170984826649.15882.18289191984019695085@gitolite.kernel.org>
+Date: Thu, 07 Mar 2024 21:51:55 -0000
+Message-Id: <170984831587.16247.7840009095198906568@gitolite.kernel.org>
 
---===============3835367003807560585==
+--===============1140239339806766563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 832c17b8b658aa88f237d7025906334cb96bbdcb
-    new: 813f008d4343bd5ecc14790cf98ad24deb7e8d2d
+    old: 813f008d4343bd5ecc14790cf98ad24deb7e8d2d
+    new: e3a59056a655975868863a80fc8c05cb25e3b866
     log: |
-         adf4e1055522f62e2c23926c9c66d49c70dfcd15 parport: amiga: Convert to platform remove callback returning void
-         813f008d4343bd5ecc14790cf98ad24deb7e8d2d parport: sunbpp: Convert to platform remove callback returning void
+         b6c8dafc9d86eb77e502bb018ec4105e8d2fbf78 speakup: Fix 8bit characters from direct synth
+         807977260ae4de1cf39cfc55713fc0bc56566f7a speakup: Add /dev/synthu device
+         e3a59056a655975868863a80fc8c05cb25e3b866 pps: use cflags-y instead of EXTRA_CFLAGS
          
 
---===============3835367003807560585==
+--===============1140239339806766563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709848265 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709848315 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1709848264-8b35600d2fe761f93c3b3c14b2512bae6c3d18b4
+nonce 1709848314-901216472f4bc38d5ae0b9e4f64884dc45a08364
 
-832c17b8b658aa88f237d7025906334cb96bbdcb 813f008d4343bd5ecc14790cf98ad24deb7e8d2d refs/heads/char-misc-testing
+813f008d4343bd5ecc14790cf98ad24deb7e8d2d e3a59056a655975868863a80fc8c05cb25e3b866 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXqNskbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3TQP/16oBefgeMLIbqXDMale
-teCzyU9rYM7R6c1sys+/UyajT4XJapo9OdiMznj8QeXWpAhblaODBojnzR9QyZu+
-cv3DzuwuQKc3hXrFq6Dq26z6gcrs4GExH2juSTcHhfBXWUk1vhBocSpRJ54m7num
-pmS4GJGSGKBZnjdqTMuF8H99dMSUcoCAkw0CqCrhclezdnh59l5quIuf1yYJ2kYq
-ayVSrNu+f/q0rUub4VqESgfziPkuEaq/cWfp1hlcDO/Ny/CnwSQiHKZB/SYKPrHp
-fZ/SBw6V8ln/HdW1h5jtlYmQ7SRJawaX/qQLlEMS0J+ZPBgRuy9Qscf7phZFz53Z
-3hTwdDRVQX/fLpQY85XeZbB/4/Vi9apI/EaAm2HrSbJ39XcIUdt3o3nGXmaVWIuJ
-5YCMVlnCL3Nnczv9D0kRq1raBevN4hmMM1ff7MgmcQDcjn+CrVzxYe16qR7GtpRq
-F2kxk+skNbsVRy0TIY2B1aRX9zwDoQ5Mn/PeSCAnnOwJGZKGdt0p9BSxwHj3/R1R
-bS26lPRevHT7bfeFz7hbPjQSGbrkpPV5ndehT7u15/MzKcqV2zEseAOhY75OQ/WD
-kHVC4wowLddQsCrd5f8YYyCr2I6kKx8/n9xEVOjsrEuX5kN+mOrjjwDVltDvLYry
-GQFr6IDJiwU1/ppON+PYlBxY
-=6LAe
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXqNvsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Va4QALQvbPCg2h55+cXPtvC+
+T47aC0sHLn8RrJtXAGcgX5/Tst3WampO66XKtHkgm4JdRwmMT3IKrkXAhyUmzZpU
+qmOJ1iupVi4KBYhtPPgloYumVj4mo4sFboJeOiut/4n/EwDPhLAyy6wIjGjjY30F
++Hf4A4x0iVt11zUitjfUZcK/M1YtGvvNRi53JmuTTwB8M46rJqBm35eH6m5ZZ2/R
+CWwqx3Hv1aZQ5jbpaM7DNpgSbvkcBttnotwXvE74Qv9VlI8JcmV2HyUn0AW4sHcI
+6tFu+Q0HCsUuG2jhhwMIjrJKHwzKMEC/h9WXSWDI9KszVbe7JXTE/1u7PZDA+Xpy
+TXCWmCWtyt4leJdTj5A0uPxZVs3X+W1Ahz/7aNWpXIl4iVSgy0m9N+QJPX3n5DmI
+GmtKMYPHtS1W3s70MeMSDWkSOgbfYumkgViMkcRlqCRa0JKDqA4+fc8X43ob9N7C
+GxthfzLSw8R2mFG/rMFHSKTYGdhy7piem40JVIPtKzz/qwrFZMuf3t1aB1OWyUfb
+hQPovt7h13Wve86ZPXi2x5k2wod/ipIYb2FlbBqhAMrJmQwrvSJxyKDTU4Tpmi3Z
+nIsM2huoqxWy/B9bL7Qp1sX/quGEf0Byx5x3o+S3gI5w93iLhcdV6vtlKW5rm8dp
+wL/IAWLwo9IS1crnxb0PXX8m
+=xpf/
 -----END PGP SIGNATURE-----
 
---===============3835367003807560585==--
+--===============1140239339806766563==--
