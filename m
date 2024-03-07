@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 07 Mar 2024 14:41:18 -0000
-Message-Id: <170982247826.10043.540859802914364172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Thu, 07 Mar 2024 14:45:16 -0000
+Message-Id: <170982271613.13169.10675254488850794308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: 0bf9e6453ed5175dea94a8fc88c6b74f99999d30
-    new: 2da45fc7e2d65d31b8d90c0d94eef6c1374d53bd
-    log: |
-         a070ceac6ba897ba64021d1f9963dbb4f1a1c203 shared/lc3: Add definitions for Audio Configurations
-         2da45fc7e2d65d31b8d90c0d94eef6c1374d53bd test-bap: Add STR sink tests
-         
+  - ref: refs/heads/rcu/synchronize_opt
+    old: 0000000000000000000000000000000000000000
+    new: af05259b4aae58143d828d629599a3f90c299255
