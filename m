@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mmc/mmc-utils
-Date: Thu, 07 Mar 2024 11:01:00 -0000
-Message-Id: <170980926080.10713.12747035088235154824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
+Date: Thu, 07 Mar 2024 11:04:41 -0000
+Message-Id: <170980948190.12037.892347863366658424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mmc/mmc-utils
-user: ulfh
+repo: pub/scm/linux/kernel/git/tomba/linux
+user: tomba
 changes:
-  - ref: refs/heads/master
-    old: b5ca140312d279ad2f22068fd72a6230eea13436
-    new: e1281d4de9166b7254ba30bb58f9191fc2c9e7fb
+  - ref: refs/heads/rp1-cfe
+    old: 0397826fc26a86e212010418ec18ebb6712e7a14
+    new: 7726c29fbe2266391b21e7d4b68c1bf46c252087
     log: |
-         e1281d4de9166b7254ba30bb58f9191fc2c9e7fb mmc-utils: mmc_cmds: fix type-punned warning on &ext_csd[] casting
+         7726c29fbe2266391b21e7d4b68c1bf46c252087 formatting fixes
          
