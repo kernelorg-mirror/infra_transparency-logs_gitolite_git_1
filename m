@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 07 Mar 2024 17:52:03 -0000
-Message-Id: <170983392354.29058.4299175742687583896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 07 Mar 2024 17:53:50 -0000
+Message-Id: <170983403027.29804.10444848838904205778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/v3.16.45
-    old: f69a569575feef77ee1249fc9ad058bb7755d842
+  - ref: refs/heads/fileSNBNUZ
+    old: 6c023ad32b192dea51a4f842cc6ecf89bb6238c9
     new: 0000000000000000000000000000000000000000
