@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4575420490112213191=="
+Content-Type: multipart/mixed; boundary="===============4468079089745384939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 07 Mar 2024 17:55:38 -0000
-Message-Id: <170983413870.32549.8875100771645398940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 07 Mar 2024 17:55:45 -0000
+Message-Id: <170983414523.32679.13776605973460366323@gitolite.kernel.org>
 
---===============4575420490112213191==
+--===============4468079089745384939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/spi-6.9
     old: 9086d0f23b7c292f162a828967975e29e97c0680
     new: be84be4a35fa99cca7e81e6dd21516a324cca413
     log: |
@@ -25,28 +25,28 @@ changes:
          be84be4a35fa99cca7e81e6dd21516a324cca413 spi: Introduce SPI_INVALID_CS and is_valid_cs()
          
 
---===============4575420490112213191==
+--===============4468079089745384939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1709834137 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1709834136-464cefc451917314ea2520103493aba8828bcf54
+pusher C3F436CA30F5D8EB 1709834143 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1709834142-62e87de339740326f1d1c4d0996ae2cfd9fc878b
 
-9086d0f23b7c292f162a828967975e29e97c0680 be84be4a35fa99cca7e81e6dd21516a324cca413 refs/heads/for-6.9
+9086d0f23b7c292f162a828967975e29e97c0680 be84be4a35fa99cca7e81e6dd21516a324cca413 refs/heads/spi-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXp/5kACgkQJNaLcl1U
-h9CeFQf8C2DHljVoR4/oonL2X9Q1AME1gjybOQc+BMfiyJqEt3HT2l5JMO8qEUh3
-+wYzMbvNTdec2UfUk+4SIdwjM2oNcwtr8TtMron5EM7a35ADqBSl5h4O2pDk1V3h
-O5K2Mvj3fUw4BFZyRsaU/X7UXxBa0oleoGhUP+9idcrMowBECVKVZSBWh7jvMKam
-4rQ8hUdsrypzbGT+vlOrwC+d907A+f/Kptet7uUKucJbQ2GCkkjhwsyBYBGYNhpl
-a20uqGiPQrZ5R8NS4jqtVGb5XBf0a9NXhm2HrvsmzKQZ33Un1LGxEwEqi+gRkzoW
-jxcsaTPlJd46RB1827044VCBTMZekg==
-=CCFV
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXp/58ACgkQJNaLcl1U
+h9DDVgf/Zhe8U3nHQU4L6mO3jo4eekW12NJ67p2hiG6+AbSmRxY5zstI9Na0NTNy
+AAbieU6qf0ZDivEn/l3ODS5cuxVISeQr0mqGFo1XqbjK5a1gF/rhu8kq+NfM5Np3
+v90+BZXwnIYN7cDwv/gyHXpY7zZLVYVG6RYEX3ylEdwXWBysOMUP7Jxd0rz80Qqz
+58c4VtD1h3coX40QxcZGU1PbVImaaLqWwlyOoVDVL+qoLCLqpIDI3byVDXHqrViV
+nqyCi5w1LcU84fkYkNi2bvqhyUzzbiFVAflJXf//77WGKtBnc7irEQtRRHtYA275
+AwTLkUBvFEgnqGZKqZtzXlLAi9yUSw==
+=Ov1I
 -----END PGP SIGNATURE-----
 
---===============4575420490112213191==--
+--===============4468079089745384939==--
