@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 07 Mar 2024 00:21:04 -0000
-Message-Id: <170977086459.15773.845162367957916702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 07 Mar 2024 00:31:16 -0000
+Message-Id: <170977147671.22546.17589893464660032557@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/next
-    old: 34dbd8b7c991b784fcc1af7bfa5b6f96f33ff196
-    new: ba2862da4e6656dfb12a679827e4fa08b933e96c
+  - ref: refs/heads/for-next
+    old: 4bfb270378c995773960fb0a8c908fc009607a1b
+    new: 4d4f986d296f3435dac4ee4ab79a6614bc8d1442
     log: |
-         ba2862da4e6656dfb12a679827e4fa08b933e96c virt: efi_secret: Convert to platform remove callback returning void
+         3e62273ac63aeeb80bd3b24fa0102a4de9972d83 soc: fsl: qbman: Remove RESERVEDMEM_OF_DECLARE usage
+         4d4f986d296f3435dac4ee4ab79a6614bc8d1442 dt-bindings: interrupt-controller: fsl,intmux: Include power-domains support
          
