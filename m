@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
-Date: Thu, 07 Mar 2024 22:45:46 -0000
-Message-Id: <170985154690.24740.2452829513376055307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Thu, 07 Mar 2024 22:51:36 -0000
+Message-Id: <170985189612.28500.17217171836288642870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/tags/fsverity-6.9_2024-03-07
-    old: 1b3fdeb3042907686a7e24dddb5507db8ceb9256
-    new: 627d89c7e6bc0bbc218e78fb0e4c62349ee257e1
-  - ref: refs/tags/fsverity-cleanups-6.9_2024-03-07
-    old: 0e3e7bae6f40ac22d96f7b1a32268e3b93ecceac
-    new: 4b56e71c1d992744e52373fe421b1099d2c81954
+  - ref: refs/heads/dm-vdo
+    old: 2a7f925bc25fc3591e6c7f2c1bd561004d744b6d
+    new: 40416a45fd1725efe909195337f552337349e195
+    log: |
+         40416a45fd1725efe909195337f552337349e195 dm vdo: document minimum metadata size requirememts
+         
+  - ref: refs/tags/for-6.9/dm-vdo
+    old: b4cd5e2fd3062f6bff7b9201d372e3ba5a4bf50c
+    new: 778eee7e5b412b1ed42975d15180d4867f16e7d4
+    log: |
+         40416a45fd1725efe909195337f552337349e195 dm vdo: document minimum metadata size requirememts
+         
