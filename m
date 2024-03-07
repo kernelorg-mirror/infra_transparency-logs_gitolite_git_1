@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 07 Mar 2024 04:34:23 -0000
-Message-Id: <170978606321.9329.10275590498884579895@gitolite.kernel.org>
+Date: Thu, 07 Mar 2024 04:36:06 -0000
+Message-Id: <170978616643.11587.2300035875398446712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 41cca0542d7c79b6be3920a917f643c075ad1561
-    new: 07161b2416f740a2cb87faa5566873f401440a61
+    old: 07161b2416f740a2cb87faa5566873f401440a61
+    new: d66206296176efe094b7cfae292296138637cf8f
     log: |
-         07161b2416f740a2cb87faa5566873f401440a61 sr9800: Add check for usbnet_get_endpoints
+         d66206296176efe094b7cfae292296138637cf8f dt-bindings: net: renesas,etheravb: Add support for R-Car V4M
          
