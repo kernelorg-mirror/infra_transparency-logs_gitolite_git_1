@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7996534179491420953=="
+Content-Type: multipart/mixed; boundary="===============9079203255354224659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 07 Mar 2024 22:07:45 -0000
-Message-Id: <170984926514.28516.10195603694814652655@gitolite.kernel.org>
+Date: Thu, 07 Mar 2024 22:08:33 -0000
+Message-Id: <170984931317.28928.16953039557493332197@gitolite.kernel.org>
 
---===============7996534179491420953==
+--===============9079203255354224659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 1fe6e4f0b0c47e70735066e889f97c3c6e1e79b2
-    new: 4dc3d612ee5c3be2a4d1a73ab31bcfaaa850aa19
+    old: 4dc3d612ee5c3be2a4d1a73ab31bcfaaa850aa19
+    new: 952c3fce297f12c7ff59380adb66b564e2bc9b64
     log: |
-         bbf6cfba49a117c502ec5df66d3ab3b485c113f8 driver core: Drop unneeded 'extern' keyword in fwnode.h
-         1c4002aeab3c81afa8a00ae76b1ea38d066e9978 driver core: Move fw_devlink stuff to where it belongs
-         420b104dd116cddd1615588a400b557bf4e436b4 device property: Move enum dev_dma_attr to fwnode.h
-         4dc3d612ee5c3be2a4d1a73ab31bcfaaa850aa19 device property: Don't use "proxy" headers
+         952c3fce297f12c7ff59380adb66b564e2bc9b64 debugfs: fix wait/cancellation handling during remove
          
 
---===============7996534179491420953==
+--===============9079203255354224659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709849263 +0000
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709849312 +0000
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1709849263-5e0df52e45aa246ae07a664ff627f8db48e96f65
+nonce 1709849311-4e44635fd2b21da0a4bcd1e7ceb306ade2472a95
 
-1fe6e4f0b0c47e70735066e889f97c3c6e1e79b2 4dc3d612ee5c3be2a4d1a73ab31bcfaaa850aa19 refs/heads/driver-core-testing
+4dc3d612ee5c3be2a4d1a73ab31bcfaaa850aa19 952c3fce297f12c7ff59380adb66b564e2bc9b64 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXqOrAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LJgP/jx9HlE+87RdwJbHtHe0
-6iw9jJLP188NwySkivN+OgT1Ezky1Dq36KwGOmcH4FM5lP3PgvbOtg8SoicgHkIg
-vyqCU15LEyHQUXtMKQMxZevKj0fuCtWXM/yytUUyFpYMgyLPqFlTGJnvpXi5P9tN
-NHn8+kCaqsKWo16G/qRlgFViS0t7PghgweAnwrskc9nrQPCLj8BlV/F4dqnckir/
-M/BfqIhsqdZpVBP0lYoORaX4LjuLEG4cGBipJaxlweVEwRNLbd4Trz+jjQ70jDBb
-sw7iQ59ciJXqT9oTjO2ty132ANyS3EsU8JaUzadElbV2b5non4oNfZRZV2MmYN2k
-3BbduIMRibJ3W9KF/XGYLM7Mwp4sgsPWJDkuc1Qee0aNlaEc94nyvPo0dtKlg5JO
-+gkPXb+k5lxRsV/Lr1YuT7U46kDUIt0RcmWXAEGtN0M9SOil9EyS1xPlnLJuMGIm
-i1zILi8fOD35g5mIHSFZzt6/PQY6rggYI7yVWEioeNMyAFMuXua+dcihr3Wq6PPs
-wZs9DneqqIrbmTSg2vOc1UF4DiuK1Us+lSeGv/D2Nk+RGUFgKVyGEZGGvvZyz3Rt
-ZzOTVdTMfyxdlIJp0+6hn+mEcvXRE/2eO7cVWlTH9xlTQs2gsgEJ1DGehHLy5669
-HVsJOQ3iaHiONf/Ko12A1OrF
-=QrUy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXqOuAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H5EQAKnYBtefYvXOhIPc22gp
+FkT3+u8+Hyk8B+tqcHWGqu6yB5WIpl3WwCEakSUr9oHP3ke8SF2cov1QeVXg/3S7
+OvCQkRn40zHoAfvC9k2A78kA/bXqe9Li2LL3V6i+oSMiwsAt9T9yD7RRm48ma0Cf
+CRjLQAZUPZgxibZxs2m7xZw9ACRzU1fCusp9Q5L8yMTzd/+UmtQ4dfQGlq5IyH2D
+sjPXwGvwZOQwPn8sZaznBVWBonQxl6qjWeptt4HMFV2chQr2pJVDZzwj2/7q45VP
+yKvFQ95mHKqYGfc/wTnIKTomaW3c0W8PCYv1JlU5DG/TyJ4GSiXcUEo5lkrrGjYe
+1S8CDN5ekZi6X0ga6ErCT8oeuyJKdByN3IMOrKcGgOKIhbxr7rhKgqa+c4LjQScz
+KA/t2cGGC8iiVmnfNv7uP4FVlkriQddS8d/r0KW/TN7rhmlTm8ecAKiasiMeIxW5
+SV2Q7WsbTwz5qY4aikVBSyjh2ZaMrYWS/DkqXIh4oWgLRbMyr8YTLafvu/jZxWe6
+zgUD5H5wbqgfEJ2zPH3f0sOabqovYjllmyewQuuc5R/ZXBl19x3Zxoefd8DKIpex
+wHsm2bxMbLsMt2GJpXW2MMipoG7t8AjBeVIM9bIzwJ906N5CiMusXJBhVqh4jtAS
+zvXQHKmg3+G8HeB7SgrsjT4q
+=UeD0
 -----END PGP SIGNATURE-----
 
---===============7996534179491420953==--
+--===============9079203255354224659==--
