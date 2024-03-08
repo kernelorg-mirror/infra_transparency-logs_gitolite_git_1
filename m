@@ -1,51 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5039705678552717739=="
+Content-Type: multipart/mixed; boundary="===============8640849387947998833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 08 Mar 2024 12:30:03 -0000
-Message-Id: <170990100350.2933.17428300880497018190@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
+Date: Fri, 08 Mar 2024 12:56:54 -0000
+Message-Id: <170990261400.22020.4401579593687687076@gitolite.kernel.org>
 
---===============5039705678552717739==
+--===============8640849387947998833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/jolsa/perf
+user: jolsa
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 0b60166fea5b41156b0ffc6a6bcf021790b1de15
-    new: 32e208be6b9e9bc79a1083bde5b7e2d2f765faaf
-    log: |
-         e6f22330d3afa641e21da159bbb52fdf2b09a9df i2c: wmt: create wmt_i2c_init for general init
-         1d43d656f9a58f03a2edb63deb7676c567b4e1a7 i2c: wmt: split out common files
-         30bc9605301fb667627fa383f1caa087591cf6e6 i2c: wmt: rename something
-         76b399c85d93f24c1ebe12dd0bb5e3f4fef44d53 i2c: wmt: fix a bug when thread blocked
-         e2fb38aae51eadab326ee9d8bff1656c9d81bd30 i2c: wmt: add platform type VIAI2C_PLAT_WMT
-         32e208be6b9e9bc79a1083bde5b7e2d2f765faaf i2c: add zhaoxin i2c controller driver
-         
+  - ref: refs/heads/bpf/session_data
+    old: 1fd323c1876b0e68441fcb393e424e9da379fb59
+    new: 2de3435b691fe601ea42cb119ba482bd6762d173
+    log: revlist-1fd323c1876b-2de3435b691f.txt
 
---===============5039705678552717739==
+--===============8640849387947998833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1fd323c1876b-2de3435b691f.txt
 
-certificate version 0.1
-pusher andi.shyti@kernel.org 1709901002 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1709901001-e26f4d0310b826002f13ec9b505af54cd9f5d44b
+0377e7b45f9233f969ba50227d6b783fe2a60244 fix
+6bbaa20148a2dfab77d7d51c204644c26ad66cda bpf: Add support for kprobe multi wrapper attach
+12091a65e6ba5b6a86f715ae2cc6e218e54e5ad4 bpf: Add bpf_wrapper_is_return kfunc
+b55aa2e70069367488f0e6c4bbd9ffcedab7d6a3 libbpf: Add support for kprobe multi wrapper attach
+77ec0a5ceb8834c8de12eb6d07eaad3f4496fd44 selftests/bpf: Add kprobe multi wrapper test
+98f9a9750f2f70d2d8753be2bee371b425a4b1f5 bpf: Add bpf_kprobe_multi_data kfunc
+17bf1c37733945b9d5900d094c08a97cbe655075 selftests/bpf: Add kprobe multi wrapper data test
+3ff1fbca997a2dd4f14d092b00a9d4ad98624692 bpf: Add support for uprobe multi wrapper attach
+0e436b2093a4fbc9f843e2ce395344d748f5ff20 bpf: Add bpf_wrapper_is_return kfunc for multi uprobe
+da83978ad7d6d7982009b8b9a64d41bf6828d7f1 libbpf: Add support for uprobe multi wrapper attach
+00cb917d8d52a5bd43b7801420713ca5f41802e1 selftests/bpf: Add uprobe multi wrapper test
+43467d01fb4427a1dc053e2bf015a411867db26c bpf: Add uprobe multi support for wrapper data
+2de3435b691fe601ea42cb119ba482bd6762d173 selftests/bpf: Add uprobe multi wrapper data test
 
-0b60166fea5b41156b0ffc6a6bcf021790b1de15 32e208be6b9e9bc79a1083bde5b7e2d2f765faaf refs/heads/i2c/i2c-host-next
------BEGIN PGP SIGNATURE-----
-
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZesEyhYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ueEcA/3817TO/fYcEMjrQb8KijAPo4K58
-ChmxwE9bYAHBSfcRAP9ELWtPYDfMcjWiZkL1IICAl61oom6OfjEtHZUoZYfdCQ==
-=wnEd
------END PGP SIGNATURE-----
-
---===============5039705678552717739==--
+--===============8640849387947998833==--
