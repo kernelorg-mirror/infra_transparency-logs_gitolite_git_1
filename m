@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Fri, 08 Mar 2024 06:02:10 -0000
-Message-Id: <170987773036.26493.3368126357578853259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Fri, 08 Mar 2024 06:51:05 -0000
+Message-Id: <170988066560.29999.4511546537411592315@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
-  - ref: refs/heads/sched/dlserver.debug.mar3.2024
-    old: c61cbc1a1ca075c84ea632b89a86c6861dc49422
-    new: 6890cea305eadbebc9f3fcf8d31c6672af797ee5
-    log: |
-         6890cea305eadbebc9f3fcf8d31c6672af797ee5 sched/deadline: Do not mark defer_armed if timer not started in replenish
-         
+  - ref: refs/heads/for-next
+    old: 6b475e23544a560b4bf2acfab8dc54c4e7b1749e
+    new: 6613476e225e090cc9aad49be7fa504e290dd33d
