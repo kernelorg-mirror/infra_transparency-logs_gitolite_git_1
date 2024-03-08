@@ -1,27 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 08 Mar 2024 12:01:54 -0000
-Message-Id: <170989931475.14267.5927510905784762724@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4957298400067120236=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Fri, 08 Mar 2024 12:11:14 -0000
+Message-Id: <170989987403.22148.5709910455026549146@gitolite.kernel.org>
+
+--===============4957298400067120236==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 147a1c06f4d13be1fb19ba9d03bf7fa37e4a27e1
-    new: 19cfdc0d57696c92523da8eb26c0f3e092400bee
-    log: |
-         07a1d6dc90baedcf5d713e2b003b9e387130ee30 net: hns3: fix wrong judgment condition issue
-         dd1f65f0db27467f742d8c6e5276b8e8e0c83890 net: hns3: add new 200G link modes for hisilicon device
-         0448825b8992fef07aa08f53db21cd68103dbecf net: hns3: Disable SerDes serial loopback for HiLink H60
-         0fbcf2366ba9888cf02eda23e35fde7f7fcc07c3 net: hns3: fix kernel crash when 1588 is received on HIP08 devices
-         03f92287b251de318f3b93f5c1e0cb6ccc87b011 net: hns3: fix delete tc fail issue
-         216bc415d6631e769e2bd2266e2017f89a8b78f9 net: hns3: fix reset timeout under full functions and queues
-         11d80f79dd9f871a52feba4bf24b5ac39f448eb7 net: hns3: fix port duplex configure error in IMP reset
-         4e2969a0d6a7549bc0bc1ebc990588b622c4443d net: hns3: add checking for vf id of mailbox
-         19cfdc0d57696c92523da8eb26c0f3e092400bee Merge branch 'hns3-fixes'
-         
+  - ref: refs/tags/i2c-host-6.9
+    old: 0000000000000000000000000000000000000000
+    new: 40fa27595947c75bf14d9d58dbd4cb927d6cbfc7
+
+--===============4957298400067120236==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher andi.shyti@kernel.org 1709899873 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
+nonce 1709899872-3801423f47a2220f54aeb817f7b9ef9fd96c001d
+
+0000000000000000000000000000000000000000 40fa27595947c75bf14d9d58dbd4cb927d6cbfc7 refs/tags/i2c-host-6.9
+-----BEGIN PGP SIGNATURE-----
+
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZesAYRYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ueA4BAIdzjEyUVnYacurU1oPd7ujihdKK
+sjFEXsgxWR04FyPDAQC1YPGVoqemptgly8GVJ3C7E2XXbUiPb8F0jVynMY6uAw==
+=quPo
+-----END PGP SIGNATURE-----
+
+--===============4957298400067120236==--
