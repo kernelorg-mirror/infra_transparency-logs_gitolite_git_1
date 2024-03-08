@@ -1,43 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============4957298400067120236=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 08 Mar 2024 12:11:14 -0000
-Message-Id: <170989987403.22148.5709910455026549146@gitolite.kernel.org>
-
---===============4957298400067120236==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Fri, 08 Mar 2024 12:13:55 -0000
+Message-Id: <170990003584.23171.18412198597536769338@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/tags/i2c-host-6.9
-    old: 0000000000000000000000000000000000000000
-    new: 40fa27595947c75bf14d9d58dbd4cb927d6cbfc7
-
---===============4957298400067120236==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher andi.shyti@kernel.org 1709899873 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1709899872-3801423f47a2220f54aeb817f7b9ef9fd96c001d
-
-0000000000000000000000000000000000000000 40fa27595947c75bf14d9d58dbd4cb927d6cbfc7 refs/tags/i2c-host-6.9
------BEGIN PGP SIGNATURE-----
-
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZesAYRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ueA4BAIdzjEyUVnYacurU1oPd7ujihdKK
-sjFEXsgxWR04FyPDAQC1YPGVoqemptgly8GVJ3C7E2XXbUiPb8F0jVynMY6uAw==
-=quPo
------END PGP SIGNATURE-----
-
---===============4957298400067120236==--
+  - ref: refs/heads/master
+    old: 8416fc750950f16f86621e480f49f6051c15f89f
+    new: 34337fec8c4acbb9b389df59a7b7a6df83004a18
+    log: |
+         c01338b2323d83bcdb1cd0d0fc143a993072e5b7 Update gitignore
+         34337fec8c4acbb9b389df59a7b7a6df83004a18 Rename percpu-alloc files to mempool
+         
