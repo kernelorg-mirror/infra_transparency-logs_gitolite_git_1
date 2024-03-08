@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1064128181412265568=="
+Content-Type: multipart/mixed; boundary="===============6882224479603723474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 08 Mar 2024 22:44:14 -0000
-Message-Id: <170993785458.7742.7390905860435999037@gitolite.kernel.org>
+Date: Fri, 08 Mar 2024 22:44:49 -0000
+Message-Id: <170993788950.8018.13326046513253456042@gitolite.kernel.org>
 
---===============1064128181412265568==
+--===============6882224479603723474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 19cfdc0d57696c92523da8eb26c0f3e092400bee
-    new: d721812aa875a898eb38b2729abf6e96abdb357b
-    log: revlist-19cfdc0d5769-d721812aa875.txt
+  - ref: refs/heads/dev-queue
+    old: 6de040d01ac5a44825d41f6b023aff1d8dfc9bc8
+    new: f64506c5c2fd57196c6fc7c840387565b7e63942
+    log: revlist-6de040d01ac5-f64506c5c2fd.txt
 
---===============1064128181412265568==
+--===============6882224479603723474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19cfdc0d5769-d721812aa875.txt
+Content-Disposition: attachment; filename=revlist-6de040d01ac5-f64506c5c2fd.txt
 
 775cf70c409b0e54475921c1084792771fae50cb wifi: mt76: disable HW AMSDU when using fixed rate
 6178554066bc41445997cf0319489b625cefcc5f wifi: mt76: check txs format before getting skb by pid
@@ -158,5 +158,30 @@ f654e228ed6b822e87e6e6ad8e889bedccae2e16 Merge tag 'ath-next-20240305' of git://
 5d9b7cb383bb3228d72066c15206299858214f92 nexthop: Simplify dump error handling
 026763ece881b4c636173c25d012cde085689027 ipv6: raw: check sk->sk_rcvbuf earlier
 d721812aa875a898eb38b2729abf6e96abdb357b ipv4: raw: check sk->sk_rcvbuf earlier
+29f260bede47361d9040d8b350a333ace190e6e6 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+38fdd88f7165928b1bf10649efc807c04bef83fb ice: Refactor FW data type and fix bitmap casting issue
+70b96e4cf3e16a652b1cf16cf0fd4421030ec8b0 ice: Add switch recipe reusing feature
+b1aab22ebb843b2f5fb8fc09cf78642e456307a2 igc: Refactor runtime power management flow
+51326cdb0af1902d5fbc52f8b7d96c2748dba17d ethtool: Add GTP RSS hash options to ethtool.h
+fda27b8ee64b2f72ce2a476e9609562a02e16c9e ice: Implement RSS settings for GTP using ethtool
+c3f86cdb2f0d0cac1b82085978bfb17f61781376 igc: Fix missing time sync events
+cc86ac7adb4daaf85e99f0633cd32e044124a14a igb: Fix missing time sync events
+c70710a43d36968b9e9a562401ce9f18420d988a ice: tc: check src_vsi in case of traffic from VF
+ee5633265189c6a2d3f3910226772a63b8e23052 ice: tc: allow ip_proto matching
+6cbb61a8dde5a57270f19f2d12252fe80e51c2ad ice: fix stats being updated by way too large values
+4d6d7d792f66462e8a8f94395866e08715c3421c ice: remove eswitch changing queues algorithm
+fe022826d99bb4beef72ddb6f03fe3a9d72bcb0a ice: do Tx through PF netdev in slow-path
+c27a51f2b3fd279e9e92edc72bd511623113348e ice: default Tx rule instead of to queue
+19dc07e388f3b71e2641b75915c0e4988a0af833 ice: control default Tx rule in lag
+e7a8647b4197596080fe9887d8aa0a0d059ce8aa ice: remove switchdev control plane VSI
+d639f93b37edcedd963a671ea84011875a68518d ice: change repr::id values
+e8ca2e9f4119be988d73dda2c1fd983c0c093ed2 ice: do switchdev slow-path Rx using PF VSI
+a228a883597d0ff9d9b977e93732a99272329c5a ice: count representor stats
+661aa6cd5410ba9dd59efd6d67a434735226bafd e1000e: move force SMBUS from enable ulp function to avoid PHY loss
+b7578c4bc8a9a7b114b4c5e09ef115e160673767 ice: fix memory corruption bug with suspend and rebuild
+5ea094aea37bdb420349f0cc519cf5d36f954741 ixgbe: avoid sleeping allocation in ixgbe_ipsec_vf_add_sa()
+ba42e418ec4e805252980f37b3c8e18b69b4cd04 igb: simplify pci ops declaration
+5493fb9384758c87cddd00620ddfc5a73d98bec4 net: intel: implement modern PM ops declarations
+f64506c5c2fd57196c6fc7c840387565b7e63942 i40e: avoid forward declarations in i40e_nvm.c
 
---===============1064128181412265568==--
+--===============6882224479603723474==--
