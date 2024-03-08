@@ -1,42 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============1821869530139660004=="
+Content-Type: multipart/mixed; boundary="===============2716107962641279967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Fri, 08 Mar 2024 17:22:57 -0000
-Message-Id: <170991857790.350.9162766362348898544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 08 Mar 2024 17:23:01 -0000
+Message-Id: <170991858134.479.2211024628508629782@gitolite.kernel.org>
 
---===============1821869530139660004==
+--===============2716107962641279967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: f531bca3fc47689015cca07aa0a6009b9ce8ed7b
-    new: 610ac256f919729bd22a60d523bee1ce8b33ea1a
-    log: revlist-f531bca3fc47-610ac256f919.txt
+  - ref: refs/tags/char-misc-6.8-rc8
+    old: 0000000000000000000000000000000000000000
+    new: a261e2773db498a4a85353284037d91264645d15
 
---===============1821869530139660004==
+--===============2716107962641279967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f531bca3fc47-610ac256f919.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-088e2efaf3d25be67f5dbcc26cfe08d7797dff39 landlock: Simplify current_check_access_socket()
-e3e37fe022a486d83c71eacb59fb5b6b0ebdbf78 landlock: Rename "ptrace" files to "task"
-63817febd1f3c27f633b2bce0d6db328e59fd019 landlock: Use f_cred in security_file_open() hook
-a17c60e533f5cd832e77e0d194e2e0bb663371b6 samples/landlock: Don't error out if a file path cannot be opened
-a1f982615ad6e960da61e895609dba69205fe634 landlock: Add IOCTL access right
-cfb842cdd436754d211b00a1d27c758b81455e05 selftests/landlock: Test IOCTL support
-ddb6ce953637abbf0e723ce1237c2d2595523b69 selftests/landlock: Test IOCTL with memfds
-784afe7b66946d00f1b7dc205fc38070239a9a87 selftests/landlock: Test ioctl(2) and ftruncate(2) with open(O_PATH)
-64654e9d7c0916ca4c2d4b1e1365ad397c5651de selftests/landlock: Test IOCTLs on named pipes
-2de1be25fa0ae7fed601d59387857db3dbb55cc5 selftests/landlock: Check IOCTL restrictions for named UNIX domain sockets
-aa54b5da488af3ffa0ddaf6e98aca7b34f907fe6 samples/landlock: Add support for LANDLOCK_ACCESS_FS_IOCTL
-610ac256f919729bd22a60d523bee1ce8b33ea1a landlock: Document IOCTL support
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709918580 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1709918580-8ebe3dfbc665e67b3df7e4eccf1d633afad16ea1
 
---===============1821869530139660004==--
+0000000000000000000000000000000000000000 a261e2773db498a4a85353284037d91264645d15 refs/tags/char-misc-6.8-rc8
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXrSXQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3YIQAMxh3GxnDGFKUGBAba9m
+cRBu7CVXQtCqGsZYNM+3nJ/ZC0eCjgRHcofK6se3h2kjOdXZMI/H0Fyt8jPTeOFe
+vMNSTw7abUt4z3X++t7u48/V8aFYSUaDVah/hrYMhgr74Lrsb13uboPYChJK+2xj
+a/C+3l+I0lf4H5P9xqfshMcIrEDM4xl0GHZ/lVLdrMPD1YKB22dDLHGOlwJP5n3Z
+Ik7odvya6Dz3TTAX6LMu4KxEbVCss+J0qhpqMSyDdroWGh4OCELfhjPZMF3NFdlR
+lbPslkAudLhWez/6jCs1H71UvL526m3vmxp9SPdzU8DbczdynJ31e1gWuZ/MHz7V
+YIC9LVLbIgLYNTbkSSSoJuoDiQrTPrzoQEItGUW72HH2cR7ZIBkwvVX/KMVS31jM
+cE6COCEfJFCLZvwgjLvMGvPf7o2iLbK3PJbXTX/TZHLSOGngFnsaYwswgv4k7wMw
+lJIhMB3VO68zB7xiQLZfaSPf2MvL4f4u8Bu7tJM/SqX7d9ptIWDbVtj3G3D1yNBL
+8r6CGfwKVbe9ei9IfE2OZu+kT0IM/qqH/4WUHMUr+1vqR9gyeYYNlknnTLiMT+jE
+539TeJT2GOoCjjoHFeEkZRVWEUqSCLyimbg+Vd7JNuiuB63LhO1B6I89A1c/mE00
+Lc6PFed1Va+5z1BdPgt9kVmL
+=48Lf
+-----END PGP SIGNATURE-----
+
+--===============2716107962641279967==--
