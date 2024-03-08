@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 08 Mar 2024 07:39:37 -0000
-Message-Id: <170988357735.32524.11863969365917175348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 08 Mar 2024 08:00:37 -0000
+Message-Id: <170988483722.15789.12010525704205338585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/dev
-    old: cc3f59d9532734e149b82fe4fb17055e5aace214
-    new: 6b67e95dba234efd7fff77d5d0df3c966883c4dc
+  - ref: refs/heads/x86/sev
+    old: d7b69b590bc9a5d299c82d3b27772cece0238d38
+    new: c0935fca6ba4799e5efc6daeee37887e84707d01
     log: |
-         7480fd2c818ca9904a73081c834463a121559dce erofs-utils: update my outdated misleading email address
-         6894ca9623e768f37f2aa45e00dfb23b06de0cbd erofs-utils: mkfs: Support tar source without data
-         6b67e95dba234efd7fff77d5d0df3c966883c4dc erofs-utils: support xz/lzma/lzip streams for tarerofs
+         c0935fca6ba4799e5efc6daeee37887e84707d01 x86/sev: Disable KMSAN for memory encryption TUs
          
