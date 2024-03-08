@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 08 Mar 2024 08:00:37 -0000
-Message-Id: <170988483722.15789.12010525704205338585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Fri, 08 Mar 2024 08:07:53 -0000
+Message-Id: <170988527350.21333.1125071651870001917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/x86/sev
-    old: d7b69b590bc9a5d299c82d3b27772cece0238d38
-    new: c0935fca6ba4799e5efc6daeee37887e84707d01
-    log: |
-         c0935fca6ba4799e5efc6daeee37887e84707d01 x86/sev: Disable KMSAN for memory encryption TUs
-         
+  - ref: refs/tags/usb-serial-6.9-rc1
+    old: 0000000000000000000000000000000000000000
+    new: c21c6fad540a9fe57497476d928ba5a3a6d8da64
