@@ -1,46 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4536111357250505147=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 08 Mar 2024 08:09:03 -0000
-Message-Id: <170988534352.21835.16363398045283965932@gitolite.kernel.org>
-
---===============4536111357250505147==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 08 Mar 2024 08:10:27 -0000
+Message-Id: <170988542763.24001.11822822320861277496@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-next
-    old: 844b79616b762ac8e0b6f05c5aaa9103ae2ebd83
-    new: 576b82c3c9bf021af4984aafc105508c99660667
+  - ref: refs/tags/sound-6.8
+    old: 86a83341b8dd2899b824538079cf16a8c568f183
+    new: e1f0cd5db776dc6ae433a90e667b0358bfba60dc
     log: |
-         576b82c3c9bf021af4984aafc105508c99660667 platform/mellanox: mlxreg-hotplug: Remove redundant NULL-check
+         231bf30c107aaf935cdd02b308757d0823ff1414 ASoC: madera: Fix typo in madera_set_fll_clks shift value
+         f8b0127aca8c60826e7354e504a12d4a46b1c3bb ASoC: Intel: bytcr_rt5640: Add an extra entry for the Chuwi Vi8 tablet
+         cbae1a350e3ceff38242a4905805c80ccbcfbba5 ASoC: rcar: adg: correct TIMSEL setting for SSI9
+         b3a51137607cee7c814cd3a75d96f78b9ee1dc1f ASoC: amd: yc: Add HP Pavilion Aero Laptop 13-be2xxx(8BD6) into DMI quirk table
+         482c9f3d42ba58a2ae1f69cbfbf3a9f3e251527d ASoC: dt-bindings: nvidia: Fix 'lge' vendor prefix
+         03c7874106ca5032a312626b927b1c35f07b1f35 ASoC: wm8962: Enable oscillator if selecting WM8962_FLL_OSC
+         6fa849e4d78b880e878138bf238e4fd2bac3c4fa ASoC: wm8962: Enable both SPKOUTR_ENA and SPKOUTL_ENA in mono mode
+         96e202f8c52ac49452f83317cf3b34cd1ad81e18 ASoC: wm8962: Fix up incorrect error message in wm8962_set_fll
+         21e59fe2f7221cdc77b2e5ef90a04c302b237053 Merge tag 'asoc-fix-v6.8-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
          
-
---===============4536111357250505147==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1709885334 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1709885335-462360e744ea518950f821e0db66ecf86d4ef92b
-
-844b79616b762ac8e0b6f05c5aaa9103ae2ebd83 576b82c3c9bf021af4984aafc105508c99660667 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZerHlQAKCRBZrE9hU+XO
-MUNJAP4gp6OT4H43t//2rcx4IA28ATWC7TKNcIzutgisCcMUEAEA26fTL9VFGSJ3
-0txjybCZuKFfvR5A7W0WkgymBzz2/QM=
-=Y0EH
------END PGP SIGNATURE-----
-
---===============4536111357250505147==--
