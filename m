@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4547929564560990279=="
+Content-Type: multipart/mixed; boundary="===============7239621919204225009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 08 Mar 2024 16:35:41 -0000
-Message-Id: <170991574179.30739.7241691504071352181@gitolite.kernel.org>
+Date: Fri, 08 Mar 2024 16:36:02 -0000
+Message-Id: <170991576225.30968.4814786997322143099@gitolite.kernel.org>
 
---===============4547929564560990279==
+--===============7239621919204225009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 15d2540e0d626b7960c9cafb3c825554fdf1a2b4
     new: 19cfdc0d57696c92523da8eb26c0f3e092400bee
     log: revlist-15d2540e0d62-19cfdc0d5769.txt
 
---===============4547929564560990279==
+--===============7239621919204225009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -159,4 +159,4 @@ dd1f65f0db27467f742d8c6e5276b8e8e0c83890 net: hns3: add new 200G link modes for 
 4e2969a0d6a7549bc0bc1ebc990588b622c4443d net: hns3: add checking for vf id of mailbox
 19cfdc0d57696c92523da8eb26c0f3e092400bee Merge branch 'hns3-fixes'
 
---===============4547929564560990279==--
+--===============7239621919204225009==--
