@@ -1,52 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3990607554670404557=="
+Content-Type: multipart/mixed; boundary="===============8912667841503056721=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Fri, 08 Mar 2024 09:13:21 -0000
-Message-Id: <170988920181.5059.16786718374493058735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 08 Mar 2024 09:16:48 -0000
+Message-Id: <170988940867.8017.702876135809464134@gitolite.kernel.org>
 
---===============3990607554670404557==
+--===============8912667841503056721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jirislaby/linux
-user: jirislaby
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/devel
-    old: 6e9cbaf060a3e2aa6111c304605bff62d751ffbe
-    new: f5b5ad8b5154d97a0a9209b04d7f3c254644c4ec
-    log: revlist-6e9cbaf060a3-f5b5ad8b5154.txt
+  - ref: refs/heads/staging-next
+    old: b9e4dfb0a6c038dc9af3ba937daa8d33fa859dea
+    new: 68bb540b1aefded1d58a9f956568d5316643d291
+    log: |
+         8e50be9387d64fd5da80dc266b57c8a59a02215c staging: greybus: Replace __attribute__((packed)) by __packed in various instances
+         68bb540b1aefded1d58a9f956568d5316643d291 staging: greybus: Replaces directive __attribute__((packed)) by __packed as suggested by checkpatch
+         
 
---===============3990607554670404557==
+--===============8912667841503056721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e9cbaf060a3-f5b5ad8b5154.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ff38c7d6ba255825a4b94a3306ca807b818843e6 tty: 8250_omap: use dmaengine_prep_slave_sg()
-846a7831e60904561d6a90e4f2f951c519ec8518 tty: msm_serial: use dmaengine_prep_slave_sg()
-edd5e489f2f1d2dcab6ed8a3266e7720278001ef tty: serial, use kfifo
-56939b01977aac13019e9eb7d0012561bb8eb81c tty: atmel_serial: use single DMA mapping for TX
-63652442b41a697bd59981d9b695d2549e8920a1 tty: atmel_serial: define macro for RX size
-6b9e8c10f4209f4da7e206c01d88e32700b7f816 tty: atmel_serial: use single DMA mapping for RX
-549636033bb5006b224ad2785797f47605045909 BRANCH_MARKER: submit
-4bffcbca8a2563bbe0c3817969139b84ec35506c mxser: less tty, more termios
-d7f4daa10d7c546a7432de5b8327794c2417208b mxser: add to_mport helper
-70d3bcb31dcb7961e4629e4c448b9c392cd5f28f mxser: use lock from uart_port
-4f41cde30ec0b302c57495e387f4b45146ae4a17 mxser: use iobase from uart_port
-deffbc39e7adfe097658a18f3d08feb43f45e5c2 mxser: use type from uart_port
-57f72087c570e093a71a855c5f234f938bc8f177 mxser: use x_char from uart_port
-0d974eb883f6f591ab08f91246ff27cb2202c1c3 mxser: use icount from uart_port
-e52bbebbf7a19ebdf090c05f4f3d8948a159a61a mxser: use timeout from uart_port
-c729b29e93df1ab47b7c947ad7e4e6b99221a25f mxser: use status masks from uart_port
-911b0ef34cd48f537c69c8c9008f880b8dc9ac0d mxser: use fifosize from uart_port
-511d83822fb92d86e5d03e39f8b1843d3962bef5 mxser: use hw_stopped from uart_port
-363d9d96e3bda05ed50267d9db2d2549ad6f5fc9 mxser: switch to uart_driver
-a0774f1bd11c0c55cad0021c499e444c7a26b34d kfifo tester
-fe6b9b7a52cbf9b09c0fdee87c305be4ce0f3d7e debug
-f5b5ad8b5154d97a0a9209b04d7f3c254644c4ec BRANCH_MARKER: work
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1709889408 +0000
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1709889407-36634ce31fd4f9429904914358c120e982f4b0d6
 
---===============3990607554670404557==--
+b9e4dfb0a6c038dc9af3ba937daa8d33fa859dea 68bb540b1aefded1d58a9f956568d5316643d291 refs/heads/staging-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmXq14AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u4gP/3M2ho9H+B568X16vdZM
+gDotPMDBhZWr0tiHmPnOwtDu2+3/ZethPqMl6B4N8UCr6hxoXN/s+OhQ4l1sDGJW
+MKJMejgfL299lLA8anfQ7IimPzyufph/7GmufAG7HYdj9EYh/vlEancIaz2iVKuH
+jb+giPp95wR++yuANaJttFDD3XUDRs+Mq/cdI7/uQnKx0t5aGo0coWSwsS33X9LI
+WxKk3GhSVtFVzAmLGiNkf98YOMN2LaNoIMSKXxotwWgwjGjU0BoTa2AcZ/bFTpeQ
+nJF8rftbcdBofFiFIV7jgbXKacP1GHPXfI/ZABzwMO7FJiNyFJt9GMpW/Bu7oT6k
+/4rQzogpHarbxV5zMIY8p4lBJkFA1uTHe75xpC3kjGPnnoCDOo+XQj69dZGuQBY+
+AAJJvFTLw68x924KABsHW3LwLBn7ye22DqdPuRUShq6flnLzUM7XS+xJdgj+CHFF
+en7iopDMKvNxq8GQY4nx5mOMpGWkEbBqbkH63WYEULp6vmTagPjsPrmMxhw4aggw
+nwLPoPtnT3Oy8jW4+wkws9X3YdLREeZkIWTv5Oz4QX9SqTqeSHsHcBeLOTSa/aFP
+7OQ8FZKQU2Jrl/+cSYYgKtUN9jjaJY30+59vxbWSVPd+SIrNyWUvWgXaEVp8DhXw
+rERW2WhCdI0ah3KrNyJ4CnA/
+=lGyG
+-----END PGP SIGNATURE-----
+
+--===============8912667841503056721==--
