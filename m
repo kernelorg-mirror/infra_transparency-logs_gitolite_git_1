@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Fri, 08 Mar 2024 13:24:38 -0000
-Message-Id: <170990427885.9383.7719933843440910653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 08 Mar 2024 13:35:07 -0000
+Message-Id: <170990490716.17995.9251654958101946222@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-user: andy
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-next
-    old: a9bcd02fa42217c795bc9538a149936c82648476
-    new: 4664b0bbb69ce61a913336a1f093383a4aa43824
+  - ref: refs/heads/main
+    old: a6a9e7669740360d40da7538746299ccf8bace51
+    new: 92010357fbc692ace5883e7480e9cc3c966480fb
     log: |
-         899383f9ecf59881a0f43fbf7d74b26bd1e1a16f auxdisplay: Add 7-segment LED display driver
-         4664b0bbb69ce61a913336a1f093383a4aa43824 dt-bindings: auxdisplay: Add bindings for generic 7-segment LED
+         3679539d32d19427c2557603f08d6311e9a90fdb rtl_bt: Update RTL8852A BT USB firmware to 0xD9D6_17DA
+         92010357fbc692ace5883e7480e9cc3c966480fb Merge branch 'robot/patch-0-1709895245' into 'main'
          
