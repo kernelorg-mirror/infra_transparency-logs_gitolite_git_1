@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 08 Mar 2024 21:10:44 -0000
-Message-Id: <170993224418.4460.307003486587699747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Fri, 08 Mar 2024 21:13:20 -0000
+Message-Id: <170993240005.5694.3380285414732509638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/heads/main
-    old: 75c2946db360e625f1447a37f47dbbb38b1dd478
-    new: d721812aa875a898eb38b2729abf6e96abdb357b
+  - ref: refs/heads/master
+    old: c15b99f6c3b4bf79b936f57355a4a7cd2ea92e51
+    new: 0ba2a93e04a8e5977330bfd591a35e88d90e2850
     log: |
-         1cface552a5b5f6e53a855de1a503ff958e2e253 net: add skb_data_unref() helper
-         5d9b7cb383bb3228d72066c15206299858214f92 nexthop: Simplify dump error handling
-         026763ece881b4c636173c25d012cde085689027 ipv6: raw: check sk->sk_rcvbuf earlier
-         d721812aa875a898eb38b2729abf6e96abdb357b ipv4: raw: check sk->sk_rcvbuf earlier
+         0ba2a93e04a8e5977330bfd591a35e88d90e2850 mempool: mass renaming of API
          
