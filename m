@@ -1,43 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1068292791219263624=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 08 Mar 2024 07:27:51 -0000
-Message-Id: <170988287198.23713.12922400190596396301@gitolite.kernel.org>
-
---===============1068292791219263624==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 08 Mar 2024 07:39:02 -0000
+Message-Id: <170988354266.32239.17982173526940725308@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/tags/i2c-host-fixes-6.8
-    old: 0000000000000000000000000000000000000000
-    new: 5af5f1d64c916c20fc78d64882b74c1b5a79a43d
-
---===============1068292791219263624==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher andi.shyti@kernel.org 1709882871 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1709882870-0eff9ac6643aa513ec8b2ffd2378fed8ea494965
-
-0000000000000000000000000000000000000000 5af5f1d64c916c20fc78d64882b74c1b5a79a43d refs/tags/i2c-host-fixes-6.8
------BEGIN PGP SIGNATURE-----
-
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZeq99xYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uBVEA/1SoQdely54yPpejDQ5A6BBpUSBG
-YNts1olqXITXgiFzAP9jAZ07/i+SnBZEZiKAy0CZfty+s9BtACxbexqsC3d9Bg==
-=MBYk
------END PGP SIGNATURE-----
-
---===============1068292791219263624==--
+  - ref: refs/heads/experimental
+    old: 33b3cc4371ba678fd53ecc95b5385d2718745266
+    new: 51ab4daebd3a712201bbd03c963534d39e171fab
+    log: |
+         7480fd2c818ca9904a73081c834463a121559dce erofs-utils: update my outdated misleading email address
+         6894ca9623e768f37f2aa45e00dfb23b06de0cbd erofs-utils: mkfs: Support tar source without data
+         6b67e95dba234efd7fff77d5d0df3c966883c4dc erofs-utils: support xz/lzma/lzip streams for tarerofs
+         51ab4daebd3a712201bbd03c963534d39e171fab erofs-utils: lib: drop prefix_sha256 digests
+         
