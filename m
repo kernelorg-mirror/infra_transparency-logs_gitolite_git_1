@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 08 Mar 2024 04:35:57 -0000
-Message-Id: <170987255739.28363.570194087562238296@gitolite.kernel.org>
+Date: Fri, 08 Mar 2024 04:46:41 -0000
+Message-Id: <170987320148.4427.7742684545431518675@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 62a1e416022eea750f5a8c2e310ca5e3f1be375b
-    new: 196febcb82ebf1f1c0b7f72b2a39042f2c7ebcb6
+    old: 196febcb82ebf1f1c0b7f72b2a39042f2c7ebcb6
+    new: 8edbd3960150ee7dd7a2857bd9a5cf14906facc2
     log: |
-         cecbc52c46e235bd651f7b3ebbf481764846a2d9 tools/net/ynl: Fix extack decoding for netlink-raw
-         771b7012e5f3a49739dab4be60b87517a249a1df tools/net/ynl: Report netlink errors without stacktrace
-         6fe7de5e9c08dd6838149a50e468bc8f94e4fdbe tools/net/ynl: Fix c codegen for array-nest
-         b6e6a76dec330dc0c3ed3149acc2669f3ebfb3cb tools/net/ynl: Add nest-type-value decoding
-         bc52b39309c3c1ab226a4f5927a7380860c0336e doc/netlink: Allow empty enum-name in ynl specs
-         768e044a5fd4cb52e8677e8e18477fa46cfc5329 doc/netlink/specs: Add spec for nlctrl netlink family
-         196febcb82ebf1f1c0b7f72b2a39042f2c7ebcb6 Merge branch 'tools-net-ynl-add-support-for-nlctrl-netlink-family'
+         c12264d3fd234e9b66e3e7a721b659c6a5e5bf8f atm: fore200e: Convert to platform remove callback returning void
+         4f6473ad60947c88c9eac21fe16233e795d3a2f3 net: dsa: Leverage core stats allocator
+         8edbd3960150ee7dd7a2857bd9a5cf14906facc2 mpls: Do not orphan the skb
          
