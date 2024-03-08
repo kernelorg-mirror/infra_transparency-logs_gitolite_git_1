@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 08 Mar 2024 09:56:22 -0000
-Message-Id: <170989178211.18264.10476497857997875934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
+Date: Fri, 08 Mar 2024 10:01:42 -0000
+Message-Id: <170989210270.21914.5902087495952363356@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/srini/slimbus
+user: srini
 changes:
-  - ref: refs/heads/dev-test
-    old: 193eb62ae77bd717cd64bcfe1ccffe5797f73e74
-    new: 34b5b676a3315d09444e99d0c5925d97d6ab80a6
-    log: |
-         34b5b676a3315d09444e99d0c5925d97d6ab80a6 erofs: support compressed inodes over fscache
-         
+  - ref: refs/heads/for-next
+    old: 3b335186781629bb069ba36ada71f8d60c689dfc
+    new: 6613476e225e090cc9aad49be7fa504e290dd33d
