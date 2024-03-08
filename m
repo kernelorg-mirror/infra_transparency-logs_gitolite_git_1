@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bristot/linux
-Date: Fri, 08 Mar 2024 14:38:16 -0000
-Message-Id: <170990869630.32396.4941622121163329139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Fri, 08 Mar 2024 14:48:32 -0000
+Message-Id: <170990931206.7036.11197005156010986579@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bristot/linux
-user: bristot
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/heads/tracing_makefiles
-    old: 416a8bf9b6e0948a2f2a04adfb08012bd100cee2
-    new: 4ab413bca202fe480bb9fb8e6e1e6a556d50b0c5
+  - ref: refs/heads/master
+    old: 84a5a73ae848325bb819192399acc855e6da439d
+    new: 579badcb1f14f29265a43b08bca355dcaee384db
     log: |
-         5d209f9c1e07adb3c741514b6aa701a9b4283208 tools/verification: Use tools/build makefiles on rv
-         4ab413bca202fe480bb9fb8e6e1e6a556d50b0c5 tools/rtla: Use tools/build makefiles to build rtla
+         579badcb1f14f29265a43b08bca355dcaee384db Add mempool test to make check
          
