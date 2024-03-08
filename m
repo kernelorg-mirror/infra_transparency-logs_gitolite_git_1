@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 08 Mar 2024 10:18:42 -0000
-Message-Id: <170989312249.2353.4856385369973280313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 08 Mar 2024 10:19:50 -0000
+Message-Id: <170989319051.2866.10430498822988709226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: fc1b2901e0feed933aaee273d0b0ca961539f4d7
-    new: 4469c0c5b14a0919f5965c7ceac96b523eb57b79
+    old: bf02ba6d36ae8152c784940e2e3dddbe5f14e7a9
+    new: 9b78bbef5138bee1b6fc08e2b6a2e27f2e382048
     log: |
-         4469c0c5b14a0919f5965c7ceac96b523eb57b79 net: phy: fix phy_get_internal_delay accessing an empty array
+         9b78bbef5138bee1b6fc08e2b6a2e27f2e382048 net: chelsio: remove unused function calc_tx_descs
          
