@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Fri, 08 Mar 2024 21:36:20 -0000
-Message-Id: <170993378056.23001.7198746500335937318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Fri, 08 Mar 2024 21:38:03 -0000
+Message-Id: <170993388364.24983.14403855270895890181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/heads/dev-test
-    old: db781c2f534877bc17ac967ebd65b1471717a6f7
-    new: 151fdb1aa090894eaa3dcef3194f7aaaeafb94cb
+  - ref: refs/heads/master
+    old: 0ba2a93e04a8e5977330bfd591a35e88d90e2850
+    new: 06e0b1c08e655c5b6fb855420e31e27c8c4bdbe2
     log: |
-         dc03566da7b870d7062732e4b357ed7df9024f98 mkfs.f2fs: should give section-aligned reserved segments
-         151fdb1aa090894eaa3dcef3194f7aaaeafb94cb f2fs_io: support get_advise command
+         06e0b1c08e655c5b6fb855420e31e27c8c4bdbe2 mempool: Introduce optional stride parameter
          
