@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4469505754982809728=="
+Content-Type: multipart/mixed; boundary="===============2293742829718110407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 08 Mar 2024 22:47:25 -0000
-Message-Id: <170993804586.10665.12157707600643470902@gitolite.kernel.org>
+Date: Fri, 08 Mar 2024 22:47:46 -0000
+Message-Id: <170993806666.10881.17319364859653606031@gitolite.kernel.org>
 
---===============4469505754982809728==
+--===============2293742829718110407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 19cfdc0d57696c92523da8eb26c0f3e092400bee
     new: d721812aa875a898eb38b2729abf6e96abdb357b
     log: revlist-19cfdc0d5769-d721812aa875.txt
 
---===============4469505754982809728==
+--===============2293742829718110407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -159,4 +159,4 @@ f654e228ed6b822e87e6e6ad8e889bedccae2e16 Merge tag 'ath-next-20240305' of git://
 026763ece881b4c636173c25d012cde085689027 ipv6: raw: check sk->sk_rcvbuf earlier
 d721812aa875a898eb38b2729abf6e96abdb357b ipv4: raw: check sk->sk_rcvbuf earlier
 
---===============4469505754982809728==--
+--===============2293742829718110407==--
