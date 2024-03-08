@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 08 Mar 2024 00:58:10 -0000
-Message-Id: <170985949099.23052.13714818455453510150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 08 Mar 2024 00:59:42 -0000
+Message-Id: <170985958243.23697.12799889497326058501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 846b7336f21d2e739870b731b3d0ec507c3705e6
-    new: c45392a8b23c2276170e11d71e0e4b11fd7316cf
+  - ref: refs/heads/dev
+    old: e3038bbf5d746fd4c72975b792abbb63fa3f3421
+    new: 6a760eb30b551f7f084f46a517469c0b021616e3
     log: |
-         cb824724dccb3195d22cad96e7b65fe13621d0a6 dm vdo: document minimum metadata size requirements
-         c45392a8b23c2276170e11d71e0e4b11fd7316cf Merge branch 'dm-vdo' into for-next
+         778945c4e6ae14431ae97d71ddd9729cc3ca2b0c rcu: Remove redundant READ_ONCE() of rcu_state.gp_flags in tree.c
+         6a35646a82ab3691c8953d1bee0e7c3dbd13460c rcu: Bring diagnostic read of rcu_state.gp_flags into alignment
+         6a760eb30b551f7f084f46a517469c0b021616e3 EXP srcu: Check for concurrent updates of heuristics
          
