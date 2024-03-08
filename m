@@ -1,27 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 08 Mar 2024 20:20:14 -0000
-Message-Id: <170992921473.32359.1743537594161861757@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Fri, 08 Mar 2024 20:37:17 -0000
+Message-Id: <170993023729.11050.359444574206531036@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 71b43531ee0be6dcaa406132ebd540022dcb12ea
-    new: c5967721e1063648b0506481585ba7e2e49a075e
+  - ref: refs/heads/master
+    old: a8ad787a2cb677069847d672787e67d8100d75f8
+    new: 4aa3220ce405549ea2c533ff460e8ab2c5fcbc24
     log: |
-         a1f5788a0c250c87d3007d59d11a00ab98e66f01 svcrdma: Move write_info for Reply chunks into struct svc_rdma_send_ctxt
-         10e6fc1054d900a205e5233f186ebce9c50e1d1d svcrdma: Post the Reply chunk and Send WR together
-         d2727cefff0204c3074a10e3ad2e1b5c9dfb986c svcrdma: Post WRs for Write chunks in svc_rdma_sendto()
-         e084ee673c77cade06ab4c2e36b5624c82608b8c svcrdma: Add Write chunk WRs to the RPC's Send WR chain
-         f81040276a65780fd40cd1a964f1d2c1e7959f75 nfsd: clean up comments over nfs4_client definition
-         e4469c6cc69be1b5a1d93699618f3f84f16f22f8 NFSD: Fix the NFSv4.1 CREATE_SESSION operation
-         b910544a5a41b4d71141128c2d5d8eda056bf665 NFSD: Document the phases of CREATE_SESSION
-         6487a13b5c6bee2ca3fc931f8ad28c8ae887a41f NFSD: add support for CB_GETATTR callback
-         c5967721e1063648b0506481585ba7e2e49a075e NFSD: handle GETATTR conflict with write delegation
+         b73b0c25cda4bcc13db07e87b4835988de6e6aa4 mempool: implement one range
+         8f28507fa41c7b2a35b9ca61bc8f0b97a25ba838 rseq-mempool: Call set_alloc_slot() on all paths
+         f2981623537991d12aaf7510f1addf864ecda6b2 percpu alloc: Introduce stride parameter
+         5c99f3d68469ddcf9d5b57bb4844ca7029958f8b Memory map ranges aligned on the stride
+         4aa3220ce405549ea2c533ff460e8ab2c5fcbc24 mempool: Use masks to get pool range from pointer and stride for percpu offset
          
