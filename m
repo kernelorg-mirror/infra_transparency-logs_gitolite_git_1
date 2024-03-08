@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5217748413058759450=="
+Content-Type: multipart/mixed; boundary="===============2751317776435467264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Fri, 08 Mar 2024 08:34:31 -0000
-Message-Id: <170988687138.6760.838848088748565043@gitolite.kernel.org>
+Date: Fri, 08 Mar 2024 08:34:58 -0000
+Message-Id: <170988689812.6964.11408525788852116777@gitolite.kernel.org>
 
---===============5217748413058759450==
+--===============2751317776435467264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 2ce0eae694cfa8d0f5e4fa396015fc68c5958e8d
     new: e3fb8e8ba72b053d05ca2602acdd6b869f9f296f
     log: revlist-2ce0eae694cf-e3fb8e8ba72b.txt
 
---===============5217748413058759450==
+--===============2751317776435467264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ba18deddd6d502da71fd6b6143c53042271b82bd net: pds_core: Fix possible double free
 df4793505abd5df399bc6d9a4d8fe81761f557cd Merge tag 'net-6.8-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 e3fb8e8ba72b053d05ca2602acdd6b869f9f296f net: dsa: microchip: make sure drive strength configuration is not lost by soft reset
 
---===============5217748413058759450==--
+--===============2751317776435467264==--
