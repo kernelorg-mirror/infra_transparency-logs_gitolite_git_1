@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 08 Mar 2024 11:23:27 -0000
-Message-Id: <170989700733.18299.7352025241333170781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
+Date: Fri, 08 Mar 2024 11:24:16 -0000
+Message-Id: <170989705610.18713.1455185695851928621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/tomba/linux
+user: tomba
 changes:
-  - ref: refs/heads/master
-    old: cdb083e73d632afcc5a931d31bb37445580f4bfb
-    new: 77292bb8ca69c808741aadbd29207605296e24af
+  - ref: refs/heads/rpi/cfe-streams-bsp
+    old: 8a2ad83261cfcfd1e17ce16f52d99fc396c9eeb4
+    new: d5d2e211134a76a70c8af3ac0b457496de16b8c9
     log: |
-         bc9ce934c469d594d77c44b41a90570fc8881e4d MAINTAINERS: Remove T Ambarus from few mchp entries
-         12e37aef7ba20a5a0d6e076968a41293b019e90d hwrng: hisi - use dev_err_probe
-         db8ac883855ee3ccf52eb47ac665dbc1efac3af9 crypto: hisilicon/zip - fix the missing CRYPTO_ALG_ASYNC in cra_flags
-         30dd94dba350043a32cfe9cb478ed621aae3c5c9 crypto: iaa - fix the missing CRYPTO_ALG_ASYNC in cra_flags
-         43a7885ec0dfca2bdc60f2de736e55cf5e7b915d crypto: tcrypt - add ffdhe2048(dh) test
-         77292bb8ca69c808741aadbd29207605296e24af crypto: scomp - remove memcpy if sg_nents is 1 and pages are lowmem
+         3ee75ed123d80f37d814d52232c4c69c749ebd6d fe: set_fmt: validate format for OUTPUT0/1
+         647ca17ce7cd48c51daf093753c4a5f43ac3cb7d cfe: rename underscore in channel names
+         2dabad0303ee345f24313dd8d08924327b4583ee cfe: rename embedded channel to csi2-ch1
+         0d994d396cdfe16fd8633ced3104178adc44b611 cfe: allow video cap on CH1
+         abdf9ef63764aaba51177e7f177f751c63467eca cfe: constrained streams support
+         fad62d1bfd565917ef6a9a10b670a62055aea98e cfe: fix remote source pad usage
+         d5d2e211134a76a70c8af3ac0b457496de16b8c9 cfe: enable full streams but with synchronized buffers
          
