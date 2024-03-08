@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 08 Mar 2024 00:00:32 -0000
-Message-Id: <170985603208.14431.166900198462882209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Fri, 08 Mar 2024 00:18:16 -0000
+Message-Id: <170985709605.26791.4459758583582284590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/aer
-    old: 96ed79791b1b213c892301595459e0ea404540b3
-    new: 002bf2fbc00e5c4b95fb167287e2ae7d1973281e
+  - ref: refs/heads/mm-hotfixes-stable
+    old: f1d088178568a1b6e8bacb3d48e1c51a3b522af8
+    new: ded79af42f114bb89f8e90c8e7337f5b7bb5f015
     log: |
-         002bf2fbc00e5c4b95fb167287e2ae7d1973281e PCI/AER: Block runtime suspend when handling errors
+         ded79af42f114bb89f8e90c8e7337f5b7bb5f015 scripts/gdb/symbols: fix invalid escape sequence warning
          
