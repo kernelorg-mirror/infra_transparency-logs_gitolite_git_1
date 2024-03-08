@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7817732953985293780=="
+Content-Type: multipart/mixed; boundary="===============2422143980526754430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 08 Mar 2024 06:55:58 -0000
-Message-Id: <170988095874.1201.9406518809080824031@gitolite.kernel.org>
+Date: Fri, 08 Mar 2024 07:03:16 -0000
+Message-Id: <170988139696.5583.7310983222260806753@gitolite.kernel.org>
 
---===============7817732953985293780==
+--===============2422143980526754430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: andi.shyti
 git_push_cert_status: E
 changes:
   - ref: refs/heads/i2c/i2c-host
-    old: 5d85665181beb6d75a0e9e0652f41bd0acb877df
-    new: 3fe30b74207a4da40064f16a02655d170978547c
+    old: 3fe30b74207a4da40064f16a02655d170978547c
+    new: 06d0cb6c824c7df736e66060b8c63b0100259d3f
     log: |
-         3fe30b74207a4da40064f16a02655d170978547c i2c: sprd: Convert to platform remove callback returning void
+         06d0cb6c824c7df736e66060b8c63b0100259d3f i2c: sprd: Convert to platform remove callback returning void
          
 
---===============7817732953985293780==
+--===============2422143980526754430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1709880957 +0100
+pusher andi.shyti@kernel.org 1709881396 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1709880957-4d92b49ea0430ac9c54a4dae680b74c31ef79f82
+nonce 1709881395-abaddbcdfcf7b7953bab1fbd8c927d893acd6d38
 
-5d85665181beb6d75a0e9e0652f41bd0acb877df 3fe30b74207a4da40064f16a02655d170978547c refs/heads/i2c/i2c-host
+3fe30b74207a4da40064f16a02655d170978547c 06d0cb6c824c7df736e66060b8c63b0100259d3f refs/heads/i2c/i2c-host
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZeq2fRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uBioA/1IIVQat4LMdLyjNNLctgAIVSvLR
-Lvnyr/MLH6egZ1GCAP9Ya28UcRPDUzKuOTYq/iOrS+56N1Q811nSLmF23Tl9Dw==
-=NEJx
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZeq4NBYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u4/IA/2F0/0bELTgEisMFUHbZ3eTDv/70
+Gs+/V39xDj9MxeicAP9UJyo2MVc6NQ8hePunlg5+U5LKY3Io9OLkrjPkXHmkBA==
+=qxsr
 -----END PGP SIGNATURE-----
 
---===============7817732953985293780==--
+--===============2422143980526754430==--
