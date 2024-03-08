@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 08 Mar 2024 11:37:04 -0000
-Message-Id: <170989782476.28283.8968938564182801917@gitolite.kernel.org>
+Date: Fri, 08 Mar 2024 11:43:42 -0000
+Message-Id: <170989822266.1056.242163193160506444@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 3dbf6d67f2d81f1a80cee9fdb391c1ff3ee7cd8d
-    new: 7221fbe84f2e7cb0a7208115e8734cbe36d7b2a4
+    old: 7221fbe84f2e7cb0a7208115e8734cbe36d7b2a4
+    new: e3eec3497731e227f02d6f83899ef23b34996b2b
     log: |
-         f0a7da702093d5ff2c54ea18d6b47658be1b4522 ipv6: make inet6_fill_ifaddr() lockless
-         46f5182dd792c55940ca520576d1544744732b81 ipv6: make in6_dump_addrs() lockless
-         9cc4cc329d30dbb353fbb23ef8cd633e8f5b8ccf ipv6: use xa_array iterator to implement inet6_dump_addr()
-         155549a6683b1ee37cecec1bd4a439083b706656 ipv6: remove RTNL protection from inet6_dump_addr()
-         570c86ed60ccce1bb4fca0c33fc9bb0679c59821 Merge branch 'ipv6-lockless-dump-addrs'
-         7221fbe84f2e7cb0a7208115e8734cbe36d7b2a4 Add Jeff Kirsher to .get_maintainer.ignore
+         c49172f7a8cf0afd94aec04a6db6145e6360547d iavf: drop duplicate iavf_{add|del}_cloud_filter() calls
+         60e4caf36b882950e01f99b54ebcdb8e11052f7b i40e: remove unnecessary qv_info ptr NULL checks
+         836aeaf73aa17daa3f590c7d704d1bdfee722099 ixgbe: pull out stats update to common routines
+         e3eec3497731e227f02d6f83899ef23b34996b2b Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
          
