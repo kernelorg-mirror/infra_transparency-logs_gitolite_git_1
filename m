@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2679265265811023104=="
+Content-Type: multipart/mixed; boundary="===============7842361795642406702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 08 Mar 2024 16:27:04 -0000
-Message-Id: <170991522417.24073.13104960447964656907@gitolite.kernel.org>
+Date: Fri, 08 Mar 2024 16:27:39 -0000
+Message-Id: <170991525939.24356.5838572763257591532@gitolite.kernel.org>
 
---===============2679265265811023104==
+--===============7842361795642406702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 15d2540e0d626b7960c9cafb3c825554fdf1a2b4
-    new: 19cfdc0d57696c92523da8eb26c0f3e092400bee
-    log: revlist-15d2540e0d62-19cfdc0d5769.txt
+  - ref: refs/heads/dev-queue
+    old: a1f784942c7d906a1cf40d03fbaf4da4b00ea9ab
+    new: 6de040d01ac5a44825d41f6b023aff1d8dfc9bc8
+    log: revlist-a1f784942c7d-6de040d01ac5.txt
 
---===============2679265265811023104==
+--===============7842361795642406702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15d2540e0d62-19cfdc0d5769.txt
+Content-Disposition: attachment; filename=revlist-a1f784942c7d-6de040d01ac5.txt
 
 63b21caba17ef2df5982c7b75eb989100212b27b xfrm: introduce forwarding of ICMP Error messages
 ab1e1a38de240057ed108075abd1309c02e2a2a4 xfrm6_tunnel: Use KMEM_CACHE instead of kmem_cache_create
@@ -158,5 +158,25 @@ dd1f65f0db27467f742d8c6e5276b8e8e0c83890 net: hns3: add new 200G link modes for 
 11d80f79dd9f871a52feba4bf24b5ac39f448eb7 net: hns3: fix port duplex configure error in IMP reset
 4e2969a0d6a7549bc0bc1ebc990588b622c4443d net: hns3: add checking for vf id of mailbox
 19cfdc0d57696c92523da8eb26c0f3e092400bee Merge branch 'hns3-fixes'
+f30ae6d142faaba840e24bb3921abe1604a40e31 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+180efba2935c29e5aa1921e6fea9ec4b744571cd ice: Refactor FW data type and fix bitmap casting issue
+5983e6aa41fd78ae50029bb720e7372e0c1e19bf ice: Add switch recipe reusing feature
+4a502d4d3ff5eb42f1250a5ed87395f7cab23316 igc: Refactor runtime power management flow
+1ae02e0cfe934a9d328e5e220113717b5185feb9 ethtool: Add GTP RSS hash options to ethtool.h
+2f438c3cf66634530836aaa8cf60aa02f23d6126 ice: Implement RSS settings for GTP using ethtool
+7a54dce8067dbea26c2adf98d299bf6e2fc2ea52 igc: Fix missing time sync events
+e7e95c65eb0b72e6cf8a288fffdf529f02bff660 igb: Fix missing time sync events
+bc2e0c7bb4a79f181d475a8251a93fcaf032644f ice: tc: check src_vsi in case of traffic from VF
+7d1641077fe5cccb00ad1219cd66730752bb3348 ice: tc: allow ip_proto matching
+43069c9c2bfad0b9a21798e6fb9aa6c3bbe3d10e ice: fix stats being updated by way too large values
+eb3472a87c1acf5b5b6d8b67a0b7be64d1539ae9 ice: remove eswitch changing queues algorithm
+65227890796f1e402b0d7ce2476c37209c781983 ice: do Tx through PF netdev in slow-path
+ba2fe31cd4e29c9f3fa457bcbf860b542d9b9542 ice: default Tx rule instead of to queue
+c82ec431877cc228ed450aabbcf95df3bef6b31e ice: control default Tx rule in lag
+e2dc295b438a89c9b16974f96af2460273d3b8bc ice: remove switchdev control plane VSI
+191d272bbe064b9f9cdb6cb4be64b93ffd79f6af ice: change repr::id values
+515c06b8ec45384a04b97c73326ed4416bc9ed81 ice: do switchdev slow-path Rx using PF VSI
+a6801579d0e52919d0f15491226cfacc556d1305 ice: count representor stats
+6de040d01ac5a44825d41f6b023aff1d8dfc9bc8 e1000e: move force SMBUS from enable ulp function to avoid PHY loss
 
---===============2679265265811023104==--
+--===============7842361795642406702==--
