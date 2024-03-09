@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 09 Mar 2024 18:59:12 -0000
-Message-Id: <171001075215.23194.14353163518818615631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Sat, 09 Mar 2024 18:59:14 -0000
+Message-Id: <171001075402.23301.11950714780808876585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: e3a9394d11be47bb91735caea61ede572510ecff
+  - ref: refs/tags/v4.6.1
+    old: a69d0a7bd1cfbf9913be0f3175ac4f9a3fae14f3
     new: 0000000000000000000000000000000000000000
