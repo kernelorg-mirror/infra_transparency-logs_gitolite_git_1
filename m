@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Sat, 09 Mar 2024 03:48:50 -0000
-Message-Id: <170995613095.4868.7547442831698580189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 09 Mar 2024 03:58:28 -0000
+Message-Id: <170995670804.11446.8192951503702820189@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 89b7e681b34e4d16c60f9a644dfccf3585e0d5e8
-    new: 80b7ed9f90d81740719c30c38774d1e729e1dff7
+  - ref: refs/heads/main
+    old: d721812aa875a898eb38b2729abf6e96abdb357b
+    new: 6de3b6c75dd931b078ab21f12c598c6177fb3f75
     log: |
-         80b7ed9f90d81740719c30c38774d1e729e1dff7 smp.c: fix includes and macro namespace
+         6de3b6c75dd931b078ab21f12c598c6177fb3f75 tools: ynl: Fix spelling mistake "Constructred" -> "Constructed"
          
