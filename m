@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Sat, 09 Mar 2024 20:26:18 -0000
-Message-Id: <171001597861.31078.14151582946090397090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Sat, 09 Mar 2024 20:33:44 -0000
+Message-Id: <171001642477.3067.5898486685504965659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: 9d9863530f6fa059d405bc6d531890f8a47c72f7
-    new: e11a02d7003c256fa2f3be7df5142686cef19ef2
+  - ref: refs/heads/for-next/pstore
+    old: 98bc7e26e14fbb26a6abf97603d59532475e97f8
+    new: c8d25d696f526a42ad8cf615dc1131c0b00c662e
     log: |
-         e11a02d7003c256fa2f3be7df5142686cef19ef2 mempool: Introduce rseq_mempool_attr_set_max_nr_ranges
+         c8d25d696f526a42ad8cf615dc1131c0b00c662e pstore/zone: Don't clear memory twice
          
