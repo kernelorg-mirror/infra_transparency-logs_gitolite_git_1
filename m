@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
-Date: Sat, 09 Mar 2024 00:02:58 -0000
-Message-Id: <170994257881.32549.783501131070581575@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Sat, 09 Mar 2024 00:26:19 -0000
+Message-Id: <170994397999.17620.13921854049767299012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/oupton/linux
-user: oupton
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/heads/kvm-arm64/6.9-integration
-    old: 0000000000000000000000000000000000000000
-    new: 531582b6d3fee19b8c6919fd161b0891ef713d39
+  - ref: refs/heads/master
+    old: 15da5c27fcf3e212417afb4c7d4442a0066cfc6d
+    new: c92724ff22a95a7aacd2e4cdf5211d68084fc014
+    log: |
+         aa021469653cfd05e275881592246861c250a94d Revert "x86-64: Implement/use load_cbne_load_add_load_add_store"
+         0fda05227f3a210a8f5674ffbaf14af3fd24d7a0 Add missing rseq_after_asm_goto in rseq_load_add_load_load_add_store__ptr
+         c92724ff22a95a7aacd2e4cdf5211d68084fc014 membarrier rseq fence test: adapt to RSEQ_PERCPU_STRIDE
+         
