@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Sat, 09 Mar 2024 02:16:48 -0000
-Message-Id: <170995060854.4179.18336970530934070737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 09 Mar 2024 02:23:24 -0000
+Message-Id: <170995100454.8158.16738529847685571308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: e30d5eb8cbe84ec2b6c88f93d90029587f806167
-    new: c3fad074af2d88b1e01f373ebc17e58b7a28cf85
+    old: 10d48d70e82d7d19eb9157fdb599bfce4a5768bc
+    new: 09e5c48fea173b72f1c763776136eeb379b1bc47
     log: |
-         c3fad074af2d88b1e01f373ebc17e58b7a28cf85 mempool test: iterate from page size
+         321e3c3de53c7530cd518219d01f04e7e32a9d23 libceph: init the cursor when preparing sparse read in msgr2
+         09e5c48fea173b72f1c763776136eeb379b1bc47 Merge tag 'ceph-for-6.8-rc8' of https://github.com/ceph/ceph-client
          
