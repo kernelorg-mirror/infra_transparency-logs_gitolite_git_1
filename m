@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Sat, 09 Mar 2024 15:53:10 -0000
-Message-Id: <170999959032.18232.12476997515296516705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Sat, 09 Mar 2024 16:10:29 -0000
+Message-Id: <171000062921.31983.17963541957789526991@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wbg/counter
-user: wbg
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/counter-next
-    old: a297b4a46ffd195a87532d37a2c344240d7d5ee4
-    new: d5b71a36a6afb6d2fe70ed134a3163be6e205ae6
-    log: |
-         d5b71a36a6afb6d2fe70ed134a3163be6e205ae6 MAINTAINERS: Update email addresses for William Breathitt Gray
-         
+  - ref: refs/tags/v6.8-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8bf1e5a08989cf5c8d9c117ebc47554951a08d6d
+  - ref: refs/tags/v6.8-rc7
+    old: 0000000000000000000000000000000000000000
+    new: ae587d09d5d2b63498be8f0959bd89c042d4dfdd
