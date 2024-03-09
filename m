@@ -1,117 +1,91 @@
-Content-Type: multipart/mixed; boundary="===============2890923524349220433=="
+Content-Type: multipart/mixed; boundary="===============6060551542640877344=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 09 Mar 2024 01:59:06 -0000
-Message-Id: <170994954653.21389.2793544422999617748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sat, 09 Mar 2024 02:13:02 -0000
+Message-Id: <170995038207.493.18323907344574188653@gitolite.kernel.org>
 
---===============2890923524349220433==
+--===============6060551542640877344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 3aaa8ce7a3350d95b241046ae2401103a4384ba2
-    new: 10d48d70e82d7d19eb9157fdb599bfce4a5768bc
-    log: revlist-3aaa8ce7a335-10d48d70e82d.txt
+  - ref: refs/heads/next
+    old: c1ea87d7ee147b4fd526f238b8e20889c532d10d
+    new: 2cded1c69685827f033764e55ecf224fc94ce5fa
+    log: |
+         72a8d3f027a5ea04ac453583105b368cd88648cd rebase -i: stop setting GIT_CHERRY_PICK_HELP
+         0c1c3c861eacc7e27e627c80cc081ec7c00c743d t0211: demonstrate missing 'def_param' events for certain commands
+         520cf668149d43820a25869dc5f2eb7ff2ac5687 trace2: avoid emitting 'def_param' set more than once
+         6111252cbf21abb175411da5c5a2cde65bb8f3e9 trace2: emit 'def_param' set with 'cmd_name' event
+         51d41dc243d6218674e47462b067841cb0d9b48b doc/gitremote-helpers: fix missing single-quote
+         e806ee9493c001ab72ac8dec2c3dece73ef1dedf Merge branch 'pw/rebase-i-ignore-cherry-pick-help-environment' into next
+         a797cfea3cecc96f3a16703eeb18bb585b7b809e Merge branch 'jh/trace2-missing-def-param-fix' into next
+         2cded1c69685827f033764e55ecf224fc94ce5fa Merge branch 'jk/doc-remote-helpers-markup-fix' into next
+         
+  - ref: refs/heads/seen
+    old: badc1cd50847d1fa30dce518b528b731f9d83f32
+    new: 9e0f7e5a31e4f5a24fd45c0a0bdeb2bd7e4ee7c0
+    log: revlist-badc1cd50847-9e0f7e5a31e4.txt
 
---===============2890923524349220433==
+--===============6060551542640877344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3aaa8ce7a335-10d48d70e82d.txt
+Content-Disposition: attachment; filename=revlist-badc1cd50847-9e0f7e5a31e4.txt
 
-cb4443f26b43efa54494b8de8a50457febb06940 pinctrl: stm32: fix PM support for stm32mp257
-d3d17e23d1a0d1f959b4fa55b35f1802d9c584fa thunderbolt: Fix NULL pointer dereference in tb_port_update_credits()
-c83ccdc9586b3e9882da9e27507c046751999d59 counter: fix privdata alignment
-7a9b9012043e126f6d6f4683e67409312d1b707b mei: me: add arrow lake point S DID
-8436f25802ec028ac7254990893f3e01926d9b79 mei: me: add arrow lake point H DID
-daaf5286b6d2528a73c651aa2d4059bc1bd67c2e mei: Add Meteor Lake support for IVSC device
-60caa8b33bd682a9ed99d1fc3f91d74e1acc9922 iio: imu: inv_mpu6050: fix FIFO parsing when empty
-a9dd9ba323114f366eb07f1d9630822f8df6cbb2 iio: pressure: Fixes BMP38x and BMP390 SPI support
-daec424cc57b33a28f8621eb7ac85f8bd327bd6b iio: imu: inv_mpu6050: fix frequency setting when chip is off
-a1c9f508db2543aae59ea2378b07a026f6c917cf iio: pressure: dlhl60d: Initialize empty DLH bytes
-1b926914bbe4e30cb32f268893ef7d82a85275b8 iio: accel: adxl367: fix DEVID read after reset
-11dadb631007324c7a8bcb2650eda88ed2b9eed0 iio: accel: adxl367: fix I2C FIFO data register
-cb2b7d6f8c96414e1ab63c5f6e89d1c66a8b1078 drm/i915/hdcp: Move to direct reads for HDCP
-20dfa63d7379408edfcae8bda8ef5ea44d7b357f drm/i915/hdcp: Remove additional timing for reading mst hdcp message
-e567857cb41c4c4f5bb33fd0ff3c282c5c3c4577 drm/i915/hdcp: Extract hdcp structure from correct connector
-01bb1ae35006e473138c90711bad1a6b614a1823 drm/i915: Check before removing mm notifier
-231bf30c107aaf935cdd02b308757d0823ff1414 ASoC: madera: Fix typo in madera_set_fll_clks shift value
-f8b0127aca8c60826e7354e504a12d4a46b1c3bb ASoC: Intel: bytcr_rt5640: Add an extra entry for the Chuwi Vi8 tablet
-f6443e0177a55f78e94ccc1a43eb63a023a0b6fd pinctrl: don't put the reference to GPIO device in pinctrl_pins_show()
-d397b6e56151099cf3b1f7bfccb204a6a8591720 ALSA: hda/realtek - Fix headset Mic no show at resume back for Lenovo ALC897 platform
-642b02b45de51a36f2f3ec9a3584a4df6212b315 ALSA: hda: optimize the probe codec process
-3c4a311c2c15ef0fa07c225ee02197a316e10e00 Merge tag 'thunderbolt-for-v6.8-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
-febbe9b9c0b5fd77b03d4c6795ef7b8bcabac984 Merge tag 'counter-fixes-for-6.8b' of https://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
-da85c25cdb6780b9bb5585c443272d3cd5920981 Merge tag 'iio-fixes-for-6.8b' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
-014bcf41d946b36a8f0b8e9b5d9529efbb822f49 USB: usb-storage: Prevent divide-by-0 error in isd200_ata_command
-672448ccf9b6a676f96f9352cbf91f4d35f4084a tty: serial: imx: Fix broken RS485
-e5d6bd25f93d6ae158bb4cd04956cb497a85b8ef serial: 8250_dw: Do not reclock if already at correct rate
-43066e32227ecde674e8ae1fcdd4a1ede67680c2 serial: port: Don't suspend if the port is still busy
-1581dafaf0d34bc9c428a794a22110d7046d186d vt: fix unicode buffer corruption when deleting characters
-dd50f771af20fb02b1aecde04fbd085c872a9139 Input: xpad - add additional HyperX Controller Identifiers
-ac3e0384073b2408d6cb0d972fee9fcc3776053d misc: lis3lv02d_i2c: Fix regulators getting en-/dis-abled twice on suspend/resume
-34ab5bbc6e82214d7f7393eba26d164b303ebb4e ALSA: hda/realtek - Add Headset Mic supported Acer NB platform
-37d9d5ff5216df1908a41e6ddd72460c5d938b8a ALSA: hda: cs35l41: Support Lenovo Thinkbook 16P
-6214e24cae9b10a7c1572f99552610a24614fffe ALSA: hda/realtek: Add quirks for Lenovo Thinkbook 16P laptops
-b603d95692e47dc6f5f733e93c3841dc0c01e624 ALSA: hda: cs35l41: Overwrite CS35L41 configuration for ASUS UM5302LA
-72e6d668773fd19f78a6e8017347b08a5cccaaeb drm: Fix output poll work for drm_kms_helper_poll=n
-9dfc46c87cdc8f5a42a71de247a744a6b8188980 drm/panel: boe-tv101wum-nl6: Fine tune Himax83102-j02 panel HFP and HBP (again)
-cbae1a350e3ceff38242a4905805c80ccbcfbba5 ASoC: rcar: adg: correct TIMSEL setting for SSI9
-b3a51137607cee7c814cd3a75d96f78b9ee1dc1f ASoC: amd: yc: Add HP Pavilion Aero Laptop 13-be2xxx(8BD6) into DMI quirk table
-9b467b425710c2af24b78ca4007f6d12c7ec8b78 MAINTAINERS: Update email address for Tvrtko Ursulin
-d6a209dd76e5ceb5d536e0a1a707ffcf64f95cef Merge tag 'drm-intel-fixes-2024-03-01' of https://anongit.freedesktop.org/git/drm/drm-intel into drm-fixes
-a17bd44c0146b00fcaa692915789c16bd1fb2a81 ALSA: hda/realtek: fix mute/micmute LEDs for HP EliteBook
-0b385be4c3ccd5636441923d7cad5eda6b4651cb drm/i915: Don't explode when the dig port we don't have an AUX CH
-4a30dcac38c2b34f5b4f358630774bc2c2c104b0 usb: typec: ucsi: fix UCSI on SM8550 & SM8650 Qualcomm devices
-197331b27ac890d0209232d5f669830cd00e8918 usb: typec: tpcm: Fix PORT_RESET behavior for self powered devices
-165376f6b23e9a779850e750fb2eb06622e5a531 usb: typec: altmodes/displayport: create sysfs nodes as driver's default device attribute group
-f90ce1e04cbcc76639d6cba0fdbd820cd80b3c70 usb: gadget: ncm: Fix handling of zero block length packets
-69c63350e573367f9c8594162288cffa8a26d0d1 usb: port: Don't try to peer unused USB ports based on location
-74cb7e0355fae9641f825afa389d3fba3b617714 tty: serial: fsl_lpuart: avoid idle preamble pending if CTS is enabled
-3d9319c27ceb35fa3d2c8b15508967f3fc7e5b78 Revert "tty: serial: simplify qcom_geni_serial_send_chunk_fifo()"
-b234c70fefa7532d34ebee104de64cc16f1b21e4 xhci: Fix failure to detect ring expansion need.
-daf8739c3322a762ce84f240f50e0c39181a41ab drm/nouveau: fix stale locked mutex in nouveau_gem_ioctl_pushbuf
-cfa9ba1ae0bef0681833a22d326174fe633caab5 comedi: comedi_8255: Correct error in subdevice initialization
-f53641a6e849034a44bf80f50245a75d7a376025 comedi: comedi_test: Prevent timers rescheduling during deletion
-a283d7f179ff83976af27bcc71f7474cb4d7c348 misc: fastrpc: Pass proper arguments to scm call
-a0776c214d47ea4f7aaef138095beaa41cff03ef mei: gsc_proxy: match component when GSC is on different bus
-482c9f3d42ba58a2ae1f69cbfbf3a9f3e251527d ASoC: dt-bindings: nvidia: Fix 'lge' vendor prefix
-95bf25bb9ed5dedb7fb39f76489f7d6843ab0475 drm/udl: Add ARGB8888 as a format
-7105e92c60c9cc4112c782d69c172e96b69a43dc Revert "Input: bcm5974 - check endpoint type before starting traffic"
-963465a33141d0d52338e77f80fe543d2c9dc053 Input: gpio_keys_polled - suppress deferred probe error for gpio
-26d2b757fff02bbe971abc39071e263aa0cab924 drm/i915/selftests: Fix dependency of some timeouts on HZ
-0848814aa296ca13e4f03848f35d2d29fc7fc30c drm/i915/dp: Fix connector DSC HW state readout
-984318aaf7b6516d03a2971a4a37bab4ea648461 drm/i915/panelreplay: Move out psr_init_dpcd() from init_connector()
-317f86dc1b8e219e799271042a17d56a95a935bc Revert "drm/udl: Add ARGB8888 as a format"
-03c7874106ca5032a312626b927b1c35f07b1f35 ASoC: wm8962: Enable oscillator if selecting WM8962_FLL_OSC
-6fa849e4d78b880e878138bf238e4fd2bac3c4fa ASoC: wm8962: Enable both SPKOUTR_ENA and SPKOUTL_ENA in mono mode
-96e202f8c52ac49452f83317cf3b34cd1ad81e18 ASoC: wm8962: Fix up incorrect error message in wm8962_set_fll
-6601c15c8a0680edb0d23a13151adb8023959149 drm/amd/swsmu: modify the gfx activity scaling
-e9098cc9aef13bd56e821f628c83f709d3347af1 drm/amd/display: check dc_link before dereferencing
-937844d661354bf142dc1c621396fdab10ecbacc drm/amd/display: handle range offsets in VRR ranges
-0dafaf659cc463f2db0af92003313a8bc46781cd drm/amdgpu/pm: Fix the error of pwm1_enable setting
-a4e7596e209783a7be2727d6b947cbd863c2bbcb drm/xe: Return immediately on tile_init failure
-4ece8fc439c370b1aec26a44b9f94fb214068d42 drm/tests/buddy: fix print format
-fbf8d71742557abaf558d8efb96742d442720cc2 Input: synaptics-rmi4 - fix UAF of IRQ domain on driver removal
-698236f5993fb138f7b0c9c26cc59a5e36952f82 Merge tag 'drm-intel-fixes-2024-03-07' of https://anongit.freedesktop.org/git/drm/drm-intel into drm-fixes
-3a397b131d16305792dc940057e5df84a5b4247c Merge tag 'drm-xe-fixes-2024-03-07' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-b3cdb1928fa81c3e3d2111f9376c455958f86678 Merge tag 'amd-drm-fixes-6.8-2024-03-07' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-83c34dcbe0e947495961e5f6efaadb67004071b5 Merge tag 'drm-misc-fixes-2024-03-07' of https://anongit.freedesktop.org/git/drm/drm-misc into drm-fixes
-b7cc4ff787a572edf2c55caeffaa88cd801eb135 nouveau: lock the client object tree.
-21e59fe2f7221cdc77b2e5ef90a04c302b237053 Merge tag 'asoc-fix-v6.8-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-e6fac3c1f3287735faf1b68e0068f64e6966618d Merge tag 'drm-fixes-2024-03-08' of https://gitlab.freedesktop.org/drm/kernel
-6dfeb04c467826fe6f808827e19abd5c6336a08d Merge tag 'sound-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-7a4f31c7765e63e3219eac1e822ab16df09f318c Merge tag 'input-for-v6.8-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-49deb2805fdcd366b7a9123cec7914b93b543f75 Merge tag 'pinctrl-v6.8-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-e536e0d44c44f8854a6c527195c70ce9dd1e0c0b Merge tag 'usb-6.8-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-563c5b02f299f4374a157ae6423f8465a2495dd2 Merge tag 'tty-6.8-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
-10d48d70e82d7d19eb9157fdb599bfce4a5768bc Merge tag 'char-misc-6.8-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+bc01d7586b91d22b58a32fdd6e2daf600e333732 xdiff-interface: refactor parsing of merge.conflictstyle
+a30790f579c238ecaefe636c7030404bb1c0ca82 merge-ll: introduce LL_MERGE_OPTIONS_INIT
+41a8fc2755e95e36025cec5b6d87a285320fa5be merge options: add a conflict style member
+f310b499e99bac6a7f2bec12ec2c12adf8d598b6 checkout: cleanup --conflict=<style> parsing
+0c2b10da0db80558de5634640a9fb98b74fc454f setup: detect to be in $GIT_DIR with a new helper
+1798bb35b4afbf89cd44a6bbea61abaf3176c6e1 setup: make bareRepository=explicit work in GIT_DIR of a secondary worktree
+b2d15de493d8b0bc7ddb41e28e06b8e301175445 Merge branch 'js/merge-base-with-missing-commit' into jch
+c89d31439b003a04ddde3fd5022a85bc0cc434bf Merge branch 'es/config-doc-sort-sections' into jch
+504662a71468dd5e39d7432b3c64e89711d8412a Merge branch 'rs/t-ctype-simplify' into jch
+59dc1c10d02fb6478266771e5016e4650320a408 Merge branch 'kh/doc-dashed-commands-have-not-worked-for-a-long-time' into jch
+999ee4c9f5d516944461a6a47a8fe6bdfd5035f8 Merge branch 'sj/t9117-path-is-file' into jch
+bacb64bec6e62e4e5ca7eecd843897dc18140386 Merge branch 'so/clean-dry-run-without-force' into jch
+5a891a23d8a9e254a99325bf15797a9b964b62bf Merge branch 'ps/reftable-iteration-perf-part2' into jch
+7c43d1a134665d55ca6f1e88dbdc17e508447a17 Merge branch 'jh/fsmonitor-icase-corner-case-fix' into jch
+5479d3038837b4d3b0857d93cc40073c68d3eb83 Merge branch 'kh/doc-commentchar-is-a-byte' into jch
+0270a3c0f0dd5f5c24d36514eea40712a36d943a Merge branch 'la/trailer-api' into jch
+6165b3cc5786e4b6f70a13497ff674d74bfa72f3 Merge branch 'gt/core-bare-in-templates' into jch
+452b892471cb4e4d498edb61910cb32b07439cb4 Merge branch 'jc/test-i18ngrep' into jch
+acec16b3c9b5f850b3662b495f63609ec4e9cc52 Merge branch 'rj/complete-reflog' into jch
+c7cf784cb48f0ab9af95f58254b2b3cdd5757409 Merge branch 'rj/complete-worktree-paths-fix' into jch
+48f8ce855cf07ed5db7d65098684290e92b8b0ce Merge branch 'kh/branch-ref-syntax-advice' into jch
+b17b4d7345b0fb00fca3f9f796c64afb5ae20232 Merge branch 'as/option-names-in-messages' into jch
+63e4af756b6918982fcabf1384efd85e27e71637 Merge branch 'ag/t0010-modernize' into jch
+fe6e931706b20ed9681c6a1b84ced8693a74d62c Merge branch 'jc/xwrite-cleanup' into jch
+04f91880b0f7e3e74f80fca20609b51a9d6e3972 Merge branch 'vm/t7301-use-test-path-helpers' into jch
+98ec28dbcd979617669f28441c5e11092e7c57f5 Merge branch 'hd/config-mak-os390' into jch
+10de288d816671246467bef237515f907e46ab10 Merge branch 'pw/rebase-i-ignore-cherry-pick-help-environment' into jch
+a70c6fa5f636a73be711b7e4481f4a95a02df869 Merge branch 'jh/trace2-missing-def-param-fix' into jch
+df938ac1f8fba6938a4181c879915e4c75f9a358 Merge branch 'jk/doc-remote-helpers-markup-fix' into jch
+3d7e96d30d3b0cc327af98f79eac2f47f2d5bedd ### match next
+ff9d4a322eec0d9aaae1c35ce9bc17b0847ec95c Merge branch 'eb/hash-transition' into jch
+c5a6f33dafc825a62d8088e0ee4066d95992e320 Merge branch 'js/unit-test-suite-runner' into jch
+69fbc28a5d50d021d567c91b0eaf236bb9be1506 Merge branch 'tb/path-filter-fix' into jch
+29f405f91f6758927b1bd95d8510405250bc078e Merge branch 'rs/opt-parse-long-fixups' into jch
+a1278ffc1451aa9fb33d840b9598fb498cee646f Merge branch 'ps/reftable-stack-tempfile' into jch
+f9e08b9c2b0fae5c6cdac32581bce29f0e976c66 Merge branch 'js/build-fuzz-more-often' into jch
+84dca469502ddfb50f6ce1a0cb908c182e3b50e9 Merge branch 'ps/reftable-block-search-fix' into jch
+0b5d6967ffd708b7750e923b8287a1c307314967 Merge branch 'fs/find-end-of-log-message-fix' into jch
+7129db3acb82fc1aa320809057f10e8c5b748a6a Merge branch 'jk/core-comment-string' into jch
+9130fd1b7aa26bff99f9b706f0a23dc9e3a3b0a1 Merge branch 'jc/safe-secondary-worktree-gitdir' into jch
+ea3689f5fab4aa4b523051cca51f14f33064d3da Merge branch 'jc/rerere-cleanup' into seen
+a4164033fca26f550846ba3889c9ef992f61d60c Merge branch 'bk/complete-send-email' into seen
+f354011df67c18c0889e46fe7fc8b849b1335fde Merge branch 'bk/complete-dirname-for-am-and-format-patch' into seen
+55322b897b82fbf5b53ad285836ba2e42e61bdb3 Merge branch 'js/cmake-with-test-tool' into seen
+670ce5a98dba0c79195116d676dd77e9aac8ae63 Merge branch 'ps/reftable-reflog-iteration-perf' into seen
+5e2d22d5d9aa8b2434448c99ffc53467584899c0 Merge branch 'sj/userdiff-c-sharp' into seen
+b25fa514e4b97c9aad0ab50e7262310c226cb0e1 Merge branch 'cw/git-std-lib' into seen
+9e0f7e5a31e4f5a24fd45c0a0bdeb2bd7e4ee7c0 Merge branch 'pw/checkout-conflict-errorfix' into seen
 
---===============2890923524349220433==--
+--===============6060551542640877344==--
