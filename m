@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Sat, 09 Mar 2024 01:34:55 -0000
-Message-Id: <170994809535.3227.5701655890423869204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 09 Mar 2024 01:35:24 -0000
+Message-Id: <170994812434.5071.12301448151057520984@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: c92724ff22a95a7aacd2e4cdf5211d68084fc014
-    new: 6ef7b60cf092b0f5450cd2562eb51c14cd702208
+    old: d6f98243392f0f4b40b1903736d6458234dedf3b
+    new: d0d131e3b655fd267d14bb1bed49e3f990a1465e
     log: |
-         6ef7b60cf092b0f5450cd2562eb51c14cd702208 mempool: reduce default RSEQ_PERCPU_STRIDE to 64kB on 64-bit
+         d0d131e3b655fd267d14bb1bed49e3f990a1465e mm: Introduce vmap_page_range() to map pages in PCI address space
          
