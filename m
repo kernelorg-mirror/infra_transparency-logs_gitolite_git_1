@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Sat, 09 Mar 2024 15:47:29 -0000
-Message-Id: <170999924942.14635.5189928094216266881@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Sat, 09 Mar 2024 15:53:10 -0000
+Message-Id: <170999959032.18232.12476997515296516705@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/heads/master
-    old: 47c725ddc60c552784567a9cf5247b20d8b282ad
-    new: b72b2d9ebc1aa158f0745c1eee13ccc01a7a9d0d
+  - ref: refs/heads/counter-next
+    old: a297b4a46ffd195a87532d37a2c344240d7d5ee4
+    new: d5b71a36a6afb6d2fe70ed134a3163be6e205ae6
     log: |
-         b72b2d9ebc1aa158f0745c1eee13ccc01a7a9d0d mempool: aligned_mmap_anonymous: support non-power-of-2 nr_cpus
+         d5b71a36a6afb6d2fe70ed134a3163be6e205ae6 MAINTAINERS: Update email addresses for William Breathitt Gray
          
