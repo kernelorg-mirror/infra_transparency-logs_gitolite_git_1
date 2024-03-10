@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1128855027568603572=="
+Content-Type: multipart/mixed; boundary="===============0855835436965982988=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 10 Mar 2024 00:55:29 -0000
-Message-Id: <171003212903.29928.6819324839980326445@gitolite.kernel.org>
+Date: Sun, 10 Mar 2024 00:56:17 -0000
+Message-Id: <171003217783.30305.18298870515148431471@gitolite.kernel.org>
 
---===============1128855027568603572==
+--===============0855835436965982988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/kunit
-    old: 8280c85b76519939a065f6b73fde0c6328ee8ea2
-    new: 48cb8d435f6b43ff2f67f615efd587c62ff544f1
-    log: revlist-8280c85b7651-48cb8d435f6b.txt
+  - ref: refs/heads/testing
+    old: b581b94c330b7b62db5cfae71b36ae75ef84f721
+    new: 8c479238c1e6d59df10a9b464e15213d19a420d3
+    log: revlist-b581b94c330b-8c479238c1e6.txt
 
---===============1128855027568603572==
+--===============0855835436965982988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8280c85b7651-48cb8d435f6b.txt
+Content-Disposition: attachment; filename=revlist-b581b94c330b-8c479238c1e6.txt
 
 1982a2a02c9197436d4a8ea12f66bafab53f16a0 xfrm: Clear low order bits of ->flowi4_tos in decode_session4().
 983a73da1f996faee9997149eb05b12fa7bd8cbf xfrm: Pass UDP encapsulation in TX packet offload
@@ -213,6 +213,29 @@ e536e0d44c44f8854a6c527195c70ce9dd1e0c0b Merge tag 'usb-6.8-rc8' of git://git.ke
 09e5c48fea173b72f1c763776136eeb379b1bc47 Merge tag 'ceph-for-6.8-rc8' of https://github.com/ceph/ceph-client
 66695e7d94fc499f26411044e07cc1386e4f3aa7 Merge tag 'firewire-fixes-6.8-final' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 005f6f34bd47eaa61d939a2727fc648e687b84c1 Merge tag 'i2c-for-6.8-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+c993e410ab55b979701b841f7001faa8be25b5f6 tpm: tis-i2c: Add more compatible strings
+17152e2f294f6c1b00c11e193cc8b91f1b584f2c Revert "sh: Handle calling csum_partial with misaligned data"
+5bb0d6ff574fdc15bb02bb24fcabd7c5de588fbc kunit: test: Log the correct filter string in executor_test
+40a31d1c88391af109edc9fbcc6739647bcf2778 lib/cmdline: Fix an invalid format specifier in an assertion msg
+a06363853f18a52f0bd82dfd51b8c9dfa3668206 lib: memcpy_kunit: Fix an invalid format specifier in an assertion msg
+6f58bdfde3a2f3264e2f851bf03cc41ba0b60956 time: test: Fix incorrect format specifier
+ee84f687d2969a11edf0f2fcb05a9942f6042612 rtc: test: Fix invalid format specifier.
+1e12b227ce7ecf9328e2eb893ca3bbbb037e9c6d net: test: Fix printf format specifier in skb_segment kunit test
+2c90addf56fffa579f91489dd28be3a4266394b8 drm: tests: Fix invalid printf format specifiers in KUnit tests
+fc2a6124f984608e6165d35549d93c54a25122c3 drm/xe/tests: Fix printf format specifiers in xe_migrate test
+c3dde78c1609364adc81537d01c6c850893e3111 kunit: Annotate _MSG assertion variants with gnu printf specifiers
+249e2e4846a28e3aa913c1099c3300f1bf40140b mean_and_variance: Drop always failing tests
+bfb087c9e47a67e5611b9caee674c208bee5d3d9 kunit: Setup DMA masks on the kunit device
+cc563aff5c365b861b1e64cb32af38dc7488cde1 parisc: Fix ip_fast_csum
+f6c0b8a5f6a56caa0beb9cbc4a609798922518d4 parisc: Fix csum_ipv6_magic on 32-bit systems
+89658bd0ca6e3e05d9b4c6a9fe1d5ca105119baf parisc: Fix csum_ipv6_magic on 64-bit systems
+6e4e1d6292c8e1e39be6986db4b0bf47f480249a parisc/unaligned: Rewrite 64-bit inline assembly of emulate_ldd()
+a7cc9ddbb6703496c26baaac516ba93985d3a15b parisc: Show kernel unaligned memory accesses
+84ea621b5c93d0211cb92c817120fcc2db2eb620 parisc: Avoid clobbering the C/B bits in the PSW with tophys and tovirt macros
+5da287bdbe076723c517f9eccdaf46a27d3bc021 parisc: Strip upper 32 bit of sum in csum_ipv6_magic for 64-bit builds
+380618b768027e094c7c78394668a0be66bec1a7 lib: stackinit: Adjust target string to 8 bytes for m68k
+bd8f1178d544f3b4ae2b2ff923b969a9d0b9178a lib: checksum: Add some corner cases to IPv6 checksum tests
+d7e61a2c97bf4de5b0bad9b82905aef072cfe7cb carry tests for parisc64 targets
 c80bb28403cab82a9f446e59b3f7455eb65d2ef8 bug/kunit: Core support for suppressing warning backtraces
 28272b01dcf52db6e44ca13f893a77fbbdd16340 kunit: bug: Count suppressed warning backtraces
 a8b741ba9045b1fde00b29e1871401878ceed7d4 kunit: Add test cases for backtrace warning suppression
@@ -227,5 +250,6 @@ e6cf4abf644b14a7aa03d5677abd4ed10d824f0f s390: Add support for suppressing warni
 148b13ca1c7d4521cdb85da6eff5361889c52569 sh: Add support for suppressing warning backtraces
 70cb993e669bbfcf33da623b16193c4ac0c66668 riscv: Add support for suppressing warning backtraces
 48cb8d435f6b43ff2f67f615efd587c62ff544f1 powerpc: Add support for suppressing warning backtraces
+8c479238c1e6d59df10a9b464e15213d19a420d3 Merge branch 'kunit' into testing
 
---===============1128855027568603572==--
+--===============0855835436965982988==--
