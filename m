@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 10 Mar 2024 00:11:26 -0000
-Message-Id: <171002948673.30783.3489371611033446352@gitolite.kernel.org>
+Date: Sun, 10 Mar 2024 00:17:07 -0000
+Message-Id: <171002982798.2240.5096743842904207415@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/recvsend-bundle
-    old: ed5933815e234d8c26d9a51b31c21e6ec05612b7
-    new: 8828076bd81aec9c3ecc3d3a133c42c97f92ba2b
+    old: 8828076bd81aec9c3ecc3d3a133c42c97f92ba2b
+    new: 1323f577543c152cf1748fdfc6db17fb21d99ff0
     log: |
-         8828076bd81aec9c3ecc3d3a133c42c97f92ba2b examples/proxy: update for bundles
+         1323f577543c152cf1748fdfc6db17fb21d99ff0 examples/proxy: get rid of some unused parameters
          
