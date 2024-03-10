@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8729327308028073373=="
+Content-Type: multipart/mixed; boundary="===============1128855027568603572=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 10 Mar 2024 00:55:08 -0000
-Message-Id: <171003210835.29691.11075440370460324058@gitolite.kernel.org>
+Date: Sun, 10 Mar 2024 00:55:29 -0000
+Message-Id: <171003212903.29928.6819324839980326445@gitolite.kernel.org>
 
---===============8729327308028073373==
+--===============1128855027568603572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 67be068d31d423b857ffd8c34dbcc093f8dfff76
-    new: 005f6f34bd47eaa61d939a2727fc648e687b84c1
-    log: revlist-67be068d31d4-005f6f34bd47.txt
+  - ref: refs/heads/kunit
+    old: 8280c85b76519939a065f6b73fde0c6328ee8ea2
+    new: 48cb8d435f6b43ff2f67f615efd587c62ff544f1
+    log: revlist-8280c85b7651-48cb8d435f6b.txt
 
---===============8729327308028073373==
+--===============1128855027568603572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67be068d31d4-005f6f34bd47.txt
+Content-Disposition: attachment; filename=revlist-8280c85b7651-48cb8d435f6b.txt
 
 1982a2a02c9197436d4a8ea12f66bafab53f16a0 xfrm: Clear low order bits of ->flowi4_tos in decode_session4().
 983a73da1f996faee9997149eb05b12fa7bd8cbf xfrm: Pass UDP encapsulation in TX packet offload
@@ -213,5 +213,19 @@ e536e0d44c44f8854a6c527195c70ce9dd1e0c0b Merge tag 'usb-6.8-rc8' of git://git.ke
 09e5c48fea173b72f1c763776136eeb379b1bc47 Merge tag 'ceph-for-6.8-rc8' of https://github.com/ceph/ceph-client
 66695e7d94fc499f26411044e07cc1386e4f3aa7 Merge tag 'firewire-fixes-6.8-final' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 005f6f34bd47eaa61d939a2727fc648e687b84c1 Merge tag 'i2c-for-6.8-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+c80bb28403cab82a9f446e59b3f7455eb65d2ef8 bug/kunit: Core support for suppressing warning backtraces
+28272b01dcf52db6e44ca13f893a77fbbdd16340 kunit: bug: Count suppressed warning backtraces
+a8b741ba9045b1fde00b29e1871401878ceed7d4 kunit: Add test cases for backtrace warning suppression
+fd0c542c2c984c3d729b993998994f0b2d436006 kunit: Add documentation for warning backtrace suppression API
+0ccbe0d95e5778db12985ed5b559a495a4789184 drm: Suppress intentional warning backtraces in scaling unit tests
+2c1bd795a588ff3869014e7369b00ca6199aee75 net: kunit: Suppress lock warning noise at end of dev_addr_lists tests
+c4022c5f707879f3ecab595e2bac340e6b31eb95 x86: Add support for suppressing warning backtraces
+ade204d82614e74627ab5bb60e9df0e6adc87159 arm64: Add support for suppressing warning backtraces
+3157eefa5d9f4b3ee7e84bf72a5936501f033347 loongarch: Add support for suppressing warning backtraces
+2e2215e38fb8b5268aa43d65165e308acdca347e parisc: Add support for suppressing warning backtraces
+e6cf4abf644b14a7aa03d5677abd4ed10d824f0f s390: Add support for suppressing warning backtraces
+148b13ca1c7d4521cdb85da6eff5361889c52569 sh: Add support for suppressing warning backtraces
+70cb993e669bbfcf33da623b16193c4ac0c66668 riscv: Add support for suppressing warning backtraces
+48cb8d435f6b43ff2f67f615efd587c62ff544f1 powerpc: Add support for suppressing warning backtraces
 
---===============8729327308028073373==--
+--===============1128855027568603572==--
