@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brodo/linux
-Date: Sun, 10 Mar 2024 08:10:48 -0000
-Message-Id: <171005824837.18461.10277737842038592704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 10 Mar 2024 09:34:08 -0000
+Message-Id: <171006324810.11584.9338997192417155381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brodo/linux
-user: brodo
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/pcmcia-next
-    old: 1bec7691b32710ea27741f0f8b00c1dc98d92930
-    new: ccae53aa8aa2d902242555638c5de104aab08879
-    log: |
-         ccae53aa8aa2d902242555638c5de104aab08879 pcmcia: cs: make pcmcia_socket_class constant
-         
+  - ref: refs/heads/patches-in-queue
+    old: 0881bae6c14e5e6580368bf362e6d058dd00114b
+    new: 0000000000000000000000000000000000000000
