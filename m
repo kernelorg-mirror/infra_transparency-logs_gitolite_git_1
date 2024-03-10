@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7194970873090423037=="
+Content-Type: multipart/mixed; boundary="===============6348983629738141053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sun, 10 Mar 2024 18:26:51 -0000
-Message-Id: <171009521182.30076.10889343502743257550@gitolite.kernel.org>
+Date: Sun, 10 Mar 2024 18:32:15 -0000
+Message-Id: <171009553514.1335.13549880207500653739@gitolite.kernel.org>
 
---===============7194970873090423037==
+--===============6348983629738141053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,36 +17,39 @@ user: kwilczynski
 git_push_cert_status: E
 changes:
   - ref: refs/heads/controller/cadence
-    old: 0000000000000000000000000000000000000000
-    new: 27246966158a2fc9dbda8d37748efd7d89631b8f
+    old: 27246966158a2fc9dbda8d37748efd7d89631b8f
+    new: 8bc3c0ec3cba53108e73ed0c9913b1013da1cd4c
+    log: |
+         8bc3c0ec3cba53108e73ed0c9913b1013da1cd4c PCI: cadence: Clear the ARI Capability Next Function Number of the last function
+         
 
---===============7194970873090423037==
+--===============6348983629738141053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1710095208 +0000
+pusher 3DE334E7 1710095532 +0000
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1710095208-81f3fd0739e10dbc4f5f7ec8137eb709809efcde
+nonce 1710095531-e22275d10a417e875ede32cd9eaad079e3bbcf43
 
-0000000000000000000000000000000000000000 27246966158a2fc9dbda8d37748efd7d89631b8f refs/heads/controller/cadence
+27246966158a2fc9dbda8d37748efd7d89631b8f 8bc3c0ec3cba53108e73ed0c9913b1013da1cd4c refs/heads/controller/cadence
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmXt+2gACgkQfGR2jT3j
-NOc5YA//ecYoTuWXrjlcOzjWiJEboCh7+XneZyvdJsr3iQ8fTj4i/GhHPXzMeXLe
-ut8JfibqDHLn6TzXxwOlaQxpHGT2UfTZs+zxfXwdPKUPf5htqS8rMdUT0eMeDI2w
-Sm8ARrVdwtR/UOdXh+2b/7CKChvsoU9gaQsJWyJM6QQSyxuMP0ns8fFivDwjviqW
-c/J+pYjQ65fPcUiqkgI1Loa8HEbTfGTN6PE2bIfQfS8dOWXR5yhkq9gR3c0JM9W1
-s1TicEitowCPI3M4hoOlm8+PbVoMV/24Tlx/U3SdA2abXiRnFqpDSuvQnULa92Ib
-H/P6Pv2D3qJDYnjJFeza9LFaM65uZ2fG1GkTLTGr/OaiqGZTg4Eoe6ZObK7mk81p
-0ml0USCu7y3PmMvUk2zojzVtOnyim7zJc67hUKAxMI4fN1cOTURvJR0KZPjWVQ9s
-iVZgg1fNmYNijxnGTu4REtYRwyE4HtBiZGyu8qos/hhDlp3hP3+Nrkkfe4DBlcxY
-0o1mKWuCDcdTyDdIK8Kh2HStgNkEt46Ou3XsO2Db57/rAOykh3LItZGnMdQPcDta
-S8276dZMRm86zYY5fxBDzoQzw3FMttq7f79A6mrGmk3rjvnmPXQzWVdrK6LpM28B
-omGLf0Pbd44Z4bk7KI4/7hvkf5K+YW0VzuluH30ogs8VE5GWjiw=
-=zymv
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmXt/KwACgkQfGR2jT3j
+NOeD6Q/+M0nKV2t7NselBa7Vurk3CZzD5zFFtuszXP02RUhNI5cyDrC+c0z8mz+C
+30aPEUx+Ud1aHaHR5uwNvfXkwHVq6bFJ2yhhzRK0hnfMvI5Qy6gBvn2w1Ert1+lL
+eYdpFaXTpOKG97HhvAMqbdVylB9odfAYaZdxa2EAkPXZAoDAxx5kjY2X1v8cPLBe
+oVwFoq+3YjjYqpBhpRcNV8hzgbksBjAa5oTym4jpVwsEGWZNZNtwObcAIKVbzTWX
+QBiLJok5vsj5XppHl1YfpzVY0AV8iz6HqGwA+gaAoxBBindw6igL1H7Lo+grCgvU
+TcKEv+uJabVkQypPz7sPQSkgsAqVvH05OqM7OJL6ropphUFjk4dwIEKJq+0zpEgt
+WUqX3aQ07jYGLi+5D+hiUag/1Xt8t4/3inzRbtfzLbgWuQOI+VpynCsSP7cvmLGb
+6g2/FjrzZoRffjXKqJczox9TZ+3HLsV9q1ccHqOqQtDYrUC4CEMXmqm368qvoxoQ
+IadKjDkd9VTkV9V6XDK1UyRI7wsRLtGZfM8Kvdbd6+WDZ+p46VdjA2wOOkzFAzxf
+9DcDmNiZygbcS/meDShgpaiD6HT6SWdMPPsr0jSfteEhRUx6tewsqohIcu5zfSNw
+e79lqaAcFgEGD/F+gy84UiwHuiwGA3lO5TWD+eZFkHDMKns5gws=
+=Oz72
 -----END PGP SIGNATURE-----
 
---===============7194970873090423037==--
+--===============6348983629738141053==--
