@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 10 Mar 2024 12:42:34 -0000
-Message-Id: <171007455464.31200.15611879910692661999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sun, 10 Mar 2024 12:52:41 -0000
+Message-Id: <171007516153.5695.18090510747035409474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/togreg-normal
-    old: 60c64eca058c31e6ab13c66faa9c0ef5df3c3f5d
-    new: fb6ad111ad8cef2bbb8426e9cd7c7c516c6d759d
+  - ref: refs/heads/kbuild
+    old: 5270316c9fec8cc99aa0e0a258509c5c7f789d12
+    new: 179079a0e1e136e52f0ab1fcb748ed587068411e
     log: |
-         5e048dba2d5f17b1e59808e002aac27ebee51eb5 iio: core: Leave private pointer NULL when no private data supplied
-         0d35cfcfceb42cd6ea0d7d0e5c29d9e4c5281979 iio: core: Calculate alloc_size only once in iio_device_alloc()
-         e8f8647d5721eac11229de603bd36f1a8f655e60 dt-bindings: iio: light: Merge APDS9300 and APDS9960 schemas
-         520a9db6a4d89dd0d6abef860520e21aaaad49c2 dt-bindings: iio: light: adps9300: Add missing vdd-supply
-         5921877de17bdaca7fd469f0bed79040939f53aa dt-bindings: iio: light: adps9300: Update interrupt definitions
-         4ad647d6d2d98a5e1d4cbc64a32f19aa51f3874b dt-bindings: iio: light: Avago APDS9306
-         fb6ad111ad8cef2bbb8426e9cd7c7c516c6d759d iio: light: Add support for APDS9306 Light Sensor
+         50a339981780e233a5be88b9116a6dfd0e00231a kbuild: fix inconsistent indentation in top Makefile
+         e0492219a6d752942b054cbfbbcbc1e8ab294d26 kconfig: link menus to a symbol
+         bedf92362317adff1da6ac787b09626d30e60b00 kconfig: use linked list in get_symbol_str() to iterate over menus
+         c83f020973bc72d9eec65474d8c47495191aef20 kconfig: remove named choice support
+         75b5ab134bb5f657ef7979a59106dce0657e8d87 kbuild: Move -Wenum-{compare-conditional,enum-conversion} into W=1
+         e2bad142bb3de836c5fbb3dff704578f5a73d8e6 kbuild: unexport abs_srctree and abs_objtree
+         179079a0e1e136e52f0ab1fcb748ed587068411e kbuild: remove GCC's default -Wpacked-bitfield-compat flag
          
