@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4303499275234316202=="
+Content-Type: multipart/mixed; boundary="===============5658487705947646984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sun, 10 Mar 2024 18:51:08 -0000
-Message-Id: <171009666819.15872.2920882708337234089@gitolite.kernel.org>
+Date: Sun, 10 Mar 2024 18:54:23 -0000
+Message-Id: <171009686389.17092.10791647692726422516@gitolite.kernel.org>
 
---===============4303499275234316202==
+--===============5658487705947646984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/controller/dwc
-    old: f3a296405b6e65fe478144c2f85602dc5668700c
-    new: 72e34b8593e08a0ee759b7a038e0b178418ea6f8
+  - ref: refs/heads/controller/hyperv
+    old: 192c0b72019f7ee30ff18eef6f5bf155c62cfd2c
+    new: b5ff74c1ef50fe08e384026875fec660fadfaedd
     log: |
-         72e34b8593e08a0ee759b7a038e0b178418ea6f8 PCI: dwc: endpoint: Fix advertised resizable BAR size
+         b5ff74c1ef50fe08e384026875fec660fadfaedd PCI: hv: Fix ring buffer size calculation
          
 
---===============4303499275234316202==
+--===============5658487705947646984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1710096665 +0000
+pusher 3DE334E7 1710096860 +0000
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1710096665-28bacd036e864e4f78fd2cae54ca043b2a71ca88
+nonce 1710096860-44d9a2be994535e28df96fb5521c785040be9acf
 
-f3a296405b6e65fe478144c2f85602dc5668700c 72e34b8593e08a0ee759b7a038e0b178418ea6f8 refs/heads/controller/dwc
+192c0b72019f7ee30ff18eef6f5bf155c62cfd2c b5ff74c1ef50fe08e384026875fec660fadfaedd refs/heads/controller/hyperv
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmXuARkACgkQfGR2jT3j
-NOfW4BAAjleInR8KCJlahtt9gLoY8qHO1EjP9JZMfr96R3pn8+inbF6Dn5pbDsJR
-5TgyWG3KTiacNvhUEvEOrYypqoZWXkCx2oJAW1iy11GTGerRDsxydOhQmfmbV0LO
-MbIlAQLMbwKRtxs9t3ug+hGgLrmsvKgAOT09KR+iFgzsd+n+843wQnk1BFNiYvM3
-oC4skRwEXrlHGtVaRD2cQ+wYJNSZ6nYcfQZcTKgBqj09F3JR5WECRQbrKOXFegSe
-91DBeEQiCO+avmd+I1/UybUg3+TyXGec1a47wEOEuUdpyCSo9AMu4FqVfCCCX9O6
-FJJbgIn25DR18x9jhDZNXAjLTqkxWMr6M91IeZCxNGSTIwamZYLYjcyKDQ4G5tTn
-pGEQzpxGOFSjqQsLHOnL29TeFrk4v7sCFkNchRpv0axeqagBP3EM+aZnQ3WcIurO
-iL5EOXW4dAZroMBsqm5GNrheMhLNV7bsYxeRxPdNdZMFdy0DKo7dtyYHFzT26NNQ
-N9UNPHJjvp3IISx8mgSQKxxeVNVqfpNh1o1pp06eNmYkD9W7IFVCH8gZQiB6Bkkr
-fOcLgB2gm4NP4xKWv/cqkfo986dFqaGbGaabgy9kD7uMnX6PmMsbCJ1PNROzuPyt
-y4OdmBvULoG+CNOvQgi1pjjR6eoZj5NZh65Lww8Eo4oe6cBEK6g=
-=nH3s
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmXuAdwACgkQfGR2jT3j
+NOec1hAAjtmxMNcx8Da/ZKYMP+fb3kt134I//foddUhbimag1lzsxZPCgmiB2Mb+
+B/ll6esj1gT5x/UYxMeqSD7kYuCOHYKI3HWowjaUBfeHh/vrlxXa2GDMWXk9HD3D
+OWeqPd68IUU1iwSRmv5+I/hhxtOYIxYifwRjG3myzkPTFV/fTeZ9ZRFNTiS3ivoO
+/yyaUg5f6Jef1Vp81MTnw4cgRc46Z163JXwhPIq9eC109WEgQeDbaF5er9sSo8oR
+o9GsoGskWcG59OzYLOrW3B9v5vOC3ftgOuts3HRxDR/9gVZicB1vHk4C/Rme/WY8
+d63EaL+gYFwUHgd3Cq2QUM4+FQYb8W/k/6UItd930xbzhOXbjQj7v5+1celYbJml
+giSLv4o7bmuLWeGt5JxJaWYlcCzaAAbvNcPeJIjJm+5F9tc4nRabqx0PggzWmuuc
+PhNuH1rGzKRCvB/duF1+02SKUW6CJKjqcfYAyj6Qcm+P/jyttKaqZwiGYVrkhPs8
+a4zUSNoKZOm/VwkAtbwRcvBJYao4c/CECeWB+cyvxgRf7bHJNNnv0Tz/Swei/CZr
+HAE4MqOZofOGxKb4tef/9CS+Cle7iWmSdlA1+fRAjecurgLSHq7ezOJg14hsU5RL
+iv64sI8LvC75Wl3BFCdHFy8IDvu+ubPfv7ow21bNijUsTU9B9rs=
+=5xBA
 -----END PGP SIGNATURE-----
 
---===============4303499275234316202==--
+--===============5658487705947646984==--
