@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 10 Mar 2024 12:52:52 -0000
-Message-Id: <171007517239.5856.17277824254614467938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 10 Mar 2024 13:17:35 -0000
+Message-Id: <171007665560.23930.17448958702685783473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 5270316c9fec8cc99aa0e0a258509c5c7f789d12
-    new: 179079a0e1e136e52f0ab1fcb748ed587068411e
+  - ref: refs/heads/master
+    old: 1495508e217d2195e1d9961a4ccb97e4617609ce
+    new: e61281ad02e59240b9da6b9c32135ac501b8f64a
     log: |
-         50a339981780e233a5be88b9116a6dfd0e00231a kbuild: fix inconsistent indentation in top Makefile
-         e0492219a6d752942b054cbfbbcbc1e8ab294d26 kconfig: link menus to a symbol
-         bedf92362317adff1da6ac787b09626d30e60b00 kconfig: use linked list in get_symbol_str() to iterate over menus
-         c83f020973bc72d9eec65474d8c47495191aef20 kconfig: remove named choice support
-         75b5ab134bb5f657ef7979a59106dce0657e8d87 kbuild: Move -Wenum-{compare-conditional,enum-conversion} into W=1
-         e2bad142bb3de836c5fbb3dff704578f5a73d8e6 kbuild: unexport abs_srctree and abs_objtree
-         179079a0e1e136e52f0ab1fcb748ed587068411e kbuild: remove GCC's default -Wpacked-bitfield-compat flag
+         2989c468015ca9b9bd434142dbd2340218dcef75 Drop soc-qcom-pmic_glink_altmode-fix-drm-bridge-use-after.patch
+         ddee3b6732f42a52ee1c1716d7c85e05be5e05dd Drop drm-bridge-aux-hpd-separate-allocation-and-registrat.patch
+         dd24b1f76d5bcc208d659be1b984d6739bcdea64 Drop soc-qcom-pmic-glink-switch-to-drm_aux_hpd_bridge.patch
+         d88e89c9717c14dd1d1ed46eb37d7652b0246abf Drop drm-bridge-implement-generic-dp-hpd-bridge.patch
+         e61281ad02e59240b9da6b9c32135ac501b8f64a Drop drm-bridge-add-transparent-bridge-helper.patch
          
