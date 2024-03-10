@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1426890824200110174=="
+Content-Type: multipart/mixed; boundary="===============3475541188828311673=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sun, 10 Mar 2024 23:03:56 -0000
-Message-Id: <171011183675.23623.594587624502741008@gitolite.kernel.org>
+Date: Sun, 10 Mar 2024 23:04:12 -0000
+Message-Id: <171011185248.23787.8335210979943586677@gitolite.kernel.org>
 
---===============1426890824200110174==
+--===============3475541188828311673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 66c808ab4c80d5de1fb17c98d4fbbe3943fa724d
-    new: d518acdace8242174d31a8adbdaee7e4acfb7d31
+  - ref: refs/heads/6.9/scsi-queue
+    old: 9f3dbcb5632d6876226031d552ef6163bb3ad215
+    new: 517bcc2b4db435f230fe864f3db0a0f21d2f6951
     log: |
          c121b588a5e46e14bc601e717461b908a1d80185 scsi: bfa: Remove additional unnecessary struct declarations
          b69600231f751304db914c63b937f7098ed2895c scsi: bfa: Fix function pointer type mismatch for hcb_qe->cbfn
@@ -28,33 +28,33 @@ changes:
          517bcc2b4db435f230fe864f3db0a0f21d2f6951 scsi: core: Constify the struct device_type usage
          
 
---===============1426890824200110174==
+--===============3475541188828311673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1710111816 -0400
+pusher 75C5DE3D 1710111839 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1710111815-9c9b99e85bc05ef4ff374fda4b9ace8272220cf2
+nonce 1710111839-f85594e8da9d549a9ecb13e1e0d7e16454447e23
 
-66c808ab4c80d5de1fb17c98d4fbbe3943fa724d d518acdace8242174d31a8adbdaee7e4acfb7d31 refs/tags/mkp-scsi-queue
+9f3dbcb5632d6876226031d552ef6163bb3ad215 517bcc2b4db435f230fe864f3db0a0f21d2f6951 refs/heads/6.9/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmXuPEgACgkQ7ulgGnXF
-3j0/3hAAr4ezM9O1t6SBNQreUl8dyKeajb0TWOO5rTv89uSAJwAEh6f9QjjmEfIX
-7BbrdYhuhN8gTzgzKeivGP7IPxHOIg5v7LjaPrStg/IdHOpIMyHnimMJwPcFMzU6
-RfrQ3FJFtK5l1WoKM07TX/0Snp2nB9/Gv4BESSX6pUUNcT1ny6rsynTuuvnT8db+
-9X1AD98uAsgddF37vOfdMb9/Ackrk3oWHj+S2WCpgEZNu4ySOrijUTvfBwkDzXEQ
-bo6vLPnAUuwKfb00qND/rqXNaSIlPNwMq67MIICfGYlB4nPRSXtYqY5FUA7e9v9r
-ZGKv/0t6es0EH6YowTv/e9CO2SiViU+5WYR26QIjwpfJrM/mTOK3K+l0KLTG5KeW
-YotYg4dEsDB3MIEBs9RSS/As0BFuaQUHINlyCZaNt7XWF37eMNJvg/1wsQ0XNvua
-3vNH7CS6Be7TTfbA9t8L8eW66gUMJLx6mN2YE/tEgBATpmE88eAVG/cpNT72Ii5O
-izNNfK7d44rkLpDQxleuZ0TrhmCOYR/0bbgHHVmLl29OAzcRO2Y5tzh0Gm4WEhyI
-BBNPJCHfm+F6pKPEannLumeuTiI9gkemjKSre3dHkSQq7/SP3XTHz1P+Xa8E6Uib
-Sj88i1uEg3tKwMteWFneOqdUYmHiS5bjVKUoInEV4sKuczkaDAc=
-=7mor
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmXuPF8ACgkQ7ulgGnXF
+3j2aBA/+MQDgXLzR8o83f/a0EX3wdO+c4PB9I3c9qqXF2R9OpIPLSt1VrHjHlbeK
+e+lMnVROMozs3S4sLwMGbIVA3v/9pzZXdKP3UfZ5jW6nyqwrRfkSi3lBgrPl6arB
+f6JetLBrEaYtzAKAFJsneEhXkuk1VFkumtlffx6LF0BhRWXKsC/+etNGlw5UdGez
+DoBTDmW/DoGU2wQA+oWJO39Z9Iaw3DWKWJtVPMQbyDUTMvPyBViOqRloz+K8LF+p
+ozwqKP4nK0rxw/GdzPU33z90TJmMKI7Ti0+smE5FQa23paWXk5Vbl3wgqRknzNoS
+DtpgSMaiaEqdsLOQdzFVPeHvQR9geybceZDaAhvtIA+YzhcpOkG6d6ZRJv/pCP4C
+5zKLOWw7nBCg8scml/rMqHAH8ud2SpLzfmF5R95uOq9ZkrtmAA1q3SHjo4X576ad
+3hnXly++t+6Tcpb7MIeMghKIgfWYrMI+03oXGpH5ssacyTUOSYOjma1mD1tQEQqC
+B015gOkzB2C096w15XqkRg27ZSJpGa9L/WwM/FHt5VMxp7XlJL++bS/pT5v6z4f5
+LhIPQRScwOa4J0iaZsWK0FJNXwTg+VfDvIdUieiq6ZQB1DXr3V6/tOVQLIY6mInP
+Iv7oeNj0slko75pHIbVyOwI20QKBBfqh8jzkoGHSJ7XHkIoLhqA=
+=nJfk
 -----END PGP SIGNATURE-----
 
---===============1426890824200110174==--
+--===============3475541188828311673==--
