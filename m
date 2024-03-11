@@ -1,64 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0747180542436237785=="
+Content-Type: multipart/mixed; boundary="===============4462450782963633128=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Mon, 11 Mar 2024 17:58:08 -0000
-Message-Id: <171017988841.8312.5310971336984930831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 11 Mar 2024 18:00:29 -0000
+Message-Id: <171018002944.10870.9425977056649924463@gitolite.kernel.org>
 
---===============0747180542436237785==
+--===============4462450782963633128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: e090c478140941e125c716b5c8c43f8e9fcb4f3d
-    new: b208a207d9c96265a0f49dca3e489a130653ec52
-    log: revlist-e090c4781409-b208a207d9c9.txt
   - ref: refs/heads/next
-    old: fac2de07965834bb948ab17400f442c42880bbe2
-    new: b208a207d9c96265a0f49dca3e489a130653ec52
-    log: |
-         b208a207d9c96265a0f49dca3e489a130653ec52 Update the version
-         
-  - ref: refs/tags/v2.2.5
-    old: 0000000000000000000000000000000000000000
-    new: 43f9cf72eb70bd14be71fded9a4d7646c023005b
+    old: 2849ea7aa15f11321dd4383404b0266815bfe79b
+    new: c43507cd5816a13bfa10ffcb145fb3f697582db9
+    log: revlist-2849ea7aa15f-c43507cd5816.txt
 
---===============0747180542436237785==
+--===============4462450782963633128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e090c4781409-b208a207d9c9.txt
+Content-Disposition: attachment; filename=revlist-2849ea7aa15f-c43507cd5816.txt
 
-345cf9583b97bbc0193d1c86482bce335793ea36 tests: schemes: test.sh: Python version included
-1cf442ce9b30416457af1c979ef8f0c9b900a009 _damon: Update status of developing features
-bfde465f77ad592dc36cb72e07edb7dd17bc1785 _damon: Add DAMOS filter type young on the features list
-14f6f8493dac95c40d7b5809544a76a96a43a252 _damon: Support 'young' type DAMOS filter
-f6b18af0fcbb615acadec464425cbbe41408e3da _damon_args: Support 'young' type DAMOS filter
-ab506c62e5c278ff6f5ef78833ed7d0c69051f32 TODO: Add items
-a323e95a9627f60eafd33bf0916a17dd9fdeca97 _damon_sysfs/update_supported_features(): Stage feature check purpose kdamonds always
-ddffacb2807ae4de23f18f5a43912780f061a46b _damon_sysfs: Remvoe ensure_dirs_populated() and __ensure_dirs_populated()
-c79c993a235000b4bef074520d12324ac569e5f2 _damon_sysfs: Support schemes_filters_young feature check
-a296f06c2506f932ce309770a78f8c638e45ec3b _damon_sysfs/update_supported_features(): Remove quota goal from default feature check kdamonds
-0588f6ba455e9ae36b5bbc826340c0258029f317 _damon_sysfs/update_supported_features(): Fix wrong goal metric check
-0a525ae91ef99d88e1f58dc6a1208de44335533e _damon_sysfs: Drop 'fvaddr' from list of sysfs feature from beginning
-201271fd7a971f1a76b39b1b842e0dadcd3447ce _damon_sysfs: Remove unused function, __ensure_kdamond_dir_populated()
-f44386975ece782a180b43dca7fca570f71cf51a _damon_sysfs: Remove unused function, __ensure_target_dir_populated()
-c18761850ec3b6a990692e89fa2d3f9f6588eeca _damon_sysfs: Remove unused function, __ensure_scheme_dir_populated()
-f9a7e833a3ff099f2db37c5d6a583ef34f1df98c _damon_sysfs: Impelment DAMON version inference function
-9de0f1241717e8e5b4a7d8dbf0f16e38ea6aa51b damo_features: Add an option for inferring DAMON version
-cd231a1676a14862a07afdde072cc6364b71be26 _damon_sysfs/update_supported_features(): Remove unnecessary arugments
-43f7ac14bc19677537ed7b80a8f1ac5535883603 _damon_sysfs/infer_damon_version(): Remove unnecessary arguments for Damos constructor
-91047ed8a7ec840473b3ffc44e49c1f6ea9740e0 _damon_sysfs/infer_damon_version(): Restore original kdamonds before returning
-d1a775d01490a42f8c6e4261d2258b2023b04019 _damon/DamonCtx: Support default values for constructor arguments
-9b7f22f9803175cdbb1e3a117eb075586ebc4824 _damon_sysfs/infer_damon_version(): Remove unnecessary DamonCtx constructor arguments
-faaee97ae7e4ea50f15bb8437db906e6947f2b31 _damon_sysfs/update_supported_features(): Remove unnecessary DamonCtx constructor arguments
-fac2de07965834bb948ab17400f442c42880bbe2 release_note: Update for next release
-b208a207d9c96265a0f49dca3e489a130653ec52 Update the version
+bf79e33cdd89db498e00a6131e937259de5f2705 PCI: qcom: Enable BDF to SID translation properly
+692eadd5169808d5c7273b83f237038029d0bb21 dt-bindings: PCI: qcom: Document the X1E80100 PCIe Controller
+6d0c39324c5fd8a788a000ab9cead1dbb2fa49a8 PCI: qcom: Add X1E80100 PCIe support
+039741a8d7c9a01c1bc84a5ac5aa770a5e138a30 PCI: brcmstb: Fix broken brcm_pcie_mdio_write() polling
+f3a296405b6e65fe478144c2f85602dc5668700c PCI: dwc: Strengthen the MSI address allocation logic
+667a006d73fb7320fc6f414b6fe11a998fcf0c28 PCI: cadence: Clear the ARI Capability Next Function Number of the last function
+72e34b8593e08a0ee759b7a038e0b178418ea6f8 PCI: dwc: endpoint: Fix advertised resizable BAR size
+b5ff74c1ef50fe08e384026875fec660fadfaedd PCI: hv: Fix ring buffer size calculation
+ed1fed063c06f73804ed9655ec3e92ae060ecf69 Merge branch 'pci/aer'
+c3efaad4a0c3741c71368d9156640190ffdb5a79 Merge branch 'pci/aspm'
+4fc43ca6278ad437ce79ac79f433fb0b178c3b29 Merge branch 'pci/devres'
+0b5847c12353cb07f29945fc92faa1c04943f8ff Merge branch 'pci/dpc'
+774925f6d48a011d3772fc3b70bf8b6366800239 Merge branch 'pci/enumeration'
+abc5bb474d2d069145a8229b880a0aca2bd4df1d Merge branch 'pci/p2pdma'
+66121fc7828232ecbc8177542fea7edf84a5568f Merge branch 'pci/pm'
+90b14a0ad9479bef796df37caea355fa300eb029 Merge branch 'pci/switchtec'
+7ee4bb70b4708e90cb1a5ea169e06aa41ebf3d47 Merge branch 'pci/sysfs'
+58942ecf65c534a1ac3f7ea1b82362f301b760f0 Merge branch 'pci/virtualization'
+b85fa0871a760e32a74c64cf80334a538a1cebc2 Merge branch 'pci/endpoint'
+c9f328990c535b70ac9d11fc26a2e2bf40af72c5 Merge branch 'pci/misc'
+c1684be399b7e7e2d12af8cf84c4e6b73bd4dcf5 Merge branch 'pci/controller/broadcom'
+c38b8090aed5ac24efbf2bedefc1065e54980fce Merge branch 'pci/controller/cadence'
+7325b5bb5169f485f738b7fd5a2c116f929d7340 Merge branch 'pci/controller/dwc'
+fff17daa71f14e517e681550cc94df783c12a9a5 Merge branch 'pci/controller/hyperv'
+b9eda35ba169032660933da0e4450637cc43345e Merge branch 'pci/controller/imx'
+c43507cd5816a13bfa10ffcb145fb3f697582db9 Merge branch 'pci/controller/qcom'
 
---===============0747180542436237785==--
+--===============4462450782963633128==--
