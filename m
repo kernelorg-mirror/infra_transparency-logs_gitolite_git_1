@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3798948470009259118=="
+Content-Type: multipart/mixed; boundary="===============5230068534693427422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 11 Mar 2024 20:31:05 -0000
-Message-Id: <171018906564.25238.14438639643945780278@gitolite.kernel.org>
+Date: Mon, 11 Mar 2024 20:31:41 -0000
+Message-Id: <171018910145.25508.10668575654770509447@gitolite.kernel.org>
 
---===============3798948470009259118==
+--===============5230068534693427422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: d721812aa875a898eb38b2729abf6e96abdb357b
-    new: 44208f59362e7099877f9ba79e1472f6bd321e2e
-    log: revlist-d721812aa875-44208f59362e.txt
+  - ref: refs/heads/dev-queue
+    old: f64506c5c2fd57196c6fc7c840387565b7e63942
+    new: 3cb4323c0ed292b6ba9b8836224ed90eea0efc98
+    log: revlist-f64506c5c2fd-3cb4323c0ed2.txt
 
---===============3798948470009259118==
+--===============5230068534693427422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d721812aa875-44208f59362e.txt
+Content-Disposition: attachment; filename=revlist-f64506c5c2fd-3cb4323c0ed2.txt
 
 35c6bba552a8469e6423727fba6a73616fcabd51 net: ieee802154: at86rf230: convert to use maple tree register cache
 b0f413bc63ea39358ec42a7f16526b097cf1f3b4 net: ieee802154: mcr20a: convert to use maple tree register cache
@@ -129,5 +129,28 @@ ad32b3c35c8ef57a2c2b9aee24ac1796d0522aeb Merge branch 'tcp-wmem-data-races'
 46f40172b68154106cae660c90c7801b61080892 net: page_pool: factor out page_pool recycle check
 8d0c314c30c9fe7f755d941f5d65a6e427518048 tools: ynl-gen: support using pre-defined values in attr checks
 44208f59362e7099877f9ba79e1472f6bd321e2e netlink: specs: support unterminated-ok
+cb88b5c5a9fd81cede7029f0a929ca10e683ec43 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+2c3cf8f6f37272696c38a9c76757f4113f6b4ec2 ice: Refactor FW data type and fix bitmap casting issue
+1d552f39a8b49fe188e0a7f2d3a97100339d52d9 ice: Add switch recipe reusing feature
+8e83e9c8682577ffb0245a18b7851a3aabd90b21 igc: Refactor runtime power management flow
+fcc844388e1fb322c0fb32ca4e96bdf3913e8abf igc: Fix missing time sync events
+580a44f38ac42ccb0858fbe3fa919630a669d401 igb: Fix missing time sync events
+662ffc1fa8b9faeb3a346a30bc7ff554cae8f4f4 ice: tc: check src_vsi in case of traffic from VF
+97e092b27b344eeddc688085688aad878f9203bb ice: tc: allow ip_proto matching
+7fe51a85a941503a8c471f4a5b5c5921bd7684f8 ice: fix stats being updated by way too large values
+c6d0f26cc8620c8082c5e9ff61e4638570afb704 ice: remove eswitch changing queues algorithm
+369defe9df5e53853fd9f538f0e3e7cb910bfb1c ice: do Tx through PF netdev in slow-path
+50a1e855e1994b90cfaf1943a21f992749407e0b ice: default Tx rule instead of to queue
+9fde8cb8d45acbc1f0cd944a1550da38b8713adf ice: control default Tx rule in lag
+724780f8e5d31c713b2650287ed22dd48d2d48df ice: remove switchdev control plane VSI
+7107efbda78a52c518f941d2cc905c589ed1e4ab ice: change repr::id values
+3c250e18545d553387f3895055d2a86e6193f519 ice: do switchdev slow-path Rx using PF VSI
+ece8033c3f41f61bb777115e2f1aef88a6d8f5c8 ice: count representor stats
+fde5954b76219d66c077fd388bae25d879b6aa16 e1000e: move force SMBUS from enable ulp function to avoid PHY loss
+38bf9e3331cdd8569dd2d36866414af36ff89868 ice: fix memory corruption bug with suspend and rebuild
+0dca7a8eb14a9eee27885b48b23e61b4e5e41539 ixgbe: avoid sleeping allocation in ixgbe_ipsec_vf_add_sa()
+bdbe8c6d4ba980ccf46deca70c6d5dfa93292b1d igb: simplify pci ops declaration
+f5d6c98607eb4d4bf07b813519239e7d524c763d net: intel: implement modern PM ops declarations
+3cb4323c0ed292b6ba9b8836224ed90eea0efc98 i40e: avoid forward declarations in i40e_nvm.c
 
---===============3798948470009259118==--
+--===============5230068534693427422==--
