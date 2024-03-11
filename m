@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3085448966866383875=="
+Content-Type: multipart/mixed; boundary="===============4078099162029845825=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 11 Mar 2024 20:16:25 -0000
-Message-Id: <171018818528.14304.17169491468685297929@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 11 Mar 2024 20:16:38 -0000
+Message-Id: <171018819841.14472.18379107558725713432@gitolite.kernel.org>
 
---===============3085448966866383875==
+--===============4078099162029845825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 90d1f30371ae3337beb01666b226320728d35c70
 
---===============3085448966866383875==
+--===============4078099162029845825==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -939,4 +939,4 @@ e5a3878c947ceef7b6ab68fdc093f3848059842c Merge tag 'rcu.next.v6.9' of git://git.
 5a2a15cd7f91c4c065a8acaa36afc9fcdcdd4dcd Merge tag 'compiler-attributes-6.9' of https://github.com/ojeda/linux
 8ede842f669b6f78812349bbef4d1efd0fbdafce Merge tag 'rust-6.9' of https://github.com/Rust-for-Linux/linux
 
---===============3085448966866383875==--
+--===============4078099162029845825==--
