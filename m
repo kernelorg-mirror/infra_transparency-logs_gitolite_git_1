@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 11 Mar 2024 15:27:51 -0000
-Message-Id: <171017087178.20359.4885646116022710698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 11 Mar 2024 15:28:04 -0000
+Message-Id: <171017088463.20495.1315166929561659147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/tags/v3.15.5
-    old: 37fbb8be4566859000a93d0408642bb6bea7fe1f
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 76ad5f426a26bbafcd494a57ad3a92a88a8eaf50
+    new: da0c6168d1d84ab590b929de9db42e61c39b60af
+    log: |
+         da0c6168d1d84ab590b929de9db42e61c39b60af examples/proxy: remove redundant asserts
+         
