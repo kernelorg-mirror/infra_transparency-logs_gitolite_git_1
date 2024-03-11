@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Mon, 11 Mar 2024 14:26:03 -0000
-Message-Id: <171016716318.3574.14042771575248803952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 11 Mar 2024 14:27:13 -0000
+Message-Id: <171016723373.4114.6048425777942590122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/loongarch-next
-    old: 14c5dbcc34dc410ab5df1b57639651cb3d932a9b
-    new: ff25f7f6e90d2c93d875f9e39b02dc44a45a4c17
+  - ref: refs/heads/master
+    old: f1de01a81a4dfa44d27aa19adbdab215047076fe
+    new: 17feae920432e5b091b04376e7f10a4347a53a37
     log: |
-         ff25f7f6e90d2c93d875f9e39b02dc44a45a4c17 Merge branch 'loongarch-kvm' into loongarch-next
+         17feae920432e5b091b04376e7f10a4347a53a37 examples/proxy: lay out usage information more logically
          
