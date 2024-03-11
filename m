@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2852596398186102193=="
+Content-Type: multipart/mixed; boundary="===============3837447475461898635=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 11 Mar 2024 12:53:29 -0000
-Message-Id: <171016160905.28856.6192980006784283765@gitolite.kernel.org>
+Date: Mon, 11 Mar 2024 12:53:33 -0000
+Message-Id: <171016161343.28933.8166213679517413492@gitolite.kernel.org>
 
---===============2852596398186102193==
+--===============3837447475461898635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 6f1b176c93a84fbaad55bb4e068baf701789ecf2
-    new: 98a975ffdafac1ab4c21ab85ce18591d1a22a273
-    log: revlist-6f1b176c93a8-98a975ffdafa.txt
+  - ref: refs/heads/m68k-queue
+    old: e5ae9eb0f54dec0410e0aed8dd06748a174beadc
+    new: 5802dbf4bea3ed396039915878cbbebd8a519551
+    log: revlist-e5ae9eb0f54d-5802dbf4bea3.txt
 
---===============2852596398186102193==
+--===============3837447475461898635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f1b176c93a8-98a975ffdafa.txt
+Content-Disposition: attachment; filename=revlist-e5ae9eb0f54d-5802dbf4bea3.txt
 
 1982a2a02c9197436d4a8ea12f66bafab53f16a0 xfrm: Clear low order bits of ->flowi4_tos in decode_session4().
 983a73da1f996faee9997149eb05b12fa7bd8cbf xfrm: Pass UDP encapsulation in TX packet offload
@@ -287,6 +287,9 @@ e5d7c1916562f0e856eb3d6f569629fcd535fed2 tracing: Use .flush() call to wake up r
 210ee636c4ad5e88a77f858fa460033715ad7d3f Merge tag 'phy-fixes3-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 fa4b851b4ad632dc673627f38a8a552547568a2c Merge tag 'trace-ring-buffer-v6.8-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e8f897f4afef0031fe618a8e94127a0934896aba Linux 6.8
-98a975ffdafac1ab4c21ab85ce18591d1a22a273 Merge tag 'v6.8'
+817fcd3c50ceafdf565329313d0c1195f565d2cb zorro: Make zorro_bus_type const
+920b70b3443b2c08299ff32f7793bc5c2c5a702f m68k: atari: usb: Add ISP1160 USB host controller support
+fdc924dca6338cbdf8ef3d035966b1a75c284610 m68k: atari: Update Kconfig.bus help text
+5802dbf4bea3ed396039915878cbbebd8a519551 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2852596398186102193==--
+--===============3837447475461898635==--
