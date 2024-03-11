@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4362694491680410474=="
+Content-Type: multipart/mixed; boundary="===============7686262291417459804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 11 Mar 2024 15:26:37 -0000
-Message-Id: <171017079735.19349.7919559203585513648@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 11 Mar 2024 15:26:43 -0000
+Message-Id: <171017080374.19528.13917656290182805599@gitolite.kernel.org>
 
---===============4362694491680410474==
+--===============7686262291417459804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/asoc-6.9
     old: 6c023ad32b192dea51a4f842cc6ecf89bb6238c9
     new: f31e0d0c2cad23e0cc48731634f85bb2d8707790
     log: |
          f31e0d0c2cad23e0cc48731634f85bb2d8707790 ASoC: tlv320adc3xxx: Don't strip remove function when driver is builtin
          
 
---===============4362694491680410474==
+--===============7686262291417459804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1710170795 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1710170795-e49b8ce7b20e347bfabfca4c4d41be412ba3ede0
+pusher C3F436CA30F5D8EB 1710170802 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1710170801-f48d5f7171d2a9ed9f4c3fda391a337385df38f8
 
-6c023ad32b192dea51a4f842cc6ecf89bb6238c9 f31e0d0c2cad23e0cc48731634f85bb2d8707790 refs/heads/for-6.9
+6c023ad32b192dea51a4f842cc6ecf89bb6238c9 f31e0d0c2cad23e0cc48731634f85bb2d8707790 refs/heads/asoc-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXvIqsACgkQJNaLcl1U
-h9DN2Qf/UE4YznCyZtLmXMLGgFKchVxwP99cL+MCbJmI1rJ+qPraz8SsUu4taza/
-203zlFFKwQ+xMMoSRXAT2PeypAgZYe5LRRyusT8jENF0De7ODbGNcaXC3UO+flU7
-Dt3l5A1ha5Etvn7G4w2yuXAkokn+eq++JSsu9BsJuC76OTalmtmwAP4OuVAqSjUD
-bk+XFguQBFj48N8hzerAr8NLC9ZHdaj7/rDp58gNxwVq7OwIyh16K0quJw2KqPkU
-8cdzGcnRr2E0p1dzOANwca4pPpZAw4KIQG2sJMlqQgs3nmYwtFseZGU+lOWOacHE
-tM/wxm7oSgWZ9QptGAi3qOF+IJ03zg==
-=zYYX
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXvIrIACgkQJNaLcl1U
+h9BrDQgAhnmNASVQkifQsChz0jtk4vTlP2NIG1+FNJQ+kMggzPr1PGpBPzHumk4b
+esDIQB7PseqOyQLD7dboMRoSEaGd5Av+1ZEjheQHRkRDU+BEW1MXj8YeCHpNPWL8
+z5+8ux61hSings6tfE5m2ZOdfoeFohEiGq/ip/C3Dp2sjEJM879Z/Q/TPKVLPPl0
+NI/t9doPH59YF5A9/PNpIOa0JNGbZIFdHOfx8OJlj0SxpBR7gafBpcrgl3CoPQgN
+/ViVFSG7g0lvmT07ulZr8caZiFmlzke4xhklj+TW+scc/QaB2e/EqNTkkFR/9G5/
+500z+QbhOQGYEjSxROyz4yNW5UOSYg==
+=qKk0
 -----END PGP SIGNATURE-----
 
---===============4362694491680410474==--
+--===============7686262291417459804==--
