@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7773056857993281734=="
+Content-Type: multipart/mixed; boundary="===============9101008020907854505=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 11 Mar 2024 20:40:52 -0000
-Message-Id: <171018965235.1377.16506701290302917111@gitolite.kernel.org>
+Date: Mon, 11 Mar 2024 20:41:11 -0000
+Message-Id: <171018967135.1553.6395796144571182813@gitolite.kernel.org>
 
---===============7773056857993281734==
+--===============9101008020907854505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: d721812aa875a898eb38b2729abf6e96abdb357b
     new: 44208f59362e7099877f9ba79e1472f6bd321e2e
     log: revlist-d721812aa875-44208f59362e.txt
 
---===============7773056857993281734==
+--===============9101008020907854505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -130,4 +130,4 @@ ad32b3c35c8ef57a2c2b9aee24ac1796d0522aeb Merge branch 'tcp-wmem-data-races'
 8d0c314c30c9fe7f755d941f5d65a6e427518048 tools: ynl-gen: support using pre-defined values in attr checks
 44208f59362e7099877f9ba79e1472f6bd321e2e netlink: specs: support unterminated-ok
 
---===============7773056857993281734==--
+--===============9101008020907854505==--
