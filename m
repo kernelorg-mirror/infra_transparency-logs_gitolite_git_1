@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8155478123048579948=="
+Content-Type: multipart/mixed; boundary="===============9215207540787637054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 11 Mar 2024 19:17:15 -0000
-Message-Id: <171018463500.2467.17631083737223931031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 11 Mar 2024 19:17:24 -0000
+Message-Id: <171018464442.2579.14033135074823376428@gitolite.kernel.org>
 
---===============8155478123048579948==
+--===============9215207540787637054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 46d9d808fb956085879cc75e2624b3f9f0a8e50d
-    new: 9976d6aa850eda4af07d94a0ef95204cd300f78f
-    log: revlist-46d9d808fb95-9976d6aa850e.txt
+    old: f0e76af58f9f70d708abb28d75017e022e05a98b
+    new: fff14467057eef3149b75b90ae715fca744b4c72
+    log: revlist-f0e76af58f9f-fff14467057e.txt
 
---===============8155478123048579948==
+--===============9215207540787637054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46d9d808fb95-9976d6aa850e.txt
+Content-Disposition: attachment; filename=revlist-f0e76af58f9f-fff14467057e.txt
 
 24b6332c2d4ff08fb7601ac8f751a5ba51e0ebd3 ALSA: hda: Add Lenovo Legion 7i gen7 sound quirk
 fccfa646ef3628097d59f7d9c1a3e84d4b6bb45e efi/capsule-loader: fix incorrect allocation size
@@ -1049,6 +1049,6 @@ e5d7c1916562f0e856eb3d6f569629fcd535fed2 tracing: Use .flush() call to wake up r
 210ee636c4ad5e88a77f858fa460033715ad7d3f Merge tag 'phy-fixes3-6.8' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 fa4b851b4ad632dc673627f38a8a552547568a2c Merge tag 'trace-ring-buffer-v6.8-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e8f897f4afef0031fe618a8e94127a0934896aba Linux 6.8
-9976d6aa850eda4af07d94a0ef95204cd300f78f selinux: add a SELinux specific README.md and SECURITY.md
+fff14467057eef3149b75b90ae715fca744b4c72 lsm: add a LSM specific README.md and SECURITY.md
 
---===============8155478123048579948==--
+--===============9215207540787637054==--
