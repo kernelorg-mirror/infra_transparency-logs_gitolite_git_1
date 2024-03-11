@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3878967902832546645=="
+Content-Type: multipart/mixed; boundary="===============8110520395995470887=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 11 Mar 2024 22:45:07 -0000
-Message-Id: <171019710723.27024.11576843077630484825@gitolite.kernel.org>
+Date: Mon, 11 Mar 2024 22:45:09 -0000
+Message-Id: <171019710923.27095.15331200821394785948@gitolite.kernel.org>
 
---===============3878967902832546645==
+--===============8110520395995470887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 365c2b32792e692bad6e3761ad19ac3f8f52c0fe
     new: 08701e306e480c56b68c1fa35f2c5b27204083e2
     log: revlist-365c2b32792e-08701e306e48.txt
 
---===============3878967902832546645==
+--===============8110520395995470887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ eed512e8ac64339cfc69da1a6a4b60982cb502ca bpftool: Recognize arena map type
 8df839ae23b8c581bdac4b6970d029d65a415852 selftests/bpf: Add bpf_arena_htab test.
 08701e306e480c56b68c1fa35f2c5b27204083e2 Merge branch 'bpf-introduce-bpf-arena'
 
---===============3878967902832546645==--
+--===============8110520395995470887==--
