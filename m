@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Mon, 11 Mar 2024 15:16:54 -0000
-Message-Id: <171017021405.10286.7584335742017332276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 11 Mar 2024 15:19:22 -0000
+Message-Id: <171017036295.11210.1084492229097221978@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/tmp.master
-    old: 47e83035c12c153b579db2e5fabd306a0d6f2d29
-    new: 4faf35b97c3427d1e2eebd6d7c6d900813d8c73c
-    log: |
-         4faf35b97c3427d1e2eebd6d7c6d900813d8c73c fprintf: Remove bogus deduction of negative hole from size of previous field
-         
+  - ref: refs/tags/v3.16.3
+    old: 27a3eef80914b287caa7db50a72ce7ee6384e7c8
+    new: 0000000000000000000000000000000000000000
