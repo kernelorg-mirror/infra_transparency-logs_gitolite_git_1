@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 11 Mar 2024 09:56:17 -0000
-Message-Id: <171015097706.30827.9806901301858526235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Mon, 11 Mar 2024 09:57:03 -0000
+Message-Id: <171015102329.31196.13251284300076919394@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+user: andy
 changes:
-  - ref: refs/heads/main
-    old: e996401e06a5232f61b4906e2eea643fffa88396
-    new: 08842c43d0165b0ed78907fd8cc92ce17d857913
+  - ref: refs/heads/for-next
+    old: 4664b0bbb69ce61a913336a1f093383a4aa43824
+    new: d8abf9d4ea3578e594fdde0d25d29cbabab96981
     log: |
-         08842c43d0165b0ed78907fd8cc92ce17d857913 udp: no longer touch sk->sk_refcnt in early demux
+         d8abf9d4ea3578e594fdde0d25d29cbabab96981 auxdisplay: seg-led-gpio: Import linedisp namespace
          
