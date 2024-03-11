@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2939054222470314803=="
+Content-Type: multipart/mixed; boundary="===============4325628504583882981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 11 Mar 2024 08:29:11 -0000
-Message-Id: <171014575167.16524.14562276707212087247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 11 Mar 2024 08:29:17 -0000
+Message-Id: <171014575701.16649.3398923378136786102@gitolite.kernel.org>
 
---===============2939054222470314803==
+--===============4325628504583882981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: e8f897f4afef0031fe618a8e94127a0934896aba
     log: revlist-90d35da658da-e8f897f4afef.txt
 
---===============2939054222470314803==
+--===============4325628504583882981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -288,4 +288,4 @@ e5d7c1916562f0e856eb3d6f569629fcd535fed2 tracing: Use .flush() call to wake up r
 fa4b851b4ad632dc673627f38a8a552547568a2c Merge tag 'trace-ring-buffer-v6.8-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e8f897f4afef0031fe618a8e94127a0934896aba Linux 6.8
 
---===============2939054222470314803==--
+--===============4325628504583882981==--
