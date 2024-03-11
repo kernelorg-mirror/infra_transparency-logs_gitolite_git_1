@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4380119875786812745=="
+Content-Type: multipart/mixed; boundary="===============8493997346672154822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 11 Mar 2024 22:26:21 -0000
-Message-Id: <171019598129.11323.16891021667521596343@gitolite.kernel.org>
+Date: Mon, 11 Mar 2024 22:26:37 -0000
+Message-Id: <171019599756.11490.778263898646343564@gitolite.kernel.org>
 
---===============4380119875786812745==
+--===============8493997346672154822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 11c345bba024d4fee91e1cf9733b0b841df32fc7
+  - ref: refs/heads/next
+    old: a12721f3e83cce68cfb7c330e335208f734c2dd6
     new: b76378d48c741391c7b7bf66fcd6c98c4c30ba00
-    log: revlist-11c345bba024-b76378d48c74.txt
+    log: revlist-a12721f3e83c-b76378d48c74.txt
 
---===============4380119875786812745==
+--===============8493997346672154822==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-11c345bba024-b76378d48c74.txt
+Content-Disposition: attachment; filename=revlist-a12721f3e83c-b76378d48c74.txt
 
 31c89007285d365aa36f71d8fb0701581c770a27 workqueue.c: Increase workqueue name length
 ab5e5b99a949b9f282c605d00557b2c727856485 tools/workqueue: Add rescuers printing to wq_dump.py
@@ -1006,4 +1006,4 @@ b7ab4bbd0188f3985b821fa09456b11105a8dedf tpm,tpm_tis: Avoid warning splat at shu
 6fa6b796e037a15b1c208b1158f801f9adcb1f2b tpm: tis_i2c: Add compatible string nuvoton,npct75x
 b76378d48c741391c7b7bf66fcd6c98c4c30ba00 MAINTAINERS: Update W's for KEYS/KEYRINGS_INTEGRITY and TPM DEVICE DRIVER
 
---===============4380119875786812745==--
+--===============8493997346672154822==--
