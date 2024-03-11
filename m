@@ -1,24 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 11 Mar 2024 21:06:59 -0000
-Message-Id: <171019121974.19411.12462452344697113243@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6195814260550360231=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Mon, 11 Mar 2024 21:07:04 -0000
+Message-Id: <171019122415.19498.1800498263830474108@gitolite.kernel.org>
+
+--===============6195814260550360231==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 44208f59362e7099877f9ba79e1472f6bd321e2e
-    new: 031a239c2209522520936238f1d71615eb5634e0
+  - ref: refs/heads/master
+    old: a2488d17998505267899f2df2c0b0fa74b523c5a
+    new: 8dac1f3d8a92ec80d8bea15570d2668e7778c308
     log: |
-         c057eddcb45ac13db487fa413f75611c69aad600 ptp: make ptp_class constant
-         86a7abbb221057dd362bb7af05ee0464d3846850 net: mdio_bus: Remove unused of_gpio.h
-         2920dd92b980c73d15c1a187b4cb7820521cf9fa net: dsa: mt7530: disable LEDs before reset
-         22ca20fd12f8b515d74c5e8e8a57e3c3d97def20 net: phy: marvell-88x2222: Remove unused of_gpio.h
-         c786459fc827216447b34d716d0a9f8f6a79bf73 net: phy: simplify a check in phy_check_link_status
-         031a239c2209522520936238f1d71615eb5634e0 r8169: switch to new function phy_support_eee
+         0ee41d43f61266069dc1b4545ba43ef9c29814f0 Add basic vale config
+         8dac1f3d8a92ec80d8bea15570d2668e7778c308 docs: rewrite config.rst based on vale feedback
          
+
+--===============6195814260550360231==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1710191222 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1710191222-576d1bbea7a06b50e31f1f3a8c30b97caeb8d24a
+
+a2488d17998505267899f2df2c0b0fa74b523c5a 8dac1f3d8a92ec80d8bea15570d2668e7778c308 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZe9ydgAKCRC2xBzjVmSZ
+bKjNAQDBOgh2gLa+JBeH27cUG68onQWpQQfj1LUmSASfGu5jzgD/ef4lotFAyNrr
+U2KwL8KbV96MpFGyIGH+05Mv0h89hQg=
+=FG3r
+-----END PGP SIGNATURE-----
+
+--===============6195814260550360231==--
