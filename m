@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3028173541860097654=="
+Content-Type: multipart/mixed; boundary="===============0508808291903933967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Mon, 11 Mar 2024 16:21:03 -0000
-Message-Id: <171017406370.2632.2377147340576405160@gitolite.kernel.org>
+Date: Mon, 11 Mar 2024 16:22:12 -0000
+Message-Id: <171017413240.3120.9320843021707356703@gitolite.kernel.org>
 
---===============3028173541860097654==
+--===============0508808291903933967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thermal/linux
 user: daniel.lezcano
 changes:
-  - ref: refs/heads/thermal/bleeding-edge
-    old: 9feeb511c3de52987d3a20785b7f2691c111fbb0
+  - ref: refs/heads/thermal/linux-next
+    old: 9ac53d5532cc4bb595bbee86ccba2172ccc336c3
     new: 1828c1c17bb2adf3a3f26abc69cb3fe971eac0e4
-    log: revlist-9feeb511c3de-1828c1c17bb2.txt
+    log: revlist-9ac53d5532cc-1828c1c17bb2.txt
 
---===============3028173541860097654==
+--===============0508808291903933967==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9feeb511c3de-1828c1c17bb2.txt
+Content-Disposition: attachment; filename=revlist-9ac53d5532cc-1828c1c17bb2.txt
 
 c481016bb4f8a9c059c39ac06e7b65e233a61f6a ASoC: qcom: sc8280xp: limit speaker volumes
 bdd8f62431ebcf15902a5fce3336388e436405c6 exec: Add do_close_execat() helper
@@ -1051,4 +1051,4 @@ bd0b451bd40fbe42d5d36e3740c489d503636d48 thermal/drivers/sun8i: Add SRAM registe
 6796c1b68fa92c303923812a0658f3afe8366db2 dt-bindings: thermal: rcar-gen3-thermal: Add r8a779h0 support
 1828c1c17bb2adf3a3f26abc69cb3fe971eac0e4 thermal/drivers/rcar_gen3: Add support for R-Car V4M
 
---===============3028173541860097654==--
+--===============0508808291903933967==--
