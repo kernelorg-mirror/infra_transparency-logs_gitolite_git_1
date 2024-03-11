@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 11 Mar 2024 12:07:49 -0000
-Message-Id: <171015886997.29130.6085266273568036360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 11 Mar 2024 12:13:23 -0000
+Message-Id: <171015920375.32728.17071123592172109577@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/ata-6.9-rc1
+  - ref: refs/tags/sched-core-2024-03-11
     old: 0000000000000000000000000000000000000000
-    new: 88dc0480f5533cd5ab50ff7ba3853059931f2f93
+    new: 78116ea41e6df53a4d3f6b38cdc1ca891a13fd93
