@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1902591376534921074=="
+Content-Type: multipart/mixed; boundary="===============5063492422680588602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 11 Mar 2024 17:43:54 -0000
-Message-Id: <171017903445.30515.5942222540966249532@gitolite.kernel.org>
+Date: Mon, 11 Mar 2024 17:44:00 -0000
+Message-Id: <171017904081.30642.4677297230450533752@gitolite.kernel.org>
 
---===============1902591376534921074==
+--===============5063492422680588602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/dir-deleg
+  - ref: refs/heads/kdevops
     old: 5839c3560192f56983aca3035cec36e6c81c887d
     new: bcf256c81b0b6e8d045b86a7dd8cad6835f141d0
     log: revlist-5839c3560192-bcf256c81b0b.txt
 
---===============1902591376534921074==
+--===============5063492422680588602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -318,4 +318,4 @@ ee197910b6c2b6b102bfa8530669dd97c6dc01fa nfs: new GET_DIR_DELEGATION procedure
 d231b19c313b9a776bb04fca17ac0017f6e169ec nfs: skip dentry revalidation when parent dir has a delegation
 bcf256c81b0b6e8d045b86a7dd8cad6835f141d0 nfs: try to get a dir delegation with every lookup
 
---===============1902591376534921074==--
+--===============5063492422680588602==--
