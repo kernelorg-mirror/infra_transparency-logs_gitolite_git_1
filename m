@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 11 Mar 2024 22:36:11 -0000
-Message-Id: <171019657178.18530.1340506935818143215@gitolite.kernel.org>
+Date: Mon, 11 Mar 2024 22:36:20 -0000
+Message-Id: <171019658044.18685.1559901668680020672@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/dir-deleg
-    old: bcf256c81b0b6e8d045b86a7dd8cad6835f141d0
+  - ref: refs/heads/kdevops
+    old: 3ffd98036b45798f08b0f806eb7f0c3a1717279a
     new: 0e3dfaaca8bc820ef042fa5d8230f071aebf822e
     log: |
          c45141d0f9b7fd640419456943bbe054454ac40f nfsd: wire up GET_DIR_DELEGATION handling
