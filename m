@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 11 Mar 2024 02:27:25 -0000
-Message-Id: <171012404542.15378.10539554974853581535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Mon, 11 Mar 2024 04:51:12 -0000
+Message-Id: <171013267204.22482.7246851657181002248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/chrome-platform-firmware-6.9
-    old: 0000000000000000000000000000000000000000
-    new: 8a0a62941a042612f7487f6c4ff291f9054ff214
-  - ref: refs/tags/tag-chrome-platform-firmware-for-v6.9
-    old: 0000000000000000000000000000000000000000
-    new: f9bf995b199ca277f36e9790e8d4707f55256b54
+  - ref: refs/heads/patches-in-queue
+    old: ce74b7c893506f4a2867cfd1af1af446d2ea5d60
+    new: 0000000000000000000000000000000000000000
