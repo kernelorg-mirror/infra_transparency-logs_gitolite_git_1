@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 11 Mar 2024 22:50:04 -0000
-Message-Id: <171019740425.31582.7364582229457402811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 11 Mar 2024 22:57:34 -0000
+Message-Id: <171019785431.14321.2092525617746272110@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/io_uring-recvsend-bundle
-    old: f68089dfeaa8994a76e1ffe17c49552019c0ba6b
-    new: f1bfce7dbe7e7cb9136b413b11f143f545279027
+  - ref: refs/heads/master
+    old: 848bec94116930fa75df27c8bd6bd1e09aa7fb9b
+    new: 33a5641701f6eb2283f7c5dc728a9124c0139c25
     log: |
-         65c891982be40ea19cdaeb06962a1ead35157a80 io_uring/net: switch io_recv() to using io_async_msghdr
-         f1bfce7dbe7e7cb9136b413b11f143f545279027 io_uring/net: support bundles for recv
+         33a5641701f6eb2283f7c5dc728a9124c0139c25 Mon Mar 11 06:56:41 PM EDT 2024
          
