@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 11 Mar 2024 14:50:03 -0000
-Message-Id: <171016860384.22104.8459773681610221426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/misc
+Date: Mon, 11 Mar 2024 14:55:04 -0000
+Message-Id: <171016890403.25487.9761348072309083010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/misc
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: fa4b851b4ad632dc673627f38a8a552547568a2c
-    new: e8f897f4afef0031fe618a8e94127a0934896aba
+  - ref: refs/heads/main
+    old: b7cd4bcb8f5d1d72fea1753f5ec3524b28e37cf7
+    new: 976fa03ca01b912dd41bd0dca8ab7f518ae96c2d
     log: |
-         e8f897f4afef0031fe618a8e94127a0934896aba Linux 6.8
+         976fa03ca01b912dd41bd0dca8ab7f518ae96c2d web: net-next is closed (for v6.9 merge window)
          
