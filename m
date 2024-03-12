@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 12 Mar 2024 16:21:38 -0000
-Message-Id: <171026049860.26458.3602111812199237143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 12 Mar 2024 16:34:14 -0000
+Message-Id: <171026125415.1767.5399177519185483665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/kdevops
-    old: a9928fe53b8ae3435bbeef4fc018955ccd7c4f29
-    new: 90fb0359c0ae0ba5761fbfc87b0017c4f8d631c4
-    log: |
-         90fb0359c0ae0ba5761fbfc87b0017c4f8d631c4 DEBUG: dump stack on gdd_lookups
-         
+  - ref: refs/heads/fileVDq2eT
+    old: 10eb0d3314c59dd0497282b33afabddf607b3050
+    new: 0000000000000000000000000000000000000000
