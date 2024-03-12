@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5778049592130687832=="
+Content-Type: multipart/mixed; boundary="===============1758338418906215855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 12 Mar 2024 14:34:34 -0000
-Message-Id: <171025407473.15911.11227724793375259622@gitolite.kernel.org>
+Date: Tue, 12 Mar 2024 14:34:40 -0000
+Message-Id: <171025408022.16008.10797408065725794041@gitolite.kernel.org>
 
---===============5778049592130687832==
+--===============1758338418906215855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/kdevops
-    old: 0c80b65debd1ab3cc1463d753dbc917e38aec594
+  - ref: refs/heads/dir-deleg
+    old: 0e3dfaaca8bc820ef042fa5d8230f071aebf822e
     new: d29a3b8805e9ce6b1f7cc6ab5c382cc02b992c33
-    log: revlist-0c80b65debd1-d29a3b8805e9.txt
+    log: revlist-0e3dfaaca8bc-d29a3b8805e9.txt
 
---===============5778049592130687832==
+--===============1758338418906215855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c80b65debd1-d29a3b8805e9.txt
+Content-Disposition: attachment; filename=revlist-0e3dfaaca8bc-d29a3b8805e9.txt
 
 b1535c8ed23bd7571f9ef1eff56bdc95828683d3 nfsd: comment fix
 797ae0e9f95690f4c14e80c3920709bb9db69e28 nfsd: encoders and decoders for GET_DIR_DELEGATION
@@ -43,4 +43,4 @@ cd6f4b6ad8628ef2e99f79339e3946d6c99632f7 nfs: add an ioctl to fetch a directory 
 f79af8d8fb4908c525e6b7ba2a260a55d14dfe72 nfs: skip dentry revalidation when parent dir has a delegation
 d29a3b8805e9ce6b1f7cc6ab5c382cc02b992c33 nfs: try to get a dir delegation with every lookup
 
---===============5778049592130687832==--
+--===============1758338418906215855==--
