@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 12 Mar 2024 19:50:03 -0000
-Message-Id: <171027300368.17656.8012498438141569676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 12 Mar 2024 20:08:01 -0000
+Message-Id: <171027408127.30350.11325534849505186955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/io_uring-recvsend-bundle
-    old: c6d9a749ed782993885a5ba09c841b3557ce8cf1
-    new: a11944739df1caedf4d9d7bddfd1eef0e15f23b8
+  - ref: refs/heads/soc/late
+    old: f0379bd1c7da4d2d426e201d2649681801967e3b
+    new: a04a7da3982e802a1b3a19f73459515be58be2be
     log: |
-         a11944739df1caedf4d9d7bddfd1eef0e15f23b8 io_uring/kbuf: vmap pinned buffer ring
+         8129d25e32b7fd0f77bc664252321f3a16bb26b8 bus: ts-nbus: Convert to atomic pwm API
+         a04a7da3982e802a1b3a19f73459515be58be2be bus: ts-nbus: Improve error reporting
          
