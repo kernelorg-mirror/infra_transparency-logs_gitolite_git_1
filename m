@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Tue, 12 Mar 2024 20:10:40 -0000
-Message-Id: <171027424026.662.2880016738520563132@gitolite.kernel.org>
+Date: Tue, 12 Mar 2024 20:11:38 -0000
+Message-Id: <171027429831.1124.12694757865598217588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
   - ref: refs/tags/audit-pr-20240312
-    old: 5b937f49ddd9e2fa837968bc3fbe6ea48fd1cedb
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 5c6417338b14567cef93b3cc999a3ac9d3fe60ab
