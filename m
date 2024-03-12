@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1613893166603118596=="
+Content-Type: multipart/mixed; boundary="===============3147974087003935147=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 12 Mar 2024 01:58:58 -0000
-Message-Id: <171020873871.23375.8184964197776664404@gitolite.kernel.org>
+Date: Tue, 12 Mar 2024 01:59:04 -0000
+Message-Id: <171020874470.23461.6244474829027876799@gitolite.kernel.org>
 
---===============1613893166603118596==
+--===============3147974087003935147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 66c8473135c62f478301a0e5b3012f203562dfa6
     new: 5f20e6ab1f65aaaaae248e6946d5cb6d039e7de8
     log: revlist-66c8473135c6-5f20e6ab1f65.txt
 
---===============1613893166603118596==
+--===============3147974087003935147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -922,4 +922,4 @@ e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
 f095fefacdd35b4ea97dc6d88d054f2749a73d07 ptp: Move from simple ida to xarray
 5f20e6ab1f65aaaaae248e6946d5cb6d039e7de8 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============1613893166603118596==--
+--===============3147974087003935147==--
