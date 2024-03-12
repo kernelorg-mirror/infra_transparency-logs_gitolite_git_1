@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsdump-dev
-Date: Tue, 12 Mar 2024 14:43:48 -0000
-Message-Id: <171025462864.23839.10398626060093260388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 12 Mar 2024 14:50:29 -0000
+Message-Id: <171025502991.29487.10812800318216357775@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsdump-dev
-user: cem
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: 8e97f9c2b3c362fa6dd872d72594713c713479bc
-    new: 252b0979e97b23a17cafae303040c4a7f942bb3b
+  - ref: refs/heads/kdevops
+    old: d29a3b8805e9ce6b1f7cc6ab5c382cc02b992c33
+    new: b337c4f6c69830e21c92aa8b527991c070296bed
     log: |
-         577e51a5abdda97ffce73637d67f5f88d7e93ac7 xfsdump: Fix memory leak
-         252b0979e97b23a17cafae303040c4a7f942bb3b xfsdump/xfsrestore: don't use O_DIRECT on the RT device
+         b337c4f6c69830e21c92aa8b527991c070296bed nfs: try to get a dir delegation with every lookup
          
