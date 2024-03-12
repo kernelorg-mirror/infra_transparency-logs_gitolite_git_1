@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3321520489040682185=="
+Content-Type: multipart/mixed; boundary="===============2285490873807186231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 12 Mar 2024 10:57:25 -0000
-Message-Id: <171024104552.5954.11252161936525317730@gitolite.kernel.org>
+Date: Tue, 12 Mar 2024 10:58:15 -0000
+Message-Id: <171024109512.6347.15910212373671874651@gitolite.kernel.org>
 
---===============3321520489040682185==
+--===============2285490873807186231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo
-    old: b9f5e805c9d54db2c54ea600120cea3358452210
+  - ref: refs/heads/for-next
+    old: f5fed715e05df1c5cb868454ba7d0601ae0410aa
     new: 16f8091b49175f327120cdbbdde135d38a853ae1
-    log: revlist-b9f5e805c9d5-16f8091b4917.txt
+    log: revlist-f5fed715e05d-16f8091b4917.txt
 
---===============3321520489040682185==
+--===============2285490873807186231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1710241040 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1710241091 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1710241040-a5d5a45d07f1876aa36a4181f1b056a210c2b523
+nonce 1710241091-1a7857178b0dde0ad9c1843b417b12819af8e335
 
-b9f5e805c9d54db2c54ea600120cea3358452210 16f8091b49175f327120cdbbdde135d38a853ae1 refs/heads/review-ilpo
+f5fed715e05df1c5cb868454ba7d0601ae0410aa 16f8091b49175f327120cdbbdde135d38a853ae1 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZfA1EgAKCRBZrE9hU+XO
-MUXoAQD0H1SkPijOUavI8RZCzOs9aM/24D48tJJX8eBR5LZvtAEA9BhY4osrq3Z6
-AtNVdw5NR3j6ei6KpT5ESqptsqShfwk=
-=jjcR
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZfA1RAAKCRBZrE9hU+XO
+MQqvAQCw8fuvtfNO7oEaIOoaH78sak1syXkmetKInOH18kRJJQD/aM60QHRyUd9C
+QIo2gZbQPH/SkxG4wVnx3LoxJUwcNQA=
+=Jfb7
 -----END PGP SIGNATURE-----
 
---===============3321520489040682185==
+--===============2285490873807186231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9f5e805c9d5-16f8091b4917.txt
+Content-Disposition: attachment; filename=revlist-f5fed715e05d-16f8091b4917.txt
 
 cfeb98b95fff25c442f78a6f616c627bc48a26b7 Input: allocate keycode for Display refresh rate toggle
 f492f5f3e4e54043baeb38bfb494b2f959a636b7 platform/x86: ideapad-laptop: map Fn + R key to KEY_REFRESH_RATE_TOGGLE
@@ -89,4 +89,4 @@ e9df5436fd61c8cf375ac086d936f90385cd6888 Documentation/x86/amd/hsmp: Updating ur
 f7b7066508d69934e4545db0c709c98ce506df0c platform/x86: asus-wmi: Consider device is absent when the read is ~0
 16f8091b49175f327120cdbbdde135d38a853ae1 platform/x86/intel/pmc: Improve PKGC residency counters debug
 
---===============3321520489040682185==--
+--===============2285490873807186231==--
