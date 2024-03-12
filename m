@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 12 Mar 2024 03:09:45 -0000
-Message-Id: <171021298552.10131.10690188282676368060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Tue, 12 Mar 2024 03:12:29 -0000
+Message-Id: <171021314905.13086.9864614681298641376@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
+repo: pub/scm/libs/ell/ell
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 71a7190ed2ca6c028241daa430e1c965fdd57120
-    new: 6bedcb4622fbec92dc74b03ba1c2d8f78a260792
+    old: 54bad67e964c7c104594786897693f43626fac46
+    new: 4a3fe812a58a8aa67e218840c842cdeddae9d23e
     log: |
-         795f57e816b9dda7d059690fc9e9f74b21c169e9 p2p: check connected peer before processing request
-         eb3345b51b812b77e96f922835eb796c10f6a9c7 eap-mschapv2: Check Password-Hash exists when loading settings
-         121c2c5653ce8a51a02cff7d2ce348a9546f9e2c monitor: properly mask HE capabilities bitfield
-         6bedcb4622fbec92dc74b03ba1c2d8f78a260792 client: fix two issues caught by static analysis
+         66cd1ec38c2a83fa6854866f9c0437dcd144820a cert: remove usused elem_data variable
+         aecde787d3f6577d56a373bdf227f42a20502290 dbus: remove unused 'type' variable
+         e0da55061968efa2492fe0678e7a96f723ae199e gvariant-util: remove unneeded initializer
+         fb9139b5bdc1550d15ad31c90e68fdea334fbb59 queue: remove unneeded entry advancement
+         4a3fe812a58a8aa67e218840c842cdeddae9d23e unit: assert return of several gvariant-util calls
          
