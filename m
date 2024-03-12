@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0985616816089808449=="
+Content-Type: multipart/mixed; boundary="===============6113895895478673552=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 12 Mar 2024 11:30:01 -0000
-Message-Id: <171024300103.29177.17781823883821687378@gitolite.kernel.org>
+Date: Tue, 12 Mar 2024 11:30:53 -0000
+Message-Id: <171024305317.31236.3205181701671864059@gitolite.kernel.org>
 
---===============0985616816089808449==
+--===============6113895895478673552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: uli
 changes:
-  - ref: refs/heads/linux-4.4.y-st
-    old: 32c8d563e356f1b156afc0ba28f0aee7561dd2b6
-    new: d3ee98c4d93cc06b63fbe35f8088e58cfa1e73cf
-    log: revlist-32c8d563e356-d3ee98c4d93c.txt
+  - ref: refs/heads/linux-4.4.y-cip
+    old: 681701bd9bc1f65237982eebce24afcffab64f4f
+    new: 73293d3cb91e2dd661422c4d62a95edd1e8e16a4
+    log: revlist-681701bd9bc1-73293d3cb91e.txt
 
---===============0985616816089808449==
+--===============6113895895478673552==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-32c8d563e356-d3ee98c4d93c.txt
+Content-Disposition: attachment; filename=revlist-681701bd9bc1-73293d3cb91e.txt
 
 fc716532056cd38b9510ee589bae74f1913b8528 net/qla3xxx: switch from 'pci_' to 'dma_' API
 00c523336633c91bee89c067b03a4103d6d5571f net/qla3xxx: fix potential memleak in ql_alloc_buffer_queues
@@ -228,5 +228,7 @@ f062624f48afccd67ad36c6f8a5e8772aa85748f doc: update KNOWN-BUGS file
 a8372c3f3b8be0df0cc0c015e612f4f8ffa26cf8 ravb: remove undocumented endianness selection
 d51f79f72be5ded49c5f63f1e4b9bfe45fb80b37 ravb: remove undocumented counter processing
 d3ee98c4d93cc06b63fbe35f8088e58cfa1e73cf Update localversion-st, tree is up-to-date with 4.19.308.
+7700853743caf5c530019ecd159c68668984d77d Merge branch 'linux-4.4.y-st' into linux-4.4.y-cip
+73293d3cb91e2dd661422c4d62a95edd1e8e16a4 CIP: Bump version suffix to -cip85 after merge from cip/linux-4.4.y-st tree
 
---===============0985616816089808449==--
+--===============6113895895478673552==--
