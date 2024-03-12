@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Tue, 12 Mar 2024 10:01:15 -0000
-Message-Id: <171023767535.30817.11521837809627092533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 12 Mar 2024 10:10:25 -0000
+Message-Id: <171023822551.6138.1419629032136641455@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/asm-generic
-user: arnd
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/tags/asm-generic-6.9
-    old: 0000000000000000000000000000000000000000
-    new: 911df66292ce921b2131a850e31087c77b3dcd8c
+  - ref: refs/heads/kdevops
+    old: 0e3dfaaca8bc820ef042fa5d8230f071aebf822e
+    new: 0c80b65debd1ab3cc1463d753dbc917e38aec594
+    log: |
+         0c80b65debd1ab3cc1463d753dbc917e38aec594 nfsd: make directory opens use a GC'ed entry
+         
