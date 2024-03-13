@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 13 Mar 2024 01:27:07 -0000
-Message-Id: <171029322719.8617.5316709335555950538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Wed, 13 Mar 2024 01:28:41 -0000
+Message-Id: <171029332142.9242.13746665535066171991@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/dev-test
-    old: bcca296167bc69edd5c0e09f84e536d9190999d7
-    new: c644af1332833a5baa2b6a9220d1a1d988352b26
-    log: |
-         b7d797d241c154d73ec5523f87f3b06d4f299da1 f2fs: compress: relocate some judgments in f2fs_reserve_compress_blocks
-         2f6d721e14b69d6e1251f69fa238b48e8374e25f f2fs: compress: fix reserve_cblocks counting error when out of space
-         9f0c4a46be1fe9b97dbe66d49204c1371e3ece65 f2fs: fix to truncate meta inode pages forcely
-         11bec96afbfbc4679863db55258de440d786821e f2fs: zone: fix to remove pow2 check condition for zoned block device
-         31f85ccc84b82cc7eb122af01f5017fbe1e29289 f2fs: unify the error handling of f2fs_is_valid_blkaddr
-         245930617c9bd85330c78e1a70775e1f61b12f7a f2fs: fix to handle error paths of {new,change}_curseg()
-         c644af1332833a5baa2b6a9220d1a1d988352b26 f2fs: prevent atomic write on pinned file
-         
+  - ref: refs/heads/dlserver-mar-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 0e8ae74445f67bd8936c1c3bd236f4502c179608
