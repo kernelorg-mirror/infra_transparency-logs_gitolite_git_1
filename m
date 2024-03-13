@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 13 Mar 2024 20:57:52 -0000
-Message-Id: <171036347269.23710.2019389877190309949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 13 Mar 2024 20:59:28 -0000
+Message-Id: <171036356896.24356.3942723437067283512@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: f5fecf037b1ea31612cb0226cc2634994a4671c4
-    new: 3ad367874630bb62719ea02184a473cb1efeca34
+    old: 3f0396518fb89dcd18e541dbe86eb46e1fd207e3
+    new: 7dcc6c66e99fd60df7a03c19f1301bd3385671aa
     log: |
-         e35f4583421c17fe7108dbbd82e6b07e4e96f3c4 client/player: Split unicast and broadcast presets
-         cae922c63bd5c63a8ce077b3c2c694b2fe988245 client/player: Use macros from lc3.h to define presets
-         47df60e8b21ef795e0f1438b1dc44ac309f72781 shared/lc3: Add definition for broadcast configurations
-         25f42cfc4653ff0125a1f079207b74193aa617ea client/player: Use QOS macros from lc3.h to define presets
-         fffa21d084ecc3dfe789a965039980f2cf582a44 bap: Add proper default for broadcast setup
-         3ad367874630bb62719ea02184a473cb1efeca34 client/player: Cleanup broadcast QoS
+         76f511b2f73065150419a8eeaaceea0d7badfd1d Rework backport of mm-vmscan-fix-a-bug-calling-wakeup_kswapd-with-a-wro.patch
+         8c8d91d6bbd40bdcede4f4695295090929d688d1 Drop exit-wait_task_zombie-kill-the-no-longer-necessary-s.patch
+         3fc175518c1c54df6b7d19e76e11f4226144b614 Drop exit-fix-typo-in-comment-s-sub-theads-sub-threads.patch
+         e47709065eac2cac3ac6bbf181be4cb5f9ceb248 Drop modpost-add-.ltext-and-.ltext.-to-text_sections.patch
+         7dcc6c66e99fd60df7a03c19f1301bd3385671aa Drop modpost-include-.text.-in-text_sections.patch
          
