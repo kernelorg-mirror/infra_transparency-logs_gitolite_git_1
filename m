@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 13 Mar 2024 18:43:28 -0000
-Message-Id: <171035540855.22922.9802994843943837289@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niklas/linux
+Date: Wed, 13 Mar 2024 18:45:11 -0000
+Message-Id: <171035551142.25189.13452987927272669654@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/niklas/linux
+user: niklas
 changes:
-  - ref: refs/heads/v4_20240305_luca_ceresoli_add_support_for_the_internal_rk3308_audio_codec
-    old: 9e2ab4b18ebd46813fc3459207335af4d368e323
+  - ref: refs/heads/next/net/tsn
+    old: 0d7f6d8b234116c6b18a274d44f17ab1e0f52dfb
     new: 0000000000000000000000000000000000000000
