@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 13 Mar 2024 15:07:37 -0000
-Message-Id: <171034245769.17760.8917652313140280808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 13 Mar 2024 15:08:32 -0000
+Message-Id: <171034251289.18234.2799271500862832198@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/dev-test
-    old: c644af1332833a5baa2b6a9220d1a1d988352b26
-    new: 3cde8b3d48c24700691c57e79ebc43577067e3ed
+  - ref: refs/heads/master
+    old: c9dddb642663b8bafe8998fef6132a2bb36d609d
+    new: f5fecf037b1ea31612cb0226cc2634994a4671c4
     log: |
-         5ce8eba7ff7251f18d4905dd4d34bab6cdd457e5 f2fs: mark inode dirty for FI_ATOMIC_COMMITTED flag
-         3cde8b3d48c24700691c57e79ebc43577067e3ed f2fs: truncate page cache before clearing flags when aborting atomic write
+         92ed637ab2bc44b812fd8c7bff5b5f41fcc48255 shared/uhid: Add dedicated functions for each UHID opcode
+         256d0b594d044222975f55e3b2d02990e0f88f87 hog-lib: Use bt_uhid functions
+         c0c9e462be465ae3e9458256636f10f4d6acbedb input/device: Use bt_uhid functions
+         f5fecf037b1ea31612cb0226cc2634994a4671c4 test-uhid: Test bt_uhid functions
          
