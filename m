@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8069205297245775659=="
+Content-Type: multipart/mixed; boundary="===============8772821887128342967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 13 Mar 2024 00:06:25 -0000
-Message-Id: <171028838575.8361.6665018728237945106@gitolite.kernel.org>
+Date: Wed, 13 Mar 2024 00:06:43 -0000
+Message-Id: <171028840372.8560.2077922086299313863@gitolite.kernel.org>
 
---===============8069205297245775659==
+--===============8772821887128342967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 44208f59362e7099877f9ba79e1472f6bd321e2e
     new: ed1f164038b50c5864aa85389f3ffd456f050cca
     log: revlist-44208f59362e-ed1f164038b5.txt
 
---===============8069205297245775659==
+--===============8772821887128342967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -163,4 +163,4 @@ e006858f1a1c6e8ba8aeff67e9b15700f70174da nexthop: Fix splat with CONFIG_DEBUG_PR
 a318d3d54c44f9916cd77ad272083d4a4d68899b Merge branch 'nexthop-fix-two-nexthop-group-statistics-issues'
 ed1f164038b50c5864aa85389f3ffd456f050cca Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============8069205297245775659==--
+--===============8772821887128342967==--
