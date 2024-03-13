@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============6976640212331694270=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/website
-Date: Wed, 13 Mar 2024 13:48:31 -0000
-Message-Id: <171033771178.23832.583483830077472693@gitolite.kernel.org>
-
---===============6976640212331694270==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 13 Mar 2024 13:50:09 -0000
+Message-Id: <171033780989.26118.9729279961407973879@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/website
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/security/vulns
+user: lee
 changes:
   - ref: refs/heads/master
-    old: 8389e8fe317eba4b19a0ad9d91e66b3a58f65cf8
-    new: 2e7f250044b85538996d3b2e60eea0589acea3eb
+    old: c7f79373edaaeadf60e241fab4aec5735e79f666
+    new: fac2f503335d08e812234b9cc843c702b4929182
     log: |
-         2e7f250044b85538996d3b2e60eea0589acea3eb Minor formatting edits
+         4e5183bcd74575d843065d31431abd50bba71003 Reject CVE-2024-26609 as a duplicate
+         3030c1d4e5a980f84a88a770c9c5d96c5c0d6412 proposed: Change v6.7.3 results to cater for latest annotations from Greg and Lee
+         fac2f503335d08e812234b9cc843c702b4929182 proposed: Update result files for v6.7.2 through to v6.7.4
          
-
---===============6976640212331694270==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1710337710 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/website
-nonce 1710337710-83947b8371d9a11b8ce77fe0bb4be4ca6b709a35
-
-8389e8fe317eba4b19a0ad9d91e66b3a58f65cf8 2e7f250044b85538996d3b2e60eea0589acea3eb refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZfGurgAKCRC2xBzjVmSZ
-bO9SAP9Vbua65lGlM74tfkMULiP2P8eC/aQixRqWfJXZFU71ngEA0xoTW9nzow50
-gk1rp1OiNHVdB6og3+gU0ARLfzMhqgk=
-=89vy
------END PGP SIGNATURE-----
-
---===============6976640212331694270==--
