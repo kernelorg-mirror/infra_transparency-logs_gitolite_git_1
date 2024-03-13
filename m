@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 13 Mar 2024 02:03:15 -0000
-Message-Id: <171029539572.3116.16986943876443594872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
+Date: Wed, 13 Mar 2024 02:22:11 -0000
+Message-Id: <171029653198.17416.13102184166261641584@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+user: herbert
 changes:
-  - ref: refs/heads/main
-    old: 9187210eee7d87eea37b45ea93454a88681894a4
-    new: 67072c314f5f0ec12a7a51a19f7156eebb073654
-    log: |
-         1c4e97dd2d3c9a3e84f7e26346aa39bc426d3249 tcp: Fix NEW_SYN_RECV handling in inet_twsk_purge()
-         2a750d6a5b365265dbda33330a6188547ddb5c24 rds: tcp: Fix use-after-free of net in reqsk_timer_handler().
-         67072c314f5f0ec12a7a51a19f7156eebb073654 Merge branch 'tcp-rds-fix-use-after-free-around-kernel-tcp-reqsk'
-         
+  - ref: refs/tags/v6.9-p1
+    old: 0000000000000000000000000000000000000000
+    new: 9f825c3fdf7e6566592ed3adcec3bac570a44415
