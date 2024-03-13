@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1865273233733289635=="
+Content-Type: multipart/mixed; boundary="===============0311814997930969150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 13 Mar 2024 16:21:13 -0000
-Message-Id: <171034687321.15223.17086703995821226829@gitolite.kernel.org>
+Date: Wed, 13 Mar 2024 16:22:52 -0000
+Message-Id: <171034697237.15942.1962753045783789242@gitolite.kernel.org>
 
---===============1865273233733289635==
+--===============0311814997930969150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: c8a5c731fd1223090af57da33838c671a7fc6a78
-    new: d7d75124965aee23e5e4421d78376545cf070b0a
-    log: revlist-c8a5c731fd12-d7d75124965a.txt
+  - ref: refs/heads/dev-queue
+    old: 9b3d82e976156d765ff2e4b7c902c5b3c536b6b3
+    new: e808a98697146cadcaef50bc096f9438741c6105
+    log: revlist-9b3d82e97615-e808a9869714.txt
 
---===============1865273233733289635==
+--===============0311814997930969150==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c8a5c731fd12-d7d75124965a.txt
+Content-Disposition: attachment; filename=revlist-9b3d82e97615-e808a9869714.txt
 
-cad860b59531ba4d456b3921d5ced621620d76fc x86/callthunks: Use EXPORT_PER_CPU_SYMBOL_GPL() for per CPU variables
-e87e4371edfc369dcc6abbabc3f276d4e0260513 net: ipa: change ipa_interrupt_config() prototype
-ad1be80d75827aad9582541ecc9d7953d354634f net: ipa: introduce ipa_interrupt_init()
-a47956e72a3e724f88c696944d197f7bf8442273 net: ipa: pass a platform device to ipa_reg_init()
-95c54a963b2445096adf5c92c8e30160f2cb1d8d net: ipa: pass a platform device to ipa_mem_init()
 59622a8fb45350bf8028c350dd20958fa8a77279 net: ipa: pass a platform device to ipa_smp2p_irq_init()
 81d65f3413da3fe8158ac3ead6270035db1c0dde net: ipa: pass a platform device to ipa_smp2p_init()
 5245f4fd28d126cc13e32e77abc8a8fd287167b0 net: ipa: don't save the platform device
@@ -1050,5 +1045,10 @@ fbec4e7fed89b579f2483041fabf9650fb0dd6bc soc: fsl: qbman: Use raw spinlock for c
 e642921dfeed1e15e73f78f2c3b6746f72b6deb2 octeontx2-af: Use matching wake_up API variant in CGX command interface
 343041b59b7810f9cdca371f445dd43b35c740b1 net/sched: taprio: proper TCA_TAPRIO_TC_ENTRY_INDEX check
 d7d75124965aee23e5e4421d78376545cf070b0a devlink: Fix devlink parallel commands processing
+20e847ed0a5d92c0b66d7b2557bc27ad0c0faba7 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+2f5e01858d2b52568026fe7b239edc0052d2076e ice: Refactor FW data type and fix bitmap casting issue
+2e70e54a40994a8119c7e7e66be31c71c8686d31 e1000e: move force SMBUS from enable ulp function to avoid PHY loss issue
+2f934504ba9a1f8207d6a7e91caff2f02ce14b84 ice: fix memory corruption bug with suspend and rebuild
+e808a98697146cadcaef50bc096f9438741c6105 ixgbe: avoid sleeping allocation in ixgbe_ipsec_vf_add_sa()
 
---===============1865273233733289635==--
+--===============0311814997930969150==--
