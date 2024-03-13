@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1406850483585162372=="
+Content-Type: multipart/mixed; boundary="===============6224018629540137582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 13 Mar 2024 16:18:20 -0000
-Message-Id: <171034670087.12403.14419343729881770859@gitolite.kernel.org>
+Date: Wed, 13 Mar 2024 16:18:42 -0000
+Message-Id: <171034672259.12588.14856849908335089831@gitolite.kernel.org>
 
---===============1406850483585162372==
+--===============6224018629540137582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: c8a5c731fd1223090af57da33838c671a7fc6a78
     new: d7d75124965aee23e5e4421d78376545cf070b0a
     log: revlist-c8a5c731fd12-d7d75124965a.txt
 
---===============1406850483585162372==
+--===============6224018629540137582==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ e642921dfeed1e15e73f78f2c3b6746f72b6deb2 octeontx2-af: Use matching wake_up API 
 343041b59b7810f9cdca371f445dd43b35c740b1 net/sched: taprio: proper TCA_TAPRIO_TC_ENTRY_INDEX check
 d7d75124965aee23e5e4421d78376545cf070b0a devlink: Fix devlink parallel commands processing
 
---===============1406850483585162372==--
+--===============6224018629540137582==--
