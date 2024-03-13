@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 13 Mar 2024 09:14:45 -0000
-Message-Id: <171032128582.7072.10241713870381260239@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 13 Mar 2024 09:16:00 -0000
+Message-Id: <171032136044.23885.12332354801767526971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: uli
 changes:
-  - ref: refs/heads/master
-    old: 464458608352a7f1b1c3e917e3d2ec44d2771047
-    new: 940693c4059e5a20d4427ee3993de3d91567fb97
+  - ref: refs/notes/signatures/tar
+    old: 1b725e0d956bbab93545213238e8fa6b0a1dd7b2
+    new: 5c8657c434f20c64363550e0df0a44702400c782
     log: |
-         bac945d4d117674afdfea44e1e8f2d9a166a276f Merge branch into tip/master: 'core/entry'
-         940693c4059e5a20d4427ee3993de3d91567fb97 Merge branch into tip/master: 'sched/core'
+         5c8657c434f20c64363550e0df0a44702400c782 Notes added by 'git notes add'
          
