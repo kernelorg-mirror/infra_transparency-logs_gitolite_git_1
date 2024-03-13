@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 13 Mar 2024 15:52:53 -0000
-Message-Id: <171034517385.25341.14979317896004363353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 13 Mar 2024 15:52:58 -0000
+Message-Id: <171034517834.25462.16948058624987573182@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: lee
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 531a6c7fde1b570039a72853db5ff78038a8ea12
-    new: 678ec306d555290251efac9253f0462d9a6ae019
-    log: |
-         678ec306d555290251efac9253f0462d9a6ae019 published: Add another assigned CVE
-         
+  - ref: refs/tags/v3.2.31
+    old: 72fdd2e26f5a434ff91f3c255ea86c16d8f83ee4
+    new: 0000000000000000000000000000000000000000
