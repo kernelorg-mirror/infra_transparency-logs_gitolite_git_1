@@ -1,127 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-gpio
-Date: Wed, 13 Mar 2024 12:26:53 -0000
-Message-Id: <171033281304.29879.16719106606494532212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 13 Mar 2024 12:27:03 -0000
+Message-Id: <171033282379.30054.7482191415597614702@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-gpio
-user: linusw
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/tags/sent/descriptors-asoc-mediatek-v1
-    old: 0000000000000000000000000000000000000000
-    new: 36db7ad71a2b2c4f7e775bf90ec2ad9771ee7154
-  - ref: refs/tags/sent/descriptors-asoc-rockchip-v1
-    old: 0000000000000000000000000000000000000000
-    new: 0074e28e8596f8b0921c254bb27a6dcf9f374197
-  - ref: refs/tags/sent/descriptors-asoc-rockchip-v2
-    old: 0000000000000000000000000000000000000000
-    new: e2963142babf67d9384d06d57e1922da33322225
-  - ref: refs/tags/sent/descriptors-asoc-ti-v1
-    old: 0000000000000000000000000000000000000000
-    new: 042b788bc078ea12f7837e7ef5347714b3b11688
-  - ref: refs/tags/sent/descriptors-iio-v1
-    old: 0000000000000000000000000000000000000000
-    new: b4e488902b3a5d8158e4104ae87b531a501da407
-  - ref: refs/tags/sent/descriptors-input-v1
-    old: 0000000000000000000000000000000000000000
-    new: 6426f5b4ab5b3e7451ba4d250bf4b2cd6b68ea16
-  - ref: refs/tags/sent/descriptors-regulators-v1
-    old: 0000000000000000000000000000000000000000
-    new: 3c593fe5d10c10bde9150184dc1ad644851544d3
-  - ref: refs/tags/sent/descriptors-sound-cirrus-v1
-    old: 0000000000000000000000000000000000000000
-    new: 046559200631a1f57debc561c4b04ee6936207f0
-  - ref: refs/tags/sent/descriptors-sound-cirrus-v2
-    old: 0000000000000000000000000000000000000000
-    new: 63de7eac0569c4241ceacd139375ff63dfbb1ada
-  - ref: refs/tags/sent/descriptors-sound-wlf-fix-v1
-    old: 0000000000000000000000000000000000000000
-    new: 10a2e38c7d59e77b60769a318d039688f28ae7d0
-  - ref: refs/tags/sent/descriptors-sound-wlf-v1
-    old: 0000000000000000000000000000000000000000
-    new: 367786d3dbbf87cba6a79c86d81b02e010c3c3e1
-  - ref: refs/tags/sent/descriptors-wireless-v1
-    old: 0000000000000000000000000000000000000000
-    new: df2191634d2a152ae4084d9755a615297c36f4f7
-  - ref: refs/tags/sent/dropcomment-v1
-    old: 0000000000000000000000000000000000000000
-    new: 699eb9e873df00a8e512057e7f8cdf9004aadac1
-  - ref: refs/tags/sent/fix-mips-nand-v1
-    old: 0000000000000000000000000000000000000000
-    new: 3ca9f8654711971456a023783aae18b66e239bf7
-  - ref: refs/tags/sent/gpio-descriptors-sound-misc-v1
-    old: 0000000000000000000000000000000000000000
-    new: f986c0226049fe2a7caf87f64fc2d4603531c1f2
-  - ref: refs/tags/sent/gpio-led-trigger-dt-v1
-    old: 0000000000000000000000000000000000000000
-    new: dd58fa6c5213cc798588077d997b9555c15b3cb2
-  - ref: refs/tags/sent/gpio-led-trigger-dt-v2
-    old: 0000000000000000000000000000000000000000
-    new: bd15bacd5915296fab15853bcce63979cf1e23dc
-  - ref: refs/tags/sent/gpiodoc-v1
-    old: 0000000000000000000000000000000000000000
-    new: 55e2c2baf9fc11a298c17c1eb580f7ff2a2ca273
-  - ref: refs/tags/sent/no-y-uapi1-default-v1
-    old: 0000000000000000000000000000000000000000
-    new: 9ad504e5bd50b26e4f513f67ed86bde9e18203d3
-  - ref: refs/tags/sent/omap-mpuio-base-v1
-    old: 0000000000000000000000000000000000000000
-    new: 9304f762f252b4dffcca3d5f734e5d82d69af133
-  - ref: refs/tags/v6.6
-    old: 0000000000000000000000000000000000000000
-    new: 5260836abb7056beed3f3f0d0e4262c11f36f0d0
-  - ref: refs/tags/v6.6-rc2
-    old: 0000000000000000000000000000000000000000
-    new: b9435475cc9bfb60f0327686d1183f498f3d51c1
-  - ref: refs/tags/v6.6-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5ef2a08c5e91424d33ee5a5ef804a87e8e69419f
-  - ref: refs/tags/v6.6-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 657c707d1c69d838dfc6e35dd528f161503e46de
-  - ref: refs/tags/v6.6-rc5
-    old: 0000000000000000000000000000000000000000
-    new: e6ec05aacec40cf517511763a28ff627157d131d
-  - ref: refs/tags/v6.6-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 333006c735ad099dbbea06c5c5640f6e532c88cf
-  - ref: refs/tags/v6.6-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 8fd1310f742d0903addac53bb2eef7ca68eb21d2
-  - ref: refs/tags/v6.7
-    old: 0000000000000000000000000000000000000000
-    new: 06f0875049ac2d11eb48273d04d0a6800c52abf5
-  - ref: refs/tags/v6.7-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 03d1179639b1515dce087335c1fb5c962908683b
-  - ref: refs/tags/v6.7-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8488f2d61f9372a5ebd5aa1f02a580d37a7a6b08
-  - ref: refs/tags/v6.7-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5b17c02f78c832014ef0acdddcd6e0480a3c2e77
-  - ref: refs/tags/v6.7-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 1143e59b844443b6c4841b9a7631cc41cdc260ba
-  - ref: refs/tags/v6.7-rc5
-    old: 0000000000000000000000000000000000000000
-    new: be59bee58790f9d137cfc11973e856e4f8ab3888
-  - ref: refs/tags/v6.7-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d8f30cf5e09a30e9a978b7df0aa5029afff0e1c1
-  - ref: refs/tags/v6.7-rc7
-    old: 0000000000000000000000000000000000000000
-    new: adab409b5eb1c5905c260f74c75725db3da46e38
-  - ref: refs/tags/v6.7-rc8
-    old: 0000000000000000000000000000000000000000
-    new: ff16c06a1757247b456096cbffeedf4ef5621ba4
-  - ref: refs/tags/v6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a0706eba72b90a4702dde6a0b8cc82d78e9b2495
-  - ref: refs/tags/v6.8-rc2
-    old: 0000000000000000000000000000000000000000
-    new: c18956a7ed4b71eec72700a0899ad21167b994bb
+  - ref: refs/heads/kdevops
+    old: 244db11a7d6835249946adae4255d53cb0edf7f6
+    new: e9002f78a541455c5e1cf7ba7135087a8b08f749
+    log: |
+         58d7957a2e2ce337cd60f0d392f555779f2d978b Merge remote-tracking branch 'brauner/vfs.file' into kdevops
+         e9002f78a541455c5e1cf7ba7135087a8b08f749 Merge remote-tracking branch 'mrchuck/nfsd-next' into kdevops
+         
