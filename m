@@ -1,32 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 13 Mar 2024 13:34:30 -0000
-Message-Id: <171033687039.12787.11175601835834981257@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5111549916348228870=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/website
+Date: Wed, 13 Mar 2024 13:48:25 -0000
+Message-Id: <171033770523.23700.3592386241566735525@gitolite.kernel.org>
+
+--===============5111549916348228870==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/docs/kernel/website
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 526d028341f73c0f2dbd5e4855a59ebb6d620be5
-    new: a39d51ff1f52cd0b6fe7d379ac93bd8b4237d1b7
-    log: |
-         a39d51ff1f52cd0b6fe7d379ac93bd8b4237d1b7 ALSA: usb-audio: Stop parsing channels bits when all channels are found.
-         
-  - ref: refs/heads/for-next
-    old: 526d028341f73c0f2dbd5e4855a59ebb6d620be5
-    new: a39d51ff1f52cd0b6fe7d379ac93bd8b4237d1b7
-    log: |
-         a39d51ff1f52cd0b6fe7d379ac93bd8b4237d1b7 ALSA: usb-audio: Stop parsing channels bits when all channels are found.
-         
-  - ref: refs/heads/master
-    old: 55d137e112175d2027ebae79a86047f38f200576
-    new: 11dc12928b3a100ae988c17a2780d3350d34ac55
-    log: |
-         a39d51ff1f52cd0b6fe7d379ac93bd8b4237d1b7 ALSA: usb-audio: Stop parsing channels bits when all channels are found.
-         11dc12928b3a100ae988c17a2780d3350d34ac55 Merge branch 'for-linus'
-         
+  - ref: refs/tags/v2024-03-13-01
+    old: 0000000000000000000000000000000000000000
+    new: 2e7f250044b85538996d3b2e60eea0589acea3eb
+
+--===============5111549916348228870==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1710337704 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/website
+nonce 1710337704-6dee5115ad151f14cc0b2308e0f4191ef62cd587
+
+0000000000000000000000000000000000000000 2e7f250044b85538996d3b2e60eea0589acea3eb refs/tags/v2024-03-13-01
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZfGuqAAKCRC2xBzjVmSZ
+bIsiAP9Tv5mKjfXyd+LCkSVFG9God7v4xdQdmi+Sh9YzfVQ1SwEA7agzA+jVx6T8
++m6yVM25Ed9aghk5s0PiKVqMs8OxCgQ=
+=de4b
+-----END PGP SIGNATURE-----
+
+--===============5111549916348228870==--
