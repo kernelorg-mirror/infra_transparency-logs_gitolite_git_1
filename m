@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5101213526472874614=="
+Content-Type: multipart/mixed; boundary="===============2695899871421597561=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 14 Mar 2024 19:01:21 -0000
-Message-Id: <171044288110.3182.9633783134698843629@gitolite.kernel.org>
+Date: Thu, 14 Mar 2024 19:06:25 -0000
+Message-Id: <171044318564.6546.3097739027390280778@gitolite.kernel.org>
 
---===============5101213526472874614==
+--===============2695899871421597561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,39 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/kdevops
-    old: 1e8c308042a0c8ec86148101dbde9c6383fad5b7
-    new: f8a17b1e2f7ee73eca791b593509da97d3fe18ee
-    log: revlist-1e8c308042a0-f8a17b1e2f7e.txt
+  - ref: refs/heads/dir-deleg
+    old: f8a17b1e2f7ee73eca791b593509da97d3fe18ee
+    new: 51999cb462563dbdd9139144e7cacd2cadcf5922
+    log: revlist-f8a17b1e2f7e-51999cb46256.txt
 
---===============5101213526472874614==
+--===============2695899871421597561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e8c308042a0-f8a17b1e2f7e.txt
+Content-Disposition: attachment; filename=revlist-f8a17b1e2f7e-51999cb46256.txt
 
-1f2134fd1f98018e87bd52b85822a02d7555748e vfs, nfsd: implement directory delegations
-80ca69d4898e33e42be623937acb3dd0a39c9f86 filelock: push the S_ISREG check down to ->setlease handlers
-9bf3ef765f0a71dc7cecd960f969078373e1d006 filelock: add a lm_set_conflict lease_manager callback
-c4ce49dfe931f0aafbdc8e6180f09d4bf6d49ec2 vfs: add try_break_deleg calls for parents to vfs_{link,rename,unlink}
-618f727e68e30b50afd887c6efdc953d5ec8a9bb vfs: allow mkdir to wait for delegation break on parent
-f354249956a7942ce0cbb4b49ac8c2b3c57ee72e vfs: allow rmdir to wait for delegation break on parent
-8aca150adb60dd7fcc0e6764cf447e495860948b vfs: break parent dir delegations in open(..., O_CREAT) codepath
-c33f8752fd8816a43609da688f6f23a054a43785 vfs: make vfs_create break delegations on parent directory
-4808ff48739785d31dde4cf82786dff67a989a52 vfs: make vfs_mknod break delegations on parent directory
-cb57f1f062a1b9ebef6b8aabe96351c8571de4fb filelock: lift the ban on directory leases in generic_setlease
-88dd4e387d0edd8e7b51dd6dc020d7a687e8ebac nfsd: allow filecache to hold S_IFDIR files
-0904e5679970fad85c3b789496d42db91b3691fd nfsd: allow DELEGRETURN on directories
-ac0157f65e3f1aa57dbe08076863812f9a641f5d nfsd: encoders and decoders for GET_DIR_DELEGATION
-20d1e0a17a2bea3d9e3ed09ed68448cd3b4c2857 nfsd: wire up GET_DIR_DELEGATION handling
-14cbb77b3f7648698872490fb595f396f43a80b1 nfsd: check for delegation conflicts vs. the same client
-f5a26832e9c0cd0beaca4be86812e7db3d34cbef nfs: add cache_validity to the nfs_inode_event tracepoints
-40dca876fc3ee6855d05b996287f1798a25bcb93 nfs: add a tracepoint to nfs_inode_detach_delegation_locked
-fd800ca2432a25161366aa8ce4b6a0b47b2a8e7e nfs: new tracepoint for nfs_delegation events
-68cb3eccaf3755268d8fa9e9646d2900b2697637 nfs: add encoders and decoders for GET_DIR_DELEGATION
-bdb506e13e0ecb6a53f1334ba4eeb70c5bdad5b0 nfs: add a GDD_GETATTR rpc operation
-1c7a799fabaee3ce89f875589cb86461b7d09a27 nfs: skip dentry revalidation when parent dir has a delegation
-4a756c6f7adf8145b2037c80fde06156f7c9209c nfs: add a new NFS_CAP_GET_DIR_DELEG bit
-f8a17b1e2f7ee73eca791b593509da97d3fe18ee nfs: optionally request a delegation on GETATTR
+fd26dd6efbabcaf326731b93960eaca6a06ff15a filelock: lift the ban on directory leases in generic_setlease
+c0f600ba07e0cd8a306186fb63dd201b81f7d7a1 nfsd: allow filecache to hold S_IFDIR files
+b9f69de04567f561b9bc0dc0b8234e6102db7bd6 nfsd: allow DELEGRETURN on directories
+0e73464edbfe1b68815b7c3c58f11548b90db179 nfsd: encoders and decoders for GET_DIR_DELEGATION
+1e2cebd1776aeddad7b24eb858a60aa33452ce13 nfsd: wire up GET_DIR_DELEGATION handling
+d3ced2c7e43e1049585b8869ce772bb5a2a10bf3 nfsd: check for delegation conflicts vs. the same client
+29316a7a4535b27d177e8df91d32c94c7ac3699b nfs: add cache_validity to the nfs_inode_event tracepoints
+2eb715853bca35b505f9eea7dc186d5f9fac4841 nfs: add a tracepoint to nfs_inode_detach_delegation_locked
+ee7e10860f0ecc23ad1c68dba845114af08c58eb nfs: new tracepoint for nfs_delegation events
+348327a0f2972a439e351ab7352a571af2831a8d nfs: add encoders and decoders for GET_DIR_DELEGATION
+4446a02e088ff5aa92ff9e9a793a5a9e933e5876 nfs: add a GDD_GETATTR rpc operation
+22501b9a22775846a5679690c68c363cf15d1e44 nfs: skip dentry revalidation when parent dir has a delegation
+8af5adc946482b672a08b8d74df2acc2c2491b95 nfs: add a new NFS_CAP_GET_DIR_DELEG bit
+51999cb462563dbdd9139144e7cacd2cadcf5922 nfs: optionally request a delegation on GETATTR
 
---===============5101213526472874614==--
+--===============2695899871421597561==--
