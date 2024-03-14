@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7969489390603954406=="
+Content-Type: multipart/mixed; boundary="===============1860425172778896642=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 14 Mar 2024 23:12:24 -0000
-Message-Id: <171045794436.25438.12323598561303730311@gitolite.kernel.org>
+Date: Thu, 14 Mar 2024 23:44:11 -0000
+Message-Id: <171045985125.14981.9455389640804420690@gitolite.kernel.org>
 
---===============7969489390603954406==
+--===============1860425172778896642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,167 +16,188 @@ repo: pub/scm/linux/kernel/git/torvalds/linux
 user: torvalds
 changes:
   - ref: refs/heads/master
-    old: fe46a7dd189e25604716c03576d05ac8a5209743
-    new: c0a614e82ece41d15b7a66f43ee79f4dbdbc925a
-    log: revlist-fe46a7dd189e-c0a614e82ece.txt
+    old: c0a614e82ece41d15b7a66f43ee79f4dbdbc925a
+    new: 1bbeaf83dd7b5e3628b98bec66ff8fe2646e14aa
+    log: revlist-c0a614e82ece-1bbeaf83dd7b.txt
 
---===============7969489390603954406==
+--===============1860425172778896642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe46a7dd189e-c0a614e82ece.txt
+Content-Disposition: attachment; filename=revlist-c0a614e82ece-1bbeaf83dd7b.txt
 
-031e011d8b22346a6513c7879cbecd7105b4c11d arm64: mm: Move PCI I/O emulation region above the vmemmap region
-b730b0f2b1fcfbdaed816152cc71993fd708aa11 arm64: mm: Move fixmap region above vmemmap region
-34f879fbe461dcdcaecb8bece3266dbea3a745ba arm64: ptdump: Allow all region boundaries to be defined at boot time
-f9cca2444187f46e0bc90dfc3a5feb7154dbf38d arm64: ptdump: Discover start of vmemmap region at runtime
-32697ff38287bb9f6c7ee1b04656a677b62496a6 arm64: vmemmap: Avoid base2 order of struct page size to dimension region
-d432b8d57c0c41873f1b8743203776baeb5778b6 arm64: mm: Reclaim unused vmemmap region for vmalloc use
-3567fa63cb5680d3e1e8375c547a0e305c8a0ff5 arm64: kaslr: Adjust randomization range dynamically
-3bc9d71775eef9f2642cc6e85ee7593cae2bdbbf perf: alibaba_uncore_drw: Convert to platform remove callback returning void
-94843f269abd4a9821848380061d05f0600b9d10 perf: amlogic: Convert to platform remove callback returning void
-4df3bddf8707ae74bc5c8eb54e44a588a01e02e1 perf: arm-cci: Convert to platform remove callback returning void
-0767f1a4853239bd5688d93e2e0d29be9d58e2d7 perf: arm-ccn: Convert to platform remove callback returning void
-3909cb3b5f8dee759622697ec1d3540f6d35c002 perf: arm-cmn: Convert to platform remove callback returning void
-79dc1570b322dbbbbfd04037113bcf3f83385025 perf: arm_cspmu: Convert to platform remove callback returning void
-ca1e01c8d34a8d5290b7b32f88d0e04207b1d4e2 perf: arm_dmc620: Convert to platform remove callback returning void
-02d77ac1ac7ebcad5a92dd392166636194faec60 perf: arm_dsu: Convert to platform remove callback returning void
-d67c3a61f063ebb582ed807aaf9bf85538d05db6 perf: arm_smmuv3: Convert to platform remove callback returning void
-e63b3aef186b254f2a58263429a28caf65c5ad8f perf: arm_spe: Convert to platform remove callback returning void
-1bb639382d3fe5498afdfcd64ba350b2075a2ee4 perf: fsl_imx8_ddr: Convert to platform remove callback returning void
-78da2a93b55b647e0770c6394cc938f6918db124 perf: fsl_imx9_ddr: Convert to platform remove callback returning void
-e07486a832bba776f298082bfd964951e9357cdf perf: hisilicon: Convert to platform remove callback returning void
-c802bd9e354f321b40146bea45c62822f364fd05 perf: marvell_cn10k_ddr: Convert to platform remove callback returning void
-86e8963f9dbac37a7427916da3c6e91f790e88dc perf: marvell_cn10k_tad: Convert to platform remove callback returning void
-8a2e438e710c674765cc52a59c5bf1d352f21bf0 perf: qcom_l2: Convert to platform remove callback returning void
-d4c5cef73b257d3377cd82dc0142fc374d32d38b perf: thunderx2: Convert to platform remove callback returning void
-b07ebe8f14282bd67074d1be05bbca3f12a3c110 perf: xgene: Convert to platform remove callback returning void
-a1083ee717e9bde012268782e084d343314490a4 perf/arm-cmn: Improve debugfs pretty-printing for large configs
-f82811e22b480a203a438d8e1f29af9c93ccbb0c rust: Refactor the build target to allow the use of builtin targets
-724a75ac9542fe1f8aaa587da4d3863d8ea292fc arm64: rust: Enable Rust support for AArch64
-df2675ad7748ea1a4bdb47f9835a30f50d4dc5ea perf/arm_cspmu: Simplify initialisation
-7e6a3c3f85886f5e54dba5eb3bee7f5400685e95 perf/arm_cspmu: Simplify attribute groups
-e7e8fa8e82afddb3c9ff56d6a7030558776c5b1c perf/arm_cspmu: Simplify counter reset
-7255cfb19941b4681e545be47b9f13b61b1b4cb6 dt-bindings/perf: Add Arm CoreSight PMU
-fd185a245155be9cb90839fa451ba8f2c3e4004c perf/arm_cspmu: Add devicetree support
-48157aa39286b8eddfb81eeaab4d64d0231450e7 arm64: kernel: Manage absolute relocations in code built under pi/
-a86aa72eb3b075b985473d1d2973c7d00f568f17 arm64: kernel: Don't rely on objcopy to make code under pi/ __init
-734958ef0b5497b1b9cb827afb541e7825477bbd arm64: head: move relocation handling to C code
-e223a449125571daa62debd8249fa4fc2da0a961 arm64: idreg-override: Move to early mini C runtime
-9c4cd2a7d12c2c5b11efe7831b54e46c73eb3a8c arm64: kernel: Remove early fdt remap code
-aa99aad798a8bc6d35ada2af1dc38f75d364e1ce arm64: head: Clear BSS and the kernel page tables in one go
-30687dec5ed5576c743a4cd012a91f93848fe902 arm64: Move feature overrides into the BSS section
-dcfe969a641984fcd2b52aa257e478443612c050 arm64: head: Run feature override detection before mapping the kernel
-8a6e40e1f68e9fc44497db88e0c0f21bb513c551 arm64: head: move dynamic shadow call stack patching into early C runtime
-35876f35f4821c92fb1bbff7eec5780dba4fffdb arm64: cpufeature: Add helper to test for CPU feature overrides
-af73b9a2dd39fb458627a325dcdc9c76e274eae0 arm64: kaslr: Use feature override instead of parsing the cmdline again
-9ddd9baa42a01d383d278096a11b200b53ba9470 arm64: idreg-override: Create a pseudo feature for rodata=off
-a669c6a4935626786e456b25e9cf2bfbba908f15 arm64: Add helpers to probe local CPU for PAC and BTI support
-8d47b8e5c74a1be600fd68bbbb4c2ecd8d4cc33c arm64: head: allocate more pages for the kernel mapping
-aa6a52b2470c375ecd71b1d81c89d93b11134b56 arm64: head: move memstart_offset_seed handling to C code
-293d865f0af58e6ff2ff0ba0e890674e00d036b1 arm64: mm: Make kaslr_requires_kpti() a static inline
-82ca151da7d54d7571c5d511d016b7780d5d559f arm64: mmu: Make __cpu_replace_ttbr1() out of line
-97a6f43bb049e64b9913c50c7530e13d78e205d4 arm64: head: Move early kernel mapping routines into C code
-e6128a8e523cfa8f46a1501e6432c37523b47bdf arm64: mm: Use 48-bit virtual addressing for the permanent ID map
-34b98e55f6840cab938d480968c0f600a2ed97d5 arm64: pgtable: Decouple PGDIR size macros from PGD/PUD/PMD levels
-84b04d3e6bdbc7551e62b75dd97cae4a8bddb1b6 arm64: kernel: Create initial ID map from C code
-567a70c181df72f3bb42ca825adb5de682713caa arm64: mm: avoid fixmap for early swapper_pg_dir updates
-ba5b0333a847ac026725122e085b2fea9e1674bc arm64: mm: omit redundant remap of kernel image
-e0f92f0d1b512cf11b918c5828e73d5df5b667cc arm64: Revert "mm: provide idmap pointer to cpu_replace_ttbr1()"
-9cce9c6c2c3b7d46698d9bb693389d37740fec28 arm64: mm: Handle LVA support as a CPU feature
-68aec33f8f5a87b0450159e5e141d2d6c9d76850 arm64: mm: Add feature override support for LVA
-60d043c101769b4fd6f609b4a7b9b8ad1f867860 arm64: Avoid #define'ing PTE_MAYBE_NG to 0x0 for asm use
-7ac8d5b2423cc0112ac2519276610865142a577b arm64: Add ESR decoding for exceptions involving translation level -1
-db95ea787bd19be666ba41733259ffea65963bff arm64: mm: Wire up TCR.DS bit to PTE shareability fields
-925a0eb48044bf3d48531703c3b7522e1a8c87fb arm64: mm: Add LPA2 support to phys<->pte conversion routines
-a6bbf5d4d9d13509fd068de664238c16934962c6 arm64: mm: Add definitions to support 5 levels of paging
-2b6c8f96cc47eb1b41f7ebf28dfc2459c39f7fa9 arm64: mm: add LPA2 and 5 level paging support to G-to-nG conversion
-9684ec186f8fadde52d6b6eaf64ca508897d0c71 arm64: Enable LPA2 at boot if supported by the system
-6ed8a3a094b43a27ac35e5c95a8004a1d83d1b79 arm64: mm: Add 5 level paging support to fixmap and swapper handling
-0383808e4d99ac31892655ae9dc93597eb6f1412 arm64: kasan: Reduce minimum shadow alignment and enable 5 level paging
-0dd4f60a2c76938c2625f6c630c225699d97608b arm64: mm: Add support for folding PUDs at runtime
-16f22981b6d7ea6815d2e4527b82cac5e2f65c89 arm64: ptdump: Disregard unaddressable VA space
-d40900fcb39700207823486ca512a1a87d6331e2 arm64: ptdump: Deal with translation levels folded at runtime
-95e059b5db6082e62632f40434059759c7c1f6ed arm64: kvm: avoid CONFIG_PGTABLE_LEVELS for runtime levels
-352b0395b5053fca01b9dc60294235511f5f3d65 arm64: Enable 52-bit virtual addressing for 4k and 16k granule configs
-5d101654226d64ac0a6928019fbf476b46e9d14b arm64: defconfig: Enable LPA2 support
-cb1a393c40eee2f1692c995ea0cc6e45bfccde4d mm: add arch hook to validate mmap() prot flags
-50e3ed0f93f4f62ed2aa83de5db6cb84ecdd5707 arm64: mm: add support for WXN memory translation attribute
-90e636f60b76c590aded72964543945084d97c2f arm64: mm: Make PUD folding check in set_pud() a runtime check
-2aea7b77aabc708a9df769ad5fa63e9912ceb7f7 arm64: Use Signed/Unsigned enums for TGRAN{4,16,64} and VARange
-8c10cc104b73abdfd87a23ae50b1c90c2c917027 arm64: errata: Don't enable workarounds for "rare" errata by default
-d044d6ba6f028e32a4ecd6b681c6aa0c48ddee18 arm64: io: permit offset addressing
-270de609ae2af441d15289406340ff209e5dc864 arm64: Simplify do_notify_resume() DAIF masking
-997d79eb938e981ab0d3714d39ed148bce131d9e arm64: Move do_notify_resume() to entry-common.c
-97d935faacde478501eea6f75c86beea71f29ba3 arm64: Unmask Debug + SError in do_notify_resume()
-253751233b19b58b1d361388c8d2b40c940e729c arm64: kretprobes: acquire the regs via a BRK exception
-c745b15c1f9cea5680c2906ae868302108f8daf0 kselftest/arm64: Test that ptrace takes effect in the target process
-b4725d3e460349aa55836a2a128009c578215b90 arm64/sve: Remove bitrotted comment about syscall behaviour
-ae35792764bcba1dc13d2de62480eae8b97c2c41 arm64/sme: Fix cut'n'paste in ABI document
-3fd97cf3234c5ffbd420319d1d510e4940183843 arm64/fp: Clarify effect of setting an unsupported system VL
-e47c18c3b25e63807005d0cb40f7743cb7512388 arm64/sme: Remove spurious 'is' in SME documentation
-fdd867fe9b32c30b290aa10097f89daff09625cc arm64/sysreg: Add register fields for ID_AA64DFR1_EL1
-7accfaad89d76ca8750da916a242a4ba6a4f83db arm64/sysreg: Update ID_DFR0_EL1 register fields
-358fee2917058eb06907f966cc69c11ea6c63e1f arm64/sysreg: Update ID_AA64DFR0_EL1 register
-bce79b0c8097ae8b9ad38d7cb8522b80a9b8ee00 arm64: remove unneeded BUILD_BUG_ON assertion
-58a0484eaf5ec1e94e530c1074abf852354eca8c arm64: make member of struct pt_regs and it's offset macro in the same order
-21eb468e9fc11692952c42f86a44d07f94803d4f arm64/sve: Document that __SVE_VQ_MAX is much larger than needed
-2f0090549b649cc9fd61c0193189c25f8fc03119 arm64/sve: Ensure that all fields in ZCR_EL1 are set to known values
-93576e34988757ed431e305ba9d3597e46dffe6b arm64/sme: Ensure that all fields in SMCR_EL1 are set to known values
-2758269149250e2c28991fb8d216ffa40857ee0a arm64: gitignore: ignore relacheck
-a3f16298b38bcb17a0a01cc2f84dba46b59a860a selftests/landlock: Clean up error logs related to capabilities
-b4007fd27206c478a4b76e299bddf4a71787f520 landlock: Add support for KUnit tests
-a743f26d03a96593c0f3d05dc26b388f45de67c9 arm64: ftrace: Don't forbid CALL_OPS+CC_OPTIMIZE_FOR_SIZE with Clang
-1984c805461f7fc4e96855eb4d94043ffb8f873d arm64: remove unnecessary ifdefs around is_compat_task()
-6d1ce806e17fcabe91a912363cc1a5f108734627 arm64: Update setup_arch() comment on interrupt masking
-3137db4c66bf70360ee7027af5c50662b3152046 arm64/mm: Use generic __pud_free() helper in pud_free() implementation
-27f2b9fcddc76d542ac339febf2af55b67f610ca arm64/mm: Avoid ID mapping of kpti flag if it is no longer needed
-622442666dcca0f273fd8b1adf80cd1893ed88cf arm64: cpufeatures: Clean up temporary variable to simplify code
-9d6b6789c8787fb1183d176a00569fb9b192243d arm64/hw_breakpoint: Directly use ESR_ELx_WNR for an watchpoint exception
-527db67a4d85a3400465e6d3685170a24d1deeba arm64: Remove enable_daif macro
-e10b6976f6b9afdf3564f88c851e42d139bb19c0 drivers/perf: hisi: Enable HiSilicon Erratum 162700402 quirk for HIP09
-54a9e47eebb9064de9c65a6c22bb31e1a67f3903 drivers/perf: hisi_pcie: Rename hisi_pcie_pmu_{config,clear}_filter()
-4d473461e0948645efa82b4c025d014f40c373ff drivers/perf: hisi_pcie: Introduce hisi_pcie_pmu_get_event_ctrl_val()
-b6693ad68e2725a61d628f077e75eb3c31b9ea44 drivers/perf: hisi_pcie: Fix incorrect counting under metric mode
-00ca69b856ba5ff0dab241bafe7119cd08348a92 drivers/perf: hisi_pcie: Add more events for counting TLP bandwidth
-2f864fee085190f6a9c114f94affa0bdc2970f16 drivers/perf: hisi_pcie: Check the target filter properly
-2fbf96ed883adcdf0f641cfe07e695dac7e5d540 drivers/perf: hisi_pcie: Relax the check on related events
-7da377059ee653dd4ddcc126fd26c9c78f7bc4e7 drivers/perf: hisi_pcie: Merge find_related_event() and get_event_idx()
-89a032923d4ba23907405744aa86265822f057f8 docs: perf: Update usage for target filter of hisi-pcie-pmu
-c2b24812f7bc5fbd6f2f92af070856fbe4c37b40 perf: starfive: Add StarLink PMU support
-66461b43b0c05da2e7c606b9eea7f1f3b565b9c3 dt-bindings: perf: starfive: Add JH8100 StarLink PMU
-49925c1c5a6c93a857b3dffcce3a7fb48ec72cbb docs: perf: Add description for StarFive's StarLink PMU
-b9f71ab2152e5b344c02eb3ff43637162aaf29e6 MAINTAINERS: Add entry for StarFive StarLink PMU
-f0dbc6d0de38df42184776aa8564c12ceb6f1d61 perf: starfive: Only allow COMPILE_TEST for 64-bit architectures
-b037e40a6af2b056f7f15d9aabe7e9a9a7149ff3 docs: perf: Fix build warning of hisi-pcie-pmu.rst
-0e89ef6f790144504ef421dfc21960fc31abc783 landlock: Extend documentation for kernel support
-782191c74875cc33b50263e21d76080b1411884d landlock: Warn once if a Landlock action is requested while disabled
-cc9f69a3dad3b64b299dc2d5f95935fe16cb8b79 arm64/cpufeature: Hook new identification registers up to cpufeature
-b6c0b424cb91a864e62533a6520743ddcdde5270 arm64/fpsimd: Enable host kernel access to FPMR
-203f2b95a882dc46dd9873562167db69a1f61711 arm64/fpsimd: Support FEAT_FPMR
-8c46def44409fc914278630b7ba5ac142ab7c4f4 arm64/signal: Add FPMR signal handling
-4035c22ef7d43a6c00d6a6584c60e902b95b46af arm64/ptrace: Expose FPMR via ptrace
-c1932cac7902a8b0f7355515917dedc5412eb15d arm64/hwcap: Define hwcaps for 2023 DPISA features
-f4dcccdda5867bb68f48046e86e5a7ccaae10d27 kselftest/arm64: Handle FPMR context in generic signal frame parser
-7bcebadda045bead18f6f7050af59af388c4507c kselftest/arm64: Add basic FPMR test
-44d10c27bd75b88b50d0c5cf2c3fe92933c39f1e kselftest/arm64: Add 2023 DPISA hwcap test coverage
-0499a78369adacec1af29340b71ff8dd375b4697 ARM64: Dynamically allocate cpumasks and increase supported CPUs to 512
-0c5ade742e91d7bf3a508bf6223deb7410009b6d Merge branches 'for-next/reorg-va-space', 'for-next/rust-for-arm64', 'for-next/misc', 'for-next/daif-cleanup', 'for-next/kselftest', 'for-next/documentation', 'for-next/sysreg' and 'for-next/dpisa', remote-tracking branch 'arm64/for-next/perf' into for-next/core
-88f0912253ea47a2bde36e0820f0b9c025d389ad Merge branch 'for-next/stage1-lpa2' into for-next/core
-088e2efaf3d25be67f5dbcc26cfe08d7797dff39 landlock: Simplify current_check_access_socket()
-e3e37fe022a486d83c71eacb59fb5b6b0ebdbf78 landlock: Rename "ptrace" files to "task"
-63817febd1f3c27f633b2bce0d6db328e59fd019 landlock: Use f_cred in security_file_open() hook
-a17c60e533f5cd832e77e0d194e2e0bb663371b6 samples/landlock: Don't error out if a file path cannot be opened
-7b432bf376c9c198a7ff48f1ed14a14c0ffbe1fe openrisc: Call setup_memory() earlier in the init sequence
-7f1e2fc493480086fbb375f4f6d33cb93fc069d6 openrisc: Use asm-generic's version of fix_to_virt() & virt_to_fix()
-f1bbc4e9cfa4c0f29883171e9d01c01cbe94becc Revert "ARM64: Dynamically allocate cpumasks and increase supported CPUs to 512"
-69ebc0182406541f0be0f086cdfff13ac56e7385 Revert "arm64: mm: add support for WXN memory translation attribute"
-1ef21fcd6a50f011680dbbd678c1bea8e3f67ab9 Revert "mm: add arch hook to validate mmap() prot flags"
-a5a858f622a0aff5cdb5e271442cd01b2a01467f lsm: use 32-bit compatible data types in LSM syscalls
-eaf0e7a3d2711018789e9fdb89191d19aa139c47 lsm: handle the NULL buffer case in lsm_fill_user_ctx()
-6d75c6f40a03c97e1ecd683ae54e249abb9d922b Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-29da654bd20842d4c1e17c6d4dc1b12642ca16ac Merge tag 'for-linus' of https://github.com/openrisc/linux
-35e886e88c803920644c9d3abb45a9ecb7f1e761 Merge tag 'landlock-6.9-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
-c0a614e82ece41d15b7a66f43ee79f4dbdbc925a Merge tag 'lsm-pr-20240314' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
+999eea92e8d7a1ffa83f7dc89c83d8ed1e746fa9 perf test: raise limit to 20 percent for perf_stat_--bpf-counters_test
+8462247fd167c4cfac81406f427bbe2ac00185f3 perf build: Check whether pkg-config is installed when libtraceevent is linked
+a3397d69e4e7a1ea37af413ccbdf52dec208ce11 perf annotate-data: Parse 'lock' prefix from llvm-objdump
+1cf4df0373eed561f543a9e0e0ac2498384d67a0 perf annotate-data: Handle macro fusion on x86
+d3030191d3a6292408c5cf999ebcc1d10e00e9c2 perf annotate-data: Handle array style accesses
+7a54f1d83defa6dd6c25c0851191f6d3a0a42362 perf annotate-data: Add stack operation pseudo type
+83bfa06d08050d03d35004e8579df9718a614100 perf annotate-data: Handle PC-relative addressing
+5f7cdde843dd21c7228d9ae47d985086ce165985 perf annotate-data: Support global variables
+6fed025f119d229cf345aed2207d2922ed71871d perf dwarf-aux: Add die_get_cfa()
+bc10db8eb8955fbcaf29f75c91147e4e724b740d perf annotate-data: Support stack variables
+55442cc2f22d0727abfecc3a30c605f04acff4b7 perf dwarf-aux: Check allowed DWARF Ops
+aff10a165201f6f60cff225083ce301ad3f5d8f1 perf record: Fix possible incorrect free in record__switch_output()
+02f9b50e04812782fd006ed21c6da1c5e3e373da perf record: Check conflict between '--timestamp-filename' option and pipe mode before recording
+57c8f1073f14452223f3d1bd8bd2b690af93d745 perf data: Minor code style alignment cleanup
+ccc606a7d3122200c102a250d2b73c394a7c3888 perf sched: Sync state char array with the kernel
+2f29a74f1dffe463d457b11cb39421a45c82044f perf util: Add helpers to parse task state string from libtraceevent
+df8bc77e4a6b2d29bab0a092e1ed30fcabdea35e perf util: Add evsel__taskstate() to parse the task state info instead
+68f87f24f953cf3147afa01ef123d8fd3c1162b6 perf sched: Commit to evsel__taskstate() to parse task state info
+bb65acdc832ec84fa42d752c50247e968381d057 perf mem: Add mem_events into the supported perf_pmu
+a30450e6a43b7f4b4df9bb3eb7dfaebd96f09682 perf mem: Clean up perf_mem_events__ptr()
+abbdd79b786e036e60f01b7907977943ebe7a74d perf mem: Clean up perf_mem_events__name()
+db95c2ce9be6e447f36423313526cfeb8cd5fc7a perf mem: Clean up perf_mem_event__supported()
+8ea9dfb916618043a8daff8cf06ac66e8f0d0c7b perf mem: Clean up is_mem_loads_aux_event()
+70f4b20d07df94916230b6783097358703c90113 perf mem: Clean up perf_mem_events__record_args()
+821aca20be503a6ce96ebda68c09fbcb1f7c51ba perf mem: Clean up perf_pmus__num_mem_pmus()
+63f209b6fa4d810ee159cb38c1c6c8e2d516920c perf evlist: Fix evlist__new_default() for > 1 core PMU
+b58ab8ac75ab6274e077cba2feb2024aacc4cf0a perf version: Display availability of HAVE_DWARF_UNWIND_SUPPORT
+ac668d529fca730f318db3bfa7141743bf75976d perf test: Skip test_arm_callgraph_fp.sh if unwinding isn't built in
+24852ef2e2d5c555c2da05baff112ea414b6e0f5 perf pmu: Treat the msr pmu as software
+7727d59de44e4568d0ad0f3867c8bdec69d688fe perf tools: Add -H short option for --hierarchy
+20018398fca87c914654252f7647a224e6b030ee perf evsel: Rename get_states() to parse_task_states() and make it public
+4962aec0d684c8edb14574ccd0da53e4926ff834 perf evsel: Fix duplicate initialization of data->id in evsel__parse_sample()
+1c84b47f99ea7ab7a76a785edd29e14977e1ecd0 perf report: Prevent segfault with --no-parent
+8f95b29c73e181274759c3f9483ba7f875447e3c perf test: Simplify metric value validation test final report
+366fb5f59d470ad1271cd4bbc3c580ad6118943d perf Documentation: Add some more hints to tips.txt
+2882358b8b83b417a9d82205ae6aae5be00bd989 perf tsc: Add missing newlines to debug statements
+f5144ecad74101f87843aa08070df26a3937102a perf parse-events: Improve error location of terms cloned from an event
+fd7b8e8fb20f51d60dfee7792806548f3c6a4c2c perf parse-events: Print all errors
+b8db070f389c902f48e83ee7a94952e9557199e8 perf jevents: Drop or simplify small integer values
+ffd856537b95dd65facb4e0c78ca1cb92c2048ff perf bpf: Clean up the generated/copied vmlinux.h
+acfd65c89403f3f6478d4451d76377dd8b88bf02 tools: perf: Expose sample ID / stream ID to python scripts
+e024fa6a5566da09365453b778e758a44e0dd5ff perf/pmu-events/powerpc: Update json mapfile with Power11 PVR
+8ce5fa4d68d372b663963c79123f926af9acb16d perf kvm powerpc: Fix build
+112c554702cf1ea384ef71a116e3a2c10aeed116 perf script: Print source line for each jump in brstackinsn
+5b9e4eefc5f8d0638aa2e7ea1e92ea88e9948cf9 perf record: Display data size on pipe mode
+0bdfbd04c67e0578f304aef10a0b3b5cff392022 perf tools: Make it possible to see perf's kernel and module memory mappings
+94a830d7cc1bde5058f375c11329961948a70c87 perf symbols: Slightly improve module file executable section mappings
+5f70c6c559908984ea93d61a62108b2aff017a99 perf test: Skip metric w/o event name on arm64 in stat STD output linter
+c6907863519cf97ee09653cc8ec338a2328c2b6f perf sched: Move start_work_mutex and work_done_wait_mutex initialization to perf_sched__replay()
+ef76a5af819743d405674f6de5d0e63320ac653e perf sched: Fix memory leak in perf_sched__map()
+5e895278697c014e95ae7ae5e79a72ef68c5184e perf sched: Move curr_thread initialization to perf_sched__map()
+bd2cdf26b9ea000339d54adc82e87fdbf22c21c3 perf sched: Move curr_pid and cpu_last_switched initialization to perf_sched__{lat|map|replay}()
+1eb3d924e3c0b8c27388b0583a989d757866efb6 perf thread_map: Free strlist on normal path in thread_map__new_by_tid_str()
+9a440bb2e2e9a4af3a7857af42a825f61b27a18c perf tools: Remove misleading comments on map functions
+cbc917a1b03bce85f385c1e640c9dcb02ffb9ab0 perf stat: Support per-cluster aggregation
+c7ba9d18ae47924a6ea6a47ca139779f58eb83c0 perf srcline: Add missed addr2line closes
+39d14c0dd650f3de62242c2f92fb4d7a0ec3386a Merge branch 'perf-tools' into perf-tools-next
+659ad3492b913c9033d47cb406ac5754780875b6 perf maps: Switch from rbtree to lazily sorted array for addresses
+42fd623b58dbcc48310705bbf3e3d4d7c1deec29 perf maps: Get map before returning in maps__find
+107ef66cb054f8d54e336236a31631a8cc167c1f perf maps: Get map before returning in maps__find_by_name
+39a27325e6099e9f9a10d8b5f3b2470a3c10efa5 perf maps: Get map before returning in maps__find_next_entry
+ff0bd79980fffa00c36eb2b9044dbe9cfdf4bb79 perf maps: Hide maps internals
+923e4616ec15b7feabdc353b229762069eb73c43 perf maps: Locking tidy up of nr_maps
+4ea7d94407b4cbc04cd0d610e38171c277cc601e perf expr: Allow NaN to be a valid number
+6dd76680b925228312756c13b9b983661b552a64 perf expr: Fix "has_event" function for metric style events
+2543947c77e0e224bda86b4e7220c2f6714da463 perf stat: Avoid metric-only segv
+6d6be5eb45b423a37d746d3ee0fd0c78f76ead9f perf metric: Don't remove scale from counts
+fca6af7be28befb95cfeac74e7f77809defdaadd perf build: Remove unused CONFIG_PERF_REGS
+ec87c99de48933e8b9b530b08e51832b400256bd perf parse-regs: Always build perf register functions
+9a4e47ef98a3041f6d2869ba2cd3401701776275 perf parse-regs: Introduce a weak function arch__sample_reg_masks()
+81901fc0640dc8d0210a24c43edff5018b4cc047 perf build: Cleanup perf register configuration
+6f04d664a9fa191e97b54a19f95f2db140554662 perf test: Enable Symbols test to work with a current module dso
+0aa81428717c88b6f0849944b51b35bc6f613914 perf testsuite: Add common regex patters
+451af6a790b4b6f690cb2a0b8e7a6e0591528524 perf testsuite: Add common setting for shell tests
+e3425864a9e4dfad7bfb2de62b61fb4f72629aa6 perf testsuite: Add initialization script for shell tests
+c8eb2a9ff8b30957d90c941cb4f0caac705ceffb perf testsuite: Add test case for perf probe
+61d348f1e96fe11ba7d3714bcc700d8fd71aa17e perf testsuite: Add common output checking helpers
+e7d759f31ca295d589f7420719c311870bb3166f perf testsuite: Add test for kprobe handling
+f512e08fd0940fcd811d24e2cfd95683fe8042c3 perf testsuite: Install kprobe tests and common files
+29d16de26df17e94dd0310dc83c37f82b48a59cf perf augmented_raw_syscalls.bpf: Move 'struct timespec64' to vmlinux.h
+2252ddf4343caf7271d5e2e438c44c9d7590e35f perf vendor events intel: Update alderlake events to v1.24
+5dcc2abaa54548f00e02d9d68280db20a86bc87a perf vendor events intel: Update alderlaken events to v1.24
+7163acea3076fde4e996d902e7638a1e9a641b88 perf vendor events intel: Update broadwell events to v29
+ea518afc992032f7570c0a89ac9240b387dc0faf perf vendor events intel: Update emeraldrapids events to v1.03
+24cda3081ac2a94e3eb0f2d6dd9e9968010afbec perf vendor events intel: Update grandridge events to v1.01
+f9044d46b75a7bb971b97c9b3b2c6f09d324c55e perf vendor events intel: Update haswell events to v35
+e8866cdbe10182ad57cbd638802244ee9c82f20f perf vendor events intel: Update icelake events to v1.21
+1d262a85e289fdaa75923aa5eac4489e9158466f perf vendor events intel: Update meteorlake events to v1.07
+8972c0335305e899b21c9f9ef30db3e7caf4e588 perf vendor events intel: Update rocketlake events to v1.02
+9626368d429a7b8fe12adf79be3d009ae0f569c2 perf vendor events intel: Update sierraforst events to v1.01
+c31d718ca217921192254946ae2fdeb63d2ef7a7 perf vendor events intel: Update skylake events to v58
+c4bb31c7b05132e8aed99b267e262da1859a6805 perf vendor events intel: Update tigerlake events to v1.15
+52530942ba4363fa3cce31d0801332572dcb8796 perf vendor events intel: Update alderlake TMA metrics to 4.7
+eedd6d0a72f26a92863fbeac0139b61f7ccc4736 perf vendor events intel: Update broadwell TMA metrics to 4.7
+4018680df9359d7447d5a89af014b5f4882edc8d perf vendor events intel: Update broadwellde TMA metrics to 4.7
+8792e8f89da1dccb874d0c38685c52e504e0a49d perf vendor events intel: Update broadwellx TMA metrics to 4.7
+c72a20435a5b94258f50887841f6a5393c5429bc perf vendor events intel: Update cascadelakex TMA metrics to 4.7
+89b66259a73a106e94333ca3c03f8059b8c24ce1 perf vendor events intel: Update haswell TMA metrics to 4.7
+2a264a1946136645b23db7f3588c1669744deec5 perf vendor events intel: Update haswellx TMA metrics to 4.7
+70bfdad63f87fbfb31bc8eb70a16374b437de25b perf vendor events intel: Update icelake TMA metrics to 4.7
+b15cae3f697c5d75014f417cb5aa10aab248e5ab perf vendor events intel: Update icelakex TMA metrics to 4.7
+8cf54fa8444190105c4129da3b9cf34b5d57c5c5 perf vendor events intel: Update ivybridge TMA metrics to 4.7
+14bc1a59f2709f02e7bf12d5f22fa41f6611919f perf vendor events intel: Update ivytown TMA metrics to 4.7
+5f9a13bee0a660d01152ca968406d761c1926653 perf vendor events intel: Update jaketown TMA metrics to 4.7
+74f76c3ba7d5a68fac8fa1f711433742c8870807 perf vendor events intel: Update rocketlake TMA metrics to 4.7
+176e66715d0ea5ccf65b36b411d760ab18a0de4a perf vendor events intel: Update sandybridge TMA metrics to 4.7
+53c83c79aa590309464a05876fecf73f20f943d6 perf vendor events intel: Update sapphirerapids TMA metrics to 4.7
+f15fa6ba76dc55bed34750a9f50031754ec3fe6b perf vendor events intel: Update skylake TMA metrics to 4.7
+e2c8b40e374683a9b85944fa02db35081d2eeee6 perf vendor events intel: Update skylakex TMA metrics to 4.7
+6f146b249b3ada0082209b34abf01c90c702a96b perf vendor events intel: Update tigerlake TMA metrics to 4.7
+bacefe0c7b77b7527a613e053b6d378412a8a779 perf tools: Fixup module symbol end address properly
+81377de00f117706211ced7f6adcb9a5a94ba326 perf list: For metricgroup only list include description
+8b767db3309595a23eff1c3f2498f17b1f3a9bbc perf: build: introduce the libcapstone
+8f0ec15ff66243896ff3e534696c6af7ff013901 perf: util: use capstone disasm engine to show assembly instructions
+9941723438eec4c2388f588e1d4fd98f4a49ab01 perf: script: add field 'disasm' to display mnemonic instructions
+6750ba4b6442fa5ea4bf5c0e4b4ff8b0249ef71d perf: script: add raw|disasm arguments to --insn-trace option
+659663f0bccce884059985d5e43e066419cda4e2 perf: script: prefer capstone to XED
+eee41e6b287e2adfefbe3b6fc80c66097c076f89 perf stat: Pass fewer metric arguments
+a59fb796a36bb6c2b7e6e256a9e5f9ba18109937 perf metrics: Compute unmerged uncore metrics individually
+bafd4e75c1ac5a9da0aec5c7c52c7a72613a0cf3 perf stat: Fix metric-only aggregation index
+b6968f9b5035e8e5a74a83209853f274345c74a2 perf list: fix short description for some cache events
+510e528786395e419e9a827ee5d42add021111ee perf thread_map: Skip exited threads when scanning /proc
+8ece26ad5ad33a1de7231059ec9692d303cb5f2f perf list: Add scandirat compatibility function
+526f2ac9f6a1d668fddf925897b55341bef22644 perf tests: Avoid fork in perf_has_symbol test
+1a562c0d44974d3cf89c6cc5c34c708c08af420e tools subcmd: Add a no exec function call option
+d5bcade989a86caa4314aa91d6d3f652e8a82fe5 perf test: Rename builtin-test-list and add missed header guard
+f3295f5b067d3c2655f0b2cd14d0b91b83ca41eb perf tests: Use scandirat for shell script finding
+964461ee370f3c0d63c173bfe4e4995f66d91578 perf tests: Run time generate shell test suites
+b482f5f8e0168f1e81bbb45c5238a3bed481818a perf tests: Add option to run tests in parallel
+25412c0364f7110faa6053c73e3fd47ca956b8c3 perf print-events: make is_event_supported() more robust
+c2bd08ba20a57e0ed55777a9d1724647a0f53e88 treewide: remove meaningless assignments in Makefiles
+529d5818a3bb0272ced031e022e4b41d6410a4da perf bpf: Check that the minimal vmlinux.h installed is the latest one
+bae4d1f86e4d6750d2fc11e040c7d49b180c4b8d perf data convert: Fix segfault when converting to json when cpu_desc isn't set
+8680999dbe5735a68feae396dcfc486e18679f2e perf test: Use TEST_FAIL in the TEST_ASSERT macros instead of -1
+eb94225eb469a163280a6cf939fe0e5ea708fd29 perf test: Fix spelling mistake "curent" -> "current"
+ef5de1613d7d92bdc975e6beb34bb0fa94f34078 perf pmu: Fix a potential memory leak in perf_pmu__lookup()
+d4be39cadef0dbba6667a96e8e7857d510ed4e20 perf metrics: Fix metric matching
+97b6b4ac1c5dd42a473a4f8e775d97476c5da038 perf metrics: Fix segv for metrics with no events
+b44d66536859393772c67cb1da65345127f692e0 perf lock contention: Account contending locks too
+1947b92464c3268381604bbe2ac977a3fd78192f libperf evlist: Avoid out-of-bounds access
+ec42d3d56819688537ec7ee37ce97f695fb8e6d7 perf map: Fix map reference count issues
+dd267d056fed323f1684fa52d2a864fc93ca3be0 perf vendor events intel: Add umasks/occ_sel to PCU events.
+507ad2bde3573980f09cf78780169b4d4c772758 perf version: Display availability of OpenCSD support
+498d3486376befe4e82b5334d44bbc86b1982ee4 perf vendor events amd: Fix Zen 4 cache latency events
+2f1e20feb9944d0dd50906819227e99e1a26f78c perf report: Sort child tasks by tid
+f178ffdf7ee5bf809837161002719e19eebff895 perf trace: Ignore thread hashing in summary
+45ac4960d7fead9041fbfa15177fdd20b6af10f7 perf machine: Move fprintf to for_each loop and a callback
+d436f90a64f3e6b47464acc7821ce2b8a515a2ae perf machine: Move machine's threads into its own abstraction
+93bb5b0d9394cbf49b76823c48ed8b815a5d899c perf threads: Move threads to its own files
+412a2ff473ac01b195eb38c0853ce065b524b2e2 perf threads: Switch from rbtree to hashmap
+7bfc84b23e750d746e5c6723270b9c7f92cfa88c perf threads: Reduce table size from 256 to 8
+e4778a0ef322834718f8e42da3901eb99fef1208 x86/kprobes: Refactor can_{probe,boost} return type to bool
+e884edbb844fd6935e4368734edd9f3fa46ec5c2 x86/kprobes: Prohibit kprobing on INT and UD
+290eb13f1a657313177789159a6d1786187cf168 x86/kprobes: Boost more instructions from grp2/3/4/5
+7e37b6bc3cc096e24709908076807bb9c3cf0d38 tracing/fprobe-event: cleanup: Fix a wrong comment in fprobe event
+032330abd08b4da56e39e98aa4d9a9079cbe1d15 tracing/probes: Cleanup probe argument parser
+035ba76014c096316fa809a46ce0a1b9af1cde0d tracing/probes: cleanup: Set trace_probe::nr_args at trace_probe_init
+c18f9eabeec766ac8348ce7391d6fd368198522c tracing: Remove redundant #else block for BTF args from README
+25f00e40ce7953db197af3a59233711d154c9d80 tracing/probes: Support $argN in return probe (kprobe and fprobe)
+f6e2253a617c4030b807a18383101b59d6f0f536 selftests/ftrace: Add test cases for entry args at function exit
+e8c32f24766a1f22da024e73d1eb8e9c822482ac Documentation: tracing: Add entry argument access at function exit
+d3e7cad6f36d9e80307b05bf31959597f9b6cd62 perf annotate: Add a hashmap for symbol histogram
+80154575849778e40d9d87aa7ab14491ac401948 perf annotate: Calculate instruction overhead using hashmap
+f59e3660cd84d94cfdddbced91200981d9c25218 perf annotate: Remove sym_hist.addr[] array
+0f66dfe7b91d2743cc71dfff37af503215b204ef perf annotate: Add comments in the data structures
+761d9473e27f0c8782895013a3e7b52a37c8bcfc ring-buffer: Do not set shortest_full when full target is hit
+8145f1c35fa648da662078efab299c4467b85ad5 ring-buffer: Fix full_waiters_pending in poll
+e36f19a6457b2c0dfa4a7d19153ef0fda4bf5634 ring-buffer: Reuse rb_watermark_hit() for the poll logic
+7af9ded0c2caac0a95f33df5cb04706b0f502588 ring-buffer: Use wait_event_interruptible() in ring_buffer_wait()
+2aa043a55b9a764c9cbde5a8c654eeaaffe224cf tracing/ring-buffer: Fix wait_on_pipe() race
+01732755ee30f0862c80b276de6af3611a3ded83 Merge tag 'probes-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+63bd30f249dcf0a7ce16967935cecee8feec24bb Merge tag 'trace-ring-buffer-v6.8-rc7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+1bbeaf83dd7b5e3628b98bec66ff8fe2646e14aa Merge tag 'perf-tools-for-v6.9-2024-03-13' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============7969489390603954406==--
+--===============1860425172778896642==--
