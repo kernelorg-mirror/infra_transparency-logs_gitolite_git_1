@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2705085277573239760=="
+Content-Type: multipart/mixed; boundary="===============3175001674258706365=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Thu, 14 Mar 2024 04:34:45 -0000
-Message-Id: <171039088567.3536.5455192630296313167@gitolite.kernel.org>
+Date: Thu, 14 Mar 2024 04:35:16 -0000
+Message-Id: <171039091618.5364.13994571828401194279@gitolite.kernel.org>
 
---===============2705085277573239760==
+--===============3175001674258706365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/for-linux-next
+  - ref: refs/heads/exynos-drm-next
     old: f112b68f273fb0121cb64e0c3ac06adcb91e32b8
     new: 119b225f01e4d3ce974cd3b4d982c76a380c796d
     log: revlist-f112b68f273f-119b225f01e4.txt
 
---===============2705085277573239760==
+--===============3175001674258706365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -410,4 +410,4 @@ b0b6739cb9155c4ec6b4c50889313184175e687d Merge tag 'drm-etnaviv-next-2024-03-07'
 b9511c6d277c31b13d4f3128eba46f4e0733d734 Merge tag 'drm-msm-next-2024-03-07' of https://gitlab.freedesktop.org/drm/msm into drm-next
 119b225f01e4d3ce974cd3b4d982c76a380c796d Merge tag 'amd-drm-next-6.9-2024-03-08-1' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
 
---===============2705085277573239760==--
+--===============3175001674258706365==--
