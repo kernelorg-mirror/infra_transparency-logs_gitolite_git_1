@@ -1,29 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 14 Mar 2024 15:50:04 -0000
-Message-Id: <171043140440.26398.5970387889038569988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Thu, 14 Mar 2024 15:51:48 -0000
+Message-Id: <171043150852.27119.12744593567280612029@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/block-6.9
-    old: bf5e3a30f777b6e763f6a46c10e1250c20237e97
-    new: 4c4ab8ae416350ce817339f239bdaaf351212f15
+  - ref: refs/heads/trace/for-next
+    old: eb1533d156d307c2125943eaf1925e268094d984
+    new: 3ac9ee554273a004abb71d17791c48b732f94591
     log: |
-         4c4ab8ae416350ce817339f239bdaaf351212f15 block: fix mismatched kerneldoc function name
-         
-  - ref: refs/heads/io_uring-recvsend-bundle
-    old: 57fd6bfcfb482b2e57219118e3a9a2c0c95b0f45
-    new: b611b4e52525de4fb6853adbcdc9fb11358b7384
-    log: |
-         45f6c0a8860244b10dc068cd43b3e2f9492946c5 io_uring: get rid of remap_pfn_range() for mapping rings/sqes
-         b6eb16ee81c4d46843a3b25066818c55a7414ccb io_uring: use vmap() for ring mapping
-         238ee4a0b9d8ddf4320c5d84fcde45ecabb29e8d io_uring: unify io_pin_pages()
-         24f7dc387d0a640e1145af3d4995cfb5d7c46b16 io_uring: use unpin_user_pages() where appropriate
-         b611b4e52525de4fb6853adbcdc9fb11358b7384 io_uring: alloc ring memory as a compound page, if possible
+         0f90682edaa052157c3a1f5e11aed2fa4f7360f4 tracing: Support to dump instance traces by ftrace_dump_on_oops
+         e4cebc2cef487d24107db206092325fb98eef756 tracefs: Remove SLAB_MEM_SPREAD flag usage
+         47d8e053dc03da0b0d396149fc37ffec8ec1a9bf tracing: Use div64_u64() instead of do_div()
+         fcfde60ebb51851c144429f3b0cad71e81b4c797 tracepoints: Use WARN() and not WARN_ON() for warnings
+         752c8ed2ad76b5f7edc2fcf2e277f1ae6ccd2e7c ring-buffer: use READ_ONCE() to read cpu_buffer->commit_page in concurrent environment
+         6fa5a96a36b72bd3466a3eff93b70ac015d968c6 ring-buffer: Have mmapped ring buffer keep track of missed events
+         1c7fae6152cebde8412ccf95d1e2e4e8ad53a76a net: hns3: tracing: fix hclgevf trace event strings
+         3ac9ee554273a004abb71d17791c48b732f94591 tracing: Use strcmp() in __assign_str() WARN_ON() check
          
