@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4532374108390829633=="
+Content-Type: multipart/mixed; boundary="===============0723650253554149457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 14 Mar 2024 19:42:34 -0000
-Message-Id: <171044535413.1219.854615665942493996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 14 Mar 2024 19:42:48 -0000
+Message-Id: <171044536834.1454.9453593268689891094@gitolite.kernel.org>
 
---===============4532374108390829633==
+--===============0723650253554149457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: fe46a7dd189e25604716c03576d05ac8a5209743
     log: revlist-8ede842f669b-fe46a7dd189e.txt
 
---===============4532374108390829633==
+--===============0723650253554149457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f5c31bcf604db54470868f3118a60dc4a9ba8813 Merge tag 'leds-next-6.9' of git://git.
 705c1da8fa4816fb0159b5602fef1df5946a3ee2 Merge tag 'pci-v6.9-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 fe46a7dd189e25604716c03576d05ac8a5209743 Merge tag 'sound-6.9-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 
---===============4532374108390829633==--
+--===============0723650253554149457==--
