@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3720279656659351715=="
+Content-Type: multipart/mixed; boundary="===============3082581276533809474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 14 Mar 2024 14:13:30 -0000
-Message-Id: <171042561079.12287.17803887856139612486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 14 Mar 2024 14:13:37 -0000
+Message-Id: <171042561709.12393.2972201553935084907@gitolite.kernel.org>
 
---===============3720279656659351715==
+--===============3082581276533809474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/asoc-6.9
     old: 10eb0d3314c59dd0497282b33afabddf607b3050
     new: c7c12024ebadbbfd98d82c06edabc41d568ad51a
     log: revlist-10eb0d3314c5-c7c12024ebad.txt
 
---===============3720279656659351715==
+--===============3082581276533809474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1710425609 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1710425608-4362997730a99e9867ac7b551e9bd53e2058eed6
+pusher C3F436CA30F5D8EB 1710425615 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1710425614-46bbb38bae88f803d6fba83791598cb8bdf092e5
 
-10eb0d3314c59dd0497282b33afabddf607b3050 c7c12024ebadbbfd98d82c06edabc41d568ad51a refs/heads/for-6.9
+10eb0d3314c59dd0497282b33afabddf607b3050 c7c12024ebadbbfd98d82c06edabc41d568ad51a refs/heads/asoc-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXzBgkACgkQJNaLcl1U
-h9B3MAf8D6AvWCCTNGdFm+zbwj9Z/jfNAFRTgJkrW53Dp++8xM6JrdqKnO5hmJUw
-OGk28sJ7rE3c7Zm+ryRVu6ebzZNmDJd05QnpAx8lUCzyNW6kBC/34B7tMm4IiOwj
-V33KOiyY8ioLXwWpxPxIDFW13DdpVJP4AZ7b8FnQ12SOs4T8wkyB8vYrwD5q1TrM
-SSe80oMxB55xtw807V5RZ7DqWpp0cJNWAN+vZDIj4IpDckbrIZGtzLCApDr6TsY4
-Ewg/sKhF/j0x36mvwcE6QsWI/DxhR4R4CTuI6wTwSnj1mSbKcb6HNJ8ezgENByjf
-IXk5kI0Iy69UnrSMM2ALQ9MJQ3RvHQ==
-=fq/I
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXzBg8ACgkQJNaLcl1U
+h9Bzlgf/QjcRKw83gzfwm/zEUDJAcpYhI6ZSmpFE8/fG6/xxe7qwl9BMFNPjHOqw
+rGn4Q1/Appudlrp5tkI4GEjjpzg5yHxWzK2vzJGy5TzsWRAhF+YL3PnqgnYnXjLx
+Qq+BlE+vQqtH4q6DrBqgWm+DpPeIP4H87NqlXJGDV31IJ0KlUvMaebbwjCoJpCEN
+z8H3Lz1DSRlWqhnJ/lZKKZOJZVj1sFHskWnpsFr2TSPJvVdpQ+oN9TWakfZ5vt2c
+MoJtkV5xJ85gInm05NUasi9A9cZIW4Fn+Gq17w8xiTsL6MZn6W90Oykm8LXC63e6
+0gt7X0sNcSIcy28th2WbYdhWGBftLQ==
+=AHbV
 -----END PGP SIGNATURE-----
 
---===============3720279656659351715==
+--===============3082581276533809474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -986,4 +986,4 @@ e8f897f4afef0031fe618a8e94127a0934896aba Linux 6.8
 e25293d9d92cce24aa4ca21b90064661fe4d3fcf ASoC: Merge up release
 c7c12024ebadbbfd98d82c06edabc41d568ad51a Add support for the internal RK3308 audio codec
 
---===============3720279656659351715==--
+--===============3082581276533809474==--
