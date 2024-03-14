@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 14 Mar 2024 20:57:50 -0000
-Message-Id: <171044987007.23822.16074632500933855246@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5318179877054024902=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 14 Mar 2024 21:18:15 -0000
+Message-Id: <171045109518.6720.9693844829663827746@gitolite.kernel.org>
+
+--===============5318179877054024902==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 9bf48fa19a4b1d186e08b20bf7e5de26a15644fb
-    new: 6cda7e17392e0eca9fcafcb9b1d269c31fd737b7
+    old: 8dac1f3d8a92ec80d8bea15570d2668e7778c308
+    new: 6345d799d294b5de8257939c9672ab9d11b5359b
     log: |
-         c911fc61a7ce367f9ea48e457f31bb171e80ca4d libbpf: Skip zeroed or null fields if not found in the kernel type.
-         26a7cf2bbea656837583f9a1a0f9390db63d6cc3 selftests/bpf: Ensure libbpf skip all-zeros fields of struct_ops maps.
-         6cda7e17392e0eca9fcafcb9b1d269c31fd737b7 Merge branch 'ignore-additional-fields-in-the-struct_ops-maps-in-an-updated-version'
+         6345d799d294b5de8257939c9672ab9d11b5359b ez: initial support for chained series
          
+
+--===============5318179877054024902==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1710451094 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1710451094-1993e6c9d16dadbdd9f09eac97085d67b5f9f333
+
+8dac1f3d8a92ec80d8bea15570d2668e7778c308 6345d799d294b5de8257939c9672ab9d11b5359b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZfNplgAKCRC2xBzjVmSZ
+bNTkAQCwr8CWiyXVm+xsoX0fIzrosNPGkyg86YRz1lIsSLGFTgEA1aZTadw7fL2C
+TulsD2s8FpdqMVgKbWTHPE4UIzUDbQ8=
+=rWIZ
+-----END PGP SIGNATURE-----
+
+--===============5318179877054024902==--
