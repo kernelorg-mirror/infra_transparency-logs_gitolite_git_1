@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 14 Mar 2024 09:16:11 -0000
-Message-Id: <171040777198.11684.11730724053045907592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Thu, 14 Mar 2024 09:27:43 -0000
+Message-Id: <171040846317.18921.7082122254661677087@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/master
-    old: b5ff5e3af69ff09379c8973d9a563a722f980147
-    new: fc8ef6dac5556ec0b3cb4a6a244303af3f706f61
+  - ref: refs/heads/loongarch-next
+    old: 833108124f6c40c047f9d1886bf0415303d4e1a8
+    new: bc1ea1206fec3af8c272cfc72107ed532f035c8a
     log: |
-         4ce937160ba053789f96d5130d5de4deaee2ad23 irqchip/riscv-intc: Fix use of AIA interrupts 32-63 on riscv32
-         fc8ef6dac5556ec0b3cb4a6a244303af3f706f61 Merge branch into tip/master: 'irq/urgent'
+         a4b0aa62238195d3f8010eafd29701573e653562 LoongArch: Change __my_cpu_offset definition to avoid mis-optimization
+         d8d1bdba3eff0925fb4d24a33c3649053cfc25c1 LoongArch: Move {dmw,tlb}_virt_to_page() definition to page.h
+         8a54b643d59bfef1021f43eccc4e10cf12df3ca1 LoongArch: Remove superfluous flush_dcache_page() definition
+         acfd5d35cd7a0a8a57c4628c8560eb784c2b20f8 LoongArch: Define the __io_aw() hook as mmiowb()
+         c58f58e70eb101a6198e58894caf2e1cf78db918 LoongArch/crypto: Clean up useless assignment operations
+         bc1ea1206fec3af8c272cfc72107ed532f035c8a Merge branch 'loongarch-kvm' into loongarch-next
          
