@@ -1,55 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============3082581276533809474=="
+Content-Type: multipart/mixed; boundary="===============1583578642517833986=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 14 Mar 2024 14:13:37 -0000
-Message-Id: <171042561709.12393.2972201553935084907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 14 Mar 2024 14:13:49 -0000
+Message-Id: <171042562999.12533.17025018335874012630@gitolite.kernel.org>
 
---===============3082581276533809474==
+--===============1583578642517833986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.9
-    old: 10eb0d3314c59dd0497282b33afabddf607b3050
-    new: c7c12024ebadbbfd98d82c06edabc41d568ad51a
-    log: revlist-10eb0d3314c5-c7c12024ebad.txt
+  - ref: refs/heads/for-linus
+    old: ec9c6bbe3fd8ff6898ced886d1a489b9f75c1a53
+    new: 9846dcc3ccf7c24e28337b9ae96d47d349d25bca
+    log: revlist-ec9c6bbe3fd8-9846dcc3ccf7.txt
+  - ref: refs/heads/for-next
+    old: ec9c6bbe3fd8ff6898ced886d1a489b9f75c1a53
+    new: 9846dcc3ccf7c24e28337b9ae96d47d349d25bca
+    log: revlist-ec9c6bbe3fd8-9846dcc3ccf7.txt
 
---===============3082581276533809474==
+--===============1583578642517833986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1710425615 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1710425614-46bbb38bae88f803d6fba83791598cb8bdf092e5
-
-10eb0d3314c59dd0497282b33afabddf607b3050 c7c12024ebadbbfd98d82c06edabc41d568ad51a refs/heads/asoc-6.9
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmXzBg8ACgkQJNaLcl1U
-h9Bzlgf/QjcRKw83gzfwm/zEUDJAcpYhI6ZSmpFE8/fG6/xxe7qwl9BMFNPjHOqw
-rGn4Q1/Appudlrp5tkI4GEjjpzg5yHxWzK2vzJGy5TzsWRAhF+YL3PnqgnYnXjLx
-Qq+BlE+vQqtH4q6DrBqgWm+DpPeIP4H87NqlXJGDV31IJ0KlUvMaebbwjCoJpCEN
-z8H3Lz1DSRlWqhnJ/lZKKZOJZVj1sFHskWnpsFr2TSPJvVdpQ+oN9TWakfZ5vt2c
-MoJtkV5xJ85gInm05NUasi9A9cZIW4Fn+Gq17w8xiTsL6MZn6W90Oykm8LXC63e6
-0gt7X0sNcSIcy28th2WbYdhWGBftLQ==
-=AHbV
------END PGP SIGNATURE-----
-
---===============3082581276533809474==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10eb0d3314c5-c7c12024ebad.txt
+Content-Disposition: attachment; filename=revlist-ec9c6bbe3fd8-9846dcc3ccf7.txt
 
 1982a2a02c9197436d4a8ea12f66bafab53f16a0 xfrm: Clear low order bits of ->flowi4_tos in decode_session4().
 1755c4b0372a2cf1e7124956b8cfebcb51083208 dt-bindings: clock: gs101: rename cmu_misc clock-names
@@ -263,7 +242,6 @@ e7096150580849429ff3d43dd69a718bb2036be4 platform/x86/amd/pmf: Fixup error handl
 76d41fb063338781e936765b7ed74224215ca178 platform/x86/amd/pmf: Fix a potential race with policy binary sideload
 9c92006b896c767218aabe8947b62026a571cfd0 irqchip/sifive-plic: Enable interrupt if needed before EOI
 db744ddd59be798c2627efbfc71f707f5a935a40 PCI/MSI: Prevent MSI hardware interrupt number truncation
-e33625c84b75e4f078d7f9bf58f01fe71ab99642 ASoC: cs35l56: Must clear HALO_STATE before issuing SYSTEM_RESET
 1fdf4e8be7059e7784fec11d30cd32784f0bdc83 ALSA: hda/realtek: Enable Mute LED on HP 840 G8 (MB 8AB8)
 882a2a724ee964c1ebe7268a91d5c8c8ddc796bf parisc: Fix stack unwinder
 baf8361e54550a48a7087b603313ad013cc13386 x86/bugs: Add asm helpers for executing VERW
@@ -367,7 +345,6 @@ ed683b9bb91fc274383e222ba5873a9ee9033462 sparc: Fix undefined reference to fb_is
 7adc0c1cfa7732b81bf7bf2ed16ffb99719ceebf iommufd: Reject non-zero data_type if no data_len is provided
 78f65fbf421a61894c14a1b91fe2fb4437b3fe5f wifi: iwlwifi: mvm: ensure offloading TID queue exists
 d3433d1bb7bde449035f54b7000361ce151bad07 wifi: iwlwifi: mvm: fix the TXF mapping for BZ devices
-1382d8b55129875b2e07c4d2a7ebc790183769ee ASoC: qcom: Fix uninitialized pointer dmactl
 723a2cc8d69d4342b47dfddbfe6c19f1b135f09b s390: use the correct count for __iowrite64_copy()
 e78fb4eac817308027da88d02e5d0213462a7562 ring-buffer: Do not let subbuf be bigger than write mask
 b820de741ae48ccf50dd95e297889c286ff4f760 fs/aio: Restrict kiocb_set_cancel_fn() to I/O submitted via libaio
@@ -494,7 +471,6 @@ fe514e1775322ec19bd584a303fba276c9168870 Merge tag 'riscv-soc-drivers-fixes-for-
 4bd5b4c2eb438d665b376bd3011f9e5de6bae9f8 Merge tag 'riscv-dt-fixes-for-v6.8-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
 dcb8e53e339e534eecfd86fb21674d7eef7380eb Merge tag 'renesas-fixes-for-v6.8-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/fixes
 c1947ce61ff4cd4de2fe5f72423abedb6dc83011 ALSA: hda/realtek: tas2781: enable subwoofer volume control
-eba2eb2495f47690400331c722868902784e59de ASoC: soc-card: Fix missing locking in snd_soc_card_get_kcontrol()
 e5ca263508f7e9d2cf711edf3258d11ca087885c drm/bridge: aux-hpd: separate allocation and registration
 b979f2d50a099f3402418d7ff5f26c3952fb08bb soc: qcom: pmic_glink_altmode: fix drm bridge use-after-free
 f79ee78767ca60e7a2c89eacd2dbdf237d97e838 soc: qcom: pmic_glink: Fix boot when QRTR=m
@@ -587,7 +563,6 @@ fe9f801355f0b47668419f30f1fac1cf4539e736 net: veth: clear GRO when clearing XDP 
 86bf8cfda6d2a6720fa2e6e676c98f0882c9d3d7 drm/tegra: Remove existing framebuffer only if we support display
 2f910859724b53f1cd3579246e3d9bebb16d78b8 Merge drm/drm-fixes into drm-misc-fixes
 9d3f8a723c7950e56e0b95ab84b572caee29e065 drm/ttm/tests: depend on UML || COMPILE_TEST
-50ee641643dd0f46702e9a99354398196e1734c2 ASoC: amd: yc: Add Lenovo ThinkBook 21J0 into DMI quirk table
 00d6a284fcf3fad1b7e1b5bc3cd87cbfb60ce03f fbcon: always restore the old font data in fbcon_do_set_font()
 9a458198eba98b7207669a166e64d04b04cb651b x86/cpu: Allow reducing x86_phys_bits during early_identify_cpu()
 6890cb1ace350b4386c8aee1343dc3b3ddd214da x86/cpu/intel: Detect TME keyid bits before setting MTRR mask registers
@@ -648,8 +623,6 @@ c70703320e557ff30847915e6a7631a9abdda16b drm/tests/drm_buddy: add alloc_range_bi
 995161edfdb830fd83a652495324e26e0a4bd694 net: hsr: Fix typo in the hsr_forward_do() function comment
 8af411bbba1f457c33734795f024d0ef26d0963f stmmac: Clear variable when destroying workqueue
 4adfc94d4aeca1177e1188ba83c20ed581523fe1 Documentations: correct net_cachelines title for struct inet_sock
-316a784839b21b122e1761cdca54677bb19a47fa ASoC: amd: yc: add new YC platform variant (0x63) support
-ed00a6945dc32462c2d3744a3518d2316da66fcc ASoC: amd: yc: Fix non-functional mic on Lenovo 21J2
 8e9f25a290ae0016353c9ea13314c95fb3207812 mmc: sdhci-xenon: fix PHY init clock stability
 09e23823ae9a3e2d5d20f2e1efe0d6e48cef9129 mmc: sdhci-xenon: add timeout for PHY init complete
 664bad6af3cbe01d6804b7264bee674b3e7dae7e Revert "drm/msm/dp: use drm_bridge_hpd_notify() to report HPD status changes"
@@ -696,8 +669,6 @@ a09946a9a903e809abab9e0fb813dbf5a32084f5 drm/xe/xe_bo_move: Enhance xe_bo_move t
 b611b776a9c89a86e57ea6dbf8adfc99c6e8a62e Merge tag 'nf-24-02-29' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 8188cae3cc3d8018ec97ca9ab8caa3acc69a056d drm/xe/xe_trace: Add move_lacks_source detail to xe_bo_move trace
 01bb1ae35006e473138c90711bad1a6b614a1823 drm/i915: Check before removing mm notifier
-231bf30c107aaf935cdd02b308757d0823ff1414 ASoC: madera: Fix typo in madera_set_fll_clks shift value
-f8b0127aca8c60826e7354e504a12d4a46b1c3bb ASoC: Intel: bytcr_rt5640: Add an extra entry for the Chuwi Vi8 tablet
 616d82c3cfa2a2146dd7e3ae47bda7e877ee549e gtp: fix use-after-free and null-ptr-deref in gtp_newlink()
 d0b06dc48fb15902d7da09c5c0861e7f042a9381 firewire: core: use long bus reset on gap count error
 f6443e0177a55f78e94ccc1a43eb63a023a0b6fd pinctrl: don't put the reference to GPIO device in pinctrl_pins_show()
@@ -830,8 +801,6 @@ d20f2a196d2805ea9c2982489337d4d7a732f603 Merge tag 'imx-fixes-6.8-2' of git://gi
 5803b54068435be3a3254f9ecdc1ebd5c18718a8 regulator: rk808: fix buck range on RK806
 6717ff5533f332ef7294655629b8fa5fb8b132de regulator: rk808: fix LDO range on RK806
 9dfc46c87cdc8f5a42a71de247a744a6b8188980 drm/panel: boe-tv101wum-nl6: Fine tune Himax83102-j02 panel HFP and HBP (again)
-cbae1a350e3ceff38242a4905805c80ccbcfbba5 ASoC: rcar: adg: correct TIMSEL setting for SSI9
-b3a51137607cee7c814cd3a75d96f78b9ee1dc1f ASoC: amd: yc: Add HP Pavilion Aero Laptop 13-be2xxx(8BD6) into DMI quirk table
 af1e0a7d39f98c0dea1b186a76fcee7da6a5f7bc firmware: microchip: Fix over-requested allocation size
 803de9000f334b771afacb6ff3e78622916668b0 mm, vmscan: prevent infinite loop for costly GFP_NOIO | __GFP_RETRY_MAYFAIL allocations
 d7a08838ab74652f2b53fee9763f0178278c3a4b mm: userfaultfd: fix unexpected change to src_folio when UFFDIO_MOVE fails
@@ -864,7 +833,6 @@ cfa9ba1ae0bef0681833a22d326174fe633caab5 comedi: comedi_8255: Correct error in s
 f53641a6e849034a44bf80f50245a75d7a376025 comedi: comedi_test: Prevent timers rescheduling during deletion
 a283d7f179ff83976af27bcc71f7474cb4d7c348 misc: fastrpc: Pass proper arguments to scm call
 a0776c214d47ea4f7aaef138095beaa41cff03ef mei: gsc_proxy: match component when GSC is on different bus
-482c9f3d42ba58a2ae1f69cbfbf3a9f3e251527d ASoC: dt-bindings: nvidia: Fix 'lge' vendor prefix
 95bf25bb9ed5dedb7fb39f76489f7d6843ab0475 drm/udl: Add ARGB8888 as a format
 7105e92c60c9cc4112c782d69c172e96b69a43dc Revert "Input: bcm5974 - check endpoint type before starting traffic"
 963465a33141d0d52338e77f80fe543d2c9dc053 Input: gpio_keys_polled - suppress deferred probe error for gpio
@@ -906,9 +874,6 @@ d2d7b8e88023b75320662c2305d61779ff060950 phy: qcom-qmp-combo: fix drm bridge reg
 09dcdbac54f4e60c917251fea98a69e46817fe27 Merge tag 'v6.8-p6' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 5274d261404c22b8b966d20c09b2ebea3cad7aaf Merge tag 'arm-fixes-6.8-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 67be068d31d423b857ffd8c34dbcc093f8dfff76 Merge tag 'vfs-6.8-release.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-03c7874106ca5032a312626b927b1c35f07b1f35 ASoC: wm8962: Enable oscillator if selecting WM8962_FLL_OSC
-6fa849e4d78b880e878138bf238e4fd2bac3c4fa ASoC: wm8962: Enable both SPKOUTR_ENA and SPKOUTL_ENA in mono mode
-96e202f8c52ac49452f83317cf3b34cd1ad81e18 ASoC: wm8962: Fix up incorrect error message in wm8962_set_fll
 177cddaa5bdfcbc4c3d4594bb44ed8338765fc29 spi: cs42l43: Don't limit native CS to the first chip select
 5efd3e2aef91d2d812290dcb25b2058e6f3f532c tracing: Remove precision vsnprintf() check from print event
 6f42249fecb94dfb6514ed241475f748c03d62fb tracing: Limit trace_seq size to just 8K and not depend on architecture PAGE_SIZE
@@ -985,5 +950,6 @@ e8f897f4afef0031fe618a8e94127a0934896aba Linux 6.8
 23fb6bc2696119391ec3a92ccaffe50e567c515e ASoC: soc-core.c: Skip dummy codec when adding platforms
 e25293d9d92cce24aa4ca21b90064661fe4d3fcf ASoC: Merge up release
 c7c12024ebadbbfd98d82c06edabc41d568ad51a Add support for the internal RK3308 audio codec
+9846dcc3ccf7c24e28337b9ae96d47d349d25bca Merge remote-tracking branch 'asoc/for-6.8' into asoc-linus
 
---===============3082581276533809474==--
+--===============1583578642517833986==--
