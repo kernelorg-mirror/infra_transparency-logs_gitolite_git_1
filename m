@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7202974716439503093=="
+Content-Type: multipart/mixed; boundary="===============5101213526472874614=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 14 Mar 2024 19:01:16 -0000
-Message-Id: <171044287654.3083.15811244959178417912@gitolite.kernel.org>
+Date: Thu, 14 Mar 2024 19:01:21 -0000
+Message-Id: <171044288110.3182.9633783134698843629@gitolite.kernel.org>
 
---===============7202974716439503093==
+--===============5101213526472874614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/dir-deleg
-    old: 4b17efa7e489da1663cf1c272be6598040483a20
+  - ref: refs/heads/kdevops
+    old: 1e8c308042a0c8ec86148101dbde9c6383fad5b7
     new: f8a17b1e2f7ee73eca791b593509da97d3fe18ee
-    log: revlist-4b17efa7e489-f8a17b1e2f7e.txt
+    log: revlist-1e8c308042a0-f8a17b1e2f7e.txt
 
---===============7202974716439503093==
+--===============5101213526472874614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b17efa7e489-f8a17b1e2f7e.txt
+Content-Disposition: attachment; filename=revlist-1e8c308042a0-f8a17b1e2f7e.txt
 
 1f2134fd1f98018e87bd52b85822a02d7555748e vfs, nfsd: implement directory delegations
 80ca69d4898e33e42be623937acb3dd0a39c9f86 filelock: push the S_ISREG check down to ->setlease handlers
@@ -50,4 +50,4 @@ bdb506e13e0ecb6a53f1334ba4eeb70c5bdad5b0 nfs: add a GDD_GETATTR rpc operation
 4a756c6f7adf8145b2037c80fde06156f7c9209c nfs: add a new NFS_CAP_GET_DIR_DELEG bit
 f8a17b1e2f7ee73eca791b593509da97d3fe18ee nfs: optionally request a delegation on GETATTR
 
---===============7202974716439503093==--
+--===============5101213526472874614==--
