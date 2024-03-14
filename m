@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Thu, 14 Mar 2024 08:28:29 -0000
-Message-Id: <171040490917.8381.13587703070454667022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Thu, 14 Mar 2024 08:37:13 -0000
+Message-Id: <171040543378.14938.15111154860218465645@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: kvalo
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/main
-    old: 67072c314f5f0ec12a7a51a19f7156eebb073654
-    new: cec60af1972d830dc837da76b472cf9cce7945cf
-    log: |
-         cec60af1972d830dc837da76b472cf9cce7945cf wifi: rtw89: coex: fix configuration for shared antenna for 8922A
-         
+  - ref: refs/heads/arm64-wxn-mdwe
+    old: 0000000000000000000000000000000000000000
+    new: db74f1e98ba6946496615dfb01af8347ab812746
