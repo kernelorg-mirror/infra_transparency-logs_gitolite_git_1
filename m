@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 14 Mar 2024 16:34:53 -0000
-Message-Id: <171043409391.25560.517230829096394230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Thu, 14 Mar 2024 16:37:30 -0000
+Message-Id: <171043425093.29362.8830759151129848537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/not-for-next
-    old: 17a8298df0f4d291dd7620c3c4b45dab9c4dd3b4
-    new: 1b08ef4cdf1328debc03e14127ee29728e6bac39
-    log: |
-         1b08ef4cdf1328debc03e14127ee29728e6bac39 riscv: Fix compilation error with FAST_GUP and rv32
-         
+  - ref: refs/tags/mm-nonmm-stable-2024-03-14-09-36
+    old: 0000000000000000000000000000000000000000
+    new: 19d96820011d86b03b92051d0cf7e12a8b39eee2
