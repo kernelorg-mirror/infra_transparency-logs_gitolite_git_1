@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 14 Mar 2024 22:43:31 -0000
-Message-Id: <171045621107.4000.15350760399852013155@gitolite.kernel.org>
+Date: Thu, 14 Mar 2024 22:43:38 -0000
+Message-Id: <171045621892.4100.1826389497551394708@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/kdevops
-    old: 2e8f11c916b042ef1f08350a335b8836c93646af
+  - ref: refs/heads/dir-deleg
+    old: 51999cb462563dbdd9139144e7cacd2cadcf5922
     new: 74fb5bda6f7e116db85042e71b7144fb20114666
     log: |
          1a8b25179c63fb1f95f0082ece2d9b18985561cb nfs: new tracepoint in match_stateid
