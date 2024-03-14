@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 14 Mar 2024 16:53:35 -0000
-Message-Id: <171043521570.8181.5381469405994187781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Thu, 14 Mar 2024 17:06:07 -0000
+Message-Id: <171043596735.17330.15037430430659570393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/dev
-    old: 6b67e95dba234efd7fff77d5d0df3c966883c4dc
-    new: 0266f3a45cc597efe7381c2d5e7d5e4d0a9b198b
+  - ref: refs/heads/icc-fixes
+    old: 5464e7acea4a6c56b3c5c2d7aeef2eda92227b33
+    new: de1bf25b6d771abdb52d43546cf57ad775fb68a1
     log: |
-         0266f3a45cc597efe7381c2d5e7d5e4d0a9b198b erofs-utils: support xz/lzma/lzip streams for tarerofs
+         59097a2a5ecadb0f025232c665fd11c8ae1e1f58 interconnect: qcom: x1e80100: Remove inexistent ACV_PERF BCM
+         de1bf25b6d771abdb52d43546cf57ad775fb68a1 interconnect: Don't access req_list while it's being manipulated
          
