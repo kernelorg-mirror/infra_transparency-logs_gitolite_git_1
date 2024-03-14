@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 14 Mar 2024 19:34:42 -0000
-Message-Id: <171044488204.26134.14700361511894357563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Thu, 14 Mar 2024 19:36:29 -0000
+Message-Id: <171044498932.28443.8816905004236063631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/kdevops
-    old: 51999cb462563dbdd9139144e7cacd2cadcf5922
-    new: 1ca0880c69a9bb26eb1424a892776f515ff7c860
+  - ref: refs/heads/master
+    old: 1fdcca14b9af2daea50bf1f08605875ffda349e7
+    new: 6203be41277bfa52024173ca6e209cee31c8a368
     log: |
-         1ca0880c69a9bb26eb1424a892776f515ff7c860 nfs: optionally request a delegation on GETATTR
+         6203be41277bfa52024173ca6e209cee31c8a368 man/io_uring_prep_poll_update: note on event masks that can be updated
          
