@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2695899871421597561=="
+Content-Type: multipart/mixed; boundary="===============3036032645378423158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 14 Mar 2024 19:06:25 -0000
-Message-Id: <171044318564.6546.3097739027390280778@gitolite.kernel.org>
+Date: Thu, 14 Mar 2024 19:06:30 -0000
+Message-Id: <171044319009.6661.11459258803043900785@gitolite.kernel.org>
 
---===============2695899871421597561==
+--===============3036032645378423158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/dir-deleg
+  - ref: refs/heads/kdevops
     old: f8a17b1e2f7ee73eca791b593509da97d3fe18ee
     new: 51999cb462563dbdd9139144e7cacd2cadcf5922
     log: revlist-f8a17b1e2f7e-51999cb46256.txt
 
---===============2695899871421597561==
+--===============3036032645378423158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ ee7e10860f0ecc23ad1c68dba845114af08c58eb nfs: new tracepoint for nfs_delegation 
 8af5adc946482b672a08b8d74df2acc2c2491b95 nfs: add a new NFS_CAP_GET_DIR_DELEG bit
 51999cb462563dbdd9139144e7cacd2cadcf5922 nfs: optionally request a delegation on GETATTR
 
---===============2695899871421597561==--
+--===============3036032645378423158==--
