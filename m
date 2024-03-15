@@ -1,53 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5251996116384936115=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Fri, 15 Mar 2024 23:21:49 -0000
-Message-Id: <171054490955.14951.6389116534566060467@gitolite.kernel.org>
-
---===============5251996116384936115==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Fri, 15 Mar 2024 23:31:46 -0000
+Message-Id: <171054550696.22122.2908123666793397388@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: mpe
-git_push_cert_status: G
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/tags/powerpc-6.9-1
-    old: 0000000000000000000000000000000000000000
-    new: 7e2ec97f1be1efd74b5fc389fe2bd7bdf22ce31d
-
---===============5251996116384936115==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1710544907 +1100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1710544906-d9c45ae7c647571b100f84a193df4cb0d97c276e
-
-0000000000000000000000000000000000000000 7e2ec97f1be1efd74b5fc389fe2bd7bdf22ce31d refs/tags/powerpc-6.9-1
------BEGIN PGP SIGNATURE-----
-
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmX02AsTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgDINEACHWTkeuocyZSj/xtboCvvsiLLKEADs
-NyMwzD3HfbPjRfTid9PHyMZ1pYcHnxRQIH0zKs7iohUo2pcbv0zb4FrEvH2MF13F
-7sGsxU9WVMqxXtBqjajvrb+hxgknmnK7RPCD5L89i3dNS2R6gS0MhTQYA/oFQXiu
-P8tYMJNkCx1WrBS+UGn7DMSJJ1ZwHMDqSf3Xa9DGMXhylCpU2cDuPsbnkU+U3Foa
-qmBPyhfRSfyaRH+daigd2VS6xugt0gVai7bajtf5RXJTOsB/zm64JXdM2vxuPdID
-w03CcVnxu3HWtBNg8tuGkWE/jlAw63DZIWUShEdak9+dN5YQgookPQ5+jWsntbil
-7IlR1cWrvj2DfRf2QJWpI6y7As3Pq3zGNiEqLq7bdZoEUAgoUmO4aoiBOIC60sEE
-+n7T1oOWazPzP/5ckizKRVlHKzc8heEFApDEFApDixAJaVYkO15fvDuWoslE8s1z
-hmLEy7kE2QJU7BklkpZ1ip8b3jPaEx9zwl54qRy1n3HVbKc8onOdZCHUumNA1hDr
-JoX6ztcAFOTKr8DYiaiW9ekO3IDKqusK1pQXkY66Lp9KxDh5FtHbG68jKy3oq6WU
-w0O+e7rgBWs3jyoaS9q/0uwx0a/zGlL7l3qI0fXLN4YZ4mOzWE35BAR72TirJixr
-dGT152pOrmyqcw==
-=ugS0
------END PGP SIGNATURE-----
-
---===============5251996116384936115==--
+  - ref: refs/heads/master
+    old: 4af509c34f202b102c0f6e0314633e1cbcd119dc
+    new: d94643e0639a8a5a661182a9bb45f924ba2d4aad
+    log: |
+         524010ffc81adddcabda5613acc5b5024b176ba2 proc_pid_io.5: wfix
+         d4d342fdcd5274900ac5f1ecc2ff5acacec2bb5f proc_pid_io.5: Mention atomicity in atomicity note
+         50b98215dd8e9e4c35e342ce79286f0f66c6118f getrusage.2: proc(5) /proc/pid/stat -> proc_pid_stat(5)
+         fe37a5fda8c8bb461caca10751700cfc2164bfdd getrusage.2, proc_pid_io.5: Crosslink
+         5f507d8ce087bb5a4db5537aafd4c02ca6a0328b printf.h.3head: tfix
+         026c113c504d17af771db29cf1cb7c5cebcb9b85 utf-8.7: ffix
+         d94643e0639a8a5a661182a9bb45f924ba2d4aad utf-8.7: ffix
+         
