@@ -1,31 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============6095790331014967605=="
+Content-Type: multipart/mixed; boundary="===============7941759598087670791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 15 Mar 2024 20:44:18 -0000
-Message-Id: <171053545819.21211.4416891768895969946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 15 Mar 2024 20:44:35 -0000
+Message-Id: <171053547599.21429.4000723355290495419@gitolite.kernel.org>
 
---===============6095790331014967605==
+--===============7941759598087670791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
-    old: d988c9f511af71a3445b6a4f3a2c67208ff8e480
+    old: 0f66dfe7b91d2743cc71dfff37af503215b204ef
     new: cef5ae229139260a253a3d644c1fa841b966d296
-    log: revlist-d988c9f511af-cef5ae229139.txt
+    log: revlist-0f66dfe7b91d-cef5ae229139.txt
 
---===============6095790331014967605==
+--===============7941759598087670791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d988c9f511af-cef5ae229139.txt
+Content-Disposition: attachment; filename=revlist-0f66dfe7b91d-cef5ae229139.txt
 
+defa2cb4e43995f04887c71101c388280f45827b ieee802154: at86rf230: Replace of_gpio.h by proper one
+7a04ace6c7bd8d3a04a3e8ccfb3c7377f0aa5411 ieee802154: mcr20a: Remove unused of_gpio.h
+b2d23256615c8f8b3215f0155b0234f0e310dfde ieee802154: cfg802154: make wpan_phy_class constant
+bb8863cc9d067c44e751579881048dca0403133c drm/amdgpu: remove unused code
 190145f692226557d52296b92010191044199e8b drm/amd/pm: disable pp_dpm_dcefclk node for gfx 11.0.3 sriov
 bf909454fefa4a578dc5451cc5697b5fbe1bd6e4 drm/amdgpu: disable ring_muxer if mcbp is off
 f36e3f7260ac60ac8049e6ab1732fabeff334cf5 drm/amdkfd: Increase the size of the memory reserved for the TBA
@@ -171,10 +175,6 @@ d5dfbfa2f88eead230d411d1a58f38d6241e2882 mptcp: drop duplicate header inclusions
 a4d68b160240815d7ca2f935ba690df33a525dd9 mptcp: set error messages for set_flags
 af250c27ea1c404e210fc3a308b20f772df584d6 mptcp: drop lookup_by_id in lookup_addr
 a2f24c8a955c8f941d6ac08dd7f401f54eef4627 Merge branch 'mptcp-some-clean-up-patches'
-d3e7cad6f36d9e80307b05bf31959597f9b6cd62 perf annotate: Add a hashmap for symbol histogram
-80154575849778e40d9d87aa7ab14491ac401948 perf annotate: Calculate instruction overhead using hashmap
-f59e3660cd84d94cfdddbced91200981d9c25218 perf annotate: Remove sym_hist.addr[] array
-0f66dfe7b91d2743cc71dfff37af503215b204ef perf annotate: Add comments in the data structures
 41cca0542d7c79b6be3920a917f643c075ad1561 selftests/harness: Fix TEST_F()'s vfork handling
 07161b2416f740a2cb87faa5566873f401440a61 sr9800: Add check for usbnet_get_endpoints
 d66206296176efe094b7cfae292296138637cf8f dt-bindings: net: renesas,etheravb: Add support for R-Car V4M
@@ -1051,4 +1051,4 @@ f0223a335020a761dbc7e846f1988b26471229cb perf beauty: Stop using the copy of uap
 0e1420b2dff05b74f56e95f4af93d8164e9f298a perf vendor events arm64: Add i.MX93 DDR Performance Monitor metrics
 cef5ae229139260a253a3d644c1fa841b966d296 perf docs arm_spe: Clarify more SPE requirements related to KPTI
 
---===============6095790331014967605==--
+--===============7941759598087670791==--
