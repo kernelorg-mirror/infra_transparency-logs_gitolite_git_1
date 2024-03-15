@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/alarsson/linux-sparc
-Date: Fri, 15 Mar 2024 11:27:02 -0000
-Message-Id: <171050202269.23067.9847538859045701555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
+Date: Fri, 15 Mar 2024 11:27:51 -0000
+Message-Id: <171050207160.23435.3517257097990884784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/alarsson/linux-sparc
-user: alarsson
+repo: pub/scm/linux/kernel/git/vireshk/linux
+user: vireshk
 changes:
-  - ref: refs/tags/sparc-for-6.9-tag1
+  - ref: refs/heads/rust/cpufreq-dt
     old: 0000000000000000000000000000000000000000
-    new: e35484e77a00fde16dfca9171667cc3bc1b1cd2a
+    new: 55e41b4e7955d261d26d167a0e9a847553a8ef55
