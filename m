@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5293667111834468054=="
+Content-Type: multipart/mixed; boundary="===============2433282678695140662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Fri, 15 Mar 2024 10:42:41 -0000
-Message-Id: <171049936153.22661.1911996741206626476@gitolite.kernel.org>
+Date: Fri, 15 Mar 2024 10:42:48 -0000
+Message-Id: <171049936873.22786.10079262553859920783@gitolite.kernel.org>
 
---===============5293667111834468054==
+--===============2433282678695140662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/scmi/updates
-    old: c2f0961a45c4a973437285871540c155bed18ccb
+  - ref: refs/heads/for-next/scmi/fixes
+    old: 6bd1b3fede83d8ba5314886062a9bfdada5102a9
     new: e5eb28f6d1afebed4bb7d740a797d0390bd3a357
-    log: revlist-c2f0961a45c4-e5eb28f6d1af.txt
+    log: revlist-6bd1b3fede83-e5eb28f6d1af.txt
 
---===============5293667111834468054==
+--===============2433282678695140662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2f0961a45c4-e5eb28f6d1af.txt
+Content-Disposition: attachment; filename=revlist-6bd1b3fede83-e5eb28f6d1af.txt
 
 5ee91605ad9ad363766a7ed13dc7d47f5102982a spi: Exctract spi_set_all_cs_unused() helper
 9086d0f23b7c292f162a828967975e29e97c0680 spi: Exctract spi_dev_check_cs() helper
@@ -1051,4 +1051,4 @@ c0a614e82ece41d15b7a66f43ee79f4dbdbc925a Merge tag 'lsm-pr-20240314' of git://gi
 902861e34c401696ed9ad17a54c8790e7e8e3069 Merge tag 'mm-stable-2024-03-13-20-04' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 e5eb28f6d1afebed4bb7d740a797d0390bd3a357 Merge tag 'mm-nonmm-stable-2024-03-14-09-36' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============5293667111834468054==--
+--===============2433282678695140662==--
