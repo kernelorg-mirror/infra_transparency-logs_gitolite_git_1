@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 15 Mar 2024 11:24:06 -0000
-Message-Id: <171050184691.20375.2136982496363646499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/alarsson/linux-sparc
+Date: Fri, 15 Mar 2024 11:27:02 -0000
+Message-Id: <171050202269.23067.9847538859045701555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/alarsson/linux-sparc
+user: alarsson
 changes:
-  - ref: refs/heads/for-next
-    old: 7b020ab8a0096db229749d6618b64659cf699331
-    new: fd8b516345fca71b2747b8d4b6b06ff79dbc3f2f
-    log: |
-         c121b588a5e46e14bc601e717461b908a1d80185 scsi: bfa: Remove additional unnecessary struct declarations
-         b69600231f751304db914c63b937f7098ed2895c scsi: bfa: Fix function pointer type mismatch for hcb_qe->cbfn
-         37126399da15e1d53da93c0282aca539bccc891b scsi: bfa: Fix function pointer type mismatch for state machines
-         e100c01efa85c8a0ee7527bf28ef7ea7c3ca57e1 scsi: lpfc: Replace deprecated strncpy() with strscpy()
-         3e24118ec1859afe2df18062e1ebdabc12e3b8c1 scsi: libfc: replace deprecated strncpy() with memcpy()
-         517bcc2b4db435f230fe864f3db0a0f21d2f6951 scsi: core: Constify the struct device_type usage
-         fd8b516345fca71b2747b8d4b6b06ff79dbc3f2f Merge branch 'misc' into for-next
-         
+  - ref: refs/tags/sparc-for-6.9-tag1
+    old: 0000000000000000000000000000000000000000
+    new: e35484e77a00fde16dfca9171667cc3bc1b1cd2a
