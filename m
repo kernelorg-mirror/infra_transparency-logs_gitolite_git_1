@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8157765856655885467=="
+Content-Type: multipart/mixed; boundary="===============4361834068743574373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan-next
-Date: Fri, 15 Mar 2024 08:34:16 -0000
-Message-Id: <171049165696.12031.10755749012806835788@gitolite.kernel.org>
+Date: Fri, 15 Mar 2024 08:35:14 -0000
+Message-Id: <171049171446.13993.7852774966491655718@gitolite.kernel.org>
 
---===============8157765856655885467==
+--===============4361834068743574373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan-next
 user: sschmidt
 changes:
-  - ref: refs/heads/staging
+  - ref: refs/heads/main
     old: b2d23256615c8f8b3215f0155b0234f0e310dfde
     new: 9187210eee7d87eea37b45ea93454a88681894a4
     log: revlist-b2d23256615c-9187210eee7d.txt
 
---===============8157765856655885467==
+--===============4361834068743574373==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b32273ee89a866b01b316b9a8de407efde01090c Merge tag 'execve-v6.9-rc1' of git://gi
 1f440397665f4241346e4cc6d93f8b73880815d1 Merge tag 'docs-6.9' of git://git.lwn.net/linux
 9187210eee7d87eea37b45ea93454a88681894a4 Merge tag 'net-next-6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============8157765856655885467==--
+--===============4361834068743574373==--
