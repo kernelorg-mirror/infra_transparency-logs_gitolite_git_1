@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 15 Mar 2024 05:10:21 -0000
-Message-Id: <171047942182.29816.10504953712008461356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Fri, 15 Mar 2024 05:49:37 -0000
+Message-Id: <171048177730.24073.17761465308742780773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/experimental
-    old: d578b030364269659557533d0839d77dedc8f83b
-    new: cebcd0fe3b704c4f341865d429783a9a5571a59c
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 9695d1127f6b1674c39ca0bcfd22543a2fb64a8f
+    new: a8e949d41c72a0a860b1c3571d6b274e9b77b6bb
     log: |
-         94bf3bc199f391367a790685b1298ab42f50ab2f erofs-utils: mkfs: introduce inner-file multi-threaded compression
-         cebcd0fe3b704c4f341865d429783a9a5571a59c erofs-utils: lib: drop prefix_sha256 digests
+         abb3f9717a67a2666b2bc2f19543a657e3d4ad63 OPP: Extend dev_pm_opp_data with turbo support
+         d2399501c2c081eac703ca9597ceb83c7875a537 cpufreq: dt: always allocate zeroed cpumask
+         480c64ae1c36b999a863174e94e825705390642f Merge branch 'opp/boost-data' into cpufreq/arm/linux-next
+         a897575e79d7a2ec79abe942b50ecd1d1cdd821b firmware: arm_scmi: Add support for marking certain frequencies as turbo
+         a8e949d41c72a0a860b1c3571d6b274e9b77b6bb cpufreq: scmi: Enable boost support
          
