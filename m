@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 15 Mar 2024 04:53:00 -0000
-Message-Id: <171047838000.15812.17509340819962439857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Fri, 15 Mar 2024 05:02:36 -0000
+Message-Id: <171047895634.22520.14008940953993905553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/experimental
-    old: 3b58ddc8e60069ad45d5a985930df754b96f840e
-    new: d578b030364269659557533d0839d77dedc8f83b
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: ad2a91086e288c9ab1d74eee57edabe08bd90471
+    new: 9695d1127f6b1674c39ca0bcfd22543a2fb64a8f
     log: |
-         fca22f639af66ee8ea0a875ec9090da37a2c3d3f erofs-utils: mkfs: introduce inner-file multi-threaded compression
-         d578b030364269659557533d0839d77dedc8f83b erofs-utils: lib: drop prefix_sha256 digests
+         9695d1127f6b1674c39ca0bcfd22543a2fb64a8f cpufreq: dt: always allocate zeroed cpumask
          
