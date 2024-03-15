@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5847130515013890050=="
+Content-Type: multipart/mixed; boundary="===============7229869839980144966=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Fri, 15 Mar 2024 10:44:45 -0000
-Message-Id: <171049948519.23714.8266395387732982204@gitolite.kernel.org>
+Date: Fri, 15 Mar 2024 10:44:51 -0000
+Message-Id: <171049949141.23806.14760091225711251558@gitolite.kernel.org>
 
---===============5847130515013890050==
+--===============7229869839980144966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/ffa/fixes
-    old: 0c565d16b80074e57e3e56240d13fc6cd6ed0334
+  - ref: refs/heads/for-next/ffa/updates
+    old: 989e8661dc45babf43070d519011dfc1e33c8875
     new: e5eb28f6d1afebed4bb7d740a797d0390bd3a357
-    log: revlist-0c565d16b800-e5eb28f6d1af.txt
+    log: revlist-989e8661dc45-e5eb28f6d1af.txt
 
---===============5847130515013890050==
+--===============7229869839980144966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c565d16b800-e5eb28f6d1af.txt
+Content-Disposition: attachment; filename=revlist-989e8661dc45-e5eb28f6d1af.txt
 
 5ee91605ad9ad363766a7ed13dc7d47f5102982a spi: Exctract spi_set_all_cs_unused() helper
 9086d0f23b7c292f162a828967975e29e97c0680 spi: Exctract spi_dev_check_cs() helper
@@ -1051,4 +1051,4 @@ c0a614e82ece41d15b7a66f43ee79f4dbdbc925a Merge tag 'lsm-pr-20240314' of git://gi
 902861e34c401696ed9ad17a54c8790e7e8e3069 Merge tag 'mm-stable-2024-03-13-20-04' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 e5eb28f6d1afebed4bb7d740a797d0390bd3a357 Merge tag 'mm-nonmm-stable-2024-03-14-09-36' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============5847130515013890050==--
+--===============7229869839980144966==--
