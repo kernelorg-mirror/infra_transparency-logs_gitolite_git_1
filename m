@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Fri, 15 Mar 2024 11:27:51 -0000
-Message-Id: <171050207160.23435.3517257097990884784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Fri, 15 Mar 2024 11:36:09 -0000
+Message-Id: <171050256940.29631.8775366486327337571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/heads/rust/cpufreq-dt
+  - ref: refs/tags/dmaengine-6.9-rc1
     old: 0000000000000000000000000000000000000000
-    new: 55e41b4e7955d261d26d167a0e9a847553a8ef55
+    new: be4ee9f0a130db6c24731b604eb7b6525da6e8f3
