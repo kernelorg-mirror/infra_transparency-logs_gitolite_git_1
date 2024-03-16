@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Sat, 16 Mar 2024 21:16:55 -0000
-Message-Id: <171062381540.19402.8238429212319648339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Sat, 16 Mar 2024 21:37:37 -0000
+Message-Id: <171062505789.2642.17556952669401169532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: 53569d031f1f9c1e3ea6ea6602ea0fb1a72ed5ff
-    new: 49f96dc57454c9ee448845c19e7028dc6e140188
-    log: |
-         49f96dc57454c9ee448845c19e7028dc6e140188 mempool: Fix off_t cast warning on 32-bit
-         
+  - ref: refs/tags/parisc-for-6.9-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 63a990a1aafbc3c052ba1c84c45fa28e2ccfaad5
