@@ -1,39 +1,224 @@
-Content-Type: multipart/mixed; boundary="===============0569916439886130380=="
+Content-Type: multipart/mixed; boundary="===============8553898356967880750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Sat, 16 Mar 2024 15:16:14 -0000
-Message-Id: <171060217406.8558.13500920576768734850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Sat, 16 Mar 2024 16:18:59 -0000
+Message-Id: <171060593920.21841.1536581366462594287@gitolite.kernel.org>
 
---===============0569916439886130380==
+--===============8553898356967880750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/netfs-writeback
-    old: be938ad004e7a8f28cc6fc8500c120c7687339f7
-    new: a576cdbb0a9eff85c7cdec7ad7e9deee1382d52d
-    log: |
-         47f23b54386d8ec7ee067c0cfe7a91ef3240dae1 netfs: Use mempools for allocating requests and subrequests
-         580c4e82c7ef5cc4cc59566e5a0f05be4ee95ff8 netfs: Use writeback_iter() and improve the writeback algorithm
-         a576cdbb0a9eff85c7cdec7ad7e9deee1382d52d afs: Use writeback retry to deal with alternate key
-         
-  - ref: refs/remotes/linus/master
-    old: e5eb28f6d1afebed4bb7d740a797d0390bd3a357
+  - ref: refs/heads/master
+    old: c442a42363b2ce5c3eb2b0ff1e052ee956f0a29f
     new: 66a27abac311a30edbbb65fe8c41ff1b13876faa
-    log: revlist-e5eb28f6d1af-66a27abac311.txt
+    log: revlist-c442a42363b2-66a27abac311.txt
 
---===============0569916439886130380==
+--===============8553898356967880750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5eb28f6d1af-66a27abac311.txt
+Content-Disposition: attachment; filename=revlist-c442a42363b2-66a27abac311.txt
 
+a634c76b2c1a642d11f5d6e1810181daedcbe0ab KVM: x86/pmu: Explicitly check for RDPMC of unsupported Intel PMC types
+d7e68738e1aae940b54bfc03313e0ef5720e2e71 KVM: selftests: Add vcpu_set_cpuid_property() to set properties
+ff76d771251003b28aeac2051cfe72384dff232f KVM: selftests: Drop the "name" param from KVM_X86_PMU_FEATURE()
+370d536322896cc9ad59eb8849ad8e1f9e985953 KVM: selftests: Extend {kvm,this}_pmu_has() to support fixed counters
+e6faa04970575622243d3a20782dde2d5813772d KVM: selftests: Add pmu.h and lib/pmu.c for common PMU assets
+4f1bd6b16074aa5f9a0633a77fc87f471888a588 KVM: selftests: Test Intel PMU architectural events on gp counters
+3e26b825f87ddfa610e069ff3f668b942d8642bb KVM: selftests: Test Intel PMU architectural events on fixed counters
+7137cf751b9b14662adad61e35c236e141430aed KVM: selftests: Test consistency of CPUID with num of gp counters
+c7d7c76ecf78f93b2bd7d40bccabc813c1ed0a49 KVM: selftests: Test consistency of CPUID with num of fixed counters
+787071fd02625151b94a2f93a47cdc9a25884633 KVM: selftests: Add functional test for Intel's fixed PMU counters
+b55e7adf633a8a13d5ede57b77509ea8fa157a56 KVM: selftests: Expand PMU counters test to verify LLC events
+c85e986716b03bccfec2e5a577cc1aab4f172ffd KVM: selftests: Add a helper to query if the PMU module param is enabled
+45e4755c39fc2df55f58ea893615a7d45a0fbcc8 KVM: selftests: Add helpers to read integer module params
+0326cc6b02c8e099bb6631168791924be097e1d9 KVM: selftests: Query module param to detect FEP in MSR filtering test
+00856e17da730299205270234cda30628ae53b92 KVM: selftests: Move KVM_FEP macro into common library header
+cd34fd8c758e968aae15944b1679c974af719648 KVM: selftests: Test PMC virtualization with forced emulation
+ab3b6a7de8df00b380fb66a523c79e3b387aa877 KVM: selftests: Add a forced emulation variation of KVM_ASM_SAFE()
+b5e66df34cb0de716859595ce7a4d9d1d015a695 KVM: selftests: Add helpers for safe and safe+forced RDMSR, RDPMC, and XGETBV
+a8a37f5556845b13be2df3d545e7245b574e0ff5 KVM: selftests: Extend PMU counters test to validate RDPMC after WRMSR
+292d3079abf333540fef06c1533d7c21c6d21390 clk: renesas: r9a08g045: Add clock and reset support for watchdog
+78ed252953e5bdd0b3b0dd689502d5213cb6348b clk: renesas: r9a07g043: Add clock and reset entries for CRU
+775e7c4d36c3fda8d917588aa41f9b7d30598486 Merge tag 'renesas-r8a779h0-dt-binding-defs-tag' into renesas-clk-for-v6.9
+ad3393fefd6427999de8d93accb8ea31e1339fa0 clk: renesas: rcar-gen4: Add support for FRQCRC1
+f077cab34df3010df6f4996e648dba5f43fd6b85 clk: renesas: cpg-mssr: Add support for R-Car V4M
+096311157d2a6bb8f06e28e1143e2a5de6a0183b clk: renesas: r8a779g0: Fix PCIe clock name
+d5b8fbee1e7264143c38740ebcdabb88475e0590 MAINTAINERS: Drop Frank Rowand from DT maintainership
+442fd190d3471afdfd9ac8e067bc5e2aff88213c MAINTAINERS: Drop my "+dt" sub-address
+85f838adad5487f96ff3acf6d3eb8263a39a0757 dt-bindings: fpga: Convert fpga-region binding to yaml
+0dbd054699661dfffbc1c148664f8d03fd132569 KVM: x86/mmu: Use KMEM_CACHE instead of kmem_cache_create()
+592bb51d048c180ac9f5a52167548f18fe896a43 media: atomisp: Adjust for v4l2_subdev_state handling changes in 6.8
+26b53392ca0e3c86df9a2bf7eb29a86a72377a37 media: atomisp: Refactor sensor crop + fmt setting
+4d728df5f53946fc40dbfe73dcbe9470e751c1c0 media: atomisp: Removed duplicate comment and fixed comment format
+3e1b116f9b277b3aa5a1c08696698931d20fb82d media: atomisp: Fix spelling mistakes in ia_css_irq.h
+7d67e4d5a7fa8d0d6b9e4311f5b97b18f47d46a9 media: atomisp: Fix a spelling mistake in sh_css_defs.h
+ce1cfe023a575bd4d3b158a8c133099f72cc3dea media: atomisp: Remove redundant assignments to variables
+0596ea5eeb667b3890e827ba5d9b966295fae277 media: atomisp: Fix repeated "of" in isp2400_input_system_public.h
+5201016d0190f0dd9ff98fde0fa9ba1e1368ec1b media: atomisp: Fix spelling mistake in isp2400_input_system_global.h
+657d6ee589cf8acf886828f50518c38e374c7b27 media: atomisp: Fix spelling mistakes in circbuf.c
+90953ea685d2006421720d8a5fb0662fc61f1135 media: atomisp: Fix spelling mistake in ia_css_circbuf.h
+8cf2ae5c2868956dfa09397e91925515cf1e6ba9 media: atomisp: Fix spelling mistakes in sh_css_mipi.c
+b68a8c794667e2db78dc794092c9c6e6cbb7b360 media: atomisp: Fix spelling mistakes in queue.c
+914ec2149f896f86c39d0fd21dae58207ecf37fb media: atomisp: Fix spelling mistakes in rmgr_vbuf.c
+ddef5a9175000410c0f16bda84428051e501b0ce media: atomisp: Fix spelling mistakes in ia_css_macc_table.host.c
+38c56d81741cd10c6724d74903641329af4108a7 media: atomisp: Fix spelling mistakes in ia_css_hdr_types.h
+3b63b7db1d9298847c90905a426f589a7f9beaae media: atomisp: Fix spelling mistake in binary.c
+89354baf8f151d34aab5b7e8f44e719165fa7d73 media: atomisp: Fix spelling mistake in ia_css_acc_types.h
+e49665636835cfee3f1844ae7125369bb381784b media: atomisp: Remove s_routing subdev call
+571f043d2ab24d314ec2516dc51e31d43977b2f8 media: atomisp: Remove remaining deferred firmware loading code
+f18ae7203f6fdb0cfb408ab82807bcd700e33a96 media: atomisp: Drop is_valid_device() function
+62c319a51bcfdc81ce31036dcffa5c5381b0ea54 media: atomisp: Call pcim_enable_device() and pcim_iomap_regions() later
+7f7b6b5da0d631bc141cf67b08d8c3826d579335 media: atomisp: Fix probe error-exit path
+ba68b88da0a2e6d72ac92738dbad0a1934e2283d media: atomisp: Fix atomisp_pci_remove()
+3a9ceebd8ffb2d6dca14ddf58a21c98b124713f9 media: atomisp: Group cpu_latency_qos_add_request() call together with other PM calls
+781bf4cee3c160a5ce97d86719675083a2f2a67c media: atomisp: Fix probe()/remove() power-management
+b03301870d9b5b2e24bb2037d23101556e76d242 media: atomisp: Replace atomisp_drvfs attr with using driver.dev_groups attr
+25752a62312f5a5001ed4939a0cbb19c5bae692f media: atomisp: Move power-management [un]init into atomisp_pm_[un]init()
+a6be73e97facfdc1d4e3117afcbc6fdbaeae7726 media: atomisp: Bind and do power-management without firmware
+ace440e6db33330b40afbb7c2c85a6b1399f3baa media: atomisp: Remove unnecessary msleep(10) from atomisp_mrfld_power() error path
+e072ded7045018b776e52e559138fb7dc9aed573 media: atomisp: Update TODO
+e280d1a0eb93354c46f503700b38d3660c34b3dd media: platform: mtk-mdp3: add support second sets of MMSYS
+ee0d0dbb80f6bd812db80f369562fd85d3ac567c media: platform: mtk-mdp3: add support second sets of MUTEX
+d9b52f735668183ecb1d127881135af4c150e39d media: platform: mtk-mdp3: introduce more pipelines from MT8195
+73e00953c3601008a7f500e25a1767b1012b2091 media: platform: mtk-mdp3: introduce more MDP3 components
+92cdfc39af1b8f582b21f863ccd9983b9813b554 media: platform: mtk-mdp3: add checks for dummy components
+4294b9d6c8c40501e2dd824f6aad3f0b981cedf1 media: platform: mtk-mdp3: avoid multiple driver registrations
+bd2fac0048ed09480eecd82d86cefedcf0167399 media: platform: mtk-mdp3: extend GCE event waiting in RDMA and WROT
+d97fd41e83f4468e1abb58b0a706456bc7f65162 media: platform: mtk-mdp3: add support for blending multiple components
+adce64c4cef6f08ac6fa51546d94d3a49a66144f media: platform: mtk-mdp3: add mt8195 platform configuration
+51d918d62b0facd7be0d8d1ad66a8c6c589f34b3 media: platform: mtk-mdp3: add mt8195 shared memory configurations
+0e9bd2fcda5dfc0d703c659d4b7ba2cf07dfdb9f media: platform: mtk-mdp3: add mt8195 MDP3 component settings
+9288eae430cbc4de82e82f295ccf7c5d877c0c2b media: platform: mtk-mdp3: add support for parallel pipe to improve FPS
+8a96d2701f7c794e45102a9cc7fc4a5c4951e699 clk: samsung: gs101: gpio_peric0_pclk needs to be kept on
+60314831d2942b6eab974af74d2238dffc321359 media: dt-bindings: media: Document STM32MP25 VDEC & VENC video codecs
+46c4dffb74a477aba4d741118beb90c8dfaa9939 media: hantro: add support for STM32MP25 VDEC
+b0fb9ca30a67edeb8baf6b64014904ebb8ccf0e2 media: hantro: add support for STM32MP25 VENC
+d96a6119e332f4ae5cdd55698da68d372aede2d0 media: arm64: dts: st: add video decoder support to stm32mp255
+87f7f576e3d83fffbd067b058ad77e012a32b3de media: arm64: dts: st: add video encoder support to stm32mp255
+67c15187d4910ee353374676d4dddf09d8cb227e clk: samsung: exynos850: Propagate SPI IPCLK rate change
+c06983f853bc58eafe05f75dfd7e8bdafba3cd8c media: Documentation: Rework CCS driver documentation
+24b41af1f1d203d86b3fb8f4b0e28157908f49dc media: tc358743: register v4l2 async device only after successful setup
+9a6d7f2ba2b928a939763938e87dc6722f2d43fa media: i2c: st-vgxy61: Convert to CCI register access helpers
+58ab1f9e140006e9e5686640f1773260038fe889 media: v4l2: cci: print leading 0 on error
+d5df1c7f3f83f7a440f9a73d97f02f33a351ea9e media: i2c: imx415: Convert to new CCI register access helpers
+b814b5b2ec2d327b79e415c1baa5eecdf9aa786b media: i2c: imx415: Add more clock configurations
+575dd95d24fb895d3f11372f74458fb083dad7f8 media: i2c: imx214: convert to use maple tree register cache
+7591701bdc964b601ccf35797e57f2788a3ce1eb media: i2c: imx274: convert to use maple tree register cache
+a45e0e762459bf4212c094c085806c5a43988019 media: i2c: mt9v032: convert to use maple tree register cache
+a48a824fbc032b8cc80a508b6d2bf925a39b7930 media: i2c: tvp5150: convert to use maple tree register cache
+7378c257db6ae3886c2b300cb62737660dd695a1 media: i2c: max2175: convert to use maple tree register cache
+45db5c214c71419f4ec41300c3b6a1d5e62cb042 media: i2c: isl7998x: convert to use maple tree register cache
+a68e88e2cf9e4f3bec1783d686beb2439f4a26e0 media: v4l: Add a helper for setting up link-frequencies control
+afa6f62e46df5385e318a8f38382e8cc5564c377 media: imx334: Use v4l2_link_freq_to_bitmap helper
+726a09c1b6890887b7388745a26c8e93867780ca media: imx319: Use v4l2_link_freq_to_bitmap helper
+f19cd265662df9bd6415bb71a23124486e85b117 media: imx355: Use v4l2_link_freq_to_bitmap helper
+b1a42fde6e077ec2fdeac1bcbcf464210c5aa682 media: ov08x40: Avoid sensor probing in D0 state
+eea8f730df15dd41341b2904748a89895f20032b media: ov08x40: Modify the tline calculation in different modes
+feb8831be9d468ee961289c6a275536a1ee0011c media: ov08x40: Reduce start streaming time
+f933b88e20150f15787390e2a1754a7e412754ed KVM: x86/pmu: Zero out PMU metadata on AMD if PMU is disabled
+be6b067dae1573cf4d53c8b08175d8872d82f030 KVM: x86/pmu: Add common define to capture fixed counters offset
+b31880ca2f41dc2196e31d97e498b0fa884c2b2a KVM: x86/pmu: Move pmc_idx => pmc translation helper to common code
+004a0aa56edea3effc97bc90a620da1bcde5c63c KVM: x86/pmu: Snapshot and clear reprogramming bitmap before reprogramming
+e5a65d4f723ab9997deab798c539e6bfd71f8440 KVM: x86/pmu: Add macros to iterate over all PMCs given a bitmap
+d2b321ea9380564510d281d45ccd2b424da14e7f KVM: x86/pmu: Process only enabled PMCs when emulating events in software
+f19063b1ca058b3971d6883b5ec45955b7f53f9c KVM: x86/pmu: Snapshot event selectors that KVM emulates in software
+afda2d7666f894d1d7b8406cf54801e6c11f63c2 KVM: x86/pmu: Expand the comment about what bits are check emulating events
+e35529fb4ac930a4a39e0c15bafcb28a30d26611 KVM: x86/pmu: Check eventsel first when emulating (branch) insns retired
+83bdfe04c968e0fe3181e4cd41b764e17ac73911 KVM: x86/pmu: Avoid CPL lookup if PMC enabline for USER and KERNEL is the same
+c4d15f841570dafc079966baa8fd1bc31cd5bf36 KVM: arm64: debug: fix kernel-doc warnings
+39db66e6b404a096bdc1717e44757dad94756e2c KVM: arm64: guest: fix kernel-doc warnings
+bc13610b42408c84dbc927a2d6632140865a33f1 KVM: arm64: hyp/aarch32: fix kernel-doc warnings
+aa96af24f3203d2cfbcec220ffcb034864dd2a3f KVM: arm64: vhe: fix a kernel-doc warning
+ffd9eaffa34d793bdfc36a8a1ed9d830cea1d1fa KVM: arm64: mmu: fix a kernel-doc warning
+2a00f0855530a8911a9145670cd24d9010141d30 KVM: arm64: PMU: fix kernel-doc warnings
+8ce783927268914f8d171e96925e9be49a0234c2 KVM: arm64: sys_regs: fix kernel-doc warnings
+dd609a574a029b9eafe7e1a90d05391431db60c4 KVM: arm64: vgic-init: fix a kernel-doc warning
+f779d2c0176c425e516df9d384ecb1887a406185 KVM: arm64: vgic-its: fix kernel-doc warnings
+e634ff9598a416a2ab6cfe5a2dcee0f69743ddf9 KVM: arm64: vgic: fix a kernel-doc warning
+68baa4289b8554998771799ed1f9695721e41a22 crypto: hisilicon/sec2 - updates the sec DFX function register
+c4af422545474a0dbae1b17d306ec94e32ee0551 crypto: hisilicon/sec2 - modify nested macro call
+dd1a502cabcaa410c68ee9f74eae50d85e89fee3 crypto: hisilicon/sec2 - fix some cleanup issues
+0c753f33428d824f476c1e76fac2f06b8dd0b3d5 crypto: hisilicon/sec - remove unused parameter
+9a14b311f2f786a7ac68f445bc550459b36d3190 crypto: ahash - unexport crypto_hash_alg_has_setkey()
+d22118f005231f543ef45e17342c3eb2a71cbfe3 dt-bindings: clock: qcom: Fix @codeaurora email in Q6SSTOP
+d4d8fbcef03f590288b44955d8d51e334627b013 dt-bindings: misc: xlnx,sd-fec: convert bindings to yaml
+ba535bce57e71463a86f8b33a0ea88c26e3a6418 clk: meson: Add missing clocks to axg_clk_regmaps
+35546945e5e5cce825d2b92e1ecc3f4ac70ec1dc media: tc358746: fix the pll calculating function
+15126b916e39b0cb67026b0af3c014bfeb1f76b3 media: pci: cx23885: check cx23885_vdev_init() return
+fd4f587389e1202ab5737977c11f09ea56bbd1b2 media: vidioc-subdev-g-client-cap.rst: document struct v4l2_subdev_client_capability
+c82523aca798e891fd1d29fce24c4d394fd64483 media: verisilicon: Fix some typos
+36d503ad547d1c75758a6fcdbec2806f1b6aeb41 media: xc4000: Fix atomicity violation in xc4000_get_frequency
+4a87348b50cf27263e73e0829eb0fab6d47d377a media: adv7180: Fix cppcheck errors
+8b9911e553e762ebbe626270ce11b008736f1848 media: videobuf2: Fix doc comment
+fd61d77a3d28444b2635f0c8b5a2ecd6a4d94026 media: em28xx: annotate unchecked call to media_device_register()
+8674fd635f287a0652ae1459f6ebb15bc82c2707 media: cx231xx: controls are from another device, mark this
+9801b5b28c6929139d6fceeee8d739cc67bb2739 media: v4l2-ctrls: show all owned controls in log_status
+ce5d241c3ad4568c12842168288993234345c0eb media: cec: core: remove length check of Timer Status
+27b9e36d0e08fdbb5b406260dcfe0cb59342593f media: videodev2.h: Fix kerneldoc
+f26d914262311b24723a3891a4a6f2ca6ac54ae2 media: cec.h: Fix kerneldoc
+d7f4cdc0647014f938ad06cd679d9ad3da070a3e media: pci: dt315.h: Fix kerneldoc
+afe81e20905c8eda5dfd5248c096e3b9240db9fc media: i2c: css-quirk.h: Fix kerneldoc
+8adb1062a4950723d573e9984510406b11d397ca media: i2c: adv748: Fix kerneldoc
+9e806522183234ac71896d00e09d39e0d0c7b3a7 media: mediatek: jpeg: Fix kerneldoc
+6ee25f7912cfd4fa9ec62977aa48c7aec2879879 media: mediatek: vcodec: Fix kerneldoc
+147577fa0a785037e9b8217fa12480128dba4c64 media: verisilicon: Fix kerneldoc
+52a55df78fbff37309fe4f8b4cd4cf7751a13614 media: qcom: venus: Fix kerneldoc
+0e01357e94435649263cdfdb62f1cc7f6669ec21 media: samsung: exynos4-is: Fix kerneldoc
+0e7835767e2accf63b9c4fcdf3fedafceff56eb8 media: samsung: s5p-mfc: Fix kerneldoc
+3edcdd61ea6794e92cb04f9873aab23bdd632145 media: dvb-usb: Fix kerneldoc
+0284641e888df3ebd064c362f91e9e9d3e813663 media: staging: meson: Fix kerneldoc
+6c1a584a15d6ee35fa3448b84379150b401eb148 MAINTAINERS: Add entry for Samsung MFC DT Schema
+8cf9c5051076e0eb958f4361d50d8b0c3ee6691c media: v4l2-tpg: fix some memleaks in tpg_alloc
+8f94b49a5b5d386c038e355bef6347298aabd211 media: v4l2-mem2mem: fix a memleak in v4l2_m2m_register_entity
+83d48b5d39261be16902872367e89a0d1a874b0d media: v4l2-common.h: kerneldoc: correctly format return values
+9590d1a03df53d2f95876085dc4dd3afa8454843 media: atomisp: make dbgopt static
+cfe0c5e3d928cfa326952a47e70aaf4bc82756c4 media: atomisp: don't use sizeof(NULL)
+c9cd7308d64b13741ee03be81836a324fc4d657d media: dt-bindings: techwell,tw9900: Fix port schema ref
+e76681afdc02b3ee0417d2f47825624697afe249 documentation: media: vivid: Modify typo in documentation
+009d312a3fd93a2bfed93d7a1c76e1f362384f08 media: cec: make cec_bus_type const
+e248cde98470ca3d9449e2b744b11279681f8e18 media: media-devnode: make media_bus_type const
+e0ccf861b80698a5cc6f97c89bf8d5761f465fce mtd: spinand: winbond: add support for W25N04KV
+c7f0f920ddfd12999335eee44f488bcf773edfb4 mtd: rawnand: fsl_elbc: Let .probe retry if local bus is missing
+8d55a90b2b401e6b5dd289ebbc04dfd9e72ed35f dt-bindings: mtd: avoid automatically select from mtd.yaml
+e8b7d11c7e4b88c4988f2c740e9303f39a8c2ec4 mtd: ssfdc: One function call less in ssfdcr_add_mtd() after error detection
+086cd7a6c50bb3206fc08e0a850daaabef03e810 mtd: ssfdc: Fix indentation in ssfdcr_add_mtd()
+0d9a4164ba4929bbc231eef438d4cba1caee9d25 mtd: ssfdc: Improve a size determination in ssfdcr_add_mtd()
+34a956739d295de6010cdaafeed698ccbba87ea4 mtd: spinand: Add support for 5-byte IDs
+4bd14b2fd8a83a2f5220ba4ef323f741e11bfdfd mtd: spinand: esmt: Extend IDs to 5 bytes
+18af7e357033f1a1cee50db2663ef982b4a2226e mtd: flashchip: explicitly include <linux/wait.h>
+78f0daa026d4c5e192d31801d1be6caf88250220 media: mc: Add local pad to pipeline regardless of the link state
+422f7af75d03d50895938d38bc9cb8be759c440f media: mc: Fix flags handling when creating pad links
+eb2f932100288dbb881eadfed02e1459c6b9504c media: nxp: imx8-isi: Check whether crossbar pad is non-NULL before access
+baeddf94aa61879b118f2faa37ed126d772670cc media: mc: Add num_links flag to media_pad
+9ec9109cf9f611e3ec9ed0355afcc7aae5e73176 media: mc: Rename pad variable to clarify intent
+b3decc5ce7d778224d266423b542326ad469cb5f media: mc: Expand MUST_CONNECT flag to always require an enabled link
+9b71021b2ea537632b01e51e3f003df24a637858 media: nxp: imx8-isi: Mark all crossbar sink pads as MUST_CONNECT
+ee171dc5050212ea8677ed5cb777746cf00d72d9 media: nxp: imx8-isi: Factor out a variable
+281dc6c69b0ef3e30781451e141628618152a8c0 dt-bindings: mux: restrict node name suffixes
+e1dda3afe2a9f466940d44db8baaaf6c0ff8793f KVM: x86: Fix broken debugregs ABI for 32 bit kernels
+62527c9d46a151163525482301cf79fecd5402ef clk: renesas: r8a779h0: Add PFC/GPIO clocks
+6e8b1dcb0956668e77cc9177b810b7c1f15c6d8d clk: renesas: r8a779h0: Add watchdog clock
+5aaa139b9a03e1a43484a73248c6353a9c4d95c6 clk: renesas: r8a779h0: Add I2C clocks
+b83e2a91426ae4ee545e93a7dd61f03c3b5a417c Revert "media: ov08x40: Reduce start streaming time"
+8f667d2023844f3a2631c686f970b2f04c7fe7ec media: ov08x40: Reduce start streaming time
+c886b7297e16831c07fabcb4d8ac25eec8412b16 dt-bindings: clock: mpfs: add more MSSPLL output definitions
+8c2b1b48ad83d37a58a555c3bcf372b4ab477c64 dt-bindings: can: mpfs: add missing required clock
+1afa9480c997b016a20b6a292824ad1056307176 clk: microchip: mpfs: split MSSPLL in two
+66736997c231c78c2bb6c6f2bdabffd3df88b19c clk: microchip: mpfs: setup for using other mss pll outputs
+b67dae390918bc28a5377a3af8aeafb1d0f4036e clk: microchip: mpfs: add missing MSSPLL outputs
+72151193839e4fe222d0be9931f6ba3a94de7aa5 clk: microchip: mpfs: convert MSSPLL outputs to clk_divider
+78654850f7a7a518788125515c67bbf0f5f1bebb Merge branch '20240202-x1e80100-clock-controllers-v4-5-7fb08c861c7c@linaro.org' into clk-for-6.9
+c32f4f4ae1c6035b44bb4ca7a41fa4fd51244597 clk: qcom: clk-alpha-pll: Add support for zonda ole pll configure
+ee3f0739035f5a73695ce2e62866585e6f762d0d clk: qcom: Add dispcc clock driver for x1e80100
+acddef6e17441b537225717a6701a9aadf170e51 clk: qcom: Add GPU clock driver for x1e80100
 06aff116199c1b7e57e1c796fa0a8bebeac8beea clk: qcom: Add TCSR clock driver for x1e80100
 76126a5129b57a705a621c2711eed149c5be5873 clk: qcom: Add camcc clock driver for x1e80100
 3d75b8aa5c29058a512db29da7cbee8052724157 KVM: Always flush async #PF workqueue when vCPU is being destroyed
@@ -348,22 +533,10 @@ d901473c4dd0198d2d60553ea483d632175af4ea powerpc/ps3: lv1 hcall code use symboli
 28b2ed86750cf5be86d19dd6ff236b23e98b255d powerpc/ps3: Make real stack frames for LV1 hcalls
 914d081ead115f7ba685ab57f977716bdd09c894 Revert "powerpc/ps3_defconfig: Disable PPC64_BIG_ENDIAN_ELF_ABI_V2"
 4a447b135e45b49101417d54079df25b520299d9 KVM: selftests: Test top-down slots event in x86's pmu_counters_test
-6c5e0c9c21456fb561d0997fe2c4d3cf59745ba7 ext4: Add unit test for test_free_blocks_simple
-67d2a11b22b4d520072db62620851615df13183e ext4: Add unit test of ext4_mb_generate_buddy
-ac96b56a2fbd9e05b28488bdc5d3bd8006b61d35 ext4: Add unit test for mb_mark_used
-b7098e1fa7bcf350e089af9500c4f9992a1bd6cb ext4: Add unit test for mb_free_blocks
-2b81493f8eb6fc0c263dbca0064e10e4c00e0f91 ext4: Add unit test for ext4_mb_mark_diskspace_used
-250448802cda4f4f698ebf946b3a2d2a40423972 ext4: remove unused buddy_loaded in ext4_mb_seq_groups_show
-4b55d3431ce5ce906480f95391b7af4fecfa2d84 ext4: improve error msg for ext4_mb_seq_groups_show
-547e64bda9c7bd6bda2d20a329bb0f60258fe19b ext4: fix the comment of ext4_map_blocks()/ext4_ext_map_blocks()
-68ee261fb15457ecb17e3683cb4e6a4792ca5b71 ext4: add a hint for block bitmap corrupt state in mb_groups
-d8b945fa475f13d787df00c26a6dc45a3e2e1d1d ext4: forbid commit inconsistent quota data when errors=remount-ro
-4fbf8bc733d14bceb16dda46a3f5e19c6a9621c5 ext4: correct best extent lstart adjustment logic
 44042fb0d66182e3d6da2b010dbae58b170ca3c8 MAINTAINERS: drop Sekhar Nori
 74e39f526d95c0c119ada1874871ee328c59fbee clk: hisilicon: hi3519: Release the correct number of gates in hi3519_clk_unregister()
 64c6a38136b74a2f18c42199830975edd9fbc379 clk: hisilicon: hi3559a: Fix an erroneous devm_kfree()
 252c31a90e04dee4d828282ca364daf05eb62000 clk: hisilicon: Use devm_kcalloc() instead of devm_kzalloc()
-8208c41c43ad5e9b63dce6c45a73e326109ca658 ext4: fold quota accounting into ext4_xattr_inode_lookup_create()
 03c1c51eba6be49b42816af9db114553131af6c8 clk: mediatek: mt8135: Fix an error handling path in clk_mt8135_apmixed_probe()
 a32e88f2b20259f5fe4f8eed598bbc85dc4879ed clk: mediatek: mt7622-apmixedsys: Fix an error handling path in clk_mt8135_apmixed_probe()
 a65083fa663a335008e34f65e184041174a9dc7e clk: mediatek: mt8183: Correct parent of CLK_INFRA_SSPM_32K_SELF
@@ -448,9 +621,6 @@ e3027b0d0b9db35a382285cca99364aa4905e39f MAINTAINERS: adjust file entry in MEDIA
 0edf25679f099a31b764db6a4ea3cd7687427c41 MAINTAINERS: change in AMD ptdma maintainer
 16374aba824971d73916f005e79207370c9c31dd dmaengine: pl08x: constify pointer to char in filter function
 716141d366f45d62ffe4dd53a045867b26e29d19 dmaengine: of: constify of_phandle_args in of_dma_find_controller()
-40488cc16f7ea0d193a4e248f0d809c25cc377db virtiofs: forbid newlines in tags
-a8f62f50b4e4ea92a938fca2ec1bd108d7f210e9 virtiofs: export filesystem tags through sysfs
-9086b2d9e9f3da0b0f939aa1d7ff74e9bf5b54c8 virtiofs: emit uevents on filesystem events
 18ca63a2e23c5e170d2d7552b64b1f5ad019cd9b MIPS: Probe toolchain support of -msym32
 1d59822a7ed152f6a253a49978890ffefa8ef40e MIPS: Remove cc-option checks for -march=octeon
 bfc0a330c1b4526b88f6f9e711484b342cb00fb5 MIPS: Fallback CPU -march flag to ISA level if unsupported
@@ -496,17 +666,6 @@ c188df3db16798c7d26b45be9bbb4101599b04b5 media: i2c: replace of_graph_get_next_e
 5848915b912d7607dcf59ca6d89b81ef70a62d4f media: platform: replace of_graph_get_next_endpoint()
 6fc62efa266b0918c7b226f45c2eccfcf99a6d8e media: i2c: imx290: Fix IMX920 typo
 cecce089b92f52888160b0d9bc53fc191c0d08d3 Merge tag 'tags/media-next-rkisp1-20240223' of git://git.kernel.org/pub/scm/linux/kernel/git/pinchartl/linux.git into media_stage
-9511176bbaee0ac60ecc84e7b01cf5972a59ea17 fuse: fix VM_MAYSHARE and direct_io_allow_mmap
-699cf8246ee4c2c524f18c2e395909d16e7fda1b fuse: create helper function if DIO write needs exclusive lock
-9bbb6717dfd286a2861ca33273f4d7c3e65423b0 fuse: add fuse_dio_lock/unlock helper functions
-0c9d708953d02f74cea05a01cf3e2c8f5a9fbaf4 fuse: factor out helper fuse_truncate_update_attr()
-e26ee4efbc79610b20e7abe9d96c87f33dacc1ff fuse: allocate ff->release_args only if release is needed
-7de64d521bf92396b7da8ae0600188ea5d75a4c9 fuse: break up fuse_open_common()
-d2c487f150ae00e3cb9faf57aceacc584e0a130c fuse: prepare for failing open response
-cb098dd24bab8a315aa00bab1ccddb6be872156d fuse: introduce inode io modes
-205c1d8026835746d8597e1aa70c370e014e83fa fuse: allow parallel dio writes with FUSE_DIRECT_IO_ALLOW_MMAP
-aed918310ea2542059eeab6c74defca95c30f77b fuse: factor out helper for FUSE_DEV_IOC_CLONE
-7dc4e97a4f9a55bae6ed6ab3f96c92921259d59f fuse: introduce FUSE_PASSTHROUGH capability
 284851ee5caef1b42b513752bf1642ce4570bdc1 KVM: Get rid of return value from kvm_arch_create_vm_debugfs()
 1d6f83f60f79ff0118823d904dc1f04ba89f9428 KVM: arm64: vgic: Store LPIs in an xarray
 5a021df719164abdc64757993a41fe673a63323b KVM: arm64: vgic: Use xarray to find LPI in vgic_get_lpi()
@@ -725,20 +884,6 @@ c71f08cfb3c621acd537a591e2230eb17562ac7e Merge branch 'kvm-arm64/vfio-normal-nc'
 66e3cf729b1ea017cad643415ade319556862b68 KVM: x86/xen: remove WARN_ON_ONCE() with false positives in evtchn delivery
 6addfcf27139da1356493f2a440af1252b5b7dbe KVM: pfncache: simplify locking and make more self-contained
 7a36d680658ba5a0d350f2ad275b97156b8d4333 KVM: x86/xen: fix recursive deadlock in timer injection
-44350256ab943d424d70aa60a34f45060b3a36e8 fuse: implement ioctls to manage backing files
-fc8ff397b2a91590031ae08534de627f957005cb fuse: prepare for opening file in passthrough mode
-4a90451bbc7f7fde94041fbb9ca96dd915069943 fuse: implement open in passthrough mode
-57e1176e6086673d31bf0a0dc58e144c8e65e589 fuse: implement read/write passthrough
-5ca73468612d8e0767614992da8decc7f9f48926 fuse: implement splice read/write passthrough
-fda0b98ef0a6a2e3fe328b869d53002c8c82001b fuse: implement passthrough for mmap
-d30ff89870482d88807393b592d5f0d1d4bc5e2a virtiofs: drop __exit from virtio_fs_sysfs_exit()
-82e081aebe4d9c26e196c8260005cc4762b57a5d fuse: replace remaining make_bad_inode() with fuse_make_bad()
-68ca1b49e430f6534d0774a94147a823e3b8b26e fuse: fix root lookup with nonzero generation
-b1fe686a765e6c0d71811d825b5a1585a202b777 fuse: don't unhash root
-253e52437119719eb87293ef6852e13bb5ad0960 fuse: use FUSE_ROOT_ID in fuse_get_root_inode()
-f9c29137392e77319f9974c2cdf27d087f05abee virtio_fs: remove duplicate check if queue is broken
-e1c420ac9968f40cc266ec648cce12fa55c891db fuse: Remove fuse_writepage
-e0887e095a803d238bd3e2b280baa4c5e70c650c fuse: Convert fuse_writepage_locked to take a folio
 7cfc8db2c0cc1f79a979a159f0f56bcf25256e81 dt-bindings: pinctrl: fsl,imx6ul-pinctrl: convert to YAML
 b6376606971a604a3f6ef8a85e21a6aad85000eb dt-bindings: input: touchscreen: fsl,imx6ul-tsc convert to YAML
 465c7756d1fffa2bae9f2c77498b1fcdd169d317 dt-bindings: soc: imx: fsl,imx-anatop: add binding
@@ -752,22 +897,12 @@ aebd3bd586c67a29ddbe7be7db06b45754477b52 LoongArch: KVM: Set reserved bits as ze
 8bc15d02d5fdff31bfeca02e58e22e26880dde39 LoongArch: KVM: Start SW timer only when vcpu is blocking
 f66228053e429bd926505c447d3af2d3d610ed92 LoongArch: KVM: Do not restart SW timer when it is expired
 b99f783106ea5b2f8c9d74f4d3b1e2f77af9ec6e LoongArch: KVM: Remove unnecessary CSR register saving during enter guest
-2d09ab2203ece3d20aad6b3ba82a574c23da7556 fuse: fix typo for fuse_permission comment
-5a4d888e9f9beeb5062fbddf789278de5295e9f8 fuse: __kuid_val/__kgid_val helpers in fuse_fill_attr_from_inode()
-e022f6a1c711ab6d76e9e59dce77e2b25df75076 fuse: add support for explicit export disabling
-760eac73f9f69aa28fcb3050b4946c2dcc656d12 fuse: Introduce a new notification type for resend pending requests
-9e7f5296f475ba5ab887ae3e55b922e17e99752b fuse: Use the high bit of request ID for indicating resend requests
-2e3f7dd08d70eca86a8cc9b4baf3da77c032d5fc fuse: Track process write operations in both direct and writethrough modes
-8a5fb186431326886ccc7b71d40aaf5e53b5d91a fuse: remove an unnecessary if statement
-738adade96b2ec414a44f3b1ed891fec3e0c03dd fuse: Fix missing FOLL_PIN for direct-io
-efc4105a4cf9e300b8e9150147415fa235059293 fuse: remove unneeded lock which protecting update of congestion_threshold
 6caecacc92b9170fa3dd2e5a3b17eaf13cf30065 powerpc/fsl: Fix mfpmr() asm constraint error
 35f20786c481d5ced9283ff42de5c69b65e5ed13 powerpc: xor_vmx: Add '-mhard-float' to CFLAGS
 83bc680e87292f78c6e823100e417d58a66dcb06 macintosh/adb: make adb_dev_class constant
 20933531be0577cdd782216858c26150dbc7936f powerpc/embedded6xx: Fix no previous prototype for avr_uart_send() etc.
 e8b1ce0e287fd1493334f3435d763aecd517afd9 powerpc/amigaone: Make several functions static
 5b9e00a6004cf837c43fdb8d5290df619de78024 powerpc/4xx: Fix warp_gpio_leds build failure
-cdf6ac2a03d253f05d3e798f60f23dea1b176b92 fuse: get rid of ff->readdir.lock
 38f680c25ece49c1f8ff55ee78dca0ee4e1793a6 KVM: riscv: selftests: Add exception handling support
 1e979288c9b50a1eef1c5fa2fa93936012a0ed6f KVM: riscv: selftests: Add guest helper to get vcpu id
 812806bd1e70f79cc69061f9fd9bb1d367990d37 KVM: riscv: selftests: Change vcpu_has_ext to a common function
@@ -797,17 +932,6 @@ b14257abe7057def6127f6fb2f14f9adc8acabdb media: rcar-isp: Disallow unbind of dev
 e5d9592c8652ee95e2251778eb34522f7826360f mips: mt: make mt_class constant
 8b2de7402f3bd897e09cfd83564c94bfd5a3cf86 mips: sibyte: make tb_class constant
 5d3d723470996d3b9050a89427d9fc72cd0241e9 dt-bindings: timer: mediatek: Convert to json-schema
-7f48212678e91a057259b3e281701f7feb1ee397 ext4: drop duplicate ea_inode handling in ext4_xattr_block_set()
-fa60629380bbbf0952d2eb906da187b171f54529 ext4: don't report EOPNOTSUPP errors from discard
-a6b3bfe176e8a5b05ec4447404e412c2a3fc92cc ext4: fix corruption during on-line resize
-40da553f5da020931e9cddf02948847a188c5223 ext4: verify s_clusters_per_group even without bigalloc
-708623737b0a28aff33bff0237862a2e08bc5c97 ext4: remove SLAB_MEM_SPREAD flag usage
-0efcd739fc07cefd5c54e202f66b4ea5def4776b ext4: remove unused parameter biop in ext4_issue_discard()
-07be778c70149321f785611a9c50125b904b0508 ext4: enable meta_bg only when new desc blocks are needed
-d60c53694c6ff560963590971720d632bb3d481e ext4: kunit: use dynamic inode allocation
-8ffc0cd24c2a3ea340743db18b1a1e999176fbd3 ext4: alloc test super block from sget
-ad943758e0ebd881d031b657a3f389315bf3a101 ext4: hold group lock in ext4 kunit test
-0ecae5410ab526225293d2591ca4632b22c2fd8c ext4: initialize sbi->s_freeclusters_counter and sbi->s_dirtyclusters_counter before use in kunit test
 06d0cb6c824c7df736e66060b8c63b0100259d3f i2c: sprd: Convert to platform remove callback returning void
 bc9ce934c469d594d77c44b41a90570fc8881e4d MAINTAINERS: Remove T Ambarus from few mchp entries
 12e37aef7ba20a5a0d6e076968a41293b019e90d hwrng: hisi - use dev_err_probe
@@ -845,47 +969,6 @@ e97fe4901e0f59a0bfd524578fe3768f8ca42428 clk: Fix clk_core_get NULL dereference
 c1ab111e62496d8c1232da767c2bc5cdc76596e5 clk: fractional-divider: Use bit operations consistently
 7938e9ce39d6779d2f85d822cc930f73420e54a6 clk: zynq: Prevent null pointer dereference caused by kmalloc failure
 7d8942d8e73843de35b3737b8be50f8fef6796bb Merge tag 'kvm-x86-guest_memfd_fixes-6.8' of https://github.com/kvm-x86/linux into HEAD
-f8cdf65b51f036d77edece8a175447dd41be63ca bcachefs: Fix null-ptr-deref in bch2_fs_alloc()
-6fa30fe7f79592ae2ba6e44fa1e7589942c58abe bcachefs: journal_seq_blacklist_add() now handles entries being added out of order
-88005d5dfbc9665b8cd510916baed9c89960ee90 bcachefs: extent_entry_next_safe()
-2f300f09c7899eb35077aad0a1634cd06a29423a bcachefs: no_splitbrain_check option
-52f3a72fa7f4f021398d17e4ffa760d0b2a46386 bcachefs: fix check_inode_deleted_list()
-ba89083e9f5d9d26f64565ec3ecb823b5bcad055 bcachefs: Fix journal replay with unreadable btree roots
-b3eba6a4a7e3e148abfde7a30daa855839fcc043 bcachefs: Fix degraded mode fsck
-94817db95681155437100d9f25b3e1390fff8ad6 bcachefs: Correctly validate k->u64s in btree node read path
-fadc6067f2dded5affe0ef281847fa968f1e1354 bcachefs: Set path->uptodate when no node at level
-067f244c9e4d2c00b493291df5f17510fd0bd9c1 bcachefs: fix split brain message
-0be5b38bce6c4d3563f7575f6bac94806b2fbc17 bcachefs: skip invisible entries in empty subvolume checking
-4f70176cb9df0ef452615a64084c3ad70e11c275 bcachefs: Kill unnecessary wakeups in journal reclaim
-656f05d8bd65bd9cc4a07364e9497af55b09e436 bcachefs: Split out journal workqueue
-a4e92339115d10f07fac051454616dbe6dbd47f5 bcachefs: Avoid setting j->write_work unnecessarily
-bdec47f57f26248a6fba67803c2ee44484534735 bcachefs: Journal writes should be REQ_SYNC|REQ_META
-e6fab655e6f59d1b50ee9e97c727a6f6f84b0f1d bcachefs: Avoid taking journal lock unnecessarily
-7b05ecbafc174c4bac9546c41eae0cf5efda827a bcachefs: fixup for building in userspace
-3f305e04984634d62ce5c46a2c97ef000447e6d9 bcachefs: Improve bch2_dirent_to_text()
-6b83aee8a41b12b1985d4a77b5ae11f9e3491744 bcachefs: Workqueues should be WQ_HIGHPRI
-23f25223157c60b00f86d74d141772c5c1996ae4 bcachefs: bch2_hash_set_snapshot() -> bch2_hash_set_in_snapshot()
-5b6271b5091263bb705f9634917b41ce980d2ba7 bcachefs: Cleanup bch2_dirent_lookup_trans()
-a555bcf4fa8dea612564d1133dad881c6681bae3 bcachefs: convert journal replay ptrs to darray
-3d3d23b341109fe349b1f448c2d89d2ee4429415 bcachefs: improve journal entry read fsck error messages
-52f7d75e7d36ae4258c4ceef4cb86dc2950e7906 bcachefs: jset_entry_datetime
-51654002755b34b0bdedd03dd381bd6d46a657a5 bcachefs: bio per journal buf
-38789c25087471121cfa42333bfb249eae539682 bcachefs: closure per journal buf
-916abefd437be89383e720f19a43f727f045a468 bcachefs: better journal pipelining
-fc634d8e46ec1dcbecb0ce6f84dd3e8b0c6e9330 bcachefs: btree_and_journal_iter.trans
-5f43b0134e40bd798ba0999a11e90f24a0c65a51 bcachefs: btree node prefetching in check_topology
-7f76b08acac4b41bd4bf1670470dd0770d61d0b9 bcachefs: Subvolumes may now be renamed
-f8f8fb443b3cfc362cfa57c105f78537e666a48a bcachefs: Switch to uuid_to_fsid()
-29223b5a555e90844fda741088831d06bb52b882 bcachefs: Initialize super_block->s_uuid
-69c8e6ce022fd87abb9c8dbbdcfd312d6513b055 bcachefs: move fsck_write_inode() to inode.c
-82fdc1dc9831edee465ac4d07323003f8c2bcfa8 bcachefs: bump max_active on btree_interior_update_worker
-ce3e9283de18a1eb77e0f8009fc7c948677462bf bcachefs: Kill some -EINVALs
-11def1888f26e7ec373e85d77c5b425632ef175f bcachefs: Factor out check_subvol_dirent()
-3d4998c202978e5389b660cdfa33299d531b3f4f bcachefs: factor out check_inode_backpointer()
-3f6d5e6a468d02676244b868b210433831846127 mm: introduce memalloc_flags_{save,restore}
-eab0af905bfc3e9c05da2ca163d76a1513159aa4 mm: introduce PF_MEMALLOC_NORECLAIM, PF_MEMALLOC_NOWARN
-a91bc5e50558fdc09a04c90484633df100d0d2bb bcachefs: bch2_inode_insert()
-737cd174d1666620f2c41a4552623125de6bd80d bcachefs: bch2_lookup() gives better error message on inode not found
 074fe32e9af1b8720eaf89e069b98ac567e90b99 MIPS: ralink: Don't use "proxy" headers
 bc75dffadc063eb46200611cc41d1e2373219e11 mips: dts: ralink: mt7621: associate uart1_pins with serial0
 82394085bf0368a2b2ab9c41d3a5cebf05cff02e mips: dts: ralink: mt7621: reorder serial0 properties
@@ -926,96 +1009,9 @@ b874d4aae58b92144ec2c8fa5dc0a27c98388fcc block: limit block time caching to in_t
 256aab46e31683d76d45ccbedc287b4d3f3e322b Revert "block/mq-deadline: use correct way to throttling write requests"
 8c8d25d95990ea4660889867469ec8713c5dc0fd Merge tag 'spi-nor/for-6.9' into mtd/next
 2842dc9bc1a53893eec62ec9e49beb3b501702d0 mtd: spi-nor: core: correct type of i
-0225bdfafd818f895fa4a4512f124a1614e011e2 mempool: kvmalloc pool
-cb6fc943b650c4f0ca2ba753531c0803c8afbb5c bcachefs: kill kvpmalloc()
-e017047fdb3a449f45d73ea4c4e94465090b93a1 bcachefs: thread_with_stdio: eliminate double buffering
-60e1baa872a1550ea7c083977c817ca2ede04eaf bcachefs: thread_with_stdio: convert to darray
-a6777ca4ff237d097b3d6186283eb2d2f24071d1 bcachefs: thread_with_stdio: kill thread_with_stdio_done()
-f704f108af79c1ccbc1984cf0fd5e9f30102a718 bcachefs: thread_with_stdio: fix bch2_stdio_redirect_readline()
-032b3fd0571a8d7e22c7d8c97bdfc76f17717de2 bcachefs: Thread with file documentation
 9448e55d032d99af8e23487f51a542d51b2f1a48 of: Add cleanup.h based auto release via __free(device_node) markings
 34af4554fb0ce164e2c4876683619eb1e23848d4 of: Introduce for_each_*_child_of_node_scoped() to automate of_node_put() handling
 2056b282ad191589e4ceb5a8fdab639b9549edc6 of: unittest: Use for_each_child_of_node_scoped()
-8f9320d3a3993e76c8097fb8567ba5f3eb2cb91b bcachefs: thread_with_stdio: Mark completed in ->release()
-5c3273ec3c6af356b29ff50a654f0dc33bf25a83 kernel/hung_task.c: export sysctl_hung_task_timeout_secs
-a5a650d6472f238191d98d8aba7536a9fb3d9f99 bcachefs: thread_with_stdio: suppress hung task warning
-fcb1620edd4d59eff4b3466be1d61263cea958a8 bcachefs: thread_with_file: allow creation of readonly files
-1cbae651e5c875f4d128211b3c732ee545f45424 bcachefs: thread_with_file: fix various printf problems
-ab6752e24ef1eb4ef2cf35c4aa87eb1c9854e1a1 bcachefs: thread_with_file: create ops structure for thread_with_stdio
-658a1e42ce00b487909cdf91247e69c333b2c37a bcachefs: thread_with_file: allow ioctls against these files
-6b33312925a77c24905cef1356c2b63a6149d8a1 bcachefs: thread_with_file: Fix missing va_end()
-da23795e4c3ae0efd701e81b54c5c42d4b6f37f4 bcachefs: thread_with_file: add f_ops.flush
-52946d828aac5bc8e20665a8434f87740fad03e3 bcachefs: Kill more -EIO error codes
-4c20278eb18ac22691aea6d9ecc8d98acffafd0d bcachefs: Check subvol <-> inode pointers in check_subvol()
-f2b02d099cc781df340ed1f8b058dcb504b73a26 bcachefs: Check subvol <-> inode pointers in check_inode()
-0b17618fdc90fd4ed558aa9a4028879afd4f09e2 bcachefs: check_inode_dirent_inode()
-971a1503a2220f7e3e4a29e1778949ce84a4ac03 bcachefs: better log message in lookup_inode_for_snapshot()
-0b498a5a3960e8a9a3411c12fad77ef769ed3c1e bcachefs: check bi_parent_subvol in check_inode()
-e539ebb8674c74ab26d707965bcca2fe3fc17b43 bcachefs: simplify check_dirent_inode_dirent()
-ea27001e14e963547df6ae60edc70332fcd02c37 bcachefs: delete duplicated checks in check_dirent_to_subvol()
-f4e68c859f4e335f0b07dfcc6703cfe501265deb bcachefs: check inode->bi_parent_subvol against dirent
-c60b7f803c8b7dbea75b3cbfd23d788bab7215a6 bcachefs: check dirent->d_parent_subvol
-45b4ed525e3c5b5dcdee65ae23a27b9efe595714 bcachefs: Repair subvol dirents that point to non subvols
-64304aaf4ef3d14c46d711a35a7b78bb5790350a bcachefs: bch_subvolume::parent -> creation_parent
-f5d58d0c7212adc02b40dc4b7f6c9ebfde685d1c bcachefs: Fix path where dirent -> subvol missing and we don't fix
-688a7694097653ca9bd6b7febdf7c88763bbbb92 bcachefs: Pass inode bkey to check_path()
-3a136177f3a7929ca1ae3712267548ac4a668cf8 bcachefs: check_path() now prints full inode when reattaching
-56e230473d395c953cfab78b876fcf0f62b455b1 bcachefs: Correctly reattach subvolumes
-506b187603f18755d69c19559828a6a9ed48093a bcachefs: bch2_btree_bit_mod -> bch2_btree_bit_mod_buffered
-e07c28ab92619059833715f3c1c6abc33dd7ec7c bcachefs: bch2_btree_bit_mod()
-b8628a2529e7d615361efdbfd6c9662b687fd828 bcachefs: bch_subvolume::fs_path_parent
-b26d79147f5ffaeabbda1cad556761965d6d85fe bcachefs: BTREE_ID_subvolume_children
-835cd3e147a9a8f8acfe7f3a405c582f04e90a33 bcachefs: Check for subvolume children when deleting subvolumes
-91dcad18d38849f1702e0d50f5598bb3614c8ff8 bcachefs: Pin btree cache in ram for random access in fsck
-3254c1b0e5af7fcb90f2feb928e5313c8a53149e bcachefs: Save key_cache_path in peek_slot()
-83bd5985fa5437a21f6cf9974e3d023e98af490b bcachefs: Track iter->ip_allocated at bch2_trans_copy_iter()
-5ca8ff157d9712b45d249b97b28e35b0d5eead8e bcachefs: Use kvzalloc() when dynamically allocating btree paths
-130d229ff56ccce4588448bdd45867f7497760c8 bcachefs: Improve error messages in device remove path
-b63570f74733851579f489f092b6c28077f57c4a bcachefs: bch2_print_opts()
-6e9d0558b1ad285eb371e309b36cdcf2d8f8d138 bcachefs: bch2_trigger_alloc() handles state changes better
-b07ce7262636fb294d786c17ec4e857b62c2970b bcachefs: omit alignment attribute on big endian struct bkey
-663db5a55486017ab6564b7014f0db97432598a0 bcachefs: bch2_check_subvolume_structure()
-74406f66adc9c432856dca992e706d54c540c30c bcachefs: check_path() now only needs to walk up to subvolume root
-3235e04afef8b4ad72d92f05f8f33f6552793223 bcachefs: more informative write path error message
-ba78af9e56662f73a277f84619a0b623a75f19ff bcachefs: rebalance_status now shows correct units
-29e11f96993dd10210bfda0e09f43f307afc3639 bcachefs: Drop redundant btree_path_downgrade()s
-06d493fee43be69580082f7b9b48c4d3f9c9de64 bcachefs: improve bch2_journal_buf_to_text()
-a393f3312387597d2e3b6b44bf50ef7f105f623d bcachefs: Split out discard fastpath
-d9290c9931e4c2ff27b13209610521681418e194 bcachefs: Fix journal_buf bitfield accesses
-90aa35c4c908c04901a8dc5f8db9b93b919a4084 bcachefs: Add journal.blocked to journal_debug_to_text()
-c7cad231e83606a3ad627d5c4503272435c962a4 bcachefs: Silence gcc warnings about arm arch ABI drift
-150194cdcb6b4305be41cd8af7a42dd2d1457ae1 bcachefs: remove redundant assignment to variable ret
-eb386617be4bdfe02eb0972874f726e2bfc7a6e7 bcachefs: Errcode tracepoint, documentation
-0b5961b0d8a499100bd90a70075a23f875f1ddf6 bcachefs: jset_entry for loops declare loop iter
-894d062254e29dd3e99a55029de5d976b1681eb3 bcachefs: Rename journal_keys.d -> journal_keys.data
-95ffc7fb8c7831ee79ed8d2c0e53c7b4869c6338 bcachefs: journal_keys now uses darray helpers
-69426613cdf0784e29e1a429c1a2f372a6267c43 bcachefs: improve move_gap()
-2cce3752cec5a895030c8aa534cef3f493145a8e bcachefs: split out ignore_blacklisted, ignore_not_dirty
-79162e829b5e5859409736b19daa2f6d2d1e0b59 bcachefs: fix the error code when mounting with incorrect options.
-7efa287526f02a54a0a9abf358e15623c5b09f93 bcachefs: Fix bch2_journal_noflush_seq()
-66a67c860cce3643248f7e80ee095b946829a342 fs: file_remove_privs_flags()
-7e64c86cdc6cee0db36eb983c62065c5bf71508b bcachefs: Buffered write path now can avoid the inode lock
-7e23c1746b027ea6075816280a4e463a9399d9da bcachefs: avoid returning private error code in bch2_xattr_bcachefs_set
-2a68d611a17b8135ade5f7016144ef34af0a61a4 bcachefs: intercept mountoption value for bool type
-ada02c207c0168e0e9173983d00f82c9b5de90c8 bcachefs: fix lost journal buf wakeup due to improved pipelining
-ba81523eaac3df20ea884603bd67a74089900814 bcachefs: Split out bkey_types.h
-d64547999c591c47bfac279fa4027bdbd29c7ea0 bcachefs: copy_(to|from)_user_errcode()
-3a319a2476d27e0b6c3cac3ebf6e3d0b665a06e5 lib/generic-radix-tree.c: Make nodes more reasonably sized
-5e105fb806c622cd8b3da0031e74367a3b8a326b bcachefs: fix bch2_journal_buf_to_text()
-c42006458b4239b7eb50f33af523b67c7a55e42e bcachefs: Check for writing superblocks with nonsense member seq fields
-1fdb9685ed8b7b871632a3d348a948e1b53a17e5 bcachefs: Kill unused flags argument to btree_split()
-3e48999816b1d1dba3ca40b1d7dbc324adb72fe2 bcachefs: Prefer struct_size over open coded arithmetic
-06ebc48306acc36ecb4d2eeb41fc719de4aaf442 bcachefs: fix deletion of indirect extents in btree_gc
-b6fc661f098631f4a4db43f47ce8d678350fc9ca bcachefs: Fix order of gc_done passes
-5d04409a62c322494cca0d0d8fef8b7f2d3bcc3f bcachefs: Always flush write buffer in delete_dead_inodes()
-b3f8e711171909fe3179c806445a62b573a9711e bcachefs: Fix btree key cache coherency during replay
-3bbed372141705f820c5942bbe4e50c6126cdc9a bcachefs: fix bch_folio_sector padding
-cdce109431f30108665a7de72b542af7f02cf966 bcachefs: reconstruct_alloc cleanup
-f1ca1abfb0275db241363743ed3606b25b2b1a5c bcachefs: pull out time_stats.[ch]
-cdbfa228a5537dfd7cbd8532701b0c8af70c97b8 bcachefs: time_stats: add larger units
-4b4f0876ab74167cc402ccd5ce9154e7dc666829 bcachefs: mean_and_variance: put struct mean_and_variance_weighted on a diet
-273960b8f374b95ebd234a99607b7887f515c791 bcachefs: time_stats: split stats-with-quantiles into a separate structure
-be28368b2ccb328b207c9f66c35bb088d91e6a03 bcachefs: time_stats: shrink time_stat_buffer for better alignment
 bf5e3a30f777b6e763f6a46c10e1250c20237e97 Revert "blk-lib: check for kill signal"
 4c4ab8ae416350ce817339f239bdaaf351212f15 block: fix mismatched kerneldoc function name
 17193ced2dad52e7f1848945baaf3a71f44f424d Merge tag 'kvm-s390-next-6.9-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
@@ -1037,11 +1033,7 @@ c2cf7e25eb2a3c915a420fb8ceed8912add7f36c mtd: rawnand: brcmnand: Add support for
 4120aa0e3961f68f1f8cfe6b4c3c809ffea31fdc mtd: rawnand: Ensure continuous reads are well disabled
 4781179012d9380005649b0fe07f77dcaa2610e3 selftests: kvm: remove meaningless assignments in Makefiles
 09888e973cc9d3615dbab5d178eecb58d8a0b7ab Merge tag 'nand/for-6.9' into mtd/next
-32a50540c3d26341698505998dfca5b0e8fb4fd4 Merge tag 'bcachefs-2024-03-13' of https://evilpiepirate.org/git/bcachefs
-68bf6bfdcf56b5e6567a668ffc15d5e449356c02 Merge tag 'ext4_for_linus-6.9-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-6ce8b2ce0d7e3a621cdc9eb66d74436ca7d0e66e Merge tag 'fuse-update-6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 7e98fe49f8896cc60c2a88c60bc535aa3e0e2564 dt-bindings: soc: imx: fsl,imx-anatop: add imx6q regulators
-c442a42363b2ce5c3eb2b0ff1e052ee956f0a29f Merge tag '9p-for-6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/ericvh/v9fs
 eb7cca1faf9883d7b4da792281147dbedc449238 Merge tag 'media/v6.9-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 6dff52b828655ccf416f46c08a48679740b724f0 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 4757c3c64a71820a37da7a14c5b63a1f26fed0f5 Merge tag 'libnvdimm-for-6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
@@ -1059,4 +1051,4 @@ c8e769961668ef56acabc67f040c58ed769c57e4 Merge tag 'v6.9-p1' of git://git.kernel
 82affc97affbdfe83c807ad17147a1220031fd90 Revert "KVM: arm64: Snapshot all non-zero RES0/RES1 sysreg fields for later checking"
 66a27abac311a30edbbb65fe8c41ff1b13876faa Merge tag 'powerpc-6.9-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 
---===============0569916439886130380==--
+--===============8553898356967880750==--
