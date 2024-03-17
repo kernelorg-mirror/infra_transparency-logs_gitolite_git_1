@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 17 Mar 2024 17:59:27 -0000
-Message-Id: <171069836785.23921.17777710333633669964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Sun, 17 Mar 2024 18:40:47 -0000
+Message-Id: <171070084783.24577.6949484305776654925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/master
-    old: 0758aa9748dc792160012e9757512576250894ec
-    new: b0cd10c004beef560b02ab6b91462170b7fb823b
+  - ref: refs/heads/features
+    old: 69460c5e6be063a85bb144845422776e0ffe8faa
+    new: 64c3431808bdab2ccef97d7a444018c416b080b5
     log: |
-         b0cd10c004beef560b02ab6b91462170b7fb823b Sun Mar 17 01:58:33 PM EDT 2024
+         481ec3b37678639ec1f8197c92b6e604b9549b2d s390/cio: use while (i--) pattern to clean up
+         c239c83ed5c558be3b5926c7f11639f02c8acd00 s390/entry: add CIF_SIE flag and remove sie64a() address check
+         29e5bc0f023a1110d1539d75ccac3b4cdcadec5e s390/entry: remove OUTSIDE macro
+         64c3431808bdab2ccef97d7a444018c416b080b5 s390/entry: compare gmap asce to determine guest/host fault
          
