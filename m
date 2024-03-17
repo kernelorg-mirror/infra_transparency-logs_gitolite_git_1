@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Sun, 17 Mar 2024 18:40:47 -0000
-Message-Id: <171070084783.24577.6949484305776654925@gitolite.kernel.org>
+Date: Sun, 17 Mar 2024 18:41:02 -0000
+Message-Id: <171070086251.24765.12718722938275278520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
+  - ref: refs/heads/for-next
     old: 69460c5e6be063a85bb144845422776e0ffe8faa
     new: 64c3431808bdab2ccef97d7a444018c416b080b5
     log: |
