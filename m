@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2474420520234130932=="
+Content-Type: multipart/mixed; boundary="===============6234411256380765057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
-Date: Sun, 17 Mar 2024 13:01:57 -0000
-Message-Id: <171068051793.28404.422993552875778957@gitolite.kernel.org>
+Date: Sun, 17 Mar 2024 13:04:08 -0000
+Message-Id: <171068064844.29299.10486336992182492341@gitolite.kernel.org>
 
---===============2474420520234130932==
+--===============6234411256380765057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/overlayfs/vfs
 user: amir73il
 changes:
-  - ref: refs/heads/master
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
-    new: 277100b3d5fefacba4f5ff18e2e52a9553eb6e3f
-    log: revlist-6613476e225e-277100b3d5fe.txt
+  - ref: refs/heads/ovl-fixes
+    old: 420332b94119cdc7db4477cc88484691cb92ae71
+    new: a8d73a8553982d3372314654f5c35c8f1e1849e4
+    log: revlist-420332b94119-a8d73a855398.txt
 
---===============2474420520234130932==
+--===============6234411256380765057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6613476e225e-277100b3d5fe.txt
+Content-Disposition: attachment; filename=revlist-420332b94119-a8d73a855398.txt
 
-23749cf3dfff5dcd706183ade1d27198a37b3881 backlight: gpio: Simplify with dev_err_probe()
-588d9f4b656f58aefe06745b24c891f3fc690446 backlight: l4f00242t03: Simplify with dev_err_probe()
 a2cd3ab2a47d2a976fc32503a69b4a1046d6130b backlight: bd6107: Handle deferred probe
 41f1b3edb581db7905ddae6b78bd5777aa1089b4 backlight: as3711_bl: Handle deferred probe
 b4c385b294a48502d9654a1910e6a9976a1165c6 backlight: lm3630a_bl: Handle deferred probe
@@ -1050,5 +1048,7 @@ ab522e1478e3191114535f454a1c41ba3b2d1cb9 Merge tag 'devicetree-for-6.9' of git:/
 4138f02288333cb596885e9af03dd3ea2de845cb Merge tag 'vfio-v6.9-rc1' of https://github.com/awilliam/linux-vfio
 c8e769961668ef56acabc67f040c58ed769c57e4 Merge tag 'v6.9-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 277100b3d5fefacba4f5ff18e2e52a9553eb6e3f Merge tag 'block-6.9-20240315' of git://git.kernel.dk/linux
+1b17f399a6e07405059fe401cfbe59f9b572093d MAINTAINERS: update overlayfs git tree
+a8d73a8553982d3372314654f5c35c8f1e1849e4 ovl: relax WARN_ON in ovl_verify_area()
 
---===============2474420520234130932==--
+--===============6234411256380765057==--
