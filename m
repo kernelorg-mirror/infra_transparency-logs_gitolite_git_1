@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 17 Mar 2024 08:50:38 -0000
-Message-Id: <171066543852.22136.13793233454841854313@gitolite.kernel.org>
+Date: Sun, 17 Mar 2024 08:51:10 -0000
+Message-Id: <171066547091.22431.15496014108592159615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,13 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 9ed4a756ed3a321823026bc8d9f59278ac8a3cf6
-    new: 945691e8c51099add1b21ad26f736efbe849fc6b
+    old: 945691e8c51099add1b21ad26f736efbe849fc6b
+    new: 7e19a79344df2ed5e106091c29338962261b0290
     log: |
-         ca5b0b717b75d0f86f7f5dfe18369781bec742ad irqchip/riscv-intc: Fix use of AIA interrupts 32-63 on riscv32
-         4b6f4c5a67c07417bf29d896c76f513a4be07516 timer/migration: Remove buggy early return on deactivation
-         111ac9f7594aa763d6a7a653bcc017be25805aaf Merge branch into tip/master: 'irq/urgent'
-         945691e8c51099add1b21ad26f736efbe849fc6b Merge branch into tip/master: 'timers/urgent'
+         5bfcb9b3078d88c5aa011cbe478c51b49582d0d1 Merge branch into tip/master: 'irq/urgent'
+         2be0555098a4aa4fe62eb5231369361d94ec5b61 Merge branch into tip/master: 'perf/urgent'
+         d751746a6e2d11ad1ec65d121037aa01d792e8d0 Merge branch into tip/master: 'timers/urgent'
+         db7fe66099ce6229d2d7a3b898f8b8ad1f807489 Merge branch into tip/master: 'core/entry'
+         dc1c2dbfa643f24dcec16799e2d3682eb6257803 Merge branch into tip/master: 'sched/core'
+         7e19a79344df2ed5e106091c29338962261b0290 Merge branch into tip/master: 'x86/build'
          
