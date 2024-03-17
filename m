@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brodo/linux
-Date: Sun, 17 Mar 2024 07:15:07 -0000
-Message-Id: <171065970721.15792.18440257108494431322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sun, 17 Mar 2024 07:24:39 -0000
+Message-Id: <171066027910.21151.13179447200772297018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brodo/linux
-user: brodo
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/pcmcia-6.9-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 0ce8098660b7c9cea2e763e9fe5f9c0d9d07f3e3
+  - ref: refs/heads/dev
+    old: b8ac393b18da4305585ae342fc85452833ff0431
+    new: b13d1b87b40ea11ad2a225f2ab27ed319f1afd26
+    log: |
+         b13d1b87b40ea11ad2a225f2ab27ed319f1afd26 rcutorture: Use the gp_kthread_dbg operation specified by cur_ops
+         
