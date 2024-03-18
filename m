@@ -1,27 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 18 Mar 2024 17:27:38 -0000
-Message-Id: <171078285865.9534.2501292690312098536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Mon, 18 Mar 2024 17:31:05 -0000
+Message-Id: <171078306509.12523.17260703358951093808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/for-linus
-    old: 593c0afc18da08bbb79c7af2a6668884987958f6
-    new: 59ff5b649af650ca29a02a7c236c0133641d5f5a
+  - ref: refs/heads/kbuild
+    old: 8586045e1578e799ce62fbc95d17cb29c44e895b
+    new: 097f1200bf7ea19fb39ccf538a07a153260a7763
     log: |
-         7397175cb7b48f7a3fc699083aa46f1234904c7e spi: lm70llp: fix links in doc and comments
-         59ff5b649af650ca29a02a7c236c0133641d5f5a Merge remote-tracking branch 'spi/for-6.8' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 593c0afc18da08bbb79c7af2a6668884987958f6
-    new: 59ff5b649af650ca29a02a7c236c0133641d5f5a
-    log: |
-         7397175cb7b48f7a3fc699083aa46f1234904c7e spi: lm70llp: fix links in doc and comments
-         59ff5b649af650ca29a02a7c236c0133641d5f5a Merge remote-tracking branch 'spi/for-6.8' into spi-linus
+         23dfd914d2bfc4c9938b0084dffd7105de231d98 modpost: fix null pointer dereference
+         137bb8b814be5d0056e8eaf593e71bf340cdc06f kconfig: lxdialog: fix button color for blackbg theme
+         c33a4315c4095be368fe127db3385b248d38df8f kconfig: lxdialog: remove unused dialog colors
+         4957515b9c3aa3d32a1ee44ab77f0a44f29263dc kconfig: check prompt for choice while parsing
+         b27a91383abc4acca39f4402cdcc74ce4a476d8e kconfig: remove unneeded menu_is_visible() call in conf_write_defconfig()
+         097f1200bf7ea19fb39ccf538a07a153260a7763 kbuild: rpm-pkg: add dtb files in kernel rpm
          
