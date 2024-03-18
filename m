@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Mon, 18 Mar 2024 05:03:55 -0000
-Message-Id: <171073823549.14821.11258608483168607224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 18 Mar 2024 08:50:32 -0000
+Message-Id: <171075183205.15230.17647176598420448798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/hyperv-next
-    old: 2a07badb654a64e204fd260e04731b643c63cb2e
-    new: b967df6293510b6e1f53cba56e2475b2aa50be7e
-    log: |
-         b967df6293510b6e1f53cba56e2475b2aa50be7e hyperv-tlfs: Rename some HV_REGISTER_* defines for consistency
-         
+  - ref: refs/tags/sound-fix-6.9-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 37ec2ee50a326cf53f00300ad4751dc80c0abc49
