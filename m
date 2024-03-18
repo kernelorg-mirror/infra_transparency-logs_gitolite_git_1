@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 18 Mar 2024 11:27:29 -0000
-Message-Id: <171076124972.10057.17575312058640957539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Mon, 18 Mar 2024 11:28:28 -0000
+Message-Id: <171076130843.10475.6965009591524421332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 5c8657c434f20c64363550e0df0a44702400c782
-    new: 7997c0c3e5fd5d59b36f1d27fdd5178c9e036cd8
+  - ref: refs/heads/master
+    old: 2a6740bcb954bf4141c99778cd7309a037e6cd3e
+    new: 855b8e69f8f1c76d3d3c0ba05d4607befb64ab28
     log: |
-         7997c0c3e5fd5d59b36f1d27fdd5178c9e036cd8 Notes added by 'git notes add'
+         855b8e69f8f1c76d3d3c0ba05d4607befb64ab28 mempool cow test: use default stride
          
