@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Mon, 18 Mar 2024 18:13:29 -0000
-Message-Id: <171078560967.10852.14671779997855265091@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Mon, 18 Mar 2024 18:18:17 -0000
+Message-Id: <171078589707.14268.8235365534111429262@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/for-next/core
-    old: 1ef21fcd6a50f011680dbbd678c1bea8e3f67ab9
-    new: 3fbd56f0e7c14e7c7a7597fd4a368753fe70d76f
+  - ref: refs/heads/for-next/execve
+    old: ab3bb12022d6657098f8b0cf37797660ab13ddeb
+    new: a6a3ce3b229bfc2bbabc726375082b445da0118d
     log: |
-         3fbd56f0e7c14e7c7a7597fd4a368753fe70d76f ARM64: Dynamically allocate cpumasks and increase supported CPUs to 512
+         52fd6742d6c1d6b77548a5945d0459f3d002de03 selftests/exec: execveat: Improve debug reporting
+         a6a3ce3b229bfc2bbabc726375082b445da0118d selftests/exec: Convert remaining /bin/sh to /bin/bash
          
