@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0536391028475881871=="
+Content-Type: multipart/mixed; boundary="===============8484991524916209329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 18 Mar 2024 21:34:56 -0000
-Message-Id: <171079769660.29357.10397833896430696249@gitolite.kernel.org>
+Date: Mon, 18 Mar 2024 21:35:15 -0000
+Message-Id: <171079771526.31127.1413210032579126609@gitolite.kernel.org>
 
---===============0536391028475881871==
+--===============8484991524916209329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 6eeeca231cbe41746b18211e3c39d2b45d250da2
     new: bbb136c008e1bac123213c96cff2838627a96052
     log: revlist-6eeeca231cbe-bbb136c008e1.txt
 
---===============0536391028475881871==
+--===============8484991524916209329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c5d9ab85ebf3a42d5127ffdedf9094325465e852 Merge tag 'f2fs-for-6.9-rc1' of git://g
 bf3a69c6861ff4dc7892d895c87074af7bc1c400 Merge tag 'for-linus-6.9-ofs1' of git://git.kernel.org/pub/scm/linux/kernel/git/hubcap/linux
 bbb136c008e1bac123213c96cff2838627a96052 keys: update key quotas in key_put()
 
---===============0536391028475881871==--
+--===============8484991524916209329==--
