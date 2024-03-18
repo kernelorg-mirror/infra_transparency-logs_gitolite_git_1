@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 18 Mar 2024 19:48:19 -0000
-Message-Id: <171079129982.15668.4493060068115507430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 18 Mar 2024 20:09:12 -0000
+Message-Id: <171079255220.30554.2066594594503313638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 4c8644f86c854c214aaabbcc24a27fa4c7e6a951
-    new: 7f3edd0c72c3f7214f8f28495f2e6466348eb128
+  - ref: refs/heads/irq/urgent
+    old: 853a6030303f8a8fa54929b68e5665d9b21aa405
+    new: dce0919c83c325ac9dec5bc8838d5de6d32c01b1
     log: |
-         7f3edd0c72c3f7214f8f28495f2e6466348eb128 bpf: Remove unnecessary err < 0 check in bpf_struct_ops_map_update_elem
+         dce0919c83c325ac9dec5bc8838d5de6d32c01b1 irqchip/renesas-rzg2l: Do not set TIEN and TINT source at the same time
          
