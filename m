@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2205659547556300875=="
+Content-Type: multipart/mixed; boundary="===============2328886860411359119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 18 Mar 2024 21:00:36 -0000
-Message-Id: <171079563657.4349.3720601099683381011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 18 Mar 2024 21:00:43 -0000
+Message-Id: <171079564378.4494.16873654451084745621@gitolite.kernel.org>
 
---===============2205659547556300875==
+--===============2328886860411359119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/spi-6.9
     old: 7397175cb7b48f7a3fc699083aa46f1234904c7e
     new: 5bd249aec71d75f0088357e4aba27fde0610f823
     log: revlist-7397175cb7b4-5bd249aec71d.txt
 
---===============2205659547556300875==
+--===============2328886860411359119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1710795634 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1710795633-64826490d405dddca1934caf42783cd634945150
+pusher C3F436CA30F5D8EB 1710795641 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1710795640-f110d72caf7ac39ad54ff8a008fa8f5de4efd865
 
-7397175cb7b48f7a3fc699083aa46f1234904c7e 5bd249aec71d75f0088357e4aba27fde0610f823 refs/heads/for-6.9
+7397175cb7b48f7a3fc699083aa46f1234904c7e 5bd249aec71d75f0088357e4aba27fde0610f823 refs/heads/spi-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmX4q3IACgkQJNaLcl1U
-h9AlSwf+KzDqULW6XCDD+7tg7Sa9yDVZnIv8m+9jNpcLcWGIfTuwx2x6kdnET93O
-2bIyxjrHh/d2rODXCOSInzqIjBcVM9ltR+++RkAlGv60nlGvRShS2oxTav1BvnMG
-G8p/c8MM7d5jiSsF49LeyfwfemX71xSDB4vmiS85gww0L7jTo8f2SCpky+shFapN
-MwEOaCHrIl+9EJn6cbint1zedFYul8Gbet/xGACcyr9I1HlQmoiu+Pd2r35YDK4Q
-C6FPV/wQdPt0uBp+E0dpbqpgj37rjBHcpA3z+En18VvOTC37qtl/SGN3w1iMd8bv
-8mPeiT153M6VcbVAiOX34eZbCw2fQg==
-=EpsR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmX4q3kACgkQJNaLcl1U
+h9At6wf/Zg30OzDq9x8n/w+CVs5cBuGccAOAQGfO3iruxSTh5l8xWnbsgX+uX2/d
+ucXwzL/QELL2buVxrVyAGshvYsOSA+GRzkasRUfM49H9UEVLk6iUna2O6RhkJKT+
++EvNlcmWFb+/ZdfKxztO9/jIWooxsIrxAVphTmfqTbbtJwdOkVboKNAX33bjMJpw
+MXJcdCkFmfayHpWyVWWV2bROboHGuItxZr7LiiMrsdVMhm8ozJlrbdNHbBFxaz3t
+ciFXdGq8CICK59X05MTMeYeiFO730nY8RijaYpeDRGvzgnrW3QytnnyCqVWUF6Kb
+HCBTVJ7w+xhyEXdmOHeoUMIBzUku5g==
+=PBUK
 -----END PGP SIGNATURE-----
 
---===============2205659547556300875==
+--===============2328886860411359119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1076,4 @@ fa4b851b4ad632dc673627f38a8a552547568a2c Merge tag 'trace-ring-buffer-v6.8-rc7' 
 e8f897f4afef0031fe618a8e94127a0934896aba Linux 6.8
 5bd249aec71d75f0088357e4aba27fde0610f823 spi: Merge up v6.8 release
 
---===============2205659547556300875==--
+--===============2328886860411359119==--
