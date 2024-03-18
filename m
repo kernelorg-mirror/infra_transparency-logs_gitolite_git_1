@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
-Date: Mon, 18 Mar 2024 11:17:50 -0000
-Message-Id: <171076067061.20597.7327492832523885215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 18 Mar 2024 11:20:16 -0000
+Message-Id: <171076081626.23135.11084212291511791469@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fdmanana/linux
-user: fdmanana
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-next
-    old: 41a71956410c7f97201455a9c3b926389e0e2936
-    new: a0c4d4597ee7e7aeb6d3a7edbfaa03584ce562e4
+  - ref: refs/heads/irq/urgent
+    old: ca5b0b717b75d0f86f7f5dfe18369781bec742ad
+    new: 853a6030303f8a8fa54929b68e5665d9b21aa405
     log: |
-         b4e48ed33079e214f3b3bdfdaf3a84e31da07f54 btrfs: inline btrfs_tree_lock() and btrfs_tree_read_lock()
-         787f021adb10bf2d39a783ae7f5291505d097ad6 btrfs: rename __btrfs_tree_lock() and __btrfs_tree_read_lock()
-         a0c4d4597ee7e7aeb6d3a7edbfaa03584ce562e4 btrfs: avoid pointless wake ups of drew lock readers
+         9eec61df55c51415409c7cc47e9a1c8de94a0522 irqchip/renesas-rzg2l: Flush posted write in irq_eoi()
+         7cb6362c63df233172eaecddaf9ce2ce2f769112 irqchip/renesas-rzg2l: Rename rzg2l_tint_eoi()
+         b4b5cd61a6fdd92ede0dc39f0850a182affd1323 irqchip/renesas-rzg2l: Rename rzg2l_irq_eoi()
+         853a6030303f8a8fa54929b68e5665d9b21aa405 irqchip/renesas-rzg2l: Prevent spurious interrupts when setting trigger type
          
