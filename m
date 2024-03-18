@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7389857397868082456=="
+Content-Type: multipart/mixed; boundary="===============9022735864935313780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Mon, 18 Mar 2024 21:12:32 -0000
-Message-Id: <171079635245.13751.3191949898571163802@gitolite.kernel.org>
+Date: Mon, 18 Mar 2024 21:13:03 -0000
+Message-Id: <171079638323.14028.15187721212491506303@gitolite.kernel.org>
 
---===============7389857397868082456==
+--===============9022735864935313780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,91 +15,76 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
 user: jaegeuk
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: dbfad46cec0191816fb9c301df0cc7d0a9bbe058
-    new: b3173567e89a734d209f00d1649487c997affa11
-    log: revlist-dbfad46cec01-b3173567e89a.txt
-  - ref: refs/tags/6.9-rc1-6.1
-    old: 0000000000000000000000000000000000000000
+  - ref: refs/heads/linux-6.1.y
+    old: 8e24d4a68fdcf2dc2af58b518f921781071363ae
     new: ff55757ac531c915413c1a62ad0f7509c9f53a9c
-  - ref: refs/tags/6.9-rc1-6.6
-    old: 0000000000000000000000000000000000000000
-    new: b3173567e89a734d209f00d1649487c997affa11
-  - ref: refs/tags/v6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a0706eba72b90a4702dde6a0b8cc82d78e9b2495
-  - ref: refs/tags/v6.8-rc2
-    old: 0000000000000000000000000000000000000000
-    new: c18956a7ed4b71eec72700a0899ad21167b994bb
-  - ref: refs/tags/v6.8-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0b5b909d9a9083afacaac2a75dac24ba3649f692
+    log: revlist-8e24d4a68fdc-ff55757ac531.txt
 
---===============7389857397868082456==
+--===============9022735864935313780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dbfad46cec01-b3173567e89a.txt
+Content-Disposition: attachment; filename=revlist-8e24d4a68fdc-ff55757ac531.txt
 
-f0812408114a5450c1e7273d5f04ced41947b037 f2fs: move release of block devices to after kill_block_super()
-520bf71bbb0ba87bdbf2b7443b4bdf7af34aef3f f2fs: fix double free of f2fs_sb_info
-9160a4a1ab06cea338714fa09d4fc2b12b2611eb f2fs: remove unnecessary f2fs_put_page in f2fs_rename
-ab7195f6a6fbe88cd1a338cbbb7ed12b3fe061dd f2fs: check free sections before disable checkpoint
-0370701e6d3916e6b83501a375d21e3339e434fe f2fs: compress: fix to guarantee persisting compressed blocks by CP
-2d892a8e4d878491891dca5de5f672f9d27e7da9 f2fs: compress: fix to cover normal cluster write with cp_rwsem
-465473f3086ab865faeaaedb4db55dc54b486d1f f2fs: compress: fix to check unreleased compressed cluster
-f6d93c2a4d9db201dd018f6d3beabd15b5d93dad f2fs: compress: fix to avoid inconsistence bewteen i_blocks and dnode
-984355f175bace837161560d92207f4fe414553e f2fs: fix to remove unnecessary f2fs_bug_on() to avoid panic
-eef5bb3f7ee055095f177f270d6d1403b8b2a4c2 f2fs: introduce FAULT_BLKADDR_CONSISTENCE
-b5dcce041cd0269f2aeec6202a0a0576f57c85dc f2fs: zone: fix to wait completion of last bio in zone correctly
-602f5c08f1cf167048c2a663f4bbacc45943da63 f2fs: fix NULL pointer dereference in f2fs_submit_page_write()
-7cff73a3b22bb6a8e03c0c954865bd35f15d90b4 f2fs: support printk_ratelimited() in f2fs_printk()
-af9222b6030f60708ba63a37a5d2c71ba09b52c0 f2fs: use f2fs_err_ratelimited() to avoid redundant logs
-b533a9517b36432bbde029ce0c633cbd9a111587 f2fs: compress: fix to cover f2fs_disable_compressed_file() w/ i_sem
-99ae66d25ad4baa57d837f10a232d870c72ba9e6 f2fs: compress: remove some redundant codes in f2fs_cache_compressed_page
-3f8db12ed0e5166601ab974bc2bb4828381957e8 f2fs: use IS_INODE replace IS_DNODE in f2fs_flush_inline_data
-28fa384385ca585a039e16da18eb92d29a446f63 f2fs: fix to avoid potential panic during recovery
-07054fb4ce6aef18796c14a7f745f9ba3b88a02f f2fs: deprecate io_bits
-ab60111c74792bf08bb0b256988de1841d4182f0 f2fs: use BLKS_PER_SEG, BLKS_PER_SEC, and SEGS_PER_SEC
-18b74965a3a5b920542107928debfbab3384479c f2fs: separate f2fs_gc_range() to use GC for a range
-3a82ed9f12dfec6e7f69c4ec3942a760271a3f1b f2fs: fix to create selinux label during whiteout initialization
-66b9205bac47289bc68c603b82189594d32f2060 f2fs: compress: fix to check zstd compress level correctly in mount option
-3114989ce9cb4d64ef9ec3d3e2c5e176eb81eb73 f2fs: support SEEK_DATA and SEEK_HOLE for compression files
-3407055e27f4ca0d720d34522d32d6f64d6e5012 f2fs: kill heap-based allocation
-f31273d740cd0eeebc08015e3fc30c4e89ec3e38 f2fs: support file pinning for zoned devices
-415a5314c67787220b5e324117a5d4eca95c6433 f2fs: introduce get_available_block_count() for cleanup
-a260459bc6ef2b4749fb8b9a9030e8ed45a77714 f2fs: delete f2fs_get_new_segment() declaration
-22d4368bd23c93de6b1bc3ef91967c34be160141 f2fs: stop checkpoint when get a out-of-bounds segment
-ee8bc5f3636883349db5516a3a723933a9752cb8 f2fs: fix to handle segment allocation failure correctly
-82b99bd00363b1260200eb1b45672f6a6eebd756 f2fs: compress: fix to check compress flag w/ .i_sem lock
-8a09e98eb604d748e986317074d6ad3c55a84a29 f2fs: introduce FAULT_NO_SEGMENT
-77a5168f69c649525fab3dbf4a48b0c4d794a3d7 f2fs: prevent an f2fs_gc loop during disable_checkpoint
-0e3456b1ec7fa607eebc9f68f94e44331b1bb521 f2fs: check number of blocks in a current section
-ed36978fa82da135d3b75ac87175ff21279f0c6b f2fs: fix write pointers all the time
-60a6cfbd4c5b9b50368b9868507388c040b44d4e f2fs: print zone status in string and some log
-90e6f03aade2780ebadef9bfb4ae74793b7fc70c f2fs: allow to mount if cap is 100
-bc247c08c3b977116d9da432afe7b665be78f5c1 f2fs: fix to use correct segment type in f2fs_allocate_data_block()
-83cec6aa445313cab7518c22d5772f8640bcdcec f2fs: fix to check return value in f2fs_insert_range()
-c5198905f0856b5d3a7d974378234feb4d749bf2 f2fs: ro: compress: fix to avoid caching unaligned extent
-176421e9d794ab6667ff5efcfa498a68e298f4e4 f2fs: ro: don't start discard thread for readonly image
-870546e272e45ba59dd2964716f85442b5dc4f29 f2fs: fix blkofs_end correctly in f2fs_migrate_blocks()
-dd0a41dfa0eed83d9115dbd8d611f6c1fc73bc5d f2fs: relocate f2fs_precache_extents() in f2fs_swap_activate()
-4c18c1107c5390434964974685f661ccd716899f f2fs: clean up new_curseg()
-f945cebe09040704924edc01aca52cd627b8bf71 f2fs: fix to reset fields for unloaded curseg
-fb7f3bdc4da1a96849f5403a928bde799cfc1e93 f2fs: fix to do sanity check in update_sit_entry
-ca702aed64d80e34027eb0ed7a47249d45ed7021 f2fs: fix to check return value __allocate_new_segment
-7472e183e9fbc86fced1890170967b38a1c2cc58 f2fs: fix to check return value of f2fs_gc_range
-086735c671ebe254e95f313632132f6f159dab70 f2fs: introduce SEGS_TO_BLKS/BLKS_TO_SEGS for cleanup
-565aefbfd7680dd0ee2f8a7ae50bec34ff539acd f2fs: add a proc entry show disk layout
-b3fe0e8cb60ade69394190a10b615ed59033dbab f2fs: compress: relocate some judgments in f2fs_reserve_compress_blocks
-34c8e9c114be2c7daf1a506c17d0fb5b9b7c0483 f2fs: compress: fix reserve_cblocks counting error when out of space
-7bb861b0b15b42d58669a0a23ce0b7efb1b6c6e5 f2fs: fix to truncate meta inode pages forcely
-0f373eb3d50eb2eb48ac63d4ae87f34fe4bf0a7f f2fs: zone: fix to remove pow2 check condition for zoned block device
-c7ed55c7ed729d3ea96b9c2eb15acacc584d6efa f2fs: unify the error handling of f2fs_is_valid_blkaddr
-a7c4ac490996318afb96fe01160d1798d7c97f2a f2fs: fix to handle error paths of {new,change}_curseg()
-d37439f83cdd3c690b848cf7192df8f6d1f1f498 f2fs: prevent atomic write on pinned file
-084878ccaf3085715775b2fa1a09060a5361aa11 f2fs: mark inode dirty for FI_ATOMIC_COMMITTED flag
-8bcfc7520aa6cd65f12405cd340f12e61775ea61 f2fs: truncate page cache before clearing flags when aborting atomic write
-b3173567e89a734d209f00d1649487c997affa11 f2fs: fix to avoid use-after-free issue in f2fs_filemap_fault
+f75e378a8b99e498ffc46da8108a665126dc7560 f2fs: move release of block devices to after kill_block_super()
+ff00bc37f6c52b15fc48063d731795304baab160 f2fs: fix double free of f2fs_sb_info
+d06f4e10e95f79d9386617443714dac544b7d8b8 f2fs: remove unnecessary f2fs_put_page in f2fs_rename
+64427afa05c9971df3a32c6284fd2b52c117e625 f2fs: check free sections before disable checkpoint
+9de8bb79d0ca071c7ffed6f314226b2ee75ebfb4 f2fs: compress: fix to guarantee persisting compressed blocks by CP
+da07cf2f30dc3e4ae5ad9bdfae675e0ee9883044 f2fs: compress: fix to cover normal cluster write with cp_rwsem
+14d5521fbced97103d591bd8effadc3bf0c3f1a5 f2fs: compress: fix to check unreleased compressed cluster
+7c46e75ef6a36bce6ea82282cb77f4e5837460d6 f2fs: compress: fix to avoid inconsistence bewteen i_blocks and dnode
+8b170d4aedd3c6f9124e56ad08023e37fca6cd34 f2fs: fix to remove unnecessary f2fs_bug_on() to avoid panic
+6f3700bdbe1da646296b752a9fe00472aebdc354 f2fs: introduce FAULT_BLKADDR_CONSISTENCE
+930cda9bd1aa4a9d45532385643193d7e860425d f2fs: zone: fix to wait completion of last bio in zone correctly
+d11083f5cbad927a25f66d170d334e914cfef484 f2fs: fix NULL pointer dereference in f2fs_submit_page_write()
+2570cced1541ab5abcba661289b108100c314378 f2fs: support printk_ratelimited() in f2fs_printk()
+7b948bc87957754d31cc7a02af69f6afc00d5858 f2fs: use f2fs_err_ratelimited() to avoid redundant logs
+a193d0864b64a9f764b59fc64560060664aec324 f2fs: compress: fix to cover f2fs_disable_compressed_file() w/ i_sem
+ca975baf57ae61175687c86fb96b72cd7bd796ec f2fs: compress: remove some redundant codes in f2fs_cache_compressed_page
+962706f6579c20005960e366731be69802f6ca2a f2fs: use IS_INODE replace IS_DNODE in f2fs_flush_inline_data
+f87df876ec25e15b0019fa6f44bf2c3283eae6d5 f2fs: fix to avoid potential panic during recovery
+3f2ef358c43d7d3eb66cdda2411312947e51c250 f2fs: deprecate io_bits
+c451bb9722f4e86f35db7bb6a41be0bbd6214116 f2fs: use BLKS_PER_SEG, BLKS_PER_SEC, and SEGS_PER_SEC
+1e512227369413ddae8ff6de5f3dcaa88a000fe2 f2fs: separate f2fs_gc_range() to use GC for a range
+851512cf82b782134a45fc6c819af7602d8618f9 f2fs: fix to create selinux label during whiteout initialization
+a253200e78e5b590506e4a724cfd887c4351f204 f2fs: compress: fix to check zstd compress level correctly in mount option
+2d596e3bdf0612779893dc611694df52c67bad2d f2fs: support SEEK_DATA and SEEK_HOLE for compression files
+8f583d12b6f19cf6472fc943c10c53c59970db34 f2fs: kill heap-based allocation
+0cee6788f26f8663dd4a6be051aabebcea9a01ce f2fs: support file pinning for zoned devices
+77505415605f2708344ad876ea98f1007fe0ad3f f2fs: introduce get_available_block_count() for cleanup
+837350ec4ff473166e42af678b1a7e036e500d02 f2fs: delete f2fs_get_new_segment() declaration
+09929240976054a9bbafc9b8e40ab0c39492ce09 f2fs: stop checkpoint when get a out-of-bounds segment
+6e11b53cd07ed1cf7519d536e73fe379b7149996 f2fs: fix to handle segment allocation failure correctly
+2bf5a4175a0de9b7899d53fdf380274e2c71fd3f f2fs: compress: fix to check compress flag w/ .i_sem lock
+7ea1437c933f795c1f273e110a084e890d6d7251 f2fs: introduce FAULT_NO_SEGMENT
+d357bdae592f2ebce7204ecb66ca8e7f1be5570e f2fs: prevent an f2fs_gc loop during disable_checkpoint
+d61d992b40e0035ecab18ac5aef49f2a5e6e5b02 f2fs: check number of blocks in a current section
+f9b7b2358e75ed0cb68efbe67b5d9b13e1266089 f2fs: fix write pointers all the time
+83611e5ccbfaf1c18b09d65aa2f2623e49facbbd f2fs: print zone status in string and some log
+60b6dcd4bb68af2ed4eab21fa67d41da918155fb f2fs: allow to mount if cap is 100
+4d783468352be0d6de612ec63f678d34dfb93de9 f2fs: fix to use correct segment type in f2fs_allocate_data_block()
+6210b5cdc9319259c37086df244e289453d6abdd f2fs: fix to check return value in f2fs_insert_range()
+eda0cbdbaae1e66418745d859bbf2aaa56673002 f2fs: ro: compress: fix to avoid caching unaligned extent
+f22b7d3194e97a00633a3fd7f85e7ff0824cf615 f2fs: ro: don't start discard thread for readonly image
+5640a3316681554cbc96fbfec598ba475e842c80 f2fs: fix blkofs_end correctly in f2fs_migrate_blocks()
+b4513908b2358d4754c0b76ab3c19fe397a7b722 f2fs: relocate f2fs_precache_extents() in f2fs_swap_activate()
+855f8ae7c49366ba4a4b0e1ad5bff1a979642a78 f2fs: clean up new_curseg()
+d1d9da9e0925f39812088a30de447ef2bf361461 f2fs: fix to reset fields for unloaded curseg
+07e39262a778ca5d49ab0bf0e3f06ede26b90b99 f2fs: fix to do sanity check in update_sit_entry
+b607e75e6b89404a024f2f70c59ba429aff418b8 f2fs: fix to check return value __allocate_new_segment
+985553842afdcf2a55f065aea4d2ebd5fc9413f3 f2fs: fix to check return value of f2fs_gc_range
+8c56e03b28f24420ea992639e9181ff27305232d f2fs: introduce SEGS_TO_BLKS/BLKS_TO_SEGS for cleanup
+ca0e080cade5afe019ffd074288f9fbca6364d87 f2fs: add a proc entry show disk layout
+24c98ce6ee36d1bf771e71147af383a5a1830b37 f2fs: compress: relocate some judgments in f2fs_reserve_compress_blocks
+eda5a3428b72dfcdde449d349d9c2433e6f2ac5d f2fs: compress: fix reserve_cblocks counting error when out of space
+0db3bb05711641a87b431b7c0a9e9e3fbcb2f41d f2fs: fix to truncate meta inode pages forcely
+68213c1e1e6208df2ec469547da66ec064786a16 f2fs: zone: fix to remove pow2 check condition for zoned block device
+eba6dd29a95997c8d1b4288b9bfc8b67b08213fb f2fs: unify the error handling of f2fs_is_valid_blkaddr
+4e1093f9ec28eba7063e291e61190d0d6e7614af f2fs: fix to handle error paths of {new,change}_curseg()
+fb3c036508b65b4405282178e695d400ca2d4101 f2fs: prevent atomic write on pinned file
+71d192d6dad11b1f0e8334b9abcc5beb6bd9e696 f2fs: mark inode dirty for FI_ATOMIC_COMMITTED flag
+739fbcfb6d68971ad612b0c487784a659fba9b7e f2fs: truncate page cache before clearing flags when aborting atomic write
+ff55757ac531c915413c1a62ad0f7509c9f53a9c f2fs: fix to avoid use-after-free issue in f2fs_filemap_fault
 
---===============7389857397868082456==--
+--===============9022735864935313780==--
