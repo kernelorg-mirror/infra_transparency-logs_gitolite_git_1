@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Mon, 18 Mar 2024 21:17:07 -0000
-Message-Id: <171079662759.17195.568637347934985803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 18 Mar 2024 21:23:01 -0000
+Message-Id: <171079698104.20961.10740076070916043026@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
   - ref: refs/heads/master
-    old: d598fa7becc14dfebf499d4b9d811339d14ee3e9
-    new: a703d1cc8e7edb4c3310b81f179936b547e06fdf
+    old: 7b30c296af6525571fc967f6a8661f6e1127369e
+    new: c733239f8f530872a1f80d8c45dcafbaff368737
     log: |
-         df0a313e1c523c7bac9184ccd48074663705a506 qmi: Discover timeout could cause a crash
-         85c935720dbd1f33bb98ec32713f9eda40ec5bfc qmi: Fix printing the wrong type for services
-         a703d1cc8e7edb4c3310b81f179936b547e06fdf qmi: Allow QRTR services to be destroyed
+         e3362acd796789dc0562eb1a3937007b0beb0c5b bpf: Remove arch_unprotect_bpf_trampoline()
+         c733239f8f530872a1f80d8c45dcafbaff368737 bpf: Check return from set_memory_rox()
          
