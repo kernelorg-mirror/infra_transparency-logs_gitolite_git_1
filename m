@@ -1,107 +1,119 @@
-Content-Type: multipart/mixed; boundary="===============6075479293811653722=="
+Content-Type: multipart/mixed; boundary="===============2837496219178245816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 18 Mar 2024 22:46:11 -0000
-Message-Id: <171080197191.19058.12202293108610308800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 18 Mar 2024 22:50:03 -0000
+Message-Id: <171080220398.22129.4554141869679057033@gitolite.kernel.org>
 
---===============6075479293811653722==
+--===============2837496219178245816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: bf3a69c6861ff4dc7892d895c87074af7bc1c400
-    new: b3603fcb79b1036acae10602bffc4855a4b9af80
-    log: revlist-bf3a69c6861f-b3603fcb79b1.txt
+  - ref: refs/heads/io_uring-recvsend-bundle
+    old: 6c2d57840c36bdcba717620683a523d80db5faa6
+    new: 43fa1243320724c318c038a97de453a6c746ba61
+    log: revlist-6c2d57840c36-43fa12433207.txt
+  - ref: refs/heads/io_uring-ring-map
+    old: cdb51e8169b9e786d9f031e8cefb5723fda92661
+    new: 557a65bf4d0e899995ba144fc3e00e3e898f8499
+    log: revlist-cdb51e8169b9-557a65bf4d0e.txt
 
---===============6075479293811653722==
+--===============2837496219178245816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf3a69c6861f-b3603fcb79b1.txt
+Content-Disposition: attachment; filename=revlist-6c2d57840c36-43fa12433207.txt
 
-4c09f7405e461f7308f652da181c2c06f6d255a3 IB/hfi1: fix spellos and kernel-doc
-6482718086bf69f9616d0b86d03514b17afaeb08 RDMA/rxe: Improve newline in printing messages
-190a7affeece58f7727b5cad51d4d51461ece146 RDMA/rxe: Remove rxe_info from rxe_set_mtu
-64854534ff96641e69fa1b7b2caab54259255c14 RDMA/ipoib: Print symbolic error name instead of error code
-a4ca341080758d847db155b97887bff6f84016a4 RDMA/hns: Refactor mtr find
-4f5731b1fb2246719513dfb918bf71b6818aa5f5 RDMA/hns: Refactor mtr_init_buf_cfg()
-6afc859518319d78164ec616e736af45acbf1cec RDMA/hns: Alloc MTR memory before alloc_mtt()
-0ff6c9779aafc24dd253fdf4e2d6e2dc68940818 RDMA/hns: Support flexible umem page size
-2eb999b3d40ff825121784ec38dd5ab0abb7b606 RDMA/hns: Support adaptive PBL hopnum
-c00743cbf2b8f730a4274da5f2a606c424a0e9de RDMA/hns: Simplify 'struct hns_roce_hem' allocation
-71c8cbfcdc8f1dc651b976d4c12dc9b9fce675c1 RDMA/mana_ib: Introduce mdev_to_gc helper function
-3b73eb3a4acdf563de49d825968bb5f10300acd4 RDMA/mana_ib: Introduce mana_ib_get_netdev helper function
-2a31c5a7e0d87959a03e846523013c75f4395a91 RDMA/mana_ib: Introduce mana_ib_install_cq_cb helper function
-9bd5653f76772c16d07701f1b741a1ea37b7356f RDMA/cxgb4: Delete unused c4iw_ep_redirect prototype
-a400073ce3dd3dbdf843e6c9c0a0a7f6ca9f05d7 RDMA/mlx5: Delete unused mlx5_ib_copy_pas prototype
-809c9c3bd6997edf2dcee4e1eb856425263be4f3 RDMA/efa: Limit EQs to available MSI-X vectors
-926e8ea4b8dac84f6d14a4b60d0653f1f2ba9431 RDMA/irdma: Remove duplicate assignment
-c21a8870c98611e8f892511825c9607f1e2cd456 RDMA/srpt: Do not register event handler until srpt device is fully setup
-aafe4cc5096996873817ff4981a3744e8caf7808 RDMA/rxe: Remove unused 'iova' parameter from rxe_mr_init_user
-cec030ec414ec94fb25b49da688eea264e054e42 MAINTAINERS: Update sysctl tree location
-d20a7cf9f714f0763efb56f0f2eeca1cb91315ed RDMA/hns: Fix mis-modifying default congestion control algorithm
-7a8bccd8b29c321ac181369b42b04fecf05f98e2 RDMA/device: Fix a race between mad_client and cm_client init
-14b526f55ba5916856126f9793309fd6de5c5e7e RDMA/uverbs: Remove flexible arrays from struct *_filter
-0f6588b351d4fbec8f8e63e99df20fec6f121e4a scripts: check-sysctl-docs: adapt to new API
-8e88291043155956c2851c44e8fd0a562ea2ee49 ipc: remove linebreaks from arguments of __register_sysctl_table
-4f1136a55dc8e2c27d51e934d0675e12331c7291 scripts: check-sysctl-docs: handle per-namespace sysctls
-7a7b7f575a25aa68ee934ee8107294487efcb3fe RDMA/rtrs-clt: Check strnlen return len in sysfs mpath_policy_store()
-6ec429d5887a41b2dc8d92e391552f5604085cc2 RDMA/hns: Support userspace configuring congestion control algorithm with QP granularity
-155f04366e3cad7cc7471f8736aa05ec0300cddd RDMA/uverbs: Avoid -Wflex-array-member-not-at-end warnings
-124a9fbe43aa227cabddba1ecde67f40cae74abb RDMA/hns: Append SCC context to the raw dump of QPC
-e02497fb654689049ba8b46f098f17d5f19e0b3c RDMA/mana_ib: Fix bug in creation of dma regions
-2d5c00815778ec4f4e0a84e405e3e157b7815db1 RDMA/mana_ib: Use virtual address in dma regions for MRs
-96d9cbe2f2ff7abde021bac75eafaceabe9a51fa RDMA/cm: add timeout to cm_destroy_id wait
-2ab3d705ca5d4f7ea345a21c3da41a447a549649 dlm: fix user space lkb refcounting
-ca8edb78c174a7841cd6ab034ee1bcf178c4e8e9 ktest.pl: Process variables within variables
-07283c1873a4d0eaa0e822536881bfdaea853910 ktest: force $buildonly = 1 for 'make_warnings_file' test type
-484b4f90c28f441e71e9d7df407c5b76578d2658 dlm: revert atomic_t lkb_wait_count
-c53309b912fdd652eb3c2de44626aac4b0fc9bf9 dlm: add comments about forced waiters reset
-04204cd9b0b450bfe561a5f8d0fc91288c6427ab eventfs: Add WARN_ON_ONCE() to checks in eventfs_root_lookup()
-c3137ab6318d56370dd5541ebf027ddfc0c8557c eventfs: Create eventfs_root_inode to store dentry
-0b18c852cc6fb8284ac0ab97e3e840974a6a8a64 tracing: Have saved_cmdlines arrays all in one allocation
-e85d471c2be5d3d4dadee1110db316f352daaf0b tracing: Move open coded processing of tgid_map into helper function
-2cc621fd2e9b8494df06de459c14738cf76add91 tracing: Move saved_cmdline code into trace_sched_switch.c
-6b76323e5a483e53568254146c3d141123f3b839 ring-buffer: Zero ring-buffer sub-buffers
-f1e30cb6369251c03f63c564006f96a54197dcc4 ring-buffer: use READ_ONCE() to read cpu_buffer->commit_page in concurrent environment
-b70f2938242a028f8e9473781ede175486a59dc8 ring-buffer: Make wake once of ring_buffer_wait() more robust
-180e4e390978af9d0cc060e87920c462276453b9 tracing: Add snapshot refcount
-1e953de9e9b4ca77a9ce0fc17a0778eba3a4ca64 tracing/user_events: Prepare find/delete for same name events
-64805e4039f1687b9857034123a9ec10bb9abddd tracing/user_events: Introduce multi-format events
-bcb7bdcc17e0e8d79b19748d912ae6991f087345 selftests/user_events: Test multi-format events
-3727db1c09b44c5bdcf2497a538da24beee16a3a tracing/user_events: Document multi-format flag
-ed89683763a12e8289cce6f233dd07b4eb42fb96 tracing: Use init_utsname()->release
-9388a2aa453321bcf1ad2603959debea9e6ab6d4 NFSD: Fix nfsd_clid_class use of __string_len() macro
-0df4c388a1e310400a6e90fb10b286e2673756f0 drm/i915: Add missing ; to __assign_str() macros in tracepoint code
-3f9952e8d80cca2da3b47ecd5ad9ec16cfd1a649 net: hns3: tracing: fix hclgevf trace event strings
-6c871260965255a1c142fb77ccee58b172d1690b cxl/trace: Properly initialize cxl_poison region name
-c1fa617caeb005e7e3db60826cff6dddebb0363f tracing: Rework __assign_str() and __string() to not duplicate getting the string
-e8b737bfb16a0d540413173e8d1574e3bf8cc0e9 tracing: Do not calculate strlen() twice for __string() fields
-916849860fa9c7d3caeb144cb5dec8831cf23bfc tracing: Use ? : shortcut in trace macros
-70a6ed553f7d3504febac467cb4a0bae621ba3c6 tracing: Use EVENT_NULL_STR macro instead of open coding "(null)"
-cca990c7b565af0dc61a8f647c00833453cf5bff tracing: Fix snapshot counter going between two tracers that use it
-2048fdc27525c6b32c63f8429d9335b7fd2f90c2 tracing: Decrement the snapshot if the snapshot trigger fails to register
-d15304135c7f6cbcbf9e6e37814de495a56d51f8 ftrace: Fix most kernel-doc warnings
-c759e609030ca37e59866cbc849fdc611cc56292 tracing: Remove __assign_str_len()
-dd6ae6d90a84d4bec49887c7aa2b22aa1c8b2897 tracing: Add __string_len() example
-cf986e57d606849288eecf572800f2bd476fb1ab tracing: Add warning if string in __assign_str() does not match __string()
-0bdfb68c845edd7e2dbe815266bb09641576e22f tracing: Remove second parameter to __assign_rel_str()
-19f0423fd55c301c8edaea286e568ec657f42750 tracing: Support to dump instance traces by ftrace_dump_on_oops
-d6cb38e10810743addf8cac0b277861d614de1e9 tracing: Use div64_u64() instead of do_div()
-1b273124107cc8b9dd52228eba701efa516a3d92 tracepoints: Use WARN() and not WARN_ON() for warnings
-b1afefa62ca9d77c8b1d386c3512fb4f21cb7db1 tracing: Use strcmp() in __assign_str() WARN_ON() check
-7604256cecef34a82333d9f78262d3180f4eb525 tracing: Add __string_src() helper to help compilers not to get confused
-2cb5c8683981ebd5033e3cc91f7dd75794f16e61 Merge tag 'sysctl-6.9-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
-ad584d73a22b2f6e6b4c928956fdece5c44cdb3e Merge tag 'trace-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-65b64246f28bee13f9c15e4f0847fd6cca39ada3 Merge tag 'ktest-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-ktest
-6207b37eb5c5e48f45f3ffe0a299d2df6b42ed69 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-b3603fcb79b1036acae10602bffc4855a4b9af80 Merge tag 'dlm-6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
+04e5cf364ce46281ed9ac40411aa295ed3c4da69 Merge branch 'io_uring-6.9' into for-6.10/io_uring
+725041160c9e9788b6b6fd999463c95c190db0cd io_uring/cmd: move io_uring_try_cancel_uring_cmd()
+f7affeb33af43866ac92d9f935dd9918a966ad6d io_uring/cmd: kill one issue_flags to tw conversion
+f5291dea01a138e9ce105e3695be882ea18d26db io_uring/cmd: fix tw <-> issue_flags conversion
+fc821203686bba6bb87ff9d2814397f5d500ee57 io_uring/cmd: introduce io_uring_cmd_complete
+21743bae3e18af04890052833ec69880c954ce59 nvme/io_uring: don't hard code IO_URING_F_UNLOCKED
+c44af32ff2d7d4efedb939f53489ca8afe4ff17a io_uring/rw: avoid punting to io-wq directly
+4a501905376be534a7582019a867dc9a2422a062 io_uring: force tw ctx locking
+e4a0b4f995b59e83cb9ddbfd4c02a288f7bb40c4 io_uring: remove struct io_tw_state::locked
+44f613aa68cc978ae6d6666bae44ba6f89ad3210 io_uring: refactor io_fill_cqe_req_aux
+8def7e7719dbbb6250d2ac6545026c70d23a65ca io_uring: get rid of intermediate aux cqe caches
+5411163645d61ee330d65903579d7265a1719c34 io_uring: remove current check from complete_post
+044dbd0f54743ff84f76c72efaaa9fc00e0779fb io_uring: refactor io_req_complete_post()
+2ec00851f20863ca0b63b4af86d171daceffe594 io_uring: clean up io_lockdep_assert_cq_locked
+63eb2b21f0cd7ff1166ec5d8d9220d5d3aefc5c8 io_uring: flush delayed fallback task_work in cancelation
+9d37ccc765d8263100ffad9ba2dfc308ac9dbdcb io_uring: remove timeout/poll specific cancelations
+f4bb7cde846b27a9ca416f23f09db4e9242bb31b Merge branch 'io_uring-6.9' into io_uring-ring-map
+c55b12265f38df7846d867b454e111c9b69d860b Merge branch 'for-6.10/io_uring' into io_uring-ring-map
+b686d8adbd5fe645b46a6370cbc9136f0d6c0516 io_uring/kbuf: get rid of lower BGID lists
+069191fe9532b3404a147de8c70418a39aae3106 io_uring/kbuf: get rid of bl->is_ready
+da35c024cacd533430ed7be7c0e0330f00e4a3bc io_uring/kbuf: vmap pinned buffer ring
+1e26133b66d7b4dff924db6759493afdd1670097 io_uring/kbuf: protect io_buffer_list teardown with a reference
+ff7ccb5aa8b19a0b9269ac88cd386fd4a16e110f mm: add nommu variant of vm_insert_pages()
+fe9284a09ad6d3c6fbc59dd07e11a7815452441c io_uring/kbuf: use vm_insert_pages() for mmap'ed pbuf ring
+5cc12dd1e9b7bf07d0a581f13fcbb9138b97eb4d io_uring: get rid of remap_pfn_range() for mapping rings/sqes
+5e398ed5b343f316f81f05bbce5cf8cd2a2aa962 io_uring: use vmap() for ring mapping
+88e257ca79222d0a4ddaaddea5e2a12614164ee6 io_uring: unify io_pin_pages()
+d3715f8340058531b13f72910e5e6c8806e00265 io_uring: use unpin_user_pages() where appropriate
+557a65bf4d0e899995ba144fc3e00e3e898f8499 io_uring: alloc ring memory as a compound page, if possible
+625cb475f74c9d6b0bf1c3a6d544b8f36e6d221e Merge branch 'io_uring-6.9' into io_uring-recvsend-bundle
+8db9cad1f9b3c04d6fe7c14b3f002626d6672b4a Merge branch 'for-6.10/io_uring' into io_uring-recvsend-bundle
+ebe4fdae0a2e4f1ef3d632263d6f7877026cc4c1 Merge branch 'io_uring-ring-map' into io_uring-recvsend-bundle
+c0b6d7e3d78b0db86d706df2efa7e2abb31bd84e io_uring/net: drop unused 'fast_iov_one' entry
+5b4027c1b9a5e9d34e5b459df6260cd2e30f9d98 io_uring/alloc_cache: shrink default max entries from 512 to 128
+16cf9063c8e2d2a98354109cdfbf91c193b4e240 io_uring/net: switch io_send() and io_send_zc() to using io_async_msghdr
+b76b3d9df17bac00eae021eac7ba735014b48eec io_uring/net: switch io_recv() to using io_async_msghdr
+f00caa7341ab2ad4327a45b5bcfab74f1a40eabe io_uring/net: unify cleanup handling
+c141ae0e6c9f91e369c0248f9c4f20bb34f94f75 io_uring/net: always setup an io_async_msghdr
+fa0ac660d2d8038200004416c80c638e2eef20e5 io_uring/net: get rid of ->prep_async() for receive side
+0e03b53ecb1b42956d82ed408a46ee02edd5db1e io_uring/net: get rid of ->prep_async() for send side
+85b4c10e12e4443b83b85c58ce522e93102cb2ea io_uring: kill io_msg_alloc_async_prep()
+eb812afcff34b5581abdaafa93e2f750c6914f65 io_uring/net: add iovec recycling
+fda866fd7c320673c9c3fa348cf329cba27be85b io_uring/net: drop 'kmsg' parameter from io_req_msg_cleanup()
+a4c0a5ea397201fab5b9f8d56690c197e0fcacc9 io_uring/net: add generic multishot retry helper
+3ec233eb80651a6b38824519734dba5b192d0f32 io_uring/net: add provided buffer support for IORING_OP_SEND
+b394407d281ebb52aafef2db0d2ab55c93e5914f io_uring/kbuf: add helpers for getting/peeking multiple buffers
+ec214d34d01674de530937743886d885fc6a1e7d io_uring/net: support bundles for send
+00c0c63a809e5fb4f0e2a7964589529ede965d3b io_uring/net: support bundles for recv
+43fa1243320724c318c038a97de453a6c746ba61 io_uring/rw: always setup io_async_rw for read/write requests
 
---===============6075479293811653722==--
+--===============2837496219178245816==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cdb51e8169b9-557a65bf4d0e.txt
+
+04e5cf364ce46281ed9ac40411aa295ed3c4da69 Merge branch 'io_uring-6.9' into for-6.10/io_uring
+725041160c9e9788b6b6fd999463c95c190db0cd io_uring/cmd: move io_uring_try_cancel_uring_cmd()
+f7affeb33af43866ac92d9f935dd9918a966ad6d io_uring/cmd: kill one issue_flags to tw conversion
+f5291dea01a138e9ce105e3695be882ea18d26db io_uring/cmd: fix tw <-> issue_flags conversion
+fc821203686bba6bb87ff9d2814397f5d500ee57 io_uring/cmd: introduce io_uring_cmd_complete
+21743bae3e18af04890052833ec69880c954ce59 nvme/io_uring: don't hard code IO_URING_F_UNLOCKED
+c44af32ff2d7d4efedb939f53489ca8afe4ff17a io_uring/rw: avoid punting to io-wq directly
+4a501905376be534a7582019a867dc9a2422a062 io_uring: force tw ctx locking
+e4a0b4f995b59e83cb9ddbfd4c02a288f7bb40c4 io_uring: remove struct io_tw_state::locked
+44f613aa68cc978ae6d6666bae44ba6f89ad3210 io_uring: refactor io_fill_cqe_req_aux
+8def7e7719dbbb6250d2ac6545026c70d23a65ca io_uring: get rid of intermediate aux cqe caches
+5411163645d61ee330d65903579d7265a1719c34 io_uring: remove current check from complete_post
+044dbd0f54743ff84f76c72efaaa9fc00e0779fb io_uring: refactor io_req_complete_post()
+2ec00851f20863ca0b63b4af86d171daceffe594 io_uring: clean up io_lockdep_assert_cq_locked
+63eb2b21f0cd7ff1166ec5d8d9220d5d3aefc5c8 io_uring: flush delayed fallback task_work in cancelation
+9d37ccc765d8263100ffad9ba2dfc308ac9dbdcb io_uring: remove timeout/poll specific cancelations
+f4bb7cde846b27a9ca416f23f09db4e9242bb31b Merge branch 'io_uring-6.9' into io_uring-ring-map
+c55b12265f38df7846d867b454e111c9b69d860b Merge branch 'for-6.10/io_uring' into io_uring-ring-map
+b686d8adbd5fe645b46a6370cbc9136f0d6c0516 io_uring/kbuf: get rid of lower BGID lists
+069191fe9532b3404a147de8c70418a39aae3106 io_uring/kbuf: get rid of bl->is_ready
+da35c024cacd533430ed7be7c0e0330f00e4a3bc io_uring/kbuf: vmap pinned buffer ring
+1e26133b66d7b4dff924db6759493afdd1670097 io_uring/kbuf: protect io_buffer_list teardown with a reference
+ff7ccb5aa8b19a0b9269ac88cd386fd4a16e110f mm: add nommu variant of vm_insert_pages()
+fe9284a09ad6d3c6fbc59dd07e11a7815452441c io_uring/kbuf: use vm_insert_pages() for mmap'ed pbuf ring
+5cc12dd1e9b7bf07d0a581f13fcbb9138b97eb4d io_uring: get rid of remap_pfn_range() for mapping rings/sqes
+5e398ed5b343f316f81f05bbce5cf8cd2a2aa962 io_uring: use vmap() for ring mapping
+88e257ca79222d0a4ddaaddea5e2a12614164ee6 io_uring: unify io_pin_pages()
+d3715f8340058531b13f72910e5e6c8806e00265 io_uring: use unpin_user_pages() where appropriate
+557a65bf4d0e899995ba144fc3e00e3e898f8499 io_uring: alloc ring memory as a compound page, if possible
+
+--===============2837496219178245816==--
