@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 18 Mar 2024 09:26:08 -0000
-Message-Id: <171075396856.8500.1676269209632829790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Mon, 18 Mar 2024 09:27:06 -0000
+Message-Id: <171075402669.8932.9995115381204669830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/main
-    old: ea80e3ed09ab2c2b75724faf5484721753e92c31
-    new: badc9e33c79541cd62fc8238c2eb564d41feac56
+  - ref: refs/heads/for-linus
+    old: 946593d1555921720fa674432e998a1b5931ddac
+    new: 32bf5ee3e650b8c9394b90d3c246a532a49825eb
     log: |
-         badc9e33c79541cd62fc8238c2eb564d41feac56 net: wan: fsl_qmc_hdlc: Fix module compilation
+         32bf5ee3e650b8c9394b90d3c246a532a49825eb firewire: core: add memo about the caller of show functions for device attributes
          
