@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8599925019382271793=="
+Content-Type: multipart/mixed; boundary="===============0125597911503995306=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 18 Mar 2024 21:46:36 -0000
-Message-Id: <171079839636.7507.10622839640413211513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 18 Mar 2024 21:48:56 -0000
+Message-Id: <171079853606.8427.4562089298665201037@gitolite.kernel.org>
 
---===============8599925019382271793==
+--===============0125597911503995306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
-    old: 1e9fcd433088b86feb69d9da9fc4803b07af13bb
+    old: cef5ae229139260a253a3d644c1fa841b966d296
     new: 2ebf53c2894623d1ef3bcecf1464dbcc3fe1cb72
-    log: revlist-1e9fcd433088-2ebf53c28946.txt
+    log: revlist-cef5ae229139-2ebf53c28946.txt
 
---===============8599925019382271793==
+--===============0125597911503995306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e9fcd433088-2ebf53c28946.txt
+Content-Disposition: attachment; filename=revlist-cef5ae229139-2ebf53c28946.txt
 
 77b1d42aa755ccbb70e996a051be1164d6a285b8 perf beauty: Stop using the copy of uapi/linux/prctl.h
 2a3a69c6198a953e107a149f184e30cf67951554 perf beauty: Move prctl.h files (uapi/linux and x86's) copy out of the directory used to build perf
@@ -44,4 +44,4 @@ e2f013a4218a3ecf385095db43816396dc04993b perf arm64 header: Remove unnecessary C
 5cb21d127dcf71a657a7ac2fcb8b9e484a70d729 perf stat: Remove duplicate cpus_map_matched function
 2ebf53c2894623d1ef3bcecf1464dbcc3fe1cb72 perf cpumap: Use perf_cpu_map__for_each_cpu when possible
 
---===============8599925019382271793==--
+--===============0125597911503995306==--
