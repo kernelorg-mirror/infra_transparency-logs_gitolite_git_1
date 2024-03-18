@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 18 Mar 2024 15:55:27 -0000
-Message-Id: <171077732760.6935.14589875184650466630@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-ktest
+Date: Mon, 18 Mar 2024 15:59:09 -0000
+Message-Id: <171077754929.8322.18187455018559285864@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/rostedt/linux-ktest
+user: rostedt
 changes:
-  - ref: refs/heads/fileQ5wAw4
+  - ref: refs/tags/ktest-v6.9
     old: 0000000000000000000000000000000000000000
-    new: 7397175cb7b48f7a3fc699083aa46f1234904c7e
+    new: aeafd5e2cbb670b6175ea7dc079b10920037f98d
