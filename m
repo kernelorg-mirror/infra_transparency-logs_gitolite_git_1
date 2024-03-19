@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2348866068873942381=="
+Content-Type: multipart/mixed; boundary="===============3648175443721517155=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 19 Mar 2024 18:20:36 -0000
-Message-Id: <171087243613.13000.11722711125918472979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 19 Mar 2024 18:20:50 -0000
+Message-Id: <171087245018.13165.100682234697120772@gitolite.kernel.org>
 
---===============2348866068873942381==
+--===============3648175443721517155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 1799e3bfd29591dacd01a8bca3a4fd1ec6a50bbc
     log: revlist-7a0c8ba9090f-1799e3bfd295.txt
 
---===============2348866068873942381==
+--===============3648175443721517155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ b2ac3d2f87ee07abad0cd4c98d54e9b7f5018b44 perf annotate-data: Add a cache for glo
 75c989ff4ebd89ad8f9ef4250e9656f5d3376689 perf annotate-data: Do not retry for invalid types
 1799e3bfd29591dacd01a8bca3a4fd1ec6a50bbc perf beauty: Introduce scraper script for 'clone' syscall 'flags' argument
 
---===============2348866068873942381==--
+--===============3648175443721517155==--
