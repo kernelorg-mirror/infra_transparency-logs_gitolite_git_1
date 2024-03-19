@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3670827709659682366=="
+Content-Type: multipart/mixed; boundary="===============8212608476702544828=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 19 Mar 2024 20:25:10 -0000
-Message-Id: <171087991096.7210.17740437394632061611@gitolite.kernel.org>
+Date: Tue, 19 Mar 2024 20:25:55 -0000
+Message-Id: <171087995522.7548.15991634035994851843@gitolite.kernel.org>
 
---===============3670827709659682366==
+--===============8212608476702544828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 35c3e27917568192927c785fc380f139255468b4
     new: 32fa4366cc4da1c97b725a0066adf43c6b298f37
     log: revlist-35c3e2791756-32fa4366cc4d.txt
 
---===============3670827709659682366==
+--===============8212608476702544828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ c9b3b81716c5b92132a6c1d4ac3c48a7b44082ab ipv4: raw: Fix sending packets from raw
 9474c62ab65f30f0e56802a52bddf69a9e62b127 net/sched: Add module alias for sch_fq_pie
 32fa4366cc4da1c97b725a0066adf43c6b298f37 net: phy: fix phy_read_poll_timeout argument type in genphy_loopback
 
---===============3670827709659682366==--
+--===============8212608476702544828==--
