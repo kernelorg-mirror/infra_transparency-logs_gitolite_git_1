@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 19 Mar 2024 14:35:46 -0000
-Message-Id: <171085894610.8585.16614870825085447227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Tue, 19 Mar 2024 14:37:38 -0000
+Message-Id: <171085905842.10544.12234336515445038311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/heads/main
-    old: c9b3b81716c5b92132a6c1d4ac3c48a7b44082ab
-    new: 9474c62ab65f30f0e56802a52bddf69a9e62b127
+  - ref: refs/heads/master
+    old: cc0413abeebf8b21ba62de12f6fe1a3ec0007900
+    new: 7f6667b5bc802d30c006207f2d0cc2d025e47d08
     log: |
-         9474c62ab65f30f0e56802a52bddf69a9e62b127 net/sched: Add module alias for sch_fq_pie
+         7f6667b5bc802d30c006207f2d0cc2d025e47d08 mempool: Use MADV_DONTFORK on init values
          
