@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 19 Mar 2024 12:40:16 -0000
-Message-Id: <171085201627.20749.11668340891934757093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 19 Mar 2024 12:46:29 -0000
+Message-Id: <171085238974.24664.2991228290281730745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/main
-    old: 1422f28826d2a0c11e5240b3e951c9e214d8656e
-    new: 3cf28cd492308e5f63ed00b29ea03ca016264376
+  - ref: refs/heads/master
+    old: c733239f8f530872a1f80d8c45dcafbaff368737
+    new: 1a4a0cb7985f921548f1a7ac17686afbefe67f87
     log: |
-         3cf28cd492308e5f63ed00b29ea03ca016264376 hsr: Handle failures in module init
+         1a4a0cb7985f921548f1a7ac17686afbefe67f87 bpf/lpm_trie: Inline longest_prefix_match for fastpath
          
