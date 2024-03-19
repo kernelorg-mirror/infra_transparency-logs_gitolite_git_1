@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 19 Mar 2024 09:07:10 -0000
-Message-Id: <171083923032.21548.17185242792555823359@gitolite.kernel.org>
+Date: Tue, 19 Mar 2024 09:14:49 -0000
+Message-Id: <171083968948.27362.15309967069463162375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental
-    old: 72b136a36963ddd077c4057c54aa7ef9234ac98f
-    new: dda93e0f61194854e5150b4d7b6fc2c0e72f0c12
+  - ref: refs/heads/dev
+    old: 64a065340df0cb96afa0063cbdf68e2a1b629638
+    new: bc111471e6c2382d79e4183d07b6c6d699c5c65b
     log: |
          bc111471e6c2382d79e4183d07b6c6d699c5c65b erofs-utils: lib: fix multi-threaded compression in tarerofs mode
-         dda93e0f61194854e5150b4d7b6fc2c0e72f0c12 erofs-utils: lib: drop prefix_sha256 digests
          
