@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Tue, 19 Mar 2024 21:23:27 -0000
-Message-Id: <171088340741.16779.6509989347568773413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Tue, 19 Mar 2024 21:24:21 -0000
+Message-Id: <171088346182.17211.16316314964131673932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/master
-    old: d9050fc521be2a3ed212eb46f1d5683b67cc9390
-    new: dac2ccf0b62a85885812d36e926590ea39c1baf9
+  - ref: refs/heads/testing/WFAMNAE-next20240318-commit-by-commit
+    old: b77dbe1683e54018b1dff076cc7cd773046c7167
+    new: 29fce80529d81f98ea83d24346a3d0205677e72f
     log: |
-         1a426b47173fc6f684e865428e562140f2d9bae7 mempool: Allow mempool destroy in children processes
-         612ee3bf7cdd48d2816d44acc0ec75e753835fdd mempool: Tests mempool destroy in child process
-         dac2ccf0b62a85885812d36e926590ea39c1baf9 mempool: Document destroy after fork for populate none
+         29fce80529d81f98ea83d24346a3d0205677e72f nfp: tls: Avoid -Wflex-array-member-not-at-end warnings
          
