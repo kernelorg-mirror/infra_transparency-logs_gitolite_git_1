@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============7022475843762787604=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 19 Mar 2024 15:48:12 -0000
-Message-Id: <171086329220.30089.1396346573384886676@gitolite.kernel.org>
-
---===============7022475843762787604==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 19 Mar 2024 15:50:03 -0000
+Message-Id: <171086340363.32230.4645898981750884780@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: cf5f35d6760b7b1d7187edadbfabcb02882fc676
-    new: 2e024fa130e5491e6db5ee3759d12e1786430928
+  - ref: refs/heads/io_uring-recvsend-bundle
+    old: 98108ef33ffefcda4a8f2d013aff653ef3a64e92
+    new: 9c87c6eea28085c816976026a1e9ed153242528b
     log: |
-         2e024fa130e5491e6db5ee3759d12e1786430928 send-receive: use our own emlpolicy when parsing messages
+         ce7faf31033ae13872d167a46e10049ed9f622f8 io_uring/uring_cmd: switch to always allocating async data
+         d4b875516e1959a6ff60bd13958ddc054ac72de0 io_uring: drop ->prep_async()
+         9c87c6eea28085c816976026a1e9ed153242528b nvme: complete passthrough IO through task_work regardless of type
          
-
---===============7022475843762787604==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1710863291 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1710863291-f50de85a1d608b8d3ff0abde3988ca246ecca47c
-
-cf5f35d6760b7b1d7187edadbfabcb02882fc676 2e024fa130e5491e6db5ee3759d12e1786430928 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZfmzuwAKCRC2xBzjVmSZ
-bFgDAP96QbWnUMufXtcVRVBkdnt0pJU/QPB3lbTebeLj21H4/gEA/93XHrEnBtgC
-5CBBX2hm3Y8UIsfX+Dib4eVZVEiz8g0=
-=sDTz
------END PGP SIGNATURE-----
-
---===============7022475843762787604==--
