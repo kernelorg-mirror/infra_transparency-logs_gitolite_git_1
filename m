@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0303243581178888581=="
+Content-Type: multipart/mixed; boundary="===============6104470953429283504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 19 Mar 2024 12:06:20 -0000
-Message-Id: <171084998098.24303.12028993167181284223@gitolite.kernel.org>
+Date: Tue, 19 Mar 2024 12:08:05 -0000
+Message-Id: <171085008544.26309.3125503727778944912@gitolite.kernel.org>
 
---===============0303243581178888581==
+--===============6104470953429283504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/usb-6.8-rc8
-    old: f68030962c437c29ff44cbc59421b0db5fa6ac24
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/usb-testing
+    old: d99e42ce6b8341d3f09e22c6706461ec900fe172
+    new: a788e53c05aee6e3d60792a59e10c0fac56b5086
+    log: |
+         a788e53c05aee6e3d60792a59e10c0fac56b5086 usb: usb-acpi: Fix oops due to freeing uninitialized pld pointer
+         
 
---===============0303243581178888581==
+--===============6104470953429283504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1710849979 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1710850084 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1710849980-ed2cd450fd7144763bd6f7d5b0348701c991adf6
+nonce 1710850083-1a80ffd045a93a725fe626f109ec7658e01c532f
 
-f68030962c437c29ff44cbc59421b0db5fa6ac24 0000000000000000000000000000000000000000 refs/tags/usb-6.8-rc8
+d99e42ce6b8341d3f09e22c6706461ec900fe172 a788e53c05aee6e3d60792a59e10c0fac56b5086 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmX5f7sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NlcP/0fGuXwjLDvGRIhQIZDC
-nRMcs2w0ihen1T4FUJJX+vry52Dw3vpuUG0oSpvRsBG0szg67a2DkrQt2rlwevB7
-iMVgcXuzX3IW0GN/2gmqN8oi3gGDd5vM40yynh+muIcWHxImCHM5vN85k6CzU7rr
-t6QVG4boNADKH7fjGR11QdYSo+gQUpWtX0n4H5x+De5OQ/ch10DRKC/6zB1tfKQW
-phkpENgtP53mUDYSSABRX3x8ALgEkjB1YmvIAu4q/I84y8tVuHaySIiYig5tMxWG
-a45ly7BI+YwY/31Rl8A8r1TVOSqb4l2xHZ2Fd3Iy9SlRYMypY4DyUr97ePSPL6De
-/w8TWLb/bvg8r+eJHHEDEWTSeSS16sW6bpqRZ6MRTT0xczY+5AtwamzUiF9vCqKg
-Vr96MuYyHFFh8UMBWw3bxAIpCUooAfPeCLe8IKKqBOssXg95f/ttAwqq4YofogHp
-1pZbIfr5Sx48OVuFAWcMgb70De4NjfYwLeWb+ZBrwt9NouE0OLBW7h3jtNtnQQDa
-mta2ciOmY3PanRhaTPlTurUSSeuqGpodb5NZ3q2++yKZiH6tXCOn/CWCgSTagSwt
-r/HBg0046XAzfJzPqACto5+V79zpVkuYHVNpPSOum8ws8C0F3LNReHp84kkoRPeb
-QHgSNRKirv4zEN0zPyOgeBJD
-=KLJB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmX5gCQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MiwQALGQ8fhjvPXFg18idwFQ
+pa+PmKheVvUoADIjhkLy9XXB6z4HFGPd+RJfd1XMRv5hvCKJ+VJX0cJFm2KRs0Ta
+f6xc2t9uoj8R1tAyo9Cdp8K1jo5si0wjmy1ZPU1WV09vfrOazuKdHlcDdVz6lkjQ
+Jd8U9nqtkf48PjR8kSaKdLRpnDN6nx1W3jnANQWgGTM+K+JoQzFBfrOgxWUTLQiF
+mFh+qoKYt64vLY0fVdSpLsbk+kcm/kqqMrwC48YAOmqTqaS/W5EUmyFDXSaTM9el
+tw8FaOvvuwlMIwQQGRuCLwwprcpsG9ANOcaY56n6hj+o2aQfUG8VMBgNgp8irCLM
+jHKbZMsG1+kAVw7YRkAwXLTJyR5g44c33GxTxxByY9ew+MqbYq3vpS7z2xGDJaGm
++zMOsXtACUu5cDd8te29+ovRhnYzOI4yuJtziM8lgcHcO0U2uC658PwMF1qAtnkX
+hV8EyhnfJtkZxJdfKO1lk/Ce5jaL7zAjrHOBBm1qYp6Oj4ZHIgjuHc37RecD4fpc
+uiSAnJ3BHR4UyaWi73UCV4cxaknQI85OFphUfDv1oxw5zde+jGyzQ9ODy9N0il4n
+xc5iEboKMi0eZvDBoJphAx7G99/ikTVe83NkQvybt14A8D73fICP4aS1VYVi/tDN
+JaPkOhsjFq2z1UzsLLAkYzu+
+=aB+T
 -----END PGP SIGNATURE-----
 
---===============0303243581178888581==--
+--===============6104470953429283504==--
