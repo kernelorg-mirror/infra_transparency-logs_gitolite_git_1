@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8672243410313878457=="
+Content-Type: multipart/mixed; boundary="===============6026161325822183692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 19 Mar 2024 10:28:21 -0000
-Message-Id: <171084410131.29906.16239861936693649927@gitolite.kernel.org>
+Date: Tue, 19 Mar 2024 10:28:25 -0000
+Message-Id: <171084410561.29990.9289855557091880270@gitolite.kernel.org>
 
---===============8672243410313878457==
+--===============6026161325822183692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: d518acdace8242174d31a8adbdaee7e4acfb7d31
-    new: fdd3b8c605dd106345fd2d83d0712fb290ba8b19
-    log: revlist-d518acdace82-fdd3b8c605dd.txt
+  - ref: refs/heads/6.9/scsi-queue
+    old: 517bcc2b4db435f230fe864f3db0a0f21d2f6951
+    new: 52d8210ea45d4c56fdca65ccb7541b0dfe9f416f
+    log: revlist-517bcc2b4db4-52d8210ea45d.txt
 
---===============8672243410313878457==
+--===============6026161325822183692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1710844076 -0400
+pusher 75C5DE3D 1710844104 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1710844075-fb4337371d392f0c09f02dd624dd2dac1c4df628
+nonce 1710844104-77e9d5ab10a74f316eacbe29dfc399a6587c864f
 
-d518acdace8242174d31a8adbdaee7e4acfb7d31 fdd3b8c605dd106345fd2d83d0712fb290ba8b19 refs/tags/mkp-scsi-queue
+517bcc2b4db435f230fe864f3db0a0f21d2f6951 52d8210ea45d4c56fdca65ccb7541b0dfe9f416f refs/heads/6.9/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmX5aKwACgkQ7ulgGnXF
-3j1G/RAAgmkEYNQyRuH7Nrxq22V4zkK22KAgrtp1vE9/UpDuam9UWYQMJkflXT9+
-Hmv6KXFGYOOuDTy9Ka+m0yNGaulEG+Ci+mfFLsIkJOZbgDzHvGN6wESPjCgF8Csh
-VqZjPDAc35MveywVA25y7xIeZ1YRgm0cH5DrotyjGGkx3Zm1hm4vlUU1auE54sps
-Azo4b6hiV/ztl6FOn1ExmYxenFnR+UY5AxhfK5yWUwXB3vVE4Q/WXBVNCZDq1tnJ
-3fCBzLZthYwOj60GHKxhzE5OQTs1iXZQtBahKA2e9LVEkgn8THOq7aAOf8A2OmSs
-Q1I36zvTSetsynBpwQNb4lo8Dkx54twnpNgb2P5kPfvi5qWVmtmwxNEZ8q2iYW1r
-b/fhcm0pyHbsqKuQU3f5jUUd6e4mas8v0m3U8Qk4igqma8SIT3iCXi0LCfKbVZvv
-vqhXil7z3uTDe/s0hQ2wQmei29mqjaQysE6Ga2SYYvhTO8klzCYaM2GeKliTGlbt
-92Jx6b+AxU5Oj8+GpJGFBXasGyaJ4fyqNELWY3EAI+zlZg1qLVxBE+vVMo4WQZbK
-9Mo4Vn03i9rpmI4aFy8ni7nWqbTaUQ8alhK2McYSKfRytPHRsmeDuQYA7L0y2AMW
-PR2lnnIxuPfxhc2h8RfMRtAgaOJMIFj4uYRC2Lq3eUTSL21Hp2o=
-=+vgM
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmX5aMgACgkQ7ulgGnXF
+3j3DLQ/+O1Y3x6ipZQiGDtxvZzJSJgBKZDPT3VdIfIeAXhDIFTy8oYifhh5u3Paw
+2rfZyFscn59Gvg1dLZiDG8ygiv6NsGNqU6GmLo7vzLrixKpVFq8235QdnJvU3Xms
+CxPckeTWAMk3NENJIS+2WtzPNrEzAbW/4H8I0IqIYGLAvpLDDHzrXvoZbE1Ff6rN
+KyVEyKP9M04t4PgEtLX+3zhU4/3/Gib00rBV86G74COy58OJoDse62k/mIuLcxvG
+6ziKkiqq0rJ3M3exvE5EWB26xdATfZxNmrQijDWSb4XQpgb+P1Tf9awh6y6lXEi6
+99S7JGVZb1H6cuYZnlB2C+9LyCws92NQ13aO5H5P2Q6zuxi6mF7ZwZyADqJ6Oq/e
+sb5MGHIap+jtJ7edZy75alFo/nfCRB/k4PxTaliCfv4WC0+5rlZbQVLBjNbBeXs0
+CSby4XH1gIs4XqjsJpD0tFT1pMGYP6HQaPBZ4Zd8EzoDIB3UZLSDmarbVJMjod3Q
+ahiUwqdWMgXaoUByzbNdO/3oSGlPiqM/q1fwFc8ZhbcOW1GoQwWsYUCNsjp+I9ZH
+elo/m7CXBkUaNFyUMwW5oGIMocbtMWx2JpoRmr+BEkZZHRa7xkYQZalzKOpsBN1f
+Y1jPo0FhMJk1iUK4kax4vuBTph69pp6OvHxSIT/IuVXt9s1OGZM=
+=2nff
 -----END PGP SIGNATURE-----
 
---===============8672243410313878457==
+--===============6026161325822183692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d518acdace82-fdd3b8c605dd.txt
+Content-Disposition: attachment; filename=revlist-517bcc2b4db4-52d8210ea45d.txt
 
 767712f91de76abd22a45184e6e3440120b8bfce scsi: ufs: core: Fix MCQ MAC configuration
 99cfb212ef4d04515efcd88fd05cd9cdff4f9542 scsi: target: iscsi: Remove unused variable xfer_len
@@ -95,4 +95,4 @@ f733a76ea0a9a84aee4ac41b81fad4d610ecbd8e scsi: lpfc: Use a dedicated lock for ra
 48c0b76923c40cd19794741fb0fb7003b3ab314d Merge patch series "qla2xxx misc. bug fixes"
 52d8210ea45d4c56fdca65ccb7541b0dfe9f416f Merge patch series "Update lpfc to revision 14.4.0.1"
 
---===============8672243410313878457==--
+--===============6026161325822183692==--
