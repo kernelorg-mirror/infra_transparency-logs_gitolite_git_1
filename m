@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Tue, 19 Mar 2024 01:50:25 -0000
-Message-Id: <171081302584.29379.15934645437714360996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Tue, 19 Mar 2024 02:18:47 -0000
+Message-Id: <171081472716.16505.7582884744860143564@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/wip
-    old: 5d1d1ce6987e9ad0cf26ca1071a94aadbb5c2a83
-    new: 2ce073c0b18cb0f809a1560c50563b5b8f9b429f
+  - ref: refs/heads/misc-base
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: 449813515d3e5efec85206bb91588a6249a421a3
     log: |
-         2ce073c0b18cb0f809a1560c50563b5b8f9b429f f2fs: zone: don't block IO if there is remained open zone
+         ec16b147a55bfa14e858234eb7b1a7c8e7cd5021 fs: Fix rw_hint validation
+         e769779c0c2c3a475c6b7313d35ff0aa3aceb780 fs: Verify write lifetime constants at compile time
+         1505ba06e52e701600172bccbc3aa7fb9bd5d0da fs: Split fcntl_rw_hint()
+         fe3944fb245ab99570552a3bf970b00058a9ca6d fs: Move enum rw_hint into a new header file
+         ea7d898676d9e94558c46ba927db35403362389f fs: Propagate write hints to the struct block_device inode
+         449813515d3e5efec85206bb91588a6249a421a3 block, fs: Restore the per-bio/request data lifetime fields
          
