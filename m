@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1213691696801479864=="
+Content-Type: multipart/mixed; boundary="===============2060519029968543914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 19 Mar 2024 19:28:18 -0000
-Message-Id: <171087649849.29698.744620684491333467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 19 Mar 2024 19:43:21 -0000
+Message-Id: <171087740131.8871.16250228015037211734@gitolite.kernel.org>
 
---===============1213691696801479864==
+--===============2060519029968543914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
     old: d95fcdf4961d27a3d17e5c7728367197adc89b8d
     new: 78c3925c048c752334873f56c3a3d1c9d53e0416
     log: revlist-d95fcdf4961d-78c3925c048c.txt
 
---===============1213691696801479864==
+--===============2060519029968543914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -144,4 +144,4 @@ fbd88dd05780ef9b0026b09edcbc57a77742cfd6 Merge tag 'pm-6.9-rc1-2' of git://git.k
 f9c035492f2010e1e7aede1f1bd32181d7cef2dc Merge tag 's390-6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 78c3925c048c752334873f56c3a3d1c9d53e0416 Merge tag 'soc-late-6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 
---===============1213691696801479864==--
+--===============2060519029968543914==--
