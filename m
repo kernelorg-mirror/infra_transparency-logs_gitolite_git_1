@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6611198875334191825=="
+Content-Type: multipart/mixed; boundary="===============2593051251965620265=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 19 Mar 2024 18:11:08 -0000
-Message-Id: <171087186879.6210.13295236720048082579@gitolite.kernel.org>
+Date: Tue, 19 Mar 2024 18:11:29 -0000
+Message-Id: <171087188900.6448.12296448536588141363@gitolite.kernel.org>
 
---===============6611198875334191825==
+--===============2593051251965620265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: 76d241591115a699511421ac42c087f3a3c89f10
     new: 1156e9541dc2bd66ce0bfd9e07a167fc005db52b
     log: revlist-76d241591115-1156e9541dc2.txt
 
---===============6611198875334191825==
+--===============2593051251965620265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -147,4 +147,4 @@ d95fcdf4961d27a3d17e5c7728367197adc89b8d Merge tag 'for_linus' of git://git.kern
 2d97da79df34383d09c142b663b9db288d0bcf6f keys: update key quotas in key_put()
 1156e9541dc2bd66ce0bfd9e07a167fc005db52b keys: Fix overwrite of key expiration on instantiation
 
---===============6611198875334191825==--
+--===============2593051251965620265==--
