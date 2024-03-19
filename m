@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2457092472005340902=="
+Content-Type: multipart/mixed; boundary="===============8340138868383794873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 19 Mar 2024 12:08:35 -0000
-Message-Id: <171085011578.26640.10667315803159601855@gitolite.kernel.org>
+Date: Tue, 19 Mar 2024 12:08:39 -0000
+Message-Id: <171085011975.26712.14867952407330627665@gitolite.kernel.org>
 
---===============2457092472005340902==
+--===============8340138868383794873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: d206a76d7d2726f3b096037f2079ce0bd3ba329b
+  - ref: refs/heads/usb-linus
+    old: b234c70fefa7532d34ebee104de64cc16f1b21e4
     new: e8f897f4afef0031fe618a8e94127a0934896aba
-    log: revlist-d206a76d7d27-e8f897f4afef.txt
+    log: revlist-b234c70fefa7-e8f897f4afef.txt
 
---===============2457092472005340902==
+--===============8340138868383794873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1710850115 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1710850119 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1710850114-a18c7def5930044d6630a8c6a5ba4e2a63e3afb9
+nonce 1710850118-fab4c23105ffba018932a119dc1279fddd2f4da2
 
-d206a76d7d2726f3b096037f2079ce0bd3ba329b e8f897f4afef0031fe618a8e94127a0934896aba refs/heads/main
+b234c70fefa7532d34ebee104de64cc16f1b21e4 e8f897f4afef0031fe618a8e94127a0934896aba refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmX5gEMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sR8P+gOruQhiY4GcUY2oiWVO
-XKe6mYuP5t+IX5mk4lFlXS1PC1Fm4oLPYBGLfA5Q7chyfsOrucm/CzajN4OFXbEw
-HIV55IlNFIE/PayQT+1Vr8oYA+dAwLhimif6NAe4ub2BhiFHlHPCkZ6yrIRUKSSB
-X7PX8rTttX/Y+NE933nZ0jw7riMHR5I9qGIJNuqcPl+y4jtFqvcz+vKOAoccSA2u
-T10pZjRLg7XcNCudrQmkgpocjOy9omnwvOAUs5iyxFtVmaENGVtfUHJDMLh46SiV
-zX5i2z7duxqdItIja9O+T8iC0823TNRmzFyMZ33/m1D2h46q0CFCcungqB3bNSmb
-IyynMjmlpmeZ+iQe+1ZapLPBcgmuVC7WGkYl4l9cwpcRInVk1GSBYNhX7vmF2Q7w
-WG29gv14tFD0mgEpkcGiiZfv3GZHF6BI3Q+xF30DtWERyXBg1+yJTDYDr2iN+c6o
-PekhKcDcgyqHpaFNnqKqtMZptEWPNzHEQYXxTTA3xGkvxDyJdNs53eT1wplKNSrl
-IYE9t2ODQoW+GAqXu6hO/+RryBROnRSgWp+ZnjOEov68S4l+axas0D8gTV7CWvY/
-eZ/lVRaVVOweTy+0rBDMax4LYjltwiG4UTtyVgayFIGD+7k+jfO/FLAB6B+6K5ah
-/gwttl9y0ps617xuFo6RrQbW
-=aXaA
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmX5gEcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PSQP/3rHdDjfzdRNqoEBAUm/
+lkSn4hRTuux1bb58vYRjSc4saw0QYKfOi0yA6kYFARYkSa90X3TUZFa4YALsDArK
+Q7z91TXWO+h4oyW7709aheA6eObmZ1KVa/Dm0OHkV8UGSuSkE9C2UdYRt7Ty6WJr
+xhnPciY4+Ajq01ANx7o5TA3rRsQiALaLpcgHqVtSQXWEYXK1hbtT4fNcVstkCddN
+s6jRAuswEm7VumfM2RItNERiX3sJ0Drfkn4VhKitoO0gBTxzyBK3zBKsGlyghrDb
+qvMGfszMqC84Q+YwZdikiXktLExyHlRGTGiz+XfqSH3Kn0aA80Ml0+YG63/2EOCq
+RlbzBnVRSMevwDZQ79a11mrETIadK4CXDBR7aQ6tc3DAluSFi84Q+O6RwWfFzXT+
+b4Z09g8263+fNVNTEYC2ajKWSqHZjqTrDXmLyL/hQf4Jys89Xj2TACon0RoBswo5
+9Eb2bu506R8gW+vhtO080u0lyaxMtH/J6pSejjsijQ8c738plfHeLVhbSQxJQ4ex
+Qclv2JUeraQRlO4EI68qIkYtEPDktZzrGORc9IKDJ6Ilj/hgHBUYcdvSKwLK+Ndq
+KlDR+Hc2G1XokF/cmKyPqFTm+WPSrRWQ549ebwkuiIDeVv8VXMqA3PF+4shRGNll
+g0xMQPSesGJbT0ge2HERt3Xj
+=5bu+
 -----END PGP SIGNATURE-----
 
---===============2457092472005340902==
+--===============8340138868383794873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d206a76d7d27-e8f897f4afef.txt
+Content-Disposition: attachment; filename=revlist-b234c70fefa7-e8f897f4afef.txt
 
 1982a2a02c9197436d4a8ea12f66bafab53f16a0 xfrm: Clear low order bits of ->flowi4_tos in decode_session4().
 8246601a7d391ce8207408149d65732f28af81a1 riscv: tlb: fix __p*d_free_tlb()
@@ -87,7 +87,6 @@ e5d40e9afd84cec01cdbbbfe62d52f89959ab3ee regulator: max5970: Fix regulator child
 ff3206d2186d84e4f77e1378ba1d225633f17b9b mmc: core: Fix eMMC initialization with 1-bit bus connection
 6b1ba3f9040be5efc4396d86c9752cdc564730be mmc: mmci: stm32: fix DMA API overlapping mappings warning
 f78c1375339a291cba492a70eaf12ec501d28a8e wifi: nl80211: reject iftype change with mesh ID change
-d3d17e23d1a0d1f959b4fa55b35f1802d9c584fa thunderbolt: Fix NULL pointer dereference in tb_port_update_credits()
 4c892121d43bc2b45896ca207b54f39a8fa6b852 arm64: tegra: Set the correct PHY mode for MGBE
 d4c08d8b23b22807c712208cd05cb047e92e7672 phy: qcom-qmp-usb: fix v3 offsets data
 ecec7c9f29a7114a3e23a14020b1149ea7dffb4f dmaengine: idxd: Remove shadow Event Log head stored in idxd
@@ -407,10 +406,8 @@ b7cf07586c40f926063d4d09f7de28ff82f62b2a net/mlx5e: Use a memory barrier to enfo
 7838b4656110d950afdd92a081cc0f33e23e0ea8 block: define bvec_iter as __packed __aligned(4)
 705c72567be6a31a73ce57fa6a2441498479dd71 Merge tag 'gpio-fixes-for-v6.8-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 4640e2be3920168f6b26512466562accb783423a Merge tag 'xfs-6.8-fixes-4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-3c4a311c2c15ef0fa07c225ee02197a316e10e00 Merge tag 'thunderbolt-for-v6.8-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 febbe9b9c0b5fd77b03d4c6795ef7b8bcabac984 Merge tag 'counter-fixes-for-6.8b' of https://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
 da85c25cdb6780b9bb5585c443272d3cd5920981 Merge tag 'iio-fixes-for-6.8b' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
-014bcf41d946b36a8f0b8e9b5d9529efbb822f49 USB: usb-storage: Prevent divide-by-0 error in isd200_ata_command
 672448ccf9b6a676f96f9352cbf91f4d35f4084a tty: serial: imx: Fix broken RS485
 e5d6bd25f93d6ae158bb4cd04956cb497a85b8ef serial: 8250_dw: Do not reclock if already at correct rate
 43066e32227ecde674e8ae1fcdd4a1ede67680c2 serial: port: Don't suspend if the port is still busy
@@ -467,14 +464,8 @@ aec7d25b497ce4a8d044e9496de0aa433f7f8f06 platform/x86: p2sb: On Goldmont only ca
 961ebd120565cb60cebe21cb634fbc456022db4a fs/aio: Check IOCB_AIO_RW before the struct aio_kiocb conversion
 d4872d70fc6feabfc8e897edad993a81096ade9f xfrm: fix xfrm child route lookup for packet offload
 8688ab2170a5be0bc922195f7091c38b506bab2e xfrm: set skb control buffer based on packet offload as well
-4a30dcac38c2b34f5b4f358630774bc2c2c104b0 usb: typec: ucsi: fix UCSI on SM8550 & SM8650 Qualcomm devices
-197331b27ac890d0209232d5f669830cd00e8918 usb: typec: tpcm: Fix PORT_RESET behavior for self powered devices
-165376f6b23e9a779850e750fb2eb06622e5a531 usb: typec: altmodes/displayport: create sysfs nodes as driver's default device attribute group
-f90ce1e04cbcc76639d6cba0fdbd820cd80b3c70 usb: gadget: ncm: Fix handling of zero block length packets
-69c63350e573367f9c8594162288cffa8a26d0d1 usb: port: Don't try to peer unused USB ports based on location
 74cb7e0355fae9641f825afa389d3fba3b617714 tty: serial: fsl_lpuart: avoid idle preamble pending if CTS is enabled
 3d9319c27ceb35fa3d2c8b15508967f3fc7e5b78 Revert "tty: serial: simplify qcom_geni_serial_send_chunk_fifo()"
-b234c70fefa7532d34ebee104de64cc16f1b21e4 xhci: Fix failure to detect ring expansion need.
 daf8739c3322a762ce84f240f50e0c39181a41ab drm/nouveau: fix stale locked mutex in nouveau_gem_ioctl_pushbuf
 cfa9ba1ae0bef0681833a22d326174fe633caab5 comedi: comedi_8255: Correct error in subdevice initialization
 f53641a6e849034a44bf80f50245a75d7a376025 comedi: comedi_test: Prevent timers rescheduling during deletion
@@ -598,4 +589,4 @@ e5d7c1916562f0e856eb3d6f569629fcd535fed2 tracing: Use .flush() call to wake up r
 fa4b851b4ad632dc673627f38a8a552547568a2c Merge tag 'trace-ring-buffer-v6.8-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e8f897f4afef0031fe618a8e94127a0934896aba Linux 6.8
 
---===============2457092472005340902==--
+--===============8340138868383794873==--
