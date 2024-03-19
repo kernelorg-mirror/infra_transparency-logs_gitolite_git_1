@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0571588901455070410=="
+Content-Type: multipart/mixed; boundary="===============2796502069752202853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 19 Mar 2024 14:22:27 -0000
-Message-Id: <171085814767.31395.15080497560306095157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 19 Mar 2024 14:22:53 -0000
+Message-Id: <171085817346.31648.4987480075133240957@gitolite.kernel.org>
 
---===============0571588901455070410==
+--===============2796502069752202853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 7a0c8ba9090f4b5350b67e407cd44f2d5d4bdd12
     log: revlist-2ebf53c28946-7a0c8ba9090f.txt
 
---===============0571588901455070410==
+--===============2796502069752202853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ bc78fb3d1de7f5125359be20ad38f06913159eaa perf annotate-data: Handle this-cpu var
 88d197dffd8cea399ac0cfabc4742208ec0e76c7 perf annotate-data: Add a cache for global variable types
 7a0c8ba9090f4b5350b67e407cd44f2d5d4bdd12 perf annotate-data: Do not retry for invalid types
 
---===============0571588901455070410==--
+--===============2796502069752202853==--
