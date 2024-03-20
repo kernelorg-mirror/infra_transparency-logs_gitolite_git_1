@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 20 Mar 2024 17:41:21 -0000
-Message-Id: <171095648179.10473.13274140123334679826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
+Date: Wed, 20 Mar 2024 17:53:03 -0000
+Message-Id: <171095718328.17818.12177879445509270866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/arnd/playground
+user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: 097f1200bf7ea19fb39ccf538a07a153260a7763
-    new: f2fd2aad1908554fbc4ad6e8ef23bad3086bebd1
-    log: |
-         c9aa7d862144f7b5d74cf316fc1172629a3b438f kconfig: tests: support KCONFIG_SEED for the randconfig runner
-         47ad16894c4a25e6cb342666f0fa203701a88476 kconfig: tests: add a test for randconfig with dependent choices
-         f2fd2aad1908554fbc4ad6e8ef23bad3086bebd1 kconfig: tests: test dependency after shuffling choices
-         
+  - ref: refs/heads/kbuild-warnings-enable-6.9
+    old: 0000000000000000000000000000000000000000
+    new: 5fa104546293eb2085adc26aef13cd164ea0b3cf
