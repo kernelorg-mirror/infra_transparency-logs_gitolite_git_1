@@ -1,39 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 20 Mar 2024 14:46:20 -0000
-Message-Id: <171094598046.13304.1086779504481689407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 20 Mar 2024 14:50:03 -0000
+Message-Id: <171094620377.16275.4104085123308185848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master-pending
-    old: 9a462834898e4a75bee36b67b9ce78625f2029a8
-    new: 9ccc501a5341d289f436c616635bbbef902c345d
+  - ref: refs/heads/io_uring-recvsend-bundle
+    old: 3553b34e3e9beae617deb6338eca6ab442b292b1
+    new: c4c4975c1b537b8c396279ae088c6beb8d6b5a72
     log: |
-         2fe323509d4689cbcac6379447892ee602708142 wifi: ath10k: allocate dummy net_device dynamically
-         9841423a20ba097616a20d3fb9222daa5e221b99 wifi: ath: Convert sprintf/snprintf to sysfs_emit
-         fa75785a2c6c3d5855d42017c894096f868cb30e dt-bindings: net: wireless: ath10k: describe firmware-name property
-         1bec3f57d5dfbaf7f58fcdf5ec8059bc306cdb75 wifi: ath10k: support board-specific firmware overrides
-         4a882ad0a795d93ce3f476c1bfeb757d65ec4b1a wifi: ath11k: do not process consecutive RDDM event
-         11181026d9754b99feec6dad63d7bfad0d4055dc wifi: ath11k: remove duplicate definitions in wmi.h
-         9ccc501a5341d289f436c616635bbbef902c345d Merge branch 'pending' into master-pending
+         ec6814cd7f3e24072d835548ebed4c97e7501ee4 io_uring/rw: always setup io_async_rw for read/write requests
+         d322be4c76b688c8458ba72c3c794de8d3443107 io_uring: get rid of struct io_rw_state
+         5b601ed77319116eeeaf4271a3a10192633dafee io_uring/rw: add iovec recycling
+         37ae4d08062002d5229934c16bd11c4f617c205f io_uring/net: move connect to always using async data
+         ccbca4de00ea815488e9bb2909585c68bf38b7a1 io_uring/uring_cmd: switch to always allocating async data
+         fdcfe081d27d0b734bfe3c72851aebff331a52e8 io_uring: drop ->prep_async()
+         208f2ca6fa3ba7012be798509f2f8a2bbc8e5e4a io_uring/net: add generic multishot retry helper
+         9220618eb91c6231638de135771fd066010b59c4 io_uring/net: add provided buffer support for IORING_OP_SEND
+         4798f8511313e63cab99247ddf7174b2672c6f54 io_uring/kbuf: add helpers for getting/peeking multiple buffers
+         6e38f036104425022476bd3a87993f897570379c io_uring/net: support bundles for send
+         c4c4975c1b537b8c396279ae088c6beb8d6b5a72 io_uring/net: support bundles for recv
          
-  - ref: refs/heads/pending
-    old: 5955a10e0a46d46216420b8d2b6c0a1c895892af
-    new: 11181026d9754b99feec6dad63d7bfad0d4055dc
-    log: |
-         2fe323509d4689cbcac6379447892ee602708142 wifi: ath10k: allocate dummy net_device dynamically
-         9841423a20ba097616a20d3fb9222daa5e221b99 wifi: ath: Convert sprintf/snprintf to sysfs_emit
-         fa75785a2c6c3d5855d42017c894096f868cb30e dt-bindings: net: wireless: ath10k: describe firmware-name property
-         1bec3f57d5dfbaf7f58fcdf5ec8059bc306cdb75 wifi: ath10k: support board-specific firmware overrides
-         4a882ad0a795d93ce3f476c1bfeb757d65ec4b1a wifi: ath11k: do not process consecutive RDDM event
-         11181026d9754b99feec6dad63d7bfad0d4055dc wifi: ath11k: remove duplicate definitions in wmi.h
-         
-  - ref: refs/tags/ath-pending-202403201444
-    old: 0000000000000000000000000000000000000000
-    new: 9ccc501a5341d289f436c616635bbbef902c345d
