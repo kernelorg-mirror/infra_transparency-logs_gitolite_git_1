@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 20 Mar 2024 14:15:52 -0000
-Message-Id: <171094415282.23484.9601539079305444050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bristot/linux
+Date: Wed, 20 Mar 2024 14:21:21 -0000
+Message-Id: <171094448139.27053.6670552129502571080@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/bristot/linux
+user: bristot
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: ddfcea316385e07a4bcb500b5a9cd0d21ad1b6cc
-    new: 0cf6ca036b9855b9c815f95e2694ddecbc09065c
-    log: |
-         0cf6ca036b9855b9c815f95e2694ddecbc09065c perf beauty: Introduce scrape script for various fs syscalls 'flags' arguments
-         
+  - ref: refs/heads/for-next
+    old: 0000000000000000000000000000000000000000
+    new: a23c05fd76cf4ad27e0c74f7a93e7b089e94a55c
