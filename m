@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 20 Mar 2024 13:53:49 -0000
-Message-Id: <171094282974.5957.3206946239779911519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 20 Mar 2024 13:56:25 -0000
+Message-Id: <171094298536.8505.17326383328589542893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
-    old: 27be336986bf0cf22bd02d5d4f83b8c0c0f8e9a8
-    new: f1dd4a27965f19a91443e0faad8a57d858d7a5fa
+    old: f1dd4a27965f19a91443e0faad8a57d858d7a5fa
+    new: ddfcea316385e07a4bcb500b5a9cd0d21ad1b6cc
     log: |
-         fbb79b096d89945d8716be19a4dfb79c8a95ece6 perf beauty: Introduce scrape script for 'clone' syscall 'flags' argument
-         f1dd4a27965f19a91443e0faad8a57d858d7a5fa perf beauty: Introduce scrape script for various fs syscalls 'flags' arguments
+         ddfcea316385e07a4bcb500b5a9cd0d21ad1b6cc perf beauty: Introduce scrape script for various fs syscalls 'flags' arguments
          
