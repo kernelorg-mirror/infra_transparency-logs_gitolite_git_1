@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7404947416363657562=="
+Content-Type: multipart/mixed; boundary="===============6043422529564198279=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 20 Mar 2024 10:21:03 -0000
-Message-Id: <171093006378.15186.11746140468922890567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 20 Mar 2024 10:21:53 -0000
+Message-Id: <171093011311.15554.15810086797888761020@gitolite.kernel.org>
 
---===============7404947416363657562==
+--===============6043422529564198279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: a4145ce1e7bc247fd6f2846e8699473448717b37
     log: revlist-fe46a7dd189e-a4145ce1e7bc.txt
 
---===============7404947416363657562==
+--===============6043422529564198279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f9c035492f2010e1e7aede1f1bd32181d7cef2dc Merge tag 's390-6.9-2' of git://git.ker
 78c3925c048c752334873f56c3a3d1c9d53e0416 Merge tag 'soc-late-6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 a4145ce1e7bc247fd6f2846e8699473448717b37 Merge tag 'bcachefs-2024-03-19' of https://evilpiepirate.org/git/bcachefs
 
---===============7404947416363657562==--
+--===============6043422529564198279==--
