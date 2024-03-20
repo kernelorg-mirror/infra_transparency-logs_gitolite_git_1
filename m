@@ -1,36 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 20 Mar 2024 14:27:30 -0000
-Message-Id: <171094485007.31015.18149421325715684210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Wed, 20 Mar 2024 14:38:52 -0000
+Message-Id: <171094553288.7207.14398603777252281393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/master
-    old: c74ccea0af4d0354be60cece679b63de7f06400d
-    new: 7d16145c4696772bb5438a43a482f68fbf046370
+  - ref: refs/tags/loongarch-6.9
+    old: 603a1e95d692dd451a3034b7210e2185fae334e4
+    new: 2e096464b0e7dc41e905bfc4dbb0d7fe5b435948
     log: |
-         9ce09ccc3c8eee9be4fb5f33ae382d92c69dc411 lscpu: don't use NULL sharedmap
-         4ebdd569049ac48a3867a59537cea769fa319e8f lib/sha1: fix for old glibc
-         7d16145c4696772bb5438a43a482f68fbf046370 chcpu(8): document limitations of -g
-         
-  - ref: refs/heads/stable/v2.39
-    old: d59697b754586bd36cf7397d45851c359b578472
-    new: b77dc0caaaf37cb07242966b4b5d8c8f3e07b4e5
-    log: |
-         4c5e1c9d17d9c42c0bdbc134dbd49f56bbb8fe3c Revert "libblkid: try LUKS2 first when probing"
-         b77dc0caaaf37cb07242966b4b5d8c8f3e07b4e5 libblkid: Check offset in LUKS2 header
-         
-  - ref: refs/heads/stable/v2.40
-    old: 806d26e41e2b0338b4f4549cb6a6d7b729bb1a14
-    new: 4f057203f9baf1dc3cee452f5ac6cd53499df750
-    log: |
-         6baf2ea1d3a64dbe198b333c34a5284247c87b5f lscpu: don't use NULL sharedmap
-         c2484e78d19184ae120981aab34341da046cb6a0 lib/sha1: fix for old glibc
-         4f057203f9baf1dc3cee452f5ac6cd53499df750 chcpu(8): document limitations of -g
+         8b5db5e5337ecb0a7954c39020861867a85b6206 LoongArch: Select ARCH_HAS_CURRENT_STACK_POINTER in Kconfig
+         f48ad26e5e57016b447461f22ecf7c3ed8337353 LoongArch: Select HAVE_ARCH_USERFAULTFD_MINOR in Kconfig
+         c87e12e0e8c1241410e758e181ca6bf23efa5b5b LoongArch: Change __my_cpu_offset definition to avoid mis-optimization
+         d42ab9af605ee406ec339e5e80a1c3a708637fd6 LoongArch: Move {dmw,tlb}_virt_to_page() definition to page.h
+         82bf60a6fed806d57e284a1fb40dbc1ad5097611 LoongArch: Remove superfluous flush_dcache_page() definition
+         9c68ece8b2a5c5ff9b2fcaea923dd73efeb174cd LoongArch: Define the __io_aw() hook as mmiowb()
+         fea1c949f6ca5059e12de00d0483645debc5b206 LoongArch/crypto: Clean up useless assignment operations
          
