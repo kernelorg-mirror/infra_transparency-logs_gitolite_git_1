@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7358311981455769091=="
+Content-Type: multipart/mixed; boundary="===============3437660150666418686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 20 Mar 2024 23:38:17 -0000
-Message-Id: <171097789782.21637.479499817728502104@gitolite.kernel.org>
+Date: Wed, 20 Mar 2024 23:38:24 -0000
+Message-Id: <171097790489.21738.410174886025627791@gitolite.kernel.org>
 
---===============7358311981455769091==
+--===============3437660150666418686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
+  - ref: refs/heads/i2c/i2c-host-fixes
     old: e8f897f4afef0031fe618a8e94127a0934896aba
     new: a4145ce1e7bc247fd6f2846e8699473448717b37
     log: revlist-e8f897f4afef-a4145ce1e7bc.txt
 
---===============7358311981455769091==
+--===============3437660150666418686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1710977896 +0100
+pusher andi.shyti@kernel.org 1710977903 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1710977895-9dab3f25cd15c5c441c29718a09b5e63784ba2c5
+nonce 1710977903-bb4ca204622b92ed7e395c5dc858cd4e5291fec6
 
-e8f897f4afef0031fe618a8e94127a0934896aba a4145ce1e7bc247fd6f2846e8699473448717b37 refs/heads/i2c/i2c-host
+e8f897f4afef0031fe618a8e94127a0934896aba a4145ce1e7bc247fd6f2846e8699473448717b37 refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZftzaBYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u+5MBAIUgbHQRzI4T05THPGnKyhkQrL45
-0M0HmGFf9ZTuocSqAQDzjYmNPfyTgalKxCx93l+wBYsOwHt5y68jZi8YTuT1Cw==
-=GaLl
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZftzbxYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ucIQA/AiiEZo3nEF5SrOgBtuVCJWnUJUg
+bGseIws4xuwpjij3AP9C7DfINQ2O+odPGLiNVg5XIiZa+/S0ele+TdU9zKWuDA==
+=zIbM
 -----END PGP SIGNATURE-----
 
---===============7358311981455769091==
+--===============3437660150666418686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1072,4 +1072,4 @@ f9c035492f2010e1e7aede1f1bd32181d7cef2dc Merge tag 's390-6.9-2' of git://git.ker
 78c3925c048c752334873f56c3a3d1c9d53e0416 Merge tag 'soc-late-6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 a4145ce1e7bc247fd6f2846e8699473448717b37 Merge tag 'bcachefs-2024-03-19' of https://evilpiepirate.org/git/bcachefs
 
---===============7358311981455769091==--
+--===============3437660150666418686==--
