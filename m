@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2442829668998641760=="
+Content-Type: multipart/mixed; boundary="===============0732508049834893912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 20 Mar 2024 19:27:59 -0000
-Message-Id: <171096287960.2322.13453288377848238074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 20 Mar 2024 19:28:11 -0000
+Message-Id: <171096289188.2463.16019902728657239635@gitolite.kernel.org>
 
---===============2442829668998641760==
+--===============0732508049834893912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: e9636fb539ffe339bbd4c019a23b59a85871194b
     log: revlist-0cf6ca036b98-e9636fb539ff.txt
 
---===============2442829668998641760==
+--===============0732508049834893912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ eb5feb4890ec67ef416fd02db2fb1dad0d2fafa1 perf beauty: Introduce scrape script fo
 5b9c2c806dfdd7302184f613cd41532157b575aa perf trace: Beautify the 'flags' arg of unlinkat
 e9636fb539ffe339bbd4c019a23b59a85871194b perf trace: Fix 'newfstatat'/'fstatat' argument pretty printing
 
---===============2442829668998641760==--
+--===============0732508049834893912==--
