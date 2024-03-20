@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8929930755649694851=="
+Content-Type: multipart/mixed; boundary="===============5404730893972367761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 20 Mar 2024 23:14:14 -0000
-Message-Id: <171097645408.3225.18092708927655554761@gitolite.kernel.org>
+Date: Wed, 20 Mar 2024 23:14:27 -0000
+Message-Id: <171097646724.3336.16070731666021922071@gitolite.kernel.org>
 
---===============8929930755649694851==
+--===============5404730893972367761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: bb271301b80410592cbe0170b9f6d2f677f68171
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 1f78f0901011c56801ff957f59152f390e8574b9
     new: a4145ce1e7bc247fd6f2846e8699473448717b37
-    log: revlist-bb271301b804-a4145ce1e7bc.txt
+    log: revlist-1f78f0901011-a4145ce1e7bc.txt
 
---===============8929930755649694851==
+--===============5404730893972367761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1710976453 +0100
+pusher andi.shyti@kernel.org 1710976466 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1710976451-e0afcac264d1faee7600dbe9c0d083494de5bc2b
+nonce 1710976465-0d4264353d8a48f96581a8a1947196604faf8c9a
 
-bb271301b80410592cbe0170b9f6d2f677f68171 a4145ce1e7bc247fd6f2846e8699473448717b37 refs/heads/i2c/i2c-host
+1f78f0901011c56801ff957f59152f390e8574b9 a4145ce1e7bc247fd6f2846e8699473448717b37 refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZfttxRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uREEA/2LwLun71Z/l3fcn8WvNZrRCfMBp
-4UxnriJBtPd2YEsKAQCOM6tvHJqgH/kV4mhdAOj278B54/qT2FpFsO/4wpkKDg==
-=LAOu
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZftt0hYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uQasA/3w27QBHk4V0vGke3x+2a4Lso6x2
+FMcarvU2Tw37r6qSAP0W4MC+N20ewA6yBrg35/406AJUWnk02RbGBSQumtC3Dg==
+=3X3H
 -----END PGP SIGNATURE-----
 
---===============8929930755649694851==
+--===============5404730893972367761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb271301b804-a4145ce1e7bc.txt
+Content-Disposition: attachment; filename=revlist-1f78f0901011-a4145ce1e7bc.txt
 
 d1997c98781459f7b6d0bf1858f538f48454a97b PCI: qcom: Disable ASPM L0s for sc8280xp, sa8540p and sa8295p
 3d1c16e920c88eb5e583e1b4a10b95a5dc97ec22 Bluetooth: hci_sync: Fix UAF in hci_acl_create_conn_sync
@@ -1072,4 +1072,4 @@ f9c035492f2010e1e7aede1f1bd32181d7cef2dc Merge tag 's390-6.9-2' of git://git.ker
 78c3925c048c752334873f56c3a3d1c9d53e0416 Merge tag 'soc-late-6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 a4145ce1e7bc247fd6f2846e8699473448717b37 Merge tag 'bcachefs-2024-03-19' of https://evilpiepirate.org/git/bcachefs
 
---===============8929930755649694851==--
+--===============5404730893972367761==--
