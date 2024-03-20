@@ -1,25 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Wed, 20 Mar 2024 14:38:52 -0000
-Message-Id: <171094553288.7207.14398603777252281393@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7797183557335443959=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 20 Mar 2024 14:42:08 -0000
+Message-Id: <171094572856.10010.12378745324090908707@gitolite.kernel.org>
+
+--===============7797183557335443959==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/loongarch-6.9
-    old: 603a1e95d692dd451a3034b7210e2185fae334e4
-    new: 2e096464b0e7dc41e905bfc4dbb0d7fe5b435948
+  - ref: refs/heads/for-6.9
+    old: cf6d79a0f5769b5f4d9579ddaf88d2c30b03b873
+    new: 2ff0573e7aff5129d73ec5c3159cd84d862cb1cc
     log: |
-         8b5db5e5337ecb0a7954c39020861867a85b6206 LoongArch: Select ARCH_HAS_CURRENT_STACK_POINTER in Kconfig
-         f48ad26e5e57016b447461f22ecf7c3ed8337353 LoongArch: Select HAVE_ARCH_USERFAULTFD_MINOR in Kconfig
-         c87e12e0e8c1241410e758e181ca6bf23efa5b5b LoongArch: Change __my_cpu_offset definition to avoid mis-optimization
-         d42ab9af605ee406ec339e5e80a1c3a708637fd6 LoongArch: Move {dmw,tlb}_virt_to_page() definition to page.h
-         82bf60a6fed806d57e284a1fb40dbc1ad5097611 LoongArch: Remove superfluous flush_dcache_page() definition
-         9c68ece8b2a5c5ff9b2fcaea923dd73efeb174cd LoongArch: Define the __io_aw() hook as mmiowb()
-         fea1c949f6ca5059e12de00d0483645debc5b206 LoongArch/crypto: Clean up useless assignment operations
+         2ff0573e7aff5129d73ec5c3159cd84d862cb1cc spi: docs: spidev: fix echo command format
          
+
+--===============7797183557335443959==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1710945727 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1710945726-c2c843b6c14139583d8f1cf2adb43f5ed8ffcf09
+
+cf6d79a0f5769b5f4d9579ddaf88d2c30b03b873 2ff0573e7aff5129d73ec5c3159cd84d862cb1cc refs/heads/for-6.9
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmX69b8ACgkQJNaLcl1U
+h9CoxAf+MhfjLWSvDPHihuI/Z7v6L9AoRAdFbuiq4C1VSH3SmdkkrWt9CCg6r/mN
+NyHRx/mKphSEeYOAHRI3Ipg5gRkrLj5oYlNBfv66fslj8eagMgmgStNDLFa1cbnG
+guhYzRLXKfB2RbEVI9q10BlHt3h0/qCwujXqfwwjLg7MPLvyGY167QCr/6mXOKmq
+dqv3fMUY/nDFVALGIJUs3eIjkaQyEDfSs3ZcS2or9zMIbNQcG4OWfWPNwrOSygtC
+j+jkgFfivOXSp4baMHrVJGZgxzZsiuAjkLxuWHPn9pHE5X/+q/qKZnKoO9R0JoPT
+2rZENzfcjAX3YHoCarXEUHrVqtcRWg==
+=agqY
+-----END PGP SIGNATURE-----
+
+--===============7797183557335443959==--
