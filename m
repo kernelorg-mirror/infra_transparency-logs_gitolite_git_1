@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 20 Mar 2024 01:44:47 -0000
-Message-Id: <171089908722.16812.868913851139060156@gitolite.kernel.org>
+Date: Wed, 20 Mar 2024 01:52:57 -0000
+Message-Id: <171089957704.22936.12026739767156534652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,14 @@ repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: 6e3cc6c0fc47315990f5aadfa740e2628b38c08b
-    new: 031d4478b44a1ecbc55ddaa9f27a6031fa746cda
+    old: 031d4478b44a1ecbc55ddaa9f27a6031fa746cda
+    new: bc51bfcd2c475c8d5a0e616d229273232ffc43f6
     log: |
-         e22a9046caa5677f758a3bfc2dc535eedd0ce3f5 riscv: Only flush the mm icache when setting an exec pte
-         30f3ffbee86b576705aabdd9093165a49cd66011 ACPI: RISC-V: Add CPPC driver
-         7ee1378736f09fceef95d2c9122d2cff14a375da cpufreq: Move CPPC configs to common Kconfig and add RISC-V
-         282b9df4e9603bbb5c9cbf3ea60bc393287e8a2f RISC-V: defconfig: Enable CONFIG_ACPI_CPPC_CPUFREQ
-         031d4478b44a1ecbc55ddaa9f27a6031fa746cda Merge patch series "RISC-V: ACPI: Enable CPPC based cpufreq support"
+         80ae153921c9dd0817f42103c67ce9506d6f8b6d crypto: riscv - parallelize AES-CBC decryption
+         0e7be8514fe0e488eb163c245b247cf0ba824ac9 crypto: riscv - add vector crypto accelerated AES-CBC-CTS
+         89f4fd7b1ab7733d9d817e7123c58996ca38ae98 riscv/barrier: Define __{mb,rmb,wmb}
+         b3c8064ccc447be45a3bdc2c4a9ea0491f011920 riscv/barrier: Define RISCV_FULL_BARRIER
+         c85688e2b0f0afbce7ea3cd8c47f2be67c09b9f4 riscv/barrier: Consolidate fence definitions
+         9133e6e6908d95812e89619f8a86abd0deb17bf3 riscv/barrier: Add missing space after ','
+         bc51bfcd2c475c8d5a0e616d229273232ffc43f6 Merge patch series "riscv/barrier: tidying up barrier-related macro"
          
