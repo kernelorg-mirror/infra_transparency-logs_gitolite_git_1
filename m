@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 20 Mar 2024 11:18:47 -0000
-Message-Id: <171093352714.24055.18168982121875174728@gitolite.kernel.org>
+Date: Wed, 20 Mar 2024 11:19:29 -0000
+Message-Id: <171093356980.24441.15348035720608041403@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,15 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: eb8ed5b0e9d988a75b10ea811eeb1cffc6aa95c0
-    new: 975dc05b26b448a060d1a1c8f42e9a5944c92c82
+    old: 975dc05b26b448a060d1a1c8f42e9a5944c92c82
+    new: 3cec2c74c0dcf4fc2a3934de22a0225575fb2300
     log: |
-         648337147d3550c1ca3d1b500e66dbda12e2d836 x86/asm: Use "m" operand constraint in WRUSSQ asm template
-         50c6d2457d01944d58af355d324cb7106de19a66 x86/percpu: Convert this_percpu_xchg_op() from asm() to C code, to generate better code
-         733b3d4dfa6c6b55885e77f1982ef5edc2023d21 x86/percpu: Move raw_percpu_xchg_op() to a better place
-         ee566487900e5da5c75543150b86d71ec4f06ede Merge branch into tip/master: 'x86/asm'
-         975dc05b26b448a060d1a1c8f42e9a5944c92c82 Merge branch into tip/master: 'x86/percpu'
+         901f00d935eb907c4ef1cdcbd63c9d6dad402d96 Merge branch into tip/master: 'irq/urgent'
+         7d6fe46e3fc6c16b229601f52fa45f38d9a7ffed Merge branch into tip/master: 'core/entry'
+         c61a1dfe8c184dcb198c8f5a73ab7b0ed0e43da4 Merge branch into tip/master: 'sched/core'
+         bf0ce47143fc675e18571f659cef6d864faac3bd Merge branch into tip/master: 'timers/core'
+         91c5c1e4cc56f859b34dfe3dbaa606da08db1556 Merge branch into tip/master: 'x86/asm'
+         5d80fe68615207cd75b572d465f1236ca3a3eb74 Merge branch into tip/master: 'x86/build'
+         6ca521a05c3c71657683a56279af8a66ef6d567f Merge branch into tip/master: 'x86/fpu'
+         3cec2c74c0dcf4fc2a3934de22a0225575fb2300 Merge branch into tip/master: 'x86/percpu'
          
