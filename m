@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 20 Mar 2024 00:09:40 -0000
-Message-Id: <171089338012.7351.9487739783674085004@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Wed, 20 Mar 2024 00:21:43 -0000
+Message-Id: <171089410333.16384.10749580172825633790@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/for-next
-    old: 700c2d9b1b179e723a1b6201d3307c37ede90f99
-    new: 42b221540080ec9b702ba557cf368a930967eaba
+  - ref: refs/heads/testing/WFAMNAE-next20240318-commit-by-commit
+    old: 1924b6ca88b4b3c1044969abbecaaee7ca23cfb8
+    new: 60df254ae7907c7a210692c003bbe386bccb7aee
     log: |
-         6be7ee4bebd14b8e7e040a5e7fd6aec3d9167c72 riscv: Improve arch_get_mmap_end() macro
-         9dc30419248f78dfebea7a554ec212dd1d82f8d7 riscv: Replace direct thread flag check with is_compat_task()
-         4c0b5a451675e9a95be98a16ddb889bb0486d2ad riscv: add compile-time test into is_compat_task()
-         5917ea17ad07f35bb5be4fd5fdcd408f090e347b riscv: Introduce is_compat_thread() into compat.h
-         2a8986fc5e1cb686dd3aae3022459aea23b9823a riscv: Introduce set_compat_task() in asm/compat.h
-         42b221540080ec9b702ba557cf368a930967eaba Merge patch series "riscv: Introduce compat-mode helpers & improve arch_get_mmap_end()"
+         60df254ae7907c7a210692c003bbe386bccb7aee wifi: mwl8k: Avoid -Wflex-array-member-not-at-end warnings
          
