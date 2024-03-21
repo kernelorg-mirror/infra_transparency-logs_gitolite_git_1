@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9178254884303562915=="
+Content-Type: multipart/mixed; boundary="===============2119858003741002695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 21 Mar 2024 01:09:23 -0000
-Message-Id: <171098336348.27720.9078925426742461734@gitolite.kernel.org>
+Date: Thu, 21 Mar 2024 01:09:26 -0000
+Message-Id: <171098336692.27794.16874248301409877130@gitolite.kernel.org>
 
---===============9178254884303562915==
+--===============2119858003741002695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
+  - ref: refs/heads/i2c/i2c-host-next
     old: a4145ce1e7bc247fd6f2846e8699473448717b37
     new: 23956900041d968f9ad0f30db6dede4daccd7aa9
     log: revlist-a4145ce1e7bc-23956900041d.txt
 
---===============9178254884303562915==
+--===============2119858003741002695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1710983362 +0100
+pusher andi.shyti@kernel.org 1710983366 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1710983361-9c4fc8d7542e00ee341834df4770f804927062d0
+nonce 1710983365-ebb11f50c838862177eca1b2d27cb1243afe89f2
 
-a4145ce1e7bc247fd6f2846e8699473448717b37 23956900041d968f9ad0f30db6dede4daccd7aa9 refs/heads/i2c/i2c-host-fixes
+a4145ce1e7bc247fd6f2846e8699473448717b37 23956900041d968f9ad0f30db6dede4daccd7aa9 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZfuIwhYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u6hgBAMOl89yY5/lMIIK6b4n6DAX9E6fk
-Q+Ug6tsQ5iHiCW0zAQDmQuj5tmSCIuiweUD+SUmMOars8HcwEysn8Xl+YjXNCw==
-=33rO
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZfuIxhYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uB+MBAOMcZykRcHlNMa1rnsOYM8uTCqGU
+TZV9iDOvVDC4KMPNAQCWsijpp3H917YrCy9kQ6mYQW28GfaQUd2lwXlQmCjKAw==
+=tPqg
 -----END PGP SIGNATURE-----
 
---===============9178254884303562915==
+--===============2119858003741002695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ dba89d1b81df749711645bdc201ed67223f35830 Merge tag 'docs-6.9-2' of git://git.lwn
 42c2a75694053cee46dd5d14b140c2094d2a0f2e Merge tag 'trace-tools-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 23956900041d968f9ad0f30db6dede4daccd7aa9 Merge tag 'v6.9-rc-smb3-server-fixes' of git://git.samba.org/ksmbd
 
---===============9178254884303562915==--
+--===============2119858003741002695==--
