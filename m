@@ -1,37 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6896579169679587585=="
+Content-Type: multipart/mixed; boundary="===============2231687375625345851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 21 Mar 2024 16:42:08 -0000
-Message-Id: <171103932890.16844.15682489420304760821@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/morse/linux
+Date: Thu, 21 Mar 2024 16:53:13 -0000
+Message-Id: <171103999347.24021.11693203922715781794@gitolite.kernel.org>
 
---===============6896579169679587585==
+--===============2231687375625345851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/morse/linux
+user: morse
 changes:
-  - ref: refs/heads/affs
-    old: f7c79a40b575f2b6c156c8bee9a652401bf715b6
-    new: 23956900041d968f9ad0f30db6dede4daccd7aa9
-    log: revlist-f7c79a40b575-23956900041d.txt
+  - ref: refs/heads/mpam/kvm_mpam_fix/v3
+    old: 91a6ff5f9a95411de1f0cd60b0069d5c342e1c1d
+    new: efef6777cd47f54b38b9f5c02a0d891eb54ce198
+    log: revlist-91a6ff5f9a95-efef6777cd47.txt
 
---===============6896579169679587585==
+--===============2231687375625345851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7c79a40b575-23956900041d.txt
+Content-Disposition: attachment; filename=revlist-91a6ff5f9a95-efef6777cd47.txt
 
-6892982316846d4c40d12b0641d59519d868a784 mtd: maps: sun_uflash: Declare uflash_devinit static
-99bd9a4f87926e12ce60796d7db1d6b226aca5e3 sparc32: Do not select GENERIC_ISA_DMA
-91d3ff922c346d6d8cb8de5ff8d504fe0ca9e17e sparc32: Fix parport build with sparc32
-24338a6ae13cb743ced77da1b3a12c83f08a0c96 sparc32: Fix section mismatch in leon_pci_grpci
-61fc8d40676c0742882f86071ced8f2b81c488bc sbus: Add prototype for bbc_envctrl_init and bbc_envctrl_cleanup to header
-d0e71777f7eb15aed8cd26dcc4a325236c5bca97 sbus: bbc_i2c: Convert to platform remove callback returning void
 3f35533053a4e9983e507ba773d5f908c97b049f sbus: display7seg: Convert to platform remove callback returning void
 09c531e06048fa300f64616a6703f0ab9592dc22 sbus: envctrl: Convert to platform remove callback returning void
 e81a3214e6b57f0bc587eeaaf53ef4634168794b sbus: flash: Convert to platform remove callback returning void
@@ -1050,5 +1044,11 @@ a23c05fd76cf4ad27e0c74f7a93e7b089e94a55c tools/rtla: Add -U/--user-load option t
 dba89d1b81df749711645bdc201ed67223f35830 Merge tag 'docs-6.9-2' of git://git.lwn.net/linux
 42c2a75694053cee46dd5d14b140c2094d2a0f2e Merge tag 'trace-tools-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 23956900041d968f9ad0f30db6dede4daccd7aa9 Merge tag 'v6.9-rc-smb3-server-fixes' of git://git.samba.org/ksmbd
+4f7bfd0498b6d8b12a32e3ac298af4138ed96c9b arm64: head.S: Initialise MPAM EL2 registers and disable traps
+66e08b376a3230bc60f56dd9b7127a65d70fe32c arm64: cpufeature: discover CPU support for MPAM
+bdac0a844df73e7f8834777014a3527ee7f8b99f KVM: arm64: Fix missing traps of guest accesses to the MPAM registers
+bc169aa278dd5f95b87b4b5234f735af6ffaf236 KVM: arm64: Disable MPAM visibility by default and ignore VMM writes
+319adc40ecad74fc8d18439d621b902b47c39abc KVM: arm64: selftests: Move the bulky macro invocation to a helper
+efef6777cd47f54b38b9f5c02a0d891eb54ce198 KVM: arm64: selftests: Test ID_AA64PFR0.MPAM isn't completely ignored
 
---===============6896579169679587585==--
+--===============2231687375625345851==--
