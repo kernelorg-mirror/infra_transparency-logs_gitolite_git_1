@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 21 Mar 2024 17:09:06 -0000
-Message-Id: <171104094669.3653.3202699600477672762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 21 Mar 2024 17:09:44 -0000
+Message-Id: <171104098404.3991.8634349802009141090@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-next/execve
-    old: 472874cf7bb34895ae69483338359df84e76f3e1
-    new: 2aea94ac14d1e0a8ae9e34febebe208213ba72f7
-    log: |
-         2aea94ac14d1e0a8ae9e34febebe208213ba72f7 exec: Fix NOMMU linux_binprm::exec in transfer_args_to_stack()
-         
+  - ref: refs/tags/sound-fix2-6.9-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 70304f48a4f28051c2a6163a6156798f16d65017
