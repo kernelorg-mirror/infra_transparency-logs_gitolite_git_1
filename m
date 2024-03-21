@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 21 Mar 2024 12:10:40 -0000
-Message-Id: <171102304074.1971.12835645082169969675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Thu, 21 Mar 2024 12:15:48 -0000
+Message-Id: <171102334864.5479.3863137993744801342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/main
-    old: e4137851d4863a9bdc6aabc613bcb46c06d91e64
-    new: f411e25005928a6fd3e390a01059e1dabf3aec2b
-    log: |
-         af1752ecdc9c665b72fbe2cef9035a6cba34b473 can: kvaser_pciefd: Add additional Xilinx interrupts
-         f411e25005928a6fd3e390a01059e1dabf3aec2b Merge tag 'linux-can-fixes-for-6.9-20240319' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-         
+  - ref: refs/heads/i2c/master_to_host
+    old: 0000000000000000000000000000000000000000
+    new: 9d6f3a9d4ca698dff0de23e310936aae1c1cebdd
