@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8079935884528177872=="
+Content-Type: multipart/mixed; boundary="===============1404307802855498929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 21 Mar 2024 20:37:28 -0000
-Message-Id: <171105344885.28512.18086631021372361906@gitolite.kernel.org>
+Date: Thu, 21 Mar 2024 20:37:32 -0000
+Message-Id: <171105345227.28588.4250521445513147341@gitolite.kernel.org>
 
---===============8079935884528177872==
+--===============1404307802855498929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
+  - ref: refs/heads/i2c/i2c-host-fixes
     old: 23956900041d968f9ad0f30db6dede4daccd7aa9
     new: 2ac2b1665d3fbec6ca709dd6ef3ea05f4a51ee4c
     log: revlist-23956900041d-2ac2b1665d3f.txt
 
---===============8079935884528177872==
+--===============1404307802855498929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1711053446 +0100
+pusher andi.shyti@kernel.org 1711053451 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1711053445-c46389d79502f93cb1838ab3ef351f0fa08fd588
+nonce 1711053450-c8b1a848767139b37f4b6e908d346cf909f810ea
 
-23956900041d968f9ad0f30db6dede4daccd7aa9 2ac2b1665d3fbec6ca709dd6ef3ea05f4a51ee4c refs/heads/i2c/i2c-host
+23956900041d968f9ad0f30db6dede4daccd7aa9 2ac2b1665d3fbec6ca709dd6ef3ea05f4a51ee4c refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZfyahhYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u4iYA/3bUQ8oWm5ibQoMi3hmcrCAsFBKT
-cRW015vkTp/Y1YwMAQDjF7bckRgp2LrKFG3brvaW7y3v8ND2TY+EqRzKRjxrDg==
-=pY91
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZfyaixYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uoIMBAMQeFSRb+B49F1MNu5W6nACuhIv/
+xSe4bESHoJqo2hIHAP9VuzYhp5UcAGg46jQ9HoP8uJokMzMABO98pb0Q8kvnDA==
+=jNdm
 -----END PGP SIGNATURE-----
 
---===============8079935884528177872==
+--===============1404307802855498929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -118,4 +118,4 @@ ebc9bee8814d12ec247de117aa2f7fd39ff11127 Merge tag 'cocci-6.9-rc1' of git://git.
 91f263dda66a2dd4bf0c5d8ad6f48ab9fd5d9eca Merge tag 'rpmsg-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 2ac2b1665d3fbec6ca709dd6ef3ea05f4a51ee4c Merge tag 'hwlock-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 
---===============8079935884528177872==--
+--===============1404307802855498929==--
