@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 21 Mar 2024 23:46:50 -0000
-Message-Id: <171106481018.4954.17694231984141834573@gitolite.kernel.org>
+Date: Thu, 21 Mar 2024 23:50:44 -0000
+Message-Id: <171106504446.8030.16299317763957603140@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,8 +9,13 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+user: acme
 changes:
-  - ref: refs/tags/perf-tools-for-v6.9-2024-03-13
-    old: 0000000000000000000000000000000000000000
-    new: 11364e6cccc9460054938bc43c277156d680fe6a
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 3fa509443f16f4089f373b02b7ae1e27ed7cb9ee
+    new: 4962e1949608fed932d661ef45803a5bee69bebe
+    log: |
+         2a5049b75d22c971e73501784f10548c1d69c407 perf lock contention: Trim backtrace by skipping traceiter functions
+         b3ad832d8da583ff4237b04a1ba23cdbf8918907 perf dso: Reorder members to save space in 'struct dso'
+         4962e1949608fed932d661ef45803a5bee69bebe perf beauty: Move uapi/linux/vhost.h copy out of the directory used to build perf
+         
