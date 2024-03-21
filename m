@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6459227437093788003=="
+Content-Type: multipart/mixed; boundary="===============1856264096362348153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 21 Mar 2024 13:34:06 -0000
-Message-Id: <171102804600.28640.17127742198371270587@gitolite.kernel.org>
+Date: Thu, 21 Mar 2024 13:35:06 -0000
+Message-Id: <171102810654.30625.8268816496266407973@gitolite.kernel.org>
 
---===============6459227437093788003==
+--===============1856264096362348153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 773bb766ca4a05bf363203030b72b10088869224
     new: f411e25005928a6fd3e390a01059e1dabf3aec2b
     log: revlist-773bb766ca4a-f411e2500592.txt
 
---===============6459227437093788003==
+--===============1856264096362348153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,4 +69,4 @@ b5048d27872a9734d142540ea23c3e897e47e05c MAINTAINERS: step down as netfilter mai
 e4137851d4863a9bdc6aabc613bcb46c06d91e64 selftests: forwarding: Fix ping failure due to short timeout
 f411e25005928a6fd3e390a01059e1dabf3aec2b Merge tag 'linux-can-fixes-for-6.9-20240319' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 
---===============6459227437093788003==--
+--===============1856264096362348153==--
