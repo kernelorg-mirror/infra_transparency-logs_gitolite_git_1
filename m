@@ -1,75 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============2119858003741002695=="
+Content-Type: multipart/mixed; boundary="===============7119012089581893129=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 21 Mar 2024 01:09:26 -0000
-Message-Id: <171098336692.27794.16874248301409877130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 21 Mar 2024 01:37:49 -0000
+Message-Id: <171098506942.17654.14753627366720183024@gitolite.kernel.org>
 
---===============2119858003741002695==
+--===============7119012089581893129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: a4145ce1e7bc247fd6f2846e8699473448717b37
-    new: 23956900041d968f9ad0f30db6dede4daccd7aa9
-    log: revlist-a4145ce1e7bc-23956900041d.txt
+  - ref: refs/heads/seen
+    old: 7511fa7fc07e203c26711020fd83776e28ae3f92
+    new: 9ff74ee352c40cd1f339f5372c37cfb8886b4ee5
+    log: revlist-7511fa7fc07e-9ff74ee352c4.txt
 
---===============2119858003741002695==
+--===============7119012089581893129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7511fa7fc07e-9ff74ee352c4.txt
 
-certificate version 0.1
-pusher andi.shyti@kernel.org 1710983366 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1710983365-ebb11f50c838862177eca1b2d27cb1243afe89f2
+67fd41174f30f2b2f4d95639631fa8fe75ade7b3 Documentation/technical: describe pseudo-merge bitmaps format
+191f0173d1362b46d8fa0aa10637a96fda31551d config: repo_config_get_expiry()
+c1540ea44c594e17b207b69e706baddf1ba1ff35 ewah: implement `ewah_bitmap_is_subset()`
+6ff2e68c44f6c55c376497a0b23d4807957c9747 pack-bitmap: drop unused `max_bitmaps` parameter
+afc4b564062b2f044651b1fe867a6ee953e53104 pack-bitmap: move some initialization to `bitmap_writer_init()`
+52c172f28223c652b5993c404340c79f4a31ac05 pseudo-merge.ch: initial commit
+f90f154e80b22434f307bedaea798f420ac04b34 pack-bitmap-write: support storing pseudo-merge commits
+cd1350305bd6fd9282db17b372d84d083acf52f0 pack-bitmap: implement `bitmap_writer_has_bitmapped_object_id()`
+9bde930afaeae8f452821b37b16e116fc8d31777 pack-bitmap: make `bitmap_writer_push_bitmapped_commit()` public
+abda8a70cf658834146833b945fe8db125a8adcc pseudo-merge: implement support for selecting pseudo-merge commits
+be78176a72f361eb6b7e543a42990a65d92c0718 pack-bitmap-write.c: select pseudo-merge commits
+5d2ff78bf1b20f04d7b023b20227e15c9cbdae71 pack-bitmap-write.c: write pseudo-merge table
+67fae97280f4609ebb6ea7c035b56693bf6fd510 pack-bitmap: extract `read_bitmap()` function
+2f1510773c7e7c475a32c42f3b954ad487b73cb5 pseudo-merge: scaffolding for reads
+aa561e98591527a4f4161c7ca00f3ae1c1dd7717 pack-bitmap.c: read pseudo-merge extension
+9441dcf968a0b12e6286452fe46e9aa38378cb5b pseudo-merge: implement support for reading pseudo-merge commits
+0c6600dd0b9bd4e078fccc1238140b7f6699bd1f ewah: implement `ewah_bitmap_popcount()`
+cfe8a0fbadb0ee2e3de99024757b69a35d741bde pack-bitmap: implement test helpers for pseudo-merge
+d4e6e581e84ab9c3a38e8328181aa9ffccd2053d t/test-lib-functions.sh: support `--date` in `test_commit_bulk()`
+4a2598d79813754cbbd02a0a07fddaf49e04cfd2 pack-bitmap.c: use pseudo-merges during traversal
+33b446a46747a7d99cc479429b9e048670047ab8 pack-bitmap: extra trace2 information
+2e58dc2aae1c8b75a8e779a5fa50b960a515a52e ewah: `bitmap_equals_ewah()`
+7e491570cf00b847dcf29173bef31fe4e6a7ef52 pseudo-merge: implement support for finding existing merges
+4cbfcd8092effbf88d12927cfc750bf7a6b47e4b t/perf: implement performace tests for pseudo-merge bitmaps
+9ff74ee352c40cd1f339f5372c37cfb8886b4ee5 Merge branch 'tb/pseudo-merge-reachability-bitmap' into seen
 
-a4145ce1e7bc247fd6f2846e8699473448717b37 23956900041d968f9ad0f30db6dede4daccd7aa9 refs/heads/i2c/i2c-host-next
------BEGIN PGP SIGNATURE-----
-
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZfuIxhYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uB+MBAOMcZykRcHlNMa1rnsOYM8uTCqGU
-TZV9iDOvVDC4KMPNAQCWsijpp3H917YrCy9kQ6mYQW28GfaQUd2lwXlQmCjKAw==
-=tPqg
------END PGP SIGNATURE-----
-
---===============2119858003741002695==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4145ce1e7bc-23956900041d.txt
-
-5614c8c487f6af627614dd2efca038e4afe0c6d7 ksmbd: replace generic_fillattr with vfs_getattr
-34cd86b6632718b7df3999d96f51e63de41c5e4f ksmbd: retrieve number of blocks using vfs_getattr in set_file_allocation_info
-fa9415d4024fd0c58d24a4ad4f1826fb8bfcc4aa ksmbd: mark SMB2_SESSION_EXPIRED to session when destroying previous session
-c8efcc786146a951091588e5fa7e3c754850cb3c ksmbd: add support for durable handles v1/v2
-5fb282ba4fef8985a5acf2b32681f2ec07732561 ksmbd: fix possible null-deref in smb_lazy_parent_lease_break_close
-e758fa6956cbc873e4819ec3dd97cfd05a4c147e ksmbd: Fix spelling mistake "connction" -> "connection"
-a80a486d72e20bd12c335bcd38b6e6f19356b0aa ksmbd: fix slab-out-of-bounds in smb_strndup_from_utf16()
-bf4401f3ec700e1a7376a4cbf05ef40c7ffce064 README: Fix spelling
-b4331b9884f12daf2a8dc595200b1fa5c57cf4a6 doc: Fix typo in admin-guide/cifs/introduction.rst
-93cf15794d315de61a10067d89101de5aac08fcf docs: *-regressions.rst: Add colon to regzbot commands
-8774a1eb4ca2fc429e9c1c1405a98386bfbb211b docs: handling-regressions.rst: Update regzbot command fixed-by to fix
-b513d12ed162cb948706b93b828bc4eec2e68188 docs: verify/bisect: improve install instructions
-a0a3222fa9a7856b9c66708abeffdce45b2c1eb8 docs: verify/bisect: check taint flag
-2fa9411dc98cbcb286a4fef5b8bc5a9848b373df docs: verify/bisect: drop 'v' prefix, EOL aspect, and assorted fixes
-b8cfda5c9065cd619a97c17da081cbfab3b1e756 docs: verify/bisect: remove a level of indenting
-c6cd2e8d2d9aa7ee35b1fa6a668e32a22a9753da ksmbd: fix potencial out-of-bounds when buffer offset is invalid
-def30e72d8abaf68da10682767e584519c234c4c ksmbd: remove module version
-9d56c88e522517652213e9622dcae159e6372fd3 tools/tracing: Use tools/build makefiles on latency-collector
-01474dc706cabbdaab600a46a107220ac5de9386 tools/rtla: Use tools/build makefiles to build rtla
-012e4e77df736263f235640e0b0b45ac919e54bf tools/verification: Use tools/build makefiles on rv
-a23c05fd76cf4ad27e0c74f7a93e7b089e94a55c tools/rtla: Add -U/--user-load option to timerlat
-dba89d1b81df749711645bdc201ed67223f35830 Merge tag 'docs-6.9-2' of git://git.lwn.net/linux
-42c2a75694053cee46dd5d14b140c2094d2a0f2e Merge tag 'trace-tools-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-23956900041d968f9ad0f30db6dede4daccd7aa9 Merge tag 'v6.9-rc-smb3-server-fixes' of git://git.samba.org/ksmbd
-
---===============2119858003741002695==--
+--===============7119012089581893129==--
