@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1174435750287862043=="
+Content-Type: multipart/mixed; boundary="===============7011360598827910185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 21 Mar 2024 15:21:31 -0000
-Message-Id: <171103449192.22747.10388253923409746846@gitolite.kernel.org>
+Date: Thu, 21 Mar 2024 15:21:40 -0000
+Message-Id: <171103450067.22841.14017351775343746795@gitolite.kernel.org>
 
---===============1174435750287862043==
+--===============7011360598827910185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: b401b621758e46812da61fa58a67c3fd8d91de0d
+  - ref: refs/heads/char-misc-linus
+    old: a0776c214d47ea4f7aaef138095beaa41cff03ef
     new: 23956900041d968f9ad0f30db6dede4daccd7aa9
-    log: revlist-b401b621758e-23956900041d.txt
+    log: revlist-a0776c214d47-23956900041d.txt
 
---===============1174435750287862043==
+--===============7011360598827910185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711034490 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711034499 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1711034490-28f2fbea13bcabfb316721afb1b09119d04d4f57
+nonce 1711034498-a2db9c45447e1869e2ee2c8a6f83a57d8f33c4cd
 
-b401b621758e46812da61fa58a67c3fd8d91de0d 23956900041d968f9ad0f30db6dede4daccd7aa9 refs/heads/main
+a0776c214d47ea4f7aaef138095beaa41cff03ef 23956900041d968f9ad0f30db6dede4daccd7aa9 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmX8UHobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fqsP/00hot/b54fkVxAlzXud
-5Hx7tk3Ebnp3H7DRt0YOZL27qG89o+wgU6syrpRIJuC+2W6WwpcStyfeDIgIdv4O
-mBXyY+Jdmolk+CrhS4eU3dgd5AVVSh0ycoeuClDtRfdJ5Shvesa6TNbZG1kvRLe4
-ScFdP+uzVT05c+WbVHjufGZr7Ws19julf288tudw07rdg5gBA34sWdkk6/To8vB5
-Qkgy2WvOyLoyUraZfY2OirazKIy0V8ysE7vZUcnOtArtpwGuMwc8vowB1pHhCp51
-rdzg4cICT6xObt6CnyJ1nwkJjI3nVOzfivd/TbZPN/isSjueKAqsWdFK/NE0c9uM
-gW5iuc1nCriYk68R9Ab2Ruc/kgS0SqfFFBnlEj0DgY9me9bXtwNApNvtw0V+rent
-j0+QUNzTeWipeHN8BOwJ0UtWMMxAuqPXXgOEM5RbnmbKiocpWk7fUQm+8WpiX+1F
-vSgeYjC/xsaI2oG/S8fODyi3kTspUNHD5gZsTwRXernZTNOfDGluzU3QYgdThZ+1
-ZAF/ZvlXqfBDHcv6M6JLhG/FtkLi4eM+bNwEFY9XdRCq0mVpZeyXsuK8BOgna68c
-M3pcCeHZy7SMVYNSR3+LQWxdht1jevrNGq/EysKlVYbYifFJe2KZR9ZfhRUCrWcp
-/CefKBxi5xkzNP0Sm+oeHV8k
-=xIIq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmX8UIMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tGEP/11xW62EyvqWGUkBhsX6
+xZsvd2mmzw2GNYKH2ffuyR00DV88iIQ7+wUE4im8raCQK/0P6BFQLodR8k51nY7d
+tAGX38En9WlvyUR6Q0BF1Ah2Kf/wl6TK2WzMy5ZlHRAGmvRVgSl9i6SVTNn5yckS
+ggMGehnNijhCFGrqHBJ1iDkC5LeK6hpw7Xhc+UIpVcLllBkEGvPgqw6WtG+dRTmn
+6lFRmlc0R0LTozO/GJFw7D4w2xztI23SfcYoddtt52FVKqPUaWLsanEqNu1i4oL6
++LhfWCI9QqdGtsGNvwlVLwOyqEgVIAkbVjasaqPzN3eg0mUw641Y1LduRQlyKdDF
+G1bU23g/cmsLvTEQmelUfSgCXa209karaLD9NrDj926XwDKqlIZJHSzq78zRcI9r
+SBpaT0Cq49/Q0Rm39711+2/5/tDeF/GoE/cGNqYkaUB8rn0ZIcGGYz3bBKQ0TVCz
+aL66T5OCDj7zwwlS56qQFU1Av6D1TzBkkP9gTxOfPax2Z5Eo1V44fHNHiGZmdyh6
+nCtVwX864TiCalEh4THM/4sWCpcJLLYNt1PziwzEZwbIgZRj8LlXdeab5pCIBwd6
+V7gc2uWTE1FUPp+A+l74JraagVZ/IF3YbANMuH4adMtC3TGq103p0LkLHj4/cm2L
+JKOV0+BrzUj46rk35NhxbDjM
+=Kz+k
 -----END PGP SIGNATURE-----
 
---===============1174435750287862043==
+--===============7011360598827910185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b401b621758e-23956900041d.txt
+Content-Disposition: attachment; filename=revlist-a0776c214d47-23956900041d.txt
 
 6892982316846d4c40d12b0641d59519d868a784 mtd: maps: sun_uflash: Declare uflash_devinit static
 99bd9a4f87926e12ce60796d7db1d6b226aca5e3 sparc32: Do not select GENERIC_ISA_DMA
@@ -1082,4 +1082,4 @@ dba89d1b81df749711645bdc201ed67223f35830 Merge tag 'docs-6.9-2' of git://git.lwn
 42c2a75694053cee46dd5d14b140c2094d2a0f2e Merge tag 'trace-tools-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 23956900041d968f9ad0f30db6dede4daccd7aa9 Merge tag 'v6.9-rc-smb3-server-fixes' of git://git.samba.org/ksmbd
 
---===============1174435750287862043==--
+--===============7011360598827910185==--
