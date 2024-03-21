@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3016162522631965427=="
+Content-Type: multipart/mixed; boundary="===============0857982315284627447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 21 Mar 2024 19:49:23 -0000
-Message-Id: <171105056384.24475.9375445484029425933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 21 Mar 2024 19:49:35 -0000
+Message-Id: <171105057520.24612.8221498043934071320@gitolite.kernel.org>
 
---===============3016162522631965427==
+--===============0857982315284627447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
-    old: 0f66dfe7b91d2743cc71dfff37af503215b204ef
+    old: d988c9f511af71a3445b6a4f3a2c67208ff8e480
     new: af34a16d3090f8a2f7eac24290209dacb9471132
-    log: revlist-0f66dfe7b91d-af34a16d3090.txt
+    log: revlist-d988c9f511af-af34a16d3090.txt
 
---===============3016162522631965427==
+--===============0857982315284627447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f66dfe7b91d-af34a16d3090.txt
+Content-Disposition: attachment; filename=revlist-d988c9f511af-af34a16d3090.txt
 
 0e25a788ea2c4a6f5f971279396fcf79f4fecd7b erofs: convert z_erofs_do_read_page() to folios
 19fb9070c2cd9aa6d4bd368985918d7200ec1722 erofs: get rid of `justfound` debugging tag
@@ -1051,4 +1051,4 @@ d70cc755caef9c6f0ed05c9346df052decf250bd perf vendor events intel: Update skylak
 7bce27f8d33ac370f74a2f9c36608c2ce7cd2fa7 perf vendor events intel: Update snowridgex to 1.22
 af34a16d3090f8a2f7eac24290209dacb9471132 perf vendor events intel: Remove info metrics erroneously in TopdownL1
 
---===============3016162522631965427==--
+--===============0857982315284627447==--
