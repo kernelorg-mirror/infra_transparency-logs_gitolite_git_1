@@ -1,31 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============6973102708483583487=="
+Content-Type: multipart/mixed; boundary="===============3658917908986012240=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Thu, 21 Mar 2024 18:23:31 -0000
-Message-Id: <171104541194.25634.753814138989151557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Thu, 21 Mar 2024 18:23:45 -0000
+Message-Id: <171104542583.25803.9094329504423996024@gitolite.kernel.org>
 
---===============6973102708483583487==
+--===============3658917908986012240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next-next
-    old: 03d97f617d014549d5daa55efbf9327bde545fca
-    new: c3bb2ec530c7dd358222838c3fdc04c178237db3
-    log: revlist-03d97f617d01-c3bb2ec530c7.txt
+  - ref: refs/heads/for-leds-next-next
+    old: 1f88a09c35f8d50eff1adbc9e35cc2982b3ac9f9
+    new: ca66b10a11da3c445c9c0ca1184f549bbe9061f2
+    log: revlist-1f88a09c35f8-ca66b10a11da.txt
 
---===============6973102708483583487==
+--===============3658917908986012240==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-03d97f617d01-c3bb2ec530c7.txt
+Content-Disposition: attachment; filename=revlist-1f88a09c35f8-ca66b10a11da.txt
 
+2f521890aa5b8a5619d31a95caec0b08d4cb9e1a thermal: netlink: Pass thermal zone pointer to notify routines
+3d1d4aa0cc13b1883a5a56c945837a2e0ecb5143 cachefiles: Fix signed/unsigned mixup
+e2bdb5272f4314256f51d91eee7babcae58b194b netfs: Fix wrong #ifdef hiding wait
+022e6f5184ff73eaaf6aa7a89b7fafc7c2bd8c9c PM: QoS: Use kcalloc() instead of kzalloc()
+2fb7e4dd35c52933b18ff127bf92d703c8e2e897 PNP: make pnp_bus_type const
+d2aaf19965045f70bb2ece514399cdc6fcce2e73 ACPI: resource: Add DMI quirks for ASUS Vivobook E1504GA and E1504GAB
+dcaca1b5f0d47f4ed59f606795df531cc8a2d7d2 ALSA: hda/tas2781: annotate calibration data endianness
+8c51c13dc63d46e754c44215eabc0890a8bd9bfb kselftest/alsa - mixer-test: fix the number of parameters to ksft_exit_fail_msg()
+3f47c1ebe5ca9c5883e596c7888dec4bec0176d8 kselftest/alsa - mixer-test: Fix the print format specifier warning
+f77a255e74c348a158d21a471e993e70ff710737 kselftest/alsa - mixer-test: Fix the print format specifier warning
 fd38dd6abda589a8771e7872e4dea28c99c6a6ef kselftest/alsa - conf: Stringify the printed errno in sysfs_get()
 e315e8692f7922cd1b2a26bd7a1741cc8ce77085 ACPI: resource: Skip IRQ override on ASUS ExpertBook B1502CGA
 cb1210a7c03c55f9fb7496bd44155c6a024fe458 ACPICA: MADT: Add GICC online capable bit handling
@@ -158,6 +168,9 @@ ae8986e681e9c26fb6c140ae1ed41e6d74d38fc4 drm/i915/dp: Fix the PSR debugfs entrie
 53cd65a9c95109eef402db0ed7822b7c9a8ad732 drm/i915/gt: reconcile Excess struct member kernel-doc warnings
 af3cfcad492f2ffbef5de36c8ee1e8f8a701938f drm/i915/guc: reconcile Excess struct member kernel-doc warnings
 d505a16e00c35919fd9fe5735894645e0f70a415 drm/i915/perf: reconcile Excess struct member kernel-doc warnings
+3208bcef366a1795f03abd93a0dfe7f1c364e4d7 mfd: ab8500-sysctrl: Drop ancient charger
+64fe64f920f0b478c0fb350b1682b70c21160c98 dt-bindings: mfd: sprd: Add support for UMS9620
+284d16c456e5d4b143f375b8ccc4038ab3f4ee0f mfd: ti_am335x_tscadc: Fix TI SoC dependencies
 1b5e94657320c86fc660745e3fc64321948649be kbuild: deb-pkg: move 'make headers' to build-arch
 6185d32170b683abadddf1e68be998e24f3cc5de kbuild: deb-pkg: use debian/<package> for tmpdir
 496530c7c1dfc159d59a75ae00b572f570710c53 erofs: avoid debugging output for (de)compressed data
@@ -983,72 +996,59 @@ d826cc57c53fa759cac019efc9e59e475cf41070 bcachefs: logged_ops_format.h
 4fbbed7872677b0a28ba8237169968171a61efbd Merge tag 'timers-core-2024-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 35a4474b5c3dd4315f72bd53e87b97f128d9bb3d Merge tag 'bcachefs-2024-01-21' of https://evilpiepirate.org/git/bcachefs
 6613476e225e090cc9aad49be7fa504e290dd33d Linux 6.8-rc1
-4d2ff655fb85a0bf1ecec6022ffdacb2a5f83fd2 platform/chrome: Update binary interface for EC-based watchdog
-843dac4d3687f7628ba4f76e1481ee3838b27a35 watchdog: Add ChromeOS EC-based watchdog driver
-12f0a4cc845286f331239c52282aab283a0392e5 dt-bindings: mfd: da9062: Update watchdog description
-19c993f29e8ed2c4e34f4696b9cd0184e404c1fb dt-bindings: mfd: dlg,da9063: Update watchdog child node
-e2fcaf4c067099a1ebcdb37903e630ad0f55ed2e dt-bindings: input: Convert da906{1,2,3} onkey to json-schema
-fddee1e686de077c80ad9dd61f4a50fa1d8b6605 dt-bindings: thermal: Convert da906{1,2} thermal to json-schema
-ae3a0d709c240bc88c741d624d119ae96081d545 dt-bindings: mfd: dlg,da9063: Sort child devices
-f1eb64bf6d4bef5295ab7633874960fbcfadca46 dt-bindings: mfd: dlg,da9063: Convert da9062 to json-schema
-3eeadf8ff94860eada0a166a9052ff398a23807e Merge branches 'ib-mfd-cros-watchdog-6.9' and 'ib-mfd-input-thermal-6.9' into ibs-for-mfd-merged
-ac9538f6007e1c80f1b8a62db7ecc391b4d78ae5 mfd: intel-lpss: Switch to generalized quirk table
-1d8c51ed2ddcc4161e6496cf14fcd83921c50ec8 mfd: intel-lpss: Introduce QUIRK_CLOCK_DIVIDER_UNITY for XPS 9530
-fc99c0132210a0f8b6a601eda90cf4d5e25b041d mfd: lpc_ich: Use ALIGN_DOWN() to obtain the start of the SPI base range
-dfebe38e46c2e866c6f3ff54d8ed8dabbed193de mfd: sun4i-gpadc: Correct specified GPADC interrupt numbers
-5ebb75b904b61a40f13c27484c2314140ea96ade mfd: omap-usb-host: Increase size of buffer to include all possible values
-ed3cb341e4476787fa7c109365f2edf9f96b5d10 dt-bindings: mfd: iqs62x: Do not override firmware-name $ref
-5dce78032b20eae46a7e34629c026eca344b0e26 dt-bindings: mfd: qcom,tcsr: Add compatibles for QCM2290 and SM6115
-6cea614ba78d6b78e64e39f5ccdfad4aac1d0110 mfd: cros_ec: Register EC-based watchdog subdevice
-944e823d73d042dba6b73b6cbdb14367d38d0ca4 mfd: rave-sp: Avoid unnecessary use of comma operator
-efe4c7908ec9d5959e87f088f0176c012b08a027 mfd: wm831x: Remove redundant forever while loop
-8b9a1f5ef43b8d26c4df3b4e3cbebec04d7be1c5 mfd: cs42l43: Tidy up header includes
-de896be80acfed5db89be33720bc66287f98526d mfd: cs42l43: Use __u8 type rather than u8 for firmware interface
-ca291ea7487c281ffe268a062283064b360e8715 mfd: cs42l43: Add time postfixes on defines
-d92b9bcfce940ec7f330980b042d26787c9570ea mfd: cs42l43: Add some missing dev_err_probe()s
-cab2ce7fce877dfd27af6eab0d7a36ee068dddda mfd: cs42l43: Handle error from devm_pm_runtime_enable()
-9fb7369cf5dfcfff0dd0bae91c27d5d641d780e2 dt-bindings: mfd: atmel,hlcdc: Convert to DT schema format
-cc1965b02d6cb18d9220dae06f7e2e0b0ebbea48 dt-bindings: mfd: syscon: Add ti,j784s4-pcie-ctrl compatible
-17bb3a9d346c955c2c43968760e0e0443a590e01 dt-bindings: mfd: syscon: Add ti,am654-serdes-ctrl compatible
-c28c45608ef35bea99a959c1643fad32e2cc4044 spi: cs42l43: Tidy up header includes
-6abc896ccbdd8cd4353adc1a27a469753e78ce0d mfd: mcp-core: Make mcp_bus_type const
-ed9fdff5ad8bb2b3dc8d86c788e763cbecddda13 mfd: ac100: Convert to use maple tree register cache
-225303da314f0b900c25b0946c013abae317c2d7 mfd: as3711: Convert to use maple tree register cache
-32f60d54a31d8e4fa47f30a384de4b26d61119d3 mfd: as3722: Convert to use maple tree register cache
-38df0f254f5b4dbba53ad9c6e44bd83e0bd12ac1 mfd: axp20x: Convert to use maple tree register cache
-e2a735ea3a1131729e15c116fe45ed476936a669 mfd: bcm590xx: Convert to use maple tree register cache
-1136eeaa41edd95b7aee9f4c6f97a1c50742c7e8 mfd: bd9571mwv: Convert to use maple tree register cache
-45900612fa63cd868e05a69e54476d7179861287 mfd: dialog: Convert to use maple tree register cache
-14100f8e58564d3fc7c1503a6b3906023c2dac3c mfd: khadas-mcu: Convert to use maple tree register cache
-baaa1b8e7d84d9b5399d8e75f6c9241465869c0e mfd: lochnagar-i2c: Convert to use maple tree register cache
-9261cd047326afcda6b942c77c16c6b4c8fb0489 mfd: wolfson: Convert to use maple tree register cache
-6c93d555542695033c9263063b6b6dc00c556a9e mfd: rohm: Convert to use maple tree register cache
-21ff89b91bf871ad4512a8acfa414fd71bea4409 mfd: rk8xx: Convert to use maple tree register cache
-462d188aab21b83b8b5e996d6eef0e78041c7d92 mfd: rn5t618: Convert to use maple tree register cache
-5db47ad8aeb9055f86e518d3453d1ecd5d9b2798 mfd: rsmu_i2c: Convert to use maple tree register cache
-9982a5e0afbbd30ee49709cf3a20d943b5f901a5 mfd: si476x: Convert to use maple tree register cache
-cac3d77098d6c3b6badb1842eb1093a31843c9ca mfd: stmfx: Convert to use maple tree register cache
-12edc9a8da2ec9b485d38b95663fb6df41a1ef55 mfd: stpmic1: Convert to use maple tree register cache
-a2caf6036cec73e4a2c31e533381f8d7eaf3d0e5 mfd: rc5t583: Convert to use maple tree register cache
-3e038941c58753c88f2dcc2b1744806ac8727bb2 mfd: mc13xxx: Use bitfield helpers
-d2b0680cf3b05490b579e71b0df6e07451977745 mfd: syscon: Call of_node_put() only when of_parse_phandle() takes a ref
-0db017f8edd9b9af818bc1d68ba578df1b4c4628 mfd: syscon: Remove extern from function prototypes
-e28c28a34ee9fa2ea671a20e5e7064e6220d55e7 mfd: altera-sysmgr: Call of_node_put() only when of_parse_phandle() takes a ref
-0c7cc7497f6f62a65037e94cf0d885ab0af3c0d3 dt-bindings: mfd: ti,twl: Document system-power-controller
-ca9414a1d08756c8392f9219caee607e1b7bade1 mfd: twl-core: Add power off implementation for twl603x
-8ba560ec14267af1169e1f5407fbce514fd4f6f6 mfd: twl4030-power: Accept standard property for power controller
-bda40bf667d8d26b157a69d821872b2ade59bfa4 mfd: rk8xx-core: Fix interrupt processing order for power key button
-3cb10854004d2cb9c8f3a33deeeb499d0e0c7120 mfd: core: Constify the struct device_type usage
-3bb36528d46e494987ee5e9682d08318928ae041 mfd: twl: Select MFD_CORE
-7b79740d42e7535901296f7acbab1043633422e6 dt-bindings: mfd: cros-ec: Add properties for GPIO controller
-8f49b623b9348e3374491df1a18ca2de285fc7da mfd: cros_ec_dev: Add GPIO device if feature present on EC
-87bfb48f34192eb29a0a644e7a82fb7ab507cbd8 mfd: kempld-core: Don't replace resources provided by ACPI
-ec0131916367e73420c66e9c4089f11872e028f1 dt-bindings: mfd: Convert atmel-flexcom to json-schema
-d3dc362b3a3d20d64208426cc86146eb241d7c7f dt-bindings: mfd: dlg,da9063: Make #interrupt-cells required
-e9f06bd428d3f07c8d26506ed35d9f8bb836950b dt-bindings: mfd: syscon: Add ti,am62-usb-phy-ctrl compatible
-79d98102a31ab777b4a6632d799ab2bc63654cf8 mfd: mt6397-core: Register mt6357 sound codec
-c9e1e505cde1a8ddd0968b4d54ec2ea1937dfe00 mfd: cs42l43: Fix wrong register defaults
-78334c343bef528b911da83a6b041d15a1a72efb mfd: cs42l43: Fix wrong GPIO_FN_SEL and SPI_CLK_CONFIG1 defaults
-c3bb2ec530c7dd358222838c3fdc04c178237db3 mfd: intel-lpss: Switch over to MSI interrupts
+641fde51bdb26c09ea8cdbd82084e93bd88d1fcb dt-bindings: soc: qcom: Add qcom,pbs bindings
+5b2dd77be1d85ac3a8be3749f5605bf0830e2998 soc: qcom: add QCOM PBS driver
+1368d06dd2c99186174290c03d79c132db16efe2 leds: Introduce ExpressWire library
+b5a8c50e5c1896b913c289e09f98b539fd1740ac leds: ktd2692: Convert to use ExpressWire library
+922235a9b89417e4c355ca813a1049c755b89570 dt-bindings: backlight: Add Kinetic KTD2801 binding
+a5554f1b5bc3be5d01f41b7550aa5b05b7c88c09 backlight: Add Kinetic KTD2801 Backlight support
+7534904d421e92d0b1ab46c29f899f7c96697f4c backlight: ktd2801: Make timing struct static
+d48ece99f2d90be333dad38cba0dc6fadc7dff8c leds: ktd2692: Add GPIOLIB dependency
+7774f3d1dd3822e938e236df67766436c0debd11 leds: expresswire: Don't use "proxy" headers
+888cd6e721558a818f9900a98744088f5fca3f5c Merge branches 'ib-qcom-leds-6.9' and 'ib-leds-backlight-6.9' into ibs-for-leds-merged
+f574751cdfac6645a050e64ea3107a57ae13b816 leds: trigger: netdev: Skip setting baseline state in activate if hw-controlled
+d7d0efaf528a613a5f553ed3df2db23bc5614d9e dt-bindings: leds: leds-qcom-lpg: Add support for LPG PPG
+6ab1f766a80a6f46c7196f588e867cef51f4f26a leds: rgb: leds-qcom-lpg: Add support for PPG through single SDAM
+05338ba56c7f8731b18f36b6db178d3cb79fe64f leds: rgb: leds-qcom-lpg: Update PMI632 lpg_data to support PPG
+5e9ff626861a0f8c7264ca9278ed68860a417a24 leds: rgb: leds-qcom-lpg: Include support for PPG with dedicated LUT SDAM
+c47d14545b991064b1dd15906cfb413dbc2780ac leds: rgb: Update PM8350C lpg_data to support two-nvmem PPG Scheme
+e09c706bfbcb03e83705a85516f400a086c02369 leds: trigger: Load trigger modules on-demand if used as default trigger
+fd14a87230ed4d47541f87a1e810ea123614907a leds: trigger: netdev: Add module alias ledtrig:netdev
+66601a29bb23b61f9676f51c0b4b78b38c601536 leds: class: If no default trigger is given, make hw_control trigger the default trigger
+06cdca014eca3449d8c34bf7c2fcb796a114a0b8 leds: trigger: netdev: Display only supported link speed attribute
+5fe5e2a3d75d18d762b23c49e18ac91bd19a626e docs: ABI: sysfs-class-led-trigger-netdev: Document now hidable link_*
+96d947d4abb35dffe0d7fd02c735b88632819b6e Documentation: leds: Update led-trigger-tty ABI description
+cdac0fd2b7654042a80fa63b50f2b2d8ff2bf48c leds: trigger: audio: Set module alias for module auto-loading
+7e1121138cececbdc8827b0b6a5d4a1ea2aed4e7 leds: triggers: default-on: Add module alias for module auto-loading
+ec18a2a83b8b9f7e39c80105ea148c769c46227b dt-bindings: leds: Add FUNCTION defines for per-band WLANs
+7eef64da0b0ad8e90409fc4aa80eb69c1b4bdd2c leds: trigger: panic: Simplify led_trigger_set_panic
+d0532248df7111428abd12875c90c34a39a546e4 leds: aw200xx: Make read-only array coeff_table static const
+211f8ec9400b58fb97cf4b6bd7033781e889bf53 leds: Remove led_init_default_state_get() and devm_led_classdev_register_ext() stubs
+09e3f3244e8480d53873bb86a3808edaa3f4e314 leds: Make flash and multicolor dependencies unconditional
+e838a5a110b60b2dad8c2e5d41e91ca402a5d9d2 leds: trigger: Stop exporting trigger_list
+9225333e480831cec3884977eaff05fcf0ea9700 leds: triggers: Add helper led_match_default_trigger
+46f02b681ba2e39ea2bebd66aec45e38cf9b3687 leds: pca963x: Add support for suspend and resume
+ccc35ff2fd2911986b716a87fe65e03fac2312c9 leds: spi-byte: Use devm_led_classdev_register_ext()
+1c5b72e60c56f17a54f627bde290bd2bf214ce16 leds: qcom-lpg: Add PM660L configuration and compatible
+415798bc07dd1c1ae3a656aa026580816e0b9fe8 leds: trigger: netdev: Fix kernel panic on interface rename trig notify
+ec9aa8971f98ad4d0bea17a8eda60366c412e596 leds: rgb: leds-group-multicolor: Allow LEDs to stay on in suspend
+bfa0f02d75860437a3271dcde5030ea610b1bd56 leds: qcom-lpg: Add QCOM_PBS dependency
+6969d0a2ba1adc9ba6a49b9805f24080896c255c leds: aw2013: Unlock mutex before destroying it
+041d2a0ea733df814fd61ab78c7729a38541dfae Revert "leds: Only descend into leds directory when CONFIG_NEW_LEDS is set"
+2cd0d1db31e78a63553876f8e6a4c9dcc1f9c061 leds: expresswire: Don't depend on NEW_LEDS
+205c29887a333ee4b37596e6533373e38cb23947 leds: sgm3140: Add missing timer cleanup and flash gpio control
+64e558500d2d04878b8a6d6578850c475171d6ba dt-bindings: leds: Add LED_FUNCTION_WAN_ONLINE for Internet access
+615d49f55262fa1d140a5c9b7ebf52c1f00d2a90 dt-bindings: leds: qcom-lpg: Drop redundant qcom,pm8550-pwm in if:then:
+6c27bf4c6d3073caff0acc7abb5f6a5332f3319d dt-bindings: leds: qcom-lpg: Narrow nvmem for other variants
+08b7dab9f025e20dc02bb4ad19b8e519c3948d20 leds: Fix ifdef check for gpio_led_register_device()
+d0c2df0c7b216872d8e8a61fc258b4e3c1f4d1da leds: lm3601x: Fix struct lm3601_led kernel-doc warnings
+e7dd80b5fdfc118dd4647bff15f74e21d4d498d3 leds: leds-mlxcpld: Fix struct mlxcpld_led_priv member name
+a22f11305d329110dbea5aa235f1b1d1d0f12392 leds: mlxreg: Drop an excess struct mlxreg_led_data member
+2c7c70f54f791ece44541a9254c1a73790fd4595 dt-bindings: leds: Add NCP5623 multi-LED Controller
+7b7e50f8f5e0b12ebd6cc7076602eca7256de118 leds: Add NCP5623 multi-led driver
+45066c4bbe8ca25f9f282245b84568116c783f1d leds: ncp5623: Add MS suffix to time defines
+779027a0a7392610cbfd3210836d6b0e6ddef434 dt-bindings: leds: pca963x: Convert text bindings to YAML
+385019bc6f0d57917282b634b80d3e359ab50163 dt-bindings: leds: qcom-lpg: Document PM6150L compatible
+ca66b10a11da3c445c9c0ca1184f549bbe9061f2 leds: simatic-ipc-leds-gpio: Add support for module BX-59A
 
---===============6973102708483583487==--
+--===============3658917908986012240==--
