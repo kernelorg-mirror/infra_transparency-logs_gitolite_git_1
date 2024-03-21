@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8637416402448161325=="
+Content-Type: multipart/mixed; boundary="===============7966561806763327696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 21 Mar 2024 19:47:14 -0000
-Message-Id: <171105043444.23520.288929893732060946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 21 Mar 2024 19:48:46 -0000
+Message-Id: <171105052654.24168.3868391594469794582@gitolite.kernel.org>
 
---===============8637416402448161325==
+--===============7966561806763327696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: af34a16d3090f8a2f7eac24290209dacb9471132
     log: revlist-4670619e5b7e-af34a16d3090.txt
 
---===============8637416402448161325==
+--===============7966561806763327696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d70cc755caef9c6f0ed05c9346df052decf250bd perf vendor events intel: Update skylak
 7bce27f8d33ac370f74a2f9c36608c2ce7cd2fa7 perf vendor events intel: Update snowridgex to 1.22
 af34a16d3090f8a2f7eac24290209dacb9471132 perf vendor events intel: Remove info metrics erroneously in TopdownL1
 
---===============8637416402448161325==--
+--===============7966561806763327696==--
