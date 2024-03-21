@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 21 Mar 2024 18:56:35 -0000
-Message-Id: <171104739592.18240.9778811146850628903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 21 Mar 2024 19:16:31 -0000
+Message-Id: <171104859186.834.7616095347887903261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: cc9b22dfa735800980e7362f02aff6f1c2280996
-    new: 4c2a26fc80bcb851dc630590f2eec157991eccbf
+  - ref: refs/heads/x86/percpu
+    old: f61f02d1ff788ae5ad485ef8edd88d9c93557994
+    new: b429eafe0d9f765d8626e53221ce3108b783da5e
     log: |
-         4c2a26fc80bcb851dc630590f2eec157991eccbf bpf-next: Avoid goto in regs_refine_cond_op()
+         b429eafe0d9f765d8626e53221ce3108b783da5e x86/percpu: Enable named address spaces for GCC 9.1+
          
