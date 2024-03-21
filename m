@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 21 Mar 2024 17:03:54 -0000
-Message-Id: <171104063468.31071.369878297490041592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 21 Mar 2024 17:09:06 -0000
+Message-Id: <171104094669.3653.3202699600477672762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/for-next
-    old: 2eb303d4add3a51dd098ff09cf750cd5be39b56b
-    new: 6d5a4668a830fc8ecfb12dcced83c806ccd0fe30
+  - ref: refs/heads/for-next/execve
+    old: 472874cf7bb34895ae69483338359df84e76f3e1
+    new: 2aea94ac14d1e0a8ae9e34febebe208213ba72f7
     log: |
-         aba4425aa78b6eaf4963f925497cb0212757b0e3 arm64: dts: qcom: sc8280xp: add missing PCIe minimum OPP
-         6d5a4668a830fc8ecfb12dcced83c806ccd0fe30 Merge branches 'arm32-for-6.10', 'arm64-defconfig-for-6.10', 'arm64-fixes-for-6.8', 'arm64-fixes-for-6.9', 'arm64-for-6.10', 'clk-for-6.9' and 'drivers-for-6.10' into for-next
+         2aea94ac14d1e0a8ae9e34febebe208213ba72f7 exec: Fix NOMMU linux_binprm::exec in transfer_args_to_stack()
          
