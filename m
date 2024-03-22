@@ -1,47 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6737861821440502576=="
+Content-Type: multipart/mixed; boundary="===============3197838305795032380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 22 Mar 2024 19:03:55 -0000
-Message-Id: <171113423520.31868.7500418934443437441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Fri, 22 Mar 2024 19:11:19 -0000
+Message-Id: <171113467918.6701.14722432168674664823@gitolite.kernel.org>
 
---===============6737861821440502576==
+--===============3197838305795032380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/tags/scsi-misc
-    old: d6e17567b9aae5a40c5bffb737f194b0adec8beb
-    new: 87238d0e01b391b7af0a0f783d45505006a74130
-    log: revlist-d6e17567b9aa-87238d0e01b3.txt
+  - ref: refs/heads/for-next
+    old: d4dd204b08545f34bc9a02deaecb3deb778d1108
+    new: d23a9a81fa7934ac8f8bf7ad331adff2318996ee
+    log: revlist-d4dd204b0854-d23a9a81fa79.txt
 
---===============6737861821440502576==
+--===============3197838305795032380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6e17567b9aa-87238d0e01b3.txt
+Content-Disposition: attachment; filename=revlist-d4dd204b0854-d23a9a81fa79.txt
 
-ec16b147a55bfa14e858234eb7b1a7c8e7cd5021 fs: Fix rw_hint validation
-e769779c0c2c3a475c6b7313d35ff0aa3aceb780 fs: Verify write lifetime constants at compile time
-1505ba06e52e701600172bccbc3aa7fb9bd5d0da fs: Split fcntl_rw_hint()
-fe3944fb245ab99570552a3bf970b00058a9ca6d fs: Move enum rw_hint into a new header file
-ea7d898676d9e94558c46ba927db35403362389f fs: Propagate write hints to the struct block_device inode
-449813515d3e5efec85206bb91588a6249a421a3 block, fs: Restore the per-bio/request data lifetime fields
-96b171d6dba6a66c63312f35e3ac6465b2c2ca94 scsi: core: Query the Block Limits Extension VPD page
-4977c0f4523e1d6c87df4eedceb33d38f055c5fb scsi: scsi_proto: Add structures and constants related to I/O groups and streams
-4f53138fffc2b18396859aa4ff3e7ef2b0839c2b scsi: sd: Translate data lifetime information
-a5fe98eb8f630f3ad3d1d5c16374621e8c0cd702 scsi: scsi_debug: Reduce code duplication
-b1e5c0b34db8e7dac04af618e53c64e70c86aac8 scsi: scsi_debug: Support the block limits extension VPD page
-b2f860903fe9774f755a917edc674ba6e879fa55 scsi: scsi_debug: Rework page code error handling
-f19c3e4fe2542d7b145d294386666958c9fabe17 scsi: scsi_debug: Rework subpage code error handling
-b952eb270df38bc0d930a1ef965666ecf54a2097 scsi: scsi_debug: Allocate the MODE SENSE response from the heap
-f8ab2710177a762ce0f9b8426f9fc292394949df scsi: scsi_debug: Implement the IO Advice Hints Grouping mode page
-ad620becda436fc02e50e5f6fe01de1d1f3794c9 scsi: scsi_debug: Implement GET STREAM STATUS
-af180c0880f9df14be31807f0bb0fa6f0d34a943 scsi: scsi_debug: Maintain write statistics per group number
+67719ed8558f8c614020809ae8556dd778573a17 btrfs: validate device maj:min during open
+6c687eceeec80a052dc0606a48a7aaf8d3b234e3 btrfs: fix extent map leak in unexpected scenario at unpin_extent_cache()
+6514528d39454a71619d3444981e4408588a6792 btrfs: fix warning messages not printing interval at unpin_extent_range()
+64b2fdf2e2966143e59a5c525d25610cddeb3c48 btrfs: fix message not properly printing interval when adding extent map
+780e9defd549b4de56889f8863947c9f20aabb12 btrfs: use btrfs_warn() to log message at btrfs_add_extent_mapping()
+d48934fea67c4b19a6fbfe20ca8f844ae408f312 btrfs: locking: inline btrfs_tree_lock() and btrfs_tree_read_lock()
+e38b2361ab34ac5943a7b95577c50a4d79a89d03 btrfs: locking: rename __btrfs_tree_lock() and __btrfs_tree_read_lock()
+a9c9b8c80225be4e96dfb247525626ac4378a39b btrfs: zoned: don't skip block groups with 100% zone unusable
+383c6f04fdee84517bea16e0273a3f5a2e852f87 btrfs: remove pointless readahead callback wrapper
+f440cbe1354f2560de93add004c5e3257895808c btrfs: remove pointless writepages callback wrapper
+1df2228d675227ecfe1a1721843fa5f95fa4174e btrfs: avoid pointless wake ups of drew lock readers
+05d9c40e0343912da675015e0520d7225118b2dc btrfs: return accurate error code on open failure in open_fs_devices()
+d23a9a81fa7934ac8f8bf7ad331adff2318996ee btrfs: stop locking the source extent range during reflink
 
---===============6737861821440502576==--
+--===============3197838305795032380==--
