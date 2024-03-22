@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 22 Mar 2024 08:34:35 -0000
-Message-Id: <171109647555.13967.8605313829372647046@gitolite.kernel.org>
+Date: Fri, 22 Mar 2024 08:36:11 -0000
+Message-Id: <171109657126.16143.17047344422235187159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: e8c4f0584df4b232a394eade5ef6369c5da5c2c2
-    new: bb19461a2ace91b34fdd4d9e7b7e4fe63ae105d8
+  - ref: refs/heads/x86/cleanups
+    old: b0daa43204b1b78dce43e26604e47e3e55e1af91
+    new: 27d45fc7df2d9026185e86a7e45f3dd17f3e8ba4
     log: |
-         b0daa43204b1b78dce43e26604e47e3e55e1af91 x86/xen: Remove duplicate #include
-         bb19461a2ace91b34fdd4d9e7b7e4fe63ae105d8 Merge branch into tip/master: 'x86/cleanups'
+         27d45fc7df2d9026185e86a7e45f3dd17f3e8ba4 x86/virt/tdx: Remove duplicate include
          
