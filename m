@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 22 Mar 2024 03:22:59 -0000
-Message-Id: <171107777911.4044.14577478752904296447@gitolite.kernel.org>
+Date: Fri, 22 Mar 2024 03:37:13 -0000
+Message-Id: <171107863318.14117.736736069404709351@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/execve
-    old: 2aea94ac14d1e0a8ae9e34febebe208213ba72f7
-    new: 5248f4097308c1cdcf163314a6ea3c8c88c98cd9
+  - ref: refs/heads/for-next/hardening
+    old: 8d8b79685237b15f4bb676781f6bf241beb068a8
+    new: 8b93450af17330d25755a857fbe25663f5c3d458
     log: |
-         5248f4097308c1cdcf163314a6ea3c8c88c98cd9 binfmt: replace deprecated strncpy
+         8b93450af17330d25755a857fbe25663f5c3d458 lkdtm/bugs: Improve warning message for compilers without counted_by support
          
