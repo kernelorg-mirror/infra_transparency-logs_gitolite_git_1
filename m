@@ -1,46 +1,16 @@
-Content-Type: multipart/mixed; boundary="===============2747874454785790935=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 22 Mar 2024 20:16:42 -0000
-Message-Id: <171113860248.21029.17436315357782509114@gitolite.kernel.org>
-
---===============2747874454785790935==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Fri, 22 Mar 2024 20:22:45 -0000
+Message-Id: <171113896562.25451.4870486581979194822@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: 43bf93cba1bd59a130a5f62154c65655377cece9
-    new: 23970c613f40356cc88716d07c2d427ca024e489
-    log: |
-         23970c613f40356cc88716d07c2d427ca024e489 ez: expand non-local change-id and message-id deps
-         
-
---===============2747874454785790935==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1711138601 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1711138601-a0e280df70fa7fb4c842e95e8d18bb942b740a85
-
-43bf93cba1bd59a130a5f62154c65655377cece9 23970c613f40356cc88716d07c2d427ca024e489 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZf3nKQAKCRC2xBzjVmSZ
-bN4zAQCRAPUuZZcaAX/VX2JpQMMm2Al5OpIW9l36+rmjVoNzUgEA3Ja0zOqHpCNb
-jhtr/+QiL1qlHzzBi3PSuvswRGiFjQc=
-=GRBm
------END PGP SIGNATURE-----
-
---===============2747874454785790935==--
+  - ref: refs/tags/scsi-misc
+    old: 87238d0e01b391b7af0a0f783d45505006a74130
+    new: 5fe6f18a49e837ccdc6f082ccabb7c0f4eafc5ac
