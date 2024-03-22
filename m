@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5191789745438442125=="
+Content-Type: multipart/mixed; boundary="===============9072004372632166976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 22 Mar 2024 18:26:35 -0000
-Message-Id: <171113199580.6182.15708976781999425003@gitolite.kernel.org>
+Date: Fri, 22 Mar 2024 18:26:47 -0000
+Message-Id: <171113200707.6321.2002406295822068096@gitolite.kernel.org>
 
---===============5191789745438442125==
+--===============9072004372632166976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 8e938e39866920ddc266898e6ae1fffc5c8f51aa
-    new: ff9c18e435b042596c9d48badac7488e3fa76a55
-    log: revlist-8e938e398669-ff9c18e435b0.txt
+  - ref: refs/heads/testing
+    old: e989005a97eaae8a00951b35de4f82401ef04036
+    new: 471566efaf17fc2be0b9be63bf04d2c44fbb3b20
+    log: revlist-e989005a97ea-471566efaf17.txt
 
---===============5191789745438442125==
+--===============9072004372632166976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e938e398669-ff9c18e435b0.txt
+Content-Disposition: attachment; filename=revlist-e989005a97ea-471566efaf17.txt
 
 3a6dd5f614a13033a47eaf439ac34e7b6fbc7705 riscv: remove unneeded #include <asm-generic/export.h>
 021d23428bdbae032294e8f4a29cb53cb50ae71c RISC-V: build: Allow LTO to be selected
@@ -185,5 +185,33 @@ a20ad45008a7c82f1184dc6dee280096009ece55 spi: spi-mt65xx: Fix NULL pointer acces
 c150b809f7de2afdd3fb5a9adff2a9a68d7331ce Merge tag 'riscv-for-linus-6.9-mw2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 6f6efce52d3a035b8332969ecf254b4dfc62e4ec Merge tag 'xfs-6.9-merge-9' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 ff9c18e435b042596c9d48badac7488e3fa76a55 Merge tag 'ceph-for-6.9-rc1' of https://github.com/ceph/ceph-client
+fa767b6780aaf43e6c94fdab9af24cc1b14c6ec9 xtensa: remove redundant flush_dcache_page and ARCH_IMPLEMENTS_FLUSH_DCACHE_PAGE macros
+325b0e51465a88eed109d2e945b62d08d9a1cdae dm vdo: use kernel byteswapping routines instead of GCC ones
+76d5aace3c928c929e23cbe6d649684783b19c02 drm/xe: Fix END redefinition
+34d2661e85e7ac0cc07c3eca92299d7785737a38 Revert "sh: Handle calling csum_partial with misaligned data"
+0608235d0e968be7f910cb8a309255808cfa9a7c Revert "x86/percpu: Cure per CPU madness on UP"
+4509e1b8e9464dec8d43879100446adf6cf3a655 mean_and_variance: Drop always failing tests
+4a8f0dcfd94240230bcb36f4272eb1ae0dd7983f nios2: Only use built-in devicetree blob if configured to do so
+ba3304f8a6f3f1db4a9a1ac2b4430a945c6a6c00 ext4: implement filesystem specific alloc_inode in unit test
+9c01ccfc8a1e538fee83d55af0152860a0250724 lib: checksum: Add some corner cases to IPv6 checksum tests
+6e73d4b5777016c6608723dc2994d973b1f26df6 carry tests for parisc64 targets
+cd81b65b6bafdd731678fb1409c40a8387b2e76c rtc: test: Split rtc unit test into slow and normal speed test
+e6ea3cf1be2a7b2e86909f1b456dabccfa5b6e3b kunit: time: Add faster unit test with shorter time range
+47e39b8e9a0ff36d6a43a8ff3c2cd0bb91f6327a Revert "kunit: memcpy: Split slow memcpy tests into MEMCPY_SLOW_KUNIT_TEST"
+20d72d798836306353603c01a5f7fff31256ac7a bug/kunit: Core support for suppressing warning backtraces
+42c864b6c3e6259d9d77aa2a3f700bde9631957f kunit: bug: Count suppressed warning backtraces
+0c34df74fdd9ef43f048aef4714c74824a2fd11b kunit: Add test cases for backtrace warning suppression
+cf15ee3c22e89358561afcf82b60a3e0e428be1e kunit: Add documentation for warning backtrace suppression API
+f2144093a9a007fb4460c50bd340db8503fbacda drm: Suppress intentional warning backtraces in scaling unit tests
+a06bcde3cf2d6607ad5401ce05db0766badbb959 net: kunit: Suppress lock warning noise at end of dev_addr_lists tests
+859390d2270fbbde5612cd0434baa8500ef3693d x86: Add support for suppressing warning backtraces
+2d4142676712266feaa374bafd756f54015a2af8 arm64: Add support for suppressing warning backtraces
+5cb7805c6fe05382bfb836d204fd765c212cceb2 loongarch: Add support for suppressing warning backtraces
+d0e867ede1e400d5433bf1e729e8fced8fbaf899 parisc: Add support for suppressing warning backtraces
+0211e67d06b9c0b08aded687ea1665210b01304b s390: Add support for suppressing warning backtraces
+73db2028dcada02fd7ce42596d84a28b86f6452e sh: Add support for suppressing warning backtraces
+4667837b68471a026971454901009278f912a7e7 riscv: Add support for suppressing warning backtraces
+37335a946848de31a912d4f9104b53a8c237ea4d powerpc: Add support for suppressing warning backtraces
+471566efaf17fc2be0b9be63bf04d2c44fbb3b20 Merge branch 'kunit-v2' into testing
 
---===============5191789745438442125==--
+--===============9072004372632166976==--
