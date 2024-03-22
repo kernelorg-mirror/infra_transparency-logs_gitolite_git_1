@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4814305888818214624=="
+Content-Type: multipart/mixed; boundary="===============8385169538445939843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 22 Mar 2024 07:39:45 -0000
-Message-Id: <171109318516.27281.18418357994460457666@gitolite.kernel.org>
+Date: Fri, 22 Mar 2024 07:39:50 -0000
+Message-Id: <171109319003.27355.9238088344101662094@gitolite.kernel.org>
 
---===============4814305888818214624==
+--===============8385169538445939843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 3d9319c27ceb35fa3d2c8b15508967f3fc7e5b78
+  - ref: refs/heads/tty-next
+    old: d6c0d892b44cd16e0421909cf7f2883b9e625e4a
     new: 8e938e39866920ddc266898e6ae1fffc5c8f51aa
-    log: revlist-3d9319c27ceb-8e938e398669.txt
+    log: revlist-d6c0d892b44c-8e938e398669.txt
 
---===============4814305888818214624==
+--===============8385169538445939843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711093183 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711093188 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1711093183-0dd3c67f2151aef19c98c47dc855137cbdb9e991
+nonce 1711093188-039787b2b11dcc2272dc96c8f7ecd18a13d39db1
 
-3d9319c27ceb35fa3d2c8b15508967f3fc7e5b78 8e938e39866920ddc266898e6ae1fffc5c8f51aa refs/heads/tty-linus
+d6c0d892b44cd16e0421909cf7f2883b9e625e4a 8e938e39866920ddc266898e6ae1fffc5c8f51aa refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmX9Nb8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CC8P/jPlg1i8WZ1jZJB6Ilus
-FrpKyCvqus9nZ4bSP9orjr5VW5NDrHHnIRWwQD9hM0LxPDvwx20e09CZsdRyMd8G
-Ytnyz+um/xabVb7PocaFfE3vW3ZDhPBTZt85mfZLLNq0lp1alwX5+wR/qpk7a/F0
-Xz1CF/JZ+HhG0olceOevkh7xJxIZtXoQhecG+OZ23oY8R+uyN96tcNupzB/Ag+ma
-u3xLbXA7j+EkGJup6obnEGXbfdpmOA9d3jwr8nNxKbk822uEO/z6LF7V3Y9DQ2mJ
-ubtXpPX3xx9yUTOuGt/jeqlWpQVhWkpBwo31Fel72hEOfCHvSnKqfAyIRdkjmHvp
-1OvyjgqrSuJKLjGwQUumMRnBVK9NJyhHoBSPj/8eKGtbnaYuywVudKhLPcUzlbQi
-dUU5RSEJtR29jHqEoGQJaymfxVuyJb/GYJ29WxN+vbtAjeZdSI995aPpwj4AflCK
-UeL1P07I3CTLhALpLaf5IiF8bSO1wR6BRlL9pgohB+9sdLO9TtM9AYJ0yV16mYv5
-72Xh9ks/dxsSDYyu/Aalboi8uDgRY8oohEv2KKIU+mfxHwrDv3iQo6XQLipvjraG
-rwbLnJBcRreb4LGmL9wnX/1Ycn3TKERwxHtPtWFex6NA5mzz4n/4WCRD4lrRPU8b
-lL+mCoNzv2rkW1L/sjRAL7Bv
-=Adh3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmX9NcQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QI0P/2S8nmuECDhIgaMk6raX
+b3VHXPfch6v1iCfPiQVZ9pp2RJRO+gKvpxsynUXK5KpYbEmaX36U+MwaOTGz1ZCa
+WFyrQvg5EACplvHARwUPyVSucJBDSB/eIlwbmuPyGUM/qmUbWJ6Jj0jrNY8rlhEk
+2R7cjMfTF50d2z//jiYWARr71kYMT2ZZCX2XDgQB3Q+wr8PhvRBrnEOOhjk4Q4H4
+MUgNojn2lTHxGUOy63N6Njk0wc5oAH5Hh14iiCgNXXtCF+9EBGhjlmcaCyxU/8Zn
+YwSgJYSfLAIsKYjAA51896kD5VxcwDiwxyThSk3DqCgFzjii8wcMzFXddwqIPWJa
+TMz5FACnDJhPwvkCNE/FhSV9fjqGJtyUUNYnJF9gmVNqpmE+XQtqCQO2BTNDfu4e
+p/Z8FcqWiujPz8LDuQJ0XtvKU/G2r2uzjBylCHxy8HS3pzSTAnVGRDsrifKcmVut
+Mqwo9D/Y7RJVf8bQfag04NSsd266TKyz3+xKhwCmZpwuZZ2HMYsSlFSPQiEdd3t4
+LLxtBdI9jpTtksjfR97ADMCub7+/H1xPD++Z7ym87CQFWyX+RWZU6ie5BrSt5KBX
+tgE3geN7ifshRIr8e1nXMZuAN2ok5SdJ89hCHkWlozfJzpKxWrodF+ie/paCaCBd
+PtXFl2+nIXT3HxfaIYE4kixh
+=aQxD
 -----END PGP SIGNATURE-----
 
---===============4814305888818214624==
+--===============8385169538445939843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d9319c27ceb-8e938e398669.txt
+Content-Disposition: attachment; filename=revlist-d6c0d892b44c-8e938e398669.txt
 
 abb3f9717a67a2666b2bc2f19543a657e3d4ad63 OPP: Extend dev_pm_opp_data with turbo support
 de79649bf981d4c43bb60e29001451c672e6b14c Merge tag 'arm-soc/for-6.9/devicetree-arm64' of https://github.com/Broadcom/stblinux into soc/late
@@ -1082,4 +1082,4 @@ cafd86cbdc607eadc28a008cddacd78f0894c628 Merge tag 'amd-drm-fixes-6.9-2024-03-21
 7ee04901215b3cab8fa35aa5bf4692d7aa312e36 Merge tag 'drm-next-2024-03-22' of https://gitlab.freedesktop.org/drm/kernel
 8e938e39866920ddc266898e6ae1fffc5c8f51aa Merge tag '6.9-rc-smb3-client-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
 
---===============4814305888818214624==--
+--===============8385169538445939843==--
