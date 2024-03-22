@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7197802565544497864=="
+Content-Type: multipart/mixed; boundary="===============2895850447505624460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Fri, 22 Mar 2024 00:46:03 -0000
-Message-Id: <171106836387.15524.3698504187520118775@gitolite.kernel.org>
+Date: Fri, 22 Mar 2024 00:46:23 -0000
+Message-Id: <171106838363.15715.15673081034650533536@gitolite.kernel.org>
 
---===============7197802565544497864==
+--===============2895850447505624460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: b401b621758e46812da61fa58a67c3fd8d91de0d
     new: 00453419575d6b4f5ce0f370da9421cf5253f103
     log: revlist-b401b621758e-00453419575d.txt
-  - ref: refs/tags/v6.8
-    old: 0000000000000000000000000000000000000000
-    new: 90d1f30371ae3337beb01666b226320728d35c70
-  - ref: refs/tags/v6.8-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8bf1e5a08989cf5c8d9c117ebc47554951a08d6d
-  - ref: refs/tags/v6.8-rc7
-    old: 0000000000000000000000000000000000000000
-    new: ae587d09d5d2b63498be8f0959bd89c042d4dfdd
 
---===============7197802565544497864==
+--===============2895850447505624460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1060,4 +1051,4 @@ cba9ffdb9913dfe6be29f049ce920ce451ce7cc4 Merge tag 'net-6.9-rc1' of git://git.ke
 85a79128c4f5723f812ab8d5ee465ec660e223f1 Merge tag 'ubifs-for-linus-6.9-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
 00453419575d6b4f5ce0f370da9421cf5253f103 Merge tag 'siox/for-6.9-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 
---===============7197802565544497864==--
+--===============2895850447505624460==--
