@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2450353568979149140=="
+Content-Type: multipart/mixed; boundary="===============7250018176839906818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 22 Mar 2024 07:46:15 -0000
-Message-Id: <171109357594.12560.9786594068918414590@gitolite.kernel.org>
+Date: Fri, 22 Mar 2024 07:46:19 -0000
+Message-Id: <171109357958.12643.12122989638833451901@gitolite.kernel.org>
 
---===============2450353568979149140==
+--===============7250018176839906818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: e8f897f4afef0031fe618a8e94127a0934896aba
+  - ref: refs/heads/usb-next
+    old: a788e53c05aee6e3d60792a59e10c0fac56b5086
     new: 8e938e39866920ddc266898e6ae1fffc5c8f51aa
-    log: revlist-e8f897f4afef-8e938e398669.txt
+    log: revlist-a788e53c05ae-8e938e398669.txt
 
---===============2450353568979149140==
+--===============7250018176839906818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711093575 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711093578 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1711093574-4516ccab1cd301bbd543e04a6bc6ddee501da162
+nonce 1711093578-2639e6d76f47c5e295ca041879c1b8bbfc85a423
 
-e8f897f4afef0031fe618a8e94127a0934896aba 8e938e39866920ddc266898e6ae1fffc5c8f51aa refs/heads/usb-linus
+a788e53c05aee6e3d60792a59e10c0fac56b5086 8e938e39866920ddc266898e6ae1fffc5c8f51aa refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmX9N0cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XcYP/0JZ3ZIPlZkaeoyG2ESi
-0zdxaIsiGML15IkXvFUqkLRYLmkb1MUDlfiE9AZ9Vfe0VWT64R6Hk71moboGeLut
-4KG1uBLgmB3s3WdHhb+0RFuDbHv2L6w3LLm0+wl/yHuKbu5RnW5Luc2OoImFp27E
-5T80BVNRedc9QoZBK1ygeXsh4mE7bbyW4uNumf6dLKeULrjYpZScvxdTCf4fmIN1
-QxaiQ1EB9tE8TlaOy0UUJOUoWtJpMqX6P/V4l9tDOJkVxTEQENXAGZ+MeYGuGrUU
-2OZQF6piRx0WrnkvEXEEuSHK9gt7tr3YXovjTR7iYq/ynGzSES1TZjwmopREwMB7
-h7/FSLrAmCCftX4ljzl8/3HNBZ3nlgmZAeV2gK6fQc99g9kJJRYNnPyz3vfhV1W+
-l34qcxP5pX2QsKhHrF68TfG22j/0MSDlIDf/p1OUgW9kbXxHBJbGB6LphUKDyH+F
-28xwEheZdAEupWDRuHvhZw01e27S/AM6yVroGkitBGz1rcHA2VxaKYM6UevyET4o
-LEhFXcWTd9LJzOCvInqB0jS62xyKGzdtLFGlV36WKKjSfFNKQqSXuOK1X1GHpnyW
-s6jHkXgU9hbGFqFd7V/cDEgK/1I4siUYGyhQp0geJMT4kVYsAN+3ZIvsVzGmLrCe
-2uIyACT0JQljY3Un9L5KvWZv
-=VSl8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmX9N0obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rbwP/jiSt4AOyoS+upShFKjy
+bVKukLSGk83rvhOAMgAE+ss7hjrtSzxYIYOvWrAuxTqCKZrHCipcSARdz1UbcoeB
+0sDrH4b96SjQmcJmEzqggyo4otSVvBDGJc5tMQ71M9S7z1AMbgDKrQOxC6tSIASa
+ZKMZsoJ5+VT2wI7UGpV3XohURb3OsZzYm8Z3oDJe3RfQMfl1PQmkZN5/GkgyKLJJ
+v7607SumQ2+LGe0oxRsY4f6NthXU4goww4qDrU2DFABZJZDj8bPz2CgQp3HJhfZ0
+45RIUOlMZptacYmmVqfCaUvQYZyhwz9DsWhSspv4+Qb3R6jmHPU+Qgb2Bq8ggQCk
++b2R3HP9+9D2VEXy3PGWQV5FS/1Wy0H1eqP5I8R0H/mCypWoGI1DHACrx0gjbKBe
+IczbRs2Z33MYUj6Qk4m8Jyabvx12BcGJtyJDNniYHiMZaRZTtlhYHJ/AH0Q0yRT4
+MNrEIKxJxX6o5eZ35LH7FE3awkZGKY1nIt2+3+WHeDegM+dZGHo1mr1hfvRADN1x
+V6RuCDCRrady7f9RL+zLzq3xhwr+LMppBJ5qQuCpZ9jckhHGvQLJljpVVPhFAAFt
+g//1HwGC1rAIC7a80RjfVGXS9HY5bkw24Iy/VLYyCQqeiiKYvzA60s7z4fH6/0if
+fHn5xftjJBbkbDdv6DbCa43c
+=G4bd
 -----END PGP SIGNATURE-----
 
---===============2450353568979149140==
+--===============7250018176839906818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8f897f4afef-8e938e398669.txt
+Content-Disposition: attachment; filename=revlist-a788e53c05ae-8e938e398669.txt
 
+13c8cf339e1a7a3d3e48fdebbb882b3a5a90f708 dt-bindings: opp: drop maxItems from inner items
 abb3f9717a67a2666b2bc2f19543a657e3d4ad63 OPP: Extend dev_pm_opp_data with turbo support
 de79649bf981d4c43bb60e29001451c672e6b14c Merge tag 'arm-soc/for-6.9/devicetree-arm64' of https://github.com/Broadcom/stblinux into soc/late
 c00304acdc64e042a1aef352afedbea192255f52 Merge tag 'arm-soc/for-6.9/drivers' of https://github.com/Broadcom/stblinux into soc/late
@@ -962,7 +963,6 @@ af02c72d0b621ccd0185248cacb6133a05481e75 exfat: convert exfat_find_empty_entry()
 4d714559768911b4738dca521ca38be84a8444b5 exfat: remove unused functions
 96cf51acccb64d24339822824c262a1d3744d218 exfat: do not sync parent dir if just update timestamp
 dc38fdc51ba650871f12e4032bfe170f5b0e8ed0 exfat: remove duplicate update parent dir
-a788e53c05aee6e3d60792a59e10c0fac56b5086 usb: usb-acpi: Fix oops due to freeing uninitialized pld pointer
 a873add22a46beec0291c5a40194a90eb92ba3da Merge branch 'acpi-docs'
 a6d6590917ec352270bd3e3c040240aab31f2e90 Merge branches 'pm-em', 'pm-powercap' and 'pm-sleep'
 3cf28cd492308e5f63ed00b29ea03ca016264376 hsr: Handle failures in module init
@@ -1082,4 +1082,4 @@ cafd86cbdc607eadc28a008cddacd78f0894c628 Merge tag 'amd-drm-fixes-6.9-2024-03-21
 7ee04901215b3cab8fa35aa5bf4692d7aa312e36 Merge tag 'drm-next-2024-03-22' of https://gitlab.freedesktop.org/drm/kernel
 8e938e39866920ddc266898e6ae1fffc5c8f51aa Merge tag '6.9-rc-smb3-client-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
 
---===============2450353568979149140==--
+--===============7250018176839906818==--
