@@ -1,63 +1,562 @@
-Content-Type: multipart/mixed; boundary="===============8863112990166677550=="
+Content-Type: multipart/mixed; boundary="===============3497418653416163522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 22 Mar 2024 07:46:23 -0000
-Message-Id: <171109358310.12816.17750029339318502671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 22 Mar 2024 07:47:09 -0000
+Message-Id: <171109362912.13185.6930369102232279222@gitolite.kernel.org>
 
---===============8863112990166677550==
+--===============3497418653416163522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: a788e53c05aee6e3d60792a59e10c0fac56b5086
+  - ref: refs/heads/linux-4.19.y
+    old: f1886f673a708e0b053e08ac007aa8785d7f128d
+    new: e25760f461eebe5d8b363810d5558b9ee694466a
+    log: revlist-f1886f673a70-e25760f461ee.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 0a70dd1e1aa9dfe25d4647f86675dc6dac41631e
+    new: d35f38551c217d32daa0b7f5008adf1d21226042
+    log: revlist-0a70dd1e1aa9-d35f38551c21.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 97877abed2af926040ddc1dc8d68d11b73e44e42
+    new: b95c01af211304429c11b8c8bdf791ab11f7f395
+    log: revlist-97877abed2af-b95c01af2113.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 55bc6060a8ad866b104285704e98264d921095b4
+    new: 84075826304f1a297838de6bcfd9bd84f566026e
+    log: revlist-55bc6060a8ad-84075826304f.txt
+  - ref: refs/heads/linux-6.1.y
+    old: 27d7d4053a11de9e6fbdbc6b6cc3f8f5937e4f2b
+    new: d7543167affd372819a94879b8b1e8b9b12547d9
+    log: revlist-27d7d4053a11-d7543167affd.txt
+  - ref: refs/heads/linux-6.6.y
+    old: 11496a5d363eb35c9b4de8012eae7ffa557594f0
+    new: 6a646d9fe8a2bf8d25817ceddf96dfc5eb5446db
+    log: revlist-11496a5d363e-6a646d9fe8a2.txt
+  - ref: refs/heads/linux-6.7.y
+    old: b103e69cd70cdeef14f92bdca721df82e6dcbe0a
+    new: 9865e757e1d858c1975915af5c46df6359de0da3
+    log: revlist-b103e69cd70c-9865e757e1d8.txt
+  - ref: refs/heads/linux-6.8.y
+    old: aad69864e4400284b2792c16361be9d38237348b
+    new: 8a8b2a057ed9684704792b5d4b333616769002c2
+    log: |
+         056c33c67a74aec19668b927d460825f5e9aab42 x86/mmio: Disable KVM mitigation when X86_FEATURE_CLEAR_CPU_BUF is set
+         7586a7c0ba2f16ee6fe7f1ad95313775717e9f53 Documentation/hw-vuln: Add documentation for RFDS
+         c8a1b14f43bb89a62c1471ec2931f152b37b3782 x86/rfds: Mitigate Register File Data Sampling (RFDS)
+         50d33b98b1e23d1cd8743b3cac7a0ae5718b8b00 KVM/x86: Export RFDS_NO and RFDS_CLEAR to guests
+         8a8b2a057ed9684704792b5d4b333616769002c2 Linux 6.8.1
+         
+  - ref: refs/heads/master
+    old: 5ad3cb0ed525b80c7f66c32b49a68c1f3510bec9
     new: 8e938e39866920ddc266898e6ae1fffc5c8f51aa
-    log: revlist-a788e53c05ae-8e938e398669.txt
+    log: revlist-5ad3cb0ed525-8e938e398669.txt
 
---===============8863112990166677550==
+--===============3497418653416163522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711093582 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1711093581-1f723ed5170c605da5edb60f71c35c43020f3e9a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711093626 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1711093622-77cc33c6e53ec1a0ac63f48c81ee5c2a105c86ef
 
-a788e53c05aee6e3d60792a59e10c0fac56b5086 8e938e39866920ddc266898e6ae1fffc5c8f51aa refs/heads/usb-testing
+f1886f673a708e0b053e08ac007aa8785d7f128d e25760f461eebe5d8b363810d5558b9ee694466a refs/heads/linux-4.19.y
+0a70dd1e1aa9dfe25d4647f86675dc6dac41631e d35f38551c217d32daa0b7f5008adf1d21226042 refs/heads/linux-5.10.y
+97877abed2af926040ddc1dc8d68d11b73e44e42 b95c01af211304429c11b8c8bdf791ab11f7f395 refs/heads/linux-5.15.y
+55bc6060a8ad866b104285704e98264d921095b4 84075826304f1a297838de6bcfd9bd84f566026e refs/heads/linux-5.4.y
+27d7d4053a11de9e6fbdbc6b6cc3f8f5937e4f2b d7543167affd372819a94879b8b1e8b9b12547d9 refs/heads/linux-6.1.y
+11496a5d363eb35c9b4de8012eae7ffa557594f0 6a646d9fe8a2bf8d25817ceddf96dfc5eb5446db refs/heads/linux-6.6.y
+b103e69cd70cdeef14f92bdca721df82e6dcbe0a 9865e757e1d858c1975915af5c46df6359de0da3 refs/heads/linux-6.7.y
+aad69864e4400284b2792c16361be9d38237348b 8a8b2a057ed9684704792b5d4b333616769002c2 refs/heads/linux-6.8.y
+5ad3cb0ed525b80c7f66c32b49a68c1f3510bec9 8e938e39866920ddc266898e6ae1fffc5c8f51aa refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmX9N04bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UusP/iFXy7BZP45kLirbQWkU
-JmDNRVBlcMT8YDR4qIApHiy/cl5kd9rWCmmy844TBLJkcy8xz2Np+4eRW7RsbVgX
-OkTJwLRj72EN1/UaQHDsLAhfvVgK031mhyEmUE8+zAG89IZhFojR4L/fHsG9iUv4
-A9EtXcOoyYJ7Y46jGq7bxUDF/YAs3niYBrXKceeMF/vjg+Mgwtv6JjuT0azpzQXM
-l/HTLvbd3j37SU3lSjl+7JU2bZuOVKewYYsDZgwHzDIjrXVTemCfnHawrLbUEZ5J
-QT9WriMqlycZofLsHKTFHPgHCAaF305C4lA/jlC8dVuPmRvtImOKpLoMBQWKXhfi
-r4OUjUy7juVY+/q7hKV/xzoFp60Hw4fxYHyNba30BzziqzY4tHybNBhYksfDAoR0
-cJReMfYd2okgtZqsf0Vxr46jt9Dk7Sz0Pt2UiBdNNKCFYJH2OquVdWjwlzShzZbF
-kmlALXt1Z9S3LdzYsK7Z64xyXpVkQAGzjPcbLJNdykJte15yHdCXZ9h8b1ZOf99o
-GlgJkv/4p5y9JY5pkzCcCGGEHJZ/ScmytKdsJba7q+ZSI75wroSF+8j9RU6M/CAN
-IFnBeRGYF36CFxayJhgR57w8/lQ7M+X2O6UldteA/3xGcSAZT5rl0I3ZV7rMedHC
-Hl5Tr2rSKA8rYsBkeIozW10u
-=b0IV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmX9N3obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9q0QAMCQ+GeC6+SGTizgueN9
+zDr+YuzdTsSXfmlWygduWJ9jqHSdwxGw/14XHxgUD9x2r6DASkpys54P/lNtA5so
++h+9qFsI7hPiXsvEuUXfkQtHfKHQXCA5h0IEU0mFutVxGJV6jztZ4cpR2ePt0Gg6
+ZDCbR+NhoZhv8NBHminuo1kh0u1+FpnKS1mbQwjBgYq4lS68rjjws8qSCeLWFL/0
+CMuwUvjiEOrvrRnH8ULT4mUprsO6Hly7vOeVHeweV7IMXOfsiXp66pz86JbB2BDw
+/NWtFE+n8IAzn/tq9n8gSKAYfnnhjf2/YkhT6Md+SmJxoEpTyz0jCxYmsQt6vAg4
+Ty1pq47kjtoSZTltnO94A4dVfl3OEYiull76zoVBMJMYvTtiK4eLKg8Iup4OjSIw
+IGG1vuCyQvPyvVYFV6khXBLXZlReh14H79ZCPW4bzUlLyESzdhYS5qsC4kYOloQ8
+QQdS366Bf33pev8FdFUnnJcjhiAbnhg0ndt0AZw7NQHYM55334FF05+pjTCFpx8/
+hQGY647ByO81Pzo3ANgJdbLWSv+CE0xkZ3t6r9P3+s2v8IuZa32k4FjfAyuTC1O6
+0g4C1ErGYaOsDnBCOfFqxQQqAKWE5YG1wc8LO9JNkTFsgWlnFE+lp4evKau94O0T
+LtQgNzlI0u9AkAu1DPHrKCcB
+=lFRD
 -----END PGP SIGNATURE-----
 
---===============8863112990166677550==
+--===============3497418653416163522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a788e53c05ae-8e938e398669.txt
+Content-Disposition: attachment; filename=revlist-f1886f673a70-e25760f461ee.txt
 
-13c8cf339e1a7a3d3e48fdebbb882b3a5a90f708 dt-bindings: opp: drop maxItems from inner items
+7585522bf089bfebb7bbd22fddb5495f16f250c9 net: usb: lan78xx: Remove lots of set but unused 'ret' variables
+09a8c3e4e79157bd3358bc9f0fab1517ae8ad884 lan78xx: Fix white space and style issues
+20ccd52bd3b5e1323e58a1049d7d5285650c6c64 lan78xx: Add missing return code checks
+242c4cd0d906f6f8708c0214b0c926b109f63168 lan78xx: Fix partial packet errors on suspend/resume
+513cfa1886cd2a06658410b788236522c2a69583 lan78xx: Fix race conditions in suspend/resume handling
+575689f40b415299864bf1826d03e71d3d807c73 net: lan78xx: fix runtime PM count underflow on link stop
+6463ace2a35d22642c90147ebced20ef6145eac6 net: move definition of pcpu_lstats to header file
+e431c3227864b5646601c97f5f898d99472f2914 geneve: make sure to pull inner header in geneve_rx()
+31ea5bcc7d4cd1423de6be327a2c034725704136 net/ipv6: avoid possible UAF in ip6_route_mpath_notify()
+786854141057751bc08eb26f1b02e97c1631c8f4 net/rds: fix WARNING in rds_conn_connect_if_down
+98db42191329c679f4ca52bec0b319689e1ad8cb netfilter: nf_conntrack_h323: Add protection for bmp length out of range
+7644df766006d4878a556e427e3ecc78c2d5606b netrom: Fix a data-race around sysctl_netrom_default_path_quality
+e3a3718b1723253d4f068e88e81d880d71f1a1e9 netrom: Fix a data-race around sysctl_netrom_obsolescence_count_initialiser
+acc653e8a3aaab1b7103f98645f2cce7be89e3d3 netrom: Fix data-races around sysctl_netrom_network_ttl_initialiser
+500936692ccca8617a955652d1929f079b17a201 netrom: Fix a data-race around sysctl_netrom_transport_timeout
+84b8486e9cedc93875f251ba31abcf73bd586a3a netrom: Fix a data-race around sysctl_netrom_transport_maximum_tries
+6133a71c75dacea12fcc85838b4455c2055b0f14 netrom: Fix a data-race around sysctl_netrom_transport_acknowledge_delay
+7782e5e7047cae6b9255ee727c99fc73d77cf773 netrom: Fix a data-race around sysctl_netrom_transport_busy_delay
+4f2efa17c3ec5e4be0567b47439b9713c0dc6550 netrom: Fix a data-race around sysctl_netrom_transport_requested_window_size
+73426c32e259c767d40613b956d5b80d0c28a9a9 netrom: Fix a data-race around sysctl_netrom_transport_no_activity_timeout
+c13fbb5902bce848759385986d4833f5b90782c1 netrom: Fix a data-race around sysctl_netrom_routing_control
+97a4d8b9f67cc7efe9a0c137e12f6d9e40795bf1 netrom: Fix a data-race around sysctl_netrom_link_fails_count
+d623fd5298d95b65d27ef5a618ebf39541074856 netrom: Fix data-races around sysctl_net_busy_read
+40011850de6d613e982c84c854018aeca2c6bb19 btrfs: ref-verify: free ref cache before clearing mount opt
+becbfcabedfe3ceb9bd6184c172fad00c0a8feb0 tools/selftest/vm: allow choosing mem size and page size in map_hugetlb
+abdbd5f3e8c504d864fdc032dd5a4eb481cb12bf selftests: mm: fix map_hugetlb failure on 64K page size systems
+90091bdf5df0195de0d2d8e3e4d43aaaee122d34 um: allow not setting extra rpaths in the linux binary
+39807e3985ffa2714e46362fdded274a2d768578 Input: i8042 - fix strange behavior of touchpad on Clevo NS70PU
+61acc4c4a3c33905b124dc4af206df92c1426500 hv_netvsc: Make netvsc/VF binding check both MAC and serial number
+a2577793ff166cc18fe4192a8b1bca2d37253e6a hv_netvsc: use netif_is_bond_master() instead of open code
+bcb7164258d0a9a8aa2e73ddccc2d78f67d2519d hv_netvsc: Register VF in netvsc_probe if NET_DEVICE_REGISTER missed
+d5e38d6b84d6d21a4f8a4f555a0908b6d9ffe224 y2038: rusage: use __kernel_old_timeval
+e904c9a4834888cb2b37607d9571f49964f4603f getrusage: add the "signal_struct *sig" local variable
+33ec341e3e9588962ff3cf49f642da140d3ecfc0 getrusage: move thread_group_cputime_adjusted() outside of lock_task_sighand()
+e24772adaaf4b81ac0855cceb17080352526f765 getrusage: use __for_each_thread()
+c96f49d3a741f6693feecdb067c442b609903d03 getrusage: use sig->stats_lock rather than lock_task_sighand()
+71317d703c550c819b5465c3a49ce98650089865 selftests/vm: fix display of page size in map_hugetlb
+af289249ec5c79200c4ec4ec7f4902378956c4d7 selftests/vm: fix map_hugetlb length used for testing read and write
+e25760f461eebe5d8b363810d5558b9ee694466a Linux 4.19.310
+
+--===============3497418653416163522==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0a70dd1e1aa9-d35f38551c21.txt
+
+abda366ece483d9f94edecb8cadc3704ec68c434 mmc: mmci: stm32: use a buffer for unaligned DMA requests
+0224cbc53ba82b84affa7619b6d1b1a254bc2c53 mmc: mmci: stm32: fix DMA API overlapping mappings warning
+061336268eb962100ceb0db81312ee2b5f319ac8 lan78xx: Fix white space and style issues
+e5d7f43c4cdd46a4d42dd3c1c971541c1cf2c862 lan78xx: Add missing return code checks
+69215f8edae38a7d43ef9537b232c41a3a5fc2f4 lan78xx: Fix partial packet errors on suspend/resume
+11a3c9f489403de6050d9374687df75d8e78b904 lan78xx: Fix race conditions in suspend/resume handling
+336261af041592fd5ef24022f132de96030ea049 net: lan78xx: fix runtime PM count underflow on link stop
+ad91d5d1b65a5ef7eff6b5175561c8169e8886e9 ixgbe: {dis, en}able irqs in ixgbe_txrx_ring_{dis, en}able
+71e21eb1f888cb0d0f3de3f579c0db413e6e3810 i40e: disable NAPI right after disabling irqs when handling xsk_pool
+fdb63c179f7a26e0fbc3fd8f57f655f7f45fe984 tracing/net_sched: Fix tracepoints that save qdisc_dev() as a string
+c7137900691f5692fe3de54566ea7b30bb35d66c geneve: make sure to pull inner header in geneve_rx()
+37fe99016b12d32100ce670216816dba6c48b309 net: ice: Fix potential NULL pointer dereference in ice_bridge_setlink()
+79ce2e54cc0ae366f45516c00bf1b19aa43e9abe net/ipv6: avoid possible UAF in ip6_route_mpath_notify()
+5f4e51abfbe6eb444fa91906a5cd083044278297 cpumap: Zero-initialise xdp_rxq_info struct before running XDP program
+9dfc15a10dfd44f8ff7f27488651cb5be6af83c2 net/rds: fix WARNING in rds_conn_connect_if_down
+2b4e7cb7d523448fc24fdb863ff75c8008979637 netfilter: nft_ct: fix l3num expectations with inet pseudo family
+ccd1108b16ab572d9bf635586b0925635dbd6bbc netfilter: nf_conntrack_h323: Add protection for bmp length out of range
+e041df5dc9e68adffcba5499ca28e1252bed6f4b netrom: Fix a data-race around sysctl_netrom_default_path_quality
+18c95d11c347a12e5c31df1325cef6b995d14ecf netrom: Fix a data-race around sysctl_netrom_obsolescence_count_initialiser
+d1261bde59a3a087ab0c81181821e194278d9264 netrom: Fix data-races around sysctl_netrom_network_ttl_initialiser
+291d36d772f5ea5c68a263ee440f2c9eade371c9 netrom: Fix a data-race around sysctl_netrom_transport_timeout
+34a164d2448264b62af82bc0af3d2c83d12d38ac netrom: Fix a data-race around sysctl_netrom_transport_maximum_tries
+34c84e0036a60e7e50ae50b42ed194d8daef8cc9 netrom: Fix a data-race around sysctl_netrom_transport_acknowledge_delay
+f3315a6edaec12b461031eab8c98c78111a41f95 netrom: Fix a data-race around sysctl_netrom_transport_busy_delay
+652b0b35819610a42b8a90d21acb12f69943b397 netrom: Fix a data-race around sysctl_netrom_transport_requested_window_size
+01d4e3afe257768cd2a45f15a0e57bacf932b140 netrom: Fix a data-race around sysctl_netrom_transport_no_activity_timeout
+b7d33e083f9d5d39445c0a91e7ad4f3e2c47fcb5 netrom: Fix a data-race around sysctl_netrom_routing_control
+cfe0f73fb38a01bce86fe15ef5f750f850f7d3fe netrom: Fix a data-race around sysctl_netrom_link_fails_count
+bbf950a6e96a91cf8cf0c71117b94ed3fafc9dd3 netrom: Fix data-races around sysctl_net_busy_read
+1dee72c02170a446d72df8ddec8c3b6936f9f3e8 selftests/mm: switch to bash from sh
+c9c3cc6a13bddc76bb533ad8147a5528cac5ba5a selftests: mm: fix map_hugetlb failure on 64K page size systems
+9c398afd493086b29c62fb0f45e53a2e07cfc199 um: allow not setting extra rpaths in the linux binary
+89ed7ebae4f04d05678108a2141b7ddaea7f9355 xhci: remove extra loop in interrupt context
+fa5aaf31e5f5aa6e57a29037b5fd6e54369f83b8 xhci: prevent double-fetch of transfer and transfer event TRBs
+fe2322caa07424b31522761c27f8b299e87a37a9 xhci: process isoc TD properly when there was a transaction error mid TD.
+696e4112e5c1ee61996198f0ebb6ca3fab55166e xhci: handle isoc Babble and Buffer Overrun events properly
+569154b29a24587b19dfbd59374609afcf037784 serial: max310x: Use devm_clk_get_optional() to get the input clock
+c2b9cbf09e59331f1ab04e9a4c29a1feefad18ac serial: max310x: Try to get crystal clock rate from property
+c7e9e6d5ee848c6ed14731e5024ba0e394a998a2 serial: max310x: fail probe if clock crystal is unstable
+32e32ab1da5a775f0172f0cfe2225231e59357e6 serial: max310x: Make use of device properties
+c1ecaadbcd4047c80a978f417d9c0cfbd8427d95 serial: max310x: use regmap methods for SPI batch operations
+fe0d16b3a3c3cedc8185c0ed4220b21e08e2e842 serial: max310x: use a separate regmap for each port
+518ec3da99f86a7b5b5f41048f51b2079a3c412b serial: max310x: prevent infinite while() loop in port startup
+be155e9466dd29cf19601c12ebd3ac9c14edc886 net: Change sock_getsockopt() to take the sk ptr instead of the sock ptr
+a9482f3b4877b45f5d8d551a1b858fad2bc24e40 bpf: net: Change sk_getsockopt() to take the sockptr_t argument
+ea6e87db9037f285b3d3d269bb405e0e8dd15d34 lsm: make security_socket_getpeersec_stream() sockptr_t safe
+c09ffff246cab96cc35eb40b3faf849b7cfa3ae0 lsm: fix default return value of the socket_getpeersec_*() hooks
+b3bca5e8c76a157861e1644d62e7635de0d01785 ext4: make ext4_es_insert_extent() return void
+5b69dabd7e4adc9baf3ad5daf822a4f8b9311840 ext4: refactor ext4_da_map_blocks()
+58bf67d524e2c10bd11ee111c06d2a5cd7fd3b3d ext4: convert to exclusive lock while inserting delalloc extents
+2ce36635004a6608f6d475abd22668b75a8a8977 Drivers: hv: vmbus: Add vmbus_requestor data structure for VMBus hardening
+cdba035680505d069c937068386b7832de3c1f90 hv_netvsc: Use vmbus_requestor to generate transaction IDs for VMBus hardening
+0db98ee09b9ca271548de2379f1091d6f37b3b60 hv_netvsc: Wait for completion on request SWITCH_DATA_PATH
+3cfee5668b3530c8ef087e141a639f721bd4d231 hv_netvsc: Process NETDEV_GOING_DOWN on VF hot remove
+0d54d2240da7ecd5a8e05bb1caef1a57217a7cf6 hv_netvsc: Make netvsc/VF binding check both MAC and serial number
+8f41b33d240ed2b21234c193ccc5aa4b37a8d3be hv_netvsc: use netif_is_bond_master() instead of open code
+5b10a88f64c0315cfdef45de0aaaa4eef57de0b7 hv_netvsc: Register VF in netvsc_probe if NET_DEVICE_REGISTER missed
+05edf43452c01f2f91f7589aa8bff8d5d0ae13a5 mm/hugetlb: change hugetlb_reserve_pages() to type bool
+14136bed4104392daef53d52dd7abbc1c8e04ddf mm: hugetlb pages should not be reserved by shmat() if SHM_NORESERVE
+811415fe768f289e40818e5ddd4563d9c8923a7c getrusage: add the "signal_struct *sig" local variable
+21677f35e10488237faa08cdac298ee8edc4bc8d getrusage: move thread_group_cputime_adjusted() outside of lock_task_sighand()
+9ca97868205a97da136445ab770628e90ad02be2 getrusage: use __for_each_thread()
+f610023e67ecb12a314ca60c431bdba2ea203a39 getrusage: use sig->stats_lock rather than lock_task_sighand()
+74d83d0fe04e08fd3389ca201d0f885b3e3fed3c serial: max310x: Unprepare and disable clock in error path
+82a62478b9f75ed208c4f732d210498a7d3fbfd1 Drivers: hv: vmbus: Drop error message when 'No request id available'
+915848be2f1b24d8043aace414bc5f8174a13c0e regmap: allow to define reg_update_bits for no bus configuration
+f36ef837a7a6978e652814fe6e4863e7dee35b04 regmap: Add bulk read/write callbacks into regmap_config
+8082cc992dec60342c99078f500b0ca67fb33997 serial: max310x: make accessing revision id interface-agnostic
+85d79478710ad2cbf11857aec107084a7104943e serial: max310x: implement I2C support
+738845b022d3244b36ab63e76968fe25c5c78ec2 serial: max310x: fix IO data corruption in batched operations
+d35f38551c217d32daa0b7f5008adf1d21226042 Linux 5.10.213
+
+--===============3497418653416163522==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-97877abed2af-b95c01af2113.txt
+
+287093040fc5cda96d25f70a5aa83c975a149c04 mmc: mmci: stm32: use a buffer for unaligned DMA requests
+5ae5060e17a3fc38e54c3e5bd8abd6b1d5bfae7c mmc: mmci: stm32: fix DMA API overlapping mappings warning
+ea4e938d2ce40b8f10fb153481f552b425e065f4 net: lan78xx: fix runtime PM count underflow on link stop
+533953fa90d191bc3788b61b3d6f3db79d260b3a ixgbe: {dis, en}able irqs in ixgbe_txrx_ring_{dis, en}able
+e72b4e5e16f6a835a5c127aa4edf156268c77378 i40e: disable NAPI right after disabling irqs when handling xsk_pool
+be3be07d237cedae0a791ce6f88e053584f84c2b tracing/net_sched: Fix tracepoints that save qdisc_dev() as a string
+e77e0b0f2a11735c64b105edaee54d6344faca8a geneve: make sure to pull inner header in geneve_rx()
+e46274df1100fb0c06704195bfff5bfbd418bf64 net: sparx5: Fix use after free inside sparx5_del_mact_entry
+8d95465d9a424200485792858c5b3be54658ce19 net: ice: Fix potential NULL pointer dereference in ice_bridge_setlink()
+cae3303257950d03ffec2df4a45e836f10d26c24 net/ipv6: avoid possible UAF in ip6_route_mpath_notify()
+f0363af9619c77730764f10360e36c6445c12f7b cpumap: Zero-initialise xdp_rxq_info struct before running XDP program
+b562ebe21ed9adcf42242797dd6cb75beef12bf0 net/rds: fix WARNING in rds_conn_connect_if_down
+bd9c90927a3c37dfc998d91183636e9d7b3da652 netfilter: nft_ct: fix l3num expectations with inet pseudo family
+b3c0f553820516ad4b62a9390ecd28d6f73a7b13 netfilter: nf_conntrack_h323: Add protection for bmp length out of range
+101277e37d5441e20fbda7d0a55ede2d5c5f8af9 erofs: apply proper VMA alignment for memory mapped files on THP
+bbc21f134b89535d1cf110c5f2b33ac54e5839c4 netrom: Fix a data-race around sysctl_netrom_default_path_quality
+b3f0bc3a315cf1af03673a0163c08fe037587acd netrom: Fix a data-race around sysctl_netrom_obsolescence_count_initialiser
+775ed3549819f814a6ecef5726d2b4c23f249b77 netrom: Fix data-races around sysctl_netrom_network_ttl_initialiser
+b8006cb0a34aaf85cdd8741f4148fd9c76b351d3 netrom: Fix a data-race around sysctl_netrom_transport_timeout
+f84f7709486d8a578ab4b7d2a556d1b1a59cfc97 netrom: Fix a data-race around sysctl_netrom_transport_maximum_tries
+33081e0f34899d5325e7c45683dd8dc9cb18b583 netrom: Fix a data-race around sysctl_netrom_transport_acknowledge_delay
+85f34d352f4b79afd63dd13634b23dafe6b570f9 netrom: Fix a data-race around sysctl_netrom_transport_busy_delay
+489e05c614dbeb1a1148959f02bdb788891819e6 netrom: Fix a data-race around sysctl_netrom_transport_requested_window_size
+4eacb242e22e31385a50a393681d0fe4b55ed1e9 netrom: Fix a data-race around sysctl_netrom_transport_no_activity_timeout
+f9c4d42464173b826190fae2283ed1a4bbae0c8b netrom: Fix a data-race around sysctl_netrom_routing_control
+c558e54f7712b086fbcb611723272a0a4b0d451c netrom: Fix a data-race around sysctl_netrom_link_fails_count
+0866afaff19d8460308b022345ed116a12b1d0e1 netrom: Fix data-races around sysctl_net_busy_read
+9830e7383f1893bfd5bbb5090170283e8f5c75ef ALSA: usb-audio: Refcount multiple accesses on the single clock
+8ca3315bd876161f82b54e25c17d09b519f2a21c ALSA: usb-audio: Clear fixed clock rate at closing EP
+56e28371faf41e24a12bd8c5ec588c1c81644f5b ALSA: usb-audio: Split endpoint setups for hw_params and prepare (take#2)
+539493f147ff056931da9e5a31b772a05c3b2633 ALSA: usb-audio: Properly refcounting clock rate
+06b6de69cf160f72fc31bd660b331816681edfd9 ALSA: usb-audio: Apply mutex around snd_usb_endpoint_set_params()
+3191a00dbe04eb17d84eca4d2c6c304a0453af1d ALSA: usb-audio: Correct the return code from snd_usb_endpoint_set_params()
+7ce0a888d64662ebc65196dbe6f18f01f65233d3 ALSA: usb-audio: Avoid superfluous endpoint setup
+d16ae91186f31cf052167288fc90ba482e5988a6 ALSA: usb-audio: Add quirk for Tascam Model 12
+f1a68c6a41c6a7d74d8b7c9ca0853794b3782542 ALSA: usb-audio: Add new quirk FIXED_RATE for JBL Quantum810 Wireless
+80326ce1eb74bfc1621b1153ae42cfe24be3306f ALSA: usb-audio: Fix microphone sound on Nexigo webcam.
+f354086d1bf74102bc467ed0f9bc38f48210638e ALSA: usb-audio: add quirk for RODE NT-USB+
+666334fdf4c6dc02f835457d781f49c3feba99fc drm/amd/display: Fix uninitialized variable usage in core_link_ 'read_dpcd() & write_dpcd()' functions
+245332d4e7679d6ceaf4e88c8d4764c626fb71ff nfp: flower: add goto_chain_index for ct entry
+fdfc5fabe85adac8e4d9c306667b63676effca2a nfp: flower: add hardware offload check for post ct entry
+0b08eb637276bd00f15fd56fdf5a729ade502b09 selftests/mm: switch to bash from sh
+0d29b474fb90ff35920642f378d9baace9b47edd selftests: mm: fix map_hugetlb failure on 64K page size systems
+56e9aeb2052ced2f8676532ce80300ffa8fc1cf3 xhci: process isoc TD properly when there was a transaction error mid TD.
+2aa7bcfdbb46241c701811bbc0d64d7884e3346c xhci: handle isoc Babble and Buffer Overrun events properly
+2161c5411d9179a2b4115e90ad3e33c251392e69 serial: max310x: use regmap methods for SPI batch operations
+2fbf2c767b50b4266dd1ae357ca64e9676774f8d serial: max310x: use a separate regmap for each port
+0afbf40c01355b4a61d110f0830675ca9ef5779d serial: max310x: prevent infinite while() loop in port startup
+f5743189609532a922cfed5dd81777d55a7fd482 drm/amd/pm: do not expose the API used internally only in kv_dpm.c
+9a9d00c23d170d4ef5a1b28e6b69f5c85dd12bc1 drm/amdgpu: Reset IH OVERFLOW_CLEAR bit
+760d0df3add547b78dc51206af07dba38fbac3c0 selftests: mptcp: decrease BW in simult flows
+c4cfa93e5018a1dcfcd27493e7d0188f17211e9b hv_netvsc: use netif_is_bond_master() instead of open code
+b6d46f306b3964d05055ddaa96b58cd8bd3a472c hv_netvsc: Register VF in netvsc_probe if NET_DEVICE_REGISTER missed
+b00e4d44ac77bfb1feb46c1aed24dad740d59070 drm/amd/display: Re-arrange FPU code structure for dcn2x
+b4bab46400a0429ee6e1b155193112645b177e6d drm/amd/display: move calcs folder into DML
+f4442513e426470880339b119e7a25cceae16151 drm/amd/display: remove DML Makefile duplicate lines
+63e09c1f46d6a5ad830b038fabf27cc8b338bcf1 drm/amd/display: Increase frame-larger-than for all display_mode_vba files
+c5579e7280e632db7a4caa79beba4d0db668e1c8 getrusage: add the "signal_struct *sig" local variable
+18c7394e46d8dadfaa7f67a278f68a22d565384c getrusage: move thread_group_cputime_adjusted() outside of lock_task_sighand()
+ef2734e57cb97deb75510d1acfcc1f575416badc getrusage: use __for_each_thread()
+3c1b2776ef19117f76b698d70784677eb8549b8d getrusage: use sig->stats_lock rather than lock_task_sighand()
+9b3834276bb6f3a4668b0d3f2b8e84f012e66000 proc: Use task_is_running() for wchan in /proc/$pid/stat
+fd63fb84ed6d6fdc2e4f61bb9468f0b5fd5389e5 fs/proc: do_task_stat: move thread_group_cputime_adjusted() outside of lock_task_sighand()
+a6f53df52b6687b19c6218edb3d2ac19ecadb4d6 ALSA: usb-audio: Fix wrong kfree issue in snd_usb_endpoint_free_all
+bfd36b1d1869859af7ba94dc95ec05e74f40d0b7 ALSA: usb-audio: Always initialize fixed_rate in snd_usb_find_implicit_fb_sync_format()
+36dba3f4cd36c23b5ec71ea32529c62f19e8f677 ALSA: usb-audio: Add FIXED_RATE quirk for JBL Quantum610 Wireless
+cad6da86ca98111e0bd6e0a9c044d594abbe222e ALSA: usb-audio: Sort quirk table entries
+fbddd48f1456db32b675fad95a902de38345902a regmap: allow to define reg_update_bits for no bus configuration
+31642219f27a3b465fdb0cf70e413f89095ff2ca regmap: Add bulk read/write callbacks into regmap_config
+0ba485f90d9723d4e66f740b344699ebe498aaac serial: max310x: make accessing revision id interface-agnostic
+a1211bbf7814a962fc709b85636fbc52e64ab974 serial: max310x: fix IO data corruption in batched operations
+b95c01af211304429c11b8c8bdf791ab11f7f395 Linux 5.15.152
+
+--===============3497418653416163522==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-55bc6060a8ad-84075826304f.txt
+
+b1cc23ffe1a240fe491c7bcff4b456468f4966fd lan78xx: Fix white space and style issues
+e68b46e9aa0eb6e5c7dc29617051940b3ab73294 lan78xx: Add missing return code checks
+57b9c48cd534dd6df0303a4d42bd0efd4d51aa6d lan78xx: Fix partial packet errors on suspend/resume
+81934a2ab51d9f2a89c7b7de08d711f93f5113ef lan78xx: Fix race conditions in suspend/resume handling
+7f087784692db05063876d77323a388cfe77128e net: lan78xx: fix runtime PM count underflow on link stop
+a248b1f58a70a477089ea005938cd36819829a7c ixgbe: {dis, en}able irqs in ixgbe_txrx_ring_{dis, en}able
+59d2a4076983303f324557a114cfd5c32e1f6b29 geneve: make sure to pull inner header in geneve_rx()
+d9fefc51133107e59d192d773be86c1150cfeebb net: ice: Fix potential NULL pointer dereference in ice_bridge_setlink()
+664f9c647260cc9d68b4e31d9899530d89dd045e net/ipv6: avoid possible UAF in ip6_route_mpath_notify()
+997efea2bf3a4adb96c306b9ad6a91442237bf5b net/rds: fix WARNING in rds_conn_connect_if_down
+6ec303202229983b341534f6fd7668fef4be2323 netfilter: nft_ct: fix l3num expectations with inet pseudo family
+4bafcc43baf7bcf93566394dbd15726b5b456b7a netfilter: nf_conntrack_h323: Add protection for bmp length out of range
+7f615232556f3c6e3eeecef96ef2b00d0aa905bb netrom: Fix a data-race around sysctl_netrom_default_path_quality
+1e84b108f2a71daa8d04032e4d2096522376debb netrom: Fix a data-race around sysctl_netrom_obsolescence_count_initialiser
+eda02a0bed550f07a8283d3e1f25b90a38e151ed netrom: Fix data-races around sysctl_netrom_network_ttl_initialiser
+eadec8da4451c2c0897199691184602e4ee497d1 netrom: Fix a data-race around sysctl_netrom_transport_timeout
+f716a68234242f95305dffb5c9426caa64b316b0 netrom: Fix a data-race around sysctl_netrom_transport_maximum_tries
+80578681ea274e0a6512bb7515718c206a7b74cf netrom: Fix a data-race around sysctl_netrom_transport_acknowledge_delay
+1f60795dcafc97c45984240d442cdc151f825977 netrom: Fix a data-race around sysctl_netrom_transport_busy_delay
+89aa78a34340e9dbc3248095f44d81d0e1c23193 netrom: Fix a data-race around sysctl_netrom_transport_requested_window_size
+cbba77abb4a553c1f5afac1ba2a0861aa1f13549 netrom: Fix a data-race around sysctl_netrom_transport_no_activity_timeout
+c4309e5f8e80584715c814e1d012dbc3eee5a500 netrom: Fix a data-race around sysctl_netrom_routing_control
+07bbccd1adb56b39eef982b8960d59e3c005c6a1 netrom: Fix a data-race around sysctl_netrom_link_fails_count
+f9055fa2b2931261d5f89948ee5bc315b6a22d4a netrom: Fix data-races around sysctl_net_busy_read
+47c68edecca26f0e29b25d26500afd62279951b0 selftests: mm: fix map_hugetlb failure on 64K page size systems
+b569d91e518061eefcd99dc61a46489f297f0344 um: allow not setting extra rpaths in the linux binary
+c76dcad53ba11cd46a79cf4d8bcd15bcf56a8d34 serial: max310x: Use devm_clk_get_optional() to get the input clock
+816700131e8bf62cdda1d016744fa56dcc475b5b serial: max310x: Try to get crystal clock rate from property
+b765176ae1b93a3e7724ebcb2bc8927b2caf5d45 serial: max310x: fail probe if clock crystal is unstable
+2c9c830d74a7bf4070e2ee9b537ba6a5832434f7 serial: max310x: Make use of device properties
+3fb7c9bcd0c110cef5202f29606e7aa48a2a05b0 serial: max310x: use regmap methods for SPI batch operations
+7e30e5c1439b26906d1a4ba71fb007eb26f23c79 serial: max310x: use a separate regmap for each port
+bf6bb3612e5dfd5f9bb13255fd15782e307d1526 serial: max310x: prevent infinite while() loop in port startup
+5402ec577f9dfbf4f71fca9999acee483c8ca10a Input: i8042 - fix strange behavior of touchpad on Clevo NS70PU
+9b5ef7a52896c5a133d43b37443f1e99e548d9c7 hv_netvsc: Make netvsc/VF binding check both MAC and serial number
+f2ab3eaa647086691f436c40d839296de79506b8 hv_netvsc: use netif_is_bond_master() instead of open code
+c7441c77c91e47f653104be8353b44a3366a5366 hv_netvsc: Register VF in netvsc_probe if NET_DEVICE_REGISTER missed
+f184f2197832dd7308e335be4862298c4d955e5d y2038: rusage: use __kernel_old_timeval
+ef8a8b36a16bb1cbd5fa0cdde3508744911575b1 getrusage: add the "signal_struct *sig" local variable
+c50a0594312c64241caf940dd54b77395c71fa10 getrusage: move thread_group_cputime_adjusted() outside of lock_task_sighand()
+2b34f6038350d7eb3116726facd9ee98ea60c772 getrusage: use __for_each_thread()
+664a6a904afe8d00176ec11ecbb48f8911ecf7fb getrusage: use sig->stats_lock rather than lock_task_sighand()
+9a7bbea2666c140500bac87dd458c8fa60a09f63 serial: max310x: Unprepare and disable clock in error path
+758c6799da46f8af3cf7547b062c56d87bea68b9 regmap: allow to define reg_update_bits for no bus configuration
+b96b017919116c3ce95b5c2a55136ae034c7d37c regmap: Add bulk read/write callbacks into regmap_config
+112094efd6fb50e1e2197adcd441c53c3a333d19 serial: max310x: make accessing revision id interface-agnostic
+f5c252aaa1be5d38604e58e9bd335065f767d0d8 serial: max310x: implement I2C support
+59b3583da128a0e3a7baa95c3a698c212b6b02ca serial: max310x: fix IO data corruption in batched operations
+1b3d8cbd1cae18fc68e57d77275991076260878a arm64: dts: qcom: add PDC interrupt controller for SDM845
+345ced405207b8ce7dce4c501ebfcced73c02942 arm64: dts: qcom: sdm845: fix USB DP/DM HS PHY interrupts
+84075826304f1a297838de6bcfd9bd84f566026e Linux 5.4.272
+
+--===============3497418653416163522==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-27d7d4053a11-d7543167affd.txt
+
+850bb481890fa830f17e9e38db792931e0b147e4 ceph: switch to corrected encoding of max_xattr_size in mdsmap
+ea2a1052f23c5c113be7e46444984d96d4bf2687 net: lan78xx: fix runtime PM count underflow on link stop
+6632e19acbdcf16603fdd632fcf20f3126d390a9 ixgbe: {dis, en}able irqs in ixgbe_txrx_ring_{dis, en}able
+8e23edc54a5cb3d4ea881e424673c824255a3422 i40e: disable NAPI right after disabling irqs when handling xsk_pool
+5822c02707dac0a995437ef27ba1c441aaca0e1f ice: reorder disabling IRQ and NAPI in ice_qp_dis
+44faf8a48294fcb8c93daa7840249c2c4cd6e68e tracing/net_sched: Fix tracepoints that save qdisc_dev() as a string
+c0b22568a9d8384fd000cc49acb8f74bde40d1b5 geneve: make sure to pull inner header in geneve_rx()
+0de693d68b0a18d5e256556c7c62d92cca35ad52 net: sparx5: Fix use after free inside sparx5_del_mact_entry
+6293ff942e9ce72ae9fced8c277f078e97843dd4 ice: virtchnl: stop pretending to support RSS over AQ or registers
+afdd29726a6de4ba27cd15590661424c888dc596 net: ice: Fix potential NULL pointer dereference in ice_bridge_setlink()
+63a3c1f3c9ecc654d851e7906d05334cd0c236e2 igc: avoid returning frame twice in XDP_REDIRECT
+394334fe2ae3b9f1e2332b873857e84cb28aac18 net/ipv6: avoid possible UAF in ip6_route_mpath_notify()
+3420b3ff1ff489c177ea1cb7bd9fbbc4e9a0be95 cpumap: Zero-initialise xdp_rxq_info struct before running XDP program
+7faff12e828d9c643028259c0f7a2b411cd96607 net: dsa: microchip: fix register write order in ksz8_ind_write8()
+998fd719e6d6468b930ac0c44552ea9ff8b07b80 net/rds: fix WARNING in rds_conn_connect_if_down
+bce83144ba7ec7dd231c13aa065bc6900efe34f9 netfilter: nft_ct: fix l3num expectations with inet pseudo family
+39001e3c42000e7c2038717af0d33c32319ad591 netfilter: nf_conntrack_h323: Add protection for bmp length out of range
+6e49f3ac43e293f86dc0c630de2354a73eec914e erofs: apply proper VMA alignment for memory mapped files on THP
+dec82a8fc45c6ce494c2cb31f001a2aadb132b57 netrom: Fix a data-race around sysctl_netrom_default_path_quality
+e439607291c082332e1e35baf8faf8552e6bcb4a netrom: Fix a data-race around sysctl_netrom_obsolescence_count_initialiser
+a47d68d777b41862757b7e3051f2d46d6e25f87b netrom: Fix data-races around sysctl_netrom_network_ttl_initialiser
+fed835d415766a94fc0246dcebc3af4c03fe9941 netrom: Fix a data-race around sysctl_netrom_transport_timeout
+d28fa5f0e6c1554e2829f73a6a276c9a49689d04 netrom: Fix a data-race around sysctl_netrom_transport_maximum_tries
+5deaef2bf56456c71b841e0dfde1bee2fd88c4eb netrom: Fix a data-race around sysctl_netrom_transport_acknowledge_delay
+5ac337138272d26d6d3d4f71bc5b1a87adf8b24d netrom: Fix a data-race around sysctl_netrom_transport_busy_delay
+46803b776d869b0c36041828a83c4f7da2dfa03b netrom: Fix a data-race around sysctl_netrom_transport_requested_window_size
+498f1d6da11ed6d736d655a2db14ee2d9569eecb netrom: Fix a data-race around sysctl_netrom_transport_no_activity_timeout
+4c02b9ccbb11862ee39850b2b285664cd579b039 netrom: Fix a data-race around sysctl_netrom_routing_control
+cfedde3058bf976f2f292c0a236edd43afcdab57 netrom: Fix a data-race around sysctl_netrom_link_fails_count
+43464808669ba9d23996f0b6d875450191687caf netrom: Fix data-races around sysctl_net_busy_read
+51c4435688ebedb498dbbf0732a9d5dff18d908d KVM: s390: add stat counter for shadow gmap events
+5df3b81a567eb565029563f26f374ae3803a1dfc KVM: s390: vsie: fix race during shadow creation
+35a0d43cee095e590982c290fde6dabef0623769 ASoC: codecs: wcd938x: fix headphones volume controls
+66d663da8654099591a3aa78cf92d48410e930f7 drm/amd/display: Fix uninitialized variable usage in core_link_ 'read_dpcd() & write_dpcd()' functions
+4e2f0cae0bfe60d99e733cddf98de017a482975f nfp: flower: add goto_chain_index for ct entry
+b0b89b470a863fb84360a89365ee69612d2863b5 nfp: flower: add hardware offload check for post ct entry
+f0c349708290f2632d3103b687c7998945ed4dff readahead: avoid multiple marked readahead pages
+02e16a41e5439e447052c3f9a66489caf8bb4007 selftests/mm: switch to bash from sh
+a584c7734a4dd050451fcdd65c66317e15660e81 selftests: mm: fix map_hugetlb failure on 64K page size systems
+9158ea9395c12b5623b569916b6fba0171595542 xhci: process isoc TD properly when there was a transaction error mid TD.
+2e3ec80ea7ba58bbb210e83b5a0afefee7c171d3 xhci: handle isoc Babble and Buffer Overrun events properly
+a28f4d1e0bed85943d309ac243fd1c200f8af9a2 drm/amdgpu: Reset IH OVERFLOW_CLEAR bit
+8b5760939db9c49c03b9e19f6c485a8812f48d83 x86/mmio: Disable KVM mitigation when X86_FEATURE_CLEAR_CPU_BUF is set
+29476fac750dddeabc3503bf9b13e05b949d7adb Documentation/hw-vuln: Add documentation for RFDS
+d405b9c03f06b1b5e73ebc4f34452687022f7029 x86/rfds: Mitigate Register File Data Sampling (RFDS)
+b2e92ab17e440a97c716b701ecd897eebca11ac0 KVM/x86: Export RFDS_NO and RFDS_CLEAR to guests
+92cdc9d71ab084788afd1fcefa315dd33deba068 selftests: mptcp: decrease BW in simult flows
+f0b6dc034e1797b0bc91558c0c2f90c8a12b5533 drm/amd/display: Wrong colorimetry workaround
+01d992088dce3945f70f49f34b0b911c5213c238 drm/amd/display: Fix MST Null Ptr for RV
+eba76e4808c9ad2c41ec5652a9335a8b5c03a709 getrusage: add the "signal_struct *sig" local variable
+d9fe6ef245766d4f4d0494aafc7d5b2189b9b94c getrusage: move thread_group_cputime_adjusted() outside of lock_task_sighand()
+2a304d8c922f2d13d6b95457022950350c23103b getrusage: use __for_each_thread()
+9793a3bb531c5b747bb726d7611b81abe32f6401 getrusage: use sig->stats_lock rather than lock_task_sighand()
+d95ef75162f4722af4b74d847173747930962405 fs/proc: do_task_stat: use __for_each_thread()
+cf4b8c39b9a0bd81c47afc7ef62914a62dd5ec4d fs/proc: do_task_stat: use sig->stats_lock to gather the threads/children stats
+d7543167affd372819a94879b8b1e8b9b12547d9 Linux 6.1.82
+
+--===============3497418653416163522==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-11496a5d363e-6a646d9fe8a2.txt
+
+fb2f43ed48ddd80aef4437e720398a15274dc47a dt-bindings: dma: fsl-edma: Add fsl-edma.h to prevent hardcoding in dts
+525c139714791b52d8eb36cc99815edb47978777 dmaengine: fsl-edma: utilize common dt-binding header file
+3b897ea5ee7583bc45a75360c6724481da9fb6f9 dmaengine: fsl-edma: correct max_segment_size setting
+641eb2d9ab1efe79b08fadc87709eb5308bef92e ceph: switch to corrected encoding of max_xattr_size in mdsmap
+d6159bd4c00594249e305bfe02304c67c506264e mm/vmscan: fix a bug calling wakeup_kswapd() with a wrong zone index
+f6edcad58ceacd90b70e93fc6076a3d03a20b4b4 xfrm: Pass UDP encapsulation in TX packet offload
+550fe716031fc49227e930f520cba7a1a2b814c7 net: lan78xx: fix runtime PM count underflow on link stop
+2e60e9531ab9a3118b05b1e76d6acb0c78bed425 ixgbe: {dis, en}able irqs in ixgbe_txrx_ring_{dis, en}able
+484c8e3beb0f3bd001588602c436b7463c9892cf i40e: disable NAPI right after disabling irqs when handling xsk_pool
+4c0b028e7100c88a3ac6191446da78f668c7275b ice: reorder disabling IRQ and NAPI in ice_qp_dis
+3fba8eab2cfc7334e0f132d29dfd2552f2f2a579 Revert "net/mlx5: Block entering switchdev mode with ns inconsistency"
+ba888f1f5c21f19967ed24d229afcf79861f163a Revert "net/mlx5e: Check the number of elements before walk TC rhashtable"
+c8d7228ddda79cae1895e124776a620885e9e372 net/mlx5: E-switch, Change flow rule destination checking
+c11138f0172f8558539676f43a1b1f0eb17c5389 net/mlx5: Check capability for fw_reset
+6d6bb522d74b3e02d7f05ab42c3d18380b7b3408 net/mlx5e: Change the warning when ignore_flow_level is not supported
+b526c3177531d87dbcf256c23b8cfc5b833cec08 net/mlx5e: Fix MACsec state loss upon state update in offload path
+d1f71615dbb305f14f3b756cce015d70d8667549 net/mlx5e: Use a memory barrier to enforce PTP WQ xmit submission tracking occurs after populating the metadata_map
+d98d364d98d10b79e94b9c383b9ced324404c63c net/mlx5e: Switch to using _bh variant of of spinlock API in port timestamping NAPI poll context
+24d5a89652c9f4f295da2e96af6783203102e2e0 tracing/net_sched: Fix tracepoints that save qdisc_dev() as a string
+0ece581d2a66e8e488c0d3b3e7b5760dbbfdbdd5 geneve: make sure to pull inner header in geneve_rx()
+e83bebb718fd1f42549358730e1206164e0861d6 net: sparx5: Fix use after free inside sparx5_del_mact_entry
+671a28603c6b3baf7e06469935c82270022654fa ice: virtchnl: stop pretending to support RSS over AQ or registers
+1a770927dc1d642b22417c3e668c871689fc58b3 net: ice: Fix potential NULL pointer dereference in ice_bridge_setlink()
+8df393af9e7e8dfd62e9c41dbaa4d2ff53bf794a igc: avoid returning frame twice in XDP_REDIRECT
+ed883060c38721ed828061f6c0c30e5147326c9a net/ipv6: avoid possible UAF in ip6_route_mpath_notify()
+ff4d6006870f37423ff80b0d6b621372824c9c69 bpf: check bpf_func_state->callback_depth when pruning states
+586a2f410c781384f70332cfe23ba90008e78ca3 xdp, bonding: Fix feature flags when there are no slave devs anymore
+02e3549492db621df5d2f1868cc1be9bd4147118 selftests/bpf: Fix up xdp bonding test wrt feature flags
+f562e4c4aab00986dde3093c4be919c3f2b85a4a cpumap: Zero-initialise xdp_rxq_info struct before running XDP program
+782c5fa6638faa22b7e32923718fd5766f59e417 net: dsa: microchip: fix register write order in ksz8_ind_write8()
+2b505d05280739ce31d5708da840f42df827cb85 net/rds: fix WARNING in rds_conn_connect_if_down
+b7f885cc70296be7172ec918917bae6f77885e28 netfilter: nft_ct: fix l3num expectations with inet pseudo family
+014a807f1cc9c9d5173c1cd935835553b00d211c netfilter: nf_conntrack_h323: Add protection for bmp length out of range
+b3b87525b54599601f4a7e26d61cc82e82def272 erofs: apply proper VMA alignment for memory mapped files on THP
+7510b08c5f5ba15983da004b021fc6154eeb4047 netrom: Fix a data-race around sysctl_netrom_default_path_quality
+7e1e25891f090e24a871451c9403abac63cb45dd netrom: Fix a data-race around sysctl_netrom_obsolescence_count_initialiser
+5731369af2de21695fe7c1c91fe134fabe5b33b8 netrom: Fix data-races around sysctl_netrom_network_ttl_initialiser
+5d5c14efc987900509cec465af26608e39ac607c netrom: Fix a data-race around sysctl_netrom_transport_timeout
+fa3f3ab5c399852d32a0c3cbb8c55882f7e2c61f netrom: Fix a data-race around sysctl_netrom_transport_maximum_tries
+7d56ffc51ebd2777ded8dca50d631ee19d97db5c netrom: Fix a data-race around sysctl_netrom_transport_acknowledge_delay
+4ccad39009e7bd8a03d60a97c87b0327ae812880 netrom: Fix a data-race around sysctl_netrom_transport_busy_delay
+db006d7edbf0b4800390ece3727a82f4ae764043 netrom: Fix a data-race around sysctl_netrom_transport_requested_window_size
+2309b369fae2d9cdc3c945cd3eaec84eb1958ca3 netrom: Fix a data-race around sysctl_netrom_transport_no_activity_timeout
+d732b83251322ecd3b503e03442247745d6052ce netrom: Fix a data-race around sysctl_netrom_routing_control
+db364859ce68fb3a52d42cd87a54da3dc42dc1c8 netrom: Fix a data-race around sysctl_netrom_link_fails_count
+34cab94f7473e7b09f5205d4583fb5096cb63b5b netrom: Fix data-races around sysctl_net_busy_read
+995f802abff209514ac2ee03b96224237646cec3 net: pds_core: Fix possible double free in error handling path
+99b86c9b07a31ca14e19fcb3bba93dedf7bdfff0 KVM: s390: add stat counter for shadow gmap events
+f5572c0323cf8b4f1f0618178648a25b8fb8a380 KVM: s390: vsie: fix race during shadow creation
+de5c36abf7086a98c8960c003d67dfd7a155b629 readahead: avoid multiple marked readahead pages
+e2ee3c628a6f6d613ad96812036d61e36748a0b8 selftests: mptcp: decrease BW in simult flows
+c35ca0968de41952af2ad7d22881e4a7c6e1b145 x86/mmio: Disable KVM mitigation when X86_FEATURE_CLEAR_CPU_BUF is set
+ddfd38558acc5b3891fd197372fedb76372da740 Documentation/hw-vuln: Add documentation for RFDS
+77018fb9efe50cf24e61275ee09253cf1fbb6854 x86/rfds: Mitigate Register File Data Sampling (RFDS)
+4a5b5bfea063745471af6395d22ebaea8242225e KVM/x86: Export RFDS_NO and RFDS_CLEAR to guests
+6a646d9fe8a2bf8d25817ceddf96dfc5eb5446db Linux 6.6.22
+
+--===============3497418653416163522==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b103e69cd70c-9865e757e1d8.txt
+
+18867a204511d032c2a6ed083461a10905061fac x86/mmio: Disable KVM mitigation when X86_FEATURE_CLEAR_CPU_BUF is set
+13acf9f1df3513ea7a5170399c2a8e297e5fbdc1 Documentation/hw-vuln: Add documentation for RFDS
+fe5f4d14cdad934c5c92080cebd5b18189bf4ac9 x86/rfds: Mitigate Register File Data Sampling (RFDS)
+328607cf9e1fcbbc3f5521391d601306f72a5890 KVM/x86: Export RFDS_NO and RFDS_CLEAR to guests
+eefa27064ca99240ea69b1790ad47920a2c91699 dt-bindings: dma: fsl-edma: Add fsl-edma.h to prevent hardcoding in dts
+f018075be606ddf691f71b5f0440ff19e5439c45 dmaengine: fsl-edma: utilize common dt-binding header file
+56e70ceb2f957ea59541cd8b82b736541b8f8896 dmaengine: fsl-edma: correct max_segment_size setting
+4aa935c02a8beaeb79f87ad7fe3385c1ac493892 xfrm: Clear low order bits of ->flowi4_tos in decode_session4().
+104ecbf1417b6ca5bcfe07ca3601962894a1993c xfrm: Pass UDP encapsulation in TX packet offload
+a382c4a8af9827c88451ddfad1401a0ee67a2a64 net: lan78xx: fix runtime PM count underflow on link stop
+7656bd260e1564c16a837438895c13a5f1d9dc19 ixgbe: {dis, en}able irqs in ixgbe_txrx_ring_{dis, en}able
+6b109c5ec50ea03b73c1abab1dba6b1a94a09a73 i40e: disable NAPI right after disabling irqs when handling xsk_pool
+fdec2b40cab73240d437499ca8aca464a189801e ice: reorder disabling IRQ and NAPI in ice_qp_dis
+8910b1cef190545085e9bb486f35dd30ad928a05 ice: replace ice_vf_recreate_vsi() with ice_vf_reconfig_vsi()
+3345e7cf0cf82027bff3b7878bd79214688e61da ice: reconfig host after changing MSI-X on VF
+1bcdd66d33edb446903132456c948f0b764ef2f9 Revert "net/mlx5: Block entering switchdev mode with ns inconsistency"
+aad5376bbbf4c37270682f9bd42ccf210fc81402 Revert "net/mlx5e: Check the number of elements before walk TC rhashtable"
+0ae51120e054523b5ca7fb02d510e5ccca0b1fee net/mlx5: E-switch, Change flow rule destination checking
+490b244bade913b4f673b30486398703e79fdd7c net/mlx5: Fix fw reporter diagnose output
+c381fa3d7f6e89d2089299843198ec55ab9ba212 net/mlx5: Check capability for fw_reset
+dceece21245efbf1a919f33fe0eaf9747a99628b net/mlx5e: Change the warning when ignore_flow_level is not supported
+ec2f4c9190a1d0af3c9b9935f34221057c6baf84 net/mlx5e: Fix MACsec state loss upon state update in offload path
+936ef086161ab89a7f38f7a0761d6a3063c3277e net/mlx5e: Use a memory barrier to enforce PTP WQ xmit submission tracking occurs after populating the metadata_map
+4d9d5a25bb305d92dee98f14b8d457b21c377a05 net/mlx5e: Switch to using _bh variant of of spinlock API in port timestamping NAPI poll context
+9aa3b83385a3fab1d7e5120b884a41630dcd1b2d tracing/net_sched: Fix tracepoints that save qdisc_dev() as a string
+048e16dee1fc609c1c85072ccd70bfd4b5fef6ca geneve: make sure to pull inner header in geneve_rx()
+71809805b95052ff551922f11660008fb3666025 net: sparx5: Fix use after free inside sparx5_del_mact_entry
+2b3aaa527f14cfff2ba9fc71e7d86975caacf997 idpf: disable local BH when scheduling napi for marker packets
+6d147368531c3a2a6784460360be13723799f3f2 ice: virtchnl: stop pretending to support RSS over AQ or registers
+0e296067ae0d74a10b4933601f9aa9f0ec8f157f net: ice: Fix potential NULL pointer dereference in ice_bridge_setlink()
+db29ceff3e25c48907016da456a7cbee6310fd83 ice: fix uninitialized dplls mutex usage
+1b3b8231386a572bac8cd5b6fd7e944b84f9bb1f igc: avoid returning frame twice in XDP_REDIRECT
+61b34f73cdbdb8eaf9ea12e9e2eb3b29716c4dda net/ipv6: avoid possible UAF in ip6_route_mpath_notify()
+c5a19345623860c5639d05ef91548e8bc74d76b0 bpf: check bpf_func_state->callback_depth when pruning states
+ebd18966c1cdf78cb9fd1e76fd856dc862f2abc9 xdp, bonding: Fix feature flags when there are no slave devs anymore
+0b7de45a76b0c9eff0006fc67a4b60264f57863c selftests/bpf: Fix up xdp bonding test wrt feature flags
+eaa7cb836659ced2d9f814ac32aa3ec193803ed6 cpumap: Zero-initialise xdp_rxq_info struct before running XDP program
+063faf44ef46fead3bbef8e59d3414a651c39c77 net: dsa: microchip: fix register write order in ksz8_ind_write8()
+907761307469adecb02461a14120e9a1812a5fb1 net/rds: fix WARNING in rds_conn_connect_if_down
+8ef601b818de09981eae9bb3f3b124c2c20a0693 netfilter: nft_ct: fix l3num expectations with inet pseudo family
+80ee5054435a11c87c9a4f30f1ff750080c96416 netfilter: nf_conntrack_h323: Add protection for bmp length out of range
+c9f191aa16db88e4b127a7af1b494610bcb6b66f erofs: apply proper VMA alignment for memory mapped files on THP
+392eb88416dcbc5f1d61b9a88d79d78dc8b27652 netrom: Fix a data-race around sysctl_netrom_default_path_quality
+591192c3a9fc728a0af7b9dd50bf121220062293 netrom: Fix a data-race around sysctl_netrom_obsolescence_count_initialiser
+dca1d93fe42fb9c42b66f61714fbdc55c87eb002 netrom: Fix data-races around sysctl_netrom_network_ttl_initialiser
+7d1e00fc2af3b7c30835d643a3655b7e9ff7cb20 netrom: Fix a data-race around sysctl_netrom_transport_timeout
+42e71408e2c138be9ccce60920bd6cf094ba1e32 netrom: Fix a data-race around sysctl_netrom_transport_maximum_tries
+a22f9194f61ad4f2b6405c7c86bee85eac1befa5 netrom: Fix a data-race around sysctl_netrom_transport_acknowledge_delay
+0a30016e892bccabea30af218782c4b6ce0970af netrom: Fix a data-race around sysctl_netrom_transport_busy_delay
+0d43a58900e5a2bfcc9de47e16c6c501c0bef853 netrom: Fix a data-race around sysctl_netrom_transport_requested_window_size
+6f254abae02abd4a0aca062c1b3812d7e2d8ea94 netrom: Fix a data-race around sysctl_netrom_transport_no_activity_timeout
+859175d4bc11af829e2fdd261a7effdaba9b5d8f netrom: Fix a data-race around sysctl_netrom_routing_control
+0b8eb369c182814d817b9449bc9e86bfae4310f9 netrom: Fix a data-race around sysctl_netrom_link_fails_count
+16d71319e29d5825ab53f263b59fdd8dc2d60ad4 netrom: Fix data-races around sysctl_net_busy_read
+ffda0e962f270b3ec937660afd15b685263232d3 net: pds_core: Fix possible double free in error handling path
+525722260edcca15e4daf1d1c6cefb7844d904d8 readahead: avoid multiple marked readahead pages
+26a1a107a6afd72f2d92acae1fcd2a757860b4b3 selftests: mptcp: decrease BW in simult flows
+5acf0e789aeb46f339d8d55452a4dc1e7aa5f16c ARM: 9328/1: mm: try VMA lock-based page fault handling first
+baa5eee7d3edd0ac2ebeb409a75fadaa07920a0d arch/arm/mm: fix major fault accounting when retrying under per-VMA lock
+9865e757e1d858c1975915af5c46df6359de0da3 Linux 6.7.10
+
+--===============3497418653416163522==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5ad3cb0ed525-8e938e398669.txt
+
 abb3f9717a67a2666b2bc2f19543a657e3d4ad63 OPP: Extend dev_pm_opp_data with turbo support
 de79649bf981d4c43bb60e29001451c672e6b14c Merge tag 'arm-soc/for-6.9/devicetree-arm64' of https://github.com/Broadcom/stblinux into soc/late
 c00304acdc64e042a1aef352afedbea192255f52 Merge tag 'arm-soc/for-6.9/drivers' of https://github.com/Broadcom/stblinux into soc/late
@@ -963,6 +1462,7 @@ af02c72d0b621ccd0185248cacb6133a05481e75 exfat: convert exfat_find_empty_entry()
 4d714559768911b4738dca521ca38be84a8444b5 exfat: remove unused functions
 96cf51acccb64d24339822824c262a1d3744d218 exfat: do not sync parent dir if just update timestamp
 dc38fdc51ba650871f12e4032bfe170f5b0e8ed0 exfat: remove duplicate update parent dir
+a788e53c05aee6e3d60792a59e10c0fac56b5086 usb: usb-acpi: Fix oops due to freeing uninitialized pld pointer
 a873add22a46beec0291c5a40194a90eb92ba3da Merge branch 'acpi-docs'
 a6d6590917ec352270bd3e3c040240aab31f2e90 Merge branches 'pm-em', 'pm-powercap' and 'pm-sleep'
 3cf28cd492308e5f63ed00b29ea03ca016264376 hsr: Handle failures in module init
@@ -1082,4 +1582,4 @@ cafd86cbdc607eadc28a008cddacd78f0894c628 Merge tag 'amd-drm-fixes-6.9-2024-03-21
 7ee04901215b3cab8fa35aa5bf4692d7aa312e36 Merge tag 'drm-next-2024-03-22' of https://gitlab.freedesktop.org/drm/kernel
 8e938e39866920ddc266898e6ae1fffc5c8f51aa Merge tag '6.9-rc-smb3-client-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
 
---===============8863112990166677550==--
+--===============3497418653416163522==--
