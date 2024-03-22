@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0783419460522369282=="
+Content-Type: multipart/mixed; boundary="===============1177029794556333950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 22 Mar 2024 21:42:12 -0000
-Message-Id: <171114373279.19146.11721517110924972672@gitolite.kernel.org>
+Date: Fri, 22 Mar 2024 21:51:35 -0000
+Message-Id: <171114429559.25794.11040147197051035103@gitolite.kernel.org>
 
---===============0783419460522369282==
+--===============1177029794556333950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: e343aa3989b97d13cadcdd3a1c38dbc5c9ed4c04
-    new: 11f9c655461ba9bab5d65bc4de96e53a88185ff8
-    log: revlist-e343aa3989b9-11f9c655461b.txt
+  - ref: refs/heads/1GbE
+    old: 32fa4366cc4da1c97b725a0066adf43c6b298f37
+    new: d24b03535e5eb82e025219c2f632b485409c898f
+    log: revlist-32fa4366cc4d-d24b03535e5e.txt
 
---===============0783419460522369282==
+--===============1177029794556333950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e343aa3989b9-11f9c655461b.txt
+Content-Disposition: attachment; filename=revlist-32fa4366cc4d-d24b03535e5e.txt
 
+7e1449cd15d1096157d1a9923b82e37602fb7eb0 hwmon: (aspeed-g6-pwm-tacho): Support for ASPEED g6 PWM/Fan tach
+0c5ade742e91d7bf3a508bf6223deb7410009b6d Merge branches 'for-next/reorg-va-space', 'for-next/rust-for-arm64', 'for-next/misc', 'for-next/daif-cleanup', 'for-next/kselftest', 'for-next/documentation', 'for-next/sysreg' and 'for-next/dpisa', remote-tracking branch 'arm64/for-next/perf' into for-next/core
+88f0912253ea47a2bde36e0820f0b9c025d389ad Merge branch 'for-next/stage1-lpa2' into for-next/core
+3208a9a07bd23134eeb4dee10010fa3e7a890457 Merge tag 'linux-cpupower-6.9-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux
+dcb497ec993265dfc5fffa60b486c1ad353e9ad5 Merge branches 'thermal-core' and 'thermal-intel'
+cbd38332c140829ab752ba4e727f98be5c257f18 nvmem: meson-efuse: fix function pointer type mismatch
+89ffa4cccec54467446f141a79b9e36893079fb8 slimbus: core: Remove usage of the deprecated ida_simple_xx() API
+56c7659a8b6b8238535124fe78679cda4dba7fbc slimbus: qcom-ngd-ctrl: Make QMI message rules const
+ab23f1bffcf690ffae2b0c4bb8b09420299be05c slimbus: core: make slimbus_bus const
+508ecc78b6c983a7921bee2f4bd22682f9f0396e nvmem: fixed-cell: Simplify nested if/then schema
+998f0633773b3432829fe45d2cd2ffb842f3c78e nvmem: mtk-efuse: Register MediaTek socinfo driver from efuse
+c7f99cd8fb6b3997bc634ad6ae6e709f49898cbe dt-bindings: nvmem: Convert xlnx,zynqmp-nvmem.txt to yaml
+d28c853b32b868f25545ce0c08b4b6a17f5d8767 dt-bindings: nvmem: add common definition of nvmem-cell-cells
+e34b943068d30f20db31f28100affdaaedc7efab firmware: xilinx: Add ZynqMP efuse access API
+29be47fcd6a06ea2e79eeeca6e69ad1e23254a69 nvmem: zynqmp_nvmem: zynqmp_nvmem_probe cleanup
 737c0c8d07b5f671c0a33cec95965fcb2d2ea893 nvmem: zynqmp_nvmem: Add support to access efuse
 9f742e3efc978a480d64b10b353bde656e275aa1 MAINTAINERS: Add maintainers for ZynqMP NVMEM driver
 76c345edef754b16cab81ad9452cc49c09e67066 nvmem: mtk-efuse: Drop NVMEM device name
@@ -1035,20 +1050,5 @@ bb41fe35dce709ea8f91d313c558ee6c68f705ef Merge tag 'char-misc-6.9-rc1' of git://
 1d35aae78ffe739bf46c2bf9dea7b51a4eebfbe0 Merge tag 'kbuild-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 cba9ffdb9913dfe6be29f049ce920ce451ce7cc4 Merge tag 'net-6.9-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 d24b03535e5eb82e025219c2f632b485409c898f nfc: nci: Fix uninit-value in nci_dev_up and nci_ntf_packet
-8221fa7aeea7e70e82225db3b4bb2ab6cce71114 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
-1eb54f39f052ebe33735ce2ed4e72f9442765307 ice: Refactor FW data type and fix bitmap casting issue
-0bb5adc2187687d1e5ab464855898bc8d886ea1d e1000e: move force SMBUS from enable ulp function to avoid PHY loss issue
-5e908cee05100cbc23714dcaf6a402d09874979a ice: fix memory corruption bug with suspend and rebuild
-a5681d9852d4d8877daa064c2523b053cf413239 ixgbe: avoid sleeping allocation in ixgbe_ipsec_vf_add_sa()
-af6b022762cbb2420fbab92eb8abffe08fbfdf69 ice: tc: do default match on all profiles
-f5c14fcf416f616ade578ea9e4b077a6b2a7f31d i40e: fix i40e_count_filters() to count only active/new filters
-5d9d39f07332a5b637f9e677a62453df78974a50 i40e: fix vf may be used uninitialized in this function warning
-a0785e5648c4090067dc9cc9d66997f5705d234c i40e: Prevent setting MTU if greater than MFS
-67ff47d87ce09f08a9153b2b5f42c295d3029aec igc: Remove stale comment about Tx timestamping
-8329bcb493bf34f6f93332adb3d0b84754f5ad03 i40e: Fix VF MAC filter removal
-a95cbec5c5fe513711a911b7f21b0ab995ea40c5 ice: tc: check src_vsi in case of traffic from VF
-1e18bf8549de856ce5a52f79e18b8615cdee1d3f ice: tc: allow zero flags in parsing tc flower
-400ace9d6fd72dd176bde1dddb6618249a3f1541 i40e: Enforce software interrupt during busy-poll exit
-11f9c655461ba9bab5d65bc4de96e53a88185ff8 idpf: fix kernel panic on unknown packet types
 
---===============0783419460522369282==--
+--===============1177029794556333950==--
