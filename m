@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Fri, 22 Mar 2024 10:06:33 -0000
-Message-Id: <171110199352.30441.13067252987361223944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 22 Mar 2024 10:30:39 -0000
+Message-Id: <171110343936.15723.12537594915820268494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: b8ad3490a3507476844d6c6a87b2cb336f7d4eb9
-    new: 9250929edde3b5740e5cf3b33e58a075f0e640be
+    old: 7d16145c4696772bb5438a43a482f68fbf046370
+    new: 1a374511693e4b2e8e53966615ce9112553d3b08
     log: |
-         bbf198280e701580cf2284800d56811bae71b80a Fix crash in iov_append_ltv function
-         a2b2d2e4ab0ee375b24007e23f19e3122fa33764 player: Adjust SDU size based on the number of locations
-         97fa2525fb104856c80f67af27cd87af09a41c4d obexd: Remove redundant judgments and fix code style
-         9250929edde3b5740e5cf3b33e58a075f0e640be shared/btsnoop: Add proper identifiers for ISO packets
+         1a374511693e4b2e8e53966615ce9112553d3b08 meson: Only build blkzone and blkpr if the required linux header exists
+         
+  - ref: refs/heads/stable/v2.40
+    old: 4f057203f9baf1dc3cee452f5ac6cd53499df750
+    new: 8beae411393d565778a80d3513be8b68bf5967fa
+    log: |
+         8beae411393d565778a80d3513be8b68bf5967fa meson: Only build blkzone and blkpr if the required linux header exists
          
