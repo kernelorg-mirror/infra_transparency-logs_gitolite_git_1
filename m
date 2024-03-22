@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1498356181382873201=="
+Content-Type: multipart/mixed; boundary="===============5642144844346338681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 22 Mar 2024 21:28:34 -0000
-Message-Id: <171114291429.7573.16709785622692168141@gitolite.kernel.org>
+Date: Fri, 22 Mar 2024 21:38:04 -0000
+Message-Id: <171114348494.15533.3139924333234578526@gitolite.kernel.org>
 
---===============1498356181382873201==
+--===============5642144844346338681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,47 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: e1e92c1f05f1d650a96deaf3f1464dde88af7e82
-    new: 8ab6a161fded64772a7bcf0745dc13f3cfb04c97
-    log: revlist-e1e92c1f05f1-8ab6a161fded.txt
+  - ref: refs/heads/1GbE
+    old: 237bb5f7f7f55ec5f773469a974c61a49c298625
+    new: 537c2e91d3549e5d6020bb0576cf9b54a845255f
+    log: revlist-237bb5f7f7f5-537c2e91d354.txt
 
---===============1498356181382873201==
+--===============5642144844346338681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1e92c1f05f1-8ab6a161fded.txt
+Content-Disposition: attachment; filename=revlist-237bb5f7f7f5-537c2e91d354.txt
 
+6501ac11b90f1c9fe7208e95f69f80bf55286c3e siox: constify the struct device_type usage
+a7478b3d9da7a1bf3478c94ee33c93631ea03f9b tifm: make tifm_adapter_class constant
+01771a598d1e19bc114ae4f08495700e2e721a41 mcb: make mcb_bus_type const
+3b1a9b58402ee48c527e834d48d33fc502199335 mcb: constify the struct device_type usage
+664c89c56e854f1a8a8b1968690ba08f7fe843fc siox: make siox_bus_type const
+12f371e2b6cb4b79c788f1f073992e115f4ca918 usb: sl811-hcd: only defined function checkdone if QUIRK2 is defined
+0a980bebdf9750eaad08cf72c799c4ccecf08c3a usb: ohci-pxa27x: Remove unused of_gpio.h
+2a36b8fb7dc1006a08a04db7a745e5b01b94827e usb: gadget/snps_udc_plat: Remove unused of_gpio.h
+07cb1ec0b13d4e100d01f47876795752cbc6f1cc USB: gadget: pxa27x_udc: Remove unused of_gpio.h
+d843f031d9e90462253015bc0bd9e3852d206bf2 phy: tegra: xusb: Add API to retrieve the port number of phy
+84fa943d93c31ee978355e6c6c69592dae3c9f59 usb: gadget: tegra-xudc: Fix USB3 PHY retrieval logic
+600556809f04eb3bbccd05218215dcd7b285a9a9 usb: gadget: net2272: Use irqflags in the call to net2272_probe_fin
+8e50be9387d64fd5da80dc266b57c8a59a02215c staging: greybus: Replace __attribute__((packed)) by __packed in various instances
+68bb540b1aefded1d58a9f956568d5316643d291 staging: greybus: Replaces directive __attribute__((packed)) by __packed as suggested by checkpatch
+3bd291383c727bfbe6e8d21e2c16776fe9bd7dcf greybus: Remove usage of the deprecated ida_simple_xx() API
+a13bd6f3c936edff957f2d02cf65c44046cb1243 greybus: move is_gb_* functions out of greybus.h
+d6c0d892b44cd16e0421909cf7f2883b9e625e4a dt-bindings: serial: stm32: add power-domains property
+4a055328414cb511e12b2c54c8b26c1ba4645ae8 char: xilinx_hwicap: drop casting to void in dev_set_drvdata
+8af2d2025d25870da73871abe3d1d93b6e903cc2 platform: goldfish: move the separate 'default' propery for CONFIG_GOLDFISH
+b44abdd29423a77074a9edb462de37f1a09daaab hpet: remove hpets::hp_clocksource
+316459ba4051fd91237171fdca88920128a646f1 char: xilinx_hwicap: Fix NULL vs IS_ERR() bug
+02a7873dd7731377a6e61213cd69a7738a1066bf MAINTAINERS: change the maintainer for hpilo driver
+71cfc131f60ad1e50b8feada8908cd0e3efb7048 vmw_balloon: change maintainership
+832c17b8b658aa88f237d7025906334cb96bbdcb char: xillybus: Convert to platform remove callback returning void
+adf4e1055522f62e2c23926c9c66d49c70dfcd15 parport: amiga: Convert to platform remove callback returning void
+813f008d4343bd5ecc14790cf98ad24deb7e8d2d parport: sunbpp: Convert to platform remove callback returning void
+b6c8dafc9d86eb77e502bb018ec4105e8d2fbf78 speakup: Fix 8bit characters from direct synth
+807977260ae4de1cf39cfc55713fc0bc56566f7a speakup: Add /dev/synthu device
+e3a59056a655975868863a80fc8c05cb25e3b866 pps: use cflags-y instead of EXTRA_CFLAGS
+0e439ba38e615e505404b3935585f1898bafaea9 cdx: add MSI support for CDX bus
 576882ef5e7fce030b65c92b508a0f84ea5a81c2 uio: introduce UIO_MEM_DMA_COHERENT type
 bfe78793b264f9e7a809f755f8ef5cb9bb163827 cnic,bnx2,bnx2x: use UIO_MEM_DMA_COHERENT
 7722151e4651c973c18df0c18c015edcc7b43b25 uio_pruss: UIO_MEM_DMA_COHERENT conversion
@@ -1020,35 +1050,5 @@ bb41fe35dce709ea8f91d313c558ee6c68f705ef Merge tag 'char-misc-6.9-rc1' of git://
 1d35aae78ffe739bf46c2bf9dea7b51a4eebfbe0 Merge tag 'kbuild-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 cba9ffdb9913dfe6be29f049ce920ce451ce7cc4 Merge tag 'net-6.9-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 537c2e91d3549e5d6020bb0576cf9b54a845255f Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-bc12ef4d74a5f0eaa0a5afa1c5b34408518eac1d e1000e: Workaround for sporadic MDI error on Meteor Lake systems
-9dd88dad1ab1c2362f4923411aabb692394ab2b0 ice: Refactor FW data type and fix bitmap casting issue
-824ff331eddcf5a24f5104408702e52aa0db4b55 ice: Add switch recipe reusing feature
-af02b2b1a4916d001ea7102137f084f66c408c76 igc: Refactor runtime power management flow
-3665507732e5aa3221c7c8778a5e3cbdc3d876f8 ice: remove eswitch changing queues algorithm
-5208769808908fae52c031ed646f85478a84f3a3 ice: do Tx through PF netdev in slow-path
-26fce8e185ecf7ece8a819bb88b212a8d5e0c9c3 ice: default Tx rule instead of to queue
-35c3c60e083935ab8577ff702ea6d12e9332e42a ice: control default Tx rule in lag
-786248cdc6a61c2b94ce512e645e28895a8eefad ice: remove switchdev control plane VSI
-d9950b49f7899f25a4a9fc2e244d157cc21ac32d ice: change repr::id values
-17f70142870efbdfb105b326f3577e8ebd8e575a ice: do switchdev slow-path Rx using PF VSI
-caacd6a0426853ae9129c380c5e2a987e99c74ea ice: count representor stats
-eef90a44ff952ffc3c72f0c6096f47cc412514e6 e1000e: move force SMBUS from enable ulp function to avoid PHY loss
-e95777991cb2f7cdd63f75965be8cecdc79a6c52 ice: fix memory corruption bug with suspend and rebuild
-9c0a38b2579e8491438eff3ce7c133bad5edbbf8 ixgbe: avoid sleeping allocation in ixgbe_ipsec_vf_add_sa()
-584c693465b36e31196c2bd6ce57828bdd04a7c5 igb: simplify pci ops declaration
-91ad48bcf77079ca005a296a4305a2a0de0f37a0 net: intel: implement modern PM ops declarations
-5b3ae4c9c1f79a832a84e3154d2703d8d6da3425 i40e: avoid forward declarations in i40e_nvm.c
-0830787c95bee08a08ebb1a42cddf47288775371 ice: Remove ndo_get_phys_port_name
-6ce2747ab2aac45ce5261168052ec5f492cfa1a1 ice: tc: do default match on all profiles
-072fc39516dd4096db9349e8e09da9fa4b04904e i40e: fix i40e_count_filters() to count only active/new filters
-25bb5ecb0e195dcc7dc830bc2a839c6a298749f5 i40e: fix vf may be used uninitialized in this function warning
-be6a35db45e9e5ce9ec6a58cbf81f8e892cd27c9 i40e: Prevent setting MTU if greater than MFS
-692ba7001077412c3e49ccc282939f084d1dc855 igc: Remove stale comment about Tx timestamping
-d5f546096259fc4acbabd017bd715a50169dbc64 i40e: Fix VF MAC filter removal
-8621d8283d0e9971412069b76af2d8258bda9272 ice: tc: check src_vsi in case of traffic from VF
-57d2fc915b80dd2b21a2d50e7971e03863502477 ice: tc: allow zero flags in parsing tc flower
-d13513706d017bd7fff876229397ba21065b8173 i40e: Enforce software interrupt during busy-poll exit
-49e53c15f27d4c0fb8ce73d5aaf2a1fde5c32b61 ice: Remove newlines in NL_SET_ERR_MSG_MOD
-8ab6a161fded64772a7bcf0745dc13f3cfb04c97 idpf: fix kernel panic on unknown packet types
 
---===============1498356181382873201==--
+--===============5642144844346338681==--
