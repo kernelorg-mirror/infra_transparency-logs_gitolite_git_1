@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 23 Mar 2024 20:39:30 -0000
-Message-Id: <171122637006.28445.2932339806610045403@gitolite.kernel.org>
+Date: Sat, 23 Mar 2024 20:41:39 -0000
+Message-Id: <171122649936.30874.17096607303424472718@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/kprobes-v2
-    old: 34fa85a52f1ebc62d71fde88481853629427ca70
-    new: f432730dfeb0d756cb66d323fdbaaf01125a06be
+    old: f432730dfeb0d756cb66d323fdbaaf01125a06be
+    new: 7b2113beecffccb1c5acd5651c1ad061fbfbf9be
     log: |
-         f432730dfeb0d756cb66d323fdbaaf01125a06be arch/riscv: Enable kprobes when CONFIG_MODULES=n
+         7b2113beecffccb1c5acd5651c1ad061fbfbf9be arch/riscv: Enable kprobes when CONFIG_MODULES=n
          
