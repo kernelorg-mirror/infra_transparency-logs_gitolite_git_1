@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9035907623156482252=="
+Content-Type: multipart/mixed; boundary="===============2389470277590915028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 24 Mar 2024 10:28:38 -0000
-Message-Id: <171127611863.30694.8591029223775900767@gitolite.kernel.org>
+Date: Sun, 24 Mar 2024 10:28:51 -0000
+Message-Id: <171127613161.30868.2712041091743276965@gitolite.kernel.org>
 
---===============9035907623156482252==
+--===============2389470277590915028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 00453419575d6b4f5ce0f370da9421cf5253f103
     new: bfa8f18691ed2e978e4dd51190569c434f93e268
     log: revlist-00453419575d-bfa8f18691ed.txt
 
---===============9035907623156482252==
+--===============2389470277590915028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -330,4 +330,4 @@ ff9c18e435b042596c9d48badac7488e3fa76a55 Merge tag 'ceph-for-6.9-rc1' of https:/
 e3111d9c3f7250309f451cfbf55845a74e692d41 Merge tag 'block-6.9-20240322' of git://git.kernel.dk/linux
 bfa8f18691ed2e978e4dd51190569c434f93e268 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============9035907623156482252==--
+--===============2389470277590915028==--
