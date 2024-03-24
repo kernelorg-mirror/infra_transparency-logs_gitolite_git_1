@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4148332762408480084=="
+Content-Type: multipart/mixed; boundary="===============4287135591141942679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 24 Mar 2024 00:25:47 -0000
-Message-Id: <171123994732.28348.5140242134884204064@gitolite.kernel.org>
+Date: Sun, 24 Mar 2024 00:29:21 -0000
+Message-Id: <171124016198.29630.2344383082867212293@gitolite.kernel.org>
 
---===============4148332762408480084==
+--===============4287135591141942679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: bfa8f18691ed2e978e4dd51190569c434f93e268
-    new: 70293240c5ce675a67bfc48f419b093023b862b3
-    log: revlist-bfa8f18691ed-70293240c5ce.txt
+  - ref: refs/heads/testing
+    old: 0770814d7718a9d205684ca44e0523c2e87abbda
+    new: 03c80a19e739f5bd428be04dccff54a075585dc8
+    log: revlist-0770814d7718-03c80a19e739.txt
 
---===============4148332762408480084==
+--===============4287135591141942679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfa8f18691ed-70293240c5ce.txt
+Content-Disposition: attachment; filename=revlist-0770814d7718-03c80a19e739.txt
 
 bf3159c0ef1fd2bc999e3a4910b1c610949ae333 clocksource/drivers/imx: Fix -Wunused-but-set-variable warning
 f253c9a1aa3360bd6d61407dbfc6ca002855caa3 dt-bindings: timer: exynos4210-mct: Add google,gs101-mct compatible
@@ -39,44 +39,39 @@ b34b9547cee41575a4fddf390f615570759dc999 clocksource/drivers/arm_global_timer: F
 9256cec7b4f3293c11585326401325b1f81670e1 clocksource/drivers/arm_global_timer: Remove stray tab
 97454a65d56b240013ed8d396427b85e34384238 clocksource: arm_global_timer: fix non-kernel-doc comment
 ec64db6955c5ad7e8fd03f7a52f8df84f943a9b8 dt-bindings: timer: add Ralink SoCs system tick counter
-154c56d80b8f64da92f10d94531edcd070b1af72 ARM: 9334/1: mm: init: remove misuse of kernel-doc comment
-daa559570d4b81e98e5a77a5c0f2a88879a9f245 ARM: 9349/1: unwind: Add missing "Call trace:" line
-169f9102f9198b04afffa6164372a4ba4070f412 ARM: 9350/1: fault: Implement copy_from_kernel_nofault_allowed()
-8f09b8b4fa58e99cbfd9a650b31d65cdbd8e4276 ARM: 9351/1: fault: Add "cut here" line for prefetch aborts
-c8c178e0aef1eb16c267500f702675a46ab2aace ARM: 9353/1: remove unneeded entry for CONFIG_FRAME_POINTER
 f31c204850f9d93906b5ac8c203b2066524ff245 clocksource/drivers/arm_global_timer: Make gt_target_rate unsigned long
 e651f2fae33634175fae956d896277cf916f5d09 clocksource/drivers/arm_global_timer: Guard against division by zero
 755350bcfb4ac8cbbb62bd7ee6be8271d4b2a88a clocksource/drivers/arm_global_timer: Simplify prescaler register access
-b9920fdd5a751df129808e7fa512e9928223ee05 ARM: 9352/1: iwmmxt: Remove support for PJ4/PJ4B cores
 c819dbd078321f948101ef7a19f1e171164bb3cf dt-bindings: timer: Add support for cadence TTC PWM
-b36e78b216e632d90138751e4ff80044de303656 ARM: 9354/1: ptrace: Use bitfield helpers
-0c66c6f4e21cb22220cbd8821c5c73fc157d20dc ARM: 9359/1: flush: check if the folio is reserved for no-mapping addresses
 fb13b11d53875e28e7fbf0c26b288e4ea676aa9f entry: Respect changes to system call number by trace_sys_enter()
 8248ca30ef89f9cc74ace62ae1b9a22b5f16736c clocksource/drivers/timer-riscv: Clear timer interrupt on timer initialization
-78cb0945f7141961781f815168f6873ad2b7ed29 powerpc: Handle error in mark_rodata_ro() and mark_initmem_nx()
-56a34d799bfa53064e7b8bd354aacd176aeaecc8 kexec/kdump: make struct crash_mem available without CONFIG_CRASH_DUMP
-33f2cc0a2e90f7177c49559b434191b02efd0cd5 powerpc/kexec: split CONFIG_KEXEC_FILE and CONFIG_CRASH_DUMP
-5c4233cc0920cc90787aafe950b90f6c57a35b88 powerpc/kdump: Split KEXEC_CORE and CRASH_DUMP dependency
 86c54c846e126d6f7cbfacefa0cfeaed6f67207b Merge tag 'timers-v6.9-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
 9eec61df55c51415409c7cc47e9a1c8de94a0522 irqchip/renesas-rzg2l: Flush posted write in irq_eoi()
 7cb6362c63df233172eaecddaf9ce2ce2f769112 irqchip/renesas-rzg2l: Rename rzg2l_tint_eoi()
 b4b5cd61a6fdd92ede0dc39f0850a182affd1323 irqchip/renesas-rzg2l: Rename rzg2l_irq_eoi()
 853a6030303f8a8fa54929b68e5665d9b21aa405 irqchip/renesas-rzg2l: Prevent spurious interrupts when setting trigger type
-77fcc34769c8a0a228af32c52ba7d3ef64690c0d ubsan: Disable signed integer overflow sanitizer on GCC < 8
-c4ca2276f18ee638e4bb156126e6e1bf5e09f28e arch/Kconfig: eliminate needless UTF-8 character in Kconfig help
-acd80cdcee17eb770fcb2b0dc659b78f369d8c01 Revert "kunit: memcpy: Split slow memcpy tests into MEMCPY_SLOW_KUNIT_TEST"
 dce0919c83c325ac9dec5bc8838d5de6d32c01b1 irqchip/renesas-rzg2l: Do not set TIEN and TINT source at the same time
 f55acb1e44f3d4bf1ca7926d777895a67d4ec606 timers/migration: Fix endless timer requeue after idle interrupts
 03877039863be021a19fda307136657bb6d61f75 timers: Fix removed self-IPI on global timer's enqueue in nohz_full
-b42b3ae1699e071b2bf04b0d499b7479334465a3 Merge branches 'misc' and 'fixes' into for-linus
-d8e45f2929b94099913eb66c3ebb18b5063e9421 overflow: Change DEFINE_FLEX to take __counted_by member
-231dc3f0c936db142ef3fa922f1ab751dd532d70 lkdtm/bugs: Improve warning message for compilers without counted_by support
-b71871395cf3a0ca7c0a7d79b4faa584ac872809 Merge tag 'hardening-v6.9-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-02fb638bed9e5d62ab4f8d78f968b3e36e935c48 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
-484193fecd2b6349a6fd1554d306aec646ae1a6a Merge tag 'powerpc-6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 976b029d06607f98f4156d8690d447ea8ed61c84 Merge tag 'core-entry-2024-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1a39193137e8dc35707990d8b28ea4211ca9c105 Merge tag 'irq-urgent-2024-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 00164f477f065a0faaed7f2ca8f1c724c99b6fe1 Merge tag 'timers-core-2024-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 70293240c5ce675a67bfc48f419b093023b862b3 Merge tag 'timers-urgent-2024-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a792c9b18a5d95fe14b41f68765eddcdf69c93aa xtensa: remove redundant flush_dcache_page and ARCH_IMPLEMENTS_FLUSH_DCACHE_PAGE macros
+bde63150b6954f5e5c2097319ce5ac67547f033c dm vdo: use kernel byteswapping routines instead of GCC ones
+1b1a9111ad428b72cffe2f2f3a039ae84c8b9840 drm/xe: Fix END redefinition
+b07da5b8f633bd145f7104a40ad2434ec505ca1c Revert "sh: Handle calling csum_partial with misaligned data"
+5719f8ff010ac56ffcd09a84bcf5a08ea2520e1b mean_and_variance: Drop always failing tests
+06592c207d4c9175c6fa0076a72b59805439d210 ext4: implement filesystem specific alloc_inode in unit test
+a1a7c96ebd604c006dd5515ff930ee18ff146c4a x86/cpu: Ensure that CPU info updates are propagated on UP
+195593fdc59fef763d0e52c100ee4dc3f650f450 x86/topology: Dont evaluate logical IDs during early boot
+4be23b923a689298b176c6ebef3b155e7e8f3ad3 x86/topology: Handle the !APIC case gracefully
+9e9ef141d5af63e8a1487a8c6d437fbba1db152c x86/mpparse: Register APIC address only once
+7945fa1ae7888d68330edf7392a84d8d0b6105f2 mm: vmalloc: Bail out early in find_vmap_area() if vmap is not init
+3ef658516f720db057f41de45977c6348f2ede49 lib: checksum: Add some corner cases to IPv6 checksum tests
+9522e000b70e4c640df6a97981bc1622edfb5ab9 carry tests for parisc64 targets
+38e57722e4cf775d6958d67b943781288649c8e3 Merge branch 'uio' into testing
+26df46c21930be618db0b6e4a5170d9d25a62659 Merge branch 'nios2' into testing
+03c80a19e739f5bd428be04dccff54a075585dc8 Merge branch 'kunit-v2' into testing
 
---===============4148332762408480084==--
+--===============4287135591141942679==--
