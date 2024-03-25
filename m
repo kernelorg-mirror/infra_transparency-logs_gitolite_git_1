@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3627909303906819600=="
+Content-Type: multipart/mixed; boundary="===============4874429136902003882=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 25 Mar 2024 00:56:34 -0000
-Message-Id: <171132819476.14396.7355078245617592162@gitolite.kernel.org>
+Date: Mon, 25 Mar 2024 00:57:01 -0000
+Message-Id: <171132822106.14657.11418622343874480254@gitolite.kernel.org>
 
---===============3627909303906819600==
+--===============4874429136902003882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: a1bafc3109d713ed83f73d61ba5cb1e6fd80fdbc
+  - ref: refs/heads/fixes
+    old: e8f897f4afef0031fe618a8e94127a0934896aba
     new: 77720dfe2cf3562fd6578b66f3988bc90a0e2ee1
-    log: revlist-a1bafc3109d7-77720dfe2cf3.txt
-  - ref: refs/tags/v6.9-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9bd5def24522bfec169de38754165379b4f8d6f5
+    log: revlist-e8f897f4afef-77720dfe2cf3.txt
 
---===============3627909303906819600==
+--===============4874429136902003882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1bafc3109d7-77720dfe2cf3.txt
+Content-Disposition: attachment; filename=revlist-e8f897f4afef-77720dfe2cf3.txt
 
 e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
 195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
@@ -1054,4 +1051,4 @@ ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git
 39765f062e60acf969bc1c246e4534666104a07e erofs: drop experimental warning for FSDAX
 77720dfe2cf3562fd6578b66f3988bc90a0e2ee1 MAINTAINERS: erofs: add myself as reviewer
 
---===============3627909303906819600==--
+--===============4874429136902003882==--
