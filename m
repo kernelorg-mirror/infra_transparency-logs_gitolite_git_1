@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0315880268683042007=="
+Content-Type: multipart/mixed; boundary="===============0666118940476465482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 25 Mar 2024 14:29:33 -0000
-Message-Id: <171137697381.2158.10373760478022024794@gitolite.kernel.org>
+Date: Mon, 25 Mar 2024 14:29:43 -0000
+Message-Id: <171137698309.2258.71871655426161181@gitolite.kernel.org>
 
---===============0315880268683042007==
+--===============0666118940476465482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 98a975ffdafac1ab4c21ab85ce18591d1a22a273
-    new: 58f34ce675d4685526ab07dfe414bfc7396c721e
-    log: revlist-98a975ffdafa-58f34ce675d4.txt
+  - ref: refs/heads/m68k-queue
+    old: 5802dbf4bea3ed396039915878cbbebd8a519551
+    new: 76e31b512159822f44b2fa8c8335c204004f19be
+    log: revlist-5802dbf4bea3-76e31b512159.txt
 
---===============0315880268683042007==
+--===============0666118940476465482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98a975ffdafa-58f34ce675d4.txt
+Content-Disposition: attachment; filename=revlist-5802dbf4bea3-76e31b512159.txt
 
-720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
 195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
 f095fefacdd35b4ea97dc6d88d054f2749a73d07 ptp: Move from simple ida to xarray
 379b97bbf02feecae5ce870bc0c67e3d723e30f5 selftests/bpf: Add kprobe multi triggering benchmarks
@@ -1049,6 +1047,8 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-58f34ce675d4685526ab07dfe414bfc7396c721e Merge tag 'v6.9-rc1'
+acfd3bc4d40e987d8bfbacd47f4f135bd04ee599 m68k: atari: usb: Add ISP1160 USB host controller support
+604300ab70f9c9b1b45b7a57e26b299a78ccbfc9 m68k: atari: Update Kconfig.bus help text
+76e31b512159822f44b2fa8c8335c204004f19be m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0315880268683042007==--
+--===============0666118940476465482==--
