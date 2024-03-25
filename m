@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4891956615365124770=="
+Content-Type: multipart/mixed; boundary="===============7314763676729379735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 25 Mar 2024 00:43:39 -0000
-Message-Id: <171132741914.4447.14688866325550674666@gitolite.kernel.org>
+Date: Mon, 25 Mar 2024 00:46:58 -0000
+Message-Id: <171132761834.7377.3504196951177852086@gitolite.kernel.org>
 
---===============4891956615365124770==
+--===============7314763676729379735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/kselftest-seccomp-benchmark-timeout
-    old: b9d8bfe7319ebb30369e67ebc02b9751bac561ec
-    new: 43ba4f5c9d7921c9e73493a6991bd440ba102473
-    log: revlist-b9d8bfe7319e-43ba4f5c9d79.txt
+  - ref: refs/heads/kselftest-ftrace-ktap-verbose
+    old: 0fe9a8710accc8364b6d02b592ceb0a6d0d8b63d
+    new: a3e184b5a1d8dbdcf8ecba23afcee816ecfc3efb
+    log: revlist-0fe9a8710acc-a3e184b5a1d8.txt
 
---===============4891956615365124770==
+--===============7314763676729379735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9d8bfe7319e-43ba4f5c9d79.txt
+Content-Disposition: attachment; filename=revlist-0fe9a8710acc-a3e184b5a1d8.txt
 
-e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
 195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
 f095fefacdd35b4ea97dc6d88d054f2749a73d07 ptp: Move from simple ida to xarray
 379b97bbf02feecae5ce870bc0c67e3d723e30f5 selftests/bpf: Add kprobe multi triggering benchmarks
@@ -1048,7 +1047,8 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-f31234f5becdac54ce2ba2a974f03abcd3211420 EDITME: cover title for b4/kselftest-seccomp-benchmark-timeout
-43ba4f5c9d7921c9e73493a6991bd440ba102473 selftests/seccomp: Try to fit runtime of benchmark into timeout
+6b5f63f48a5889d5b09a77fa1b5c921f1ea7887b tracing/selftests: Verbosity improvements to KTAP output
+a8f646bfa3497ea4226c048dfcca348ad1637702 tracing/selftests: Support log output when generating KTAP output
+a3e184b5a1d8dbdcf8ecba23afcee816ecfc3efb tracing/selftests: Default to verbose mode when running in kselftest
 
---===============4891956615365124770==--
+--===============7314763676729379735==--
