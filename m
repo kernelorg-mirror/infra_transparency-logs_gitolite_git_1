@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9012771665533196518=="
+Content-Type: multipart/mixed; boundary="===============6339128351593900620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 25 Mar 2024 13:17:09 -0000
-Message-Id: <171137262947.12682.17007001164851567772@gitolite.kernel.org>
+Date: Mon, 25 Mar 2024 13:17:31 -0000
+Message-Id: <171137265117.12904.18446555012971358922@gitolite.kernel.org>
 
---===============9012771665533196518==
+--===============6339128351593900620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,39 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: faf3b8014c357d71c7a9414302e217a1dd1679af
-    new: d10566c8de970ec391406459b8c6013dd068af68
-    log: revlist-faf3b8014c35-d10566c8de97.txt
+  - ref: refs/heads/fixes
+    old: 4af59a8df5ea930038cd3355e822f5eedf4accc1
+    new: 03749309909935070253accab314288d332a204d
+    log: revlist-4af59a8df5ea-037493099099.txt
+  - ref: refs/tags/v6.9-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 9bd5def24522bfec169de38754165379b4f8d6f5
 
---===============9012771665533196518==
+--===============6339128351593900620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-faf3b8014c35-d10566c8de97.txt
+Content-Disposition: attachment; filename=revlist-4af59a8df5ea-037493099099.txt
 
+f095fefacdd35b4ea97dc6d88d054f2749a73d07 ptp: Move from simple ida to xarray
+379b97bbf02feecae5ce870bc0c67e3d723e30f5 selftests/bpf: Add kprobe multi triggering benchmarks
+86833aec447939a886a13bbdbdf21c9628c5c8c5 Merge tag 'x86-entry-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d6170e4aaf86424c24ce06e355b4573daa891b17 bpf: hardcode BPF_PROG_PACK_SIZE to 2MB * num_possible_nodes()
+66c8473135c62f478301a0e5b3012f203562dfa6 bpf: move sleepable flag from bpf_prog_aux to bpf_prog
+bff4b74625fea851f9dd61e747a162d2f6b3317e Revert "dm: use queue_limits_set"
+d8941ce52b708cfd520994e65760a2fa6a646dfb Merge tag 'ras_core_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+742582acec1e894b80815ab379e1c9d347a0406b Merge tag 'x86_cpu_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+bfdb395a7cde12d83a623949ed029b0ab38d765b Merge tag 'x86_mtrr_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+2edfd1046f555db6456514bc8ffe0847537e54f4 Merge tag 'x86_cache_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+38b334fc767e44816be087b3ec5d84b1438b735f Merge tag 'x86_sev_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+1f75619a721d5149d9a947f2177d3cffc473fbb7 Merge tag 'x86_misc_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+5f20e6ab1f65aaaaae248e6946d5cb6d039e7de8 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
+b0402403e54ae9eb94ce1cbb53c7def776e97426 Merge tag 'edac_updates_for_v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+a5b1a017cb76e4898dd62fcb97e8aee6a63b33b5 Merge tag 'locking-core-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+89c572e2f30c4555da59c4d66dff62f30fb057fd Merge tag 'sched-core-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+73f0d1d7b4abb4a46bae1a0d8caf66e23d1138d0 Merge tag 'x86-asm-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d69ad12c786f0a4593c48c0658043aa4a5116b09 Merge tag 'x86-build-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fcc196579aa1fc167d6778948bff69fae6116737 Merge tag 'x86-cleanups-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 685d98211273f60e38a6d361b62d7016c545297e Merge tag 'x86-core-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 555b68419000b4d406c2f3b62972e149ad780535 Merge tag 'x86_mm_for_6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 855684c7d938c2442f07eabc154e7532b4c1fbf9 Merge tag 'x86_tdx_for_6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1029,26 +1051,7 @@ ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 0cdfe5b0bf295c0dee97436a8ed13336933a0211 mmc: core: Initialize mmc_blk_ioc_data
 cf55a7acd1ed38afe43bba1c8a0935b51d1dc014 mmc: core: Avoid negative index with array access
-02554314d9b34f6f435a4c24a831c4094112ba66 mmc: core: Remove unused of_gpio.h
-c6f9371bf3ce03acbc82b4e268c8ebdae76dc563 mmc: mtk-sd: Remove unused of_gpio.h
-627601ca3f2a535a12798605c93a71006c64cc2b mmc: sdhci-s3c: Replace deprecated of_get_named_gpio()
-a60cea2cad52d21e7baef8fca6660c8bdafda0dc mmc: sdhci-sprd: Remove unused of_gpio.h
-2040653a2f2f7146f998389b63acf7520fa44fd4 mmc: dw_mmc-hi3798mv200: Remove unneeded assignment
-e285d3694b5283154a5a80c0c0e29ef85c6fea93 mmc: dw_mmc-hi3798cv200: Remove unneeded assignment
-07e7e8bd991401e3b4ced183053c973363b8fee8 mmc: core: Convert sprintf/snprintf to sysfs_emit
 f9e2a5b00a35f2c064dc679808bc8db5cc779ed6 mmc: sdhci-omap: re-tuning is needed after a pm transition to support emmc HS200 mode
 03749309909935070253accab314288d332a204d sdhci-of-dwcmshc: disable PM runtime in dwcmshc_remove()
-dfc5c661439f73104c06b1b4977544823532b911 mmc: sdhci_am654: Add tuning algorithm for delay chain
-6d45bde08d6090bc97a308ebaf0b5f48f66a54b2 mmc: sdhci_am654: Write ITAPDLY for DDR52 timing
-8318411cdfd02e56e75c94e4cc56daaadd0e021e mmc: sdhci_am654: Add OTAP/ITAP delay enable
-8e20ec109105bd9b09fec715713a0be0d512a84e mmc: sdhci_am654: Add ITAPDLYSEL in sdhci_j721e_4bit_set_clock
-22ab573bce1b79e7e6c4bd467f2a677769b94f6d mmc: sdhci_am654: Fix ITAPDLY for HS400 timing
-f6320680e996010983563e12323737fd09be9caa mmc: sdhci_am654: Fix itapdly/otapdly array type
-0ba26123ae97971ffa9d907e40c864078ef8b13c mmc: sdhci_am654: Update comments in sdhci_am654_set_clock
-222d00bc629c55064f9c03df5c384550be55deec mmc: cqhci: Add cqhci set_tran_desc() callback
-425bd4a186fc3d3323a3956eb77a1ae21f6e7060 mmc: sdhci-of-dwcmshc: Implement SDHCI CQE support
-db44805e8968ea2597e6f67a4fff90bdf5c55876 mmc: davinci: Don't strip remove function when driver is builtin
-56880fe03a44cdf57ff468952932cc81a32ac4db dt-bindings: mmc: fsl-imx-esdhc: add NXP S32G3 support
-d10566c8de970ec391406459b8c6013dd068af68 Merge branch 'fixes' into next
 
---===============9012771665533196518==--
+--===============6339128351593900620==--
