@@ -1,57 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============1427509429085331865=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 25 Mar 2024 18:10:22 -0000
-Message-Id: <171139022290.11962.18061786832565592768@gitolite.kernel.org>
-
---===============1427509429085331865==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 25 Mar 2024 18:17:47 -0000
+Message-Id: <171139066798.16238.17762145214798398980@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/master
     old: 4cece764965020c22cff7665b18a012006359095
-    new: f37e76abd614b68987abc8e5c22d986013349771
+    new: 928a87efa42302a23bb9554be081a28058495f22
     log: |
-         ef25725b7f8aaffd7756974d3246ec44fae0a5cf staging: vc04_services: changen strncpy() to strscpy_pad()
-         f37e76abd614b68987abc8e5c22d986013349771 staging: vc04_services: fix information leak in create_component()
+         c95346ac918c5badf51b9a7ac58a26d3bd5bb224 gfs2: Fix invalid metadata access in punch_hole
+         203a6763ab699da0568fd2b76303d03bb121abd4 Revert "crypto: pkcs7 - remove sha1 support"
+         5a7e89d3315d1be86aff8a8bf849023cda6547f7 crypto: iaa - Fix nr_cpus < nr_iaa case
+         174fdc93a241af54772ae3e745ec719e9f6cebfc Merge tag 'v6.9-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+         928a87efa42302a23bb9554be081a28058495f22 Merge tag 'gfs2-v6.8-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
          
-
---===============1427509429085331865==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711390221 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1711390220-281711f629e278e6187cdb9b1284c4c1d367057a
-
-4cece764965020c22cff7665b18a012006359095 f37e76abd614b68987abc8e5c22d986013349771 refs/heads/staging-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYBvg0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R1sP/1vF5bfLNJv8UDg7wr1T
-+sy2FnkRUM7F5hEiyj3MKAj8S3jHHA3GYVMAVbgugSW66hpmWlLO1FgPo9m1vGE3
-nYgCJpPExE+UHkoIX5AxeayvVQZG4Xpj3hEzLaFD8hjXPGpJMNf/YM2Ynt+Z1rC4
-DEvcfdhBC8JqrcQEuNU7mGby1+B8MgAPDvqV8rI05C6FlJjteKkCBE62Uk2pCjtg
-xZpAoqUgCwCp72gi+izyyIzgU2lpHwzQECf/mUyZQCD2OuYr2EIYaWNx0ST4x3of
-CEvcInmPfbCWxShRU/OO5BkOecwO+ne9kQGunbu67v/SlNddiiLGzzlt6eZBLsaU
-EX2f/kKFLc9lwx977wx44F0t5MCZeWtXE9xMANt4za1KVbiI99KaX7bSkFcUUOlW
-x3ScgULJ7z+KL7wpH6lNwDeieixtKGPm4AiVbPoaFjet5q1w9RWaf4eqq1/IpttI
-hWEkIQW0oeNgibk4y+uAy6We+IaMIPw7Q94+UU0XADaSnPW7K9+L5hwAlB4r2VkK
-Ewjjtpl7b0EWaq5TO79NI05WYu13EbmIQm5R1cYs60RTvT0GGn6t9Fu5vowRLV+M
-Sp27GKYnFD9Kgxdd2vATGedZHwNXqo0Y3IcQzalcWT7mzZ8jpUdJvGJKFva2UDmc
-omRI2d8c4Rg0gA3i48KyyP5b
-=rXxu
------END PGP SIGNATURE-----
-
---===============1427509429085331865==--
