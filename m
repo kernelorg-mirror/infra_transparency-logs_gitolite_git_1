@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1711949521035570787=="
+Content-Type: multipart/mixed; boundary="===============3246867974769800680=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Mon, 25 Mar 2024 09:50:41 -0000
-Message-Id: <171136024125.16868.4132625881618146602@gitolite.kernel.org>
+Date: Mon, 25 Mar 2024 09:50:48 -0000
+Message-Id: <171136024840.17007.8113572762470939608@gitolite.kernel.org>
 
---===============1711949521035570787==
+--===============3246867974769800680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
 user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: 5d9e12972259cd86ae9c3fc0d5338b15831b9929
+  - ref: refs/heads/review-andy
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
     new: 4cece764965020c22cff7665b18a012006359095
-    log: revlist-5d9e12972259-4cece7649650.txt
+    log: revlist-6613476e225e-4cece7649650.txt
 
---===============1711949521035570787==
+--===============3246867974769800680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d9e12972259-4cece7649650.txt
+Content-Disposition: attachment; filename=revlist-6613476e225e-4cece7649650.txt
 
-8b6d307f4391c20cfd76bbb15f8b3784d36e0755 net/netlink: Add getsockopt support for NETLINK_LISTEN_ALL_NSID
-76839e2f1fded42382ac7bad215cd9e9c293e97d net/packet: Add getsockopt support for PACKET_COPY_THRESH
-84e95149bd341705f0eca6a7fcb955c548805002 nfp: flower: handle acti_netdevs allocation failure
 eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
 720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
@@ -143,6 +140,9 @@ a13a806dfb8a21e57f4e9777cafb547e51c97bbd Merge patch series "Support Andes PMU e
 cef59d1ea7170ec753182302645a0191c8aa3382 io_uring: clean rings on NO_MMAP alloc fail
 54c180e73ffa3e17a8289fa531279eeb2034b69f of: Move all FDT reserved-memory handling into of_reserved_mem.c
 532a0c57d7ff75e8f07d4e25cba4184989e2a241 Revert "x86/bugs: Use fixed addressing for VERW operand"
+07d03559ed28e514c022e7ffd1e43705d48dee5e auxdisplay: cfag12864bfb: Convert to platform remove callback returning void
+9ea02f7cc39d484d16e8a14f3713fefcd33407c0 auxdisplay: hd44780: Convert to platform remove callback returning void
+5d9e12972259cd86ae9c3fc0d5338b15831b9929 auxdisplay: img-ascii-lcd: Convert to platform remove callback returning void
 9e2ab4b18ebd46813fc3459207335af4d368e323 ASoC: rockchip: i2s-tdm: Fix inaccurate sampling rates
 0e33cf955f07e3991e45109cb3e29fbc9ca51d06 Merge tag 'rfds-for-linus-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 23fb6bc2696119391ec3a92ccaffe50e567c515e ASoC: soc-core.c: Skip dummy codec when adding platforms
@@ -1051,4 +1051,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============1711949521035570787==--
+--===============3246867974769800680==--
