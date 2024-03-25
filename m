@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0393026751840571742=="
+Content-Type: multipart/mixed; boundary="===============8669683073665963706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Mon, 25 Mar 2024 09:50:54 -0000
-Message-Id: <171136025447.17096.11728191751814939828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Mon, 25 Mar 2024 09:51:10 -0000
+Message-Id: <171136027089.17259.12749774701280622389@gitolite.kernel.org>
 
---===============0393026751840571742==
+--===============8669683073665963706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: 4cece764965020c22cff7665b18a012006359095
     log: revlist-6613476e225e-4cece7649650.txt
 
---===============0393026751840571742==
+--===============8669683073665963706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============0393026751840571742==--
+--===============8669683073665963706==--
