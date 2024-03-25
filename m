@@ -1,94 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7576619862729944392=="
+Content-Type: multipart/mixed; boundary="===============7937794219967572079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Mon, 25 Mar 2024 10:42:12 -0000
-Message-Id: <171136333241.24631.13930063917570668853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
+Date: Mon, 25 Mar 2024 10:45:52 -0000
+Message-Id: <171136355241.27657.1962237738570126220@gitolite.kernel.org>
 
---===============7576619862729944392==
+--===============7937794219967572079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/wireless/wireless-testing
+user: kvalo
 changes:
-  - ref: refs/heads/next/qcom-pinctrl
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
-    new: 4cece764965020c22cff7665b18a012006359095
-    log: revlist-6613476e225e-4cece7649650.txt
+  - ref: refs/heads/master
+    old: 1436e6e3dfb4b0858270761492fbe6bd68b26376
+    new: 01bd8b0f4ac1f73dca52af622100d69f492959cd
+    log: revlist-1436e6e3dfb4-01bd8b0f4ac1.txt
 
---===============7576619862729944392==
+--===============7937794219967572079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1436e6e3dfb4-01bd8b0f4ac1.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1711363330 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1711363330-ba074022d5d4ebe38285738c43ce9e82d5c4aca0
-
-6613476e225e090cc9aad49be7fa504e290dd33d 4cece764965020c22cff7665b18a012006359095 refs/heads/next/qcom-pinctrl
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYBVQIQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD177pD/wN+PC2UtnRhyhX82wqGeRL+Tr9QNwWcZ+p
-ngGM5aogH6lRYODTJ+R4LcXGrAR/KS2kK1QM0L7Pb6QBSumJPxcdV9OeGHI+jnow
-b9xfWym/B8PSkSIpcKlFgnZBJG6IC8NlRIzpP4FQaFTieCua9ddd6rKmrVj5x38E
-HFFDQh4c0NK0BdXUw6r4Maqw13qccmt63d6Lee4pN1sA3Bjhlawg2tLgojMXuLJ1
-/7PdgdL7gOnarqR2eC3Y/i+cgXw9u8M1HrsI0U1/y0UcjykYLBR4OUEoLzYtiueP
-xFJcj8QMA4puByaKiXdK+Me1dauCjBNYx682qhHfAIcWOAG+W1yucG0uqweF7Jf2
-8DX3bCM9ezt6cOO5PmRIJjUI1D3OCCuHUMcyFrfl9xMd+7L5dQje4/sE60LZ/zfR
-x7EVemFVjPWt5ZmB10ALI0XcHYK6Dc3WrKbvVmAGCKiegtvnDd6tM80/7TPTQE+E
-cUNWuZ9rYhvli8OhvGRQ4Fs/+hGFJKAT2/H25UQAxvLam2Mgt1QXuyBlQVBK+FNE
-gZ2qlcUnO3YuslFZ/J1FrDnlXjHV1/QuHi1FwirlxZB8cHa1XbIrI/VoK/n0+QV+
-8vI/+WTSFtXfmRjw/gvsYgm8uohW1F9y4YX/ylS07/TVWDSQ4gWxSgHeIO7MuLq/
-+a7l9BB8Sg==
-=agwG
------END PGP SIGNATURE-----
-
---===============7576619862729944392==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6613476e225e-4cece7649650.txt
-
-eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
-720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
-195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
-f095fefacdd35b4ea97dc6d88d054f2749a73d07 ptp: Move from simple ida to xarray
-379b97bbf02feecae5ce870bc0c67e3d723e30f5 selftests/bpf: Add kprobe multi triggering benchmarks
-86833aec447939a886a13bbdbdf21c9628c5c8c5 Merge tag 'x86-entry-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d6170e4aaf86424c24ce06e355b4573daa891b17 bpf: hardcode BPF_PROG_PACK_SIZE to 2MB * num_possible_nodes()
-66c8473135c62f478301a0e5b3012f203562dfa6 bpf: move sleepable flag from bpf_prog_aux to bpf_prog
-bff4b74625fea851f9dd61e747a162d2f6b3317e Revert "dm: use queue_limits_set"
-d8941ce52b708cfd520994e65760a2fa6a646dfb Merge tag 'ras_core_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-742582acec1e894b80815ab379e1c9d347a0406b Merge tag 'x86_cpu_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-bfdb395a7cde12d83a623949ed029b0ab38d765b Merge tag 'x86_mtrr_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2edfd1046f555db6456514bc8ffe0847537e54f4 Merge tag 'x86_cache_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-38b334fc767e44816be087b3ec5d84b1438b735f Merge tag 'x86_sev_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-1f75619a721d5149d9a947f2177d3cffc473fbb7 Merge tag 'x86_misc_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-5f20e6ab1f65aaaaae248e6946d5cb6d039e7de8 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
-b0402403e54ae9eb94ce1cbb53c7def776e97426 Merge tag 'edac_updates_for_v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-a5b1a017cb76e4898dd62fcb97e8aee6a63b33b5 Merge tag 'locking-core-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-89c572e2f30c4555da59c4d66dff62f30fb057fd Merge tag 'sched-core-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-73f0d1d7b4abb4a46bae1a0d8caf66e23d1138d0 Merge tag 'x86-asm-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d69ad12c786f0a4593c48c0658043aa4a5116b09 Merge tag 'x86-build-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fcc196579aa1fc167d6778948bff69fae6116737 Merge tag 'x86-cleanups-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-685d98211273f60e38a6d361b62d7016c545297e Merge tag 'x86-core-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-555b68419000b4d406c2f3b62972e149ad780535 Merge tag 'x86_mm_for_6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-855684c7d938c2442f07eabc154e7532b4c1fbf9 Merge tag 'x86_tdx_for_6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-dc5e0141ff19439bfe8d54fce6d6b834bdf1efe0 nexthop: Only parse NHA_OP_FLAGS for get messages that require it
-262a68aa46f88d9b42f1569f893d53f71ddf7e52 nexthop: Only parse NHA_OP_FLAGS for dump messages that require it
-d8a21070b6e168d3800c2962a574f16020dd2951 nexthop: Fix out-of-bounds access during attribute validation
-e006858f1a1c6e8ba8aeff67e9b15700f70174da nexthop: Fix splat with CONFIG_DEBUG_PREEMPT=y
-a318d3d54c44f9916cd77ad272083d4a4d68899b Merge branch 'nexthop-fix-two-nexthop-group-statistics-issues'
-ed1f164038b50c5864aa85389f3ffd456f050cca Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 410779d8d81fcfb45f839238dc6505af5357f5b8 mshyperv: Introduce hv_get_hypervisor_version function
 2a07badb654a64e204fd260e04731b643c63cb2e hv: vmbus: Convert to platform remove callback returning void
 5614c8c487f6af627614dd2efca038e4afe0c6d7 ksmbd: replace generic_fillattr with vfs_getattr
@@ -170,6 +107,12 @@ a13a806dfb8a21e57f4e9777cafb547e51c97bbd Merge patch series "Support Andes PMU e
 0a3737db8479b77f95f4bfda8e71b03c697eb56a io_uring/rw: return IOU_ISSUE_SKIP_COMPLETE for multishot retry
 cef59d1ea7170ec753182302645a0191c8aa3382 io_uring: clean rings on NO_MMAP alloc fail
 54c180e73ffa3e17a8289fa531279eeb2034b69f of: Move all FDT reserved-memory handling into of_reserved_mem.c
+f1dfcee2eae98abbdb677b872f091b1589a9cfed wifi: rtw89: Correct EHT TX rate on 20MHz connection
+789c17185fb0f39560496c2beab9b57ce1d0cbe7 ssb: Fix potential NULL pointer dereference in ssb_device_uevent()
+316f790ebcf94bdf59f794b7cdea4068dc676d4c wifi: brcmfmac: pcie: handle randbuf allocation failure
+370e6231dfbdffa1507685c92f6fd137fbdcdc49 bcma: convert to platform remove callback returning void
+086ba26d55ddf0d49a76d88164dd6611448b53de dt-bindings: net: wireless: brcm,bcm4329-fmac: Add CYW43439 DT binding
+e27b02e23a701e5761f1d6028643e1203a1c56de ssb: drop use of non-existing CONFIG_SSB_DEBUG symbol
 532a0c57d7ff75e8f07d4e25cba4184989e2a241 Revert "x86/bugs: Use fixed addressing for VERW operand"
 07d03559ed28e514c022e7ffd1e43705d48dee5e auxdisplay: cfag12864bfb: Convert to platform remove callback returning void
 9ea02f7cc39d484d16e8a14f3713fefcd33407c0 auxdisplay: hd44780: Convert to platform remove callback returning void
@@ -507,6 +450,23 @@ cdbfa228a5537dfd7cbd8532701b0c8af70c97b8 bcachefs: time_stats: add larger units
 273960b8f374b95ebd234a99607b7887f515c791 bcachefs: time_stats: split stats-with-quantiles into a separate structure
 be28368b2ccb328b207c9f66c35bb088d91e6a03 bcachefs: time_stats: shrink time_stat_buffer for better alignment
 bf5e3a30f777b6e763f6a46c10e1250c20237e97 Revert "blk-lib: check for kill signal"
+cec60af1972d830dc837da76b472cf9cce7945cf wifi: rtw89: coex: fix configuration for shared antenna for 8922A
+6c700b35a5340020e8fa9925871f7e1ed365ab92 ssb: use "break" on default case to prevent warning
+4e430ca430325f4324a424695e3f3481b2fb7a5b wifi: rtw89: coex: Add WiFi role info format version 8
+bd120fa34f77f9af4b3affaddb19fc4448e20ed4 wifi: rtw89: coex: Add antenna setting function for RTL8922A
+69cf60501642b4b84e800f4b3dc851d0a6e5ca8c wifi: rtw89: coex: Add TDMA version 7
+a7d6f8d0c6d23e5c03ee7df88725e23597c8b6de wifi: rtw89: coex: Add TDMA slot parameter setting version 7
+89d58c931b595ef8393a07edd51b05ad8b2c1e9c wifi: rtw89: 8922a: update chip parameter for coex
+f95d9045b987c890ba7bebdd04ea9713f5a00d01 wifi: rtw89: 8922a: add 8922ae to Makefile and Kconfig
+ff88b74882669e8b1931730b2401dbc2bece1355 wifi: rtw88: Shared module for rtw8723x devices
+da2abdcdbbb8c498fcfb2bc88ba56028bccdbc8a wifi: rtw88: Debug output for rtw8723x EFUSE
+9bb762b3a957faffb4ba596165525521c07ad2eb wifi: rtw88: Add definitions for 8703b chip
+23c21068c2969b79ee7578b5394bed9972f290dc wifi: rtw88: Add rtw8703b.h
+61a486bcd7820ddaa4adc110bfa96f0b3ec3fd8c wifi: rtw88: Add rtw8703b.c
+b0ec946c543ba4217c1f70d2f8075e3d1c2cebcf wifi: rtw88: Add rtw8703b_tables.h
+c75065b1ebfc450249e13805f8fdd275e461cefe wifi: rtw88: Add rtw8703b_tables.c
+1f30e95b1646c1c5b0fa82b6762634505a81bb87 wifi: rtw88: Reset 8703b firmware before download
+64be03575f9e9772ebdebc7f067d533348602083 wifi: rtw88: SDIO device driver for RTL8723CS
 04d9d1fc428ac9f581d55118d67e0cb546701feb tcp: Fix refcnt handling in __inet_hash_connect().
 0aec3847d044273733285dcff90afda89ad461d2 afs: Revert "afs: Hide silly-rename files from userspace"
 83505bde45e347f1451d007b3ddd7f06cee4c269 afs: Don't cache preferred address
@@ -768,6 +728,7 @@ b1afefa62ca9d77c8b1d386c3512fb4f21cb7db1 tracing: Use strcmp() in __assign_str()
 7397175cb7b48f7a3fc699083aa46f1234904c7e spi: lm70llp: fix links in doc and comments
 5574aaa303e6bfabd7a2296707658ae9e2e9a9fc Merge tag 'sound-fix-6.9-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 4ae3dc83b047d51485cce1a72be277a110d77c91 Merge tag 'irq-urgent-2024-03-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+c76936a7e1da6b755185ada84acb2c2b92fdd30c wifi: mwifiex: Add missing MODULE_FIRMWARE() for SD8801
 0a7b0acecea273c8816f4f5b0e189989470404cf Merge tag 'vfs-6.9-rc1.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 23dfd914d2bfc4c9938b0084dffd7105de231d98 modpost: fix null pointer dereference
 5bd249aec71d75f0088357e4aba27fde0610f823 spi: Merge up v6.8 release
@@ -926,6 +887,7 @@ a23c05fd76cf4ad27e0c74f7a93e7b089e94a55c tools/rtla: Add -U/--user-load option t
 14d811467f6592aa0e685730e66b5f9123287468 ALSA: control: Fix unannotated kfree() cleanup
 7e5d4236d5462e2fef75fad6101fccee47051c4a Merge tag 'i2c-host-6.9-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
 b7b73f6d4f7bca79fef9e31a054e24e31a65f22a i2c: muxes: pca954x: Allow sharing reset GPIO
+10b890ee21a5ef7f6444506974648648f98f9ba9 MAINTAINERS: wifi: add git tree for Realtek WiFi drivers
 e593a4a2d3ad5e1a4be338b38ed6ba7c70642d88 dt-bindings: i2c: qcom,i2c-cci: Fix OV7251 'data-lanes' entries
 a88e0f936ba9a301c78f6eacfd38737d003c130b octeontx2: Detect the mbox up or down message via register
 cbf2f24939a5dafce6de4dd4422e543ce8f610cf octeontx2-pf: Wait till detach_resources msg is complete
@@ -1007,6 +969,10 @@ f411e25005928a6fd3e390a01059e1dabf3aec2b Merge tag 'linux-can-fixes-for-6.9-2024
 bfb1ad3c6aab2341ace13222ac0a78e5b4c239c8 firewire: core: add memo about the caller of show functions for device attributes
 9f2347842b526cbc2655068591fb0166362d2999 Merge tag 'asoc-fix-v6.9-merge-window' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 f99c5f563c174a49ea1cbf4754539b05cfde40c4 Merge tag 'nf-24-03-21' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+6db5c15c8b6a4154415041165365acbe7ef623b3 wifi: b43: Convert sprintf/snprintf to sysfs_emit
+48be5774b21bd23b426d981b740b053b6c7ea278 wifi: ti: Convert sprintf/snprintf to sysfs_emit
+2d5cde1143eca31c72547dfd589702c6b4a7e684 wifi: mt76: mt7915: workaround too long expansion sparse warnings
+61cdb09ff760dd32439cde1200a1a8bd208807cd wifi: qtnfmac: allocate dummy net_device dynamically
 879e288692c899d52fcc01ae73121a771ea10d18 Merge tag 'bitmap-for-6.9' of https://github.com/norov/linux
 1b3e2513730942f87dca2d436b797d17de1befef Merge tag 'exfat-for-6.9-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 7b65c810a1198b91ed6bdc49ddb470978affd122 Merge tag 'for-6.9-part2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
@@ -1081,5 +1047,8 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
+987bed9979c813e819816ba9588fdcd558a5535b Merge remote-tracking branch 'wireless/main'
+895330ea47498e9b85dbf4e23369296c64324eeb Merge remote-tracking branch 'wireless-next/main'
+01bd8b0f4ac1f73dca52af622100d69f492959cd Add localversion to identify builds from this tree
 
---===============7576619862729944392==--
+--===============7937794219967572079==--
