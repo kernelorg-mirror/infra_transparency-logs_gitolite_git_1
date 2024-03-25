@@ -1,36 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============6339128351593900620=="
+Content-Type: multipart/mixed; boundary="===============8974021727482816503=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 25 Mar 2024 13:17:31 -0000
-Message-Id: <171137265117.12904.18446555012971358922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 25 Mar 2024 13:19:14 -0000
+Message-Id: <171137275499.13592.7978253251594733339@gitolite.kernel.org>
 
---===============6339128351593900620==
+--===============8974021727482816503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 4af59a8df5ea930038cd3355e822f5eedf4accc1
-    new: 03749309909935070253accab314288d332a204d
-    log: revlist-4af59a8df5ea-037493099099.txt
-  - ref: refs/tags/v6.9-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9bd5def24522bfec169de38754165379b4f8d6f5
+  - ref: refs/heads/debugfs_cleanup
+    old: d52687b617d2f0d9709ddfe812df75aa25fe202f
+    new: 1d94fd50ee285da3b350288d999ebb2421bae5ab
+    log: revlist-d52687b617d2-1d94fd50ee28.txt
 
---===============6339128351593900620==
+--===============8974021727482816503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4af59a8df5ea-037493099099.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f095fefacdd35b4ea97dc6d88d054f2749a73d07 ptp: Move from simple ida to xarray
-379b97bbf02feecae5ce870bc0c67e3d723e30f5 selftests/bpf: Add kprobe multi triggering benchmarks
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711372752 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1711372750-9e3456383761aab8f6d4e94c4e3d6a8a542cd9b0
+
+d52687b617d2f0d9709ddfe812df75aa25fe202f 1d94fd50ee285da3b350288d999ebb2421bae5ab refs/heads/debugfs_cleanup
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYBedAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dIQP/iay2mXWMFCXMTzS2M5p
+N6ekAI0TSB2Y4h+6NOKkto2DBGDiNS/YQooiGOE/En9E/RlRLYca20jMXgmf5mbr
+4Ztbd14rwUeHRs7ZNMIFDe5rFt2D0pCedRqCg3qwhGN9Yhl8JLfHfk3BUgW7iaHV
+AkJOp6A/6m29NpiRa2Z8pqobY83HLZz1Pp0u7SxpXkCATg8vSUHH4VyELWGjuDuy
+27Iehz9QL6EgFgpx1WDnfHY9sTsjbDLYs9mZdms9Qegl+gKIMHCf7a6gU4OcYfU4
+80ggc66DLsCwEYzqe2r3x2NKOOeMITzae1SvATlnUQ0RcGfN0ixuknHW1CWhOcgv
+fk7EAZjrnAfwn1Q/Jn1eZpTYWPh+N29uaEtUnUq/JjissGFD6SklgVAId4MX4FBQ
+rrZJDSjszmuXQFSH0IYbLPMNVi0YsTS2LhtRHpdISnm+sgm7ObkW7FHEYXoB0k8y
+/9SjY0lOVfoVjRnhO/c9kVMGlibnSmX4vnSX97FY4OIoeDV0LQQlYsU/gAPLjvQt
+646h3eXhqmZbw9r2Cmz9raxBSjlSezfuYL2aImPuf8JzMdz2mKQfSMhKSJnDcC3/
+cdP75Iedicm6X/YdoMkqFvaKZSXNCLw/iurvEphL/ZEcuZzoE74gkyexWvfM63PX
+zcYOBVvl821W3eo5GnX9pNWs
+=utUt
+-----END PGP SIGNATURE-----
+
+--===============8974021727482816503==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d52687b617d2-1d94fd50ee28.txt
+
 86833aec447939a886a13bbdbdf21c9628c5c8c5 Merge tag 'x86-entry-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d6170e4aaf86424c24ce06e355b4573daa891b17 bpf: hardcode BPF_PROG_PACK_SIZE to 2MB * num_possible_nodes()
 66c8473135c62f478301a0e5b3012f203562dfa6 bpf: move sleepable flag from bpf_prog_aux to bpf_prog
@@ -1049,9 +1075,11 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-0cdfe5b0bf295c0dee97436a8ed13336933a0211 mmc: core: Initialize mmc_blk_ioc_data
-cf55a7acd1ed38afe43bba1c8a0935b51d1dc014 mmc: core: Avoid negative index with array access
-f9e2a5b00a35f2c064dc679808bc8db5cc779ed6 mmc: sdhci-omap: re-tuning is needed after a pm transition to support emmc HS200 mode
-03749309909935070253accab314288d332a204d sdhci-of-dwcmshc: disable PM runtime in dwcmshc_remove()
+53245f31781a310c07e402af799b1280c5c80643 soundwire: sysfs: move sdw_slave_dev_attr_group into the existing list of groups
+11e0c358ef33270e911056f40afa67b745de9dc0 soundwire: sysfs: cleanup the logic for creating the dp0 sysfs attributes
+71515ab8f9b7018b43b39b6995f4a1147be3e6ab soundwire: sysfs: have the driver core handle the creation of the device groups
+7d5c2ce52cabd46f5b2f7bc28b7719191625bbff soundwire: sysfs: remove sdw_slave_sysfs_init()
+0de618c39d164c7329c50973c72a9cc73d2ec6c1 soundwire: sysfs: remove unneeded ATTRIBUTE_GROUPS() comments
+1d94fd50ee285da3b350288d999ebb2421bae5ab driver core: remove devm_device_add_groups()
 
---===============6339128351593900620==--
+--===============8974021727482816503==--
