@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 25 Mar 2024 10:12:57 -0000
-Message-Id: <171136157729.1411.13397384117058982144@gitolite.kernel.org>
+Date: Mon, 25 Mar 2024 10:14:09 -0000
+Message-Id: <171136164995.1950.8187990349209679053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,18 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 02ad32afaf75848d3b1d1c20485432c633ce23c6
-    new: b18dd00555168e777023da58a92296813ae215c6
+    old: b18dd00555168e777023da58a92296813ae215c6
+    new: c36cf9f1fe3cd6b8b9347a7778eddcd73712c13a
     log: |
-         3cb4a4827596abc82e55b80364f509d0fefc3051 efi/libstub: fix efi_random_alloc() to allocate memory at alloc_min or higher address
-         cefcd4fe2e3aaf792c14c9e56dab89e3d7a65d02 x86/efistub: Call mixed mode boot services on the firmware's stack
-         df7ecce842b846a04d087ba85fdb79a90e26a1b0 x86/efistub: Don't clear BSS twice in mixed mode
-         62b71cd73d41ddac6b1760402bbe8c4932e23531 efi: fix panic in kdump kernel
-         ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-         4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-         b18dd00555168e777023da58a92296813ae215c6 Merge branch 'linus'
+         bceb221d76d3148c47b8271ff6e9be16c53bf7c8 Merge branch into tip/master: 'locking/core'
+         c24044047dfac7f8a788ffe0ff87599c046e533b Merge branch into tip/master: 'perf/core'
+         1b08b5e8f94ac972d39efcb1157858f7e8635bc6 Merge branch into tip/master: 'sched/core'
+         5a866e0fdeafbd812e33bd6c3e2bf25bcc7658c7 Merge branch into tip/master: 'x86/asm'
+         b91ab510e4fbcf8a9dc9c9e9fdb6136067085b65 Merge branch into tip/master: 'x86/boot'
+         df3c03d2dd85829cd5197d402d30fc312c14e544 Merge branch into tip/master: 'x86/build'
+         f79df026f1ac413f5f20a63997c9cd9ce833f106 Merge branch into tip/master: 'x86/cleanups'
+         c751e143fcbad2b3d39b17cba46366e732402f74 Merge branch into tip/master: 'x86/cpu'
+         56d98e4c43802464d401ac2b2fdf0c0812b2d571 Merge branch into tip/master: 'x86/fpu'
+         0e76bee8dae6229f73c835a9a6a03beb261c96eb Merge branch into tip/master: 'x86/percpu'
+         c36cf9f1fe3cd6b8b9347a7778eddcd73712c13a Merge branch into tip/master: 'x86/shstk'
          
-  - ref: refs/tags/v6.9-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9bd5def24522bfec169de38754165379b4f8d6f5
