@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Mon, 25 Mar 2024 02:00:56 -0000
-Message-Id: <171133205617.2116.12653669943769882891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Mon, 25 Mar 2024 02:32:18 -0000
+Message-Id: <171133393849.23760.7418842825279517067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/probes/for-next
-    old: 366f7afd3de31d3ce2f4cbff97c6c23b6aa6bcdf
-    new: 43c2d273f829f75b7abeaaae1586baf035c45f35
+  - ref: refs/heads/for-kernelci
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: f7496450528bfe9350c5a62d180b4926b96f571b
     log: |
-         a4ad62bd5f6291ac6010c0b7377d9c1d169b1f07 tracing/probes: support '%pd' type for print struct dentry's name
-         1ed6a9fd250c401f9403818fe08dfd6877a84c9b tracing/probes: support '%pD' type for print struct file's name
-         2ab5af9f856574b1f13eb669375affe76e7cc29f Documentation: tracing: add new type '%pd' and '%pD' for kprobe
-         ed948e40bf2e9569f9cfca569b1c14f0da21421a selftests/ftrace: add kprobe test cases for VFS type "%pd" and "%pD"
-         43c2d273f829f75b7abeaaae1586baf035c45f35 selftests/ftrace: add fprobe test cases for VFS type "%pd" and "%pD"
+         f7496450528bfe9350c5a62d180b4926b96f571b platform/chrome: wilco_ec: use sysfs_emit() instead of sprintf()
+         
+  - ref: refs/heads/for-next
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: f7496450528bfe9350c5a62d180b4926b96f571b
+    log: |
+         f7496450528bfe9350c5a62d180b4926b96f571b platform/chrome: wilco_ec: use sysfs_emit() instead of sprintf()
          
