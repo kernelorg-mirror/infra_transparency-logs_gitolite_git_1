@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7809268303397774120=="
+Content-Type: multipart/mixed; boundary="===============0686644438596706954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 25 Mar 2024 09:51:24 -0000
-Message-Id: <171136028437.17473.16373541832426097449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 25 Mar 2024 09:52:20 -0000
+Message-Id: <171136034016.17858.7030278168383712428@gitolite.kernel.org>
 
---===============7809268303397774120==
+--===============0686644438596706954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
   - ref: refs/heads/review-andy
-    old: 92fc925f838660eec25862a7fa7e6ef79d22f3ea
+    old: ebe7f3393784857c487bf82f86813a8b1384e278
     new: 4cece764965020c22cff7665b18a012006359095
-    log: revlist-92fc925f8386-4cece7649650.txt
+    log: revlist-ebe7f3393784-4cece7649650.txt
 
---===============7809268303397774120==
+--===============0686644438596706954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92fc925f8386-4cece7649650.txt
+Content-Disposition: attachment; filename=revlist-ebe7f3393784-4cece7649650.txt
 
 eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
 720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============7809268303397774120==--
+--===============0686644438596706954==--
