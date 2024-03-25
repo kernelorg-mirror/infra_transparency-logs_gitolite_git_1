@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2978926200091961617=="
+Content-Type: multipart/mixed; boundary="===============1427509429085331865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 25 Mar 2024 18:09:42 -0000
-Message-Id: <171139018241.10008.15386040561681037214@gitolite.kernel.org>
+Date: Mon, 25 Mar 2024 18:10:22 -0000
+Message-Id: <171139022290.11962.18061786832565592768@gitolite.kernel.org>
 
---===============2978926200091961617==
+--===============1427509429085331865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: c61be40b3b36eb0895f42c5ac717d5f7fb473878
-    new: d9c60badccc183eb971e0941bb86f9475d4b9551
+  - ref: refs/heads/staging-linus
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: f37e76abd614b68987abc8e5c22d986013349771
     log: |
-         d81060d69e3be189cd7ad105e9a9b237573285ba staging: vc04_services: Remove unused function declarations
-         57c0b41bbe7b43c519f5824a964a406d1e7f60a3 staging: vc04_services: vchiq_arm: Use appropriate dev_* log helpers
-         ff6643de78d12d9174d574b25794f8ab4b8c5ac6 staging: vc04_services: Do not log error on kzalloc()
-         bf1894900b53f9047eb9b96c89717a9a22329f6a staging: vc04_services: Implement vchiq_bus .remove
-         d9c60badccc183eb971e0941bb86f9475d4b9551 staging: vc04_services: vchiq_core: Stop kthreads on shutdown
+         ef25725b7f8aaffd7756974d3246ec44fae0a5cf staging: vc04_services: changen strncpy() to strscpy_pad()
+         f37e76abd614b68987abc8e5c22d986013349771 staging: vc04_services: fix information leak in create_component()
          
 
---===============2978926200091961617==
+--===============1427509429085331865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711390180 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711390221 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1711390179-4e47cc3ca63220600041b0d4c6700756b22e6301
+nonce 1711390220-281711f629e278e6187cdb9b1284c4c1d367057a
 
-c61be40b3b36eb0895f42c5ac717d5f7fb473878 d9c60badccc183eb971e0941bb86f9475d4b9551 refs/heads/staging-testing
+4cece764965020c22cff7665b18a012006359095 f37e76abd614b68987abc8e5c22d986013349771 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYBveQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Sq0P/16/lq8YBvI7WMxmMQpR
-SrUIOP3kdWci5bDA2nWCiu1dVAdh1tVkMQZ6vNMvUN68Raxmy5mVi4CGzeIzzAGN
-PU3svfFQixlCWGVlwbD13P00S9aD7U9Z7UNm0hgWctef8XinxJ/8F+wSF3XCtqVp
-nqLE3cvPUjyGS47Wznvqs7WpEzD2HsV6NCn0lB0g8FgBxeUtnrUuIBuoVHxavH1t
-Gq/GSNl4zZ5wGywpJp2cHTFiTRo5n3BbqZOWzlcKVB/THNQa+wMTUwc1D7ATGu/N
-Ta93FyRui1IAzwY4rSiJr9dO7pFUzI1rNxYVY75shQ3S6Z7LNllasY+jy5XVCVik
-FQy40OL2geQKUGvGVmj6TB0rhOVV/+ORY/faH7XekM4ZIeVj5o16E6dBDTTpdRPx
-Pjdw9vvMkbT2CxsmZOeM3/sQyjSS/ePdQPUmFE9reqz0fhYsh4LueNqKSaUQd711
-ynxITAYm7XQglFGt/WbTtlkwJjcQql65QuzKh7En4CYvyJvR60tzJNyx3RaPnQw5
-5J0MMZFlUgg/PJrWKbwYVLiAJdo77AX/lTCzAfAwLI8UmKON0k5YVgbrw1lQCiXJ
-xj2ZvHnD5Q8Eqm8Tq0sUcRNgqJW87WH6iHCRLV0E/v2PcFjQN31wwDljzXlIHLcn
-4iOa48x+4kL13kQawPx9c3R4
-=/Qz7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYBvg0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R1sP/1vF5bfLNJv8UDg7wr1T
++sy2FnkRUM7F5hEiyj3MKAj8S3jHHA3GYVMAVbgugSW66hpmWlLO1FgPo9m1vGE3
+nYgCJpPExE+UHkoIX5AxeayvVQZG4Xpj3hEzLaFD8hjXPGpJMNf/YM2Ynt+Z1rC4
+DEvcfdhBC8JqrcQEuNU7mGby1+B8MgAPDvqV8rI05C6FlJjteKkCBE62Uk2pCjtg
+xZpAoqUgCwCp72gi+izyyIzgU2lpHwzQECf/mUyZQCD2OuYr2EIYaWNx0ST4x3of
+CEvcInmPfbCWxShRU/OO5BkOecwO+ne9kQGunbu67v/SlNddiiLGzzlt6eZBLsaU
+EX2f/kKFLc9lwx977wx44F0t5MCZeWtXE9xMANt4za1KVbiI99KaX7bSkFcUUOlW
+x3ScgULJ7z+KL7wpH6lNwDeieixtKGPm4AiVbPoaFjet5q1w9RWaf4eqq1/IpttI
+hWEkIQW0oeNgibk4y+uAy6We+IaMIPw7Q94+UU0XADaSnPW7K9+L5hwAlB4r2VkK
+Ewjjtpl7b0EWaq5TO79NI05WYu13EbmIQm5R1cYs60RTvT0GGn6t9Fu5vowRLV+M
+Sp27GKYnFD9Kgxdd2vATGedZHwNXqo0Y3IcQzalcWT7mzZ8jpUdJvGJKFva2UDmc
+omRI2d8c4Rg0gA3i48KyyP5b
+=rXxu
 -----END PGP SIGNATURE-----
 
---===============2978926200091961617==--
+--===============1427509429085331865==--
