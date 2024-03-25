@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2988206812651934291=="
+Content-Type: multipart/mixed; boundary="===============7785171435347149783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 25 Mar 2024 16:58:39 -0000
-Message-Id: <171138591905.18867.7595171116744570713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 25 Mar 2024 17:00:32 -0000
+Message-Id: <171138603218.21314.13986131553538091305@gitolite.kernel.org>
 
---===============2988206812651934291==
+--===============7785171435347149783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/kselftest-seccomp-benchmark-timeout
-    old: 877b8def9ef30056d7f59f35402e1ef15ce02e5c
-    new: 54fad527803a9b76b9ab0e1e81deb4b50bdf6a8b
-    log: revlist-877b8def9ef3-54fad527803a.txt
+  - ref: refs/heads/kvm-arm64-nvhe-sve-trap
+    old: ac070015a97ea6b60d1ecc3fb0f779e4e69dfd27
+    new: b1e48ea2fec53cdeaea75f5e45a7a965cca8f2f2
+    log: revlist-ac070015a97e-b1e48ea2fec5.txt
 
---===============2988206812651934291==
+--===============7785171435347149783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-877b8def9ef3-54fad527803a.txt
+Content-Disposition: attachment; filename=revlist-ac070015a97e-b1e48ea2fec5.txt
 
 e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
 195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
@@ -1048,7 +1048,7 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-b9f5af780969df0758aa6b68818605b6ca2cee33 EDITME: cover title for b4/kselftest-seccomp-benchmark-timeout
-54fad527803a9b76b9ab0e1e81deb4b50bdf6a8b selftests/seccomp: Try to fit runtime of benchmark into timeout
+7942dccc32339f60c0bb9d5d7852aaeb553a993b EDITME: cover title for kvm-arm64-nvhe-sve-trap
+b1e48ea2fec53cdeaea75f5e45a7a965cca8f2f2 KVM: arm64: Document why we trap SVE access from the host in nVHE
 
---===============2988206812651934291==--
+--===============7785171435347149783==--
