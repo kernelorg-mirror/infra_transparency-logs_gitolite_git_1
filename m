@@ -1,45 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============0778849390249786994=="
+Content-Type: multipart/mixed; boundary="===============0614986892154351834=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 25 Mar 2024 11:20:58 -0000
-Message-Id: <171136565801.22751.16824202515084545836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 25 Mar 2024 11:57:06 -0000
+Message-Id: <171136782625.15498.1276901414442998256@gitolite.kernel.org>
 
---===============0778849390249786994==
+--===============0614986892154351834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 2a353b1bdf3496af4e01538ec4ec559429da894f
-    new: 4e2b6e891aaed8a4dabf618aa8267f7fdbb5c69f
-    log: revlist-2a353b1bdf34-4e2b6e891aae.txt
+    old: 6ccf4fb6413692bee9656810df63f0786f94aa73
+    new: cc99e8c83fa921160ccd3ada943f1cbbb6064cd6
+    log: revlist-6ccf4fb64136-cc99e8c83fa9.txt
 
---===============0778849390249786994==
+--===============0614986892154351834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a353b1bdf34-4e2b6e891aae.txt
+Content-Disposition: attachment; filename=revlist-6ccf4fb64136-cc99e8c83fa9.txt
 
-6e5caafcfd3a1ccf0353ba657083cfd7f9fa1cd3 Merge branch 'x86/percpu' into x86/merge, to ease integration testing
-5d71c0138b7883c91a06afa7e6860269083e67ec Merge branch 'x86/urgent' into x86/merge, to resolve conflict and ease integration testing
-a082abeb1f5d83826577ea6994475eb9e78cdf3c Merge branch into tip/master: 'x86/merge'
-2ebea248f11d4107ea45021663e454e5ac280a7b Merge branch into tip/master: 'perf/urgent'
-09e1874162ff01afa082b291668db7177687c3e5 Merge branch into tip/master: 'WIP.fixes'
-eaecbaff83741630613d173786bcb5c9854afa9c Merge branch into tip/master: 'locking/core'
-08f16abfc7f30d482e5f9f458568c17862818077 Merge branch into tip/master: 'perf/core'
-361e735b590e40a30cd362490b243019b88034bf Merge branch into tip/master: 'sched/core'
-17423e7d117f373c79b94e9881ab37d5308bdcc8 Merge branch into tip/master: 'x86/asm'
-2a34a951b8f202449d145fa63e0e36d2caa8828d Merge branch into tip/master: 'x86/boot'
-e4fb364d983dc7585bfc13a0613cf50e9f7a60da Merge branch into tip/master: 'x86/build'
-b3699802d719b89a634e740d719cc49d3550c27b Merge branch into tip/master: 'x86/cleanups'
-19423ea7f1cdcab338728170bf415a69f074a8c8 Merge branch into tip/master: 'x86/cpu'
-7ec7b22147ed881251007dc79bb287de245e11c9 Merge branch into tip/master: 'x86/fpu'
-4e2b6e891aaed8a4dabf618aa8267f7fdbb5c69f Merge branch into tip/master: 'x86/shstk'
+a3e8beadc7e39fb269de8d974261cdb1bd056134 Drop f2fs-implement-iomap-operations.patch
+3a9f6660218881ba3ccc6d6b70c5a830b7a9bd54 Drop arch-powerpc-remove-linux-fb.h-from-backlight-code.patch
+203f9a3399f150f073c6210c0e29d975c4d07993 Drop arm64-dts-qcom-msm8998-drop-usb-phy-clock-index.patch
+4028107dbbb6bf4b88c929ae020434d71cb7d6f8 Drop arm64-dts-qcom-sc8280xp-update-ufs-phy-nodes.patch
+22282cbed13c65a64ae24eacc4eb0782e8003b1e Drop pci-aer-fix-rootport-attribute-paths-in-abi-docs.patch
+6daf3d092c4983ae001b4391a55f0e86756908ac Drop usb-phy-generic-get-the-vbus-supply.patch from older trees
+38cbad81bb2a7e199831e299187ee8ebd9db7085 Drop bpf-don-t-infer-ptr_to_ctx-for-programs-with-unnamed.patch
+ebff2591cd81f48184eaf855c41ca8b995f66904 Drop selftests-bpf-add-global-subprog-context-passing-tes.patch
+e30226ab4faa5320000ece9c17c40a9094661784 Drop selftests-bpf-convert-test_global_funcs-test-to-test.patch
+addf4f538906f09f855441cef7ed5a3a478a6e6c Drop iommu-arm-smmu-v3-check-that-the-rid-domain-is-s1-in.patch
+4540c564c8ca70b64630eaddc5696f116119a91a Drop libbpf-apply-map_set_def_max_entries-for-inner_maps-.patch from 5.15
+90f93bdad4dc731542c704ac82e0b4df96828a22 Drop arm64-dts-qcom-msm8996-move-clock-cells-to-qmp-phy-c.patch
+4f95a38e5c08679e936a7f979fc5906c6e85dc30 Drop arm64-dts-qcom-msm8998-declare-vls-clamp-register-fo.patch
+cc99e8c83fa921160ccd3ada943f1cbbb6064cd6 Drop arm64-dts-qcom-msm8998-switch-usb-qmp-phy-to-new-sty.patch
 
---===============0778849390249786994==--
+--===============0614986892154351834==--
