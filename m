@@ -1,53 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============1443308348463318769=="
+Content-Type: multipart/mixed; boundary="===============4042852236424495164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 25 Mar 2024 06:34:28 -0000
-Message-Id: <171134846865.5283.93137931879654304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Mon, 25 Mar 2024 06:39:17 -0000
+Message-Id: <171134875761.21370.10984411416963380456@gitolite.kernel.org>
 
---===============1443308348463318769==
+--===============4042852236424495164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/tags/v6.9-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9bd5def24522bfec169de38754165379b4f8d6f5
+  - ref: refs/heads/pwm/for-next
+    old: 9eb05877dbee03064d3d3483cd6702f610d5a358
+    new: 35a122f66196dea6c188a96267fa1cee0734b017
+    log: revlist-9eb05877dbee-35a122f66196.txt
 
---===============1443308348463318769==
+--===============4042852236424495164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9eb05877dbee-35a122f66196.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711348467 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1711348466-72ac502b2f0206a39a83db7dfbd3e2c583640f99
+65d597539cc4591bd0f5c081c0625ec52580ff2c pwm: Ensure that pwm_chips are allocated using pwmchip_alloc()
+4cdada704e61289660ce134750328cf0f6c66651 dt-bindings: pwm: at91: Add sam9x7 compatible strings list
+a6d4d435a66b1d76ca46f96268c58febf46fa2a5 pwm: sti: Simplify probe function using devm functions
+4952f8138118f8d2f99a88390c436ef898bfcd3a pwm: sti: Improve error reporting using dev_err_probe()
+56f45c3acc1b55f720631a5f29a07b2191a342b9 pwm: sti: Drop member from driver data that only carries a constant
+3a069f9f8ee6035c58e16c2f6b47b67bae11d23b pwm: sti: Maintain all per-chip driver data in a single struct
+0d6fb6a9f8c0a8699f8f6d070f063217e7ab2f80 pwm: sti: Use devm_kcalloc() instead of calculating the size for devm_kzalloc()
+a857d8d8e45feb90fe3594431f9762152b12ce89 pwm: sti: Prefer local variable over pointer dereference
+31e3f5dd8f411e324413de89a3fc248a84f7e086 pwm: Give some sysfs related variables and functions better names
+49ea902e75a6723a5f298e5b590536206622ef57 pwm: Move contents of sysfs.c into core.c
+f34c0daed487275815d29f2186edfcdc3c08d868 pwm: Ensure a struct pwm has the same lifetime as its pwm_chip
+13b40f0e799c0a52a38814c47089b3a543c1ee61 pwm: Add a struct device to struct pwm_chip
+827a4b3e8552607adaa4b3373646b27daa16e11c pwm: Make pwmchip_[sg]et_drvdata() a wrapper around dev_set_drvdata()
+5d489323e24e7131d8f2f2367f84208f7414a06e pwm: Add more locking
+0394d42ddebbffdc42da129956daef82475935fe pwm: Add support for pwmchip devices for faster and easier userspace access
+1939b62755435af054fdc3d4cc8e241f38474f4a pwm: stm32: Add error messages in .probe()'s error paths
+6512901743a4c0d6f772f355879d15a81d16b951 pwm: stm32: Improve precision of calculation in .apply()
+8986612cd10e1f1f7349cc86853e8cd539e0f362 pwm: stm32: Fix for settings using period > UINT32_MAX
+35a122f66196dea6c188a96267fa1cee0734b017 pwm: stm32: Calculate prescaler with a division instead of a loop
 
-0000000000000000000000000000000000000000 9bd5def24522bfec169de38754165379b4f8d6f5 refs/tags/v6.9-rc1
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYBGvMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lC8P/0tx0/Fjl/bN8b5rNBAa
-L7nBR4XGNILeUl/OEzqB1qBPz1aIeCrsrUNFg6i37kVwOfRiDFpvVY17G4V5DBIc
-m07zP/tBkgzlrTcf5Ddae0sAMuaWGU0J+F0ynw08o/f/NVvmOCCysGWvO3jNjnaH
-dgLy61QsXNTzIjj3yIp3QaR+Xvq+AKmxclTdVGyS9rZgIEIXnBL49e36+/S4i2A3
-NE7iSDlu5FAkpqupAjewRaNKzaX3KBn0boVbA1z5LL+zFVgidL2nivZ4UOpoH4D2
-IQ9Ng6twcH1SF/Bx4wftuz3CpTUaLdKvu/0g04l00THtNUjO2v2YPnSB0Nw4WsSz
-9isUlIgb+eO512RMojS506nCdByNTAGly8WzMq86Jrba7YAgsEpPF0ItEXHsJWUd
-exg2SSGy3ZHC6bM5Khy43ZLQFyUQYNl3OoqwFSF7ewwI1QtduZIjHyzyKD3K7NXb
-+xYP75bQWw9Ry9KTuqCX1EzA/QzWTwpuQuA1amHxcnliZtLINBKVyuWVUXcXRxE+
-CIpc1d4GO6qCWqg6cv2aqkGILFp90Z89ZqF4+VdD5ENzyUzn8lea6SrMHWSMDwV8
-qvC/knWoEgpcoff1ZMYdrm1VIWx/dW6wV24O7sSDYvLAnteJ71mDM91EseCI337u
-0BheC87lgT2OSjs1qfIXAPGl
-=79cf
------END PGP SIGNATURE-----
-
---===============1443308348463318769==--
+--===============4042852236424495164==--
