@@ -1,37 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============6477790049252283417=="
+Content-Type: multipart/mixed; boundary="===============4763450756698080511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 25 Mar 2024 17:43:49 -0000
-Message-Id: <171138862927.22754.5177002709845609771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 25 Mar 2024 17:43:57 -0000
+Message-Id: <171138863732.22865.8432171540805207308@gitolite.kernel.org>
 
---===============6477790049252283417==
+--===============4763450756698080511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 57172683aefffe9b399b253d8dfbae138eb96a36
+    old: 39dcb14e14ce8226dc714acb9d450f6f733316a1
     new: 4cece764965020c22cff7665b18a012006359095
-    log: revlist-57172683aeff-4cece7649650.txt
+    log: revlist-39dcb14e14ce-4cece7649650.txt
   - ref: refs/heads/for-next
-    old: 36cf2aca538c3160c2c142ed9bedf7a73362f3a2
-    new: aad6b35290f52639d3601063d33d9621c0948a04
+    old: 559bb25ef04bcba159b639fdc36de72f5849bf2f
+    new: cd290abbdab3fb4db403b6fc0ae4038b22268bee
     log: |
-         aad6b35290f52639d3601063d33d9621c0948a04 regmap: maple: Remove second semicolon
+         0f3b73eb1440d18d2236ac660d4aa76fd726bec7 regulator: dt-bindings: pca9450: add pca9451a support
+         5edeb7d312628961046eec9b26a7e72f44baf846 regulator: pca9450: add pca9451a support
+         0c5f77f4eaef8ed9fe752d21f40ac471dd511cfc dt-bindings: regulator: qcom,usb-vbus-regulator: Add PM7250B compatible
+         cd290abbdab3fb4db403b6fc0ae4038b22268bee add pmic pca9451a support
          
 
---===============6477790049252283417==
+--===============4763450756698080511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57172683aeff-4cece7649650.txt
+Content-Disposition: attachment; filename=revlist-39dcb14e14ce-4cece7649650.txt
 
+84e95149bd341705f0eca6a7fcb955c548805002 nfp: flower: handle acti_netdevs allocation failure
 eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
 720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
@@ -129,7 +133,6 @@ fb13b11d53875e28e7fbf0c26b288e4ea676aa9f entry: Respect changes to system call n
 b25b8f4b8ecef0f48c05f0c3572daeabefe16526 dm raid: fix false positive for requeue needed during reshape
 65e8fbde64520001abf1c8d0e573561b4746ef38 dm: call the resume method on internal suspend
 10eb0d3314c59dd0497282b33afabddf607b3050 ASoC: dt-bindings: cirrus,cs42l43: Fix 'gpio-ranges' schema
-e4ead3cdfd798092288f3a06b405cf98ded6fa10 regulator: core: Propagate the regulator state in case of exclusive get
 2ae0ab0143fcc06190713ed81a6486ed0ad3c861 spi: lpspi: Avoid potential use-after-free in probe()
 aa0162dc0dd95c3bf248e3c78068760094e8f64b spi: Restore delays for non-GPIO chip select
 b8e00bdf253e0f0f3a7c351463bdbca513b21900 Merge tag 'irq-for-riscv-02-23-24' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/tip/tip into for-next
@@ -1057,4 +1060,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============6477790049252283417==--
+--===============4763450756698080511==--
