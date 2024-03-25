@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8041330403247621832=="
+Content-Type: multipart/mixed; boundary="===============8232291836979571424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 25 Mar 2024 10:18:41 -0000
-Message-Id: <171136192148.5223.5194787824716209960@gitolite.kernel.org>
+Date: Mon, 25 Mar 2024 10:18:47 -0000
+Message-Id: <171136192777.5348.4669074256132395847@gitolite.kernel.org>
 
---===============8041330403247621832==
+--===============8232291836979571424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/scmi/fixes
-    old: 7f620d5b0b1dd7c7972cdf1b40b30552ac7bd325
-    new: b70c7996d4ffb2e02895132e8a79a37cee66504f
-    log: revlist-7f620d5b0b1d-b70c7996d4ff.txt
+  - ref: refs/heads/for-next/ffa/fixes
+    old: 63f2aef58cea7c96702182009471f589e10bbb8f
+    new: 1a4bd2b128fb5ca62e4d1c5ca298d3d06b9c1e8e
+    log: revlist-63f2aef58cea-1a4bd2b128fb.txt
 
---===============8041330403247621832==
+--===============8232291836979571424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f620d5b0b1d-b70c7996d4ff.txt
+Content-Disposition: attachment; filename=revlist-63f2aef58cea-1a4bd2b128fb.txt
 
+02a7873dd7731377a6e61213cd69a7738a1066bf MAINTAINERS: change the maintainer for hpilo driver
 71cfc131f60ad1e50b8feada8908cd0e3efb7048 vmw_balloon: change maintainership
 832c17b8b658aa88f237d7025906334cb96bbdcb char: xillybus: Convert to platform remove callback returning void
 adf4e1055522f62e2c23926c9c66d49c70dfcd15 parport: amiga: Convert to platform remove callback returning void
@@ -1048,7 +1049,6 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-17f243adf1653bdbaeec767e3e74c9ad089f470b firmware: arm_scmi: Fix wrong fastchannel initialization
-b70c7996d4ffb2e02895132e8a79a37cee66504f firmware: arm_scmi: Make raw debugfs entries non-seekable
+1a4bd2b128fb5ca62e4d1c5ca298d3d06b9c1e8e firmware: arm_ffa: Fix the partition ID check in ffa_notification_info_get()
 
---===============8041330403247621832==--
+--===============8232291836979571424==--
