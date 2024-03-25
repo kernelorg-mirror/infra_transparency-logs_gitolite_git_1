@@ -1,39 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============6273634581283189501=="
+Content-Type: multipart/mixed; boundary="===============3057858257190935674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 25 Mar 2024 14:34:42 -0000
-Message-Id: <171137728278.6230.16929285869707549308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 25 Mar 2024 14:34:59 -0000
+Message-Id: <171137729904.6449.1397651182811130965@gitolite.kernel.org>
 
---===============6273634581283189501==
+--===============3057858257190935674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 2f0dbb24f78a333433a2b875c0b76bf55c119cd4
-    new: 57172683aefffe9b399b253d8dfbae138eb96a36
+    old: a1f9fa6fcbb306b9f71523e36eeda81ddda5c8a8
+    new: 39dcb14e14ce8226dc714acb9d450f6f733316a1
     log: |
-         0ec74ad3c157bd4bcbcc8b294777733687e8cd2a regmap: rework ->max_register handling
-         bb92804ba2b6636e28db05f589a9a8ef62a07917 regmap: kunit: Add a test for ranges in combination with windows
-         57172683aefffe9b399b253d8dfbae138eb96a36 Merge remote-tracking branch 'regmap/for-6.8' into regmap-linus
+         39dcb14e14ce8226dc714acb9d450f6f733316a1 Merge remote-tracking branch 'regulator/for-6.8' into regulator-linus
          
   - ref: refs/heads/for-next
-    old: 62861ddcb27e356c6332b54d4a953e1b8c01fe73
-    new: 36cf2aca538c3160c2c142ed9bedf7a73362f3a2
-    log: revlist-62861ddcb27e-36cf2aca538c.txt
+    old: a1f9fa6fcbb306b9f71523e36eeda81ddda5c8a8
+    new: 559bb25ef04bcba159b639fdc36de72f5849bf2f
+    log: revlist-a1f9fa6fcbb3-559bb25ef04b.txt
 
---===============6273634581283189501==
+--===============3057858257190935674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-62861ddcb27e-36cf2aca538c.txt
+Content-Disposition: attachment; filename=revlist-a1f9fa6fcbb3-559bb25ef04b.txt
 
+720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
 195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
 f095fefacdd35b4ea97dc6d88d054f2749a73d07 ptp: Move from simple ida to xarray
@@ -129,7 +128,6 @@ fb13b11d53875e28e7fbf0c26b288e4ea676aa9f entry: Respect changes to system call n
 b25b8f4b8ecef0f48c05f0c3572daeabefe16526 dm raid: fix false positive for requeue needed during reshape
 65e8fbde64520001abf1c8d0e573561b4746ef38 dm: call the resume method on internal suspend
 10eb0d3314c59dd0497282b33afabddf607b3050 ASoC: dt-bindings: cirrus,cs42l43: Fix 'gpio-ranges' schema
-e4ead3cdfd798092288f3a06b405cf98ded6fa10 regulator: core: Propagate the regulator state in case of exclusive get
 2ae0ab0143fcc06190713ed81a6486ed0ad3c861 spi: lpspi: Avoid potential use-after-free in probe()
 aa0162dc0dd95c3bf248e3c78068760094e8f64b spi: Restore delays for non-GPIO chip select
 b8e00bdf253e0f0f3a7c351463bdbca513b21900 Merge tag 'irq-for-riscv-02-23-24' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/tip/tip into for-next
@@ -1056,7 +1054,7 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-57172683aefffe9b399b253d8dfbae138eb96a36 Merge remote-tracking branch 'regmap/for-6.8' into regmap-linus
-36cf2aca538c3160c2c142ed9bedf7a73362f3a2 Merge branch 'regmap-linus' into regmap-next
+39dcb14e14ce8226dc714acb9d450f6f733316a1 Merge remote-tracking branch 'regulator/for-6.8' into regulator-linus
+559bb25ef04bcba159b639fdc36de72f5849bf2f Merge branch 'regulator-linus' into regulator-next
 
---===============6273634581283189501==--
+--===============3057858257190935674==--
