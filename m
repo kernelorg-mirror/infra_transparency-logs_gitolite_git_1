@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Mon, 25 Mar 2024 00:09:53 -0000
-Message-Id: <171132539313.11733.18368296590468990385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 25 Mar 2024 00:25:33 -0000
+Message-Id: <171132633311.23507.11506221316781376082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/v6.9-firewire-mask-bus-reset-event-during-handling
+  - ref: refs/heads/for-6.10
     old: 0000000000000000000000000000000000000000
-    new: 7b295264bfb7e06853bbd22f19a975f06fba3a2b
+    new: 4cece764965020c22cff7665b18a012006359095
