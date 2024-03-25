@@ -1,56 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============8504212986998162232=="
+Content-Type: multipart/mixed; boundary="===============5473251803732612180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Mon, 25 Mar 2024 08:21:24 -0000
-Message-Id: <171135488487.31268.4341756842459309740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Mon, 25 Mar 2024 08:23:03 -0000
+Message-Id: <171135498394.31953.11855283879752338483@gitolite.kernel.org>
 
---===============8504212986998162232==
+--===============5473251803732612180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/b4/slab-memcg
-    old: bcb0730ce23866c1fe2a85fcbd004a88f6588552
-    new: 59546a21ff6ffc25b875db49766a200c1a05b175
-    log: revlist-bcb0730ce238-59546a21ff6f.txt
+  - ref: refs/heads/urgent
+    old: 2ce507f57ba9c78c080d4a050ebdc97263239de8
+    new: c1c8373f3e6b80f3c8df5b310432e2cad435fa6b
+    log: revlist-2ce507f57ba9-c1c8373f3e6b.txt
 
---===============8504212986998162232==
+--===============5473251803732612180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2ce507f57ba9-c1c8373f3e6b.txt
 
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1711354880 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1711354879-0f9664db90e21a3a2fc5ad33295123ff121170f7
-
-bcb0730ce23866c1fe2a85fcbd004a88f6588552 59546a21ff6ffc25b875db49766a200c1a05b175 refs/heads/b4/slab-memcg
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmYBNAAACgkQu+CwddJF
-iJq7Pgf+L/2IV8vaVmLyQWSUPpyxBfVpLvG/BgGQ6ui1rwoHs0i6K+Y8phfQ3Ypg
-NUOuU+No1k7/a+nvhi9syjnG0rgGkToerhFeCo1TaJ/gis3An5eZRlckT/EDr20i
-Bxaz9U63Rd0saSGX1KRKfdvwPab4BaRpYxQ1pdl4TldAgtlVCRBKVCQ51YjOpPbr
-KROxuEsBvI2NRPQWdtf3kekYDQ8FVki61c0x0F89SPXoELlHBrmgh7H/gp4oV2dH
-k+y12fjB1FxQvlDEWE4m+pZ89xKWnTndB+BKkqEyT5R+xBKxQ4v7IpyQQAq0c5Av
-0BB51C4LnzjJ/NVpTTnqd1Kvnhcuvw==
-=YR7D
------END PGP SIGNATURE-----
-
---===============8504212986998162232==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bcb0730ce238-59546a21ff6f.txt
-
+720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
 195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
 f095fefacdd35b4ea97dc6d88d054f2749a73d07 ptp: Move from simple ida to xarray
 379b97bbf02feecae5ce870bc0c67e3d723e30f5 selftests/bpf: Add kprobe multi triggering benchmarks
@@ -1072,8 +1049,6 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-f879419129571bee463eaf6263d1ff2d66573323 memcg_kmem hooks refactoring
-baedc0a9c33e8119a313095f632267bde3e50405 mm, slab: move memcg charging to post-alloc hook
-59546a21ff6ffc25b875db49766a200c1a05b175 mm, slab: move slab_memcg hooks to mm/memcontrol.c
+c1c8373f3e6b80f3c8df5b310432e2cad435fa6b x86/efistub: Add missing boot_params for mixed mode compat entry
 
---===============8504212986998162232==--
+--===============5473251803732612180==--
