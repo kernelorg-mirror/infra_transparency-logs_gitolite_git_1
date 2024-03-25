@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1250178905630934514=="
+Content-Type: multipart/mixed; boundary="===============3896990236036788149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 25 Mar 2024 09:45:03 -0000
-Message-Id: <171135990383.12845.698882584626175663@gitolite.kernel.org>
+Date: Mon, 25 Mar 2024 09:45:09 -0000
+Message-Id: <171135990928.12952.10239979142653752395@gitolite.kernel.org>
 
---===============1250178905630934514==
+--===============3896990236036788149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt64
-    old: 0791f541ff42f0ba7301f8caa7f3ab257284dc8f
+  - ref: refs/heads/next/soc
+    old: a3891621d4a0783ae178d6f2845517e3dd571dd4
     new: 4cece764965020c22cff7665b18a012006359095
-    log: revlist-0791f541ff42-4cece7649650.txt
+    log: revlist-a3891621d4a0-4cece7649650.txt
 
---===============1250178905630934514==
+--===============3896990236036788149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1711359902 +0100
+pusher krzk@kernel.org 1711359907 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1711359901-da4b7bfe7c7a03d714455cbaec300a6e09003ca4
+nonce 1711359907-7b1eac1d30271cc113a952dd3960deb387ad7301
 
-0791f541ff42f0ba7301f8caa7f3ab257284dc8f 4cece764965020c22cff7665b18a012006359095 refs/heads/next/dt64
+a3891621d4a0783ae178d6f2845517e3dd571dd4 4cece764965020c22cff7665b18a012006359095 refs/heads/next/soc
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYBR54QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD133VD/4itQXb3xigHMvhM2pTgPLYJuML9IPrCk9h
-N3vHKV+or4jamxrCxTkDGrJKKXew2vvJ5W9Uleyfw+0/440OPix7PlUhfyFQex9Y
-Y/aIwJbCLsEQklDqvPJ5khw5nro7PxVzYl9UifFAhkG39SBJY89jjVqpdoETokwU
-9d9xmVNWv7kgdJuuVsIx2rSppK+W0SMcKoF1jh4PcawbJ7lTThgfly2BFr/BShAJ
-QMr3Klf68VPaKMk63gkSZj9k2a3gm9Z4KX7KIAVvelcBIqe+LsXfiPeXzVwxrH38
-J2V4/Z+O/zlxd5DppQbU0H4IwsRIQopx5mvxHoOsigmtZGwk5EvSKNfXOcp8AD4S
-f1J19mympbmc+bSjSGr+EX0Ye83QrcAAJ2VoGsaKCO/nQez3fQWP7ZR2KuNdMO9A
-ryD8GKsTs7wF/e4/JR59i5RIFkPHcIUPoYlfTnK1w/sxXZf3TyeRYXeNbUzaJ1Ht
-FC4pFgG+Edl0FaN4JkNpfqLfA+o8ooQmhpobijvDAWi1M9QSV/TQKws5eDcWOY7A
-O7+JhtsjMmwHz5xZFQ6w2nzWd9CwxhtfViQj5B8vKcf9VerUUIRPX1U/3TlOzJ5y
-bNOoCcond0N0esCP2DlAnXmdDy3rFn/+AzAAi0ZeQrtzNJnEgWfbd1nXTojfWgLy
-t+XUinSxwg==
-=8maJ
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYBR6MQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD10sDEACME3dPMWFctCeUo8D2B5XxCPiW3voRxebd
+ExjLezyGWpiyKTlOc/s+99r9Qg7OT1JZwYEaD1zLsTciL4nR04o6Bv3pzaOEs/nX
+MayUrzDAIbHlIAqwtywEmL11XTo+qPHgg/ziLYSrrQp26qYrNTbTXbOrbWLk73Sm
+A6z7MPQQxs6+2E51k6m3FQqdGe9ZhU42QHTvNDrRTVxmwF8bZ8xI0aR2oJQz2brg
+szby/H5IAsotMKOnSO6aFAhpRnKG7vxNkMwWvZlZmxcaMWTJ6s+Eri6SKooN1aSH
+1BnBop4AnZ+0sYialozxOmWzDxLRU1TvezOc5ruS7CluVO6OkVIdsZlZgzQIW+c1
+F9D0442F2GErdcy2bK+9PeBhMBOn8xqw1M4RdtLWh+JE6s8dyLgX/viocl2a4tNN
+MB55G97WE1ohcpuq59XZwYC1Bd/vk5RCeMt/JXw2RCAHxfoUZTFRFiNUYTJR+AWa
+2fBpFGUwUSJ9hc1y1NhuGefyK7RTNOuss1YaJhFWzypaplPh8zm3zG1wpobonVxp
+csut+ZmxxfsoAwZJdThKfeBzNthPG657iW3RlgfXJDw6gh3c61Cnw+Hs0vuU4doM
+M2ZWvW4lYTpQ87r5hYjBGCkksA8Q8cAgqXHHTvibgcKeA+E20y+YrAy3zD22FDtp
+Y+gA3WyZSA==
+=NkuL
 -----END PGP SIGNATURE-----
 
---===============1250178905630934514==
+--===============3896990236036788149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0791f541ff42-4cece7649650.txt
+Content-Disposition: attachment; filename=revlist-a3891621d4a0-4cece7649650.txt
 
 eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
 720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1082,4 +1082,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============1250178905630934514==--
+--===============3896990236036788149==--
