@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 25 Mar 2024 20:23:48 -0000
-Message-Id: <171139822869.13659.14220483171724492248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 25 Mar 2024 20:25:08 -0000
+Message-Id: <171139830851.15769.7773229765855748545@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/kprobes-v3
-    old: 7daca0450ea62b5b6801638de23c387fc1841970
-    new: 5eb1ec913f16a4fa033383ff721927290ba5ee34
+  - ref: refs/heads/100GbE
+    old: 537c2e91d3549e5d6020bb0576cf9b54a845255f
+    new: 4498159a509328e903a692504a0ba1624754bc3e
     log: |
-         9fffa6c7deb6e2681f6d31a1e18d18eeceb3da3e kprobes: textmem API
-         5eb1ec913f16a4fa033383ff721927290ba5ee34 arch/riscv: Enable kprobes when CONFIG_MODULES=n
+         8c67b7a914cca1a5a8e1446f1b684df928ebf963 ice: remove eswitch changing queues algorithm
+         defd52455aee4a0922e45155d6a348f02a99b775 ice: do Tx through PF netdev in slow-path
+         50d62022f45580e2fc9b62fca486e6d0ea287c40 ice: default Tx rule instead of to queue
+         9cba6e1767bf8286563ae8907d6e595c365d3e92 ice: control default Tx rule in lag
+         33bf1e86231dbd62f06f0ca3cdf5995eb7d077d5 ice: remove switchdev control plane VSI
+         6235cb6e5b0de0717a1055740f6fd83a28531193 ice: change repr::id values
+         44ba608db50970dbb7eae1dca13ebcbf9485b4e7 ice: do switchdev slow-path Rx using PF VSI
+         4498159a509328e903a692504a0ba1624754bc3e ice: count representor stats
          
