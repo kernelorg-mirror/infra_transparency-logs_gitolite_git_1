@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============1442099684242053037=="
+Content-Type: multipart/mixed; boundary="===============9039553367117937057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Mon, 25 Mar 2024 14:48:38 -0000
-Message-Id: <171137811874.18073.7682980227349463032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 25 Mar 2024 14:51:01 -0000
+Message-Id: <171137826152.20637.14336261808543826580@gitolite.kernel.org>
 
---===============1442099684242053037==
+--===============9039553367117937057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/b4/arm32-cfi
-    old: 7b946d0f24e5d4aec3999811f8dfd196d23e5093
-    new: 2fd3a7956b8a603c5d59b5851265a693536d9c35
-    log: revlist-7b946d0f24e5-2fd3a7956b8a.txt
+  - ref: refs/heads/review-hans
+    old: 0314cebb29be2f961abb37bd0b01cb16899868f2
+    new: 0cd33df4e406ee4b705ee15d942a1ae8387a1d8b
+    log: revlist-0314cebb29be-0cd33df4e406.txt
 
---===============1442099684242053037==
+--===============9039553367117937057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b946d0f24e5-2fd3a7956b8a.txt
+Content-Disposition: attachment; filename=revlist-0314cebb29be-0cd33df4e406.txt
 
+bff4b74625fea851f9dd61e747a162d2f6b3317e Revert "dm: use queue_limits_set"
 d8941ce52b708cfd520994e65760a2fa6a646dfb Merge tag 'ras_core_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 742582acec1e894b80815ab379e1c9d347a0406b Merge tag 'x86_cpu_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bfdb395a7cde12d83a623949ed029b0ab38d765b Merge tag 'x86_mtrr_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1040,15 +1041,14 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-58f091b79ba5713bfacf27285a53a090f0234491 CFI for ARM32 using LLVM
-14598016ad5b133e9950a1559e3abb8bd94f5df7 ARM: bugs: Check in the vtable instead of defined aliases
-8c386e327c0a2e307c8d0774c9efeda440af2eee ARM: mm: Make tlbflush routines CFI safe
-4c65b5257d3f8b2264b4b1c22d12f43127da740d ARM: mm: Rewrite cacheflush vtables in CFI safe C
-729e01d52da4d64ccb9b88a046664a0d7b4f2bd9 ARM: proc: Use inlines instead of defines
-c118b5426d2ff45cfdf3dc10fc3baa8154af8eb8 ARM: delay: Turn delay functions into static inlines
-ce88866df9641427d4f63c01cb34dcc79a7e3dc3 ARM: page: Turn highpage accesses into static inlines
-d20d1feeb8e8f8bffe8134e010c831a963689446 ARM: ftrace: Define ftrace_stub_graph
-68fb0568057f6a4a686684b7c93393a916fa262a ARM: hw_breakpoint: Handle CFI breakpoints
-2fd3a7956b8a603c5d59b5851265a693536d9c35 ARM: Support CLANG CFI
+3ff5873602a874035ba28826852bd45393002a08 platform/x86: p2sb: Make p2sb_get_devfn() return void
+6d9b262afe0ec1d6e0ef99321ca9d6b921310471 platform/x86: hp-wmi: use sysfs_emit() instead of sprintf()
+79bd127f9662ead1ceea7970ef36fbe985a6d7ab platform/x86: asus-wmi: use sysfs_emit() instead of sprintf()
+415c33d20a2d985fa9be34bccca2a780c72b14cc platform/x86: huawei-wmi: use sysfs_emit() instead of sprintf()
+d439311264981fcc90e30993c7746108be45586d platform/x86: uv_sysfs: use sysfs_emit() instead of sprintf()
+6c4d24d60eb887015ae0356b4fc58cd06e74da31 dt-bindings: platform: Add Acer Aspire 1 EC
+363c8aea25728604537b170a1cc24e2f46844896 platform: Add ARM64 platform directory
+2b3efb7c515111eaa009f014b16bce8417fb2828 platform: arm64: Add Acer Aspire 1 embedded controller driver
+0cd33df4e406ee4b705ee15d942a1ae8387a1d8b arm64: dts: qcom: acer-aspire1: Add embedded controller
 
---===============1442099684242053037==--
+--===============9039553367117937057==--
