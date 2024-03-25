@@ -1,65 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============4406206577688828858=="
+Content-Type: multipart/mixed; boundary="===============2506452356184204735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 25 Mar 2024 09:39:23 -0000
-Message-Id: <171135956338.12189.8549749947956934394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Mon, 25 Mar 2024 09:39:29 -0000
+Message-Id: <171135956916.16332.17512653726068605769@gitolite.kernel.org>
 
---===============4406206577688828858==
+--===============2506452356184204735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/master
-    old: e8f897f4afef0031fe618a8e94127a0934896aba
+    old: 6cc3028f797a549f256d593867a769ab6a8265f2
     new: 4cece764965020c22cff7665b18a012006359095
-    log: revlist-e8f897f4afef-4cece7649650.txt
+    log: revlist-6cc3028f797a-4cece7649650.txt
   - ref: refs/tags/v6.9-rc1
     old: 0000000000000000000000000000000000000000
     new: 9bd5def24522bfec169de38754165379b4f8d6f5
+  - ref: refs/tags/v6.8
+    old: 0000000000000000000000000000000000000000
+    new: 90d1f30371ae3337beb01666b226320728d35c70
 
---===============4406206577688828858==
+--===============2506452356184204735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1711359561 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1711359560-cc2878c87e513654dcc5a028e0364924d0a8b8b7
+pusher krzk@kernel.org 1711359566 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1711359566-a0c82df0c6a8c311138000792244a9c06504ba83
 
-e8f897f4afef0031fe618a8e94127a0934896aba 4cece764965020c22cff7665b18a012006359095 refs/heads/master
+6cc3028f797a549f256d593867a769ab6a8265f2 4cece764965020c22cff7665b18a012006359095 refs/heads/master
 0000000000000000000000000000000000000000 9bd5def24522bfec169de38754165379b4f8d6f5 refs/tags/v6.9-rc1
+0000000000000000000000000000000000000000 90d1f30371ae3337beb01666b226320728d35c70 refs/tags/v6.8
 -----BEGIN PGP SIGNATURE-----
 
-iQJDBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYBRkkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11/xD/d3OAI3YArxxiZr7Nhc/tOSH+AVRNGJbGSy
-+6BgXOoqu/G6b7IzAdIvcyY9M6IQtHksVp5+LBlYofqsPYK2MqlmgbQLMTiW4Jbu
-QEqQgi2wKTnBItIAM1EbrSsDnQqLQL4ziCHthBoGhL6AgTU1OqSuBppQiscKib74
-IlgkUf22Bvvi+8Oc4KWNTkB8qS9LbNUkY+nyimU6hyjGKQtDMgCz5vE36q9XfMX1
-QHxLK2n4RtYYx3ITx90VIree11bUVvKcoDzGZlzKQPk+sATprhnKxfL0HLKR23QU
-kFy9VkKvLjYZ99PxOYPSCO98/jw+6tOXHqJm3SskPF6bvPNlUXmnVleIlg+McwFP
-qpYDal0DRYneRPqc9xrAJC3JtuuFIzDfLumfaZq2uBefGgIudM0hri9EPg4um8BW
-WFAozQpa2GZYdd8OXK+NbxS7mebuIT02NKlVItnumaBL/qJScgwOg+BLzCrD+yO8
-qqmG6xUgWPWa7ORodHNu4MpzsLH9gmTV8dn8nUVIpaVRLI/f81jMGT3oyVuz26Kh
-k6GBpi3oJTy2oVl1Dv8q+hcwdsTgouCxKwIaIVIpGoPw/tin/5adx/lYa7H41C05
-itH2FHSQ1Mu8GeGXxxT4Oi5c2J+WnIufIG6Xen9Bis3G62rCcdObUYfAhADxuFk0
-EbyA9vGh
-=5Wb9
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYBRk8QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD12d8EACOhpFfFMasKx7/Xd7EyVGzTkWdQbyjv2O0
+jTWCnJnoIsY7dgxgUsoWT+I8cKCJkZ5uZjiQPxP2UEz1qMyxml1ri75OVqQk++b+
+GAPUW+XXNXBvK8ig2N384MEubXpW6hghU7D2P3FC9dUCPgKmUncggDbYTOZnhS4m
+nUw0nt31pMKF1eBnixE5hMLpRsgsnlu0Yefpj3q/xqptFLJajJvE+DyacRPVlH+N
+5TwKvnbcqUNO5ao2AmzY/bcrh1UfB+zNCv/nSbrVRyRSE4GsZFv8+DTcWJ6rQLal
+qUp48EwZ/spCA3uhbOoK26RV8hSXKeuF7uE8ihTDEE3rNDeLSt+6RqTF0qILN8OW
+t4r2Dcd5pw8O6lHISCdUG6LxWQORdm6xvZJJ8kIfGsGJjvn1j27/6o47c4Y/MfHI
++ejXAQzuUoeTFcKQIuYhkZRYMhagAHg2VKDp4P4p6LsOT349TYaksKcaM5wdPDB3
+LkUY/lxReaNIuCaCtR0IBEECq9ugY8Kl0NpnLtwQCNqrcU4ZwHmAU1M/tSWk94Oh
+hniiDl8/I9+ac4P3ZfY7Cv+QFAZeyfoY9RRrSF/CB97hXeTHMPyLflBIRX9tCNfP
+h59vRVPSH/oLYtIkxhZF3sFk9JVtLU3KDGSNB+pxY74cv249rn62yfd5Bf6Z/fCL
+WVmzTc219A==
+=6UYg
 -----END PGP SIGNATURE-----
 
---===============4406206577688828858==
+--===============2506452356184204735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8f897f4afef-4cece7649650.txt
+Content-Disposition: attachment; filename=revlist-6cc3028f797a-4cece7649650.txt
 
 eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
 720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1086,4 +1090,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============4406206577688828858==--
+--===============2506452356184204735==--
