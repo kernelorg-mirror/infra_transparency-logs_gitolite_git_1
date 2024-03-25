@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3685190833685321407=="
+Content-Type: multipart/mixed; boundary="===============5726964917150361959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 25 Mar 2024 17:27:05 -0000
-Message-Id: <171138762591.9457.12812903906179423857@gitolite.kernel.org>
+Date: Mon, 25 Mar 2024 17:27:33 -0000
+Message-Id: <171138765327.9688.16432996206427931913@gitolite.kernel.org>
 
---===============3685190833685321407==
+--===============5726964917150361959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/devel
+  - ref: refs/heads/nolibc
     old: 6613476e225e090cc9aad49be7fa504e290dd33d
     new: 4cece764965020c22cff7665b18a012006359095
     log: revlist-6613476e225e-4cece7649650.txt
 
---===============3685190833685321407==
+--===============5726964917150361959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============3685190833685321407==--
+--===============5726964917150361959==--
