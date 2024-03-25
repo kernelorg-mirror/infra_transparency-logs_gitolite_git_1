@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============8875748967900316654=="
+Content-Type: multipart/mixed; boundary="===============4338497443172003184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 25 Mar 2024 09:44:39 -0000
-Message-Id: <171135987998.10536.9782988741900369932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 25 Mar 2024 09:44:42 -0000
+Message-Id: <171135988258.10607.1984837367593523704@gitolite.kernel.org>
 
---===============8875748967900316654==
+--===============4338497443172003184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/clk
-    old: 61f4399c74d0677ee64e42f7b8d4ab01ee39de45
+  - ref: refs/heads/fixes
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
     new: 4cece764965020c22cff7665b18a012006359095
-    log: revlist-61f4399c74d0-4cece7649650.txt
+    log: revlist-6613476e225e-4cece7649650.txt
 
---===============8875748967900316654==
+--===============4338497443172003184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1711359878 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1711359877-10b3615750b60971ef3d5d1718a8e0d78e976fb9
+pusher krzk@kernel.org 1711359880 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1711359880-2ce2014310c9c83f5f80a60dc200aff570ba1692
 
-61f4399c74d0677ee64e42f7b8d4ab01ee39de45 4cece764965020c22cff7665b18a012006359095 refs/heads/next/clk
+6613476e225e090cc9aad49be7fa504e290dd33d 4cece764965020c22cff7665b18a012006359095 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYBR4YQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11RwD/9bzs2f9V9J8w9gOo8BKa2qQirIDsBnWYOT
-I04pRQwhwnb2wkOlXt1Bu2Xo/BgzMH3HrW0MRO/D46ZgP/1Ngepvti3P0xHziaJs
-/4DR61IFV2l570TQVEvs4G9eTpHdfoMOfq2oapB2RliOrgRJP/Y2ihgkgQyQYibO
-Vwaq8UxidTGrsK9ks1KLTLOsuXKpE5xwF2Socn0FekSZZZRiYkWtU50r8SBD7Tm0
-/S/t6Q0SnL4vcw8RiR2OxpNXsAPFnTVfSqIT7KQm3XDdIxwOZ99g2yTlXxHTR9xV
-R8PgtDReABxhIP5xr2DKDZDxvH3PZdf1e7D4Psli4X47a0HckD6QhjdUFDD7lYXy
-YfBcx7SoJEF7lcDHgiyYR2BVkgJnqCAHdqHN9V9Iw6nj48KfTaxl/BxdbZpvDABf
-BbeXaTFsySK+etfCbDLBvuuOVBL02eBaR6NAuZXdVBa84WD2UYU74Eg68aYhvdET
-mgfGBwFOpZBK5/qIu36Fo6BbIb0e5KLW4Qz7SuYGJFI76/OHclTPLtv33DvaZUqs
-4ZuiB3WaZi0AaIaL0H3qWVWd7U5qzmA24idmEV4waPdZRNTqSRx0WM+hbMRju/mg
-RlJykD6x1ssDPbhteGqyzxLOBQbft9IoRf8r+AAtj+olZATcNM4IGclG8ZarChME
-2wgw1kmeSQ==
-=TZ7+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYBR4gQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD12ucEACGfiirNhZJJfqYh8v4p3SHF5Y+yhN7KFtt
+E62G4mXdZAKT5YveN7EA+nUNB3O+0pYpiNHeqeI4OP0yMYu8fE16LbOMOM/KdeZg
+lQ8hW4DFvJf9YdZK9ZSLTrEkAW9qEbz0KevEYII5gVqh+1Hg0WQART1Aes/JY3QA
+TxvMetkEH2rOODdhl+FE8yrkjZVSr2UrCNSM2ySJylLcZdytfA0lNEXQzGKLn6PD
+/u3/525stRnmYqmKUeR/ImhmGGFG119TFM2wB8LRAsyvJKnQFHvvj+8eGPrKsFB1
+KOw8llWnY1c7iYwv+SdNJaryHS0jupH+ERVU+2e81kpwx6vmEzOhBhZtT4S4h5tZ
+JoTcwts9g5pIDI/dBpnMsuVJ/1UKXVjK/SdeMEnSK8nItWS8/4l3GbDVRvMsa/DC
+CfXZI+FkRvS2lAJwXTZrYSJHogqFkkAHprrD5ftVkZTO3nF33SClcCXI9FpF9PU3
+mJbhB4AxjAcSz1z76j6aKpzbDzgQTEoV5heYzdmZetyoc7bFKCqb+iG9W1JPvOa0
+5iUDLZ0P2Q3eqTjiHllbiReRJjgCaOPaev3XtWRaH+jsnMhl/NpnxQnRUGCxRQpn
+AGFi0Ms9W8gfMTCWt2ZQUG0eq1rjKIU7tAb3mtHKF0fnmCPG6km9yyZp2VIEyvkd
+kx/G5iUDBQ==
+=vgsl
 -----END PGP SIGNATURE-----
 
---===============8875748967900316654==
+--===============4338497443172003184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-61f4399c74d0-4cece7649650.txt
+Content-Disposition: attachment; filename=revlist-6613476e225e-4cece7649650.txt
 
 eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
 720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1082,4 +1082,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============8875748967900316654==--
+--===============4338497443172003184==--
