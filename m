@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5802939878888088166=="
+Content-Type: multipart/mixed; boundary="===============1373853478183915362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 25 Mar 2024 13:27:57 -0000
-Message-Id: <171137327746.20394.3079788594296909875@gitolite.kernel.org>
+Date: Mon, 25 Mar 2024 13:28:14 -0000
+Message-Id: <171137329423.20642.16199874293032766028@gitolite.kernel.org>
 
---===============5802939878888088166==
+--===============1373853478183915362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/const_work
-    old: 77294dd75aa919b6af3a44e9d68c441ea5d7de59
+  - ref: refs/heads/class_cleanup
+    old: 33bd2b9b3e5119fbd5da07d359605ca4e4731eaa
     new: 8cdaf515f0399b0365e3b321a9db1300312fca57
-    log: revlist-77294dd75aa9-8cdaf515f039.txt
+    log: revlist-33bd2b9b3e51-8cdaf515f039.txt
 
---===============5802939878888088166==
+--===============1373853478183915362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711373273 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711373293 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1711373271-ec48b7825883180468acd3b0997ef1fb9c74e744
+nonce 1711373291-4c33f27bdb67c6881326af507855ca25d85f9f83
 
-77294dd75aa919b6af3a44e9d68c441ea5d7de59 8cdaf515f0399b0365e3b321a9db1300312fca57 refs/heads/const_work
+33bd2b9b3e5119fbd5da07d359605ca4e4731eaa 8cdaf515f0399b0365e3b321a9db1300312fca57 refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYBe9kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lTQP/2TsC8R40SSzAJwFKNnY
-wvwFptYlkYeViYjcvP8SiD/k4YcLZYYLf+dxTFxpoMBe58PrEc2/il+Re1BPuF3F
-ylsblxhHsJiKELzuwnmvzLq5EzjoNhF57HOzdo5CoJwFhZUfjKuFJFEaHStsmx5+
-T6mRAsEEWudLU5qkuMiU6liYT4Pg1E0bQ4rujP/M8CIlcIOjH8DvjcKYBpTMFfu2
-gM1nzbYAY8DviLM+fR0ZenjYffBODT73wst/m71cr7zmVKuRk+XoLoRqC5OPVK20
-jcAM3TAnwTCC1tbZ+mQusgKZ9mt+H5jS7FU14KyHEnUap1U6AZGdgeYLiAj9f+nb
-Kl6eHrIdGAAnZ33wvKAG0un6hWS7GwZsS0Ndx3JRj1TN7FeqvPOR4pmeX7KuWRfc
-On68dcjHvtlDzCW0BuATbZk8+CHEWGfrfuR1VAOMQ1hXj3s7KjZOu0CCfwyRkG7/
-VrGF0rfQm20mNdMSXwim/EzRKN8IQndtGrF2ZjlDGT1TLr9eqsapMZs55srRjG0/
-soJKOyXM2964cgZPziklhtnHc85dGKxQO+SWHwIzDi/BMHSMo+M5urn6FwcmX1yW
-iCEggq31u8/IN1/LBR8/+qvIND99SMxmuQvp+SgMI7g5+pFeswp6GxtRUCjSoeiH
-PRFWlHFgGFd6eoI7SOmaWd6D
-=mGxq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYBe+0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/AgP/2ldND5sT/6DsgKh+vlO
+DnMOBkqMTLoNsW6X1e3T3Bh1r5MHm7U8V560QnmQPH+MTiM2HyDZZ9mxdxdzFg5K
+KVS0lZldNjaG1ZlnnuakJTLoOTNZi9t7zGQh12Ww/pkmQ0SZGyKes3Ngjt8XOU3m
+Jn5nUHec8cVJtpgn2PZN+l4Vfbi+x8zACwDz5Uzvf4LCjXesKlBcY040kJVGBgSg
+zPtnkXNgX13W0aSEfCHg7cHc784BJpqXVNJQaWojNy7hNeyBFpfqsXKoxG2b3vZt
+TYioYlEbM5uG7uHXVfswvLJj1yqgitMh4ZW0t3nZY/OB9mCSWpsTZIqliMQ+PguO
+MUI5g+vhOw6RgVRcVyVsl78hJVNnSPPg9Mvzsi0kdDqY4PkNjRAyBadHJUT/NUt7
+ps2qbyZEfP1q+HrzrZReydaOcSpL0XWXTbn2JLB37mei7nHa8AwQ/r1fqh0WByQ8
+GXd404H5xXVVbBdN5f5QBx4+cubBL8igZFOHv2xRBTF3yaEPrcRbtuRRBWuwpag+
+cHOJlmKvkLvjVfucVuw055yVGLXcvFWJsI3GMfNYIp8RL1+iL0h1429xz2hgrboC
+DZ1rBx+FuRu6Qp/KADvNY5ahdQr1Oxu9wQJrCZsl5dCF/JKvBfFLrhc6IGkhUcmy
+3laBTfyJbPF2Rmamk8ZOrz6m
+=a0Tx
 -----END PGP SIGNATURE-----
 
---===============5802939878888088166==
+--===============1373853478183915362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-77294dd75aa9-8cdaf515f039.txt
+Content-Disposition: attachment; filename=revlist-33bd2b9b3e51-8cdaf515f039.txt
 
 8c9be42172e2a18f39c41dde3ce3e4cddaf6cf75 platform/x86/amd/pmf: Fix possible out-of-bound memory accesses
 988f3bf3d9504225e1e662a87a70700c1e9708c7 platform/x86: intel_scu_wdt: Remove unused intel-mid.h
@@ -1082,4 +1082,4 @@ cd266dd281225726ca04bc2b1d33dbc292b53a09 misc: c2port: core: make c2port_class a
 9004ef48b253d058594b34060f86a0dac1b9c0de PCI: switchtec: make switchtec_class constant
 8cdaf515f0399b0365e3b321a9db1300312fca57 crypto: qat: make adf_ctl_class constant
 
---===============5802939878888088166==--
+--===============1373853478183915362==--
