@@ -1,31 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============4411780362065609051=="
+Content-Type: multipart/mixed; boundary="===============4406206577688828858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hansg/linux
-Date: Mon, 25 Mar 2024 09:37:11 -0000
-Message-Id: <171135943193.23503.10610296111212895223@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 25 Mar 2024 09:39:23 -0000
+Message-Id: <171135956338.12189.8549749947956934394@gitolite.kernel.org>
 
---===============4411780362065609051==
+--===============4406206577688828858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hansg/linux
-user: hansg
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/media-atomisp
-    old: 9849bf7008dea11626c6dfdc438658d8607fe47b
-    new: 1125fd90384d22199aa321f8146c777f750c9e91
-    log: revlist-9849bf7008de-1125fd90384d.txt
+  - ref: refs/heads/master
+    old: e8f897f4afef0031fe618a8e94127a0934896aba
+    new: 4cece764965020c22cff7665b18a012006359095
+    log: revlist-e8f897f4afef-4cece7649650.txt
+  - ref: refs/tags/v6.9-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 9bd5def24522bfec169de38754165379b4f8d6f5
 
---===============4411780362065609051==
+--===============4406206577688828858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9849bf7008de-1125fd90384d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
+certificate version 0.1
+pusher krzk@kernel.org 1711359561 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1711359560-cc2878c87e513654dcc5a028e0364924d0a8b8b7
+
+e8f897f4afef0031fe618a8e94127a0934896aba 4cece764965020c22cff7665b18a012006359095 refs/heads/master
+0000000000000000000000000000000000000000 9bd5def24522bfec169de38754165379b4f8d6f5 refs/tags/v6.9-rc1
+-----BEGIN PGP SIGNATURE-----
+
+iQJDBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYBRkkQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD11/xD/d3OAI3YArxxiZr7Nhc/tOSH+AVRNGJbGSy
++6BgXOoqu/G6b7IzAdIvcyY9M6IQtHksVp5+LBlYofqsPYK2MqlmgbQLMTiW4Jbu
+QEqQgi2wKTnBItIAM1EbrSsDnQqLQL4ziCHthBoGhL6AgTU1OqSuBppQiscKib74
+IlgkUf22Bvvi+8Oc4KWNTkB8qS9LbNUkY+nyimU6hyjGKQtDMgCz5vE36q9XfMX1
+QHxLK2n4RtYYx3ITx90VIree11bUVvKcoDzGZlzKQPk+sATprhnKxfL0HLKR23QU
+kFy9VkKvLjYZ99PxOYPSCO98/jw+6tOXHqJm3SskPF6bvPNlUXmnVleIlg+McwFP
+qpYDal0DRYneRPqc9xrAJC3JtuuFIzDfLumfaZq2uBefGgIudM0hri9EPg4um8BW
+WFAozQpa2GZYdd8OXK+NbxS7mebuIT02NKlVItnumaBL/qJScgwOg+BLzCrD+yO8
+qqmG6xUgWPWa7ORodHNu4MpzsLH9gmTV8dn8nUVIpaVRLI/f81jMGT3oyVuz26Kh
+k6GBpi3oJTy2oVl1Dv8q+hcwdsTgouCxKwIaIVIpGoPw/tin/5adx/lYa7H41C05
+itH2FHSQ1Mu8GeGXxxT4Oi5c2J+WnIufIG6Xen9Bis3G62rCcdObUYfAhADxuFk0
+EbyA9vGh
+=5Wb9
+-----END PGP SIGNATURE-----
+
+--===============4406206577688828858==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e8f897f4afef-4cece7649650.txt
+
+eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
+720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
+195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
+f095fefacdd35b4ea97dc6d88d054f2749a73d07 ptp: Move from simple ida to xarray
+379b97bbf02feecae5ce870bc0c67e3d723e30f5 selftests/bpf: Add kprobe multi triggering benchmarks
+86833aec447939a886a13bbdbdf21c9628c5c8c5 Merge tag 'x86-entry-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d6170e4aaf86424c24ce06e355b4573daa891b17 bpf: hardcode BPF_PROG_PACK_SIZE to 2MB * num_possible_nodes()
+66c8473135c62f478301a0e5b3012f203562dfa6 bpf: move sleepable flag from bpf_prog_aux to bpf_prog
+bff4b74625fea851f9dd61e747a162d2f6b3317e Revert "dm: use queue_limits_set"
+d8941ce52b708cfd520994e65760a2fa6a646dfb Merge tag 'ras_core_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+742582acec1e894b80815ab379e1c9d347a0406b Merge tag 'x86_cpu_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+bfdb395a7cde12d83a623949ed029b0ab38d765b Merge tag 'x86_mtrr_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+2edfd1046f555db6456514bc8ffe0847537e54f4 Merge tag 'x86_cache_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+38b334fc767e44816be087b3ec5d84b1438b735f Merge tag 'x86_sev_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 1f75619a721d5149d9a947f2177d3cffc473fbb7 Merge tag 'x86_misc_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5f20e6ab1f65aaaaae248e6946d5cb6d039e7de8 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 b0402403e54ae9eb94ce1cbb53c7def776e97426 Merge tag 'edac_updates_for_v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
@@ -1035,20 +1085,5 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-4cf2ddf260b67116906d2eba00849337b513f792 media: atomisp: Fix double negation in unsupported revision error
-980f0b39554034af84cf72976ecb81c9cf3463b1 media: atomisp: ssh_css: Fix a null-pointer dereference in load_video_binaries
-244607b12cc662244cc1c4fa2d759d88a3703135 media: atomisp: Remove isp_subdev_propagate()
-531b67d459884312cc0ea040e4e5e068c9743695 media: atomisp: Rename atomisp_set_crop_and_fmt()
-bb6abc4925288746a550efc0ff4783f851efdd45 media: atomisp: Remove custom VCM handling
-c93612dd141b39d54b5fe09ba6667d5abecdcb33 media: atomisp: Remove ISP controls which get passed through to the camera
-3ac566e092d41c4889fbcc8e6cd158f82abca4a8 media: atomisp: Stop setting sd->devnode for the ATOMISP_SUBDEV v4l2-subdev
-73e39b2f3d48a1168a3c87c94341d9f3044e5999 media: atomisp: Add DMABUF support
-1b7771d450f8047e60e35a7a7f06480bef8bbc03 media: atomisp: Change ISP subdev name to "ATOM ISP"
-e34c5e23a423625aa7146065540259c1918b6178 media: atomisp: Make MC link from ISP to /dev/video# output node immutable
-8a5125cd30ad187ba4d5727bbd2ae8a35e93433a media: atomisp: Implement link_setup() op for ISP subdev MC entity
-55ac731b765bcc4e2e2ace82c29bef4756199e3e media: atomisp: Drop second V4L2_PIX_FMT_UYVY atomisp_output_fmts[] entry
-9b03083f0cabf84cb9eab03c98698a9dfd8ed3f3 media: atomisp: Replace V4L2_PIX_FMT_RGB32 with V4L2_PIX_FMT_RGBX32
-56d883b743ce3dbba5f092baea2cd3dc7771dd00 media: atomisp: Disable broken V4L2_PIX_FMT_RGBX32 output support
-1125fd90384d22199aa321f8146c777f750c9e91 media: atomisp: Initialize sequence counters to 0 instead of -1
 
---===============4411780362065609051==--
+--===============4406206577688828858==--
