@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2690704330226902905=="
+Content-Type: multipart/mixed; boundary="===============4891956615365124770=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ericvh/v9fs
-Date: Mon, 25 Mar 2024 00:41:40 -0000
-Message-Id: <171132730018.3702.855901836121073235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 25 Mar 2024 00:43:39 -0000
+Message-Id: <171132741914.4447.14688866325550674666@gitolite.kernel.org>
 
---===============2690704330226902905==
+--===============4891956615365124770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ericvh/v9fs
-user: ericvh
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/ericvh/devel
-    old: 8537ad20062714d4dcbda3dc0dbebc333bad89d7
-    new: 10211b4a23cf4a3df5c11a10e5b3d371f16a906f
-    log: revlist-8537ad200627-10211b4a23cf.txt
+  - ref: refs/heads/kselftest-seccomp-benchmark-timeout
+    old: b9d8bfe7319ebb30369e67ebc02b9751bac561ec
+    new: 43ba4f5c9d7921c9e73493a6991bd440ba102473
+    log: revlist-b9d8bfe7319e-43ba4f5c9d79.txt
 
---===============2690704330226902905==
+--===============4891956615365124770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8537ad200627-10211b4a23cf.txt
+Content-Disposition: attachment; filename=revlist-b9d8bfe7319e-43ba4f5c9d79.txt
 
 e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
 195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
@@ -1048,7 +1048,7 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-11763a8598f888dec631a8a903f7ada32181001f fs/9p: fix uaf in in v9fs_stat2inode_dotl
-10211b4a23cf4a3df5c11a10e5b3d371f16a906f fs/9p: remove redundant pointer v9ses
+f31234f5becdac54ce2ba2a974f03abcd3211420 EDITME: cover title for b4/kselftest-seccomp-benchmark-timeout
+43ba4f5c9d7921c9e73493a6991bd440ba102473 selftests/seccomp: Try to fit runtime of benchmark into timeout
 
---===============2690704330226902905==--
+--===============4891956615365124770==--
