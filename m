@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 25 Mar 2024 02:32:18 -0000
-Message-Id: <171133393849.23760.7418842825279517067@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 25 Mar 2024 02:49:36 -0000
+Message-Id: <171133497637.3713.6219893729762135862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 4cece764965020c22cff7665b18a012006359095
-    new: f7496450528bfe9350c5a62d180b4926b96f571b
+  - ref: refs/heads/dev-test
+    old: 77720dfe2cf3562fd6578b66f3988bc90a0e2ee1
+    new: 8cdac422e39781869169b1eb4b61b6d5a512233d
     log: |
-         f7496450528bfe9350c5a62d180b4926b96f571b platform/chrome: wilco_ec: use sysfs_emit() instead of sprintf()
-         
-  - ref: refs/heads/for-next
-    old: 4cece764965020c22cff7665b18a012006359095
-    new: f7496450528bfe9350c5a62d180b4926b96f571b
-    log: |
-         f7496450528bfe9350c5a62d180b4926b96f571b platform/chrome: wilco_ec: use sysfs_emit() instead of sprintf()
+         a97b59ed796804612468a3fb0ac2a5567a100a7a erofs: drop experimental warning for FSDAX
+         8cdac422e39781869169b1eb4b61b6d5a512233d MAINTAINERS: erofs: add myself as reviewer
          
