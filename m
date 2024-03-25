@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6184806154078242875=="
+Content-Type: multipart/mixed; boundary="===============8068353169736690509=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 25 Mar 2024 17:24:23 -0000
-Message-Id: <171138746321.6520.11856132997561565891@gitolite.kernel.org>
+Date: Mon, 25 Mar 2024 17:24:53 -0000
+Message-Id: <171138749303.6761.14423303374963023089@gitolite.kernel.org>
 
---===============6184806154078242875==
+--===============8068353169736690509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/master
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+  - ref: refs/heads/next
+    old: 5d94da7ff00ef45737a64d947e7ff45aca972782
     new: 4cece764965020c22cff7665b18a012006359095
-    log: revlist-6613476e225e-4cece7649650.txt
+    log: revlist-5d94da7ff00e-4cece7649650.txt
 
---===============6184806154078242875==
+--===============8068353169736690509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6613476e225e-4cece7649650.txt
+Content-Disposition: attachment; filename=revlist-5d94da7ff00e-4cece7649650.txt
 
 eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
 720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============6184806154078242875==--
+--===============8068353169736690509==--
