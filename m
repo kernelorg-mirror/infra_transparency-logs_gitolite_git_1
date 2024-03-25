@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Mon, 25 Mar 2024 19:29:41 -0000
-Message-Id: <171139498115.2775.12009766596012182272@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Mon, 25 Mar 2024 19:29:45 -0000
+Message-Id: <171139498580.2901.3052746909089359116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-6.10
-    old: 79202591a55a365251496162ced3004a0a1fa1cf
-    new: d6a7bbdde67227127e5e33fb9500bcc4abc40fb3
+  - ref: refs/heads/kprobes-v3
+    old: 21ac2618fe165b9f4715792c5e5c537b837fcb52
+    new: 6d2a748453b057971e09284f9801e834f3da3cfb
     log: |
-         d6a7bbdde67227127e5e33fb9500bcc4abc40fb3 workqueue: add function in event of workqueue_activate_work
-         
-  - ref: refs/heads/for-next
-    old: 79202591a55a365251496162ced3004a0a1fa1cf
-    new: d6a7bbdde67227127e5e33fb9500bcc4abc40fb3
-    log: |
-         d6a7bbdde67227127e5e33fb9500bcc4abc40fb3 workqueue: add function in event of workqueue_activate_work
+         1ce1723990801d55452130f2bf8777ebc7877356 kprobes: select MODULES instead of depending on it
+         6d2a748453b057971e09284f9801e834f3da3cfb kprobes: textmem API
          
