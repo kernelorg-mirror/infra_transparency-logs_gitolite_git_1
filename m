@@ -1,36 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1945954105437231364=="
+Content-Type: multipart/mixed; boundary="===============0315880268683042007=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 25 Mar 2024 14:26:16 -0000
-Message-Id: <171137677617.807.10693913607033216771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 25 Mar 2024 14:29:33 -0000
+Message-Id: <171137697381.2158.10373760478022024794@gitolite.kernel.org>
 
---===============1945954105437231364==
+--===============0315880268683042007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
   - ref: refs/heads/master
-    old: 62823f1b4e74f3cfdc7166b044ecab3e2751e930
-    new: d376a43ec8a75b55810e8f15c17a5d855571446b
-    log: revlist-62823f1b4e74-d376a43ec8a7.txt
-  - ref: refs/tags/renesas-devel-2024-03-25-v6.9-rc1
-    old: 0000000000000000000000000000000000000000
-    new: c953028f71967f18f700640b391f3a5d4c10dd6f
-  - ref: refs/tags/v6.9-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9bd5def24522bfec169de38754165379b4f8d6f5
+    old: 98a975ffdafac1ab4c21ab85ce18591d1a22a273
+    new: 58f34ce675d4685526ab07dfe414bfc7396c721e
+    log: revlist-98a975ffdafa-58f34ce675d4.txt
 
---===============1945954105437231364==
+--===============0315880268683042007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-62823f1b4e74-d376a43ec8a7.txt
+Content-Disposition: attachment; filename=revlist-98a975ffdafa-58f34ce675d4.txt
 
 720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
@@ -1055,6 +1049,6 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-d376a43ec8a75b55810e8f15c17a5d855571446b Merge tag 'v6.9-rc1' into renesas-devel
+58f34ce675d4685526ab07dfe414bfc7396c721e Merge tag 'v6.9-rc1'
 
---===============1945954105437231364==--
+--===============0315880268683042007==--
