@@ -1,63 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8888825253833995454=="
+Content-Type: multipart/mixed; boundary="===============1740536967613905724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 25 Mar 2024 18:08:53 -0000
-Message-Id: <171139013385.9566.16887384543719451934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 25 Mar 2024 18:09:24 -0000
+Message-Id: <171139016447.9845.8579651001796512650@gitolite.kernel.org>
 
---===============8888825253833995454==
+--===============1740536967613905724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/staging-testing
-    old: ab8e210d16b10e01b40fedde18de413434310784
-    new: c61be40b3b36eb0895f42c5ac717d5f7fb473878
+  - ref: refs/heads/for-next
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: e23359d88a81679e7c55d221e7cb4c39abf5d760
     log: |
-         bf812e0a36f775ea77e4e6455f0b3a1ab1a61961 staging: wlan-ng: Rename 'foo' to 'rc' in p80211conv.c
-         f119f9e050940070c3da3a7476b1bf7a63c803c4 staging: rtl8712: rename tmpVal to avg_val
-         26743707e13ed88612a98c303d924d3d623ee88c staging: wlan-ng: Rename 'wlan_unsetup' to 'wlan_teardown'
-         f7841bc3e347773e95549c96ae6ca403b42f40f8 staging: vt6655: Remove unused declaration of RFbAL7230SelectChannelPostProcess()
-         b50e41c0e5e074e5f8bf153b7c71584e93ed00ba staging: rtl8712: Fix line length exceeding 100 columns
-         d6b86fdecdddf66e9251f5258460df7cf179848c staging: pi433: Correct comment typos in pi433_if.c
-         242d724fae21fd9a5a3ea3d91093d693042509e7 staging: rtl8712: Remove additional space
-         c61be40b3b36eb0895f42c5ac717d5f7fb473878 staging: rtl8712: Add space between operands and operator
+         e23359d88a81679e7c55d221e7cb4c39abf5d760 dt-bindings: memory-controllers: add Samsung S5Pv210 SoC DMC
          
 
---===============8888825253833995454==
+--===============1740536967613905724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711390131 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1711390130-d0eab11a3d655d88679bceb8aaacdd509d3c6692
+pusher krzk@kernel.org 1711390163 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1711390162-863302be308343d15a001dddfbfe7dc6450b0388
 
-ab8e210d16b10e01b40fedde18de413434310784 c61be40b3b36eb0895f42c5ac717d5f7fb473878 refs/heads/staging-testing
+4cece764965020c22cff7665b18a012006359095 e23359d88a81679e7c55d221e7cb4c39abf5d760 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYBvbMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JFYQALReqy9CzA2zSLnizTR1
-pYnx6CSEKZFLZZizakWPlRKCwONH68D+6YUVIg3a+vLwiv9VSczBYmQGUaSNlu4i
-3PFa+fpUQwUpsUsWgYd/50gIWT79zp7gvJTzcQ269urwYBYwT24hv8brxVoP5Gi3
-c/MEjWM4PVuXgUW/9pl1+PR0hfP+JVPjeYQ4q9jBoj1TF7+9gfXQ9DW+KcE/TBqK
-Xt7VesGJFwT6JIOHvDeuIu5UEmZOBvogDrNPA4jEnR4cf1MY5MJYe65QhpWWjkNH
-+4WPZspXixlEO+OFlpwnkhqvJH54RGHKtzKsOaoWtc4BwSs1pRO18YrL/HCq7Wcw
-pDLWzdkiXfDJXItqtvg3xPaOsVA0NE0JpKDfJfY4uCL+kqDBxdZ9fsVsRofctzGA
-c8955NlPY5ODNm5F21S0aJil/cTtLs2j809DKLQTRXMPijEXEi0OkxEajHmuidZc
-LawxN/qz3qb5PyD2j34lLkMZfH3g/dB3XvwZqgCHui6EY9cEyf9h3B4P+TP0u0wa
-taYSeE/NMzIveHBq8V/GS+066kHultAkfn+YAwlVKonmxYME5AjR7BV36h0irhXx
-wQk9RiW4wv+LDFj6TVBi4bB6E5LWMbopkvyxLepYXbS/OwbPsjPfNb+u99nF8Ex4
-KBW/0Dv2IzWIMxReoRWR3PtQ
-=GnQ8
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYBvdMQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18uiD/9KMxGWJ9xmz/umVOIAWrn0XN1cu7Pm3tqB
+zE0EsIMoaitAZaS5Q4vO/rpphblmvgOnazf0EhIIdK2Qnig9Up6F5N2EVpqPdAiY
+g1WL015zEYJPpvFXpDVkMyz6mJyP+0c3cJA2Lyxv8Q6ajRDmpFSj7zC7e9228EIL
+HSJEBwHi7nR2l9ldZ/QraMPdxdmnB7W62qLgxm3EAD4VKq+CyV2qQn1zbb4tNs2G
+bpSr9s+zw8Q5Ie49Bj7VWbw94IjW5/Yw0UUUOmpT6eOODyLQPEg/WffEVFjtsDSv
+PTtlEyahHT5rULTIV+oQty5A0PPXmGk7xoUNZRUv/CNQYFMJELCmgCTUCtOxX0/Y
+l7WkidggRaSFpTbjTN5KRk7TO8GLwgbKF3oRsEDXmSHd0h0JtCZFvekSiB9UiX7G
+J2UwoDqNQ6cL05LKgluSXkyoh9A4EquJXyydA9zKEhWY5cBAbtuuhsE9j3YOLs9p
+Cidgyjev6zrSvo/bozANKlVHpu1adtMVg3xzmnrYIz9lnJtyybfMhAiYOcUTqLb0
+SY6UoxuPo9Ddg80o71hNOwdHGqonaN83z9agxM6NCHoKgVIKgfM1hPsPQgA8jLmI
+YfRw52P9hx/o/fpAqu0AWqpXwENp+95Cq4Uchc1GZYir4M2y6qTMKeVEr+P6Md/N
+KNo1qsy2rQ==
+=0r3/
 -----END PGP SIGNATURE-----
 
---===============8888825253833995454==--
+--===============1740536967613905724==--
