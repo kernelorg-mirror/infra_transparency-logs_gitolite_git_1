@@ -1,56 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============1740536967613905724=="
+Content-Type: multipart/mixed; boundary="===============2978926200091961617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 25 Mar 2024 18:09:24 -0000
-Message-Id: <171139016447.9845.8579651001796512650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 25 Mar 2024 18:09:42 -0000
+Message-Id: <171139018241.10008.15386040561681037214@gitolite.kernel.org>
 
---===============1740536967613905724==
+--===============2978926200091961617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 4cece764965020c22cff7665b18a012006359095
-    new: e23359d88a81679e7c55d221e7cb4c39abf5d760
+  - ref: refs/heads/staging-testing
+    old: c61be40b3b36eb0895f42c5ac717d5f7fb473878
+    new: d9c60badccc183eb971e0941bb86f9475d4b9551
     log: |
-         e23359d88a81679e7c55d221e7cb4c39abf5d760 dt-bindings: memory-controllers: add Samsung S5Pv210 SoC DMC
+         d81060d69e3be189cd7ad105e9a9b237573285ba staging: vc04_services: Remove unused function declarations
+         57c0b41bbe7b43c519f5824a964a406d1e7f60a3 staging: vc04_services: vchiq_arm: Use appropriate dev_* log helpers
+         ff6643de78d12d9174d574b25794f8ab4b8c5ac6 staging: vc04_services: Do not log error on kzalloc()
+         bf1894900b53f9047eb9b96c89717a9a22329f6a staging: vc04_services: Implement vchiq_bus .remove
+         d9c60badccc183eb971e0941bb86f9475d4b9551 staging: vc04_services: vchiq_core: Stop kthreads on shutdown
          
 
---===============1740536967613905724==
+--===============2978926200091961617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1711390163 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1711390162-863302be308343d15a001dddfbfe7dc6450b0388
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711390180 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1711390179-4e47cc3ca63220600041b0d4c6700756b22e6301
 
-4cece764965020c22cff7665b18a012006359095 e23359d88a81679e7c55d221e7cb4c39abf5d760 refs/heads/for-next
+c61be40b3b36eb0895f42c5ac717d5f7fb473878 d9c60badccc183eb971e0941bb86f9475d4b9551 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYBvdMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18uiD/9KMxGWJ9xmz/umVOIAWrn0XN1cu7Pm3tqB
-zE0EsIMoaitAZaS5Q4vO/rpphblmvgOnazf0EhIIdK2Qnig9Up6F5N2EVpqPdAiY
-g1WL015zEYJPpvFXpDVkMyz6mJyP+0c3cJA2Lyxv8Q6ajRDmpFSj7zC7e9228EIL
-HSJEBwHi7nR2l9ldZ/QraMPdxdmnB7W62qLgxm3EAD4VKq+CyV2qQn1zbb4tNs2G
-bpSr9s+zw8Q5Ie49Bj7VWbw94IjW5/Yw0UUUOmpT6eOODyLQPEg/WffEVFjtsDSv
-PTtlEyahHT5rULTIV+oQty5A0PPXmGk7xoUNZRUv/CNQYFMJELCmgCTUCtOxX0/Y
-l7WkidggRaSFpTbjTN5KRk7TO8GLwgbKF3oRsEDXmSHd0h0JtCZFvekSiB9UiX7G
-J2UwoDqNQ6cL05LKgluSXkyoh9A4EquJXyydA9zKEhWY5cBAbtuuhsE9j3YOLs9p
-Cidgyjev6zrSvo/bozANKlVHpu1adtMVg3xzmnrYIz9lnJtyybfMhAiYOcUTqLb0
-SY6UoxuPo9Ddg80o71hNOwdHGqonaN83z9agxM6NCHoKgVIKgfM1hPsPQgA8jLmI
-YfRw52P9hx/o/fpAqu0AWqpXwENp+95Cq4Uchc1GZYir4M2y6qTMKeVEr+P6Md/N
-KNo1qsy2rQ==
-=0r3/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYBveQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Sq0P/16/lq8YBvI7WMxmMQpR
+SrUIOP3kdWci5bDA2nWCiu1dVAdh1tVkMQZ6vNMvUN68Raxmy5mVi4CGzeIzzAGN
+PU3svfFQixlCWGVlwbD13P00S9aD7U9Z7UNm0hgWctef8XinxJ/8F+wSF3XCtqVp
+nqLE3cvPUjyGS47Wznvqs7WpEzD2HsV6NCn0lB0g8FgBxeUtnrUuIBuoVHxavH1t
+Gq/GSNl4zZ5wGywpJp2cHTFiTRo5n3BbqZOWzlcKVB/THNQa+wMTUwc1D7ATGu/N
+Ta93FyRui1IAzwY4rSiJr9dO7pFUzI1rNxYVY75shQ3S6Z7LNllasY+jy5XVCVik
+FQy40OL2geQKUGvGVmj6TB0rhOVV/+ORY/faH7XekM4ZIeVj5o16E6dBDTTpdRPx
+Pjdw9vvMkbT2CxsmZOeM3/sQyjSS/ePdQPUmFE9reqz0fhYsh4LueNqKSaUQd711
+ynxITAYm7XQglFGt/WbTtlkwJjcQql65QuzKh7En4CYvyJvR60tzJNyx3RaPnQw5
+5J0MMZFlUgg/PJrWKbwYVLiAJdo77AX/lTCzAfAwLI8UmKON0k5YVgbrw1lQCiXJ
+xj2ZvHnD5Q8Eqm8Tq0sUcRNgqJW87WH6iHCRLV0E/v2PcFjQN31wwDljzXlIHLcn
+4iOa48x+4kL13kQawPx9c3R4
+=/Qz7
 -----END PGP SIGNATURE-----
 
---===============1740536967613905724==--
+--===============2978926200091961617==--
