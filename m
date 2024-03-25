@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4338497443172003184=="
+Content-Type: multipart/mixed; boundary="===============5676951617519734762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 25 Mar 2024 09:44:42 -0000
-Message-Id: <171135988258.10607.1984837367593523704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 25 Mar 2024 09:44:46 -0000
+Message-Id: <171135988634.10737.5741447008533005748@gitolite.kernel.org>
 
---===============4338497443172003184==
+--===============5676951617519734762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next/defconfig
     old: 6613476e225e090cc9aad49be7fa504e290dd33d
     new: 4cece764965020c22cff7665b18a012006359095
     log: revlist-6613476e225e-4cece7649650.txt
 
---===============4338497443172003184==
+--===============5676951617519734762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1711359880 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1711359880-2ce2014310c9c83f5f80a60dc200aff570ba1692
+pusher krzk@kernel.org 1711359884 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1711359884-42717c684c1306eb156be902f46bdb0a252aec94
 
-6613476e225e090cc9aad49be7fa504e290dd33d 4cece764965020c22cff7665b18a012006359095 refs/heads/fixes
+6613476e225e090cc9aad49be7fa504e290dd33d 4cece764965020c22cff7665b18a012006359095 refs/heads/next/defconfig
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYBR4gQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD12ucEACGfiirNhZJJfqYh8v4p3SHF5Y+yhN7KFtt
-E62G4mXdZAKT5YveN7EA+nUNB3O+0pYpiNHeqeI4OP0yMYu8fE16LbOMOM/KdeZg
-lQ8hW4DFvJf9YdZK9ZSLTrEkAW9qEbz0KevEYII5gVqh+1Hg0WQART1Aes/JY3QA
-TxvMetkEH2rOODdhl+FE8yrkjZVSr2UrCNSM2ySJylLcZdytfA0lNEXQzGKLn6PD
-/u3/525stRnmYqmKUeR/ImhmGGFG119TFM2wB8LRAsyvJKnQFHvvj+8eGPrKsFB1
-KOw8llWnY1c7iYwv+SdNJaryHS0jupH+ERVU+2e81kpwx6vmEzOhBhZtT4S4h5tZ
-JoTcwts9g5pIDI/dBpnMsuVJ/1UKXVjK/SdeMEnSK8nItWS8/4l3GbDVRvMsa/DC
-CfXZI+FkRvS2lAJwXTZrYSJHogqFkkAHprrD5ftVkZTO3nF33SClcCXI9FpF9PU3
-mJbhB4AxjAcSz1z76j6aKpzbDzgQTEoV5heYzdmZetyoc7bFKCqb+iG9W1JPvOa0
-5iUDLZ0P2Q3eqTjiHllbiReRJjgCaOPaev3XtWRaH+jsnMhl/NpnxQnRUGCxRQpn
-AGFi0Ms9W8gfMTCWt2ZQUG0eq1rjKIU7tAb3mtHKF0fnmCPG6km9yyZp2VIEyvkd
-kx/G5iUDBQ==
-=vgsl
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYBR4wQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD11BcEACAJALBclIT//eJcSO0kvIITqrhv2NyukvV
+TRz34l1hWUhs9M52OWZyQCClJBkPdA+OfuzNm7sk9IwLIsHgCajAdr3uibrCsLss
+bK8liUdz7RRE5ZBYP+qWazMkn2Unv5XfBnsOP8E8/HTeYYeIfi1G1EGb1LjexA9G
+DvxNDGYs1ZohpbbjviblfNuJnOZyiUEsYYF0iAHAmKbhu9yWr7C2ZJgSPuNIxZOW
+AtNUbPNKWAh1UFLikpDNO7GC2uUA6TbPB2DuNa1juCndromP3pel72Cz+zA9adtf
+4m/GVReniSm+jablJVkqcPlPwl2p80jWhzv5IX6qzmd6+BIgFN2RwXRfjJYVoAch
+VosoIel+G+hgJ54HUSZf6NIn/u8BpvBLE7753eALmh9Lfplo3nb4737owq8Wi8C3
+njtrEV5o51FuwY25e5ENZzjvTWySa8/oTGTnDdv6e4375/fVRvXYD3cu98UkWtP2
+7U6cnLko/iadHVgCzonmgq4AKLZ2PtLUB519Ea6afGfYjlMHVCF2sNs8mOJQpDoB
+v4PX63yMBfsqHAK3LeSAI8FPP/WRqdrlZDJ9WqwTDGyG3wfbgZzu1GldhNNuDmv8
+bu6sbY01Qoec1ArMHxOrTcXU0TwNH8KTiRazNdZLGFtTuxthHXj6Whn0BpfXQKsr
+P97SJG3mkQ==
+=YNN/
 -----END PGP SIGNATURE-----
 
---===============4338497443172003184==
+--===============5676951617519734762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============4338497443172003184==--
+--===============5676951617519734762==--
