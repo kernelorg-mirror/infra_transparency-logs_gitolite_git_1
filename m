@@ -1,44 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2230360892509162536=="
+Content-Type: multipart/mixed; boundary="===============1223906954469389784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 25 Mar 2024 10:59:27 -0000
-Message-Id: <171136436755.4514.7012948101250221610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 25 Mar 2024 11:04:06 -0000
+Message-Id: <171136464646.7955.4146256475079331454@gitolite.kernel.org>
 
---===============2230360892509162536==
+--===============1223906954469389784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 7ba965bc93106c70280e3e0bc97e84ec3a671ce0
-    new: 9a875b7c7b1b3f0aee59af93a64b1b88f1105b65
-    log: revlist-7ba965bc9310-9a875b7c7b1b.txt
+  - ref: refs/heads/next/dt64
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: 0ee41698e633d5d370fad06284cfa9b693937499
+    log: |
+         85170635525758828dc22be83f6b17a86ccec312 arm64: dts: juno: fix thermal zone node names
+         0ee41698e633d5d370fad06284cfa9b693937499 arm64: dts: amd: use capital "OR" for multiple licenses in SPDX
+         
 
---===============2230360892509162536==
+--===============1223906954469389784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ba965bc9310-9a875b7c7b1b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0c5e8737d2edfa3acc2a12484ed8a956d7e60cf4 Merge branch into tip/master: 'perf/urgent'
-a1f377294b7db70ee5a9363a90fda720b269a53c Merge branch into tip/master: 'x86/urgent'
-b42fcb20dca36680bf47c9e42bd9c09d69eb1bdd Merge branch into tip/master: 'WIP.fixes'
-126ad436b6eb2c0e53277bf56cffaa42bd15788c Merge branch into tip/master: 'locking/core'
-09306c6084fe80d69a4177153ccd284776934420 Merge branch into tip/master: 'perf/core'
-2108452713ad88b3fadf6a104c581dacab6161c0 Merge branch into tip/master: 'sched/core'
-8d9f7e561d1bfb3a2c6998ef73626dff50fd4fca Merge branch into tip/master: 'x86/asm'
-b1e71222844dcfa14c8b572b05e2da5d5df0480c Merge branch into tip/master: 'x86/boot'
-3edd5b176fa8642222bcfca06dac6d9f5017332d Merge branch into tip/master: 'x86/build'
-2f1ff7665584c943759e6a95fe1c74e111b1a309 Merge branch into tip/master: 'x86/cleanups'
-b371490080fffe1eed99e584f0882f43ca838b7c Merge branch into tip/master: 'x86/cpu'
-edec8883f14aae46d7e42dd81d1f8b4752d5d9de Merge branch into tip/master: 'x86/fpu'
-cc94a6f73f45dda5e82e70f200d90233d53dedd8 Merge branch into tip/master: 'x86/percpu'
-9a875b7c7b1b3f0aee59af93a64b1b88f1105b65 Merge branch into tip/master: 'x86/shstk'
+certificate version 0.1
+pusher krzk@kernel.org 1711364644 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1711364644-041657a6058c1c30dd5d200c7a07025232c8f36b
 
---===============2230360892509162536==--
+4cece764965020c22cff7665b18a012006359095 0ee41698e633d5d370fad06284cfa9b693937499 refs/heads/next/dt64
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYBWiQQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD137yD/9FMXj0BuaHP57XQouEfxM10CQlnYS6KnCn
+nXV7GliH5ur630wOiapRGIMX+sxN2neH5pKhKd/Ob9/8405bJYmVW7TattFpR2Wq
+vUjPO5Wi+NdF3SiEe+Hcyhf8AOp6c8KBth5I/ssj9FrXhmTmz8lcQ5Ruav6itPxT
+9UDI2inHUp8ZgHH+NDekLtuwLArwgaTuxLhxM54DAjxcmt3SFC6P1aRMC+38ctty
+GV83OPrzBWcFgMYEyxe3Iw9GWROPVhJt4xwpBDiKht069tQ8vwqw3DbzgRoi0rh+
+vUu+yOhygWOktjyKDk53ZFuzdCdAcFdLkAXPXbnQZF6gkEtGYDDgMJxLRlqUpn34
+tsRSm7SMSS1QTi+uTifHTjd8RIowg2tls4iJM6FdBp9SMsfXq7lMNXGVTptwDyXk
+8C5DgWyVG5YCWOFfd96SpBIk5v1akldL68kI1D3ZsxfhazAI5Lb7EDzy7U6HJImU
+Z0OVDa/1uWoOGMjN7Ks0eiY6Jk6xZ3pG86mrrJVvh2Q8cEMUb/I7idZtRf1IE3IX
+hed6Eh82sHH+uzNY5q/MTNOUOilFlgjF6cFSkW9SWsUmlUQzaBGy9hIjE+VHMwkx
+x1klcbMVO0niqlsbwQUjvw5/ieOCjmmxj3u8lDiPxgbGyEaGSv5EyLlBV7Ed6JLz
+D6d2Y39r4w==
+=KAFG
+-----END PGP SIGNATURE-----
+
+--===============1223906954469389784==--
