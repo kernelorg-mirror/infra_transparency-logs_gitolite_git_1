@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3807306198085324879=="
+Content-Type: multipart/mixed; boundary="===============3285591330489942164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 25 Mar 2024 20:10:51 -0000
-Message-Id: <171139745123.4965.10310137508034792126@gitolite.kernel.org>
+Date: Mon, 25 Mar 2024 20:11:19 -0000
+Message-Id: <171139747943.5212.6409454130615420820@gitolite.kernel.org>
 
---===============3807306198085324879==
+--===============3285591330489942164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/cgroup
 user: tj
 changes:
-  - ref: refs/heads/master
-    old: e8f897f4afef0031fe618a8e94127a0934896aba
-    new: 4cece764965020c22cff7665b18a012006359095
-    log: revlist-e8f897f4afef-4cece7649650.txt
-  - ref: refs/heads/for-6.10
-    old: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next
+    old: 13eb1d6e1cfcfc277d2cba521c6082ab3e16b43f
     new: 20d46283f5d679338ec2bbd734f46f900557fb97
+    log: revlist-13eb1d6e1cfc-20d46283f5d6.txt
 
---===============3807306198085324879==
+--===============3285591330489942164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8f897f4afef-4cece7649650.txt
+Content-Disposition: attachment; filename=revlist-13eb1d6e1cfc-20d46283f5d6.txt
 
-eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
 720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
 195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
@@ -1053,5 +1049,6 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
+20d46283f5d679338ec2bbd734f46f900557fb97 cgroup, docs: Clarify limitation of RT processes with cgroup v2 cpu controller
 
---===============3807306198085324879==--
+--===============3285591330489942164==--
