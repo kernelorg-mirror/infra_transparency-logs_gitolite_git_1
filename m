@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4480805816583148864=="
+Content-Type: multipart/mixed; boundary="===============4428138085532976229=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Mon, 25 Mar 2024 20:14:43 -0000
-Message-Id: <171139768337.6978.11094120442346065202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
+Date: Mon, 25 Mar 2024 20:15:06 -0000
+Message-Id: <171139770647.8786.10761218796016053551@gitolite.kernel.org>
 
---===============4480805816583148864==
+--===============4428138085532976229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
+repo: pub/scm/linux/kernel/git/srini/slimbus
 user: srini
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 4cece764965020c22cff7665b18a012006359095
     log: revlist-0bb80ecc33a8-4cece7649650.txt
 
---===============4480805816583148864==
+--===============4428138085532976229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============4480805816583148864==--
+--===============4428138085532976229==--
