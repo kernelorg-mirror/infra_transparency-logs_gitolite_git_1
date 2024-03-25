@@ -1,31 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============4099178639523847654=="
+Content-Type: multipart/mixed; boundary="===============5741069529076097264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Mon, 25 Mar 2024 07:34:09 -0000
-Message-Id: <171135204916.27671.16712638772684260186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 25 Mar 2024 07:35:25 -0000
+Message-Id: <171135212563.29771.7190498294548798007@gitolite.kernel.org>
 
---===============4099178639523847654==
+--===============5741069529076097264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/b4/arm32-lpae-pan
-    old: 6fc4e891e1f08cfbfa6c0d7a7ca25a5a9d109fd5
-    new: 94f1e8b65aa17317b217063d08f4ea78e7ca9569
-    log: revlist-6fc4e891e1f0-94f1e8b65aa1.txt
+  - ref: refs/heads/master
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: 4cece764965020c22cff7665b18a012006359095
+    log: revlist-6613476e225e-4cece7649650.txt
 
---===============4099178639523847654==
+--===============5741069529076097264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6fc4e891e1f0-94f1e8b65aa1.txt
+Content-Disposition: attachment; filename=revlist-6613476e225e-4cece7649650.txt
 
+eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
+720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
+195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
+f095fefacdd35b4ea97dc6d88d054f2749a73d07 ptp: Move from simple ida to xarray
 379b97bbf02feecae5ce870bc0c67e3d723e30f5 selftests/bpf: Add kprobe multi triggering benchmarks
 86833aec447939a886a13bbdbdf21c9628c5c8c5 Merge tag 'x86-entry-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d6170e4aaf86424c24ce06e355b4573daa891b17 bpf: hardcode BPF_PROG_PACK_SIZE to 2MB * num_possible_nodes()
@@ -1045,10 +1050,5 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-f090cf2370666ab62971e1bf74d3294ff3bf5ccd PAN for ARM32 using LPAE
-288330641754b8b6f9b06b9ecbcb1de4546e0402 ARM: Add TTBCR_* definitions to pgtable-3level-hwdef.h
-97d1c5b50b6cb2e81e8574b868218214f2155302 ARM: Move asm statements accessing TTBCR into C functions
-e0842e0d777a07e17dd496e0425916d6567eacd6 ARM: Reduce the number of #ifdef CONFIG_CPU_SW_DOMAIN_PAN
-94f1e8b65aa17317b217063d08f4ea78e7ca9569 ARM: Implement PAN for LPAE by TTBR0 page table walks disablement
 
---===============4099178639523847654==--
+--===============5741069529076097264==--
