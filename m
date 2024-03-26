@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5684126279526047529=="
+Content-Type: multipart/mixed; boundary="===============6527705630148874175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 26 Mar 2024 09:46:16 -0000
-Message-Id: <171144637658.28575.4816398686380950695@gitolite.kernel.org>
+Date: Tue, 26 Mar 2024 09:47:05 -0000
+Message-Id: <171144642584.28957.12590447186934139988@gitolite.kernel.org>
 
---===============5684126279526047529==
+--===============6527705630148874175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: f8453bbde06c5d515b8487eb443d26307b2eec23
-    new: 54ada48481a134b5953bc37cafd1ad89cd68c133
+    old: 54ada48481a134b5953bc37cafd1ad89cd68c133
+    new: 11a2d9e8561f47364caaa68646c71dbd693946ab
     log: |
-         16fac242177c5eb374bb2caacc28793732857369 usb: gadget: u_audio: Fix the size of a buffer in a strscpy() call
-         39c34568d786ae97180faf79ecfd31c3d0671ba6 usb: gadget: u_audio: Use the 2-argument version of strscpy()
-         54ada48481a134b5953bc37cafd1ad89cd68c133 usb: gadget: u_audio: Use snprintf() instead of sprintf()
+         8e7142817bd6c52758d3b01167048cd346546616 dt-bindings: usb: qcom,pmic-typec: Add support for the PM7250B PMIC
+         5b1b99db4cdc9c70fe560830e689bc16fde78dc0 arm64: dts: qcom: pm7250b: Add node for PMIC VBUS booster
+         3947131ea4671f63f255d5cfbf09512c83d2f227 arm64: dts: qcom: pm7250b: Add a TCPM description
+         11a2d9e8561f47364caaa68646c71dbd693946ab arm64: dts: qcom: sm7225-fairphone-fp4: Enable USB role switching
          
 
---===============5684126279526047529==
+--===============6527705630148874175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711446374 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711446423 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1711446373-e73981dead63b78b61f4ec210519ea4376136f03
+nonce 1711446422-19e2f2906164a3c78b6a6285d92fda72046c6832
 
-f8453bbde06c5d515b8487eb443d26307b2eec23 54ada48481a134b5953bc37cafd1ad89cd68c133 refs/heads/usb-testing
+54ada48481a134b5953bc37cafd1ad89cd68c133 11a2d9e8561f47364caaa68646c71dbd693946ab refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYCmWYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iScP+gNcUS6r7kMD7oj8ZBoA
-PwcEJTrOMd6TQ5WbUmDGCKGipeML/DyJhfT79LsxrmCZecRwCUVsa5GAchEINp3m
-weq2Yq6p2u48d9OmuYOg4qh0WEYIymtOZG+feygrRU21UDJFpOc2KLg62LtN/Ei+
-gvqR7kLZr4SvvF6CgGGnEO+1pMdRIxlz93HFSy1M5wfjgsnuWxOJ0fPmI4Vqul77
-0kYKN8dSQsQG//LLl6aADxC/Gao6pVb9qqWcZWYI41oJ/6PjLO/xHOC5e50yePnB
-9LMhNO9rxdyJeJ3oZsBQD1eyNoI9vFy9r/8gWzdnIXdkmFtPvCMdseWBHr4tPH7L
-mFElU7egj2sdfa/TbciivVLZvGyTJ2fZIZ7o4UMwlacqKyb/MwIS/EWMFzAdV46Z
-TKmvuXHTyQKWepaaZHvNmyXvFm4NDeIkp5uzey1+vqEvHF+YcJUl6Z+zrntQfLAK
-NIofDML3j5dBFDO4UVbWLujtP8HymD88sQd3IzjwjgKv+aaXIIqCu6lJJo5euBg1
-OC06w5RRy9jSKf0yw3cqYtBXSHYuASx08vdEt6/QfdsLDDwnKqLdj5G0XQieYFU7
-w7JsRZP4y4JwVmS0DUfp54CcfKOIOXk64hJztfUtFZ37a+m0ju/0mX6zOzgM+gGT
-SxWveCR/A0Or+d668m0ZtNzu
-=6IC5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYCmZcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Jk0P/jJO8mUBnEzQQDC9hkdN
+WNoB3CIlnB0jegLtGp2botDVjJDE8gnLn4rtOfYugljtPcQDV9vJYH5Kd+f17o6Y
+a7YmykrpcmGriwiffsBWrBin8igTNprDTLHFTkKAFPXNCb2xpGTURFojIUJF8LzP
+WWI32kHcima+98j7nIGMcoHrLRqYnLB848bJv+HQdRg0GhVKTrhCQcfLqj/W8Pwm
+uCXjq1gPCZWTJIWHsUFW85YoYxPEXUs3fECgKjA9s+81TydpIjOto0PmOJfy0sfT
+wWHHZoVVA3+r2gOyXeBurEb9W4gBoK3wNsVuDU1YmU2kPbkWbka9KdveO5t7hvA7
+FmsutTQxa6/OA+lIPLTxJpT2JFQMUDnIh4KLgmiIXf6YMAqmtH3pWAiiSk+XJoPU
+xHScWcXcEdNTyRv2askw4KwZGIZU9qBuCKCnC6uGCwXkYWHZDfO0G9kVq+hcEM6n
+k66zC9DqzZvPhFDTI1VF4j6TEPr7HqK8XBi6xdyIF/0TAAVgUQLB6oJwiSIJWUn6
+Oll4H8wDuv9mLWtCQCN6We9Ez5pWAKnG9gtApFFPIGd29YPK+8YtXD65MFivmT6Y
+YWLKWHvFmgw/HkZqFFlQANt8+v/RCAiO3HifpYJ/5PLTOCxKeRfvbYaheBhwiWpg
+pAPVqJTzja1pr9f0P3zuDX97
+=uGBN
 -----END PGP SIGNATURE-----
 
---===============5684126279526047529==--
+--===============6527705630148874175==--
