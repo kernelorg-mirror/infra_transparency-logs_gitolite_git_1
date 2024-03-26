@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 26 Mar 2024 03:11:30 -0000
-Message-Id: <171142269027.27913.17208133317332486745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Tue, 26 Mar 2024 04:14:05 -0000
+Message-Id: <171142644598.7041.2652225068498738237@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/master
-    old: 150bd6e81b3578290d71197b6fde4d26e06ea6e3
-    new: 41d6c4e1c92fc6e0757b0f71ca5062671ff55235
+  - ref: refs/heads/for-next
+    old: af70611cab88fa59fcea570e62b0b261c2c18649
+    new: 78e2dcd09dd5bf76c9d39dce0a30bba1263a77c9
     log: |
-         6849c64e1fdbed0c18439878151dc19adcc7be2b shared/bap: add bt_bap_cancel_select to cancel ongoing pac select
-         41d6c4e1c92fc6e0757b0f71ca5062671ff55235 bap: cancel ongoing SelectProperties() before freeing the ep
+         78e2dcd09dd5bf76c9d39dce0a30bba1263a77c9 firewire: Annotate struct fw_iso_packet with __counted_by()
          
