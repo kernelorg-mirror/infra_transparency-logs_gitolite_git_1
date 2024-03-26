@@ -1,69 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============2532131357920846146=="
+Content-Type: multipart/mixed; boundary="===============5415302347990010050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 26 Mar 2024 12:38:10 -0000
-Message-Id: <171145669017.26992.16304791196185780788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 26 Mar 2024 12:38:26 -0000
+Message-Id: <171145670628.27160.5114532204124630732@gitolite.kernel.org>
 
---===============2532131357920846146==
+--===============5415302347990010050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.10
-    old: cd290abbdab3fb4db403b6fc0ae4038b22268bee
-    new: 54b8d0956a9bd46e6daf3bbe69a52d3d41def36c
-    log: revlist-cd290abbdab3-54b8d0956a9b.txt
+  - ref: refs/heads/for-6.10
+    old: bdeef5dcea6b164f4bd614655821b1ef12ebec9a
+    new: f3c840b00ed10bd5e258b6667abb8c1eb6c2be44
+    log: |
+         d650d1c46d8471bf8ebf556629ac13077f13e647 spi: xilinx: Fix kernel documentation in the xilinx_spi.h
+         8f40647d87610ecff6637d673024fe7bd045c913 spi: xilinx: Add necessary inclusion and forward declaration
+         a39111b1cf0864b1782f30f9a1fa65260d057327 spi: xilinx: Make num_chipselect 8-bit in the struct xspi_platform_data
+         7fd54c205f104317b853fc417ac7e9d0b9531ddb spi: pxa2xx: Kill pxa2xx_set_spi_info()
+         e3f209e269d32ebc0ba7f497f5d2af21ed4f0dd0 spi: pxa2xx: Make num_chipselect 8-bit in the struct pxa2xx_spi_controller
+         b5867a5c0d7a6bf36f59f3d472c7aed33ca4d02c spi: pxa2xx: Use proper SSP header in soc/pxa/ssp.c
+         6defadbe6cbc3a87dc39c119a6748d19bfba0544 spi: spi_amd: Add support for SPI MEM framework
+         9b163e0d330debbf7dcc14b2c3e2dc19a3b50a1d spi: remove struct spi_message::is_dma_mapped
+         7f2f4caaf66624b6ece6801749fc47d804a6be16 spi: pxa2xx: Clean up linux/spi/pxa2xx_spi.h
+         f3c840b00ed10bd5e258b6667abb8c1eb6c2be44 spi: xilinx: Massage xilinx_spi.h
+         
 
---===============2532131357920846146==
+--===============5415302347990010050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1711456688 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1711456687-d2d10312ba5567a8e374cb927ba8a33fa7ff64bc
+pusher C3F436CA30F5D8EB 1711456704 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1711456704-a6276d63773870baf2c84fba0f22444b78ae0939
 
-cd290abbdab3fb4db403b6fc0ae4038b22268bee 54b8d0956a9bd46e6daf3bbe69a52d3d41def36c refs/heads/regulator-6.10
+bdeef5dcea6b164f4bd614655821b1ef12ebec9a f3c840b00ed10bd5e258b6667abb8c1eb6c2be44 refs/heads/for-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYCwbAACgkQJNaLcl1U
-h9ChWQf+O9A7PudZ8STo3h9auppEQVY5VaeBTqu2NmJyMV68OJEKYMYYhCdzZeVT
-1eVvS2tTzfK6PGCiIp4xksN2KvLFjMbIYfU+rpUXpsrJKUVIWrKt3FtoZzLksyTY
-cGiXS839gaPW0euSROGLV4kPiDs+OVmZdj6y2LCoGXJOV3G+GLisdx8bouPsyY0X
-dsn7umtm8bkYB4Qjj96g/tN1DPGWQJ+pJhuLntjWD+Hr4gHlXePH5V+mTT+aeiEj
-6UxooQmULs9oPK+5q9/lBX0gxP8G8ciuENFEu9foxTteUvU7wXxcAp/QtY9HO2oo
-yejC9Fr809fnSwhyl9bLwICnB7NCMg==
-=Z9j5
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYCwcAACgkQJNaLcl1U
+h9B3dwf/TuE7MdVmoZbDfgtlabIA7HbAmkCIpXE1W6APshf5sP4nacTg/FFwspK8
+sc4LlKj62yCkm/JsHaUB0/zv0vBhYewqX87YPJ+4Do0JPwFJIxOhm7dczx5hUN4n
+x/b+LTB4N9uhyOyjgGyiERo6UgUc0HFAquHjvtKP6tURL9hZwxY2+WGjiks0yRc6
+Mwhymy488cJ5jcX9BvyVBVmNmVSi5gdukHYpN9d5HBBBhIhcgp7z3mCbiPfdntrG
+m/t0KC3dSwHMV+l6G+av5ClEbamJ++vTrlqGZG6dYoaokuKwG5h5dMDjuVJEJ5e0
+imzK9RY3+4lovQj+9hER5Yb3UHyiZg==
+=CQxp
 -----END PGP SIGNATURE-----
 
---===============2532131357920846146==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd290abbdab3-54b8d0956a9b.txt
-
-d92eb7c333c5ac8d8add10d5a211ac9c405e4393 regulator: da9121: convert to use maple tree register cache
-03ddbcbe2f1ca9fac2759849be6714d8e82aa331 regulator: da9211: convert to use maple tree register cache
-66a4ead5ed9393d250105fcbe6e3525e1cdd977a regulator: isl9305: convert to use maple tree register cache
-36649db5b216a85cfd7937a289c4cdd0b4b69126 regulator: max8973: convert to use maple tree register cache
-bc125125125c10ec14764d153227c95ad0fd0b48 regulator: mt6311: convert to use maple tree register cache
-0b03e9cb8b137490f4adedf07482384ffeee7145 regulator: pca9450: convert to use maple tree register cache
-cea065dced280306ff5a4f7adfeb3773c49b2818 regulator: pf8x00: convert to use maple tree register cache
-0332f074f5c3d8c2a32db24c9dcc3c3f13056cef regulator: pfuze100: convert to use maple tree register cache
-43edba6b670bc4f5426e77873b400fe91f8d3c75 regulator: rtmv20: convert to use maple tree register cache
-81c180e77d60755ca5ff217786e2f427ccab04e0 regulator: rtq6752: convert to use maple tree register cache
-9500d38e50d0cfd33536454a204dedb9d47d84a3 regulator: tps51632: convert to use maple tree register cache
-fe258f54c0a85c1bfc0e836e20c3e4e52f1a8318 regulator: tps62360: convert to use maple tree register cache
-ab470abe58c09b2fbe2c1478e67a904fd803e84f regulator: rpi-panel-attiny: convert to use maple tree register cache
-54b8d0956a9bd46e6daf3bbe69a52d3d41def36c regulator: convert to use maple tree register
-
---===============2532131357920846146==--
+--===============5415302347990010050==--
