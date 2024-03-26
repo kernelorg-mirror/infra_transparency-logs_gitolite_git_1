@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7329075779900498451=="
+Content-Type: multipart/mixed; boundary="===============8369727393906145130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 26 Mar 2024 14:01:06 -0000
-Message-Id: <171146166621.24755.11878291026345063762@gitolite.kernel.org>
+Date: Tue, 26 Mar 2024 14:01:29 -0000
+Message-Id: <171146168994.24980.15550526503284125758@gitolite.kernel.org>
 
---===============7329075779900498451==
+--===============8369727393906145130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 53f5094fdf5deacd99b8655df692e9278506724d
-    new: 3de4f996a0b5412aa451729008130a488f71563e
+    old: 3de4f996a0b5412aa451729008130a488f71563e
+    new: 0be3870f7cbbb5db4f062505f3f7dac9009946f3
     log: |
-         15b2e71b4653b3e13df34695a29ebeee237c5af2 usb: typec: ucsi: Clear EVENT_PENDING under PPM lock
-         808a8b9e0b87bbc72bcc1f7ddfe5d04746e7ce56 usb: typec: ucsi: Check for notifications after init
-         6b5c85ddeea77d18c4b69e3bda60e9374a20c304 usb: typec: ucsi: Ack unsupported commands
-         6aaceb7d9cd00f3e065dc4b054ecfe52c5253b03 usb: typec: ucsi_acpi: Refactor and fix DELL quirk
-         3de4f996a0b5412aa451729008130a488f71563e usb: typec: ucsi: Clear UCSI_CCI_RESET_COMPLETE before reset
+         0be3870f7cbbb5db4f062505f3f7dac9009946f3 usb: typec: ucsi: Check capabilities before cable and identity discovery
          
 
---===============7329075779900498451==
+--===============8369727393906145130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711461664 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711461688 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1711461663-662e2fb1f121a30c527665b78c81019d64744498
+nonce 1711461687-78e900bce9880b9f98dd839e770f2d57fd11f32d
 
-53f5094fdf5deacd99b8655df692e9278506724d 3de4f996a0b5412aa451729008130a488f71563e refs/heads/usb-linus
+3de4f996a0b5412aa451729008130a488f71563e 0be3870f7cbbb5db4f062505f3f7dac9009946f3 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYC1SAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++I8P/1kLo2rRCbde+5mhnmXG
-4/yXTCu5x6W4thRQl3rp4nGlpvVyU4+ps2qeS3w7EFWKVNBed4I6UHT4moFSK91/
-CnncuMmFOxgGsC9MkKsxxZvDVYIws8KnY80GIbN8zkB6x5cwxAX77mDdOhfcI2w5
-WtKP4G+3vFEay3YKGUxa6x2gI/kqKQpbnOQkfRPE7GXHB/Mo+CV7KNcFLOrr2JJh
-uTcoggfn+ISh4yfMyibIsbzhh1ZpO3a/hnyYdVrrbzUXX7YhXv0Barquv57DdJsZ
-UPxBESkgHcWYZilaYinB7sj71Bvo/TXX/TqMlAUfKVOd3EGakkJLOdlkqCmnKXjz
-bKaOrIsOGpuYUV5pZbYfB5Dpi6cODLAD1CQEV6NMX1X5dCdKlsZhYnE0n/+ziLrm
-Bs0j1qK6JboH2XjhlRxQ7MOjhOYBq0LLePhxrt6xTYF7eC/CXhZ6zqbbJpdB0qQK
-K+EIPyTytYdQ8aL1/n+7rrG1GAkklKoOO8K5WwozOaQwL+GYc3Ud2myEb/wUKOap
-0T6gyXJpI8JsHjs1danyfu9SBCa04PIkxcN45k4YNxJedddYOGa3zAKJ+IvbNpg9
-92EfI9HxvApVstYuQCnSIqqA0KBAK24l4rS2Tv+9ncvzPQj9nzikCdm1b/eVsZjO
-krd7OhpsQ7SoncxHfZ37RX9P
-=Hmj5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYC1TgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uPgP/jGV/auq/3RDD9tben4w
+vl5Y7b72CjARmaeBXDJM1acbAgsIsklgEUFzvpbyNHX3A4sl9cVz1k+h49yHq0Fg
+OFJNjmGISDetBd9YPPMz1V+IFYM1740mfBdHoQmblPcQ+rv/13wDU92+78eQ7VFP
+Zi4tQHNgoc9aMDjhcJq0Fh7qYd+Le31WILdMKRfyFju3/tOyo2keyh92LrgiiheD
+7r352o0U3PdDjBC2uSU8TrpImXtEeS9UPXkWtZknuhA5EHQYGybHrZgYptUYVeS9
+D00BslLQjnl7VcZlnddGU5yN2CI30bEoGKKC0dEL47H52wlJHUZpMsA1DjxixC36
+QhycvrDwk55uLXvAK/B5LqLi3S8GZZF00VjNb1cTF7ZxeFOeNEyUZGhLTUgHtjyw
+PRZgBsbZqA7kshBd5Pu/C+HLixqZr30V2tKvkdJeGd7oZkYj1qDvL1lq3FbZFg5z
+p5yujNLeKAtkkSW+2IABBrP00Y+av2xPAz3ol7FbAmGGDJizn/fwoAmoAzgpdB4A
+p1JSwHykSwMW/h8Lpvju77ewu537IH90CGVf9nEMVvsodICtJSolPl/cr1MIATFY
+DR/UoYTha1hESrjX+CUA94dyNl/ofbt4efha43asCX7d2cSulEIiaeRQzoomx91d
+ch5m8Owu5lvBMyQhW0w8ZrWo
+=QGM1
 -----END PGP SIGNATURE-----
 
---===============7329075779900498451==--
+--===============8369727393906145130==--
