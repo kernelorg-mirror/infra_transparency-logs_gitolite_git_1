@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4468332309177451521=="
+Content-Type: multipart/mixed; boundary="===============5764264826785158473=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 26 Mar 2024 15:06:47 -0000
-Message-Id: <171146560795.9253.8253048940286028202@gitolite.kernel.org>
+Date: Tue, 26 Mar 2024 15:07:21 -0000
+Message-Id: <171146564180.10444.7964680579171833239@gitolite.kernel.org>
 
---===============4468332309177451521==
+--===============5764264826785158473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: c2deb2e971f5d9aca941ef13ee05566979e337a4
-    new: c1fd3a9433a2bf5a1c272384c2150e48d69df1a4
-    log: revlist-c2deb2e971f5-c1fd3a9433a2.txt
+  - ref: refs/heads/dev-queue
+    old: f866e98d7fbd31e039badb36312c51d9f62b447e
+    new: 4c7a47605bb720acd24e295a62a8a3ae2739521f
+    log: revlist-f866e98d7fbd-4c7a47605bb7.txt
 
---===============4468332309177451521==
+--===============5764264826785158473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2deb2e971f5-c1fd3a9433a2.txt
+Content-Disposition: attachment; filename=revlist-f866e98d7fbd-4c7a47605bb7.txt
 
 44d79142ede8162fd67bf8ca4ddbda1fbcfa94f1 bpf: Temporarily disable atomic operations in BPF arena
 5384cc0d1a88c27448a6a4e65b8abe6486de8012 scripts/bpf_doc: Use silent mode when exec make cmd
@@ -58,5 +58,20 @@ f1425529c33def8b46faae4400dd9e2bbaf16a05 selftests: vxlan_mdb: Fix failures with
 93305b77ffcb042f1538ecc383505e87d95aa05a net: hns3: fix kernel crash when devlink reload during pf initialization
 5bd088d6c21a45ee70e6116879310e54174d75eb net: hns3: mark unexcuted loopback test result as UNEXECUTED
 c1fd3a9433a2bf5a1c272384c2150e48d69df1a4 Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'
+92b4ca08092d810993f45f40def28000c8ab597f e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+a8a4c53a35772b0e88c9783212219a94f9bedae1 ice: Refactor FW data type and fix bitmap casting issue
+426a2cb9383d314a3b6fa139624cf1b3ab3d7bef e1000e: move force SMBUS from enable ulp function to avoid PHY loss issue
+555c688ff0b004c0c1291b82c762fa0644c06f9d ice: fix memory corruption bug with suspend and rebuild
+ea58431b4f278926f0bb1ff9bfd6078fdb7df774 ixgbe: avoid sleeping allocation in ixgbe_ipsec_vf_add_sa()
+12a5629ffc0181f842b13d21d4f8aa46b78c825b ice: tc: do default match on all profiles
+d2786675e8f42ef46419419cdba85cc30c5cf082 i40e: fix i40e_count_filters() to count only active/new filters
+ec5b2500332b6b085cf630d7195686f11787fa0f i40e: fix vf may be used uninitialized in this function warning
+64a5d6181fbe18755716f3b3e1e4a612e1e54fa6 i40e: Prevent setting MTU if greater than MFS
+142a2668a682fa15c216851f1a46211f66f6ad00 igc: Remove stale comment about Tx timestamping
+cd02f351c996384585ce8e500f48f6043226a81c i40e: Fix VF MAC filter removal
+6f20d85ee348c25196b95e68dfb2f1b9ea9edee2 ice: tc: check src_vsi in case of traffic from VF
+4c16f6c0aca0c64843926f87c145caca9889d74e ice: tc: allow zero flags in parsing tc flower
+28deb194efb8884f4e4aeb1fdd62baa2938c2ee2 i40e: Enforce software interrupt during busy-poll exit
+4c7a47605bb720acd24e295a62a8a3ae2739521f idpf: fix kernel panic on unknown packet types
 
---===============4468332309177451521==--
+--===============5764264826785158473==--
