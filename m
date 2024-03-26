@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Tue, 26 Mar 2024 17:11:15 -0000
-Message-Id: <171147307572.6874.2064070154674040672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 26 Mar 2024 17:14:31 -0000
+Message-Id: <171147327198.8337.8177375631498977776@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 70e4a176241b38953036eabcca71f070f9f38166
-    new: 9ccf8fa8d4d7279bb70507e09ffa712359639287
-    log: |
-         43b53968634e2d4271bfa4f96e12e4d9cd57b8c7 bridge: vlan: fix compressvlans usage
-         9ccf8fa8d4d7279bb70507e09ffa712359639287 bridge: vlan: fix compressvlans usage
-         
+  - ref: refs/heads/file6YnMUg
+    old: 0000000000000000000000000000000000000000
+    new: 7b95ee0db7e0a7f99077f1b926323c7bf0d2e8f8
