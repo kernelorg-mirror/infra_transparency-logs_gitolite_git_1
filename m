@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 26 Mar 2024 11:24:46 -0000
-Message-Id: <171145228638.3405.6105894821963586688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 26 Mar 2024 11:30:00 -0000
+Message-Id: <171145260095.6894.13797595069611687804@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/file2E1str
-    old: 0000000000000000000000000000000000000000
-    new: ea5fee227ff3dae209062ac9544906debe1e9ac1
+  - ref: refs/heads/main
+    old: 8c05813df270324ce0b3a8647facc70c9bdd6fb5
+    new: f1425529c33def8b46faae4400dd9e2bbaf16a05
+    log: |
+         f1425529c33def8b46faae4400dd9e2bbaf16a05 selftests: vxlan_mdb: Fix failures with old libnet
+         
