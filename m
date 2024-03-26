@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1859562188935365008=="
+Content-Type: multipart/mixed; boundary="===============3352240912728003731=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 26 Mar 2024 01:18:37 -0000
-Message-Id: <171141591779.9673.3128672967702907525@gitolite.kernel.org>
+Date: Tue, 26 Mar 2024 01:18:54 -0000
+Message-Id: <171141593488.9842.3890275022126819489@gitolite.kernel.org>
 
---===============1859562188935365008==
+--===============3352240912728003731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,51 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: ee0017c3ed8a8abfa4d40e42f908fb38c31e7515
-    new: c214ed2a4dda35b308b0b28eed804d7ae66401f9
-    log: revlist-ee0017c3ed8a-c214ed2a4dda.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: fdd3b8c605dd106345fd2d83d0712fb290ba8b19
+    new: b59abf77470a777181a643fe9fc65cd3274342a6
+    log: revlist-fdd3b8c605dd-b59abf77470a.txt
 
---===============1859562188935365008==
+--===============3352240912728003731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1711415916 -0400
+pusher 75C5DE3D 1711415921 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1711415914-590671e940fd2abe52dfc57afc7faa7f36c0eca5
+nonce 1711415921-78b3209a9964776871f8eff9fe5884460e5c6e66
 
-ee0017c3ed8a8abfa4d40e42f908fb38c31e7515 c214ed2a4dda35b308b0b28eed804d7ae66401f9 refs/heads/fixes
+fdd3b8c605dd106345fd2d83d0712fb290ba8b19 b59abf77470a777181a643fe9fc65cd3274342a6 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYCImwACgkQ7ulgGnXF
-3j09HA/+KkVrzal5Fsi/j1Z8jDUxL521yHpw+ytcEJ2iClBYcxr8/XH5DelXdy1p
-Ss46HQpV0Ob9fh4aJ1ppiqA1Tm2Yo95YjyUrHVRyio5uPkvi0korj5qNy8UiLMDV
-YCvzcfOpPLEtuRvX+98D/F7gj/NNXi7tnYrmbdmhCCNC7yNQ+Ze+/NzfLET5P6ki
-bSIboSVe/aTArkiPIsYi7rXM79yorObE5NZTs+1TJrSo2pYdA9i1IEZA+djvocMm
-lfC5VgD8flzgrGEOi+E1gPEQpVmAQjf+QlPZxC0qBuK73L/3pYWIU6XaYwWWQK1t
-8lQgumseA8yn9PRrlTyvH12KmOVZ2hPOyw+3FQGTBFupRfoX4lYFtz6lAnDSibqx
-nyo05FteBmyTqLToIEEm/DL+W3Q1f/xVpbyaGrt8DT1/U+lBxFAVLKWPWtOy+VzG
-ozoCcAyAswLVMN+QT+vAz8yirMd0zypZx3v0OrbZkz/1XWHjZbkRX6jh7jZtL/hF
-j5kmYCXUX4xY7d1AcVstWNQdOO10nCXvIDlzlqBAU/0Cysmb8uwJ3pFxTbKU/ChU
-Z0px0Qzv1RP0inoAYB6B3SL89+4bYfviIH/olb7PQV8qOiis3+d7kVFQMNXSMVu4
-R8a9GS+BC9UMWTekeSwvHLkYfiUqEBmb48NDLQ49nSqKIker0Zs=
-=uLWO
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYCInEACgkQ7ulgGnXF
+3j2e2hAAqThN1QNxeNeT3WDkfezXFx4pu6Kw/VslLRhvotf52HKV7PxRNcHOBjst
+CAuiTPZ7iWBmIJTeekGDIKmMPPLz3o8RpAWw6tlWF0db/27cmGJ+j3pKBLO4rnX9
+QNWw3CWO9qMjmof9P2UHhexSgEiAGurpeM10lflXYgvQX3rux2mR2zX9jltD3Vio
+FrUUf5bM+DqccS8jUBLsukTyQacWsW5WilkH+LOO8457WuI19hwD10ElvNfW7p6/
+NwdDJKzN/nIClPwaTDWU0l55INwgpudxnpVRbnVtAvrjz9oBzHyCbSxrDDeK/pWi
+4+pamBvK9hJRAfY4ndsIO50VZl4jafGHnv6qfMzrfEQYvQoKIrwhOGgLqV1HeKbU
+yj/TwcSOWfNF0D/rZms/kuAT+ahL4QJjRkLigH/FFRhWMsRBFU6qXFdUzxK9Zh/e
+lh+a4PMKQO55s8Y7B8nzhRpnzSkvDa2eat6hAm8gABOXJQ/nHyTYQalsjqZAyY3D
+0XCj7HAMx8VWHu4pk0yVfz2oZk9k7WgD+Ng9OR3OFsHyE92X4XEx+Ak+s1I30W/e
+UJnrpIoHk4fe7o/gBlqNgjEGbF3V63QWS6YVQMC9Bj6AkTlcCBmpqovv8RX5Hmk6
+qtbc/J+qwojUb3+ji0iBEBLW5hok0jMHW2njKNRagOHFQ7M6vM4=
+=Wa2S
 -----END PGP SIGNATURE-----
 
---===============1859562188935365008==
+--===============3352240912728003731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee0017c3ed8a-c214ed2a4dda.txt
+Content-Disposition: attachment; filename=revlist-fdd3b8c605dd-b59abf77470a.txt
 
+720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
+195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
+f095fefacdd35b4ea97dc6d88d054f2749a73d07 ptp: Move from simple ida to xarray
+379b97bbf02feecae5ce870bc0c67e3d723e30f5 selftests/bpf: Add kprobe multi triggering benchmarks
 86833aec447939a886a13bbdbdf21c9628c5c8c5 Merge tag 'x86-entry-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d6170e4aaf86424c24ce06e355b4573daa891b17 bpf: hardcode BPF_PROG_PACK_SIZE to 2MB * num_possible_nodes()
 66c8473135c62f478301a0e5b3012f203562dfa6 bpf: move sleepable flag from bpf_prog_aux to bpf_prog
@@ -1075,10 +1080,5 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 f02fe780f28db435671fcc7c0214556e253b5a46 Merge branch '6.9/scsi-queue' into 6.9/scsi-fixes
-27f58c04a8f438078583041468ec60597841284d scsi: sg: Avoid sg device teardown race
-0c76106cb97548810214def8ee22700bbbb90543 scsi: sd: Fix TCG OPAL unlock on system resume
-429846b4b6ce9853e0d803a2357bb2e55083adf0 scsi: mpi3mr: Avoid memcpy field-spanning write WARNING
-f23a4d6e07570826fe95023ca1aa96a011fa9f84 scsi: core: Fix unremoved procfs host directory regression
-c214ed2a4dda35b308b0b28eed804d7ae66401f9 scsi: bnx2fc: Remove spin_lock_bh while releasing resources after upload
 
---===============1859562188935365008==--
+--===============3352240912728003731==--
