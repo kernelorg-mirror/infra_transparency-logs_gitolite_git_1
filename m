@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 26 Mar 2024 10:49:54 -0000
-Message-Id: <171145019431.9815.8545465956575481745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/liba2i/liba2i
+Date: Tue, 26 Mar 2024 10:52:03 -0000
+Message-Id: <171145032322.12320.16804186107687831131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/libs/liba2i/liba2i
+user: alx
 changes:
   - ref: refs/heads/main
-    old: 5f563c31ff0c40ce395d0bae7daa94c7950dac97
-    new: 8c05813df270324ce0b3a8647facc70c9bdd6fb5
+    old: 136e59ce715682bf234cff7ec105edda79654e17
+    new: 5b8ce272548910bc0e5cd1f9cb7f096dd8ce36c9
     log: |
-         8c05813df270324ce0b3a8647facc70c9bdd6fb5 MAINTAINERS: split Renesas Ethernet drivers entry
+         5b8ce272548910bc0e5cd1f9cb7f096dd8ce36c9 lib/src/a2i/attr.c: Add missing source file
          
