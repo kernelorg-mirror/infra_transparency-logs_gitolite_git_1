@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5037950883562355839=="
+Content-Type: multipart/mixed; boundary="===============6162865043039513474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 26 Mar 2024 15:26:38 -0000
-Message-Id: <171146679878.25438.1977551175834966669@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 26 Mar 2024 15:26:46 -0000
+Message-Id: <171146680632.25572.9191601075561704907@gitolite.kernel.org>
 
---===============5037950883562355839==
+--===============6162865043039513474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/asoc-6.10
     old: 1e90a846493c716e3e6b4d901fc0844e9eea6430
     new: 35c8c82fa08e0cc66c4777ff07a2f1c9200fdae9
     log: revlist-1e90a846493c-35c8c82fa08e.txt
 
---===============5037950883562355839==
+--===============6162865043039513474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1711466796 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1711466795-caae0e9fe654331ec971ad2d6ad7e346df6028e7
+pusher C3F436CA30F5D8EB 1711466804 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1711466802-0314b6ea4e28432ecaad5d88d8f865d2fbb07d26
 
-1e90a846493c716e3e6b4d901fc0844e9eea6430 35c8c82fa08e0cc66c4777ff07a2f1c9200fdae9 refs/heads/for-6.10
+1e90a846493c716e3e6b4d901fc0844e9eea6430 35c8c82fa08e0cc66c4777ff07a2f1c9200fdae9 refs/heads/asoc-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYC6SwACgkQJNaLcl1U
-h9AS+wf8CLUyG9/GmDBiF9JMhJHE1VoRLKJ9GVO9ze4/Zh7qYPLYa2KA985IRYWf
-GGmy6czZBqAwKuX38ZbZClCpjpWzthBhq4BTQikY4amSHhjvtLHC9jRZQN5yyrwY
-oe980a+Pz8pLRBIB0lLPysyWPACbSXShYZOKrXAck+Uav/pJmraUM3fRtIrr1jUB
-kTOP2bSG0+YtYHoTcI6HCNw2HCkXL4SaVKp+azTFvf1pcQf9gGtMISf9jZ7Yb66J
-4Rjm0igUDA2nvrPWkdFOnrJ1dqIbvtQ9IWQ9tXxQPf9nC27H6/s80gVXQR4mjsRy
-GdH8PGk0Dc3uaw0UbUfedq23+fk6Jw==
-=nirb
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYC6TQACgkQJNaLcl1U
+h9Bd/gf/ZIL+umqrTXiHYk5SAgoYgxHW4LVpuksowuOIk7pqzt1nO0xC1n21Wx38
+trdTYqoskHKHM2BBcVWSeb//C150b3e27jxwJHY4AYtANmnRRF0LXRVL7LeiJZf0
+CpXW9lYV9BjUPWD55WXwsBJ36tuSPryhvuPuouo7NWPX2p4W4RsvghBnSjBSGS5/
+0SIolr5Uja8+f/2eo3izQFMgaO1B51otMhOFEqK6mzuWPLC5GF1H7yy8qjwvuC10
+8872MbtJl8CQZ6BTOZqeFhF+NpkGQK9Vl2nvOU4c8/d8Zcm+PVk3O5JgckWpzYQT
+iqkYg5CAg+xyCMCsq/5toDs+VH5JYg==
+=tRZL
 -----END PGP SIGNATURE-----
 
---===============5037950883562355839==
+--===============6162865043039513474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -101,4 +101,4 @@ d7e6a980ddb26d2008d0392f1de4e8d2ea0df067 ASoC: Harden DAPM route checks and Inte
 fc32f949ed45488353bcdefd92afa43a081253a9 ASoC: codecs: ES8326: Reducin powerconsumption and
 35c8c82fa08e0cc66c4777ff07a2f1c9200fdae9 Add support for jack detection to codec present in
 
---===============5037950883562355839==--
+--===============6162865043039513474==--
