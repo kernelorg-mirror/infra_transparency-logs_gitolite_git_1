@@ -1,45 +1,75 @@
-Content-Type: multipart/mixed; boundary="===============0563939882711459731=="
+Content-Type: multipart/mixed; boundary="===============6853675737261058837=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 26 Mar 2024 08:55:07 -0000
-Message-Id: <171144330706.9211.14590172060627340869@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Tue, 26 Mar 2024 08:59:59 -0000
+Message-Id: <171144359970.11076.15436589467596897331@gitolite.kernel.org>
 
---===============0563939882711459731==
+--===============6853675737261058837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 57b1d48ba64013d61c0165a6b3e43011bb2f1448
-    new: d8b64307e5c05b651f839b15d5b3577e9f50a9d4
-    log: revlist-57b1d48ba640-d8b64307e5c0.txt
+  - ref: refs/heads/for-next
+    old: ea3ca48c0c18d20138ea64dbd89780fdcadcec38
+    new: 62dceac6d4bf635e229f194593cd79ac9b2dc4d7
+    log: |
+         7fa37084061fef80dab81bc062c6ec0fa8c26b2d clk: samsung: Implement manual PLL control for ARM64 SoCs
+         dedf87341ad66fa6889fedcf610b6941d2d3bcb6 clk: samsung: exynos850: Add CMU_CPUCL0 and CMU_CPUCL1
+         704094c5981287c85dfdb0bf53abdfcdcc1f8597 arm64: dts: exynos850: Add CPU clocks
+         aff58b711272bf238d437e1cb1ed76749ee7b3da Merge branch 'next/dt64' into for-next
+         62dceac6d4bf635e229f194593cd79ac9b2dc4d7 Merge branch 'next/clk' into for-next
+         
+  - ref: refs/heads/next/clk
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: dedf87341ad66fa6889fedcf610b6941d2d3bcb6
+    log: |
+         7fa37084061fef80dab81bc062c6ec0fa8c26b2d clk: samsung: Implement manual PLL control for ARM64 SoCs
+         dedf87341ad66fa6889fedcf610b6941d2d3bcb6 clk: samsung: exynos850: Add CMU_CPUCL0 and CMU_CPUCL1
+         
+  - ref: refs/heads/next/dt64
+    old: b115751fddaf31a0367c19bf080dddcb928a109a
+    new: 704094c5981287c85dfdb0bf53abdfcdcc1f8597
+    log: |
+         704094c5981287c85dfdb0bf53abdfcdcc1f8597 arm64: dts: exynos850: Add CPU clocks
+         
 
---===============0563939882711459731==
+--===============6853675737261058837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57b1d48ba640-d8b64307e5c0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-09db49cff6a53bc64bcebc710fb6355460f31a8a Merge branch into tip/master: 'x86/merge'
-0ae9db244532356db4b0e28c08a0786ae0e064e1 Merge branch into tip/master: 'irq/urgent'
-a30b6abf743c8d094a225fc8c7efa94dee2528de Merge branch into tip/master: 'perf/urgent'
-0bf111c378c73987c2c4557de02becf02c189f24 Merge branch into tip/master: 'WIP.fixes'
-29e232b566f1a23080036c29396b137aacec5896 Merge branch into tip/master: 'irq/core'
-70033a26e4fe403640cb4a842844bca3d6deb8c8 Merge branch into tip/master: 'locking/core'
-0d0a5addfb8f99984acce8fbd28cd6c6cd09ae19 Merge branch into tip/master: 'perf/core'
-8636484841642c20e9c8066bd4ddbcc3b765d38f Merge branch into tip/master: 'sched/core'
-427493bce2506d8e979448b305713f9b2a04d0b6 Merge branch into tip/master: 'x86/asm'
-486f546125bcb0f1af7a9b3b9706c6a6c54dc9a0 Merge branch into tip/master: 'x86/boot'
-49ddcc72ca721eca2b371b999360d23b4503f0c3 Merge branch into tip/master: 'x86/build'
-0b634a06dfbe78c9d8562e125a137de5d03b9f37 Merge branch into tip/master: 'x86/cleanups'
-67585feeb8c3c31484444a0b91d28b8c554b0ca8 Merge branch into tip/master: 'x86/cpu'
-d751cc2f9ff5deabac547c06f399c7abee364b1d Merge branch into tip/master: 'x86/fpu'
-d8b64307e5c05b651f839b15d5b3577e9f50a9d4 Merge branch into tip/master: 'x86/shstk'
+certificate version 0.1
+pusher krzk@kernel.org 1711443595 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1711443595-f1a57ef300e21f693af9615dcad74b3a01bf248e
 
---===============0563939882711459731==--
+ea3ca48c0c18d20138ea64dbd89780fdcadcec38 62dceac6d4bf635e229f194593cd79ac9b2dc4d7 refs/heads/for-next
+4cece764965020c22cff7665b18a012006359095 dedf87341ad66fa6889fedcf610b6941d2d3bcb6 refs/heads/next/clk
+b115751fddaf31a0367c19bf080dddcb928a109a 704094c5981287c85dfdb0bf53abdfcdcc1f8597 refs/heads/next/dt64
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYCjosQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1wOeD/90AYIvLUWRWYHZR8IN+shvz6SFJwDdfXGE
+UvCotDa4SGecPBwm+bmSt/fN9DPSvVod4NsANvBX241C3WQoQ1qhXF4OTnXf+I0R
+WUItR6xXTh0ugzZ5ww6UckVs53L5SJbvAR1WY/rZO5EfD5HUb/kffb9kWqFkPF4w
+04KgXMOt/TyayyHnxk6LMEGcEbZrdZ4cnbLvhPQGC4mEG4L4dUUYHER5pLjaa3Pp
+WzrTFGp5GdepQbEEXP6OSrPIds58sEe18jap5ni8juVcvhL602CvZ/+7sunepj5Z
+r/k0UhjJUfnQoNHOFlJi9Wcr/XDifV9NWiJhEydKdQFfWYz/+r86c7gTDad4Q1Mh
+xwc/NoyOVJjXjoKO+jvFgQYKoTScd2Afq37XAn+6drIBc5W08ASI4Ra9uxf4i7VG
+qwqWEZ1v12NVfDgs2RqZHN1odTO9UtArshKZ7OG5z8D3lxPPYqloib0oPl+iYcbR
+OdZKRvA1Qc39+9EgBVLuCsg3onKcbjEaHfoY0HBwyenVX/8tTQzJ+3thYNcSiYX8
+1T6bRKk7CFvmiY6+3PWEHvSffOq4ZPFbaYBIeWVl1XV6hsCPC8TdgJ5CmMYznCaP
+k4/twW4TvgAwyoEBWcuwGEdpgEzw8U+d2emjr0jKq6hlLjvkecoj6GDF/Jv2FveB
+2OYNxNsepQ==
+=oDuY
+-----END PGP SIGNATURE-----
+
+--===============6853675737261058837==--
