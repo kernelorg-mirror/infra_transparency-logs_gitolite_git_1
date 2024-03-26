@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0573036640806836957=="
+Content-Type: multipart/mixed; boundary="===============3268551661438286179=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 26 Mar 2024 14:25:02 -0000
-Message-Id: <171146310222.9877.8344996710397931053@gitolite.kernel.org>
+Date: Tue, 26 Mar 2024 14:25:20 -0000
+Message-Id: <171146312088.11591.10623368544511921534@gitolite.kernel.org>
 
---===============0573036640806836957==
+--===============3268551661438286179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 2900d362b5b5a54426ee30bf6b7527c9bdfa0c66
     new: 6999f8229e5998e8286e6a960779b6c202d878da
     log: revlist-2900d362b5b5-6999f8229e59.txt
 
---===============0573036640806836957==
+--===============3268551661438286179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -94,4 +94,4 @@ ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git
 019e41d1bee9bb730dfd1ccecabdb254e5c3b6cc keys: update key quotas in key_put()
 6999f8229e5998e8286e6a960779b6c202d878da keys: Fix overwrite of key expiration on instantiation
 
---===============0573036640806836957==--
+--===============3268551661438286179==--
