@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 26 Mar 2024 08:44:46 -0000
-Message-Id: <171144268632.32456.13284535147201367707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 26 Mar 2024 08:49:57 -0000
+Message-Id: <171144299714.3659.6441706968970546766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/main
-    old: 7d5a7dd5a35876f0ecc286f3602a88887a788217
-    new: 5f563c31ff0c40ce395d0bae7daa94c7950dac97
+  - ref: refs/heads/x86/cpu
+    old: 29ba89f1895285f06c333546882e0c5ae9a6df23
+    new: cd2236c2f49eb46443fd7573d0ddad5373577b11
     log: |
-         5f563c31ff0c40ce395d0bae7daa94c7950dac97 net: dsa: mt7530: fix improper frames on all 25MHz and 40MHz XTAL MT7530
+         cd2236c2f49eb46443fd7573d0ddad5373577b11 x86/cpu: Clear TME feature flag if TME is not enabled by BIOS
          
