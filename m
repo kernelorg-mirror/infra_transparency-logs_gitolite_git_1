@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 26 Mar 2024 18:15:05 -0000
-Message-Id: <171147690548.22007.10446728767858262158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 26 Mar 2024 18:20:19 -0000
+Message-Id: <171147721916.25475.17513058645500364690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/dev
-    old: 8ce7244d1e54ebb76c937083d452438a4c543d2c
-    new: bdf4942bf7cbf1253b42ffe6425fcf487d31dc0b
+  - ref: refs/heads/togreg
+    old: c5b2db5859957150ac6ed305ab41a4a92ca40cfb
+    new: a276b4da56e988157a34b9fef9c46ebfd95f7f09
     log: |
-         d8e9d65e923a7a63e1c39a936dadf8e12b9ff40c rcu: Mollify sparse with RCU guard
-         7c6b6c54562b40f3472e69d47531985d4a5c9af3 rcutorture: Make stall-tasks directly exit when rcutorture tests end
-         17bb5093493efb28ba57a97b2020acb4e2c2d639 rcu-tasks: Update show_rcu_tasks_trace_gp_kthread buffer size
-         bdf4942bf7cbf1253b42ffe6425fcf487d31dc0b rcutorture: Fix invalid context warning when enable srcu barrier testing
+         b3c6e4cfa7079911ed35b38359d9c7de6116ec6d dt-bindings: iio: health: maxim,max30102: add max30101
+         a276b4da56e988157a34b9fef9c46ebfd95f7f09 iio: health: max30102: add support for max30101
          
