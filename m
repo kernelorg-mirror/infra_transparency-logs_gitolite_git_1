@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0838167124611335173=="
+Content-Type: multipart/mixed; boundary="===============7615173945157774829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 26 Mar 2024 10:01:17 -0000
-Message-Id: <171144727755.7238.8902765799459056678@gitolite.kernel.org>
+Date: Tue, 26 Mar 2024 10:01:49 -0000
+Message-Id: <171144730999.7529.5001348848964761708@gitolite.kernel.org>
 
---===============0838167124611335173==
+--===============7615173945157774829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: cd5432c712351a3d5f82512908f5febfca946ca6
-    new: f5e9bda03aa50ffad36eccafe893d004ef213c43
+    old: f5e9bda03aa50ffad36eccafe893d004ef213c43
+    new: 7c9631969287a5366bc8e39cd5abff154b35fb80
     log: |
-         893cd9469c68a89a34956121685617dbb37497b1 usb: typec: tcpm: Correct port source pdo array in pd_set callback
-         f5e9bda03aa50ffad36eccafe893d004ef213c43 usb: typec: ucsi: Fix race between typec_switch and role_switch
+         7c9631969287a5366bc8e39cd5abff154b35fb80 usb: misc: ljca: Fix double free in error handling path
          
 
---===============0838167124611335173==
+--===============7615173945157774829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711447275 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711447308 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1711447273-d25ccd532a3b2eafc9ec8f86774d136b9dd4e305
+nonce 1711447307-d174ff05438339f56ed6ae0b990d6847b8eaf2df
 
-cd5432c712351a3d5f82512908f5febfca946ca6 f5e9bda03aa50ffad36eccafe893d004ef213c43 refs/heads/usb-linus
+f5e9bda03aa50ffad36eccafe893d004ef213c43 7c9631969287a5366bc8e39cd5abff154b35fb80 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYCnOsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h/kP/045hzQ2YuaDsjqRk17c
-t4SxhG6pGP8JptE4Rue8wBJHvDd+uQIxjfdelLBbvdMDHrvbvRJa8ReiG7HwMlAz
-6fG014gKHONWhFr3BCbA5+W5LjcS76XXF8sLUUpEclk43/bazVL+w0z635K7GTc+
-erEOBNWsMiZ5pYS0k7UTp6D4gppgns6DZ//Z9liTtgTl6CP6LOmZLnOtHXMNqmhs
-hJpYvonykgt0eRNMWysLMvmfRvMNAGyLix85SfR+a4YTMly8r7H1FeUBB4ijKcXQ
-ZWrfPcAa6LkeCM+vpwyHk60kLHmZZSB+/LE0gcc8A7SLD5YXXCUZZ4sXlQJnlFvC
-+JmLvVKXKFutZiKLeMxIKZBQ8VYTpEQnx6vaToGEmLd5I2mqBT0MMzbrzuDLUAFP
-kKtZsL7IzWsAgaFcdp6nCK8qvZtne52+4/W0KPJtS1P0cRCw3eTm/6dUOw1cBNXO
-3knI4eWFbpQd2xe4dtqW5eXuudgFnDVPYgJpAOjDx/B9/AfwhDVqSj+qZr80LHan
-gGgbcuhq+UDZW+J7x4WQKuUcOfHKNDq2QU+Y/RlkuhVzOwbLlnkJcKvW39ABnxiB
-32wUuTzUB8JvRBEZAwIkyy6+uxd/bHimpZxButveaCCb7TG0/HMjj7FP4/BHc2cG
-TfTprQ/GrFArK4u+5QPNXym5
-=oRxn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYCnQwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B9wQAK5b24gXfRyuZfTNFc6u
+zR9uH7BRbU0koFSYFoiqOqoMeh1IOiKIbewgk8qLe0cLTyovPw5Am4Y8cRI7BLJ1
+XHKDLTahiAmSefSbL69ir1602E+Wkn6R0Wc8kc2VvD7fC6yktnpZAyeKFEuN95Dp
+LcZw1oQAqUt2cYBMTRe7yzP148obBZlNPbj2Y3Bsm2LzZXOGgsWuwjX+rkZAbBdy
+9iW1aB39dua/u0A9bYIOhHMxkDFOhJ+XZ+evdsfFTY53QCaFw36bhw815VEIBEzm
+Vp1rfPC1r8cXPSK/7ZbBl/x4n2mGC9cjfGqSRh3nq6GCy2tjAfW8o+FG6yOzT4r8
+RXetTavXSpT23i9DnKAclot9SkyeaOwSIj3cH0VzrWoMKkBsvUNGNq76CiRcIXz4
+M6CLj7WRT2IyYgKLP3ktrhDsq0SEovJNNU/CqvkYW1MLL6FdRvu1a45ApHY2euv7
+057GJym1/yDVZrM3EyQPeOdP6YdUDSkTkNck6dZ5I34QNTMyWciuiC08kmVAYLTB
+1CkmEFuSadO2DVVXz5ji8fLPKdJ0N+0ffBFWXrwPUjkSm9hOUJsAVRlQK4JKx83a
+uRfejOrlTf/nKmV/Cw4qm7m+KG8wvoiXr7T8H6uevk+i5Cad3VxAbn9uiwMBwRub
+SaXJIG2WCngd4UGYg07oNGWD
+=claQ
 -----END PGP SIGNATURE-----
 
---===============0838167124611335173==--
+--===============7615173945157774829==--
