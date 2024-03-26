@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 26 Mar 2024 11:49:18 -0000
-Message-Id: <171145375839.22291.15509569083325541215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 26 Mar 2024 11:49:28 -0000
+Message-Id: <171145376820.22460.15440283808690783263@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 3164b2c1cc5dda6d52477cfb5c3ca5944d4d8c2c
-    new: c60aac618ea0aaeecc9b82a28f085b9e02a575dd
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: a469158eaf8f4b10263b417856d923dfa38ae96d
     log: |
-         c60aac618ea0aaeecc9b82a28f085b9e02a575dd Merge remote-tracking branch 'asoc/for-6.8' into asoc-linus
+         a469158eaf8f4b10263b417856d923dfa38ae96d regulator: tps65132: Add of_match table
          
   - ref: refs/heads/for-next
-    old: 286036cecb7c80bf63370ce2fe881f505ad04dc4
-    new: 1ae8bb366e2f61b5ebcda6fa90ff114b8780e920
+    old: cd290abbdab3fb4db403b6fc0ae4038b22268bee
+    new: 187044ac4cabac34e2a29791f68db9d66e55118a
     log: |
-         b340f56a74b62d8ce8617650c8ab4a26c87ba5c5 ASoC: dt-bindings: wm8974: Convert to dtschema
-         c60aac618ea0aaeecc9b82a28f085b9e02a575dd Merge remote-tracking branch 'asoc/for-6.8' into asoc-linus
-         1ae8bb366e2f61b5ebcda6fa90ff114b8780e920 Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
+         a469158eaf8f4b10263b417856d923dfa38ae96d regulator: tps65132: Add of_match table
+         187044ac4cabac34e2a29791f68db9d66e55118a Merge remote-tracking branch 'regulator/for-6.10' into regulator-next
          
