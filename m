@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0269195131490211810=="
+Content-Type: multipart/mixed; boundary="===============1045844210443555293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 26 Mar 2024 09:48:51 -0000
-Message-Id: <171144653104.29763.15897490112937656333@gitolite.kernel.org>
+Date: Tue, 26 Mar 2024 09:51:17 -0000
+Message-Id: <171144667734.32378.14131658470594859737@gitolite.kernel.org>
 
---===============0269195131490211810==
+--===============1045844210443555293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 9adc4c8dea19c7858c7d3362d3cd026f895ada8b
-    new: 7713350c9d558691e0c9aaf22a3275030e43929c
+  - ref: refs/heads/usb-linus
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: cd5432c712351a3d5f82512908f5febfca946ca6
     log: |
-         152215ba071e4e47d3866202070fc9020618c5a7 usb: chipidea: ci_hdrc_imx: align usb wakeup clock name with dt-bindings
-         43b798a75d23369b434a2d2def0809058ce98b53 dt-bindings: usb: chipidea,usb2-imx: move imx parts to dedicated schema
-         99ed29dc1dc63e4e8445b64980768f5d47513884 dt-bindings: usb: ci-hdrc-usb2-imx: add restrictions for reg, interrupts, clock and clock-names properties
-         7713350c9d558691e0c9aaf22a3275030e43929c dt-bindings: usb: ci-hdrc-usb2-imx: add compatible and clock-names restriction for imx93
+         cd5432c712351a3d5f82512908f5febfca946ca6 USB: UAS: return ENODEV when submit urbs fail with device not attached
          
 
---===============0269195131490211810==
+--===============1045844210443555293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711446529 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711446675 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1711446525-de6d250e9f06d09c34e2de39a590706f0c64f1d3
+nonce 1711446673-4fd0651eab22342321aa3f4771a7c4e11b5d1d86
 
-9adc4c8dea19c7858c7d3362d3cd026f895ada8b 7713350c9d558691e0c9aaf22a3275030e43929c refs/heads/usb-testing
+4cece764965020c22cff7665b18a012006359095 cd5432c712351a3d5f82512908f5febfca946ca6 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYCmgEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x9MP/R2RcCN0oWOWNN8e3aA7
-SyD29CdMkVF9DSJUIDFWCKCTH5WION7+/NmwmsE3fzLXcrYzYx0duJPb2y0lGP8J
-57keUEidTLFY4PwxpbVfa5eROCgv1Vvip12ly59iR3kOYA6XpoA5fW1jBNsHokiw
-qHq93omEzIL4PXsWUi55yL8ikh3aBDOB3/7eyRJRoQ+2G7q6gFAlusAwHps/+Yho
-lroVIkuTZ5YhFiGwOSGSI8Th5LYmIHktafItgInt8DRw8jDZWG/d9TnTkD7D3+ga
-W36bJbwGR60YbeypJOEmGQYRjQbUreA0gGJ20PHY9+u0CmUDH50SuJtmCUn/YQfq
-PDUppyzv9HvI2TWYNf0cOITyxCdMG0Ome2nZMz/Ivfw+GVEEjkxjOn++w5yCi6yr
-8tG/JsZkUlNMrwWsvW7i4bKMEGYh9aWfyCOI8hpWN6LrqTEyK9BD2IDN0UWYaatP
-DgoEdbZ7wjrQv7pgHpkiaGQ4SFl5pBVl3aq/7nOXhNSY8mT5Nu3fgvQ9u86FJsp1
-+FTBleEUeIT5/klkJnEA8N8sxh9KeaTpHdGdmIngg8xqDGz5qoJ2sHKf1uh038QH
-JylHbb2ywNz8J3Unenr+FSmCx3157n0aNQ05YgCH3EAhgCsCbt7WQZhr2I7B28PP
-ehp59qS7TUw/9R4PIjHmTi0b
-=JjZV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYCmpMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1SoQAJQTbu37cHojOWxEl6Eu
+H6ZF0S08Y6A5zpPHwmmZQHnhTYR/wXJwS+Q87P12xLZ9y+ih4dm6NKXReJ5YcPBG
+QG2xg40uLpVq2c4nQKzLehaG9yNA0Ik4epNtiNpP4hdGfz3AyG4mew84As2EupgR
+BKLegJYxktccsnzlB7vP9tWz5qLLvjFaNcq/+v73tJXwSSwsFP1O/MvN9B/Qd62+
+QvNRnwb+sX/LndR8Q+zsT3KSiMXGJV24sZyeukgWSz240BnxkRbn/0UabYDhWcXS
+MxE5vc80nyVwkSMBEgIyzeVkFKLUZMJS7YtLybIVsnvvFE/ebGSwM+/3J64OVxGj
+ZxQdJEDN9O2fZuj0qD33aljrwhWEiySGb1YpnIdiWgenN7NS7LdLMoZdMvpTUu4f
+U3qU1JhSwU+AaOy3IE6O/FOQRyiaqkcEQcdF4Vd7SFxjOj7GOY9YTKLW4UuW9ZMr
+FKQQAjSLBz+4VH/BVzDxSfYNKzB/jnhyRjRjNVbCsMAs/mYiWM761Uujp6oTo8ez
+aHsZ49a30yF688g1ovFxrLaPO9m6kFyMm2c5Gquolpr9d/i4sZsHDjQx/GGPy3PF
+38lB4GQOiv0W6F1hj0KhbRC+QRTndUi9Gov4/uZ7AQ2ZxKqsl3dt2YD578VaZnd5
+epxReuSyLZAuaeffsMbmv3WB
+=1zqV
 -----END PGP SIGNATURE-----
 
---===============0269195131490211810==--
+--===============1045844210443555293==--
