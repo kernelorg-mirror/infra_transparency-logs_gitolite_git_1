@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 26 Mar 2024 19:57:13 -0000
-Message-Id: <171148303361.31906.3054592282254535777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Tue, 26 Mar 2024 20:06:26 -0000
+Message-Id: <171148358632.6047.8820602836610366519@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/testing/WFAMNAE-next20240325-CBC
-    old: cb97b6a345ed81b610d2fd90ac7c63c2c2c8a744
-    new: 07dd77620abf48b4340ac6f3855be9ee72fc2752
+  - ref: refs/heads/fixes
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: e327975cc99c85239a9afa241fc76b164a68b880
     log: |
-         07dd77620abf48b4340ac6f3855be9ee72fc2752 Bluetooth: L2CAP: Avoid -Wflex-array-member-not-at-end warnings
+         7d3fb2f63dbf540b34b9b14ac3b4c2e83ac8d653 kselftest/clone3: Make test names for set_tid test stable
+         bd7860d0cea45963877a1e890469b99e1659e5da selftests/ftrace: Fix event filter target_func selection
+         1b6b04210fcf1029b02d7abd9997ea50909120d0 selftests/seccomp: Try to fit runtime of benchmark into timeout
+         e327975cc99c85239a9afa241fc76b164a68b880 selftests/exec: execveat: Improve debug reporting
          
