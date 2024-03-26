@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Tue, 26 Mar 2024 05:32:55 -0000
-Message-Id: <171143117573.32326.6648105044458258454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 26 Mar 2024 06:13:14 -0000
+Message-Id: <171143359495.29678.2095398384677625029@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geoff/ps3-linux
-user: geoff
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/ps3-queue-v6.9
-    old: 187f6e3cc0d1111a352b95ad3da531c436b84984
-    new: 9ad79b9dd3b0bfa9ea36487d1ede4171ba1dcaea
+  - ref: refs/heads/experimental
+    old: 4a272dbfb44ef29d4a6ecb0365745daaafc64fa5
+    new: dd016d47668f34cbef49849841fbd15de42964d1
     log: |
-         9ad79b9dd3b0bfa9ea36487d1ede4171ba1dcaea ps3_defconfig: Refresh for v6.9
+         0594f8e799ae002679acc9f41d62955ffc38c4a4 erofs-utils: move pclustersize to `struct z_erofs_compress_sctx`
+         c58a8cd12d20a12edcba683a046cad64f5f16c97 erofs-utils: tar: all regular inodes should be zeroed in headerball mode
+         dd016d47668f34cbef49849841fbd15de42964d1 erofs-utils: lib: drop prefix_sha256 digests
          
