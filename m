@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2912951486457009620=="
+Content-Type: multipart/mixed; boundary="===============0269195131490211810=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 26 Mar 2024 09:47:46 -0000
-Message-Id: <171144646610.29280.7384784449805101869@gitolite.kernel.org>
+Date: Tue, 26 Mar 2024 09:48:51 -0000
+Message-Id: <171144653104.29763.15897490112937656333@gitolite.kernel.org>
 
---===============2912951486457009620==
+--===============0269195131490211810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 11a2d9e8561f47364caaa68646c71dbd693946ab
-    new: 9adc4c8dea19c7858c7d3362d3cd026f895ada8b
+    old: 9adc4c8dea19c7858c7d3362d3cd026f895ada8b
+    new: 7713350c9d558691e0c9aaf22a3275030e43929c
     log: |
-         550d05e7923f849b92e30d00e280aea9c761937a dt-bindings: usb: dwc2: Add support for Sophgo CV18XX/SG200X series SoC
-         56a0c0de156c0498e6ecb9a24fb0d76c078d3cd9 usb: dwc2: add support for Sophgo CV18XX/SG200X series SoC
-         4c9e7427c99ca247c33b9c9536a9773d6fb012d5 dt-bindings: usb: renesas,usbhs: Document RZ/G2L family compatible
-         3b4c9d2c4b2c74b8e8d993ece73da2e6ed0f3eae usb: renesas_usbhs: Simplify obtaining device data
-         a206be4ebdb606160e154aee86966521d2e575c6 usb: renesas_usbhs: Improve usbhsc_default_pipe[] for isochronous transfers
-         8c37e41d8fa67409ed529fc1955a90c5ff0ad735 usb: renesas_usbhs: Update usbhs pipe configuration for RZ/G2L family
-         b523c3c0c0fcf5ca51b0574256835c59594b6c0e usb: renesas_usbhs: Remove trailing comma in the terminator entry for OF table
-         9adc4c8dea19c7858c7d3362d3cd026f895ada8b arm64: dts: renesas: r9a07g0{43,44,54}: Update RZ/G2L family compatible
+         152215ba071e4e47d3866202070fc9020618c5a7 usb: chipidea: ci_hdrc_imx: align usb wakeup clock name with dt-bindings
+         43b798a75d23369b434a2d2def0809058ce98b53 dt-bindings: usb: chipidea,usb2-imx: move imx parts to dedicated schema
+         99ed29dc1dc63e4e8445b64980768f5d47513884 dt-bindings: usb: ci-hdrc-usb2-imx: add restrictions for reg, interrupts, clock and clock-names properties
+         7713350c9d558691e0c9aaf22a3275030e43929c dt-bindings: usb: ci-hdrc-usb2-imx: add compatible and clock-names restriction for imx93
          
 
---===============2912951486457009620==
+--===============0269195131490211810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711446463 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711446529 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1711446462-d2ade78f808cd2658bcd2742dc0dfd0d8886cd46
+nonce 1711446525-de6d250e9f06d09c34e2de39a590706f0c64f1d3
 
-11a2d9e8561f47364caaa68646c71dbd693946ab 9adc4c8dea19c7858c7d3362d3cd026f895ada8b refs/heads/usb-testing
+9adc4c8dea19c7858c7d3362d3cd026f895ada8b 7713350c9d558691e0c9aaf22a3275030e43929c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYCmb8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sPYP+wah7oxbCqGro4+qlLgc
-p6A+uasR+Qty+lHIj4FFxvmSP7PbYbQ//F7s1ICSzkDiKk1h4ugMJH0zLhhJ6IA1
-/6x2S+Cm00xEjiPzWKu8SrgGph4jneB5C9Lm5G/YALXG9vP1bkitj+Euheziv2+J
-vDiJOObe8ADHZGuC802pQ/F7pWfA4NP/WqnQbpBxPB1kajGuR3hic7TCJJBFOgvY
-jmaAyV2SqaQ+jXS/vrY2YDwm5n+eF4uSw+Sh2/K/6pgDRzuXe2cvwSBK7zhMYWOJ
-cBhJTG4uoyzvjq+Bo5lNlKx8UXmcH78HJj7PrFZ3sctModUJsr4M69negrMuFSI6
-KlPgbsljnO8ZJpRdvWd9tusU4ZCp/9umdXvoka8bHLsx31+eOMqkuvkDKhpHjBIp
-XWetbvKl55MV9kw+HH6UzYIDNvXIVvumgCYxLT+o8HIGfUMWUdOTS5qGmL2vJ8Ya
-2AoflMbKZKNTwDSaah6Pquar4SnHV42pWaP8wG+N/Su3EalhTLSpvfubL7nmDohx
-ULw8xz49IeK8CJP4MgwO40b0XqP0oJZ2jJyDEjM+uLZqvfS2Wwx6YtoznTgWlLVu
-0X1c+nrFakc5i25UpeVTi+KmwxM/Gi0NyYV8nYU1S+ja7+rxEkeZr6MRzhFb8FIF
-nzPAZwUd6TKrrWBoiz75GSQs
-=4C6e
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYCmgEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x9MP/R2RcCN0oWOWNN8e3aA7
+SyD29CdMkVF9DSJUIDFWCKCTH5WION7+/NmwmsE3fzLXcrYzYx0duJPb2y0lGP8J
+57keUEidTLFY4PwxpbVfa5eROCgv1Vvip12ly59iR3kOYA6XpoA5fW1jBNsHokiw
+qHq93omEzIL4PXsWUi55yL8ikh3aBDOB3/7eyRJRoQ+2G7q6gFAlusAwHps/+Yho
+lroVIkuTZ5YhFiGwOSGSI8Th5LYmIHktafItgInt8DRw8jDZWG/d9TnTkD7D3+ga
+W36bJbwGR60YbeypJOEmGQYRjQbUreA0gGJ20PHY9+u0CmUDH50SuJtmCUn/YQfq
+PDUppyzv9HvI2TWYNf0cOITyxCdMG0Ome2nZMz/Ivfw+GVEEjkxjOn++w5yCi6yr
+8tG/JsZkUlNMrwWsvW7i4bKMEGYh9aWfyCOI8hpWN6LrqTEyK9BD2IDN0UWYaatP
+DgoEdbZ7wjrQv7pgHpkiaGQ4SFl5pBVl3aq/7nOXhNSY8mT5Nu3fgvQ9u86FJsp1
++FTBleEUeIT5/klkJnEA8N8sxh9KeaTpHdGdmIngg8xqDGz5qoJ2sHKf1uh038QH
+JylHbb2ywNz8J3Unenr+FSmCx3157n0aNQ05YgCH3EAhgCsCbt7WQZhr2I7B28PP
+ehp59qS7TUw/9R4PIjHmTi0b
+=JjZV
 -----END PGP SIGNATURE-----
 
---===============2912951486457009620==--
+--===============0269195131490211810==--
