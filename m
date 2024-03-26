@@ -1,60 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============2244474506852293321=="
+Content-Type: multipart/mixed; boundary="===============0226255628164337285=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 26 Mar 2024 06:37:52 -0000
-Message-Id: <171143507240.27001.15770644670025866003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 26 Mar 2024 07:30:14 -0000
+Message-Id: <171143821455.11182.8706219893230280608@gitolite.kernel.org>
 
---===============2244474506852293321==
+--===============0226255628164337285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4cece764965020c22cff7665b18a012006359095
-    new: 928a87efa42302a23bb9554be081a28058495f22
-    log: |
-         c95346ac918c5badf51b9a7ac58a26d3bd5bb224 gfs2: Fix invalid metadata access in punch_hole
-         203a6763ab699da0568fd2b76303d03bb121abd4 Revert "crypto: pkcs7 - remove sha1 support"
-         5a7e89d3315d1be86aff8a8bf849023cda6547f7 crypto: iaa - Fix nr_cpus < nr_iaa case
-         174fdc93a241af54772ae3e745ec719e9f6cebfc Merge tag 'v6.9-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-         928a87efa42302a23bb9554be081a28058495f22 Merge tag 'gfs2-v6.8-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
-         
+    old: 4e2b6e891aaed8a4dabf618aa8267f7fdbb5c69f
+    new: 83345489c5545fdbd2259fd6484ce9bf5be7a967
+    log: revlist-4e2b6e891aae-83345489c554.txt
 
---===============2244474506852293321==
+--===============0226255628164337285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4e2b6e891aae-83345489c554.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711435067 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1711435065-bf03dd2bf9fd32052c9ba5c8ecba14bc19048f7f
+29ba89f1895285f06c333546882e0c5ae9a6df23 x86/CPU/AMD: Improve the erratum 1386 workaround
+c3262d3d19d2d42705334e40d9c731c2a5df9eb5 x86/head: Simplify relative include path to xen-head.S
+46efb3053f4f23357e9e29f8abaa6f801d956a0c irqchip/renesas-rzg2l: Simplify rzg2l_irqc_irq_{en,dis}able()
+0151a8db49b0a88f967dca0ea5ae2bee2d67b22a dt-bindings: interrupt-controller: Add RISC-V incoming MSI controller
+21a8f8a0eb35ceb21e2c9ddd87468bc3b5ac87c0 irqchip: Add RISC-V incoming MSI controller early driver
+027e125acdbad79e9a7274940e8bf92299b208af irqchip/riscv-imsic: Add device MSI domain support for platform devices
+5c5a71d0434093cd42d09afd4e2032c0b16a7da8 irqchip/riscv-imsic: Add device MSI domain support for PCI devices
+3b806a5a1a39d593d6fe0def2ef474402f551f91 dt-bindings: interrupt-controller: Add RISC-V advanced PLIC
+2333df5ae51ead2188d07c99e841e159a664741e irqchip: Add RISC-V advanced PLIC driver for direct-mode
+ca8df97fe6798afbe395fc4a8e23bac0c7fbd248 irqchip/riscv-aplic: Add support for MSI-mode
+0eebc69db358fd2f6fe34cc4db6428df6a540dd7 RISC-V: Select APLIC and IMSIC drivers
+f4e116b2c5eec0dc1ab65e7105c180d4f8627b39 MAINTAINERS: Add entry for RISC-V AIA drivers
+7b6f0f278d02de5a8f49202465c6427b56c97545 irqchip: Remove redundant irq_chip::name initialization
+c2ddeb29612f7ca84ed10c6d4f3ac99705135447 genirq: Introduce IRQF_COND_ONESHOT and use it in pinctrl-amd
+9e81e329508576b499b5c47ab106b5fa45ce96d9 irqchip/armada-370-xp: Suppress unused-function warning
+619e696a68c78508875fa12203629241ee1edf29 Merge branch into tip/master: 'irq/urgent'
+4af4f80575d498de1d6f96dafef74800916977fb Merge branch into tip/master: 'irq/core'
+c62bc94d071922d28a051552efbb9f33ea64b7bb Merge branch into tip/master: 'x86/cleanups'
+83345489c5545fdbd2259fd6484ce9bf5be7a967 Merge branch into tip/master: 'x86/cpu'
 
-4cece764965020c22cff7665b18a012006359095 928a87efa42302a23bb9554be081a28058495f22 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYCbTsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lYgQAJZhJOL70o2vTu8o/Mht
-skqqrXI/Okqqdnn7jb/QrUlGq1t8D1i5pIU/oCIkQl9p+6evGUdfFSQaD/9xrHoL
-W9M2+Q9HRfnXAor3ATAF/Xj9ducMEI1LDeZfgKI4I7oaZngQTGvB0LydFDiPUPli
-9S/rPvSB3dB2WXA1nMaKL2TNzBl2JTEvimH1tAytmWmZ7g8Mzh20nIZdhjqRFcw1
-f6b6yeU8FKO908PrUegSEvVjy8tEa93yeux7fIsrdkTVvdoSBO3o7TV394KDXsuy
-8KzSXy5q6Jb0oteaRAK7FAGy7HhzkgRFek0k+qkD6xuM0kl16c4rpKD0+sV2/vFf
-yuEJ7ILY5w7isnj6jhKfv3hLdRmP7i8hlVoaQPTzS+papxpR7sh56adERx7a/ozJ
-XLPuMnuVuIgB7W11GoXtOUSxzpV89umS8n60BQ7LLREy/QvWJfaVhpuuAGbhG2Xv
-A/saSd/9fQC2/hwwiE9uMjRT0LY1ACrUghDT0mKb+qtvX5g3L+STTAv1J/VIXb5r
-OYlPdxlczPwPp3yQzAjgI4LoLd5kU0yvCr6fTmp/1DHkQMcGQAZcI3LljrpBc7rJ
-Jr2jcOEdIKh/yCQNniZdHrOJKAI7UYyniNf2lwFZBylN/l77+M1CiNySlil7zSPn
-BYB3wykRmRyKmCkIrT3yFq4f
-=uAaQ
------END PGP SIGNATURE-----
-
---===============2244474506852293321==--
+--===============0226255628164337285==--
