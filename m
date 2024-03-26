@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============5563781270998252412=="
+Content-Type: multipart/mixed; boundary="===============3810280885611308156=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 26 Mar 2024 05:17:57 -0000
-Message-Id: <171143027707.22108.2469897272157561063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 26 Mar 2024 05:18:08 -0000
+Message-Id: <171143028823.22292.18060648652986445639@gitolite.kernel.org>
 
---===============5563781270998252412==
+--===============3810280885611308156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 1fdad13606e104ff103ca19d2d660830cb36d43e
     new: 084c8e315db34b59d38d06e684b1a0dd07d30287
     log: revlist-1fdad13606e1-084c8e315db3.txt
-  - ref: refs/heads/stable
-    old: 4cece764965020c22cff7665b18a012006359095
-    new: 928a87efa42302a23bb9554be081a28058495f22
-    log: |
-         c95346ac918c5badf51b9a7ac58a26d3bd5bb224 gfs2: Fix invalid metadata access in punch_hole
-         203a6763ab699da0568fd2b76303d03bb121abd4 Revert "crypto: pkcs7 - remove sha1 support"
-         5a7e89d3315d1be86aff8a8bf849023cda6547f7 crypto: iaa - Fix nr_cpus < nr_iaa case
-         174fdc93a241af54772ae3e745ec719e9f6cebfc Merge tag 'v6.9-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-         928a87efa42302a23bb9554be081a28058495f22 Merge tag 'gfs2-v6.8-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
-         
   - ref: refs/tags/next-20240326
     old: 0000000000000000000000000000000000000000
     new: 4099895dca4869756f8915c7c1ab382f044a46ac
 
---===============5563781270998252412==
+--===============3810280885611308156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -869,4 +859,4 @@ f5b58dc680b5b538da48c145eb9db0a4a29c0208 Merge branch 'slab/for-next' of git://g
 08c1b26ef2188ba69c289f8d50f1738562c0679a Merge branch 'for-next/execve' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux.git
 084c8e315db34b59d38d06e684b1a0dd07d30287 Add linux-next specific files for 20240326
 
---===============5563781270998252412==--
+--===============3810280885611308156==--
