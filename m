@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9028961991670794413=="
+Content-Type: multipart/mixed; boundary="===============9157886993533878508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 26 Mar 2024 20:13:37 -0000
-Message-Id: <171148401749.11534.3779362285806438104@gitolite.kernel.org>
+Date: Tue, 26 Mar 2024 20:14:37 -0000
+Message-Id: <171148407784.11955.4042671523585411781@gitolite.kernel.org>
 
---===============9028961991670794413==
+--===============9157886993533878508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-dt-fixes
-    old: 2672031b20f6681514bef14ddcfe8c62c2757d11
+  - ref: refs/heads/riscv-firmware-for-next
+    old: af1e0a7d39f98c0dea1b186a76fcee7da6a5f7bc
     new: 4cece764965020c22cff7665b18a012006359095
-    log: revlist-2672031b20f6-4cece7649650.txt
+    log: revlist-af1e0a7d39f9-4cece7649650.txt
 
---===============9028961991670794413==
+--===============9157886993533878508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2672031b20f6-4cece7649650.txt
+Content-Disposition: attachment; filename=revlist-af1e0a7d39f9-4cece7649650.txt
 
 eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
 720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============9028961991670794413==--
+--===============9157886993533878508==--
