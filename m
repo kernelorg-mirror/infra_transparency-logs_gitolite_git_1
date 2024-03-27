@@ -1,60 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 27 Mar 2024 10:42:54 -0000
-Message-Id: <171153617411.25948.17273299638240779469@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Wed, 27 Mar 2024 10:44:26 -0000
+Message-Id: <171153626601.26608.13568846199787965196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: sashal
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/queue/4.19
-    old: 33caadfa4b279da780b99fb774337c870080b894
-    new: b8ab4fadafbf4b0f4d54aaedbcdfe8f516a560a6
+  - ref: refs/heads/next
+    old: d5fe04c0a4377215c60be509377f05a43b548224
+    new: 6cb4f8e754bc6dcc1bd023b1417fffae62e84453
     log: |
-         c067531b6b34bbc0445455818e685e1caf6c74ef Documentation/hw-vuln: Update spectre doc
-         168cb74f1d7a265105dab762feb1a205ffa25be3 x86/cpu: Support AMD Automatic IBRS
-         b8ab4fadafbf4b0f4d54aaedbcdfe8f516a560a6 x86/bugs: Use sysfs_emit()
-         
-  - ref: refs/heads/queue/5.10
-    old: dfa3825910910406ed7f7aeb75296bcd004dd119
-    new: bbc33ebf80f326d06ebcb97b9158c3e502eaae6e
-    log: |
-         85928a1d1de89e4fc8cf9b5f84ef6961eb288981 Documentation/hw-vuln: Update spectre doc
-         f4ed847e3274e14bbccd8f380b61d1f0763e13dd x86/cpu: Support AMD Automatic IBRS
-         bbc33ebf80f326d06ebcb97b9158c3e502eaae6e x86/bugs: Use sysfs_emit()
-         
-  - ref: refs/heads/queue/5.15
-    old: 9465fef4ae351749f7068da8c78af4ca27e61928
-    new: 690aff140753bc9447a321fe32f414bd7d71f027
-    log: |
-         a2fa40654de5c0c88606491f751db11cd20325aa Documentation/hw-vuln: Update spectre doc
-         72b75348546363350955f54b8504e57d0bae9914 x86/cpu: Support AMD Automatic IBRS
-         beef4fccec0c263b7eb634676fdae024710fcd02 x86/bugs: Use sysfs_emit()
-         690aff140753bc9447a321fe32f414bd7d71f027 KVM: x86: Update KVM-only leaf handling to allow for 100% KVM-only leafs
-         
-  - ref: refs/heads/queue/5.4
-    old: 24489321d0cd5339f9c2da01eb8bf2bccbac7956
-    new: c7843f076d36d023db15e7b31fe9bbefb78f7886
-    log: |
-         bdb2afd1eb600dcae9d53810e7a34d7c2b85259c Documentation/hw-vuln: Update spectre doc
-         8dc6e9354932e7961fb29c820294cae260f76194 x86/cpu: Support AMD Automatic IBRS
-         c7843f076d36d023db15e7b31fe9bbefb78f7886 x86/bugs: Use sysfs_emit()
-         
-  - ref: refs/heads/queue/6.1
-    old: e5cd595e23c1a075359a337c0e5c3a4f2dc28dd1
-    new: e808aef0cd3272e58d0edb503c459df202254393
-    log: |
-         dcfeb64012ff4af418e1438b0b1b86806addb0b4 x86/cpu: Support AMD Automatic IBRS
-         6bfb1b48d3093a6cc5b57ed030e8c68dcb837f19 x86/bugs: Use sysfs_emit()
-         e808aef0cd3272e58d0edb503c459df202254393 KVM: x86: Update KVM-only leaf handling to allow for 100% KVM-only leafs
-         
-  - ref: refs/heads/queue/6.6
-    old: 5c7587f69194bc9fc714953ab4c7203e6e68885b
-    new: e1cf5f8cb17fd4da5b540e105101b66cf279e14b
-    log: |
-         e1cf5f8cb17fd4da5b540e105101b66cf279e14b KVM: x86: Advertise CPUID.(EAX=7,ECX=2):EDX[5:0] to userspace
+         e9df9344b6f3e5e1c745a71f125ff4b5c6ddc96b samples/landlock: Fix incorrect free in populate_ruleset_net
+         407c1561bc789dfe4d400a985c16ac875a429441 landlock: Add IOCTL access right
+         b0f98ad2703b468a9543d1a8ece73136deb8ed4a selftests/landlock: Test IOCTL support
+         8e25f66b33310b2902ab77e50541a73270fe40e1 selftests/landlock: Test IOCTL with memfds
+         6ffed21a498ea06c1abaecdbecdb444073dda38f selftests/landlock: Test ioctl(2) and ftruncate(2) with open(O_PATH)
+         b655dbb45ca20a76d3a835a64b451b71468caca1 selftests/landlock: Test IOCTLs on named pipes
+         8ad4f39c117a899c171722aec3b35f18e37edf00 selftests/landlock: Check IOCTL restrictions for named UNIX domain sockets
+         4911d128f064279d54154c648acf5adf76e243e0 samples/landlock: Add support for LANDLOCK_ACCESS_FS_IOCTL
+         6cb4f8e754bc6dcc1bd023b1417fffae62e84453 landlock: Document IOCTL support
          
