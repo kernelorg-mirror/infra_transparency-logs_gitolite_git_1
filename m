@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6086307765834125231=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 27 Mar 2024 15:27:53 -0000
-Message-Id: <171155327390.16009.6065184987483101619@gitolite.kernel.org>
-
---===============6086307765834125231==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 27 Mar 2024 15:28:12 -0000
+Message-Id: <171155329200.16202.3637479744103826049@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 0a00fee28eeacfbe5f3d5e18c94986b6f76e1d98
-    new: d4bd1db699647d6f71d0dac4af0706b178859eb9
+  - ref: refs/heads/bleeding-edge
+    old: da2f89ef998be089e4e5f67d56bf79a357cddab1
+    new: 89b9ffccda4d5afb13cf757a653d3e0322ef5540
     log: |
-         d4bd1db699647d6f71d0dac4af0706b178859eb9 6.6-stable patches
+         03fa9a3ad1d61992a2105aeb1062b349f1a85012 thermal: intel: int340x_thermal: replace deprecated strncpy() with strscpy()
+         530a873f8582b395be5b98b8a0e4a08e033a579c Merge branch 'thermal-intel' into bleeding-edge
+         db9ea3b22315b74fd682d0c381a6e2ad09a105e3 cpufreq: Use a smaller freq for the policy->max when verify
+         8d8f1b3c680aa39bb46b5942416c5807ab5b2bf8 Merge branch 'pm-cpufreq' into bleeding-edge
+         eb68d909d53eed0ec9722fcb18747647ca33a18f Documentation: PM: Update platform_pci_wakeup_init() reference
+         ac704860659f6cbb855105a0e0be07588713a223 Merge branch 'pm-docs' into bleeding-edge
+         a26de34b3c77ae3a969654d94be49e433c947e3b thermal: devfreq_cooling: Fix perf state when calculate dfc res_util
+         89b9ffccda4d5afb13cf757a653d3e0322ef5540 Merge branch 'thermal-core' into bleeding-edge
          
-
---===============6086307765834125231==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711553272 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1711553270-a4a5fdc3d8f552673ac7a5e1b7274ecb19d3da24
-
-0a00fee28eeacfbe5f3d5e18c94986b6f76e1d98 d4bd1db699647d6f71d0dac4af0706b178859eb9 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYEOvgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DXIQAMUojN6eDjvqZR2hzVb+
-YSpkCwztyLeR6nfFznOsfbK/bDAQLZ+c4TyCd2dJM4iWPwWFIWJw59IGlncee8DP
-ydvrjkLmU9SXB3EPopUFEmMJTiWA4xEHLUzVN33itrhSD1QO7JhNWpAiqRDLnZJB
-RcFYLHIjZv2QP8J3zVHjarywbadLXhwqbRXap0K0YlKbvBcyNg+ZKV5dPFlME3Xp
-QukA5Yz1QeI6dYBdw1I+lpR3R83RS9uoZHCyhPpGnmB/PnopeE0JNgOKdKlBkIJd
-E586TdkCAm3kB1uWOHPe9L0uVECWhXTPfJLEgpFa0ZSAffHxNmOGNDOTe2IzHUUd
-vCeYgYDp0pZKeieqcZ+4A/xia2DVKMWi9awWGBOkxcgER5jcZusF+blAl5rqoQbw
-jAG/MvAhB/GKDjuuadgWxnsD1n4T/UOWXM3w62dt24nSeRCPVowMva+tXTb98enh
-lJ2Emu8iyhr+0Gzu1JKJ3TSEtP0fDaSIPzdK5N9skconH77fEUuJPs7AGwLiezJc
-dxjQ5lCzaXdvQBBFwJG1ALAMC25JTH0w+2pHmFTRVExDtKQaVsNkOuEBPLVNNLrR
-nQ8pfvsV2SeilpCE52niN6o0H01ZCal98J/1vqhHghaFwPunXn884A9fiLdocHQa
-Xz0Bxi/Y75fNSxSHg4UC71r7
-=9b1v
------END PGP SIGNATURE-----
-
---===============6086307765834125231==--
