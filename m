@@ -1,29 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 27 Mar 2024 15:41:39 -0000
-Message-Id: <171155409998.28040.14250144275817130431@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6946350927383037485=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 27 Mar 2024 15:41:52 -0000
+Message-Id: <171155411223.28206.17588247823290839030@gitolite.kernel.org>
+
+--===============6946350927383037485==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 89b9ffccda4d5afb13cf757a653d3e0322ef5540
-    new: 9685341ff0d238a15c1041a1912a045a4f80b25c
-    log: |
-         2f7d7ea44adbe7497b225bbb7bfc29e3c792094d ACPI: NHLT: Reintroduce types the table consists of
-         82b8acc06ea48b69c2482ac2ac994656c3740d08 ACPI: NHLT: Introduce API for the table
-         659a9490ccfbfad4aa5ab351f8a6f5f83ce5ed6c ACPI: NHLT: Drop redundant types
-         a640acab545b21ed1f347376f34d34e461ea92ba ACPI: NHLT: Streamline struct naming
-         f3b6bc4e064c9dec3e006852eb1d93278ce28019 Merge branch 'acpi-tables' into bleeding-edge
-         95d43290f1e476b3be782dd17642e452d0436266 ACPI: bus: Indicate support for _TFP thru _OSC
-         6e8345f23ca37d6d41bb76be5d6a705ddf542817 ACPI: bus: Indicate support for more than 16 p-states thru _OSC
-         a8a967a243d71dd635ede076020f665a4df51c63 ACPI: bus: Indicate support for the Generic Event Device thru _OSC
-         d0d4f1474e36b195eaad477373127ae621334c01 ACPI: Fix Generic Initiator Affinity _OSC bit
-         403ad17c06509794fdf6e4d4b3070bd5b56e2a8e ACPI: bus: Indicate support for IRQ ResourceSource thru _OSC
-         9685341ff0d238a15c1041a1912a045a4f80b25c Merge branch 'acpi-bus' into bleeding-edge
-         
+  - ref: refs/heads/main
+    old: c1fd3a9433a2bf5a1c272384c2150e48d69df1a4
+    new: afbf75e8da8ce8a0698212953d350697bb4355a6
+    log: revlist-c1fd3a9433a2-afbf75e8da8c.txt
+
+--===============6946350927383037485==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c1fd3a9433a2-afbf75e8da8c.txt
+
+817b18965b58a6e5fb6ce97abf01b03a205a6aea ice: Refactor FW data type and fix bitmap casting issue
+1cb7fdb1dfde1aab66780b4ba44dba6402172111 ice: fix memory corruption bug with suspend and rebuild
+aec806fb4afba5fe80b09e29351379a4292baa43 ixgbe: avoid sleeping allocation in ixgbe_ipsec_vf_add_sa()
+47ce2956c7a61ff354723e28235205fa2012265b igc: Remove stale comment about Tx timestamping
+7608a971fdeb4c3eefa522d1bfe8d4bc6b2481cc tls: recv: process_rx_list shouldn't use an offset with kvec
+85eef9a41d019b59be7bc91793f26251909c0710 tls: adjust recv return with async crypto and failed copy to userspace
+dc54b813df63020e946ccdef35b64d4fa99fd622 selftests: tls: add test with a partially invalid iov
+417e91e856099e9b8a42a2520e2255e6afe024be tls: get psock ref after taking rxlock to avoid leak
+646fc4bd0a6bd942361a8a66a5c54ee90febb7f9 Merge branch 'tls-recvmsg-fixes'
+f7442a634ac06b953fc1f7418f307b25acd4cfbc mlxbf_gige: call request_irq() after NAPI initialized
+c4d2d23dd4ceccdc94abe0e7ad4acddf61054ba5 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+ea2c09283b44d1a3732a195a9b257d56779c8863 net: wan: framer: Add missing static inline qualifiers
+afbf75e8da8ce8a0698212953d350697bb4355a6 selftests: netdevsim: set test timeout to 10 minutes
+
+--===============6946350927383037485==--
