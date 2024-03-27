@@ -1,27 +1,68 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Wed, 27 Mar 2024 10:44:26 -0000
-Message-Id: <171153626601.26608.13568846199787965196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Wed, 27 Mar 2024 10:44:36 -0000
+Message-Id: <171153627612.26779.1304367529993208133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: sashal
 changes:
-  - ref: refs/heads/next
-    old: d5fe04c0a4377215c60be509377f05a43b548224
-    new: 6cb4f8e754bc6dcc1bd023b1417fffae62e84453
+  - ref: refs/heads/queue/4.19
+    old: b8ab4fadafbf4b0f4d54aaedbcdfe8f516a560a6
+    new: 9839d60af7732913c802d98851214042a533997a
     log: |
-         e9df9344b6f3e5e1c745a71f125ff4b5c6ddc96b samples/landlock: Fix incorrect free in populate_ruleset_net
-         407c1561bc789dfe4d400a985c16ac875a429441 landlock: Add IOCTL access right
-         b0f98ad2703b468a9543d1a8ece73136deb8ed4a selftests/landlock: Test IOCTL support
-         8e25f66b33310b2902ab77e50541a73270fe40e1 selftests/landlock: Test IOCTL with memfds
-         6ffed21a498ea06c1abaecdbecdb444073dda38f selftests/landlock: Test ioctl(2) and ftruncate(2) with open(O_PATH)
-         b655dbb45ca20a76d3a835a64b451b71468caca1 selftests/landlock: Test IOCTLs on named pipes
-         8ad4f39c117a899c171722aec3b35f18e37edf00 selftests/landlock: Check IOCTL restrictions for named UNIX domain sockets
-         4911d128f064279d54154c648acf5adf76e243e0 samples/landlock: Add support for LANDLOCK_ACCESS_FS_IOCTL
-         6cb4f8e754bc6dcc1bd023b1417fffae62e84453 landlock: Document IOCTL support
+         6cb67c345bb8e783ce81805c7938eb3fc6c4eb10 Documentation/hw-vuln: Update spectre doc
+         476f5ff06b6561dbd0572ea255c00890120b9cf0 x86/cpu: Support AMD Automatic IBRS
+         9839d60af7732913c802d98851214042a533997a x86/bugs: Use sysfs_emit()
+         
+  - ref: refs/heads/queue/5.10
+    old: bbc33ebf80f326d06ebcb97b9158c3e502eaae6e
+    new: b05f97da54286978fb2ec88a0ddc2ba06a938115
+    log: |
+         93c126e97448ca83f962e9d1123b27259242ef2c Documentation/hw-vuln: Update spectre doc
+         3d4551e4504f28c3606ac2d4d138ba773ff41440 x86/cpu: Support AMD Automatic IBRS
+         b05f97da54286978fb2ec88a0ddc2ba06a938115 x86/bugs: Use sysfs_emit()
+         
+  - ref: refs/heads/queue/5.15
+    old: 690aff140753bc9447a321fe32f414bd7d71f027
+    new: e1896cdb7cbc5e384e85155f331ff8f728cbb9b0
+    log: |
+         2ef2193112ec09271443e5faf5ba9c0420357ef2 Documentation/hw-vuln: Update spectre doc
+         03899924ddaeab7fa7361be0099d7f7976b8bad8 x86/cpu: Support AMD Automatic IBRS
+         b9d466cae1d1a07ef1d0f5642e285462868ee569 x86/bugs: Use sysfs_emit()
+         742a5fa3a7c2af9c1cc8e7802ab07fca44b84552 KVM: x86: Update KVM-only leaf handling to allow for 100% KVM-only leafs
+         e1896cdb7cbc5e384e85155f331ff8f728cbb9b0 KVM: x86: Advertise CPUID.(EAX=7,ECX=2):EDX[5:0] to userspace
+         
+  - ref: refs/heads/queue/5.4
+    old: c7843f076d36d023db15e7b31fe9bbefb78f7886
+    new: 2030c196ab3632e6250b599c482d91978fe880cd
+    log: |
+         c3492184515807a55ec04f6f1aa83606cb52ab7e Documentation/hw-vuln: Update spectre doc
+         521afee985d68c0a0eb299937bffcaca23706bc0 x86/cpu: Support AMD Automatic IBRS
+         2030c196ab3632e6250b599c482d91978fe880cd x86/bugs: Use sysfs_emit()
+         
+  - ref: refs/heads/queue/6.1
+    old: e808aef0cd3272e58d0edb503c459df202254393
+    new: 5e8c402cf025fb6fd04ae8e1a902f3afe5fd6d24
+    log: |
+         e59a271884ae9687dbb9c154d8b6ec372f0eccde x86/cpu: Support AMD Automatic IBRS
+         b09381e5a79643e382e19c24f2bdcc1d54d06b31 x86/bugs: Use sysfs_emit()
+         e3d36306fea6327789efe81cf4aa6ebf16415f41 KVM: x86: Update KVM-only leaf handling to allow for 100% KVM-only leafs
+         5e8c402cf025fb6fd04ae8e1a902f3afe5fd6d24 KVM: x86: Advertise CPUID.(EAX=7,ECX=2):EDX[5:0] to userspace
+         
+  - ref: refs/heads/queue/6.6
+    old: e1cf5f8cb17fd4da5b540e105101b66cf279e14b
+    new: 3a48ec2068475b647e09cced787eaa0d426deff9
+    log: |
+         3a48ec2068475b647e09cced787eaa0d426deff9 KVM: x86: Advertise CPUID.(EAX=7,ECX=2):EDX[5:0] to userspace
+         
+  - ref: refs/heads/queue/6.7
+    old: 6fc5460ed8dd0edf29e7c5cfb1ef9b1aa04208a1
+    new: 4e4247fd31d23aacf997e90e25ad6f7c611aedc6
+    log: |
+         4e4247fd31d23aacf997e90e25ad6f7c611aedc6 KVM: x86: Advertise CPUID.(EAX=7,ECX=2):EDX[5:0] to userspace
          
