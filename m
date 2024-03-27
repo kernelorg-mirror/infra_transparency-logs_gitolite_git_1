@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0237093658106724679=="
+Content-Type: multipart/mixed; boundary="===============3529321205630922116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 27 Mar 2024 17:45:36 -0000
-Message-Id: <171156153689.23609.1999069416086613018@gitolite.kernel.org>
+Date: Wed, 27 Mar 2024 17:45:56 -0000
+Message-Id: <171156155633.23801.16352235110562265241@gitolite.kernel.org>
 
---===============0237093658106724679==
+--===============3529321205630922116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 6e06312035032924fc97f2050bfe85e63ca26514
     new: 2a702c2e57908e7bb5c814afeac577a14815c2f2
     log: revlist-6e0631203503-2a702c2e5790.txt
 
---===============0237093658106724679==
+--===============3529321205630922116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ a8497506cd2c0fc90a64f6f5d2744a0ddb2c81eb bpf: Avoid get_kernel_nofault() to fetc
 ee36b1e93b11b980e0156bd07cbb9866b7d3e29e net: amd8111e: Drop unused copy of pm_cap
 2a702c2e57908e7bb5c814afeac577a14815c2f2 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============0237093658106724679==--
+--===============3529321205630922116==--
