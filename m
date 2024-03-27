@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 27 Mar 2024 17:20:45 -0000
-Message-Id: <171156004536.5130.6351226830342043943@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 27 Mar 2024 17:27:14 -0000
+Message-Id: <171156043499.9085.1203916413826775052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/nfsd-fixes
-    old: 6978bd6a913825eaf06629a02fc820d240d5fec6
-    new: 99dc2ef0397d082b63404c01cf841cf80f1418dc
-    log: |
-         99dc2ef0397d082b63404c01cf841cf80f1418dc NFSD: CREATE_SESSION must never cache NFS4ERR_DELAY replies
-         
+  - ref: refs/heads/intel_pstate-experimental
+    old: 80720503e4b4071ea7de804fe0f64efccf9b2e3e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/intel_pstate-testing
+    old: 0000000000000000000000000000000000000000
+    new: 16303764deedb814defe7e69712edec6a09b50ad
