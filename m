@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8769065806826055411=="
+Content-Type: multipart/mixed; boundary="===============0740497640380743356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 27 Mar 2024 15:26:12 -0000
-Message-Id: <171155317226.14902.9277812647642918719@gitolite.kernel.org>
+Date: Wed, 27 Mar 2024 15:26:19 -0000
+Message-Id: <171155317920.15046.797978283224497747@gitolite.kernel.org>
 
---===============8769065806826055411==
+--===============0740497640380743356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 14bb1e8c8d4ad5d9d2febb7d19c70a3cf536e1e5
     new: 2a702c2e57908e7bb5c814afeac577a14815c2f2
     log: revlist-14bb1e8c8d4a-2a702c2e5790.txt
 
---===============8769065806826055411==
+--===============0740497640380743356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dad6b97702639fba27a2bd3e986982ad6f0db3a7 net: Allow to use SMP threads for backl
 ee36b1e93b11b980e0156bd07cbb9866b7d3e29e net: amd8111e: Drop unused copy of pm_cap
 2a702c2e57908e7bb5c814afeac577a14815c2f2 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============8769065806826055411==--
+--===============0740497640380743356==--
