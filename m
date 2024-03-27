@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 27 Mar 2024 16:18:16 -0000
-Message-Id: <171155629673.22498.3311761770445929377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 27 Mar 2024 16:22:50 -0000
+Message-Id: <171155657053.25779.7827028304610925068@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/sgx-cgroups-v9
-    old: 0000000000000000000000000000000000000000
-    new: c9feec6d07a914300bfbb5eab86ad3222945f631
+  - ref: refs/heads/master
+    old: 2a720ccf308cd5cb1b77e587bf42448471a44da6
+    new: 4c91c5925ac134ddb8035d05a3e2fb686b44757d
+    log: |
+         4c91c5925ac134ddb8035d05a3e2fb686b44757d bpf: improve error message for unsupported helper
+         
