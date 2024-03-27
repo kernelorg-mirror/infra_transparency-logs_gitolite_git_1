@@ -1,31 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 27 Mar 2024 14:49:16 -0000
-Message-Id: <171155095638.15782.682117834967793954@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5605118918690327201=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 27 Mar 2024 14:49:21 -0000
+Message-Id: <171155096171.15891.2442060062371419881@gitolite.kernel.org>
+
+--===============5605118918690327201==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/arm64-16k-lpa2
-    old: 39dc31d61a8d133f40cd8cc8a1d60a6a0fc8d731
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/arm64-4k-lpa2
-    old: f0acaf019dda7a174b6ab3d99fb82bd2c52da3ea
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/arm64-lpa2-v3
-    old: aee362e235fc817951b5e35963bdf2e75bbf1cb6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/arm64-lpa2-v3a
-    old: 3bd742e3eebab970de3792621b7f3b1f4c0d9323
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/arm64-lpa2-v3b
-    old: e93b9e409f65bee5a8c4f6a92a9b5af00d291a8c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/arm64-lpa2-v3c
-    old: 8a7d10afac67fee414b59638121860605f862e67
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 662bcedac5c0bf8b4f566c4da89cd0517bed3c07
+    new: 1bf5b2f0b9aaaf324475bee041ef41c8dcc5fe26
+    log: |
+         1bf5b2f0b9aaaf324475bee041ef41c8dcc5fe26 5.4-stable patches
+         
+
+--===============5605118918690327201==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711550960 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1711550958-64b066e149a4d674d15ebe28900ac5efe58f9910
+
+662bcedac5c0bf8b4f566c4da89cd0517bed3c07 1bf5b2f0b9aaaf324475bee041ef41c8dcc5fe26 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYEMfAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jxIQANAxhpks8sowj07NDkyN
+69LiSK3LgOR8n8K3m/LKDjZF4r/qas14MJ/6v9yQBQspHf9TUNAomzK6N0rec14Z
+M0BqqMBI60189On93GCqTggq4NC6gxfq2r+1KNiJmvy2MJI+q0I8I34JAz4QjNzr
+95roOJeDIA5z+ve2ZXLmT0Fx4gcA6HOuoPOHVzZozlQ2VLqjCH8yo9LXuHim6t+x
+G/x+oOuFA+OkUJAZtbMVHvFjMCLy7Rmlwd7sqO6fon1YGvx4wuFTHfu6peTKjcuH
+aNAyO5i9NdO4191Luxwij0mnb3D40b8KHCM7kyfT1yrv5m7v8csYbg9pmuUXgv3t
+Iyqo4feL1yOwyRK5WmkWCLa1XbO+dIUZQaA7UPLvBRIbXh2ju1wsGoAAZDgrQLyg
+c1uZ3+kplNHtKTPCYp+PwHdsO25D3eD/xt/iZyXsjqkutVT9Nr650oM4PRsCAUZl
+W4aakrGbovYsQCR4UvfOHmkx0/uvyc4gC/WepJ0vU/jTx/KGIgTI/j5TFBtfLgqS
+CyrtNCAArN7LHsdA4Ve9j2IUlbVqUcf3QrUH+h8Ah6aSjHR1r0BMeo/lrw99GJzN
+V9t3ddA+h5hAyF8pw9vxnSXa9CMUhZF06I3KTGoN9xCTrdvcEdjiodZsSwx3rST4
+ZQ6X3UZ8yhIMWSY6NQH4vbrS
+=5CYa
+-----END PGP SIGNATURE-----
+
+--===============5605118918690327201==--
