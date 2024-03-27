@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5858581804361589284=="
+Content-Type: multipart/mixed; boundary="===============1523895696758350791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Wed, 27 Mar 2024 11:21:19 -0000
-Message-Id: <171153847948.23205.8745620359151305034@gitolite.kernel.org>
+Date: Wed, 27 Mar 2024 11:21:22 -0000
+Message-Id: <171153848253.23294.3099599634398460178@gitolite.kernel.org>
 
---===============5858581804361589284==
+--===============1523895696758350791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,152 +15,149 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
 user: colyli
 changes:
-  - ref: refs/heads/openEuler-22.03-LTS-SP1
-    old: 046bc8e01fd640a1cd69ec5ad03bdf30649c3292
-    new: 6cf2a45582d1487408cac6bed9cc4a1141727b9c
-    log: revlist-046bc8e01fd6-6cf2a45582d1.txt
+  - ref: refs/heads/openEuler-22.03-LTS-SP2
+    old: 2ee7a24035f0823ae67e317c6d9e1746457d5c7c
+    new: af01388ec9edf6998bf3119ba1c60381ce76b76f
+    log: revlist-2ee7a24035f0-af01388ec9ed.txt
 
---===============5858581804361589284==
+--===============1523895696758350791==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-046bc8e01fd6-6cf2a45582d1.txt
+Content-Disposition: attachment; filename=revlist-2ee7a24035f0-af01388ec9ed.txt
 
-c45134edddf28202a10829e2794b390748d244bd binder: fix use-after-free in shinker's callback
-672ad5e664fc5afdd5c592c1b7b44d75d570cc1a mtd: Fix gluebi NULL pointer dereference caused by ftl notifier
-35d0043ba6bc2afbf67aaf61bb5fe0fe61148088 uio: Fix use-after-free in uio_open
-c9a67ea3d439bd3f3dd55f26ed85ced817361e1b blk-mq: fix IO hang from sbitmap wakeup race
-4e175a53f7845aa3e9de68ae271f8dcdcfa7db19 gfs2: Fix kernel NULL pointer dereference in gfs2_rgrp_dump
-550d74a0b1d07267223f9959db0ab6ddb977a6f3 KVM: arm64: vgic-its: Avoid potential UAF in LPI translation cache
-ad425c6a5ac6c69808f604dc1ab657b03463baae !4792 v2  gfs2: Fix kernel NULL pointer dereference in gfs2_rgrp_dump
-cf4f079f70af1cd94206ed0a01fb8fc6908dbcaa efivarfs: force RO when remounting if SetVariable is not supported
-77dd287bb20345f3f8056604ec56a79d4dc1d9cc !4796 [sync] PR-4747:  KVM: arm64: vgic-its: Avoid potential UAF in LPI translation cache
-bd4a76a7aecbceef265a93cde3c5983c4f15e6e8 !4814 [sync] PR-4702:  efivarfs: force RO when remounting if SetVariable is not supported
-00ec9612a619adccf029f51f9c0bd9e1784107a2 tls: rx: simplify async wait
-2338a68eff4c7c8154a28f4c61168571aa0dba6a net: tls: factor out tls_*crypt_async_wait()
-fb9e1261f42904f916d30c5d5f45d91e4fee6291 tls: fix race between async notify and socket close
-5228123d60c3bb779091fbabad942e3767e23ea9 tls: fix race between tx work scheduling and socket close
-9447b8bfc0ecc89766dafea0e1eb809649d4f7e3 !4755 [sync] PR-4737:  blk-mq: fix IO hang from sbitmap wakeup race
-efdb0e0e8e3b45988b24b7e992b8be773934c279 block: add check that partition length needs to be aligned with block size
-35f62a498a7f7e9d024994feb631ea33bcf3bff8 btrfs: do not start and wait for delalloc on snapshot roots on transaction commit
-6da5b11fe3fc987021f0cd4682ff3f12f9c9eb58 btrfs: fix deadlock when cloning inline extents and using qgroups
-e2be8a4f7136e9c2d94a49fc9fd179bd01e399e5 arm64: head.S: always initialize PSTATE
-f8ff875f82b3cd2ffc031814771e3c45769435b1 net: openvswitch: limit the number of recursions from action sets
-6345634634bef5c03fe6bbcd4d326411476ed99a apparmor: avoid crash when parsed profile name is empty
-bc440c8efb72d6a9a5d37eb9ca015d8477963db8 udp: skip L4 aggregation for UDP tunnel packets
-a07d127e524c73854b2065449ea0ee13d0086eb1 udp: properly flush normal packet at GRO time
-27b1ea83ae5eacd1844920d7de1633ab40015bc5 !4961 [sync] PR-4940:  apparmor: avoid crash when parsed profile name is empty
-c429535982c49fdbdfadd46eb08cbf8656667a1a !4956 [sync] PR-4868:  net: openvswitch: limit the number of recursions from action sets
-1ab5323f79fdb5a9e0f86a097e2403e57c4316a1 pmem: compile pmem legacy device while libnvdimm as a module
-1a4753d88ae7a5be0d9f9fc826b8f88566f9f5ed ieee802154: ca8210: Fix a potential UAF in ca8210_probe
-a515bfdd3da043411b5f0c6baa7947c85d54259c !4732 [sync] PR-4706:  mtd: Fix gluebi NULL pointer dereference caused by ftl notifier
-c45c920a9086fad7eaeb74882bf1b172fdb5086f mt76: mt7915: rename mt7915_mcu_get_rate_info to mt7915_mcu_get_tx_rate
-9225db63cd186680ee53428fa8c06c1bee251790 mt76: mt7915: fix txrate reporting
-e93e5c7f54d0c8601ce197a6a5c67f7ee071ea6c nilfs2: fix potential use after free in nilfs_gccache_submit_read_data()
-b8473bcd83f7e41c3d399f8b84df4521bc71885b x86/sgx: Resolves SECS reclaim vs. page fault for EAUG race
-3d9e50b42f7b2ebbaf5cf496c4f72abeadc58290 !5014 [sync] PR-4991:  CVE-2023-52568
-77ebc3e59e81d6471df45c7c1b99712aca3960cd net: usb: smsc75xx: Fix uninit-value access in __smsc75xx_read_reg
-47e707ed894af8f160bf0effff0b0183d57deed2 !5006 [sync] PR-4979:  CVE-2021-47028
-6e5c8c41572ae6dc6adaffa8130c00e3fe4dab73 !5012  nilfs2: fix potential use after free in nilfs_gccache_submit_read_data()
-b900a488c0f23d7ce8fc08402889ead93ec2d569 !4964 [sync] PR-4901:  fix CVE-2021-47036
-efb66ae711f0f35e39df3eece4c96dfa6af11ceb !4985 [sync] PR-4339: 修复pmem_legacy_device未被编译问题
-850548b07d7a820e594deadb9cb3c8c6c37e8284 net/sched: act_ct: fix wild memory access when clearing fragments
-dd2a6bbecae2f4f967af63ce3e7ba8e7b7263890 filemap: remove use of wait bookmarks
-8a924a769c375a21d1981f3fec604e1056def615 sched: remove wait bookmarks
-c63d8c8688795279b83bc93b9470f82acb32b7f3 dm: limit the number of targets and parameter size area
-10e55402308b38a444f7b3d0eea3e2a76b719a8e !4953  arm64: head.S: always initialize PSTATE
-e1c132867acdca3b2021b2904a3764bcde13b619 net: fix possible store tearing in neigh_periodic_work()
-51435b00f503f2ea58e42cad9fc2fd921925c8c3 net: rds: Fix possible NULL-pointer dereference
-d889b834dec3ffb3f669ee7ddff913d08278dce9 !5066 [sync] PR-5032:  net/sched: act_ct: fix wild memory access when clearing fragments
-744ecc5c3dd236e2ddf722ac2ca99459227e3183 !4839 [sync] PR-4742:  block: add check that partition length needs to be aligned with block size
-75e2b5f3e140fe383122beb309371445e97cf8fb RDMA/rxe: Return CQE error if invalid lkey was supplied
-4aedb096b5b40a732b340bfec1d9660b3e8a29b2 mlxsw: spectrum_acl_erp: Fix error flow of pool allocation failure
-dea02d04612e3a090ff56814840653e651791cde mlxsw: spectrum: Use 'bitmap_zalloc()' when applicable
-f2ab34bf0486894fa3540c89d9ef73cc86fe29c9 mlxsw: spectrum_acl_tcam: Add missing mutex_destroy()
-961975ee506c3bbbd9640780371197cdd0b3d698 mlxsw: spectrum_acl_tcam: Make fini symmetric to init
-3d423348782d47e7473e4f3b2577df7de62fe2c5 mlxsw: spectrum_acl_tcam: Reorder functions to avoid forward declarations
-9c305de8939b16b3177f5186cf5ec2d2cb8db53a mlxsw: spectrum_acl_tcam: Fix stack corruption
-e33137b9eb5dfa3f6ec38c90a404ba9937ad4728 Bluetooth: rfcomm: Fix null-ptr-deref in rfcomm_check_security
-74ba00df3b08569ab2c0faa747c385a9b476e99d !5001 [sync] PR-4988:  ieee802154: ca8210: Fix a potential UAF in ca8210_probe
-714161dc32443ff1cbbf5cd091c8216295ec7625 !5080 [sync] PR-5051:  dm: limit the number of targets and parameter size area
-ebc3b7d366c591a441635cfe271eda576d1b5842 scsi: pm80xx: Avoid leaking tags when processing OPC_INB_SET_CONTROLLER_CONFIG command
-77f49d6cf8abcf6c31548c6ae1be02eac19a50eb !5126 [sync] PR-4891:  Bluetooth: rfcomm: Fix null-ptr-deref in rfcomm_check_security
-47431a0faf3a94b29055a699a8397dc48eeb10fc !5086 [sync] PR-5064:  net: rds: Fix possible NULL-pointer dereference
-aa5f11b025f503b47043e4491b7ea593b6b37f64 !5084 [sync] PR-5058:  net: fix possible store tearing in neigh_periodic_work()
-d1d824edc04aec1cbe2bfe16d8089c868a1c062e btrfs: do not ASSERT() if the newly created subvolume already got read
-ca489e2a5b8fb70dde089936f814acd6f33754fe btrfs: fix double free of anonymous device after snapshot creation failure
-8d8f92cde7c4f84304d7e23c65b09814d9133fb0 !5069 [sync] PR-5033: v3  Remove WQ_FLAG_BOOKMARK flag
-8805a58668443211ed577e6afea0731f44339237 !4749 [sync] PR-4672:  uio: Fix use-after-free in uio_open
-ed93cb2595e7aaa3cec970e33f3f16286ce904c4 f2fs: explicitly null-terminate the xattr list
-78b6d1b2bef86daf2a7e3a5953bf7df2e1da2ce9 !4831 [sync] PR-4803:  CVE-2024-26583
-0bc4f6ba2801579d49ecdbad85db0e08f0a14aa2 !4668 [sync] PR-4646:  binder: fix use-after-free in shinker's callback
-85bb807f367c43f4da31ff3849a85972d7d82c5d ipv4, ipv6: Fix handling of transhdrlen in __ip{,6}_append_data()
-ece478ac3662156493a35cec09d35c0450cec877 l2tp: pass correct message length to ip6_append_data
-a3ed6792be4162641f54b1b5fd089e75c3d0c7c4 !5147 [sync] PR-4925: v2  btrfs: do not ASSERT() if the newly created subvolume already got read
-11c0c1c1c32da5d2b086415417ffdcf1b471e081 !5154 [sync] PR-4645:  f2fs: explicitly null-terminate the xattr list
-fd87dc6b83481853f6d39c2633c0c612448a48c2 powerpc/pseries/memhotplug: Quieten some DLPAR operations
-dab13fecb4f8f7fd771caa2363a4c92900fb5d1a powerpc/pseries/memhp: Fix access beyond end of drmem array
-db5048460d0635024efe752d448a912f1f531d5f !5166 [sync] PR-5117:  fix CVE-2023-52527
-9c0530fdf30385b37785cd5ac15d876a432b9376 RDMA/srp: Do not call scsi_done() from srp_abort()
-f1909390e613f3e8be02f34870551674f8d05dee nfc: nci: assert requested protocol is valid
-35892fb1644aa33e70c121099c36ab6b5b239c83 net: nfc: llcp: Add lock when modifying device list
-f9c243975f4602f74464df9c15e097f6a3e8240f net: bcmgenet: Remove phy_stop() from bcmgenet_netif_stop()
-2a794af7df09899c64b27af3dc19b1ce67c4bce4 net: bcmgenet: Restore phy_stop() depending upon suspend/close
-6bf968e62cbbb0990dbd6ddace1be47ffa5940ca bnxt_en: Don't issue AP reset during ethtool's reset operation
-09381636debac98358daecb392afe343757dbffb bnxt_en: Query default VLAN before VNIC setup on a VF
-b3448ae2db642e13ae0cf1a8e706af7f0c7756bb bnxt_en: Implement .set_port / .unset_port UDP tunnel callbacks
-2ba9c3992d091d4145bb41720e4962986b1207a1 Add MODULE_FIRMWARE() for FIRMWARE_TG357766.
-a889fca22d7c393f1464c81dac58c9fd3815efdb !5201 [sync] PR-5178:  net: nfc: llcp: Add lock when modifying device list
-6afe8b5edc56b4a63183d814ae4917c3eda95cc0 drm: Don't unref the same fb many times by mistake due to deadlock handling
-1bc5ab3fa20dae3c7170fe88a5f0a9b7c8a40a5e !5098 [sync] PR-5078:  RDMA/rxe: Return CQE error if invalid lkey was supplied
-b0e4ce7ccb4d07ec261d0e4f5d4d229ea8a73bef !5124 [sync] PR-5109:  CVE-2024-26586
-a052f093999bad7b373096018046dc47eafa9be4 !5185 [sync] PR-5156:  RDMA/srp: Do not call scsi_done() from srp_abort()
-616de0714b0898ea39b2aa024728f48c87143efe !5192 [sync] PR-5164:  nfc: nci: assert requested protocol is valid
-e9124fcd68b58fc0d98b10f7f65c8e429f7ec23c !5204  Upgrade driver for Broadcom NIC BCM57414
-5e682bc454e568ded6f6d9fd0ee4cee21c34c364 ceph: fix deadlock or deadcode of misusing dget()
-658feee26f02a0071985baa1ddd32f80d86bccb2 !4853 [sync] PR-4847:  btrfs: mainline backport
-6a8e82ca5278dd77446749b2bbe46a8d35eaf26e !5226 [sync] PR-5197:  drm: Don't unref the same fb many times by mistake due to deadlock handling
-fd6362ad91d60ef9470adb7b96537b8addd6e2cc af_unix: fix lockdep positive in sk_diag_dump_icons()
-5f09fd8601bdf1a2f79eacf7e8b2dc0a3b0d259c powerpc/lib: Validate size for vector operations
-c6f33ae8885598bfa250706a889b943640776194 !5294 [sync] PR-5240:  powerpc/lib: Validate size for vector operations
-d846a572b446fa88d6e6ba419f0c85ca05b89862 FS:JFS:UBSAN:array-index-out-of-bounds in dbAdjTree
-23e916aa3eb4ad68e11fdd6fd5ba76f559457848 !5278 [sync] PR-5246:  ceph: fix deadlock or deadcode of misusing dget()
-ec7959ea5b7c23a17c058ed69bb7b380a3a5572c jfs: fix slab-out-of-bounds Read in dtSearch
-5501edfea0a634e539771c8cd8e8f1c0cad6d369 UBSAN: array-index-out-of-bounds in dtSplitRoot
-e3622f07bd51932310a033d5f0687fe2a7900d20 bpf: Add map and need_defer parameters to .map_fd_put_ptr()
-2271e7b09b579278944bb980dd78a73983c62164 bpf: Set need_defer as false when clearing fd array during map free
-9a2484337557653b23b8ade7f3a4dd95ed51c7c3 bpf: Defer the free of inner map when necessary
-34a1aa2333012b10e7d8af0426289b1bb36a61a2 bpf: Fix kabi breakage in struct bpf_map and struct bpf_map_ops
-604f663082cc56b3f411166f063a74c1ead3e648 !5182 [sync] PR-4805:  CVE-2023-52451 backport to OLK-5.10 v2
-234a7db2a9344be9933b14f2c8889513a6f67b14 iommu/arm-smmu-v3: Disable ECMDQ before reset
-4276c250abdb3e0ccfbdbef5d672ca44cac404c4 bpf: verifier: Improve function state reallocation
-eae0c11339a91636534cc0224e1c87e03886333a bpf: verifier: Use copy_array for jmp_history
-46186fff5bd9bce01216ba7c63564b47c70bf0e1 bpf, verifier: Fix memory leak in array reallocation for stack state
-862166817591cac51d2a31e79d81c777ce56d94f bpf: expose bpf_strtol and bpf_strtoul to all program types
-850c0b6aded1beae03e31c2f61449490a79a01df bpf: Allow reads from uninit stack
-dda4fef4a12c70bd605f36d2a0f1cd67a33dc551 bpf: Fix verification of indirect var-off stack access
-db2a27bb5398ed988b78c275c86755f7bb42249a bpf: Fix accesses to uninit stack slots
-fdd7d5163bde83dc8ba9a55b31414b028421bdf6 bus: mhi: host: Add alignment check for event ring read pointer
-6e2603a8d417a00011705c171ac8a9096335e619 !5360  iommu/arm-smmu-v3: Disable ECMDQ before reset
-fd5500593d6401978cd656c109cd812a081f9cfc !5366 v2  CVE-2023-52452
-f86fd72b07e0151fbabd8a256283f816d5a20a57 !5344  CVE-2023-52447
-f7f61547f216f800d0506536db9304e72b931420 !5288 [sync] PR-5231:  af_unix: fix lockdep positive in sk_diag_dump_icons()
-928c80eae5635c985422b62ac2c6461f63cbd39c !5372 [sync] PR-5313:  bus: mhi: host: Add alignment check for event ring read pointer
-937549389f00a15f8af320b892d388c1db75103c scsi: core: Move scsi_host_busy() out of host lock for waking up EH handler
-b6c278cea80bca7a338435e9f156124dd871ae7f scsi: core: Move scsi_host_busy() out of host lock if it is for per-command
-0b3d9268ae93fa827e7754288c48350e6452ed20 wifi: wfx: fix possible NULL pointer dereference in wfx_set_mfp_ap()
-727faa0571c4270b44b673798f528116658048e2 serial: sc16is7xx: convert from _raw_ to _noinc_ regmap functions for FIFO
-ac0681a54d6d7d3a32aca1f854c87b130f9065b8 !5390 [sync] PR-5259:  CVE-2024-26627​
-cd14a16173452f83474fa4397988ffd7d630c071 !5311  FS:JFS:UBSAN:array-index-out-of-bounds in dbAdjTree
-8f9cd07deee21a17532289c4530d6efd84c3bd7f !5436 [sync] PR-5355:  CVE-2023-52593
-a5814e5ef0f2768f2b77f3678f62f688e760ae26 !5329  UBSAN: array-index-out-of-bounds in dtSplitRoot
-acfdfc2173b9a93a33542208ca5b9e8ac18bbd59 !5324  jfs: fix slab-out-of-bounds Read in dtSearch
-187143c27f46d9f6e227dbf8dc03f3ff18470aa0 !5439 [sync] PR-5286:  serial: sc16is7xx: convert from _raw_ to _noinc_ regmap functions for FIFO
-4a40bc54c518764016e3d01dfb9e74f667ac9182 iomap: add support to track dirty state of sub pages
-71b330875b401701e36b3fc31164b3d7c7904bbe !5028 [sync] PR-4987:  net: usb: smsc75xx: Fix uninit-value access in __smsc75xx_read_reg
-ec90de722d50302a8074ed962d0716ca80ff8d79 !5138 [sync] PR-4933:  scsi: pm80xx: Avoid leaking tags when processing OPC_INB_SET_CONTROLLER_CONFIG command
-8b15c48662677ae41032c99bc0ecf5da7e018d39 media: pvrusb2: fix use after free on context disconnection
-b7fc5315b8d575178c4ad175e8ad08ec14ef4120 !5503 [sync] PR-5316: v2  iomap: add support to track dirty state of sub pages
-6cf2a45582d1487408cac6bed9cc4a1141727b9c !5534  media: pvrusb2: fix use after free on context disconnection
+06810dc1ecbf1ece21089862b31da3ceeae74bc4 binder: fix use-after-free in shinker's callback
+08af31cf166b2baee174601fc3602537ea0762eb mtd: Fix gluebi NULL pointer dereference caused by ftl notifier
+aad0e73143894b68f347761246462670edca0468 uio: Fix use-after-free in uio_open
+1f5a2e342dee6d2dfa15e593cb37c3d03c5f604f blk-mq: fix IO hang from sbitmap wakeup race
+9b7736dd2d312335cda20e0e6a5bb96eb4bd3107 serial: 8250: omap: Don't skip resource freeing if pm_runtime_resume_and_get() failed
+ca3d5824aa865f2930b39253381cd005f8429a70 gfs2: Fix kernel NULL pointer dereference in gfs2_rgrp_dump
+63576ab66e821f222651ceacbb622793e70cb545 KVM: arm64: vgic-its: Avoid potential UAF in LPI translation cache
+ac4db2c7a5b9360b97016b31b90deb1f3e468ce9 !4793 v2  gfs2: Fix kernel NULL pointer dereference in gfs2_rgrp_dump
+6563b0b716123dbce0ed4e0370a2049bcb26bedd !4768 [sync] PR-4729:  serial: 8250: omap: Don't skip resource freeing if pm_runtime_resume_and_get() failed
+6751653ddedb8b1b7c7d7bcc3964e252080dcc12 efivarfs: force RO when remounting if SetVariable is not supported
+13ec727fb137316b9a8e6dcd1daf70970ad7cd79 !4797 [sync] PR-4747:  KVM: arm64: vgic-its: Avoid potential UAF in LPI translation cache
+791f8e09142852b1f0f1a618eb4cf25b64b3b20f !4816 [sync] PR-4702:  efivarfs: force RO when remounting if SetVariable is not supported
+419b984a91a3b62a3b794c93e9981573dcf7a9e3 tls: rx: simplify async wait
+d64a2d24122766e5f990b9f76f1ad560fc998110 net: tls: factor out tls_*crypt_async_wait()
+226aa856b44ed327a37b556546b2d35ccfba3a37 tls: fix race between async notify and socket close
+d7339eaa2a95b78c23e9631e6d90cfeecc79924d tls: fix race between tx work scheduling and socket close
+13dc088a06e54197f74ac0104548b415389c7390 !4756 [sync] PR-4737:  blk-mq: fix IO hang from sbitmap wakeup race
+f5b72f6ccaf61c0308d7ed3dcb2e73e5581a8b0a block: add check that partition length needs to be aligned with block size
+c1b91a1ebb20804211a19554cf0d33988115cec7 btrfs: do not start and wait for delalloc on snapshot roots on transaction commit
+d5c36266457e787ff5a1e24ace3c28fe0a61bbda btrfs: fix deadlock when cloning inline extents and using qgroups
+57b2c5eabf6f1c034455e632a3fe83448ca708df ext4: regenerate buddy after block freeing failed if under fc replay
+2226531304b2de256518aafdea73d939aab142cc !4864  ext4: regenerate buddy after block freeing failed if under fc replay
+b294b18faac045bac7f2995e0f16ee9f72bc5840 arm64: head.S: always initialize PSTATE
+0690a042911e0deb0b1767b625e85aacad7d627a net: openvswitch: limit the number of recursions from action sets
+c28568855c56c533d910b9674c1981403336a82d apparmor: avoid crash when parsed profile name is empty
+1521c1cc47b760cb5f2bea21fd5743a1964f0b56 udp: skip L4 aggregation for UDP tunnel packets
+a3312cd9e3c1ffe6c715ec67115daf72037ee5a0 udp: properly flush normal packet at GRO time
+11d2979ad7c983ccbaed2550bdb3ae19e3cd0283 !4934  arm64: head.S: always initialize PSTATE
+71e0ea01a293f9aa9f879852479ad6bddc7a0374 !4962 [sync] PR-4940:  apparmor: avoid crash when parsed profile name is empty
+64e5b7bd7c4310e82249df39b55bb61101144ec9 !4957 [sync] PR-4868:  net: openvswitch: limit the number of recursions from action sets
+4e657de7a97823f31626c66f46cb312bc9d5ee6c pmem: compile pmem legacy device while libnvdimm as a module
+346b9e3ab99726f766ab66ec4e9096749d304081 ieee802154: ca8210: Fix a potential UAF in ca8210_probe
+fa53404d13f5ebd51e1330de3c339f3e442c8a64 !4733 [sync] PR-4706:  mtd: Fix gluebi NULL pointer dereference caused by ftl notifier
+7fab180434c25f2ee212d46c3e37f981f1950f4e mt76: mt7915: rename mt7915_mcu_get_rate_info to mt7915_mcu_get_tx_rate
+e614dc1f84b08225ee09efefa1ea6816ad8ae8c3 mt76: mt7915: fix txrate reporting
+d1ad1f94131f78d7826f8057080c906b3250c2b7 nilfs2: fix potential use after free in nilfs_gccache_submit_read_data()
+288bc3cf84a624d1b34290263d39ff79291e4d7c x86/sgx: Resolves SECS reclaim vs. page fault for EAUG race
+a66fda295780643162c669ea042aedb9352fe80e !5016 [sync] PR-4991:  CVE-2023-52568
+ad4896e911ef1ec75107d994b53d6a205a48f007 net: usb: smsc75xx: Fix uninit-value access in __smsc75xx_read_reg
+2c9e04f40634cb6c215d6b2b00de82d457a1c432 !5007 [sync] PR-4979:  CVE-2021-47028
+53c8c59ec671ff52d673444df8e08829f3739db1 !5013  nilfs2: fix potential use after free in nilfs_gccache_submit_read_data()
+849733f36483350b4b05336d4cbab34ca2e0332a !4965 [sync] PR-4901:  fix CVE-2021-47036
+7625baa29d9005b11d01c4c0c619130916c89f84 !4986 [sync] PR-4339: 修复pmem_legacy_device未被编译问题
+643bdc6f8cfb0a9b7959ddead29ac59b63ae7d7a net/sched: act_ct: fix wild memory access when clearing fragments
+ba1f036ce84dfabea2710d383baba4c173e7180a filemap: remove use of wait bookmarks
+5a326598bc5c3274ed285d946d9f1e8b9cfe853a sched: remove wait bookmarks
+c7529f4ef2264472496074e57eceff48caf0aa4e dm: limit the number of targets and parameter size area
+cff28a241fda1cdfe592926912047c16db29c9b3 net: rds: Fix possible NULL-pointer dereference
+ca25ef74c8ab5ad5d0c6ae1748b7ccec3fe30519 !5067 [sync] PR-5032:  net/sched: act_ct: fix wild memory access when clearing fragments
+a2d138fe3f00b5e74add7c3947a71b32d26ea9e7 !4840 [sync] PR-4742:  block: add check that partition length needs to be aligned with block size
+55dca49ed9ab0bd003cd10fd5d454b6d7f454d3d RDMA/rxe: Return CQE error if invalid lkey was supplied
+6fce197626ec6d193c946fec90316e7661eb32dd mlxsw: spectrum_acl_erp: Fix error flow of pool allocation failure
+9a40a202d4c1dae5d7ff7482177b5519d6b09ac6 mlxsw: spectrum: Use 'bitmap_zalloc()' when applicable
+fb04d1609e2af8ef425c169fef44c8030ffbd19a mlxsw: spectrum_acl_tcam: Add missing mutex_destroy()
+8c258621934ddf61a53e77a96973908a1f2e7b89 mlxsw: spectrum_acl_tcam: Make fini symmetric to init
+6eef0c59144a594930b53ac425a6cf7aba08ce93 mlxsw: spectrum_acl_tcam: Reorder functions to avoid forward declarations
+23ec0d59e552bf0dd9b1cb8a065e144e172f9b95 mlxsw: spectrum_acl_tcam: Fix stack corruption
+d8e8efed851b1fbe16a716d5726cab80d9a1a1bc net: fix possible store tearing in neigh_periodic_work()
+838d4ceee6d3d10a20cfe40a391600085795174a !5109  CVE-2024-26586
+26aeff651506900eb14a87a35e14171fe1b81a3e Bluetooth: rfcomm: Fix null-ptr-deref in rfcomm_check_security
+1dff56174c65f21ddc98c0149c1cb73cdfe47d9a !5002 [sync] PR-4988:  ieee802154: ca8210: Fix a potential UAF in ca8210_probe
+992293f8b3cf5143898092c09fc888a2eb73208e !5081 [sync] PR-5051:  dm: limit the number of targets and parameter size area
+60a3b2b149c83269e885c9c7b875efa84a4618e1 scsi: pm80xx: Avoid leaking tags when processing OPC_INB_SET_CONTROLLER_CONFIG command
+ba99aea361ce543fcc6d9e09843cfc3b6a59c74a !5127 [sync] PR-4891:  Bluetooth: rfcomm: Fix null-ptr-deref in rfcomm_check_security
+892d631327da0b98fb9ae0ce3cd9e403252e7a20 !5087 [sync] PR-5064:  net: rds: Fix possible NULL-pointer dereference
+1fb73343d36cc6e65ccb882e659d91746c5825a7 !5116 [sync] PR-5058:  net: fix possible store tearing in neigh_periodic_work()
+4af5ac5572766b9f1e65d202aa6ef7023a1e8cd0 btrfs: do not ASSERT() if the newly created subvolume already got read
+9fead5787b3803969ff014e9d29e3187e98cf2eb btrfs: fix double free of anonymous device after snapshot creation failure
+9e1a9d160f71da2e085c4303a7b8f492d8393f56 !5070 [sync] PR-5033: v3  Remove WQ_FLAG_BOOKMARK flag
+848484e8f0fc83018554d8c9402d1e19d131adbf !4750 [sync] PR-4672:  uio: Fix use-after-free in uio_open
+cfeb5c21a426f69b7b62ff4f2ac705c0e0f73a35 f2fs: explicitly null-terminate the xattr list
+6561eaa239189672c2b82dc42617886d35095bf4 !4832 [sync] PR-4803:  CVE-2024-26583
+8ee8f8933adca84400a748416b2179db1e485396 !4669 [sync] PR-4646:  binder: fix use-after-free in shinker's callback
+6de90fdd91d3b11f02984d1e49e4065799360d73 ipv4, ipv6: Fix handling of transhdrlen in __ip{,6}_append_data()
+65520bded842ded0ab62a5685861f047dad6a527 l2tp: pass correct message length to ip6_append_data
+54f90e4a22872032e9ae8e6dbc682a3281f99863 !5148 [sync] PR-4925: v2  btrfs: do not ASSERT() if the newly created subvolume already got read
+8fa93736d756f69e19166f9da496f445090d5c17 !5155 [sync] PR-4645:  f2fs: explicitly null-terminate the xattr list
+768b2bedf1b4e376638c6425121097512ec84691 powerpc/pseries/memhotplug: Quieten some DLPAR operations
+29013e0e88a2e5a6942ed3ab013d99f888b9a780 powerpc/pseries/memhp: Fix access beyond end of drmem array
+08ce8c0cfea1b7cd166ae3a8247049c4fee186d0 !5167 [sync] PR-5117:  fix CVE-2023-52527
+1d0548a311d81dc54f12047e9801fe2ce9a184dc RDMA/srp: Do not call scsi_done() from srp_abort()
+54269c18e58590c3bbbbeae447518d08072d7e63 nfc: nci: assert requested protocol is valid
+f68c65585aa8dfbbf57d13f8885bf9c35b4e0e9b net: nfc: llcp: Add lock when modifying device list
+760009fad1333999084c271f71cbb6916b680dd3 !5202 [sync] PR-5178:  net: nfc: llcp: Add lock when modifying device list
+3417fef3af34b8e6c896658831a0f6ffda923939 drm: Don't unref the same fb many times by mistake due to deadlock handling
+e611853de2af1083d6c94040396adbdec156ea2a !5099 [sync] PR-5078:  RDMA/rxe: Return CQE error if invalid lkey was supplied
+9c6897df071c3c1358e060453b0ab4edf23f4187 !5186 [sync] PR-5156:  RDMA/srp: Do not call scsi_done() from srp_abort()
+4d117c3405594500357c391a399b922686569fb9 !5193 [sync] PR-5164:  nfc: nci: assert requested protocol is valid
+3be166663ff4755d158098af7284bac5ddf16f37 ceph: fix deadlock or deadcode of misusing dget()
+4e330448f0bd721e8a0edadc888651bb481d1e3d !4854 [sync] PR-4847:  btrfs: mainline backport
+7406e5666ab2595cdff8477474a0d3fd319bccbf !5227 [sync] PR-5197:  drm: Don't unref the same fb many times by mistake due to deadlock handling
+522fa3c59cfd4438422a60ee663189a45dd5d588 af_unix: fix lockdep positive in sk_diag_dump_icons()
+45b341e5ea6afbb623dc916b4a5d9f8fad916130 iommu/arm-smmu-v3: Disable ECMDQ before reset
+3936dca0f4918359b09aa83efdc23ca9e3b9940c powerpc/lib: Validate size for vector operations
+339ef4908cfbb95a7f5ceb2a673550ea884a1e16 !5297 [sync] PR-5240:  powerpc/lib: Validate size for vector operations
+f9c8d7be45027ad55254fa329b356b3cd9fde5fa FS:JFS:UBSAN:array-index-out-of-bounds in dbAdjTree
+10880ec36bd0e0b6a1b74e3ef8423e54859e94cc !5279 [sync] PR-5246:  ceph: fix deadlock or deadcode of misusing dget()
+9c0fa50f52c0d7da271ef193ada875bab2b199a0 jfs: fix slab-out-of-bounds Read in dtSearch
+6c7b1059c3f6e35c7e139c577d54c2e15d6c71b0 UBSAN: array-index-out-of-bounds in dtSplitRoot
+1f8f5ddc3f66acd1b1bcd5e1d186b3d3691bb83b bpf: Add map and need_defer parameters to .map_fd_put_ptr()
+7337f86d6d38c5683b6a51a3cd75209319a06657 bpf: Set need_defer as false when clearing fd array during map free
+04da86270e0221ba04e33ce6918382b4475de5f9 bpf: Defer the free of inner map when necessary
+342eb268f196e4549527ea9d1a0c2bb3691ac8b5 bpf: Fix kabi breakage in struct bpf_map and struct bpf_map_ops
+ba9b872fbbb6d87b5af6c3c4aff878ce85c1d244 !5183 [sync] PR-4805:  CVE-2023-52451 backport to OLK-5.10 v2
+54dfef95665cdaa5081517f2f0bdb2329318a43a bpf: verifier: Improve function state reallocation
+c8eb4396b790e673c362933626267cc94f85e3ac bpf: verifier: Use copy_array for jmp_history
+e2f515be55383bf489d14ec5ae8a7fc05be117b7 bpf, verifier: Fix memory leak in array reallocation for stack state
+66156e1ef464102b01fa02661603585b4e9378a4 bpf: expose bpf_strtol and bpf_strtoul to all program types
+caba5f06c9aaee8ec0ba11bcd16310cfa136f0ef bpf: Allow reads from uninit stack
+ee5c6ccea4e441cd4f546041e982950939836e36 bpf: Fix verification of indirect var-off stack access
+8f5863d230fedcdfde4331506bc867d5ddbdb081 bpf: Fix accesses to uninit stack slots
+a37a76284718371e13e5fe980ac427be0ecaedf2 bus: mhi: host: Add alignment check for event ring read pointer
+33839da5ff60354f974aa5583ea55a9ca7b517d3 !5295 [sync] PR-5229:  iommu/arm-smmu-v3: Disable ECMDQ before reset
+f177f627212bf18f3bae784a07ded6e7550dfde3 !5367 v2  CVE-2023-52452
+e7c46b5834fce00d2d362e993748573c490e0ee1 !5345  CVE-2023-52447
+8dc6010b30a05ffdf107616424dc53f9d560b8ba !5289 [sync] PR-5231:  af_unix: fix lockdep positive in sk_diag_dump_icons()
+bc41dd4086ea23d2d32896b18b056d6c47c25a17 !5373 [sync] PR-5313:  bus: mhi: host: Add alignment check for event ring read pointer
+1cd042414c28b227b1b5823b679653984bc85e57 scsi: core: Move scsi_host_busy() out of host lock for waking up EH handler
+ceb76fbf5a0af226965f6826907c9b0c4b7c6002 scsi: core: Move scsi_host_busy() out of host lock if it is for per-command
+5e949267eb5201457a11bfca352fc85eb304d365 wifi: wfx: fix possible NULL pointer dereference in wfx_set_mfp_ap()
+4acc083ac7397de13eb655eae4bc370b5cd50979 serial: sc16is7xx: convert from _raw_ to _noinc_ regmap functions for FIFO
+7b2e7d106ec0b300f08030b77a218e00e510c8e7 !5391 [sync] PR-5259:  CVE-2024-26627​
+91db91325333030fc6eda9928ff1c2408bd87f92 !5312  FS:JFS:UBSAN:array-index-out-of-bounds in dbAdjTree
+7b66bd734b4b4489cb522e877ae05fdded677059 !5437 [sync] PR-5355:  CVE-2023-52593
+d4b8f5053ef594cf73940b40704aedc66bec51ff !5330  UBSAN: array-index-out-of-bounds in dtSplitRoot
+4201e14739dd27b17a0a614bf80374ebd2f55258 !5325  jfs: fix slab-out-of-bounds Read in dtSearch
+b83da690240eacf1241b0ca8e16ddfe02318f35b !5440 [sync] PR-5286:  serial: sc16is7xx: convert from _raw_ to _noinc_ regmap functions for FIFO
+1fb08b36c5b15cfec962b1996af6e46a0ccd2aa9 iomap: add support to track dirty state of sub pages
+ad4f19434d8fbe5519b33f0010ac019b94a7ebaf !5029 [sync] PR-4987:  net: usb: smsc75xx: Fix uninit-value access in __smsc75xx_read_reg
+11fd61a925344601a28738306eacc7a84b6f3d61 !5139 [sync] PR-4933:  scsi: pm80xx: Avoid leaking tags when processing OPC_INB_SET_CONTROLLER_CONFIG command
+f0c590f880fc1f31e3fac42b3ffdaa3b64e66018 media: pvrusb2: fix use after free on context disconnection
+b94b01fa50ca4fe977cbf0366a387306e08b698e !5504 [sync] PR-5316: v2  iomap: add support to track dirty state of sub pages
+af01388ec9edf6998bf3119ba1c60381ce76b76f !5535  media: pvrusb2: fix use after free on context disconnection
 
---===============5858581804361589284==--
+--===============1523895696758350791==--
