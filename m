@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5452714982459679814=="
+Content-Type: multipart/mixed; boundary="===============2848785106537224478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 27 Mar 2024 16:47:00 -0000
-Message-Id: <171155802026.11640.7083979763599765728@gitolite.kernel.org>
+Date: Wed, 27 Mar 2024 16:47:36 -0000
+Message-Id: <171155805696.11926.9621491993416116408@gitolite.kernel.org>
 
---===============5452714982459679814==
+--===============2848785106537224478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 6e06312035032924fc97f2050bfe85e63ca26514
-    new: 2a702c2e57908e7bb5c814afeac577a14815c2f2
-    log: revlist-6e0631203503-2a702c2e5790.txt
+  - ref: refs/heads/dev-queue
+    old: fb2d8f25149069184a8e2f3ab415ade2be158116
+    new: 5930df7bd1bee36d0aa4e15fdec40d42b5bd3711
+    log: revlist-fb2d8f251490-5930df7bd1be.txt
 
---===============5452714982459679814==
+--===============2848785106537224478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e0631203503-2a702c2e5790.txt
+Content-Disposition: attachment; filename=revlist-fb2d8f251490-5930df7bd1be.txt
 
 c2a0257c1edf16c6acd2afac7572d7e9043b6577 bpftool: Cast pointers for shadow types explicitly.
 fe879bb42f8a6513ed18e9d22efb99cb35590201 bpftool: Fix missing pids during link show
@@ -70,5 +70,44 @@ a8497506cd2c0fc90a64f6f5d2744a0ddb2c81eb bpf: Avoid get_kernel_nofault() to fetc
 341ee1a584c8f55068cc5d7024cf1711ab81e388 net: pin system percpu page_pools to the corresponding NUMA nodes
 ee36b1e93b11b980e0156bd07cbb9866b7d3e29e net: amd8111e: Drop unused copy of pm_cap
 2a702c2e57908e7bb5c814afeac577a14815c2f2 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
+628d609f3a529fa42b908886e36080adcb699b0d e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+d7db35904253613f06c223e30638a6d0d602db41 ice: Refactor FW data type and fix bitmap casting issue
+0ea09c43be5c2c4af9d1fa1b9143b1f1a049edf2 ice: Add switch recipe reusing feature
+50872bf358dd9a1c07130e79718124dc4d9a4fb6 igc: Refactor runtime power management flow
+0dec6385c31f7d0120b567bb16be76938a1997d1 ice: remove eswitch changing queues algorithm
+00c9cea4cc7e61418040174c557eb9c7a1873a1b ice: do Tx through PF netdev in slow-path
+eb27a76c3b92fdf5a776b0cd8f72fa1dba5fd6d1 ice: default Tx rule instead of to queue
+152893af2bbc77bb8c381236e311a4d27748facf ice: control default Tx rule in lag
+75dedd7bc8bbe8f3253d5ce7a387495e041be724 ice: remove switchdev control plane VSI
+68abd555e295c303e6e5c03c265f120a4bcfc287 ice: change repr::id values
+c9f27f4b477c4b44bd3530456b8baf38ed4fbce3 ice: do switchdev slow-path Rx using PF VSI
+449169c71b4265f74e79f03764faa17f760c2232 ice: count representor stats
+9041f856cea578d71fe1f3841885b5518ba1bf01 e1000e: move force SMBUS from enable ulp function to avoid PHY loss
+6f40c7be2c4741e9aa75e8400e413a3e7b87cad8 ice: fix memory corruption bug with suspend and rebuild
+4a8ff851c08be4841d2118f125ed681bf94e790a ixgbe: avoid sleeping allocation in ixgbe_ipsec_vf_add_sa()
+44de6f656a390f23aeffc884b5201eefc93a1ff2 igb: simplify pci ops declaration
+25aae6fc4d0638339c98d856cf4030006f1d20c6 net: intel: implement modern PM ops declarations
+7bd51c035021ea8f9da9b8d69d1a2c4e16f7d2fb i40e: avoid forward declarations in i40e_nvm.c
+7608363f9d83e5e9ecf5ba6b2d7c2ebe511130a7 ice: Remove ndo_get_phys_port_name
+dc47483946f9cd5c8aff37198b50051cb5801d49 ice: tc: do default match on all profiles
+a25e3a853cf3dbfba0759a4752b2ae3549fabd7c i40e: fix i40e_count_filters() to count only active/new filters
+00f354b79a6046add84590d3a33e8fb9735be348 i40e: fix vf may be used uninitialized in this function warning
+34820b6f31a5713bdd9206b775a8b074d6bf8962 i40e: Prevent setting MTU if greater than MFS
+0d6ae26fe1b62803dcd2591aaeff5ca32ff48c69 igc: Remove stale comment about Tx timestamping
+ceaf607b454ad8abe3be2744b5f3749228dc6152 i40e: Fix VF MAC filter removal
+1588455bd1c7772b30a62598c70dec29d4a344cd ice: tc: check src_vsi in case of traffic from VF
+4e828e11106bf70f81442ccb4e22cfdc59a0c2d4 ice: tc: allow zero flags in parsing tc flower
+91f40c9025a8bc807029c7d301777a94c77440c4 i40e: Enforce software interrupt during busy-poll exit
+0b4e7dd0e16550a8ca72382f74a2696c78c050a0 ice: Remove newlines in NL_SET_ERR_MSG_MOD
+3ca47a8400e416eb4071944ae9f1b4c097c26724 idpf: fix kernel panic on unknown packet types
+75e20f67246ece0d8b4ea174f632603b94f2d121 ice: fix enabling RX VLAN filtering
+4310b220aafb889e2d3b6d6f16f3122b9cea9a66 ice: set vf->num_msix in ice_initialize_vf_entry()
+8a1632593da3affab047b4ef602af37bd00502e8 ice: store VF relative MSI-X index in q_vector->vf_reg_idx
+ba8529f25e2ce3b6aec417db7c917eb701b34a53 ice: add ice_adapter for shared data across PFs on the same NIC
+16aabe7b73cdda7557d4d72a13394e3f54d40b42 ice: avoid the PTP hardware semaphore in gettimex64 path
+bceba519ccfe5d05640bf3db8e654bb1bf22e1b6 ice: fold ice_ptp_read_time into ice_ptp_gettimex64
+68f53dea37c0a0e9072c0eaa3dccc2687bab2882 ice: move ice_devlink.[ch] to devlink folder
+54360606eddb902acbdeb361675cbd20994e7af0 ice: move devlink port code to a separate file
+5930df7bd1bee36d0aa4e15fdec40d42b5bd3711 ice: hold devlink lock for whole init/cleanup
 
---===============5452714982459679814==--
+--===============2848785106537224478==--
