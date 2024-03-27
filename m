@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 27 Mar 2024 16:56:51 -0000
-Message-Id: <171155861120.18846.1621485882206877311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 27 Mar 2024 16:56:52 -0000
+Message-Id: <171155861205.18906.5197020052074207161@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 7033999ecd7b8cf9ea59265035a0150961e023ee
-    new: 498e47cd1d1f3e0a870a29d1b28093e64db52fd2
+    old: 2c43c33bfd2317dc0ae25e49f3d651ddfe2f54ab
+    new: a4e02d6b91c5e57f820032ec6ad794694c86f327
     log: |
-         5b4cdd9c5676559b8a7c944ac5269b914b8c0bb8 Fix memory leak in posix_clock_open()
-         498e47cd1d1f3e0a870a29d1b28093e64db52fd2 Fix build errors due to new UIO_MEM_DMA_COHERENT mess
+         a8d89feba7e54e691ca7c4efc2a6264fa83f3687 bpf: Check bloom filter map value size
+         ecc6a2101840177e57c925c102d2d29f260d37c8 bpf: Protect against int overflow for stack access size
+         a4e02d6b91c5e57f820032ec6ad794694c86f327 Merge branch 'check-bloom-filter-map-value-size'
          
