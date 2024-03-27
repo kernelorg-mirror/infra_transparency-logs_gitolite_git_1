@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============5440322115564017005=="
+Content-Type: multipart/mixed; boundary="===============7312573149083033101=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 27 Mar 2024 15:10:11 -0000
-Message-Id: <171155221131.3379.13944891903670027449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 27 Mar 2024 15:10:25 -0000
+Message-Id: <171155222552.3557.18426427021153746343@gitolite.kernel.org>
 
---===============5440322115564017005==
+--===============7312573149083033101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: 7b95ee0db7e0a7f99077f1b926323c7bf0d2e8f8
-    new: cc983803081aa6a1a5ed9375cb7d01cd5c1da570
-    log: revlist-7b95ee0db7e0-cc983803081a.txt
+  - ref: refs/heads/for-linus
+    old: a9e34681df71f87c093783f8bd9f107fda43a530
+    new: 4f9d03ffc2928551b3f367fee7c23c9c6fbb9325
+    log: |
+         4f9d03ffc2928551b3f367fee7c23c9c6fbb9325 Merge remote-tracking branch 'asoc/for-6.8' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 0f6530d3953f7451f5f3a5b843c21e7ffa122ae8
+    new: c606438da610cd8c06a0171264faa759253efdd3
+    log: revlist-0f6530d3953f-c606438da610.txt
 
---===============5440322115564017005==
+--===============7312573149083033101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1711552209 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1711552208-8e5317cdaa99a41547b6a753a62037528989cf48
-
-7b95ee0db7e0a7f99077f1b926323c7bf0d2e8f8 cc983803081aa6a1a5ed9375cb7d01cd5c1da570 refs/heads/asoc-6.10
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYENtEACgkQJNaLcl1U
-h9Au4gf/TZc0zlWoybO5D7rqlPOpWoH56lfNnvAHo7TE4/VqG5oV6cOzpB1rnLIp
-b46hMnDhAfX1QvUgmyJe3Txi7Yo1pu4SVGmL+F4wHPSNuI56lxzPXNhsp6VrN96U
-tyrDMTd/HHlNssOttIlhcT0vSmUDHTjonhK3P4uIBTt7tUCsgOyVBUGaI1kPxYEc
-YdD6ftBvpD8yFi4w8tojZJQTDamm0suEpan6kUyyQ/2B4f5VaXXu/FHsJVVmq83K
-xCfHHxMa5gwnAs3Fgp2ISafhbxBpRygcgV0MkR2QGZJScIwNhFMdPT16iqIfyfbi
-i/cf/gW40URRqJpL/XeNRjoFdAW/YA==
-=GH51
------END PGP SIGNATURE-----
-
---===============5440322115564017005==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b95ee0db7e0-cc983803081a.txt
+Content-Disposition: attachment; filename=revlist-0f6530d3953f-c606438da610.txt
 
 087777347bea060f82fa97827e7d1f625c0f9376 ASoC: intel: sof_sdw: Make find_codec_info_part() return a pointer
 c2c7a8b3848127f3355109d72c865b7741af9f0c ASoC: intel: sof_sdw: Make find_codec_info_acpi() return a pointer
@@ -86,5 +67,7 @@ aac976aa3c6a37175eec9d3eb912cd92aa8c3a0b ASoC: Intel: change cs35l56 name_prefix
 9c09bef69fe9376953348bb367c869f3d16c758c ASoC: Intel: sof_sdw: Add quirk for optional codec speakers
 59ffeb15b2f7b44cf934fd778dc0d98a35aa6a84 ASoC: Intel: sof_sdw: Add support for cs42l43 optional speaker output
 cc983803081aa6a1a5ed9375cb7d01cd5c1da570 ASoC: Intel: boards: updates for 6.10 - part2
+4f9d03ffc2928551b3f367fee7c23c9c6fbb9325 Merge remote-tracking branch 'asoc/for-6.8' into asoc-linus
+c606438da610cd8c06a0171264faa759253efdd3 Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
 
---===============5440322115564017005==--
+--===============7312573149083033101==--
