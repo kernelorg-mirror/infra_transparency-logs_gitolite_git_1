@@ -1,38 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4404643124852398017=="
+Content-Type: multipart/mixed; boundary="===============6799522100596434167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 27 Mar 2024 03:05:21 -0000
-Message-Id: <171150872137.29940.4131786235917105389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 27 Mar 2024 03:05:30 -0000
+Message-Id: <171150873084.30095.18332987694254796617@gitolite.kernel.org>
 
---===============4404643124852398017==
+--===============6799522100596434167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 084c8e315db34b59d38d06e684b1a0dd07d30287
     new: 26074e1be23143b2388cacb36166766c235feb7c
     log: revlist-084c8e315db3-26074e1be231.txt
-  - ref: refs/heads/stable
-    old: 928a87efa42302a23bb9554be081a28058495f22
-    new: 7033999ecd7b8cf9ea59265035a0150961e023ee
-    log: |
-         8076972468584d4a21dab9aa50e388b3ea9ad8c7 printk: Update @console_may_schedule in console_trylock_spinning()
-         9eb05877dbee03064d3d3483cd6702f610d5a358 pwm: img: fix pwm clock lookup
-         576bb2d8e37a75a27400849327b996f330bc2380 Merge tag 'pwm/for-6.9-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
-         7033999ecd7b8cf9ea59265035a0150961e023ee Merge tag 'printk-for-6.9-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-         
   - ref: refs/tags/next-20240327
     old: 0000000000000000000000000000000000000000
     new: 05d4ea02533e3b442d1c64276505c2a820eafff9
 
---===============4404643124852398017==
+--===============6799522100596434167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -645,4 +636,4 @@ f70a3165e5193e0e672b8adb9265e27dbe460a7d Merge branch 'for-next' of git://git.ke
 25a6900d6bf13286c412597d8d62479117bab422 Revert "selinux: reject invalid ebitmaps"
 26074e1be23143b2388cacb36166766c235feb7c Add linux-next specific files for 20240327
 
---===============4404643124852398017==--
+--===============6799522100596434167==--
