@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 27 Mar 2024 03:50:03 -0000
-Message-Id: <171151140349.31184.17145591066055121357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 27 Mar 2024 03:51:01 -0000
+Message-Id: <171151146103.31661.11358440720157236271@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/io_uring-recvsend-bundle
-    old: 91dfa124e1df75ecec884d10b2a10888285cca88
-    new: 93b74299cb4b8d4ca6bf3e711ab2c144ffd268f8
+  - ref: refs/heads/main
+    old: c1fd3a9433a2bf5a1c272384c2150e48d69df1a4
+    new: 646fc4bd0a6bd942361a8a66a5c54ee90febb7f9
     log: |
-         345ac0e148864d566c7c99d39aff840a80d096ec io_uring: switch deferred task_work to an io_wq_work_list
-         dfe0fc560719301b3539c0e178e2821cf17f1e8a io_uring: switch fallback work to io_wq_work_list
-         a93e746fa217cf589f69a85fe92958497bd12503 io_uring: switch normal task_work to io_wq_work_list
-         cfa94d26e308546556ead043af190ee28357f454 io_uring/net: add generic multishot retry helper
-         5b8277b443503a91e67819861b8647c5991a823a io_uring/net: add provided buffer support for IORING_OP_SEND
-         b1a04cf5cb4577e0214a9195ffbbf9d98f032f61 io_uring/kbuf: add helpers for getting/peeking multiple buffers
-         86d3e8ac6904f5721bf68b68f554479c54a0a6c7 io_uring/net: support bundles for send
-         93b74299cb4b8d4ca6bf3e711ab2c144ffd268f8 io_uring/net: support bundles for recv
+         7608a971fdeb4c3eefa522d1bfe8d4bc6b2481cc tls: recv: process_rx_list shouldn't use an offset with kvec
+         85eef9a41d019b59be7bc91793f26251909c0710 tls: adjust recv return with async crypto and failed copy to userspace
+         dc54b813df63020e946ccdef35b64d4fa99fd622 selftests: tls: add test with a partially invalid iov
+         417e91e856099e9b8a42a2520e2255e6afe024be tls: get psock ref after taking rxlock to avoid leak
+         646fc4bd0a6bd942361a8a66a5c54ee90febb7f9 Merge branch 'tls-recvmsg-fixes'
          
