@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Wed, 27 Mar 2024 14:35:01 -0000
-Message-Id: <171155010144.4533.17917554491819426768@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0372535683807743929=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 27 Mar 2024 14:48:47 -0000
+Message-Id: <171155092763.15530.233223853069772848@gitolite.kernel.org>
+
+--===============0372535683807743929==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 6cb4f8e754bc6dcc1bd023b1417fffae62e84453
-    new: 2c5b58d63bedbf1c1d8e92396a8d6bfa51086679
+  - ref: refs/heads/master
+    old: 0d2c66893de148bc9e5f5964d5f33800cbb659af
+    new: 662bcedac5c0bf8b4f566c4da89cd0517bed3c07
     log: |
-         a7e2e1b2a34f5ec70daf834433f7799a1fd0c47e landlock: Add IOCTL access right for character and block devices
-         c8c0214629959fd8a1d2e759815c673173ebaaf9 selftests/landlock: Test IOCTL support
-         cd4e8d155d1e556e82c58b1d4fd8e6adb71e7abd selftests/landlock: Test IOCTL with memfds
-         0ea993fbf3e3d530ad13005305836988741208fd selftests/landlock: Test ioctl(2) and ftruncate(2) with open(O_PATH)
-         30fca9a48bcb24eb6a0f59f0a78bf06cda5ee1c4 selftests/landlock: Test IOCTLs on named pipes
-         ea5d3753654058b20377ec722180f5a7385d0ec6 selftests/landlock: Check IOCTL restrictions for named UNIX domain sockets
-         349f0c3434bc4885533d9e33e26a274db8eac5f3 samples/landlock: Add support for LANDLOCK_ACCESS_FS_IOCTL_DEV
-         b14436a63c71b9adf1cbbc2a34049aa387e29e2a landlock: Document IOCTL support
-         38f5b23e2929cb6c2447a15c7326c86c5a42e9e5 MAINTAINERS: Notify Landlock maintainers about changes to fs/ioctl.c
-         2c5b58d63bedbf1c1d8e92396a8d6bfa51086679 fs/ioctl: Add a comment to keep the logic in sync with the Landlock LSM
+         662bcedac5c0bf8b4f566c4da89cd0517bed3c07 4.19-stable patches
          
+
+--===============0372535683807743929==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711550925 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1711550924-95309c6e8c71f9dd1839f8e465828917bfd3ab98
+
+0d2c66893de148bc9e5f5964d5f33800cbb659af 662bcedac5c0bf8b4f566c4da89cd0517bed3c07 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYEMc4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KmAQAKxflbjVVXGEIyk1RgTE
+RQa6fVhDq8UdoSxTFGuvIrvWvCsMcBOD0Nejk6P8eL8XL+ttaK8Jfn0uFt+xF99V
+TuBX26c1DulzB5zzOwMjiJ1CdPGJoamc7VWJBOA8s9c7szI25GcGTmewb8spmd4s
+GBfH97G3uwSauXj7JArgjz0fWg6ibdHAIzuVPj1D/ya7ozBzaPn7hofdlsTP2dli
+DR6Am8KsnavVoETSv0JnhPZ+U2QSuC5BfY4aLcjpy6ywEfIq6DtCKV6iaaEZEl0d
+JEfx+PbSprtidtgRpiMmzOppM0+pFiNsPKIfWLVWSlLBhzLOgujGbofZmk/+NqFL
+aFQov56hQv7/GH3eNmiZZrJyCEid2aSA2E/iGuAPiCcHDitm137aHfIAUsaf3ZCT
+/qM/nuFbdhGoXyO3hYQ8InXwS5X/4q6tYe9ThW0KYZrjHi3mH3IJgVMfe/hDw/JY
+zSreeNgIjNrj//oSXjL4F/Nh8a3JpWh/0qFVHArzGLF3TlUkTjZvkhVQkiGXX1Tc
+7DB7je1XSc1/X/7shUwITE4e3TR5z+5HTAskXrqWW0//CNEHYuuFfsZRWysxt5+/
+nnNUN+mZVm+qv7l2oB6dWidn4s+Wq3VsNg9DqGKXYBmk+zhI0ykNcwd9KrmJx+TL
+gDgv6L2JntBPQ/WbPWjuWqbL
+=3DUb
+-----END PGP SIGNATURE-----
+
+--===============0372535683807743929==--
