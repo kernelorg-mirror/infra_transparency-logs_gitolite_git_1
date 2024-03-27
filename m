@@ -1,31 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============3431948732549264538=="
+Content-Type: multipart/mixed; boundary="===============7357873639129123849=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Wed, 27 Mar 2024 17:32:04 -0000
-Message-Id: <171156072449.12476.2429264948439856592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Wed, 27 Mar 2024 17:32:52 -0000
+Message-Id: <171156077236.12840.5791707943747814770@gitolite.kernel.org>
 
---===============3431948732549264538==
+--===============7357873639129123849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/edac-misc
-    old: 4527a2194e7c2f88e940f9071084daa307ce08af
-    new: c8d37084e93fcd937d41b2df59e934a18ff6ae04
-    log: revlist-4527a2194e7c-c8d37084e93f.txt
+  - ref: refs/heads/arm64/daif/further-cleanup
+    old: 0693937d438a787953616de753cbb86851df8875
+    new: c48990aca70299b5124eecd394397ea82abd8275
+    log: revlist-0693937d438a-c48990aca702.txt
 
---===============3431948732549264538==
+--===============7357873639129123849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4527a2194e7c-c8d37084e93f.txt
+Content-Disposition: attachment; filename=revlist-0693937d438a-c48990aca702.txt
 
+e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
+195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
+f095fefacdd35b4ea97dc6d88d054f2749a73d07 ptp: Move from simple ida to xarray
 379b97bbf02feecae5ce870bc0c67e3d723e30f5 selftests/bpf: Add kprobe multi triggering benchmarks
 86833aec447939a886a13bbdbdf21c9628c5c8c5 Merge tag 'x86-entry-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d6170e4aaf86424c24ce06e355b4573daa891b17 bpf: hardcode BPF_PROG_PACK_SIZE to 2MB * num_possible_nodes()
@@ -1045,10 +1048,7 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-f5ca0d515675f20f0d7ab7c27aef7aa4f62e4c03 EDAC/amd64: Remove unused struct member amd64_pvt::ext_nbcfg
-3667a35a50f4fde8400ab988340a6f84aaebda7b EDAC/device: Remove edac_dev_sysfs_block_attribute::{block,value}
-9186695ef709933eee8fc96a706bcbd6aec1b396 EDAC/device: Remove edac_dev_sysfs_block_attribute::store()
-48bc8869c5ddb0d8d0b6ee81aa81cf1287a20815 EDAC: Remove dynamic attributes from edac_device_alloc_ctl_info()
-c8d37084e93fcd937d41b2df59e934a18ff6ae04 EDAC: Remove unused struct members
+3148e7c0d990f65ad358b16ebc5a8bc12d06fd2d arm64: use symbolic name for MDSCR_EL1.TDCC
+c48990aca70299b5124eecd394397ea82abd8275 WIP: arm64: defer clearing DAIF.D
 
---===============3431948732549264538==--
+--===============7357873639129123849==--
