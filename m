@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 27 Mar 2024 23:01:14 -0000
-Message-Id: <171158047430.29295.5027350318075519165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 27 Mar 2024 23:09:30 -0000
+Message-Id: <171158097006.2827.14128636851923595488@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: fc363f41092ae742907b8b858461056c3ddc1c8c
-    new: 077d145936f239e5e9fb97c5d463c7de94261820
+  - ref: refs/heads/dev-queue
+    old: 5930df7bd1bee36d0aa4e15fdec40d42b5bd3711
+    new: a81f6acc75e74f8b5502e4fa7ede177623de2035
     log: |
-         8f15dd7ef8d088d17ff342c0b120d476ac0a6488 backup damon/next patches
-         077d145936f239e5e9fb97c5d463c7de94261820 backup_patches: Receive no argument and do git commit
+         77aa6315476cac3b19457d7f838c9143be6fb140 ice: Fix freeing uninitialized pointers
+         1caad74c2fb7b427d1ef1883f8666b2ea1b03319 igc: Add Tx hardware timestamp request for AF_XDP zero-copy packet
+         68ce0a672afd2624d64704aee5b2348aff587731 e1000e: Remove redundant runtime resume for ethtool_ops
+         fa15e5dfa44726ce220ab4667d940fd30a085083 igb: Remove redundant runtime resume for ethtool_ops
+         a81f6acc75e74f8b5502e4fa7ede177623de2035 igc: Remove redundant runtime resume for ethtool ops
          
