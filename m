@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Tue, 26 Mar 2024 23:58:34 -0000
-Message-Id: <171149751422.17623.3516431389547832039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 27 Mar 2024 00:11:59 -0000
+Message-Id: <171149831975.28452.7675397484962018683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/fixes
-    old: e327975cc99c85239a9afa241fc76b164a68b880
-    new: fca10c5d81bb6739030a52e56b4219b3af0e3673
+  - ref: refs/heads/dev-queue
+    old: 4c7a47605bb720acd24e295a62a8a3ae2739521f
+    new: 2aa82644d8036268041b8bad11c43909f3b0e44a
     log: |
-         fca10c5d81bb6739030a52e56b4219b3af0e3673 selftests: dmabuf-heap: add config file for the test
+         2aa82644d8036268041b8bad11c43909f3b0e44a ice: fix enabling RX VLAN filtering
          
