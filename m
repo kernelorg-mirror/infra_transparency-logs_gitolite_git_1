@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 27 Mar 2024 03:51:02 -0000
-Message-Id: <171151146273.31729.6244167289349764909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 27 Mar 2024 03:53:10 -0000
+Message-Id: <171151159022.32520.10557807443694760625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 6e06312035032924fc97f2050bfe85e63ca26514
-    new: ee36b1e93b11b980e0156bd07cbb9866b7d3e29e
+    old: 646fc4bd0a6bd942361a8a66a5c54ee90febb7f9
+    new: f7442a634ac06b953fc1f7418f307b25acd4cfbc
     log: |
-         341ee1a584c8f55068cc5d7024cf1711ab81e388 net: pin system percpu page_pools to the corresponding NUMA nodes
-         ee36b1e93b11b980e0156bd07cbb9866b7d3e29e net: amd8111e: Drop unused copy of pm_cap
+         f7442a634ac06b953fc1f7418f307b25acd4cfbc mlxbf_gige: call request_irq() after NAPI initialized
          
