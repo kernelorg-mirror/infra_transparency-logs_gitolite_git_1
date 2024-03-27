@@ -1,56 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0372535683807743929=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 27 Mar 2024 14:48:47 -0000
-Message-Id: <171155092763.15530.233223853069772848@gitolite.kernel.org>
-
---===============0372535683807743929==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Wed, 27 Mar 2024 14:49:16 -0000
+Message-Id: <171155095638.15782.682117834967793954@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 0d2c66893de148bc9e5f5964d5f33800cbb659af
-    new: 662bcedac5c0bf8b4f566c4da89cd0517bed3c07
-    log: |
-         662bcedac5c0bf8b4f566c4da89cd0517bed3c07 4.19-stable patches
-         
-
---===============0372535683807743929==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711550925 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1711550924-95309c6e8c71f9dd1839f8e465828917bfd3ab98
-
-0d2c66893de148bc9e5f5964d5f33800cbb659af 662bcedac5c0bf8b4f566c4da89cd0517bed3c07 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYEMc4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KmAQAKxflbjVVXGEIyk1RgTE
-RQa6fVhDq8UdoSxTFGuvIrvWvCsMcBOD0Nejk6P8eL8XL+ttaK8Jfn0uFt+xF99V
-TuBX26c1DulzB5zzOwMjiJ1CdPGJoamc7VWJBOA8s9c7szI25GcGTmewb8spmd4s
-GBfH97G3uwSauXj7JArgjz0fWg6ibdHAIzuVPj1D/ya7ozBzaPn7hofdlsTP2dli
-DR6Am8KsnavVoETSv0JnhPZ+U2QSuC5BfY4aLcjpy6ywEfIq6DtCKV6iaaEZEl0d
-JEfx+PbSprtidtgRpiMmzOppM0+pFiNsPKIfWLVWSlLBhzLOgujGbofZmk/+NqFL
-aFQov56hQv7/GH3eNmiZZrJyCEid2aSA2E/iGuAPiCcHDitm137aHfIAUsaf3ZCT
-/qM/nuFbdhGoXyO3hYQ8InXwS5X/4q6tYe9ThW0KYZrjHi3mH3IJgVMfe/hDw/JY
-zSreeNgIjNrj//oSXjL4F/Nh8a3JpWh/0qFVHArzGLF3TlUkTjZvkhVQkiGXX1Tc
-7DB7je1XSc1/X/7shUwITE4e3TR5z+5HTAskXrqWW0//CNEHYuuFfsZRWysxt5+/
-nnNUN+mZVm+qv7l2oB6dWidn4s+Wq3VsNg9DqGKXYBmk+zhI0ykNcwd9KrmJx+TL
-gDgv6L2JntBPQ/WbPWjuWqbL
-=3DUb
------END PGP SIGNATURE-----
-
---===============0372535683807743929==--
+  - ref: refs/heads/arm64-16k-lpa2
+    old: 39dc31d61a8d133f40cd8cc8a1d60a6a0fc8d731
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm64-4k-lpa2
+    old: f0acaf019dda7a174b6ab3d99fb82bd2c52da3ea
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm64-lpa2-v3
+    old: aee362e235fc817951b5e35963bdf2e75bbf1cb6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm64-lpa2-v3a
+    old: 3bd742e3eebab970de3792621b7f3b1f4c0d9323
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm64-lpa2-v3b
+    old: e93b9e409f65bee5a8c4f6a92a9b5af00d291a8c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm64-lpa2-v3c
+    old: 8a7d10afac67fee414b59638121860605f862e67
+    new: 0000000000000000000000000000000000000000
