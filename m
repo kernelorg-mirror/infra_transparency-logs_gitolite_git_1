@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1769685207891156513=="
+Content-Type: multipart/mixed; boundary="===============3549944457297195097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 28 Mar 2024 00:15:17 -0000
-Message-Id: <171158491788.19382.817439929803835164@gitolite.kernel.org>
+Date: Thu, 28 Mar 2024 00:15:22 -0000
+Message-Id: <171158492229.19479.8928559626902045421@gitolite.kernel.org>
 
---===============1769685207891156513==
+--===============3549944457297195097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: b59abf77470a777181a643fe9fc65cd3274342a6
-    new: c577d32854396cc44fd2ba78f9001f8248da48c4
-    log: revlist-b59abf77470a-c577d3285439.txt
+  - ref: refs/heads/6.10/scsi-queue
+    old: f02fe780f28db435671fcc7c0214556e253b5a46
+    new: e5abf748fcd5ab162743499f010531b9f45e5646
+    log: revlist-f02fe780f28d-e5abf748fcd5.txt
 
---===============1769685207891156513==
+--===============3549944457297195097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1711584902 -0400
+pusher 75C5DE3D 1711584920 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1711584902-54e183a865d831ef66ab77fc3d6ba27d217c7a47
+nonce 1711584920-20846a54dbb6572f711eb8260bd13a0358babaaf
 
-b59abf77470a777181a643fe9fc65cd3274342a6 c577d32854396cc44fd2ba78f9001f8248da48c4 refs/tags/mkp-scsi-queue
+f02fe780f28db435671fcc7c0214556e253b5a46 e5abf748fcd5ab162743499f010531b9f45e5646 refs/heads/6.10/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYEtoYACgkQ7ulgGnXF
-3j1EvA//W8Tw1jsz+S2keZm29OlcRdCsZf5lwMRRRzLwqQdZpz/sggrbOah3jRgn
-DyUyuLKY7Y3xsFlKup+XzKWWW9Eie2LPcUAqOnd6DkMwWcWNvfkvMDiw9mwXcn5j
-/URPuhCqKHO/oyIVRWodj0sfw29sJ/yiRWULpxbs4tJMYBHWf1UayKmU9OuRvPc/
-QDxzWbu8GI51Y7NQy6UXg8qmVytB+a9pR+LptQItqB5eKgzHzzv9ZxcXopmiQRfI
-+khinizS09TPtOLOu6DGm3akJn5BTNCCfUgB74jfGQcUUTwSfbDPZWDIFoflrU+T
-3zhiJfiRwkX38mX1sCvKOYiWLKZA7I5dBzH+WS4JWTFBcEEqM5hIrR/IsXhraq5s
-xnaLmclF7EJ+R6pUMEyr7NE0iPUT+oPZEnWK4h6aJpc95nmkmi/CRyfOjn6LLQLU
-pv74y9Z9oFB+xrXIMBpVTxj5MJ1NrHdIsAaJjsIwjOAEaV1cuAYiRD2xhWuNNnqf
-wZuwzGUmg9utV2iqSNWW9t5naAIGRDqrzzoKgX7rnW31uO0g44Sqn+tlHOcgBOp4
-XLJb1mV8LcLaUCYpoKDi3JbJcUGhfFXeiC2ZJeKaycxv5/CFadU2S9UBBBIbqSHD
-eQTpAZrKeoBFFW32K+3JPSQ/BfYRwncDl61M9owZGRQh+pCuj94=
-=PI59
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYEtpgACgkQ7ulgGnXF
+3j21chAAnuuOE7uiNDzGk2k4J9jkJlIgeyeWdtiLE3OpLgWsATJlM0LQqRkb41qV
+rJLOGL0cmXmRhfU/qAEjU2M4GSTbc548fUys1GRIoSOXmSD8BTisJx6boMNhveXM
+KQ+IBwh/RYMAiEXLRCKCAslrP7RB5LBg6e74Ccd6bWoLQkIumxHScq1HCoVUy0r7
+8FnIs0S3Ig8zR966knUoZ+DEn52U9JmVEzjbywNg1YTvOJRnqPnVcfETcnjnZtKa
+QszWfrVAz4+yW6K3ihgOT4Q4goYhcVGVP6Q/NmGwskAPWDeFUWEMn3z4r8yz/lcx
+CTxwg4LFFpB9CpY0ibxxuc9q+GJc8nQxD+SQvAFv4eRQ1Y6EbTR0Bcr4pLBOs5NX
+jVHGQVkoL6im3SvEGDayJBkQTKgSY3qGjuUa6B3IpTc+4BS4gKyMFADyNsnW+WLp
+k40XvkVv3Mc4rtKNhtGvFlnVzHONkxciAKg9Bx/bsLAOavbCkOLuf6NA+pXiE8OR
+LDz2Gw05aZj4j8//G4FZv5txgdwE1YqlQzNvu5PBzq+smzwClPSwZ3Xrp3NubjWi
+Ait/bc0Kihh+e7dp/ud48W5wMw9Kdnfhx3FKo6w0MbTqEeWkZFkb2LusDsS5Kt+B
+wLoa+rk6hpLk+yIyTRt1VjGrnmAtr9QxIjAUGulsgVtO/PQLOfE=
+=jLgX
 -----END PGP SIGNATURE-----
 
---===============1769685207891156513==
+--===============3549944457297195097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b59abf77470a-c577d3285439.txt
+Content-Disposition: attachment; filename=revlist-f02fe780f28d-e5abf748fcd5.txt
 
 8c8e2422bde198efa57566d768400f73cc485aad scsi: mpi3mr: Replace deprecated strncpy() with assignments
 b7e9712a02e869d2c15a3a2284b078771fd484d7 scsi: mpt3sas: Replace deprecated strncpy() with strscpy()
@@ -101,4 +101,4 @@ b28820a82b7a70d8dbd04f8f4469bcf8497dd217 scsi: ufs: mediatek: Support mphy reset
 a6888d623eae6dcae0ab8a587d68fabeb18f854e scsi: ufs: mediatek: Support rtff in PM flow
 e5abf748fcd5ab162743499f010531b9f45e5646 Merge patch series "ufs: host: mediatek: Provide features and fixes in MediaTek platforms"
 
---===============1769685207891156513==--
+--===============3549944457297195097==--
