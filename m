@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============7618899778455774578=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 28 Mar 2024 20:10:59 -0000
-Message-Id: <171165665960.3184.1894256122794579196@gitolite.kernel.org>
-
---===============7618899778455774578==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Thu, 28 Mar 2024 20:11:48 -0000
+Message-Id: <171165670824.3564.6883725583861926646@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/master
-    old: 23970c613f40356cc88716d07c2d427ca024e489
-    new: 5d9e72e492094f9e1faaf54c7fd5027bcb574924
+  - ref: refs/heads/testing/WFAMNAE-next20240325-CBC
+    old: 8d64f383cd6c4d89ec19dfab770f643e2397fb5f
+    new: 44d55dd9ea90f57c7be8893ba836c93ae3c383a6
     log: |
-         5d9e72e492094f9e1faaf54c7fd5027bcb574924 ez: check that all dependencies can be applied
+         5c1ee4bc9a9dcce196b6c43324a48ff7c15ec101 wifi: wil6210: cfg80211: Use __counted_by() in struct wmi_start_scan_cmd and avoid some -Wfamnae warnings
+         936650c4700ed5c97aca638b5a0aa6230ee8e381 wifi: wil6210: wmi: Use __counted_by() in struct wmi_set_link_monitor_cmd and avoid -Wfamnae warning
+         44d55dd9ea90f57c7be8893ba836c93ae3c383a6 qtnfmac: Avoid -Wflex-array-member-not-at-end warnings
          
-
---===============7618899778455774578==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1711656658 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1711656658-2a2fa2efa77c3a014ec1fa9340a3c2fb48ec8c38
-
-23970c613f40356cc88716d07c2d427ca024e489 5d9e72e492094f9e1faaf54c7fd5027bcb574924 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZgXO0gAKCRC2xBzjVmSZ
-bC3GAP45gBMTXPSLbca/SnuKaYkl4Xa6XQWEYCe6EBvkjsdzWAD/VB3FYS6SRtF9
-Ji4bcNuFYwd/efxGGpCMRGgd8jfVzwM=
-=mQaG
------END PGP SIGNATURE-----
-
---===============7618899778455774578==--
