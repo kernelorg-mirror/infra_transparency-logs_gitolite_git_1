@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8920861421563905779=="
+Content-Type: multipart/mixed; boundary="===============2652077625003536653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 28 Mar 2024 07:36:32 -0000
-Message-Id: <171161139251.18689.6092549527105262875@gitolite.kernel.org>
+Date: Thu, 28 Mar 2024 07:36:35 -0000
+Message-Id: <171161139561.18784.2927390201673633652@gitolite.kernel.org>
 
---===============8920861421563905779==
+--===============2652077625003536653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,37 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: a5894bc48f64caa86dbea1744d067c925303c5fc
-    new: d1ef7a9ca867ab5c161d1647b2a8ec93a2ea155d
-    log: revlist-a5894bc48f64-d1ef7a9ca867.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 2ac2b1665d3fbec6ca709dd6ef3ea05f4a51ee4c
+    new: a00f7d8ea3f8da845551d657d5d75cc6547cd07d
+    log: revlist-2ac2b1665d3f-a00f7d8ea3f8.txt
 
---===============8920861421563905779==
+--===============2652077625003536653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1711611391 +0100
+pusher andi.shyti@kernel.org 1711611394 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1711611390-8f50cbbe4e7f0754f4bc62442e0a45a65e2f0446
+nonce 1711611394-15fa30a0d233de752626551d57cdd9755333efc1
 
-a5894bc48f64caa86dbea1744d067c925303c5fc d1ef7a9ca867ab5c161d1647b2a8ec93a2ea155d refs/heads/i2c/i2c-host-fixes
+2ac2b1665d3fbec6ca709dd6ef3ea05f4a51ee4c a00f7d8ea3f8da845551d657d5d75cc6547cd07d refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZgUd/xYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uI48BALYaIMjcnhCYZJeHiKQozw4ssuPt
-W4hG3giZpWqmQ3jkAP9oHHfJg6i5/WxCIzNU9vJgnozASrrg3rULywkIETw5Dw==
-=/HpJ
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZgUeAhYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ujaAA/2tPDrwJOqamhojjxd7OqX+Qocor
+JPBjLLbWSMBPrOvzAQD8+yTwUnyZJLpfhiVyinW01ob9EP7lRUNwWjuv+HRFCQ==
+=D7tg
 -----END PGP SIGNATURE-----
 
---===============8920861421563905779==
+--===============2652077625003536653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5894bc48f64-d1ef7a9ca867.txt
+Content-Disposition: attachment; filename=revlist-2ac2b1665d3f-a00f7d8ea3f8.txt
 
-2444a80c1cc2c4240f60f2162abef3797c1803de kobject: make uevent_seqnum atomic
-5c0941c55e5f681ffb05f395222ac673460bb3d0 kobject: reduce uevent_sock_mutex scope
-4f022aad80dc8b175e309197720f4fca8004fb2e xhci: Add interrupt pending autoclear flag to each interrupter
-ace21625878f78708b75b7a872ec7a0e2ed15ca4 xhci: Add helper to set an interrupters interrupt moderation interval
-becbd202af8425e336b1c25e9254616a5c03d819 xhci: make isoc_bei_interval variable interrupter specific.
-143e64df1bda33310c30ba5e15f72022e6135939 xhci: remove unnecessary event_ring_deq parameter from xhci_handle_event()
-e30e9ad9ed66c049f32ab2ffe38f0b576bebdd2c xhci: update event ring dequeue pointer position to controller correctly
-84ac5e4fa517f5d1da0054547a82ce905678dc08 xhci: move event processing for one interrupter to a separate function
-fbaf1889a30f8564f1450acec8e48f5b967fb184 xhci: add helper that checks for unhandled events on a event ring
 84008be8adb091d419659dda8e655b1956d3c230 xhci: Don't check if the event ring is valid before every event TRB
 edc47759bbc7bf5902676bac441c195a4c7e4180 xhci: Decouple handling an event from checking for unhandled events
 9affb1d9a9d9918adff519a129daba5e369dd741 xhci: add helper to stop endpoint and wait for completion
@@ -1070,6 +1061,15 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
+20c9819ccd9e9f5e6c0306d9ca0354020316deeb dt-bindings: i2c: nxp,pnx-i2c: Convert to dtschema
+e10c23b7035256e2f8de5ae0e609c557f5c156c3 dt-bindings: i2c: renesas,riic: Document R9A09G057 support
+1127c52a502e35c1835816b2e012c52ee7a0d033 i2c: riic: Introduce helper functions for I2C read/write operations
+95d5d1c45ea05b62006ab5ffb468b544180468c2 i2c: riic: Pass register offsets and chip details as OF data
+0945c701a82b49d9e34bd81601ed220df60ac07c i2c: riic: Add support for R9A09G057 SoC
 d1ef7a9ca867ab5c161d1647b2a8ec93a2ea155d i2c: i801: Fix a refactoring that broke a touchpad on Lenovo P1
+ee6a87524ec74dc6e8d0e9a50047248d043fbfb4 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
+bfced8e642d8e221a765b4d97ce7705cfa63b9a6 i2c: viperboard: drop driver owner assignment
+394b3e3ead0d9fdcc1ef53bb893fdbe7bf1db3ac i2c: i2c-qcom-geni: Parse Error correctly in i2c GSI mode
+a00f7d8ea3f8da845551d657d5d75cc6547cd07d Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
 
---===============8920861421563905779==--
+--===============2652077625003536653==--
