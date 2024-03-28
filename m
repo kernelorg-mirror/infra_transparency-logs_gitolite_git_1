@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 28 Mar 2024 22:41:31 -0000
-Message-Id: <171166569132.20817.11270615215505172268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 28 Mar 2024 22:43:40 -0000
+Message-Id: <171166582073.21804.8041017239280839053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: ccd702f7da4be5544f5facb21f29044c1dcd1d32
-    new: da13aab4190dd0c8fd0bca0d49170bc3bd6fa43a
+  - ref: refs/heads/riscv-soc-fixes
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: c90847bcbfb65d0f1c48fcc73a2b3a2d4ceac6a1
     log: |
-         da13aab4190dd0c8fd0bca0d49170bc3bd6fa43a Register EAPOL frame listeners earlier
+         c90847bcbfb65d0f1c48fcc73a2b3a2d4ceac6a1 cache: sifive_ccache: Partially convert to a platform driver
          
