@@ -1,63 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============4481131144813264859=="
+Content-Type: multipart/mixed; boundary="===============5212579703641642859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 28 Mar 2024 22:09:03 -0000
-Message-Id: <171166374370.28478.4744853431606886157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 28 Mar 2024 22:12:59 -0000
+Message-Id: <171166397912.31578.7019063375539064828@gitolite.kernel.org>
 
---===============4481131144813264859==
+--===============5212579703641642859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/next
-    old: 4cece764965020c22cff7665b18a012006359095
-    new: 6c6ca4d09c4900501b9089048518fec3a6bcd813
-    log: revlist-4cece7649650-6c6ca4d09c49.txt
+  - ref: refs/heads/10GbE
+    old: afbf75e8da8ce8a0698212953d350697bb4355a6
+    new: 18685451fc4e546fc0e718580d32df3c0e5c8272
+    log: revlist-afbf75e8da8c-18685451fc4e.txt
 
---===============4481131144813264859==
+--===============5212579703641642859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4cece7649650-6c6ca4d09c49.txt
+Content-Disposition: attachment; filename=revlist-afbf75e8da8c-18685451fc4e.txt
 
-eeee3b5e6d0bf331befa57b4dcb079f827bcd829 PCI: Mask Replay Timer Timeout errors for Genesys GL975x SD host controller
-918a91162bbc60c6ea267e5865c4a4d73aba0118 PCI/MSI: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-82e777f9fbd5b3bce2fd0d677fe364c9a1f99357 PCI/portdrv: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-132e57448181853c6316ff6916eef923c62baf9b Documentation: PCI: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-57c7bf4b79ddf499d815ccb5848f55c14e03f8d9 ASoC: Intel: avs: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-12180a727eee8956c9a05c9674e81533d47b1c8c usb: hcd-pci: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-e3627e74406efdc3ced0b7decc0e3a22b5be0d4d tty: 8250_pci: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-4a0943ca85193354626b82555c692fb84cc223ca platform/x86: intel_ips: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-b3062fa729b11a2125c769db52cb0d15bfd2216e ntb: idt: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-5133224938b9463d6a945ed102280a88b8867b67 mfd: intel-lpss: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-63dc3004171006673ba39f8127f687637c7ec682 drm/amdgpu: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-1ac999e6278d03fbd03ba673541fe62db61452a8 IB/qib: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-2624d81197974be564de16386f67d5aaacab5651 RDMA/vmw_pvrdma: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-24c1c46833d5391c1b2c7004236a2755789907d3 VMCI: Use PCI_IRQ_ALL_TYPES to remove PCI_IRQ_LEGACY use
-300168893073d46842dc27645b5a83ab22025b46 net: amd-xgbe: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-ea418514de1eb738a658d195dce62be5616406f0 net: atlantic: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-f96a8197b47fd950b502224b59387d45e088dfbe net: alx: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-7e3c6d9422a27f1bdf7cfabf188bbeac068dd904 r8169: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-de0766c13c9a010b439364b5e812979df1e96923 net: wangxun: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-4c6b516ed93d0e193f6857c12c063b966b0bada3 wifi: ath10k: Refer to INTX instead of LEGACY
-16e01367bd44725a2b2a162b3db5370a9a3e014b wifi: rtw88: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-5113b4cbd6433030fd383dcb811d017ac266554a wifi: rtw89: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-f282a49547990c33bf64844580f35e50a04d44d8 scsi: arcmsr: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-a7b7eb5f615b9d3cd62c0aa201ba614afbaa60f8 scsi: hpsa: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-46325ef19b4c382a32baac5a23ae4786c552c784 scsi: ipr: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-06ceca7210e73470053d2096f09c90a217c95832 scsi: megaraid_sas: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-7530d6ff2b9beaa5ef74c27ce3cb7ba5a66a8acb scsi: mpt3sas: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-e40aae33a8cbbeed6c0d97e86b1fc6a6341e5bc3 scsi: pmcraid: Use PCI_IRQ_INTX instead of PCI_IRQ_LEGACY
-1bfd602ba7a0e6e6364a0e46d56e737b9e2becc1 scsi: vmw_pvscsi: Do not use PCI_IRQ_LEGACY instead of PCI_IRQ_LEGACY
-6fc19d15036b3ecf2b308530e096084ad42c65d3 PCI: Remove PCI_IRQ_LEGACY
-30d2462a8bf190e702082a1d743503c75f43d8fd PCI: Update pci_find_capability() stub return types
-ce68a9815fb97550f00ce0085c299f726e9f4091 Merge branch 'pci/aer'
-6c6ca4d09c4900501b9089048518fec3a6bcd813 Merge branch 'pci/enumeration'
+cec60af1972d830dc837da76b472cf9cce7945cf wifi: rtw89: coex: fix configuration for shared antenna for 8922A
+10b890ee21a5ef7f6444506974648648f98f9ba9 MAINTAINERS: wifi: add git tree for Realtek WiFi drivers
+27f8f108c8455b42ec5f55806c5dc73ae2c5d075 wifi: mac80211: fix mlme_link_id_dbg()
+4f2bdb3c5e3189297e156b3ff84b140423d64685 wifi: mac80211: check/clear fast rx for non-4addr sta VLAN changes
+774f8841f55d7ac4044c79812691649da203584a wifi: mac80211: fix ieee80211_bss_*_flags kernel-doc
+be23b2d7c3b7c8bf57b1cf0bf890bd65df9d0186 wifi: cfg80211: add a flag to disable wireless extensions
+5f404005055304830bbbee0d66af2964fc48f29e wifi: iwlwifi: mvm: disable MLO for the time being
+ec50f3114e55406a1aad24b7dfaa1c3f4336d8eb wifi: cfg80211: fix rdev_dump_mpp() arguments order
+2e6bd24339a6ff04413b2e49c0f2672d6f0edfa5 wifi: mac80211: fix prep_connection error path
+bbe806c294c9c4cd1221140d96e5f367673e393a wifi: iwlwifi: mvm: pick the version of SESSION_PROTECTION_NOTIF
+847d7353e5a95d4df339dd86f5a4fb69f41eff75 wifi: iwlwifi: mvm: consider having one active link
+a8b5d4809b503da668966a8187b9872e6c85291c wifi: iwlwifi: mvm: Configure the link mapping for non-MLD FW
+134d715e9ee2611edfb51774608ad465266bb3ef wifi: mac80211: correctly set active links upon TTLM
+06a093807eb7b5c5b29b6cff49f8174a4e702341 wifi: iwlwifi: mvm: rfi: fix potential response leaks
+045a5b645dd59929b0e05375f493cde3a0318271 wifi: iwlwifi: fw: don't always use FW dump trig
+c2ace6300600c634553657785dfe5ea0ed688ac2 wifi: iwlwifi: read txq->read_ptr under lock
+17f64517bf5c26af56b6c3566273aad6646c3c4f wifi: iwlwifi: mvm: guard against invalid STA ID on removal
+19d82bdedaf2db0bfb3762dda714ea803065eed5 wifi: iwlwifi: mvm: handle debugfs names more carefully
+e78d7877308989ef91b64a3c746ae31324c07caa wifi: iwlwifi: mvm: include link ID when releasing frames
+dbde9fd49aafc9a09480db2a827159b109042e1a kunit: fix wireless test dependencies
+8ea3f4f1a1b4242d5fc273f41aa7c86f6b40178c MAINTAINERS: wifi: mwifiex: add Francesco as reviewer
+96b98a6552a90690d7bc18dd71b66312c9ded1fb bpf: fix warning for crash_kexec
+a8d89feba7e54e691ca7c4efc2a6264fa83f3687 bpf: Check bloom filter map value size
+ecc6a2101840177e57c925c102d2d29f260d37c8 bpf: Protect against int overflow for stack access size
+a4e02d6b91c5e57f820032ec6ad794694c86f327 Merge branch 'check-bloom-filter-map-value-size'
+4dd651076ef0e5f09940f763a1b4e8a209dab7ab bpf: update BPF LSM designated reviewer list
+56d2f48ed8f857f2765575a6a25b9655765edd41 Merge tag 'wireless-2024-03-27' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+b32ca27fa238ff83427d23bef2a5b741e2a88a1e netfilter: nf_tables: reject destroy command to remove basechain hooks
+1e1fb6f00f52812277963365d9bd835b9b0ea4e0 netfilter: nf_tables: reject table flag and netdev basechain updates
+216e7bf7402caf73f4939a8e0248392e96d7c0da netfilter: nf_tables: skip netdev hook unregistration if table is dormant
+15fba562f7a9f04322b8bfc8f392e04bb93d81be netfilter: arptables: Select NETFILTER_FAMILY_ARP when building arp_tables.c
+7e6f4b2af5b8cfe028386bc439c9bad1eddff9a6 Merge tag 'for-net' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+005e528c242b19b8131f300dcd4e730e89992acb Merge tag 'nf-24-03-28' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+6a4aee277740d04ac0fd54cfa17cc28261932ddc net: phy: qcom: at803x: fix kernel panic with at8031_probe
+dfd222e2aef68818320a57b13a1c52a44c22bc80 net: bcmasp: Bring up unimac after PHY link up
+4494c10e007121de6d3fbef909d38b4a64087239 net: bcmasp: Remove phy_{suspend/resume}
+eb67cdb33fb493160c062add2eb95d4b2aac08d5 Merge branch 'net-bcmasp-phy-managements-fixes'
+e4a58989f5c839316ac63675e8800b9eed7dbe96 net: lan743x: Add set RFE read fifo threshold for PCI1x1x chips
+40d4b4807cadd83fb3f46cc8cd67a945b5b25461 Octeontx2-af: fix pause frame configuration in GMP mode
+18685451fc4e546fc0e718580d32df3c0e5c8272 inet: inet_defrag: prevent sk release while still in use
 
---===============4481131144813264859==--
+--===============5212579703641642859==--
