@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 28 Mar 2024 16:35:39 -0000
-Message-Id: <171164373995.5624.11012531312015755943@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
+Date: Thu, 28 Mar 2024 16:49:17 -0000
+Message-Id: <171164455772.15014.7264733662794937906@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/utils/cpu/mce/mcelog
+user: ak
 changes:
   - ref: refs/heads/master
-    old: c28878c52377f67b1e7a16c5e6a2bba1272cf870
-    new: 4b45fd891947bd75b5fbbb5ebbcf63b55f2d3f6a
+    old: ab58f07b9b1a4456fca0f5f41639d5cbecc80e36
+    new: 23c24878c2e004f360575d564b825753212a09e5
     log: |
-         4b45fd891947bd75b5fbbb5ebbcf63b55f2d3f6a test/msg-ring: test DEFER_TASKRUN as well
+         23c24878c2e004f360575d564b825753212a09e5 Remove obsolete on disk dimm database code
          
