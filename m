@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7647961012251187128=="
+Content-Type: multipart/mixed; boundary="===============2809071351661932428=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 28 Mar 2024 14:49:14 -0000
-Message-Id: <171163735448.23051.14400265274094550049@gitolite.kernel.org>
+Date: Thu, 28 Mar 2024 14:49:20 -0000
+Message-Id: <171163736019.23140.17166141569632167187@gitolite.kernel.org>
 
---===============7647961012251187128==
+--===============2809071351661932428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes-base
-    old: 9ddf190a7df77b77817f955fdb9c2ae9d1c9c9a3
-    new: 4cece764965020c22cff7665b18a012006359095
-    log: revlist-9ddf190a7df7-4cece7649650.txt
+  - ref: refs/heads/fixes
+    old: ee0017c3ed8a8abfa4d40e42f908fb38c31e7515
+    new: c214ed2a4dda35b308b0b28eed804d7ae66401f9
+    log: revlist-ee0017c3ed8a-c214ed2a4dda.txt
 
---===============7647961012251187128==
+--===============2809071351661932428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ddf190a7df7-4cece7649650.txt
+Content-Disposition: attachment; filename=revlist-ee0017c3ed8a-c214ed2a4dda.txt
 
-eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
-720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
-195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
-f095fefacdd35b4ea97dc6d88d054f2749a73d07 ptp: Move from simple ida to xarray
-379b97bbf02feecae5ce870bc0c67e3d723e30f5 selftests/bpf: Add kprobe multi triggering benchmarks
 86833aec447939a886a13bbdbdf21c9628c5c8c5 Merge tag 'x86-entry-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d6170e4aaf86424c24ce06e355b4573daa891b17 bpf: hardcode BPF_PROG_PACK_SIZE to 2MB * num_possible_nodes()
 66c8473135c62f478301a0e5b3012f203562dfa6 bpf: move sleepable flag from bpf_prog_aux to bpf_prog
@@ -1050,5 +1044,11 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
+f02fe780f28db435671fcc7c0214556e253b5a46 Merge branch '6.9/scsi-queue' into 6.9/scsi-fixes
+27f58c04a8f438078583041468ec60597841284d scsi: sg: Avoid sg device teardown race
+0c76106cb97548810214def8ee22700bbbb90543 scsi: sd: Fix TCG OPAL unlock on system resume
+429846b4b6ce9853e0d803a2357bb2e55083adf0 scsi: mpi3mr: Avoid memcpy field-spanning write WARNING
+f23a4d6e07570826fe95023ca1aa96a011fa9f84 scsi: core: Fix unremoved procfs host directory regression
+c214ed2a4dda35b308b0b28eed804d7ae66401f9 scsi: bnx2fc: Remove spin_lock_bh while releasing resources after upload
 
---===============7647961012251187128==--
+--===============2809071351661932428==--
