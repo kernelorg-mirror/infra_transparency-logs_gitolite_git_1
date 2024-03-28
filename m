@@ -1,50 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5374396456376691726=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 28 Mar 2024 10:48:15 -0000
-Message-Id: <171162289585.26594.4147581621779700277@gitolite.kernel.org>
-
---===============5374396456376691726==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Thu, 28 Mar 2024 10:50:56 -0000
+Message-Id: <171162305640.11647.15702688056515900349@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
   - ref: refs/heads/master
-    old: c5c51245b1fcaeda2f2e126c44f29ccace418e84
-    new: 9e3ed44e7bd1bab2546718c40769d3a7420960d3
-    log: revlist-c5c51245b1fc-9e3ed44e7bd1.txt
-
---===============5374396456376691726==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5c51245b1fc-9e3ed44e7bd1.txt
-
-76cc4f91488af0a808bec97794bfe434dece7d67 sched/fair: Rename {set|get}_rd_overload() to {set|get}_rd_overloaded()
-7bda10ba7f453729f210264dd07d38989fb858d9 sched/fair: Rename SG_OVERLOAD to SG_OVERLOADED
-01f2cc1e529009baf32dc6ec43796ab446e1c1f4 Merge branch into tip/master: 'irq/urgent'
-855c2ce87add443afd8a39344cae2c74e3fea251 Merge branch into tip/master: 'perf/urgent'
-4d019c2ea6bf17a0d49e417fc5d98c936ceb623c Merge branch into tip/master: 'timers/urgent'
-d3d6cf380c2715c6ab1314ec6e2bcdf9150e1366 Merge branch into tip/master: 'x86/urgent'
-c47e25c45c94a26ccea10ebef1da6fa26655f14c Merge branch into tip/master: 'x86/merge'
-3d6c5b97ba1cafd41fb70e8a4a325dacc1751825 Merge branch into tip/master: 'irq/core'
-08961751790e74b612d7160abc23114a79695c1e Merge branch into tip/master: 'locking/core'
-f8f5cc6b9fdf772258b1efb73450212dea37be8a Merge branch into tip/master: 'perf/core'
-f9ef84e649e0c3c4b8a2069abbc06765490f6e4d Merge branch into tip/master: 'ras/core'
-0e17a78f18f4bd61a6359a834e27684851058d31 Merge branch into tip/master: 'sched/core'
-e248a721ccc3b025b4b68d72d0a9f9666d98e19c Merge branch into tip/master: 'x86/asm'
-a83e7aea070e3a7feb1738ad03fff5ae821552c4 Merge branch into tip/master: 'x86/boot'
-4e27a16f08ae5a8f820757330802f32f97e9bcd0 Merge branch into tip/master: 'x86/bugs'
-1b8cede9a10f0b2cd1fcb13a3237502b912c577b Merge branch into tip/master: 'x86/build'
-d33cc10cb01a494e5f40e544d1e4ca2b7de671d2 Merge branch into tip/master: 'x86/cleanups'
-523d1cf441847b575bd3bb23603b7b55223273e7 Merge branch into tip/master: 'x86/cpu'
-e3c0413fe8c3839b1fcb963d4de9d0d0abe271de Merge branch into tip/master: 'x86/fpu'
-9e3ed44e7bd1bab2546718c40769d3a7420960d3 Merge branch into tip/master: 'x86/shstk'
-
---===============5374396456376691726==--
+    old: f24be462578215d21458bf7374298b7eca7c4345
+    new: 4751e65658debf36d7de31c4ca35c55023949766
+    log: |
+         2476e5eb6aef3de7af254086124d04587ec746e7 crypto: qat - adf_get_etr_base() helper
+         99f603327b970307ae9c10e130bfd7a5e924312e crypto: qat - relocate and rename 4xxx PF2VM definitions
+         4f08729e106f6b20601e6a730dd56fc2e7c396c3 crypto: qat - move PFVF compat checker to a function
+         2722dc725d49e95dc5e836f5a1365dbc0097427a crypto: qat - relocate CSR access code
+         3337c7933238e8ee6ef6f55fbd6402a926dcd34e crypto: qat - rename get_sla_arr_of_type()
+         7bddb14db3ca090354429ee7e4b55d3a9168dd8e crypto: qat - expand CSR operations for QAT GEN4 devices
+         944ba6ee8e1aa32a1140e322edc0576fd1be026b crypto: qat - add bank save and restore flows
+         e47da040db6c556c08c8f28842ada51c15913a5b crypto: qat - add interface for live migration
+         4751e65658debf36d7de31c4ca35c55023949766 crypto: qat - implement interface for live migration
+         
