@@ -1,31 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============1445924658985261680=="
+Content-Type: multipart/mixed; boundary="===============6008644433699542302=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Thu, 28 Mar 2024 10:56:31 -0000
-Message-Id: <171162339141.15385.8780012963786154467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Thu, 28 Mar 2024 10:56:36 -0000
+Message-Id: <171162339668.15490.3052957004700018436@gitolite.kernel.org>
 
---===============1445924658985261680==
+--===============6008644433699542302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
+repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/for-backlight-next
-    old: b49c1caca529c28712ef62bfaabdb9441162a935
-    new: 946ced827e6cb28de4738981014fcde4f6f5dfbc
-    log: revlist-b49c1caca529-946ced827e6c.txt
+  - ref: refs/heads/for-mfd-next
+    old: 78334c343bef528b911da83a6b041d15a1a72efb
+    new: e42199bf13d4626875ba7efb2a21f1000e293c69
+    log: revlist-78334c343bef-e42199bf13d4.txt
 
---===============1445924658985261680==
+--===============6008644433699542302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b49c1caca529-946ced827e6c.txt
+Content-Disposition: attachment; filename=revlist-78334c343bef-e42199bf13d4.txt
 
+86833aec447939a886a13bbdbdf21c9628c5c8c5 Merge tag 'x86-entry-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d6170e4aaf86424c24ce06e355b4573daa891b17 bpf: hardcode BPF_PROG_PACK_SIZE to 2MB * num_possible_nodes()
+66c8473135c62f478301a0e5b3012f203562dfa6 bpf: move sleepable flag from bpf_prog_aux to bpf_prog
+bff4b74625fea851f9dd61e747a162d2f6b3317e Revert "dm: use queue_limits_set"
+d8941ce52b708cfd520994e65760a2fa6a646dfb Merge tag 'ras_core_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+742582acec1e894b80815ab379e1c9d347a0406b Merge tag 'x86_cpu_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+bfdb395a7cde12d83a623949ed029b0ab38d765b Merge tag 'x86_mtrr_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+2edfd1046f555db6456514bc8ffe0847537e54f4 Merge tag 'x86_cache_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+38b334fc767e44816be087b3ec5d84b1438b735f Merge tag 'x86_sev_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+1f75619a721d5149d9a947f2177d3cffc473fbb7 Merge tag 'x86_misc_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+5f20e6ab1f65aaaaae248e6946d5cb6d039e7de8 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
+b0402403e54ae9eb94ce1cbb53c7def776e97426 Merge tag 'edac_updates_for_v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 a5b1a017cb76e4898dd62fcb97e8aee6a63b33b5 Merge tag 'locking-core-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 89c572e2f30c4555da59c4d66dff62f30fb057fd Merge tag 'sched-core-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 73f0d1d7b4abb4a46bae1a0d8caf66e23d1138d0 Merge tag 'x86-asm-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1032,23 +1044,11 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-e6c6fea5c314d90dbfca4983f2ea46388aab3bb0 backlight: Match backlight device against struct fb_info.bl_dev
-330682161d8702880ec72e9f4ea982deba9935dc auxdisplay: ht16k33: Remove struct backlight_ops.check_fb
-e755554568fbe638bb69f0faffb116436ec28af2 hid: hid-picolcd: Fix initialization order
-c34b107770ed6643ea999d7be3566f54ec065239 hid: hid-picolcd: Remove struct backlight_ops.check_fb
-0133952aaca26f91f8c667b1c2f0c2f68d9db242 backlight: aat2870-backlight: Remove struct backlight.check_fb
-397b7493729288ac308c5f4ff3496eaeb1080293 backlight: pwm-backlight: Remove struct backlight_ops.check_fb
-8a8e7f84c13c2700ae77540e2841922a87f71c9b fbdev: sh_mobile_lcdc_fb: Remove struct backlight_ops.check_fb
-56a6f83f764a983c12f059847d82fd7b64bacd2a fbdev: ssd1307fb: Init backlight before registering framebuffer
-7929446702295f7e336c13b39302589070f11560 fbdev: ssd1307fb: Remove struct backlight_ops.check_fb
-0a4be7263749945a3882f7a0e2e5b1c45c31064e backlight: Add controls_device callback to struct backlight_ops
-899dbfb28b7941c381431a05c4a9ada42daf9507 auxdisplay: ht16k33: Replace use of fb_blank with backlight helper
-b7ad4c67ed945524ab38bd61676e684eff84fc2a backlight: omap1: Remove unused struct omap_backlight_config.set_power
-bf8c95504494ceb097f94e9aa03a5f5a0cfaed98 backlight: omap1: Replace FB_BLANK_ states with simple on/off
-6be0fb641ba655ca690295d29526f7b8e4a1dcfc fbdev: omap2/omapfb: Replace use of fb_blank with backlight helpers
-9a7bb61ffe467034571959ce90509158d4bd00bd staging: fbtft: Remove reference to fb_blank
-4551978bb50a8d59b49629deebacd73478a8b1e1 backlight: Remove fb_blank from struct backlight_properties
-a4606195bd1b8c8dcd0318a93bc451470de98d81 Merge branches 'ib-backlight-auxdisplay-hid-fb-6.9' and 'ib-backlight-auxdisplay-staging-omap-6.9' into ibs-for-backlight-merged
-946ced827e6cb28de4738981014fcde4f6f5dfbc backlight: mp3309c: Fix signedness bug in mp3309c_parse_fwnode()
+4628b804555773daa982d9578d89fe04fcdde374 regulator: axp20x: fix typo-ed identifier
+3bfe7fe6c0ea23c406a52291da3fb656df9be1ae dt-bindings: mfd: x-powers,axp152: Document AXP717
+b5bfc8ab2484e8e62ae3ffccaecfe5d82c19f51f mfd: axp20x: Add support for AXP717 PMIC
+d2ac3df75c3a995064cfac0171e082a30d8c4c66 regulator: axp20x: add support for the AXP717
+b08e7c19cfc46044419190b93e8f7888eeb727c9 Merge branches 'ib-mfd-regulator-6.9' and 'ib-mfd-sh-mmc-6.9' into ibs-for-mfd-merged
+e42199bf13d4626875ba7efb2a21f1000e293c69 mfd: intel-lpss: Switch over to MSI interrupts
 
---===============1445924658985261680==--
+--===============6008644433699542302==--
