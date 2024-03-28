@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7898751949525735647=="
+Content-Type: multipart/mixed; boundary="===============7783662190759333600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Thu, 28 Mar 2024 07:34:49 -0000
-Message-Id: <171161128921.16130.2469712664259492033@gitolite.kernel.org>
+Date: Thu, 28 Mar 2024 07:35:20 -0000
+Message-Id: <171161132053.17992.1361090469492284361@gitolite.kernel.org>
 
---===============7898751949525735647==
+--===============7783662190759333600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/for-linux-next
+  - ref: refs/heads/exynos-drm-next
     old: 119b225f01e4d3ce974cd3b4d982c76a380c796d
     new: 4cece764965020c22cff7665b18a012006359095
     log: revlist-119b225f01e4-4cece7649650.txt
 
---===============7898751949525735647==
+--===============7783662190759333600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============7898751949525735647==--
+--===============7783662190759333600==--
