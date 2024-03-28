@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Thu, 28 Mar 2024 08:30:09 -0000
-Message-Id: <171161460928.26201.4584045448620437625@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 28 Mar 2024 08:42:01 -0000
+Message-Id: <171161532173.2584.370939820025328296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/x86-efi-peheader-backport-for-v6.7
+  - ref: refs/tags/sound-6.9-rc2
     old: 0000000000000000000000000000000000000000
-    new: 4d93be839b84bfc43019b5b0c5db8f5b85ddefbd
+    new: 863c6502c5d21a5b3cbb61063e15d9aaaf1d79d2
