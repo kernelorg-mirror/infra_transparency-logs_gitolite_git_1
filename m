@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Thu, 28 Mar 2024 01:26:06 -0000
-Message-Id: <171158916615.11139.1283390110895280008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
+Date: Thu, 28 Mar 2024 01:41:46 -0000
+Message-Id: <171159010678.22704.7763278466915863802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/utils/cpu/mce/mcelog
+user: ak
 changes:
-  - ref: refs/heads/dev
-    old: 32db469edfcca8f12b85299bb9311b9004c4e1ac
-    new: abb0f43fcdf2cde0beaf6bbe34723a3dca9f125b
+  - ref: refs/heads/master
+    old: 2e7e64d442e579e66d29cfa528042d7afdc38589
+    new: ab58f07b9b1a4456fca0f5f41639d5cbecc80e36
     log: |
-         abb0f43fcdf2cde0beaf6bbe34723a3dca9f125b selinux: use u32 as bit position type in ebitmap code
+         c0f843b8a88f8634403eea32177cb2fdc7e1b685 mcelog: mempage_replace missing initialization of mempage fields
+         569b3cea0953f2ea0212dfaf16cbcc6731fb9965 mcelog: Fix clang warnings
+         d94de7f33373ec624a35eb986e7d67a0857b2d53 page.c: Remove obsolete comment
+         ab58f07b9b1a4456fca0f5f41639d5cbecc80e36 page.c: Disable gcc warnings
          
-  - ref: refs/heads/next
-    old: 32db469edfcca8f12b85299bb9311b9004c4e1ac
-    new: abb0f43fcdf2cde0beaf6bbe34723a3dca9f125b
-    log: |
-         abb0f43fcdf2cde0beaf6bbe34723a3dca9f125b selinux: use u32 as bit position type in ebitmap code
-         
+  - ref: refs/tags/v198
+    old: 0000000000000000000000000000000000000000
+    new: ab58f07b9b1a4456fca0f5f41639d5cbecc80e36
