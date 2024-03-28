@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 28 Mar 2024 22:29:28 -0000
-Message-Id: <171166496856.10135.16135730405863042298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Thu, 28 Mar 2024 22:31:30 -0000
+Message-Id: <171166509048.12600.1538657085856277297@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
+repo: pub/scm/libs/ell/ell
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 6365c1f6def8ddd3495b62816a206e82a4b12c38
-    new: ccd702f7da4be5544f5facb21f29044c1dcd1d32
+    old: 57fcbf80bff6fdbf10b21bd4d3f3e282f14599b9
+    new: d519d3035742e7ddc8c0172b48e6655323f66a3c
     log: |
-         ccd702f7da4be5544f5facb21f29044c1dcd1d32 netdev: use CMD_DEAUTHENTICATE when needed on disconnect
+         d519d3035742e7ddc8c0172b48e6655323f66a3c util: Add portable casting preprocessor macros.
          
