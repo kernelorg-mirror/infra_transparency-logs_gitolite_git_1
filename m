@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Thu, 28 Mar 2024 12:10:03 -0000
-Message-Id: <171162780392.5183.4830018521442146759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Thu, 28 Mar 2024 12:10:13 -0000
+Message-Id: <171162781306.5307.4775254289220182313@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: f6c29a068ed585c742efe23ea96360419f809dec
-    new: b8a262376725841cfdbab88fe625dae5da9b38ce
-    log: |
-         b8a262376725841cfdbab88fe625dae5da9b38ce pwm: add missing kernel-doc for pwm_chip:cdev
-         
-  - ref: refs/heads/pwm/for-nexxt
-    old: f6c29a068ed585c742efe23ea96360419f809dec
-    new: b8a262376725841cfdbab88fe625dae5da9b38ce
-    log: |
-         b8a262376725841cfdbab88fe625dae5da9b38ce pwm: add missing kernel-doc for pwm_chip:cdev
-         
+  - ref: refs/tags/mmc-v6.9-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 05597f79fc3b0a44894915e1ca8c362cccb2559c
