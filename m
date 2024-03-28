@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 28 Mar 2024 20:32:57 -0000
-Message-Id: <171165797743.18230.17747640144315125267@gitolite.kernel.org>
+Date: Thu, 28 Mar 2024 20:33:06 -0000
+Message-Id: <171165798637.18383.17385834645587228994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/filei0Kv2c
-    old: a5bef84422eb066ee8fa5c13960657a79b3cc1e7
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/spi-6.10
+    old: d5449432f794e75cd4f5e46bc33bfe6ce20b657d
+    new: a5bef84422eb066ee8fa5c13960657a79b3cc1e7
+    log: |
+         f04cff14e2a4fff4068bd25455531e01089103a8 spi: loopback-test: drop driver owner assignment
+         6c360d3e4962dfb5a525dfef1fe75620f6a29bc8 spi: coldfire-qspi: drop driver owner assignment
+         a5bef84422eb066ee8fa5c13960657a79b3cc1e7 spi: fsl-dspi: drop driver owner assignment
+         
