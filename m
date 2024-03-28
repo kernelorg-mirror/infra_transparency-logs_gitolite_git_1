@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 28 Mar 2024 14:09:19 -0000
-Message-Id: <171163495908.26194.15823589873889495320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Thu, 28 Mar 2024 14:09:38 -0000
+Message-Id: <171163497876.26395.6048196169327172495@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 4f9d03ffc2928551b3f367fee7c23c9c6fbb9325
-    new: ee2be84523b498a8d98e5e83808bb97eba2916de
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: 00bb549d7d63a21532e76e4a334d7807a54d9f31
     log: |
-         ee2be84523b498a8d98e5e83808bb97eba2916de Merge remote-tracking branch 'asoc/for-6.8' into asoc-linus
+         00bb549d7d63a21532e76e4a334d7807a54d9f31 regmap: maple: Fix cache corruption in regcache_maple_drop()
          
   - ref: refs/heads/for-next
-    old: c606438da610cd8c06a0171264faa759253efdd3
-    new: 1addcb64ed1d00fef6c12a4a1787a25c741abe3c
+    old: aad6b35290f52639d3601063d33d9621c0948a04
+    new: d7b9b5f68004ab2e9fc1d86610cafa7e555f4fd8
     log: |
-         559aebe45a054a479fdbd2a3dfba999ffd73cc9d ASoC: sun8i-codec: Fix build with CONFIG_SND_JACK_INPUT_DEV disabled
-         ee2be84523b498a8d98e5e83808bb97eba2916de Merge remote-tracking branch 'asoc/for-6.8' into asoc-linus
-         1addcb64ed1d00fef6c12a4a1787a25c741abe3c Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
+         00bb549d7d63a21532e76e4a334d7807a54d9f31 regmap: maple: Fix cache corruption in regcache_maple_drop()
+         d7b9b5f68004ab2e9fc1d86610cafa7e555f4fd8 Merge remote-tracking branch 'regmap/for-6.10' into regmap-next
          
