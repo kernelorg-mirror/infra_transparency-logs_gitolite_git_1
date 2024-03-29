@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 29 Mar 2024 19:54:06 -0000
-Message-Id: <171174204635.11082.13713236862562376907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Fri, 29 Mar 2024 19:58:06 -0000
+Message-Id: <171174228665.14155.13599803234808515054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/main
-    old: 06c2a5cd48fe50f24f8801dd10fcd2b6fd526566
-    new: 46dc11bee2d5272f200ac419f9e7e238c246b802
+  - ref: refs/heads/fixes
+    old: 5d4eef0adf8f234d15c912d4e51393155f53dacd
+    new: 224fe424c356cb5c8f451eca4127f32099a6f764
     log: |
-         a5535e5336943b33689f558199366102387b7bbf mlx5: stop warning for 64KB pages
-         46dc11bee2d5272f200ac419f9e7e238c246b802 Merge branch 'address-remaining-wtautological-constant-out-of-range-compare'
+         8ecab2e64572f1aecdfc5a8feae748abda6e3347 selftests/ftrace: Fix event filter target_func selection
+         7155cc454430cc855c333a4a267688f3bd1277f7 selftests/seccomp: Try to fit runtime of benchmark into timeout
+         224fe424c356cb5c8f451eca4127f32099a6f764 selftests: dmabuf-heap: add config file for the test
          
