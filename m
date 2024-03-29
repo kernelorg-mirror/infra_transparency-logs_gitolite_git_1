@@ -1,97 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4934543749722251520=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 29 Mar 2024 12:33:19 -0000
-Message-Id: <171171559912.5908.14158903593325420270@gitolite.kernel.org>
-
---===============4934543749722251520==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 29 Mar 2024 12:33:49 -0000
+Message-Id: <171171562902.6164.11728640047837728416@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: c6403d97252bea1f6ae42329f19acbf9d5b3bac0
-    new: 72ab90abc65a26eb8bcc8731db685701a7e3f2c7
-    log: |
-         310a5caa4e861616a27a83c3e8bda17d65026fa8 ASoC: rt5682-sdw: fix locking sequence
-         ee287771644394d071e6a331951ee8079b64f9a7 ASoC: rt711-sdca: fix locking sequence
-         aae86cfd8790bcc7693a5a0894df58de5cb5128c ASoC: rt711-sdw: fix locking sequence
-         c8b2e5c1b959d100990e4f0cbad38e7d047bb97c ASoC: rt712-sdca-sdw: fix locking sequence
-         adb354bbc231b23d3a05163ce35c1d598512ff64 ASoC: rt722-sdca-sdw: fix locking sequence
-         f892e66fcabc6161cd38c0fc86e769208174b840 ASoC: rt-sdw*: add __func__ to all error logs
-         e48ef677000ba5d914711d8aaf1459df72522681 ASoC: rt-sdw: fix locking and improve error logs
-         72ab90abc65a26eb8bcc8731db685701a7e3f2c7 Merge remote-tracking branch 'asoc/for-6.8' into asoc-linus
-         
   - ref: refs/heads/for-next
-    old: 9550d724bf5b3ad3947523eb585dcbc43fc95eb1
-    new: 5db291119dc9fce60e495849762d4fdbf2041823
-    log: revlist-9550d724bf5b-5db291119dc9.txt
-
---===============4934543749722251520==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9550d724bf5b-5db291119dc9.txt
-
-c335412ced27459b6ce71e812344a0bbaf43ab6a ASoC: loongson: i2s/pci: drop driver owner assignment
-8a4836231c98bde3fa49ad657c09342d2d7e27a7 ASoC: tlv320aic32x4-spi: drop driver owner assignment
-54b8a522e67a8dfe135867c00f9fa297f0841c92 ASoC: tlv320aic3x-spi: drop driver owner assignment
-fe2065d645445dc2de61d9b336c41113759eef8a ASoC: max98373-sdw: drop driver owner assignment
-d95c19aa2ca60010bb1976399b5a822ff165a8ef ASoC: rt1017-sdca-sdw: drop driver owner assignment
-b982047530d7a29eb68d42acaa19f249ac6ae5a7 ASoC: rt1308-sdw: drop driver owner assignment
-7d5a2656626a6fbf573bde981c1550428a261cf2 ASoC: rt1316-sdw: drop driver owner assignment
-3b7859dec834e96e8e833d2b2f2b4434e0e3b286 ASoC: rt1318-sdw: drop driver owner assignment
-e140dfeb1028ef49c34ae238863398c2c7e792f0 ASoC: rt5682-sdw: drop driver owner assignment
-554bec0c52dc6b6bbd605aa09462d15e9c41575b ASoC: rt700-sdw: drop driver owner assignment
-852298a5e1ce7e72cb3c491bce3bca7262f6ef16 ASoC: rt711-sdca-sdw: drop driver owner assignment
-37dc3531c56b86143b69576c4b56434d8bfcbf59 ASoC: rt711-sdw: drop driver owner assignment
-e50d2fbb6371f4d8482f5e4e112155278db6fc34 ASoC: rt712-sdca-dmic: drop driver owner assignment
-7c00f1706e4b9ac02fdfb2a6b93b4487cbcefd3d ASoC: rt712-sdca-sdw: drop driver owner assignment
-d4f501e2926e32be76c0c564a634f06edef768bf ASoC: rt715-sdca-sdw: drop driver owner assignment
-eb9e0757976fdf34b65d70c7d25a7f0d3d1ecea9 ASoC: rt715-sdw: drop driver owner assignment
-8c70ce6108cda5c36b9c4e66b1fd7dc8ded2a7d6 ASoC: rt722-sdca-sdw: drop driver owner assignment
-29580cd7b9c6f975e88597ca66a001b16b97bae9 ASoC: sdw-mockup: drop driver owner assignment
-94a944a8c4f9e0de87cc9c5bdf8861ae2f64d874 ASoC: Intel: ssp-common: relocate source file
-bd1222ad1746ab4325b982c720c7099c78c7b731 ASoC: Intel: ssp-common: relocate header file
-a17fea3880aea23fd8821ff0660268a680e0326b ASoC: Intel: ssp-common: naming convention change
-e1ff45518fbe73c09c3d0dbe8bd5284bb3d25dc3 ASoC: Intel: ssp-common: module name change
-fe2365c298b51dd08def916a3339a84ec2a1fd42 ASoC: Intel: ssp-common: delete module
-2e723a79ec609871116d216309c1b89d2f61b713 ASoC: Intel: ssp-common: get codec tplg suffix function
-1504a768f6045157437693fbfb50ae63ca86ec61 ASoC: SOF: Intel: support tplg suffix detection
-1934906b26bf8d1bd798fa11bf7058bf380101a0 ASoC: Intel: sof_nau8825: mach cleanup for adl boards
-3822d41469fc20fdff0d83b20324b382ee7bd0e7 ASoC: Intel: sof_nau8825: mach cleanup for rpl boards
-d5dd7f4fc0b5633fc9fb665803f5e95d564c7331 ASoC: Intel: sof_nau8825: add mtl_nau8825_def for mtl boards
-4b95706b4a25c239aa7a7d7feb455c364c181db2 ASoC: Intel: sof_rt5682: mach cleanup for tgl boards
-34f256537685437122c4d326266739dd3b3678c6 ASoC: Intel: sof_rt5682: mach cleanup for adl boards
-7b24d86c845ce3b1c7bdd9175cd7c51aefe9ba46 ASoC: Intel: sof_rt5682: mach cleanup for rpl boards
-a2e678fe951c3820db705a2cb20ec0a32d752033 ASoC: Intel: sof_rt5682: mach cleanup for mtl boards
-2872f3b5df54ac14adc5ea62241312d66bd001ba ASoC: Intel: sof_cs42l42: board id cleanup for adl boards
-ae33c9134d6e1a88c2e49422aee1474c03a53233 ASoC: Intel: sof_cs42l42: mach cleanup for adl boards
-6d90e02ae8aa6bedf77110075e7eef3f24f6a8a3 ASoC: Intel: sof_cs42l42: add rpl_cs42l42_def for rpl boards
-57ad033ce09d4d0c866ac558fc3c4cf53cfb2599 ASoC: Intel: sof_cs42l42: add mtl_cs42l42_def for mtl boards
-2e4c003b3672085267a358ebf82129b4e08dd64f ASoC: dt-bindings: Added schema for "nuvoton,nau8325"
-c0a3873b9938bfaa77bd337cad33266a50a6583f ASoC: nau8325: new driver
-9b21531866fced634bcc7fca33667c7ef258433f ASoC: dt-bindings: fsl,imx-asrc/spdif: Add power-domains property
-82330327ce03889f20072cef5167499d51cdf260 ASoC: dt-bindings: fsl,imx-asrc: update max interrupt numbers
-7b5f2072657a9041cbaf4ba139f672be11694ca3 ASoC: dt-bindings: fsl-sai: allow only one dma-names
-310a5caa4e861616a27a83c3e8bda17d65026fa8 ASoC: rt5682-sdw: fix locking sequence
-ee287771644394d071e6a331951ee8079b64f9a7 ASoC: rt711-sdca: fix locking sequence
-aae86cfd8790bcc7693a5a0894df58de5cb5128c ASoC: rt711-sdw: fix locking sequence
-c8b2e5c1b959d100990e4f0cbad38e7d047bb97c ASoC: rt712-sdca-sdw: fix locking sequence
-adb354bbc231b23d3a05163ce35c1d598512ff64 ASoC: rt722-sdca-sdw: fix locking sequence
-f892e66fcabc6161cd38c0fc86e769208174b840 ASoC: rt-sdw*: add __func__ to all error logs
-e48ef677000ba5d914711d8aaf1459df72522681 ASoC: rt-sdw: fix locking and improve error logs
-64f84dc49fddec64cd40ef231d11a26eb8766422 ASoC: drop driver owner assignment
-ccec94020efaaa40c786a055f63224b03dd14ed8 arm64: dts: imx8qxp add asrc and sai
-439c69f80961b75d5b52fda08073ee2af63e731d ASoC: Intel: boards: updates for 6.10 - part3
-2ae143fb3a057ad7d0a5f833386116441bfd5172 ASoC: nau8325: Modify driver code and dtschema.
-72ab90abc65a26eb8bcc8731db685701a7e3f2c7 Merge remote-tracking branch 'asoc/for-6.8' into asoc-linus
-5db291119dc9fce60e495849762d4fdbf2041823 Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
-
---===============4934543749722251520==--
+    old: bb77c99ee6d3d704086acf141d3ec92601747809
+    new: 32e13575511117522002faaa043deb7cb7f5d7ea
+    log: |
+         67bb37c05a6b56e0e1f804706145a52f655af3f1 spi: spi-omap2-mcspi.c: revert "Toggle CS after each word"
+         d153ff4056cb346fd6182a8a1bea6e12b714b64f spi: omap2-mcspi: Add support for MULTI-mode
+         e64d3b6fc9a388d7dc516668651cf4404bffec9b spi: omap2-mcpsi: Enable MULTI-mode in more situations
+         c2064672f13344586234183e276cc4e0f2cfb70a spi: au1550: t->{tx,rx}_dma checks
+         64fe73d10323e399b2e8eb5407390bcb302a046c spi: fsl: remove is_dma_mapped checks
+         09f347cdd451a9670ce43d6d1736a0b2065cb079 Add multi mode support for omap-mcspi
+         32e13575511117522002faaa043deb7cb7f5d7ea spi: more tx_buf/rx_buf removal
+         
