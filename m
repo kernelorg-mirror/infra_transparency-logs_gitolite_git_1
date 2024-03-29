@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 29 Mar 2024 02:13:32 -0000
-Message-Id: <171167841294.24700.8312639466471692227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 29 Mar 2024 02:13:54 -0000
+Message-Id: <171167843424.24885.17863099084927516313@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: e8742081db7d01f980c6161ae1e8a1dbc1e30979
-    new: 201874fc064ef14c26ea87a890b3f58296750d2d
+  - ref: refs/heads/main
+    old: 6e9b01909a811555ff3326cf80a5847169c57806
+    new: af352c3b666e2ab74be5db9f168960d8ad48b538
     log: |
-         e5e1a3aa56773d55dfb71c4d58176bc19ecfa739 selftests/bpf: Use connect_fd_to_fd in bpf_tcp_ca
-         426670929fda4485a23094e03cea5d9b3ca918aa selftests/bpf: Drop settimeo in do_test
-         201874fc064ef14c26ea87a890b3f58296750d2d Merge branch 'Use start_server and connect_fd_to_fd'
+         ca7e324e8ad385a2da15049953c04ea7310687f7 compiler_types: add Endianness-dependent __counted_by_{le,be}
+         c00d33f1fc7958e6e7f461c994fa025aa2273c13 idpf: make virtchnl2.h self-contained
+         93d24acfa05ebe954ec1782bca374de2501a5830 idpf: sprinkle __counted_by{,_le}() in the virtchnl2 header
+         af352c3b666e2ab74be5db9f168960d8ad48b538 Merge branch 'compiler_types-add-endianness-dependent-__counted_by_-le-be'
          
