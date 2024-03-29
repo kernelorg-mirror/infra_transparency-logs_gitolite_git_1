@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2221237579289658936=="
+Content-Type: multipart/mixed; boundary="===============3337793929460490880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 29 Mar 2024 12:31:56 -0000
-Message-Id: <171171551642.5248.6237324940491615956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 29 Mar 2024 12:32:03 -0000
+Message-Id: <171171552342.5390.18288170616869671986@gitolite.kernel.org>
 
---===============2221237579289658936==
+--===============3337793929460490880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/spi-6.10
     old: bb77c99ee6d3d704086acf141d3ec92601747809
     new: 32e13575511117522002faaa043deb7cb7f5d7ea
     log: |
@@ -29,28 +29,28 @@ changes:
          32e13575511117522002faaa043deb7cb7f5d7ea spi: more tx_buf/rx_buf removal
          
 
---===============2221237579289658936==
+--===============3337793929460490880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1711715514 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1711715513-76ec81711c436afe840829c5527577feee177c27
+pusher C3F436CA30F5D8EB 1711715521 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1711715520-49f511b6c479ad5b5b524e29e156471174457f1c
 
-bb77c99ee6d3d704086acf141d3ec92601747809 32e13575511117522002faaa043deb7cb7f5d7ea refs/heads/for-6.10
+bb77c99ee6d3d704086acf141d3ec92601747809 32e13575511117522002faaa043deb7cb7f5d7ea refs/heads/spi-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYGtLoACgkQJNaLcl1U
-h9BqzQf9FBfDvEMggMIM0HCG9faTt39g9Mu5nWZ4UYvkJL3jorAW1I1EABuGyFXU
-w2F2Tx+wC8mpLafNrqsGQ0HftCyNErqkBM0I5g8XXVzB0jE+esImDWC8EMdDo5Jp
-EH33CQ7yh2S11KMEonBS0imVstgmfTZvCnoxwSp1zyQ2nqNjzhPJZETxcakRFkC6
-B1oLtKS/WQiylWkQ0l8GXHPr5W0boPZGGFfMelRMJSPQPu9yRRaaI/MxpGpL3x9v
-/ezrdnqeJVGa7c8dWpvqLFPyZ3I1zTd1n4HyR9ciJzo9liKucROx1WEICvIqaYuc
-GrX8z8Pi05zNoP4WYJaMkAmxfzatEw==
-=boZ7
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYGtMEACgkQJNaLcl1U
+h9CmUgf+Ohea9CR8dj3Ur2G0X3O9SnVvJJklOC82r8D/1sm+9CJ/lQYaC8ZEpzE0
++7BysurwepwIov6viA8hgLlMI+aygNnGallFVPhNOpKl6K5vtm4jketqQOkrLonA
+PMvptqfTdOdGmMJiwIIyXE2LdjWDgnMGRurc2gvLDi5vgH+ZizRJqzGrmAB+pZHR
+DbNDsZIKaJFc8eOFUlQJdgd3qqBv4p7VkeOaWM/HeaBTezcd49rZM3yp8aSQEDli
+Mtmw5vM1MszNKZofo+8Yqm0x6W2PoZo60flqGxGWk/b9HNpXNQP+btCpGpL+MoGa
+sJ9AiTzH61LtrAX1wdhODW85YUAprA==
+=msEa
 -----END PGP SIGNATURE-----
 
---===============2221237579289658936==--
+--===============3337793929460490880==--
