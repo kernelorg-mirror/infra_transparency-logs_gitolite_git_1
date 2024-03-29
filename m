@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 29 Mar 2024 01:28:52 -0000
-Message-Id: <171167573201.22015.11028265752296820331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 29 Mar 2024 01:29:01 -0000
+Message-Id: <171167574198.22163.12901546950042791786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: a5bef84422eb066ee8fa5c13960657a79b3cc1e7
-    new: bb77c99ee6d3d704086acf141d3ec92601747809
+  - ref: refs/heads/main
+    old: fa84513997e9703fbac94b73bbe50aafdb29040e
+    new: 037965402a010898d34f4e35327d22c0a95cd51f
     log: |
-         3af201a405b3e5abee65102b062c309fff68cc0e spi: pxa2xx: Narrow the Kconfig option visibility
-         9907c475dcab9b269422972577360122129ac84c spi: pxa2xx: Drop ACPI_PTR() and of_match_ptr()
-         7290f1e4075d28ab961df5a454503296fa289271 spi: pxa2xx: Extract pxa2xx_spi_init_ssp() helper
-         bb77c99ee6d3d704086acf141d3ec92601747809 spi: pxa2xx: Skip SSP initialization if it's done elsewhere
+         037965402a010898d34f4e35327d22c0a95cd51f xen-netfront: Add missing skb_mark_for_recycle
          
