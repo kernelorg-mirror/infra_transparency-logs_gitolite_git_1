@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 29 Mar 2024 19:42:34 -0000
-Message-Id: <171174135446.3709.1290635473179026307@gitolite.kernel.org>
+Date: Fri, 29 Mar 2024 19:54:06 -0000
+Message-Id: <171174204635.11082.13713236862562376907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e93af72286054e76d71aa5b7d721f33667ce0385
-    new: 06c2a5cd48fe50f24f8801dd10fcd2b6fd526566
+    old: 06c2a5cd48fe50f24f8801dd10fcd2b6fd526566
+    new: 46dc11bee2d5272f200ac419f9e7e238c246b802
     log: |
-         1ab6fe64d220eaeb42a1130b3c31ea24c84cf5ad octeontx2-pf: remove unused variables req_hdr and rsp_hdr
-         06c2a5cd48fe50f24f8801dd10fcd2b6fd526566 net: axienet: Fix kernel doc warnings
+         a5535e5336943b33689f558199366102387b7bbf mlx5: stop warning for 64KB pages
+         46dc11bee2d5272f200ac419f9e7e238c246b802 Merge branch 'address-remaining-wtautological-constant-out-of-range-compare'
          
