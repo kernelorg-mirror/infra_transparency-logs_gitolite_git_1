@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 29 Mar 2024 01:21:46 -0000
-Message-Id: <171167530651.16791.7110355791013503847@gitolite.kernel.org>
+Date: Fri, 29 Mar 2024 01:24:07 -0000
+Message-Id: <171167544767.17685.2687034274902522345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 50108c352db70405b3d71d8099d0b3adc3b3352c
-    new: 931ec1e4cb7fd81fe01e85419238a9cfb9d930c9
+    old: 931ec1e4cb7fd81fe01e85419238a9cfb9d930c9
+    new: fa84513997e9703fbac94b73bbe50aafdb29040e
     log: |
-         931ec1e4cb7fd81fe01e85419238a9cfb9d930c9 Documentation: Add documentation for eswitch attribute
+         fa84513997e9703fbac94b73bbe50aafdb29040e ptp: MAINTAINERS: drop Jeff Sipek
          
