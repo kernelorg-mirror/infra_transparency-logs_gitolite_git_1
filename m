@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0199286754941091825=="
+Content-Type: multipart/mixed; boundary="===============2179131950361537251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 29 Mar 2024 23:31:22 -0000
-Message-Id: <171175508258.8841.11585498519993757608@gitolite.kernel.org>
+Date: Fri, 29 Mar 2024 23:31:41 -0000
+Message-Id: <171175510122.9010.6389369954277318852@gitolite.kernel.org>
 
---===============0199286754941091825==
+--===============2179131950361537251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: da493dbb1f2a156a1b6d8d8a447f2c3affe43678
     new: d79b28fd34979281a1233eab45f8c3139a846d67
     log: revlist-da493dbb1f2a-d79b28fd3497.txt
 
---===============0199286754941091825==
+--===============2179131950361537251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ e8058a49e67fe7bc7e4a0308851a3ca3a6d2e45d netlink: introduce type-checking attrib
 929107d3d2a3a363302c4cece3c73742863ef94b dt-bindings: net: dwmac: Document STM32 property st,ext-phyclk
 d79b28fd34979281a1233eab45f8c3139a846d67 Merge branch 'add-property-in-dwmac-stm32-documentation'
 
---===============0199286754941091825==--
+--===============2179131950361537251==--
