@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4690095428438767898=="
+Content-Type: multipart/mixed; boundary="===============2999573744881539078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 29 Mar 2024 16:32:54 -0000
-Message-Id: <171172997495.23270.13081036327483172132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 29 Mar 2024 16:33:31 -0000
+Message-Id: <171173001164.23595.10643429464531790223@gitolite.kernel.org>
 
---===============4690095428438767898==
+--===============2999573744881539078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 4962e1949608fed932d661ef45803a5bee69bebe
     log: revlist-1bbeaf83dd7b-4962e1949608.txt
 
---===============4690095428438767898==
+--===============2999573744881539078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ af34a16d3090f8a2f7eac24290209dacb9471132 perf vendor events intel: Remove info m
 b3ad832d8da583ff4237b04a1ba23cdbf8918907 perf dso: Reorder members to save space in 'struct dso'
 4962e1949608fed932d661ef45803a5bee69bebe perf beauty: Move uapi/linux/vhost.h copy out of the directory used to build perf
 
---===============4690095428438767898==--
+--===============2999573744881539078==--
