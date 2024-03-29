@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3822764794680790732=="
+Content-Type: multipart/mixed; boundary="===============4753467988273125546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 29 Mar 2024 17:34:32 -0000
-Message-Id: <171173367234.4278.15568374990655703296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 29 Mar 2024 17:34:39 -0000
+Message-Id: <171173367941.4383.14106070656672637789@gitolite.kernel.org>
 
---===============3822764794680790732==
+--===============4753467988273125546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/asoc-6.9
     old: e48ef677000ba5d914711d8aaf1459df72522681
     new: 2c603a4947a1247102ccb008d5eb6f37a4043c98
     log: |
          2c603a4947a1247102ccb008d5eb6f37a4043c98 ASoC: amd: acp: fix for acp_init function error handling
          
 
---===============3822764794680790732==
+--===============4753467988273125546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1711733670 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1711733670-92f2209e75a0d9acf47bebced09378ae1b956edf
+pusher Mark Brown <broonie@kernel.org> 1711733677 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1711733676-7973d7d3542189b91d6156e86d984a925eeac8fe
 
-e48ef677000ba5d914711d8aaf1459df72522681 2c603a4947a1247102ccb008d5eb6f37a4043c98 refs/heads/for-6.9
+e48ef677000ba5d914711d8aaf1459df72522681 2c603a4947a1247102ccb008d5eb6f37a4043c98 refs/heads/asoc-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYG+6YTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0G7TB/sGCl1UmJroIg1NOewnnqvZfRBS+cVf
-zGTFJP3bkNVdGAGYjgZuZY7rirnmy3wbgpiKOD9Pqmz0KCwxbhNS3W15UkvKM0a7
-o7wR+VPyglWX/Uf8OyuHErxg1vgLdeFi6n0Ajodm6vM+VAg1TWTJ2Ts+/vocQgIM
-f3o9GUsRxIR6iiw7Dufx+RMEMrsG7nYlqj4Tom3P2oPkIX8/FwVbqifc+L4URBLa
-A2tV4Ih4J9QIzu1DqgPJXNMtCdz8/advu7TbnmFHyHlZwKZFOpVCoshIL9Q/O7IF
-tag/Cgx1UJm548P/lBu3pwWMJdni0/SGH9znh7VrlNg3B2bGYmDU37Y8
-=QlzR
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYG+60THGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0BV+B/9t55Q0r2N/5p6zBjoF9eMIrK4h9P9Z
+4qccoOAiItdh4w4R63XU7R8zNcoJItJyC0UjzOkCItz/3wmd4gYT4t6+tqpsctYq
+Fl2K4b8A/B/ilDNy7gdysTQnO6OvM58hxiPLAi1iso00AvZ7DhTr/j3tguzIG4sx
+Bwt4GAkwmpno2CZLwFZ1lRA5NYhLA6WPwLQKd810bjpRthCHJjro250/6+rbk6nt
+bj81sT4vYaQwcYYGRsJqQOh7lFLz40le0a5wR0xnEJ3Zz1mWzoUlGzEp7CiAIQk8
+NGs1CCJxKZJFF4CRWA7YnP1FJEPigfxRjGYhVDMJFdMGv/U4HelCm8Ru
+=ZojX
 -----END PGP SIGNATURE-----
 
---===============3822764794680790732==--
+--===============4753467988273125546==--
