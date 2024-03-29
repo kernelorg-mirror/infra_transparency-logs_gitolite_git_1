@@ -1,43 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============0248293301676298229=="
+Content-Type: multipart/mixed; boundary="===============6119037446239952439=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 29 Mar 2024 05:43:16 -0000
-Message-Id: <171169099604.16015.5411783567383960503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 29 Mar 2024 05:49:24 -0000
+Message-Id: <171169136491.19838.5848155816816215518@gitolite.kernel.org>
 
---===============0248293301676298229==
+--===============6119037446239952439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/main
-    old: 7f9d82a06a5f90f9e75f22c0ad76be9421510e82
-    new: b3f4c329133809028bd220258a3e049a42257fbe
-    log: revlist-7f9d82a06a5f-b3f4c3291338.txt
+  - ref: refs/heads/seen
+    old: d0faca740a4a212997acd85a01b867acbc1954cf
+    new: 17e655da91d8d9ebd4d7a1815a585613ee7d0fc7
+    log: revlist-d0faca740a4a-17e655da91d8.txt
 
---===============0248293301676298229==
+--===============6119037446239952439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f9d82a06a5f-b3f4c3291338.txt
+Content-Disposition: attachment; filename=revlist-d0faca740a4a-17e655da91d8.txt
 
-7de3c2218eed77ed4771521459a18bef938f7089 bnxt_en: Add a timeout parameter to bnxt_hwrm_port_ts_query()
-604041643a858bc1d3926e0a32ebc482e8beaee2 bnxt_en: Retry PTP TX timestamp from FW for 1 second
-1dcd70ba2437b52d18f3ad4cc65931a74bdcb353 bnxt_en: Add helper function bnxt_hwrm_vnic_rss_cfg_p5()
-a4c11166a69619f1fd0118a0790c46872836240a bnxt_en: Refactor VNIC alloc and cfg functions
-fea41bd766342a734e0562945254b65c22c6c3b4 bnxt_en: Introduce rss ctx structure, alloc/free functions
-ecb342bb6098fa13f2719f8baaab4475e404f784 bnxt_en: Refactor RSS indir alloc/set functions
-b09353437b28ff8786e60aa9bd560a4474facfc0 bnxt_en: Simplify bnxt_rfs_capable()
-0895926f725ac6e4d163eb4b964199a5e81fbf40 bnxt_en: Add a new_rss_ctx parameter to bnxt_rfs_capable()
-77a614f7499edd47549f31730f50cb043b699a8b bnxt_en: Refactor bnxt_set_rxfh()
-b3d0083caf9abd495e1fc0016b0b29bbfeee99af bnxt_en: Support RSS contexts in ethtool .{get|set}_rxfh()
-61c814bf4ad7c4422796e53e9489965e9257abac bnxt_en: Refactor bnxt_cfg_rfs_ring_tbl_idx()
-2f4f9fe5bf5fe0eff7e3f372353b30e600e33c20 bnxt_en: Support adding ntuple rules on RSS contexts
-b3f4c329133809028bd220258a3e049a42257fbe Merge branch 'bnxt_en-ptp-and-rss-updates'
+66c14ab592f0226168a7411184c2e3ffc05e30b8 add-patch: introduce 'p' in interactive-patch
+652fa8a272b682d13418b1952ef8b7ef3f913397 add-patch: do not print hunks repeatedly
+5f6e074085e2056105c87d61f0868c73f6a01e80 Merge branch 'rj/add-p-explicit-reshow' into jch
+935a4d8a8ba07a9414a274bb46157c8a6c2bf23e Merge branch 'jc/apply-parse-diff-git-header-names-fix' into jch
+9a2d2b22c0c74da16433c65578f3b07d7cb38543 Merge branch 'jc/rerere-cleanup' into seen
+a0edeefdbff8a12335cc4c31f379509e25750d93 Merge branch 'bk/complete-send-email' into seen
+6ecc009980435d4e66b85bf8feaaa7337b150e30 Merge branch 'bk/complete-dirname-for-am-and-format-patch' into seen
+dd082080b3744634227f531d94071ca88de3aafc Merge branch 'js/cmake-with-test-tool' into seen
+283b4e5170ad085435c937c3f9a9233ec0a5a114 Merge branch 'sj/userdiff-c-sharp' into seen
+82316fa769726c0000fcca920eddc63f6501db67 Merge branch 'cw/git-std-lib' into seen
+619544a697e6543dbb842943710feb05d814e7c4 Merge branch 'ie/config-includeif-hostname' into seen
+841912bb480f0d13dc981f6090e5689222849349 Merge branch 'ds/doc-config-reflow' into seen
+c325b3dc101382e42a8b3145c6f6a3b79fc18281 Merge branch 'la/hide-trailer-info' into seen
+6658ba8e6c2288938c5393c39036e2a29929ffb6 Merge branch 'ps/pack-refs-auto' into seen
+3e7f7ad576002a818e177603912f7e7b67558f49 Merge branch 'tb/pseudo-merge-reachability-bitmap' into seen
+4e26848ce3c3d0cf76d6bd8edd88e78871f96d3c Merge branch 'ps/reftable-binsearch-updates' into seen
+17e655da91d8d9ebd4d7a1815a585613ee7d0fc7 Merge branch 'ew/khash-to-khashl' into seen
 
---===============0248293301676298229==--
+--===============6119037446239952439==--
