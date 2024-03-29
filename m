@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2052042194929906127=="
+Content-Type: multipart/mixed; boundary="===============7632106691772339721=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 29 Mar 2024 23:16:47 -0000
-Message-Id: <171175420763.30472.13869866921004360798@gitolite.kernel.org>
+Date: Fri, 29 Mar 2024 23:19:18 -0000
+Message-Id: <171175435892.31455.13993763130538429955@gitolite.kernel.org>
 
---===============2052042194929906127==
+--===============7632106691772339721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 6e4e778427218c96a00c174545923de29b8ef7fa
-    new: 7e2f2c6884ac93e06730af6b244ee7dad580d93d
-    log: revlist-6e4e77842721-7e2f2c6884ac.txt
+  - ref: refs/heads/1GbE
+    old: 0ba80d96585662299d4ea4624043759ce9015421
+    new: 365af7ace014ef3fc6f5d0a373c96cc7193db4ce
+    log: revlist-0ba80d965856-365af7ace014.txt
 
---===============2052042194929906127==
+--===============7632106691772339721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e4e77842721-7e2f2c6884ac.txt
+Content-Disposition: attachment; filename=revlist-0ba80d965856-365af7ace014.txt
 
 ea558de7238bb12c3435c47f0631e9d17bf4a09f i40e: Enforce software interrupt during busy-poll exit
 eb58c598ce45b7e787568fe27016260417c3d807 i40e: fix i40e_count_filters() to count only active/new filters
@@ -55,15 +55,5 @@ d37f2f72c91f2c5b61db7e6685c8b4bfdff85cb8 selftest: tcp: Add bind() tests for IPV
 7679f0968d01878b8da80c5078eebe23231a19e8 selftest: tcp: Add bind() tests for SO_REUSEADDR/SO_REUSEPORT.
 ec7ef3ea31ab52fab88c35fd428b651c5fc5eb46 Merge branch 'tcp-fix-bind-regression-and-more-tests'
 365af7ace014ef3fc6f5d0a373c96cc7193db4ce Merge tag 'for-net-2024-03-29' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-6166103d575c29fae9eb78faeeea9eb387c34e24 ice: tc: do default match on all profiles
-375691ad5ae3272b39856f08f1f4bf80be314529 i40e: Prevent setting MTU if greater than MFS
-34814202d9934336773d4902e895a0e7179b7e41 i40e: Fix VF MAC filter removal
-cb113a8fec2f73bb41749ac9a609291ef36c4603 ice: tc: check src_vsi in case of traffic from VF
-5989fc4a966b0582189a9ed085c2e3b9cd894cf4 ice: tc: allow zero flags in parsing tc flower
-218961adef8a6a0a9261c649ad57378403ddd6fb idpf: fix kernel panic on unknown packet types
-ed605fff144cec38a16636feb017ded9e23ceb4e ice: fix enabling RX VLAN filtering
-840479eb3d49580a2cd1faaf02a5d811dea01c0f ice: Fix freeing uninitialized pointers
-a138a0a99e9fb5ea5c73bc7c0bc5714cc0eaa653 ice: Fix package download algorithm
-7e2f2c6884ac93e06730af6b244ee7dad580d93d i40e: Report MFS in decimal base instead of hex
 
---===============2052042194929906127==--
+--===============7632106691772339721==--
