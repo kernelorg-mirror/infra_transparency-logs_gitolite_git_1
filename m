@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 29 Mar 2024 19:58:06 -0000
-Message-Id: <171174228665.14155.13599803234808515054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 29 Mar 2024 19:59:45 -0000
+Message-Id: <171174238567.14822.12157817652899061972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/fixes
-    old: 5d4eef0adf8f234d15c912d4e51393155f53dacd
-    new: 224fe424c356cb5c8f451eca4127f32099a6f764
+  - ref: refs/heads/main
+    old: 5e864d90b20803edf6bd44a99fb9afa7171785f2
+    new: 17af420545a750f763025149fa7b833a4fc8b8f0
     log: |
-         8ecab2e64572f1aecdfc5a8feae748abda6e3347 selftests/ftrace: Fix event filter target_func selection
-         7155cc454430cc855c333a4a267688f3bd1277f7 selftests/seccomp: Try to fit runtime of benchmark into timeout
-         224fe424c356cb5c8f451eca4127f32099a6f764 selftests: dmabuf-heap: add config file for the test
+         17af420545a750f763025149fa7b833a4fc8b8f0 erspan: make sure erspan_base_hdr is present in skb->head
          
