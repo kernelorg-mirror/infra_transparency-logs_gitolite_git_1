@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6513336700064902865=="
+Content-Type: multipart/mixed; boundary="===============2059906069629581352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 29 Mar 2024 01:35:46 -0000
-Message-Id: <171167614606.28720.10345712787204432692@gitolite.kernel.org>
+Date: Fri, 29 Mar 2024 01:35:58 -0000
+Message-Id: <171167615892.28911.1651628412807883063@gitolite.kernel.org>
 
---===============6513336700064902865==
+--===============2059906069629581352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b9404f7e49132e56539d18cfbc5c4f441d72ecb4
     new: e478cf26c556e4ab572ab0ab2306c986901dcd61
     log: revlist-b9404f7e4913-e478cf26c556.txt
 
---===============6513336700064902865==
+--===============2059906069629581352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -650,4 +650,4 @@ d1f02581059e42d8daf944aae2a296254cc7a5d5 selftests/bpf: Add {load,search}_kallsy
 6302bdeb91df9b4484b9d537c29f8b6117f3f73d selftests/bpf: Add a kprobe_multi subtest to use addrs instead of syms
 e478cf26c556e4ab572ab0ab2306c986901dcd61 Merge branch 'bpf-fix-a-couple-of-test-failures-with-lto-kernel'
 
---===============6513336700064902865==--
+--===============2059906069629581352==--
