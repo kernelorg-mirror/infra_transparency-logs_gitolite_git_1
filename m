@@ -1,53 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7153240872379926104=="
+Content-Type: multipart/mixed; boundary="===============5658424015723400040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 29 Mar 2024 23:50:04 -0000
-Message-Id: <171175620454.23588.1465870497571687897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 29 Mar 2024 23:57:32 -0000
+Message-Id: <171175665212.27933.11750733005402825580@gitolite.kernel.org>
 
---===============7153240872379926104==
+--===============5658424015723400040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-6.10/io_uring
-    old: 612a8d42355bcd163b87b11309bd48c0e1ef8c32
-    new: 8b266321194071b9defbd36d2d8e6fe0e234cc83
-    log: |
-         17bbf15cdfd95eb8069113f6113fec31c9d7a6c1 io_uring: fix warnings on shadow variables
-         8b266321194071b9defbd36d2d8e6fe0e234cc83 io_uring/kbuf: remove dead define
-         
-  - ref: refs/heads/for-next
-    old: 6a9f38b81d5e24ab3292384e09bab1817aaa0bd6
-    new: 8538cbd5f9590229af6ec698a52216722eae959b
-    log: |
-         17bbf15cdfd95eb8069113f6113fec31c9d7a6c1 io_uring: fix warnings on shadow variables
-         8b266321194071b9defbd36d2d8e6fe0e234cc83 io_uring/kbuf: remove dead define
-         8538cbd5f9590229af6ec698a52216722eae959b Merge branch 'for-6.10/io_uring' into for-next
-         
-  - ref: refs/heads/io_uring-recvsend-bundle
-    old: 0d9cddf2cc0f059e59fcba78bcfa5ab4c9dcbdba
-    new: 2386d488ae2ce346b46b409604bbe4c51be50a55
-    log: |
-         ca1c955275bea3231c3face0fbf34715a343a248 io_uring/msg_ring: split fd installing into a helper
-         5f7c5944c1ad0ac1f5066bbc26ef8ae0a2718026 io_uring/msg_ring: improve handling of target CQE posting
-         08e574a201ce730c7e8ead0e30944ed300743736 io_uring/net: add generic multishot retry helper
-         6c92bccf991e4887350f3e1ecadb7245ce2aa975 io_uring/net: add provided buffer support for IORING_OP_SEND
-         8adbf34b55d1cbbec563ac3365e21589bd61648c io_uring/kbuf: add helpers for getting/peeking multiple buffers
-         2a8aabdff45c9191a67f141ea706ae9e2a4df34c io_uring/net: support bundles for send
-         2386d488ae2ce346b46b409604bbe4c51be50a55 io_uring/net: support bundles for recv
-         
   - ref: refs/heads/master
     old: 4535e1a4174c4111d92c5a9a21e542d232e0fcaa
     new: 486291a0e6246364936df1ecd64c90affef4b9c5
     log: revlist-4535e1a4174c-486291a0e624.txt
 
---===============7153240872379926104==
+--===============5658424015723400040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -122,4 +95,4 @@ a2ad5d9e65474f7a06038f5a91fb4d8c973cbea2 Merge tag 'linux_kselftest-kunit-fixes-
 1ab5c8a338c470ceda8221e3a00ad0fc0a3be55b Merge tag 'linux_kselftest-fixes-6.9-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 486291a0e6246364936df1ecd64c90affef4b9c5 Merge tag 'drm-fixes-2024-03-30' of https://gitlab.freedesktop.org/drm/kernel
 
---===============7153240872379926104==--
+--===============5658424015723400040==--
