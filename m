@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5345494004150620652=="
+Content-Type: multipart/mixed; boundary="===============3271916427356898204=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 29 Mar 2024 12:31:21 -0000
-Message-Id: <171171548157.4883.7292160493598693467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 29 Mar 2024 12:31:35 -0000
+Message-Id: <171171549517.5051.10385916464268537518@gitolite.kernel.org>
 
---===============5345494004150620652==
+--===============3271916427356898204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/asoc-6.10
     old: ea60ab95723f5738e7737b56dda95e6feefa5b50
     new: 2ae143fb3a057ad7d0a5f833386116441bfd5172
     log: revlist-ea60ab95723f-2ae143fb3a05.txt
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/asoc-6.9
     old: fc563aa900659a850e2ada4af26b9d7a3de6c591
     new: e48ef677000ba5d914711d8aaf1459df72522681
     log: |
@@ -33,32 +33,32 @@ changes:
          e48ef677000ba5d914711d8aaf1459df72522681 ASoC: rt-sdw: fix locking and improve error logs
          
 
---===============5345494004150620652==
+--===============3271916427356898204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1711715475 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1711715474-2edf2e674ce6d1d0bee8c9a4e0af55991907541d
+pusher C3F436CA30F5D8EB 1711715492 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1711715491-af374eb706b2d16518678b4faf2b87fc1f23b1ec
 
-ea60ab95723f5738e7737b56dda95e6feefa5b50 2ae143fb3a057ad7d0a5f833386116441bfd5172 refs/heads/for-6.10
-fc563aa900659a850e2ada4af26b9d7a3de6c591 e48ef677000ba5d914711d8aaf1459df72522681 refs/heads/for-6.9
+ea60ab95723f5738e7737b56dda95e6feefa5b50 2ae143fb3a057ad7d0a5f833386116441bfd5172 refs/heads/asoc-6.10
+fc563aa900659a850e2ada4af26b9d7a3de6c591 e48ef677000ba5d914711d8aaf1459df72522681 refs/heads/asoc-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYGtJMACgkQJNaLcl1U
-h9DZQAf/TPMYI3FYNWhn0YWxcH7hcEEvMtNLLxviBu6Ikkcn20HT+ZU4Nanki7y8
-2ywKnnrEswUbLFYrEfSRGeoeBbyYasilkaC0Lz87ArLg5lb7G5h81MIfakUoYCam
-vELM5AviNeFpBR7nFe9M+UjrDSlAuZBPZx2mWUlQWfZ1Qe4I13VAsTvaxPCiQtAI
-RKhPKMZ1nHgK2ZT2ri4FMDxrOQeP3IkrjaOm/VcplNR3YAosYt9WLZFAB5QuuSgs
-1aR2844cgKEDSAt1b2l5oqFBYcH7CpmWkmyv5xnFVSb19k6w2R0AWudlj+YGreMa
-9kxkbEekOedJqMU1jr26u9/axyOVnQ==
-=qJtc
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYGtKQACgkQJNaLcl1U
+h9DUBgf+I5d+DVilTpMXcAWVIfVTRqp2tytWkPEIoQbhuybJeE7NRogpreoPqt9E
+nXdfHBJRcu+9FJLsMEFymuRW0w7gbmDMf07RW8w5rB5oQobY56h+99O0rp5DCVv5
+PDk/pQdxraeo3vWNu8sYiWBPWqJGnlKGusO9cbZ7qpQmX/aAa8yNBCDyohNRiQd2
+vMe0CG7pXL6ewZcSZtZBIZnykKhQZl91OWNuOqpChTfD5QnOC6PLHo5H4tbgHVk5
+SaTTPcMhxRDTYMhedIfkMbckDl293QcbSz5jKADHK6+Qb9Ar2y8V5LnvTq44nl+4
+Ui9BpCGzRrZeh5qr+27XCjZyOD7F0g==
+=iopa
 -----END PGP SIGNATURE-----
 
---===============5345494004150620652==
+--===============3271916427356898204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -110,4 +110,4 @@ ccec94020efaaa40c786a055f63224b03dd14ed8 arm64: dts: imx8qxp add asrc and sai
 439c69f80961b75d5b52fda08073ee2af63e731d ASoC: Intel: boards: updates for 6.10 - part3
 2ae143fb3a057ad7d0a5f833386116441bfd5172 ASoC: nau8325: Modify driver code and dtschema.
 
---===============5345494004150620652==--
+--===============3271916427356898204==--
