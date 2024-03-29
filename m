@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 29 Mar 2024 20:13:15 -0000
-Message-Id: <171174319528.25995.11492626096525234303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Fri, 29 Mar 2024 20:20:21 -0000
+Message-Id: <171174362104.31840.12523264174534776047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/tags/linux_kselftest-fixes-6.9-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 7509645889ed28198416db748515429a33b66318
+  - ref: refs/heads/master
+    old: 02e05a134f3c720cb3adcc2aa10e7478dc00f72f
+    new: 7ed5efc9b05761031b71f45e810a52e9c91583a6
+    log: |
+         c6f00e9dabff7e374dc83f1411bfe34c4dbcbe30 build: add missing space to one of the Makefiles
+         7ed5efc9b05761031b71f45e810a52e9c91583a6 gitignore: ignore gcov output
+         
