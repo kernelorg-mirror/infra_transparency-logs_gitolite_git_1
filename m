@@ -1,50 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4753467988273125546=="
+Content-Type: multipart/mixed; boundary="===============1602629071078623980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 29 Mar 2024 17:34:39 -0000
-Message-Id: <171173367941.4383.14106070656672637789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 29 Mar 2024 17:34:49 -0000
+Message-Id: <171173368903.4523.14429295346216358188@gitolite.kernel.org>
 
---===============4753467988273125546==
+--===============1602629071078623980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.9
-    old: e48ef677000ba5d914711d8aaf1459df72522681
-    new: 2c603a4947a1247102ccb008d5eb6f37a4043c98
+  - ref: refs/heads/for-6.10
+    old: 32e13575511117522002faaa043deb7cb7f5d7ea
+    new: ba5206881843e16b74a07c37970dcc44d22f8f6f
     log: |
-         2c603a4947a1247102ccb008d5eb6f37a4043c98 ASoC: amd: acp: fix for acp_init function error handling
+         ba5206881843e16b74a07c37970dcc44d22f8f6f spi: spi.h: add missing kernel-doc for @last_cs_index_mask
+         
+  - ref: refs/heads/for-6.9
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: a3d3eab627bbbb0cb175910cf8d0f7022628a642
+    log: |
+         a3d3eab627bbbb0cb175910cf8d0f7022628a642 spi: s3c64xx: Use DMA mode from fifo size
          
 
---===============4753467988273125546==
+--===============1602629071078623980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1711733677 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1711733676-7973d7d3542189b91d6156e86d984a925eeac8fe
+pusher Mark Brown <broonie@kernel.org> 1711733687 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1711733686-1fe753414cd696e1fa22301388b3ca8da2e188e9
 
-e48ef677000ba5d914711d8aaf1459df72522681 2c603a4947a1247102ccb008d5eb6f37a4043c98 refs/heads/asoc-6.9
+32e13575511117522002faaa043deb7cb7f5d7ea ba5206881843e16b74a07c37970dcc44d22f8f6f refs/heads/for-6.10
+4cece764965020c22cff7665b18a012006359095 a3d3eab627bbbb0cb175910cf8d0f7022628a642 refs/heads/for-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYG+60THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0BV+B/9t55Q0r2N/5p6zBjoF9eMIrK4h9P9Z
-4qccoOAiItdh4w4R63XU7R8zNcoJItJyC0UjzOkCItz/3wmd4gYT4t6+tqpsctYq
-Fl2K4b8A/B/ilDNy7gdysTQnO6OvM58hxiPLAi1iso00AvZ7DhTr/j3tguzIG4sx
-Bwt4GAkwmpno2CZLwFZ1lRA5NYhLA6WPwLQKd810bjpRthCHJjro250/6+rbk6nt
-bj81sT4vYaQwcYYGRsJqQOh7lFLz40le0a5wR0xnEJ3Zz1mWzoUlGzEp7CiAIQk8
-NGs1CCJxKZJFF4CRWA7YnP1FJEPigfxRjGYhVDMJFdMGv/U4HelCm8Ru
-=ZojX
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYG+7cTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0OCxB/9d9Q6s+IQth1AGAxSI4jhuZAcnqGnL
+p1DcHYeIlVObupqgaj7GnoJyjvkbUZGPtmQN9MRJHfFCohUEQK6NXIUOZpAW7F2w
+JcYSnoY37upUoG7mji93q6/nBH73AifSvpvspXgBLyi+/u/lABChNu0fy9M+T3JY
+Ovk5aV+w2qYGI44TmNF24vDysnn37tLeUeBfhPpTEh4fViU0PryT8pxOuQmYzhxg
+0jgfjClBQ/r333KVbuCO73OMxO8AjkkfeEq7N9x5i085K3FNbErLx+We0OaN34xF
+f8JTOASoRQ/eaHenGihsiytYyefktoR+yjQ9uGBRmPVXLTt0pWnaVH4K
+=JtFR
 -----END PGP SIGNATURE-----
 
---===============4753467988273125546==--
+--===============1602629071078623980==--
