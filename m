@@ -1,54 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============8371029084635446867=="
+Content-Type: multipart/mixed; boundary="===============7669298578099743745=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Fri, 29 Mar 2024 12:59:56 -0000
-Message-Id: <171171719644.25350.1392439825500848770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 29 Mar 2024 13:00:32 -0000
+Message-Id: <171171723248.27343.16743929466890899368@gitolite.kernel.org>
 
---===============8371029084635446867==
+--===============7669298578099743745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: b8a262376725841cfdbab88fe625dae5da9b38ce
-    new: c3928364587e85165eb842f330d183d95c7cec77
-    log: revlist-b8a262376725-c3928364587e.txt
+  - ref: refs/heads/for-next
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: c868f11664bd16b112ce57c896e9fe3a835a14ec
+    log: revlist-4cece7649650-c868f11664bd.txt
 
---===============8371029084635446867==
+--===============7669298578099743745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8a262376725-c3928364587e.txt
+Content-Disposition: attachment; filename=revlist-4cece7649650-c868f11664bd.txt
 
-73dfe970c038d0548beccc5bfb2707e1d543b01f pwm: Fix setting period with #pwm-cells = <1> and of_pwm_single_xlate()
-72c83848a6ba19b7030a88c02e13babea60bd700 hwmon: (aspeed-g6-pwm-tacho): Make use of pwmchip_parent() accessor
-a31b664778d23545dcb8eb99c3e1008d1ac16e8e hwmon: (aspeed-g6-pwm-tacho): Make use of devm_pwmchip_alloc() function
-22fd669d13cb6fc60c443a231e6e671b3ac59cc0 pwm: Ensure that pwm_chips are allocated using pwmchip_alloc()
-77bd2ad35d3e3aacee9c4188e17bbabf93d491bd dt-bindings: pwm: at91: Add sam9x7 compatible strings list
-ba83db6617becde008da227e8a7a0a69f36da797 pwm: sti: Simplify probe function using devm functions
-458b33cb50f8e2bb4b049fadea2e70eb309ebb70 pwm: sti: Improve error reporting using dev_err_probe()
-05a9cc34bf64ad24131d665b2812198b2fc03905 pwm: sti: Drop member from driver data that only carries a constant
-8fe69307615d98146593d57ad09e5618f6a391f5 pwm: sti: Maintain all per-chip driver data in a single struct
-3d8745caeed800d9c0055022f02a821b2057c6fe pwm: sti: Use devm_kcalloc() instead of calculating the size for devm_kzalloc()
-aff08bbaba54a238ffb818e53187f4fd72f75ba8 pwm: sti: Prefer local variable over pointer dereference
-27cd2184552c9171c197b471d405d17c6f7ca44b pwm: Give some sysfs related variables and functions better names
-e1561fdc90d5768c1aad14dfccf0028e303638e7 pwm: Move contents of sysfs.c into core.c
-62cdf714439ee1292e5b0a4b2121fba538771a60 pwm: Ensure a struct pwm has the same lifetime as its pwm_chip
-2ec682ed99044a2a8b9b921d80786f49eb891408 pwm: Add a struct device to struct pwm_chip
-ebc71af3ff72e443d576372097e2221ad7f3d528 pwm: Make pwmchip_[sg]et_drvdata() a wrapper around dev_set_drvdata()
-a740f78796090af2356faa5adfba6294cde1a4fc pwm: Add more locking
-4a0824ea1961a3c170741f5403e3055b9cef9b04 pwm: Add support for pwmchip devices for faster and easier userspace access
-64b02892b9b75b15c80c09037a10eac22d9a5966 pwm: stm32: Add error messages in .probe()'s error paths
-df1daf10608808dd0152486d8f2af1085074c9b3 pwm: stm32: Improve precision of calculation in .apply()
-ddbea56c93ad73c71aa6bdf8fcc0629f2b16c971 pwm: stm32: Fix for settings using period > UINT32_MAX
-a70e09ab53efc8be05197f9936c43a6aa70efb47 pwm: stm32: Calculate prescaler with a division instead of a loop
-9e26dd93329c0bd8b141ef1e74e360ab025943a8 pwm: Add missing kernel-doc for pwm_chip:cdev
-c3928364587e85165eb842f330d183d95c7cec77 pwm: Don't check pointer for being non-NULL after use
+3ff5873602a874035ba28826852bd45393002a08 platform/x86: p2sb: Make p2sb_get_devfn() return void
+6d9b262afe0ec1d6e0ef99321ca9d6b921310471 platform/x86: hp-wmi: use sysfs_emit() instead of sprintf()
+79bd127f9662ead1ceea7970ef36fbe985a6d7ab platform/x86: asus-wmi: use sysfs_emit() instead of sprintf()
+415c33d20a2d985fa9be34bccca2a780c72b14cc platform/x86: huawei-wmi: use sysfs_emit() instead of sprintf()
+d439311264981fcc90e30993c7746108be45586d platform/x86: uv_sysfs: use sysfs_emit() instead of sprintf()
+6c4d24d60eb887015ae0356b4fc58cd06e74da31 dt-bindings: platform: Add Acer Aspire 1 EC
+363c8aea25728604537b170a1cc24e2f46844896 platform: Add ARM64 platform directory
+2b3efb7c515111eaa009f014b16bce8417fb2828 platform: arm64: Add Acer Aspire 1 embedded controller driver
+0cd33df4e406ee4b705ee15d942a1ae8387a1d8b arm64: dts: qcom: acer-aspire1: Add embedded controller
+c663b26972eae7d2a614f584c92a266fe9a2d44c platform/x86: wmi: Support reading/writing 16 bit EC values
+e526da8f8875267ccb8f4c4782668ebfa160b2c0 platform/x86: wmi: Avoid returning AE_OK upon unknown error
+3427c443a6dc2f6171616c2381d037d004af1df0 platform/surface: platform_profile: add fan profile switching
+668772ecceb2eeeb8883fc36e48cc50810552aea platform/x86: add lenovo WMI camera button driver
+833055807c39735274068f6256c2e7f20dfe8479 platform/x86: x86-android-tablets: Add swnode for Xiaomi pad2 indicator LED
+afd66f2a739e63f2f49f4237eaa0e67c7253654a platform/x86: Add ACPI quickstart button (PNP0C32) driver
+1c238a8ec035bde5fe83b3a0bdff3143fd0bc364 platform/x86: toshiba_acpi: Add quirk for buttons on Z830
+92a9ffdecfa7f1777474838bbfdb7b456268b525 platform/x86/amd/hsmp: switch to use device_add_groups()
+c868f11664bd16b112ce57c896e9fe3a835a14ec platform/x86: MAINTAINERS: drop Daniel Oliveira Nascimento
 
---===============8371029084635446867==--
+--===============7669298578099743745==--
