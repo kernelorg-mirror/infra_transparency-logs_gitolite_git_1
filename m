@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Fri, 29 Mar 2024 13:57:23 -0000
-Message-Id: <171172064318.5125.2365838976376117147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 29 Mar 2024 13:59:16 -0000
+Message-Id: <171172075669.5874.5813771104259203861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
-user: vudentz
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 6abf9dd26bb1699c17d601b9a292577d01827c0e
-    new: 4639f092ec91316b85fc03ccce199f9897a5ad8d
-    log: |
-         1a61686d6ed0d385353b40490a7cdbf54289b0bd Bluetooth: hci_core: Fix possible buffer overflow
-         aee7a750199f5c600ec420e823597ffcd2e15a3c Bluetooth: msft: Fix memory leak
-         2120af8d82180ee246a48ffa07aa05d903344fa8 Bluetooth: btusb: Fix memory leak
-         4639f092ec91316b85fc03ccce199f9897a5ad8d Bluetooth: bnep: Fix out-of-bound access
-         
+  - ref: refs/heads/fileaOBSiP
+    old: 0000000000000000000000000000000000000000
+    new: ba5206881843e16b74a07c37970dcc44d22f8f6f
+  - ref: refs/heads/fileHSNHgK
+    old: 0000000000000000000000000000000000000000
+    new: a3d3eab627bbbb0cb175910cf8d0f7022628a642
