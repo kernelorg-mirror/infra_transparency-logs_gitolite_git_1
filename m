@@ -1,47 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============6119037446239952439=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 29 Mar 2024 05:49:24 -0000
-Message-Id: <171169136491.19838.5848155816816215518@gitolite.kernel.org>
-
---===============6119037446239952439==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 29 Mar 2024 05:53:03 -0000
+Message-Id: <171169158335.22914.4435662781192136186@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/seen
-    old: d0faca740a4a212997acd85a01b867acbc1954cf
-    new: 17e655da91d8d9ebd4d7a1815a585613ee7d0fc7
-    log: revlist-d0faca740a4a-17e655da91d8.txt
-
---===============6119037446239952439==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0faca740a4a-17e655da91d8.txt
-
-66c14ab592f0226168a7411184c2e3ffc05e30b8 add-patch: introduce 'p' in interactive-patch
-652fa8a272b682d13418b1952ef8b7ef3f913397 add-patch: do not print hunks repeatedly
-5f6e074085e2056105c87d61f0868c73f6a01e80 Merge branch 'rj/add-p-explicit-reshow' into jch
-935a4d8a8ba07a9414a274bb46157c8a6c2bf23e Merge branch 'jc/apply-parse-diff-git-header-names-fix' into jch
-9a2d2b22c0c74da16433c65578f3b07d7cb38543 Merge branch 'jc/rerere-cleanup' into seen
-a0edeefdbff8a12335cc4c31f379509e25750d93 Merge branch 'bk/complete-send-email' into seen
-6ecc009980435d4e66b85bf8feaaa7337b150e30 Merge branch 'bk/complete-dirname-for-am-and-format-patch' into seen
-dd082080b3744634227f531d94071ca88de3aafc Merge branch 'js/cmake-with-test-tool' into seen
-283b4e5170ad085435c937c3f9a9233ec0a5a114 Merge branch 'sj/userdiff-c-sharp' into seen
-82316fa769726c0000fcca920eddc63f6501db67 Merge branch 'cw/git-std-lib' into seen
-619544a697e6543dbb842943710feb05d814e7c4 Merge branch 'ie/config-includeif-hostname' into seen
-841912bb480f0d13dc981f6090e5689222849349 Merge branch 'ds/doc-config-reflow' into seen
-c325b3dc101382e42a8b3145c6f6a3b79fc18281 Merge branch 'la/hide-trailer-info' into seen
-6658ba8e6c2288938c5393c39036e2a29929ffb6 Merge branch 'ps/pack-refs-auto' into seen
-3e7f7ad576002a818e177603912f7e7b67558f49 Merge branch 'tb/pseudo-merge-reachability-bitmap' into seen
-4e26848ce3c3d0cf76d6bd8edd88e78871f96d3c Merge branch 'ps/reftable-binsearch-updates' into seen
-17e655da91d8d9ebd4d7a1815a585613ee7d0fc7 Merge branch 'ew/khash-to-khashl' into seen
-
---===============6119037446239952439==--
+  - ref: refs/heads/main
+    old: b3f4c329133809028bd220258a3e049a42257fbe
+    new: fd2162a50144baba524974a255e7dbb21e015b0d
+    log: |
+         8c67b7a914cca1a5a8e1446f1b684df928ebf963 ice: remove eswitch changing queues algorithm
+         defd52455aee4a0922e45155d6a348f02a99b775 ice: do Tx through PF netdev in slow-path
+         50d62022f45580e2fc9b62fca486e6d0ea287c40 ice: default Tx rule instead of to queue
+         9cba6e1767bf8286563ae8907d6e595c365d3e92 ice: control default Tx rule in lag
+         33bf1e86231dbd62f06f0ca3cdf5995eb7d077d5 ice: remove switchdev control plane VSI
+         6235cb6e5b0de0717a1055740f6fd83a28531193 ice: change repr::id values
+         44ba608db50970dbb7eae1dca13ebcbf9485b4e7 ice: do switchdev slow-path Rx using PF VSI
+         4498159a509328e903a692504a0ba1624754bc3e ice: count representor stats
+         fd2162a50144baba524974a255e7dbb21e015b0d Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+         
