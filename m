@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8141185094275305044=="
+Content-Type: multipart/mixed; boundary="===============7587312233714819773=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 29 Mar 2024 14:10:02 -0000
-Message-Id: <171172140201.15013.7302115183108593912@gitolite.kernel.org>
+Date: Fri, 29 Mar 2024 14:10:14 -0000
+Message-Id: <171172141473.16396.6163889498054299812@gitolite.kernel.org>
 
---===============8141185094275305044==
+--===============7587312233714819773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.9
+  - ref: refs/heads/for-next
     old: b4d78cfeb30476239cf08f4f40afc095c173d6e3
     new: 8e91c2342351e0f5ef6c0a704384a7f6fc70c3b2
     log: revlist-b4d78cfeb304-8e91c2342351.txt
-  - ref: refs/tags/v6.9-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9bd5def24522bfec169de38754165379b4f8d6f5
 
---===============8141185094275305044==
+--===============7587312233714819773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1051,4 @@ ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git
 d7e1201443713f5addce2d9b4920d25391883a80 dm vdo murmurhash3: use kernel byteswapping routines instead of GCC ones
 8e91c2342351e0f5ef6c0a704384a7f6fc70c3b2 dm integrity: fix out-of-range warning
 
---===============8141185094275305044==--
+--===============7587312233714819773==--
