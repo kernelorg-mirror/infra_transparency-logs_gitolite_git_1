@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 29 Mar 2024 19:42:19 -0000
-Message-Id: <171174133901.3544.9931323131934148637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 29 Mar 2024 19:42:34 -0000
+Message-Id: <171174135446.3709.1290635473179026307@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e709acbd84fb6ef32736331b0147f027a3ef4c20
-    new: 5e864d90b20803edf6bd44a99fb9afa7171785f2
+    old: e93af72286054e76d71aa5b7d721f33667ce0385
+    new: 06c2a5cd48fe50f24f8801dd10fcd2b6fd526566
     log: |
-         5e864d90b20803edf6bd44a99fb9afa7171785f2 r8169: skip DASH fw status checks when DASH is disabled
+         1ab6fe64d220eaeb42a1130b3c31ea24c84cf5ad octeontx2-pf: remove unused variables req_hdr and rsp_hdr
+         06c2a5cd48fe50f24f8801dd10fcd2b6fd526566 net: axienet: Fix kernel doc warnings
          
