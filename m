@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7497678519596434281=="
+Content-Type: multipart/mixed; boundary="===============3675097386721845121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sat, 30 Mar 2024 12:28:10 -0000
-Message-Id: <171180169080.16916.14903843370861417051@gitolite.kernel.org>
+Date: Sat, 30 Mar 2024 12:28:13 -0000
+Message-Id: <171180169367.17026.13370360325636090493@gitolite.kernel.org>
 
---===============7497678519596434281==
+--===============3675097386721845121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/clk-microchip-fixes
+  - ref: refs/heads/microchip-defconfig
     old: 6613476e225e090cc9aad49be7fa504e290dd33d
     new: 4cece764965020c22cff7665b18a012006359095
     log: revlist-6613476e225e-4cece7649650.txt
 
---===============7497678519596434281==
+--===============3675097386721845121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============7497678519596434281==--
+--===============3675097386721845121==--
