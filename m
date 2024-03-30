@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4052778887148714234=="
+Content-Type: multipart/mixed; boundary="===============0173328716562637693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sat, 30 Mar 2024 12:27:52 -0000
-Message-Id: <171180167278.16422.5349647893872003826@gitolite.kernel.org>
+Date: Sat, 30 Mar 2024 12:27:56 -0000
+Message-Id: <171180167604.16488.2260455373232559930@gitolite.kernel.org>
 
---===============4052778887148714234==
+--===============0173328716562637693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-defconfig
-    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+  - ref: refs/heads/at91-dt
+    old: 62afd6247a288233447beb0161315569a953e222
     new: 4cece764965020c22cff7665b18a012006359095
-    log: revlist-6613476e225e-4cece7649650.txt
+    log: revlist-62afd6247a28-4cece7649650.txt
 
---===============4052778887148714234==
+--===============0173328716562637693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6613476e225e-4cece7649650.txt
+Content-Disposition: attachment; filename=revlist-62afd6247a28-4cece7649650.txt
 
 eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
 720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============4052778887148714234==--
+--===============0173328716562637693==--
