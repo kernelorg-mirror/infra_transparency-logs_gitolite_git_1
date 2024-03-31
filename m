@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7474270490996688853=="
+Content-Type: multipart/mixed; boundary="===============2791331438693832597=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Sun, 31 Mar 2024 22:52:32 -0000
-Message-Id: <171192555299.13865.17540494209286379065@gitolite.kernel.org>
+Date: Sun, 31 Mar 2024 22:53:08 -0000
+Message-Id: <171192558864.14160.17131713333330774200@gitolite.kernel.org>
 
---===============7474270490996688853==
+--===============2791331438693832597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/libata/linux
 user: dlemoal
 changes:
-  - ref: refs/heads/for-6.9-fixes
-    old: e4ae8d06cbad6b17ebbb1e7749955c81f22a016b
-    new: 7d899947bca5e1dc2447d9cffb2b31c989e0ceb4
-    log: revlist-e4ae8d06cbad-7d899947bca5.txt
+  - ref: refs/heads/master
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: 39cd87c4eb2b893354f3b850f916353f2658ae6f
+    log: revlist-4cece7649650-39cd87c4eb2b.txt
 
---===============7474270490996688853==
+--===============2791331438693832597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4ae8d06cbad-7d899947bca5.txt
+Content-Disposition: attachment; filename=revlist-4cece7649650-39cd87c4eb2b.txt
 
 16e87fe23d4af6df920406494ced5c0f4354567b nouveau/dmem: handle kcalloc() allocation failure
 767712f91de76abd22a45184e6e3440120b8bfce scsi: ufs: core: Fix MCQ MAC configuration
@@ -416,7 +416,5 @@ c40845e3195d074b34f8f8e400e28c9403a06588 kbuild: make -Woverride-init warnings m
 18737353cca01db58bb62256338cbb820c310bd7 Merge tag 'edac_urgent_for_v6.9_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 7e40c2100c87e8f11c270b4ddbe0bf8534dcab21 Merge tag 'kbuild-fixes-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 39cd87c4eb2b893354f3b850f916353f2658ae6f Linux 6.9-rc2
-52f80bb181a9a1530ade30bc18991900bbb9697f ata: sata_sx4: fix pdc20621_get_from_dimm() on 64-bit
-7d899947bca5e1dc2447d9cffb2b31c989e0ceb4 ata: pata_macio: drop driver owner assignment
 
---===============7474270490996688853==--
+--===============2791331438693832597==--
