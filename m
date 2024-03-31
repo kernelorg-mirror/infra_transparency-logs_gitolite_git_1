@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sun, 31 Mar 2024 15:29:09 -0000
-Message-Id: <171189894992.16539.15438347287385695020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 31 Mar 2024 16:51:55 -0000
+Message-Id: <171190391594.12092.2143421985106201716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/dev
-    old: c58a8cd12d20a12edcba683a046cad64f5f16c97
-    new: edf6493d4ffb6063fb28d089c435291fc47f9cc9
+  - ref: refs/heads/master
+    old: ae668519c2e0da4c59be1c7fe985eac1429ad2d2
+    new: c7200fc1fff696505ee37eafa4f95fd13851c2f6
     log: |
-         edf6493d4ffb6063fb28d089c435291fc47f9cc9 erofs: fix compression fallback in tarerofs mode
+         c7200fc1fff696505ee37eafa4f95fd13851c2f6 Sun Mar 31 12:50:57 PM EDT 2024
          
