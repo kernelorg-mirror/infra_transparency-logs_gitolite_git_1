@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sun, 31 Mar 2024 20:30:01 -0000
-Message-Id: <171191700189.6918.12334364260485040660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 31 Mar 2024 21:31:01 -0000
+Message-Id: <171192066126.19862.10528899978416623033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/x86-efi-peheader-backport-for-v5.15
-    old: 6ba71ed6edd8bbf24e26e36d47afca82a5b16734
-    new: 25ffde690398dc727569faacb863abbb81be6391
+  - ref: refs/heads/master
+    old: f49a7e49c579a46513161e42051c344c622833c3
+    new: 570c98b78b8d3afcc30486cac35a8bd18e36c097
     log: |
-         25ffde690398dc727569faacb863abbb81be6391 fixup! x86/decompressor: Assign paging related global variables earlier
+         570c98b78b8d3afcc30486cac35a8bd18e36c097 getgrouplist.3: EXAMPLES: Fix error handling for getpwnam(3)
          
