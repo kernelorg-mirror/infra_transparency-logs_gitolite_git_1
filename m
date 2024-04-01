@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7787002537755801918=="
+Content-Type: multipart/mixed; boundary="===============0217692983337854608=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 01 Apr 2024 15:06:18 -0000
-Message-Id: <171198397846.22198.158153785501585977@gitolite.kernel.org>
+Date: Mon, 01 Apr 2024 15:06:23 -0000
+Message-Id: <171198398309.22293.16717654111830650237@gitolite.kernel.org>
 
---===============7787002537755801918==
+--===============0217692983337854608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 4cece764965020c22cff7665b18a012006359095
+  - ref: refs/heads/staging-linus
+    old: f37e76abd614b68987abc8e5c22d986013349771
     new: 39cd87c4eb2b893354f3b850f916353f2658ae6f
-    log: revlist-4cece7649650-39cd87c4eb2b.txt
+    log: revlist-f37e76abd614-39cd87c4eb2b.txt
 
---===============7787002537755801918==
+--===============0217692983337854608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711983977 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711983982 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1711983977-4245644cf8423055818678909c40a9e35f439f1f
+nonce 1711983981-61d09b1842a470b27efae8339e6accc88c80148c
 
-4cece764965020c22cff7665b18a012006359095 39cd87c4eb2b893354f3b850f916353f2658ae6f refs/heads/main
+f37e76abd614b68987abc8e5c22d986013349771 39cd87c4eb2b893354f3b850f916353f2658ae6f refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYKzWkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nRsP/0o7yDYPDe3VUf1WnHUX
-DffvKKYOBeLBZ1P0ZkU6DhcmSCAJy94WSPbWcJtkNMkUoK2Lc8QIfuthdYwBTfgB
-g145/MCFC6rLbXZyq494sRZxdspnKWBLa85TdQXdngp2CX7JaDqtiJvQKj6ZxE3Q
-8v8iuon+4cxCLRSYcXSVbQEmc/xofmx/fj7237yAQqUcG0D2bHM6jMcDUZUBwMMl
-S2Xz9hAizUNMrMK1IZ9plzotQUbM8JeYVm8S3bWBaSJD12PgKCg5ZIUe+qC+r3G0
-fF5Re5d/BX7Y4FK4TxmFLOZPp86FEcXEOwkB9lMw16AzsgX8l08bzjT0naubD2JA
-AN0aW+ll0TiEopiJ+UiF5usktwl9EbE8csiby2mpJdWwnC6zwuRh6Gx1WZdNpctr
-rt9djAbiy+PiX7hgDzlMNbq7R36PDSuaA4/eyUd58/uNTdsU+6foRMbodw02Dwtc
-BFHerMa49bTg3WeYVOfxJR0o7rEXb8CFaoCt3ufOJUBH86ebCJEo3tP+glsBNgPj
-CPCm0IiwjeylDfQsgxR6mnbdsjanrrrqPL+5LhQAkNMSepv8xK1oLw1Kg/DVwX4Y
-Vxs4SFQ+hPX0ayjOeigsx2CSx/bvMgBy4UWra487siM9k8ARoZsAtdhbchsZ3QLw
-uaGxcX2RTK+3DafCsKdB5vV0
-=vw5w
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYKzW4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PyYQAJl1GVGciy1DAOAfv9Fn
+c2HDerPDDHE5jbu/t2CCaHvRDSxg2qpHd/pFMG+apcVyN9TSPmPIfqFfk/AymU3j
+2BNI+E1JIB6pQMlv9Ts3AVmwwczAEtQfWuadlxTv95BIgFV9KWp44vvQO62SL4Bd
+7qf/eGsjArTYhZRNwIufUqnQYV9t4C2iu1PR04Fcw4TXas70ChADR0Ax13HZCbKZ
+gUZ7ZlVFsNHKLbQyzZouX8ar/h884yZtRKtJyquKcqAyq+VAk96TctP8GmovPvSh
+ejlhZYiMeR3NbppJMa2dDs0ObxySQRSwnY4QW86whTN4x+7wH0tVbzevALtUMB6k
+BBJmXAyd3fn8f4JSIN2KDhbX6nhqK1RRvSzk8fS+V5YeOlZi2oQJ3dLQRuxrpoDU
+GOW6Gi6AoExjvgdFRnSRXP/aQOGihtnJTY+R8uZq/ebPh8NFrJTWIWoJW++rvNM9
+QCo43joxkgZjDk3B2pu4YyQApig5BEgZ218wyHzAgidSHKTUvyRCmcfETuP1ZBZq
+AUfextBSu0yYP0XxE8+1swuNdarbBm0TIe1IqOPkjwB5pSFtB6KzY6foebOJfsTC
+S8NnZGL3YHm3Imixw7h5UTrfBFEUMW+Rr1hvKgg2PBNVf/1n4ruumt1bWCgQCdz6
+UFxw0Gm0DQoIWGDybX0p1BJ6
+=sMKM
 -----END PGP SIGNATURE-----
 
---===============7787002537755801918==
+--===============0217692983337854608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4cece7649650-39cd87c4eb2b.txt
+Content-Disposition: attachment; filename=revlist-f37e76abd614-39cd87c4eb2b.txt
 
 16e87fe23d4af6df920406494ced5c0f4354567b nouveau/dmem: handle kcalloc() allocation failure
 767712f91de76abd22a45184e6e3440120b8bfce scsi: ufs: core: Fix MCQ MAC configuration
@@ -190,8 +190,6 @@ aec806fb4afba5fe80b09e29351379a4292baa43 ixgbe: avoid sleeping allocation in ixg
 4b0e527c9970a15ac9ec8fc44af957725b854c29 RAS/AMD/FMPM: Avoid NULL ptr deref in get_saved_records()
 9b195439e0c54b9b9b55b2d68706b48739911519 RAS/AMD/FMPM: Safely handle saved records of various sizes
 f02fe780f28db435671fcc7c0214556e253b5a46 Merge branch '6.9/scsi-queue' into 6.9/scsi-fixes
-ef25725b7f8aaffd7756974d3246ec44fae0a5cf staging: vc04_services: changen strncpy() to strscpy_pad()
-f37e76abd614b68987abc8e5c22d986013349771 staging: vc04_services: fix information leak in create_component()
 443574b033876c85a35de4c65c14f7fe092222b2 riscv, bpf: Fix kfunc parameters incompatibility between bpf and riscv abi
 fd00fe8cdbb241644131ece133a2eb1c3951f21e drm/xe: Remove unused xe_bo->props struct
 9c1256369c10e31b5ce6575e4ea27fe2c375fd94 drm/xe/guc_submit: use jiffies for job timeout
@@ -448,4 +446,4 @@ c40845e3195d074b34f8f8e400e28c9403a06588 kbuild: make -Woverride-init warnings m
 7e40c2100c87e8f11c270b4ddbe0bf8534dcab21 Merge tag 'kbuild-fixes-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 39cd87c4eb2b893354f3b850f916353f2658ae6f Linux 6.9-rc2
 
---===============7787002537755801918==--
+--===============0217692983337854608==--
