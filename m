@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 01 Apr 2024 08:36:59 -0000
-Message-Id: <171196061914.1408.1436573773299631539@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4671170580091938456=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 01 Apr 2024 08:37:03 -0000
+Message-Id: <171196062354.1494.17258363910966973175@gitolite.kernel.org>
+
+--===============4671170580091938456==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 884642afc4691f006a83ad1299081856dd9e1b04
-    new: e165263945102912d86b02a97981f1ae1c8babcb
+    old: bee569b89401d57904291546a549c4c5914dff0d
+    new: ef13261cd60ba9fed777d2a17b2090842f4ae9f3
     log: |
-         aa7cbefe65e455178c33eca308349e687d262ea7 time/timecounter: Fix inline documentation
-         76f788ee4a7d9f826738a034f9d2ee0bc4cd291b time/timekeeping: Fix kernel-doc warnings and typos
-         b87752ef5cc15b0bae04583d599e873d92dc0618 timers: Fix kernel-doc format and add Return values
-         f29536bf1721802d2ebdc7893ed2991d4da0a4b6 tick/sched: Fix various kernel-doc warnings
-         ba6ad57b803e33ed509213a5e840427dbef501d6 tick/sched: Fix struct tick_sched doc warnings
-         9e643ab59d7ee4332994671720a9528bac62e9b7 timers: Fix text inconsistencies and spelling
-         e165263945102912d86b02a97981f1ae1c8babcb Merge branch into tip/master: 'timers/urgent'
+         ef13261cd60ba9fed777d2a17b2090842f4ae9f3 5.15-stable patches
          
+
+--===============4671170580091938456==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711960622 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1711960621-5a7ee891de14651138fab9952ffd71c0e285160c
+
+bee569b89401d57904291546a549c4c5914dff0d ef13261cd60ba9fed777d2a17b2090842f4ae9f3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYKci4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O7EQAMEUeuEq5H1KvJwh5dgM
+th5dUYE4rUlGdfrIeuKPHA+73vTvmHtnI/3/zmldHYZpaQfxUV0diuOqX3JebG2v
+Pvf9LC3atixVIcBhsr+kfkX3+EsEQqqr2U/enKMGDTqVOu32PxXFQuXaDvN6D0+q
+S+J9akjjfCLhbtG7g6V2DcZP6Km/HzG/s12jyq/McrjOsV9+iRauu5OMTEdbbP/y
+NELtd7d1E3Oo3YYY2AQuy6s9Q5wDwxpYbn2WgHeTedln6XlR4l6zb3VaHvHmaiai
+Ny2fQjS0rC2QoeMI6z27qOw2vtfW30qT9UFV/gZl5CeODyMpsNGSZaSCH4udtZ9c
+nmcn+X9gxpJLqs27qPuvEKIkDh4hcI93Px5ATxmvEh0lzK64o/m82W7n4OGBYDTZ
+EwhI5c8NsBj/dQNDlxUbs08m+pxTM+f38BoF/j/FJbjvFAhat93kyVTO/+yB8mEI
+AQH6hxhSwl4q0vAwNcAff/t4RYKcxZaEyfxdt0yYvR0kiiuJS6N1eGe/8XMggIZr
+ZnPKoCDUTQ29RUm+Ql4385SJF59mRN48pgZokwnpzl9VBqpruIUkcdmH6JIa1/za
+Wz3q73ZNIh2i2kWPlcSYmNdIKxq6FSWNAvneTeVdXxn0t9Upml6wDfnzZ8lnaytC
+myfzU6gP5rEfJud/OScftn+u
+=XjOc
+-----END PGP SIGNATURE-----
+
+--===============4671170580091938456==--
