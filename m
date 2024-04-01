@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 01 Apr 2024 21:48:54 -0000
-Message-Id: <171200813447.26926.9267122988888397769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 01 Apr 2024 21:50:03 -0000
+Message-Id: <171200820359.28404.17570834889914403604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 39cd87c4eb2b893354f3b850f916353f2658ae6f
-    new: 026e680b0a08a62b1d948e5a8ca78700bfac0e6e
+  - ref: refs/heads/io_uring-6.9
+    old: bee1d5becdf5bf23d4ca0cd9c6b60bdf3c61d72b
+    new: e5444baa42e545bb929ba56c497e7f3c73634099
     log: |
-         73dfe970c038d0548beccc5bfb2707e1d543b01f pwm: Fix setting period with #pwm-cells = <1> and of_pwm_single_xlate()
-         026e680b0a08a62b1d948e5a8ca78700bfac0e6e Merge tag 'pwm/for-6.9-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+         e5444baa42e545bb929ba56c497e7f3c73634099 io_uring: use private workqueue for exit work
          
