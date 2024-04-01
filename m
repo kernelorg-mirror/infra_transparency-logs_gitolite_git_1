@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Mon, 01 Apr 2024 15:35:07 -0000
-Message-Id: <171198570777.14363.4289432016332243646@gitolite.kernel.org>
+Date: Mon, 01 Apr 2024 15:36:49 -0000
+Message-Id: <171198580931.15058.10297789921944205418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
   - ref: refs/heads/mediatek-drm-next
-    old: 543571d424d7014a1c72bd418905b25a69941266
-    new: f2468165f7779f2ee29e8f6cab71c11a06360d12
+    old: f2468165f7779f2ee29e8f6cab71c11a06360d12
+    new: 535960b95fdb6a11abd4671cc4eb426256eed579
     log: |
-         f2468165f7779f2ee29e8f6cab71c11a06360d12 drm/mediatek: Rename files "mtk_drm_gem.h" to "mtk_gem.h"
+         535960b95fdb6a11abd4671cc4eb426256eed579 drm/mediatek: Rename files "mtk_drm_gem.c" to "mtk_gem.c"
          
