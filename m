@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1173300798184935504=="
+Content-Type: multipart/mixed; boundary="===============1080169008957172452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 01 Apr 2024 10:21:54 -0000
-Message-Id: <171196691419.31257.10573735894785076740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 01 Apr 2024 10:22:04 -0000
+Message-Id: <171196692461.31418.16040180613959932471@gitolite.kernel.org>
 
---===============1173300798184935504==
+--===============1080169008957172452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 39cd87c4eb2b893354f3b850f916353f2658ae6f
     log: revlist-e8f897f4afef-39cd87c4eb2b.txt
 
---===============1173300798184935504==
+--===============1080169008957172452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c40845e3195d074b34f8f8e400e28c9403a06588 kbuild: make -Woverride-init warnings m
 7e40c2100c87e8f11c270b4ddbe0bf8534dcab21 Merge tag 'kbuild-fixes-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 39cd87c4eb2b893354f3b850f916353f2658ae6f Linux 6.9-rc2
 
---===============1173300798184935504==--
+--===============1080169008957172452==--
