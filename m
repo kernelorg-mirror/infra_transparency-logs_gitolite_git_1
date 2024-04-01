@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5919570100377739970=="
+Content-Type: multipart/mixed; boundary="===============0645141648634211751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 01 Apr 2024 10:22:24 -0000
-Message-Id: <171196694462.31878.15260675897131775092@gitolite.kernel.org>
+Date: Mon, 01 Apr 2024 10:22:33 -0000
+Message-Id: <171196695319.32037.7753170036029422302@gitolite.kernel.org>
 
---===============5919570100377739970==
+--===============0645141648634211751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/for-rc
     old: 4cece764965020c22cff7665b18a012006359095
     new: 39cd87c4eb2b893354f3b850f916353f2658ae6f
     log: revlist-4cece7649650-39cd87c4eb2b.txt
 
---===============5919570100377739970==
+--===============0645141648634211751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -417,4 +417,4 @@ c40845e3195d074b34f8f8e400e28c9403a06588 kbuild: make -Woverride-init warnings m
 7e40c2100c87e8f11c270b4ddbe0bf8534dcab21 Merge tag 'kbuild-fixes-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 39cd87c4eb2b893354f3b850f916353f2658ae6f Linux 6.9-rc2
 
---===============5919570100377739970==--
+--===============0645141648634211751==--
