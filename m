@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7818824016435597360=="
+Content-Type: multipart/mixed; boundary="===============5688953822587612033=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 01 Apr 2024 15:03:04 -0000
-Message-Id: <171198378402.18685.14919551177202292098@gitolite.kernel.org>
+Date: Mon, 01 Apr 2024 15:03:08 -0000
+Message-Id: <171198378863.18777.16575038201437022858@gitolite.kernel.org>
 
---===============7818824016435597360==
+--===============5688953822587612033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 4cece764965020c22cff7665b18a012006359095
+  - ref: refs/heads/usb-linus
+    old: f4d1960764d8a70318b02f15203a1be2b2554ca1
     new: 39cd87c4eb2b893354f3b850f916353f2658ae6f
-    log: revlist-4cece7649650-39cd87c4eb2b.txt
+    log: revlist-f4d1960764d8-39cd87c4eb2b.txt
 
---===============7818824016435597360==
+--===============5688953822587612033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711983783 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711983787 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1711983782-d1c5603e2963a24790f2d803c174f913f6ef76c6
+nonce 1711983786-2895e669bf7d4da74fdeccaee954131a79d04f05
 
-4cece764965020c22cff7665b18a012006359095 39cd87c4eb2b893354f3b850f916353f2658ae6f refs/heads/main
+f4d1960764d8a70318b02f15203a1be2b2554ca1 39cd87c4eb2b893354f3b850f916353f2658ae6f refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYKzKcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6QMP/jLhi16J7+u3lDHwbe/L
-SbjCA4+VY0tSknG5OkYbWlFUUTvKPisvOPc/gtbWZ0FNLtel7KrLSEn8Sw6tzGoX
-RYhVK4lk4FS3MP1hvEuZz9QGRFahktIDXGplWyniw+ZPslNVXrxJFDmicgAsfxh+
-TDQkBjmcId+cn5VcB3SioNHZUICEPlmMW7vMRFQ2hSPShsRPWbkZ4NXVuCy7MGb5
-scifcQzeAJ/CdWmkii+AvmIHEgyEtSTd4ZyAYuJ6Sbr68u9JlO/fmK3Pu9k29ZTQ
-NJMD4m9isWq5aDmdtn0iDdOylyNy08y4lP/xZlxMKn02uBc92USfynBdO8s/pLIu
-4xUHXfNlpVBzJg6QD8M6PAfUr7T72Pbw4/0XUl1FECx5aPW/nKWMx9Qc5jHAbPdf
-WBpXSd3lf/PJLyiu0Fc+kd8KV3HJCrifgRG8E1cUZZWM8qQu5TYdlMJvrw6Lneuj
-TY7dAv6ARar72DyYeFDnDHZv9AQVn98c0oNjCPcoyxSrf2TZiz0y4y8jklgQ9B+Z
-qFI/9ORrkQLRG9WP0Ca5wS/lrHe3/6Lh8GOrxd+tnlEexU5y+aGHUvEjvGpe2hs6
-Rea1uKzp7CN3ZgfKw4ySBTK8N7C4lQYa2lavMJue8YMxrvAAVZ425QAbcf6jMEXg
-P6F2XI6srx+Zap93z2Jlg5Em
-=I9eh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYKzKwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QtwQAMafbZaFGxW3gX0TH/fC
+RKRsl2OlQge78eFAtqo8h21OAm++agfeOK1adtFhvZrMCnkVZzkCCeZ3LlKnLCPg
+w/laSMryP81kOD7g+e5u7u59cGuSCepvhjtdHEZ7Fk+8iXB/Uy94KchKTvTFqWIS
+1Yh3Hv6WkCjXiI4KMhpPA/+ig2rsu5X2uWLXTqr2dEfIQy/upipqwZMQiU699fZ3
+CB1ctAoOACOdGr3CkqL/m+1BKQk3Yw/VDRvvbIomJK86FI7IhXSKUeUaE4gU48k0
+EYiAFE12+Voupq4HNi98jz4dmbRc6mg3/z5cnay8pcTOI7VT8VTGQklu5feTVKr8
+6aGCgOGuhLQmXbTSH4kLbRD59yqbGTDq+LJPCH7OFcfb/DfXdZYHuY6pyf7aRZmt
+FEb+/mcICdQyRsPbq+YIng7lI3NFPshNWVOaVu9Yu29DSjUaSowPJySChiPlu+VS
+WiNzuk6/oMndIE9j7muKBgfaAuY21yKLALEqvHgKy0X/dKuX7I1oWinCyfNfyIAX
+0+LZaGj1rmu5levCqnLwhtFILMq2hZ0ezXg7IR1BANBqzCB67aGqn6xwngm6n/4x
+E3Unq5joJR8Hx8F7iiKXFCty4TT9MRp7oW2X38U8nWJ7lkul0LM2TwBd9G9pmz+/
+gyijiL9Hsd/xkbu+pJQZVZ54
+=Rpri
 -----END PGP SIGNATURE-----
 
---===============7818824016435597360==
+--===============5688953822587612033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4cece7649650-39cd87c4eb2b.txt
+Content-Disposition: attachment; filename=revlist-f4d1960764d8-39cd87c4eb2b.txt
 
 16e87fe23d4af6df920406494ced5c0f4354567b nouveau/dmem: handle kcalloc() allocation failure
 767712f91de76abd22a45184e6e3440120b8bfce scsi: ufs: core: Fix MCQ MAC configuration
@@ -223,13 +223,6 @@ c7b2edd8377be983442c1344cb940cd2ac21b601 perf/x86/amd/core: Update and fix stall
 905f7d53a1bc105b22d9ffd03dc11b6b42ec6ba6 drm/rockchip: vop2: Remove AR30 and AB30 format support
 3186b61812c007179f1852d8e63a0f0f7dd7c783 x86/nmi: Upgrade NMI backtrace stall checks & messages
 4969d75dd9077e19e175e60f3c5a6c7653252e63 x86/vdso: Fix rethunk patching for vdso-image-x32.o too
-cd5432c712351a3d5f82512908f5febfca946ca6 USB: UAS: return ENODEV when submit urbs fail with device not attached
-893cd9469c68a89a34956121685617dbb37497b1 usb: typec: tcpm: Correct port source pdo array in pd_set callback
-f5e9bda03aa50ffad36eccafe893d004ef213c43 usb: typec: ucsi: Fix race between typec_switch and role_switch
-7c9631969287a5366bc8e39cd5abff154b35fb80 usb: misc: ljca: Fix double free in error handling path
-b63f90487bdf93a4223ce7853d14717e9d452856 usb: typec: tcpm: fix double-free issue in tcpm_port_unregister_pd()
-17af5050dead6cbcca12c1fcd17e0bb8bb284eae usb: typec: tcpm: Update PD of Type-C port upon pd_set
-80ba43e9f799cbdd83842fc27db667289b3150f5 USB: core: Fix deadlock in usb_deauthorize_interface()
 0493e739ccc60a3e0870847f1a12d6d79b86a1fc iommu/arm-smmu-v3: Add cpu_to_le64() around STRTAB_STE_0_V
 8c05813df270324ce0b3a8647facc70c9bdd6fb5 MAINTAINERS: split Renesas Ethernet drivers entry
 ec9098d6bffea6e82d63640134c123a3d96e0781 iommu/arm-smmu-v3: Fix access for STE.SHCFG
@@ -243,25 +236,6 @@ b34490879baa847d16fc529c8ea6e6d34f004b38 gpio: cdev: sanitize the label before r
 40e2710860e57411ab57a1529c5a2748abbe8a19 ACPICA: debugger: check status of acpi_evaluate_object() in acpi_db_walk_for_fields()
 f67cf45deedb118af302534643627ce59074e8eb Revert "thermal: core: Don't update trip points inside the hysteresis range"
 8ea3f4f1a1b4242d5fc273f41aa7c86f6b40178c MAINTAINERS: wifi: mwifiex: add Francesco as reviewer
-3c7b9856a82227db01a20171d2e24c7ce305d59b usb: dwc2: host: Fix hibernation flow
-bae2bc73a59c200db53b6c15fb26bb758e2c6108 usb: dwc2: host: Fix remote wakeup from hibernation
-b258e42688501cadb1a6dd658d6f015df9f32d8f usb: dwc2: host: Fix ISOC flow in DDMA mode
-31f42da31417bec88158f3cf62d19db836217f1e usb: dwc2: gadget: Fix exiting from clock gating
-5d69a3b54e5a630c90d82a4c2bdce3d53dc78710 usb: dwc2: gadget: LPM flow fix
-339f83612f3a569b194680768b22bf113c26a29d usb: cdc-wdm: close race between read and workqueue
-fdada0db0b2ae2addef4ccafe50937874dbeeebe Revert "usb: phy: generic: Get the vbus supply"
-f9aa41130ac69d13a53ce2a153ca79c70d43f39c usb: dwc3: Properly set system wakeup
-f121531703ae442edc1dde4b56803680628bc5b7 usb: dwc3: pci: Drop duplicate ID
-2a587a035214fa1b5ef598aea0b81848c5b72e5e usb: udc: remove warning when queue disabled ep
-53f5094fdf5deacd99b8655df692e9278506724d usb: typec: Return size of buffer if pd_set operation succeeds
-15b2e71b4653b3e13df34695a29ebeee237c5af2 usb: typec: ucsi: Clear EVENT_PENDING under PPM lock
-808a8b9e0b87bbc72bcc1f7ddfe5d04746e7ce56 usb: typec: ucsi: Check for notifications after init
-6b5c85ddeea77d18c4b69e3bda60e9374a20c304 usb: typec: ucsi: Ack unsupported commands
-6aaceb7d9cd00f3e065dc4b054ecfe52c5253b03 usb: typec: ucsi_acpi: Refactor and fix DELL quirk
-3de4f996a0b5412aa451729008130a488f71563e usb: typec: ucsi: Clear UCSI_CCI_RESET_COMPLETE before reset
-0be3870f7cbbb5db4f062505f3f7dac9009946f3 usb: typec: ucsi: Check capabilities before cable and identity discovery
-ee113b860aa169e9a4d2c167c95d0f1961c6e1b8 USB: core: Add hub_get() and hub_put() routines
-f4d1960764d8a70318b02f15203a1be2b2554ca1 USB: core: Fix deadlock in port "disable" sysfs attribute
 0f4a1e80989aca185d955fcd791d7750082044a2 x86/sev: Skip ROM range scans and validation for SEV-SNP guests
 47e39d213e09c6cae0d6b4d95e454ea404013312 net: hns3: fix index limit to support all queue stats
 93305b77ffcb042f1538ecc383505e87d95aa05a net: hns3: fix kernel crash when devlink reload during pf initialization
@@ -448,4 +422,4 @@ c40845e3195d074b34f8f8e400e28c9403a06588 kbuild: make -Woverride-init warnings m
 7e40c2100c87e8f11c270b4ddbe0bf8534dcab21 Merge tag 'kbuild-fixes-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 39cd87c4eb2b893354f3b850f916353f2658ae6f Linux 6.9-rc2
 
---===============7818824016435597360==--
+--===============5688953822587612033==--
