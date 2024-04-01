@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1919902112584306382=="
+Content-Type: multipart/mixed; boundary="===============0523455304265082027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 01 Apr 2024 08:37:39 -0000
-Message-Id: <171196065950.3100.9448312595685825456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 01 Apr 2024 08:37:48 -0000
+Message-Id: <171196066844.3307.8455627072781952448@gitolite.kernel.org>
 
---===============1919902112584306382==
+--===============0523455304265082027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: e165263945102912d86b02a97981f1ae1c8babcb
-    new: 65d1240b6728b38e4d2068d6738a17e4ee4351f5
-    log: revlist-e16526394510-65d1240b6728.txt
+    old: 7eb6c59fbbd7837ed42215bc55b4d164b7fc8eeb
+    new: 46dc0cdd2e86fa73f1e7dc93523bd82802a42b44
+    log: |
+         46dc0cdd2e86fa73f1e7dc93523bd82802a42b44 6.8-stable patches
+         
 
---===============1919902112584306382==
+--===============0523455304265082027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e16526394510-65d1240b6728.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a6aeec5f92cd76a42601a5695fc0450f76959967 Merge branch into tip/master: 'timers/urgent'
-c068d3de4cec1c8fdf8d74262b4678b33de97bfa Merge branch into tip/master: 'x86/merge'
-84daceb485a4a68d871513bbbe3cd3c55580e356 Merge branch into tip/master: 'irq/core'
-58384855740563a33e3c2b350f6ec20f381b393a Merge branch into tip/master: 'locking/core'
-7a23cd3b6bda2b3462d35df290b5ef87621c3ce0 Merge branch into tip/master: 'perf/core'
-996e9c126f78c8e8bf654dab043a9d61f70d7cae Merge branch into tip/master: 'ras/core'
-e126352f1f9dc7288ad96b4617778b84445b32a0 Merge branch into tip/master: 'sched/core'
-57d90189fdc92e1944b602568e3f2240c7e5480b Merge branch into tip/master: 'x86/asm'
-857df57c1e17ab565753994115f21043fbca9b68 Merge branch into tip/master: 'x86/boot'
-198c459eb7631f67f536d3712d33031484cb6114 Merge branch into tip/master: 'x86/bugs'
-ab50813bf86f1d9d6606f92d16560d50cca0c832 Merge branch into tip/master: 'x86/build'
-06e469ecde85dfe9ed2cc91ccac53b87a5be5251 Merge branch into tip/master: 'x86/cleanups'
-b5e336a99cce93819a668847cc35fb1b7ce4215c Merge branch into tip/master: 'x86/cpu'
-c6f47bcfc17bb404c374c957ea00b65819e7fba8 Merge branch into tip/master: 'x86/fpu'
-65d1240b6728b38e4d2068d6738a17e4ee4351f5 Merge branch into tip/master: 'x86/shstk'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1711960667 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1711960665-ddce931f49ea38616edf9b313d9e53cbd883bbad
 
---===============1919902112584306382==--
+7eb6c59fbbd7837ed42215bc55b4d164b7fc8eeb 46dc0cdd2e86fa73f1e7dc93523bd82802a42b44 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYKclsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l0UP/RYvBTYpgUytqh5adbx7
+UhtFu5oekIGwsldSJeuTiiqeZVmB+dDkW231VOLcNiMty6DjWk3rco9t2F0t95q0
+4o1I7QMspJD4a3xoS0o7dGHKwi/6NQVhacHO2VmJnELESD3JHWlpzccxVaYCaRt/
+K3G+puXcBXVB7d0RLMuQShtP6CcDnNBaS4u5DV2jkfXkRDUaaQN2gmn+sMipLPhy
+7+U0cRFFcnY3Du+Uxsh5pdAJUr74j9NloNQ+LHjOLg3lX3l24XB9aH9+B/xdGW/O
+ToSqvHYefiufHNsaMskDP1/2stOFrvv3UV7EJXE0VCprtf/X2dYxTCc5hg4jYiob
+l8tjvrqod/0AZfIFfStDg3RKtCqe116eT44CNkzUuGf9jhIaIiha79xesGwTVj2i
+isAGnx1pJT1HuYFm7qgsTKDQ68BvxvT2KWz6B3EmCMVLlgJ+CgScBAK9KIZgwnpU
+9etywsefJLOg8hAEP8F+Cv27r459zQtDoYipVI3bsBklSzfa81yF37QBYghKLu4h
+6OmtrB13X1WDpsEnZBC5dCvClzSHSe9v/92no5bQ7Ykvgzh9g83CjlKTYW1JJEtz
+D72nwPJXR9vdvc3AchYE6Hjz+aNu8GpM+DIl168O3I9lJZPJ7pUUCl2ydjnPUxqv
+pPaBIuL14QEux8s5AuPZJJUE
+=c4e8
+-----END PGP SIGNATURE-----
+
+--===============0523455304265082027==--
