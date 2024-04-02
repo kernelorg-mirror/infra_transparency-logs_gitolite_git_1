@@ -1,57 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2229408534511782782=="
+Content-Type: multipart/mixed; boundary="===============8850235029472590549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 02 Apr 2024 19:28:12 -0000
-Message-Id: <171208609279.4069.4655718702696689182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 02 Apr 2024 19:28:23 -0000
+Message-Id: <171208610332.4229.15060586529370936919@gitolite.kernel.org>
 
---===============2229408534511782782==
+--===============8850235029472590549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: 2ae143fb3a057ad7d0a5f833386116441bfd5172
-    new: 91ebd32eee6cd7714b49ca4463a0f315bc26ce0e
+  - ref: refs/heads/for-6.10
+    old: ba5206881843e16b74a07c37970dcc44d22f8f6f
+    new: 33aa27a09e9df5860fe495032a067504d025db77
     log: |
-         91ebd32eee6cd7714b49ca4463a0f315bc26ce0e ASoC: nau8325: Revise soc_enum structure definition.
-         
-  - ref: refs/heads/asoc-6.9
-    old: 2c603a4947a1247102ccb008d5eb6f37a4043c98
-    new: d619b0b70dc4f160f2b95d95ccfed2631ab7ac3a
-    log: |
-         d619b0b70dc4f160f2b95d95ccfed2631ab7ac3a ASoC: Intel: avs: boards: Add modules description
+         5da57c7ca9eabccd89087ed2fdac31a79b1504d8 spi: docs: drop driver owner initialization
+         33aa27a09e9df5860fe495032a067504d025db77 spi: pxa2xx: Call pxa_ssp_free() after getting the SSP type
          
 
---===============2229408534511782782==
+--===============8850235029472590549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1712086091 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1712086090-b28a956a68fb1bd234145776cb04de021442d983
+pusher C3F436CA30F5D8EB 1712086101 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1712086101-017e6a632b1a6aece5a4813d61cc4a6f56600803
 
-2ae143fb3a057ad7d0a5f833386116441bfd5172 91ebd32eee6cd7714b49ca4463a0f315bc26ce0e refs/heads/asoc-6.10
-2c603a4947a1247102ccb008d5eb6f37a4043c98 d619b0b70dc4f160f2b95d95ccfed2631ab7ac3a refs/heads/asoc-6.9
+ba5206881843e16b74a07c37970dcc44d22f8f6f 33aa27a09e9df5860fe495032a067504d025db77 refs/heads/for-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYMXEsACgkQJNaLcl1U
-h9DCXwf+Mvpt/kpWuD8xlazZUchQWpeMOEg/9d5D1/ER0NVF/oIg0MCH6/VC5WaU
-ldeTm5ZNwIG4yFq06cpULcrueiYl3wk/7YyLR2rZHhiGiQYSKZzm39YGMahWRtk2
-xpOs3uymM2WBcWmPZQudyqdjA5u0ehCwl9B6dsmfXRFNyFrLx7FAaBsvJ4ukL5L3
-Y93NlB44AvOKPVvvByQPMATeG4umZ7040yLZYqmWsyfbcJhZAF8KdZ0/8cWtUBJH
-cU+CQWjT8lJtu5buJANsuFyxXtVr7G5605kW9s6qn3oQYXXLvYFdze0dr7WZ5EOe
-c4dL5iP+kXBQW2aQa5PniTbGdq8XEw==
-=y3M3
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYMXFUACgkQJNaLcl1U
+h9AzJQf+PlJixHu9BzoedfEu0qjLY81mVP/nv/bcvmZUVNbNjSQqBifPG8lp/9Gi
+Yc2SrLBt9hAIOfac+bWfD6YNrztsmjJ3e0yZgaIH45W4rFTxst0FlKyc5Og+1bca
+wIjf+VCNy0X+AZ7QMN7ewEzaTBPu6bQq4hJb0a90SjHRjNYYa6+p3L19gpgIsAmY
+vTySgBSjegF4aAmlNbGr3uNz5kIBthOFZxMUGhpj3Bf3EtGe2lMAdBk3M6ZTVMbK
+SoSiNL8AZw67/KSiSP9OaINwGa2EhSzuBU7nHbp7weE5WCkgVmwXLtjZmjRRz2rf
+ir0PQ5H4VNssSm3o9YJU5Pz35eMTlw==
+=4PUO
 -----END PGP SIGNATURE-----
 
---===============2229408534511782782==--
+--===============8850235029472590549==--
