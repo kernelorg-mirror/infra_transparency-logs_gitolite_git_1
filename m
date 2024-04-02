@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5180104612461328447=="
+Content-Type: multipart/mixed; boundary="===============3351922467427761886=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 02 Apr 2024 05:51:36 -0000
-Message-Id: <171203709660.30758.5352269215901485535@gitolite.kernel.org>
+Date: Tue, 02 Apr 2024 05:56:57 -0000
+Message-Id: <171203741771.1960.5128684197732178227@gitolite.kernel.org>
 
---===============5180104612461328447==
+--===============3351922467427761886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next
     old: 4cece764965020c22cff7665b18a012006359095
-    new: c032cdd48b29549e8283c2fea99e7d91ddefebf7
-    log: revlist-4cece7649650-c032cdd48b29.txt
+    new: 39cd87c4eb2b893354f3b850f916353f2658ae6f
+    log: revlist-4cece7649650-39cd87c4eb2b.txt
 
---===============5180104612461328447==
+--===============3351922467427761886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4cece7649650-c032cdd48b29.txt
+Content-Disposition: attachment; filename=revlist-4cece7649650-39cd87c4eb2b.txt
 
 16e87fe23d4af6df920406494ced5c0f4354567b nouveau/dmem: handle kcalloc() allocation failure
 767712f91de76abd22a45184e6e3440120b8bfce scsi: ufs: core: Fix MCQ MAC configuration
@@ -416,6 +416,5 @@ c40845e3195d074b34f8f8e400e28c9403a06588 kbuild: make -Woverride-init warnings m
 18737353cca01db58bb62256338cbb820c310bd7 Merge tag 'edac_urgent_for_v6.9_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 7e40c2100c87e8f11c270b4ddbe0bf8534dcab21 Merge tag 'kbuild-fixes-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 39cd87c4eb2b893354f3b850f916353f2658ae6f Linux 6.9-rc2
-c032cdd48b29549e8283c2fea99e7d91ddefebf7 thunderbolt: Do not create DisplayPort tunnels on adapters of the same router
 
---===============5180104612461328447==--
+--===============3351922467427761886==--
