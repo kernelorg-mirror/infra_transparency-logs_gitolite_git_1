@@ -1,38 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============4194519286592705719=="
+Content-Type: multipart/mixed; boundary="===============0243406435999690231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Tue, 02 Apr 2024 03:38:13 -0000
-Message-Id: <171202909356.29198.2324083401349527328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Tue, 02 Apr 2024 03:38:14 -0000
+Message-Id: <171202909477.29262.12589590520386057100@gitolite.kernel.org>
 
---===============4194519286592705719==
+--===============0243406435999690231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
-  - ref: refs/heads/next
-    old: abb0f43fcdf2cde0beaf6bbe34723a3dca9f125b
-    new: 078f764d76b11c2fc148c24c4b1981fbd5da95b5
-    log: |
-         37801a36b4d68892ce807264f784d818f8d0d39b selinux: avoid dereference of garbage after mount failure
-         078f764d76b11c2fc148c24c4b1981fbd5da95b5 Automated merge of 'dev' into 'next'
-         
   - ref: refs/heads/stable-6.9
-    old: a1fc79343abbdc5bebb80c2a9032063442df8b59
-    new: 37801a36b4d68892ce807264f784d818f8d0d39b
-    log: revlist-a1fc79343abb-37801a36b4d6.txt
+    old: aa13b709084a0287ef250a9fbde5993e4dfc3078
+    new: 4cece764965020c22cff7665b18a012006359095
+    log: revlist-aa13b709084a-4cece7649650.txt
 
---===============4194519286592705719==
+--===============0243406435999690231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1fc79343abb-37801a36b4d6.txt
+Content-Disposition: attachment; filename=revlist-aa13b709084a-4cece7649650.txt
 
+eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
 720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
 195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
@@ -1056,6 +1050,5 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-37801a36b4d68892ce807264f784d818f8d0d39b selinux: avoid dereference of garbage after mount failure
 
---===============4194519286592705719==--
+--===============0243406435999690231==--
