@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0214628065205029320=="
+Content-Type: multipart/mixed; boundary="===============1071429486471881537=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Tue, 02 Apr 2024 07:32:28 -0000
-Message-Id: <171204314865.8916.16879858028506540217@gitolite.kernel.org>
+Date: Tue, 02 Apr 2024 07:32:33 -0000
+Message-Id: <171204315372.9000.12240329065477154482@gitolite.kernel.org>
 
---===============0214628065205029320==
+--===============1071429486471881537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 58f34ce675d4685526ab07dfe414bfc7396c721e
-    new: b4b58c9562a0148b8ab38e057ecef0c484f9d0cc
-    log: revlist-58f34ce675d4-b4b58c9562a0.txt
+  - ref: refs/heads/m68k-queue
+    old: 76e31b512159822f44b2fa8c8335c204004f19be
+    new: dd35de6b4b7877d702bdccf0cbe3742abf619ab6
+    log: revlist-76e31b512159-dd35de6b4b78.txt
 
---===============0214628065205029320==
+--===============1071429486471881537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58f34ce675d4-b4b58c9562a0.txt
+Content-Disposition: attachment; filename=revlist-76e31b512159-dd35de6b4b78.txt
 
 16e87fe23d4af6df920406494ced5c0f4354567b nouveau/dmem: handle kcalloc() allocation failure
 767712f91de76abd22a45184e6e3440120b8bfce scsi: ufs: core: Fix MCQ MAC configuration
@@ -416,7 +416,9 @@ c40845e3195d074b34f8f8e400e28c9403a06588 kbuild: make -Woverride-init warnings m
 18737353cca01db58bb62256338cbb820c310bd7 Merge tag 'edac_urgent_for_v6.9_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 7e40c2100c87e8f11c270b4ddbe0bf8534dcab21 Merge tag 'kbuild-fixes-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 39cd87c4eb2b893354f3b850f916353f2658ae6f Linux 6.9-rc2
-be1345fb1c0860573c8a4b5d781d6019764c9343 m68k: Calculate THREAD_SIZE from THREAD_SIZE_ORDER
-b4b58c9562a0148b8ab38e057ecef0c484f9d0cc Merge tag 'v6.9-rc2'
+148f554fa14617d8fc0b481a0d02dc6ddc0a7bcd m68k: Calculate THREAD_SIZE from THREAD_SIZE_ORDER
+347aa1518f9392589eaa0858345653567766dbd7 m68k: atari: usb: Add ISP1160 USB host controller support
+1b3e3f650a064a91d63c92dc2ebe93c62dd06cb8 m68k: atari: Update Kconfig.bus help text
+dd35de6b4b7877d702bdccf0cbe3742abf619ab6 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0214628065205029320==--
+--===============1071429486471881537==--
