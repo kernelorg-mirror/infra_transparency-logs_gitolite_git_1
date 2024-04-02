@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0558987526656587747=="
+Content-Type: multipart/mixed; boundary="===============2435806007498025702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Tue, 02 Apr 2024 06:39:15 -0000
-Message-Id: <171203995595.1873.466422247697156950@gitolite.kernel.org>
+Date: Tue, 02 Apr 2024 06:39:54 -0000
+Message-Id: <171203999473.2168.8406122959352507932@gitolite.kernel.org>
 
---===============0558987526656587747==
+--===============2435806007498025702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/fpga/linux-fpga
 user: yilunxu
 changes:
-  - ref: refs/heads/for-next
-    old: b1a91ca25f15b6d7b311de4465854a5981dee3d3
-    new: f6c86fdf3716c9257612f8f001c6e95db84fb844
-    log: revlist-b1a91ca25f15-f6c86fdf3716.txt
+  - ref: refs/heads/fixes
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
+    new: 4cece764965020c22cff7665b18a012006359095
+    log: revlist-6613476e225e-4cece7649650.txt
 
---===============0558987526656587747==
+--===============2435806007498025702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1a91ca25f15-f6c86fdf3716.txt
+Content-Disposition: attachment; filename=revlist-6613476e225e-4cece7649650.txt
 
+eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
+720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
+195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
+f095fefacdd35b4ea97dc6d88d054f2749a73d07 ptp: Move from simple ida to xarray
+379b97bbf02feecae5ce870bc0c67e3d723e30f5 selftests/bpf: Add kprobe multi triggering benchmarks
+86833aec447939a886a13bbdbdf21c9628c5c8c5 Merge tag 'x86-entry-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d6170e4aaf86424c24ce06e355b4573daa891b17 bpf: hardcode BPF_PROG_PACK_SIZE to 2MB * num_possible_nodes()
 66c8473135c62f478301a0e5b3012f203562dfa6 bpf: move sleepable flag from bpf_prog_aux to bpf_prog
 bff4b74625fea851f9dd61e747a162d2f6b3317e Revert "dm: use queue_limits_set"
 d8941ce52b708cfd520994e65760a2fa6a646dfb Merge tag 'ras_core_for_v6.9_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1042,13 +1050,5 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 5e74df2f8f15eaa1ebbdfc1f6fef27a26d789de8 Merge tag 'x86-urgent-2024-03-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
-4d4d2d4346857bf778fafaa97d6f76bb1663e3c9 fpga: manager: add owner module and take its refcount
-1da11f822042eb6ef4b6064dc048f157a7852529 fpga: bridge: add owner module and take its refcount
-a52e3a9dba347134ee53ebfe68b7b22548a387b0 fpga: xilinx-spi: extract a common driver core
-8afcb190f3aac8d9ae4ca4f84a67bb281a4d9a3f dt-bindings: fpga: xlnx,fpga-selectmap: add DT schema
-104712a0866f7e3eb050271fc104c543aac642e8 fpga: xilinx-selectmap: add new driver
-4a1f12b5b50dd7d8ad681be701b2b00521c9d201 fpga: xilinx-core: add new gpio names for prog and init
-a97fc99a02c767f5970b75ce40fedd2a0843f323 fpga: altera: drop driver owner assignment
-f6c86fdf3716c9257612f8f001c6e95db84fb844 fpga: altera-cvp: Remove an unused field in struct altera_cvp_conf
 
---===============0558987526656587747==--
+--===============2435806007498025702==--
