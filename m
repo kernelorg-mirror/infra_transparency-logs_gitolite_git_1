@@ -1,29 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 02 Apr 2024 19:29:00 -0000
-Message-Id: <171208614047.4623.198306408144565025@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 02 Apr 2024 19:29:54 -0000
+Message-Id: <171208619486.5014.4370606754744996061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: 7fe86391ca2d094054aae767853e2aefe12d1d12
-    new: 86acd51c9fc0db5b4568b49874ce065462a0657e
-    log: |
-         d619b0b70dc4f160f2b95d95ccfed2631ab7ac3a ASoC: Intel: avs: boards: Add modules description
-         86acd51c9fc0db5b4568b49874ce065462a0657e Merge remote-tracking branch 'asoc/for-6.8' into asoc-linus
-         
   - ref: refs/heads/for-next
-    old: de797901c4146bae3735641318aece18ec939785
-    new: 0d6e92fe4486cd62b660537e668df904a2bb813a
+    old: 454b5ef3f174878a37653e3eb05e68f9fdea8360
+    new: 1f89881bb7668aaf6dde384ee3add55c01e9df99
     log: |
-         d619b0b70dc4f160f2b95d95ccfed2631ab7ac3a ASoC: Intel: avs: boards: Add modules description
-         91ebd32eee6cd7714b49ca4463a0f315bc26ce0e ASoC: nau8325: Revise soc_enum structure definition.
-         86acd51c9fc0db5b4568b49874ce065462a0657e Merge remote-tracking branch 'asoc/for-6.8' into asoc-linus
-         0d6e92fe4486cd62b660537e668df904a2bb813a Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
+         5da57c7ca9eabccd89087ed2fdac31a79b1504d8 spi: docs: drop driver owner initialization
+         33aa27a09e9df5860fe495032a067504d025db77 spi: pxa2xx: Call pxa_ssp_free() after getting the SSP type
+         1f89881bb7668aaf6dde384ee3add55c01e9df99 Merge remote-tracking branch 'spi/for-6.10' into spi-next
          
