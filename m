@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 02 Apr 2024 14:15:33 -0000
-Message-Id: <171206733327.30639.14765031621115696031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 02 Apr 2024 14:21:18 -0000
+Message-Id: <171206767806.2061.17015043148802779985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: chandanbabu
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/tags/xfs-6.9-fixes-2
-    old: 0000000000000000000000000000000000000000
-    new: bcd5dfc1a0eaa6f50c64a6c95c43a8e27a05e84a
+  - ref: refs/heads/master
+    old: 965c6167c93f3fac53e25807f83c07e87b3c085a
+    new: 2a24e2485722b0e12e17a2bd473bd15c9e420bdb
+    log: |
+         2a24e2485722b0e12e17a2bd473bd15c9e420bdb bpftool: Use __typeof__() instead of typeof() in BPF skeleton
+         
