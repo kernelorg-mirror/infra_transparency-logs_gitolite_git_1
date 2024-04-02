@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 02 Apr 2024 15:19:25 -0000
-Message-Id: <171207116543.13118.16075780725182915496@gitolite.kernel.org>
+Date: Tue, 02 Apr 2024 15:19:45 -0000
+Message-Id: <171207118572.13329.14560919576405194608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: b170c8c974050ed4f2443f8f8ea3f1b463ef3a83
+  - ref: refs/heads/100GbE
+    old: 365af7ace014ef3fc6f5d0a373c96cc7193db4ce
     new: ea2a1cfc3b2019bdea6324acd3c03606b60d71ad
     log: |
          96c155943a703f0655c0c4cab540f67055960e91 net: phy: micrel: Fix potential null pointer dereference
