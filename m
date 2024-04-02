@@ -1,57 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============5649121543082176619=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 02 Apr 2024 06:52:04 -0000
-Message-Id: <171204072420.11779.14751562600751561143@gitolite.kernel.org>
-
---===============5649121543082176619==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 02 Apr 2024 06:54:23 -0000
+Message-Id: <171204086356.12688.8157742456906128126@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 1748d6c93b26303de89cf38d44ccf2271cf35473
-    new: 30ac36eaa17ae0f513762ce4dfa4bad6649021e4
+    old: 2722b40012740372daf3585b7c071fcbede13359
+    new: 3400ca5a9f3174308fea9c106ee3678bd58deabd
     log: |
-         8e2d05a816d02f2f07b2e6aeb07196fc4bbc094a One straggler CVE for 6.7.4 assigned
-         30ac36eaa17ae0f513762ce4dfa4bad6649021e4 finished up with 6.7.4 review
+         d0a07e7fb8109e9fdeb5e2c90c019c0cf5f92009 meson: Only require the crypt library when necessary
+         2c5a42b3cbf278461a12872ce7a944ad396d47b5 meson: Fix false positive detection of mempcpy on macOS
+         f92ed3aa66bbd1df5156f8aa16723c9245265625 Merge branch 'meson-detect-mempcpy' of https://github.com/jwillikers/util-linux
+         3400ca5a9f3174308fea9c106ee3678bd58deabd Merge branch 'meson-fix-crypt-dep' of https://github.com/jwillikers/util-linux
          
-
---===============5649121543082176619==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712040723 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1712040723-be570db5f7b0f8fb068041e6d18b0de78da5e68e
-
-1748d6c93b26303de89cf38d44ccf2271cf35473 30ac36eaa17ae0f513762ce4dfa4bad6649021e4 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYLqxMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6g8QANAJWHzhV8Q1Ev6k9J6i
-Rs+ioqDoL8v3nzMZzY5hjFEPB5tM6KTS7y8ygIk93mEkfwnDdcE9ei9xZkPJAPYh
-DWL8Xas4G11Lrk7qXATuBbW8ONZ/nuhgFFeua8nbexX/93IMIBaJApfIFeIy/Pjv
-9LbT7Cy8GIFO2rve0bidnMI+zP/J3VOIyxX5rRJ4mG71G2G6dvFrr6YWtmX+UmLN
-IX95bxlMjb5CHswF0Aa/nHb5zEyVClVgOlAG8OoT/ZnAV7eIY9M1cyZoo2d23H1H
-l7W2Zb/7oqQ24ibwGoKSed9sfrTlFWUTU/pP2ZkbMD6KxhhOJpWOsbdCSk2om0NS
-JSOZdrT2ULB96E25M69CfrU3ifpUFdWD0Q+laZIQonergC8Ho/eQGDPl4ZOvDdHQ
-/A1Imr1hK8E9lRl+XPukYzv+1Hue9CXyaaqYFGd8ZSI//Jo8YHWn+GyC8Z3lCv8e
-seJgvOvqfmueXfixaYrlveS9Bdf0upephMtJpPwHfO0QkU+mb3L2ILv2bSY558uR
-pzxyFHJQpc2e8+oMcXGv2UxeMddgTje4X41/Ak6BHA1DBOZLrKn3iXur/YPbfQ/a
-fDpDENjfrMvdGs38gfUDapFdULcQmKiaIyYhiXRHzMi+NHfoD3ena+UE770hTra+
-YeZJB+P9I2LB//giYdBjWzBT
-=nR/n
------END PGP SIGNATURE-----
-
---===============5649121543082176619==--
+  - ref: refs/heads/stable/v2.40
+    old: 08debe8f35d5111f58420fd015e7987bc1ce38e6
+    new: 777cd421f2bc56c5d850d3231862225565a0f12e
+    log: |
+         6e93a2ce5f7c41731d0f07ac6a3638d9f981d707 meson: Fix false positive detection of mempcpy on macOS
+         777cd421f2bc56c5d850d3231862225565a0f12e meson: Only require the crypt library when necessary
+         
