@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4285455715848354873=="
+Content-Type: multipart/mixed; boundary="===============1580547177664439104=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 02 Apr 2024 15:36:26 -0000
-Message-Id: <171207218677.26089.14163263688304224951@gitolite.kernel.org>
+Date: Tue, 02 Apr 2024 15:36:56 -0000
+Message-Id: <171207221696.26492.17859383709859813501@gitolite.kernel.org>
 
---===============4285455715848354873==
+--===============1580547177664439104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 3b4cf29bdab08328dfab5bb7b41a62937ea5b379
     new: 5fc68320c1fb3c7d456ddcae0b4757326a043e6f
     log: revlist-3b4cf29bdab0-5fc68320c1fb.txt
 
---===============4285455715848354873==
+--===============1580547177664439104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ cd7209628cdb2a7edd7656c126d2455e7102e949 genetlink: remove linux/genetlink.h
 edaa34e68c8113f1625244689107567bf5bd1637 Merge branch 'genetlink-remove-linux-genetlink-h'
 5fc68320c1fb3c7d456ddcae0b4757326a043e6f ipv6: remove RTNL protection from inet6_dump_fib()
 
---===============4285455715848354873==--
+--===============1580547177664439104==--
