@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============5696870975272798328=="
+Content-Type: multipart/mixed; boundary="===============7936494767144273129=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 02 Apr 2024 23:28:30 -0000
-Message-Id: <171210051024.19940.12899269039855497168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 02 Apr 2024 23:29:04 -0000
+Message-Id: <171210054439.20205.5113155671322268225@gitolite.kernel.org>
 
---===============5696870975272798328==
+--===============7936494767144273129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: 4189b54220e5af15e948a48524b45d5ea2e5660d
-    new: ff9496dacf3485aa3f86d9b8e63d497541b36fa6
-    log: revlist-4189b54220e5-ff9496dacf34.txt
+  - ref: refs/heads/for-linus
+    old: 4ccf607cbe26d00d39bb72a8b67dd9f01d45419b
+    new: 8dd0b3e4fa7b3eb5216a0fc3d6a05af7c84dca0a
+    log: |
+         8dd0b3e4fa7b3eb5216a0fc3d6a05af7c84dca0a Merge remote-tracking branch 'asoc/for-6.8' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: a360fc970267ca96bfcd0081e3c3369adbe09e90
+    new: 36d464cba8bdfd268282a97e9fdc701aca2ed8cb
+    log: revlist-a360fc970267-36d464cba8bd.txt
 
---===============5696870975272798328==
+--===============7936494767144273129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1712100508 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1712100506-766af491f28b97f871ddc0d4d6aadcbaf69328ed
-
-4189b54220e5af15e948a48524b45d5ea2e5660d ff9496dacf3485aa3f86d9b8e63d497541b36fa6 refs/heads/asoc-6.10
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYMlJwACgkQJNaLcl1U
-h9B2rgf+KBNQ/HOqQ8Rct8AxMsvssMfRfbV/ZRo8/tfLWwvoFJcVQMXj4+zTBAIw
-i1W2Fj0Iu2yxgBXVGN526/8PJyddI+pUu2QcDyfp0hv7Zg1kPIJN8ZUYb+5m7lQO
-c+Ei4qeyPzbV5R9W084okaEK/kdTtXsZQNi1VbExMOMUSPmptMTBePezThUb7Z1w
-BsJ6iNdvrolypArFVS5ReoA8sJ+eL1YWxyZVynN4Vej9H0AeZ++S2oQAIE9gMpx9
-CUiZ2Oe5WoziZISog5PP2EzjH9kHDo4Q9t4wwyHxol6yE5w+V8ZjL31+XZifNhxP
-Rf8xy0k+CicRtdTf2GpW2vJ0W2CdKQ==
-=+D4w
------END PGP SIGNATURE-----
-
---===============5696870975272798328==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4189b54220e5-ff9496dacf34.txt
+Content-Disposition: attachment; filename=revlist-a360fc970267-36d464cba8bd.txt
 
 08ea486a61451189b190c7b89e406b889cf693fa ALSA: control: Introduce snd_ctl_find_id_mixer_locked()
 897cc72b08374c1224a9ded03c82dfc8e41f80c2 ASoC: soc-card: Use snd_ctl_find_id_mixer() instead of open-coding
@@ -78,5 +59,7 @@ f0caa4fc244ca739ce6d12168aa588c412c81190 ASoC: SOF: ipc4-topology: Save the ALH 
 dbc93a554fcec8369a504e098726f0d44175c29c ASoC: Use snd_ctl_find_id_mixer() instead of
 d62d62109f939877863581aa59b8195a1ae55d37 ASoC: SOF: Intel: improve SoundWire support for
 ff9496dacf3485aa3f86d9b8e63d497541b36fa6 ASoC: SOF: cppcheck fixes and debugfs addition
+8dd0b3e4fa7b3eb5216a0fc3d6a05af7c84dca0a Merge remote-tracking branch 'asoc/for-6.8' into asoc-linus
+36d464cba8bdfd268282a97e9fdc701aca2ed8cb Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
 
---===============5696870975272798328==--
+--===============7936494767144273129==--
