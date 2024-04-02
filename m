@@ -1,30 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4035923846409333133=="
+Content-Type: multipart/mixed; boundary="===============8288047208548181965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 02 Apr 2024 09:15:44 -0000
-Message-Id: <171204934408.21393.6536026599801783537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Tue, 02 Apr 2024 09:29:49 -0000
+Message-Id: <171205018996.29716.1352524737338482573@gitolite.kernel.org>
 
---===============4035923846409333133==
+--===============8288047208548181965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: f752a52d34cbdcb288ae01ace6b66baa2bbb547f
-    new: 782f4e47ffc19622bf80b3c0cf9cadd2b0b9a644
-    log: revlist-f752a52d34cb-782f4e47ffc1.txt
+  - ref: refs/heads/master
+    old: 7683cf29bec6134fd90330e19db59f3465c7ac7c
+    new: 8a5076d03555d412a898f91ba3db257233fc4c83
+    log: revlist-7683cf29bec6-8a5076d03555.txt
+  - ref: refs/heads/next
+    old: fbcb719ebd178a8356851dac407385cc4979da37
+    new: a31e004a082c9eb21f465a657a1fc56c85e74e6d
+    log: |
+         3cdce0b531fbf6ad1d06b52c49b191a5b18d59ea arm64: dts: renesas: r8a779h0: Add remaining HSCIF nodes
+         0833ec2fc4b1f01a82a83967a6386a0579a85898 arm64: dts: renesas: r8a779h0: Add SCIF nodes
+         20f4b85a26a58258611dcffe81bef99ce306bbbc arm64: dts: renesas: gray-hawk-single: Add second debug serial port
+         a31e004a082c9eb21f465a657a1fc56c85e74e6d Merge branch 'renesas-dts-for-v6.10' into renesas-next
+         
+  - ref: refs/heads/renesas-dts-for-v6.10
+    old: b320e8c5634ee62d4849400a9ea48542aa980758
+    new: 20f4b85a26a58258611dcffe81bef99ce306bbbc
+    log: |
+         3cdce0b531fbf6ad1d06b52c49b191a5b18d59ea arm64: dts: renesas: r8a779h0: Add remaining HSCIF nodes
+         0833ec2fc4b1f01a82a83967a6386a0579a85898 arm64: dts: renesas: r8a779h0: Add SCIF nodes
+         20f4b85a26a58258611dcffe81bef99ce306bbbc arm64: dts: renesas: gray-hawk-single: Add second debug serial port
+         
+  - ref: refs/tags/renesas-devel-2024-04-02-v6.9-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 3187cc9f3ab3c007bcc3a16cb31e6e3dc042680a
+  - ref: refs/tags/renesas-next-2024-04-02-v6.9-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 78ea25bd12f7bc3c5233adb8f31865117963f8bd
+  - ref: refs/tags/v6.9-rc2
+    old: 0000000000000000000000000000000000000000
+    new: eb285c4e8b2d05185325214894357eb2275f972e
 
---===============4035923846409333133==
+--===============8288047208548181965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f752a52d34cb-782f4e47ffc1.txt
+Content-Disposition: attachment; filename=revlist-7683cf29bec6-8a5076d03555.txt
 
 16e87fe23d4af6df920406494ced5c0f4354567b nouveau/dmem: handle kcalloc() allocation failure
 767712f91de76abd22a45184e6e3440120b8bfce scsi: ufs: core: Fix MCQ MAC configuration
@@ -416,9 +442,10 @@ c40845e3195d074b34f8f8e400e28c9403a06588 kbuild: make -Woverride-init warnings m
 18737353cca01db58bb62256338cbb820c310bd7 Merge tag 'edac_urgent_for_v6.9_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 7e40c2100c87e8f11c270b4ddbe0bf8534dcab21 Merge tag 'kbuild-fixes-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 39cd87c4eb2b893354f3b850f916353f2658ae6f Linux 6.9-rc2
-9164d6758af238db10f084930fb22ffe63ef3d5a Merge tag 'v6.9-rc2' into gpio/for-next
-39c9049770f8b5911beed49250d7c6b135685ebc gpiolib: use dev_err() when gpiod_configure_flags failed
-a261e208e137f3ae4cd44dffd4aab011457420e7 Documentation: gpio: fix typo
-782f4e47ffc19622bf80b3c0cf9cadd2b0b9a644 gpio: cros-ec: provide ID table for avoiding fallback match
+3cdce0b531fbf6ad1d06b52c49b191a5b18d59ea arm64: dts: renesas: r8a779h0: Add remaining HSCIF nodes
+0833ec2fc4b1f01a82a83967a6386a0579a85898 arm64: dts: renesas: r8a779h0: Add SCIF nodes
+20f4b85a26a58258611dcffe81bef99ce306bbbc arm64: dts: renesas: gray-hawk-single: Add second debug serial port
+a31e004a082c9eb21f465a657a1fc56c85e74e6d Merge branch 'renesas-dts-for-v6.10' into renesas-next
+8a5076d03555d412a898f91ba3db257233fc4c83 Merge branch 'renesas-next', tag 'v6.9-rc2' into renesas-devel
 
---===============4035923846409333133==--
+--===============8288047208548181965==--
