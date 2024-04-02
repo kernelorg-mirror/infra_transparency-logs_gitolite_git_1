@@ -1,27 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 02 Apr 2024 21:18:46 -0000
-Message-Id: <171209272638.22680.13722274848054933974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 02 Apr 2024 21:19:32 -0000
+Message-Id: <171209277244.23036.12141944363386168309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: e57217593c9aab88d58862665eb289fe8431afab
-    new: 4ccf607cbe26d00d39bb72a8b67dd9f01d45419b
-    log: |
-         4ccf607cbe26d00d39bb72a8b67dd9f01d45419b Merge remote-tracking branch 'asoc/for-6.8' into asoc-linus
-         
-  - ref: refs/heads/for-next
-    old: f3295f043365a3a752e8ce2bc1c73a32718a13db
-    new: a360fc970267ca96bfcd0081e3c3369adbe09e90
-    log: |
-         4189b54220e5af15e948a48524b45d5ea2e5660d ASoC: dt-bindings: fsl-asoc-card: convert to YAML
-         4ccf607cbe26d00d39bb72a8b67dd9f01d45419b Merge remote-tracking branch 'asoc/for-6.8' into asoc-linus
-         a360fc970267ca96bfcd0081e3c3369adbe09e90 Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
-         
+  - ref: refs/heads/v2_20240401_rf_asoc_use_snd_ctl_find_id_mixer_instead_of_open_coding
+    old: ef7784e41db73f3d31ce545227ebba4483479a26
+    new: 0000000000000000000000000000000000000000
