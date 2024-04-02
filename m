@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 02 Apr 2024 14:15:04 -0000
-Message-Id: <171206730474.30175.11757632162407674664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 02 Apr 2024 14:15:18 -0000
+Message-Id: <171206731862.30348.14612352459246877645@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 2612a5bbef5e53d7d92ce8c4eec42e06c229d467
-    new: 27d4eae795475a2dc71eeeb53979c241069d0458
+    old: 9dc182c58b5f5d4ac125ac85ad553f7142aa08d4
+    new: 965c6167c93f3fac53e25807f83c07e87b3c085a
     log: |
-         27d4eae795475a2dc71eeeb53979c241069d0458 Add test case for creation/teardown of memory mapped provided buffers
+         965c6167c93f3fac53e25807f83c07e87b3c085a selftests/bpf: Using llvm may_goto inline asm for cond_break macro
          
