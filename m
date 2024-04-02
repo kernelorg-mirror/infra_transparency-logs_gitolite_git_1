@@ -1,56 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============8100203779270903275=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 02 Apr 2024 06:41:49 -0000
-Message-Id: <171204010961.4497.11884636342901197332@gitolite.kernel.org>
-
---===============8100203779270903275==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 02 Apr 2024 06:42:23 -0000
+Message-Id: <171204014304.4802.12896061732789722796@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 70c1c974b69674951bf9618caff6ac5135a1f855
-    new: 637e31cdb269545d0304fcb3041addd22d5f46a4
+    old: 3f4857f7b5d6f21ebcd9dacba6df49bc79a5ca10
+    new: 2722b40012740372daf3585b7c071fcbede13359
     log: |
-         637e31cdb269545d0304fcb3041addd22d5f46a4 update some annotations for greg for 6.7.3
+         2722b40012740372daf3585b7c071fcbede13359 pam_lastlog2: link against liblastlog
          
-
---===============8100203779270903275==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712040106 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1712040106-0e72ef1d908131d4fd513161319ee6e8f48b18d2
-
-70c1c974b69674951bf9618caff6ac5135a1f855 637e31cdb269545d0304fcb3041addd22d5f46a4 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYLqKobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wP0P/0Bmd5eZVPYEmtIXF9VK
-1v+bfbOnhOkcS0MIAxVnN3Hnp2reZ82bR8gnH4ZaKqohBb0otqRSx9YihJv+vjGF
-iOk3xQgYAPH35qHJ4UclWaE1MZXonf6d25cKMSGlQfpWVTiTu78VxlqBD87YjlKa
-lPvkj+5Wpu+a2vkMAe3W7NL96TpSNingyiwCczP6K0KXCqzvC4GKx1V9KdueChzm
-c+67U405+Jq2Hx7GR1U9QI8Xf/mWyj34mKTQpgTogGeP344yIEQxAWl/XN8/7Z61
-604dxf5AZGB0VqfnKp3VGHKY1LXgRrPmBjBB+5ohG9mpk7TFy9jNXlAbhxmy/EOb
-uPAfAHu8ezvFfsLV3jzSg2M8RCrzcJ+aUdQQcv7LQy2nOtR5cEIkpYb80Q0d8gUT
-IRBWGJnOCfXST/9sgCmEwRHabvVokUHTqYM5MGiYtscTY1ueQY+ASeSoKJmYdZu+
-4s4WZNcTGaEd7B+uhnB+4v/0vVZKE3X+WGVyXoOp82HpqPp/sxYJmsZgYero1pF8
-4NTS/T3C2PMw59Y5QbxfotObVVq3q4lUZK8oQXOOn6FHqTHoBPPHQlzjjP1nLO26
-8UHT1AgSoCwd6xYKHCFmu91kf4M+Yd5uEewgCAAvH+i7JJiqaQpWBNxJrEoY+pfL
-gQbn5tWEc7egzRp350VWX6yd
-=LN+X
------END PGP SIGNATURE-----
-
---===============8100203779270903275==--
+  - ref: refs/heads/stable/v2.40
+    old: c1c1ab8b8e67e04ee293d4cf5679430a5b174bb8
+    new: 08debe8f35d5111f58420fd015e7987bc1ce38e6
+    log: |
+         674c4456ba6c86fbbf154a73043833130163d04c README.licensing/flock: Add MIT license mention
+         5e981e3e635f6635e622430999d019bbcbf9aed9 docs: add COPYING.MIT
+         b126dea5a356bdb7f94675eb1b68c69f83cd8bcf libuuid: (man) fix function declarations
+         597b78f0cac7a2379208834675d1e199b1e9e32a meson: Don't define HAVE_ENVIRON_DECL when environ is unavailable
+         871c24b8640a182acc17c82882062378b2293536 autotools: distribute pam_lastlog2/meson.build
+         bf2a125606839a75e99dd64defdf6fef816fc3c5 meson: respect c_args/CFLAGS when generating syscalls
+         4a04b22ba57f9e176bf50fe05bae213326a98419 libblkid: Fix segfault when blkid.conf doesn't exist
+         08debe8f35d5111f58420fd015e7987bc1ce38e6 pam_lastlog2: link against liblastlog
+         
