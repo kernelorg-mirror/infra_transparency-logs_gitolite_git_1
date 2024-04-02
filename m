@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7606379395999523275=="
+Content-Type: multipart/mixed; boundary="===============7784297939056139986=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Tue, 02 Apr 2024 19:25:22 -0000
-Message-Id: <171208592299.2389.14613511698175844762@gitolite.kernel.org>
+Date: Tue, 02 Apr 2024 19:25:31 -0000
+Message-Id: <171208593131.2520.873779584635483816@gitolite.kernel.org>
 
---===============7606379395999523275==
+--===============7784297939056139986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/devel/pahole/pahole
 user: acme
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/btf_reproducible_build
     old: 0430bbb66dd69404077062a1c428c866545abeb2
     new: c751214c19bf8591bf8e4abdc677cbadee08f630
     log: revlist-0430bbb66dd6-c751214c19bf.txt
 
---===============7606379395999523275==
+--===============7784297939056139986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ dbeface25bcc704f609c32038ffb40c7e06a7cc8 core/dwarf_loader: Add functions to set
 4451467ca16a6e31834f6f98661c63587ce556f7 pahole: Encode BTF serially in a reproducible build
 c751214c19bf8591bf8e4abdc677cbadee08f630 tests: Add a BTF reproducible generation test
 
---===============7606379395999523275==--
+--===============7784297939056139986==--
