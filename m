@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7829198481689604218=="
+Content-Type: multipart/mixed; boundary="===============8990911226633069971=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 02 Apr 2024 07:50:28 -0000
-Message-Id: <171204422873.23230.4434944812124833211@gitolite.kernel.org>
+Date: Tue, 02 Apr 2024 07:51:49 -0000
+Message-Id: <171204430959.23781.1005182443073648451@gitolite.kernel.org>
 
---===============7829198481689604218==
+--===============8990911226633069971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: f8199735e681a90a1c8d8e09b4c2ba84ae769f6b
-    new: 5bf6b446c4b407a5b34c32d0a27bdbf6221706c8
+    old: 5bf6b446c4b407a5b34c32d0a27bdbf6221706c8
+    new: d358e4b2789308581f75b560d1b354d1fc21b95f
     log: |
-         5bf6b446c4b407a5b34c32d0a27bdbf6221706c8 drop serial-8250_dw-do-not-reclock-if-already-at-correct-rate.patch
+         d358e4b2789308581f75b560d1b354d1fc21b95f drop scsi-sg-avoid-sg-device-teardown-race.patch
          
 
---===============7829198481689604218==
+--===============8990911226633069971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712044224 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712044308 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1712044219-4fc9ccfde3cb9df7b05be8af99fe3d8ef71556a3
+nonce 1712044303-4757f74b444107bb6ca85df80237e2902b12c727
 
-f8199735e681a90a1c8d8e09b4c2ba84ae769f6b 5bf6b446c4b407a5b34c32d0a27bdbf6221706c8 refs/heads/master
+5bf6b446c4b407a5b34c32d0a27bdbf6221706c8 d358e4b2789308581f75b560d1b354d1fc21b95f refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYLuMAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tsMP/jg4nMMP8d+ejiphQVjC
-xS1VkHqPs4JBBzcqNGj9wiChWw9kL6vdVEZAKwIiqj+M6zTMZDHaTSq469MKorVo
-Et+UC6jgMTbYvmsSVDC5HszngUH0Jsn5HG52TE3lf3geUlnrIEz7UOY4Ds7M+8Qf
-dX7zkMXEyojMgwWY8ggG4uNlTgIpycjL6LoFDjEBmeTs/tXvSlrlkK/REsPHJKGT
-SHHNTOLkHOIV9RKBcuLRy1shvYMETeiOBk1GCRlmqOs4k/ZPWfvTm/6+G5D/ejsu
-Y4Dj1OiMncr9xWm9I7yB+athpPdS/0CnWONq3eEKmF1Y1b8h3ceyjA3wdeT9cHLT
-wtgooK3n0afCHwAPWSW/tRiCyVDYl6wNFihbZDVQpS44YCg4n2LTraP1QUhEor2P
-l4Sg6YFjRDnKVBoTsUh2BC9eOy1E8L1Da+0Dwn7jP/Av5bWo1JEv+2T+RUO4usie
-JYaNOR0qIok/t8lMnvwtgdskdKcM9JDnVlHsMmUlIW+wLNUdj9xw9Fjexw0Newds
-wviL0H0aivvznipe7hnMfsVxx6NpOCRkGcrstQAbe43qi1MovA2vtDITOUykAn42
-psOLh/xopfFUR9nRb6iPxMsMgsBlOtJ5hrSwPlLqqo3unXgkP1wfakPgHfGuA3Vy
-YR7NBg2e3HB1Azeyhj5Rp05A
-=vz4y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYLuRQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d6YP/itkEh85QYy7eWbvXfkm
+m6tutld3pQ/us3Uxnkbs8vZ2K1uR3/qsLYcpIRJOElq3Hoo6OXM16ItwQdmLahju
+tG9yQwOXYXiNujQBJuH+zGUaWxIEqcaH07YgYmo9VM0gZgPmqSGPHeKidE1uAQHC
+ByNc3TJvRZ0wZHBm7igUstjbD6TFqDd+K1s9cQuQUTWOxImSaKK0VUzsADh4mWZk
+nf3TilStPUzpvClEzsHs3OdC/NmHy5At4KEToaX1GdUmWAYIfqR1G0FQ48MTkpJ2
+HPunZrE+km7kWO/r0LYh19RTHEmYMttqZzDzQKU/AGnOPqdUzz9Yn7pEbxYHiuMr
+8nqsZz85FdqgjWCVzFmTtGojUc6udYPFzxHRzJ5PalOPkdA+vRiMhn6pH3wi0kM8
+/FII42KKtAoJvM0KlGfHQieoVVLWRDoHMjmzSD1a53jrcX20AwaokTjMkTgaLlGD
+dZRokOMnMCYGiq/xiCHoP1XfVaPcalVlJKIiVUxtKKsTzkeHHFIHgGy4V/rFQnRV
+514BCjcHPuoH89JhQNmzZxlLkCSA/YU1BcY3fAJPug5DtwpC/kOPFy3RA34B+oIR
+pIlVQVaWW7MElJhO4CNMgh5/oe1zN+rpgWfHPH3yoxqCoE9wLdJAtwkbcGkY+7Sx
+GigXfSJDN81cCgJdzLQiF0c1
+=2T7Z
 -----END PGP SIGNATURE-----
 
---===============7829198481689604218==--
+--===============8990911226633069971==--
