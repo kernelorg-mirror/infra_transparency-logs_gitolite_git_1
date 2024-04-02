@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0374980695081648354=="
+Content-Type: multipart/mixed; boundary="===============1140438270692788301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 02 Apr 2024 01:48:42 -0000
-Message-Id: <171202252239.12926.13064217843029930933@gitolite.kernel.org>
+Date: Tue, 02 Apr 2024 01:48:46 -0000
+Message-Id: <171202252687.13055.14610536852608654239@gitolite.kernel.org>
 
---===============0374980695081648354==
+--===============1140438270692788301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: c577d32854396cc44fd2ba78f9001f8248da48c4
-    new: 3b754e18b1931d1624eb768b42126beb4f21e950
+  - ref: refs/heads/6.10/scsi-queue
+    old: e5abf748fcd5ab162743499f010531b9f45e5646
+    new: 0ff10cb7f81818120b15ddd5d24e09c4af31e04d
     log: |
          0ff10cb7f81818120b15ddd5d24e09c4af31e04d scsi: libsas: Fix declaration of ncq priority attributes
          
 
---===============0374980695081648354==
+--===============1140438270692788301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1712022509 -0400
+pusher 75C5DE3D 1712022525 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1712022509-d9ef8dd4e30480a295d40654a5a8293550b58be6
+nonce 1712022525-bf614a03e516ddf1d989037262f3f2903b856414
 
-c577d32854396cc44fd2ba78f9001f8248da48c4 3b754e18b1931d1624eb768b42126beb4f21e950 refs/tags/mkp-scsi-queue
+e5abf748fcd5ab162743499f010531b9f45e5646 0ff10cb7f81818120b15ddd5d24e09c4af31e04d refs/heads/6.10/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYLY+0ACgkQ7ulgGnXF
-3j3UkA//XfsORes8ovkdYZDOXM/n97JgY2/5j4wuDhIyzvqImAoIaM65S7TDXbWt
-RFnuydVvvB/ItLsgSzSq8uvO/qIoU2OFDVtmRLujyGtbHfpuAk8D97B/birdAKm/
-fJd9VLsiMpq01zHJQf9dReVZPFYWPtovtTY8AITnJZWcjhPojhk4Bw2sj10WvSkD
-nYN+gTcLQw40QdFKIY3RmP4ZbyS7V2ATXV5yPE/xgRqAxraAsdSof/OXrrnu7HwV
-G9NvBNEq7I2dkNm8FlefUq6ni0YN5v1pqapEKhtPn5xO19a7Ul9dqjZNdk66TXK2
-yUTeFdKeXtV4nKWQRlDEJCZb1oR1QMZVNR5RTgX7NRR3LDeUH3GjLNMbGyIfxmkh
-P5sKd7VPzhPavdsdELatZ2aN8ABryzMcsHigPyOolPp4B82wV2ll9JV0RKPJuO7X
-j3wYo4G5NOEXQJLN6Z6WIoq9/IhFOfK10WG7pZ3mnHGMQb4YmPU9RoZ8kc4GSSj5
-cdRaBgCQ+P9XRGGwIyyRVdBegxIVZBXuPx50E/L6tNWpS9LyK8BZU7tEpo3/8zln
-7Ha5SFlV5yJOG4s2rMoBuFd+h2T8nDwlFQrU+EyrUludh85hUaabc72Q/hF4nbIC
-3jGCtJzRagNfhMCpsmHITj4DPHfj18L6S0kuKhjJ8EAt3tSS+Bw=
-=hBeo
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYLY/0ACgkQ7ulgGnXF
+3j1VFw//cFnayMhOFLjOt9N7d61cI150HBNRaPvLXqcA1Otuu7cxo5uNn1z9SWmU
+OBZWSqg9fkHj7OTXnfdSZ9w72XBYvI8cz9IbJiFP3c1AHRwGE9xIperpOEgaq+ag
+8SN/Q9YSOVLHqyx5x+fS4Zrpf9HqsLcKDFzXEg2jyaiQnEfSGGYvkjRdc/knZ4SJ
+HCmuBNE0Td5G+pXW+8RKn5M+2BYuy6B6er2tgG76ufa6PpkvlBQoWQicrp3+dgbg
+mtk9sA6o/1xhQZd1bwa41/GpfJt0EkH0ku5PrINCl1FdckHDghITJZoztM8Qxhqi
+ICXi2GPnaYPvSDd03ka1ch7nHjZld4/4k45vIomj+rxIplvWWWUBWsESwzkvZsPx
+JCUiAz+QkeVvCDPckHTPo6J0alZOQ32DHXUjKAwo3skbBUzJjLWg08m3osuCTvMO
+qKOkZa6Z5lUCE94rltBceuH5W4LMmvKpjCb71SmsD1INH2SoI4cXXH0VnMkr9L+W
+5l4g3z6Q8KEca7sQxnrsGaghliGU4TXnnYPXZ+48AlTNFDfZecQiHpUkr+oXog1X
+KkTdiVtc3RVmWF3pId93edbQNn8f5o6BDT94YdDdGxDN1q8a5WwT1DV5SgJUgXLJ
+51ACpZz6RJA+N4m2IsCMl/Exvm6rU522grCLkmcb7DuO5Woa7CU=
+=mmS7
 -----END PGP SIGNATURE-----
 
---===============0374980695081648354==--
+--===============1140438270692788301==--
