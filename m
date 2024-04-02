@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 02 Apr 2024 13:24:39 -0000
-Message-Id: <171206427926.23484.9600435037981750057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/ieee1394/linux-firewire-utils
+Date: Tue, 02 Apr 2024 13:25:48 -0000
+Message-Id: <171206434804.25562.13144989969702069455@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/utils/ieee1394/linux-firewire-utils
+user: takaswie
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 37512e53f665a68d8613af8eabecb5e5231b24ba
-    new: 417d46e7ad2e7d5abb999eaf63150ec1f9b3a006
+  - ref: refs/heads/main
+    old: bdc91f8b4b9ed2f3af5c98032a29022a32cae5b4
+    new: 6d916f959d54e8e8e797fcb5b054b630e0f570ad
     log: |
-         0059721f55b72dddfbd796f1ea3989578bd0be21 clk: scmi: Allocate CLK operations dynamically
-         31b406b12803d9b9cf3ef7c1839686e229cf0ea4 clk: scmi: Add support for state control restricted clocks
-         ca180f05a465e7d9cc9af4e55571d3833f6c6822 clk: scmi: Add support for rate change restricted clocks
-         bae094b7d078946ddc03168de8874fe88be86706 clk: scmi: Add support for re-parenting restricted clocks
-         45752717c306aacf75c3841623ec615557addc0b clk: scmi: Add support for get/set duty_cycle operations
-         417d46e7ad2e7d5abb999eaf63150ec1f9b3a006 Merge branches 'for-next/ffa/fixes', 'for-next/scmi/fixes' and 'for-next/scmi/updates' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+         cd973dbd5785c19f3a3967360906910c11b24a93 lsfirewirephy: replace URL for PHY database page
+         5e6899b60b68aa540206052a36ce0092603bae3b ci: use actions/checkout@v4
+         6d916f959d54e8e8e797fcb5b054b630e0f570ad update README for version 0.5.1 release
          
+  - ref: refs/tags/v0.5.1
+    old: 0000000000000000000000000000000000000000
+    new: fe19de48edf58badf96fc801da510cbc12da47e8
