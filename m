@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5685707844465071062=="
+Content-Type: multipart/mixed; boundary="===============1063716493512045960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 03 Apr 2024 22:14:35 -0000
-Message-Id: <171218247541.5727.3915907992342122212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 03 Apr 2024 22:14:57 -0000
+Message-Id: <171218249738.5908.17187604132747964036@gitolite.kernel.org>
 
---===============5685707844465071062==
+--===============1063716493512045960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: b6347cb5e04e9c1d17342ab46e2ace2d448de727
     log: revlist-4962e1949608-b6347cb5e04e.txt
 
---===============5685707844465071062==
+--===============1063716493512045960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ ad399baa06931a62d1166d215eaad6f3b0dcd3d5 perf annotate: Use ins__is_xxx() if pos
 baa2ca59ec1e31ccbe3f24ff0368152b36f68720 perf build: Add LIBTRACEEVENT_DIR build option
 b6347cb5e04e9c1d17342ab46e2ace2d448de727 perf annotate: Initialize 'arch' variable not to trip some -Werror=maybe-uninitialized
 
---===============5685707844465071062==--
+--===============1063716493512045960==--
