@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 03 Apr 2024 16:00:42 -0000
-Message-Id: <171216004263.7116.5290076932116550283@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3077221582756344540=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 03 Apr 2024 16:03:24 -0000
+Message-Id: <171216020407.8216.10600084285006447053@gitolite.kernel.org>
+
+--===============3077221582756344540==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 6c22d54d456ef5f2a51c042fc446e1c8bffe0399
-    new: c2e0b45281c97cc1c3f4cf8dcd9cdc2675c7c351
+    old: 28d0d8020a08ba146a30a196a60baf56a6bd4931
+    new: cd72bf9d6003171118f62e88eaa646147e3f0855
     log: |
-         ab2cb20908fe6d13a7a30da5746727846de942a2 Fixes for 6.8
-         ffc1c2fea2e5b276f4d4d6b7973e00eedf99492b Fixes for 6.6
-         fe504f7158bcd1018ab92a765ab0cdbf2e045363 Fixes for 6.1
-         9712bec5a7c800c69e9f3004a28d3e4abdab54f0 Fixes for 5.15
-         dc7572bcccafa012a744b4cbfa9b453ad527bee5 Fixes for 5.10
-         e5bbe19aa54d705d7caad5dee7f0a44ee5de817b Fixes for 5.4
-         c2e0b45281c97cc1c3f4cf8dcd9cdc2675c7c351 Fixes for 4.19
+         cd72bf9d6003171118f62e88eaa646147e3f0855 cvelistv5 update
          
+
+--===============3077221582756344540==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712160199 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1712160199-f3860f87c64b69ffcc79d4330eb5217a11422afc
+
+28d0d8020a08ba146a30a196a60baf56a6bd4931 cd72bf9d6003171118f62e88eaa646147e3f0855 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYNfccbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KasQALK9g38Jtku5BWysEFm5
+pvxucLbd4SkpDBBYdToTXKmE9nmaRk4wCKptBccJjW6kVowL9U+PmQ7jJNzkiQLN
+WfPFqH/TjQOO1paHc0YbqY9p7kD/4xXoJYnuIMt9e7EpQ0Gd6dD7SFS66hiHS0R3
+jEUrD483QklBZiiQHvlr59MlW4LvfVH1j1YxmycLeUdwt8s0j6DRVJVJyeN4mQwB
+Lam8pvd5dbfBgPr021ek7euRospVckxNXFTl6YDMO2xadiDMF6ZAH5FMj8MvG75t
+1Zp0OTzTk1U4mlt+Iivr4GF5cJzJORST4Yd8UMrzclUTVK5766+a+p8a87N6KDlL
+WYxdeeqMNfuGQQ//cdrwMMmELD5J40F38glcpf3cjP73WbGppJKswbAL2vjX3Uyd
+EFBfZb6SOnBHyEo47nyUwTbFef4SFjFOYXAQ01LkSwktkjDowTA6d7eAE52DGPEW
+9naePfv8f7C1KMhZLn+QL58fPl9n3n8kwItcc1DWvAVjtoPbhH7Z3f7tX6v8ldAZ
+Ejn9ziOwqitxqDuAerkIfpgvAsnv7DcZ2+iYmUyI7HxQS7gcqIwKm5bNjj+rLrBQ
+Gn3VDGqiCImlakpH6n//NTBkRQZhiGxf3e4AEswsS8pEBae3+J/l7zQqBY/ka+2+
+Y9vbUqdQ23bQYwt5k0N1XpvD
+=S7/K
+-----END PGP SIGNATURE-----
+
+--===============3077221582756344540==--
