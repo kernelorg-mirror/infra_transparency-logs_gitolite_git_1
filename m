@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 03 Apr 2024 00:17:54 -0000
-Message-Id: <171210347426.23916.9415315561324686865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 03 Apr 2024 01:00:06 -0000
+Message-Id: <171210600658.22271.6512190479952229064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dev
-    old: 39cd87c4eb2b893354f3b850f916353f2658ae6f
-    new: 1c89beb9534dee8f41a47922b6382809c809506c
+  - ref: refs/heads/main
+    old: 5fc68320c1fb3c7d456ddcae0b4757326a043e6f
+    new: d88cabfd9abcd01c7729e5383919357da732ada9
     log: |
-         d690963ed8df8f1ea824edcaf25e6775bb53ad14 erofs: rename utils.c to zutil.c
-         7a7513292cc6f1bac55fa957051ab9f265e73171 erofs: rename per-CPU buffers to global buffer pool and make it configurable
-         1c89beb9534dee8f41a47922b6382809c809506c erofs: do not use pagepool in z_erofs_gbuf_growsize()
+         c278ec644377249aba5b1e1ca2b5705fd1c0132c net: phy: aquantia: add support for AQR114C PHY ID
+         d88cabfd9abcd01c7729e5383919357da732ada9 nfp: Avoid -Wflex-array-member-not-at-end warnings
          
