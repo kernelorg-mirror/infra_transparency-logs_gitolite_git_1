@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4169106230117663055=="
+Content-Type: multipart/mixed; boundary="===============4167720027446000141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 03 Apr 2024 16:19:16 -0000
-Message-Id: <171216115633.20302.4215777444650715055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 03 Apr 2024 16:26:35 -0000
+Message-Id: <171216159570.26112.8958240407651994101@gitolite.kernel.org>
 
---===============4169106230117663055==
+--===============4167720027446000141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: cd72bf9d6003171118f62e88eaa646147e3f0855
-    new: 9e69793a371a47ab1b1f7d907ffde6f7b175c38c
+    old: c2e0b45281c97cc1c3f4cf8dcd9cdc2675c7c351
+    new: 19ffe1250de9ca616d559a2280d14256de4d7f45
     log: |
-         9e69793a371a47ab1b1f7d907ffde6f7b175c38c reject CVE-2024-26701
+         062066f3c28c7e91d068a67a99776eff41af9236 add temporary review queues for 6.6 and 6.8.
+         b0afbd181e9d0297669964e648a52569dc1e29c9 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         19ffe1250de9ca616d559a2280d14256de4d7f45 fix 6.6 btrfs patch to play nice with quilt
          
 
---===============4169106230117663055==
+--===============4167720027446000141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712161155 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1712161155-463254c46fb2fac4a82dab56e7f0a16b607c843a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712161594 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1712161592-90f21607e42abbe4b3a7296c77729e128088f43f
 
-cd72bf9d6003171118f62e88eaa646147e3f0855 9e69793a371a47ab1b1f7d907ffde6f7b175c38c refs/heads/master
+c2e0b45281c97cc1c3f4cf8dcd9cdc2675c7c351 19ffe1250de9ca616d559a2280d14256de4d7f45 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYNgYMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ak4QAMOy2RJ0CxGmMja2yOMe
-q1rfhjumKhiu+0vWY9BTEXZ6vXk1VBO7tv2rsmBb+87h74OVQI+/3zW2zhL4/mUQ
-lp7cbJk0wj7H+Y1k9gQa6d+cQy3Fx+QRl0VXe+oGyGdQgijbkGO2aEsM4s5FQeWZ
-PnXNdBq1L9C46bhe+eNb2bb3fKb/XPvngV6e4Y+BUKE+zLe/CU3vcgIzNeUXS8lw
-OJv8Sb87kCeiqtldFmu3cAu7D4VRhN9PR1hHyhn5W+iweHkvUR5Wz42mt9qhYrsP
-3jJhqG62H+o5g7lnyvnzLIKCw9hu9KeKENfchU58eVAvRoFOs8Ct0X10si5VZOC3
-6V6hrW9yA/mJhhjqGeM59jAcOiNd3uiFuArdRtEXYbCkIT0uBxlPtPjQg2/BDwQ7
-35574a/jAjLHGFX2Qv9JiwSb4tCG39krfO1opRI0bxP50O2/y/h6SQrFzV9BJYoA
-pKdF0nEz9VXqSTZrgmKbAvTcTosRiXXEzcHeOeloWeRQ+m3ySlalI26KFTDVXL8s
-vAZyPQYztZmbdBjrG5ZOL/Mrj8o1ElB3irzLzzQRm3ZMqdyENkPUk5TlAmRdpQex
-zk4DxCSjsw5aBXn+aBOMY27i7W9Gh7f9VCfsZR8o/spQ8FSgtxbnLDsypkCfZOLJ
-C8HCBNht83/dXrsJmqa9nW1p
-=dk2x
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYNgzobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QFQQALmzlDVbmgfW4JoLySlR
+U+5GwjInXsHSsNyNDbVqnbU27NViDjtOIE6DQkFfGQUGrQWrG/aAXP4T4IRsSX7o
+Kkh+eFhdN6j8YDgQ99w8RJblW5CSg33NiqFWw2zmr4hyZ9wYTax3o6ZAPeqZi9t9
+m3Y27K6gIG97HrUesuRdjAEW1fMWJgbG/fnqiSeG2fj8w3+cZpAXuyoZh4krG6Xu
+vEPd9EmMt5WSQ+sp4ZspfqD3SXn7VkZ/IKdXmZhKQTzxLqBjPW2HQ/rIG74pe8VE
+g1a+LF+sqCKpGHwE91FlF523GO+RGA2OCvBJXHjteNV90MQgiUhU6eCl/+KL5mhp
+G+ktdx/f0D4qsmwrC1gYA4KCQyz2hEfdUG7TQ728twbRB6pEVq1GkHhKU5TAF1Sh
+rZUiM2coD87qivPe6Ql6nchfQfk7fRsDRoeu6URT/MR0nHd1+M1G31NUU/iqZhFq
+k4eH9tALm0bEGAnbO82bZ6yfDmdocVBWtQwB1/4ACM1pcdTc1R+ea3AcYd0jE/UH
+r91de4A//nUvDZmh/z2RcUG80XB+UbHLIdelA1CwDg6ounu0JbTvBcWW6/7OObv+
+wq8ETNVJAGy7SK5kXAAWg3t4Fx9RnbErJpm9gpPoikZXcg3aTcPRCKqpUXJXhApF
+pPtxP8lNXbQO4EIXIWsm82fC
+=IL/1
 -----END PGP SIGNATURE-----
 
---===============4169106230117663055==--
+--===============4167720027446000141==--
