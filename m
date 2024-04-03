@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8275680022081371670=="
+Content-Type: multipart/mixed; boundary="===============1852390165789585277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 03 Apr 2024 15:51:47 -0000
-Message-Id: <171215950759.32585.16254840932283534606@gitolite.kernel.org>
+Date: Wed, 03 Apr 2024 15:52:06 -0000
+Message-Id: <171215952654.304.8777568876095628071@gitolite.kernel.org>
 
---===============8275680022081371670==
+--===============1852390165789585277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 5fc68320c1fb3c7d456ddcae0b4757326a043e6f
     new: 34c58c89feb3eefaf64e9ddf69b7e0f7c807414a
     log: revlist-5fc68320c1fb-34c58c89feb3.txt
 
---===============8275680022081371670==
+--===============1852390165789585277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ ed4fb326947dc486f97c66168f6ac50f5d1efd19 gve: add support to read ring size rang
 834f9458f2fdb48dfb95976934c1594d086a956d gve: add support to change ring size via ethtool
 34c58c89feb3eefaf64e9ddf69b7e0f7c807414a Merge branch 'gve-ring-size-changes'
 
---===============8275680022081371670==--
+--===============1852390165789585277==--
