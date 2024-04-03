@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Wed, 03 Apr 2024 17:11:23 -0000
-Message-Id: <171216428387.28687.2726630187157487590@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Wed, 03 Apr 2024 17:14:29 -0000
+Message-Id: <171216446928.30190.18311266623350948388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/trace/ring-buffer-prealloc
-    old: 0000000000000000000000000000000000000000
-    new: 9d075d4dc5b36849ef23fd132764443511519ede
+  - ref: refs/heads/main
+    old: f740f5a165eb398322af1d2c56e0fcb90ac19c73
+    new: e67c9a73532af543573ffafd08a04e2d34579272
+    log: |
+         e67c9a73532af543573ffafd08a04e2d34579272 man: fix brief explanation of `ip netns attach NAME PID`
+         
