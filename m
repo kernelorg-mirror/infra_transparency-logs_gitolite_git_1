@@ -1,29 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Wed, 03 Apr 2024 13:13:49 -0000
-Message-Id: <171215002949.13765.5460520785338060093@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6210462347144672018=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 03 Apr 2024 13:13:50 -0000
+Message-Id: <171215003049.13842.2329233711105438038@gitolite.kernel.org>
+
+--===============6210462347144672018==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: d7476b0b91900adf3deb233085b0b6a00c9db4ed
-    new: 6cf256f63478db53df00f0c23c800e802cf0f0de
+  - ref: refs/heads/master
+    old: 83e18d04868103b3e65fd564ebf63fc682c8e3e4
+    new: 91ed56ff2e3900bee1c1fa5eee5276532e9d170b
     log: |
-         1d86c2b3946e69d6b0b93568d312aae6247847c0 arm64: dts: imx8-ss-lsio: fix pwm lpcg indices
-         808e7716edcdb39d3498b9f567ef6017858b49aa arm64: dts: imx8-ss-conn: fix usb lpcg indices
-         f72b544a514c07d34a0d9d5380f5905b3731e647 arm64: dts: imx8-ss-dma: fix spi lpcg indices
-         9055d87bce7276234173fa90e9702af31b3f5353 arm64: dts: imx8-ss-dma: fix pwm lpcg indices
-         81975080f14167610976e968e8016e92d836266f arm64: dts: imx8-ss-dma: fix adc lpcg indices
-         0893392334b5dffdf616a53679c6a2942c46391b arm64: dts: imx8-ss-dma: fix can lpcg indices
-         00b436182138310bb8d362b912b12a9df8f72ca3 arm64: dts: imx8qm-ss-dma: fix can lpcg indices
-         8f1360083796a873b6a7b5bb603e98c1e3559bc8 Merge branch 'imx/bindings' into for-next
-         4d16d92e58033832b7c9d9ee3864bc0a0e77a6b2 Merge branch 'imx/dt' into for-next
-         4647638473aa074f8828c2470aa076a7665582ea Merge branch 'imx/dt64' into for-next
-         6cf256f63478db53df00f0c23c800e802cf0f0de Merge branch 'imx/defconfig' into for-next
+         49a6ade2d1e805d1e6e2bcf8f8fcd568097fa069 drop gpio-cdev-sanitize-the-label-before-requesting-the-interrupt.patch for now
+         91ed56ff2e3900bee1c1fa5eee5276532e9d170b Linux 6.7.12
          
+
+--===============6210462347144672018==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712150029 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1712150027-719c3e9c6bb1a7ab23c810992fbc4dc6c234374f
+
+83e18d04868103b3e65fd564ebf63fc682c8e3e4 91ed56ff2e3900bee1c1fa5eee5276532e9d170b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYNVg0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RDYP/jqbkuLJEKUDmlef/qeW
+yIRisPUsdoiSDya5GDgswcTouuTjFRz6xfkWpNIvxruMk1Scvl6/4RAFNGCKnW+f
+mcSZ/0Hc5vZVc3PFm+JMErm0R0aGXXJUgIaq9xDdeOSPg6pxv0KOy/+HBiQ+Q8UM
+28xS6G/kEIpnkTCzLG+f+NknLaRPRem8D6kouLfEaE8MLI2yW780ZDDVMJpEq9aF
+nBHZPneZJjrAj2qVLT/3W4+L7UfOK8C11mFDrUYhab4zPDuOtoW+59PFw0EIrz2h
+d22cSZqHfoRz2x2Q5yEkRKZVFjbQ64qkabauIOonxLfSDCXoPmp9Sqrk7cLBNjeY
+nGcRvU0qLhQfDTHS0p+8Mvt2KoAQTjDS7pA9gm6Xv22kR+b+4PXzrakA10fa5XSj
+0KoLCyXN/cnhBit7HDG21Nf2YLx83IFhRzBpU/07eplw05OfZWLZzwyKCVm3u0cL
+Kn1vjMjjHcQ2naoVpqScSs5qQ9tOqo7cl7e6I1N1ph942Geujsiu/KrlP9O9Btwl
+ttTbiOfb61YbnzyAXjzHoyNqFM/eAfKmmjZ1EE0+dBNbNNQNB7AVtTr1jz0L0NEm
+Rbtjk4cKYgRhebq8UTALavGjqdj/fEWrhrn+IcX8HOwcMd6bv4v+g6SBdVXrmZhL
+gjgLpkwnepnMZMoS3j3o9Yw9
+=hUPA
+-----END PGP SIGNATURE-----
+
+--===============6210462347144672018==--
