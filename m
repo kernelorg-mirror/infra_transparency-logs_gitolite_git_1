@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8762466732326143558=="
+Content-Type: multipart/mixed; boundary="===============3101008168992687162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 03 Apr 2024 22:11:32 -0000
-Message-Id: <171218229258.4310.5638998030134667756@gitolite.kernel.org>
+Date: Wed, 03 Apr 2024 22:11:37 -0000
+Message-Id: <171218229788.4409.16924796530382978901@gitolite.kernel.org>
 
---===============8762466732326143558==
+--===============3101008168992687162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 394b3e3ead0d9fdcc1ef53bb893fdbe7bf1db3ac
-    new: 71b494e043d2cb567f4f4748bcb0b6fb7bc32a01
-    log: revlist-394b3e3ead0d-71b494e043d2.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: d1ef7a9ca867ab5c161d1647b2a8ec93a2ea155d
+    new: 39cd87c4eb2b893354f3b850f916353f2658ae6f
+    log: revlist-d1ef7a9ca867-39cd87c4eb2b.txt
 
---===============8762466732326143558==
+--===============3101008168992687162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1712182291 +0200
+pusher andi.shyti@kernel.org 1712182297 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1712182288-9355fe7483abbb70736d92a5ddc5a34c286d56b3
+nonce 1712182294-e5b09837d32ee56709ec1e86d68d7d34195e7c47
 
-394b3e3ead0d9fdcc1ef53bb893fdbe7bf1db3ac 71b494e043d2cb567f4f4748bcb0b6fb7bc32a01 refs/heads/i2c/i2c-host
+d1ef7a9ca867ab5c161d1647b2a8ec93a2ea155d 39cd87c4eb2b893354f3b850f916353f2658ae6f refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZg3UExYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u4tAA/0ccgrfPKwZPcZBooPK9IfDUudxP
-bKq9IivN290Bp52ZAQChpSvgS4AOocNQ56oOaABJapCzvkg0f/Yv55sLIdh8AQ==
-=LvgH
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZg3UGRYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uwEcA/1MMqrXQROjgL9hAP2Nsu94KM62A
+PueyEYCtvBnR/QCKAQCWSwvrs/EYpubCNDQk/lO+w0ODfRP18wguMXnnSl7uDQ==
+=NFwX
 -----END PGP SIGNATURE-----
 
---===============8762466732326143558==
+--===============3101008168992687162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-394b3e3ead0d-71b494e043d2.txt
+Content-Disposition: attachment; filename=revlist-d1ef7a9ca867-39cd87c4eb2b.txt
 
 16e87fe23d4af6df920406494ced5c0f4354567b nouveau/dmem: handle kcalloc() allocation failure
 767712f91de76abd22a45184e6e3440120b8bfce scsi: ufs: core: Fix MCQ MAC configuration
@@ -197,7 +197,6 @@ b45f20fa69cedb6038fdaec31bd600c273c865a5 drm/xe/device: fix XE_MAX_TILES_PER_DEV
 a8eb93b42d7e068306ca07f51055cbcde893fea3 fbdev: Select I/O-memory framebuffer ops for SBus
 f23a4d6e07570826fe95023ca1aa96a011fa9f84 scsi: core: Fix unremoved procfs host directory regression
 c2ddeb29612f7ca84ed10c6d4f3ac99705135447 genirq: Introduce IRQF_COND_ONESHOT and use it in pinctrl-amd
-d1ef7a9ca867ab5c161d1647b2a8ec93a2ea155d i2c: i801: Fix a refactoring that broke a touchpad on Lenovo P1
 c214ed2a4dda35b308b0b28eed804d7ae66401f9 scsi: bnx2fc: Remove spin_lock_bh while releasing resources after upload
 9e81e329508576b499b5c47ab106b5fa45ce96d9 irqchip/armada-370-xp: Suppress unused-function warning
 cc2699268152d8e0386a36fe7c9271d7e23668f2 dpll: indent DPLL option type by a tab
@@ -437,13 +436,5 @@ c40845e3195d074b34f8f8e400e28c9403a06588 kbuild: make -Woverride-init warnings m
 18737353cca01db58bb62256338cbb820c310bd7 Merge tag 'edac_urgent_for_v6.9_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 7e40c2100c87e8f11c270b4ddbe0bf8534dcab21 Merge tag 'kbuild-fixes-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 39cd87c4eb2b893354f3b850f916353f2658ae6f Linux 6.9-rc2
-79a52d6960a22c15033aa4e2e75e41c4da368eef dt-bindings: i2c: nxp,pnx-i2c: Convert to dtschema
-e5728724f22dc86b85629ac6f54d23e356919468 dt-bindings: i2c: renesas,riic: Document R9A09G057 support
-673e11e621fd7086714fd71d8dfb5d1a01b5fc84 i2c: riic: Introduce helper functions for I2C read/write operations
-468ddcdcffe765788291e4f1fe1b10ba33ad3e83 i2c: riic: Pass register offsets and chip details as OF data
-e7a6262142598ed5d98b64f98bf3fd551b2aebe4 i2c: riic: Add support for R9A09G057 SoC
-8f457265b6b0ed7fb9c207e237e793c62b6411a6 i2c: viperboard: drop driver owner assignment
-5b62f40a90cda203b35cd72bf885a3ddd9be1c43 i2c: i2c-qcom-geni: Parse Error correctly in i2c GSI mode
-71b494e043d2cb567f4f4748bcb0b6fb7bc32a01 i2c: i801: Call i2c_register_spd for muxed child segments
 
---===============8762466732326143558==--
+--===============3101008168992687162==--
