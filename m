@@ -1,69 +1,93 @@
-Content-Type: multipart/mixed; boundary="===============2796213726589417453=="
+Content-Type: multipart/mixed; boundary="===============2440634201671930905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 03 Apr 2024 12:39:39 -0000
-Message-Id: <171214797954.20779.4354009101863751654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Wed, 03 Apr 2024 13:01:22 -0000
+Message-Id: <171214928282.4451.16990673961638651694@gitolite.kernel.org>
 
---===============2796213726589417453==
+--===============2440634201671930905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/kdevops
-    old: 6b10d2519715d7d66e60d03ede8d1b34e1b78c07
-    new: 57b1b106202edf9f94fcd503b95096d49ae4f623
-    log: revlist-6b10d2519715-57b1b106202e.txt
+  - ref: refs/heads/netfs-writeback
+    old: 721739152283eaccd26260a053b33ebf76d87cc4
+    new: e77b740400467a2054e966998cfe2ce254073682
+    log: revlist-721739152283-e77b74040046.txt
+  - ref: refs/remotes/linus/master
+    old: 026e680b0a08a62b1d948e5a8ca78700bfac0e6e
+    new: 3e92c1e6cd876754b64d1998ec0a01800ed954a6
+    log: revlist-026e680b0a08-3e92c1e6cd87.txt
 
---===============2796213726589417453==
+--===============2440634201671930905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b10d2519715-57b1b106202e.txt
+Content-Disposition: attachment; filename=revlist-721739152283-e77b74040046.txt
 
-c249dc82d2d0c87db24ab3a9a3013d1ab69fc938 nfsd: move nfsd4_cstate_assign_replay() earlier in open handling.
-2b60ea40b4a2259b70baa4457acdc058fd22e852 nfsd: perform all find_openstateowner_str calls in the one place.
-dfba1ec89dd779300aa8823e44fb39fce502b50f nfsd: replace rp_mutex to avoid deadlock in move_to_close_lru()
-3542fff73c97c5c6a53e6ecc35700fd418708b02 nfsd: drop st_mutex_mutex before calling move_to_close_lru()
-21742ca191d3bdf6b71acf5e2d8254fc475b5a75 nfsd: trivial GET_DIR_DELEGATION support
-3033d4e0bdfa8f1025513661bab4fa43d734cb2f fs: nfsd: use group allocation/free of per-cpu counters API
-175254780e6f09f764cbe30526896cc61e061f45 sunrpc: removed redundant procp check
-6a47d52a8dca09ae98652b81ba599514a099ad04 pwm: Fix setting period with #pwm-cells = <1> and of_pwm_single_xlate()
-60e31cb082a62e26ddd82f4ca38346fc6439b7b8 nfsd: trivial GET_DIR_DELEGATION support
-b5699affd5ea16f8a7f06e8260f270ca2a2bbb40 vfs, nfsd, nfs: implement directory delegations
-efebf550999bfe334f3a6a157b16c1c3e1913469 filelock: push the S_ISREG check down to ->setlease handlers
-4a6d9dcd05071e576b261d87f14a75f43d2688cd filelock: add a lm_set_conflict lease_manager callback
-170fd4bcf4a96dbcc9e25ab281a010cff551b5b7 vfs: add try_break_deleg calls for parents to vfs_{link,rename,unlink}
-98417edda9e6da9f3d8aa177709094dbe6af888e vfs: allow mkdir to wait for delegation break on parent
-131ab730b044bf52991987fc5d7bd5f2919dfb30 vfs: allow rmdir to wait for delegation break on parent
-1c10fb676ccf1b8f737041d8d0a6c34faa05b731 vfs: break parent dir delegations in open(..., O_CREAT) codepath
-13b0e4f309d3b112e8b1bb301e314422f145fc5a vfs: make vfs_create break delegations on parent directory
-7071372f5bee98725768a5e33fab0f7ac0671e0d vfs: make vfs_mknod break delegations on parent directory
-be92a510cd2494c1894d50a7e24dbb9ac3df6fd0 filelock: lift the ban on directory leases in generic_setlease
-58969bfcaff0606e68555e8ec5c0a86b4a8528c6 nfsd: allow filecache to hold S_IFDIR files
-bd2dcbcab2f55078daa9e4a2447ac90a92b9a499 nfsd: allow DELEGRETURN on directories
-8c89260bbd508b79917adcd8784ca007d710e9cb nfsd: check for delegation conflicts vs. the same client
-07f06d744ffeae260b2b1edae1d8e025ececbb81 nfsd: wire up GET_DIR_DELEGATION handling
-08dca1ac76f0d5db8826d6a751b985210072c4a0 nfs: fix nfs_stateid_hash prototype when CONFIG_CRC32 isn't set
-6531806f610eded7c387fccbb04249fa14b1eb89 nfs: add cache_validity to the nfs_inode_event tracepoints
-c5ef6bdd4c6811874bbec7bbc3de357962ccf0ac nfs: add a tracepoint to nfs_inode_detach_delegation_locked
-91f403e88d70e2f8048bae4decdfeb329f156cdb nfs: new tracepoint in nfs_delegation_need_return
-2aec7e1b825ebbf346d13ce48d7974a1cece2ad6 nfs: new tracepoint in match_stateid operation
-4502d9c139d020628d123eb6008c5a859c21d08c nfs: add a GDD_GETATTR rpc operation
-9b7e9a336e90b2d216c0afd91626d962f857ff02 nfs: skip dentry revalidation when parent dir has a delegation
-9811d0dbfe2857acbd9529cd1f08a55396e5f4fe nfs: optionally request a delegation on GETATTR
-1fe007a6e1a06ab8adf78ae5d27894fc66af49cf nfs: add a module parameter to disable directory delegations
-3351ee1f576a3fcbcd28ec6ea8f0bbbd920613ca filelock: add new FL_IGN_* flags
-67a6a8afee15426f59ae77dee550227843ba7077 NFSD: convert write_threads to netlink command
-593736b014b9cec219abd93d002dc49f3f8d7d55 NFSD: add write_version to netlink command
-3642987a9b65e6bc0cdaae1eccd4a6ce0c115c76 NFSD: convert write_ports to netlink command
-17b207742c70de93157c8606220a64ceb8aed3c8 SUNRPC: introduce svc_xprt_create_from_sa utility routine
-61baa09de365fc073ddcbc88b1c808a0669869e9 NFSD: add capability to pass a sockaddr via netlink
-57b1b106202edf9f94fcd503b95096d49ae4f623 Merge branch 'dir-deleg' into kdevops
+647c79c6ccace6208c787c7173ccce8077b704e3 mm: Export writeback_iter()
+c3eb21ddc7d1459d431f7edf9f11534dddadf554 netfs: Switch to using unsigned long long rather than loff_t
+d62db504356705fd0cc85e888ca0ca36cbf5ad5b netfs: Fix writethrough-mode error handling
+691c4c08186b375cc8c0955f5d2b4326daee790f netfs: Add some write-side stats and clean up some stat names
+34e1ec49218750254f4da799f27b23e23d326728 netfs: New writeback implementation
+81388483313ee5b45a8bd27e9dded6db8d31dc48 netfs, afs: Implement helpers for new write code
+34e3c2727d8fa89f3070d15d4a452a39fa57ac52 netfs, 9p: Implement helpers for new write code
+b573c73454f2d003d9652f5179f6c142d789eca5 netfs, cachefiles: Implement helpers for new write code
+3be26e5ef07ef030cb2b8e0709aff29c9bfe19ad netfs: Cut over to using new writeback code
+06e5cf4f2118a85e4989d4874da3c33bd5651d80 netfs: Remove the old writeback code
+0b282013c6fb2f92804baa2cc9e3e8f7779283c7 netfs: Miscellaneous tidy ups
+e77b740400467a2054e966998cfe2ce254073682 netfs, afs: Use writeback retry to deal with alternate keys
 
---===============2796213726589417453==--
+--===============2440634201671930905==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-026e680b0a08-3e92c1e6cd87.txt
+
+42fb9cfd5b186fe2e615564f0a1bdd424aa1b151 Documentation: dev-tools: Add link to RV docs
+0ec69b3bed23a4a5a88b4261afeee44ade709ed3 docs: Fix bitfield handling in kernel-doc
+b75d85218fdfd8774f2f8397d1f6092ed06bd311 tracing: Fix documentation on tp_printk cmdline option
+e9c44c1beaba623b12201d2028bc20f535464d9b docs: zswap: fix shell command format
+a5e3dce493d4b12b74000b6a99b6712afa5d1a4d bcachefs: Fix assert in bch2_backpointer_invalid()
+8aad8e1f659fcea1b24072e816e434e4cd12382d bcachefs: Fix journal pins in btree write buffer
+688d750d10aa9c4fb71c5154521c775f94c887e0 bcachefs: fix misplaced newline in __bch2_inode_unpacked_to_text()
+4bd02d3fb33d8a46e73085b8d47d21c0ccb3de9d bcachefs: fix mount error path
+aa6e130e3c2965a5c26a4033ff63b5dc9549bd76 bcachefs: Add an assertion for trying to evict btree root
+63332394c7e1f4f26e8e5b1387212016aaa7eae2 bcachefs: Move snapshot table size to struct snapshot_table
+ec9cc18fc2e65b08c588e01f24aaeb71551a7132 bcachefs: Add checks for invalid snapshot IDs
+57339b24a0eda5433751e7e0f4a8ea1e23315f60 bcachefs: Don't do extent merging before journal replay is finished
+36f9ef109b1c6935928d09a3e73d744291f71545 bcachefs: fix trans->mem realloc in __bch2_trans_kmalloc
+048f47e83fc315499dc1943176b3ebe1a55574fb bcachefs: btree_and_journal_iter now respects trans->journal_replay_not_finished
+40cb26233a060aeb936de7ea1f6ac2659ed9951c bcachefs: Be careful about btree node splits during journal replay
+79032b078173f87a13f8618cdab710798be67314 bcachefs: Improved topology repair checks
+bb66009958b277a9baffaa53d835661852550151 bcachefs: add REQ_SYNC and REQ_IDLE in write dio
+805b535a8afbcd8073a03eb25aafd82cb816bff6 bcachefs: Check btree ptr min_key in .invalid
+812a9297936a959c98a2e9e44a9a622bbe30b162 bcachefs: Fix btree node keys accounting in topology repair path
+6f5869ffd9f111b81b95b73c6e54f07406591911 bcachefs: Fix use after free in bch2_check_fix_ptrs()
+83bb58539045b15653b61c6e8eb65f3f9c671cdf bcachefs: Fix repair path for missing indirect extents
+dcc1c04587aa9bc3515153f4c89cff73f2cb45b2 bcachefs: Fix use after free in check_root_trans()
+47d2080e30b0b9fc636eba4e74f9e4bdc01543d7 bcachefs: Kill bch2_bkey_ptr_data_type()
+7f9e5080366726084eb765a5d689bdf502e7e2ed bcachefs: Fix bch2_btree_increase_depth()
+11d5568d3e04a2e6734d1eccc394cfcf5ca8523c bcachefs: fix backpointer for missing alloc key msg
+d2554263adcb4041f3608cb7476f102fda036ccc bcachefs: Split out recovery_passes.c
+e5aa80464155287cc309d18c1c93962357e3e393 bcachefs: Add error messages to logged ops fns
+af855a5f5e74cf0ef1166759fca937ce692b4aac bcachefs: Resume logged ops after fsck
+4fe0eeeae477328cbd26af1e6f81a94e2080ffa8 bcachefs: Flush journal immediately after replay if we did early repair
+0a34c058fca84b10002228a1724e2e613e4dc3cc bcachefs: Ensure bch_sb_field_ext always exists
+060ff30a8596b649a80c19935758000dde7855fe bcachefs: bch2_run_explicit_recovery_pass_persistent()
+13c1e583f9179ad7953dc71ebb2f12e613b9d052 bcachefs: Improve -o norecovery; opts.recovery_pass_limit
+cecfed9b446da5fba9d73e6448c9f0d1ff5d95ff bcachefs: Logged op errors should be ignored
+8ce1db8091b23f5d2a0dd1dabe8007954114cb68 bcachefs: Fix remove_dirent()
+eab3a3ce2dea1a4013a3a553722b85f55a76ac2d bcachefs: Fix overlapping extent repair
+b3c7fd35c03c17a950737fb56a06b730a7962d28 bcachefs: On emergency shutdown, print out current journal sequence number
+37801a36b4d68892ce807264f784d818f8d0d39b selinux: avoid dereference of garbage after mount failure
+67199a47ddb9e265d1a83bb23bb06c752ffa1f4b Merge tag 'bcachefs-2024-04-01' of https://evilpiepirate.org/git/bcachefs
+b1e6ec0a0fd0252af046e542f91234cd6c30b2cb Merge tag 'docs-6.9-fixes' of git://git.lwn.net/linux
+3e92c1e6cd876754b64d1998ec0a01800ed954a6 Merge tag 'selinux-pr-20240402' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+
+--===============2440634201671930905==--
