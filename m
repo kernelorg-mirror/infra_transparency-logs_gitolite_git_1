@@ -1,55 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============1146168491080313202=="
+Content-Type: multipart/mixed; boundary="===============8747896450979044792=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 03 Apr 2024 10:01:59 -0000
-Message-Id: <171213851987.16708.1054721533369275253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Wed, 03 Apr 2024 10:03:07 -0000
+Message-Id: <171213858760.17212.13892814698978757773@gitolite.kernel.org>
 
---===============1146168491080313202==
+--===============8747896450979044792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: acc71791e32e8c9a8fbe04ced8b00c49dfbcc52b
-    new: da87abc38f8c18bd74c7bacd2faf57c4090c45ee
+  - ref: refs/heads/for-next
+    old: 7553b5f1babdaefa878e5ff30f8d47bc2a20ad0b
+    new: d1915125a32434329f52ae1c521d001ee94cf7d7
     log: |
-         65065831698a8b70ed1a8edbfc22aace723d9340 Merge branch 'acpi-thermal' into linux-next
-         da87abc38f8c18bd74c7bacd2faf57c4090c45ee Merge branch 'intel-pstate' into linux-next
+         7da85354c4fa35b862294dbbb450baeb405b5a92 ARM: dts: aspeed: greatlakes: correct Mellanox multi-host property
+         e515719c17beb9625a90039f6c45fa36d58bdda2 ARM: dts: aspeed: minerva-cmc: correct Mellanox multi-host property
+         af3deaf9bcb4571feb89a4050c7ad75de9aa8e1e ARM: dts: aspeed: yosemite4: correct Mellanox multi-host property
+         cac1c1dda6130771e06ace030b1b0ed62096a912 ARM: dts: aspeed: yosemitev2: correct Mellanox multi-host property
+         d1915125a32434329f52ae1c521d001ee94cf7d7 Merge branch 'next/dt' into for-next
          
-  - ref: refs/heads/linux-next
-    old: bcc934c07f2f4627c3408147b34eb85f0f71daa6
-    new: da87abc38f8c18bd74c7bacd2faf57c4090c45ee
-    log: revlist-bcc934c07f2f-da87abc38f8c.txt
-  - ref: refs/heads/testing
-    old: bcc934c07f2f4627c3408147b34eb85f0f71daa6
-    new: da87abc38f8c18bd74c7bacd2faf57c4090c45ee
-    log: revlist-bcc934c07f2f-da87abc38f8c.txt
+  - ref: refs/heads/next/dt
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: cac1c1dda6130771e06ace030b1b0ed62096a912
+    log: |
+         7da85354c4fa35b862294dbbb450baeb405b5a92 ARM: dts: aspeed: greatlakes: correct Mellanox multi-host property
+         e515719c17beb9625a90039f6c45fa36d58bdda2 ARM: dts: aspeed: minerva-cmc: correct Mellanox multi-host property
+         af3deaf9bcb4571feb89a4050c7ad75de9aa8e1e ARM: dts: aspeed: yosemite4: correct Mellanox multi-host property
+         cac1c1dda6130771e06ace030b1b0ed62096a912 ARM: dts: aspeed: yosemitev2: correct Mellanox multi-host property
+         
 
---===============1146168491080313202==
+--===============8747896450979044792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bcc934c07f2f-da87abc38f8c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f186b2dace86f36cc08872b693185eaf71128898 cpufreq: intel_pstate: Drop redundant locking from intel_pstate_driver_cleanup()
-12ebba42d2f1eadc0f897ffeb6dbcfaf2449e107 cpufreq: intel_pstate: Simplify spinlock locking
-432acb219af4edecdd11d360f30b7cc643524db8 cpufreq: intel_pstate: Wait for canceled delayed work to complete
-0f2828e17b6f41b8b345f0031e3fe58529991748 cpufreq: intel_pstate: Get rid of unnecessary READ_ONCE() annotations
-e97a98238da68aea4a0be0b2cc40e39527c880b1 cpufreq: intel_pstate: Use __ro_after_init for three variables
-032c5565eb80edb6f2faeb31939540c897987119 cpufreq: intel_pstate: Fold intel_pstate_max_within_limits() into caller
-0940f1a8011fd69be5082015068e0dc31c800c20 cpufreq: intel_pstate: Do not update global.turbo_disabled after initialization
-c626a438452079824139f97137f17af47b1a8989 cpufreq: intel_pstate: Rearrange show_no_turbo() and store_no_turbo()
-9558fae8ce97b3b320b387dd7c88309df2c36d4d cpufreq: intel_pstate: Read global.no_turbo under READ_ONCE()
-f32587dcbe5f40e160d8de262add6abab79356a7 cpufreq: intel_pstate: Replace three global.turbo_disabled checks
-e8217b4bece379e66d43ab5070431712f07bf625 cpufreq: intel_pstate: Update the maximum CPU frequency consistently
-8a4ff5452dd0cdcc35940460bb777d836bece11c ACPI: thermal: Register thermal zones without valid trip points
-65065831698a8b70ed1a8edbfc22aace723d9340 Merge branch 'acpi-thermal' into linux-next
-da87abc38f8c18bd74c7bacd2faf57c4090c45ee Merge branch 'intel-pstate' into linux-next
+certificate version 0.1
+pusher krzk@kernel.org 1712138583 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1712138582-cc5ee0579a622d4864a1bece559c483a2f2d4020
 
---===============1146168491080313202==--
+7553b5f1babdaefa878e5ff30f8d47bc2a20ad0b d1915125a32434329f52ae1c521d001ee94cf7d7 refs/heads/for-next
+4cece764965020c22cff7665b18a012006359095 cac1c1dda6130771e06ace030b1b0ed62096a912 refs/heads/next/dt
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYNKVcQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD17faD/9peujiCPDRrFhQ+wNj7mQMR+QGYU2d90rf
+7Vg75OuXQrZZiddXSTAP8TK8bEuVLAFPNq0k5uAGQOmBTPHpsdbsPBYGMuuQd5+U
+fcQqDUgArBjmSrUnl4kZsmS3TOrvXjA8OUzsW8SBtxSVN9MoyroQO72G7NxLTMBS
+hSST5wfATEPQqbzJRVhadRnjJq+jdV27ccxc37+JhVvaKK4mJSAGlJUIAJZblio1
+QE6TE008gwkB8JkEbVanOUh5X2PsvR526V0xoXeYtvQlKLZXVwccoaEg4Rzo1MsG
+MMtNxiT5L9akr9c28Fy0STIMJX7m0wEa/AoArwc992rpucvQYQ+OCA4VqK3+w7/0
+fmi0AOi/23uzkB29jkvHK+EzlxUIFFCQdNg+i/67i1E4+1MdbCnz/wYv0p+9EvVN
+Y3rKFvPEGWvLhK7lqXrBW/+LcmubGCfxkxJKFeI6e8HS70gZv5fN6DuLkeUDUQAT
+SQ6d6LeSM1ovh0BVLxFS2wfhWpcWrXM5aKZn7TlwTLlQNNb1H+xNeucGnpVkugw1
+7iX7AGDhJo1kKIcXeH/f0HTYtucQndzlU3lJS17Oir8SsJtIc5CNLeGN/jXBbzmG
+h609kNy5Gc21uyP8NTpgxNp9kNs25mnn1v/EFg5DJ77J8CuuSQV69IwWcKBoD61Q
+Kp1x4uUqig==
+=n8fS
+-----END PGP SIGNATURE-----
+
+--===============8747896450979044792==--
