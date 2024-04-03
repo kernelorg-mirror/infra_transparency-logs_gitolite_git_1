@@ -1,56 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============3311571386204321654=="
+Content-Type: multipart/mixed; boundary="===============4951154227486925631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Wed, 03 Apr 2024 10:36:00 -0000
-Message-Id: <171214056016.25494.10427001383691555397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 03 Apr 2024 10:49:41 -0000
+Message-Id: <171214138192.2553.9999141042826914409@gitolite.kernel.org>
 
---===============3311571386204321654==
+--===============4951154227486925631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 244490a729c61f04b258f2db0b32695cdc25f8a8
-    new: 7825bf5e9af2ce0d95d75c8d6f7c854e452db28f
-    log: revlist-244490a729c6-7825bf5e9af2.txt
+  - ref: refs/heads/for-6.10
+    old: ff9496dacf3485aa3f86d9b8e63d497541b36fa6
+    new: 953db8ded10fc54e698c2fb5fb4028bf93719ae9
+    log: |
+         35aaed1bc3c32c52b7fda525cd7bd19998035518 ASoC: rsnd: cleanup regmap table
+         6e4e5432942a57f4c3e6a5a4a97a4d1a164dca61 ASoC: rsnd: don't get resource from ID
+         0b8ef53e120981c218ba037dddda98f414af2207 ASoC: rsnd: rename rsnd_is_e3() to rsnd_is_gen3_e3()
+         5be0e7f7f275aa5f05d8708db021cef0fed749d1 ASoC: rsnd: R-Car Gen1/Gen2 exception
+         07f6232ff1c9909cd87e42020c91b265a58918da ASoC: rsnd: no exception for SCU
+         953db8ded10fc54e698c2fb5fb4028bf93719ae9 ASoC: rsnd: reg cleanup
+         
 
---===============3311571386204321654==
+--===============4951154227486925631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-244490a729c6-7825bf5e9af2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-09aa44433f0ae9b2695d88808f7ea30e7435da75 dt-bindings: vendor-prefixes: add Cudy
-45696094297c2af47839f8b56df140e384a120e5 dt-bindings: arm64: dts: mediatek: Add Cudy WR3000 V1 router
-a2c81220f56b78f1097a10eb527e1e1b63858749 arm64: dts: mediatek: mt7981: add pinctrl
-8cae47996f838fffdbf95b961de8baeddbe874bb arm64: dts: mediatek: Add Cudy WR3000 V1
-82aefd8f1f1e73f95523a8eebf3d52719a946120 dt-bindings: arm64: dts: airoha: Add en7581 entry
-a8ffe7cfce40c20a2508c474e49bfd9f29d0e253 arm64: dts: Add Airoha EN7581 SoC and EN7581 Evaluation Board
-91ed3fc5e3a3b33ce73374715f3be97367caf402 arm64: add Airoha EN7581 platform
-e9340b4423db78a31ed156a92af9eb2fd7df9456 arm64: defconfig: enable Airoha platform
-c7df5fa3d1bd4c71d3a2d452c9da70e5e78f03e2 arm64: dts: mediatek: Complete chassis-type for MT8183 Chromebooks
-9b8c00596e30bb27a1f25a0d9766d6c767f4b355 arm64: dts: mediatek: Add missing chassis-type to MT8192 Chromebooks
-7349d4bdee457715308e6229a674f4cebf42be92 soc: mediatek: cmdq: Fix typo of CMDQ_JUMP_RELATIVE
-e24e0ff0871b8e3287f258b76b82238b64714628 soc: mediatek: cmdq: Add parameter shift_pa to cmdq_pkt_jump()
-8a8bcf23b3e0ab333bfc827ea7ed2f9bece9bea8 soc: mediatek: cmdq: Rename cmdq_pkt_jump() to cmdq_pkt_jump_abs()
-78462e312e63c5bc0859934d9457155fb50da2e1 soc: mediatek: cmdq: Add cmdq_pkt_jump_rel() helper function
-cad76fa0221c3f8e656b56b7673ae752a65108d8 soc: mediatek: cmdq: Add cmdq_pkt_eoc() helper function
-3e2b3be190ace43841011ec0bec950a28a012601 soc: mediatek: cmdq: Remove cmdq_pkt_flush_async() helper function
-62d2fb402b132e52899f52b4d5f150fd1dfd1895 soc: mediatek: cmdq: Refine cmdq_pkt_create() and cmdq_pkt_destroy()
-c3d1a65a897758c8cfb9a4cfc4472c532f981bc0 soc: mediatek: mtk-cmdq: Add specific purpose register definitions for GCE
-54a0fc539f0158d74053772e2ac9fd127bc2ed41 soc: mediatek: mtk-cmdq: Add cmdq_pkt_mem_move() function
-025ea4f5ff3a31ccec19c2cca479779533fb94c8 soc: mediatek: mtk-cmdq: Add cmdq_pkt_poll_addr() function
-f8c8243dbd36ba3d00bce2ada037c9c5d39c2ae6 soc: mediatek: mtk-cmdq: Add cmdq_pkt_acquire_event() function
-ef964918d42b9d9cf534754f82ccdaa402783ecd soc: mediatek: cmdq: Don't log an error when gce-client-reg is not found
-f1fa450ba3bc413624c370e5be7ec51b6a7f546f soc: mediatek: socinfo: Advertise about unknown MediaTek SoC
-70272cd1d37d8effd5c1582d92455896d5f02519 soc: mediatek: mtk-mutex: Add support for MT8188 VPPSYS
-1b576206eaf592fe0dc25e98ba62f6e5846ae567 dt-bindings: soc: mediatek: Add support for MT8188 VPPSYS
-7825bf5e9af2ce0d95d75c8d6f7c854e452db28f Merge branches 'v6.9-next/soc' and 'v6.9-next/dts64' into for-next
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1712141380 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1712141380-ee99a31ccd1ff77667bf3c725260fc3bfdbb46d4
 
---===============3311571386204321654==--
+ff9496dacf3485aa3f86d9b8e63d497541b36fa6 953db8ded10fc54e698c2fb5fb4028bf93719ae9 refs/heads/for-6.10
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYNNEQACgkQJNaLcl1U
+h9DPogf/cNjEPjyeA0akb4QA6dHYGketQcAZ5yj87Fuc5Q1GrEs9Ls4dzPV/Y20c
+tt/EgJtBeC20G1H827Txi16cokdm4P4PxIqpc6wGsvKrD/SlOmdbab942ddoR5CH
+8nIDOgOWOYo5aftETbvKlK0dSl2JXaav+WcbGt5faf7lAnQIGDWi+AGl29zs/Uxm
+Lj7fHib6vluVVSLUb7j+PUvAWUnI2GS4wiUhAl8UGBHnPrnqUyAHFMjddcEf9n2s
+uNEZKA4Wfw79BgGKmBLR5Zcjng3ui5BjKJtbiBHQwXaXXBQGXqw4AYFw7NXk85oM
+f1d1z+p0Bvps/ghYDzRJLpjbPKlQ3g==
+=UMM5
+-----END PGP SIGNATURE-----
+
+--===============4951154227486925631==--
