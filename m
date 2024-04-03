@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2983652308742351797=="
+Content-Type: multipart/mixed; boundary="===============0362376048864104003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 03 Apr 2024 17:51:43 -0000
-Message-Id: <171216670324.26696.11622256805860955310@gitolite.kernel.org>
+Date: Wed, 03 Apr 2024 17:51:47 -0000
+Message-Id: <171216670768.26772.16702254683288471747@gitolite.kernel.org>
 
---===============2983652308742351797==
+--===============0362376048864104003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,72 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: 9467d7a12f970e7f12adcba143b0c9b9d1a9e72d
-    new: e253a5c1b7de55d37ff656141e7001bdfd035d8c
-    log: revlist-9467d7a12f97-e253a5c1b7de.txt
+  - ref: refs/heads/linux-6.1.y
+    old: 347385861c50adc8d4801d4b899eded38a2f04cd
+    new: 61e2a6bf46954fef893be831847810a16fb44273
+    log: revlist-347385861c50-61e2a6bf4695.txt
 
---===============2983652308742351797==
+--===============0362376048864104003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712166702 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712166706 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1712166697-0d7ed2f63faa01da858b8d4656f0ef73733eda49
 
-9467d7a12f970e7f12adcba143b0c9b9d1a9e72d e253a5c1b7de55d37ff656141e7001bdfd035d8c refs/heads/linux-6.6.y
+347385861c50adc8d4801d4b899eded38a2f04cd 61e2a6bf46954fef893be831847810a16fb44273 refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYNly4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t8YQALxM2VMPrYxMJrsFhig5
-JhyDHeNI33pUswA8kOiBVzyiVhFIFF6dSfaAUoTt3fwjUt0xGyJgDBRQRt6EZG5z
-wTUEZc1ig5y1ToUFoi1oetLS+QcEkfM9FmPkE+/c/y57EcxiqJULjXanF4tzx8io
-B/M3yMIwCGbGUyke/v0aCGgwNsntA1IyZSk5leOlXCCu7D8N8xXJjwTdDdz6/7vb
-jCRbyyEgT8ROXQpb2IKbOkCbwrTTjvwqQr6kS6cSFuxOBaPHGPFnNjUXoKvlGEwF
-FLnfCKsMPtiB/+j5VgTbbaWMRah5p3De0KICIzVTM61BZfznZTuUm8p/vw14UEaK
-DtWZwJk7S0FQKkfg7+JtcLYlC1tK2fzgGtTZytjaAgJ4A7wxDlGg9pjsN5pFFNEU
-MkxOS7OGDmix7FjmRvH4NgNLc2miUblBY8OJ/JbfQA5zTqfyTRc8IwxUO8hUEL+K
-Pmpuz0JvlL9MzW6mMj9eEeocBt86vZxWMdhcPYlf0sQWmz5ZvCQoj3E/D9kW0hnG
-CxpNQbn0t1C1RdFxiBvyOyI/B3l3MDARIR2m3ioUF4+XCiSMdJnVHkd//2YMzUBe
-OCKfmbu3GdEZrLi9zGjQv8H52QCJVOIyej4a4M4plKFs2GmCd3zdDnsH31iVdYig
-JnfJkg9GTiyAPawc8BVdfaIR
-=H3lC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYNlzIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HQ4QALJpz3h+sLThYKIyiU8Y
+2dxz2nsG/jrJTxLjTo4lXz/Tj4vpHJ/BMr9xxvkkOWi5o34A0VTKvOm9Nxaze4s5
+b0uw0hGZzzvN5rEOVaGhd8Z95drYzswk1PSsZx8GuKnKL79EsSryEVXHkB/bf0DS
+4g9MpmWdElmIYfsx1e5n3N6wE2AI1ds8AhWKcgNQMIDeVPsTTG6NJDvc9aF9JaTm
+1EdAdM3M8SgRJ9Mm7znsFkB8SC6BjOnHOFceRNEKH9YxwJ9g0uiAXGaNyffgHXTV
+8od6QKjRQg6fxoLhJ00/kjd0gmYbTRNDg2G8nwCfia8TQKVjvPzfNTiuszimYAPR
+iqE4i/zNAWJng0W1SJVU3fICvy3ua4sveVMXHfCrrDXiV3ODilL0NVNNmG6JRfpk
+VckOFA+srchgNWgxM7WxwC6ElrRLT8n16jPM4SCBLO9DQ5ut+X41eTYxFgVsCqjY
+GOkw7fHZMMOT6CNjea+BzdbLRhJUahsKgIwJvA5WsWTx+7SpbzjxY++g5fLVhcNM
+F7VihvAJkg7Mu7YR1QNvfoFvAoOsbpnzGXGnUivJUGWp2/eGSyktNXSRvGFxnl+q
+ZdC9PRCaE/8sHry3XY0U0jbL6horzmiqEV9je8ICQ5Mb74cfPoZlIxSRSYPfHf/h
+3js8plRrKLYPEY6Ft328B8FT
+=bh3V
 -----END PGP SIGNATURE-----
 
---===============2983652308742351797==
+--===============0362376048864104003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9467d7a12f97-e253a5c1b7de.txt
+Content-Disposition: attachment; filename=revlist-347385861c50-61e2a6bf4695.txt
 
-3459cade24858cd065f5617727d4a461a0deb37f Revert "workqueue: Shorten events_freezable_power_efficient name"
-da77d2a97dd5499e1ab4c3cc3acebcddaed327d5 Revert "workqueue: Don't call cpumask_test_cpu() with -1 CPU in wq_update_node_max_active()"
-dd30ed7c1d8303420e12b21a67c1fc197655c00e Revert "workqueue: Implement system-wide nr_active enforcement for unbound workqueues"
-041489f2f79e92fa1534dc15347af610d3c570fc Revert "workqueue: Introduce struct wq_node_nr_active"
-f7a98bc2a08cd9c2413449250b490e5b0ea5841d Revert "workqueue: RCU protect wq->dfl_pwq and implement accessors for it"
-492d5cf900c4adb936ee4f928eeadb6e8d09439d Revert "workqueue: Make wq_adjust_max_active() round-robin pwqs while activating"
-6d726eda131b161d86b5925e2c2729697522c248 Revert "workqueue: Move nr_active handling into helpers"
-ee99a7616efec9b4e58db555371c170aa396000c Revert "workqueue: Replace pwq_activate_inactive_work() with [__]pwq_activate_work()"
-56ad0a5e4c50a3fef0121a9c8b2d598375a885b0 Revert "workqueue: Factor out pwq_is_empty()"
-7f2180ed05a777dd97e79114ebf833641a7c411b Revert "workqueue: Move pwq->max_active to wq->max_active"
-87ce4545eb36f32b260c12a2bd4310178f125828 Revert "workqueue.c: Increase workqueue name length"
-e253a5c1b7de55d37ff656141e7001bdfd035d8c Linux 6.6.25-rc1
+fe6ca4f04f132ea8a2a321608af6367b99fe600b scripts/bpf_doc: Use silent mode when exec make cmd
+1f6f43892d7a25cd475f21e4a55274c0d06298c7 dma-buf: Fix NULL pointer dereference in sanitycheck()
+b7f5afb9c162684ca4e6268ea0ea92e1abcd9162 nfc: nci: Fix uninit-value in nci_dev_up and nci_ntf_packet
+d531842cc90d279dd11534640f5ea29e2a5c4d75 mlxbf_gige: stop PHY during open() error paths
+72f52c26e547ea415eaab820faec4c4794cbcc63 wifi: iwlwifi: mvm: rfi: fix potential response leaks
+7d04e483e217d48fd56df36191dc8ef80c9bd408 ixgbe: avoid sleeping allocation in ixgbe_ipsec_vf_add_sa()
+cfec2fd7fdfb3839c9ef00f1455a1d1380f45aea s390/qeth: handle deferred cc1
+5f8d08a36626adc8b107559793d20d956363d1af tcp: properly terminate timers for kernel sockets
+0e723c68f88d97ecb5d1ad6e9332f0ec80672883 net: wwan: t7xx: Split 64bit accesses to fix alignment issues
+94d1617fb01975e41b8360ebd71067621ee6d680 ACPICA: debugger: check status of acpi_evaluate_object() in acpi_db_walk_for_fields()
+c4fb085f1fea13fc3bf31b46f4281de7ea12c8dd net: hns3: fix index limit to support all queue stats
+70459e79ab558b032e452213eaae40cde5e4d4f7 net: hns3: fix kernel crash when devlink reload during pf initialization
+341386b212cc849257b04df1a1b663a6fd515071 net: hns3: mark unexcuted loopback test result as UNEXECUTED
+ebefdf11cd1cff9117914226baefb8171c385f68 tls: recv: process_rx_list shouldn't use an offset with kvec
+3a7c80d5db459751a4270e8040c9b07d8739861a tls: adjust recv return with async crypto and failed copy to userspace
+201e54ee36166dbc1cb420ccbf95eda60bbee2a7 tls: get psock ref after taking rxlock to avoid leak
+2a98a08cfd531428aa26ee67d6945195389c15bb mlxbf_gige: call request_irq() after NAPI initialized
+9378d3d2ecd5a5bac4ad9a936d26e3d64bb932fd bpf: Protect against int overflow for stack access size
+93f8f561addf44bf4ae4aca9c00c27069c2653d8 cifs: Fix duplicate fscache cookie warnings
+8a987a8e8843b005e5496ed8c6742e3ebeec4191 net: lan743x: Add set RFE read fifo threshold for PCI1x1x chips
+968d99701168e43c80cb492305925a5c2b49cef2 Octeontx2-af: fix pause frame configuration in GMP mode
+a14a0bfa226b9375a04401913bf523ef2902b6de inet: inet_defrag: prevent sk release while still in use
+ec7b16a4aa2155fa508fbc775cd8da03c4253430 dm integrity: fix out-of-range warning
+4652363e457919199ad7ae33fdde67c14c31d6fb x86/cpufeatures: Add new word for scattered features
+297608b1a1f74ea8d75a1ae2b8ba2d8aafa69c94 perf/x86/amd/lbr: Use freeze based on availability
+61e2a6bf46954fef893be831847810a16fb44273 Linux 6.1.85-rc1
 
---===============2983652308742351797==--
+--===============0362376048864104003==--
