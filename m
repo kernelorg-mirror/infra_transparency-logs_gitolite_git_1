@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Wed, 03 Apr 2024 07:12:38 -0000
-Message-Id: <171212835813.9840.12386847528704117503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 03 Apr 2024 07:24:22 -0000
+Message-Id: <171212906268.17362.14910628774783437602@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-kernelci
-    old: d8db2c6d7b0e5ca5e64c747236b2464d0c1661f3
-    new: d91ca83599cd2c0ec3f7638a5e8ee712102d8fc2
+  - ref: refs/heads/kvm-arm64/nv-6.10-WIP
+    old: dc39aec415a0313a3823a2ffebe0a7388c57c242
+    new: 8a089ba3f6d9ef63ed3aff3413e0eaece93b0c78
     log: |
-         d91ca83599cd2c0ec3f7638a5e8ee712102d8fc2 platform/chrome: cros_kbd_led_backlight: provide ID table for avoiding fallback match
-         
-  - ref: refs/heads/for-next
-    old: d8db2c6d7b0e5ca5e64c747236b2464d0c1661f3
-    new: d91ca83599cd2c0ec3f7638a5e8ee712102d8fc2
-    log: |
-         d91ca83599cd2c0ec3f7638a5e8ee712102d8fc2 platform/chrome: cros_kbd_led_backlight: provide ID table for avoiding fallback match
+         8a089ba3f6d9ef63ed3aff3413e0eaece93b0c78 fixup! KVM: arm64: nv: Invalidate TLBs based on shadow S2 TTL-like information
          
