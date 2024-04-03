@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 03 Apr 2024 09:20:54 -0000
-Message-Id: <171213605446.5480.970704230941921725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
+Date: Wed, 03 Apr 2024 09:24:03 -0000
+Message-Id: <171213624371.6703.16987354529729721830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/tmlind/linux-omap
+user: tmlind
 changes:
-  - ref: refs/heads/dev-test
-    old: 1c89beb9534dee8f41a47922b6382809c809506c
-    new: 89ee5a850ec8b23f4e5d5f3a89b2dc4257434643
-    log: |
-         89ee5a850ec8b23f4e5d5f3a89b2dc4257434643 erofs: add a reserved buffer pool for lz4 decompression
-         
+  - ref: refs/heads/omap-for-v6.10/dt
+    old: 0000000000000000000000000000000000000000
+    new: b0c981667564d8e0d1464399fd8a7efbb156dedd
