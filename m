@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 03 Apr 2024 03:15:32 -0000
-Message-Id: <171211413200.32067.12937305404961918996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 03 Apr 2024 03:19:09 -0000
+Message-Id: <171211434941.1062.5704336398909389011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: b1e6ec0a0fd0252af046e542f91234cd6c30b2cb
-    new: 3e92c1e6cd876754b64d1998ec0a01800ed954a6
+    old: ae64e16889ff78602c983d55e048594df77d5ddc
+    new: f23e765c5a91da7f141850946c28cf76249f0151
     log: |
-         37801a36b4d68892ce807264f784d818f8d0d39b selinux: avoid dereference of garbage after mount failure
-         3e92c1e6cd876754b64d1998ec0a01800ed954a6 Merge tag 'selinux-pr-20240402' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+         f23e765c5a91da7f141850946c28cf76249f0151 Tue Apr  2 11:18:23 PM EDT 2024
          
