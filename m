@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5179242688152532225=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 03 Apr 2024 14:11:05 -0000
-Message-Id: <171215346567.21455.8687879162945435459@gitolite.kernel.org>
-
---===============5179242688152532225==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 03 Apr 2024 14:18:12 -0000
+Message-Id: <171215389212.25698.1499917906161418773@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 5b5d100fee69f8dfa94fcd65449a42f5e68d5d56
-    new: 49dde03c2ece9af3caaaf3b734ae1c3e1546f0de
+    old: 49b73fa623c47302befecba0c2c310739ed0a088
+    new: c53908b254fcf25b05bcdf6634adb36eaccac111
     log: |
-         49dde03c2ece9af3caaaf3b734ae1c3e1546f0de Update CVE data based on latest stable releases.
+         7effe3fdc049a34c56a68671100b5570e53e8f0a tools: Add ethtool.h header to tooling infra
+         c3bd015090f24dcd2e839db1401e948ad95ce803 selftests/xsk: Make batch size variable
+         90a695c3d31e1c9f0adb8c4c80028ed4ea7ed5ab selftests/bpf: Implement get_hw_ring_size function to retrieve current and max interface size
+         bee3a7b07624223526c1fea465557068546d3b3c selftests/bpf: Implement set_hw_ring_size function to configure interface ring size
+         776021e07fd0d7592c767e60929b954e82676186 selftests/xsk: Introduce set_ring_size function with a retry mechanism for handling AF_XDP socket closures
+         c4f960539fae6f04617d3909cc0dfdb88e7d197b selftests/xsk: Test AF_XDP functionality under minimal ring configurations
+         c53908b254fcf25b05bcdf6634adb36eaccac111 selftests/xsk: Add new test case for AF_XDP under max ring sizes
          
-
---===============5179242688152532225==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712153461 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1712153461-90516b8287597eb34efab41f25b0d6f5bd2d7837
-
-5b5d100fee69f8dfa94fcd65449a42f5e68d5d56 49dde03c2ece9af3caaaf3b734ae1c3e1546f0de refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYNY3UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RDgP/2PyP4b8gNW2A4hFyw7/
-DSGKsMnaiCh142rnC0hUW527iHAzfT4VmDl0TgSC24NVU/YDEmJAKraw6I7y76T3
-cKa/toVDjns9M62Mydp7CSIfooX2GmKeEG3PEAtcSFqmA75htEu6KeivvSaY1AeW
-PaURS3Z1UBwJzK2qOFgic/0mEsPeXiYYixeWE5h6qiKY1A6mdO9BETadlSw07wDc
-pkcSxU5Wuvneg1qb7XYGa5/lf91GCNSbn/wFxh5WZUt/4fvJ9oVK2VsTFulzTYYA
-VeSwcwRx+nN2FzCViEGt0CUpfHNZ5sXoHFNxvNVcfpXf8BjqTcBbNJL/jfvD8NKL
-8elx90kCsDKveHuwdrbr/OH2huzarFrjBTV2VtVa20HTOj/nyzW9mQ9MrvCHhNqV
-3zuPXZd61TDQdO+kmnSBYdeFAWI2NrApC79u+eSeJUw4OGxFLRuMuovfln70zNad
-U/roTB3G0ynwElAyYyUey8ICn0TXY4yxNAhtPDZzhjLAbUqkTYjaBHhk+OXKkPvV
-lHNQLX1t2XGsKkDIeBcZ4Mur5HYn/laBu5WJPyefuVWv7qSLiKtxVRjwJM9u6PL4
-BZ0jRwgnllMQrP3sFl8+CkIPv9jcBbbFVKHbsgRISSAAhM9AijL0Sqfu5VEfIQ3H
-njVG7v44fRpjvVBdlIc91Nbl
-=K80F
------END PGP SIGNATURE-----
-
---===============5179242688152532225==--
