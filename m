@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4059559599626318556=="
+Content-Type: multipart/mixed; boundary="===============8275680022081371670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 03 Apr 2024 15:51:09 -0000
-Message-Id: <171215946909.32256.15274537157764897047@gitolite.kernel.org>
+Date: Wed, 03 Apr 2024 15:51:47 -0000
+Message-Id: <171215950759.32585.16254840932283534606@gitolite.kernel.org>
 
---===============4059559599626318556==
+--===============8275680022081371670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 3dc13dee4c2c1810f8047cf2ee93f9355eddadd9
-    new: 38acf4c110b2e266fa0c06f0dd7e005294d53540
-    log: revlist-3dc13dee4c2c-38acf4c110b2.txt
+  - ref: refs/heads/1GbE
+    old: 5fc68320c1fb3c7d456ddcae0b4757326a043e6f
+    new: 34c58c89feb3eefaf64e9ddf69b7e0f7c807414a
+    log: revlist-5fc68320c1fb-34c58c89feb3.txt
 
---===============4059559599626318556==
+--===============8275680022081371670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3dc13dee4c2c-38acf4c110b2.txt
+Content-Disposition: attachment; filename=revlist-5fc68320c1fb-34c58c89feb3.txt
 
 0e2bddf9e5f926ce32ed635012d0f8a0b54075d5 ice: add ice_adapter for shared data across PFs on the same NIC
 d29a8134c78232213fb88f20d7ae865ec364e367 ice: avoid the PTP hardware semaphore in gettimex64 path
@@ -66,36 +66,5 @@ b94d3703c1a6a57323256a687f4cbdabfffbe408 gve: set page count for RX QPL for GQI 
 ed4fb326947dc486f97c66168f6ac50f5d1efd19 gve: add support to read ring size ranges from the device
 834f9458f2fdb48dfb95976934c1594d086a956d gve: add support to change ring size via ethtool
 34c58c89feb3eefaf64e9ddf69b7e0f7c807414a Merge branch 'gve-ring-size-changes'
-2334e670e97e2658615ddaeb435635a29c0b1898 e1000e: Workaround for sporadic MDI error on Meteor Lake systems
-3175a3948133777487be27555c3b9f183ea82e8e e1000e: move force SMBUS from enable ulp function to avoid PHY loss
-a585ae24ebdf60a55d694fca3923117e3824204a ice: Remove ndo_get_phys_port_name
-5048c3042ededfce56548db51826c08aa18d8781 ice: tc: do default match on all profiles
-8ea666e98dc1a03e7cb76943c650c8493128ee59 i40e: fix i40e_count_filters() to count only active/new filters
-db5ae3323f933598df6153b3968abdf5267b1497 i40e: fix vf may be used uninitialized in this function warning
-5094e8fb427a9304e42285acd3ba32142d12b4ce i40e: Prevent setting MTU if greater than MFS
-d378f607ab125b05ba1ae98f23070ffc6582300b i40e: Fix VF MAC filter removal
-5b0413895827c59673c0c9a265f520954d2d1b53 ice: tc: check src_vsi in case of traffic from VF
-a5bd10dfc9c47e03faef22a0982d845d33654333 ice: tc: allow zero flags in parsing tc flower
-97f410a26640e9af5f806a484f4a709d292f561d i40e: Enforce software interrupt during busy-poll exit
-1637fbdda4704ac4db1410001a0ff590ba0fc2dc idpf: fix kernel panic on unknown packet types
-fe72545a290018da95e138b84be5633592d08586 ice: fix enabling RX VLAN filtering
-8d4c6586cee12c2d3bd845b6d8e3193514160d26 ice: set vf->num_msix in ice_initialize_vf_entry()
-4291540f581671379a9fd6ca4e61bea122ee211a ice: store VF relative MSI-X index in q_vector->vf_reg_idx
-860ff13bc0e04f19d71cfcfad33829c0baf60e46 ice: Fix freeing uninitialized pointers
-9bbc42e34455262f0200be3b5545dbccd598364a igc: Add Tx hardware timestamp request for AF_XDP zero-copy packet
-b71afdb881e4e19c7f83ec4d650d92eab632744b e1000e: Remove redundant runtime resume for ethtool_ops
-5b0e55d56fa24acb389a228a79382121eb28697f igb: Remove redundant runtime resume for ethtool_ops
-f6e92280154c19943d8dc068d9d80375b5aa9d3c igc: Remove redundant runtime resume for ethtool ops
-9c57133254beb189de47bf0302218fe9f5cf9501 ice: Fix package download algorithm
-ad608c8d0b6cc0e7dcb2e7aac20c09c27f7b3f4a i40e: Report MFS in decimal base instead of hex
-00e0765c26b5b832808742764d93ced3fe32e978 i40e: Remove flags field from i40e_veb
-237e5f0c553758260aba90eaa41a919f75117441 i40e: Refactor argument of several client notification functions
-2c4424bec6c5888038df52c756c03bf1a5664e2c i40e: Refactor argument of i40e_detect_recover_hung()
-2a564fb4006ea37166c5cdc2c8c6dd2de1a29664 i40e: Add helper to access main VSI
-b9343fecdda9a0309dbecd3b4812b56259f37d41 i40e: Consolidate checks whether given VSI is main
-f788dd3e4433881103c67dce8feda1978a4e1b5b i40e: Add helper to access main VEB
-5f80020a2b7ec95f66cb6d3f5f3d5aa31f5302da i40e: Add and use helper to reconfigure TC for given VSI
-c0488ae70438d7b9b6ec60bcd94e14a9cb1baa5d ice: add additional E830 device ids
-38acf4c110b2e266fa0c06f0dd7e005294d53540 ice: update E830 device ids and comments
 
---===============4059559599626318556==--
+--===============8275680022081371670==--
