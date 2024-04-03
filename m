@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 03 Apr 2024 19:56:17 -0000
-Message-Id: <171217417769.2169.4969492370165949651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Wed, 03 Apr 2024 20:15:02 -0000
+Message-Id: <171217530253.15853.1222652783082606086@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/thermal-core-testing
-    old: a89f1989a5e97c0ca6a1e355500e2659f64707c5
-    new: 4b198edad712128ac00fca23e2bb57ca650be3ba
+  - ref: refs/heads/misc.cmpxchg
+    old: 9e2f22ef1ae21b949a3903727d7e7cd5eb48810f
+    new: 218c8a5a5f1416b033a129b1354f06339c51873e
     log: |
-         1057c4c36ef8b236a2e28edef301da0801338c5f thermal: gov_power_allocator: Allow binding without cooling devices
-         da781936e7c301e6197eb6513775748e79fb2575 thermal: gov_power_allocator: Allow binding without trip points
-         887a2167423dab57382906ddcf66b32eb6ace525 thermal: core: Move threshold out of struct thermal_trip
-         29b5e33e57542c09db842b8d924ccca28592f347 thermal: core: Make struct thermal_zone_device definition internal
-         63ef0c98363daec41b3f30e109461cc1e85301fe thermal: core: Rewrite comments in handle_thermal_trip()
-         56e4ada79cc9647fb83fce20f85c0c5444875953 thermal: core: Send trip crossing notifications at init time if needed
-         4bef3e1d6bcfd34240a3e717f6aecbe996514f2a thermal: core: Sort trip point crossing notifications by temperature
-         4b198edad712128ac00fca23e2bb57ca650be3ba thermal: core: Relocate critical and hot trip handling
+         37b7a7950d1fcf807eaaf0f11a78fdcc91d28445 sparc32: make __cmpxchg_u32() return u32
+         3ecbd05eae60b9b6c524e669f076b3fa65de1d05 sparc32: make the first argument of __cmpxchg_u64() volatile u64 *
+         bb51b4713510c948d77bd283e32ca45f00e55785 sparc32: unify __cmpxchg_u{32,64}
+         a13651305604b2474357e8389c43d786de50c76e sparc32: add __cmpxchg_u{8,16}() and teach __cmpxchg() to handle those sizes
+         12974102288c242fed21a3661a6a9868f4bf76f7 parisc: __cmpxchg_u32(): lift conversion into the callers
+         8a249fca1d6574b421cc173a82377718143170e0 parisc: unify implementations of __cmpxchg_u{8,32,64}
+         948ef7cb2bbe078d49726b807882981a7284861e parisc: add missing export of __cmpxchg_u8()
+         218c8a5a5f1416b033a129b1354f06339c51873e parisc: add u16 support to cmpxchg()
          
