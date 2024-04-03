@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 03 Apr 2024 14:42:28 -0000
-Message-Id: <171215534814.11977.15902007985515990497@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Wed, 03 Apr 2024 14:45:37 -0000
+Message-Id: <171215553710.14807.9980696326131150323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 731369c312d5e5b9da28ed5bd0e13664563a0de1
-    new: 12f0502f30d01e42d931d8a2948324f9119fbb49
+  - ref: refs/heads/timers/testing
+    old: de1c641ecd737709b28c99bb1f7be62de4cf0620
+    new: b1c8634c6ecc6137dc202ac69838cdb0f39b36c4
     log: |
-         8c556541a53848d6611ff8b5f9bf52e96c56f48e cpufreq: intel_pstate: hide unused intel_pstate_cpu_oob_ids[]
-         12f0502f30d01e42d931d8a2948324f9119fbb49 Merge branch 'intel-pstate' into bleeding-edge
+         b1c8634c6ecc6137dc202ac69838cdb0f39b36c4 tracing
          
