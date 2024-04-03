@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 03 Apr 2024 08:49:27 -0000
-Message-Id: <171213416761.13089.14223776291554394133@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Wed, 03 Apr 2024 08:57:17 -0000
+Message-Id: <171213463759.19266.7451806277693192884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/vfs.misc
-    old: 80a07849c0b8d8a2e839c83cea939c2e1cd7800b
-    new: 644ca6fac6b6cd2bea7f8d167da52ff4f150895f
+  - ref: refs/heads/for-usb-linus
+    old: fe13ec41e6d40bade3cdefc56924ac03620c9ae9
+    new: fccce98cf8c0f2965801317c431910b1e6defc37
     log: |
-         02426828cde24cd5b6cf5f30467cea085118f657 fs: Annotate struct file_handle with __counted_by() and use struct_size()
-         bc1411a88d2fd97ec0a933f8ca2dff7ed14ec208 fs: claw back a few FMODE_* bits
-         0e74485c814ab0a01a471626a7f63b4de37c311e nilfs2: fix out-of-range warning
-         644ca6fac6b6cd2bea7f8d167da52ff4f150895f orangefs: cleanup uses of strncpy
+         fccce98cf8c0f2965801317c431910b1e6defc37 xhci: Fix root hub port null pointer dereference in xhci tracepoints
          
