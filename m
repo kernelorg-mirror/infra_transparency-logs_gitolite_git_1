@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 03 Apr 2024 15:06:35 -0000
-Message-Id: <171215679527.29193.2429018166443042905@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
+Date: Wed, 03 Apr 2024 15:07:59 -0000
+Message-Id: <171215687981.31126.9031979351339344914@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/mptcp/linux
+user: matttbe
 changes:
-  - ref: refs/heads/20240325_rf_alsa_cirrus_tidy_up_of_firmware_control_read_write
+  - ref: refs/heads/export
     old: 0000000000000000000000000000000000000000
-    new: 41289b203060e85e92251a70acb6c8c8cdaa34ed
+    new: 92e1f1e61b8c9332430e4797d5cb1bf6f408c1aa
