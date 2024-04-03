@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Wed, 03 Apr 2024 08:57:17 -0000
-Message-Id: <171213463759.19266.7451806277693192884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 03 Apr 2024 08:59:50 -0000
+Message-Id: <171213479083.20305.880231129297788489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-usb-linus
-    old: fe13ec41e6d40bade3cdefc56924ac03620c9ae9
-    new: fccce98cf8c0f2965801317c431910b1e6defc37
+  - ref: refs/heads/main
+    old: 84c41dcaae11ecd51d8514e2a9aaea4016cc5827
+    new: b1f81b9a535b48b2c9ca460720a2bc73fd2001de
     log: |
-         fccce98cf8c0f2965801317c431910b1e6defc37 xhci: Fix root hub port null pointer dereference in xhci tracepoints
+         464eb03c4a7cfb32cb3324249193cf6bb5b35152 rtnetlink: add guard for RTNL
+         b1f81b9a535b48b2c9ca460720a2bc73fd2001de netdevice: add DEFINE_FREE() for dev_put
          
