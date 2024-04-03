@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 03 Apr 2024 15:32:54 -0000
-Message-Id: <171215837469.17236.4886950163851238203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Wed, 03 Apr 2024 15:36:07 -0000
+Message-Id: <171215856706.20056.7049033101670243151@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/x86/apic
-    old: 39cd87c4eb2b893354f3b850f916353f2658ae6f
-    new: 0049f04c7dfe977a0f8f6935071db3416e641837
+  - ref: refs/heads/timers/testing
+    old: 3b34539fc0a7d0ad5c520f83ac58adc92385501d
+    new: 45406f6df1aa857434d206a1b0b9274b68ff5dc1
     log: |
-         0049f04c7dfe977a0f8f6935071db3416e641837 x86/apic: Improve data types to fix Coccinelle warnings
+         45406f6df1aa857434d206a1b0b9274b68ff5dc1 tracing
          
