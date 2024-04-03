@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 03 Apr 2024 02:46:15 -0000
-Message-Id: <171211237525.10139.12998870968647732100@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Wed, 03 Apr 2024 03:06:06 -0000
+Message-Id: <171211356686.23773.11377668131456229548@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/for-next
-    old: c07b4bcd5163c2929d8bfc55140325fc15afb4eb
-    new: 49b73fa623c47302befecba0c2c310739ed0a088
-    log: |
-         339af577ec05c8fc0b96f23579614ae853d913ab bpf: Add arm64 JIT support for PROBE_MEM32 pseudo instructions.
-         4dd31243e30843d5f63bccfb0369146e4de1a130 bpf: Add arm64 JIT support for bpf_addr_space_cast instruction.
-         49b73fa623c47302befecba0c2c310739ed0a088 Merge branch 'bpf-arm64-add-support-for-bpf-arena'
-         
+  - ref: refs/tags/selinux-pr-20240402
+    old: 0000000000000000000000000000000000000000
+    new: 4cc6bc5993c2de81334929ad390b23a6315c3e0f
