@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2686482339792463394=="
+Content-Type: multipart/mixed; boundary="===============6315306968562211514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 03 Apr 2024 15:52:49 -0000
-Message-Id: <171215956924.781.12584869155929930173@gitolite.kernel.org>
+Date: Wed, 03 Apr 2024 15:53:08 -0000
+Message-Id: <171215958818.997.17657499144401081490@gitolite.kernel.org>
 
---===============2686482339792463394==
+--===============6315306968562211514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,33 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: 118c6bde78fe4173da1b86c51de26cdf0f9b9153
+  - ref: refs/heads/200GbE
+    old: 5fc68320c1fb3c7d456ddcae0b4757326a043e6f
     new: 34c58c89feb3eefaf64e9ddf69b7e0f7c807414a
-    log: revlist-118c6bde78fe-34c58c89feb3.txt
+    log: revlist-5fc68320c1fb-34c58c89feb3.txt
 
---===============2686482339792463394==
+--===============6315306968562211514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-118c6bde78fe-34c58c89feb3.txt
+Content-Disposition: attachment; filename=revlist-5fc68320c1fb-34c58c89feb3.txt
 
-47220a1e0b701d144ef20131f31566cf0815095f igb: simplify pci ops declaration
-75a3f93b53832449c2c58a527a3865394cc656ba net: intel: implement modern PM ops declarations
-6f31d6b643a32cc126cf86093fca1ea575948bf0 igc: Refactor runtime power management flow
-ee4300b24a32ced81e72e11fdceeb8d536997a28 i40e: avoid forward declarations in i40e_nvm.c
-4cc1730a90fcdeac14eb44857b566a96e1170f79 doc: netlink: Change generated docs to limit TOC to depth 3
-8c1b74a26d96705ac55a43afe7a41fc6e44be390 doc: netlink: Add hyperlinks to generated Netlink docs
-2dddf8aaf67fe5c5e24e2afa5cbcaabcc7dd4e2a doc: netlink: Update tc spec with missing definitions
-513bebc4de499f8a6e1671eb921aca8f723e5cbc Merge branch 'doc-netlink-add-hyperlinks-to-generated-docs'
-58169ec9c40309541509181e068177eab72e6caa inet: preserve const qualifier in inet_csk()
-1eeb5043573981f3a1278876515851b7f6b1df1b tcp/dccp: do not care about families in inet_twsk_purge()
-092ca10741c19b4ffd975f09c456edeb9d58bccc Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-5bc63d3a6f466add504f283d9f743f20ca9ec334 netlink: create a new header for internal genetlink symbols
-f97c9b533a1dc60a77ff329e0117acc5ae17def5 net: openvswitch: remove unnecessary linux/genetlink.h include
-cd7209628cdb2a7edd7656c126d2455e7102e949 genetlink: remove linux/genetlink.h
-edaa34e68c8113f1625244689107567bf5bd1637 Merge branch 'genetlink-remove-linux-genetlink-h'
-5fc68320c1fb3c7d456ddcae0b4757326a043e6f ipv6: remove RTNL protection from inet6_dump_fib()
+0e2bddf9e5f926ce32ed635012d0f8a0b54075d5 ice: add ice_adapter for shared data across PFs on the same NIC
+d29a8134c78232213fb88f20d7ae865ec364e367 ice: avoid the PTP hardware semaphore in gettimex64 path
+22118810fc7cc98f3afb38919348060ab67ddc5b ice: fold ice_ptp_read_time into ice_ptp_gettimex64
+95ad92d687e78c90e720174ffdf7a728add95b9e ice: Add switch recipe reusing feature
+e6893962ef0ee15501a860615da8798c877961cd ice: Remove newlines in NL_SET_ERR_MSG_MOD
+0545cc86767e044b0c7bbcbbf59698a2ad78e0c5 ice: move ice_devlink.[ch] to devlink folder
+4ebc5f25d0819f3a89f3664ffdaae104bf4d9483 ice: move devlink port code to a separate file
+118c6bde78fe4173da1b86c51de26cdf0f9b9153 ice: hold devlink lock for whole init/cleanup
 c278ec644377249aba5b1e1ca2b5705fd1c0132c net: phy: aquantia: add support for AQR114C PHY ID
 d88cabfd9abcd01c7729e5383919357da732ada9 nfp: Avoid -Wflex-array-member-not-at-end warnings
 d6d647d7ba6413148c3db2d48640986c8c1d7d08 tools: ynl: add ynl_dump_empty() helper
@@ -75,4 +67,4 @@ ed4fb326947dc486f97c66168f6ac50f5d1efd19 gve: add support to read ring size rang
 834f9458f2fdb48dfb95976934c1594d086a956d gve: add support to change ring size via ethtool
 34c58c89feb3eefaf64e9ddf69b7e0f7c807414a Merge branch 'gve-ring-size-changes'
 
---===============2686482339792463394==--
+--===============6315306968562211514==--
