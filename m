@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 03 Apr 2024 12:10:16 -0000
-Message-Id: <171214621691.321.3041501458003502874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 03 Apr 2024 12:10:26 -0000
+Message-Id: <171214622688.452.10008450320435815827@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: acdba9c454506cdd29ac400df3f72bde4c74647d
-    new: ae2e26027addd9b33021b561f44b3669225549f6
-    log: |
-         a10081a52c48a5232db30d8e0a7a7570cc8163ae libblkid: topology/ioctl: correctly handle kernel types
-         ae2e26027addd9b33021b561f44b3669225549f6 Merge branch 'blkid/topology-ioctl' of https://github.com/t-8ch/util-linux
-         
+  - ref: refs/heads/20240329_laurentiumihalcea111_asoc_sof_imx_stop_using_the_imx8___clocks_api
+    old: 0000000000000000000000000000000000000000
+    new: e618b8b37aa1dac42f50c87373d71ecc68ead97d
