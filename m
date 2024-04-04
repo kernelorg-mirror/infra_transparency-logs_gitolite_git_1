@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 04 Apr 2024 10:49:02 -0000
-Message-Id: <171222774288.9352.12785123285804327850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Thu, 04 Apr 2024 11:05:55 -0000
+Message-Id: <171222875554.21559.17686824334976900907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/main
-    old: 72076fc9fe60b9143cd971fd8737718719bc512e
-    new: 101b76418d7163240bc74a7e06867dca0e51183e
+  - ref: refs/heads/next
+    old: b1d4c60cbc31d862cbbba8e303d66528e29b4e4e
+    new: 02e2a4b3638cdf6c001f368589966887a1420e01
     log: |
-         596a4254915f94c927217fe09c33a6828f33fb25 net: ravb: Always process TX descriptor ring
-         101b76418d7163240bc74a7e06867dca0e51183e net: ravb: Always update error counters
+         d72d7d6cf77d0f2079b7120628c9bf490de1fae2 cpuidle: psci: Drop superfluous wrappers psci_dt_attach|detach_cpu()
+         02e2a4b3638cdf6c001f368589966887a1420e01 cpuidle: psci: Update init level to core_initcall()
          
