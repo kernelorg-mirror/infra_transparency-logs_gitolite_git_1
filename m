@@ -1,50 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0160865750663598800=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 04 Apr 2024 15:55:35 -0000
-Message-Id: <171224613573.9505.7126850867805804794@gitolite.kernel.org>
-
---===============0160865750663598800==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 04 Apr 2024 16:17:48 -0000
+Message-Id: <171224746835.25282.15158893368064921289@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/slab/for-next
-    old: b1080c667b3b2c8c38a7fa83ca5567124887abae
-    new: b062539c4e2f31ff346795ce32012e9e6300d212
+  - ref: refs/heads/main
+    old: 04172043bd218dbbfc0c13bd4630142eb3f027cb
+    new: 1dee310c26677460fc1cc1d98c2d90b6e968988c
     log: |
-         b062539c4e2f31ff346795ce32012e9e6300d212 mm/slub: correct comment in do_slab_free()
+         d5ab32e9b02dc228444add3502261ad68391bf30 bnxt_en: Add delay to handle Downstream Port Containment (DPC) AER
+         8635ae8e99a670b38198b7561c6c57b13418f108 bnxt_en: Enable XPS by default on driver load
+         fba2e4e5dbab399eb8801801471ac69f9baeba98 bnxt_en: Allocate page pool per numa node
+         1614f06e09ad6b271c6ed8ffd87ccf89ec51526c bnxt_en: Change bnxt_rx_xdp function prototype
+         0ae1fafc8be6d4271a8ad66b4695e123a4e8cef1 bnxt_en: Add XDP Metadata support
+         4e474addc05a51c3515a88b54dbf21a10b747b23 bnxt_en: Update firmware interface to 1.10.3.39
+         e193f53aed21ad8fed5b87238c006090d75c9d18 bnxt_en: Add warning message about disallowed speed change
+         1dee310c26677460fc1cc1d98c2d90b6e968988c Merge branch 'bnxt_en-update-for-net-next'
          
-
---===============0160865750663598800==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1712246132 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1712246132-ba6106afa386999a4ce2ce3c183ccfc28244f674
-
-b1080c667b3b2c8c38a7fa83ca5567124887abae b062539c4e2f31ff346795ce32012e9e6300d212 refs/heads/slab/for-next
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmYOzXQACgkQu+CwddJF
-iJqnIwf/bx0S6Pt6bQ7iM2nzvjE5/bhkq4KxKSqGL9wyQj0n5cSu+b3srUIjSu7E
-hSJOsgsRO/ctJNgPDFU9T2tMvVocsxcfsSBR6ZC8Wd0yK+NK99kOmPv9//uenIlV
-ZMGkyny/NoKJhQnLVrOCoKWjDzIpP7JSyKaOEBk3jMPQES/h8lWZoxvRqIR5CjQJ
-UH8Jy/fv2rp91QyE3s83iuNyIeaPrcE1MCdih/9o8hFniPBpzHZYb/m1I1neUjHT
-zy/vvJcwdvSAcVT2/JbySgtsFIxF6Rvc2WzwkDOE0mHIXwqB/OKl/uIp645dSyUm
-DMX/75yPyCFA0zx+Wrxjm9WJV2D+HA==
-=hIbX
------END PGP SIGNATURE-----
-
---===============0160865750663598800==--
