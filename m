@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3386935422963081324=="
+Content-Type: multipart/mixed; boundary="===============5916825804622589505=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 04 Apr 2024 17:15:06 -0000
-Message-Id: <171225090674.5761.9112324723991834831@gitolite.kernel.org>
+Date: Thu, 04 Apr 2024 17:15:28 -0000
+Message-Id: <171225092887.5991.6167065948569331823@gitolite.kernel.org>
 
---===============3386935422963081324==
+--===============5916825804622589505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 34c58c89feb3eefaf64e9ddf69b7e0f7c807414a
     new: 1dee310c26677460fc1cc1d98c2d90b6e968988c
     log: revlist-34c58c89feb3-1dee310c2667.txt
 
---===============3386935422963081324==
+--===============5916825804622589505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -201,4 +201,4 @@ fba2e4e5dbab399eb8801801471ac69f9baeba98 bnxt_en: Allocate page pool per numa no
 e193f53aed21ad8fed5b87238c006090d75c9d18 bnxt_en: Add warning message about disallowed speed change
 1dee310c26677460fc1cc1d98c2d90b6e968988c Merge branch 'bnxt_en-update-for-net-next'
 
---===============3386935422963081324==--
+--===============5916825804622589505==--
