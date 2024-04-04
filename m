@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 04 Apr 2024 08:43:34 -0000
-Message-Id: <171222021459.31683.9882967375894900518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Thu, 04 Apr 2024 08:49:04 -0000
+Message-Id: <171222054415.3039.4085752616737158240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
-  - ref: refs/heads/main
-    old: c0de6ab920aafb56feab56058e46b688e694a246
-    new: 9ab4ad295622a3481818856762471c1f8c830e18
+  - ref: refs/heads/fixes
+    old: 39cd87c4eb2b893354f3b850f916353f2658ae6f
+    new: 592447f6cb3c20d606d6c5d8e6af68e99707b786
     log: |
-         9ab4ad295622a3481818856762471c1f8c830e18 tg3: Remove residual error handling in tg3_suspend
+         7d8ed162e6a92268d4b2b84d364a931216102c8e memblock tests: fix undefined reference to `early_pfn_to_nid'
+         e0f5a8e74be88f2476e58b25d3b49a9521bdc4ec memblock tests: fix undefined reference to `panic'
+         592447f6cb3c20d606d6c5d8e6af68e99707b786 memblock tests: fix undefined reference to `BIT'
          
