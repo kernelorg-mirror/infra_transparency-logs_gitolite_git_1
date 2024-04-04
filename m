@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2440169044632004295=="
+Content-Type: multipart/mixed; boundary="===============0941813971955896145=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 04 Apr 2024 17:03:37 -0000
-Message-Id: <171225021731.26518.4429068870999554926@gitolite.kernel.org>
+Date: Thu, 04 Apr 2024 17:04:09 -0000
+Message-Id: <171225024993.26778.15000287848941121586@gitolite.kernel.org>
 
---===============2440169044632004295==
+--===============0941813971955896145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 0a6380cb4c6b5c1d6dad226ba3130f9090f0ccea
-    new: 0c83842df40f86e529db6842231154772c20edcc
-    log: revlist-0a6380cb4c6b-0c83842df40f.txt
+  - ref: refs/heads/dev-queue
+    old: 36adaac21a9d983bad967d089a7d66ac54f072ba
+    new: a492c2b597db11fab1eb7d23500bcd2c7c621a66
+    log: revlist-36adaac21a9d-a492c2b597db.txt
 
---===============2440169044632004295==
+--===============0941813971955896145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a6380cb4c6b-0c83842df40f.txt
+Content-Disposition: attachment; filename=revlist-36adaac21a9d-a492c2b597db.txt
 
 90ca6956d3834db4060f87700e2fcbb699c4e4fd ice: Fix freeing uninitialized pointers
 8edfc7a40e3300fc6c5fa7a3228a24d5bcd86ba5 ice: fix enabling RX VLAN filtering
@@ -52,5 +52,12 @@ d313eb8b77557a6d5855f42d2234bd592c7b50dd net/sched: act_skbmod: prevent kernel-i
 a66323e4fa353d998d30de3ab4ae275bc497f3bb Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 d432f7bdc1cddd37e73dbe6b53b48785ab789e92 Merge tag 'nf-24-04-04' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 0c83842df40f86e529db6842231154772c20edcc netfilter: validate user input for expected length
+eecc17cd7143ce537d31cfafb18cce3d2d6a2a02 ice: tc: do default match on all profiles
+9e209cc74d1ed8b1006f3550e83a573195ca0af2 i40e: Prevent setting MTU if greater than MFS
+1ca42646aa60beb267bf5f30f2139dece30c669b ice: tc: check src_vsi in case of traffic from VF
+060bbbb78d08d27db69a8a23ca145674628cfbb9 ice: tc: allow zero flags in parsing tc flower
+ec0e54f5a16e10e1388830e8fec6c3a523707557 ice: Fix package download algorithm
+998df6524eb2538262c5d02e7eae89047e629104 i40e: Report MFS in decimal base instead of hex
+a492c2b597db11fab1eb7d23500bcd2c7c621a66 iavf: Fix TC config comparison with existing adapter TC config
 
---===============2440169044632004295==--
+--===============0941813971955896145==--
