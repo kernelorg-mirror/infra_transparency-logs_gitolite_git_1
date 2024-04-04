@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1088691450276089033=="
+Content-Type: multipart/mixed; boundary="===============1216837151084650322=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Thu, 04 Apr 2024 10:08:42 -0000
-Message-Id: <171222532271.12321.16195713990468603653@gitolite.kernel.org>
+Date: Thu, 04 Apr 2024 10:09:01 -0000
+Message-Id: <171222534182.12529.6018540574878199265@gitolite.kernel.org>
 
---===============1088691450276089033==
+--===============1216837151084650322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 2a93c6cbd5a703d44c414a3c3945a87ce11430ba
-    new: 39cd87c4eb2b893354f3b850f916353f2658ae6f
-    log: revlist-2a93c6cbd5a7-39cd87c4eb2b.txt
+  - ref: refs/heads/next
+    old: ccabbb6768fc72d6cb0223324925c93658d91e63
+    new: b1d4c60cbc31d862cbbba8e303d66528e29b4e4e
+    log: revlist-ccabbb6768fc-b1d4c60cbc31.txt
+  - ref: refs/tags/v6.9-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 9bd5def24522bfec169de38754165379b4f8d6f5
+  - ref: refs/tags/v6.9-rc2
+    old: 0000000000000000000000000000000000000000
+    new: eb285c4e8b2d05185325214894357eb2275f972e
 
---===============1088691450276089033==
+--===============1216837151084650322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a93c6cbd5a7-39cd87c4eb2b.txt
+Content-Disposition: attachment; filename=revlist-ccabbb6768fc-b1d4c60cbc31.txt
 
-58cd69cbd364f12166107697774f3d77b058e92e Merge branch 'for-6.9/samsung' into for-linus
-8c9089efd7c7c21f99cb0f4723e9b6ea8b66640a Merge branch 'for-6.9/unused-struct-removal' into for-linus
 0db18cd824f781584a880653e65a0cfd38f060ee Merge branch 'for-6.9/wacom' into for-linus
 2c5c0ba1179d31b0a030b45a16df6181d1bc3ea6 io_uring: simplify io_pages_free
 9219e4a9d4ad57323837f7c3562964e61840b17a io_uring/kbuf: rename is_mapped
@@ -1050,5 +1054,7 @@ c40845e3195d074b34f8f8e400e28c9403a06588 kbuild: make -Woverride-init warnings m
 18737353cca01db58bb62256338cbb820c310bd7 Merge tag 'edac_urgent_for_v6.9_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 7e40c2100c87e8f11c270b4ddbe0bf8534dcab21 Merge tag 'kbuild-fixes-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 39cd87c4eb2b893354f3b850f916353f2658ae6f Linux 6.9-rc2
+07623f57e4d1cad51624c5f7d3bdcefb5bd34c01 pmdomain: mediatek: scpsys: drop driver owner assignment
+b1d4c60cbc31d862cbbba8e303d66528e29b4e4e pmdomain: mediatek: Add MT8188 buck isolation setting
 
---===============1088691450276089033==--
+--===============1216837151084650322==--
