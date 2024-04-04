@@ -1,50 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8267833486672962261=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 04 Apr 2024 09:29:34 -0000
-Message-Id: <171222297442.32532.2739795724281861818@gitolite.kernel.org>
-
---===============8267833486672962261==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 04 Apr 2024 09:29:49 -0000
+Message-Id: <171222298919.32698.10474527449297947355@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/slab/for-6.10/cleanup
-    old: c8e9333b91321c0b6498a2d448a3adcb897d7ebf
-    new: ff99b18fee793826dd5604da72d6259a531b45e9
+  - ref: refs/heads/stable/v2.39
+    old: c5e6da31566a57567b6bf5a8e251b5da0c82bc43
+    new: 8230dec4c50810065403eefe3c8cda475976e3eb
     log: |
-         ff99b18fee793826dd5604da72d6259a531b45e9 mm/slub: simplify get_partial_node()
+         efa17ba759aa918787961115e58986a417d103d5 po: merge changes
+         a30cb9df9ef9d1e9b9daf6f06014c03a2cd7c4d3 po-man: merge changes
+         21c6d277e4ee26d97d9808d9c006f393d7c82d16 docs: update AUTHORS file
+         cf883d448454d010a851f75873ca43e941fbdaeb docs: update v2.39.4-ReleaseNotes
+         d7cc0f71ee06cbeea3ecae74e6f7f1dc7478ccf5 build-sys: fix po-man clean
+         8230dec4c50810065403eefe3c8cda475976e3eb build-sys: release++ (v2.39.4)
          
-
---===============8267833486672962261==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1712222970 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1712222970-22508b2c7d7c8a5815f52b014aa6a9578b8891d0
-
-c8e9333b91321c0b6498a2d448a3adcb897d7ebf ff99b18fee793826dd5604da72d6259a531b45e9 refs/heads/slab/for-6.10/cleanup
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmYOcvoACgkQu+CwddJF
-iJpKywf/T315yFgRZ4+V6aOgQt7MeDuz/Jt8kn8GvetPBc3pZu2SqZQrddKwEKYV
-DGdD3wdJ0ieHsnAcbnhL8caDn3Ds5wdVEbRGien3o/iWKK4eKqAzzANl83eg55aP
-V+8PKUtBSKNLr/cN8WkXNcvZPh9N7umJ5+RRgKIdhYRGbaKIUqHu9Cf3tGNnHKpJ
-s4gnikv6ZFC+i+PZeQ5HhnqIrB77VctHZay2iqSCW2grjXTmgfNP6SnmakDD+bca
-wA17Wn6PdBMPi30rxg9LIelTBTha4v8ZO8Sk+mpKRvjBr+S1Yx3iOqsKKi+ZIwV5
-ZyI2s83SV517QlissTHJdRYecI3eEw==
-=rd/y
------END PGP SIGNATURE-----
-
---===============8267833486672962261==--
