@@ -1,55 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8799816590551776529=="
+Content-Type: multipart/mixed; boundary="===============6331317482479362981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Thu, 04 Apr 2024 15:31:55 -0000
-Message-Id: <171224471515.23309.18264124485498953714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 04 Apr 2024 15:35:19 -0000
+Message-Id: <171224491984.26178.14359249698098013595@gitolite.kernel.org>
 
---===============8799816590551776529==
+--===============6331317482479362981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
+repo: pub/scm/linux/security/vulns
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 7fd47e3f272bc70f7fcb3e53e0437188dd37d95d
-    new: 14009f39d2632aef6ef2421e21791144f2da8dab
+  - ref: refs/heads/master
+    old: 035d6a426b0a839fff06ecea6ca3622b478251dc
+    new: d6ac1e685cca769c12038d3b929442658c52fbf1
     log: |
-         a7e88bc4de596388885f33d6d2205369b49ee3a6 Merge branch 'kvm-sev-init2' into HEAD
-         ac0ea861be269c655a8a42c85c8b0c6a44fade5d KVM: x86: Split core of hypercall emulation to helper function
-         bac56a3d9e3f2d2747ac054278d7491002773ee7 KVM: VMX: Move out vmx_x86_ops to 'main.c' to dispatch VMX and TDX
-         98602eb44b55dcb5ee38837a0a3798cab03a792d KVM: VMX: Modify NMI and INTR handlers to take intr_info as function argument
-         26fd6993f817de9a279c1b9a235b51eb627c3ba0 KVM: x86/tdp_mmu: Init role member of struct kvm_mmu_page at allocation
-         14009f39d2632aef6ef2421e21791144f2da8dab KVM: x86/tdp_mmu: Sprinkle __must_check
+         d6ac1e685cca769c12038d3b929442658c52fbf1 scripts/bippy: use the dyad output to create the git json array
          
 
---===============8799816590551776529==
+--===============6331317482479362981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1712244713 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1712244712-cb96e9ad58c6566f6d4c96a80565da8902bcfe16
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712244919 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1712244919-646862c91b3561540f64a297cf1282e5d6819918
 
-7fd47e3f272bc70f7fcb3e53e0437188dd37d95d 14009f39d2632aef6ef2421e21791144f2da8dab refs/heads/queue
+035d6a426b0a839fff06ecea6ca3622b478251dc d6ac1e685cca769c12038d3b929442658c52fbf1 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmYOx+kUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroPUBggAkicRIn8VQ6bvTVbJJXl0DmE88Bid
-qvinoIR3hp2ydTk5YU8cKV5Ga8EyHXdr0eUF51exUUMekK2AQdCqo3k4F2+okYZ7
-m8MhU4LiXNc7CZWOGixVZwtJcxA5EdyZVJ0kZSZKqrJ13LLCXcDaKTK1fqZCwcv2
-1AAOii9SrdtyQqjaCthPohZ+nUc+ZjTlq+iAiV1Gx3mOZ2A5ufSdIuvXOJL67CNq
-Esdli3Qq92fV0E44R7TJfX6Im02cxkquthO0X+OUmau4LxfAJZhj1JOUihPFTrDa
-U7WTyJ881K+0Ey37iSZzcm7ts7sNxt4mSjZV2s0ixAViNq0QPw7NDvoaDg==
-=aReT
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYOyLcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IzkP/iFw+NqMx/gIENsF8Y1R
+ASbpdhWtlDZ3cv9wnS4mO8Le4joxLovmVNdqosPh/MaKbnzvAZqnRoR8/LNjOGSC
+A6m4mMQBRmAEPxPL/aubhHXzAUTBXxvFwDTqibcVm4tyacEA9pQasAuNBHeLcA3P
+cLOOzZUqaPItbP/ynn60WvHBaPqRJTbWec6dOaaX8rdbS8a0yc+5hh28oBstev3w
+Xivz26+mHjr6O73ccSauBcUE10HwBwqlMsKk46pbQs3Acq3gIWzduNy9ovRdEsz2
+FaddUShawtARo13BCR/WzS+YsmvT0mJlA7hRPS66WcwBaYaYGjD4QCQVNBGsgAb/
+sc92OwmyFuYZF3cykV7OHZ7zAFX/Q8qmaFa/sLZsXp47d0xcl7FQs43jFh5GPf6W
+Hu89DL15n0E2rEXOisg/JrO+sr+F8MAjkZpk72Wz5VBvtf0h1ug9Y8T7qJQFLabu
+0JRyEX7uOmxlv1HDGDCU+81VWPViDOLISif6xAOanGZ2gN6U224vgeG+ZayMBjv1
+X6POwdZaB7EMSlFPD6xRRfg4eQ6f574L3oYvvrsOtBCJyICYGnmaSyO0CnJO+V3X
+2wJDUoFa0Vu4XmuOr7iRWrIQNTWJqXdLp13bIyrMmL0ksco9p7i+Q8dUha09f8hL
+Fq7bSsjkPm9FJal0DQKusjQu
+=FImj
 -----END PGP SIGNATURE-----
 
---===============8799816590551776529==--
+--===============6331317482479362981==--
