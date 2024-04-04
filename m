@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4797295786196363330=="
+Content-Type: multipart/mixed; boundary="===============7576308408501941117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 04 Apr 2024 17:08:25 -0000
-Message-Id: <171225050593.31666.3817843127549087771@gitolite.kernel.org>
+Date: Thu, 04 Apr 2024 17:09:02 -0000
+Message-Id: <171225054222.31975.13767287426703739544@gitolite.kernel.org>
 
---===============4797295786196363330==
+--===============7576308408501941117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 34c58c89feb3eefaf64e9ddf69b7e0f7c807414a
-    new: 1dee310c26677460fc1cc1d98c2d90b6e968988c
-    log: revlist-34c58c89feb3-1dee310c2667.txt
+  - ref: refs/heads/dev-queue
+    old: e4c417070c4f5e3f78e2b568d81d3861004ced3a
+    new: 0a3074e5b4b523fb60f4ae9fb32bb180ea1fb6ef
+    log: revlist-e4c417070c4f-0a3074e5b4b5.txt
 
---===============4797295786196363330==
+--===============7576308408501941117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-34c58c89feb3-1dee310c2667.txt
+Content-Disposition: attachment; filename=revlist-e4c417070c4f-0a3074e5b4b5.txt
 
 4cd6eb606f02d979118e7cc347041b65302a3b06 wifi: ath12k: remove obsolete struct wmi_start_scan_arg
 8b98530483571675c106218dc5723699320e7a19 wifi: ath11k: remove obsolete struct wmi_start_scan_arg
@@ -200,5 +200,37 @@ fba2e4e5dbab399eb8801801471ac69f9baeba98 bnxt_en: Allocate page pool per numa no
 4e474addc05a51c3515a88b54dbf21a10b747b23 bnxt_en: Update firmware interface to 1.10.3.39
 e193f53aed21ad8fed5b87238c006090d75c9d18 bnxt_en: Add warning message about disallowed speed change
 1dee310c26677460fc1cc1d98c2d90b6e968988c Merge branch 'bnxt_en-update-for-net-next'
+665aefbc85e6f18f0c46d981c0c158771abd6ded e1000e: Workaround for sporadic MDI error on Meteor Lake systems
+c8718dec725d32f211f28f9aa78359a821d693da e1000e: move force SMBUS from enable ulp function to avoid PHY loss
+521e1f7bb7a4b9087a10515d70129e9f9fca5182 ice: Remove ndo_get_phys_port_name
+13dc3ae8562d6cdcf6b1dbaea883fbe4a8632093 ice: tc: do default match on all profiles
+c5fbe39adfc6f86d2c793b38d3bedf054872a5c7 i40e: fix i40e_count_filters() to count only active/new filters
+969b7a5fe038b75def1f014a5f957dce0bb90ab9 i40e: fix vf may be used uninitialized in this function warning
+93719099328fd5b193da4e2044cdcee393ff5921 i40e: Prevent setting MTU if greater than MFS
+9cfa8b83c9370b393b545a6a27ae78f82c941611 i40e: Fix VF MAC filter removal
+4613b488250d300ebf8ac19b3395c5ec4d1b0f5f ice: tc: check src_vsi in case of traffic from VF
+20842ee47b3d22935b30f324dfbb14caf6265ff5 ice: tc: allow zero flags in parsing tc flower
+83171841a6fcc623eb2794ac35aded17d0678e84 i40e: Enforce software interrupt during busy-poll exit
+eaf8263b811aa0f01c18bcd8900472a87e005763 idpf: fix kernel panic on unknown packet types
+b8fb1c387186e1d77cb6a8cb2590cd1dbf5038fd ice: fix enabling RX VLAN filtering
+a8b015280f3948bd78f6946558c34d78c9cca388 ice: set vf->num_msix in ice_initialize_vf_entry()
+845699feb1b4ed5480d7b5f38bd64e788737cb16 ice: store VF relative MSI-X index in q_vector->vf_reg_idx
+09a18233eb8f9273c1b186f640d4880290fedaf2 ice: Fix freeing uninitialized pointers
+8c6744f3173cf73876d95f4e3313490514311196 igc: Add Tx hardware timestamp request for AF_XDP zero-copy packet
+f7d3ab0f5392161ef7b278033076b4127ccbaaeb e1000e: Remove redundant runtime resume for ethtool_ops
+dec78be3b2c6fad5cd00cfb79990f6533b155aed igb: Remove redundant runtime resume for ethtool_ops
+dab567a72dd0640a0c5f5903857679d30386644f igc: Remove redundant runtime resume for ethtool ops
+f79f5b375aa036761ad3c1cefda54657263b4e89 ice: Fix package download algorithm
+3b075f382a4d522b2ba007940d7851a582e391dd i40e: Report MFS in decimal base instead of hex
+976fa374f62966b01f010b62b58f7c5f58df34ef i40e: Remove flags field from i40e_veb
+0f19bb6c9ab39990650be9fb64bee6fc8083b491 i40e: Refactor argument of several client notification functions
+05525e24eb0a8e73a932fc2e2ffa4ddd4d9f071d i40e: Refactor argument of i40e_detect_recover_hung()
+c3db5017268b693a4e06235c061af20694c26e63 i40e: Add helper to access main VSI
+72c63c60b5b4c885dd710f3ca95e22142f9f45a7 i40e: Consolidate checks whether given VSI is main
+40ca8319a0f23ffc3792fcf9347857729328575b i40e: Add helper to access main VEB
+a3a18de445cbed79d520a1f90fc63b20fb360210 i40e: Add and use helper to reconfigure TC for given VSI
+25008ec86043ee8a2c152f44b25226ea089357c4 ice: add additional E830 device ids
+1904ef45c393ae521e7f07a62c2d05ce1445f12d ice: update E830 device ids and comments
+0a3074e5b4b523fb60f4ae9fb32bb180ea1fb6ef iavf: Fix TC config comparison with existing adapter TC config
 
---===============4797295786196363330==--
+--===============7576308408501941117==--
