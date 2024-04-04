@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 04 Apr 2024 16:50:04 -0000
-Message-Id: <171224940415.17788.15342203981238445206@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Thu, 04 Apr 2024 16:52:23 -0000
+Message-Id: <171224954355.18733.17957959257600021351@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/rw_iter
-    old: dc20900c9c15e7ca1961fe2d1eb50cc6938c5e78
-    new: a547cd15f9b41b59198fd91d7ca5711af1452a51
+  - ref: refs/heads/fixes
+    old: 224fe424c356cb5c8f451eca4127f32099a6f764
+    new: 72d7cb5c190befbb095bae7737e71560ec0fcaa6
     log: |
-         05f15eff60a663c24903bdfdb5ccb3faa4712ad9 sound: convert drivers to read/write iterators
-         11dc33edf0b286701d0b553e6802c56995667f4c block: convert to read/write iterators
-         a547cd15f9b41b59198fd91d7ca5711af1452a51 kernel: convert to read/write iterators
+         1a4ea83a6e67f1415a1f17c1af5e9c814c882bb5 selftests/ftrace: Limit length in subsystem-enable tests
+         72d7cb5c190befbb095bae7737e71560ec0fcaa6 selftests/harness: Prevent infinite loop due to Assert in FIXTURE_TEARDOWN
          
