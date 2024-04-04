@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 04 Apr 2024 15:10:26 -0000
-Message-Id: <171224342643.8274.15357453027428845924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 04 Apr 2024 15:15:01 -0000
+Message-Id: <171224370152.10248.4569072717423083530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/20240403_cezary_rojewski_asoc_drop_soc_topology_abi_v4_support
-    old: 0000000000000000000000000000000000000000
-    new: 4ba509bf3988f36b536b49b9e7022a6358f87f56
+  - ref: refs/heads/master
+    old: 6999f8229e5998e8286e6a960779b6c202d878da
+    new: dab56f80e7f91d14188f891fb37f0d7116772ba7
+    log: |
+         dab56f80e7f91d14188f891fb37f0d7116772ba7 char: tpm: handle HAS_IOPORT dependencies
+         
