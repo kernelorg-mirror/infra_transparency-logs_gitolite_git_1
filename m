@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 04 Apr 2024 23:19:04 -0000
-Message-Id: <171227274433.2772.14852907901763599438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 04 Apr 2024 23:22:22 -0000
+Message-Id: <171227294222.5561.12564667672101311196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: a5f38817dfae22e462f14e4ce7b7d9337c26f9bf
-    new: 7671c9259e22f82e479ec87b4b8d7128f25a5220
-    log: |
-         7671c9259e22f82e479ec87b4b8d7128f25a5220 foo
-         
+  - ref: refs/tags/net-6.9-rc3
+    old: 6fc298f89d144ad1626ec4b7853aae0f40284735
+    new: 0000000000000000000000000000000000000000
