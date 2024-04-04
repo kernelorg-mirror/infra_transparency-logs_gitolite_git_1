@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4010949835812810907=="
+Content-Type: multipart/mixed; boundary="===============6441172521782060181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 04 Apr 2024 18:25:58 -0000
-Message-Id: <171225515896.4192.5112024407657280474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 04 Apr 2024 18:25:59 -0000
+Message-Id: <171225515984.4246.15560013242332255990@gitolite.kernel.org>
 
---===============4010949835812810907==
+--===============6441172521782060181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.6.25
-    old: 0000000000000000000000000000000000000000
-    new: 2e68b7e99b5a13e0353310d2cae0aaf7c1b392ac
-  - ref: refs/tags/v6.8.4
-    old: 0000000000000000000000000000000000000000
-    new: e9013a3be222b740c9fc1be0dc8e96f9bbf17e33
+  - ref: refs/notes/signatures/tar
+    old: 632371a94f70472db45c49c475b0145f58761001
+    new: d6606b4490810502738360c32a3152da20a8d6e4
+    log: |
+         d6606b4490810502738360c32a3152da20a8d6e4 Notes added by 'git notes add'
+         
 
---===============4010949835812810907==
+--===============6441172521782060181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712255157 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1712255155-c60eb30ed6229da45607ce27b8e694213cfb5ffa
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712255158 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1712255157-3a787f48a627de431f7588b791485ca9798fab30
 
-0000000000000000000000000000000000000000 2e68b7e99b5a13e0353310d2cae0aaf7c1b392ac refs/tags/v6.6.25
-0000000000000000000000000000000000000000 e9013a3be222b740c9fc1be0dc8e96f9bbf17e33 refs/tags/v6.8.4
+632371a94f70472db45c49c475b0145f58761001 d6606b4490810502738360c32a3152da20a8d6e4 refs/notes/signatures/tar
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYO8LUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Li4P/jgucswk78rBEsnaESLh
-/yAXnEqWrh/6TFo8+gbY7RMecKhE+W6x8beir/HzjNAtj0XPtiYEed/4AZbBu5Wh
-mpqrlHlGl3uteWdIOkEHNwfMpg9qrN3U1ICG5m6veU3WTLvqSOgPlanfjbFrHaYB
-5Ci0M8ySB4QGIH+yhWR16HE/z6PGkLKlzJUzcy3ReaEVQ/CVDUfsJS8OicFFraNM
-Nc9WYepBtkLy2W9V0aU1a7xSiKx6EeoREkYjjln0Ttzy6IYUxXY6YjCcgHGAp+WC
-BgGTrQUeN695bBfVesE3zqoGgEFR9Tkvds23lACcXHeDIsrxO75XdvfP8kWLBpz9
-fQJMsAdadh9q1ot+DTWVxd7rmmnAsIDNXga8qkZUUU3Mkn7GoALsLuAN7nI3f7G+
-fATcvxNhNve8qoK1fgJVvBXASTXgdGW1BW0GBbN1e5plgo/ONmP0P/g0cRqBuw6n
-IRXoRdSfuyMj6p+h+G24siA2dKm60F/g3TI2QgOeZQXSC8rAPGuOV3i7bbHEjsH1
-N6ospEqIGxIYPXw1MMhhdk/w3ewHXRkVB8RNmb2gUp5G9Dav+j7a4leRTGezDbYC
-WKfshbzQnSZ/bLb857/sBXEXVltPAG6ETv7RQVDaARqUbm9VDD9bqjOFeEeTkVUz
-XPzayXDqWOUc4Yw0c5hyN5PN
-=Dqu5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYO8LYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PCQP/j5ipaEFowHhECUaEXHT
+bPh4e+vy5mf4c+fDJ2q4ytvVl+W8VMXxpC2rM9KshOxnnPAQ9yvUSfPjHOHHuP6g
+oLbS7xo3Yz/vfDnIWOXg8gh88hZOvFyrxjmzpvAlBpiUoQsZdjDDOOBuPfsn6A60
+f4xnjTLTm6imhCoXaWiq6LnoBrB+WEaJ4dYnPmwvGj8vusFBB/GQqv3lHgXk/Qlp
+hPMKPNvogMeo66/iqBOfi3jUWLXGG6EKcjhzWzizptmQxh0DhPG82dAHl5MIuD53
+uVkCnRIi/q86cQX4nQbZBphPA8ufqyKNVekmKq2ylgKn9RPlMIZaCMQImhMGWj3a
+h/90FZfmcxkx7k5250HabCnfSkNJf5Z5LGD2wMaulxgLXfJUE+Juc5vAK4Agb+po
+w0r+MqsUFgkUbSHQu4CzvAZz9qvFPgJu/8IeFU6isvGO1g6915ICyxCP7csBXl/8
+lMTLSbXI3jJlTEEU8Nnby/bko1XnfazSIn4ZNYlEoV2I87J5elWqkKFN//qOcm7G
+GOmhQAyRsLOxW4INkd0lR/ie/KBIbyrZElIDkknoOGyT0E8fp272GlLTisGTb70F
+KsWqm9rZ7Aca2VQBw1h2NRSvN0PDTWkGyH9H13Y/afrmU2Nu623p47dtWVrMGd3I
+vqTUGrKNwikWp2TLMIOC0uqj
+=2/Om
 -----END PGP SIGNATURE-----
 
---===============4010949835812810907==--
+--===============6441172521782060181==--
