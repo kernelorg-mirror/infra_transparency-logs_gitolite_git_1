@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 04 Apr 2024 17:09:35 -0000
-Message-Id: <171225057500.32319.9156665638952744318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Thu, 04 Apr 2024 17:10:22 -0000
+Message-Id: <171225062228.1973.1388665536458859281@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: 2cfa0eea2675ce569dc80d2c0d2d644a452b77b3
-    new: fe4a074542563c539f6285de1ec78b47f9c9da7d
+  - ref: refs/heads/next
+    old: e1e4db64728f8f43c610ca723e443f6caebf19b4
+    new: 39e0a7b79ad6bbfe216330ca2b1cf6fa28ea46a2
     log: |
-         251ea652050e715886b272f831cf5016150a60c8 ASoC: Intel: Skylake: Remove soc-topology ABI v4 support
-         c57468dc1f80a4a3bf6dd271688837d3c1f26e75 ASoC: topology: Remove ABI v4 support
-         82c192540b242a8bf3c3d4140905650df9f327d4 ASoC: topology: Cleanup after ABI v4 support removal
-         4ba509bf3988f36b536b49b9e7022a6358f87f56 ASoC: topology: Remove obsolete ABI v4 structs
-         fe4a074542563c539f6285de1ec78b47f9c9da7d ASoC: Drop soc-topology ABI v4 support
+         8e9cbe2b88c6790a2cfdb293442165bd7b9c45af kselftest: Add missing signature to the comments
+         39e0a7b79ad6bbfe216330ca2b1cf6fa28ea46a2 selftests: add ksft_exit_fail_perror()
          
