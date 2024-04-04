@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3394452760806365520=="
+Content-Type: multipart/mixed; boundary="===============0125933870991885799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 04 Apr 2024 13:54:11 -0000
-Message-Id: <171223885149.14036.12871578412861920849@gitolite.kernel.org>
+Date: Thu, 04 Apr 2024 13:54:17 -0000
+Message-Id: <171223885744.14160.12374334816031931949@gitolite.kernel.org>
 
---===============3394452760806365520==
+--===============0125933870991885799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
-    old: f0f5c4894f89bac9074b45bccc447c3659a0fa6f
+  - ref: refs/heads/loongarch-next
+    old: 18b722527e2c919769d21beb8d78fb0123a0e305
     new: be4f3b91d8598defe799a67e3cec406fd67a9d6b
-    log: revlist-f0f5c4894f89-be4f3b91d859.txt
+    log: revlist-18b722527e2c-be4f3b91d859.txt
 
---===============3394452760806365520==
+--===============0125933870991885799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0f5c4894f89-be4f3b91d859.txt
+Content-Disposition: attachment; filename=revlist-18b722527e2c-be4f3b91d859.txt
 
+279d44ceb8a495d287ec563964f2ed04b0d53b0e Merge tag '6.9-rc-smb3-client-fixes-part1' of git://git.samba.org/sfrench/cifs-2.6
+2e21dee6a46a66e4c2ced778485e1044101edee4 Merge branch 'for-6.9/amd-sfh' into for-linus
+9459630372bb989ec5418b65bda3fe067c130483 Merge branch 'for-6.9/lenovo' into for-linus
+1b99fb197a4110d82f14e66c71f63dfe4cf16d72 Merge branch 'for-6.9/nintendo' into for-linus
+58cd69cbd364f12166107697774f3d77b058e92e Merge branch 'for-6.9/samsung' into for-linus
+8c9089efd7c7c21f99cb0f4723e9b6ea8b66640a Merge branch 'for-6.9/unused-struct-removal' into for-linus
+0db18cd824f781584a880653e65a0cfd38f060ee Merge branch 'for-6.9/wacom' into for-linus
 2c5c0ba1179d31b0a030b45a16df6181d1bc3ea6 io_uring: simplify io_pages_free
 9219e4a9d4ad57323837f7c3562964e61840b17a io_uring/kbuf: rename is_mapped
 babbcc02327a14a352a7899dc603eaa064559c75 Merge tag 'xfs-6.9-merge-8' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
@@ -479,13 +486,6 @@ b9f7425239a09903629f71f719654983481b00aa virtio-net: convert rx mode setting to 
 0d197a14716481626f863d2091f4c328bf5412e3 virtio-net: add cond_resched() to the command waiting loop
 b1dc24aba789190dad0047c1f4c16049dd698769 virtio_net: unify the code for recycling the xmit ptr
 5da7137de79ca6ffae3ace77050588cdf5263d33 virtio_net: rename free_old_xmit_skbs to free_old_xmit
-8b5db5e5337ecb0a7954c39020861867a85b6206 LoongArch: Select ARCH_HAS_CURRENT_STACK_POINTER in Kconfig
-f48ad26e5e57016b447461f22ecf7c3ed8337353 LoongArch: Select HAVE_ARCH_USERFAULTFD_MINOR in Kconfig
-c87e12e0e8c1241410e758e181ca6bf23efa5b5b LoongArch: Change __my_cpu_offset definition to avoid mis-optimization
-d42ab9af605ee406ec339e5e80a1c3a708637fd6 LoongArch: Move {dmw,tlb}_virt_to_page() definition to page.h
-82bf60a6fed806d57e284a1fb40dbc1ad5097611 LoongArch: Remove superfluous flush_dcache_page() definition
-9c68ece8b2a5c5ff9b2fcaea923dd73efeb174cd LoongArch: Define the __io_aw() hook as mmiowb()
-fea1c949f6ca5059e12de00d0483645debc5b206 LoongArch/crypto: Clean up useless assignment operations
 f55acb1e44f3d4bf1ca7926d777895a67d4ec606 timers/migration: Fix endless timer requeue after idle interrupts
 03877039863be021a19fda307136657bb6d61f75 timers: Fix removed self-IPI on global timer's enqueue in nohz_full
 f6e0a4984c2e7244689ea87b62b433bed9d07e94 net: move dev->state into net_device_read_txrx group
@@ -1051,4 +1051,4 @@ c40845e3195d074b34f8f8e400e28c9403a06588 kbuild: make -Woverride-init warnings m
 ee6eb44a9658566e91695ed768f1eb599576f0f1 LoongArch: Make {virt, phys, page, pfn} translation work with KFENCE
 be4f3b91d8598defe799a67e3cec406fd67a9d6b LoongArch: Make virt_addr_valid()/__virt_addr_valid() work with KFENCE
 
---===============3394452760806365520==--
+--===============0125933870991885799==--
