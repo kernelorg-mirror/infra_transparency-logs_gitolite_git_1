@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 04 Apr 2024 21:15:23 -0000
-Message-Id: <171226532312.11020.17681938177832013097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Thu, 04 Apr 2024 21:32:51 -0000
+Message-Id: <171226637134.21957.3818455131141695656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/for-linus
-    old: b9846a386734e73a1414950ebfd50f04919f5e24
-    new: 90f8917e7a15f6dd508779048bdf00ce119b6ca0
+  - ref: refs/heads/next-integrity-testing
+    old: 13f3817d9d339ece97de44dd9a2ce306846b6fc0
+    new: 88a490d1d0fd0caf64e14b7e8a7efc8a6c3b4c0e
     log: |
-         90f8917e7a15f6dd508779048bdf00ce119b6ca0 ASoC: SOF: Core: Add remove_late() to sof_init_environment failure path
-         
-  - ref: refs/heads/for-next
-    old: e4abec33a045350b23dacf323be8e93c2b580472
-    new: 70b9f55ae379a6c76f91410a00662eb0929d4bd7
-    log: |
-         90f8917e7a15f6dd508779048bdf00ce119b6ca0 ASoC: SOF: Core: Add remove_late() to sof_init_environment failure path
-         70b9f55ae379a6c76f91410a00662eb0929d4bd7 Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
+         df3617102a0b16b956df397a8de00bee40392165 ima: Rename backing_inode to real_inode
+         e8ed033ff394d903d96969caa8b35dfca33dc046 security: allow finer granularity in permitting copy-up of security xattrs
+         e072548d65c9db665c7f57f3b40f65b3caa27b93 evm: Implement per signature type decision in security_inode_copy_up_xattr
+         d2473b191970a5e0cbf7422de19492008108d329 evm: Use the metadata inode to calculate metadata hash
+         028add11f9e5350adc52863d9e304b565a92167f ima: Move file-change detection variables into new structure
+         22fb8200b5e37dcab20432b6be4b9e321e14725e evm: Store and detect metadata inode attributes changes
+         965f4707011d640baab667c9b8e4613bfba2a6fe ima: re-evaluate file integrity on file metadata change
+         c42f96e344ad7421e064939907fafc5a95e3734c evm: Enforce signatures on unsupported filesystem for EVM_INIT_X509
+         1b36280a501ea41af2e2b8740bed5598a09d21b7 fs: Rename SB_I_EVM_UNSUPPORTED to SB_I_EVM_HMAC_UNSUPPORTED
+         88a490d1d0fd0caf64e14b7e8a7efc8a6c3b4c0e evm: Rename is_unsupported_fs to is_unsupported_hmac_fs
          
