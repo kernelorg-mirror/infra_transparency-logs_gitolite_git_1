@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 04 Apr 2024 16:37:28 -0000
-Message-Id: <171224864826.8041.18299349529173795428@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Thu, 04 Apr 2024 16:39:09 -0000
+Message-Id: <171224874962.8822.6273472539155506828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/main
-    old: 2e91bb99b9d4f756e92e83c4453f894dda220f09
-    new: a66323e4fa353d998d30de3ab4ae275bc497f3bb
+  - ref: refs/heads/edac-for-next
+    old: 7132365e62fba15f6f082c65ff92f28a0491e535
+    new: 063628069e05f1a7e060f3593dd3a2046802a75d
     log: |
-         90ca6956d3834db4060f87700e2fcbb699c4e4fd ice: Fix freeing uninitialized pointers
-         8edfc7a40e3300fc6c5fa7a3228a24d5bcd86ba5 ice: fix enabling RX VLAN filtering
-         dd19e827d63ac60debf117676d1126bff884bdb8 idpf: fix kernel panic on unknown packet types
-         d313eb8b77557a6d5855f42d2234bd592c7b50dd net/sched: act_skbmod: prevent kernel-infoleak
-         a66323e4fa353d998d30de3ab4ae275bc497f3bb Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+         d7518ad4ed0cc9e6a532149dcde924e63c133cfc EDAC/mc_sysfs: Convert sprintf()/snprintf() to sysfs_emit()
+         063628069e05f1a7e060f3593dd3a2046802a75d Merge ras/edac-misc into for-next
          
