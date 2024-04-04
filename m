@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 04 Apr 2024 12:00:41 -0000
-Message-Id: <171223204192.28780.15190404184127121690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Thu, 04 Apr 2024 12:09:57 -0000
+Message-Id: <171223259718.2612.12939014653894889254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/fileDylOxH
-    old: 0000000000000000000000000000000000000000
-    new: 9f1aeef4cbcb0e8c616e29cdce3232f9f102c2c1
-  - ref: refs/heads/fileUxBYBZ
-    old: 0000000000000000000000000000000000000000
-    new: b9846a386734e73a1414950ebfd50f04919f5e24
+  - ref: refs/heads/main
+    old: a89485924c3a88fb9298b3674ad3f30a84b70420
+    new: 4bf6db5ce8afcbc36ee965778f831d23509c64ff
+    log: |
+         4bf6db5ce8afcbc36ee965778f831d23509c64ff po: update es.po (from translationproject.org)
+         
+  - ref: refs/heads/master
+    old: a89485924c3a88fb9298b3674ad3f30a84b70420
+    new: 4bf6db5ce8afcbc36ee965778f831d23509c64ff
+    log: |
+         4bf6db5ce8afcbc36ee965778f831d23509c64ff po: update es.po (from translationproject.org)
+         
