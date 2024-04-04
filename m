@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 04 Apr 2024 03:16:27 -0000
-Message-Id: <171220058783.21921.18233910760246603513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Thu, 04 Apr 2024 03:43:31 -0000
+Message-Id: <171220221121.8398.7279497782100129600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/master
-    old: a80b30bc332d91429163ecbffaf2d5ef6d0bc173
-    new: b7006fd57ec4d8186a466da8a3039b4e3797d340
+  - ref: refs/heads/for-6.9-fixes
+    old: c88b50a12f962f520dfab0a53ab393f43df9bbd4
+    new: e85006ae7430aef780cc4f0849692e266a102ec0
     log: |
-         b7006fd57ec4d8186a466da8a3039b4e3797d340 foo
+         3137b83a90646917c90951d66489db466b4ae106 ata: sata_mv: Fix PCI device ID table declaration compilation warning
+         e85006ae7430aef780cc4f0849692e266a102ec0 ata: sata_gemini: Check clk_enable() result
          
