@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Thu, 04 Apr 2024 10:37:27 -0000
-Message-Id: <171222704703.1904.13348725789098395011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 04 Apr 2024 10:49:02 -0000
+Message-Id: <171222774288.9352.12785123285804327850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/tags/nf-24-04-04
-    old: 0000000000000000000000000000000000000000
-    new: 19fc8f62f556e35fa09e5b74c8c52a8bce7fdbe1
-  - ref: refs/tags/v6.9-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9bd5def24522bfec169de38754165379b4f8d6f5
+  - ref: refs/heads/main
+    old: 72076fc9fe60b9143cd971fd8737718719bc512e
+    new: 101b76418d7163240bc74a7e06867dca0e51183e
+    log: |
+         596a4254915f94c927217fe09c33a6828f33fb25 net: ravb: Always process TX descriptor ring
+         101b76418d7163240bc74a7e06867dca0e51183e net: ravb: Always update error counters
+         
