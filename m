@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 04 Apr 2024 07:40:12 -0000
-Message-Id: <171221641273.18918.448632465813402905@gitolite.kernel.org>
+Date: Thu, 04 Apr 2024 07:40:17 -0000
+Message-Id: <171221641708.19037.18383650143578337832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/x86/urgent
-    old: c3eeb1ffc6a88af9b002e22be0f70851759be03a
-    new: 9852b1dc6a140365977d7bfb5fa03d413b3417ad
+  - ref: refs/heads/master
+    old: 5215a6e42ee04624e243982323191ad64b531a68
+    new: 88fa88103f54c8f3324b3e6c44dbeaab84d15bde
     log: |
          9852b1dc6a140365977d7bfb5fa03d413b3417ad x86/numa/32: Include missing <asm/pgtable_areas.h>
+         88fa88103f54c8f3324b3e6c44dbeaab84d15bde Merge branch into tip/master: 'x86/urgent'
          
