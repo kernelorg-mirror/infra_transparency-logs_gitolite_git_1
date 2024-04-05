@@ -1,43 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============4270171141895352047=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 05 Apr 2024 17:08:41 -0000
-Message-Id: <171233692107.12372.3885496377008014025@gitolite.kernel.org>
-
---===============4270171141895352047==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Fri, 05 Apr 2024 17:09:37 -0000
+Message-Id: <171233697752.12795.13366463426180332092@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: 8cb4a9a82b21623dbb4b3051dd30d98356cf95bc
-    new: e8b0ccb2a787fb43f8091a1eaef9c28a79b00002
-    log: revlist-8cb4a9a82b21-e8b0ccb2a787.txt
-
---===============4270171141895352047==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cb4a9a82b21-e8b0ccb2a787.txt
-
-7013482ff5945aee7390c55ababcb390de1a4aad 9p/trans_fd: remove Excess kernel-doc comment
-be3193e58ec210b2a72fb1134c2a0695088a911d 9p: Fix read/write debug statements to report server reply
-2a0505cdd8c8b12670f4b5a6eb5c996c0861c2d5 9p: remove SLAB_MEM_SPREAD flag usage
-ddd65e19c60140673ea9f7249af0a672f1820623 block: handle BLK_OPEN_RESTRICT_WRITES correctly
-3ff56e285de5a375fbfab3c3f1af81bbd23db36d block: count BLK_OPEN_RESTRICT_WRITES openers
-22650a99821dda3d05f1c334ea90330b4982de56 fs,block: yield devices early
-c1832f67035dc04fb89e6b591b64e4d515843cda ksmbd: don't send oplock break if rename fails
-a677ebd8ca2f2632ccdecbad7b87641274e15aac ksmbd: validate payload size in ipc response
-5ed11af19e56f0434ce0959376d136005745a936 ksmbd: do not set SMB2_GLOBAL_CAP_ENCRYPTION for SMB 3.1.1
-caeb4b0a11b3393e43f7fa8e0a5a18462acc66bd aio: Fix null ptr deref in aio_complete() wakeup
-fae02687777ad80c1299c684f7f814c542103fa6 Merge tag 'vfs-6.9-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-405ac6a57277f09a49635714b07a34cc584d9cc4 Merge tag '6.9-rc2-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-e8b0ccb2a787fb43f8091a1eaef9c28a79b00002 Merge tag '9p-for-6.9-rc3' of https://github.com/martinetd/linux
-
---===============4270171141895352047==--
+  - ref: refs/heads/fixes
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: 627207703b73615653eea5ab7a841d5b478d961e
+    log: |
+         e4308bc22b9d46cf33165c9dfaeebcf29cd56f04 phy: marvell: a3700-comphy: Fix out of bounds read
+         627207703b73615653eea5ab7a841d5b478d961e phy: marvell: a3700-comphy: Fix hardcoded array size
+         
+  - ref: refs/heads/next
+    old: e298ae7caafcc429e0fc4b3779f1738c0acc5dac
+    new: 5cee04a8369049b92d52995e320abff18dfeda44
+    log: |
+         5787731c7467faeb1bcbe5a64e1a86fb7987bbaa dt-bindings: phy: Add QMP UFS PHY comptible for SM8475
+         ef2bd6c969830c7e42c23bcaf9d533db77420512 phy: qcom-qmp-ufs: Add SM8475 support
+         f320268fcebcbab02631d2070fa19ad4856a5a5e phy: qcom: qmp-combo: fix sm8650 voltage swing table
+         9b6bfad9070a95d19973be17177e5d9220cbbf1f phy: rockchip: Fix typo in function names
+         7dcb8668aedc5603cba1f2625c6051beff03797d phy: xilinx: Convert to platform remove callback returning void
+         72bea132f3680ee51e7ed2cee62892b6f5121909 dt-bindings: phy: qcom,sc8280xp-qmp-pcie-phy: document PHY AUX clock on SM8[456]50 SoCs
+         677b45114b4430a43d2602296617efc4d3f2ab7a phy: qcom: qmp-pcie: refactor clock register code
+         583ca9ccfa806605ae1391aafa3f78a8a2cc0b48 phy: qcom: qmp-pcie: register second optional PHY AUX clock
+         5cee04a8369049b92d52995e320abff18dfeda44 phy: qcom: qmp-pcie: register PHY AUX clock for SM8[456]50 4x2 PCIe PHY
+         
