@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 05 Apr 2024 17:32:59 -0000
-Message-Id: <171233837946.30213.13029592204713364911@gitolite.kernel.org>
+Date: Fri, 05 Apr 2024 17:33:28 -0000
+Message-Id: <171233840831.30489.17683366114246769691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,14 +9,11 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: 58babe27180c8d4cb54d831589cf801bd9268876
-    new: 270954791c706b133a03b01e4b2d063dc870f704
+  - ref: refs/heads/master
+    old: 270954791c706b133a03b01e4b2d063dc870f704
+    new: ba0cbe2bb4ab8aa266e48c6399bebf6e1217828a
     log: |
-         0a525621b7e5b49202b19d8f75382c6778fdd0c1 bpf: store both map ptr and state in bpf_insn_aux_data
-         9d482da9e17a4ddd5563428f74302a36b2610306 bpf: allow invoking bpf_for_each_map_elem with different maps
-         fecb1597cc11a23f32faa90d70a199533871686a selftests/bpf: add test for bpf_for_each_map_elem() with different maps
-         270954791c706b133a03b01e4b2d063dc870f704 Merge branch 'bpf-allow-bpf_for_each_map_elem-helper-with-different-input-maps'
+         ba0cbe2bb4ab8aa266e48c6399bebf6e1217828a selftests/bpf: Make sure libbpf doesn't enforce the signature of a func pointer.
          
