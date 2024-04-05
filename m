@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Fri, 05 Apr 2024 20:40:09 -0000
-Message-Id: <171234960967.10502.14404882943374203422@gitolite.kernel.org>
+Date: Fri, 05 Apr 2024 20:44:17 -0000
+Message-Id: <171234985728.12070.15072305605105659202@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ukleinek/linux
 user: ukleinek
 changes:
-  - ref: refs/heads/pwm/for-next
+  - ref: refs/heads/pwm/for-nexxt
     old: b33d3801b304addac941d210e41c3f8163ecf500
     new: e2040e86d660980c4a3929ddde29419a77e37f75
     log: |
