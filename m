@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 05 Apr 2024 17:35:31 -0000
-Message-Id: <171233853117.461.4537465037098822170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bristot/linux
+Date: Fri, 05 Apr 2024 17:36:15 -0000
+Message-Id: <171233857546.844.7749364098364535620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/bristot/linux
+user: bristot
 changes:
-  - ref: refs/heads/master
-    old: cfddb048040b598fa7df0e51ca361289fc7abf28
-    new: 76cd338994778c552c51086fc056819b5cdda2e7
-    log: |
-         76cd338994778c552c51086fc056819b5cdda2e7 MAINTAINERS: bpf: Add Lehui and Puranjay as riscv64 reviewers
-         
+  - ref: refs/heads/dl_server_v6_try11
+    old: 0000000000000000000000000000000000000000
+    new: 03100a344f14806e2e965fd79319b2bd8615601b
