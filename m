@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0631765273010623849=="
+Content-Type: multipart/mixed; boundary="===============0411895295928407724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 05 Apr 2024 23:19:12 -0000
-Message-Id: <171235915227.29638.11801398987318807036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 05 Apr 2024 23:19:35 -0000
+Message-Id: <171235917540.29873.17096031683365077086@gitolite.kernel.org>
 
---===============0631765273010623849==
+--===============0411895295928407724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: fe4a074542563c539f6285de1ec78b47f9c9da7d
-    new: f3806fe542c16015b5894adf3d29a41cbc94c412
-    log: revlist-fe4a07454256-f3806fe542c1.txt
+  - ref: refs/heads/for-next
+    old: 70b9f55ae379a6c76f91410a00662eb0929d4bd7
+    new: 1f58d8580e5da64669d923ced99cb3e29832273b
+    log: revlist-70b9f55ae379-1f58d8580e5d.txt
 
---===============0631765273010623849==
+--===============0411895295928407724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1712359150 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1712359149-72f9511686078fb37e1c116bb9acd64faf2a6620
-
-fe4a074542563c539f6285de1ec78b47f9c9da7d f3806fe542c16015b5894adf3d29a41cbc94c412 refs/heads/asoc-6.10
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYQhu4ACgkQJNaLcl1U
-h9A2YQf9HYeBGUMYGPa6w6aoCSWyR+zJgPlfm5ghXsjypKoVoi3AcKcSFLRESk5K
-QgVVQQSoADRypyTzkoCDgwlYnb+MfqaDITH0Q661AtNyVumk48b1ZPI9gGXHXl3d
-2OpUlGq2G6HVuhC0s7RWzrIQMopxlhY/6XEwv1rZUE1bWIobIW825CI9GHSXeJ0+
-/V2hF0VIMb7jkR7UDKX8yWesPU6unQEjZj9blof+DDTBRYw/wNlN0mLcF/xiBUiP
-8i0hmE/lwmogePz68ROhPBNBMfh5vmWPbbCdUoDjUY8RYFOHbgS3+bWtgEpjRey/
-m1dim92yVpkKRkETzfrSSsb2qONMUA==
-=+dZg
------END PGP SIGNATURE-----
-
---===============0631765273010623849==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe4a07454256-f3806fe542c1.txt
+Content-Disposition: attachment; filename=revlist-70b9f55ae379-1f58d8580e5d.txt
 
 16e87fe23d4af6df920406494ced5c0f4354567b nouveau/dmem: handle kcalloc() allocation failure
 767712f91de76abd22a45184e6e3440120b8bfce scsi: ufs: core: Fix MCQ MAC configuration
@@ -464,5 +439,6 @@ c2b10acb62c195db2c976d614d9d8092ad6339ae ASoC: Intel: avs: Add assert_static to 
 9a385993504e47a0fd6fd34b5384827b4abdee60 ASoC: Intel: avs: Rule invalid buffer and period sizes out
 3018fdf7bd9ebca7d094e302bbc7ed328820b325 ASoC: Intel: avs: Fixes and cleanups for 6.10
 f3806fe542c16015b5894adf3d29a41cbc94c412 ASoC: SOF: Intel: improve and extend HDaudio-based
+1f58d8580e5da64669d923ced99cb3e29832273b Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
 
---===============0631765273010623849==--
+--===============0411895295928407724==--
