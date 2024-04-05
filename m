@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6899642088803919107=="
+Content-Type: multipart/mixed; boundary="===============2204218099545877479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 05 Apr 2024 19:11:19 -0000
-Message-Id: <171234427997.8121.16824611721179004812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 05 Apr 2024 19:11:30 -0000
+Message-Id: <171234429087.8273.12441277805711712651@gitolite.kernel.org>
 
---===============6899642088803919107==
+--===============2204218099545877479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: e8b0ccb2a787fb43f8091a1eaef9c28a79b00002
     log: revlist-026e680b0a08-e8b0ccb2a787.txt
 
---===============6899642088803919107==
+--===============2204218099545877479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -232,4 +232,4 @@ fae02687777ad80c1299c684f7f814c542103fa6 Merge tag 'vfs-6.9-rc3.fixes' of git://
 405ac6a57277f09a49635714b07a34cc584d9cc4 Merge tag '6.9-rc2-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 e8b0ccb2a787fb43f8091a1eaef9c28a79b00002 Merge tag '9p-for-6.9-rc3' of https://github.com/martinetd/linux
 
---===============6899642088803919107==--
+--===============2204218099545877479==--
