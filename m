@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 05 Apr 2024 17:42:51 -0000
-Message-Id: <171233897122.6409.12471013924363695609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Fri, 05 Apr 2024 17:55:30 -0000
+Message-Id: <171233973031.15815.2142903962777955322@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
   - ref: refs/heads/for-next
-    old: ba0cbe2bb4ab8aa266e48c6399bebf6e1217828a
-    new: 00d5d22a5b42c3ffdfd1b29526885bbcec2d2231
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: ace0ebe5c98d66889f19e0f30e2518d0c58d0e04
     log: |
-         00d5d22a5b42c3ffdfd1b29526885bbcec2d2231 bpf, docs: Editorial nits in instruction-set.rst
+         0c3b532ad3fbf82884a2e7e83e37c7dcdd4d1d99 gpio: wcove: Use -ENOTSUPP consistently
+         ace0ebe5c98d66889f19e0f30e2518d0c58d0e04 gpio: crystalcove: Use -ENOTSUPP consistently
          
