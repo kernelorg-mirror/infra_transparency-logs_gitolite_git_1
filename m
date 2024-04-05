@@ -1,29 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Fri, 05 Apr 2024 11:52:55 -0000
-Message-Id: <171231797577.4074.18377461194403146355@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2911252095286245940=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 05 Apr 2024 12:07:41 -0000
+Message-Id: <171231886178.15297.8644705420536745878@gitolite.kernel.org>
+
+--===============2911252095286245940==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
-user: vkoul
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 2a9c6ff5ca5ac074a9f10216e009c042dbba0526
-    new: 5b3f661b244973374626f7cc798cea91345786e8
+  - ref: refs/heads/master
+    old: 0d699987ff6aa885c5192d96379d3c62c71b2282
+    new: f7847cd600461a634cf3d49b4e20a8dd4f1f349c
     log: |
-         8ee1b439b1540ae543149b15a2a61b9dff937d91 soundwire: cadence: fix invalid PDI offset
-         1845165fbd6e746c60e8f2e4fc88febd6a195143 soundwire: cadence: remove PDI offset completely
-         59401c3c08e1a306e29a8d6c826685e2c5c6c794 soundwire: remove unused sdw_bus_conf structure
-         bc13cf3f6e63dd708ccd160a28e6bb696af7e9f6 soundwire: clarify maximum allowed address
-         8292c815bbb71ea9f86331c3d07d2b9530b93565 soundwire: cadence: show the bus frequency and frame shape
-         7eca9c722eed80f76cd272a52d9fa98f89322e7e soundwire: bus: extend base clock checks to 96 MHz
-         d0a69cd0369a390cc1c100e52e78a273695a170c soundwire: intel: add more values for SYNCPRD
-         09ee49e3de6bcecc57028682c673d180ec2d436b soundwire: intel: add support for MeteorLake additional clocks
-         769d69812b42f0fc710bdf16b9f3979c959910b7 soundwire: intel_ace2x: move and extend clock selection
-         a206d2e3409f58733c9097523e5f62ebb920fbbf soundwire: intel_ace2.x: power-up first before setting SYNCPRD
-         5b3f661b244973374626f7cc798cea91345786e8 soundwire: intel_ace2x: set the clock source
+         fa508451514df981fa0ffb36dc96121aefd18e18 dyad: update some comments in functions
+         f7847cd600461a634cf3d49b4e20a8dd4f1f349c bippy: update to latest version, removing old fixes logic entirely
          
+
+--===============2911252095286245940==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712318861 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1712318860-e349787bc0aa894a2ac5c5b0fd2440c849dc1df1
+
+0d699987ff6aa885c5192d96379d3c62c71b2282 f7847cd600461a634cf3d49b4e20a8dd4f1f349c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYP6Y0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cIIQAJqBmm4U7NAqXXMz8B2y
+Ix9wBR4X3sVwRVBzjxq3qqa5676SasZVkfGlqdJBKGE940E3k4nFNDZsFm6MvVQs
+TqImI4gFQqSUMVfzw4VMII8zgGraNnTZU1T88i/hlCLqrDTTW49NlJSQJAxi6eyX
+dMiV1/j17EQI0b0/FWYOzjEmmdjVfpuxFeaV1HRPhJ6KT+yS+BZau2nBZnUrX4ME
+6Qmx3Awn5m6+q2n8N2I3w3SGsCMqoDEW9PCUwZ6ZjKKQaWak6Wp88B5wIJ/P5fLF
+h51jjAI9WFzM7kAetMk13dfyXnnfEr+YVXm0dWDww9G7aqgSfKpMjWd1JQmmWqJ8
+8be/INF1YM+RyrtNu/HF59/cGL+A0WdGZ5P/K1c6KTuNOdMRDsfbQNvYcrfkoMM5
+O7v/FedJZaP6isEQlZzt9dpwC7n4LL6CtTcxSgx1+TB3rTpTCTEtCRLH3WG0EjLx
+ugrlKnB+fi73sHepIFldRSTbsAjrMGOVTBC7caMKqVlYFw4Q2HpwDv6KVECMChSP
+1vIiihVHIEyjWrmqg61VH3SWSxN9TOyYoPx9mYrI4+7JQfg+zUZlYEfb3Tay8BV3
+iGS1huycLJ0qXEtYNEB0EbTgddV5Hhoyym/XEYhE1MT87NT61Z+BTWEc+4x7z74q
+FPVkvUyYyCzqjbhAXa7VRzrr
+=h6Ts
+-----END PGP SIGNATURE-----
+
+--===============2911252095286245940==--
