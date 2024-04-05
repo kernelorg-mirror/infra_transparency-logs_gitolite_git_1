@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 05 Apr 2024 18:06:15 -0000
-Message-Id: <171234037557.23315.8871113216998318268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Fri, 05 Apr 2024 18:35:32 -0000
+Message-Id: <171234213212.12327.16293787553001867092@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/nfsd-fixes
-    old: 05258a0a69b3c5d2c003f818702c0a52b6fea861
-    new: 10396f4df8b75ff6ab0aa2cd74296565466f2c8d
-    log: |
-         10396f4df8b75ff6ab0aa2cd74296565466f2c8d nfsd: hold a lighter-weight client reference over CB_RECALL_ANY
-         
+  - ref: refs/tags/mm-hotfixes-stable-2024-04-05-11-30
+    old: 0000000000000000000000000000000000000000
+    new: 7fc32eccce1633e84c86fdeb9268e30c81a514de
