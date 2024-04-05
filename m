@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7160956142735401477=="
+Content-Type: multipart/mixed; boundary="===============7918884692396121465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 05 Apr 2024 15:23:30 -0000
-Message-Id: <171233061007.28131.8697693524875350145@gitolite.kernel.org>
+Date: Fri, 05 Apr 2024 15:23:48 -0000
+Message-Id: <171233062899.28379.3208365525507900523@gitolite.kernel.org>
 
---===============7160956142735401477==
+--===============7918884692396121465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 0c83842df40f86e529db6842231154772c20edcc
     new: c88b9b4cde17aec34fb9bfaf69f9f72a1c44f511
     log: revlist-0c83842df40f-c88b9b4cde17.txt
 
---===============7160956142735401477==
+--===============7918884692396121465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -374,4 +374,4 @@ cc0532900bcf1896a81dcdd30873ffa6c4f6926b bcachefs: Subvolume reconstruction
 ec25bd8d981d910cdcc84914bf57e2cff9e7d63b Merge tag 'bcachefs-2024-04-03' of https://evilpiepirate.org/git/bcachefs
 c88b9b4cde17aec34fb9bfaf69f9f72a1c44f511 Merge tag 'net-6.9-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============7160956142735401477==--
+--===============7918884692396121465==--
