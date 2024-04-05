@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 05 Apr 2024 12:24:59 -0000
-Message-Id: <171231989966.26529.12051772071983989401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 05 Apr 2024 12:26:33 -0000
+Message-Id: <171231999301.28679.5229857728433779386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/nfsd-fixes
-    old: 02feb84beff7baaa2899a7fea7b3e4cb64ca05b8
-    new: 748950759c9c54f3820441ededea23169eca460c
+  - ref: refs/heads/ath-next
+    old: 1f3be5660c76fbec220712fda2782e46bb1ba5dc
+    new: 231a4c893c9bb2984a8c6b7450199f59eb816ed9
     log: |
-         f02ce247bffba7022d64557ae1a016a5c6aed8d3 nfsd: new conditional tracepoint for check_slot_seqid
-         748950759c9c54f3820441ededea23169eca460c nfsd: add tracepoint in mark_client_expired_locked
+         231a4c893c9bb2984a8c6b7450199f59eb816ed9 Merge branch 'mhi-immutable' of git://git.kernel.org/pub/scm/linux/kernel/git/mani/mhi into ath-next
          
