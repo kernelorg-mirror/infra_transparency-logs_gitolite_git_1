@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5612170178137553201=="
+Content-Type: multipart/mixed; boundary="===============4769990315634829458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 05 Apr 2024 15:37:21 -0000
-Message-Id: <171233144136.8111.5901645060242409432@gitolite.kernel.org>
+Date: Fri, 05 Apr 2024 15:37:51 -0000
+Message-Id: <171233147108.9338.14079311896512850835@gitolite.kernel.org>
 
---===============5612170178137553201==
+--===============4769990315634829458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 0a3074e5b4b523fb60f4ae9fb32bb180ea1fb6ef
-    new: e73d39b742a1dbee8a212293b9bd64c958b52f30
-    log: revlist-0a3074e5b4b5-e73d39b742a1.txt
+  - ref: refs/heads/1GbE
+    old: 1dee310c26677460fc1cc1d98c2d90b6e968988c
+    new: d76c740b2eaaddc5fc3a8b21eaec5b6b11e8c3f5
+    log: revlist-1dee310c2667-d76c740b2eaa.txt
 
---===============5612170178137553201==
+--===============4769990315634829458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a3074e5b4b5-e73d39b742a1.txt
+Content-Disposition: attachment; filename=revlist-1dee310c2667-d76c740b2eaa.txt
 
 ccb2280ec2f9e805d70f57a3a1c5deff0d532cb3 x86/kvm: Use separate percpu variable to track the enabling of asyncpf
 df01f0a1165c35e95b5f52c7ba25c19020352ff9 KVM: x86: Improve documentation of MSR_KVM_ASYNC_PF_EN
@@ -471,28 +471,5 @@ a4a0306fbe1c8ceee206d099c0a86bdd8f9278ee net: dsa: microchip: Remove unused FDB 
 7caed786b374ccf3ba6d7833ba79dbc2fcbcbb6e net: dsa: microchip: ksz8_r_dyn_mac_table(): return read/write error if we got any
 8d5758120dd24d00ae012b6fe14a187251179f4a net: dsa: microchip: ksz8_r_dyn_mac_table(): use entries variable to signal 0 entries
 d76c740b2eaaddc5fc3a8b21eaec5b6b11e8c3f5 Merge branch 'net-dsa-microchip-ksz8-refactor-fdb-dump-path'
-426e2236142f7cd2cd54317afa645aa8bafb91f1 ice: Remove ndo_get_phys_port_name
-9c7b0d5e0f61c4e062fa4cec4f056d91fc8857a1 ice: tc: do default match on all profiles
-6146d2cf02cc3b711db7e10db3e746d7f05b64e6 i40e: Prevent setting MTU if greater than MFS
-449f3c31659c2c3af677d8ecfc0fdde80de85dfe ice: tc: check src_vsi in case of traffic from VF
-9a64936582939ac440cced0d254548b432c9e1b2 ice: tc: allow zero flags in parsing tc flower
-1c21f028285b82c34f40e72753224378fa6d0718 ice: set vf->num_msix in ice_initialize_vf_entry()
-a09e8838cded7d17784bcd44969a36b074a7ea80 ice: store VF relative MSI-X index in q_vector->vf_reg_idx
-e1fe9bea7772e14a4b0fcb855058129f2cada039 igc: Add Tx hardware timestamp request for AF_XDP zero-copy packet
-272c5256eb892d3182a87b95a86a6269ea4aa39c e1000e: Remove redundant runtime resume for ethtool_ops
-647999b6072ca51e619dc508125006e9f78d4f1f igb: Remove redundant runtime resume for ethtool_ops
-00786eaaa19f0005177c2bd97c52d1c67a9b0796 igc: Remove redundant runtime resume for ethtool ops
-ebaf563fde4e3cd3cda42972c7067f5ad175f0d1 ice: Fix package download algorithm
-8f63770ccfe9583d28f3102abb461a872cf62594 i40e: Report MFS in decimal base instead of hex
-e160ca4598d46351f63ff4390bedc510db710d16 i40e: Remove flags field from i40e_veb
-d807f6c13d2251c9940111ec2dac5a758527cf02 i40e: Refactor argument of several client notification functions
-f993985490a1f643b0728b9f183de83e38f0c0d9 i40e: Refactor argument of i40e_detect_recover_hung()
-63f47cb321a026285dbaa8a228f790ab82b05f93 i40e: Add helper to access main VSI
-3070b2b489fd546980b431d4c64e2d9811366574 i40e: Consolidate checks whether given VSI is main
-dadb30b3a3d4af65db96daeb62fc4da94edbffd6 i40e: Add helper to access main VEB
-be851f67ac5772c45a0e9cc0d817acc8cf72522d i40e: Add and use helper to reconfigure TC for given VSI
-c01526399592631d16a9db8123fad41641d36df6 ice: add additional E830 device ids
-2d14a94cf8517f45124b5320ab41f1fc7f28fcdd ice: update E830 device ids and comments
-e73d39b742a1dbee8a212293b9bd64c958b52f30 iavf: Fix TC config comparison with existing adapter TC config
 
---===============5612170178137553201==--
+--===============4769990315634829458==--
