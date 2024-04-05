@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4769990315634829458=="
+Content-Type: multipart/mixed; boundary="===============6610437859899676829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 05 Apr 2024 15:37:51 -0000
-Message-Id: <171233147108.9338.14079311896512850835@gitolite.kernel.org>
+Date: Fri, 05 Apr 2024 15:38:08 -0000
+Message-Id: <171233148899.9582.17390838223437252964@gitolite.kernel.org>
 
---===============4769990315634829458==
+--===============6610437859899676829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 1dee310c26677460fc1cc1d98c2d90b6e968988c
     new: d76c740b2eaaddc5fc3a8b21eaec5b6b11e8c3f5
     log: revlist-1dee310c2667-d76c740b2eaa.txt
 
---===============4769990315634829458==
+--===============6610437859899676829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -472,4 +472,4 @@ a4a0306fbe1c8ceee206d099c0a86bdd8f9278ee net: dsa: microchip: Remove unused FDB 
 8d5758120dd24d00ae012b6fe14a187251179f4a net: dsa: microchip: ksz8_r_dyn_mac_table(): use entries variable to signal 0 entries
 d76c740b2eaaddc5fc3a8b21eaec5b6b11e8c3f5 Merge branch 'net-dsa-microchip-ksz8-refactor-fdb-dump-path'
 
---===============4769990315634829458==--
+--===============6610437859899676829==--
