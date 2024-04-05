@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7406858287549065646=="
+Content-Type: multipart/mixed; boundary="===============0056967891043301981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Fri, 05 Apr 2024 05:09:00 -0000
-Message-Id: <171229374060.3332.3715203496323415261@gitolite.kernel.org>
+Date: Fri, 05 Apr 2024 05:09:26 -0000
+Message-Id: <171229376695.3554.2495619090691370551@gitolite.kernel.org>
 
---===============7406858287549065646==
+--===============0056967891043301981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-next
+  - ref: refs/heads/for-linux-next
     old: 4cece764965020c22cff7665b18a012006359095
     new: 6633c7d2fd314145ad9e6ba553775c6a03827b44
     log: revlist-4cece7649650-6633c7d2fd31.txt
 
---===============7406858287549065646==
+--===============0056967891043301981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -560,4 +560,4 @@ ee3b9032e0cc50dc1bafea992ee13c1e2bc5e1ac drm/exynos: g2d: drop driver owner init
 b3fe7c605c925c93de1a6af460cd697e5250692d drm/exynos: hdmi: drop driver owner initialization
 6633c7d2fd314145ad9e6ba553775c6a03827b44 drm/exynos: mixer: drop driver owner initialization
 
---===============7406858287549065646==--
+--===============0056967891043301981==--
