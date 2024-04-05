@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Fri, 05 Apr 2024 17:55:30 -0000
-Message-Id: <171233973031.15815.2142903962777955322@gitolite.kernel.org>
+Date: Fri, 05 Apr 2024 17:57:57 -0000
+Message-Id: <171233987783.16719.16141996519807459865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: 4cece764965020c22cff7665b18a012006359095
-    new: ace0ebe5c98d66889f19e0f30e2518d0c58d0e04
-    log: |
-         0c3b532ad3fbf82884a2e7e83e37c7dcdd4d1d99 gpio: wcove: Use -ENOTSUPP consistently
-         ace0ebe5c98d66889f19e0f30e2518d0c58d0e04 gpio: crystalcove: Use -ENOTSUPP consistently
-         
+  - ref: refs/tags/intel-gpio-v6.9-1
+    old: 0000000000000000000000000000000000000000
+    new: efc10c9a8d24f5b860fae6af585bd6a7cb88d81b
