@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 06 Apr 2024 16:41:08 -0000
-Message-Id: <171242166809.29773.5490548350079251726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sat, 06 Apr 2024 16:43:35 -0000
+Message-Id: <171242181577.30747.1663061733981251370@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: cf17b9503f1781af60f414c183c1dda8cdba696f
-    new: f2f80ac809875855ac843f9e5e7480604b5cbff5
+  - ref: refs/heads/experimental
+    old: 7efd9a5ee1e26149ea0d4b78c1cebe076b90bcae
+    new: e479397820c47dc7aa0e2e936c6ab974e38f65f7
     log: |
-         05258a0a69b3c5d2c003f818702c0a52b6fea861 SUNRPC: Fix a slow server-side memory leak with RPC-over-TCP
-         10396f4df8b75ff6ab0aa2cd74296565466f2c8d nfsd: hold a lighter-weight client reference over CB_RECALL_ANY
-         f2f80ac809875855ac843f9e5e7480604b5cbff5 Merge tag 'nfsd-6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+         f4e21a379fdbcce9eca463d7cbc24faaf00b146b erofs-utils: lib: refine on-disk meta arrangement again
+         e479397820c47dc7aa0e2e936c6ab974e38f65f7 erofs-utils: lib: drop prefix_sha256 digests
          
