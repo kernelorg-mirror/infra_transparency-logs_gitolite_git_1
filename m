@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Sat, 06 Apr 2024 02:15:43 -0000
-Message-Id: <171236974392.31852.8529804353607151707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/libhinawa
+Date: Sat, 06 Apr 2024 02:20:34 -0000
+Message-Id: <171237003417.2894.7006389973024764364@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/libs/ieee1394/libhinawa
+user: takaswie
 changes:
-  - ref: refs/heads/wip
-    old: 72aa75871e34b883afe265a6068908869bb39f2f
-    new: ea8633e86cd2d08b580cb03116009453a01739fa
+  - ref: refs/heads/main
+    old: 9272218599ae7ea0ae405cf29d1f74397415d2c9
+    new: cabdd6b55d52c3f0d037f2b498351c4d3fc343fd
     log: |
-         d19ce9bee00c7945719989364f468760a0bbec2b f2fs: zone: don't block IO if there is remained open zone
-         c74c81e793e6f2090e41d507f36c51d557c1545c f2fs: fix to relocate check condition in f2fs_fallocate()
-         ea8633e86cd2d08b580cb03116009453a01739fa f2fs: fix to check pinfile flag in f2fs_move_file_range()
+         cabdd6b55d52c3f0d037f2b498351c4d3fc343fd bump release version to 4.0.2
          
+  - ref: refs/tags/4.0.2
+    old: 0000000000000000000000000000000000000000
+    new: b02946ad03d26b710b628f29731ce8a1227fba26
