@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 06 Apr 2024 16:46:00 -0000
-Message-Id: <171242196070.941.16548670447663737323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 06 Apr 2024 17:20:29 -0000
+Message-Id: <171242402940.26055.18415973224099515625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/testing
-    old: 85795d3eddeb5f0e3e11caad24cc78f6c43d7fd1
-    new: aabc0aa90c927a03d509d0b592720d9897894ce4
+  - ref: refs/heads/main
+    old: 9f06f87fef689d28588cde8c7ebb00a67da34026
+    new: 8e69b3459ca1ed4f6f7bd0b0a11962ddb3e7d34a
     log: |
-         aabc0aa90c927a03d509d0b592720d9897894ce4 Documentation: ABI: document in_temp_input file
+         8e69b3459ca1ed4f6f7bd0b0a11962ddb3e7d34a netlink: add nlmsg_consume() and use it in devlink compat
          
