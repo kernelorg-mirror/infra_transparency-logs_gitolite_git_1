@@ -1,43 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5343378137723231486=="
+Content-Type: multipart/mixed; boundary="===============0243132017603460241=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sat, 06 Apr 2024 19:41:27 -0000
-Message-Id: <171243248757.415.17017049660483709879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Sat, 06 Apr 2024 19:48:46 -0000
+Message-Id: <171243292651.4891.11753745295121153405@gitolite.kernel.org>
 
---===============5343378137723231486==
+--===============0243132017603460241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/next
-    old: 2995b90ccd699c5565144798dbda4f359a038dce
-    new: a232721b7aaadb15591fe1d9b76da9657cd5ede4
-    log: revlist-2995b90ccd69-a232721b7aaa.txt
+  - ref: refs/heads/i2c/i2c-host
+    old: 71b494e043d2cb567f4f4748bcb0b6fb7bc32a01
+    new: 53f44c1005ba64215ab6c3c5bbbcaef0870ae7d6
+    log: |
+         53f44c1005ba64215ab6c3c5bbbcaef0870ae7d6 i2c: add HAS_IOPORT dependencies
+         
 
---===============5343378137723231486==
+--===============0243132017603460241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2995b90ccd69-a232721b7aaa.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3f357ec5a75354d2ae9d590745dfcba2120f855c Rename _damon_records to _damo_records
-8265ce5386587877e765a2b4eab0eae877cbee55 damo_record: Move memory footprint recording to _damo_records
-9e84be7f490f58571eb9f601906540293df358e4 damo_record: Move memory footprints saving to _damo_records
-3f7b614ccc6a743fed5a7b38e1e98eb3dfda18bd damo_record: Move target pids polling to _damo_records
-9963d6ca5bd6e5444b12e08e09348797a56891f3 _damo_records/start_recording: Remove default parameter values
-a95679d79e494f367c80df27947f2b313097eef5 _damo_records: Move poll request inside RecordHandle
-1349ffdc40f9d642b2e9100e5a9262265016b5eb _damo_records: Handle memory footprint recording in the handle
-fb0472fd863817feb949c80540b73e818f19693c damo_record: Remove unnecessary memory footprint snapshot in cleanup data
-0eb15256dc1fc9dc48779824d46e2c49798c0b73 _damo_records: Cleanup comments and layout
-37e1286ea8b36b99db0aca42744669ef2b4a1ec3 _damo_records: Update out-dated start_recording() comment
-f8ce8267703f83c3a8235fc103340e01e3a90fba _damo_records/finish_recording(): Handle memory footrpint while profile is none
-066478bad478570ebcbfd56499a703460b76ab1c TODO: Add items
-a232721b7aaadb15591fe1d9b76da9657cd5ede4 damo_record: Set kdamonds as None for ongoing record case
+certificate version 0.1
+pusher andi.shyti@kernel.org 1712432925 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
+nonce 1712432922-ccd2897271d73ad79a8a8102bd5acd238736ed10
 
---===============5343378137723231486==--
+71b494e043d2cb567f4f4748bcb0b6fb7bc32a01 53f44c1005ba64215ab6c3c5bbbcaef0870ae7d6 refs/heads/i2c/i2c-host
+-----BEGIN PGP SIGNATURE-----
+
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZhGnHRYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uAPwA/3gnEwzDqln1FP1mtv165yLwnO2c
+4folobaBf5JcsZ1HAP91HeTccR0vtznpdEZq2hK1up0cJbvyWGbeeMwMfoH2Bg==
+=/7iW
+-----END PGP SIGNATURE-----
+
+--===============0243132017603460241==--
