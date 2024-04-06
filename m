@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 06 Apr 2024 04:59:05 -0000
-Message-Id: <171237954569.20920.9270814713622216914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sat, 06 Apr 2024 05:00:02 -0000
+Message-Id: <171237960247.21998.8377321782039408220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/main
-    old: da48a65f3ff4155364fb9e3efe0bfba58291da6b
-    new: 30a22b8cd98d8456bcb704d68d100d1e7b9843dc
+  - ref: refs/heads/work.misc
+    old: 9a6458d04d1a5de5067381b1c06f65a62fb7fc57
+    new: d8c77afeb9912f5eca06f53cbed7fc618c71b46b
     log: |
-         d4383ce15f5bb0e889406961372d31199f3f6edc net/mlx5e: Extract checking of FEC support for a link mode
-         4aafb8ab2a626ac714931ec7894cf16df948b359 net/mlx5e: Support FEC settings for 100G/lane modes
-         958f56e4838579544fbc5183073518c7c4d22d44 net/mlx5e: Un-expose functions in en.h
-         30a22b8cd98d8456bcb704d68d100d1e7b9843dc Merge branch 'mlx5e-rc2-misc-patches'
+         d47fbe32f606fb45957ec35cac98263da67529bc get_file_rcu(): no need to check for NULL separately
+         555e42d8db59a03e83a0bc9956883768ac1f9f7b kernel_file_open(): get rid of inode argument
+         3cd87342cf4a07c3e36ed30c4c398a9886aca4d8 do_dentry_open(): kill inode argument
+         d8c77afeb9912f5eca06f53cbed7fc618c71b46b remove call_{read,write}_iter() functions
          
