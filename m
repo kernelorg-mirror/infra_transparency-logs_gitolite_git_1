@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 06 Apr 2024 16:43:35 -0000
-Message-Id: <171242181577.30747.1663061733981251370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 06 Apr 2024 16:46:00 -0000
+Message-Id: <171242196070.941.16548670447663737323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/experimental
-    old: 7efd9a5ee1e26149ea0d4b78c1cebe076b90bcae
-    new: e479397820c47dc7aa0e2e936c6ab974e38f65f7
+  - ref: refs/heads/testing
+    old: 85795d3eddeb5f0e3e11caad24cc78f6c43d7fd1
+    new: aabc0aa90c927a03d509d0b592720d9897894ce4
     log: |
-         f4e21a379fdbcce9eca463d7cbc24faaf00b146b erofs-utils: lib: refine on-disk meta arrangement again
-         e479397820c47dc7aa0e2e936c6ab974e38f65f7 erofs-utils: lib: drop prefix_sha256 digests
+         aabc0aa90c927a03d509d0b592720d9897894ce4 Documentation: ABI: document in_temp_input file
          
