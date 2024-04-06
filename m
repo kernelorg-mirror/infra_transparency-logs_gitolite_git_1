@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Sat, 06 Apr 2024 20:27:35 -0000
-Message-Id: <171243525570.455.17301426242204588793@gitolite.kernel.org>
+Date: Sat, 06 Apr 2024 20:31:34 -0000
+Message-Id: <171243549404.3746.14988924693245462052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/network/ofono/ofono
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 728db12daa684c16cf5bc9ba065b780664e9244f
-    new: 6bd9bd2c9efafbe2e5a84168606052aad02a749d
+    old: 6bd9bd2c9efafbe2e5a84168606052aad02a749d
+    new: 3ebe371792b686e80944229e991ad565c7a4441a
     log: |
-         6bd9bd2c9efafbe2e5a84168606052aad02a749d bluez4: Remove support
+         3ebe371792b686e80944229e991ad565c7a4441a build: Remove bluez4 configure magic
          
