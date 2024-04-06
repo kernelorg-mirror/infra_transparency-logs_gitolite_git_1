@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 06 Apr 2024 02:25:08 -0000
-Message-Id: <171237030826.6461.3135673063759739438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/libhinawa
+Date: Sat, 06 Apr 2024 02:27:07 -0000
+Message-Id: <171237042762.7314.3240749875702750084@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/libs/ieee1394/libhinawa
+user: takaswie
 changes:
-  - ref: refs/heads/for-next
-    old: 31974fcad7082a204782d557c8aed31c07ed1950
-    new: 2c02be75463daf6bb4781f5946c82db1a2557c44
+  - ref: refs/heads/main
+    old: cabdd6b55d52c3f0d037f2b498351c4d3fc343fd
+    new: 56f19ad554961c84bed8448a555a46a724cd5dfa
     log: |
-         d4e655c49f474deffaf5ed7e65034b8167ee39c8 scsi: sg: Avoid race in error handling & drop bogus warn
-         97a54ef596c3fd24ec2b227ba8aaf2cf5415e779 scsi: target: Fix SELinux error when systemd-modules loads the target module
-         358e919a351f2ea4b412e7dac6b1c23ec10bd4f5 scsi: hisi_sas: Handle the NCQ error returned by D2H frame
-         0098c55e0881f0b32591f2110410d5c8b7f9bd5a scsi: hisi_sas: Modify the deadline for ata_wait_after_reset()
-         4406e4176f47177f5e51b4cc7e6a7a2ff3dbfbbd scsi: qla2xxx: Fix off by one in qla_edif_app_getstats()
-         2c02be75463daf6bb4781f5946c82db1a2557c44 Merge branch 'fixes' into for-next
+         56f19ad554961c84bed8448a555a46a724cd5dfa bump release version to 4.0.2
+         
+  - ref: refs/tags/4.0.2
+    old: b02946ad03d26b710b628f29731ce8a1227fba26
+    new: 1af0c6a4cce54b07f5c4f88b5ee5c44730ac1bfc
+    log: |
+         56f19ad554961c84bed8448a555a46a724cd5dfa bump release version to 4.0.2
          
