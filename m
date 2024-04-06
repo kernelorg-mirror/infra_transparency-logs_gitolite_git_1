@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ieee1394/libhinawa
-Date: Sat, 06 Apr 2024 02:27:07 -0000
-Message-Id: <171237042762.7314.3240749875702750084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/libhinoko
+Date: Sat, 06 Apr 2024 02:36:52 -0000
+Message-Id: <171237101289.14127.1432781703311619715@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ieee1394/libhinawa
+repo: pub/scm/libs/ieee1394/libhinoko
 user: takaswie
 changes:
   - ref: refs/heads/main
-    old: cabdd6b55d52c3f0d037f2b498351c4d3fc343fd
-    new: 56f19ad554961c84bed8448a555a46a724cd5dfa
+    old: 5fa1016950ead383dbd3d63f9848b029ee7cbfe8
+    new: 82f8be217bf2cd779089b27827088c80874359ac
     log: |
-         56f19ad554961c84bed8448a555a46a724cd5dfa bump release version to 4.0.2
+         82f8be217bf2cd779089b27827088c80874359ac bump release version to 1.0.2
          
-  - ref: refs/tags/4.0.2
-    old: b02946ad03d26b710b628f29731ce8a1227fba26
-    new: 1af0c6a4cce54b07f5c4f88b5ee5c44730ac1bfc
-    log: |
-         56f19ad554961c84bed8448a555a46a724cd5dfa bump release version to 4.0.2
-         
+  - ref: refs/tags/v1.0.2
+    old: 0000000000000000000000000000000000000000
+    new: 13ca6f2dbf88c24082aac382c0b5ae7046ca5cc6
