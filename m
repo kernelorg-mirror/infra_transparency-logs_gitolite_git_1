@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2484102406681656415=="
+Content-Type: multipart/mixed; boundary="===============0429424712812763046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 06 Apr 2024 01:56:37 -0000
-Message-Id: <171236859781.16314.14070124507487476393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Sat, 06 Apr 2024 01:56:55 -0000
+Message-Id: <171236861518.16510.11808223392559121177@gitolite.kernel.org>
 
---===============2484102406681656415==
+--===============0429424712812763046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/fixes
-    old: d4e655c49f474deffaf5ed7e65034b8167ee39c8
-    new: 4406e4176f47177f5e51b4cc7e6a7a2ff3dbfbbd
-    log: |
-         97a54ef596c3fd24ec2b227ba8aaf2cf5415e779 scsi: target: Fix SELinux error when systemd-modules loads the target module
-         358e919a351f2ea4b412e7dac6b1c23ec10bd4f5 scsi: hisi_sas: Handle the NCQ error returned by D2H frame
-         0098c55e0881f0b32591f2110410d5c8b7f9bd5a scsi: hisi_sas: Modify the deadline for ata_wait_after_reset()
-         4406e4176f47177f5e51b4cc7e6a7a2ff3dbfbbd scsi: qla2xxx: Fix off by one in qla_edif_app_getstats()
-         
+  - ref: refs/heads/vfs.all
+    old: 62b753c9375b059412fa9c8b8f60e62fa8a361e4
+    new: 4a02707af213a14e7701e1b281e72dd1d8f78062
+    log: revlist-62b753c9375b-4a02707af213.txt
 
---===============2484102406681656415==
+--===============0429424712812763046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-62b753c9375b-4a02707af213.txt
 
-certificate version 0.1
-pusher 75C5DE3D 1712368596 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1712368596-f6a668f32c76f9ba6a18f2331ad5e679b1347d60
+1f3b7b980c2aab81f6f1c84569fffa2158925d4a netfs: Update i_blocks when write committed to pagecache
+a3ef539fde9a051c958d10ff80072754776d714e netfs: Replace PG_fscache by setting folio->private and marking dirty
+334efe7876a6e9b41843d15b6ce95ee463ec6802 mm: Remove the PG_fscache alias for PG_private_2
+fcd7b5173e208439d055ff513d4c9e52537bfb73 netfs: Remove deprecated use of PG_private_2 as a second writeback flag
+e3f7b8d0ab24f681cd487081f246a9324f76d84b netfs: Make netfs_io_request::subreq_counter an atomic_t
+05ed9e6609d99dafb27b09595b2ab61b0b983f09 netfs: Use subreq_counter to allocate subreq debug_index values
+f0709c7c68dec458654ee4a390ce1423bd3c8357 mm: Provide a means of invalidation without using launder_folio
+4586a55e4039df72f0801ac6921953f697dffbba 9p: Use alternative invalidation to using launder_folio
+d119eaed1c2540fb8e7c0dd80acb86390026152a afs: Use alternative invalidation to using launder_folio
+f6127e60700a42d6e5464c45b040be32e87afab3 netfs: Remove ->launder_folio() support
+52b1f31670eb9b68bf4d6472f9268d6eabac8225 netfs: Use mempools for allocating requests and subrequests
+35721f80a560db097ca7bbbe7d5aa106408f4c58 mm: Export writeback_iter()
+b77845686872f1567375dfe523e4475b0c1e2858 netfs: Switch to using unsigned long long rather than loff_t
+1f4690e89d54dfca95e843ea06162c538d45b2be netfs: Fix writethrough-mode error handling
+6467f6e999ce8bbf3d16e375621d37d0c481b05b netfs: Add some write-side stats and clean up some stat names
+a9cae5ca9a5dc501233ccc009e85697bd55c61c7 netfs: New writeback implementation
+21d26bb961a26a2c43e72a12d5f8192b0c5c9992 netfs, afs: Implement helpers for new write code
+d4b8197594abf1fb44c3738ecfeb50d794a639aa netfs, 9p: Implement helpers for new write code
+73b6750ed8ab585d12dadbebf45ad7130aa67252 netfs, cachefiles: Implement helpers for new write code
+01aab82f2b2ca6f5f9bfac23bd8170f74538aaf3 netfs: Cut over to using new writeback code
+4e6f823825048983023ace8bababed62fd1bad30 netfs: Remove the old writeback code
+f635df2c02bea919d229ff096d082761f307f95e netfs: Miscellaneous tidy ups
+31d7970879f2229db41d3bbced531981f01b99ae netfs, afs: Use writeback retry to deal with alternate keys
+719662add1377fe806a2b4c24acbd49a996014c4 Merge branch 'netfs-writeback' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+2a7e843e3a2737098a08d93888db885996943650 netfs, cachefiles: include linux/bio.h for BIO_MAX_VECS
+9d8553d9da31387a9fd740fe21fea76b898e2067 Merge branch 'vfs.misc' into vfs.all
+03d8e0718de5622584a7751593a9c5e6166e5df4 Merge branch 'vfs.mount.api' into vfs.all
+4a02707af213a14e7701e1b281e72dd1d8f78062 Merge branch 'vfs.netfs' into vfs.all
 
-d4e655c49f474deffaf5ed7e65034b8167ee39c8 4406e4176f47177f5e51b4cc7e6a7a2ff3dbfbbd refs/heads/fixes
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYQq9QACgkQ7ulgGnXF
-3j1iOBAAjOhzIglpWGObIjxPPaLPARDjygkJajx4wcyA5s3pl7ixVps2E8xUW1Jn
-/r6lhGArq7QF3nn92Np+SF8AeHmblxam35xh5gDTeyOpdseWwvy39u4EP19yqLwv
-80svWoMWAkHxSwCu8NEAqHs/+AaM+p1P9ktYSfz6EL/CVaUsA2UTOea8pWP24iTd
-kHPNpPZn0kKESkyJohYqBteNWuX+cMWdqakCmqrfomxtvx2GxlVFh7WRmSQOoMgL
-BNjh5mb50e4Ea5LH7GYFdyHtV7Wfg3T82kJMKEgITQ7sLwhK4VTmYjt84l9fzb/L
-ScumAmjtv2/Xoox2JJ5V6TY31ePodL6I7oUcdHzJHRYzaKD4RZ3hCVWw9cUY9zfS
-H5Zg3Jd88ruz9aQfUf9TB+3ztYjKeA07cEhKc3RMcobrCDoEytO14VvVe97GWPsB
-yCD/Ewvglwgqsj+mQfbfGW852hKcRHpwUV+0odtKnvFJWMG0Z+2+Dm61AAqHkpVL
-gmusvXNPZZw1XsvWrRftQXFPdgYfBcGyT6Gl6vwtXMdqECngHf/xxuF2LPGIRb7C
-BK3HxMvB9lFJfD0f9RbRc8DJSHycX+pmhttcJdRxUW9NGnoorbTt7vfbsEYOtAdP
-Arrdr6iZqeaUHhR/+ICvixnWwnefzpsmNcHJ4SgAIfrrHC19NNw=
-=O2kn
------END PGP SIGNATURE-----
-
---===============2484102406681656415==--
+--===============0429424712812763046==--
