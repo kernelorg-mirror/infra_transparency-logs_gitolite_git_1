@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 08 Apr 2024 16:54:30 -0000
-Message-Id: <171259527045.9290.17723981194402869169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 08 Apr 2024 16:54:48 -0000
+Message-Id: <171259528801.9473.7316001966863546661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: aegl
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 063628069e05f1a7e060f3593dd3a2046802a75d
-    new: 8e95536e9495b387bf62c9d9daf8f4888cf28ad7
+  - ref: refs/heads/master
+    old: c1e10426dc22ca976ba1107f7ca95a373bb22f83
+    new: 852f6874f5c1f57e70fcdc6e68411435acea2369
     log: |
-         e0d335077831196bffe6a634ffe385fc684192ca EDAC/skx_common: Allow decoding of SGX addresses
-         8e95536e9495b387bf62c9d9daf8f4888cf28ad7 Merge branch ras/edac-misc into for-next
+         5788bf3d81934f21ce9c602d623c9b31cf2bedc4 sigwait.3: Note sigprocmask(2) requirement, explicitly link sigtimedwait(2)/NOTES
+         852f6874f5c1f57e70fcdc6e68411435acea2369 init_module.2: Document MODULE_INIT_COMPRESS_FILE flag
          
