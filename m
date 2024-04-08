@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5300681259643829631=="
+Content-Type: multipart/mixed; boundary="===============5377274540578797900=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 08 Apr 2024 11:46:19 -0000
-Message-Id: <171257677928.4361.15402959525787193158@gitolite.kernel.org>
+Date: Mon, 08 Apr 2024 11:46:34 -0000
+Message-Id: <171257679467.4525.389141199309677021@gitolite.kernel.org>
 
---===============5300681259643829631==
+--===============5377274540578797900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 026e680b0a08a62b1d948e5a8ca78700bfac0e6e
-    new: fec50db7033ea478773b159e0e2efb135270e3b7
-    log: revlist-026e680b0a08-fec50db7033e.txt
-  - ref: refs/tags/v6.9-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b4429db95735be42f9b96d7383adfe2fc51dc9fa
+  - ref: refs/heads/testing
+    old: 8739b36f79d500b6ed862e17f5ab3ceb8fd618da
+    new: c24c0a0143da2ded75148cc87a83ba654fa404e0
+    log: revlist-8739b36f79d5-c24c0a0143da.txt
 
---===============5300681259643829631==
+--===============5377274540578797900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-026e680b0a08-fec50db7033e.txt
+Content-Disposition: attachment; filename=revlist-8739b36f79d5-c24c0a0143da.txt
 
 ccb2280ec2f9e805d70f57a3a1c5deff0d532cb3 x86/kvm: Use separate percpu variable to track the enabling of asyncpf
 df01f0a1165c35e95b5f52c7ba25c19020352ff9 KVM: x86: Improve documentation of MSR_KVM_ASYNC_PF_EN
@@ -463,5 +460,32 @@ e2948effa9063ae8bd0e7dd65ca4a0fa068c71a6 Merge tag 'perf-urgent-2024-04-07' of g
 3520c35e5f0b00cfd6a774d04c1b3bb18edc428a Merge tag 'timers-urgent-2024-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9fe30842a90be9b57a3bd1a37c9aed92918cc6d0 Merge tag 'x86-urgent-2024-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fec50db7033ea478773b159e0e2efb135270e3b7 Linux 6.9-rc3
+9fe8d5c5846adb3b71d4a883c4e6c6111b5cb30b xtensa: remove redundant flush_dcache_page and ARCH_IMPLEMENTS_FLUSH_DCACHE_PAGE macros
+d14bfe497d56409157bcd1e53c38ec2bf81ca323 Revert "sh: Handle calling csum_partial with misaligned data"
+3a2553b1f47b732f6efdd318c08ea42fde9294d4 ext4: implement filesystem specific alloc_inode in unit test
+1a0179a53309427423ece1778b6df6ec7a2e2ab6 LoongArch: Make virt_to_phys() work with KFENCE
+cb6eb1ab9aba4b239df2e65fe722d4fe37fc511c LoongArch: Make __virt_addr_valid() work with KFENCE
+a1f17ab7fa636cb1f1c3c09a9b04afceb88d4f5d nios2: Call handle_mm_fault() with interrupts enabled
+9dd81d4b6a0516cf1c14f5ca39a86b95588caef0 bug/kunit: Core support for suppressing warning backtraces
+6501fd70ecc4ba5e388e9c8dbe264466dfb92188 kunit: bug: Count suppressed warning backtraces
+523db5ae218f4a1b5e342c788b0a836093ea1aa0 kunit: Add test cases for backtrace warning suppression
+f6e672466b6b1605c044f7d97d0565f7d31f18da kunit: Add documentation for warning backtrace suppression API
+89c7a85dd569de0263edbd8385f2cbf4facd1633 drm: Suppress intentional warning backtraces in scaling unit tests
+c9bb12af7e7746a052418326e619a0df758663c7 net: kunit: Suppress lock warning noise at end of dev_addr_lists tests
+aff390c48476e4785d2038f426423370c6511202 x86: Add support for suppressing warning backtraces
+4b26a8600a081cf7c650f3ed43038ffb8643b96e arm64: Add support for suppressing warning backtraces
+a8787a91c9198ee2297c46d72fe856d3ecfb709e loongarch: Add support for suppressing warning backtraces
+833622edc9c960b2516a557bf31137627c75f2ef parisc: Add support for suppressing warning backtraces
+31f8565618c7d96b2750b328ac86d95b56161a6b s390: Add support for suppressing warning backtraces
+7df1a565e4a2ccea239e45d7f63800167eda3747 sh: Add support for suppressing warning backtraces
+ccc3234820edd22eee74348c468d7a6eab5ee7f2 sh: Move defines needed for suppressing warning backtraces
+d54991cf44c64edfb7bc653f550ad72021bc104a riscv: Add support for suppressing warning backtraces
+5a92f6ba7b9adc76a505242030a575c03f5c36cd powerpc: Add support for suppressing warning backtraces
+a183ff9f48350d6ffde3f9af02b762a5a9b4674d rtc: test: Split rtc unit test into slow and normal speed test
+9799dc50def8a234ee256bb19cc08115f86b8548 kunit: time: Add faster unit test with shorter time range
+cd0b6aa899ce80edadafdbfc8f61843cb186341b mm/slub, kunit: Use inverted data to corrupt kmem cache
+c4fd4da489bd7bdae4649d5b07033bc7a32bbf48 Merge branch 'nios2' into testing
+04edfbc44835263c48ad1519a58b1df7fbe70c5c Merge branch 'kunit-improvements' into testing
+c24c0a0143da2ded75148cc87a83ba654fa404e0 Merge branch 'kunit-v3' into testing
 
---===============5300681259643829631==--
+--===============5377274540578797900==--
