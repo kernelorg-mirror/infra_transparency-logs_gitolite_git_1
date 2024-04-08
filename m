@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 08 Apr 2024 02:16:54 -0000
-Message-Id: <171254261490.2177.7290333716618610229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dash/dash
+Date: Mon, 08 Apr 2024 03:02:49 -0000
+Message-Id: <171254536906.1817.6132043028541866725@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/utils/dash/dash
+user: herbert
 changes:
-  - ref: refs/heads/arm64-for-6.10
-    old: 3ac680a514b6e63428481b1e6fb069383e5b7add
-    new: 32198408f825a8ca3da4784d4c280847075990e9
+  - ref: refs/heads/master
+    old: 14ac8fbcaa8faf2f4faf1e4d98c0168eaddf6a6f
+    new: 419f334520c251fb9cdeac380312d38521dfca5c
     log: |
-         32198408f825a8ca3da4784d4c280847075990e9 arm64: dts: qcom: sc7180: Fix UFS PHY clocks
+         419f334520c251fb9cdeac380312d38521dfca5c configure.ac: drop -Wl,--fatal-warnings
          
