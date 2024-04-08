@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============7977063396383071247=="
+Content-Type: multipart/mixed; boundary="===============3563943979047460312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 08 Apr 2024 12:17:11 -0000
-Message-Id: <171257863193.29073.18244911101506811116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 08 Apr 2024 12:17:32 -0000
+Message-Id: <171257865273.29317.11753154835850716370@gitolite.kernel.org>
 
---===============7977063396383071247==
+--===============3563943979047460312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: a469158eaf8f4b10263b417856d923dfa38ae96d
+    old: 1f886a7bfb3faf4c1021e73f045538008ce7634e
     new: fec50db7033ea478773b159e0e2efb135270e3b7
-    log: revlist-a469158eaf8f-fec50db7033e.txt
+    log: revlist-1f886a7bfb3f-fec50db7033e.txt
   - ref: refs/heads/for-next
-    old: 1c02bfce20128b6fdef012bf876c88be031d5001
-    new: d5d2b9b78b2e086115b7671377e07abb16d5441a
-    log: revlist-1c02bfce2012-d5d2b9b78b2e.txt
+    old: 6a75550ad6abd5caf451e7389367958bfba6e295
+    new: 1478df8cf81c555522cc67bca8220aa54d3023d3
+    log: revlist-6a75550ad6ab-1478df8cf81c.txt
 
---===============7977063396383071247==
+--===============3563943979047460312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a469158eaf8f-fec50db7033e.txt
+Content-Disposition: attachment; filename=revlist-1f886a7bfb3f-fec50db7033e.txt
 
 ccb2280ec2f9e805d70f57a3a1c5deff0d532cb3 x86/kvm: Use separate percpu variable to track the enabling of asyncpf
 df01f0a1165c35e95b5f52c7ba25c19020352ff9 KVM: x86: Improve documentation of MSR_KVM_ASYNC_PF_EN
@@ -217,6 +217,7 @@ b7dce525c4fcc92b373136288309f8c9ca6c375f drm/xe/queue: fix engine_class bounds c
 b45f20fa69cedb6038fdaec31bd600c273c865a5 drm/xe/device: fix XE_MAX_TILES_PER_DEVICE check
 45c30b2923e5c53e0ef057a8a525b0456adde18e drm/xe/query: fix gt_id bounds check
 0d8cf0c924732a045273c6aca6900a340ac88529 drm/xe: Fix END redefinition
+a469158eaf8f4b10263b417856d923dfa38ae96d regulator: tps65132: Add of_match table
 27f58c04a8f438078583041468ec60597841284d scsi: sg: Avoid sg device teardown race
 0c76106cb97548810214def8ee22700bbbb90543 scsi: sd: Fix TCG OPAL unlock on system resume
 429846b4b6ce9853e0d803a2357bb2e55083adf0 scsi: mpi3mr: Avoid memcpy field-spanning write WARNING
@@ -489,7 +490,6 @@ ad69a730c616b32a10d8f11523cd9124362bba56 Merge branch 'gro-fixes'
 309d8ced2d4865fffb839c13f604fc13f4ef4b31 MAINTAINERS: Remove incorrect M: tag for dm-devel@lists.linux.dev
 d7e1201443713f5addce2d9b4920d25391883a80 dm vdo murmurhash3: use kernel byteswapping routines instead of GCC ones
 8e91c2342351e0f5ef6c0a704384a7f6fc70c3b2 dm integrity: fix out-of-range warning
-a3d3eab627bbbb0cb175910cf8d0f7022628a642 spi: s3c64xx: Use DMA mode from fifo size
 4790a73ace86f3d165bbedba898e0758e6e1b82d Revert "Bluetooth: hci_qca: Set BDA quirk bit if fwnode exists in DT"
 7003de8a226ea07d36e9461a30633af26dc79248 dt-bindings: bluetooth: add 'qcom,local-bd-address-broken'
 e12e28009e584c8f8363439f6a928ec86278a106 arm64: dts: qcom: sc7180-trogdor: mark bluetooth address as broken
@@ -684,8 +684,6 @@ c53fe72cb5fffd69f2fff104b0119d6e271759c5 MAINTAINERS: mlx5: Add Tariq Toukan
 c3eeb1ffc6a88af9b002e22be0f70851759be03a x86/resctrl: Fix uninitialized memory read when last CPU of domain goes offline
 312be9fc2234c8acfb8148a9f4c358b70d358dee perf/x86/intel/ds: Don't clear ->pebs_data_cfg for the last PEBS event
 ef15ddeeb6bee87c044bf7754fac524545bf71e8 octeontx2-af: Add array index check
-bff892acf79cec531da6cb21c50980a584ce1476 spi: spi-fsl-lpspi: remove redundant spi_controller_put call
-1f886a7bfb3faf4c1021e73f045538008ce7634e spi: mchp-pci1xxx: Fix a possible null pointer dereference in pci1xxx_spi_probe
 0a6380cb4c6b5c1d6dad226ba3130f9090f0ccea net: bcmgenet: Reset RBUF on first open
 e8acd2d209a387f2358c2c83fe894b444db9ea46 gpiolib: Fix triggering "kobject: 'gpiochipX' is not initialized, yet" kobject_get() errors
 e6ec07dc6dd498415bc8cc49437d5ec9e09cc48e s390/mm: fix NULL pointer dereference
@@ -856,11 +854,11 @@ e2948effa9063ae8bd0e7dd65ca4a0fa068c71a6 Merge tag 'perf-urgent-2024-04-07' of g
 9fe30842a90be9b57a3bd1a37c9aed92918cc6d0 Merge tag 'x86-urgent-2024-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fec50db7033ea478773b159e0e2efb135270e3b7 Linux 6.9-rc3
 
---===============7977063396383071247==
+--===============3563943979047460312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c02bfce2012-d5d2b9b78b2e.txt
+Content-Disposition: attachment; filename=revlist-6a75550ad6ab-1478df8cf81c.txt
 
 ccb2280ec2f9e805d70f57a3a1c5deff0d532cb3 x86/kvm: Use separate percpu variable to track the enabling of asyncpf
 df01f0a1165c35e95b5f52c7ba25c19020352ff9 KVM: x86: Improve documentation of MSR_KVM_ASYNC_PF_EN
@@ -1049,6 +1047,7 @@ b7dce525c4fcc92b373136288309f8c9ca6c375f drm/xe/queue: fix engine_class bounds c
 b45f20fa69cedb6038fdaec31bd600c273c865a5 drm/xe/device: fix XE_MAX_TILES_PER_DEVICE check
 45c30b2923e5c53e0ef057a8a525b0456adde18e drm/xe/query: fix gt_id bounds check
 0d8cf0c924732a045273c6aca6900a340ac88529 drm/xe: Fix END redefinition
+a469158eaf8f4b10263b417856d923dfa38ae96d regulator: tps65132: Add of_match table
 27f58c04a8f438078583041468ec60597841284d scsi: sg: Avoid sg device teardown race
 0c76106cb97548810214def8ee22700bbbb90543 scsi: sd: Fix TCG OPAL unlock on system resume
 429846b4b6ce9853e0d803a2357bb2e55083adf0 scsi: mpi3mr: Avoid memcpy field-spanning write WARNING
@@ -1321,7 +1320,6 @@ ad69a730c616b32a10d8f11523cd9124362bba56 Merge branch 'gro-fixes'
 309d8ced2d4865fffb839c13f604fc13f4ef4b31 MAINTAINERS: Remove incorrect M: tag for dm-devel@lists.linux.dev
 d7e1201443713f5addce2d9b4920d25391883a80 dm vdo murmurhash3: use kernel byteswapping routines instead of GCC ones
 8e91c2342351e0f5ef6c0a704384a7f6fc70c3b2 dm integrity: fix out-of-range warning
-a3d3eab627bbbb0cb175910cf8d0f7022628a642 spi: s3c64xx: Use DMA mode from fifo size
 4790a73ace86f3d165bbedba898e0758e6e1b82d Revert "Bluetooth: hci_qca: Set BDA quirk bit if fwnode exists in DT"
 7003de8a226ea07d36e9461a30633af26dc79248 dt-bindings: bluetooth: add 'qcom,local-bd-address-broken'
 e12e28009e584c8f8363439f6a928ec86278a106 arm64: dts: qcom: sc7180-trogdor: mark bluetooth address as broken
@@ -1516,8 +1514,6 @@ c53fe72cb5fffd69f2fff104b0119d6e271759c5 MAINTAINERS: mlx5: Add Tariq Toukan
 c3eeb1ffc6a88af9b002e22be0f70851759be03a x86/resctrl: Fix uninitialized memory read when last CPU of domain goes offline
 312be9fc2234c8acfb8148a9f4c358b70d358dee perf/x86/intel/ds: Don't clear ->pebs_data_cfg for the last PEBS event
 ef15ddeeb6bee87c044bf7754fac524545bf71e8 octeontx2-af: Add array index check
-bff892acf79cec531da6cb21c50980a584ce1476 spi: spi-fsl-lpspi: remove redundant spi_controller_put call
-1f886a7bfb3faf4c1021e73f045538008ce7634e spi: mchp-pci1xxx: Fix a possible null pointer dereference in pci1xxx_spi_probe
 0a6380cb4c6b5c1d6dad226ba3130f9090f0ccea net: bcmgenet: Reset RBUF on first open
 e8acd2d209a387f2358c2c83fe894b444db9ea46 gpiolib: Fix triggering "kobject: 'gpiochipX' is not initialized, yet" kobject_get() errors
 e6ec07dc6dd498415bc8cc49437d5ec9e09cc48e s390/mm: fix NULL pointer dereference
@@ -1687,6 +1683,6 @@ e2948effa9063ae8bd0e7dd65ca4a0fa068c71a6 Merge tag 'perf-urgent-2024-04-07' of g
 3520c35e5f0b00cfd6a774d04c1b3bb18edc428a Merge tag 'timers-urgent-2024-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9fe30842a90be9b57a3bd1a37c9aed92918cc6d0 Merge tag 'x86-urgent-2024-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fec50db7033ea478773b159e0e2efb135270e3b7 Linux 6.9-rc3
-d5d2b9b78b2e086115b7671377e07abb16d5441a Merge remote-tracking branch 'regulator/for-6.10' into regulator-next
+1478df8cf81c555522cc67bca8220aa54d3023d3 Merge remote-tracking branch 'spi/for-6.10' into spi-next
 
---===============7977063396383071247==--
+--===============3563943979047460312==--
