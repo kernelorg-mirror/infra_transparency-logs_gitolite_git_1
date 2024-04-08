@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 08 Apr 2024 07:37:06 -0000
-Message-Id: <171256182668.22729.15789625120872557293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
+Date: Mon, 08 Apr 2024 07:41:13 -0000
+Message-Id: <171256207388.27152.17876383336051871562@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/joel.granados/linux
+user: joel.granados
 changes:
-  - ref: refs/heads/master
-    old: 6f548300b2b823af0b2ae208e12ddfdeebe3e71d
-    new: b1a76c226b276f49c6a7e74082a23f06f5b99966
+  - ref: refs/heads/jag/sysctl_remset_net
+    old: 3b6720e41a3ccc4b0ddea1721cea468dc17fb5d7
+    new: ca53ca465ba0e08865d73b13cf0f868735604b4c
     log: |
-         b1a76c226b276f49c6a7e74082a23f06f5b99966 meson: use signed chars
-         
-  - ref: refs/heads/stable/v2.40
-    old: 1b92ff39b64baf6b23254589b0299aefdb4b3f37
-    new: 5de7172a3e59b6861bff0b7baa6f0cad321ab3ff
-    log: |
-         e199a933058ae052b1dfa2fcb457791f47b60b11 tests: (lsfd::mkfds-multiplexing) skip if /proc/$pid/syscall is broken
-         5de7172a3e59b6861bff0b7baa6f0cad321ab3ff Merge branch 'lsfd--verify-proc-syscall' of https://github.com/masatake/util-linux into stable/v2.40
+         cf753ccca3b02a63ad7d2ea4ce513621d5ad2ec9 sysctl: Remove sentinel elements from networking
+         a0f3d20681aac303e6d5ce4f3ace0f61743a1ee4 networking: Remove the now superfluous sentinel elements from ctl_table array
+         d2038db04039aee87f4c68e23a426a4d09bcbc5c netfilter: Remove the now superfluous sentinel elements from ctl_table array
+         7cd25017f61506b57d00048c1ae94296202d0165 appletalk: Remove the now superfluous sentinel elements from ctl_table array
+         ca53ca465ba0e08865d73b13cf0f868735604b4c ax.25: Remove the now superfluous sentinel elements from ctl_table array
          
