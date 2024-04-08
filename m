@@ -1,31 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 08 Apr 2024 09:27:42 -0000
-Message-Id: <171256846213.10957.15901466690149436404@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 08 Apr 2024 09:29:19 -0000
+Message-Id: <171256855982.11685.11560479556848134157@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 3b89336c9ccf5961e9ec9521868a4c48bd6dded5
-    new: 3e8d1b5350e0eb687e80794c860f79a6efebbfb3
+  - ref: refs/heads/kvm-arm64/nv-6.10-TLB-WIP
+    old: 947afad96cdc4d6794cb18fddb5b11527a8a1b80
+    new: 9fcebbcb84b64708ece01cc68dab66af924e5ec9
     log: |
-         8ae8e4e694b1127cccc87ade9d04919a490449dd platform/chrome: cros_ec_lpc: introduce a priv struct for the lpc device
-         839720336e8c46356139ce7f98ba950841abed10 platform/chrome: cros_ec_lpc: pass driver_data from DMI to the device
-         6b0ab6de2d860dbe353fcc7a7b674aebcebb2e1e platform/chrome: cros_ec_lpc: add a "quirks" system
-         3e8d1b5350e0eb687e80794c860f79a6efebbfb3 platform/chrome: cros_ec_lpc: add quirks for the Framework Laptop (AMD)
-         
-  - ref: refs/heads/for-next
-    old: 3b89336c9ccf5961e9ec9521868a4c48bd6dded5
-    new: 3e8d1b5350e0eb687e80794c860f79a6efebbfb3
-    log: |
-         8ae8e4e694b1127cccc87ade9d04919a490449dd platform/chrome: cros_ec_lpc: introduce a priv struct for the lpc device
-         839720336e8c46356139ce7f98ba950841abed10 platform/chrome: cros_ec_lpc: pass driver_data from DMI to the device
-         6b0ab6de2d860dbe353fcc7a7b674aebcebb2e1e platform/chrome: cros_ec_lpc: add a "quirks" system
-         3e8d1b5350e0eb687e80794c860f79a6efebbfb3 platform/chrome: cros_ec_lpc: add quirks for the Framework Laptop (AMD)
+         58f746dfeeb55b61098f26528dff41b720534fc6 WIP Range
+         7c9e212c75e0f1d44e09933c1ef19b70b6fa0d8b fixup! fixup! fixup! KVM: arm64: nv: Trap and emulate TLBI instructions from virtual EL2
+         77445bc036628568b6d6a31e3a8b4d936f651905 WIP NXS
+         9fcebbcb84b64708ece01cc68dab66af924e5ec9 sr ooo improvements
          
