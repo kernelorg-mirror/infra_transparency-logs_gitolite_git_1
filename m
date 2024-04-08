@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5513180224143853113=="
+Content-Type: multipart/mixed; boundary="===============5936568395842254506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 08 Apr 2024 13:56:50 -0000
-Message-Id: <171258461003.7364.1315156192410617097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 08 Apr 2024 13:57:25 -0000
+Message-Id: <171258464537.7686.6251932338060366696@gitolite.kernel.org>
 
---===============5513180224143853113==
+--===============5936568395842254506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: cd031b7ee7eb09027e0f22df412f5f4d7096ea3a
     log: revlist-b6347cb5e04e-cd031b7ee7eb.txt
 
---===============5513180224143853113==
+--===============5936568395842254506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ f87eb210be0f8062ecc3580152a16a1abd23882a perf annotate: Check annotation lines m
 fc0df1a724a6f8fc31ac0cec75f526694a07e218 perf annotate: Move nr_events struct to 'struct annotated_source'
 cd031b7ee7eb09027e0f22df412f5f4d7096ea3a perf annotate: Move 'start' field struct to 'struct annotated_source'
 
---===============5513180224143853113==--
+--===============5936568395842254506==--
