@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7520033112125581358=="
+Content-Type: multipart/mixed; boundary="===============4659302586418394136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 08 Apr 2024 20:15:46 -0000
-Message-Id: <171260734667.32061.9618598251899530637@gitolite.kernel.org>
+Date: Mon, 08 Apr 2024 20:16:04 -0000
+Message-Id: <171260736430.32228.4058452832562778093@gitolite.kernel.org>
 
---===============7520033112125581358==
+--===============4659302586418394136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: c88b9b4cde17aec34fb9bfaf69f9f72a1c44f511
     new: 7e68708b91da7be3fd540b13e3a9a9842c350c09
     log: revlist-c88b9b4cde17-7e68708b91da.txt
 
---===============7520033112125581358==
+--===============4659302586418394136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ dfe073f8714dc8022b5578510e2288e5292adeb5 net: stmmac: mmc_core: Add GMAC LPI sta
 ff20393bdc4537c5e044e3002d7f25a45f0d0f98 net: stmmac: mmc_core: Add GMAC mmc tx/rx missing statistics
 7e68708b91da7be3fd540b13e3a9a9842c350c09 Merge branch 'stmmac-missing-stats-DW-GMAC'
 
---===============7520033112125581358==--
+--===============4659302586418394136==--
