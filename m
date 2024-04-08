@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 08 Apr 2024 15:45:56 -0000
-Message-Id: <171259115614.25014.4893334792278236450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Mon, 08 Apr 2024 15:48:01 -0000
+Message-Id: <171259128169.25847.16810935139947977786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/auto-update-info
-    old: edd6fe84cf66715a4a06668840f8efa8903741cb
-    new: 483cc89ab6327a25c8970bff77ed12fba3ee1045
+  - ref: refs/heads/fixes
+    old: 4ff2d4b81d7057bf0141aa14cbcf1780f063a477
+    new: 7bcf809b1e7889ab7e75fe1fcf8f1a98332f36d2
     log: |
-         e8feb1b9230a50123a6b00c102ecb3968bcb323b firmware: microchip: clarify that sizes and addresses are in hex
-         80ba2748a043591806197e3d8083487fa74a71ce firmware: microchip: move buffer allocation into mpfs_auto_update_set_image_address()
-         483cc89ab6327a25c8970bff77ed12fba3ee1045 firmware: microchip: use cleanup infrastruture where possible
+         592780b8391fe31f129ef4823c1513528f4dcb76 cxl: Fix retrieving of access_coordinates in PCIe path
+         51293c565cf4b8d57c154efadb57b17866c74bcb cxl: Fix incorrect region perf data calculation
+         001c5d19341a39cb683ab0a18ce4b662a09d96a0 cxl: Consolidate dport access_coordinate ->hb_coord and ->sw_coord into ->coord
+         7bcf809b1e7889ab7e75fe1fcf8f1a98332f36d2 cxl: Add checks to access_coordinate calculation to fail missing data
          
