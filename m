@@ -1,224 +1,391 @@
-Content-Type: multipart/mixed; boundary="===============1463615168677971985=="
+Content-Type: multipart/mixed; boundary="===============7305884463520007887=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 08 Apr 2024 22:50:05 -0000
-Message-Id: <171261660561.16190.8145083207865291662@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Mon, 08 Apr 2024 23:00:05 -0000
+Message-Id: <171261720533.23067.946643162803666270@gitolite.kernel.org>
 
---===============1463615168677971985==
+--===============7305884463520007887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/rw_iter
-    old: 66b4d628853c5c90f58664328d82945dc7117f5c
-    new: e7bbb29bad7bb57e91d8a49a5aab3797680b1560
-    log: revlist-66b4d628853c-e7bbb29bad7b.txt
+  - ref: refs/heads/damon/next
+    old: 7fe147d470617c5b42feaf4afee9c598a7bc84af
+    new: ad20cb9028c8357fa4850eb90af3bf985cb099ce
+    log: revlist-7fe147d47061-ad20cb9028c8.txt
 
---===============1463615168677971985==
+--===============7305884463520007887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66b4d628853c-e7bbb29bad7b.txt
+Content-Disposition: attachment; filename=revlist-7fe147d47061-ad20cb9028c8.txt
 
-80fe0d8591de5fadd7bc0e997f1c8bb067500a13 bpf: convert to read/write iterators
-802e95e520b18b5a67f05b24205a39c08629f4bb perf: convert events to read/write iterators
-af4946cdbdea7705f137c6e5db73c3c9145da7a8 dma-debug: convert to read/write iterators
-caa7f8fad62506c54eefa51430c7867e6d33c030 kernel/fail_function: convert to read/write iterators
-69b4eb37750aeab5cfbe7ee24d1167c2b26c1bbf kcsan: convert to read/write iterators
-6fdb35b1a400bb090d72d2331005d3ddc734ea65 module: convert to read/write iterators
-b3d5817c5a552432d6cdb3d76bf5eb0ae48cb918 kernel/power: convert to read/write iterators
-39249b4ae4d2453232c8d159d873e2286ebc483f printk: convert to read/write iterators
-07d72ca6c8b409de801df1dc6f87f02a56db2a16 relay: convert to read/write iterators
-e4fd77b30d00875be116a092c7a732baf1947a13 kernel/time: convert to read/write iterators
-509e38737c8c72b58164d5fd72a2363a8a8134a8 rv: convert to read/write iterators
-ba51bb5e7e4020392c361be0448c8dabe4063e43 tracing: convert to read/write iterators
-d2616a8c59c5998bd4e54ef36a703e42d27cf22c gcov: convert to read/write iterators
-5eedca5671031c308c6e5d8d37010fb43ed80ae7 sched/debug: convert to read/write iterators
-d5b9c4584ad265a273f06ff3e374e452ce223447 kernel/irq: convert debugfs helpers to read/write iterators
-2fdd4539e94ea967328e85316299bb2f68ef9fe3 locking/lock_events: convert to read/write iterators
-17b57dafc2d1ed2009333b5df136e3eccd44dde2 kprobes: convert to read/write iterators
-a12ae7dcc42297a3565a8ab6ebead4e5a2664824 fs: add iterator based version of simple_transaction_read()
-35cc91ad51b54312f967eb0129db20ca04dc2eef security: convert to read/write iterators
-a301ef63502be6657b192d5d8808b8aadfce149c mm: convert to read/write iterators
-31746e58b9ef59ba8e0617e8d1226e8e7ec64456 block/drivers: convert to read/write iterators
-b1d006e3c77bfa819c0e5cfe5c26e9194a96c1e1 lib: convert to read/write iterators
-68820cc8fb6de21ec4eff937826ac81db4e1ee71 ipc: convert to read/write iterators
-b967c3c1e5e3884b3322edae878295b92b6bfaef timerfd: convert to ->read_iter()
-b7d0a405c3bf67d5dc1236f030a8726c10838190 userfaultfd: convert to ->read_iter()
-27b92256d625704edae8f95643239c47b9ee7f72 signalfd: convert to ->read_iter()
-19c4a1b4a029346cfbec9bbc2c1744c2fa875cd6 drivers/accel: convert to read/write iterators
-f9881ace4668b0c355b973707d3080bfdb52a421 drivers/acpi: convert to read/write iterators
-d8e45de2614595021023d22f0d048e9c4f0aa59b drivers/crypto: convert to read/write iterators
-7d15a88a63c440001a9ee4e74607baaed2e8804a fs/pstore: convert to read/write iterators
-0b3b19ad99bbe657dbbaaa85db76c94797414693 drivers/gpio: convert to ->read_iter and ->write_iter
-b513b92b8d04e57ec9a5a91254bdfecab12407c5 drivers/bluetooth: convert to read/write iterators
-94ac1370a80f21019e0b8a83274b50f61ced6986 drivers/ras: convert to read/write iterators
-2f41c4ddd0d2bd15804c151205999962510c5f98 fs/efivars: convert to read/write iterators
-d477e454b4ef3057c8889ef41935b63a36ac0a0f drivers/comedi: convert to read/write iterators
-ba4f4080e283d1532a37bec553fd1101699d1ee9 drivers/counter: convert to read/write iterators
-0b1fed9a60852d681af13727f1a1ed95a1e3a139 drivers/hid: convert to read/write iterators
-b4fa9742195e4f4c91c222696ebf05785635a509 drivers/tty: convert to ->read_iter and ->write_iter
-663bae320273443f9b5834866ffd5eb48b154dce drivers/auxdisplay: convert to read/write iterators
-9908d98974ccdc59662565945edd2a4d2f314545 fs/eventfd: convert to read/write iterators
-f3cf7b6ce7afb519b0a78169a5fbf6e3523bbf38 drivers/input: convert to read/write iterators
-20efac5f89d98d77231774f6cf9925a3e4d99f5b drivers/pci: convert to read/write iterators
-f94a9648f0c7cfb096a5fe03d75cc1580d585f9f fs/fuse: convert to read/write iterators
-d6b751a9e216f4f0d2419b617c01dcf6436dc0d3 drivers/firmware: convert to read/write iterators
-2449aeeac0a92ca233b519175e0975a61ad521dd drivers/i2c: convert to read/write iterators
-91ec26506a3cad52144e42dd85d797df06c08688 drivers/opp: convert to read/write iterators
-7b9789ca5f57ef01d6c3dc88377d587f66edaa2e drivers/base: convert to read/write iterators
-59c9dbf1716b6f3bfc9df928cda2f5ac5b9a29c8 drivers/bus: convert to read/write iterators
-60e6a984c3a9bc57297c43f2df8922c5f9660cbc drivers/regulator: convert to read/write iterators
-25ed1f45331c6a583c70d51a475452374b5ec242 fs/notify: convert to read/write iterators
-83679d2260f79959d8c737066af2dcb878072b92 drivers/gpu: convert to ->read_iter and ->write_iter
-8cc8f0ca36c6ecd6630fcad5976eb946a3d625da drivers/clk: convert to read/write iterators
-4d91d4a654823bdf5cc7bac6eb618fcbaa563a63 drivers/rtc: convert to read/write iterators
-97148b4907be50f41e55bf947fe0972e50c3d751 drivers/dma: convert to read/write iterators
-5808371d8a4232520970cf137604541144393a69 fs/debugfs: convert to read/write iterators
-52d30b24eafbfef90efc1534956c6e9a062798c3 drivers/usb: convert to ->read_iter and ->write_iter
-45a310b1e344d1b1293d70ffab6c6eaf962b597f drivers/soc: convert to ->read_iter and ->write_iter
-fcd9049cc553da25cb7972c81597d0f5ed3af058 drivers/pinctrl: convert to ->read_iter and ->write_iter
-b0fe7333dce1ca208577437d13d4bfb6193d2d55 drivers/phy: convert to ->read_iter and ->write_iter
-93a8749a71093db0f113b3cb74b707133ff8c899 drivers/ufs: convert to ->read_iter and ->write_iter
-89d2dbdba73b9f815b8eba44d635716e4ee05977 drivers/uio: convert to ->read_iter and ->write_iter
-749cdb84b7b9e97228c39445f4ab4b4fc1a515b2 drivers/platform: convert to ->read_iter and ->write_iter
-5dc5cc2a53d9dab1f3b386c052029f18d302c6bc drivers/mtd: convert to ->read_iter and ->write_iter
-1e5695d5625d4b0d54c59cdc26be4645428c5b80 scsi: bfa: convert to read/write iterators
-4aa87f7c3772298fd70a3962a6975d52a8d59b44 scsi: csiostor: convert to read/write iterators
-01bdcd3fab15db93054705ed930e2693dc041385 scsi: fnic: convert to read/write iterators
-eac095da08b0286fcce68a376f6ed593602f6bb6 scsi: hisi_sas: convert to read/write iterators
-f1fbe6d6311fa78e64265fbb968fb06ee707d56c scsi: lpfc: convert to read/write iterators
-96bfccb6074305f70872dc4202b430dcf4d9b5c5 scsi: megaraid: convert to read/write iterators
-53dcb4638da754384d5322fa92d00e79cd0824d9 scsi: mpt3sas: convert to read/write iterators
-92edac03f75b8d75cccf003c96a82fe781af766a scsi: qedf: convert to read/write iterators
-b79c2b147135f93f62df530ae2c1935f510bee26 scsi: qedi: convert to read/write iterators
-967cb0428520f8a665e6bef0c1560668c0489e6e scsi: qla2xxx: convert to read/write iterators
-45700de211db36a67cb85b089db1cb95ffacd5d3 scsi: snic: convert to read/write iterators
-2447d1fce9a8a6f9992d1908c9d17bbb6567b429 scsi: scsi_debug: convert to read/write iterators
-e7eacb4f8e1b302eb13e339eefffc8dd83945968 scsi: sg: convert to read/write iterators
-8a9e02da14a7b1d96baa95421fd598787e10aa27 scsi: st: convert to read/write iterators
-104e306d0d461231cefa6870002e7ee88e9cbcd4 staging: axis: convert to read/write iterators
-9f5699d360152c1424522c019f8c77eeafa6c358 staging: fieldbus: convert to read/write iterators
-2db31a3f38c225253dcb6cf181f44cd260f0f07a staging: greybus: convert to read/write iterators
-81addb842345b5d28274efb79fc79b0e5d3d8902 staging: av7110: convert to read/write iterators
-79a01c453b601408e977c606581c464605819c28 staging: vc04_services: convert to read/write iterators
-6576205603a4e5243e4bf6b2191b5ab9579ba930 drivers/xen: convert to ->read_iter and ->write_iter
-753b69f8984505a8f367a75260de2416b48c884b virt: convert to ->read_iter and ->write_iter
-d13324f9e6400f5b214ed13b85f741287cd3ed90 drivers/video: convert to ->read_iter and ->write_iter
-15c95bacfed5e3dc2187cb1ca39ded5e37b3fd60 drivers/iommu: convert to ->read_iter and ->write_iter
-13acc65c71c26b302c8584c2a1112b6038b32a90 misc: bcm_vk: convert to iterators
-b7fe5631c0ad34f67653bf6a32e985abeff78252 misc: lis3lv02d: convert to iterators
-08ffdbbecc4d443450c80c43d2092f4445acb524 misc: eeprom/idt_89hpesx: convert to read/write iterators
-c9f3263405f464f3756f95ecd2b768d5bc49404d misc: hpilo: convert to read/write iterators
-3cc3b8b86b176273b956a8d30a4ca1ad4d39ff4c misc: lkdtm: convert to read/write iterators
-43e9e9dfd5ea7ff8dd8a58fbc22fc7b0645bd9f4 misc: open-dice: convert to read/write iterators
-5ef874038b907fb3c4eba6e16563d04c2a96bf61 misc: tps6594-pfsm: convert to read/write iterators
-f09600ef285137f90a10f53c4ba28f418eaa1937 drivers/isdn: convert to read/write iterators
-fc4061c2409719bfd9632de21f3dd0fe9ee4eddb drivers/leds: convert to read/write iterators
-58252f58d72dd1b1a8817f338d38bd7083717e8c drivers/mailbox: convert to read/write iterators
-53a0702f8910a2917f88ed1022efd24b9514142b drivers/mfd: convert to read/write iterators
-ebe67aafc06db9126620532a5f99d29de22e0406 drivers/misc/mei: convert to read/write iterators
-0f097ea7414b9d770d1829351b1754d4dd5253e2 misc: ibmasm: convert to read/write iterators
-da9ef18ada9cd4b88364a0769311c62a54c48257 drivers/spi: convert to read/write iterators
-45bec776ef8c8fe8a4f151ce0586841093f891bc drivers/nfc: convert to read/write iterators
-4a18f3cf249dc80392de301abb2e990696359812 drivers/nvme: convert to read/write iterators
-e7b6dc6a8a1acc5cd01fa85da6dbd3df759e0eab drivers/firewire: convert to read/write iterators
-932e954a6ca512fe42c23cad799714be48cb2241 drivers/mfd: convert to read/write iterators
-172fa2b489b8d47b4898a2ffe746ffca7937c603 watchdog: acquirewdt: convert to read/write iterators
-ae651d3a3cb2dbc4873723ce54c163f9fa4f2c8d watchdog: advantechwdt: convert to read/write iterators
-69ea94598ea64f12c777db885e93558634a0e7fb watchdog: alim1535_wdt: convert to read/write iterators
-0f8f85c39f34382eee20c7fbdcd1b1e0ae49e99e watchdog: alim7101_wdt: convert to read/write iterators
-8307a7f4db7de57accc94c45cbe745680e8a0fe7 watchdog: at91rm9200_wdt: convert to read/write iterators
-5dcddbcdc14412d7788660def41b78894b4f6413 watchdog: cpu5wdt: convert to read/write iterators
-8d8c151e2b33ea48db696ed8e7c440f6baf7b4f6 watchdog: eurotechwdt: convert to read/write iterators
-26e7a4910424698870b7b018fc57582707460a24 watchdog: geodewdt: convert to read/write iterators
-6e44b477387f7ee8a655be76eff0b2b1eb38fae1 watchdog: ib700wdt: convert to read/write iterators
-a57eda06de04d62434004c922ef1f7b0077a3264 watchdog: ibmasr: convert to read/write iterators
-760262b81b798d24eca9d9c2571c5d687586c81e watchdog: it8712f_wdt: convert to read/write iterators
-81a7fbf877459a6dfc9cb50f2f09482440415085 watchdog: machzwd: convert to read/write iterators
-05dc3428438e81d1a92da7868ce6a50c64baea54 watchdog: mei_wdt: convert to read/write iterators
-64089e4487ca23718f429218c24a5786b288cf9d watchdog: nv_tco: convert to read/write iterators
-92558758467addb4a80f8b6b9949cec90aa9bc1d watchdog: pc87413_wdt: convert to read/write iterators
-23b73327b6703b6b1e7c44d2a3d770bdf3f4ea9e watchdog: pcwd_pci: convert to read/write iterators
-6b5b82d60febdac5c8d5ad911c387fe3ff11d322 watchdog: pcwd_usb: convert to read/write iterators
-e1284012dfabf32fc9d1ac7c741229be981be62f watchdog: rdc321x_wdt: convert to read/write iterators
-7ac6dec726bd2befe0da70813d1af5943df23e20 watchdog: sa1100_wdt: convert to read/write iterators
-5fabb4be00bb7898f52e6828db5cbbe754386303 watchdog: sbc60xxwdt: convert to read/write iterators
-13254bdee90b148593dd788e3da8e20ce4c209e9 watchdog: sbc_epx_c3: convert to read/write iterators
-9909d41382dc63cce58de858672cd233468d2d80 watchdog: sbc_fitpc2_wdt: convert to read/write iterators
-d32ef53a73c950b55a2ae24c8867b78dc48c7494 watchdog: sc1200wdt: convert to read/write iterators
-878e9f7d89a391ef28044f2d662e5cb4562e865a watchdog: sc520_wdt: convert to read/write iterators
-7489cfe0b56fa62d67dd630f9ba5125979acca14 watchdog: sch311x_wdt: convert to read/write iterators
-8cd5d99464b62241bc4f7474a8b9fb55806acec3 watchdog: smsc37b787_wdt: convert to read/write iterators
-792f056eb0bced1b51b2f461fb666114b41ed95f watchdog: w83877f_wdt: convert to read/write iterators
-42098c16bec00cef65bf0d858a95aee1dc70a6d5 watchdog: w83977f_wdt: convert to read/write iterators
-90732806a3323f107f2683647dc74525fe66487a watchdog: wafer5823wdt: convert to read/write iterators
-9e16d3f9dfb6e293b8107e130f9960ad64953493 watchdog: watchdog_dev: convert to read/write iterators
-986d8fcfc2fccfefd22e9219c942a539a84ecfce watchdog: wdt_pci: convert to read/write iterators
-e9a6fc00697c7516ee4470b48bbbb0e851919093 fs/binfmt_misc: convert to read/write iterators
-2db30671d1c3dbc72568408d94369f11774b7b18 fs/coda: convert to read/write iterators
-752a748e4fa1705dbb8630e65d86a3bb7076848e fs/nfsd: convert to read/write iterators
-d9673adf2dd3c1d1e73990a1f38ea80c09167efb ubifs: convert to read/write iterators
-f75f1526f3ef2b26764683d9dbe2bb2c17111fa5 cachefiles: convert to read/write iterators
-01e87de287a64aa2460e18433176a2a3fbe072af fs/xfs: convert to read/write iterators
-876868af06c79249cf8c9971b79e72905b854c27 fs/bcachefs: convert to read/write iterators
-b3acab65122ca2730db3913afc0adde807b21b60 fs/ocfs2: convert to read/write iterators
-5b228cfcbb5fad035f4607fc9762e8fe6b41647d drivers/net/wireless/marvell: convert to read/write iterators
-f19b986a070323ee21b34f3a680bae4bf1a62202 fs/proc: convert to read/write iterators
-6ce381fe302dfb4337f85fb5cff98208c97ab978 fs: convert fs_open to read/write iterators
-235de1e7f71e41cfb984a7983d720593eda1e90a drivers/net/wireless/ti: convert to read/write iterators
-d60a7a32817a3fbac27acf6bb5a222973fd1e226 drivers/net/wireless/intel: convet to read/write iterators
-669ec86b97271a889a0de27c900c01664243a31e drivers/net/wireless/mediatek: convert to read/write iterators
-34668776b102cf35ed2c338ecd39ef8ddf7c5947 drivers/net/wireless/ath/ath5k: convert to read/write iterators
-700418467415d326dda07274c610751f23c66e0b drivers/net/wireless/ath/ath6kl: convert to read/write iterators
-70f8f355a9ebed25aaf03b4c4eceba89f03e884e drivers/net/wireless/ath/carl9170: convert to read/write iterators
-4ee64fa1a5057ce46216a0d203436f9eddbfb10e drivers/net/wireless/ath/wcn36xx: convert to read/write iterators
-e08e16cae6b948cd785c89817c19b8cba205cf10 drivers/net/wireless/ath/wil6210: convert to read/write iterators
-5574f198ea0a34039226722d22567719cc9b9f8c drivers/net/wireless/ath/ath9k: convert to read/write iterators
-e1d602c892b03d8ec5b74adc314bc5f847282883 drivers/net/wireless/ath/ath10k: convert to read/write iterators
-4d8f5b46a1cc3bad689dbb29bfd5bb0fd02faa59 drivers/net/wireless/ath/ath11k: convert to read/write iterators
-0343f1840402485345b43d278d36534517063d65 drivers/net/wireless/broadcom: convert to read/write iterators
-e426f59de1c541a90a69e6681e4b5107dd26dd51 drivers/net/wireless/ralink: convert to read/write iterators
-126f4e305932cce6a19bc4b1fadcc5153ce4f921 drivers/net/wireless/realtek: convert to read/write iterators
-9bd212bee76bce2c883f551a5d8172dd24470e31 drivers/net/wireless/rsi: convert to read/write iterators
-619620493021a3dc412e88f23c53628202b5c095 drivers/net/wireless/silabs: convert to read/write iterators
-ebe59e874eac65745cef4bd15a666b8cd4c6e5a1 drivers/net/wireless/st: convert to read/write iterators
-4422a709252d0d634c3c76aaca7ee92a323e44e1 drivers/net/ieee802154: convert to read/write iterators
-343b15a4ade5a4a1bc8c51ce0800e57cd67f372a drivers/net/netdevsim: convert to read/write iterators
-c8d2f7387e5a7ec83efae9475bc689536c3f7150 drivers/net/ppp: convert to read/write iterators
-bbcffe1f7971a2f847f2bbd105ea63b950386ab0 drivers/net/wwan: convert to read/write iterators
-60d61c4ecc3495180dd9ae3bd046872bc21a40ec drivers/net/xen-netback: convert to read/write iterators
-c751a910dae344bef0d58ab09640e9d9f9eccd6d drivers/net/ethernet/broadcom-bnxt: convert to read/write iterators
-a3fc3c1ef601b96ef7108253c479f8a4e1dd5bc4 drivers/net/brocade-bnad: ensure the copied buf is NULL terminated
-33ab333ad05b98093aced8683fc92dece762f1fe drivers/net/brocade-bnad: convert to read/write iterators
-5a6288dfc2abc38ebfe15a72433afcb71b4ac9b6 drivers/net/ethernet/chelsio: convert to read/write iterators
-3ba106d96755a18ccf912e0c4012228b7fc672fc drivers/net/ethernet/hisilicon: convert to read/write iterators
-e1f738b99fb4699f34de7203f03498901c9b0090 drivers/net/ethernet/huawei: convert to read/write iterators
-274b7c909f3fe57a3ce68e269422aed12c560895 drivers/net/ethernet/amd-xgbe: convert to read/write iterators
-91973a1d472a779ab7503115089029f15ace6fb6 drivers/net/ethernet/intel-ice: ensure the copied buf is NULL terminated
-a9251a08802b32862568badd44ef5bfc447372dd drivers/net/ethernet/intel: convert to read/write iterators
-e5127348a54e4a64c2b3a1d98a972f835e0fbf9e drivers/net/ethernet/marvell/octeontx2: convert to read/write iterators
-2b9bf00d4981c8313aa99f771010aa7050113ccb drivers/net/ethernet/mellanox/mlx5/core: convert to read/write iterators
-d98a31472af584eae7a2a6a6fc4071fd67fc333e arch/x86: convert to read/write iterators
-72f3a93c0ebbaa0a7ddaddf1dd1c32ac2c87e4f1 arch/arm: convert to read/write iterators
-dedb7218d658091e2a052cbf5f15cbfc4c625fbd arch/mips: convert to read/write iterators
-142a7fa14426d197b0fb4bd3162d1d63f8267539 arch/parisc: convert to read/write iterators
-f20ffcc773af27dd694f4138dc4afb62cee89d82 samples/vfio-mdev: convert to read/write iterators
-b5556c24e92e4f6ecd86127012b166e113a60f97 drivers/hwmon: convert to read/write iterators
-ebd90901b6cbee7fe72ef1a75f5c884f90b22ef6 drivers/mmc: convert to read/write iterators
-fc3cde4bc8ee87ce8c90b5cf3163e7832eff1f9f drivers/most: convert to read/write iterators
-9af6d954f14f50766de0dc127fe26d143fb6ac62 drivers/ntb: convert to read/write iterators
-b960c02219199433f705cb91e8e2434adb474544 drivers/md: convert bcache to read/write iterators
-721439ce02257f181e8a9ee87d39b4cf342e581f drivers/remoteproc: convert to read/write iterators
-a47bba993063c101d43ae16aa81b6d8b905e91c3 drivers/thunderbolt: convert to read/write iterators
-deb5164caa43271cf0517eb164fabdd93acc0705 drivers/vfio: convert to read/write iterators
-66acbcf748ba6f2b5674e4cea9ae65128bf0f10c fs/debugfs: remove (now) dead non-iterator debugfs_attr functions
-e7bbb29bad7bb57e91d8a49a5aab3797680b1560 REMOVE ->read() and ->write()
+29df316510965ffcd9269d1e10f4eff38146cc06 userfaultfd: change src_folio after ensuring it's unpinned in UFFDIO_MOVE
+98b0df3f1f9eeff2b31d8b66c1c93eec5af636b7 mm,page_owner: update metadata for tail pages
+cc612d5cb9fe0377635c79f4a8e2fdce62be4b6f mm,page_owner: fix refcount imbalance
+682e3ab07574d561c146e9a22ea9a8f34061dbe3 mm,page_owner: fix accounting of pages when migrating
+8c5101deefeac702411010d5d0bc1d6ea389c697 mm,page_owner: fix printing of stack records
+d24c95e924f826aadc3f242e87613c892e2d98ae mm/userfaultfd: Allow hugetlb change protection upon poison entry
+d7ca0b3b8f386cf2eed5058cb7d78a83d15c632a mm/memory-failure: fix deadlock when hugetlb_optimize_vmemmap is enabled
+12ee0bb78565ded16774592f9866a2b5d18dc898 mm,swapops: update check in is_pfn_swap_entry for hwpoison entries
+033160401a9e3b9763752bc2319f0e95e0cbe858 Merge branch 'mm-stable' into mm-unstable
+7d5c319bb78f4e709162f21b4f5a2faf9be57203 mm: remove guard around pgd_offset_k() macro
+ccc9c8190e930ad948cfa4fcdf9af67da41d6412 mm: memcg: add NULL check to obj_cgroup_put()
+2d309b955b649fd129898d78a6c400731dbea04e mm/madvise: make MADV_POPULATE_(READ|WRITE) handle VM_FAULT_RETRY properly
+3a75b95de5a5b9245b8721bc2382be6e11f740ea mm/madvise: don't perform madvise VMA walk for MADV_POPULATE_(READ|WRITE)
+a0831675ee79ec6c0f7209f5292b89506c56d3aa selftests/mm: virtual_address_range: Switch to ksft_exit_fail_msg
+e26ca9f4e8b806366dc71c2b0f3469ab66506f4c mm: page_alloc: control latency caused by zone PCP draining
+afbc48428677c3c8674b66216a3b69e77ae0d009 mm/hmm: process pud swap entry without pud_huge()
+51818bb82a10c73103109ec5038860a971e69f86 mm/gup: cache p4d in follow_p4d_mask()
+53492b427b2c05662e9da5bb79f00e8bc9a758cd mm/gup: check p4d presence before going on
+b68e266aa5d9e2b45f51a5f302a1ae9de240a03f mm/x86: change pXd_huge() behavior to exclude swap entries
+e66218843ec6be33923168cf67ea241813eb8635 mm/sparc: change pXd_huge() behavior to exclude swap entries
+b641d0b35b983d70eecf65358649afab90fdc398 mm-sparc-change-pxd_huge-behavior-to-exclude-swap-entries-fix
+052e42134a8f3b33c7fb856b80bfded25d29f4a7 mm/arm: use macros to define pmd/pud helpers
+fbe56b159b2d558538dcaadc809dfe20a3996553 mm/arm: redefine pmd_huge() with pmd_leaf()
+0d8de5357652af539eb9744745a3dc429e049173 mm/arm64: merge pXd_huge() and pXd_leaf() definitions
+7c6f1884cbd96cb413e49ddcc07eef88c5dfb9f7 mm/powerpc: redefine pXd_huge() with pXd_leaf()
+c06a31e25e32b5fd25da3799ff98902cdbcc4723 mm/gup: merge pXd huge mapping checks
+5ecd25c17af8299477938c6e9e85b6043e7ff1f7 mm/treewide: replace pXd_huge() with pXd_leaf()
+827a8c87f015696f90cc9219f959cc28ff0f8cd8 mm/treewide: remove pXd_huge()
+d0c0c35efaf9e86a72ab37d0c4d525dab9291673 mm/arm: remove pmd_thp_or_huge()
+2afa103b4b146845d5a536dfd220e612effeccef mm: document pXd_leaf() API
+b1f918920e38e8ee99f6fcd5f6f1f78fb060170c mm: zswap: optimize zswap pool size tracking
+1851dfc237a7f84b7fbc275d71e9ef60ed010689 mm: zpool: return pool size in pages
+8074d480f6b4dae496c3ba3116905f26ff5a0ac6 lib/test_hmm.c: handle src_pfns and dst_pfns allocation failure
+6589c17ab62ff2bfdc638ccdbc78f2672acec57f mm: zswap: remove unnecessary check in zswap_find_zpool()
+ddb172921bf2e82950f29efe0974bfdbbf320bb7 mm/mempolicy: use numa_node_id() instead of cpu_to_node()
+e05046107a21ef7d1250d786d8ca18d63b0e93ef mm-mempolicy-use-numa_node_id-instead-of-cpu_to_node-v3
+1894ac9600b5c02b504e0393a694ac6aa7b21b0e mm/numa_balancing: allow migrate on protnone reference with MPOL_PREFERRED_MANY policy
+bcd814fd1bf24464f249bdec6064bb06e74fd03c percpu: clean up all mappings when pcpu_map_pages() fails
+0f36a8d5d47ac37e2de63827566351be45e5faeb scripts/kernel-doc: drop "_noprof" on function prototypes
+f29fbf0d6d9a1ce9a1bf1cda9637a307bcbff943 fix missing vmalloc.h includes
+ea32f6679a7ebc6a9d14892d07d6818002a679f5 fixup! fix missing vmalloc.h includes
+f29bc7cea422420dd753a0aa5e464040d838f314 fixup! fix missing vmalloc.h includes
+0c85579ff7601c6f6135a5070e927648887420b5 fix-missing-vmalloch-includes-fix-3
+6111ed36f4fefb5e31ef5dab96170529a3ac6d57 fixup! fix missing vmalloc.h includes
+32804f6465bc18bd050385fca7655030e02517c0 kasan: hw_tags: include linux/vmalloc.h
+0d7c17c35a510e664f392382a429259d42d90e0c fixup! fix missing vmalloc.h includes
+5efa27aa190532708b860e416576219c94890db0 asm-generic/io.h: kill vmalloc.h dependency
+450ffec74d11206507c1074ae96b16abec647a2e mm/slub: mark slab_free_freelist_hook() __always_inline
+6f602db2dce79e39da1856408f4cb9dcf6835943 scripts/kallysms: always include __start and __stop symbols
+d910bd731677e263da535c167c2f73911f819dce fs: convert alloc_inode_sb() to a macro
+6bdcca1efe081bd468987eee186f650764d1e8e2 mm: introduce slabobj_ext to support slab object extensions
+61239615270b996dc6d1b38a58706db047454133 mm: introduce __GFP_NO_OBJ_EXT flag to selectively prevent slabobj_ext creation
+5b9612874ce300ea2abb2630c485bd9d37089d9e mm/slab: introduce SLAB_NO_OBJ_EXT to avoid obj_ext creation
+7f6a3807603e66264bd7ad869f06949e0d0e89b3 slab: objext: introduce objext_flags as extension to page_memcg_data_flags
+f0a2b1e587108b9e564c573c8dc5961e27100834 lib: code tagging framework
+3c6841cf21c228ab745a4e42ca02b935f4b14ebb lib: code tagging module support
+d304eb194118924c9bbcd8cdb08f3dab0bedc8a7 lib: prevent module unloading if memory is not freed
+d86a719eab7310e9d89623a1e815ded8d7b682a0 lib: add allocation tagging support for memory allocation profiling
+e87030c912db2dde609327c56a7122e031a3520e Documentation: fs/proc: fix allocinfo title
+731de604493f2fc82c73e3b3b3b6cdfbea002d52 lib: do limited memory accounting for modules with ARCH_NEEDS_WEAK_PER_CPU
+d3d783be7318a8b640ad87ce44dfe8edcca1f970 mm/memprofiling: explicitly include irqflags.h in alloc_tag.h
+b921314d65bf8cb6991bf594e997e560c149b192 lib: introduce support for page allocation tagging
+821b1a21f2038b94ce40514af583c76c7338969d lib: introduce early boot parameter to avoid page_ext memory overhead
+41acd2ede52dce8a8960db23890a6c37de5bfd3e mm: percpu: increase PERCPU_MODULE_RESERVE to accommodate allocation tags
+00a950b8e92b7c6f756422e681bad6097fb83fb1 fixup! increase PERCPU_MODULE_RESERVE to accommodate allocation tags
+1f783e99771990e38bc6c572c391ee05fc4b157b change alloc_pages name in dma_map_ops to avoid name conflicts
+23190fe1ff4d4e89ad3b490ee410660d364ec377 mm: enable page allocation tagging
+837e9eb6d90dd3ff5a7d29e6d335e2d99f7b22a8 Documentation: mm: undo _noprof additions in the documentation
+0eb6cba227d6cd97cbfb8ddad7e34fc9299dd019 mm: create new codetag references during page splitting
+79eb64f8200d931f4a44c16ff06932d70819ebd5 mm: fix non-compound multi-order memory accounting in __free_pages
+3ab7c9de7313535b795a590644488e075df622c2 mm/page_ext: enable early_page_ext when CONFIG_MEM_ALLOC_PROFILING_DEBUG=y
+9be3df3c76d49ef1af06ff1f6b7eb93f46014334 lib: add codetag reference into slabobj_ext
+7990d8d3f06e61caa1a30187ce72890857cb6333 mm/slab: add allocation accounting into slab allocation and free paths
+7704e4fbc40fd3b378bb818435efc3a37cd9588b rust: add a rust helper for krealloc()
+91b68c53f124a0c8daf0c7893edc9551fb1a69f2 mm/slab: enable slab allocation tagging for kmalloc and friends
+9536693579e5ce0b2f7cd13245720ddb6e4caa00 Documentation: mm/slab: undo _noprof additions in the documentation
+310bc1f53b28b2c896c4ce949a899f6c28bcdd69 mm/slab: fix kcalloc() kernel-doc warnings
+95729e98ac824f4e87ab38938179fbe0a22d9040 mempool: hook up to memory allocation profiling
+5335ff7cbb57073182b2d7ca31f0e22b3075edfb Documentation: mempool: undo _noprof additions in the documentation
+f431df24c648527f0fa55f974a8ba7677bba9cca mm/mempool: Documentation: add missing mempool_create_node documentation
+d33088f163674ba44c97554bc56016db0549d364 mm: percpu: introduce pcpuobj_ext
+30fea149650c8614b13cf78ef1d327d6e611a6d7 mm: percpu: add codetag reference into pcpuobj_ext
+1e3ca27abd477c51d493f2b26bb9418691c2c031 mm: percpu: enable per-cpu allocation tagging
+48053f195586bfebe30d29a2b018cebaf169b1d0 Documentation: mm: percpu: undo _noprof additions in the documentation
+8faf9cead31af52867120640e31fe99539586852 mm: vmalloc: enable memory allocation profiling
+f0acaef082ed19b421c44076ce2b29eb7b6bf698 arch/um: fix forward declaration for vmalloc
+d496ace58ce92df67309e4db5874d14b731b35e7 Documentation: mm: vmalloc: undo _noprof additions in the documentation
+32806dbe80b652c9e2d5644edc75804578fced1f rhashtable: plumb through alloc tag
+65a7aa301acc10b2e8f2c58ba4897982d2ec49dd Documentation: rhashtable: undo _noprof additions in the documentation
+6348830637188efe736ee41fbdc21de4e9f0bb12 lib: add memory allocations report in show_mem()
+122cdf41e9358d406db9bdb421c85c1bdd9add2a codetag: debug: skip objext checking when it's for objext itself
+d00597359e131cbbc013a5027440fc8b805ce07c codetag: debug: mark codetags for reserved pages as empty
+63156374a0c969c5d258843971e42cb13faee7bf codetag: debug: introduce OBJEXTS_ALLOC_FAIL to mark failed slab_ext allocations
+ee8d52a1ceae281a5c6b0d7ea27f4a018447068d MAINTAINERS: add entries for code tagging and memory allocation profiling
+4bafb811bca2c54f7b39e82acd0449c659e97971 memprofiling: documentation
+40e0179a93929e64b8725309484c50293d33a862 mm: always initialise folio->_deferred_list
+55e780c2f1b9c982cf4da95a632ea233054f87f9 mm: create FOLIO_FLAG_FALSE and FOLIO_TYPE_OPS macros
+f9d993597c9bb68c1d7dfb86be8b13ab31a35153 mm: remove folio_prep_large_rmappable()
+53277bcf126d80a7b3de975a65b3d7cfaa456ef8 mm: support page_mapcount() on page_has_type() pages
+ed4f8b0a2ef70223c81b47f820460c31e997bc4d mm: turn folio_test_hugetlb into a PageType
+d49bfae199e1c85f4fb23b0e68a274bdb5e7134a mm-turn-folio_test_hugetlb-into-a-pagetype-fix
+7ce9c549b47a524587b85ab4c39faf7b8e99024f mm: remove a call to compound_head() from is_page_hwpoison()
+6917f513074dc605bc68ae756bff8684e16f680c mm: free up PG_slab
+b64d2c7462211937c1f4bf2449dda68b64ed04f6 mm-free-up-pg_slab-fix
+8169a9c0b866ee6657b0d98ab4a2dae0b0cfb50b mm: improve dumping of mapcount and page_type
+3c48fcc34b178446d912a6f0e50c94d37990fde7 hugetlb: remove mention of destructors
+4bbcdbe482d3ca7350c9b0142dd3f2bdd03c3169 selftests/mm: confirm VA exhaustion without reliance on correctness of mmap()
+cc4d5186153f3e9d36aa1fb61e9af18ac877e8da selftests-mm-confirm-va-exhaustion-without-reliance-on-correctness-of-mmap-v2
+dab964ea155887e777366f689544a7e0ca46f315 mm/userfaultfd: don't place zeropages when zeropages are disallowed
+41e319eea058289d94072d5ff229763893953411 s390/mm: re-enable the shared zeropage for !PV and !skeys KVM guests
+d43f6b86dbc8bdd98fdea14e2e1b28a7e3b3a12b mm/page-flags: make __PageMovable return bool
+4e8f51d18284d0ae4f3f1d65d48bf4058a230ba9 mm/page-flags: make PageMappingFlags return bool
+b63108afb58991e1b0f52ab3d225e4dab12eb0cf selftests/mm: run_vmtests.sh: fix hugetlb mem size calculation
+eac68dfa290719fcd450fdd8d1b9f9faef7df222 fixup! selftests/mm: run_vmtests.sh: fix hugetlb mem size calculation
+1e30b35c96ef96f6b377225687b88d3406b3bfef mm: page_alloc: remove pcppage migratetype caching
+d080981793a58ec8ae81bafad69a54970666aff1 mm: page_alloc: optimize free_unref_folios()
+a223d13476a46ff2cc4fd08cb1cea9c683db21d0 mm: page_alloc: fix up block types when merging compatible blocks
+efde14d578aae010b029fca2487087308c844750 mm: page_alloc: move free pages when converting block during isolation
+19d8bb19bf5bb115697417b2a3a26eca497a5f6b mm: page_alloc: fix move_freepages_block() range error
+d5057230662304ba3331019086be8047f63391e5 mm: page_alloc: fix freelist movement during block conversion
+6dc140a5e97a0affcb63c96cf9f6c1720df94a98 mm-page_alloc-fix-freelist-movement-during-block-conversion-fix
+0653e02ecd962a8abbed78845853b150b44c4d74 mm: page_alloc: close migratetype race between freeing and stealing
+ee671746319e16df4d6970d528923155b27cef92 mm: page_alloc: set migratetype inside move_freepages()
+47ce802bd4001ed6a0f0f46ad06d92a11b29bc7c mm: page_isolation: prepare for hygienic freelists
+55fc6687d7c39d23b44982645264307ffd899469 mm-page_isolation-prepare-for-hygienic-freelists-fix
+e613e78f53f0eaf3b97edd0291fd56adc84b9656 mm: page_alloc: consolidate free page accounting
+a28e0a689991cb1d9c0d870b3996fd8e208d1a82 mm: page_alloc: consolidate free page accounting fix
+f2491afabcb4efa8f49f0418c64249a1bd18f8ad mm: page_alloc: consolidate free page accounting fix 2
+cf5e44a8a85103c3746c768d4f6452a09c52f9e5 mm: page_alloc: change move_freepages() to __move_freepages_block()
+8c5731aef9c54ac834a896a1ebb71fd265c93166 mm: page_alloc: batch vmstat updates in expand()
+5c75ceda32314e1e77d00685bedd153bd16105b3 mm: zswap: remove nr_zswap_stored atomic
+c24e7e4b9a491d2295dea81dd071c3c29ca3994b mm/kmemleak: compact kmemleak_object further
+1cb15867037ddc1d9b17091b9e19abc757cfd180 mm/kmemleak: disable KASAN instrumentation in kmemleak
+247cb2a78ad5fb03d50f7ba8fd7452d41684d868 mm/vmalloc: eliminated the lock contention from twice to once
+515d4a0e797aca5cfcb7ea02d2b136e3c7411929 mm: record the migration reason for struct migration_target_control
+ba694c466bd2fb8c58d600fb4f159f67e8547841 mm: hugetlb: make the hugetlb migration strategy consistent
+9b908ed6056eabefa615c7ac5154334915dc18f4 docs: hugetlbpage.rst: add hugetlb migration description
+27d729bc2772d6e868fd0a1463ad8f56837a5b4a selftests/mm: parse VMA range in one go
+654a9fd2a50201004425ad60dbd357b1dd69fe6c arm64: mm: swap: support THP_SWAP on hardware with MTE
+c7d1bad416f42eac78dbf1174b02848ff1fc7ddc mm/readahead: break read-ahead loop if filemap_add_folio return -ENOMEM
+dfcf60ecf64816c4f023397c227485543d2cf44c mm/filemap: don't decrease mmap_miss when folio has workingset flag
+9cd43aacb066e1c6a761269cb64774533728489e mm/filemap: don't decrease mmap_miss when folio has workingset flag
+9c7a0cf7d9ced1153279babff88cf0fab28875eb mm/vmalloc.c: optimize to reduce arguments of alloc_vmap_area()
+b1e443fa8d338161f8d5d83d3f3451a34bfaf547 mm: hold PTL from the first PTE while reclaiming a large folio
+bc4d348f6486e6af37319601ca4654bd18bad264 mm-hold-ptl-from-the-first-pte-while-reclaiming-a-large-folio-fix
+c866f976615ccd442ca97e4c1dbe1c584b7bc599 mm/migrate: split source folio if it is on deferred split list
+faa0a61c09b643e42c21b81c2f77ab09fbffd30f mm-migrate-split-source-folio-if-it-is-on-deferred-split-list-fix
+ffacd1e1c6d4a2501c6106f8c23bfd1b0ee54adb mm: convert folio_estimated_sharers() to folio_likely_mapped_shared()
+2179d80ebbb48be2f30ab2c9140fd4665a3f3c35 folio_likely_mapped_shared() kerneldoc fixup
+765d6f7cb5e56c004db0838a08e757c987b43443 mm/filemap: return early if failed to allocate memory for split
+793a37b8a103e2e75dedf6e1245e2cbb5663f148 mm/filemap: clean up hugetlb exclusion code
+f2d2c9c0153e9bdeeca0829b75d1595c49306f98 lib/xarray: introduce a new helper xas_get_order
+4fa5ffff637632a8e6874a8732f916dc88bda36e mm/filemap: optimize filemap folio adding
+b37ba45334de3bb5389e83d765943967815721ce x86: remove unneeded memblock_find_dma_reserve()
+a33277311d30a7baacd970a8715c3983d6a42277 mm/mm_init.c: remove the useless dma_reserve
+97c9015eb45559c4fbcc4b537ad157f17b884ad0 mm/mm_init.c: add new function calc_nr_all_pages()
+b9e54126db5540c84109156b755add0237622fcf mm/mm_init.c: remove meaningless calculation of zone->managed_pages in free_area_init_core()
+a11b0d8e8e49a0982341a384781fc266446123a1 mm/mm_init.c: remove meaningless calculation of zone->managed_pages in free_area_init_core()
+b84b8d7db6abe406ba058b56cdb3be29dab68aa2 mm/mm_init.c: remove unneeded calc_memmap_size()
+3b833b4d928d1d651db4c4654c81aabd43c9eab0 mm/mm_init.c: remove arch_reserved_kernel_pages()
+09c0bebda47393a36547696c4edcc1785b3b3f9e mm/mmap: convert all mas except mas_detach to vma iterator
+3d735ee0e52db1bb7e346b22a46d6ba6d9504d7f huge_memory.c: document huge page splitting rules more thoroughly
+d05e60a4b75eb9d47ed6bc2ed232919f3de3ef52 mm: backing-dev: use group allocation/free of per-cpu counters API
+2681fa552d1efc3cc4b0e5b196a112dc3f2b74d5 virt: acrn: stop using follow_pfn
+f4e68a20ed2e9c6069fa16fce21cbf81e59d2546 mm: remove follow_pfn
+2eb3ab73c79183a4750a3a5470dd6ccc7c30842e mm: move follow_phys to arch/x86/mm/pat/memtype.c
+68d5f7604cb26ed2f73af64824613a0b6f8c8dcf selftests/memfd_secret: add vmsplice() test
+f7e45d40b0d4f2513de163356c3e22f077400368 mm: merge folio_is_secretmem() and folio_fast_pin_allowed() into gup_fast_folio_allowed()
+522658b386c6712731fa2c0e9318225845669ce9 sh: remove use of PG_arch_1 on individual pages
+953ce0b36fcf8b0377c6b9d8e70e80352cc7012e sh-remove-use-of-pg_arch_1-on-individual-pages-fix
+4caf7d3bd446abc23f9452d65c2f2c9dfacd8849 xtensa: remove uses of PG_arch_1 on individual pages
+eb58a5671676673dbd3a6c368c48ff083feebbf6 mm: make page_ext_get() take a const argument
+be4ded74ca7ea596a6ee59422d82b2bc2441dee4 mm: make folio_test_idle and folio_test_young take a const argument
+291a12a26043062a5d507a239e7c182f3f97a7a3 mm: make is_free_buddy_page() take a const argument
+0ccece657bd0e3663e3cd6f1edf4ec60cf29bf25 mm: make page_mapped() take a const argument
+00958940a9f1625bb449002152f963baa407c1b4 mm: convert arch_clear_hugepage_flags to take a folio
+14f6bbe2df97b79a1f6b6d29f9166015604b2d9b mm-convert-arch_clear_hugepage_flags-to-take-a-folio-fix
+39ebc1f62eacf8e9903f70ee611662c1c3735bc5 slub: remove use of page->flags
+f4e4c922ea75db9c3153c0d882fc29421e809eaa remove references to page->flags in documentation
+cd52fa4a0c9f2cacd549801fad5505f102db63f4 proc: rewrite stable_page_flags()
+539ad5715236f8041d7b636b73fe23732dc1c101 proc-rewrite-stable_page_flags-fix
+2e2128aaa2fd8959130972c80d594b51e8e86788 proc-rewrite-stable_page_flags-fix-2
+83e12c04655d5109ca87a9870eeeecdf6c82b88f mm, slab: move memcg charging to post-alloc hook
+f1302b840b807a8023beb99fa4733848c165c327 fixup! mm, slab: move memcg charging to post-alloc hook
+a123a3f162dbe60ab0cc4671619629f82e5ef16f mm-slab-move-memcg-charging-to-post-alloc-hook-fix-2
+47f96aa1c0517e34aa247fe67bd750d463e78e18 mm, slab: move slab_memcg hooks to mm/memcontrol.c
+d1bb792fc284c11c48188d713bb43e2bd3e2b626 mm: move array mem_section init code out of memory_present()
+31b1e1e010badb7e7bd23dc2134eb7a1ef794141 mm/init: remove the unnecessary special treatment for memory-less node
+8b49bbc0439dc04b3fad486db0c267aa92b53371 mm: make __absent_pages_in_range() as static
+8336f3ccd9cc44b8aa3385e0c856555971aa19c6 mm/page_alloc.c: remove unneeded codes in !NUMA version of build_zonelists()
+5624080768d15575b01c2533b0a63a7538ef9963 mm-page_allocc-remove-unneeded-codes-in-numa-version-of-build_zonelists-v2
+4dc5bc13410741cf859e3ec7e90749ee3467a961 mm/mm_init.c: remove the outdated code comment above deferred_grow_zone()
+dd7c6465f52f5a9587c46733fe334be51c31c651 mm/page_alloc.c: don't show protection in zone's ->lowmem_reserve[] for empty zone
+94e7f43e0bb9d090b4750921436cd4b87c30b6df mm/page_alloc.c: change the array-length to MIGRATE_PCPTYPES
+ee67719b46d96360d9dbcfaeea8473251a873c4b zswap: replace RB tree with xarray
+ec9b4a27a79c63a31bc3729b08dc996d373c86d6 zswap: replace RB tree with xarray
+7d2f16feb2ac1025d61db56a03a12a7a64dc6079 sparc: use is_huge_zero_pmd()
+dbee7ede8fee2fa60a414f0887a7a335458a6cce mm: add is_huge_zero_folio()
+ddf1766f739c16ecf4b8899f6815b9e8a812b0af mm: add pmd_folio()
+bc928c00f6640f58f65e4ddeb40ba42ac4b9af66 mm: convert migrate_vma_collect_pmd to use a folio
+b7a1b6c959585a63bd7d467f4d358204568c1787 mm: convert huge_zero_page to huge_zero_folio
+0ad3f44f2bb13bff7a2b74c45a31dae4875f3193 mm: convert do_huge_pmd_anonymous_page to huge_zero_folio
+8195aca4fa044a1e4c089d566f8de4554f7d34f8 dax: use huge_zero_folio
+2f35092c9657e6d272732a39db3cb310ddd5e215 mm: rename mm_put_huge_zero_page to mm_put_huge_zero_folio
+308b4fc2aec32f19af7ab3006e8c3df6a877346c mm/Kconfig: CONFIG_PGTABLE_HAS_HUGE_LEAVES
+f5f9bb17f0da7bc9a6945c251c891e8032489c38 mm/hugetlb: declare hugetlbfs_pagecache_present() non-static
+c1a1e497a3d5711dbf8fa6d7432d6b83ec18c26f mm: make HPAGE_PXD_* macros even if !THP
+0a9decb86e0ab2ad134b90cd10cfe825711e462d mm: introduce vma_pgtable_walk_{begin|end}()
+9ac40f6d4ba2c9a9ae234d20d09405f2b1116f45 mm/arch: provide pud_pfn() fallback
+3952eb3b643572fddb84d9cd7ed88a5a64d774fd fixup! mm/arch: provide pud_pfn() fallback
+63bfae3ab65e7d073cfaacd777a366ddf509b36b mm/gup: drop gup_fast_folio_allowed() in hugepd processing
+9d1909aab15f4dd9ee9f5c95b70fcb34b7d732bc mm-gup-drop-folio_fast_pin_allowed-in-hugepd-processing-fix
+37ac3bba080c7421cccfd9448c7b578182f9d38d mm/gup: refactor record_subpages() to find 1st small page
+5f5bd27dea84ef6e49cb97ff993dedc28c3b0b72 mm/gup: handle hugetlb for no_page_table()
+7dcb0d48674426a2e05caa2b010d186787bd0d9c mm/gup: cache *pudp in follow_pud_mask()
+1576b631a88960a2fb6cb3efd8501a73fd047c23 mm/gup: handle huge pud for follow_pud_mask()
+819eedd0aaab837cd88dd4b7e3dd4cb05eda43c6 mm/gup: handle huge pmd for follow_pmd_mask()
+3d58ec62618045e596beb54b44200f2d1b02915e fixup! mm/gup: handle huge pmd for follow_pmd_mask()
+bd77703722037a217236858c4c84ae819f8425d2 mm/gup: handle hugepd for follow_page()
+f9e48fc747d5a9e11766eaf02dfb16087b734e79 mm/gup: handle hugetlb in the generic follow_page_mask code
+23fd10e425c85ef32f09638a40264ebc90f8cefb mm: allow anon exclusive check over hugetlb tail pages
+69dff524062928ef1b878b80f2dc5e2a3a745113 mm-allow-anon-exclusive-check-over-hugetlb-tail-pages-fix
+53b2458b5e3aade0e0032f266dfad744b155c522 mm: use rwsem assertion macros for mmap_lock
+c32a8365004dbb1f74d1092880ebcf763e3873b1 filemap: remove __set_page_dirty()
+df9149a2947882b0ddf190a6359ea158e11dde77 mm: optimize CONFIG_PER_VMA_LOCK member placement in vm_area_struct
+03d6d02120dd206db54af2b7c7c5e4d32a4f175a mm: remove "prot" parameter from move_pte()
+7c3dc4e740712e4d21157dbed62b0d8872d4d0bf mm: remove __set_page_dirty_nobuffers()
+c21b8063742f0edca0a7eac53d5032b946936b8b userfaultfd: early return in dup_userfaultfd()
+63c60649e65eeea579ca5d10306b3ced503ea95d proc: refactor pde_get_unmapped_area as prep
+834f4d9155c3bb9a4114deb9c36a5b03106dd352 mm: switch mm->get_unmapped_area() to a flag
+caf1742cb549aea1d41e2bbf0d26df8ec7bef934 mm: introduce arch_get_unmapped_area_vmflags()
+10f4084a7cca45af2828bb49c30d8597dd038a9e mm: remove export for get_unmapped_area()
+5ae3e24b1a24f86d7f7351902cac268d88bc903d mm: use get_unmapped_area_vmflags()
+9eeebe7e45611f29d33f725c3157ce93a6eaf11d thp: add thp_get_unmapped_area_vmflags()
+44081aa62c269a26dec68c4178081600a92403bf csky: use initializer for struct vm_unmapped_area_info
+e51c8d82a04ed3417f607ac6683fec050efd1293 parisc: use initializer for struct vm_unmapped_area_info
+502372dbcd75859fa89cb95f0f6231bd0ecc4d71 powerpc: use initializer for struct vm_unmapped_area_info
+1d38b791525df07184327c49f18bf9395d5f289f treewide: use initializer for struct vm_unmapped_area_info
+60bc0a22001ae35d464350cd5191fbcf4d88ac0f mm: take placement mappings gap into account
+5884b56a3aaf72a053c7e39ccbbc669965f16247 x86/mm: implement HAVE_ARCH_UNMAPPED_AREA_VMFLAGS
+7450d10b6324ee1645a81c0773493e9c51c76b34 x86/mm: care about shadow stack guard gap during placement
+6e8bfcaf1b1def1c02288303b5fa35d159ac3bc1 selftests/x86: add placement guard gap test for shstk
+37f06fee8113e382ac2c8683d1aba7eeacfaee9a mm/ksm: fix ksm exec support for prctl
+59e28c6152de01bdc82055222ecb2e9a304c4727 selftest/mm: ksm_functional_tests: refactor mmap_and_merge_range()
+ff083d2499b9459006cd1e844f451008811eb18b selftest/mm: ksm_functional_tests: extend test case for ksm fork/exec
+8cf864beb931a381b2b6ccaebf51e07c49a30bfd selftest-mm-ksm_functional_tests-extend-test-case-for-ksm-fork-exec-fix
+da703050b5bae4e2c0e835ee4dc2023543ad7c6a mm: init_mlocked_on_free_v3
+65c3c415a167c75f7c2a53e80beb565547e137d5 zram: add max_pages param to recompression
+22fc3fa263438e308ea0409dcd7be89462dffd81 mm: alloc_anon_folio: avoid doing vma_thp_gfp_mask in fallback cases
+454a8f43a2459a5f30e092e93e03bc2ce3273058 mm: factor out the numa mapping rebuilding into a new helper
+d89b3ef1cd1af25fdc30d7fb654ee019db5591eb mm: support multi-size THP numa balancing
+7ae11e8583a4e413036ecab079a5c9adb3e58baf mm-support-multi-size-thp-numa-balancing-v3
+98046944a1597f3a02b792dbe9665e9943b77f28 mm: huge_memory: add the missing folio_test_pmd_mappable() for THP split statistics
+ac32332be93f11b26e31d5113360b6a2bc009880 mm: correct page_mapped_in_vma() for large folios
+9d2866ecd90c07c2a52eb0f0afa0f260b99e38fe mm: remove vma_address()
+63c3e52a707ff285cc72e1b164c1ecb80365ed7f mm: rename vma_pgoff_address back to vma_address
+de4709bc63abc32aae288483ea8f55988344b102 memory: remove the now superfluous sentinel element from ctl_table array
+ed9c8980fa3bb2ebc4020411b15329f748ebd364 selftests/mm: mremap_test: optimize using pre-filled random array and memcpy
+e5f81e64832718961b2cc5bb6048cb4d614e329e selftests/mm: mremap_test: optimize execution time from minutes to seconds using chunkwise memcmp
+2ea83a7d9bddc1863e357168d475634ea27726d2 selftests/mm: mremap_test: use sscanf to parse /proc/self/maps
+cbbb65db6353b0217c008704ccbc96bf14942f1e khugepaged: inline hpage_collapse_alloc_folio()
+48c7ca0559c7e3163b57a410bef91e34042bce6f khugepaged: convert alloc_charge_hpage to alloc_charge_folio
+5a9e866db7ba8f265d2a9f25ca3b7b27f273ea74 khugepaged: remove hpage from collapse_huge_page()
+a3e690ed2806a33cf9003fa19505480d825f480e khugepaged: pass a folio to __collapse_huge_page_copy()
+73c747f498afd5ca085a2181df7bc9eb96868a37 khugepaged: remove hpage from collapse_file()
+2b39e3304be56a931e55cccbd5f8a4f500719dec khugepaged: use a folio throughout collapse_file()
+55bf6c7601d3353b820e211e05a6b4bd4e784c4f khugepaged-use-a-folio-throughout-collapse_file-fix
+b5d6642811496ed993d59027e561736fc49274ce khugepaged: use a folio throughout hpage_collapse_scan_file()
+c9224a86f9ab37b7c5d7b94e3294528b0d8d18c1 proc: convert clear_refs_pte_range to use a folio
+7ed6a6d09df7033b691c75326e6efd033a267d83 proc: convert smaps_account() to use a folio
+3f3194498ad0551ceb50e06164ec568ac024d99b mm: remove page_idle and page_young wrappers
+dfd11ec42188c5af39f7fdbe0a0d4a9b576778d2 mm: generate PAGE_IDLE_FLAG definitions
+d6b827e0bc45edf96519457dcb76a08678340650 proc: convert gather_stats to use a folio
+b805a966a4f384a34149a3778486a3768d41dd81 proc: convert smaps_page_accumulate to use a folio
+8b034b48ad42e59f81f3894a8f727d32c9e57bbc proc: pass a folio to smaps_page_accumulate()
+9855e206a2e019ec11f5887c46fc2cef40b4e0c9 proc: convert smaps_pmd_entry to use a folio
+450096b3c7af1a4212d150fadb530f7585a15c13 mm: page_alloc: use the correct THP order for THP PCP
+fdef4f97214589c4c3d40a258ba68913d9c5af1c mm: swap: remove CLUSTER_FLAG_HUGE from swap_cluster_info:flags
+3317f7faabc24b500c26d02615ac75ca2786e272 mm: swap: free_swap_and_cache_nr() as batched free_swap_and_cache()
+b58f37885f23144858c9010e38d11f64dd81ca4c mm: swap: simplify struct percpu_cluster
+a81890f2cf439b16d513b36d766003eb79d35df9 mm: swap: update get_swap_pages() to take folio order
+6e07841a474c0dc950c93bcf1b4e55dbc3d66f3f mm: swap: allow storage of all mTHP orders
+a686c69db184378b99a1a7faa271f646d52aa1bc mm: vmscan: avoid split during shrink_folio_list()
+cfcca4843356f3b7c8717a909c4f07cbedd8302d mm: madvise: avoid split during MADV_PAGEOUT and MADV_COLD
+39c30017c0cadd24514b30f441c5b08ce2bc22c0 arm64: mm: cleanup __do_page_fault()
+39c2fc143438e3446c5208a4efbd38e7d3f63fc4 arm64: mm: accelerate pagefault when VM_FAULT_BADACCESS
+82975e58c22b5df4cf461b4a3bcdb8d1ec32749d arm: mm: accelerate pagefault when VM_FAULT_BADACCESS
+8cfbc742d6272e66111845843b96fc3198437284 powerpc: mm: accelerate pagefault when badaccess
+c49bef38c546672df8955996a94d69d8323a368d riscv: mm: accelerate pagefault when badaccess
+d8d96e831cc3db92e0123d8d6f4d9c35f3adf51a s390: mm: accelerate pagefault when badaccess
+75ef450aa9828ca20817c46c5b99f131156f6eee x86: mm: accelerate pagefault when badaccess
+cf0049a15207a5a78798105eff789c2025bcf652 arm64: mm: drop VM_FAULT_BADMAP/VM_FAULT_BADACCESS
+8f9d6a30dd992c44debea3161083a6c2cd3ad87f arm: mm: drop VM_FAULT_BADMAP/VM_FAULT_BADACCESS
+01446d1e9e627945664f2a1daa53e8720946d0cd mm: remove struct page from get_shadow_from_swap_cache
+1bc85b07cc717add360a0d7a9532fa0b77b99a27 hugetlb: convert alloc_buddy_hugetlb_folio to use a folio
+6d5bbfb59d9559d783f287cef0a084da9c1d4f40 mm/gup: consistently name GUP-fast functions
+c6b5a19e679bb713efd57d82f9080f780e0bb60a mm/treewide: rename CONFIG_HAVE_FAST_GUP to CONFIG_HAVE_GUP_FAST
+fc57cd2791a89db97fe1bcd9b228d9cbfb546867 mm: use "GUP-fast" instead "fast GUP" in remaining comments
+6e8a7af365a2ffb1836dfbc66e7f560cb7c89e07 mm/ksm: remove redundant code in ksm_fork
+ec0201357e703b789281f49d0b3992a073a8e325 hugetlb: convert hugetlb_fault() to use struct vm_fault
+cfb56d08a472ef73387aee778da76fa1c6008af1 hugetlb: convert hugetlb_no_page() to use struct vm_fault
+2bae904b0c2db863d1e1063dedc34617eef3b615 hugetlb: simplify hugetlb_no_page() arguments
+018ab8ea63b5ab7f40951b3c6030b3991c0c607d hugetlb: convert hugetlb_wp() to use struct vm_fault
+19ab4054346474c2b456f9bff6a98e41e5e46224 hugetlb: Simplify hugetlb_wp() arguments
+25b7ca87b5c050fbe98c2ee8aa6cec9bb6201272 selftests: break the dependency upon local header files
+dca89d5b0927318505f6bff259ab7bf2ca9ef960 selftests/mm: fix additional build errors for selftests
+d8ff1c3b4ebe05e36a70d1b19442be78f6bd25a4 mm/cma: drop incorrect alignment check in cma_init_reserved_mem
+7101cb095f6b5a52bd68bda0e0ad80a2efdbaebe mm/hugetlb: pass correct order_per_bit to cma_declare_contiguous_nid
+dd441315b33d1b86246ebdaf29932d22615a7019 mm: convert pagecache_isize_extended to use a folio
+e2c0075c5ff32dda0cbeb336436a8e2aed737b7d mm: free non-hugetlb large folios in a batch
+f85de2d0471d5a156410718ed03c5c887c1a455c mm: combine free_the_page() and free_unref_page()
+1fd1d88cb76e7e6516e9b86a51b8f4a75beacc6d mm: inline destroy_large_folio() into __folio_put_large()
+8a900a1b9f38db66cbe44e7c8a997cadc2273b18 mm: combine __folio_put_small, __folio_put_large and __folio_put
+f677dcdab091ca617da12f989d74d560cd4cccf4 mm: convert free_zone_device_page to free_zone_device_folio
+551931182a39eeb8f5f648996a657c984023440f mm: set pageblock_order to HPAGE_PMD_ORDER in case with !CONFIG_HUGETLB_PAGE but THP enabled
+d9130022adbe6e6ab115ae0714417cdaa49d88c7 mm: add per-order mTHP anon_alloc and anon_alloc_fallback counters
+cf5dec6389f307a43c6c494660e28f16c7e0265a mm: fix powerpc build issue
+9476c7c651a4fbdad4e7087cf97c905dc7bbede3 mm: add per-order mTHP anon_swpout and anon_swpout_fallback counters
+333decb8f8dac5ca83a2ce48096bb395ed713370 memory tier: dax/kmem: introduce an abstract layer for finding, allocating, and putting memory types
+ed072ca1db068c4448f9ca3ee0f9b180e19b258d memory tier: create CPUless memory tiers after obtaining HMAT info
+6ac2beed1f2b07f88139e4691096e745a3554374 mm/mmap: make vma_wants_writenotify return bool
+bc08262066e1582ec58e9efd62f8466433d0ffab mm/mmap: make accountable_mapping return bool
+8c1d23801f8f5e77acf7bd4a5d9d362e8d7429c6 mm,swap: add document about RCU read lock and swapoff interaction
+6c066dec3075ba2ed7b197643860105b40f93bf0 filemap: replace pte_offset_map() with pte_offset_map_nolock()
+4d5c9c21c89eee9f923144617798d79ecf7ae7b8 mm: optimization on page allocation when CMA enabled
+16f92e05ed61bb70d8a1e8597bf8d29f0386de36 mm: add defines for min/max swappiness
+fae6bcf757ca4ce65eadeae8ec8478e0f6994017 mm: add swappiness= arg to memory.reclaim
+c022357ca01a22d0d80e856e8223339cbb878f38 __mod_memcg_lruvec_state(): enhance diagnostics
+1df265717e0f9d96079073189f6e6c52a48e493c __mod_memcg_lruvec_state-enhance-diagnostics-fix
+7ae72e1b257dac3cadce99e653c57a115c909ba3 === mark start of DAMON hack tree ===
+8e89a3607a2ae3e7e33e6b9f0e5d15c9d817abde Add -damon suffix to the version name
+87f43c1f637916b316fccd4f6bc72204bda324bb === temporal fixes ===
+2cb1dfeda6c4590582658a8c2c804fff68ce1713 Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
+a6359bcde4f9185419e1b3746edaeb3c03923dda === patches written or reviewed by SJ but not merged in -mm ===
+ed3d23370b6498a3ddb283257988660cf2b9f269 Docs/admin-guide/mm/damon/usage: fix wrong example of DAMOS filter matching sysfs file
+ac2478eca24ad496410f0e47b7128acb22507a80 mm/damon: add a DAMOS filter type for page granularity access recheck
+6f1dcd0b2dfe57438479f21e45b678200986c213 mm/damon/paddr: implement damon_folio_young()
+1ec1dacefd92a41032f46601c20b7ae4be367dfe mm/damon/paddr: implement damon_folio_mkold()
+4ed6e0b0c637894c1f68bea5ae2b213ce0bf95cc mm/damon: add DAMOS filter type YOUNG
+b848d882def41e10c9a6dbd9f9cc8d4b5b3ba734 mm/damon/paddr: support DAMOS filter type YOUNG
+9496723ed5ca935918e1fa5b15b9fbb562e87402 === commits aiming not to be posted ===
+a15705afab00d0aa93471dc00ca9e051dd3e8128 mm/damon: Add debug code
+ca6370e857ed2e5702a7e16809f6b485ba411fac mm/damon/sysfs: Add a file for simple checking memcg ids and paths
+c38b9af3467de9a908fadc37f81ca308a9bc51c7 mm/damon/core: add todo for DAMOS interval validation
+a220f79d91ea8f3a7360022d873b6304312937a1 mm/damon/core: add debugging-purpose log of tuned esz
+a552f17f109adda5942c1559264867495c18918b Add debug log for PSI
+231e9c12d07b289ce2922bcaf33c96edac6b48ef === hacks in progress ===
+8f887e4067fcf5b93fc1893f53c4643f3d965794 Docs/mm/damon/design: add API link to damon_ctx
+074ddb9174f7b44bd9726a7e5712babcf81e4941 selftests/damon/_damon_sysfs: support commit_schemes_quota_goals
+eae996eca0d8d489c05694771b6ea3531af5e7e7 mm/damon/core: initialize ->esz_bp from damos_quota_init_priv()
+9659c9bc00146dc60db0594f4cb72dd2fe711dbf mm/damon: implement DAMON context input-only update function
+28f2864807df7ff277e938b9f734a0bb65fbcf58 mm/damon/core: reduce fields copying using temporal list_head backup
+113aff35ab8718a745b36f5e89d0b86f24eaf7b5 mm/damon/core: a bit more cleanup and comments
+476a32a796a7bbe70a8ad8fd68e48ee02042762f drivers/virtio/virtio_balloon: integrate ACMA and ballooning
+fb5c61b0849180c17731cd2b1a960535bf776ebe mm/damon/paddr: check access in page level again for pageout DAMOS
+f548f04f52a19d43ab29ab64d2eddbeb749f6224 mm/damon/paddr: do page level access check for pageout DAMOS action on its own
+5edd83045f8eb90bc909655ef482c41c1d1fe6f2 mm/vmscan: remove ignore_references argument of reclaim_pages()
+7fe61a0e7b81c02a82f7f28030b78606eb253506 Docs/mm/damon/design: use a list for supported filters
+57834c48394559336dd7a95cdefc81e056b4a249 Docs/mm/damon/design: document 'young page' type DAMOS filter
+ad28bca7326be53ae9ea53ea36c98ced2dfcd2a2 Docs/admin-guide/mm/damon/usage: update for young page type DAMOS filter
+ad20cb9028c8357fa4850eb90af3bf985cb099ce Docs/ABI/damon: update for 'youg page' type DAMOS filter
 
---===============1463615168677971985==--
+--===============7305884463520007887==--
