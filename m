@@ -1,262 +1,224 @@
-Content-Type: multipart/mixed; boundary="===============5877163989972886409=="
+Content-Type: multipart/mixed; boundary="===============1463615168677971985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Mon, 08 Apr 2024 22:38:11 -0000
-Message-Id: <171261589109.7044.5223188635661308001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 08 Apr 2024 22:50:05 -0000
+Message-Id: <171261660561.16190.8145083207865291662@gitolite.kernel.org>
 
---===============5877163989972886409==
+--===============1463615168677971985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: khilman
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: e8b0ccb2a787fb43f8091a1eaef9c28a79b00002
-    new: fec50db7033ea478773b159e0e2efb135270e3b7
-    log: revlist-e8b0ccb2a787-fec50db7033e.txt
-  - ref: refs/tags/v6.9-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b4429db95735be42f9b96d7383adfe2fc51dc9fa
+  - ref: refs/heads/rw_iter
+    old: 66b4d628853c5c90f58664328d82945dc7117f5c
+    new: e7bbb29bad7bb57e91d8a49a5aab3797680b1560
+    log: revlist-66b4d628853c-e7bbb29bad7b.txt
 
---===============5877163989972886409==
+--===============1463615168677971985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8b0ccb2a787-fec50db7033e.txt
+Content-Disposition: attachment; filename=revlist-66b4d628853c-e7bbb29bad7b.txt
 
-f193957b0fbbba397c8bddedf158b3bf7e4850fc ASoC: wm_adsp: Fix missing mutex_lock in wm_adsp_write_ctl()
-8aebf68dfd4b482f7fb1f82864fdda08020f62b4 MAINTAINERS: Add TPM DT bindings to TPM maintainers
-3d9b8e6db9bda4463bbf2a97411f0716215254da docs: dt-bindings: add missing address/size-cells to example
-fb9f8125ed9d9b8e11f309a7dbfbe7b40de48fba ASoC: SOF: Add dsp_max_burst_size_in_ms member to snd_sof_pcm_stream
-842bb8b62cc6f3546d61eb63115b32ebc6dd4a87 ASoC: SOF: ipc4-topology: Save the DMA maximum burst size for PCMs
-fe76d2e75a6da97edd2b4ec5cfb9efd541be087a ASoC: SOF: Intel: hda-pcm: Use dsp_max_burst_size_in_ms to place constraint
-67b182bea08a8d1092b91b57aefdfe420fce1634 ASoC: SOF: Intel: hda: Implement get_stream_position (Linear Link Position)
-4374f698d7d9f849b66f3fa8f7a64f0bc1a53d7f ASoC: SOF: Intel: mtl/lnl: Use the generic get_stream_position callback
-ce2faa9a180c1984225689b6b1cb26045f8b7470 ASoC: SOF: Introduce a new callback pair to be used for PCM delay reporting
-fd6f6a0632bc891673490bf4a92304172251825c ASoC: SOF: Intel: Set the dai/host get frame/byte counter callbacks
-37679a1bd372c8308a3faccf3438c9df642565b3 ASoC: SOF: ipc4-pcm: Use the snd_sof_pcm_get_dai_frame_counter() for pcm_delay
-4ab6c38c664442c1fc9911eb3c5c6953d3dbcca5 ASoC: SOF: Intel: hda-common-ops: Do not set the get_stream_position callback
-07007b8ac42cffc23043d00e56b0f67a75dc4b22 ASoC: SOF: Remove the get_stream_position callback
-31d2874d083ba6cc2a4f4b26dab73c3be1c92658 ASoC: SOF: ipc4-pcm: Move struct sof_ipc4_timestamp_info definition locally
-55ca6ca227bfc5a8d0a0c2c5d6e239777226a604 ASoC: SOF: ipc4-pcm: Combine the SOF_IPC4_PIPE_PAUSED cases in pcm_trigger
-3ce3bc36d91510389955b47e36ea4c4e94fcbdd3 ASoC: SOF: ipc4-pcm: Invalidate the stream_start_offset in PAUSED state
-77165bd955d55114028b06787a530b8f9220e4b0 ASoC: SOF: sof-pcm: Add pointer callback to sof_ipc_pcm_ops
-0ea06680dfcb4464ac6c05968433d060efb44345 ASoC: SOF: ipc4-pcm: Correct the delay calculation
-f9eeb6bb13fb5d7af1ea5b74a10b1f8ead962540 ALSA: hda: Add pplcllpl/u members to hdac_ext_stream
-1abc2642588e06f6180b3fbb21968cf5d0ba9e5f ASoC: SOF: Intel: hda: Compensate LLP in case it is not reset
-c61115b37ff964d63191dbf4a058f481daabdf57 ASoC: SOF: Intel: hda-dsp: Skip IMR boot on ACE platforms in case of S3 suspend
-e2d7ad717a6b0880843dbc60855a5b97ad0395f8 ASoC: cs-amp-lib: Check for no firmware controls when writing calibration
-708181c50b7763c689ecaba5db8075c2d03719c4 ASoC: SOF: mtrace: rework mtrace timestamp setting
-a469158eaf8f4b10263b417856d923dfa38ae96d regulator: tps65132: Add of_match table
-56ebbd19c2989f7450341f581e2724a149d0f08e ASoC: cs42l43: Correct extraction of data pointer in suspend/resume
-3849c4d6c6b3da898d92edafd5e2b0e2baaabb61 ASoC: SOF: ipc4/Intel: Fix delay reporting
-674bc0168e6b68070c75df22e97ab63b6eb60d89 riscv: mm: Fix prototype to avoid discarding const
-d080a08b06b6266cc3e0e86c5acfd80db937cb6b riscv: Fix spurious errors from __get/put_kernel_nofault
-0462c56c290a99a7f03e817ae5b843116dfb575c driver core: Introduce device_link_wait_removal()
-8917e7385346bd6584890ed362985c219fe6ae84 of: dynamic: Synchronize of_changeset_destroy() with the devlink removals
-ad14f7ca9f0d9fdf73d1fd61aaf8248d46ffc849 riscv: hwprobe: do not produce frtace relocation
-4b0bf9a0127029054c2fa18ba5b3f3ddc45f54ed riscv: compat_vdso: install compat_vdso.so.dbg to /lib/modules/*/vdso/
-ea6873118493019474abbf57d5a800da365734df drivers/perf: riscv: Disable PERF_SAMPLE_BRANCH_* while not supported
-653650c468be211752aa56eae79af1ae67c5e70c riscv: Mark __se_sys_* functions __used
-13dddf9319808badd2c1f5d7007b4e82838a648e RISC-V: Update AT_VECTOR_SIZE_ARCH for new AT_MINSIGSTKSZ
-7115ff4a8bfed3b9294bad2e111744e6abeadf1a riscv: compat_vdso: align VDSOAS build log
-0ffe1ae7026dd129d86318388ed62ba61f085730 riscv: mm: implement pgprot_nx
-ad91c1d77fd0a489706b7b784a70e464a4a03490 dt-bindings: ufs: qcom: document SC8180X UFS
-7fb5aafc0a702c4c0bb22410d1e67a732e320511 dt-bindings: ufs: qcom: document SC7180 UFS
-b5237d0bdb3cb164b7792cc4f1ff2ecafbfac661 dt-bindings: ufs: qcom: document SM6125 UFS
-4af565de9f8c74b9f6035924ce0d40adec211246 ASoC: amd: acp: fix for acp pdm configuration check
-00bb549d7d63a21532e76e4a334d7807a54d9f31 regmap: maple: Fix cache corruption in regcache_maple_drop()
-a1aa5390cc912934fee76ce80af5f940452fa987 of: module: prevent NULL pointer dereference in vsnprintf()
-daf6c4681a74034d5723e2fb761e0d7f3a1ca18f ALSA: hda/realtek - Fix inactive headset mic jack
-2d0401ee38d43ab0e4cdd02dfc9d402befb2b5c8 ALSA: hda: cs35l56: Add ACPI device match tables
-2bd02f5a0bac4bb13e0da18652dc75ba0e4958ec drm/panfrost: fix power transition timeout warnings
-c60ebc58f2a82d27006cfc30af406bfd2ec204cc drm/nouveau/gr/gf100: Remove second semicolon
-be141849ec00ef39935bf169c0f194ac70bf85ce nouveau/uvmm: fix addr/range calcs for remap operations
-a4ec240f6b7c21cf846d10017c3ce423a0eae92c drm/prime: Unbreak virtgpu dma-buf export
-310a5caa4e861616a27a83c3e8bda17d65026fa8 ASoC: rt5682-sdw: fix locking sequence
-ee287771644394d071e6a331951ee8079b64f9a7 ASoC: rt711-sdca: fix locking sequence
-aae86cfd8790bcc7693a5a0894df58de5cb5128c ASoC: rt711-sdw: fix locking sequence
-c8b2e5c1b959d100990e4f0cbad38e7d047bb97c ASoC: rt712-sdca-sdw: fix locking sequence
-adb354bbc231b23d3a05163ce35c1d598512ff64 ASoC: rt722-sdca-sdw: fix locking sequence
-f892e66fcabc6161cd38c0fc86e769208174b840 ASoC: rt-sdw*: add __func__ to all error logs
-fc563aa900659a850e2ada4af26b9d7a3de6c591 ASoC: ops: Fix wraparound for mask in snd_soc_get_volsw
-e48ef677000ba5d914711d8aaf1459df72522681 ASoC: rt-sdw: fix locking and improve error logs
-831ec5e3538e989c7995137b5c5c661991a09504 ASoC: tas2781: mark dvc_tlv with __maybe_unused
-a3d3eab627bbbb0cb175910cf8d0f7022628a642 spi: s3c64xx: Use DMA mode from fifo size
-2c603a4947a1247102ccb008d5eb6f37a4043c98 ASoC: amd: acp: fix for acp_init function error handling
-eaa03486d932572dfd1c5f64f9dfebe572ad88c0 regmap: maple: Fix uninitialized symbol 'ret' warnings
-c33f0d4fcfe072adbbb7f3cf93f1b146e181bf3b ALSA: hda/realtek: Add quirks for ASUS Laptops using CS35L56
-ebd9779683aaf089ad0173862553cdd3288ad9b4 smb: client: replace deprecated strncpy with strscpy
-52f80bb181a9a1530ade30bc18991900bbb9697f ata: sata_sx4: fix pdc20621_get_from_dimm() on 64-bit
-7d899947bca5e1dc2447d9cffb2b31c989e0ceb4 ata: pata_macio: drop driver owner assignment
-e23d7e82b707d1d0a627e334fb46370e4f772c11 xfs: allow cross-linking special files without project quota
-aa7cbefe65e455178c33eca308349e687d262ea7 time/timecounter: Fix inline documentation
-76f788ee4a7d9f826738a034f9d2ee0bc4cd291b time/timekeeping: Fix kernel-doc warnings and typos
-b87752ef5cc15b0bae04583d599e873d92dc0618 timers: Fix kernel-doc format and add Return values
-f29536bf1721802d2ebdc7893ed2991d4da0a4b6 tick/sched: Fix various kernel-doc warnings
-ba6ad57b803e33ed509213a5e840427dbef501d6 tick/sched: Fix struct tick_sched doc warnings
-9e643ab59d7ee4332994671720a9528bac62e9b7 timers: Fix text inconsistencies and spelling
-755795cd3da053b0565085d9950c44d7b6cba5c4 OSS: dmasound/paula: Mark driver struct with __refdata to prevent section mismatch
-2a975d426c82ff05ec1f0b773798d909fe4a3105 io_uring/rw: don't allow multishot reads without NOWAIT support
-bee1d5becdf5bf23d4ca0cd9c6b60bdf3c61d72b io_uring: disable io-wq execution of multishot NOWAIT requests
-24a9799aa8efecd0eb55a75e35f9d8e6400063aa smb: client: fix UAF in smb2_reconnect_server()
-fddf09273807bf6e51537823aaae896e05f147f9 drm/display: fix typo
-1197c5b2099f716b3de327437fb50900a0b936c9 scsi: mylex: Fix sysfs buffer lengths
-6bc5e70b1c792b31b497e48b4668a9a2909aca0d scsi: ufs: core: WLUN suspend dev/link state error recovery
-0296bea01cfa6526be6bd2d16dc83b4e7f1af91f scsi: sd: Unregister device if device_add_disk() failed in sd_probe()
-e675a4fd6d1f8990d3bed5dada3d20edfa000423 scsi: libsas: Align SMP request allocation to ARCH_DMA_MINALIGN
-2a26a11e9c258b14be6fd98f8a85f20ac1fff66e scsi: ufs: core: Fix MCQ mode dev command timeout
-c88b50a12f962f520dfab0a53ab393f43df9bbd4 ata: ahci_st: Remove an unused field in struct st_ahci_drv_data
-03f56ed4ead162551ac596c9e3076ff01f1c5836 Revert "ALSA: emu10k1: fix synthesizer sample playback position and caching"
-b67a7dc418aabbddec41c752ac29b6fa0250d0a8 ALSA: hda/realtek: Add sound quirks for Lenovo Legion slim 7 16ARHA7 models
-1576f263ee2147dc395531476881058609ad3d38 ALSA: hda/realtek: Update Panasonic CF-SZ6 quirk to support headset with microphone
-0bfe105018bd2d7b1e4373193d9b55b37cf4458b ALSA: hda/realtek: cs35l41: Support ASUS ROG G634JYR
-c4e51e424e2c772ce1836912a8b0b87cd61bc9d5 ALSA: line6: Zero-initialize message buffers
-73eaa2b583493b680c6f426531d6736c39643bfb io_uring: use private workqueue for exit work
-fbbd5d3ad9435748b8ae6451bc004ee9ac49b6b7 nullblk: Fix cleanup order in null_add_dev() error path
-22d24a544b0d49bbcbd61c8c0eaf77d3c9297155 block: fix overflow in blk_ioctl_discard()
-d725ce9d7c78fb4e22c6c7676106e135ade14fa8 drm/i915/dp: Fix DSC state HW readout for SST connectors
-caf3d748f646889425312897e81307441160d485 drm/i915/dp: Remove support for UHBR13.5
-e9e62243a3e2322cf639f653a0b0a88a76446ce7 cifs: Fix caching to try to do open O_WRONLY as rdwr on server
-8a655cee6c9d4588570ad0cb099c5660f9a44a12 ASoC: codecs: ES8326: Solve error interruption issue
-4581468d071b64a2e3c2ae333fff82dc0391a306 ASoC: codecs: ES8326: modify clock table
-6e5f5bf894eb9260f07ad0da4e2dd2efd616ed59 ASoC: codecs: ES8326: Solve a headphone detection issue after suspend and resume
-fec9c7f668ac5dd107f4da5a3b18379e07ec1a41 ASoC: codecs: ES8326: Removing the control of ADC_SCALE
-d619b0b70dc4f160f2b95d95ccfed2631ab7ac3a ASoC: Intel: avs: boards: Add modules description
-ac229a2d0939edfb469310c55b16d9321a858a46 nvme-multipath: don't inherit LBA-related fields for the multipath node
-062a7f0ff46eb57aff526897bd2bebfdb1d3046a smb: client: guarantee refcounted children from parent session
-0a05ad21d77a188d06481c36d6016805a881bcc0 smb: client: refresh referral without acquiring refpath_lock
-4a5ba0e0bfe552ac7451f57e304f6343c3d87f89 smb: client: handle DFS tcons in cifs_construct_tcon()
-93cee45ccfebc62a3bb4cd622b89e00c8c7d8493 smb: client: serialise cifs_construct_tcon() with cifs_mount_mutex
-c85c9ab926a592e2f59f7d9a6ca7d6562843d8fa nvme: split nvme_update_zone_info
-8a4ff5452dd0cdcc35940460bb777d836bece11c ACPI: thermal: Register thermal zones without valid trip points
-283758231dbb09c6cf28646cf924341da106cccd ASoC: codecs: ES8326: solve some hp issues and
-09ab7eff38202159271534d2f5ad45526168f2a5 io_uring/kbuf: get rid of lower BGID lists
-3b80cff5a4d117c53d38ce805823084eaeffbde6 io_uring/kbuf: get rid of bl->is_ready
-6b69c4ab4f685327d9e10caf0d84217ba23a8c4b io_uring/kbuf: protect io_buffer_list teardown with a reference
-561e4f9451d65fc2f7eef564e0064373e3019793 io_uring/kbuf: hold io_buffer_list reference over mmap
-c3eeb1ffc6a88af9b002e22be0f70851759be03a x86/resctrl: Fix uninitialized memory read when last CPU of domain goes offline
-312be9fc2234c8acfb8148a9f4c358b70d358dee perf/x86/intel/ds: Don't clear ->pebs_data_cfg for the last PEBS event
-bff892acf79cec531da6cb21c50980a584ce1476 spi: spi-fsl-lpspi: remove redundant spi_controller_put call
-1f886a7bfb3faf4c1021e73f045538008ce7634e spi: mchp-pci1xxx: Fix a possible null pointer dereference in pci1xxx_spi_probe
-e8acd2d209a387f2358c2c83fe894b444db9ea46 gpiolib: Fix triggering "kobject: 'gpiochipX' is not initialized, yet" kobject_get() errors
-e6ec07dc6dd498415bc8cc49437d5ec9e09cc48e s390/mm: fix NULL pointer dereference
-01cac82ae02b43983173ea8e475a1c999edd25a6 s390/atomic: mark all functions __always_inline
-c9c260681f521e4ad9f9f4cc71fe35b978e06222 s390/preempt: mark all functions __always_inline
-e9f3af02f63909f41b43c28330434cc437639c5c s390/pai: fix sampling event removal for PMU device driver
-378ca2d2ad410a1cd5690d06b46c5e2297f4c8c0 s390/entry: align system call table on 8 bytes
-438d3fc46f0deba24da7ded046c818e7bf434d24 dt-bindings: clock: keystone: remove unstable remark
-63fd4d7dc45db58a348624fd46ed74509c458054 dt-bindings: clock: ti: remove unstable remark
-9117a64403e66b295a875e172954b758477e5f57 dt-bindings: remoteproc: ti,davinci: remove unstable remark
-6fad9df49b40fdb7d8458167ebbde46a8681f729 dt-bindings: soc: fsl: narrow regex for unit address to hex numbers
-500b42091c1dd878b7a8a59ef89aba85e0054b7b dt-bindings: timer: narrow regex for unit address to hex numbers
-b017a0cea627fcbe158fc2c214fe893e18c4d0c4 arm64/ptrace: Use saved floating point state type to determine SVE layout
-1057c4c36ef8b236a2e28edef301da0801338c5f thermal: gov_power_allocator: Allow binding without cooling devices
-da781936e7c301e6197eb6513775748e79fb2575 thermal: gov_power_allocator: Allow binding without trip points
-09bbc4f0d6ed0c7ca68c0c5fda9613917a1c9f6e ASoC: Merge up left over v6.8 fix
-3f5eb32513e75eb321919a703800d4e13e9d3ba8 ASoC: SOF: Intel: lnl: Disable DMIC/SSP offload on remove
-64d845f651267deb62bcf013ce37e2360161fdf1 drm/i915/psr: Calculate PIPE_SRCSZ_ERLY_TPT value
-4e29234353a4378a49e5ee6f5683678d7e101e17 drm/i915/psr: Move writing early transport pipe src
-bf1f6f8d0b193561f213209b902edda634b6c74a drm/i915/psr: Fix intel_psr2_sel_fetch_et_alignment usage
-94bf3e60e1a61973cdb6488af873b8de66250c77 drm/i915/gt: Limit the reserved VM space to only the platforms that need it
-bc9a1ec01289e6e7259dc5030b413a9c6654a99a drm/i915/gt: Disable HW load balancing for CCS
-ea315f98e5d6d3191b74beb0c3e5fc16081d517c drm/i915/gt: Do not generate the command streamer for all the CCS
-6db31251bb265813994bfb104eb4b4d0f44d64fb drm/i915/gt: Enable only one CCS for compute workload
-f7caddfd558e32db0ae944256e623a259538b357 drm/i915/dp: Fix the computation for compressed_bpp for DISPLAY < 13
-51bc63392e96ca45d7be98bc43c180b174ffca09 drm/i915/mst: Limit MST+DSC to TGL+
-99f855082f228cdcecd6ab768d3b8b505e0eb028 drm/i915/mst: Reject FEC+MST on ICL
-de164a7f19248fb03229a4af9b0db333d9591e55 nios2: Only use built-in devicetree blob if configured to do so
-173217bd73365867378b5e75a86f0049e1069ee8 smb3: retrying on failed server close
-ca545b7f0823f19db0f1148d59bc5e1a56634502 smb: client: fix potential UAF in cifs_debug_files_proc_show()
-58acd1f497162e7d282077f816faa519487be045 smb: client: fix potential UAF in cifs_dump_full_key()
-d3da25c5ac84430f89875ca7485a3828150a7e0a smb: client: fix potential UAF in cifs_stats_proc_write()
-0865ffefea197b437ba78b5dd8d8e256253efd65 smb: client: fix potential UAF in cifs_stats_proc_show()
-705c76fbf726c7a2f6ff9143d4013b18daaaebf1 smb: client: fix potential UAF in smb2_is_valid_lease_break()
-22863485a4626ec6ecf297f4cc0aef709bc862e4 smb: client: fix potential UAF in smb2_is_valid_oplock_break()
-69ccf040acddf33a3a85ec0f6b45ef84b0f7ec29 smb: client: fix potential UAF in is_valid_oplock_break()
-63981561ffd2d4987807df4126f96a11e18b0c1d smb: client: fix potential UAF in smb2_is_network_name_deleted()
-e0e50401cc3921c9eaf1b0e667db174519ea939f smb: client: fix potential UAF in cifs_signal_cifsd_for_reconnect()
-cffaefd15a8f423cdee5d8eac15d267bc92de314 vdso: Use CONFIG_PAGE_SHIFT in vdso/datapage.h
-95197779091166b9ed4b1c630c13600abf94ada7 i2c: pxa: hide unused icr_bits[] variable
-c27fa53b858b4ee6552a719aa599c250cf98a586 riscv: Fix vector state restore in rt_sigreturn()
-3137b83a90646917c90951d66489db466b4ae106 ata: sata_mv: Fix PCI device ID table declaration compilation warning
-e85006ae7430aef780cc4f0849692e266a102ec0 ata: sata_gemini: Check clk_enable() result
-9852b1dc6a140365977d7bfb5fa03d413b3417ad x86/numa/32: Include missing <asm/pgtable_areas.h>
-99485c4c026f024e7cb82da84c7951dbe3deb584 x86/coco: Require seeding RNG with RDRAND on CoCo systems
-54f5f47b6055c6b57cbc41a440f8ca8b2ec4275a x86/kvm/Kconfig: Have KVM_AMD_SEV select ARCH_HAS_CC_PLATFORM
-bc6f707fc0feec72acc2f49c312eb31d257363a3 x86/cc: Add cc_platform_set/_clear() helpers
-0ecaefb303de69929dc0036d5021d01cec7ea052 x86/CPU/AMD: Track SNP host status with cc_platform_*()
-b9846a386734e73a1414950ebfd50f04919f5e24 ASoC: SOF: amd: fix for false dsp interrupts
-3c88b8f471ee9512bc4ef02bebafdc53fb7c5d9e drm/xe: Use ring ops TLB invalidation for rebinds
-a00e7e3fb4b9b30a9f2286a6f892b6e781e560a8 drm/xe: Rework rebinding
-fd1c8085113fb7c803fd81280f7e0bb25a5797ab drm/xe: Make TLB invalidation fences unordered
-3edd52bead30879644bb69fe4aafde67d2cd8512 drm/xe: Move vma rebinding to the drm_exec locking loop
-77a011012d7d8b98368a763bf74317c6d5ce00f1 drm/xe: Use ordered wq for preempt fence waiting
-05258a0a69b3c5d2c003f818702c0a52b6fea861 SUNRPC: Fix a slow server-side memory leak with RPC-over-TCP
-b3b95964590a3d756d69ea8604c856de805479ad gpio: cdev: check for NULL labels when sanitizing them for irqs
-3ddf944b32f88741c303f0b21459dbb3872b8bc5 x86/mce: Make sure to grab mce_sysfs_mutex in set_bank()
-0551ec93a00d935efd86b45bf70cefdc4e515b65 nvme: don't create a multipath node for zero capacity devices
-95409e277d8343810adf8700d29d4329828d452b nvmet: implement unique discovery NQN
-db67bb39eff0fc5db21f49f8ae93e67ed2c5fe01 nvmet-fc: move RCU read lock to nvmet_fc_assoc_exists
-205fb5fa6fde1b5b426015eb1ff69f2ff25ef5bb nvme-fc: rename free_ctrl callback to match name pattern
-83092341e15d0dfee1caa8dc502f66c815ccd78a gpio: cdev: fix missed label sanitizing in debounce_setup()
-8130b05c559d1aa83d0c8971b422ba0da18ef24a PM: EM: fix wrong utilization estimation in em_cpu_energy()
-90f8917e7a15f6dd508779048bdf00ce119b6ca0 ASoC: SOF: Core: Add remove_late() to sof_init_environment failure path
-dd33e5dc7247041b565014f66286c9566b0e32b6 riscv: use KERN_INFO in do_trap
-9d0e8524204484702234e972a7e9f3015080987c Merge tag 'nvme-6.9-2024-04-04' of git://git.infradead.org/nvme into block-6.9
-8a48ea87ce89fb701624f4b9e82556c81f30c7dc riscv: Fix warning by declaring arch_cpu_idle() as noinstr
-a370c2419e4680a27382d9231edcf739d5d74efc riscv: Disable preemption when using patch_map()
-d14fa1fcf69db9d070e75f1c4425211fa619dfc8 riscv: process: Fix kernel gp leakage
-4cf09f171f6f4e928ec2bd714b78928f1e2b2570 Merge tag 'drm-misc-fixes-2024-04-04' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-a5b5ab33d2e1f0f433fb33312923103e0b813aa7 Merge tag 'drm-xe-fixes-2024-04-04' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-4c8595741b5dd3268d6710545461ee9a7bbde891 Merge tag 'drm-intel-fixes-2024-04-04' of https://anongit.freedesktop.org/git/drm/drm-intel into drm-fixes
-100c85421b52e41269ada88f7d71a6b8a06c7a11 Merge tag 'asoc-fix-v6.9-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-61f7fdf8fd00ce33d30ca3fae8d643c0850ce945 timers/migration: Fix ignored event due to missing CPU update
-7a96a84bfbee96871bb16c70ee3e93d564e190f4 timers/migration: Return early on deactivation
-10396f4df8b75ff6ab0aa2cd74296565466f2c8d nfsd: hold a lighter-weight client reference over CB_RECALL_ANY
-6f824c9fccd494319988fa529601923edf5caacb Merge branch 'acpi-thermal'
-65291dcfcf8936e1b23cfd7718fdfde7cfaf7706 mm/secretmem: fix GUP-fast succeeding on secretmem folios
-8434f9aa6b7e77bc1459d75d1293c3f55bf4687b init: open output files from cpio unpacking with O_LARGEFILE
-4ed91fa9177b236b73a271f11a333a98f076eb63 mm: vmalloc: bail out early in find_vmap_area() if vmap is not init
-fc2c22693c608125bbce174c1952eb4db2f8d07f mm: vmalloc: fix lockdep warning
-176517c9310281d00dd3210ab4cc4d3cdc26b17e selftests/mm: include strings.h for ffsl
-87f0e65cdf762f7c4d7ad1466f0cc7c1381f1996 MAINTAINERS: change vmware.com addresses to broadcom.com
-04c35ab3bdae7fefbd7c7a7355f29fa03a035221 x86/mm/pat: fix VM_PAT handling in COW mappings
-a6c1d9cb9a68bfa4512248419c4f4d880d19fe90 stackdepot: rename pool_index to pool_index_plus_1
-89103a164210f1c88caedf880ac9ab9576a1190d Merge tag 'drm-fixes-2024-04-05' of https://gitlab.freedesktop.org/drm/kernel
-c42881d48c545b234fd8d82efca6b5bdc88700ec Merge tag 'sound-6.9-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-4c3fc3459b4a48281b79f66d3ba01f6d8324282a Merge tag 'ata-6.9-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-2e69af16b03ff740ee5b607590877912fb3dac43 Merge tag 'gpio-fixes-for-v6.9-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-b21defcb52c67c5580ddba8b9823820bccccf97e Merge tag 'thermal-6.9-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-2f9fd9e439706c615b77c23d70184ddefa7fb9e0 Merge tag 'pm-6.9-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-50094473ec8176116f5108a6a56be2c804e05001 Merge tag 's390-6.9-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-261b8e89b6274f7f9c2fee5ff494dfb384d3e2c7 Merge tag 'riscv-for-linus-6.9-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-c7830236d58e9e982f3e180f054cfbc14788beca Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-af709adfaa6e8a2f7f44b6beea5e6325ac8720c2 Merge tag 'mm-hotfixes-stable-2024-04-05-11-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-84985eb2c084676f974698cb19fb5a166650886a Merge tag 'devicetree-fixes-for-6.9-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-4de2ff261f535f2ed6ef56d4acf5f888ed8b95bc Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-4f72ed492d7798919269a20d157d34495a988935 Merge tag 'io_uring-6.9-20240405' of git://git.kernel.dk/linux
-8a05ef7087166d7fa0de986fb6a2d97850dbd551 Merge tag 'block-6.9-20240405' of git://git.kernel.dk/linux
-a6bec447a82fdc20966b6129fb51bff46a16ef6e Merge tag 'regmap-fix-v6.9-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-20668408abc09f9ef07e1bcebd3560d420cdadc4 Merge tag 'regulator-fix-v6.9-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-104db052b62d3320fd30b23416dd0b2a4ff3b85f Merge tag 'spi-fix-v6.9-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-752e3c53de0fa3b7d817a83050b6699b8e9c6ec9 firewire: ohci: mask bus reset interrupts between ISR and bottom half
-6c6e47d69d821047097909288b6d7f1aafb3b9b1 Merge tag 'firewire-fixes-6.9-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
-5ceeabb0eb2e1982d25c384048735b9da66911f9 Merge tag 'i2c-host-fixes-6.9-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
-5f2ca44ed235c86a0d6b9bfb599d1664ea94b4b9 Merge branch 'linus' into x86/urgent, to pick up dependent commit
-b377c66ae3509ccea596512d6afb4777711c4870 x86/retpoline: Add NOENDBR annotation to the SRSO dummy return thunk
-119c289409ddb9bca55074388f282ca67da67692 Merge tag '6.9-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-9520c192e853bad2a0029f5ce00fa7774408efad Merge tag 'xfs-6.9-fixes-2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-cf17b9503f1781af60f414c183c1dda8cdba696f Merge tag 'i2c-for-6.9-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-f2f80ac809875855ac843f9e5e7480604b5cbff5 Merge tag 'nfsd-6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-e2948effa9063ae8bd0e7dd65ca4a0fa068c71a6 Merge tag 'perf-urgent-2024-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3520c35e5f0b00cfd6a774d04c1b3bb18edc428a Merge tag 'timers-urgent-2024-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9fe30842a90be9b57a3bd1a37c9aed92918cc6d0 Merge tag 'x86-urgent-2024-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fec50db7033ea478773b159e0e2efb135270e3b7 Linux 6.9-rc3
+80fe0d8591de5fadd7bc0e997f1c8bb067500a13 bpf: convert to read/write iterators
+802e95e520b18b5a67f05b24205a39c08629f4bb perf: convert events to read/write iterators
+af4946cdbdea7705f137c6e5db73c3c9145da7a8 dma-debug: convert to read/write iterators
+caa7f8fad62506c54eefa51430c7867e6d33c030 kernel/fail_function: convert to read/write iterators
+69b4eb37750aeab5cfbe7ee24d1167c2b26c1bbf kcsan: convert to read/write iterators
+6fdb35b1a400bb090d72d2331005d3ddc734ea65 module: convert to read/write iterators
+b3d5817c5a552432d6cdb3d76bf5eb0ae48cb918 kernel/power: convert to read/write iterators
+39249b4ae4d2453232c8d159d873e2286ebc483f printk: convert to read/write iterators
+07d72ca6c8b409de801df1dc6f87f02a56db2a16 relay: convert to read/write iterators
+e4fd77b30d00875be116a092c7a732baf1947a13 kernel/time: convert to read/write iterators
+509e38737c8c72b58164d5fd72a2363a8a8134a8 rv: convert to read/write iterators
+ba51bb5e7e4020392c361be0448c8dabe4063e43 tracing: convert to read/write iterators
+d2616a8c59c5998bd4e54ef36a703e42d27cf22c gcov: convert to read/write iterators
+5eedca5671031c308c6e5d8d37010fb43ed80ae7 sched/debug: convert to read/write iterators
+d5b9c4584ad265a273f06ff3e374e452ce223447 kernel/irq: convert debugfs helpers to read/write iterators
+2fdd4539e94ea967328e85316299bb2f68ef9fe3 locking/lock_events: convert to read/write iterators
+17b57dafc2d1ed2009333b5df136e3eccd44dde2 kprobes: convert to read/write iterators
+a12ae7dcc42297a3565a8ab6ebead4e5a2664824 fs: add iterator based version of simple_transaction_read()
+35cc91ad51b54312f967eb0129db20ca04dc2eef security: convert to read/write iterators
+a301ef63502be6657b192d5d8808b8aadfce149c mm: convert to read/write iterators
+31746e58b9ef59ba8e0617e8d1226e8e7ec64456 block/drivers: convert to read/write iterators
+b1d006e3c77bfa819c0e5cfe5c26e9194a96c1e1 lib: convert to read/write iterators
+68820cc8fb6de21ec4eff937826ac81db4e1ee71 ipc: convert to read/write iterators
+b967c3c1e5e3884b3322edae878295b92b6bfaef timerfd: convert to ->read_iter()
+b7d0a405c3bf67d5dc1236f030a8726c10838190 userfaultfd: convert to ->read_iter()
+27b92256d625704edae8f95643239c47b9ee7f72 signalfd: convert to ->read_iter()
+19c4a1b4a029346cfbec9bbc2c1744c2fa875cd6 drivers/accel: convert to read/write iterators
+f9881ace4668b0c355b973707d3080bfdb52a421 drivers/acpi: convert to read/write iterators
+d8e45de2614595021023d22f0d048e9c4f0aa59b drivers/crypto: convert to read/write iterators
+7d15a88a63c440001a9ee4e74607baaed2e8804a fs/pstore: convert to read/write iterators
+0b3b19ad99bbe657dbbaaa85db76c94797414693 drivers/gpio: convert to ->read_iter and ->write_iter
+b513b92b8d04e57ec9a5a91254bdfecab12407c5 drivers/bluetooth: convert to read/write iterators
+94ac1370a80f21019e0b8a83274b50f61ced6986 drivers/ras: convert to read/write iterators
+2f41c4ddd0d2bd15804c151205999962510c5f98 fs/efivars: convert to read/write iterators
+d477e454b4ef3057c8889ef41935b63a36ac0a0f drivers/comedi: convert to read/write iterators
+ba4f4080e283d1532a37bec553fd1101699d1ee9 drivers/counter: convert to read/write iterators
+0b1fed9a60852d681af13727f1a1ed95a1e3a139 drivers/hid: convert to read/write iterators
+b4fa9742195e4f4c91c222696ebf05785635a509 drivers/tty: convert to ->read_iter and ->write_iter
+663bae320273443f9b5834866ffd5eb48b154dce drivers/auxdisplay: convert to read/write iterators
+9908d98974ccdc59662565945edd2a4d2f314545 fs/eventfd: convert to read/write iterators
+f3cf7b6ce7afb519b0a78169a5fbf6e3523bbf38 drivers/input: convert to read/write iterators
+20efac5f89d98d77231774f6cf9925a3e4d99f5b drivers/pci: convert to read/write iterators
+f94a9648f0c7cfb096a5fe03d75cc1580d585f9f fs/fuse: convert to read/write iterators
+d6b751a9e216f4f0d2419b617c01dcf6436dc0d3 drivers/firmware: convert to read/write iterators
+2449aeeac0a92ca233b519175e0975a61ad521dd drivers/i2c: convert to read/write iterators
+91ec26506a3cad52144e42dd85d797df06c08688 drivers/opp: convert to read/write iterators
+7b9789ca5f57ef01d6c3dc88377d587f66edaa2e drivers/base: convert to read/write iterators
+59c9dbf1716b6f3bfc9df928cda2f5ac5b9a29c8 drivers/bus: convert to read/write iterators
+60e6a984c3a9bc57297c43f2df8922c5f9660cbc drivers/regulator: convert to read/write iterators
+25ed1f45331c6a583c70d51a475452374b5ec242 fs/notify: convert to read/write iterators
+83679d2260f79959d8c737066af2dcb878072b92 drivers/gpu: convert to ->read_iter and ->write_iter
+8cc8f0ca36c6ecd6630fcad5976eb946a3d625da drivers/clk: convert to read/write iterators
+4d91d4a654823bdf5cc7bac6eb618fcbaa563a63 drivers/rtc: convert to read/write iterators
+97148b4907be50f41e55bf947fe0972e50c3d751 drivers/dma: convert to read/write iterators
+5808371d8a4232520970cf137604541144393a69 fs/debugfs: convert to read/write iterators
+52d30b24eafbfef90efc1534956c6e9a062798c3 drivers/usb: convert to ->read_iter and ->write_iter
+45a310b1e344d1b1293d70ffab6c6eaf962b597f drivers/soc: convert to ->read_iter and ->write_iter
+fcd9049cc553da25cb7972c81597d0f5ed3af058 drivers/pinctrl: convert to ->read_iter and ->write_iter
+b0fe7333dce1ca208577437d13d4bfb6193d2d55 drivers/phy: convert to ->read_iter and ->write_iter
+93a8749a71093db0f113b3cb74b707133ff8c899 drivers/ufs: convert to ->read_iter and ->write_iter
+89d2dbdba73b9f815b8eba44d635716e4ee05977 drivers/uio: convert to ->read_iter and ->write_iter
+749cdb84b7b9e97228c39445f4ab4b4fc1a515b2 drivers/platform: convert to ->read_iter and ->write_iter
+5dc5cc2a53d9dab1f3b386c052029f18d302c6bc drivers/mtd: convert to ->read_iter and ->write_iter
+1e5695d5625d4b0d54c59cdc26be4645428c5b80 scsi: bfa: convert to read/write iterators
+4aa87f7c3772298fd70a3962a6975d52a8d59b44 scsi: csiostor: convert to read/write iterators
+01bdcd3fab15db93054705ed930e2693dc041385 scsi: fnic: convert to read/write iterators
+eac095da08b0286fcce68a376f6ed593602f6bb6 scsi: hisi_sas: convert to read/write iterators
+f1fbe6d6311fa78e64265fbb968fb06ee707d56c scsi: lpfc: convert to read/write iterators
+96bfccb6074305f70872dc4202b430dcf4d9b5c5 scsi: megaraid: convert to read/write iterators
+53dcb4638da754384d5322fa92d00e79cd0824d9 scsi: mpt3sas: convert to read/write iterators
+92edac03f75b8d75cccf003c96a82fe781af766a scsi: qedf: convert to read/write iterators
+b79c2b147135f93f62df530ae2c1935f510bee26 scsi: qedi: convert to read/write iterators
+967cb0428520f8a665e6bef0c1560668c0489e6e scsi: qla2xxx: convert to read/write iterators
+45700de211db36a67cb85b089db1cb95ffacd5d3 scsi: snic: convert to read/write iterators
+2447d1fce9a8a6f9992d1908c9d17bbb6567b429 scsi: scsi_debug: convert to read/write iterators
+e7eacb4f8e1b302eb13e339eefffc8dd83945968 scsi: sg: convert to read/write iterators
+8a9e02da14a7b1d96baa95421fd598787e10aa27 scsi: st: convert to read/write iterators
+104e306d0d461231cefa6870002e7ee88e9cbcd4 staging: axis: convert to read/write iterators
+9f5699d360152c1424522c019f8c77eeafa6c358 staging: fieldbus: convert to read/write iterators
+2db31a3f38c225253dcb6cf181f44cd260f0f07a staging: greybus: convert to read/write iterators
+81addb842345b5d28274efb79fc79b0e5d3d8902 staging: av7110: convert to read/write iterators
+79a01c453b601408e977c606581c464605819c28 staging: vc04_services: convert to read/write iterators
+6576205603a4e5243e4bf6b2191b5ab9579ba930 drivers/xen: convert to ->read_iter and ->write_iter
+753b69f8984505a8f367a75260de2416b48c884b virt: convert to ->read_iter and ->write_iter
+d13324f9e6400f5b214ed13b85f741287cd3ed90 drivers/video: convert to ->read_iter and ->write_iter
+15c95bacfed5e3dc2187cb1ca39ded5e37b3fd60 drivers/iommu: convert to ->read_iter and ->write_iter
+13acc65c71c26b302c8584c2a1112b6038b32a90 misc: bcm_vk: convert to iterators
+b7fe5631c0ad34f67653bf6a32e985abeff78252 misc: lis3lv02d: convert to iterators
+08ffdbbecc4d443450c80c43d2092f4445acb524 misc: eeprom/idt_89hpesx: convert to read/write iterators
+c9f3263405f464f3756f95ecd2b768d5bc49404d misc: hpilo: convert to read/write iterators
+3cc3b8b86b176273b956a8d30a4ca1ad4d39ff4c misc: lkdtm: convert to read/write iterators
+43e9e9dfd5ea7ff8dd8a58fbc22fc7b0645bd9f4 misc: open-dice: convert to read/write iterators
+5ef874038b907fb3c4eba6e16563d04c2a96bf61 misc: tps6594-pfsm: convert to read/write iterators
+f09600ef285137f90a10f53c4ba28f418eaa1937 drivers/isdn: convert to read/write iterators
+fc4061c2409719bfd9632de21f3dd0fe9ee4eddb drivers/leds: convert to read/write iterators
+58252f58d72dd1b1a8817f338d38bd7083717e8c drivers/mailbox: convert to read/write iterators
+53a0702f8910a2917f88ed1022efd24b9514142b drivers/mfd: convert to read/write iterators
+ebe67aafc06db9126620532a5f99d29de22e0406 drivers/misc/mei: convert to read/write iterators
+0f097ea7414b9d770d1829351b1754d4dd5253e2 misc: ibmasm: convert to read/write iterators
+da9ef18ada9cd4b88364a0769311c62a54c48257 drivers/spi: convert to read/write iterators
+45bec776ef8c8fe8a4f151ce0586841093f891bc drivers/nfc: convert to read/write iterators
+4a18f3cf249dc80392de301abb2e990696359812 drivers/nvme: convert to read/write iterators
+e7b6dc6a8a1acc5cd01fa85da6dbd3df759e0eab drivers/firewire: convert to read/write iterators
+932e954a6ca512fe42c23cad799714be48cb2241 drivers/mfd: convert to read/write iterators
+172fa2b489b8d47b4898a2ffe746ffca7937c603 watchdog: acquirewdt: convert to read/write iterators
+ae651d3a3cb2dbc4873723ce54c163f9fa4f2c8d watchdog: advantechwdt: convert to read/write iterators
+69ea94598ea64f12c777db885e93558634a0e7fb watchdog: alim1535_wdt: convert to read/write iterators
+0f8f85c39f34382eee20c7fbdcd1b1e0ae49e99e watchdog: alim7101_wdt: convert to read/write iterators
+8307a7f4db7de57accc94c45cbe745680e8a0fe7 watchdog: at91rm9200_wdt: convert to read/write iterators
+5dcddbcdc14412d7788660def41b78894b4f6413 watchdog: cpu5wdt: convert to read/write iterators
+8d8c151e2b33ea48db696ed8e7c440f6baf7b4f6 watchdog: eurotechwdt: convert to read/write iterators
+26e7a4910424698870b7b018fc57582707460a24 watchdog: geodewdt: convert to read/write iterators
+6e44b477387f7ee8a655be76eff0b2b1eb38fae1 watchdog: ib700wdt: convert to read/write iterators
+a57eda06de04d62434004c922ef1f7b0077a3264 watchdog: ibmasr: convert to read/write iterators
+760262b81b798d24eca9d9c2571c5d687586c81e watchdog: it8712f_wdt: convert to read/write iterators
+81a7fbf877459a6dfc9cb50f2f09482440415085 watchdog: machzwd: convert to read/write iterators
+05dc3428438e81d1a92da7868ce6a50c64baea54 watchdog: mei_wdt: convert to read/write iterators
+64089e4487ca23718f429218c24a5786b288cf9d watchdog: nv_tco: convert to read/write iterators
+92558758467addb4a80f8b6b9949cec90aa9bc1d watchdog: pc87413_wdt: convert to read/write iterators
+23b73327b6703b6b1e7c44d2a3d770bdf3f4ea9e watchdog: pcwd_pci: convert to read/write iterators
+6b5b82d60febdac5c8d5ad911c387fe3ff11d322 watchdog: pcwd_usb: convert to read/write iterators
+e1284012dfabf32fc9d1ac7c741229be981be62f watchdog: rdc321x_wdt: convert to read/write iterators
+7ac6dec726bd2befe0da70813d1af5943df23e20 watchdog: sa1100_wdt: convert to read/write iterators
+5fabb4be00bb7898f52e6828db5cbbe754386303 watchdog: sbc60xxwdt: convert to read/write iterators
+13254bdee90b148593dd788e3da8e20ce4c209e9 watchdog: sbc_epx_c3: convert to read/write iterators
+9909d41382dc63cce58de858672cd233468d2d80 watchdog: sbc_fitpc2_wdt: convert to read/write iterators
+d32ef53a73c950b55a2ae24c8867b78dc48c7494 watchdog: sc1200wdt: convert to read/write iterators
+878e9f7d89a391ef28044f2d662e5cb4562e865a watchdog: sc520_wdt: convert to read/write iterators
+7489cfe0b56fa62d67dd630f9ba5125979acca14 watchdog: sch311x_wdt: convert to read/write iterators
+8cd5d99464b62241bc4f7474a8b9fb55806acec3 watchdog: smsc37b787_wdt: convert to read/write iterators
+792f056eb0bced1b51b2f461fb666114b41ed95f watchdog: w83877f_wdt: convert to read/write iterators
+42098c16bec00cef65bf0d858a95aee1dc70a6d5 watchdog: w83977f_wdt: convert to read/write iterators
+90732806a3323f107f2683647dc74525fe66487a watchdog: wafer5823wdt: convert to read/write iterators
+9e16d3f9dfb6e293b8107e130f9960ad64953493 watchdog: watchdog_dev: convert to read/write iterators
+986d8fcfc2fccfefd22e9219c942a539a84ecfce watchdog: wdt_pci: convert to read/write iterators
+e9a6fc00697c7516ee4470b48bbbb0e851919093 fs/binfmt_misc: convert to read/write iterators
+2db30671d1c3dbc72568408d94369f11774b7b18 fs/coda: convert to read/write iterators
+752a748e4fa1705dbb8630e65d86a3bb7076848e fs/nfsd: convert to read/write iterators
+d9673adf2dd3c1d1e73990a1f38ea80c09167efb ubifs: convert to read/write iterators
+f75f1526f3ef2b26764683d9dbe2bb2c17111fa5 cachefiles: convert to read/write iterators
+01e87de287a64aa2460e18433176a2a3fbe072af fs/xfs: convert to read/write iterators
+876868af06c79249cf8c9971b79e72905b854c27 fs/bcachefs: convert to read/write iterators
+b3acab65122ca2730db3913afc0adde807b21b60 fs/ocfs2: convert to read/write iterators
+5b228cfcbb5fad035f4607fc9762e8fe6b41647d drivers/net/wireless/marvell: convert to read/write iterators
+f19b986a070323ee21b34f3a680bae4bf1a62202 fs/proc: convert to read/write iterators
+6ce381fe302dfb4337f85fb5cff98208c97ab978 fs: convert fs_open to read/write iterators
+235de1e7f71e41cfb984a7983d720593eda1e90a drivers/net/wireless/ti: convert to read/write iterators
+d60a7a32817a3fbac27acf6bb5a222973fd1e226 drivers/net/wireless/intel: convet to read/write iterators
+669ec86b97271a889a0de27c900c01664243a31e drivers/net/wireless/mediatek: convert to read/write iterators
+34668776b102cf35ed2c338ecd39ef8ddf7c5947 drivers/net/wireless/ath/ath5k: convert to read/write iterators
+700418467415d326dda07274c610751f23c66e0b drivers/net/wireless/ath/ath6kl: convert to read/write iterators
+70f8f355a9ebed25aaf03b4c4eceba89f03e884e drivers/net/wireless/ath/carl9170: convert to read/write iterators
+4ee64fa1a5057ce46216a0d203436f9eddbfb10e drivers/net/wireless/ath/wcn36xx: convert to read/write iterators
+e08e16cae6b948cd785c89817c19b8cba205cf10 drivers/net/wireless/ath/wil6210: convert to read/write iterators
+5574f198ea0a34039226722d22567719cc9b9f8c drivers/net/wireless/ath/ath9k: convert to read/write iterators
+e1d602c892b03d8ec5b74adc314bc5f847282883 drivers/net/wireless/ath/ath10k: convert to read/write iterators
+4d8f5b46a1cc3bad689dbb29bfd5bb0fd02faa59 drivers/net/wireless/ath/ath11k: convert to read/write iterators
+0343f1840402485345b43d278d36534517063d65 drivers/net/wireless/broadcom: convert to read/write iterators
+e426f59de1c541a90a69e6681e4b5107dd26dd51 drivers/net/wireless/ralink: convert to read/write iterators
+126f4e305932cce6a19bc4b1fadcc5153ce4f921 drivers/net/wireless/realtek: convert to read/write iterators
+9bd212bee76bce2c883f551a5d8172dd24470e31 drivers/net/wireless/rsi: convert to read/write iterators
+619620493021a3dc412e88f23c53628202b5c095 drivers/net/wireless/silabs: convert to read/write iterators
+ebe59e874eac65745cef4bd15a666b8cd4c6e5a1 drivers/net/wireless/st: convert to read/write iterators
+4422a709252d0d634c3c76aaca7ee92a323e44e1 drivers/net/ieee802154: convert to read/write iterators
+343b15a4ade5a4a1bc8c51ce0800e57cd67f372a drivers/net/netdevsim: convert to read/write iterators
+c8d2f7387e5a7ec83efae9475bc689536c3f7150 drivers/net/ppp: convert to read/write iterators
+bbcffe1f7971a2f847f2bbd105ea63b950386ab0 drivers/net/wwan: convert to read/write iterators
+60d61c4ecc3495180dd9ae3bd046872bc21a40ec drivers/net/xen-netback: convert to read/write iterators
+c751a910dae344bef0d58ab09640e9d9f9eccd6d drivers/net/ethernet/broadcom-bnxt: convert to read/write iterators
+a3fc3c1ef601b96ef7108253c479f8a4e1dd5bc4 drivers/net/brocade-bnad: ensure the copied buf is NULL terminated
+33ab333ad05b98093aced8683fc92dece762f1fe drivers/net/brocade-bnad: convert to read/write iterators
+5a6288dfc2abc38ebfe15a72433afcb71b4ac9b6 drivers/net/ethernet/chelsio: convert to read/write iterators
+3ba106d96755a18ccf912e0c4012228b7fc672fc drivers/net/ethernet/hisilicon: convert to read/write iterators
+e1f738b99fb4699f34de7203f03498901c9b0090 drivers/net/ethernet/huawei: convert to read/write iterators
+274b7c909f3fe57a3ce68e269422aed12c560895 drivers/net/ethernet/amd-xgbe: convert to read/write iterators
+91973a1d472a779ab7503115089029f15ace6fb6 drivers/net/ethernet/intel-ice: ensure the copied buf is NULL terminated
+a9251a08802b32862568badd44ef5bfc447372dd drivers/net/ethernet/intel: convert to read/write iterators
+e5127348a54e4a64c2b3a1d98a972f835e0fbf9e drivers/net/ethernet/marvell/octeontx2: convert to read/write iterators
+2b9bf00d4981c8313aa99f771010aa7050113ccb drivers/net/ethernet/mellanox/mlx5/core: convert to read/write iterators
+d98a31472af584eae7a2a6a6fc4071fd67fc333e arch/x86: convert to read/write iterators
+72f3a93c0ebbaa0a7ddaddf1dd1c32ac2c87e4f1 arch/arm: convert to read/write iterators
+dedb7218d658091e2a052cbf5f15cbfc4c625fbd arch/mips: convert to read/write iterators
+142a7fa14426d197b0fb4bd3162d1d63f8267539 arch/parisc: convert to read/write iterators
+f20ffcc773af27dd694f4138dc4afb62cee89d82 samples/vfio-mdev: convert to read/write iterators
+b5556c24e92e4f6ecd86127012b166e113a60f97 drivers/hwmon: convert to read/write iterators
+ebd90901b6cbee7fe72ef1a75f5c884f90b22ef6 drivers/mmc: convert to read/write iterators
+fc3cde4bc8ee87ce8c90b5cf3163e7832eff1f9f drivers/most: convert to read/write iterators
+9af6d954f14f50766de0dc127fe26d143fb6ac62 drivers/ntb: convert to read/write iterators
+b960c02219199433f705cb91e8e2434adb474544 drivers/md: convert bcache to read/write iterators
+721439ce02257f181e8a9ee87d39b4cf342e581f drivers/remoteproc: convert to read/write iterators
+a47bba993063c101d43ae16aa81b6d8b905e91c3 drivers/thunderbolt: convert to read/write iterators
+deb5164caa43271cf0517eb164fabdd93acc0705 drivers/vfio: convert to read/write iterators
+66acbcf748ba6f2b5674e4cea9ae65128bf0f10c fs/debugfs: remove (now) dead non-iterator debugfs_attr functions
+e7bbb29bad7bb57e91d8a49a5aab3797680b1560 REMOVE ->read() and ->write()
 
---===============5877163989972886409==--
+--===============1463615168677971985==--
