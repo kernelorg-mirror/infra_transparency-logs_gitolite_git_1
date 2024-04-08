@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8387092029483000264=="
+Content-Type: multipart/mixed; boundary="===============0552575367136755108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Mon, 08 Apr 2024 18:53:00 -0000
-Message-Id: <171260238017.2358.1128723039028104788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Mon, 08 Apr 2024 18:54:24 -0000
+Message-Id: <171260246425.2936.225315609863765519@gitolite.kernel.org>
 
---===============8387092029483000264==
+--===============0552575367136755108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
+repo: pub/scm/linux/kernel/git/wireless/wireless
 user: jberg
 git_push_cert_status: E
 changes:
   - ref: refs/heads/main
-    old: 132c2a1cf76d161d3772826cad3cf321b8c878ce
-    new: a35b36e6ee5dcf323d846ec3881159e4af90c9b4
+    old: 50108c352db70405b3d71d8099d0b3adc3b3352c
+    new: 9ef369973cd2c97cce3388d2c0c7e3c056656e8a
     log: |
-         499921d3dcabd48cb17f4f4ca97c0e17f05cd7b6 wifi: mac80211: correctly document struct mesh_table
-         51d3c07a27056cd91a7ed0b59fb67d0b9e073830 wifi: mac80211: remove ieee80211_set_hw_80211_encap()
-         0e9824e0d59b20f6df1e01da536db6e310aaadd8 wifi: mac80211: Add missing return value documentation
-         a35b36e6ee5dcf323d846ec3881159e4af90c9b4 wifi: mac80211: extend IEEE80211_KEY_FLAG_GENERATE_MMIE to other ciphers
+         7c1c73bf84c50b641449f9811e2196cdc3ca4a1b wifi: mac80211: check EHT/TTLM action frame length
+         ab9177d83c040eba58387914077ebca56f14fae6 wifi: mac80211: don't use rate mask for scanning
+         d12b9779cc9ba29d65fbfc728eb8a037871dd331 wifi: mac80211: ensure beacon is non-S1G prior to extracting the beacon timestamp field
+         9ef369973cd2c97cce3388d2c0c7e3c056656e8a wifi: cfg80211: fix the order of arguments for trace events of the tx_rx_evt class
          
 
---===============8387092029483000264==
+--===============0552575367136755108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1712602354 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1712602354-2deafa92d1c419995189602030291ee561301768
+pusher 7BF9099A 1712602436 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1712602436-0fee249982ca9bf5106f11f0b3a82a6554a5b2db
 
-132c2a1cf76d161d3772826cad3cf321b8c878ce a35b36e6ee5dcf323d846ec3881159e4af90c9b4 refs/heads/main
+50108c352db70405b3d71d8099d0b3adc3b3352c 9ef369973cd2c97cce3388d2c0c7e3c056656e8a refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmYUPPMACgkQ10qiO8sP
-aACMgg//Q8I1/HRChkH5/LeLKM2mPMgwV8xAQl4hWnQOFZ5TwFox7jvfuHjFcLYb
-we5pWA/+MmfqQ21ONXgapxhMFcG/aZ8FT7cCzWVf9Q+ubOs9cAJL3A1mo5LY9spF
-xujB29RD16GI+Y2KEErnHBQ8ZfFf9Zbub06etzOhIDaMpArjkzyA0Sn82LL4fxh+
-h7YSCZZyuT9A1GOJ+zZ97SQpwIhld+PcAEheBbcpiixyiUvUBRyt4/7HxoCOPTBu
-g/Epu1GehfQxBw2Hh4foLqqf1kr6AjO/tCUvvwd490JIzLccv46zsWy58j8waEtE
-QXMo4uzx6WmZqr2usR3VI4QHtt2i5pDsYinwaaU1WgHY9IhJfwcZ22xgAL2odRu2
-eaqfHxVuH68g0Mf2Gqc8+4Z0k0D/WflMrh+L0FLDoxaiyjMKG7wi8GmW7uXoopxf
-sGAnUUnwUGKq1xKGys8UqC/8m5i2gJGaYkmcirjocyN0QLnZud/gblyb48//HvI9
-MDoCd1DS+bKf3YQL09k6iEzLmJcW3ewEUy1cITeVXS/kGWYWJlyyexTnS08Pdf/P
-wSsYdKAtURcDWP+tHOxwILhpdtCoajUo7hTYLiTVS3bOqL0EviMxqsLpe5DQiVjx
-97bkZlqfrBdaqUo2doCycXdHlSNq07MOh0drh3FKkbS82jTa33w=
-=fpjI
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmYUPUQACgkQ10qiO8sP
+aABnwQ/9EvlQoBt69GfjZkcyLrQdYq3aVLI8okyt48tanI8HQejQXj4WNqqcC8np
+QdJqYHJi0LIgvcaJoAY3Nn6SRNHrJkEiLeSW5Smn75bhU7X1q60Xwvm1WBAC2nTK
+bqFFNjwfaHWHVgBwrj2hyZaRwk1hrr6Cs/bnfGmhO35ivZJK4CvJIdBr9KI+Spr/
+7wwGhU7rAkck+c72JrSn48RNIrpiLCK0xx0+cwbsfIpYF0nqnAGNGNO8NfswErjL
+50miVZNROxlS7frxj30q1mLBNKoPwQgHz8IQ+qfLty5Xz0iaDt7QFE5YfaO3JKMh
+CjwGV18cFCnEj4JYcEcjd7aLYynpugcaDA+x5eZF27vV9xX+4UobXJqbq8a84cnr
+v1q+qLsDATS9eeATfJvZXyRY7nG719V5esDbqs5JrJU0Y6O6XoSd16jq5+Yi+8xF
+b5sbPBR2HBnGjPYwHNhX/qrHWjydazAqI3m4Kwu1sSJMMekurjAZUZq/JD/6zzxB
+cKUSLQuCTlJGdkvfaMODFVx1lH3TlKIajpJpUgwrQFCRq470kOtz5KA7Sta5muwS
+e4bg3WphJOHd7k+Yx/TkmfB/qPas2t6FvflZIVnZvPFtOoYp03YAUc8VaSAyddy0
+AXbxz7kZRNMRqv2B/Liw8UhHLX83P6ANbfptjxsLehbpNmKmQgk=
+=Auvb
 -----END PGP SIGNATURE-----
 
---===============8387092029483000264==--
+--===============0552575367136755108==--
