@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 08 Apr 2024 12:19:15 -0000
-Message-Id: <171257875507.30060.4039139435680228492@gitolite.kernel.org>
+Date: Mon, 08 Apr 2024 12:20:16 -0000
+Message-Id: <171257881617.32094.8767608742452010145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: a29689e60ed3e65463d6462390caad669d08a6b7
-    new: 86d43e2bf93ccac88ef71cee36a23282ebd9e427
+    old: 86d43e2bf93ccac88ef71cee36a23282ebd9e427
+    new: 229783970838887e72083820efb9270b7f276a11
     log: |
-         86d43e2bf93ccac88ef71cee36a23282ebd9e427 af_packet: avoid a false positive warning in packet_setsockopt()
+         229783970838887e72083820efb9270b7f276a11 ipvlan: handle NETDEV_DOWN event
          
