@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0028898981498397743=="
+Content-Type: multipart/mixed; boundary="===============3281985065510500875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 08 Apr 2024 20:55:57 -0000
-Message-Id: <171260975798.29035.13629462468570012400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 08 Apr 2024 20:56:31 -0000
+Message-Id: <171260979163.29361.10556710779531589636@gitolite.kernel.org>
 
---===============0028898981498397743==
+--===============3281985065510500875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 9c3e9af74326978ba6f4432bb038e6c80f4f56fd
     log: revlist-cd031b7ee7eb-9c3e9af74326.txt
 
---===============0028898981498397743==
+--===============3281985065510500875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ d29ba06e645b5e574e39e58892ab8796d6e44a0d perf annotate-data: Fix global variable
 bf70c298dffb89d89530270e488873e598d6df80 perf annotate: Get rid of symbol__ensure_annotate()
 9c3e9af74326978ba6f4432bb038e6c80f4f56fd perf metrics: Remove the "No_group" metric group
 
---===============0028898981498397743==--
+--===============3281985065510500875==--
