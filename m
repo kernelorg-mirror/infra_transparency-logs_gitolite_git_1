@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7169862803404136702=="
+Content-Type: multipart/mixed; boundary="===============8101680866408217989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 08 Apr 2024 20:18:10 -0000
-Message-Id: <171260749030.773.2463687834327178996@gitolite.kernel.org>
+Date: Mon, 08 Apr 2024 20:23:33 -0000
+Message-Id: <171260781352.4470.17008882415169774955@gitolite.kernel.org>
 
---===============7169862803404136702==
+--===============8101680866408217989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: c6f2492cda380a8bce00f61c3a4272401fbb9043
-    new: c7218b2fabcf8a5182c21414ecae0f10e2075d65
-    log: revlist-c6f2492cda38-c7218b2fabcf.txt
+  - ref: refs/heads/10GbE
+    old: d76c740b2eaaddc5fc3a8b21eaec5b6b11e8c3f5
+    new: 39f59c72ad3a1eaab9a60f0671bc94d2bc826d21
+    log: revlist-d76c740b2eaa-39f59c72ad3a.txt
 
---===============7169862803404136702==
+--===============8101680866408217989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6f2492cda38-c7218b2fabcf.txt
+Content-Disposition: attachment; filename=revlist-d76c740b2eaa-39f59c72ad3a.txt
 
 3ae5cb7efaf1e33c2cf2e7959efea363b59fda84 batman-adv: Start new development cycle
 537db05da2ca8ccc1243c9dd1d0c148b84aa0432 batman-adv: prefer kfree_rcu() over call_rcu() with free-only callbacks
@@ -101,37 +101,5 @@ ef460a8986fa0dae1cdcb158a06127f7af27c92d net: lan743x: Fixup EEE
 93197c7c509d0c872de8b4fa17b44db175633f5c mlx5/core: Support max_io_eqs for a function
 358961f51fa5fa1aebf9c25fdcf4f9750f3c647e Merge branch 'devlink-io-eqs'
 39f59c72ad3a1eaab9a60f0671bc94d2bc826d21 r8169: add support for RTL8168M
-4c8f0267ab3f5ae1227c35e70b6c291754c079ba ice: Remove ndo_get_phys_port_name
-4ce2391104ddaa5824127df2a3592f9e28e58db4 ice: tc: do default match on all profiles
-be5e373e9c67ccae9d8f7e676d78c97eabc62ab8 i40e: Prevent setting MTU if greater than MFS
-3d999de2eeff582df37e17c4be53363fc5700e64 ice: tc: check src_vsi in case of traffic from VF
-bc8d844de5964f155a9bacc6b49b0a6b7067fcb9 ice: tc: allow zero flags in parsing tc flower
-f57714aa89a9ad71a4343d4b57f5efc161337a92 ice: set vf->num_msix in ice_initialize_vf_entry()
-3bdbb3799e86f1bc23c15d4d17772974c0d9935c ice: store VF relative MSI-X index in q_vector->vf_reg_idx
-b57e1581776cac59b603fbf5d1b4616c9bcd795b igc: Add Tx hardware timestamp request for AF_XDP zero-copy packet
-b388186f39e7f8e9ad2bbaaa1442916cbed7e6b7 e1000e: Remove redundant runtime resume for ethtool_ops
-3f58bbfc6d4ff00a0593b5d931c1ce3789014c92 igb: Remove redundant runtime resume for ethtool_ops
-8d23be6190476907d34b2136a5cd1acb8467be74 igc: Remove redundant runtime resume for ethtool ops
-421215587a7a4845d8f7d51b471746b777bffc8d ice: Fix package download algorithm
-6e6dd87debcd59e3f8a0bc8ab115a43333c818ff i40e: Report MFS in decimal base instead of hex
-748a1d30ebd636eaa1dd7a1bd02eb9534211c6b1 i40e: Remove flags field from i40e_veb
-49c27bdc369d219bf37ac3d1f373a0e12c274c37 i40e: Refactor argument of several client notification functions
-1d8a2d8977fea76b9795c185727e457226028a4d i40e: Refactor argument of i40e_detect_recover_hung()
-ed86aa23337fc19d74953d9ae7615671e4301236 i40e: Add helper to access main VSI
-5eaf5d52dcdb21532c71624721d7cf0727fa33c5 i40e: Consolidate checks whether given VSI is main
-42335c90039a11448fafed1decabe1cabcb87244 i40e: Add helper to access main VEB
-df1fa4432aaba810eb7c31789c1e584901638d61 i40e: Add and use helper to reconfigure TC for given VSI
-ebf4621d3052f4c257027dee735f8a6e1ca93232 ice: add additional E830 device ids
-b7e909210bd8a29fd48643d516f1d6c28f4edf81 ice: update E830 device ids and comments
-f98a9acddcfaf3d2d74212aeb55b0e24674486c7 iavf: Fix TC config comparison with existing adapter TC config
-6a50a11d272451133497380c3214859293e1fc67 devlink: extend devlink_param *set pointer
-67e691d4228b104126c7f10eabeff0bb05093e1c ice: Support 5 layer topology
-4841f392796cd01d87e95cb02bd83fa11362502a ice: Adjust the VSI/Aggregator layers
-abd14ffb4e2488081814f8e41b8703228bef2fe3 ice: Enable switching default Tx scheduler topology
-f81a987bef3b78a84cfcbe061163cafbaaf7f8a2 ice: Add tx_scheduling_layers devlink param
-626ce7fe0227eb58486f3b674f79e6b522575f8c ice: Document tx_scheduling_layers parameter
-ea8c8648b1a92d6ab0b3a5ba57883f60576acbfa ice: Remove unnecessary argument from ice_fdir_comp_rules()
-f006169ba81fb3d100e609b7c3ffca4ef1e79bc8 ice: Implement 'flow-type ether' rules
-c7218b2fabcf8a5182c21414ecae0f10e2075d65 ice: Add automatic VF reset on Tx MDD events
 
---===============7169862803404136702==--
+--===============8101680866408217989==--
