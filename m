@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0095108620823858595=="
+Content-Type: multipart/mixed; boundary="===============8961924556913780325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Mon, 08 Apr 2024 15:59:24 -0000
-Message-Id: <171259196489.819.14543657344653513891@gitolite.kernel.org>
+Date: Mon, 08 Apr 2024 16:03:29 -0000
+Message-Id: <171259220963.4164.5811589820655269203@gitolite.kernel.org>
 
---===============0095108620823858595==
+--===============8961924556913780325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: conor
 changes:
-  - ref: refs/heads/microchip-dt64
+  - ref: refs/heads/at91-next
     old: 4cece764965020c22cff7665b18a012006359095
-    new: 6c7c4b91aa43543c9f967120a6eabd451a0927d4
-    log: revlist-4cece7649650-6c7c4b91aa43.txt
+    new: fa8e55345b646f3eb5b1dc889bad4a2a1fa360d9
+    log: revlist-4cece7649650-fa8e55345b64.txt
 
---===============0095108620823858595==
+--===============8961924556913780325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4cece7649650-6c7c4b91aa43.txt
+Content-Disposition: attachment; filename=revlist-4cece7649650-fa8e55345b64.txt
 
 5d83b9cbe7cf40746948a419c5018f4d617a86fa arm64: dts: microchip: sparx5: fix mdio reg
 013627825bbe0e911f97b1d4a23f5507bfe1c42c arm64: dts: microchip: sparx5: correct serdes unit address
@@ -36,5 +36,6 @@ b0d5a3ce782a5d38091dd5163e17b7100c6289f5 arm64: dts: microchip: sparx5_pcb135: a
 5945df4de0e2117edccc65ebbfd6d21f01967cd5 arm64: dts: microchip: sparx5_pcb135: drop LED unit addresses
 f1595d501ea49ea49ff0e4a6beec4929c1618cb3 arm64: dts: microchip: sparx5_pcb134: drop duplicated NOR flash
 6c7c4b91aa43543c9f967120a6eabd451a0927d4 arm64: dts: microchip: sparx5_pcb135: drop duplicated NOR flash
+fa8e55345b646f3eb5b1dc889bad4a2a1fa360d9 Merge branch 'microchip-dt64' into at91-next
 
---===============0095108620823858595==--
+--===============8961924556913780325==--
