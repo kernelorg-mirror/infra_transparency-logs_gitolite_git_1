@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8101680866408217989=="
+Content-Type: multipart/mixed; boundary="===============1368238191913103198=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 08 Apr 2024 20:23:33 -0000
-Message-Id: <171260781352.4470.17008882415169774955@gitolite.kernel.org>
+Date: Mon, 08 Apr 2024 20:23:53 -0000
+Message-Id: <171260783362.4652.379416312927922935@gitolite.kernel.org>
 
---===============8101680866408217989==
+--===============1368238191913103198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: d76c740b2eaaddc5fc3a8b21eaec5b6b11e8c3f5
     new: 39f59c72ad3a1eaab9a60f0671bc94d2bc826d21
     log: revlist-d76c740b2eaa-39f59c72ad3a.txt
 
---===============8101680866408217989==
+--===============1368238191913103198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -102,4 +102,4 @@ ef460a8986fa0dae1cdcb158a06127f7af27c92d net: lan743x: Fixup EEE
 358961f51fa5fa1aebf9c25fdcf4f9750f3c647e Merge branch 'devlink-io-eqs'
 39f59c72ad3a1eaab9a60f0671bc94d2bc826d21 r8169: add support for RTL8168M
 
---===============8101680866408217989==--
+--===============1368238191913103198==--
