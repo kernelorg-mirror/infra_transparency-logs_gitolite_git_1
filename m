@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 08 Apr 2024 13:22:49 -0000
-Message-Id: <171258256968.14441.4258164383060321937@gitolite.kernel.org>
+Date: Mon, 08 Apr 2024 13:24:15 -0000
+Message-Id: <171258265597.15061.11323430295781368226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/review-hans
-    old: 4506be7a271c0434a09818a250ecc34f7497c507
+  - ref: refs/heads/for-next
+    old: c868f11664bd16b112ce57c896e9fe3a835a14ec
     new: 10eba55febd4784cf54bbb411636f3929723bfc0
     log: |
          fe7af61159b85c2e78b4626be282e7fc9c487d46 platform/x86: add lenovo WMI camera button driver
