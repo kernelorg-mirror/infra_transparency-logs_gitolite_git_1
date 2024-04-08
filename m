@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 08 Apr 2024 16:54:04 -0000
-Message-Id: <171259524446.9020.3699789237352914159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Mon, 08 Apr 2024 16:54:30 -0000
+Message-Id: <171259527045.9290.17723981194402869169@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/ras/ras
+user: aegl
 changes:
-  - ref: refs/heads/for-next
-    old: 7aa94fb965d4db638c1918af95858d58984b78b6
-    new: 4d5aabb6843939fad36912be8bf109adf9af0848
+  - ref: refs/heads/edac-for-next
+    old: 063628069e05f1a7e060f3593dd3a2046802a75d
+    new: 8e95536e9495b387bf62c9d9daf8f4888cf28ad7
     log: |
-         fec2601f2003b9e9820ab5057607df7fff61cfaf remoteproc: zynqmp: Add coredump support
-         4d5aabb6843939fad36912be8bf109adf9af0848 Merge branches 'rpmsg-next' and 'rproc-next' into for-next
+         e0d335077831196bffe6a634ffe385fc684192ca EDAC/skx_common: Allow decoding of SGX addresses
+         8e95536e9495b387bf62c9d9daf8f4888cf28ad7 Merge branch ras/edac-misc into for-next
          
