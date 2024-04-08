@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 08 Apr 2024 12:21:00 -0000
-Message-Id: <171257886042.32448.7293736918541236989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Mon, 08 Apr 2024 12:25:50 -0000
+Message-Id: <171257915012.3492.5357147639434815241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: 229783970838887e72083820efb9270b7f276a11
-    new: ec20b283009346adc66d5a460b1f8fb5adafbcfe
+  - ref: refs/heads/master
+    old: 144214dfc1e86b0e88c2884ac3933787ac40388c
+    new: 9845bf82d978a6ad9143ed397591687195881852
     log: |
-         ec20b283009346adc66d5a460b1f8fb5adafbcfe ipv4: Set scope explicitly in ip_route_output().
+         9845bf82d978a6ad9143ed397591687195881852 README: remove out-of-date information on python bindings
          
