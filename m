@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7819641623857039666=="
+Content-Type: multipart/mixed; boundary="===============4888670964439743253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Mon, 08 Apr 2024 08:12:19 -0000
-Message-Id: <171256393981.17695.13054893076959402992@gitolite.kernel.org>
+Date: Mon, 08 Apr 2024 08:21:00 -0000
+Message-Id: <171256446090.24082.12361115395756886982@gitolite.kernel.org>
 
---===============7819641623857039666==
+--===============4888670964439743253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mst/vhost
 user: mst
 changes:
-  - ref: refs/heads/linux-next
-    old: 894452180d732413fd29fa95a4820560fa44ca4a
-    new: 5b9f214d05404a95051a6d9f8800baad9fc36289
-    log: revlist-894452180d73-5b9f214d0540.txt
-  - ref: refs/heads/test
-    old: 894452180d732413fd29fa95a4820560fa44ca4a
-    new: 5b9f214d05404a95051a6d9f8800baad9fc36289
-    log: revlist-894452180d73-5b9f214d0540.txt
-  - ref: refs/heads/vhost
-    old: 894452180d732413fd29fa95a4820560fa44ca4a
-    new: 5b9f214d05404a95051a6d9f8800baad9fc36289
-    log: revlist-894452180d73-5b9f214d0540.txt
+  - ref: refs/tags/for_linus
+    old: e617a620e4d190260d0218ac51074c8b3002b80a
+    new: c2e5ab10aeed3158f9b0ace9bd7d7af090764a27
+    log: revlist-e617a620e4d1-c2e5ab10aeed.txt
 
---===============7819641623857039666==
+--===============4888670964439743253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-894452180d73-5b9f214d0540.txt
+Content-Disposition: attachment; filename=revlist-e617a620e4d1-c2e5ab10aeed.txt
 
+77fcc34769c8a0a228af32c52ba7d3ef64690c0d ubsan: Disable signed integer overflow sanitizer on GCC < 8
 c4ca2276f18ee638e4bb156126e6e1bf5e09f28e arch/Kconfig: eliminate needless UTF-8 character in Kconfig help
 acd80cdcee17eb770fcb2b0dc659b78f369d8c01 Revert "kunit: memcpy: Split slow memcpy tests into MEMCPY_SLOW_KUNIT_TEST"
 c5d9ab85ebf3a42d5127ffdedf9094325465e852 Merge tag 'f2fs-for-6.9-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
@@ -1057,6 +1050,5 @@ df9ace7647d4123209395bb9967e998d5758c645 vhost: Add smp_rmb() in vhost_enable_no
 ffe6176b7f53ca0c99355f13e14a33a40cf49406 virtio: store owner from modules with register_virtio_driver()
 2855c2a7820bc8198ae937a9a67dbdc3990e9d2c vhost-vdpa: change ioctl # for VDPA_GET_VRING_SIZE
 76f408535aab39c33e0a1dcada9fba5631c65595 vhost: correct misleading printing information
-5b9f214d05404a95051a6d9f8800baad9fc36289 vhost: Merge tag 'vduse-virtio-net' into vhost
 
---===============7819641623857039666==--
+--===============4888670964439743253==--
