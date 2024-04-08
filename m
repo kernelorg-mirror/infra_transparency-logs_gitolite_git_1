@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 08 Apr 2024 06:13:22 -0000
-Message-Id: <171255680217.26174.3574306107213338876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/knsathya/aer-inject
+Date: Mon, 08 Apr 2024 06:16:28 -0000
+Message-Id: <171255698807.28997.1760027242073613680@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/knsathya/aer-inject
+user: knsathya
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 1af853cb6e4da2d1eb339de95d5cf38ada02b993
-    new: 3b89336c9ccf5961e9ec9521868a4c48bd6dded5
+  - ref: refs/heads/master
+    old: 9bd5e2c7886fca72f139cd8402488a2235957d41
+    new: 197f51d29a01f46750fa6928409301aa8f1163d7
     log: |
-         3b89336c9ccf5961e9ec9521868a4c48bd6dded5 platform/chrome: add HAS_IOPORT dependencies
-         
-  - ref: refs/heads/for-next
-    old: 1af853cb6e4da2d1eb339de95d5cf38ada02b993
-    new: 3b89336c9ccf5961e9ec9521868a4c48bd6dded5
-    log: |
-         3b89336c9ccf5961e9ec9521868a4c48bd6dded5 platform/chrome: add HAS_IOPORT dependencies
+         197f51d29a01f46750fa6928409301aa8f1163d7 aer-inject: Include libgen.h for explicit basename prototype
          
