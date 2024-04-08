@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7947335438666127782=="
+Content-Type: multipart/mixed; boundary="===============0614001977362773459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 08 Apr 2024 06:05:53 -0000
-Message-Id: <171255635361.19467.10160335799614772685@gitolite.kernel.org>
+Date: Mon, 08 Apr 2024 06:06:21 -0000
+Message-Id: <171255638104.19752.6446621726031976582@gitolite.kernel.org>
 
---===============7947335438666127782==
+--===============0614001977362773459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 5f563c31ff0c40ce395d0bae7daa94c7950dac97
     new: bccb798e07f8bb8b91212fe8ed1e421685449076
     log: revlist-5f563c31ff0c-bccb798e07f8.txt
 
---===============7947335438666127782==
+--===============0614001977362773459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1026,4 +1026,4 @@ c88b9b4cde17aec34fb9bfaf69f9f72a1c44f511 Merge tag 'net-6.9-rc3' of git://git.ke
 059a49aa2e25c58f90b50151f109dd3c4cdb3a47 virtio_net: Do not send RSS key if it is not supported
 bccb798e07f8bb8b91212fe8ed1e421685449076 octeontx2-pf: Fix transmit scheduler resource leak
 
---===============7947335438666127782==--
+--===============0614001977362773459==--
