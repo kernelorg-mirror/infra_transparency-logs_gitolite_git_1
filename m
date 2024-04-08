@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============2832039465068817652=="
+Content-Type: multipart/mixed; boundary="===============7977063396383071247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 08 Apr 2024 12:16:51 -0000
-Message-Id: <171257861125.28894.14840878731167677566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 08 Apr 2024 12:17:11 -0000
+Message-Id: <171257863193.29073.18244911101506811116@gitolite.kernel.org>
 
---===============2832039465068817652==
+--===============7977063396383071247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: eaa03486d932572dfd1c5f64f9dfebe572ad88c0
+    old: a469158eaf8f4b10263b417856d923dfa38ae96d
     new: fec50db7033ea478773b159e0e2efb135270e3b7
-    log: revlist-eaa03486d932-fec50db7033e.txt
+    log: revlist-a469158eaf8f-fec50db7033e.txt
   - ref: refs/heads/for-next
-    old: 58479bdbce845673bfe073fcf27723abc3cfde7e
-    new: 6b9fac9c1849efa98a59446fc130c73ccf4f318d
-    log: revlist-58479bdbce84-6b9fac9c1849.txt
+    old: 1c02bfce20128b6fdef012bf876c88be031d5001
+    new: d5d2b9b78b2e086115b7671377e07abb16d5441a
+    log: revlist-1c02bfce2012-d5d2b9b78b2e.txt
 
---===============2832039465068817652==
+--===============7977063396383071247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eaa03486d932-fec50db7033e.txt
+Content-Disposition: attachment; filename=revlist-a469158eaf8f-fec50db7033e.txt
 
 ccb2280ec2f9e805d70f57a3a1c5deff0d532cb3 x86/kvm: Use separate percpu variable to track the enabling of asyncpf
 df01f0a1165c35e95b5f52c7ba25c19020352ff9 KVM: x86: Improve documentation of MSR_KVM_ASYNC_PF_EN
@@ -217,7 +217,6 @@ b7dce525c4fcc92b373136288309f8c9ca6c375f drm/xe/queue: fix engine_class bounds c
 b45f20fa69cedb6038fdaec31bd600c273c865a5 drm/xe/device: fix XE_MAX_TILES_PER_DEVICE check
 45c30b2923e5c53e0ef057a8a525b0456adde18e drm/xe/query: fix gt_id bounds check
 0d8cf0c924732a045273c6aca6900a340ac88529 drm/xe: Fix END redefinition
-a469158eaf8f4b10263b417856d923dfa38ae96d regulator: tps65132: Add of_match table
 27f58c04a8f438078583041468ec60597841284d scsi: sg: Avoid sg device teardown race
 0c76106cb97548810214def8ee22700bbbb90543 scsi: sd: Fix TCG OPAL unlock on system resume
 429846b4b6ce9853e0d803a2357bb2e55083adf0 scsi: mpi3mr: Avoid memcpy field-spanning write WARNING
@@ -385,6 +384,7 @@ ad91c1d77fd0a489706b7b784a70e464a4a03490 dt-bindings: ufs: qcom: document SC8180
 7fb5aafc0a702c4c0bb22410d1e67a732e320511 dt-bindings: ufs: qcom: document SC7180 UFS
 b5237d0bdb3cb164b7792cc4f1ff2ecafbfac661 dt-bindings: ufs: qcom: document SM6125 UFS
 4af565de9f8c74b9f6035924ce0d40adec211246 ASoC: amd: acp: fix for acp pdm configuration check
+00bb549d7d63a21532e76e4a334d7807a54d9f31 regmap: maple: Fix cache corruption in regcache_maple_drop()
 a26de34b3c77ae3a969654d94be49e433c947e3b thermal: devfreq_cooling: Fix perf state when calculate dfc res_util
 96b98a6552a90690d7bc18dd71b66312c9ded1fb bpf: fix warning for crash_kexec
 5b4cdd9c5676559b8a7c944ac5269b914b8c0bb8 Fix memory leak in posix_clock_open()
@@ -506,6 +506,7 @@ e9c44c1beaba623b12201d2028bc20f535464d9b docs: zswap: fix shell command format
 09ba28e1cd3cf715daab1fca6e1623e22fd754a6 mlxbf_gige: stop interface during shutdown
 6dae957c8eef6eae5b386462767de97303235d5c bpf: fix possible file descriptor leaks in verifier
 033e4491b6c614efddcf58927082887e2b78995d Merge tag 'gpio-fixes-for-v6.9-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+eaa03486d932572dfd1c5f64f9dfebe572ad88c0 regmap: maple: Fix uninitialized symbol 'ret' warnings
 3508f318a1dbbc6a19cc873bb312c7d221550ba0 Merge tag 'for-6.9/dm-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 033e8088a41a0871231cbf09fc6fd534830dbae1 Merge tag 'block-6.9-20240329' of git://git.kernel.dk/linux
 0eee99d9eb5a617f7f779c890f955eec6fbbe647 Merge tag 'efi-fixes-for-v6.9-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
@@ -855,11 +856,11 @@ e2948effa9063ae8bd0e7dd65ca4a0fa068c71a6 Merge tag 'perf-urgent-2024-04-07' of g
 9fe30842a90be9b57a3bd1a37c9aed92918cc6d0 Merge tag 'x86-urgent-2024-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fec50db7033ea478773b159e0e2efb135270e3b7 Linux 6.9-rc3
 
---===============2832039465068817652==
+--===============7977063396383071247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58479bdbce84-6b9fac9c1849.txt
+Content-Disposition: attachment; filename=revlist-1c02bfce2012-d5d2b9b78b2e.txt
 
 ccb2280ec2f9e805d70f57a3a1c5deff0d532cb3 x86/kvm: Use separate percpu variable to track the enabling of asyncpf
 df01f0a1165c35e95b5f52c7ba25c19020352ff9 KVM: x86: Improve documentation of MSR_KVM_ASYNC_PF_EN
@@ -1048,7 +1049,6 @@ b7dce525c4fcc92b373136288309f8c9ca6c375f drm/xe/queue: fix engine_class bounds c
 b45f20fa69cedb6038fdaec31bd600c273c865a5 drm/xe/device: fix XE_MAX_TILES_PER_DEVICE check
 45c30b2923e5c53e0ef057a8a525b0456adde18e drm/xe/query: fix gt_id bounds check
 0d8cf0c924732a045273c6aca6900a340ac88529 drm/xe: Fix END redefinition
-a469158eaf8f4b10263b417856d923dfa38ae96d regulator: tps65132: Add of_match table
 27f58c04a8f438078583041468ec60597841284d scsi: sg: Avoid sg device teardown race
 0c76106cb97548810214def8ee22700bbbb90543 scsi: sd: Fix TCG OPAL unlock on system resume
 429846b4b6ce9853e0d803a2357bb2e55083adf0 scsi: mpi3mr: Avoid memcpy field-spanning write WARNING
@@ -1216,6 +1216,7 @@ ad91c1d77fd0a489706b7b784a70e464a4a03490 dt-bindings: ufs: qcom: document SC8180
 7fb5aafc0a702c4c0bb22410d1e67a732e320511 dt-bindings: ufs: qcom: document SC7180 UFS
 b5237d0bdb3cb164b7792cc4f1ff2ecafbfac661 dt-bindings: ufs: qcom: document SM6125 UFS
 4af565de9f8c74b9f6035924ce0d40adec211246 ASoC: amd: acp: fix for acp pdm configuration check
+00bb549d7d63a21532e76e4a334d7807a54d9f31 regmap: maple: Fix cache corruption in regcache_maple_drop()
 a26de34b3c77ae3a969654d94be49e433c947e3b thermal: devfreq_cooling: Fix perf state when calculate dfc res_util
 96b98a6552a90690d7bc18dd71b66312c9ded1fb bpf: fix warning for crash_kexec
 5b4cdd9c5676559b8a7c944ac5269b914b8c0bb8 Fix memory leak in posix_clock_open()
@@ -1337,6 +1338,7 @@ e9c44c1beaba623b12201d2028bc20f535464d9b docs: zswap: fix shell command format
 09ba28e1cd3cf715daab1fca6e1623e22fd754a6 mlxbf_gige: stop interface during shutdown
 6dae957c8eef6eae5b386462767de97303235d5c bpf: fix possible file descriptor leaks in verifier
 033e4491b6c614efddcf58927082887e2b78995d Merge tag 'gpio-fixes-for-v6.9-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+eaa03486d932572dfd1c5f64f9dfebe572ad88c0 regmap: maple: Fix uninitialized symbol 'ret' warnings
 3508f318a1dbbc6a19cc873bb312c7d221550ba0 Merge tag 'for-6.9/dm-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 033e8088a41a0871231cbf09fc6fd534830dbae1 Merge tag 'block-6.9-20240329' of git://git.kernel.dk/linux
 0eee99d9eb5a617f7f779c890f955eec6fbbe647 Merge tag 'efi-fixes-for-v6.9-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
@@ -1685,6 +1687,6 @@ e2948effa9063ae8bd0e7dd65ca4a0fa068c71a6 Merge tag 'perf-urgent-2024-04-07' of g
 3520c35e5f0b00cfd6a774d04c1b3bb18edc428a Merge tag 'timers-urgent-2024-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9fe30842a90be9b57a3bd1a37c9aed92918cc6d0 Merge tag 'x86-urgent-2024-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fec50db7033ea478773b159e0e2efb135270e3b7 Linux 6.9-rc3
-6b9fac9c1849efa98a59446fc130c73ccf4f318d Merge remote-tracking branch 'regmap/for-6.10' into regmap-next
+d5d2b9b78b2e086115b7671377e07abb16d5441a Merge remote-tracking branch 'regulator/for-6.10' into regulator-next
 
---===============2832039465068817652==--
+--===============7977063396383071247==--
