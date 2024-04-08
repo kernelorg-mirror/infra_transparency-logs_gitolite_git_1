@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
-Date: Mon, 08 Apr 2024 07:41:13 -0000
-Message-Id: <171256207388.27152.17876383336051871562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 08 Apr 2024 07:45:37 -0000
+Message-Id: <171256233795.30437.6886227903646629660@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel.granados/linux
-user: joel.granados
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/jag/sysctl_remset_net
-    old: 3b6720e41a3ccc4b0ddea1721cea468dc17fb5d7
-    new: ca53ca465ba0e08865d73b13cf0f868735604b4c
+  - ref: refs/heads/master
+    old: b1a76c226b276f49c6a7e74082a23f06f5b99966
+    new: df72ff49ed5dabb388c4a7c914c272ffd4264471
     log: |
-         cf753ccca3b02a63ad7d2ea4ce513621d5ad2ec9 sysctl: Remove sentinel elements from networking
-         a0f3d20681aac303e6d5ce4f3ace0f61743a1ee4 networking: Remove the now superfluous sentinel elements from ctl_table array
-         d2038db04039aee87f4c68e23a426a4d09bcbc5c netfilter: Remove the now superfluous sentinel elements from ctl_table array
-         7cd25017f61506b57d00048c1ae94296202d0165 appletalk: Remove the now superfluous sentinel elements from ctl_table array
-         ca53ca465ba0e08865d73b13cf0f868735604b4c ax.25: Remove the now superfluous sentinel elements from ctl_table array
+         d6cdbf8d0d1dcfdb73d138b524acdea6575ead73 lsns: (refactor) use ul_new_path and procfs_process_init_path
+         7d5036fdafe0498a09146a5637a9f7f8351e6e72 lsns: show namespaces only kept alive by open file descriptors
+         c43b185a3feb8cd7261c94f42a566486ce2c0438 meson: Use libmount as a dependency
+         a764efb5fb14b9a66bff8807c04ddcebc51939ea meson: Use libblkid as a dependency
+         b6799ccbc08aea69a26cdaa97ab436bfae2ae27f meson: Only build libmount when required
+         5ce970df73acacbc56f2eb9152ccc56e43fd0f3e Merge branch 'lsns--opened-ns' of https://github.com/masatake/util-linux
+         df72ff49ed5dabb388c4a7c914c272ffd4264471 Merge branch 'meson-make-libmount-optional' of https://github.com/jwillikers/util-linux
          
