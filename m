@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 08 Apr 2024 10:01:14 -0000
-Message-Id: <171257047489.19376.14255065797392885474@gitolite.kernel.org>
+Date: Mon, 08 Apr 2024 10:02:10 -0000
+Message-Id: <171257053056.19759.14381929955824898530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 802e12ff9cbff3bafb0b6f0fe79cff04dce9de16
-    new: eec53cc38c4aba41bc3fabd0a75bc30c2c8ea332
+    old: eec53cc38c4aba41bc3fabd0a75bc30c2c8ea332
+    new: 5a66cda52d7daccc88aa358872816c35093759f9
     log: |
-         eec53cc38c4aba41bc3fabd0a75bc30c2c8ea332 ipv6: remove RTNL protection from ip6addrlbl_dump()
+         5a66cda52d7daccc88aa358872816c35093759f9 ip_tunnel: harden copying IP tunnel params to userspace
          
