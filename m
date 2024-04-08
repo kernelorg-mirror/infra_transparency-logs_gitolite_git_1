@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 08 Apr 2024 15:45:49 -0000
-Message-Id: <171259114998.24901.1150648465023024643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 08 Apr 2024 15:45:56 -0000
+Message-Id: <171259115614.25014.4893334792278236450@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/review-hans
-    old: 428a03523d70b951e04822a49952fb32f2b508a4
-    new: a582a43e0d2e0afb695cd22ce46554f4a3d8b7bc
+  - ref: refs/heads/auto-update-info
+    old: edd6fe84cf66715a4a06668840f8efa8903741cb
+    new: 483cc89ab6327a25c8970bff77ed12fba3ee1045
     log: |
-         c347fd4fe84ab831db8b4361977437b587526165 platform/x86: wmi: Mark simple WMI drivers as legacy-free
-         290680c2da8061e410bcaec4b21584ed951479af platform/x86: xiaomi-wmi: Fix race condition when reporting key events
-         c5e160ff34b4493452cba80c684f5e7c8fc1c9e2 platform/x86: xiaomi-wmi: Drop unnecessary NULL checks
-         a582a43e0d2e0afb695cd22ce46554f4a3d8b7bc platform/x86: wmi: Add driver development guide
+         e8feb1b9230a50123a6b00c102ecb3968bcb323b firmware: microchip: clarify that sizes and addresses are in hex
+         80ba2748a043591806197e3d8083487fa74a71ce firmware: microchip: move buffer allocation into mpfs_auto_update_set_image_address()
+         483cc89ab6327a25c8970bff77ed12fba3ee1045 firmware: microchip: use cleanup infrastruture where possible
          
