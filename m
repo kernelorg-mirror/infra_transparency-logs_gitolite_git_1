@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============4349266944133211529=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 09 Apr 2024 17:05:55 -0000
-Message-Id: <171268235561.12732.1325235191583500580@gitolite.kernel.org>
-
---===============4349266944133211529==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 09 Apr 2024 17:06:00 -0000
+Message-Id: <171268236022.12856.4688432645738781638@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: cfcbbe6f23943166f11687ecf37252dc20728639
-    new: 3b691d28df6954e8fac742365a08c496f36a3738
+  - ref: refs/heads/x86/asm
+    old: 4c9a93800121e90484cd07c8e5bde70e31cdb996
+    new: a0c8cf9780359376496bbd6d2be1343badf68af7
     log: |
-         3b691d28df6954e8fac742365a08c496f36a3738 ez: Add a check before returning a commit
+         a0c8cf9780359376496bbd6d2be1343badf68af7 x86/alternatives: Remove a superfluous newline in _static_cpu_has()
          
-
---===============4349266944133211529==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1712682354 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1712682354-84262a52729cbecca8f96c85cfc469c254d9f2b3
-
-cfcbbe6f23943166f11687ecf37252dc20728639 3b691d28df6954e8fac742365a08c496f36a3738 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZhV1cgAKCRC2xBzjVmSZ
-bGcxAQDiVeHq1hrDsKJ7oMNJiGvX+SaHN2v9UggyN0liB/ErowEA30Uyb1cXJMNz
-SeZS86ppeZs5ayAQAM4CGvGTvjd9RAU=
-=u3/5
------END PGP SIGNATURE-----
-
---===============4349266944133211529==--
