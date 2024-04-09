@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 09 Apr 2024 08:54:09 -0000
-Message-Id: <171265284960.13740.8283717432644128773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 09 Apr 2024 09:05:52 -0000
+Message-Id: <171265355267.22805.7089890438651469127@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/vfs.misc
-    old: afc7ebe3beccd2ac6d0173e097550e318e7cc7a9
-    new: 3b6a795bf63f10bbfbb38ba2ffc5b4e6b4f7cae2
+  - ref: refs/heads/irq/core
+    old: a2ea3cd78317ae8995b65b52299158bbae52a77f
+    new: 42a7d887664b02a747ef5d479f6fd01081564af8
     log: |
-         c473bcdd80d4ab2ae79a7a509a6712818366e32a nilfs2: fix out-of-range warning
-         629171657a2864d819a3bbecabe0a5e001d05c7a orangefs: cleanup uses of strncpy
-         886b94d25a8eba4c42634dddc3cbfd6391a24d25 fs: Add FOP_HUGE_PAGES
-         3b6a795bf63f10bbfbb38ba2ffc5b4e6b4f7cae2 fs: move FMODE_UNSIGNED_OFFSET to fop_flags
+         14ced4756458f2c7295f27f615d22c2b5912c733 irqchip/riscv-aplic: Fix spelling mistake "forwared" -> "forwarded"
+         ff3669a71afa06208de58d6bea1cc49d5e3fcbd1 irqchip/alpine-msi: Fix off-by-one in allocation error path
+         b327708798809328f21da8dc14cc8883d1e8a4b3 irqchip/loongson-pch-msi: Fix off-by-one on allocation error path
+         a64003da0ef8e135cda678eb2c8a6f0baf4a9f35 irqchip/loongson-eiointc: Set CPU affinity only on SMP machines for LoongArch
+         42a7d887664b02a747ef5d479f6fd01081564af8 irqchip/loongson: Select GENERIC_IRQ_EFFECTIVE_AFF_MASK if SMP for IRQ_LOONGARCH_CPU
          
