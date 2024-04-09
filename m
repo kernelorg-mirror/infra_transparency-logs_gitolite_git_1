@@ -1,53 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============8097993211166150062=="
+Content-Type: multipart/mixed; boundary="===============4616167593758074740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 09 Apr 2024 08:33:47 -0000
-Message-Id: <171265162748.30609.14416325138656750867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 09 Apr 2024 08:40:42 -0000
+Message-Id: <171265204222.5402.3798944265672944477@gitolite.kernel.org>
 
---===============8097993211166150062==
+--===============4616167593758074740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 2bc561c6d8a8f3e0077a6a0f1c25caf3ee6012f4
-    new: 4cce3e151e22acedcaf8b7da181cd72e094b9b0f
-    log: revlist-2bc561c6d8a8-4cce3e151e22.txt
+  - ref: refs/heads/main
+    old: 87c33315af380ca12a2e59ac94edad4fe0481b4c
+    new: 74bd5dbe1b9197b217bb44e4ae5f745307b566ee
+    log: revlist-87c33315af38-74bd5dbe1b91.txt
 
---===============8097993211166150062==
+--===============4616167593758074740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2bc561c6d8a8-4cce3e151e22.txt
+Content-Disposition: attachment; filename=revlist-87c33315af38-74bd5dbe1b91.txt
 
-ed3600694924da7883e9415af9d14273a1bf519c Merge branch into tip/master: 'locking/urgent'
-65379a36ba0be65f290e4b3a536f4a6000347520 Merge branch into tip/master: 'timers/urgent'
-75f28b35bc8f505bd66eca88d3cf80b47035b75c Merge branch into tip/master: 'x86/urgent'
-59877940b0e9b0c844a125ef41bfe21000f44975 Merge branch into tip/master: 'irq/core'
-bc05cdb870dd6e8629aa689d0efb53daf3e43198 Merge branch into tip/master: 'locking/core'
-5729f4153fe0dbe2c47f87561833c2a9c896f998 Merge branch into tip/master: 'perf/core'
-d9162b66fa0e0fb700fb3a41c8fd8550a44d736d Merge branch into tip/master: 'ras/core'
-ea114820405e36f9eed10c697b24077473c34723 Merge branch into tip/master: 'sched/core'
-aed7b0607afe48f1530b922201c71ec916c40e35 Merge branch into tip/master: 'timers/core'
-1273f1c78d156837630ff8f49cba7400bb71ce09 Merge branch into tip/master: 'x86/alternatives'
-ec71a49171113b5712a922753fd5a348c0d23d20 Merge branch into tip/master: 'x86/apic'
-c0824642f4f1e8647a669803d540b5dd87ba92a9 Merge branch into tip/master: 'x86/boot'
-8d2a4903ad51618119287c864fb2cd10cd7383d6 Merge branch into tip/master: 'x86/bugs'
-e4330b97908ca9c11e604c2cdaff72d56f3dc784 Merge branch into tip/master: 'x86/build'
-67fdebd6fd858a26a8b13b3765d006589fc9ce90 Merge branch into tip/master: 'x86/cleanups'
-dbab9baa173962c339185d8bcb084307806b53e3 Merge branch into tip/master: 'x86/cpu'
-95d0f6cb652012f8e50414a637390c0ba259046d Merge branch into tip/master: 'x86/entry'
-529f0f8ffe322ae157f9357a48a5890868b90103 Merge branch into tip/master: 'x86/fpu'
-28569263047230c04dd9d656e34f7c5259bd8909 Merge branch into tip/master: 'x86/microcode'
-3525f3eac45052158985054b8fccea4df7837c5e Merge branch into tip/master: 'x86/misc'
-3de351da4d3db42b4b8bcb5cefa7302dc516f32c Merge branch into tip/master: 'x86/percpu'
-9b4b2f08b6899e8f5c12bab275886a75ea3bfd60 Merge branch into tip/master: 'x86/platform'
-4cce3e151e22acedcaf8b7da181cd72e094b9b0f Merge branch into tip/master: 'x86/shstk'
+dc073430db8d3f28460ea3ec1901e34bf7e8c0f2 dt-bindings: net: Add support for AM65x SR1.0 in ICSSG
+e1900d7ba9c9fd9edb214c43d2826876a5a35057 eth: Move IPv4/IPv6 multicast address bases to their own symbols
+e2dc7bfd677fc454668eb5bf0eab74ea35691040 net: ti: icssg-prueth: Move common functions into a separate file
+6d6a5751cd8e4d78b2d9093c0ba3fbfed551e8cb net: ti: icssg-prueth: Add SR1.0-specific configuration bits
+8623dea207a7ec01ccb69bf14fd172da9be5a1dc net: ti: icssg-prueth: Add SR1.0-specific description bits
+95c2e689331ee53b850ea4c996831ce64a91aea2 net: ti: icssg-prueth: Adjust IPG configuration for SR1.0
+604e603d73ec75365d9a2325991c0234ca420ac5 net: ti: icssg-prueth: Adjust the number of TX channels for SR1.0
+0a74a9de79c142e6c6fdedc22e55933034efd24a net: ti: icssg-prueth: Add functions to configure SR1.0 packet classifier
+ce95cb4c8d26b6917debf0eb1cd7c05230c0e7aa net: ti: icssg-prueth: Modify common functions for SR1.0
+e654b85a693e3cad58cf248c0770c02c346c8824 net: ti: icssg-prueth: Add ICSSG Ethernet driver for AM65x SR1.0 platforms
+74bd5dbe1b9197b217bb44e4ae5f745307b566ee Merge branch 'support-icssg-based-ethernet-on-am65x-sr1-0-devices'
 
---===============8097993211166150062==--
+--===============4616167593758074740==--
