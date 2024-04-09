@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7644134174478133374=="
+Content-Type: multipart/mixed; boundary="===============5391346651036913795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 09 Apr 2024 15:02:26 -0000
-Message-Id: <171267494667.13752.12941764057396764921@gitolite.kernel.org>
+Date: Tue, 09 Apr 2024 15:05:13 -0000
+Message-Id: <171267511393.16439.2610862374380969683@gitolite.kernel.org>
 
---===============7644134174478133374==
+--===============5391346651036913795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: d325a858a53b5816a60447887f7148eace999e00
-    new: 9cf7ea2eeb745213dc2a04103e426b960e807940
+  - ref: refs/heads/tty-testing
+    old: 925b2c3f6b6f81a5405a647b381d12a93f06a730
+    new: 4fe952c141b285ca0b379c93c9c6c69d7240a495
     log: |
-         9cf7ea2eeb745213dc2a04103e426b960e807940 serial: core: Clearing the circular buffer before NULLifying it
+         771d22bce79eec425c011fdf95a431a4a0b47c16 serial: max3100: Enable TIOCM_LOOP
+         61f538f23a7a83fabfb1fb5ce7ab6f2c75e911f2 serial: max3100: Get crystal frequency via device property
+         8c15f723caba9db359bdabcd54e7dda4c0b19c0b serial: max3100: Remove duplicating irq field
+         bbcbf739215eb8bfae346b9738bf5d209b434604 serial: max3100: Switch to use dev_err_probe()
+         8250b1c1fdf617e953511289b46c8a77d4d4457c serial: max3100: Replace MODULE_ALIAS() with respective ID tables
+         1d01740efb6856cf02905a84bf04b70d223993c2 serial: max3100: Switch to DEFINE_SIMPLE_DEV_PM_OPS()
+         69b2cc30315ac48e3a6308a7f736f67c3e3db0b1 serial: max3100: Extract to_max3100_port() helper macro
+         4fe952c141b285ca0b379c93c9c6c69d7240a495 serial: max3100: Sort headers
          
 
---===============7644134174478133374==
+--===============5391346651036913795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712674944 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712675112 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1712674944-ffeeb9cdffd0988f49e1db26854ff76835b638be
+nonce 1712675111-5b32e481108f9ea3b87933f5b5045d660dfff7ef
 
-d325a858a53b5816a60447887f7148eace999e00 9cf7ea2eeb745213dc2a04103e426b960e807940 refs/heads/tty-linus
+925b2c3f6b6f81a5405a647b381d12a93f06a730 4fe952c141b285ca0b379c93c9c6c69d7240a495 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYVWIAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wEsP/1nsuGEhDUvZzO4MkcdT
-T4pVF1jtbxfXq8w+aMtbIkQr7Dyk+HImO7dcUIVhIboyv0TEmT525DPNS/mzrRDe
-Z9Yr7G8zHvfo6SMzOcWF34T19CrSWYbjVEhN240QHQQATWbNe40AKHnojWnHhRH4
-zsdl+WVQegznUTEWUt2nJv+0bm7yCZG6Qa0SHkV2FuvyKD14bdHTbxahoFEmasWB
-e8N1oEUshnWTkUrebZrXg5QYV1GaaeBOQALE+tUOgS0WNwU48i7hknWOV6zi7vAe
-CTyxn6u4/quTkf+bY+bA7Y6D0fmplLSOjV7XWbT7jb73tXXND2HmKLndywfQbujD
-+SZKuUmUczmxGb8oDaoq+BAJL6bVUtFbRxmAxux3RGLraBHaYuMHg9cmdJcc0sXD
-qta+K3Gfh4duCw/SA5RZUnFRD/sSVFjtatjy8aQCcTcE64VlQAoEyGG4QFjd9bm6
-DtqNJy61v3DBBvo00ua9Wk8Tb54BaMvP5KN0qZjFTAsTgTCgxEnOl9iq8iTXzajJ
-95A/WA+l6DeVUGVBkqLOVAf0tCraDQswZd4wgHajpKuKaZXaCP/JFjzqOoHUasjS
-QWkfMAT5k29b3JDtyV59mbmonjLLdAZrOYn6v4bu78mgpvH3sIFFX3zB0fVnX98l
-E+ouQ5oqV3g1kEXEuRZwdkE2
-=6FWz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYVWSgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hUwP/0u0kHohBFYmoy+PUvwu
+U41x3uO37AYH+se3y5ZGYfhILKO0RAZYriKEIdZT+rtv0kAJI51qOx/XD/4VYh1g
+YNYY5+NZ6phqbeNSu0C6vE9cHvc6roW3Q7vZog/bDs06D0qyvPI1n/t9C2QEy+Cg
+8NqOUrfn/cfwozcBi+8C75Hh00jaOy0bvZsdgM/QAvtYg/hn4aPnXB14CXdgGJA/
+76q0Q2dgyOr6DiSUYSg6KV+PX+Vq7PGWwvL/itFI+y+2tVxWMVXDQKu/pEIhkpV7
+Eu34y7gK7M/+NI1AAUmlDgwTHuCUDfiSVJBWcRwY1lC4dqwRAdXMVLxPJcZBaYsK
+VID/syB91Wx5ZKeqa4r1h566cI/LUrjf3E1djz3n3z3fbxZldxMApkdgqm8mc1Eb
+SaWY5QZgOJ1QBli0iCWUtkTcuP+877ktCt37YNyI/Kx3XN+TMEVMUbrnl2dm5kQ9
+koQiuiECGVQa9Rc6UXYAmPtd4zxnEceqHgo8Knhdk/wjgnZ5Z3weR5jG5xYcKHyz
+fL9jUwl626TX22an1n17glqv7/vSEulnC/RtKxqkLi4jzs/nQE90D2aIOL8V5htk
+IAldKA+ep7N3tvxyPM5dOeDpZ9iuOgPN7NTlvKiChjqCbed+Z4pReFWd0DfAgZJM
+u5NNJCGkfQ7mUnmGusVRBdJJ
+=QTNL
 -----END PGP SIGNATURE-----
 
---===============7644134174478133374==--
+--===============5391346651036913795==--
