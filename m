@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3926891757640703285=="
+Content-Type: multipart/mixed; boundary="===============4750825026721008111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 09 Apr 2024 23:32:25 -0000
-Message-Id: <171270554546.19521.1205382393336155062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 09 Apr 2024 23:32:32 -0000
+Message-Id: <171270555214.19659.13230798879740201502@gitolite.kernel.org>
 
---===============3926891757640703285==
+--===============4750825026721008111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/asoc-6.10
     old: f78bf2c933c9cb3b61215378664f83c5abd25374
     new: 6451246884d0e57bc12a0d4563753d4ae588fb1d
     log: revlist-f78bf2c933c9-6451246884d0.txt
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/asoc-6.9
     old: 140e0762ca055d1aa84b17847cde5d9e47f56f76
     new: 2e411e939da9557494a0d83eb2e50627d9ccb2af
     log: revlist-140e0762ca05-2e411e939da9.txt
 
---===============3926891757640703285==
+--===============4750825026721008111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1712705543 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1712705542-283ea8d568bc7088c56126693466c5df9f7756c5
+pusher C3F436CA30F5D8EB 1712705550 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1712705549-c4ea02417dae81280e8ec4c60e40e69ad341e014
 
-f78bf2c933c9cb3b61215378664f83c5abd25374 6451246884d0e57bc12a0d4563753d4ae588fb1d refs/heads/for-6.10
-140e0762ca055d1aa84b17847cde5d9e47f56f76 2e411e939da9557494a0d83eb2e50627d9ccb2af refs/heads/for-6.9
+f78bf2c933c9cb3b61215378664f83c5abd25374 6451246884d0e57bc12a0d4563753d4ae588fb1d refs/heads/asoc-6.10
+140e0762ca055d1aa84b17847cde5d9e47f56f76 2e411e939da9557494a0d83eb2e50627d9ccb2af refs/heads/asoc-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYV0AcACgkQJNaLcl1U
-h9BxGwf+I6p2Q2CPF2F2yhRc7eknQEFfuLLj16yDvDhjZW/xlzR+a81PYGK6NLt2
-VCJGqHYKXG0BgcdJo1zlPPfkQZhTXfsE3nXe1eILrziWe/ATOGHJ5ea5V0glhEgn
-zJY8gcIUO5xKkoasUCWXF7HEaFEQyNwdkmImeZ5dSeb92sbNFisfi6N7l2Ke3/kI
-p1n5fSK1OXrYgXTcWne3TVdkgpjqKSqxD5Z8HHNo7lT71dXAf1yVtvZcoXHBEBIt
-uwXUnpAJiV5dHa8Zmitd/OKGINaYKxXk24MAokyB5FvCw7LrfrbLadQ5ezSyA8Sh
-8gcaHQSK7Ubv6moNbf+hrxzvdP7qTw==
-=ByPQ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYV0A4ACgkQJNaLcl1U
+h9AxvAf+M3R/THB35cCsS88YugFCxog9mWHlSvFeyWZcSzgj+vteDUIAmUaRCZzT
+p6tL0yNPMiL+6woWjiOCLOwaih24W8ZPlDeYfHeLelRkZgta++1hkx8ujG2ew6w+
+oXOZMyZt5Kr8bGOW8h0I/7hG1BO0OYjXRuaKeqtAEpPsoD3QECfgVpxKnsaV2e14
+Nfz9XgBmk6oPrFhPTDYVjkgGbiHEcBMnACR2ToSSxytBLGgKckrFTxnA30buZbkE
+l70LPP8RibAIe8MmjmQ1RWjeK8Xs6avNw9as/N0R79H6vbhTNZfHOZGPuxt8cz/w
+UoscCnd0Wgq9mnM0t/DeApfAgheY+Q==
+=Z8T6
 -----END PGP SIGNATURE-----
 
---===============3926891757640703285==
+--===============4750825026721008111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,7 +75,7 @@ eff21f5f8ea01834835ebe35995dba40f8435795 ASoC: ti: davinci-i2s: Add handling of 
 e2ff3bd86dd739dbd807985dd7a7283c4c8bbe06 ASoC: SOF: Intel: Add fw_regs area to debugfs map for
 6451246884d0e57bc12a0d4563753d4ae588fb1d ASoC: ti: davinci-i2s: Add features to McBSP
 
---===============3926891757640703285==
+--===============4750825026721008111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -96,4 +96,4 @@ a93830a9e0eb0f8fb151a3f74cd537b0a95ab353 ASoC: SOF: misc fixes
 f23e8f3ad3ea739be006459df4ed4e7b3f5242e6 ASoC: SOF: ipc4-pcm: Do not reset ChainDMA if it is
 2e411e939da9557494a0d83eb2e50627d9ccb2af ASoC: cs35l56: Fixes to handling of ASP1 config
 
---===============3926891757640703285==--
+--===============4750825026721008111==--
