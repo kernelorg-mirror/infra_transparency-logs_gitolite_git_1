@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6234310748827650687=="
+Content-Type: multipart/mixed; boundary="===============4120248594386860813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Tue, 09 Apr 2024 13:11:02 -0000
-Message-Id: <171266826265.28042.10018844478641719337@gitolite.kernel.org>
+Date: Tue, 09 Apr 2024 13:11:51 -0000
+Message-Id: <171266831170.28425.17880320578971266763@gitolite.kernel.org>
 
---===============6234310748827650687==
+--===============4120248594386860813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/will/linux
 user: will
 changes:
-  - ref: refs/heads/master
-    old: 5f9e832c137075045d15cd6899ab0505cfb2ca4b
+  - ref: refs/heads/for-next/perf
+    old: b037e40a6af2b056f7f15d9aabe7e9a9a7149ff3
     new: fec50db7033ea478773b159e0e2efb135270e3b7
-    log: revlist-5f9e832c1370-fec50db7033e.txt
+    log: revlist-b037e40a6af2-fec50db7033e.txt
 
---===============6234310748827650687==
+--===============4120248594386860813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f9e832c1370-fec50db7033e.txt
+Content-Disposition: attachment; filename=revlist-b037e40a6af2-fec50db7033e.txt
 
 1251d2025c3e1bcf1f17ec0f3c0dfae5e5bbb146 io_uring/sqpoll: early exit thread if task_context wasn't allocated
 c502b5b878144f43fd06323a95d1e69eed964d8e bcachefs; Fix deadlock in bch2_btree_update_start()
@@ -1051,4 +1051,4 @@ e2948effa9063ae8bd0e7dd65ca4a0fa068c71a6 Merge tag 'perf-urgent-2024-04-07' of g
 9fe30842a90be9b57a3bd1a37c9aed92918cc6d0 Merge tag 'x86-urgent-2024-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fec50db7033ea478773b159e0e2efb135270e3b7 Linux 6.9-rc3
 
---===============6234310748827650687==--
+--===============4120248594386860813==--
