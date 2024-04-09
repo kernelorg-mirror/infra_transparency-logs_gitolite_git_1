@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5500954210735021480=="
+Content-Type: multipart/mixed; boundary="===============2670292289387219867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 09 Apr 2024 16:27:57 -0000
-Message-Id: <171268007723.13635.9437871362288343179@gitolite.kernel.org>
+Date: Tue, 09 Apr 2024 16:28:34 -0000
+Message-Id: <171268011492.13947.18217979428335656158@gitolite.kernel.org>
 
---===============5500954210735021480==
+--===============2670292289387219867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 39f59c72ad3a1eaab9a60f0671bc94d2bc826d21
-    new: 6a053f07d5a5839eb5e62e29af3f49f0c964bad4
-    log: revlist-39f59c72ad3a-6a053f07d5a5.txt
+  - ref: refs/heads/dev-queue
+    old: c7218b2fabcf8a5182c21414ecae0f10e2075d65
+    new: aeacf554a96640154ae27e281e3dfbd2390ba1b0
+    log: revlist-c7218b2fabcf-aeacf554a966.txt
 
---===============5500954210735021480==
+--===============2670292289387219867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39f59c72ad3a-6a053f07d5a5.txt
+Content-Disposition: attachment; filename=revlist-c7218b2fabcf-aeacf554a966.txt
 
 775d2e2b302897931ab7417b1da747bba7831a0b archnet: Convert from tasklet to BH workqueue
 87c33315af380ca12a2e59ac94edad4fe0481b4c net: phy: air_en8811h: fix some error codes
@@ -49,5 +49,37 @@ d2fd6cf39a14283da1a6892438f9685ddd93a387 Merge branch 'tcp-fix-isn-selection-in-
 9f6b3a498174843f5a9fb573d084bbad381f40f6 net: phy: micrel: lan8814: Enable LTC at probe time
 9e63941b8976c45f1ce42b5e0e45070ee24b22eb net: phy: micrel: lan8814: Add support for PTP_PF_PEROUT
 6a053f07d5a5839eb5e62e29af3f49f0c964bad4 Merge branch 'net-phy-micrel-lan8814-enable-ptp_pf_perout'
+7959f9f27828f84c511631eb3f4d4079b965edf9 ice: Remove ndo_get_phys_port_name
+c37732ed71f56a37bd52c4d28592d2b5b9ddbe00 ice: tc: do default match on all profiles
+2fc65d26ef108a907cfb7a90f72a01060c971d4a i40e: Prevent setting MTU if greater than MFS
+cad18a2a67b1819e7904b258608d5e89dfc5b250 ice: tc: check src_vsi in case of traffic from VF
+c6bf6c417b3c6889f20e1e6bd2b3ba8e95b67d4b ice: tc: allow zero flags in parsing tc flower
+e6f1972c7b635f1549139c5cd0f2a480c2e0fabd ice: set vf->num_msix in ice_initialize_vf_entry()
+63894eeb877e50a14bc472b5756eb9df208ad569 ice: store VF relative MSI-X index in q_vector->vf_reg_idx
+2f7dc59fbf43d7e6f956217d7c82a5166969cd9e igc: Add Tx hardware timestamp request for AF_XDP zero-copy packet
+99807ae8e86ce8021811a88282ca5aaf5e1612b8 e1000e: Remove redundant runtime resume for ethtool_ops
+d2c06d5868c8f567ae29299957f9e64d469847b1 igb: Remove redundant runtime resume for ethtool_ops
+67a703d2d2aa6fc076d8d3f538de0f6e8f8b512b igc: Remove redundant runtime resume for ethtool ops
+5254b599839a36f87c056c8490df9af6d612baa6 ice: Fix package download algorithm
+59931f7688b7b40c5780a6d66806fd600098bf27 i40e: Report MFS in decimal base instead of hex
+2942ee6cb29d58a1f54753c2c5b28a2673548e24 i40e: Remove flags field from i40e_veb
+e8aecd47e91c59ac065e8b1c06a277951aa7323f i40e: Refactor argument of several client notification functions
+bbea591f4527da4d4b53c69475a817598b852b87 i40e: Refactor argument of i40e_detect_recover_hung()
+00abfb6629c05ce2adf10f6623f654f1b9a71d0c i40e: Add helper to access main VSI
+e491cc3d9dbd81601ce4f0ece118a165905bbb05 i40e: Consolidate checks whether given VSI is main
+0fe020ec191a13e4cb56c5f12c06748dff084b7b i40e: Add helper to access main VEB
+3623db5d69a8d98120935ea06343b56f8e18c6af i40e: Add and use helper to reconfigure TC for given VSI
+6e1b1bd64a19823616aeb55139e5838c0de64b8e ice: add additional E830 device ids
+a2f69a24dced5cfe3f6b6aa08e6d362c0b256d46 ice: update E830 device ids and comments
+32f29a58684d211454a36decf55af22706bc7d28 iavf: Fix TC config comparison with existing adapter TC config
+5594186ff67277c2ee3c9168e4ac3538362d76cb devlink: extend devlink_param *set pointer
+eabc3abe267d6830850e8880ccc6830f72da3208 ice: Support 5 layer topology
+64ed8103e86793761ff063cc37a48b9cb5758441 ice: Adjust the VSI/Aggregator layers
+87b2c13e726eee8e2adb45613c13ef9b5538d125 ice: Enable switching default Tx scheduler topology
+4d2df087f62929e21d429a52fc9db00a645be547 ice: Add tx_scheduling_layers devlink param
+3d704943b6cf1179fd5d044364f9379aad09af87 ice: Document tx_scheduling_layers parameter
+8c59dbc83f165cbff2af21995c2dccac05300360 ice: Remove unnecessary argument from ice_fdir_comp_rules()
+53553c0d24c357625c66369849df5b72c9ab1afb ice: Implement 'flow-type ether' rules
+aeacf554a96640154ae27e281e3dfbd2390ba1b0 ice: Add automatic VF reset on Tx MDD events
 
---===============5500954210735021480==--
+--===============2670292289387219867==--
