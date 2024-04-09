@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3664045923633973820=="
+Content-Type: multipart/mixed; boundary="===============5455853919474327743=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 09 Apr 2024 15:31:05 -0000
-Message-Id: <171267666591.3534.2415630831860499930@gitolite.kernel.org>
+Date: Tue, 09 Apr 2024 15:37:49 -0000
+Message-Id: <171267706928.8798.2524933766761232122@gitolite.kernel.org>
 
---===============3664045923633973820==
+--===============5455853919474327743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: d464dac47260a33add5a206fd3289ec1216e8435
-    new: eed04fa96c48790c1cce73c8a248e9d460b088f8
+  - ref: refs/heads/usb-testing
+    old: 3295f1b866bfbcabd625511968e8a5c541f9ab32
+    new: ccdd4aac5f4b1e735c4372d2f12884a3ff0eb524
     log: |
-         fbdd90334a6205e8a99d0bc2dfc738ee438f00bc MAINTAINERS: Drop Li Yang as their email address stopped working
-         3461e02066758b78a0731eb71faecfb1eccd0e6c usb: typec: mux: it5205: Fix ChipID value typo
-         eed04fa96c48790c1cce73c8a248e9d460b088f8 usb: dwc2: host: Fix dereference issue in DDMA completion flow.
+         ccdd4aac5f4b1e735c4372d2f12884a3ff0eb524 usb: phy-generic: add short delay after pulling the reset pin
          
 
---===============3664045923633973820==
+--===============5455853919474327743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712676661 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712677067 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1712676660-b31e6ec8b0f86cea31ebac9401877fe791ed76d1
+nonce 1712677066-f7b8b664847e9e460b13467f7a00a201143324fe
 
-d464dac47260a33add5a206fd3289ec1216e8435 eed04fa96c48790c1cce73c8a248e9d460b088f8 refs/heads/usb-linus
+3295f1b866bfbcabd625511968e8a5c541f9ab32 ccdd4aac5f4b1e735c4372d2f12884a3ff0eb524 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYVXzUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f+kQAIGU5MdpsO5V0NaZtroR
-YMQ10OtRGb/dAvt4AGaMc0AHlJsLmZUha5Y4kUCD85vN+5xXlwkBt85mQnVsK4/W
-QmbJNH8T0XXsQfjcftbPu0T3LkHWmOHuViRqX/a2Kag6MkDTFDw6z+7rGXZXHXL2
-iSdYuhxCfJqkjxj8lcZ6jDptjoC+6MUQru/FFNzCgt7MythoOF7mVk5nUkljslsE
-7GV6qr6Wo/OKN000lSVjEIxDpSYzK4WasnCgpwQqeqOXNniPykD4RrVxOI1o9qRr
-Thz/Db+zXZRNoT/j/r+3VJ/srkJZm0wndc2zac2207MhArCq1naKkXMAUjlKcyeU
-9za9wXIU61MbPQUGsws6KUZxDO7dyeYRHdjUQgQbgPZOwGFjXUkZDjTfM75rs7O1
-A+pqDCkSALBsHd06EFOL6nXQn7wnnbcp3sY2lCtQrEGqRPEu2on0kHG8mxfi+8Ed
-xbx3u205ROYhEsvUKwGMWgzPlJqLE93mvsCbdYj1U5V5QfLepsVPAXiVFTWvDhl1
-t25/ikhupfCOfDX0Sj9QSTescjhnGxFRAKotIhqSbc04D1BLN7nvMx/fikQYFdR3
-YraOnnyEoOT8VYqdHZm0pvtONpScpussFumaWc81/9kCzYVi8xSXaY8Ed8e5RN81
-4IsaoJxbkfOkjzDLPDlKVaWG
-=70mr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYVYMsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aSoP/1wibTYnV3ZUUk740uET
+cXByJgl7Rb+qH7dZlXQv/E8M/rywI6DbDuz417RVkLiNnpGKBuaIOwmb3kmpHAod
+N8gIRHrplCehutv3lL22Y1tTVWQfvSnuWhjn+Zm3S7MVFTEGcOOw8Iq5jKSNwXQ6
+ZXcm8N0vEIST4riERBv6vwnLbr4KmqiGTn2azdoRUYO8M8c3POHoxNXB0UgtITG8
+kde0tv3cm0/N9Eozxbonm626BPy/1rP+ELVcZDUf6/20O1nXEVBxg1hni+oOTZ3/
+vJF084OrJ+vBVT6ruu8Ys0dX9S0yRPafXAv9D47sjLqOlDKQ+BxyRQAcNlQwqTx9
+2b3mWXoybxOKjzErnCnGL8Ren0X2ZlvKBgECl16+eumyGV/BPNeXpFjJsfKwlAmo
+l0Q2oarW8Ekx4c13te8uyizKXp/VqWCi+BZdrnD8tQYliLNCc18pLGkXZvmVSDoE
++GXkP19SHrLbXjm0NVC+6oI7VwzvjC90bIs2N4boPBjs+gTsMrWoMp47s2Bxa+Tn
+B7wh5qefIMb609va4cwxDQ4BosBbvzBKvILw9iDke+y4JgZ//0ogci4xCbKLEsty
+w1SrPnsG7ZKcm+sPwzEhu1vdF9vXmvDcYoXGPtJ71vNAO0eO1JnpRm8RN2kYjP1p
+Onndu9rzsC/clq7hisfDCW1h
+=AyT6
 -----END PGP SIGNATURE-----
 
---===============3664045923633973820==--
+--===============5455853919474327743==--
