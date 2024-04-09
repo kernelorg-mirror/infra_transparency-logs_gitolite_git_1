@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1179522762747917156=="
+Content-Type: multipart/mixed; boundary="===============1764660539834868065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 09 Apr 2024 03:01:57 -0000
-Message-Id: <171263171702.11639.12584135828656800289@gitolite.kernel.org>
+Date: Tue, 09 Apr 2024 03:02:14 -0000
+Message-Id: <171263173492.11867.13393998964347402075@gitolite.kernel.org>
 
---===============1179522762747917156==
+--===============1764660539834868065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: d6c34666423094876b4b98b9efde6a43e4612eb6
-    new: 5ea663d2fda7e15bb1f2b53b973294b5744d6883
-    log: revlist-d6c346664230-5ea663d2fda7.txt
+  - ref: refs/heads/6.10/scsi-staging
+    old: 45485d9423267937a5d9ec080abad7b5b7c32ae3
+    new: e63350dae44f01842dca229aaaa22c105356d7ab
+    log: revlist-45485d942326-e63350dae44f.txt
 
---===============1179522762747917156==
+--===============1764660539834868065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1712631703 -0400
+pusher 75C5DE3D 1712631722 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1712631703-1322b8fccb20aabb30fe3185051825a33a404fe6
+nonce 1712631719-3f7a02121ec26948253714d1dd67c0a54236c447
 
-d6c34666423094876b4b98b9efde6a43e4612eb6 5ea663d2fda7e15bb1f2b53b973294b5744d6883 refs/tags/mkp-scsi-staging
+45485d9423267937a5d9ec080abad7b5b7c32ae3 e63350dae44f01842dca229aaaa22c105356d7ab refs/heads/6.10/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYUr5cACgkQ7ulgGnXF
-3j3uJg/+JSLrVpch3nwOT+OmoHjSXyRNX2DQHRkFNH/ERNVhLL3uBaq/hIccU1zd
-QZlYLPJQxme2p6yFGANii4Ewp61xSRtkRAtHhchHpgo/YjsaMcrg/dpR8KtUnKdj
-qRLwSyNqf4Z2z/iLTsm52uM10iEc0wH/B2dNUeX8VPHeDwKIhNkAAWEVkltyW13i
-/qb3gwlelW7fsNc83XSwQgEf3eX+NGT1HZf6yHrmGxUHbKm1L6pvJYnA1YTxJyxh
-SN5qBrafffOO0Yt97CVzShUV2QvtaZDOtw/2GofM3BxY1ygkZcrKS/Ayy39MzNoe
-TIJihw4mhxcnA+ptM+jB+VLX4ce3igVycLIInCwoIqYxbWtg1PCvNOXVuPMfJhzg
-y98axyu2dsmb2EJKiIdo9Rp3Pcyxhhm3SewCOKj8Z4+fWzVuJW/lnzEwqlzs2kbc
-JzLhj3Rqscsa0NTTEcqVFkD9iz0NgfLG4l6DXRklDe3LgLYEeGstbWV67gZKq9la
-AN7j7NzLsQv6VWB71CPyKWHB0aW1JMtalq/4QWydQ1ASxwQiyLZFrnEZI6pkda5g
-izCmoN8IDDQIVBub8azp9fjb8ZeyXDAYW0S+SkDUuMpX8fE7V2czZyEshl1Kn/ZU
-wf7HfPMTeNbLZ356t+HU1N68h/W4/gTvxcwSeI3piopJnRgZhrc=
-=9pk7
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYUr6oACgkQ7ulgGnXF
+3j15lxAAtkAjMv35l9b0Ttl6jP5mrE1+WMBsdmgm+ld7oaqFCkG/Emn6RZzkMrlF
+xLEit6jtIyYE3RLIUH8tw/S9vsKqu8FUWLvrqV5pAeZPBS52ApvDljFN1SKxasok
+qYi9Dc1O+oLctskSYn1PKuvOATRnTCA8LDCJJ6cYLeAVnYmDTyvbQ3UlblcowTZ6
+ObYl1TPALZzNjv4B3fahJ839BCeRE16CmfnCfK9z0/GjrTAL9ItofJUc4k4wP+I+
+WbtQCgYsq9XrQIGT0yE7mXTKaGXkpsMOrie2/1PuxfjYIYs7Osc6OGahDcfBx9VZ
+BqX9zpG2BibEtvlYcPFBHgcqrtcBwIL1+Y8SXimAOBIy8de8r+t9xw0nXC2MIJFj
+fwQEc8h4wyS4Ib00YDY2OkJfRcytQfJ/Lh0EapzEPgpLx55i4XI4OgqoywqAVQil
+Yj6b+CSL0O86hSIJFKtTpU0RlpldRVeNKpKTWEiWrpNpZ80e5vV10wAfTBLDXOx8
+tadT9sZQQn8VgCcN7elRIyAPrKNVGFjmxxtmcmypKiqzoEcAoKa+DA75GBtCD2uN
+2thBllOKoZJ17w3fMT2QqaMjZyB6XusMzoDFWZpEWGMo7VirC3OVl1tFs8gmm+8n
+01n/rm8XVth/KkEOlZOzl6HUcB8dDH9PM3teSogOie5SdcT2cnA=
+=SGZk
 -----END PGP SIGNATURE-----
 
---===============1179522762747917156==
+--===============1764660539834868065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6c346664230-5ea663d2fda7.txt
+Content-Disposition: attachment; filename=revlist-45485d942326-e63350dae44f.txt
 
 33507b3964f136ea1592718cb81885c8f9354f65 scsi: ufs: qcom: Add sanity checks for gear/lane values during ICC scaling
 28fc2bd2c7298d647fcbab7b11532a1f5fda7470 scsi: cxlflash: Fix function pointer cast warnings
@@ -76,4 +76,4 @@ ba0f09b0dbd81f04d8621377c72a93ab1bd34ada scsi: core: Improve the code for showin
 a0c25d66b13fbdd37ba2997c36d025f67221d3e0 Merge patch series "scsi: documentation: clean up docs and fix kernel-doc"
 e63350dae44f01842dca229aaaa22c105356d7ab Merge patch series "Improve the code for showing commands in debugfs"
 
---===============1179522762747917156==--
+--===============1764660539834868065==--
