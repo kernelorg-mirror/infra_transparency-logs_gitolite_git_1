@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 09 Apr 2024 11:49:21 -0000
-Message-Id: <171266336106.27711.1211519834251788043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Tue, 09 Apr 2024 12:05:45 -0000
+Message-Id: <171266434502.7746.14896283360085519558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/master
-    old: 166e15d1d70c1ab77fd1811578ad37e6d6ea8fa3
-    new: 5ebf0edb0a0531cba801c7791543c610725bf944
+  - ref: refs/heads/v6.9-fixes/soc
+    old: 244490a729c61f04b258f2db0b32695cdc25f8a8
+    new: 2217fb42a6d0e062b0a11f90fe775651f73ed05f
     log: |
-         5ebf0edb0a0531cba801c7791543c610725bf944 audit-arch.h: add defines for m68k, sh
+         2217fb42a6d0e062b0a11f90fe775651f73ed05f soc: mediatek: mtk-socinfo: depends on CONFIG_SOC_BUS
          
