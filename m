@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2944166788044491969=="
+Content-Type: multipart/mixed; boundary="===============2377638290203261495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 09 Apr 2024 09:41:35 -0000
-Message-Id: <171265569567.31492.7944196957612636227@gitolite.kernel.org>
+Date: Tue, 09 Apr 2024 09:41:48 -0000
+Message-Id: <171265570830.31645.5262233589274393683@gitolite.kernel.org>
 
---===============2944166788044491969==
+--===============2377638290203261495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,35 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.10/cleanup
+  - ref: refs/heads/slab/for-next
     old: b062539c4e2f31ff346795ce32012e9e6300d212
     new: 5aa5c7b9a09dfce2761c46579cc421708492e890
     log: |
          5aa5c7b9a09dfce2761c46579cc421708492e890 mm/slub: remove duplicate initialization for early_kmem_cache_node_alloc()
          
 
---===============2944166788044491969==
+--===============2377638290203261495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1712655691 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1712655705 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1712655690-28a259d6d79cc19cd24d856d1c9e135ae427f262
+nonce 1712655704-69132521ec6ac16a183169981e8f0114244e9f9e
 
-b062539c4e2f31ff346795ce32012e9e6300d212 5aa5c7b9a09dfce2761c46579cc421708492e890 refs/heads/slab/for-6.10/cleanup
+b062539c4e2f31ff346795ce32012e9e6300d212 5aa5c7b9a09dfce2761c46579cc421708492e890 refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmYVDUsACgkQu+CwddJF
-iJrvQwf/ShMXaBImpod53/xoid6Ad/Q8Zx+PXNRF2mubPnkEenyuNcw7s8BSZWz9
-uXQr2Vp8qcPJ7vBKe4AY47kneU4rori/9OkKPjtZL32QMtaIi6LxMeTWKHiutksf
-a2KQRathQWIliYvy8lmZUN3l+xR1I90lWHQowA9SpjPEAscXPLJDvCF/wgpJATEO
-ojZJhxswwbJA4jnbXjztsfzOLahxMxENxJQmcnaTn4ed9796up6q9ykvXU3sp2Bu
-ZWZvF4ThW3J3zXcZoA7KSyXv5Bxqn+uHaXZvqEc5RkUaV8d1YUZyxQpSn20gV8Bl
-VOZbhlq9jUr102SpcnKy6PIHmnNmuQ==
-=ux+K
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmYVDVkACgkQu+CwddJF
+iJpnSQf8CirDWjCIePUAH3ZdebOUeNjX4sHbmE6noVMfnnorDENxy0mfkLmmcP1R
+NYsR/nahGtBUvVMwKp/X9HhPT/haq41wS9yByGYEzQzvLpTx4RD3cvOqWMd1/uJ/
+zOKXLTum6r+9EoFY4jGIsCphAEy62UImYnXoDYUr9yh8PFrMLokrZZFllIcuhCGl
+8P8F1afui1hPHAqpucSfs9hegH0iZDLhinKypXuSLWhllX+cDkHQ0unjOpKVGCpd
+jhAftDO+nR2QdF0lVotTVgKkqgOi+YGL1NZGymexgjErPV/2TdgUpydKhwtdxz3j
+Gq4Ql3DoVakI2XQ8gBK1MEBvj+WOwA==
+=Ni4m
 -----END PGP SIGNATURE-----
 
---===============2944166788044491969==--
+--===============2377638290203261495==--
