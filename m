@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 09 Apr 2024 11:45:30 -0000
-Message-Id: <171266313061.26058.1855512026531110697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 09 Apr 2024 11:45:59 -0000
+Message-Id: <171266315986.26326.3299925779028335641@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: 220d63f249ecfa71a9b89dd232383506b56d0073
-    new: 6a053f07d5a5839eb5e62e29af3f49f0c964bad4
+  - ref: refs/heads/master
+    old: 985e7a748ae66c92bc4793b4de9946c6e1ba0e24
+    new: 166e15d1d70c1ab77fd1811578ad37e6d6ea8fa3
     log: |
-         9f6b3a498174843f5a9fb573d084bbad381f40f6 net: phy: micrel: lan8814: Enable LTC at probe time
-         9e63941b8976c45f1ce42b5e0e45070ee24b22eb net: phy: micrel: lan8814: Add support for PTP_PF_PEROUT
-         6a053f07d5a5839eb5e62e29af3f49f0c964bad4 Merge branch 'net-phy-micrel-lan8814-enable-ptp_pf_perout'
+         166e15d1d70c1ab77fd1811578ad37e6d6ea8fa3 lsns: fix ul_path_stat() error handling [coverity scan]
          
