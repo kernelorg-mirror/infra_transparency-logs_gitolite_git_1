@@ -1,56 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============2030732695243490009=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 09 Apr 2024 13:09:26 -0000
-Message-Id: <171266816646.25588.10307442154741129499@gitolite.kernel.org>
-
---===============2030732695243490009==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Tue, 09 Apr 2024 13:09:45 -0000
+Message-Id: <171266818504.25838.12016302278141923501@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/master
-    old: 4c741a0f63cdf6896fca358b398bd56fefe8a2dc
-    new: 56e41ac3f1dce371b3585743266344d93174b7dd
-    log: |
-         56e41ac3f1dce371b3585743266344d93174b7dd drop libsas patches from older kernels
-         
-
---===============2030732695243490009==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712668163 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1712668162-f2bd12580bb47d2485fb4e0ece78a6bad6551007
-
-4c741a0f63cdf6896fca358b398bd56fefe8a2dc 56e41ac3f1dce371b3585743266344d93174b7dd refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYVPgMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1eMP/0XjiAMks59jFaRglL1F
-FQJiac3EBWXCBi4Vd4AF1fUyL5zkpLyw2rZfop9YFXHE2PrJ9KG0jWa5ShTQ2I74
-wTXUqCR6AircnopLVI0mnPNvWZl5t5yax539n81N0iZKyIW5xh38pNObVTBHloCN
-1BkGN/rKkQx9DkIK9VQohfU6VcsdPDXOWUYYqFvrx/tcB8MWcSSzNZ9uoBBEIltB
-u8Yg6dX2sfQg2PDL0iQoV21hgEr1YrA0Za8LuUNhf1E54ZnHfKgxDRv9lsmV7B2Y
-ZWqIZYY5zneEnGK38rprCOsfkuMfgB9TLoLvoEyyYcSFfwFNzDner3u9EG8XD/p/
-Bqd5lh6ijcYCxmDkvebU1fE5fARLn7QdFylz8I68Em2IyPidhrZ7nqVUEDyJi+kx
-1lwrYm/57rpAvCOHyGfHZEsjIIxDUkbYdMLhU8+SHkhodIv7zqS4xufjeflkVsuN
-L4QmRwAltHcQyiCoXdt05CtEx7iDnK1uBe9L6VF7B82ft0Lpf7vYN8OEIsbOFIam
-O568ItRvhfZvutWUe75xL2CfqAs8kiipSWgQFgzoDRxz+JFs4i4LnfQ+muYWTXSF
-4hRchqgO7L07shdtFGmYIjxXPOT/XA00EzhxvnCfbAqHdiR6W6aKqoMw0D+5aL2S
-kpY1RBOf3108NyHB673bD64T
-=WiQO
------END PGP SIGNATURE-----
-
---===============2030732695243490009==--
+  - ref: refs/heads/asym32
+    old: 42849847bf9aaf6ca1e2f07664093250b2871eda
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/asym32-fixes
+    old: 9c3c1dce0c11c0e4e59a556e1748ef2c6a4133ce
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/cmdline
+    old: e0a08ead47748a0b0beb65730beb057ff6e30864
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/cmpwait
+    old: 004ca4f1755368bd677aec7ffbbfb5c2fb43efbe
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/debug-list
+    old: 3b1dc288d5acbec37e1b2ac2936d69476655fda9
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/faultaround
+    old: 5857c9209ce58f8e262889539ccdf63e73ad7a93
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/kvm/ffa-proxy
+    old: 4e1ff6eb985e8801d81fce7d956f67d41e427d0e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/map-stack
+    old: c5bd352a645740e64d0903bdddeb09c998e8b8ef
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/misc-patches
+    old: 6defc8868641e03681b57fe1b8e5a00068815b9a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pcpu-wakeups
+    old: c25dcc6fdf9e2aca891ddc59df0d5a8b9b11e52f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/restricted-dma
+    old: c1376d63544e23988ed5f04a3484b64db43d8693
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/ssa-reverts
+    old: f1b4d570d0afa2d3ae690959edf50375b15db0f6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/swiotlb
+    old: 8b87725c7c7460966c3c0058d4875588edc38d47
+    new: 0000000000000000000000000000000000000000
