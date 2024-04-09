@@ -1,30 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 09 Apr 2024 18:07:48 -0000
-Message-Id: <171268606877.31232.17388070579109235287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
+Date: Tue, 09 Apr 2024 18:15:18 -0000
+Message-Id: <171268651836.4995.16366229311091342293@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/lenb/linux
+user: lenb
 changes:
-  - ref: refs/heads/for-linus
-    old: e50729d742ec364895f1c389c32315984a987aa5
-    new: 306b38e3fa727d22454a148a364123709e356600
+  - ref: refs/heads/turbostat
+    old: 08af4a5fc5c22153fa5d7479c8a4e14e1a832758
+    new: a2c8df171dd2310379455ef6bb2626da165c5ee3
     log: |
-         4b9a474c7c820391c0913d64431ae9e1f52a5143 ASoC: acp: Support microphone from device Acer 315-24p
-         103abab975087e1f01b76fcb54c91dbb65dbc249 ASoC: rt5645: Fix the electric noise due to the CBJ contacts floating
-         306b38e3fa727d22454a148a364123709e356600 ASoC: dt-bindings: rt5645: add cbj sleeve gpio property
-         
-  - ref: refs/heads/for-next
-    old: f8ac8a4f7b8051123a81f92d20e072c17537dac1
-    new: d1c2170441e94039e10370f1cd2f25362d2327e1
-    log: |
-         4b9a474c7c820391c0913d64431ae9e1f52a5143 ASoC: acp: Support microphone from device Acer 315-24p
-         103abab975087e1f01b76fcb54c91dbb65dbc249 ASoC: rt5645: Fix the electric noise due to the CBJ contacts floating
-         306b38e3fa727d22454a148a364123709e356600 ASoC: dt-bindings: rt5645: add cbj sleeve gpio property
-         d1c2170441e94039e10370f1cd2f25362d2327e1 Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
+         05a2f07db8883b027c0b4a475fcc586278922b8d tools/power turbostat: read RAPL counters via perf
+         17d1ea136be86f53be0461b0c33daf6b58e6cbf7 tools/power turbostat: Add selftests
+         bb5db22c13125b38b0740e19c18ae94f8e5a0eb6 tools/power/turbostat: Enable MSR_CORE_C1_RES support for ICX
+         4e2bbbf78cf7144204214fd0bd7cca309acd8f89 tools/power/turbostat: Cache graphics sysfs path
+         de39d38c06eb047954c5ad20a3f9acb6d3c78498 tools/power/turbostat: Unify graphics sysfs snapshots
+         60add818ab2543b7e4f2bfeaacf2504743c1eb50 tools/power/turbostat: Fix uncore frequency file string
+         e2cc0310e4234393771acfa6e5eadb6774af3dab tools/power/turbostat: Introduce BIC_SAM_mc6/BIC_SAMMHz/BIC_SAMACTMHz
+         5a259efb33bc9f08c55ce5e6540b42afbaf1d916 tools/power/turbostat: Add support for new i915 sysfs knobs
+         5fdce34e76e4bd0726e9afb15a637da5c4b1b2b6 tools/power/turbostat: Add support for Xe sysfs knobs
+         a2c8df171dd2310379455ef6bb2626da165c5ee3 tools/power turbostat: v2024.04.08
          
