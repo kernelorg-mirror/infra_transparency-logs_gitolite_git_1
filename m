@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3618157120094721536=="
+Content-Type: multipart/mixed; boundary="===============0116332596693258775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 09 Apr 2024 04:25:48 -0000
-Message-Id: <171263674888.11624.4598920440979408509@gitolite.kernel.org>
+Date: Tue, 09 Apr 2024 04:27:00 -0000
+Message-Id: <171263682093.12127.14277775832585378214@gitolite.kernel.org>
 
---===============3618157120094721536==
+--===============0116332596693258775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: a8e949d41c72a0a860b1c3571d6b274e9b77b6bb
+  - ref: refs/heads/opp/linux-next
+    old: 13c8cf339e1a7a3d3e48fdebbb882b3a5a90f708
     new: 4cece764965020c22cff7665b18a012006359095
-    log: revlist-a8e949d41c72-4cece7649650.txt
+    log: revlist-13c8cf339e1a-4cece7649650.txt
 
---===============3618157120094721536==
+--===============0116332596693258775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8e949d41c72-4cece7649650.txt
+Content-Disposition: attachment; filename=revlist-13c8cf339e1a-4cece7649650.txt
 
-ca7e917769121195bae45d4886f6e24efd6f99ae Merge tag 'x86-apic-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8b6d307f4391c20cfd76bbb15f8b3784d36e0755 net/netlink: Add getsockopt support for NETLINK_LISTEN_ALL_NSID
-76839e2f1fded42382ac7bad215cd9e9c293e97d net/packet: Add getsockopt support for PACKET_COPY_THRESH
-84e95149bd341705f0eca6a7fcb955c548805002 nfp: flower: handle acti_netdevs allocation failure
 eaf657f7adba8984509db7403ac6bdaa219e5722 devlink: Add comments to use netlink gen tool
 720c857907530e6cdc86c9bc1102ea6b372fbfb6 Merge tag 'x86-fred-2024-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
@@ -568,6 +564,10 @@ e5eb28f6d1afebed4bb7d740a797d0390bd3a357 Merge tag 'mm-nonmm-stable-2024-03-14-0
 ed1ff2fba7afa7baca7ceb93824a4699130b8377 Merge branch 'for-6.9/cxl-einj' into for-6.9/cxl
 215b2bf72a05d702287fc45d854b4f5019f9aad1 xfs: fix dev_t usage in xmbuf tracepoints
 0c6ca06aad84bac097f5c005d911db92dba3ae94 xfs: quota radix tree allocations need to be NOFS on insert
+d2399501c2c081eac703ca9597ceb83c7875a537 cpufreq: dt: always allocate zeroed cpumask
+480c64ae1c36b999a863174e94e825705390642f Merge branch 'opp/boost-data' into cpufreq/arm/linux-next
+a897575e79d7a2ec79abe942b50ecd1d1cdd821b firmware: arm_scmi: Add support for marking certain frequencies as turbo
+a8e949d41c72a0a860b1c3571d6b274e9b77b6bb cpufreq: scmi: Enable boost support
 748c7ebac8dbcf54c2840a9a74fc9efeb4d76b7f fbdev: uvesafb: Convert sprintf/snprintf to sysfs_emit
 974191720ae76ba3613c4aa2301c297b4de27e46 fbdev: mb862xxfb: Fix defined but not used error
 bc87bb342f106a0402186bcb588fcbe945dced4b fbdev: viafb: fix typo in hw_bitblt_1 and hw_bitblt_2
@@ -1051,4 +1051,4 @@ b136f68eb00d898e8f5549d86cc87e8a9e4185f2 Merge tag 'sched-urgent-2024-03-24' of 
 ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4cece764965020c22cff7665b18a012006359095 Linux 6.9-rc1
 
---===============3618157120094721536==--
+--===============0116332596693258775==--
