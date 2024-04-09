@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 09 Apr 2024 11:28:14 -0000
-Message-Id: <171266209429.11920.10389990465853336742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 09 Apr 2024 11:30:58 -0000
+Message-Id: <171266225875.14704.17186985540902899500@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/vfs.misc
-    old: 8951421d83a7940ffb09a848ed4dfeea319effc3
-    new: 27a838e027e7fca274675ba21eeedb93b9425f3e
+  - ref: refs/heads/main
+    old: d2fd6cf39a14283da1a6892438f9685ddd93a387
+    new: 220d63f249ecfa71a9b89dd232383506b56d0073
     log: |
-         27a838e027e7fca274675ba21eeedb93b9425f3e fs: move FMODE_UNSIGNED_OFFSET to fop_flags
+         220d63f249ecfa71a9b89dd232383506b56d0073 dt-bindings: net: rockchip-dwmac: use rgmii-id in example
          
