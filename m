@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 09 Apr 2024 03:20:07 -0000
-Message-Id: <171263280772.26617.12495874477185080637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Tue, 09 Apr 2024 03:27:26 -0000
+Message-Id: <171263324610.30904.3506653574384259160@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/main
-    old: 7e68708b91da7be3fd540b13e3a9a9842c350c09
-    new: b46f4eaa4f0ec38909fb0072eea3aeddb32f954e
-    log: |
-         f96f700449b6d190e06272f1cf732ae8e45b73df net: ks8851: Inline ks8851_rx_skb()
-         be0384bf599cf1eb8d337517feeb732d71f75a6f net: ks8851: Handle softirqs at the end of IRQ thread to fix hang
-         b46f4eaa4f0ec38909fb0072eea3aeddb32f954e af_unix: Clear stale u->oob_skb.
-         
+  - ref: refs/tags/md-6.9-20240408
+    old: 0000000000000000000000000000000000000000
+    new: fcf3f7e2fc8a53a6140beee46ec782a4c88e4744
