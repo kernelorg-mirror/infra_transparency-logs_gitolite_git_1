@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 09 Apr 2024 03:20:04 -0000
-Message-Id: <171263280453.26523.13220476766211626682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 09 Apr 2024 03:20:07 -0000
+Message-Id: <171263280772.26617.12495874477185080637@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 39f59c72ad3a1eaab9a60f0671bc94d2bc826d21
-    new: 87c33315af380ca12a2e59ac94edad4fe0481b4c
+    old: 7e68708b91da7be3fd540b13e3a9a9842c350c09
+    new: b46f4eaa4f0ec38909fb0072eea3aeddb32f954e
     log: |
-         775d2e2b302897931ab7417b1da747bba7831a0b archnet: Convert from tasklet to BH workqueue
-         87c33315af380ca12a2e59ac94edad4fe0481b4c net: phy: air_en8811h: fix some error codes
+         f96f700449b6d190e06272f1cf732ae8e45b73df net: ks8851: Inline ks8851_rx_skb()
+         be0384bf599cf1eb8d337517feeb732d71f75a6f net: ks8851: Handle softirqs at the end of IRQ thread to fix hang
+         b46f4eaa4f0ec38909fb0072eea3aeddb32f954e af_unix: Clear stale u->oob_skb.
          
