@@ -1,59 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2069927082804818928=="
+Content-Type: multipart/mixed; boundary="===============7049927007063993215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 09 Apr 2024 13:06:36 -0000
-Message-Id: <171266799674.22814.14493894988382385159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 09 Apr 2024 13:06:47 -0000
+Message-Id: <171266800778.22980.12280655934811109435@gitolite.kernel.org>
 
---===============2069927082804818928==
+--===============7049927007063993215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: b2c37f6e3b08a04c2844ae93740c2ca08350cc2d
-    new: 9cb83ed19b35e6c596b4e6644708ac4e011f32ab
-    log: |
-         9cb83ed19b35e6c596b4e6644708ac4e011f32ab ASoC: Intel: sof_rt5682: Fix uninitialized variable in probe
-         
-  - ref: refs/heads/asoc-6.9
+  - ref: refs/heads/for-6.9
     old: fec50db7033ea478773b159e0e2efb135270e3b7
-    new: e50729d742ec364895f1c389c32315984a987aa5
+    new: 7ab681ddedd4b6dd2b047c74af95221c5f827e1d
     log: |
-         7a1625c1711b526a77cb9c3acc15dbba71896a40 ASoC: Intel: avs: Fix debug window description
-         2e93a29b48a017c777d4fcbfcc51aba4e6a90d38 ASoC: tegra: Fix DSPK 16-bit playback
-         e50729d742ec364895f1c389c32315984a987aa5 ASoC: Intel: bytcr_rt5640: Apply Asus T100TA quirk to Asus T100TAM too
+         7ab681ddedd4b6dd2b047c74af95221c5f827e1d regulator: irq_helpers: duplicate IRQ name
          
 
---===============2069927082804818928==
+--===============7049927007063993215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1712667995 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1712667994-93e2d31188bae88e7c2e4ec0017280bc77e1161d
+pusher C3F436CA30F5D8EB 1712668006 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1712668005-fc498e8671dd06e9e38964835747dfc2b8d25c50
 
-b2c37f6e3b08a04c2844ae93740c2ca08350cc2d 9cb83ed19b35e6c596b4e6644708ac4e011f32ab refs/heads/asoc-6.10
-fec50db7033ea478773b159e0e2efb135270e3b7 e50729d742ec364895f1c389c32315984a987aa5 refs/heads/asoc-6.9
+fec50db7033ea478773b159e0e2efb135270e3b7 7ab681ddedd4b6dd2b047c74af95221c5f827e1d refs/heads/for-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYVPVsACgkQJNaLcl1U
-h9D+MAf/cH3NXxskIayaM28Y/q5vwN2feXLDnZiiu8bU9lMwzG+hisNDRadY0r77
-CAWOga8kWWIH135GmpJj0YmzOUeYfak9YbcMjg9wHLot7V5kXDFgwNkK4T1s2Lxo
-SQKbkNTHHimTep7yFfJTOogVxbx32BhnhCBd/UG0hG2jqfRCRMNZctOBrBtkoWfn
-wPqoiZw+dTZKOjstNCfNvfda+vEJbnfUmqFUQaFo0Wv63sbyLiu9X2Fuh1VA5Vdh
-JY9HO29lf0mL9zdNRi61kFo0PawlplZhCd9Bq221Gsu97CKpCc5Eg03EVr6vkOwj
-BwIr6VtZ7K6JiAdvfG3CgW5zTyx4vw==
-=GIJX
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYVPWYACgkQJNaLcl1U
+h9Dx1Qf+IpIA6ipBM8csR50DYtnizJ/xiJ1EaZp/ujmwJesNlbqLlTVEk3YsjkBw
+6N1/9Wuah7Z8JrSSW4OxZvdh3cN6DSDKMJzNI4lnlkiYkaznTsEYNxP+HDHj/Ar9
+PJEDhMZXRJpC0m/jqwQK6UJttibVwIU0GYM840V4klbPkacfMUjABhoJQRO4IY+s
+W+Tg6DvvwCNpDH+0/36BHXrN9yCeS3e6dCAHhnENAmZ8njSfUoq/X6d3rnm2wRkb
+VFkluiuCD+K8lm+THFYaU1ZuzkN3//TYSqIwQPx0mYyh45jRhaFCs4A8T+2msJO+
+GeVNFlN45kfwugUJ/KsYN1d7/YiOfw==
+=VncA
 -----END PGP SIGNATURE-----
 
---===============2069927082804818928==--
+--===============7049927007063993215==--
