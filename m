@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 09 Apr 2024 20:02:52 -0000
-Message-Id: <171269297276.22147.2627614009637692761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 09 Apr 2024 20:06:26 -0000
+Message-Id: <171269318655.25076.2088613198853711612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/auto-update-info
-    old: 483cc89ab6327a25c8970bff77ed12fba3ee1045
-    new: aa36b113679a828ae3f9f896626ba26d55aab30e
+  - ref: refs/heads/dev
+    old: bf6a3f00ca960c24b0d1aec29e1e5594a2ee47e8
+    new: a4679970e665494530de9a02edfcb8fe58b7929d
     log: |
-         8bedaae069d3232435204bbc492e2f8da82d6337 firmware: microchip: support writing bitstream info to flash
-         ef206a7b5cad0ae2074305261ae133df5c179e61 firmware: microchip: don't unconditionally print validation success
-         2e55a348940b11a290ad70e2216d3dbba7b649d6 firmware: microchip: clarify that sizes and addresses are in hex
-         a3bd345a5a87dfe13ba560063ec7d59ca3e75e12 firmware: microchip: move buffer allocation into mpfs_auto_update_set_image_address()
-         aa36b113679a828ae3f9f896626ba26d55aab30e firmware: microchip: use scope-based cleanup where possible
+         5ce4d0efe11fd101ff938f6116cdd9b6fe46a98c Documentation/litmus-tests: Make cmpxchg() tests safe for klitmus
+         04dd6f5ec60a2b6dda3307528fef49a18c37832f squash! EXP arch/x86: Test one-byte cmpxchg emulation
+         a4679970e665494530de9a02edfcb8fe58b7929d rcutorture: Make rcutorture support srcu double call test
          
