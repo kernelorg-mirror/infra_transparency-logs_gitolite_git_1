@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5916928382118091057=="
+Content-Type: multipart/mixed; boundary="===============5238133615997914312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 09 Apr 2024 13:29:14 -0000
-Message-Id: <171266935408.8409.3570408243938858572@gitolite.kernel.org>
+Date: Tue, 09 Apr 2024 13:32:27 -0000
+Message-Id: <171266954783.11312.1811209344126400388@gitolite.kernel.org>
 
---===============5916928382118091057==
+--===============5238133615997914312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,60 +17,46 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: fec50db7033ea478773b159e0e2efb135270e3b7
-    new: e51c3e1d236f8b0ea9e839f8f1f83aa31e0ce1e8
-    log: revlist-fec50db7033e-e51c3e1d236f.txt
+    old: e51c3e1d236f8b0ea9e839f8f1f83aa31e0ce1e8
+    new: 5c3a766e9f057ee7a54b5d7addff7fab02676fea
+    log: |
+         f03e8c1060f86c23eb49bafee99d9fcbd1c1bd77 printk: Save console options for add_preferred_console_match()
+         8a831c584e6e80cf68f79893dc395c16cdf47dc8 printk: Don't try to parse DEVNAME:0.0 console options
+         b73c9cbe4f1fc02645228aa575998dd54067f8ef printk: Flag register_console() if console is set on command line
+         787a1cabac01c99846070fcf702e53befaf89f79 serial: core: Add support for DEVNAME:0.0 style naming for kernel console
+         a0f32e2dd99867b164bfebcf36729c2a0d41b30b serial: core: Handle serial console options
+         a8b04cfe7dad84e65df5996e14b435fd356fe62c serial: 8250: Add preferred console in serial8250_isa_init_ports()
+         5c3a766e9f057ee7a54b5d7addff7fab02676fea Documentation: kernel-parameters: Add DEVNAME:0.0 format for serial ports
+         
 
---===============5916928382118091057==
+--===============5238133615997914312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712669343 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712669544 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1712669333-b3df12123c57dc57bb062d1ebc1d4017c6f9c2f8
+nonce 1712669542-fe0115db9c6f5bb1be2398d8a07233d80b17ac0c
 
-fec50db7033ea478773b159e0e2efb135270e3b7 e51c3e1d236f8b0ea9e839f8f1f83aa31e0ce1e8 refs/heads/tty-testing
+e51c3e1d236f8b0ea9e839f8f1f83aa31e0ce1e8 5c3a766e9f057ee7a54b5d7addff7fab02676fea refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYVQp8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1CwP/2S/kwaV6q1KZvE1z3n1
-IR7tartmNtKPfU3IZYNYNesoyLdaRmd5ao81JHB0L5L5rw4TGAmlv3arn4/4/MmB
-PAxlJOGP3SguaqEoyoBkFncFx4OS9AtEQCl7JYPfkaN9W427NCReZn2A7uxa1D9v
-opUfR3kPYfGpK3b9U1cR0nVB9qSufnnYZHXyuNVZa3/4ySNOnCvQvono5FqUI8+k
-uTcDtGfjyjW/y+7wvXN5n5HvAzgR3e4oyzueATLpXkGRP3NMKYlaW+a2T4Up/CDv
-5TqsqcWyIqjUdMgxQPc4ayMFb4po3phlu7vg3JDMEBZaFE3QE3wWaHm++7Z2D3Q9
-QxT+jw8Q5edQxiZW0jh6szcZ9C1eG9j39mgp2wWYksEUeEfCM3PHiZyvkirY6lSn
-RtNv5t3e9ckpjidsK3tFebyZYR5uGj1pMDFrJD+CNivzvb0vqyUWWZzAvTFtamml
-ep6R8cmqeA3FNIM7YrISmCb6bMQOAd+nfRDa76xlgFK3euTqE+zRQBKXdvYA0qw6
-PheDdU7RTqbGaYJh2yP3aXDvV7COOjjNDe2CUfDNDkSabqXQ3LbBty6jqyIL0Z0A
-nHISaiYCJMYLC6qBGXjZ9z/gvsmhJcw5D6lcdjP96bf2JdF1Yt+e4YRPyMq/zT/X
-hVNd7Mwrsy6zxIxUOdx4/r44
-=aaZs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYVQ2gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B3gQALB7THY3EGbQkIF/kT+x
+3a6OJ+gvJOye/ND1McP0l7M9Jy4PrxazR0zWBjUczY7J1gMDH3rYKJfK+sKSFael
+Ptk9zo6oyZ1SxExUZL741bAPQlzhs86VMzYEWYfs8sDCTn53HspSoGLx3tO9NaeR
+2EOXjJN5XrFAu3DccZ9OeULRyj1p8U2rAztuQ+JnpVoIqmXPEyKsF/XMdCckIAMi
+fCRqjegXTAvKwbr9xfcMiMc8MfIb+DEoz1RwfWiHtE9Mdl3uXzcenAty+BNnuxEj
+uPp6enpls/QQ5alM9D4qNlU88oIkXn2aQFqmIWAh612ROPYO4OtTwFVb46ef9U6B
+4nW3AWBBNXW0vPkqzIl7T+7a8794nislkjd84L8N9qignsAqSJoG8d7FekyuoBk/
+ew8e37ys8+Wq1BvroBV0KaH1XB+gxmX9Z6KzSgilhWMycXw+bdKyIu2G+/rEgq+I
+I2FffA06HuQKUuWSRLc/pvLyyJ8uqEBxg9RquzZUzW1Gv4PcbbvVtEgxjwwtwCQG
+Tn0G9TSaxS0RJ636Bq6uwfDty44wLGRx3/W27UsUlaHdAhNmY2Z434K6ThmUYyon
+jv81hKId/pc2UvgvfRhVtkB0UpQgcDaW1ZhNMm4CZq3Dduk9il++OyQtOfmqEhkO
+PZwJcdgVjV1KW4K3KZMwvWk9
+=weWs
 -----END PGP SIGNATURE-----
 
---===============5916928382118091057==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fec50db7033e-e51c3e1d236f.txt
-
-779087fe2fecf8b8aa7bdd69982f9c0c8266927b kfifo: drop __kfifo_dma_out_finish_r()
-76738194be605c9fb279f87d8a6b0b95904bfb60 kfifo: introduce and use kfifo_skip_count()
-4edd7e96a1f159f43bd1cb82616f81eaddd54262 kfifo: add kfifo_out_linear{,_ptr}()
-e9d9576de08ac65d2c973ef7ce542338d2da94f9 kfifo: remove support for physically non-contiguous memory
-ed6d22f5d8672f38d6020c719d5d658a4e3e6be5 kfifo: rename l to len_to_end in setup_sgl()
-fea0dde081621e25bcf7efd40cce6c8272e3aa13 kfifo: pass offset to setup_sgl_buf() instead of a pointer
-d52b761e4b1acc897e65bcc8eff42b0537ac0134 kfifo: add kfifo_dma_out_prepare_mapped()
-2ab682d221551d5eb9606dad1efa01e184de7b00 kfifo: fix typos in kernel-doc
-8192fabb0db269a4130d8cbdd8557a47bfa1ffec tty: 8250_dma: use dmaengine_prep_slave_sg()
-9054605ab8468936a514298211d9e9bb68bf24bd tty: 8250_omap: use dmaengine_prep_slave_sg()
-f8fef2fa419febbfed2d04f0518111565df2673d tty: msm_serial: use dmaengine_prep_slave_sg()
-1788cf6a91d9fa9aa61fc2917afe192c23d67f6a tty: serial: switch from circ_buf to kfifo
-b9cea51b65abecb4dc327a19ab58e6fb116e7e85 tty: atmel_serial: use single DMA mapping for TX
-12bedddb67520d38274ae9163338a125c24732bb tty: atmel_serial: define macro for RX size
-e51c3e1d236f8b0ea9e839f8f1f83aa31e0ce1e8 tty: atmel_serial: use single DMA mapping for RX
-
---===============5916928382118091057==--
+--===============5238133615997914312==--
