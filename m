@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2367530796947449668=="
+Content-Type: multipart/mixed; boundary="===============4210029050937680534=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 09 Apr 2024 03:01:19 -0000
-Message-Id: <171263167945.11190.14472817782167670319@gitolite.kernel.org>
+Date: Tue, 09 Apr 2024 03:01:35 -0000
+Message-Id: <171263169542.11391.16613291341805624551@gitolite.kernel.org>
 
---===============2367530796947449668==
+--===============4210029050937680534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 3b754e18b1931d1624eb768b42126beb4f21e950
-    new: 2631095165f87322ed58b17c958314960ed46268
-    log: revlist-3b754e18b193-2631095165f8.txt
+  - ref: refs/heads/6.10/scsi-queue
+    old: 0ff10cb7f81818120b15ddd5d24e09c4af31e04d
+    new: 28fc2bd2c7298d647fcbab7b11532a1f5fda7470
+    log: revlist-0ff10cb7f818-28fc2bd2c729.txt
 
---===============2367530796947449668==
+--===============4210029050937680534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1712631666 -0400
+pusher 75C5DE3D 1712631682 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1712631666-ca99e517f4c86198ef30ed28fc9d6187de98d913
+nonce 1712631682-07dd4f7772ff8c436c92a31fe7973fbfad25aeaa
 
-3b754e18b1931d1624eb768b42126beb4f21e950 2631095165f87322ed58b17c958314960ed46268 refs/tags/mkp-scsi-queue
+0ff10cb7f81818120b15ddd5d24e09c4af31e04d 28fc2bd2c7298d647fcbab7b11532a1f5fda7470 refs/heads/6.10/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYUr3IACgkQ7ulgGnXF
-3j2fiQ/9FvRP1Pl2x4M3Ak1ul+JhxtWRxjcw9WpXJPHaGYDEhBqWe8ZSHHppTBOM
-3CNuSHEYM0ixsI71T0D84aLEF0wyXCBgzP92Fc+s9RkCVuvaDiEZfgMYbDIbzRJ+
-qp2gQqr++oBOosfhIlSpvXHV+OlREiLqD+kU9yk79NZLSBxkmadlCc3f2enCSU3T
-wO1WEtuHoBAmk7Yi0CywXe2dLuZiAunaLu6UBru6QL/NgTGE9M4g7mIIp0n7we3b
-MUNtBB9eBz3fgm5NZ0eZIbcksk/oFdKTcqSmWNQoPU3GhFzBMZ58LcgxB1fHzdub
-bmvml9vLVsRww5BE1K/8OS4+cUyp3vqWjBhnJ0zWbGrtvuHt4aXYhoMLrrt9lXI6
-ogIaknRLzCKGxvkm6/ObGchg776vC2dZ84zAhbobX6kZ11ZCqAPhI1pajVqbT0+v
-/WeQ3i2d2bT+xYGcCjhjGUsJA+NhksKVxDf1nF2DS3mREQ7jy3nGLTomrTfImmVU
-pEWbG4rxlK5zXqKRnoOLME4xFp7zslb7K7SdV4CdGAibVvhGBCCLEcsni/xuHeyG
-U7l0MDgZxIdAOEJggwKjkvUDfKb5XmGt5kDzPkzgnobJL06xtQMmSilgLpC+iZwq
-8Ccd7Ql4AcTRMAW2caXJa6yGuoMJpQPIaywjjThOP6UO0JLXoaU=
-=Db1e
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYUr4IACgkQ7ulgGnXF
+3j0iOg/9GAjtRsWDiRqn1VOLYbaRGN86KPmeMwermKVfewKKZPB4YtkQu1dgEo46
+Ycj8qA6taZaJdzkc1d3uzpaBGfbNGIw4SORpNaQbhhub89wU/veUOVrR69UQQ6WU
+OpVu1hhLNzKRvpd1W9bIgS3nERW7gAz1kLRzvhsRqUdtwbA/64UspLsgIX130ZLg
+4RZ9PmWm2uQau9TPDFXI1LXvc6AXF+OP+NqWERerd+mP88Cw5ITwliovNzJFw621
+yQ1nxm6AGQqf2a3Ssj3eMA1JLj1LnOqdt2TBpROgzWGswKkNGd0aF85deVX1nM9B
+dJWIGFibz+GgGee9kUmhoq4oRsKmKJ0l8kx+KV5hYHK2Ix+hbO53HfIv6y5pTgBr
+MfpiNGj0EMynOMaKK0+gxkMXIQUdIco7F+EEMGc484d5qCefRPxRZHP3x50jH6H8
+MVPZZTnVrJcbopyNbJ7EYCg435YC1dWS4WOEj0cMFMdk0h+QSjepfxL9pEB9bzV4
+RiUDNOEsry8yJTLhQKFCT2UTPC1t65R5sIEKQ0Bu4M4sJ/ToUJiazD4AtIYtG31v
+0J+6PjYvtr65FgVp3PLti/Zoi7qC3jrPjaGg0T+KRIYYB6GwYUyXZtsXifv4Xh34
+VEI9VU4qTfewZ2LEReSk+M4UvAd2+cX5Aj8wFsR//WnhM7DdiJk=
+=JCQd
 -----END PGP SIGNATURE-----
 
---===============2367530796947449668==
+--===============4210029050937680534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b754e18b193-2631095165f8.txt
+Content-Disposition: attachment; filename=revlist-0ff10cb7f818-28fc2bd2c729.txt
 
 ca0e1b9afbc93e1c189e420030d8bd489972a2a4 scsi: csiostor: Drop driver owner assignment
 4e64bbba5352382feb2b6041b26eeb69e96949a9 scsi: qla2xxx: Drop driver owner assignment
@@ -84,4 +84,4 @@ bb8520996fe1482d6104b2212aba966de49ba2b2 scsi: atari_scsi: Mark driver struct wi
 33507b3964f136ea1592718cb81885c8f9354f65 scsi: ufs: qcom: Add sanity checks for gear/lane values during ICC scaling
 28fc2bd2c7298d647fcbab7b11532a1f5fda7470 scsi: cxlflash: Fix function pointer cast warnings
 
---===============2367530796947449668==--
+--===============4210029050937680534==--
