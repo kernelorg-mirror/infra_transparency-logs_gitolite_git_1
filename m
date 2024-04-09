@@ -1,59 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4533441437054702365=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 09 Apr 2024 15:08:29 -0000
-Message-Id: <171267530977.19022.7110798028581176140@gitolite.kernel.org>
-
---===============4533441437054702365==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/will/kvmtool
+Date: Tue, 09 Apr 2024 15:12:32 -0000
+Message-Id: <171267555279.22398.545554722740685333@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/will/kvmtool
+user: will
 changes:
-  - ref: refs/heads/tty-testing
-    old: 4fe952c141b285ca0b379c93c9c6c69d7240a495
-    new: fff4a5d5609db86ccdf1cf5791b7651b7f6a9b19
+  - ref: refs/heads/master
+    old: 4d2c017f41533b0e51e00f689050c26190a15318
+    new: da4cfc3e540341b84c4bbad705b5a15865bc1f80
     log: |
-         838022def8ef2b676d6f3c19cad9185ce8046008 serial: amba-pl011: get rid of useless wrapper pl011_get_rs485_mode()
-         255abd49f18533300bc5f20d7dce77a0a4479f58 serial: amba-pl011: move variable into CONFIG_DMA_ENGINE conditional
-         384fa8647dc55ab47515bbb76ebda37b2350e5b3 serial: 8250: Remove superfluous sanity check
-         fff4a5d5609db86ccdf1cf5791b7651b7f6a9b19 serial: ar933x: Remove unneeded static structure
+         9968468141fc441d2bc9891ea59ae09eb1e358bf Sync-up headers with Linux-6.8 for KVM RISC-V
+         f8c9614c4696ac6df435e5ac63381ec558527369 kvmtool: Fix absence of __packed definition
+         8b4cc7051393bddb1939c6636da91fb17cf1e39e riscv: Add Zbc extension support
+         d9052a965a22a3a2b96668222e384fb5d1747664 riscv: Add scalar crypto extensions support
+         65b58f723ec3898a36a37a60449b2cad22360fa5 riscv: Add vector crypto extensions support
+         bd7f13c1a19fb6386724a9c12814850f21f7db08 riscv: Add Zfh[min] extensions support
+         fce2865286b5a44dd8ea6a5d37b3c3e8c98545c3 riscv: Add Zihintntl extension support
+         5a64c1eadf79826853f3dad92c69f9d690151e11 riscv: Add Zvfh[min] extensions support
+         9cf213d609bcf7958325efacd97ca07e2bffe11a riscv: Add Zfa extensiona support
+         d38c8f76ebe20c94329cb75aeb21eb061e975798 riscv: Allow disabling SBI STA extension for Guest
+         da4cfc3e540341b84c4bbad705b5a15865bc1f80 x86: Fix some memory sizes when setting up bios
          
-
---===============4533441437054702365==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712675307 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1712675307-bea26201748c44a1aa6778ebd34b514365eb56c0
-
-4fe952c141b285ca0b379c93c9c6c69d7240a495 fff4a5d5609db86ccdf1cf5791b7651b7f6a9b19 refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYVWesbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m1EQAJsLtplEP3egeILsvsNj
-xGAGmUVHdbXUcnoIlFUcHyQ6anKujLMzuYWSOiDFaCGUMG9g9TDNsAx7H/+//fni
-5ANI0cIV4zkhbyag16q7wRSRQWOi693sv8GNWS7656j6CMV3H14Gv9x4dlYFzrCU
-82nhQOCPqZ6pBPlFgG2dDONWhnlXDj5OZALPjz94wMqCa39POE7ymYst7FYN3Jiz
-a0P/nPIHx6MAX1LsrurWh83kDqLbhqe9+gUNMTgopFjR0Hj06VRiWJ1disdQnOIt
-HTFRxf/PjTVf1ulnkx/CzY0GLWTJymef4z36gBuY/5BLPKPSyYkfvg7HkZYrUS1O
-gQbNTsoyte5qMvFCegqUlvWJIcIT0UvPgQUSOl0ORlMTgQ09XBZIgO59gByEn8hV
-4Hx6fvbr4rSfaXknzxhgGEt3OTgyg43CbhhPdckf+SkkKIJDlJXCljt4fCrJc2qO
-IDjVUH/28qjbKMM8nMMlsLyHNoFF9WM5K+9dvu01sy5YwgvuVu0SAaD2jLsFq9YQ
-hHfkQ8r4L6FqdHo5TrJ1Du7nZ7hdz/dFGZChR68NLEIFT0Wnsh2OMx1H78oNb0zK
-SUtqjZ7/uchYiGhopspnbdoTh40bJFPj+rt1XNsmanT7E4KkOvI972DJ8p9EIrYn
-utyw8B4mNrar8vZm6K7A2o/I
-=fIlC
------END PGP SIGNATURE-----
-
---===============4533441437054702365==--
