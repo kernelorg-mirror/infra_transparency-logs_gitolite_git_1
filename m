@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Tue, 09 Apr 2024 12:55:34 -0000
-Message-Id: <171266733480.14733.16492165184993645701@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 09 Apr 2024 13:04:15 -0000
+Message-Id: <171266785575.19617.1035645311933676586@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-user: andy
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 16934de47da778f0861057df98b08058e0935a5c
-    new: c352a04107264ff5ec3c38db044137cd99c4ba55
-    log: |
-         c352a04107264ff5ec3c38db044137cd99c4ba55 auxdisplay: seg-led-gpio: Convert to platform remove callback returning void
-         
+  - ref: refs/heads/20240408_pierre_louis_bossart_asoc_sof_misc_fixes
+    old: 0000000000000000000000000000000000000000
+    new: 17f4041244e66a417c646c8a90bc6747d5f1de1e
