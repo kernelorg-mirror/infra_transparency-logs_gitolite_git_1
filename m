@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 10 Apr 2024 19:05:17 -0000
-Message-Id: <171277591797.7530.13819701570647198843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
+Date: Wed, 10 Apr 2024 19:14:00 -0000
+Message-Id: <171277644048.13973.8785787244505631700@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
+user: vudentz
 changes:
-  - ref: refs/heads/kdevops
-    old: b4f1b6c2f27e247de5cb4d1c826d491d7dd6aee9
-    new: e5f3bb980b78e3a73bfb649bef2a3f2e92be34b1
+  - ref: refs/heads/master
+    old: b2186061d6043d6345a97100460363e990af0d46
+    new: 600b0bbe73d3a9a264694da0e4c2c0800309141e
     log: |
-         e5f3bb980b78e3a73bfb649bef2a3f2e92be34b1 DEBUG: figure out what's setting XPT_BUSY
+         600b0bbe73d3a9a264694da0e4c2c0800309141e Bluetooth: l2cap: Don't double set the HCI_CONN_MGMT_CONNECTED bit
          
