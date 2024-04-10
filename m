@@ -1,23 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 10 Apr 2024 21:16:14 -0000
-Message-Id: <171278377490.10885.2500862574738667826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/backports/backports
+Date: Wed, 10 Apr 2024 21:24:46 -0000
+Message-Id: <171278428602.15571.16171936223566952054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/backports/backports
+user: hauke
 changes:
-  - ref: refs/heads/main
-    old: 2ecd487b670fcbb1ad4893fff1af4aafdecb6023
-    new: 414e576fb08f108b061cbc1fb964e51ff3467985
+  - ref: refs/heads/master
+    old: 7e70bbef46c5fa861ee229a9f56546f037c59c3e
+    new: c96f36d521450c9ac05d291cf3f46f0fe55edc25
     log: |
-         e59f0e93e92e0ddfd17e3373d586218cf638571e selftests: move bpf-offload test from bpf to net
-         fc50c698c28bcf307dfb14ba9d0b3cacb091c1cb selftests: net: bpf_offload: wait for maps
-         b1c2ce11d42886d08cfa28e38ee07f2b606ced0b selftests: net: declare section names for bpf_offload
-         6ce2b689932ba8288ceef9a82c1caf029b0b23f9 selftests: net: reuse common code in bpf_offload
-         414e576fb08f108b061cbc1fb964e51ff3467985 Merge branch 'selftests-move-bpf-offload-test-from-bpf-to-net'
+         0e80a6661de852abccfbf0a374c2e9151a1ae56e backports: Remove support for kernel smaller than 4.5
+         ccd010faad025aec99ca928cba69cd79c098253d backports: Remove support for kernel smaller than 4.6
+         a94c16c61e59ff0e4e2e14a38056dd4a2c5c58cf backports: Remove support for kernel smaller than 4.7
+         1f0ff63f05dd2fe2d51600bba5075f64f300acf1 backports: Remove support for kernel smaller than 4.8
+         8e25891a9e05833aa5bc93c5f650d55efa713077 backports: Remove support for kernel smaller than 4.9
+         7f0dee0299d0f4e6dec35ab519a75b3d669af202 backports: Remove support for kernel smaller than 4.10
+         2dbdde563d8f68a76bab20368d5e5eb0b10e809b backports: Remove support for kernel smaller than 4.11
+         d2e5f8516905902192665a65b0986704615e5b45 backports: Remove support for kernel smaller than 4.12
+         5d0dc190c34ebc912bd50684bce179ebb3143d57 backports: Remove support for kernel smaller than 4.13
+         c96f36d521450c9ac05d291cf3f46f0fe55edc25 backports: Remove support for kernel smaller than 4.14
          
