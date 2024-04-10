@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 10 Apr 2024 16:35:30 -0000
-Message-Id: <171276693020.25476.4497061583255001672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 10 Apr 2024 16:38:00 -0000
+Message-Id: <171276708021.27807.17480373484674383333@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/tags/hardening-v6.9-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 2b0419d0eea5e59f9c076e84f4ecef5f4f5affd9
+  - ref: refs/heads/master
+    old: df0d03639264c569c629457aba66cfa0b03bcdea
+    new: 75fe062ce2c7d6398e04114deb9149f41efad7a0
+    log: |
+         75fe062ce2c7d6398e04114deb9149f41efad7a0 Bluetooth: add experimental BT_POLL_ERRQUEUE socket option
+         
