@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 10 Apr 2024 13:55:47 -0000
-Message-Id: <171275734713.4849.11236943392281841960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 10 Apr 2024 13:58:16 -0000
+Message-Id: <171275749654.5833.16980150279145955644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/kdevops
-    old: 45b1e6ad8d4c449144a91aa545366030887be6be
-    new: 8ad3b41e0eaad1327e5b89f449e99adcbe45ccec
+  - ref: refs/heads/fixes
+    old: d14fa1fcf69db9d070e75f1c4425211fa619dfc8
+    new: a373a36fb6b024ac1d87fc04c97c75621b574c30
     log: |
-         8ad3b41e0eaad1327e5b89f449e99adcbe45ccec nfsd: delete xprts when server is down
+         6065e736f82c817c9a597a31ee67f0ce4628e948 riscv: Fix TASK_SIZE on 64-bit NOMMU
+         aea702dde7e9876fb00571a2602f25130847bf0f riscv: Fix loading 64-bit NOMMU kernels past the start of RAM
+         a373a36fb6b024ac1d87fc04c97c75621b574c30 Merge patch the fixes from "riscv: 64-bit NOMMU fixes and enhancements"
          
