@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 10 Apr 2024 14:05:25 -0000
-Message-Id: <171275792510.11860.6419447176474762435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Wed, 10 Apr 2024 14:11:58 -0000
+Message-Id: <171275831837.17240.9814008824076410730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: 215c4704208b80922eaf72c4c15a6c87f0b4482a
-    new: df0d03639264c569c629457aba66cfa0b03bcdea
+  - ref: refs/heads/for-next
+    old: 536a82d8362b4e3801cf3ea04767c4dc715cfa1f
+    new: fb3b9c2d217f1f51fffe19fc0f4eaf55e2d4ea4f
     log: |
-         6093f28402aa6342890fc3adb6be355f804b719d Bluetooth: hci_sync: Use advertised PHYs on hci_le_ext_create_conn_sync
-         fd6790ea67ee14b39b5b9ca1cf7a7f77bca56206 Bluetooth: hci_bcm: Limit bcm43455 baudrate to 2000000
-         df0d03639264c569c629457aba66cfa0b03bcdea Bluetooth: ath3k: Fix multiple issues reported by checkpatch.pl
+         fb3b9c2d217f1f51fffe19fc0f4eaf55e2d4ea4f video: logo: Drop full path of the input filename in generated file
          
