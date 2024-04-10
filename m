@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1007476605550150797=="
+Content-Type: multipart/mixed; boundary="===============6211899481054727186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 10 Apr 2024 13:01:49 -0000
-Message-Id: <171275410969.26896.4436637501300593565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 10 Apr 2024 13:02:05 -0000
+Message-Id: <171275412539.27105.3720570108309886325@gitolite.kernel.org>
 
---===============1007476605550150797==
+--===============6211899481054727186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
-    old: 82eaa21f4be09f59181e41af7628d40239da27db
-    new: 9576281eb09da7a1069a5d0f03a12d1c463f6159
-    log: revlist-82eaa21f4be0-9576281eb09d.txt
+    old: 20cb38a7af88dc40095da7c2c9094da3873fea23
+    new: 2c71fdf02a95b3dd425b42f28fd47fb2b1d22702
+    log: revlist-20cb38a7af88-2c71fdf02a95.txt
 
---===============1007476605550150797==
+--===============6211899481054727186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82eaa21f4be0-9576281eb09d.txt
+Content-Disposition: attachment; filename=revlist-20cb38a7af88-2c71fdf02a95.txt
 
-60bed3da3984e0fa6b378530e1e6816f61b778c9 Merge branch into tip/master: 'x86/merge'
-185ba385a59b59e3fdeece961472497f70f7e0a1 Merge branch into tip/master: 'irq/urgent'
-164642b5928d56c78f6f8b5eb95c146c7174c1da Merge branch into tip/master: 'locking/urgent'
-c2ee40259535fd9b836d3a8e739166d485261996 Merge branch into tip/master: 'perf/urgent'
-daf8524c98ebb98fac9524c3e7a16099114c82fe Merge branch into tip/master: 'timers/urgent'
-b9bc4ecf3d3ca55a4a4c3bfb76bc11f24c8e523c Merge branch into tip/master: 'x86/urgent'
-3e134da8a737a24324d9fbfca89ca5b5afdd758c Merge branch into tip/master: 'irq/core'
-dcf7d2d697bf295cd51d48eda9a8de54033d6727 Merge branch into tip/master: 'locking/core'
-93ba2bfbecbddd229ef3b08aca588e7365075e26 Merge branch into tip/master: 'perf/core'
-bf8d4ba062468b505108f8923e1a4fc040cec85e Merge branch into tip/master: 'ras/core'
-2a6956181173bbc06873c60307858f21f665eead Merge branch into tip/master: 'sched/core'
-8d68e9c32c01ee835843289fb32840cad0ebed5d Merge branch into tip/master: 'timers/core'
-75d21f3e6f9e95297491a7fec6a640b8bb237e82 Merge branch into tip/master: 'x86/alternatives'
-817de9d7f836a435a5ae71e93d7b389411dac198 Merge branch into tip/master: 'x86/apic'
-32e45015a9da6c08db11bb10947338a72b1f4020 Merge branch into tip/master: 'x86/asm'
-78c9b4c8082005f644d62cfc9e2b4485b1938006 Merge branch into tip/master: 'x86/boot'
-d481b1ac1e16d8ad18393b2d90d327f311150e26 Merge branch into tip/master: 'x86/bugs'
-5fe7cad97788b9adde31e98c69abf1b7231334b2 Merge branch into tip/master: 'x86/build'
-a03541cf41aca25fb76aaed4df43bdaf3e0c7806 Merge branch into tip/master: 'x86/cpu'
-d90bcada106ff3fb039f103e4e690a37b9a93243 Merge branch into tip/master: 'x86/entry'
-2894df3d8142526dda02848daf244bb6bedcd72a Merge branch into tip/master: 'x86/fpu'
-fdee3c21fad972d4b37f405ef8fcb982a0aee19f Merge branch into tip/master: 'x86/microcode'
-5d73cd7e81cca15552ce22dad8c484eeda81356b Merge branch into tip/master: 'x86/misc'
-6ebe3d839457ea16821d7b8ec77a497c44f05898 Merge branch into tip/master: 'x86/percpu'
-1e5260f64fc4b5e79d583cfa2ec75c2c6513da73 Merge branch into tip/master: 'x86/platform'
-9576281eb09da7a1069a5d0f03a12d1c463f6159 Merge branch into tip/master: 'x86/shstk'
+0cd01ac5dcb1e18eb18df0f0d05b5de76522a437 x86/bugs: Change commas to semicolons in 'spectre_v2' sysfs file
+1e3ad78334a69b36e107232e337f9d693dcc9df2 x86/syscall: Don't force use of indirect calls for system calls
+7390db8aea0d64e9deb28b8e1ce716f5020c7ee5 x86/bhi: Add support for clearing branch history at syscall entry
+0f4a837615ff925ba62648d280a861adf1582df7 x86/bhi: Define SPEC_CTRL_BHI_DIS_S
+be482ff9500999f56093738f9219bbabc729d163 x86/bhi: Enumerate Branch History Injection (BHI) bug
+ec9404e40e8f36421a2b66ecb76dc2209fe7f3ef x86/bhi: Add BHI mitigation knob
+95a6ccbdc7199a14b71ad8901cb788ba7fb5167b x86/bhi: Mitigate KVM by default
+ed2e8d49b54d677f3123668a21a57822d679651f KVM: x86: Add BHI_NO
+2bb69f5fc72183e1c62547d900f560d0e9334925 Merge tag 'nativebhi' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+718c4fb221dbeff9072810841b949413c5ffc345 nouveau: fix devinit paths to only handle display on GSP.
+d7a62d0a9a17e97ce2d4d40431094e09956a0568 compiler.h: Add missing quote in macro comment
+2c71fdf02a95b3dd425b42f28fd47fb2b1d22702 Merge tag 'drm-fixes-2024-04-09' of https://gitlab.freedesktop.org/drm/kernel
 
---===============1007476605550150797==--
+--===============6211899481054727186==--
