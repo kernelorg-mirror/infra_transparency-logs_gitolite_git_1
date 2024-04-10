@@ -1,66 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============3091897871671455545=="
+Content-Type: multipart/mixed; boundary="===============0870731736840131132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 10 Apr 2024 14:14:23 -0000
-Message-Id: <171275846378.18285.5508411183118994226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 10 Apr 2024 14:19:07 -0000
+Message-Id: <171275874701.1034.15942261154641673693@gitolite.kernel.org>
 
---===============3091897871671455545==
+--===============0870731736840131132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/ath-next
-    old: df1f2b947ffa9a44c958bc477c1fc3bb91c4820f
-    new: 4f242b1d6996af14f98cb1093d26cdacd6a83ad7
-    log: revlist-df1f2b947ffa-4f242b1d6996.txt
-  - ref: refs/heads/ath-qca
-    old: 5157dec989dff385fa8aa735f05424d4b5432bac
-    new: 8e3376186426c31a313c2070722ea0ee7554df2a
-    log: revlist-5157dec989df-8e3376186426.txt
+  - ref: refs/heads/for-next
+    old: 542124fc0d5cccea273bccf2ee58545ac17aad3f
+    new: ba5ea59f768f67d127b319b26ba209ff67e0d9a5
+    log: revlist-542124fc0d5c-ba5ea59f768f.txt
 
---===============3091897871671455545==
+--===============0870731736840131132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df1f2b947ffa-4f242b1d6996.txt
+Content-Disposition: attachment; filename=revlist-542124fc0d5c-ba5ea59f768f.txt
 
-ba12f08f3167464dad506a1ac0d065901befa2c1 wifi: ath12k: add multiple radio support in a single MAC HW un/register
-d01c08ed6fdb03e16c90a9f9740864b094c3c663 wifi: ath12k: Modify add and remove chanctx ops for single wiphy support
-b8ce837ea264e22fbe0bc7aaffaccdf2081ddf69 wifi: ath12k: modify ath12k mac start/stop ops for single wiphy
-314876885bdcc3d6bae77c24846179b3f327e2c2 wifi: ath12k: vdev statemachine changes for single wiphy
-0d6e6736ed9f3ffb3a7f6ab6240bbb31a8fb3187 wifi: ath12k: scan statemachine changes for single wiphy
-0148e40c9f0ace0a7eaeff30a86b45090b50733f wifi: ath12k: fetch correct radio based on vdev status
-b5068bc9180d06a5ac242b0f9263047c14f86211 wifi: ath12k: Cache vdev configs before vdev create
-cec77a252407c5957d109ea59bc64def2031465d wifi: ath12k: Add additional checks for vif and sta iterators
-0da00e45ee9ab1858a80a855f9acdc9cc87175b8 wifi: ath12k: modify regulatory support for single wiphy architecture
-5a6af83c397ddfd0ed1ab872b89bd626506e675b wifi: ath12k: Modify set and get antenna mac ops for single wiphy
-d258f16ba10f48e5678d8575d8487564c70fa09b wifi: ath12k: Modify rts threshold mac op for single wiphy
-4f242b1d6996af14f98cb1093d26cdacd6a83ad7 wifi: ath12k: support get_survey mac op for single wiphy
+bac292e849d76d78c3acbdef3c2fa56cf47ab69a selftests: sud_test: return correct emulated syscall value on RISC-V
+4bfa185fe3f0b20ebb6e7224dae771fcb657f260 riscv/cmpxchg: Deduplicate xchg() asm functions
+07a0a41cb77d582e4db05bd9e79daa145d5d6ea4 riscv/cmpxchg: Deduplicate cmpxchg() asm and macros
+9061237392721f0e9b399161876fa36ddb6c4226 riscv/atomic.h : Deduplicate arch_atomic.*
+54280ca64626f73ce39ba8f7befa9139a6786ffd riscv/cmpxchg: Implement cmpxchg for variables of size 1 and 2
+a8ed2b7a2c13cb8a613cc9a8862688a1385b942d riscv/cmpxchg: Implement xchg for variables of size 1 and 2
+5648076c8ef07db83c5a6af9ff70c5f5051556e5 Merge patch series "Rework & improve riscv cmpxchg.h and atomic.h"
+81889e8523e63395b388f285c77ff0c98ea04556 RISC-V: enable building 64-bit kernels with rust support
+6065e736f82c817c9a597a31ee67f0ce4628e948 riscv: Fix TASK_SIZE on 64-bit NOMMU
+aea702dde7e9876fb00571a2602f25130847bf0f riscv: Fix loading 64-bit NOMMU kernels past the start of RAM
+9c4319d697448e738b1e20d187d9391164c84a89 riscv: Remove MMU dependency from Zbb and Zicboz
+f862bbf4cdca696ef3073c5cf3d340b778a3e42a riscv: Allow NOMMU kernels to run in S-mode
+0534c1c163e7384d1aeb77bab7f0f6bf4dbfb093 Merge patch series "riscv: 64-bit NOMMU fixes and enhancements"
+ba5ea59f768f67d127b319b26ba209ff67e0d9a5 riscv: Do not save the scratch CSR during suspend
 
---===============3091897871671455545==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5157dec989df-8e3376186426.txt
-
-ba12f08f3167464dad506a1ac0d065901befa2c1 wifi: ath12k: add multiple radio support in a single MAC HW un/register
-d01c08ed6fdb03e16c90a9f9740864b094c3c663 wifi: ath12k: Modify add and remove chanctx ops for single wiphy support
-b8ce837ea264e22fbe0bc7aaffaccdf2081ddf69 wifi: ath12k: modify ath12k mac start/stop ops for single wiphy
-314876885bdcc3d6bae77c24846179b3f327e2c2 wifi: ath12k: vdev statemachine changes for single wiphy
-0d6e6736ed9f3ffb3a7f6ab6240bbb31a8fb3187 wifi: ath12k: scan statemachine changes for single wiphy
-0148e40c9f0ace0a7eaeff30a86b45090b50733f wifi: ath12k: fetch correct radio based on vdev status
-b5068bc9180d06a5ac242b0f9263047c14f86211 wifi: ath12k: Cache vdev configs before vdev create
-cec77a252407c5957d109ea59bc64def2031465d wifi: ath12k: Add additional checks for vif and sta iterators
-0da00e45ee9ab1858a80a855f9acdc9cc87175b8 wifi: ath12k: modify regulatory support for single wiphy architecture
-5a6af83c397ddfd0ed1ab872b89bd626506e675b wifi: ath12k: Modify set and get antenna mac ops for single wiphy
-d258f16ba10f48e5678d8575d8487564c70fa09b wifi: ath12k: Modify rts threshold mac op for single wiphy
-4f242b1d6996af14f98cb1093d26cdacd6a83ad7 wifi: ath12k: support get_survey mac op for single wiphy
-8e3376186426c31a313c2070722ea0ee7554df2a Merge branch 'ath-next' into ath-qca
-
---===============3091897871671455545==--
+--===============0870731736840131132==--
