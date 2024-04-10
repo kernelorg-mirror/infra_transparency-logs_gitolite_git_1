@@ -1,116 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============0108237544805877545=="
+Content-Type: multipart/mixed; boundary="===============0575447369598635172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 10 Apr 2024 13:48:03 -0000
-Message-Id: <171275688314.30673.13465588513763747967@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 10 Apr 2024 13:48:49 -0000
+Message-Id: <171275692938.31022.3821533766508565449@gitolite.kernel.org>
 
---===============0108237544805877545==
+--===============0575447369598635172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: fec50db7033ea478773b159e0e2efb135270e3b7
-    new: fff4a5d5609db86ccdf1cf5791b7651b7f6a9b19
-    log: revlist-fec50db7033e-fff4a5d5609d.txt
+  - ref: refs/heads/staging-next
+    old: a103e5ad21992384b0b4332df52e0467107eb113
+    new: 18f44de63f88a47ea7669a8b81708b9fa54e5d65
+    log: revlist-a103e5ad2199-18f44de63f88.txt
 
---===============0108237544805877545==
+--===============0575447369598635172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712756882 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1712756881-3024d13e1a8ea2ccbfaf2bc4f4c463e80294811a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712756928 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1712756928-006da349e088ec7cc8b4b676aa3f822f1f0e5edf
 
-fec50db7033ea478773b159e0e2efb135270e3b7 fff4a5d5609db86ccdf1cf5791b7651b7f6a9b19 refs/heads/tty-next
+a103e5ad21992384b0b4332df52e0467107eb113 18f44de63f88a47ea7669a8b81708b9fa54e5d65 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYWmJIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EeQQAIbZAFvI2A0fGUMS/Puo
-t2VUo6mcie3P/2+WtuB2RWE00XW7zn1GeyYh8WLIfq15GWMW5O+ivOUdOLELZTEd
-M4yYRqGRlGOrgEAqbFiU2E66HKYR9sC2xHnX6tu7r6CEFFUyXozp74i3oPs0MnxZ
-yboeTKY7fFqoNbOBfuejguDdzesjVJDS8aSpDbygmRZoSmoTpfPUluzPz7uoTMQN
-ilFWz/K3kuc9/syFSu/c9aUEWCFRiwoT6jJiz9Vld1fJvWpqkUs02eoNZkslw1Nc
-fzwUckOsVRuixeBA6Kw4pQJ/CG3rVwA4Gbetqc2irC1JalcQKDTBvQnekVOtYQu2
-IXUUc2zy+l5QgBSEaFpVouAq77/FhulsuKiBhRzv74gcLWOdVoICtsyloF/aUIOu
-dhqst5hT3WvoM7QOyYqnAi7gA730poMJRsWOuIq1+QNBriOn5ajbUIKVKi6jgSyd
-BXdRL9x7WtRJIDcSaJaEc/tWBlkxeV2govuvRjjY3AnMle3kZkHTF7LhDZhAwlC6
-k3Y0oBf1ojaHEDCFCTT31RWnVZdZYA39AFMs8hSwAzNoM6TPzPHsN5xSTpvLRmY4
-5Nb0j8+gA1VUvN16gQ//5xlVRn1/o3z1dAnvBsWOW/C2Ccr4O6Frt7loLk1T7GTv
-ApwO9Sa3WtGpqkkBFzyPxh4U
-=5zLl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYWmMAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7GwQAL/N/91mRK9kxjC5OG6I
+KFetH39t0noMBbtFoS/Cpr2eApWKZJtr1vVpZ7aww0RqWO4iIJJtnUAj4L21oCMv
+NwKLqhl57hTmHLCCkFzAEuWEwMNR2BADixz6lKo5NTHUEbJoiX6DdTkfPr+b3ESK
+aWd+U5/grHnX81T3cVdtoe/vvqcvYNTH18266BJ0pC3dyCwtrrEgPc1x2v+s/BUY
+BWjNnYgVz696w7qE8ZydtjS1fRZ9DYq93tdevtW+tdg6iZt61KkCMnHpWrQoESC9
+US0ydErw2xG/toFzKhdozagHA85ZBCuxHG1ojTa+vdNTAgseEm55ui60X1xbCXG4
+G6EW77ZNyIVvPGwCvcPLvzyX55oG2Zqr6/CSCwyci6oElw2YHaSGMo2SiXLBoPyr
+syN2k4n8oLs7W+kZd/7yTH5LYHDWBSovrc9HkVbi/w7y+qOZi631pi2Dw3s3TiX8
+Pf4UCivsTTgnX24jDalxqp7vomWdwGx8G2/0OCpwa0H4F8gjyJeISVgHTapKsnmD
+tZee4FmYlky4Igj0KK3ukCyB3sNuI0lWcJDElkqKcCHIsYKoqsbprSzPSpoFv9Vh
+8lggdZ0ai9LHCXPp4JdHh8SLt8ynbwlo0u2/VLuG/ejgkCW3TpHoo88fobrybYD8
+ypX0y+zy3ev3+vo6yiIhEQ8c
+=PNz4
 -----END PGP SIGNATURE-----
 
---===============0108237544805877545==
+--===============0575447369598635172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fec50db7033e-fff4a5d5609d.txt
+Content-Disposition: attachment; filename=revlist-a103e5ad2199-18f44de63f88.txt
 
-779087fe2fecf8b8aa7bdd69982f9c0c8266927b kfifo: drop __kfifo_dma_out_finish_r()
-76738194be605c9fb279f87d8a6b0b95904bfb60 kfifo: introduce and use kfifo_skip_count()
-4edd7e96a1f159f43bd1cb82616f81eaddd54262 kfifo: add kfifo_out_linear{,_ptr}()
-e9d9576de08ac65d2c973ef7ce542338d2da94f9 kfifo: remove support for physically non-contiguous memory
-ed6d22f5d8672f38d6020c719d5d658a4e3e6be5 kfifo: rename l to len_to_end in setup_sgl()
-fea0dde081621e25bcf7efd40cce6c8272e3aa13 kfifo: pass offset to setup_sgl_buf() instead of a pointer
-d52b761e4b1acc897e65bcc8eff42b0537ac0134 kfifo: add kfifo_dma_out_prepare_mapped()
-2ab682d221551d5eb9606dad1efa01e184de7b00 kfifo: fix typos in kernel-doc
-8192fabb0db269a4130d8cbdd8557a47bfa1ffec tty: 8250_dma: use dmaengine_prep_slave_sg()
-9054605ab8468936a514298211d9e9bb68bf24bd tty: 8250_omap: use dmaengine_prep_slave_sg()
-f8fef2fa419febbfed2d04f0518111565df2673d tty: msm_serial: use dmaengine_prep_slave_sg()
-1788cf6a91d9fa9aa61fc2917afe192c23d67f6a tty: serial: switch from circ_buf to kfifo
-b9cea51b65abecb4dc327a19ab58e6fb116e7e85 tty: atmel_serial: use single DMA mapping for TX
-12bedddb67520d38274ae9163338a125c24732bb tty: atmel_serial: define macro for RX size
-e51c3e1d236f8b0ea9e839f8f1f83aa31e0ce1e8 tty: atmel_serial: use single DMA mapping for RX
-f03e8c1060f86c23eb49bafee99d9fcbd1c1bd77 printk: Save console options for add_preferred_console_match()
-8a831c584e6e80cf68f79893dc395c16cdf47dc8 printk: Don't try to parse DEVNAME:0.0 console options
-b73c9cbe4f1fc02645228aa575998dd54067f8ef printk: Flag register_console() if console is set on command line
-787a1cabac01c99846070fcf702e53befaf89f79 serial: core: Add support for DEVNAME:0.0 style naming for kernel console
-a0f32e2dd99867b164bfebcf36729c2a0d41b30b serial: core: Handle serial console options
-a8b04cfe7dad84e65df5996e14b435fd356fe62c serial: 8250: Add preferred console in serial8250_isa_init_ports()
-5c3a766e9f057ee7a54b5d7addff7fab02676fea Documentation: kernel-parameters: Add DEVNAME:0.0 format for serial ports
-a80451572968279cbc1e2d921fd5c9a3136d3217 serial: 8250_omap: Remove unused of_gpio.h
-56de74b4d783f41c2e2b745555c662c4031b5d87 serial: pic32_uart: Replace of_gpio.h by proper one
-4210022789f345642d56b8165757df6316560db7 serial: sifive: Remove 0 from fu540-c000-uart0 binding.
-b464199eaae81f51de8c7b07605643195645c663 dt-bindings: serial: renesas,scif: Document r8a779h0 bindings
-d78cc0df9d2b49ed7f87b46c7041aab1bce2995f tty: hvc: Remove second semicolon
-da4e0ba419bb953fb8ae0aa4f85aef3febfbdf3e tty: n_gsm: replace deprecated strncpy with strscpy
-3bd85c6c97b2d232638594bf828de62083fe3389 tty: vt: conmakehash: Don't mention the full path of the input in output
-9013517527b628019a9acecc7da4a13b0a62d851 serial: ami: Mark driver struct with __refdata to prevent section mismatch
-7fb96133a76a14a970219bd2016c8fcc647010c4 serial: pmac_zilog: Drop usage of platform_driver_probe()
-8c278ade67bdcd9882d32547015a091fb16132b1 dt-bindings: serial: actions,owl-uart: convert to dtschema
-32f6ec282fb0ddb45da1a19145ef9eeef088968d serial: 8250_of: Add clock_notifier
-77ab53371a2066fdf9b895246505f5ef5a4b5d47 serial: max3100: Lock port->lock when calling uart_handle_cts_change()
-712a1fcb38dc7cac6da63ee79a88708fbf9c45ec serial: max3100: Update uart_driver_registered on driver removal
-e60955dbecb97f080848a57524827e2db29c70fd serial: max3100: Fix bitwise types
-0487724912abc14eb0e95c352a29e6691a733631 serial: max3100: Make struct plat_max3100 local
-3c37ac45718ebb25203314c908dc4b5c5b9b2119 serial: max3100: Remove custom HW shutdown support
-e1cb4fa90fb8edbb7f47aca2328fc6425bcc582f serial: max3100: Replace custom polling timeout with standard one
-80949ca0f3a89bc046b6a84ec2fcc2b3a4241a93 serial: max3100: Remove unneeded forward declaration
-0867a9805549632969fbb996c50ba8adb1bc38bf serial: max3100: Update Kconfig entry
-c9615d34ce26199054e188f634eac2e45c9cc906 tty: serial: max310x: convert to use maple tree register cache
-925b2c3f6b6f81a5405a647b381d12a93f06a730 tty: serial: sc16is7xx: convert to use maple tree register cache
-771d22bce79eec425c011fdf95a431a4a0b47c16 serial: max3100: Enable TIOCM_LOOP
-61f538f23a7a83fabfb1fb5ce7ab6f2c75e911f2 serial: max3100: Get crystal frequency via device property
-8c15f723caba9db359bdabcd54e7dda4c0b19c0b serial: max3100: Remove duplicating irq field
-bbcbf739215eb8bfae346b9738bf5d209b434604 serial: max3100: Switch to use dev_err_probe()
-8250b1c1fdf617e953511289b46c8a77d4d4457c serial: max3100: Replace MODULE_ALIAS() with respective ID tables
-1d01740efb6856cf02905a84bf04b70d223993c2 serial: max3100: Switch to DEFINE_SIMPLE_DEV_PM_OPS()
-69b2cc30315ac48e3a6308a7f736f67c3e3db0b1 serial: max3100: Extract to_max3100_port() helper macro
-4fe952c141b285ca0b379c93c9c6c69d7240a495 serial: max3100: Sort headers
-838022def8ef2b676d6f3c19cad9185ce8046008 serial: amba-pl011: get rid of useless wrapper pl011_get_rs485_mode()
-255abd49f18533300bc5f20d7dce77a0a4479f58 serial: amba-pl011: move variable into CONFIG_DMA_ENGINE conditional
-384fa8647dc55ab47515bbb76ebda37b2350e5b3 serial: 8250: Remove superfluous sanity check
-fff4a5d5609db86ccdf1cf5791b7651b7f6a9b19 serial: ar933x: Remove unneeded static structure
+9643ce5e28a7649e0359aaefd08fb84390c8db23 staging: axis-fifo: Fix indentation
+9d343b597fb0b95659e62bf233da12c3c4d95ab1 staging: pi433: drop driver owner assignment
+30b6e72b15091134a1e33d95470d27f447260b47 staging: rtl8192e: remove unnecessary wrapper
+883295e9489aafb8b85916bd1ac947f4b19644dd staging: ks7010: replace open-coded module_sdio_driver()
+ebee9ca2f59e35a60a6704a79df6477b3c84ac96 Revert "staging: vc04_services: vchiq_core: Stop kthreads on shutdown"
+fdb43d131fba3e314f5cb353745a8caeefdff48b staging: vt6655: remove redundant assignment to variable byData
+33a470713ad589e99a989189f58d4ee1bc8df1a8 staging: nvec: Fix documentation typo in nvec.c
+6a0b8c0da8d8d418cde6894a104cf74e6098ddfa greybus: arche-ctrl: move device table to its right location
+98b6073d7ab3fd3790995118b386f7362d991dcd staging: bcm2835-audio: add terminating new line to Kconfig
+ed394dbf5371b03a5335a7ba1973ba124c0ced3d MAINTAINERS: vt665?: Replace Forest with Philipp as maintainer
+80f91c8237398049b08c0d8f34180ef0efc00ad7 staging: pi433: Rename struct pi433_device buffer field to tx_buffer.
+6f85a70352174856992efeaaff2ac9fcf6b824a8 staging: pi433: Rename struct pi433_device instances to pi433.
+cdcf3051f0c05dab75ba46d751adede00f77c54b staging: pi433: Replace pi433_receive param void type to struct pi433_device.
+494566f7a544ae6813bc7b41ec4e03bd62740b7c staging: pi433: Rename "pi433_dev" of type "dev_t" to "pi433_devt"
+bd9ea55b228b689e79ebe09ab267a1181b384155 staging: pi433: Remove duplicated code using the "goto" error recovery scheme.
+78d17ecffcf41e3117a6c0408d186b99c555de76 staging: pi433: Add debugfs_remove in case of driver register fails.
+e68e319fc948aac7a67c88a2854d28c03f7891dc staging: pi433: Reorder pi433_exit cleanup calls.
+e945c43df60b50bda05800ef83d380ec34e391e2 Staging: rtl8723bs: Delete dead code from update_current_network()
+bef4c8939d51af198defa284b782e90676d6c463 staging: greybus: Replace gcam macros with direct dev log calls
+1b61680cfe3e4dce1e4dcf41d47d92b85c3fcceb staging: rts5208: replace weird strncpy() with memcpy()
+c3a8f7dfc7c3d5fa71f9038971e2081f0e3ee279 staging: rtl8723bs: convert strncpy to strscpy
+18f44de63f88a47ea7669a8b81708b9fa54e5d65 staging: greybus: change strncpy() to strscpy_pad()
 
---===============0108237544805877545==--
+--===============0575447369598635172==--
