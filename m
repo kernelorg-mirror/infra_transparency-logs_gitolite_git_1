@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 10 Apr 2024 14:22:09 -0000
-Message-Id: <171275892966.4339.733705126038267243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 10 Apr 2024 14:22:13 -0000
+Message-Id: <171275893302.4424.7571888311206339154@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/x86/urgent
-    old: a9025cd1c673a8d6eefc79d911075b8b452eba8f
-    new: 0aba16befb290c912e2949a1863269933c845184
+  - ref: refs/heads/kdevops
+    old: 8ad3b41e0eaad1327e5b89f449e99adcbe45ccec
+    new: 676cf25ec88d41796b4267d88d8bfbbfba3dd9ca
     log: |
-         a2b1a6641c1c3341e8a323819e01785b3ed3b749 x86/cpu: Actually turn off mitigations by default for SPECULATION_MITIGATIONS=n
-         0aba16befb290c912e2949a1863269933c845184 x86/cpu: Disable BHI mitigation by default when SPECULATION_MITIGATIONS=n
+         b109dba20749d32728f0d7bb8f8142af3f43233b SQUASH: bugfixes
+         676cf25ec88d41796b4267d88d8bfbbfba3dd9ca DEBUG: printks
          
