@@ -1,21 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Wed, 10 Apr 2024 08:34:41 -0000
-Message-Id: <171273808141.5709.9446086133621847558@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0890224825630768730=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 10 Apr 2024 08:45:44 -0000
+Message-Id: <171273874461.15899.16501441163649111048@gitolite.kernel.org>
+
+--===============0890224825630768730==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/v6.9-next/dts64
-    old: 263d4f6d14679c4fafd1314f69ceb08741145aa9
-    new: 8caebdc6f9eb0a191e41976780608f21fb0bcb97
-    log: |
-         c28009b4af38a2999e92098d0ed5442e109ce652 arm64: dts: mediatek: mt8195: Fix GPU thermal zone name for SVS
-         1ee8f77a9457f4be2231cbd15e4e58d4147d3cf2 arm64: dts: mediatek: mt8192: Fix GPU thermal zone name for SVS
-         8caebdc6f9eb0a191e41976780608f21fb0bcb97 arm64: dts: mediatek: mt8183: Refactor thermal zones
-         
+  - ref: refs/tags/platform-drivers-x86-v6.9-2
+    old: 0000000000000000000000000000000000000000
+    new: eb73fd1d07f5546a1b32d04b9832681f3c04938d
+
+--===============0890224825630768730==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1712738741 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1712738741-fc02b96be062d1fa2a1c5bf67c8d6e4abe18e151
+
+0000000000000000000000000000000000000000 eb73fd1d07f5546a1b32d04b9832681f3c04938d refs/tags/platform-drivers-x86-v6.9-2
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZhZRtQAKCRBZrE9hU+XO
+MaUwAQCshV6eYJTA87oKzGyt3DDg8MR1rwMjbnOUDhriPSTLTQD+IkKTwibKPlgE
+uetuU8FXfssNCPlt4w53mzQ9spJS2gI=
+=EH9H
+-----END PGP SIGNATURE-----
+
+--===============0890224825630768730==--
