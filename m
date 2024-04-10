@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5233360775417675619=="
+Content-Type: multipart/mixed; boundary="===============5364595181510386650=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 10 Apr 2024 04:00:54 -0000
-Message-Id: <171272165416.30445.12626833988006359894@gitolite.kernel.org>
+Date: Wed, 10 Apr 2024 04:06:16 -0000
+Message-Id: <171272197658.1774.14539778320488175148@gitolite.kernel.org>
 
---===============5233360775417675619==
+--===============5364595181510386650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,28 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 852a0e87c15b9f6c5220fde65f71d81b62da8a10
-    new: b223020b241b4a58ba585664c93bf0f9e2a2b9a3
-    log: revlist-852a0e87c15b-b223020b241b.txt
+    old: b223020b241b4a58ba585664c93bf0f9e2a2b9a3
+    new: 6b5c37f98cda21452cbcb120cdfa86665d6ca19c
+    log: revlist-b223020b241b-6b5c37f98cda.txt
 
---===============5233360775417675619==
+--===============5364595181510386650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-852a0e87c15b-b223020b241b.txt
+Content-Disposition: attachment; filename=revlist-b223020b241b-6b5c37f98cda.txt
 
-80de0a432c2e96faacf9fb50edb7c3b1c35de59e Merge branch into tip/master: 'irq/urgent'
-c723f5398f8e6e9d71553fdd0459c66e06f3779e Merge branch into tip/master: 'locking/urgent'
-48cf36081610cf926007075cad7f7f009b22137e Merge branch into tip/master: 'timers/urgent'
-2084bdadf8fa8015e66dbbf6c519538efdd87874 Merge branch into tip/master: 'x86/urgent'
-6d5bb3d80b651ea4d35dd3e1b114f9dd346056c9 Merge branch into tip/master: 'irq/core'
-86aa7f1716aab477d253273a558c82ebe9a9854c Merge branch into tip/master: 'locking/core'
-e26bd64c677313d2a09d1a54c2c5c29d5e0a2cb5 Merge branch into tip/master: 'perf/core'
-9e2987daec4325618a6591a06d51fa2d1bc4d6a9 Merge branch into tip/master: 'ras/core'
-5f29830b53bb3af6b590d07e392671e7deb18c4a Merge branch into tip/master: 'sched/core'
-9de22131e74a4e07c651b676e2b5f7ee98ea3cf5 Merge branch into tip/master: 'timers/core'
-2289236ccaf3e569d459bb2a4a604eb2884c4d6a Merge branch into tip/master: 'x86/alternatives'
-fb4c1135cbe5d1db18dcc73aab12a226ac9daa58 Merge branch into tip/master: 'x86/apic'
-fbfe039dd1e8260e9676ad292e5e434d4a624e87 Merge branch into tip/master: 'x86/asm'
-7f8a0ebfe41bd89d37812a3632e73ae5f5736086 Merge branch into tip/master: 'x86/boot'
-1184586cb36fc5fefb4cd0c78597f08e4f095646 Merge branch into tip/master: 'x86/bugs'
-d988c041d9476793566d8479893b9108ba9d2909 Merge branch into tip/master: 'x86/build'
-81df66cc381e955bf3fe5b67e91943deb81f8d8a Merge branch into tip/master: 'x86/cleanups'
-1a30a2ec3b828ca7427b7a1ce4d194ac4e133f50 Merge branch into tip/master: 'x86/cpu'
-810f1713c7e5c27dfd7929f0219d14d95f1f637a Merge branch into tip/master: 'x86/entry'
-7d5af1daaa8a2b531eb19dd778ef18a0bd4afe15 Merge branch into tip/master: 'x86/fpu'
-239adc9dca5d92793013d0206bc0b59286ef00ea Merge branch into tip/master: 'x86/microcode'
-4b38814a0d4ec138e84946031ea43195edbb55d3 Merge branch into tip/master: 'x86/misc'
-6fafc329d9704b4ddbb7e7d23bc771d70be8d216 Merge branch into tip/master: 'x86/percpu'
-f8fa240d8f705506e7ac2b50528015ee0bdeaf1b Merge branch into tip/master: 'x86/platform'
-b223020b241b4a58ba585664c93bf0f9e2a2b9a3 Merge branch into tip/master: 'x86/shstk'
+0cd01ac5dcb1e18eb18df0f0d05b5de76522a437 x86/bugs: Change commas to semicolons in 'spectre_v2' sysfs file
+1e3ad78334a69b36e107232e337f9d693dcc9df2 x86/syscall: Don't force use of indirect calls for system calls
+7390db8aea0d64e9deb28b8e1ce716f5020c7ee5 x86/bhi: Add support for clearing branch history at syscall entry
+0f4a837615ff925ba62648d280a861adf1582df7 x86/bhi: Define SPEC_CTRL_BHI_DIS_S
+be482ff9500999f56093738f9219bbabc729d163 x86/bhi: Enumerate Branch History Injection (BHI) bug
+ec9404e40e8f36421a2b66ecb76dc2209fe7f3ef x86/bhi: Add BHI mitigation knob
+95a6ccbdc7199a14b71ad8901cb788ba7fb5167b x86/bhi: Mitigate KVM by default
+ed2e8d49b54d677f3123668a21a57822d679651f KVM: x86: Add BHI_NO
+2bb69f5fc72183e1c62547d900f560d0e9334925 Merge tag 'nativebhi' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+718c4fb221dbeff9072810841b949413c5ffc345 nouveau: fix devinit paths to only handle display on GSP.
+d7a62d0a9a17e97ce2d4d40431094e09956a0568 compiler.h: Add missing quote in macro comment
+2c71fdf02a95b3dd425b42f28fd47fb2b1d22702 Merge tag 'drm-fixes-2024-04-09' of https://gitlab.freedesktop.org/drm/kernel
+6b5c37f98cda21452cbcb120cdfa86665d6ca19c Merge branch 'linus'
 
---===============5233360775417675619==--
+--===============5364595181510386650==--
