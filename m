@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/backports/backports
-Date: Wed, 10 Apr 2024 21:24:46 -0000
-Message-Id: <171278428602.15571.16171936223566952054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 10 Apr 2024 21:26:17 -0000
+Message-Id: <171278437734.17837.10470280353466236022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/backports/backports
-user: hauke
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 7e70bbef46c5fa861ee229a9f56546f037c59c3e
-    new: c96f36d521450c9ac05d291cf3f46f0fe55edc25
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 9c3e9af74326978ba6f4432bb038e6c80f4f56fd
+    new: e5a37386f7e1ee45981a6eb9328d6f1638971e6d
     log: |
-         0e80a6661de852abccfbf0a374c2e9151a1ae56e backports: Remove support for kernel smaller than 4.5
-         ccd010faad025aec99ca928cba69cd79c098253d backports: Remove support for kernel smaller than 4.6
-         a94c16c61e59ff0e4e2e14a38056dd4a2c5c58cf backports: Remove support for kernel smaller than 4.7
-         1f0ff63f05dd2fe2d51600bba5075f64f300acf1 backports: Remove support for kernel smaller than 4.8
-         8e25891a9e05833aa5bc93c5f650d55efa713077 backports: Remove support for kernel smaller than 4.9
-         7f0dee0299d0f4e6dec35ab519a75b3d669af202 backports: Remove support for kernel smaller than 4.10
-         2dbdde563d8f68a76bab20368d5e5eb0b10e809b backports: Remove support for kernel smaller than 4.11
-         d2e5f8516905902192665a65b0986704615e5b45 backports: Remove support for kernel smaller than 4.12
-         5d0dc190c34ebc912bd50684bce179ebb3143d57 backports: Remove support for kernel smaller than 4.13
-         c96f36d521450c9ac05d291cf3f46f0fe55edc25 backports: Remove support for kernel smaller than 4.14
+         bba449895bdef9d7723b271a95b2169b974b8bbd perf annotate: Show progress of sample processing
+         5c1a8d35c094ef57cf92dcc805f57bcf37421265 perf annotate-data: Add hist_entry__annotate_data_tty()
+         0792f40f7166c45015ce070b0a2419cc89df3eb2 perf annotate-data: Add hist_entry__annotate_data_tui()
+         ef78fed5de0da7cf8b2b08f3f5cc77d00d5b19e6 perf annotate-data: Support event group display in TUI
+         cd647ae2267788d311b48efb76e56bdb02a2f77d perf report: Add a menu item to annotate data type in TUI
+         382c6b5728a5a9ba9b865f1b703c2457b14c5523 perf report: Do not collect sample histogram unnecessarily
+         56db79d726e0dce84562349c5fbb78930d79c8b7 perf tests: Make "test data symbol" more robust on Neoverse N1
+         e9bc2c1b9a63850ba6436524badc477d3c938fad perf tests: Apply attributes to all events in object code reading test
+         d69c8a29ca707f32dda65dc843edbd0a97433212 perf map: Remove kernel map before updating start and end addresses
+         e5a37386f7e1ee45981a6eb9328d6f1638971e6d perf tests: Remove dependency on lscpu
          
