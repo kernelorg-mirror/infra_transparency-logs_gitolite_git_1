@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3085340915559085488=="
+Content-Type: multipart/mixed; boundary="===============4443271082301257970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 10 Apr 2024 20:23:09 -0000
-Message-Id: <171278058955.1357.10346063755272610485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 10 Apr 2024 20:23:16 -0000
+Message-Id: <171278059627.1504.17821826799287839571@gitolite.kernel.org>
 
---===============3085340915559085488==
+--===============4443271082301257970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/regulator-6.9
     old: d3cf8a17498dd9104c04ad28eeac3ef3339f9f9f
     new: 68adb581a39ae63a0ed082c47f01fbbe515efa0e
     log: |
@@ -24,28 +24,28 @@ changes:
          68adb581a39ae63a0ed082c47f01fbbe515efa0e regulator: vqmmc-ipq4019: fix module autoloading
          
 
---===============3085340915559085488==
+--===============4443271082301257970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1712780587 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1712780587-106498c7cff97198912eacb7b473c803066098b0
+pusher C3F436CA30F5D8EB 1712780594 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1712780593-49563ed64cc6aa967587ced2f89da132eaca8a99
 
-d3cf8a17498dd9104c04ad28eeac3ef3339f9f9f 68adb581a39ae63a0ed082c47f01fbbe515efa0e refs/heads/for-6.9
+d3cf8a17498dd9104c04ad28eeac3ef3339f9f9f 68adb581a39ae63a0ed082c47f01fbbe515efa0e refs/heads/regulator-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYW9SsACgkQJNaLcl1U
-h9CFCAf8DBbMt0BFnxvhamyKX/VG6rHTTMikZj3cFp9E72CPbZSgJREhkC5bDaPQ
-EtR0PGJ8Qh3obgFg4XWGky0qQ2ENPOuKINQpm3dvy/UKxBfytlPkqHyyLNB4Ryna
-e/4wi1r4Cqw2LVMf2kLDM0vwVnIcK/O81xx5eaPitrRTWB3oiyFvs8VOYajrFKb4
-S/KuAihz2z/yPXjJNuyRXb0wbNiQtO8N8jG4tfXtGy/P+xiQeo4nQfkr7eE1xVJd
-5uxcpNIedEdu+8oRDelDKd6gZmNoEbGz260YlxX1piFFQcnQ81NXD0m4tNWRDljm
-xn3IWFI4/lU7GabQywmEzA+iPoL2Nw==
-=EOsR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYW9TIACgkQJNaLcl1U
+h9BOcgf/RfdZkhY6m33n4zHPiUlaVCF6ebM1EkIy19aEQEBwckdS6kSgFqMDN88O
+TN581BVWEAuLeDLXjCNBvcPe1P54Wg/CXrIaPWHJ8zpMrovwvHgSe+mGZwUw/KaD
+Lbdzw6Ou0gIqUTdB+FUED6xUUXQk8wPk+gPBRpi12SkPQbIQB0J5MJ+uJHRNbIaz
+sQ1efVExaATDwxYhXn/ItAUhQa+fFl/fCpytNn1pM/ymSyAV+OE+Pc8FcW4MbDfQ
+dl/wuRwBcLDqeHg82XBbaAQubgxeiwI6N746C9vMSGSN358Yjc22wyMvDZ4zplEC
+Jfv/dz+foEyUSSgTeP33tMZio5QYdg==
+=Q6ac
 -----END PGP SIGNATURE-----
 
---===============3085340915559085488==--
+--===============4443271082301257970==--
