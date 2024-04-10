@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0078803764224698109=="
+Content-Type: multipart/mixed; boundary="===============5233360775417675619=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 10 Apr 2024 04:00:14 -0000
-Message-Id: <171272161465.30100.12465965547564924742@gitolite.kernel.org>
+Date: Wed, 10 Apr 2024 04:00:54 -0000
+Message-Id: <171272165416.30445.12626833988006359894@gitolite.kernel.org>
 
---===============0078803764224698109==
+--===============5233360775417675619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4cce3e151e22acedcaf8b7da181cd72e094b9b0f
-    new: 852a0e87c15b9f6c5220fde65f71d81b62da8a10
-    log: revlist-4cce3e151e22-852a0e87c15b.txt
+    old: 852a0e87c15b9f6c5220fde65f71d81b62da8a10
+    new: b223020b241b4a58ba585664c93bf0f9e2a2b9a3
+    log: revlist-852a0e87c15b-b223020b241b.txt
 
---===============0078803764224698109==
+--===============5233360775417675619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4cce3e151e22-852a0e87c15b.txt
+Content-Disposition: attachment; filename=revlist-852a0e87c15b-b223020b241b.txt
 
-14ced4756458f2c7295f27f615d22c2b5912c733 irqchip/riscv-aplic: Fix spelling mistake "forwared" -> "forwarded"
-ff3669a71afa06208de58d6bea1cc49d5e3fcbd1 irqchip/alpine-msi: Fix off-by-one in allocation error path
-b327708798809328f21da8dc14cc8883d1e8a4b3 irqchip/loongson-pch-msi: Fix off-by-one on allocation error path
-a64003da0ef8e135cda678eb2c8a6f0baf4a9f35 irqchip/loongson-eiointc: Set CPU affinity only on SMP machines for LoongArch
-42a7d887664b02a747ef5d479f6fd01081564af8 irqchip/loongson: Select GENERIC_IRQ_EFFECTIVE_AFF_MASK if SMP for IRQ_LOONGARCH_CPU
-80e9963fb3b5509dfcabe9652d56bf4b35542055 irqchip/gic-v3-its: Fix VSYNC referencing an unmapped VPE on GIC v4.1
-8f0acb7f3a1331559e325566c00c26d1523dfe06 clocksource: Convert s[n]printf() to sysfs_emit()
-98fe0fcb326a923740cb8900aa7ed7fe538c984a clockevents: Convert s[n]printf() to sysfs_emit()
-8ff1e6c5aca5fd908e81c33c460c45f9555e1c22 vdso: Fix powerpc build U64_MAX undeclared error
-53bc516ade85a764edef3d6c8a51e880820e3d9d x86/msr: Move ARCH_CAP_XAPIC_DISABLE bit definition to its rightful place
-6d029c25b71f2de2838a6f093ce0fa0e69336154 selftests/timers/posix_timers: Reimplement check_timer_distribution()
-a0c8cf9780359376496bbd6d2be1343badf68af7 x86/alternatives: Remove a superfluous newline in _static_cpu_has()
-ee8962082a4413dba1a1b3d3d23490c5221f3b8a x86/alternatives: Catch late X86_FEATURE modifiers
-f796c75837623058db1ff93252b9f1681306b83d x86/alternatives: Use a temporary buffer when optimizing NOPs
-da8f9cf7e721c690ca169fa88641a6c4cee5cae4 x86/alternatives: Get rid of __optimize_nops()
-c3a3cb5c3d893d7ca75c773ddd107832f13e7b57 x86/alternatives: Optimize optimize_nops()
-05d277c9a9023e11d2f30a994bde08b854af52a0 x86/alternatives: Sort local vars in apply_alternatives()
-0200ddd723d6056d0b1c1ebde4b11e75a0f2ed7e timekeeping: Use READ/WRITE_ONCE() for tick_do_timer_cpu
-befb94f41725e21ab2c04656cd06bb5ef580fcda Merge branch 'x86/alternatives'
-3f318eb8c8269a51c5f6d5b9ff9841aab97d8d2c Merge branch into tip/master: 'irq/urgent'
-0ae65d702ee8348d7d2487ba89da912b9ed825a7 Merge branch into tip/master: 'timers/urgent'
-c68931a41a351a07dc0221c16393d1c933c15ba7 Merge branch into tip/master: 'irq/core'
-c79faa7e61c3afd1a9fb01f01ec20140aa35906e Merge branch into tip/master: 'timers/core'
-2907bb35437c2f4aeb969bfec46afb6ca9a0d042 Merge branch into tip/master: 'x86/asm'
-852a0e87c15b9f6c5220fde65f71d81b62da8a10 Merge branch into tip/master: 'x86/cleanups'
+80de0a432c2e96faacf9fb50edb7c3b1c35de59e Merge branch into tip/master: 'irq/urgent'
+c723f5398f8e6e9d71553fdd0459c66e06f3779e Merge branch into tip/master: 'locking/urgent'
+48cf36081610cf926007075cad7f7f009b22137e Merge branch into tip/master: 'timers/urgent'
+2084bdadf8fa8015e66dbbf6c519538efdd87874 Merge branch into tip/master: 'x86/urgent'
+6d5bb3d80b651ea4d35dd3e1b114f9dd346056c9 Merge branch into tip/master: 'irq/core'
+86aa7f1716aab477d253273a558c82ebe9a9854c Merge branch into tip/master: 'locking/core'
+e26bd64c677313d2a09d1a54c2c5c29d5e0a2cb5 Merge branch into tip/master: 'perf/core'
+9e2987daec4325618a6591a06d51fa2d1bc4d6a9 Merge branch into tip/master: 'ras/core'
+5f29830b53bb3af6b590d07e392671e7deb18c4a Merge branch into tip/master: 'sched/core'
+9de22131e74a4e07c651b676e2b5f7ee98ea3cf5 Merge branch into tip/master: 'timers/core'
+2289236ccaf3e569d459bb2a4a604eb2884c4d6a Merge branch into tip/master: 'x86/alternatives'
+fb4c1135cbe5d1db18dcc73aab12a226ac9daa58 Merge branch into tip/master: 'x86/apic'
+fbfe039dd1e8260e9676ad292e5e434d4a624e87 Merge branch into tip/master: 'x86/asm'
+7f8a0ebfe41bd89d37812a3632e73ae5f5736086 Merge branch into tip/master: 'x86/boot'
+1184586cb36fc5fefb4cd0c78597f08e4f095646 Merge branch into tip/master: 'x86/bugs'
+d988c041d9476793566d8479893b9108ba9d2909 Merge branch into tip/master: 'x86/build'
+81df66cc381e955bf3fe5b67e91943deb81f8d8a Merge branch into tip/master: 'x86/cleanups'
+1a30a2ec3b828ca7427b7a1ce4d194ac4e133f50 Merge branch into tip/master: 'x86/cpu'
+810f1713c7e5c27dfd7929f0219d14d95f1f637a Merge branch into tip/master: 'x86/entry'
+7d5af1daaa8a2b531eb19dd778ef18a0bd4afe15 Merge branch into tip/master: 'x86/fpu'
+239adc9dca5d92793013d0206bc0b59286ef00ea Merge branch into tip/master: 'x86/microcode'
+4b38814a0d4ec138e84946031ea43195edbb55d3 Merge branch into tip/master: 'x86/misc'
+6fafc329d9704b4ddbb7e7d23bc771d70be8d216 Merge branch into tip/master: 'x86/percpu'
+f8fa240d8f705506e7ac2b50528015ee0bdeaf1b Merge branch into tip/master: 'x86/platform'
+b223020b241b4a58ba585664c93bf0f9e2a2b9a3 Merge branch into tip/master: 'x86/shstk'
 
---===============0078803764224698109==--
+--===============5233360775417675619==--
