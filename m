@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Wed, 10 Apr 2024 21:38:10 -0000
-Message-Id: <171278509039.27377.12956045363190906041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Wed, 10 Apr 2024 21:41:10 -0000
+Message-Id: <171278527094.30162.7696710275597768943@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/md-6.10
-    old: 688c8b9208356eb5c3fa8047f3e35666f3049a4d
-    new: 9d1110f99c253ccef82e480bfe9f38a12eb797a7
+  - ref: refs/heads/hyperv-fixes
+    old: f971f6dd3742d22dd13710306fb4365ea7bcb536
+    new: 30d18df6567be09c1433e81993e35e3da573ac48
     log: |
-         151f66bb618d1fd0eeb84acb61b4a9fa5d8bb0fa md/raid5: fix deadlock that raid5d() wait for itself to clear MD_SB_CHANGE_PENDING
-         3821bbad0d0fbb6c9d77987bd54c89348752056d md: add check for sleepers in md_wakeup_thread()
-         3f9f231236ce7e48780d8a4f1f8cb9fae2df1e4e md: Fix overflow in is_mddev_idle
-         9d1110f99c253ccef82e480bfe9f38a12eb797a7 md: don't account sync_io if iostats of the disk is disabled
+         03f5a999adba062456c8c818a683beb1b498983a Drivers: hv: vmbus: Leak pages if set_memory_encrypted() fails
+         211f514ebf1ef5de37b1cf6df9d28a56cfd242ca Drivers: hv: vmbus: Track decrypted status in vmbus_gpadl
+         bbf9ac34677b57506a13682b31a2a718934c0e31 hv_netvsc: Don't free decrypted memory
+         3d788b2fbe6a1a1a9e3db09742b90809d51638b7 uio_hv_generic: Don't free decrypted memory
+         30d18df6567be09c1433e81993e35e3da573ac48 Drivers: hv: vmbus: Don't free ring buffers that couldn't be re-encrypted
          
