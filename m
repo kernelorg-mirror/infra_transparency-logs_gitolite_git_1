@@ -1,409 +1,289 @@
-Content-Type: multipart/mixed; boundary="===============7931638288209415692=="
+Content-Type: multipart/mixed; boundary="===============8921869440314751289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/firmware
-Date: Wed, 10 Apr 2024 01:18:52 -0000
-Message-Id: <171271193275.8880.78799566902616780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/iproute2
+Date: Wed, 10 Apr 2024 01:18:59 -0000
+Message-Id: <171271193915.9054.14474627044403642862@gitolite.kernel.org>
 
---===============7931638288209415692==
+--===============8921869440314751289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/firmware
+repo: pub/scm/linux/kernel/git/jkirsher/iproute2
 user: jkirsher
 changes:
-  - ref: refs/heads/master
-    old: 7be2766de1f45a494a3e913f2e9fb77191a8ddb5
-    new: d79b4325af8f087370655c3aa2eab1e41fbc23f6
-    log: revlist-7be2766de1f4-d79b4325af8f.txt
+  - ref: refs/heads/main
+    old: a28ffdcf45e80623833722e1970a9276a2657a23
+    new: 8475ddc774d5f2752ef10b6b270d4dd58d990639
+    log: revlist-a28ffdcf45e8-8475ddc774d5.txt
 
---===============7931638288209415692==
+--===============8921869440314751289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7be2766de1f4-d79b4325af8f.txt
+Content-Disposition: attachment; filename=revlist-a28ffdcf45e8-8475ddc774d5.txt
 
-fd44bdae459a2df0b1dc434af06590c4a3cc914f amdgpu: DMCUB updates for various AMDGPU asics
-7ed62638b50f3954099c6bb23f7121cb2a5b0048 Revert "rtl_bt: Update RTL8852C BT USB firmware to 0x040D_7225"
-42d31f8f6ed64f5508f10d09451f60d524107ee0 rtl_bt: Add firmware v2 file for RTL8852C
-1e043b7cb1188a7fba7e1a95a464efc3d3d6849c cxgb4: Update firmware to revision 1.27.4.0
-290cf5e39868975c90753a9103dfa02a80d2e441 linux-firmware: Update AMD cpu microcode
-1e53fd1d59c4faef1a3e8b631d3f80cc1015771b amdgpu: partially revert firmware for GC 11.0.0 and GC 11.0.2
-6a810d65eec80e1f53c562c85e134a8dcd43c593 Revert "amdgpu: partially revert firmware for GC 11.0.0 and GC 11.0.2"
-82f8792e95b874b3090b74b71343bffa86f3b160 amdgpu: DMCUB updates for various AMDGPU asics
-5a0af89e9df70fe03aad214172de1157ccef8cff cirrus: Add CS35L41 firmware for HP G11 models
-55ba9017ef593a84d4c74a347a54aae31179d094 linux-firmware: Update AMD SEV firmware
-78e665ed4e0691563a9ff05b1cedcc6aeec81848 linux-firmware: update firmware for qat_4xxx devices
-6701110eaed4910734300e75ab2e756c33c82021 i915: add GSC 102.0.0.1655 for MTL
-6b8676e58e5126ea0cf52caae00da526261fadb0 linux-firmware: Update firmware file for Intel Bluetooth AX201
-907b5f097b697473e901af803e5a4c5a2c77b263 linux-firmware: Update firmware file for Intel Bluetooth AX200
-c0ec4e8e6cf0132bedb66b05ae5d5afb0128997d linux-firmware: Update firmware file for Intel Bluetooth AX210
-a5855d2201c5caa362c6586663303b134d7a096a linux-firmware: Update firmware file for Intel Bluetooth AX211
-28ebcccbe81c48cdb92c0b76ee2563e9f4a7f3db linux-firmware: Update firmware file for Intel Bluetooth AX211
-7aced176dfc345736a56a0b26a80bf4bc75569b7 linux-firmware: Update firmware file for Intel Bluetooth AX203
-1bf7297a42893684d6910d2f8c37d0f2d8297778 linux-firmware: Update firmware file for Intel Bluetooth AX203
-91db35667e970fee68ca42c1bb5d59a8d4d14592 rtw89: 8851b: update fw to v0.29.41.2
-06315db31ba29cea2647a7d60ae5a9099861644c rtw89: 8852b: update fw to v0.29.29.3
-9b93269ec808f6b41b6410519b22cb858f57f4f0 copy-firmware: Support additional compressor options
-e79966a251754c86c8a572c6647e0a2994392db0 copy-firmware: Introduce 'RawFile' keyword
-0a89c3576d00471b47e37aba19a06ebe41d5f67e amdgpu: DMCUB updates for various AMDGPU asics
-3a4e01e67445ef57ab376b875c637ff3f685ef58 amdgpu: update DMCUB to 0.0.181.0 for various AMDGPU ASICs
-3b9ce3eda858f675e8b0a4a33e65026eb3a46202 i915: Update MTL DMC to v2.16
-228d842462a25178f30753e93d1affa74840ab4b check_whence: reformat using python black
-eb57c2e42167c8581339d71b6a45dfc6afa2a17d Add pre-commit hooks and codespell template
-a3626f2880a6ccd557ef1de78ade4f7f0e9ec201 Wire up pre-commit to `make check`
-d565d7d1d962fa38156427170972352b886b7b5d Rewrite README in markdown
-fbfef363f5f84cb68dd4b3cc0f0b576ab8963a38 Add Dockerfile used to build CI image
-e7436df71d886609f539129f30a9652003395b18 Add gitlab ci for calling pre-commit and ci-fairy
-eb82f8ff639f16dff009f498079b1a19b768e7c8 Add a rule for automatic tagging releases by pipeline schedule
-b4ba7485cc3a4b7456b8ee2362e682ff22126056 Fix carl9170fw shell scripts for shellcheck errors
-77e4e1412844e24f9f696eb8dd0c134952d74871 Add shellcheck pre-commit target
-6fda9afbce18ce0fd40341579134e0e89961e40c Only run ci-fairy on merge requests
-a6c7d96624eaeaf7dcd3f5122e2de59d73c291a2 QCA: Update Bluetooth WCN685x 2.1 firmware to 2.1.0-00605
-8bfb8191c677a4ea923151aba67f6c008cf0c740 check_whence: Recognize RawFile keyword
-9ce83dd076cd9117b26f06fab2f99a497008403d WHENCE: amd-ucode: Use new RawFile keyword
-2e07fe6e1784e2a66e98f70a43639542fe0ba8d8 WHENCE: Don't compress qcom json files
-e11831a4ef9c4b894089aef3e3f2bd3b5b5be061 ath10k/WCN3990: move wlanmdsp to qcom/sdm845
-a4b1e4fda3546fa606734416bbf227df81f86015 Create symlinks for all firmware that is duplicate using rdfind
-fbf2eced5e36ba232fe1a605269ab52be448826b Add new toplevel 'make dist' target.
-48aa5bd67958b4919c5b1f840cd45f8351d3b8e8 Capture artifacts from `make dist` to save at release time.
-713f56ed5314f4a46bf02b06d630d91d0a5c5da6 qcom: add GPU firmware for QCM2290 / QRB2210
-a35ae061aa9721de57b8aa7803bf561f4b2f7465 qcom: add firmware for QCM2290 platforms
-8576aeb68f8809f007e6e5d2dda9afbcaaaeb007 qcom: add firmware for QRB4210 platforms
-c60bf32ef01a10bb70cc70e89206ade396c7958a qcom: add venus firmware files for v6.0
-d104dc62cec03d1612143d408ee00e6d8a2dab0a qcom: add firmware for the onboard WiFi on qcm2290 / qrb4210
-71631cf4fc17962fff8cd1205c23564f3f33f86b qcom: sm8250: update DSP firmware
-0541fa916f3e7500964b4a51364767330218f5e8 qcom: Update vpu-1.0 firmware
-a4580afce5231e58b42e9e787d9c216e9a404bdd qcom: sm8250: add RB5 sensors DSP firmware
-46f2612e63d7c7d3e56ac90cbd32d275271c9816 linux-firmware: add link to sc8280xp audioreach firmware
-837b650133a8298b336ab9915c3f2d570e5c32bb Turn off textwidth check
-abf48fcdfc3fa524028b9fb733573b467cf71aca amdgpu: update DMCUB to 0.0.183.0 for various AMDGPU ASICs
-efcba59ad67a08a00106c54c1f56fcbf3cfd07ae linux-firmware: amd-ucode: Add note on fam19h warnings
-1a7309fda89aa549f8a0c22631adb3ea303c6ebb i915: update MTL HuC to version 8.5.4
-ccf29807dff2f091e4e63070b2a8ce970eba1ae9 Run merge request pipelines for pre-commit.
-e39999a461885a1d66c461247fecfa74e8615004 iwlwifi: update cc/Qu/QuZ firmwares for core81-65 release
-8f22d3768e3109a2120f7906f682d37a99c91ff3 iwlwifi: add new FWs from core81-65 release
-d5c48a3b0dba7619a574e24a70898ea784263dde rtl_bt: Update RTL8851B BT USB firmware to 0x048A_D230
-84b8399168b04b6cea9fd10a682a5b5c13819f63 linux-firmware: Update FW files for MRVL PCIE 8997 chipsets
-dd490528ed3d30cdbf1908c40cda5556c3c19136 amd_pmf: Add initial PMF TA for Smart PC Solution Builder
-90abdfdf7853204a11e26bf8186261a3e471b2a8 iwlwifi: add FWs for new GL and MA device types with multiple RF modules
-91e502f5bbc8378cb715a1e0f2e56d942cf2d71a linux-firmware: Update firmware file for Intel Bluetooth 9260
-d1551ca7f5994394dd2f17e55b03a1ac4f7988c1 linux-firmware: Update firmware file for Intel Bluetooth 9560
-0a8ee9a54eb0b1b309c68ed3d002d78e1ed4ab58 linux-firmware: Update firmware file for Intel Bluetooth AX210
-5a39fb9ef0a51d6ae2db9131f00779952e4513d9 linux-firmware: Update firmware file for Intel Bluetooth AX211
-5999eaee7ece16693d3e67a77a02ccd515999833 linux-firmware: Update firmware file for Intel Bluetooth AX211
-dd746dce310a0d807eb0c6a5ca0875c0bba34511 linux-firmware: Update firmware file for Intel Bluetooth AX201
-91892d7361ebca881c894f7e07b72938ec0a99ff linux-firmware: Update firmware file for Intel Bluetooth AX201
-f9669c62e2f9f72ed2bcf40966789ddc62185bf2 linux-firmware: Add firmware file for Intel Bluetooth AX211
-778e415feabdd7810c258dbdc53ce43abf086668 i915: Update MTL DMC to v2.17
-e18c762f042f216c043a2444ab2000cd845ae9ba Add new Makefile target to build a deb and rpm package
-18ff279540b13706fe579816795e2e34250a9da3 Build debian and fedora images
-87d6b09319e9989960b92d547a73043979c09588 WHENCE: add symlink for BananaPi M64
-6cb53a8d7e3e0f2cd1e4e9dcecd545bdaa2fefa9 iwlwifi: add a missing FW from core80-39 release
-823edef3cc2ebd13288b5420ef8384a55362b4be linux-firmware: add Amlogic bluetooth firmware
-62e863259b9f183977af73c71bca6d9c7b375436 amdgpu: update aldebaran firmware from 5.7 branch
-80b2850e0a8fa87af998cfdfbcf3635bb5572822 amdgpu: update GC 11.0.3 firmware from 5.7 branch
-fd683fa92cb9aee1ffd82cf7cf5e31d85cddc70b amdgpu: update PSP 13.0.10 firmware from 5.7 branch
-120d2c8f13cdfe79c783035600fe93881a375b72 amdgpu: update SMU 13.0.10 firmware from 5.7 branch
-3edf6b76350d021a4740ea6fe2775d99fd6efde2 amdgpu: update raven2 firmware from 5.7 branch
-ed144afcf6b408b86dc3a77dd5dfd2ddf5d7c3c7 amdgpu: update navi10 firmware from 5.7 branch
-79520f79deee75dd6b53d34475f3009d0e4fa87f amdgpu: update yellow carp firmware from 5.7 branch
-69a5845ce9c3529340075ddd63f9e302a85b58b8 amdgpu: update GC 11.0.2 firmware from 5.7 branch
-ee26fdcd867ca06fc55136743c8746fd2ed050cb amdgpu: update PSP 13.0.7 firmware from 5.7 branch
-db61b4290f077c6ece7a14c1099e46963814afaa amdgpu: update SDMA 6.0.2 firmware from 5.7 branch
-3d67595e8c8258d8e754b968162e371dec8b1a88 amdgpu: update SMU 13.0.7 firmware from 5.7 branch
-a58305095d6ca49601fb9807b7f160c0fc69f9a3 amdgpu: update VCN 4.0.4 firmware from 5.7 branch
-1e8e668d1971ad574a86471bf2a1ce916c58cbfd amdgpu: update navi12 firmware from 5.7 branch
-3509b68ed1934dd37f16c7672dc16e3c85cd7adc amdgpu: update renoir firmware from 5.7 branch
-686a79a078d0247b5857bde9656f08d30ebd0cea amdgpu: update navi14 firmware from 5.7 branch
-d160580f6909f338b374eed43c17661ee2e04647 amdgpu: update GC 11.0.1 firmware from 5.7 branch
-0b2b7e36c4d8617f8a318553602d222350191729 amdgpu: update PSP 13.0.4 firmware from 5.7 branch
-9a91214a7a7f20d189765767b76c7be53f67686c amdgpu: update SDMA 6.0.1 firmware from 5.7 branch
-e52ed034b069d1245929693864b7909cf272cdbe amdgpu: update GC 11.0.4 firmware from 5.7 branch
-e6d096f9ba4a6a3c99ffacad244c5f7196528ca4 amdgpu: update PSP 13.0.11 firmware from 5.7 branch
-4900318af87b14ef99df1530e8d85bd2380dea7b amdgpu: update sienna cichlid firmware from 5.7 branch
-4cac3d61edc2c4ea359f365c28ac8f5fad577e93 amdgpu: update green sardine firmware from 5.7 branch
-a2d9d0b7bf87015fbf9320d6b5b1280b369da3db amdgpu: update vangogh firmware from 5.7 branch
-d4a047fcbb85cd41ebef6f8809e26fdcb5ed75cd amdgpu: update navy flounder firmware from 5.7 branch
-755a8d6a486deb0dd616d3726ec5a76e0db75f0f amdgpu: update picasso firmware from 5.7 branch
-21fc71f04533545b8fed4e5c7e3a575de767ca9c amdgpu: update dimgrey cavefish firmware from 5.7 branch
-80d42868befcbc935e18c19dcffd182bdd8f37e6 amdgpu: update vega10 firmware from 5.7 branch
-e6bfa5b5c087c702ae9a58959efdf10edc3d766b amdgpu: update vega12 firmware from 5.7 branch
-e6b27ea8b1881afb30e632766bbd4be496be9f72 amdgpu: update beige goby firmware from 5.7 branch
-ceb036d026865748fe1d7fec958c8fbe586f0302 amdgpu: update vega20 firmware from 5.7 branch
-cbec0a0d30075c6645c68735f13c67297bb91820 amdgpu: update GC 11.0.0 firmware from 5.7 branch
-12e692e7e6b6c0efa4ff7f153baba6e7a14f27bd amdgpu: update PSP 13.0.0 firmware from 5.7 branch
-bc71b75633c96dfa90fd28419861d799b1834bdf amdgpu: update SDMA 6.0.0 firmware from 5.7 branch
-966698ca8a66ff3c40ba1b63f094dcd1e8f35a58 amdgpu: update SMU 13.0.0 firmware from 5.7 branch
-cec394667bec1c2bbb4f4fae26cfc6e5e7197fbf amdgpu: update VCN 4.0.0 firmware from 5.7 branch
-c53438b7906a13440884efb45ad8f616622f7b74 amdgpu: update GC 10.3.6 firmware from 5.7 branch
-ed40f9d03ed00efcb8c3c07d57720bcfbab22162 amdgpu: update PSP 13.0.5 firmware from 5.7 branch
-f381c820a8972ab092745a9868f23070d03fefd0 amdgpu: update SDMA 5.2.6 firmware from 5.7 branch
-14f038aadf7460edace086868ee3674597cdd1ec amdgpu: update DCN 3.1.6 firmware from 5.7 branch
-59790250428175f2421a0627b9cdf95e68155d2f amdgpu: update GC 10.3.7 firmware from 5.7 branch
-81ef4cb2951a6c0c380ebd418503b7e5e3c89612 amdgpu: update PSP 13.0.8 firmware from 5.7 branch
-6b13b20e29663eeca801239ad934272e2edeb5dc amdgpu: update SDMA 5.2.7 firmware from 5.7 branch
-6baa613ba64b897c84e23c42d762bc999b8f4a7b amdgpu: update raven firmware from 5.7 branch
-335f2c01d5797787800461a0a45f78d2dfdff581 amdgpu: update SMU 13.0.0 firmware
-8e2bc724d42854b4439a75ba270e7a70faf62594 i915: Add GuC v70.13.1 for DG2, TGL, ADL-P and MTL
-5a73214d53ab7b6a61b05c95af80a1045a5f8f6f Add a script for a robot to open up pull requests
-31a7e5f4f16bcff67865d98a52d4f06f05d3ca0b Add support for sending emails while processing a PR/patch
-d89ee367d516925c3d409057a9aaaabeae22377d linux-firmware: Update AMD cpu microcode
-240313ef9787705307ea045c8e9f54ee71955aad Fix the robot email script
-54b70a4743e5d21c704258b5def11cd771e1bde8 rtl_nic: update firmware of RTL8156B
-bd56863b1366ff833ca7a2a857baf76e78b7496e Catch unicode decode errors
-e0dfec1b4a6c0bb2ad00353eee449da3d68b2db7 Use `git am` instead of `b4 shazam`
-a73605b632a175e4860af6084ea3d691abfa64af Disable deb and rpm CI other than at release
-1105666b7ed4b59ef2d4dc700783ef6d8c2eb72c Intel Bluetooth: Update firmware file for Intel Bluetooth BE200
-1576ef2795689d10d8be6bbe75451958d920a299 Intel Bluetooth: Update firmware file for Intel Bluetooth Magnetor AX211
-995e1cb9cf56f697e0eb35e6c624d0c7030ac99c Intel Bluetooth: Update firmware file for Intel Bluetooth Magnetor AX201
-ffa3f23558e00a157770fee3f3752943e1384e3d Intel Bluetooth: Update firmware file for Intel Bluetooth AX203
-6de5c9528113fe057208fcaf56372adf1e07838e Intel Bluetooth: Update firmware file for Intel Bluetooth AX203
-d197ae4f4e27ac7eb99dfd34859ff85bf62825c6 Intel Bluetooth: Update firmware file for Intel Bluetooth Magnetor AX101
-8a2d06c4903c4a5e8f9920d428c3de01cf0e64a7 Intel Bluetooth: Update firmware file for Intel Bluetooth AX210
-519f3dc76df51393ad75ed7bd38c3a6686cf2ea0 Intel Bluetooth: Update firmware file for Intel Bluetooth AX211
-7253ee2ed1c687bd18c4d8dbfb93b2987619ca28 Intel Bluetooth: Update firmware file for Intel Bluetooth AX211
-9595244d2449136913bc3de5e9fb8074f4ccb2fc rtw89: 8851b: update fw to v0.29.41.3
-5efc45bb2abd4673a7d3d97a8bb56b9c9b2e8ea7 rtw89: 8852b: update fw to v0.29.29.4
-d58022fdba57f6b2aadbce60b5c430b8171e94f3 rtw89: 8852b: update fw to v0.29.29.5
-3e83d8dca0a26969010526930ac84c7f9332fbb0 linux-firmware: ixp4xx: Add the IXP4xx firmware
-6155e45e010de5da54a5c46c764423e015320829 qca: add bluetooth firmware for WCN3988
-c47f19c2e77b193d9a1e5bd1310b66c26364c5d8 amdgpu: DMCUB updates for various AMDGPU ASICs
-d6ccf0fa1aaf9c0cdb9deb2fa22ecad59df99cf9 Intel Bluetooth: Update firmware file for Solar Intel Bluetooth AX210
-c643b5f9d2763b087b8d4fc87e233fb98b836be4 Intel Bluetooth: Update firmware file for Solar Intel Bluetooth AX211
-06c54ef81dc7839e4404a45b2262954a5fc208e7 Intel Bluetooth: Update firmware file for SolarF Intel Bluetooth AX211
-965877eae561da178b21435ea22e2c0c50ac8b28 Intel Bluetooth: Update firmware file for Solar Intel Bluetooth AX203
-3eb49d286111ac61f9f1c8dc1742d3838c961f80 Intel Bluetooth: Update firmware file for SolarF Intel Bluetooth AX203
-925ae3f809ee3ea378623d2e55a8145a187ca69e Intel Bluetooth: Update firmware file for Magnetor Intel Bluetooth AX211
-a89f76ab8a1a4c46e657c30dd254325c8f137432 Intel Bluetooth: Update firmware file for Magnetor Intel Bluetooth AX203
-8636097a30bd17a54728495d23fceb536b270315 Intel Bluetooth: Update firmware file for Magnetor Intel Bluetooth AX101
-002ead8b251a86798ee402d26ec67942583bcf18 Intel Bluetooth: Update firmware file for Intel Bluetooth BE200
-3800272a332e4b2b828664117304d81bf9ecffcf nvidia: add GSP-RM version 535.113.01 firmware images
-d89643c78af125b359700e2047e062d46cf433a0 Fix symlink creation for some files
-5e85b900813e75f9c27517c4d1275ad04df96f64 Add checks for destination directory being specified
-08f1dc9cba8a98240a523746c02bff2aec01f527 Ensure rdfind is installed
-a98e6de2731792ced3eb7d44a2235df11ae982fa Fix classification of some pull requests
-effd3873911a0fb2e62f964b2968f1b9a93c8d2d amdgpu: DMCUB updates for various AMDGPU ASICs
-d681263bf141c81225f91124f95805788e3cf55c Intel Bluetooth: Update firmware file for Solar Intel Bluetooth AX210
-545ef866670c860fbccf5d0678b274d0c93fd449 Intel Bluetooth: Update firmware file for Solar Intel Bluetooth AX211
-45612c688a4c5e63846258de364388689ab89301 Intel Bluetooth: Update firmware file for SolarF Intel Bluetooth AX211
-6d9f000b634d67e7068cfd982fccab8bc077077d Intel Bluetooth: Update firmware file for Solar Intel Bluetooth AX203
-9afb1a1e05e4d1ee76aaebc9179e68442022a4ac Intel Bluetooth: Update firmware file for SolarF Intel Bluetooth AX203
-3652f0f4f1a320882fc4f41838d9262d92dcfffe Intel Bluetooth: Update firmware file for Solar Intel Bluetooth AX101
-0c9aeb8051638bd08c9e57f94ee057229f79fc79 Intel Bluetooth: Update firmware file for SolarF Intel Bluetooth AX101
-1054cdbd08a12a6b2de69940b8421763f11405f8 Intel Bluetooth: Update firmware file for Magnetor Intel Bluetooth AX211
-979c62fd36fd97b08545793c0f169e0022d0f636 Intel Bluetooth: Update firmware file for Magnetor Intel Bluetooth AX203
-3bf6a1c9ad1e5facff8055784e021a706dffb44d Intel Bluetooth: Update firmware file for Magnetor Intel Bluetooth AX101
-3f1777681b33cbdd2f819696ae439029770128dd linux-firmware: add firmware for mt7988 internal 2.5G ethernet phy
-f639119d59767279f8871496773b9656cb301385 Process pull requets directly from mbox
-31edd4771187b396fa368974f98a8c9dd9299f32 Add extra debugging output when processing pull requests
-5e86467e1c8c5467bcefd474b656ebf0c141525b Add a workaround for gitlab.freedesktop.org pull requests
-39579763a63b849bbc465867d46a7d2d89e0ba98 iwlwifi: update cc/Qu/QuZ firmwares for core83-55 release
-11b4068c3c1fc1b2f181fee6e301a6a9a139abde iwlwifi: add new FWs from core83-55 release
-85a0fd729710b1b868c43c33c9e2c539cc73cca5 Enable deb and rpm builds on tags
-6875667745f8efbffbd86d1a07bc885b34559d2a linux-firmware: Add firmware for Cirrus CS35L41 on 2024 ASUS Zenbook Laptops
-1d070ee74e5375d30121807e9b31ed8c625571f1 linux-firmware: Add firmware for Cirrus CS35L41 on HP G11 Laptops
-9e256e0ef5508d9e68dcf2503f337f3656c841ac iwlwifi: fix for the new FWs from core83-55 release
-7c6c110f401ce97d5b1b9965dee1c88630d1e853 i915: Update MTL DMC to v2.19
-9db98e3ac9b6c4f4faa7aa752499cb33a1af6961 Try both utf-8 and windows-1252 for decoding email
-131840587d09c20dd29ec4457116abde7a2a1efa Make email replies more resilient
-7bd90f32794f35441b594c7786da25cffe3e778b Intel Bluetooth: Update firmware file for Intel Bluetooth BE200
-ffe29cd54d985c696fa64968ca1563f9d1465c4c mediatek: Sync shared memory structure changes
-f97cb99fc0e866325e1353defa9f4d6195dd83c7 amdgpu: update DMCUB firmware to 0.0.193.0 for DCN31 and DCN314
-6300073d521ba054443374b0557e1e416c3406bd mediatek: Remove an unused packed library
-2f516a32a1c1d7f3d6d0ab44878ef2090933277f ice: update ice DDP package to 1.3.35.0
-00dfd88a849d2eed93b58170e3e580f3c910074e ice: update ice DDP comms package to 1.3.45.0
-36561d051fc0e6534f40a1ebebf1dfef6baddc33 powervr: add firmware for Imagination Technologies AXE-1-16M GPU
-9383c4a804d5bc92729c2e202b4e79cbb19f1247 amdgpu: update DMCUB firmware to 0.0.194.0 for DCN321 and DCN32
-9b1082d78f8578117ae4b0de2cc985fc57dec97a Makefile, copy-firmware: Use portable "command -v" to detect installed programs
-21b5cda9e8359f247e32d96433f6f2419aae41df linux-firmware: update firmware for MT7921 WiFi device
-16838d7a520c586930a00123d36dd186d93b25eb linux-firmware: update firmware for MT7922 WiFi device
-790c14513d2602800e7135d777dec31771909401 linux-firmware: update firmware for mediatek bluetooth chip (MT7921)
-ddc6e42d4d9386d24ad99aaa9a1fb2f18b9931a1 linux-firmware: update firmware for mediatek bluetooth chip (MT7922)
-17de55f1491715f9b7a95ae8871dbec01a3977ac ice: update ice DDP wireless_edge package to 1.3.13.0
-598e33b6a048fab5aa0944581e8df665107c31ac Make rdfind optional
-7cb25a61638dc25fe69404f5e079fe7f6f31fc43 rtl_bt: Update RTL8852A BT USB firmware to 0xDFC8_145F
-094f0f3905bdca127d1bfb0f9962f14a6cd370fb Add a COPYOPTS variable
-641f564af570d6705a6e652141983f16514083ff s5p-mfc: Add MFC v12 Firmware
-30a42d794873879a4229c808510feedb5adf69c2 cxgb4: Update firmware to revision 1.27.5.0
-3a9fb1f82389feef0ccfaeb29cdd92a820718957 linux-firmware: add firmware for en8811h 2.5G ethernet phy
-773305a2e5fd3eabd6b0c5603e5f4c9494889e23 qcom: update Venus firmware file for v6.0
-b778e87a7e75aaab69fbac5aee9acb4c208c3782 qcom: update qcm2290/qrb4210 WiFi firmware file
-2f03b253652787669733b1ac9d9f47141eca2a81 qcom: update qcm2290 firmware
-d1e86d8ee2e0457f9045da5852d1ddb32a904377 qcom: update qrb4210 firmware
-a859aa3cab1958aaefdd6087a37b66bcadba4854 linux-firmware: Update AMD cpu microcode
-92ea21ecebb402872a244e753fdeb287b884127f wfx: fix broken firmware
-f4b4cda086564cae680ce4201a36b30b6a0f954b wfx: update to firmware 3.17
-fb242fff5c93f7a8d84dc4254a123886cd57fed6 Add rdfind for deb/rpm build jobs
-a696138ed62cf6facc975606722abb8e9063a9c3 qcom: Add Audio firmware for SM8550 QRD
-df53681401b74aeee7de2d70e8ad74bf5f007664 qcom: Add Audio firmware for SM8650 QRD
-2c674eb22cbb718b3f62f7997e8d81448dc5488d amdgpu: DMCUB updates for various AMDGPU ASICs
-2683d07c3628703054752a7f5fe656ae04f04c76 ath12k: add new driver and firmware for WCN7850
-687599d1b4628f7aa1e1901c142f95b002c932a1 ath10k: QCA6174 hw3.0: update firmware-6.bin to WLAN.RM.4.4.1-00309-
-2d7d4c11790f61a9d6d58cf93214bbc5bca92666 ath10k: QCA4019 hw1.0: update board-2.bin
-d5f63e541199d076e75fc51832aa0296e48e93f0 ath10k: QCA9888 hw2.0: update board-2.bin
-541d3ddf955e5785c97c2af67b5abb46df0f0eab ath10k: WCN3990 hw1.0: update board-2.bin
-0f69556e690988b82e589af27c1e51b738615574 ath11k: IPQ8074 hw2.0: update board-2.bin
-a51500d6b513defa73980dc5d4c125c8e8ac0ce2 ath11k: WCN6750 hw1.0: update board-2.bin
-c0147f6d33cce69faf68799f90f467254c0832e5 ath11k: WCN6855 hw2.0: update board-2.bin
-63a8ecf1cc241cad5af2678285884f1f45d63aff ath11k: WCN6855 hw2.0: update to WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.36
-bdd76e4eeac4f68b29f00b3b00ee9d3a7933111b iwlwifi: update gl FW for core80-165 release
-18666330c7eb9d7eb1f2b42f0d7c6adeff08c180 intel: vsc: Add firmware for Visual Sensing Controller
-057f5057957ddd0a6af1d3c381237fe6a0602305 cirrus: Add CS35L41 firmware and tunings for ASUS Zenbook 2022 Models
-173b81cdeb745796cc9d460409c6e1264c8e3eec cirrus: Add CS35L41 firmware and tunings for ASUS Zenbook 2023 Models
-7d775c1c6723b976781e50a84a06b719bf6c758f ASoC: tas2781: Add dsp firmware for different laptops
-91950cc8566f7844eb9962a9e2141a86a05a6acf rtl_bt: Add firmware and config files for RTL8852BT/RTL8852BE-VT
-4a42c527e26a85b889799863a2b55e8efa612069 ASoC: tas2563: Add dsp firmware for laptops or other mobile devices
-253043c20aa782bbb31f8856e0b9d5cbd2617900 QCA: Update Bluetooth QCA2066 firmware to 2.1.0-00629
-b341da12bdd5fdf0c2596143ceb78c0507f84103 QCA: Add bluetooth firmware nvm files for QCA2066
-553a35fafe9e7705cceea75b6195570606745e49 linux-firmware: add firmware for MT7925
-4a272bba4b042011054076946ef2719716bc1c42 linux-firmware: add firmware for mediatek bluetooth chip (MT7925)
-28ca955baca7b91ecdbfb337ba6b527eb3fcfc8e amlogic/bluetooth: add firmware bin of W1 serial soc(w1u_uart)
-eb51ff659f91382a2106055bf4693ddd578e3a17 amdgpu: DMCUB updates for DCN314
-bbe2ba68c34c732f77877ef979d48bcf7362404c Intel Bluetooth: Update firmware file for Solar Intel Bluetooth AX210
-5e59327cb9650b5bb664e638b6c4cdf3df929532 Intel Bluetooth: Update firmware file for Solar Intel Bluetooth AX203
-3c65b3e69e71b242439e46a7f993ec79827b2cb0 Intel Bluetooth: Update firmware file for Solar Intel Bluetooth AX101
-bdbf2a61a0fb103942c013093bd9c3330d9fc7bf Intel Bluetooth: Update firmware file for Magnetor Intel Bluetooth AX211
-ddca7eefbf5c138db8e1eba54e3f0dd6db467665 linux-firmware: update firmware for w1u_uart
-d976df107743dcab3f504e2d331a8fd32338b97a linux-firmware: update firmware for qat_4xxx devices
-c3f24fc5db39a37f76ab46236180bb437b2769d3 linux-firmware: Add firmware for Cirrus CS35L41 for various Dell laptops
-54048f084e27b9f7ee14aa4a77114f7ef03d0095 cirrus: Add CS35L41 firmware for Legion Slim 7 Gen 8 laptops
-b0ddebb5344cc817adfe48bbf59439f46c49f367 qcom: Update the firmware for Adreno a630 family of GPUs
-f6296d28b5f6545b3ee14581355a15ea7c63f048 amdgpu: DMCUB updates for DCN314
-b27a201b25cf367da8871cf7bd63d26840c9f7fe Intel Bluetooth: Update firmware file for Solar Intel Bluetooth AX211
-f6d2dec318a84d155c6ed29448f61fecfd103d9c Intel Bluetooth: Update firmware file for SolarF Intel Bluetooth AX211
-4600016d4af8b462b1863551a6dc3f2948961fc4 Intel Bluetooth: Update firmware file for SolarF Intel Bluetooth AX203
-ef8587fbabf7a9363375c95a9168fb712094e7a3 Intel Bluetooth: Update firmware file for Magnetor Intel Bluetooth AX203
-4d88a7883d313fe9b3066ec33c8d6c956f1b30fb Intel Bluetooth: Update firmware file for Magnetor Intel Bluetooth AX101
-365b19a2e628b91fcaaeb3fe71e286e4f9c19206 cirrus: Add firmware file for cs42l43
-433e7884ffe1507b486f9c3a4a391dbe2dff7c94 RTL8192E: Remove old realtek WiFi firmware
-32a439586e7262d914eb42376b160fadf3ffa4be linux-firmware: Update AMD cpu microcode
-49462aa8acf71c54f6177efe8e4c6a2e636c4e61 amdgpu: update aldebaran firmware
-e7694a8d56f7751495cd913dc5d45993db9163a9 amdgpu: update navi10 firmware
-85ec4b9045132bd23dfd7d9ecb8b459c00004d40 amdgpu: update GC 11.0.3 firmware
-d7024682ca07af1b1d17e30dd2bb8028d840a421 amdgpu: update PSP 13.0.10 firmware
-951b823e0cf629d73168c8eb5bc4bec5b7f66ba5 amdgpu: update SDMA 6.0.3 firmware
-b14c630c3110966810c8f8b75ae57d9126e4ac58 amdgpu: update SMU 13.0.10 firmware
-985196afa992d5eb7c256965329424d7a7c630a6 amdgpu: update yellow carp firmware
-d9c34f703849a940e887372bb94814cdea45f422 amdgpu: update navi12 firmware
-4002559dda641804166157ec96a3cb554eb5a995 amdgpu: update GC 11.0.2 firmware
-726b0689dd473033f4ffa4fcf3785f52e8aa0982 amdgpu: update PSP 13.0.7 firmware
-0db622b43fa5c3a05f494faa44da4cee429ef4f3 amdgpu: update SMU 13.0.7 firmware
-eaf9eb96eeed350e7cde8e53a74de11cd26f12fd amdgpu: update VCN 4.0.4 firmware
-36c571f0a200874b5856f2687de2c55e74a20134 amdgpu: update renoir firmware
-6cb5dc53c81c4243f20756deed09d5496967290d amdgpu: Add GC 9.4.3 firmware
-4168f6524fe154c7d0bf1e7943101ab18dd1d4a6 amdgpu: add PSP 13.0.6 firmware
-1d37f9f4229919f80f08ed361c05107107e7fd2b amdgpu: add SMU 13.0.6 firmware
-47416f6904197ea0acfb8c663652cbdad734e84b amdgpu: add SDMA 4.4.2 firmware
-25a6c1fb340fea8cac73fdd71fd2fef121872fb0 amdgpu: add VCN 4.0.3 firmware
-8f9fb60ef651179bb4b654b4fec15d64a80fd48d amdgpu: update navi14 firmware
-3d7607fa395fe464af99ef7d5a727a7b6d669211 amdgpu: update arcturus firmware
-cd19e181fabe11e7a61fe909a9b1d70c3635c077 amdgpu: update GC 11.0.1 firmware
-ee3a7e8b4f0df98086060c05c63f19883c21eb3a amdgpu: update PSP 13.0.4 firmware
-c81652a26877d029c62b8a426bc0c966f45146a2 amdgpu: update VCN 4.0.2 firmware
-a0672ca2a5a1779082824b4c1f33aad8dfbccdac amdgpu: update GC 11.0.4 firmware
-68cf978fb4d43efbd5fb529d2982d9112185500b amdgpu: update PSP 13.0.11 firmware
-f3b5ed38140d5f17f488d7afba41809b64c88665 amdgpu: update sienna cichlid firmware
-62a286cff268fa8557e4e091521e399540c2244d amdgpu: update green sardine firmware
-c8dfd6edb402227f62ad5a69f398496f39b7b9a5 amdgpu: update navy flounder firmware
-fc8aef11da42580df9037f5b4db5e823769e980a amdgpu: update vangogh firmware
-26c27039b1ec5c314eaddf5fe6dbfef135f42ac8 amdgpu: update dimgrey cavefish firmware
-8a48603947dc531eb4720b07e5c37dd3512a98b4 amdgpu: update picasso firmware
-18a0e6068c9c76b7b84869d2036641204b935962 amdgpu: update beige goby firmware
-560ccd032170fb584fb527690f58801efdf86425 amdgpu: update vega10 firmware
-3139b35bb96d445d89f5488a9d19404051238429 amdgpu: update vega12 firmware
-f4970e038fac020b43e777e2179f2ef2e7174b76 amdgpu: update GC 11.0.0 firmware
-bc210f55a27c6861f466a0bfeaad0764b52747fd amdgpu: update PSP 13.0.0 firmware
-ac4accbe7bb5117e67ba371e55be7581b4310378 amdgpu: update SMU 13.0.0 firmware
-34b06eec4db6f9cc52b805715f3e5c7893822972 amdgpu: update VCN 4.0.0 firmware
-1da860c193570b5bd39f9099b0d7953bb9c050ba amdgpu: update vega20 firmware
-3b710b05cb5963a3af4df1a1f2d4d2f0f1469012 amdgpu: add GC 11.0.1 rlc_1 firmware
-719b0eea87b19cac0935c3342408603de182ed92 amdgpu: update GC 10.3.6 firmware
-b5bd9b9b736e8535d12805b69502cd09a0af7298 amdgpu: update PSP 13.0.5 firmware
-368a3a1534b6d2436c510ce860ce4a35bb245e4d amdgpu: update SDMA 5.2.6 firmware
-8cfa5aa1cb86805289a2d9d26aa50a923f8f89ab amdgpu: update VCN 3.1.2 firmware
-9e509f50b87cbe68ea4479ac8745c932c63026c4 amdgpu: update PSP 13.0.8 firmware
-2173d61810e56e8abab26bc141aa7afef2d4fc87 amdgpu: update SDMA 5.2.7 firmware
-d5352c363f1dffe919177d68c9e6ab04c0648809 amdgpu: update raven firmware
-a7a858baf8c64045d255dd5be448820630f51428 amdgpu: update raven2 firmware
-c88b7e3cdb3d5b953463cbc1cd5cec471d5ce3ff Intel Bluetooth: Make spacing consistent with rest of WHENCE
-1f0b362ea5e6414db135ae48e665746bf1a4900c qcom: Add Audio firmware for SM8650 MTP
-bb61c379b5d1fa2fd40c1bb4efb1fdb6cbd52d65 linux-firmware: Add firmware for Cirrus CS35L41 on HP Consumer Laptops
-d7787bcf4ee21e58d9166a9a1c41b0ea4834695a brcm: Add brcmfmac43430-sdio.xxx.txt nvram for the Chuwi Hi8 (CWI509) tablet
-6efedf54a750d64b006f1fffbcb22e653102936c amdgpu: DMCUB updates for various AMDGPU ASICs
-530ed9e7319c9e96946e532c9e322ed68538590e amdgpu: update GC 11.0.0 firmware
-3996215c7515e085dfc1fb2bb87f97f8e3c1fc14 amdgpu: update PSP 13.0.0 firmware
-30837686d316f8e7f64f6f2fe083bc714bb8b04e amdgpu: update SMU 13.0.0 firmware
-2780a6827885c3b51d7526a7a1658c9d4c784c83 Revert "amdgpu: DMCUB updates for various AMDGPU ASICs"
-e5c3cb9c27c73643ec6a1356f817b49d1b42eca9 ath11k: WCN6855 hw2.0: update to WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.37
-4e80de3cf6f09e7e7cdcf94d9c02953f83b044d5 linux-firmware: intel: Add IPU6 firmware binaries
-9088fab84520e2a15500915a3105c60b8c06e4ed linux-firmware: wilc1000: update WILC1000 firmware to v16.1.2
-77d309270530f876f6aeb812852b71fca063653e qcom: Add Audio firmware for SM8550 HDK
-cd4c356a1701b12b4d8cc59690c12d1960bbb588 rtl_nic: add firmware for RTL8126A
-ccf8bc1d9a1f792198a5622895b59128c36dbbb7 amdgpu: update DMCUB to v0.0.203.0 for DCN314 and DCN32
-b7f6ab65d8c1d290abbec69fd926ee4a8bb3a129 Montage: add firmware for Mont-TSSE
-7028a2656bdeeb54b728d2d92ae6b7802a2d16a1 amdgpu: DMCUB updates for Yellow Carp: 4.0.68.0
-732a6a0621359ab5af51db6f98ceefc8a458a8b8 amdgpu: DMCUB Updates for DCN321: 7.0.38.0
-903de2fcb3352b05a8ef6234ad4256a5a6489c95 panthor: Add initial firmware for Gen10 Arm Mali GPUs
-741134493765482cf076573b795ed0b9df65aacb linux-firmware: Add CS35L41 firmware for additional ASUS Zenbook 2023 models
-b0a000e39e87491ecce59267e3da51466d67cd9f qcom: update venus firmware file for v5.4
-76ec2601310d1cd6ce9e0e4784dd1f0e90031c93 WHENCE: Clean up section separators
-232df08d3a90e10c0e613be01edfb24a2a01eb67 linux-firmware: Fix filenames for some CS35L41 firmwares for HP
-c6ccc4b8a762f1e42174fbc147fb2cd454e1d420 linux-firmware: Remove 2 HP laptops using CS35L41 Audio Firmware
-9ea28a2e18a8fc8cba40c77c182f92426f936423 check_whence: Add a check for duplicate link entries
-ee195d670adf8f20d3bec2ce1dd97e426c1da998 Intel IPU6: Move firmware binaries under ipu/
-fd5d17964e5ec300bbbd9d1a6fe1f209d06a7a1e Intel IPU3 ImgU: Move firmware file under intel/ipu
-e894cacf98bdc9106d94f11579a9ddd59b85ce0f ice: update ice DDP package to 1.3.36.0
-d435c3d8fb1c6c799c7f0a378134952c6d08c669 brcm: Add nvram for the Asus Memo Pad 7 ME176C tablet
-1befe8a6e11bb024b7e82d3120591ec1af8a34d8 linux-firmware: Add CS35L41 firmware for Lenovo Legion 7i gen7 laptop (16IAX7)
-4ab498a89f67b8702de433c4662ce8290eeb761a i915: Add GuC v70.20.0 for ADL-P, DG1, DG2, MTL and TGL
-289b4cd5d95f306fbcb2d5fec5abc385d775ff38 xe: First GuC release for LNL and Xe
-bff8d8e44860037bb08722f940805a645b84ec82 linux-firmware: add firmware for MT7996
-aada82d9765728955f374f8a214baacfe636d02c linux-firmware: update firmware for en8811h 2.5G ethernet phy
-27370295f40c747ca16225f1eca7547750092b74 i915: Update MTL DMC v2.21
-c7e23d917c7d3c04f1db857fc6ba5945426ee340 i915: Add Xe2LPD DMC v2.18
-c8fe05a955c24be429dcf0dab78ff2c127a72e2a brcm: Add nvram for the Acer Iconia One 7 B1-750 tablet
-8264c65d1e14c3db6bd74f2a6257846bead5f611 Intel IPU2: Add firmware files
-e02139ab0cf40dbed0c96f52c4d324a12ef337b5 amdgpu: Update VCN firmware binaries
-13536169d6d32fe21df478fca1832c7ca7628ac3 linux-firmware: Add CS35L41 HDA Firmware for Lenovo Thinkbook 16P Laptops
-a1b55c13b6985b638202675763251df30199c471 linux-firmware: update firmware for MT7922 WiFi device
-d947651efe58fec5416e1dd021856915ee311a67 linux-firmware: update firmware for mediatek bluetooth chip (MT7922)
-dd9842f0ebaa1572b2e41052edb001940726d3c4 linux-firmware: update firmware for MT7921 WiFi device
-d3c236eaade93047cc326b8a54652b71f18b6335 rtl_bt: Update RTL8852A BT USB firmware to 0xD9D6_17DA
-c6d1aebdc2dd5ea8b38b08412a90ec7d8992a67f iwlwifi: update 9000-family firmwares to core85-89
-4c117dd9fc77487bf14b6ab9efbfaac8db5b6bec linux-firmware: update firmware for mediatek bluetooth chip (MT7921)
-a87b3902310c0836302d09cb81d248f0a78c959e imx: sdma: update firmware to v3.6/v4.6
-e12d9d7a12f468342e08845b98d2b6a646e48475 linux-firmware: mediatek: Update MT8173 VPU firmware to v1.1.8
-c1b45fe7e5012dd6ff046e994c01e123451648c2 amdgpu: DMCUB updates for various AMDGPU ASICs
-a685ddfb9fac2b16aba6c5f41d81418d0e86bcab Intel Bluetooth: Update firmware file for Intel Bluetooth 9260
-23773b9e4cd0fd6b8bb51b2c7c23cfbb9fd462f2 Intel Bluetooth: Update firmware file for Intel Bluetooth 9560
-b99bda7744ecdd0dce73c31287335296d619ae12 Intel Bluetooth: Update firmware file for Intel Bluetooth AX201
-af3b01a82e858af403ebcab915280eb1937be52a Intel Bluetooth: Update firmware file for Intel Bluetooth AX200
-57e55e49810239f89d7d37153e2820ac11fa056b Intel Bluetooth: Update firmware file for Solar Intel Bluetooth AX210
-b80259410fe5da90d2ac030a5860d2a657f9a707 Intel Bluetooth: Update firmware file for Solar Intel Bluetooth AX211
-3b0c39420c2cfe40552668bdbcde245db438d77b Intel Bluetooth: Update firmware file for SolarF Intel Bluetooth AX211
-b9181da1ab3748f6139b63e5b35c3139c457c94c Intel Bluetooth: Update firmware file for Solar Intel Bluetooth AX203
-9a6670967f675f58d3b35c37ef8c691b7d6264fc Intel Bluetooth: Update firmware file for SolarF Intel Bluetooth AX203
-ad1e25cb0cec6f2dbbfc5cb64d2817adc5338172 Intel Bluetooth: Update firmware file for Solar Intel Bluetooth AX101
-ceef15136015caec5a330b1ec84671bf8193269b Intel Bluetooth: Update firmware file for SolarF Intel Bluetooth AX101
-795de14a19a8ed5160733e9c90945d4b01efa0e1 Intel Bluetooth: Update firmware file for Magnetor Intel Bluetooth AX211
-fac51a2e88b6d9c6123ebb00b4b92d09b8a60f75 Intel Bluetooth: Update firmware file for Magnetor Intel Bluetooth AX203
-64b84df349b6d0836446bc16290f7eb0b802a255 Intel Bluetooth: Update firmware file for Magnetor Intel Bluetooth AX101
-eb73f77b35ac1a1c8ec8c286bed8aa75a0a00134 Intel Bluetooth: Update firmware file for Intel Bluetooth BE200
-0265e9e911f38d6cdad65bcd851585bf27fe801c WHENCE: Link the Raspberry Pi CM4 and 5B to the 4B
-489785a80b5e42aff701be61f1092d4e138db715 Montage: update firmware for Mont-TSSE
-1c0cb250bc493bbc2fe178f8bdae48bbc0655973 linux-firmware: Add firmware for Cirrus CS35L56 for Dell laptops
-7dc9a4411899f10e2503d176f1b73a876e364e53 mekdiatek: Update mt8186 SOF firmware to v2.0.1
-92f4a891ca67373e8ae0a58f9cd50360474cbf09 linux-firmware: update firmware for en8811h 2.5G ethernet phy
-8f2fa44977f5cc5af7e8c8557cbd4d2a92b14e0e amdgpu: DMCUB updates for various AMDGPU ASICs
-2bc6a7985ddcfb7794a5b9c678c040f381f7e78d i915: Add DG2 HuC 7.10.15
-24c5f942367b7af04efcb647c54a71ff0c7f17f2 ath10k: WCN3990: hw1.0: move firmware back from qcom/ location
-dfecd5624b0fe1aa43ade1cc45b4e15e07868ce3 ath10k: WCN3990: hw1.0: add qcm2290 firmware API file
-e89529285c7230a323c90349e30a4c8e1c113e38 rtw88: Add RTL8703B firmware v11.0.0
-ccc1ff4dbecc3d2690fd0286ae00af375a664111 rtw89: 8922a: add firmware v0.35.18.0
-d79b4325af8f087370655c3aa2eab1e41fbc23f6 rtw89: 8852c: update fw to v0.27.56.14
+857819442e4687c5a1fb8c6e0d7e49f09ab3e7c9 Update kernel headers
+3aa461b188eb19a42a0cf9e470bdcbf19f291d8f f_flower: Treat port 0 as valid
+178afb7c0a7625553eeda7b2305fed4ba2e39aa9 misc/ifstat: fix incorrect output data in json mode
+8e711617ab5e32b69e0af95ad1c154dd6ab89de7 include: dual license the bpf helper includes
+c97040bc78ccda520a63e6eff6a0e914b0f459a4 Add missing SPDX headers
+47cd4d29f69bc34bbf7e38624efb8a004ae81e4b misc/ifstat: fix incorrect output data in json mode
+71e81ee45e6b9783d266c93d1d83bc4b3da25d00 bridge/mdb.c: include limits.h
+b41e20452a531ff9e3f7a01a49e421ff4a944e13 tc: fix a wrong file name in comment
+484a95d894e121dbbb99d578b3bfec3cd470de0b man: (ss) fix wrong margin
+0e79d26fa7cf897ec60c14b71853887609170346 Read configuration files from /etc and /usr
+5aeb3be19d3dec20feedc692210cc86f066b0c90 bridge: link: allow filtering on bridge name
+bab2aac81136e920f88184a960ef06170d5f0cbf ip: error out if iplink does not consume all options
+fbb2b8da17708b6e0394cf594570117f739da96b bridge: Add backup nexthop ID support
+47da274be36b1e367065d17f1abe2af3c87b5299 tc: Classifier support for SPI field
+f541356c3a298a858f40926fc18c5f5574a1dd14 devlink: accept "name" command line option instead of "trap"/"group"
+6d19f683cf5386f2901d66b3d5d4e5ee937d5a26 Add get_long utility and adapt get_integer accordingly
+4f2224504599a929a496bb9fa705ada38835bb7b Add utility to convert an unsigned int to string
+d58ae64185c9b08af9f60e1415843d252c4b5c51 ss: change aafilter port from int to long (inode support)
+ec2e8eff0e3837694285705a92e28b6b170f7ce9 ss: print unix socket "ports" as unsigned int (inode)
+2aba17021573f97c673ad12dbc0dbaa4f5c4e605 utils: fix get_integer() logic
+9c90af70fa4ccd63e0c85ed49cdcf06087d2d902 ss: report when the RxNoPad optimization is set on TLS sockets
+369a9949295f170e9494a753871c15edbe8560af seg6: man: ip-link.8: add description of NEXT-C-SID flavor for SRv6 End.X behavior
+5981039d3e931720c22ab5a4efdfd7dd1b64e8d2 uapi: update headers
+e945cd61080f57a258ec262feb8ba64dfdb2e08f man: bridge: update bridge link show
+c1fcd390a1afc38f75370b88503ad28e5af95a7c tc/taprio: don't print netlink attributes which weren't reported by the kernel
+0371fe2ac94f4690f8bae10d039ed2e69969607c tc/taprio: fix JSON output when TCA_TAPRIO_ATTR_ADMIN_SCHED is present
+e9ac736b101393fcdede9d6b028e9e89b8bb4fab devlink: spell out STATE in devlink port function help
+94acddeb8272c3e07eeb3db5fc119e6d90c57196 ss: make is_selinux_enabled stub work like in SELinux
+36b4459b2a6e46c5424f2df0a9225c8c6f3e9474 ss: make SELinux stub functions conformant to API definitions
+e3b6fd4a2aa54bfdb8751216dc027348a73c4fc0 lib: add SELinux include and stub functions
+78bc4a24108c2f1f8d1ce3adc5c4d9e252abdcc3 ip vrf: make ipvrf_exec SELinux-aware
+c0921ce2f552de23a2a9c6984ab6a2c9a337ff35 Update kernel headers
+3481b5c5b935d517e8070d806824d93f8bbbc99e tc: support the netem seed parameter for loss and corruption events
+051600ad81de7abc6d0440d91b3738de5f8623c7 man: tc-netem: add section for specifying the netem seed
+17f2abb41938024cf046138e9a93f04dc55de464 ss: Fix socket type check in packet_show_line()
+c71b4a4df568d1bc5f0ef7a0fbcf1e3f387003d5 ip-vrf: recommend using CAP_BPF rather than CAP_SYS_ADMIN
+c431c2516b793b2d4a81a6b84fcc81865ca00a3c ss: mptcp: display info counters as unsigned
+f4b310c03be3b78ec8a3e370bb98e8cb2bde53b1 ss: mptcp: display seq related counters as decimal
+32372f159b5e1693f0af8768018ab99424d7aec8 ss: mptcp: print missing info counters
+65996fb57211502444763b72cace877445a16075 tc: fix typo in netem's usage string
+84979482098674ff734eb1b975bf7dcd164ec2f7 iplink_bridge: fix incorrect root id dump
+7df73931120882a078e3f24a7c5f5c72af6abe9a v6.5.0
+f0b1e13aa31ea12c2c6d40fea46eafb3b9b5fc5e tc: fix several typos in netem's usage string
+3584dd768485e0603fc54aab7c339611e8886a6e devlink: move DL_OPT_SB into required options
+7246671f043883a490de83ed575dc6037f8d53da devlink: make parsing of handle non-destructive to argv
+17589cb9fb29da739289a477b6537940bf165cb2 devlink: implement command line args dry parsing
+243b26a08851ce677e5c2bcffc9b7417d030a830 devlink: return -ENOENT if argument is missing
+8f2a44f280d64d66b1d23cedaa34c92e8a200937 mnl_utils: introduce a helper to check if dump policy exists for command
+66230411c6ccc1bc664b09e5c6ca30da1a9c969f devlink: implement dump selector for devlink objects show commands
+871cb3fce8812129babf8f4cadd2aca9dd1b6beb vdpa: consume device_features parameter
+6a0f28d532d29ff1c140df10fd5d840f49e1b20a configure: add the --color option
+d99ad963afc74db021e05abe15b21530c87d5e3e treewide: use configured value as the default color output
+e590f7be4be304126f051e5d743e860824b6f030 tc: add missing space before else
+5c18aa01153c2453ea849970097abae43f76f1e5 uapi: headers update from 6.6-rc2
+bad80a0be48641cabc9620847e2ab95011712e79 fix set-not-used warnings
+062dcb2602b42a607225922e3053993c9212cdb5 Makefile: ensure CONF_USR_DIR honours the libdir config
+7b541716fc6867457dc0bbd3af7707b922251fe9 bridge: fix potential snprintf overflow
+a32522ac3124c2b7510da3be8a04c7ffe72845aa ila: fix potential snprintf buffer overflow
+3146ef13a769ca92765058f495641afbd261d250 Add security policy
+74cb89757275342841feee6691b180ca0720f217 uapi: update headers from 6.6-rc4
+f441c5e2dbec1eb2c1e677d51f582f07be95e88d devlink: Support setting port function ipsec_crypto cap
+0fcb0f25a6c8f93731b9f289b11754aad786b194 devlink: Support setting port function ipsec_packet cap
+6d839ff2994d213723837a05fad3e65fa2dfc533 rdma: Update uapi headers
+daf23b4bfb3316c1be71b6343e2be499cdab524b rdma: Add support to dump SRQ resource in raw format
+0e4cf25368b18699622669137af55809c08d39fa ila: fix array overflow warning
+9384bf1ab8352eef77c76a690b34d0122bcfd62c uapi: update from 6.6-rc5
+d78f1d84338e67a4b22ab54505378c6e3a96d23c bridge: fdb: add an error print for unknown command
+c98e5bea55be39f372596e86f907809318ae3749 ip: fix memory leak in 'ip maddr show'
+455ee5a3c0acce08d8bcb2cc622611cb606b845f Update kernel headers
+09b8f08c6f28b24178e48c99a0473761c90024ee iplink: bridge: Add support for bridge FDB learning limits
+d17bea5d8c65d7937c8d5414dc086f9ac7ca9eda bridge: fdb: rename some variables to contain 'brport'
+33efea0aa8297132179d53f528abe80a627ff7a6 bridge: fdb: support match on source VNI in flush command
+661d064e855808b740118d7898619ef6c9534ff8 bridge: fdb: support match on nexthop ID in flush command
+5a5a53d8792dff22d5fbf8a3b16fcd3e74d41350 bridge: fdb: support match on destination VNI in flush command
+0cfc6b4ae9b1dc37acf8f9ef136dbe686e4f541e bridge: fdb: support match on destination port in flush command
+fd7d766c328b863bcc5470a40bc83b19930f7be6 bridge: fdb: support match on destination IP in flush command
+3fd42586349c2f6e74a34916995bbbce1b5f67e1 bridge: fdb: support match on [no]router flag in flush command
+2922b564d1a20815c68d29af075e3e8630a225ea man: bridge: add a note about using 'master' and 'self' with flush
+c9c4e546d5fea022b6708e19cbb2473f2a40bee4 rdma: update uapi headers
+dbce1790da60a3e6730a8049f4799afdf357bf4c rdma: Add an option to set privileged QKEY parameter
+e59eb7179382f794b31fa0345ee563a0564e8f4d rdma: Adjust man page for rdma system set privileged-qkey command
+2eba19815d0ff760df206303b9c76e8e3d12b7ca libbpf: set kernel_log_level when available
+0304e2211ec20c426e053576f9a5aa4172efc8c4 bpf: increase verifier verbosity when in verbose mode
+12e6ed50bea0dfed97ff57c1021f1e5e9032c325 Update kernel headers
+59456e1b63f7875bc62e8f259e1ccc1f24781daa bridge: mdb: Add get support
+757ea799e7d303fd2c1a5b1c1de0c0738f4102d9 ip/ipnetns: move internals of get_netnsid_from_name() into namespace.c
+ae6527b4a7ca349e306adeddc2b55fd90fca7005 devlink: use snprintf instead of sprintf
+e78d832377d18a1e37d503c7ed3820f9a3a914ad devlink: do conditional new line print in pr_out_port_handle_end()
+9c65badb63aab1d82564398a0610bfd3b1f629fd devlink: extend pr_out_nested_handle() to print object
+8bd115c5123cba0f46e11d460910ef844d1db724 devlink: introduce support for netns id for nested handle
+e538c073859402a3aaa9867676129a451ac22a02 devlink: print nested handle for port function
+89935add599122252839d04df2d55b50b4c32954 devlink: print nested devlink handle for devlink dev
+9ac918d39cfa931830042c402ace22514984de63 ip, link: Add support for netkit
+f2a8b72aaffd79f250477f482cfd36249c030332 lib: utils: Switch matches() to returning int again
+5bc1b88454321afa2d2f13c7f83fa1e7e285e4c6 lib: utils: Generalize parse_one_of()
+741aefccb8b8a6719b4cd99a233d59f9f6c7fe45 lib: utils: Convert parse_on_off() to strcmp()
+3713760b803e0841d355fef7767e7d6cc5c45910 lib: utils: Introduce parse_one_of_deprecated()
+881995bd946c15f81b1ae2401dfd02ec7a3bcf8e lib: utils: Have parse_one_of() warn about prefix matches
+39142872bf9ea0a29a0668a6c6600e2ac3649828 ss: fix directory leak when -T option is used
+e4f5dd77e4748ccc36946c27eaa33129f5b0c535 tc: remove support for CBQ
+fcc7301c9ba6cd23e7aafdf8c4b564661cd08ca0 tc: remove support for RSVP classifier
+3de6d2377d8d934d67113c56a071ecbf71900198 tc: remove tcindex classifier
+3ca43d26954a7072bf726a92d1f4a7379553f0c5 tc: remove dsmark qdisc
+9edfd9d173c178417b71c7cab56a56e5fb6e8b49 tc: drop support for ATM qdisc
+6d432526dc894adc4e24add2b7f7c3520c81a172 ss: add support for rcv_wnd and rehash
+6c2a589413bbe23eed2f725c326709b7b2a8bb29 ssfilter: fix clang warning about conversion
+504768ed428b5978a4243d161ef1798045a59525 vv6.6.0
+ef1963fe75ea33d8e6496b87d3d9e562faa85be0 v6.6.0
+e0211a03c99b7733545dc785f461a3e99d316d24 Revert "Makefile: ensure CONF_USR_DIR honours the libdir config"
+31075bbb487a551258a7b3fc3e56def11f65cfc6 libnetlink: validate nlmsg header length first
+bcdbee2c6a0ae6f099ef0239b55c19e3d01ed16b uapi: update headers from 6.7-rc1
+7037e0e561b9a9f817215a9a20aac752e313dba9 Makefile: use /usr/share/iproute2 for config files
+2ff375ad54dd8349cf51b742b460aa72f9127add iproute2: prevent memory leak
+ae203b5528da7f5626b1d7fb4119ba846849fbf0 ip: move get_failed blocks
+b0abc19e6d7fd42403fd071e5ab368db0f02652b man: fix man page errors
+e6eab5296c7a8dfc6186ad7b0429e84aff7017d5 man: allow up to 100 character lines
+1f19fe188c25cbc9f6ff9494001d031b344cafa2 ip route: add support for TCP usec TS
+2f1c28999c5e2a5d868c6a0b4a0bbfff4ba1b4e5 ss: add report of TCPI_OPT_USEC_TS
+79484e6ae06d8c19c92b50373a9175507908f7ed tc: fq: add TCA_FQ_PRIOMAP handling
+41d580de4795ab3d9a79dab25c64ac6c9dfd2a82 tc: fq: add TCA_FQ_WEIGHTS handling
+26f6a44df009c3a8f524c2f80f27b5b8b8e24b02 tc: fq: reports stats added in linux-6.7
+58522dd677625cb9bd789ba22a53e9da6f9e4d20 ip: require RTM_NEWLINK
+ac8da4f4f4dd1d85716cb2e349b08ff410666840 configure: Add _GNU_SOURCE to strlcpy configure test
+60c91cbcd379e9815aeb3bc1eba7868a418cd3a7 Update kernel headers
+a489f8230dfd012348e4e00ed46c93c115513b66 ss: mptcp: print out subflows_total counter
+2f1becba4d45ae4929bff8d3382f913dfaac2588 ss: Add support for dumping TCP bound-inactive sockets.
+928e5400ad06810401f53f326907d55697cd9695 Update kernel headers
+753bb171484fe2fc8e164c822bc0970ac6d8793f bridge: mdb: Add flush support
+7b085271825b6e20324a7230df6e764545c1649f remove support for iptables action
+eabdcb1103caeb5484b61fbf840ffe4fc8e0dd42 iproute2: prevent memory leak on error return
+00f36480ad8eacf26d4c403203c22f576b857449 iplink: spelling fix in error message
+16065471e47a1f04f0babad367b0d516d40fd3b1 ss: prevent "Process" column from being printed unless requested
+614f6ef248b97070494690f4c3ae66819d67536d mnl_utils: sanitize incoming netlink payload size in callbacks
+18b4339cdef680eaffb106a54f589078b1417466 man: ip-route.8: Fix typo in rt_protos location spec
+c6025ebfebd49db389bc3b7cd7259b6a5c2caf16 man: Fix malformatted database file locations
+bf8b8150c28494f6d78a160c60e8f423bd064eb9 configure: drop test for ATM
+5d84a10b52cd07b70a16729d80e3379374bea31b bridge: vni: Accept 'del' command
+7fd281ea14c558efa0563ff99c2ebfa456c659cc bridge: vni: Remove dead code in group argument parsing
+23f6ccb4e72d1090693bdde42872f41e5415fea2 bridge: vni: Fix duplicate group and remote error messages
+2ea2b639bd3a228159eed4f32a570d57230be068 bridge: vni: Report duplicate vni argument using duparg()
+ab92e4b50a93af4e49cd9c472f6431fe523a7df9 bridge: vni: Fix vni filter help strings
+ced04ef297ceb1b30a881b168798e1a11072ce44 bridge: vlan: Use printf() to avoid temporary buffer
+443b583ba13f26c9ad54b392c0251740d2ebd9e8 bridge: vlan: Remove paranoid check
+5527c7ac42beee7334edb1b12bc93dee38949519 bridge: vni: Remove print_vnifilter_rtm_filter()
+b5e17384a9aaa7951dff786050749306d88b62ac bridge: vni: Move open_json_object() within print_vni()
+6781ce8ea8d54d7d88576c9d8beb06bb2a2877cd bridge: vni: Guard close_vni_port() call
+a598f0cc22eb603b28c4450f7558df16a3dd9603 bridge: vni: Reverse the logic in print_vnifilter_rtm()
+987a008e0deb83471b846dd176ee513102e1aa36 bridge: vni: Remove stray newlines after each interface
+dd0c27807d6f372d1391f061842bc6a54356e206 bridge: vni: Replace open-coded instance of print_nl()
+6ff3c83f98d9c721da4474923417e75097f4d167 bridge: vni: Remove unused argument in open_vni_port()
+3ec8d48c4a17d446e574a5f467c79e6a08d0a8f3 bridge: vni: Align output columns
+f1a5a8f30475dfddfb0c5657ae7c191d5a59cec1 bridge: vni: Indent statistics with 2 spaces
+e54eddb756019c610de683e1201e5c5fc75cd7db bridge: Deduplicate print_range()
+a9a64431b919f738516793c3817f72ffad0d2c7b bridge: Provide rta_type()
+e9ac1038cffad5f774a7349ba1a6ae6ce70aac8c ip-link: use shorter URL to kernel docs
+05568fecc7660a72a24b2792a92bc1f66b905297 rdma: use print_XXX instead of COLOR_NONE
+25acd7458f0fd4f94190bc70367bfd27e9ada2cb configure: avoid un-recommended command substitution form
+8607159a378ffebe50d7a94288d29645988ec320 ip: merge duplicate if clauses
+1104599598f209182280e9b39110d5b57a9a3792 rdma: shorten print_ lines
+2667a9fa6e7fc875c5e96c93e4033acfb5b5d611 rdma: use standard flag for json
+9e0c1d71fa29985b1291b82d0952138be6d50bca rdma: make pretty behave like other commands
+2275205d2bdabde420361a101003a1857dcfacea rdma: make supress_errors a bit
+eb09616562970e433ec0f3782caca4de5aa70e72 rdma: add oneline flag
+bb4163e45f206160e9e01fc99eed80971cb17986 rdma: do not mix newline and json object
+911abc6e285bffd84fd3230d7dd41543ffd7cc8f rdma: Fix the error of accessing string variable outside the lifecycle
+a81ed6fc2f59290f6553b3251a73b01c63ddf274 lnstat: Fix deref of null in print_json() function
+77af25c3a24d661d7d3403cb884ebf1645a7fce2 v6.7.0
+2aa2dc2816668f519cfe4f526e7d92acdf1cbcdf iplink_xstats: spelling fix in error message
+33cdf7b229fbc5c72164158fc4ae7e0bd2489272 genl: ctrl.c: spelling fix in error message
+b5513f1e21ec7bc21d1bfcb26ba46c6ef022b723 man: drop references to ifconfig
+26f43a029f18772901360f70b8eff91124543349 Revert "ss: prevent "Process" column from being printed unless requested"
+c0de56cdb418e7eace39acc70a65b9e5bcfb10de uapi: update headers from 6.8-rc1
+6872635c8e86309d31db3f6a2cdb6bf94dec25ea Reapply "ss: prevent "Process" column from being printed unless requested"
+0149d335cda0f0ff551baa9df4250a5ffb90a524 ss: show extra info when '--processes' is not used
+4c8901e1daaf2c15bb608da5d484c5a683fbf9d5 man: get rid of doc/actions/mirred-usage
+0532c441c7fe91d2a178f3d82fabce5df0b2ff98 man/tc-gact: move generic action documentation to man page
+ad5ed0283a272897bf3beb33a1ef5feb5655bd2d doc: remove ifb README
+d770c346e68f850fb0f0fe29ee82ab440ffe272b doc: remove out dated actions-general
+d270622cf70ad80c19efda94e2b37c7c779b99f5 uapi: remove tc_ipt.h
+01d512f5839c10aa41f09aca05381d3e10b2038d tc: unify clockid handling
+9e29ae71a360b1e23969b222d249703dc0945dbf tc: better clockid handling
+6f7888acbbaac30faa0ee6d5e38a0a3a1063cb2e man: correct double word in htb
+5cf2dae4c3c7cafe5d003e90bd8aa9351c15d9e8 man: fix duplicate words in l2tp, sfb and tipc
+67369877552877452944e451421a033e7d62be7b uapi: update virtio_config.h
+704ef58b26d6ba3fc292e3cbffc3fdf047be4ae7 color: handle case where fmt is NULL
+882dff0369d6ecf243723fc23ba004692f808ca7 bpf: include libgen.h for basename
+a9c464e060b98a07f8854c8560062becec61f721 spelling fixes
+f4661db7d47ab8719d89d6a61abde7242f30d15a bpf: fix warning from basename()
+026c1dc4b038e6f71e115a82a70c2b11b8a4db4a ifstat: make load_info() more verbose on error
+8ed0069d28fd026c48be7f7046dd5a3c1d669764 ip: remove non-existent amt subcommand from usage
+6a1f266dba39286a3a58fc67e8005e7776499638 ip: Add missing stats command to usage
+df57d182e39d4cc3773d751ffeeb0b9277a7fb45 ip: Add missing -echo option to usage
+8f6d9a9569c2c3f398b6551f33fe039848f7c855 ctrl: Fix fd leak in ctrl_list()
+06d55f5f9809e96556ed611932bc0aa557a5c2f3 ctrl: Fix fd leak in ctrl_listen()
+43f054cbbddfd58c5037809414b1a8d40a59df97 ip: detect errors in netconf monitor mode
+52adf1036c8b0e173406a270d0c3ee794e130d4e ip: detect rtnl_listen errors while monitoring netns
+ba30b4c9aa0948c7c322004083f71894f76ca4ca treewide: fix typos in various comments
+d6779cfa6dd620eb2216d985f01e2ecf11f7cb18 docs, man: fix some typos
+b0884db261ab4a29b51458dff8dfd4a8e182a05e tc: u32: errors should be printed on stderr
+3ffa92cc8cd4402040f2d61270e5014022422a22 tc: Support json option in tc-fw.
+2b5feabb11d90077084d2cfa8a44904ab317a14a tc: bpf: fix extra newline in JSON output
+2b1204656bca509b0cd7b6844bd0add815911e85 tc: print unknown action on stderr
+0c45345f90589b79951931f20f583980c8803e5d tc: drop no longer used prototype from tc_util.h
+bebc89812bbf5a83fb1998e759f8a5f37bdaa3da tc: u32: check return value from snprintf
+631593aea5c9b589dd9343a42189f3e5e430bb30 iproute2: fix type incompatibility in ifstat.c
+36886d2236839812a41eb4ceb0177919634326d8 tc: Change of json format in tc-fw
+1dbb9b208627b93533e6b4004e1b253b1fd29dd9 tc: Support json option in tc-cgroup, tc-flow and tc-route
+fc9b445c5df9b4d2ec5bd6b1b0ab11cb8c424089 ip: Update command usage in man page
+6c6b139726dd065f90aaa91832ca708e61f9e961 man: ip-link.8: add a note for gso_ipv4_max_size
+e1c414345604b4cfe46fe265fd0f27bc0656f7ac iptuntap: use TUNDEV macro
+56bb57a677b84cb769bb25237eeda94a8e7cf9ce ip: Add missing command exaplantions in man page
+0369b174bdc0153fef0340b267c3abe50ded42f1 uapi: update in6.h
+506a2acf07bcbdbbbf36e9be3c815f359a49351c ifstat: handle unlink return value
+d20336a5166593eeec940bd1897249117dc8b827 tc: Fix json output for f_u32
+88177e1a7198a618545ca97a57dd0ea51376cd9c ss: fix output of MD5 signature keys configured on TCP sockets
+bb9dd04bd51f2d4d5b56d928c03f4a8e15bcce8c v6.8.0
+a3a28e646386034ae2d83ecea33ebfc597a10afb rt_names: whitespace cleanup
+d2486e7b033b32a0d4f31785fb6092e78a9bf352 tc/action: remove trailing whitespace
+a6d020726ebe39d94f07ebac6062b15d6c9030b6 ss: add option to suppress queue columns
+7b839b876b06d584249e55e616e14faf53c86620 m_mirred: Allow mirred to block
+9c9a47230b9dcd3d7b3e504d4108dfaafde85e38 tc: add NLM_F_ECHO support for actions
+49927f25d593966a8ab709e35d76e152b664b0f0 tc: Add NLM_F_ECHO support for filters
+39ded347e983f5644c7d58e87828f9604425184c Update kernel headers
+522a062c704f3ac361d20b38d4b5a201726907a0 ip/bond: add coupled_control support
+05d08b36566d899ce91da24a792e26990aec09a9 netlink: display information from missing type extack
+9eab369d0416d9e0c2697868d6195324b941c269 ifstat: convert sprintf to snprintf
+b44668426fc70b04513613f1afc0d80aaece237b ss: add support for BPF socket-local storage
+e431c74642c778d241aa33251d6e794d0c6c84ee ss: pretty-print BPF socket-local storage
+0c85c0546d7956e02b3faf4a9fb4f72c6ea9c4a3 ss: update man page to document --bpf-maps and --bpf-map-id=
+9fb84cd35edac3c347afd838835c60b68dca0345 Update kernel headers
+a3918636c3deeab3dae7cd0a518874725c207aaa ip: ioam6: add monitor command
+e014c3e6f1cf69fa4fc765e7a774b7e020047d1d man8: ioam: add doc for monitor command
+1f4b5c082917c850e0465d94e3f097f3acf8e755 nstat: constify name argument in generic_proc_open
+5a319792c26f93ab060ebd3e3612caf1dbaeb2f7 nstat: use stack space for history file name
+5e642fd4cfa23bfabd48bc87c1d56c5bb76b899e nstat: convert sprintf to snprintf
+2afe60b13637881d39f86617271ea08ad4bb97af ifstat: support 64 interface stats
+96c8295c41404d4c3818c86ceea6957b518e9f11 iproute2: move generic_proc_open into lib
+85ace521d6e91881c5cb793196100d22b9e6bda0 tc: make qdisc_util arg const
+dff811d2a7adf457b0b20e1d34ee8317fe705411 tc: make filter_util args const
+7f8918515b4884a980f6a0b6876c2b6df5af1745 tc: make action_util arg const
+07dc8dc153a1c2b9d8aba48d528afdf5b5462489 tc: make exec_util arg const
+3ff217ca07edfc1e11a9c84c897db2e06680719c README: add note about kernel version compatibility
+42a2655890f8abf1594481970adc4a1593f10ff7 netem: use 64 bit value for latency and jitter
+f40f6df79dd283efdce2497b4dfd29661f780f84 tc: remove no longer used helpers
+cc11eb96313b591628d5ef7f2869854ae9c1b869 man: fix typo found by Lintian
+a8731899b85375a5dce6856bc6348a68a9a61d01 tc: support JSON for legacy stats
+7aabf6ebda3c07ec61b880fa000954b488145b03 pedit: log errors to stderr
+874145531ecaba8051c3c4e70bd33ce6c30624fa skbmod: support json in print
+9ef0b0f9a356d12faaf147c8665335eb8e7b7866 simple: support json output
+70bed70b39d4d7bc1a2144b001d553ec127484ab tc-simple.8: take Jamal's prompt off examples
+a99be573836d74a78dcce2992b52386b50e3d9e0 uapi: update headers
+fa56c8ba9951668f157d320b0bc5004250d67c90 ifstat: handle strdup return value
+148c3b7e8fdcd46169d8beac911397c103ede50e ifstat: don't set errno if strdup fails
+3c46aadf11fadeb05eab7a61c409d67a7d2033c8 uapi: update vdpa.h
+5938205fa7049331943f2c13b3779a1a40a24a54 bridge: vlan: fix compressvlans usage
+2d5ec77c16a9ff1f0f28ce35762543b41e2d878c bridge: vlan: fix compressvlans usage
+694f874235e37a6c8f650fdcfe6102e95f61ef4b ila: allow show, list and lst as synonyms
+cad5e2a5369912785b03656ebb15867f0eb57179 arpd: create /var/lib/arpd on first use
+8475ddc774d5f2752ef10b6b270d4dd58d990639 man: fix brief explanation of `ip netns attach NAME PID`
 
---===============7931638288209415692==--
+--===============8921869440314751289==--
