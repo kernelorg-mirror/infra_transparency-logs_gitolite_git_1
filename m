@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 10 Apr 2024 15:30:36 -0000
-Message-Id: <171276303601.8056.2997719239261347518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mason/simoop
+Date: Wed, 10 Apr 2024 15:31:57 -0000
+Message-Id: <171276311787.8609.3782568074903430383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/mason/simoop
+user: mason
 changes:
-  - ref: refs/heads/kdevops
-    old: 676cf25ec88d41796b4267d88d8bfbbfba3dd9ca
-    new: d5ffa201edb6c03ec6eb74721c89dcb07b5c6cf2
+  - ref: refs/heads/master
+    old: 18929adabe5ca889a8e3ae84568b4bd8384fed5e
+    new: e8ddaae2240898033cd7e877e3b6c610e30e6a4c
     log: |
-         d5ffa201edb6c03ec6eb74721c89dcb07b5c6cf2 SQUASH: another close try
+         13bd9cb0246d1c363a82ed91fcd4261652267a55 Add fillonly
+         e8ddaae2240898033cd7e877e3b6c610e30e6a4c Fix compile warnings for strncpy
          
