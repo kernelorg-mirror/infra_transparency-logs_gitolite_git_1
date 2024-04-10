@@ -1,50 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============8476256342344819213=="
+Content-Type: multipart/mixed; boundary="===============0300923098364291867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 10 Apr 2024 16:21:31 -0000
-Message-Id: <171276609131.14634.14129041007566622683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 10 Apr 2024 16:25:02 -0000
+Message-Id: <171276630274.16333.12413138324930845792@gitolite.kernel.org>
 
---===============8476256342344819213==
+--===============0300923098364291867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/nfsdctl
-    old: b8df6a99ba1da4dfdcaef46e0647ca5c3288ab04
-    new: 42690d8e50ec4c175d93e8fd8fa08e68910d054c
-    log: revlist-b8df6a99ba1d-42690d8e50ec.txt
+  - ref: refs/heads/1GbE
+    old: 75f16e06dfb8035a89548ca33d26b362c934acc9
+    new: 2ecd487b670fcbb1ad4893fff1af4aafdecb6023
+    log: revlist-75f16e06dfb8-2ecd487b670f.txt
 
---===============8476256342344819213==
+--===============0300923098364291867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8df6a99ba1d-42690d8e50ec.txt
+Content-Disposition: attachment; filename=revlist-75f16e06dfb8-2ecd487b670f.txt
 
-fb3e07d09a2578038f199ff6d568f69b26723f00 nfsd: perform all find_openstateowner_str calls in the one place.
-7544084844f4d77690920ead538c068423dfc97b nfsd: move nfsd4_cstate_assign_replay() earlier in open handling.
-f7d8914c49bb7e9f1c4482a150367a2681ec4cfd nfsd: replace rp_mutex to avoid deadlock in move_to_close_lru()
-ee06e73c79781bb9b017c95e18047ed3eb0f0f48 nfsd: drop st_mutex before calling move_to_close_lru()
-50f58f4bb1674aef8794ccffabaabb810df3f092 NFSD: Move callback_wq into struct nfs4_client
-4209f6d78a88e52ede4c381ce8d45607af77c790 nfsd: trivial GET_DIR_DELEGATION support
-0f505a76cc57f778865a769153e1aa4411684484 fs: nfsd: use group allocation/free of per-cpu counters API
-c108e3198e0d01cb2589bb5a8f057419a6954303 sunrpc: removed redundant procp check
-fd1466a037a198db7313d12429a3cc9939f46705 nfsd: drop extraneous newline from nfsd tracepoints
-3e3130f2dff18d3fa23cae3e8e53f53f5545cabb nfsd: new tracepoint for check_slot_seqid
-f53a505356a305139dbdc23d9107ad84d56c4a11 nfsd: add tracepoint in mark_client_expired_locked
-e5ca63b09c65effccda06af447fc053f2c6bfaf5 nfsd: optimise recalculate_deny_mode() for a common case
-507f5989d4a49c9c98f3b184b7e387986bb2e183 NFSD: convert write_threads to netlink command
-232a8ecefaddade2f650a7da9acf8dd158d3dcfb NFSD: add write_version to netlink command
-7c1a43faf47e291c06852feeb40a970a0db8a67a add enable to version command
-131f01a95be07c0d1d12759f74b7ae9f49f8493e NFSD: add write_ports to netlink command
-83059c7613bb87e91aeefcfea19d0d785c87b1d3 SUNRPC: introduce svc_xprt_create_from_sa utility routine
-20973b596637c82bc37a8d3d91c2cc7d17873a4f sunrpc: add a new svc_find_listener helper
-68746d595887d808be62365e99ae275e9c6d253c NFSD: add capability to pass a sockaddr via netlink
-42690d8e50ec4c175d93e8fd8fa08e68910d054c nfsd: rework the listener set/get methods
+775d2e2b302897931ab7417b1da747bba7831a0b archnet: Convert from tasklet to BH workqueue
+87c33315af380ca12a2e59ac94edad4fe0481b4c net: phy: air_en8811h: fix some error codes
+dc073430db8d3f28460ea3ec1901e34bf7e8c0f2 dt-bindings: net: Add support for AM65x SR1.0 in ICSSG
+e1900d7ba9c9fd9edb214c43d2826876a5a35057 eth: Move IPv4/IPv6 multicast address bases to their own symbols
+e2dc7bfd677fc454668eb5bf0eab74ea35691040 net: ti: icssg-prueth: Move common functions into a separate file
+6d6a5751cd8e4d78b2d9093c0ba3fbfed551e8cb net: ti: icssg-prueth: Add SR1.0-specific configuration bits
+8623dea207a7ec01ccb69bf14fd172da9be5a1dc net: ti: icssg-prueth: Add SR1.0-specific description bits
+95c2e689331ee53b850ea4c996831ce64a91aea2 net: ti: icssg-prueth: Adjust IPG configuration for SR1.0
+604e603d73ec75365d9a2325991c0234ca420ac5 net: ti: icssg-prueth: Adjust the number of TX channels for SR1.0
+0a74a9de79c142e6c6fdedc22e55933034efd24a net: ti: icssg-prueth: Add functions to configure SR1.0 packet classifier
+ce95cb4c8d26b6917debf0eb1cd7c05230c0e7aa net: ti: icssg-prueth: Modify common functions for SR1.0
+e654b85a693e3cad58cf248c0770c02c346c8824 net: ti: icssg-prueth: Add ICSSG Ethernet driver for AM65x SR1.0 platforms
+74bd5dbe1b9197b217bb44e4ae5f745307b566ee Merge branch 'support-icssg-based-ethernet-on-am65x-sr1-0-devices'
+48ba00da2eb4b54a7e6ed2ca3a9f2e575dff48c9 net: sparx5: add support for tc flower mirred action.
+1164b8e0b108507b41e2564a9461bc0a6e38283c net: sparx5: add support for tc flower redirect action
+1c25fe9a044d5334153a3585754b26553f8287b9 Merge branch 'add-support-for-flower-actions-mirred-and-redirect'
+b9e810405880c99baafd550ada7043e86465396e tcp: propagate tcp_tw_isn via an extra parameter to ->route_req()
+41eecbd712b73f0d5dcf1152b9a1c27b1f238028 tcp: replace TCP_SKB_CB(skb)->tcp_tw_isn with a per-cpu field
+d2fd6cf39a14283da1a6892438f9685ddd93a387 Merge branch 'tcp-fix-isn-selection-in-timewait-syn_recv'
+220d63f249ecfa71a9b89dd232383506b56d0073 dt-bindings: net: rockchip-dwmac: use rgmii-id in example
+9f6b3a498174843f5a9fb573d084bbad381f40f6 net: phy: micrel: lan8814: Enable LTC at probe time
+9e63941b8976c45f1ce42b5e0e45070ee24b22eb net: phy: micrel: lan8814: Add support for PTP_PF_PEROUT
+6a053f07d5a5839eb5e62e29af3f49f0c964bad4 Merge branch 'net-phy-micrel-lan8814-enable-ptp_pf_perout'
+9ef9ecfa9e9f0472adf5b254bda1e0788bc8eaad net: phy: dp8382x: keep WOL settings across suspends
+545d95e5f1ba87db17534ee8c36409dd2ade848b cxgb4: flower: use NL_SET_ERR_MSG_MOD for validation errors
+d034d02de882d0ac600806724f9ffeb52de11e2e net: sched: cake: Optimize the number of function calls and branches in heap construction
+6c5d17143fa4e433894a11cd4ce4ce147131d6bf bonding: no longer use RTNL in bonding_show_bonds()
+d67fed98caa1f3c517fd6af7b8f044d05f9e3e5d bonding: no longer use RTNL in bonding_show_slaves()
+662e451d9a6224ff7fbec8e94c2da75b93258df3 bonding: no longer use RTNL in bonding_show_queue_id()
+91f2210ce3f92f8f1a8ba899f0b85a4ebf162abe Merge branch 'bonding-remove-rtnl-from-three-sysfs-files'
+445e60303883950161f67e18b9f048b18d7fb706 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+959fa5c188bf095558c417554e4772ac1fda3531 net: make napi_frag_unref reuse skb_page_unref
+f58f3c9563409e618e591d0d540316286cb0665f net: remove napi_frag_unref
+811b836285779067cefa2285607f2fc508f3f2ee Merge branch 'minor-cleanups-to-skb-frag-ref-unref'
+2ecd487b670fcbb1ad4893fff1af4aafdecb6023 net: sched: cls_api: fix slab-use-after-free in fl_dump_key
 
---===============8476256342344819213==--
+--===============0300923098364291867==--
