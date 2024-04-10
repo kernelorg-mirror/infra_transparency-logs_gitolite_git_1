@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1531673931707172890=="
+Content-Type: multipart/mixed; boundary="===============4667551877061124519=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Wed, 10 Apr 2024 13:10:13 -0000
-Message-Id: <171275461344.2449.2835247109933992998@gitolite.kernel.org>
+Date: Wed, 10 Apr 2024 13:10:24 -0000
+Message-Id: <171275462404.2585.11510474694677264962@gitolite.kernel.org>
 
---===============1531673931707172890==
+--===============4667551877061124519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-next
+  - ref: refs/heads/loongarch-fixes
     old: 27e361b5e1718742c50990ffaee6629f5e83d70e
     new: a07c772fa658645887119184de48b255bf19a46e
     log: revlist-27e361b5e171-a07c772fa658.txt
 
---===============1531673931707172890==
+--===============4667551877061124519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -471,4 +471,4 @@ b07b9f353d750ae503fc9fcbdc5f29dc38553605 LoongArch: Update dts for Loongson-2K20
 3744e0ee80251149135aac59870147e9ed6faae7 LoongArch: Update dts for Loongson-2K2000 to support GMAC/GNET
 a07c772fa658645887119184de48b255bf19a46e LoongArch: Include linux/sizes.h in addrspace.h to prevent build errors
 
---===============1531673931707172890==--
+--===============4667551877061124519==--
