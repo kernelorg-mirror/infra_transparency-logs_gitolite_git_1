@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 10 Apr 2024 21:14:48 -0000
-Message-Id: <171278368828.8553.13277182753067720683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 10 Apr 2024 21:16:14 -0000
+Message-Id: <171278377490.10885.2500862574738667826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: b5ae67aa8e5f0ce6e2f21dae80c67804d7752b0d
-    new: 4b34e340441ccf69d1514ea971e5bba8b07d7525
+  - ref: refs/heads/main
+    old: 2ecd487b670fcbb1ad4893fff1af4aafdecb6023
+    new: 414e576fb08f108b061cbc1fb964e51ff3467985
     log: |
-         4b34e340441ccf69d1514ea971e5bba8b07d7525 Wed Apr 10 05:14:14 PM EDT 2024
+         e59f0e93e92e0ddfd17e3373d586218cf638571e selftests: move bpf-offload test from bpf to net
+         fc50c698c28bcf307dfb14ba9d0b3cacb091c1cb selftests: net: bpf_offload: wait for maps
+         b1c2ce11d42886d08cfa28e38ee07f2b606ced0b selftests: net: declare section names for bpf_offload
+         6ce2b689932ba8288ceef9a82c1caf029b0b23f9 selftests: net: reuse common code in bpf_offload
+         414e576fb08f108b061cbc1fb964e51ff3467985 Merge branch 'selftests-move-bpf-offload-test-from-bpf-to-net'
          
