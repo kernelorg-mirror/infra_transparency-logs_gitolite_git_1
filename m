@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5820236481121751289=="
+Content-Type: multipart/mixed; boundary="===============7635503948643479574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 10 Apr 2024 12:37:43 -0000
-Message-Id: <171275266370.9258.2993765199635653480@gitolite.kernel.org>
+Date: Wed, 10 Apr 2024 12:37:47 -0000
+Message-Id: <171275266791.9355.7413043959622918541@gitolite.kernel.org>
 
---===============5820236481121751289==
+--===============7635503948643479574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 95197779091166b9ed4b1c630c13600abf94ada7
+  - ref: refs/heads/i2c/i2c-host-next
+    old: f95954c87c904527c19ed047fb93e8420ea9ca1f
     new: fec50db7033ea478773b159e0e2efb135270e3b7
-    log: revlist-951977790911-fec50db7033e.txt
+    log: revlist-f95954c87c90-fec50db7033e.txt
 
---===============5820236481121751289==
+--===============7635503948643479574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1712752662 +0200
+pusher andi.shyti@kernel.org 1712752667 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1712752662-26717d9761580299195d31c4904588fd60f0102b
+nonce 1712752666-a2f8d43412b2435878ce6579bf8042c6829e3cf1
 
-95197779091166b9ed4b1c630c13600abf94ada7 fec50db7033ea478773b159e0e2efb135270e3b7 refs/heads/i2c/i2c-host-fixes
+f95954c87c904527c19ed047fb93e8420ea9ca1f fec50db7033ea478773b159e0e2efb135270e3b7 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZhaIFhYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uOhEBAOrZyKNB+dw4dfuGyrYF7ZCXk8lK
-e+j4tFbexScYsUGVAQDKq0o48dhcTptCmTHNipQH5SKFQcykZXHenZ1NRO3SAg==
-=9oL+
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZhaIGxYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uxPoBAKtntKwoURbsVfNOiCU7qUrlf6qx
+Ord8xmItauFHlXgpAPwMaX9wUAsK6meaSY5yDo3s1r85+UwwQjFwGnE+mzipCA==
+=6wMZ
 -----END PGP SIGNATURE-----
 
---===============5820236481121751289==
+--===============7635503948643479574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-951977790911-fec50db7033e.txt
+Content-Disposition: attachment; filename=revlist-f95954c87c90-fec50db7033e.txt
 
 ccb2280ec2f9e805d70f57a3a1c5deff0d532cb3 x86/kvm: Use separate percpu variable to track the enabling of asyncpf
 df01f0a1165c35e95b5f52c7ba25c19020352ff9 KVM: x86: Improve documentation of MSR_KVM_ASYNC_PF_EN
@@ -483,4 +483,4 @@ e2948effa9063ae8bd0e7dd65ca4a0fa068c71a6 Merge tag 'perf-urgent-2024-04-07' of g
 9fe30842a90be9b57a3bd1a37c9aed92918cc6d0 Merge tag 'x86-urgent-2024-04-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fec50db7033ea478773b159e0e2efb135270e3b7 Linux 6.9-rc3
 
---===============5820236481121751289==--
+--===============7635503948643479574==--
