@@ -1,20 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Wed, 10 Apr 2024 21:26:57 -0000
-Message-Id: <171278441713.18385.12144303316100724522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Wed, 10 Apr 2024 21:29:15 -0000
+Message-Id: <171278455507.19320.6417227605011823200@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/hyperv-fixes
-    old: 1f1dc442c57ec61c08d21d47e4c5b4f16446fe00
-    new: f971f6dd3742d22dd13710306fb4365ea7bcb536
+  - ref: refs/heads/fixes
+    old: f9217a32d13b6bf405e8543973f22ba7e2c73670
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/next
+    old: bdef671fa49acf01aae7ff56e142f40faad5bb71
+    new: e93b912ecf6ab113c9d4ec9ced2fa30dfac24c70
     log: |
-         d9ea7a3f66a5c7e1a2f73cf4b20f5eff3ced4ff8 hv: vmbus: Convert sprintf() family to sysfs_emit() family
-         f971f6dd3742d22dd13710306fb4365ea7bcb536 hv/hv_kvp_daemon: Handle IPv4 and Ipv6 combination for keyfile format
+         791f4641142e2aced85de082e5783b4fb0b977c2 tools/nolibc/stdlib: fix memory error in realloc()
+         689230b674188163fe56b3aecd7d01f79ca518e6 tools/nolibc/string: export strlen()
+         34d232c39a1e05ba734dc6ad9dc01d15788cd91d tools/nolibc: Fix strlcat() return code and size usage
+         fbffce819e5ac151e137f881b89a9c1da0ebb76c tools/nolibc: Fix strlcpy() return code and size usage
+         1063649cf531c276740b7f011df2eed82227ba92 selftests/nolibc: Add tests for strlcat() and strlcpy()
+         e93b912ecf6ab113c9d4ec9ced2fa30dfac24c70 tools/nolibc/string: remove open-coded strnlen()
          
+  - ref: refs/heads/nolibc-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 689230b674188163fe56b3aecd7d01f79ca518e6
