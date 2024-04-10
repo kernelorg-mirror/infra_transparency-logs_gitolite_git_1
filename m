@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Wed, 10 Apr 2024 07:32:13 -0000
-Message-Id: <171273433311.25176.17213761846953237912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 10 Apr 2024 07:36:18 -0000
+Message-Id: <171273457838.28287.7277947993970027932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/v6.9-armsoc/dtsfixes
-    old: d41201c90f825f19a46afbfb502f22f612d8ccc4
-    new: 433d54818f64a2fe0562f8c04c7a81f562368515
+  - ref: refs/heads/main
+    old: a35b36e6ee5dcf323d846ec3881159e4af90c9b4
+    new: d26a0a66f9290a3665e283826637722507af5ce3
     log: |
-         433d54818f64a2fe0562f8c04c7a81f562368515 arm64: dts: rockchip: regulator for sd needs to be always on for BPI-R2Pro
+         d26a0a66f9290a3665e283826637722507af5ce3 wifi: brcmfmac: Fix spelling mistake "ivalid" -> "invalid"
          
