@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 10 Apr 2024 11:49:15 -0000
-Message-Id: <171274975514.4219.3584632644988702101@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 10 Apr 2024 11:50:06 -0000
+Message-Id: <171274980645.6238.14219395196827332509@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/auto-update-info
-    old: aa36b113679a828ae3f9f896626ba26d55aab30e
-    new: 3c592b404813e02dcfbf978653a0d074dfb17cce
+  - ref: refs/heads/main
+    old: 1addd7dca2d953a5484c3e3c08dbd7dc253058dd
+    new: 53438f8a0c454464715b3a19e1b11c29c37a6ed6
     log: |
-         04ba854bafdc0b4ebb4ad0e0d0b67cde4a8957f5 firmware: microchip: support writing bitstream info to flash
-         f91b3c22c17160d3ed174a208f1037a44af4142b firmware: microchip: don't unconditionally print validation success
-         d73cd7e2c6e0f85a21ae006a24e94d0df854586a firmware: microchip: clarify that sizes and addresses are in hex
-         d01b5c316606bc7761461540411cdd71fdb5ebd6 firmware: microchip: move buffer allocation into mpfs_auto_update_set_image_address()
-         3c592b404813e02dcfbf978653a0d074dfb17cce firmware: microchip: use scope-based cleanup where possible
+         c81f094c847d934c0ffe0870fa5cf861c62e3451 linux-firmware: mediatek: Update MT8173 VPU firmware to v1.1.9
+         53438f8a0c454464715b3a19e1b11c29c37a6ed6 Merge branch 'robot/pr-1-1712748183' into 'main'
          
