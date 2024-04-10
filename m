@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 10 Apr 2024 07:30:22 -0000
-Message-Id: <171273422281.24428.12906407408035502275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Wed, 10 Apr 2024 07:32:13 -0000
+Message-Id: <171273433311.25176.17213761846953237912@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/main
-    old: 7633c4da919ad51164acbf1aa322cc1a3ead6129
-    new: 81665adf25d28a00a986533f1d3a5df76b79cad9
+  - ref: refs/heads/v6.9-armsoc/dtsfixes
+    old: d41201c90f825f19a46afbfb502f22f612d8ccc4
+    new: 433d54818f64a2fe0562f8c04c7a81f562368515
     log: |
-         81665adf25d28a00a986533f1d3a5df76b79cad9 pds_core: Fix pdsc_check_pci_health function to use work thread
+         433d54818f64a2fe0562f8c04c7a81f562368515 arm64: dts: rockchip: regulator for sd needs to be always on for BPI-R2Pro
          
