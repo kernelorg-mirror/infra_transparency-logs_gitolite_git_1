@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Wed, 10 Apr 2024 07:52:22 -0000
-Message-Id: <171273554268.8208.17115900646807336673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Wed, 10 Apr 2024 07:59:43 -0000
+Message-Id: <171273598351.12500.2803988868078439701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
   - ref: refs/heads/fixes
-    old: c032cdd48b29549e8283c2fea99e7d91ddefebf7
-    new: dcd12acaf384c30437fa5a9a1f71df06fc9835fd
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: 452d8950db3e839aba1bb13bc5378f4bac11fa04
     log: |
-         c38fa07dc69f0b9e6f43ecab96dc7861a70c827c thunderbolt: Fix wake configurations after device unplug
-         dcd12acaf384c30437fa5a9a1f71df06fc9835fd thunderbolt: Avoid notify PM core about runtime PM resume
+         452d8950db3e839aba1bb13bc5378f4bac11fa04 power: rt9455: hide unused rt9455_boost_voltage_values
          
