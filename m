@@ -1,60 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============7974025477521943322=="
+Content-Type: multipart/mixed; boundary="===============4969339333727968766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 11 Apr 2024 12:53:31 -0000
-Message-Id: <171284001180.18354.3741734672073597426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 11 Apr 2024 12:56:38 -0000
+Message-Id: <171284019852.21176.15161504986922492312@gitolite.kernel.org>
 
---===============7974025477521943322==
+--===============4969339333727968766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 8534f6ace0b2ed8e824a249d67242877286394ea
-    new: 7adb85a8072f847cd3313da8369ef401cfd06efc
-    log: revlist-8534f6ace0b2-7adb85a8072f.txt
+  - ref: refs/heads/char-misc-testing
+    old: f8a27dfa4b82d442af1c0645a5acc70cc97c67f6
+    new: 76457f9a11dd1521efeb553526d350100e1ef422
+    log: |
+         a36b69775fcaab42262f6dbf288ccb6d470158ae ndtest: Convert to platform remove callback returning void
+         e8c4bd6c6e6b7e7b416c42806981c2a81370001e Drivers: hv: vmbus: Add utility function for querying ring size
+         e566ed5b64177a0c07b677568f623ed31d23406d uio_hv_generic: Query the ringbuffer size for device
+         547fa4ffd799ad48bf96e60efd24985adeec35de uio_hv_generic: Enable interrupt for low speed VMBus devices
+         45bab4d746510ac2bdd9102bf152db617ef96a6b tools: hv: Add vmbus_bufring
+         82b0945ce2c2d636d5e893ad50210875c929f257 tools: hv: Add new fcopy application based on uio driver
+         ec314f61e4fc2d3dd6ea78aa18a5ac276eb1a8e3 Drivers: hv: Remove fcopy driver
+         76457f9a11dd1521efeb553526d350100e1ef422 uio_hv_generic: Remove use of PAGE_SIZE
+         
 
---===============7974025477521943322==
+--===============4969339333727968766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8534f6ace0b2-7adb85a8072f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-63752ad191f93144c99e848b7dbda050bda16fa6 genirq: Fix trivial typo in the comment CPY ==> COPY
-81e4cb0fd45c84d416e3edffbf6ae62c89ce6b5a genirq: Update MAINTAINERS to include interrupt related header files
-3a93fe9cdfa7bb45716aecf771be053a0ce2bdf0 x86/cpu/amd: Make the CPUID 0x80000008 parser correct
-898e4996e76053bfa0f578629ec6b35baff4224b x86/cpu/amd: Make the NODEID_MSR union actually work
-152cadd50e3cf322b95aef04da059c4a054a2cda Merge branch 'x86/urgent' into x86/cpu, to resolve conflict
-d9bb184b403de4f1209470499d0daeed998e73d8 Merge branch 'x86/cpu' into x86/merge, to ease integration testing
-9559f08df3fea8b9df99b45cb4bbfa27f63cf170 Merge branch into tip/master: 'x86/merge'
-8fdfd3d93707403722dba755dd4e5d2ba9d7c00e Merge branch into tip/master: 'irq/urgent'
-269c1483dfef73ce15cb8680208a3539bf59219a Merge branch into tip/master: 'locking/urgent'
-780fe50e183a2dd1ea4ab4aaa007eb9a224a4f49 Merge branch into tip/master: 'perf/urgent'
-b74e7a2df6b045b396f5e9ea78dee94d943913eb Merge branch into tip/master: 'timers/urgent'
-3b8d92b61073bf9711055c7b21962edf1e073dd7 Merge branch into tip/master: 'irq/core'
-f3ae7f6d3f9ce01ed4b03dfa4f53e80b83920ce4 Merge branch into tip/master: 'locking/core'
-174e0c9843abd6035f2e1208453fda8977618993 Merge branch into tip/master: 'perf/core'
-1cd37b6498212feaa414b1f716a5124a6a857ddb Merge branch into tip/master: 'ras/core'
-fde40bf90696a5aa9d72b2e007b370512d2cab72 Merge branch into tip/master: 'sched/core'
-47dc59a7cca41bc90cb2ae2009b65603a2c902df Merge branch into tip/master: 'timers/core'
-67e87f5fae520f63b61e25860909e22ef8cf8a18 Merge branch into tip/master: 'x86/alternatives'
-556c06bfa8519bfbf54196baad66fcf0d5d0a042 Merge branch into tip/master: 'x86/apic'
-600a276982e3177660f9d115afbdfb47bd98b95b Merge branch into tip/master: 'x86/asm'
-4c503d37113491db6151871a6793c040eee62e6f Merge branch into tip/master: 'x86/boot'
-c65ac5898a3e7e53a2f4c3b1ab422cd89ae8f7cf Merge branch into tip/master: 'x86/bugs'
-d47b4a6a8f74406b934e8c506e7a6c36438566bf Merge branch into tip/master: 'x86/build'
-44721d23062c7631b5212b4b3a4a2d53d9175b56 Merge branch into tip/master: 'x86/entry'
-71059e407ed538061ebc53c1ccc3a98eb2e6af09 Merge branch into tip/master: 'x86/fpu'
-4981c8a6e9852a31e275b6dcd58ed09859fd8bdd Merge branch into tip/master: 'x86/microcode'
-6c1899e2170c1315e6ee607d6336447907e6b378 Merge branch into tip/master: 'x86/misc'
-7ca562e7e25cf6a77e118b9edd93e822b5af073d Merge branch into tip/master: 'x86/percpu'
-218658a82632975a5ddb46f178a2029a478b35b9 Merge branch into tip/master: 'x86/platform'
-7adb85a8072f847cd3313da8369ef401cfd06efc Merge branch into tip/master: 'x86/shstk'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712840195 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1712840195-866995dbe14835e96ab13c9f43a7c27f82962c64
 
---===============7974025477521943322==--
+f8a27dfa4b82d442af1c0645a5acc70cc97c67f6 76457f9a11dd1521efeb553526d350100e1ef422 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYX3gMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gtwQAKsXJkKS5vmTABIXlLln
+MU8KzaNeA8wpHKV+/P97yzpWGsqhvWc3hsvcgX1GNm/QUQkx+odywnyOnm4Uoaz/
+ELEupekt2/3qxk6icvis0Ke/nPUKL4HFRD3LH89AFlJv7v2SmlueAtCKBA5Iz741
+a7lFMmnq1Lv7wI9skxqdaZt/8plq3sc417O3jEly9BZTqnphukx208C40Ti2uSce
+ONYIoE44yapk3Ne6N/jCRS7lEzavYGmVOmynNw248Nvug5UPcuo4Nq8Za6yX6G6N
+ijDL+zW9nn2k5niw0waHeb0LY350rh2fU4tbaAzib3uHoS9EQNdVHIlwa9yeE1MJ
+SjNYUvqmGutDlIeiILV2GdJaMg37WLU/+qI28seZf0SsCwC7FC+8ZkfpCS7ovRjg
+sxrnqm7b7BLnSrAM1IevhsTUFdp9VF8xtYg0dT8MSopocJ0Tze8U5OaDSd92hjby
+nE9nXqAYQs/+DziWce7aHPKTlLxyUqK1Ubp10Jw4niuNT17XCbEIR4zgdFeFlVQ0
+bmULaBgGBvP2defEGVNJW4nAvVYsaX8JBr9DSO/5/cYmXFtW8ZVpQy0iyGgSAAJu
+B89VbB2FebXKGr9M/9HzaY6cdYqdpzUK4ecLNGw1EA9eagY9d1/8pXloo+cmnHG2
+EFCLL+i/3fBgYc6u5S7itzzK
+=dxik
+-----END PGP SIGNATURE-----
+
+--===============4969339333727968766==--
