@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7417529800346984565=="
+Content-Type: multipart/mixed; boundary="===============7795939803077824533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 11 Apr 2024 15:42:33 -0000
-Message-Id: <171285015352.29766.6341451183000559278@gitolite.kernel.org>
+Date: Thu, 11 Apr 2024 15:43:04 -0000
+Message-Id: <171285018439.30057.13623566522365522615@gitolite.kernel.org>
 
---===============7417529800346984565==
+--===============7795939803077824533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 414e576fb08f108b061cbc1fb964e51ff3467985
     new: 0e36c21d7640ddbfa9233c692db905e0848c6f44
     log: revlist-414e576fb08f-0e36c21d7640.txt
 
---===============7417529800346984565==
+--===============7795939803077824533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ bfec4e18f94351d2ff9073c4bffcc6f37bfa3e0b net: mana: Add flex array to struct man
 a68292eb431619a5f8db9d4868346837c5606424 net: mana: Avoid open coded arithmetic
 0e36c21d7640ddbfa9233c692db905e0848c6f44 Merge branch mana-ib-flex of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
 
---===============7417529800346984565==--
+--===============7795939803077824533==--
