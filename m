@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5625672608206465776=="
+Content-Type: multipart/mixed; boundary="===============1478962473271685874=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 11 Apr 2024 08:34:08 -0000
-Message-Id: <171282444856.2824.82496270961396779@gitolite.kernel.org>
+Date: Thu, 11 Apr 2024 08:34:36 -0000
+Message-Id: <171282447695.3102.680506695117278513@gitolite.kernel.org>
 
---===============5625672608206465776==
+--===============1478962473271685874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: uli
 changes:
-  - ref: refs/heads/linux-4.4.y-st
-    old: d3ee98c4d93cc06b63fbe35f8088e58cfa1e73cf
-    new: 4bcb207aa2a1be2489f7899caea2f02925a9adc4
-    log: revlist-d3ee98c4d93c-4bcb207aa2a1.txt
+  - ref: refs/heads/linux-4.4.y-cip
+    old: 73293d3cb91e2dd661422c4d62a95edd1e8e16a4
+    new: 0671b46d2bb34cfceec8e46f0cbd9a2128462717
+    log: revlist-73293d3cb91e-0671b46d2bb3.txt
 
---===============5625672608206465776==
+--===============1478962473271685874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3ee98c4d93c-4bcb207aa2a1.txt
+Content-Disposition: attachment; filename=revlist-73293d3cb91e-0671b46d2bb3.txt
 
 9528ec86a46ddbbfe876277bd169decc45686446 IB/hfi1: Fix a memleak in init_credit_return
 e8b74d25fe970f0a720834d730096bcb6e9c9aac scsi: jazz_esp: Only build if SCSI core is builtin
@@ -196,5 +196,7 @@ b795785f4f94c38971e329d43d6cbaab7f2a0b82 KVM: Always flush async #PF workqueue w
 9a932b26e812854c5b357c2ec33b0070bc1441da efivarfs: Request at most 512 bytes for variable names
 5c3a3dcaabc16a576a8d330d68c428a1fb502016 Revert "crypto: api - Disallow identical driver names"
 4bcb207aa2a1be2489f7899caea2f02925a9adc4 Update localversion-st, tree is up-to-date with 4.19.312-rc1.
+91f9e8db25daaad361751c6ea147f2507955501c Merge branch 'linux-4.4.y-st' into linux-4.4.y-cip
+0671b46d2bb34cfceec8e46f0cbd9a2128462717 CIP: Bump version suffix to -cip86 after merge from cip/linux-4.4.y-st tree
 
---===============5625672608206465776==--
+--===============1478962473271685874==--
