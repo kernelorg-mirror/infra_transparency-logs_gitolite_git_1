@@ -1,42 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============5108101711143514122=="
+Content-Type: multipart/mixed; boundary="===============2009544536784274212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 11 Apr 2024 11:04:00 -0000
-Message-Id: <171283344083.30385.5140735241105610993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 11 Apr 2024 11:07:49 -0000
+Message-Id: <171283366913.2422.4837070252289650116@gitolite.kernel.org>
 
---===============5108101711143514122==
+--===============2009544536784274212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/rdma-next
-    old: 8a3df056da181eed250722dcae7328821373b31c
-    new: 4b619cc7d7fa78e149472df506fa1fd50600c0ea
-    log: revlist-8a3df056da18-4b619cc7d7fa.txt
+  - ref: refs/heads/tmp.perf-tools-next
+    old: e5a37386f7e1ee45981a6eb9328d6f1638971e6d
+    new: 532118bda503bc696445ccd0d1d9ebafbd163fd0
+    log: revlist-e5a37386f7e1-532118bda503.txt
 
---===============5108101711143514122==
+--===============2009544536784274212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a3df056da18-4b619cc7d7fa.txt
+Content-Disposition: attachment; filename=revlist-e5a37386f7e1-532118bda503.txt
 
-bfec4e18f94351d2ff9073c4bffcc6f37bfa3e0b net: mana: Add flex array to struct mana_cfg_rx_steer_req_v2
-29b8e13a8b4c95ce629c8d4c84682f29af6f6bb5 RDMA/mana_ib: Prefer struct_size over open coded arithmetic
-a68292eb431619a5f8db9d4868346837c5606424 net: mana: Avoid open coded arithmetic
-e537deecda03e0911e9406095ccd48bd42f328c7 RDMA/mana_ib: Add flex array to struct mana_cfg_rx_steer_req_v2
-cd84695c42d2acd830bc0d011d443cc619e0e295 net/sched: Don't print dump stack in event of transmission timeout
-af4171bf7b5f832ecb5d29b6a34043701be4648f RDMA/core: Introduce peer memory interface
-5fd1a052978ef98ed580e57f9eeab81d0f65394a RDMA/mlx5: Get upper device only if device is lagged
-f2d2b648a57537cb0fc1e3c9ef73e42d99a49db5 RDMA/mlx5: Send currect port events
-f941ace46a80453d19d22c2a4fb926c2fbbdb303 TEMP: Increase lockdep depth
-b636368e1f05a934173d760207c29ee29948da62 IB/core: Implement a limit on UMAD receive List
-bf267dd0d9bf2f530ddc82170484209361b77887 RDMA/core: Add an option to display driver-specific QPs in the rdmatool
-4b619cc7d7fa78e149472df506fa1fd50600c0ea RDMA/mlx5: Track DCT, DCI and REG_UMR QPs as diver_detail resources.
+b2a1b37f24cac417df8318d094ff7eaf40a0e765 perf tests: Make "test data symbol" more robust on Neoverse N1
+391897fedee0fc2181c6ff9b7240ed5c0e99eadd perf tests: Apply attributes to all events in object code reading test
+9a0e920cf7a83f62deaa4f3ea86abbaff7df7f92 perf map: Remove kernel map before updating start and end addresses
+7995fcbf71f5e0470fc9b755ade0ae1566351fa3 perf tests: Remove dependency on lscpu
+ff7358b1a83c3d278660807b4774b5c05fd4dd73 perf annotate-data: Skip sample histogram for stack canary
+b70f6d7d677782c8f58761431bee910d99b46211 perf annotate: Show progress of sample processing
+327826c086b371f7537794142dc241edae7c6128 perf annotate-data: Add hist_entry__annotate_data_tty()
+d0dd93d1cbfe49655f67cb29c23bcfee850a07bf perf annotate-data: Add hist_entry__annotate_data_tui()
+4b1a0a276eb4d9fcc0fd9040f8ce60e10471f343 perf annotate-data: Support event group display in TUI
+90601584834ac73f717f2045727edcd3ed56f856 perf report: Add a menu item to annotate data type in TUI
+d1ae832d87a21314bf01410f4a2a3f864d799461 perf report: Do not collect sample histogram unnecessarily
+532118bda503bc696445ccd0d1d9ebafbd163fd0 perf annotate: Skip DSOs not found
 
---===============5108101711143514122==--
+--===============2009544536784274212==--
