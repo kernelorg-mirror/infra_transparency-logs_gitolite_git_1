@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 11 Apr 2024 14:05:34 -0000
-Message-Id: <171284433405.22279.12470302839475303668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 11 Apr 2024 14:13:38 -0000
+Message-Id: <171284481861.28158.5487274190794517186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: bentiss
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/for-next
-    old: d7d4406ddd936d82f8cc6c7d022b1fd1791d6046
-    new: a8d38c4a9f9f31864ec77cee2e89e14581e8dc20
+  - ref: refs/heads/master
+    old: 75fe062ce2c7d6398e04114deb9149f41efad7a0
+    new: e00fc2700a3fa0a506666741279c969ae4ba5551
     log: |
-         b912cf042072e12e93faa874265b30cc0aa521b9 HID: bpf: fix hid_bpf_input_report() when hid-core is not ready
-         a8d38c4a9f9f31864ec77cee2e89e14581e8dc20 Merge branch 'for-6.10/hid-bpf' into for-next
+         cf396a443d374e2312edcbd0b72279047c1e0cbd Bluetooth: btusb: Add Realtek RTL8852BE support ID 0x0bda:0x4853
+         e00fc2700a3fa0a506666741279c969ae4ba5551 Bluetooth: btusb: Fix triggering coredump implementation for QCA
          
