@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 11 Apr 2024 07:01:51 -0000
-Message-Id: <171281891193.29371.12918408722150916805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 11 Apr 2024 07:03:40 -0000
+Message-Id: <171281902052.30072.249817790072231235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/main
-    old: fe87922cee6161f066f4b9dd542033e048eeedaf
-    new: 33623113a48ea906f1955cbf71094f6aa4462e8f
+  - ref: refs/heads/clk-reset-stuff
+    old: 0dfe04a18b7c2cda3245498035e77d9f9cb33a85
+    new: 651a7c8c9df7dbebb7bfe69ab92f477b9fcc19f1
     log: |
-         33623113a48ea906f1955cbf71094f6aa4462e8f net: sparx5: fix wrong config being used when reconfiguring PCS
+         651a7c8c9df7dbebb7bfe69ab92f477b9fcc19f1 clock, reset: microchip: move all mpfs reset code to the reset subsystem
          
