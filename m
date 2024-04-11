@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2933488167010907718=="
+Content-Type: multipart/mixed; boundary="===============8377585680470666586=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 11 Apr 2024 13:21:29 -0000
-Message-Id: <171284168916.22126.15081090750069211232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 11 Apr 2024 13:24:15 -0000
+Message-Id: <171284185597.23140.1683799563429028918@gitolite.kernel.org>
 
---===============2933488167010907718==
+--===============8377585680470666586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: a90bca2228c0646fc29a72689d308e5fe03e6d78
-    new: 156539fd65019e8ed6b9fbac0583cf519cdbb227
+  - ref: refs/heads/char-misc-linus
+    old: d1718530e3f640b7d5f0050e725216eab57a85d8
+    new: aaef73821a3b0194a01bd23ca77774f704a04d40
     log: |
-         156539fd65019e8ed6b9fbac0583cf519cdbb227 Documentation: embargoed-hardware-issues.rst: Add myself for Power
+         aaef73821a3b0194a01bd23ca77774f704a04d40 binder: check offset alignment in binder_get_object()
          
 
---===============2933488167010907718==
+--===============8377585680470666586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712841687 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1712841686-35cd7e9cb0f40974351fed88a2bfa586879fdffa
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712841853 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1712841853-caf2269c41d6bb6a8f7899e4d5077630faf060d5
 
-a90bca2228c0646fc29a72689d308e5fe03e6d78 156539fd65019e8ed6b9fbac0583cf519cdbb227 refs/heads/driver-core-linus
+d1718530e3f640b7d5f0050e725216eab57a85d8 aaef73821a3b0194a01bd23ca77774f704a04d40 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYX49cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Id0QALBy6ZM9JCIAMQa6NsDC
-N6NmxagCHPVq7ZxnVKiBewv+tbBhTez8LNX364yF5Lr1u7IMJO09TSSdrzdlHvxU
-XOkSOyhDaUVNr02wkHICJG10DiCDUAcvsbu20fCEin+/CzscpL402NiXOZ7vIudN
-/3Uo49rSLpkBTkIffH06Hj4JhP3UxphMHx8fkuQhPsIN0fRAGcWbtKdligfH59Du
-3zTTtAkGYWJplDnVyLX80fGCIt2+5EsOWg2IPyE3ru4CWr1EJ1wvzCucJjJHCHAM
-qsR8HazQDicCEghQLnfCXqFOWk+p95t8ZvvIFtT1nofHwjB3XJZvu/F99tox3QjD
-hdgfOaZGcRLz4Ac3VOhsXEvIdsSniKGoAPw5pIozjDC9Amql1E9ijAtbBOVDeKH3
-BMge7BiL6qC6vb5+a/LA0bRqXSHkDXXeN9Mtz6N1xVCB8XxMCVS+Z7jHmXN/C50W
-vh31PFydMlAlQz5zzohZcI9vPgKYEAEzP4SUtNvL9l2IrKhYe14ns0VkeYUnJkxb
-GMBvSEtSI8vVAjCIyJ+HUBQhmX8rKCumZGUZbgY1HC6sbREENNvb32vE2DKRcJz3
-XFnKGVEImH1u8UnCvogxC8ceeGHUp0sUFHOr/LFhxZu0IQCgiNlJS/9ZCaWHcFn+
-oPppz8u2xs4hIjINNTXs8xEM
-=5woG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYX5H0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pz4QAIPWYie7aytNSrABnWFm
+9fYO9H66dwxsa0px8OELZcfGJrlzVD4rpgWKDd20+RO+6bFvjgAmkcCVugZIswAw
+GbgzpTNdkudX+12wKycM7YCPs8yF99f8DjnZOEn8HMZ35Ti5mmEK720EMNERXkSC
+dEJaF7bAdw2lX7LAGZWH1tczWyktvDs6XeVB/goBOs1y3KoFqif1B7iibW3DuKjS
+GdO9oDXMCSwQHN7o/A0b5TXu+NMqTGxBJy0c4T5tlSu/wty+GzrL1RH3bJbiKNTo
+pLOqMB/KqV5JPvUm3IDoLtJ4FF3bINHM2IygnMNbIQCBkKSAXmZZvw30xilE1xr7
+Qfvtu4QkYgmQo1Pud2k74Sr9dJMoAgXOJlYiHKyaNXzSYJea4YwJjIV+tfzrWSel
+lI7P5SRAvOLH0Ro6CFQ5Okq6q17nBGeTGnRXVLTrU/vWBOsQ8qg/0mFIBnIbvWJZ
+NK9jYAxzmgtaF+nL8iIoE9czoKVgkumTB7P/8+nelDCL0U1lTcNCBmAUpnmlOstx
+s/RoDfUlREv5yiwXrFL6hZ4PGpcIGRhw3sFYDnghjzfrd/3m1eoGTgTqglnEVEUw
+xXzB3Uq1ZsZ0OJab88HNoQGuH/LyFsJeHnj9y8AA8Ea+2sHHD7oYMSyA6iiGNKrL
+tu4xlp9Tdw5BpJyAyFpYXj8u
+=hibm
 -----END PGP SIGNATURE-----
 
---===============2933488167010907718==--
+--===============8377585680470666586==--
