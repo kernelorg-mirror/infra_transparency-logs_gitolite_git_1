@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2009544536784274212=="
+Content-Type: multipart/mixed; boundary="===============3052512072594987363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 11 Apr 2024 11:07:49 -0000
-Message-Id: <171283366913.2422.4837070252289650116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 11 Apr 2024 11:08:06 -0000
+Message-Id: <171283368675.2707.12984251379323467824@gitolite.kernel.org>
 
---===============2009544536784274212==
+--===============3052512072594987363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 532118bda503bc696445ccd0d1d9ebafbd163fd0
     log: revlist-e5a37386f7e1-532118bda503.txt
 
---===============2009544536784274212==
+--===============3052512072594987363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ d0dd93d1cbfe49655f67cb29c23bcfee850a07bf perf annotate-data: Add hist_entry__ann
 d1ae832d87a21314bf01410f4a2a3f864d799461 perf report: Do not collect sample histogram unnecessarily
 532118bda503bc696445ccd0d1d9ebafbd163fd0 perf annotate: Skip DSOs not found
 
---===============2009544536784274212==--
+--===============3052512072594987363==--
