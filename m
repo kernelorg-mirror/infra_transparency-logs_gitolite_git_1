@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Thu, 11 Apr 2024 08:25:03 -0000
-Message-Id: <171282390369.29750.807535524835762110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Thu, 11 Apr 2024 08:26:10 -0000
+Message-Id: <171282397054.30275.4169607181573295584@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: kvalo
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/tags/v6.9-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b4429db95735be42f9b96d7383adfe2fc51dc9fa
+  - ref: refs/heads/testing
+    old: bccb798e07f8bb8b91212fe8ed1e421685449076
+    new: 8b06a24bb625728ac709f2c69405eb01025687e1
+    log: |
+         8b06a24bb625728ac709f2c69405eb01025687e1 xfrm: fix possible derferencing in error path
+         
