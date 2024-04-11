@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 11 Apr 2024 11:31:38 -0000
-Message-Id: <171283509872.20614.10076056344317776681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 11 Apr 2024 11:33:54 -0000
+Message-Id: <171283523426.21468.14384419765240270904@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: e537deecda03e0911e9406095ccd48bd42f328c7
-    new: c8fc935f4b198dc6e9871b29f4f3360631d90c8e
-    log: |
-         c8fc935f4b198dc6e9871b29f4f3360631d90c8e RDMA/mana_ib: remove useless return values from dbg prints
-         
+  - ref: refs/tags/net-6.9-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 9e1588781fce83401c6b74b081f45638cf6743a0
