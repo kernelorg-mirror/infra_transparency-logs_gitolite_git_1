@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Thu, 11 Apr 2024 15:47:12 -0000
-Message-Id: <171285043288.1133.14732938551988802691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Thu, 11 Apr 2024 15:47:13 -0000
+Message-Id: <171285043320.1160.6055689331810867737@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/lee/backlight
+user: lee
 changes:
-  - ref: refs/heads/execmem/v4+x86-rox
-    old: 98afa1d7e1d9deaee05261840ca6939daf8b6245
-    new: 11bf65858a2a6495668af60f9ff2843f2938718c
+  - ref: refs/heads/for-backlight-next
+    old: 946ced827e6cb28de4738981014fcde4f6f5dfbc
+    new: 9db7677e33b646a7fd60d35cbd4ab99886057a85
     log: |
-         13c34fae6776ef0dc25b291b7efe80af96fd7e73 x86/module: perpare module loading for ROX allocations of text
-         e5e8f8cc14cc120eb2ff0527641e0803e015d416 execmem: add support for cache of large ROX pages
-         11bf65858a2a6495668af60f9ff2843f2938718c x86/module: enable ROX caches for module text
+         47e184e212c70256af8576ecd172aec682f75963 video: backlight: make backlight_class constant
+         150476e60a80ebb93d49aae7b636934eb04b83d2 backlight: lp8788: Drop support for platform data
+         9db7677e33b646a7fd60d35cbd4ab99886057a85 backlight: otm3225a: Drop driver owner assignment
          
