@@ -1,27 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 11 Apr 2024 13:30:27 -0000
-Message-Id: <171284222714.29035.12953606578550814990@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3703168510128132775=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 11 Apr 2024 13:35:49 -0000
+Message-Id: <171284254908.32570.9741749274788088794@gitolite.kernel.org>
+
+--===============3703168510128132775==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/nfsdctl
-    old: 311eb18a86b6d9b6744c3fd2fa459196ff98bc62
-    new: 581c7115233e0980951a227ebeb8aa7d02a00c47
+  - ref: refs/heads/char-misc-testing
+    old: 26f0d3b11aff6bf7ffd39809171865871aadb992
+    new: dc806bd48abc1b8a4ae72709a37e65db42a32048
     log: |
-         333f5a1627ee1669b5d4b84ddaf09f2a232d9fa7 nfsd: proposed nfsdctl interface
-         636072ca73daafaeb16b24a56de94786efd3931f NFSD: convert write_threads to netlink command
-         b40c716e6941c0d1c4dd862456b63e1b01c3f430 NFSD: add write_version to netlink command
-         015056553552112763ed3950aa44cf08993ede36 add enable to version command
-         8aec0f19f419e25ea7b1e990bf8aedcabccbad90 SUNRPC: introduce svc_xprt_create_from_sa utility routine
-         5d2cb456dd931848dfe250d4b15d72c7cc7f2d5b sunrpc: add a new svc_find_listener helper
-         73922ea98884820b7303a4597a7eb9eaec4a7ba0 sunrpc: rename rpc_cmp_addr* functions to rpc_same_addr*
-         acf3320f18128d37a85fba1458b0f1cd88b24b49 NFSD: add listener-set netlink command
-         581c7115233e0980951a227ebeb8aa7d02a00c47 nfsd: prevent removing sockets from running server
+         25b9cadb1ee3434b92de9096d4a2ae91820146bf ntsync: Introduce the ntsync driver and character device.
+         b46271ec40a05580d55f917c9ac52cb93553160a ntsync: Introduce NTSYNC_IOC_CREATE_SEM.
+         dc806bd48abc1b8a4ae72709a37e65db42a32048 ntsync: Introduce NTSYNC_IOC_SEM_POST.
          
+
+--===============3703168510128132775==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712842546 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1712842546-c086e9efbd95abf9683863b8501c95a1265d4a59
+
+26f0d3b11aff6bf7ffd39809171865871aadb992 dc806bd48abc1b8a4ae72709a37e65db42a32048 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYX5zMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8bEP/12b64sKEOxttl9ti7th
+nnFwDUqmUQifIvsvGBnMXJL8iFA1HkZX2lBwe/Zb7sYKCuBW206h/ki19v3GpJF2
+ePO5xKTZsAOQaU5MVDf635Vbyy8Vs0Htfihfr73R1tdVmuXVH1ssXzlSc4LWLs/d
+01VBeFWjg6aWxby8IGlI2dy1BJ9b9vW2N1GXBucR++KWUT5uMnQhOBPfPvCGYdZ9
+8bc2OKDrGQ25XeSO+5HtLIHcBz83W64h3fMDEaVD5bZvv+N3ylbPkLg/jZaQUkxf
+Mrqij453wIWAFp3fNYHMBMQcslBOsksspCvxYJ/cG3AFBj+A9JDgI+04qd6lAGQk
+KE1Q9mHzdgXd0V9a3fHnFZfxAiknjHVFi8+mCOZCh2RUeAY8VXX8fpVndh4G1j40
++uohrM6kP2nFIoMflfxVAvJbVA0ikLUT+4J2ElMNlHs/7sdHo8jxgdeLM9Vz69vU
+tK6oYnX2LCKxvhmOmjDfCetHy9adYpEiag1NZjjiRo/tXFXDn4fkOmx/l2uoj4O7
+yOwZ1tWPKkfUoiIHHIXKv59aw9uMMy27NNy6/sf+C2k2O0C5ckmVYF6slOHkgOMt
+Tn2OlrU5XObh8Sqvw9dl8IOjwCopaS+XZ6P4wonlWYc2gv7IALBNmlS2f2u0rEhK
+ShxAM9L+seizf6owe3jZ6ATz
+=WYcG
+-----END PGP SIGNATURE-----
+
+--===============3703168510128132775==--
