@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 11 Apr 2024 01:59:37 -0000
-Message-Id: <171280077779.31173.12637845357714620986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Thu, 11 Apr 2024 02:16:38 -0000
+Message-Id: <171280179870.12938.13472582470743182116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/main
-    old: 06dfcd4098cfdc4d4577d94793a4f9125386da8b
-    new: 97e176fcbbf3c0f2bd410c9b241177c051f57176
-    log: |
-         97e176fcbbf3c0f2bd410c9b241177c051f57176 r8169: add missing conditional compiling for call to r8169_remove_leds
-         
+  - ref: refs/heads/chrome-platform-6.9
+    old: 0000000000000000000000000000000000000000
+    new: 5e700b384ec13f5bcac9855cb28fcc674f1d3593
+  - ref: refs/tags/tag-chrome-platform-fixes-for-v6.9-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 6db4467e5a0e9f50fcc22eb61b0283139ecde43c
