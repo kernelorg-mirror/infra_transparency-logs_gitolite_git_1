@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Thu, 11 Apr 2024 11:15:55 -0000
-Message-Id: <171283415508.9523.3041483140852051873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Thu, 11 Apr 2024 11:17:48 -0000
+Message-Id: <171283426830.10329.5653456315011676972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+user: andy
 changes:
-  - ref: refs/heads/v6.9-next/dts64
-    old: b2b0a1783c394620deea8d6d5587f8e4f1e387a4
-    new: 1dd2e7b97c3c8554f3339397ef6656d90af3ae1d
+  - ref: refs/heads/for-next
+    old: c352a04107264ff5ec3c38db044137cd99c4ba55
+    new: 93ee235f55d3e1c881e766a320cedcad0b9aca42
     log: |
-         1dd2e7b97c3c8554f3339397ef6656d90af3ae1d arm64: dts: airoha: Add EN7581 clock node
+         29b08729abf5fcf1c3844de34ddfcc5e6d7a11a4 auxdisplay: charlcd: Add missing MODULE_DESCRIPTION()
+         93ee235f55d3e1c881e766a320cedcad0b9aca42 auxdisplay: charlcd: Don't rebuild when CONFIG_PANEL_BOOT_MESSAGE=y
          
