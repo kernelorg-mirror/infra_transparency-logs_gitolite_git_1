@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 11 Apr 2024 13:53:20 -0000
-Message-Id: <171284360020.13164.9719092485096356365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 11 Apr 2024 14:02:37 -0000
+Message-Id: <171284415762.19684.973351010376388898@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/for-next
-    old: 9fcc75a80a019d61052093ab1bc2b20042337fc5
-    new: cac2ca6ca54959b20004a79d66cc9080b8e243ac
+  - ref: refs/heads/for-6.10/hid-bpf
+    old: 685dadafbde29dc3d6b7a13be284d684b06d4d4f
+    new: b912cf042072e12e93faa874265b30cc0aa521b9
     log: |
-         cac2ca6ca54959b20004a79d66cc9080b8e243ac gfs2: Fix do_xmote locking error
+         b912cf042072e12e93faa874265b30cc0aa521b9 HID: bpf: fix hid_bpf_input_report() when hid-core is not ready
          
