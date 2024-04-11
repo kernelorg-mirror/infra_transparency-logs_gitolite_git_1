@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3337795864816879216=="
+Content-Type: multipart/mixed; boundary="===============7038506415911045105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 11 Apr 2024 12:26:14 -0000
-Message-Id: <171283837462.29617.15316952724569415124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 11 Apr 2024 12:27:44 -0000
+Message-Id: <171283846406.30222.2900604097534097009@gitolite.kernel.org>
 
---===============3337795864816879216==
+--===============7038506415911045105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 25ca2d573ebae939d19f5df5fef2c58ef83ed97a
-    new: 1b743485e27f3d874695434cc8103f557dfdf4b9
+  - ref: refs/heads/usb-testing
+    old: 1a395af9d53c6240bf7799abc43b4dc292ca9dd0
+    new: 3d122e6d27e417a9fa91181922743df26b2cd679
     log: |
-         693f75b91a9171e99f84fc193e39f48e21ba4a4f printk: Add function to replay kernel log on consoles
-         1b743485e27f3d874695434cc8103f557dfdf4b9 tty/sysrq: Replay kernel log messages on consoles via sysrq
+         3d122e6d27e417a9fa91181922743df26b2cd679 usb: typec: mux: gpio-sbu: Allow GPIO operations to sleep
          
 
---===============3337795864816879216==
+--===============7038506415911045105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712838371 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1712838371-8bc341b848e627a8d0b71c99fa8835cf4e3825fd
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712838462 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1712838461-a755623611d0cc7b6b7b6685c9c34488f56fcd95
 
-25ca2d573ebae939d19f5df5fef2c58ef83ed97a 1b743485e27f3d874695434cc8103f557dfdf4b9 refs/heads/tty-testing
+1a395af9d53c6240bf7799abc43b4dc292ca9dd0 3d122e6d27e417a9fa91181922743df26b2cd679 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYX1uMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7foQAJgENWnTXlJELBEWy6v9
-MJEPyOUbM/u0vQ3sEM5qWkMj7iJNXKzYXbk8uwmbnGSWvOyC7rdKxlwjV1qzpjl5
-+BYwaDD5j1msqw2jBy/W91KMcJ8mZhcobt6HXUuGxzn0bIyaGmyvfYpYYFd/bkzb
-C2OwqTYTtgJOtxrlsKOk/0o1KaLxLEimV7r7lDqUKCya/mIymwPAOiqPENvqHKso
-7EFx27CDlhuqcAEXAULRzf6PWpX70b3u0DI0NHO9emd57g+xKWr3JgJrFFdqxjjl
-j5EDaY0JoZbVThfHBrsvktu/UYuEczJHoQco2yizpUyo8y88JHDOMtqqVyHkpaC9
-7rp5/DLxME4f8aux6aMWerx8P/DGm289XXoZJNRKL7pp41YivWBtQRP2PFStpeFi
-co9PPGuWfQO6//v7KS8ZU653osWaG8eFft8cHHlR/WjBLFTH5ixuWOdA/sTRNsBj
-0x+P8d5UbU420GVvcrC1Yax9YmoYBiwQZtr+k0/Dkk49gtRJrgc3g5B8g8HH/OKx
-4hNmoPwDrU39r1yBZowG5qqAJAdw7LjNkgNffUZHVmF1Q40EXhdY/x7a6306zWZx
-ew/+bugE69xXdDGrwBV/jGe/Gt8vU7kTqcb95qZwPXVlmGXat4SfeJQxcy2N8l3x
-kEfumFNSLTiP1kV2Fzn7oxaV
-=FPif
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYX1z4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IYUQAMA17Y59S39llpdkIKJE
+WaDjIlkuq1DhZcsphmVajdFmsIQrlMbCHRV62kVuaA+UM7X9lFSUJfM1YoAvd+Sh
+4HVKI5/8q+VfbKxNgfa5U3xWQB4kdyOVjMf8A8aqs1QQJrh9G1FvBbHmxxeCGKbP
+HJji0O6OVo6PaYTqIo1nhjjzJM+pXFX0SBDnLyLvZDg4xmrr8nZMCojN+CVxOHRF
+2jvMi34bn4gPKdwgDUpMx+sNGEQvdn9kZyiYV63aD8+3oGc80Ci7F62Zx6VUFvmw
+uhP/4hzUZzZGyVCzMus3WFN9g5poe4HvYOtH4ufeOGUyGb+CjFF5vlNBal1gJilE
+IwWG7nIQAygifDC6MpUz9ZgEp57+/lz6VGdPnN+biNsJjB0RGM9tpQKeS2DpE2BH
+VnaWBM7/pvygTu4gIXEPy/aK6QaImeqS+UzmwuWMkdJfTUJ0XXVxusA46+UlVplF
+1i4WhQUPSYjxxJkYyurkH+zMnhB28KAyrtgltITW+uYO/PNEnvawj7h9qYAqY0EQ
+pGh7gYgsIaOeo/M1F/ecMxLcF74jbnb10ld2VDnNDfu2CS7pJPMyFahs4Tr5O822
+A+bKf4cCmK9o16XSk3EKOwiHDjBhVXNVsW1qUmjxLyiMv8/osyQopaXYBN4lj7LV
+UptHx7N7KUgR6zwe8D3Rl1RB
+=mbGH
 -----END PGP SIGNATURE-----
 
---===============3337795864816879216==--
+--===============7038506415911045105==--
