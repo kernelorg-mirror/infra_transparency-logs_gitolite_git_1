@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6988702150118055194=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 11 Apr 2024 12:33:14 -0000
-Message-Id: <171283879485.1910.5302289371197408648@gitolite.kernel.org>
-
---===============6988702150118055194==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Thu, 11 Apr 2024 12:35:55 -0000
+Message-Id: <171283895524.4544.13312021269539179829@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: fec50db7033ea478773b159e0e2efb135270e3b7
-    new: c8d2f34ea96ea3bce6ba2535f867f0d4ee3b22e1
+  - ref: refs/tags/scsi-fixes
+    old: 884518a2a09e7602c45476ada74c66dce3f92d92
+    new: c0b2984eb41724169af484008e17ea431f0bf763
     log: |
-         c8d2f34ea96ea3bce6ba2535f867f0d4ee3b22e1 speakup: Avoid crash on very long word
+         d4e655c49f474deffaf5ed7e65034b8167ee39c8 scsi: sg: Avoid race in error handling & drop bogus warn
+         97a54ef596c3fd24ec2b227ba8aaf2cf5415e779 scsi: target: Fix SELinux error when systemd-modules loads the target module
+         358e919a351f2ea4b412e7dac6b1c23ec10bd4f5 scsi: hisi_sas: Handle the NCQ error returned by D2H frame
+         0098c55e0881f0b32591f2110410d5c8b7f9bd5a scsi: hisi_sas: Modify the deadline for ata_wait_after_reset()
+         4406e4176f47177f5e51b4cc7e6a7a2ff3dbfbbd scsi: qla2xxx: Fix off by one in qla_edif_app_getstats()
          
-
---===============6988702150118055194==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712838792 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1712838792-60dd1f12b52537f2468bb3c2129d0222d0ca72de
-
-fec50db7033ea478773b159e0e2efb135270e3b7 c8d2f34ea96ea3bce6ba2535f867f0d4ee3b22e1 refs/heads/char-misc-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYX2IgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Wu8P/0m0t3+n46Z2delZcCK4
-wj2Red0EpocrwgP6Yh0RHkdjFjeAW1NNVD1JFS65B863W5AYV0fGCSGXm7FpqZrO
-5fxSDspx465aEfoZsuNCsCTb62BBixIc1esxWPe74mBpvvcnXdP2gBUbUQwhklmq
-LBi4fQf05peEpIiof6vNORQk3MQZ3boBe9ZQ1pNAIAgjm1vV2OALQcriWjqvDLUu
-eej8+8EFSCiPett3OU6j5WJHGoZDB4WBVo1oGM9rvl+OfJHRJaAV6XIF+C0yBuXx
-+to2FXHIZAt17E8kP03mzfj/Wqlk+hviZrQ6ZI987FhyZ8Zn3HD9kEJarj72Ak3P
-WrRiVCHdf13Fvk823ZB+cNeF9bfmXeM1o3SUpWSlat+Lh3ZTWjMKMT5NwlLPMpcC
-P7BdmdkaXgl+XQYvoQo2SrRvfVrT2oliPh01xCR0WhviEpocSrKgvRjNagmk6Pfm
-upCzJkPRZx7agfqOdzdfez0pMHJePn4xR1pjNYfn8Xhdy22OLkS+hDToaYUhJSAy
-5Mmbghr6TLFmnOwZEFYe5XvReVJvb1whN9SopOAPMxBqVXMhdu2+opAgjXasZWmj
-buu5gQkMLN5CRmciMNGo20u0kFfW6OVfRXyuJ3Wr+EwICiTQth8d9/HY94CWxwQJ
-oI9Xh5Tuk4qXjxnglcKDYxkH
-=HG8q
------END PGP SIGNATURE-----
-
---===============6988702150118055194==--
