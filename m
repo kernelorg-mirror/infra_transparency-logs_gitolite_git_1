@@ -1,59 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============5667665460484182273=="
+Content-Type: multipart/mixed; boundary="===============6740682774759489213=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 11 Apr 2024 12:00:31 -0000
-Message-Id: <171283683109.10179.8934599764381189520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 11 Apr 2024 12:02:24 -0000
+Message-Id: <171283694424.10949.8804233293847117907@gitolite.kernel.org>
 
---===============5667665460484182273==
+--===============6740682774759489213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 18f44de63f88a47ea7669a8b81708b9fa54e5d65
-    new: e4d5e3a9ae68250f7cc7e930ffeecba2c9f32832
+  - ref: refs/heads/for-6.10
+    old: b0f3e56938f8cc8c4d606846270b879650ae7741
+    new: 05786095ff657ede5bfaa96a4790da3457c9c116
     log: |
-         244b6e92bd1a0b6ff1f6253b10a96dc208a315f2 staging: nvec: add ability to ignore EC responses in sync writes
-         41288dfaf1b8231bc21fd6966e7296b087e75969 staging: nvec: make keyboard init synchronous
-         395e9164bf721aff9bbbf8d6ac4f6c988d25980c staging: nvec: make touchpad init synchronous
-         e4d5e3a9ae68250f7cc7e930ffeecba2c9f32832 staging: nvec: update TODO
+         002514d91fccde2adbe750c9ec5c6207d56c890b spi: dt-bindings: cdns,qspi-nor: sort compatibles alphabetically
+         52826aee484b3ebb6ed94c1ae89c0944110ed8b1 spi: dt-bindings: cdns,qspi-nor: add mobileye,eyeq5-ospi compatible
+         eb4fdb4bf46f875eac3c093f7ff43a223985f7b8 spi: dt-bindings: cdns,qspi-nor: make cdns,fifo-depth optional
+         05786095ff657ede5bfaa96a4790da3457c9c116 spi: cadence-qspi: Prepare to add Mobileye EyeQ5 support
          
 
---===============5667665460484182273==
+--===============6740682774759489213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712836828 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1712836828-c04fda5c164fd7d3a46456d448555d5177503f91
+pusher C3F436CA30F5D8EB 1712836942 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1712836941-e68cc4865c73a3fe58d632cad5afc9ee80c2d6f8
 
-18f44de63f88a47ea7669a8b81708b9fa54e5d65 e4d5e3a9ae68250f7cc7e930ffeecba2c9f32832 refs/heads/staging-testing
+b0f3e56938f8cc8c4d606846270b879650ae7741 05786095ff657ede5bfaa96a4790da3457c9c116 refs/heads/for-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYX0NwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eWsP/0CDOqrzOjhc+oWTtsrb
-aI4EqrhomVPfOEX+Y01bFdDiMY9K6V2DOLB6GsQMkpkO6LuUKB27jxyoga7E8umD
-T2WBuoF72BeohF1qz5O08lAr1WmDmQay/Dkn7SLvzwsOVj8D/fXEcQlgAII9D+vG
-0HvgTKLAJvHAc8UCsvlvuMqjnezv4eqwvWSNSR2W2jjJ60sy9dtT1ht2Wlm8mURz
-4cI1LYUD1j3L4cQYDa6gbojVSU7tbOefmzQ13FDwFiJc8l0PuOkpogkGLdFiBNHe
-tSM0i7+AjJsSi2YDjmAceUOZOKOa7E+VP64E4hlVAIXIov5QWXx9c846prvfT1Fj
-WLkRpES26uTMhh6oQWGdBbTqhyQSTYnY8+ghFxJu8Kf3ML6TA6a4V+Bc/ofwTJhW
-dHzkPx7a+UFO/N4UEzFelpC5kw47Ta/cFExMXQFwlSEWsmAjIajqkRetrNrhZqCC
-UhdJ3h4cGevvioVjKjjbzgEgEEZklvaTqVjqTTCJ9TA0aRlMgtjU0nfBVrl+zK82
-1rEZjWOai+OAvVSfcPwdpUGafvxpMJlb4kQf2R9sVnVrG/+5ujUnfId4usc9hVKh
-fUCJVNTLSAxpg6G9CJG0yjb/FIzj6fCbLHo5C+bgQ7sS8euzEmaIW6oC/D3fwFkX
-yYmGv2FILoYD/yGf5tLpL56U
-=xuaC
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYX0U4ACgkQJNaLcl1U
+h9B5Jwf/bMEfqpZOutyS6VdPMJYMUG/l69bm3W+Lyh1ZJBJYwMNTc/R3VXg7J1fw
+/bQP+YA5SKeodQszlkQ/h/DSt/8TrltDq8b4y0ucoGiBad0W4Xy2xmWkxdv4c3xt
+6rDFee0cGqyBcpwrBpreOGZYW9MnQ1RN4cGTGwk44qELvd6Zb6LRB99+9y1Q/RNB
++iaCyqbOz9/o2/kZv7Ily2Q5k9namPcQkWj/Q49HqzRJUomFIfwigutV75HVdAaU
+EKZt2hwA6nrKxlhIGYDzduQ+62g3wJjSGf2gnqq5ulsrrdDWcGu8BZGKRm87ff7H
+MKeON311nPw21DVr7pALk8FAz8kmhg==
+=ujlX
 -----END PGP SIGNATURE-----
 
---===============5667665460484182273==--
+--===============6740682774759489213==--
