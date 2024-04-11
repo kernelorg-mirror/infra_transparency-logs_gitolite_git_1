@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4943959757571705656=="
+Content-Type: multipart/mixed; boundary="===============6988702150118055194=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 11 Apr 2024 12:31:04 -0000
-Message-Id: <171283866499.956.17154236757557887877@gitolite.kernel.org>
+Date: Thu, 11 Apr 2024 12:33:14 -0000
+Message-Id: <171283879485.1910.5302289371197408648@gitolite.kernel.org>
 
---===============4943959757571705656==
+--===============6988702150118055194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/char-misc-linus
     old: fec50db7033ea478773b159e0e2efb135270e3b7
-    new: 4bc4634eda10b5a9e703d4b52c0941ea7fbf0fa9
+    new: c8d2f34ea96ea3bce6ba2535f867f0d4ee3b22e1
     log: |
-         4bc4634eda10b5a9e703d4b52c0941ea7fbf0fa9 speakup: Turn i18n files utf-8
+         c8d2f34ea96ea3bce6ba2535f867f0d4ee3b22e1 speakup: Avoid crash on very long word
          
 
---===============4943959757571705656==
+--===============6988702150118055194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712838662 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712838792 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1712838662-8ae3417b83bd0191fce995325dca60a031c1fd08
+nonce 1712838792-60dd1f12b52537f2468bb3c2129d0222d0ca72de
 
-fec50db7033ea478773b159e0e2efb135270e3b7 4bc4634eda10b5a9e703d4b52c0941ea7fbf0fa9 refs/heads/char-misc-testing
+fec50db7033ea478773b159e0e2efb135270e3b7 c8d2f34ea96ea3bce6ba2535f867f0d4ee3b22e1 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYX2AYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uI8QAKt1Bxmprijj5dfCi4uf
-D4v9Z0qa1nySeWUOAgtJhknVfwapMVYo9/CsguIlxM2Va3caKGRAKw8IPQNkOo/P
-RO1QEBKH6Y58xo7bGg07JELKh1IHXAt6s3Th1JeTYI3h4pj6mozvvGT2VD4uFQS+
-Vuvz30TfrwMasq4FWxjEme5wGyVZANOWX+dAsDcRcYPY6l+kVAG4r5KMcW08oz8W
-OYt3Z6mAemcsvhNkzHFn4zttUM6UK/KAJEgXSMJyLzR/K7kviXZS9z9aU9f9YUor
-/mFsT9eN3Hy98Hszgta/KQjj+ccuRP/Qev7dtqC6/OWhPkMrSNho4Hp6r7/8iZUI
-qpDM6VNFBknszMrXbL7+a0wfD0afar3Qte5Pue0tlL1dUrOe3EsQUgxGoZEVw+nC
-6owfOlIJz1IIvsA9UejNKMorrE5uSWemuOvA8Bvv99FKzkMG+E+wqEUK2hOO4Y23
-OVr0Z0IsB8CeliNgDCIjfv9Be1xOaajW2spm98ZCpBGwXPY4Ob5mGG8pL2g0NjgS
-XeQhoyg3JyMZFXAoWpPPsyJWzWRkzP+pp7hok3+Uks+3Q+52yY7fERGbtEnhIeGt
-9q9D9GVv4a1yvvPyhfuWy7uKpPn2cbrKrevaB8VehkQRD+YLeCx8WY1uGr71WcT7
-ltgl5fvD/K58N6fCngPuErSQ
-=LxKC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYX2IgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Wu8P/0m0t3+n46Z2delZcCK4
+wj2Red0EpocrwgP6Yh0RHkdjFjeAW1NNVD1JFS65B863W5AYV0fGCSGXm7FpqZrO
+5fxSDspx465aEfoZsuNCsCTb62BBixIc1esxWPe74mBpvvcnXdP2gBUbUQwhklmq
+LBi4fQf05peEpIiof6vNORQk3MQZ3boBe9ZQ1pNAIAgjm1vV2OALQcriWjqvDLUu
+eej8+8EFSCiPett3OU6j5WJHGoZDB4WBVo1oGM9rvl+OfJHRJaAV6XIF+C0yBuXx
++to2FXHIZAt17E8kP03mzfj/Wqlk+hviZrQ6ZI987FhyZ8Zn3HD9kEJarj72Ak3P
+WrRiVCHdf13Fvk823ZB+cNeF9bfmXeM1o3SUpWSlat+Lh3ZTWjMKMT5NwlLPMpcC
+P7BdmdkaXgl+XQYvoQo2SrRvfVrT2oliPh01xCR0WhviEpocSrKgvRjNagmk6Pfm
+upCzJkPRZx7agfqOdzdfez0pMHJePn4xR1pjNYfn8Xhdy22OLkS+hDToaYUhJSAy
+5Mmbghr6TLFmnOwZEFYe5XvReVJvb1whN9SopOAPMxBqVXMhdu2+opAgjXasZWmj
+buu5gQkMLN5CRmciMNGo20u0kFfW6OVfRXyuJ3Wr+EwICiTQth8d9/HY94CWxwQJ
+oI9Xh5Tuk4qXjxnglcKDYxkH
+=HG8q
 -----END PGP SIGNATURE-----
 
---===============4943959757571705656==--
+--===============6988702150118055194==--
