@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 11 Apr 2024 12:39:40 -0000
-Message-Id: <171283918000.7349.535193933496223279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Thu, 11 Apr 2024 12:40:23 -0000
+Message-Id: <171283922342.9331.11035184568675776679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/x86/urgent
-    old: f3f51c5865a9ae1488a35d97338f9f3f548adfee
-    new: 898e4996e76053bfa0f578629ec6b35baff4224b
+  - ref: refs/heads/bootconfig/for-next
+    old: 8af345076e79425a4c8977818d4ca26caf8cefa7
+    new: 75eafdc4a7571414a2baf355a98f1fb6b7c10e17
     log: |
-         3a93fe9cdfa7bb45716aecf771be053a0ce2bdf0 x86/cpu/amd: Make the CPUID 0x80000008 parser correct
-         898e4996e76053bfa0f578629ec6b35baff4224b x86/cpu/amd: Make the NODEID_MSR union actually work
+         fbbdc255fbee59b4207a5398fdb4f04590681a79 fs/proc: remove redundant comments from /proc/bootconfig
+         c722cea208789d9e2660992bcd05fb9fac3adb56 fs/proc: Skip bootloader comment if no embedded kernel parameters
+         75eafdc4a7571414a2baf355a98f1fb6b7c10e17 bootconfig: do not put quotes on cmdline items unless necessary
          
