@@ -1,52 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============0376841765646541908=="
+Content-Type: multipart/mixed; boundary="===============1818172154810670187=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 11 Apr 2024 11:36:37 -0000
-Message-Id: <171283539711.24123.5916247448272083921@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 11 Apr 2024 11:43:58 -0000
+Message-Id: <171283583885.29748.13549406784869240443@gitolite.kernel.org>
 
---===============0376841765646541908==
+--===============1818172154810670187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/controller/mt7621
-    old: 0000000000000000000000000000000000000000
-    new: fd6eb49a84a85150d5e9ffbd85d3b102303f9470
+  - ref: refs/heads/vfs.super
+    old: d02fed6b7bc872cbad0a045b79d1a61d20dd65a4
+    new: 9035dd4eee422e1a93ca43247c998674d422ed0f
+    log: revlist-d02fed6b7bc8-9035dd4eee42.txt
 
---===============0376841765646541908==
+--===============1818172154810670187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d02fed6b7bc8-9035dd4eee42.txt
 
-certificate version 0.1
-pusher 3DE334E7 1712835393 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1712835392-b1b482cf91862a567e35721295e500715a5e7683
+7a4f3468e63ab0f6cd68cc01daeaf14067c4273f fs: new helper file_mapping()
+1d0c1e64889cbd42bae88416316bb5a0314a1e17 bcachefs: remove dead function bdev_sectors()
+24a35f6d0550cb8515a78281eca39a72de22ef52 cramfs: prevent direct access of bd_inode
+6bbbd68c98dcfabfc9b96247d670ff5e590e92e8 erofs: prevent direct access of bd_inode
+fd866128c1409300c4652b37f044d047a1eb5636 nilfs2: prevent direct access of bd_inode
+24d84d323179cbd138a22bd4f793891374d2ae75 gfs2: prevent direct access of bd_inode
+2f92d94bf0b4e9fcda9b59807d07ceaf0b266c9e block: export bdev_mapping()
+3d58283bccd36d85d1ee7b66f01b820d535e0af9 btrfs: prevent direct access of bd_inode
+9bee27c8116dc259e53868578141352364482c80 ext4: remove block_device_ejected()
+d8dce083800b93c8ec4f1cd35a47ed3a7b6bbe79 ext4: prevent direct access of bd_inode
+93e2216012d11d3df249191459fe08151f26006e jbd2: prevent direct access of bd_inode
+aa584672d2e20f49001c75ebd85efb9243a514f0 s390/dasd: use bdev api in dasd_format()
+e5c027280d10ce3f981952b928df6bce7e492cdc bcache: prevent direct access of bd_inode
+b33682d5dca4df9ed972c2d477aaba943baa10d2 block2mtd: prevent direct access of bd_inode
+c4a884921d32d977b8da83e8866ed7f37db2e31b scsi: use bdev helper in scsi_bios_ptable()
+9035dd4eee422e1a93ca43247c998674d422ed0f dm-vdo: use bdev_nr_bytes(bdev) instead of i_size_read(bdev->bd_inode)
 
-0000000000000000000000000000000000000000 fd6eb49a84a85150d5e9ffbd85d3b102303f9470 refs/heads/controller/mt7621
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmYXy0EACgkQfGR2jT3j
-NOepdQ//S2KoL7Oxf/6F+J27BC1H54Jys+5oCixEO8GZR8c7TyQNmSyZpf6yxUgW
-Hm2YXTQtgTqYkFVdrE7kkbBNrTUm/60Eo9dqQY+k2lrz91YJSStYoQ4mP4zaatW5
-ETXM07T7uMY6eFC3EtjyCSnuT2UbvTIa5PfugR3wfm3PirVvlcGcZg9ae+LGwEQ2
-sixEImsYLb3fPqRtbH5TFeGKHIJB13A4UPq1o/LhgYwMrpSVvY+ukxeN/ATU8SKz
-uLBTGE9D1L7yrMbxP4oDBa/vAHAHK/i/w4cxlGXkiNDSnzoLTKHcrNa8pf0zHk3y
-YaxBq82JmfdPQT49+l/2ACZ9xiJt866E/MnKlwAbj7xa3qJs5lVPppygEI70Kb65
-35Zs5YRv7WbwMr8B3zInr0MZGRqIDshSws0NK3tvmOMDKxEFBsUa1LEZ9RdYDUn6
-GUfGPay9u23nC4A/2L2O+2h2wTZLcI8zctUI8PQIFdfoO57N9ZJmWDl3Hh4Civ89
-DCXWAXqvWkOTYJYKX4ViOc6J98T0nJtTj81cWUbHGBZZCY9TcSSqS2K9OKQDM7BB
-2H9DIJdXhAS/j2mOl4yhzgwAkFBMQ3eHHjqTxTYcwSD26i95EONAmR25h+63cdj+
-MihqDBr0c2MmV36AZJKFx3dAL1tjVRaOrObA4eh9rWEMNbmMgsg=
-=1eIp
------END PGP SIGNATURE-----
-
---===============0376841765646541908==--
+--===============1818172154810670187==--
