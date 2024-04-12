@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 12 Apr 2024 11:40:49 -0000
-Message-Id: <171292204972.11523.4914791687359671351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Fri, 12 Apr 2024 11:49:05 -0000
+Message-Id: <171292254560.16066.4254851744934034485@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/for-6.10/nintendo
-    old: 28ba6011f5dfd337e61e9c5618824115c63be66a
-    new: f6e0f53a48809184c6d79177d1435fbff6b672c0
+  - ref: refs/heads/for-next/ffa/updates
+    old: ce4e02a463506872cbe1b36bf7794b14fe4b5c99
+    new: a592ec13b7f5cf53b9604ae6a2a3913241068f82
     log: |
-         f6e0f53a48809184c6d79177d1435fbff6b672c0 HID: nintendo: Remove unused function
-         
-  - ref: refs/heads/for-next
-    old: ee90682d262f68636ca4f48f4e9f03553db99001
-    new: 986e0c6f30410db40f275561453d0cc311635dae
-    log: |
-         f6e0f53a48809184c6d79177d1435fbff6b672c0 HID: nintendo: Remove unused function
-         986e0c6f30410db40f275561453d0cc311635dae Merge branch 'for-6.10/nintendo' into for-next
+         b5c465808b47d0d6b0eaa412ef77ed722d19ef08 firmware: arm_ffa: Skip creation of the notification bitmaps
+         b59efe8a1a2959243fe0ee447735eb1c3e5a7eec firmware: arm_ffa: Refactor SRI handling in prepartion to add NPI support
+         a592ec13b7f5cf53b9604ae6a2a3913241068f82 firmware: arm_ffa: Add support for handling notification pending interrupt(NPI)
          
