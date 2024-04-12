@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3461630446304857030=="
+Content-Type: multipart/mixed; boundary="===============6821728427318766402=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 12 Apr 2024 08:30:02 -0000
-Message-Id: <171291060215.16968.16742803137970015588@gitolite.kernel.org>
+Date: Fri, 12 Apr 2024 08:30:47 -0000
+Message-Id: <171291064796.18839.11596873025181085616@gitolite.kernel.org>
 
---===============3461630446304857030==
+--===============6821728427318766402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 30614361f727fb5d258b4a1e7af9dad10eac61ac
-    new: f382d6369e88862f4edd83755b1c70a7a1d48af4
+    old: f382d6369e88862f4edd83755b1c70a7a1d48af4
+    new: 8c3adc299c16265b318bb953c3b2cb992491c660
     log: |
-         f382d6369e88862f4edd83755b1c70a7a1d48af4 drop queue-4.19/drm-imx-pd-use-bus-format-flags-provided-by-the-brid.patch
+         8c3adc299c16265b318bb953c3b2cb992491c660 drop queue-4.19/drm-imx-parallel-display-remove-bus-flags-check-in-imx_pd_bridge_atomic_check.patch
          
 
---===============3461630446304857030==
+--===============6821728427318766402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712910601 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712910647 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1712910599-24568d2f68b86fa4e98ef9fd73f2494f8f57baec
+nonce 1712910645-ea48d8c56d1dde773b9dc9783919df8bf2e25dec
 
-30614361f727fb5d258b4a1e7af9dad10eac61ac f382d6369e88862f4edd83755b1c70a7a1d48af4 refs/heads/master
+f382d6369e88862f4edd83755b1c70a7a1d48af4 8c3adc299c16265b318bb953c3b2cb992491c660 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYY8QkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vBYP/i9jkbhln1su9B7KtWkP
-dnl/1Y+9IXhn1SV5gWbRkSWz/3PFaTEYwaumvWsTU0TIZWfNpY/GGKmifBHiU+Bi
-JOL0zx1uCWPikveLZ9v3q0S1HqraKzPtAdGT9marOAt6wKnB16tl0LoKlFr8ztp4
-I//Zv7bOkVy3Wuba/jhFAiW/m1WRY7/2/0XPp6srMpdXquJ8vXMaDopKTNzbtBkG
-r1GP1n/vPk6wE/a114Pr0i+oV/VEpFm0kZSLUCPhNhDZOoNePzWWig76Jc5i6tsK
-exErdcHt4hb6gkFmCAozNeIObFXexOwWUwXPU1CRzr/GMcyvB+iIU8+AQf2nkP8t
-N6G3mstPrH/xLDtYMvtxpvohgROp6myI5pIuT8Y6kAuKIZX/57UVxQX7+5ntvy1a
-LA5ztmmsnSQEJMrwNAMPdy16i95GU0pJvu6t51VawJoVDd3f2Gln1GkFSHBH7sdz
-FX52yQEYGgeAVeBGKv3mhuwfwOz0EkeJ5m9JskUFlYUudGOBqjEPrqzYCXYybBq+
-xJmJGJ2LjIWI1Gco73l99/85pB+BwDs32DcfSL0RiusytbMXWip5urMKknS1QqXF
-NeE2cEyoLrDR+WSXWy/Ht6tJDiIHNwRwIZTYWL5/V2qwc2qvWALFOWzrQAKyhw5r
-lYQKBIxwVWzPWi8MvAmVIE0A
-=VsDW
+iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYY8TcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UR4P+NZswd0UUm1X8WTz0rAg
+3rH0JhcU4/IP7eA6his0ryvzS0Eej/9wZ4c0o+BAfp15AjNIWqo44yGsF1u6iQJl
+7mFclTEFJ9E4q+Himr9I7Qh+QNqkywu0Co906CadaBMIdjYZ/TVeVZDE+xskEcK3
+QXvlFDXwx5/2xJTCu5PjUKrt5fdhis41Tf2FF9NMbgqeem2TLfCwf2auu1clNYvJ
+sfS5uHSxgr8iSROpFdIHJSX2+8TvPG7hoQkhSSGd8mljm04S7nziKa6E/LcHspKi
+1gw272hOd1lkbWaOBgf36/yN0I837dMHdWTT4YuvXoWSHAjmtCYJDGqWe2KwC6Fr
+BveyEEiModt0CIoC9PC6aIGF+XKJb2VQXt+9xi7a8f8UlYiUAV4BBZWNkSqaTBS7
+W5/2Q6BvFblMankP/fT6G+JoC6xquDwiPhck+Hw8iUovZTI0vV8uKzJ9hLObX3Qz
+XJaweoSyFMbJen06pEFifoguhy7791fnYgthLayY99j+3lo4uH6rQVWvds93c1N2
+HxOIj1v5aXYUzSvsY0uxL/729yHhgTFgeGTKgxkm2qtMTdX3AUVeVZT8uWH5vZnx
+xFMGcMch5nA2pFTSUjVovh815AWRFPBHSGT+khSLU1QKR1IBb8Bcd6wPoDNdeVzB
+6QGwanztwoZS0Bh3eIlrYQA=
+=Xgl9
 -----END PGP SIGNATURE-----
 
---===============3461630446304857030==--
+--===============6821728427318766402==--
