@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 12 Apr 2024 17:07:47 -0000
-Message-Id: <171294166707.23785.15751211156448540071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 12 Apr 2024 17:20:42 -0000
+Message-Id: <171294244227.666.13160377480260858226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/kdevops
-    old: fbc4bb0357f420e9d969a15078c2039d2d8e641a
-    new: 9e7e4abd2ab33fb53159a9afbfe156d505852ff5
+  - ref: refs/heads/vfs.misc
+    old: 27a838e027e7fca274675ba21eeedb93b9425f3e
+    new: fa75d6e377fdff728f37c8949f2b7ba27eaa7f7a
     log: |
-         9e7e4abd2ab33fb53159a9afbfe156d505852ff5 nfsd: add new grace-time and lease-time attrs to netlink thread ops
+         fd0a133ef6edb8e49e74af505b38c93af4ba0b1e fs/direct-io: remove redundant assignment to variable retval
+         fa75d6e377fdff728f37c8949f2b7ba27eaa7f7a vfs: relax linkat() AT_EMPTY_PATH - aka flink() - requirements
          
