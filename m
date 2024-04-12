@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============3752018537526378586=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 12 Apr 2024 19:00:06 -0000
-Message-Id: <171294840671.8654.15376424669452165678@gitolite.kernel.org>
-
---===============3752018537526378586==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Fri, 12 Apr 2024 19:00:20 -0000
+Message-Id: <171294842078.8838.17195128456229197409@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: fec50db7033ea478773b159e0e2efb135270e3b7
-    new: 3731629ddb80ae5f52cb95d7321bccfb138cab7f
+  - ref: refs/heads/master
+    old: fffc02aa88d919732cdb91c39885bf2a800f997d
+    new: ffea0dea60059c855cb0b4e1f784352012ae0b37
     log: |
-         3731629ddb80ae5f52cb95d7321bccfb138cab7f MAINTAINERS: adjust file entry in ARM/LPC32XX SOC SUPPORT
+         ffea0dea60059c855cb0b4e1f784352012ae0b37 mempool: Track allocated items per range
          
-
---===============3752018537526378586==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher andi.shyti@kernel.org 1712948405 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1712948404-05323d5a5d6a884967e3253805e30b3cd583f7f3
-
-fec50db7033ea478773b159e0e2efb135270e3b7 3731629ddb80ae5f52cb95d7321bccfb138cab7f refs/heads/i2c/i2c-host-fixes
------BEGIN PGP SIGNATURE-----
-
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZhmEtRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uAkAA/03kthN4YBd/y8sr3azG40vwBXic
-/xkTbHJ+/5stOa43AQCe79mA1PZS+oRLuVvTRQC1SmeEGQG65g5e6fOoCLgqBw==
-=1BdT
------END PGP SIGNATURE-----
-
---===============3752018537526378586==--
