@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 12 Apr 2024 15:15:30 -0000
-Message-Id: <171293493052.5925.11795188597901775181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Fri, 12 Apr 2024 15:34:58 -0000
+Message-Id: <171293609893.17490.5535980484157999680@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 5b8d70d9bce9bc5a63e40a5688955ef466de63ad
-    new: dceab24369aa97f1e5e62d1a61b7a143c25f2cc8
+  - ref: refs/heads/for-next
+    old: ea8f9ec2bbb75adac49dbaaf267f8727ee26b91b
+    new: 04075398ec4f7895b90dfbe53d50b7ba73a355d4
     log: |
-         dceab24369aa97f1e5e62d1a61b7a143c25f2cc8 libfs: Add simple_offset_rename() API
+         04075398ec4f7895b90dfbe53d50b7ba73a355d4 nvmem: lpc18xx_eeprom: Convert to platform remove callback returning void
          
