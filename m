@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 12 Apr 2024 00:40:58 -0000
-Message-Id: <171288245838.31287.4797878736410725288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Fri, 12 Apr 2024 01:27:14 -0000
+Message-Id: <171288523434.4349.15128554834836956722@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-linus
-    old: 2e411e939da9557494a0d83eb2e50627d9ccb2af
-    new: eefb831d2e4dd58d58002a2ef75ff989e073230d
+  - ref: refs/heads/arm32-for-6.10
+    old: 49481b6a8f35017af23e9fdfb644095f50a474e3
+    new: 5c94b0b906436aad74e559195007afdd328211f4
     log: |
-         eefb831d2e4dd58d58002a2ef75ff989e073230d ASoC: cs35l41: Update DSP1RX5/6 Sources for DSP config
+         2338f4315f16b937e924ff679b91bb8c0ab53f25 ARM: dts: qcom: ipq4019: add QCA8075 PHY Package nodes
+         5c94b0b906436aad74e559195007afdd328211f4 ARM: dts: qcom: msm8974-sony-shinano: Enable vibrator
          
-  - ref: refs/heads/for-next
-    old: 6a64c8fcf2ffe13a71410540a179c4d4565c4f06
-    new: f8cfa515170f4ea0a00310511fc21ef53660d1dd
-    log: |
-         eefb831d2e4dd58d58002a2ef75ff989e073230d ASoC: cs35l41: Update DSP1RX5/6 Sources for DSP config
-         f8cfa515170f4ea0a00310511fc21ef53660d1dd Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
-         
+  - ref: refs/heads/clk-for-6.10
+    old: 0000000000000000000000000000000000000000
+    new: 1aab318f1e4900fac325e0d55a0591108ea0cfbb
+  - ref: refs/heads/drivers-fixes-for-6.9
+    old: 0000000000000000000000000000000000000000
+    new: ed09f81eeaa8f9265e1787282cb283f10285c259
