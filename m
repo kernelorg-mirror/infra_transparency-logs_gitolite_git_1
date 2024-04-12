@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 12 Apr 2024 14:50:17 -0000
-Message-Id: <171293341707.19234.8050799834286168932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 12 Apr 2024 14:55:33 -0000
+Message-Id: <171293373388.22652.566673919726372179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 87637cbcc20a0b3dd163e44e1d40b5893333435f
-    new: 5b8d70d9bce9bc5a63e40a5688955ef466de63ad
+  - ref: refs/heads/timers/urgent
+    old: ed366de8ec89d4f960d66c85fc37d9de22f7bf6d
+    new: 16767502aa990cca2cb7d1372b31d328c4c85b40
     log: |
-         ce2f68bcdd7a4d15552d4659fbd749c9639c0a48 libfs: Add simple_offset_rename() API
-         5b8d70d9bce9bc5a63e40a5688955ef466de63ad shmem: Fix shmem_rename2()
+         16767502aa990cca2cb7d1372b31d328c4c85b40 selftests: kselftest: Fix build failure with NOLIBC
          
