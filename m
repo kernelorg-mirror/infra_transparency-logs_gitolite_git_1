@@ -1,25 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 12 Apr 2024 20:55:30 -0000
-Message-Id: <171295533077.28346.12178116628411221170@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0688113199136220056=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Fri, 12 Apr 2024 20:59:04 -0000
+Message-Id: <171295554478.29650.7404827579965931767@gitolite.kernel.org>
+
+--===============0688113199136220056==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 0ffc8fca5c15a70f32c8aff12c566bbd3991bd0a
-    new: 988052f4bfcc4ee893ea19e9d9ce888cc8578e5a
-    log: |
-         20b0027ca1a7ee3b6811f4d67c6015483c6bb456 perf list: Escape '\r' in JSON output
-         646e22eb877cdf618a13e7865ff58939b81304ac perf build: Add shellcheck to tools/perf scripts
-         ec440763bbfc84738d2b38e0d47cb5185d2408b8 perf arch x86: Add shellcheck to build
-         61ff60aab7d6846a5983804d96a316b22aacefa1 perf util: Add shellcheck to generate-cmdlist.sh
-         2b8c43e7688fa61b842ea2b21d4159c67d6f2fd1 perf trace beauty: Add shellcheck to scripts
-         459fee7b508231cd4622b3bd94aaa85e8e16b888 perf bench uprobe: Remove lib64 from libc.so.6 binary path
-         988052f4bfcc4ee893ea19e9d9ce888cc8578e5a perf bench uprobe: Add uretprobe variant of uprobe benchmarks
-         
+  - ref: refs/heads/dev-test
+    old: b883796bca472b324913a0c3c18602d1c8d47f0a
+    new: 7ba56a3a5c6dc49581c703d67e573930e0f51840
+    log: revlist-b883796bca47-7ba56a3a5c6d.txt
+
+--===============0688113199136220056==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b883796bca47-7ba56a3a5c6d.txt
+
+7c5dffb3d90c5921b91981cc663e02757d90526e f2fs: compress: fix to relocate check condition in f2fs_{release,reserve}_compress_blocks()
+bd9ae4ae9e585061acfd4a169f2321706f900246 f2fs: compress: fix to relocate check condition in f2fs_ioc_{,de}compress_file()
+278a6253a673611dbc8ab72a3b34b151a8e75822 f2fs: fix to relocate check condition in f2fs_fallocate()
+e07230da0500e0919a765037c5e81583b519be2c f2fs: fix to check pinfile flag in f2fs_move_file_range()
+3bdb7f161697e2d5123b89fe1778ef17a44858e7 f2fs: don't set RO when shutting down f2fs
+b084403cfc3295b59a1b6bcc94efaf870fc3c2c9 f2fs: write missing last sum blk of file pinning section
+fa18d87cb20fbe597047704babae3850a7a65219 f2fs: add REQ_TIME time update for some user behaviors
+16778aea91869756cad3e07c9ce8ef32a660358c f2fs: use folio_test_writeback
+ddf0cbfb3d704130e32ebc4eb9c29e3f79f66df9 f2fs: zone: don't block IO if there is remained open zone
+b66d6e87e4b511ae6d0cc6291c3bae2394bb7272 f2fs: prevent writing without fallocate() for pinned files
+7ba56a3a5c6dc49581c703d67e573930e0f51840 f2fs: allow direct io of pinned files for zoned storage
+
+--===============0688113199136220056==--
