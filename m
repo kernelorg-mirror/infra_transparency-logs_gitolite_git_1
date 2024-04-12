@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Fri, 12 Apr 2024 11:49:48 -0000
-Message-Id: <171292258801.16352.12161052096002310333@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Fri, 12 Apr 2024 11:53:26 -0000
+Message-Id: <171292280627.19387.16977209315811620812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/for-linux-next
-    old: a4200c1395dc3cce6ce36ea43e115938600e2605
-    new: 722ba6ef209f6de2199defdf10cd92d8eb7f4226
+  - ref: refs/heads/pwm/for-next
+    old: 858fbbf538a6be743488c7bb61e26c755f8a3baf
+    new: 4d64c0ae9c402bb3a358760232edba32f59d94c5
     log: |
-         b5c465808b47d0d6b0eaa412ef77ed722d19ef08 firmware: arm_ffa: Skip creation of the notification bitmaps
-         b59efe8a1a2959243fe0ee447735eb1c3e5a7eec firmware: arm_ffa: Refactor SRI handling in prepartion to add NPI support
-         a592ec13b7f5cf53b9604ae6a2a3913241068f82 firmware: arm_ffa: Add support for handling notification pending interrupt(NPI)
-         722ba6ef209f6de2199defdf10cd92d8eb7f4226 Merge branches 'for-next/scmi/updates' and 'for-next/ffa/updates', tags 'ffa-fix-6.9' and 'scmi-fixes-6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+         4d64c0ae9c402bb3a358760232edba32f59d94c5 pwm: meson: add generic compatible for meson8 to sm1
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: 858fbbf538a6be743488c7bb61e26c755f8a3baf
+    new: 4d64c0ae9c402bb3a358760232edba32f59d94c5
+    log: |
+         4d64c0ae9c402bb3a358760232edba32f59d94c5 pwm: meson: add generic compatible for meson8 to sm1
          
