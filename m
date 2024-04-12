@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1446376357194904585=="
+Content-Type: multipart/mixed; boundary="===============2144094715307484857=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 12 Apr 2024 02:05:16 -0000
-Message-Id: <171288751691.31884.12629985039343465137@gitolite.kernel.org>
+Date: Fri, 12 Apr 2024 02:05:21 -0000
+Message-Id: <171288752128.31998.3961856955248249686@gitolite.kernel.org>
 
---===============1446376357194904585==
+--===============2144094715307484857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging
+  - ref: refs/heads/for-next
     old: e63350dae44f01842dca229aaaa22c105356d7ab
     new: 8e50d1ee8f4cdae5cba87b93de4819feb79bd049
     log: revlist-e63350dae44f-8e50d1ee8f4c.txt
 
---===============1446376357194904585==
+--===============2144094715307484857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1712887515 -0400
+pusher 75C5DE3D 1712887519 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1712887515-b8a6b1bc4e3d1194e66edee7ec78cc347f145e75
+nonce 1712887519-6f03a968f553ebd3888dd2b9e25df0c02d82b421
 
-e63350dae44f01842dca229aaaa22c105356d7ab 8e50d1ee8f4cdae5cba87b93de4819feb79bd049 refs/heads/staging
+e63350dae44f01842dca229aaaa22c105356d7ab 8e50d1ee8f4cdae5cba87b93de4819feb79bd049 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYYltsACgkQ7ulgGnXF
-3j22Rg//V6G13YLVAk9t9Slj/K1JqHwoX+IczNS5kCca0siwPBgwE4BeyzDchZU5
-nMQ1yAQlv0OuoiVp2mRbt9IU9CiPVtyjcb2Su7FnKGx9HHhbLYExbMFjoua7LYAS
-eZif9MKAvfU+sX3D3HfdzXHFJYPqiQfOYjpjDF/bmSQVNLj/Ge2TKyp+7YiiLuPV
-UZTC7DXJXpCNuk6VLHhkQ2vZNU6GjDBtd0VZI9iQsHZxlcP81S8ql1dHTpWl+I9V
-2kgEajcynBmLyZwuEQt1paAWDOw85/X0pHpjlP075PVdvhYsAsXVGh1lMQy89B0Z
-htMP7uXg9XeESyDShoR29S9sAtfdYKgne77zUUU+KsucvQkERbIVWLGW6KiRMM3Y
-0nIiz2GTAEPd7xW3xsrIUOxC1Y7siuAtV2clqwgvc6W1cS6knXXyy/+DFDaaLU5o
-3y6c2rWNmZeUwPYF58tDPMHMJbykfqdlWhpBKqdBx5mAu09xf3a8Tw3P59ayGhyD
-X6WNdrnx65sUFNDioZ2wcqRRWVKfu5Q2x0rGJ1BFutf5b3vlT93LWrzlqRfx6nCI
-8LN4t1/gAZIzNVdTw0w5mN8F7m5dZidb7U1fIIJ4l6nAHgrr3vQWNM06jTmhr9Sk
-JI2GmXsNTntKkHn48FTzst3Aa1WCwovZVMtKQDmMCSvpXoZnu8E=
-=Q/7b
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYYluAACgkQ7ulgGnXF
+3j17kA//SqGoJH251ze11335xUys5lxhreI3jeg2zBuOEMUHOOM2sVhWKAoVrZts
+Zoy6D1rZpIvUOma8GZDljTFfiOQyd9Q8ujndPts1GG2zvsni2Qh/z9PATd41lySc
+WkYBKa5MHsDx/3IzeqHuW83v5Thma9cfAt7htm/EkEKgmwyHxqr7aa/0HBxGFCaU
+CawL5/pqPhPkP0NLVHIswNuTr48acwNi+ObmBpS6kiozC7crufORjACSvggSUDoZ
+7nkEbzQAdem7DKcLDIrkmwALLow5TVVAkZ+BA23Vme7ewfzgJDfXnMH84kJxa33X
+wvPbUmnLAygyFCclkavbddETeX25vw6CzKGKaWzxomHP0H48VUXnLK+anZ4ZaoXl
+msWtTlfkDHl1rwiZvMXfExIr6KCgAhY7ovh29kc07z5XRD4Huu8bkWhSOkLArb03
+S8lQ3TMvgmDgasYzRd6FlshHhoRQvBGwg5J1PVh9sJ2+qFAgr7B4W7NGl2Lh1Y96
+WYsMB9hFt+B+NgHMOrO25qEBwN9JJy2xsmY3lDZNrbz6xWootC6yXPDVWhBba74W
++pauiL4SJ+1zelnmlEs4lYKaD/4r1M38psUS3PnEMCAN3aDbgCRRTbvG90bDBGHz
+faRDw5i9YMRxllOd17HHuLbMWy5/EsX8wdhXfviRavb3eLD5sJY=
+=PM86
 -----END PGP SIGNATURE-----
 
---===============1446376357194904585==
+--===============2144094715307484857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -86,4 +86,4 @@ a6584df2fd51bc0d1611dd0fc9c48cfca3fd68c7 scsi: ufs: mediatek: Fix module autoloa
 6d97e807c9067e154f4f5c5c2d17b54678df2898 scsi: MAINTAINERS: Make cxlflash obsolete
 8e50d1ee8f4cdae5cba87b93de4819feb79bd049 Merge patch series "convert SCSI to atomic queue limits, part 1 (v3)"
 
---===============1446376357194904585==--
+--===============2144094715307484857==--
