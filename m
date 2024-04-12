@@ -1,57 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============1507520339178249655=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 12 Apr 2024 08:02:56 -0000
-Message-Id: <171290897642.29997.1585084324772409357@gitolite.kernel.org>
-
---===============1507520339178249655==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/dash/dash
+Date: Fri, 12 Apr 2024 08:06:27 -0000
+Message-Id: <171290918728.406.217735186970274922@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/dash/dash
+user: herbert
 changes:
   - ref: refs/heads/master
-    old: 37fdbf2dc50dcb6fa8f31665f7fab927d8528ddb
-    new: 25ad95d99dfd0c510be3101cd8d783a2c9801fba
+    old: 419f334520c251fb9cdeac380312d38521dfca5c
+    new: 177072c2e718d2fa9758be9925b8558aedbc0227
     log: |
-         acfc4ba2273998f8834b8a2101ceb658c59d9b7e drop some 5.4 fuse changes
-         25ad95d99dfd0c510be3101cd8d783a2c9801fba fix up tty patch comments
+         d489f2e2e98268894a38a1c84da559e74020c47b exec: Check executable bit when searching path
+         74085cc28deb9d95867ad7c350efd11ea722a552 jobs: Allow monitor mode without a tty in non-interactive mode
+         865f44f3fdbc97e21dd279cba46376984cb1e059 alias: Fix out-of-bound access
+         1c8cf3e96d3ff221dbcf3f8447fd197cdca18939 var: Fix unexporting of local variables using unset
+         177072c2e718d2fa9758be9925b8558aedbc0227 var: Remove unused VNOSET
          
-
---===============1507520339178249655==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712908970 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1712908968-ca09d9f8081e19ca7b19b9f9e79e372ba0260053
-
-37fdbf2dc50dcb6fa8f31665f7fab927d8528ddb 25ad95d99dfd0c510be3101cd8d783a2c9801fba refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYY6qobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bToP/ijfbVV9o6T+S9N8S4vc
-Ms6rOhfegGGSjCCzUMLSK4lOs0FfHrNRHEPyKUQpy/aWzBdsi/hCdHGaeLk75nME
-6uXB0XB8tr6LSb7Y+1zVO1BO9LrcKvmQ8561aGu/9KIMBsj5bQ/D1DAIniL1iCJJ
-o0PrhVc+ygXGrYnBebccGjHBcPrWkugha6G8FjOISDVcZm83R5Sbva2f1iN5BymX
-2PTj16o759z4U4zpkI0FXnRJhSk2vQuif46/qHfxFahjD2C8LgsLv37XltIQA1Cd
-A9omLqzGdKdDF4C/TPKm4rhPhhKEEitrVM210KtthTi8L2vGys+rCITp+m9hDQqf
-wK+aqtW7sedyqscFwPnIR2sSsKmXCXMiBnqUWni8nNfhPHXNPcHWLy74GguBOqFB
-AvndIcY7+DAwoibs9yWw3+pHcrbu68LzEBjXmI1jV1LSffOvhm/W7VeFFRAAVqrY
-6ugg+ADQcHqZSy3L4lEkjpiVWhtTiol9InG2RW0RiiWe+DE3VZmbWtaALivuzlqI
-Q9S8wOXx7ekU5oy3mo0VJEmDWi7lTrW4tfTiqHWflyOoGHtFo2R68AP5/BROHw9u
-NYM13exVSlBTHaPsMbcs6HdNDZo1G2rgozKp4AVyz2hSO8xvSyxJ9Y27cP/CDg9+
-nHxqUHtWs+gdsZxbiF/dKnYQ
-=9RmC
------END PGP SIGNATURE-----
-
---===============1507520339178249655==--
