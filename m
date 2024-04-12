@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Fri, 12 Apr 2024 15:36:46 -0000
-Message-Id: <171293620655.19941.9579297677781210969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Fri, 12 Apr 2024 15:46:27 -0000
+Message-Id: <171293678764.27817.8262042843507854007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/probes/for-next
-    old: d3f4e726a51701bfbea6644b144b586e36ef5474
-    new: 2285c4a4e0c930afc6ddfc1ecf97ef23ef59bbda
+  - ref: refs/heads/crypto-pending
+    old: b61c719dfd26990b83d7dda5ae5bc1d349a2d7cc
+    new: b6bc05c871a1b86c6e92fd666496888fd4fc1d7b
     log: |
-         2285c4a4e0c930afc6ddfc1ecf97ef23ef59bbda tracing/kprobes: Add symbol counting check when module loads
+         b6bc05c871a1b86c6e92fd666496888fd4fc1d7b crypto: x86/aes-xts - handle CTS encryption more efficiently
          
