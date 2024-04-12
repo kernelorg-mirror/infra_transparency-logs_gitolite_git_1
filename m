@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 12 Apr 2024 02:45:27 -0000
-Message-Id: <171288992752.28967.13897584694144558612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Fri, 12 Apr 2024 02:49:36 -0000
+Message-Id: <171289017649.30485.10019542257905615982@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/main
-    old: 94426ed2137a948d212302df571445d4245772b9
-    new: e0f89d2864b062b027196925ea19f94b2ce50d6a
+  - ref: refs/heads/fixes-base
+    old: 2a26a11e9c258b14be6fd98f8a85f20ac1fff66e
+    new: 4406e4176f47177f5e51b4cc7e6a7a2ff3dbfbbd
     log: |
-         f6d827b180bda01f8805bf5e85307419b0d6f890 net: move skb ref helpers to new header
-         a580ea994fd37f4105028f5a85c38ff6508a2b25 net: mirror skb frag ref/unref helpers
-         ef4ba01181710c589c1e923a2e760090281d8750 Merge branch 'minor-cleanups-to-skb-frag-ref-unref'
-         919b38a916b4c616f1ead7d551de74bfcbe13e3c net/mlx5e: Expose the VF/SF RX drop counter on the representor
-         e1eb10f8ef1068e565b24daa3e95bd8bc95d8cdc flow_offload: fix flow_offload_has_one_action() kdoc
-         e0f89d2864b062b027196925ea19f94b2ce50d6a mpls: no longer hold RTNL in mpls_netconf_dump_devconf()
+         d4e655c49f474deffaf5ed7e65034b8167ee39c8 scsi: sg: Avoid race in error handling & drop bogus warn
+         97a54ef596c3fd24ec2b227ba8aaf2cf5415e779 scsi: target: Fix SELinux error when systemd-modules loads the target module
+         358e919a351f2ea4b412e7dac6b1c23ec10bd4f5 scsi: hisi_sas: Handle the NCQ error returned by D2H frame
+         0098c55e0881f0b32591f2110410d5c8b7f9bd5a scsi: hisi_sas: Modify the deadline for ata_wait_after_reset()
+         4406e4176f47177f5e51b4cc7e6a7a2ff3dbfbbd scsi: qla2xxx: Fix off by one in qla_edif_app_getstats()
          
