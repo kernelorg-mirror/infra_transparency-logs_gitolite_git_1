@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 12 Apr 2024 19:44:11 -0000
-Message-Id: <171295105189.8126.5904755263513496611@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Fri, 12 Apr 2024 19:45:33 -0000
+Message-Id: <171295113304.10295.10004595078990693022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: a0da40feae88976cad65885fea0932458fdc56ed
-    new: cbb84f14100e61a45b7c8f046152cdac25a16ace
+  - ref: refs/heads/master
+    old: f06c65e79fc34c719568f577d638cc51716d8440
+    new: 2d9f5025ed0ee15cbb708921c3581b983b60da32
     log: |
-         cbb84f14100e61a45b7c8f046152cdac25a16ace libfs: instrument offset_readdir()
+         2d9f5025ed0ee15cbb708921c3581b983b60da32 Revert "mempool: Track allocated items per range"
          
