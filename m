@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3322078321456746537=="
+Content-Type: multipart/mixed; boundary="===============4639689890441094473=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 12 Apr 2024 19:32:24 -0000
-Message-Id: <171295034454.31390.3281845315139706719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 12 Apr 2024 19:32:43 -0000
+Message-Id: <171295036365.31580.1217069548994046296@gitolite.kernel.org>
 
---===============3322078321456746537==
+--===============4639689890441094473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 0ffc8fca5c15a70f32c8aff12c566bbd3991bd0a
     log: revlist-9c3e9af74326-0ffc8fca5c15.txt
 
---===============3322078321456746537==
+--===============4639689890441094473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ f649ed80f3cabbf16b228894bb7ecd718da86e47 perf dsos: Tidy reference counting and 
 1d6eff930595eef83cfb8486c122249afb66145d perf dso: Move dso functions out of dsos.c
 0ffc8fca5c15a70f32c8aff12c566bbd3991bd0a perf dsos: Switch more loops to dsos__for_each_dso()
 
---===============3322078321456746537==--
+--===============4639689890441094473==--
