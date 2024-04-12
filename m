@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4270321819453911398=="
+Content-Type: multipart/mixed; boundary="===============3167656589112398217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 12 Apr 2024 02:04:56 -0000
-Message-Id: <171288749623.30033.17339161530748311740@gitolite.kernel.org>
+Date: Fri, 12 Apr 2024 02:05:12 -0000
+Message-Id: <171288751238.31806.552769641465194740@gitolite.kernel.org>
 
---===============4270321819453911398==
+--===============3167656589112398217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 5ea663d2fda7e15bb1f2b53b973294b5744d6883
-    new: b4b0cbf2d16a3654248166dfdfcee576456d9a65
-    log: revlist-5ea663d2fda7-b4b0cbf2d16a.txt
+  - ref: refs/heads/6.10/scsi-staging
+    old: e63350dae44f01842dca229aaaa22c105356d7ab
+    new: 8e50d1ee8f4cdae5cba87b93de4819feb79bd049
+    log: revlist-e63350dae44f-8e50d1ee8f4c.txt
 
---===============4270321819453911398==
+--===============3167656589112398217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1712887482 -0400
+pusher 75C5DE3D 1712887499 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1712887482-527cb0f0d1264410f9e4c5210f4397cf37bdd813
+nonce 1712887499-d1a20c58ee09824c0b29e61125369fede3d28e6a
 
-5ea663d2fda7e15bb1f2b53b973294b5744d6883 b4b0cbf2d16a3654248166dfdfcee576456d9a65 refs/tags/mkp-scsi-staging
+e63350dae44f01842dca229aaaa22c105356d7ab 8e50d1ee8f4cdae5cba87b93de4819feb79bd049 refs/heads/6.10/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYYlroACgkQ7ulgGnXF
-3j00Vg/8Cg9sxHx2BOx2hGZSzpU9dcM1joE4uCoHCc5ed7BMagkllCZvrr7z5DYP
-DKw+RBprmiaX/YyJOLR34VVXHoezyh8mf2/dv4bEjFkysbOPyCmFhgE/bkV+v3+Y
-GS3oSkAn5CLtljds+fA3SPJUo0OxNcWsLcRo9D7RZKWZ3PHaxflZDfj0AQZwlAjA
-XirY1lAyKvdZq/xZ1wytlNLN+MNbN/Qu0ShJT3kozKGXGpOxywjKqKyjILaKVCle
-Q0yUpa8dEI2wU6fta/nK4wJIoF0nIeMbtVBTcA7SvfaQ+StiuLYWLtrmuDFOpYWz
-Kv8lI4nVEI1Zv/dBmMb1sYYHCR4KHdX8PCvDIT/j4OLoPq+nN0YJuOhGysnWNRVE
-A7Kq+TsjycAdbm1uL6LLJBHeD9Mn8/S6tHfDZ38EeFl5iZRoFO2/tjX4CpAnZlbg
-Z3DlG1NixP5Q/K9FyGVL4auaYub9XBI/vP3GIWs4oB8KMjVUFZ/QoMWrJybprYke
-JSjOpD+Skz7WbUIr81M2/o94zwbz79awJZ9Zf4qPVWuppJdwQeER6u9Gfm6M2v9H
-KYqKWorl0Tcqg0Hve1Ahmjv4nF2qNrlUo0PA0V2ZUES3rIdgF0N7tY5j1EOdT2Yn
-VyVeCvJkNxTjLKh4L7Vyk3eB9A/vUbHLqZjFtY6VNm8ju1pMjfI=
-=XU0Y
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYYlssACgkQ7ulgGnXF
+3j3I1w/8DHvEqOTAhezborM4Pqvgy9rOJ912TXcMoXENeBISYqhbveUviGrnGSog
+T+5yWr4NNog6rtPDuiXpmGXb55KeJpP9k2hsRmPtEXabkzd6IaFqWfqs/da239U8
+RBQ5o1/Aj+qizlLubyhAm2UC0BDpgRVmm5VTSLymzJjwwuoxLQuV/h268bLHs7WW
+6iBOR2DfaYJLDiQmPasmnpy2fEMD3yTO1i9jmcD5gbGVBknCD5zHKhi7JJpgnq63
+k3VHr5x2dp0prTLrNryx81cZi4MYTRH0xhQuPhI2B1+LCNuPMtmMKAA0HMLKUNms
+CLz6kVbjKVrGEPRwCzVXgbBl4/aSZAnrgFmRipgP2I1IK88zpK0rUa0nr/HljnzY
+AV1+gASIaUnNfw7lapMIasJ+0o1ZgzHKJwd5l67B/ptbTsLc+S2BmX1VKNekO5oy
+cANPXfwoFgeHOK6OFUqGp7Rc1O8De7OJioU1up0T9HmxoIgW+BZ3wnVdor15pBB8
+ZJaeTvP32Codi+ukMCXaSxIlz3QRU4t0VxswOAzGkVgrgFrcChDrkHw9blf1AxhZ
+n/EDX3vCrulpGEsEJ/5PiBmPblKRdnNFbqE0Ai65BdIATgfpBakF3VtYFyVFwywR
+k25CVdELkPkN+3fQ/v/il1GOBVR+Cl8s1ONiEnvejSXO47lQfoc=
+=U2d/
 -----END PGP SIGNATURE-----
 
---===============4270321819453911398==
+--===============3167656589112398217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ea663d2fda7-b4b0cbf2d16a.txt
+Content-Disposition: attachment; filename=revlist-e63350dae44f-8e50d1ee8f4c.txt
 
 293066264fb45df4290897c22e69833bea5fe171 scsi: block: Add a helper to cancel atomic queue limit updates
 4373d2ecca7fa7ad04aa9c371c80049bafec2610 scsi: bsg: Pass queue_limits to bsg_setup_queue()
@@ -86,4 +86,4 @@ a6584df2fd51bc0d1611dd0fc9c48cfca3fd68c7 scsi: ufs: mediatek: Fix module autoloa
 6d97e807c9067e154f4f5c5c2d17b54678df2898 scsi: MAINTAINERS: Make cxlflash obsolete
 8e50d1ee8f4cdae5cba87b93de4819feb79bd049 Merge patch series "convert SCSI to atomic queue limits, part 1 (v3)"
 
---===============4270321819453911398==--
+--===============3167656589112398217==--
