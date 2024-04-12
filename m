@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6653494702808747790=="
+Content-Type: multipart/mixed; boundary="===============0609838038351595685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 12 Apr 2024 17:02:39 -0000
-Message-Id: <171294135931.18517.17374770218886296669@gitolite.kernel.org>
+Date: Fri, 12 Apr 2024 17:03:00 -0000
+Message-Id: <171294138011.18744.12321188420463299175@gitolite.kernel.org>
 
---===============6653494702808747790==
+--===============0609838038351595685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 0e36c21d7640ddbfa9233c692db905e0848c6f44
     new: 982a73c7c594d553a688353c6ae43560542c4cd2
     log: revlist-0e36c21d7640-982a73c7c594.txt
 
---===============6653494702808747790==
+--===============0609838038351595685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -483,4 +483,4 @@ c31bd5b6ff6f70f016e66c0617e0b91fd7aafca4 Merge branch 'rtl8226b-serdes-switching
 8910f93b95706b4b11485bb0f318f88918a46b04 nfp: update devlink device info output
 982a73c7c594d553a688353c6ae43560542c4cd2 Merge branch 'nfp-minor-improvements'
 
---===============6653494702808747790==--
+--===============0609838038351595685==--
