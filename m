@@ -1,19 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pateldipen1984/linux
-Date: Fri, 12 Apr 2024 18:13:09 -0000
-Message-Id: <171294558941.6275.14807123162690892393@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3902866338666383846=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 12 Apr 2024 18:14:08 -0000
+Message-Id: <171294564891.6681.1417734388522060000@gitolite.kernel.org>
+
+--===============3902866338666383846==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pateldipen1984/linux
-user: pateldipen1984
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 4cece764965020c22cff7665b18a012006359095
-    new: 297f26dbf870d4f19591b74a0ab535c327917b81
+  - ref: refs/heads/master
+    old: 3b691d28df6954e8fac742365a08c496f36a3738
+    new: 2fb2d94280e7f816e77e935df057920de4fe7a7f
     log: |
-         297f26dbf870d4f19591b74a0ab535c327917b81 hte: tegra-194: Convert to platform remove callback returning void
+         2fb2d94280e7f816e77e935df057920de4fe7a7f ez: small tweaks to dependency functionality
          
+
+--===============3902866338666383846==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1712945647 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1712945647-9b778bda24639beba622a8276586df282c5be00e
+
+3b691d28df6954e8fac742365a08c496f36a3738 2fb2d94280e7f816e77e935df057920de4fe7a7f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZhl57wAKCRC2xBzjVmSZ
+bBUNAP0eawl6FwFG9i4cbPud4vj8JvNnZ/JDEuU8TofGFXqq5gD/d+P/rFhHY91X
+Wr986WxF7i2jGTUB6HShWvdVRDmooQU=
+=9cRn
+-----END PGP SIGNATURE-----
+
+--===============3902866338666383846==--
