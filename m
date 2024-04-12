@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============8501872810316496146=="
+Content-Type: multipart/mixed; boundary="===============4163376423843236565=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 12 Apr 2024 07:47:06 -0000
-Message-Id: <171290802600.19444.7310528194441335436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 12 Apr 2024 07:47:40 -0000
+Message-Id: <171290806073.19684.15917973519600224369@gitolite.kernel.org>
 
---===============8501872810316496146==
+--===============4163376423843236565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 1a395af9d53c6240bf7799abc43b4dc292ca9dd0
-    new: 3d122e6d27e417a9fa91181922743df26b2cd679
+  - ref: refs/heads/staging-next
+    old: 18f44de63f88a47ea7669a8b81708b9fa54e5d65
+    new: e4d5e3a9ae68250f7cc7e930ffeecba2c9f32832
     log: |
-         3d122e6d27e417a9fa91181922743df26b2cd679 usb: typec: mux: gpio-sbu: Allow GPIO operations to sleep
+         244b6e92bd1a0b6ff1f6253b10a96dc208a315f2 staging: nvec: add ability to ignore EC responses in sync writes
+         41288dfaf1b8231bc21fd6966e7296b087e75969 staging: nvec: make keyboard init synchronous
+         395e9164bf721aff9bbbf8d6ac4f6c988d25980c staging: nvec: make touchpad init synchronous
+         e4d5e3a9ae68250f7cc7e930ffeecba2c9f32832 staging: nvec: update TODO
          
 
---===============8501872810316496146==
+--===============4163376423843236565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712908025 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1712908025-0ecb4a9e88081505d5a22f3b47c61e186cd12a4d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1712908060 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1712908059-7bba9de9a7288869071d7e5859f60507a9f0088a
 
-1a395af9d53c6240bf7799abc43b4dc292ca9dd0 3d122e6d27e417a9fa91181922743df26b2cd679 refs/heads/usb-next
+18f44de63f88a47ea7669a8b81708b9fa54e5d65 e4d5e3a9ae68250f7cc7e930ffeecba2c9f32832 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYY5vkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yCEP/1WvExY3akAroz5AfLg4
-p/ycDK21HDWCplIFyp+FWdCNmkvPfj/Q2UwIEromuwJOXYU8rc9G+O6LaPHbDpQw
-VFgKDjjRaNI/dYV05VMvq1lna+IaSyDIOuWaNOwmuZbdoAg7oVFC1oab/ZHNREIw
-ZKv2xMvFW+aw2g7nuYiZEv9Dr1/JW/LhqEncAJH59wsJQ9kLrrBwZJ0r3enqJoPh
-2QOLp+VPP1MnHsjHr9gihgBAq4ZbYzjLcSfe51p2fmUcjeDNR9g7D3rRQNdDCeFv
-mC6YhEzUWmL7VFAJQob0UKPRwOGFrQG7dKmlZGhcVFY4Ejn0xCi+wMzA4A2KRMDU
-r4n565V4r9c6t6IERKC6Wil2TAczPCfP/aBm+1gzbBfCnbwisYZE83K9Vwo4UWsq
-ZDaj/KlzhcnzOUvRWnYet+99aB4jHVSMDzCCth+TEojTCey4gWsal6hony7XePsr
-fo/fz0IzndMq6J6nWrbjnuFjw8YqmLRe20rkkZA8ejv7RR5/S9u8v9cVclZLAAWl
-wUM/9o80QSDr2efoNwlsHtNRHlEDmqq5oXD4ziZl3/yu+pSh6MKMqkA+QxHMgO/b
-rOAHnZhFajcYffItEgQmgpqD5w0t1co3fv4QG1y+IJ0eNVaDB+ylrb9OtfQnuVHt
-VUG3wVFFc8GR9NSN+34kQjdS
-=RU/C
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYY5xwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wBEQANEeRhwZf5IzErnGthS1
+KdBwd0Cs3C04iFYnnsJJo2q8FJFGclncs3ZdKg2Q+A205sg2Jng+qFw31dv0Ekzg
+W23RryUp927Ame4CXKPZQ3i1JNcY9dQ/6I6z7x9LgOQaX5R5E4OD1LDK0LrqqK68
+agdZDReiYTy3W3J22vIkwzW5FXiOs0hHM7XjiVkOQvuP2X2+s7ixpP4gWnm5gima
+uOJREmYxYpi01iIwTCzb9BB8M9maF/6renPoa/Qx2Oo1UZM9uwsf9wUfhG/A7AOZ
+QUYMWbLJmeyuGfJHywnmxOPeqS035csTBbA4+IUwNE/mr/QkzWJwAHpLo7KF+/hJ
+ZkSxC4qjHajxx/dBQ1Rj4Nw7zxi2cC6N8XVt2lh7xstIRaNVlu8fLYEwArMZRWVi
+jFjYxnIzf9/pi0rgT2WgwRizhAdkLX/o+OBnCnjKZY04/txmbFWY7rHoooAu68Oi
+a27wV3n5bHOEHTTdD9BgUojNjxKC5690xUbpUkz7x6oZUKbRj32dOs7fnuBw7NeP
+5cHZwlsGfefOPWRAwfw6WBvt35xEBZ1PRcY1U98//FskEylAVxFCdbTvWmJRgey4
+KXQwhEvdBcP25HpmC6raaYcT04sKekC7ladd0Q8h91BAC51YGGgX7l+kvFJeRkqR
+1SUDVruF1jpPXn3LJzl6vx4T
+=2eJQ
 -----END PGP SIGNATURE-----
 
---===============8501872810316496146==--
+--===============4163376423843236565==--
