@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Fri, 12 Apr 2024 16:01:35 -0000
-Message-Id: <171293769577.6606.14466991150777110914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Fri, 12 Apr 2024 16:03:51 -0000
+Message-Id: <171293783198.7496.10688466403398392109@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/bootconfig/fixes
-    old: c722cea208789d9e2660992bcd05fb9fac3adb56
-    new: 46dad3c1e57897ab9228332f03e1c14798d2d3b9
+  - ref: refs/heads/for-next/perf
+    old: 8f9f5041c64600b01b71f29fb8e2121e45bfb719
+    new: b782e8d07baac95a5ce3f8773cc61f4ed7d0ccbc
     log: |
-         46dad3c1e57897ab9228332f03e1c14798d2d3b9 init/main.c: Fix potential static_command_line memory overflow
+         b782e8d07baac95a5ce3f8773cc61f4ed7d0ccbc arm64: arm_pmuv3: Correctly extract and check the PMUVer
          
