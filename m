@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 12 Apr 2024 09:55:15 -0000
-Message-Id: <171291571566.30744.15443250969442453041@gitolite.kernel.org>
+Date: Fri, 12 Apr 2024 09:55:20 -0000
+Message-Id: <171291572068.30873.9355498391995919538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/perf/core
-    old: acf68d98cae8a60dc4af2e9feaaa799bf0aa5c04
-    new: 134f8dbeb4b6b7d2a96130f08fa79e0a72b963aa
+  - ref: refs/heads/master
+    old: 8f3012aa2e6385cf2622c1b7ca552f50ada0eb81
+    new: 8b1d43a4fd473e106d6a457fff68a47c36fe4606
     log: |
          4c03fe11b96bda60610aca77002e83f37b4a2242 perf/bpf: Reorder bpf_overflow_handler() ahead of __perf_event_overflow()
          924d934393f98fa6a41d6ea27352faf79c2bbaf6 perf/bpf: Create bpf_overflow_handler() stub for !CONFIG_BPF_SYSCALL
@@ -23,4 +23,5 @@ changes:
          c4fcc7d1f41532e878087c7c43f4cf247604d68b perf/bpf: Allow a BPF program to suppress all sample side effects
          a265c9f6d52ac760e6e572bac73a11b60b998779 selftest/bpf: Test a perf BPF program that suppresses side effects
          134f8dbeb4b6b7d2a96130f08fa79e0a72b963aa perf/bpf: Change the !CONFIG_BPF_SYSCALL stubs to static inlines
+         8b1d43a4fd473e106d6a457fff68a47c36fe4606 Merge branch into tip/master: 'perf/core'
          
