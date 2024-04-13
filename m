@@ -1,53 +1,144 @@
-Content-Type: multipart/mixed; boundary="===============6216900093638237677=="
+Content-Type: multipart/mixed; boundary="===============7474465784512661824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 13 Apr 2024 11:06:25 -0000
-Message-Id: <171300638577.20772.14024636680006743950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 13 Apr 2024 11:06:53 -0000
+Message-Id: <171300641309.21244.13722320283814103266@gitolite.kernel.org>
 
---===============6216900093638237677==
+--===============7474465784512661824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.1.86
-    old: 0000000000000000000000000000000000000000
-    new: 6122dee7a0caa42c7a1b63b954a74ab017085fd9
+  - ref: refs/heads/linux-6.1.y
+    old: bf1e3b1cb1e002ed1590c91f1a24433b59322368
+    new: cd5d98c0556cd790f78a3ba26afc9d2f896163e4
+    log: revlist-bf1e3b1cb1e0-cd5d98c0556c.txt
 
---===============6216900093638237677==
+--===============7474465784512661824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713006384 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1713006383-80d55448dbda35da60317c4d8237bd213645be9a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713006410 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1713006408-3891204eda4c31f214cc732ec1eaa6595c972e7b
 
-0000000000000000000000000000000000000000 6122dee7a0caa42c7a1b63b954a74ab017085fd9 refs/tags/v6.1.86
+bf1e3b1cb1e002ed1590c91f1a24433b59322368 cd5d98c0556cd790f78a3ba26afc9d2f896163e4 refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYaZzAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7asP/iU+L6C76q1rUZFQCvPC
-t9zBLXjPHHy/tSIKLqHx9VPzicTQi9THkrgCTioG25a64MiiLLiQGOsvYJT7jxTV
-ZmEAGHE5HvTM13qliwGSYgcHJwVaJAE+RApUlcqqUTA83dMg2HbXEHcEnNOV5FYG
-tjLcxEUVkXNxaNIg9SiyoeFSxwDDYDDyI1AgIlHSMtxx9g6BlgBJzexsvw2WObpB
-S83zL5G60aRBunjWSgveTTHKFcs6M9A2v3qgeMKAaS4u9bPkVC4kLurRC0xBjQxB
-HDHyKgJ9gCfTqGhruWcAQU3OHKnOeKoFJIREfbTlajeGnW2G1Qph1s95sJm8DU/o
-1hSgVRiPKwMESgnCHimWFJu3SKuXcIHbn+bdY+V1myM6EiljcJ5rtsW9h2oGLYVJ
-xdF6+sZge2D6GvPYeu716vL/XgXbtA1ai+YSvT4Y56FzKekeYxsXu8eE4w2djaqT
-DtSdok3GMvd15RG6c3iDmueH4ZG8JiYaiAdBzK5quTGHS2l7gJaYEHzoIYkeKlEU
-u1efa92Z75P1XedlzK90yoBKH0qiwW24SJWI6ZGaj2eMjiLLpIipkkhBzJjxLzHA
-abqNY+YI+K7ztZA3Ja8dKBS8kN+5goUVq9XtRR8W+k0VwwhqGUkKFwB28l2dCIXv
-8C3GkIIlX3Bn1/1v/40bKKk3
-=OsRX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYaZ0obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BKoP/0kUDAwKoXMwRoWsw2Om
+6mF0l12b7lI4+d/sFtcPdjpaG6HdHgo+Wgfy+Uj4pJtGrkP3/2s4MNz1mDH4oZvF
+UJBmPNCytQdSxb9Jou2dMwABFpVzodzNywLww3Nz61+PxUD7SL9nZErer/CfNGl0
+AAKllkcbjiYssrhGYO2U90hqY4vC6BT+Vdw31LUiN/PpnOvj/QA7EpXMDLpRhghj
+RwLJPCpu8R51BDBEkKK2DbfZvg5eh7y1Lxz5pHRgJXh6e1Vbh0QjNsXlbySM7iwA
+nFusRXrPC0YuEXlkblSZUNUjhn9d6OXuwVcYR2rwlnfPHcZhN6U7T1Oz92LPwj18
+pBcllAP9COpJIrkfxoGwZHmv/QAIH9e5Qd002WPmhojsxye0ZoRhtvgCxKOeRqUp
+LbKGbOCUBE8j7MGT3Mg9ytzrZRM2wibc8hi3sZj69ufweBTRrMovqaNv6k12EaoE
+sfJM88avwj91xlKBqd5OFO+RlT5mZfsG7h6OBap2F0Oh2WiWmsItJq0wAgZXChEg
+2ifujNu5qy/eongVDtdmpSlMNJJLbEuzoJA2TMEYym8OEvVuoSfiWwB9DISRZSUx
+HxRWEJlh92fY2FC3DIHNvrU5PIWGDWAVRcGYdH1kJpNzKU78XvyuketvY70fAvTZ
+dE5VISnPlj0OVc5Vy8lWLkvv
+=gEBL
 -----END PGP SIGNATURE-----
 
---===============6216900093638237677==--
+--===============7474465784512661824==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bf1e3b1cb1e0-cd5d98c0556c.txt
+
+e6768c6737f4c02cba193a3339f0cc2907f0b86a amdkfd: use calloc instead of kzalloc to avoid integer overflow
+7dd4831c3ecb5e8f7f26fe69edd56ed791e06243 wifi: ath9k: fix LNA selection in ath_ant_try_scan()
+d6b0472d5fbda3b1b28d325a21aee1f435063270 bnx2x: Fix firmware version string character counts
+fd5fdacae93a00a0c80c9a190ee623e26cd8a0a3 wifi: rtw89: pci: enlarge RX DMA buffer to consider size of RX descriptor
+feacd430b42bbfa9ab3ed9e4f38b86c43e348c75 VMCI: Fix memcpy() run-time warning in dg_dispatch_as_host()
+8d80e092027a82dd58a30fb46a98c075135ba1fd wifi: iwlwifi: pcie: Add the PCI device id for new hardware
+94b016b28bdd417cf19f57da818bed28e7f3aaf1 panic: Flush kernel log buffer at the end
+b510fbe3a7bf26a6b8fcaa23d0275bb383f95dfd cpuidle: Avoid potential overflow in integer multiplication
+a2920489347653d586d8710ed1d315ed5c2bef75 arm64: dts: rockchip: fix rk3328 hdmi ports node
+6925d11fbda285c1b9613c43b30c3614a5552fc0 arm64: dts: rockchip: fix rk3399 hdmi ports node
+b8ca15861c88cbc85e2fbc418dc829803b76a859 ionic: set adminq irq affinity
+8af60bb2b215f478b886f1d6d302fefa7f0b917d net: skbuff: add overflow debug check to pull/push helpers
+161d6b803778c5a825d50bed14cfafe9b29e52ad firmware: tegra: bpmp: Return directly after a failed kzalloc() in get_filename()
+8ead0a04a7f3dc1b475759599b31f450fa64ad3d wifi: brcmfmac: Add DMI nvram filename quirk for ACEPC W5 Pro
+635594cca59f9d7a8e96187600c34facb8bc0682 pstore/zone: Add a null pointer check to the psz_kmsg_read
+51a9b20a047dd9d8f5dda99d55d5c3e15f92e2a4 tools/power x86_energy_perf_policy: Fix file leak in get_pkg_num()
+a3f6045ce3c947093305c91889415cdca412c33c net: pcs: xpcs: Return EINVAL in the internal methods
+4e0cfb25d49da2e6261ad582f58ffa5b5dd8c8e9 dma-direct: Leak pages on dma_set_decrypted() failure
+6597a6687af54e2cb58371cf8f6ee4dd85c537de wifi: ath11k: decrease MHI channel buffer length to 8KB
+50bd749c60ceb5180f5bf9e37782b5afa04169b6 cpufreq: Don't unregister cpufreq cooling on CPU hotplug
+36c2a2863bc3896243eb724dc3fd4cf9aea633f2 btrfs: handle chunk tree lookup error in btrfs_relocate_sys_chunks()
+0f30f95b918eb63c4ba6c687d843683d3850bf3a btrfs: export: handle invalid inode or root reference in btrfs_get_parent()
+9ae356c627b493323e1433dcb27a26917668c07c btrfs: send: handle path ref underflow in header iterate_inode_ref()
+5693dd6d3d01f0eea24401f815c98b64cb315b67 ice: use relative VSI index for VFs instead of PF VSI number
+d7ee3bf0caf599c14db0bf4af7aacd6206ef8a23 net/smc: reduce rtnl pressure in smc_pnet_create_pnetids_list()
+b19fe5eea619d54eea59bb8a37c0f8d00ef0e912 Bluetooth: btintel: Fix null ptr deref in btintel_read_version
+a83a7728e4871b69e40ccc255e075700820c87bf Bluetooth: btmtk: Add MODULE_FIRMWARE() for MT7922
+48bfb4b03c5ff6e1fa1dc73fb915e150b0968c40 drm/vc4: don't check if plane->state->fb == state->fb
+ac1e0f080a768e085c35878397e7caeafc48b47d Input: synaptics-rmi4 - fail probing if memory allocation for "phys" fails
+c87dd159189a582906ba6a7302d966ac56b80f13 drm: panel-orientation-quirks: Add quirk for GPD Win Mini
+5238e1c2bd3142c10fd41c16891244b20b928894 pinctrl: renesas: checker: Limit cfg reg enum checks to provided IDs
+53cb1e52c9db618c08335984d1ca80db220ccf09 sysv: don't call sb_bread() with pointers_lock held
+ee0b5f96b6d66a1e6698228dcb41df11ec7f352f scsi: lpfc: Fix possible memory leak in lpfc_rcv_padisc()
+13701b0f01b6524cfd405bca7ed7587859fd57fa isofs: handle CDs with bad root inode but good Joliet root directory
+eae948ecd5f019b65e78ed9e6f75945cf4e793e3 ASoC: Intel: common: DMI remap for rebranded Intel NUC M15 (LAPRC710) laptops
+3f3c1e735d3e9169df46f724eeb41a0c0e458051 rcu-tasks: Repair RCU Tasks Trace quiescence check
+2e2177f94c0e0bc41323d7b6975a5f4820ed347e Julia Lawall reported this null pointer dereference, this should fix it.
+84ed33a08218582ecda3c82d93d1efa9aadf7770 media: sta2x11: fix irq handler cast
+b75395ec4b7a63840cd7c7071158f70d508a5965 ALSA: firewire-lib: handle quirk to calculate payload quadlets as data block counter
+baba35106855929782841b4126669b890f9cbdcb ext4: add a hint for block bitmap corrupt state in mb_groups
+aba664845af3dab8280338e1ed9751a58c9e5130 ext4: forbid commit inconsistent quota data when errors=remount-ro
+354a5d7bb740781079e79cab692a94dd9dd38f36 drm/amd/display: Fix nanosec stat overflow
+3a94feab045f51bdb3991a248f0a84f339f17a65 drm/amd/amdgpu: Fix potential ioremap() memory leaks in amdgpu_device_init()
+43be051f35f934a2f348ea7d83de70acee578f05 SUNRPC: increase size of rpc_wait_queue.qlen from unsigned short to unsigned int
+aaefa79c1532cfe6bd3702a113ed3eba921094fe Revert "ACPI: PM: Block ASUS B1400CEAE from suspend to idle by default"
+b7d153bfba62f816c3bc0afa862b3e869f838d55 libperf evlist: Avoid out-of-bounds access
+c87e811cae7e1865046f64ce130e58f2af0a72c0 input/touchscreen: imagis: Correct the maximum touch area value
+512a01da7134bac8f8b373506011e8aaa3283854 block: prevent division by zero in blk_rq_stat_sum()
+4097b1f10f044e97f71b960312d9894de0d0929b RDMA/cm: add timeout to cm_destroy_id wait
+055e406d7b0eed9ab874fb2e62ab8141ffb9bf38 Input: imagis - use FIELD_GET where applicable
+70310e55b52922afa4d9dfa4d60ba35602828455 Input: allocate keycode for Display refresh rate toggle
+44479c7fefc825f91b43ae024372e0511b105328 platform/x86: touchscreen_dmi: Add an extra entry for a variant of the Chuwi Vi8 tablet
+39da708cb201d899fa4027af30f59987c2244624 perf/x86/amd/lbr: Discard erroneous branch entries
+5e7da5bb2d34b1f83d38fb69c5d044130a1136a0 ktest: force $buildonly = 1 for 'make_warnings_file' test type
+1e9f5619d90866a6285139fc19291a93289a40cd ring-buffer: use READ_ONCE() to read cpu_buffer->commit_page in concurrent environment
+63eaa43d5d5fd00777d5b849ada385a7047ae589 tools: iio: replace seekdir() in iio_generic_buffer
+7dbf082988d63b4d09c0fc90f616556eafa5448d bus: mhi: host: Add MHI_PM_SYS_ERR_FAIL state
+893b2562613f8e0b8141e15aa2f3791ebdcbd1e8 usb: gadget: uvc: mark incomplete frames with UVC_STREAM_ERR
+f692c547e3f2d5644499f9aca9dd4696306e72c0 thunderbolt: Keep the domain powered when USB4 port is in redrive mode
+57e6634e591b6e51cbb59957d24630af18b3869f usb: typec: tcpci: add generic tcpci fallback compatible
+409289d0a15166671dfa3f452ee87a00db8f08db usb: sl811-hcd: only defined function checkdone if QUIRK2 is defined
+103c0f946f9a173b40ec94788480fb667c153304 thermal/of: Assume polling-delay(-passive) 0 when absent
+8b849265dad8fcc5e1b5945a0aca088ff2791852 ASoC: soc-core.c: Skip dummy codec when adding platforms
+f8a7b7b085df99dc870df525d6806f035cc91ad1 fbdev: viafb: fix typo in hw_bitblt_1 and hw_bitblt_2
+5245a6da27ef79f8dba98dad5542ebe56d311837 io_uring: clear opcode specific data for an early failure
+30044c66bc1a8521bc96944a42bf5ff4e517b246 drivers/nvme: Add quirks for device 126f:2262
+664206ff8b019bcd1e55b10b2eea3add8761b971 fbmon: prevent division by zero in fb_videomode_from_videomode()
+fcd1993a2937604d43ce134b9b9022cb76136610 netfilter: nf_tables: release batch on table validation from abort path
+8d3a58af50e46167b6f1db47adadad03c0045dae netfilter: nf_tables: release mutex after nft_gc_seq_end from abort path
+2aeb805a1bcd5f27c8c0d1a9d4d653f16d1506f4 netfilter: nf_tables: discard table flag update with pending basechain deletion
+2b85977977cbd120591b23c2450e90a5806a7167 tty: n_gsm: require CAP_NET_ADMIN to attach N_GSM0710 ldisc
+cf0650adb62574b1d5ada471c34aff086e554db3 gcc-plugins/stackleak: Avoid .head.text section
+f1465ff4c83c0544fd2c6333523301f3484184a7 Revert "scsi: sd: usb_storage: uas: Access media prior to querying device properties"
+345b6b831980964b607db53cfd681abd2234a1b7 Revert "scsi: core: Add struct for args to execution functions"
+3a9c459091e33f7947c6c7958963e0bd14e737e4 scsi: sd: usb_storage: uas: Access media prior to querying device properties
+649e5646362a2815ec9cc85120fc59a885282085 virtio: reenable config if freezing device failed
+e80b4980af2688d8ff69c157ffa773dd1f1eb02c randomize_kstack: Improve entropy diffusion
+00e34ff1ce811749c2dbf3ff5ad2322bce54ebcb platform/x86: intel-vbtn: Update tablet mode switch at end of probe
+21f5cfed1e7a3254de46fee5f0ceeca6bda14b21 Bluetooth: btintel: Fixe build regression
+cea93dae3e253f03b39403b2e0fd15626feea4ce net: mpls: error out if inner headers are not set
+eea65ed73898e6e94ba44b21836f911d64ec59cb VMCI: Fix possible memcpy() run-time warning in vmci_datagram_invoke_guest_handler()
+c5f9fe2c1e5023fa096189a8bfba6420aa035587 Revert "drm/amd/amdgpu: Fix potential ioremap() memory leaks in amdgpu_device_init()"
+cd5d98c0556cd790f78a3ba26afc9d2f896163e4 Linux 6.1.86
+
+--===============7474465784512661824==--
