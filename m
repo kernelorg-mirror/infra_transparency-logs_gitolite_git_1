@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Sat, 13 Apr 2024 08:59:47 -0000
-Message-Id: <171299878749.28838.11894936102510005711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Sat, 13 Apr 2024 09:34:34 -0000
+Message-Id: <171300087448.21118.7672835401709737530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: 4d64c0ae9c402bb3a358760232edba32f59d94c5
-    new: 2452c141487f188dd1d2b27ad6dee834858921b4
+  - ref: refs/heads/vfs.misc
+    old: fa75d6e377fdff728f37c8949f2b7ba27eaa7f7a
+    new: 42bd2af5950456d46fdaa91c3a8fb02e680f19f5
     log: |
-         2452c141487f188dd1d2b27ad6dee834858921b4 pwm: meson: Add generic compatible for meson8 to sm1
-         
-  - ref: refs/heads/pwm/for-nexxt
-    old: 4d64c0ae9c402bb3a358760232edba32f59d94c5
-    new: 2452c141487f188dd1d2b27ad6dee834858921b4
-    log: |
-         2452c141487f188dd1d2b27ad6dee834858921b4 pwm: meson: Add generic compatible for meson8 to sm1
+         42bd2af5950456d46fdaa91c3a8fb02e680f19f5 vfs: relax linkat() AT_EMPTY_PATH - aka flink() - requirements
          
