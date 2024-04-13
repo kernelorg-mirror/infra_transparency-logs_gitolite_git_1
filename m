@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 13 Apr 2024 11:09:05 -0000
-Message-Id: <171300654561.23832.11723987360281095085@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8510381676233376761=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 13 Apr 2024 11:11:11 -0000
+Message-Id: <171300667103.24969.10597267885823229231@gitolite.kernel.org>
+
+--===============8510381676233376761==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/testing
-    old: aabc0aa90c927a03d509d0b592720d9897894ce4
-    new: 88b49449f25ddab6d10e4ba4fad225cb81d0a6d8
+  - ref: refs/heads/master
+    old: 82864affe71f0065f911c733ccf6bbfc5e8ae6fe
+    new: 3baf2111435bbfb30d33ad421872227602f0c189
     log: |
-         3735ca0b072656c3aa2cedc617a5e639b583a472 iio: adc: stm32: Fixing err code to not indicate success
-         24622259e3a8f7df1972aafd801b888443e44363 iio: adc: stm32: Use device_for_each_child_node_scoped()
-         77dc3b173d7258329e22ad8d8407bd5f8fe97fd1 iio: adc: qcom-spmi-adc5: Use device_for_each_child_node_scoped()
-         d9dd38cb59fb828a428084128569e684dd51cbe9 dt-bindings: iio: imu: mpu6050: Improve i2c-gate disallow list
-         61c8031af674bb80a7e346368ea0a41632e1f5fc iio: adc: ad7944: Consolidate spi_sync() wrapper
-         6a9e5518287ba3807968ba2213b5636e572567ad dt-bindings: iio: imu: add icm42688 inside inv_icm42600
-         88b49449f25ddab6d10e4ba4fad225cb81d0a6d8 iio: imu: inv_icm42600: add support of ICM-42688-P
+         3baf2111435bbfb30d33ad421872227602f0c189 Linux 6.8.6
          
+
+--===============8510381676233376761==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713006669 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1713006668-fbf2d2effceb74704cc10d3ad454827a80acc587
+
+82864affe71f0065f911c733ccf6bbfc5e8ae6fe 3baf2111435bbfb30d33ad421872227602f0c189 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYaaE0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m1AQANOQgFpYSyWPrnmOJbRl
+jTSSiEXORZmI+HbT/uAXk4Br5SXsM/hcf+L5rz2Ob1tk2E4mdDc98L+5vRZWSAOB
+At2FTkeTzNWKyUrePWSlxz+UBeD72HlU/YJOLaTPcPb8EZPdRhyocXvv9M/LKXQy
+OzTIG3oZ1+6D1zTrytcET9PsrTkdPPaBu7k8v3OyCZnipyfCwTgnMw9et+u1Gomt
+CgUMn1CbHsxfJs88Jz7ySrRLDWyt/suMQWrF3oZU0YzwqeDEqQSSY0LGydgyrBkf
+OntzEdCLd+Z9lYQiBdd67yilxTHu4YhOZXEGWJGpZw5qRL30JE6MiZl53duJYGgk
+LpFieWeld8xf8/JAAvoolXTHGFh5HZgWD+P++TzBRCX31Q0Rs8FMph43dQo0E6S5
+OF9xyS8dEVg2853V/jio9JtAmONUqgC+wEc9RRMDhbMXV4zBXw4PYogSvqfGe9cv
+YYypWztybcn+Qq+QVTTeRCbjWXJXR9+ncK0ge7LqmDHqnu9SRPxu+OpIxLZRb7DP
+N2TzaIvIBqEWmbYJUGuZHb5ywnZzI/jJ9Sdnxazv1s0aINXrw+Q4z9n4ofMwDfpC
+F7snMMuK9nUYFRq4tjyU5WnldXALMGxTOzm3wOTTm1hx20yKO97LZsNI6FftnAvl
+2CrJ6vlaYGcyyItJ464187Wo
+=7F5s
+-----END PGP SIGNATURE-----
+
+--===============8510381676233376761==--
