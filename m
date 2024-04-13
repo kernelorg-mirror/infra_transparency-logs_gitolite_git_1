@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Sat, 13 Apr 2024 21:14:34 -0000
-Message-Id: <171304287414.7761.10861428710707666503@gitolite.kernel.org>
+Date: Sat, 13 Apr 2024 22:17:33 -0000
+Message-Id: <171304665393.20438.3261394031932391558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
 user: frederic
 changes:
   - ref: refs/heads/timers/experimental
-    old: 58954518136551e705d3f9a60ba1717c4ef0667b
-    new: b429896f72c3fbaaec42511d456940c66eb7139e
+    old: b429896f72c3fbaaec42511d456940c66eb7139e
+    new: e41ca02ecd4e3838fe034e0177cd26492c148d1d
     log: |
-         b429896f72c3fbaaec42511d456940c66eb7139e tracing
+         e41ca02ecd4e3838fe034e0177cd26492c148d1d tracing
          
