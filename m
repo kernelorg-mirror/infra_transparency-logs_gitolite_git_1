@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1706388475344364724=="
+Content-Type: multipart/mixed; boundary="===============1049265098208376032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 13 Apr 2024 10:42:35 -0000
-Message-Id: <171300495589.19850.6770600744202113099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 13 Apr 2024 10:44:46 -0000
+Message-Id: <171300508665.20618.12522113541769453677@gitolite.kernel.org>
 
---===============1706388475344364724==
+--===============1049265098208376032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 85d2b0aa170351380be39fe4ff7973df1427fe76
-    new: 66bc1a173328dec3e37c203a999f2a2914c96b56
+  - ref: refs/heads/tty-testing
+    old: 1b743485e27f3d874695434cc8103f557dfdf4b9
+    new: b20172ca6bf489534892b801a5db41bbf5ceec75
     log: |
-         d48c03198a92edf41e89477dab4f602df15165ee sysfs: Add sysfs_bin_attr_simple_read() helper
-         66bc1a173328dec3e37c203a999f2a2914c96b56 treewide: Use sysfs_bin_attr_simple_read() helper
+         b20172ca6bf489534892b801a5db41bbf5ceec75 serial: core: Fix ifdef for serial base console functions
          
 
---===============1706388475344364724==
+--===============1049265098208376032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713004955 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1713004954-94dcc256de0f272323ae1fced4b30eec951b9764
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713005085 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1713005084-0a3e372bc496443816f0504e8b257b226f242d80
 
-85d2b0aa170351380be39fe4ff7973df1427fe76 66bc1a173328dec3e37c203a999f2a2914c96b56 refs/heads/driver-core-testing
+1b743485e27f3d874695434cc8103f557dfdf4b9 b20172ca6bf489534892b801a5db41bbf5ceec75 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYaYZsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xzoP/jgeYzbcPEsKa/oZiFO+
-EsrrjQ/yPEqvELNsr6SrSuAvRVe0rhvKt9w1ocDZMpvVZVnOr3SsfOjES8sqZ0Xb
-P93y/BkinQ8E8qJDwOrXQNEh1D+EAWkb1LpWA9e2Y4Y6oO25V61qCMBYMdZIziDf
-U2SmSoDDP58Ek5a/EqiY+Xw8T/+LBvoE3J/IAfFFdQkoO4FKVR/BO04gWsAE9GSG
-Y6jp57yxV3sKferFfE8Ubt+GmxzKyJ/Jms5yTSdrRpxm3LVL5mmWUqWqhOXhd9B2
-0M2mJg456e2wRkW2GZ+X2ct2YHG4TkqPK5UePomguairLjNA8NsMXL15t9ALbbQL
-tuGc5UlIFBxNQFmfVy8NBfkCFA5HSQSSo1xnt51/yyerB5MtkF6vnh40VqVRAcJr
-/wUmSe6xMl9CkjGNqNOes///GFJGwAQqv1A6ZUH5BXmruCk11/ZjdGqBgHDBt0B7
-yvlwlT7ICziK8o/smqWkHOi56GlOiTBPjBJXQZOdhmcsTA3f6WtQfBD/3fBWiIwe
-PRPGxWFt1IkVi20Cy/C2367Iy/nVzgZtRTAr4lZP1+i4Oig7KPXs+biJ6yxiIU9g
-0HaH4VkyQ9FsljoqjTgmrxIyBxw2nygQzUWnZ+zVoo4owD0FllBrRdX9rq4DDLBy
-fD6PZOBmv3a5QAOdis0QVxb6
-=I/JP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYaYh0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ADYP/jV/kCW9xKFpubiw+z6D
+wLz4mE+rM2BW6TdR9wequ8hAMKPAmSyua/gk8rBUpW2DNnVpAizhTeAw6+PXi/71
+WzGent4MmD261/t18wKKbTIcBf0FIJVihmb1xQ8bdrxMGEfnLE4XWR6bsgAQNWrM
+zbbxD87tMPcLzhBNwcSPek2TBTfx1cqNB2JbV40BvGhbux6oPmBY04dQwUxnPvE+
+x1n6FRtkxwaXEbmSUjzwatSADFsmRDA2y6ESewWwZL7VZ3bT3RBLUiXuH9/PNVij
+RHswRouffWguy9nmr/iylEIo+CA9GzCX4H0ueEZUy9unPyLUWV2OccJubYiFOFSi
+3IuYwfw+Vx+x4vRqCTFLmoE6EXG3fsuFxBvd8yVYv+Xs+JYW8bCqH3NbkGZFlu/L
+5Tsj0eN5dJAPTgIH0FcxArwvSc4EKCwJrqifsxQ2nrh9g33W1BGVZ+AXT1plyTNn
+9eV/3r1vci+BB/ALfLgwl63Zj//JL8zk0QIVUpNToYdmknFMyF3mDdiIjkL0Td6x
+AeGDjG4/6Fejjo/AKPXR175MJhzHN/zhEqNq87He3mHQ4631ebXsoJO2u87DEgTM
+fwIyb+qYU85jAeAlJBJj8NTLzqkF+DeFTTs+L3LRbSnXRlZsQRjZvRLtmM/wJK6g
+lFT1v/GhvfGm9n88sw6rPbq5
+=DR2R
 -----END PGP SIGNATURE-----
 
---===============1706388475344364724==--
+--===============1049265098208376032==--
