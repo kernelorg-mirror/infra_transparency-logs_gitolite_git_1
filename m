@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 14 Apr 2024 08:48:47 -0000
-Message-Id: <171308452712.15623.3998464003332380357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 14 Apr 2024 08:52:06 -0000
+Message-Id: <171308472699.18463.10085292444057672787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/sgx-cgroups-v14
-    old: 6a6bcaee5fec36fa283af91899debba7f7dc028a
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/x86-urgent-2024-04-14
+    old: 0000000000000000000000000000000000000000
+    new: 258342cb9d5b30e3866b5fc271d0ed76c5430237
