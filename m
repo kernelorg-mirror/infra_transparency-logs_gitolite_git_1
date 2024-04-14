@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3251895723854599482=="
+Content-Type: multipart/mixed; boundary="===============3721069040930258932=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 14 Apr 2024 19:56:32 -0000
-Message-Id: <171312459275.2580.3384620890263616297@gitolite.kernel.org>
+Date: Sun, 14 Apr 2024 19:57:11 -0000
+Message-Id: <171312463144.2913.7006627055705496363@gitolite.kernel.org>
 
---===============3251895723854599482==
+--===============3721069040930258932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,33 +16,36 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 07d32fc7ea3417968d1825bb313e7ef69cbf3e91
-    new: 3666d8bdf6852d67e5e363864f1da9de13e2fc93
-    log: revlist-07d32fc7ea34-3666d8bdf685.txt
+    old: 3666d8bdf6852d67e5e363864f1da9de13e2fc93
+    new: f3c9588a2c26f4c7787a586d51189a815f7e3c88
+    log: revlist-3666d8bdf685-f3c9588a2c26.txt
 
---===============3251895723854599482==
+--===============3721069040930258932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07d32fc7ea34-3666d8bdf685.txt
+Content-Disposition: attachment; filename=revlist-3666d8bdf685-f3c9588a2c26.txt
 
-af133562d5aff41fcdbe51f1a504ae04788b5fc0 swiotlb: extend buffer pre-padding to alloc_align_mask if necessary
-e8068f2d756d57a5206fa3180ade365a8c12ed85 swiotlb: fix swiotlb_bounce() to do partial sync's correctly
-a1255ccab8ecee89905ddb12161139b0d878a7f2 swiotlb: do not set total_used to 0 in swiotlb_create_debugfs_files()
-22e1992cf7b034db5325660e98c41ca5afa5f519 vhost: Add smp_rmb() in vhost_vq_avail_empty()
-df9ace7647d4123209395bb9967e998d5758c645 vhost: Add smp_rmb() in vhost_enable_notify()
-ffe6176b7f53ca0c99355f13e14a33a40cf49406 virtio: store owner from modules with register_virtio_driver()
-2855c2a7820bc8198ae937a9a67dbdc3990e9d2c vhost-vdpa: change ioctl # for VDPA_GET_VRING_SIZE
-76f408535aab39c33e0a1dcada9fba5631c65595 vhost: correct misleading printing information
-16b52bbee4823b01ab7fe3919373c981a38f3797 kernfs: annotate different lockdep class for of->mutex of writable files
-ddd7ad5cf1525b59c8231a6914156ebb09398cfd Merge tag 'dma-maping-6.9-2024-04-14' of git://git.infradead.org/users/hch/dma-mapping
-399f4dae683a719eeeca8f30d3871577b53ffcca Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-c28275e7434e8e7c3e7cd366ad03b9aac55f8b67 Merge tag 'irq-urgent-2024-04-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fa37b3be189606d8af1888b490342f7aa4cc8023 Merge tag 'locking-urgent-2024-04-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a1505c47e78a4d4837e2c72b2d5f51e821689349 Merge tag 'perf-urgent-2024-04-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-c748fc3b1f5605c12c8061ffb0c27707597b27b2 Merge tag 'timers-urgent-2024-04-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-27fd80851dc1e47b2facaa11b5b52c7dbc6b0718 Merge tag 'x86-urgent-2024-04-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-72374d71c31596c7442ac0db9a9327d0e062e941 Merge tag 'pull-sysfs-annotation-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-3666d8bdf6852d67e5e363864f1da9de13e2fc93 Merge branch 'linus'
+b0e0dc75485f72d0a15914f29f7d523688cef83d Merge branch into tip/master: 'x86/merge'
+193a8792337e4552b84d4f09ce3de747d751f297 Merge branch into tip/master: 'x86/urgent'
+2790aa0f78c587d5ca68305c8d3bcfbf1e9e35f3 Merge branch into tip/master: 'irq/core'
+f6b6eeaba06b0732670f292396ca173a223a4cf0 Merge branch into tip/master: 'locking/core'
+65378e88a4c469da1e412bec8ec307259b91c9cc Merge branch into tip/master: 'perf/core'
+554ab615e463e126111bff97dbaffb41a4b25112 Merge branch into tip/master: 'ras/core'
+880491c8219ded2854bcb67be97d01e0d9e7a16a Merge branch into tip/master: 'sched/core'
+44f2449414eda998174ca6510145ea62c97ef1d9 Merge branch into tip/master: 'timers/core'
+9b01985b3517d74cd5f8162360bd266001749456 Merge branch into tip/master: 'x86/alternatives'
+8002bf0fca1e333088e2585734826009f0bf5a35 Merge branch into tip/master: 'x86/apic'
+e868f1b8a3c582acd6c824cde4f04a493ca93491 Merge branch into tip/master: 'x86/asm'
+37ada3a988a2528cec66ca944f163763bb98a4a8 Merge branch into tip/master: 'x86/boot'
+70330e69eb0311513dbe76518ee751cf4011dd8f Merge branch into tip/master: 'x86/bugs'
+31a11a61f03b72b2cd8441dcfc7f69302aee9ad6 Merge branch into tip/master: 'x86/build'
+362ea67c60701f1164869392e023a0d742f2a6fe Merge branch into tip/master: 'x86/entry'
+1dc9e87f46f1aa36496c6852adda1b65754d0a02 Merge branch into tip/master: 'x86/fpu'
+33f7792952822dee7ea10df8bd10b9e5e7bbfdf6 Merge branch into tip/master: 'x86/microcode'
+85fdc600e1d119677ea76b017f0047f66160805f Merge branch into tip/master: 'x86/misc'
+d82801a09dd200e83279ca6af3a1d1a5ee35e7e5 Merge branch into tip/master: 'x86/percpu'
+d5a793d4731a769b69ba4d4ee8544cbcdec65219 Merge branch into tip/master: 'x86/platform'
+f3c9588a2c26f4c7787a586d51189a815f7e3c88 Merge branch into tip/master: 'x86/shstk'
 
---===============3251895723854599482==--
+--===============3721069040930258932==--
