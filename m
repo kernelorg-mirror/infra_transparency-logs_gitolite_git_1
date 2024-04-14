@@ -1,29 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Sun, 14 Apr 2024 06:28:10 -0000
-Message-Id: <171307609085.12123.8106061773065500090@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6646271502209090914=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 14 Apr 2024 06:55:03 -0000
+Message-Id: <171307770378.31977.2406760640160671005@gitolite.kernel.org>
+
+--===============6646271502209090914==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: agordeev
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-next
-    old: 9fb83b5a1bdb866630bb58ac231be453230e9f2c
-    new: 1fd78e225f7ee10268d38462c70512a575bd2c61
-    log: |
-         a817d98dc2e8f9c252bd3e31d86dfe61ec76d23f s390/cio: rework channel-utilization-block handling
-         b4691baaeef07bdc4c3524a0702d7dd6899610b4 s390/cio: simplify measurement attribute registration
-         2dc8903af775ecd51e42c0a2e7afa0e98d1bde45 s390/cio: export extended channel-path-measurement data
-         5e6bb10ee523d85d688aacaa13405d651ad16214 s390/cio: export measurement data for all CMGs
-         0f987e6caa3c93f36e277624234880459848fa34 s390/cio: export CHPID operating speed
-         8692a24d0fae19f674d51726d179ad04ba95d958 s390/cio: fix tracepoint subchannel type field
-         607638faf2ff1cede37458111496e7cc6c977f6f s390/qdio: handle deferred cc1
-         2d8527f2f911fab84aec04df4788c0c23af3df48 s390/cio: fix race condition during online processing
-         6f76592ef63a1ffd8949f0828d24da7913ddb6d8 s390/cio: log fake IRB events
-         72b1beee4680967ed5f70ad4036c9ff332836e8b Merge branch 'fixes' into for-next
-         1fd78e225f7ee10268d38462c70512a575bd2c61 Merge branch 'features' into for-next
-         
+  - ref: refs/heads/master
+    old: 86d1b22a75cffa50160e4621da00311e6f6f48de
+    new: 66900045ea12446fa603400a361b60f9b0c199fc
+    log: revlist-86d1b22a75cf-66900045ea12.txt
+
+--===============6646271502209090914==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-86d1b22a75cf-66900045ea12.txt
+
+e4a6bceac98eba3c00e874892736b34ea5fdaca3 selftests: timers: Fix posix_timers ksft_print_msg() warning
+f7d5bcd35d427daac7e206b1073ca14f5db85c27 selftests: kselftest: Mark functions that unconditionally call exit() as __noreturn
+ed366de8ec89d4f960d66c85fc37d9de22f7bf6d selftests: timers: Fix abs() warning in posix_timers test
+16767502aa990cca2cb7d1372b31d328c4c85b40 selftests: kselftest: Fix build failure with NOLIBC
+86d2a2f51fbada84e377665df06b5a479a1edc99 genirq: Convert kstat_irqs to a struct
+99cf63c56661be0a0c42f79b56f37a4aa34b4779 genirq: Provide a snapshot mechanism for interrupt statistics
+25a4a015118037809c97d089d69e927737e589e1 genirq: Avoid summation loops for /proc/interrupts
+d7037381d00286aa4beb631c401da761ee564c94 watchdog/softlockup: Low-overhead detection of interrupt storm
+e9a9292e2368e9be4a48aae6ff8aafa3433133e6 watchdog/softlockup: Report the most frequent interrupts
+b3f93554cd2ed689a941e6f4323ae39e15117292 Merge branch into tip/master: 'timers/urgent'
+66900045ea12446fa603400a361b60f9b0c199fc Merge branch into tip/master: 'irq/core'
+
+--===============6646271502209090914==--
