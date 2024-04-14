@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 14 Apr 2024 12:25:04 -0000
-Message-Id: <171309750437.3521.10929602484499672465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Sun, 14 Apr 2024 13:11:58 -0000
+Message-Id: <171310031808.4304.7447379414259171807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/master
-    old: f1dfb94bdaf1de14281030e28dd64f4d23d615a3
-    new: c1cee95b0266c360a8017248704d46d94dd72922
+  - ref: refs/heads/bootconfig/fixes
+    old: 46dad3c1e57897ab9228332f03e1c14798d2d3b9
+    new: 89f9a1e876b5a7ad884918c03a46831af202c8a0
     log: |
-         f1a3d813c2f41a7ba32bf929719d84c948933935 Add initialization function of io_uring_sqe
-         c1cee95b0266c360a8017248704d46d94dd72922 Merge branch 'fix_clear_flags' of https://github.com/gxuu/liburing
+         89f9a1e876b5a7ad884918c03a46831af202c8a0 bootconfig: use memblock_free_late to free xbc memory to buddy
          
