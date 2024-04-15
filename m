@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6280581427657729017=="
+Content-Type: multipart/mixed; boundary="===============3094054954994182770=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 15 Apr 2024 06:39:58 -0000
-Message-Id: <171316319827.16541.12543783736891699388@gitolite.kernel.org>
+Date: Mon, 15 Apr 2024 06:40:05 -0000
+Message-Id: <171316320590.18259.9443640751965058342@gitolite.kernel.org>
 
---===============6280581427657729017==
+--===============3094054954994182770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
+  - ref: refs/heads/gnss-linus
     old: 54be6c6c5ae8e0d93a6c4641cb7528eb0b6ba478
     new: 0bbac3facb5d6cc0171c45c9873a2dc96bea9680
     log: revlist-54be6c6c5ae8-0bbac3facb5d.txt
 
---===============6280581427657729017==
+--===============3094054954994182770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c748fc3b1f5605c12c8061ffb0c27707597b27b2 Merge tag 'timers-urgent-2024-04-14' of
 72374d71c31596c7442ac0db9a9327d0e062e941 Merge tag 'pull-sysfs-annotation-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 0bbac3facb5d6cc0171c45c9873a2dc96bea9680 Linux 6.9-rc4
 
---===============6280581427657729017==--
+--===============3094054954994182770==--
