@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 15 Apr 2024 15:09:23 -0000
-Message-Id: <171319376343.1210.7756843332794083955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Mon, 15 Apr 2024 15:18:38 -0000
+Message-Id: <171319431889.7773.840614175948869107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/review-hans
-    old: cc6add311eb73955c378b9ed142fe66ea720007b
-    new: 0aae4c44b032b5ede39405dfc62900adc467f362
+  - ref: refs/heads/pwm/for-next
+    old: 2452c141487f188dd1d2b27ad6dee834858921b4
+    new: acd48dbb61ed76319aa63dcdf56009d82a3cb7de
     log: |
-         84eeabf2477ad1b242d8ce0915c8d0f2408020a6 platform/x86: think-lmi: Convert container_of() macros to static inline
-         8346bb70a229f8de0d3bbe243b09acef2bf4ee01 platform/x86/intel/ifs: Classify error scenarios correctly
-         d8248a1f410bcfe70eccb8d319f0dfd05f26e87a platform/x86/intel/ifs: trace: display batch num in hex
-         0aae4c44b032b5ede39405dfc62900adc467f362 platform/x86/intel/ifs: Disable irq during one load stage
+         7cf718b3af7dba1939ede90dc6aa6d754d93c38b pwm: Add missing kernel-doc for pwm_chip:cdev
+         7f025ed557d71b55d2fed185b0e1b876f067e220 pwm: Don't check pointer for being non-NULL after use
+         1c84706ab113f01b0c706e7f41535dc1258886f7 pwm: bcm2835: Introduce a local variable for &pdev->dev
+         b4e8890937c005a4ac929ca1465ea66ff41bd902 pwm: bcm2835: Drop open coded variant of devm_clk_rate_exclusive_get()
+         46e243c31c626e04bcd99509de9cf63156a92ccd pwm: meson: Add generic compatible for meson8 to sm1
+         acd48dbb61ed76319aa63dcdf56009d82a3cb7de pwm: dwc: allow suspend/resume for 16 channels
          
