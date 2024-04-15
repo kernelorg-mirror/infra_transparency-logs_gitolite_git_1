@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Mon, 15 Apr 2024 07:45:55 -0000
-Message-Id: <171316715521.1280.6904205061305311148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Mon, 15 Apr 2024 07:56:44 -0000
+Message-Id: <171316780434.8287.14324156054954033223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/for-next
-    old: f5008996ea06ebc6278071e3083af675ef807b84
-    new: 2bfedd6755038ddf15cb443caf6d2b2e0cc093b8
+  - ref: refs/heads/v6.9-next/soc
+    old: e1d8a01fb81fb97f72b0d1f8c4279960ad2b92d6
+    new: 8328a3d126f54ef5998ea3b0e444701a02d62274
     log: |
-         2bfedd6755038ddf15cb443caf6d2b2e0cc093b8 fuse: fix leaked ENOSYS error on first statx call
+         8328a3d126f54ef5998ea3b0e444701a02d62274 soc: mediatek: mtk-socinfo: Correct the marketing name for MT8188GV
          
