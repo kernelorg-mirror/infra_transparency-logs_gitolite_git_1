@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5076842178496697778=="
+Content-Type: multipart/mixed; boundary="===============7300436391027914131=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 15 Apr 2024 15:41:24 -0000
-Message-Id: <171319568457.25422.9019949258261754727@gitolite.kernel.org>
+Date: Mon, 15 Apr 2024 15:41:44 -0000
+Message-Id: <171319570449.25608.11269669654454874991@gitolite.kernel.org>
 
---===============5076842178496697778==
+--===============7300436391027914131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 90be7a5ce0e5faec62782c8af37ad4ea0b9ecd40
     new: 75ce9506ee3dc66648a7d74ab3b0acfa364d6d43
     log: revlist-90be7a5ce0e5-75ce9506ee3d.txt
 
---===============5076842178496697778==
+--===============7300436391027914131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ fef965764cf562f28afb997b626fc7c3cec99693 net/mlx5e: Prevent deadlock while disab
 460b0d33cf10eee33de651381d3170ef13241650 inet: bring NLM_DONE out to a separate recv() again
 75ce9506ee3dc66648a7d74ab3b0acfa364d6d43 octeontx2-pf: fix FLOW_DIS_IS_FRAGMENT implementation
 
---===============5076842178496697778==--
+--===============7300436391027914131==--
