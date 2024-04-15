@@ -1,62 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============5899105112653936146=="
+Content-Type: multipart/mixed; boundary="===============9030639384640053973=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Mon, 15 Apr 2024 15:30:11 -0000
-Message-Id: <171319501132.16639.5658430673884639513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 15 Apr 2024 15:34:33 -0000
+Message-Id: <171319527365.18217.8419026292040556063@gitolite.kernel.org>
 
---===============5899105112653936146==
+--===============9030639384640053973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: acd48dbb61ed76319aa63dcdf56009d82a3cb7de
-    new: bdcfd0997bd44a14346902a0fe411a0cfd412153
-    log: revlist-acd48dbb61ed-bdcfd0997bd4.txt
-  - ref: refs/heads/pwm/for-nexxt
-    old: acd48dbb61ed76319aa63dcdf56009d82a3cb7de
-    new: bdcfd0997bd44a14346902a0fe411a0cfd412153
-    log: revlist-acd48dbb61ed-bdcfd0997bd4.txt
+  - ref: refs/heads/main
+    old: 90be7a5ce0e5faec62782c8af37ad4ea0b9ecd40
+    new: 75ce9506ee3dc66648a7d74ab3b0acfa364d6d43
+    log: revlist-90be7a5ce0e5-75ce9506ee3d.txt
 
---===============5899105112653936146==
+--===============9030639384640053973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-acd48dbb61ed-bdcfd0997bd4.txt
+Content-Disposition: attachment; filename=revlist-90be7a5ce0e5-75ce9506ee3d.txt
 
-a2ac1cbc5397eb4e400efa66c3337886d9a63026 pwm: dwc: allow suspend/resume for 16 channels
-fb7c3d8ba039df877886fd457538d8b24ca9c84b dt-bindings: pwm: mediatek,pwm-disp: Document power-domains property
-051cbc70e9255bde922336cc8444996f3a1f883b hwmon: (aspeed-g6-pwm-tacho): Make use of pwmchip_parent() accessor
-1f036cbb713ebda3c880a5241996e1f49242f3db hwmon: (aspeed-g6-pwm-tacho): Make use of devm_pwmchip_alloc() function
-4e0683c85c3f5c28f8400bde7183636e34152f11 pwm: Ensure that pwm_chips are allocated using pwmchip_alloc()
-c1de28e661b01b2f4771c6b426261e43bfadb471 dt-bindings: pwm: at91: Add sam9x7 compatible strings list
-7be1a589e26558bb2935df870b5ad6ba283a1f83 pwm: sti: Simplify probe function using devm functions
-07443b0607bf2ef00c7163a69825d72f4e39df10 pwm: sti: Improve error reporting using dev_err_probe()
-7cf528ca0cead4d4f627e29aeb159a19fdd33ace pwm: sti: Drop member from driver data that only carries a constant
-a7a2d80807d3c67b9f507a0156b524d3b915f7ad pwm: sti: Maintain all per-chip driver data in a single struct
-5a59ed66c28aa9b03fc05bac2d4447dac5cfcfd4 pwm: sti: Use devm_kcalloc() instead of calculating the size for devm_kzalloc()
-ce7ef1bfcd31dbd8e3ac47458a935adc2a4d62e2 pwm: sti: Prefer local variable over pointer dereference
-5aaf435d440f636f4dd9b4d142306d5076befd70 pwm: Give some sysfs related variables and functions better names
-ef3fee2c4d411f55688770471af21317a0ba4e35 pwm: Move contents of sysfs.c into core.c
-b4515a752195ea34663774b0c4f111be5859cc2d pwm: Ensure a struct pwm has the same lifetime as its pwm_chip
-4a7c9a2cb362c2cd613edb4f31cf3fafd9606c64 pwm: Add a struct device to struct pwm_chip
-bc1273aa8b84fdd8c3d40b0b5f1d7c9948195519 pwm: Make pwmchip_[sg]et_drvdata() a wrapper around dev_set_drvdata()
-b92d94fc84fd8b4bdfb56535e03bd75aa8f30f09 pwm: Add more locking
-a5a72f6562129b68b8ea48e684e5c4b11b7f70f0 pwm: Add support for pwmchip devices for faster and easier userspace access
-db7a6382b12b0235adef17dd8c0455a36c343002 pwm: stm32: Add error messages in .probe()'s error paths
-26eccf7d54a5f217597f466aeb4791fd5819d43e pwm: stm32: Improve precision of calculation in .apply()
-615520a62923825d8bced9cb91686bad5e2823ef pwm: stm32: Fix for settings using period > UINT32_MAX
-4b3b6f283139dec690ae8d5bff38d179bcf5739c pwm: stm32: Calculate prescaler with a division instead of a loop
-6dd3e5ab2814775a85f8d459a65a96976f130857 pwm: Add missing kernel-doc for pwm_chip:cdev
-ddab760b94045930f7e06378d5b895663b1bc9e5 pwm: Don't check pointer for being non-NULL after use
-1ee192fe67bdc1b663c133ee8a177b7d3979354a pwm: bcm2835: Introduce a local variable for &pdev->dev
-3d2f295061d80be0f53abe802efe317b595051e6 pwm: bcm2835: Drop open coded variant of devm_clk_rate_exclusive_get()
-bdcfd0997bd44a14346902a0fe411a0cfd412153 pwm: meson: Add generic compatible for meson8 to sm1
+283454c8a123072e5c386a5a2b5fc576aa455b6f af_unix: Call manage_oob() for every skb in unix_stream_read_generic().
+22dd70eb2c3d754862964377a75abafd3167346b af_unix: Don't peek OOB data without MSG_OOB.
+27f58f7f079b93d91fdd12caf3036b2d8921e0b2 Merge branch 'af_unix-fix-msg_oob-bugs-with-msg_peek'
+68aba00483c7c4102429bcdfdece7289a8ab5c8e net: sparx5: flower: fix fragment flags handling
+37cc10da3a50e6d0cb9808a90b7da9b4868794dd net/mlx5: Lag, restore buckets number to default after hash LAG deactivation
+aa4ac90d04f4371466000825adb44935ecb5c974 net/mlx5: SD, Handle possible devcom ERR_PTR
+bf729988303a27833a86acb561f42b9a3cc12728 net/mlx5: Restore mistakenly dropped parts in register devlink flow
+6c685bdb9e1af966ec0278dbd4068ec39ae88c2d net/mlx5e: Use channel mdev reference instead of global mdev instance for coalescing
+fdce06bda7e56b2a34c53ea58bad7af2fae96da1 net/mlx5e: Acquire RTNL lock before RQs/SQs activation/deactivation
+fef965764cf562f28afb997b626fc7c3cec99693 net/mlx5e: Prevent deadlock while disabling aRFS
+72041e537caa5ebf92e601c36bf13dc7dbaa2a8e Merge branch 'mlx5-fixes'
+1382e3b6a3500c245e5278c66d210c02926f804f net: change maximum number of UDP segments to 128
+460b0d33cf10eee33de651381d3170ef13241650 inet: bring NLM_DONE out to a separate recv() again
+75ce9506ee3dc66648a7d74ab3b0acfa364d6d43 octeontx2-pf: fix FLOW_DIS_IS_FRAGMENT implementation
 
---===============5899105112653936146==--
+--===============9030639384640053973==--
