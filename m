@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 15 Apr 2024 09:25:40 -0000
-Message-Id: <171317314005.13359.6627808031951128574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 15 Apr 2024 09:26:45 -0000
+Message-Id: <171317320594.20483.18035579930675007659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 1382e3b6a3500c245e5278c66d210c02926f804f
-    new: 460b0d33cf10eee33de651381d3170ef13241650
+    old: f1e197a665c2148ebc25fe09c53689e60afea195
+    new: 3db3b62955cd6d73afde05a17d7e8e106695c3b9
     log: |
-         460b0d33cf10eee33de651381d3170ef13241650 inet: bring NLM_DONE out to a separate recv() again
+         3db3b62955cd6d73afde05a17d7e8e106695c3b9 net: dev_addr_lists: move locking out of init/exit in kunit
          
