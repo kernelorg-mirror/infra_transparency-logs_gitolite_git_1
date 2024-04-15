@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1485389316870979481=="
+Content-Type: multipart/mixed; boundary="===============6888938860873670501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 15 Apr 2024 07:25:31 -0000
-Message-Id: <171316593118.18658.9966436127922488464@gitolite.kernel.org>
+Date: Mon, 15 Apr 2024 07:25:44 -0000
+Message-Id: <171316594410.18811.4182849973352189215@gitolite.kernel.org>
 
---===============1485389316870979481==
+--===============6888938860873670501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/mips-next
     old: fec50db7033ea478773b159e0e2efb135270e3b7
     new: 0bbac3facb5d6cc0171c45c9873a2dc96bea9680
     log: revlist-fec50db7033e-0bbac3facb5d.txt
 
---===============1485389316870979481==
+--===============6888938860873670501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -427,4 +427,4 @@ c748fc3b1f5605c12c8061ffb0c27707597b27b2 Merge tag 'timers-urgent-2024-04-14' of
 72374d71c31596c7442ac0db9a9327d0e062e941 Merge tag 'pull-sysfs-annotation-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 0bbac3facb5d6cc0171c45c9873a2dc96bea9680 Linux 6.9-rc4
 
---===============1485389316870979481==--
+--===============6888938860873670501==--
