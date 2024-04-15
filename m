@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2632635400752866286=="
+Content-Type: multipart/mixed; boundary="===============6015698213473574118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 15 Apr 2024 11:21:37 -0000
-Message-Id: <171318009763.22385.4250547906147617095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 15 Apr 2024 11:21:46 -0000
+Message-Id: <171318010609.22483.13621057986401213140@gitolite.kernel.org>
 
---===============2632635400752866286==
+--===============6015698213473574118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 0bbac3facb5d6cc0171c45c9873a2dc96bea9680
     log: revlist-fec50db7033e-0bbac3facb5d.txt
 
---===============2632635400752866286==
+--===============6015698213473574118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -427,4 +427,4 @@ c748fc3b1f5605c12c8061ffb0c27707597b27b2 Merge tag 'timers-urgent-2024-04-14' of
 72374d71c31596c7442ac0db9a9327d0e062e941 Merge tag 'pull-sysfs-annotation-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 0bbac3facb5d6cc0171c45c9873a2dc96bea9680 Linux 6.9-rc4
 
---===============2632635400752866286==--
+--===============6015698213473574118==--
