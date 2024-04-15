@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3224037827258010197=="
+Content-Type: multipart/mixed; boundary="===============5851789045425009798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 15 Apr 2024 17:52:47 -0000
-Message-Id: <171320356736.22555.267695390242855072@gitolite.kernel.org>
+Date: Mon, 15 Apr 2024 17:53:01 -0000
+Message-Id: <171320358155.22723.7776389608330826933@gitolite.kernel.org>
 
---===============3224037827258010197==
+--===============5851789045425009798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/tmp.master
     old: e0756cfc7d7cd08c98a53b6009c091a3f6a50be6
     new: b555d191561a7f89b8d2108dff687d9bc4284e48
     log: revlist-e0756cfc7d7c-b555d191561a.txt
 
---===============3224037827258010197==
+--===============5851789045425009798==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b1dd6c26bca4acc145c61f98febadba64eba1877 Merge tag 'pci-v6.8-fixes-1' of git://g
 56897d51886fa7e9f034ff26128eb09f1b811594 Merge tag 'trace-v6.8-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 b555d191561a7f89b8d2108dff687d9bc4284e48 Merge tag 'perf-tools-fixes-for-v6.8-1-2024-02-01' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============3224037827258010197==--
+--===============5851789045425009798==--
