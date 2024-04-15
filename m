@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4945038655574182798=="
+Content-Type: multipart/mixed; boundary="===============2655838028024067149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 15 Apr 2024 10:51:36 -0000
-Message-Id: <171317829629.31890.13769876989022349822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 15 Apr 2024 10:52:16 -0000
+Message-Id: <171317833634.32248.305345177189294621@gitolite.kernel.org>
 
---===============4945038655574182798==
+--===============2655838028024067149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: ef4fad526435ed6f16d2f06a7339fbbecb93d629
-    new: 004c161ee79164c2ad8640fd83b6d7beaf001c82
+  - ref: refs/heads/for-6.10
+    old: 5f14536b5176ed6c78dde545de89d7420aa1683b
+    new: dd8c3473bbb8b4fdc44ed3a5a864cfefab9038dd
     log: |
-         004c161ee79164c2ad8640fd83b6d7beaf001c82 6.8-stable patches
+         c21614d5c0e76cf1d7a864f15d495fd3e5876acc ASoC: amd: Support microphone from Acer Aspire A315-24P
+         615169c727b13ff4ec6c43b62501f73f9f88a11a ASoC: wcd934x: Drop unneeded MODULE_ALIAS
+         9d85ec4e91e354ed2d8291e1ea3ba76e660205a0 ASoC: samsung: i2s: Drop unneeded MODULE_ALIAS
+         dd8c3473bbb8b4fdc44ed3a5a864cfefab9038dd ASoC: amd: acp-da7219-max98357a: Constify regulator_ops
          
 
---===============4945038655574182798==
+--===============2655838028024067149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713178294 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1713178293-7acd09c292e831cce16800081d4ac92f56136c59
+pusher Mark Brown <broonie@kernel.org> 1713178334 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1713178334-3d1247fb25e9b3ad74e8a7e2adc8d98fe23bbe46
 
-ef4fad526435ed6f16d2f06a7339fbbecb93d629 004c161ee79164c2ad8640fd83b6d7beaf001c82 refs/heads/master
+5f14536b5176ed6c78dde545de89d7420aa1683b dd8c3473bbb8b4fdc44ed3a5a864cfefab9038dd refs/heads/for-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYdBrcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0w0QALF5CIeI75tpetKPOxct
-7laYSUEBC1ZlG0NYxRlFNaO8lO7VfzbBuPZAb8+QDLcqreZa6R0Y8PDDt3xaYCFx
-2wCic1MmoLkTqlmLnVh2YIy3Vw21isPfE2dVS/OhOaIXe+idoZyp6lR7qf5lGoix
-NK1L6Xva2HkJGkKb5QJaBYZ7rrue+7yIjgpyXZ2YXPuUWVWs3Uxk2Jnmc8P+rFrW
-nsfVULghcThZ9vUM5TmPqvYr1xgFpW+byfbhr4venil8bLXpkdqa7rT5PHwaY7O7
-Y4s7nTYuy22PUgdG0pjvOhnkdukBjGloyMo0Mv0D5lrrhFniP6TLrg/r42gFVA66
-1ikUH0LG0hTudLcUCt9yBtCtA1sHMxRJwfhdK+/PaYktTkVjayvIsAXuUoz9dqwJ
-/8kJ+DMxLo3LBFBQjArHiP1Aa17fvttWjTsQ9xXSOOqZIKDEVQ/lYV13369yXeDV
-kn7hqod1vrvvO74TOTDBVv8EPlmBserszB5tdVPzOGniekTBMI+ehS5wRqJvLVYF
-JuklE3X+6LvAKDuUi6YcQIfj36Fel56q3PmL1nhl8hdJqO6e2a/ANFfZNiUo6k+r
-foLxuvgB8uoVzgffHdrluPwA75OrxYYjni4SiDdOxBR2+huApntbc9Mby/t0rDIT
-eDl8ufALJL/ynvP4y1BoMwRI
-=Nhsn
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYdBt4THGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0ACJB/9B07K6fj6fQvbZ/jtoJFgtT96qXogg
+tYramTANxA8J0cOIosagClUncbbnyqtWGDywbtfJOumiw185+QOZ6k8UqJ30wLcg
+pT/q8oZJOH0Sa3lldTeJipOi8fH+2MkfICbgfHFViBuhjfNEleXdSU6frIrlQiPh
+5nxQtWB6UthYT/kYtGNncqRt5wpquJGeYHc8FSfTk1pGkeExsTjkZe+8M09cLJok
+4yzqMAWkyPJWCXVCEJbbFNAA6EfAw2kWIJguwjKCXK0OzdNCRZal0TkWCHLu/SbE
+jZkFHdgTMOtU1MQx0pCHuwTd9AcOslgFQ29LUtfR+UDPi/rr4vvnJgVw
+=XWdL
 -----END PGP SIGNATURE-----
 
---===============4945038655574182798==--
+--===============2655838028024067149==--
