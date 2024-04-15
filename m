@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Mon, 15 Apr 2024 10:35:05 -0000
-Message-Id: <171317730525.19615.2642546456476351033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 15 Apr 2024 10:49:31 -0000
+Message-Id: <171317817100.28997.6753348557805927484@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/v6.9-next/dts64
-    old: 1dd2e7b97c3c8554f3339397ef6656d90af3ae1d
-    new: 7c9faab9d28fa6c55a2a1a5682875faf7164b303
+  - ref: refs/heads/master
+    old: 1dca39791c0cd7c2f7886e970d7c5e00e5f72ece
+    new: 5aa0c75c78dfb6a0c9851b348ba778149a4550a5
     log: |
-         79aa0941fdccb0ddef79b00871db7803fb998760 arm64: dts: mediatek: mt8183-kukui: Drop bogus output-enable property
-         ab4efc667136159f30aa8258174689c6b4ee49b5 arm64: dts: mediatek: Drop mediatek,drive-strength-adv usage
-         7c9faab9d28fa6c55a2a1a5682875faf7164b303 arm64: dts: mediatek: mt8183-pico6: Fix bluetooth node
+         d4dea14933bc3ee750d6762a6f615d2a4fe24c34 tests: (functions.sh) add a helper funcion making a device number from given major and minor nums
+         5aa0c75c78dfb6a0c9851b348ba778149a4550a5 tests: (lsfd) don't refer "$?" on the line follwoing the use of "local"
          
