@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1923414193582827159=="
+Content-Type: multipart/mixed; boundary="===============5420637473651165446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 15 Apr 2024 14:01:50 -0000
-Message-Id: <171318971069.14938.5750355111108493876@gitolite.kernel.org>
+Date: Mon, 15 Apr 2024 14:01:55 -0000
+Message-Id: <171318971522.15031.7201198512558682107@gitolite.kernel.org>
 
---===============1923414193582827159==
+--===============5420637473651165446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,85 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 0dbd436fb9908fbb442cb4c6e28044a891360229
-    new: b191639995f4ee89f474bb62fef9ce163e622c92
-    log: revlist-0dbd436fb990-b191639995f4.txt
+  - ref: refs/heads/linux-5.10.y
+    old: e2e4e7b4ae79e996789efaa42fdedddf8e3abad8
+    new: 6362a041f6123ddd6a4c3f7ee97483b64eadc56d
+    log: revlist-e2e4e7b4ae79-6362a041f612.txt
 
---===============1923414193582827159==
+--===============5420637473651165446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713189709 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713189713 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1713189706-eb636939a1b3212981fa1b82bd6847b7b75f7033
+nonce 1713189709-a809a7edd2477f53976d55c9f6702c69356a5040
 
-0dbd436fb9908fbb442cb4c6e28044a891360229 b191639995f4ee89f474bb62fef9ce163e622c92 refs/heads/linux-5.4.y
+e2e4e7b4ae79e996789efaa42fdedddf8e3abad8 6362a041f6123ddd6a4c3f7ee97483b64eadc56d refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYdM00bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mAUP/25QrQNnxrK2d8I+WUFL
-N/bEgaeD8toGfK16icFse5/Vb2e+9AFhBHlVBE1mzlbPWdBcbHBe0CcPRBIIMcnt
-TFOxWka0a396mVayaebwOpVbSK+RjfwPwcWGal++JOv1iFyC8Ocv5yiKvkgBM3Ib
-+7kCmv1c5UQKQMgdWDjpLYagya3FhEIX/O529P+MfQpLRPiW3VL8m9liaDwrCyNy
-FpEaQfyPeyNh1vecR8CQ0BzoUEyyXqTFvRG3H2LQ0nAM72Gb2iS9vluYpCPNuoTl
-l/l8JopFpm1Gzf16AfssvAk/QoAOwMXsfaERhx6JaLiMX+w73fgQoai8CH5D+JX3
-Ro1peele9Yd0qOfHg7obOcZuLqP776jXxNaFpnx8rwlfkyMGwCSzvmFBpdG7kH7u
-cXZ9GNlWSS42WjtYy+f+b5Ni7avFJIjHRZ3t5Xb+0XrUUmIdjLZmVyxMEZba0uv0
-vprd4vTa7EZPU4hqs2H041NYJpJtlJ2H4MyZBE7AULQAQPOmu1b5sEYS1bPe+Des
-YrkWhcQvG3E0qSXNn3hls/nDn9a+yeL7qY69IPaTTHlsImnTo//33rni/KNA8DH6
-pVNc1+eJ1cBSexh9YbOwk7fWWvzZoEtBSktIsuqEZw2QMCsLXVqLTx/faRzJI+Cj
-qZ3dCDsvIfu7ADll/epVLmFd
-=h5Do
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYdM1EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3y0QAMPsiI5lQkDWNRn0OOTZ
+wA4HqAD8L73gKenNW/ND+BFvwod+DiDEOIht5KCSQkYrFJmEDMLoQNAICffNdC18
+OCXebq5JmkW/oQvfeMsEG9xjlR+clIKIGSzM9IV2Mh3WuCrFqhmGqdkvBstkaqgx
+AEtOPrJ1TC9pwq3vGogf0c3aGaCTL+wNFALOOnMdukyhUAUEs88/t3ElB7otAyDH
+27VwDlP6viRkEJwuG1E6U2cg1Ju9thB4hZLxprs3asbFXWscZRURrpwIUyLHkqB2
+j+Vsy/6+4h07Swsdkte1kLlePHnoYRaz0UU+70D2rPfvOxi7GK+yaxN1HL5JmMo5
+uf/Nk+dNVi5X/whOGmLOKgnrBAA+kJ+gs6rnR/vkIDUQEr+qPkuvaJKnoQCO5qKu
+ybpjRq/Q/7f5gdwFM65QkPINyGLcF0I/LKaq1FHe0vxW9yidfvQ+m32jppxcgRfA
+9G0EvYDEzHxXE9WCj/cRGCGN58Y4/UbbumAGAIX6Ai62X9UtXDRKhn0j8MyqCiIn
+PLfT5qD1yh3S3HzPJg9DDpyvCCVf9uD4QNdRLIAJ2ecLU2zQeGQ3UlpqvIz6tPva
+KZZ65Gr9OmWEa9R9Jx7LeIbxRb/a+gEKVFncp8uJDSBiDJ1AcwW1gXsVe6n/FkM4
+C9HyUTNRL3H/jONJFi8r9Tcl
+=7kf8
 -----END PGP SIGNATURE-----
 
---===============1923414193582827159==
+--===============5420637473651165446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0dbd436fb990-b191639995f4.txt
+Content-Disposition: attachment; filename=revlist-e2e4e7b4ae79-6362a041f612.txt
 
-d728aafe86890c3e41f43b38720ace4bae0cd312 batman-adv: Avoid infinite loop trying to resize local TT
-b79fb71508bcc5f20e8821fe18db4943168a029c Bluetooth: Fix memory leak in hci_req_sync_complete()
-f37139798e923d8ac578e09049121c4fe5863ede nouveau: fix function cast warning
-b5ae1dfc05dc0c23359ee83f5109e9605c780374 net: openvswitch: fix unwanted error log on timeout policy probing
-9b4d9dded911a03051f8eb74199fc4b86a1ac294 u64_stats: provide u64_stats_t type
-c1c0e6ff73e281778b72d9a008d8566a7e23ab99 u64_stats: Document writer non-preemptibility requirement
-f59de14ee466edecbf4a716937eaafadedce6c97 u64_stats: Disable preemption on 32bit UP+SMP PREEMPT_RT during updates.
-3b4e61f0498e231f1467768eb87d50bd1ebb95ad u64_stats: Streamline the implementation
-f498d7dc99b2cf77dd7573fe874b4c8aec45633e u64_stats: fix u64_stats_init() for lockdep when used repeatedly in one file
-8eb3236e677425335757561a5b17a4f77139bcd1 geneve: fix header validation in geneve[6]_xmit_skb
-7ae259aa7479a4ae9712ee5d99b26c56bc2e9720 ipv6: fib: hide unused 'pn' variable
-cfc8cf4494a10b46915fd1277c666408883e4990 ipv4/route: avoid unused-but-set-variable warning
-2a42eb2b471900719d280427b6f2ca7b6d4ff778 ipv6: fix race condition between ipv6_get_ifaddr and ipv6_del_addr
-b6ace8f520270a87d4bc59bab1fb77ddbb5c1ba4 net/mlx5: Properly link new fs rules into the tree
-e5e1441fc6906740e57521cb2c667b1ea2939e20 af_unix: Do not use atomic ops for unix_sk(sk)->inflight.
-d5ea21ca677e9d10a74d600eed1bd801ad78cecb af_unix: Fix garbage collector racing against connect()
-a05d97d3080490ed65c44d31932db1b710a59614 net: ena: Fix potential sign extension issue
-dce47e8118df7ba7a8bc3bda4fccc8aab4944e58 btrfs: qgroup: correctly model root qgroup rsv in convert
-86c9e44f509db7ec79b8c19efe66b0718c2bee8b drm/client: Fully protect modes[] with dev->mode_config.mutex
-61dd982e82f94665e4aaef01a23de6171352f620 vhost: Add smp_rmb() in vhost_vq_avail_empty()
-1475c12478438f4a4f3acdfff6c94192c14e5705 selftests: timers: Fix abs() warning in posix_timers test
-2e3e8256867533d5c41a00a95529b56228bdfd5d x86/apic: Force native_apic_mem_read() to use the MOV instruction
-b191639995f4ee89f474bb62fef9ce163e622c92 Linux 5.4.275-rc1
+ea79daba03a3e8883310a71d5083887c8e407953 batman-adv: Avoid infinite loop trying to resize local TT
+500e70b5e080dc6116347e8bb11773cd100498f1 Bluetooth: Fix memory leak in hci_req_sync_complete()
+c084fb4319ba16b1937ba81861e987517c03d42a media: cec: core: remove length check of Timer Status
+135172b268aef150f10df8c5e0a5b8494e20cac9 nouveau: fix function cast warning
+4cec61bd727061f88118edcd36c77cdbeef3374b net: openvswitch: fix unwanted error log on timeout policy probing
+3dc19fbd1ade222436d8414c5df9bea43ca1a131 u64_stats: Disable preemption on 32bit UP+SMP PREEMPT_RT during updates.
+10b905d722890fe562c28e18d92f3888649c5765 u64_stats: Streamline the implementation
+7101662a7623f71fa3a4c5a85c0987d20a0862e1 u64_stats: fix u64_stats_init() for lockdep when used repeatedly in one file
+282c7243ff3ee4aac571c308385b68b75c5bb25a xsk: validate user input for XDP_{UMEM|COMPLETION}_FILL_RING
+db60819ab1b213225c3f31aaa25b8549d47b12c8 geneve: fix header validation in geneve[6]_xmit_skb
+04a41150155a14a6c78f013170fba99d584a3db8 octeontx2-af: Fix NIX SQ mode and BP config
+39087d5a7341c998c0d87dce36c85faa92e61d2a ipv6: fib: hide unused 'pn' variable
+691647b908a1cb24961dde19fe1de58d69556da1 ipv4/route: avoid unused-but-set-variable warning
+2f087164f8ab956ce9cbbea2cc5d109318105937 ipv6: fix race condition between ipv6_get_ifaddr and ipv6_del_addr
+20e874a900dba3fcea84ca196c12f370535f6a01 Bluetooth: Fix mgmt status for LL Privacy experimental feature
+f23b1469379538d5decf14025acc7b05e12edcb5 Bluetooth: Add support for reading AOSP vendor capabilities
+15442118321506e999b0fa4b32d625f1b6adb742 Bluetooth: refactor set_exp_feature with a feature table
+3dcc59093eb490b5b34f34bdb596a21864f9e4bb Bluetooth: Support the quality report events
+cfe3f3b4d93ef7315f1b3ff3d2693eb20f159dae Bluetooth: Enumerate local supported codec and cache details
+c8d765e2ab9303edd7d2b9e62b159245fb363710 Bluetooth: Allow querying of supported offload codecs over SCO socket
+c7dac623afa0233866657c6890c4023ed0b70ced Bluetooth: Allow setting of codec for HFP offload use case
+0034227b40e60f5d5f03b6ad00030cc10a12764b Bluetooth: SCO: Fix not validating setsockopt user input
+cddf75f4f274039345a97911819527a9a852a8f6 netfilter: complete validation of user input
+6ae6ccc46c7b20d00a6e8662e50a4e0ef6f2268e net/mlx5: Properly link new fs rules into the tree
+dc7fca0e38a81e839c737b6dd98162f682c7d0d5 af_unix: Do not use atomic ops for unix_sk(sk)->inflight.
+56e6cf843e8c992e249e216cc2f96daab1b81023 af_unix: Fix garbage collector racing against connect()
+22e38d589e543fcd75cdc2387a2a4a32b1367761 net: ena: Fix potential sign extension issue
+137f671339cbe8de2b12feb6998153d1804d31ea net: ena: Wrong missing IO completions check order
+4cbe638c587a37d514d3614eae618dbe32aa3667 net: ena: Fix incorrect descriptor free behavior
+193af12db2ddbfabae926bbbce51ff76f1681a8b iommu/vt-d: Allocate local memory for page request queue
+b121d0d94c87ed95c295bfc9ceee749f1d9956ee mailbox: imx: fix suspend failue
+968c90a619593a2ebb342b5f6dc1bcf36c3dee96 btrfs: qgroup: correctly model root qgroup rsv in convert
+f72ec12200fbd59863e06d95bab49e0f32b6bbdc drm/client: Fully protect modes[] with dev->mode_config.mutex
+67bb4d05d46c930016b0bc3404f05e33b6b436e7 vhost: Add smp_rmb() in vhost_vq_avail_empty()
+53955a0df0c33f1dbd0cea3003b13a8cf5486f9b x86/cpu: Actually turn off mitigations by default for SPECULATION_MITIGATIONS=n
+3c408697f4047739d0b6a8344c5cec8b8c3e35db selftests: timers: Fix abs() warning in posix_timers test
+9b0680c840601e9215e9f948d809d320c5c56ef3 x86/apic: Force native_apic_mem_read() to use the MOV instruction
+b8a8cbe71ea539bd2b1f5d2e0fc9144a661631c2 irqflags: Explicitly ignore lockdep_hrtimer_exit() argument
+6362a041f6123ddd6a4c3f7ee97483b64eadc56d Linux 5.10.216-rc1
 
---===============1923414193582827159==--
+--===============5420637473651165446==--
