@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1593367932602913627=="
+Content-Type: multipart/mixed; boundary="===============2919310023339771180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 15 Apr 2024 15:49:30 -0000
-Message-Id: <171319617048.30369.5239227100121516766@gitolite.kernel.org>
+Date: Mon, 15 Apr 2024 15:49:49 -0000
+Message-Id: <171319618961.30577.7443678626277986315@gitolite.kernel.org>
 
---===============1593367932602913627==
+--===============2919310023339771180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 982a73c7c594d553a688353c6ae43560542c4cd2
     new: 444cde13826bb4d3f9fdf829bf5e2f7bb03d9c32
     log: revlist-982a73c7c594-444cde13826b.txt
 
---===============1593367932602913627==
+--===============2919310023339771180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +76,4 @@ cd8ff81f747fdf5df75a634b9b90aef2716d84fd net: ethernet: ti: Add accessors for st
 8acacc40f7337527ff84cd901ed2ef0a2b95b2b6 net: ethernet: ti: am65-cpsw: Add minimal XDP support
 444cde13826bb4d3f9fdf829bf5e2f7bb03d9c32 Merge branch 'cpsw-xdp'
 
---===============1593367932602913627==--
+--===============2919310023339771180==--
