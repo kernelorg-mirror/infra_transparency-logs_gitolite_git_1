@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4137893584092891242=="
+Content-Type: multipart/mixed; boundary="===============5337548898415719760=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 15 Apr 2024 14:01:55 -0000
-Message-Id: <171318971599.15085.12485979730536648345@gitolite.kernel.org>
+Date: Mon, 15 Apr 2024 14:01:58 -0000
+Message-Id: <171318971885.15183.10351523170758307838@gitolite.kernel.org>
 
---===============4137893584092891242==
+--===============5337548898415719760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,92 +16,116 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: fa3df276cd36c5dbbd9deb64129d0d0f14c35dc8
-    new: d552b6c93120417b664e00f0cdd1db6e9d1c0d63
-    log: revlist-fa3df276cd36-d552b6c93120.txt
+  - ref: refs/heads/linux-6.1.y
+    old: cd5d98c0556cd790f78a3ba26afc9d2f896163e4
+    new: f10aaec93ae37df90098346f964cb363bc15e69e
+    log: revlist-cd5d98c0556c-f10aaec93ae3.txt
 
---===============4137893584092891242==
+--===============5337548898415719760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713189714 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713189717 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1713189709-a809a7edd2477f53976d55c9f6702c69356a5040
+nonce 1713189714-3008a4a3089f9b10e3fce6e17e2097f1986e32b4
 
-fa3df276cd36c5dbbd9deb64129d0d0f14c35dc8 d552b6c93120417b664e00f0cdd1db6e9d1c0d63 refs/heads/linux-5.15.y
+cd5d98c0556cd790f78a3ba26afc9d2f896163e4 f10aaec93ae37df90098346f964cb363bc15e69e refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYdM1IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+svIQAIYNUnhYdLOIR7s/N21z
-ydg9S52IVdkTHHgB+cKX0IaCaK7fmD94WanLE6zu/icTOQ676Of/DooK7Rk5Xd7t
-Yb4BsQnni2strKZSQsPIii6Rr2+m79y4hXcG4Er3MoO3oyKdqwGtQYrG6X9ybczc
-SVzCTNy7PnWOTv2AI5odU7MaMl+fR1yZH5zuGzAK0AaC4Q97TpfqEz8bIxCrFs6O
-/tNfaQeVYe5dxBooFXqCWVY58muvHo1kvYxSM8KsCDEiZf+s9lzyOsz2ydENqFPp
-hVy/Gwp+VVTES52Iz+2Spjpbc9IQRywI/t1GnoC5dDKAxK2Sh/yACHopmW9Oxn+O
-q6QvjteR8l9WiwRe+7GxT68o/TiVVGVZ9fzW03uPCsAZa/j2erlvmNyTJJ/gA90M
-IN7IUltVKYHbksXWax6Smt5M8XBsQV4OYz3PKHjfgTaWzmqsZALd3/WbZAe+GAnJ
-WNQCULUHhO2Uxl0jzXkGayQ9c/xXF0ySPk6co7bAWNzJnOLtwR0qbXKNw/bK2uHn
-LX3MadIzR/lZJ2Xk7FLru38LrmwhNcz3HWnSsAPSiyjspekbBdM7WS2BTDdSKXE3
-PFx68AHxiaJ67BKTjPs/1Ao0yQsmSxZEGee8qLyVM6EBwGQMCUeDkYCGJwGeWZ0x
-Bis8bprgYc/aTGaL2qimKdIF
-=J4pg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYdM1UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8zEP/jCExwdKG3FbwtNrjpUp
+LdSSEfKcHvIQCpDtWIjEKXhPlEDa9SY0rpbaCr6ig2bMJItgnDb3ZabFgqy0Rmlk
+jWlHtPrZi6e6gP+2gu79E+u7dVCEZTrkYoaaosnW5eVz18/KKutN+HtkzIo51M41
+Z+52nzixGd6rFy7HNefdJUBsgVIyHlLMwzTcyZ4EW1rdigjllp+2U++yzqKRn5kv
+jDH6TvN3PzPzo003U88DxZ2PtVOL8/x3OP4Eomx47z/yL7wCkSf4hXfojShTOnyI
+VZL7IiNeEhjVDd53ASh0PPUmEBHhzHoJQxWf/dy3vUpXLEKnVYwdlcccDal/x4IT
+qwQJ968Y0qidKvOOJlXjPFtv3nZIRnVxI8NBvJ6PX/G7lSaPiPaJWWlBvKvIO4I6
+LPnr+P1kSJkfm267CBquIkhLS8RletIGg2KGFEMXEtYPwLkl1LP3oqpZVoE531Ve
+IC4JVYEawRYyFwdc6zvBLzCxE3S/6RTM644rle5SwBkqMLG0wp4WB/uoezWKK4ge
+ukMkckNCi0I33m741Lya3fRdxjP5W0GJRVIxg+ZIluTR6C49CeOGz4D4MytJCU4X
+ADjISQbGwyFLSOkqlMyoOovhujIyNVBAkv2xt0u+epYAXDjygoeCo3dLs4kdqX8T
+bCqCB5upkyrlaktzp4UOlCPP
+=QDAP
 -----END PGP SIGNATURE-----
 
---===============4137893584092891242==
+--===============5337548898415719760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa3df276cd36-d552b6c93120.txt
+Content-Disposition: attachment; filename=revlist-cd5d98c0556c-f10aaec93ae3.txt
 
-ab227b9b321143de2d52dd7087fd93c4e1f5a5d9 batman-adv: Avoid infinite loop trying to resize local TT
-6d4ef5cbb3e0705317947dd0ac143f469063e56a ring-buffer: Only update pages_touched when a new page is touched
-eb4fa0061aea7f5cebf4dc78baf8758e65a91a70 Bluetooth: Fix memory leak in hci_req_sync_complete()
-88100e9225276bbca2ca6a3c53a7b1fa918371d1 media: cec: core: remove length check of Timer Status
-2fd309d8d941d183af50e246e5d0d67e57cc25af arm64: dts: imx8-ss-conn: fix usdhc wrong lpcg clock order
-9f0c79c13137ed77a865d48bcf5b802a571a8ae7 Revert "drm/qxl: simplify qxl_fence_wait"
-666c8864623e1c2a54de76e13deef2f4bde7712c nouveau: fix function cast warning
-43d724c9fe68e90c3437354a9425f8b5f91c4e8a scsi: qla2xxx: Fix off by one in qla_edif_app_getstats()
-d1770fcf8a7b425a57b58964b98e318cb7528280 net: openvswitch: fix unwanted error log on timeout policy probing
-e7d265c31eea47d09f4ec0050b27787005769c06 u64_stats: Disable preemption on 32bit UP+SMP PREEMPT_RT during updates.
-4382d8630e70270bb80f755688b358626e21f0de xsk: validate user input for XDP_{UMEM|COMPLETION}_FILL_RING
-f28a9f0f517a42b4af0c6d6c2f682d00af71f3a5 geneve: fix header validation in geneve[6]_xmit_skb
-5d5859a362c667d2d03037dd712661c0fa8530dd af_unix: Clear stale u->oob_skb.
-2c40c03b16a99ff674a351c1f72d322937cd8f3e octeontx2-af: Fix NIX SQ mode and BP config
-404845e4b9d8b0fddf20fcd63cbbb068ce8a45bc ipv6: fib: hide unused 'pn' variable
-42cdccf906aac784628bedde1c51cf9e6d92149e ipv4/route: avoid unused-but-set-variable warning
-093a5d39973eb6126c1e5e58a3b23835e933d5df ipv6: fix race condition between ipv6_get_ifaddr and ipv6_del_addr
-4e36ce37347ef3e8cd922a83470b75d572ed4191 netfilter: complete validation of user input
-14f408abe8aeb76f90bd72df64209f79ef217147 net/mlx5: Properly link new fs rules into the tree
-4326a13814ccc8d8b38becb58712f8df2bfddfe9 net: sparx5: fix wrong config being used when reconfiguring PCS
-25afc74286c858ca1ccabe27b54fa0e0efe81147 net: dsa: mt7530: trap link-local frames regardless of ST Port State
-b685a2184150bfed21893db27dd3d6c4c8717a71 af_unix: Do not use atomic ops for unix_sk(sk)->inflight.
-c51c5bf0674b1dcb697fd3876c4edce15dbf247e af_unix: Fix garbage collector racing against connect()
-de50db01538259190af6cc3f497bcac623ea17d2 net: ena: Fix potential sign extension issue
-174ffeafd7682fbc700fa9c77e5d292dbe52d94d net: ena: Wrong missing IO completions check order
-2f8ac49f7eb553aa3ba1f7c907d41baa20fab286 net: ena: Fix incorrect descriptor free behavior
-372317648c74b7b61b71b2a0f7e9b0358fff2788 tracing: hide unused ftrace_event_id_fops
-42135359b359c3f9dfb02b977eb8bfda3b6f1a2e iommu/vt-d: Allocate local memory for page request queue
-b5e5cd1cf7a9e11e5804c436febdaa243099f29b btrfs: qgroup: correctly model root qgroup rsv in convert
-4dfee49b2f9d0bd8491a81d1ecda0b876b3fb887 drm/client: Fully protect modes[] with dev->mode_config.mutex
-c40fd8037451cfa1e41b539ab1f57b50c7ff6699 vhost: Add smp_rmb() in vhost_vq_avail_empty()
-f1e9125eb0f7dcac5ac386cac1805741f49b742b perf/x86: Fix out of range data
-11e6be811c5d8c5c3bf2a0087baedc1ca5bb3670 x86/cpu: Actually turn off mitigations by default for SPECULATION_MITIGATIONS=n
-4a82ad99b56b49883f4e526e0fe9ef651866756a selftests: timers: Fix abs() warning in posix_timers test
-42a80dd9180e4a73aa760534ac7cf0df831456c0 x86/apic: Force native_apic_mem_read() to use the MOV instruction
-5faaae5e6fbb0ce651d03a8a42d15499f108d5d4 irqflags: Explicitly ignore lockdep_hrtimer_exit() argument
-f9374d76a3707cae1398d387d775524f381757a1 x86/bugs: Fix return type of spectre_bhi_state()
-b258919221f6d8c778ab6bd9b535cd531ea5aab1 x86/bugs: Fix BHI documentation
-707306dc1336c674e906b160a307c42df5ffc096 x86/bugs: Cache the value of MSR_IA32_ARCH_CAPABILITIES
-923529c54ea87d94bab26abe8ca713a485fe4358 x86/bugs: Rename various 'ia32_cap' variables to 'x86_arch_cap_msr'
-fed110c0051b8e2459324d5f70d29fc3f69db819 x86/bugs: Fix BHI handling of RRSBA
-c32b42e93f5d6ae8e6479ba06c8756b6df23980b x86/bugs: Clarify that syscall hardening isn't a BHI mitigation
-e5c5c90531ddcfd518a130a06abf782184dd987d x86/bugs: Remove CONFIG_BHI_MITIGATION_AUTO and spectre_bhi=auto
-dfc2cfa50c34967c81908fbdfd8a6b2956b30cfd x86/bugs: Replace CONFIG_SPECTRE_BHI_{ON,OFF} with CONFIG_MITIGATION_SPECTRE_BHI
-6b735b9b67cf8670ba6d8a43ed06b82e20c4a106 drm/i915/cdclk: Fix CDCLK programming order when pipes are active
-d552b6c93120417b664e00f0cdd1db6e9d1c0d63 Linux 5.15.156-rc1
+2974ba54baf8ef0a64a4b218018250d273a0c91f smb3: fix Open files on server counter going negative
+c1411a5faacd8a12310be2f3561579a779c513d5 ata: libata-scsi: Fix ata_scsi_dev_rescan() error path
+7c0f0303965750d3982f9450993feec5b618d927 batman-adv: Avoid infinite loop trying to resize local TT
+4dc870734465c75ac698ee4888f9e9b49b6167d1 ring-buffer: Only update pages_touched when a new page is touched
+7ca55ca4c9be82d6c074ca7b17be014a75185766 Bluetooth: Fix memory leak in hci_req_sync_complete()
+961f0beafd75317587deed95d012bc0996c7e9b7 drm/amd/pm: fixes a random hang in S4 for SMU v13.0.4/11
+a4b3fe038353ae0f38f1394c6f0948fa8d9dc7d4 PM: s2idle: Make sure CPUs will wakeup directly on resume
+57db56685764885731e0bc3cc9ebdbda14dd3951 media: cec: core: remove length check of Timer Status
+9da62cb488c374ace76ee32459c88865de9ad0d3 arm64: dts: imx8-ss-conn: fix usdhc wrong lpcg clock order
+7b5d8295404aff0970dff488aa594db97cc187be Revert "drm/qxl: simplify qxl_fence_wait"
+5ba5440a0f2b9722b3a08b45157c6aa10b69396f nouveau: fix function cast warning
+659aab8a49e2e6a4ce366f298433339f51c7ced8 scsi: hisi_sas: Modify the deadline for ata_wait_after_reset()
+dfbe8fcd485f851e1a214b6225156be14daff589 scsi: qla2xxx: Fix off by one in qla_edif_app_getstats()
+042ff54be93c33eab6868b9e11fb6a5f20ff9adf net: openvswitch: fix unwanted error log on timeout policy probing
+f62d0b85532ef5d794db4a8ba56dbeb2b242833e u64_stats: fix u64_stats_init() for lockdep when used repeatedly in one file
+6062c13f3edfd8db0603ebfd76edd2dfccc0d651 xsk: validate user input for XDP_{UMEM|COMPLETION}_FILL_RING
+6304facea3a4c0827cc474932156e8c3579a0886 geneve: fix header validation in geneve[6]_xmit_skb
+c4da63fa501b378ad6e48f3025fd6b8da4e40749 bnxt_en: Reset PTP tx_avail after possible firmware reset
+4a54e380310ef7eeed5e293df07e7112f1c9faae net: ks8851: Inline ks8851_rx_skb()
+7abe0db6fbcd5eb7f0fca78ed1f48fe3471b7288 net: ks8851: Handle softirqs at the end of IRQ thread to fix hang
+c51c4f8948cb91cccc8cd094a229a209727a8ada af_unix: Clear stale u->oob_skb.
+34e3755e30cd8d5e41a2ecf8d5afb00532d409c1 octeontx2-af: Fix NIX SQ mode and BP config
+c72fe90ae716e79380d3cbc363b631648a1e6ed7 ipv6: fib: hide unused 'pn' variable
+de9d0f54b5fee7be02ef27d3f53adffb97cb1d24 ipv4/route: avoid unused-but-set-variable warning
+f170571e21d21ae132b2dceac275666a5c751f4f ipv6: fix race condition between ipv6_get_ifaddr and ipv6_del_addr
+9694df8f5b00ed1f3c34446e6c024e798a0a9876 Bluetooth: SCO: Fix not validating setsockopt user input
+29658938271594d7127d96768ff4e439d86db75e Bluetooth: L2CAP: Fix not validating setsockopt user input
+13d6184dc29da6bbc9ac1522bdeae2158de665a3 netfilter: complete validation of user input
+e8224ad66aa652059c7e6f083467549b13680d11 net/mlx5: Properly link new fs rules into the tree
+38a4397d470a628df510df2d0b29c02641756be1 net/mlx5e: Fix mlx5e_priv_init() cleanup flow
+f582551e84ab2c6c5911a8aed4717f94dd2e91e5 net/mlx5e: HTB, Fix inconsistencies with QoS SQs number
+a12d65620b321bda1c7e0c56df200b54de62b4d4 net: sparx5: fix wrong config being used when reconfiguring PCS
+a9a756a10684bd95eb1beb732f9e46456df829c8 net: dsa: mt7530: trap link-local frames regardless of ST Port State
+6fdea7ba355580d573abbe5302697dd3e67f8c1d af_unix: Do not use atomic ops for unix_sk(sk)->inflight.
+06aaf533e2e1ccd0dd605a0a8f83d6110f62f778 af_unix: Fix garbage collector racing against connect()
+267ebfaaa3035575a40a79144194588ef612cbd3 net: ena: Fix potential sign extension issue
+7869f8ed3fac4af900f09dd187c59737c24be347 net: ena: Wrong missing IO completions check order
+9097b9e68811908ff26459f360b252456f7a5bf7 net: ena: Fix incorrect descriptor free behavior
+c782ba13382791ea172fc85995726f97ee69e85b tracing: hide unused ftrace_event_id_fops
+7148a96739ec531823f195564bba4a4c8b3e8566 iommu/vt-d: Allocate local memory for page request queue
+f1c07bd13cd779d5935c6670c0f949bf6f250efe btrfs: qgroup: correctly model root qgroup rsv in convert
+b07bb623a43bf157e937232b505b18c47c61693b btrfs: record delayed inode root in transaction
+db476a805f58079a6e9218cfe8ec15dab3aa1a10 btrfs: qgroup: convert PREALLOC to PERTRANS after record_root_in_trans
+9c6f0b5ab63c5fb010ab82e984651eae5f69ae8d io_uring/net: restore msg_control on sendzc retry
+d8e12a9110d4446857fe91c5fcbb9a97e83ec01d kprobes: Fix possible use-after-free issue on kprobe registration
+c259b79c2e1fd4cba68d49dc98bd40ce129b4275 drm/i915/vrr: Disable VRR when using bigjoiner
+acf564afe579086a5e7679da3e89457dc18a6b5e drm/amdkfd: Reset GPU on queue preemption failure
+ffe25fc1f97547215bf9a9969c0469d157c53d71 drm/ast: Fix soft lockup
+50a767e13d627d72c75ab7a63f630fabd430791b drm/client: Fully protect modes[] with dev->mode_config.mutex
+b4855a6011d2fd0525c7b47d913960f686ab343c vhost: Add smp_rmb() in vhost_vq_avail_empty()
+782420f9f3c84a05bc6bc7c2d0ee3a8f19c6e2b4 vhost: Add smp_rmb() in vhost_enable_notify()
+095e71172f942a1c1f8d243d6675da82b9ae51ef perf/x86: Fix out of range data
+d0bea8eb94c938ac9953995a378e6f364d8b6f28 x86/cpu: Actually turn off mitigations by default for SPECULATION_MITIGATIONS=n
+ebefaa75a9b9bc005baa1748d58ac7fab81e0c58 selftests: timers: Fix abs() warning in posix_timers test
+13367bb31601fdb1f10f693809150c6683992960 x86/apic: Force native_apic_mem_read() to use the MOV instruction
+d6779e9797e50e6310f8320a105056f1726ced9b irqflags: Explicitly ignore lockdep_hrtimer_exit() argument
+5f2cab368fea14b696e2b253f66f74e574471251 x86/bugs: Fix return type of spectre_bhi_state()
+899a2824e985da5e7443aee838d13a498602f3c3 x86/bugs: Fix BHI documentation
+b499ba225fa6e3d327439feef1fa40b76a97ad08 x86/bugs: Cache the value of MSR_IA32_ARCH_CAPABILITIES
+98094ba84721d284a35a7e85ca6daade58238e7b x86/bugs: Rename various 'ia32_cap' variables to 'x86_arch_cap_msr'
+d6304877a0bcf07e414de73e470666824e376c5d x86/bugs: Fix BHI handling of RRSBA
+140b77631419eae4ffe0195d270a220fabab4e84 x86/bugs: Clarify that syscall hardening isn't a BHI mitigation
+7353d23618de322e8a48005b6573e44ef8c4f7ea x86/bugs: Remove CONFIG_BHI_MITIGATION_AUTO and spectre_bhi=auto
+342a57a1aca368f45b82a997432120822a781702 x86/bugs: Replace CONFIG_SPECTRE_BHI_{ON,OFF} with CONFIG_MITIGATION_SPECTRE_BHI
+42b2407439c91aa15b3d548424dc928a4ee6626e drm/i915/cdclk: Fix CDCLK programming order when pipes are active
+af247615a1c8513b1fc808485f58c88d3c59be4f drm/i915: Disable port sync when bigjoiner is used
+8328c43b89d5b269de23e7d109d304a25b95b142 drm/amdgpu: Reset dGPU if suspend got aborted
+b00dcbe1c379da5e6bf5c2694e041ff1555cde1c drm/amdgpu: always force full reset for SOC21
+2b0791f9e68897773023d712e60464502daf0a03 drm/amd/display: fix disable otg wa logic in DCN316
+f10aaec93ae37df90098346f964cb363bc15e69e Linux 6.1.87-rc1
 
---===============4137893584092891242==--
+--===============5337548898415719760==--
