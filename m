@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 15 Apr 2024 09:48:51 -0000
-Message-Id: <171317453112.18013.11042257024877299146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Mon, 15 Apr 2024 09:56:31 -0000
+Message-Id: <171317499119.23919.12126695764813007872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/main
-    old: 9382b4f338d261494aad7eeffef0b13ff663b542
-    new: a788fafff56f940dbb1753c5bbbff387f9b97619
+  - ref: refs/heads/timers/experimental
+    old: e41ca02ecd4e3838fe034e0177cd26492c148d1d
+    new: c8072f01fdc8d934f7269213c6180a0f8f2739bd
     log: |
-         a788fafff56f940dbb1753c5bbbff387f9b97619 net: dsa: convert dsa_user_phylink_fixed_state() to use dsa_phylink_to_port()
+         c8072f01fdc8d934f7269213c6180a0f8f2739bd sync_core
          
