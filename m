@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Mon, 15 Apr 2024 07:57:13 -0000
-Message-Id: <171316783380.8536.16413128173258602036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Mon, 15 Apr 2024 08:02:51 -0000
+Message-Id: <171316817157.12240.6328255021164178975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/for-next
-    old: 67d5303fe655a13998b80120ae282a2a78832c72
-    new: 675a217e4e7cbc22b74a06ead2a93b0111963272
+  - ref: refs/heads/usb-linus
+    old: 39cd87c4eb2b893354f3b850f916353f2658ae6f
+    new: c840244aba7ad2b83ed904378b36bd6aef25511c
     log: |
-         8328a3d126f54ef5998ea3b0e444701a02d62274 soc: mediatek: mtk-socinfo: Correct the marketing name for MT8188GV
-         675a217e4e7cbc22b74a06ead2a93b0111963272 Merge branch 'v6.9-next/soc' into for-next
+         356952b13af5b2c338df1e06889fd1b5e12cbbf4 USB: serial: option: add Fibocom FM135-GL variants
+         c840244aba7ad2b83ed904378b36bd6aef25511c USB: serial: option: support Quectel EM060K sub-models
          
