@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 15 Apr 2024 08:30:39 -0000
-Message-Id: <171316983993.659.12854787457364662899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 15 Apr 2024 08:54:29 -0000
+Message-Id: <171317126955.16662.16940915486149269751@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/mips-next
-    old: b8f8e5a691ba75051a841e68ace5817d5c368fd9
-    new: 40e20fbccfb722f219ab8d3ff1edde99e4a7c46c
+  - ref: refs/heads/main
+    old: 32affa5578f0e6b9abef3623d3976395afbd265c
+    new: f1e197a665c2148ebc25fe09c53689e60afea195
     log: |
-         40e20fbccfb722f219ab8d3ff1edde99e4a7c46c MIPS: SGI-IP27: micro-optimize arch_init_irq()
+         f1e197a665c2148ebc25fe09c53689e60afea195 drop_monitor: replace spin_lock by raw_spin_lock
          
