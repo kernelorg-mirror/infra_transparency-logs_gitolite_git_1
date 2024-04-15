@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 15 Apr 2024 14:08:09 -0000
-Message-Id: <171319008907.20669.1579578626158278613@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5886112501085224175=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 15 Apr 2024 14:15:42 -0000
+Message-Id: <171319054217.26547.17117966939327149435@gitolite.kernel.org>
+
+--===============5886112501085224175==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-hans
-    old: 4086c75d6febf595379c50d64729041f7a521e24
-    new: cc6add311eb73955c378b9ed142fe66ea720007b
+  - ref: refs/heads/master
+    old: cc6121b689d2729963494df03fb791027087bebf
+    new: 95f6dad37c27aac23f9be773bbd6e48a784213ad
     log: |
-         7c277d4d16bac2e21ebb53e583d8db0b08cbdeb1 platform/x86/intel/sdsi: Set message size during writes
-         688ee9b9ec6cbf238aa3874e742221279b5e7667 platform/x86/intel/sdsi: Combine read and write mailbox flows
-         d9a4b2aaec4c6f6c9ba1a956d0cf118e439e941c platform/x86/intel/sdsi: Add in-band BIOS lock support
-         46b5e5eb1d41175bcf360d32f7b30f48cdbf99dc platform/x86/intel/sdsi: Add attribute to read the current meter state
-         ef08f4df8a265f5738738f2ce54f905fb4d5daa9 tools/arch/x86/intel_sdsi: Fix maximum meter bundle length
-         fe76d52028b257c350ea9e086a2a34ab2888a296 tools/arch/x86/intel_sdsi: Fix meter_show display
-         0d0d6ea3a4b925a40f2427206bbc9e88fbb0d881 tools/arch/x86/intel_sdsi: Fix meter_certificate decoding
-         89f40fa4462a90d4f8b8b5f019a11800b8d2d80e tools/arch/x86/intel_sdsi: Simplify ascii printing
-         cc6add311eb73955c378b9ed142fe66ea720007b tools/arch/x86/intel_sdsi: Add current meter support
+         95f6dad37c27aac23f9be773bbd6e48a784213ad drop some unneeded bluetooth patches in 5.10
          
+
+--===============5886112501085224175==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713190536 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1713190531-d3aa6a7cc3b74daaebc26347a62dee9b5a3d108e
+
+cc6121b689d2729963494df03fb791027087bebf 95f6dad37c27aac23f9be773bbd6e48a784213ad refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYdNogbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+opoP/jh9zvT4FX8K28aHh09Q
+1oKcp2SdY0kn+ZRvi32U9+YMteSPT9KXv41g6nSfykvqNACBOydvRaXGNLm3mp+4
+1sFcbt+tIK3bs/4KRGYqqV7PUaxCdl1q1lq6c3bgjy5wzxJv4On9hY2t5taPVAh8
+Ekna7CXuevrkfIsEnxYlaVBGyypyt9gbWhQuwUcaIC/GxWkbPxQYvPkaTZDz0P8p
+lqcmT/7OSqnh3D9I7A+0nD/MsXPscMeduNLuZ05Fyh2Ql1Vo/tYMTYw5HPccXCSk
+nICCHnbP8xFXuccgRsiM5RJCxUTkZ2G00TWyA02rSrpJaOVMa5J46lmLJi15Xo3i
+c4G9scsvMIeTGgtr3Cd1iYX4qwZWp7QxWJ0bw2T37tWAe2mY7X0P8pPYKNU4pM95
+wNnfjIQW2nUmp/brHuAWphTIc8TIIWENj3uVIbajFM3SyJV7N/4yFl/QDcj7oMyP
+BXD/MFJlKk1g1Y55EDWyRm6vvSb0ZTiiKR9lpuigxMlOE6tyjhma28n0OxIwYDuG
+rFSbORwOEXwJhZck5iOWPYXcsSvVmNli+kpzOXvA+ZfrWC4o0iOB80OGcK4OXSar
+YVw0oCDq6NsAn1v1EhvnJ3E1CoSiOPxHcM4mg4s4nmIeu9A28iPcp+kiWWgjpdBS
+HC+JG6c4yeKx83NNdFnb7UKV
+=XYJu
+-----END PGP SIGNATURE-----
+
+--===============5886112501085224175==--
