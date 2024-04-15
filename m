@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5489628987052183983=="
+Content-Type: multipart/mixed; boundary="===============3726480490052101369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 15 Apr 2024 15:43:05 -0000
-Message-Id: <171319578563.26255.10933055144503911169@gitolite.kernel.org>
+Date: Mon, 15 Apr 2024 15:43:39 -0000
+Message-Id: <171319581984.26516.28433364027240822@gitolite.kernel.org>
 
---===============5489628987052183983==
+--===============3726480490052101369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 982a73c7c594d553a688353c6ae43560542c4cd2
-    new: 444cde13826bb4d3f9fdf829bf5e2f7bb03d9c32
-    log: revlist-982a73c7c594-444cde13826b.txt
+  - ref: refs/heads/dev-queue
+    old: 17652dec4509a6a6cfb504c41073c6e6c6e10636
+    new: 083c113c913223a4e979bb8c2fe8bce15cea65ca
+    log: revlist-17652dec4509-083c113c9132.txt
 
---===============5489628987052183983==
+--===============3726480490052101369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-982a73c7c594-444cde13826b.txt
+Content-Disposition: attachment; filename=revlist-17652dec4509-083c113c9132.txt
 
 3f189349e52ac69a8c4fffef339c5fe177d618f7 selftests: netfilter: move to net subdir
 94831b130dedc0498e08f402d44e89bd1b9386b5 selftests: netfilter: bridge_brouter.sh: move to lib.sh infra
@@ -75,5 +75,27 @@ cd8ff81f747fdf5df75a634b9b90aef2716d84fd net: ethernet: ti: Add accessors for st
 84d767a3c0b5e6b7d13bcaa64405c0613138161f net: ethernet: ti: Add desc_infos member to struct k3_cppi_desc_pool
 8acacc40f7337527ff84cd901ed2ef0a2b95b2b6 net: ethernet: ti: am65-cpsw: Add minimal XDP support
 444cde13826bb4d3f9fdf829bf5e2f7bb03d9c32 Merge branch 'cpsw-xdp'
+e20fe7f90f3ffc0167d5333b929da3ef0c9fccba ice: Remove ndo_get_phys_port_name
+0a902b296a8857a773c35834baee7ab94d95277d i40e: Prevent setting MTU if greater than MFS
+2499c8e1524c618a23b23edc0af983800c2e83fd ice: tc: check src_vsi in case of traffic from VF
+81e44e7fabadadc942112fba07dfd1c8b40868b1 ice: tc: allow zero flags in parsing tc flower
+19cadd61bee5abb6e2bd80b29c5d7c49a3cb8fb7 ice: set vf->num_msix in ice_initialize_vf_entry()
+bb192e5d117411a9adb58a630cb33eb9e976b6b7 ice: store VF relative MSI-X index in q_vector->vf_reg_idx
+2ed600d4711342f6b063c8dd5e0310e0f3059ba6 igc: Add Tx hardware timestamp request for AF_XDP zero-copy packet
+d87598efcb90028d2741f1dc6491402f9a91b382 ice: Fix package download algorithm
+c77ebee0279fb9b53b3dfc7c66c3bbe32d2d6008 i40e: Report MFS in decimal base instead of hex
+407e6df750e2f9718d852d3a31b3fb10c196487d ice: add additional E830 device ids
+71417ffe966441d25685196e88be7a8c484f5e40 ice: update E830 device ids and comments
+5dbd5785d72486a54b29df7174db8f66cf92fbb2 iavf: Fix TC config comparison with existing adapter TC config
+2e4dc0da367b861279cc79653daebb248c3f27be devlink: extend devlink_param *set pointer
+432b5604aeafee9f5deeee864f1b55dac8910c18 ice: Support 5 layer topology
+640a9d26e1c9a2ab573c5805a034c75d2fed619b ice: Adjust the VSI/Aggregator layers
+fbd81f4c1283f01ebf07d3930c7cec1115051d14 ice: Enable switching default Tx scheduler topology
+55694026b0f4a9ff7a3162fa7c424d2344635c85 ice: Add tx_scheduling_layers devlink param
+f53c79435a21caf8dee23cb73c868af81c7ab7ca ice: Document tx_scheduling_layers parameter
+25230b8fb767bd1ecd4ade541742f9d4357f1f68 ice: Remove unnecessary argument from ice_fdir_comp_rules()
+e7c33de2312efd802f5f0eb2394c70433ea80cb6 ice: Implement 'flow-type ether' rules
+69893f6adb2871cc0cbe8919b97968e52eb806f7 ice: Add automatic VF reset on Tx MDD events
+083c113c913223a4e979bb8c2fe8bce15cea65ca ice: Fix checking for unsupported keys on non-tunnel device
 
---===============5489628987052183983==--
+--===============3726480490052101369==--
