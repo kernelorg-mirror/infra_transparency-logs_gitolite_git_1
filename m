@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 15 Apr 2024 11:00:10 -0000
-Message-Id: <171317881028.6758.3539114777889576005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 15 Apr 2024 11:01:31 -0000
+Message-Id: <171317889125.7309.3517846885932713600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 05d604a57773a499b158e5fe84108301228392ec
-    new: 50aee97d15113b95a68848db1f0cb2a6c09f753a
-    log: |
-         50aee97d15113b95a68848db1f0cb2a6c09f753a udp: Avoid call to compute_score on multiple sites
-         
+  - ref: refs/heads/filecVmtHD
+    old: 0000000000000000000000000000000000000000
+    new: df3431fd379dcc3b231bd109a55948c27474478d
+  - ref: refs/heads/filedXQSGi
+    old: 0000000000000000000000000000000000000000
+    new: 863f94ac5f4481a7c5665e8152d551701ac71bf3
