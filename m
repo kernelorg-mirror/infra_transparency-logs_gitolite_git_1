@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0137376682941245831=="
+Content-Type: multipart/mixed; boundary="===============6465588318100088522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Mon, 15 Apr 2024 12:35:17 -0000
-Message-Id: <171318451797.10230.12238162980315119972@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 15 Apr 2024 12:44:11 -0000
+Message-Id: <171318505157.16298.1484175230416651552@gitolite.kernel.org>
 
---===============0137376682941245831==
+--===============6465588318100088522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: mpe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 36ba64b4cbc6145103a0e3586ae7ef595bdef132
-    new: 210cfef579260ed6c3b700e7baeae51a5e183f43
+  - ref: refs/heads/master
+    old: 79428b6bc54c11a510dc13438fca47beb374fd0e
+    new: 7a4d09c8aa93da9f80969bb88ad3b5fd7c1344de
     log: |
-         210cfef579260ed6c3b700e7baeae51a5e183f43 selftests/powerpc/papr-vpd: Fix missing variable initialization
+         7a4d09c8aa93da9f80969bb88ad3b5fd7c1344de 6.8-stable patches
          
 
---===============0137376682941245831==
+--===============6465588318100088522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1713184517 +1000
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1713184515-bcb5bbf4f15cf0282e8213b1e2d96881e2d3e70a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713185049 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1713185044-c4cc7b349e1e700815b347a06a2e0c5722af85d8
 
-36ba64b4cbc6145103a0e3586ae7ef595bdef132 210cfef579260ed6c3b700e7baeae51a5e183f43 refs/heads/fixes
+79428b6bc54c11a510dc13438fca47beb374fd0e 7a4d09c8aa93da9f80969bb88ad3b5fd7c1344de refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmYdHwUTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgBzBD/4kJ5FIXtY5m4tZUsueOX03RBwV7ArG
-RCCWnONlV/wIm0ntKJ+vebaAaK5eP7+2Jp6tmtql80p0io/Opnm1E/e6sJjl7tKu
-9Hdv2q2Enz2mrwDXO6bdzoooz/7ef15HppVJZCxFy9bdCmEse3MT96DxeDo7uUOI
-wX4iKn4KGYMucPh1eEnsg7FieA4YOEzXHTqBreu5WICF3loqttc56CnjEVFUagoN
-bPlf2Na8NDnwbjbsFp21Tcq6i9V3/HG+2U6kboPoQG43FTBBkMZYdzkdaGKL9GDD
-SsNxEtGyNGbYw2jqhW4NOrwUPEwxA4KYow1MlkfeaF3hi/XmEy6Zt+wEUkISnu0W
-aZ5JQu19u5pcZyNariHmoYmkAoNR4znnIkBDuBwQZ8ZX+hHuhGvwMemaihpQgNJ0
-8d6FhQZN2MkWmV09W7PV0g5kEy9pUmc8A6UUgmaKxqB4nTSLB0PTAK49KRXMjuf2
-2XzPtMKxaxtlE66hqGU1LkTe6fWh3IMo0RgE7I/q79eDEc6nel0H6ZYaEuLyWfVQ
-0qY7q3iPB8oDfqMEnfPpAf1V9Ff9IAUB55LWm0LgcsmIYSIvtKRgnYkDTp0RLqYb
-wlNZ3qoI7WXeZ6POB3odukdPeax1P3zgzbtP/4vtdvUTrd0J3r1kli+l6XTzJFZa
-vtyMvjLPZfG3vA==
-=i9k6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYdIRkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uo4QAMlgucz8izeGVDt64ESf
+devswxwyeglt/Gir18HQY78IXVIe6tIqW8RGkyfpBtzKtqx5WWImcoczujFGzYJL
+AX7FDS01ga9XReLvNjh2TjtaRVR0hT0PKDeGOtP6vS5jkPaF3w07RdS0tDH4GPFj
+/5H+PvY/9cTPklCjpogY2tMM2hGWlBSzY3mQhEUiHfuhtknVIBODCqs5RhGla93o
+abvRdAkHpS4z1wyYq013juKOC0wOu5jcsWg5nFeYj3pn6JXvg4RiiDqxaQVJIs3G
+yUXsY3zYIxbkxsWojLItLcZNqEoETORkqIzA3MWjRzXzrOBjp35PudzTJP2rOu9f
+5hM3P5hEFmw3A03Qw42leK3fUBHL1BFzdDVShZfV6WcZ4j43KV+fR8U9CAUxeR3t
+BWddg+VuJdu0MHE7UOQ5jdOTxzJ5NNldstY0qEkLW/z571aOEKvLfUdBWWzqMY0q
+5lgi7FFOTdKl7i2H/aoUCPxnxxW5hTfQFoKPN0fsTl5l3SjDGWSgrQD1uC9zlMY+
+AlluMBGVB2l5A/+WF+ycZuCsLqnJuUjt0D3QgEPdS71wyk5FJFSxDE51EmPdus7f
+dQhj4+0gKKznkW+xwf/giqRhP589Qf/htv0hFBGnrH74apNdn3vqUyuvoA7P0AGX
+dhch5vJ5wFMTnC81e5oJzFcl
+=ITNm
 -----END PGP SIGNATURE-----
 
---===============0137376682941245831==--
+--===============6465588318100088522==--
