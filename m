@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 15 Apr 2024 19:36:12 -0000
-Message-Id: <171320977233.32731.2982587456544949152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 15 Apr 2024 19:47:02 -0000
+Message-Id: <171321042219.8677.16322661933970641214@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/dt/linus
-    old: de164a7f19248fb03229a4af9b0db333d9591e55
-    new: dab6bc78e9815e26aa226051efdc6e6883c978ce
+  - ref: refs/heads/master
+    old: 249216dce21f97d92144f0f72cc8b97f25203184
+    new: b94f1be656f34ea1363f5566ef63b847234c6dea
     log: |
-         dab6bc78e9815e26aa226051efdc6e6883c978ce of: module: add buffer overflow check in of_modalias()
+         b94f1be656f34ea1363f5566ef63b847234c6dea shared/uhid: Fix crash if bt_uhid_destroy free replay structure
          
