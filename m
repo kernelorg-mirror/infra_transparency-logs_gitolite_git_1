@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9031015181333047579=="
+Content-Type: multipart/mixed; boundary="===============9127449629329632662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 15 Apr 2024 20:33:27 -0000
-Message-Id: <171321320749.8463.5143580659478336697@gitolite.kernel.org>
+Date: Mon, 15 Apr 2024 20:33:31 -0000
+Message-Id: <171321321121.8535.16679893116638095844@gitolite.kernel.org>
 
---===============9031015181333047579==
+--===============9127449629329632662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: ab9713bb88443f8791e2917833ff1ed802046b2f
-    new: 7efb8b7dc143b3eb9d71d010c14aa351cc9c0dc4
-    log: revlist-ab9713bb8844-7efb8b7dc143.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 3731629ddb80ae5f52cb95d7321bccfb138cab7f
+    new: 0bbac3facb5d6cc0171c45c9873a2dc96bea9680
+    log: revlist-3731629ddb80-0bbac3facb5d.txt
 
---===============9031015181333047579==
+--===============9127449629329632662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1713213206 +0200
+pusher andi.shyti@kernel.org 1713213210 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1713213205-fe9611882e5a9616f507c3b810bf6e77c6d5568a
+nonce 1713213209-088769649c4ff02101cc2f1a46d63d788a037f73
 
-ab9713bb88443f8791e2917833ff1ed802046b2f 7efb8b7dc143b3eb9d71d010c14aa351cc9c0dc4 refs/heads/i2c/i2c-host
+3731629ddb80ae5f52cb95d7321bccfb138cab7f 0bbac3facb5d6cc0171c45c9873a2dc96bea9680 refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZh2PFhYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u+2wBAKHARgo6b4vYF78dx+fE4JzU/6jj
-kXT4jHlUBBmEcfYSAP91eVDfzyRd1iIjt6T0KNB75JmrRlJ41S1JEtCYyZW3Aw==
-=zYJY
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZh2PGhYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u87ABALXbmyUsrZteXG9R2uqH2l72wm95
+4XjHQaru0BXYOcxyAQD8sLt+UowMXxGSEJxj9cz1bHIp/VHsh62txmeRK71oCQ==
+=305v
 -----END PGP SIGNATURE-----
 
---===============9031015181333047579==
+--===============9127449629329632662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab9713bb8844-7efb8b7dc143.txt
+Content-Disposition: attachment; filename=revlist-3731629ddb80-0bbac3facb5d.txt
 
 e5f4e68eed85fa8495d78cd966eecc2b27bb9e53 tools/power turbostat: Fix added raw MSR output
 3ac1d14d0583a2de75d49a5234d767e2590384dd tools/power turbostat: Increase the limit for fd opened
@@ -447,17 +447,5 @@ c748fc3b1f5605c12c8061ffb0c27707597b27b2 Merge tag 'timers-urgent-2024-04-14' of
 27fd80851dc1e47b2facaa11b5b52c7dbc6b0718 Merge tag 'x86-urgent-2024-04-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 72374d71c31596c7442ac0db9a9327d0e062e941 Merge tag 'pull-sysfs-annotation-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 0bbac3facb5d6cc0171c45c9873a2dc96bea9680 Linux 6.9-rc4
-99bfb60311ce5c359139062957f6b3e1f3d45f70 dt-bindings: i2c: nxp,pnx-i2c: Convert to dtschema
-e123c473a874d9f798763bbb4ea9fd85493c251b dt-bindings: i2c: renesas,riic: Document R9A09G057 support
-69b63cc492dce778a59d6c7815a24d6edeb48638 i2c: riic: Introduce helper functions for I2C read/write operations
-a40976d55780cfadb701d2296515daeab95d31ff i2c: riic: Pass register offsets and chip details as OF data
-b2cec62c4b71cdfcbc8c2ded1db9637a327bf791 i2c: riic: Add support for R9A09G057 SoC
-0cd826304f29839d7d59cbde080550d9bb379b1d i2c: viperboard: drop driver owner assignment
-fee36e06fb9a7629442ded0ed043a43db36b9000 i2c: i2c-qcom-geni: Parse Error correctly in i2c GSI mode
-2de576d993f1617bc7c01dde88cb02650e1025ab i2c: i801: Call i2c_register_spd for muxed child segments
-52c02ba48c30b2fb214ad544cd24949eedff0d8d i2c: add HAS_IOPORT dependencies
-8fabf9a4b9e8fc03a37a97d3686bb01acada348e i2c: ocores: convert to ioport_map() for IORESOURCE_IO
-e1f7e5a865572c5d8d31dfd1cdaaf903115c09ed i2c: i801: Fix missing Kconfig dependency
-7efb8b7dc143b3eb9d71d010c14aa351cc9c0dc4 MAINTAINERS: adjust file entry in ARM/LPC32XX SOC SUPPORT
 
---===============9031015181333047579==--
+--===============9127449629329632662==--
