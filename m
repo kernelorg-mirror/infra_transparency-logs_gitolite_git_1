@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 15 Apr 2024 23:40:50 -0000
-Message-Id: <171322445070.16832.5016876977908294953@gitolite.kernel.org>
+Date: Mon, 15 Apr 2024 23:41:01 -0000
+Message-Id: <171322446134.16950.2894468262156729444@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regmap-6.10
-    old: 135cec6ba82ebffc0275c5228b4c4bf279fbf6f5
-    new: 991b5e2aad870828669ca105f424ef1b2534f820
+  - ref: refs/heads/spi-6.10
+    old: 770e3da3fe7ee7ffca745b7ac300ce39fe40f465
+    new: df3431fd379dcc3b231bd109a55948c27474478d
     log: |
-         991b5e2aad870828669ca105f424ef1b2534f820 regmap: kunit: Fix an NULL vs IS_ERR() check
+         df3431fd379dcc3b231bd109a55948c27474478d spi: pxa2xx: Move number of CS pins validation out of condition
          
