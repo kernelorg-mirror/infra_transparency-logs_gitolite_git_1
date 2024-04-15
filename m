@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 15 Apr 2024 19:17:54 -0000
-Message-Id: <171320867476.19850.15771308900638359789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 15 Apr 2024 19:18:28 -0000
+Message-Id: <171320870820.20143.10163824409292110057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/kdevops
-    old: 1f779df8175bceab8142200fbd3af3740e2d4360
-    new: 980bf22ac9b081719e2c89fd8aab9488339df378
+  - ref: refs/heads/for-next
+    old: 4b00f92cd36f53d8bbb47bae0b94b9d1630c501d
+    new: 4f0eecb15f2b44db4391dd00c6e824d973ceb286
     log: |
-         8c8acadc4c5f501894b69f2374184fadace0ab66 fix0
-         980bf22ac9b081719e2c89fd8aab9488339df378 fix1
+         bcd5bb52c649c4caae610728595f3345ceedd221 dm-crypt: stop constraining max_segment_size to PAGE_SIZE
+         2f5ed56ca3a86f3cf9d6d2f2273e763e25773c5a dm: use queue_limits_set
+         4f0eecb15f2b44db4391dd00c6e824d973ceb286 dm-crypt: don't set WQ_CPU_INTENSIVE for WQ_UNBOUND crypt_queue
          
