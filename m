@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5331960509963954773=="
+Content-Type: multipart/mixed; boundary="===============6353688685616251563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 15 Apr 2024 06:38:58 -0000
-Message-Id: <171316313853.15907.4774893156672571880@gitolite.kernel.org>
+Date: Mon, 15 Apr 2024 06:39:07 -0000
+Message-Id: <171316314799.16041.13951601433463982024@gitolite.kernel.org>
 
---===============5331960509963954773==
+--===============6353688685616251563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
-    old: b1a8da9ff1395c4879b4bd41e55733d944f3d613
+  - ref: refs/heads/master
+    old: d206a76d7d2726f3b096037f2079ce0bd3ba329b
     new: 39cd87c4eb2b893354f3b850f916353f2658ae6f
-    log: revlist-b1a8da9ff139-39cd87c4eb2b.txt
+    log: revlist-d206a76d7d27-39cd87c4eb2b.txt
 
---===============5331960509963954773==
+--===============6353688685616251563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1a8da9ff139-39cd87c4eb2b.txt
+Content-Disposition: attachment; filename=revlist-d206a76d7d27-39cd87c4eb2b.txt
 
 58cd69cbd364f12166107697774f3d77b058e92e Merge branch 'for-6.9/samsung' into for-linus
 8c9089efd7c7c21f99cb0f4723e9b6ea8b66640a Merge branch 'for-6.9/unused-struct-removal' into for-linus
@@ -1051,4 +1051,4 @@ c40845e3195d074b34f8f8e400e28c9403a06588 kbuild: make -Woverride-init warnings m
 7e40c2100c87e8f11c270b4ddbe0bf8534dcab21 Merge tag 'kbuild-fixes-v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 39cd87c4eb2b893354f3b850f916353f2658ae6f Linux 6.9-rc2
 
---===============5331960509963954773==--
+--===============6353688685616251563==--
