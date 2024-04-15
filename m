@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Mon, 15 Apr 2024 16:49:57 -0000
-Message-Id: <171319979710.9267.2279677300546206740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 15 Apr 2024 16:55:33 -0000
+Message-Id: <171320013380.14491.18192839846271145555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/for-next/fixes
-    old: e3ba51ab24fddef79fc212f9840de54db8fd1685
-    new: 015a12a4a6708d9cadcaea8334e270747923394c
+  - ref: refs/heads/nolibc
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: 0adab2b6b7336fb6ee3c6456a432dad3b1d25647
     log: |
-         015a12a4a6708d9cadcaea8334e270747923394c arm64/hugetlb: Fix page table walk in huge_pte_alloc()
+         791f4641142e2aced85de082e5783b4fb0b977c2 tools/nolibc/stdlib: fix memory error in realloc()
+         689230b674188163fe56b3aecd7d01f79ca518e6 tools/nolibc/string: export strlen()
+         34d232c39a1e05ba734dc6ad9dc01d15788cd91d tools/nolibc: Fix strlcat() return code and size usage
+         fbffce819e5ac151e137f881b89a9c1da0ebb76c tools/nolibc: Fix strlcpy() return code and size usage
+         1063649cf531c276740b7f011df2eed82227ba92 selftests/nolibc: Add tests for strlcat() and strlcpy()
+         e93b912ecf6ab113c9d4ec9ced2fa30dfac24c70 tools/nolibc/string: remove open-coded strnlen()
+         0adab2b6b7336fb6ee3c6456a432dad3b1d25647 tools/nolibc: add support for uname(2)
          
