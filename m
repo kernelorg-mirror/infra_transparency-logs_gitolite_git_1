@@ -1,23 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 16 Apr 2024 11:16:58 -0000
-Message-Id: <171326621888.16744.5693274066975082136@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3634558031253609232=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Tue, 16 Apr 2024 11:19:45 -0000
+Message-Id: <171326638519.17757.6641840708145188816@gitolite.kernel.org>
+
+--===============3634558031253609232==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/main
-    old: 81b095cae4bf7eca51b01d20780e2714e650bd87
-    new: e918c7bbc0df0eec447017c5064797b6072b7b0d
-    log: |
-         0a66e976430402d0064687853fddc33088faa98a ice: Remove unnecessary argument from ice_fdir_comp_rules()
-         ae67389c53928418975b46d13b51fde4e40ee15f ice: Implement 'flow-type ether' rules
-         c22f7dacb8202779e60f45976443d979a749ab13 ice: set vf->num_msix in ice_initialize_vf_entry()
-         b80d01ef9aba6c0824644bbde49b1f4e2955e5d1 ice: store VF relative MSI-X index in q_vector->vf_reg_idx
-         e918c7bbc0df0eec447017c5064797b6072b7b0d Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-         
+  - ref: refs/heads/wip
+    old: ed8fc180745004e36ec6ccc502856072fc281e39
+    new: bbf96118aa8835c7e34750ac0b161e00c6fb244e
+    log: revlist-ed8fc1807450-bbf96118aa88.txt
+
+--===============3634558031253609232==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ed8fc1807450-bbf96118aa88.txt
+
+3fdd89b452c2ea5e2195d6e315bef122769584c9 f2fs: prevent writing without fallocate() for pinned files
+b2cf5a1ff236fcd0eb9dcbb188df30b50bb1af0f f2fs: allow direct io of pinned files for zoned storage
+dbe63942e85923ee267bd44c0c0368465a6a1ab3 f2fs: fix comment in sanity_check_raw_super()
+55b39aa8e238efc2647ba40fc3ef6c6fc830ae3e f2fs: remove unnecessary block size check in init_f2fs_fs()
+79e537cf2b8dc6c3b898521a2e25b6bf6b617990 f2fs: convert f2fs_mpage_readpages() to use folio
+42c83e78377ca361ff7b903ce086ce2a106ab254 f2fs: convert f2fs_read_single_page() to use folio
+e2d4a613076d0ddffeb9224ae5c587423f7eaca7 f2fs: convert f2fs_read_inline_data() to use folio
+0cf87f87d74361ba886e7b34c22788faacef8125 f2fs: convert f2fs__page tracepoint class to use folio
+43311bdce3d5cad48791f5b4b9caea3ec8927ab2 f2fs: use per-log target_bitmap to improve lookup performace of ssr allocation
+86e9d90b33126efed32fe995783fc85fbdc633f7 f2fs: introduce written_map to indicate written datas
+bbf96118aa8835c7e34750ac0b161e00c6fb244e f2fs: zone: don't block IO if there is remained open zone
+
+--===============3634558031253609232==--
