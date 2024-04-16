@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 16 Apr 2024 15:42:40 -0000
-Message-Id: <171328216047.14211.9546042277459894789@gitolite.kernel.org>
+Date: Tue, 16 Apr 2024 15:42:50 -0000
+Message-Id: <171328217055.14358.2319409044747471152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: d2d40a24eea9ebe798a87efc7eae66f5c1e7914c
+  - ref: refs/heads/perf-tools-next
+    old: 988052f4bfcc4ee893ea19e9d9ce888cc8578e5a
     new: a5a00497b9dfefbf6872f387bc7692919e1785d3
     log: |
          2bc3cf575a162a2ca9c98262a63e95cc2b619de7 perf annotate-data: Improve debug message with location info
