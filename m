@@ -1,46 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============3731483198988983962=="
+Content-Type: multipart/mixed; boundary="===============8390562886647255067=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 16 Apr 2024 12:43:58 -0000
-Message-Id: <171327143890.14526.5354380481414672102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 16 Apr 2024 12:54:15 -0000
+Message-Id: <171327205587.21334.16253374974003655584@gitolite.kernel.org>
 
---===============3731483198988983962==
+--===============8390562886647255067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/review-ilpo
-    old: bc774d46b41482534c7ba92f6342ca0a355c13af
-    new: 978af6121b4b000befd9a45f5b65c00e39920273
-    log: |
-         978af6121b4b000befd9a45f5b65c00e39920273 platform/x86/amd: Extend Framework 13 quirk to more BIOSes
-         
+  - ref: refs/heads/vfs.super
+    old: 9035dd4eee422e1a93ca43247c998674d422ed0f
+    new: 06007b9cd2b4d1cc63310b1260bbdb2333c3e23d
+    log: revlist-9035dd4eee42-06007b9cd2b4.txt
 
---===============3731483198988983962==
+--===============8390562886647255067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9035dd4eee42-06007b9cd2b4.txt
 
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1713271435 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1713271435-0edf5dcd98dbfaec7a25b622ac38bbf5361450be
+6f35f4c9cc16e21cdec8c5332d49d090daf96d7e block_device: add a pointer to struct address_space (page cache of bdev)
+db3102368e1b67c41f34ba43e196fe691060b2d4 use ->bd_mapping instead of ->bd_inode->i_mapping
+a4fbcdbe0f699673971a8bbf8a5b195d0a8ed7cf grow_dev_folio(): we only want ->bd_inode->i_mapping there
+f85177efed9b38310470f06893e8c2e7775f8c67 gfs2: more obvious initializations of mapping->host
+8f6e58b2ef5d28fb640d41705d189074753fbfa8 blkdev_write_iter(): saner way to get inode and bdev
+695eaf683e8ea1a1adbfbb0178c643d62d7d3773 blk_ioctl_{discard,zeroout}(): we only want ->bd_inode->i_mapping here...
+4c322d309f77ca02432d167c139f006ec7ac2d25 ext4: remove block_device_ejected()
+176a0b06df92aa49c9857c61f504007ac5367b99 block: move two helpers into bdev.c
+71210fd7caeeb54c213d73d06c619b8a1505b6da dm-vdo: use bdev_nr_bytes(bdev) instead of i_size_read(bdev->bd_inode)
+5728e526c4bedffb03a0e4ef44328e351db11507 bcachefs: remove dead function bdev_sectors()
+06007b9cd2b4d1cc63310b1260bbdb2333c3e23d block2mtd: prevent direct access of bd_inode
 
-bc774d46b41482534c7ba92f6342ca0a355c13af 978af6121b4b000befd9a45f5b65c00e39920273 refs/heads/review-ilpo
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZh5yiwAKCRBZrE9hU+XO
-MWjLAP99KrRqja4qVvBN/vRI2OCPCPbcWRten+CLhS6kEH2NkAD+LWm/RYYIxlB0
-IgReml4Loc8l8SnHaFLmQ1srZ/IpWgs=
-=rWnL
------END PGP SIGNATURE-----
-
---===============3731483198988983962==--
+--===============8390562886647255067==--
