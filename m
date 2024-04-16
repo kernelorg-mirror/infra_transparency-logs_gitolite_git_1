@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 16 Apr 2024 21:13:36 -0000
-Message-Id: <171330201602.29715.1680023244879330816@gitolite.kernel.org>
+Date: Tue, 16 Apr 2024 21:16:28 -0000
+Message-Id: <171330218848.569.11160971967673109739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/at24/for-current
-    old: 4cece764965020c22cff7665b18a012006359095
-    new: b3de7b433a323bb80303d77e69f1281bfab0a70b
+  - ref: refs/heads/gpio/for-next
+    old: 8d1e84ab0176c2d2b49fd741d6609a021ecc1d01
+    new: 9aeb26e3beaa02288710ca5e14dbcf56a70992d8
     log: |
-         b3de7b433a323bb80303d77e69f1281bfab0a70b dt-bindings: eeprom: at24: Fix ST M24C64-D compatible schema
+         9aeb26e3beaa02288710ca5e14dbcf56a70992d8 gpio: sch: Switch to memory mapped IO accessors
          
