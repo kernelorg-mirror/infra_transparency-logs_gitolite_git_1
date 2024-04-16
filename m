@@ -1,49 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
-Date: Tue, 16 Apr 2024 12:06:16 -0000
-Message-Id: <171326917603.19321.4978072353079541574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 16 Apr 2024 12:07:29 -0000
+Message-Id: <171326924912.21177.9765207237693655260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
-user: mkorenbl
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/chromeos-4.19__release/core87-44
-    old: 0000000000000000000000000000000000000000
-    new: 39ec08935c813cb4a8caa551cd652a57086f9be9
-  - ref: refs/tags/chromeos-4.19__release/core87-2024-04-16
-    old: 0000000000000000000000000000000000000000
-    new: 39ec08935c813cb4a8caa551cd652a57086f9be9
-  - ref: refs/heads/chromeos-5.4__release/core87-44
-    old: 0000000000000000000000000000000000000000
-    new: 4d996d1aa088d1bcf81bc445fe322c8190d6bb0a
-  - ref: refs/tags/chromeos-5.4__release/core87-2024-04-16
-    old: 0000000000000000000000000000000000000000
-    new: 4d996d1aa088d1bcf81bc445fe322c8190d6bb0a
-  - ref: refs/heads/chromeos-5.10__release/core87-44
-    old: 0000000000000000000000000000000000000000
-    new: 3e95d7a89ea76d8dd2a5afeb1cdb9b64148478b0
-  - ref: refs/tags/chromeos-5.10__release/core87-2024-04-16
-    old: 0000000000000000000000000000000000000000
-    new: 3e95d7a89ea76d8dd2a5afeb1cdb9b64148478b0
-  - ref: refs/heads/chromeos-5.15__release/core87-44
-    old: 0000000000000000000000000000000000000000
-    new: 2f133dd4d27e93b31b40059f44254caa3764517f
-  - ref: refs/tags/chromeos-5.15__release/core87-2024-04-16
-    old: 0000000000000000000000000000000000000000
-    new: 2f133dd4d27e93b31b40059f44254caa3764517f
-  - ref: refs/heads/chromeos-6.1__release/core87-44
-    old: 0000000000000000000000000000000000000000
-    new: c1e9e627896ad10cececa7d6c20c75cf56d794a8
-  - ref: refs/tags/chromeos-6.1__release/core87-2024-04-16
-    old: 0000000000000000000000000000000000000000
-    new: c1e9e627896ad10cececa7d6c20c75cf56d794a8
-  - ref: refs/heads/chromeos-6.6__release/core87-44
-    old: 0000000000000000000000000000000000000000
-    new: 1060a9db93c1cdbdaec1f6c159845ed0560f5881
-  - ref: refs/tags/chromeos-6.6__release/core87-2024-04-16
-    old: 0000000000000000000000000000000000000000
-    new: 1060a9db93c1cdbdaec1f6c159845ed0560f5881
+  - ref: refs/heads/wip/leon-for-next
+    old: 203b70fda63425a4eb29f03f9074859afe821a39
+    new: 349e859952285ab9689779fb46de163f13f18f43
+    log: |
+         bfb6be401470206ac02cbfdaf7b76ee040c1ae3d RDMA/hns: Use macro instead of magic number
+         f4caa864af84f801a5821ea2ba6c1cc46f8252c1 RDMA/hns: Remove unused parameters and variables
+         2ce384307f2ddf39dc662878e151722199afc9ae RDMA/hns: Add max_ah and cq moderation capacities in query_device()
+         b46494b6f9c19f141114a57729e198698f40af37 RDMA/hns: Fix deadlock on SRQ async events.
+         a942ec2745ca864cd8512142100e4027dc306a42 RDMA/hns: Fix UAF for cq async event
+         dc3bda6e568e9310b7cd07769dd70a3f0cd696ca RDMA/hns: Fix mismatch exception rollback
+         ee045493283403969591087bd405fa280103282a RDMA/hns: Fix GMV table pagesize
+         9a84848dcee289966e8a2c21223bb0d7bc44f201 RDMA/hns: Add mutex_destroy()
+         4125269bb9b22e1d8cdf4412c81be8074dbc61ca RDMA/hns: Use complete parentheses in macros
+         349e859952285ab9689779fb46de163f13f18f43 RDMA/hns: Modify the print level of CQE error
+         
