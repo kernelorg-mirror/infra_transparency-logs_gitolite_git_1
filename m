@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4502551364480470028=="
+Content-Type: multipart/mixed; boundary="===============3345904483647746662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 16 Apr 2024 15:48:05 -0000
-Message-Id: <171328248520.17926.231501234342728607@gitolite.kernel.org>
+Date: Tue, 16 Apr 2024 15:48:17 -0000
+Message-Id: <171328249750.18054.6130616221494869536@gitolite.kernel.org>
 
---===============4502551364480470028==
+--===============3345904483647746662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/features
-    old: 8692a24d0fae19f674d51726d179ad04ba95d958
-    new: f65325b88b8fce8e8b1c6470268279a7f4a4ea74
-    log: revlist-8692a24d0fae-f65325b88b8f.txt
+  - ref: refs/heads/for-next
+    old: 1fd78e225f7ee10268d38462c70512a575bd2c61
+    new: 583a8db159683e6f7474110efd8ae8be748b6028
+    log: revlist-1fd78e225f7e-583a8db15968.txt
 
---===============4502551364480470028==
+--===============3345904483647746662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8692a24d0fae-f65325b88b8f.txt
+Content-Disposition: attachment; filename=revlist-1fd78e225f7e-583a8db15968.txt
 
 53396a599cda50874503ec4e778c749a5e2585a0 KVM: s390: vsie: Use virt_to_phys for facility control block
 1a44a2e19756b646c58080147fdc16fae3f563a9 s390/boot: do not force vmemmap to start at MAX_PHYSMEM_BITS
@@ -46,5 +46,7 @@ a28636e6199cfadd756bc5277b03f9a2e2cf5898 s390/boot: rework deployment of the ker
 e9a7cb71e1c2aaae1f6f88baacb868de7addb3c3 s390/boot: do not rescue .vmlinux.relocs section
 fa53cfadb513414e9c4ffaf5163c7b6501aad5a6 s390/nospec: correct modules thunk offset calculation
 f65325b88b8fce8e8b1c6470268279a7f4a4ea74 s390/expoline: make modules use kernel expolines
+67f7ab1ad6b22dd76d7e43a01d53f8115fd9279f Merge branch 'fixes' into for-next
+583a8db159683e6f7474110efd8ae8be748b6028 Merge branch 'features' into for-next
 
---===============4502551364480470028==--
+--===============3345904483647746662==--
