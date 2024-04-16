@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Tue, 16 Apr 2024 15:32:06 -0000
-Message-Id: <171328152658.5631.3833377818451042072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Tue, 16 Apr 2024 15:34:53 -0000
+Message-Id: <171328169304.6646.15687027528184644388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
   - ref: refs/heads/main
-    old: e67c9a73532af543573ffafd08a04e2d34579272
-    new: dedcf62f3956ab671813e9461d8780a0e8b1e6ac
+    old: d26a0a66f9290a3665e283826637722507af5ce3
+    new: f236464f1db7bea80075e6e31ac70dc6eb80547f
     log: |
-         0a1e1522cde95a5daea4efd2ef16bc356164c068 mnl: initialize generic netlink version
-         dedcf62f3956ab671813e9461d8780a0e8b1e6ac man: use clsact qdisc for port mirroring examples on matchall and mirred
+         35aee01ff43d7eb6c2caa0b94e7cc6c45baeeab7 wifi: wilc1000: set atomic flag on kmemdup in srcu critical section
+         f236464f1db7bea80075e6e31ac70dc6eb80547f wifi: wilc1000: convert list management to RCU
          
