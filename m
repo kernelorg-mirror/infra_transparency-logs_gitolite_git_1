@@ -1,28 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 16 Apr 2024 07:30:06 -0000
-Message-Id: <171325260691.32245.6001846267952152093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
+Date: Tue, 16 Apr 2024 07:49:39 -0000
+Message-Id: <171325377949.12722.3992402790446495544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/sysctl/sysctl
+user: joel.granados
 changes:
-  - ref: refs/heads/ath-next
-    old: 4f242b1d6996af14f98cb1093d26cdacd6a83ad7
-    new: 0531825408ce3aa365c63f56e597adc265b5d86e
+  - ref: refs/heads/sysctl-next
+    old: c2e128726bddb740084b030458b2f300a4b535a3
+    new: 48cb8c70fc81ba77fb5da195b43248b76b9ae318
     log: |
-         f351772c544bd20db63a61f20a70fb1fe3867000 wifi: ath12k: fix mac id extraction when MSDU spillover in rx error path
-         0531825408ce3aa365c63f56e597adc265b5d86e wifi: ath12k: dynamically update peer puncturing bitmap for STA
-         
-  - ref: refs/heads/ath-qca
-    old: 8e3376186426c31a313c2070722ea0ee7554df2a
-    new: 70d6c9e29b2a5a20b7ca735f0ad1e6b963dadd0b
-    log: |
-         f351772c544bd20db63a61f20a70fb1fe3867000 wifi: ath12k: fix mac id extraction when MSDU spillover in rx error path
-         0531825408ce3aa365c63f56e597adc265b5d86e wifi: ath12k: dynamically update peer puncturing bitmap for STA
-         70d6c9e29b2a5a20b7ca735f0ad1e6b963dadd0b Merge branch 'ath-next' into ath-qca
+         43606535f1613312d7f391492857f9d0cbbcfbdd sysctl: treewide: drop unused argument ctl_table_root::set_ownership(table)
+         c167ca51411bd50a8dfc564552e7277f171e5119 sysctl: treewide: constify argument ctl_table_root::permissions(table)
+         d6650a62f3fca5c2cbb884c69e7f7b2f4dce4f72 sysctl: drop sysctl_is_perm_empty_ctl_table
+         57737959873b10e14db3f39b6f9030735eb3af36 sysctl: move sysctl type to ctl_table_header
+         12e78b868481451de3850f1e147c39a986d699da sysctl: drop now unnecessary out-of-bounds check
+         48cb8c70fc81ba77fb5da195b43248b76b9ae318 security: Remove the now superfluous sentinel element from ctl_table array
          
