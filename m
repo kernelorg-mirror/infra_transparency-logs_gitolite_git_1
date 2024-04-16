@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Tue, 16 Apr 2024 16:55:41 -0000
-Message-Id: <171328654197.3941.8201181852233811041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Tue, 16 Apr 2024 16:56:00 -0000
+Message-Id: <171328656039.4118.3846171355744652594@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/dev-test
-    old: 91e736553310ae666d20c9d4f29de7283c7b30eb
-    new: acaa17359cffd249692a4bb8e32143052d154103
+  - ref: refs/heads/rproc-next
+    old: fec2601f2003b9e9820ab5057607df7fff61cfaf
+    new: 72c350c9a6cdb8d666927ffd7a6507e77a5f5047
     log: |
-         acaa17359cffd249692a4bb8e32143052d154103 mkfs.f2fs: add description for ro feature in manual
+         b31bcda55fcb3f282ffcb3047fcf760748b26a37 remoteproc: zynqmp: fix lockstep mode memory region
+         9e1b2a0757d081e327630d566901c084b056d5fe dt-bindings: remoteproc: Add Tightly Coupled Memory (TCM) bindings
+         72c350c9a6cdb8d666927ffd7a6507e77a5f5047 remoteproc: zynqmp: parse TCM from device tree
          
