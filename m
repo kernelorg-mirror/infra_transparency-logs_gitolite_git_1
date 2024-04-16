@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2382662805724091421=="
+Content-Type: multipart/mixed; boundary="===============6657325137186165028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 16 Apr 2024 17:41:29 -0000
-Message-Id: <171328928933.5715.10295676527605980420@gitolite.kernel.org>
+Date: Tue, 16 Apr 2024 17:41:52 -0000
+Message-Id: <171328931218.5945.12006895689114838290@gitolite.kernel.org>
 
---===============2382662805724091421==
+--===============6657325137186165028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 083c113c913223a4e979bb8c2fe8bce15cea65ca
-    new: 4add8057b1a52679d388141b7783991778f025e8
-    log: revlist-083c113c9132-4add8057b1a5.txt
+  - ref: refs/heads/1GbE
+    old: 444cde13826bb4d3f9fdf829bf5e2f7bb03d9c32
+    new: fd86344823b521149bb31d91eba900ba3525efa6
+    log: revlist-444cde13826b-fd86344823b5.txt
 
---===============2382662805724091421==
+--===============6657325137186165028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-083c113c9132-4add8057b1a5.txt
+Content-Disposition: attachment; filename=revlist-444cde13826b-fd86344823b5.txt
 
 0a66e976430402d0064687853fddc33088faa98a ice: Remove unnecessary argument from ice_fdir_comp_rules()
 ae67389c53928418975b46d13b51fde4e40ee15f ice: Implement 'flow-type ether' rules
@@ -60,23 +60,5 @@ b51a94b2d59d8d5f34a5eba1a6b3e733d5cb4355 selftests: forwarding: router_mpath_nh_
 81b095cae4bf7eca51b01d20780e2714e650bd87 Merge branch 'selftests-assortment-of-fixes'
 e918c7bbc0df0eec447017c5064797b6072b7b0d Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 fd86344823b521149bb31d91eba900ba3525efa6 af_unix: Try not to hold unix_gc_lock during accept().
-cf5b779bf140689c4c4e3b5a9cf2e6f970e5a620 ice: Remove ndo_get_phys_port_name
-9b0cb1682fa5868c7e856627968722f055ee747c i40e: Prevent setting MTU if greater than MFS
-3ed1e26c4c1fe3e51a071c99a61b75f8282235dc ice: tc: check src_vsi in case of traffic from VF
-18b00a49be1084192a8a76134eca96cba1328710 ice: tc: allow zero flags in parsing tc flower
-5ea4d2db6a784706a5bb662013c29b18ce25c2a7 igc: Add Tx hardware timestamp request for AF_XDP zero-copy packet
-991921b66c4960d729164bfeb45cca45b1562e30 ice: Fix package download algorithm
-9d13f7edc0dd11692f2b305ad42371e40431b0c5 i40e: Report MFS in decimal base instead of hex
-9c1e83f85dc9551ae6306be1364783f1579dd599 ice: add additional E830 device ids
-8ed752618c9b61d5e51aae8f5ebc3daa4e825742 ice: update E830 device ids and comments
-760528de83bbd26c53b1a184f2605c1a885a8ba0 iavf: Fix TC config comparison with existing adapter TC config
-e279bda8596126c359aac45417504adeeaa2c875 devlink: extend devlink_param *set pointer
-e96608b37ea9f61ccc19a61a5c65dbfa8e2d09f1 ice: Support 5 layer topology
-47bc09498b429fc4ad8524849284a0c3503301df ice: Adjust the VSI/Aggregator layers
-9e732a594bd354de0274e0f60fe93898a210558e ice: Enable switching default Tx scheduler topology
-26a010636d820440e75652aa5fbc66adb2de735e ice: Add tx_scheduling_layers devlink param
-e00fa9a5b6411161a114f82cfb31674a325ee429 ice: Document tx_scheduling_layers parameter
-b1fed626684ad3dc84304cd8678939ba4ed4907f ice: Add automatic VF reset on Tx MDD events
-4add8057b1a52679d388141b7783991778f025e8 ice: Fix checking for unsupported keys on non-tunnel device
 
---===============2382662805724091421==--
+--===============6657325137186165028==--
