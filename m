@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 16 Apr 2024 15:35:13 -0000
-Message-Id: <171328171305.8592.2805517595369739945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 16 Apr 2024 15:42:04 -0000
+Message-Id: <171328212498.13929.2522029563436576294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/for-next
-    old: 4f0eecb15f2b44db4391dd00c6e824d973ceb286
-    new: a98ecf716e30c78d62146af5a949122e0c2b7622
+  - ref: refs/heads/tmp.perf-tools-next
+    old: d2d40a24eea9ebe798a87efc7eae66f5c1e7914c
+    new: a5a00497b9dfefbf6872f387bc7692919e1785d3
     log: |
-         48ef0ba12e6b77a1ce5d09c580c38855b090ae7c dm: restore synchronous close of device mapper block device
-         5268de78e1e61c828174cb2ac7d9c566a97cce69 dm-crypt: add the optional "high_priority" flag
-         2285e1496dc68787a626145cfb0904a1b6cc5501 dm-crypt: export sysfs of all workqueues
-         24c79ca907c94d265bc6135eb9fe09b01a753526 dm-crypt: stop constraining max_segment_size to PAGE_SIZE
-         45e55ec2464fd1a3d5b80342c5d1d41bfff4e228 dm: use queue_limits_set
-         a98ecf716e30c78d62146af5a949122e0c2b7622 dm-crypt: don't set WQ_CPU_INTENSIVE for WQ_UNBOUND crypt_queue
+         2bc3cf575a162a2ca9c98262a63e95cc2b619de7 perf annotate-data: Improve debug message with location info
+         645af3fb62bf12911ce1fc79efa676dae9a8289b perf dwarf-aux: Check pointer offset when checking variables
+         0519fadbbe3b1ed396d944911c1ff3a276701474 perf dwarf-aux: Check variable address range properly
+         a5a00497b9dfefbf6872f387bc7692919e1785d3 perf annotate-data: Handle RSP if it's not the FB register
          
