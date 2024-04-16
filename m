@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 16 Apr 2024 15:35:06 -0000
-Message-Id: <171328170636.8467.11158532664548004788@gitolite.kernel.org>
+Date: Tue, 16 Apr 2024 15:35:13 -0000
+Message-Id: <171328171305.8592.2805517595369739945@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-6.10
-    old: 4b00f92cd36f53d8bbb47bae0b94b9d1630c501d
+  - ref: refs/heads/for-next
+    old: 4f0eecb15f2b44db4391dd00c6e824d973ceb286
     new: a98ecf716e30c78d62146af5a949122e0c2b7622
     log: |
          48ef0ba12e6b77a1ce5d09c580c38855b090ae7c dm: restore synchronous close of device mapper block device
