@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1658157212648353280=="
+Content-Type: multipart/mixed; boundary="===============8756023964862266876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 16 Apr 2024 17:42:10 -0000
-Message-Id: <171328933097.6128.1261980552452325551@gitolite.kernel.org>
+Date: Tue, 16 Apr 2024 17:42:29 -0000
+Message-Id: <171328934926.6307.18027426395635588524@gitolite.kernel.org>
 
---===============1658157212648353280==
+--===============8756023964862266876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 444cde13826bb4d3f9fdf829bf5e2f7bb03d9c32
     new: fd86344823b521149bb31d91eba900ba3525efa6
     log: revlist-444cde13826b-fd86344823b5.txt
 
---===============1658157212648353280==
+--===============8756023964862266876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -61,4 +61,4 @@ b51a94b2d59d8d5f34a5eba1a6b3e733d5cb4355 selftests: forwarding: router_mpath_nh_
 e918c7bbc0df0eec447017c5064797b6072b7b0d Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 fd86344823b521149bb31d91eba900ba3525efa6 af_unix: Try not to hold unix_gc_lock during accept().
 
---===============1658157212648353280==--
+--===============8756023964862266876==--
