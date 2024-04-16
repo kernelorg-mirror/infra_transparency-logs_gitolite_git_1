@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 16 Apr 2024 11:10:58 -0000
-Message-Id: <171326585878.12857.7097421116450876019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/f2fs-tools
+Date: Tue, 16 Apr 2024 11:16:33 -0000
+Message-Id: <171326619342.16496.419664440234184090@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/chao/f2fs-tools
+user: chao
 changes:
-  - ref: refs/heads/spi-6.10
-    old: bb40996267670862544cb8e740afb77cbf3a7949
-    new: 351007b069287d3f0399e9e83981b33a2050eb54
+  - ref: refs/heads/wip
+    old: c312935b48986a3670e2a317974f4498de079cfc
+    new: 3631ad44f14585959e0c8d7af96e83a05eae70ac
     log: |
-         e81582c080ddec3359bc6726291e62a1ba8b7350 spi: Extract spi_toggle_csgpiod() helper for better maintanance
-         d707530b1ea518e23c7aa7b50ee79231f2964da0 spi: Introduce spi_for_each_valid_cs() in order of deduplication
-         351007b069287d3f0399e9e83981b33a2050eb54 spi: More refacroings after multi-CS support
+         3631ad44f14585959e0c8d7af96e83a05eae70ac mkfs.f2fs: add description for ro feature in manual
          
