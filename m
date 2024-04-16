@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
-Date: Tue, 16 Apr 2024 07:49:39 -0000
-Message-Id: <171325377949.12722.3992402790446495544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 16 Apr 2024 07:51:05 -0000
+Message-Id: <171325386573.14964.10243925053144853308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sysctl/sysctl
-user: joel.granados
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/sysctl-next
-    old: c2e128726bddb740084b030458b2f300a4b535a3
-    new: 48cb8c70fc81ba77fb5da195b43248b76b9ae318
+  - ref: refs/heads/for-6.10/sony
+    old: 4e124ed0da2939dcd27849a3d6f41fbc537a20be
+    new: 45bf5edd0f9612f41be405b583af886168174e8b
     log: |
-         43606535f1613312d7f391492857f9d0cbbcfbdd sysctl: treewide: drop unused argument ctl_table_root::set_ownership(table)
-         c167ca51411bd50a8dfc564552e7277f171e5119 sysctl: treewide: constify argument ctl_table_root::permissions(table)
-         d6650a62f3fca5c2cbb884c69e7f7b2f4dce4f72 sysctl: drop sysctl_is_perm_empty_ctl_table
-         57737959873b10e14db3f39b6f9030735eb3af36 sysctl: move sysctl type to ctl_table_header
-         12e78b868481451de3850f1e147c39a986d699da sysctl: drop now unnecessary out-of-bounds check
-         48cb8c70fc81ba77fb5da195b43248b76b9ae318 security: Remove the now superfluous sentinel element from ctl_table array
+         45bf5edd0f9612f41be405b583af886168174e8b HID: sony: Remove usage of the deprecated ida_simple_xx() API
+         
+  - ref: refs/heads/for-next
+    old: 78e3412a0ebb4e8b6818ccada4e351d2d267437b
+    new: d82775b9060102a43f42d81ba57902827ce92fd6
+    log: |
+         45bf5edd0f9612f41be405b583af886168174e8b HID: sony: Remove usage of the deprecated ida_simple_xx() API
+         d82775b9060102a43f42d81ba57902827ce92fd6 Merge branch 'for-6.10/sony' into for-next
          
