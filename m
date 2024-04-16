@@ -1,27 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
-Date: Tue, 16 Apr 2024 19:46:53 -0000
-Message-Id: <171329681354.30937.12589894767975406225@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2782002003779423814=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/libs/liba2i/liba2i
+Date: Tue, 16 Apr 2024 19:48:35 -0000
+Message-Id: <171329691520.31629.445022189273452099@gitolite.kernel.org>
+
+--===============2782002003779423814==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/teigland/linux-dlm
-user: teigland
+repo: pub/scm/libs/liba2i/liba2i
+user: alx
 changes:
-  - ref: refs/heads/next
-    old: 92d59adfaf710f34ae7788fa54f0731a7640833b
-    new: 15fd7e55177a8d6243096bb6b9536cd15f56d547
-    log: |
-         700b04808fad2eac24abf050f234f059199fa3fe dlm: increment ls_count for dlm_scand
-         dcdaad05ca15150ae076299ba827867f243c0623 dlm: change to single hashtable lock
-         2d90354027ad2011c0c5a2a404fe81afc745c2a7 dlm: merge toss and keep hash table lists into one list
-         93a693d19d2a4aeaa5aede5354cc0f749a780374 dlm: add rsb lists for iteration
-         6c648035cbe75d78836f6d7d2fdd9d996048a66b dlm: switch to use rhashtable for rsbs
-         6644925abf056030cd9efc73fc05ea5a5df4f59f dlm: do not use ref counts for rsb in the toss state
-         b1f2381c1a8d52b973944090ed8b42c750152533 dlm: drop dlm_scand kthread and use timers
-         e91313591b29ce724fe2f1bdf29f2482878fc275 dlm: use rwlock for rsb hash table
-         15fd7e55177a8d6243096bb6b9536cd15f56d547 dlm: use rwlock for lkbidr
-         
+  - ref: refs/heads/main
+    old: 5b8ce272548910bc0e5cd1f9cb7f096dd8ce36c9
+    new: 66e142e440b05dc7e131db64c290f0208fc03cdd
+    log: revlist-5b8ce2725489-66e142e440b0.txt
+
+--===============2782002003779423814==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5b8ce2725489-66e142e440b0.txt
+
+605d8d66f6e1aea0a03191b86bcd6e713895071b include/a2i/a2i{,_func}.h, lib/src/a2i/a2i{,_func}.c: Split files
+1420e41a0d100add7bf4e3aedcafdecf886a036d include/a2i/a2i*: Add const-generic macros
+537024eba6581e893ec706f84233c2de674b4cf4 include/a2i/: Use _Generic(3) instead of macro magic with GNU extensions
+3d2904e9250493697f65ccf7d797978cb1260e4d include/a2i/cast.h: Add missing #include
+2c70c63798b07918a8fbee09100ad839be23bf46 etc/checkpatch/checkpatch.conf: Ignore spurious warning
+ecc5ea650c45ea4d520bf017e00d43cb44ee01e4 share/mk/: $LD: Fix definition to include $CPPFLAGS
+42b66854d533ab1d6d97a0020c55eb751dc0fb07 share/mk/, lib/pkgconfig/liba2i-uninstalled.pc: Fix $libdir in `make check`
+ab3be6ad3d93ae00a8c901cbe31f4604d7b0a05d share/tests/: Update tests
+6de59383c46a2518ca4723008f10a65cb6fc149a share/mk/: build-lib-shared: Build a linkername and soname
+7e3b03951df68e0c5990c023a40a0ae927a2398f share/mk/: ffix
+bbbe2d1a37c0f5af6e13c9df8464d3379fe41300 share/mk/: check, installcheck: Don't force creation of libraries
+a79c3a969f9699914239dfb45a96b4da35c2ba8d share/mk/: check: Specify $LD_LIBRARY_PATH
+717d1bd976e25113ff44ff8d46a6d4ebceacd88d share/mk/: build-lib-static: Run ranlib(1) as a separate command
+66e142e440b05dc7e131db64c290f0208fc03cdd share/mk/: build-lib-static: Use the right ar(1) and ranlib(1) when not using gcc(1)
+
+--===============2782002003779423814==--
