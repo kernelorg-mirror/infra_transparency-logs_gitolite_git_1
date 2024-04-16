@@ -1,31 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 16 Apr 2024 17:15:57 -0000
-Message-Id: <171328775771.19135.6008344250761246671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 16 Apr 2024 17:26:43 -0000
+Message-Id: <171328840313.26029.988840438627305419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master-pending
-    old: 44a2b1cf7c4baecffb69cfb9fb10cde1b6ecb20b
-    new: 992a445a255af450b8fda2e912033d1655d6a5b0
+  - ref: refs/heads/main
+    old: 75ce9506ee3dc66648a7d74ab3b0acfa364d6d43
+    new: e226eade8f50cda14a353f13777709797c21abf8
     log: |
-         6964f753d5e637be06ec8264bfba5c49bb736e99 wifi: ath12k: don't use %pK in dmesg format strings
-         604b4d32bdc11cf276f2a3580beb326c008b2a3e wifi: ath12k: Fix Tx Completion Ring(WBM2SW) Setup Failure
-         992a445a255af450b8fda2e912033d1655d6a5b0 Merge branch 'pending' into master-pending
+         4225dfa4535f219b03ae14147d9c6e7e82ec8df4 selftests/tcp_ao: Make RST tests less flaky
+         b089b3bead532419cdcbd8e4e0a3e23c49d11573 selftests/tcp_ao: Zero-init tcp_ao_info_opt
+         beb78cd1329d039d73487ca05633d1b92e1ab2ea selftests/tcp_ao: Fix fscanf() call for format-security
+         b476c93654d748c13624f7c7d0ba191c56a8092e selftests/tcp_ao: Printing fixes to confirm with format-security
+         24f4c99e00354fd79bc1f6cbca9961adbd2dc81e Merge branch 'selftests-net-tcp_ao-a-bunch-of-fixes-for-tcp-ao-selftests'
+         0ebd96f5da4410c0cb8fc75e44f1009530b2f90b net: stmmac: Apply half-duplex-less constraint for DW QoS Eth only
+         59c3d6ca6cbded6c6599e975b42a9d6a27fcbaf2 net: stmmac: Fix max-speed being ignored on queue re-init
+         9cb54af214a7cdc91577ec083e5569f2ce2c86d8 net: stmmac: Fix IP-cores specific MAC capabilities
+         e226eade8f50cda14a353f13777709797c21abf8 Merge branch 'net-stmmac-fix-mac-capabilities-procedure'
          
-  - ref: refs/heads/pending
-    old: 249cf4862ba8532ad1cf5198865d2d99a23252e6
-    new: 604b4d32bdc11cf276f2a3580beb326c008b2a3e
-    log: |
-         6964f753d5e637be06ec8264bfba5c49bb736e99 wifi: ath12k: don't use %pK in dmesg format strings
-         604b4d32bdc11cf276f2a3580beb326c008b2a3e wifi: ath12k: Fix Tx Completion Ring(WBM2SW) Setup Failure
-         
-  - ref: refs/tags/ath-pending-202404161714
-    old: 0000000000000000000000000000000000000000
-    new: 992a445a255af450b8fda2e912033d1655d6a5b0
