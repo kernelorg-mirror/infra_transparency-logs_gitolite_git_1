@@ -1,50 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4389642679140988810=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 17 Apr 2024 11:44:35 -0000
-Message-Id: <171335427563.2353.12664386388845891401@gitolite.kernel.org>
-
---===============4389642679140988810==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 17 Apr 2024 11:54:56 -0000
+Message-Id: <171335489663.9153.10192870784122828711@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: agordeev
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/features
-    old: f65325b88b8fce8e8b1c6470268279a7f4a4ea74
-    new: ba05b39d54eef78043b5c8ee90545cb06a98ae6f
-    log: revlist-f65325b88b8f-ba05b39d54ee.txt
-
---===============4389642679140988810==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f65325b88b8f-ba05b39d54ee.txt
-
-22fdd8ba61187582843f090f100284d9e826adca KVM: s390: vsie: Use virt_to_phys for facility control block
-47bf81767277b5abb87f7e86e15310f0e9d4d06c s390/boot: Do not force vmemmap to start at MAX_PHYSMEM_BITS
-b2b15f079c4c19e3a73a8b0cf4f901186f12098f s390/boot: Consider DCSS segments on memory layout setup
-ecf74da64defe9e7f1862d86b4f3d4041e22dc4a s390/boot: Reduce size of identity mapping on overlap
-c8aef260c86ec86c4d6065b6cd67ce7161d1ca10 s390/boot: Swap vmalloc and Lowcore/Real Memory Copy areas
-bbe72f39022270c40dc1e991b4dadf6f32eed86a s390/mm: Move KASLR related to <asm/page.h>
-236f324b747370b97030c9582591f459353e3589 s390/mm: Create virtual memory layout structure
-3bb11234b1d17236ba479f7d0eaa9bd12f2f2493 s390/boot: Uncouple virtual and physical kernel offsets
-7de0446f0b26589fa80e384d8edaa2c279583652 s390/boot: Make identity mapping base address explicit
-5fb50fa66ab94141c0692dc5043ed30e6159a81b s390/boot: Make .amode31 section address range explicit
-88702793c5b4ef127a1f57d76920a80f70d081a7 s390/os_info: Introduce value entries
-8572f52518f69842d983b45eefa7d4efccd233de s390/os_info: Store virtual memory layout
-378e32aa81971e8f5594372c6a9d75aa3cf52c99 s390/vmcoreinfo: Store virtual memory layout
-f4cac27dc0d6ba9640c0ce1c42749cfa086cdfb2 s390/crash: Use old os_info to create PT_LOAD headers
-c98d2ecae08f02bd2dccd24e7e485e9f0211db65 s390/mm: Uncouple physical vs virtual address spaces
-54f2ecc3188f78723267826f634e0747169f8685 s390: Map kernel at fixed location when KASLR is disabled
-56b1069c40c777e9cba595a62857293628067d65 s390/boot: Rework deployment of the kernel image
-236d70f82bec6e1f3ab50a5242fc1c7f779e941e s390/boot: Do not rescue .vmlinux.relocs section
-ea84f14d2a6b1a4fde17d2713dbdfdef7b84da87 s390/nospec: Correct modules thunk offset calculation
-ba05b39d54eef78043b5c8ee90545cb06a98ae6f s390/expoline: Make modules use kernel expolines
-
---===============4389642679140988810==--
+  - ref: refs/heads/vfs.misc
+    old: 42bd2af5950456d46fdaa91c3a8fb02e680f19f5
+    new: 193feb69af4c8c8c2e2a178b9f9c2bffff10b860
+    log: |
+         e964fc77577a9afe528e54b50527cf49e24aa211 vfs, swap: compile out IS_SWAPFILE() on swapless configs
+         c6854e5a267c28300ff045480b5a7ee7f6f1d913 jffs2: prevent xattr node from overflowing the eraseblock
+         23cdd0eed3f1fff3af323092b0b88945a7950d8e libfs: Fix simple_offset_rename_exchange()
+         5a1a25be995e1014abd01600479915683e356f5c libfs: Add simple_offset_rename() API
+         ad191eb6d6942bb835a0b20b647f7c53c1d99ca4 shmem: Fix shmem_rename2()
+         193feb69af4c8c8c2e2a178b9f9c2bffff10b860 Merge patch series 'Fix shmem_rename2 directory offset calculation' of https://lore.kernel.org/r/20240415152057.4605-1-cel@kernel.org
+         
