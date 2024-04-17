@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Wed, 17 Apr 2024 08:03:08 -0000
-Message-Id: <171334098852.17170.7870982434082929725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 17 Apr 2024 08:04:26 -0000
+Message-Id: <171334106604.17730.13532017609986500341@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: cem
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/v6.7.0
-    old: 0000000000000000000000000000000000000000
-    new: 6ef549f195ed654249ce6e485177348d0af8712b
+  - ref: refs/heads/kvm-arm64/nv-eret-pauth
+    old: 6a2aae3de6e8062edf2126f872b7c587e1f562ab
+    new: 6ea96b05c675afaebe8527eb997c2e5b02c9570c
+    log: |
+         6ea96b05c675afaebe8527eb997c2e5b02c9570c fixup! KVM: arm64: nv: Drop VCPU_HYP_CONTEXT flag
+         
