@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 17 Apr 2024 11:58:50 -0000
-Message-Id: <171335513019.12438.3915311788512251061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 17 Apr 2024 12:00:07 -0000
+Message-Id: <171335520708.14644.7191933375263350361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 9ef1ed26a67b817fd08faf851468ef040db7d280
-    new: 2bd99aef1b19e6da09eff692bc0a09d61d785782
+    old: b631a5ba6de2330807d20247f56038dbeee4293b
+    new: e6786998c1b5faa669d4154436232dc490079d6b
     log: |
-         2bd99aef1b19e6da09eff692bc0a09d61d785782 tcp: accept bare FIN packets under memory pressure
+         e4a21ad768e492a0276c55abf6eb7838431362f7 linux-firmware: update firmware for MT7922 WiFi device
+         68c3c62f173d11dad31511feacdbebb08f576303 linux-firmware: update firmware for mediatek bluetooth chip (MT7922)
+         e6786998c1b5faa669d4154436232dc490079d6b Merge branch 'mt7922' into 'main'
          
