@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Wed, 17 Apr 2024 16:10:04 -0000
-Message-Id: <171337020472.4698.628357862298472480@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 17 Apr 2024 16:12:32 -0000
+Message-Id: <171337035221.5587.11536900286855677435@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 5b347a1d4e5fd81b6a1b515843b834c39fb3463d
-    new: f7a630d6a6fcad9185e629f5730098a998c32a53
+  - ref: refs/heads/x86/urgent
+    old: 69129794d94c544810e68b2b4eaa7e44063f9bf2
+    new: 6376306adde5b252ee7c73572e35d13fb13f6f18
     log: |
-         5bd8f7421dc42d74c600aeec522196b479211ece ioengines: bump up FIO_IOOPS_VERSION
-         f7a630d6a6fcad9185e629f5730098a998c32a53 Merge branch 'ioops_ver' of https://github.com/ankit-sam/fio
+         6376306adde5b252ee7c73572e35d13fb13f6f18 x86/retpolines: Enable the default thunk warning only on relevant configs
          
