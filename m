@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2059199354368559287=="
+Content-Type: multipart/mixed; boundary="===============1952282707062207585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 17 Apr 2024 21:17:11 -0000
-Message-Id: <171338863139.31914.11550730618499203393@gitolite.kernel.org>
+Date: Wed, 17 Apr 2024 21:17:15 -0000
+Message-Id: <171338863542.32007.12658356687082695146@gitolite.kernel.org>
 
---===============2059199354368559287==
+--===============1952282707062207585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
+  - ref: refs/heads/i2c/i2c-host-next
     old: 08944c074592041873f1cb3e5be5fc3fd4cdc3ad
     new: 974161980d5b7a9fc9b90ad8dcf07576bcf3b8ec
     log: revlist-08944c074592-974161980d5b.txt
 
---===============2059199354368559287==
+--===============1952282707062207585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1713388630 +0200
+pusher andi.shyti@kernel.org 1713388634 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1713388629-2eb1586aff38441b9f7d27885a6b69a3400cbe2b
+nonce 1713388633-4d78606a5a8df8a87a3552eb78e73847f1504047
 
-08944c074592041873f1cb3e5be5fc3fd4cdc3ad 974161980d5b7a9fc9b90ad8dcf07576bcf3b8ec refs/heads/i2c/i2c-host
+08944c074592041873f1cb3e5be5fc3fd4cdc3ad 974161980d5b7a9fc9b90ad8dcf07576bcf3b8ec refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZiA8VhYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uLTcA/iNnGxIE4cmgAC+CPXindgm8rt2Y
-bS3KKTeM1lbbzOz5AP44HZiUmJ+fcc7dbbp/rqlzDwp/k/KH6FDlqONrCYg5BA==
-=qoBn
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZiA8WhYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uzAIBAMiCdXyBuQque2nel8c91grNly+w
+pOX/qLK3iDxAtrfoAP49pJdqKOwh9CjbiprTngmcua/z6Mtb0g00Wh7ezwn4DA==
+=GDyP
 -----END PGP SIGNATURE-----
 
---===============2059199354368559287==
+--===============1952282707062207585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ a10b3579fc05f0f77ec5db93c0d651657dee1a1b i2c: i801: Remove usage of I2C_CLASS_SP
 99a741aa7a2d330df9c04c157895e6b2ee6629c3 i2c: mux: gpio: remove support for class-based device instantiation
 974161980d5b7a9fc9b90ad8dcf07576bcf3b8ec i2c: i801: Annotate apanel_addr as __ro_after_init
 
---===============2059199354368559287==--
+--===============1952282707062207585==--
