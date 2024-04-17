@@ -1,83 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============0419280595066466426=="
+Content-Type: multipart/mixed; boundary="===============0444693985246693040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 17 Apr 2024 14:19:32 -0000
-Message-Id: <171336357247.19074.17179810177659052171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Wed, 17 Apr 2024 14:39:32 -0000
+Message-Id: <171336477223.1230.3068645918857340402@gitolite.kernel.org>
 
---===============0419280595066466426==
+--===============0444693985246693040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/s390/linux
+user: agordeev
 changes:
-  - ref: refs/heads/master-pending
-    old: 992a445a255af450b8fda2e912033d1655d6a5b0
-    new: 09d82ebde69ee198589945d886a002840520374c
-    log: revlist-992a445a255a-09d82ebde69e.txt
-  - ref: refs/heads/pending
-    old: 604b4d32bdc11cf276f2a3580beb326c008b2a3e
-    new: 2996ced9d610c3ed3a87b16b99242852dbc84f75
-    log: revlist-604b4d32bdc1-2996ced9d610.txt
-  - ref: refs/tags/ath-pending-202404171417
-    old: 0000000000000000000000000000000000000000
-    new: 09d82ebde69ee198589945d886a002840520374c
+  - ref: refs/heads/for-next
+    old: 583a8db159683e6f7474110efd8ae8be748b6028
+    new: 4ee0d8c5858fbdee61ba6c1b91b1e5cbed3c8fdb
+    log: revlist-583a8db15968-4ee0d8c5858f.txt
 
---===============0419280595066466426==
+--===============0444693985246693040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-992a445a255a-09d82ebde69e.txt
+Content-Disposition: attachment; filename=revlist-583a8db15968-4ee0d8c5858f.txt
 
-6b928df55a671d2c9a15edc746f6b42ef544928e wifi: ath12k: no need to handle pktlog during suspend/resume
-18c113d2fd6f26fa1d930d0a3cb6770d069af012 wifi: ath12k: avoid stopping mac80211 queues in ath12k_core_restart()
-7e6b6cea6805c084a13821d27e0ac36c92d9ba46 wifi: ath12k: support suspend/resume
-e5e3ab70d959a9e7eb8a6102cd9e8d55341033ac wifi: ath12k: change supports_suspend to true for WCN7850
-ab530a2e4d4080be320533d7173a729cd6cf4d57 dt-bindings: net: wireless: ath11k: add ieee80211-freq-limit property
-26c701cf7d57e76a81db1590516229af5a3b08d3 wifi: ath11k: add support DT ieee80211-freq-limit
-c22d31c7718cc23e38d5e9133898ec771c0b7803 wifi: ath11k: use RCU when accessing struct inet6_dev::ac_list
-1d1ac9224c17346008dec6f58a6dfa53dfa531d8 wifi: ath11k: ath11k_mac_op_ipv6_changed(): use list_for_each_entry()
-a4a3a8be193cc20fd6310081282187838bd4cbe1 wifi: ath11k: Fix error handling in ath11k_wmi_p2p_noa_event()
-f274e7e782830dfd9c3c9a4dd23300fa38a14b87 wifi: ath12k: enable WIPHY_FLAG_DISABLE_WEXT
-caa68f5e96fd847cdd47eeb6d501a692e02d3ea0 wifi: ath12k: avoid redundant code in Rx cookie conversion init
-efca824ce8faf895e57f6ef8c1fa8b36a8f266f3 wifi: ath12k: Refactor the hardware cookie conversion init
-7777a238deb088ceb3c5f00dd667404ea68f0844 wifi: ath12k: displace the Tx and Rx descriptor in cookie conversion table
-42613a23ed751df7b46d0a33e860605b7f2c48cf wifi: ath12k: Refactor data path cmem init
-d967309b5198e9d6319ed1b6c15eec8e9ef5609b wifi: ath12k: enable service flag for survey dump stats
-91948131e1b68d6b4426e821e0a470d1e0911135 wifi: ath12k: don't use %pK in dmesg format strings
-87fbff7d54a8ffa388787ec2d57ea4f69f0377e7 wifi: ath12k: Fix Tx Completion Ring(WBM2SW) Setup Failure
-6dae20769f3f600a5ad5ee98b0fec0b14cf07a2f wifi: ath12k: add support to handle beacon miss for WCN7850
-2996ced9d610c3ed3a87b16b99242852dbc84f75 wifi: ath12k: fix out-of-bound access of qmi_invoke_handler()
-09d82ebde69ee198589945d886a002840520374c Merge branch 'pending' into master-pending
+22fdd8ba61187582843f090f100284d9e826adca KVM: s390: vsie: Use virt_to_phys for facility control block
+47bf81767277b5abb87f7e86e15310f0e9d4d06c s390/boot: Do not force vmemmap to start at MAX_PHYSMEM_BITS
+b2b15f079c4c19e3a73a8b0cf4f901186f12098f s390/boot: Consider DCSS segments on memory layout setup
+ecf74da64defe9e7f1862d86b4f3d4041e22dc4a s390/boot: Reduce size of identity mapping on overlap
+c8aef260c86ec86c4d6065b6cd67ce7161d1ca10 s390/boot: Swap vmalloc and Lowcore/Real Memory Copy areas
+bbe72f39022270c40dc1e991b4dadf6f32eed86a s390/mm: Move KASLR related to <asm/page.h>
+236f324b747370b97030c9582591f459353e3589 s390/mm: Create virtual memory layout structure
+3bb11234b1d17236ba479f7d0eaa9bd12f2f2493 s390/boot: Uncouple virtual and physical kernel offsets
+7de0446f0b26589fa80e384d8edaa2c279583652 s390/boot: Make identity mapping base address explicit
+5fb50fa66ab94141c0692dc5043ed30e6159a81b s390/boot: Make .amode31 section address range explicit
+88702793c5b4ef127a1f57d76920a80f70d081a7 s390/os_info: Introduce value entries
+8572f52518f69842d983b45eefa7d4efccd233de s390/os_info: Store virtual memory layout
+378e32aa81971e8f5594372c6a9d75aa3cf52c99 s390/vmcoreinfo: Store virtual memory layout
+f4cac27dc0d6ba9640c0ce1c42749cfa086cdfb2 s390/crash: Use old os_info to create PT_LOAD headers
+c98d2ecae08f02bd2dccd24e7e485e9f0211db65 s390/mm: Uncouple physical vs virtual address spaces
+54f2ecc3188f78723267826f634e0747169f8685 s390: Map kernel at fixed location when KASLR is disabled
+56b1069c40c777e9cba595a62857293628067d65 s390/boot: Rework deployment of the kernel image
+236d70f82bec6e1f3ab50a5242fc1c7f779e941e s390/boot: Do not rescue .vmlinux.relocs section
+ea84f14d2a6b1a4fde17d2713dbdfdef7b84da87 s390/nospec: Correct modules thunk offset calculation
+ba05b39d54eef78043b5c8ee90545cb06a98ae6f s390/expoline: Make modules use kernel expolines
+19434d727dfc6ab015c482ecb45e7735282357d0 Merge branch 'fixes' into for-next
+4ee0d8c5858fbdee61ba6c1b91b1e5cbed3c8fdb Merge branch 'features' into for-next
 
---===============0419280595066466426==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-604b4d32bdc1-2996ced9d610.txt
-
-6b928df55a671d2c9a15edc746f6b42ef544928e wifi: ath12k: no need to handle pktlog during suspend/resume
-18c113d2fd6f26fa1d930d0a3cb6770d069af012 wifi: ath12k: avoid stopping mac80211 queues in ath12k_core_restart()
-7e6b6cea6805c084a13821d27e0ac36c92d9ba46 wifi: ath12k: support suspend/resume
-e5e3ab70d959a9e7eb8a6102cd9e8d55341033ac wifi: ath12k: change supports_suspend to true for WCN7850
-ab530a2e4d4080be320533d7173a729cd6cf4d57 dt-bindings: net: wireless: ath11k: add ieee80211-freq-limit property
-26c701cf7d57e76a81db1590516229af5a3b08d3 wifi: ath11k: add support DT ieee80211-freq-limit
-c22d31c7718cc23e38d5e9133898ec771c0b7803 wifi: ath11k: use RCU when accessing struct inet6_dev::ac_list
-1d1ac9224c17346008dec6f58a6dfa53dfa531d8 wifi: ath11k: ath11k_mac_op_ipv6_changed(): use list_for_each_entry()
-a4a3a8be193cc20fd6310081282187838bd4cbe1 wifi: ath11k: Fix error handling in ath11k_wmi_p2p_noa_event()
-f274e7e782830dfd9c3c9a4dd23300fa38a14b87 wifi: ath12k: enable WIPHY_FLAG_DISABLE_WEXT
-caa68f5e96fd847cdd47eeb6d501a692e02d3ea0 wifi: ath12k: avoid redundant code in Rx cookie conversion init
-efca824ce8faf895e57f6ef8c1fa8b36a8f266f3 wifi: ath12k: Refactor the hardware cookie conversion init
-7777a238deb088ceb3c5f00dd667404ea68f0844 wifi: ath12k: displace the Tx and Rx descriptor in cookie conversion table
-42613a23ed751df7b46d0a33e860605b7f2c48cf wifi: ath12k: Refactor data path cmem init
-d967309b5198e9d6319ed1b6c15eec8e9ef5609b wifi: ath12k: enable service flag for survey dump stats
-91948131e1b68d6b4426e821e0a470d1e0911135 wifi: ath12k: don't use %pK in dmesg format strings
-87fbff7d54a8ffa388787ec2d57ea4f69f0377e7 wifi: ath12k: Fix Tx Completion Ring(WBM2SW) Setup Failure
-6dae20769f3f600a5ad5ee98b0fec0b14cf07a2f wifi: ath12k: add support to handle beacon miss for WCN7850
-2996ced9d610c3ed3a87b16b99242852dbc84f75 wifi: ath12k: fix out-of-bound access of qmi_invoke_handler()
-
---===============0419280595066466426==--
+--===============0444693985246693040==--
