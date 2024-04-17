@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 17 Apr 2024 07:09:41 -0000
-Message-Id: <171333778154.11636.12445114375687547447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Wed, 17 Apr 2024 07:35:13 -0000
+Message-Id: <171333931340.29864.12540543767170237072@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/master
-    old: 3f95c0d61c6c7f8029fb94e5e6601ae6fff777c3
-    new: d98b2e161f8b6b59d645631297f81427d85288ac
+  - ref: refs/heads/usb-linus
+    old: c840244aba7ad2b83ed904378b36bd6aef25511c
+    new: fb1f4584b1215e8c209f6b3a4028ed8351a0e961
     log: |
-         d98b2e161f8b6b59d645631297f81427d85288ac lsfd: add meson.build for the command
+         fb1f4584b1215e8c209f6b3a4028ed8351a0e961 USB: serial: option: add support for Fibocom FM650/FG650
          
