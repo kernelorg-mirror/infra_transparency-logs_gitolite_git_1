@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5840325182258046841=="
+Content-Type: multipart/mixed; boundary="===============3849384452725936999=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 17 Apr 2024 15:30:40 -0000
-Message-Id: <171336784051.7288.961357994288726781@gitolite.kernel.org>
+Date: Wed, 17 Apr 2024 15:31:05 -0000
+Message-Id: <171336786501.7523.550370339670308520@gitolite.kernel.org>
 
---===============5840325182258046841==
+--===============3849384452725936999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: fd86344823b521149bb31d91eba900ba3525efa6
     new: 2bd99aef1b19e6da09eff692bc0a09d61d785782
     log: revlist-fd86344823b5-2bd99aef1b19.txt
 
---===============5840325182258046841==
+--===============3849384452725936999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ af3b4b0e59decfc4db2eafbb4e0d0658529019f6 net: phy: mediatek-ge: do not disable E
 9ef1ed26a67b817fd08faf851468ef040db7d280 selftests: fix netfilter path in Makefile
 2bd99aef1b19e6da09eff692bc0a09d61d785782 tcp: accept bare FIN packets under memory pressure
 
---===============5840325182258046841==--
+--===============3849384452725936999==--
