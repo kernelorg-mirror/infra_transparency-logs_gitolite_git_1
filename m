@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 17 Apr 2024 21:41:47 -0000
-Message-Id: <171339010736.17775.6733125995402172803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 17 Apr 2024 21:43:00 -0000
+Message-Id: <171339018080.18263.1240706026099805068@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 58d4b25c883192377bf6255a46d46d0589e6f4ca
-    new: ad366e3502912aa5970fa00a4eedca09b9e5f645
+  - ref: refs/heads/master
+    old: 11a743235ddef7807167259e5fedc4871aa5e9b6
+    new: 174cc02429a7dac220de9b7c6cba1c78be9db39c
     log: |
-         bdaca79b2de4efad3e31f6993071c453324bee9c dt-bindings: kbuild: Simplify examples target patsubst
-         d1a13548610be8cec3a5761ef30250f7f98621a7 dt-bindings: kbuild: Split targets out to separate rules
-         ad366e3502912aa5970fa00a4eedca09b9e5f645 dt-bindings: kbuild: Add separate target/dependency for processed-schema.json
+         174cc02429a7dac220de9b7c6cba1c78be9db39c foo
          
