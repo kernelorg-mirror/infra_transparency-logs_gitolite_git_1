@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Wed, 17 Apr 2024 17:00:02 -0000
-Message-Id: <171337320259.5984.16231318272050873509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 17 Apr 2024 17:21:13 -0000
+Message-Id: <171337447382.22792.10592485889240866234@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: denkenz
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 30f1ac8707322ce649532bcc8738a3acbf915748
-    new: 45185bd4df1651ab4d5a3614d4d6165a444b1aee
+    old: 96fca68c4fbf77a8185eb10f7557e23352732ea2
+    new: 4b6b513221181108b8406b22b33408f688583b32
     log: |
-         45185bd4df1651ab4d5a3614d4d6165a444b1aee inet: Ignore network devices used by NBD
+         a2ac1cbc5397eb4e400efa66c3337886d9a63026 pwm: dwc: allow suspend/resume for 16 channels
+         fb7c3d8ba039df877886fd457538d8b24ca9c84b dt-bindings: pwm: mediatek,pwm-disp: Document power-domains property
+         4b6b513221181108b8406b22b33408f688583b32 Merge tag 'pwm/for-6.9-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
          
