@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6563612733226872563=="
+Content-Type: multipart/mixed; boundary="===============5647907079871429766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 17 Apr 2024 01:06:16 -0000
-Message-Id: <171331597651.9138.14181331500583033285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 17 Apr 2024 01:07:24 -0000
+Message-Id: <171331604440.10957.10532084010648487316@gitolite.kernel.org>
 
---===============6563612733226872563==
+--===============5647907079871429766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: 58300f8d6a48e58d1843199be743f819e2791ea3
-    new: 4b73a4cd62e7126dd87ad413582cc3fb1785d0b8
-    log: revlist-58300f8d6a48-4b73a4cd62e7.txt
+  - ref: refs/heads/for-next
+    old: 54297cd1c7ed992873db1d975e64d7630a634877
+    new: 889c8eda1ea460c33c76786d3fb7200c2813aa8f
+    log: revlist-54297cd1c7ed-889c8eda1ea4.txt
 
---===============6563612733226872563==
+--===============5647907079871429766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1713315974 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1713315974-ad49f6782831816cfdb9dcd8a50b490f7e72326c
-
-58300f8d6a48e58d1843199be743f819e2791ea3 4b73a4cd62e7126dd87ad413582cc3fb1785d0b8 refs/heads/asoc-6.10
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYfIIYTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0IfbB/48mvjz7iX2/6qKgbmtXRxQqyqp7u3t
-1wl6RgXXfDROgl+gY+e6jLS2CXYLiNLXusoJkhqhQ6lBZgn4Rm/h5EHeTxTT4vtk
-+EcyVWldfIXy7Ljz5+5CqFCMP5u3A0ZgeNk3aNhIXF8ndM5JyoB+aw2XiI89C1rW
-OszAGQf3kg6rhv4edREWpP/eTDcJL4U7wTgaUO9AXYse1DnbdWosoFf3QyikUuKd
-f9C8CM9hL8FbNoLf9HGOm5SW62/Vp73XID7ds9LA4fDGeNzo/Ycjjay+joyVPkiM
-M4398dHbHS3U+E2pkWrxpYXyyshmQAwPJSkWxajcKe6IO5US3aVJx121
-=WKjy
------END PGP SIGNATURE-----
-
---===============6563612733226872563==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58300f8d6a48-4b73a4cd62e7.txt
+Content-Disposition: attachment; filename=revlist-54297cd1c7ed-889c8eda1ea4.txt
 
 bce93a162505f0bc0499888ace2f66bd56fb94b3 ASoC: mediatek: Add common machine soundcard driver probe mechanism
 f8782f776db33066a9b1cd14d319142c4175561f ASoC: mediatek: common: Constify struct mtk_sof_priv
@@ -68,5 +43,6 @@ dc7a31300a8f28af282974512c2d403ada0658b5 ASoC: dt-bindings: mt8195: Document aud
 5a50483c47b8cf3066eb151fa21e195f3dfab5a8 ASoC: dt-bindings: mt8192: Document audio-routing and dai-link subnode
 787f190cd1cd3123555e33a3400f3e919ec94a81 ASoC: dt-bindings: mt8186: Document audio-routing and dai-link subnode
 4b73a4cd62e7126dd87ad413582cc3fb1785d0b8 ASoC: Cleanup MediaTek soundcard machine drivers
+889c8eda1ea460c33c76786d3fb7200c2813aa8f Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
 
---===============6563612733226872563==--
+--===============5647907079871429766==--
