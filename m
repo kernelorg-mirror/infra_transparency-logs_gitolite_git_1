@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4825795898205961938=="
+Content-Type: multipart/mixed; boundary="===============0635667057910264393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 17 Apr 2024 02:45:21 -0000
-Message-Id: <171332192181.17637.3506868688188097032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 17 Apr 2024 02:45:27 -0000
+Message-Id: <171332192796.17766.11620132857747742825@gitolite.kernel.org>
 
---===============4825795898205961938==
+--===============0635667057910264393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/spi-6.10
     old: 351007b069287d3f0399e9e83981b33a2050eb54
     new: 1f05252a3a95bb898413126d3cd480fed4edab0e
     log: revlist-351007b06928-1f05252a3a95.txt
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/spi-6.9
     old: 0064db9ce4aa7cc794e6f4aed60dee0f94fc9bcf
     new: 7430764f5a85d30314aeef2d5438dff1fb0b1d68
     log: |
          7430764f5a85d30314aeef2d5438dff1fb0b1d68 spi: hisi-kunpeng: Delete the dump interface of data registers in debugfs
          
 
---===============4825795898205961938==
+--===============0635667057910264393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1713321920 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1713321919-cbd72be85a64518b42d5c01849b0623f3a142129
+pusher Mark Brown <broonie@kernel.org> 1713321926 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1713321925-c91bb319edad51b09ee8a3dd6fc6de02ccef6316
 
-351007b069287d3f0399e9e83981b33a2050eb54 1f05252a3a95bb898413126d3cd480fed4edab0e refs/heads/for-6.10
-0064db9ce4aa7cc794e6f4aed60dee0f94fc9bcf 7430764f5a85d30314aeef2d5438dff1fb0b1d68 refs/heads/for-6.9
+351007b069287d3f0399e9e83981b33a2050eb54 1f05252a3a95bb898413126d3cd480fed4edab0e refs/heads/spi-6.10
+0064db9ce4aa7cc794e6f4aed60dee0f94fc9bcf 7430764f5a85d30314aeef2d5438dff1fb0b1d68 refs/heads/spi-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYfN8ATHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0AvYB/9iZDPelnKs3XdOV6J44Pl1lu00Tz1E
-K4Xm4owSNuIxU2ERlIXffhqsGVgkZt0s5elycljop0yiS+3bDRKPduZuqxRBJQZe
-ugeSeCVUbHCkwIhDdnzkoZgdr8CnoH/HPYCW1OFo8izg5UN+Vd9nQMDRzqTKzcLn
-164ao9RUiJP7LKAHFVVFOrorLdukCWRHj7kftbDoW56e7FCLVmWvrLhFr7uoXNNz
-OcQECgrrmf2RMU+F1fGZrWIYLDiUNQkXsv8oUSmfDD/qxsHjnEqdKxgIf4NjLY1r
-V+A9kfNTon+hhdqAiyHaPY6CKo8XH95vnn+95rW7gOU1GfQTBXHXIra/
-=VxM1
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYfN8YTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0Md3B/9bmEwEG4NVY3JtcuabuJhCcCXb3lyi
+Th3lZSASeGpKAfVtxrijvSS0GSTPdziLYjhn8zDwhM+8ED+VLoKywJ96zGIe7bHE
+4lOAHuu6gBv5Bua9n0UW0mhGQmy/8jxV1Wk1l8tAsMUR98xA/99D8k39O7UIGgl7
+9R2x9P4neTe6V2QdYVvFiTkAazesEViIs9kRi9uK6DslHTtaK9VeX4BpTWMyhuLX
+Ic81ra0poVC672skukRtWmj7Go7Wa444j/b/z09zP9agWDUBzgeXkF419Aw0rGAT
+8VOow7atxTqOzdrMIIhrvh1tu9nNHIRugZWH+SLkPBMa7GvAbSSDWLIJ
+=284N
 -----END PGP SIGNATURE-----
 
---===============4825795898205961938==
+--===============0635667057910264393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -890,4 +890,4 @@ ed8921188f3568ba1659ff041f21e83565c74ec2 spi: Update swnode based SPI devices to
 439fbc97502ae16f3e54e05d266d103674cc4f06 spi: cs42l43: Add bridged cs35l56 amplifiers
 1f05252a3a95bb898413126d3cd480fed4edab0e Add bridged amplifiers to cs42l43
 
---===============4825795898205961938==--
+--===============0635667057910264393==--
