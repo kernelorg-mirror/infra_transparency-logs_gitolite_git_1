@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Wed, 17 Apr 2024 08:32:34 -0000
-Message-Id: <171334275460.6252.15165654102567541967@gitolite.kernel.org>
+Date: Wed, 17 Apr 2024 08:34:15 -0000
+Message-Id: <171334285570.6903.11869363434386829391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,12 @@ repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
 user: agruen
 changes:
   - ref: refs/heads/for-next
-    old: de5bd4a044178051cbefbdee6246ca574f049ce0
-    new: 8133a22496f4d65341663fd489f3edbce06eb0f7
+    old: 8133a22496f4d65341663fd489f3edbce06eb0f7
+    new: 29efef6907aab1bdf7d4d17881ce1ffdf9825a93
     log: |
-         fa98f24f2d5bc05472c895a263c3be54ad065748 gfs2: Fix potential glock use-after-free on unmount
-         3560ae7b6dccaf89f10cad8e03b9f6e796606cb6 gfs2: Unlock fewer glocks on unmount
-         5642ddef212cc7dba76e89e631c041c35c13e3ac gfs2: finish_xmote cleanup
-         b7d2e4150b68e5d7bf7ed30c47074b90f592339a gfs2: do_xmote fixes
-         8133a22496f4d65341663fd489f3edbce06eb0f7 gfs2: Remove and replace gfs2_glock_queue_work
+         990b6762f412588d034e516ebcc33adcd076a63d gfs2: Fix potential glock use-after-free on unmount
+         d0a176afacf3f195a8c5b450dcff2b52b2fde08a gfs2: Unlock fewer glocks on unmount
+         9d24cd43a7f0ac79e77ef73db0302229614b3b9c gfs2: finish_xmote cleanup
+         2d6e1a68c621275647048c3fac56ce4555887242 gfs2: do_xmote fixes
+         29efef6907aab1bdf7d4d17881ce1ffdf9825a93 gfs2: Remove and replace gfs2_glock_queue_work
          
