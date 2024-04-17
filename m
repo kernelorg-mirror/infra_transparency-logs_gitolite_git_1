@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4195710730625012548=="
+Content-Type: multipart/mixed; boundary="===============0250278828639311688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Wed, 17 Apr 2024 04:56:54 -0000
-Message-Id: <171332981425.14325.1978539780918390700@gitolite.kernel.org>
+Date: Wed, 17 Apr 2024 04:57:18 -0000
+Message-Id: <171332983865.14523.5729610443793551045@gitolite.kernel.org>
 
---===============4195710730625012548==
+--===============0250278828639311688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/for-linux-next
+  - ref: refs/heads/exynos-drm-next
     old: 6633c7d2fd314145ad9e6ba553775c6a03827b44
-    new: 5d2c7cc9c1b34082978b70f1e30f6d8fcbc6ac74
-    log: revlist-6633c7d2fd31-5d2c7cc9c1b3.txt
+    new: 5eaa8cf8e8096e7b8ca1a7d1ca7071b7498fd885
+    log: revlist-6633c7d2fd31-5eaa8cf8e809.txt
 
---===============4195710730625012548==
+--===============0250278828639311688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6633c7d2fd31-5d2c7cc9c1b3.txt
+Content-Disposition: attachment; filename=revlist-6633c7d2fd31-5eaa8cf8e809.txt
 
 d180649238f04183950d9c8a7d8a2c2f1788a89c ABI: sysfs-driver-panfrost-profiling: fix indentation problem
 0716e348d13fea9f5798e9cf8b5c08f6d593cff9 drm/vmwgfx: Remove unused code
@@ -77,16 +77,16 @@ a210aaf7e83390a822dc2a36986cc74ca476f0f1 drm/omap: dmm_tiler: drop driver owner 
 fb24c1396fe107e66dfa4948881760586bc8d93c drm: tilcdc: don't use devm_pinctrl_get_select_default() in probe
 29b39672bc1d651010f7b61e106d51998f068aaf drm/bridge: imx8mp-hdmi-pvi: Convert to platform remove callback returning void
 6e1f415e7129f7cd4c2394af83b35cdcdd40baf7 Merge tag 'drm-misc-next-2024-04-10' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
-852d0dd1d94f8dd4c465072a62e06607835ea9e6 drm/exynos: fimc: drop driver owner initialization
-d358fb617a2a8fe977f5abc4cc89477e3471e64a drm/exynos: fimd: drop driver owner initialization
-f69147eaf3f3121afa6d22344e5f06ea875d5c52 drm/exynos: dsi: drop driver owner initialization
-93d101ce99c80610d5f0acc32d705448615952db drm/exynos: g2d: drop driver owner initialization
-5eaea0a077c57e44e837c19765ea63ec3abbb877 drm/exynos: gsc: drop driver owner initialization
-a9669c24a91f69a180d54b467c198570e9b2d96a drm/exynos: mic: drop driver owner initialization
-ccc4d3a0e5d3336f43733c6717fbe88ec4633f6e drm/exynos: rotator: drop driver owner initialization
-44810663d9e3b3239a83702658d3884de3f89bc9 drm/exynos: scaler: drop driver owner initialization
-a2e93b758a99829269716e4d799a2a927bdf54ee drm/exynos: vidi: drop driver owner initialization
-ce7019f244b870fc73ce7d983b6812a15fb6da9d drm/exynos: hdmi: drop driver owner initialization
-5d2c7cc9c1b34082978b70f1e30f6d8fcbc6ac74 drm/exynos: mixer: drop driver owner initialization
+a128f36ce0add3aa94a51a5b391824f697b7f556 drm/exynos: fimc: drop driver owner initialization
+26c246df39f9e2f1bc1a410fe57f8f0dbb4615f9 drm/exynos: fimd: drop driver owner initialization
+ead96c4c232de9bc023069257ea5f499c7a34063 drm/exynos: dsi: drop driver owner initialization
+6c6e6ddde05032f6b877d4a59d5c81d81f1bcab4 drm/exynos: g2d: drop driver owner initialization
+39e07d5c9f39f41a307c5ade19b6666569925461 drm/exynos: gsc: drop driver owner initialization
+a2174a501f7e32a8fd3983bbbc9ed55971571c49 drm/exynos: mic: drop driver owner initialization
+bd673cb3b3525a30a2ae054e3a72a369c5537ece drm/exynos: rotator: drop driver owner initialization
+d36f2d410e8a507c97d915fad6b1f6c8a6cf6434 drm/exynos: scaler: drop driver owner initialization
+0a37ebbc6430bcbc16564e2b40f197dd702fd1a4 drm/exynos: vidi: drop driver owner initialization
+e6a248c04447d1177cfc4dbba43c49e7f76d3d95 drm/exynos: hdmi: drop driver owner initialization
+5eaa8cf8e8096e7b8ca1a7d1ca7071b7498fd885 drm/exynos: mixer: drop driver owner initialization
 
---===============4195710730625012548==--
+--===============0250278828639311688==--
