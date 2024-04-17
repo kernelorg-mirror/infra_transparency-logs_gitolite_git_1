@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3364011853037163318=="
+Content-Type: multipart/mixed; boundary="===============2264066112711585124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 17 Apr 2024 19:22:25 -0000
-Message-Id: <171338174577.11949.2594116338152303350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 17 Apr 2024 19:22:34 -0000
+Message-Id: <171338175400.12065.8835405452549427473@gitolite.kernel.org>
 
---===============3364011853037163318==
+--===============2264066112711585124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 643ecfbc0c9a6804002ed264d672cf513fcaeae4
     log: revlist-a5a00497b9df-643ecfbc0c9a.txt
 
---===============3364011853037163318==
+--===============2264066112711585124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ b3351bb78fbf6ed6ecb9a71402f66e4b3c6a8005 perf vendor events arm64: AmpereOne/Amp
 3501282e00585c99451b22babc88f78c0efa864f perf test shell arm_coresight: Increase buffer size for Coresight basic tests
 643ecfbc0c9a6804002ed264d672cf513fcaeae4 perf stat: Add new field in stat_config to enable hardware aware grouping
 
---===============3364011853037163318==--
+--===============2264066112711585124==--
