@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/cs-sw
-Date: Wed, 17 Apr 2024 19:47:16 -0000
-Message-Id: <171338323682.30291.81066691681339701@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Wed, 17 Apr 2024 20:03:12 -0000
+Message-Id: <171338419273.8398.215712811207429863@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/cs-sw
-user: maz
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/master
-    old: a234634e22658a7d6c24e78990bff4f644c03e96
-    new: 7baed05fabdbb38bb7d0380f75ed5a6eb5d7c634
+  - ref: refs/heads/bootconfig/fixes
+    old: 89f9a1e876b5a7ad884918c03a46831af202c8a0
+    new: 298b871cd55a607037ac8af0011b9fdeb54c1e65
     log: |
-         7baed05fabdbb38bb7d0380f75ed5a6eb5d7c634 Add reset watchdog
+         298b871cd55a607037ac8af0011b9fdeb54c1e65 bootconfig: Fix the kerneldoc of _xbc_exit()
          
