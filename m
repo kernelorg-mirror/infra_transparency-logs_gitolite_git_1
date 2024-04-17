@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 17 Apr 2024 07:50:04 -0000
-Message-Id: <171334020416.8710.9047954960525277725@gitolite.kernel.org>
+Date: Wed, 17 Apr 2024 07:52:03 -0000
+Message-Id: <171334032390.9483.508577014418874038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,17 @@ service: git-receive-pack
 repo: pub/scm/utils/util-linux/util-linux
 user: kzak
 changes:
-  - ref: refs/heads/stable/v2.40
-    old: eaa8798a4871c7e6564e5da1c2dd6d66bbc6a7cb
-    new: a7ca6687322f36b853dad5b0ecb3f5a4d74ad039
+  - ref: refs/heads/master
+    old: d98b2e161f8b6b59d645631297f81427d85288ac
+    new: 0dca768e5788b527fc8b0e0cdabcab7c499a9bd6
     log: |
-         550a95797622c6a459aeac7ff89f50df573ae726 meson: Remove lingering mq_libs variable
-         18d9780f0e846912379c37b7840ba303299ff3c9 lslocks: don't abort gathering per-process information even if opening a /proc/[0-9]* fails
-         44ac01bf91c4180db088643d59608ccfc17c8e3f lslocks: remove a unused local variable
-         a7ca6687322f36b853dad5b0ecb3f5a4d74ad039 Merge branch 'lslocks--no-sleep-in-test-case-for-stable' of https://github.com/masatake/util-linux into stable/v2.40
+         62f64717ec134b10c5a670403c2d8c43b608e671 libsmartcols: reset wrap after calculation
+         515ae202051ab506c890118fd41df83555cd140f libsmartcols: (sample) add wrap repeating example
+         0dca768e5788b527fc8b0e0cdabcab7c499a9bd6 Merge branch 'PR/libsmartcols-fix-wrap' of github.com:karelzak/util-linux-work
+         
+  - ref: refs/heads/stable/v2.40
+    old: a7ca6687322f36b853dad5b0ecb3f5a4d74ad039
+    new: 58bc2bb7c9d6d00767186eb44ea597a80d02f92d
+    log: |
+         58bc2bb7c9d6d00767186eb44ea597a80d02f92d libsmartcols: reset wrap after calculation
          
