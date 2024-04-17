@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4976221229459078472=="
+Content-Type: multipart/mixed; boundary="===============8387234845519596675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Wed, 17 Apr 2024 14:43:02 -0000
-Message-Id: <171336498200.4304.14492598017455522276@gitolite.kernel.org>
+Date: Wed, 17 Apr 2024 14:43:21 -0000
+Message-Id: <171336500197.4510.1927380851683131759@gitolite.kernel.org>
 
---===============4976221229459078472==
+--===============8387234845519596675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: a07c772fa658645887119184de48b255bf19a46e
     new: 1f1d13414caa1242ce62c96290c11fc966292e95
     log: revlist-a07c772fa658-1f1d13414caa.txt
 
---===============4976221229459078472==
+--===============8387234845519596675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -423,4 +423,4 @@ c748fc3b1f5605c12c8061ffb0c27707597b27b2 Merge tag 'timers-urgent-2024-04-14' of
 ffc3e380b629a78439e47f7f221d02e1a1982a53 LoongArch: Fix a build error due to __tlb_remove_tlb_entry()
 1f1d13414caa1242ce62c96290c11fc966292e95 LoongArch: Fix access error when read fault on a write-only VMA
 
---===============4976221229459078472==--
+--===============8387234845519596675==--
