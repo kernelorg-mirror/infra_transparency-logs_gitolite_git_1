@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Wed, 17 Apr 2024 20:27:01 -0000
-Message-Id: <171338562106.25874.1722758042367180167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 17 Apr 2024 20:33:52 -0000
+Message-Id: <171338603226.29946.14378995085592963427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: denkenz
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 45185bd4df1651ab4d5a3614d4d6165a444b1aee
-    new: eadbe6ccac73168a709016c605a266e9c538aa76
+  - ref: refs/heads/dev-queue
+    old: 00b24bcbc86ee31e3082f19b097ed787952d5d18
+    new: a518f767b438465799c68ba417d1da46037cabfd
     log: |
-         eadbe6ccac73168a709016c605a266e9c538aa76 dnsproxy: fix signedness warnings
+         a518f767b438465799c68ba417d1da46037cabfd e1000e: move force SMBUS near the end of enable_ulp function
          
