@@ -1,53 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============8982481961479449107=="
+Content-Type: multipart/mixed; boundary="===============1882425182552603634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 17 Apr 2024 11:16:52 -0000
-Message-Id: <171335261231.13672.530826641267683261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 17 Apr 2024 11:17:03 -0000
+Message-Id: <171335262327.13791.18280330432183404678@gitolite.kernel.org>
 
---===============8982481961479449107==
+--===============1882425182552603634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 367dc2b68007e8ca00a0d8dc9afb69bff5451ae7
-    new: be6fd142795fc8a1bf16f50e8cfb7524ee6faa96
-    log: revlist-367dc2b68007-be6fd142795f.txt
+  - ref: refs/heads/tty-testing
+    old: abcd8632f26bbc24c4364b9cdf4feb8c9828c0c6
+    new: b86ae40ffcf5a16b9569b1016da4a08c4f352ca2
+    log: |
+         e533e4c62e9993e62e947ae9bbec34e4c7ae81c2 serial: imx: Introduce timeout when waiting on transmitter empty
+         5cb90c636d950c23ee63eea31fd03edbae99921f tty: serial: fsl_lpuart: use dev_err_probe for clocks
+         6a533ed7350af50322a7e478a6557f1368222ea3 serial: 8250_dw: Deduplicate LCR checks
+         c205edcd86dac01c205e4eadf6d0d95965e7a566 serial: 8250_dw: Hide a cast in dw8250_serial_inq()
+         2a49b45cd0e7e8c9a0cd5e2f3993b558469ed744 PNP: Add dev_is_pnp() macro
+         18ba7f2d99f698251294fe9521da3f00d03f96aa serial: port: Add support of PNP IRQ to __uart_read_properties()
+         64c79dfbc45863821e172a606f453b39c8a8be6b serial: 8250_pnp: Support configurable reg shift property
+         b86ae40ffcf5a16b9569b1016da4a08c4f352ca2 serial: exar: adding missing CTI and Exar PCI ids
+         
 
---===============8982481961479449107==
+--===============1882425182552603634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-367dc2b68007-be6fd142795f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-6a04173cebffae28a1851dfede1ec309d31e0111 Merge branch into tip/master: 'x86/merge'
-7968dd1c1359f3cec20f9957eda4594a952d4b52 Merge branch into tip/master: 'sched/urgent'
-f3d70915846f6b9fc1073964e732f9c1cce0826d Merge branch into tip/master: 'x86/urgent'
-b9b2f12837983023600d68ef671f5579b8698e50 Merge branch into tip/master: 'irq/core'
-9b32c0c2a1c57c1d8b9e339253f015d53280706c Merge branch into tip/master: 'locking/core'
-7bc3407750c573ce764e265cb85c412b41a801a1 Merge branch into tip/master: 'perf/core'
-d3e0694c2d09af68fa9c4ee4ce439177c4e68b96 Merge branch into tip/master: 'ras/core'
-fcd2fed3ae05c2e4b857907e84c65b5db3c6a1f3 Merge branch into tip/master: 'sched/core'
-f9e85bd451353ad9b04e5d387d8d0f731adcc06a Merge branch into tip/master: 'timers/core'
-c8454b928bad7fd073ff0ffaecab2fc8ed82bc30 Merge branch into tip/master: 'x86/alternatives'
-ff5816974d656ff477c34672ef614ecdc04313d8 Merge branch into tip/master: 'x86/apic'
-f9f18da944fec98c51b83fe2e8def08befe999f6 Merge branch into tip/master: 'x86/asm'
-0f7258212b9d036e7910a4d072b058b27ac1cd62 Merge branch into tip/master: 'x86/boot'
-939baf02d03ff5f90fe891d1e82331d2606293b4 Merge branch into tip/master: 'x86/bugs'
-35b22d73b8735fa5a8d53ccedcb6298ffbdc898b Merge branch into tip/master: 'x86/build'
-f07ef2d7b6d634cd5c661287092974015a54276f Merge branch into tip/master: 'x86/entry'
-87086a5909d1ea15ec3e84e2ac8a91f9eb9c5cdd Merge branch into tip/master: 'x86/fpu'
-b860fcaaddc6ef1efa179d14985edb21efe598db Merge branch into tip/master: 'x86/microcode'
-d62ec7eb3a2e6dd9fa24045bc7d28049a1cded8f Merge branch into tip/master: 'x86/misc'
-a43107554e331c7a7ef1c8ce0de81c4801cf81c7 Merge branch into tip/master: 'x86/mm'
-953cc132c8d976ca090b3fab49a30f373f1b4c01 Merge branch into tip/master: 'x86/percpu'
-682153197ab34801bb238b8077e0619a91b9d33a Merge branch into tip/master: 'x86/platform'
-be6fd142795fc8a1bf16f50e8cfb7524ee6faa96 Merge branch into tip/master: 'x86/shstk'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713352621 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1713352621-29e7e4a091fa1fba287f2b86505ecd1a449a7ae3
 
---===============8982481961479449107==--
+abcd8632f26bbc24c4364b9cdf4feb8c9828c0c6 b86ae40ffcf5a16b9569b1016da4a08c4f352ca2 refs/heads/tty-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYfr60bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oM0P/23+0c0nT9UkLMe9w6WA
+DZDEiEzuP5lI0qat7nMqEIHVDCk+iWwC5RPmWTwIXCpN/CQ18qP/A7jAiMkkUs3o
+f+gk5vRmHCKkNaMEsYd3idXccIcDOtiJSeu9sNWyAoPlCkpqOyStxfBqt4M5NS7o
+MWmIcUU243an4usXEGiUOYib6Pa3MTif11dC/hv4ncP06lArU0QZ25Pc1Q5GT8WZ
+uWiOOf4B/PttQCWylVG2p2FHmYtAfXAfD90QGNa0Yzjx83RdvK/w4g1jsMAXZo/Q
+bckVj2CNvkAbG6d7UHGH1INZ6kH6AcKaeTXpeL4bq6lDYMdkuteaNWa72E656O50
+8CeRpxKWhKLKDUS3MO8nCnPGoH1189ZhOhbuTWq6wtkaEc+UARQrXNfuH8yB2NRe
+B1nFFvwXuxUqCcNPSHtTH8OPcE/XVAdWweQsoxa5HOMEFznR6QSM1/0tp727mbUa
+8tcss7BK0W4hR1QwAy8LtQlwU2YLHJm52C5PjRoOh5eyYldsdPTu02IP5B0jgXpR
+oV2qIz2ZiOXquUS9Unbt/oKDnHuJljczHjXd5PnHshZX2gj/kXq7fQw+NvMhXIxQ
+oE5JJgpMEOqF8T6+06AVjKGykIhawRhsnVK+A0iuqN1OCcaaqfULZELV/16H21Jo
+QkUkIXq3awR+XwXXeeZhtlT9
+=U9nV
+-----END PGP SIGNATURE-----
+
+--===============1882425182552603634==--
