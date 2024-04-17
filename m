@@ -1,46 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============4583997447578438782=="
+Content-Type: multipart/mixed; boundary="===============0419280595066466426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Wed, 17 Apr 2024 14:18:47 -0000
-Message-Id: <171336352737.18720.3433587088949709092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Wed, 17 Apr 2024 14:19:32 -0000
+Message-Id: <171336357247.19074.17179810177659052171@gitolite.kernel.org>
 
---===============4583997447578438782==
+--===============0419280595066466426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/cifs-netfs
-    old: d2127cd129236730a1f218bb1fdf37e9851b7b62
-    new: 8dc73cdbbce16b41d4de537600385262aa8b7613
-    log: revlist-d2127cd12923-8dc73cdbbce1.txt
+  - ref: refs/heads/master-pending
+    old: 992a445a255af450b8fda2e912033d1655d6a5b0
+    new: 09d82ebde69ee198589945d886a002840520374c
+    log: revlist-992a445a255a-09d82ebde69e.txt
+  - ref: refs/heads/pending
+    old: 604b4d32bdc11cf276f2a3580beb326c008b2a3e
+    new: 2996ced9d610c3ed3a87b16b99242852dbc84f75
+    log: revlist-604b4d32bdc1-2996ced9d610.txt
+  - ref: refs/tags/ath-pending-202404171417
+    old: 0000000000000000000000000000000000000000
+    new: 09d82ebde69ee198589945d886a002840520374c
 
---===============4583997447578438782==
+--===============0419280595066466426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2127cd12923-8dc73cdbbce1.txt
+Content-Disposition: attachment; filename=revlist-992a445a255a-09d82ebde69e.txt
 
-346bcee162464b33b1f6dd91dc245b3c658ab384 cifs: Use alternative invalidation to using launder_folio
-cfc102348bb7248bca274cec73280d2ad5164ced cifs: Replace cifs_readdata with a wrapper around netfs_io_subrequest
-d59e9c7916383b7eca07911956462ddb19e97663 cifs: Replace cifs_writedata with a wrapper around netfs_io_subrequest
-b890dbd7105f0ae0c6d5e2e93fad7fcb920daacb cifs: Use more fields from netfs_io_subrequest
-c15def6fc17e94ed7a63cefaf47dc4ebc08a32ba cifs: Make wait_mtu_credits take size_t args
-9dd69652ec9f7070df701b8105c9d30e36c57a1d cifs: Replace the writedata replay bool with a netfs sreq flag
-d66822577f60774fd879b0c59eef7ca91e4235cf cifs: Move cifs_loose_read_iter() and cifs_file_write_iter() to file.c
-48a6031ac43945afb906839645ab30a254433586 cifs: Set zero_point in the copy_file_range() and remap_file_range()
-8127336c218dd3b0449a7f3bd55f1d4f5f909df1 cifs: Add mempools for cifs_io_request and cifs_io_subrequest structs
-ae4e1ad6e239d768965f01d130bcadde2ddb36f5 cifs: Make add_credits_and_wake_if() clear deducted credits
-1b0411f0d7cf313e322e5f81ac2fc8af997d2de7 cifs: Implement netfslib hooks
-0e533e79c0edb96baca09a3e6d4299a5b6136396 cifs: Cut over to using netfslib
-e7c9f4bf00a6ea01e63647f582bd298f40a24088 cifs: Remove some code that's no longer used, part 1
-a4dcd34441db9900432f4f682eac3238a4ab3bfb cifs: Remove some code that's no longer used, part 2
-f51e401c78211747544f496c6e9072c04d84fd96 cifs: Remove some code that's no longer used, part 3
-8dc73cdbbce16b41d4de537600385262aa8b7613 cifs: Enable large folio support
+6b928df55a671d2c9a15edc746f6b42ef544928e wifi: ath12k: no need to handle pktlog during suspend/resume
+18c113d2fd6f26fa1d930d0a3cb6770d069af012 wifi: ath12k: avoid stopping mac80211 queues in ath12k_core_restart()
+7e6b6cea6805c084a13821d27e0ac36c92d9ba46 wifi: ath12k: support suspend/resume
+e5e3ab70d959a9e7eb8a6102cd9e8d55341033ac wifi: ath12k: change supports_suspend to true for WCN7850
+ab530a2e4d4080be320533d7173a729cd6cf4d57 dt-bindings: net: wireless: ath11k: add ieee80211-freq-limit property
+26c701cf7d57e76a81db1590516229af5a3b08d3 wifi: ath11k: add support DT ieee80211-freq-limit
+c22d31c7718cc23e38d5e9133898ec771c0b7803 wifi: ath11k: use RCU when accessing struct inet6_dev::ac_list
+1d1ac9224c17346008dec6f58a6dfa53dfa531d8 wifi: ath11k: ath11k_mac_op_ipv6_changed(): use list_for_each_entry()
+a4a3a8be193cc20fd6310081282187838bd4cbe1 wifi: ath11k: Fix error handling in ath11k_wmi_p2p_noa_event()
+f274e7e782830dfd9c3c9a4dd23300fa38a14b87 wifi: ath12k: enable WIPHY_FLAG_DISABLE_WEXT
+caa68f5e96fd847cdd47eeb6d501a692e02d3ea0 wifi: ath12k: avoid redundant code in Rx cookie conversion init
+efca824ce8faf895e57f6ef8c1fa8b36a8f266f3 wifi: ath12k: Refactor the hardware cookie conversion init
+7777a238deb088ceb3c5f00dd667404ea68f0844 wifi: ath12k: displace the Tx and Rx descriptor in cookie conversion table
+42613a23ed751df7b46d0a33e860605b7f2c48cf wifi: ath12k: Refactor data path cmem init
+d967309b5198e9d6319ed1b6c15eec8e9ef5609b wifi: ath12k: enable service flag for survey dump stats
+91948131e1b68d6b4426e821e0a470d1e0911135 wifi: ath12k: don't use %pK in dmesg format strings
+87fbff7d54a8ffa388787ec2d57ea4f69f0377e7 wifi: ath12k: Fix Tx Completion Ring(WBM2SW) Setup Failure
+6dae20769f3f600a5ad5ee98b0fec0b14cf07a2f wifi: ath12k: add support to handle beacon miss for WCN7850
+2996ced9d610c3ed3a87b16b99242852dbc84f75 wifi: ath12k: fix out-of-bound access of qmi_invoke_handler()
+09d82ebde69ee198589945d886a002840520374c Merge branch 'pending' into master-pending
 
---===============4583997447578438782==--
+--===============0419280595066466426==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-604b4d32bdc1-2996ced9d610.txt
+
+6b928df55a671d2c9a15edc746f6b42ef544928e wifi: ath12k: no need to handle pktlog during suspend/resume
+18c113d2fd6f26fa1d930d0a3cb6770d069af012 wifi: ath12k: avoid stopping mac80211 queues in ath12k_core_restart()
+7e6b6cea6805c084a13821d27e0ac36c92d9ba46 wifi: ath12k: support suspend/resume
+e5e3ab70d959a9e7eb8a6102cd9e8d55341033ac wifi: ath12k: change supports_suspend to true for WCN7850
+ab530a2e4d4080be320533d7173a729cd6cf4d57 dt-bindings: net: wireless: ath11k: add ieee80211-freq-limit property
+26c701cf7d57e76a81db1590516229af5a3b08d3 wifi: ath11k: add support DT ieee80211-freq-limit
+c22d31c7718cc23e38d5e9133898ec771c0b7803 wifi: ath11k: use RCU when accessing struct inet6_dev::ac_list
+1d1ac9224c17346008dec6f58a6dfa53dfa531d8 wifi: ath11k: ath11k_mac_op_ipv6_changed(): use list_for_each_entry()
+a4a3a8be193cc20fd6310081282187838bd4cbe1 wifi: ath11k: Fix error handling in ath11k_wmi_p2p_noa_event()
+f274e7e782830dfd9c3c9a4dd23300fa38a14b87 wifi: ath12k: enable WIPHY_FLAG_DISABLE_WEXT
+caa68f5e96fd847cdd47eeb6d501a692e02d3ea0 wifi: ath12k: avoid redundant code in Rx cookie conversion init
+efca824ce8faf895e57f6ef8c1fa8b36a8f266f3 wifi: ath12k: Refactor the hardware cookie conversion init
+7777a238deb088ceb3c5f00dd667404ea68f0844 wifi: ath12k: displace the Tx and Rx descriptor in cookie conversion table
+42613a23ed751df7b46d0a33e860605b7f2c48cf wifi: ath12k: Refactor data path cmem init
+d967309b5198e9d6319ed1b6c15eec8e9ef5609b wifi: ath12k: enable service flag for survey dump stats
+91948131e1b68d6b4426e821e0a470d1e0911135 wifi: ath12k: don't use %pK in dmesg format strings
+87fbff7d54a8ffa388787ec2d57ea4f69f0377e7 wifi: ath12k: Fix Tx Completion Ring(WBM2SW) Setup Failure
+6dae20769f3f600a5ad5ee98b0fec0b14cf07a2f wifi: ath12k: add support to handle beacon miss for WCN7850
+2996ced9d610c3ed3a87b16b99242852dbc84f75 wifi: ath12k: fix out-of-bound access of qmi_invoke_handler()
+
+--===============0419280595066466426==--
