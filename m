@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Wed, 17 Apr 2024 20:03:12 -0000
-Message-Id: <171338419273.8398.215712811207429863@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 17 Apr 2024 20:24:23 -0000
+Message-Id: <171338546312.23355.5075954022205742550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/bootconfig/fixes
-    old: 89f9a1e876b5a7ad884918c03a46831af202c8a0
-    new: 298b871cd55a607037ac8af0011b9fdeb54c1e65
+  - ref: refs/heads/master
+    old: b411b98bf4f51c18c77626f786a4f2b8cdc28982
+    new: 89cb88b0f030cd1b4dc96cfd1760332122957ec3
     log: |
-         298b871cd55a607037ac8af0011b9fdeb54c1e65 bootconfig: Fix the kerneldoc of _xbc_exit()
+         89cb88b0f030cd1b4dc96cfd1760332122957ec3 monitor: fix spelling typo
          
