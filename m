@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1514869264569747134=="
+Content-Type: multipart/mixed; boundary="===============3910809267091834573=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 17 Apr 2024 05:36:59 -0000
-Message-Id: <171333221937.11112.6705274417750891781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 17 Apr 2024 05:37:12 -0000
+Message-Id: <171333223230.11514.7201687495747838135@gitolite.kernel.org>
 
---===============1514869264569747134==
+--===============3910809267091834573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 66e4190e92ce0e4a50b2f6be0e5f5b2e47e072f4
     new: 4eab358930711bbeb85bf5ee267d0d42d3394c2c
     log: revlist-66e4190e92ce-4eab35893071.txt
-  - ref: refs/tags/next-20240117
-    old: 1bc659905956ead17fc1c97fd06f703823511d89
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240417
     old: 0000000000000000000000000000000000000000
     new: 19a33cab0e654aff36d792d491a4f17c18e2ec8e
 
---===============1514869264569747134==
+--===============3910809267091834573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1054,4 @@ c3be0c2372d10f5adedc9b56dbb92f8e55113af0 Merge branch 'bitmap-for-next' of https
 11a00b1de49d2d483db8b2abf006448cde49e05e Merge branch 'nolibc' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
 4eab358930711bbeb85bf5ee267d0d42d3394c2c Add linux-next specific files for 20240417
 
---===============1514869264569747134==--
+--===============3910809267091834573==--
