@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Wed, 17 Apr 2024 13:07:56 -0000
-Message-Id: <171335927623.32156.5356717675555521592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 17 Apr 2024 13:25:28 -0000
+Message-Id: <171336032824.12261.5613350190905276440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for_next
-    old: 1e587630ed3d103325ef6c4223318f06e6a935e7
-    new: 96bd46017ee5696ea29eceb17a819705dc2e919f
+  - ref: refs/heads/nfsd-next
+    old: 2c4b6138e4de05550a4ef938178f964d7512fc0b
+    new: 79f29ae1617dae25102e78d8db7ea715bb077bb7
     log: |
-         795bb82d12a16a4cee42845b0e4c7e3276574e5d fsnotify: fix UAF from FS_ERROR event on a shutting down filesystem
-         96bd46017ee5696ea29eceb17a819705dc2e919f Merge fsnotify UAF fixup.
+         639bd39787b82ef9d53d76961fce1db0dae0bd22 nfsd: don't create nfsv4recoverydir in nfsdfs when not used.
+         79f29ae1617dae25102e78d8db7ea715bb077bb7 lockd: host: Remove unnecessary statements＇host = NULL;＇
          
