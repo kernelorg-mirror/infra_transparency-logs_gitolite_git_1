@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4827072805761414714=="
+Content-Type: multipart/mixed; boundary="===============3074617285994286117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 18 Apr 2024 06:20:10 -0000
-Message-Id: <171342121038.8710.529884859238521903@gitolite.kernel.org>
+Date: Thu, 18 Apr 2024 06:24:41 -0000
+Message-Id: <171342148125.10334.13634222027564669158@gitolite.kernel.org>
 
---===============4827072805761414714==
+--===============3074617285994286117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,46 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: b86ae40ffcf5a16b9569b1016da4a08c4f352ca2
-    new: 8c467f3300591a206fa8dcc6988d768910799872
+    old: 8c467f3300591a206fa8dcc6988d768910799872
+    new: c6795fbffc4547b40933ec368200bd4926a41b44
     log: |
-         8c467f3300591a206fa8dcc6988d768910799872 VT: Use macros to define ioctls
+         c69fddf12ffcf375d24ccc32c94546d56b1ba2e8 serial: exar: remove old Connect Tech setup
+         477f6ee694fbd07047fecd37a9992bbe22a36323 serial: exar: added a exar_get_nr_ports function
+         393b520a99b21d9ec6d4bb32e7c05bbb4f6dc777 serial: exar: add optional board_init function
+         209a20d4bd91761f801116bb155758e45e9340a8 serial: exar: moved generic_rs485 further up in 8250_exar.c
+         5aa84fd8d0592ee72387bd807a052a52abaad360 serial: exar: add CTI cards to exar_get_nr_ports
+         f7ce07062988a26b83ca1448df8d1e4a9232d962 serial: exar: add CTI specific setup code
+         c6795fbffc4547b40933ec368200bd4926a41b44 serial: exar: fix checkpach warnings
          
 
---===============4827072805761414714==
+--===============3074617285994286117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713421209 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713421480 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1713421208-5c7e1948517b45530475e031082240ed09bada11
+nonce 1713421479-2335bf7b10b988f559fb339435d23c7a9c144f9f
 
-b86ae40ffcf5a16b9569b1016da4a08c4f352ca2 8c467f3300591a206fa8dcc6988d768910799872 refs/heads/tty-testing
+8c467f3300591a206fa8dcc6988d768910799872 c6795fbffc4547b40933ec368200bd4926a41b44 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYgu5kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MgIQAK4htzO4yHV7PIU9h/EL
-Sh85jg5AbSacsw8eRzNOvdETl1ByTIWQvvRLtOmNMSaQF6a4wq9sNJwRZPmdNiau
-gImlLPHnT7fO+H+pwnV0fPQ6VdAG173wPRO9gE0wl5jfxLzDu+eJafAgMC7TE9Ie
-qTC3mjlGg6q5niUP1TkNvb9PgFOSp7gdE5uRumEl11jcQM6iP90GcGqvrx3tR4Kj
-gdwPLOw5hxhc+MnP2RQla2/dmdnXHHAfasLL8RuVXt4by0fe/tzrPoiXrsD5XOgp
-eKFRBiifiUil+hJvuHKIv8gSNj6uVjKYSQGJhYXoroI8IlwWseCqcTtOBwZ+SO9l
-/VMGDJQlG2w9ytJza6emPGW0cg9H9vWJw+DIBnGfzRuy9N92Gb5GNkL43dGoSfYs
-D4tVAJesLs62JTcwEMZT5+nB0JPB94k9FG40OsyZkcIDV35vud7Gls4y59PErlnU
-CoZuCLSGA3ii3hbCTocO9kbxrjVVAQjbLvUMJ+3qa0ANm4y4+z2tD95clB5luacP
-JGtw1wqCmhmzIc+1WZAotgggB3kP69zp87iI64jFBr/srWeSGEd/D4MydEmzZQ/b
-dpQbAdPLU34FOqhkfwalVpQRqBy+DuH9CFWkG6dBv6+ajRwPQRherDnlH6bJHvRQ
-QNwX76cn26Qsf5TT9eWswr8c
-=8wk1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYgvKgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kysP/0S/4KsPDclGUNuFZ6J3
+VleJlaIa6wHTsUxT60qwZ8oY6tK7BjFZ8uqMM3Elll5XratprB9Ru1RxaPnx0iiK
+lwuyxUjAfCpB7u5aeV5RGfOEglqN7bxj1gcht22kVhPJMsdKTIdskgvzoa1/K0PO
+ulU+Qbi0DbgxUJ4bo3B4jE5vJ2umIZn3E4csUVnk/VVLTGaIgv3/flFdxI0zrfIC
+PTNu5PUAUi7mFmDngwj8tHMPkVKKmFiCUSnqsxd8EXPUWS1bPa+WP1KMczsR+xZ0
+JfZPVRX8g2nn0ux5M71RxKmIG1nIiRWPPj1JPZlWywM9z5hrkjnXpnkwttfom8iP
+b1wJaD5uwbK2n4S0VEOtdBdKtTevkwW+ap171rNJIUJ4+pIU18Sa8mSY2I9UCxHW
+DCOVgJLLJRXXrWpqtRLZSrZ0QFOJoWayKArRq5VVYeSTeGUyXCHt13y9ditOTBCP
+kOFZFFIbsZ+00MxlXLUCX6H5xj3jkPSqD5kBeecCwxGBtVJBpMKi3AsEj7TRhF7F
+Kw7K0Cb51/lQUT3uZ7ApCqiVnAmvE82newgz2Zp4LN99NXYwYzyCoV8kYCozhA0e
+7GJz0++DWxVDH7dbojWT+yxupTMI226KWyrPCrXryJwSDLxHef3d0kgFJ60eF0tE
+pm3EAAGUjAxNHX60NOJkjQe8
+=+cn4
 -----END PGP SIGNATURE-----
 
---===============4827072805761414714==--
+--===============3074617285994286117==--
