@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 18 Apr 2024 18:31:38 -0000
-Message-Id: <171346509860.13708.3032597813189424350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 18 Apr 2024 18:46:31 -0000
+Message-Id: <171346599175.24898.7079254357503788543@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/kdevops
-    old: 15d2117eab5d07e6327929d053ba7d247e134396
-    new: 4d8e3dc25efa7cb0c9c2b1425c6f70e219f30710
+  - ref: refs/heads/misc
+    old: e30556bf682d36a88cc5aef98d1123ca71adb245
+    new: c7ae396ec597b2f3644f90f5c7278674b0527aa9
     log: |
-         4d8e3dc25efa7cb0c9c2b1425c6f70e219f30710 nfsd: revise the threads set/get format
+         c7ae396ec597b2f3644f90f5c7278674b0527aa9 PCI: Annotate pci_cache_line_size variables as __ro_after_init
          
