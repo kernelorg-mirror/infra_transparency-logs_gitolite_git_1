@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 18 Apr 2024 16:56:39 -0000
-Message-Id: <171345939923.7903.6854833365153933342@gitolite.kernel.org>
+Date: Thu, 18 Apr 2024 16:57:53 -0000
+Message-Id: <171345947325.8383.3452931718826343203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: ac1a21db32eda8a09076bad025d7b848dd086d28
-    new: 56f78615bcb1c3ba58a5d9911bad3d9185cf141b
+    old: 56f78615bcb1c3ba58a5d9911bad3d9185cf141b
+    new: c24cd679b075b0e953ea167b0aa2b2d59e4eba7f
     log: |
-         56f78615bcb1c3ba58a5d9911bad3d9185cf141b net: usb: ax88179_178a: avoid writing the mac address before first reading
+         c24cd679b075b0e953ea167b0aa2b2d59e4eba7f net: ethernet: ti: am65-cpsw-nuss: cleanup DMA Channels before using them
          
