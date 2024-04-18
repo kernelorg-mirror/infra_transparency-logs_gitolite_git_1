@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 18 Apr 2024 04:22:05 -0000
-Message-Id: <171341412590.21262.12844500184890871696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/storage/autofs/autofs
+Date: Thu, 18 Apr 2024 04:32:04 -0000
+Message-Id: <171341472471.27943.13978229078994527947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/storage/autofs/autofs
+user: raven
 changes:
-  - ref: refs/heads/loongarch-next
-    old: 1f1d13414caa1242ce62c96290c11fc966292e95
-    new: cdec0d455d32738dfbecb20b53c4ee789f744174
+  - ref: refs/heads/master
+    old: 8c348df3dc4509e87dff6615ba7d295ca28fab63
+    new: 6167484d7f5b2844d85e7e53c3e8c3f236d61220
     log: |
-         bd7af92916dabf3581d77b8a8dd2e32d62b3fc90 LoongArch: Fix Kconfig item and left code related to CRASH_CORE
-         079a1101fe0d4ddc96cbb961e287ade67238ba42 LoongArch: Fix a build error due to __tlb_remove_tlb_entry()
-         cdec0d455d32738dfbecb20b53c4ee789f744174 LoongArch: Fix access error when read fault on a write-only VMA
+         69a5b66ffd28a3a85dc1bf614e6c8beed39f4abb Update configure script.
+         57f817bf3afce8df3a193f8d1fa93676c3831442 autofs-5.1.9 - fix ldap_parse_page_control() check
+         6167484d7f5b2844d85e7e53c3e8c3f236d61220 autofs-5.1.9 - fix crash in make_options_string()
          
