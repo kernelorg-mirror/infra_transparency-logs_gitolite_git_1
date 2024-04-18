@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8037919809550917364=="
+Content-Type: multipart/mixed; boundary="===============1611611538228586820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 18 Apr 2024 15:13:58 -0000
-Message-Id: <171345323883.30280.9151550725137513818@gitolite.kernel.org>
+Date: Thu, 18 Apr 2024 15:14:41 -0000
+Message-Id: <171345328190.30614.11285749286186350007@gitolite.kernel.org>
 
---===============8037919809550917364==
+--===============1611611538228586820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 83781384a96b95e2b6403d3c8a002b2c89031770
     new: ac1a21db32eda8a09076bad025d7b848dd086d28
     log: revlist-83781384a96b-ac1a21db32ed.txt
 
---===============8037919809550917364==
+--===============1611611538228586820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ c7c449502b51c5b5de79f97a42be750b28f6ecee net: ravb: Fix GbEth jumbo packet RX ch
 d10a7f551ecee6885095fc96aabcfbf959d4a256 Merge branch 'ravb-ethernet-driver-bugfixes'
 ac1a21db32eda8a09076bad025d7b848dd086d28 Merge tag 'nf-24-04-18' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============8037919809550917364==--
+--===============1611611538228586820==--
