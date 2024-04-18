@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 18 Apr 2024 10:12:32 -0000
-Message-Id: <171343515280.7722.7151883373146750938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 18 Apr 2024 10:18:53 -0000
+Message-Id: <171343553354.11592.11388946057368297440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for-next/scmi/updates
-    old: 166f8d4f22696e1f78e310fcffd9ca2d2389d9b7
-    new: 38cf1292aef4fe438e0e097efb2a0d3a3ab569d6
+  - ref: refs/heads/main
+    old: eabf425bc6ad32fa49cfb35c7bc59db07dfdd36e
+    new: 5cb431dcf8048572e9ffc6c30cdbd8832cbe502d
     log: |
-         af5159efb2e39983a43a39cd99674d4eb2500e00 firmware: arm_scmi: Introduce get_max_msg_size() helper/accessor
-         386abeb3298d431953553feef8680cfd34bb7722 dt-bindings: firmware: Support SCMI pinctrl protocol
-         f1d60c2debfc99d2d0f7afc38423f48d13013f96 firmware: arm_scmi: Add basic support for SCMI v3.2 pincontrol protocol
-         38cf1292aef4fe438e0e097efb2a0d3a3ab569d6 pinctrl: Implementation of the generic scmi-pinctrl driver
+         5cb431dcf8048572e9ffc6c30cdbd8832cbe502d ibmvnic: Return error code on TX scrq flush fail
          
