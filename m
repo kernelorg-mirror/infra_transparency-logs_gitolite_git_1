@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6559394645354095061=="
+Content-Type: multipart/mixed; boundary="===============8652540350507677971=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 18 Apr 2024 18:19:00 -0000
-Message-Id: <171346434044.3466.9810513347317212305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Thu, 18 Apr 2024 18:25:06 -0000
+Message-Id: <171346470640.8818.1905980694585340923@gitolite.kernel.org>
 
---===============6559394645354095061==
+--===============8652540350507677971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/kdevops
-    old: 980bf22ac9b081719e2c89fd8aab9488339df378
-    new: 15d2117eab5d07e6327929d053ba7d247e134396
-    log: revlist-980bf22ac9b0-15d2117eab5d.txt
+  - ref: refs/heads/for-next
+    old: 364be3ecd30d22de62741970f7554fa5f035a5cc
+    new: adfecb01c2888d032a91aaf55cc085f4641818cd
+    log: |
+         adfecb01c2888d032a91aaf55cc085f4641818cd Merge branches 'next/dt' and 'next/dt64' into for-next
+         
 
---===============6559394645354095061==
-Content-Type: text/plain; charset="utf-8"
+--===============8652540350507677971==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-980bf22ac9b0-15d2117eab5d.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-639bd39787b82ef9d53d76961fce1db0dae0bd22 nfsd: don't create nfsv4recoverydir in nfsdfs when not used.
-79f29ae1617dae25102e78d8db7ea715bb077bb7 lockd: host: Remove unnecessary statements＇host = NULL;＇
-6e39f6d085d249baae94d3743358eef577c2187b NFSD: move nfsd_mutex handling into nfsd_svc callers
-6b025e10aeae93c0ec94ce9ec7a96f39963f23f4 NFSD: allow callers to pass in scope string to nfsd_svc
-f072186848a64a823686d74d4790966c65d1966c NFSD: convert write_threads to netlink command
-2cdb41c131e45355d9f8f9243f9f31767025d701 define list of threads
-7f0e0ae19618e5c3e72fbf502ace682eb5a7d642 NFSD: add write_version to netlink command
-89a7c41d0501822d110de050088037402e1e9a99 SUNRPC: introduce svc_xprt_create_from_sa utility routine
-1fb70a5d756ab6bed2c040d751461c09327cfe58 SUNRPC: add a new svc_find_listener helper
-6f526c0a5c11ae7fa5c2c7adc2adb7de89f539b1 NFSD: add listener-{set,get} netlink command
-d1010da5c9f790d51027da16f9df0557ff72e1a4 nfsd: s/SERVER_WORKER/SERVER/
-15d2117eab5d07e6327929d053ba7d247e134396 nfsd: revise the threads set/get format
+certificate version 0.1
+pusher krzk@kernel.org 1713464699 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1713464699-c0689d89e88810db65baf919eb3aaa618295a57b
 
---===============6559394645354095061==--
+364be3ecd30d22de62741970f7554fa5f035a5cc adfecb01c2888d032a91aaf55cc085f4641818cd refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYhZXsQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1xRlD/9RFSBV7aZKf389jqehdrteDeKOap//Snem
+Uaj1CBDa3mNN2l5KKwWGi2H0CjqkYuruwhQv7MhL84UEjEgOZa30rSBDsCFudJd8
+uQtfqLfnxHMbY/NAhpP4I1EJrclBgA630gZnY8os5qv5EAyGsGC7LJWg4m0VNBYw
++DAMsT0QRt6EqiOfiGnU45XOu37eKPuFePywRlwGQqC/RaIXEWnPf2uedDu9PD+3
+Yjkmhd86YNm0XtRvJWwlc/Yww1DvkOk3UFSL/61tM4VJSttb3m/itZjFexfYEMeL
+vD2sqVKyGBu4mVp8hYwZ83AMQ+xUnIV5fgrbahy7b4quP3k+dQX0ulppXbFs2XOi
+fvsCZJ3jYMmeosGuYsVKdO+Z0fuVuegJdzFAqNCRpUPtqzjs2qWtF7nsfb4C/gZc
+2NDYofGHNa+FgF51Yo8AHuwsfZtJvQeXWNR9n96TI4bQD3+WDBxb0YxkwirrwGVT
+w4lPZudu68t2KTRsVT/ox+B3fXVmmfwqvqDRT/1CXJkUaehMZVhBKXlhWk0BDAiW
+XCMT3USYQkkgGX1XmwCeBAo4uM/7d/yTW1DUH8Mn064qPUC7TNd6X+MFWDfizxAy
+NKZVwZ29EOjEUofYx99DNgHWWfjDnFTmwVReUD/v7jUgnJoBF9+mpjnIuYe+uscS
+btnr06ajXQ==
+=LZ/u
+-----END PGP SIGNATURE-----
+
+--===============8652540350507677971==--
