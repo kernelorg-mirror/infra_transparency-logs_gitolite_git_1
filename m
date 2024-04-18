@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 18 Apr 2024 08:54:14 -0000
-Message-Id: <171343045477.2207.4714121934321547609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Thu, 18 Apr 2024 08:54:49 -0000
+Message-Id: <171343048912.2483.9907301214763775376@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/s390/linux
+user: agordeev
 changes:
-  - ref: refs/tags/v6.1.86-cip19-rebase
+  - ref: refs/heads/shared-zeropage
     old: 0000000000000000000000000000000000000000
-    new: 0f6e1c33e25e02a7e83e20b8e8bb8aa3fb270323
+    new: 7fd2997c67fe840d4010922cd05455a652e854e8
