@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Thu, 18 Apr 2024 15:55:23 -0000
-Message-Id: <171345572369.29674.16837265516340404205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 18 Apr 2024 16:03:40 -0000
+Message-Id: <171345622070.1869.1759936847755450750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: bdcfd0997bd44a14346902a0fe411a0cfd412153
-    new: 60535cce6a11f03c925d19bb5dd9693b76364633
+  - ref: refs/heads/master
+    old: e739e01d8df8bf26dbc9dcaeaee3c8c55e8ffa71
+    new: 462e5e2a5938d0241ad146d21dd0da1be8e7eaf0
     log: |
-         60535cce6a11f03c925d19bb5dd9693b76364633 dt-bindings: pwm: mediatek,pwm-disp: add compatible for mt8365 SoC
-         
-  - ref: refs/heads/pwm/for-nexxt
-    old: bdcfd0997bd44a14346902a0fe411a0cfd412153
-    new: 60535cce6a11f03c925d19bb5dd9693b76364633
-    log: |
-         60535cce6a11f03c925d19bb5dd9693b76364633 dt-bindings: pwm: mediatek,pwm-disp: add compatible for mt8365 SoC
+         462e5e2a5938d0241ad146d21dd0da1be8e7eaf0 bpf: Fix JIT of is_mov_percpu_addr instruction.
          
