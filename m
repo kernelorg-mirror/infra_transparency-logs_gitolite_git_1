@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 18 Apr 2024 10:42:33 -0000
-Message-Id: <171343695329.29417.12221005610175193948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Thu, 18 Apr 2024 10:47:23 -0000
+Message-Id: <171343724316.334.17150740652715842943@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/experimental
-    old: c34306bbbcc7d0ebb4341391304a3148d0ce6e29
-    new: 2139597544ee73581c88baeff5e6a3c17bfcfb5f
+  - ref: refs/heads/master
+    old: edae09f52109d240facd2c71c2f13c062ed084ad
+    new: 80b2346f378c0da550f8b3de05d7b85246f70b61
     log: |
-         2aa7859a5a63218831d8cded536eedd71430be93 erofs-utils: dump: print filesystem blocksize
-         02be6aae5cfa6b0a2261fbf68c969188df7bab93 erofs-utils: lib: treat data blocks filled with 0s as a hole
-         dee4e24305b4130807f704a5eeb4668fcc272dae erofs-utils: lib: split out several helpers in inode.c
-         b4fa1c7fee3f6958a01d0adb07249652e2cffa95 erofs-utils: lib: refine on-disk meta arrangement again
-         2139597544ee73581c88baeff5e6a3c17bfcfb5f erofs-utils: lib: drop prefix_sha256 digests
+         74cd9f69111e7277b113812b21f7fb008e2985d6 getpagesize.2: tfix
+         64cdc974801b2a4f6ca78449a23c756fcba047c9 syscalls.2: srcfix
+         a4f3afd282ae57112d0301cd14a4e5b4e5f40456 share/mk/: build-fonts: Use $FONTSDIR/devpdf/, and add the download file
+         80b2346f378c0da550f8b3de05d7b85246f70b61 share/mk/: Remove unused variable
          
