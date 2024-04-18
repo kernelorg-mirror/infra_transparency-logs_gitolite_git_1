@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9007584383811427501=="
+Content-Type: multipart/mixed; boundary="===============7481712723307359913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 18 Apr 2024 15:19:54 -0000
-Message-Id: <171345359463.2375.1783756511824004868@gitolite.kernel.org>
+Date: Thu, 18 Apr 2024 15:20:13 -0000
+Message-Id: <171345361343.4157.9790859411748544553@gitolite.kernel.org>
 
---===============9007584383811427501==
+--===============7481712723307359913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 2bd99aef1b19e6da09eff692bc0a09d61d785782
     new: aa37f8916d20cf58437d507fc9599492a342b3cd
     log: revlist-2bd99aef1b19-aa37f8916d20.txt
 
---===============9007584383811427501==
+--===============7481712723307359913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ f60e5fb6dfafef0bcf32b4bc7f4fc2f5f1285815 net: ipa: more include file cleanup
 576fedf87bbdb990f0172a26fb33374e2390e5b4 Merge branch 'net-ipa-header-hygiene'
 aa37f8916d20cf58437d507fc9599492a342b3cd virtio_net: Support RX hash XDP hint
 
---===============9007584383811427501==--
+--===============7481712723307359913==--
