@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 18 Apr 2024 17:16:19 -0000
-Message-Id: <171346057919.23203.13499654340340061546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 18 Apr 2024 17:21:23 -0000
+Message-Id: <171346088311.26652.5440024445562555934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: f4626c12e4b538f757a73d08f4d86d564175b4f7
-    new: c8f53f9b777a7dd389ede99f3e6bdfcf89881d48
+  - ref: refs/heads/dev-queue
+    old: 773579b38591c2be4c2aa651bc91ead6fceefb86
+    new: bac1fc1a6651dff0e346cc6f80e55fb554426356
     log: |
-         9259a4721699947ceb397037991c0e4acc496b21 string_kunit: Add test cases for str*cmp functions
-         c8f53f9b777a7dd389ede99f3e6bdfcf89881d48 Merge branches 'for-next/hardening' and 'for-linus/hardening' into for-next/kspp
+         bac1fc1a6651dff0e346cc6f80e55fb554426356 e1000e: change usleep_range to udelay in PHY mdic access
          
