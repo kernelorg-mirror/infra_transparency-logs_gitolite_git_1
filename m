@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8989792235122264082=="
+Content-Type: multipart/mixed; boundary="===============0585717546818355732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 18 Apr 2024 06:46:04 -0000
-Message-Id: <171342276406.26919.12839282837853569160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 18 Apr 2024 06:46:19 -0000
+Message-Id: <171342277908.27107.2362045655318951001@gitolite.kernel.org>
 
---===============8989792235122264082==
+--===============0585717546818355732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 4eab358930711bbeb85bf5ee267d0d42d3394c2c
     new: 7b4f2bc91c15fdcf948bb2d9741a9d7d54303f8d
     log: revlist-4eab35893071-7b4f2bc91c15.txt
-  - ref: refs/heads/stable
-    old: 96fca68c4fbf77a8185eb10f7557e23352732ea2
-    new: 4b6b513221181108b8406b22b33408f688583b32
-    log: |
-         a2ac1cbc5397eb4e400efa66c3337886d9a63026 pwm: dwc: allow suspend/resume for 16 channels
-         fb7c3d8ba039df877886fd457538d8b24ca9c84b dt-bindings: pwm: mediatek,pwm-disp: Document power-domains property
-         4b6b513221181108b8406b22b33408f688583b32 Merge tag 'pwm/for-6.9-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
-         
-  - ref: refs/tags/next-20240118
-    old: 59434736bd6e5e227d3f49897a54da8bc651182c
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240418
     old: 0000000000000000000000000000000000000000
     new: 70309e6db822d85965cf7bd08c233ee4428f04b5
 
---===============8989792235122264082==
+--===============0585717546818355732==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1059,4 +1048,4 @@ fe32af27c8f9eefe2abc1a845b47824c186552bb Merge branch 'for-next/kspp' of git://g
 cd257c4e84d072b7547c1f9ac310fb873dadfd64 Merge branch 'nolibc' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
 7b4f2bc91c15fdcf948bb2d9741a9d7d54303f8d Add linux-next specific files for 20240418
 
---===============8989792235122264082==--
+--===============0585717546818355732==--
