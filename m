@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============4448108327390792247=="
+Content-Type: multipart/mixed; boundary="===============0212904319999581416=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 18 Apr 2024 18:54:52 -0000
-Message-Id: <171346649293.29575.1250546904545883887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Thu, 18 Apr 2024 19:03:53 -0000
+Message-Id: <171346703301.3645.14752134626472161658@gitolite.kernel.org>
 
---===============4448108327390792247==
+--===============0212904319999581416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/vmgenid-of
-    old: 8e74d013922a346bb84d3a8acd6e63bfeb4f0753
-    new: ad0cf87856421036825ba264456005cd79e510b8
-    log: revlist-8e74d013922a-ad0cf8785642.txt
+  - ref: refs/heads/master
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: 360a348fd7fe72ec42a80d025e6fc81cda19f48e
+    log: revlist-4cece7649650-360a348fd7fe.txt
 
---===============4448108327390792247==
+--===============0212904319999581416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e74d013922a-ad0cf8785642.txt
+Content-Disposition: attachment; filename=revlist-4cece7649650-360a348fd7fe.txt
 
+40e2710860e57411ab57a1529c5a2748abbe8a19 ACPICA: debugger: check status of acpi_evaluate_object() in acpi_db_walk_for_fields()
 f67cf45deedb118af302534643627ce59074e8eb Revert "thermal: core: Don't update trip points inside the hysteresis range"
 8ea3f4f1a1b4242d5fc273f41aa7c86f6b40178c MAINTAINERS: wifi: mwifiex: add Francesco as reviewer
 3849c4d6c6b3da898d92edafd5e2b0e2baaabb61 ASoC: SOF: ipc4/Intel: Fix delay reporting
@@ -1040,15 +1041,14 @@ ed13f622bcd594d6cefd6239b1722ed8b84ba98f platform/x86/amd: pmf: Add infrastructu
 9d893061ed68820de24b572d1e193b5e4737f2e0 platform/x86/amd: pmf: Add quirk for ROG Zephyrus G14
 d8c2d38c4d1dee8fe8e015b9ebf65bdd8e4da99b platform/x86: ISST: Add Granite Rapids-D to HPM CPU list
 bc774d46b41482534c7ba92f6342ca0a355c13af platform/x86/intel-uncore-freq: Increase minor number support
+e871abcda3b67d0820b4182ebe93435624e9c6a4 random: handle creditable entropy from atomic process context
 f609e7b1b49e4d15cf107d2069673ee63860c398 platform/x86/amd/pmc: Extend Framework 13 quirk to more BIOSes
 4b6b513221181108b8406b22b33408f688583b32 Merge tag 'pwm/for-6.9-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 69ffed4b62523bbc85511f150500329d28aba356 gpiolib: swnode: Remove wrong header inclusion
 8cd26fd90c1ad7acdcfb9f69ca99d13aa7b24561 Merge tag 'for-6.9-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+3aadf100f93d80815685493d60cd8cab206403df Revert "vmgenid: emit uevent when VMGENID updates"
 c2d88559121ba4b6434493b4f8ed46657be6cc08 Merge tag 'platform-drivers-x86-v6.9-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 e4add02086a61247e9ff65a4600dd84a31aacc92 Merge tag 'random-6.9-rc5-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
 360a348fd7fe72ec42a80d025e6fc81cda19f48e Merge tag 'gpio-fixes-for-v6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-ed1f1adf8fd40562b5400d0ec66ba3075896c543 virt: vmgenid: change implementation to use a platform driver
-f25d79c5abd9e06f291b99f83316071ff74fa305 dt-bindings: rng: Add vmgenid support
-ad0cf87856421036825ba264456005cd79e510b8 virt: vmgenid: add support for devicetree bindings
 
---===============4448108327390792247==--
+--===============0212904319999581416==--
