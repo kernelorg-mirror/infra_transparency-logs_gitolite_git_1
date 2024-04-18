@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 18 Apr 2024 10:36:18 -0000
-Message-Id: <171343657892.24134.12842105328225581051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 18 Apr 2024 10:41:22 -0000
+Message-Id: <171343688285.28883.15778285233992143489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/stable/v2.40
-    old: 58bc2bb7c9d6d00767186eb44ea597a80d02f92d
-    new: 6ef0c2a6d82cb56bbdedad696734ac4fda3398cd
+  - ref: refs/heads/experimental
+    old: 532a39d7c03e27ec4562d27e3db01b52142fbe55
+    new: c34306bbbcc7d0ebb4341391304a3148d0ce6e29
     log: |
-         122a97fbf261230b8bd7476ad0cbd91e85302d2c all_syscalls: fail if any step fails
-         da5c3015dc0fcf5fab298fdf3e9b396b806dc00b all_syscalls: don't warn during cleanup
-         3f37ffe68790d997e7327656a169cea8e8c5b2e7 all_syscalls: don't hardcode AWK invocation
-         6ef0c2a6d82cb56bbdedad696734ac4fda3398cd all_syscalls: use sed to extract defines from headers
+         2bee23a9eba2a0ccdd2b84855d67f42082233d54 erofs-utils: dump: print filesystem blocksize
+         c34306bbbcc7d0ebb4341391304a3148d0ce6e29 erofs-utils: lib: treat data blocks filled with 0s as a hole
          
