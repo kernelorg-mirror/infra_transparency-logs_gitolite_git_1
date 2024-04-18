@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============9194883828828365430=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 18 Apr 2024 17:30:53 -0000
-Message-Id: <171346145330.1052.17300187735864679360@gitolite.kernel.org>
-
---===============9194883828828365430==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 18 Apr 2024 17:32:27 -0000
+Message-Id: <171346154780.1743.18380993694787740599@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: 1072ea7e8722c5a1decf706d002351e771c9f805
-    new: 11c5cc46b7f4bb10c134e4ba05e984e8ab13ed6f
+  - ref: refs/heads/for-linux-next
+    old: c0978718992d10357010a2e5ba34df80e49d3d12
+    new: 615f2476e23d5348f5d3038fe9c60b0d6f9be30e
     log: |
-         11c5cc46b7f4bb10c134e4ba05e984e8ab13ed6f ez: improve needs-editing logic for single-patch series
+         3c258bf6bf29d8c9f9b358c64f6e9f4510c91ff9 firmware: arm_ffa: Stash the partition properties for query purposes
+         02c19d84c7c5026624d181b8e4cdc8488134d013 firmware: arm_ffa: Add support for FFA_MSG_SEND2
+         615f2476e23d5348f5d3038fe9c60b0d6f9be30e Merge branches 'for-next/scmi/updates' and 'for-next/ffa/updates' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
          
-
---===============9194883828828365430==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1713461452 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1713461452-c1c56d700b3e9fc6d04bbdab6609dfbea004b01e
-
-1072ea7e8722c5a1decf706d002351e771c9f805 11c5cc46b7f4bb10c134e4ba05e984e8ab13ed6f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZiFYzAAKCRC2xBzjVmSZ
-bNEfAP9d4QaGJHg5/4B68Kmuh3x+O6eBtxVzMVblOCwPBUgwrAD/R2RkrGkHAMFO
-hpDV2RM4YxxTyKE2hhW1ZuUUXYfcJA8=
-=wujO
------END PGP SIGNATURE-----
-
---===============9194883828828365430==--
