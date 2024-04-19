@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 19 Apr 2024 13:13:18 -0000
-Message-Id: <171353239816.12118.10644758488833330105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cem/xfsprogs-dev
+Date: Fri, 19 Apr 2024 13:29:58 -0000
+Message-Id: <171353339802.22615.12472558847914083696@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/cem/xfsprogs-dev
+user: cem
 changes:
-  - ref: refs/heads/thermal-fixes
+  - ref: refs/heads/libxfs-sync-6.8
     old: 0000000000000000000000000000000000000000
-    new: b552f63cd43735048bbe9bfbb7a9dcfce166fbdd
-  - ref: refs/tags/thermal-6.9-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 1a8ab0a2774d9e88dee26fd8f114ed0f374f46e3
+    new: bc5fe9cb8be91895e6dbde05beac1224b14c3a15
