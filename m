@@ -1,57 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8426898321570757698=="
+Content-Type: multipart/mixed; boundary="===============1673801469542800875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Fri, 19 Apr 2024 23:34:26 -0000
-Message-Id: <171356966699.6433.15658155339034851545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 19 Apr 2024 23:44:12 -0000
+Message-Id: <171357025271.14287.4064427741344305686@gitolite.kernel.org>
 
---===============8426898321570757698==
+--===============1673801469542800875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: mpe
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/tags/v6.9-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b4429db95735be42f9b96d7383adfe2fc51dc9fa
-  - ref: refs/tags/v6.9-rc4
-    old: 0000000000000000000000000000000000000000
-    new: c8d6e4168c5b8c2b0cf545bd3ca87356b4079164
+  - ref: refs/heads/master
+    old: 2d412262ccfd100218412b4b52d92d6a7bb043a4
+    new: 13a2e429f644691fca70049ea1c75f135957c788
+    log: revlist-2d412262ccfd-13a2e429f644.txt
 
---===============8426898321570757698==
+--===============1673801469542800875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2d412262ccfd-13a2e429f644.txt
 
-certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1713569666 +1000
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1713569665-4778f6320dd00965578b17eeb3561b5e6b1afe56
+2b8dbf69ec60faf6c7db49e57d7f316409ccec92 perf annotate: Make sure to call symbol__annotate2() in TUI
+f3408580bac8ce5cd76e7391e529c0a22e7c7eb2 perf lock contention: Add a missing NULL check
+3ef842a77e7cdf757fe3f1d2999aa2cc88eb53ba tools/include: Sync uapi/drm/i915_drm.h with the kernel sources
+4cfa8a873d3e3a87894f8de056ee69a857b5adcd tools/include: Sync uapi/linux/fs.h with the kernel sources
+bee3b820c66a6aae0e16d0ac47f9744446f33bff tools/include: Sync uapi/linux/kvm.h and asm/kvm.h with the kernel sources
+b7ce17f257da17a4163da82e0fb7726c2de85da7 tools/include: Sync uapi/sound/asound.h with the kernel sources
+58e1b92df491c35abad7ddd2e393b89244e16bd5 tools/include: Sync x86 CPU feature headers with the kernel sources
+978f2a60dd5ca6c25dfd5e24e7191b16af0ec429 tools/include: Sync x86 asm/irq_vectors.h with the kernel sources
+c781a72f9ddd09baddde9df1f59955c0d6ea4944 tools/include: Sync x86 asm/msr-index.h with the kernel sources
+99e4e1174acd7f5a942d37e1ac6c115f870d5975 tools/include: Sync asm-generic/bitops/fls.h with the kernel sources
+1cebd7f74976455ccd89c1dfbcf00bca52d0a512 tools/include: Sync arm64 asm/cputype.h with the kernel sources
+13a2e429f644691fca70049ea1c75f135957c788 Merge tag 'perf-tools-fixes-for-v6.9-2024-04-19' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
-0000000000000000000000000000000000000000 b4429db95735be42f9b96d7383adfe2fc51dc9fa refs/tags/v6.9-rc3
-0000000000000000000000000000000000000000 c8d6e4168c5b8c2b0cf545bd3ca87356b4079164 refs/tags/v6.9-rc4
------BEGIN PGP SIGNATURE-----
-
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmYi/4ITHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgKPdD/4iezKULMd30VYmS+XUaC5Bu8LjF3fr
-7NBo1TJz92K7N7NDv18BMmKO0ojReW0+xexlMBtfEZrtQZASHfSy0iZtPDJvmHrX
-qaJa+EnQug90M2/g6Vh/cxVKfEyd/vp5nKdHw0AM6c3Z0RB91DGWlsH+1dzRbsko
-6c0JnsxXFTKWgDsOAqQJ13wUjVC0FJwPV56rFcfs92YU2btjoajDzUpxsbiaKPvE
-w6mPxIw3BDEaeXV1OYclkEA9anxf28alHHAdBGqvVRr3kajBuENlmXj9OYco8Bid
-XhB8bFIu5rn7nFGbiiwlAuTy1fKfRz/K6I4v5rbzxe8qBYvt8RWcSIoPYySRJVN0
-ioutmpo2T9xoQQtPiurDre/Kzdjphw1xxdO8p6EARQKaG9aO7etA4Wm3XKf9rRa0
-pPB1tKS3vunOlh0PDY8bcZiq858cJtd1jntcp+C6zT/Lk5Q8kCr0llnpRjxYFwDZ
-BNzQLToxK3dmNntNkwrnbWk0dbRv9Uzx+R2uCpyEUcgNnbtvEY7j6ouX1FLBFAXC
-GGkuuYd26/rVtre0dEhfaG5a7ec7XhXz1dNrymL8XQZBqWWZirg5U5uwFu4TPc1X
-WUEwyE82BNyfwNnbF0OMzqqyDxbe1yECKSChiHlhbqC0cCb+GANVXU3qxfAQPyz2
-+EfQ4/XrTcwqfg==
-=gw9b
------END PGP SIGNATURE-----
-
---===============8426898321570757698==--
+--===============1673801469542800875==--
