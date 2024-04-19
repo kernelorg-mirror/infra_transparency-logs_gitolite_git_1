@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5837623881475853861=="
+Content-Type: multipart/mixed; boundary="===============8422175146863023479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 19 Apr 2024 15:43:46 -0000
-Message-Id: <171354142643.22226.16217379240873341948@gitolite.kernel.org>
+Date: Fri, 19 Apr 2024 15:44:04 -0000
+Message-Id: <171354144401.22394.2073157039015716585@gitolite.kernel.org>
 
---===============5837623881475853861==
+--===============8422175146863023479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: ac1a21db32eda8a09076bad025d7b848dd086d28
     new: f58f45c1e5b92975e91754f5407250085a6ae7cf
     log: revlist-ac1a21db32ed-f58f45c1e5b9.txt
 
---===============5837623881475853861==
+--===============8422175146863023479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -303,4 +303,4 @@ c24cd679b075b0e953ea167b0aa2b2d59e4eba7f net: ethernet: ti: am65-cpsw-nuss: clea
 69197dfc64007b5292cc960581548f41ccd44828 net: libwx: fix alloc msix vectors failed
 f58f45c1e5b92975e91754f5407250085a6ae7cf vxlan: drop packets from invalid src-address
 
---===============5837623881475853861==--
+--===============8422175146863023479==--
