@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Fri, 19 Apr 2024 08:12:43 -0000
-Message-Id: <171351436330.4578.7267749035886786475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Fri, 19 Apr 2024 08:37:21 -0000
+Message-Id: <171351584162.22166.14037357775481358211@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fpga/linux-fpga
-user: yilunxu
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
 changes:
-  - ref: refs/heads/for-next
-    old: 4d2bc3f7dea4d17243924c6758e0447cc1aa0eea
-    new: 89bd68b99b17b7450c8d8f174cf4fa17430fc956
+  - ref: refs/heads/b4/slub-percpu-caches
+    old: 69e2dd68b67b35c17e316b3b77788121516b17b0
+    new: 72b2df244cde01711b1098840d1c7c6ead6deb70
     log: |
-         622fb43509179cea44cd00b45fb39b4db80a4feb fpga: region: add owner module and take its refcount
-         210420f451e91c66d69ff2525139c8865bf9f6a9 fpga: ice40-spi: Don't use "proxy" headers
-         d43de57331146a342e436ea4a1346a5b7298bf10 fpga: dfl: remove unused function is_dfl_feature_present()
-         89bd68b99b17b7450c8d8f174cf4fa17430fc956 fpga: dfl: remove unused member pdata from struct dfl_{afu,fme}
+         72b2df244cde01711b1098840d1c7c6ead6deb70 better refill threshold setting
          
