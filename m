@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============7535459039038519318=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 19 Apr 2024 20:05:43 -0000
-Message-Id: <171355714326.17952.17477754891964013325@gitolite.kernel.org>
-
---===============7535459039038519318==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Fri, 19 Apr 2024 20:12:36 -0000
+Message-Id: <171355755694.23892.18189788535418342144@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: b5522b5fa67f16efe8939aa20210051a2d620302
-    new: a797e4a17bf07e0979063304da87339afbe32f3a
+  - ref: refs/heads/for-next/hardening
+    old: 3a316845bd03a34b7b0a2937ca68ced84cf957cb
+    new: dde915c5cba1fe49e980efe72662d9bc2a6b7ffd
     log: |
-         a797e4a17bf07e0979063304da87339afbe32f3a ez: try to tell the user to run pre-flight checks
+         b03442f761aae4bbb093a281ad2205bc346188f5 string: Prepare to merge strscpy_kunit.c into string_kunit.c
+         bb8d9b742aa7c576d39b354612224b3c6bfd3cbc string: Merge strscpy KUnit tests into string_kunit.c
+         6e4ef1429f3be236e145c6115b539acdbd2e299c string: Prepare to merge strcat KUnit tests into string_kunit.c
+         bd678f7d9b72ab8b6978dac92b841e46f4b935a3 string: Merge strcat KUnit tests into string_kunit.c
+         dde915c5cba1fe49e980efe72662d9bc2a6b7ffd string: Convert KUnit test names to standard convention
          
-
---===============7535459039038519318==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1713557142 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1713557142-7758b3f9af8fc04444811a90759870d8e93a0689
-
-b5522b5fa67f16efe8939aa20210051a2d620302 a797e4a17bf07e0979063304da87339afbe32f3a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZiLOlgAKCRC2xBzjVmSZ
-bJw2AP9bfrXUMmmpF2SZMlESdEYxdAT7uAfxOOgk+CAeQ8bjFAD/YdGs61/utogA
-6rqsPyvm5ENj3geDdvHJTCDJlFi+xwM=
-=HvIA
------END PGP SIGNATURE-----
-
---===============7535459039038519318==--
