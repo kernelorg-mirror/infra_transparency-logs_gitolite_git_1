@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Fri, 19 Apr 2024 02:51:41 -0000
-Message-Id: <171349510111.20978.11205389601673644664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Fri, 19 Apr 2024 04:27:01 -0000
+Message-Id: <171350082182.24801.6868825389647071041@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/maint
-    old: b112f906212ff8067da82c9449413e93944b67f4
-    new: ef4e0825eee3d720a2df762249f0e80bb5f3ef3b
+  - ref: refs/heads/bhi-fixes
+    old: 8c86dd1186dabd3696cb11113c4465cc5d51d3a8
+    new: dea42cc56aa7d541f8cf9783a5f7a2924425cead
     log: |
-         72e30620b1ebd4742a8cda6cd4220a5423ca3180 libext2fs: fix ext2fs_get_device_size2() return value on Windows
-         ef4e0825eee3d720a2df762249f0e80bb5f3ef3b libext2fs: always refuse to open a file system with a zero s_desc_size
+         69129794d94c544810e68b2b4eaa7e44063f9bf2 x86/bugs: Fix BHI retpoline check
+         6376306adde5b252ee7c73572e35d13fb13f6f18 x86/retpolines: Enable the default thunk warning only on relevant configs
+         32f5f73b79ffdef215e2e1bcb6ad74387c0f925c x86/fred: Fix INT80 emulation for FRED
+         a4b37f5033fa812f02f3b7bd1242393d347ba791 x86/fred: Fix incorrect error code printout in fred_bad_type()
+         9543f6e26634537997b6e909c20911b7bf4876de x86/cpufeatures: Fix dependencies for GFNI, VAES, and VPCLMULQDQ
+         df1e29df0485d559343cae0e034acf187bcecbad x86/bugs: Remove duplicate Spectre cmdline option descriptions
+         eb075f134b7683e6406e2020509173af11ac7267 x86/bugs: Add 'spectre_bhi=vmexit' cmdline option
+         dea42cc56aa7d541f8cf9783a5f7a2924425cead x86/bugs: Only harden syscalls when needed
          
