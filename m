@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2900548554097463087=="
+Content-Type: multipart/mixed; boundary="===============7788632943217297180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 19 Apr 2024 10:56:06 -0000
-Message-Id: <171352416678.7466.14343251947281287232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 19 Apr 2024 11:05:01 -0000
+Message-Id: <171352470187.12607.12922201428518902544@gitolite.kernel.org>
 
---===============2900548554097463087==
+--===============7788632943217297180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 751fb2528c12ef64d1e863efb196cdc968b384f6
-    new: 543ea178fbfadeaf79e15766ac989f3351349f02
-    log: revlist-751fb2528c12-543ea178fbfa.txt
+    old: d59cca75f59eb9638ff7c0aed4c03a94a43cc86b
+    new: fd4f404e4f522524cdb6d063fab8d0c2c3337a06
+    log: |
+         fd4f404e4f522524cdb6d063fab8d0c2c3337a06 6.6-stable patches
+         
 
---===============2900548554097463087==
+--===============7788632943217297180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-751fb2528c12-543ea178fbfa.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-6a6d6a3a328a59ed0d8ae2e65696ef38e49133a0 crypto: octeontx2 - add missing check for dma_map_single
-b924ecd305c43c41b21ab246e986e2a8effa5743 crypto: x86/aes-xts - access round keys using single-byte offsets
-5d5bd24f415516b212d56e8a66fffd40cdaeab30 crypto: qat - implement dh fallback for primes > 4K
-ffaec34b0f2ba624f20614c4aaed0d5eb6181b2d crypto: x86/sha256-ni - convert to use rounds macros
-1b5ddb067df930c8232020cd059b2060275427cf crypto: x86/sha256-ni - rename some register aliases
-59e62b20acc3161cafe3dce52cd3d6211379c4c5 crypto: x86/sha256-ni - optimize code size
-7daba20cc72d4b3aa047cc3868b96e8e45d5eeca crypto: x86/sha256-ni - simplify do_4rounds
-4a4fc6c0c7fe29f2538013a57ebd7813ec6c12a8 crypto: qat - improve error message in adf_get_arbiter_mapping()
-d281a28bd2a94d72c440457e05a2f04a52f15947 crypto: qat - improve error logging to be consistent across features
-3525fe475245ec5e8bc119749d31a727bc8f41ab crypto: stm32/hash - add full DMA support for stm32mpx
-1d27e1f5c8f7ade40f0e85ddecbe9158393265e5 crypto: x86/aes-xts - handle CTS encryption more efficiently
-ea9459ef363e46b1b353b3fd45761d738b1458a9 crypto: x86/aesni-xts - deduplicate aesni_xts_enc() and aesni_xts_dec()
-2717e01fc3fb4d37b625b9bd6cf161d0d9d5c4b5 crypto: x86/aes-xts - handle AES-128 and AES-192 more efficiently
-e619723a857dfdcf0050713f12b3916816cd8d12 crypto: x86/aes-xts - eliminate a few more instructions
-543ea178fbfadeaf79e15766ac989f3351349f02 crypto: x86/aes-xts - optimize size of instructions operating on lengths
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713524699 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1713524700-52926a81fc8f970a5bb2040d5277d381e1dffe54
 
---===============2900548554097463087==--
+d59cca75f59eb9638ff7c0aed4c03a94a43cc86b fd4f404e4f522524cdb6d063fab8d0c2c3337a06 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYiT9sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aNEQAL9dWOfmPLefdY0HLw3N
++0M3c1UKWjfqEcHDDN+dknfIle3Ko5NX48197t6UqY+BQXjBZA9xugV/TvX/M4oc
+/k1qmDyrYCFW0L/wF2t+sxuJJggQ8/QVrtSZ6hkA5KJpdr4Sh3XW+FyyJKWPK5Qv
+kov9baDQza6t/2IGr1t9UKJKTkZaxsNyTSiG1EJIfiDhG4zs2wv/RKE29nt25NpA
+PB6daaEL9r3dMQHKoATwxaWZQCpsgsdfZ8bFOfaRR21LwNOA0ylHjEqSrlJGcCWF
+l8dY7/BVmXasgGNrV1Q6OUtleQska+zkIOlD8bdPeYQKP7sf0CGI/1xC1dzWCc4U
+WBCe9qb0noRZydx8fWNGf+SAqWJSuvE+ccl+A4FrH0OoKFg9e5QwVwLKbjPC7gQc
+TR1lWH/tVsRTruTRE3r4Idxhzgk+T1p2NsrjjqXEz2sB9lEX8I4y+2JAg9zUYiO7
+59gBhZyLPjPhU+lqSw9DIkavE0evBDbnAj7Us/NAcGoPPtTfY3U1qbiZzleDLQ26
+ZwoChBYXaxhVc6ukQwJbd3MBpqBC/PgAwmlzuPRMdXuFDA5Jzky5VlxDWQB8NZiX
+LMxDiZdUhw+Aft3pCbzlKuUp3iWtsYzAzoAnX9H8gpTGVVXOUU9ENfrc1KJfY0cc
+yIuNISmBo2Hi1roTr2VCSwpy
+=Dc3c
+-----END PGP SIGNATURE-----
+
+--===============7788632943217297180==--
