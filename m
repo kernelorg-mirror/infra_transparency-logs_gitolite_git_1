@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2097059183858388830=="
+Content-Type: multipart/mixed; boundary="===============7041903306692118403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 19 Apr 2024 15:57:39 -0000
-Message-Id: <171354225957.32670.6726048718382042338@gitolite.kernel.org>
+Date: Fri, 19 Apr 2024 15:57:57 -0000
+Message-Id: <171354227765.399.6608968027420866897@gitolite.kernel.org>
 
---===============2097059183858388830==
+--===============7041903306692118403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: aa37f8916d20cf58437d507fc9599492a342b3cd
     new: 4cad4efa6eb209cea88175e545020de55fe3c737
     log: revlist-aa37f8916d20-4cad4efa6eb2.txt
 
---===============2097059183858388830==
+--===============7041903306692118403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -405,4 +405,4 @@ f8f2eb9de69a1119117d198547c13d7a1123a5a9 neighbour: add RCU protection to neigh_
 ba0f780694237d96a1d6366f931cd716fb0f7ab5 neighbour: no longer hold RTNL in neigh_dump_info()
 4cad4efa6eb209cea88175e545020de55fe3c737 Merge branch 'net-neigh-rcu'
 
---===============2097059183858388830==--
+--===============7041903306692118403==--
