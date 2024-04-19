@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 19 Apr 2024 22:30:16 -0000
-Message-Id: <171356581632.26562.14771680374241153525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Fri, 19 Apr 2024 22:36:10 -0000
+Message-Id: <171356617054.30218.9215332433333718571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/100GbE
-    old: 4cad4efa6eb209cea88175e545020de55fe3c737
-    new: d54589de849b969349e09ad42b45bdb2bdec2e61
+  - ref: refs/heads/vmgenid-of
+    old: c1fa2e76c9238c014249d5ccbff366db2642de09
+    new: dbff48db28d15bcb9720b52465d30a37f5753eb4
     log: |
-         4fa67f3079a353694b8c494462927b7ef635f78f devlink: extend devlink_param *set pointer
-         390ce7a56d6bd5670d2201766c69115cf4f4f324 ice: Support 5 layer topology
-         7826c08af32cb1562cdbea6d455aaa481d6c232e ice: Adjust the VSI/Aggregator layers
-         ba8974ea4871ac1c5e81b617c5b595b308338a5e ice: Enable switching default Tx scheduler topology
-         aaa4dc8c1b4f3388f6e1cd2d32152298af0fd297 ice: Add tx_scheduling_layers devlink param
-         d54589de849b969349e09ad42b45bdb2bdec2e61 ice: Document tx_scheduling_layers parameter
+         66c01e634319eb5afd2b3ed046d0d4d42ae8b19b virt: vmgenid: change implementation to use a platform driver
+         3c521c960e24d520dc00dc40c446b39145100d47 dt-bindings: rng: Add vmgenid support
+         dbff48db28d15bcb9720b52465d30a37f5753eb4 virt: vmgenid: add support for devicetree bindings
          
