@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5413260747679640091=="
+Content-Type: multipart/mixed; boundary="===============6035294714760401939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Fri, 19 Apr 2024 16:02:59 -0000
-Message-Id: <171354257945.4492.13949762992732720710@gitolite.kernel.org>
+Date: Fri, 19 Apr 2024 16:03:03 -0000
+Message-Id: <171354258363.4565.5216879113996245252@gitolite.kernel.org>
 
---===============5413260747679640091==
+--===============6035294714760401939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,181 +15,194 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
 user: colyli
 changes:
-  - ref: refs/heads/openEuler-22.03-LTS
-    old: 7299bfeb3af36100409ec89e9160049ebf22f5df
-    new: c049ad97160019ffc68779d9ead1a5334b50ab32
-    log: revlist-7299bfeb3af3-c049ad971600.txt
+  - ref: refs/heads/openEuler-22.03-LTS-SP1
+    old: 6cf2a45582d1487408cac6bed9cc4a1141727b9c
+    new: 8ba92083e59a20557f03ad236de9e25e2e19e89c
+    log: revlist-6cf2a45582d1-8ba92083e59a.txt
 
---===============5413260747679640091==
+--===============6035294714760401939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7299bfeb3af3-c049ad971600.txt
+Content-Disposition: attachment; filename=revlist-6cf2a45582d1-8ba92083e59a.txt
 
-022bbab6fb70db5c08b81e3f8910af8539e149b4 binder: signal epoll threads of self-work
-bcb8fa4c1fbc3d1b4c465d3bc1268f9293e0c36a Input: powermate - fix use-after-free in powermate_config_complete
-833ec7332e405a62b1ec08970c424a12cc0076d3 team: fix null-ptr-deref when team device type is changed
-ec6f29705fd088cbb9fb1f558e50ec481a839d29 net: add atomic_long_t to net_device_stats fields
-8f1f1d6935ce13c29f51cb94edfd8c3fcc1e0096 net: bridge: use DEV_STATS_INC()
-50f5bfd061a0df413901c39b335f513b181289a8 net: Fix unwanted sign extension in netdev_stats_to_stats64()
-4ea577c14395bf3adb84b89909b2c668ea920999 net: fix kabi check warning
-1039c8086d3a3a0369a9704cf5a5c17ed7e25409 KVM: s390: fix setting of fpc register
-80df2e7fd3894ed53bb0ed3e1ad2a715ce0fb02b jfs: fix uaf in jfs_evict_inode
-057d8b18b08b72589d39613dff1206f73bde5c32 jfs: fix array-index-out-of-bounds in diNewExt
-91a38783e10b1ff7c966aaa68efa7bfc3e59c0f6 jfs: fix array-index-out-of-bounds in dbAdjTree
-acec40d8a28893b9b6e2c0d9b04a739d3b098273 !5471  jfs: fix array-index-out-of-bounds in dbAdjTree
-e0d619bf74b3ecf1dc4f9c4a5967e7c9910bf881 mm/mlock: return EINVAL for illegal user memory range in mlock
-7597635b809a45e7662e355d7178b2abde2acca2 md/raid5: fix atomicity violation in raid5_cache_count
-0bdbea12449ad709a662bd8a4248c16eceac2b97 dm: revert partial fix for redundant bio-based IO accounting
-7a1143e3d53e62ff65cfe9b8cee9a184b49488d1 !5618 [sync] PR-5606:  mm/mlock: return EINVAL for illegal user memory range in mlock
-b3f80b3c4c341b6531522cef97f2727eae9967ca mm/readahead: break read-ahead loop if filemap_add_folio return -ENOMEM
-3c5f24b6341bfd2d1ca4f831114ba2e38711132f mm/readahead: don't decrease mmap_miss when folio has workingset flags
-e69a433d6a51d7b65b190a31bfedc3795ddb15e8 arm64/mpam: Fix repeated enabling in mpam_enable()
-e9337bf956d3a49b93beead6b0f450d6db00423e !5631 [sync] PR-5521:  md/raid5: fix atomicity violation in raid5_cache_count
-230b7d12de44c0b159d985d09b7c219b1c222d25 !5634 [sync] PR-5518:  dm: revert partial fix for redundant bio-based IO accounting
-73ee998fcf65b19413f25d44d42dd78e8bf42d99 !5646 [sync] PR-5493:  arm64/mpam: Fix repeated enabling in mpam_enable()
-f124ce818a2a178a1a11117656c289170899f572 ext4: remove unnecessary check from alloc_flex_gd()
-66b5a6ae265b45b6c0d1e1364397f88719073555 ext4: unify the type of flexbg_size to unsigned int
-50fc3b3ff35c755cee871642217718594ebdcc19 ext4: avoid online resizing failures due to oversized flex bg
-52218741e1fcb46e42fed87cae0b5cf7af4dea2e !5664 [sync] PR-5580:  CVE-2023-52622
-12a8f76d784b4daeb2e2e2beac687d9f960f6738 !5637 [sync] PR-5617: v4  Fix I/O high when memory almost met memcg limit
-05fe1af5e24b1b5a52304d12d8378c4b829cb1b3 !5432 [sync] PR-5232:  jfs: fix cve issue
-92828bae28069c5582ee1af3a032973a4be4a73f llc: call sock_orphan() at release time
-c60c6f0de8b7a16a47643a30675e18b3f76a52fc tomoyo: fix UAF write bug in tomoyo_write_control()
-3fdf8b329319ca61e58415c7b3c0ccf1c9ab6237 net: nfc: fix races in nfc_llcp_sock_get() and nfc_llcp_sock_get_sn()
-38cb5a9181dd261ae75ca4e0edb5a290bf2ce229 !5685 [sync] PR-5253:  tomoyo: fix UAF write bug in tomoyo_write_control()
-aea2fad03616d3a6e3c722b146a8b60c40e77149 !5689  net: nfc: fix races in nfc_llcp_sock_get() and nfc_llcp_sock_get_sn()
-50be4a719f8de2140591822c726a0df10041fd11 !5681 [sync] PR-5266:  llc: call sock_orphan() at release time
-8476c4235b3716f5b5beb8eda703f40f3fc5ba00 ext4: Validate inode pa before using preallocation blocks
-4f41b1cfcdf87f473fd033b4cdb2b90f6a1719d3 iomap: cleanup up iomap_dio_bio_end_io()
-3e4c56820e01beb62e359ec2cdc0d27dc2688cae iomap: use an unsigned type for IOMAP_DIO_* defines
-52811e8e08a85c340272bea9f5c7e6c7cf815d93 iomap: add IOMAP_DIO_INLINE_COMP
-31cdfa561182df717023a1d11b31b7fa55b78b0e iomap: rename the flags variable in __iomap_dio_rw
-bf40209424de17af2e0a89be28c22b98e9cc16d5 iomap: pass a flags argument to iomap_dio_rw
-6ac802213069ecaa56bc0f26a1c53bab235aa61b iomap: Add a IOMAP_DIO_MAY_INLINE_COMP flag
-00ce97264943fec51010281974ab175b46c56ae3 ext4: Optimize endio process for DIO overwrites
-5fd8d76621a7769233089d63fdd7e6337dc32ead !5708  ext4: dio: Put endio under
-b72fd960a5ce6a730a3d391f243f6f10179f83df !5704 [sync] PR-5507:  ext4: Validate inode pa before using preallocation blocks
-eecbf51494954e7795c4752a35140573079f3097 ksmbd: fix global oob in ksmbd_nl_policy
-3e3fb435eabbdf15dadbadf50b159c95ad39c167 btrfs: don't abort filesystem when attempting to snapshot deleted subvolume
-cc516dfe0bb29b155ad99f53c2e76c75290c36c4 ALSA: sh: aica: reorder cleanup operations to avoid UAF bugs
-5653f48e957ae604f963a20f1696d316caaa58ed ext4: avoid allocating blocks from corrupted group in ext4_mb_try_best_found()
-f51ab296c5ef82b053a3faabf4ec9f9a3da3e0b5 usb: hub: Guard against accesses to uninitialized BOS descriptors
-4c1423304481a98f329cc064ad2d293dc2e2b473 nvmet-tcp: Fix a kernel panic when host sends an invalid H2C PDU length
-3501327c3674ba60877195d40178abbe71eab0eb nvmet-tcp: Fix the H2C expected PDU len calculation
-7c833783d69a68fd642d40b6647d20e631f556e9 !5764 [sync] PR-5642:  btrfs: don't abort filesystem when attempting to snapshot deleted subvolume
-1d6ce4f83e8ad7e090ce8326d7982675f050aa59 bpf: Reject variable offset alu on PTR_TO_FLOW_KEYS
-325885a846b77b82acfdcadf2b7a405abb9057c3 perf/x86/lbr: Filter vsyscall addresses
-95f5235833f6e7ff1fbf88eb4400045953f93cd6 !5775 [sync] PR-5724:  ALSA: sh: aica: reorder cleanup operations to avoid UAF bugs
-929fc4ccbc3406df7245ab65fea20b5817a9b39d net: qualcomm: rmnet: fix global oob in rmnet_policy
-6c342b8662150d09efa1fdeccb1c3bceaca0d254 !5820 [sync] PR-5789:  perf/x86/lbr: Filter vsyscall addresses
-30dfb5d217852ddbcb50c834ba0b116640ea0387 !5797 [sync] PR-5788: v2  Patches to Fix CVE-2023-52454
-55e79a70876ba7e1d8e8068f5d06e1bbe0f522a7 !5790  usb: hub: Guard against accesses to uninitialized BOS descriptors
-2b2228b84d039f91a3199501c2df3c8790c5255a !4799 [sync] PR-4764:  binder: signal epoll threads of self-work
-a60ec97d0e17be4d59681902684caabc0e854aeb s390/ptrace: handle setting of fpc register correctly
-047b87c7c7c8348a2daec18bf382779fc2ed1124 !5817 [sync] PR-5780:  bpf: Reject variable offset alu on PTR_TO_FLOW_KEYS
-7455bc05a1eda3fb7684f5af747ec5921eb2650c !5826 [sync] PR-5785:  net: qualcomm: rmnet: fix global oob in rmnet_policy
-5427611578662311fc8cd29db229dc75ff4b6384 ext4: avoid allocating blocks from corrupted group in ext4_mb_find_by_goal()
-94eae4d03d4aee8074f2f6c2c1fc437b5326d1c6 dmaengine: ti: edma: Add some null pointer checks to the edma_probe
-5dc43586ee46fd7ba70b57cb831b37d136005aa6 serial: imx: fix tx statemachine deadlock
-fffd72448345b65179205fc54a7922597f4f36f7 mfd: syscon: Fix null pointer dereference in of_syscon_register()
-684173a02d26dcb7aaadec203c3712ae0ea2e22c !5748  ksmbd: fix global oob in ksmbd_nl_policy
-689f219e3219148cd8f7718a6c4a36243159e01c nilfs2: fix hang in nilfs_lookup_dirty_data_buffers()
-377e1c6de692623b501f22eb6f054c2791f40d8e phy: ti: phy-omap-usb2: Fix NULL pointer dereference for SRP
-fd99625c1c2e953bab37972362cce53d7ed83bf1 ASoC: q6afe-clocks: fix warning on symbol scope
-5c5335c244606c05fbc891e780b15993211af8c4 ASoC: q6afe-clocks: fix reprobing of the driver
-dad4faee405af7b4d9b7bbcb2a617fc15628f4a1 drm/bridge: sii902x: Fix probing race issue
-84b0b7f70da64ef24cf0303b4639ae3e774c97f5 drivers/amd/pm: fix a use-after-free in kv_parse_power_table
-028446c18ca99cd556f5c9283f94deba9a327e2c !5888 [sync] PR-5832:  CVE-2023-52467
-a38aa88c564433e2c92ed76bcf8f4164a7337e90 !5896 [sync] PR-5808:  nilfs2: fix hang in nilfs_lookup_dirty_data_buffers()
-7872b4138ce4b42e602d574bea81d2a45ae9f43a dmaengine: fsl-qdma: init irq after reg initialization
-ebb8558fc09a80be4a504d09ab5966ce3509aa98 i2c: i801: Fix block process call transactions
-d1ba84267cec37a5824360170e45f764c27bc3c4 !4907 [sync] PR-4865:  Input: powermate - fix use-after-free in powermate_config_complete
-4f65e9215a0e8825c288f199db96518cf4c40f79 !5871 [sync] PR-4794:  serial: imx: fix tx statemachine deadlock
-bb63ee5d26d69ce28f32bd2eefcedbe178ca3fae !5907 [sync] PR-5811:  Fixed CVE-2021-47037
-d3df9ccd8c2f75f2a4c3ed5837f0a3201735f314 iommu/arm-smmu-v3: Fix size calculation in arm_smmu_mm_invalidate_range()
-9fcb6b987e3b5a9eacf9e65f5ff009a6b6845fb0 iommu/arm-smmu-v3: Fix soft lockup triggered by arm_smmu_mm_invalidate_range
-4133f7622781d78865e5becfa88964636ed5e028 ALSA: hda: intel-sdw-acpi: harden detection of controller
-a02eb88b8a48f0a1176cb0a07b50eebfa9610b4e ksmbd: fix uaf in smb20_oplock_break_ack
-976408f4393799d92256e93f2a5f72eb6aa677ae fbdev: sis: Error out if pixclock equals zero
-9746035a3e92e6286e402eca7237d8972e779d79 !5903 [sync] PR-4931:  phy: ti: phy-omap-usb2: Fix NULL pointer dereference for SRP
-fae035f61e187fc770e9fc1742677f3bddd5be1f !5918 [sync] PR-5870:  drivers/amd/pm: fix a use-after-free in kv_parse_power_table
-daab84209430e180113903838d0d9f3560845223 KVM: arm64: vgic-its: Fix CVE-2024-26598 fix patch issue
-63d20684e66b80520507951f2f99533153278ed5 !5782  ext4: avoid allocating blocks from corrupted group in ext4_mb_try_best_found()
-6896c9bd4f6ad8479a16f7697c5cbaf4183f9e07 !5908 [sync] PR-4928:  drm/bridge: sii902x: Fix probing race issue
-3195027d89a0971f76649da1cc08926b1bdfcb94 !5927 [sync] PR-5863:  CVE-2024-26788
-7e2c0876d47056f74ec42c7299a30c486269825a !5932 [sync] PR-5895:  i2c: i801: Fix block process call transactions
-9c191d0a26f141a293737f283495ee676595da94 ksmbd: return STATUS_NOT_SUPPORTED on unsupported smb2.0 dialect
-15056b6c2160efdc788da9d3df8553a2a01a7f0f ksmbd: return unsupported error on smb1 mount
-92f506e1e92a7d6df80db912261cdd1f62d226fe ksmbd: fix slab-out-of-bounds in init_smb2_rsp_hdr
-65c5031cdcdd3daef051fce6ffeb03749e60f084 ksmbd: fix out of bounds in init_smb2_rsp_hdr()
-25cb9d6960f6a58f0152e4125dc98a8a5b345e61 !5936 [sync] PR-5911:  CVE-2023-52484
-f3908db7e7f76dafb170ca93751b50c3451a5242 !5944 [sync] PR-5861:  ksmbd: fix uaf in smb20_oplock_break_ack
-6d95bc2da5d8c3c501cd1f6fd9c57c37cb5d8a24 !5942  CVE-2021-46926
-7242c86de68e1d8ad3bcd189fa7d002c88780b72 afs: Increase buffer size in afs_update_volume_status()
-bf32c2a60c7af7a895fc4834a06fc07d7d3913cb !5856  dmaengine: ti: edma: Add some null pointer checks to the edma_probe
-32a58c96e5fdddefd04234502794b38ce0d3fa38 crypto: ccp - Fix null pointer dereference in __sev_platform_shutdown_locked
-ddd8a717563cc7fa79fdb0f0e832ae396fd09b73 !5842 [sync] PR-5348:  s390/ptrace: handle setting of fpc register correctly
-8ddfd474dc409cd91d11c78b1af7e6ddd92172a3 !5958 [sync] PR-5884:  KVM: arm64: vgic-its: Fix CVE-2024-26598 fix patch issue
-ecb0bd691f06a6f00211aaecef2eb6afd629e7c3 !5947 [sync] PR-5831:  fbdev: sis: Error out if pixclock equals zero
-e52c6ff5872506999e45d4ad84a8c82669ab942f ARM: ep93xx: Add terminator to gpiod_lookup_table
-cfd9fe2dc04af0e989facb4c327b11edaf07ad8c fbdev: savage: Error out if pixclock equals zero
-a9465256eace19412491081c0d3283dd0df91782 !5980 [sync] PR-5812:  afs: Increase buffer size in afs_update_volume_status()
-cab2525e81d24fb5923cc43686eea412e1239664 !5987 [sync] PR-5901:  CVE-2024-26695
-23250af18c4eb7be715f69b77ad37bfeb7f4a43f mm/swap: fix race when skipping swapcache
-4d6a22c1053581179b760502129a8617d1eb90ad drm/amdgpu: fix use-after-free bug
-523e35d87d42d2125df9edc22920a3def6608dd5 ntfs: Fix panic about slab-out-of-bounds caused by ntfs_listxattr()
-18176189c3dac50cda9821fb7756bf7809f60f3f fs/ntfs3: fix panic about slab-out-of-bounds caused by ntfs_list_ea()
-f9f597b8cd50ba0b8494a1a9ab6be9328763f4f2 fs/ntfs3: Fix oob in ntfs_listxattr
-3c62feb1ad0419f25f38b6bc9368db5feacd43e1 !6057  fs/ntfs3: fix CVE-2023-52640
-883f3511e741d7ea09ded7748aa6309e2c05aac3 !5848  ext4: avoid allocating blocks from corrupted group in ext4_mb_find_by_goal()
-28cde8f7014fc9c32a8d82f1bb96cd11204b004d EDAC/thunderx: Fix possible out-of-bounds string access
-3144bed006eb962cc6e97ecdc4ae9f7b379a5ab4 fs/aio: Restrict kiocb_set_cancel_fn() to I/O submitted via libaio
-e58f26d4978d636460ca5e0816a9a32dea95dc14 fs/aio: Check IOCB_AIO_RW before the struct aio_kiocb conversion
-cd10a1f5e43b665747a1a2ccc1a70487031e5ee0 !6034 [sync] PR-5969:  fbdev: savage: Error out if pixclock equals zero
-cb3ac3c32b09df86dff26b8baedffae7c13bc555 !6022 [sync] PR-5970:  fixup CVE-2024-26751
-1e4b7577488966f6285a30b803825e0e53077e11 !6046  mm/swap: fix race when skipping swapcache
-ee86a998bef817cdb057446253b6aeca97e54a84 !6077 [sync] PR-5973:  EDAC/thunderx: Fix possible out-of-bounds string access
-84076bc5f00ed9b314f1f9a25e4b5a271472219b cifs: Fix UAF in cifs_demultiplex_thread()
-41de39b4c343cb8caa4fea4067d3d1cf5aa80550 wifi: rt2x00: restart beacon queue when hardware reset
-ddb965a2bb167d3b71172c81afa87b94135dbad0 dma-debug: don't call __dma_entry_alloc_check_leak() under free_entries_lock
-eb6d95bb507e56f51f233dc77aba9dc21e5c173a net: asix: fix uninit value bugs
-bc9016e5158071ae72c39e3487a3fad9c93d222e asix: fix uninit-value in asix_mdio_read()
-a9ddbb7664e04748d27343094fd821ae8733884d asix: fix wrong return value in asix_check_host_enable()
-d503085d42c79bd81863b352a7352d18d3e40cfa mm/damon/vaddr-test: fix memory leak in damon_do_test_apply_three_regions()
-c72a5488c8d02ad1c3d1334c9bdf728cf5c2e5c9 RDMA/IPoIB: Fix error code return in ipoib_mcast_join
-3b20f85746ccef4d68e1760ee00a611992459a84 IB/ipoib: Fix mcast list locking
-691409faa7deb5a0281f9fe4f641a1f2703b4cb6 !6122  dma-debug: don't call __dma_entry_alloc_check_leak() under free_entries_lock
-118ecc426a1a8945bac990250032aae11c6cdb2b !6054 [sync] PR-6017:  drm/amdgpu: fix use-after-free bug
-3369349d32ce9eb0b4d163b46ac09d9306f951a4 !6117  wifi: rt2x00: restart beacon queue when hardware reset
-8151c9956612455a130e65b6b182629870bba5f2 hv_netvsc: Fix race condition between netvsc_probe and netvsc_remove
-ce476b5dd827b426e85698a73b6a2ec3b437347a !5120 [sync] PR-5062:  team: fix null-ptr-deref when team device type is changed
-dcda03485a380dbc75b656fe3f2d7d3de99d5f66 !5129 [sync] PR-5113:  fix CVE-2023-52578
-34d0caa786ca6c6c9ee60e7fadfefd0e3bc0a44d vfio/pci: Disable auto-enable of exclusive INTx IRQ
-74b34b06b094dcb4ba487d0a17310d7d7cd832c5 !5419 [sync] PR-5317:  KVM: s390: fix setting of fpc register
-c9ed3c425a3e0b838dc4ac4394efd2ba1a263d71 !6131 [sync] PR-4923:  mm/damon/vaddr-test: fix memory leak in damon_do_test_apply_three_regions()
-13ac2020d61f79a422d681df598e5acd12fc7b4c !6141 [sync] PR-6047:  hv_netvsc: Fix race condition between netvsc_probe and netvsc_remove
-83a6398a5d3f36fc33e1b41260365370362b1591 !6148 [sync] PR-6101:  vfio/pci: Disable auto-enable of exclusive INTx IRQ
-2d2065fccb962b0b11ba97aee316135724050dcc !6135 [sync] PR-5717: v2  fix CVE-2023-52587
-3686813bd0f5dbba4fb76774e48ca1b52d471597 vfio/pci: Lock external INTx masking ops
-9dcfb28c3d0d781b248297a1e76bf8db4c323808 !6125  fix-CVE-2021-47101
-5903e5379ccd41b09027db3e246d3dc7d09e3dac wifi: mac80211: fix potential key use-after-free
-d02f1abb540834bbd01ee4ecd0dcb7969335cccb x86/alternatives: Disable KASAN in apply_alternatives()
-c969ca9c87a80734f4f842d4f05716083a283bc2 !6172 [sync] PR-6137:  vfio/pci: Lock external INTx masking ops
-27cd066550ee15383f0ddbc8b928426ead515561 wifi: ath9k: Fix potential array-index-out-of-bounds read in ath9k_htc_txstatus()
-f683c44f568708b443bbacf3d35aa9fcc4bdd718 tee: amdtee: fix use-after-free vulnerability in amdtee_close_session
-d8e045c45ea5939d02b92643f081e1613ca4d593 !6113  cifs: Fix UAF in cifs_demultiplex_thread()
-199b74d72b42981373bafea231a384435ca208a8 RDMA/siw: Fix connection failure handling
-9cfb207f9dcc64665d69c6812f46895b51e4443c !6188 [sync] PR-5466:  wifi: ath9k: Fix potential array-index-out-of-bounds read in ath9k_htc_txstatus()
-2854b039fbf47c437056bd981db6903d70eef4c9 !6196  tee: amdtee: fix use-after-free vulnerability in amdtee_close_session
-543f68ab2821680cb1bc637046806e41e15ea68a arm64: dts: qcom: sdm845-db845c: Mark cont splash memory region as reserved
-f02db92c72a610b70e0769be46607a1fa2d59583 uio_hv_generic: Fix another memory leak in error handling paths
-42f2c236c6bd068844fe033fe59cc75d9922a795 !6186  Fixed CVE-2023-52504
-4df6d38b654507671f154d1dc8fe50d608c3e45f !6232 [sync] PR-6192:  arm64: dts: qcom: sdm845-db845c: Mark cont splash memory region as reserved
-7d69acea86c337ad7710f75c975df8d5f8259d7b !6236 [sync] PR-6193:  uio_hv_generic: Fix another memory leak in error handling paths
-a7346b4ad869d6e0ea8a27bfb79092c39e48f824 !6218  RDMA/siw: Fix connection failure handling
-87f87eb85a3d64a8fe0e2f4bb447f36d178d32ea !6180 [sync] PR-5093:  wifi: mac80211: fix potential key use-after-free
-29fce9f7b5fb59d16b1f5f1218d202824b5451d3 !5966  Fix CVE-2023-52441 and integrate the pre-patch
-c049ad97160019ffc68779d9ead1a5334b50ab32 !6080  Fix CVE-2024-26764
+ebeadcb3bf505f3a65645741cd13dca59f77ba92 x86/fpu: Stop relying on userspace for info to fault in xsave buffer
+b5f668395c11357dd74f8285acaaa6cd6e5b7b16 binder: signal epoll threads of self-work
+db96b41ddb13b6afb3955142a3e26a4981addb09 Input: powermate - fix use-after-free in powermate_config_complete
+22a2daa9c5ce4ab9ec6e0eaee4d101b59ea01d2f team: fix null-ptr-deref when team device type is changed
+5e8865cf96c762aaf8ac1e30e71ac7103bdc0bb4 net: add atomic_long_t to net_device_stats fields
+55ca950ac6841093cb6b3f8e30dc0c797c1d1522 net: bridge: use DEV_STATS_INC()
+9dcb39e0640f91df20617f7410f9c9b9856213bb net: Fix unwanted sign extension in netdev_stats_to_stats64()
+873bc2806ee7ac87eb7363952c79bc84700a781a net: fix kabi check warning
+8c08c37f1ae3fb218b5559bc2796901c747394ca scsi: mpt3sas: Fix possible resource leaks in mpt3sas_transport_port_add()
+34c73fdb8d47410d5d8a070cee5f0d320e636bef scsi: mpt3sas: Fix a memory leak
+9fdb2ad8ee352df4f0474f41fdd492c218543e71 scsi: mpt3sas: Don't change DMA mask while reallocating pools
+760b124821cc3899904247111ba2834dec158322 scsi: mpt3sas: Remove usage of dma_get_required_mask() API
+c68c98a0e20eac28341c04e46f1d99e498312f87 scsi: mpt3sas: Fix NULL pointer access in mpt3sas_transport_port_add()
+c14eb2dd642150d9efa1d9417b49d601f177b348 scsi: mpt3sas: Perform additional retries if doorbell read returns 0
+76a2211e0c39b8140fbfe005a6d51e96b67cc3d1 scsi: mpt3sas: Fix loop logic
+a273f973cf9c7d62a7fbcbf82494afc05628ae2c KVM: s390: fix setting of fpc register
+a3faa7eb92f493be4382a5837a4b17d7fb6a2e69 jfs: fix uaf in jfs_evict_inode
+c8b98fd9d6168d4cb4a9d20d1869857494707cc7 jfs: fix array-index-out-of-bounds in diNewExt
+3d078571e465fed38c9d3f4e5cbf6dcd60b232fa jfs: fix array-index-out-of-bounds in dbAdjTree
+d0577e2508d0979663c282c49d9af6b649128bc5 !5475  jfs: fix array-index-out-of-bounds in dbAdjTree
+2af24433aab2ec84ce7998a20fe078a0ad84b9aa KVM: x86/mmu: Factor out tdp_iter_return_to_root
+0105ee9500e4c81a1cb299a153cdf6bd8a6220d1 KVM: x86/mmu: Don't advance iterator after restart due to yielding
+5d0bc95e5c2fae7c94d37e7b1dd16ea82e828813 mm/mlock: return EINVAL for illegal user memory range in mlock
+091aaf92bc1736f57c84f34f5d3bdb41f492e17b md/raid5: fix atomicity violation in raid5_cache_count
+37bd693f1a31768f54fca0f2ddea49cf744bfd76 dm: revert partial fix for redundant bio-based IO accounting
+d47d63692d66b0b37d7b7cfede3e9f50fa75d950 !5610 [sync] PR-5447:  Fix CVE-2021-47094
+a133b3c6b036c72ac927acf347d68faf047a3f09 !5619 [sync] PR-5606:  mm/mlock: return EINVAL for illegal user memory range in mlock
+228a37c1d6af453abfe15552f95677a4ee7dc00f mm/readahead: break read-ahead loop if filemap_add_folio return -ENOMEM
+d8f554e78ea6519ad27607e532a7acf488fae009 mm/readahead: don't decrease mmap_miss when folio has workingset flags
+026e31542959f98a3e4e7f095769fb00d68405d9 arm64/mpam: Fix repeated enabling in mpam_enable()
+185682a28e109088f96f4e970cdd1a39e6c0ff5f !5632 [sync] PR-5521:  md/raid5: fix atomicity violation in raid5_cache_count
+dbd5e9e8374011951d6a77fb8b50df7ce2fc050f !5635 [sync] PR-5518:  dm: revert partial fix for redundant bio-based IO accounting
+9a28ee65398162fa639e9ddc52f0a0b0a8758e6f !5416 v2  mpt3sas bugfix
+35c8e6d655cfdd61b8c502a7be178f7a5ef29acc !5648 [sync] PR-5493:  arm64/mpam: Fix repeated enabling in mpam_enable()
+45cf4042c004236f3dc62a21b3e8b5f8641c0cd1 ext4: remove unnecessary check from alloc_flex_gd()
+21ec00a24003b2a641c43b358dbe36af52ad4d7f ext4: unify the type of flexbg_size to unsigned int
+05655dd82bae84357a9cbba0034eb36cc1ef5f6e ext4: avoid online resizing failures due to oversized flex bg
+265a57b5e7f69d134beec35e83c63b933f8ad20c !5665 [sync] PR-5580:  CVE-2023-52622
+1b5f6e5cb96f1c5622372df42daa53d949f6f965 !5638 [sync] PR-5617: v4  Fix I/O high when memory almost met memcg limit
+8efc19add96f5b4ad5640f7de950b03b9f40985f !5433 [sync] PR-5232:  jfs: fix cve issue
+b119f4c370ffba7dd4f361f3e1668bcbf4451d2d llc: call sock_orphan() at release time
+85ae24c500c8d59f40848071135cfabce5143542 tomoyo: fix UAF write bug in tomoyo_write_control()
+e7b38f62a99a4f9b8fcf8d94c385aa149813d9b3 net: nfc: fix races in nfc_llcp_sock_get() and nfc_llcp_sock_get_sn()
+da9d85445ee37776a5636678afc39f3ac1c75909 !5686 [sync] PR-5253:  tomoyo: fix UAF write bug in tomoyo_write_control()
+afa129a4cc99a0f50e3e556d388fe9d9f14c9c0c !5690  net: nfc: fix races in nfc_llcp_sock_get() and nfc_llcp_sock_get_sn()
+231bde25679eccd725d0dc27a3b2639ded785ad0 !5682 [sync] PR-5266:  llc: call sock_orphan() at release time
+4ae361afd5d25d939428cda174a0b271f02bab4d ext4: Validate inode pa before using preallocation blocks
+ca0e711fb44b5d96cdaea35de59e93021ece32f1 iomap: cleanup up iomap_dio_bio_end_io()
+538614a5daea81ecc5720fa4f1ac84277dddd9c3 iomap: use an unsigned type for IOMAP_DIO_* defines
+a22a38a8963492b124de1c6cd8d2c5997ce615ab iomap: add IOMAP_DIO_INLINE_COMP
+b9e5f58ce4b4cdb77955df3b2e419b476f866242 iomap: rename the flags variable in __iomap_dio_rw
+7041ffa353a0e75deaf42c11512eee467f44bfd4 iomap: pass a flags argument to iomap_dio_rw
+149be53cdc75f120ee3388d69a5bf21fe9a87848 iomap: Add a IOMAP_DIO_MAY_INLINE_COMP flag
+6fac6d0e975afe1dec882a54d07ca53d2cd8610a ext4: Optimize endio process for DIO overwrites
+e98cb787bd3f2098ed1d36827b9eb8c2ae5b381f !5705 [sync] PR-5507:  ext4: Validate inode pa before using preallocation blocks
+ed86ac2039327b2ad5f573abb8a097629187b07c !5720 [sync] PR-5708:  ext4: dio: Put endio under
+cfd0772235fe14dbf8a50c7998825e1f68d28a3b ksmbd: fix global oob in ksmbd_nl_policy
+059f607d0567c8e6a7fb1223f9e266e0362485b5 btrfs: don't abort filesystem when attempting to snapshot deleted subvolume
+397f30a7cceac3e865880f953c18b240ee2f54ec ALSA: sh: aica: reorder cleanup operations to avoid UAF bugs
+647c427d9b6faeaec0530926c5f5fe91166b76be ext4: avoid allocating blocks from corrupted group in ext4_mb_try_best_found()
+9f654e5f32ed6fce7673f375f887c177b07593f1 usb: hub: Guard against accesses to uninitialized BOS descriptors
+1fb9c9fd2ef847637a1d27225671a9cad061a33b nvmet-tcp: Fix a kernel panic when host sends an invalid H2C PDU length
+0c2ce440cf2d8102a8abb40343d634743b225cdb nvmet-tcp: Fix the H2C expected PDU len calculation
+ff8a0bb99f6c09b4052485bd772de0aae96cc289 !5765 [sync] PR-5642:  btrfs: don't abort filesystem when attempting to snapshot deleted subvolume
+8786e17f8093827e43f17603383da4bfd80434e0 bpf: Reject variable offset alu on PTR_TO_FLOW_KEYS
+aca8d3ea42f2ae3455dd7002d17f45b8f111cfeb perf/x86/lbr: Filter vsyscall addresses
+60b16ab9743ee9f10e0ec677510ff5ef1658042b !4779 [sync] PR-4772:  x86/fpu: Stop relying on userspace for info to fault in xsave buffer
+2140c27d34e1df220d8ce0f0759af3e280361368 !5776 [sync] PR-5724:  ALSA: sh: aica: reorder cleanup operations to avoid UAF bugs
+eabe459847d09cbd255a36f4c064b47bbe6c98e6 net: qualcomm: rmnet: fix global oob in rmnet_policy
+c777414fdadf42045e0a04492858edb8974ab446 !5821 [sync] PR-5789:  perf/x86/lbr: Filter vsyscall addresses
+cc780bd7036da9594b681691259654028f908d52 !5798 [sync] PR-5788: v2  Patches to Fix CVE-2023-52454
+e3b0e543f73284624413a77777212e28a1afeac6 !5791  usb: hub: Guard against accesses to uninitialized BOS descriptors
+412703167624addfeaaaca90137baa6c49f82a05 !4800 [sync] PR-4764:  binder: signal epoll threads of self-work
+74069cecb82d985fe903c86a5c5360fd7cd2e801 s390/ptrace: handle setting of fpc register correctly
+0ee538fe5e741f675b7f33f6becaace143b9ba78 !5827 [sync] PR-5785:  net: qualcomm: rmnet: fix global oob in rmnet_policy
+811d7be1895cd6b46b8b5b7b92aa74534be27847 !5816 [sync] PR-5780:  bpf: Reject variable offset alu on PTR_TO_FLOW_KEYS
+959807022f5d7f74f02171586939f0c7ebda66ee ext4: avoid allocating blocks from corrupted group in ext4_mb_find_by_goal()
+318aa132d2176b3937a04b9187a91c996ce419b7 dmaengine: ti: edma: Add some null pointer checks to the edma_probe
+6a23b30ab135a1562b00d16439e6445670e482bf serial: imx: fix tx statemachine deadlock
+6af94677267933a339206d0f0cc18abbce4f2c8f mfd: syscon: Fix null pointer dereference in of_syscon_register()
+d905c2e5b262da6b17845ee1ecaf51789c5ad146 !5749  ksmbd: fix global oob in ksmbd_nl_policy
+843c4844d9f46beeddc7462992987b8cdf3112ae nilfs2: fix hang in nilfs_lookup_dirty_data_buffers()
+7fd5f9634faf1a17d360d7b49189561525639eb7 phy: ti: phy-omap-usb2: Fix NULL pointer dereference for SRP
+452e5b06fee533a409498c3b1990714d3d0a214d drm/bridge: sii902x: Fix probing race issue
+28cde66c2bada2589dcfb9410bfd606cacece3a1 ASoC: q6afe-clocks: fix warning on symbol scope
+8fa27763da446b1bfd8ceb69463e23857ffeaff0 ASoC: q6afe-clocks: fix reprobing of the driver
+0578c791f59a245f020b924fe1625c6a8812fefe drivers/amd/pm: fix a use-after-free in kv_parse_power_table
+a34f24d8201167d0a39c7ebec4e11265e4f78a07 !5889 [sync] PR-5832:  CVE-2023-52467
+8d06bcc8608bd137a08db37bc16b2dea2d2061d1 !5897 [sync] PR-5808:  nilfs2: fix hang in nilfs_lookup_dirty_data_buffers()
+0ac70f3d4213464496f278c425213f460433f8a6 dmaengine: fsl-qdma: init irq after reg initialization
+f5067e67ec850e29ae8b8a65b07ea78649a448aa i2c: i801: Fix block process call transactions
+a23985f5096b7723162ba58fc064de7106eabe73 !5872 [sync] PR-4794:  serial: imx: fix tx statemachine deadlock
+26fc058aff22dce882e8ed3348680221a7d3f419 !5913 [sync] PR-5811:  Fixed CVE-2021-47037
+e2d142e36cdfb2e050bacc202493388d73f6046b iommu/arm-smmu-v3: Fix size calculation in arm_smmu_mm_invalidate_range()
+f48321ca8062a563453a8e373529bf2103cea36b iommu/arm-smmu-v3: Fix soft lockup triggered by arm_smmu_mm_invalidate_range
+c38b127cda8b8080d92715125216291015e1c3df ALSA: hda: intel-sdw-acpi: harden detection of controller
+890223b103c0c5cbd2df0ce91cbbf3b581e77c61 ksmbd: fix uaf in smb20_oplock_break_ack
+d8af76de3fb9b1719ff254ac05774a051bc8a782 fbdev: sis: Error out if pixclock equals zero
+b6020e3ca577d2b92c4c9e77582be8cfdc23f352 !5904 [sync] PR-4931:  phy: ti: phy-omap-usb2: Fix NULL pointer dereference for SRP
+790ed527ab770e217c51e5fabef01b1a78fc2930 !4909 [sync] PR-4865:  Input: powermate - fix use-after-free in powermate_config_complete
+9a500462f64afa68b12e94749588719952f3b239 !5919 [sync] PR-5870:  drivers/amd/pm: fix a use-after-free in kv_parse_power_table
+0852aa2160959b3d4bb7a69502a9fa2eda93587a KVM: arm64: vgic-its: Fix CVE-2024-26598 fix patch issue
+44a8923a10017f1abcc60fe3a7d1997b6918a0a3 !5784  ext4: avoid allocating blocks from corrupted group in ext4_mb_try_best_found()
+c6a1dee46e884b93798e24657145bf2cfb876869 !5909 [sync] PR-4928:  drm/bridge: sii902x: Fix probing race issue
+77552a6335989a8c4e3adccd7107e9194e3b60f4 !5928 [sync] PR-5863:  CVE-2024-26788
+e2a341423335883fa1161c7ac2c248ef003b725f !5933 [sync] PR-5895:  i2c: i801: Fix block process call transactions
+8e889910c8c6beac0b30d5d1ab650e3aca80af2c ksmbd: return STATUS_NOT_SUPPORTED on unsupported smb2.0 dialect
+5eaaaae0254393994b7d2182e2bf5d9e2b5ff03c ksmbd: return unsupported error on smb1 mount
+cf2f748d738c2f7c153da552e2d5e761bc3072d2 ksmbd: fix slab-out-of-bounds in init_smb2_rsp_hdr
+5c209ad3b87ac8c05cc747e3fd6b33bc62fbc854 ksmbd: fix out of bounds in init_smb2_rsp_hdr()
+441fac0261377d40af6119b6ce2498f66c9b1aa8 !5937 [sync] PR-5911:  CVE-2023-52484
+24ec46d3aaa547546c76614ef5104b9435696db2 !5945 [sync] PR-5861:  ksmbd: fix uaf in smb20_oplock_break_ack
+4acbc73ff356bd06e70320ea1b5996e38168ddb2 !5941  CVE-2021-46926
+8ca7971e747479bb7506344b98a627338699fb17 afs: Increase buffer size in afs_update_volume_status()
+83574548f9918950d68f741b9b50c5045894a673 !5857  dmaengine: ti: edma: Add some null pointer checks to the edma_probe
+e243013c88dc6a7fa31a589abc3e50dc34d61284 crypto: ccp - Fix null pointer dereference in __sev_platform_shutdown_locked
+b22dccddb8eb258a553a8f71f524abdba69b8ea8 !5843 [sync] PR-5348:  s390/ptrace: handle setting of fpc register correctly
+13b97ad31d570131476ee95f85b614897080f614 !5959 [sync] PR-5884:  KVM: arm64: vgic-its: Fix CVE-2024-26598 fix patch issue
+6014fe2403a57360fd0c91c62ab22e4dc631bb3f !5948 [sync] PR-5831:  fbdev: sis: Error out if pixclock equals zero
+d61095b5c1c74abe9f80b65cd1636002f36eb0b4 ARM: ep93xx: Add terminator to gpiod_lookup_table
+eacafefde556be4cf1ccac9da5e0bd789a46fdcf fbdev: savage: Error out if pixclock equals zero
+fe2301cae0abdd76eda2961c21eeadf0fb92e6da !5981 [sync] PR-5812:  afs: Increase buffer size in afs_update_volume_status()
+f455c8965835d2cb9365ae19fb85e982a72f61aa !5988 [sync] PR-5901:  CVE-2024-26695
+ee565f8bdbc5f0c467e4c0147cdb99a2b94c6bf5 mm/swap: fix race when skipping swapcache
+3e36b63c097fc387efe81dce9e8a84c80b81eb9a drm/amdgpu: fix use-after-free bug
+318949c5ce79a68de6c4d89ce632a1ce9a098aa5 ntfs: Fix panic about slab-out-of-bounds caused by ntfs_listxattr()
+e53f1b04337f748ff8a4e751f9acaf75c38fa351 fs/ntfs3: fix panic about slab-out-of-bounds caused by ntfs_list_ea()
+33bbdf1a82244e494cf44305fe39e5b9e181920b fs/ntfs3: Fix oob in ntfs_listxattr
+d94eff5c9d10b88efcec656501de819d03c7a461 !6059  fs/ntfs3: fix CVE-2023-52640
+8ccc7882d2448916436651c0e924ca1fb769de69 !5849  ext4: avoid allocating blocks from corrupted group in ext4_mb_find_by_goal()
+56eda07b1862c30c1f259f48f7d5168e7c2a6121 EDAC/thunderx: Fix possible out-of-bounds string access
+484f2cd081d282db1ae2744bd3966424da031313 fs/aio: Restrict kiocb_set_cancel_fn() to I/O submitted via libaio
+b24291e3f00ecbc83302a071a277b0fbbaca78a6 fs/aio: Check IOCB_AIO_RW before the struct aio_kiocb conversion
+d65e28110f5ac243eb348093395566290f619027 !6035 [sync] PR-5969:  fbdev: savage: Error out if pixclock equals zero
+2fc08677436e1acb40c8220583c9821d110774b1 !6023 [sync] PR-5970:  fixup CVE-2024-26751
+3c45316bf426f197a8ae410da61b431ccd3573a4 !6043 [sync] PR-5995:  mm/swap: fix race when skipping swapcache
+011ea9d22750031446b248bfa3a0f4c53562b9b1 !6078 [sync] PR-5973:  EDAC/thunderx: Fix possible out-of-bounds string access
+6989e5d0df892c0e1cf88791c188f97c14ee2ec0 cifs: Fix UAF in cifs_demultiplex_thread()
+851f4198b8a18066396f33f1ab400991e00b6cac wifi: rt2x00: restart beacon queue when hardware reset
+c1e429ec878b2d17db99d2ca32b68e51ec3194f4 dma-debug: don't call __dma_entry_alloc_check_leak() under free_entries_lock
+b9b3ef56142b0df77af11cb1f76547568b2d1c54 net: asix: fix uninit value bugs
+6d523bd085fe0f3ff3052b01c6028be74686a276 asix: fix uninit-value in asix_mdio_read()
+802d3cf089e2f7e67f2c7352e2289cdd260528ed asix: fix wrong return value in asix_check_host_enable()
+7aaf9e6a84ff1e73f36eaa47a86fce3cb1a0d412 mm/damon/vaddr-test: fix memory leak in damon_do_test_apply_three_regions()
+1a199472f2ef568830d3e56db6c8f342d355adbd !6120  dma-debug: don't call __dma_entry_alloc_check_leak() under free_entries_lock
+75a6f4124c9ca6484372745737472b3e754e1f8b !6055 [sync] PR-6017:  drm/amdgpu: fix use-after-free bug
+c06af9da42f49dc323f9996851aa43a4419e8f6f !6118  wifi: rt2x00: restart beacon queue when hardware reset
+7338b5fbe75ed9d21fb8ff62dcffeb26c07d46ce hv_netvsc: Fix race condition between netvsc_probe and netvsc_remove
+325fa7e8a10cdbf4482cb6fdeedb490e92078dff !5121 [sync] PR-5062:  team: fix null-ptr-deref when team device type is changed
+a2378ea014ffe4eceaca9d2e5468c9f3cf3592ca !5130 [sync] PR-5113:  fix CVE-2023-52578
+c623ec2a02d27b35d8dc387b19e8d389d584016b vfio/pci: Disable auto-enable of exclusive INTx IRQ
+fc77a3a4c6bb6f3d6e0266fc23cec3d7f3a90c69 RDMA/IPoIB: Fix error code return in ipoib_mcast_join
+1411b117abb59d9fcdb7932ed4dd2706894d42ab IB/ipoib: Fix mcast list locking
+fc2e6c4f4f247e18abec58cb9b123133aceea7af !5420 [sync] PR-5317:  KVM: s390: fix setting of fpc register
+efed1a4d5d2a9dba52f6ffe1f754ef06f7213d8e !6132 [sync] PR-4923:  mm/damon/vaddr-test: fix memory leak in damon_do_test_apply_three_regions()
+ac4e4642eaca9b52d3fea123c6b6fa646d1c7a8c !6142 [sync] PR-6047:  hv_netvsc: Fix race condition between netvsc_probe and netvsc_remove
+ba7ea02868d5150b93d1d5ac4930dcb73b4625ae !6149 [sync] PR-6101:  vfio/pci: Disable auto-enable of exclusive INTx IRQ
+9abaf1ed2e57ffcd4d753ce03f34dde737031837 !6155 [sync] PR-5717: v2  fix CVE-2023-52587
+92917ab11fb27cf1d9a02df1529ee69d11c8cd99 vfio/pci: Lock external INTx masking ops
+2ed742fd760780fe85c100c7d3d764693e90e442 !6126  fix-CVE-2021-47101-openEuler-22.03-LTS-SP1
+bb19fe4827043cae491d6a931cf21d22f5066e4e wifi: mac80211: fix potential key use-after-free
+369b68744b24cb6f426af9f002c3fb520b2694ec !6173 [sync] PR-6137:  vfio/pci: Lock external INTx masking ops
+e4736c5b3ac99d2ebfc7d7debbe5223bb7db8fad wifi: ath9k: Fix potential array-index-out-of-bounds read in ath9k_htc_txstatus()
+486dfde1f9660508f7bbdc54f3a7f6cf29b3a812 tee: amdtee: fix use-after-free vulnerability in amdtee_close_session
+8065d3e2897da668ed100fcb63e3fb58075b5182 !6114  cifs: Fix UAF in cifs_demultiplex_thread()
+3309087130e6e2a2d2484454e8466983ca55b769 RDMA/siw: Fix connection failure handling
+582560b0755dd13988b077c9b9587a25caf26b73 !6189 [sync] PR-5466:  wifi: ath9k: Fix potential array-index-out-of-bounds read in ath9k_htc_txstatus()
+62da3e4aeeea83fe05e562902acd931513fa5c44 !6197  tee: amdtee: fix use-after-free vulnerability in amdtee_close_session
+69d5e2c061a54f042efb6a60cad1f6bd3fd27300 uio_hv_generic: Fix another memory leak in error handling paths
+ac2b1cc7f5c433f08056a6df3de20a59a060c0f4 arm64: dts: qcom: sdm845-db845c: Mark cont splash memory region as reserved
+126cf4b96a0b2f10d8ff94ae2552a26226b4f5a5 x86/alternatives: Disable KASAN in apply_alternatives()
+a7dc4baf2ea0cfe213bbf69bffa690832e3b80c6 !6235 [sync] PR-6192:  arm64: dts: qcom: sdm845-db845c: Mark cont splash memory region as reserved
+d04190e7a9fcc7a38f6ed1df3fd264c67ce697c4 !6234 [sync] PR-6193:  uio_hv_generic: Fix another memory leak in error handling paths
+9c0286bc13c4c75f6adddc6abcad893a2827e7fb !6238 [sync] PR-6186:  Fixed CVE-2023-52504
+cf69ba269114e565791025bcfabae5e6c41ca698 !6217  RDMA/siw: Fix connection failure handling
+174c4eefc48043d1d7d7cab900001c2c742949f3 !6181 [sync] PR-5093:  wifi: mac80211: fix potential key use-after-free
+cfd85d1f6de6d13f3bb4f0975e28613643e49849 !5967  Fix CVE-2023-52441 and integrate the pre-patch
+8ba92083e59a20557f03ad236de9e25e2e19e89c !6081  Fix CVE-2024-26764
 
---===============5413260747679640091==--
+--===============6035294714760401939==--
