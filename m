@@ -1,62 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2069714955249740142=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sboyd/spmi
-Date: Sat, 20 Apr 2024 01:50:33 -0000
-Message-Id: <171357783346.7976.1057656564109595840@gitolite.kernel.org>
-
---===============2069714955249740142==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Sat, 20 Apr 2024 02:44:28 -0000
+Message-Id: <171358106856.12512.8450874784111705703@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sboyd/spmi
-user: sboyd
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/spmi-next
-    old: 897268aef3fa5b979b26121b28fe7acc66894ce3
-    new: ee2098c0b512fb80b63119199938ea62a240ebc7
+  - ref: refs/heads/wip
+    old: 80f31b2eb51776502d942de30f8fc3c4e250d739
+    new: 4829392f0e0d0dff7eb590e44d3a2a3478b799ab
     log: |
-         4f8ea60bcdb9762d6e7f20dd927db30f01d11467 dt-bindings: spmi: Add X1E80100 SPMI PMIC ARB schema
-         cc634f153787866311526254324be3d88c85c747 dt-bindings: spmi: Deprecate qcom,bus-id
-         f28566a948728817021c83869fca24bbb56f1d66 spmi: pmic-arb: Fix some compile warnings about members not being described
-         9f25024446d15ed47da411751adca44b64e0660c spmi: pmic-arb: Make the APID init a version operation
-         03b740ecbf1b093b8bf5d5c49772f409c0d1cb3f spmi: pmic-arb: Make core resources acquiring a version operation
-         932282f154ac7bd4d116cef49f1857ab5b51a79f spmi: pmic-arb: Register controller for bus instead of arbiter
-         ee2098c0b512fb80b63119199938ea62a240ebc7 spmi: pmic-arb: Add multi bus support
+         7643f3fe27729b20e6fcf6b314b00b8b93504356 f2fs: assign the write hint per stream by default
+         0d7c912aa2fa110b60502d01ea431a364fcb9b2c f2fs: convert f2fs_mpage_readpages() to use folio
+         7b8ff6e24a64b1d72fb5129b6fd88d3045e3b9a8 f2fs: convert f2fs_read_single_page() to use folio
+         5119651e7d7a9670a537f8b720c31428f5d71638 f2fs: convert f2fs_read_inline_data() to use folio
+         70f0fe1743a5e4893d5f0b9b839668e47387c26b f2fs: convert f2fs__page tracepoint class to use folio
+         25819921d5fda4192710e4753eb5abb03de72c26 f2fs: fix comment in sanity_check_raw_super()
+         941e5c378b19b4379680311b5e6680d3621d3595 f2fs: remove unnecessary block size check in init_f2fs_fs()
+         3ded9af199fd8daf0acbf906711b60a4651cd7a4 f2fs: use per-log target_bitmap to improve lookup performace of ssr allocation
+         e8e78dea3951d38dbe707e8992f14ef1d98e9325 f2fs: introduce written_map to indicate written datas
+         4829392f0e0d0dff7eb590e44d3a2a3478b799ab f2fs: zone: don't block IO if there is remained open zone
          
-
---===============2069714955249740142==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Stephen Boyd <sboyd@kernel.org> 1713577832 -0700
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sboyd/spmi.git
-nonce 1713577831-9ce2c55de2354b02b6b0b830280ffa3e585ba7c8
-
-897268aef3fa5b979b26121b28fe7acc66894ce3 ee2098c0b512fb80b63119199938ea62a240ebc7 refs/heads/spmi-next
------BEGIN PGP SIGNATURE-----
-
-iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmYjH2gRHHNib3lkQGtl
-cm5lbC5vcmcACgkQrQKIl8bklSWoGw/6A1qb26Ql0Iy6wJ5zPvPB01wuhwwd0iLx
-IkbHBc74+wE96D5pw1s/EQwRjG0hG0i1iV0lrsby0dFJQ0WgV3iYP4JnI4+IPUIH
-JM8Gz9fdCgGwJQWfwR2tFzucNWGnP5qgGqhiWoaV8gOe5HSPMKKX+lK8yuNq6g+J
-D+XUMup63g40TG278u+pEPcLOUZ17A7Fdpbxula7DOZQf1MAMpj8B9JEGJEaDRJA
-sRvmSAjPYlmnxVD6gKScXgeFNJoOqN8ztTXVynhp0+hCmQ9L7xTA7+dj3TxakQ3A
-EiPbB2bhD3mVoJk73J9VWdCd1KJKsdgcZF5kdKfA3iBD2YVLoy8jnEPdVYAh6EiZ
-SdIHwL9agO4MiR8mnOlPBJW0yC/Bkf/9fiBVstHCA/FlaAxQl67uxxfZlLNT+oJ1
-tDshnaTsfFU1T/5nuc2RybiOT9Y5eDalxA6/45z7NY7LDKtlExwTVNhz2WAFpp/m
-alwV7lfoU7PSEF6U7ZYjDWKAGI4VdFyNLCtHyKi+2uD7/HheFYrX8FBCG+nK6rAy
-BX7XzbywgxvtRsMzz8rkG/Dt2798qctYh5qtRt+4C+aXGyYkLRh1yi47U1PBAAb1
-mzgdK7sxddafB+n7wQb9iD3C9jJiIhKE7uiz20hyfMWMPw6bQAllCr805niRzVgc
-6ju3aLqKPtY=
-=63Yc
------END PGP SIGNATURE-----
-
---===============2069714955249740142==--
