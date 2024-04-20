@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 20 Apr 2024 15:02:54 -0000
-Message-Id: <171362537415.11994.964362072421597953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sat, 20 Apr 2024 15:07:10 -0000
+Message-Id: <171362563098.16649.10869134878479284043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/testing
-    old: e77603d5468b9093c111a998a86604e21a9e7f48
-    new: cf1c833f89e7c8635a28c3db15c68ead150ea712
+  - ref: refs/heads/master
+    old: 2065163e46dd8377b133d06c6fb79f9190ba95e1
+    new: b36ab4b783137632cf8e7728b7e3f9fd3f8b410a
     log: |
-         cf1c833f89e7c8635a28c3db15c68ead150ea712 iio: adc: adi-axi-adc: only error out in major version mismatch
+         b36ab4b783137632cf8e7728b7e3f9fd3f8b410a Sort and remove duplicates
          
