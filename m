@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 20 Apr 2024 18:55:12 -0000
-Message-Id: <171363931206.16129.10963244919320635103@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 20 Apr 2024 19:07:39 -0000
+Message-Id: <171364005992.25205.16459600594167785340@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 207e23623d8decb12c63c7182390633d30a496c4
-    new: e01101874f2fed449fd05b171d00c8b927c3b275
+    old: eac1fcc76acdd8ba42c96b47aa2ba62520f562eb
+    new: 88a9ffba9ac9ab46fe07f4c6bd43a2790611e545
     log: |
-         1d7b684d2f18040c965d151f2fabeca340f9ea54 Add a directory for damo-dedicated files
-         e6cf97bd6b2a16aaf6bf75c058fdf8c5b65bcfa9 damo: Add a file for branches pushing
-         e01101874f2fed449fd05b171d00c8b927c3b275 damo: Add a script for release
+         88a9ffba9ac9ab46fe07f4c6bd43a2790611e545 Sat Apr 20 03:06:59 PM EDT 2024
          
