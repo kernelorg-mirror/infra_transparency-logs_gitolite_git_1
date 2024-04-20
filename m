@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Sat, 20 Apr 2024 02:44:28 -0000
-Message-Id: <171358106856.12512.8450874784111705703@gitolite.kernel.org>
+Date: Sat, 20 Apr 2024 03:11:37 -0000
+Message-Id: <171358269750.550.1922258985749252377@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,16 @@ repo: pub/scm/linux/kernel/git/chao/linux
 user: chao
 changes:
   - ref: refs/heads/wip
-    old: 80f31b2eb51776502d942de30f8fc3c4e250d739
-    new: 4829392f0e0d0dff7eb590e44d3a2a3478b799ab
+    old: 4829392f0e0d0dff7eb590e44d3a2a3478b799ab
+    new: 5d6f5e6eb9883de6f5d2e72ce0b89d74eb0e357d
     log: |
-         7643f3fe27729b20e6fcf6b314b00b8b93504356 f2fs: assign the write hint per stream by default
-         0d7c912aa2fa110b60502d01ea431a364fcb9b2c f2fs: convert f2fs_mpage_readpages() to use folio
-         7b8ff6e24a64b1d72fb5129b6fd88d3045e3b9a8 f2fs: convert f2fs_read_single_page() to use folio
-         5119651e7d7a9670a537f8b720c31428f5d71638 f2fs: convert f2fs_read_inline_data() to use folio
-         70f0fe1743a5e4893d5f0b9b839668e47387c26b f2fs: convert f2fs__page tracepoint class to use folio
-         25819921d5fda4192710e4753eb5abb03de72c26 f2fs: fix comment in sanity_check_raw_super()
-         941e5c378b19b4379680311b5e6680d3621d3595 f2fs: remove unnecessary block size check in init_f2fs_fs()
-         3ded9af199fd8daf0acbf906711b60a4651cd7a4 f2fs: use per-log target_bitmap to improve lookup performace of ssr allocation
-         e8e78dea3951d38dbe707e8992f14ef1d98e9325 f2fs: introduce written_map to indicate written datas
-         4829392f0e0d0dff7eb590e44d3a2a3478b799ab f2fs: zone: don't block IO if there is remained open zone
+         99451d39cf7b6884570e2a7691d9638d5a1bf0b2 f2fs: convert f2fs_mpage_readpages() to use folio
+         cd95a34b17cdba2bd14efd13e3f0af2564401903 f2fs: convert f2fs_read_single_page() to use folio
+         30e5a7c3225ba2d7ef05fa555b525ff66fc6d72f f2fs: convert f2fs_read_inline_data() to use folio
+         fbfac53765c59208b82dea8a8c6ed422b1ec109c f2fs: convert f2fs__page tracepoint class to use folio
+         39ae788f45ba4d278734087084c1da500a39d981 f2fs: fix comment in sanity_check_raw_super()
+         176bb18bf51e12b5341b68e127c28f92438de913 f2fs: remove unnecessary block size check in init_f2fs_fs()
+         fe9e183fe6041259eaebf55d9f2aa85752964f0d f2fs: use per-log target_bitmap to improve lookup performace of ssr allocation
+         7eea8292108fbee6efe104545f11854602eb983f f2fs: introduce written_map to indicate written datas
+         5d6f5e6eb9883de6f5d2e72ce0b89d74eb0e357d f2fs: zone: don't block IO if there is remained open zone
          
