@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dash/dash
-Date: Sun, 21 Apr 2024 00:42:08 -0000
-Message-Id: <171366012838.5192.12869731492697368485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sun, 21 Apr 2024 01:00:05 -0000
+Message-Id: <171366120509.17759.6651670511003675350@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dash/dash
-user: herbert
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 177072c2e718d2fa9758be9925b8558aedbc0227
-    new: 21847204559bf9a720f3863e19e8f046fdce0bf1
-    log: |
-         c8db655b3c7056f20362d400a1b3fd2910900c76 alias: Disallow non-CWORD characters
-         21847204559bf9a720f3863e19e8f046fdce0bf1 expand: Fix here-document file descriptor leak
-         
+  - ref: refs/heads/20240416_luca_ceresoli_asoc_dapm_improve_debugfs_output_and_introduce_dapm_graph
+    old: 0000000000000000000000000000000000000000
+    new: e7bb43898bcf54da7ffb4819a04c8428f7db24db
+  - ref: refs/heads/file0549li
+    old: 0000000000000000000000000000000000000000
+    new: f63175733f91da6b668018c1c31786ec448adaed
+  - ref: refs/heads/v2_20240415_wtli_asoc_nau8821_add_delay_control_for_adc
+    old: 0000000000000000000000000000000000000000
+    new: ad8ba241bc93536a2c8af150b237c5be8fafe942
