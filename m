@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6478665328790747812=="
+Content-Type: multipart/mixed; boundary="===============0736984781501863606=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Sun, 21 Apr 2024 20:45:17 -0000
-Message-Id: <171373231778.11330.9793362968832870895@gitolite.kernel.org>
+Date: Sun, 21 Apr 2024 20:45:24 -0000
+Message-Id: <171373232481.11453.4098294241144017082@gitolite.kernel.org>
 
---===============6478665328790747812==
+--===============0736984781501863606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/djakov/icc
 user: djakov
 changes:
-  - ref: refs/heads/icc-next
-    old: 7af14fe58e5ee10807088aa48f176a213c13d309
+  - ref: refs/heads/icc-fixes
+    old: de1bf25b6d771abdb52d43546cf57ad775fb68a1
     new: 230d05b1179f6ce6f8dc8a2b99eba92799ac22d7
-    log: revlist-7af14fe58e5e-230d05b1179f.txt
+    log: revlist-de1bf25b6d77-230d05b1179f.txt
 
---===============6478665328790747812==
+--===============0736984781501863606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7af14fe58e5e-230d05b1179f.txt
+Content-Disposition: attachment; filename=revlist-de1bf25b6d77-230d05b1179f.txt
 
 e28c5efc31397af17bc5a7d55b963f59bcde0166 vxlan: Do not alloc tstats manually
 195f88c57737f16217b5dece054a4cfd74c33550 vxlan: Remove generic .ndo_get_stats64
@@ -1051,4 +1051,4 @@ ab8de2dbfc9ec912f2762f3b813437a4c4f56251 Merge tag 'efi-fixes-for-v6.9-2' of git
 2adc731188b6123fc44ac01480ac381b41f8d6c6 interconnect: qcom: sm6115: Unspaghettify SNoC QoS port numbering
 230d05b1179f6ce6f8dc8a2b99eba92799ac22d7 interconnect: qcom: qcm2290: Fix mas_snoc_bimc QoS port assignment
 
---===============6478665328790747812==--
+--===============0736984781501863606==--
