@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Sun, 21 Apr 2024 21:56:46 -0000
-Message-Id: <171373660667.28706.3297527843028375036@gitolite.kernel.org>
+Date: Sun, 21 Apr 2024 21:58:01 -0000
+Message-Id: <171373668171.29201.10376143554649210177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,36 +11,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
 user: frederic
 changes:
-  - ref: refs/heads/nohz/cpuset-v4-pre-20120625
-    old: c086bb1a2fddd249d6645ce1d81ccba408a2db6b
+  - ref: refs/heads/cputime/cleanups
+    old: e9a4d5c1f47ed3df66e61ef2e681db1ab01a0d7a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/perf/custom-ctx-v2-pre
-    old: b8c4f20c0dece6e180367376e2e5199d732effae
+  - ref: refs/heads/rcu/idle-fix
+    old: bfebd223162c298a7cbc763ef5b41ce4e0dd9072
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rcu/user
-    old: 7e442a7df76c171b3acc5926a5f37cdb75df9d2d
+  - ref: refs/heads/rcu/idle-fix-v2
+    old: d0842e12daf3b49c34a51c32442509ec4645dbeb
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rcu/user-2
-    old: 5f9f61550a1a59bb7abc8ec1707469fcb1fb0e5d
+  - ref: refs/heads/rcu/idle-for-v3.7
+    old: af508f5500eccab3f3cf337785be7491e57d0153
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/virt-cputime
-    old: 3a213e71805db62877e5ac8bbbe7f53e33ca5b73
+  - ref: refs/heads/rcu/idle-for-v3.7-take3
+    old: 9b1bf0fc38e7ead68040b1ae922c698d914554a9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/virt-cputime-v2
-    old: b3bd4970cecd532b29e0cf32ebe602c7b29acf5a
+  - ref: refs/heads/rcu/idle-for-v3.7-take4
+    old: b0e784122b14446b1e0b4349a0ab97a48f55f665
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/virt-cputime-v3
-    old: c81b1ebdcdd7492100ab073be9cdf4c0eac7ae05
+  - ref: refs/heads/rcu/idle-for-v3.7-take5
+    old: cb349ca95407cbc11424d5e9fc7c8e700709041b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/virt-cputime-v4
-    old: b9bb50db9126c4ccad78af2dfb77277ca17c9b64
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/vtime/generic
-    old: e48fb591c83e963ed4224c603ed2f864916e89db
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/vtime/generic-v2
-    old: 1b22dc148a67ff0d9ca1da4b19aec7536ffcef78
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/vtime/generic-v3
-    old: dd3f9313de3ac0799c6b9529389625986ff0731c
+  - ref: refs/heads/rcu/idle-v2-for-v3.7
+    old: 78d15ecf2cdb4323f73dc77bd92f09fc5365421f
     new: 0000000000000000000000000000000000000000
