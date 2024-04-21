@@ -1,45 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============3338093812347269764=="
+Content-Type: multipart/mixed; boundary="===============8022592588469501689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 21 Apr 2024 11:34:35 -0000
-Message-Id: <171369927525.5172.16661478692109924973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sun, 21 Apr 2024 11:35:03 -0000
+Message-Id: <171369930384.6965.17328457877490377728@gitolite.kernel.org>
 
---===============3338093812347269764==
+--===============8022592588469501689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rdma-next
-    old: e4d1b8d5f68ce00ad5b850986dfc363cfa7f0ff9
-    new: 4680b690f2b356f2d226f0048cccfac50343e01b
-    log: revlist-e4d1b8d5f68c-4680b690f2b3.txt
+  - ref: refs/tags/usb-6.9-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 79a8d84fffcb712e6fb82893def4d571b62258dd
 
---===============3338093812347269764==
+--===============8022592588469501689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4d1b8d5f68c-4680b690f2b3.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ca0b44e20a6f3032224599f02e7c8fb49525c894 IB/core: Implement a limit on UMAD receive List
-8a4fd095050f4fffd8c2591c350fb70d5a2bf543 net/sched: Don't print dump stack in event of transmission timeout
-7b9485a8035032d2155bc9020ba073fe00cf9578 RDMA/core: Introduce peer memory interface
-373ced562f43ed25ee63e69e17135cfff8498db0 RDMA/mlx5: Get upper device only if device is lagged
-ef6bb7c5c970a432302a6616e105185fb8959e2c RDMA/mlx5: Send currect port events
-4ec507b83df6f89b82b41cf96024724001f4a941 TEMP: Increase lockdep depth
-f0f45d4cc7e213927f17ecc0c622e7141052b5a0 RDMA/core: Add an option to display driver-specific QPs in the rdmatool
-e58b0993f4833d5d628337db50819935ac6282b6 RDMA/mlx5: Track DCT, DCI and REG_UMR QPs as diver_detail resources.
-8a849fbc79507665fbcee9e661107e71efafd5ad RDMA/cache: Release GID table even if leak is detected
-c91e6048d6e04995fb4ec2273a044ba18e3bf404 x86: Stop using weak symbols for __iowrite32_copy()
-be14e5a333c92bc1a2bb40c14f9b2970cdbb5ae8 s390: Implement __iowrite32_copy()
-4d017b91b392ff6d26f27cd635ded99a1e53768b s390: Stop using weak symbols for __iowrite64_copy()
-8c4a8a686c284d23535ea80244d92205c833ab7c arm64/io: Provide a WC friendly __iowriteXX_copy()
-308c94d99ad0ef7733fd5f564d0b711c17f85334 net: hns3: Remove io_stop_wc() calls after __iowrite64_copy()
-4680b690f2b356f2d226f0048cccfac50343e01b IB/mlx5: Use __iowrite64_copy() for write combining stores
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713699303 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1713699302-46a4a9c5eb6f197f4c05d01c6f83057d0ed3ca62
 
---===============3338093812347269764==--
+0000000000000000000000000000000000000000 79a8d84fffcb712e6fb82893def4d571b62258dd refs/tags/usb-6.9-rc5
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYk+ecbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AYQQAJnYV324WwMp8x6cn+u+
+KAi7DGnbNj778nVf9GDVLKHUJw3iVFprTcxbTPMDHLnjaEUUpjMl0ah3zOGF0N1G
+4bW7DFayvU3Jdr700PKy0ueJLqODORokYoZ2r30ynYb8bM2/l7d8zU/03z00NFNw
+X/L7e8au2YfnBi00xxIZBoQjw0u8gsE3Ef1iR4XOI2H4zcw/RIQJ3sIEVotC9OIt
+vrqiWg93j/e9BxmOaEBe6baneUYV2LormiMaikdmV2J9mvdrVU7gyvY+JPWgD+lY
+RR0d+/TVkAZ/9jn6/CycZrQHUMViqralsihvDZ0Tvc4J+KtmfFPXyBz9SFphXIEK
+FTS15zqYWMZnSqohsYwf3+miUqInjky1TwJpQmZcIkrJEcoc5SQZ/UgKpxWg+eQs
+cVqwoJBWhc81m/UlxLDKcUjpZu+E9okq5DxMURks7qeY3/yjODU5gv/nbErhNJFT
+bFMs7QgHFT65DtiGFtCPxEIG9MaOnLfYEMOqnfxcgt4XRVV7mphwPg8NjXqzeEgo
+PQGi9zh5LI3xw1RpJEeGqCh2m7Wc3BPPl9eCV0LVc6tOkmogCTAS2DMBpqT0r4Aq
+avD/1NaGgm3mIzzOmsMqOM/3G3QBLA+SO146DXm+Gyg0VTrxeEGig+VKz+jfKhZy
+g6kAUHaS9OiurSB1sJokYohH
+=3/Iv
+-----END PGP SIGNATURE-----
+
+--===============8022592588469501689==--
