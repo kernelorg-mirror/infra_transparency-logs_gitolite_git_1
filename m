@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 21 Apr 2024 17:42:09 -0000
-Message-Id: <171372132931.10052.4273349757113476956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 21 Apr 2024 17:43:49 -0000
+Message-Id: <171372142982.10714.8062833057849628376@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: e01101874f2fed449fd05b171d00c8b927c3b275
-    new: bd78f5ff95b7e4220678fe9669f98eef4553e45a
+  - ref: refs/heads/testing
+    old: cf1c833f89e7c8635a28c3db15c68ead150ea712
+    new: b80ad8e3cd2712b78b98804d1f59199680d8ed91
     log: |
-         0fd52fa1d0073e0f9ead491957fb395b2fb96acf Add a script for checking missed stable commits
-         bd78f5ff95b7e4220678fe9669f98eef4553e45a stable_commits: Check existence of the script
+         b80ad8e3cd2712b78b98804d1f59199680d8ed91 iio: adc: ti-ads131e08: Use device_for_each_child_node_scoped() to simplify error paths.
          
