@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Sun, 21 Apr 2024 17:55:03 -0000
-Message-Id: <171372210319.18718.12981581380640081243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 21 Apr 2024 18:25:28 -0000
+Message-Id: <171372392898.8760.12019506389184687040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/tags/block-6.9-20240412
-    old: 0000000000000000000000000000000000000000
-    new: 0f48ab1843bb303588d982652804eb90b16a4e40
-  - ref: refs/tags/block-6.9-20240420
-    old: 0000000000000000000000000000000000000000
-    new: 99145f7b202336dd21c40b73fed62fb64ca18b1e
-  - ref: refs/tags/io_uring-6.9-20240412
-    old: 0000000000000000000000000000000000000000
-    new: 32cbaa45e7bcf3c2399095ba8c353da6238c557f
+  - ref: refs/heads/master
+    old: 101568f5f7e9c23738b764a22efca4af72ca3f64
+    new: e78f7a6515d176d8f8fda8fec8902bf4637d4a85
+    log: |
+         e78f7a6515d176d8f8fda8fec8902bf4637d4a85 Sun Apr 21 02:24:35 PM EDT 2024
+         
