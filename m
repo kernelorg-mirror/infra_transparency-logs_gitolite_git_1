@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 21 Apr 2024 14:01:22 -0000
-Message-Id: <171370808221.12706.11978684481184881525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sun, 21 Apr 2024 14:39:23 -0000
+Message-Id: <171371036334.7082.4182958457200032186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: b36ab4b783137632cf8e7728b7e3f9fd3f8b410a
-    new: 59552de0f0352ac74838fff5d2e51c41b4e5c374
-    log: |
-         59552de0f0352ac74838fff5d2e51c41b4e5c374 Review 6.8.1 and 6.8.2
-         
+  - ref: refs/heads/20240419_cezary_rojewski_asoc_intel_avs_switch_to_acpi_nhlt
+    old: 0000000000000000000000000000000000000000
+    new: f5d20b253d1a51aadb8881d899caaaa989217e89
+  - ref: refs/heads/v9_20240407_shenghao_ding_asoc_pcm6240_mixer_test_report
+    old: 0000000000000000000000000000000000000000
+    new: cee56a8e9cf89fd690e18eb2e6f09d3f8a6442fb
