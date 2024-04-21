@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 21 Apr 2024 20:01:03 -0000
-Message-Id: <171372966341.11248.10151722584311739092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Sun, 21 Apr 2024 20:08:51 -0000
+Message-Id: <171373013160.16863.14419861884976186088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: jernej
 changes:
-  - ref: refs/heads/master
-    old: e78f7a6515d176d8f8fda8fec8902bf4637d4a85
-    new: 4383276f4b99b7c769d7b15b411100ef4dc99e39
+  - ref: refs/heads/sunxi/dt-for-6.10
+    old: caa67b061f60bc0d44e0bb53179a5415da7a913d
+    new: 04a9963b4aa5f1f0b7714a28471e0c67ee0d864c
     log: |
-         4383276f4b99b7c769d7b15b411100ef4dc99e39 Sun Apr 21 04:00:14 PM EDT 2024
+         8ee9a40d05641acb3db0250c1392e008e11753cb dt-bindings: arm: sunxi: document Tanix TX1 name
+         04a9963b4aa5f1f0b7714a28471e0c67ee0d864c arm64: dts: allwinner: Add Tanix TX1 support
          
