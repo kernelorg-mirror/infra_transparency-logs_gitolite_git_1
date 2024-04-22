@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5610270726479967120=="
+Content-Type: multipart/mixed; boundary="===============7218357111705172770=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 22 Apr 2024 22:17:26 -0000
-Message-Id: <171382424652.25612.5273062163671156847@gitolite.kernel.org>
+Date: Mon, 22 Apr 2024 22:17:30 -0000
+Message-Id: <171382425004.25706.12256779712957875641@gitolite.kernel.org>
 
---===============5610270726479967120==
+--===============7218357111705172770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 0bbac3facb5d6cc0171c45c9873a2dc96bea9680
-    new: 86eb98127332748fda5cb16c4e597b3922cb6fb9
-    log: revlist-0bbac3facb5d-86eb98127332.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 974161980d5b7a9fc9b90ad8dcf07576bcf3b8ec
+    new: 954452aa8d8c654b7b4e68fe980e82f2d970591b
+    log: revlist-974161980d5b-954452aa8d8c.txt
 
---===============5610270726479967120==
+--===============7218357111705172770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1713824245 +0200
+pusher andi.shyti@kernel.org 1713824248 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1713824245-f6060348d8f65ab29038748fab60645574d8a16c
+nonce 1713824248-029ffdc07d55205cc386b54fb5f2751e6a996470
 
-0bbac3facb5d6cc0171c45c9873a2dc96bea9680 86eb98127332748fda5cb16c4e597b3922cb6fb9 refs/heads/i2c/i2c-host-fixes
+974161980d5b7a9fc9b90ad8dcf07576bcf3b8ec 954452aa8d8c654b7b4e68fe980e82f2d970591b refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZibh9RYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uqGABAJzK+U5WimwaDVhJoNdh4VCF2paf
-feZqBy5sL4emfAIVAQCKffTisslc1o/r50LXhX77zR/7r68XeU6W8vUWLy1pAw==
-=eUXS
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZibh+BYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uvaIBAM3dhuoMIgYluXiFhPxyk1XaNmyN
+UK/Wfstw3sGCYfDVAQCuckDeFtCKDjcj5UNjX7l69eqNhoD+Auk+kXyg+vHyDA==
+=T9Hc
 -----END PGP SIGNATURE-----
 
---===============5610270726479967120==
+--===============7218357111705172770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bbac3facb5d-86eb98127332.txt
+Content-Disposition: attachment; filename=revlist-974161980d5b-954452aa8d8c.txt
 
 59097a2a5ecadb0f025232c665fd11c8ae1e1f58 interconnect: qcom: x1e80100: Remove inexistent ACV_PERF BCM
 de1bf25b6d771abdb52d43546cf57ad775fb68a1 interconnect: Don't access req_list while it's being manipulated
@@ -385,15 +385,16 @@ f59f327ca5af73ad4f58b873e380a351ba0661e3 i2c: riic: Add support for R9A09G057 So
 be06e31a51c5be1c8258570854592f7eac102aa9 i2c: viperboard: drop driver owner assignment
 311cf386c62ac046f46924bba94fff11c60de4b4 i2c: i801: Call i2c_register_spd for muxed child segments
 b56eaff4bb3782c571aca69931afc8137765fdd2 i2c: add HAS_IOPORT dependencies
-922f6f07bd4d0fc07b8e575b56a1d02a0ec4a62e i2c: ocores: convert to ioport_map() for IORESOURCE_IO
-ec3153a87b1739a4096c73e7ad8a8925278d54c5 i2c: i801: Fix missing Kconfig dependency
-75cbadfad6e1be1779f3a49ca42b55be443a9c9e MAINTAINERS: adjust file entry in ARM/LPC32XX SOC SUPPORT
-c55c1f9f3560619a5c4a3a78ab8bd18142dad3f6 dt-bindings: i2c: qcom-cci: Document sc8280xp compatible
-40f434e4bd0bbec20b6f6016baa4c0970b82d3b6 i2c: mpc: Removal of of_node_put with __free for auto cleanup
-06fb39cb8a47f1e1901d9eca5219128ee019eef6 i2c: designware: Add ACPI ID for Granite Rapids-D I2C controller
-0cf232b5242b122b23e1feeb7053408dd5adcd69 i2c: i801: Remove usage of I2C_CLASS_SPD
-d20c6d1437279495c8c0852148d13e7149913c32 i2c: mux: gpio: remove support for class-based device instantiation
-af574a117e9bcbdd76d3624d36988a3b07723102 i2c: i801: Annotate apanel_addr as __ro_after_init
-86eb98127332748fda5cb16c4e597b3922cb6fb9 gpio: pca953x: move suspend()/resume() to suspend_noirq()/resume_noirq()
+2457d56bfc3eb208df33d019bb9c6a5cf26ea93f i2c: ocores: convert to ioport_map() for IORESOURCE_IO
+d5f0020a6beecb00db66822e0362a3d2e189bb1c i2c: i801: Fix missing Kconfig dependency
+84444301dc4b311e12ffc24b41e0a2a223f86b64 MAINTAINERS: adjust file entry in ARM/LPC32XX SOC SUPPORT
+b55334d6bcfc6ea1536d24a77a96e44a65fdd78e dt-bindings: i2c: qcom-cci: Document sc8280xp compatible
+6a7cc3a31f73f765392c9a99bd148dce3e134487 i2c: mpc: Removal of of_node_put with __free for auto cleanup
+2524113cdc1b114d651c66afb6e144a7a11b6a81 i2c: designware: Add ACPI ID for Granite Rapids-D I2C controller
+2d44e99c9c6d3d35bf1c19e42e2f24963acf30fa i2c: i801: Remove usage of I2C_CLASS_SPD
+1f22b646c3aa71f07e71646bd0e9f0d05ac213e4 i2c: mux: gpio: remove support for class-based device instantiation
+51b5c2c4e8b020fa634a9ac4446fb1758d41063c i2c: i801: Annotate apanel_addr as __ro_after_init
+709a3a2c1c1898f94489001a0acd97202679b43c gpio: pca953x: move suspend()/resume() to suspend_noirq()/resume_noirq()
+954452aa8d8c654b7b4e68fe980e82f2d970591b i2c: omap: wakeup the controller during suspend() callback
 
---===============5610270726479967120==--
+--===============7218357111705172770==--
