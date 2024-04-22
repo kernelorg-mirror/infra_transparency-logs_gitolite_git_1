@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5158981510656023984=="
+Content-Type: multipart/mixed; boundary="===============5472249305388645443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 22 Apr 2024 15:41:38 -0000
-Message-Id: <171380049884.16047.7668936999726329205@gitolite.kernel.org>
+Date: Mon, 22 Apr 2024 15:42:02 -0000
+Message-Id: <171380052241.16244.16233297296983698707@gitolite.kernel.org>
 
---===============5158981510656023984==
+--===============5472249305388645443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: f58f45c1e5b92975e91754f5407250085a6ae7cf
     new: 9e91bf75dd9089b08d8156d66d0e7c024d72780b
     log: revlist-f58f45c1e5b9-9e91bf75dd90.txt
 
---===============5158981510656023984==
+--===============5472249305388645443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ a1acdc226baec331512f815d6ac9dd6f8435cc7f bnxt_en: Fix the PCI-AER routines
 41e54045b741daf61e03c82d442227af3d12111f bnxt_en: Fix error recovery for 5760X (P7) chips
 9e91bf75dd9089b08d8156d66d0e7c024d72780b Merge branch 'bnxt_en-aer-fixes'
 
---===============5158981510656023984==--
+--===============5472249305388645443==--
