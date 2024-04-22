@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6044962673812284980=="
+Content-Type: multipart/mixed; boundary="===============0657180824006935359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 22 Apr 2024 08:08:43 -0000
-Message-Id: <171377332378.30826.14856881622983963941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 22 Apr 2024 08:08:58 -0000
+Message-Id: <171377333817.30993.3331689939468017997@gitolite.kernel.org>
 
---===============6044962673812284980==
+--===============0657180824006935359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: 27a153e0ec88bb64cb2199c55826624c42f6c6b9
-    new: 710f9a3673d6839c485d6a1cd59a2b5078092d47
-    log: revlist-27a153e0ec88-710f9a3673d6.txt
+  - ref: refs/heads/for-next
+    old: 19cba5ce16ea40825ebd8fb99556f396ef7dc205
+    new: bb2057e0d80b087512168e7a128197134febaf3b
+    log: revlist-19cba5ce16ea-bb2057e0d80b.txt
 
---===============6044962673812284980==
+--===============0657180824006935359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1713773321 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1713773321-3935b370f78a5fb58a7562bbc26139e19dfa0270
-
-27a153e0ec88bb64cb2199c55826624c42f6c6b9 710f9a3673d6839c485d6a1cd59a2b5078092d47 refs/heads/asoc-6.10
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYmGwkTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0PMvB/4nO1QmrWAz/TVYWw8n3bjEHvdqE6BA
-s+rano6Q9v/p2cQcnYEbk3nIZ9IHRQdRPk6h5BvyhB8J6pWVCzbG8eITE1D31v/x
-go5z5IyZzzGvV3b2phxzjc28GbvEClocOKMRJeggy4asw3TBdTrr0yu8iJegIxL4
-n3YWlvJhtxNJEg1M6r1mukzvlEmih4IRBSaRpHNGZt1FWxty/TpHDzP3LsxvzbkW
-D2EA/IHwCBuyXYB2FOXPwsXdyy59ViXqt8Z3+8+SpmwnecZdVXJibCAHD8hE7A/O
-UOBupoCEhIFLUrgE+q4BRgEeuCh3a+sj3ksJcWXk6mZuKS4MMX3B64ZM
-=cCKF
------END PGP SIGNATURE-----
-
---===============6044962673812284980==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27a153e0ec88-710f9a3673d6.txt
+Content-Disposition: attachment; filename=revlist-19cba5ce16ea-bb2057e0d80b.txt
 
 2f7d7ea44adbe7497b225bbb7bfc29e3c792094d ACPI: NHLT: Reintroduce types the table consists of
 82b8acc06ea48b69c2482ac2ac994656c3740d08 ACPI: NHLT: Introduce API for the table
@@ -70,5 +45,6 @@ d3f36e78d7ba0ed3e8f518c62c4663650bf6cd6a ASoC: Intel: avs: Switch to acpi-nhlt
 bd74e9c31f0d1880ff4482f1a7ce33a006d870ed ASoC: nau8821: Add delay control for ADC
 512622407ce3234f5f4b88e1e9f5090f389cc5c2 ASoC: dapm: improve debugfs output and introduce
 710f9a3673d6839c485d6a1cd59a2b5078092d47 ASoC: PCM6240: New driver
+bb2057e0d80b087512168e7a128197134febaf3b Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
 
---===============6044962673812284980==--
+--===============0657180824006935359==--
