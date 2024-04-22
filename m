@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 22 Apr 2024 23:45:07 -0000
-Message-Id: <171382950762.26187.952492531829557878@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 22 Apr 2024 23:48:57 -0000
+Message-Id: <171382973728.27540.14355353280834321545@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/todo
-    old: 8992799f58d6219a855f501ea5a4ded9cd964b6e
-    new: 0d2241241b11de0031b90cd54a6bd3ad41d97d9b
+  - ref: refs/heads/master
+    old: 3caec8af8e2ecb0f50039f31f04e3269cdb44bc9
+    new: 2d3cf73cbc05d5d8c929d37db6a81da6f7242c55
     log: |
-         345042418503386e14c9f2b3f235bb25b1a32aed Meta/Canned: polish 'not just respond' section
-         0d2241241b11de0031b90cd54a6bd3ad41d97d9b What's cooking (2024/04 #08)
+         122ea3f6ee99f9dc9cdf41e537080867dd4dc8cf Fixes for 6.8
+         2d3cf73cbc05d5d8c929d37db6a81da6f7242c55 Fixes for 6.6
          
