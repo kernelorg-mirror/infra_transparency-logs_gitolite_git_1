@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 22 Apr 2024 13:13:41 -0000
-Message-Id: <171379162145.4330.4372221331849147797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Mon, 22 Apr 2024 13:15:03 -0000
+Message-Id: <171379170388.6162.18307303109579793288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/main
-    old: 4fd1edcdf13c0d234543ecf502092be65c5177db
-    new: 9e91bf75dd9089b08d8156d66d0e7c024d72780b
+  - ref: refs/heads/arm64-for-6.10
+    old: 52358c64937e982d3cdcf64be58f08f30d8e518c
+    new: 673b174b5b2ca2fb99fe52bf7bad3cc348432170
     log: |
-         7474b1c82be3780692d537d331f9aa7fc1e5a368 bnxt_en: refactor reset close code
-         a1acdc226baec331512f815d6ac9dd6f8435cc7f bnxt_en: Fix the PCI-AER routines
-         41e54045b741daf61e03c82d442227af3d12111f bnxt_en: Fix error recovery for 5760X (P7) chips
-         9e91bf75dd9089b08d8156d66d0e7c024d72780b Merge branch 'bnxt_en-aer-fixes'
+         57ce4b27a12c827a24aaa18aa444bcb8733cb053 arm64: dts: qcom: qrb2210-rb1: add firmware-name qualifier to WiFi node
+         673b174b5b2ca2fb99fe52bf7bad3cc348432170 arm64: dts: qcom: qrb4210-rb1: add firmware-name qualifier to WiFi node
          
