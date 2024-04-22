@@ -1,25 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 22 Apr 2024 14:18:03 -0000
-Message-Id: <171379548333.17723.6458695903409270170@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1717513284068407295=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Mon, 22 Apr 2024 14:25:49 -0000
+Message-Id: <171379594912.23623.518855496669993626@gitolite.kernel.org>
+
+--===============1717513284068407295==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-hans
-    old: 36dc58c367149680bed334e83ec54728f980a96e
-    new: 0084b1ef25438293c74efe6f8c5c1c8bdb1a34c7
+  - ref: refs/heads/master
+    old: 59855510ff1c414baa792084cd23012d230859cb
+    new: e700963449788cb3edcda23b9fbc38481230dbae
     log: |
-         1046fb52eac3d3ab434987a7af5f2ff5f210947f platform/x86/intel-uncore-freq: Don't present root domain on error
-         37c85140347dfab3c94093d04c3be5617498bc95 platform/x86/amd: Don't allow HSMP to be loaded on non-server hardware
-         fe3baf8d0a472b0566b4d32e59e2409354b85a88 platform/x86/intel/pmc: Fix PCH names in comments
-         a3ce355ee1207dc2def7528375df67dec7c2624d platform/x86: thinkpad_acpi: change sprintf() to sysfs_emit()
-         9522f637027d753f83cf8934b333a7d2db8f36cb platform/x86: msi-laptop: Use sysfs_emit() to replace sprintf()
-         4f733d82295a9402ed8e0f0c28fdab45b9df9368 platform/x86: samsung-laptop: Use sysfs_emit() to replace the old interface sprintf()
-         0084b1ef25438293c74efe6f8c5c1c8bdb1a34c7 platform/x86: asus-laptop: Use sysfs_emit() and sysfs_emit_at() to replace sprintf()
+         e700963449788cb3edcda23b9fbc38481230dbae ez: add needs-recipients check and improve the needs-doing logic
          
+
+--===============1717513284068407295==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1713795948 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1713795948-712c42d75dc4d72ce2efd154da1e54b44cd92c4c
+
+59855510ff1c414baa792084cd23012d230859cb e700963449788cb3edcda23b9fbc38481230dbae refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZiZzbAAKCRC2xBzjVmSZ
+bOxqAP4kt285cqhkOmmjz6SoVm7AXg+r80BozFEfwvKOCWaZDQD/ZYMzKem37iPa
++CZAKNlZBZF77PVyFDJgzOiH+eceQg4=
+=JVVO
+-----END PGP SIGNATURE-----
+
+--===============1717513284068407295==--
