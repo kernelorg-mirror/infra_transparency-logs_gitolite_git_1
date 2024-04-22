@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Mon, 22 Apr 2024 22:26:40 -0000
-Message-Id: <171382480049.32240.5514836034107336171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 22 Apr 2024 22:27:51 -0000
+Message-Id: <171382487106.32720.145567007038975903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 752d286a5ce3efc28a6b8a4c4dffb44d23d8d15b
-    new: 789f68a5fba332fe6d16102c63578eac46a1f0b3
+  - ref: refs/heads/dev-queue
+    old: ea492b4c375b8285bf24debab9f69888bc748f34
+    new: 00d9951472721c4285593d6aa0ab03eabdc933e1
     log: |
-         e16edbd2bb51d2898f72c8e6d22800348ece3fe9 qmi: Remove redundant NULL check in qmi_param_new
-         3c5ed8ec1e571a98142e99c0c67dd8fca590d54f qmi: voicecall: Fix up code style violations
-         231cde4f12a4e05dcb89a17893bee2655ab7cd7b qmi: voicecall: Remove ternary conditional use
-         789f68a5fba332fe6d16102c63578eac46a1f0b3 qmi: voicecall: Remove redundant initialization to NULL
+         084469db4bcc6d7351f8a769b8bc359304055626 ice: Interpret .set_channels() input differently
+         4bf6eb770ee272ada509157c7f7e6d1ae5c03efe ice: fix 200G PHY types to link speed mapping
+         00d9951472721c4285593d6aa0ab03eabdc933e1 ice: refactor struct ice_vsi_cfg_params to be inside of struct ice_vsi
          
