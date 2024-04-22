@@ -1,30 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============3344779161387043901=="
+Content-Type: multipart/mixed; boundary="===============2220813111704457696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 22 Apr 2024 15:04:59 -0000
-Message-Id: <171379829972.18730.10001623909643318439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Mon, 22 Apr 2024 15:09:28 -0000
+Message-Id: <171379856854.23488.15516740176789424611@gitolite.kernel.org>
 
---===============3344779161387043901==
+--===============2220813111704457696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
-user: geert
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/m68k-queue
-    old: 55bd28976bfbc9f42e6bf5476c670d31ffed49a5
-    new: 399a770946401dcf790ba8601103318e3a825d61
-    log: revlist-55bd28976bfb-399a77094640.txt
+  - ref: refs/heads/master
+    old: 0bbac3facb5d6cc0171c45c9873a2dc96bea9680
+    new: ed30a4a51bb196781c8058073ea720133a65596f
+    log: revlist-0bbac3facb5d-ed30a4a51bb1.txt
+  - ref: refs/tags/v6.9-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f7106f2f9cc0b361fbc610a7e0c74c8e0658d9b5
 
---===============3344779161387043901==
+--===============2220813111704457696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55bd28976bfb-399a77094640.txt
+Content-Disposition: attachment; filename=revlist-0bbac3facb5d-ed30a4a51bb1.txt
 
 59097a2a5ecadb0f025232c665fd11c8ae1e1f58 interconnect: qcom: x1e80100: Remove inexistent ACV_PERF BCM
 de1bf25b6d771abdb52d43546cf57ad775fb68a1 interconnect: Don't access req_list while it's being manipulated
@@ -356,9 +359,5 @@ c0c6b5c090ead778b3a8132201d25040b1fdcbf8 Merge tag 'tty-6.9-rc5' of git://git.ke
 4e90ba757b1bc4d6a787e85d0a079d1dbfa9608f Merge tag 'driver-core-6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 48cf398f15fc3b2af11c78fed548355d3b66ca11 Merge tag 'char-misc-6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 ed30a4a51bb196781c8058073ea720133a65596f Linux 6.9-rc5
-14bd7f0fb7a16f39ac72356f6bee42e88dea6fa8 m68k: Calculate THREAD_SIZE from THREAD_SIZE_ORDER
-516650d52638d83e9876766d67f0a9cbd2be7f40 m68k: atari: usb: Add ISP1160 USB host controller support
-c08e8a0a48a966a696dd9c1a6be7a0385a75f841 m68k: atari: Update Kconfig.bus help text
-399a770946401dcf790ba8601103318e3a825d61 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3344779161387043901==--
+--===============2220813111704457696==--
