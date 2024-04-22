@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2220813111704457696=="
+Content-Type: multipart/mixed; boundary="===============0213505284889388306=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 22 Apr 2024 15:09:28 -0000
-Message-Id: <171379856854.23488.15516740176789424611@gitolite.kernel.org>
+Date: Mon, 22 Apr 2024 15:10:40 -0000
+Message-Id: <171379864005.25577.5458599399623859302@gitolite.kernel.org>
 
---===============2220813111704457696==
+--===============0213505284889388306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 0bbac3facb5d6cc0171c45c9873a2dc96bea9680
-    new: ed30a4a51bb196781c8058073ea720133a65596f
-    log: revlist-0bbac3facb5d-ed30a4a51bb1.txt
-  - ref: refs/tags/v6.9-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f7106f2f9cc0b361fbc610a7e0c74c8e0658d9b5
+  - ref: refs/heads/kbuild
+    old: 34987a8e973a0e1b4751523d91eb4b2b3d39a18b
+    new: 8246a1e9b922c0e797ec28d8a602de1384ff8140
+    log: revlist-34987a8e973a-8246a1e9b922.txt
 
---===============2220813111704457696==
+--===============0213505284889388306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bbac3facb5d-ed30a4a51bb1.txt
+Content-Disposition: attachment; filename=revlist-34987a8e973a-8246a1e9b922.txt
 
 59097a2a5ecadb0f025232c665fd11c8ae1e1f58 interconnect: qcom: x1e80100: Remove inexistent ACV_PERF BCM
 de1bf25b6d771abdb52d43546cf57ad775fb68a1 interconnect: Don't access req_list while it's being manipulated
@@ -359,5 +356,12 @@ c0c6b5c090ead778b3a8132201d25040b1fdcbf8 Merge tag 'tty-6.9-rc5' of git://git.ke
 4e90ba757b1bc4d6a787e85d0a079d1dbfa9608f Merge tag 'driver-core-6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 48cf398f15fc3b2af11c78fed548355d3b66ca11 Merge tag 'char-misc-6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 ed30a4a51bb196781c8058073ea720133a65596f Linux 6.9-rc5
+72a9913a8554f5c05b20005980d3dfbf905af9f8 parisc: vdso: remove unused C build rule in vdso32/Makefile
+10f94d8fcc0880c93d7697184fe199022792a61c scripts/unifdef: avoid constexpr keyword
+65c165070dde2f374c274eacf4f94b136f2feabd kbuild: buildtar: add comments about inconsistent package generation
+82d460edc1fc3127dfaf7f6b980d7221455bcca1 vmlinux: Avoid weak reference to notes section
+0bdad28369fc5e93de39b5046228ed78e982fc71 kallsyms: Avoid weak references for kallsyms symbols
+8ad61a3c20008c09306b46c4b68fa7485f8c0b0f kconfig: add menu_next() function and menu_for_each(_sub)_entry macros
+8246a1e9b922c0e797ec28d8a602de1384ff8140 kconfig: use menu_for_each_entry() to traverse menu tree
 
---===============2220813111704457696==--
+--===============0213505284889388306==--
