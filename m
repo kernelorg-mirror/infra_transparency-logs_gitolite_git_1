@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3619682369563893104=="
+Content-Type: multipart/mixed; boundary="===============7434101784703199902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 22 Apr 2024 22:51:57 -0000
-Message-Id: <171382631731.18947.8780409729882705231@gitolite.kernel.org>
+Date: Mon, 22 Apr 2024 22:52:01 -0000
+Message-Id: <171382632194.19038.15370363300286635246@gitolite.kernel.org>
 
---===============3619682369563893104==
+--===============7434101784703199902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
+  - ref: refs/heads/i2c/i2c-host-next
     old: 86eb98127332748fda5cb16c4e597b3922cb6fb9
     new: 507a2da9539cdb839a1a2e57bfcca644bcfe0f03
     log: revlist-86eb98127332-507a2da9539c.txt
 
---===============3619682369563893104==
+--===============7434101784703199902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1713826316 +0200
+pusher andi.shyti@kernel.org 1713826321 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1713826315-8894a7f9181ad89b966098343c6362960e7bb76f
+nonce 1713826320-79b6264cc441c7be461fad6507f5d82d4082e1c3
 
-86eb98127332748fda5cb16c4e597b3922cb6fb9 507a2da9539cdb839a1a2e57bfcca644bcfe0f03 refs/heads/i2c/i2c-host
+86eb98127332748fda5cb16c4e597b3922cb6fb9 507a2da9539cdb839a1a2e57bfcca644bcfe0f03 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZibqDBYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1usOUBAJ55U0kqgWRns7z+NpSSYmebTByo
-GqZyWmgHUZrqIW1iAP96b8IhrKjgwaX1zbFfIgwtBOYiCgnickGmr957slSoAw==
-=fH4H
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZibqERYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uIhkBAPApmClSVI22dVB3fJ5iujIwUo9C
+IPgYPPs8+FSGfMCwAQDZaqbNGZGvKfT3961RPd53OASPzHhQF6x+OOiiOK2NAg==
+=aVyr
 -----END PGP SIGNATURE-----
 
---===============3619682369563893104==
+--===============7434101784703199902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +66,4 @@ bff862e67260f779b2188e4b39c1a9f9989532ee i2c: st: remove printout on handled tim
 c31bc8e162890cda38d045e73ff0004119ab28e7 i2c: uniphier-f: remove printout on handled timeouts
 507a2da9539cdb839a1a2e57bfcca644bcfe0f03 i2c: uniphier: remove printout on handled timeouts
 
---===============3619682369563893104==--
+--===============7434101784703199902==--
