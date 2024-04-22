@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8772452001542003827=="
+Content-Type: multipart/mixed; boundary="===============5610270726479967120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 22 Apr 2024 22:17:23 -0000
-Message-Id: <171382424362.25540.12388645928137508948@gitolite.kernel.org>
+Date: Mon, 22 Apr 2024 22:17:26 -0000
+Message-Id: <171382424652.25612.5273062163671156847@gitolite.kernel.org>
 
---===============8772452001542003827==
+--===============5610270726479967120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 974161980d5b7a9fc9b90ad8dcf07576bcf3b8ec
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 0bbac3facb5d6cc0171c45c9873a2dc96bea9680
     new: 86eb98127332748fda5cb16c4e597b3922cb6fb9
-    log: revlist-974161980d5b-86eb98127332.txt
+    log: revlist-0bbac3facb5d-86eb98127332.txt
 
---===============8772452001542003827==
+--===============5610270726479967120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1713824242 +0200
+pusher andi.shyti@kernel.org 1713824245 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1713824241-d147adf55e504aba8de142c155489964ad2141b5
+nonce 1713824245-f6060348d8f65ab29038748fab60645574d8a16c
 
-974161980d5b7a9fc9b90ad8dcf07576bcf3b8ec 86eb98127332748fda5cb16c4e597b3922cb6fb9 refs/heads/i2c/i2c-host
+0bbac3facb5d6cc0171c45c9873a2dc96bea9680 86eb98127332748fda5cb16c4e597b3922cb6fb9 refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZibh8hYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uVFIA/RJAuwYyv3OiV9AFkY+GHy/MeKic
-GsDSg7qz28G53acBAPsHDQsVMxo++K09iov6hbr4BoD20aITWklgxrCxchJjCw==
-=FrEJ
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZibh9RYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uqGABAJzK+U5WimwaDVhJoNdh4VCF2paf
+feZqBy5sL4emfAIVAQCKffTisslc1o/r50LXhX77zR/7r68XeU6W8vUWLy1pAw==
+=eUXS
 -----END PGP SIGNATURE-----
 
---===============8772452001542003827==
+--===============5610270726479967120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-974161980d5b-86eb98127332.txt
+Content-Disposition: attachment; filename=revlist-0bbac3facb5d-86eb98127332.txt
 
 59097a2a5ecadb0f025232c665fd11c8ae1e1f58 interconnect: qcom: x1e80100: Remove inexistent ACV_PERF BCM
 de1bf25b6d771abdb52d43546cf57ad775fb68a1 interconnect: Don't access req_list while it's being manipulated
@@ -396,4 +396,4 @@ d20c6d1437279495c8c0852148d13e7149913c32 i2c: mux: gpio: remove support for clas
 af574a117e9bcbdd76d3624d36988a3b07723102 i2c: i801: Annotate apanel_addr as __ro_after_init
 86eb98127332748fda5cb16c4e597b3922cb6fb9 gpio: pca953x: move suspend()/resume() to suspend_noirq()/resume_noirq()
 
---===============8772452001542003827==--
+--===============5610270726479967120==--
