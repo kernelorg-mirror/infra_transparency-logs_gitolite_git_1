@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8305432630415040393=="
+Content-Type: multipart/mixed; boundary="===============6044962673812284980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 22 Apr 2024 08:08:37 -0000
-Message-Id: <171377331716.30719.11289144093764574094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 22 Apr 2024 08:08:43 -0000
+Message-Id: <171377332378.30826.14856881622983963941@gitolite.kernel.org>
 
---===============8305432630415040393==
+--===============6044962673812284980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/asoc-6.10
     old: 27a153e0ec88bb64cb2199c55826624c42f6c6b9
     new: 710f9a3673d6839c485d6a1cd59a2b5078092d47
     log: revlist-27a153e0ec88-710f9a3673d6.txt
 
---===============8305432630415040393==
+--===============6044962673812284980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1713773315 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1713773315-8c55f813806ed0f9237867327d5f6979cea7e164
+pusher Mark Brown <broonie@kernel.org> 1713773321 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1713773321-3935b370f78a5fb58a7562bbc26139e19dfa0270
 
-27a153e0ec88bb64cb2199c55826624c42f6c6b9 710f9a3673d6839c485d6a1cd59a2b5078092d47 refs/heads/for-6.10
+27a153e0ec88bb64cb2199c55826624c42f6c6b9 710f9a3673d6839c485d6a1cd59a2b5078092d47 refs/heads/asoc-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYmGwMTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0FzLB/0VGYKXp8uVN6/iwJhAiixM2kNTpSOi
-aVNLJbdDiR4w8kl/jzqj0Mi7OT8tyM1PfZHqcgpgNv3NKSh46CTn2IAHORGklmuZ
-UvxDdLOJdRq2OjPnTHkXF2q55us26N5jYtPU2gqGt6g1507XBTTAZGhm18uAj+2v
-We1wHlIm6oFVUNppqQOCSiKMPzZTPJZQVPJQtsSLXum/YBEjYBmeo0ES+D8YQFNv
-lDRh/HLC5jvjjB+updxx1KENSjhQaUFE7FSoVibEhXP8pcQZQzmwwo9dJzEPYSAz
-TDA6AENTtbNx/ef5wKXvzNqM41MN4lYRPhaJ4Lk/4Syp16N0d9R2kdoQ
-=Budk
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYmGwkTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0PMvB/4nO1QmrWAz/TVYWw8n3bjEHvdqE6BA
+s+rano6Q9v/p2cQcnYEbk3nIZ9IHRQdRPk6h5BvyhB8J6pWVCzbG8eITE1D31v/x
+go5z5IyZzzGvV3b2phxzjc28GbvEClocOKMRJeggy4asw3TBdTrr0yu8iJegIxL4
+n3YWlvJhtxNJEg1M6r1mukzvlEmih4IRBSaRpHNGZt1FWxty/TpHDzP3LsxvzbkW
+D2EA/IHwCBuyXYB2FOXPwsXdyy59ViXqt8Z3+8+SpmwnecZdVXJibCAHD8hE7A/O
+UOBupoCEhIFLUrgE+q4BRgEeuCh3a+sj3ksJcWXk6mZuKS4MMX3B64ZM
+=cCKF
 -----END PGP SIGNATURE-----
 
---===============8305432630415040393==
+--===============6044962673812284980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ bd74e9c31f0d1880ff4482f1a7ce33a006d870ed ASoC: nau8821: Add delay control for AD
 512622407ce3234f5f4b88e1e9f5090f389cc5c2 ASoC: dapm: improve debugfs output and introduce
 710f9a3673d6839c485d6a1cd59a2b5078092d47 ASoC: PCM6240: New driver
 
---===============8305432630415040393==--
+--===============6044962673812284980==--
