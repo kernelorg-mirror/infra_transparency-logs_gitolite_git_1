@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 22 Apr 2024 22:46:56 -0000
-Message-Id: <171382601638.15359.706749748028193304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Mon, 22 Apr 2024 22:47:02 -0000
+Message-Id: <171382602231.15468.11453542211515197864@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/network/connman/connman
+user: denkenz
 changes:
-  - ref: refs/heads/kvm-arm64/nv-eret-pauth
-    old: bbc0226330e9694bfceff4cb2f9a6e3a6df06116
-    new: fe4763e18355244a236075d2d3f68f4abae31448
+  - ref: refs/heads/master
+    old: be1767db744b5f1bc0340e25d0d49464c9f7f78d
+    new: 3ba031745fe0ece6676bea7fe3ee03e4736fac66
     log: |
-         fe4763e18355244a236075d2d3f68f4abae31448 KVM: arm64: nv: Work around lack of pauth support in old toolchains
+         3ba031745fe0ece6676bea7fe3ee03e4736fac66 dnsproxy: Fix cached ttl update
          
