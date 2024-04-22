@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 22 Apr 2024 23:48:57 -0000
-Message-Id: <171382973728.27540.14355353280834321545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 22 Apr 2024 23:50:02 -0000
+Message-Id: <171382980218.28129.6402721338586608516@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 3caec8af8e2ecb0f50039f31f04e3269cdb44bc9
-    new: 2d3cf73cbc05d5d8c929d37db6a81da6f7242c55
+    old: a2c63a3f3d687ac4f63bf4ffa04d7458a2db350b
+    new: 71b1543c83d65af8215d7558d70fc2ecbee77dcf
     log: |
-         122ea3f6ee99f9dc9cdf41e537080867dd4dc8cf Fixes for 6.8
-         2d3cf73cbc05d5d8c929d37db6a81da6f7242c55 Fixes for 6.6
+         c119f4ede3fa90a9463f50831761c28f989bfb20 ksmbd: fix slab-out-of-bounds in smb2_allocate_rsp_buf
+         17cf0c2794bdb6f39671265aa18aea5c22ee8c4a ksmbd: validate request buffer size in smb2_allocate_rsp_buf()
+         4973b04d3ea577db80c501c5f14e68ec69fe1794 ksmbd: clear RENAME_NOREPLACE before calling vfs_rename
+         0268a7cc7fdc47d90b6c18859de7718d5059f6f1 ksmbd: common: use struct_group_attr instead of struct_group for network_open_info
+         e9d8c2f95ab8acaf3f4d4a53682a4afa3c263692 ksmbd: add continuous availability share parameter
+         71b1543c83d65af8215d7558d70fc2ecbee77dcf Merge tag '6.9-rc5-ksmbd-fixes' of git://git.samba.org/ksmbd
          
