@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6442770670869037752=="
+Content-Type: multipart/mixed; boundary="===============3879942630816860021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Mon, 22 Apr 2024 15:18:41 -0000
-Message-Id: <171379912153.30231.12881746772571129655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 22 Apr 2024 15:19:47 -0000
+Message-Id: <171379918776.30683.1835075469146821115@gitolite.kernel.org>
 
---===============6442770670869037752==
+--===============3879942630816860021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-next
-    old: 09492cb45100cab909cabe164deb7cdc14e38634
-    new: f628eae08ac86e262b3a0b3e8ad2354c131f13f9
-    log: revlist-09492cb45100-f628eae08ac8.txt
+  - ref: refs/heads/testing
+    old: 8081f501d2b85f0cb44a7bb1e7293f1f9be09d08
+    new: 6c07ce94af3ac0c92f007e9cbad4c0583092c2fd
+    log: revlist-8081f501d2b8-6c07ce94af3a.txt
 
---===============6442770670869037752==
+--===============3879942630816860021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09492cb45100-f628eae08ac8.txt
+Content-Disposition: attachment; filename=revlist-8081f501d2b8-6c07ce94af3a.txt
 
 e5f4e68eed85fa8495d78cd966eecc2b27bb9e53 tools/power turbostat: Fix added raw MSR output
 3ac1d14d0583a2de75d49a5234d767e2590384dd tools/power turbostat: Increase the limit for fd opened
@@ -90,12 +90,6 @@ e48934c9f1048ed4640b60321baf1986d1a470e1 tools/power turbostat: Add reading aper
 aed48c48fa65abdd584e14f7d0273711bc10d223 tools/power turbostat: add early exits for permission checks
 4a1bb4dad5d16669e841410944e7bc84ef7263fc tools/power turbostat: Clear added counters when in no-msr mode
 ebf8449caba1df2eb6ba0b465fe15dc06d3b9135 tools/power turbostat: Add proper re-initialization for perf file descriptors
-141fb8cd206ace23c02cd2791c6da52c1d77d42a btrfs: qgroup: correctly model root qgroup rsv in convert
-74e97958121aa1f5854da6effba70143f051b0cd btrfs: qgroup: fix qgroup prealloc rsv leak in subvolume operations
-71537e35c324ea6fbd68377a4f26bb93a831ae35 btrfs: record delayed inode root in transaction
-211de93367304ab395357f8cb12568a4d1e20701 btrfs: qgroup: convert PREALLOC to PERTRANS after record_root_in_trans
-3c6f0c5ecc8910d4ffb0dfe85609ebc0c91c8f34 btrfs: make btrfs_clear_delalloc_extent() free delalloc reserve
-6e68de0bb0ed59e0554a0c15ede7308c47351e2d btrfs: always clear PERTRANS metadata during commit
 135f218255b28c5bbf71e9e32a49e5c734cabbe5 ARM: dts: imx7s-warp: Pass OV2680 link-frequencies
 5bd31ab5f79eb6e3bdfa0ca0b57650f9d1604062 powerpc/iommu: Refactor spapr_tce_platform_iommu_attach_dev()
 1d86c2b3946e69d6b0b93568d312aae6247847c0 arm64: dts: imx8-ss-lsio: fix pwm lpcg indices
@@ -110,9 +104,6 @@ e7d24c0aa8e678f41457d1304e2091cac6fd1a2e gcc-plugins/stackleak: Avoid .head.text
 bbda3ba626b9f57ff6063058877eca856f5b734d ubsan: fix unused variable warning in test module
 9c573cd313433f6c1f7236fe64b9b743500c1628 randomize_kstack: Improve entropy diffusion
 e60aa472400b1ff8d0e6c563a2eb05916927f10a bcachefs: create debugfs dir for each btree
-7d8ed162e6a92268d4b2b84d364a931216102c8e memblock tests: fix undefined reference to `early_pfn_to_nid'
-e0f5a8e74be88f2476e58b25d3b49a9521bdc4ec memblock tests: fix undefined reference to `panic'
-592447f6cb3c20d606d6c5d8e6af68e99707b786 memblock tests: fix undefined reference to `BIT'
 5bfc311dd6c376d350b39028b9000ad766ddc934 usb: xhci: correct return value in case of STS_HCE
 dda7e89e53d6ebf27c49df7d87a54e3e1614d332 xhci: Fix root hub port null pointer dereference in xhci tracepoints
 69630926011c1f7170a465b7b5c228deb66e9372 powerpc/crypto/chacha-p10: Fix failure on non Power10
@@ -230,7 +221,6 @@ e3d4ead4d48c05355bd3b99c8162428f68c3c1a5 drm/i915/psr: Disable PSR when bigjoine
 0653d501409eeb9f1deb7e4c12e4d0d2c9f1cba1 drm/i915: Disable port sync when bigjoiner is used
 4a36e46df7aa781c756f09727d37dc2783f1ee75 drm/i915: Disable live M/N updates when using bigjoiner
 dcd8992e47f13afb5c11a61e8d9c141c35e23751 drm/i915/vrr: Disable VRR when using bigjoiner
-4f0a8fe3215c432234baed20eb8210efe1c32b10 Merge tag 'fixes-2024-04-08' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 0cd01ac5dcb1e18eb18df0f0d05b5de76522a437 x86/bugs: Change commas to semicolons in 'spectre_v2' sysfs file
 1e3ad78334a69b36e107232e337f9d693dcc9df2 x86/syscall: Don't force use of indirect calls for system calls
 7390db8aea0d64e9deb28b8e1ce716f5020c7ee5 x86/bhi: Add support for clearing branch history at syscall entry
@@ -240,7 +230,6 @@ ec9404e40e8f36421a2b66ecb76dc2209fe7f3ef x86/bhi: Add BHI mitigation knob
 95a6ccbdc7199a14b71ad8901cb788ba7fb5167b x86/bhi: Mitigate KVM by default
 ed2e8d49b54d677f3123668a21a57822d679651f KVM: x86: Add BHI_NO
 8db8f6ce556af60ca9a9fd5e826d369ded70fcc7 scsi: ufs: qcom: Add missing interconnect bandwidth values for Gear 5
-20cb38a7af88dc40095da7c2c9094da3873fea23 Merge tag 'for-6.9-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 18f06e97692516d28c3cdc577fb5c501d690b303 KVM: Add helpers to consolidate gfn_to_pfn_cache's page split check
 5c9ca4ed890889a2b7c300c4f63f3baf3f63383f KVM: Check validity of offset+length of gfn_to_pfn_cache prior to activation
 fc62a4e8dee2d1a9037e8cdeaa52ba67457f7300 KVM: Explicitly disallow activatating a gfn_to_pfn_cache with INVALID_GPA
@@ -596,8 +585,12 @@ f0a73d4fde5b285d94a702026216d9fd1fd2733d bcachefs: Check for backpointer bucket_
 c281d18dda402a2d180b921eebc7fe22b76699cf Merge tag 'thunderbolt-for-v6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 356952b13af5b2c338df1e06889fd1b5e12cbbf4 USB: serial: option: add Fibocom FM135-GL variants
 c840244aba7ad2b83ed904378b36bd6aef25511c USB: serial: option: support Quectel EM060K sub-models
+4864a6dd8320ad856698f93009c89f66ccb1653f fuse: fix wrong ff->iomode state changes from parallel dio write
+7cc911262835419fe469ebfae89891c0e97c62ef fuse: fix parallel dio write on file open in passthrough mode
+eb4b691b9115fae4c844f5941418335575cf667f fuse: fix leaked ENOSYS error on first statx call
 fff1386cc889d8fb4089d285f883f8cba62d82ce nouveau: fix instmem race condition around ptr stores
 cf92bb778eda7830e79452c6917efa8474a30c1e drm: nv04: Fix out of bounds access
+09492cb45100cab909cabe164deb7cdc14e38634 cuse: add kernel-doc comments to cuse_process_init_reply()
 460b0d33cf10eee33de651381d3170ef13241650 inet: bring NLM_DONE out to a separate recv() again
 75ce9506ee3dc66648a7d74ab3b0acfa364d6d43 octeontx2-pf: fix FLOW_DIS_IS_FRAGMENT implementation
 b6976f323a8687cc0d55bc92c2086fd934324ed5 drm/ttm: stop pooling cached NUMA pages v2
@@ -752,7 +745,32 @@ c0c6b5c090ead778b3a8132201d25040b1fdcbf8 Merge tag 'tty-6.9-rc5' of git://git.ke
 4e90ba757b1bc4d6a787e85d0a079d1dbfa9608f Merge tag 'driver-core-6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 48cf398f15fc3b2af11c78fed548355d3b66ca11 Merge tag 'char-misc-6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 ed30a4a51bb196781c8058073ea720133a65596f Linux 6.9-rc5
-aef8acd79f363ced098cd3bcde0a5978a52607ad fuse: verify zero padding in fuse_backing_map
-f628eae08ac86e262b3a0b3e8ad2354c131f13f9 fuse: Convert fuse_readpages_end() to use folio_end_read()
+2fb7cbb39c8e4d02bdd35326d79cde09bc8d4996 xtensa: remove redundant flush_dcache_page and ARCH_IMPLEMENTS_FLUSH_DCACHE_PAGE macros
+837f1c4bedadf1ea68ce559af3786dacb7c95bb3 Revert "sh: Handle calling csum_partial with misaligned data"
+ac3b5117cbee74353bfef655ad6cb17493bbd75e ext4: implement filesystem specific alloc_inode in unit test
+5951a311dd0e17f94115c5d9ebcf2b2f7af65853 net: dev_addr_lists: move locking out of init/exit in kunit
+2f587f71a7da93f3d68f01de809270ca14b1e544 m68k: fix spinlock race in kernel thread creation
+ca073962cee61d39c7a5299a64deb5e6bfe98185 nios2: Call handle_mm_fault() with interrupts enabled
+e5f7e27fc93be619a55222c1b3f27fb6e6d18b85 bug/kunit: Core support for suppressing warning backtraces
+09c701c349b10528848684bf2086f4567a7352ef kunit: bug: Count suppressed warning backtraces
+40657811e9dc4182977bde9a18afc98dabbe6ee2 kunit: Add test cases for backtrace warning suppression
+901a4bf4793bf05d69d187f41c5e22eb1bb915e6 kunit: Add documentation for warning backtrace suppression API
+36f994354484d67eb343571aa5d1cf128d53ccea drm: Suppress intentional warning backtraces in scaling unit tests
+f2303b1f4591b428ccae8b2e4571ab835f3e2317 x86: Add support for suppressing warning backtraces
+75703f6cbf1258c02d25f71508e257236709054d arm64: Add support for suppressing warning backtraces
+809f8535f5f9fdee8261d0caea26726a83ae563f loongarch: Add support for suppressing warning backtraces
+a1c6d2f1fb7fb021d43584a742f898d1347c9f25 parisc: Add support for suppressing warning backtraces
+5d126052ce82ccd9b1f04b7d9e97dbddfac26889 s390: Add support for suppressing warning backtraces
+373c33c97e6b28ae95183efd88cd8aafa630aba5 sh: Add support for suppressing warning backtraces
+db3839052b2052c60a6d4418474a91052069e8bb rtc: test: Split rtc unit test into slow and normal speed test
+65f78510c30af93563f8501c796d9901b22bbb65 sh: Move defines needed for suppressing warning backtraces
+e85983a7870da088bd608c1d18ae1535a266bfbc kunit: time: Add faster unit test with shorter time range
+7c8058dd014be6308ad70bf0fda6f5f37794c6f0 riscv: Add support for suppressing warning backtraces
+4d6d85e71a6b0472bf5d335a6e3c6cb6366ca123 mm/slub, kunit: Use inverted data to corrupt kmem cache
+ca5d8d7d32863b305a23d807ac0215eded0ccbac powerpc: Add support for suppressing warning backtraces
+076ba88dbae120b8ce4a714b4b378cf2b3de74ba bcachefs: Fix format specifier in validate_bset_keys()
+80e692a1af4edee5e11839cd5bff64b994f944cb Merge branch 'nios2' into testing
+10691683a10d43bbfb787ffee7b95343f5181638 Merge branch 'kunit-improvements' into testing
+6c07ce94af3ac0c92f007e9cbad4c0583092c2fd Merge branch 'kunit-v4' into testing
 
---===============6442770670869037752==--
+--===============3879942630816860021==--
