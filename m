@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3243709973228716778=="
+Content-Type: multipart/mixed; boundary="===============2374060690995748673=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 22 Apr 2024 20:56:25 -0000
-Message-Id: <171381938542.31179.14824582746921328421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 22 Apr 2024 20:57:02 -0000
+Message-Id: <171381942292.31548.2593868458662857075@gitolite.kernel.org>
 
---===============3243709973228716778==
+--===============2374060690995748673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: e7a8074d2f62c7c571e1e794f6eb2c90f68c514e
     log: revlist-61ba075d9911-e7a8074d2f62.txt
 
---===============3243709973228716778==
+--===============2374060690995748673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ed30a4a51bb196781c8058073ea720133a65596f Linux 6.9-rc5
 173b0b5b0e865348684c02bd9cb1d22b5d46e458 Merge remote-tracking branch 'torvalds/master' into perf-tools-next
 e7a8074d2f62c7c571e1e794f6eb2c90f68c514e tools include UAPI: Sync linux/vhost.h with the kernel sources
 
---===============3243709973228716778==--
+--===============2374060690995748673==--
