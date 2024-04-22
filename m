@@ -1,63 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============3429850706077150487=="
+Content-Type: multipart/mixed; boundary="===============1989941418218311596=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Mon, 22 Apr 2024 18:43:55 -0000
-Message-Id: <171381143531.17703.516237468745533682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
+Date: Mon, 22 Apr 2024 18:47:16 -0000
+Message-Id: <171381163635.20889.6774164279913985835@gitolite.kernel.org>
 
---===============3429850706077150487==
+--===============1989941418218311596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/oupton/linux
+user: oupton
 changes:
-  - ref: refs/heads/master
-    old: f30131c98526c9313d5cf998d098a229b4569110
-    new: 515b40b3062a923cddaca138b5410ebcff43fbf8
-    log: revlist-f30131c98526-515b40b3062a.txt
-  - ref: refs/heads/next
-    old: 6f87d763c1dc8e9812cbec5fcded112a8f137880
-    new: 515b40b3062a923cddaca138b5410ebcff43fbf8
-    log: |
-         515b40b3062a923cddaca138b5410ebcff43fbf8 Update the version
-         
-  - ref: refs/tags/v2.3.2
-    old: 0000000000000000000000000000000000000000
-    new: b2c110573f7bc8891d46851ec39ffb5cf6723a8c
+  - ref: refs/heads/kvm-arm64/lpi-xarray-cache
+    old: 7e302ba1b33422d5e897156456df8346b198603c
+    new: 13a62d055c0317d22c5224b3e64f98fed0a803d9
+    log: revlist-7e302ba1b334-13a62d055c03.txt
 
---===============3429850706077150487==
+--===============1989941418218311596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f30131c98526-515b40b3062a.txt
+Content-Disposition: attachment; filename=revlist-7e302ba1b334-13a62d055c03.txt
 
-f4ace2376a0d7dd67c259bc77c7a742546e0c298 _damo_records: Fix wrong file path reference in start_recording()
-a25188c7ca61851b368e18caf0a8cbf7e92a51ad _damo_records: Handle a case where a process finished while collecting memory footprint
-7f18fd430165fb52d92e6410025c382290e44590 _damo_records: Poll target processes if exist
-7596ac1d13e868e43a786e7c79f8951ab636400c TODO: Update
-13d02fa98564945260994dbc4844918691816e5f release_note: Update for next release
-74c13004f31e8ed4a2669a3edfd89ca6651c784c Update the version
-2834a3af271595ddd8dd7d018d37296dd5cd9469 _damon: Support human readable time string for goal target value for some_mem_psi metric
-3a9b8e821befb1323726b7b59aee14b4d815357d damo_wss: Add an option for collapsed target wss
-962ed38e03a0ee64a510709fe13a57c222c61290 _damo_fs: compare with s_subtype instead for mnt_devname
-894231f20096c719d218834efca3855fda3bcd78 TODO: Add items
-f044a62cee5918aac8e180d8313604a652af3971 TODO: Update
-f6c5cb33375e70450cff2c2f3ef3cb5706825cc9 TODO: Add an item
-01def38580612da18b0d789d0eb9acab2090ee53 _damo_records: Handle profile and memory footprint from finish_recording()
-69eb6c434f4067f64d5fed0dc6f4ff680fcf3d7e _damo_records: Rename MemFootprint to ProcMemFootprint
-f8ee2fd5ee7d67ce2851a5a2369a62ac6e0eb5a9 _damo_records: Implement SysMemFootprint class
-b17e278b9d9dd660d6fb49dc89437b06475c96c2 _damo_records: Implement SysMemFootprint.from_kvpairs()
-176b497476a64303d0530ab29282c729bf255c61 _damo_records: Save/load system memory footprint
-e302633d18f864bbb1988966849e45dd9e00bd14 damo_report_footprint: Calculate footprint in bytes
-2072ae696069dea6681034e9c08dae3432d558b7 damo_report_footprint: Support system-level used memory metric, sys_used
-aa2c2c4295625baa8e8ecc082d0f65b3e79c4572 USAGE: Use list for 'report footprints' metrics
-58abe5602da443a523b989abae53ce85753ebb9b USAGE: Document 'sys_used' metric for 'report footprints'
-db6ae112919760d448aee9035d32ed38cca5c42e TODO: Update
-6f87d763c1dc8e9812cbec5fcded112a8f137880 relese_note: Update for next release
-515b40b3062a923cddaca138b5410ebcff43fbf8 Update the version
+7b35ea8cc70e08769883332bdef33cde4755263c KVM: Treat the device list as an rculist
+0a6041475c3adbcab43c828b2ff96d80e9bc8f4c KVM: arm64: vgic-its: Walk LPI xarray in its_sync_lpi_pending_table()
+619695bf46c6c727b708b1830ac320b337844fc4 KVM: arm64: vgic-its: Walk LPI xarray in vgic_its_invall()
+343cd4dd19d8c7a102352a3acce3900c9e9b57c0 KVM: arm64: vgic-its: Walk LPI xarray in vgic_its_cmd_handle_movall()
+735d2e37f32adf519f881bb051290349caa751d7 KVM: arm64: vgic-debug: Use an xarray mark for debug iterator
+9984d3d66d3dfa528ef91cea18bf26961a23ae4c KVM: arm64: vgic-its: Get rid of vgic_copy_lpi_list()
+ad1315bc70acce26c0dcc4549278549ee5455e05 KVM: arm64: vgic-its: Scope translation cache invalidations to an ITS
+32c256d59184176b052be21fa1179cc9d943b002 KVM: arm64: vgic-its: Maintain a translation cache per ITS
+d3e7647fdeca054a4f40629438a89a2e35a47844 KVM: arm64: vgic-its: Spin off helper for finding ITS by doorbell addr
+074be0f9640848dbf7693695f449304b5c6b8a1b KVM: arm64: vgic-its: Use the per-ITS translation cache for injection
+07276b8173a6457eb67423fefcb66bd9d1f4fdd1 KVM: arm64: vgic-its: Rip out the global translation cache
+bf8fe46912250e48681a2ed545b09abecabfa620 KVM: arm64: vgic-its: Get rid of the lpi_list_lock
+fc8f1a8b9cf6e20e209b62b6566f45cad20c95ee KVM: selftests: Align with kernel's GIC definitions
+7aa275e734e6bf919ce13a433764ba4527cbad71 KVM: selftests: Standardise layout of GIC frames
+eaa9400467258af3fb3878f8d0b9ab76ebb5beaa KVM: selftests: Add quadword MMIO accessors
+8c04a70eb817582f5e22e8dc0c110d951269288b KVM: selftests: Add a minimal library for interacting with an ITS
+db0169a99ae1094575a58dc93e7379d07b225bc3 KVM: selftests: Add helper for enabling LPIs on a redistributor
+0602e2e38a7d08d7ec8b75cbd1598128e67efd29 KVM: selftests: Use MPIDR_HWID_BITMASK from cputype.h
+13a62d055c0317d22c5224b3e64f98fed0a803d9 KVM: selftests: Add stress test for LPI injection
 
---===============3429850706077150487==--
+--===============1989941418218311596==--
