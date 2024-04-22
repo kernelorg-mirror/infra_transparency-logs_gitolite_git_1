@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0213505284889388306=="
+Content-Type: multipart/mixed; boundary="===============0038154776297786102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 22 Apr 2024 15:10:40 -0000
-Message-Id: <171379864005.25577.5458599399623859302@gitolite.kernel.org>
+Date: Mon, 22 Apr 2024 15:10:52 -0000
+Message-Id: <171379865245.25744.1251352403804627295@gitolite.kernel.org>
 
---===============0213505284889388306==
+--===============0038154776297786102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 34987a8e973a0e1b4751523d91eb4b2b3d39a18b
     new: 8246a1e9b922c0e797ec28d8a602de1384ff8140
     log: revlist-34987a8e973a-8246a1e9b922.txt
 
---===============0213505284889388306==
+--===============0038154776297786102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -364,4 +364,4 @@ ed30a4a51bb196781c8058073ea720133a65596f Linux 6.9-rc5
 8ad61a3c20008c09306b46c4b68fa7485f8c0b0f kconfig: add menu_next() function and menu_for_each(_sub)_entry macros
 8246a1e9b922c0e797ec28d8a602de1384ff8140 kconfig: use menu_for_each_entry() to traverse menu tree
 
---===============0213505284889388306==--
+--===============0038154776297786102==--
