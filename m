@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 22 Apr 2024 23:07:16 -0000
-Message-Id: <171382723674.30727.12610454386655295299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 22 Apr 2024 23:14:13 -0000
+Message-Id: <171382765342.2554.13365701734898131295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: bcaf0740e4597eba883b613ee153e97c5c80931a
-    new: d504cde6f666ac02cdc78f5ee948430df6d72f44
+    old: ba307a5410f4272d164235157b30053427b626a0
+    new: 3caec8af8e2ecb0f50039f31f04e3269cdb44bc9
     log: |
-         cde5894ad6393b984a5f7039ddbfb34b4dc41265 foo
-         b5a49e21359a96a0d69019f9d95cdf04d0653e3d foo
-         a5e0ce0f06074a9a3bf65ee7c0a862a78b1a440d foo
-         d504cde6f666ac02cdc78f5ee948430df6d72f44 foo
+         3dec8f7a596675511906c8d365b8783988290cbf Fixes for 6.8
+         6194356d25f56a1a69c0655f6dd9db60d8b1b2b0 Fixes for 6.6
+         3f30c88bf73cf54e5788338aebc1e2678504e98a Fixes for 6.1
+         d6fc906b7aa432d098330a5918a2eccaebd9cdf5 Fixes for 5.15
+         83ea6a0de1fc036b4c8edcf7a8028a9d6d3dcb50 Fixes for 5.10
+         3caec8af8e2ecb0f50039f31f04e3269cdb44bc9 Fixes for 5.4
          
