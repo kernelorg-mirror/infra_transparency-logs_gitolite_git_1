@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============4073962630752642906=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 23 Apr 2024 16:43:21 -0000
-Message-Id: <171389060184.12766.14129491442655958892@gitolite.kernel.org>
-
---===============4073962630752642906==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 23 Apr 2024 16:43:43 -0000
+Message-Id: <171389062394.12968.12820899162983863485@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 72f028bd71cc4f3ca223dda7b2791b3e36d05ace
-    new: 5b8c8b93b6b95318982ef23f67be7da390c2e8b2
+    old: 71b1543c83d65af8215d7558d70fc2ecbee77dcf
+    new: 9d1ddab261f3e2af7c384dc02238784ce0cf9f98
     log: |
-         5b8c8b93b6b95318982ef23f67be7da390c2e8b2 5.15-stable patches
+         dad80c6bff770d25f67ec25fe011730e4a463008 cifs: Fix reacquisition of volume cookie on still-live connection
+         afc23febd51c7e24361e3a9c09f3e892eb0a41ea cifs: Add tracing for the cifs_tcon struct refcounting
+         18d86965e31f9be4d477da0744a7cdc9815858de smb: client: fix rename(2) regression against samba
+         77d8aa79ecfb209308e0644c02f655122b31def7 cifs: reinstate original behavior again for forceuid/forcegid
+         9d1ddab261f3e2af7c384dc02238784ce0cf9f98 Merge tag '6.9-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
          
-
---===============4073962630752642906==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713890592 -0700
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1713890600-dae845421b2fb8f0af8faf0ce9ad4ee3caa845e5
-
-72f028bd71cc4f3ca223dda7b2791b3e36d05ace 5b8c8b93b6b95318982ef23f67be7da390c2e8b2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYn5SAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h+kQAI6hxuZKBFUAUKNoiAeL
-IItAeMCufN6HV4sZyRlWuufv7DMxgE9H5DS887WcmmLf7OI41D4wSGUVOKYZH/31
-C22QpSZzAVP3Uv6tyRehVHnH/jJJ7iiv52LQjD4PqgpHMpDZVibJNPyxlWyPwZiX
-xUBfe+1CxDaYnGBj8L8v2PFdMdBk12due6z4+iUbRWsL71+JeCeEfKrXfB09IDUU
-RaVSNFyl2JP3YAETtn/7Wo8oj9BmLnJg0plI5XtCh3yQVxhMJ0n7h4lgTX31Gpzo
-aU82G8JoCiL8cPcsE0jYzZ83Q7uxhrVRWvRnwdL8gh5rtYodivLlq4a7ziEPwCBr
-ZsRKFexzkifOUrgt0EVgN/Lqghm4WevXFNETRWpnd6EywMi7fpqPvAu+wLlMi2dv
-zp3C2Uzt0PI6bXz2USGZaGo3BGh2E4LOzu3aSTgd4mX/CuHFPWYNnBfV+8+V36Ke
-aIBmzHs5vUe6yDqrIX2y3fMjLVIiz74ANu8P4qpC947ESgk7vqTh1u19g1yznej/
-dbxZdEYEkj6FmAe69wIw6kPQKsuJNLbSXs/IBEbrMM29J5Vcda30yOrV2L5GM3Hg
-5/6uavHTC7cPV4w3Gkgjzsc0W7Lognpv4c2BO8DW2lTdQCq/DWXmDmiukyq4qb7t
-MT51CEEHnIGWGCqp1inxxD2v
-=dyHa
------END PGP SIGNATURE-----
-
---===============4073962630752642906==--
