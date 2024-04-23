@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0769023474539532994=="
+Content-Type: multipart/mixed; boundary="===============5228538419226631729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 23 Apr 2024 10:11:39 -0000
-Message-Id: <171386709998.11219.16804139575160964598@gitolite.kernel.org>
+Date: Tue, 23 Apr 2024 10:11:51 -0000
+Message-Id: <171386711189.11369.6324629061741052389@gitolite.kernel.org>
 
---===============0769023474539532994==
+--===============5228538419226631729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-6.10-merge
     old: c414a87ff750235466bc21d300e0acc47191286d
     new: 6a94b1acda7e7262418e23f906c12a2b08b69d12
     log: revlist-c414a87ff750-6a94b1acda7e.txt
 
---===============0769023474539532994==
+--===============5228538419226631729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ da2b9c3a8d2cbdeec3f13cebf4c6c86c13e1077e xfs: rework splitting of indirect block
 bd1753d8c42b6bd5d9a81c81d1ce6e3affe3a59f xfs: stop the steal (of data blocks for RT indirect blocks)
 6a94b1acda7e7262418e23f906c12a2b08b69d12 xfs: reinstate delalloc for RT inodes (if sb_rextsize == 1)
 
---===============0769023474539532994==--
+--===============5228538419226631729==--
