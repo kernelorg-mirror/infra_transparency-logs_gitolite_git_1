@@ -1,49 +1,47 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Tue, 23 Apr 2024 08:02:10 -0000
-Message-Id: <171385933059.31576.16938727961093641835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Tue, 23 Apr 2024 08:02:42 -0000
+Message-Id: <171385936299.31845.16792315673502060225@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: de20c778e68045aceda59ddc45ab00ac5fe7e8d0
-    new: bedc53f4e2d0d03b83495e6001b75fa8f8ff467f
+  - ref: refs/heads/renesas-clk
+    old: c0516eb4cf04ac61b6fe1f86cc15b2f5f024ee78
+    new: 44019387fce230beda35b83da3a2c9fc5787704e
     log: |
-         a6e140f174366e1644c626c7feebfc5d6c48d6db arm64: dts: renesas: r8a779h0: Add MSIOF nodes
-         d28970ddd1b89ebd2ec7117a007de72ec94e3d4d arm64: dts: renesas: r8a779h0: Add INTC-EX node
-         5bd21a0009697011ea90ccccc9ff4b90696dbca9 arm64: dts: renesas: r8a779h0: Add IPMMU nodes
-         f026b6426603d25d2c8a8c517925c7b243cf223d arm64: dts: renesas: r8a779h0: Link IOMMU consumers
-         1e2995ef0bb889af02b852db23914354d7ecb763 Merge branch 'renesas-dts-for-v6.10' into renesas-next
-         bedc53f4e2d0d03b83495e6001b75fa8f8ff467f Merge branch 'renesas-next' into renesas-devel
+         3b23118bdbd898dc2f4de8f549d598d492c42ba8 clk: renesas: r8a779a0: Fix CANFD parent clock
+         50f0cbd5cc433bf7b22633b4f37b08de64dbfba5 clk: renesas: r8a779h0: Add MSIOF clocks
+         ef9916d0e28297410583f89c329a8ba3940dd8fa clk: renesas: r8a779h0: Add INTC-EX clock
+         44019387fce230beda35b83da3a2c9fc5787704e clk: renesas: r9a07g043: Add clock and reset entry for PLIC
          
-  - ref: refs/heads/next
-    old: 9ac9686acef835b00b38ca81c59d48cff33bccdd
-    new: 1e2995ef0bb889af02b852db23914354d7ecb763
+  - ref: refs/heads/renesas-clk-for-v6.10
+    old: c0516eb4cf04ac61b6fe1f86cc15b2f5f024ee78
+    new: 44019387fce230beda35b83da3a2c9fc5787704e
     log: |
-         a6e140f174366e1644c626c7feebfc5d6c48d6db arm64: dts: renesas: r8a779h0: Add MSIOF nodes
-         d28970ddd1b89ebd2ec7117a007de72ec94e3d4d arm64: dts: renesas: r8a779h0: Add INTC-EX node
-         5bd21a0009697011ea90ccccc9ff4b90696dbca9 arm64: dts: renesas: r8a779h0: Add IPMMU nodes
-         f026b6426603d25d2c8a8c517925c7b243cf223d arm64: dts: renesas: r8a779h0: Link IOMMU consumers
-         1e2995ef0bb889af02b852db23914354d7ecb763 Merge branch 'renesas-dts-for-v6.10' into renesas-next
+         3b23118bdbd898dc2f4de8f549d598d492c42ba8 clk: renesas: r8a779a0: Fix CANFD parent clock
+         50f0cbd5cc433bf7b22633b4f37b08de64dbfba5 clk: renesas: r8a779h0: Add MSIOF clocks
+         ef9916d0e28297410583f89c329a8ba3940dd8fa clk: renesas: r8a779h0: Add INTC-EX clock
+         44019387fce230beda35b83da3a2c9fc5787704e clk: renesas: r9a07g043: Add clock and reset entry for PLIC
          
-  - ref: refs/heads/renesas-dts-for-v6.10
-    old: e58d8e885b4e937145a96cd94bc890c2134ff640
-    new: f026b6426603d25d2c8a8c517925c7b243cf223d
+  - ref: refs/heads/renesas-pinctrl
+    old: 02cd2d3be1c31a3fd328ee83e576340d34bc57d9
+    new: 21fc4d195922f6b29233d2d22e9631cada7db259
     log: |
-         a6e140f174366e1644c626c7feebfc5d6c48d6db arm64: dts: renesas: r8a779h0: Add MSIOF nodes
-         d28970ddd1b89ebd2ec7117a007de72ec94e3d4d arm64: dts: renesas: r8a779h0: Add INTC-EX node
-         5bd21a0009697011ea90ccccc9ff4b90696dbca9 arm64: dts: renesas: r8a779h0: Add IPMMU nodes
-         f026b6426603d25d2c8a8c517925c7b243cf223d arm64: dts: renesas: r8a779h0: Link IOMMU consumers
+         2487dc87aeeb58a07406f1da0ee36e069c3f42e3 pinctrl: renesas: rzg2l: Remove extra space in function parameter
+         c3bec9547c1be0cce3060368dd92abf610c65f24 pinctrl: renesas: r8a779h0: Fix IRQ suffixes
+         21fc4d195922f6b29233d2d22e9631cada7db259 pinctrl: renesas: r8a779h0: Add INTC-EX pins, groups, and function
          
-  - ref: refs/tags/renesas-devel-2024-04-23-v6.9-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 49ebd3e2143f1c117e5fc8e23ddf109229159604
-  - ref: refs/tags/renesas-next-2024-04-23-v6.9-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a76d50b58da8ede8323aae1fe3bff847bd51d4bb
+  - ref: refs/heads/renesas-pinctrl-for-v6.10
+    old: 02cd2d3be1c31a3fd328ee83e576340d34bc57d9
+    new: 21fc4d195922f6b29233d2d22e9631cada7db259
+    log: |
+         2487dc87aeeb58a07406f1da0ee36e069c3f42e3 pinctrl: renesas: rzg2l: Remove extra space in function parameter
+         c3bec9547c1be0cce3060368dd92abf610c65f24 pinctrl: renesas: r8a779h0: Fix IRQ suffixes
+         21fc4d195922f6b29233d2d22e9631cada7db259 pinctrl: renesas: r8a779h0: Add INTC-EX pins, groups, and function
+         
