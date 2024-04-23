@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0064659970496420136=="
+Content-Type: multipart/mixed; boundary="===============8651699237115171537=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 23 Apr 2024 11:28:45 -0000
-Message-Id: <171387172522.3011.17071154926049997186@gitolite.kernel.org>
+Date: Tue, 23 Apr 2024 11:28:52 -0000
+Message-Id: <171387173242.3159.2482728243673973086@gitolite.kernel.org>
 
---===============0064659970496420136==
+--===============8651699237115171537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 4cece764965020c22cff7665b18a012006359095
+  - ref: refs/heads/driver-core-linus
+    old: 156539fd65019e8ed6b9fbac0583cf519cdbb227
     new: ed30a4a51bb196781c8058073ea720133a65596f
-    log: revlist-4cece7649650-ed30a4a51bb1.txt
+    log: revlist-156539fd6501-ed30a4a51bb1.txt
 
---===============0064659970496420136==
+--===============8651699237115171537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713871715 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713871723 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1713871724-4a7674f54c39957d4e798537de8b421ae2b36a17
+nonce 1713871730-2d092b391517441a5bc23091bcd5724169799b50
 
-4cece764965020c22cff7665b18a012006359095 ed30a4a51bb196781c8058073ea720133a65596f refs/heads/main
+156539fd65019e8ed6b9fbac0583cf519cdbb227 ed30a4a51bb196781c8058073ea720133a65596f refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYnm2MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t+kP/2c+7rX9AWSnUBpIyQ9C
-FLUT45V/0WY4weZS9L/O0Jw6K22iRKy/F68kWLM5xbp3AOfCsrOPp7qg99wowlbj
-WHV8pY/7pSfyuFHjNsm3MpXcQMVf/UvO9yp1yQei6Tul/v8xhrr1TyDxd1tIDDE/
-cbaXrctEl3qcqIXbYoRji81sfwha2ShKCs2K9BH7ncRInUOMi3vg2x+2/2w1bQYH
-UqFmhopdgM47zUguEVkzs+tj4TIGSj4VkB89NS7gygSzxNP55yJ/Wt24UzsHZLSN
-9N/F8vcK/QCe6mIO+Wwd9RPIgdd+dYdnll8i83UdYz2B9lAp6fIjnLj+8JB4Xib8
-lEX2h+nP+ZRxPiDqRswreaOwDdopfGRKmXcS8i+KiE+jObEquk+3cwLWXiDtYtmU
-n9H6MYRCOY8SWyGfU2O3j8K6hEezkqIdeVl8HVXSvCplDRQvI0IYhpPOWSoIriRd
-CGF8lK9EJV+NaXCnUW1P5fb2LFXKwXqUkDI26JDia9XCuFMj5pDOlyX847eRWW4p
-z53oTFRo7y7eD2X9dPD/Bsyo0ogmOU06aYFvGwohmAYbRsZdfgqeY+YojHHF+MqS
-vzRKutjDyDs/sZcl08YZFCRYRr2r8zw3LR87LvfZaBxApetMmjdebb50djWPWJAT
-qsV+KFdDbFehcXCgUuv93/wr
-=qxOx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYnm2sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bd8QAKV/bf+W37HUl3rKdMUD
+/bbLozaiphhdWIce8pEllagSYEg7H1fT/yKlwRqw4rVYRjezBdu16JT4N7LO7aNG
+91f29qI3xqNzblCPYZpM1IWJFJtAAxR/veDWeB1z9gApCnvTCLO09d17BdUK0sAY
+64ehmpP1gQDOnHXqPaCiLKBLsG8Ua0tgUUSkuENkfhZaET1nElCMBuuWCtfYYoOC
+JLkisNVL/AbiIf8ntnBIA7/PZyqCAuZDlCiij+ive2UUnuyUtPL78r8UHpK9tKnJ
+APVAcDlFJ2EuDz2gpgKgVUL8NqcPDadaBpXNMWMdFjtH+YapM0vQO5t+/p3LO39B
+AzwZy6778N3OZatapOzutAKptuC3jLsHbLUzIUFynWTl5JZaPhiOAG7IW1M2lf4o
+vRJd7K7X7STkhiLU2gPNTytYTb63EhN3tuwQW1BsVIxVRRn2keRaPSlLKHISr5Yj
+JxFIXViYKbwl/0tvtbcrBWfmUN2m3+5uRixohTd3VUCfMc2HZb3Q9PzCzhM286x1
+er6Y9j0jMQU4i8zrZ+mvlgXrqAckr+RHQSpgcF5Q852QotozDwCDbCowkUNqEbPq
+fWXhKZ6vXHOUoHUhNu9p/tdYmdGL4K5kN4STDjKlxfWd4yqgusAVSAE3IYldK/+6
+BKpaSfaxm1fKsZ3Meurf17LE
+=GZvO
 -----END PGP SIGNATURE-----
 
---===============0064659970496420136==
+--===============8651699237115171537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4cece7649650-ed30a4a51bb1.txt
+Content-Disposition: attachment; filename=revlist-156539fd6501-ed30a4a51bb1.txt
 
+e709acbd84fb6ef32736331b0147f027a3ef4c20 octeontx2-pf: check negative error code in otx2_open()
+5e864d90b20803edf6bd44a99fb9afa7171785f2 r8169: skip DASH fw status checks when DASH is disabled
 17af420545a750f763025149fa7b833a4fc8b8f0 erspan: make sure erspan_base_hdr is present in skb->head
 8ecab2e64572f1aecdfc5a8feae748abda6e3347 selftests/ftrace: Fix event filter target_func selection
 7155cc454430cc855c333a4a267688f3bd1277f7 selftests/seccomp: Try to fit runtime of benchmark into timeout
@@ -773,10 +775,8 @@ c8d2f34ea96ea3bce6ba2535f867f0d4ee3b22e1 speakup: Avoid crash on very long word
 e3dc66d998d2b0c2734db9ca1d6c94c97349529a Revert "mei: vsc: Call wake_up() in the threaded IRQ handler"
 f6085a96c97387154be7eaebd1a5420eb3cd55dc mei: vsc: Unregister interrupt handler for system suspend
 d1718530e3f640b7d5f0050e725216eab57a85d8 comedi: vmk80xx: fix incomplete endpoint checking
-a90bca2228c0646fc29a72689d308e5fe03e6d78 fs: sysfs: Fix reference leak in sysfs_break_active_protection()
 aaef73821a3b0194a01bd23ca77774f704a04d40 binder: check offset alignment in binder_get_object()
 f488138b526715c6d2568d7329c4477911be4210 NFSD: fix endianness issue in nfsd4_encode_fattr4
-156539fd65019e8ed6b9fbac0583cf519cdbb227 Documentation: embargoed-hardware-issues.rst: Add myself for Power
 50a9b7fc151e67b9e642232d32e8c5a5ac13e64a drm/xe/display: Fix double mutex initialization
 a8ad8715472bb8f6a2ea8b4072a28151eb9f4f24 drm/xe/hwmon: Cast result to output precision on left shift of operand
 9cb46b31f3d08ed3fce86349e8c12f96d7c88717 drm/xe/xe_migrate: Cast to output precision before multiplying operands
@@ -1082,4 +1082,4 @@ c0c6b5c090ead778b3a8132201d25040b1fdcbf8 Merge tag 'tty-6.9-rc5' of git://git.ke
 48cf398f15fc3b2af11c78fed548355d3b66ca11 Merge tag 'char-misc-6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 ed30a4a51bb196781c8058073ea720133a65596f Linux 6.9-rc5
 
---===============0064659970496420136==--
+--===============8651699237115171537==--
