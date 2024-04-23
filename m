@@ -1,29 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Tue, 23 Apr 2024 16:30:31 -0000
-Message-Id: <171388983143.2276.17100459053583960675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 23 Apr 2024 16:31:30 -0000
+Message-Id: <171388989036.2738.12300954637412651480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
   - ref: refs/heads/main
-    old: 95c886b8e88474084cbb05d4454f130940828aad
-    new: c34ca740856ffb50a3cb766bf37d9ae7076af4f9
+    old: 9e91bf75dd9089b08d8156d66d0e7c024d72780b
+    new: a44f2eb106a46f2275a79de54ce0ea63e4f3d8c8
     log: |
-         a25f6771bef3b1c06135ae5e0c2668b29a499472 ip: PFCP device support
-         976dca372e4c3c0685d2d6af5a305493baa4fdad f_flower: implement pfcp opts
-         c34ca740856ffb50a3cb766bf37d9ae7076af4f9 Merge branch 'pfcp' into next
-         
-  - ref: refs/heads/master
-    old: 95c886b8e88474084cbb05d4454f130940828aad
-    new: c34ca740856ffb50a3cb766bf37d9ae7076af4f9
-    log: |
-         a25f6771bef3b1c06135ae5e0c2668b29a499472 ip: PFCP device support
-         976dca372e4c3c0685d2d6af5a305493baa4fdad f_flower: implement pfcp opts
-         c34ca740856ffb50a3cb766bf37d9ae7076af4f9 Merge branch 'pfcp' into next
+         a4e3899065ffa87d49dc20e8c17501edbc189692 net: dsa: mv88e6xx: fix supported_interfaces setup in mv88e6250_phylink_get_caps()
+         97ec32b583bb08f72146eee2c1a1918e05760f8c MAINTAINERS: eth: mark IBM eHEA as an Orphan
+         6bea4f03c6a4e973ef369e15aac88f37981db49e NFC: trf7970a: disable all regulators on removal
+         467324bcfe1a31ec65d0cf4aa59421d6b7a7d52b ax25: Fix netdev refcount issue
+         a44f2eb106a46f2275a79de54ce0ea63e4f3d8c8 tools: ynl: don't ignore errors in NLMSG_DONE messages
          
