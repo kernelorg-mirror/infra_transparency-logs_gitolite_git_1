@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 23 Apr 2024 17:13:21 -0000
-Message-Id: <171389240178.16669.17268913620046917892@gitolite.kernel.org>
+Date: Tue, 23 Apr 2024 17:17:24 -0000
+Message-Id: <171389264470.19745.5436496271424408883@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,15 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 1af2dface5d286dd1f2f3405a0d6fa9f2c8fb998
-    new: b2c8599f6443cac67dd10cec25e361c449bab1ef
+    old: b2c8599f6443cac67dd10cec25e361c449bab1ef
+    new: 8d03c1534d4ae136fd2c9e27f026157cb244b212
     log: |
-         ce05d0f20368b583b43c99a7c8673e8a7187b76b netdev: support dumping a single netdev in qstats
-         652332e3f1d6209dab372e0dfc7a5bbe209bf698 netlink: move extack writing helpers
-         8af4f60472fce1f22db5068107b37bcc1a65eabd netlink: support all extack types in dumps
-         23710925928310ec481fc0909a4d44ef89f4241a selftests: drv-net: test dumping qstats per device
-         b2c8599f6443cac67dd10cec25e361c449bab1ef Merge branch 'netdev-support-dumping-a-single-netdev-in-qstats'
+         1a20a9a0ddef17c0bd67eece34a7439b02a7b0ba selftests: drv-net: define endpoint structures
+         543389295085f65a405b046e31eb107b2a465bd4 selftests: drv-net: factor out parsing of the env
+         1880f272d2f9ef2c65a78e80ede235b3123075fc selftests: drv-net: construct environment for running tests which require an endpoint
+         a48a87c0866444343354f211d30b5acab54bb800 selftests: drv-net: add a trivial ping test
+         01b431641c33d488ecc6cd6d9e01f7f073bfa54f selftests: net: support matching cases by name prefix
+         31611cea8f0f45f0b803b010be47a37792ba58a8 selftests: drv-net: add a TCP ping test case (and useful helpers)
+         f1e68a1a4a404e739f93b4e48344f9101b581771 selftests: drv-net: add require_XYZ() helpers for validating env
+         8d03c1534d4ae136fd2c9e27f026157cb244b212 Merge branch 'selftests-drv-net-support-testing-with-a-remote-system'
          
