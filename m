@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 23 Apr 2024 00:35:19 -0000
-Message-Id: <171383251946.29466.6782620278270148108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 23 Apr 2024 00:37:37 -0000
+Message-Id: <171383265781.31633.3925889505582093386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/main
-    old: 2557e2ec94fe32d743b30d8a4f6acbaefcba0621
-    new: 2540088b836f9e208f7f722a67f9b168737036e8
+  - ref: refs/heads/kvm-arm64/nv-eret-pauth
+    old: fe4763e18355244a236075d2d3f68f4abae31448
+    new: cafa97a48fecfcb9dc51ee24a508eb9347e199df
     log: |
-         2540088b836f9e208f7f722a67f9b168737036e8 net: openvswitch: Check vport netdev name
+         cafa97a48fecfcb9dc51ee24a508eb9347e199df KVM: arm64: nv: Work around lack of pauth support in old toolchains
          
