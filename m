@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2660125441214099373=="
+Content-Type: multipart/mixed; boundary="===============8152245239867560998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 23 Apr 2024 06:51:48 -0000
-Message-Id: <171385510804.13614.6636032291626261475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 23 Apr 2024 06:51:59 -0000
+Message-Id: <171385511917.13814.11086672683312597842@gitolite.kernel.org>
 
---===============2660125441214099373==
+--===============8152245239867560998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: f529a6d274b3b8c75899e949649d231298f30a32
     new: a59668a9397e7245b26e9be85d23f242ff757ae8
     log: revlist-f529a6d274b3-a59668a9397e.txt
-  - ref: refs/heads/pending-fixes
-    old: a8bde578ceefc2a1b029ea8748d14ca341248e7b
-    new: ed10ebd93ff0e689ea276a27f38d39d4acadfe15
-    log: revlist-a8bde578ceef-ed10ebd93ff0.txt
-  - ref: refs/heads/stable
-    old: ed30a4a51bb196781c8058073ea720133a65596f
-    new: a2c63a3f3d687ac4f63bf4ffa04d7458a2db350b
-    log: revlist-ed30a4a51bb1-a2c63a3f3d68.txt
-  - ref: refs/tags/next-20240123
-    old: a4b34c7bb49d4dc9894e6aae22f32dfaf9d2818b
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240423
     old: 0000000000000000000000000000000000000000
     new: 39a7ca874f197dab6a733fc7e919b8de7894e44d
 
---===============2660125441214099373==
+--===============8152245239867560998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1065,140 +1054,4 @@ d2adc9aa5b56f250986e4743c9b4d7a4491653fc Merge branch 'for-next' of git://git.ke
 d583aac690172c5f557eec6abdde93306ad4b84e Merge branch 'nolibc' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
 a59668a9397e7245b26e9be85d23f242ff757ae8 Add linux-next specific files for 20240423
 
---===============2660125441214099373==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8bde578ceef-ed10ebd93ff0.txt
-
-8b06a24bb625728ac709f2c69405eb01025687e1 xfrm: fix possible derferencing in error path
-abbb99301e9d2c91567e1893dbe34f2f8b52ea9a docs: verify/bisect: use git switch, tag kernel, and various fixes
-932c9a5398a7b41cb8e7a0264e5470133b373e11 docs: verify/bisect: add and fetch stable branches ahead of time
-453de3207ff3534dd7165a32a73dd28cc9e8f14f docs: verify/bisect: proper headlines and more spacing
-a421835a2a327f2b3472dcb755adb57d0f82e478 docs: verify/bisect: explain testing reverts, patches and newer code
-2bcfd71e8dfca5047f9fbcc2e2ba62c5bb39aa3a docs: verify/bisect: describe how to use a build host
-8d939ae349343b55984ea821164e2be526d48cd1 docs: verify/bisect: stable regressions: first stable, then mainline
-02bed83d59e37da30b745e30129511b1cc595c92 bcachefs: Fix null ptr deref in twf from BCH_IOCTL_FSCK_OFFLINE
-9fd5a48a1e3ff79ed54922668279ccb4d7190a62 bcachefs: Fix format specifier in validate_bset_keys()
-fabb4d49854281027454b0fa305d33f6c9ec4b47 bcachefs: node scan: ignore multiple nodes with same seq if interior
-79055f50a65fe5eb58e9da1f79fb0a4f4bc82fff bcachefs: make sure to release last journal pin in replay
-fa845c73497f5e9d2f6f1cf48c3aad05c2fdacb8 bcachefs: Fix bch2_dev_btree_bitmap_marked_sectors() shift
-605109ff5e43addefdf92d1cfa2a693114430024 bcachefs: KEY_TYPE_error is allowed for reflink
-719aec84b106ba3bd3639eddb2be46c510ef683a bcachefs: fix leak in bch2_gc_write_reflink_key
-0389c09b2fb702ca7924ddf550ce0c8af708b8be bcachefs: Fix bio alloc in check_extent_checksum()
-fcdbc1d7a4b638e5d5668de461f320386f3002aa bcachefs: Check for journal entries overruning end of sb clean section
-ec438ac59d7a8bd7e76d3e1201d55071be484626 bcachefs: Fix missing call to bch2_fs_allocator_background_exit()
-6e4d9bd110e293513c3c2a3ff2dfa0a0735699e0 bcachefs: bkey_cached.btree_trans_barrier_seq needs to be a ulong
-adfe9357c39e251ffe22ceaa1edb4b7662ed76e6 bcachefs: Tweak btree key cache shrinker so it actually frees
-85ab365f7cdf2b2a713823a93e7e5e94f0529627 bcachefs: Fix deadlock in journal write path
-0e42f381193d7f9b47922f1c4308e7729a45ba13 bcachefs: Fix inode early destruction path
-e858beeddfa3a400844c0e22d2118b3b52f1ea5e bcachefs: If we run merges at a lower watermark, they must be nonblocking
-91112fc6212a9be6f3be636d885df9c17395e1a4 wifi: iwlwifi: mvm: fix link ID management
-0b8fe5bd73249dc20be2e88a12041f8920797b59 net: usb: qmi_wwan: add Telit FN920C04 compositions
-c58e88d49097bd12dfcfef4f075b43f5d5830941 icmp: prevent possible NULL dereferences from icmp_build_probe()
-70dcdf5f8c41ce2379d48d497db10af4a09ea075 mailmap: add entries for Alex Elder
-843c3280686fc1a83d89ee1e0b5599c9f6b09d0c s390/mm: Fix storage key clearing for guest huge pages
-412050af2ea39407fe43324b0be4ab641530ce88 s390/mm: Fix clearing storage keys for huge pages
-4fd1edcdf13c0d234543ecf502092be65c5177db bridge/br_netlink.c: no need to return void function
-7474b1c82be3780692d537d331f9aa7fc1e5a368 bnxt_en: refactor reset close code
-a1acdc226baec331512f815d6ac9dd6f8435cc7f bnxt_en: Fix the PCI-AER routines
-41e54045b741daf61e03c82d442227af3d12111f bnxt_en: Fix error recovery for 5760X (P7) chips
-9e91bf75dd9089b08d8156d66d0e7c024d72780b Merge branch 'bnxt_en-aer-fixes'
-c6f48506ba30c722dd9d89aa6a40eb1926277dff arm32, bpf: Reimplement sign-extension mov instruction
-d05dcfdf5e1659b2949d13060284eff3888b644e  fs/9p: mitigate inode collisions
-4b759dd5765503bd466defac7d93aca14c23a15d cxl/core: Fix potential payload size confusion in cxl_mem_get_poison()
-4d2008430ce87061c9cefd4f83daf2d5bb323a96 Merge tag 'docs-6.9-fixes2' of git://git.lwn.net/linux
-5bcf0dcbf9066348058b88a510c57f70f384c92c xdp: use flags field to disambiguate broadcast redirect
-1c582ec1428a4016c60d3d43ddaab427cd09862d Merge tag 'nfsd-6.9-4' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-a4e3899065ffa87d49dc20e8c17501edbc189692 net: dsa: mv88e6xx: fix supported_interfaces setup in mv88e6250_phylink_get_caps()
-a2c63a3f3d687ac4f63bf4ffa04d7458a2db350b Merge tag 'bcachefs-2024-04-22' of https://evilpiepirate.org/git/bcachefs
-df70d04d56975f527b9c965322cf56e245909071 rust: phy: implement `Send` for `Registration`
-e3cc152388ef77c9ce06c43a386e700b45cbc50d hv/hv_kvp_daemon: indicate the configuration files are generated
-33718faa36261521f1fd9ca28cb98cad992e1ac1 x86/hyperv: Consider NUMA affinity when allocating memory for per-CPU vmsa
-fb836d64a2ea41fe7b445e14dd156ca77b95fe42 hv/vmbus_drv: rename hv_acpi_init() to vmbus_init()
-323617f649c0966ad5e741e47e27e06d3a680d8f rust: kernel: require `Send` for `Module` implementations
-50cfe93b01475ba36878b65d35d812e1bb48ac71 kbuild: rust: remove unneeded `@rustc_cfg` to avoid ICE
-fed40cbb341227c3194572518efc64962b87dd89 kbuild: rust: force `alloc` extern to allow "empty" Rust files
-047ee4327f4be235b04d1c06a6cbd9171e099f81 selftests/harness: remove use of LINE_MAX
-c9b746336fba17453e1de495658f0584b9912cf8 selftests-harness-remove-use-of-line_max-fix
-6f4a1e7d340e62148f9165ad8b1977781f01cd5e selftests-harness-remove-use-of-line_max-fix-fix
-d59cdd5ae1859c2e95eab0731cd78de840ef785f selftests: mm: fix undeclared function error
-2fb097d23c2ce8867f225a7408d5dcfe08f9a978 selftests: mm: fix unused and uninitialized variable warning
-e0e75f0b514f0892b3505bc7669f981088116edd mm/hugetlb: fix missing hugetlb_lock for resv uncharge
-6b568d20befe8e43aed527fcc525596e2553cc1a mm: create FOLIO_FLAG_FALSE and FOLIO_TYPE_OPS macros
-04d9ee8300b047d9dacd0b0b86b9323de2f31625 mm: support page_mapcount() on page_has_type() pages
-b34caa4c5cb397ff585742219d825a788ffa512b mm: turn folio_test_hugetlb into a PageType
-05caaf91d8525756fe6c688a0edb62c93871a57e mm-turn-folio_test_hugetlb-into-a-pagetype-fix
-ad631cbf1d1cb79bd4d3e5d56aab3f20c738cddf mm: zswap: fix shrinker NULL crash with cgroup_disable=memory
-ae07646a582cb37350e9a5f997ff364e082ec715 hugetlb: check for anon_vma prior to folio allocation
-92420c2a0f5bd5bc2c0fc204db295e789cc1f8d2 stackdepot: respect __GFP_NOLOCKDEP allocation flag
-450541da6fab96c648b817d5a73a0edda062cc1c init: fix allocated page overlapping with PTR_ERR
-cc4e6157c05b91a482a607e1e5cdb3017762f13a selftests: mm: protection_keys: save/restore nr_hugepages value from launch script
-e4a28faf889c9b0bdd4241f30153756326cb4c7f mm/hugetlb: fix DEBUG_LOCKS_WARN_ON(1) when dissolve_free_hugetlb_folio()
-1d12e441d80796f6a674c67dafc30d3736cf7228 mm/userfaultfd: reset ptes when close() for wr-protected ones
-bab29f1a77baeb1e3478f28168dee4eacc81f058 maple_tree: fix mas_empty_area_rev() null pointer dereference
-7427a29434dd07ea131a8fbac274dd77ce04508c Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-ef530add57965e890dedd4b9605b5065bf0efd4c Merge branch 'for-curr' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc.git
-bb8bb4fc8c3e07cbe7591aa387a460105001da44 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux.git
-812a67b38807a86107673517cfb374d3b22e92ce Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-7431098d640eafaee91b92f320b4c0c22dd3efe9 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-e529bcf576b19cb6e679e63182eeef055d24413b Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-96396ef21f0625ec4eea2e18aa300d87076ef9b2 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
-0bd43cfa424c0ebea67a5c3c485e3c3f1e7e1501 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-431d64bf9f807fdb4bd01130856f9f4a1f32a1c7 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-88af9f2e5472a976efce70707944076175fe0689 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-4a882b1d20b11a99e9f19a782a9b65320aad762f Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-17ad80b2c74da93cae675b65c9e0a2bdc618620a Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-a35c5846db13b6687989b4ea8c347e23c3b2c2dd Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire.git
-60e68902cf71a1fdb9f3bd1dfb2226ba245a8fb8 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
-8709bcc38b6f02626698b8133e0fcbb3ebca9591 Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
-1d09bddcea36da059b72b1bc6f8d1ca9f2a7af11 Merge branch 'at91-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux.git
-d27c7ca8b4317d1eec325248cdeab8b21ded167a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl.git
-f4b80325dede9fd1c6a59bbb3aba45261bd5818c Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-2b7e017c7f0f77ccab529acbd5b645d0aaa5bb90 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-434c4f22c6db712f83a4df65e6c0400064851623 Merge branch 'dt/linus' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git
-f052c450e7e998a389b58f6602eac87d9499ba52 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-5d102ef768e012f02b4ab8cc98c353c8fef16b7a Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-1a75598adfd9851e0bd99e44b8f81bd3b10a30e9 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-506eee2ef1438ddd3ebc63eb5d7f85f202f45067 Merge branch 'riscv-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-ca389a3db7ca5c15d1b4323555c533e49da9ce59 Merge branch 'riscv-soc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-0e2f71c0aec1ec55c8d3556f642fdaa0c6905616 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-gpio-intel.git
-d8b575ff9d80268ca257c72315f854cb81e8d348 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/intel.git
-7ed5531620d3d2409a7bf499ba0ed2e0bfe2d4ac Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
-ea8028733a8c244579119c115b3cfe1189e93655 Merge branch 'rust-fixes' of https://github.com/Rust-for-Linux/linux.git
-67036e262941dbf208627483ed5182332586b86b Merge branch 'fixes/next' of git://git.kernel.org/pub/scm/linux/kernel/git/ericvh/v9fs.git
-ed10ebd93ff0e689ea276a27f38d39d4acadfe15 Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/misc/kernel.git
-
---===============2660125441214099373==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed30a4a51bb1-a2c63a3f3d68.txt
-
-abbb99301e9d2c91567e1893dbe34f2f8b52ea9a docs: verify/bisect: use git switch, tag kernel, and various fixes
-932c9a5398a7b41cb8e7a0264e5470133b373e11 docs: verify/bisect: add and fetch stable branches ahead of time
-453de3207ff3534dd7165a32a73dd28cc9e8f14f docs: verify/bisect: proper headlines and more spacing
-a421835a2a327f2b3472dcb755adb57d0f82e478 docs: verify/bisect: explain testing reverts, patches and newer code
-2bcfd71e8dfca5047f9fbcc2e2ba62c5bb39aa3a docs: verify/bisect: describe how to use a build host
-8d939ae349343b55984ea821164e2be526d48cd1 docs: verify/bisect: stable regressions: first stable, then mainline
-02bed83d59e37da30b745e30129511b1cc595c92 bcachefs: Fix null ptr deref in twf from BCH_IOCTL_FSCK_OFFLINE
-9fd5a48a1e3ff79ed54922668279ccb4d7190a62 bcachefs: Fix format specifier in validate_bset_keys()
-fabb4d49854281027454b0fa305d33f6c9ec4b47 bcachefs: node scan: ignore multiple nodes with same seq if interior
-79055f50a65fe5eb58e9da1f79fb0a4f4bc82fff bcachefs: make sure to release last journal pin in replay
-fa845c73497f5e9d2f6f1cf48c3aad05c2fdacb8 bcachefs: Fix bch2_dev_btree_bitmap_marked_sectors() shift
-605109ff5e43addefdf92d1cfa2a693114430024 bcachefs: KEY_TYPE_error is allowed for reflink
-719aec84b106ba3bd3639eddb2be46c510ef683a bcachefs: fix leak in bch2_gc_write_reflink_key
-0389c09b2fb702ca7924ddf550ce0c8af708b8be bcachefs: Fix bio alloc in check_extent_checksum()
-fcdbc1d7a4b638e5d5668de461f320386f3002aa bcachefs: Check for journal entries overruning end of sb clean section
-ec438ac59d7a8bd7e76d3e1201d55071be484626 bcachefs: Fix missing call to bch2_fs_allocator_background_exit()
-32cf5a4eda464d76d553ee3f1b06c4d33d796c52 Revert "svcrdma: Add Write chunk WRs to the RPC's Send WR chain"
-6e4d9bd110e293513c3c2a3ff2dfa0a0735699e0 bcachefs: bkey_cached.btree_trans_barrier_seq needs to be a ulong
-adfe9357c39e251ffe22ceaa1edb4b7662ed76e6 bcachefs: Tweak btree key cache shrinker so it actually frees
-85ab365f7cdf2b2a713823a93e7e5e94f0529627 bcachefs: Fix deadlock in journal write path
-0e42f381193d7f9b47922f1c4308e7729a45ba13 bcachefs: Fix inode early destruction path
-e858beeddfa3a400844c0e22d2118b3b52f1ea5e bcachefs: If we run merges at a lower watermark, they must be nonblocking
-4d2008430ce87061c9cefd4f83daf2d5bb323a96 Merge tag 'docs-6.9-fixes2' of git://git.lwn.net/linux
-1c582ec1428a4016c60d3d43ddaab427cd09862d Merge tag 'nfsd-6.9-4' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-a2c63a3f3d687ac4f63bf4ffa04d7458a2db350b Merge tag 'bcachefs-2024-04-22' of https://evilpiepirate.org/git/bcachefs
-
---===============2660125441214099373==--
+--===============8152245239867560998==--
