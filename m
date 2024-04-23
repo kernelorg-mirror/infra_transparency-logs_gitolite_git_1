@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0180104861742977442=="
+Content-Type: multipart/mixed; boundary="===============4350748094625615339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 23 Apr 2024 14:22:23 -0000
-Message-Id: <171388214323.3905.9270161580766517159@gitolite.kernel.org>
+Date: Tue, 23 Apr 2024 14:22:27 -0000
+Message-Id: <171388214742.3998.5910236022604365070@gitolite.kernel.org>
 
---===============0180104861742977442==
+--===============4350748094625615339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
+  - ref: refs/heads/i2c/i2c-host-next
     old: bc7f02e5a9249dff43ef2f1e8ddf1b3f4e352547
     new: 8d49135d177dbfee92bd84fef32b47d656e6b314
     log: revlist-bc7f02e5a924-8d49135d177d.txt
 
---===============0180104861742977442==
+--===============4350748094625615339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1713882142 +0200
+pusher andi.shyti@kernel.org 1713882146 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1713882141-ec1a69e581ad56f64d4f10faf196e8712a4afa9b
+nonce 1713882145-05ce7a2963ff9a1e7acf38ad8812c01e3324fda8
 
-bc7f02e5a9249dff43ef2f1e8ddf1b3f4e352547 8d49135d177dbfee92bd84fef32b47d656e6b314 refs/heads/i2c/i2c-host
+bc7f02e5a9249dff43ef2f1e8ddf1b3f4e352547 8d49135d177dbfee92bd84fef32b47d656e6b314 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZifEHhYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1utd0A/iXs9OL2CGqQ0Ea6JXSaGGhSaWF8
-vB54XSUeTdSRgnBnAP9IteDDheUiJC4kg6M0niPP8b++MLiB0xc74H6KYtjUDQ==
-=yRdH
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZifEIhYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1urLEBAKJ8L22gXy0Dtu+ODbfQvNwIqX+k
+JLgz2yre4Eyk62LXAQDblejOiGb386zTIWEiAqSG+xriQx8wnHEO0PSN8lwiAA==
+=axoZ
 -----END PGP SIGNATURE-----
 
---===============0180104861742977442==
+--===============4350748094625615339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ e977f2cf4b10f347ea49b4f8f1835193fdb51f24 i2c: rk3x: remove printout on handled t
 b6ea602a1100c6241c47a8b4326a050ff3379c4d i2c: octeon: Handle watchdog timeout
 8d49135d177dbfee92bd84fef32b47d656e6b314 i2c: thunderx: Adding ioclk support
 
---===============0180104861742977442==--
+--===============4350748094625615339==--
