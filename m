@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8651699237115171537=="
+Content-Type: multipart/mixed; boundary="===============3886553988996300779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 23 Apr 2024 11:28:52 -0000
-Message-Id: <171387173242.3159.2482728243673973086@gitolite.kernel.org>
+Date: Tue, 23 Apr 2024 11:28:59 -0000
+Message-Id: <171387173959.3258.14136935678206615624@gitolite.kernel.org>
 
---===============8651699237115171537==
+--===============3886553988996300779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 156539fd65019e8ed6b9fbac0583cf519cdbb227
-    new: ed30a4a51bb196781c8058073ea720133a65596f
-    log: revlist-156539fd6501-ed30a4a51bb1.txt
+  - ref: refs/heads/driver-core-next
+    old: 66bc1a173328dec3e37c203a999f2a2914c96b56
+    new: e5019b14230a0bc1f6641c9850ae39cfe76ad2aa
+    log: revlist-66bc1a173328-e5019b14230a.txt
 
---===============8651699237115171537==
+--===============3886553988996300779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713871723 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713871729 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1713871730-2d092b391517441a5bc23091bcd5724169799b50
+nonce 1713871737-8c250af3fc866781ac43c0650a2ef6ad69899c2e
 
-156539fd65019e8ed6b9fbac0583cf519cdbb227 ed30a4a51bb196781c8058073ea720133a65596f refs/heads/driver-core-linus
+66bc1a173328dec3e37c203a999f2a2914c96b56 e5019b14230a0bc1f6641c9850ae39cfe76ad2aa refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYnm2sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bd8QAKV/bf+W37HUl3rKdMUD
-/bbLozaiphhdWIce8pEllagSYEg7H1fT/yKlwRqw4rVYRjezBdu16JT4N7LO7aNG
-91f29qI3xqNzblCPYZpM1IWJFJtAAxR/veDWeB1z9gApCnvTCLO09d17BdUK0sAY
-64ehmpP1gQDOnHXqPaCiLKBLsG8Ua0tgUUSkuENkfhZaET1nElCMBuuWCtfYYoOC
-JLkisNVL/AbiIf8ntnBIA7/PZyqCAuZDlCiij+ive2UUnuyUtPL78r8UHpK9tKnJ
-APVAcDlFJ2EuDz2gpgKgVUL8NqcPDadaBpXNMWMdFjtH+YapM0vQO5t+/p3LO39B
-AzwZy6778N3OZatapOzutAKptuC3jLsHbLUzIUFynWTl5JZaPhiOAG7IW1M2lf4o
-vRJd7K7X7STkhiLU2gPNTytYTb63EhN3tuwQW1BsVIxVRRn2keRaPSlLKHISr5Yj
-JxFIXViYKbwl/0tvtbcrBWfmUN2m3+5uRixohTd3VUCfMc2HZb3Q9PzCzhM286x1
-er6Y9j0jMQU4i8zrZ+mvlgXrqAckr+RHQSpgcF5Q852QotozDwCDbCowkUNqEbPq
-fWXhKZ6vXHOUoHUhNu9p/tdYmdGL4K5kN4STDjKlxfWd4yqgusAVSAE3IYldK/+6
-BKpaSfaxm1fKsZ3Meurf17LE
-=GZvO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYnm3EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+avsP/iQYPGmkzR2yqixf0Ew+
+JtuJvTrWI+QvolqxAEZD9d9U8SRQAbPNo65q1/VEJkyAHez9ceUPaC1ePpxurH1b
+REFuc1d8NzZZaHy9XkxusthgOorF7Ben6F35bRiJuJd9WvoeO1bjJWUoogIsC0tL
+nXW4KsUCM/3/tpfLn/5A92YkXVv5ZcKht5tEvrpaFkJOH8NYdN/gOhmdWK5UHZnG
+yZNwWGflrT56VrzrM+kBQ7gOqdJc7UwZOXzodYDs5GJOTVhjmYTmskK8K+WVZ5Ws
+1h7wlGHeauLibu8tvkKZFJ7DD7aMtc6OGJ1TuSF5AQOKyZPQUkfv3oRzK2JFBiB9
+LMnvmFEmuCbojw/dNg0ONAW2WcooH3VYHoplYUIIz9LcJmDO/LisU5yznY5NUEoY
+/w4q+vJJeRvHOtgsuHofvoela9LVKzEt8T1dG3zOna6TyDTWt5Ir9RDlXdf+DBTd
+IDS9udX5PEM+iBtT+ldU9LhORTGcv6uruHv6CPqoaPN9k6N9RwMiZgvJ7STbsNN+
+muXio9/vwUjiBRQB0ACnQbkgcfhSWIZm9Glp7wHqzDXdJhLrQN0lyVTvC9M+6eeN
+yr9MpSdRE0Ugz1abRznb/hX5OAVVpBx8Gj2hvqwHNZcVDmdnsjTnzqSO+ZM/pqXh
+bF5HCsb2NOH6YhjDw0+xZfCE
+=u0Gl
 -----END PGP SIGNATURE-----
 
---===============8651699237115171537==
+--===============3886553988996300779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-156539fd6501-ed30a4a51bb1.txt
+Content-Disposition: attachment; filename=revlist-66bc1a173328-e5019b14230a.txt
 
-e709acbd84fb6ef32736331b0147f027a3ef4c20 octeontx2-pf: check negative error code in otx2_open()
-5e864d90b20803edf6bd44a99fb9afa7171785f2 r8169: skip DASH fw status checks when DASH is disabled
-17af420545a750f763025149fa7b833a4fc8b8f0 erspan: make sure erspan_base_hdr is present in skb->head
 8ecab2e64572f1aecdfc5a8feae748abda6e3347 selftests/ftrace: Fix event filter target_func selection
 7155cc454430cc855c333a4a267688f3bd1277f7 selftests/seccomp: Try to fit runtime of benchmark into timeout
 224fe424c356cb5c8f451eca4127f32099a6f764 selftests: dmabuf-heap: add config file for the test
@@ -775,8 +772,10 @@ c8d2f34ea96ea3bce6ba2535f867f0d4ee3b22e1 speakup: Avoid crash on very long word
 e3dc66d998d2b0c2734db9ca1d6c94c97349529a Revert "mei: vsc: Call wake_up() in the threaded IRQ handler"
 f6085a96c97387154be7eaebd1a5420eb3cd55dc mei: vsc: Unregister interrupt handler for system suspend
 d1718530e3f640b7d5f0050e725216eab57a85d8 comedi: vmk80xx: fix incomplete endpoint checking
+a90bca2228c0646fc29a72689d308e5fe03e6d78 fs: sysfs: Fix reference leak in sysfs_break_active_protection()
 aaef73821a3b0194a01bd23ca77774f704a04d40 binder: check offset alignment in binder_get_object()
 f488138b526715c6d2568d7329c4477911be4210 NFSD: fix endianness issue in nfsd4_encode_fattr4
+156539fd65019e8ed6b9fbac0583cf519cdbb227 Documentation: embargoed-hardware-issues.rst: Add myself for Power
 50a9b7fc151e67b9e642232d32e8c5a5ac13e64a drm/xe/display: Fix double mutex initialization
 a8ad8715472bb8f6a2ea8b4072a28151eb9f4f24 drm/xe/hwmon: Cast result to output precision on left shift of operand
 9cb46b31f3d08ed3fce86349e8c12f96d7c88717 drm/xe/xe_migrate: Cast to output precision before multiplying operands
@@ -1081,5 +1080,6 @@ c0c6b5c090ead778b3a8132201d25040b1fdcbf8 Merge tag 'tty-6.9-rc5' of git://git.ke
 4e90ba757b1bc4d6a787e85d0a079d1dbfa9608f Merge tag 'driver-core-6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 48cf398f15fc3b2af11c78fed548355d3b66ca11 Merge tag 'char-misc-6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 ed30a4a51bb196781c8058073ea720133a65596f Linux 6.9-rc5
+e5019b14230a0bc1f6641c9850ae39cfe76ad2aa Merge 6.9-rc5 into driver-core-next
 
---===============8651699237115171537==--
+--===============3886553988996300779==--
