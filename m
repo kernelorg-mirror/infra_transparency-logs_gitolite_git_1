@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6120402890774566371=="
+Content-Type: multipart/mixed; boundary="===============8177090320817509174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 23 Apr 2024 23:24:00 -0000
-Message-Id: <171391464019.30092.9047226513667713526@gitolite.kernel.org>
+Date: Tue, 23 Apr 2024 23:27:22 -0000
+Message-Id: <171391484217.522.6507229919845543805@gitolite.kernel.org>
 
---===============6120402890774566371==
+--===============8177090320817509174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,45 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: c859d300c5697ac8929a1c860f78e51c7bacf72d
-    new: a0f8829c5164430717be8c49eb58caba7b13fa8c
+  - ref: refs/heads/usb-linus
+    old: ec6ce7075ef879b91a8710829016005dc8170f17
+    new: 0aea736ddb877b93f6d2dd8cf439840d6b4970a9
     log: |
-         59aa8a4ebd78e040f47d89ad117ac8c6a7b5dbd7 dt-bindings: usb: Add bindings for multiport properties on DWC3 controller
-         aa705d4e101923ef9190df76a74cb1718b12bafa usb: dwc3: core: Access XHCI address space temporarily to read port info
-         4904744dae644617f32c4c44c731bc2e6fe19733 usb: dwc3: core: Skip setting event buffers for host only controllers
-         846b4bacf2d48212f271fc1ef7488bcdf2c75bcb usb: dwc3: core: Refactor PHY logic to support Multiport Controller
-         7b94084247b567208beaf6c93acf1ca63c8feb65 dt-bindings: usb: qcom,dwc3: Add bindings for SC8280 Multiport
-         b225c6dae723847adb57a0aadbec79b1cc8a8170 usb: dwc3: qcom: Add helper function to request wakeup interrupts
-         23c4af0c1415134050ee3420320af93b0cc6200c usb: dwc3: qcom: Refactor IRQ handling in glue driver
-         a62a74d22dc99aa1dee5eef5608e32ae4c1578d4 usb: dwc3: qcom: Enable wakeup for applicable ports of multiport
-         a0f8829c5164430717be8c49eb58caba7b13fa8c usb: dwc3: qcom: Add multiport suspend/resume support for wrapper
+         650ae71c80749fc7cb8858c8049f532eaec64410 usb: gadget: uvc: use correct buffer size when parsing configfs lists
+         4a237d55446ff67655dc3eed2d4a41997536fc4c usb: xhci-plat: Don't include xhci.h
+         6d735722063a945de56472bdc6bfcb170fd43b86 usb: dwc3: core: Prevent phy suspend during init
+         a4b46d450c49f32e9d4247b421e58083fde304ce USB: core: Fix access violation during port device removal
+         0aea736ddb877b93f6d2dd8cf439840d6b4970a9 usb: gadget: f_fs: Fix a race condition when processing setup packets.
          
 
---===============6120402890774566371==
+--===============8177090320817509174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713914629 -0700
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713914831 -0700
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1713914637-77f898a8b1af7041bf0dfe00fb914089ddc9007b
+nonce 1713914839-39b2a2f4e589e275a607480525aa7c022e623b35
 
-c859d300c5697ac8929a1c860f78e51c7bacf72d a0f8829c5164430717be8c49eb58caba7b13fa8c refs/heads/usb-testing
+ec6ce7075ef879b91a8710829016005dc8170f17 0aea736ddb877b93f6d2dd8cf439840d6b4970a9 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYoQwUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+idgQAMOCbYtSZjPkjgGON+Vi
-d/z3tdhJnf0F866PXqYP5ZuF/Mi1KdCvfTegyNyQQ/o631gzxGti1QXmGGcogsdk
-1CqLUg8OvarwHhH6Akg8sfUt3oyxRuC6vTJA4y3qzZ3IptGaSeFyGKLTsPfe1aVS
-9Z+nF7BeIC006lVQLgMVfaGcB1vMlT2cGoo3My7qYxPMG4z3tpTBrWTbyB7x2lKq
-WRmbtdPkpNx5uOvzHAiaqZhwrTc9JdvKXMw2Yv2gxZsnTQjYhPChjvFoWRpvqBLS
-Q+13hPUd1EjCpiAbPQJt/8YOdj+qAjjm7glqhtrxBi8CRb7KJelLuFfaW5IkH2vj
-Rzl8LLT7ntWqJmzHurienCv0BzVo3XLUDegasfvjhaXoE1dPfbRPOnStwB3js88N
-uqGialh2RWu7gzBfSapQdyy3Q/9dmUeBDksJthk+kb70hrvqO9uXP2+mi2IO8o04
-SW1fznZCeNzvnH3+DZUtgixDpFlhMC9AeHgU1S+gl6vCI+tEpvROaiquTngSKtuX
-vwcRNPNd7dJMhmcm5G68UH5Fo7Hq4UQY+WKGD2NOhNkTUV4H1+2EG4ylHxPwRBL5
-nvw4dOJk+0hsTezn17/0Gv581YIl4JkgBEVeZwfndgkseUIXaXsHancxy0FVI6PV
-jvyWqbZ0YkQ5mq+VMl5uz2m1
-=gSDh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYoQ88bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pJcP/2+5b4V/PHXJAmVW+FWF
+vD37NTCpSMCVXih2ckLCZTbVaisAPjfjwwPntdNpSXIo+YiNNEUwPqvbGaBzY3FC
+aAafaqHePwjLlDWWZZqSI6OeuFWD+KTpLunwg/8Wuq7JXksv35p6OMxAHOIx3u13
+e+5MwKoVptyy0qCI38x0unF5yw1a1egO47aUQqQNsmfg8cO1Z7tbfNi66p36AN6U
+7OVEp5P/Yi1mi3kFeKVci9rmG94KFIaNFbfgV+7e3z3dNVHspQlZypDdIZNDHKvY
+0YHfDpaEHe1tgbSr11aHk8yYafF0H9xzEkBUsTcd/WMHsNlLZBmDKlbZMm+gsn5I
+pXDyTjUIJH0GH8CP1JZx3hdMdZtpM1JpKSma7sWA3E5qF2Ymr+NjlW302Ie0aQfw
+ywSEaZ1vKGnYKWImlZS3DqsGpKrFmk4LiktQ6Mo1EcmxJerQKBu/ZMisbr5bpdRS
+H+Q2fKh2qvpFvHqtcIa22Bvoo3oPUxJFcaGf9lVQ0fndSUw4Z2MRmCrHhofBwp/J
+jr6r+eRtSBesUYPmlkdA/g76v/3qhtfoX8TTHpTkzvLPWpzpl2TLoROze81jWpOc
+i7wZ0UHlBGLGlL6KPr6Kh6DtmfZb9kOd23JAx+dJXjwnGhiJ5+eyuGAV8wOH0O82
+LYIQYElJEvrWFo0Ex00OxHWC
+=HoOt
 -----END PGP SIGNATURE-----
 
---===============6120402890774566371==--
+--===============8177090320817509174==--
