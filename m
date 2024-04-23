@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8690805977794427517=="
+Content-Type: multipart/mixed; boundary="===============6120402890774566371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 23 Apr 2024 23:23:23 -0000
-Message-Id: <171391460348.29800.14424169061585332675@gitolite.kernel.org>
+Date: Tue, 23 Apr 2024 23:24:00 -0000
+Message-Id: <171391464019.30092.9047226513667713526@gitolite.kernel.org>
 
---===============8690805977794427517==
+--===============6120402890774566371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,48 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 0d31ea587709216d88183fe4ca0c8aba5e0205b8
-    new: c859d300c5697ac8929a1c860f78e51c7bacf72d
+    old: c859d300c5697ac8929a1c860f78e51c7bacf72d
+    new: a0f8829c5164430717be8c49eb58caba7b13fa8c
     log: |
-         14e37bff3da781ba271bd8d2a76e40713b8a69ec dt-bindings: usb: qcom,pmic-typec: update example to follow connector schema
-         c859d300c5697ac8929a1c860f78e51c7bacf72d dt-bindings: usb: uhci: convert to dt schema
+         59aa8a4ebd78e040f47d89ad117ac8c6a7b5dbd7 dt-bindings: usb: Add bindings for multiport properties on DWC3 controller
+         aa705d4e101923ef9190df76a74cb1718b12bafa usb: dwc3: core: Access XHCI address space temporarily to read port info
+         4904744dae644617f32c4c44c731bc2e6fe19733 usb: dwc3: core: Skip setting event buffers for host only controllers
+         846b4bacf2d48212f271fc1ef7488bcdf2c75bcb usb: dwc3: core: Refactor PHY logic to support Multiport Controller
+         7b94084247b567208beaf6c93acf1ca63c8feb65 dt-bindings: usb: qcom,dwc3: Add bindings for SC8280 Multiport
+         b225c6dae723847adb57a0aadbec79b1cc8a8170 usb: dwc3: qcom: Add helper function to request wakeup interrupts
+         23c4af0c1415134050ee3420320af93b0cc6200c usb: dwc3: qcom: Refactor IRQ handling in glue driver
+         a62a74d22dc99aa1dee5eef5608e32ae4c1578d4 usb: dwc3: qcom: Enable wakeup for applicable ports of multiport
+         a0f8829c5164430717be8c49eb58caba7b13fa8c usb: dwc3: qcom: Add multiport suspend/resume support for wrapper
          
 
---===============8690805977794427517==
+--===============6120402890774566371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713914592 -0700
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713914629 -0700
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1713914600-3a95b1a89e93f5015fab5dca2669631dcacf7cc3
+nonce 1713914637-77f898a8b1af7041bf0dfe00fb914089ddc9007b
 
-0d31ea587709216d88183fe4ca0c8aba5e0205b8 c859d300c5697ac8929a1c860f78e51c7bacf72d refs/heads/usb-testing
+c859d300c5697ac8929a1c860f78e51c7bacf72d a0f8829c5164430717be8c49eb58caba7b13fa8c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYoQuAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6s4P/A10Vgk0NE2mRNWgpfcQ
-FLAgUN+yd/CVoNg/uto8Y44IoM9l2SZSJlBWohBmmKo0ZDUMw984SguTq6e17gBn
-zosI/+5shfmWaF+R0GvfQL7Xp87Htbb0kTO64RJvPAJQTm87+wjLOd/WZyE7uS2S
-YD0IIHbR0y0u3C+bTGygH8PC06Nx/QUbzgcUjeKu2II7tMJPaWnoO12DuX34d7qf
-gNX1A/JbcGN9F1AVREJgRExiloC7h59mnHSJbDJFfAEKeYvIZsN/m73s78OW5eeF
-MOl2YBi11HnGIlCbsLiFKjBFcOx944Cn9nd5WRkA2CsMdw3PuWazS+nTkKZug+05
-iHP5YvisvaovAZv4pg/sMtR1kthZOKOxFE13S+FZhZSXU+xdBkVKfsNS+D1coDPc
-SBjTlJDgoiSZBtZ+rLCnMBPVpoYDqa0TAsvxqSd0FmqZP/upfpD21Q6FiaBoaPY3
-e+6hWTvhOkEdi70MIVseoR6KGlCQ47Pt30Hk9+ODZCYsaIj7YKPIsFXP0aoDw06H
-iB8Yxsk/EjL5F3WEiZxyFM8lkN7rOvbL7/BtqRD0ZAeGHsFSwOMhsjj/OdzaispY
-/jGeaNCl0+YK1XKjYYWQ7hE7nHcjRhSWho7eXO6nHVlSfTvwt/oN3qepxLsTOkBG
-4NBVAsqBTZcCFXQBgiiWtWna
-=6pJL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYoQwUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+idgQAMOCbYtSZjPkjgGON+Vi
+d/z3tdhJnf0F866PXqYP5ZuF/Mi1KdCvfTegyNyQQ/o631gzxGti1QXmGGcogsdk
+1CqLUg8OvarwHhH6Akg8sfUt3oyxRuC6vTJA4y3qzZ3IptGaSeFyGKLTsPfe1aVS
+9Z+nF7BeIC006lVQLgMVfaGcB1vMlT2cGoo3My7qYxPMG4z3tpTBrWTbyB7x2lKq
+WRmbtdPkpNx5uOvzHAiaqZhwrTc9JdvKXMw2Yv2gxZsnTQjYhPChjvFoWRpvqBLS
+Q+13hPUd1EjCpiAbPQJt/8YOdj+qAjjm7glqhtrxBi8CRb7KJelLuFfaW5IkH2vj
+Rzl8LLT7ntWqJmzHurienCv0BzVo3XLUDegasfvjhaXoE1dPfbRPOnStwB3js88N
+uqGialh2RWu7gzBfSapQdyy3Q/9dmUeBDksJthk+kb70hrvqO9uXP2+mi2IO8o04
+SW1fznZCeNzvnH3+DZUtgixDpFlhMC9AeHgU1S+gl6vCI+tEpvROaiquTngSKtuX
+vwcRNPNd7dJMhmcm5G68UH5Fo7Hq4UQY+WKGD2NOhNkTUV4H1+2EG4ylHxPwRBL5
+nvw4dOJk+0hsTezn17/0Gv581YIl4JkgBEVeZwfndgkseUIXaXsHancxy0FVI6PV
+jvyWqbZ0YkQ5mq+VMl5uz2m1
+=gSDh
 -----END PGP SIGNATURE-----
 
---===============8690805977794427517==--
+--===============6120402890774566371==--
