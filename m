@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8331856412813625814=="
+Content-Type: multipart/mixed; boundary="===============6662781450096543792=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 23 Apr 2024 11:26:59 -0000
-Message-Id: <171387161977.2042.17818893114386776793@gitolite.kernel.org>
+Date: Tue, 23 Apr 2024 11:27:07 -0000
+Message-Id: <171387162732.2180.18061616055396480827@gitolite.kernel.org>
 
---===============8331856412813625814==
+--===============6662781450096543792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: ea2624b5b829b8f93c0dce25721d835969b34faf
-    new: ed30a4a51bb196781c8058073ea720133a65596f
-    log: revlist-ea2624b5b829-ed30a4a51bb1.txt
+  - ref: refs/heads/tty-next
+    old: f70f95b485d78838ad28dbec804b986d11ad7bb0
+    new: 660a708098569a66a47d0abdad998e29e1259de6
+    log: revlist-f70f95b485d7-660a70809856.txt
 
---===============8331856412813625814==
+--===============6662781450096543792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713871610 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713871616 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1713871618-64b98661f4eceae3bbc063ca0b23909280e1df35
+nonce 1713871625-1fa70a9ad1254ab40cf3cfdd0e3201bf584f3ebb
 
-ea2624b5b829b8f93c0dce25721d835969b34faf ed30a4a51bb196781c8058073ea720133a65596f refs/heads/tty-linus
+f70f95b485d78838ad28dbec804b986d11ad7bb0 660a708098569a66a47d0abdad998e29e1259de6 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYnmvobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xdQP/1hLWRzqSJG6KISzYRvU
-CQMbb+XONUzmCg5JjRKw+qHxty2MtBn1Xb3RsujOOyRE8hcfs11/T2IUFdyEL2T0
-IZuFhl9Bat60DeTYsch/jzMtx8Y27nZ/iUZ17cCTfjy2Kn8hRgbanfQ3gzfpovhH
-oAXqeDKBT5V+R5fkxVVMtHUjW+2NVsZxY5xmJxWBfydIvXKtr7MMyydwdaBlc8Q/
-5BR1SvRKZa1juXT4QF2qCXZvVIE4r+ep6FWuSqkkr11IYGFoUeXD2k9DOvKTtz+c
-rpaEqYY6oDv+UCwc+hIeOMVC1+Izri/pfpfa56NHT87DhQ+m4E/LxGdUtX8Ol1JB
-Du9lP24Qcpz3nqvfsT7eSihG/ltKXrvH9yU1Syxohvv9GSDZH7RvHdhynE7pELgB
-5e+dPsanDgzGhyH1XvLXBsyKnkzJj8O6RYEyAxTyoh2AU6tmt4B3tz244203UlRv
-A7c8ccRV7mtapTnShLQfZbFldLRU4XgOlI00WNzolKfHOitql9zfym8Wp9RGvDeB
-KrRqjqlsFTRO5lb6WJ4XDAOEWO+YrB/d0NVMIUPV7fYiPLD0AqGo6Ae3jtdPXlTq
-Zs3JJdd0474pMN0L9OOt3Uc61SFt7F6Gw8WF6vnByInwOkfPTohrV7/yNsST5ZSv
-A/9T2znSHA340caXlefHC6cP
-=z79a
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYnmwAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FyAP/1tpptX2zi78vPtelufp
+g2+tGF6Ofby5NBd3D/PbgHnAhl0BptpOEeYzxDeyEI4Xf+TpjooeDgLeGaLOJNw4
+vJFiZ1wrf1Gv6B3r0aqJrKFnSmk7+IVsIOSUlCSP5Dwgk9MtiLu5dkDUekXlDpYW
+78B9OhE3eO/ZVhQnJBlZZiUG1OJwU7EHHvt/Z+6GFFMcj3kndvOu985AaWH8c8cV
+7hoPl8QSG9O+6V4Qm/RmZEDeAUVNDumrCQTHyWSlLP3yQ8GfaSRbh0MOp73ondEO
+5ZLksHTB3Czk0tmg4SnDLK1+KOVaHlgBKMK+2LNawuE0LJJp1rMDYadY9bnWoYoX
+3JhYaqT+G1Er8iW1wXhSv1X4X4JKtpsCuH5tAR4glLRtQh9kROCRmOWEZmTsj+Gq
+j1RPWvi4e7276CFyeUxXDV06SzUb+4URyi+Dt5BfHyMSH7Ji6eRnqEiYAvSDVggH
+D//9bOE+oQ4d+6kGGM4K/XfyslHqTWsvXhjPgqY2/84scw8fbWbUy2NQV/cza1jr
+LjPOpQEuSIF/tj3A8+CATLSy5EsqDPwhAwJ4mI9piXhkzg7LwtBnxJPSn2RrdTbt
+pLZRFL1Ai15ilD7DrR60NOH1LJGcZV9WXWq3/mfgE9I5HkGxM0suuHTPJ7H7Jlg+
+c6ZBEXTeTwRlAVLYSCyXOXTp
+=yOIj
 -----END PGP SIGNATURE-----
 
---===============8331856412813625814==
+--===============6662781450096543792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea2624b5b829-ed30a4a51bb1.txt
+Content-Disposition: attachment; filename=revlist-f70f95b485d7-660a70809856.txt
 
 e5f4e68eed85fa8495d78cd966eecc2b27bb9e53 tools/power turbostat: Fix added raw MSR output
 3ac1d14d0583a2de75d49a5234d767e2590384dd tools/power turbostat: Increase the limit for fd opened
@@ -297,6 +297,13 @@ b46f4eaa4f0ec38909fb0072eea3aeddb32f954e af_unix: Clear stale u->oob_skb.
 faf23006185e777db18912685922c5ddb2df383f octeontx2-af: Fix NIX SQ mode and BP config
 74043489fcb5e5ca4074133582b5b8011b67f9e7 ipv6: fib: hide unused 'pn' variable
 cf1b7201df59fb936f40f4a807433fe3f2ce310a ipv4/route: avoid unused-but-set-variable warning
+638441bed666619b4275f68bbca9d1cd731a2063 serial: 8250_lpc18xx: disable clks on error in probe()
+7dfae6cbadc1ac99e38ad19fb08810b31ff167be serial: 8250_dw: Revert: Do not reclock if already at correct rate
+54c4ec5f8c471b7c1137a1f769648549c423c026 serial: mxs-auart: add spinlock around changing cts state
+5555980571cc744cd99b6455e3e388b54519db8f serial: core: Fix regression when runtime PM is not enabled
+90452456eb69297fe7ae34e56e40d8e47dc9e019 serial: 8250_pci: Remove redundant PCI IDs
+1be3226445362bfbf461c92a5bcdb1723f2e4907 serial/pmac_zilog: Remove flawed mitigation for rx irq flood
+d325a858a53b5816a60447887f7148eace999e00 MAINTAINERS: mailmap: update Richard Genoud's email address
 06bd7e4463c5a46ad99d5c9d0c6ae7e9e818637c Merge tag 'omap-for-v6.9/n8x0-fixes-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap into arm/fixes
 7d177ae11468b77899eefd4b425f19b4af883b5f Merge tag 'imx-fixes-6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
 64c80c99ed4a608aba516362e19e3bf5dffd36d7 Merge tag 'scmi-fixes-6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
@@ -305,6 +312,7 @@ e349017a7b5c15c5ecf9f088434c45772c323bba Merge tag 'ffa-fix-6.9' of git://git.ke
 fbbdc255fbee59b4207a5398fdb4f04590681a79 fs/proc: remove redundant comments from /proc/bootconfig
 c722cea208789d9e2660992bcd05fb9fac3adb56 fs/proc: Skip bootloader comment if no embedded kernel parameters
 4370b673ccf240bf7587b0cb8e6726a5ccaf1f17 MIPS: scall: Save thread_info.syscall unconditionally on entry
+9cf7ea2eeb745213dc2a04103e426b960e807940 serial: core: Clearing the circular buffer before NULLifying it
 011d79ef1cfad701c2d8e7e80d8c77523af9c771 MAINTAINERS: Change Krzysztof Kozlowski's email address
 fbdd90334a6205e8a99d0bc2dfc738ee438f00bc MAINTAINERS: Drop Li Yang as their email address stopped working
 3461e02066758b78a0731eb71faecfb1eccd0e6c usb: typec: mux: it5205: Fix ChipID value typo
@@ -462,6 +470,7 @@ d78d867dcea69c328db30df665be5be7d0148484 netfilter: nf_tables: Fix potential dat
 3cfc9ec039af60dbd8965ae085b2c2ccdcfbe1cc netfilter: nft_set_pipapo: do not free live element
 87b3593bed1868b2d9fe096c01bcdf0ea86cbebf netfilter: flowtable: validate pppoe header
 6db5dc7b351b9569940cd1cf445e237c42cd6d27 netfilter: flowtable: incorrect pppoe tuple
+1aa4ad4eb695bac1b0a7ba542a16d6833c9c8dd8 serial: core: Fix missing shutdown and startup for serial base port
 34b990e9bb54d20b9675ca9483be8668eed374d8 usb: misc: onboard_usb_hub: Disable the USB hub clock on failure
 c8d2f34ea96ea3bce6ba2535f867f0d4ee3b22e1 speakup: Avoid crash on very long word
 64fe9a8f9fa75cf94e718c082460b2d76d1b7c56 Merge tag 'icc-6.9-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-work-linus
@@ -685,6 +694,8 @@ fb1f4584b1215e8c209f6b3a4028ed8351a0e961 USB: serial: option: add support for Fi
 d59cf049c8378677053703e724808836f180888e net: dsa: mt7530: fix mirroring frames received on local port
 2c606d138518cc69f09c35929abc414a99e3a28f net: dsa: mt7530: fix port mirroring for MT7988 SoC switch
 cb178ccb4a8ea054d39e34ed6bfb821ecc54da39 Merge branch 'mt7530-fixes'
+13c785323b36b845300b256d0e5963c3727667d7 serial: stm32: Return IRQ_NONE in the ISR if no handling happend
+ea2624b5b829b8f93c0dce25721d835969b34faf serial: stm32: Reset .throttled state in .startup()
 e871abcda3b67d0820b4182ebe93435624e9c6a4 random: handle creditable entropy from atomic process context
 83781384a96b95e2b6403d3c8a002b2c89031770 s390/ism: Properly fix receive message buffer allocation
 652ead9b746a63e4e79d7ad66d3edf0a8a5b0c2f drm/xe: Fix bo leak in intel_fb_bo_framebuffer_init
@@ -776,5 +787,6 @@ c0c6b5c090ead778b3a8132201d25040b1fdcbf8 Merge tag 'tty-6.9-rc5' of git://git.ke
 4e90ba757b1bc4d6a787e85d0a079d1dbfa9608f Merge tag 'driver-core-6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 48cf398f15fc3b2af11c78fed548355d3b66ca11 Merge tag 'char-misc-6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 ed30a4a51bb196781c8058073ea720133a65596f Linux 6.9-rc5
+660a708098569a66a47d0abdad998e29e1259de6 Merge 6.9-rc5 into tty-next
 
---===============8331856412813625814==--
+--===============6662781450096543792==--
