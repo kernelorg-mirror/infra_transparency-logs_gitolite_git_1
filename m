@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 23 Apr 2024 00:33:42 -0000
-Message-Id: <171383242235.27254.2650033654356676772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 23 Apr 2024 00:35:19 -0000
+Message-Id: <171383251946.29466.6782620278270148108@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: a4e3899065ffa87d49dc20e8c17501edbc189692
-    new: 6bea4f03c6a4e973ef369e15aac88f37981db49e
+    old: 2557e2ec94fe32d743b30d8a4f6acbaefcba0621
+    new: 2540088b836f9e208f7f722a67f9b168737036e8
     log: |
-         97ec32b583bb08f72146eee2c1a1918e05760f8c MAINTAINERS: eth: mark IBM eHEA as an Orphan
-         6bea4f03c6a4e973ef369e15aac88f37981db49e NFC: trf7970a: disable all regulators on removal
+         2540088b836f9e208f7f722a67f9b168737036e8 net: openvswitch: Check vport netdev name
          
