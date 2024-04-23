@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3647504864784682900=="
+Content-Type: multipart/mixed; boundary="===============1053889463083722729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 23 Apr 2024 12:53:32 -0000
-Message-Id: <171387681293.1161.14506398934569071737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 23 Apr 2024 12:53:37 -0000
+Message-Id: <171387681717.1294.2004684838715943984@gitolite.kernel.org>
 
---===============3647504864784682900==
+--===============1053889463083722729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-linux-next
-    old: fa66660a89053d5489bf6b1dfc12af3bfd5d83dd
-    new: 04f3d8db0b2cdd34f5bcde8b24beb2c7e3f8602e
-    log: revlist-fa66660a8905-04f3d8db0b2c.txt
+  - ref: refs/heads/kdevops
+    old: c8be1a810c477b09b0d1bb6640f28868d6a5c16f
+    new: 7d80818e12c96396665f6ee21386e76731e44d83
+    log: revlist-c8be1a810c47-7d80818e12c9.txt
 
---===============3647504864784682900==
-Content-Type: text/plain; charset="us-ascii"
+--===============1053889463083722729==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa66660a8905-04f3d8db0b2c.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-c8be1a810c47-7d80818e12c9.txt
 
 59097a2a5ecadb0f025232c665fd11c8ae1e1f58 interconnect: qcom: x1e80100: Remove inexistent ACV_PERF BCM
 de1bf25b6d771abdb52d43546cf57ad775fb68a1 interconnect: Don't access req_list while it's being manipulated
@@ -356,6 +356,26 @@ c0c6b5c090ead778b3a8132201d25040b1fdcbf8 Merge tag 'tty-6.9-rc5' of git://git.ke
 4e90ba757b1bc4d6a787e85d0a079d1dbfa9608f Merge tag 'driver-core-6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 48cf398f15fc3b2af11c78fed548355d3b66ca11 Merge tag 'char-misc-6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 ed30a4a51bb196781c8058073ea720133a65596f Linux 6.9-rc5
-04f3d8db0b2cdd34f5bcde8b24beb2c7e3f8602e Merge branches 'for-next/scmi/updates' and 'for-next/ffa/updates' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+c50d845eb97a68a5758e4e6e22a90847cc77d371 nfsd: perform all find_openstateowner_str calls in the one place.
+f0390081b833dcbb99986be95d6512ef2b7de89f nfsd: move nfsd4_cstate_assign_replay() earlier in open handling.
+4f6ccf4d78a3c5caba7b185d366527c17dc0dee2 nfsd: replace rp_mutex to avoid deadlock in move_to_close_lru()
+31545166f1b95d2cdd333fdedbfa8ab640af1a86 nfsd: drop st_mutex before calling move_to_close_lru()
+7c33236d7e1233fa29af099f4b6fa0db832a42c5 NFSD: Move callback_wq into struct nfs4_client
+b6e288d4a6cd010733810028bf59f824dd2ef212 nfsd: trivial GET_DIR_DELEGATION support
+1c4e7f4031a67cd48405568e0d5bdfdef0cf6281 fs: nfsd: use group allocation/free of per-cpu counters API
+950f9c4ba308820bf5a2dd8b195c0eba3a65af1f sunrpc: removed redundant procp check
+cb4a651353c0e48d3e08faa4b11bc1e261a12ad0 nfsd: drop extraneous newline from nfsd tracepoints
+f60b882a47f85c5779f00ceb7546bb9f96c65991 nfsd: new tracepoint for check_slot_seqid
+9e74b5a2155dfaaf034bff21a82e216ee96c4b0b nfsd: add tracepoint in mark_client_expired_locked
+c5a6f03990022af4e411c872e5827b90e93ed1b8 nfsd: optimise recalculate_deny_mode() for a common case
+d22ccfd875add69f6a62d874fb4b8caa275bc651 nfsd: don't create nfsv4recoverydir in nfsdfs when not used.
+6251e2abfc40f9d09d2267b0067f8c896fcd7c08 lockd: host: Remove unnecessary statements＇host = NULL;＇
+d0a814458af3d4f628db8ab305abc8ee2475ba38 NFSD: move nfsd_mutex handling into nfsd_svc callers
+1b3af9bafba481a561e7e4c0f42409dfed16115e NFSD: allow callers to pass in scope string to nfsd_svc
+661a13f504427ca277c30270284ed079405cd612 NFSD: convert write_threads to netlink command
+abc884ab2575a1c1175fcd208ed56bf54b0b57de NFSD: add write_version to netlink command
+97b6036713b683da18d2553f0dc9b8c3015942c9 SUNRPC: introduce svc_xprt_create_from_sa utility routine
+9b7a0a9803eac0e55724eb5c8e2947cd2a51dd5d SUNRPC: add a new svc_find_listener helper
+7d80818e12c96396665f6ee21386e76731e44d83 NFSD: add listener-{set,get} netlink command
 
---===============3647504864784682900==--
+--===============1053889463083722729==--
