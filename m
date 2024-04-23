@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 23 Apr 2024 16:04:40 -0000
-Message-Id: <171388828063.14803.9835988023942252187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Tue, 23 Apr 2024 16:30:22 -0000
+Message-Id: <171388982255.2164.14960577035564662002@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/kbuild
-    old: 8246a1e9b922c0e797ec28d8a602de1384ff8140
-    new: dd934396afdca8e74057077f1ec7da6cc574c288
+  - ref: refs/heads/for-6.9-fixes
+    old: a1d34930d1b3782307ef5d0636f4f6a9ac5028e5
+    new: 70fa3acabb737d46737e25c06d140ccb2408898c
     log: |
-         da6011a648687b5318b3705374e6120da0ec9b9a dt-bindings: kbuild: Simplify examples target patsubst
-         6552b72c3a4e8567c8f5fb2a4f6f792e2ed5dde1 dt-bindings: kbuild: Split targets out to separate rules
-         1d06c77d93dab4d7f61e9b187b7b6f557451c4ee dt-bindings: kbuild: Add separate target/dependency for processed-schema.json
-         1d1161f6f53ef58ce060549c35ed939b34f026ca kbuild: buildtar: add comments about inconsistent package generation
-         5313e466061c672e2ed4c87bb77419ac07d36c3d kallsyms: Avoid weak references for kallsyms symbols
-         4ce67824df0e88cbafa82192a7d9435a4579a016 vmlinux: Avoid weak reference to notes section
-         1bdf58bfa2b437d8bb475e9ba623524733051296 kconfig: add menu_next() function and menu_for_each(_sub)_entry macros
-         dd934396afdca8e74057077f1ec7da6cc574c288 kconfig: use menu_for_each_entry() to traverse menu tree
+         57a01eafdcf78f6da34fad9ff075ed5dfdd9f420 workqueue: Fix selection of wake_cpu in kick_pool()
+         70fa3acabb737d46737e25c06d140ccb2408898c workqueue: The default node_nr_active should have its max set to max_active
+         
+  - ref: refs/heads/for-next
+    old: be1f2b9c3135306c9221a8f8ea5579d08b3d976c
+    new: 57a2984368b52406cedbe077efea60b232bc1499
+    log: |
+         57a01eafdcf78f6da34fad9ff075ed5dfdd9f420 workqueue: Fix selection of wake_cpu in kick_pool()
+         70fa3acabb737d46737e25c06d140ccb2408898c workqueue: The default node_nr_active should have its max set to max_active
+         57a2984368b52406cedbe077efea60b232bc1499 Merge branch 'for-6.9-fixes' into for-next
          
