@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5040666596709649960=="
+Content-Type: multipart/mixed; boundary="===============1420054443682448004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Tue, 23 Apr 2024 04:50:57 -0000
-Message-Id: <171384785749.23953.2036266115407052654@gitolite.kernel.org>
+Date: Tue, 23 Apr 2024 04:51:15 -0000
+Message-Id: <171384787576.24117.8412251105615879316@gitolite.kernel.org>
 
---===============5040666596709649960==
+--===============1420054443682448004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: cdec0d455d32738dfbecb20b53c4ee789f744174
     new: 5409ade5a799309a122d3727246b04756cc0c934
     log: revlist-cdec0d455d32-5409ade5a799.txt
 
---===============5040666596709649960==
+--===============1420054443682448004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -361,4 +361,4 @@ ed30a4a51bb196781c8058073ea720133a65596f Linux 6.9-rc5
 6aafabb71e46d244e6f9aa8599fbe101938dd19a LoongArch: Fix access error when read fault on a write-only VMA
 5409ade5a799309a122d3727246b04756cc0c934 LoongArch: Fix callchain parse error with kernel tracepoint events
 
---===============5040666596709649960==--
+--===============1420054443682448004==--
