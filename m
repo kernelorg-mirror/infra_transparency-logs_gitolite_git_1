@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 23 Apr 2024 19:26:25 -0000
-Message-Id: <171390038575.16887.14771937561330322654@gitolite.kernel.org>
+Date: Tue, 23 Apr 2024 19:29:49 -0000
+Message-Id: <171390058971.18105.9572146238979346866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
   - ref: refs/heads/rproc-next
-    old: a6b974b40f942b3e51124de588383009f6a42d2d
-    new: 8e29dcf4357b9bff4fd918a4c38c202d0c9f2e19
+    old: 8e29dcf4357b9bff4fd918a4c38c202d0c9f2e19
+    new: 084c22964c08752b03cb9d3957265c66e1baf1dc
     log: |
-         8e29dcf4357b9bff4fd918a4c38c202d0c9f2e19 drivers: remoteproc: xlnx: Fix uninitialize variable use
+         084c22964c08752b03cb9d3957265c66e1baf1dc drivers: remoteproc: xlnx: Fix uninitialized variable use
          
