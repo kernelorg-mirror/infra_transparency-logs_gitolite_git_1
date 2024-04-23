@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7331608045306687033=="
+Content-Type: multipart/mixed; boundary="===============6469449838341206618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 23 Apr 2024 11:16:52 -0000
-Message-Id: <171387101267.26639.15187735648729196023@gitolite.kernel.org>
+Date: Tue, 23 Apr 2024 11:16:59 -0000
+Message-Id: <171387101987.26756.17404968261647087392@gitolite.kernel.org>
 
---===============7331608045306687033==
+--===============6469449838341206618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: fec50db7033ea478773b159e0e2efb135270e3b7
+  - ref: refs/heads/char-misc-linus
+    old: ebaed6d4def877d2035786ff318379eb750044c8
     new: ed30a4a51bb196781c8058073ea720133a65596f
-    log: revlist-fec50db7033e-ed30a4a51bb1.txt
+    log: revlist-ebaed6d4def8-ed30a4a51bb1.txt
 
---===============7331608045306687033==
+--===============6469449838341206618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713871003 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713871010 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1713871011-e67c867ac09472f7dcb2dd367e2b13090695cc36
+nonce 1713871017-5c4c98d3300a8d63b29873986e4550ee774537bb
 
-fec50db7033ea478773b159e0e2efb135270e3b7 ed30a4a51bb196781c8058073ea720133a65596f refs/heads/main
+ebaed6d4def877d2035786ff318379eb750044c8 ed30a4a51bb196781c8058073ea720133a65596f refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYnmJsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XoYQAJ3eoIkG/t+2cBv1UbJt
-AgYGEg6w1r77sA1c0cYQOX7/L7s+Z6n+/WOWUajFkTlV6/q3ImWDVoyIQgKXChnq
-bP8bRMm8F7OxSof8Qsk8INarnTHuTtLvzTgFJM4my/BdJnRSY37ueusTx1OTXpNG
-G+KEif42aVaE4/mfdErTtaRgSR/bpRFhMO0rRAD7TU7RGCDXVyYZ//kYpQc1A+nH
-CZS1gelvzqB0WHqDLqXwKLa6YDWu6rG3b1q3+XXuWJk7H2WOJq+SwtLUmZAqnYks
-HjGtwvQ1+EQuesu/SF66gfWbVE5CJzTFecSYwI944/YabYx9tPVfkRwW6je8RYq1
-J4IqkztGP5u0q8LJhBJ6H6aS7gQJrc5gKnOHC6CKBDVf/Rp5oYJhyHNl5bRN2XJR
-nxC58yTpSLGZtxwwvfY6CpOsr8jNjgIqERDJkXTXidY6vvvPFSSYusMxp5pvlAzr
-dYzq+TiMp3J/Ig1ScIMBjpuJ4F1WEj/ozMFCvBNKdKqVF5DXl9vY5cKdQQZQBczY
-IrqHqbTeeJ+t+JIlhucnuvu/Y3OSEHinrv/h1Gd+1Ji71NDydWGWxg8QOJoTH+V+
-SnYGM2TOmGU4SeWBcdI6F+Crhz5qR37CTuZgWWnOw6+7xeXSeJNMK1oBmIBaW2J7
-yLfbN7ZRLoOFESr2ZzG3v3bK
-=yybl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYnmKIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GusP/3gk553QT/PZs+1/9IFm
+0MTPhAcngUaXFDSJUJVl5sfLH/lzERp5oGBpLTbJ4+N3DJhdC1uU8h13mJb9Ywvn
+D52WSfQ3FpoEu9H7V9NmEAjiHpyELUHYF7VjHeoL52fwD9sPSnzOWsXzmDkjwUaG
+3kT421GVteG4GZb2CKShbxx1DiHwuRfexhegak63ws854b38SxbaPX/Y0PLGyTZp
+MkhwMwH+WkB7y0eeGJoaXqXKsE0ke5WT+IjplKr+Ex8Uq9OUqoP5LbWNs+z5fqlx
+mzghjDYGFp0YGQwJ893JU7/1MzeutjBc6xDTE/s/sZ3sLmNu8lSmRzz/kZcmdpOb
+QaaUjevF7tbxmCszVbcXBblbWH8QFx1JAD/9xJb3SBoF2yVHNIlfNc2arXlUo4Na
+53RFywiZB551foqtMLuXBu4c3LzJGjH4CpD99D9voNusf1tpB7TVmSgbJ6CfecCl
+XwnuwsYGQAMG3BMWQQv8PI1UC71YG37H7wppfkMbRILOFH3AUmAWbydPIO/KUu9Y
+0voiYJHel5HPkyaquxOGOyW7p1WtHtupIGm6mcMJpUB38fQ8sJe+d8bLuVaj5hYT
+3qD0f4xK5aJkpCJP8aGFXnmOE80hQyhhTxZHmzvL7s7apOBoVi9hM1yU+DX2r+B6
+4O9oprw1OMGlT0XP4QkrKfef
+=ENiN
 -----END PGP SIGNATURE-----
 
---===============7331608045306687033==
+--===============6469449838341206618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fec50db7033e-ed30a4a51bb1.txt
+Content-Disposition: attachment; filename=revlist-ebaed6d4def8-ed30a4a51bb1.txt
 
 e5f4e68eed85fa8495d78cd966eecc2b27bb9e53 tools/power turbostat: Fix added raw MSR output
 3ac1d14d0583a2de75d49a5234d767e2590384dd tools/power turbostat: Increase the limit for fd opened
@@ -70,8 +70,6 @@ f6862c7f156d04f81c38467e1c304b7e9517e810 mmc: omap: fix deferred probe
 894ad61b85d6ba8efd4274aa8719d9ff1c89ea54 mmc: omap: restore original power up/down steps
 4421405e3634a3189b541cf1e34598e44260720d ARM: OMAP2+: fix USB regression on Nokia N8x0
 fcf3f7e2fc8a53a6140beee46ec782a4c88e4744 raid1: fix use-after-free for original bio in raid1_write_request()
-59097a2a5ecadb0f025232c665fd11c8ae1e1f58 interconnect: qcom: x1e80100: Remove inexistent ACV_PERF BCM
-de1bf25b6d771abdb52d43546cf57ad775fb68a1 interconnect: Don't access req_list while it's being manipulated
 e249884e106b81c34f8050d23935ffc12623843f x86/hyperv: Cosmetic changes for hv_apic.c
 1f1dc442c57ec61c08d21d47e4c5b4f16446fe00 mshyperv: Introduce hv_numa_node_to_pxm_info()
 1a4bd2b128fb5ca62e4d1c5ca298d3d06b9c1e8e firmware: arm_ffa: Fix the partition ID check in ffa_notification_info_get()
@@ -472,22 +470,13 @@ d78d867dcea69c328db30df665be5be7d0148484 netfilter: nf_tables: Fix potential dat
 6db5dc7b351b9569940cd1cf445e237c42cd6d27 netfilter: flowtable: incorrect pppoe tuple
 1aa4ad4eb695bac1b0a7ba542a16d6833c9c8dd8 serial: core: Fix missing shutdown and startup for serial base port
 34b990e9bb54d20b9675ca9483be8668eed374d8 usb: misc: onboard_usb_hub: Disable the USB hub clock on failure
-c8d2f34ea96ea3bce6ba2535f867f0d4ee3b22e1 speakup: Avoid crash on very long word
-64fe9a8f9fa75cf94e718c082460b2d76d1b7c56 Merge tag 'icc-6.9-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-work-linus
-0dc04112bee6fdd6eb847ccb32214703022c0269 mei: me: disable RPL-S on SPS and IGN firmwares
-26ac2df47d4c58f17210b7a59037e40f7eca693e misc: rtsx: Fix rts5264 driver status incorrect when card removed
-e3dc66d998d2b0c2734db9ca1d6c94c97349529a Revert "mei: vsc: Call wake_up() in the threaded IRQ handler"
-f6085a96c97387154be7eaebd1a5420eb3cd55dc mei: vsc: Unregister interrupt handler for system suspend
-d1718530e3f640b7d5f0050e725216eab57a85d8 comedi: vmk80xx: fix incomplete endpoint checking
 a90bca2228c0646fc29a72689d308e5fe03e6d78 fs: sysfs: Fix reference leak in sysfs_break_active_protection()
-aaef73821a3b0194a01bd23ca77774f704a04d40 binder: check offset alignment in binder_get_object()
 f488138b526715c6d2568d7329c4477911be4210 NFSD: fix endianness issue in nfsd4_encode_fattr4
 156539fd65019e8ed6b9fbac0583cf519cdbb227 Documentation: embargoed-hardware-issues.rst: Add myself for Power
 50a9b7fc151e67b9e642232d32e8c5a5ac13e64a drm/xe/display: Fix double mutex initialization
 a8ad8715472bb8f6a2ea8b4072a28151eb9f4f24 drm/xe/hwmon: Cast result to output precision on left shift of operand
 9cb46b31f3d08ed3fce86349e8c12f96d7c88717 drm/xe/xe_migrate: Cast to output precision before multiplying operands
 f76646c83f028c62853c23dac49204232e903597 drm/xe: Label RING_CONTEXT_CONTROL as masked
-ebaed6d4def877d2035786ff318379eb750044c8 peci: linux/peci.h: fix Excess kernel-doc description warning
 fd706c9b1674e2858766bfbf7430534c2b26fbef KVM: x86: Snapshot if a vCPU's vendor model is AMD vs. Intel compatible
 49ff3b4aec51e3abfc9369997cc603319b02af9a KVM: x86/pmu: Do not mask LVTPC when handling a PMI on AMD platforms
 2b8dbf69ec60faf6c7db49e57d7f316409ccec92 perf annotate: Make sure to call symbol__annotate2() in TUI
@@ -788,4 +777,4 @@ c0c6b5c090ead778b3a8132201d25040b1fdcbf8 Merge tag 'tty-6.9-rc5' of git://git.ke
 48cf398f15fc3b2af11c78fed548355d3b66ca11 Merge tag 'char-misc-6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 ed30a4a51bb196781c8058073ea720133a65596f Linux 6.9-rc5
 
---===============7331608045306687033==--
+--===============6469449838341206618==--
