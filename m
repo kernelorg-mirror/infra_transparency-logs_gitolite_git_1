@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4291710968900037673=="
+Content-Type: multipart/mixed; boundary="===============8222086224588194806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 23 Apr 2024 16:44:51 -0000
-Message-Id: <171389069133.13485.5361306463565365389@gitolite.kernel.org>
+Date: Tue, 23 Apr 2024 16:45:09 -0000
+Message-Id: <171389070990.15324.9887956342353327750@gitolite.kernel.org>
 
---===============4291710968900037673==
+--===============8222086224588194806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: c51db4ac10d57c366f9a92121e3889bfc6c324cd
     new: 1af2dface5d286dd1f2f3405a0d6fa9f2c8fb998
     log: revlist-c51db4ac10d5-1af2dface5d2.txt
 
---===============4291710968900037673==
+--===============8222086224588194806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -74,4 +74,4 @@ dfdd70e24e3887886743b8681680da0ad07a24a7 net: ipa: kill ipa_version_supported()
 0ff1db480c7e06f14078937642695334a0890aee Merge branch 'net-ipa-eight-simple-cleanups'
 1af2dface5d286dd1f2f3405a0d6fa9f2c8fb998 af_unix: Don't access successor in unix_del_edges() during GC.
 
---===============4291710968900037673==--
+--===============8222086224588194806==--
