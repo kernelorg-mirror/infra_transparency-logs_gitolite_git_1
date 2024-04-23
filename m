@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 23 Apr 2024 09:11:48 -0000
-Message-Id: <171386350828.18918.9338806056270341679@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Tue, 23 Apr 2024 09:17:08 -0000
+Message-Id: <171386382870.22466.869050589226093966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/for-next
-    old: c96ce45f250231bc44cd54d370d60e131f8f88d6
-    new: 5b36f05375b2f8c1784f529005f317043f7475ca
+  - ref: refs/heads/v6.9-next/dts64
+    old: 7d35c006a52661fd4d17a9f1ab627336cb215b97
+    new: d3dbc472ac662a1ebba5064b44bc3a24e91b412a
     log: |
-         ab371a026a1a4ad81817d82ba433c19934082894 ASoC: dt-bindings: mt2701-wm8960: Convert to dtschema
-         181d58cfe90f6a2ad53f6811d318fbc7149df8c1 ASoC: cs35l41: Delete unnecessary condition in cs35l41_pcm_hw_params()
-         5b36f05375b2f8c1784f529005f317043f7475ca Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
+         f5bcf8ab09504d39cac708bb45eb8f04ce73315a arm64: dts: mediatek: mt8186: add lvts definitions
+         d3dbc472ac662a1ebba5064b44bc3a24e91b412a arm64: dts: mediatek: mt8188: add lvts definitions
          
