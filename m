@@ -1,47 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 23 Apr 2024 08:02:42 -0000
-Message-Id: <171385936299.31845.16792315673502060225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 23 Apr 2024 08:11:11 -0000
+Message-Id: <171385987112.7377.2433747573438329017@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/renesas-clk
-    old: c0516eb4cf04ac61b6fe1f86cc15b2f5f024ee78
-    new: 44019387fce230beda35b83da3a2c9fc5787704e
+  - ref: refs/heads/for-next
+    old: 70ce74fbef7eac91c519594cdac6f051b03970a0
+    new: 0e3285a38676a3ca555f8745ea0edbdeafd7a0a9
     log: |
-         3b23118bdbd898dc2f4de8f549d598d492c42ba8 clk: renesas: r8a779a0: Fix CANFD parent clock
-         50f0cbd5cc433bf7b22633b4f37b08de64dbfba5 clk: renesas: r8a779h0: Add MSIOF clocks
-         ef9916d0e28297410583f89c329a8ba3940dd8fa clk: renesas: r8a779h0: Add INTC-EX clock
-         44019387fce230beda35b83da3a2c9fc5787704e clk: renesas: r9a07g043: Add clock and reset entry for PLIC
+         a42f2e9ba13b8a4c556f43ed99e22ae14fb73130 arm64: dts: amlogic: Add Amlogic T7 reset controller
+         0e3285a38676a3ca555f8745ea0edbdeafd7a0a9 Merge branch 'v6.10/arm64-dt' into for-next
          
-  - ref: refs/heads/renesas-clk-for-v6.10
-    old: c0516eb4cf04ac61b6fe1f86cc15b2f5f024ee78
-    new: 44019387fce230beda35b83da3a2c9fc5787704e
+  - ref: refs/heads/v6.10/arm64-dt
+    old: a654af36fe8b54e360fcf155b785df3aa0eab73e
+    new: a42f2e9ba13b8a4c556f43ed99e22ae14fb73130
     log: |
-         3b23118bdbd898dc2f4de8f549d598d492c42ba8 clk: renesas: r8a779a0: Fix CANFD parent clock
-         50f0cbd5cc433bf7b22633b4f37b08de64dbfba5 clk: renesas: r8a779h0: Add MSIOF clocks
-         ef9916d0e28297410583f89c329a8ba3940dd8fa clk: renesas: r8a779h0: Add INTC-EX clock
-         44019387fce230beda35b83da3a2c9fc5787704e clk: renesas: r9a07g043: Add clock and reset entry for PLIC
-         
-  - ref: refs/heads/renesas-pinctrl
-    old: 02cd2d3be1c31a3fd328ee83e576340d34bc57d9
-    new: 21fc4d195922f6b29233d2d22e9631cada7db259
-    log: |
-         2487dc87aeeb58a07406f1da0ee36e069c3f42e3 pinctrl: renesas: rzg2l: Remove extra space in function parameter
-         c3bec9547c1be0cce3060368dd92abf610c65f24 pinctrl: renesas: r8a779h0: Fix IRQ suffixes
-         21fc4d195922f6b29233d2d22e9631cada7db259 pinctrl: renesas: r8a779h0: Add INTC-EX pins, groups, and function
-         
-  - ref: refs/heads/renesas-pinctrl-for-v6.10
-    old: 02cd2d3be1c31a3fd328ee83e576340d34bc57d9
-    new: 21fc4d195922f6b29233d2d22e9631cada7db259
-    log: |
-         2487dc87aeeb58a07406f1da0ee36e069c3f42e3 pinctrl: renesas: rzg2l: Remove extra space in function parameter
-         c3bec9547c1be0cce3060368dd92abf610c65f24 pinctrl: renesas: r8a779h0: Fix IRQ suffixes
-         21fc4d195922f6b29233d2d22e9631cada7db259 pinctrl: renesas: r8a779h0: Add INTC-EX pins, groups, and function
+         a42f2e9ba13b8a4c556f43ed99e22ae14fb73130 arm64: dts: amlogic: Add Amlogic T7 reset controller
          
