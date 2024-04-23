@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 23 Apr 2024 20:47:07 -0000
-Message-Id: <171390522791.13264.1099363051323181775@gitolite.kernel.org>
+Date: Tue, 23 Apr 2024 20:47:59 -0000
+Message-Id: <171390527996.13644.10656517157175116349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,18 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 1af2dface5d286dd1f2f3405a0d6fa9f2c8fb998
-    new: c5662d7ed0ea0b9655b8ae3221ae1725c5ff951e
+  - ref: refs/heads/dev-queue
+    old: 55bef6750a483c469ce12aa3568a8b5c54c40151
+    new: 1128944098c67d1ebfbeeec47eea35146372769f
     log: |
-         b2dc6a95172cec0e58f6129b29b770450c576038 net: intel: introduce {, Intel} Ethernet common library
-         d3ca2512b4f280239289477ed26aa7af9fa7925f iavf: kill "legacy-rx" for good
-         a8ec7d2113b075898e513588ad77e999be24903b iavf: drop page splitting and recycling
-         e344747c10d7184a016a94c500b631bd7a25da06 slab: introduce kvmalloc_array_node() and kvcalloc_node()
-         5591039a96945a3d83ed89eabe9d7ede3b0f7776 page_pool: constify some read-only function arguments
-         a4b791025bce83acaa69a1d0f07f142388deed68 page_pool: add DMA-sync-for-CPU inline helper
-         ea6cbe30c6858b488b4e132cc9745c089ace9d83 libeth: add Rx buffer management
-         235e7e8526363620dbbb43231d99ef793a130575 iavf: pack iavf_ring more efficiently
-         cd4ca8995b705c381d728f8e53b2ea4a2f8d88ee iavf: switch to Page Pool
-         c5662d7ed0ea0b9655b8ae3221ae1725c5ff951e MAINTAINERS: add entry for libeth and libie
+         8e9f71a64dbcc2211266b7c369e74868fd585ac0 net: intel: introduce {, Intel} Ethernet common library
+         d6d22f8743a3d5491160bcc36ba56640b444c8a6 iavf: kill "legacy-rx" for good
+         c18f581b96d89fc42ee1ad1f02605255580281b5 iavf: drop page splitting and recycling
+         713859236dd02e7a6f68cc05102470ec8cbf484c slab: introduce kvmalloc_array_node() and kvcalloc_node()
+         d49280003279c7cb011e843db2d49cad12bae494 page_pool: constify some read-only function arguments
+         20a936959d3402624fdaaf07e97a0eb270ee5bd8 page_pool: add DMA-sync-for-CPU inline helper
+         8c742a96ddd1a9fa59b10667ae5b588e0a59e8e4 libeth: add Rx buffer management
+         82cc8d850467c544d2780447de7c1b705207879e iavf: pack iavf_ring more efficiently
+         54fc109f9689d92c454aa78a9603b19693ddae94 iavf: switch to Page Pool
+         1128944098c67d1ebfbeeec47eea35146372769f MAINTAINERS: add entry for libeth and libie
          
