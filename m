@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4805047585085969406=="
+Content-Type: multipart/mixed; boundary="===============2674234463346132236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Tue, 23 Apr 2024 17:35:03 -0000
-Message-Id: <171389370368.527.3441411071118414704@gitolite.kernel.org>
+Message-Id: <171389370387.547.54120563916756460@gitolite.kernel.org>
 
---===============4805047585085969406==
+--===============2674234463346132236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: de80733cba18af3d3b823eb6ff13415dbf662a23
-    new: e82b79b37ef624369316c67eed41f5ddb5f0704b
-    log: revlist-de80733cba18-e82b79b37ef6.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 056295f5ee2046cf389593e94e68f1749a226db0
+    new: e3cf3b814d6730b0e7ac78ed5adf9a58182cce55
+    log: revlist-056295f5ee20-e3cf3b814d67.txt
 
---===============4805047585085969406==
+--===============2674234463346132236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,103 +32,102 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713893693 -0700
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1713893702-1d1b070e5345d8647769f505aa4805092693bdc3
 
-de80733cba18af3d3b823eb6ff13415dbf662a23 e82b79b37ef624369316c67eed41f5ddb5f0704b refs/heads/linux-5.10.y
+056295f5ee2046cf389593e94e68f1749a226db0 e3cf3b814d6730b0e7ac78ed5adf9a58182cce55 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYn8T0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VuYP/iC62WevXYWeons5XSQw
-Z0U/dxxxqlbov69EuP+WKyvTEwuN8Vi622qJAsKOH8yIZ32knl5pQbhIiZxsiNau
-0PWnYy34pvYGfHZZ7OTL+uGWMxvzzWmvBwBhBCsNNKZXSPjHh32uNpnIzFhbfsfI
-uIMliwx4xfPL2THFqOJxzocpOKulhUYp1v7hs478CeoxgV2BieaLKQHytvXis3TR
-SJlIf3EOQA8rwcXZGZpK1e97/DFPtFP1vaQ2DIbaG9DXYx7+D6ycvCIvKBvL4Hj0
-yr4fVGULqSiY5hxU2gwoVtopuE+TeEqvVxzUczLthwMqMvMyo/eyPfs8/XhLltnv
-4PTg82XkKpwtMm5N0FB68hasSGuDGhzrx0sfT85mB1RsOaxbaRPkwky5Gg5durR7
-j8gp5rq6998Lx5N4RjK6w3qrm/LUOR9BcWK5NbJhmX1jiB4rCWnFPXh+rR5ibtiL
-tnMUl4nBxMPuIuUMRLQy7uASN4esuryhQkbMeqJ7KsDs+jaRS1uf1jOtKzgOA7iY
-SDejkj3h/lBqJb6eJmXYrSDaTKX5cDVTInNQ1C4nnpEq1yicNIxZE8cUd1ruFzx6
-6BCKJYHLULKGAq6s3noPZy1qjzBW6rLK8WoWhLtUEr9BdMc91oQg/imVrXHNjRlI
-NJgI8nLBChBX9WAq6mOg8HaJ
-=Eva+
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gTgQAM0qiPBnyyvy+jh5HZGQ
+RXZrcKImgjrYF/3OTEyybM78/u90V7AN07QlhmqVfWWA6pGAAaJTVhzfTFCdhfMI
+qBSGmvCa45mvjw4d4eoT4VKHJ37z2IJedUne+kOIskP5Ln6mm0pPVOjETM4bEKji
+hVRC3bI2p2lMMkn9vd1RJlTKYZbHC6YWGXuUS78rHxTOd3tfTQjHHktKgJF5lKQb
+3PPtXsnLqYMilkSJFTAx/tNVYEFdGGBstX3Voa3T+n33OTJFE/8wSaDj9xfzljNW
+tEEwMN6Nu4EA4Ir7Q9QNF0hBSQFvHmHN85ze5T49cEE+CDFf9vm3UlwdOSJGAlrh
+buT0GumVlf612Umel2I5f5PxRHu/4BkGvJcThYd9/hmer4GP22JxPvIVyKDyYSgy
+r+djoZ2fzg5ZBm2jrUGkWbrOqKyWqE6uq+vMsdevTGCMN6pcYwQnISCQ1Vh4DW4X
+vHpJejKcTN6OAKDKutqjRsKid6YEIFJ7lbQQnRyAKAEYmbaTNILkr3Gm0Rmyi4dA
+4vWkSTDONZTSdV97lE9pMh0QXf8wbylLsVoMlWQG4yblVmnd426Fl/IfGtrWOWyK
+E2YesN7hs922xrPvBVsXbqFEw8nJHjpOqY9JIzmJ+F2o2Nx9kx+XTFTPwiaK0I/Q
+t4KXgSD9w6lZkCSsxftEaIyW
+=U92M
 -----END PGP SIGNATURE-----
 
---===============4805047585085969406==
+--===============2674234463346132236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de80733cba18-e82b79b37ef6.txt
+Content-Disposition: attachment; filename=revlist-056295f5ee20-e3cf3b814d67.txt
 
-0552370f94f751f68867991bf9671c86073c0968 batman-adv: Avoid infinite loop trying to resize local TT
-9778da0dc06f8089af6a0fc019134817ad2f9ed3 Bluetooth: Fix memory leak in hci_req_sync_complete()
-c5f66d437fc3816c5fa994b62c8a5fc1bc1b74df media: cec: core: remove length check of Timer Status
-79f3ac6b93dcc44b16d8420a7b5e7dec79c3c254 nouveau: fix function cast warning
-98845267b32ce4a3ea59ceac5e9bee6f8aaf5ee6 net: openvswitch: fix unwanted error log on timeout policy probing
-98faf2c8cbc02de7fdeebbbf5262dff41b25d5d9 u64_stats: fix u64_stats_init() for lockdep when used repeatedly in one file
-5ffb88bbf7f6d8ae7382ef3404823f48f39bc741 xsk: validate user input for XDP_{UMEM|COMPLETION}_FILL_RING
-535a03b52a0a6e9efe448bf4c110fed4491c1c43 geneve: fix header validation in geneve[6]_xmit_skb
-f0fad28ae18e8e47c662481401462fd09d6e37c8 octeontx2-af: Fix NIX SQ mode and BP config
-5d53cc0be194ef8cd8d80eabdf7b618f52797f01 ipv6: fib: hide unused 'pn' variable
-06ca29f4836c7da495ac1bc0ea8af5c593d4ada5 ipv4/route: avoid unused-but-set-variable warning
-a0a5b42bbfbdfaa5aa3417365d1a2546fc14a7e2 ipv6: fix race condition between ipv6_get_ifaddr and ipv6_del_addr
-21e4aeec58dc110e91c9d4364955bc72f082ee92 Bluetooth: SCO: Fix not validating setsockopt user input
-d5ca58d3268a1f478332054aceb687b3ba89892b netfilter: complete validation of user input
-d8abfc9002100dcf12573a2b738f3df00646392a net/mlx5: Properly link new fs rules into the tree
-55a62483e25aae15452c097752caf6bd878a9d13 af_unix: Do not use atomic ops for unix_sk(sk)->inflight.
-6946655b03eb2f0c971d810686fd93497eccd78d af_unix: Fix garbage collector racing against connect()
-73e3db6e38c88290b76d4d1dc2704d77cba9ce05 net: ena: Fix potential sign extension issue
-3f67d23e8f8eecbf808f3a8108c3d20fd201884d net: ena: Wrong missing IO completions check order
-53630287d71b0d54f9f321e4cf7346716283bb43 net: ena: Fix incorrect descriptor free behavior
-45f458b1e9b304600e59dcf902fa82e56fafbcae iommu/vt-d: Allocate local memory for page request queue
-16bbe8f1071f42713bb7bb420c6f2d7d9e8a6a33 mailbox: imx: fix suspend failue
-b7b40a9c157aba6546c7f2c4e89f9ca126ed6c57 btrfs: qgroup: correctly model root qgroup rsv in convert
-865ae0d51bb81f2c487b5153baced7c9401d3b36 drm/client: Fully protect modes[] with dev->mode_config.mutex
-979165ac34663cfd9231c3b1b00c1c5812ec19ff vhost: Add smp_rmb() in vhost_vq_avail_empty()
-21d6f79675178417ca72acd3572c8abd4515bfe1 x86/cpu: Actually turn off mitigations by default for SPECULATION_MITIGATIONS=n
-5bd5fe5b6a19850471f9d2034fba702f8d646c7e selftests: timers: Fix abs() warning in posix_timers test
-05d0a0ef4f8487aa471800f8d0e1a4bb85a479bd x86/apic: Force native_apic_mem_read() to use the MOV instruction
-bbe4e16e601989a4234a0ac545265ad0c5bd52fc irqflags: Explicitly ignore lockdep_hrtimer_exit() argument
-06417bd1740875d916c135bfeb1cc0dbff9d3f81 btrfs: record delayed inode root in transaction
-32ca493678c01b3c6678f5b8be31f9fc309e6082 riscv: Enable per-task stack canaries
-40968f5dabe7b7e48aa2a3b75d7cd27b5746362b riscv: process: Fix kernel gp leakage
-c0174f13ef1be041931f08ef4a28db7272f55a41 ring-buffer: Only update pages_touched when a new page is touched
-0fba17fe1350ea30bda65bee7db93995d1924cac selftests/ftrace: Limit length in subsystem-enable tests
-4a56475be9948f9da08b1637552a798487291270 kprobes: Fix possible use-after-free issue on kprobe registration
-c2ef0efb56db1fb05bcf541d575dc51239ffd6dd Revert "tracing/trigger: Fix to return error if failed to alloc snapshot"
-1c91fc38c04300bc84055abaeab57de46f87afa6 netfilter: nf_tables: Fix potential data-race in __nft_expr_type_get()
-f72e47ab7f4512a617d8db071f34a75b45a90a64 netfilter: nft_set_pipapo: do not free live element
-85447430d8bf0f069731ea8ec9face99701ca691 tun: limit printing rate when illegal packet received by tun dev
-48c3637ea76c53db1b6e6335256ec58262659f6c RDMA/rxe: Fix the problem "mutex_destroy missing"
-eb899e1e57a1d9669c97b2d39ad9ff18be80ef6f RDMA/cm: Print the old state when cm_destroy_id gets timeout
-8bde861f752486f159514c037bee02d023d39cf6 RDMA/mlx5: Fix port number for counter query in multi-port configuration
-5f9c2653291b6b1172e22c866d38e060d427a30a drm: nv04: Fix out of bounds access
-854f5797267fb3619426fd6eed5d2efd8b738b8e drm/panel: visionox-rm69299: don't unregister DSI device
-044cb203468992423523f5227d08bd1d199cb9da clk: Remove prepare_lock hold assertion in __clk_release()
-b437379c45e634174aa4f1fbd296e17e8409ce9b clk: Mark 'all_lists' as const
-1c846bc80e6b1f01f1b3789edb3710a6ee31bc2b clk: remove extra empty line
-91744116b65f222c624de503fca9ad51dc1facea clk: Print an info line before disabling unused clocks
-36ac71ec3099ebf64f4b2757fbaa7deeb0dbab20 clk: Initialize struct clk_core kref earlier
-7cf9aa66d0d13ac3127cc91eba296ea23f4c5343 clk: Get runtime PM before walking tree during disable_unused
-fb2b5447c5137ebc717f008e76689a7bfaf6d061 x86/cpufeatures: Fix dependencies for GFNI, VAES, and VPCLMULQDQ
-6fefdff17615adc45f9734e342b22cc7ecabd4dd binder: check offset alignment in binder_get_object()
-8d8f9d13c1e3a72c95ca84627e12ba85976c123a thunderbolt: Avoid notify PM core about runtime PM resume
-1c83bbd9f9da22b2240f2dcbc2c5210aec7d69b2 thunderbolt: Fix wake configurations after device unplug
-cba8b4e092632f8036d2337877d011aeb85ff531 comedi: vmk80xx: fix incomplete endpoint checking
-bec952df165ea4bcd077966b44b3fa05289cfc48 serial/pmac_zilog: Remove flawed mitigation for rx irq flood
-d57b947975dde5b4dc46dc76f6eea39cc8698de1 USB: serial: option: add Fibocom FM135-GL variants
-9edba0965f8e108b5052c12bdd3e55cb4b3350b7 USB: serial: option: add support for Fibocom FM650/FG650
-350c4ac38f3eab482bf85abb2341e32a55af71ee USB: serial: option: add Lonsung U8300/U9300 product
-e36636892a96cec53a060d2ccdbf8a0cca55618f USB: serial: option: support Quectel EM060K sub-models
-b4c32c2d32481aca7dd0105c211551d8ded955f0 USB: serial: option: add Rolling RW101-GL and RW135-GL support
-c7eb2af8c26ce427b31dc59de25e39bcf106ce60 USB: serial: option: add Telit FN920C04 rmnet compositions
-21dd690b8d1fce5f027758e0a5cf5c1357eef902 Revert "usb: cdc-wdm: close race between read and workqueue"
-d66695ee0322c496d86583e788642d6547e801a9 usb: dwc2: host: Fix dereference issue in DDMA completion flow.
-e75cd9ceb4c173d174f4ecd4f24642295781aaca usb: Disable USB3 LPM at shutdown
-b130a8551d612dc2c33ef59c885ee7e858978e9c mei: me: disable RPL-S on SPS and IGN firmwares
-54900eaea1ed420652653ce76d7dd8823a092804 speakup: Avoid crash on very long word
-94b9163a0e74fa38ff1ae7bf013ed487567574d6 fs: sysfs: Fix reference leak in sysfs_break_active_protection()
-e3455b305a439db0545638610972004ffe96b6ab init/main.c: Fix potential static_command_line memory overflow
-2d20dcdf1d630089af5deb83423707d360f8ed74 drm/amdgpu: validate the parameters of bo mapping operations more clearly
-d79f5a7b545932ab3e1436f2afce1177eeeea57c nouveau: fix instmem race condition around ptr stores
-e11ebd16ce7408c54bada965e5debbbec5af582b nilfs2: fix OOB in nilfs_set_de_type
-e82b79b37ef624369316c67eed41f5ddb5f0704b Linux 5.10.216-rc1
+d1a5b61a9ee70819f02f75a9e9f2f93de12805d5 ksmbd: don't send oplock break if rename fails
+a701778d597872ac75693e69c6a9413209113a32 ksmbd: validate payload size in ipc response
+ccbd34d6e105cefa02ce2b6bc59ae649bac74109 ksmbd: do not set SMB2_GLOBAL_CAP_ENCRYPTION for SMB 3.1.1
+da6810432eebb3e9acfce1df8a52f598c1b2c227 btrfs: record delayed inode root in transaction
+14a97cbbafe16565e8b8b012f82cb3cdbac4cd23 SUNRPC: Fix rpcgss_context trace event acceptor field
+daeaff4f391c2d52eba2b16a8bbf3079f89e48f2 selftests/ftrace: Limit length in subsystem-enable tests
+12f95ddc50a35db8c0742d8ebd8990142b52582c bpf: Extend kfunc with PTR_TO_CTX, PTR_TO_MEM argument support
+712b1bccf82e2384ee6d2e4a6a1c37db364a20cd bpf: Generalize check_ctx_reg for reuse with other types
+0ba03f97d7c7e3657c5a80d2307a17428a2d9f41 bpf: Generally fix helper register offset check
+c860947f1848037da6cd5296c5e4a800a131783a bpf: Fix out of bounds access for ringbuf helpers
+1fb3e4c597788819284e8c78b5a66e06e1971884 bpf: Fix ringbuf memory type confusion when passing to helpers
+fd0a21cdcbcb4835a17be4763de77e419f0ad6f6 kprobes: Fix possible use-after-free issue on kprobe registration
+09687c48585a72e8fd6f9ab922c00c001f9d4363 Revert "tracing/trigger: Fix to return error if failed to alloc snapshot"
+64ff4c0df69bb911459e5d16c8960da9c2b128d8 Revert "lockd: introduce safe async lock op"
+4d6cfa5471d367c57bb1ece26902872c1a1b41c7 netfilter: nf_tables: Fix potential data-race in __nft_expr_type_get()
+951baafd758db13f0ca6c89728b0520f37f94cdd netfilter: nf_tables: Fix potential data-race in __nft_obj_type_get()
+6ffcb89a800b90a4b4dec9c30d3a1a6008d780bc netfilter: br_netfilter: skip conntrack input hook for promisc packets
+7759ea48ab55df5eabdae28fc9dbc5b5b77c2eb6 netfilter: nft_set_pipapo: do not free live element
+57b81fdd63b03ac545fc3f2ae17c1d0239cc5234 netfilter: nf_flow_table: count pending offload workqueue tasks
+8b1379d1e84e4bd5d9410f6ca350ca0f18f8eb5c netfilter: flowtable: validate pppoe header
+4bd4c25a1be6183df1dd1c5c259727e5cb861a34 netfilter: flowtable: incorrect pppoe tuple
+50d1fd8bc39221481b2f252644b018d994470fc4 af_unix: Call manage_oob() for every skb in unix_stream_read_generic().
+c2d123ced270b32d303b37ee57643f785fa100d2 af_unix: Don't peek OOB data without MSG_OOB.
+ffb22b7709de5d42fbd293333c46a61bd9bb80cf tun: limit printing rate when illegal packet received by tun dev
+075e12534fba4c8dedcbbc0aeb0d6e8abf532b98 net: dsa: mt7530: fix mirroring frames received on local port
+869f384b5bf369fdce7e4f534669ed2a5bd9567e net: ethernet: ti: am65-cpsw-nuss: cleanup DMA Channels before using them
+1a62afc326755f75a6406c76daa9f4a2dcdbf8c9 RDMA/rxe: Fix the problem "mutex_destroy missing"
+4ea357c48de9aaf9a224d9717540adf5b1653dd4 RDMA/cm: Print the old state when cm_destroy_id gets timeout
+273f829517575ab419713f1ea66b02b40f2734ad RDMA/mlx5: Fix port number for counter query in multi-port configuration
+8551e1460e9079f21523e8bb6ccfa831295af264 s390/qdio: handle deferred cc1
+7e844163229cbba3f97faa0f3f81c8d5f9f232c6 s390/cio: fix race condition during online processing
+f01b6cb89fabd05ea3f0bff5e953cab4e0f3c94b drm: nv04: Fix out of bounds access
+93e87eb2fe0d337e05df1cb69e345edecec2a2c8 drm/panel: visionox-rm69299: don't unregister DSI device
+72bffca58fad6420e4879bf8b0c084420aded865 clk: Remove prepare_lock hold assertion in __clk_release()
+486f30b3d83cd74cbe4538d60b19d65390c83063 clk: Mark 'all_lists' as const
+f6bc11a9a95853b838b09022855144cbc3329b54 clk: remove extra empty line
+23bbdbce7c9a351b95d05dfdcc373b3b18cb2198 clk: Print an info line before disabling unused clocks
+14445b7d0ee3befc513744bf99eef4e458325b63 clk: Initialize struct clk_core kref earlier
+5a7629155c1638bfec1ef65dbffb8bd5a801e2a1 clk: Get runtime PM before walking tree during disable_unused
+7ecad30019488b28bf0d0a7dcbae5a0beba5239e x86/bugs: Fix BHI retpoline check
+7a4657a5ce196984a3fc64698c5c750a638407d2 x86/cpufeatures: Fix dependencies for GFNI, VAES, and VPCLMULQDQ
+25f2e9016c1a25f73e978fa015fe81a29e640cce thunderbolt: Avoid notify PM core about runtime PM resume
+2d43abdbeadfc812032c9f19bce476943ae0da0c thunderbolt: Fix wake configurations after device unplug
+d473af59b7139884c0c0f667d22605ef3dc660d3 comedi: vmk80xx: fix incomplete endpoint checking
+08b211a60e4abc3dcc47a9e44c61225e84a4b119 serial/pmac_zilog: Remove flawed mitigation for rx irq flood
+9587dbbdd811e3d8cf61b4fe1ad102de18b80921 USB: serial: option: add Fibocom FM135-GL variants
+2b42a983b5c42c76d9dde4298b22b6ecb4d6fbb1 USB: serial: option: add support for Fibocom FM650/FG650
+4426cb6b3d5d481286af005d0b519ee96a729cd6 USB: serial: option: add Lonsung U8300/U9300 product
+d0c1d86cb6e47b10aecd015ba98116808ac55078 USB: serial: option: support Quectel EM060K sub-models
+946b5ec0afa208382cbbebac834ab779488242d1 USB: serial: option: add Rolling RW101-GL and RW135-GL support
+80b056c11562f80e4d0faf403018faee07076605 USB: serial: option: add Telit FN920C04 rmnet compositions
+00d4fe702bf3f068b0cdb27429d8162153e6bcb3 Revert "usb: cdc-wdm: close race between read and workqueue"
+11350107de82b2b84a12b3e6da043e6cf23e073c usb: dwc2: host: Fix dereference issue in DDMA completion flow.
+b1f0f6f897a1f6ac402a59de2d2b2525e5f8ded7 usb: Disable USB3 LPM at shutdown
+f16a89b84ca14c724ee6486054af3f9020c65ad2 usb: gadget: f_ncm: Fix UAF ncm object at re-bind after usb ep transport error
+a247d069ab4a57698bb4b7bc26eed3592988c4c6 mei: me: disable RPL-S on SPS and IGN firmwares
+b9e7d43bc00d81061d3b0249e8522670fc40fcd1 speakup: Avoid crash on very long word
+3887862951402c6b08dec87b3124cbf55fa94659 fs: sysfs: Fix reference leak in sysfs_break_active_protection()
+fde151ef9066571848d7294593f757257bd5caf9 KVM: x86: Snapshot if a vCPU's vendor model is AMD vs. Intel compatible
+ac7ed8e2d22eb4dcdf3cdbe11709893b07966eb4 KVM: x86/pmu: Do not mask LVTPC when handling a PMI on AMD platforms
+e4e52cb5cda1cae3356967b7e5b45d020f8b910a arm64: hibernate: Fix level3 translation fault in swsusp_save()
+492157e8fcae56480545d450ee1b1f290339db62 init/main.c: Fix potential static_command_line memory overflow
+d3efb343f43d6d23b87e6358a2d29c511a218f71 binder: check offset alignment in binder_get_object()
+f1d63e7de1e36b7b8b61e8b751effc34a7ab3a9d drm/amdgpu: validate the parameters of bo mapping operations more clearly
+877b0adc5c2cd449a9a4b0593191da7c8cf9ce12 drm/vmwgfx: Sort primary plane formats by order of preference
+d7b050435ba27857ac597484ce92c381c833ee1e nouveau: fix instmem race condition around ptr stores
+8a1e28f67180617a572765ccd2e15fec7affb7a2 nilfs2: fix OOB in nilfs_set_de_type
+7adf212db242e9020bcdac17fa39e6f136ff58ca net: dsa: mt7530: set all CPU ports in MT7531_CPU_PMAP
+0a9932e2773ea727d989671aeb5d03e00cf40e59 net: dsa: introduce preferred_default_local_cpu_port and use on MT7530
+cfcd60f2de98f11a0aca7136b92a1a47ef77236a net: dsa: mt7530: fix improper frames on all 25MHz and 40MHz XTAL MT7530
+b5f901e04921434a5463a5d4d2eb6430aeab3f98 net: dsa: mt7530: fix enabling EEE on MT7531 switch on all boards
+e3cf3b814d6730b0e7ac78ed5adf9a58182cce55 Linux 5.15.157-rc1
 
---===============4805047585085969406==--
+--===============2674234463346132236==--
