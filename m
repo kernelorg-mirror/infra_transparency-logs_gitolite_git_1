@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1668878378097905201=="
+Content-Type: multipart/mixed; boundary="===============9172236252825239409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 24 Apr 2024 02:51:01 -0000
-Message-Id: <171392706185.23279.3584221884214199209@gitolite.kernel.org>
+Date: Wed, 24 Apr 2024 02:51:07 -0000
+Message-Id: <171392706793.23421.12829895050685689855@gitolite.kernel.org>
 
---===============1668878378097905201==
+--===============9172236252825239409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: a7de265cb2d849f8986a197499ad58dca0a4f209
     new: 6e10b6350a67d398c795ac0b93a7bb7103633fe4
     log: revlist-a7de265cb2d8-6e10b6350a67.txt
 
---===============1668878378097905201==
+--===============9172236252825239409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ e3d9eac99afd94980475833479332fefd74c5c2b selftests/bpf: wq: add bpf_wq_init() ch
 8290dba51910d36721ced6ccf03049ed6b7ea2ce selftests/bpf: wq: add bpf_wq_start() checks
 6e10b6350a67d398c795ac0b93a7bb7103633fe4 Merge branch 'introduce-bpf_wq'
 
---===============1668878378097905201==--
+--===============9172236252825239409==--
