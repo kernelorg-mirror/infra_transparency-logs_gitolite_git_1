@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7035182368384366917=="
+Content-Type: multipart/mixed; boundary="===============4630612585779410356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 24 Apr 2024 04:33:09 -0000
-Message-Id: <171393318964.1697.7995429751238161069@gitolite.kernel.org>
+Date: Wed, 24 Apr 2024 04:33:53 -0000
+Message-Id: <171393323399.2009.11252147014086479048@gitolite.kernel.org>
 
---===============7035182368384366917==
+--===============4630612585779410356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 7732ce06ed8a0757b558665e8b37c29495585ce3
-    new: 84e79a7f63e8caeac0c1a0817408860875a9b23e
+  - ref: refs/heads/char-misc-testing
+    old: 84e79a7f63e8caeac0c1a0817408860875a9b23e
+    new: e22810ab3f5e0de0151a5a0d05a54cfc39a780a8
     log: |
-         ed8c2dad25eb2fbaa61f2e32385ecc1aa34c2355 peci: Make peci_bus_type const
-         e6faf2b750ebf3837a63ebe465e7b7933502bdc4 peci: constify the struct device_type usage
-         84e79a7f63e8caeac0c1a0817408860875a9b23e Merge tag 'peci-next-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/iwi/linux into char-misc-next
+         e22810ab3f5e0de0151a5a0d05a54cfc39a780a8 mei: bus: constify the struct mei_cl_bus_type usage
          
 
---===============7035182368384366917==
+--===============4630612585779410356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713933180 -0700
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713933224 -0700
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1713933189-867b572f52d35312880b8a4b4b7e316e0ae76fdb
+nonce 1713933232-33a7bac1a5a855aeabd76903e3096e9fa624f443
 
-7732ce06ed8a0757b558665e8b37c29495585ce3 84e79a7f63e8caeac0c1a0817408860875a9b23e refs/heads/char-misc-next
+84e79a7f63e8caeac0c1a0817408860875a9b23e e22810ab3f5e0de0151a5a0d05a54cfc39a780a8 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYoi3wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KnYQAIU1jWPYYdlde5r+WD4x
-8hf9surTjoeS3aUOPEepCDQYC029bDSnDyvlXTNecO54+AFQMr5KyeWBmmV6X6YI
-mky3irqgyQJ6Nthj9Qc+RB/IO92pLUVE6pkgCinMGBg+V+lxpYe3h1QX0mR+RHZ8
-NHwKfnnYeFKxHmKmr6TA0vmrLV62KEa21pX4quRdTCvW0X5Sm8oGQupi8yGv+mjW
-iw8Vy+rwynErh/XkYeFmhAM72bCSe9bMb/yFVxp3mvFSW6yyjq95PmKCl+5pfREf
-J0f3e8II6HiA7wZcezZ3imqg0VQiXCQqPOJ0aUO9cxPyhfmZFQAM+GY8yMPiSX91
-o0FMwXCYldniY+AJIKe8S+lPVUQTCUytRUC/JO/zcC+hlmr6QHRxOmmObXhZMIL7
-rTDr+2e8dypsPR1wTc2Y9MIBHkfnp2x9zOkCGksnSSTJqaGLp1GMUzrzWEJFotVG
-tL/3fNbnuu3r9faHkeyGWbZtHaM7OEOzEqJzhAakKGCZiEYrl6/ifA3+RS/aUL8i
-7Qa0nqgbBBmVC4W49QUtr4iz4I1rr3qqyQu/WErhBQKoCt2vyskHG6qG0Chq5Dn/
-kKwb+hu05Lkhp3miwhS20cPFdxrMTF4GuNYW6TbOkwfZLKcsVcnpJNG8kG/bpMya
-TUVLk0yrbFuX2zTohLIkzYc9
-=Jdof
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYoi6gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GikQAIX8x8s76aoipk3T7cEQ
+8LJAUzSB4Fu5MCRlloiyZq1m5Vu6KFZ81E1bKSZL1Q3+hRdZu//VImRuKO86vdXQ
+TqBvh+MUUhsrda0mE9Y7IpVEL+/jvA3u9mKfMCx7XwpKh+O4C0BBt7PdQn+gGhVP
+W8hWyC3T200O2n6G/MAQSO2QzHkS3wigivonh5FJRvELELqPF3l7of2oveXYSinG
+h5iu1mt57g3qb2jEfPMotKuuP0yb8ht/aOOGJBPP4FBhameujIOaZTq/SRmUbTGO
+BJ6jvjuYiW+eHAqSEn+EFnhpQfn9k0HoVm5lObbfFptNrzP0vzGxaW1WoGWiR4TC
+zmgV66A9EGDa6I8LJook3Y/eObxvqyu49+vpkYmW0FeelQ2yY+n4fQefOKDzzR6R
+6GPzw0WjvFGyBCd4mR66+YFG+HZP4IVKGOqAvnkBF+3OPKVHlAh210vNTVHN0+Yd
+F5QjKkSlGGzdBOZtl27Trj3j/VfULErmepkiacSVNysspg7Rg29V7/47qoYILCiI
+YR/YxTtWvEeW/NipXglcroJJthYsBjudoKjcJYRK5Z5o0unIsOj2x6FG1XRMhzs7
+QOW4jUYvdpblFkWD50ThcCeiBdQrmMkB43daMu/kTi42OfZ+ONYNzuxAhH8IVC3U
+9ozJVtwu7wqVIczY35ALDvNh
+=Tx4F
 -----END PGP SIGNATURE-----
 
---===============7035182368384366917==--
+--===============4630612585779410356==--
