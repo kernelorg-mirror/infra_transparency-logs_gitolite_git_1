@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 24 Apr 2024 13:50:03 -0000
-Message-Id: <171396660354.27553.5285022618305406860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Wed, 24 Apr 2024 13:52:02 -0000
+Message-Id: <171396672243.29016.16454351572745288841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/master
-    old: 71b1543c83d65af8215d7558d70fc2ecbee77dcf
-    new: 9d1ddab261f3e2af7c384dc02238784ce0cf9f98
+  - ref: refs/heads/next
+    old: 00ab560eb0e3f9725521c9fec2e8992e9e7e6c29
+    new: 0e275f65f3ef9c662b678655c70aca555fbde304
     log: |
-         dad80c6bff770d25f67ec25fe011730e4a463008 cifs: Fix reacquisition of volume cookie on still-live connection
-         afc23febd51c7e24361e3a9c09f3e892eb0a41ea cifs: Add tracing for the cifs_tcon struct refcounting
-         18d86965e31f9be4d477da0744a7cdc9815858de smb: client: fix rename(2) regression against samba
-         77d8aa79ecfb209308e0644c02f655122b31def7 cifs: reinstate original behavior again for forceuid/forcegid
-         9d1ddab261f3e2af7c384dc02238784ce0cf9f98 Merge tag '6.9-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+         bd96a4a3cf97b544750bfce558ab146754a7226e selftests: cpufreq: conform test to TAP
+         e9c4a21c53f1e8485e5faa89e51b16abcb12126e selftests: ktap_helpers: Make it POSIX-compliant
+         0e275f65f3ef9c662b678655c70aca555fbde304 selftests: power_supply: Make it POSIX-compliant
          
