@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Wed, 24 Apr 2024 13:41:29 -0000
-Message-Id: <171396608904.22094.3466270202860655530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 24 Apr 2024 13:50:03 -0000
+Message-Id: <171396660354.27553.5285022618305406860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/stm32-next
-    old: 8fe31699b83d3ecb22e8df53896e6b3f3cbad973
-    new: f798f7079233242f0dc91c0d1a01be2140bfd36c
+  - ref: refs/heads/master
+    old: 71b1543c83d65af8215d7558d70fc2ecbee77dcf
+    new: 9d1ddab261f3e2af7c384dc02238784ce0cf9f98
     log: |
-         f798f7079233242f0dc91c0d1a01be2140bfd36c ARM: dts: stm32: add PWR regulators support on stm32mp131
+         dad80c6bff770d25f67ec25fe011730e4a463008 cifs: Fix reacquisition of volume cookie on still-live connection
+         afc23febd51c7e24361e3a9c09f3e892eb0a41ea cifs: Add tracing for the cifs_tcon struct refcounting
+         18d86965e31f9be4d477da0744a7cdc9815858de smb: client: fix rename(2) regression against samba
+         77d8aa79ecfb209308e0644c02f655122b31def7 cifs: reinstate original behavior again for forceuid/forcegid
+         9d1ddab261f3e2af7c384dc02238784ce0cf9f98 Merge tag '6.9-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
          
