@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 24 Apr 2024 23:09:10 -0000
-Message-Id: <171400015084.19278.9750252706440873738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Wed, 24 Apr 2024 23:12:20 -0000
+Message-Id: <171400034053.22082.13624456431149790399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/testing
-    old: faaf9ed532bd4df3855abf1f6fea6d2e4a520803
-    new: 3429701e0c423142b911545a01a7c8680f758a58
+  - ref: refs/heads/rcu/dev
+    old: d4b75279fc9cedd35560fc8c9e76ff5393fdebc6
+    new: 8fbaa0d2390767737a09e59a60ac3ef213870b0b
     log: |
-         a5299898fa484b0b2cffff939ccc4766d97abf79 mm/slub, kunit: Use inverted data to corrupt kmem cache
-         977402462aefcfa87116d46f9b7a774ba1885f13 usb: ohci: Prevent missed ohci interrupts
-         dfd2a3a46e9f69afbf440a6068c69ac3d475b093 Merge branch 'nios2' into testing
-         478060021abe5cf1822745c225b8c3d1caef7828 Merge branch 'kunit-improvements' into testing
-         3429701e0c423142b911545a01a7c8680f758a58 Merge branch 'kunit-v4' into testing
+         63a219ecffc73dc2571b323d8e29cde86809d47c rcu/nocb: Use kthread parking instead of ad-hoc implementation
+         8fbaa0d2390767737a09e59a60ac3ef213870b0b rcu/nocb: Remove buggy bypass lock contention mitigation
          
