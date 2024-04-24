@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Wed, 24 Apr 2024 16:47:10 -0000
-Message-Id: <171397723098.27820.13893801017672952125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 24 Apr 2024 16:48:59 -0000
+Message-Id: <171397733966.28515.17015883003251858989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/stm32-next
-    old: f798f7079233242f0dc91c0d1a01be2140bfd36c
-    new: a012bd75abf6922a8caa66f220bfe890f87118f0
+  - ref: refs/heads/master
+    old: 19d8eec1efaa489c85e6884efbffb5b35fb2a4b2
+    new: 1369349b1c2f65d68347d254dc1ff9ac1b91cb6c
     log: |
-         d3740a9fd78c8de4760ffb5e73b85c83ffde3f2d dt-bindings: display: simple: allow panel-common properties
-         881bccce217edc65a4758cff4c0e2c36c9bf3db7 ARM: dts: stm32: add LTDC support for STM32MP13x SoC family
-         7c12d95564a275a6355977f4039d60bd7652c30f ARM: dts: stm32: add LTDC pinctrl on STM32MP13x SoC family
-         a012bd75abf6922a8caa66f220bfe890f87118f0 ARM: dts: stm32: enable display support on stm32mp135f-dk board
+         1369349b1c2f65d68347d254dc1ff9ac1b91cb6c Wed Apr 24 12:48:13 PM EDT 2024
          
