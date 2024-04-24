@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 24 Apr 2024 21:02:25 -0000
-Message-Id: <171399254593.19473.10401621933504624157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 24 Apr 2024 21:05:21 -0000
+Message-Id: <171399272128.22168.1939996466701978989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/riscv-soc-fixes
-    old: 6b0856ee585d7f8a544546c3c5f1f4c49162e451
-    new: 3aa20d1f7bcb19a79b8062e49153eb3b16a88adb
+  - ref: refs/heads/master
+    old: 5305b378b351dc5fd55f5f1f37ef362ae0e11d7e
+    new: 82e38a505c9868e784ec31e743fd8a9fa5ca1084
     log: |
-         6e3b7e862ea4e4ff1be1d153ae07dfe150ed8896 firmware: microchip: don't unconditionally print validation success
-         3aa20d1f7bcb19a79b8062e49153eb3b16a88adb firmware: microchip: clarify that sizes and addresses are in hex
+         82e38a505c9868e784ec31e743fd8a9fa5ca1084 selftests/bpf: Fix wq test.
          
