@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Wed, 24 Apr 2024 02:04:03 -0000
-Message-Id: <171392424339.20476.12216236748703363492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 24 Apr 2024 02:16:23 -0000
+Message-Id: <171392498340.30851.13562814043284014998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/20240423-lbs-works
-    old: 0000000000000000000000000000000000000000
-    new: 9cf528e9795349b84e2be8f2d01b234877894980
+  - ref: refs/heads/main
+    old: 8d03c1534d4ae136fd2c9e27f026157cb244b212
+    new: 1c04b46cbdddc7882eeb671521035ea884245b9f
+    log: |
+         1c04b46cbdddc7882eeb671521035ea884245b9f neighbour: fix neigh_master_filtered()
+         
