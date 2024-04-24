@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0994294220570990505=="
+Content-Type: multipart/mixed; boundary="===============7312617668695886907=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 24 Apr 2024 10:20:02 -0000
-Message-Id: <171395400289.5671.14069659807659259621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 24 Apr 2024 10:20:15 -0000
+Message-Id: <171395401555.6186.16674854910926377924@gitolite.kernel.org>
 
---===============0994294220570990505==
+--===============7312617668695886907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: a59668a9397e7245b26e9be85d23f242ff757ae8
     new: 5e4f84f18c4ee9b0ccdc19e39b7de41df21699dd
     log: revlist-a59668a9397e-5e4f84f18c4e.txt
-  - ref: refs/heads/pending-fixes
-    old: ed10ebd93ff0e689ea276a27f38d39d4acadfe15
-    new: 33c982717b5300c393b913439ba0b210195acd7c
-    log: revlist-ed10ebd93ff0-33c982717b53.txt
-  - ref: refs/heads/stable
-    old: a2c63a3f3d687ac4f63bf4ffa04d7458a2db350b
-    new: 9d1ddab261f3e2af7c384dc02238784ce0cf9f98
-    log: revlist-a2c63a3f3d68-9d1ddab261f3.txt
-  - ref: refs/tags/next-20240124
-    old: 36c3eea2d7a918d38efde3ffded6da6896e38a9f
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240424
     old: 0000000000000000000000000000000000000000
     new: 64eda2ab98d78a2377772d3be8791f2cf14c1469
 
---===============0994294220570990505==
+--===============7312617668695886907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -670,88 +659,4 @@ fcaed0bdeedf4e9d3d1b2c54d6b0f9bcfcc4ef80 Merge branch 'bitmap-for-next' of https
 273419701d97e9a9dfec1a2081cf142fd96190b4 Merge branch 'nolibc' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
 5e4f84f18c4ee9b0ccdc19e39b7de41df21699dd Add linux-next specific files for 20240424
 
---===============0994294220570990505==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed10ebd93ff0-33c982717b53.txt
-
-6677196fb1932e60b88ad0794a7ae532df178654 clk: qcom: gdsc: treat optional supplies as optional
-0d4ce2458cd7d1d66a5ee2f3c036592fb663d5bc clk: qcom: smd-rpm: Restore msm8976 num_clk
-dad80c6bff770d25f67ec25fe011730e4a463008 cifs: Fix reacquisition of volume cookie on still-live connection
-afc23febd51c7e24361e3a9c09f3e892eb0a41ea cifs: Add tracing for the cifs_tcon struct refcounting
-18d86965e31f9be4d477da0744a7cdc9815858de smb: client: fix rename(2) regression against samba
-c119f4ede3fa90a9463f50831761c28f989bfb20 ksmbd: fix slab-out-of-bounds in smb2_allocate_rsp_buf
-17cf0c2794bdb6f39671265aa18aea5c22ee8c4a ksmbd: validate request buffer size in smb2_allocate_rsp_buf()
-4973b04d3ea577db80c501c5f14e68ec69fe1794 ksmbd: clear RENAME_NOREPLACE before calling vfs_rename
-0268a7cc7fdc47d90b6c18859de7718d5059f6f1 ksmbd: common: use struct_group_attr instead of struct_group for network_open_info
-e9d8c2f95ab8acaf3f4d4a53682a4afa3c263692 ksmbd: add continuous availability share parameter
-77d8aa79ecfb209308e0644c02f655122b31def7 cifs: reinstate original behavior again for forceuid/forcegid
-f8981b0d529513a78d30ae659b74269ae40fa2ab Merge tag 'qcom-clk-fixes-for-6.9' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-fixes
-97ec32b583bb08f72146eee2c1a1918e05760f8c MAINTAINERS: eth: mark IBM eHEA as an Orphan
-6bea4f03c6a4e973ef369e15aac88f37981db49e NFC: trf7970a: disable all regulators on removal
-71b1543c83d65af8215d7558d70fc2ecbee77dcf Merge tag '6.9-rc5-ksmbd-fixes' of git://git.samba.org/ksmbd
-56b70b91a161b9490da96f9931249b27e5c0a8ed rust: remove `params` from `module` macro example
-f2602fba4723e408380eb9a56e921d36a1ae21f8 ASoC: cs35l56: Avoid static analysis warning of uninitialised variable
-96e20adc43c4f81e9163a5188cee75a6dd393e09 regulator: change stubbed devm_regulator_get_enable to return Ok
-467324bcfe1a31ec65d0cf4aa59421d6b7a7d52b ax25: Fix netdev refcount issue
-ab1bbc1735ff73143bcc304995b045cd1a0c7c24 erofs: get rid of erofs_fs_context
-569a48fed3558058620fed06a910f39e4ad82915 erofs: reliably distinguish block based and fscache mode
-a44f2eb106a46f2275a79de54ce0ea63e4f3d8c8 tools: ynl: don't ignore errors in NLMSG_DONE messages
-9d1ddab261f3e2af7c384dc02238784ce0cf9f98 Merge tag '6.9-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-173936c54b8fbcc3be0ac4e4a958da24bf016bbd Revert "NFSD: Reschedule CB operations when backchannel rpc_clnt is shut down"
-7d32b207859f176aacd98c1bebd02f2722b87119 Revert "NFSD: Convert the callback workqueue to use delayed_work"
-193062654236b7b02c740362b5a494af24c0d0aa Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-9f5fff5f59e7dc10d735745300f795b87594e78b Merge branch 'for-curr' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc.git
-c6c41d5829b496b7214556f8c004b0fc56ad9fe8 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux.git
-90065a0b2f67c705a75e68b2c1ee2550004a049d Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-6d90a3697d4d898738d440b5d134a9ade1b0ed67 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-272e38e0a2e57d90c44b7bfc04af1172d98253d6 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-4a3cac89ccc20aba94a696fd7eb24f783c3620c3 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
-89eaaa97bbc543ea0f7bae2a63d9d00d776e1408 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-87d564e7cfc318f065084664f7411edce2ae7211 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-33b6a52b61fa2a789a6fcb33fc0c62af36240049 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-f0772e774bad45e9b7824fc5d51cb52f849bc0eb Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-8ea6fb101e18f7be1e076b866c40f2006268a49e Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-736f8d0d7c1c7ad85253eaad6a7e5b79714fb847 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire.git
-0bc07c9ee3ca130523e3180cc33d948eeb2f7692 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
-b298c9479fa14b8cb8f4d449d86674a9fc1a476b Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
-c7cde6990f28ebe2904afacbceb51df924ed7c48 Merge branch 'at91-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux.git
-56cb04ef464e885fb20de9cf9d6896fc9fa76854 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl.git
-f787488b2a0b245eb2476759802a835fbc545174 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-aaf8d632b489be4cea03596ec142248a4801d211 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-8b8af3d55cdacba375c499786adef80d7ad75aec Merge branch 'dt/linus' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git
-1a2e1ec248475dfb2c330e460f5e0bd30d81f416 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-a1a4a0fd405f80e593448a5eb5b6da1afabcbfb1 Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-09bfa48b62d39e9af7c2a84e9cedcb6dbc5ec534 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-9c918aa6bb494e943014826c480cb456568d053f Merge branch 'riscv-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-1784fcc2bb47a53959feba8bcaeaeed54c191da9 Merge branch 'riscv-soc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-2724067414e7f16e751701f8eb8f4dc25bd57047 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-gpio-intel.git
-c693736afff0289fa5f09a10e978d0c3f76a20ac Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/intel.git
-89fba29e1c89550c2985ca88060ccd72ccfcbc4c Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-5fbb1f98bcb76e39d697c4f56016b0053ee4444d Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-d81b0b7f5fce488f33ea5a8e8835f4161510b4d8 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git
-c560af84b273cf498e5564eece64f6349ee719b0 Merge branch 'rust-fixes' of https://github.com/Rust-for-Linux/linux.git
-54d73967bcc1d1e0b09b7ffb606b34db3562caed Merge branch 'fixes/next' of git://git.kernel.org/pub/scm/linux/kernel/git/ericvh/v9fs.git
-f000d35ff62aa2fd55372e2b8b0a9f9f8addef71 Merge branch 'clk-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
-33c982717b5300c393b913439ba0b210195acd7c Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/misc/kernel.git
-
---===============0994294220570990505==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2c63a3f3d68-9d1ddab261f3.txt
-
-dad80c6bff770d25f67ec25fe011730e4a463008 cifs: Fix reacquisition of volume cookie on still-live connection
-afc23febd51c7e24361e3a9c09f3e892eb0a41ea cifs: Add tracing for the cifs_tcon struct refcounting
-18d86965e31f9be4d477da0744a7cdc9815858de smb: client: fix rename(2) regression against samba
-c119f4ede3fa90a9463f50831761c28f989bfb20 ksmbd: fix slab-out-of-bounds in smb2_allocate_rsp_buf
-17cf0c2794bdb6f39671265aa18aea5c22ee8c4a ksmbd: validate request buffer size in smb2_allocate_rsp_buf()
-4973b04d3ea577db80c501c5f14e68ec69fe1794 ksmbd: clear RENAME_NOREPLACE before calling vfs_rename
-0268a7cc7fdc47d90b6c18859de7718d5059f6f1 ksmbd: common: use struct_group_attr instead of struct_group for network_open_info
-e9d8c2f95ab8acaf3f4d4a53682a4afa3c263692 ksmbd: add continuous availability share parameter
-77d8aa79ecfb209308e0644c02f655122b31def7 cifs: reinstate original behavior again for forceuid/forcegid
-71b1543c83d65af8215d7558d70fc2ecbee77dcf Merge tag '6.9-rc5-ksmbd-fixes' of git://git.samba.org/ksmbd
-9d1ddab261f3e2af7c384dc02238784ce0cf9f98 Merge tag '6.9-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-
---===============0994294220570990505==--
+--===============7312617668695886907==--
