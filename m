@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 24 Apr 2024 14:13:15 -0000
-Message-Id: <171396799574.13194.8634104872319121267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bristot/linux
+Date: Wed, 24 Apr 2024 14:15:32 -0000
+Message-Id: <171396813262.15685.13138802607345716972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/bristot/linux
+user: bristot
 changes:
-  - ref: refs/heads/master
-    old: 958efeeef2d3b90461e7e6a2eac80333c80812fa
-    new: 39844750bddf9a725ec956e8884b54c6b36da843
+  - ref: refs/heads/devel/rtla_changes_for6.10_v1
+    old: bc5154fffdfee080fc54bbdf19505b2dd152296e
+    new: 6e9d870c622a6ea7287df070307172b0c8dd286e
     log: |
-         46d8da86787bc5151c4412d8be6471c8f34492de Bluetooth: Populate hci_set_hw_info for Intel and Realtek
-         39844750bddf9a725ec956e8884b54c6b36da843 Bluetooth: qca: Support downloading board id specific NVM for WCN7850
+         6e9d870c622a6ea7287df070307172b0c8dd286e rtla: Add --trace-buffer-size option
          
