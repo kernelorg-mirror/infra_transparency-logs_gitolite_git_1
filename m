@@ -1,83 +1,130 @@
-Content-Type: multipart/mixed; boundary="===============4634467383039418364=="
+Content-Type: multipart/mixed; boundary="===============0407098792693294011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Wed, 24 Apr 2024 16:52:18 -0000
-Message-Id: <171397753857.31355.9905799788374604335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 24 Apr 2024 16:53:11 -0000
+Message-Id: <171397759126.31811.9088810712774549910@gitolite.kernel.org>
 
---===============4634467383039418364==
+--===============0407098792693294011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/kvm-coco-queue
-    old: bf1390326099d583a4b246d1022e0063e44f5e4d
-    new: 079e36b8d9c04350ec13398327faacad183ee43f
-    log: revlist-bf1390326099-079e36b8d9c0.txt
+  - ref: refs/heads/main
+    old: 10f1281498467654abdb13c6c7c7b23af4b97aeb
+    new: bf995e7a4f94a9388aa8042dc9e338f3fcb75496
+    log: |
+         8198993c817b6c3b42f91c7345469c113c6eeabc bisect: report the found commit with "show"
+         b396ee6bed7882af3333eb52333f8a34b648437d run-command: introduce function to prepare auto-maintenance process
+         7bf3057d9cf569bcbdf3c1b43cce0eacde98a20b builtin/receive-pack: convert to use git-maintenance(1)
+         5b7877482082698a730f1045c78cf90af544ab6c Merge branch 'pk/bisect-use-show'
+         5c7ffafcea5fe37d435cc684d59eee91696dfb9f Merge branch 'ps/run-auto-maintenance-in-receive-pack'
+         bf995e7a4f94a9388aa8042dc9e338f3fcb75496 Git 2.45-rc1
+         
+  - ref: refs/heads/master
+    old: 10f1281498467654abdb13c6c7c7b23af4b97aeb
+    new: bf995e7a4f94a9388aa8042dc9e338f3fcb75496
+    log: |
+         8198993c817b6c3b42f91c7345469c113c6eeabc bisect: report the found commit with "show"
+         b396ee6bed7882af3333eb52333f8a34b648437d run-command: introduce function to prepare auto-maintenance process
+         7bf3057d9cf569bcbdf3c1b43cce0eacde98a20b builtin/receive-pack: convert to use git-maintenance(1)
+         5b7877482082698a730f1045c78cf90af544ab6c Merge branch 'pk/bisect-use-show'
+         5c7ffafcea5fe37d435cc684d59eee91696dfb9f Merge branch 'ps/run-auto-maintenance-in-receive-pack'
+         bf995e7a4f94a9388aa8042dc9e338f3fcb75496 Git 2.45-rc1
+         
+  - ref: refs/heads/next
+    old: 947b6d9c7f1399528be374aec5d9d7bbfc34c2b3
+    new: d95f3e8691c1cba156beb6189d8229bc2ee0caab
+    log: revlist-947b6d9c7f13-d95f3e8691c1.txt
+  - ref: refs/heads/seen
+    old: 0fd4568bf4c385296b4d36b0498c2422dac63364
+    new: f0eb4beb40eec2ad8c05695710d779a0f7431337
+    log: revlist-0fd4568bf4c3-f0eb4beb40ee.txt
+  - ref: refs/tags/v2.45.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 3186b1d85d450e1aaeae51b6067ef343290e0be4
 
---===============4634467383039418364==
+--===============0407098792693294011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-947b6d9c7f13-d95f3e8691c1.txt
 
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1713977533 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1713977531-2e6e7cda0aebb65f1b703099869593ae4405ad01
+93e2ae1c95e2685f51fb6320508bbde20fa7949f midx: disable replace objects
+2a60cb766e3a7a4ae77f54e960627c5c5f7a7746 Merge branch 'pw/t3428-cleanup' into pw/rebase-m-signoff-fix
+42aae6a49af1be6108c3133af881cb9429aa3d35 sequencer: always free "struct replay_opts"
+a3152edc97ff37f61387c6b222c68bc4f8b19bee sequencer: start removing private fields from public API
+497a01a2d3d2bef45dd76d76c769a0a2a3c80b57 sequencer: move current fixups to private context
+53f67466153ffd291955d7d55bcb33decf664aaf sequencer: store commit message in private context
+a6c2654f839d508c9c912372a9cad18340d7b59c rebase -m: fix --signoff with conflicts
+cadcf58085cada6e781444cbdde6d4b0067ebe4c format-patch: ensure that --rfc and -k are mutually exclusive
+0283cd5161561b29951c00697679c10b454e541a don't report vsnprintf(3) error as bug
+ea7d103d395c07404861999ceca51e3267bf7e74 add-patch: response to unknown command
+5fb768640976a9f004925045e51d60ba5a903490 stash: fix "--staged" with binary files
+71c791605365d1873ef631bfc478fcd75080a063 apply: plug a leak in apply_data
+5861aa84a7a5f393e953203068bd3fc5c710fc42 add-interactive: plug a leak in get_untracked_files
+ec9b74b18e019a8adff827ab22380f9771ac5f00 add-patch: plug a leak handling the '/' command
+16727404c48ba1c2f43fb966276aee0b8cb24389 add: plug a leak on interactive_add
+ce48fb2eabccc269443f33d0f148d0061b94a101 format-patch: allow --rfc to optionally take a value, like --rfc=WIP
+ce36894509bac4c03fd524fc668b1e43d6e56ee1 format-patch: "--rfc=-(WIP)" appends to produce [PATCH (WIP)]
+5b7877482082698a730f1045c78cf90af544ab6c Merge branch 'pk/bisect-use-show'
+5c7ffafcea5fe37d435cc684d59eee91696dfb9f Merge branch 'ps/run-auto-maintenance-in-receive-pack'
+bf995e7a4f94a9388aa8042dc9e338f3fcb75496 Git 2.45-rc1
+66374c00e23b3ce6dd38e5b29b1648058dde5e40 Merge branch 'pw/rebase-m-signoff-fix' into next
+6c8f41740e4731ca3503024093e7f9fd5e42feb6 Merge branch 'xx/disable-replace-when-building-midx' into next
+b3b0c5507abbe2ebab02139573e752cad1b72196 Merge branch 'ds/format-patch-rfc-and-k' into next
+9f5148797489fde0c5f38cb05356db5c8a8375a6 Merge branch 'jc/format-patch-rfc-more' into next
+bf66ab6ea7ebd61a437bdb59fb31a39ca26a9261 Merge branch 'rs/vsnprintf-failure-is-not-a-bug' into next
+8ac0509b470be6b9ddfb0dc924af44a380236d83 Merge branch 'rj/add-p-typo-reaction' into next
+b10e350a54605b8b14b0a0f4febee489a8bc34d5 Merge branch 'rj/add-i-leak-fix' into next
+d49e9dade0299bb0140c82600d63641b183fc8b3 Merge branch 'aj/stash-staged-fix' into next
+d95f3e8691c1cba156beb6189d8229bc2ee0caab Sync with Git 2.45-rc1
 
-bf1390326099d583a4b246d1022e0063e44f5e4d 079e36b8d9c04350ec13398327faacad183ee43f refs/heads/kvm-coco-queue
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmYpOL0UHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroO0sAf+MeqyGN+0/Dt0pWUAULrbyf7/8Zb2
-Y6xtJgLFDQDPziH9Cjpmr/o6l8UJibZaJNNFkdTB+yAJxrg1JlZggjbIRNhQM7Hl
-2eNf/M/a9/Rwf9ah7OGz0eE0bAJAr08pWgy7dI0+ebDg//vE4dLe4+ogSGRbhEtU
-GKFE31aMo6gqa2aWqkwI5xhXPFImiuulheG4EjfoerhhWVBSHMhIJfeQgCqqBGbH
-fCYrty7MR9ZB2DHXHEfwHT46H2PqmZnTdPPNcM0eabM44NUUUeJyDG8Cu+PVb9dK
-JEQ7wfrisEStYtwKaJ0qSTk7yJq905pCweNF8rXJ1WDV8wY3zI8nnIDuSg==
-=9mh8
------END PGP SIGNATURE-----
-
---===============4634467383039418364==
+--===============0407098792693294011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf1390326099-079e36b8d9c0.txt
+Content-Disposition: attachment; filename=revlist-0fd4568bf4c3-f0eb4beb40ee.txt
 
-3a65a0f8f8c657e95286759ee74902f8dfa98200 KVM: SEV: Select KVM_GENERIC_PRIVATE_MEM when CONFIG_KVM_AMD_SEV=y
-4f24d21e31e20e49dffe0e25ccf71ec2f0bbf923 KVM: SEV: Add support to handle AP reset MSR protocol
-c515dec40c180dbb467198ac3b8c2dedeb3b4948 KVM: SEV: Add GHCB handling for Hypervisor Feature Support requests
-b013bda3799cd3d941b5944984eaa7878dfc35c9 KVM: SEV: Add initial SEV-SNP support
-b8bf0f61ed149e218cdd3636e0b449946b0d7543 KVM: SEV: Add KVM_SEV_SNP_LAUNCH_START command
-a118c5344f5980eb99e9245aa5439e2b2d02f990 KVM: SEV: Add KVM_SEV_SNP_LAUNCH_UPDATE command
-5939f5f197a7c428c5fb7b09db63854bec1f5d93 KVM: SEV: Add KVM_SEV_SNP_LAUNCH_FINISH command
-66f2bab73e1bdd55817dc86965176aed992678d4 KVM: SEV: Add support to handle GHCB GPA register VMGEXIT
-3fc8cba3cd91ce93caa06ab4c5505a500549e87a KVM: SEV: Add support to handle MSR based Page State Change VMGEXIT
-6af56a7a4116dc6b9e947710cb75cf567e43b3f2 KVM: SEV: Add support to handle Page State Change VMGEXIT
-bab95d417155db2c4bceed2c418a2494d182e680 KVM: SEV: Add support to handle RMP nested page faults
-37faf972db48416027817914996c2b79582e42db KVM: SEV: Support SEV-SNP AP Creation NAE event
-947dbff6cadf596f174471ff5bcce6921d1d932a KVM: SEV: Add support for GHCB-based termination requests
-57568ec74143bc7cb14a28cb6e1ecae43a5f11d0 KVM: SEV: Implement gmem hook for initializing private pages
-c7128eae6816aed3e865e9e2fd9b6b0c83f8195f KVM: SEV: Implement gmem hook for invalidating private pages
-2e380bd6cc42f72862933cb356d2857f61820e54 KVM: x86: Implement gmem hook for determining max NPT mapping level
-3ba18ff3c386f497eb58e865ccc638ba203f112f KVM: SEV: Avoid WBINVD for HVA-based MMU notifications for SNP
-4a8c7fdadf4a6f13153603eb1eaf04d6f528c437 KVM: SVM: Add module parameter to enable SEV-SNP
-d4a31c72cedc3116cfd096f1a3c04264f1f111ca KVM: SEV: Provide support for SNP_GUEST_REQUEST NAE event
-50df1316885312d392d01494bda7abdd4da359b6 crypto: ccp: Add the SNP_VLEK_LOAD command
-beaa590bf3b04d1df5467a1aada0942fdb3cb9a9 crypto: ccp: Add the SNP_{PAUSE,RESUME}_ATTESTATION commands
-837e1ce9bd1396f016f8fe4839d731448ddf3f4f KVM: SEV: Provide support for SNP_EXTENDED_GUEST_REQUEST NAE event
-0c785a773a13c0d960a7281c418e3eff4c47ed58 KVM: Document KVM_PRE_FAULT_MEMORY ioctl
-6dcd8594fe6829201e80080120a7574d08fc96ce KVM: Add KVM_PRE_FAULT_MEMORY vcpu ioctl to pre-populate guest memory
-40bf1ecbfec77d77cc396d9a68f285682215639f KVM: x86/mmu: Extract __kvm_mmu_do_page_fault()
-132c23974340c4cb7f7fb5ecbfe7e0c78dd3a5ea KVM: x86/mmu: Make __kvm_mmu_do_page_fault() return mapped level
-6f26b57e8a0b356fd790feb8fd64977a6bfc1d28 KVM: x86: Implement kvm_arch_vcpu_pre_fault_memory()
-079e36b8d9c04350ec13398327faacad183ee43f KVM: selftests: x86: Add test for KVM_PRE_FAULT_MEMORY
+5b7877482082698a730f1045c78cf90af544ab6c Merge branch 'pk/bisect-use-show'
+5c7ffafcea5fe37d435cc684d59eee91696dfb9f Merge branch 'ps/run-auto-maintenance-in-receive-pack'
+bf995e7a4f94a9388aa8042dc9e338f3fcb75496 Git 2.45-rc1
+03b5e4c5e037d996f7a129524faf3b1bb3b4b361 Merge branch 'pw/rebase-m-signoff-fix' into jch
+ede2d5f9cf5016dc56534dae721f00833f50cc2f Merge branch 'xx/disable-replace-when-building-midx' into jch
+576257016193eb4a3d9856d91c813fc06c79f69b Merge branch 'ds/format-patch-rfc-and-k' into jch
+0bb958f6900ad3f741ade55952ff7e593f64e953 Merge branch 'jc/format-patch-rfc-more' into jch
+75d7b72d8839d99d3448f5f0745513218a720537 Merge branch 'rs/vsnprintf-failure-is-not-a-bug' into jch
+78acea807065d9318b3c2b5ba7bc23b3fde4ed51 Merge branch 'rj/add-p-typo-reaction' into jch
+a864d6107cafa6e5dd363104bacb33459650d05b Merge branch 'rj/add-i-leak-fix' into jch
+6b2e32c3884775934955d9abaf1559958b2767f1 Merge branch 'aj/stash-staged-fix' into jch
+9f8e27623511c46e11532851341815a68e9d0c12 ### match next
+17bb74cfc7fca536a300049883039826ac966b1f Merge branch 'la/doc-use-of-contacts-when-contributing' into jch
+d71eb2e5929d016ed472e754afabe2543c569f27 Merge branch 'la/hide-trailer-info' into jch
+232f1adc982bbc95b93674faf95c1c481b3376bc Merge branch 'js/unit-test-suite-runner' into jch
+17d03df5e182c59677e89caa295ad50ca65ad756 Merge branch 'tb/path-filter-fix' into jch
+f03152fb4ca7efa43e5c12f44ac2f38e99f07a32 Merge branch 'js/build-fuzz-more-often' into jch
+29a694d0bf6c975c66cd9464c6c91ccacdbaec43 Merge branch 'ps/reftable-write-optim' into jch
+b7e3d9650e87bad12ed13be8b35be836e032fd13 Merge branch 'pw/rebase-i-error-message' into jch
+449488ec8d5b6ed1641dd4b9ffe202eb2c9fcbd7 Merge branch 'js/for-each-repo-keep-going' into seen
+71a27980617a9e9876f5dae23dbcd1f5451d22b4 Merge branch 'ds/send-email-per-message-block' into seen
+29fa82dd965ca52007232733a2b20dc3b334c81e Merge branch 'jc/rerere-cleanup' into seen
+efbea1683b0ef352837ee0cd1e2346bb80f59b36 Merge branch 'bk/complete-send-email' into seen
+118ac6ef9f35b9369d535bda79932c3c7733d1f3 Merge branch 'bk/complete-dirname-for-am-and-format-patch' into seen
+9bba689f3daab73f0704f47e25cb0ed5292d373b Merge branch 'js/cmake-with-test-tool' into seen
+6552ab6a458bd5e01f1dbb8afe1a8de14ab0043e Merge branch 'cw/git-std-lib' into seen
+aaa0ef545341978c1675082f3c91da6f71ebe80f Merge branch 'ie/config-includeif-hostname' into seen
+a82954e7ac952a522abd0658460c3511e8e08200 Merge branch 'ds/doc-config-reflow' into seen
+64075132c3c545d383b3ff8638c17440a83fc311 Merge branch 'ew/khash-to-khashl' into seen
+b42697c91f7b368944f03247e78ef53502b2709e Merge branch 'tb/pseudo-merge-reachability-bitmap' into seen
+04c254c8ca17b948f58ad2fa7f9311624f24e1de Merge branch 'ps/ci-test-with-jgit' into seen
+6d804bddde6e47afba043f186248abf0c41d85c7 Merge branch 'kn/update-ref-symrefs' into seen
+0ebf87bfadad04eadf5063a048bd509c6b974936 Merge branch 'bc/credential-scheme-enhancement' into seen
+b4cace35789fea9bd5d17c3b806317fde22aae5c Merge branch 'ps/the-index-is-no-more' into seen
+f0eb4beb40eec2ad8c05695710d779a0f7431337 Merge branch 'ps/undecided-is-not-necessarily-sha1' into seen
 
---===============4634467383039418364==--
+--===============0407098792693294011==--
