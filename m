@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 24 Apr 2024 19:58:41 -0000
-Message-Id: <171398872111.4383.1828305012393629231@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 24 Apr 2024 20:13:38 -0000
+Message-Id: <171398961826.15844.15565982676703371263@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/for-next
-    old: 5620bca361809adf7f01356fcc6ec7f3af5f0cbb
-    new: acf693b9d16c20183a49ad9476c15a7036a54267
+  - ref: refs/heads/master
+    old: 55d30cc90fd42587594345a025b34399585e6e19
+    new: 5305b378b351dc5fd55f5f1f37ef362ae0e11d7e
     log: |
-         ae48e5668990e830677bba377bc8c6b032cb1800 riscv: mm: still create swiotlb buffer for kmalloc() bouncing if required
-         eb1e5037294652ddf1437f62292c0727183f11ae riscv: select ARCH_USE_CMPXCHG_LOCKREF
-         79d6e4eae9662b9103fecf94d52b44deca56743c riscv: cmpxchg: implement arch_cmpxchg64_{relaxed|acquire|release}
-         a98e4bedc4bd0d9761f4d1ff9328ce2ae77fcaf7 Merge patch series "riscv: enable lockless lockref implementation"
-         acf693b9d16c20183a49ad9476c15a7036a54267 riscv: select ARCH_HAS_FAST_MULTIPLIER
+         151f7442436658ee84076681d8f52e987fe147ea selftests/bpf: Fix a fd leak in error paths in open_netns
+         285cffbaa8e6056c2595e07e3a320e55c71870ad selftests/bpf: Use log_err in open_netns/close_netns
+         e1cdb70d075e02b1f410b8446a8ff959fa15f0ee selftests/bpf: Use start_server_addr in test_sock_addr
+         c6c40798428180516df80ce89da7bbfe1f6a828a selftests/bpf: Use connect_to_addr in test_sock_addr
+         e4c68bbaff1153e8730c16f566c78a25b2046372 selftests/bpf: Use make_sockaddr in test_sock_addr
+         5305b378b351dc5fd55f5f1f37ef362ae0e11d7e Merge branch 'use network helpers, part 2'
          
