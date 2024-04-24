@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 24 Apr 2024 19:02:24 -0000
-Message-Id: <171398534410.28332.3425503102159259734@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 24 Apr 2024 19:05:54 -0000
+Message-Id: <171398555455.31175.5291323179173046677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: dde915c5cba1fe49e980efe72662d9bc2a6b7ffd
-    new: 1a33479a794101772f3f24073c5241cadc4c6403
+  - ref: refs/heads/master
+    old: 30b741baa569bc3dceabb24f2e6a9e7fe1bb87e0
+    new: c42702cfc48e74d0d19a3d2f08049d2b5d0c85f4
     log: |
-         0efc5990bca540b8d438fda23db3a72efa733eb0 string.h: Introduce memtostr() and memtostr_pad()
-         c01c41e5009c04515d81a87f6278c413914920ce string_kunit: Move strtomem KUnit test to string_kunit.c
-         0ea6bbcde407014da257ebd9813a3bf0c449656a MAINTAINERS: Add ubsan.h to the UBSAN section
-         b8e634375cbc8977895aeb8aab40f549bc364da3 ubsan: Remove 1-element array usage in debug reporting
-         1a33479a794101772f3f24073c5241cadc4c6403 ubsan: Avoid i386 UBSAN handler crashes with Clang
+         d8f3a3fa497f7beac81ac5b66323c4e77eec8dc4 gdbus: Add testing flags
+         e7578f9ddd079042e49f6ad69e64cc73d2abb72e main.conf: Add support for testing interfaces
+         02ade13c439fc3add8d5ec98f50e1f52f7b9816f ccp: Mark plugin for testing
+         638774f603c2a216b8ec4a2866e1dfa37059918a bap: Initialize bap_data for scanned device in bap_bcast_probe
+         aa7f3574f275ea2c9964c7725c2b419c0cadce20 bap: Replace adapter in bap_data with bap_adapter
+         48a69222581c604916e18285298cf9b13db1c7d8 bap: Improve handling of pa_req timer
+         c7071911d57aa684f86f9458e33dfd9abb809c50 bap: Remove deleted devices from pa_req queue
+         f141b27bcb526d1cd95d3301775808c9b011dcfe bap: Reword bap_adapter/adapter and pa_req/req
+         c42702cfc48e74d0d19a3d2f08049d2b5d0c85f4 bap: Fix use of unintialized variable
          
