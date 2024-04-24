@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 24 Apr 2024 08:26:53 -0000
-Message-Id: <171394721373.7162.13176385370515457322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 24 Apr 2024 08:32:06 -0000
+Message-Id: <171394752683.10670.560074968740755941@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: f8f9d5dcc35361193552769fc4758612cda909e1
-    new: 99dd11971766a96c1e2a79f8899ac4f576d403b7
+  - ref: refs/heads/gpio/for-next
+    old: 8a7a6103258715857310253ec2193bcc4d1d7082
+    new: ec37529e544c59bb8ba35fd950c7bec28e5d54ee
     log: |
-         396516a7e125f0ba125316fe5f8caf0d92e53f49 thermal: core: Introduce thermal_governor_trip_crossed()
-         99dd11971766a96c1e2a79f8899ac4f576d403b7 Merge branch 'thermal-core' into bleeding-edge
+         ec37529e544c59bb8ba35fd950c7bec28e5d54ee gpio: brcmstb: Use dynamic GPIO base numbers
          
