@@ -1,24 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 24 Apr 2024 12:08:29 -0000
-Message-Id: <171396050956.18984.6452109258380477049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Wed, 24 Apr 2024 12:12:09 -0000
+Message-Id: <171396072913.22028.14604900865441963838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/main
-    old: a2d2cadcb0218cc7ef98e74891b08a232e1f6e8e
-    new: 9dd15d5088e9b322893459e38e1d279a33fc096c
+  - ref: refs/heads/master-pending
+    old: d4ab7af00059492638acba8ba7b8bf92c2f24e21
+    new: a596322ed993910156a62c4400e140af0afb7e33
     log: |
-         8c82bfdd84998c2d78dda0f4a32ecc7b91f7ea8d net: sparx5: add new register definitions
-         1ede4acf045ced70d9b72465e2e968aec71e0a42 net: sparx5: add bookkeeping code for matchall rules
-         4e50d72b3b95fd1ba678f1fab395c3f45105d6bd net: sparx5: add port mirroring implementation
-         2ac99ed9c3ef43abcdc20210c67f4d1d901fe1a1 net: sparx5: add the tc glue to support port mirroring
-         5af946f4bb421cac8b6936b59ffdd426279c0b2e net: sparx5: add support for matchall mirror stats
-         9dd15d5088e9b322893459e38e1d279a33fc096c Merge branch 'sparx5-port-mirroring'
+         98803ce424b7c59ec7f8024c8ff2e9988e9ff7f1 wifi: ath11k: move power type check to ASSOC stage when connecting to 6 GHz AP
+         a596322ed993910156a62c4400e140af0afb7e33 Merge branch 'pending' into master-pending
          
+  - ref: refs/heads/pending
+    old: 5f59d2c5398fa60b8864e8569e3c3207462a37c3
+    new: 98803ce424b7c59ec7f8024c8ff2e9988e9ff7f1
+    log: |
+         98803ce424b7c59ec7f8024c8ff2e9988e9ff7f1 wifi: ath11k: move power type check to ASSOC stage when connecting to 6 GHz AP
+         
+  - ref: refs/tags/ath-pending-202404241209
+    old: 0000000000000000000000000000000000000000
+    new: a596322ed993910156a62c4400e140af0afb7e33
