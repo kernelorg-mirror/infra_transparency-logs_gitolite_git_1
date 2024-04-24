@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
-Date: Wed, 24 Apr 2024 20:38:17 -0000
-Message-Id: <171399109798.2631.5575189460978954788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
+Date: Wed, 24 Apr 2024 20:40:07 -0000
+Message-Id: <171399120752.4983.14462178331770555161@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/cgit
-user: zx2c4
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
+user: vudentz
 changes:
-  - ref: refs/heads/ch/git-2-45
-    old: 681cdb4b237fb6faa3cead738f762006bc66051b
-    new: e42c609163550dac1d0587f2a47f3d88e91dee92
-    log: |
-         e42c609163550dac1d0587f2a47f3d88e91dee92 RFC: git: update to v2.45.0-rc1
-         
+  - ref: refs/tags/for-net-2024-04-24
+    old: 0000000000000000000000000000000000000000
+    new: f0ff3925e9d8669b0f04dce052073315ba54d650
