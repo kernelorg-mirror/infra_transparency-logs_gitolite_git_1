@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
-Date: Wed, 24 Apr 2024 16:38:31 -0000
-Message-Id: <171397671188.21465.7260588759679990412@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 24 Apr 2024 16:45:37 -0000
+Message-Id: <171397713707.27192.2305705176046742224@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/oupton/linux
-user: oupton
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/kvm-arm64/vgic-v2-uaccess
-    old: ca153c7682816eaa80c22b3bc317ea98f4385d51
-    new: 5df30306029fcdb90ededd414f0b5d75b38a9301
+  - ref: refs/heads/intel_pstate-testing
+    old: 340f87579b7c3033321575a19afcc93fb94d32e3
+    new: 794e1bd1fb669c69068a6d5ad098eb08985bd49c
     log: |
-         d1f8537259131a453ac78f8574f1cac8fc566871 KVM: arm64: vgic-v2: Check for valid vCPU in vgic_v2_parse_attr()
-         5df30306029fcdb90ededd414f0b5d75b38a9301 KVM: selftests: Add test for uaccesses to non-existent vgic-v2 CPUIF
+         89ab7a5557e8ec9a84cdf895b622fac6dab7146a x86/sched: Introduce arch_rebuild_sched_domains()
+         ec21577704008e45abbc9874ab9d51e0c35cee58 x86/sched: Add basic support for CPU capacity scaling
+         794e1bd1fb669c69068a6d5ad098eb08985bd49c cpufreq: intel_pstate: Set asymmetric CPU capacity on hybrid systems
          
