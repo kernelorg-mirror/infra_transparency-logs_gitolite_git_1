@@ -1,33 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Wed, 24 Apr 2024 03:22:20 -0000
-Message-Id: <171392894047.14085.11849297850314283987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Wed, 24 Apr 2024 03:31:55 -0000
+Message-Id: <171392951537.20685.15493322401132958887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: e5ce683e804a8e880c402adb5c67fba12633db1f
-    new: f5f03776ca2799ffa094d71318c2960af5f2c63c
+  - ref: refs/heads/for-6.10
+    old: 8996f93fc3880d000a0a0cb40c724d5830e140fd
+    new: 04d63da4da53e6064683f4970d34ce997f9daee3
     log: |
-         3fcbc9ffbeaa0df3dd06113b61f9b3bed4efb92e Update version tag to 1.47.1-rc1 for test builds
-         49125d40ff36490af218f46b9b4d1fdf96553dcd Align function prototypes for libss's request handler function
-         a12302fa683e397a731e679bd1b818c45ad3ff78 e2fsck: make sure get_backup_sb() works when ctx is NULL
-         ec1c87f84bc4b3ca60c422f02c08b0e4e0543bd6 Fix coverity false positives introduced by the post-2038 changes
-         f5f03776ca2799ffa094d71318c2960af5f2c63c e2fsck, tune2fs: fix post-2038 support for s_lastcheck
+         e8784765fae6edc47efb68d425c65e3633d70cd6 cgroup/cpuset: Avoid clearing CS_SCHED_LOAD_BALANCE twice
+         04d63da4da53e6064683f4970d34ce997f9daee3 cgroup/cpuset: Fix incorrect top_cpuset flags
          
-  - ref: refs/heads/next
-    old: e5ce683e804a8e880c402adb5c67fba12633db1f
-    new: f5f03776ca2799ffa094d71318c2960af5f2c63c
+  - ref: refs/heads/for-next
+    old: 8996f93fc3880d000a0a0cb40c724d5830e140fd
+    new: 04d63da4da53e6064683f4970d34ce997f9daee3
     log: |
-         3fcbc9ffbeaa0df3dd06113b61f9b3bed4efb92e Update version tag to 1.47.1-rc1 for test builds
-         49125d40ff36490af218f46b9b4d1fdf96553dcd Align function prototypes for libss's request handler function
-         a12302fa683e397a731e679bd1b818c45ad3ff78 e2fsck: make sure get_backup_sb() works when ctx is NULL
-         ec1c87f84bc4b3ca60c422f02c08b0e4e0543bd6 Fix coverity false positives introduced by the post-2038 changes
-         f5f03776ca2799ffa094d71318c2960af5f2c63c e2fsck, tune2fs: fix post-2038 support for s_lastcheck
+         e8784765fae6edc47efb68d425c65e3633d70cd6 cgroup/cpuset: Avoid clearing CS_SCHED_LOAD_BALANCE twice
+         04d63da4da53e6064683f4970d34ce997f9daee3 cgroup/cpuset: Fix incorrect top_cpuset flags
          
