@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 24 Apr 2024 22:58:47 -0000
-Message-Id: <171399952750.8476.12390670265592043846@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Wed, 24 Apr 2024 23:00:14 -0000
+Message-Id: <171399961433.11799.17056376758228512621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/for-next
-    old: 82e38a505c9868e784ec31e743fd8a9fa5ca1084
-    new: 95c07d58250ca3ed01855c20be568cf04e15382f
+  - ref: refs/heads/rcu/dev
+    old: 94a59da0c9f0acc3f2372bb92ed5a0d571f990f6
+    new: d4b75279fc9cedd35560fc8c9e76ff5393fdebc6
     log: |
-         95c07d58250ca3ed01855c20be568cf04e15382f bpf: update the comment for BTF_FIELDS_MAX
+         30a30e0d1f37c055fc1ccb6575691525f00139d4 rcu/nocb: Fix segcblist state machine comments about bypass
+         a225dddd2055d687e391768dd3c7919cdf0c960f rcu/nocb: Use kthread parking instead of ad-hoc implementation
+         d4b75279fc9cedd35560fc8c9e76ff5393fdebc6 rcu/nocb: Remove buggy bypass lock contention mitigation
          
