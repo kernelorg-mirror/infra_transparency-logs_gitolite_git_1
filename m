@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Wed, 24 Apr 2024 00:04:28 -0000
-Message-Id: <171391706866.25941.15467875777949400899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 24 Apr 2024 00:13:27 -0000
+Message-Id: <171391760778.1204.13301346703186183610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/arena_lock
-    old: 53ea4c0fccf39b398ecd368840ba83a67ac964e1
-    new: fb85e409be9065c7c625d38be4d436f83a68b016
+  - ref: refs/heads/nfsd-fixes
+    old: 7d32b207859f176aacd98c1bebd02f2722b87119
+    new: 8ddb7142c8ab37371c6fd167a8aded97922c6268
     log: |
-         8988284bf2a0e3930e83b40b8cf83714c186438f bpf: Introduce bpf_lock.
-         685009a684ac872ee37050de756e50a1a153b5d5 bpf: Convert bpf hash map to bpf_qlock
-         fb85e409be9065c7c625d38be4d436f83a68b016 selftests/bpf: Add bpf_lock test
+         9c8ecb9308d8013ff9ac9d36fdd8ae746033b93c Revert "NFSD: Reschedule CB operations when backchannel rpc_clnt is shut down"
+         8ddb7142c8ab37371c6fd167a8aded97922c6268 Revert "NFSD: Convert the callback workqueue to use delayed_work"
          
