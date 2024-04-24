@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 24 Apr 2024 23:33:39 -0000
-Message-Id: <171400161958.3780.6295105975809984650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Wed, 24 Apr 2024 23:45:27 -0000
+Message-Id: <171400232700.14113.17310014618330130862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: 1afa71160206c4ae617271b0fb0303a358faf529
-    new: a7780adf39be8717ac547b4cbbb9e00304f4dd5a
+  - ref: refs/heads/for-next/hardening
+    old: c5d49b4773aac19782a57b11f7860f92692b230c
+    new: e8a87d0cd0483252533990c570014e3d467a52bf
     log: |
-         a7780adf39be8717ac547b4cbbb9e00304f4dd5a foo
+         e8a87d0cd0483252533990c570014e3d467a52bf virt: acrn: replace deprecated strncpy with strscpy
          
