@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 24 Apr 2024 10:03:12 -0000
-Message-Id: <171395299274.24415.5149243256248866335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 24 Apr 2024 10:06:21 -0000
+Message-Id: <171395318175.27164.4152296070691570434@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: d47fe8dd94d034587e583ae49d89c7336f2309f6
-    new: e4dd05126898b8369fe83d831d484553271b5c78
+    old: 896a678f34ec49b5c10739e88256a74891fef223
+    new: f4cb44bd1140ff3e778491671f4bd17e73cb78ee
     log: |
-         cd18bec668bb6221a54f03d0b645b7aed841f825 sched/fair: Fix update of rd->sg_overutilized
-         e4dd05126898b8369fe83d831d484553271b5c78 Merge branch into tip/master: 'sched/core'
+         81f1ce7f37ece9cfcc066e63fef642a31542a815 lsfd: (man) fix typos
+         d2dc150fe502a5bd8fa6f1a4a7c4c08bacfe4ca8 lsfd: (man) fix license name
+         94221a076e7566a1e70a8a53652e984aba761bf4 lsfd: (man) add commas between SEE ALSO items
+         a20e7e23a8565e01b1c84de6924d1fbbdb1cfccc libmount: fix umount --read-only
+         18d10c16abaf1cf2934625624591f31318923050 Merge branch 'PR/libmount-fix-umount-r' of github.com:karelzak/util-linux-work
+         21b4f53a1433c29a5f3d3e975f8d1bf62b011aed Merge branch 'lsfd' of https://github.com/jwilk-forks/util-linux
+         f4cb44bd1140ff3e778491671f4bd17e73cb78ee docs: fix GPL name typo
          
