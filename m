@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4678327126115453966=="
+Content-Type: multipart/mixed; boundary="===============4838410491680289846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 24 Apr 2024 16:25:08 -0000
-Message-Id: <171397590861.11904.3649073613439155226@gitolite.kernel.org>
+Date: Wed, 24 Apr 2024 16:25:44 -0000
+Message-Id: <171397594478.12202.590428148187370445@gitolite.kernel.org>
 
---===============4678327126115453966==
+--===============4838410491680289846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 1af2dface5d286dd1f2f3405a0d6fa9f2c8fb998
-    new: 9dd15d5088e9b322893459e38e1d279a33fc096c
-    log: revlist-1af2dface5d2-9dd15d5088e9.txt
+  - ref: refs/heads/dev-queue
+    old: f42ec548208612adf37885ea7c85ce21043373db
+    new: 348479073935fd38428936ecb653490a91fbdf1b
+    log: revlist-f42ec5482086-348479073935.txt
 
---===============4678327126115453966==
+--===============4838410491680289846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1af2dface5d2-9dd15d5088e9.txt
+Content-Disposition: attachment; filename=revlist-f42ec5482086-348479073935.txt
 
 ce05d0f20368b583b43c99a7c8673e8a7187b76b netdev: support dumping a single netdev in qstats
 652332e3f1d6209dab372e0dfc7a5bbe209bf698 netlink: move extack writing helpers
@@ -73,5 +73,39 @@ a2d2cadcb0218cc7ef98e74891b08a232e1f6e8e Merge branch 'net-dunamic-dummy-device'
 2ac99ed9c3ef43abcdc20210c67f4d1d901fe1a1 net: sparx5: add the tc glue to support port mirroring
 5af946f4bb421cac8b6936b59ffdd426279c0b2e net: sparx5: add support for matchall mirror stats
 9dd15d5088e9b322893459e38e1d279a33fc096c Merge branch 'sparx5-port-mirroring'
+ab0c55dacc5f4cb6bc67f16afc760707ab86eb83 igc: Add Tx hardware timestamp request for AF_XDP zero-copy packet
+6503a46f11f2a31744d0c3fcebdd5d29fb1bab71 ice: Fix package download algorithm
+40ab09f687e250c4ebf8412b6632d70762022050 i40e: Report MFS in decimal base instead of hex
+b4385457048d2c53be07da58f5f09c259f92d6b0 ice: add additional E830 device ids
+fc6bef886686b422f301d2cd36e3d0134a231843 ice: update E830 device ids and comments
+a8d805fa9d99aecdb2650da84cc3588cf653a6d3 iavf: Fix TC config comparison with existing adapter TC config
+a691260f04513c09004edc1013627c855773e127 i40e: Do not use WQ_MEM_RECLAIM flag for workqueue
+573f53ce8163ca513448cf97599a3ef11a4e7be4 igc: Fix LED-related deadlock on driver unbind
+488a773f0c473fbb75037d57d92758452fe6dcbb ice: Deduplicate tc action setup
+a39e89ccb0721bd64b2c9bba512feb9df3cd1ef0 e1000e: move force SMBUS near the end of enable_ulp function
+8f1c94e0d52fbc34d55a69d062b534879b09ae72 e1000e: change usleep_range to udelay in PHY mdic access
+6dc1c8befbaa26b58e4dac56eedcba478ec0dc12 i40e: flower: validate control flags
+70b12032adcc1a73633a108811e1fee5135b91ba iavf: flower: validate control flags
+3dbb1a663c116adf600ca47e05f5c59b9067ed18 ice: flower: validate control flags
+169af6677f33bd28619ce1a7169628ce2afd6c46 igb: flower: validate control flags
+1270ff519ba53ccbbfb090d52be7c3018d14cece devlink: extend devlink_param *set pointer
+d51e2eebca7a6f8acd6c07337185705a328caa96 ice: Support 5 layer topology
+79b298bda0c0aab95402d8a86879dc9871aed7c0 ice: Adjust the VSI/Aggregator layers
+caa3c869f55c8446d8dd161373016d96ece08736 ice: Enable switching default Tx scheduler topology
+1f01d8d2d0669fd15990cb88f5befafb72ce4c2b ice: Add tx_scheduling_layers devlink param
+f3140a103ec7a33e1df477c645384f5ea030a2bc ice: Document tx_scheduling_layers parameter
+b00bcac0d120888a1bd3aecb7e6dd8b11a558520 ice: Interpret .set_channels() input differently
+1278c4910d486c8bdc48c0c251c7f0eb401bb805 ice: fix 200G PHY types to link speed mapping
+a2c6c77a4e20ae252e12c55e27b0d66f1c5dd20b ice: refactor struct ice_vsi_cfg_params to be inside of struct ice_vsi
+0826a5dc719c31eac44db796360e8d78731e808f net: intel: introduce {, Intel} Ethernet common library
+528e4f19210d705793a835e25dae1f582e18e372 iavf: kill "legacy-rx" for good
+04f31554f0726ca29a602876bdffa4540a85b826 iavf: drop page splitting and recycling
+7f8c4eddedfac827dd20793283ac508cfd2a01e4 slab: introduce kvmalloc_array_node() and kvcalloc_node()
+cf98ef82cb376b37ac40dce0d06e2fdc022b67a6 page_pool: constify some read-only function arguments
+c1da5bebc0da53685da93392da7ba49924fb86e1 page_pool: add DMA-sync-for-CPU inline helper
+bf673aea51f9fb01916d6a824fb21fb7dceaf568 libeth: add Rx buffer management
+bb6d364dc0978cd6f489473e2dd11b2bbd5409dc iavf: pack iavf_ring more efficiently
+4f09d6e9ebd8a458acd6b088d29f71ed12b58dee iavf: switch to Page Pool
+348479073935fd38428936ecb653490a91fbdf1b MAINTAINERS: add entry for libeth and libie
 
---===============4678327126115453966==--
+--===============4838410491680289846==--
