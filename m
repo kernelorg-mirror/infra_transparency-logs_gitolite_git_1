@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 24 Apr 2024 17:32:55 -0000
-Message-Id: <171397997574.28453.4962738156347183812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Wed, 24 Apr 2024 17:33:18 -0000
+Message-Id: <171397999894.28667.6610144633365196701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/dev
-    old: 06b206d9e2b4c3e142d60d21912a7b46988dea29
-    new: 04890641bf1fc9835e651c70ed7e1b520dd77285
+  - ref: refs/heads/for-6.9-fixes
+    old: d40f92020c7a225b77e68599e4b099a4a0823408
+    new: 91f098704c25106d88706fc9f8bcfce01fdb97df
     log: |
-         0fa8e7d04baa0ff8a9e436a730a9354b2fe01d78 f2fs: clear writeback when compression failed
-         04890641bf1fc9835e651c70ed7e1b520dd77285 f2fs: fix false alarm on invalid block address
+         91f098704c25106d88706fc9f8bcfce01fdb97df workqueue: Fix divide error in wq_update_node_max_active()
          
