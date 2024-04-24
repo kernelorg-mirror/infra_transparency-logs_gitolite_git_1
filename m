@@ -1,29 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 24 Apr 2024 22:08:09 -0000
-Message-Id: <171399648997.4895.3264086787610333154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 24 Apr 2024 22:09:26 -0000
+Message-Id: <171399656666.5451.8184315747839207583@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/dev-test
-    old: 569a48fed3558058620fed06a910f39e4ad82915
-    new: 3126061444d66b6a79b7afcc31b5c730fd7be3a6
+  - ref: refs/heads/master
+    old: 8aa904d7a88ca50c48d3e3ca93fdab1c6bd208d3
+    new: 1afa71160206c4ae617271b0fb0303a358faf529
     log: |
-         a53eb2c424a9223843264d85ec81c7a6bce23eb7 erofs: modify the error message when prepare_ondemand_read failed
-         95c05d47361d1ff672ff01758a94395c45d29c08 erofs: get rid of erofs_fs_context
-         3126061444d66b6a79b7afcc31b5c730fd7be3a6 erofs: reliably distinguish block based and fscache mode
-         
-  - ref: refs/heads/fixes
-    old: 569a48fed3558058620fed06a910f39e4ad82915
-    new: 3126061444d66b6a79b7afcc31b5c730fd7be3a6
-    log: |
-         a53eb2c424a9223843264d85ec81c7a6bce23eb7 erofs: modify the error message when prepare_ondemand_read failed
-         95c05d47361d1ff672ff01758a94395c45d29c08 erofs: get rid of erofs_fs_context
-         3126061444d66b6a79b7afcc31b5c730fd7be3a6 erofs: reliably distinguish block based and fscache mode
+         f06cc076076d93a00b7f6707f9fbe6962e634d77 foo
+         1afa71160206c4ae617271b0fb0303a358faf529 foo
          
