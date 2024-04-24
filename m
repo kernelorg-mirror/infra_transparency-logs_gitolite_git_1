@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Wed, 24 Apr 2024 09:59:10 -0000
-Message-Id: <171395275061.20999.1697607925697040440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 24 Apr 2024 09:59:30 -0000
+Message-Id: <171395277000.21200.4631938545051243020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: kvalo
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/wireless-next-2024-04-24
-    old: 0000000000000000000000000000000000000000
-    new: 1f5ac36451f776b13f577e76747efced1efd2893
+  - ref: refs/heads/locking/core
+    old: d26e46f6bf329cfcc469878709baa41d3bfc7cc3
+    new: 532453e7aa78f3962fb4d86caf40ff81ebf62160
+    log: |
+         33eb8ab4ec83cf0975d0113966c7e71cd6be60b2 locking/atomic/x86: Merge __arch{,_try}_cmpxchg64_emu_local() with __arch{,_try}_cmpxchg64_emu()
+         94af3a04e3f386d4f060d903826e85aa006ce252 locking/qspinlock/x86: Micro-optimize virt_spin_lock()
+         532453e7aa78f3962fb4d86caf40ff81ebf62160 locking/pvqspinlock/x86: Use _Q_LOCKED_VAL in PV_UNLOCK_ASM macro
+         
