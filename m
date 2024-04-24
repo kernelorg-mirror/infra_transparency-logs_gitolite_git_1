@@ -1,30 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============0598631125851958958=="
+Content-Type: multipart/mixed; boundary="===============4395870650426360287=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 24 Apr 2024 06:35:47 -0000
-Message-Id: <171394054732.24486.7599367469437793225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 24 Apr 2024 06:35:50 -0000
+Message-Id: <171394055043.24609.11684366403322749273@gitolite.kernel.org>
 
---===============0598631125851958958==
+--===============4395870650426360287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: ca0b44e20a6f3032224599f02e7c8fb49525c894
-    new: f88320b698ad099a2f742adfb9f87177bfffe0c5
-    log: revlist-ca0b44e20a6f-f88320b698ad.txt
+  - ref: refs/heads/rdma-next
+    old: 4680b690f2b356f2d226f0048cccfac50343e01b
+    new: c370847e983da17514a2a6e8293918e800724369
+    log: revlist-4680b690f2b3-c370847e983d.txt
+  - ref: refs/heads/xfrm-next
+    old: 4f48cf47e36c9b62d13b51ec9e13dcebcefa03aa
+    new: f66e8ed436fe3f1bfc23e7876a31d4b188515e51
+    log: |
+         aeb48a428d7dbe636203ae892e981bcc3e2ac042 udpencap: Remove Obsolete UDP_ENCAP_ESPINUDP_NON_IKE Support
+         4948cac4d13f1329a2480daa56f855d605d944a5 xfrm: Flush xfrm state synchronously on netdev close or unregister
+         55ba3a56212b3384d35bb4118f62445f0af69c76 net/mlx5e: Close PF netdev when unload driver
+         36c1f03ea1fc9d8d4b5ddfe665d66b4a57b421bf net/mlx5e: Present succeeded IPsec SA bytes and packet
+         f66e8ed436fe3f1bfc23e7876a31d4b188515e51 net/mlx5e: Approximate IPsec per-SA payload data bytes count
+         
 
---===============0598631125851958958==
+--===============4395870650426360287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca0b44e20a6f-f88320b698ad.txt
+Content-Disposition: attachment; filename=revlist-4680b690f2b3-c370847e983d.txt
 
 2b23b6097303ed0ba5f4bc036a1c07b6027af5c6 RDMA/rxe: Fix seg fault in rxe_comp_queue_pkt
 b703374837a8f8422fa3f1edcf65505421a65a6a RDMA/rxe: Allow good work requests to be executed
@@ -45,5 +55,13 @@ ead79118dae6f9f982532002e82c2fb291ae0480 arm64/io: Provide a WC friendly __iowri
 2b7a5e1fe02231acc5d50339b2f10833565ef559 net: hns3: Remove io_stop_wc() calls after __iowrite64_copy()
 ef302283ddfceaba2657923af3f90fd58e6dff06 IB/mlx5: Use __iowrite64_copy() for write combining stores
 f88320b698ad099a2f742adfb9f87177bfffe0c5 RDMA/mana_ib: Fix missing ret value
+475589cb1f913dde61d451b6a8abefc60d94e831 net/sched: Don't print dump stack in event of transmission timeout
+6734e62dfac5953132067c23a2681fbcf258a06d RDMA/core: Introduce peer memory interface
+a74719f6ee5d8d5bad1d1361077244f80fa7034d RDMA/mlx5: Get upper device only if device is lagged
+6dae5acd0a9d69377dc3afaf0cad934dd9210c20 RDMA/mlx5: Send currect port events
+3be7acfe4f18d5f2fbdaf64756255a5dce17eb5c TEMP: Increase lockdep depth
+3948da4ebb551e41c22c682d39e9546d9474b48b RDMA/core: Add an option to display driver-specific QPs in the rdmatool
+45211c8eebfb4ae23f27b2aa67fa69277b3d1e46 RDMA/mlx5: Track DCT, DCI and REG_UMR QPs as diver_detail resources.
+c370847e983da17514a2a6e8293918e800724369 RDMA/cache: Release GID table even if leak is detected
 
---===============0598631125851958958==--
+--===============4395870650426360287==--
