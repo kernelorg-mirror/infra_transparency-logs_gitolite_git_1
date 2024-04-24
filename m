@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 24 Apr 2024 09:59:35 -0000
-Message-Id: <171395277576.21327.17931279548187751388@gitolite.kernel.org>
+Date: Wed, 24 Apr 2024 10:03:06 -0000
+Message-Id: <171395298687.24313.17156762172449335215@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: da811a5f0593fcc2b1efe9da7908354fd1f3ae95
-    new: d47fe8dd94d034587e583ae49d89c7336f2309f6
+  - ref: refs/heads/sched/core
+    old: 08a36a48544d73bf153960245aec6c5fa23960de
+    new: cd18bec668bb6221a54f03d0b645b7aed841f825
     log: |
-         33eb8ab4ec83cf0975d0113966c7e71cd6be60b2 locking/atomic/x86: Merge __arch{,_try}_cmpxchg64_emu_local() with __arch{,_try}_cmpxchg64_emu()
-         94af3a04e3f386d4f060d903826e85aa006ce252 locking/qspinlock/x86: Micro-optimize virt_spin_lock()
-         532453e7aa78f3962fb4d86caf40ff81ebf62160 locking/pvqspinlock/x86: Use _Q_LOCKED_VAL in PV_UNLOCK_ASM macro
-         d47fe8dd94d034587e583ae49d89c7336f2309f6 Merge branch into tip/master: 'locking/core'
+         cd18bec668bb6221a54f03d0b645b7aed841f825 sched/fair: Fix update of rd->sg_overutilized
          
