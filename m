@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4630612585779410356=="
+Content-Type: multipart/mixed; boundary="===============2847620998472972453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 24 Apr 2024 04:33:53 -0000
-Message-Id: <171393323399.2009.11252147014086479048@gitolite.kernel.org>
+Date: Wed, 24 Apr 2024 04:45:12 -0000
+Message-Id: <171393391262.12005.9278048125070271031@gitolite.kernel.org>
 
---===============4630612585779410356==
+--===============2847620998472972453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 84e79a7f63e8caeac0c1a0817408860875a9b23e
-    new: e22810ab3f5e0de0151a5a0d05a54cfc39a780a8
+  - ref: refs/heads/char-misc-linus
+    old: 7ab7f2ca4608cb9056aa66328f921a8ccef88ad2
+    new: 4108a30f1097eead0f6bd5d885e6bf093b4d460f
     log: |
-         e22810ab3f5e0de0151a5a0d05a54cfc39a780a8 mei: bus: constify the struct mei_cl_bus_type usage
+         a1383ac7284afc2f0ca39edee57dea4db70e66f3 mei: pxp: match against PCI_CLASS_DISPLAY_OTHER
+         4108a30f1097eead0f6bd5d885e6bf093b4d460f mei: me: add lunar lake point M DID
          
 
---===============4630612585779410356==
+--===============2847620998472972453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713933224 -0700
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1713933902 -0700
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1713933232-33a7bac1a5a855aeabd76903e3096e9fa624f443
+nonce 1713933910-cca29e311b926ea6cb4c337470c6068c6ca3209d
 
-84e79a7f63e8caeac0c1a0817408860875a9b23e e22810ab3f5e0de0151a5a0d05a54cfc39a780a8 refs/heads/char-misc-testing
+7ab7f2ca4608cb9056aa66328f921a8ccef88ad2 4108a30f1097eead0f6bd5d885e6bf093b4d460f refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYoi6gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GikQAIX8x8s76aoipk3T7cEQ
-8LJAUzSB4Fu5MCRlloiyZq1m5Vu6KFZ81E1bKSZL1Q3+hRdZu//VImRuKO86vdXQ
-TqBvh+MUUhsrda0mE9Y7IpVEL+/jvA3u9mKfMCx7XwpKh+O4C0BBt7PdQn+gGhVP
-W8hWyC3T200O2n6G/MAQSO2QzHkS3wigivonh5FJRvELELqPF3l7of2oveXYSinG
-h5iu1mt57g3qb2jEfPMotKuuP0yb8ht/aOOGJBPP4FBhameujIOaZTq/SRmUbTGO
-BJ6jvjuYiW+eHAqSEn+EFnhpQfn9k0HoVm5lObbfFptNrzP0vzGxaW1WoGWiR4TC
-zmgV66A9EGDa6I8LJook3Y/eObxvqyu49+vpkYmW0FeelQ2yY+n4fQefOKDzzR6R
-6GPzw0WjvFGyBCd4mR66+YFG+HZP4IVKGOqAvnkBF+3OPKVHlAh210vNTVHN0+Yd
-F5QjKkSlGGzdBOZtl27Trj3j/VfULErmepkiacSVNysspg7Rg29V7/47qoYILCiI
-YR/YxTtWvEeW/NipXglcroJJthYsBjudoKjcJYRK5Z5o0unIsOj2x6FG1XRMhzs7
-QOW4jUYvdpblFkWD50ThcCeiBdQrmMkB43daMu/kTi42OfZ+ONYNzuxAhH8IVC3U
-9ozJVtwu7wqVIczY35ALDvNh
-=Tx4F
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYojk4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jsgP/35ytPaD1M/bvqSqvFcF
+pDruitn6WfFoWk68EWulC/i4e/YsEkZu6DdPZKoayo8DWq8A/AiaU47BDezCvPEV
+DyjuMHweHxxUFaEXIdD3lMbKuUSfMiyPpTCAZbp2dkzofm/cNKnLxqGQ1BWCs7yA
+7Kg2szmovrUTQDpJJ4nqlBVJEc5zKUgKX//dLv6WskAVlmxgWmuJEN2QVJnN+2/w
+ZN1jX3l+2uF8XSItJHdhwYEKRuoZ/WQvGfN0CuLhEFwXWhVWjAhKPREqbXIO66n7
+gTetiUJgzBO161SmNiTAhwV8Kip3VWtYuA8YZmrBbQhRNjKkwcadi8kfvO7UekSW
+Dfp7123Vl5f0zQwBGWujBV/rbk5a2aKUQEhAjc0+buYAth2jYaahxU05oxENqvg9
+ZfJOCpFQzJt0xH33whDA9hzhKOrGX8pm0RZpYTcCBVUmoZ9GOo/X67j1EmF/zvDS
+LFz0u5rJjIHznctmqR/jdv6IEJNbGT5T2aE0/Jr8K7T90fe6fEjD5BT9emHN+nzH
+Pons7Qt1FitEoG7n71bAAh0Lp2umAWoNUwgV4lUrYteXd8fE+xqYt5np2738IqbM
+QhYy06R2k2+ZLdj8a5qOPm4JukY9UYVKOsPsVmoVCz6Uip6EoavvmQ0gqWpH26zd
+drX/Nq53lw1x5GNjmLG1Itxa
+=NaCO
 -----END PGP SIGNATURE-----
 
---===============4630612585779410356==--
+--===============2847620998472972453==--
