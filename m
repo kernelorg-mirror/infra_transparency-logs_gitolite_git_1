@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0178668776864564887=="
+Content-Type: multipart/mixed; boundary="===============2081985282219836742=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 24 Apr 2024 06:35:38 -0000
-Message-Id: <171394053821.24324.11844358931862746576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 24 Apr 2024 06:35:44 -0000
+Message-Id: <171394054486.24419.14578381953765465872@gitolite.kernel.org>
 
---===============0178668776864564887==
+--===============2081985282219836742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: ed30a4a51bb196781c8058073ea720133a65596f
     log: revlist-0bbac3facb5d-ed30a4a51bb1.txt
 
---===============0178668776864564887==
+--===============2081985282219836742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -357,4 +357,4 @@ c0c6b5c090ead778b3a8132201d25040b1fdcbf8 Merge tag 'tty-6.9-rc5' of git://git.ke
 48cf398f15fc3b2af11c78fed548355d3b66ca11 Merge tag 'char-misc-6.9-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 ed30a4a51bb196781c8058073ea720133a65596f Linux 6.9-rc5
 
---===============0178668776864564887==--
+--===============2081985282219836742==--
