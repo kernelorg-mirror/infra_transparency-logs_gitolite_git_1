@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Wed, 24 Apr 2024 17:53:11 -0000
-Message-Id: <171398119161.11305.15972031046294553211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 24 Apr 2024 18:04:07 -0000
+Message-Id: <171398184738.18370.4082365544138424033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: db4ade8183ce512048f3f25b09b99635a8f8f189
-    new: 1e86044402c45b70a9b31beeaefb5cc732a7470c
+  - ref: refs/heads/rdma-next
+    old: bd85806fa7f7c0309d574d9f5848b37eb9259501
+    new: b037a9b68f9d91e3dd0fc7dc7ad916ad5a6fa8b2
     log: |
-         7a1ad9d8120e3d510ee5de8924f14de089aa2e2d gfs2: Fix lru_count accounting
-         59f60005797b4018d7b46620037e0c53d690795e gfs2: Remove ill-placed consistency check
-         d98779e687726d8f8860f1c54b5687eec5f63a73 gfs2: Fix potential glock use-after-free on unmount
-         a3730c5ec57b033ba6e437f7881a894d57b28a4a gfs2: Unlock fewer glocks on unmount
-         1cd28e15864054f3c48baee9eecda1c0441c48ac gfs2: finish_xmote cleanup
-         9947a06d29c0a30da88cdc6376ca5fd87083e130 gfs2: do_xmote fixes
-         1e86044402c45b70a9b31beeaefb5cc732a7470c gfs2: Remove and replace gfs2_glock_queue_work
+         ef8a67548aba92bc0b0d3aefba352ebf5db30d73 Revert "IB/mlx5: Allocate resources just before first QP/SRQ is created"
+         95196abf5464641ca1725a32659547ff0c0351f0 Revert "IB/mlx5: Create UMR QP just before first reg_mr occurs"
+         b037a9b68f9d91e3dd0fc7dc7ad916ad5a6fa8b2 Revert "net/mlx5: Reimplement write combining test"
          
