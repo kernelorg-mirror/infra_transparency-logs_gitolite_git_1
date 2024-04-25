@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 25 Apr 2024 16:47:47 -0000
-Message-Id: <171406366763.24162.2136838315596891232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Thu, 25 Apr 2024 16:54:42 -0000
+Message-Id: <171406408276.28343.4278833174819268576@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/fixes
-    old: 5ea6764d9095e234b024054f75ebbccc4f0eb146
-    new: f6b56df883d426d7a49c2b039a24c34306c72824
-    log: |
-         17c67ed752d6a456602b3dbb25c5ae4d3de5deab selftests: sud_test: return correct emulated syscall value on RISC-V
-         9b86a982bdac8b868b95f409107d2f54fa6e8c43 perf daemon: Fix the warning about time_t
-         f1e7c1e730250e51075c1becf9e0a5315e94dba3 perf riscv: Fix the warning due to the incompatible type
-         f6b56df883d426d7a49c2b039a24c34306c72824 RISC-V: selftests: cbo: Ensure asm operands match constraints, take 2
-         
+  - ref: refs/tags/md-6.10-20240425
+    old: 0000000000000000000000000000000000000000
+    new: 9d1110f99c253ccef82e480bfe9f38a12eb797a7
