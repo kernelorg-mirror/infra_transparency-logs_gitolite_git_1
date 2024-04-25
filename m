@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 25 Apr 2024 07:52:40 -0000
-Message-Id: <171403156053.19725.11392450124081350694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Thu, 25 Apr 2024 07:58:43 -0000
+Message-Id: <171403192341.23492.1110977493848434676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/main
-    old: d806871612712f1d08eb7ce81efd4ca81ca5bca1
-    new: caf93883f623ebd29989e3c35423f386ea4a41bb
+  - ref: refs/heads/stm32-next
+    old: 2886ab7437de65a61acd626e054478b292fe8afb
+    new: 4ef09379d7651304d898ead93c7d50e0d4980c77
     log: |
-         14b5fb2145caeb909a1cd57d9cd5e0c3cd005642 tcp: move tcp_skb_cb->sacked flags to enum
-         2bf90a57f0e682872c5cfb66ffa45e432bb9c7ae tcp: update sacked after tracepoint in __tcp_retransmit_skb
-         caf93883f623ebd29989e3c35423f386ea4a41bb Merge branch 'tcp-trace-next'
+         0087ca056c735785c5a14411d46658ada851e2ad arm64: dts: st: add all 8 i2c nodes on stm32mp251
+         7442597f90ba3ae30b8acecc261f75b6b80aea92 arm64: dts: st: add i2c2/i2c8 pins for stm32mp25
+         4ef09379d7651304d898ead93c7d50e0d4980c77 arm64: dts: st: add i2c2 / i2c8 properties on stm32mp257f-ev1
          
