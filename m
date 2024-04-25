@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 25 Apr 2024 14:32:10 -0000
-Message-Id: <171405553003.19044.10008816295292509268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Thu, 25 Apr 2024 14:37:46 -0000
+Message-Id: <171405586695.23986.9232958543276387123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 1d12152d95947b30cc1ff866aa21bc39bd3cd258
-    new: 10b0bdcf52f2fbe83d7836c1ac7891e8e7bdb048
+  - ref: refs/heads/next
+    old: 0e275f65f3ef9c662b678655c70aca555fbde304
+    new: 693fe2f6a9ea17e4241e5114f54c6ae7bc2512d3
     log: |
-         f6ff431049b8061f1d3119e995c13b669dc92035 perf annotate-data: Check if 'struct annotation_source' was allocated on 'perf report' TUI
-         1e8a24ed00991f92f569cdde14a2d812c670f215 perf annotate: Fallback disassemble to objdump when capstone fails
-         a3f87c6331c89ce2bae40328d5147a622129a0ee perf annotate: Update DSO binary type when trying build-id
-         10b0bdcf52f2fbe83d7836c1ac7891e8e7bdb048 perf record: Fix comment misspellings
+         821911cea2a5be97c7558bc4723fcf43a9612cf9 selftests/clone3: ksft_exit functions do not return
+         636b82e3804d6e177f734ade7910747581d59555 selftests/ipc: ksft_exit functions do not return
+         16fac39fc8e91d31076687a16d02ad01a93fba47 selftests: membarrier: ksft_exit_pass() does not return
+         e6162a96c81d59f66fc64c772a4d6a0890ee26ee selftests/mm: ksft_exit functions do not return
+         79b4474f1d04e234596a8a5c6ec2670d6c422df8 selftests: pidfd: ksft_exit functions do not return
+         bf9373bef0b731ed0e38561d475b7a418acf6548 selftests/resctrl: ksft_exit_skip() does not return
+         eed24a9c8eb7908a1e75bcc072e06b655aa2b939 selftests: sync: ksft_exit_pass() does not return
+         287152f4e1f0d2571e3eb492d7b08d2c51596f6c selftests: timers: ksft_exit functions do not return
+         19b4af941c9f1244718568c0369189a7259651bc selftests: x86: ksft_exit_pass() does not return
+         693fe2f6a9ea17e4241e5114f54c6ae7bc2512d3 selftests: kselftest: Make ksft_exit functions return void instead of int
          
