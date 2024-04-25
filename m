@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1914160148037612138=="
+Content-Type: multipart/mixed; boundary="===============0669482202666193016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Thu, 25 Apr 2024 08:16:30 -0000
-Message-Id: <171403299091.5350.7461435512667862507@gitolite.kernel.org>
+Date: Thu, 25 Apr 2024 08:17:09 -0000
+Message-Id: <171403302975.5662.1978656703424489436@gitolite.kernel.org>
 
---===============1914160148037612138==
+--===============0669482202666193016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/dt
-    old: 40d691a6dc880d0f201902520cfc38b2ead3910a
-    new: c834a7847602424157bbaf9898a5c677c3bb1f83
-    log: |
-         081a4fd9c026a8fbb1a41c89a591bed8997192b3 ARM: dts: nxp: imx6sx: fix esai related warning when do dtb_check
-         8f610681b3487c4ce6815bb9fa10bbd82c1d3226 ARM: dts: nxp: imx6qdl: fix esai clock warning when do dtb_check
-         c834a7847602424157bbaf9898a5c677c3bb1f83 ARM: dts: imx6ull-tarragon: Reduce SPI clock for QCA7000
-         
-  - ref: refs/heads/imx/dt64
-    old: 7f699ed1df872faf09a0978476e19c4a2fa7757a
-    new: 23128d01262529d9d7898962879f7b775b7bfbe8
-    log: revlist-7f699ed1df87-23128d012625.txt
-  - ref: refs/heads/imx/fixes
-    old: 10947b276b90df38e60aa3efd6b4b7a4b3c92fab
-    new: d7f3040a565214a30e2f07dc9b91566d316e2d36
-    log: |
-         d7f3040a565214a30e2f07dc9b91566d316e2d36 ARM: dts: imx6ull-tarragon: fix USB over-current polarity
-         
+  - ref: refs/heads/for-next
+    old: b7c6f4085cba7b3703495d541b94ad5ff51d6bf8
+    new: e5b8671f6094ce5fe079297ec87c1607a92f7efd
+    log: revlist-b7c6f4085cba-e5b8671f6094.txt
 
---===============1914160148037612138==
+--===============0669482202666193016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f699ed1df87-23128d012625.txt
+Content-Disposition: attachment; filename=revlist-b7c6f4085cba-e5b8671f6094.txt
 
+081a4fd9c026a8fbb1a41c89a591bed8997192b3 ARM: dts: nxp: imx6sx: fix esai related warning when do dtb_check
+8f610681b3487c4ce6815bb9fa10bbd82c1d3226 ARM: dts: nxp: imx6qdl: fix esai clock warning when do dtb_check
+d7f3040a565214a30e2f07dc9b91566d316e2d36 ARM: dts: imx6ull-tarragon: fix USB over-current polarity
+c834a7847602424157bbaf9898a5c677c3bb1f83 ARM: dts: imx6ull-tarragon: Reduce SPI clock for QCA7000
 bc8a8c8c15075a8512ad25e16d3a022e81ee7985 arm64: dts: imx8mp: Align both CSI2 pixel clock
 880efa71293cbc819eb8c567d55580e015c3e9f7 arm64: dts: imx8qxp-mek: add cm40_i2c, wm8960 and sai[0,1,4,5]
 f1ca4e3890544d0b9acd1ce1f006d5c5255074d3 arm64: dts: freescale: ls1028a: Fix embedded PCI interrupt mapping
@@ -56,5 +46,10 @@ a4a60f8101bec856a505bd593e0007a0f250b8a8 arm64: dts: imx93-11x11-evk: add differ
 4fb2337cb9a68db5ae757fff3b4818c9f4a24e2a arm64: dts: imx93-11x11-evk: add sleep pinctrl for sdhc2
 63e3cc2b87c24532a497a3da6d55951e97a8be91 arm64: dts: imx93-11x11-evk: add reset gpios for ethernet PHYs
 23128d01262529d9d7898962879f7b775b7bfbe8 arm64: dts: imx93-11x11-evk: add RTC PCF2131 support
+efad69b6b687c3b4e73ce6710553a4f6165d03d7 Merge branch 'imx/soc' into for-next
+f9b7c86fca0156016f1434bd9fe80c9129b8e22d Merge branch 'imx/bindings' into for-next
+298f4ba42f08f79ced00f61d85ff801453c6fe05 Merge branch 'imx/dt' into for-next
+e77629902087f42c0c21914be98cc5f1f053bfc4 Merge branch 'imx/dt64' into for-next
+e5b8671f6094ce5fe079297ec87c1607a92f7efd Merge branch 'imx/defconfig' into for-next
 
---===============1914160148037612138==--
+--===============0669482202666193016==--
