@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 25 Apr 2024 17:13:12 -0000
-Message-Id: <171406519203.10782.2374489221556987463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Thu, 25 Apr 2024 17:16:01 -0000
+Message-Id: <171406536194.13484.439329222531043306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/tags/net-6.9-rc6
+  - ref: refs/heads/misc.erofs
     old: 0000000000000000000000000000000000000000
-    new: 6305c0be3a1609547677e436017d7879e3158492
+    new: 958b9f85f8d9d884045ed4b93b2082090e617f97
