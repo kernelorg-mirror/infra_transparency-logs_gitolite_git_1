@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 25 Apr 2024 15:34:00 -0000
-Message-Id: <171405924069.32383.5059372611851099162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 25 Apr 2024 15:36:13 -0000
+Message-Id: <171405937314.2556.15972550134476191743@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/dev-test
-    old: 4ce792aa865c54a583cd70ac3f03906b81b99055
-    new: 3763f9effcdccc38bde614c911f331203f204a01
+  - ref: refs/heads/main
+    old: 6e965eba43e9724f3e603d7b7cc83e53b23d155e
+    new: e3eb7dd47bd4806f00e104eb6da092c435f9fb21
     log: |
-         2174035a7f1148a52f5a3f371f04224168b5b00a f2fs: clear writeback when compression failed
-         b864ddb57eb00c4ea1e6801c7b2f70f1db2a7f4b f2fs: fix false alarm on invalid block address
-         3763f9effcdccc38bde614c911f331203f204a01 f2fs: use helper to print zone condition
+         0c81ea5a8e231fa120e3f76aa9ea99fa3950cc59 net: ravb: Fix registered interrupt names
+         38d7b94e81d068b8d8c8392f421cfd2c3bbfd1a6 dpll: fix dpll_pin_on_pin_register() for multiple parent pins
+         0844370f8945086eb9335739d10205dcea8d707b tls: fix lockless read of strp->msg_ready in ->poll
+         e3eb7dd47bd4806f00e104eb6da092c435f9fb21 net: b44: set pause params only when interface is up
          
