@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 25 Apr 2024 15:36:13 -0000
-Message-Id: <171405937314.2556.15972550134476191743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 25 Apr 2024 15:43:40 -0000
+Message-Id: <171405982093.8131.1885999660775846890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/main
-    old: 6e965eba43e9724f3e603d7b7cc83e53b23d155e
-    new: e3eb7dd47bd4806f00e104eb6da092c435f9fb21
+  - ref: refs/heads/thermal-core-next
+    old: df35f32c43cd2c758874102d547335a411054530
+    new: 2cc3945304adca9a73cdac29adc494bd7e5b625c
     log: |
-         0c81ea5a8e231fa120e3f76aa9ea99fa3950cc59 net: ravb: Fix registered interrupt names
-         38d7b94e81d068b8d8c8392f421cfd2c3bbfd1a6 dpll: fix dpll_pin_on_pin_register() for multiple parent pins
-         0844370f8945086eb9335739d10205dcea8d707b tls: fix lockless read of strp->msg_ready in ->poll
-         e3eb7dd47bd4806f00e104eb6da092c435f9fb21 net: b44: set pause params only when interface is up
+         40b4f125463975cb80001e6b68be2aa435802c84 thermal/debugfs: Fix two locking issues with thermal zone debug
+         62e05b5ed06a98b91d27182eb79dfb68c7c2f821 thermal/debugfs: Prvent use-after-free from occurring after cdev removal
+         2328613ca14f20451a5b77449d8d900801048974 thermal/debugfs: Create records for cdev states as they get used
+         496da0aa60960b840bc82f8695912fd54193c052 thermal/debugfs: Pass cooling device state to thermal_debug_cdev_add()
+         2cc3945304adca9a73cdac29adc494bd7e5b625c thermal/debugfs: Avoid printing zero duration for mitigation events in progress
          
