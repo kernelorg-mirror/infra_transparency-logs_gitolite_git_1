@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Thu, 25 Apr 2024 01:28:37 -0000
-Message-Id: <171400851713.30412.7691702929921495101@gitolite.kernel.org>
+Date: Thu, 25 Apr 2024 01:39:24 -0000
+Message-Id: <171400916437.6474.7010871882612526088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,54 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/for-linux-next
-    old: f5cc46b18d589c844f3147d0bb70e22307c7ed93
-    new: fc60ba033343125531601bb5d4c25fc525ad80e9
-    log: |
-         fc60ba033343125531601bb5d4c25fc525ad80e9 gpu: drm: exynos: hdmi: eliminate uses of of_node_put()
-         
+  - ref: refs/tags/drm-fixes-2024-01-27
+    old: 0000000000000000000000000000000000000000
+    new: 4c44ce7489fd425bbd05a566006becef3cb21084
+  - ref: refs/tags/drm-fixes-2024-01-27-1
+    old: 0000000000000000000000000000000000000000
+    new: 8c3bef14cefce626c8f594712b559f75ca4f314f
+  - ref: refs/tags/drm-fixes-2024-02-03
+    old: 0000000000000000000000000000000000000000
+    new: 40558ed7f1fe7aaca46b04deed029398dd2ee1b6
+  - ref: refs/tags/drm-fixes-2024-02-09
+    old: 0000000000000000000000000000000000000000
+    new: bdab47374d0f90130cdd419b0afd95fdabb870cb
+  - ref: refs/tags/drm-fixes-2024-02-16
+    old: 0000000000000000000000000000000000000000
+    new: 09cae88fcb3b95ff5e7f96591e3d0e4b3cf99a10
+  - ref: refs/tags/drm-fixes-2024-02-23
+    old: 0000000000000000000000000000000000000000
+    new: e418b950c8a0eed79ec887b8f95d288199dc9563
+  - ref: refs/tags/drm-fixes-2024-03-01
+    old: 0000000000000000000000000000000000000000
+    new: 9cf1ee93e2b38e81605975bdb848b498aa8965bf
+  - ref: refs/tags/drm-fixes-2024-03-08
+    old: 0000000000000000000000000000000000000000
+    new: 2e8479754b92833afb92018a5e27c9313d6ab5d2
+  - ref: refs/tags/drm-fixes-2024-03-30
+    old: 0000000000000000000000000000000000000000
+    new: d8ee299030d892e552bda4206a64a1d4b682877a
+  - ref: refs/tags/drm-fixes-2024-04-05
+    old: 0000000000000000000000000000000000000000
+    new: 0aa0df9f61467c7ab87248570a6f12d994bfb554
+  - ref: refs/tags/drm-fixes-2024-04-09
+    old: 0000000000000000000000000000000000000000
+    new: 486d5e572981b63a3a34363239dbd8e668614044
+  - ref: refs/tags/drm-fixes-2024-04-12
+    old: 0000000000000000000000000000000000000000
+    new: 338c7aab216097d2f5f0457911532c4c61ac0d9d
+  - ref: refs/tags/drm-fixes-2024-04-19
+    old: 0000000000000000000000000000000000000000
+    new: 58b861ea10c797825610bf9b04b29ccf26ae3d93
+  - ref: refs/tags/drm-misc-fixes-2024-02-01
+    old: 0000000000000000000000000000000000000000
+    new: b78ef3a88ae05ca74daffd7fcc96646aa57e0025
+  - ref: refs/tags/drm-next-2024-03-13
+    old: 0000000000000000000000000000000000000000
+    new: a400f19416b835f5088c1bcd080d4ad985575ec6
+  - ref: refs/tags/drm-next-2024-03-22
+    old: 0000000000000000000000000000000000000000
+    new: ff31b957e67c5830ebff75edf103ddbf2d6341ff
+  - ref: refs/tags/exynos-drm-next-for-6.10
+    old: 0000000000000000000000000000000000000000
+    new: 3b4c41d11393487c4d02c6a51a002def84c221e5
