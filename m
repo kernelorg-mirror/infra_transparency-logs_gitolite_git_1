@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Thu, 25 Apr 2024 14:45:18 -0000
-Message-Id: <171405631864.30396.6189203052557632458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Thu, 25 Apr 2024 14:46:19 -0000
+Message-Id: <171405637962.30871.424032859970534132@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/tmp.master
-    old: a1f684fa018ddbfaf99690f343b33ff364f2cd37
-    new: 912a8e3f3d19fa76405ddcbb687f8eab9c9afb62
+  - ref: refs/heads/v2.1.x
+    old: eec058af3986f87fe648146cbc50aa5db3fb4526
+    new: 57ba5eb29db1cc38e6cbd4b59681a684c28b08a4
     log: |
-         912a8e3f3d19fa76405ddcbb687f8eab9c9afb62 btf_encoder: Fix DWARF int type with greater-than-16 byte issue
+         57ba5eb29db1cc38e6cbd4b59681a684c28b08a4 licensing: relicense C++ bindings under LGPL-2.1-or-later
          
