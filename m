@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 24 Apr 2024 23:57:45 -0000
-Message-Id: <171400306582.21900.10409893179332861037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 25 Apr 2024 00:02:42 -0000
+Message-Id: <171400336215.25434.9483916262720373929@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/security/vulns
+user: lee
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: 628a89b6ef79c62eb0246089754ead3b1ee6bbaf
-    new: 9a278040955235172fd51eef8bbaf79d28b3fc03
+  - ref: refs/heads/master
+    old: f01eb0b679430a36470454f333c1b9f137178ad2
+    new: 5a83c28ecd58730308edf0fd13b99cedad3e24fe
     log: |
-         9a278040955235172fd51eef8bbaf79d28b3fc03 fs: ecryptfs: replace deprecated strncpy with strscpy
+         5a83c28ecd58730308edf0fd13b99cedad3e24fe cve_publish_json: Protect against accidentally updating existing CVEs
          
