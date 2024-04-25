@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 25 Apr 2024 14:30:57 -0000
-Message-Id: <171405545721.18537.11903747971268400013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 25 Apr 2024 14:32:10 -0000
+Message-Id: <171405553003.19044.10008816295292509268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/next-fixes
-    old: 08487fb4f2bd0e3c6a912c27ad13f219d2f3ae3c
-    new: 3550bc7dc848481b84946c4d97adf553f0b41333
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 1d12152d95947b30cc1ff866aa21bc39bd3cd258
+    new: 10b0bdcf52f2fbe83d7836c1ac7891e8e7bdb048
     log: |
-         9af503d91298c3f2945e73703f0e00995be08c30 btrfs: add missing mutex_unlock in btrfs_relocate_sys_chunks()
-         0f2b8098d72a93890e69aa24ec549ef4bc34f4db btrfs: take the cleaner_mutex earlier in qgroup disable
-         3550bc7dc848481b84946c4d97adf553f0b41333 Merge branch 'misc-6.9' into next-fixes
+         f6ff431049b8061f1d3119e995c13b669dc92035 perf annotate-data: Check if 'struct annotation_source' was allocated on 'perf report' TUI
+         1e8a24ed00991f92f569cdde14a2d812c670f215 perf annotate: Fallback disassemble to objdump when capstone fails
+         a3f87c6331c89ce2bae40328d5147a622129a0ee perf annotate: Update DSO binary type when trying build-id
+         10b0bdcf52f2fbe83d7836c1ac7891e8e7bdb048 perf record: Fix comment misspellings
          
