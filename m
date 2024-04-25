@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Thu, 25 Apr 2024 18:13:33 -0000
-Message-Id: <171406881304.22245.11324411668477448607@gitolite.kernel.org>
+Date: Thu, 25 Apr 2024 18:13:57 -0000
+Message-Id: <171406883794.22480.17916703926650027082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/renesas-clk-for-v6.10
-    old: d0d4585222d0e652ca33f03921d5574963d372ec
+  - ref: refs/heads/renesas-clk
+    old: 03b0cd390d08dbfa760e4918729ad66ecd3777e3
     new: 5add5ebc4e35a703a49976abfd82e708d9aea4ad
     log: |
          b6cc692ac67a75b97a2d524d8e2fd2d59b20248a dt-bindings: clock: r9a07g043-cpg: Add power domain IDs
