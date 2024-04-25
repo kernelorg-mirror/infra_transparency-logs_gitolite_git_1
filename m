@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5860606561586569177=="
+Content-Type: multipart/mixed; boundary="===============5495121649446978693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 25 Apr 2024 01:57:35 -0000
-Message-Id: <171401025562.20268.4894283121019397422@gitolite.kernel.org>
+Date: Thu, 25 Apr 2024 01:57:53 -0000
+Message-Id: <171401027331.20432.17175235760709248305@gitolite.kernel.org>
 
---===============5860606561586569177==
+--===============5495121649446978693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,75 +16,59 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: e63350dae44f01842dca229aaaa22c105356d7ab
-    new: f92141e18c8b466027e226f3388de15b059b6f65
-    log: revlist-e63350dae44f-f92141e18c8b.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 7d743f5b0e95b87e6d1c0bfdec9faea8b7e27d4a
+    new: 10dafcce0ee1868d622f2e2ea85f3835d6076d96
+    log: revlist-7d743f5b0e95-10dafcce0ee1.txt
 
---===============5860606561586569177==
+--===============5495121649446978693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1714010254 -0400
+pusher 75C5DE3D 1714010259 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1714010254-f5a657a23bd5bf836251a7125a8153ffb5dbde20
+nonce 1714010259-333b1faee26e048a7ced959cb821b40c684e6fd2
 
-e63350dae44f01842dca229aaaa22c105356d7ab f92141e18c8b466027e226f3388de15b059b6f65 refs/heads/queue
+7d743f5b0e95b87e6d1c0bfdec9faea8b7e27d4a 10dafcce0ee1868d622f2e2ea85f3835d6076d96 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYpuI4ACgkQ7ulgGnXF
-3j3QNQ/+ICrA+23zm6h+1QKZBv4tcIqLSAr2tU50THjSUP7+kdbr9GHDiHO7+IjW
-M+Vvc1hlqadzdG1avPChmfktJabGOp9SYL3arJSLk/WSoO0McwGajVOmZxPnfmyB
-5IbAm1Pn7GqTgLvVN3viAUz4youFpr8lL/sZArpTXzkImEe6YwY9GknrSlCcbNsr
-MYUN6v7N8q22Q9rUYFWOqK04knJeeVLGrHmgGgIj0EK59jHQl6qDP2YDhKuxNWpY
-zA3v9vUpr2yFuohG3JrrX9W3WbiBkxvhSR6xjy/LTni7veJSL3GrjldV8jfh2qie
-goVC2Xn4+T0rSuG5ypWTbtE4SfsPovZUcBtrexfm/zOFruoamHu0Xo1JEA2OtkY6
-MkEdvBai+h3H8Ns/TbGvVErSMbmx2SRr80bl3pRxihaN/QSb3rVFfW1CbwbfQ7mO
-ZA8Sm+vHkxXL1VOkprw0kIMm4tm6GgC9BwbYy5atazr1hQFcX09eLCKQVgJw6/m+
-t5N1/oCgaMHdwKPNUx2BbvozCMV667f1WaXJd9t+SY3t8jNxB5DU/s9bkV6gQPCv
-zzmERuVzrinLJUXC2L6XxV2AKLuFT60a8T9ti8ooQa0YYBQ4tAOPxaiSVtyeIa9f
-O5TxyEKO4JrvZ5dFbOmaWxiET6MfV42SBQW2I6JQlQCOGDuuISk=
-=iuJ1
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYpuJMACgkQ7ulgGnXF
+3j2/dg/9HkfPNOuepONRBmU4+YkoU98wIdOcTPO7JzQGa0iXu22ROVfthHSJzpc6
+9QgppN7u+NKkpR539x98HcAGRr6QFHK5eTjNQyNzbnf59/vjeOL1Of4t2AApz9j2
+ZT+/NcjHcpDsvTpFki8OfazHwU0BHS9Mno2WUtj3/hKn2wTItToy24SjH9lsuJzz
+HpLv8jJuNZGpnNpZNzxPFRQ81LYYujJF9K8voGJtP34tca4bA2hUa5V69ZHb7tIa
+qayzuaWLxqPjmJ5eSz6/Rx7HedQXUW23a+KFOUPaY6P4C48pT3OsD46uuUQEA/7h
+lKfyW1BbIV/2B4YR18lftRfuxbnrZ1d/+/t06Kb+8jpMUkjrA+PuR7uM3fYdWZhh
+rS0gKmPK/RbUzxNQNJ3d3ijJFJKheIp07mO2b/EP3myl3nyge0FieeqdEx4uZCSm
+oMGSH8mI76LiHI1PexSAl4ycyHmWHektsRDwHLJHHw/JE8/f5alBSXoCc+/2aaY+
+AZuQvecA+hIocjFi2Enui1B8bB7CdYQ704qf7eiWBGVcNwCW+TbSplWLSKmJp4Pk
+3/lhbB9VHNgySFvckYK8dKARA1QdJ26o4qnX3S7d0cK8AlTbwkglYyrjm+6VL3Lu
+sXw3MOjVzReHvuc/AqPoOwSDoesk9OXhXjv+urYGn2MUcmPbuGM=
+=v3xB
 -----END PGP SIGNATURE-----
 
---===============5860606561586569177==
+--===============5495121649446978693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e63350dae44f-f92141e18c8b.txt
+Content-Disposition: attachment; filename=revlist-7d743f5b0e95-10dafcce0ee1.txt
 
-293066264fb45df4290897c22e69833bea5fe171 scsi: block: Add a helper to cancel atomic queue limit updates
-4373d2ecca7fa7ad04aa9c371c80049bafec2610 scsi: bsg: Pass queue_limits to bsg_setup_queue()
-9042fb6d2c085eccdf11069b04754dac807c36ea scsi: mpi3mr: Pass queue_limits to bsg_setup_queue()
-afd53a3d852808bfeb5bc3ae3cd1caa9389bcc94 scsi: core: Initialize scsi midlayer limits before allocating the queue
-7eaae991c30d46a4ea45aa00f50eba939d7f951b scsi: scsi_transport_fc: Add a max_bsg_segments field to struct fc_function_template
-6248d7f7714f018f2c02f356582784e74596f8e8 scsi: core: Add a no_highmem flag to struct Scsi_Host
-5b7dfbeff92a4a00b55b2be580f057d533b65cd5 scsi: core: Add a dma_alignment field to the host and host template
-67144d3c58b4256cc15ebad2c90c0a283e707aa1 scsi: ufs: ufs-exynos: Move setting the the DMA alignment to the init method
-693a1e8cbe121bcef3331152259216bc397b6db6 scsi: core: Use the atomic queue limits API in scsi_add_lun()
-b7eefcf11f3fb1703ddfa075d4f4bc30b9c50eb4 scsi: core: Add a device_configure method to the host template
-b57089d32c2c72d0b963f11d612042579c665f27 scsi: megaraid_sas: Switch to using ->device_configure
-8c9289e66be622332ad4c3e662d34d8677ffa301 scsi: mpt3sas: Switch to using ->device_configure
-c1f99322fc840c740bb397ed86e607098704e993 scsi: sbp2: Switch to using ->device_configure
-f65eb761f811ff0469541e1071a6765760db9ff9 scsi: hptiop: Switch to using ->device_configure
-c8bc8392b2bcde75da3cf1161d720a6ff8e86cb5 scsi: ipr: Switch to using ->device_configure
-9ca2dc2f0701267c10db68470bbbb1df6c268f6c scsi: pmcraid: Switch to using ->device_configure
-70a7949335e5f6f2095f918214f4d2c521db78a9 scsi: usb-storage: Switch to using ->device_configure
-3cfedd59cd5579da05f4142c4d28ce959ee79aac scsi: sata_nv: Switch to using ->device_configure
-a92041bd5f15cc48a66487953e67ea11e70bd38b scsi: pata_macio: Switch to using ->device_configure
-a25a9c85d17fd2f19bd5a2bb25b8361d72336bc7 scsi: libata: Switch to using ->device_configure
-310887f688f76bb3eba589b9c2c1032d2078bb2b scsi: mpi3mr: Switch to using ->device_configure
-30efd3823f2c1f8b1a22727247520c75071d339c scsi: mpi3mr: Switch to using ->device_configure
-a33a502d50fddc85e8d5072cf39ff8fe19ba3025 scsi: ufs: Remove support for old UFSHCI versions
-13c28be58c2bdb12e554e01b0e35621060068b11 scsi: ufs: core: Changing the status to check inflight
-2810702f2cbc5135f97e381edbdff2553e257ca5 scsi: ufs: exynos: Support module autoloading
-a6584df2fd51bc0d1611dd0fc9c48cfca3fd68c7 scsi: ufs: mediatek: Fix module autoloading
-6d97e807c9067e154f4f5c5c2d17b54678df2898 scsi: MAINTAINERS: Make cxlflash obsolete
-84a44a8125742bfa4cdb209d20f50763cafcb103 scsi: uas: Switch to using ->device_configure to configure queue limits
-ec84ca4025c0b90c6b7173a230f78ec00cad44f5 scsi: block: Remove now unused queue limits helpers
-f92141e18c8b466027e226f3388de15b059b6f65 Merge patch series "convert SCSI to atomic queue limits, part 1 (v3)"
+888ea1b12b06906da717b5aceabfaf0a84d1766b scsi: libsas: Add helper for port add ex_phy
+48032c0be6c7659f5019acd1403e17928dc27f52 scsi: libsas: Move sas_add_parent_port() to sas_expander.c
+7a165a81d55faad2944c781049ef8d454a25dc03 scsi: libsas: Set port when ex_phy is added or deleted
+06036a0a5db34642c5dbe22021a767141f010b7a scsi: libsas: Fix the failure of adding phy with zero-address to port
+9cf0c1236ae5af11cf005fdb701ea0f6a9015dc4 Merge patch series "scsi: libsas: Fix the failure of adding phy with zero-address to new port"
+504e2bed5d50610c1836046c0c195b0a6dba9c72 scsi: hpsa: Fix allocation size for Scsi_Host private data
+0d8b637c9c5eeaa1a4e3dfb336f3ff918eb64fec scsi: qedf: Make qedf_execute_tmf() non-preemptible
+3c5d0dce8ce0a2781ac306b9ad1492b005ecbab5 scsi: ufs: core: mcq: Fix ufshcd_mcq_sqe_search()
+28027ec8e32ecbadcd67623edb290dad61e735b5 scsi: qedi: Fix crash while reading debugfs attribute
+cb3bfbfa1ffab89e10c093e3bfcc4cf229ad5ab7 scsi: bnx2fc: Remove redundant assignment to variable 'i'
+2a7177a804571fe9d0abd7e049d7c129cd34c3f6 scsi: core: Don't use "proxy" headers
+9cef74a9bc26fbb68da4e90573d4d61c2e07af77 scsi: libfc: Add some kernel-doc comments
+de37677ef17d2a90fe99ea8f492e5c221d5bb627 scsi: ufs: bsg: Fix all kernel-doc warnings
+aca061774bc412c1415242f0d2579143dd642b46 scsi: mpi3mr: Fix some kernel-doc warnings in scsi_bsg_mpi3mr.h
 
---===============5860606561586569177==--
+--===============5495121649446978693==--
