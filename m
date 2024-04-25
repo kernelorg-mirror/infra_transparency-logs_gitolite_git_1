@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Thu, 25 Apr 2024 17:17:36 -0000
-Message-Id: <171406545614.14143.13125279386156543634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 25 Apr 2024 17:23:36 -0000
+Message-Id: <171406581614.17890.9481392787493562676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/for-6.10
-    old: 04d63da4da53e6064683f4970d34ce997f9daee3
-    new: b7d56d953a67c839a514e382596d5af29b8d6d87
+  - ref: refs/heads/fixes
+    old: f6b56df883d426d7a49c2b039a24c34306c72824
+    new: b7e3e84006b8638840d63b2e53bbc6e67dee2a20
     log: |
-         b7d56d953a67c839a514e382596d5af29b8d6d87 cgroup/cpuset: Remove outdated comment in sched_partition_write()
-         
-  - ref: refs/heads/for-next
-    old: 04d63da4da53e6064683f4970d34ce997f9daee3
-    new: b7d56d953a67c839a514e382596d5af29b8d6d87
-    log: |
-         b7d56d953a67c839a514e382596d5af29b8d6d87 cgroup/cpuset: Remove outdated comment in sched_partition_write()
+         6179d4a213006491ff0d50073256f21fad22149b riscv: thead: Rename T-Head PBMT to MAE
+         65b71cc35cc6631cb0a5b24f961fe64c085cb40b riscv: T-Head: Test availability bit before enabling MAE errata
+         b7e3e84006b8638840d63b2e53bbc6e67dee2a20 Merge patch series "RISC-V: Test th.sxstatus.MAEE bit before enabling MAEE"
          
