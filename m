@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7621993198804776792=="
+Content-Type: multipart/mixed; boundary="===============8336928521031561964=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 25 Apr 2024 15:53:57 -0000
-Message-Id: <171406043747.15800.821686999207959930@gitolite.kernel.org>
+Date: Thu, 25 Apr 2024 15:54:34 -0000
+Message-Id: <171406047482.16137.14254760659934520380@gitolite.kernel.org>
 
---===============7621993198804776792==
+--===============8336928521031561964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 9dd15d5088e9b322893459e38e1d279a33fc096c
-    new: e7d96e750f2bc9b951290c90df421ac5e9adc3ed
-    log: revlist-9dd15d5088e9-e7d96e750f2b.txt
+  - ref: refs/heads/dev-queue
+    old: 348479073935fd38428936ecb653490a91fbdf1b
+    new: 08621fd642d679a205f58d9e5c1fb2e18e0f5d44
+    log: revlist-348479073935-08621fd642d6.txt
 
---===============7621993198804776792==
+--===============8336928521031561964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9dd15d5088e9-e7d96e750f2b.txt
+Content-Disposition: attachment; filename=revlist-348479073935-08621fd642d6.txt
 
 5625ca5640caa3fb797f155601d56379d260d6ba devlink: extend devlink_param *set pointer
 91427e6d9030611b27a4150ad3c59e4db3f02b8c ice: Support 5 layer topology
@@ -63,5 +63,33 @@ caf93883f623ebd29989e3c35423f386ea4a41bb Merge branch 'tcp-trace-next'
 0fdd27b9d6d7c60bd319d3497ad797934bab13cb net: dsa: mv88e6xxx: Add support for model-specific pre- and post-reset handlers
 e44894e2aa4eb311ceda134de8b6f51ff979211b net: dsa: mv88e6xxx: Avoid EEPROM timeout without EEPROM on 88E6250-family switches
 e7d96e750f2bc9b951290c90df421ac5e9adc3ed net: bridge: remove redundant check of f->dst
+4a25ebd34332144862b3d613ac89a7433f9e4e88 igc: Add Tx hardware timestamp request for AF_XDP zero-copy packet
+744323c5a19904d97f6567a57799910922131f32 ice: Fix package download algorithm
+0a721351195950617845dce6337d6936182514ff i40e: Report MFS in decimal base instead of hex
+82e8af78ed65ee5dbb784878c0392df4be60241a ice: add additional E830 device ids
+c24e79232dc80cb30ce2ba431e30abe4b9da4231 ice: update E830 device ids and comments
+f90947a05d92665f702edc3fab1726493646bd94 iavf: Fix TC config comparison with existing adapter TC config
+70cebceb999e7527d4e0a550644450350c1d8d18 i40e: Do not use WQ_MEM_RECLAIM flag for workqueue
+ceb5e443bdc66328e181ed546232abd0c2e548b2 igc: Fix LED-related deadlock on driver unbind
+17047c2f8a8efb0917209343f34cdf82d81a41d9 ice: Deduplicate tc action setup
+31667177ae9060b33cac00cf74faab8b6c67b1d0 e1000e: move force SMBUS near the end of enable_ulp function
+d5874db1c0f4d88b233ead4fde26b3dd4a6aa322 e1000e: change usleep_range to udelay in PHY mdic access
+2f37ec2c8a17d9a96531d777260ca7b746b8650d i40e: flower: validate control flags
+0cc31d6824b0d4be456f5f7cbd906f6b549fc90e iavf: flower: validate control flags
+e72b1c4520ff7e9afbbc20456acb017b4994a488 ice: flower: validate control flags
+0561c1b14bf7ca2ff39344b8b5e2d3975e6f4e30 igb: flower: validate control flags
+1fc19933ac918c70610a35645c1b8c7100ef79f1 ice: Interpret .set_channels() input differently
+fbdef999ad94e1339643c6cca7362685aef2f901 ice: fix 200G PHY types to link speed mapping
+c47d24dd3feb1aa266227a269c4e6ea7647913ef ice: refactor struct ice_vsi_cfg_params to be inside of struct ice_vsi
+6b7321cc06a9b1192385008d2c0f1cd91937f8c6 net: intel: introduce {, Intel} Ethernet common library
+97f3c14d37766c86171da9388a4d67ac52e8f548 iavf: kill "legacy-rx" for good
+3d88558b1a2fbf29c96d33e79ac4ba68aaa116d6 iavf: drop page splitting and recycling
+fa0710a49b189e9ebbf2cca81a17c78f0447e3fd slab: introduce kvmalloc_array_node() and kvcalloc_node()
+bb78e7c2de1a752801bbfcc6809fa6f23c4cf49f page_pool: constify some read-only function arguments
+c6ddf5a800e1a76a856f1cbfe90d21aea2965ac0 page_pool: add DMA-sync-for-CPU inline helper
+7368683b06ff163b8c22f0c5f45dca0e56cfc7c6 libeth: add Rx buffer management
+669ee78c4ed08374ca4528d68f9238ded4d5492e iavf: pack iavf_ring more efficiently
+07cadfad2e95b297147906bc811914e6b44f2f17 iavf: switch to Page Pool
+08621fd642d679a205f58d9e5c1fb2e18e0f5d44 MAINTAINERS: add entry for libeth and libie
 
---===============7621993198804776792==--
+--===============8336928521031561964==--
