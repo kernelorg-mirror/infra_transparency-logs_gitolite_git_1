@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Thu, 25 Apr 2024 10:37:01 -0000
-Message-Id: <171404142138.24948.8694666215094343537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pablo/gtp
+Date: Thu, 25 Apr 2024 10:37:59 -0000
+Message-Id: <171404147994.25637.2003132008160783304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/pablo/gtp
+user: pablo
 changes:
-  - ref: refs/heads/i2c/time_left
-    old: 0000000000000000000000000000000000000000
-    new: b27f710719e626a6ecb5ea2a6a701a98e6f0e183
+  - ref: refs/tags/gtp-24-04-24
+    old: 6357c2ca53e6640594caa5e229a9910a741e01c2
+    new: 0000000000000000000000000000000000000000
