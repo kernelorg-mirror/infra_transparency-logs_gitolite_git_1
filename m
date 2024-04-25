@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2450274988989009961=="
+Content-Type: multipart/mixed; boundary="===============3006357229358191748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Thu, 25 Apr 2024 16:09:58 -0000
-Message-Id: <171406139873.27988.10544043012298811206@gitolite.kernel.org>
+Date: Thu, 25 Apr 2024 16:11:34 -0000
+Message-Id: <171406149463.30233.1785810768155565112@gitolite.kernel.org>
 
---===============2450274988989009961==
+--===============3006357229358191748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-urgent
-    old: a6b227d70d2ad9eb08adc3fe532ebb7ec88ac897
-    new: 1a24733e80771d8eef656e515306a560519856a9
-    log: revlist-a6b227d70d2a-1a24733e8077.txt
+  - ref: refs/heads/edac-for-next
+    old: 8e95536e9495b387bf62c9d9daf8f4888cf28ad7
+    new: 03db22b93a018da5438d4f052408aec0f205494b
+    log: revlist-8e95536e9495-03db22b93a01.txt
 
---===============2450274988989009961==
+--===============3006357229358191748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6b227d70d2a-1a24733e8077.txt
+Content-Disposition: attachment; filename=revlist-8e95536e9495-03db22b93a01.txt
 
-224fe424c356cb5c8f451eca4127f32099a6f764 selftests: dmabuf-heap: add config file for the test
 0640f47b742667fca6aac174f7cd62b6c2c7532c drm/msm/dp: fix runtime PM leak on disconnect
 e86750b01a1560f198e4b3e21bb3f78bfd5bb2c3 drm/msm/dp: fix runtime PM leak on connect failure
 c588f7d67044d6d59ef92d75a970b64929984d89 drm/msm: Add newlines to some debug prints
@@ -1050,5 +1049,6 @@ ed30a4a51bb196781c8058073ea720133a65596f Linux 6.9-rc5
 edbe59428eb0da09958769326a6566d4c9242ae7 EDAC/versal: Do not register for NOC errors
 de87ba848d5e4c861b7357dd7a91698aed7a5a18 EDAC/versal: Check user-supplied data before injecting an error
 1a24733e80771d8eef656e515306a560519856a9 EDAC/versal: Do not log total error counts
+03db22b93a018da5438d4f052408aec0f205494b Merge ras/edac-urgent into for-next
 
---===============2450274988989009961==--
+--===============3006357229358191748==--
