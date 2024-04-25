@@ -1,23 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Thu, 25 Apr 2024 09:08:20 -0000
-Message-Id: <171403610087.10759.6427194840105868427@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5988188760959018506=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Thu, 25 Apr 2024 09:18:42 -0000
+Message-Id: <171403672267.17619.12207593333572549771@gitolite.kernel.org>
+
+--===============5988188760959018506==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: suzukikp
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
   - ref: refs/heads/next
-    old: e8293395b9caa57e38cc05b9102d4ec7835b0a0f
-    new: ba8c06fe7e16ddfd44ece7fabd9af2dc2e6d49e7
-    log: |
-         c01cb419104c4187f2a148f72a7dcc67e77801a5 coresight: catu: Convert to platform remove callback returning void
-         971c2b107b5742ef1dfa3a405cd5ee7033502d60 coresight: debug: Convert to platform remove callback returning void
-         981d5f92ca2e33d1b0ba3e3563de52dc9661fb92 coresight: stm: Convert to platform remove callback returning void
-         38a38da447579f683114edb1c8254491b4176853 coresight: tmc: Convert to platform remove callback returning void
-         ba8c06fe7e16ddfd44ece7fabd9af2dc2e6d49e7 coresight: tpiu: Convert to platform remove callback returning void
-         
+    old: 98f2233a5c20ca567b2db1147278fd110681b9ed
+    new: 700b2e1eccb4490752227d4339c3d2c3d52d06a7
+    log: revlist-98f2233a5c20-700b2e1eccb4.txt
+
+--===============5988188760959018506==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-98f2233a5c20-700b2e1eccb4.txt
+
+d100ffe5048ef10065a2dac426d27dc458d9a94a dmaengine: qcom: Drop hidma DT support
+e83cd59df0959bd9fbec76b7cff0b717ff8bc16f dt-bindings: dma: Drop unused QCom hidma binding
+77584368a0f3d9eba112c3df69f1df7f282dbfe9 dmaengine: fsl-edma: clean up unused "fsl,imx8qm-adma" compatible string
+44177a586fe463150def993de0371f1a82d3465c dt-bindings: fsl-dma: fsl-edma: clean up unused "fsl,imx8qm-adma" compatible string
+458bb56d53c9758ef873b4f373660b1f02b98d86 dt-bindings: fsl-imx-sdma: Add I2C peripheral types ID
+1cb49f389d5985bd9ad6ef37f856f368c3120f77 dmaengine: imx-sdma: utilize compiler to calculate ADDRS_ARRAY_SIZE_V<n>
+d850b5bae0f5e435360edf0474ff446622f0d899 dmaengine: imx-sdma: Add i2c dma support
+39def87bc7cae8ddfd6703051fc59931f152a2cb dmaengine: fsl-dpaa2-qdma: Fix kernel-doc check warning
+9c21bbfa30ec14f8dcf24e7f26fe72368960975c dt-bindings: dma: fsl-edma: remove 'clocks' from required
+167ec660c247ea4c71a059290b50c100659d6e86 dt-bindings: dma: fsl-edma: allow 'power-domains' property
+700b2e1eccb4490752227d4339c3d2c3d52d06a7 dmaengine: xilinx: xdma: fix module autoloading
+
+--===============5988188760959018506==--
