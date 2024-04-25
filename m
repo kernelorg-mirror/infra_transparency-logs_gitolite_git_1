@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Thu, 25 Apr 2024 16:54:42 -0000
-Message-Id: <171406408276.28343.4278833174819268576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 25 Apr 2024 16:57:58 -0000
+Message-Id: <171406427829.31109.13384814002937788959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/tags/md-6.10-20240425
-    old: 0000000000000000000000000000000000000000
-    new: 9d1110f99c253ccef82e480bfe9f38a12eb797a7
+  - ref: refs/heads/master
+    old: 1369349b1c2f65d68347d254dc1ff9ac1b91cb6c
+    new: 27dec380aa75a3f54394540157bc111b35c53fd0
+    log: |
+         27dec380aa75a3f54394540157bc111b35c53fd0 Thu Apr 25 12:57:10 PM EDT 2024
+         
