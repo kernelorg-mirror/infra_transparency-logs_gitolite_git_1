@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5495121649446978693=="
+Content-Type: multipart/mixed; boundary="===============1703993702587985632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 25 Apr 2024 01:57:53 -0000
-Message-Id: <171401027331.20432.17175235760709248305@gitolite.kernel.org>
+Date: Thu, 25 Apr 2024 01:58:09 -0000
+Message-Id: <171401028923.20614.15204867897053583406@gitolite.kernel.org>
 
---===============5495121649446978693==
+--===============1703993702587985632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 7d743f5b0e95b87e6d1c0bfdec9faea8b7e27d4a
-    new: 10dafcce0ee1868d622f2e2ea85f3835d6076d96
-    log: revlist-7d743f5b0e95-10dafcce0ee1.txt
+  - ref: refs/heads/6.10/scsi-staging
+    old: f92141e18c8b466027e226f3388de15b059b6f65
+    new: aca061774bc412c1415242f0d2579143dd642b46
+    log: revlist-f92141e18c8b-aca061774bc4.txt
 
---===============5495121649446978693==
+--===============1703993702587985632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1714010259 -0400
+pusher 75C5DE3D 1714010276 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1714010259-333b1faee26e048a7ced959cb821b40c684e6fd2
+nonce 1714010276-8855e55ede4b586f49deaba363e6441ee2adbd86
 
-7d743f5b0e95b87e6d1c0bfdec9faea8b7e27d4a 10dafcce0ee1868d622f2e2ea85f3835d6076d96 refs/tags/mkp-scsi-staging
+f92141e18c8b466027e226f3388de15b059b6f65 aca061774bc412c1415242f0d2579143dd642b46 refs/heads/6.10/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYpuJMACgkQ7ulgGnXF
-3j2/dg/9HkfPNOuepONRBmU4+YkoU98wIdOcTPO7JzQGa0iXu22ROVfthHSJzpc6
-9QgppN7u+NKkpR539x98HcAGRr6QFHK5eTjNQyNzbnf59/vjeOL1Of4t2AApz9j2
-ZT+/NcjHcpDsvTpFki8OfazHwU0BHS9Mno2WUtj3/hKn2wTItToy24SjH9lsuJzz
-HpLv8jJuNZGpnNpZNzxPFRQ81LYYujJF9K8voGJtP34tca4bA2hUa5V69ZHb7tIa
-qayzuaWLxqPjmJ5eSz6/Rx7HedQXUW23a+KFOUPaY6P4C48pT3OsD46uuUQEA/7h
-lKfyW1BbIV/2B4YR18lftRfuxbnrZ1d/+/t06Kb+8jpMUkjrA+PuR7uM3fYdWZhh
-rS0gKmPK/RbUzxNQNJ3d3ijJFJKheIp07mO2b/EP3myl3nyge0FieeqdEx4uZCSm
-oMGSH8mI76LiHI1PexSAl4ycyHmWHektsRDwHLJHHw/JE8/f5alBSXoCc+/2aaY+
-AZuQvecA+hIocjFi2Enui1B8bB7CdYQ704qf7eiWBGVcNwCW+TbSplWLSKmJp4Pk
-3/lhbB9VHNgySFvckYK8dKARA1QdJ26o4qnX3S7d0cK8AlTbwkglYyrjm+6VL3Lu
-sXw3MOjVzReHvuc/AqPoOwSDoesk9OXhXjv+urYGn2MUcmPbuGM=
-=v3xB
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmYpuKQACgkQ7ulgGnXF
+3j2x9xAAqsOyXXHTBCDJJxavq5JQpM+lqvbIgyAIfKzfl/VLptDfE5FuhFRIoGAA
+LFu99pH//VnsoXsPAP7A5kNBN5heAJcicH2gC5cm4irtv33QRvkdAcDBG8USNC9Y
+Db+MGF0wili+sMECKbz6TFP3A+IN/vmg/o8wKYZBfWM33sKJtYz0w1/4aodRf4NS
+uKZlsB9Dy2wFK2jvJ7Py5Pnvv1dBjtWoZ7nzUnRbgUWHrsCp/YmEqcn0QssVO0jJ
+kwGkuxCv1qDDaer9T2XA3OPXZe9fxnrlSG8QMAmFJjlWcR2m/iSplCdI6mUv548p
+FVWysi2CiSbpFf+hQIox+PNW422EJ1aEEl3YzNuvlMRQyBiqj9S6NqOVDd7uPwXI
+4kpKAMdUo5v3PVCl6WBlPGdd+M9QAqbHXy55jX+9JgCILMJ+Ai/30uacQgl6pdIc
+mhm2q7Xxy5LYyF6B79e6FjCFFWyRRtQZFCy7JqAvVV+76AQIzoy6jhQUf/QNNhiQ
+tUy6io36FsLX8i9nTUOs8yJNZh79e53ETWbE5rJrr5lkiaFW599fnbqr4P6Ju8Rl
+Qx2NM8xbdCRjDY7FiVV9YQcXHT5zRQlQ2EI6JtlN2LxLsNPs9S54jlAvP6CS2XED
+fmOCoDAvqe6RgBggEPLEnTkbZewVgYVaiKg7KXZKMmRH1Zp9Ybo=
+=2m4F
 -----END PGP SIGNATURE-----
 
---===============5495121649446978693==
+--===============1703993702587985632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d743f5b0e95-10dafcce0ee1.txt
+Content-Disposition: attachment; filename=revlist-f92141e18c8b-aca061774bc4.txt
 
 888ea1b12b06906da717b5aceabfaf0a84d1766b scsi: libsas: Add helper for port add ex_phy
 48032c0be6c7659f5019acd1403e17928dc27f52 scsi: libsas: Move sas_add_parent_port() to sas_expander.c
@@ -71,4 +71,4 @@ cb3bfbfa1ffab89e10c093e3bfcc4cf229ad5ab7 scsi: bnx2fc: Remove redundant assignme
 de37677ef17d2a90fe99ea8f492e5c221d5bb627 scsi: ufs: bsg: Fix all kernel-doc warnings
 aca061774bc412c1415242f0d2579143dd642b46 scsi: mpi3mr: Fix some kernel-doc warnings in scsi_bsg_mpi3mr.h
 
---===============5495121649446978693==--
+--===============1703993702587985632==--
