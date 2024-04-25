@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 25 Apr 2024 22:56:16 -0000
-Message-Id: <171408577674.4274.18093176640415675300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Thu, 25 Apr 2024 23:06:10 -0000
+Message-Id: <171408637019.11299.2225136713725660033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/fixes
-    old: a373a36fb6b024ac1d87fc04c97c75621b574c30
-    new: b7e3e84006b8638840d63b2e53bbc6e67dee2a20
+  - ref: refs/heads/master
+    old: 41caafb69749429b8256fa88bc310bb4b8d72a88
+    new: d2a62e4378d2fb684e96c8fbc00de2f324472032
     log: |
-         5ea6764d9095e234b024054f75ebbccc4f0eb146 riscv: hwprobe: fix invalid sign extension for RISCV_HWPROBE_EXT_ZVFHMIN
-         17c67ed752d6a456602b3dbb25c5ae4d3de5deab selftests: sud_test: return correct emulated syscall value on RISC-V
-         9b86a982bdac8b868b95f409107d2f54fa6e8c43 perf daemon: Fix the warning about time_t
-         f1e7c1e730250e51075c1becf9e0a5315e94dba3 perf riscv: Fix the warning due to the incompatible type
-         f6b56df883d426d7a49c2b039a24c34306c72824 RISC-V: selftests: cbo: Ensure asm operands match constraints, take 2
-         6179d4a213006491ff0d50073256f21fad22149b riscv: thead: Rename T-Head PBMT to MAE
-         65b71cc35cc6631cb0a5b24f961fe64c085cb40b riscv: T-Head: Test availability bit before enabling MAE errata
-         b7e3e84006b8638840d63b2e53bbc6e67dee2a20 Merge patch series "RISC-V: Test th.sxstatus.MAEE bit before enabling MAEE"
+         224c9a2db50aaf57ee0d30c1f7d6ecae001e49e7 open.2: protected_* sysctls are defined in proc_sys_fs(5), not proc(5)
+         07178952cc59516ba7ceb465c59d8a0f3da2b461 strchr.3: HISTORY: strchrnul(3) is present in FreeBSD and NetBSD
+         92bf7eb59fd382914a92dcb8f4dacbb059f63cbc man2/: Add MPOL_WEIGHTED_INTERLEAVE documentation
+         c657f7c48958c676ef4376c910240b288a40bbc2 slist.3: wfix
+         d2a62e4378d2fb684e96c8fbc00de2f324472032 share/mk/: build-html: Don't build mbind.2 and set_mempolicy.2
          
