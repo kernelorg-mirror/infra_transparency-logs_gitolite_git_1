@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 25 Apr 2024 14:05:42 -0000
-Message-Id: <171405394292.31049.11940370094804498240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 25 Apr 2024 14:10:06 -0000
+Message-Id: <171405420686.3260.3673504899827426412@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 6251e2abfc40f9d09d2267b0067f8c896fcd7c08
-    new: e4c467166d75d06bca770e811b2ab1375247fc82
+  - ref: refs/heads/main
+    old: 63a66b66576fa0c43d8e1b757bb79165e1be393a
+    new: e90f6b9931b443f1f8b7c7dad1ac2f2cb65c4ca4
     log: |
-         f3b1b251aef86a1ed6a984ee02022a81106aee1a NFSD: move nfsd_mutex handling into nfsd_svc callers
-         9bf0abd4b0083b409b71d276f9b5b6a5d35e5e4d NFSD: allow callers to pass in scope string to nfsd_svc
-         cc4c48c5a5fa5db49d0257e030c86a4a56e5a656 NFSD: convert write_threads to netlink command
-         5580cbcca57b3ef52d5e41cdefbeafaf7e161d7c NFSD: add write_version to netlink command
-         235e98b2fd85bd506ff46a732c6161b4939b9fb3 SUNRPC: introduce svc_xprt_create_from_sa utility routine
-         c5b3651dd43cae6d0f87095497c4176cc53d0aa5 SUNRPC: add a new svc_find_listener helper
-         e4c467166d75d06bca770e811b2ab1375247fc82 NFSD: add listener-{set,get} netlink command
+         09c1846d416e2fccd293bc77dfb989c9c6ea4ea1 linux-firmware: Add firmware for Cirrus CS35L56 for various HP laptops
+         e90f6b9931b443f1f8b7c7dad1ac2f2cb65c4ca4 Merge branch 'robot/pr-0-1714051914' into 'main'
          
