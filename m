@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Thu, 25 Apr 2024 13:39:51 -0000
-Message-Id: <171405239111.12131.18263472564069673610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 25 Apr 2024 13:45:47 -0000
+Message-Id: <171405274735.17549.11101362926541239705@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/bugfix/syzbot
-    old: 5e0e626ae31a66378d2f06faf0ebec5b940ec76a
-    new: 5f5d424df7e00dae12c6b3b28fde9e3ab4aff203
-    log: |
-         5f5d424df7e00dae12c6b3b28fde9e3ab4aff203 f2fs: fix to do sanity check on i_xattr_nid in sanity_check_inode()
-         
+  - ref: refs/heads/thermal-core-next
+    old: 0000000000000000000000000000000000000000
+    new: df35f32c43cd2c758874102d547335a411054530
