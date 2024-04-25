@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 25 Apr 2024 13:45:47 -0000
-Message-Id: <171405274735.17549.11101362926541239705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 25 Apr 2024 14:02:25 -0000
+Message-Id: <171405374567.28225.14407602856635028352@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/thermal-core-next
+  - ref: refs/tags/ffa-updates-6.10
     old: 0000000000000000000000000000000000000000
-    new: df35f32c43cd2c758874102d547335a411054530
+    new: 526030479d6df8ac60714618065efd162bdf3f90
