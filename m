@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 25 Apr 2024 11:28:23 -0000
-Message-Id: <171404450308.29010.13689566576945255857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Thu, 25 Apr 2024 11:37:30 -0000
+Message-Id: <171404505073.4422.10579479283071688956@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/for-next/ffa/updates
-    old: d9c1d1e43e17944fe9dd6791ec42d436977eece3
-    new: 3a3e2b83e8059679e92be4273c601ea21e105a89
+  - ref: refs/heads/review-andy
+    old: 1736df17fea09059f6834da203bcd35fdf35bdf6
+    new: 00919508284365f8f867e0f14381fd1bfa84aac2
     log: |
-         3a3e2b83e8059679e92be4273c601ea21e105a89 firmware: arm_ffa: Avoid queuing work when running on the worker queue
+         00919508284365f8f867e0f14381fd1bfa84aac2 gpio: Add Intel Granite Rapids-D vGPIO driver
          
