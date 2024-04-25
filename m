@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5552483037861104422=="
+Content-Type: multipart/mixed; boundary="===============7597814812589251055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Thu, 25 Apr 2024 00:26:53 -0000
-Message-Id: <171400481313.11181.8273148222940077764@gitolite.kernel.org>
+Date: Thu, 25 Apr 2024 00:28:22 -0000
+Message-Id: <171400490293.11770.2698405829003804501@gitolite.kernel.org>
 
---===============5552483037861104422==
+--===============7597814812589251055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 5d2c7cc9c1b34082978b70f1e30f6d8fcbc6ac74
-    new: f5cc46b18d589c844f3147d0bb70e22307c7ed93
-    log: revlist-5d2c7cc9c1b3-f5cc46b18d58.txt
+  - ref: refs/heads/exynos-drm-next
+    old: 5eaa8cf8e8096e7b8ca1a7d1ca7071b7498fd885
+    new: edb8e86711d4e216d1dbd3acdfad4c10ca618436
+    log: revlist-5eaa8cf8e809-edb8e86711d4.txt
 
---===============5552483037861104422==
+--===============7597814812589251055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d2c7cc9c1b3-f5cc46b18d58.txt
+Content-Disposition: attachment; filename=revlist-5eaa8cf8e809-edb8e86711d4.txt
 
 5ceeabb0eb2e1982d25c384048735b9da66911f9 Merge tag 'i2c-host-fixes-6.9-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
 5f2ca44ed235c86a0d6b9bfb599d1664ea94b4b9 Merge branch 'linus' into x86/urgent, to pick up dependent commit
@@ -1039,16 +1039,16 @@ ed30a4a51bb196781c8058073ea720133a65596f Linux 6.9-rc5
 d3b80dc7aa393b559332a82963de954f225083ff drm/xe/pf: Fix xe_gt_sriov_pf_config_print_available_ggtt()
 48c64d495fbef343c59598a793d583dfd199d389 drm/xe/guc: Fix arguments passed to relay G2H handlers
 83221064c28a0f9fdc4f63ab4fce2e51bfe23315 Merge tag 'drm-xe-next-2024-04-23' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-next
-0baa0e9ac68dc642220f92c9e364dc22ba6b4162 drm/exynos: fimc: drop driver owner initialization
-dc887da1382be0685bb66747296be5166be56475 drm/exynos: fimd: drop driver owner initialization
-6d6903e72716858e1f12f166fec47c6e08435c2a drm/exynos: dsi: drop driver owner initialization
-fd94780ff75f1075471c1742762f01d40f51239d drm/exynos: g2d: drop driver owner initialization
-445588a00e1bbc2173b56f7c78dcc97c6d333ff3 drm/exynos: gsc: drop driver owner initialization
-77562fae08782cbd4af5b638540fd4c13113182a drm/exynos: mic: drop driver owner initialization
-2c58b4a07a9b20a6a30951acffc0a8d158ab1434 drm/exynos: rotator: drop driver owner initialization
-78997f262db0210ba5dfa409d501798eecab4f7d drm/exynos: scaler: drop driver owner initialization
-cd27bfce3a259cd79299823c00aa491925aa1926 drm/exynos: vidi: drop driver owner initialization
-17f826685ceebfabd86c0c05ac3834b82059d79c drm/exynos: hdmi: drop driver owner initialization
-f5cc46b18d589c844f3147d0bb70e22307c7ed93 drm/exynos: mixer: drop driver owner initialization
+4a34de85b3144145c723312dd3486be477c630ed drm/exynos: fimc: drop driver owner initialization
+272e6fe1f070b175b2efe92f4717c2fd9a519a03 drm/exynos: fimd: drop driver owner initialization
+22cc6eb59891e39e3a5b4d12b5889bed819f0feb drm/exynos: dsi: drop driver owner initialization
+7d50e63b9aeae9eb6aec269cdd465dd078006734 drm/exynos: g2d: drop driver owner initialization
+1179513db8a14c96f4bc8d6b0b5a45a628a2f65e drm/exynos: gsc: drop driver owner initialization
+15b05e672bccb2287b4f4c81be6478ff0338e6d2 drm/exynos: mic: drop driver owner initialization
+2287ca5afb54bda9f92389b738e97f8a6f6f054c drm/exynos: rotator: drop driver owner initialization
+f57aa8addfe9725e9ae2dc85cdc3b5eb190085c3 drm/exynos: scaler: drop driver owner initialization
+c3147c08a2a170dd01386efb34ea8a1f1c5dcf8a drm/exynos: vidi: drop driver owner initialization
+d6e733f2fb0b4ad6069ff86d4c7a724ad3d5267c drm/exynos: hdmi: drop driver owner initialization
+edb8e86711d4e216d1dbd3acdfad4c10ca618436 drm/exynos: mixer: drop driver owner initialization
 
---===============5552483037861104422==--
+--===============7597814812589251055==--
