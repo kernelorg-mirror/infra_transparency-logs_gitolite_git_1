@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Thu, 25 Apr 2024 20:22:35 -0000
-Message-Id: <171407655520.20524.10121756081163475430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Thu, 25 Apr 2024 20:27:16 -0000
+Message-Id: <171407683675.23838.3686075058599884078@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/master
-    old: d42aad3e9553cc11377b9b7cf8ac505382fd2204
-    new: 13a54535105747f683a5b2da0649bd4dad31c8b1
+  - ref: refs/heads/next
+    old: f1652790cd374bcf98efc913ec69ed18d20e7747
+    new: a3063ba97f31e0364379a3ffc567203e3f79e877
     log: |
-         13a54535105747f683a5b2da0649bd4dad31c8b1 atmodem: fix detection of ATD*99 for non-muxed serial ports
+         4f43d95cc1c854a193647108bc833bdc6f59257f tools/nolibc: add limits for {u,}intmax_t, ulong and {u,}llong
+         a3063ba97f31e0364379a3ffc567203e3f79e877 tools/nolibc: implement strtol() and friends
          
