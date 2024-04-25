@@ -1,124 +1,149 @@
-Content-Type: multipart/mixed; boundary="===============5945638934415755914=="
+Content-Type: multipart/mixed; boundary="===============3281307089297247519=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Thu, 25 Apr 2024 21:40:31 -0000
-Message-Id: <171408123186.14503.12678573477238345941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 25 Apr 2024 21:50:04 -0000
+Message-Id: <171408180476.21150.5489601748161567583@gitolite.kernel.org>
 
---===============5945638934415755914==
+--===============3281307089297247519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/i2c/time_left
-    old: b27f710719e626a6ecb5ea2a6a701a98e6f0e183
-    new: f40d9c303c85f20a79881e3dc955ec601bef36fb
-    log: revlist-b27f710719e6-f40d9c303c85.txt
+  - ref: refs/heads/master
+    old: 9d1ddab261f3e2af7c384dc02238784ce0cf9f98
+    new: a93289b830ce783955b22fbe5d1274a464c05acf
+    log: revlist-9d1ddab261f3-a93289b830ce.txt
 
---===============5945638934415755914==
+--===============3281307089297247519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b27f710719e6-f40d9c303c85.txt
+Content-Disposition: attachment; filename=revlist-9d1ddab261f3-a93289b830ce.txt
 
-91bd5fc9ce9ed1f94e2d79cde2f25d90e1a60c2d crypto: sahara: use 'time_left' variable with wait_for_completion_timeout()
-936947f00d287f91e1891cb4e7da6083b766a19f dma: qcom: gpi: use 'time_left' variable with wait_for_completion_timeout()
-1261389af32663b839c17035fc97c5f40ee21332 dma: ti: k3-udma: use 'time_left' variable with wait_for_completion_timeout()
-98c240b7fb371a3928c92fa56b1353327b16e28b fpga: zynq-fpga: use 'time_left' variable with wait_for_completion_timeout()
-5c35013f29d9a490682845f2ee9c86628af6d365 i2c: amd-mp2-plat: use 'time_left' variable with wait_for_completion_timeout()
-f8b7f82419cf090e1d3a4f9b68500a44f6b1d979 i2c: digicolor: use 'time_left' variable with wait_for_completion_timeout()
-5880df4b4b15f379d5176aa80f53f80639955fad i2c: exynos5: use 'time_left' variable with wait_for_completion_timeout()
-cdec4b228d5b559885b3cc09afb3743f3045dafe i2c: hix5hd2: use 'time_left' variable with wait_for_completion_timeout()
-3a561a6ec0077121b8c9fbf4573bc6f65bcdaa46 i2c: imx-lpi2c: use 'time_left' variable with wait_for_completion_timeout()
-524eaa7a7a118f040de58e152401b98ee6dc035f i2c: omap: use 'time_left' variable with wait_for_completion_timeout()
-7dc5af84d99c386f738ecd6db6b14ba3360318c2 i2c: st: use 'time_left' variable with wait_for_completion_timeout()
-1d65818708a5504c7267a8ba557f371d1a084508 i2c: stm32f4: use 'time_left' variable with wait_for_completion_timeout()
-803175ed24f1fe5a6a5b932e035b05d80a99c47a i2c: stm32f7: use 'time_left' variable with wait_for_completion_timeout()
-6f53173acbc6a5307fe485b024334e33ab746c8b i2c: synquacer: use 'time_left' variable with wait_for_completion_timeout()
-e614a9b613a0a931789cbee7206c420b4464ce4a iio: adc: ad_sigma_delta: use 'time_left' variable with wait_for_completion_timeout()
-502a9d759b1c157da3827e8874fd32fb6e99a2a7 iio: adc: exynos_adc: use 'time_left' variable with wait_for_completion_timeout()
-4afda9288521fb805a620476cd05a364a9693a38 IB: sw: rdmavt: mr: use 'time_left' variable with wait_for_completion_timeout()
-3761ca1408bb8c59b563fde2684bd1eabcb48355 Input: touchscreen: imx6ul_tsc: use 'time_left' variable with wait_for_completion_timeout()
-14ccb6de765f18fc60f19d2610d6e73e3495b2e6 media: platform: allegro-dvt: allegro-core: use 'time_left' variable with wait_for_completion_timeout()
-359b34bc0475d6ad37032f57755032b59311d018 media: platform: atmel: atmel-isi: use 'time_left' variable with wait_for_completion_timeout()
-8e04cb1d387c1c86de8f41f08a2c5ed766bd59e3 misc: tifm_7xx1: use 'time_left' variable with wait_for_completion_timeout()
-c8d9d4a08f59373b66051396d8daf7829acfe7db mtd: nand: raw: mxc_nand: use 'time_left' variable with wait_for_completion_timeout()
-832539c75133339108d7aa7a6358fae0a4a5d29b wireless: marvell: mwl8k: use 'time_left' variable with wait_for_completion_timeout()
-f47039dbfdde254aad9756a187b410ae2fd2e5a3 wireless: realtek: rtw89: core: use 'time_left' variable with wait_for_completion_timeout()
-94c4b5e1422d79e6292804511ea642223887ac5e wireless: zydas: zd1211rw: zd_usb: use 'time_left' variable with wait_for_completion_timeout()
-a9c0b49d338685052e30a1e1c71182cae61a2464 power: supply: ab8500_fg: use 'time_left' variable with wait_for_completion_timeout()
-2346d9a25a760978f18f7fbb64c42f11353537e6 spi: fsl-lpspi: use 'time_left' variable with wait_for_completion_timeout()
-d6daf47ecb6c0292cf5e00ac428664a64c49c9f9 spi: imx: use 'time_left' variable with wait_for_completion_timeout()
-a650307ad5fba5826bc6ea99ac92f8e54717a84f spi: pic32-sqi: use 'time_left' variable with wait_for_completion_timeout()
-425a767805795c292148853704c629ef36523062 spi: pic32: use 'time_left' variable with wait_for_completion_timeout()
-18640bff5417f6146ea9f77bd33eb2ceb318ed17 staging: vc04_services: bcm2835-camera: bcm2835-camera: use 'time_left' variable with wait_for_completion_timeout()
-bdc5d79de4722a8cfa268092a555127b889a1172 staging: vc04_services: vchiq-mmal: mmal-vchiq: use 'time_left' variable with wait_for_completion_timeout()
-7cd79f45c9a66bee2ccf6329242194a9e69c1f68 usb: typec: tcpm: tcpm: use 'time_left' variable with wait_for_completion_timeout()
-e18e2f8b7e365b9ef3cb8e9e89460ed9e2156742 xen: xenbus: xenbus_probe_frontend: use 'time_left' variable with wait_for_completion_timeout()
-69b2c0ac0316649765776a73e156a00186ea0b64 ASoC: codecs: wm8962: use 'time_left' variable with wait_for_completion_timeout()
-159b000b5af2b9975963a69f46729c3cc0dc92a1 ASoC: codecs: wm8994: use 'time_left' variable with wait_for_completion_timeout()
-81fb1cefc0f3b64b57590207a4bdde70769d450f ASoC: codecs: wm8996: use 'time_left' variable with wait_for_completion_timeout()
-aa6ce75cb8e88a70c9ff106533844555594752f5 i2c: jz4780: use 'time_left' variable with wait_for_completion_timeout()
-cf34ab9b264f54f47f7b46f7e46024e239219780 ALSA: aoa: soundbus: i2sbus: pcm: use 'time_left' variable with wait_for_completion_timeout()
-d8cbef10565e7faad24cbd8cd2b45a541af4d67e media: pci: solo6x10: solo6x10-p2m: use 'time_left' variable with wait_for_completion_timeout()
-ca6e59b1921fc60df2efbd01db77f8d617d5cbac spi: armada-3700: use 'time_left' variable with wait_for_completion_timeout()
-44505cdcafc3353c5c8e6a2f258c7f1d48c6ecd6 spi: sun4i: use 'time_left' variable with wait_for_completion_timeout()
-84143404e62eb82ef8acec00c54f470c55c63b78 spi: sun6i: use 'time_left' variable with wait_for_completion_timeout()
-aa8fdc9eadd53c9bfa6203680d7e8dae9c1330ba ASoC: codecs: wm8993: use 'time_left' variable with wait_for_completion_timeout()
-5acbb47c90ccb8c45d196210efa37fe0b6a6980a drm: arm: display: komeda: komeda_crtc: use 'time_left' variable with wait_for_completion_timeout()
-21ddd659c94fed083c074a162ccc257b8f642405 i2c: qcom-geni: use 'time_left' variable with wait_for_completion_timeout()
-865bc715c4a3417cfddc5ecd783b143253ee66e8 slimbus: messaging: use 'time_left' variable with wait_for_completion_timeout()
-d40c2c00f7efc42a672d2a3ca8baa2c0b1892903 slimbus: qcom-ctrl: use 'time_left' variable with wait_for_completion_timeout()
-9f3c11711cc223aed5842ec8e98f249a53a5f2fb slimbus: qcom-ngd-ctrl: use 'time_left' variable with wait_for_completion_timeout()
-b6c77e65ba0bc5ae11330b7b52fac434341653a6 spi: xlp: use 'time_left' variable with wait_for_completion_timeout()
-5129665677e5b3c345031444e0124645828a65f9 mtd: nand: raw: intel-nand-controller: use 'time_left' variable with wait_for_completion_timeout()
-0d727d4b8e9214fce71df86ea48542345e937513 scsi: cxlflash: main: use 'time_left' variable with wait_for_completion_timeout()
-c147de87b8c6453f2bbee499da468cd5d068d0e1 nvme: host: pci: use 'time_left' variable with wait_for_completion_io_timeout()
-2a1ab14ae78c14279b8978f8a5f68ca608fb3021 wireless: intersil: p54: p54spi: use 'time_left' variable with wait_for_completion_interruptible_timeout()
-73ac08c596ca72dca4dcb3319e8d1ac8666ffe59 iio: adc: fsl-imx25-gcq: use 'time_left' variable with wait_for_completion_interruptible_timeout()
-90caba2cf596f7d7ab532e33fb6f4160185abbb0 iio: adc: intel_mrfld_adc: use 'time_left' variable with wait_for_completion_interruptible_timeout()
-299b8a6acd32e3537d21417b773c819111bc50be iio: adc: stm32-adc: use 'time_left' variable with wait_for_completion_interruptible_timeout()
-74154b9ffb7f4424f5011f430f5387ecf2f4c29c iio: adc: stm32-dfsdm-adc: use 'time_left' variable with wait_for_completion_interruptible_timeout()
-989b52e2d7441a38912321d9993c358e00a18094 iio: adc: twl6030-gpadc: use 'time_left' variable with wait_for_completion_interruptible_timeout()
-46f4610a78d363b24465bc4a8af707045e1c9f6b iio: pressure: zpa2326: use 'time_left' variable with wait_for_completion_interruptible_timeout()
-2e5853c3eb85237ed102f01d0ba1a943c82cadf3 media: platform: nvidia: tegra-vde: h264: use 'time_left' variable with wait_for_completion_interruptible_timeout()
-a486ef7ed87efd8aee4da56502aefaaa5c953caa misc: ti-st: st_kim: use 'time_left' variable with wait_for_completion_interruptible_timeout()
-ebe3efc63db4b052a538a0eb90a610c491fd1479 wireless: intersil: p54: fwio: use 'time_left' variable with wait_for_completion_interruptible_timeout()
-d1cac2b98245e30c3e1d5975e1e7695283031a90 wireless: intersil: p54: p54pci: use 'time_left' variable with wait_for_completion_interruptible_timeout()
-79278eaa7a7d839e2a3ebf2696d4b235da066eab s390: net: qeth_core_main: use 'time_left' variable with wait_for_completion_interruptible_timeout()
-4372140db3175fc789d031305f98272d81cd6436 fpga: socfpga: use 'time_left' variable with wait_for_completion_interruptible_timeout()
-4d61d43f5a6e3d41fd7e872b3eaf4dfe06838386 crypto: api: use 'time_left' variable with wait_for_completion_killable_timeout()
-91882c4580c46079d3b413525aa1d7ef220ff010 i2c: rk3x: use 'time_left' variable with wait_event_timeout()
-a78f693b771a1f25aff6934cdc7a718734c7953c i2c: s3c2410: use 'time_left' variable with wait_event_timeout()
-b8fa08c8c0c53c11b08b83d9f68c6b171c958721 i2c: pxa: use 'time_left' variable with wait_event_timeout()
-9584e467cad0d0bd929a2c8f36c22a32f9e16e18 media: platform: ti: cal: cal: use 'time_left' variable with wait_event_timeout()
-0736964fb21b9d238fe4c3071cba2945781d8736 scsi: 3w-9xxx: use 'time_left' variable with wait_event_timeout()
-a026ddb6ff170dfe5607ba20a304fcfb81b46679 scsi: 3w-sas: use 'time_left' variable with wait_event_timeout()
-32098e5196423412fb8bceb81e91c9ac9331fb85 scsi: 3w-xxxx: use 'time_left' variable with wait_event_timeout()
-cce06f6cfc96fe5ec77c41b2697d64c1019422e1 scsi: arcmsr: arcmsr_hba: use 'time_left' variable with wait_event_timeout()
-138c91323a468168a0d6e4659fcda3dd2d50b339 virt: vboxguest: vboxguest_utils: use 'time_left' variable with wait_event_timeout()
-1142f26c7902e459c763f18894634e7187b65f45 Input: serio: libps2: use 'time_left' variable with wait_event_timeout()
-b4db889c4212ff7631bee3d8c76db8b04d7a95d1 ethernet: sfc: falcon: farch: use 'time_left' variable with wait_event_timeout()
-961dbb2c9268245253d87e3b41c05f29d976ac31 ethernet: sfc: siena: farch: use 'time_left' variable with wait_event_timeout()
-d0d42455a95fae79ab0af41fda18ebe9a82d4254 ethernet: sfc: siena: siena_sriov: use 'time_left' variable with wait_event_timeout()
-bcaaf2dc68f756ef6af9e452b30f9b98dc22eb3e media: platform: samsung: exynos-gsc: gsc-core: use 'time_left' variable with wait_event_timeout()
-1135181dfd41e3d52026bcedc28c15dd12def155 media: platform: samsung: exynos4-is: fimc-core: use 'time_left' variable with wait_event_timeout()
-8787e7d7bea49b45170f62a3e72b35c1a09d229d media: platform: st: sti: bdisp: bdisp-v4l2: use 'time_left' variable with wait_event_timeout()
-3db353da90fcf3a205a16fbcb324bfd09215f5c7 wireless: ath: ath11k: qmi: use 'time_left' variable with wait_event_timeout()
-4f85ed7275e355ee89bb8fe707d7c8c4bf6575a6 wireless: broadcom: brcm80211: brcmfmac: cfg80211: use 'time_left' variable with wait_event_timeout()
-2b32dbb424cc2c064b818d47ecfa325292000580 block: xen-blkback: blkback: use 'time_left' variable with wait_event_interruptible_timeout()
-d47ee85aaf42ffd72a8961d7593ecf69c1b2f2f2 media: common: saa7146: saa7146_i2c: use 'time_left' variable with wait_event_interruptible_timeout()
-e1523fe26cb38863fdbd0e1154460ac14d783ffb misc: apds990x: use 'time_left' variable with wait_event_interruptible_timeout()
-a336494716d0e86e06bd3f4890d1b0f8afef8a0f misc: bh1770glc: use 'time_left' variable with wait_event_interruptible_timeout()
-76f688aa8a22309b49fffc9f8acafa91e91e41a0 s390: cio: qdio_main: use 'time_left' variable with wait_event_interruptible_timeout()
-6d39ea08474b650fc6d74b3abf1b942f0ef91d87 virt: vboxguest: vboxguest_core: use 'time_left' variable with wait_event_interruptible_timeout()
-410f05cf3057b5289677ccd0ca54a28bc3c1e292 xen: xenbus: xenbus_probe_frontend: use 'time_left' variable with wait_event_interruptible_timeout()
-2410d69ce47b7c1067bfd90318777ff721d9cc68 gfs2: super: use 'time_left' variable with wait_event_interruptible_timeout()
-f40d9c303c85f20a79881e3dc955ec601bef36fb staging: media: av7110: av7110: use 'time_left' variable with wait_event_interruptible_timeout()
+9c0f59e47a90c54d0153f8ddc0f80d7a36207d0e HID: i2c-hid: remove I2C_HID_READ_PENDING flag to prevent lock-up
+92826905ae340b7f2b25759a06c8c60bfc476b9f HID: intel-ish-hid: ipc: Fix dev_err usage with uninitialized dev->devc
+139b4c37e9cb0943e51adbb9c20c45bf60e44422 MAINTAINERS: update Benjamin's email address
+8db8c77059e75a0f418b10ede39dd82a9eb031fa HID: nintendo: Fix N64 controller being identified as mouse
+ea36bf1827462e4a52365bf8e3f7d1712c5d9600 HID: i2c-hid: Revert to await reset ACK before reading report descriptor
+21f28a7eb78dea6c59be6b0a5e0b47bf3d25fcbb HID: logitech-dj: allow mice to use all types of reports
+7c1c73bf84c50b641449f9811e2196cdc3ca4a1b wifi: mac80211: check EHT/TTLM action frame length
+ab9177d83c040eba58387914077ebca56f14fae6 wifi: mac80211: don't use rate mask for scanning
+d12b9779cc9ba29d65fbfc728eb8a037871dd331 wifi: mac80211: ensure beacon is non-S1G prior to extracting the beacon timestamp field
+9ef369973cd2c97cce3388d2c0c7e3c056656e8a wifi: cfg80211: fix the order of arguments for trace events of the tx_rx_evt class
+3cba9cfcc1520a2307a29f6fab887bcfc121c417 HID: mcp-2221: cancel delayed_work only when CONFIG_IIO is enabled
+feafe59c897500e11becd238a30be1c33eb188a2 wifi: ath11k: use RCU when accessing struct inet6_dev::ac_list
+8c75cdcdf869acabfdc7858827099dcde9f24e6c wifi: mac80211: split mesh fast tx cache into local/proxied/forwarded
+dbfff5bf9292714f02ace002fea8ce6599ea1145 wifi: iwlwifi: mvm: remove old PASN station when adding a new one
+bada85a3f584763deadd201147778c3e791d279c wifi: iwlwifi: mvm: return uid from iwl_mvm_build_scan_cmd
+e5a78fdec0114266d3c47df413d2d7955807fad9 btrfs: remove colon from messages with state
+7192833c4e55b26e8f15ef58577867a1bc808036 btrfs: scrub: run relocation repair when/only needed
+131a821a243f89be312ced9e62ccc37b2cf3846c btrfs: fallback if compressed IO fails for ENOSPC
+2f7ef5bb4a2f3e481ef05fab946edb97c84f67cf btrfs: fix information leak in btrfs_ioctl_logical_to_ino()
+fe1c6c7acce10baf9521d6dccc17268d91ee2305 btrfs: fix wrong block_start calculation for btrfs_drop_extent_map_range()
+6a94cf996f104633bfb8d260eedf96a0dbebb384 Revert "wifi: iwlwifi: bump FW API to 90 for BZ/SC devices"
+89884459a0b9e6ecd62a1ddfdb7708b34ee33649 wifi: mac80211: fix idle calculation with multi-link
+645acc6f55918feacc4572dd80acbb152b2208d9 wifi: mac80211: mlme: re-parse with correct mode
+1ac6f60aab36ae3f0520cc7ace02ad32240b8a1f wifi: mac80211: mlme: fix memory leak
+2fb5dfe18e8255dbec4d0f8e81297de8e3490285 wifi: mac80211: mlme: re-parse if AP mode is less than client
+801ea33ae82d6a9d954074fbcf8ea9d18f1543a7 wifi: nl80211: don't free NULL coalescing rule
+2a4e01e5270b9fa9f6e6e0a4c24ac51a758636f9 wifi: mac80211_hwsim: init peer measurement result
+cb55e08dba3526796e35d24a6d5db4ed6dcb8a4b wifi: mac80211: remove link before AP
+c53d8a59351e4347452e263e2e5d7446ec93da83 wifi: mac80211: fix unaligned le16 access
+69197dfc64007b5292cc960581548f41ccd44828 net: libwx: fix alloc msix vectors failed
+f58f45c1e5b92975e91754f5407250085a6ae7cf vxlan: drop packets from invalid src-address
+680d11f6e5427b6af1321932286722d24a8b16c1 udp: preserve the connected status if only UDP cmsg
+9f898fc2c31fbf0ac5ecd289f528a716464cb005 net: bcmasp: fix memory leak when bringing down interface
+976c44af48141cd8595601c0af2a19a43c5b228b mlxsw: core: Unregister EMAD trap using FORWARD action
+7e2050a8366315aeaf0316b3d362e67cf58f3ea8 mlxsw: core_env: Fix driver initialization with old firmware
+773501d01e6bc3f2557882a25679392d982d5f3e mlxsw: pci: Fix driver initialization with old firmware
+a9176f7c66f0f438dfd9a1a6c86ca7b73280a494 Merge branch 'mlxsw-fixes'
+91112fc6212a9be6f3be636d885df9c17395e1a4 wifi: iwlwifi: mvm: fix link ID management
+0b8fe5bd73249dc20be2e88a12041f8920797b59 net: usb: qmi_wwan: add Telit FN920C04 compositions
+c58e88d49097bd12dfcfef4f075b43f5d5830941 icmp: prevent possible NULL dereferences from icmp_build_probe()
+70dcdf5f8c41ce2379d48d497db10af4a09ea075 mailmap: add entries for Alex Elder
+4fd1edcdf13c0d234543ecf502092be65c5177db bridge/br_netlink.c: no need to return void function
+7474b1c82be3780692d537d331f9aa7fc1e5a368 bnxt_en: refactor reset close code
+a1acdc226baec331512f815d6ac9dd6f8435cc7f bnxt_en: Fix the PCI-AER routines
+41e54045b741daf61e03c82d442227af3d12111f bnxt_en: Fix error recovery for 5760X (P7) chips
+9e91bf75dd9089b08d8156d66d0e7c024d72780b Merge branch 'bnxt_en-aer-fixes'
+05d92ee782eeb7b939bdd0189e6efcab9195bf95 ACPI: CPPC: Fix bit_offset shift in MASK_VAL() macro
+f489c948028b69cea235d9c0de1cc10eeb26a172 ACPI: CPPC: Fix access width used for PCC registers
+a4e3899065ffa87d49dc20e8c17501edbc189692 net: dsa: mv88e6xx: fix supported_interfaces setup in mv88e6250_phylink_get_caps()
+97ec32b583bb08f72146eee2c1a1918e05760f8c MAINTAINERS: eth: mark IBM eHEA as an Orphan
+6bea4f03c6a4e973ef369e15aac88f37981db49e NFC: trf7970a: disable all regulators on removal
+467324bcfe1a31ec65d0cf4aa59421d6b7a7d52b ax25: Fix netdev refcount issue
+a44f2eb106a46f2275a79de54ce0ea63e4f3d8c8 tools: ynl: don't ignore errors in NLMSG_DONE messages
+68301ef471b63f25d6e6144a0820fea52257a34a ACPI: PM: s2idle: Evaluate all Low-Power S0 Idle _DSM functions
+9c8ecb9308d8013ff9ac9d36fdd8ae746033b93c Revert "NFSD: Reschedule CB operations when backchannel rpc_clnt is shut down"
+8ddb7142c8ab37371c6fd167a8aded97922c6268 Revert "NFSD: Convert the callback workqueue to use delayed_work"
+3584718cf2ec7e79b6814f2596dcf398c5fb2eca net: fix sk_memory_allocated_{add|sub} vs softirqs
+58a4c9b1e5a3e53c9148e80b90e1e43897ce77d1 ipv4: check for NULL idev in ip_route_use_hint()
+4ce62d5b2f7aecd4900e7d6115588ad7f9acccca net: usb: ax88179_178a: stop lying about skb->truesize
+80e679b352c3ce5158f3f778cfb77eb767e586fb tcp: Fix Use-After-Free in tcp_ao_connect_init
+f2a904107ee2b647bb7794a1a82b67740d7c8a64 net: gtp: Fix Use-After-Free in gtp_dellink
+5b5f724b05c550e10693a53a81cadca901aefd16 net: phy: mediatek-ge-soc: follow netdev LED trigger semantics
+e88c4cfcb7b888ac374916806f86c17d8ecaeb67 Merge tag 'for-6.9-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+9bf4e919ccad613b3596eebf1ff37b05b6405307 Bluetooth: Fix type of len in {l2cap,sco}_sock_getsockopt_old()
+2e7ed5f5e69b6fe93dd3c6b651d041e0a7a456d1 Bluetooth: hci_sync: Use advertised PHYs on hci_le_ext_create_conn_sync
+d1a5a7eede2977da3d2002d5ea3b519019cc1a98 Bluetooth: btusb: Add Realtek RTL8852BE support ID 0x0bda:0x4853
+b23d98d46d2858dcc0fd016caff165cbdc24e70a Bluetooth: btusb: Fix triggering coredump implementation for QCA
+a9a830a676a9a93c5020f5c61236166931fa4266 Bluetooth: hci_event: Fix sending HCI_OP_READ_ENC_KEY_SIZE
+32868e126c78876a8a5ddfcb6ac8cb2fffcf4d27 Bluetooth: qca: fix invalid device address check
+6eb5fcc416f127f220b9177a5c9ae751cac1cda8 Bluetooth: MGMT: Fix failing to MGMT_OP_ADD_UUID/MGMT_OP_REMOVE_UUID
+18bdb386a1a30e7a3d7732a98e45e69cf6b5710d Bluetooth: btusb: mediatek: Fix double free of skb in coredump
+73e87c0a49fda31d7b589edccf4c72e924411371 Bluetooth: qca: fix NULL-deref on non-serdev suspend
+7ddb9de6af0f1c71147785b12fd7c8ec3f06cc86 Bluetooth: qca: fix NULL-deref on non-serdev setup
+88cd6e6b2d327faa13e4505b07f1e380e51b21ff Bluetooth: hci_sync: Using hci_cmd_sync_submit when removing Adv Monitor
+3d05fc82237aa97162d0d7dc300b55bb34e91d02 Bluetooth: qca: set power_ctrl_enabled on NULL returned by gpiod_get_optional()
+e10d3ba4d434ed172914617ed8d74bd411421193 ipvs: Fix checksumming on GSO of SCTP packets
+5ea7b72d4fac2fdbc0425cd8f2ea33abe95235b2 net: openvswitch: Fix Use-After-Free in ovs_ct_exit
+627f9c1bb882765a84aa78015abbacd783d429be mlxsw: spectrum_acl_tcam: Fix race in region ID allocation
+d90cfe20562407d9f080d24123078d666d730707 mlxsw: spectrum_acl_tcam: Fix race during rehash delayed work
+79b5b4b18bc85b19d3a518483f9abbbe6d7b3ba4 mlxsw: spectrum_acl_tcam: Fix possible use-after-free during activity update
+54225988889931467a9b55fdbef534079b665519 mlxsw: spectrum_acl_tcam: Fix possible use-after-free during rehash
+5bcf925587e9b5d36420d572a0b4d131c90fb306 mlxsw: spectrum_acl_tcam: Rate limit error message
+8ca3f7a7b61393804c46f170743c3b839df13977 mlxsw: spectrum_acl_tcam: Fix memory leak during rehash
+743edc8547a92b6192aa1f1b6bb78233fa21dc9b mlxsw: spectrum_acl_tcam: Fix warning during rehash
+b377add0f0117409c418ddd6504bd682ebe0bf79 mlxsw: spectrum_acl_tcam: Fix incorrect list API usage
+fb4e2b70a7194b209fc7320bbf33b375f7114bd5 mlxsw: spectrum_acl_tcam: Fix memory leak when canceling rehash work
+04816dc9b93c1766d5430e1738f72fae689c6b57 Merge branch 'mlxsw-various-acl-fixes'
+8d6bf83f6740ba52a59e25dad360e1e87ef47666 Revert "net: txgbe: fix i2c dev name cannot match clkdev"
+edd2d250fb3bb5d70419ae82c1f9dbb9684dffd3 Revert "net: txgbe: fix clk_name exceed MAX_DEV_ID limits"
+c04d1b9ecce565455652ac3c6b17043cd475cf47 igc: Fix LED-related deadlock on driver unbind
+730117730709992c9f6535dd7b47638ee561ec45 eth: bnxt: fix counting packets discarded due to OOM and netpoll
+e6b219014fb3a2601b66086a551b7363ace8dd28 Merge tag 'for-net-2024-04-24' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+8e30abc9ace4f0add4cd761dfdbfaebae5632dd2 netfilter: nf_tables: honor table dormant flag from netdev release event path
+6c9cd59dbcb09a2122b5ce0dfc07c74e6fc00dc0 net: phy: dp83869: Fix MII mode failure
+46bf0c9ab79426a0012158ef88ec8d7da0403b19 Merge tag 'wireless-2024-04-23' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+475747a19316b08e856c666a20503e73d7ed67ed macsec: Enable devices to advertise whether they update sk_buff md_dst during offloads
+6e159fd653d7ebf6290358e0330a0cb8a75cf73b ethernet: Add helper for assigning packet type when dest address does not match device address
+642c984dd0e37dbaec9f87bd1211e5fac1f142bf macsec: Detect if Rx skb is macsec-related for offloading devices that update md_dst
+39d26a8f2efcb8b5665fe7d54a7dba306a8f1dff net/mlx5e: Advertise mlx5 ethernet driver updates sk_buff md_dst for MACsec
+4dcd0e83ea1d1df9b2e0174a6d3e795b3477d64e net: ti: icssg-prueth: Fix signedness bug in prueth_init_rx_chns()
+2cc7d150550cc981aceedf008f5459193282425c i40e: Do not use WQ_MEM_RECLAIM flag for workqueue
+ef3c313119ea448c22da10366faa26b5b4b1a18e i40e: Report MFS in decimal base instead of hex
+54976cf58d6168b8d15cebb395069f23b2f34b31 iavf: Fix TC config comparison with existing adapter TC config
+96fdd1f6b4ed72a741fb0eb705c0e13049b8721f ice: fix LAG and VF lock dependency in ice_reset_vf()
+4334496e831d0d1cb2a8f79d08f6efe3d2ee7e7d Merge branch 'fix-isolation-of-broadcast-traffic-and-unmatched-unicast-traffic-with-macsec-offload'
+179d5166712557d9c8e72ba3e15360eff78893ec Merge branch 'intel-wired-lan-driver-updates-2024-04-23-i40e-iavf-ice'
+1b9e743e923b256e353a9a644195372285e5a6c0 net: ethernet: ti: am65-cpts: Fix PTPv1 message type on TX packets
+6e965eba43e9724f3e603d7b7cc83e53b23d155e octeontx2-af: fix the double free in rvu_npc_freemem()
+0c81ea5a8e231fa120e3f76aa9ea99fa3950cc59 net: ravb: Fix registered interrupt names
+38d7b94e81d068b8d8c8392f421cfd2c3bbfd1a6 dpll: fix dpll_pin_on_pin_register() for multiple parent pins
+0844370f8945086eb9335739d10205dcea8d707b tls: fix lockless read of strp->msg_ready in ->poll
+e3eb7dd47bd4806f00e104eb6da092c435f9fb21 net: b44: set pause params only when interface is up
+1971d13ffa84a551d29a81fdf5b5ec5be166ac83 af_unix: Suppress false-positive lockdep splat for spin_lock() in __unix_gc().
+e8baa63f8789d34b5c2e61f36ab60d693b65b1dc Merge tag 'nf-24-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+f9e023299bc3df3fe12f8e800ab512891dac47e0 Merge tag 'for-linus-2024042501' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+e33c4963bf536900f917fb65a687724d5539bc21 Merge tag 'nfsd-6.9-5' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+2ad984673beef7c3dbe9e3d2cabf046f338fdffc Merge branch 'acpi-cppc'
+52afb15e9d9a021ab6eec923a087ec9f518cb713 Merge tag 'net-6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+a93289b830ce783955b22fbe5d1274a464c05acf Merge tag 'acpi-6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============5945638934415755914==--
+--===============3281307089297247519==--
