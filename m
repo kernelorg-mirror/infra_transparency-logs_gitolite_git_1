@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============4364670392799702173=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 25 Apr 2024 20:14:52 -0000
-Message-Id: <171407609280.13734.4819445594002572735@gitolite.kernel.org>
-
---===============4364670392799702173==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Thu, 25 Apr 2024 20:16:36 -0000
+Message-Id: <171407619618.16735.6630472449535266137@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: a1360385cb0f1dfab5a780e7585b289c41739962
-    new: aed31668c6512cd9d059c50bebea3c8280820e4b
+    old: a2ca0a16788a6660575957c8f2923c4cda776886
+    new: d42aad3e9553cc11377b9b7cf8ac505382fd2204
     log: |
-         aed31668c6512cd9d059c50bebea3c8280820e4b docs: document working with series dependencies
+         e3b5ea3ba9e7f06f9ed366a0303c34ee143b6e13 wwmantrace: Add initial eBPF based tracer
+         06978a863b4d7fd185339c89042c7e4374cf0b43 qmi: gprs-context: Actually send param to qmi_service_send
+         d42aad3e9553cc11377b9b7cf8ac505382fd2204 atmodem: fix detection of ATD*99 for non-muxed serial ports
          
-
---===============4364670392799702173==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1714076092 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1714076092-befc46cc8e8851bffc2893b324eb85008ffca2f6
-
-a1360385cb0f1dfab5a780e7585b289c41739962 aed31668c6512cd9d059c50bebea3c8280820e4b refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZiq5vAAKCRC2xBzjVmSZ
-bJhAAQC9Ihd0T89zi+lngOFX1gHoybZnZRMpWxiWZLbI8CFfCwEArk7owdbTHQOX
-vbGHiGg+PqVrR4+b3bkmFON4GZOWLg0=
-=6WYy
------END PGP SIGNATURE-----
-
---===============4364670392799702173==--
