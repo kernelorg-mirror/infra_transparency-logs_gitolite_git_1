@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 25 Apr 2024 09:36:40 -0000
-Message-Id: <171403780092.30676.11377627877087984859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Thu, 25 Apr 2024 09:43:06 -0000
+Message-Id: <171403818623.17199.18307326541368158872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/main
-    old: caf93883f623ebd29989e3c35423f386ea4a41bb
-    new: 369dac68d22ef6052160b3cd383f2d04b1810f84
-    log: |
-         369dac68d22ef6052160b3cd383f2d04b1810f84 enic: Replace hardcoded values for vnic descriptor by defines
-         
+  - ref: refs/tags/imx-fixes-6.9-2
+    old: 0000000000000000000000000000000000000000
+    new: 3527043ff81fdfe377e4f5c55d99c9a4871df0e1
