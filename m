@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 26 Apr 2024 11:30:13 -0000
-Message-Id: <171413101304.24010.10272888848724744337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 26 Apr 2024 11:50:03 -0000
+Message-Id: <171413220313.5639.14583845414244111458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: fc48de77d69de9d453cae3bb911f016a4be1bbda
-    new: dba86b7d8778102998a6a2989f6a2d935efc6d47
+  - ref: refs/heads/master
+    old: a93289b830ce783955b22fbe5d1274a464c05acf
+    new: c942a0cd3603e34dd2d7237e064d9318cb7f9654
     log: |
-         96a8326d69fffd7e8c2eb737dc060d8009a33b39 virtio: add debugfs infrastructure to allow to debug virtio features
-         41ad836e393aa834039de48c84305dfe7d6aceef selftests: forwarding: add ability to assemble NETIFS array by driver name
-         617198cbc69d94c6b5130a97e51598428398a7d0 selftests: forwarding: add check_driver() helper
-         dae9dd5fd9f35f0e57599148d3655e9d473c8e24 selftests: forwarding: add wait_for_dev() helper
-         ccfaed04db5e0f372986baac051b20fbd9e69096 selftests: virtio_net: add initial tests
-         dba86b7d8778102998a6a2989f6a2d935efc6d47 Merge branch 'selftests-virtio_net-introduce-initial-testing-infrastructure'
+         d05dcfdf5e1659b2949d13060284eff3888b644e  fs/9p: mitigate inode collisions
+         98a821546b3919a10a58faa12ebe5e9a55cd638e vDPA: code clean for vhost_vdpa uapi
+         dda89e2fbc5b7702296356b4a20a5cb66c70e426 Merge tag '9p-for-6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ericvh/v9fs
+         c942a0cd3603e34dd2d7237e064d9318cb7f9654 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
          
