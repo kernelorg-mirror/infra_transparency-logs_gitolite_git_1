@@ -1,26 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 26 Apr 2024 13:38:12 -0000
-Message-Id: <171413869249.20365.16061675098685388208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 26 Apr 2024 13:50:04 -0000
+Message-Id: <171413940408.29395.14359011927673126019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: 15fd021bc4270273d8f4b7f58fdda8a16214a377
-    new: d5115a55ffb5253743346ddf628a890417e2935e
+  - ref: refs/heads/for-6.10/block
+    old: 07d1b99825f40f9c0d93e6b99d79a08d0717bac1
+    new: 6ad0d7e0f4b68f87a98ea2b239123b7d865df86b
     log: |
-         5cb2cb3cb20cb2618c877a50db3c013449cc4e75 net: introduce rstreason to detect why the RST is sent
-         6be49deaa09576c141002a2e6f816a1709bc2c86 rstreason: prepare for passive reset
-         5691276b39daf90294c6a81fb6d62d667f634c92 rstreason: prepare for active reset
-         120391ef9ca8fe8f82ea3f2961ad802043468226 tcp: support rstreason for passive reset
-         3e140491dd80d8643261a21efde3ce2ff6fb9fdf mptcp: support rstreason for passive reset
-         215d40248bde5562a21e4c6cdeaeca0495c9365a mptcp: introducing a helper into active reset logic
-         b533fb9cf4f7c6ca2aa255a5a1fdcde49fff2b24 rstreason: make it work in trace world
-         d5115a55ffb5253743346ddf628a890417e2935e Merge branch 'implement-reset-reason-mechanism-to-detect'
+         6ad0d7e0f4b68f87a98ea2b239123b7d865df86b sbitmap: use READ_ONCE to access map->word
+         
+  - ref: refs/heads/for-6.10/io_uring
+    old: 039a2e800bcd5beb89909d1a488abf3d647642cf
+    new: a4d416dc60980f741f0bfa1f34a1059c498c1b4e
+    log: |
+         a4d416dc60980f741f0bfa1f34a1059c498c1b4e io_uring/msg_ring: reuse ctx->submitter_task read using READ_ONCE instead of re-reading it
+         
+  - ref: refs/heads/for-next
+    old: 442a0ec15ee8e50356fd603842445cb6230f278d
+    new: 518f377c90e510032b4b0f0ebf709dfd9057043d
+    log: |
+         a4d416dc60980f741f0bfa1f34a1059c498c1b4e io_uring/msg_ring: reuse ctx->submitter_task read using READ_ONCE instead of re-reading it
+         6ad0d7e0f4b68f87a98ea2b239123b7d865df86b sbitmap: use READ_ONCE to access map->word
+         9d60dddf961a5b3d5c46a2e052dc5c50b468f9a1 Merge branch 'for-6.10/block' into for-next
+         518f377c90e510032b4b0f0ebf709dfd9057043d Merge branch 'for-6.10/io_uring' into for-next
          
