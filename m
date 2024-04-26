@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============0759131766413711211=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 26 Apr 2024 02:37:45 -0000
-Message-Id: <171409906555.10158.17867361034263790000@gitolite.kernel.org>
-
---===============0759131766413711211==
-Content-Type: text/plain; charset="us-ascii"
+Date: Fri, 26 Apr 2024 03:24:18 -0000
+Message-Id: <171410185820.10151.14456786530011408626@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,25 +12,18 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 9ac7f7973587e406f20d16caeae6814ffaff31b9
-    new: 3c4d7902b4e3d6019663eca7cb5274967b0d3aa2
-    log: revlist-9ac7f7973587-3c4d7902b4e3.txt
-
---===============0759131766413711211==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ac7f7973587-3c4d7902b4e3.txt
-
-c984f374aeec6118d59f115bb69ff1a7344a0443 net: wwan: t7xx: Un-embed dummy device
-bcf303c62c98eb41e242bba8764f5804d9d4658b net: sparx5: flower: only do lookup if fragment flags are set
-8cd1b6c0bf3170cd90bbe691546333d9a29c3419 net: sparx5: flower: add extack to sparx5_tc_flower_handler_control_usage()
-b92eb1ac13f069f188b733709afabc26049bf6bf net: sparx5: flower: remove goto in sparx5_tc_flower_handler_control_usage()
-8ef631e9c995d397dafd1565b82e9ab933fa25a6 net: sparx5: flower: check for unsupported control flags
-df654941d8711e184fe945935591eaadcb4fd34f Merge branch 'net-sparx5-flower-validate-control-flags'
-505ccf890c21430f9ca70921debc3312aa813541 net: lan966x: flower: add extack to lan966x_tc_flower_handler_control_usage()
-12b8e129c40929551b2ce4035ca91c3c841863a2 net: lan966x: flower: rename goto in lan966x_tc_flower_handler_control_usage()
-8c65e27b42fc9a3646bc58ada1cb26eab043e515 net: lan966x: flower: check for unsupported control flags
-3c4d7902b4e3d6019663eca7cb5274967b0d3aa2 Merge branch 'net-lan966x-flower-validate-control-flags'
-
---===============0759131766413711211==--
+    old: 3c4d7902b4e3d6019663eca7cb5274967b0d3aa2
+    new: 1cedb16b945c32e029effbe6bf4cd8222e111130
+    log: |
+         306ec721d043bbe5e818d59fbb37c28d999b5d8b net: intel: introduce {, Intel} Ethernet common library
+         53844673d555290010dd3d6de1365af72e9839c8 iavf: kill "legacy-rx" for good
+         920d86f3c5529d658bb9576ae9120a2330d9b220 iavf: drop page splitting and recycling
+         a1d6063d9f2f4f4f4ed1733ed3f3f63244c4afb5 slab: introduce kvmalloc_array_node() and kvcalloc_node()
+         ef9226cd56b718c79184a3466d32984a51cb449c page_pool: constify some read-only function arguments
+         ce230f4f8981e2a7f06b71c22cc742cfe91a525d page_pool: add DMA-sync-for-CPU inline helper
+         e6c91556b97f855436fa45f75e69165d671012a7 libeth: add Rx buffer management
+         97cadd3d3ce3df32647011233a35a1597bb7a55b iavf: pack iavf_ring more efficiently
+         5fa4caff59f251bf9f766fc48c9f0a774a9216a0 iavf: switch to Page Pool
+         87a927efa7d9f95f3acd4fc04b8f3bc809f0f465 MAINTAINERS: add entry for libeth and libie
+         1cedb16b945c32e029effbe6bf4cd8222e111130 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+         
