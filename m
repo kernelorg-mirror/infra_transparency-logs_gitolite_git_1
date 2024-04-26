@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6526516763109838769=="
+Content-Type: multipart/mixed; boundary="===============3625155464845884922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Fri, 26 Apr 2024 05:07:24 -0000
-Message-Id: <171410804425.23657.15171066070333476588@gitolite.kernel.org>
+Date: Fri, 26 Apr 2024 05:07:38 -0000
+Message-Id: <171410805858.23908.6845631772035882999@gitolite.kernel.org>
 
---===============6526516763109838769==
+--===============3625155464845884922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-6.10-merge
     old: 6a94b1acda7e7262418e23f906c12a2b08b69d12
     new: 08e012a62de877e77d7d44d5bddace63d760741b
     log: revlist-6a94b1acda7e-08e012a62de8.txt
 
---===============6526516763109838769==
+--===============3625155464845884922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -122,4 +122,4 @@ b878dbbe2acda5cd285387dd26a68751cfe66485 Merge tag 'reduce-scrub-iget-overhead-6
 4b0bf86c179775c882fed7ff5db4a147b3f7f94a Merge tag 'repair-fixes-6.10_2024-04-23' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into xfs-6.10-mergeC
 08e012a62de877e77d7d44d5bddace63d760741b xfs: Remove unused function xrep_dir_self_parent
 
---===============6526516763109838769==--
+--===============3625155464845884922==--
