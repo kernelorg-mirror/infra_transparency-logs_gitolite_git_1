@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Fri, 26 Apr 2024 14:33:24 -0000
-Message-Id: <171414200400.26828.12198170290006814765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Fri, 26 Apr 2024 14:51:42 -0000
+Message-Id: <171414310277.8742.6045073504530039356@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: agordeev
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/for-next
-    old: d30edd25a7b53761f860ad0a573fee8255f5ad78
-    new: cd67fe6dd7fc05638a7728b16cdef4b560cd52a4
+  - ref: refs/heads/probes/for-next
+    old: 34c92fd6f22a7e39b4d07e2c495f504e0c12d6d7
+    new: 235a7c63d1b347e1928e8b7dacd50ee81861cbf5
     log: |
-         5e1a99cf22a65bd91cb43c5380cc14a44b85ad2a s390/3270: Fix buffer assignment
-         b961ec10b9f9719987470236feb50c967db5a652 s390/vdso: Add CFI for RA register to asm macro vdso_func
-         6f76b595a1592098008668884d9b2d626bfcc613 Merge branch 'fixes' into for-next
-         21384acb5baea86a7f459a2f7414308c61f734a2 Merge branch 'features' into for-next
-         cd67fe6dd7fc05638a7728b16cdef4b560cd52a4 Merge branch 'shared-zeropage' into for-next
+         34c67d2b1eafcaa4cee65b2061d9db5ca749312b objpool: enable inlining objpool_push() and objpool_pop() operations
+         235a7c63d1b347e1928e8b7dacd50ee81861cbf5 objpool: cache nr_possible_cpus() and avoid caching nr_cpu_ids
          
