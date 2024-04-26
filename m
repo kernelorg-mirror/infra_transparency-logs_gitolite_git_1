@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 26 Apr 2024 22:38:14 -0000
-Message-Id: <171417109496.31620.13000743802438531310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 26 Apr 2024 23:11:15 -0000
+Message-Id: <171417307508.23690.10204078305413686475@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: e90a63f655e3d21b8a4103b8dec9d5283ea94d67
-    new: 99803fb635e4041c3e4e3f8eae7aceeeb44e3cef
+  - ref: refs/heads/main
+    old: 1bede0a12d3a45bd366d3cf9e1c7611d86f1bc1f
+    new: ff9ddaa416d06b2068e524356dfc9d15f84ab62f
     log: |
-         2e431b23a13ce4459cf484c8f0b3218c7048b515 ubsan: Avoid i386 UBSAN handler crashes with Clang
-         61af39e1e40da1afd8803352c465a140e3d5d6ab virt: acrn: replace deprecated strncpy with strscpy
-         31ca7e77fd7efc3f98582bf682fcaadc31a7d505 reiserfs: replace deprecated strncpy with scnprintf
-         7dcbf17e3f917f691d2ae9ed4a34283bd0e74a95 hfsplus: refactor copy_name to not use strncpy
-         f700b71927017ca5697e8a24fd2ad5d3e06489d6 fs: ecryptfs: replace deprecated strncpy with strscpy
-         5bb288c4abc2e67d4ea94ba6bc80bb0ab18b123e scsi: mptfusion: Avoid possible run-time warning with long manufacturer strings
-         d4309246cf6beb1c73b97b4d3bf976969793eb05 scsi: mpi3mr: Avoid possible run-time warning with long manufacturer strings
-         c3408c4ae041dcc6a302397099fcad0dc307f6fd scsi: qla2xxx: Avoid possible run-time warning with long model_num
-         998b18072ceb0613629c256b409f4d299829c7ec kunit/fortify: Fix mismatched kvalloc()/vfree() usage
-         99803fb635e4041c3e4e3f8eae7aceeeb44e3cef hardening: Refresh KCFI options, add some more
+         f8ac9b0fab33ed138da80b95b94d8be16b07c6fd selftests: drv-net: extend the README with more info and example
+         64ed7d8190611c96744fd2b89afe6aeb3054902b selftests: drv-net: reimplement the config parser
+         340ab206ce5c673aab23d0197d3a0e2bccb86d74 selftests: drv-net: validate the environment
+         ff9ddaa416d06b2068e524356dfc9d15f84ab62f Merge branch 'selftests-drv-net-round-some-sharp-edges'
          
