@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6910102283780221934=="
+Content-Type: multipart/mixed; boundary="===============7239795282588783338=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 26 Apr 2024 15:19:20 -0000
-Message-Id: <171414476026.28729.8608341998155538970@gitolite.kernel.org>
+Date: Fri, 26 Apr 2024 15:19:38 -0000
+Message-Id: <171414477879.28894.14306045741599191221@gitolite.kernel.org>
 
---===============6910102283780221934==
+--===============7239795282588783338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: e3eb7dd47bd4806f00e104eb6da092c435f9fb21
     new: 42f853b42899d9b445763b55c3c8adc72be0f0e1
     log: revlist-e3eb7dd47bd4-42f853b42899.txt
 
---===============6910102283780221934==
+--===============7239795282588783338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -311,4 +311,4 @@ a5b1051ad5a7028a4a5a2f569f8caf3a56c7163c Merge branch 'ensure-the-copied-buf-is-
 4b911a9690d72641879ea6d13cce1de31d346d79 nsh: Restore skb->{protocol,data,mac_header} for outer header in nsh_gso_segment().
 42f853b42899d9b445763b55c3c8adc72be0f0e1 net l2tp: drop flow hash on forward
 
---===============6910102283780221934==--
+--===============7239795282588783338==--
