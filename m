@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 26 Apr 2024 19:45:14 -0000
-Message-Id: <171416071422.854.721943418709445044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 26 Apr 2024 19:45:23 -0000
+Message-Id: <171416072388.993.16981836783635192906@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 42f853b42899d9b445763b55c3c8adc72be0f0e1
-    new: 6a30653b604aaad1bf0f2e74b068ceb8b6fc7aea
+    old: d5115a55ffb5253743346ddf628a890417e2935e
+    new: 8880e2666fa87a7d62a60fea9fe9ed9ba21ddcf7
     log: |
-         6a30653b604aaad1bf0f2e74b068ceb8b6fc7aea Fix a potential infinite loop in extract_user_to_sg()
+         8880e2666fa87a7d62a60fea9fe9ed9ba21ddcf7 net: dsa: lan9303: use ethtool_puts() for lan9303_get_strings()
          
