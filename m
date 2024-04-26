@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 26 Apr 2024 23:34:50 -0000
-Message-Id: <171417449071.6287.3679983739612071732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Fri, 26 Apr 2024 23:35:53 -0000
+Message-Id: <171417455352.8318.3635486776111480720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/seen
-    old: d17c7c41a5bfed8d796c479825a7fa274805ab41
-    new: 7b19149425264e642718a1774d084d9126e22a56
+  - ref: refs/heads/dev-test
+    old: 3763f9effcdccc38bde614c911f331203f204a01
+    new: b76ee9048b89d293eba6d6881abb33e27b9beff8
     log: |
-         058b8dc2c2467c507d7b984b838e6c779107d6db t4046: avoid continue in &&-chain for zsh
-         fedd5c79ff855a4e3859e5c3fa5784942185436b vimdiff: make script and tests work with zsh
-         7b19149425264e642718a1774d084d9126e22a56 Merge branch 'bc/zsh-compatibility' into seen
+         5fc63a4971c05c1aa37b564f31c4777ca92e49ac f2fs: fix block migration when section is not aligned to pow2
+         6bf2a59f1838dd774f2dea98dca3063e00a4cee0 f2fs: remove redundant parameter in is_next_segment_free()
+         793a5e02dd0626e966c29c62cfad62b923756324 f2fs: fix to avoid allocating WARM_DATA segment for direct IO
+         b76ee9048b89d293eba6d6881abb33e27b9beff8 f2fs: fix to do sanity check on i_xattr_nid in sanity_check_inode()
          
