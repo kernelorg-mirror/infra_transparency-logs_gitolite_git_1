@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Fri, 26 Apr 2024 18:49:22 -0000
-Message-Id: <171415736220.23373.17327491326212535168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rteval/rteval
+Date: Fri, 26 Apr 2024 19:00:12 -0000
+Message-Id: <171415801254.32153.2667828550542769360@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/utils/rteval/rteval
+user: jkacur
 changes:
-  - ref: refs/tags/mtd/fixes-for-6.9-rc6
-    old: 0000000000000000000000000000000000000000
-    new: e98b719a06f6e557d77cd66765c1f663c8267407
+  - ref: refs/heads/main
+    old: 5ba2a7cd7191ecb472b1a1c903ace300088c6e91
+    new: 20fbcc1547d77a77a3e333bac28b7f28632d8707
+    log: |
+         20fbcc1547d77a77a3e333bac28b7f28632d8707 rteval: Add summary reporting for timerlat
+         
