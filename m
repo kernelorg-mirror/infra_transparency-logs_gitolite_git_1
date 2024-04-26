@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 26 Apr 2024 21:12:56 -0000
-Message-Id: <171416597604.1210.7451407524133048726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 26 Apr 2024 21:16:23 -0000
+Message-Id: <171416618398.4313.9891131878237737131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: b78ea3a6eb5beff79cd3f001ba60162f3eab5182
-    new: 86f7d927d59e675f0486cc3aa270894ed214dc97
+  - ref: refs/heads/1GbE
+    old: d5115a55ffb5253743346ddf628a890417e2935e
+    new: 1bede0a12d3a45bd366d3cf9e1c7611d86f1bc1f
     log: |
-         86f7d927d59e675f0486cc3aa270894ed214dc97 Fri Apr 26 05:12:21 PM EDT 2024
+         8880e2666fa87a7d62a60fea9fe9ed9ba21ddcf7 net: dsa: lan9303: use ethtool_puts() for lan9303_get_strings()
+         1bede0a12d3a45bd366d3cf9e1c7611d86f1bc1f tcp: fix tcp_grow_skb() vs tstamps
          
