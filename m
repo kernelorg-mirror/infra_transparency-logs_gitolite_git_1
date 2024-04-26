@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 26 Apr 2024 22:04:49 -0000
-Message-Id: <171416908910.5269.16650131715339967301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 26 Apr 2024 22:13:57 -0000
+Message-Id: <171416963798.13094.9278685631267862002@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/msi
-    old: 0000000000000000000000000000000000000000
-    new: 0ba5cd94bbc2d21ffb392b6a3b23ee288b4778d5
+  - ref: refs/heads/tmp.perf-tools-next
+    old: db23a0cded6e39479c63f403f76040681aeb7f5b
+    new: 710f91e7bd2b485036b05a3fe0904a818dba7d81
+    log: |
+         3bb285ab3d4882a4fadd7d3ae48248630b0ab58e tools headers: Synchronize linux/bits.h with the kernel sources
+         710f91e7bd2b485036b05a3fe0904a818dba7d81 perf test: Reintroduce -p/--parallel and make -S/--sequential the default
+         
