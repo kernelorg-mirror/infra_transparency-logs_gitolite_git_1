@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 26 Apr 2024 01:59:36 -0000
-Message-Id: <171409677600.13036.553424776100313970@gitolite.kernel.org>
+Date: Fri, 26 Apr 2024 02:02:08 -0000
+Message-Id: <171409692844.15704.1278826219819954867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 0805d67bc0ef95411228e802f31975cfb7555056
-    new: 3837639ebfdd9fbb9aa2acfcc1612043d35340fe
+    old: 3837639ebfdd9fbb9aa2acfcc1612043d35340fe
+    new: 092d214138fd5fbda2347bb3753223c4404790db
     log: |
-         3837639ebfdd9fbb9aa2acfcc1612043d35340fe net: usb: ax88179_178a: Add check for usbnet_get_endpoints()
+         092d214138fd5fbda2347bb3753223c4404790db r8152: replace dev_info with dev_dbg for loading firmware
          
