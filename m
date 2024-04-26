@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 26 Apr 2024 22:37:48 -0000
-Message-Id: <171417106801.31371.1162927678521548350@gitolite.kernel.org>
+Date: Fri, 26 Apr 2024 22:38:14 -0000
+Message-Id: <171417109496.31620.13000743802438531310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: fa2b40bdd5376639b4f28865fd7246e840db9e7d
+  - ref: refs/heads/for-next/kspp
+    old: e90a63f655e3d21b8a4103b8dec9d5283ea94d67
     new: 99803fb635e4041c3e4e3f8eae7aceeeb44e3cef
     log: |
          2e431b23a13ce4459cf484c8f0b3218c7048b515 ubsan: Avoid i386 UBSAN handler crashes with Clang
