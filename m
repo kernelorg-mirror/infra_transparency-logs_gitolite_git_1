@@ -1,43 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============1531990460046200782=="
+Content-Type: multipart/mixed; boundary="===============7912261418481378638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Fri, 26 Apr 2024 08:22:27 -0000
-Message-Id: <171411974798.2963.18133630255018552860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 26 Apr 2024 09:03:13 -0000
+Message-Id: <171412219399.31679.11449563465465420389@gitolite.kernel.org>
 
---===============1531990460046200782==
+--===============7912261418481378638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/execmem/v6
-    old: 92c0be38d1abdb48c07c6c659f34d295fcf425cf
-    new: 9181eb73f60c3b72f14e7aea2e5da92d39cfb5d5
-    log: revlist-92c0be38d1ab-9181eb73f60c.txt
+  - ref: refs/heads/master
+    old: 279d33d155a7e5eb5a996edeb162bd33b1ea709b
+    new: 578342c872c52dbd039a32a75d56b0f1c77c5216
+    log: revlist-279d33d155a7-578342c872c5.txt
 
---===============1531990460046200782==
+--===============7912261418481378638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92c0be38d1ab-9181eb73f60c.txt
+Content-Disposition: attachment; filename=revlist-279d33d155a7-578342c872c5.txt
 
-f77043c419673a973b254a70e2074d281b7e9b04 sparc: simplify module_alloc()
-3d8165f1876f5bde7c20d2f4aa8b3700f9f5b016 module: make module_memory_{alloc,free} more self-contained
-f20ccd8146bb9d4294ed99490069fbfc8db0ce0b mm: introduce execmem_alloc() and execmem_free()
-d563609915ebef49016630d98c3701379fd02147 mm/execmem, arch: convert simple overrides of module_alloc to execmem
-acd3e51136afda5613dfa1a166870b7a51e189b3 mm/execmem, arch: convert remaining overrides of module_alloc to execmem
-f8b337128bea18c4983b95ac302d810e7924aa1d riscv: extend execmem_params for generated code allocations
-319c0b91b0649f68bcd76a4596317ef032a4bb6e arm64: extend execmem_info for generated code allocations
-45db430f27c19e3c09947dbbfca8d1fa55495ab7 powerpc: extend execmem_params for kprobes allocations
-ac1e4153f5a88418381d663e5bdce190239f8702 arch: make execmem setup available regardless of CONFIG_MODULES
-d6d8c1e9536b45d10d83fcfb04b317953c670712 x86/ftrace: enable dynamic ftrace without CONFIG_MODULES
-3f4696386c0f435841f1dd7dd324748c666cc21a powerpc: use CONFIG_EXECMEM instead of CONFIG_MODULES where appropriate
-e35e05426da66852155699ac6081c947f6cb0062 kprobes: remove dependency on CONFIG_MODULES
-9181eb73f60c3b72f14e7aea2e5da92d39cfb5d5 bpf: remove CONFIG_BPF_JIT dependency on CONFIG_MODULES of
+e3ca96e479c91d6ee657d3caa5092a6a3a620f9f x86/resctrl: Pass domain to target CPU
+bd4955d4bc2182ccb660c9c30a4dd7f36feaf943 x86/resctrl: Simplify call convention for MSR update functions
+2718a7fdf292b2dcb49c856fa8a6a955ebbbc45f x86/CPU/AMD: Add models 0x10-0x1f to the Zen5 range
+87739229485ac724849178eb6c35e38c6161eb77 x86/resctrl: Rename pseudo_lock_event.h to trace.h
+931be446c6cbc15691dd499957e961f4e1d56afb x86/resctrl: Add tracepoint for llc_occupancy tracking
+b53c6bd5d271d023857174b8fd3e32f98ae51372 x86/cpu: Fix check for RDPKRU in __show_regs()
+a0a8d15a798be4b8f20aca2ba91bf6b688c6a640 x86/tdx: Preserve shared bit on mprotect()
+a60dd06af674d3bb76b40da5d722e4a0ecefe650 genirq/cpuhotplug: Skip suspended interrupts when restoring affinity
+88d724e2301a69c1ab805cd74fc27aa36ae529e0 genirq/cpuhotplug: Retry with cpu_online_mask when migration fails
+6678ae1918ff554f7438ff3f1a3be22d6d01f2fb genirq: Reuse irq_is_nmi()
+c7cad38d37486668a448215fc92bace9c8cf747a irqchip/irq-brcmstb-l2: Avoid saving mask on shutdown
+cdc66553c4130735f0a2db943a5259e54ff1597a cpumask: Introduce cpumask_first_and_and()
+6a9a52f74e3b82ff3f5398810c1b23ad497e2df5 irqchip/irq-bcm6345-l1: Avoid explicit cpumask allocation on stack
+fcb8af4cbcd122e33ceeadd347b8866d32035af7 irqchip/gic-v3-its: Avoid explicit cpumask allocation on stack
+2bc32db5a262cc34753cb4208b2d3043d1cd81ae irqchip/loongson-eiointc: Avoid explicit cpumask allocation on stack
+5d650d1eba876717888a0951ed873ef0f1d8cf61 irqchip/riscv-aplic-direct: Avoid explicit cpumask allocation on stack
+a7fb69ffd7ce438a259b2f9fbcebc62f5caf2d4f irqchip/sifive-plic: Avoid explicit cpumask allocation on stack
+6f28c4a852fab8bd759a383149dfd30511477249 cpuidle: Avoid explicit cpumask allocation on stack
+8e3101b38dfc20848a23525b1e6e80bd1641d44c sched/isolation: {revent boot crash when the boot CPU is nohz_full
+b6ad00418eaf376b4f2a68a1696d6368c1381310 sched/isolation: Fix boot crash when maxcpus < first housekeeping CPU
+8a28b0220266e2b8290e696d4b21c88f32e6aeb1 x86/bugs: Switch to new Intel CPU model defines
+b24e466abf6ef1c82dac2df813551ffead832ab4 x86/bugs: Switch to new Intel CPU model defines
+c26591afd33adce296c022e3480dea4282b7ef91 irqchip/gic-v3-its: Prevent double free on error
+382d2ffe86efb1e2fa803d2cf17e5bfc34e574f3 irqchip/gic-v3-its: Remove BUG_ON in its_vpe_irq_domain_alloc
+fe42754b94a42d08cf9501790afc25c4f6a5f631 cpu: Re-enable CPU mitigations by default for !X86 architectures
+ce0abef6a1d540acef85068e0e82bdf1fbeeb0e9 cpu: Ignore "mitigations" kernel parameter if CPU_MITIGATIONS=n
+1e52550729dafb41b12652a985d3df6cfa99cb88 x86/sev: Shorten struct name snp_secrets_page_layout to snp_secrets_page
+88ed43d32beb1ef3c06164c52b1c6ced47b5988b x86/sev: Rename snp_init() in boot/compressed/sev.c
+e2f4c8c319abd1afbedb7a31877cb569265db1b4 x86/sev: Make the VMPL0 checking more straight forward
+5ee800945a3466c3b126020c8f4ffc6b54d6986f perf/x86/intel/cstate: Switch to new Intel CPU model defines
+0011a51d73d57866c8d7ee8be2ff1e5baa17f6ca perf/x86/lbr: Switch to new Intel CPU model defines
+a7011b852a30ab0fdb469991037613407e49f2cb perf/x86/intel/pt: Switch to new Intel CPU model defines
+9b2583d8103eee0f122fd24046ed012174bf8f72 perf/x86/intel/uncore: Switch to new Intel CPU model defines
+d413a1955a8e32e4425ff4dd47f5c6fcf09427c3 perf/x86/intel/uncore: Switch to new Intel CPU model defines
+438731421a2f6dc11a7a4f0ef9a19d79f77ed75f perf/x86/intel/uncore: Switch to new Intel CPU model defines
+e8475a26a94f57f5e6c8e8799dd3f9b936647f0b perf/x86/msr: Switch to new Intel CPU model defines
+b8e5528564c3ace0fa35ca663fa8780ca4ff8270 Merge branch into tip/master: 'irq/urgent'
+9e2cbc112f1481eef6b1a113ab1ba2cde5705f66 Merge branch into tip/master: 'sched/urgent'
+bee7c8f627fc83c4d74ce0a139bcee66194d4bf3 Merge branch into tip/master: 'x86/urgent'
+e859500f1cadc7d016f59222bc50b7a086d8f585 Merge branch into tip/master: 'irq/core'
+66b46589249095dfaf888f7c40c802ec8765d53e Merge branch into tip/master: 'x86/cache'
+83468415849acdd62223ffa2264e9ea8c70ca30c Merge branch into tip/master: 'x86/cpu'
+578342c872c52dbd039a32a75d56b0f1c77c5216 Merge branch into tip/master: 'x86/sev'
 
---===============1531990460046200782==--
+--===============7912261418481378638==--
