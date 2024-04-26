@@ -1,93 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============3895825410639338334=="
+Content-Type: multipart/mixed; boundary="===============6602318724999624330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Fri, 26 Apr 2024 19:45:42 -0000
-Message-Id: <171416074271.1218.12003854128633094480@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 26 Apr 2024 19:50:04 -0000
+Message-Id: <171416100414.4456.2183659229069673274@gitolite.kernel.org>
 
---===============3895825410639338334==
+--===============6602318724999624330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: 8f33f980dcfe00f99e9b6911ff99b4a612c23b9b
-    new: a200d1952d33e4facd8941b206f6d40106fdab2e
-    log: revlist-8f33f980dcfe-a200d1952d33.txt
-  - ref: refs/heads/pwm/for-nexxt
-    old: 8f33f980dcfe00f99e9b6911ff99b4a612c23b9b
-    new: 3d3140766ae6feba365ec84c3c56ecc417a962c7
-    log: revlist-8f33f980dcfe-3d3140766ae6.txt
+  - ref: refs/heads/master
+    old: c942a0cd3603e34dd2d7237e064d9318cb7f9654
+    new: 3022bf37da50ce0ee3ba443ec5f86fa8c28aacd0
+    log: revlist-c942a0cd3603-3022bf37da50.txt
 
---===============3895825410639338334==
+--===============6602318724999624330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f33f980dcfe-a200d1952d33.txt
+Content-Disposition: attachment; filename=revlist-c942a0cd3603-3022bf37da50.txt
 
+abe6acfa7d7b666d785eae706bd34b63f3c2b11f fs: Return ENOTTY directly if FS_IOC_GETUUID or FS_IOC_GETFSSYSFSPATH fail
+f141dde5dc51ecab18e8b12b76eb416cda0d6798 dm vdo murmurhash: remove unneeded semicolon
+9617cd6f24b294552a817f80f5225431ef67b540 block: fix module reference leakage from bdev_open_by_dev error path
+7d045025a24b6336d444d359bd4312f351d017f9 gpio: tangier: Use correct type for the IRQ chip data
+74871791ffa9562d43567c5ff2ae93def3f39f65 ntfs3: serve as alias for the legacy ntfs driver
+48ef0ba12e6b77a1ce5d09c580c38855b090ae7c dm: restore synchronous close of device mapper block device
+6aff4c26ed677b1f464f721fbd3e7767f24a684d drm/gma500: Remove lid code
+a386c30410450ea87cd38070f9feaca49dadce29 drm/atomic-helper: fix parameter order in drm_format_conv_state_copy() call
+4b759dd5765503bd466defac7d93aca14c23a15d cxl/core: Fix potential payload size confusion in cxl_mem_get_poison()
+d55f90e9b243faa5bcd5c8a323a8f43040500106 ntfs3: enforce read-only when used as legacy ntfs driver
+9b872cc50daa7d1cb07d5bfd27ee9fa3f4e7eda9 ntfs3: add legacy ntfs file operations
+619606a7b8d5e54b71578ecc988d3f8e1896bbc6 netfs: Fix writethrough-mode error handling
+2eb9dd497a698dc384c0dd3e0311d541eb2e13dd drm/amd/display: Set color_mgmt_changed to true on unsuspend
+37865e02e6ccecdda240f33b4332105a5c734984 drm/amdkfd: Fix eviction fence handling
+25e9227c6afd200bed6774c866980b8e36d033af drm/amdgpu: Fix leak when GPU memory allocation fails
+9c783a11214553a54f0915a7260a3ce624d36bf2 drm/amdkfd: make sure VM is ready for updating operations
+0e95ed6452cb079cf9587c774a475a7d83c7e040 drm/amdgpu/pm: Remove gpu_od if it's an empty directory
+aebd3eb9d3ae017e6260043f6bcace2f5ef60694 drm/amdgpu: Assign correct bits for SDMA HDP flush
+d59198d2d0c5cb2a360819b000b0f173c472c9ef drm/amdgpu/vpe: fix vpe dpm setup failed
+b0b13d532105e0e682d95214933bb8483a063184 drm/amdgpu: Update BO eviction priorities
+e26305f369ed0e087a043c2cdc76f3d9a6efb3bd drm/amdkfd: Fix rescheduling of restore worker
+661d71ee5a010bdc0663e0db701931aff920e8e1 drm/amdgpu/umsch: don't execute umsch test when GPU is in reset/suspend
+30d1cda8ce31ab49051ff7159280c542a738b23d drm/amd/pm: Restore config space after reset
+1e214f7faaf5d842754cd5cfcd76308bfedab3b5 drm/amdkfd: Add VRAM accounting for SVM migration
+fe93b0927bc58cb1d64230f45744e527d9d8482c drm/amdgpu: Fix the ring buffer size for queue VM flush
+9792b7cc18aaa0c2acae6af5d0acf249bcb1ab0d drm/amdgpu/sdma5.2: use legacy HDP flush for SDMA2/3
+948255282074d9367e01908b3f5dcf8c10fc9c3d drm/amdgpu/mes: fix use-after-free issue
+697f3342477170bdf8759157bdc19c0b7b3e9d14 LoongArch: Fix Kconfig item and left code related to CRASH_CORE
+7ab22b5c2af54e233f3d05d7d601025947e4ff05 LoongArch: Fix a build error due to __tlb_remove_tlb_entry()
+efb44ff64c95340b06331fc48634b99efc9dd77c LoongArch: Fix access error when read fault on a write-only VMA
+d3119bc985fb645ad3b2a9cf9952c1d56d9daaa3 LoongArch: Fix callchain parse error with kernel tracepoint events
+78d9161d2bcd442d93d917339297ffa057dbee8c fbdev: fix incorrect address computation in deferred IO
+d806f474a9a7993648a2c70642ee129316d8deff gpio: tegra186: Fix tegra186_gpio_is_accessible() check
+d6dab9017b7cf155e73ba5c7f498de1beb5f8e24 drm/xe: Remove sysfs only once on action add failure
+f38c4d224aa37fce1e3fe05db4377ef888f0737f drm/xe: call free_gsc_pkt only once on action add failure
+e3e989522ac9a6b7960c75b762e1e9568717b31e drm/xe/guc: Fix arguments passed to relay G2H handlers
+c714fcdf5b75f63ab27cb5071747194e5ada2433 Merge tag 'intel-gpio-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-gpio-intel into gpio/for-current
+f3334ebb8a2a1841c2824594dd992e66de19deb2 LoongArch: Lately init pmu after smp is online
+d7a5c9de99b3a9a43dce49f2084eb69b5f6a9752 drm/etnaviv: fix tx clock gating on some GC7000 variants
+e877d705704d7c8fe17b6b5ebdfdb14b84c207a7 Revert "drm/etnaviv: Expose a few more chipspecs to userspace"
+26da9bfdb8c6d9a64534cbcce9ffabad3bac5eb0 Merge tag 'amd-drm-fixes-6.9-2024-04-24' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+86ab9985214d9918113d6387bd0640e6166e68d1 Merge tag 'drm-misc-fixes-2024-04-25' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+ca382d6aa5adca82cd4c93194635fa0e64e6fa4f Merge tag 'drm-etnaviv-fixes-2024-04-25' of https://git.pengutronix.de/git/lst/linux into drm-fixes
+3a8534035c0747610312f9552898a0ece10ef8a7 Merge tag 'drm-xe-fixes-2024-04-25' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 190f1f46ede17ca0d7153ac115d6518ec1be2ba3 MAINTAINERS: Update Uwe's email address, drop SIOX maintenance
-940052bcbcd50081244f995e3cad89eaa2cc1c04 hwmon: (aspeed-g6-pwm-tacho): Make use of pwmchip_parent() accessor
-79dedfadb79e527ca4dc6f3727dace96e3333f82 hwmon: (aspeed-g6-pwm-tacho): Make use of devm_pwmchip_alloc() function
-05947224ff469bf17b3791fd009bc27ce5151997 pwm: Ensure that pwm_chips are allocated using pwmchip_alloc()
-4bda9700a55447dfcf33b219de1cf5d7904fdd4f dt-bindings: pwm: at91: Add sam9x7 compatible strings list
-5bb0b194aeee5d5da6881232f4e9989b35957c25 pwm: sti: Simplify probe function using devm functions
-3025c9c669bac6c193a8f5fc2570f705b675eb40 pwm: sti: Improve error reporting using dev_err_probe()
-354bf751339082161a9911022c45831992026f1b pwm: sti: Drop member from driver data that only carries a constant
-9e287e0c5fc7b0b926382a6db0f97c3f34a03640 pwm: sti: Maintain all per-chip driver data in a single struct
-c0143f68919e6e36a4fa8816ddb49d266f3b21de pwm: sti: Use devm_kcalloc() instead of calculating the size for devm_kzalloc()
-7db42aa2b629de0a103f603f41c5b0929c66ccda pwm: sti: Prefer local variable over pointer dereference
-b40ac0e176bf2c83c78cf72fd64a42be2f9b9638 pwm: Give some sysfs related variables and functions better names
-e9cc807f87ffd1ccc919731e8f624982935af3e0 pwm: Move contents of sysfs.c into core.c
-ee37bf50749f06b29394d7ba8a85b47f023b61e2 pwm: Ensure a struct pwm has the same lifetime as its pwm_chip
-4c56b1434b814899c42a9d9f43d8265371282cd0 pwm: Add a struct device to struct pwm_chip
-2ee862790b8ba458e4406cb0c0ecfbef92964259 pwm: Make pwmchip_[sg]et_drvdata() a wrapper around dev_set_drvdata()
-61026e3ece86553b9f5dbb340e63e9c8ea7c4e83 pwm: stm32: Add error messages in .probe()'s error paths
-7b99f5c959f4f5c7c361e3328ef00fde1e9450d8 pwm: stm32: Improve precision of calculation in .apply()
-204b81a0eeffd8878bea19974372eb0a53809747 pwm: stm32: Fix for settings using period > UINT32_MAX
-1a0c1ed02ca0b099042679568024cd2655864008 pwm: stm32: Calculate prescaler with a division instead of a loop
-1f5bcaebd482aa5145bee521010ec4abbe8c050e pwm: bcm2835: Introduce a local variable for &pdev->dev
-63a2b7dd29af1984c517f246b1fd83b67129d574 pwm: bcm2835: Drop open coded variant of devm_clk_rate_exclusive_get()
-99c14177d195d45525847e4fef8c23cd8590cf31 pwm: meson: Add generic compatible for meson8 to sm1
-a200d1952d33e4facd8941b206f6d40106fdab2e dt-bindings: pwm: mediatek,pwm-disp: add compatible for mt8365 SoC
+c97f59e276d4e93480f29a70accbd0d7273cf3f5 netfs: Fix the pre-flush when appending to a file in writethrough mode
+61ef6208e0df073072a764eb5c5f5a6db3ffadb6 Merge tag 'drm-fixes-2024-04-26' of https://gitlab.freedesktop.org/drm/kernel
+084c473cf7663318bb528c0284dee0cd9023f6e2 Merge tag 'pwm/for-6.9-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+09ef2957170db78429acb10b606636f798cbd3cc Merge tag 'loongarch-fixes-6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+52034cae0207d4942eefea5ab0d5d15e5a4342e1 Merge tag 'vfs-6.9-rc6.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+08f0677dfc1a0e4648eca650be5b32f1a40e93ad Merge tag 'for-6.9/dm-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+5b43efa158e0a972ac19c54d00600bfffb7db7f6 Merge tag 'cxl-fixes-6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
+3022bf37da50ce0ee3ba443ec5f86fa8c28aacd0 Merge tag 'gpio-fixes-for-v6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============3895825410639338334==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f33f980dcfe-3d3140766ae6.txt
-
-190f1f46ede17ca0d7153ac115d6518ec1be2ba3 MAINTAINERS: Update Uwe's email address, drop SIOX maintenance
-940052bcbcd50081244f995e3cad89eaa2cc1c04 hwmon: (aspeed-g6-pwm-tacho): Make use of pwmchip_parent() accessor
-79dedfadb79e527ca4dc6f3727dace96e3333f82 hwmon: (aspeed-g6-pwm-tacho): Make use of devm_pwmchip_alloc() function
-05947224ff469bf17b3791fd009bc27ce5151997 pwm: Ensure that pwm_chips are allocated using pwmchip_alloc()
-4bda9700a55447dfcf33b219de1cf5d7904fdd4f dt-bindings: pwm: at91: Add sam9x7 compatible strings list
-5bb0b194aeee5d5da6881232f4e9989b35957c25 pwm: sti: Simplify probe function using devm functions
-3025c9c669bac6c193a8f5fc2570f705b675eb40 pwm: sti: Improve error reporting using dev_err_probe()
-354bf751339082161a9911022c45831992026f1b pwm: sti: Drop member from driver data that only carries a constant
-9e287e0c5fc7b0b926382a6db0f97c3f34a03640 pwm: sti: Maintain all per-chip driver data in a single struct
-c0143f68919e6e36a4fa8816ddb49d266f3b21de pwm: sti: Use devm_kcalloc() instead of calculating the size for devm_kzalloc()
-7db42aa2b629de0a103f603f41c5b0929c66ccda pwm: sti: Prefer local variable over pointer dereference
-b40ac0e176bf2c83c78cf72fd64a42be2f9b9638 pwm: Give some sysfs related variables and functions better names
-e9cc807f87ffd1ccc919731e8f624982935af3e0 pwm: Move contents of sysfs.c into core.c
-ee37bf50749f06b29394d7ba8a85b47f023b61e2 pwm: Ensure a struct pwm has the same lifetime as its pwm_chip
-4c56b1434b814899c42a9d9f43d8265371282cd0 pwm: Add a struct device to struct pwm_chip
-2ee862790b8ba458e4406cb0c0ecfbef92964259 pwm: Make pwmchip_[sg]et_drvdata() a wrapper around dev_set_drvdata()
-61026e3ece86553b9f5dbb340e63e9c8ea7c4e83 pwm: stm32: Add error messages in .probe()'s error paths
-7b99f5c959f4f5c7c361e3328ef00fde1e9450d8 pwm: stm32: Improve precision of calculation in .apply()
-204b81a0eeffd8878bea19974372eb0a53809747 pwm: stm32: Fix for settings using period > UINT32_MAX
-1a0c1ed02ca0b099042679568024cd2655864008 pwm: stm32: Calculate prescaler with a division instead of a loop
-1f5bcaebd482aa5145bee521010ec4abbe8c050e pwm: bcm2835: Introduce a local variable for &pdev->dev
-63a2b7dd29af1984c517f246b1fd83b67129d574 pwm: bcm2835: Drop open coded variant of devm_clk_rate_exclusive_get()
-99c14177d195d45525847e4fef8c23cd8590cf31 pwm: meson: Add generic compatible for meson8 to sm1
-a200d1952d33e4facd8941b206f6d40106fdab2e dt-bindings: pwm: mediatek,pwm-disp: add compatible for mt8365 SoC
-50cdbcc4b289066c9f747b6786b1aae3d729853f pwm: Add more locking
-b516baa08f9e8d071f2a7b9e77ab7a8eebdbacf5 pwm: Add support for pwmchip devices for faster and easier userspace access
-3b5b6d11f408aa6788d14c46836869183fac1722 pwm: Add missing kernel-doc for pwm_chip:cdev
-3d3140766ae6feba365ec84c3c56ecc417a962c7 pwm: Don't check pointer for being non-NULL after use
-
---===============3895825410639338334==--
+--===============6602318724999624330==--
