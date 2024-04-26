@@ -1,19 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
-Date: Fri, 26 Apr 2024 17:41:58 -0000
-Message-Id: <171415331871.6582.5386292737118218783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Fri, 26 Apr 2024 17:52:29 -0000
+Message-Id: <171415394974.13577.1002516482089075369@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kexec/kexec-tools
-user: horms
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/master
-    old: f53bcef5063c70960b2b8eb8990722d5c9d1b99e
-    new: 2a3e54e9f734ce08dee20b4ff1bdd5037f1b0193
-    log: |
-         2a3e54e9f734ce08dee20b4ff1bdd5037f1b0193 ARM: Fix add_buffer_phys_virt() align issue
-         
+  - ref: refs/tags/for-6.10/soc
+    old: 0000000000000000000000000000000000000000
+    new: 9bd5def24522bfec169de38754165379b4f8d6f5
+  - ref: refs/tags/for-6.10/dt-bindings
+    old: 0000000000000000000000000000000000000000
+    new: 9bd5def24522bfec169de38754165379b4f8d6f5
+  - ref: refs/tags/for-6.10/arm/dt
+    old: 0000000000000000000000000000000000000000
+    new: 9bd5def24522bfec169de38754165379b4f8d6f5
+  - ref: refs/tags/for-6.10/arm64/dt
+    old: 0000000000000000000000000000000000000000
+    new: 9bd5def24522bfec169de38754165379b4f8d6f5
+  - ref: refs/tags/for-6.10/arm64/defconfig
+    old: 0000000000000000000000000000000000000000
+    new: 9bd5def24522bfec169de38754165379b4f8d6f5
