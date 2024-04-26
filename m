@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Fri, 26 Apr 2024 16:18:50 -0000
-Message-Id: <171414833072.8090.15815859736024985098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 26 Apr 2024 16:20:36 -0000
+Message-Id: <171414843623.10474.2223305969728229758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: jernej
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 8f328223944a1392c6fafe011ecea6b9b0f103d6
-    new: 4847bbebc31a38728878225b9d8bfe1d2548c028
-    log: |
-         fd46e5e136a83f61c1746d5a08686c0c4f4c0706 arm64: dts: allwinner: h616: Add NMI device node
-         4847bbebc31a38728878225b9d8bfe1d2548c028 Merge branch 'sunxi/dt-for-6.10' into sunxi/for-next
-         
+  - ref: refs/tags/for-6.9/dm-fixes-3
+    old: 0000000000000000000000000000000000000000
+    new: 36803a251ea5a4c9e9fe815ce02cacca1cc4bb0e
