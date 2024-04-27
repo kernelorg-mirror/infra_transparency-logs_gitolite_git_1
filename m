@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4652837312163537509=="
+Content-Type: multipart/mixed; boundary="===============2894867106327486539=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 27 Apr 2024 11:15:01 -0000
-Message-Id: <171421650102.8093.10335743702485194436@gitolite.kernel.org>
+Date: Sat, 27 Apr 2024 11:15:12 -0000
+Message-Id: <171421651252.9912.16930760404645357044@gitolite.kernel.org>
 
---===============4652837312163537509==
+--===============2894867106327486539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: e88c4cfcb7b888ac374916806f86c17d8ecaeb67
-    new: 5eb4573ea63d0c83bf58fb7c243fc2c2b6966c02
-    log: revlist-e88c4cfcb7b8-5eb4573ea63d.txt
+  - ref: refs/heads/testing
+    old: 3429701e0c423142b911545a01a7c8680f758a58
+    new: bb1d7f8fb552de2984a6a6d3eb78c78d0920db6d
+    log: revlist-3429701e0c42-bb1d7f8fb552.txt
 
---===============4652837312163537509==
+--===============2894867106327486539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e88c4cfcb7b8-5eb4573ea63d.txt
+Content-Disposition: attachment; filename=revlist-3429701e0c42-bb1d7f8fb552.txt
 
 9c0f59e47a90c54d0153f8ddc0f80d7a36207d0e HID: i2c-hid: remove I2C_HID_READ_PENDING flag to prevent lock-up
 92826905ae340b7f2b25759a06c8c60bfc476b9f HID: intel-ish-hid: ipc: Fix dev_err usage with uninitialized dev->devc
@@ -280,5 +280,32 @@ c9e35b4aeb2f061390395033314898d07498da03 Merge tag 'arc-6.9-fixes' of git://git.
 4630932a55298befbad62f2563f57bee16e0e450 Merge tag 'mmc-v6.9-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 e6ebf01172185d74237193ca7bb6bdfc39f3eaeb Merge tag 'mm-hotfixes-stable-2024-04-26-13-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 5eb4573ea63d0c83bf58fb7c243fc2c2b6966c02 Merge tag 'soc-fixes-6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+b82e6e45b40996c1ad58c062d8f685c9cbcf6a84 xtensa: remove redundant flush_dcache_page and ARCH_IMPLEMENTS_FLUSH_DCACHE_PAGE macros
+1fc96058876bb9566a356b76113f45a7f0afb3ec Revert "sh: Handle calling csum_partial with misaligned data"
+cee232b17311ff5f24c822c66160aaf276378435 ext4: implement filesystem specific alloc_inode in unit test
+6d375a25ac24cb0b405b744e953e688283d2530d net: dev_addr_lists: move locking out of init/exit in kunit
+475c6d81fd017eea65042ae1aa1716923f2db856 m68k: fix spinlock race in kernel thread creation
+010aa15e06d4cdb0c9d9a0192910b483de5e0bc5 mm/slub, kunit: Use inverted data to corrupt kmem cache
+7d0ec332557d86fc3b796d59dc4bf554d744c6fc usb: ohci: Prevent missed ohci interrupts
+247f6e2dc323a458bf34823a3225cc306203bbb4 bug/kunit: Core support for suppressing warning backtraces
+41be337ae6cb26cdfb870a8e3b4dbf06353e1c47 kunit: bug: Count suppressed warning backtraces
+f0ffd8cac68fff5d674570767c4e66bbd6a894e8 kunit: Add test cases for backtrace warning suppression
+d70cf763d5623927cc5a83fe5633643f7c118bb9 kunit: Add documentation for warning backtrace suppression API
+bba7e169caea663b29d1e502fc7f14462e11f50c drm: Suppress intentional warning backtraces in scaling unit tests
+cf8e7f3eabfe46f2b8e561ef4c64b38e153f0a88 x86: Add support for suppressing warning backtraces
+e2049630296f86dfa5ddbc6ead5079123196b939 arm64: Add support for suppressing warning backtraces
+f83e54f75c0d30e7c1906bda091cc0a2a40edcd1 loongarch: Add support for suppressing warning backtraces
+95e0b55034d2d35257832ef5c8513dc8093ab7cb parisc: Add support for suppressing warning backtraces
+ea2254a65727f0732d478ba0d297ecb37ffe4ba0 nios2: Call handle_mm_fault() with interrupts enabled
+11cc2f1dac71d7bc1a8364f4df12ce6680e8b471 s390: Add support for suppressing warning backtraces
+995373934ed5e981f75d8fd577f7f5abadf8dc55 sh: Add support for suppressing warning backtraces
+a7b543d11eedcd30868b7f4f8d5d249596b8d849 sh: Move defines needed for suppressing warning backtraces
+762c46d1af58f6139ec7624604aacebc4eabd69d rtc: test: Split rtc unit test into slow and normal speed test
+00260fc43e7952caa85d0714968e7c8eebdba268 riscv: Add support for suppressing warning backtraces
+eb11505d6f51fc92596729ea77eab10599ba07b8 kunit: time: Add faster unit test with shorter time range
+706a9f62cbf0594593cefd010e66b909e6908b37 powerpc: Add support for suppressing warning backtraces
+90d80cff9c9c0aab0794ef622a118fad9eba28c8 Merge branch 'nios2' into testing
+aaa11cde177cdbce6566682fc438f36db6a7167e Merge branch 'kunit-improvements' into testing
+bb1d7f8fb552de2984a6a6d3eb78c78d0920db6d Merge branch 'kunit-v4' into testing
 
---===============4652837312163537509==--
+--===============2894867106327486539==--
