@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8046795946013441552=="
+Content-Type: multipart/mixed; boundary="===============7858864567214695017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 27 Apr 2024 01:14:51 -0000
-Message-Id: <171418049172.15432.13025536068601095715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 27 Apr 2024 01:15:01 -0000
+Message-Id: <171418050189.15548.10615301008985006251@gitolite.kernel.org>
 
---===============8046795946013441552==
+--===============7858864567214695017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 8c297a2c7098cf6cb9cc5cbaa3c56a9d3acae5e2
     log: revlist-5012fce1aace-8c297a2c7098.txt
 
---===============8046795946013441552==
+--===============7858864567214695017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ e101a05f79fd4ee3e89d2f3fb716493c33a33708 perf intel-pt: Fix unassigned instructi
 450f941ea9dce7256a485baf36f2b8d85a64e1c0 tools headers: Synchronize linux/bits.h with the kernel sources
 8c297a2c7098cf6cb9cc5cbaa3c56a9d3acae5e2 perf test: Reintroduce -p/--parallel and make -S/--sequential the default
 
---===============8046795946013441552==--
+--===============7858864567214695017==--
