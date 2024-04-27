@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sat, 27 Apr 2024 17:50:58 -0000
-Message-Id: <171424025847.19280.8262854854781364032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Sat, 27 Apr 2024 17:59:14 -0000
+Message-Id: <171424075458.23752.2485922410379864830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/patches-in-queue
-    old: 9fc77bbd253ab143dea30ad588699c4feeea0113
-    new: 7a9f4d97ebb5800937977589952e3777fef19266
-    log: |
-         7a9f4d97ebb5800937977589952e3777fef19266 fstests: solve no-return-in-nonvoid-function issue
-         
+  - ref: refs/tags/qcom-arm64-for-6.10
+    old: 0000000000000000000000000000000000000000
+    new: ef4fca28a04119b8c141f2a9b6f344ce86ed43a9
