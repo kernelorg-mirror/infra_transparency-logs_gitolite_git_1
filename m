@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Sat, 27 Apr 2024 05:06:46 -0000
-Message-Id: <171419440629.21248.18357566431540067570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Sat, 27 Apr 2024 05:11:44 -0000
+Message-Id: <171419470446.25755.8880195379924958088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
+user: vkoul
 changes:
-  - ref: refs/heads/next
-    old: a3ad3a90e0a722d9a50c01cfb40e6cfbb975e529
-    new: 2a0ed2da17d70fb57456fd78bf0798492d44cc17
-    log: |
-         61684c0ff94ca356ef82220173860223908f1e04 thunderbolt: Fix uninitialized variable in tb_tunnel_alloc_usb3()
-         2a0ed2da17d70fb57456fd78bf0798492d44cc17 thunderbolt: Fix kernel-doc for tb_tunnel_alloc_dp()
-         
+  - ref: refs/tags/soundwire-6.9-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 35967ecfad85fb90c72aa5c31c1897d6d80e6942
