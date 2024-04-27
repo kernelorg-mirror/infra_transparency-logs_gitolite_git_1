@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 27 Apr 2024 00:35:44 -0000
-Message-Id: <171417814439.19390.17218495163823367681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Sat, 27 Apr 2024 00:38:17 -0000
+Message-Id: <171417829741.21661.16015449539978156473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/main
-    old: ff9ddaa416d06b2068e524356dfc9d15f84ab62f
-    new: 5c4c0edca68a5841a8d53ccd49596fe199c8334c
-    log: |
-         5c4c0edca68a5841a8d53ccd49596fe199c8334c tools: ynl: don't append doc of missing type directly to the type
-         
+  - ref: refs/heads/vmgenid-of
+    old: dbff48db28d15bcb9720b52465d30a37f5753eb4
+    new: 0000000000000000000000000000000000000000
