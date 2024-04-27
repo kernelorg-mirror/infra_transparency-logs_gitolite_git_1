@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 27 Apr 2024 01:28:50 -0000
-Message-Id: <171418133065.25519.10793473064620661380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Sat, 27 Apr 2024 05:06:46 -0000
+Message-Id: <171419440629.21248.18357566431540067570@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 8c297a2c7098cf6cb9cc5cbaa3c56a9d3acae5e2
-    new: 8c618b58c89ce4c24c0030bd42340938bdf8e29c
+  - ref: refs/heads/next
+    old: a3ad3a90e0a722d9a50c01cfb40e6cfbb975e529
+    new: 2a0ed2da17d70fb57456fd78bf0798492d44cc17
     log: |
-         8c618b58c89ce4c24c0030bd42340938bdf8e29c perf test: Reintroduce -p/--parallel and make -S/--sequential the default
+         61684c0ff94ca356ef82220173860223908f1e04 thunderbolt: Fix uninitialized variable in tb_tunnel_alloc_usb3()
+         2a0ed2da17d70fb57456fd78bf0798492d44cc17 thunderbolt: Fix kernel-doc for tb_tunnel_alloc_dp()
          
