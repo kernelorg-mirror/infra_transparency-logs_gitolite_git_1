@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 27 Apr 2024 19:48:02 -0000
-Message-Id: <171424728298.6557.8501645624602615571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Sat, 27 Apr 2024 20:45:36 -0000
+Message-Id: <171425073699.16097.15176900411457491289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/master
-    old: 18bcc58947badb1bd175be1573e641098fe18f80
-    new: f82fbbc249c824a9bb14c6ca16c64402d6c4da61
+  - ref: refs/heads/next
+    old: a3063ba97f31e0364379a3ffc567203e3f79e877
+    new: ea920fc47a691d36517c8dc1e5b702e466300d19
     log: |
-         f82fbbc249c824a9bb14c6ca16c64402d6c4da61 Sat Apr 27 03:47:09 PM EDT 2024
+         ea920fc47a691d36517c8dc1e5b702e466300d19 tools/nolibc: implement strtol() and friends
          
