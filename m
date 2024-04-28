@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4167391039680009019=="
+Content-Type: multipart/mixed; boundary="===============7916179843162930873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 28 Apr 2024 21:38:14 -0000
-Message-Id: <171434029492.4670.11379678774044760772@gitolite.kernel.org>
+Date: Sun, 28 Apr 2024 21:43:01 -0000
+Message-Id: <171434058135.7993.8796503540691507721@gitolite.kernel.org>
 
---===============4167391039680009019==
+--===============7916179843162930873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: ed30a4a51bb196781c8058073ea720133a65596f
-    new: e67572cd2204894179d89bd7b984072f19313b03
-    log: revlist-ed30a4a51bb1-e67572cd2204.txt
+  - ref: refs/heads/nfsd-next
+    old: c802eaa40cef5a68147ccb68c9027983bacba8df
+    new: 06cd86b25b980a58e5584e9cd38c080467b24c25
+    log: revlist-c802eaa40cef-06cd86b25b98.txt
 
---===============4167391039680009019==
-Content-Type: text/plain; charset="us-ascii"
+--===============7916179843162930873==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed30a4a51bb1-e67572cd2204.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-c802eaa40cef-06cd86b25b98.txt
 
 9c0f59e47a90c54d0153f8ddc0f80d7a36207d0e HID: i2c-hid: remove I2C_HID_READ_PENDING flag to prevent lock-up
 92826905ae340b7f2b25759a06c8c60bfc476b9f HID: intel-ish-hid: ipc: Fix dev_err usage with uninitialized dev->devc
@@ -397,5 +397,27 @@ d43df69f3879f32fcc08d92ec47bff86ae0fcfaa Merge tag '6.9-rc5-cifs-fixes-part2' of
 aec147c18856fa7115e14b9ad6a91c3ed2cf2e19 Merge tag 'x86-urgent-2024-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 245c8e81741b51fe1281964e4a6525311be6858f Merge tag 'sched-urgent-2024-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e67572cd2204894179d89bd7b984072f19313b03 Linux 6.9-rc6
+7d9ba20beabdf8fde6a87ca156dc7297e1d2c30c nfsd: perform all find_openstateowner_str calls in the one place.
+6f163e56045c22e3dc64845d0911ed25c5019869 nfsd: move nfsd4_cstate_assign_replay() earlier in open handling.
+9958085bb01189a880a6f4d1c50ff1789153492e nfsd: replace rp_mutex to avoid deadlock in move_to_close_lru()
+f499840746aacd523f98b628561d426483ff87b4 nfsd: drop st_mutex before calling move_to_close_lru()
+e655ef4db9282fcf09651e87c86102ad81c4b43d NFSD: Move callback_wq into struct nfs4_client
+29777048b554bf6447b00a50bc2cec5911ff6f09 nfsd: trivial GET_DIR_DELEGATION support
+88dfc047d7f34e4b2f20bf0f0886ffcab9c7ef8d fs: nfsd: use group allocation/free of per-cpu counters API
+08dcdd2cf59db34fd59bcd39438c49190ea9899a sunrpc: removed redundant procp check
+540a2526c2763d7dfe713c12fe4b7327be6bcb6c nfsd: drop extraneous newline from nfsd tracepoints
+728e8ec0334f14437989f7ba1f17e4408cf520fb nfsd: new tracepoint for check_slot_seqid
+bfbea35b881d1ac2f400e7f37a80764fbe4ddead nfsd: add tracepoint in mark_client_expired_locked
+07a9b822082d8fd8b5ec81de51ef33fd1ff49866 nfsd: optimise recalculate_deny_mode() for a common case
+f9f7d02d7427c1d4e93b707229c3c0e860d24f5b nfsd: don't create nfsv4recoverydir in nfsdfs when not used.
+f37204ea0d3d6a056feaeb2bee300d914707497f lockd: host: Remove unnecessary statements＇host = NULL;＇
+13490f05468d1f6d286a1fca21d800b4e2023beb NFSD: move nfsd_mutex handling into nfsd_svc callers
+922651ca9c7c49e98a199babc6d6a2dd020452ac NFSD: allow callers to pass in scope string to nfsd_svc
+0140f0ab544b79c01c3b592f0ad895fadc59bef3 NFSD: convert write_threads to netlink command
+b10e021294552ab9f5203ac94ff7b43e9ea718b0 NFSD: add write_version to netlink command
+7cb2c38da78cf05322401ecdfd3e14728fd63664 SUNRPC: introduce svc_xprt_create_from_sa utility routine
+faee90676a2aded372e603478d8c1e264f1c9715 SUNRPC: add a new svc_find_listener helper
+b969fc0fcf5e6dafe81134e113bcc6ea84b2e9db NFSD: add listener-{set,get} netlink command
+06cd86b25b980a58e5584e9cd38c080467b24c25 SUNRPC: Remove comment for sp_lock
 
---===============4167391039680009019==--
+--===============7916179843162930873==--
