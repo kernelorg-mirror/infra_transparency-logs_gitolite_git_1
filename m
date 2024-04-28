@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5180455408965739965=="
+Content-Type: multipart/mixed; boundary="===============5209949504844018950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Sun, 28 Apr 2024 08:04:45 -0000
-Message-Id: <171429148580.17410.14119419385766940789@gitolite.kernel.org>
+Date: Sun, 28 Apr 2024 08:06:40 -0000
+Message-Id: <171429160000.19950.11711068095634805225@gitolite.kernel.org>
 
---===============5180455408965739965==
+--===============5209949504844018950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/dt
-    old: c834a7847602424157bbaf9898a5c677c3bb1f83
-    new: 68313ee6961ca59a77c164a55cc352cc8bbfa6ec
-    log: revlist-c834a7847602-68313ee6961c.txt
+  - ref: refs/heads/for-next
+    old: 6c0972ec9268f1340b23338b43c47bbf89a5ea8b
+    new: 8c4bf8c96748fac9e6db17ea58ecd505a2217fb7
+    log: revlist-6c0972ec9268-8c4bf8c96748.txt
 
---===============5180455408965739965==
+--===============5209949504844018950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c834a7847602-68313ee6961c.txt
+Content-Disposition: attachment; filename=revlist-6c0972ec9268-8c4bf8c96748.txt
 
 4e2511d7f323ad60253e92c80fc87c858fe52567 ARM: dts: imx51-ts4800: Use #pwm-cells = <3> for imx27-pwm device
 44f46de2872f70010d9e1831bd0919efeae2ace1 ARM: dts: imx53-m53evk: Use #pwm-cells = <3> for imx27-pwm device
@@ -75,5 +75,10 @@ e80729dbfbdc673914416e8e0aa926284278cecf ARM: dts: imx6sx-softing-vining-2000: U
 ce88af1a8ecbc659ff44177386f677a2ea8d6bfb ARM: dts: imx6ul-kontron-bl-43: Use #pwm-cells = <3> for imx27-pwm device
 f98cf09e1c086a8a27bc696add94f1b790794e62 ARM: dts: imx6ul-kontron-bl-common: Use #pwm-cells = <3> for imx27-pwm device
 68313ee6961ca59a77c164a55cc352cc8bbfa6ec ARM: dts: imx6ul-pico: Use #pwm-cells = <3> for imx27-pwm device
+a6cdfcd6e84643998bd55da89ce745e144c05acc Merge branch 'imx/soc' into for-next
+dc6bcd96b77bb74dc308d166f61d21a588cd1a39 Merge branch 'imx/bindings' into for-next
+800cb240168c2a4708336170435701aca830a082 Merge branch 'imx/dt' into for-next
+5aaa8d6ecc24131a4b1c8a8a26d425cc41e644c2 Merge branch 'imx/dt64' into for-next
+8c4bf8c96748fac9e6db17ea58ecd505a2217fb7 Merge branch 'imx/defconfig' into for-next
 
---===============5180455408965739965==--
+--===============5209949504844018950==--
