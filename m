@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 28 Apr 2024 08:21:49 -0000
-Message-Id: <171429250992.31524.7453610343949465178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Sun, 28 Apr 2024 08:24:22 -0000
+Message-Id: <171429266228.32444.617461698870732826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/tags/sched-urgent-2024-04-28
+  - ref: refs/tags/imx-soc-6.10
     old: 0000000000000000000000000000000000000000
-    new: fcad32141ff2983e036d178114e3da286db0f2be
+    new: f1c4419e8ab98f46d1d08da5e11f53eae6548c74
