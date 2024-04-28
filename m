@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1058598448072527875=="
+Content-Type: multipart/mixed; boundary="===============5865839405229539303=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sun, 28 Apr 2024 23:44:54 -0000
-Message-Id: <171434789452.30580.14252508278043565698@gitolite.kernel.org>
+Date: Sun, 28 Apr 2024 23:44:57 -0000
+Message-Id: <171434789721.30678.2531138017938806413@gitolite.kernel.org>
 
---===============1058598448072527875==
+--===============5865839405229539303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: ed30a4a51bb196781c8058073ea720133a65596f
-    new: e67572cd2204894179d89bd7b984072f19313b03
-    log: revlist-ed30a4a51bb1-e67572cd2204.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 8d49135d177dbfee92bd84fef32b47d656e6b314
+    new: 75f5a8b8a7a89be47b7f39fa173c55e6c094d9c9
+    log: revlist-8d49135d177d-75f5a8b8a7a8.txt
 
---===============1058598448072527875==
+--===============5865839405229539303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1714347893 +0200
+pusher andi.shyti@kernel.org 1714347896 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1714347893-46036feb8fc3603116091bc70fc17db58338095f
+nonce 1714347896-b5e5a077f56f8ae7509b4d56b53f97dba9422981
 
-ed30a4a51bb196781c8058073ea720133a65596f e67572cd2204894179d89bd7b984072f19313b03 refs/heads/i2c/i2c-host-fixes
+8d49135d177dbfee92bd84fef32b47d656e6b314 75f5a8b8a7a89be47b7f39fa173c55e6c094d9c9 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZi7fdRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ucXsA/0zWpgSsfdpMpJcY/y8LPstZGzx6
-XKtZ8rZxef8W+9lRAQDDYxakQuB44OxvUNQ0SYC4HmMnCwM2cbDI1t3rFwDLAg==
-=BNgZ
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZi7feBYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uZ3sBAPjL20sXTa3h1FCTD+0Q1DY261rC
+ZvwbN3ybcGDvqliCAP4yaxPY+Ez8eQsZma46octR77ipMGIB4QEJ1WWDjXbUBw==
+=wF4c
 -----END PGP SIGNATURE-----
 
---===============1058598448072527875==
+--===============5865839405229539303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed30a4a51bb1-e67572cd2204.txt
+Content-Disposition: attachment; filename=revlist-8d49135d177d-75f5a8b8a7a8.txt
 
 9c0f59e47a90c54d0153f8ddc0f80d7a36207d0e HID: i2c-hid: remove I2C_HID_READ_PENDING flag to prevent lock-up
 92826905ae340b7f2b25759a06c8c60bfc476b9f HID: intel-ish-hid: ipc: Fix dev_err usage with uninitialized dev->devc
@@ -418,5 +418,46 @@ d43df69f3879f32fcc08d92ec47bff86ae0fcfaa Merge tag '6.9-rc5-cifs-fixes-part2' of
 aec147c18856fa7115e14b9ad6a91c3ed2cf2e19 Merge tag 'x86-urgent-2024-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 245c8e81741b51fe1281964e4a6525311be6858f Merge tag 'sched-urgent-2024-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e67572cd2204894179d89bd7b984072f19313b03 Linux 6.9-rc6
+cd42bd8fce9d6553dbd6f6c7848bd397017bcc51 dt-bindings: i2c: nxp,pnx-i2c: Convert to dtschema
+a620808ece6248494e5eaf2121fc40012badaf50 dt-bindings: i2c: renesas,riic: Document R9A09G057 support
+efb0500788388136e2f8a4a791c4078e72213526 i2c: riic: Introduce helper functions for I2C read/write operations
+c8dcedf4e38c26b4998922f65baa43d946700fda i2c: riic: Pass register offsets and chip details as OF data
+d819d408fb7af2fded6ce5e99c7a985c91207353 i2c: riic: Add support for R9A09G057 SoC
+e5344acc3f8c9a374e03d498e04906f569d17570 i2c: viperboard: drop driver owner assignment
+b7f863648e270b41942b7742b96f38ae1872ed93 i2c: i801: Call i2c_register_spd for muxed child segments
+9b48313a6a479062272776ea6bdd501ee815e6b0 i2c: add HAS_IOPORT dependencies
+0b47b25a242167d088158edea6ae130f2e66d20b i2c: ocores: convert to ioport_map() for IORESOURCE_IO
+f8dc9bc779f8d5da6125918da4871dd79efc31e5 i2c: i801: Fix missing Kconfig dependency
+133b3dd3c14adde41d1cb72880ef1407df5e745c MAINTAINERS: adjust file entry in ARM/LPC32XX SOC SUPPORT
+c809a9152871dd3fac086701b710114328c82125 dt-bindings: i2c: qcom-cci: Document sc8280xp compatible
+dfda5754282cca09d3def9aeedfbc625ebe540ae i2c: mpc: Removal of of_node_put with __free for auto cleanup
+6949d6c3984d181e86c3c212abc999e60a59e489 i2c: designware: Add ACPI ID for Granite Rapids-D I2C controller
+307b92d3af796d5760b3f32d5f33cc7a46ba6873 i2c: i801: Remove usage of I2C_CLASS_SPD
+e3e2a1726894863635f63f563695339af2630186 i2c: mux: gpio: remove support for class-based device instantiation
+924d32d564f28fb3663aa19e7b0f1b7a3ccf74e2 i2c: i801: Annotate apanel_addr as __ro_after_init
+75ce5d49903d546db98c0792f5fce8871161d14c i2c: lpi2c: Avoid calling clk_get_rate during transfer
+c2c49928719b619eac9029b209aac7d8c72d6808 i2c: at91-master: remove printout on handled timeouts
+18f28d67ebef24883ff4e9c0db58b4ce59e101f1 i2c: bcm-iproc: remove printout on handled timeouts
+875735237040588eb95d2f63c180c8ebb0366719 i2c: bcm2835: remove printout on handled timeouts
+854fae77e732808e5c2241331baf9cf6c8533812 i2c: cadence: remove printout on handled timeouts
+a3c05816e590f976625ec30086c0c729dc84d938 i2c: davinci: remove printout on handled timeouts
+2eb6335ab5f5a153c416e66dbfaf670883a82130 i2c: img-scb: remove printout on handled timeouts
+0b80ed89ceb80c622fea61aa7c0fb4d68dcf41a7 i2c: ismt: remove printout on handled timeouts
+1bc5dfc033bb5dee82f9989010847a4e861d6334 i2c: nomadik: remove printout on handled timeouts
+eb3dd6e5022f362a89080b14261eac2701f5c9b5 i2c: omap: remove printout on handled timeouts
+86fe125226ba269190e1cc8deb72de89c30122bf i2c: qcom-geni: remove printout on handled timeouts
+a758f1bd19275d93b3507857a303faad26c2d3b4 i2c: qup: remove printout on handled timeouts
+e738b739324bb64d48a960829d594187da19d792 i2c: rk3x: remove printout on handled timeouts
+1d3ee2ad0b3a0edf80d7f837117b0a378060ffdc i2c: sh_mobile: remove printout on handled timeouts
+dda9e283ad2c1f2e3a6ded392e0b3677ca37e396 i2c: st: remove printout on handled timeouts
+11b3cacfbdd23845c04b7b6bb899ff5d0ebb3dae i2c: tegra: remove printout on handled timeouts
+d668061acd0b66c9ddf496380b991ddeeb51866b i2c: uniphier-f: remove printout on handled timeouts
+db04de3d0fc9684198309316a9f7bcf239bf52ef i2c: uniphier: remove printout on handled timeouts
+c71448345dfe15dfe7f83a2fc4371527358202db i2c: cadence: Add RISCV architecture support
+fbd7e670b071b561fbaab4b1b1472b641e9154f9 i2c: thunderx: Clock divisor logic changes
+e5358e79934b051ae3a40a2f95ae5375c8f188e6 i2c: thunderx: Support for High speed mode
+da602f44c444bc2475520c6aec86ccdf70a3e3c4 i2c: octeon: Add platform prefix to macros
+6d7eb6feb568cf3f0eea9e4ad422b5ef8fdd45c9 i2c: octeon: Handle watchdog timeout
+75f5a8b8a7a89be47b7f39fa173c55e6c094d9c9 i2c: thunderx: Adding ioclk support
 
---===============1058598448072527875==--
+--===============5865839405229539303==--
