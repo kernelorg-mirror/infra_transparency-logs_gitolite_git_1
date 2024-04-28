@@ -1,27 +1,64 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 28 Apr 2024 16:06:52 -0000
-Message-Id: <171432041224.23820.13504115730015883357@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2725762162973737291=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sun, 28 Apr 2024 16:17:41 -0000
+Message-Id: <171432106193.31883.13772590551947505683@gitolite.kernel.org>
+
+--===============2725762162973737291==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/testing
-    old: c1f2a5c25e0ccebc0511c78a2e54c2856b58c9f0
-    new: 65427b3d210250e9430cd1d68600c820161685a3
+  - ref: refs/heads/fixes
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: da244c16ac58a3b1b7d8c54ec7780fd8326da2ff
     log: |
-         600b6de8062fe195d936971170fd9a57b6fcb57e iio: core: Add iio_read_acpi_mount_matrix() helper function
-         2763f9f21bd7417ff69eabca699ae4f560b69717 iio: accel: kxcjk-1013: Use new iio_read_acpi_mount_matrix() helper
-         269a5d77b0c635c9f451d357740f772d65e5bf08 iio: bmc150-accel-core: Use iio_read_acpi_mount_matrix() helper
-         971fe720319078cc2e0490d7f2177afbd20f7d72 iio: accel: mxc4005: Read orientation matrix from ACPI ROTM method
-         4f0599b0e8a25033683467fc5fd145b07f3a0a91 docs: iio: adis16475: fix device files tables
-         ee239fe56df22a4319407cf897a5a4ab17ca1711 iio: light: stk3310: Drop most likely fake ACPI ID
-         56394ad3da2da53a0999a1a8927cf6c4a3fc2e45 dt-bindings: iio: imu: add icm42686 inside inv_icm42600
-         008980048b68f663df3a9a34ccb86a1210a4a4c6 iio: imu: inv_icm42600: add support of ICM-42686-P
-         65427b3d210250e9430cd1d68600c820161685a3 iio: dac: adi-axi: fix a mistake in axi_dac_ext_info_set()
+         da244c16ac58a3b1b7d8c54ec7780fd8326da2ff clk: samsung: Revert "clk: Use device_get_match_data()"
          
+  - ref: refs/heads/for-next
+    old: 74502fa68eb4126e8f80fbe0cd9e97925a52af56
+    new: f19aa4422b2c4daf3c6b7e85cdc912096a5a1be0
+    log: |
+         da244c16ac58a3b1b7d8c54ec7780fd8326da2ff clk: samsung: Revert "clk: Use device_get_match_data()"
+         f19aa4422b2c4daf3c6b7e85cdc912096a5a1be0 Merge branch 'fixes' into for-next
+         
+
+--===============2725762162973737291==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher krzk@kernel.org 1714321060 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1714321059-d3502e21b2084c68c86e05f17002b5a4413b9cad
+
+4cece764965020c22cff7665b18a012006359095 da244c16ac58a3b1b7d8c54ec7780fd8326da2ff refs/heads/fixes
+74502fa68eb4126e8f80fbe0cd9e97925a52af56 f19aa4422b2c4daf3c6b7e85cdc912096a5a1be0 refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYudqQQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19b4D/wL5v/y8WxGYiFbzz3YoPmRwqSxSbHHWaHi
+BsKs/fjO5RcylYqWQPQXGLkmF3TZNL8IWYGg2sYw9oXOPf7LIYfdry4LYDegEZfy
+e5E6qsfunNvlInwvlRjbcOuErvSrADm9o5gDtQpAL+sLa0qdwvLmtsPo8bELN/Bo
+DWUdLIMUcU/EUmAFP+utP3MT1lVpc04Xr6UEogWw+EfGNfHw8Cu9SGiM4lhBHho7
+Qp/Tf9HloDiaaZADru9KlkogcjrKXoOR5kmIPgQxse5xzBxuwxRHflg+soRr7n8E
+FWtXqXxXj06P3N0owFlS0caedXBz4md1GSTkosJ8kISai3/k+f3VfUfZQiEM7OdQ
+aZNu11lvK0bIsxm1/e690lIosYvIy5ekcD1SdtxlPh5B75VVgGfwuVZ0OZncs2/L
+oDWSlJZ3dfVOCoZ0XijxZOJBeuKw4xZwhtga4Ghx9TkV/2WsPovYBw+aKXo0hJlt
+kJJieYvvxUMIKuIJev5kFBbAk4/6XMn0Jw72mHhsq2fGF+BS0Eh3nYER8DlkFXoG
+/HyoeI+qaHQuOIiax0N1/U0/AYv3JFZCD1/qF2cTD5/+lj8Dvy48zZ7nUHDilbn6
+f592zOOz9BYR4necp2CxVtWgl2n/Q+9gUAEQU39M8pbSdJ7lEvyfwZcwRHyS/fvx
+ksDPZlqWTA==
+=XC61
+-----END PGP SIGNATURE-----
+
+--===============2725762162973737291==--
