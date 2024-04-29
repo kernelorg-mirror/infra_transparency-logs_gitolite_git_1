@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2942932220574678097=="
+Content-Type: multipart/mixed; boundary="===============9063751690213576033=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 29 Apr 2024 14:46:30 -0000
-Message-Id: <171440199025.2204.3688880642243156371@gitolite.kernel.org>
+Date: Mon, 29 Apr 2024 14:46:43 -0000
+Message-Id: <171440200323.2366.8934287920462075345@gitolite.kernel.org>
 
---===============2942932220574678097==
+--===============9063751690213576033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 70d830e337f999ad186d0093e973805eaf6fb8ca
-    new: bd622532f7b35805d6afde38639b0d631fda818b
-    log: |
-         d39d1677c304d773d88db37c8ade4a3ace697c14 zorro: Use helpers from ioport.h
-         d301a71c76ee4c384b4e03cdc320a55f5cf1df05 macintosh/via-macii: Fix "BUG: sleeping function called from invalid context"
-         bd622532f7b35805d6afde38639b0d631fda818b m68k: amiga: Use str_plural() to fix Coccinelle warning
-         
-  - ref: refs/heads/for-v6.10
-    old: 70d830e337f999ad186d0093e973805eaf6fb8ca
-    new: bd622532f7b35805d6afde38639b0d631fda818b
-    log: |
-         d39d1677c304d773d88db37c8ade4a3ace697c14 zorro: Use helpers from ioport.h
-         d301a71c76ee4c384b4e03cdc320a55f5cf1df05 macintosh/via-macii: Fix "BUG: sleeping function called from invalid context"
-         bd622532f7b35805d6afde38639b0d631fda818b m68k: amiga: Use str_plural() to fix Coccinelle warning
-         
-  - ref: refs/heads/master
-    old: 31306b07e91abde90a708f9154ded3b1bac3a8c4
-    new: 3269a156e5b091ac589f3b232ffa73582df10f4f
-    log: revlist-31306b07e91a-3269a156e5b0.txt
+  - ref: refs/heads/m68k-queue
+    old: 399a770946401dcf790ba8601103318e3a825d61
+    new: a7d89f370c4bdeb77fb56d7d889631d271fce2a7
+    log: revlist-399a77094640-a7d89f370c4b.txt
 
---===============2942932220574678097==
+--===============9063751690213576033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-31306b07e91a-3269a156e5b0.txt
+Content-Disposition: attachment; filename=revlist-399a77094640-a7d89f370c4b.txt
 
 9c0f59e47a90c54d0153f8ddc0f80d7a36207d0e HID: i2c-hid: remove I2C_HID_READ_PENDING flag to prevent lock-up
 92826905ae340b7f2b25759a06c8c60bfc476b9f HID: intel-ish-hid: ipc: Fix dev_err usage with uninitialized dev->devc
@@ -413,9 +397,12 @@ d43df69f3879f32fcc08d92ec47bff86ae0fcfaa Merge tag '6.9-rc5-cifs-fixes-part2' of
 aec147c18856fa7115e14b9ad6a91c3ed2cf2e19 Merge tag 'x86-urgent-2024-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 245c8e81741b51fe1281964e4a6525311be6858f Merge tag 'sched-urgent-2024-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e67572cd2204894179d89bd7b984072f19313b03 Linux 6.9-rc6
-27753e2989972d97ef291f343874d17a6530e87f Merge tag 'v6.9-rc6'
-3fefa6c847841faf7e3d635cd8d27d393074da9d zorro: Use helpers from ioport.h
-0f35e016df9204e822319a86b214076d4a4aeedc macintosh/via-macii: Fix "BUG: sleeping function called from invalid context"
-3269a156e5b091ac589f3b232ffa73582df10f4f m68k: amiga: Use str_plural() to fix Coccinelle warning
+81f4dea24c06639dc5e458400565cc0c44ab7075 m68k: Calculate THREAD_SIZE from THREAD_SIZE_ORDER
+379e8ae35d256e3ab03dce8f68a984a911d1c7da zorro: Use helpers from ioport.h
+0884bd02ce5b34fb235116097f3ab310561b53fc macintosh/via-macii: Fix "BUG: sleeping function called from invalid context"
+45fbc54a4331a1e33e20551f60cb2233bd886890 m68k: amiga: Use str_plural() to fix Coccinelle warning
+356bf5b8125f24029eb6e2f9c9723856c1c908a1 m68k: atari: usb: Add ISP1160 USB host controller support
+241045676b0ec7fe5c4b19198f925044553e20ef m68k: atari: Update Kconfig.bus help text
+a7d89f370c4bdeb77fb56d7d889631d271fce2a7 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2942932220574678097==--
+--===============9063751690213576033==--
