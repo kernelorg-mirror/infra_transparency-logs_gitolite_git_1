@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 29 Apr 2024 12:31:54 -0000
-Message-Id: <171439391420.27517.16930121094340589459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 29 Apr 2024 12:32:15 -0000
+Message-Id: <171439393532.27717.15207960354078136294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 400fea4b9651adf5d7ebd5d71e905f34f4e4e493
-    new: 1e1dd773644e9de88f54386f7147c1068375fc75
+  - ref: refs/heads/main
+    old: fac87d32a092e0a987e3fb7a7821e2468e96f91c
+    new: e8dfd42c17faf183415323db1ef0c977be0d6489
     log: |
-         1e1dd773644e9de88f54386f7147c1068375fc75 x86/apic: Don't access the APIC when disabling X2APIC
+         e8dfd42c17faf183415323db1ef0c977be0d6489 ipv6: introduce dst_rt6_info() helper
          
