@@ -1,22 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 29 Apr 2024 05:24:45 -0000
-Message-Id: <171436828545.24487.3208515113798341195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Mon, 29 Apr 2024 05:28:20 -0000
+Message-Id: <171436850025.27435.1326185999513679178@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
-  - ref: refs/heads/main
-    old: b2ff42c6d3abc26ef0f395fe9ee8c64364fbaa22
-    new: bef1e4c8c3e06560f7f3bb9e42eb1c903bdc6dc2
+  - ref: refs/heads/master
+    old: 8419d80d8cd29a0cf14f91fb2da5656e0b617891
+    new: 7272a9724468622129978507c70efc68769aaf9f
     log: |
-         d85cf67a339685beae1d0aee27b7f61da95455be net: bcmgenet: synchronize EXT_RGMII_OOB_CTRL access
-         2dbe5f19368caae63b1f59f5bc2af78c7d522b3a net: bcmgenet: synchronize use of bcmgenet_set_rx_mode()
-         0d5e2a82232605b337972fb2c7d0cbc46898aca1 net: bcmgenet: synchronize UMAC_CMD access
-         bef1e4c8c3e06560f7f3bb9e42eb1c903bdc6dc2 Merge branch 'bcmgenet-protect-contended-accesses'
+         4d0495f575e5012d373e98a31684ef6bd3e7383b debian: add a note in debian/changelog regarding features being re-enabled
+         0b44576eaf51eb12141dd6079db5af1743cd06bc Remove duplicated word in release notes
+         1da249a125cb2ae138a6dd1d262754e2b4d45175 resize2fs: fix last bg's free clusters calculation on 64-bit file systems
+         7272a9724468622129978507c70efc68769aaf9f configure: add --without-libarchive option
+         
+  - ref: refs/heads/next
+    old: 8419d80d8cd29a0cf14f91fb2da5656e0b617891
+    new: 7272a9724468622129978507c70efc68769aaf9f
+    log: |
+         4d0495f575e5012d373e98a31684ef6bd3e7383b debian: add a note in debian/changelog regarding features being re-enabled
+         0b44576eaf51eb12141dd6079db5af1743cd06bc Remove duplicated word in release notes
+         1da249a125cb2ae138a6dd1d262754e2b4d45175 resize2fs: fix last bg's free clusters calculation on 64-bit file systems
+         7272a9724468622129978507c70efc68769aaf9f configure: add --without-libarchive option
          
