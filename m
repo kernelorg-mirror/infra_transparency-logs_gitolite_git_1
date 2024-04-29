@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7892674119215964226=="
+Content-Type: multipart/mixed; boundary="===============8120514456044185619=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 29 Apr 2024 15:36:07 -0000
-Message-Id: <171440496730.7006.3755439906017331231@gitolite.kernel.org>
+Date: Mon, 29 Apr 2024 15:36:39 -0000
+Message-Id: <171440499912.7446.6718623161686951176@gitolite.kernel.org>
 
---===============7892674119215964226==
+--===============8120514456044185619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 6a30653b604aaad1bf0f2e74b068ceb8b6fc7aea
-    new: ba1cb99b559e3b12db8b65ca9ff03358ea318064
-    log: revlist-6a30653b604a-ba1cb99b559e.txt
+  - ref: refs/heads/dev-queue
+    old: 5603fbcb2f5f02b7fb6401c13ae9fbc740be6aad
+    new: c05c1cca54e658ad50bc5eb68088d21fbbb51bc3
+    log: revlist-5603fbcb2f5f-c05c1cca54e6.txt
 
---===============7892674119215964226==
+--===============8120514456044185619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a30653b604a-ba1cb99b559e.txt
+Content-Disposition: attachment; filename=revlist-5603fbcb2f5f-c05c1cca54e6.txt
 
 229087f6f1dc2d0c38feba805770f28529980ec0 bpf, kconfig: Fix DEBUG_INFO_BTF_MODULES Kconfig definition
 cfddb048040b598fa7df0e51ca361289fc7abf28 MAINTAINERS: Update email address for Puranjay Mohan
@@ -53,5 +53,11 @@ b867247555c4181bf84eb10b72b176862c29112d Merge branch 'qed-error-codes'
 6dee402daba4eb8677a9438ebdcd8fe90ddd4326 vxlan: Fix racy device stats updates.
 b22ea4ef4c3438817fcb604255b55b0058ed8c64 vxlan: Add missing VNI filter counter update in arp_reduce().
 ba1cb99b559e3b12db8b65ca9ff03358ea318064 Merge branch 'vxlan-stats'
+ef17b2a8e8e8071b058684efd647c376f34b2e9e ice: Fix package download algorithm
+54f608eddf2f670459300c0785d81797ff1437fa e1000e: move force SMBUS near the end of enable_ulp function
+8e19ff717d94aaf20c5b45dd9c755b1daa2eca18 e1000e: change usleep_range to udelay in PHY mdic access
+91a6d8dcbe48dc54178700542a9ee67571d2b9d6 ice: Interpret .set_channels() input differently
+1d2b2a29db90f72d2033105d7487d7a2a6b23bcc ice: fix 200G PHY types to link speed mapping
+c05c1cca54e658ad50bc5eb68088d21fbbb51bc3 ice: Do not get coalesce settings while in reset
 
---===============7892674119215964226==--
+--===============8120514456044185619==--
