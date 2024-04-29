@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============6188747035668286967=="
+Content-Type: multipart/mixed; boundary="===============7360842741889532964=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 29 Apr 2024 10:58:47 -0000
-Message-Id: <171438832787.18239.5935161130337211431@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Mon, 29 Apr 2024 10:58:58 -0000
+Message-Id: <171438833848.18405.9250725050840654720@gitolite.kernel.org>
 
---===============6188747035668286967==
+--===============7360842741889532964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
   - ref: refs/heads/master
-    old: a5a1a4c706bb9afca47e9c97f490bf0ee9f3d7f6
-    new: fa08fc384eb2247d383c1a9bbf06d1d56ca23c0c
-    log: |
-         fa08fc384eb2247d383c1a9bbf06d1d56ca23c0c 6.1-stable patches
-         
+    old: 2c8159388952f530bd260e097293ccc0209240be
+    new: e67572cd2204894179d89bd7b984072f19313b03
+    log: revlist-2c8159388952-e67572cd2204.txt
 
---===============6188747035668286967==
+--===============7360842741889532964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2c8159388952-e67572cd2204.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714388326 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1714388323-50a9f677bd68ed6d2b52810d30726cc79ca50307
+11b1b8bc2b98e21ddf47e08b56c21502c685b2c3 sched/eevdf: Always update V if se->on_rq when reweighting
+afae8002b4fd3560c8f5f1567f3c3202c30a70fa sched/eevdf: Fix miscalculation in reweight_entity() when se is not curr
+1560d1f6eb6b398bddd80c16676776c0325fe5fe sched/eevdf: Prevent vlag from going out of bounds in reweight_eevdf()
+e70316d17f6ab49a6038ffd115397fd68f8c7be8 x86/sev: Check for MWAITX and MONITORX opcodes in the #VC handler
+2718a7fdf292b2dcb49c856fa8a6a955ebbbc45f x86/CPU/AMD: Add models 0x10-0x1f to the Zen5 range
+b53c6bd5d271d023857174b8fd3e32f98ae51372 x86/cpu: Fix check for RDPKRU in __show_regs()
+a0a8d15a798be4b8f20aca2ba91bf6b688c6a640 x86/tdx: Preserve shared bit on mprotect()
+c26591afd33adce296c022e3480dea4282b7ef91 irqchip/gic-v3-its: Prevent double free on error
+fe42754b94a42d08cf9501790afc25c4f6a5f631 cpu: Re-enable CPU mitigations by default for !X86 architectures
+ce0abef6a1d540acef85068e0e82bdf1fbeeb0e9 cpu: Ignore "mitigations" kernel parameter if CPU_MITIGATIONS=n
+5097cbcb38e6e0d2627c9dde1985e91d2c9f880e sched/isolation: Prevent boot crash when the boot CPU is nohz_full
+257bf89d84121280904800acd25cc2c444c717ae sched/isolation: Fix boot crash when maxcpus < first housekeeping CPU
+8d62e9bf287588c839b67e567c8b2b548e849b00 Merge tag 'irq-urgent-2024-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+aec147c18856fa7115e14b9ad6a91c3ed2cf2e19 Merge tag 'x86-urgent-2024-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+245c8e81741b51fe1281964e4a6525311be6858f Merge tag 'sched-urgent-2024-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e67572cd2204894179d89bd7b984072f19313b03 Linux 6.9-rc6
 
-a5a1a4c706bb9afca47e9c97f490bf0ee9f3d7f6 fa08fc384eb2247d383c1a9bbf06d1d56ca23c0c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYvfWYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hvMP/0Vt094Ma1TieD4HWdz0
-5mwcz2dhIpogS+QjCYOnaq2Eq6WxGljhwpUY7FILbu1Hz4/tc6CgigNLJE5KUKTX
-YE8wBaSP6gBkeajDWLS6vAO4od/8SO4a79tOsnOFcQA9tRbqsimTe6l0qhZt0n5r
-DjhbQk4PgMQ6+aiQ9965DK2dXwli/K0HOm3WuoRw4TG2izf+2f+UrZ86AcDjMcDp
-pPOKRT9/h3/4W3A16kWsKmaR03ubWYMsMivyATqEo6Tx0e/6V2vX/GwBqC7oZgqB
-YTdck2Q8HE/qFKXJUQS61agNhOkh51PGXo38DkE9BGdBBwvDvg9kqy7pqwx+fS7s
-0Gq4wVs8BrXqfXg+CR/ZtZPplemHGgZ63LB8YYeSpmL9IWK5NUJv+lj8iSo/cPHO
-OH5LaKJze+8ZmdCsEx2x/Ykg4DTVEsfSEpphukMhrlOE9I4Wmuh97Zh6R+q2Csh6
-wbecOL7ead8UglB9Pg3EJov1WzdvhqyZgZnEFky20oM/9YvLacTxAXOMsfXMHIIq
-lAla0T97/36ySU6pL/5jdl+zXv0jP3VFXMr2GUYANRZMFgeniLFnj1PtMroNWzz/
-HRM2SV89s4f2zU/sN7nK/X2xLARAVI44/g23c0rQGKahq2w9dhG0636UO0Vjbxmw
-A+Zdex7v+z1hH0d0iJb3OWo9
-=Cphp
------END PGP SIGNATURE-----
-
---===============6188747035668286967==--
+--===============7360842741889532964==--
