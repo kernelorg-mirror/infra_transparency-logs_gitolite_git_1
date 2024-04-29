@@ -1,52 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============7231555185852303329=="
+Content-Type: multipart/mixed; boundary="===============2385950115827820832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 29 Apr 2024 19:54:52 -0000
-Message-Id: <171442049273.5641.5480236427555388935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Mon, 29 Apr 2024 19:56:29 -0000
+Message-Id: <171442058970.7882.5938310913302495574@gitolite.kernel.org>
 
---===============7231555185852303329==
+--===============2385950115827820832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/testing
-    old: 7cef97f96973ab296afb2a242f3295ff25dc6091
-    new: 05c4081fbf4c98864dcf6c212afe9f611243dc92
-    log: revlist-7cef97f96973-05c4081fbf4c.txt
+  - ref: refs/heads/master
+    old: 515b40b3062a923cddaca138b5410ebcff43fbf8
+    new: 6bc94f049630aaa1231e0c65c21b2cbf9cf6a973
+    log: revlist-515b40b3062a-6bc94f049630.txt
+  - ref: refs/heads/next
+    old: 69e467f958b18dbeb1525690e0f5de8cf02b238c
+    new: 6bc94f049630aaa1231e0c65c21b2cbf9cf6a973
+    log: |
+         6bc94f049630aaa1231e0c65c21b2cbf9cf6a973 Update the version
+         
+  - ref: refs/tags/v2.3.3
+    old: 0000000000000000000000000000000000000000
+    new: dbc4c23336bc0ef5c04862adc07043c9067030ec
 
---===============7231555185852303329==
+--===============2385950115827820832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cef97f96973-05c4081fbf4c.txt
+Content-Disposition: attachment; filename=revlist-515b40b3062a-6bc94f049630.txt
 
-427298c632952709a33f3205d489ac496ae5b003 iio: adc: rtq6056: Use automated cleanup for mode handling in write_raw
-ef64a4ad8310620976bef97287285fa94799ccc0 iio: adc: ad7266: don't set masklength
-75616d2e3c9ecb22e41c2bf455d1588ee05f02e2 iio: adc: mxs-lradc-adc: don't set masklength
-79df437b5661b2f7e1c0bad097fd18c4e154bb94 iio: buffer: initialize masklength accumulator to 0
-02eae0bb9538dc7dcb5a6bc2c3066bd6ca682969 iio: core: Add iio_read_acpi_mount_matrix() helper function
-e074cc3080d507b3680160248bb5b450d7009efb iio: accel: kxcjk-1013: Use new iio_read_acpi_mount_matrix() helper
-dd3f40b53957541c04a9dceed178df38ddbe3447 iio: bmc150-accel-core: Use iio_read_acpi_mount_matrix() helper
-4a8e1e020a38009d3a352b1e4738f5c4dce70654 iio: accel: mxc4005: Read orientation matrix from ACPI ROTM method
-c19f273cae8ac785f83345f6eb2b2813d35ec148 docs: iio: adis16475: fix device files tables
-62de5e3e31a863000beccc25d6fa65c6ac2cedb8 iio: light: stk3310: Drop most likely fake ACPI ID
-3b0c13361298af009756d040176c8417c5f8146c dt-bindings: iio: imu: add icm42686 inside inv_icm42600
-a1432b5b4f4c44473ee97152c2f356d372ccd45c iio: imu: inv_icm42600: add support of ICM-42686-P
-73e49886a2834b79630cf4db6a98172aa066ce0e iio: dac: adi-axi: fix a mistake in axi_dac_ext_info_set()
-64ce7d4348be630badad2af22030bebf028b2861 iio: adc: ad7944: add support for chain mode
-633e3015cae062a424a6dd5099710adfe83a5e14 docs: iio: ad7944: add documentation for chain mode
-19fb11d7220b8abc016aa254dc7e6d9f2d49b178 dt-bindings: adc: axi-adc: add clocks property
-80721776c5af6f6dce7d84ba8df063957aa425a2 iio: adc: axi-adc: make sure AXI clock is enabled
-09415814cd1d0b90b898f81d6ad6a1c0a2e22d32 iio: backend: change docs padding
-c66eabcc1ca64dbf20d0758ce210a85fa83f4b21 iio: backend: add API for interface tuning
-fbc186055b41a49678ae3b2793020e67dfd8f7aa iio: adc: adi-axi-adc: remove regmap max register
-7ecb8ee5c93be9f00cbf090f7f53b2a32d995184 iio: adc: adi-axi-adc: support digital interface calibration
-05c4081fbf4c98864dcf6c212afe9f611243dc92 iio: adc: ad9467: support digital interface calibration
+94e6c90eb84353bac82103b125f24bbb39af070f USAGE: Remove table of contents section
+a778dfb846453555c535da4b6df2534e2bd9064b _damo_records: Separate memory fooprint recording from poll_target_pids()
+29160312183cfa7306b2bba519f6f756dccfe56d _damo_records: Record memory footprint for paddr case
+2a4226de479537f52def8ed45fb74457fac1dd25 _damo_records/start_recording(): Collapse unnecessarily split branches
+0ab7e6c266f26e73fd94422ec3257481b6dedd2b _damo_records/__poll_target_pids(): Pass only required parameters
+f125ff62424becaf4728bcb9c3aac0ce47863c7e _damo_records/poll_target_pids(): Receive required parameters only
+43a161a96321e2b4d38c3d1202a8ea04e64bc646 TODO/release_note: Update
+84aede673f274b51cc2f5ad384f038cf0b8d71ef damo_record: Support ongoing recording with --footprint
+58c6e778b8300b02b49591c26721939538485d31 TODO/release_note: Update
+ed309e30a56202e20333114b58df0a32f41c532e TODO: Cleanup completed items
+d9eb534ced1c7f466f5e682005ff6c093a93679b _damo_records: Rename poll_add_mem_footprint to record_mem_footprint
+ec5d0bd0f2ee8f951c89e29c2627dd8ab2110d8f _damo_records: Rename poll_add_child_tasks to add_child_tasks
+4ef08d1abac1bcaf65aadada7ec3825bc6bf220d _damon/DamosQuotaGoal: Check if metric is valid
+ef745d2a0b66b66cca81d5bb7a137cc5ece40543 _damon: Use variables for quota goal metrics
+c662a1fe2324b88a21bfef27595863a703708358 _damon_args: Wordsmith --damos_quota_goal help message
+0dfe9170c5d3c12d1125641c9aa57e3633db4387 TODO: Remove quota goals testing todo item
+7f18bec380a3a16c909637e2bc48adb0855ad07a damo_wss: Do '--collapse_targets' by default
+53782083f7fbe29fb6c39a80c66a453c345c05fb damo_record: Do '--include_child_tasks' by default
+d5bfca3199a401d47f041443a682cba836ab7d4b TODO: Update
+a5624bfdd3acf29b317e0533df924e0247b3b561 tests/report/expects/report-wss*: Update for changed report wss behavior
+0be57a9507dbd5210510f633b6b737ccdfe8d3ab tests/report/test: Use realpath for expect/result files
+69e467f958b18dbeb1525690e0f5de8cf02b238c release note: Update
+6bc94f049630aaa1231e0c65c21b2cbf9cf6a973 Update the version
 
---===============7231555185852303329==--
+--===============2385950115827820832==--
