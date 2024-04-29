@@ -1,57 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============2724376458076070980=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 29 Apr 2024 17:29:47 -0000
-Message-Id: <171441178783.27816.9569079843187253590@gitolite.kernel.org>
-
---===============2724376458076070980==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Mon, 29 Apr 2024 17:30:33 -0000
+Message-Id: <171441183356.29830.13612991610305003803@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: ab4d18f04865eb8ba575a7cc8843456a3004bc21
-    new: 87e0588641086e91f3d0a7d97b939301990b1e86
+  - ref: refs/heads/linus
+    old: 4630932a55298befbad62f2563f57bee16e0e450
+    new: a93289b830ce783955b22fbe5d1274a464c05acf
+  - ref: refs/heads/mm-nonmm-stable
+    old: 95982a76bb5032653795d00d37f866a6b0e11554
+    new: e02577872ff510c2e9e2d37134c908ef4841fe35
     log: |
-         da244c16ac58a3b1b7d8c54ec7780fd8326da2ff clk: samsung: Revert "clk: Use device_get_match_data()"
-         87e0588641086e91f3d0a7d97b939301990b1e86 Merge branch 'fixes' into for-next
+         0f373e6d91b9dd75317d05a21abd999783cf70da intel_th: remove usage of the deprecated ida_simple_xx() API
+         55dbc5b5174d0e7d1fa397d05aa4cb145e8b887e pps: remove usage of the deprecated ida_simple_xx() API
+         200a289b342bae6cbeb0b7406b2af55feef0de94 mux: remove usage of the deprecated ida_simple_xx() API
+         35c9dcde4ecb82ba4a46219a345c36054fd15454 selftests: exec: make binaries position independent
+         5a9d4d83864afde4469dccc4eb4a0449d6d5d76f cpumask: delete unused reset_cpu_possible_mask()
+         e02577872ff510c2e9e2d37134c908ef4841fe35 crash: add prefix for crash dumping messages
          
-
---===============2724376458076070980==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1714411785 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1714411785-f99256b9b4286fbb0854eb002c724d57c6581e59
-
-ab4d18f04865eb8ba575a7cc8843456a3004bc21 87e0588641086e91f3d0a7d97b939301990b1e86 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYv2QkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1wqRD/44npA97bL1LVdro/b8jqc6QJpLEhjKylDM
-0eTjMgO4EIEybEljJA8GlxuzohAu3IX2DVkI/RGCCIh8yQeFcbqMcmJkrOs//xUO
-omSwS77YNKh6QAkpx+FkG/+GVOe1iJr/wvKl8jOmBeGeF9/9qvo6Wf9cjzjZKwrc
-4c7/CC76XyFCkmG5+PWa4hA6qkHuX9IjQ5XeIBBdjhgler+s2ewExNAM13tVB7+O
-HRV9bikg3LiVNFVUGNpWyQqEAQDrSWgz1afkSzAhusl49YRsA8a8Fw5Tl4bpne4Q
-+mfUuNVrtvSuOnE9iE7f/UrtXOJAOCtk7WLwYNq8o2+c1ZJkuSu24io/TYVLZhK3
-QEvOYXwkiGmo34b4i0gAoHGIXTfWOPlYH2Cdt9tnwS6sfWqsgDQayWfeOkYmjvya
-/x4W7u22We+ievCD2MSopT5yehKusJRPz5ptocSi1aPdsAy6+CLjymtSRR6379fT
-JaPKamtpgm8R3ieyccRJjfg3OhPUXpaA9uv6MgGyKAS1ljdlwYbhX3qI3SkIkfuL
-4EoGs4WRj4vBQoUb9kznL5m98NgshRIwGOH1D20v9VWSE+/uM/5GPEqsz5fwtVbH
-VWjZcgrctrMlnSe4nJDMoTLHkjcCVgH4VCfB1aEpgMN5JH9o6wPDNJz0cmFxh+yB
-ATRH/sQ+xw==
-=+Oit
------END PGP SIGNATURE-----
-
---===============2724376458076070980==--
