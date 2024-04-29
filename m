@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 29 Apr 2024 23:09:49 -0000
-Message-Id: <171443218997.22450.7870187835582999414@gitolite.kernel.org>
+Date: Mon, 29 Apr 2024 23:10:19 -0000
+Message-Id: <171443221942.24272.4161888528856582941@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: 0db63c0b86e981a1e97d2596d64ceceba1a5470e
-    new: 45294bdad99d9c999123c9df826d52c3bad874c4
+  - ref: refs/heads/master
+    old: 45294bdad99d9c999123c9df826d52c3bad874c4
+    new: 397658ddc88ce3c21d2aa3bed8e15fc69dfec946
     log: |
-         45294bdad99d9c999123c9df826d52c3bad874c4 samples: bpf: Add valid info for VMLINUX_BTF
+         397658ddc88ce3c21d2aa3bed8e15fc69dfec946 samples/bpf: Add valid info for VMLINUX_BTF
          
