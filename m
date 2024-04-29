@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============9063751690213576033=="
+Content-Type: multipart/mixed; boundary="===============7209911071448487481=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 29 Apr 2024 14:46:43 -0000
-Message-Id: <171440200323.2366.8934287920462075345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 29 Apr 2024 14:50:06 -0000
+Message-Id: <171440220612.5268.8125466846188032130@gitolite.kernel.org>
 
---===============9063751690213576033==
+--===============7209911071448487481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
-user: geert
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/m68k-queue
-    old: 399a770946401dcf790ba8601103318e3a825d61
-    new: a7d89f370c4bdeb77fb56d7d889631d271fce2a7
-    log: revlist-399a77094640-a7d89f370c4b.txt
+  - ref: refs/heads/rw_iter
+    old: a7ee2240ad19391e433c28859f3cd22423b1ce3c
+    new: b158fdfcda0d55075803aa1a7cd4eb1bff2f5753
+    log: revlist-a7ee2240ad19-b158fdfcda0d.txt
 
---===============9063751690213576033==
+--===============7209911071448487481==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-399a77094640-a7d89f370c4b.txt
+Content-Disposition: attachment; filename=revlist-a7ee2240ad19-b158fdfcda0d.txt
 
 9c0f59e47a90c54d0153f8ddc0f80d7a36207d0e HID: i2c-hid: remove I2C_HID_READ_PENDING flag to prevent lock-up
 92826905ae340b7f2b25759a06c8c60bfc476b9f HID: intel-ish-hid: ipc: Fix dev_err usage with uninitialized dev->devc
@@ -397,12 +397,443 @@ d43df69f3879f32fcc08d92ec47bff86ae0fcfaa Merge tag '6.9-rc5-cifs-fixes-part2' of
 aec147c18856fa7115e14b9ad6a91c3ed2cf2e19 Merge tag 'x86-urgent-2024-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 245c8e81741b51fe1281964e4a6525311be6858f Merge tag 'sched-urgent-2024-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e67572cd2204894179d89bd7b984072f19313b03 Linux 6.9-rc6
-81f4dea24c06639dc5e458400565cc0c44ab7075 m68k: Calculate THREAD_SIZE from THREAD_SIZE_ORDER
-379e8ae35d256e3ab03dce8f68a984a911d1c7da zorro: Use helpers from ioport.h
-0884bd02ce5b34fb235116097f3ab310561b53fc macintosh/via-macii: Fix "BUG: sleeping function called from invalid context"
-45fbc54a4331a1e33e20551f60cb2233bd886890 m68k: amiga: Use str_plural() to fix Coccinelle warning
-356bf5b8125f24029eb6e2f9c9723856c1c908a1 m68k: atari: usb: Add ISP1160 USB host controller support
-241045676b0ec7fe5c4b19198f925044553e20ef m68k: atari: Update Kconfig.bus help text
-a7d89f370c4bdeb77fb56d7d889631d271fce2a7 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+51c901144fe1ec88a64b24264e093bdff5aaa1a5 Merge branch 'read_iter' into rw_iter
+8d4f5685efcf5593f80e1b29a9c29fb79e88e422 fs: split do_loop_readv_writev() into separate read/write side helpers
+6e02876865f2aa12cb501713d9c44cf9aa5081f9 fs: add generic read/write iterator helpers
+eba57aa46e37d513b8ef64b0ffa2da48725bd10f fs: add helpers for defining read/write iterator helpers
+1b200b4aa63ce03bc1d0cdc14fe3ae8772259e12 fs: add simple_copy_{to,from}_iter() helpers
+9dca42491b3e117c4868ee16f16d1815353159a7 uio: add get/put_iter helpers
+6cc4eb53ad48f0b84b9e58a7ca49d1e70e4f7b28 fs: add uio.h to fs.h
+8a3b067fc2404c537d5afaa27c790493411f6ab3 mm/util: add iterdup_nul() and iterdup() helpers
+b51b828968ae527814d38c098b3c3811eb8f3aed kstrtox: add iov_iter versions of the string conversion helpers
+ff6b8286122b674e3440098044912dd030426e47 lib/string_helpers: split __parse_int_array() into a helper
+b0e0f91028605244395ff3a88cf2bc697e3a4dca lib/string_helpers: add parse_int_array_iter()
+0a01d7c2b4c41a639bbac8891831fa5f2a552978 virtio_console: convert to read/write iterator helpers
+2c98a3469ebcfd65082a0d57cfaff241245b84db char/adi: convert to read/write iterators
+3c679b11d9f6e42798c58ba9e3188ccc2567fe6d char/apm-emulation: convert to read/write iterators
+3ff8d6bed70ac56d8f0a5dd9ce5eb16f08d53670 char/applicom: convert to read/write iterators
+160025c4cdfc8d4edc2df6debaabf8c186ec14a1 char/nsc_gpio: convert to read/write iterators
+b41a6234a7cd55ce61bcd6eceda612a19b64c88f char/dsp1620: convert to read/write iterators
+56b6321a036b4586b28159328100522ae673b3ad char/dsp56k: convert to read/write iterators
+9cd70f10b7f3f80492af08b2977b8fa9fefc540a char/dtlk: convert to read/write iterators
+0896a5e005d3a703ca98fa6b40ae7adc82fa10e8 char/hpet: convert to read/write iterators
+35c9dbcc0953951293fcd572c73bad744671f77b char/hw_random: convert to read/write iterators
+21b01794a80bd718bb107cebeefa2727711aae4a char/ipmi: convert to read/write iterators
+2d2bd62cdc52d5220e1bcb2fa123618c319ae17c char/tpm: convert to read/write iterators
+66df40c159084d2cf1a45e282d89dd9d25fb07a1 char/lp: convert to read/write iterators
+1ef0b66e343c51210270b63b6a09c53bc9ad9941 char/mem: convert to read/write iterators
+8860512163cb4d8274803de1bfdf0cfd5f16d0aa char/mwave: convert to read/write iterators
+ea8954dbb6a3ac58ef25bbf55028d483c5faa694 char/nvram: convert to read/write iterators
+ad6dee228108ae9b603c6b3def631c49f023c8ec char/nwbutton: convert to read/write iterators
+32edd462a44dbf53e617bc1fb8f5c849dd963bab char/nwflash: convert to read/write iterators
+bba763a55fc90645879310974b9c7c3d2a1d783a char/pc8736x_gpio: convert to read/write iterators
+9ff6c7d1c5c51b094b1761af43e8e280628424c5 char/powernv-op-panel: convert to read/write iterators
+98f30b90d8b605742e75abfe3d24171ad45ffc3b char/ppdev: convert to read/write iterators
+09def7589c15ea34b80550db6bf7215b105fd000 char/ps3flash: convert to read/write iterators
+b134c7c0b550e46104da937a3841442bb934d2ab char/scx200_gpio: convert to read/write iterators
+1864333c42bc722e8e78ed4c07c921097bf5d73c char/sonypi: convert to read/write iterators
+5c969fde2cd7dc1f8ea3057a117943f5128b20e7 char/tlclk: convert to read/write iterators
+6db796708ca2a520c857737e023d5c269a4eb134 char/xilinx_hwicap: convert to read/write iterators
+8df37b579f532bd16ec32ae709426c670271b6f6 char/xillybus: convert to read/write iterators
+ea1f4a35bdaf8763a54329167f8912c420d77cec debugfs: convert to ->read_iter()
+7824d997272f1bea5746d28c6a44fba5ae8907e2 libfs: switch to read iter and add copy helpers
+3b97862311b6ba5d2a5a65fc3535693e6e3fe248 fs: convert generic_read_dir() to ->read_iter()
+ecd868e1007a14189707f3cbde1dfed6c02dfb05 fs: convert any user of fops->read() for seq_read to read_iter
+d6a38b20b99deb72f13782be7d794b250bf39f08 ceph: convert read_dir handler to read_iter()
+5c6edc5c35b31b12aaa03782c5b3f08fb5a6726d ecryptfs: miscdev: convert to read/write iterators
+9c54c5da4f615684229b4210f38dd8ed38038a9a ocfs2: convert to read/write iterators
+e652dbb8604ff884d2b4bda27ef0495d8f7e8abb orangefs: convert to read/write iterators
+dc51565e4d8217ebbcddf1b632018a24956a33e9 dlm: convert to read/write iterators
+dd4ae8616ef7d72f68a42f13837cb48f86cad8f6 tracefs: convert to read/write iterators
+003451b0b05d54e8326204cf848e7535c8bac784 ubifs: convert to read/write iterators
+a8f66ca02fc1feae8f26d2e9352f986f3ddf050a fuse: convert to read/write iterators
+94f5eb2f2e2a171b0478817b46b031b65e164ac0 staging: convert drivers to read/write iterators
+1d3e5b45a684c7cb95eb97cf45a0a3c5ceae2a16 Bluetooth: convert to read/write iterators
+cc2ccdc25c53ed03df09984a4e1db60bcc0815c9 net: mac80211: convert to read/write iterators
+a53cbf33bed45f883aa83fcd7c7eca0845b9e7c7 net: 6lowpan: convert debugfs to read/write iterators
+0ea18bbb6a522dac412e5662a422bdacb5a2338f net: sunrpc: convert to read/write iterators
+352b20f8b342d325aa2ff28e2586b50476ae70c2 net: wireless: convert to read/write iterators
+36dfeb7d71ecfa9d87ab90b214622b7488ff2670 net: rfkill: convert to read/write iterators
+95fb384ec885c296655ee36de6514a584cb36d3f net: l2tp: convert to read/write iterators
+60a7407905e14f4222bf80defa99369fb64b5bf5 fs: add IOCB_VECTORED flags
+75a37845cbf9a764526733520a8b7bef9cf6dd72 ALSA: core: convert to read/write iterators
+c1625f2df0a8c1becd23212c7e7c1cef3420f2b1 ASoC: Intel: convert to read/write iterators
+67fcacfccc2b8d50fd503c111d0028cd40fe9072 ASoC: fsl: convert to read/write iterators
+e3b7645896c7bea56684fa8ab2a581eccdbf5e40 ALSA: pcmtest: convert to read/write iterators
+e38881650ec834ac854268ae3942054466558c95 sound/oss/dmasound: convert to read/write iterators
+37e5b16d59f9207c8e8e31aad2bb871cbaadc0ee ASoC: SOF: icp3-dtrace: convert to read/write iterators
+3e15fe2cca04f4aab64a1f6ccbd22acb8c764f64 SoC: SOF: icp4: convert to read/write iterators
+f929fe5179ee1712297f91783803d9593dded4cb ASoC: SOF: Core: convert to read/write iterators
+b742b431dd3890d1869dc29179c43318be1d03d0 ASoC: SOF: convert to read/write iterators
+6855fdf89b6ae628aa25261d23d1064bb4c70ca7 block: convert to read/write iterators
+727cff97089a00ad537da5e82739e2304bc67eba bpf: convert to read/write iterators
+1e7b92a34c1efce3e68ba3dc8d25ffbbcf3a1689 perf: convert events to read/write iterators
+51a62df683a6dc171a5d8a6c2b2d0c07dcfcf557 dma-debug: convert to read/write iterators
+a7e1a21ac7f01ea2a9148ff457a6d45c763312fc kernel/fail_function: convert to read/write iterators
+f3de3eef8c30945eb44dfb6cfef503e0453ecbde kcsan: convert to read/write iterators
+5278f5a87382c09163c970f9907e51656a0df121 module: convert to read/write iterators
+c8dd4a8a5ce87f921836b91e4e46ce82a60ee783 kernel/power: convert to read/write iterators
+fa7bc69636a735edaea661e1ec4f09470ef35f3a printk: convert to read/write iterators
+324ce8ed1684f04cef56da06ab2a120b71eceb27 relay: convert to read/write iterators
+bd01cd1d7e5e3c47a17350b6b430fcac9cf236d2 kernel/time: convert to read/write iterators
+91e535a9dc992768d1c17e4f5f4180d381e406dc rv: convert to read/write iterators
+d6784abffc53914cae5cfeda7271299d9cd43ff8 tracing: convert to read/write iterators
+1b84586e9619c567e78857b1c33a7a94ba971841 gcov: convert to read/write iterators
+bcf0ad593d3f70d7ebe9d50d08294178261ddf6d sched/debug: convert to read/write iterators
+d443295e134ace1376c21fc1e73f8059610fdf98 kernel/irq: convert debugfs helpers to read/write iterators
+0d6905f1694b13758e601b338bbaa8a15ad4cade locking/lock_events: convert to read/write iterators
+1c049d5782819cc10e5d5a4f189b00b3f62fec9a kprobes: convert to read/write iterators
+f24974aff7bbb2c596d56682c4bc741408a9ce02 fs: add iterator based version of simple_transaction_read()
+0c6a557d048845b44985d4a8618486b805242883 tomoyo: convert to read/write iterators
+c67b223fff5823fd043f149ff285a2abc59fec99 smack: convert to read/write iterators
+307ea457ed3f71d1b9b1cc0da70cf5d25f852696 apparmor: convert to read/write iterators
+a0fe6d5b89b7fc664dd2de21d5a889685d5508ed landlock: convert to read/write iterators
+57a43cb0bdafb282d8281454481584af48a3a180 lsm: convert to read/write iterators
+556f3562eb8eed017bd1529bcd112ca7eb4eddc3 selinux: convert to read/write iterators
+3cf7f55cd61596c55189623639040a3ff87111a2 integrity: convert to read/write iterators
+13a40fb675d9ccd5f82f35a59a28610d8377dc3a lockdown: convert to read/write iterators
+1a87124d5880ef39b8461d41a3750a01997d8d3f security: convert to read/write iterators
+8fba647b7e067307f43d9d3cfeb2304c339fc29b mm: convert to read/write iterators
+df0ec92ad57742b4c2291a11920092f0d650b826 aoe: convert to read/write iterators
+637ad726a826576c3aba108d80bccc11b9e7d30a drbd: convert to read/write iterators
+1ffe44f65ad059a0bcc865febae6ad89dd2c1160 mtip32xx: convert to read/write iterators
+905f487783878887706e23ab5698e8132be45627 zram: convert to read/write iterators
+9b57b51c9eaa7cc20eb7eeb2f92a628bce12e9f6 s390/dasd: convert to read/write iterators
+68318b022dd813d0a11de79d08f408efcaf56d2f lib: convert to read/write iterators
+2a5826a7f7de639e598bb5c11b6147e80e24863e ipc: convert to read/write iterators
+6a1a83d7b4361a4d88f58bccc39e962aaf11adc5 drivers/accel: convert to read/write iterators
+75ff09d9a19c2953fd98cfacbaccb3fb60d5ebda drivers/acpi: convert to read/write iterators
+a028ca217bd8fd5e7be59a84d34f35c6b7c234fe crypto: hisilicon: convert to read/write iterators
+93ee853ad63b9d5bb308afae4ec00d9d322f7007 crypto: iaa: convert to read/write iterators
+f8efc6087b2675f9b648835201544f17372a3ae2 crypto: qat: convert to read/write iterators
+e8d2482df5e433a265e243021d3a438aa8f76fab crypto: cpp: convert to read/write iterators
+3c0f09c97e44d8d4d702aeb9d56e9601c6e04536 fs/pstore: convert to read/write iterators
+c3a7518b1cdf7e208a48c525c2323636ee9743b7 drivers/gpio: convert to ->read_iter and ->write_iter
+7fe1928dd6795ea632a1b87dccb425c47cea117f drivers/bluetooth: convert to read/write iterators
+dbbdee304f71230f7e51c4c1a79e8f9c172e28bc drivers/ras: convert to read/write iterators
+9de3590ec6f8decd9e42e4e4d65c4ea8cc0efdcf fs/efivars: convert to read/write iterators
+3558fd7dc00daa1f1403b24890cc80fdb1fe27f2 drivers/comedi: convert to read/write iterators
+7fc5654e0f9349680c5c335e9eff46eee6f8d52f drivers/counter: convert to read/write iterators
+32d84de31c2ec60702e55442cfd593d776587da8 drivers/hid: convert to read/write iterators
+d268b1d25fd88589ceb5b4ac590d4426331917b0 drivers/tty: convert to ->read_iter and ->write_iter
+08d416e5bb2b112921ed2f4b79db022945227713 drivers/auxdisplay: convert to read/write iterators
+91b7f29ca2d82660807a9df2953ef2555a66cbc2 fs/eventfd: convert to read/write iterators
+f5829c10e8f4aa697f8eac6d372600dbc110cc53 drivers/input: convert to read/write iterators
+9652176504cba7df0966110c040f9f3daa610487 drivers/pci: convert to read/write iterators
+80c04591ff31ce64d38c50bb4cf7063493cb8dd4 fs/fuse: convert to read/write iterators
+b8af1767e1ce525b8be6995e543605c15d639759 firmware: arm_scmi: convert to read/write iterators
+68b7b5a60e11e2f34757a8a0341d58f0b574cd6a firmware: cirrus: convert to read/write iterators
+053c0fe30e8eff2f175b53eda8deef727529367c firmware: efi: convert to read/write iterators
+c9834b6af4c6c21472d78ab2ec18522ffe29c4c2 firmware: psci: convert to read/write iterators
+8a1a0977a1dc7dffb8df128fa1c02a379fce4d75 firmware: turris-mox-rwtm: convert to read/write iterators
+8acbe8bf74283de64b40163214f8ca4f5716fa03 firmware: tegra: convert to read/write iterators
+2e157f5ef74583420492363f49c7aa228f3eda8f drivers/i2c: convert to read/write iterators
+53a8758a46c587a2c96b2adb07be43481fefe248 drivers/opp: convert to read/write iterators
+4ef3952d623724c864e8d1f7f137fff7856b2b4b drivers/base: convert to read/write iterators
+9cdc6c8d12af59398882c2b60170f018bfe4aae7 drivers/bus: convert to read/write iterators
+1bce4d9a57dfd487dded69d9455f9cea3ce32789 drivers/regulator: convert to read/write iterators
+a16f767d033e6b4e0f9927861eabaa0b7addae9a fs/notify: convert to read/write iterators
+add51ef997f8aaf42c8617520eb658c83890f66e drm: switch drm_read() to be iterator based
+a66b1d4699554f0f80e704133a5dea875b2ab30d drm: convert debugfs helpers to be read/write iterator based
+a9cbff342ada33da8ae18b20c449429e22906e30 drm/i915: convert to read/write iterators
+b1667041fb195b76d893e1daa515a174a419d936 drm: amd: convert to read/write iterators
+c374d65fb81d3a282369660f5244d11377312e13 drm: msm: convert to read/write iterators
+ba14d9d240a13c071b8e12d3e561c8e555be623b drm: nouveau: convert to read/write iterators
+9af5190c8fb524da7b838fe685b18a6fbf638979 drm: mipi: convert to read/write iterators
+1921902f0dd248859eab8a51c0ac24ee1dfd7ac3 drm: mali: convert to read/write iterators
+acd5c6df463f6ea6a7c54a41c17bbc868b6e93fb drm/bridge: it6505: convert to read/write iterators
+47b440c51a1d17a000d2787c80a198f74b17c006 drm/imagination: convert to read/write iterators
+2422429dc6389607bc83be95afaf2c01b9d1c38b drm/loongson: convert to read/write iterators
+7d2db88ff64d500972d635a1098289e2fbb05e2c drm/radeon/radeon_ttm: convert to read/write iterators
+4bf3c1fcac5647dbc0fbf9b00a5da51cf024d31f drm: armada: convert to read/write iterators
+2d5d75cffcbae3d4fa4731354efaa6a598676642 drm: omap: convert to read/write iterators
+5e2f5f3d3adae209d5846cb9725011cdc77241eb vga_switcheroo: convert to read/write iterators
+a9fcc87c43de06f257614088c38046c9ddc0cafb drivers/clk: convert to read/write iterators
+f3674d6d7fd7e4b1ebbd54d93303d4685d64f459 drivers/rtc: convert to read/write iterators
+01784219ad01525709c5c89112f23a6dabc3c967 drivers/dma: convert to read/write iterators
+b98c25a98d9b94b8010154eba7bc436df7e4a67d fs/debugfs: convert to read/write iterators
+ea41d83b161400381ba77311590d89a7814a0d70 HID: usbhid: convert to read/write iterators
+6c8d47aba6457e6be03e78c3c0d120d9b259508f usb: chipidea: convert to read/write iterators
+e28a34abf055bcdcb6e497be3946b8b2cdc7aeb7 usb: class: convert to read/write iterators
+5175e34b0821f1ef46e4c58081d79216e1047b6c usb: core: convert to read/write iterators
+18dbdc4af9d17acd664e30ec383da7eee9249a45 usb: dwc2: convert to read/write iterators
+0909802f74094c48f4e13bc158fcf0252154aa3c usb: dwc3: convert to read/write iterators
+df0ac7f40514d708e0f698c4a7117cb243d2679b usb: fotg210-hcd: convert to read/write iterators
+deb9e7e85ec18cba3ad248937a86ac12d0418652 usb: gadget: convert to read/write iterators
+785cced3a8606b06aed45b9b1d689f154b10678a usb: host: ehci: convert to read/write iterators
+f65017836d1b8123123c262c4883000f4b103829 usb: host: ohci: convert to read/write iterators
+8b85b2b4996f4d655da2595b850519d757178690 usb: host: uhci: convert to read/write iterators
+690aba11200c70e71c747241e4994ee44ee32570 usb: host: xhci: convert to read/write iterators
+80df4a17b9e71f5f1ba19d8c8cdca05c5d9d0d8a usb: image: mdc800: convert to read/write iterators
+240accad2942373436574c57c2fa95c3238c354c usb: misc: convert to read/write iterators
+28fce5a8e10c23695bada99b08dbd087ad3b4bac usb: mon: convert to read/write iterators
+1e89fd634bbc0b88f3d2ebeaa989392ef6e0128c usb: mtu3: convert to read/write iterators
+b0758c82707392a93edf821fbc30e480f2847c3b usb: musb: convert to read/write iterators
+097e073439c5f46447f7f1eef67f5e2dc178f322 usb: skeleton: convert to read/write iterators
+c0427648b9e69e60381112ba711713d793608438 usb: gadget: atmel_usba_udc: convert to read/write iterators
+069a5df6dc2784b4e3973c8be1331c8ec7623fe1 soc: qcom: convert to read/write iterators
+bf5d9ed90bd867a9eb5892c2f2a7e8863ba3530e soc: aspeed: convert to read/write iterators
+bfe5cb59777f23d2d2daaef5970ce934e7ba89ca soc: fsl: convert to read/write iterators
+9332f1e01f090815f18b7444814faa4b0a5c032e soc: mediatek: convert to read/write iterators
+1504e0c772141d7c12283651d70646fb79fa0ec7 soc: sifive: ccache: convert to read/write iterators
+d1f3b588c70da4afc84e0ec192322102b0fdec26 drivers/pinctrl: convert to ->read_iter and ->write_iter
+2337a3953ef3971cf7a30ca6cce1f8dd1c8722a0 drivers/phy: convert to ->read_iter and ->write_iter
+47c600c96bdb58c39a4239295f6a48718a784108 drivers/ufs: convert to ->read_iter and ->write_iter
+406f6066c47ba3820dd5164b9c1f7065a1038ebf drivers/uio: convert to ->read_iter and ->write_iter
+7d061e0f6c3e24535aa9948c56129c0cf4ab1dcc drivers/platform: convert to ->read_iter and ->write_iter
+209df96bee3e5869a53b2fe4d748f6168a4fe898 drivers/mtd: convert to ->read_iter and ->write_iter
+15adb961bdfa5134b0995a6ea02c919ea97ee675 scsi: bfa: convert to read/write iterators
+d5c19d0a2a54e55c922fd1d4803dceb01509da51 scsi: csiostor: convert to read/write iterators
+56c8a17c5eda94e3af171242f0d704f165dec7ab scsi: fnic: convert to read/write iterators
+0da9b7449df62b56606fd4b36b34eaa459715541 scsi: hisi_sas: convert to read/write iterators
+fa12ea1b98c5b61c5d17e99e0cbf049ba436c7f2 scsi: lpfc: convert to read/write iterators
+31d66c6959ccc5bc20a6ffa132f35a125e1d0f3a scsi: megaraid: convert to read/write iterators
+db522c1604ab65c404d00099b1d8c45079a6fe42 scsi: mpt3sas: convert to read/write iterators
+7d12e4ea6e9210f8849ed62327fdaae5b34fed32 scsi: qedf: convert to read/write iterators
+bb283420edf7a487992caf3d57fc92253336eed9 scsi: qedi: convert to read/write iterators
+e05fe588cb263002a4b38fc8d208a343f1ab266f scsi: qla2xxx: convert to read/write iterators
+eaa091a8e2ffec88f2ed3c6f7809ab63ad408bf2 scsi: snic: convert to read/write iterators
+1741a383f75f57ca524eecd4324a66f97a4d5cd4 scsi: cxlflash: convert to read/write iterators
+2661bf180cb5d7270f58f923d54a05fc9c3b1f2c scsi: scsi_debug: convert to read/write iterators
+31c36d8a3916129edf74c71f233f1bf57d084416 scsi: sg: convert to read/write iterators
+e004f0392dbe6c067fc07b8718cbd08c7d713fff scsi: st: convert to read/write iterators
+2f349f28d78f1ff5ff79436d1c552ccd51726ada staging: axis: convert to read/write iterators
+1645259ee3a722c182d8430985de44ecbdf54bb0 staging: fieldbus: convert to read/write iterators
+dc81f27d3cce5e9ada4b24edf2ac3ab877b30817 staging: greybus: convert to read/write iterators
+b2112be2deb0c7945a2f93ffbb60d533a17f9760 staging: av7110: convert to read/write iterators
+338a7db79a24e3f8475829f3a1e2196d4418c36f staging: vc04_services: convert to read/write iterators
+3240bfb3b7b077bf8ecb230a71759e761757a91f drivers/xen: convert to ->read_iter and ->write_iter
+533a8baac5410da1229d7e8913ab1ffc978f428f virt: convert to ->read_iter and ->write_iter
+ab5270a456e07c61251d790de06d63df74e77eaa virt: fsl_hypervisor: convert to read/write iterators
+9061b4597c738769a5afeb2687e18999fefa4f1e drivers/video: convert to ->read_iter and ->write_iter
+be8b02ad76c6944536404d4e61db96d672a55738 video: fbdev: pxa3xx-gcu: convert to read/write iterators
+610e16a1ff1ae943f32444c894723b11e014f3c2 drivers/iommu: convert intel iommu to read/write iterators
+698e62c8ff2ee3e645b91ab901aa37d3e70b50a6 drivers/iommu: convert omap to read/write iterators
+c9c048d51ed1ad97cdbb123d0aea32c3126dcc37 misc: bcm_vk: convert to iterators
+69c9a2a853b8a6c369945b0c67c90f1eb9f4c85a misc: lis3lv02d: convert to iterators
+aeb13b1d4edae22de549b8dc11ba8da8f5075137 misc: eeprom/idt_89hpesx: convert to read/write iterators
+08f80a3c81e28e402ea2a9cff7261d2a8e9532d5 misc: hpilo: convert to read/write iterators
+a37e09968dfcce02b017ccd09373d259be85d1a3 misc: lkdtm: convert to read/write iterators
+962419905073806f0523db4ee9b88b9d7810e494 misc: open-dice: convert to read/write iterators
+61e6258eb82b5328e575d79ffba83cf3a089558d misc: tps6594-pfsm: convert to read/write iterators
+81a8aaf5a7af476574a843d57ea870f6844f3439 misc: ibmvmc: convert to read/write iterators
+96f061d1db5f8f26c3b709b86167335d4b833350 misc: cxl: convert to read/write iterators
+b6e34f17ce041b0f9562e3734d8c885851602cf7 misc: ocxl: convert to read/write iterators
+9119b32d927335d5b98f3364e11b7d9a7fb5f6b0 drivers/isdn: convert to read/write iterators
+1759da3449db36cd7d9b0bbfac1b43026c853db6 drivers/leds: convert to read/write iterators
+05f90d33805687fafbe62cf58253f5f11a5e2b0d drivers/mailbox: convert to read/write iterators
+7349e3dafed305b59720b9019c8d0d27c870b5e1 drivers/mfd: convert to read/write iterators
+002b72b0251250b6e00872448ef523902ad3f4f4 drivers/misc/mei: convert to read/write iterators
+997113733090ddf8579b650c995647ae10738eda misc: ibmasm: convert to read/write iterators
+626d1a8df0022eaa8e6fce895a03eece1b9b28f0 drivers/spi: convert to read/write iterators
+ee6cfa83407e19192e9d464ee0e750837e42852b drivers/nfc: convert to read/write iterators
+99f6cdf3f6c5ed3dbb0a1489dbcda9c853027dd9 drivers/nvme: convert to read/write iterators
+7f16e27960a95085f8d45ac4ac60956dc03ec5a0 drivers/firewire: convert to read/write iterators
+f83ac0389b034dea2768b2db6c4674dec9d9c6e2 drivers/mfd: convert to read/write iterators
+10d5e984459ef2d87821ae4c37a33d360e883c66 watchdog: acquirewdt: convert to read/write iterators
+d40dd875f49f247a7f371a87075e86132d667a71 watchdog: advantechwdt: convert to read/write iterators
+43e657e82f46a5cec405397eb8dfa8ed25113947 watchdog: alim1535_wdt: convert to read/write iterators
+ca4f297a1612a97a98227423b45ff8f1ced063eb watchdog: alim7101_wdt: convert to read/write iterators
+f836fb01d8bc1588aadeb62913f3600c328ae1fb watchdog: at91rm9200_wdt: convert to read/write iterators
+3115aa7bbb5208c6a1f0f40fa36947d1d3f1286c watchdog: cpu5wdt: convert to read/write iterators
+28f1b4354e864de003220124de62bc0d8d69d70d watchdog: eurotechwdt: convert to read/write iterators
+66088fb49e7455952c724e7a624369599e1580ad watchdog: geodewdt: convert to read/write iterators
+48372097b1c1895ea36ab17f86d87cfd8fcb6147 watchdog: ib700wdt: convert to read/write iterators
+85923804fb84c6b1720b133f8e362312e5c02502 watchdog: ibmasr: convert to read/write iterators
+56f7584ac1e0f3519180db3c8f685304086c0048 watchdog: it8712f_wdt: convert to read/write iterators
+4781c5494b817bfccf8882126d75c718c585b42e watchdog: machzwd: convert to read/write iterators
+648fd158618bba5d1fcc02993ba65978840289dc watchdog: mei_wdt: convert to read/write iterators
+4619f8d8bd8baa74d07155e2364b500fe4b856bc watchdog: nv_tco: convert to read/write iterators
+b4011506616c7bdbe2ac488a4060485a01c4410c watchdog: pc87413_wdt: convert to read/write iterators
+0d9b7186b7d553dcddc7fe46d7a60df807f5bbb3 watchdog: pcwd_pci: convert to read/write iterators
+cb8c63c6c0938639abf9e666b27bb0251d70a1e8 watchdog: pcwd_usb: convert to read/write iterators
+b3c6508e6857f42204bdd80826277277908c23db watchdog: rdc321x_wdt: convert to read/write iterators
+61c77d51160fbd97969d4015842cbbd93cf6902e watchdog: sa1100_wdt: convert to read/write iterators
+2d1cbec08acd7c7c23bfe83dabba2c107cc1d07f watchdog: sbc60xxwdt: convert to read/write iterators
+72dacaadb5b12b91ca620660b130ddbaca19b718 watchdog: sbc_epx_c3: convert to read/write iterators
+6eb647d637066a0f7fc16e64cd5877072290d809 watchdog: sbc_fitpc2_wdt: convert to read/write iterators
+a4eaa9f63f2cd02889a3bb47770d37a1fac951a4 watchdog: sc1200wdt: convert to read/write iterators
+c6aed726254edd44c6fd687462418c7cd69f283d watchdog: sc520_wdt: convert to read/write iterators
+cadc7fad85c22b9d675543443e00b3d440b0a994 watchdog: sch311x_wdt: convert to read/write iterators
+0fc9547393f8a355f948b58ffcb6c6712e01eec1 watchdog: smsc37b787_wdt: convert to read/write iterators
+536b8e339fce6f0e19bfaeab16b4674ba2ecc696 watchdog: w83877f_wdt: convert to read/write iterators
+2060ceb7f366c46dec189749997db28acc1f74cd watchdog: w83977f_wdt: convert to read/write iterators
+016e72dc6540b4c8b66128805c3b7e4c872a2253 watchdog: wafer5823wdt: convert to read/write iterators
+3456344b13a4ebc225bb8868e0ec86f4523e63a5 watchdog: watchdog_dev: convert to read/write iterators
+20114b8e3fb716e9e8fd1869c54009f3fcc87cb7 watchdog: wdt_pci: convert to read/write iterators
+928b0f1d7af0e2aa935bb203d5367ae33ca5c212 watchdog: ath79_wdt: convert to read/write iterators
+1203041cacc224357cdf366412864629ba7d3105 watchdog: cpwd: convert to read/write iterators
+9c7d3507056c3e9dccfa2e4d56f1ccd1d8203547 watchdog: gef_wdt: convert to read/write iterators
+b4dd57031c6f0df092d74e28012696ddf78dee63 watchdog: indydog: convert to read/write iterators
+7572ed7b6fe9c8c15dfdae90498b974212c638a8 watchdog: m54xx_wdt: convert to read/write iterators
+c04f6216279e3737b8abca796702b1ca4a9ef645 watchdog: mixcomwd: convert to read/write iterators
+da0b50eb93db1c648da47aeaa7a0361135348db5 watchdog: mtx-1_wdt: convert to read/write iterators
+f03711b655ea66bb80876d38a8ceb795a8acac0a watchdog: pcwd: convert to read/write iterators
+cfd8e6d855a910afa3c5a6eb1a80d23248a637cf watchdog: pika_wdt: convert to read/write iterators
+09ddee0cd63586766cc86f538476cc5ca3809601 watchdog: rc32434_wdt: convert to read/write iterators
+fd2d4ad0311cbca78474640881276a83eb6d0c58 watchdog: riowd: convert to read/write iterators
+0b4bc1d59b63b2f2b9116a755c709b842416258f watchdog: sb_wdog: convert to read/write iterators
+bf0173bb6f48f209d1b09a759a40f8d98e630114 watchdog: sbc7240_wdt: convert to read/write iterators
+73dffa3d693b443892220d695509814ccf07f382 watchdog: sbc8360: convert to read/write iterators
+017a371e05a607ccd61f5cf7a35330905f4e654b watchdog: scx200_wdt: convert to read/write iterators
+23436bbc41e6267403b8dbc81fdd8eb096cda064 watchdog: wdrtas: convert to read/write iterators
+7f8acc326a1c253db1bf8726bea72803ba9b50d8 watchdog: wdt: convert to read/write iterators
+5c05b86a4a3364666d5e1ca6d3cce174f6c4a471 watchdog: wdt285: convert to read/write iterators
+d4b92f8499dd3b8c3bdc92c99225063bc93d01df watchdog: wdt977: convert to read/write iterators
+a48c2f934a43ab5e52c2aa1ca9209d7c188a2a5d fs/binfmt_misc: convert to read/write iterators
+13413b833c1e2ec5f0a67346c36776362e197e8a fs/coda: convert to read/write iterators
+78f1cc6b928e7f2682be66c9d54e55e3d444a50a fs/nfsd: convert to read/write iterators
+d42e5cf7db0f69414267eb70469eae6d3c5159c7 ubifs: convert to read/write iterators
+51cbeb1c6d2bbb9f8dbaa200b19ada6922103302 cachefiles: convert to read/write iterators
+4aefced10f8eba292dbe1186451be24743a1f914 fs/xfs: convert to read/write iterators
+562385e5d5018843a1bbc2890d80d9e03afdad93 fs/bcachefs: convert to read/write iterators
+62bf21593969fb03fa6b6f8cc0f3655ef16f8313 fs/ocfs2: convert to read/write iterators
+a65a81ca5f9e66fbf3da20d5577235993317ca1c drivers/net/wireless/marvell: convert to read/write iterators
+2648a732a414ed4d79c17da59bc5a0ac72ca9bec fs/proc: convert to read/write iterators
+31babadb2caca62f4cfcc8c77cbf5dd2d602db94 fs: convert fs_open to read/write iterators
+1ebc0e673ad74dd919c3d9fba91de63bddc8ff66 openpromfs: convert to read/write iterators
+ac21d1a7292b53bc649a14e0352adf7dcc199c3e drivers/net/wireless/ti: convert to read/write iterators
+7914640934501b9f3075450e9270206930adc7fb drivers/net/wireless/intel: convert to read/write iterators
+a4c0d9403d5de6cc61fa6213ffc3670fd00ee830 drivers/net/wireless/mediatek: convert to read/write iterators
+eebdc37b636437f851a7f7388c6810e7c2b0d104 drivers/net/wireless/ath/ath5k: convert to read/write iterators
+7af03140399164a364ffb78bde0ae12a00c616eb drivers/net/wireless/ath/ath6kl: convert to read/write iterators
+6c1f928aadafb0b89f0ed2771a24f9afa627336e drivers/net/wireless/ath/carl9170: convert to read/write iterators
+2e51280f7e2072b301bf0fd0f0b1b68bb3e163cb drivers/net/wireless/ath/wcn36xx: convert to read/write iterators
+4c98efb6c6fd163cdbfb6fb0dc86da08e202737c drivers/net/wireless/ath/wil6210: convert to read/write iterators
+d4eab753d3d46c28e7c6cdd9f3ce447b33b10f78 drivers/net/wireless/ath/ath9k: convert to read/write iterators
+3f72fb76aa71631aaa72f39579359f9038dc4de4 drivers/net/wireless/ath/ath10k: convert to read/write iterators
+4fe1b0e3769bcb0daf93873382ae1fd3465ef177 drivers/net/wireless/ath/ath11k: convert to read/write iterators
+df7eee8aa8b2d4791b21233a47b069aede3e9d5f drivers/net/wireless/broadcom: convert to read/write iterators
+d8c53d862799b5172218ab7d13b7ec26254ad49f drivers/net/wireless/ralink: convert to read/write iterators
+b5660f8f6f54cf2b64c02ef48ccdaef12feb6fb4 wifi: rtlwifi: convert debugfs helpers to read/write iterators
+3529a158bba3a70b93afafd990bdd2beb23e8307 wifi: rtw88: convert debugfs helpers to read/write iterators
+b684855aa5820cb3be93c761898eabd5b4c738d2 wifi: rtw89: convert debugfs helpers to read/write iterators
+9b7fae8c2e756d156197e5840c8591eba6f98897 wifi: rsi: rsi_91x_debugfs: convert to read/write iterators
+fd03aac1a4ddc32b65009e674af5608c5313591c drivers/net/wireless/silabs: convert to read/write iterators
+2fdb8a23520fc3acbf89ccd2d2aa9f597b2c926a drivers/net/wireless/st: convert to read/write iterators
+64e5a02c35716120ed3a76857efa92c49ae038f1 drivers/net/ieee802154: convert to read/write iterators
+f093454d82b355eb803af097f1266e32c8a4b07d drivers/net/netdevsim: convert to read/write iterators
+f5dfd99e7a8fcbcfb9db0423c3de1cbb2648d0cb drivers/net/ppp: convert to read/write iterators
+a404ff56f48fa7fafd1fdd946b6f783386f31ac7 drivers/net/wwan: convert to read/write iterators
+e12c1af69f22f8c0cdb7da098a70edf5b2275cf6 drivers/net/xen-netback: convert to read/write iterators
+69703850ca08a0b9d1e5df52a81c2af68eaa40a4 drivers/net/ethernet/broadcom-bnxt: convert to read/write iterators
+95a8c27356440743897dab367acdc53ebb6cf7ba drivers/net/brocade-bnad: ensure the copied buf is NULL terminated
+71f621a3c507577f41e7b0d0376e8b629ef05022 drivers/net/brocade-bnad: convert to read/write iterators
+03364a1a058f39b6d0c7cd0e84e0ab8bf76d0803 drivers/net/ethernet/intel-ice: ensure the copied buf is NULL terminated
+9fe06175bfcff7bc8070a5ebe99c7d9daa645801 drivers/net/ethernet/intel: convert to read/write iterators
+c88e6e06c088932a46cef236a45a4dd685949e73 drivers/net/ethernet/chelsio: convert to read/write iterators
+52d02f1a926ec991e4461d628078ebaf79c0e90e drivers/net/ethernet/hisilicon: convert to read/write iterators
+9bee5207a62e0faa5d3b4497b2aba481dd944ef9 drivers/net/ethernet/huawei: convert to read/write iterators
+2920df206e8fecb6db46b44e2f574d074f649998 drivers/net/ethernet/amd-xgbe: convert to read/write iterators
+db7daefe1cda4182d3862f3378f957e6f9f302b5 drivers/net/ethernet/marvell/octeontx2: convert to read/write iterators
+361501713b56aa82d02083122fbd660b3af70ed1 drivers/net/ethernet/mellanox/mlx5/core: convert to read/write iterators
+be88aaf79678fc12a24d085fda292e72be2d7f9f x86/kernel: convert to read/write iterators
+c7247483379be56fb732fecb1bb96c67ba94e1aa x86/kvm: convert to read/write iterators
+c1e28e6fc6db1962bfbaecf9489c673e28daa5d0 x86/mm: convert to read/write iterators
+d1c0d7a0f4560be00aae7fdfcc581711f1df7ddb arch/arm: convert to read/write iterators
+9b13e46c177e8649e01029f0b381c4c53230b30e arch/mips: convert to read/write iterators
+ec06438a137ddc1c3d287c1141bae2319c2a5b7f parisc: eisa_eeprom: convert to read/write iterators
+ed3cc33ab375c93855616ef5d09341471bc47a9e arch/parisc: convert to read/write iterators
+23f2f9c95cd904180f35a21a80500c3145898704 powerpc/kernel: convert to read/write iterators
+46451e6d07630e99b016b857bdfdb5d874db539b powerpc/kvm: convert to read/write iterators
+9f7ad1ce2b2118c5233f4bcb3b090bbf9d96b0cb powerpc/spufs: convert to read/write iterators
+66dfb5a7272b43e43d8bc4ada28b12be4aa9d22b powerpc/platforms: convert to read/write iterators
+f0e3215a86a81be510162c70117815ad87756e0e s390: cio: convert to read/write iterators
+b15abfbe527e360f3b9d6a102878122065708b3e s390: fs3270: convert to read/write iterators
+870a4463e6d49b4add35190a388b58e276265f6d s390: hmcdrv: convert to read/write iterators
+f920267626b043df34d21973a573ac16dad45da9 s390: tape_char: convert to read/write iterators
+78dad95ca2d1abff6666eaddaa0e34c1c47cf07e s390: vmcp: convert to read/write iterators
+6def34695e2040ad92ec1b9de2af480772b6d12c s390: vmur: convert to read/write iterators
+4523d25ad2acb27d25a9d067b6b92fdcd02ebb19 s390: zcore: convert to read/write iterators
+9d9ca9cfae78ea6bd97c25b2dfea9b1ebff6fb6a s390: crypto: convert to read/write iterators
+10bda110236f7e352e594fac40f1404e1037091d s390: monreader: convert to read/write iterators
+04d7e7375eabbcf3f4033c324e53a16f2b1a02da s390: monwriter: convert to read/write iterators
+602a1587e68fb4b76bf91dd6005fcfd381235376 s390: hw_random: convert to read/write iterators
+7f9ca000514e2a2316cdc05050069aadfeed0ead s390: vmlogrdr: convert to read/write iterators
+59efef5fa9502171cfbaa6c8798be680ba46cb49 arch/s390: convert to read/write iterators
+7c04158249e18c2ca7217f98f2ab19d2110aeec1 arch/sh: convert to read/write iterators
+60517176f69e5d1d04879fa68d2fac754b2245d0 arch/um: convert to read/write iterators
+b6c7a6204320cb21584946cb07f0c698b617d8b3 arch/sparc: convert to read/write iterators
+f4d668aa6b62889cd6a7a48b3fdeafe52fd019d0 samples/vfio-mdev: convert to read/write iterators
+b9d450dd4fc94781f2a9a4934e21f68134d16b09 hwmon: fschmd: convert to read/write iterators
+6c52f40fc79d45c2d745067cc81025842b69b4bb hwmon: w83793: convert to read/write iterators
+e16b7069d996579d65bcf0bfdaffbdc4a88b648b hwmon: asus_atk0110: convert to read/write iterators
+6c97714341fe0fc2a897e3189f0e81fdb7985c8f hwmon: mr75203: convert to read/write iterators
+eb676a10a03af2207e8be02408dc40a781dab3ca hwmon: acbel-fsg032: convert to read/write iterators
+6a5876d8665b1f286e99ccab4c904fe493af7242 hwmon: ibm-cffps: convert to read/write iterators
+a56111757805e4a78efbe2c7f3fd6c2d6d67883e hwmon: max20730: convert to read/write iterators
+df0b0dfb893f075bf6e014c4b2fec764b912e706 hwmon: pmbus: core: convert to read/write iterators
+501b7316f6abe69433661fd38417d909572c9497 hwmon: q54sj108a2: convert to read/write iterators
+6057b0a25587c38195f733e648ef53d766e57019 hwmon: ucd9000: convert to read/write iterators
+620b216021e706885c5d57a3f8be7cd58d9fc4fa hwmon: pt5161l: convert to read/write iterators
+32f69da3b59cce45ab473589075541d37090b189 drivers/mmc: convert to read/write iterators
+a474bd2852d326be3851bfcd729e9510cd66f537 drivers/most: convert to read/write iterators
+c3decc647f495ed69beb14470dce902c67b92993 drivers/ntb: convert to read/write iterators
+73694e61de550db89d9f28126fa5a60f1f714aed drivers/md: convert bcache to read/write iterators
+42aa2f447d93269f5faa260fd284695a521ad7c9 drivers/remoteproc: convert to read/write iterators
+b2067288cc42afe1e127724e21360cb4ba15f0eb drivers/thunderbolt: convert to read/write iterators
+ea0c875d41887576d591bdc3302c9314fe3a8b55 drivers/vfio: convert to read/write iterators
+da16a830abce5df593d71c1a314744b99d24a804 drivers/fsi: convert to read/write iterators
+80b4da0a79ec82d2f17973cd17c063e91fb25204 iio: convert to read/write iterators
+a0d4a2b20061e08d08cb863eb99f022b045bd24b iio: adis16400: convert to read/write iterators
+74763aac2d9712b555b96646e1fbf74daa3a5f0c iio: adis16475: convert to read/write iterators
+47f89c40b0b8f0c9435f274901ed99628d9e6c17 iio: adis16480: convert to read/write iterators
+ec24940bad3f979c5b27551b69a214c991b90c3d iio: bno055: convert to read/write iterators
+008d496a5e6a032dd4c15913a098151e172c59d9 iio: gyro/adis16136: convert to read/write iterators
+6356b73659cee895a8d61ee5d1a139a5590d67aa intel_th: convert to read/write iterators
+5a5b4042a27c4e649bace01dfc73f80530c2b326 stm class: convert to read/write iterators
+8e964b264a422008ffc8313070c3768ee7d5bfd5 speakup: convert to read/write iterators
+bd728109f00efbd6a79f610437cc8409df514d75 EDAC/versal: convert to read/write iterators
+041d5e4b365c105de3c5a94c8cc9bc0b60b6654e EDAC/xgene: convert to read/write iterators
+9f1a58eeaaca095ae93609d03611b19c4cd1443c EDAC/zynqmp: convert to read/write iterators
+ec5c36fb408a6a3008a3a8b8f2058a1996b19882 EDAC/thunderx: convert to read/write iterators
+cb51fcde5fbfa1310e36bdf8d242722d9cdd46df EDAC/npcm: convert to read/write iterators
+3a802a0a8d20d599057a16c54d30ac146885338d EDAC/i5100: convert to read/write iterators
+7ac54216d4e61d5dc718d4c8a805b480a2630fd5 EDAC/altera: convert to read/write iterators
+0a5857c9450d7b53d4ffad687b369d1c930ddea3 EDAC/debugfs: convert to read/write iterators
+4e04d65400bd2469b07c80a89874aacf689f8f5a drivers/hsi: convert to read/write iterators
+493f2ff845838a849d78d760330d263e750f8044 hsi: clients: cmt_speech: convert to read/write iterators
+780c93a0439343a7638a5b21b41440973200f4d7 macintosh: adb: convert to read/write iterators
+78f5d9537889d7c5576060be086a0e2a7ac96453 macintosh: ans-lcd: convert to read/write iterators
+bf17bcce767d6211fec39ffe924d3be219ca1701 macintosh: smu: convert to read/write iterators
+e0b880c0aa77ba998ee7b4ba36338fb86ec472a5 macintosh: via-pmu: convert to read/write iterators
+98f80b35f54d2e4799f77b249651337ec01a2e43 drivers/extcon: convert to read/write iterators
+e7e9db3e7f1e23951ccf454ffdc356160286a638 drivers/gnss: convert to read/write iterators
+3f02eab78cdca6dd805a1a9b193c7de457fe072d drivers/rapidio: convert to read/write iterators
+b9de261a79c7f39720b5a9de129b41234bcd390d drivers/media/platform/mediatek/vcodec: convert to read/write iterators
+790a67505e7e1436db7148601c1c54b68b52fc30 infiniband/core: convert to read/write iterators
+4d9d2579070d37fe396d540dcc5be1bafd200c8f infiniband/cxgb4: convert to read/write iterators
+5ecaacd78bb76066d49a7e34b57312140f2fab8e infiniband/hfi1: convert to read/write iterators
+383226de2f89517ac600b8735017601494fc0073 infiniband/mlx5: convert to read/write iterators
+a08c9c9844fa45bc663b87eee3f5fbf65c42c7ab infiniband/ocrdma: convert to read/write iterators
+a9f402e4a8b10667d146de80389f1fdcff347d1b infiniband/qib: convert to read/write iterators
+d7d63dd4a9c33bbe3fad55272cd23cce2005cf2d infiniband/hns: convert to read/write iterators
+092e0e9d746aee2e78532e779aae36322f7beede infiniband/usnic: convert to read/write iterators
+fdfd106b03a0ee95342c842064d7420750843745 hv: convert to read/write iterators
+241f1f7bf9de2ae3ef9de9df8d7dd3969f2f2962 media/rc: convert to read/write iterators
+c101bf2a11e8b58fddcf272e70ddfcf2b3666d7d media/dvb-core: convert to read/write iterators
+da47ab8392a6f6eeddcf77a70022977b82ac9143 media/common: convert to read/write iterators
+16b1f839bac2213ee1a60734cc8c4a752b8db3e5 media/platform: amphion: convert to read/write iterators
+92f538923c7e9bfe65fac1d1b1be6c462691838e media/platform: mediatek: convert to read/write iterators
+0293c251a9883b940554cc292c06eba3756af077 media: cec: convert to read/write iterators
+28c8d660c1071f5510c35e09d6627314debc3008 media: media-devnode: convert to read/write iterators
+25409a6464aaec3d53fc7d3ac6ff3e20a714f38e media: bt8xx: convert to read/write iterators
+e6de190c80cfee4ed612e54c6844b56a0c076fdb media: dbbridge: convert to read/write iterators
+3489aca4444119d85562c01859331a32d3e739b9 media: ngene: convert to read/write iterators
+d47b637fcae2510a4dc5fd1dbfc14ca0ae8bb7eb media: radio-si476x: convert to read/write iterators
+40a9b3c28f233873e819351858533da2e0d8f305 media: usb: uvc: convert to read/write iterators
+a16d26d560ccfc9a6acf8ec4ed6070d665973b53 media: v4l2-dev: convert to read/write iterators
+b4b75de4a05b8d60c96ef41618d9b765c601f34c firmware: xilinx: convert to read/write iterators
+4ddc3e9f8f66f0edc1feb29d78579db324356079 hwtracing: coresight: convert to read/write iterators
+99eb64747ffb0b87aff829f520e9fb8b071a818c sbus: oradax: convert to read/write iterators
+d9cfefbf0018991a4069f6a3e84185fc0945a6e0 sbus: envctrl: convert to read/write iterators
+7a67cfb620525597531d7ccfb207c445eabed09d sbus: flash: convert to read/write iterators
+986d081d49b184442b590ae223f82fc7f050464c pci: hotplug: cpqphp: convert to read/write iterators
+3f30706bcf625fb2cc08adf06665e4ec25376b2e seq_file: switch to using ->read_iter()
+caaf1a2fd162636e3351604b58f84c76e46599c7 fs/debugfs: remove (now) dead non-iterator debugfs_attr functions
+f22a0848fb0540180cf4e0744d07c10e79114467 lib/string_helpers: kill parse_int_array_user()
+86d0b6cb41a59e4e8c85e5b92e2579f409ccc4be fs: kill off non-iter variants of simple_attr_{read,write}*
+96a212f4a3522d7a2ddef75ad3ba84fd34bf5104 kstrtox: remove (now) dead helpers
+b158fdfcda0d55075803aa1a7cd4eb1bff2f5753 fs: finally remove ->read() and ->write() from file_operations
 
---===============9063751690213576033==--
+--===============7209911071448487481==--
