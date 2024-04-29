@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 29 Apr 2024 08:34:15 -0000
-Message-Id: <171437965597.12849.89391062666948913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Mon, 29 Apr 2024 08:38:52 -0000
+Message-Id: <171437993221.17503.1267038431835695779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: suzukikp
 changes:
-  - ref: refs/heads/hisi/dt
-    old: 0000000000000000000000000000000000000000
-    new: 5cff1135585f5f7d88ad1bbd67ca0f519714a809
+  - ref: refs/heads/next
+    old: ba8c06fe7e16ddfd44ece7fabd9af2dc2e6d49e7
+    new: 2d7e8a64a1e79f76b9d1165db0b92190d4663848
+    log: |
+         2d7e8a64a1e79f76b9d1165db0b92190d4663848 coresight:  Docs/ABI/testing/sysfs-bus-coresight-devices: Fix spelling errors
+         
