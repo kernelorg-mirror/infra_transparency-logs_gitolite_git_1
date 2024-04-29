@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4188212020071622075=="
+Content-Type: multipart/mixed; boundary="===============2721860205292576094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Mon, 29 Apr 2024 14:03:34 -0000
-Message-Id: <171439941482.721.5117285306636495132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 29 Apr 2024 14:08:16 -0000
+Message-Id: <171439969676.5470.18427700444833363070@gitolite.kernel.org>
 
---===============4188212020071622075==
+--===============2721860205292576094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 086035cda92866c33cb124bd5ba70c44c976c5ed
-    new: 7f6f45a762c372c0c6830f503d8531f99c70b314
-    log: revlist-086035cda928-7f6f45a762c3.txt
+  - ref: refs/heads/master
+    old: aeebb5e96bd05559e27d7d64e888e08a61c6868a
+    new: d7391a558e3ecf86d4501e4440c2b1f537f0426d
+    log: |
+         d7391a558e3ecf86d4501e4440c2b1f537f0426d 6.6-stable patches
+         
 
---===============4188212020071622075==
+--===============2721860205292576094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-086035cda928-7f6f45a762c3.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f5bcf8ab09504d39cac708bb45eb8f04ce73315a arm64: dts: mediatek: mt8186: add lvts definitions
-d3dbc472ac662a1ebba5064b44bc3a24e91b412a arm64: dts: mediatek: mt8188: add lvts definitions
-ed4d5ab179b9f0a60da87c650a31f1816db9b4b4 soc: mediatek: cmdq: Fix typo of CMDQ_JUMP_RELATIVE
-ade17653411284e8f7d07279097039f8b84f85d3 soc: mediatek: cmdq: Add parameter shift_pa to cmdq_pkt_jump()
-7218be3b6fcf00d1a3a6867aa1be6b9ab91cce45 soc: mediatek: cmdq: Rename cmdq_pkt_jump() to cmdq_pkt_jump_abs()
-698cdcb19579f9de005698f9dfb660ab6ec65d32 soc: mediatek: cmdq: Add cmdq_pkt_jump_rel() helper function
-3d86ced95d8c09d11c172f542edd40f58a4098fa soc: mediatek: cmdq: Add cmdq_pkt_eoc() helper function
-9935af96a72735e8e86aaaf06b031b014109ebc1 soc: mediatek: cmdq: Remove cmdq_pkt_flush_async() helper function
-b81b2d5534fc72f70d808c72b19f0e3f9df32a90 soc: mediatek: cmdq: Refine cmdq_pkt_create() and cmdq_pkt_destroy()
-49ddaa495f8b60c8c4022ebe540024dd870e4dd1 soc: mediatek: mtk-cmdq: Add specific purpose register definitions for GCE
-263801f8e5a159cff2dfbc2a1d9cf9f1afecfa81 soc: mediatek: mtk-cmdq: Add cmdq_pkt_mem_move() function
-400e2fa8058e7032974a892c7336b3ea20e24cfd soc: mediatek: mtk-cmdq: Add cmdq_pkt_poll_addr() function
-69ff68332dc5005539ac37c5c85444aaaec7c914 soc: mediatek: mtk-cmdq: Add cmdq_pkt_acquire_event() function
-27e69538b8fe9f025ab508178498e9502c77e900 soc: mediatek: cmdq: Don't log an error when gce-client-reg is not found
-7843b6b83d7f8059824e634ffc8d53fd3d9f4041 soc: mediatek: socinfo: Advertise about unknown MediaTek SoC
-26bb17dae6fa3c828b53d86839589edc1a523d91 soc: mediatek: mtk-mutex: Add support for MT8188 VPPSYS
-bc98f77d80d7bc3a23b3fc8a745960304a8a0c75 soc: mediatek: mtk-socinfo: Add entry for MT8395AV/ZA Genio 1200
-8a87e1d21ef84fe68913aeba9838222422eef4d7 soc: mediatek: mtk-socinfo: Correct the marketing name for MT8188GV
-7f6f45a762c372c0c6830f503d8531f99c70b314 Merge branches 'v6.9-next/soc' and 'v6.9-next/dts64' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714399695 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1714399693-1e4945317718b85f27cc95f186f24f703efaac8c
 
---===============4188212020071622075==--
+aeebb5e96bd05559e27d7d64e888e08a61c6868a d7391a558e3ecf86d4501e4440c2b1f537f0426d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYvqc8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PMMQAJ7hbz7vWAg+TmEkLUmZ
+xK0niaQySf5ehHjbUNl07WkYpyNol34H61PDf0r9MH2Xit+IhsBtGbCIdzFrHAXs
+2X3pI8+QWiRoE9lYJwswFa9EG7iaE19jgs/dmtNAx8m7nGlbKQWbcgNwVDz5lcyS
+CDMDu7vjT/jpzkSWSuzLm+/7/HwgJ1Kus5f9QZQAGT++tLcZe5V4Jlly/Tekq+Ob
+yYaPi34rPlBiJZ1UVh3PFjmOfV5e/mTgvvOmdaOIzSsunjO2y+VDHfG4ZH9/g4Np
+6cn4cU/nNlfZwUUbCkFiUu169ZeESc7SK++MUZBj/Z73ldOu2ii+4mOAbNTfmkP6
+bUrnAdDjqNfcZw9r5W+QHvzqnrD1Hw+qlz28tz28cuUjXmVdgszjJ/5ydnA8l+NM
+Atvc+QEWexZ7DWXPja0JbEEbm7X5aOLLqD0BtsYm+m4GGEQUEOd/DeIcuq05n2Eg
+Y6Ls2gtdHaRvyxK4mYjODqVhsddfHw0BBgC/z45rOfUjyPTByFqJBbmGTqV0WJvb
+hF2vjn32q1zdBPTXLZR/PVf+VGp/K9eK1eYuFP+JcekX5VwSsNlWh5ghkRtOSx/B
+fgLriPWMXmbrEV87mZW0iFxlC45C/WSMOVgHOZqG5gra50UKcnxQYqsJKz9F31A6
+FV4cEPf/IE7jdyF0e/5b5tgu
+=VTid
+-----END PGP SIGNATURE-----
+
+--===============2721860205292576094==--
