@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Mon, 29 Apr 2024 08:17:39 -0000
-Message-Id: <171437865988.1516.11098867270811142045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 29 Apr 2024 08:21:42 -0000
+Message-Id: <171437890214.4657.9109845032883771887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: claudiu.beznea
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/tags/microchip-dt64-6.10
+  - ref: refs/heads/renesas/dt-bindings
     old: 0000000000000000000000000000000000000000
-    new: 4977fe0c1122d1354826ae854416c9f76221c2ac
+    new: d4319f220f577156200ad43c823e22be05f34523
