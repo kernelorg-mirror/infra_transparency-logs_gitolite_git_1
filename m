@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5917084629415043072=="
+Content-Type: multipart/mixed; boundary="===============3198055162637304574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 29 Apr 2024 10:33:26 -0000
-Message-Id: <171438680668.18798.10668344999035296134@gitolite.kernel.org>
+Date: Mon, 29 Apr 2024 10:33:31 -0000
+Message-Id: <171438681167.18881.16709747463927343768@gitolite.kernel.org>
 
---===============5917084629415043072==
+--===============3198055162637304574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: f2295faba5e8249ae4082791bfc1664c88fff83a
-    new: dcbc050cb0d304c3427d6583384eebcaf0e3caee
-    log: |
-         8a5291736e706cc3df06e2427bb7fa087dbfb0f7 Revert "ASoC: ti: Convert Pandora ASoC to GPIO descriptors"
-         dcbc050cb0d304c3427d6583384eebcaf0e3caee Linux 6.1.89
-         
+  - ref: refs/tags/v6.1.89
+    old: 0000000000000000000000000000000000000000
+    new: c13c6905461d2005156211bbfae1591a0e17e346
 
---===============5917084629415043072==
+--===============3198055162637304574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714386805 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714386810 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1714386802-5da951ee421a4bd951ffe0d9f67d20a82355f539
+nonce 1714386808-d2e6bedb7d938c203db5ad580e984928a4758c29
 
-f2295faba5e8249ae4082791bfc1664c88fff83a dcbc050cb0d304c3427d6583384eebcaf0e3caee refs/heads/linux-6.1.y
+0000000000000000000000000000000000000000 c13c6905461d2005156211bbfae1591a0e17e346 refs/tags/v6.1.89
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYvd3UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YTQQAIpmf7RIJffxp7ffFc8/
-mpUC3oueYMog9aCNIPAD8ac3Lu1v+djmsKJeGx8gUP/bkCu1cwr8AKosnA/OECXX
-yeYvOCXDDkPgJJAUTpV2fT3Xf0L7/CcZMx/69dHUckooWoJHRjgvmIGVJQCQdZIw
-Gmx/4OE1iSwOm2+4eG6og2SDq+J0LOCPIFfDaUHmzmnZCDBc/7lfabfUEz5SHqv4
-IaOuVvnk346FAGge1P3SGDXaIAuBEQhc9XFl0IxQGZIfjvPohrt7bG4I8X1oTdr+
-mkkVC80WsDOiAPIQ7yNg4Ro63I3oLtLKG18Te4lIfz7A24J2KlWcEAgGWlW+Okbh
-6GhmNaReg7nx5/6Dy2/HIZxblrjM4k4ns2Bol7LCgqfipHpmgk5uJPlNVEOCyMJ8
-K7Nho6yBk/hqcArL2Q/6020l9zgdUq56eYVw51nceJJNcXs4cpV9YpSu6xChVTQt
-kkqetRDziws4LFtB396JORrkpbjYL53dqFiRc4gbmYJSApWQ3VpxnIHeNYPSD7pl
-FHAx2ji26PorNPJO0Z2e+FKK1kctzNmVueev8cpfTwtKeH/jvORq22CsDm3lSfNm
-yQHXBYcFK+ugb4QBNCxyiagPzAULbVRvnZOOqqhxJvkHay3wNQ3lSZjCBQKfd9Y7
-Hkv/HPhMMwmqDsZWoAV8D1Z/
-=osAi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYvd3obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eZgQAMU1FE+DVQzxLKyWCsd4
+Q65BU36tliPHWd7pWuz9rLyjuAEDsZeW5U/rg3fdLr7Tej7cxy9SKVSq2PIXZB4+
+j6K+TGL2usxJQauIBhkhJrJDy8TR5iHLyYWJc0ruKO+X6G0DqpVOC9yXSlMAK33m
+pMZubu5idrDgGlhBRRY4ScpUTwCPmvqkV0I1LDMdvJLOfzU3dKrX97JmD6ZqPE2A
+fESf8T032cEqzumwisCFNSpL6zuyklp+fa5N3lsZAN8N6IVgQnN+gTa5tSdeCvXz
+6cI4zv6r8cENySUCt2Ha0MO+Yb5dRErjRFK8/SZ9tVIgZcGCWIBihEVcobC55jwb
+GoXc2NScsrGiyzNCtTlfUJluddOe6esNVTDV1howFnWDHvA9CzEQlltsGDkahEDW
+zNo725yQyD4QjlaKhiuAMPq4xypxKT5XzngjeU0Lq4hqQjEQuo7B96rGKxDSKb9t
+yYrdt211F7vzC0kKHB6mHNT7xbY8cZG2bzzEqw5tx5D2bHsHO5rRzKfzFYmX7BuJ
+zZlbZq58HvFefrMED7k0V8/IFHlH8WMk7H4dzJzgHTbaRIA+Ovokr6x4Og18f19+
+V3jl/fLHAG9/GskY89sfPEJdxEwE2D4pApErq0eCZIuHoaxGGsGkFLnZryex0cJF
+g3QieKqpoGzdXzk7I/edRMaJ
+=0e6O
 -----END PGP SIGNATURE-----
 
---===============5917084629415043072==--
+--===============3198055162637304574==--
