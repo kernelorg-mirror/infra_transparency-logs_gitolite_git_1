@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3491524356567352387=="
+Content-Type: multipart/mixed; boundary="===============7231555185852303329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 29 Apr 2024 19:54:23 -0000
-Message-Id: <171442046383.5381.5357298287250267129@gitolite.kernel.org>
+Date: Mon, 29 Apr 2024 19:54:52 -0000
+Message-Id: <171442049273.5641.5480236427555388935@gitolite.kernel.org>
 
---===============3491524356567352387==
+--===============7231555185852303329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 662ce81ff2fb166fe4f21c666bb82dd4cb00e838
-    new: 80721776c5af6f6dce7d84ba8df063957aa425a2
-    log: revlist-662ce81ff2fb-80721776c5af.txt
+  - ref: refs/heads/testing
+    old: 7cef97f96973ab296afb2a242f3295ff25dc6091
+    new: 05c4081fbf4c98864dcf6c212afe9f611243dc92
+    log: revlist-7cef97f96973-05c4081fbf4c.txt
 
---===============3491524356567352387==
+--===============7231555185852303329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-662ce81ff2fb-80721776c5af.txt
+Content-Disposition: attachment; filename=revlist-7cef97f96973-05c4081fbf4c.txt
 
 427298c632952709a33f3205d489ac496ae5b003 iio: adc: rtq6056: Use automated cleanup for mode handling in write_raw
 ef64a4ad8310620976bef97287285fa94799ccc0 iio: adc: ad7266: don't set masklength
@@ -43,5 +43,10 @@ a1432b5b4f4c44473ee97152c2f356d372ccd45c iio: imu: inv_icm42600: add support of 
 633e3015cae062a424a6dd5099710adfe83a5e14 docs: iio: ad7944: add documentation for chain mode
 19fb11d7220b8abc016aa254dc7e6d9f2d49b178 dt-bindings: adc: axi-adc: add clocks property
 80721776c5af6f6dce7d84ba8df063957aa425a2 iio: adc: axi-adc: make sure AXI clock is enabled
+09415814cd1d0b90b898f81d6ad6a1c0a2e22d32 iio: backend: change docs padding
+c66eabcc1ca64dbf20d0758ce210a85fa83f4b21 iio: backend: add API for interface tuning
+fbc186055b41a49678ae3b2793020e67dfd8f7aa iio: adc: adi-axi-adc: remove regmap max register
+7ecb8ee5c93be9f00cbf090f7f53b2a32d995184 iio: adc: adi-axi-adc: support digital interface calibration
+05c4081fbf4c98864dcf6c212afe9f611243dc92 iio: adc: ad9467: support digital interface calibration
 
---===============3491524356567352387==--
+--===============7231555185852303329==--
