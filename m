@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 29 Apr 2024 16:14:01 -0000
-Message-Id: <171440724120.4482.17958369910354556644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 29 Apr 2024 16:14:19 -0000
+Message-Id: <171440725903.4648.12410335128139246765@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/arm64/dt-cleanup
-    old: 0000000000000000000000000000000000000000
-    new: de2ba5bd3607a5e5442a5fcbdea6ee2823b72fb9
+  - ref: refs/heads/master
+    old: d939e2fbb4910775237a65c05cda93a542c5db9b
+    new: 925ec8e000fef15d77b34a5791eacadb97c8318b
+    log: |
+         925ec8e000fef15d77b34a5791eacadb97c8318b Mon Apr 29 12:13:27 PM EDT 2024
+         
