@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0273085966390979912=="
+Content-Type: multipart/mixed; boundary="===============4204691531840314671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 29 Apr 2024 15:36:45 -0000
-Message-Id: <171440500547.7580.8178828165910811115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 29 Apr 2024 15:36:51 -0000
+Message-Id: <171440501158.7810.1348553944789340660@gitolite.kernel.org>
 
---===============0273085966390979912==
+--===============4204691531840314671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/spi-6.10
     old: abba116f601800a0c74b9a9c2c91e2eebca791c1
     new: 47766799f546249813e97a0ccde8978ba114e89f
     log: |
@@ -26,28 +26,28 @@ changes:
          47766799f546249813e97a0ccde8978ba114e89f spi: cadence-qspi: add mobileye,eyeq5-ospi compatible
          
 
---===============0273085966390979912==
+--===============4204691531840314671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1714405004 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1714405003-7953f56b9b166753c4a44fbd3fd4f5ee2af054d3
+pusher Mark Brown <broonie@kernel.org> 1714405010 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1714405009-c5c1963d985a04aaf62958fd339bd4393b04b5b2
 
-abba116f601800a0c74b9a9c2c91e2eebca791c1 47766799f546249813e97a0ccde8978ba114e89f refs/heads/for-6.10
+abba116f601800a0c74b9a9c2c91e2eebca791c1 47766799f546249813e97a0ccde8978ba114e89f refs/heads/spi-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYvvowTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0FgeB/sGv6dTskGgQPmBJDFsEAReAfLeUhvA
-1A+To4dsAoksliQRM6MRFiGh/7S7ExU2uawCXsPq+RH2MZaEN1hozM07SEd9Gjzk
-BeLtLzs8pkFn6dsvdXAqyF8GUiYXdBtXYpSJoPtBB5AnevlgmVE6El0yw8McedCc
-MB67rsXF/6Ns0aTxS8jpfO8HiHBYzDVVgTq8dfChs408tYfr+7e5v6sIVncWQP98
-Ss5I2XNrmadTY+LbcAKbhFWBpbKR71mtrMPlyrEUp3ljktTveTr6j0KXmwmFsGAi
-GtIXE/RoFjo7WPy36W9FniwK8TCm2xgkejHl3o3Y5KxF+wX2TItR2FgG
-=TohU
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYvvpITHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0Ez4B/9ibxcAro8THl61kOp8GGt4T1ye3Y4D
+KQ4/EFMyY/SLF6A+C0Kl2du9inr7Lq1m695mj6wtxF74pZ8LyU83loSr37MesHNl
++XqQguUIXE0pQv4QhkagjuBjPulH5k2iwA6f7wDMK420V+1loAfvv9NC45xy5Hx6
+TidiShreP+PI0/KJYX/XMtRLP6iFmwz9nsh3yzgHAasoE0MfO1t8b60Go1yXygdY
+tGzfDl7pd6JkIzYoZeLM8dgC58dRtdSz6LLcvZQLFdzKQB+Hkr0ztNwbU2zJgFyl
+ITTKbu7kO2VpJodXWdFivz5VmEkM7iBJh98F8Vlvhbwa73+dNC3lvsUg
+=rJZU
 -----END PGP SIGNATURE-----
 
---===============0273085966390979912==--
+--===============4204691531840314671==--
