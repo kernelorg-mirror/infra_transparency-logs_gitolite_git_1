@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 29 Apr 2024 17:37:42 -0000
-Message-Id: <171441226282.3369.12195914171260029049@gitolite.kernel.org>
+Date: Mon, 29 Apr 2024 17:41:29 -0000
+Message-Id: <171441248980.6388.6184756832215079952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,12 @@ repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
   - ref: refs/heads/dev-test
-    old: b76ee9048b89d293eba6d6881abb33e27b9beff8
-    new: 18f9a50265074a5a5b82ec051c61cf856ec67e60
+    old: 18f9a50265074a5a5b82ec051c61cf856ec67e60
+    new: ae015df696afb2996ab407d1689bf048f7f58d13
     log: |
-         98256691e2f8e934d35e137263e0f40c7da10464 f2fs: fix block migration when section is not aligned to pow2
-         16eee59e90d2edbfeba6fce1d798ce487e20415b f2fs: remove redundant parameter in is_next_segment_free()
-         f964c2e6ec36be521f5e309228214aea786066e6 f2fs: fix to avoid allocating WARM_DATA segment for direct IO
-         18f9a50265074a5a5b82ec051c61cf856ec67e60 f2fs: fix to do sanity check on i_xattr_nid in sanity_check_inode()
+         ecd69be71aad3b9299b37b3d8cc3f0fb6016286f f2fs: remove redundant parameter in is_next_segment_free()
+         a320b2f08b3b26fff0a71777f018553fc1e6873e f2fs: fix to avoid allocating WARM_DATA segment for direct IO
+         20faaf30e55522bba2b56d9c46689233205d7717 f2fs: fix to do sanity check on i_xattr_nid in sanity_check_inode()
+         48d180e2bf5a527ba6513a8abddf8b3beb6b7674 f2fs: zone: fix to don't trigger OPU on pinfile for direct IO
+         ae015df696afb2996ab407d1689bf048f7f58d13 f2fs: fix block migration when section is not aligned to pow2
          
