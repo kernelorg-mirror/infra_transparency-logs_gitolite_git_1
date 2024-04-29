@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5755809319562776595=="
+Content-Type: multipart/mixed; boundary="===============9080896997774537746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 29 Apr 2024 20:57:38 -0000
-Message-Id: <171442425835.21117.12862408330634938487@gitolite.kernel.org>
+Date: Mon, 29 Apr 2024 20:58:01 -0000
+Message-Id: <171442428127.21317.11169322427698287575@gitolite.kernel.org>
 
---===============5755809319562776595==
+--===============9080896997774537746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 07801a24e2f18624cd2400ce15f14569eb416c9a
     new: 89de2db19317fb89a6e9163f33c3a7b23ee75a18
     log: revlist-07801a24e2f1-89de2db19317.txt
-  - ref: refs/tags/v6.9-rc2
-    old: 0000000000000000000000000000000000000000
-    new: eb285c4e8b2d05185325214894357eb2275f972e
-  - ref: refs/tags/v6.9-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b4429db95735be42f9b96d7383adfe2fc51dc9fa
-  - ref: refs/tags/v6.9-rc4
-    old: 0000000000000000000000000000000000000000
-    new: c8d6e4168c5b8c2b0cf545bd3ca87356b4079164
-  - ref: refs/tags/v6.9-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f7106f2f9cc0b361fbc610a7e0c74c8e0658d9b5
 
---===============5755809319562776595==
+--===============9080896997774537746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1063,4 +1051,4 @@ e8dfd42c17faf183415323db1ef0c977be0d6489 ipv6: introduce dst_rt6_info() helper
 b3f1a08fcf0dd58d99b14b9f8fbd1929f188b746 net: phy: micrel: Add support for PTP_PF_EXTTS for lan8814
 89de2db19317fb89a6e9163f33c3a7b23ee75a18 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============5755809319562776595==--
+--===============9080896997774537746==--
