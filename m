@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7231489554181752472=="
+Content-Type: multipart/mixed; boundary="===============1150151453169121557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 29 Apr 2024 15:46:26 -0000
-Message-Id: <171440558642.16069.111155848033630952@gitolite.kernel.org>
+Date: Mon, 29 Apr 2024 15:46:45 -0000
+Message-Id: <171440560594.16275.14193511192661434652@gitolite.kernel.org>
 
---===============7231489554181752472==
+--===============1150151453169121557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 6a30653b604aaad1bf0f2e74b068ceb8b6fc7aea
     new: ba1cb99b559e3b12db8b65ca9ff03358ea318064
     log: revlist-6a30653b604a-ba1cb99b559e.txt
 
---===============7231489554181752472==
+--===============1150151453169121557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ b867247555c4181bf84eb10b72b176862c29112d Merge branch 'qed-error-codes'
 b22ea4ef4c3438817fcb604255b55b0058ed8c64 vxlan: Add missing VNI filter counter update in arp_reduce().
 ba1cb99b559e3b12db8b65ca9ff03358ea318064 Merge branch 'vxlan-stats'
 
---===============7231489554181752472==--
+--===============1150151453169121557==--
