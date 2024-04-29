@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Mon, 29 Apr 2024 09:37:41 -0000
-Message-Id: <171438346119.29741.5639343535520358173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 29 Apr 2024 09:38:58 -0000
+Message-Id: <171438353831.30278.10294465723971484775@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/for-linus
-    old: 63d85aa69778a12af256e415f666624bb27a5a5d
-    new: 38762a0763c10c24a4915feee722d7aa6e73eb98
+  - ref: refs/tags/erofs-for-6.9-rc7-fixes
+    old: 0000000000000000000000000000000000000000
+    new: aece10ab7740d12e2fe03e9f44b90a9cfe9a7847
