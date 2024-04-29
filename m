@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1475133071456930239=="
+Content-Type: multipart/mixed; boundary="===============6521399335102649197=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 29 Apr 2024 15:51:09 -0000
-Message-Id: <171440586958.20158.9812017476064677524@gitolite.kernel.org>
+Date: Mon, 29 Apr 2024 15:51:36 -0000
+Message-Id: <171440589636.20406.2133930478780715544@gitolite.kernel.org>
 
---===============1475133071456930239==
+--===============6521399335102649197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 1bede0a12d3a45bd366d3cf9e1c7611d86f1bc1f
     new: b3f1a08fcf0dd58d99b14b9f8fbd1929f188b746
     log: revlist-1bede0a12d3a-b3f1a08fcf0d.txt
 
---===============1475133071456930239==
+--===============6521399335102649197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ e8dfd42c17faf183415323db1ef0c977be0d6489 ipv6: introduce dst_rt6_info() helper
 3208bdd0f560bc417e8ae1e1fc8a236d2c2489d4 Merge branch 'dsa-realtek-leds'
 b3f1a08fcf0dd58d99b14b9f8fbd1929f188b746 net: phy: micrel: Add support for PTP_PF_EXTTS for lan8814
 
---===============1475133071456930239==--
+--===============6521399335102649197==--
