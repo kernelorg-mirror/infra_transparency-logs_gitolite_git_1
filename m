@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 29 Apr 2024 23:33:18 -0000
-Message-Id: <171443359862.7471.9637541553326030159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 29 Apr 2024 23:41:22 -0000
+Message-Id: <171443408238.14904.8287738758896347140@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 789d9a53d2f633317c64de3eba0940f31a8f0cd6
-    new: cfd3bfe9507b4aa39f7e86772e60b50b799e490e
+  - ref: refs/heads/master
+    old: 279fc402edee537c9913ea88954063fd73e31751
+    new: a8b79934d2537e40e012737f2772a338dfb63f17
     log: |
-         cfd3bfe9507b4aa39f7e86772e60b50b799e490e bpf: Include linux/types.h for u32
+         a8b79934d2537e40e012737f2772a338dfb63f17 Mon Apr 29 07:40:32 PM EDT 2024
          
