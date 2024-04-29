@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Mon, 29 Apr 2024 16:11:25 -0000
-Message-Id: <171440708520.3479.8486927511692145714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 29 Apr 2024 16:14:01 -0000
+Message-Id: <171440724120.4482.17958369910354556644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/next
-    old: cda30c6542c8bb445bc84f6616cac8d012547f0a
-    new: 4b2543f7e1e6b91cfc8dd1696e3cdf01c3ac8974
-    log: |
-         4b2543f7e1e6b91cfc8dd1696e3cdf01c3ac8974 efi: libstub: only free priv.runtime_map when allocated
-         
+  - ref: refs/heads/arm64/dt-cleanup
+    old: 0000000000000000000000000000000000000000
+    new: de2ba5bd3607a5e5442a5fcbdea6ee2823b72fb9
