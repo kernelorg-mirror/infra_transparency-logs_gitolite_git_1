@@ -1,22 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 30 Apr 2024 11:18:09 -0000
-Message-Id: <171447588937.11625.12171937776816405902@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6183825426493107279=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 30 Apr 2024 11:24:37 -0000
+Message-Id: <171447627715.16335.16607225532472979727@gitolite.kernel.org>
+
+--===============6183825426493107279==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 44ca9163fc5b41863b8444177825580dc7b08028
-    new: 12aca537ce78a41bbcdaf485209691e10f8002d7
-    log: |
-         8ea186128f96d6f8912e05c95544734004618827 mount_setattr.2: Update supported file-systems
-         e0fad29887f006d7c0ef60509eab11ac667641a3 CONTRIBUTING.d/mail: Recommend specific mutt(1) config
-         37908fd28dc0c64a7bab9ae0053aff9a1c7923bf CONTRIBUTING.d/patches: Add git-send-email(1) configuration for To and Cc
-         12aca537ce78a41bbcdaf485209691e10f8002d7 CONTRIBUTING.d/patches: Please provide a git-range-diff(1)
-         
+  - ref: refs/tags/platform-drivers-x86-v6.9-4
+    old: 0000000000000000000000000000000000000000
+    new: 3554a4d64c7bcdd0a8dc2155b54927aa81df9e86
+
+--===============6183825426493107279==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1714476268 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1714476273-0d3c185d7e4ef5f2c2da18050e0c5f2043b263b2
+
+0000000000000000000000000000000000000000 3554a4d64c7bcdd0a8dc2155b54927aa81df9e86 refs/tags/platform-drivers-x86-v6.9-4
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZjDU8wAKCRBZrE9hU+XO
+MQplAP9Gu/60wnL1Phk6rIMlBXIfHtNVVvccQmBmQPowpVd3pQEAnQgyrICPDoxT
+paauxAV0EwtRadXKJ+fNrxkKggZXxAI=
+=/uL1
+-----END PGP SIGNATURE-----
+
+--===============6183825426493107279==--
