@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 30 Apr 2024 17:35:26 -0000
-Message-Id: <171449852614.7536.15136654987672428516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Tue, 30 Apr 2024 17:35:56 -0000
+Message-Id: <171449855612.7789.2109513830163233680@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/dt/next
-    old: 669430b183fccb3a8b39000a1e9dfb3a2d3028ce
-    new: 50841de2a86e749833fe3393e117275ae740bdd6
+  - ref: refs/heads/hwmon-next
+    old: dc0977af690a9ffc141aec7bcccff8989e1fd513
+    new: 8b3aa2c488653fa1e127cf6e11499a8cbbaccad0
     log: |
-         2acef04ad57cab44b33001542791fc93f81cadf1 of: reserved_mem: Remove the use of phandle from the reserved_mem APIs
-         50841de2a86e749833fe3393e117275ae740bdd6 of: property: Use scope based cleanup on port_node
+         8b3aa2c488653fa1e127cf6e11499a8cbbaccad0 hwmon: Drop explicit initialization of struct i2c_device_id::driver_data to 0
          
