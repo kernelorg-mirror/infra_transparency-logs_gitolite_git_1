@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 30 Apr 2024 14:30:06 -0000
-Message-Id: <171448740615.26514.9874322836583926473@gitolite.kernel.org>
+Date: Tue, 30 Apr 2024 14:30:16 -0000
+Message-Id: <171448741676.26636.9495870911100016972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.9
-    old: bda16500dd0b05e2e047093b36cbe0873c95aeae
-    new: fbd741f0993203d07b2b6562d68d1e5e4745b59b
+  - ref: refs/heads/asoc-6.10
+    old: 9b4f41684b239eedac96913270db4a5669956671
+    new: 9a8cadddd9303ae15d1d518c4f2ddf00ee668729
     log: |
-         6db26f9ea4edd8a17d39ab3c20111e3ccd704aef ASoC: meson: cards: select SND_DYNAMIC_MINORS
-         e8a6a5ad73acbafd98e8fd3f0cbf6e379771bb76 ASoC: da7219-aad: fix usage of device_get_named_child_node()
-         fbd741f0993203d07b2b6562d68d1e5e4745b59b ASoC: cs35l56: fix usages of device_get_named_child_node()
+         4a1baeefd1d5a955b5a55a75539244e03e623b0b ASoC: dt-bindings: tegra30-i2s: convert to dt schema
+         9a8cadddd9303ae15d1d518c4f2ddf00ee668729 ASoC: sunxi: DMIC: Add controls for adjusting the mic gains
          
