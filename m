@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7934183968492310712=="
+Content-Type: multipart/mixed; boundary="===============5064252872191626890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 30 Apr 2024 15:57:45 -0000
-Message-Id: <171449266592.30362.2988527661439970263@gitolite.kernel.org>
+Date: Tue, 30 Apr 2024 15:58:20 -0000
+Message-Id: <171449270030.30696.8159578645542100931@gitolite.kernel.org>
 
---===============7934183968492310712==
+--===============5064252872191626890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: b3f1a08fcf0dd58d99b14b9f8fbd1929f188b746
-    new: b45176703647e5302314c740a51e7d1054a7bd3c
-    log: revlist-b3f1a08fcf0d-b45176703647.txt
+  - ref: refs/heads/dev-queue
+    old: 91f23ee2ef3af4a6b36a8c224a4af8ff65aa25c5
+    new: dd8a8e96f22a2ce3b615a8485cb37e246697fa85
+    log: revlist-91f23ee2ef3a-dd8a8e96f22a.txt
 
---===============7934183968492310712==
+--===============5064252872191626890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3f1a08fcf0d-b45176703647.txt
+Content-Disposition: attachment; filename=revlist-91f23ee2ef3a-dd8a8e96f22a.txt
 
 5311591fbb349fe9f5c555dcba3b13a5831aa72d bpf: Add support for passing mark with bpf_fib_lookup
 6efec2cb06411a577125b5f531a852c08ead1209 selftests/bpf: Add BPF_FIB_LOOKUP_MARK tests
@@ -237,5 +237,22 @@ ee2512d6bf4168998f3c218fb33ed50544e69e3c selftests: net: py: avoid all ports < 1
 0f0cdf312ecc06e63fbba95caf2844e2c405b076 selftests: drv-net: support generating iperf3 load
 9da271f825e42156058a2eb09360bc993853bbba selftests: drv-net-hw: add test for memory allocation failures with page pool
 b45176703647e5302314c740a51e7d1054a7bd3c Merge branch 'selftests-net-page_poll-allocation-error-injection'
+816374b4284d2ab78968788e0556a4698e81da99 ice: Fix package download algorithm
+3365b37bc5146c7f6cf5134dc621f51214f805d9 ice: add additional E830 device ids
+6ef540adcea71b693b39ad3aa5fc61fd7a19687e ice: update E830 device ids and comments
+c95b7d55d6c4bb53a1cd864ca79aa3eae8f1d990 ice: Deduplicate tc action setup
+5041a0ff76991930ea9aef737a02534a82d829e9 e1000e: move force SMBUS near the end of enable_ulp function
+89b229b34d26393903499778f18a9b7cb0cda73c e1000e: change usleep_range to udelay in PHY mdic access
+f9df204700f63ebe1b3d3cfa0c7972c81a66e337 i40e: flower: validate control flags
+c0fe0ca500aeb2dfd0064b1c6b3979ac88523298 iavf: flower: validate control flags
+70093d70a05975f75baf6f9dadd81a62de0e4ec0 ice: flower: validate control flags
+5550fc8041d108e3d158c680a7a2c045c638a5a4 igb: flower: validate control flags
+b58007d84d049b236000f89aec28e2b1e40b7def ice: Interpret .set_channels() input differently
+4af46554fa2b978a9a4b1773ac34bd6a9a313fa3 ice: fix 200G PHY types to link speed mapping
+43f8b001c87f9304e79db2047e5054c2cf4fce45 ice: refactor struct ice_vsi_cfg_params to be inside of struct ice_vsi
+97ec3e6cd70376fcac97982a9282fd5322fbe298 ice: Do not get coalesce settings while in reset
+9430fcec07e2a056bcc31af7e9b6821451bb1baa ice: remove correct filters during eswitch release
+23da92de9aa74b5b09fb8710e42fb79a4e7ff54c net: e1000e & ixgbe: Remove PCI_HEADER_TYPE_MFD duplicates
+dd8a8e96f22a2ce3b615a8485cb37e246697fa85 igc: fix a log entry using uninitialized netdev
 
---===============7934183968492310712==--
+--===============5064252872191626890==--
