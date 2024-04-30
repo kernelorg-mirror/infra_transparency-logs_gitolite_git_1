@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 30 Apr 2024 13:27:56 -0000
-Message-Id: <171448367648.11062.8630875045425911982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 30 Apr 2024 13:30:16 -0000
+Message-Id: <171448381683.13597.118911783762515304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 7e6079219b2218f4c3f52521f4a2c521049d961a
-    new: 6fc599e334cead9cbd014f7830753bc28ee5868b
+  - ref: refs/heads/main
+    old: 8a3163b6714be5f544846a2c200916d848556d57
+    new: 5cd9fac3a369edd072e8e72a2b5f5abae57c97ed
     log: |
-         6fc599e334cead9cbd014f7830753bc28ee5868b gatt-database: Fix not calling pending_op_free
+         5cd9fac3a369edd072e8e72a2b5f5abae57c97ed net: sfp-bus: constify link_modes to sfp_select_interface()
          
