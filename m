@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 30 Apr 2024 18:15:00 -0000
-Message-Id: <171450090054.4126.8909217178079067303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 30 Apr 2024 18:19:41 -0000
+Message-Id: <171450118102.7480.12262630440819941763@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: martin.lau
 changes:
-  - ref: refs/heads/100GbE
-    old: ba1cb99b559e3b12db8b65ca9ff03358ea318064
-    new: 6c047665d598f469ea51411f9f4b24291cec6d96
+  - ref: refs/heads/master
+    old: b867247555c4181bf84eb10b72b176862c29112d
+    new: 3e9bc0472b910d4115e16e9c2d684c7757cb6c60
     log: |
-         6c047665d598f469ea51411f9f4b24291cec6d96 ice: Do not get coalesce settings while in reset
+         543576ec15b17c0c93301ac8297333c7b6e84ac7 bpf: Add BPF_PROG_TYPE_CGROUP_SKB attach type enforcement in BPF_LINK_CREATE
+         d70b2660e75b85bdaa9d75f9c4224c2f6f89cf23 selftests/bpf: Extend sockopt tests to use BPF_LINK_CREATE
+         095ddb501b39b7842e5da555915ad89e370b9888 selftests/bpf: Add sockopt case to verify prog_type
+         3e9bc0472b910d4115e16e9c2d684c7757cb6c60 Merge branch 'bpf: Add BPF_PROG_TYPE_CGROUP_SKB attach type enforcement in BPF_LINK_CREATE'
          
