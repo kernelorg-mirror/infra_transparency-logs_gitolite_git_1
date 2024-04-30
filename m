@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1718822635049431995=="
+Content-Type: multipart/mixed; boundary="===============4131870691489097098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Tue, 30 Apr 2024 21:38:22 -0000
-Message-Id: <171451310289.25240.3470733080541925514@gitolite.kernel.org>
+Date: Tue, 30 Apr 2024 21:43:02 -0000
+Message-Id: <171451338222.28543.13125763054882995740@gitolite.kernel.org>
 
---===============1718822635049431995==
+--===============4131870691489097098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,54 +16,54 @@ repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
   - ref: refs/heads/sched_ext-v6
-    old: e34959f803a896083d04ad6164926b149b5a0bcc
-    new: fd0a834a2f9ba86b9be704cba25a6042e2fad8de
-    log: revlist-e34959f803a8-fd0a834a2f9b.txt
+    old: fd0a834a2f9ba86b9be704cba25a6042e2fad8de
+    new: d0eb2e7d03e645bce3e0959bf435e2c9d33ec40d
+    log: revlist-fd0a834a2f9b-d0eb2e7d03e6.txt
 
---===============1718822635049431995==
+--===============4131870691489097098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e34959f803a8-fd0a834a2f9b.txt
+Content-Disposition: attachment; filename=revlist-fd0a834a2f9b-d0eb2e7d03e6.txt
 
-a0c768d2a86d639d617a63baade1814661a97678 cgroup: Implement cgroup_show_cftypes()
-6fc57ee97e4c64dc17b503211c3f53accab96835 sched: Restructure sched_class order sanity checks in sched_init()
-820ced6417273d0d5ffbe0aa27cb9b8cc458d6e6 sched: Allow sched_cgroup_fork() to fail and introduce sched_cancel_fork()
-a878bf3c8ed70988e009de0654287f5a600cec7e sched: Add sched_class->reweight_task()
-c88922944d813ed0c1a82c9cf2c25e495374d680 sched: Add sched_class->switching_to() and expose check_class_changing/changed()
-6dc4cee999461ec394182d0847edee980e48bcc9 sched: Factor out cgroup weight conversion functions
-e0ca8fa5bedaab8821b3e26217abac8777017f5b sched: Expose css_tg() and __setscheduler_prio()
-9df55d2efe64b2ec82f22f7c72437fdfa8164fd2 sched: Enumerate CPU cgroup file types
-e0c102ccdd34701eb5255bedaeab545c4273dd15 sched: Add @reason to sched_class->rq_{on|off}line()
-b462fae2eb82d2676c6ec3c0fc467f9e361ea445 sched: Factor out update_other_load_avgs() from __update_blocked_others()
-3f3c850b22202907666b84ac503f6b9808063abe cpufreq_schedutil: Refactor sugov_cpu_is_busy()
-98fa3d35e094e8e93aedfb564598e8b4d0b764c0 sched: Add normal_policy()
-89dca2c6d57ab43a47e80fa561d8887e15831822 sched_ext: Add boilerplate for extensible scheduler class
-294b4ad41b1da50433d951723a5e53240483890f sched_ext: Implement BPF extensible scheduler class
-915ee6e4fb466ce026aeba175bcd93760a8b91f4 sched_ext: Add scx_simple and scx_example_qmap example schedulers
-e91252795246efc77251b12a222e2d54c8723424 sched_ext: Add sysrq-S which disables the BPF scheduler
-0d200d158ee2ce2d10ce73799d7236e42fb10f19 sched_ext: Implement runnable task stall watchdog
-e68f62cbbddcb0cc48b2a0be26dfaa576aa5c413 sched_ext: Allow BPF schedulers to disallow specific tasks from joining SCHED_EXT
-cf7f9e50e16e3b40d79bad0a167fd6fb896f0f56 sched_ext: Print sched_ext info when dumping stack
-c683106bf14a2cd09c69689b09dfce91a496fce7 sched_ext: Print debug dump after an error exit
-6a102e940e0377201394f0401c4f6584f8764df3 tools/sched_ext: Add scx_show_state.py
-34a10707c8baef0aaacf48296b44431bf575e694 sched_ext: Implement scx_bpf_kick_cpu() and task preemption support
-667f8c1759d67c7eede71711996831fe9c42540c sched_ext: Add a central scheduler which makes all scheduling decisions on one CPU
-8f80029e13cb8761039600bb95a5dcc3404dbcc2 sched_ext: Make watchdog handle ops.dispatch() looping stall
-97e3d45e389ad7af869fb8391416753549ca724a sched_ext: Add task state tracking operations
-17bdd56b5273933001fb89440dd27fbe0f93021d sched_ext: Implement tickless support
-2ad38b434b0471e2a1a22878b1734e8e89b11eb9 sched_ext: Track tasks that are subjects of the in-flight SCX operation
-2611bd6d296b63db14bdc8c3fb03879ca431e1c2 sched_ext: Add cgroup support
-3b734e91893539e2677ecf1b12f99a3c59e4eb33 sched_ext: Add a cgroup scheduler which uses flattened hierarchy
-9fcf7e72f19da332f4d8321dfd54d68015476717 sched_ext: Implement SCX_KICK_WAIT
-0a41d12b83194bdd88dc38101f3cb72630ce6b12 sched_ext: Implement sched_ext_ops.cpu_acquire/release()
-0aba2ca6b536941ea0567a364e172d6e10aa533d sched_ext: Implement sched_ext_ops.cpu_online/offline()
-09724294f9024548c64af106ef1577df7ec5c4c8 sched_ext: Bypass BPF scheduler while PM events are in progress
-e97c34988548b13d8e5dde520fcd007ae7b6870b sched_ext: Implement core-sched support
-7ffb5bc0106b5d8c339a4c46aab47e6392fc9f78 sched_ext: Add vtime-ordered priority queue to dispatch_q's
-d9218987d8deeca5a35afbb0b676071a2366d007 sched_ext: Implement DSQ iterator
-f38259acce8e6986e7a84cdedca2591c8d26eaee sched_ext: Add cpuperf support
-c50f472a14183adede7ea0a3b223109802ffa29f sched_ext: Documentation: scheduler: Document extensible scheduler class
-fd0a834a2f9ba86b9be704cba25a6042e2fad8de sched_ext: Add selftests
+858044936bbf412c378a95d35fccb7da6fa437bd cgroup: Implement cgroup_show_cftypes()
+874705c2b33b3e8aa3388485247856de26c34a00 sched: Restructure sched_class order sanity checks in sched_init()
+6b8bc0682882c3afe61c1117c592014a93d8cccf sched: Allow sched_cgroup_fork() to fail and introduce sched_cancel_fork()
+a5f0e314e461f8dabd5845907eb2ff34650a9bec sched: Add sched_class->reweight_task()
+626800abce9b0b99bac9d5003df5ef10939b18ab sched: Add sched_class->switching_to() and expose check_class_changing/changed()
+f84c9a3f5c09c5c706f4858c1de3352f7b236108 sched: Factor out cgroup weight conversion functions
+0459519dd09026733113061bd6e7c633b0879a1d sched: Expose css_tg() and __setscheduler_prio()
+304c837d0851437605a867f5c0942e9b1fbbefd1 sched: Enumerate CPU cgroup file types
+f178d6348b6a68c5a865f6ffa8f9783ec9c683e9 sched: Add @reason to sched_class->rq_{on|off}line()
+47a56708c0b3c489b35c58a1d88219055fbbfc53 sched: Factor out update_other_load_avgs() from __update_blocked_others()
+717518641b1a7c78f52c9b0201a714f46fc04e76 cpufreq_schedutil: Refactor sugov_cpu_is_busy()
+d91ba1e5df0b7f61966fb5dd4e98190684945a38 sched: Add normal_policy()
+a42e46735b338b41b2d7449cea9135c7f0ca4801 sched_ext: Add boilerplate for extensible scheduler class
+b1ab9dc595c823553a89b30f59afaac375b73271 sched_ext: Implement BPF extensible scheduler class
+3640fffb32bcf667ed21aaf5e25d133e837b7e2b sched_ext: Add scx_simple and scx_example_qmap example schedulers
+99365eae81a8b1c7f8ba269720fcb1bed0285303 sched_ext: Add sysrq-S which disables the BPF scheduler
+ca0137409561bfc457c25da6a1b3c2d7e650529a sched_ext: Implement runnable task stall watchdog
+021559b81272d33e7a7f9015c90e74c00f1de0c0 sched_ext: Allow BPF schedulers to disallow specific tasks from joining SCHED_EXT
+2569c6c0721c498af2d2df176ad43afc36c724c0 sched_ext: Print sched_ext info when dumping stack
+666b8ba4f909d82854468e4fd0afc20a1f70befb sched_ext: Print debug dump after an error exit
+74ea8056495043937eec2e7b937fc0939794a794 tools/sched_ext: Add scx_show_state.py
+52fcb42d33c0ab5803ce8488bada0860b99b09af sched_ext: Implement scx_bpf_kick_cpu() and task preemption support
+3b4575bb51afd8023ae0861d83d0843ea9b43757 sched_ext: Add a central scheduler which makes all scheduling decisions on one CPU
+a11e2c693a73068d952c17da1e1d2fa7481c59a3 sched_ext: Make watchdog handle ops.dispatch() looping stall
+0bc0836fc4da7ff8a6fef086256f0176e20bbdf8 sched_ext: Add task state tracking operations
+188e08fe21905aca6d3f6e8135981877b4183cbf sched_ext: Implement tickless support
+45336afd9c9c8a3246397f31a69a18f29a4032ca sched_ext: Track tasks that are subjects of the in-flight SCX operation
+462185788242b94a4a59a19fb7237c4aeb141ca5 sched_ext: Add cgroup support
+8242c194f91e704648265f3d9b0fcd0cb39a0f93 sched_ext: Add a cgroup scheduler which uses flattened hierarchy
+2257ed9b126c04317e4911d2e337a1f84591f3f7 sched_ext: Implement SCX_KICK_WAIT
+c1bf3be64ee9c0c0e65539cb780e80c87b71a894 sched_ext: Implement sched_ext_ops.cpu_acquire/release()
+c58fc4caf0267333aa37315731e6dd5089592aa1 sched_ext: Implement sched_ext_ops.cpu_online/offline()
+5aa78506e1de39d84b95b0a60d1553ba664ea66a sched_ext: Bypass BPF scheduler while PM events are in progress
+5a2ecdf2edc23892ffd8a4d8e87b3cab1233c453 sched_ext: Implement core-sched support
+bea913a349a64175d76da519865edf0e4deeb758 sched_ext: Add vtime-ordered priority queue to dispatch_q's
+a56c5ef3e1a789437ac6d3df5b784ba5511c1bff sched_ext: Implement DSQ iterator
+992947adc3909fecfb15a358954ea6f2a7e95340 sched_ext: Add cpuperf support
+72f2d9e6387f996dd5fb56ec75339690f1538943 sched_ext: Documentation: scheduler: Document extensible scheduler class
+d0eb2e7d03e645bce3e0959bf435e2c9d33ec40d sched_ext: Add selftests
 
---===============1718822635049431995==--
+--===============4131870691489097098==--
