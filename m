@@ -1,35 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Tue, 30 Apr 2024 02:10:15 -0000
-Message-Id: <171444301566.31467.977761107832204465@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3877703338859203976=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 30 Apr 2024 02:14:53 -0000
+Message-Id: <171444329390.747.11084870678886911781@gitolite.kernel.org>
+
+--===============3877703338859203976==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/debian/master
-    old: 83d48735c19632249aeacdf93f76bd86748a5445
-    new: a90cd3b00bb5c1d61556c472414c2b415a73901f
-    log: |
-         a90cd3b00bb5c1d61556c472414c2b415a73901f debian: update debian/changelog and patches for 1.47.1~rc1-2
-         
-  - ref: refs/heads/master
-    old: 7272a9724468622129978507c70efc68769aaf9f
-    new: 1b042c23ca782c1af06695bf61528f0969378bdc
-    log: |
-         a4c1bf4d4704495ee9ce074eef61714d646dc6b4 debian: don't try to install e2scrub on Hurd
-         018cd6e9a659917ac1374775f5a60b1cf0be182c debian: don't build with libarchive on mips64el
-         1b042c23ca782c1af06695bf61528f0969378bdc debian: add support for DEB_BUILD_OPTIONS=parallel=N
-         
-  - ref: refs/heads/next
-    old: 7272a9724468622129978507c70efc68769aaf9f
-    new: 1b042c23ca782c1af06695bf61528f0969378bdc
-    log: |
-         a4c1bf4d4704495ee9ce074eef61714d646dc6b4 debian: don't try to install e2scrub on Hurd
-         018cd6e9a659917ac1374775f5a60b1cf0be182c debian: don't build with libarchive on mips64el
-         1b042c23ca782c1af06695bf61528f0969378bdc debian: add support for DEB_BUILD_OPTIONS=parallel=N
-         
+  - ref: refs/heads/main
+    old: 89de2db19317fb89a6e9163f33c3a7b23ee75a18
+    new: dd1941f801bc958d2ee13f5be8b38db6b034b806
+    log: revlist-89de2db19317-dd1941f801bc.txt
+
+--===============3877703338859203976==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-89de2db19317-dd1941f801bc.txt
+
+8433c5833ed90235f44b40f3466ab075bae5c985 net: dsa: ksz_common: remove phylink_mac_config from ksz_dev_ops
+95fe2662c56f9496edf1d03da44fbda7026a4c23 net: dsa: ksz_common: provide own phylink MAC operations
+9424c0731355c3fd73fe22c7e60d6ffbe8461d7a net: dsa: ksz_common: sub-driver phylink ops
+968d068e547697e597c71e56fdc3d7c8a8dae23d net: dsa: ksz_common: use separate phylink_mac_ops for ksz8830
+7253f97a994b87adad07735e8e281413bcc8c717 Merge branch 'net-dsa-microchip-use-phylink_mac_ops-for-ksz-driver'
+3c668cef61adde9ddfb1b79708c9a08d9ac01bae net: hsr: init prune_proxy_timer sooner
+45f54a9106265c3bbcf3fa9ebe510cbb10e933da net: mvpp2: use phylink_pcs_change() to report PCS link change events
+21c8e45acbdbe62404b3120e4bd7975de8e38172 net: mvneta: use phylink_pcs_change() to report PCS link change events
+e47e5e85da3abfc68b3e2f574285234b3fff6fc0 net: prestera: use phylink_pcs_change() to report PCS link change events
+dd1941f801bc958d2ee13f5be8b38db6b034b806 net: txgbe: use phylink_pcs_change() to report PCS link change events
+
+--===============3877703338859203976==--
