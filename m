@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6798213257541409013=="
+Content-Type: multipart/mixed; boundary="===============1684647655258127600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 30 Apr 2024 18:44:55 -0000
-Message-Id: <171450269518.25876.143838633326217547@gitolite.kernel.org>
+Date: Tue, 30 Apr 2024 18:47:47 -0000
+Message-Id: <171450286745.28607.224291818135319890@gitolite.kernel.org>
 
---===============6798213257541409013==
+--===============1684647655258127600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,44 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt64
-    old: 6d1434a7d95939d21cf300f73040e3e6a02e84f8
-    new: aaafb21e8190cd2bc8cadf3e0f017bc5c11bb109
+  - ref: refs/heads/for-next
+    old: 87e0588641086e91f3d0a7d97b939301990b1e86
+    new: 7a6a71ac50cb96a2909309387dcdfde80a45caff
     log: |
          b5f5fe4b317c0fbda725a44d9c92d97930ad68e9 arm64: dts: exynos: gs101: Add the hsi2 sysreg node
          4c65d7054b4ce8ceb30ba2b8aed90ceff6158d73 arm64: dts: exynos: gs101: Add ufs and ufs-phy dt nodes
          aaafb21e8190cd2bc8cadf3e0f017bc5c11bb109 arm64: dts: exynos: gs101: enable ufs, phy on oriole & define ufs regulator
+         7a6a71ac50cb96a2909309387dcdfde80a45caff Merge branch 'next/dt64' into for-next
          
 
---===============6798213257541409013==
+--===============1684647655258127600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1714502689 +0200
+pusher krzk@kernel.org 1714502865 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1714502689-798e714b6b30f9ce8683af12a5abc6160d08a925
+nonce 1714502865-398533f05039085a40d24020481ddd1e32467012
 
-6d1434a7d95939d21cf300f73040e3e6a02e84f8 aaafb21e8190cd2bc8cadf3e0f017bc5c11bb109 refs/heads/next/dt64
+87e0588641086e91f3d0a7d97b939301990b1e86 7a6a71ac50cb96a2909309387dcdfde80a45caff refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYxPCEQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1948D/4xRjpxomgfiUitzPr2OKFyeps24SyeXYzW
-DiJNSBvJ4G+QuynachY2Zj6132fn+rhPiq/tImWo3NZoNNqGE4vyjsdYAy6X1z6e
-mEqypaCh0uAYrrNXkHJwae40fqoUrHHjMzWyq3xa16Ak7d9WOtyR18rI2uwqxsTb
-LezdBDFZL6j/ST4QWBMJoZrrPSKR10CwtdPwGz0Nl9Bkgsj5X5Y/LY0vkBHtY52L
-Ams0vqZC7vq7InrJqzlb2BbEbMAxmbB6XOCM4cmOQBigStIIaOI4xvoWWU0GtbJN
-JVyn8sq+4f9yMaCHepwIVDtgtu7aEpNhYplboS4i1frFRPoiqU4PotUUVC1Wlf4/
-Litq+sAtTMYeLgOjq434M6qvQ4C8JyO1xqnXk8CLCrpRvNvePghfw4NxJa9AQ+p1
-1iTCjbeq1LUMju5gnA0yNoVAPQWVtJE+jl9lG0NQz63C4YE9vBpcuVcol7CaPcUH
-gEYkGBrWOPmh2Gc7LEckH8TeIPEOeFBqZKRBlfvMltXh6jVzbtWprlHtCvVUF2sd
-Y1ZR5mJWpIP2qxKpUQJu2+nv0Jqwk0cxbcDN991m9qHtRTwU3yTBkC/xYMGPnPOL
-M4gXLBFssYdDcGlhPnCne4OMLIWu+NVnT4LnIzneP4YBhHQl8ZNvgVnI7Rv/lsHL
-VvPgcm+M7Q==
-=7Sry
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmYxPNEQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD16l0D/0bUpAPGRXbYY3+K8XSV/nnutJwQWgSM5zU
+QK+FROKL0S9koPhebmRXIUpr/z1k5qv9Js48tgoOUbejbgbxhZgBa8UAxHo2TuLw
+A84CeABWTNGExXEkJQe0L5rgw4GcIa/jLm816geEidi5JVu72P8Y7PQTp8SDH0K6
+ej6kZIycbzZ7T5hCKvP+KmquWOViSMN0dETpNEHd0pldzY6aH/vhZ9MJKdBZw31g
+aN6u+SpDLCWlJEasrXgoCJ+aMLoBJGQBbA9vbFC57VxfE3oqmWXcN6QSRxdeAySY
+lWSdqKJybjSgG6H36+Gi4RetzbotjoD8fkJwggT2y6UC1pzGfzvUVNvPEzUj3QY0
+LRCx+dz3HA3Cjv6JUq1QWInbNplCCSMc+mcJst3ja1dAXkhB4v5OETbW8GR6kvFP
+Rwz3Rfo95hVLK7iO15eugnSABm3jmbyeCokaEMkXdTcHTcQ0DmAFLyNYwbtHhy0H
+dAaYZrzjOTcqpC4dpJktkX1VllhsYmZyehakWx/WTzTKSZ61peu6M+VbtSKWli8W
+QYrt6bkDVyRppJDjY3xli0k65jdMZMoqoz2vEkjTWW+hWtTd1XyicfkRK96HyMyh
+h11hFKYWU3iH7DOwjNvK3tdOeAYq9ro8QzscOJtJZ09YgdtZ8h+CYt0+NARqs3M6
+ZwN+9bDuJA==
+=0Ta1
 -----END PGP SIGNATURE-----
 
---===============6798213257541409013==--
+--===============1684647655258127600==--
