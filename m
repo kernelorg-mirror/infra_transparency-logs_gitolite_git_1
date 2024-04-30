@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Tue, 30 Apr 2024 02:52:19 -0000
-Message-Id: <171444553992.28655.7985373090090054898@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 30 Apr 2024 02:55:25 -0000
+Message-Id: <171444572504.31374.2892049377728925948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fpga/linux-fpga
-user: yilunxu
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/fpga-for-6.20-rc1
+  - ref: refs/heads/fileC1gYvL
     old: 0000000000000000000000000000000000000000
-    new: a8a1105696db5186bb43920b3b059a7f764b1958
+    new: 9a8cadddd9303ae15d1d518c4f2ddf00ee668729
