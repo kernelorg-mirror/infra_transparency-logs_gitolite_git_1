@@ -1,27 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 30 Apr 2024 09:35:56 -0000
-Message-Id: <171446975610.18704.5080930643931415625@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 30 Apr 2024 09:52:20 -0000
+Message-Id: <171447074095.12107.10698084780522495319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/main
-    old: dd1941f801bc958d2ee13f5be8b38db6b034b806
-    new: 9f02bb6d7a229058ffaba4f6dd78e0f7b06b799c
+  - ref: refs/heads/bleeding-edge
+    old: 9b90da9c598279e774cc60068a24e2dc5abab26d
+    new: 46268919d43ff51089090a8020535882f0a31108
     log: |
-         aff5b0e605b06e3d803fb198425753c8391ffb3d virtio_net: introduce ability to get reply info from device
-         34cfe87221363d98160f74788dd060b1c43bae0d virtio_net: introduce device stats feature and structures
-         de6df26ffced76137349be241a579b4fffaf5703 virtio_net: remove "_queue" from ethtool -S
-         941168f8b40e50518a3bc6ce770a7062a5d99230 virtio_net: support device stats
-         d86769b9d23c3907349163933adb9dad8059918b virtio_net: device stats helpers support driver stats
-         d806e1ff79e65f9cf7932286555fc2855e721ae5 virtio_net: add the total stats field
-         0cfe71f45f420e412fda2395807a56c453a6e0b6 netdev: add queue stats
-         d888f04c09bb2c2fc60f84ccba87a9ff727b13d4 virtio-net: support queue stat
-         9f02bb6d7a229058ffaba4f6dd78e0f7b06b799c Merge branch 'virtio-net-support-device-stats'
+         b37ef7210e51b1e996ca03b03227d93f7470784b cpufreq: amd-pstate: Document *_limit_* fields in struct amd_cpudata
+         4fcfd1954ad305e331b6b4b62de2874fbae61394 cpufreq: amd-pstate: Document the units for freq variables in amd_cpudata
+         5547c0ebfc2efdab6ee93a7fd4d9c411ad87013e cpufreq: amd-pstate: Unify computation of {max,min,nominal,lowest_nonlinear}_freq
+         3cbbe8871a2fb8f454e740f3e04ff2e29b573abe cpufreq: amd-pstate: Remove amd_get_{min,max,nominal,lowest_nonlinear}_freq()
+         2ddb8a3946d4d02115b2dca53c5493ff00536002 cpufreq: amd-pstate: Bail out if min/max/nominal_freq is 0
+         069a2bb8c48c43176f2f0e6cae5efe2f39f6bdf2 cpufreq: amd-pstate: get transition delay and latency value from ACPI tables
+         5f8f9bc4d7bc8d44031b88b548c2572b746e2611 cppc_acpi: print error message if CPPC is unsupported
+         eb8b6c36820214df96e7e86d8614d93f6b028f28 cpufreq: amd-pstate: Add quirk for the pstate CPPC capabilities missing
+         46268919d43ff51089090a8020535882f0a31108 Merge branch 'amd-pstate' into bleeding-edge
          
