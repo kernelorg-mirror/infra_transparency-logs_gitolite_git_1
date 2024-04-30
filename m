@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7555963187224045960=="
+Content-Type: multipart/mixed; boundary="===============3521611471173145289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 30 Apr 2024 16:04:57 -0000
-Message-Id: <171449309747.2440.15905858522974210898@gitolite.kernel.org>
+Date: Tue, 30 Apr 2024 16:05:52 -0000
+Message-Id: <171449315219.4467.13984121435815261067@gitolite.kernel.org>
 
---===============7555963187224045960==
+--===============3521611471173145289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: f2004e82abb679735e1dff99f9c94eb4bfe735b4
-    new: fe81f354841641c7f71163b84912b25c169ed8ec
+    old: fe81f354841641c7f71163b84912b25c169ed8ec
+    new: c78c3644b772e356ca452ae733a3c4de0fb11dc8
     log: |
-         fe81f354841641c7f71163b84912b25c169ed8ec usb: ohci: Prevent missed ohci interrupts
+         c78c3644b772e356ca452ae733a3c4de0fb11dc8 usb: Fix regression caused by invalid ep0 maxpacket in virtual SuperSpeed device
          
 
---===============7555963187224045960==
+--===============3521611471173145289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714493096 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714493150 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1714493095-562838e4a90ebde7ab99ae48a36a4133bce14a5d
+nonce 1714493150-98adbb0bd2ecee602033dcb0939918f7ccbb4468
 
-f2004e82abb679735e1dff99f9c94eb4bfe735b4 fe81f354841641c7f71163b84912b25c169ed8ec refs/heads/usb-linus
+fe81f354841641c7f71163b84912b25c169ed8ec c78c3644b772e356ca452ae733a3c4de0fb11dc8 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYxFqgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uUEP/AjqtDlcfC1WZcUH3db8
-q2iTOn6+TsaNUVN8cgwrn/PvWPTPYprszCucdEpCEKIwT+Nbjc/DX8gSpK6Zq0Nj
-qx9hnRh8NoeTHfp2o2oB4ulMKTcbv7Fue540NDQ6VKwF3u4EWv2QdaSbOq1YXccY
-RQpM/9SU8R00Au5IKSHv+o/tdgeOhQY/5rGRIzGyQ6ZIey9mTAUiwWN0Kp2UqlBK
-U2SVMM5f/Wclvss1bxw1ENHg6ZXc5EgII5IHwkERytWHnoeYtvyHf93xZ9t/qf8Z
-lOJ7Z/a5M8sqKVVjQh+grWWhLBhF57oFFN71oiqlkXUk0MvmkUn8hKLbjoxUIc0J
-6Kpkz2Bfv3SKmGQnv0NMbcNTYTf3/6jOoras9dCd9Su/GzWI8DY5zr2xcs6RYG1v
-Ydj9NGDMIttVXq/3DzeW5mR+RcmFvEWDBc8bTXulkVH9HHvNESm2uydRFPZ50d7A
-JP1lXe8qzTyRYK7QIKhHlj8OWYh1Dx2ZRxR4KiDoqYxX4PJrHheHn/oMattfjdZJ
-C1NV5D5mtj/WTq/84fsA7JhxXz/c6PETNVRA1/oEwRwp02nLGh03Aju0qYzhoR8u
-o8fzlCx3SwF1bICoocgnrj13MsZkNJo6c0Ll+6XDAVEH7uEl1vNeylrjl+PALZGK
-0dvvRKDCFS6Z8nRFhJkChCDU
-=i1Nw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYxFt8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TT0P/1jPXK23dkurql3FfGmz
+OUxMdZ4uNc5VjCgze4MoRLv/vsrzYGXw/BAZ0ilZlPXn4S6Kd/E+K6P67QA161Zv
+2j3WFc1UXSCfDzKYv71HJ1uizPR2cR/V3rLpxBAOlHRluA1Is4YlrHLPqsDOhSWU
+ESQi/xYvZSHbKWynjsIbO/pQ1DVWZmo9vxu0u8r/O5pa7nLAX1D6oQBZaOAZI4Mt
+KGbXFE5p4anY3857hDWFQyd2HbnsUMK7EQnqVgD66j79f7ZpEXq4jq3HxQFfAPbD
+dPII4m8l0F1Its2ll+KTkvvwzB9T1RMcurjFdTY1lrZCYePQE/ZyeLLmHNF38IVO
+R6QYAr3VAiHi+kUrb3K0IdC7KcnkPK6ANCwDsBqhpE3zmTxa/1xddTaz0JSNR1Qu
+sg3JEpHEdWWBXecZisqovQOO3JRYDs5bN47cJmjbegSw5xH1Q0Hr3nGvd58M2NNj
+FzjSUYyVfrq9GeZZQmvAcw19w7PTPlUhVv4DrJ1q3YZK3neWZHmLb2u3xiFBAUQn
+cVwjMG4cb6SpInFz4+Lir/YPT8iTjlelo0iHvrfjOYLvtoMEBCNXx554OrTNuruV
+b4mV9AqmFI9SZWoFOp//+6r00NBQi5VcJLJMdj5kOPqYXGlsDJu3W3yqproIA0mB
+UJaLU4/0qd7gs2Uwx8JSmIGi
+=puT0
 -----END PGP SIGNATURE-----
 
---===============7555963187224045960==--
+--===============3521611471173145289==--
