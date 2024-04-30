@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5705601057171441173=="
+Content-Type: multipart/mixed; boundary="===============1201972938080305047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 30 Apr 2024 07:09:37 -0000
-Message-Id: <171446097782.23887.6081043567271756745@gitolite.kernel.org>
+Date: Tue, 30 Apr 2024 07:14:50 -0000
+Message-Id: <171446129044.27369.6460826567238935932@gitolite.kernel.org>
 
---===============5705601057171441173==
+--===============1201972938080305047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 0b6896838d6af2fd8cc19d6f6970b3e3b9d19a42
-    new: 7b51b13733214b0491e935ff6ffc64a5730caa2a
+  - ref: refs/heads/char-misc-linus
+    old: ee59be35d7a8be7fcaa2d61fb89734ab5c25e4ee
+    new: 9b83aa7a50095848066ee8dcb894e48cf9efae7c
     log: |
-         a2c72ed78ab8557ac58cd88d8cf871fcb8c740ee mcb: lpc: Convert to platform remove callback returning void
-         7c28f964b7febc00edfced0f499630005a800643 eeprom: at25: drop unneeded MODULE_ALIAS
-         2db26427d7d92e34246ee378214b4c2c193b96e7 eeprom: 93xx46: drop unneeded MODULE_ALIAS
-         7a5ffa5a21d327e867c8ee226278d60f7e34e1b9 misc: sgi_gru: indent SGI_GRU option help text
-         11e5e1aba749cd354e7330bb40f09ffc92282244 misc: sgi_gru: remove default attribute of LATTICE_ECP3_CONFIG
-         7b51b13733214b0491e935ff6ffc64a5730caa2a misc/pvpanic: add support for normal shutdowns
+         bb1dbeceb1c20cfd81271e1bd69892ebd1ee38e0 fpga: dfl-pci: add PCI subdevice ID for Intel D5005 card
+         9b83aa7a50095848066ee8dcb894e48cf9efae7c Merge tag 'fpga-for-6.9-final' of git://git.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga into char-misc-linus
          
 
---===============5705601057171441173==
+--===============1201972938080305047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714460977 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714461289 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1714460976-abee5d4baa885db6531551f91cfc2a6cdaf0013b
+nonce 1714461289-266e5bb78d04395092e942d045847ee0f55f8553
 
-0b6896838d6af2fd8cc19d6f6970b3e3b9d19a42 7b51b13733214b0491e935ff6ffc64a5730caa2a refs/heads/char-misc-next
+ee59be35d7a8be7fcaa2d61fb89734ab5c25e4ee 9b83aa7a50095848066ee8dcb894e48cf9efae7c refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYwmTEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PcIP/3r2R1tpQzhzzUkuDLxk
-1MBTMIYv5kZTyU3g9i4fP9t9hOgqxAfGVHcA1TEigKnywFYqsUq+OXoW1o8RBFWX
-FfziYK4x17n14Jr2GY/+EEFw4GdUtW2bY939JiDIwneu5bwGQtNt9pPcJlWN00Of
-AQuZOfmvJDenM49LcoJuGjo+CKu0z8Vh7GZsxL8NCFr5AiVuqJdNfhRmUOGROj6I
-bwJK05Lj+Ca9/z/q3VT1KgWhVXLdrzr/n4KLcdX9clOCv+QgM1xEnvJYd8s4rY7m
-2cl/BLlbC+1tEUDXmx8LkC5ienRKjqjphlvAnM3iQ0BA9GnrV0+z4c3k4EsUW5MN
-3w2Effcmd+VeRJq7fHuWyqwkJwYDWxqat6Evnb0sbT0Jo+kI/HXO64Jt0CEii+QM
-o9E2lW4muMaE0PWFFjRrNrc1ub6AbGjq/VsJMX+Q8lEDzZYLIyKv0PibxqYSxdpo
-D449LeBliqVOkDbEdtxuX/VuZP5h/e2Eps0TbU8tAQD3ABvzZLqQaN7q3dCe0H6F
-nJ0lMJBe+FfigweTQ7VF8gliyrImF5mcWIB1vNX8TkC3LoWd41zjMMZtsIlX9ZJ0
-8kk2sjCLGQ0E0LdCw9YfAAvEPDiidSY6YEPjHtgBNd8DUGqFGr7K+g2K4B5kIEZv
-7KsCPv7pKdHqlU72z2SgExUF
-=O5Mh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYwmmkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zWIQAK7m77730FsWPJtIw5eE
+kRaM6tlX3TGBZ1bOSPHMozODYlc8qWRBlVR/qOVa4B9p+qBmVJrVwJK7hwn8xIq0
+kZbmE1mHrI4ZyALL/3DyFE50PxFnXxGwqkVhY4bPg34MYF6O0TRflSl2EyyX7e/0
+/eC36Onq3kliL7+a58h2hjw4dTkWsaNKdKXGq4Ijv/w+C8sOiw8nqWfncuMKzj31
+YRe2BhDSdIBHVpZaFP+vyiwOmjZ0oNFiBxywkvMivyW8qZDgOKskbscbUjdUWzxA
+L0IhfUKDzCPcbntuf09ErKcniiyeoQgpvm7uc8KcTQOVCZjSkWFlAyvUS6z2/8qN
+NtcKZ3+VApQ2i6Ik0Py6EE4tjcLF0Jb/4oAXAkyYuzRu6XS0XMBSej75b/dexZc5
+BWWJMJxElkKi8dFF1wcenpnBdi/ogDJ+ZrpMCUV4N7/I59pdElKQQjfj82gUj7mp
+Yfi70vh275Cpks0d0EQ0izs2h71pu/PDNb3Jko2XclsOyUmFRJ4yGs5H1KV1+25L
+6cp6SkzecCBrFquOo0D4uuzSKpZdyFD2Yfb/5MvFcfG2QXrZIIk9QlJ8swBY+LsA
+/q3rb4LV0QAQBPpK6jmAfcx4IY6QJdMWRk92Wyej10EB1gIGi8q5C9L4NG4KvtrD
+afHDB38x6892Yq7akn5xDFGa
+=2oVQ
 -----END PGP SIGNATURE-----
 
---===============5705601057171441173==--
+--===============1201972938080305047==--
