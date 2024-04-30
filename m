@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3536294699743662717=="
+Content-Type: multipart/mixed; boundary="===============0837679733495753184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 30 Apr 2024 09:00:48 -0000
-Message-Id: <171446764878.23049.1331153390081543296@gitolite.kernel.org>
+Date: Tue, 30 Apr 2024 09:00:50 -0000
+Message-Id: <171446765051.23163.3733374031548945599@gitolite.kernel.org>
 
---===============3536294699743662717==
+--===============0837679733495753184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,123 +16,126 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 3d86e7f5bdf34bba6c0e101a9131006db3e22c16
-    new: a83083b3e32f6003c8206465aa3f16a6723dcefa
-    log: revlist-3d86e7f5bdf3-a83083b3e32f.txt
+  - ref: refs/heads/linux-5.15.y
+    old: b925f60c6ee7ec871d2d48575d0fde3872129c20
+    new: a497d555de535a425e4395eb1737d5eb31477c98
+    log: revlist-b925f60c6ee7-a497d555de53.txt
 
---===============3536294699743662717==
+--===============0837679733495753184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714467646 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714467649 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1714467644-3afd73fd9a6b0d7cc79f7f0e4011a7483c1cb8f3
+nonce 1714467647-367a8a5ee7bccbce320f367aa63bdfd8e023c893
 
-3d86e7f5bdf34bba6c0e101a9131006db3e22c16 a83083b3e32f6003c8206465aa3f16a6723dcefa refs/heads/linux-4.19.y
+b925f60c6ee7ec871d2d48575d0fde3872129c20 a497d555de535a425e4395eb1737d5eb31477c98 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYwsz4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+27YP/AmVgdwmfRbF333mVtGt
-TbLzlbnH+QRcye5GYqxs45es4O5u1a93wAbS08DmiqGv15deUrBUG1290GA1GN5F
-yFCPXpK5zMC3Mg5EU23gAHunw121jChowQRD+U+TKYBSCd4++LIbf1K01/jPOVSP
-wI99RqoYLTS7LLdQQJIbb8j020wGbJBTSFf7EU/7KCi7DwvecXF48KjyplMFb480
-6sHLH4UNSEYF+gTGy8pnafvyyqWHkn0b6quGCQNY6g5byUgdOr67Rc/BWt17LOyW
-rP/bSMfRUtUZzJZbGj43fTE93EshkOhNZvhvlMt0/oUQBgTC6oxFYuoV7pvTujHP
-VqHVg5vELkxzGmLa3w9BhoEhU7JgXAtS0Tzyl0Fp9liKYjjjs8LPZOJUHEYtErhY
-p82DzUwzRgnG8dmqgz/fyVmdw8XU88Tdev0EwMO2D1lX9lgX77IWgzAl6+q5MNE2
-BEwCv4ydCpzqm14XDHadSgz21Ps7IsjJEGnJtOzipeo8p30uZknSkmzNu/+U551A
-DdSleniVlTgoEkzQc37aLJi9VWl70+6pj7Zhq9i0UrQPGma4u1/v9Dai3lHarq54
-JZk0wqX6H2ZKR6ASz01qyo5VIvnm1XPbkrzvQNexhRG0ZvEMq7XYIBcJhAdi3WTH
-Elmip+jU2e/niHN8MTd3sbIn
-=1IzV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYws0EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NgIP/0XyHdSFg8WrgUds/0q5
+2uVPRgDlMZrDLA5I8uKRO1JfsUFiMAbqeZqdP6F++3LnvckeK/1fc3Wb0XX+L71x
+6L+DacQ4XjPkpaixy0ITHMveTewrjJjO/USLGa+amsiEGnnIcBmHv4CduYO5sm1t
+fmG3W83fLG1WF+ryyqmLB/LIN3AM38mPtMMAdjS76SOsxRO5B5aSU9scFUD0sYLt
+Zp/raj2KbSue46vj7ra6LiquKkmPaqDHuzoIueeAzwP7bHM7h87vDhP+04nGfP/U
+mPJ8AAIdjewvqwM3iuj6ogYYlbZ3XpDsdq6Ml+QPbQHFwpUBzJ3sfM4RBIvEIqKr
+8n7N4QeRMofuW8bsLgsvZjO3OIaPU/ZlmV43fWF4jES+uBuhGbxI1kSeFAPd5q50
+MyCfl7JwZSl1ap2699aTu0Cnw/SLauTdd1G7y7WRgLfj+/9Wa4ylvTnbN4tHoeMP
+jj9qiU/ZQ/NHTCPdzz1MEitd8OBwpNgbVYywAkMFofUqOMI6GTE0k42FFVMCrzr7
+fXui8IMokMl0jkyUMq0YtZFj8Ea0JXS8g04R40J+AzEhGiR3M6/pAuaj/QVyQCGy
+DAr8ZhZI6MDail9tREuo85wpYqvjIx9dwE2En8GXxG13T3tITKtNHL1zqARlU9GO
+Hk2v3/0DN/KY0q4LT9/ufshP
+=vkj6
 -----END PGP SIGNATURE-----
 
---===============3536294699743662717==
+--===============0837679733495753184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d86e7f5bdf3-a83083b3e32f.txt
+Content-Disposition: attachment; filename=revlist-b925f60c6ee7-a497d555de53.txt
 
-d80d5a010487324aad7e2006debdf441aba6a3a6 batman-adv: Avoid infinite loop trying to resize local TT
-686b376b74df7702edf3edab5b50fa2b6caecfde Bluetooth: Fix memory leak in hci_req_sync_complete()
-66dedf462d62fd73d2ec95e0f8556f3797df9779 nouveau: fix function cast warning
-26374b26dc96efa11d9282ffc5a4f7c57953fff9 geneve: fix header validation in geneve[6]_xmit_skb
-357767f3309ed45f30043904b9e4a7d029033a01 ipv6: fib: hide unused 'pn' variable
-88c2172108a069be2d5079acf1e302cf4016a85e ipv4/route: avoid unused-but-set-variable warning
-220c6a55add7721fde57c9ae41462da8e75cdf8e ipv6: fix race condition between ipv6_get_ifaddr and ipv6_del_addr
-32292fbc18e22a22c1435c2a63367042821cd23c net/mlx5: Properly link new fs rules into the tree
-ef72004c8215810a6eff2063d50a49d2a5afe258 tracing: hide unused ftrace_event_id_fops
-d5d39d4245679b5203e8d6950b725cb046cba0fb vhost: Add smp_rmb() in vhost_vq_avail_empty()
-b97b98639482d03bc57a466687aa807859dc90f3 selftests: timers: Fix abs() warning in posix_timers test
-eb5f87bffa7246b78867999b3c841bf5a10c8aef x86/apic: Force native_apic_mem_read() to use the MOV instruction
-49aff8366c7f79129831c613841319d4a873df1c btrfs: record delayed inode root in transaction
-0736e6fe5d335e3b8a8e28a0f24c2cf70e118487 selftests/ftrace: Limit length in subsystem-enable tests
-2cdc182436ae89cb494fd8909bbf9bafb55c2ea4 kprobes: Fix possible use-after-free issue on kprobe registration
-b1c765cd3f42115d90e4cf557b8ad8be69300e17 Revert "tracing/trigger: Fix to return error if failed to alloc snapshot"
-449c1a253d6019e880aeee3b308d3ef623a2a3a8 netfilter: nf_tables: __nft_expr_type_get() selects specific family type
-323987d4d2a52c5fafa47cc3083ef263d6ad0d7f netfilter: nf_tables: Fix potential data-race in __nft_expr_type_get()
-2acee4cc0c13a12769d9f124e2ec998286f191e5 tun: limit printing rate when illegal packet received by tun dev
-23ce84550cc1d9ca8f2868b1ec4a8ba1fb25b9fa RDMA/mlx5: Fix port number for counter query in multi-port configuration
-0d56e7476d32ab4a390dbff7e494f80049046626 drm: nv04: Fix out of bounds access
-1c1540711d3fd58a43e981d5aa95b9a31a458c22 comedi: vmk80xx: fix incomplete endpoint checking
-76becc35efb72f92a37f682f50c0e38923a13a63 serial/pmac_zilog: Remove flawed mitigation for rx irq flood
-a6dca0e600403e6d3319f719c4b467de608f966b USB: serial: option: add Fibocom FM135-GL variants
-77c0ebb38e4245dadf3f3af9bdb3e20a9dd2cf2f USB: serial: option: add support for Fibocom FM650/FG650
-82f01a0e58179d2c663db4e441be7bb82eb67e0b USB: serial: option: add Lonsung U8300/U9300 product
-af1ca69efcd5a2b4186e3d7426c3fb279051dce0 USB: serial: option: support Quectel EM060K sub-models
-4b6b8f62760ac47c29a3a281afeb0178d15bb5ff USB: serial: option: add Rolling RW101-GL and RW135-GL support
-43ac30c140b894db33e46892e5c48f9427c31396 USB: serial: option: add Telit FN920C04 rmnet compositions
-12b949e91acb105ef45e46e7d9826a45057beec4 Revert "usb: cdc-wdm: close race between read and workqueue"
-24236ba8f9ba256e2dca02c52430b2aec4513caf usb: dwc2: host: Fix dereference issue in DDMA completion flow.
-ac6994dc7ba5ac477b772ba911f99ed2db7c188f speakup: Avoid crash on very long word
-d7c67c778b33c4a3e8650c9885c21dcb513b234e fs: sysfs: Fix reference leak in sysfs_break_active_protection()
-c02e07ec41e1cd94a4433cf35f283b923fb29c67 nouveau: fix instmem race condition around ptr stores
-f9208b1c5206801871078a556b6c652ad239790c nilfs2: fix OOB in nilfs_set_de_type
-a0c4581fb3e9c9958f9419518b30a0eb5c0826dd tracing: Remove hist trigger synth_var_refs
-cacaf6fdc3abfa93afea37787543f1ae129f9c74 tracing: Use var_refs[] for hist trigger reference checking
-6d5da25c0a94df6f1e6fb7955cb882f43dae8161 arm64: dts: rockchip: fix alphabetical ordering RK3399 puma
-3d88e5da0cc79b132680f564b2583c7f214e8649 arm64: dts: rockchip: enable internal pull-up on PCIE_WAKE# for RK3399 Puma
-a72f0f12910a3dcf6f885fc8f57d4d1d5de13623 arm64: dts: mediatek: mt7622: fix IR nodename
-acae8ada017ba6096bae5750429c6efd28ab32b6 arm64: dts: mediatek: mt7622: fix ethernet controller "compatible"
-5a5836e7c2352bc38f89e061e9a0b9d10f3df51e arm64: dts: mediatek: mt7622: drop "reset-names" from thermal block
-4170e28b9ff2f9b2e741a5452e4632f64f424b89 ARC: [plat-hsdk]: Remove misplaced interrupt-cells property
-0b80e31b9fb8642f223f2f4365898338b2c1e458 vxlan: drop packets from invalid src-address
-9abf4354de9bdda0e40d54110df106ad2db4a6a2 mlxsw: core: Unregister EMAD trap using FORWARD action
-3e4195c9d107dbb349efb8f844228ef40f2eef3a NFC: trf7970a: disable all regulators on removal
-758b51504f97d71108e0257ec45ca9c2854b3f24 net: usb: ax88179_178a: stop lying about skb->truesize
-fdd69998e259b8000a7144f8fd6e802c22731707 net: gtp: Fix Use-After-Free in gtp_dellink
-bbd26094e91ca1299a1b3445cedfa0f17ed57cc9 ipvs: Fix checksumming on GSO of SCTP packets
-634c15aa1077e922b73abba5f910a78cae4ab4ed net: openvswitch: ovs_ct_exit to be done under ovs_lock
-b509f0c07a7a6805cd1eb5badb398024a17ed669 net: openvswitch: Fix Use-After-Free in ovs_ct_exit
-bebdbdb10cc8a6b1c7c2fb6ec2f83e3036593020 i40e: Do not use WQ_MEM_RECLAIM flag for workqueue
-cf53c7b06eb013ea154a48344d10847af93d9bb1 serial: core: Provide port lock wrappers
-0bbbbec4d66c124642a27d4099adb9e22421f499 serial: mxs-auart: add spinlock around changing cts state
-dfd8882fb3c8eaf8998f25d11b539d82c3b7d340 drm/amdgpu: restrict bo mapping within gpu address limits
-9fb4dd64a3c847047549f9f6b8cb373564e187fa amdgpu: validate offset_in_bo of drm_amdgpu_gem_va
-5a5951cf727ba5984f1837669b24345e01b0e9c5 drm/amdgpu: validate the parameters of bo mapping operations more clearly
-1ebf64b7b04fb1f3419cdf8ad5d09a20d5e4c924 Revert "crypto: api - Disallow identical driver names"
-cfc05eb4ff60502015504e73d9b55b64de14f6ba tracing: Show size of requested perf buffer
-e1969d80c11a956be724974f5d754a8939d42a2f tracing: Increase PERF_MAX_TRACE_SIZE to handle Sentinel1 and docker together
-fe49e1e9234f6171dfa96d74c6eeb6671d190964 Bluetooth: Fix type of len in {l2cap,sco}_sock_getsockopt_old()
-97ecb2b33ba864d50aa9af978c497fa468355e2e btrfs: fix information leak in btrfs_ioctl_logical_to_ino()
-f71c068c3c58c1e74c7c0d2c5430b201c58323d7 arm64: dts: rockchip: enable internal pull-up for Q7_THRM# on RK3399 Puma
-abf83d2513bc8952f35e0141a13ec01c20402aea irqchip/gic-v3-its: Prevent double free on error
-bdf1da3b66561e5f7e15b208276e072f99b6dc6c net: b44: set pause params only when interface is up
-dcc7176f89707d57552a3c91e213f7ead4e959fa stackdepot: respect __GFP_NOLOCKDEP allocation flag
-1c61e77e99dbb5f18b9abce193f0fe6be0246c25 mtd: diskonchip: work around ubsan link failure
-ae8e168f538cc97bffbb7a46e255e588698caa7a tcp: Clean up kernel listener's reqsk in inet_twsk_purge()
-466645064b75efcc78fe50553fe6be191945607f tcp: Fix NEW_SYN_RECV handling in inet_twsk_purge()
-276ebd5b2265c999f4997852fc26cb4ee5bddfa9 dmaengine: owl: fix register access functions
-2dbb19908c3a5f6e74d54fe547c5671bc152422a idma64: Don't try to serve interrupts when device is powered off
-dc38ceb74205b491bddcb596c85330298f1fd1c5 i2c: smbus: fix NULL function pointer dereference
-e35d142b44e50930e9d5d574ff3a909b17634951 HID: i2c-hid: remove I2C_HID_READ_PENDING flag to prevent lock-up
-19395f91f121a3b804dc2d5f867ad59fb6302ec4 Revert "loop: Remove sector_t truncation checks"
-b1b73565b405b9ff89159e70555ea98a0afb65c9 Revert "y2038: rusage: use __kernel_old_timeval"
-098f28322489675cfdea77078af47096514a24e0 udp: preserve the connected status if only UDP cmsg
-a83083b3e32f6003c8206465aa3f16a6723dcefa Linux 4.19.313-rc1
+925d4108e1f8da0e0391106d11d719ea42ad321e smb: client: fix rename(2) regression against samba
+b9f3615e50521cd22b4e8ee9c51540241bb85d81 cifs: reinstate original behavior again for forceuid/forcegid
+810cff285933811e29c7a4cd976584fa8018be40 HID: intel-ish-hid: ipc: Fix dev_err usage with uninitialized dev->devc
+a38dbf2993a50ebcfab981a9e0ac56a9a63abbc4 HID: logitech-dj: allow mice to use all types of reports
+5942ce805974e2dde20b89629ef69cae612b04ef arm64: dts: rockchip: enable internal pull-up on Q7_USB_ID for RK3399 Puma
+5c70151e68a1baedee32934378fa716f9e8b7348 arm64: dts: rockchip: fix alphabetical ordering RK3399 puma
+a5776d20e4f954e2cc1aab4cb95f9ba474646afc arm64: dts: rockchip: enable internal pull-up on PCIE_WAKE# for RK3399 Puma
+c00499440ab233a148c81656460353b4133efc30 arm64: dts: rockchip: Remove unsupported node from the Pinebook Pro dts
+e3e759282e6813dde63523094667f55ecefdcab9 arm64: dts: mediatek: mt8183: Add power-domains properity to mfgcfg
+e6bcedca7951e0f7296ebc96b99a8f18ddba05c2 arm64: dts: mediatek: mt7622: add support for coherent DMA
+2a483b64f429d89e736312e327012b922762beea arm64: dts: mediatek: mt7622: introduce nodes for Wireless Ethernet Dispatch
+1fb52ded51483707ea581298bb4a221cf728865a arm64: dts: mediatek: mt7622: fix clock controllers
+575653651d927511f9f872819188edcd811e1d9b arm64: dts: mediatek: mt7622: fix IR nodename
+c3ec61226540d6b05847e2e5d962cd48dcd0d674 arm64: dts: mediatek: mt7622: fix ethernet controller "compatible"
+26b4322c3890175ad531e160a5ecf2a345099f25 arm64: dts: mediatek: mt7622: drop "reset-names" from thermal block
+78db9e5b095e7ce7b12f49a883b05f375c51b816 arm64: dts: mediatek: mt2712: fix validation errors
+5dc79ed83cec3b3f1f5f0716ca34205859055008 ARC: [plat-hsdk]: Remove misplaced interrupt-cells property
+2fcb137495d0d548258f1998c362c0c78d03c19b wifi: iwlwifi: mvm: remove old PASN station when adding a new one
+8acbca5c5efa011f56ecf56d9d51ab10b2accc1b wifi: iwlwifi: mvm: return uid from iwl_mvm_build_scan_cmd
+4f538a1c3049e14bb2b585009c8c7312c64a0157 vxlan: drop packets from invalid src-address
+1796e913b05659a210695e6b88819d1fe2e502e2 mlxsw: core: Unregister EMAD trap using FORWARD action
+67e87d92197e51da42c93a2592c7b6d926b2a5ac icmp: prevent possible NULL dereferences from icmp_build_probe()
+b8223354b5b6f89ec3d3cc0a692c9283e87c47a4 bridge/br_netlink.c: no need to return void function
+af20a2bfb2c8bfc38da81ed1d38d0c59970084b1 NFC: trf7970a: disable all regulators on removal
+f854090f8f3348410a0c0e9fb0ba2802deba6e2e ipv4: check for NULL idev in ip_route_use_hint()
+761b626364f4cdc5ad067afc705a9a7ac2b52f37 net: usb: ax88179_178a: stop lying about skb->truesize
+861ce7d7d4cff743731f77fa9ffea2eb76ba8466 net: gtp: Fix Use-After-Free in gtp_dellink
+12e737a34439c42e6784373e94ad27f5b39539cf ipvs: Fix checksumming on GSO of SCTP packets
+98234af96726ac89dab0335e3d504a05aba6cc59 net: openvswitch: Fix Use-After-Free in ovs_ct_exit
+7f553fbd805d0993ebb375ff38fbf864ce3b37bb mlxsw: spectrum_acl_tcam: Fix race during rehash delayed work
+afc3e40c3f7bf78d94af0960a4a13c3daaf196ab mlxsw: spectrum_acl_tcam: Fix possible use-after-free during activity update
+2afe0bece2c851418e8ce296c235eeec08d88184 mlxsw: spectrum_acl_tcam: Fix possible use-after-free during rehash
+086c309558d047d2698091e39e00ad1ac99cd61e mlxsw: spectrum_acl_tcam: Rate limit error message
+bb507ef6e52f438c754c9e5b84859ecda0a1398e mlxsw: spectrum_acl_tcam: Fix memory leak during rehash
+db997c22e66c6c533578ca8952b519ab61a1b4fb mlxsw: spectrum_acl_tcam: Fix warning during rehash
+8ed67d21e8f9998247b17cb9951d3b8822dd1994 mlxsw: spectrum_acl_tcam: Fix incorrect list API usage
+f2126c8ae6c35a98d8b32ee1d67a01e035233ff1 mlxsw: spectrum_acl_tcam: Fix memory leak when canceling rehash work
+96108d82ee664ddef549b8ed2617b927c6e3b302 netfilter: nf_tables: honor table dormant flag from netdev release event path
+a48d1c9941bd5bbe6f9fb560ca3030b17ed2ddd8 i40e: Do not use WQ_MEM_RECLAIM flag for workqueue
+f358b81423ff195f8dfd394205ed655b8460dce8 i40e: Report MFS in decimal base instead of hex
+c17edb9fdda85caaf911326ff3882ec5ae574c3c iavf: Fix TC config comparison with existing adapter TC config
+2fefa3d58a86175a7493dd9ffc314c79040da9dd net: ethernet: ti: am65-cpts: Fix PTPv1 message type on TX packets
+5bce943445a06d7d556875c819f5623eeecda1de af_unix: Suppress false-positive lockdep splat for spin_lock() in __unix_gc().
+92f6b32a587ec53bb4818c0caec4113c4ac309d4 serial: core: Provide port lock wrappers
+385fc00508c2ef6f13d956f1300e813696a762c1 serial: mxs-auart: add spinlock around changing cts state
+fefd62d1e4da51619a65e7363b2911d9f9d844a9 drm-print: add drm_dbg_driver to improve namespace symmetry
+ee51fbc650010064895ada0660e79d687eb27b1b drm/vmwgfx: Fix crtc's atomic check conditional
+620b53dd4ba7a655a5c44e3265cd52a0cb64b490 Revert "crypto: api - Disallow identical driver names"
+fad1ee55bf49f9fbf1c7e59ad28e3d9938ed1a2f net/mlx5e: Fix a race in command alloc flow
+fcad33b3b736e8a49e9e4bde06b7a9c035c35e70 tracing: Show size of requested perf buffer
+efb36123a105c04d5db1995124dd3f30de21c20e tracing: Increase PERF_MAX_TRACE_SIZE to handle Sentinel1 and docker together
+0a49a9c315c9cd1ac8e230e09d812599476ef0bd x86/cpu: Fix check for RDPKRU in __show_regs()
+159cef305461ef2d224fe29e16d641ed97dd548c Bluetooth: Fix type of len in {l2cap,sco}_sock_getsockopt_old()
+75a7f2b479aab99a7635102d41284dd2a5be8b53 Bluetooth: btusb: Add Realtek RTL8852BE support ID 0x0bda:0x4853
+d35b6477bd73a085b33ff45c0e1b567b3e0c2f81 Bluetooth: qca: fix NULL-deref on non-serdev suspend
+4543ce78a925d76ec16a9129a5bf7304fd2c7da9 mmc: sdhci-msm: pervent access to suspended controller
+d87844fa3bf51372b1c9c00bf7fa13de78aaf7e0 btrfs: fix information leak in btrfs_ioctl_logical_to_ino()
+55372d080ce716a2a845f965dde852537d5034b7 cpu: Re-enable CPU mitigations by default for !X86 architectures
+4350be4a4fa1c1a157ac788046302335d35dfd93 arm64: dts: rockchip: enable internal pull-up for Q7_THRM# on RK3399 Puma
+e6f8897a7ed1a125cd2efddb24bf285382ea7172 drm/amdgpu/sdma5.2: use legacy HDP flush for SDMA2/3
+1088e67bfd305f02f106c3065d8fbbf257383e8f drm/amdgpu: Fix leak when GPU memory allocation fails
+57499f8650c92058ca2b08efc4a90ee14730c380 irqchip/gic-v3-its: Prevent double free on error
+ae444347e81ca54969e5840431891981ced0c07b ethernet: Add helper for assigning packet type when dest address does not match device address
+093b9287d286a8fbe9758a9fadb76d7767343467 net: b44: set pause params only when interface is up
+56a3aea434860303ca0ed7515f0eb5384d841ecd stackdepot: respect __GFP_NOLOCKDEP allocation flag
+bde2f7f9387a86e78f2c996ce0d1590d72cd8a6d mtd: diskonchip: work around ubsan link failure
+8cf4301454dc3e4ef8db14b92c9187f1214be5f8 tcp: Clean up kernel listener's reqsk in inet_twsk_purge()
+0ae76a40d4d18195ef07ba25b5c94bf4d103f054 tcp: Fix NEW_SYN_RECV handling in inet_twsk_purge()
+b20aae9adf625a7d92e36dbe67361f3b18ea3660 dmaengine: owl: fix register access functions
+4ea5143ed87add3d7fed6d733a51f6830e3fdd3e idma64: Don't try to serve interrupts when device is powered off
+bd7befeb8d1b21b872b985bcfd147454f9f5deb3 dma: xilinx_dpdma: Fix locking
+2c2fc7f8261c564a29fe91a6b6bc5becf738999e dmaengine: idxd: Fix oops during rmmod on single-CPU platforms
+ee8d39a4b217ae63ee0fb1423fd51f8198e02b50 riscv: fix VMALLOC_START definition
+fce4a731d6a04db26154b6271b16cf3e4496efff riscv: Fix TASK_SIZE on 64-bit NOMMU
+6ec0677477cf0e734b34a2de0e6f9223b99b35e1 i2c: smbus: fix NULL function pointer dereference
+2679a81cd82374cfd4267cfe7d66c2ebf333f0f9 fbdev: fix incorrect address computation in deferred IO
+2b372afb4be6f36ee19ef1d0eaf883769f896a84 HID: i2c-hid: remove I2C_HID_READ_PENDING flag to prevent lock-up
+f2d256a622f4284b2b1d6dedbd48565d05d4919e bounds: Use the right number of bits for power-of-two CONFIG_NR_CPUS
+0ff0f9db905685865ad536f9c3ec2f9bf7c73ff4 udp: preserve the connected status if only UDP cmsg
+a497d555de535a425e4395eb1737d5eb31477c98 Linux 5.15.158-rc1
 
---===============3536294699743662717==--
+--===============0837679733495753184==--
