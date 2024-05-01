@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 01 May 2024 21:50:03 -0000
-Message-Id: <171460020391.5493.9367389723741121401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 01 May 2024 21:56:33 -0000
+Message-Id: <171460059309.9482.14385779069254875814@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-6.10/io_uring
-    old: 19352a1d395424b5f8c03289a85fbd6622d6601a
-    new: 79996b45f7b28c0e3e08a95bab80119e95317e28
+  - ref: refs/heads/main
+    old: d091e579b864fa790dd6a0cd537a22c383126681
+    new: 8953285d7bd63c12b007432a9b4587fa2fad49fb
     log: |
-         79996b45f7b28c0e3e08a95bab80119e95317e28 io_uring: Require zeroed sqe->len on provided-buffers send
-         
-  - ref: refs/heads/for-next
-    old: 7cd0fe0594cf6aa445fa4f4bbfdd66d813d2cb8c
-    new: 6dd2bdb26c3598bf43deeaddf2cdfcf24d587f16
-    log: |
-         79996b45f7b28c0e3e08a95bab80119e95317e28 io_uring: Require zeroed sqe->len on provided-buffers send
-         6dd2bdb26c3598bf43deeaddf2cdfcf24d587f16 Merge branch 'for-6.10/io_uring' into for-next
+         8953285d7bd63c12b007432a9b4587fa2fad49fb rxrpc: Clients must accept conn from any address
          
