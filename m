@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0667494101275848239=="
+Content-Type: multipart/mixed; boundary="===============4788646614387336464=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 01 May 2024 13:42:28 -0000
-Message-Id: <171457094898.30908.488604798605345205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 01 May 2024 13:42:39 -0000
+Message-Id: <171457095991.31052.16227903848229894962@gitolite.kernel.org>
 
---===============0667494101275848239==
+--===============4788646614387336464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/asoc-6.10
     old: 9a8cadddd9303ae15d1d518c4f2ddf00ee668729
     new: 9f6bdb0aa1e9527e86b8640de5bb30f925b3774e
     log: revlist-9a8cadddd930-9f6bdb0aa1e9.txt
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/asoc-6.9
     old: fbd741f0993203d07b2b6562d68d1e5e4745b59b
     new: c5782bb5468acf86d8ca8e161267e8d055fb4161
     log: |
@@ -31,32 +31,32 @@ changes:
          c5782bb5468acf86d8ca8e161267e8d055fb4161 ASoC: meson: tdm fixes
          
 
---===============0667494101275848239==
+--===============4788646614387336464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1714570940 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1714570940-f82a419a1c29f2e31cf4f10c359dad712951fcb8
+pusher Mark Brown <broonie@kernel.org> 1714570952 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1714570952-0d439433fbae185904839b28b98704ff0b2cf89d
 
-9a8cadddd9303ae15d1d518c4f2ddf00ee668729 9f6bdb0aa1e9527e86b8640de5bb30f925b3774e refs/heads/for-6.10
-fbd741f0993203d07b2b6562d68d1e5e4745b59b c5782bb5468acf86d8ca8e161267e8d055fb4161 refs/heads/for-6.9
+9a8cadddd9303ae15d1d518c4f2ddf00ee668729 9f6bdb0aa1e9527e86b8640de5bb30f925b3774e refs/heads/asoc-6.10
+fbd741f0993203d07b2b6562d68d1e5e4745b59b c5782bb5468acf86d8ca8e161267e8d055fb4161 refs/heads/asoc-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYyRrwTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0PeqB/9TRQRXLysweJdaWUT4XmI4C+CPFNbq
-oGrw4mHCxwWxVwIqrAKQ+hX/qZr3GnnWNoEtR+4DQmuODib/x5xz8xGt3uKdL0ZW
-x2EDvTvWBGa2ckR28LTwC1DVfsCKsgcjSdkZxQ2Tr8CkotTkO35SkFevhvxxyG54
-lj6eV1ZFBG74ZtVDAw/8OAPg/nv7HRNHs9fKoKfLQE26AMhBoAWZP5qPVFa1OAu6
-I9ro4JC5f4NrLHpAyVvpKiUFFWlqTbZQOYV4+uIRvcKw4BUdEnljkdNxTEJIo7cW
-7zdYF+VQHkSkwar99kvGqknKpwo6wz8j/bcjpMMkPqReUUgk6BTDjkpg
-=06zT
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYyRsgTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0HTnB/982MvaQq2TcEI32HGw+dUaFhvT1lI6
+j/d/ZzHA7fWOcNCCO9YS4a7HvoMfqMs3Z+9/kiwxJI+0zCTM78qyxgdReRhC3IJQ
+9Gt22k3XOQXNOxEugw22DoWDk7Y3CI5ygbM5Is4ah7TDdyUAgGsFOpCdHYAVbpTf
+CmNwEdOm58MCeJTXZLwU1Y84zNqtg3ZNWTaNu6B8a6lHVA95h4IjuNIPMcvGxFPu
+U1uQd51QgwAWcKBUJQFYf/ko0O2utS3cLmgfdIO/yM4Dkp0/vnei2EC4s1bThBF0
+6pEWXl4zs5bPZgwS7kQ5v9qyOql8bVFu3TIyPM9vM2DJ2wmKu2rohURN
+=RVKo
 -----END PGP SIGNATURE-----
 
---===============0667494101275848239==
+--===============4788646614387336464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1031,4 +1031,4 @@ a226d08a362f3ebc09b0fa3105282984155eeab4 ASoC: Intel: avs: PCM code cleanup
 395f23e9206d71a0090fc15a9062f93c6e4cd4bc ASoC: Intel: updates for 6.10 - part6
 9f6bdb0aa1e9527e86b8640de5bb30f925b3774e ASoC: doc: dapm: various improvements
 
---===============0667494101275848239==--
+--===============4788646614387336464==--
