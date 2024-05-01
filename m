@@ -1,27 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Wed, 01 May 2024 06:55:44 -0000
-Message-Id: <171454654433.14708.4495750238501628822@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0487129118924361100=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 01 May 2024 07:34:22 -0000
+Message-Id: <171454886234.8813.9888504401650576835@gitolite.kernel.org>
+
+--===============0487129118924361100==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/main
-    old: e6d2942008379e750740de54152efa586dc5d7b8
-    new: ae26223a056e040b2d812202283d47c6e034d063
-    log: |
-         4dd831affd015efbb6e0a56d55ac5ef7812af97a libfdt: tests: Update test case for overlay_bad_fixup
-         ae26223a056e040b2d812202283d47c6e034d063 libfdt: overlay: Refactor overlay_fixup_phandle
-         
   - ref: refs/heads/master
-    old: e6d2942008379e750740de54152efa586dc5d7b8
-    new: ae26223a056e040b2d812202283d47c6e034d063
-    log: |
-         4dd831affd015efbb6e0a56d55ac5ef7812af97a libfdt: tests: Update test case for overlay_bad_fixup
-         ae26223a056e040b2d812202283d47c6e034d063 libfdt: overlay: Refactor overlay_fixup_phandle
-         
+    old: 10dc478115c58abd3f1dd31293ac690fa1b1e9b5
+    new: cfcc9aeda0dc8b9e1b2322a2124a8e1e26364ab5
+    log: revlist-10dc478115c5-cfcc9aeda0dc.txt
+
+--===============0487129118924361100==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-10dc478115c5-cfcc9aeda0dc.txt
+
+699f67512f04cbaee965fad872702c06eaf440f6 KVM: VMX: Move posted interrupt descriptor out of VMX code
+4ec8fd037139a4d8afb2a5c7edb4a17f9449a035 x86/irq: Unionize PID.PIR for 64bit access w/o casting
+2254808b53d92c9fe7b645b2f43acc55f22cdce6 x86/irq: Remove bitfields in posted interrupt descriptor
+7fec07fd217800c5174f51d8869518807e9aa144 x86/irq: Add a Kconfig option for posted MSI
+f5a3562ec9dd29e61735ccf098d8ba05cf6c7c72 x86/irq: Reserve a per CPU IDT vector for posted MSIs
+43650dcf6d6322ec2d0938bb51f755810ffa783a x86/irq: Set up per host CPU posted interrupt descriptors
+6087c7f36ab293a06bc0bcf3857ed4d7eb1f9905 x86/irq: Factor out handler invocation from common_interrupt()
+1b03d82ba15e895776f1f7da2bb56a9a60e6dfed x86/irq: Install posted MSI notification handler
+fef05a078b6fa1e9047e0486f1f6daf70664fd12 x86/irq: Factor out common code for checking pending interrupts
+ce0a92871179f8ca58ae8e3cf50e726a163bf831 x86/irq: Extend checks for pending vectors to posted interrupts
+be9be07b22c96dc03d0ecc76b5a5f21c2dcb05a1 iommu/vt-d: Make posted MSI an opt-in command line option
+ed1e48ea43703002dc202ac7f3b0b0b9981ec2f0 iommu/vt-d: Enable posted mode for device MSIs
+ddd9120983c3efbcaa3a4c7777da1440f8ce27d8 rust: time: doc: Add missing C header links
+a2296c7563e3afa09967a0260261a2171c1fa5c0 Merge branch into tip/master: 'timers/core'
+cfcc9aeda0dc8b9e1b2322a2124a8e1e26364ab5 Merge branch into tip/master: 'x86/irq'
+
+--===============0487129118924361100==--
