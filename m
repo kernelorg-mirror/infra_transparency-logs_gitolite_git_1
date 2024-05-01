@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 01 May 2024 02:05:28 -0000
-Message-Id: <171452912875.30569.13042857103765148209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 01 May 2024 02:07:15 -0000
+Message-Id: <171452923585.32516.3098780757661180792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/main
-    old: 3b5933e99c32fbf46d0c5f2232473ef87d919e16
-    new: c2e6a872bde9912f1a7579639c5ca3adf1003916
+  - ref: refs/heads/master
+    old: aa63c8b7b1c2a95b4569bc820aaad764a7df43c1
+    new: dbeb147332ef5ebe06311e62597745622cd3f07d
     log: |
-         c2e6a872bde9912f1a7579639c5ca3adf1003916 netpoll: Fix race condition in netpoll_owner_active
+         c2d3fedad3ad5240a19a68ad001894ac352f7878 Bluetooth: msft: fix slab-use-after-free in msft_do_close()
+         6fb81c405bfae7d1dcd90d8ed770bad660d66eb5 Bluetooth: qca: add missing firmware sanity checks
+         41c0db17ee19bbce842bb5f85ea44cd7987214a1 Bluetooth: qca: fix NVM configuration parsing
+         dbeb147332ef5ebe06311e62597745622cd3f07d Bluetooth: qca: generalise device address check
          
