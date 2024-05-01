@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Tue, 30 Apr 2024 23:03:21 -0000
-Message-Id: <171451820117.21426.2767003030207790686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 01 May 2024 00:19:12 -0000
+Message-Id: <171452275277.11483.10257709309637151112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/next
-    old: d6fc1ee0b6c11b70808cbd3ed0bf06c2e772ad73
-    new: 4b60f3cd1134b46557ceffb8fecd6d0493b9f740
+  - ref: refs/heads/master
+    old: 06ebfd11678ad63cfd7021580e13d1582ee6c782
+    new: 9a1a2cb5a0e3531d68a2616663ddce49df85dfff
     log: |
-         fc983171e4c82460c0c16b65987d1c2ed76de2c7 selinux: pre-allocate the status page
-         851541709afc1a0e4fe9e8a67afd4c517223138b selinux: avoid printk_ratelimit()
-         581646c3fb98494009671f6d347ea125bc0e663a selinux: constify source policy in cond_policydb_dup()
-         4b60f3cd1134b46557ceffb8fecd6d0493b9f740 Automated merge of 'dev' into 'next'
+         95b88500b97ca8bafc0b9c8e79e9716c2ddc40c6 selftests/bpf: Add opts argument for __start_server
+         044032ee6c4e786746058aaf5527be13e831cc5c selftests/bpf: Make start_mptcp_server static
+         8405e6980f21e2b75f232e970edd76bc50cf1491 selftests/bpf: Drop start_server_proto helper
+         9a1a2cb5a0e3531d68a2616663ddce49df85dfff Merge branch 'use network helpers, part 3'
          
