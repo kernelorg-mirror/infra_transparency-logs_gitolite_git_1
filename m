@@ -1,26 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============4788646614387336464=="
+Content-Type: multipart/mixed; boundary="===============7382658849983225897=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 01 May 2024 13:42:39 -0000
-Message-Id: <171457095991.31052.16227903848229894962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 01 May 2024 13:42:54 -0000
+Message-Id: <171457097472.31219.14636021740943429800@gitolite.kernel.org>
 
---===============4788646614387336464==
+--===============7382658849983225897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: 9a8cadddd9303ae15d1d518c4f2ddf00ee668729
-    new: 9f6bdb0aa1e9527e86b8640de5bb30f925b3774e
-    log: revlist-9a8cadddd930-9f6bdb0aa1e9.txt
-  - ref: refs/heads/asoc-6.9
+  - ref: refs/heads/for-linus
     old: fbd741f0993203d07b2b6562d68d1e5e4745b59b
     new: c5782bb5468acf86d8ca8e161267e8d055fb4161
     log: |
@@ -30,37 +25,16 @@ changes:
          a5a89037d080e0870d7517c61f8b2123d58ab33b ASoC: meson: axg-tdm: add continuous clock support
          c5782bb5468acf86d8ca8e161267e8d055fb4161 ASoC: meson: tdm fixes
          
+  - ref: refs/heads/for-next
+    old: 894eabffb1785aaa5d7250c86f881832d3e93311
+    new: ea1aac8c37ae677b99d895d1e86e1c1ebfeb3c9e
+    log: revlist-894eabffb178-ea1aac8c37ae.txt
 
---===============4788646614387336464==
+--===============7382658849983225897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1714570952 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1714570952-0d439433fbae185904839b28b98704ff0b2cf89d
-
-9a8cadddd9303ae15d1d518c4f2ddf00ee668729 9f6bdb0aa1e9527e86b8640de5bb30f925b3774e refs/heads/asoc-6.10
-fbd741f0993203d07b2b6562d68d1e5e4745b59b c5782bb5468acf86d8ca8e161267e8d055fb4161 refs/heads/asoc-6.9
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYyRsgTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0HTnB/982MvaQq2TcEI32HGw+dUaFhvT1lI6
-j/d/ZzHA7fWOcNCCO9YS4a7HvoMfqMs3Z+9/kiwxJI+0zCTM78qyxgdReRhC3IJQ
-9Gt22k3XOQXNOxEugw22DoWDk7Y3CI5ygbM5Is4ah7TDdyUAgGsFOpCdHYAVbpTf
-CmNwEdOm58MCeJTXZLwU1Y84zNqtg3ZNWTaNu6B8a6lHVA95h4IjuNIPMcvGxFPu
-U1uQd51QgwAWcKBUJQFYf/ko0O2utS3cLmgfdIO/yM4Dkp0/vnei2EC4s1bThBF0
-6pEWXl4zs5bPZgwS7kQ5v9qyOql8bVFu3TIyPM9vM2DJ2wmKu2rohURN
-=RVKo
------END PGP SIGNATURE-----
-
---===============4788646614387336464==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a8cadddd930-9f6bdb0aa1e9.txt
+Content-Disposition: attachment; filename=revlist-894eabffb178-ea1aac8c37ae.txt
 
 e5f4e68eed85fa8495d78cd966eecc2b27bb9e53 tools/power turbostat: Fix added raw MSR output
 3ac1d14d0583a2de75d49a5234d767e2590384dd tools/power turbostat: Increase the limit for fd opened
@@ -951,6 +925,10 @@ e33c4963bf536900f917fb65a687724d5539bc21 Merge tag 'nfsd-6.9-5' of git://git.ker
 a93289b830ce783955b22fbe5d1274a464c05acf Merge tag 'acpi-6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 dda89e2fbc5b7702296356b4a20a5cb66c70e426 Merge tag '9p-for-6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ericvh/v9fs
 c942a0cd3603e34dd2d7237e064d9318cb7f9654 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+b11d26660dff8d7430892008616452dc8e5fb0f3 ASoC: meson: axg-fifo: use threaded irq to check periods
+dcba52ace7d4c12e2c8c273eff55ea03a84c8baf ASoC: meson: axg-card: make links nonatomic
+f949ed458ad15a00d41b37c745ebadaef171aaae ASoC: meson: axg-tdm-interface: manage formatters in trigger
+a5a89037d080e0870d7517c61f8b2123d58ab33b ASoC: meson: axg-tdm: add continuous clock support
 d2d377fc22d23fd38188ea90b051584069a299a2 ASoC: Intel: nau8825/rt5682: move speaker widget to common modules
 3b3ed4752600b6462c184edc3284dcc277891aa6 ASoC: Intel: sof_maxim_common: support MAX98390 on cml boards
 b7654a7e217704694ed3e484f0a3c415f8678896 ASoC: Intel: sof_da7219: support MAX98390
@@ -1029,6 +1007,8 @@ af2ab6ccb93fb4031d15022a1f60904450a9517a ASoc: SOF: misc updates for 6.10
 228132b4d848cf4318f7df8b9c0ad39e22ca6039 ASoC: Constify local snd_sof_dsp_ops
 a226d08a362f3ebc09b0fa3105282984155eeab4 ASoC: Intel: avs: PCM code cleanup
 395f23e9206d71a0090fc15a9062f93c6e4cd4bc ASoC: Intel: updates for 6.10 - part6
+c5782bb5468acf86d8ca8e161267e8d055fb4161 ASoC: meson: tdm fixes
 9f6bdb0aa1e9527e86b8640de5bb30f925b3774e ASoC: doc: dapm: various improvements
+ea1aac8c37ae677b99d895d1e86e1c1ebfeb3c9e Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
 
---===============4788646614387336464==--
+--===============7382658849983225897==--
