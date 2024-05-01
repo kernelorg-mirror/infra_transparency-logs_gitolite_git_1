@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 01 May 2024 10:44:19 -0000
-Message-Id: <171456025989.30739.18222491807190248315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 01 May 2024 10:46:31 -0000
+Message-Id: <171456039145.797.13970363387723482394@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: fb7a0d334894206ae35f023a82cad5a290fd7386
-    new: d091e579b864fa790dd6a0cd537a22c383126681
+    old: c2e6a872bde9912f1a7579639c5ca3adf1003916
+    new: fff6e6accdb71e5dd36e50478bd82d5409ac32d2
     log: |
-         59c878cbcdd80ed39315573b3511d0acfd3501b5 net: bridge: fix multicast-to-unicast with fraglist GSO
-         d091e579b864fa790dd6a0cd537a22c383126681 net: core: reject skb_copy(_expand) for fraglist GSO skbs
+         fff6e6accdb71e5dd36e50478bd82d5409ac32d2 ipv6: anycast: use call_rcu_hurry() in aca_put()
          
