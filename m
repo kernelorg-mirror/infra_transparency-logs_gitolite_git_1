@@ -1,45 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============1539994591866633346=="
+Content-Type: multipart/mixed; boundary="===============3538573973647772304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 01 May 2024 15:04:39 -0000
-Message-Id: <171457587927.27857.852761044582606569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Wed, 01 May 2024 15:25:57 -0000
+Message-Id: <171457715707.12651.5497638652707676006@gitolite.kernel.org>
 
---===============1539994591866633346==
+--===============3538573973647772304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/rcu/next
-    old: b93b7b4635f1b27dbbbf468f509e203a28c541ab
-    new: 34970289cd4c1888234fb053028db47c48a8bc9d
-    log: revlist-b93b7b4635f1-34970289cd4c.txt
+  - ref: refs/heads/for-joerg/arm-smmu/updates
+    old: b8ca7ce709f8210c13eec022e87a12111db5d745
+    new: 56e1a4cc2588a7cb9664457a62fd7a77e005aa01
+    log: revlist-b8ca7ce709f8-56e1a4cc2588.txt
 
---===============1539994591866633346==
+--===============3538573973647772304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b93b7b4635f1-34970289cd4c.txt
+Content-Disposition: attachment; filename=revlist-b8ca7ce709f8-56e1a4cc2588.txt
 
-7fa21aae3c621b88e42f5e2ec0ca06719748329e sh: Emulate one-byte cmpxchg
-00f425e409ee2fe792c806212a74b26f8e5454fa xtensa: Emulate one-byte cmpxchg
-85b9cbb04d10e1763eb5724425925af67593a261 Merge branches 'cmpxchg.2024.04.30a', 'lkmm.2024.04.09c', 'rcu-merge.2024.04.15a' and 'tsc.2024.04.09c' into HEAD
-5c6a9ca9b74586476a321c270ae3f217943fd8d6 doc: Update Tasks RCU and Tasks Rude RCU description in Requirements.rst
-3db8a0cb424bcd16b2515890d7d4378bd3b4c425 rcu: Add lockdep_assert_in_rcu_read_lock() and friends
-5e84ba80986d84efd774dc4635040353215a999f rcutorture: Make rcutorture support srcu double call test
-144a9fa7d0e77188078f55a8aa07177abd2285b8 rcutorture: Fix rcu_torture_fwd_cb_cr() data race
-67b0b92043aff053de058c4dcb90a25636b9d724 rcu: Reduce synchronize_rcu() delays when all wait heads are in use
-6aaf9af9a96932a05b9ae18fd597be3368775e9a rcu/tree: Reduce wake up for synchronize_rcu() common case
-21800cdab5423e8d7ea1247723e77392733da565 ftrace: Asynchronous grace period for register_ftrace_direct()
-dd1fa4ab49252e9edd25cea06b2c0a7bd4c46af3 Revert "rcu-tasks: Fix synchronize_rcu_tasks() VS zap_pid_ns_processes()"
-3ab57ee0bf08339550c37a2284f345b5bdb1957e rcu/nocb: Fix segcblist state machine comments about bypass
-433b3dff3bb5652ec26daee8531b56bf60bbfd12 rcu/nocb: Fix segcblist state machine stale comments about timers
-320aea97541c2f9142284c23e3ded3afc463ce83 rcu/nocb: Use kthread parking instead of ad-hoc implementation
-34970289cd4c1888234fb053028db47c48a8bc9d rcu/nocb: Remove buggy bypass lock contention mitigation
+0928fc15f31553c7acb8117b0609799fc0f22fa5 iommu/arm-smmu-qcom: Don't build debug features as a kernel module
+de31c355541286aa4c938c982dfcafbf062fcb93 iommu/arm-smmu-v3: Add an ops indirection to the STE code
+78a5fbe8395b365d58142ff9b7a6aeb556481a1f iommu/arm-smmu-v3: Make CD programming use arm_smmu_write_entry()
+e9d1e4ff74b96cf180d04be38541a245c8c574c1 iommu/arm-smmu-v3: Move the CD generation for S1 domains into a function
+af8f0b83ea2bcc7cd365c32044f31bdadc07c351 iommu/arm-smmu-v3: Consolidate clearing a CD table entry
+b2f4c0fcf094dacd2d1fb96a6fd6598919501589 iommu/arm-smmu-v3: Make arm_smmu_alloc_cd_ptr()
+13abe4faac4348da0cf1c4eeb2b1b39fcfdb4b8f iommu/arm-smmu-v3: Allocate the CD table entry in advance
+7b87c93c8b86d9d9b9567d83f0ca3d3046fdfc5a iommu/arm-smmu-v3: Move the CD generation for SVA into a function
+04905c17f64890311e6b5a5065d8c220602712e5 iommu/arm-smmu-v3: Build the whole CD in arm_smmu_make_s1_cd()
+56e1a4cc2588a7cb9664457a62fd7a77e005aa01 iommu/arm-smmu-v3: Add unit tests for arm_smmu_write_entry
 
---===============1539994591866633346==--
+--===============3538573973647772304==--
