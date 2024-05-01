@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 01 May 2024 01:46:43 -0000
-Message-Id: <171452800352.16989.15751067703075107222@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 01 May 2024 01:47:21 -0000
+Message-Id: <171452804198.17313.2911246268340588862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: b45176703647e5302314c740a51e7d1054a7bd3c
-    new: 05d6d492097c55f2d153fc3fd33cbe78e1e28e0a
+    old: b9a61c20179fda7bdfe2c1210aa72451991ab81a
+    new: 387f295cb2150ed164905b648d76dfcbd3621778
     log: |
-         05d6d492097c55f2d153fc3fd33cbe78e1e28e0a inet: introduce dst_rtable() helper
+         387f295cb2150ed164905b648d76dfcbd3621778 e1000e: change usleep_range to udelay in PHY mdic access
          
