@@ -1,40 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3538573973647772304=="
+Content-Type: multipart/mixed; boundary="===============4070323166385139486=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Wed, 01 May 2024 15:25:57 -0000
-Message-Id: <171457715707.12651.5497638652707676006@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Wed, 01 May 2024 15:30:17 -0000
+Message-Id: <171457741723.15924.17795864913380676185@gitolite.kernel.org>
 
---===============3538573973647772304==
+--===============4070323166385139486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-joerg/arm-smmu/updates
-    old: b8ca7ce709f8210c13eec022e87a12111db5d745
-    new: 56e1a4cc2588a7cb9664457a62fd7a77e005aa01
-    log: revlist-b8ca7ce709f8-56e1a4cc2588.txt
+  - ref: refs/heads/slab/for-6.9-rc7/fixes
+    old: 54d66fcef243ba9f0e451b65e02387f89882f2fd
+    new: cd7eb8f83fcf258f71e293f7fc52a70be8ed0128
+    log: |
+         8f828aa48812ced28aa39cb3cfe55ef2444d03dd mm/slub: avoid zeroing outside-object freepointer for single free
+         cd7eb8f83fcf258f71e293f7fc52a70be8ed0128 mm/slab: make __free(kfree) accept error pointers
+         
 
---===============3538573973647772304==
+--===============4070323166385139486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8ca7ce709f8-56e1a4cc2588.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0928fc15f31553c7acb8117b0609799fc0f22fa5 iommu/arm-smmu-qcom: Don't build debug features as a kernel module
-de31c355541286aa4c938c982dfcafbf062fcb93 iommu/arm-smmu-v3: Add an ops indirection to the STE code
-78a5fbe8395b365d58142ff9b7a6aeb556481a1f iommu/arm-smmu-v3: Make CD programming use arm_smmu_write_entry()
-e9d1e4ff74b96cf180d04be38541a245c8c574c1 iommu/arm-smmu-v3: Move the CD generation for S1 domains into a function
-af8f0b83ea2bcc7cd365c32044f31bdadc07c351 iommu/arm-smmu-v3: Consolidate clearing a CD table entry
-b2f4c0fcf094dacd2d1fb96a6fd6598919501589 iommu/arm-smmu-v3: Make arm_smmu_alloc_cd_ptr()
-13abe4faac4348da0cf1c4eeb2b1b39fcfdb4b8f iommu/arm-smmu-v3: Allocate the CD table entry in advance
-7b87c93c8b86d9d9b9567d83f0ca3d3046fdfc5a iommu/arm-smmu-v3: Move the CD generation for SVA into a function
-04905c17f64890311e6b5a5065d8c220602712e5 iommu/arm-smmu-v3: Build the whole CD in arm_smmu_make_s1_cd()
-56e1a4cc2588a7cb9664457a62fd7a77e005aa01 iommu/arm-smmu-v3: Add unit tests for arm_smmu_write_entry
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1714577413 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1714577412-a968293d2da04eb79c8af668078169600835d977
 
---===============3538573973647772304==--
+54d66fcef243ba9f0e451b65e02387f89882f2fd cd7eb8f83fcf258f71e293f7fc52a70be8ed0128 refs/heads/slab/for-6.9-rc7/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmYyYAUACgkQu+CwddJF
+iJo2vAf9HoAR3BflMe/maBxthMxhEs3qQZRQogDeQ0j6YJG5uQiZAEW2IPyc8rFo
+VwUW06IQUwEKHzeXGyFJ8W05HrBWw4zlEylGjr0fg6p/BmWv3HCEAOH3ARdXykK4
+QZMBG/pWDSuIS/bRF41eHbpIFKPRr7Q98RNW9RZhOFo2lwY9VKmJrNe68gZ9j7gP
+ScqDpzff5vV232F3pj179fF4gDOv2PDSNJGHw/VeadfKLkouma3RADN/hoDC+61J
+KQFgubP2J2S//0hPaefyYA9LK3ULBtVpobpEkXkXeOffdwSOxNobapg3tQnVJ7A6
+ypNevObYfY+ay7HwDPlTTuZckOdK6Q==
+=w57H
+-----END PGP SIGNATURE-----
+
+--===============4070323166385139486==--
