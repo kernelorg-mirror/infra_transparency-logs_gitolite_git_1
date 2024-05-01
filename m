@@ -1,60 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3889476584920621231=="
+Content-Type: multipart/mixed; boundary="===============8230511555007099672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 01 May 2024 05:18:22 -0000
-Message-Id: <171454070256.8646.10277354549297186312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 01 May 2024 05:22:15 -0000
+Message-Id: <171454093589.11646.373826700745676634@gitolite.kernel.org>
 
---===============3889476584920621231==
+--===============8230511555007099672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 1ddfcad01d448e767bea3e609d967b827e0ee951
-    new: 33075a03f47b74bee7db1a94193d9ac2c2490fa6
+  - ref: refs/heads/master
+    old: c594ce82f9e4b885ad03be4715df8d2a945e624c
+    new: 55441d0dd1f40c5762cd7cf8c9ca312ed0964c4a
     log: |
-         813e0ae613d6ee1b3e11f1c41f8b9e9df8ef0493 bus: mhi: host: Add mhi_power_down_keep_dev() API to support system suspend/hibernation
-         17553ba8e19dee8770b3dcc597d49dcc3418f3b0 bus: mhi: host: Add sysfs entry to force device to enter EDL
-         553f94fc7667259e47a9318e9e5702c9a814d637 bus: mhi: host: Add a new API for getting channel doorbell offset
-         48f98496b1de132f2e056605b5330209136066dc bus: mhi: host: pci_generic: Add generic edl_trigger to allow devices to enter EDL mode
-         33075a03f47b74bee7db1a94193d9ac2c2490fa6 Merge tag 'mhi-for-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-next
+         55441d0dd1f40c5762cd7cf8c9ca312ed0964c4a publish some CVEs for 6.8.3 commits
          
 
---===============3889476584920621231==
+--===============8230511555007099672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714540702 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1714540701-5745b3a7ad2a28f627f3717680cee5581588785d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714540934 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1714540934-0b65e1ab031d2c495f44384d5c0977c948a80168
 
-1ddfcad01d448e767bea3e609d967b827e0ee951 33075a03f47b74bee7db1a94193d9ac2c2490fa6 refs/heads/char-misc-next
+c594ce82f9e4b885ad03be4715df8d2a945e624c 55441d0dd1f40c5762cd7cf8c9ca312ed0964c4a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYx0J4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0pcQAMNWtJAs42/B3A7uqIaJ
-uA/1b/VnKtvH3guq37n1kygHoOi/yhLhmTu0o2nPVEyfAdyTW5t98eXM+XRy94UA
-+4zGMDvDzS74OD+OucHux5FBYjG+oaiRLmk9uD9LWzyQKDMC7mz4iFWsyG5fvMRR
-ojT5kV2nj4vAqKBVsPMzEyXuOZDDTX5+IVv5A9W/qVLIQHEYs+TKbq9cKgddQsVY
-Zl25GPHm36IQ9qzEq2m/AuAg6FweMxi/JgexrNCtuQh1XipLr1x+8Moufj+F3pBg
-7BXCJNgR6EAjfzSlvdYfQX59vPoPMDu2UOiUiefYhyqXtiAESD+vJE5+ocgu6vQn
-BzYW6iy/qjzxj4K+QCn8OYaPqYYWA246IwS8cuPZV6VcmNQiXoxK+fMihPwFIEBL
-yrT6ZkJB2fozENlKL3loujCe+wKm7GSY2eXFfPlB57UHyCTmHQvIGIj3joivA8au
-FxfYbqItdbgg/bxo/sm5DmHlJSX6FbhDg57iM7JreaRpp42TJfhM2GvQpZ/7zQjs
-7jdAPZIOOIsH8jVCATmqBbnGoO6MCQNWcORtuTm+BehFjlE2C7pUVUZSWs6JqoDX
-dlLDKw9ksFzGXz2KqsseB2lssmx5STko0aAg1R9bTHmf6Qx4X6FGAOP43UNsdTU6
-B+vGOLPd0Oc4M+9FBt+dK/RX
-=mQl0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmYx0YYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d/AQANCucOaULnGw3H/IpKSa
+jwzTwRUEgJUoS0J7oPConn/pzPjoKM/xdD/yoEKrejfXq+FpORU6MpjIJxO7I6Ci
+xTZwtZ8nNaw6Y5ZRWlRw618Cyq9fZQSKnxHzQ58kvQ5AqHMELcA+JIxbSpMN58yu
+5V7qK4r238YBAgb7kSw7A3ssvnPLAhf96dAMagN+pT8vLIjcsi5lILLvUl/PFN5p
+tnPX9PbjXUzUluGNecYyW1nVnbSbyob3gBYaOuzTfeC7upam+rdleBoWX4cvshKk
+87BKsgyXOHfEqXNjd9FjFECeforX1nQUx1pknIjb3yrQjtblSC9nIpjvWOdKQmtp
+ZCQzI9KQB6rTsbAfzRh6jH4FkLRSvZrTR4KuYpkm6AzKlbmJTt8wssRQi5/9/PZs
+pPs9dbV97G7kedNkAHelQwWx/SnwkiF+emVjX9T7NmljkyA8WB2N02wDNzv10lH/
+f3zwWf/nic82bT1JhKof1mWcpSUF0EKlaFQzW3FxLpWRctcW54AY9XmNrjzECKJD
+AVIo7tJi9wtq/gLWO9eYUUB8pHH+P/z6h7ifeRfyFrPfuC0kZSkp2dlqrJlyvo22
+rK2GQZ1G4jyCB1ztamhdDOawr2TVr1uREt0I0U62UZbNyD+iLLmcRkiYpttHgp+Y
+5uLZ7kbHibLU/MqNc6aOo4n6
+=1t7u
 -----END PGP SIGNATURE-----
 
---===============3889476584920621231==--
+--===============8230511555007099672==--
