@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 01 May 2024 12:24:08 -0000
-Message-Id: <171456624886.5414.3150739108345585565@gitolite.kernel.org>
+Date: Wed, 01 May 2024 12:24:27 -0000
+Message-Id: <171456626754.5609.5500167835722754547@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: nmenon
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 0b1133ee36ecbf3b02f69cc4e8a169f1b6019e40
-    new: f329598c27332ff9e85e5551bed3cab280971678
-    log: |
-         f329598c27332ff9e85e5551bed3cab280971678 arm64: dts: ti: Fix csi2-dual-imx219 dtb names
-         
-  - ref: refs/heads/ti-next
-    old: 9cedf91ec1126570361c5755db1462cca63f09c0
-    new: f532f23757713d920383fad74bcf736d89563bf0
-    log: |
-         f329598c27332ff9e85e5551bed3cab280971678 arm64: dts: ti: Fix csi2-dual-imx219 dtb names
-         f532f23757713d920383fad74bcf736d89563bf0 Merge branch 'ti-k3-dts-next' into ti-next
-         
+  - ref: refs/tags/ti-driver-soc-for-v6.10
+    old: 0000000000000000000000000000000000000000
+    new: 95ab351b63796060587123d625653e2af44c0104
+  - ref: refs/tags/ti-keystone-dt-for-v6.10
+    old: 0000000000000000000000000000000000000000
+    new: 6fbf31468889ea8b9da094f92f01ab2cf624d77d
+  - ref: refs/tags/ti-k3-dt-for-v6.10
+    old: 0000000000000000000000000000000000000000
+    new: 0cca708f4cbf151ee94f8bce7a37cf51329860af
