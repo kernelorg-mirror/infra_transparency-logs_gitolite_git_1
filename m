@@ -1,69 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============7415968894151406073=="
+Content-Type: multipart/mixed; boundary="===============8630646558572249749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 01 May 2024 14:56:55 -0000
-Message-Id: <171457541595.23268.4734124276984426337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Wed, 01 May 2024 15:01:08 -0000
+Message-Id: <171457566877.26556.7489725927597428568@gitolite.kernel.org>
 
---===============7415968894151406073==
+--===============8630646558572249749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/sched_ext-v6
-    old: d0eb2e7d03e645bce3e0959bf435e2c9d33ec40d
-    new: dc6b64e7a380fc5203bf56ab171f30a300bb7537
-    log: revlist-d0eb2e7d03e6-dc6b64e7a380.txt
+  - ref: refs/heads/netfs-writeback
+    old: 0393418e1c93a9aa4cf2dfbcbf68831860965883
+    new: 7be44a70fca01350abc28dfc2ac97134ca3e2058
+    log: |
+         367adff0eda5df5dc6fa442742d5ba421fcb8c28 fixes
+         7be44a70fca01350abc28dfc2ac97134ca3e2058 fixes 2
+         
+  - ref: refs/remotes/linus/master
+    old: 98369dccd2f8e16bf4c6621053af7aa4821dcf8e
+    new: 18daea77cca626f590fb140fc11e3a43c5d41354
+    log: revlist-98369dccd2f8-18daea77cca6.txt
 
---===============7415968894151406073==
+--===============8630646558572249749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0eb2e7d03e6-dc6b64e7a380.txt
+Content-Disposition: attachment; filename=revlist-98369dccd2f8-18daea77cca6.txt
 
-28214ff94596eea4ffc035aece91530dbdb1e3a5 cgroup: Implement cgroup_show_cftypes()
-190f8d6f65509fc36eeec5271a251d798910b124 sched: Restructure sched_class order sanity checks in sched_init()
-e7cd7f5779eb2e04845d61c68229ccea8ada6ee3 sched: Allow sched_cgroup_fork() to fail and introduce sched_cancel_fork()
-5dcc96078f686b13509ca8a28d3f787d36452a1a sched: Add sched_class->reweight_task()
-0ef1859bdda547e017c2f16811edc1bb5f26b831 sched: Add sched_class->switching_to() and expose check_class_changing/changed()
-c1a1279c04ff0268c69913f2dc809c130cc2ad05 sched: Factor out cgroup weight conversion functions
-d4175667462d292b9b13daa214e992efa42a66d7 sched: Expose css_tg() and __setscheduler_prio()
-f4ae002a1ffb69319d595ab4d8e1b6fb5b92d5c1 sched: Enumerate CPU cgroup file types
-c2eb2ffc8ff202808c68087c7d7a2ae7747e85ce sched: Add @reason to sched_class->rq_{on|off}line()
-3f41771bb5950fffe9e48d1039ea46fd3397b32f sched: Factor out update_other_load_avgs() from __update_blocked_others()
-7be77dc36589bd8dad0617d7133ead5301605003 cpufreq_schedutil: Refactor sugov_cpu_is_busy()
-2f1602e191e5387f0e2ca15df8635097fb42c41c sched: Add normal_policy()
-90f34acae35afe0d2a0849ebdb4d4987daea72f5 sched_ext: Add boilerplate for extensible scheduler class
-24ec944ac6ae0fe633d66d8dcdfb8c9566079705 sched_ext: Implement BPF extensible scheduler class
-0b9e94bfc5a07484ba334844079fc6bc04b60aea sched_ext: Add scx_simple and scx_example_qmap example schedulers
-94548be8c8b66d67c5bf9a334caaf2668c589c81 sched_ext: Add sysrq-S which disables the BPF scheduler
-e3fa97a4be045b28d40b4a80721120e191880fee sched_ext: Implement runnable task stall watchdog
-8a402ed590c3ece8646e56419200066da2ecac13 sched_ext: Allow BPF schedulers to disallow specific tasks from joining SCHED_EXT
-d8f9bc6c1be74482f1858ab2ce685aa4e59d9868 sched_ext: Print sched_ext info when dumping stack
-237eb578c5dd43caed3c15421fe74cd333d96deb sched_ext: Print debug dump after an error exit
-03ce9939b47dda1f6f3d4d59b50aed59011d57cb tools/sched_ext: Add scx_show_state.py
-be57bf7cf993e192592aedb467fa299a347bc4c2 sched_ext: Implement scx_bpf_kick_cpu() and task preemption support
-32cf61c8ec8dc6bc0f03c4990583ce88cfb27256 sched_ext: Add a central scheduler which makes all scheduling decisions on one CPU
-a5c793b0590b29ce0e9a7f09b6e46a924d767ac8 sched_ext: Make watchdog handle ops.dispatch() looping stall
-b1045154f3c3486dd8060fbebcd7a106ed428861 sched_ext: Add task state tracking operations
-a24218042464db9cfb5dfab12f75725e43551189 sched_ext: Implement tickless support
-2061f74c21a297c7ef06f524c15d978058088bf8 sched_ext: Track tasks that are subjects of the in-flight SCX operation
-23ca222717c7b741604e8736230be8ee0f16ca14 sched_ext: Add cgroup support
-b512cff16c6e62d91626dcf64331230b7772e5be sched_ext: Add a cgroup scheduler which uses flattened hierarchy
-29f01e4bd9965cb28ab095562eca72b0d921b5e1 sched_ext: Implement SCX_KICK_WAIT
-9f5e6b26628d1e94c0e8015aebaa57f166e3867d sched_ext: Implement sched_ext_ops.cpu_acquire/release()
-ea72d4406c45ba5adfcba0b15b593fd71779460f sched_ext: Implement sched_ext_ops.cpu_online/offline()
-0b814487504edc3cbd102548c617b99dbab7f4e0 sched_ext: Bypass BPF scheduler while PM events are in progress
-9b0c5b8c5be248c1f2ed66f1bfb8e3cd6c61a3a2 sched_ext: Implement core-sched support
-6be4c29be43222fa9598882558c46b1902dde51e sched_ext: Add vtime-ordered priority queue to dispatch_q's
-e76c5312fbb4e9c16d39e5c95063e3a77440efd1 sched_ext: Implement DSQ iterator
-a37ed0415ec57c7a72c524c48f02082262115397 sched_ext: Add cpuperf support
-c30c09413ecf9b7d64e8eb3d766ca799f3acda27 sched_ext: Documentation: scheduler: Document extensible scheduler class
-dc6b64e7a380fc5203bf56ab171f30a300bb7537 sched_ext: Add selftests
+a76932e45e9b56ac24ee947294fbb52c3713f839 dt-bindings: pinctrl: renesas,rzg2l-pinctrl: Allow 'input' and 'output-enable' properties
+aa43c15a790cf083a6e6a7c531cffd27a5e1fd4f pinctrl: renesas: rzg2l: Execute atomically the interrupt configuration
+c10cd03d69403fa0f00be8631bd4cb4690440ebd pinctrl: pinctrl-aspeed-g6: Fix register offset for pinconf of GPIOR-T
+368a90e651faeeb7049a876599cf2b0d74954796 pinctrl/meson: fix typo in PDM's pin name
+5038a66dad0199de60e5671603ea6623eb9e5c79 pinctrl: core: delete incorrect free in pinctrl_enable()
+08f66a8edd08f6f7cfa769c81634b29a2b123908 pinctrl: mediatek: paris: Fix PIN_CONFIG_INPUT_SCHMITT_ENABLE readback
+c5d3b64c568a344e998830e0e94a7c04e372f89b pinctrl: mediatek: paris: Rework support for PIN_CONFIG_{INPUT,OUTPUT}_ENABLE
+fed6d9a8e6a60ecf6506d0ea004040fbaa109927 pinctrl: baytrail: Fix selecting gpio pinctrl state
+5d10a157ebe02ac9b8abacfd529f8b045e8aa41b pinctrl: baytrail: Add pinconf group for uart3
+452d8950db3e839aba1bb13bc5378f4bac11fa04 power: rt9455: hide unused rt9455_boost_voltage_values
+1e0fb113646182e073539db96016b00cfeb18ecc power: supply: mt6360_charger: Fix of_match for usb-otg-vbus regulator
+a0cedbcc8852d6c77b00634b81e41f17f29d9404 pinctrl: devicetree: fix refcount leak in pinctrl_dt_to_map()
+398c9955bdead2cf027cc263c13e7bd75e9d9116 Merge tag 'renesas-pinctrl-fixes-for-v6.9-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into fixes
+02cd2d3be1c31a3fd328ee83e576340d34bc57d9 pinctrl: renesas: rzg2l: Configure the interrupt type on resume
+6ddb4f372fc63210034b903d96ebbeb3c7195adb KVM: arm64: vgic-v2: Check for non-NULL vCPU in vgic_v2_parse_attr()
+160933e330f4c5a13931d725a4d952a4b9aefa71 KVM: selftests: Add test for uaccesses to non-existent vgic-v2 CPUIF
+7fb1fe37a1832871d6c0baa3557259a13c04df96 Merge tag 'renesas-pinctrl-fixes-for-v6.9-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into fixes
+ac816e9eb5cdae3d33a01037740483db6176013a Merge tag 'intel-pinctrl-v6.9-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/intel into fixes
+515a3c3a5489a890c7c3c1df3855eb4868a27598 platform/x86: ISST: Add Grand Ridge to HPM CPU list
+e5c8fc5955608cc3561a1ac949e3a39479f24394 Merge tag 'pinctrl-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+a52a0b3997472d680b627170366c22a5c34b89c5 Merge tag 'platform-drivers-x86-v6.9-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+50dffbf771802c4db88de2cb942affa0ada43ad0 Merge tag 'for-v6.9-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
+16c20208b9c2fff73015ad4e609072feafbf81ad Merge tag 'kvmarm-fixes-6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+18daea77cca626f590fb140fc11e3a43c5d41354 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 
---===============7415968894151406073==--
+--===============8630646558572249749==--
