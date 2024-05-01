@@ -1,31 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Wed, 01 May 2024 21:28:58 -0000
-Message-Id: <171459893877.21076.6209421192754283331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 01 May 2024 21:50:03 -0000
+Message-Id: <171460020391.5493.9367389723741121401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 2e66d0ecfe97b699678dc059ba16ceff05b527cf
-    new: 8a253f09ec5295a9fc1c5168a99a5f4efc8bbce2
+  - ref: refs/heads/for-6.10/io_uring
+    old: 19352a1d395424b5f8c03289a85fbd6622d6601a
+    new: 79996b45f7b28c0e3e08a95bab80119e95317e28
     log: |
-         80abfebc673bb2a1496dec88f7f0601e7325d3c2 e2image: add support for post-2038 dates in the e2image header
-         1b9e68e0ff22933d1bab5defa761268e904daf28 libsupport: use explicit type widths instead of time_t
-         d04a708ecf955610654a2015de8657642857912d e4defrag: use snprintf to assure that there can't be a buffer overflow
-         8a253f09ec5295a9fc1c5168a99a5f4efc8bbce2 libsupport: silence gcc -Wall complaints
+         79996b45f7b28c0e3e08a95bab80119e95317e28 io_uring: Require zeroed sqe->len on provided-buffers send
          
-  - ref: refs/heads/next
-    old: 2e66d0ecfe97b699678dc059ba16ceff05b527cf
-    new: 8a253f09ec5295a9fc1c5168a99a5f4efc8bbce2
+  - ref: refs/heads/for-next
+    old: 7cd0fe0594cf6aa445fa4f4bbfdd66d813d2cb8c
+    new: 6dd2bdb26c3598bf43deeaddf2cdfcf24d587f16
     log: |
-         80abfebc673bb2a1496dec88f7f0601e7325d3c2 e2image: add support for post-2038 dates in the e2image header
-         1b9e68e0ff22933d1bab5defa761268e904daf28 libsupport: use explicit type widths instead of time_t
-         d04a708ecf955610654a2015de8657642857912d e4defrag: use snprintf to assure that there can't be a buffer overflow
-         8a253f09ec5295a9fc1c5168a99a5f4efc8bbce2 libsupport: silence gcc -Wall complaints
+         79996b45f7b28c0e3e08a95bab80119e95317e28 io_uring: Require zeroed sqe->len on provided-buffers send
+         6dd2bdb26c3598bf43deeaddf2cdfcf24d587f16 Merge branch 'for-6.10/io_uring' into for-next
          
