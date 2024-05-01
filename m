@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7442200366190645678=="
+Content-Type: multipart/mixed; boundary="===============1148830090345163479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 01 May 2024 17:13:48 -0000
-Message-Id: <171458362836.26668.7612685228787687577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 01 May 2024 17:13:59 -0000
+Message-Id: <171458363916.26825.6095742543331250537@gitolite.kernel.org>
 
---===============7442200366190645678==
+--===============1148830090345163479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 02c1f8066ba946feb60e7846f8d69a2a7ccf6590
 
---===============7442200366190645678==
+--===============1148830090345163479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -578,4 +578,4 @@ a52a0b3997472d680b627170366c22a5c34b89c5 Merge tag 'platform-drivers-x86-v6.9-4'
 16c20208b9c2fff73015ad4e609072feafbf81ad Merge tag 'kvmarm-fixes-6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 18daea77cca626f590fb140fc11e3a43c5d41354 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 
---===============7442200366190645678==--
+--===============1148830090345163479==--
