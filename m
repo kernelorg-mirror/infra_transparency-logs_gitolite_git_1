@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 01 May 2024 13:53:39 -0000
-Message-Id: <171457161916.7029.2304316496529704103@gitolite.kernel.org>
+Date: Wed, 01 May 2024 13:53:46 -0000
+Message-Id: <171457162618.7123.611690176679309326@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/v5_20240429_lorenzo_add_add_spi_nand_flash_controller_driver_for_en7581
-    old: 8bd0d557aa8394b75f6983b2334aaf1a633e1ce5
+  - ref: refs/heads/v2_20240430_wsa_renesas_spi_use_time_left_instead_of_timeout_with_wait_for__functions
+    old: 594aa75d6bdda85b5fd027a5056d8cd1345c1db3
     new: 0000000000000000000000000000000000000000
