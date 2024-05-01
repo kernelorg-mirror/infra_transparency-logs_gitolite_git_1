@@ -1,31 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 01 May 2024 07:57:34 -0000
-Message-Id: <171455025488.26856.4098869829600781440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Wed, 01 May 2024 08:24:10 -0000
+Message-Id: <171455185098.13305.1200938713593586280@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/heads/for-next
-    old: ac2f4bc41d067005189bad4dbb28fe9f567d81fe
-    new: e7aeb238026c2226e0636e8159f9e71c0c91a84f
+  - ref: refs/heads/testing
+    old: aeb48a428d7dbe636203ae892e981bcc3e2ac042
+    new: 451b509678978250702bd833c69276e70531f07a
     log: |
-         15824a2b829da80ff1372e32289f4ff72e5c0bfa ALSA: usb-audio: Add sampling rates support for Mbox3
-         e7aeb238026c2226e0636e8159f9e71c0c91a84f ALSA: aoa: soundbus: i2sbus: pcm: use 'time_left' variable with wait_for_completion_timeout()
-         
-  - ref: refs/heads/master
-    old: 3069ecacc7f7371f4989fb84ebf84426884b2dec
-    new: 19e27ecebe26b233145246c9bd19d6e36348c3fa
-    log: |
-         1df1093cbf67fdb9d6a9bcf43c7ab37d345dbdf5 ALSA: hda: cs35l41: Ignore errors when configuring IRQs
-         ac2f4bc41d067005189bad4dbb28fe9f567d81fe ALSA: hda: cs35l41: Add support for ASUS ROG 2024 Laptops
-         15824a2b829da80ff1372e32289f4ff72e5c0bfa ALSA: usb-audio: Add sampling rates support for Mbox3
-         7a89b403d55df37b9ec039acb900204fa9be1001 Merge branch 'for-next'
-         e7aeb238026c2226e0636e8159f9e71c0c91a84f ALSA: aoa: soundbus: i2sbus: pcm: use 'time_left' variable with wait_for_completion_timeout()
-         19e27ecebe26b233145246c9bd19d6e36348c3fa Merge branch 'for-next'
+         a4a87fa4e96c7746e009de06a567688fd9af6013 xfrm: Add Direction to the SA in or out
+         601a0867f86cbb5e137ce485a7eb60cbf9fc5180 xfrm: Add dir validation to "out" data path lookup
+         304b44f0d5a4c2f91f82f7c31538d00485fb484c xfrm: Add dir validation to "in" data path lookup
+         451b509678978250702bd833c69276e70531f07a xfrm: Restrict SA direction attribute to specific netlink message types
          
