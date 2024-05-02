@@ -1,25 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Thu, 02 May 2024 17:26:52 -0000
-Message-Id: <171467081288.22648.14234756965646692194@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2565347627813865467=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Thu, 02 May 2024 17:27:00 -0000
+Message-Id: <171467082010.22764.13388171673515158156@gitolite.kernel.org>
+
+--===============2565347627813865467==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: fd05e3698649f253db5476929675a8cd954cb2b8
-    new: f2994f5341e03b8680a88abc5f1dee950033c3a9
-    log: |
-         aa172ba73948e2152e258ead7e9ddbd806e809b0 leds: trigger: pattern: Add support for hrtimer
-         974afccd37947a6951a052ef8118c961e57eaf7b leds: pwm: Disable PWM when going to suspend
-         3b29c7b9f701e5afbe6b536eb2744acb25cf5bfd leds: sun50i-a100: Use match_string() helper to simplify the code
-         678ba7d25467c06850d0d2922108573ea7346a48 leds: aat1290: Remove unused field 'torch_brightness' from 'struct aat1290_led'
-         221db0183bebbee146922b5816419bdc9b5425ff leds: lp50xx: Remove unused field 'bank_modules' from 'struct lp50xx_led'
-         dd66d058565a705980e6d55bd6592958531221b9 leds: lp50xx: Remove unused field 'num_of_banked_leds' from 'struct lp50xx'
-         f2994f5341e03b8680a88abc5f1dee950033c3a9 leds: mt6370: Remove unused field 'reg_cfgs' from 'struct mt6370_priv'
-         
+  - ref: refs/heads/for-mfd-next
+    old: 0398a09c7b135d2e7740045e6c9dbfb46f9505e8
+    new: 7fcb2977c0b55c2d11aea3a6baa4c59d53709041
+    log: revlist-0398a09c7b13-7fcb2977c0b5.txt
+
+--===============2565347627813865467==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0398a09c7b13-7fcb2977c0b5.txt
+
+b13a46be702a9ab9e0ec646cfbb617dd17e1dd39 mfd: bd71828: Remove commented code lines
+a0fb1c6608c5ff7526e77031e3e90475529414e3 mfd: axp20x: Convert to use Maple Tree register cache
+6b5c5e3546aca232f1bf4837c89cde4ea3ffaf04 dt-bindings: mfd: qcom,tcsr: Add compatible for SDX75
+6269045670d79c1632480284a65be253ecd02ef5 dt-bindings: mfd: syscon: Add ti,am62p-cpsw-mac-efuse compatible
+a1f3b5edaf18b1c71a537032c4a6537bde2ad5e9 dt-bindings: mfd: qcom,spmi-pmic: Add pbs to SPMI device types
+3f2706adbc2b8b6aaf313cc66271642d901d90e0 mfd: timberdale: Remove redundant assignment to variable err
+cbb0241b40c4f2f27a2daf6fb09722d01a5c37ee dt-bindings: mfd: qcom: pm8xxx: Add pm8901 compatible
+4dd91a9a49825e727e93aca8483eb90e6a9894e5 mfd: cs42l43: Update patching revision check
+cc1d9001f1de0856bdd1ea04b6cfce06a81a077d mfd: kempld: Remove custom DMI matching code
+daa2efd8f49cc2dd6d900e7f5f6b6077a8bdfa87 mfd: ssbi: Remove unused field 'slave' from 'struct ssbi'
+4adc5a5b93389870ed3636204f3241de6e827434 dt-bindings: mfd: allwinner,sun6i-a31-prcm: Use hyphens in node names
+8f553c27697bc5e11074e37dfc0def6e39e489b2 dt-bindings: mfd: aspeed: Drop 'oneOf' for pinctrl node
+7fcb2977c0b55c2d11aea3a6baa4c59d53709041 dt-bindings: mfd: Convert lp873x.txt to json-schema
+
+--===============2565347627813865467==--
