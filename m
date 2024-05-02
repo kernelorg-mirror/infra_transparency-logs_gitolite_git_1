@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3617108519549847413=="
+Content-Type: multipart/mixed; boundary="===============3906117402150001911=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 02 May 2024 15:26:58 -0000
-Message-Id: <171466361899.31281.14717315887311684277@gitolite.kernel.org>
+Date: Thu, 02 May 2024 15:27:19 -0000
+Message-Id: <171466363910.31444.13442809532877758559@gitolite.kernel.org>
 
---===============3617108519549847413==
+--===============3906117402150001911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: b45176703647e5302314c740a51e7d1054a7bd3c
     new: dcc61472534e48a200262fd297ab21f8dd94d6cc
     log: revlist-b45176703647-dcc61472534e.txt
 
---===============3617108519549847413==
+--===============3906117402150001911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ de21ec442d411b17a2386cb6683acd18b047506d bnxt_en: Add a mutex to synchronize ULP
 54d0b84f400290df93127ef9a562745464908ffb bnxt_en: Add VF PCI ID for 5760X (P7) chips
 dcc61472534e48a200262fd297ab21f8dd94d6cc Merge branch 'bnxt_en-updates-for-net-next'
 
---===============3617108519549847413==--
+--===============3906117402150001911==--
