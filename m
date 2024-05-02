@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6581235536822995675=="
+Content-Type: multipart/mixed; boundary="===============6846446232659151095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 02 May 2024 23:07:36 -0000
-Message-Id: <171469125677.16931.13706151349292506859@gitolite.kernel.org>
+Date: Thu, 02 May 2024 23:08:10 -0000
+Message-Id: <171469129087.17204.4048700036402375718@gitolite.kernel.org>
 
---===============6581235536822995675==
+--===============6846446232659151095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,53 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 0e0c04e47adc71816ee23d15af4d18924353851f
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 8a603d2c41def104db3b4968b17910fa1ec994e0
     new: 856cd5f13de7cebca44db5ff4bc2ca73490dd8d7
-    log: |
-         91647e64f0f5677ace84165dc25dc99579147b8f i2c: designware: Replace MODULE_ALIAS() with MODULE_DEVICE_TABLE()
-         856cd5f13de7cebca44db5ff4bc2ca73490dd8d7 i2c: designware: Create shared header hosting driver name
-         
+    log: revlist-8a603d2c41de-856cd5f13de7.txt
 
---===============6581235536822995675==
+--===============6846446232659151095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1714691255 +0200
+pusher andi.shyti@kernel.org 1714691290 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1714691254-66b6945da937b5b468b2a54191980f72d89af7fb
+nonce 1714691289-1e190d35c3f30791a3b01e5618f03a76c3e36d4d
 
-0e0c04e47adc71816ee23d15af4d18924353851f 856cd5f13de7cebca44db5ff4bc2ca73490dd8d7 refs/heads/i2c/i2c-host
+8a603d2c41def104db3b4968b17910fa1ec994e0 856cd5f13de7cebca44db5ff4bc2ca73490dd8d7 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZjQctxYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1udeQA/iX+mHrXj0LYdxmqIiGyuCRtd9YG
-JFBh69SxpB8ywrSBAP4ulRJz9zkwwojtbSzMil68fL/Kh4JKc83USFKinrhkAg==
-=pjcX
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZjQc2hYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ujQcBAIViyU687Hkni7I1Tah6FKCl3cud
+c/vvWzc/GhSPAkHhAQCxt5vxKXJC6rUMAmVLIVbltm5L2SyzTFhO+dN/CitYAg==
+=pEvQ
 -----END PGP SIGNATURE-----
 
---===============6581235536822995675==--
+--===============6846446232659151095==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8a603d2c41de-856cd5f13de7.txt
+
+1cc7dd03b39b74dce82cfcee472b405f52801bd3 i2c: amd-mp2-plat: use 'time_left' variable with wait_for_completion_timeout()
+05ba0be5d723a8815a3cc714f51292fe925c763f i2c: digicolor: use 'time_left' variable with wait_for_completion_timeout()
+c0f5cbd40255e9c7dcdec9119ebf8ced2a1b9774 i2c: exynos5: use 'time_left' variable with wait_for_completion_timeout()
+9669fe3ff2a0b05067eff3ab565a674052f4d9ea i2c: hix5hd2: use 'time_left' variable with wait_for_completion_timeout()
+c14c00a39a1a87bbf50b9df7c0cab9cc45114478 i2c: imx-lpi2c: use 'time_left' variable with wait_for_completion_timeout()
+5fb9818fff0306ad0af93163df207e2bcce743f4 i2c: omap: use 'time_left' variable with wait_for_completion_timeout()
+b6ca1b84a6adcc7913ad1d2107ca42da7f3a4db5 i2c: st: use 'time_left' variable with wait_for_completion_timeout()
+b65686a426d55666911dd4d417cfb0a18a211154 i2c: stm32f4: use 'time_left' variable with wait_for_completion_timeout()
+d4cb0ae0835fa62e6041a86cb474cb2e6da98e24 i2c: stm32f7: use 'time_left' variable with wait_for_completion_timeout()
+13097b95543b7e9ebf96ca7ffe649603263f7af6 i2c: synquacer: use 'time_left' variable with wait_for_completion_timeout()
+fc50db15dc8b18555d1d80a856964f9034dc218e i2c: jz4780: use 'time_left' variable with wait_for_completion_timeout()
+cd44bd84b521608ae66b29849de4ab388a9e452f i2c: qcom-geni: use 'time_left' variable with wait_for_completion_timeout()
+5bd8129bf478b5b8c78ddc6fba31c49ee6dac421 i2c: rk3x: use 'time_left' variable with wait_event_timeout()
+0cb4f10c14d0c976849e2f892a1876cf84776735 i2c: s3c2410: use 'time_left' variable with wait_event_timeout()
+0e0c04e47adc71816ee23d15af4d18924353851f i2c: pxa: use 'time_left' variable with wait_event_timeout()
+91647e64f0f5677ace84165dc25dc99579147b8f i2c: designware: Replace MODULE_ALIAS() with MODULE_DEVICE_TABLE()
+856cd5f13de7cebca44db5ff4bc2ca73490dd8d7 i2c: designware: Create shared header hosting driver name
+
+--===============6846446232659151095==--
