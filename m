@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3906117402150001911=="
+Content-Type: multipart/mixed; boundary="===============7982231617293674755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 02 May 2024 15:27:19 -0000
-Message-Id: <171466363910.31444.13442809532877758559@gitolite.kernel.org>
+Date: Thu, 02 May 2024 15:27:39 -0000
+Message-Id: <171466365912.31660.4867836454614349720@gitolite.kernel.org>
 
---===============3906117402150001911==
+--===============7982231617293674755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
-    old: b45176703647e5302314c740a51e7d1054a7bd3c
+  - ref: refs/heads/40GbE
+    old: 29385de339564b2f5bd2ad65eae8ded80d0ad854
     new: dcc61472534e48a200262fd297ab21f8dd94d6cc
-    log: revlist-b45176703647-dcc61472534e.txt
+    log: revlist-29385de33956-dcc61472534e.txt
 
---===============3906117402150001911==
+--===============7982231617293674755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b45176703647-dcc61472534e.txt
+Content-Disposition: attachment; filename=revlist-29385de33956-dcc61472534e.txt
 
-b92379dc94c1ee52aa92a64bd4487c1a81db7254 i40e: Remove flags field from i40e_veb
-54c4664e48eea52f2b296c73ddb8f5629b958678 i40e: Refactor argument of several client notification functions
-7033ada04e33048c8b33294fecbb0d73f3cd1088 i40e: Refactor argument of i40e_detect_recover_hung()
-43f4466ca91debe63a07a80250282cf3210de1aa i40e: Add helper to access main VSI
-6c8e355ea5fccf686703d71219f3b96ec7ec923f i40e: Consolidate checks whether given VSI is main
-5509fc9e3ab6938910626dccdd3d59671086edbf i40e: Add helper to access main VEB
-29385de339564b2f5bd2ad65eae8ded80d0ad854 i40e: Add and use helper to reconfigure TC for given VSI
 05d6d492097c55f2d153fc3fd33cbe78e1e28e0a inet: introduce dst_rtable() helper
 a86a0661b86f310c0b73a30c829648864f0b2619 net: move sysctl_max_skb_frags to net_hotdata
 d480dc76d9f8a72671a6f9a7d987d2389c2e2ee4 net: move sysctl_skb_defer_max to net_hotdata
@@ -68,4 +61,4 @@ de21ec442d411b17a2386cb6683acd18b047506d bnxt_en: Add a mutex to synchronize ULP
 54d0b84f400290df93127ef9a562745464908ffb bnxt_en: Add VF PCI ID for 5760X (P7) chips
 dcc61472534e48a200262fd297ab21f8dd94d6cc Merge branch 'bnxt_en-updates-for-net-next'
 
---===============3906117402150001911==--
+--===============7982231617293674755==--
