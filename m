@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3211585846355324712=="
+Content-Type: multipart/mixed; boundary="===============7526171716103284667=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 02 May 2024 04:31:46 -0000
-Message-Id: <171462430646.9750.12416202166489433021@gitolite.kernel.org>
+Date: Thu, 02 May 2024 04:32:10 -0000
+Message-Id: <171462433000.9979.4578192647772129913@gitolite.kernel.org>
 
---===============3211585846355324712==
+--===============7526171716103284667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-6.10-merge
     old: e58ac1770ded2a316447ca7608bb7809af82eca6
     new: 21255afdd7296f57dd65f815301426bcf911c82d
     log: revlist-e58ac1770ded-21255afdd729.txt
 
---===============3211585846355324712==
+--===============7526171716103284667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ a8bb258f703f42c322638022afa16808ca4a7d25 xfs: remove the xfs_iext_peek_prev_exte
 d69bee6a35d3c5e4873b9e164dd1a9711351a97c xfs: fix xfs_bmap_add_extent_delay_real for partial conversions
 21255afdd7296f57dd65f815301426bcf911c82d xfs: do not allocate the entire delalloc extent in xfs_bmapi_write
 
---===============3211585846355324712==--
+--===============7526171716103284667==--
