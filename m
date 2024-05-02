@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7786197325365664668=="
+Content-Type: multipart/mixed; boundary="===============4078999255090223353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 02 May 2024 22:40:14 -0000
-Message-Id: <171468961461.28436.15268309303367121962@gitolite.kernel.org>
+Date: Thu, 02 May 2024 22:40:32 -0000
+Message-Id: <171468963280.28600.5284438076063316631@gitolite.kernel.org>
 
---===============7786197325365664668==
+--===============4078999255090223353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 78cfe547607a83de60cd25304fa2422777634712
     new: 545c494465d24b10a4370545ba213c0916f70b95
     log: revlist-78cfe547607a-545c494465d2.txt
 
---===============7786197325365664668==
+--===============4078999255090223353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -302,4 +302,4 @@ a52a0b3997472d680b627170366c22a5c34b89c5 Merge tag 'platform-drivers-x86-v6.9-4'
 0106679839f7c69632b3b9833c3268c316c0a9fc Merge tag 'regulator-fix-v6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 545c494465d24b10a4370545ba213c0916f70b95 Merge tag 'net-6.9-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============7786197325365664668==--
+--===============4078999255090223353==--
