@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 02 May 2024 16:24:21 -0000
-Message-Id: <171466706110.8495.16290365037297792155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 02 May 2024 16:31:00 -0000
+Message-Id: <171466746050.14111.4208094059467047062@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: 88e2486b686323a3c6f4b9c5b4c7dd2624d5a728
-    new: 8fd63d81a76024fbd8e3fca29a0748bc9ca46161
+  - ref: refs/heads/master
+    old: 7c13ef16e87ac2e44d16c0468b1191bceb06f95c
+    new: 08e90da6872a9f9f63ca2911bbce6883b6fc1a19
     log: |
-         8fd63d81a76024fbd8e3fca29a0748bc9ca46161 riscv: dts: microchip: add pac1934 power-monitor to icicle
+         08e90da6872a9f9f63ca2911bbce6883b6fc1a19 bpf: Missing trailing slash in tools/testing/selftests/bpf/Makefile
          
