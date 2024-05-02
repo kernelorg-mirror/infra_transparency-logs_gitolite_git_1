@@ -1,44 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2451341833308196941=="
+Content-Type: multipart/mixed; boundary="===============0708083066412257640=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 02 May 2024 06:41:46 -0000
-Message-Id: <171463210667.7495.1888095100005866419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 02 May 2024 06:42:01 -0000
+Message-Id: <171463212151.7705.16267137227643646547@gitolite.kernel.org>
 
---===============2451341833308196941==
+--===============0708083066412257640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: f68868ba718e30594165879cc3020607165b0761
     new: 9c6ecb3cb6e20c4fd7997047213ba0efcf9ada1a
     log: revlist-f68868ba718e-9c6ecb3cb6e2.txt
-  - ref: refs/heads/stable
-    old: 18daea77cca626f590fb140fc11e3a43c5d41354
-    new: 0106679839f7c69632b3b9833c3268c316c0a9fc
-    log: |
-         7ab681ddedd4b6dd2b047c74af95221c5f827e1d regulator: irq_helpers: duplicate IRQ name
-         d3cf8a17498dd9104c04ad28eeac3ef3339f9f9f regulator: mt6360: De-capitalize devicetree regulator subnodes
-         ddd3f34c10002e41ed3cd89c9bd8f1d05a22506a regulator: qcom-refgen: fix module autoloading
-         68adb581a39ae63a0ed082c47f01fbbe515efa0e regulator: vqmmc-ipq4019: fix module autoloading
-         96e20adc43c4f81e9163a5188cee75a6dd393e09 regulator: change stubbed devm_regulator_get_enable to return Ok
-         ff33132605c1a0acea59e4c523cb7c6fabe856b2 regulator: change devm_regulator_get_enable_optional() stub to return Ok
-         0106679839f7c69632b3b9833c3268c316c0a9fc Merge tag 'regulator-fix-v6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-         
-  - ref: refs/tags/next-20240202
-    old: 70f340f5b8f7991170704c7547953911a96ca7a0
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240502
     old: 0000000000000000000000000000000000000000
     new: 4c75af9d88c03ddea81de45a0f795de5c21debf4
 
---===============2451341833308196941==
+--===============0708083066412257640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -803,4 +788,4 @@ d79c96910799c7c89c53820fdf9325a9b4c7f02b Merge branch 'for-next/kspp' of git://g
 88ee4638c5f501a4cf1c2dbb7db684ec66c9a182 Merge branch 'refactor-heap' of https://evilpiepirate.org/git/bcachefs.git
 9c6ecb3cb6e20c4fd7997047213ba0efcf9ada1a Add linux-next specific files for 20240502
 
---===============2451341833308196941==--
+--===============0708083066412257640==--
