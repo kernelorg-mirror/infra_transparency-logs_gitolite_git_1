@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8369035481045349137=="
+Content-Type: multipart/mixed; boundary="===============5771273986595488925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 02 May 2024 22:54:20 -0000
-Message-Id: <171469046050.5376.16093441897780788507@gitolite.kernel.org>
+Date: Thu, 02 May 2024 22:54:38 -0000
+Message-Id: <171469047815.5554.10428775890163468570@gitolite.kernel.org>
 
---===============8369035481045349137==
+--===============5771273986595488925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: dcc61472534e48a200262fd297ab21f8dd94d6cc
     new: e958da0ddbe831197a0023251880a4a09d5ba268
     log: revlist-dcc61472534e-e958da0ddbe8.txt
 
---===============8369035481045349137==
+--===============5771273986595488925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -355,4 +355,4 @@ c9ccbcd9f1995e6aa1578220f86c96f57be529d7 MAINTAINERS: remove Ariel Elior
 545c494465d24b10a4370545ba213c0916f70b95 Merge tag 'net-6.9-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 e958da0ddbe831197a0023251880a4a09d5ba268 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============8369035481045349137==--
+--===============5771273986595488925==--
