@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8653408957613002513=="
+Content-Type: multipart/mixed; boundary="===============6257488466182109636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 02 May 2024 15:29:04 -0000
-Message-Id: <171466374465.32413.2693377368786121906@gitolite.kernel.org>
+Date: Thu, 02 May 2024 15:30:42 -0000
+Message-Id: <171466384257.2414.10188733882131637421@gitolite.kernel.org>
 
---===============8653408957613002513==
+--===============6257488466182109636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: b45176703647e5302314c740a51e7d1054a7bd3c
-    new: dcc61472534e48a200262fd297ab21f8dd94d6cc
-    log: revlist-b45176703647-dcc61472534e.txt
+  - ref: refs/heads/dev-queue
+    old: e34c75d76b7a903b6bf18c6f66f6721091383810
+    new: dd36e0eb9efff15447c89a0c8def27d4f6dc3687
+    log: revlist-e34c75d76b7a-dd36e0eb9eff.txt
 
---===============8653408957613002513==
+--===============6257488466182109636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b45176703647-dcc61472534e.txt
+Content-Disposition: attachment; filename=revlist-e34c75d76b7a-dd36e0eb9eff.txt
 
 b92379dc94c1ee52aa92a64bd4487c1a81db7254 i40e: Remove flags field from i40e_veb
 54c4664e48eea52f2b296c73ddb8f5629b958678 i40e: Refactor argument of several client notification functions
@@ -67,5 +67,36 @@ de21ec442d411b17a2386cb6683acd18b047506d bnxt_en: Add a mutex to synchronize ULP
 3c163f35bd50314d4e70ed9e83e1d8d83c473325 bnxt_en: Optimize recovery path ULP locking in the driver
 54d0b84f400290df93127ef9a562745464908ffb bnxt_en: Add VF PCI ID for 5760X (P7) chips
 dcc61472534e48a200262fd297ab21f8dd94d6cc Merge branch 'bnxt_en-updates-for-net-next'
+2293b09aecbc924ba941622d6ed77d4b9e05499e ice: Fix package download algorithm
+61a447d6aad34b61e81f794f173ebfc4d3639933 ice: add additional E830 device ids
+7fc6fabc0a58558be0a493d63fb011771d3aea20 ice: update E830 device ids and comments
+750a8472fecb8b056c39f70ea5a49911f6bf3fbe ice: Deduplicate tc action setup
+dc4fb7a1421c10695d9ea7effed7145e7aa020c0 e1000e: move force SMBUS near the end of enable_ulp function
+0bec26b43ade573d96a3795140482056367cb608 e1000e: change usleep_range to udelay in PHY mdic access
+1dbb871bae8c1399bf043dee406d18a62fed898c i40e: flower: validate control flags
+a85ebec004e3308bf4eee3674af2fc9af8db3255 iavf: flower: validate control flags
+445be5fdb2d39dd34f52f3da7554bbf30b310493 ice: flower: validate control flags
+0f302111d5431749b8ee44873e332a1b913a71ab igb: flower: validate control flags
+3458aa837fc654c12003ff8e6276a55a21bf6527 ice: Interpret .set_channels() input differently
+5b5034960f434c19656c6011a732e3ee327f6ba9 ice: fix 200G PHY types to link speed mapping
+99305ecbcb9e9564f668b0e154c5f533ea532cf1 ice: refactor struct ice_vsi_cfg_params to be inside of struct ice_vsi
+a0eac8e1493452514f944dd9115f521f9615c368 ice: Do not get coalesce settings while in reset
+3a715e331f4e1e553b8b4f2ad07852f0f58704f9 ice: remove correct filters during eswitch release
+1fd26f1c77541b02955f160970786c1eeef953ae net: e1000e & ixgbe: Remove PCI_HEADER_TYPE_MFD duplicates
+80d8460b4ba12c46b5fe08cfcfcc4139e9ccb9e4 igc: fix a log entry using uninitialized netdev
+4a8ebf9f63207c6a5c730e444b3bc1b282034ef5 idpf: don't enable NAPI and interrupts prior to allocating Rx buffers
+b6d85c8ceb4f7cb2fa7610c03ec04f8b3d0847e6 idpf: Interpret .set_channels() input differently
+2dbdd533879e919d60659fda83dbd6cde8b19819 ice: add and use roundup_u64 instead of open coding equivalent
+fbf9be025c1ed9ae6102e8f626b4ebc0cdc5feeb ice: Introduce ice_ptp_hw struct
+e9f4b7d45e7e39aab13e08e7efa801ac678789c1 ice: Introduce helper to get tmr_cmd_reg values
+9d9f64055acf93651a3f85ab2982d8c4a49e68cf ice: Implement Tx interrupt enablement functions
+7327f3d113bf4e530321fb028d52c2fff33c11c0 ice: Add PHY OFFSET_READY register clearing
+013174670028277dd2a076afd19209e7502a2937 ice: Move CGU block
+ab04d5c74a2e823641ca296bcb73a060cdd9c030 ice: Introduce ice_get_base_incval() helper
+4ff5836ed5bca257a93f9689adb5e5c8fa313082 ice: Introduce ETH56G PHY model for E825C products
+f3da2bb78e60c3a9c94276591b34b1bd76a2d684 ice: Change CGU regs struct to anonymous
+88437ec1f3861dcd87a3349c1305e0720a5d1aef ice: Add support for E825-C TS PLL handling
+350794dcc7ea3ceb4d7970bc600e873e54adc5de ice: Add NAC Topology device capability parser
+dd36e0eb9efff15447c89a0c8def27d4f6dc3687 ice: Adjust PTP init for 2x50G E825C devices
 
---===============8653408957613002513==--
+--===============6257488466182109636==--
