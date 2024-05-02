@@ -1,43 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============5577042524521158155=="
+Content-Type: multipart/mixed; boundary="===============3211585846355324712=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 02 May 2024 04:15:29 -0000
-Message-Id: <171462332955.31557.10801886165937927682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Thu, 02 May 2024 04:31:46 -0000
+Message-Id: <171462430646.9750.12416202166489433021@gitolite.kernel.org>
 
---===============5577042524521158155==
+--===============3211585846355324712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/fs/xfs/xfs-linux
+user: chandanbabu
 changes:
-  - ref: refs/heads/dev
-    old: 0da388cfdc9dcb952c01b0755ab8a1d6d59a5312
-    new: 2bd9d039bed6d30946074302e0c315ef2e5ed536
-    log: revlist-0da388cfdc9d-2bd9d039bed6.txt
+  - ref: refs/heads/for-next
+    old: e58ac1770ded2a316447ca7608bb7809af82eca6
+    new: 21255afdd7296f57dd65f815301426bcf911c82d
+    log: revlist-e58ac1770ded-21255afdd729.txt
 
---===============5577042524521158155==
+--===============3211585846355324712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0da388cfdc9d-2bd9d039bed6.txt
+Content-Disposition: attachment; filename=revlist-e58ac1770ded-21255afdd729.txt
 
-c63951069a3d29196ab17c8a4bda81e1e963e6dc erofs-utils: add missing block counting
-b063ea316aa9fde2e878d7cbc7892dd9820d3bf7 erofs-utils: fsck: extract chunk-based file with hole correctly
-dd14ad413ac35ee4b20f20f756ee7ffbec7e7cf0 erofs-utils: use erofs_atomic_t for inode->i_count
-0cec97c5b08b62759e3303e69d503df249f083eb erofs-utils: lib: prepare for later deferred work
-ca5e84ed408a70760e3c5d80f1a8ffe29dea3831 erofs-utils: lib: split out erofs_commit_compressed_file()
-d37ea6245e8f403970800b6eba8769d0130f665f erofs-utils: rearrange several fields for multi-threaded mkfs
-40f7c477fdd86d1f86c25264df009358c4764413 erofs-utils: lib: split up z_erofs_mt_compress()
-af61e61a8935f2f7c8d1655f9e95cc5d5c5000fa erofs-utils: mkfs: prepare inter-file multi-threaded compression
-dafce405358a74a2bcef84f29a93ba1b2db72a53 erofs-utils: lib: introduce non-directory jobitem context
-0943f2d4638768e0307e2e1f5dc6306e41cf12b1 erofs-utils: mkfs: enable inter-file multi-threaded compression
-59c36e7a40089a07737ad6d9efc6a6858e10f951 erofs-utils: mkfs: use all available processors by default
-6f382ad449fde3e94f9e6081f42ff914f00eeb36 erofs-utils: record pclustersize in bytes instead of blocks
-2bd9d039bed6d30946074302e0c315ef2e5ed536 erofs-utils: lib: adjust MicroLZMA default dictionary size
+bb712842a85d595525e72f0e378c143e620b3ea2 xfs: match lock mode in xfs_buffered_write_iomap_begin()
+fc8d0ba0ff5fe4700fa02008b7751ec6b84b7677 xfs: make the seq argument to xfs_bmapi_convert_delalloc() optional
+2e08371a83f1c06fd85eea8cd37c87a224cc4cc4 xfs: make xfs_bmapi_convert_delalloc() to allocate the target offset
+5ce5674187c345dc31534d2024c09ad8ef29b7ba xfs: convert delayed extents to unwritten when zeroing post eof blocks
+6773da870ab89123d1b513da63ed59e32a29cb77 xfs: fix error returns from xfs_bmapi_write
+b11ed354c9f725ece2b9440dd6343b42cd5d031c xfs: remove the unusued tmp_logflags variable in xfs_bmapi_allocate
+04c609e6e5066294b60329420d3711e990c47abf xfs: lift a xfs_valid_startblock into xfs_bmapi_allocate
+9d06960341ec5f45d3d65bdead3fbce753455e8a xfs: don't open code XFS_FILBLKS_MIN in xfs_bmapi_write
+2a9b99d45be0981536f6d3faf40ae3f58febdd49 xfs: pass the actual offset and len to allocate to xfs_bmapi_allocate
+a8bb258f703f42c322638022afa16808ca4a7d25 xfs: remove the xfs_iext_peek_prev_extent call in xfs_bmapi_allocate
+d69bee6a35d3c5e4873b9e164dd1a9711351a97c xfs: fix xfs_bmap_add_extent_delay_real for partial conversions
+21255afdd7296f57dd65f815301426bcf911c82d xfs: do not allocate the entire delalloc extent in xfs_bmapi_write
 
---===============5577042524521158155==--
+--===============3211585846355324712==--
