@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7737021207320115086=="
+Content-Type: multipart/mixed; boundary="===============9178309760695323267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 02 May 2024 03:55:49 -0000
-Message-Id: <171462214929.15564.4300346958853035930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 02 May 2024 03:55:55 -0000
+Message-Id: <171462215502.15691.15995124359017985605@gitolite.kernel.org>
 
---===============7737021207320115086==
+--===============9178309760695323267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/spi-6.10
     old: 52267fe8456a2a05f70b29d68292eec789c960b9
     new: 6be871d5fd2ecac8987a63fbf7ee38e007d14133
     log: revlist-52267fe8456a-6be871d5fd2e.txt
 
---===============7737021207320115086==
+--===============9178309760695323267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1714622147 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1714622147-4bf0cc0fbea03585586042cdfb39b25d4fb4fa8a
+pusher Mark Brown <broonie@kernel.org> 1714622153 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1714622152-8e9f06830b41bd42b79653e9b2b92607e81dffda
 
-52267fe8456a2a05f70b29d68292eec789c960b9 6be871d5fd2ecac8987a63fbf7ee38e007d14133 refs/heads/for-6.10
+52267fe8456a2a05f70b29d68292eec789c960b9 6be871d5fd2ecac8987a63fbf7ee38e007d14133 refs/heads/spi-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYzDsMTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0EewB/0V/wPVClD46ecUkj9eBRa2jhOk5VXA
-BBNbvmxEQPbEpuN2G/8itCQl8YzzjGNsxklDsIFg6VmzBLFA13PpX3Wkb92seQWI
-AWBFrtCs6LLoOt+ldHgiL9akt4XKLKcXmQF5tiuwBaOk2XRoNqxd6MZF3x+1tLKx
-m8g3yCVm8RjH4ua1YCWYT+p0ZiWj4eTw223aBeoLAAyhvzQ+1kZp0fZOKwMzFzG7
-AV7IHDGgVdgKXoA6FhIyYdEeWmnncR7x5ZDcgfvtrY5tGcdCtOuHUZz8s4Pv2IVl
-pIqm8QC7DRAIEmriY+DUNABE4GOcK9BixtQCMcxtPrL+YavWlUyLQaqd
-=kdaC
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYzDskTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0BpjB/sGasCFo7ndtl+T3Nys4p8IO3AAz/oM
+aLJBaFeDj9BYvqvYiGFW/+miDyCJ7JGjCwdc942Rplxp3txcmXgga9Etc4UfTB7f
+xnTZJo8HjiMnvI/Nd/hFCcQGDGGZaBHldVyr9DixjjqjVKwI7DtAxjgLttMlY/xb
+CQ5UaYpupfp8U4TBkR/KqXd0xgqFY5EWVxg1ieRvJU7dhP7XbutVF0fW2+8fql7F
+xTr9DCfE4T5xDBeESuwIRfkdQC732aD0FUi+eaxzmqOwOpZKd8c3YD/1cIPOjzEd
+IuV+aXgbgJScooPJ5IcBZsB1mZSgGYTQgciycKSvW9xjaulFvEpzXsSc
+=wpq0
 -----END PGP SIGNATURE-----
 
---===============7737021207320115086==
+--===============9178309760695323267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +64,4 @@ e66480aed4a194f278da1e46ec45221b3983216f spi: pic32: use 'time_left' variable wi
 78d9435323103f23a20fb3c2f6db8c682ece5b3e Add add SPI-NAND Flash controller driver for EN7581
 6be871d5fd2ecac8987a63fbf7ee38e007d14133 spi: use 'time_left' instead of 'timeout' with
 
---===============7737021207320115086==--
+--===============9178309760695323267==--
