@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 02 May 2024 16:31:02 -0000
-Message-Id: <171466746248.14179.17884828062741488181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 02 May 2024 16:37:16 -0000
+Message-Id: <171466783665.19219.1062528891039894441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 7c13ef16e87ac2e44d16c0468b1191bceb06f95c
-    new: 08e90da6872a9f9f63ca2911bbce6883b6fc1a19
+  - ref: refs/heads/master
+    old: a60762b8d1f9c91be1c35fd8fbc00ea2d81fcaa7
+    new: a25a2da0482a5729de7eb7ea422e9c8d2fcc5ff4
     log: |
-         08e90da6872a9f9f63ca2911bbce6883b6fc1a19 bpf: Missing trailing slash in tools/testing/selftests/bpf/Makefile
+         a25a2da0482a5729de7eb7ea422e9c8d2fcc5ff4 Thu May  2 12:36:35 PM EDT 2024
          
