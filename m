@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============9178309760695323267=="
+Content-Type: multipart/mixed; boundary="===============1993600540380356247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 02 May 2024 03:55:55 -0000
-Message-Id: <171462215502.15691.15995124359017985605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 02 May 2024 03:56:56 -0000
+Message-Id: <171462221638.16124.1992891116111257356@gitolite.kernel.org>
 
---===============9178309760695323267==
+--===============1993600540380356247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.10
-    old: 52267fe8456a2a05f70b29d68292eec789c960b9
-    new: 6be871d5fd2ecac8987a63fbf7ee38e007d14133
-    log: revlist-52267fe8456a-6be871d5fd2e.txt
+  - ref: refs/heads/for-next
+    old: d37fd46e9b72d79c9f4e4c37ff672b76e563d557
+    new: 02ca3b9791efabe7d4efd02bf7ac04a0b9ce7317
+    log: revlist-d37fd46e9b72-02ca3b9791ef.txt
 
---===============9178309760695323267==
+--===============1993600540380356247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1714622153 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1714622152-8e9f06830b41bd42b79653e9b2b92607e81dffda
-
-52267fe8456a2a05f70b29d68292eec789c960b9 6be871d5fd2ecac8987a63fbf7ee38e007d14133 refs/heads/spi-6.10
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmYzDskTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0BpjB/sGasCFo7ndtl+T3Nys4p8IO3AAz/oM
-aLJBaFeDj9BYvqvYiGFW/+miDyCJ7JGjCwdc942Rplxp3txcmXgga9Etc4UfTB7f
-xnTZJo8HjiMnvI/Nd/hFCcQGDGGZaBHldVyr9DixjjqjVKwI7DtAxjgLttMlY/xb
-CQ5UaYpupfp8U4TBkR/KqXd0xgqFY5EWVxg1ieRvJU7dhP7XbutVF0fW2+8fql7F
-xTr9DCfE4T5xDBeESuwIRfkdQC732aD0FUi+eaxzmqOwOpZKd8c3YD/1cIPOjzEd
-IuV+aXgbgJScooPJ5IcBZsB1mZSgGYTQgciycKSvW9xjaulFvEpzXsSc
-=wpq0
------END PGP SIGNATURE-----
-
---===============9178309760695323267==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52267fe8456a-6be871d5fd2e.txt
+Content-Disposition: attachment; filename=revlist-d37fd46e9b72-02ca3b9791ef.txt
 
 a403997c12019d0f82a9480207bf85985b8de5e7 spi: airoha: add SPI-NAND Flash controller driver
 8bd0d557aa8394b75f6983b2334aaf1a633e1ce5 spi: dt-bindings: airoha: Add YAML schema for SNFI controller
@@ -63,5 +38,6 @@ e66480aed4a194f278da1e46ec45221b3983216f spi: pic32: use 'time_left' variable wi
 594aa75d6bdda85b5fd027a5056d8cd1345c1db3 spi: xlp: use 'time_left' variable with wait_for_completion_timeout()
 78d9435323103f23a20fb3c2f6db8c682ece5b3e Add add SPI-NAND Flash controller driver for EN7581
 6be871d5fd2ecac8987a63fbf7ee38e007d14133 spi: use 'time_left' instead of 'timeout' with
+02ca3b9791efabe7d4efd02bf7ac04a0b9ce7317 Merge remote-tracking branch 'spi/for-6.10' into spi-next
 
---===============9178309760695323267==--
+--===============1993600540380356247==--
