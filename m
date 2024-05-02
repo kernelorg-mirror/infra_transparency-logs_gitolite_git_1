@@ -1,68 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6846446232659151095=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 02 May 2024 23:08:10 -0000
-Message-Id: <171469129087.17204.4048700036402375718@gitolite.kernel.org>
-
---===============6846446232659151095==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
+Date: Thu, 02 May 2024 23:25:05 -0000
+Message-Id: <171469230512.29569.5165668582651895589@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/oupton/linux
+user: oupton
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 8a603d2c41def104db3b4968b17910fa1ec994e0
-    new: 856cd5f13de7cebca44db5ff4bc2ca73490dd8d7
-    log: revlist-8a603d2c41de-856cd5f13de7.txt
-
---===============6846446232659151095==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher andi.shyti@kernel.org 1714691290 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1714691289-1e190d35c3f30791a3b01e5618f03a76c3e36d4d
-
-8a603d2c41def104db3b4968b17910fa1ec994e0 856cd5f13de7cebca44db5ff4bc2ca73490dd8d7 refs/heads/i2c/i2c-host-next
------BEGIN PGP SIGNATURE-----
-
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZjQc2hYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ujQcBAIViyU687Hkni7I1Tah6FKCl3cud
-c/vvWzc/GhSPAkHhAQCxt5vxKXJC6rUMAmVLIVbltm5L2SyzTFhO+dN/CitYAg==
-=pEvQ
------END PGP SIGNATURE-----
-
---===============6846446232659151095==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a603d2c41de-856cd5f13de7.txt
-
-1cc7dd03b39b74dce82cfcee472b405f52801bd3 i2c: amd-mp2-plat: use 'time_left' variable with wait_for_completion_timeout()
-05ba0be5d723a8815a3cc714f51292fe925c763f i2c: digicolor: use 'time_left' variable with wait_for_completion_timeout()
-c0f5cbd40255e9c7dcdec9119ebf8ced2a1b9774 i2c: exynos5: use 'time_left' variable with wait_for_completion_timeout()
-9669fe3ff2a0b05067eff3ab565a674052f4d9ea i2c: hix5hd2: use 'time_left' variable with wait_for_completion_timeout()
-c14c00a39a1a87bbf50b9df7c0cab9cc45114478 i2c: imx-lpi2c: use 'time_left' variable with wait_for_completion_timeout()
-5fb9818fff0306ad0af93163df207e2bcce743f4 i2c: omap: use 'time_left' variable with wait_for_completion_timeout()
-b6ca1b84a6adcc7913ad1d2107ca42da7f3a4db5 i2c: st: use 'time_left' variable with wait_for_completion_timeout()
-b65686a426d55666911dd4d417cfb0a18a211154 i2c: stm32f4: use 'time_left' variable with wait_for_completion_timeout()
-d4cb0ae0835fa62e6041a86cb474cb2e6da98e24 i2c: stm32f7: use 'time_left' variable with wait_for_completion_timeout()
-13097b95543b7e9ebf96ca7ffe649603263f7af6 i2c: synquacer: use 'time_left' variable with wait_for_completion_timeout()
-fc50db15dc8b18555d1d80a856964f9034dc218e i2c: jz4780: use 'time_left' variable with wait_for_completion_timeout()
-cd44bd84b521608ae66b29849de4ab388a9e452f i2c: qcom-geni: use 'time_left' variable with wait_for_completion_timeout()
-5bd8129bf478b5b8c78ddc6fba31c49ee6dac421 i2c: rk3x: use 'time_left' variable with wait_event_timeout()
-0cb4f10c14d0c976849e2f892a1876cf84776735 i2c: s3c2410: use 'time_left' variable with wait_event_timeout()
-0e0c04e47adc71816ee23d15af4d18924353851f i2c: pxa: use 'time_left' variable with wait_event_timeout()
-91647e64f0f5677ace84165dc25dc99579147b8f i2c: designware: Replace MODULE_ALIAS() with MODULE_DEVICE_TABLE()
-856cd5f13de7cebca44db5ff4bc2ca73490dd8d7 i2c: designware: Create shared header hosting driver name
-
---===============6846446232659151095==--
+  - ref: refs/heads/kvm-arm64/dont-reset-ftr-id-regs
+    old: 03ce00d682dd517cf57b1eb69dad6a7a568511fd
+    new: 00a3029bead6821d22d27ed79a6ab64a915c45ae
+    log: |
+         16a2a340409818f1fc37c73f717abb38d29aa40c KVM: arm64: Rename is_id_reg() to imply VM scope
+         9ab219bd5acaeb8a5801ce38dd893212dded448c KVM: arm64: Reset VM feature ID regs from kvm_reset_sys_regs()
+         01b9da9c23a4b5215291d153f3d3dd42496f4a83 KVM: arm64: Only reset vCPU-scoped feature ID regs once
+         8ee69638a1c54c9f1a76b174db6d6e0913222a31 KVM: selftests: Rename helper in set_id_regs to imply VM scope
+         bacbbd1646aa9cdcebbfd866d90b16772f92aaa0 KVM: selftests: Store expected register value in set_id_regs
+         a3b509a3373a45774d7fe8156dee469685e4aa90 KVM: arm64: Test that feature ID regs survive a reset
+         00a3029bead6821d22d27ed79a6ab64a915c45ae KVM: selftests: Test vCPU-scoped feature ID registers
+         
