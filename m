@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============6491815746604071593=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sboyd/spmi
-Date: Thu, 02 May 2024 00:56:56 -0000
-Message-Id: <171461141621.10246.2853047590835971594@gitolite.kernel.org>
-
---===============6491815746604071593==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 02 May 2024 01:49:40 -0000
+Message-Id: <171461458086.20993.12959101355993542136@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sboyd/spmi
-user: sboyd
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/spmi-next
-    old: ee2098c0b512fb80b63119199938ea62a240ebc7
-    new: 539a47de89d6007c9be627f16aa659e41c2a8728
+  - ref: refs/heads/main
+    old: 496bc5861c73f34e0486612f93634a9289de0dfb
+    new: dcb3fba6fa34dd2f98bfcd1d20b26fab3842d1ee
     log: |
-         539a47de89d6007c9be627f16aa659e41c2a8728 spmi: pmic-arb: Fix of_irq_get_byname() error checking
+         42033d0cfc8606adc9cb7e18d4c73d2e9a6289e5 arp: Move ATF_COM setting in arp_req_set().
+         0592367424bbbdef506ef1450f5b8beec148f8a4 arp: Validate netmask earlier for SIOCDARP and SIOCSARP in arp_ioctl().
+         f8696133f6aa4e6a83c9fb2d9dddc6d194a2ba1f arp: Factorise ip_route_output() call in arp_req_set() and arp_req_delete().
+         51e9ba48d48786da89d2695be9a1cab40b2afc31 arp: Remove a nest in arp_req_get().
+         a428bfc77a4dd4ba19b7646e887fa655fcfee5a0 arp: Get dev after calling arp_req_(delete|set|get)().
+         0840556e5a3a331b6932ef17dd4bc94445df3297 net: Protect dev->name by seqlock.
+         bf4ea58874df3d43f7264709cec7fe320616552c arp: Convert ioctl(SIOCGARP) to RCU.
+         5165c48ef1afbb3e0126b36be84ffaa6f05cb6f0 Merge branch 'arp-random-clean-up-and-rcu-conversion-for-ioctl-siocgarp'
+         dcb3fba6fa34dd2f98bfcd1d20b26fab3842d1ee net: ti: icssg_prueth: Add SW TX / RX Coalescing based on hrtimers
          
-
---===============6491815746604071593==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Stephen Boyd <sboyd@kernel.org> 1714611414 -0700
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sboyd/spmi.git
-nonce 1714611414-d0cc4e1bf930f2f8d56f931d012b79bcd9fbcc12
-
-ee2098c0b512fb80b63119199938ea62a240ebc7 539a47de89d6007c9be627f16aa659e41c2a8728 refs/heads/spmi-next
------BEGIN PGP SIGNATURE-----
-
-iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmYy5NYRHHNib3lkQGtl
-cm5lbC5vcmcACgkQrQKIl8bklSUGPhAAwIXyZOF7N8JyuIBsKOfetvr5vG7lE8Az
-27MIrFC/0WMJCGBQzEWkT7K56GtLAiEQnz5lruDhwgnIf14I2G++vrAET3uJj7F7
-ftY/Y6qRiyrQjkymNyRKzZOJBXbIQIqg4ZxOG0a/qaAG/miJiUJE1owzXbiVJ7j6
-52ZXCZRj7RHED/k5y5Wt8QbMEZRGEATfFp19FyrUo1Aiquk1Z42gWw8qL2/KIH0n
-yn55cAmgMngQGPsY6iIXBEtCqil4b4enpXVUa+HvyFyvxXh1N2cOOnJ1Epv7Ow78
-zs6USF9RwpEhMQAS7iIx/6oSXTD2TtKIPgBdr0Ogr+BdOcRFSYCNci03pgwZqw4A
-7pLKRD/ipy88uRrO7fjeFiJL+hcwECsa2ajXqg/tyGO3AouI6LdDj6vtjkrbJc1Y
-2L55aR5JWI7lRCH/n/hZ2oE3ZOig7gvwnvYUAbWfQ0u4muvsO2XVyBJEZ4Xno/V+
-EPB5MJchLUZxgB/HSKItJPtlJSJZX7zEY7uzDEnqWyPlteBZkVxOX9oK7ysohSLX
-awCCvOWo4gS2+7Ij+WgxlKCsdWSl0mumeFM1vcXL5f7FU3Vyu5IUmqwgduuH1hUh
-mYEy8g2vsUwHE8thH11u03UJ65g21QZ0WWlvWhHlW0pesKUN+dbo9H8lYfjedRvW
-sgguN8vxwog=
-=Eon6
------END PGP SIGNATURE-----
-
---===============6491815746604071593==--
