@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Thu, 02 May 2024 12:15:50 -0000
-Message-Id: <171465215003.23758.13448543599117544255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Thu, 02 May 2024 12:20:20 -0000
+Message-Id: <171465242076.26979.6607266188052715472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
 changes:
-  - ref: refs/heads/uretprobe_syscall
-    old: d35106ce1a1718249ae4c3fbe66bf4456982f797
-    new: 55a6e733a86714267339804d984d97c28c7fd597
+  - ref: refs/heads/slab/for-6.10/cleanup
+    old: b3d8a8e870144369fdbcbb1a78878ce98532265a
+    new: 844776cb65a77ef27bfba2220e285940b714ae4e
     log: |
-         55a6e733a86714267339804d984d97c28c7fd597 selftests/bpf: Add uretprobe compat test
+         844776cb65a77ef27bfba2220e285940b714ae4e mm/slub: mark racy access on slab->freelist
          
