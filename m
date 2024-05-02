@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rteval/rteval
-Date: Thu, 02 May 2024 17:28:19 -0000
-Message-Id: <171467089939.23353.4668541858484341334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Thu, 02 May 2024 17:29:37 -0000
+Message-Id: <171467097747.23933.10138243547637276890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rteval/rteval
-user: jkacur
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
-  - ref: refs/heads/main
-    old: 701ab9f5d50fb0e1308ad8ea163d49525d3d90af
-    new: a5f3289e2ee6577cbbb78661bea58b821942ba56
+  - ref: refs/heads/master
+    old: 66b0b3c1fc6262605d38f443641cdb9ab09d14e2
+    new: b88b3b46cf1cfd4f0682374918fb3ba4aa0decdd
     log: |
-         eb344bffd1525bbb8cd95fb4f4501e467cdc21ce rteval: cyclictest.py: reduce: Fix exception with missing samples
-         a5f3289e2ee6577cbbb78661bea58b821942ba56 rteval: Use get instead of setdefault for calculating range
+         b88b3b46cf1cfd4f0682374918fb3ba4aa0decdd libext2fs: fix potential divide by zero bug caused by a lxcfs bug
+         
+  - ref: refs/heads/next
+    old: 66b0b3c1fc6262605d38f443641cdb9ab09d14e2
+    new: b88b3b46cf1cfd4f0682374918fb3ba4aa0decdd
+    log: |
+         b88b3b46cf1cfd4f0682374918fb3ba4aa0decdd libext2fs: fix potential divide by zero bug caused by a lxcfs bug
          
