@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3838419378727942303=="
+Content-Type: multipart/mixed; boundary="===============5588157026212717545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 02 May 2024 15:16:06 -0000
-Message-Id: <171466296620.23797.4852825553374059894@gitolite.kernel.org>
+Date: Thu, 02 May 2024 15:16:23 -0000
+Message-Id: <171466298399.23971.18287482329760844304@gitolite.kernel.org>
 
---===============3838419378727942303==
+--===============5588157026212717545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: ba1cb99b559e3b12db8b65ca9ff03358ea318064
     new: 78cfe547607a83de60cd25304fa2422777634712
     log: revlist-ba1cb99b559e-78cfe547607a.txt
 
---===============3838419378727942303==
+--===============5588157026212717545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ a257f093bfd643def9c7eac341aa3f6d2c834920 Merge branch 'net-gro-add-flush-flush_i
 c9ccbcd9f1995e6aa1578220f86c96f57be529d7 MAINTAINERS: remove Ariel Elior
 78cfe547607a83de60cd25304fa2422777634712 MAINTAINERS: mark MYRICOM MYRI-10G as Orphan
 
---===============3838419378727942303==--
+--===============5588157026212717545==--
