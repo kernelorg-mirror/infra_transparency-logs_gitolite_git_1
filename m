@@ -1,153 +1,108 @@
-Content-Type: multipart/mixed; boundary="===============6872182088691456683=="
+Content-Type: multipart/mixed; boundary="===============3921187618255585407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 02 May 2024 19:00:19 -0000
-Message-Id: <171467641956.28594.18135470710508149896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 02 May 2024 19:01:20 -0000
+Message-Id: <171467648007.29166.3426054715934346901@gitolite.kernel.org>
 
---===============6872182088691456683==
+--===============3921187618255585407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/next
-    old: 0667e3c05b4d9d32988313da24324a4cf9ecb0bf
-    new: 7fe29c98d7a84cdef7e95a658d5ebfcb2a8b606b
-    log: revlist-0667e3c05b4d-7fe29c98d7a8.txt
-  - ref: refs/heads/seen
-    old: a8a902aa1835f8a5b49ede93502e513179c1012e
-    new: 56cdf3a0bd2ba2969dea5d311db514930fe8c381
-    log: revlist-a8a902aa1835-56cdf3a0bd2b.txt
+  - ref: refs/heads/master
+    old: 0106679839f7c69632b3b9833c3268c316c0a9fc
+    new: f03359bca01bf4372cf2c118cd9a987a5951b1c8
+    log: revlist-0106679839f7-f03359bca01b.txt
 
---===============6872182088691456683==
+--===============3921187618255585407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0667e3c05b4d-7fe29c98d7a8.txt
+Content-Disposition: attachment; filename=revlist-0106679839f7-f03359bca01b.txt
 
-2d65e5b6a624e9642c4d765a861cf291095adc72 ci: rename "runs_on_pool" to "distro"
-ab2b3aadf322fccffeaabe7470e1b5905537a888 ci: expose distro name in dockerized GitHub jobs
-11d3f1aa5fce1838483a48e9fbabbd762e0dda97 ci: skip sudo when we are already root
-21bcb4a6023c70b1359ba138dedcf37939be5eaa ci: drop duplicate package installation for "linux-gcc-default"
-40c60f4c124d1ae59c0f05dcd37dbe0c63d64ab7 ci: convert "install-dependencies.sh" to use "/bin/sh"
-d1ef3d3b1d562e3362de0886b18c8cc2df85c4b7 ci: merge custom PATH directories
-2c5c7639e59a73f1428fa6fb5dff647234046f59 ci: fix setup of custom path for GitLab CI
-9cdeb34b962d5c1633ac5d23ebba4e24a816242a ci: merge scripts which install dependencies
-ca44ef3165324ff76aa27261141f573846f9bfca ci: make Perforce binaries executable for all users
-04ba2c7eb38fbb0f1a440971953557b9eb3b789b ci: install JGit dependency
-ca13c3e94a737b3dc8624e433ed87fead3a8b974 t06xx: always execute backend-specific tests
-db1d63bf57b49d71b7327f36740430525d7049b0 t0610: fix non-portable variable assignment
-70b81fbf3c641435c5583e53ff78caa0aaef80ca t0612: add tests to exercise Git/JGit reftable compatibility
-7046f1d57240b6eb39af22c024d6fec4a6cfcb5d credential: add an authtype field
-90765ea81eab98cd8f26c406588f5a6ea6f4fe82 remote-curl: reset headers on new request
-d01c76f1cfc96ba56f1c7c0e1b051d121ba6cc48 http: use new headers for each object request
-6a6d6fb12e485a580fc3f219cbee1575481b56eb credential: add a field for pre-encoded credentials
-ca9ccbf67450ffcda235970f0693794cee912562 credential: gate new fields on capability
-2ae6dc686d79a6dcf52e67dbe886f1bfca8876d5 credential: add a field called "ephemeral"
-5af5cc68aa8658c42bb2c4c46f2f01dabbd5acff docs: indicate new credential protocol fields
-ad9bb6dfe6e598d87ffe6e2285b4b86dac3bc726 http: add support for authtype and credential
-8470c94be33d639c943e051a802c0e28eabf4a96 credential: add an argument to keep state
-36f7d865e340c3afe578df05c6d9e8f9a7bda887 credential: enable state capability
-bd590bde5846889dea72d301d7cd8abd70e5b0e1 docs: set a limit on credential line length
-37417b771707786756e94a589441e6510e9f57e4 t5563: refactor for multi-stage authentication
-ac4c7cbfaa1871e8865d5fa5b8142a70da37cce4 credential: add support for multistage credential rounds
-30c0a3036fc5ac8e49f570675950bb3a133ce34d t: add credential tests for authtype
-40220f48b1895c7c4c824c3c33576399128fbc0f credential-cache: implement authtype capability
-ffff4ac0658a2cad162c08feb1552ba02fed9099 credential: add method for querying capabilities
-319ba144076c27f3451bb73834839e9441a9c180 t/helper: stop using `the_index`
-f59aa5e0a93242f73bf21e241fabe0c261f4b62a builtin: stop using `the_index`
-66bce9d00bc4e2f89b2aea21d1e162c9ee47f55c repository: initialize index in `repo_init()`
-9ee6d63babb8beaace8c654df6c65ff61f3697b8 builtin/clone: stop using `the_index`
-19fa8cd48c106ded717eeaf145b45e995318f3fe repository: drop `the_index` variable
-0c473557908ec626e9e8abf66d2f2308624cdd14 repository: drop `initialize_the_repository()`
-cb85fdf4a4445fd201133dfc8d1e43c7e2e68bf5 completion: add 'symbolic-ref'
-d13a2950747214567f1685802da523d009c543d9 completion: improve docs for using __git_complete
-6b7c45e8c9f7e6b6a602b9ba0727073573da552f completion: add docs on how to add subcommand completions
-4cf6e7bf5e3e81bb7bda7cc22eb29961743b81b9 doc: clarify practices for submitting updated patch versions
-058b8dc2c2467c507d7b984b838e6c779107d6db t4046: avoid continue in &&-chain for zsh
-fedd5c79ff855a4e3859e5c3fa5784942185436b vimdiff: make script and tests work with zsh
-9d225b025d96d37e8c914646c54cfa9fb5f52b80 add-patch: do not show UI messages on stderr
-26998ed2a2ed2e36103da7131e44cd6a0c8d4565 add-patch: response to unknown command
-3c20acdf465ba211978108ca8507d41e62a016fd completion: zsh: stop leaking local cache variable
-a5a4cb7b278b53a6c490dd249eadedb4cc306fab diff-lib: stop calling diff_setup_done() in do_diff_cache()
-35e293e61870182b3af51dae4c4d5e1029678bf4 Merge branch 'ps/ci-test-with-jgit' into next
-789ec5bd359aae0dcaacf3e3d0eb8bb00bd827bf Merge branch 'bc/credential-scheme-enhancement' into next
-7b9a0ab760b4c3db98624f1342580bafb65161ac Merge branch 'ps/the-index-is-no-more' into next
-7020ecebe75072b4b408fbbae31c298e9208c21f Merge branch 'rh/complete-symbolic-ref' into next
-1c5865f11cfe913f3c0c17c205971249d0c3e0fc Merge branch 'jt/doc-submitting-rerolled-series' into next
-3016062ebfecee1cbbe3374b05d4e30db12c631b Merge branch 'rj/add-p-typo-reaction' into next
-e95af749a2114415bea96333709f3471fdb5c529 t/t4026-color: remove an extra double quote character
-d78d692efcc734195515fd060a1f35cb5123a72d t/t4026-color: add test coverage for invalid RGB colors
-7b97dfe47ba3a61f09cc26154540d74afdd3283d color: add support for 12-bit RGB colors
-10222b247262ea87938c5bbd29026f28e0961426 Merge branch 'bc/zsh-compatibility' into next
-0446d8e63ab4a041136f96586975ba821f501bb3 Merge branch 'dk/zsh-git-repo-path-fix' into next
-cd9779c175657c8a3c450243b4196195465b1c5e Merge branch 'rs/diff-parseopts-cleanup' into next
-7fe29c98d7a84cdef7e95a658d5ebfcb2a8b606b Merge branch 'bb/rgb-12-bit-colors' into next
+0e60f0b75884677fb9f4f2ad40d52b43451564d5 xtensa: fix MAKE_PC_FROM_RA second argument
+11cca8ccf2c3643d002e7b421acfdc847a627e9f tty: xtensa/iss: Use min() to fix Coccinelle warning
+229087f6f1dc2d0c38feba805770f28529980ec0 bpf, kconfig: Fix DEBUG_INFO_BTF_MODULES Kconfig definition
+cfddb048040b598fa7df0e51ca361289fc7abf28 MAINTAINERS: Update email address for Puranjay Mohan
+76cd338994778c552c51086fc056819b5cdda2e7 MAINTAINERS: bpf: Add Lehui and Puranjay as riscv64 reviewers
+6648e613226e18897231ab5e42ffc29e63fa3365 bpf, skmsg: Fix NULL pointer dereference in sk_psock_skb_ingress_enqueue
+37eacb9f6e89fb399a79e952bc9c78eb3e16290e bpf: Fix a verifier verbose message
+dc7d7447b56bcc9cf79a9c22e4edad200a298e4c bpf, arm64: Fix incorrect runtime stats
+10541b374aa05c8118cc6a529a615882e53f261b riscv, bpf: Fix incorrect runtime stats
+843c3280686fc1a83d89ee1e0b5599c9f6b09d0c s390/mm: Fix storage key clearing for guest huge pages
+412050af2ea39407fe43324b0be4ab641530ce88 s390/mm: Fix clearing storage keys for huge pages
+c6f48506ba30c722dd9d89aa6a40eb1926277dff arm32, bpf: Reimplement sign-extension mov instruction
+5bcf0dcbf9066348058b88a510c57f70f384c92c xdp: use flags field to disambiguate broadcast redirect
+9af503d91298c3f2945e73703f0e00995be08c30 btrfs: add missing mutex_unlock in btrfs_relocate_sys_chunks()
+0f2b8098d72a93890e69aa24ec549ef4bc34f4db btrfs: take the cleaner_mutex earlier in qgroup disable
+666854ea9cad844f75a068f32812a2d78004914a ice: ensure the copied buf is NUL terminated
+8c34096c7fdf272fd4c0c37fe411cd2e3ed0ee9f bna: ensure the copied buf is NUL terminated
+f299ee709fb45036454ca11e90cb2810fe771878 octeontx2-af: avoid off-by-one read from userspace
+a5b1051ad5a7028a4a5a2f569f8caf3a56c7163c Merge branch 'ensure-the-copied-buf-is-nul-terminated'
+72c1afffa4c645fe0e0f1c03e5f34395ed65b5f4 thermal/debugfs: Free all thermal zone debug memory on zone removal
+c7f7c37271787a7f77d7eedc132b0b419a76b4c8 thermal/debugfs: Fix two locking issues with thermal zone debug
+4b911a9690d72641879ea6d13cce1de31d346d79 nsh: Restore skb->{protocol,data,mac_header} for outer header in nsh_gso_segment().
+42f853b42899d9b445763b55c3c8adc72be0f0e1 net l2tp: drop flow hash on forward
+d351eb0ab04c3e8109895fc33250cebbce9c11da thermal/debugfs: Prevent use-after-free from occurring after cdev removal
+5e1a99cf22a65bd91cb43c5380cc14a44b85ad2a s390/3270: Fix buffer assignment
+b961ec10b9f9719987470236feb50c967db5a652 s390/vdso: Add CFI for RA register to asm macro vdso_func
+66e13b615a0ce76b785d780ecc9776ba71983629 bpf: verifier: prevent userspace memory access
+b599d7d26d6ad1fc9975218574bc2ca6d0293cfd bpf, x86: Fix PROBE_MEM runtime load check
+7cd6750d9a560fa69bb640a7280479d6a67999ad selftests/bpf: Test PROBE_MEM of VSYSCALL_ADDR on x86-64
+a86538a2efb826b9a62c7b41e0499948b04aec7d Merge branch 'bpf-prevent-userspace-memory-access'
+6a30653b604aaad1bf0f2e74b068ceb8b6fc7aea Fix a potential infinite loop in extract_user_to_sg()
+b2ff42c6d3abc26ef0f395fe9ee8c64364fbaa22 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+b7cf2a1d9881823133acc48427815a48b35b49f4 xtensa: remove redundant flush_dcache_page and ARCH_IMPLEMENTS_FLUSH_DCACHE_PAGE macros
+d85cf67a339685beae1d0aee27b7f61da95455be net: bcmgenet: synchronize EXT_RGMII_OOB_CTRL access
+2dbe5f19368caae63b1f59f5bc2af78c7d522b3a net: bcmgenet: synchronize use of bcmgenet_set_rx_mode()
+0d5e2a82232605b337972fb2c7d0cbc46898aca1 net: bcmgenet: synchronize UMAC_CMD access
+bef1e4c8c3e06560f7f3bb9e42eb1c903bdc6dc2 Merge branch 'bcmgenet-protect-contended-accesses'
+16f50301a804a4b86c75fdd0dfb50ec263ed41b1 MAINTAINERS: add an explicit entry for YNL
+e25714466abd9d96901b15efddf82c60a38abd86 net: qede: sanitize 'rc' in qede_add_tc_flower_fltr()
+fcee2065a178f78be6fd516302830378b17dba3d net: qede: use return from qede_parse_flow_attr() for flower
+27b44414a34b108c5a37cd5b4894f606061d86e7 net: qede: use return from qede_parse_flow_attr() for flow_spec
+f26f719a36e56381a1f4230e5364e7ad4d485888 net: qede: use return from qede_parse_actions()
+b867247555c4181bf84eb10b72b176862c29112d Merge branch 'qed-error-codes'
+38762a0763c10c24a4915feee722d7aa6e73eb98 firewire: nosy: ensure user_length is taken into account when fetching packet contents
+09773bf55aeabe3fd61745d900798dc1272c778a firewire: ohci: fulfill timestamp for some local asynchronous transaction
+6dee402daba4eb8677a9438ebdcd8fe90ddd4326 vxlan: Fix racy device stats updates.
+b22ea4ef4c3438817fcb604255b55b0058ed8c64 vxlan: Add missing VNI filter counter update in arp_reduce().
+ba1cb99b559e3b12db8b65ca9ff03358ea318064 Merge branch 'vxlan-stats'
+da7c622cddd4fe36be69ca61e8c42e43cde94784 s390/cio: Ensure the copied buf is NUL terminated
+63a6ce5a1a6261e4c70bad2b55c4e0de8da4762e btrfs: set correct ram_bytes when splitting ordered extent
+9f8eeea1643c213c0e1ad2e546a15536200d216b rxrpc: Fix using alignmask being zero for __page_frag_alloc_align()
+9067eccdd7849dd120d5495dbd5a686fa6ed2c1a cxgb4: Properly lock TX queue for the selftest.
+b9a61c20179fda7bdfe2c1210aa72451991ab81a net: dsa: mv88e6xxx: Fix number of databases for 88E6141 / 88E6341
+387f295cb2150ed164905b648d76dfcbd3621778 e1000e: change usleep_range to udelay in PHY mdic access
+fb7a0d334894206ae35f023a82cad5a290fd7386 mptcp: ensure snd_nxt is properly initialized on connect
+a4499998c7f4dfa15ddba18b266e187cf29b7c76 s390/zcrypt: Fix wrong format string in debug feature printout
+c0e983b697f45f5e413b00c94037e56b7870cfcd s390/zcrypt: Handle ep11 cprb return code
+da5658320bc962634c36ece6052c5a543493e3cf s390/zcrypt: Use EBUSY to indicate temp unavailability
+7bbe449d0bdb68892cc67e9f5f1bfa106a3588d5 s390/paes: Reestablish retry loop in paes
+59c878cbcdd80ed39315573b3511d0acfd3501b5 net: bridge: fix multicast-to-unicast with fraglist GSO
+d091e579b864fa790dd6a0cd537a22c383126681 net: core: reject skb_copy(_expand) for fraglist GSO skbs
+8953285d7bd63c12b007432a9b4587fa2fad49fb rxrpc: Clients must accept conn from any address
+080cbb890286cd794f1ee788bbc5463e2deb7c2b tipc: fix UAF in error path
+97bf6f81b29a8efaf5d0983251a7450e5794370d tipc: fix a possible memleak in tipc_buf_append
+f7789419137b18e3847d0cc41afd788c3c00663d vxlan: Pull inner IP header in vxlan_rcv().
+8a2e4d37afb8500b276e5ee903dee06f50ab0494 s390/qeth: Fix kernel panic after setting hsuid
+fc1092f51567277509563800a3c56732070b6aa4 ipv4: Fix uninit-value access in __ip_make_skb()
+5ef31ea5d053a8f493a772ebad3f3ce82c35d845 net: gro: fix udp bad offset in socket lookup by adding {inner_}network_offset to napi_gro_cb
+5babae777c61aa8a8679d59d3cdc54165ad96d42 net: gro: add flush check in udp_gro_receive_segment
+a257f093bfd643def9c7eac341aa3f6d2c834920 Merge branch 'net-gro-add-flush-flush_id-checks-and-fix-wrong-offset-in-udp'
+c9ccbcd9f1995e6aa1578220f86c96f57be529d7 MAINTAINERS: remove Ariel Elior
+78cfe547607a83de60cd25304fa2422777634712 MAINTAINERS: mark MYRICOM MYRI-10G as Orphan
+545c494465d24b10a4370545ba213c0916f70b95 Merge tag 'net-6.9-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+6aed7b97fc6ec84fd4f86b53199df64a1ab42bab Merge tag 'thermal-6.9-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+49a73b1652c58ef2a81776a12ad9ac0795f38de0 Merge tag 'firewire-fixes-6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
+09bf0f196fbca1a343fffa2099d8cf492ba78f3a Merge tag 'xtensa-20240502' of https://github.com/jcmvbkbc/linux-xtensa
+da87c77ebba3ab79c4d41c678d2c703e36b02f0c Merge tag 's390-6.9-6' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+f03359bca01bf4372cf2c118cd9a987a5951b1c8 Merge tag 'for-6.9-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============6872182088691456683==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8a902aa1835-56cdf3a0bd2b.txt
-
-d424488901fffded2e3098eb4294b47e0391bc67 rev-parse: document how --is-* options work outside a repository
-e95af749a2114415bea96333709f3471fdb5c529 t/t4026-color: remove an extra double quote character
-d78d692efcc734195515fd060a1f35cb5123a72d t/t4026-color: add test coverage for invalid RGB colors
-7b97dfe47ba3a61f09cc26154540d74afdd3283d color: add support for 12-bit RGB colors
-941b78198e19204cff0e335241a022dcba1795b7 Documentation/glossary: redefine pseudorefs as special refs
-2b641cabe751881d383e16fb5e0e0cd2a0dfa153 Documentation/glossary: clarify limitations of pseudorefs
-4a776ca9cb69d7494ae465aac9bbc70bebda4a6d Documentation/glossary: define root refs as refs
-86e338e2a2dbdea7747f6e94fad2e98fadc2cc39 refs: rename `is_pseudoref()` to `is_root_ref()`
-7a1a577a354cccc1e9db6e0b2dbace1b742f3ce2 refs: refname `is_special_ref()` to `is_pseudo_ref()`
-9c50fa3c8fbcc4cf7a3d528409d49bde950986de refs: classify HEAD as a root ref
-f08b95cdcf5c0f19c0c1a4cf3788cf6dd07928e5 refs: root refs can be symbolic refs
-08badb48f408d3fcff3f6313538f9a640448a29f refs: pseudorefs are no refs
-e81cb26276fad7e0442964d466d552a301a70223 ref-filter: properly distinuish pseudo and root refs
-818351a2f3574ec2d182a94703805cff7c6c4708 refs: refuse to write pseudorefs
-704b59099e4d3f47d547b452d10979b328533cca Makefile: sort UNIT_TEST_PROGRAMS
-56b04883f04944240368f28a056d5aae59f3f52f trailer: add unit tests for trailer iterator
-3be65e6ee2f585a0aad0363c8ce7d966a6f8c2b3 trailer: teach iterator about non-trailer lines
-2ade05431ebfc8c159a00202c44580754c7d42e2 sequencer: use the trailer iterator
-655eb65d48bec60d24baf66bf19de394eb2e6aea interpret-trailers: access trailer_info with new helpers
-24a25c630cfe72d2d77fed5d2841f7c017a269b5 trailer: make parse_trailers() return trailer_info pointer
-c1e4b2b18e9bd7e808285c88ec58eb00ea4942fc trailer: make trailer_info struct private
-cf5c9349de52d8d5fa02f7a5b6d9122260834f26 trailer: retire trailer_info_get() from API
-5f800603a9fa0cbcca83b3eb56dff893582d0ca7 trailer: document parse_trailers() usage
-dc88e5279a0bc68dc7b0337b0da34d50984bb38b trailer unit tests: inspect iterator contents
-9c8dc81ab20c1da3c660b892c596de47ea22a16b Merge branch 'ps/reftable-write-optim' into jch
-d1eb667512fc1a5e7c21a622069f927d1877c53a Merge branch 'ps/ci-test-with-jgit' into jch
-ac513beb0a69e50cdb7a6bcac75c6528d158720b Merge branch 'bc/credential-scheme-enhancement' into jch
-fecd52dd78c692862b096d9cf1a9d4e4fd41bf1e Merge branch 'ps/the-index-is-no-more' into jch
-a660a398eb8dede368b6013b79a5d736ac6b9d17 Merge branch 'rh/complete-symbolic-ref' into jch
-bf73ddaf7cf364d3d788dc45406555411d5d433f Merge branch 'jt/doc-submitting-rerolled-series' into jch
-8aa638fb029b25199aef2cc66f1b6a93251a039e Merge branch 'rj/add-p-typo-reaction' into jch
-3d05fa17603fd971a786448685772ecddc2cb54c Merge branch 'bc/zsh-compatibility' into jch
-b0a23d7029f94e8372e8fddc6ce051b215c138d6 Merge branch 'dk/zsh-git-repo-path-fix' into jch
-4c0d9e09ef04363ad760694556ec1387d804f1d9 Merge branch 'rs/diff-parseopts-cleanup' into jch
-edfc24e62d658cfd25faa920ce1a0e9f5d695a92 Merge branch 'bb/rgb-12-bit-colors' into jch
-ed265896534882a5d0a60b9580506fe0644dea7a ### match next
-5789e08e5b6b540828f8186d3077cf775fc12322 Merge branch 'js/unit-test-suite-runner' into jch
-545e5ab12f187e1a5487601b29113edc8d1a91a1 Merge branch 'la/hide-trailer-info' into jch
-c68ec2fd37c5ca25655f0ff5a81e35dc163711f1 Merge branch 'tb/path-filter-fix' into jch
-f66f4348d968f08de129b1cfda82860e7566e4e8 Merge branch 'pw/rebase-i-error-message' into jch
-3a6be86bde3ca80b3d175498c6d8beaf9e2207f2 Merge branch 'ds/scalar-reconfigure-all-fix' into jch
-61f1f5ac85e44e2132883ea610e1ee70617da6d7 Merge branch 'ps/pseudo-ref-terminology' into jch
-0129486ac9b4fe2d1781fc0335e20685ec869273 Merge branch 'ps/undecided-is-not-necessarily-sha1' into jch
-6e155beb30d6dba6434edca473ced33f755e39d7 Merge branch 'tb/pseudo-merge-reachability-bitmap' into jch
-1631c458532816ca9d6be5c9b7678b1bf2c99949 Merge branch 'ds/send-email-per-message-block' into seen
-5885f02ea664579c97e96f03e5e4ff24482a7706 Merge branch 'jc/rerere-cleanup' into seen
-f31045fabb2c7e457ea1ff514c746abf914440cd Merge branch 'bk/complete-send-email' into seen
-37fa15118652120d04ed71dd995b800275e6e9ed Merge branch 'bk/complete-dirname-for-am-and-format-patch' into seen
-8d76ed744239464414d34e15242bfde0a8df5a1c Merge branch 'js/cmake-with-test-tool' into seen
-67d1b9f43bf6831d195e225d551ac67aaed00509 Merge branch 'cw/git-std-lib' into seen
-f163f1f722b67546e6d5629607b3f7ea8d2918ed Merge branch 'ie/config-includeif-hostname' into seen
-96cb409b5b2450410e76b10706080e016089b206 Merge branch 'ds/doc-config-reflow' into seen
-fc59f1639d57db06ba522f8fe825f9de153832c8 Merge branch 'ew/khash-to-khashl' into seen
-56cdf3a0bd2ba2969dea5d311db514930fe8c381 Merge branch 'jc/rev-parse-fatal-doc' into seen
-
---===============6872182088691456683==--
+--===============3921187618255585407==--
