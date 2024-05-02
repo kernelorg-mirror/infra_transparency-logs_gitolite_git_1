@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 02 May 2024 09:26:14 -0000
-Message-Id: <171464197409.30211.496524603835059781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Thu, 02 May 2024 09:45:17 -0000
+Message-Id: <171464311764.26237.8478331400356055195@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/main
-    old: a257f093bfd643def9c7eac341aa3f6d2c834920
-    new: 78cfe547607a83de60cd25304fa2422777634712
-    log: |
-         c9ccbcd9f1995e6aa1578220f86c96f57be529d7 MAINTAINERS: remove Ariel Elior
-         78cfe547607a83de60cd25304fa2422777634712 MAINTAINERS: mark MYRICOM MYRI-10G as Orphan
-         
+  - ref: refs/tags/thermal-v6.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 8f73f95a9064971b05b71880a2fded2a589b6ba3
