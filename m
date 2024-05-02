@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Thu, 02 May 2024 21:45:35 -0000
-Message-Id: <171468633507.20392.12317710182371867723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Thu, 02 May 2024 21:51:12 -0000
+Message-Id: <171468667221.24031.15092234666573473546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/tags/md-6.10-20240502
+  - ref: refs/heads/work.bd_flags-2
     old: 0000000000000000000000000000000000000000
-    new: f0e729af2eb6bee9eb58c4df1087f14ebaefe26b
+    new: 1844795b2a6b437f66bf2936e090f22ab59a43f4
