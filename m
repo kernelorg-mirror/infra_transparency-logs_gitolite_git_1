@@ -1,70 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============1556070818331137776=="
+Content-Type: multipart/mixed; boundary="===============4739306481133426612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Fri, 03 May 2024 08:37:41 -0000
-Message-Id: <171472546192.30985.13635592232578973790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Fri, 03 May 2024 08:54:40 -0000
+Message-Id: <171472648055.9463.3336142312534585511@gitolite.kernel.org>
 
---===============1556070818331137776==
+--===============4739306481133426612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 27760d1d1fcc21afe3d59024c5214f64a17c7e13
-    new: f599b6538b601e87fd1b776e89d91eb87dcb0010
+  - ref: refs/heads/main
+    old: 8886b6d681f28d838cb30ace8ce73f8b96bc927d
+    new: daf85b78a182e3f5565e710f22e8e199e4219fc0
     log: |
-         1665b303a00c1acb2fe126486c6256c755f0b7c4 arm64: dts: exynos: gs101: specify bus clock for pinctrl (far) alive
-         42e3f188b238b7fb1c42dee8b4dc4107cbb321e2 arm64: dts: exynos: gs101: specify bus clock for pinctrl_peric[01]
-         8120dc4656aedf86c24e1b5776f84fdd9f8ece80 arm64: dts: exynos: gs101: specify bus clock for pinctrl_hsi2
-         4db286b0a29aa3576a401b637ac5910dac22117f arm64: dts: exynos: gs101: specify empty clocks for remaining pinctrl
-         f599b6538b601e87fd1b776e89d91eb87dcb0010 Merge branch 'next/dt64' into for-next
-         
-  - ref: refs/heads/next/dt64
-    old: aaafb21e8190cd2bc8cadf3e0f017bc5c11bb109
-    new: 4db286b0a29aa3576a401b637ac5910dac22117f
-    log: |
-         1665b303a00c1acb2fe126486c6256c755f0b7c4 arm64: dts: exynos: gs101: specify bus clock for pinctrl (far) alive
-         42e3f188b238b7fb1c42dee8b4dc4107cbb321e2 arm64: dts: exynos: gs101: specify bus clock for pinctrl_peric[01]
-         8120dc4656aedf86c24e1b5776f84fdd9f8ece80 arm64: dts: exynos: gs101: specify bus clock for pinctrl_hsi2
-         4db286b0a29aa3576a401b637ac5910dac22117f arm64: dts: exynos: gs101: specify empty clocks for remaining pinctrl
+         b73c138a879fd7f8d75ad90f5b453615171c2acc wifi: iwlwifi: pcie: allocate dummy net_device dynamically
+         9f6d4b8d149af8dc3f9a1e3000168b99ca576390 wifi: cfg80211: Clear mlo_links info when STA disconnects
+         91d2b6ee137dc709c8012d4e02c28a308f6753a2 wifi: cfg80211: handle color change per link
+         414e736c3db032733d20d0ada8200af4159d2940 wifi: mac80211: handle color change per link
+         daf85b78a182e3f5565e710f22e8e199e4219fc0 wifi: mac80211_hwsim: add support for BSS color
          
 
---===============1556070818331137776==
+--===============4739306481133426612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1714725460 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1714725459-cac464fadffcce57f934351168f916741d3852f9
+pusher 7BF9099A 1714726452 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1714726452-ecd2772c22d5fe11ca7b566c183cf988133e445b
 
-27760d1d1fcc21afe3d59024c5214f64a17c7e13 f599b6538b601e87fd1b776e89d91eb87dcb0010 refs/heads/for-next
-aaafb21e8190cd2bc8cadf3e0f017bc5c11bb109 4db286b0a29aa3576a401b637ac5910dac22117f refs/heads/next/dt64
+8886b6d681f28d838cb30ace8ce73f8b96bc927d daf85b78a182e3f5565e710f22e8e199e4219fc0 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmY0olQQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1+zXD/0dju9a3vpYlZT5XrPhXzNy28IXRi1z3A9i
-/t6RkxRmc4d12jSmsa8nlOtv5nZa15gnCsth9Ww0OnXOULrf4L4NNcUJIK4PqgoP
-dOn0l1S7/MsWC4yjeLWtJ2FdlLfR7aXKWHgDj4+Y0dF9RX4clmPL5rnYxZMOPLQu
-jSugeNpIHJLjC7c5RRe1T2FkYQoKue4JPXKUTTD5ERO2CFgNyqeE9AsTF8/qNyj/
-NmE/hmmiNFkif5EEBeukciq6c0zEWNykEQPsQR5MowOMymKTMxIZ8eYT7/pcCXwL
-I8pJJhqozQKjp70CTJLjb/DWChyjpMhuGtqb6nAO7oaVq4R9VGuVeVk6FYCFmx6L
-eQz/rkBf12lKhNE6ixs0QosJ4lE2YbCQuZcr6xjzbPThP1HfJL0KrFe3c+0NfM00
-6XRvMq+jNI9Jx8GgNThvmxcuaaIqrCWhXc2LR1S29I0yFE/Y8NOj18wS6i4cgV5T
-e1jVUtNKfLtqE4R+7uz26uFuHfQ1F5YyPbPcHLe/n2VX20u7CNrlGFjoDuWSYFHm
-evtwrv5dOqS+qkbXgOb8BgzxBep2/ZwwpZWMGomiSrga3V9Rtdrak0zAHSK3UIjA
-A7oUL/ygi0z9+KJsV89dxzRr/DJDWzKpBqWl15jndmMB4IF+8JicU0+VyPnqj3B2
-UvKvkN5Clw==
-=spBa
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmY0pjQACgkQ10qiO8sP
+aABa3hAAm5F3HppXjsGUVR0DZkeh9wrEDLiDOELy132xrvtZyybmUc0wyoPzZRMx
+Ei5Fed2zy83G/vJDrtCG9vJRuMLOYfoPKAAdb4aeeFEojUTnB6d9ugWoUDK3O8D4
+SN9XTrWvrDQhajshGVc+Jp+MW8mZtROXdxDLwrZkF4dhJMFZihNw95cCD+Bf0aE4
+v/eHyVsChKKHDToZT5DUJzs5/BiliREvb7j8YYHDRwP8bQDEYXo0jPCfYKvkEKUb
+cNpLbH3FyFN3lpbTBB2PsEkapr8nXhV8WwXwOkkNTfv9lDocdbs274fTPK++ipv5
+a8Q5bWIQ20XczgE73O9zX1lzoR0nLhrkREdVKehZWY6yyYLQOmBUr+Ri7jXLdFp5
+TKcTLfVAF3all2pJOgvbXPdD/hTnEzMb43z82MSf/8RXAUd4lSfKiI9hYF6LLup3
+PicLaV/0wmD6/xmjS+63B5Nmp/v6Mt/NCF8+pvmJoQvf1GSDsLrzWMoMmdkXzPlE
+hdfZhovzToq+B5vS0SnmCUidfP4H6FbHHyoV/uKQ6Z/tWoK8JoexM6gQUJdCkPMC
+YLDybDlMWRe2SlsL9SgwpRgs0v1bfN4tCrhMlGuljeZWBlpYGS7qdkjjgRoETSYh
+5Afk/VENTf6MzgMn4nSd0eQDcTaOm5O2T1Bz9zK+MmXoHTwfbq0=
+=4h8O
 -----END PGP SIGNATURE-----
 
---===============1556070818331137776==--
+--===============4739306481133426612==--
