@@ -1,59 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4739306481133426612=="
+Content-Type: multipart/mixed; boundary="===============8271229464502657832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Fri, 03 May 2024 08:54:40 -0000
-Message-Id: <171472648055.9463.3336142312534585511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Fri, 03 May 2024 09:15:32 -0000
+Message-Id: <171472773232.26406.8458039059844772828@gitolite.kernel.org>
 
---===============4739306481133426612==
+--===============8271229464502657832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/main
-    old: 8886b6d681f28d838cb30ace8ce73f8b96bc927d
-    new: daf85b78a182e3f5565e710f22e8e199e4219fc0
-    log: |
-         b73c138a879fd7f8d75ad90f5b453615171c2acc wifi: iwlwifi: pcie: allocate dummy net_device dynamically
-         9f6d4b8d149af8dc3f9a1e3000168b99ca576390 wifi: cfg80211: Clear mlo_links info when STA disconnects
-         91d2b6ee137dc709c8012d4e02c28a308f6753a2 wifi: cfg80211: handle color change per link
-         414e736c3db032733d20d0ada8200af4159d2940 wifi: mac80211: handle color change per link
-         daf85b78a182e3f5565e710f22e8e199e4219fc0 wifi: mac80211_hwsim: add support for BSS color
-         
+  - ref: refs/tags/samsung-pinctrl-6.10
+    old: 0000000000000000000000000000000000000000
+    new: d268eb024c9f722daec60d3f86e56d3c8fbdf728
 
---===============4739306481133426612==
+--===============8271229464502657832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1714726452 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1714726452-ecd2772c22d5fe11ca7b566c183cf988133e445b
+pusher krzk@kernel.org 1714727730 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1714727730-0214761950d1bc8fe8ec1446bead029bd8f69f72
 
-8886b6d681f28d838cb30ace8ce73f8b96bc927d daf85b78a182e3f5565e710f22e8e199e4219fc0 refs/heads/main
+0000000000000000000000000000000000000000 d268eb024c9f722daec60d3f86e56d3c8fbdf728 refs/tags/samsung-pinctrl-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmY0pjQACgkQ10qiO8sP
-aABa3hAAm5F3HppXjsGUVR0DZkeh9wrEDLiDOELy132xrvtZyybmUc0wyoPzZRMx
-Ei5Fed2zy83G/vJDrtCG9vJRuMLOYfoPKAAdb4aeeFEojUTnB6d9ugWoUDK3O8D4
-SN9XTrWvrDQhajshGVc+Jp+MW8mZtROXdxDLwrZkF4dhJMFZihNw95cCD+Bf0aE4
-v/eHyVsChKKHDToZT5DUJzs5/BiliREvb7j8YYHDRwP8bQDEYXo0jPCfYKvkEKUb
-cNpLbH3FyFN3lpbTBB2PsEkapr8nXhV8WwXwOkkNTfv9lDocdbs274fTPK++ipv5
-a8Q5bWIQ20XczgE73O9zX1lzoR0nLhrkREdVKehZWY6yyYLQOmBUr+Ri7jXLdFp5
-TKcTLfVAF3all2pJOgvbXPdD/hTnEzMb43z82MSf/8RXAUd4lSfKiI9hYF6LLup3
-PicLaV/0wmD6/xmjS+63B5Nmp/v6Mt/NCF8+pvmJoQvf1GSDsLrzWMoMmdkXzPlE
-hdfZhovzToq+B5vS0SnmCUidfP4H6FbHHyoV/uKQ6Z/tWoK8JoexM6gQUJdCkPMC
-YLDybDlMWRe2SlsL9SgwpRgs0v1bfN4tCrhMlGuljeZWBlpYGS7qdkjjgRoETSYh
-5Afk/VENTf6MzgMn4nSd0eQDcTaOm5O2T1Bz9zK+MmXoHTwfbq0=
-=4h8O
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmY0qzIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19MjEACOc7vEUXZw76TUhc8pxWQO7/gw24MKW/5X
+LUCENhxM8fPsZj7yJSyHMPtr91yDbUFdzk8a6O5qeK/5TqA97EHEXIZRSgSjyvua
+1UdFWSWSF8BTU4jFsCzqE3Q3R38+7dXI/NHMMFN+lV+Gn3LiwcKnWXbjbrDHNRIK
+/UB3hmJs7rXdvY0L6RpMHiSZPvrsLf3kJ6nCUJnQTghw86Lp/BJqwzKKs4FYhiyw
+rRQRLC+WHVG613DjcENrKIDMSNoBTeoeN9sXlk62KPnxIDzvuMKkP9ZzKaETDedQ
+8s9xKo6N+0e3QBpGbNFuflz/0QoHZIUCa/UQGFdYKtDwFS04lOU/VyZCVUwPE7Z6
+KPmhlYToSArMI/O0t9dz8E1AjVJkqnvGZL6EBNU2d08gAUw3QvDuv2shuEu2j1qw
+/pPVKNWcNMWMIjIyAkhlyMgzTJ1saBpK2FPaly2BhOerFwIqQpKG6vf/Eo90Kclc
+2qsDzZ5KOa7bi/yIJhx7s6sviz7k+vF5qso9mIKmCAUjt4U43qkanB0oWQGgLq3+
+nFQKPqomItQh6mWCdVr6pdDsMzl74XS8QYsTbC6sGg3GT9OZsge4InlHFPEEA4Qa
+/zMNz81SY33hZGyV8ANL9RVkf7aLidp3lPVSgu39QgoWKW02aWc+WnD3LB7ROYEN
+hFXOTG10Cg==
+=KiMp
 -----END PGP SIGNATURE-----
 
---===============4739306481133426612==--
+--===============8271229464502657832==--
