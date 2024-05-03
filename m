@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 03 May 2024 18:30:16 -0000
-Message-Id: <171476101658.7869.5900937634031853514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Fri, 03 May 2024 18:32:53 -0000
+Message-Id: <171476117380.8898.1775477166934460762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/resource
+  - ref: refs/tags/iio-for-6.10b-take2
     old: 0000000000000000000000000000000000000000
-    new: 784299512a847701ad7c240bed7d3d7a69459736
+    new: ad7987ebc6aaabb0144d6d89dced55f30f494b7c
