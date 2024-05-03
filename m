@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Fri, 03 May 2024 17:16:47 -0000
-Message-Id: <171475660760.19223.3779396054078565870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 03 May 2024 17:21:39 -0000
+Message-Id: <171475689921.22647.7171389564901469543@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
-user: vudentz
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/tags/for-net-2024-05-03
-    old: 0000000000000000000000000000000000000000
-    new: 63ac4bc703f0509a1b0b5083a2c8308cfeb5023b
+  - ref: refs/heads/master
+    old: cd6b8d9c2ad83a74a0f03b84d725f1d10e235d10
+    new: 8af0c725bfbbe6c9601a39d66f47710d000945b3
+    log: |
+         8af0c725bfbbe6c9601a39d66f47710d000945b3 Fri May  3 01:20:57 PM EDT 2024
+         
