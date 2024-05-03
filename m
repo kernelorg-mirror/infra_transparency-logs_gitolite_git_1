@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8316871071549569825=="
+Content-Type: multipart/mixed; boundary="===============0362879291321614102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 03 May 2024 05:31:01 -0000
-Message-Id: <171471426126.23648.5011074920813872903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 03 May 2024 05:39:49 -0000
+Message-Id: <171471478939.29632.16199655666050425234@gitolite.kernel.org>
 
---===============8316871071549569825==
+--===============0362879291321614102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 00e7d3bea2ce7dac7bee1cf501fb071fd0ea8f6c
-    new: 98241a774db49988f25b7b3657026ce51ccec293
+  - ref: refs/heads/usb-testing
+    old: 080e73c9411b9ebc4c22e8ee8a12a9f109b85819
+    new: b3e40fc85735b787ce65909619fcd173107113c2
     log: |
-         98241a774db49988f25b7b3657026ce51ccec293 slimbus: qcom-ngd-ctrl: Add timeout for wait operation
+         b3e40fc85735b787ce65909619fcd173107113c2 USB: usb_parse_endpoint: ignore reserved bits
          
 
---===============8316871071549569825==
+--===============0362879291321614102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714714260 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1714714259-c8578a7254c0f323aab83c2b2e14b45058bc7dc9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714714788 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1714714787-b8a0b403b67d25155e97c057b63aff153be2e69a
 
-00e7d3bea2ce7dac7bee1cf501fb071fd0ea8f6c 98241a774db49988f25b7b3657026ce51ccec293 refs/heads/char-misc-linus
+080e73c9411b9ebc4c22e8ee8a12a9f109b85819 b3e40fc85735b787ce65909619fcd173107113c2 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY0dpQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uuUP/RsEqquOWwLZK68fL1WX
-yXtbbvjLd+5DmXinv51pGb76OHyNOYpYFfXm8xXNapTkDGCM3FeLZppIs/W0TBM0
-/f5eUGC1cttEwrVHcssqrDAP6OTYEper7JZ/GOmX12K7osNrzJSoHigeiARO3X3I
-Lk7HA78v2uV0whLaGkLvj34CKrZZADciaaC6NOfEiWswA/4W8K4K1iIu/VAjVo2o
-s5s4zH8Hm+rHVDfJX7vROnP9TB7TWpEIvJ1+yvo8g9cr4q4p+X+9KfwUxWd7ERNy
-eLQst7ho2TF3mmen2s6JWnSmf5ZNi1/Z7FHfYEDYIF+B2xLpAuCAYKHNfz5+rEAX
-sjY2e1MHHCJH5QDKjEptkPVL3WvZYMWiFZViYPbWEIoSk2W8Ebk5DGd6t6qcbvzF
-C6pg1yEwimyT4bSwXwPKuoQXuGFXcPUkLYWk+1e8fawFwX9S5VEtaGTDyhM6ImsJ
-EfGGeSFtPLU8w63bszH56jSolQuhmfGR7l2DR88mmavxUmBkTZGMbBBaod1ju5D5
-ZhxLK97BNjoIeHFzDEjtmMM3ASV5GBJn5qYGg3FSG8TvZif+3BXyfnClDxuhx7cU
-8IQqtRrdpPhTtFxWGYu+FN4iWCyNxJkXBTDBCc8xiFGvJqerU3/rdOsLH5QCTRsR
-JU38Oq5H/HDMrZZRVYbiq+67
-=5ME+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY0eKQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Sy8P/2SUzkmvCdwXzLqV3Yx+
+iswsvxp0/f+rJNzOgUSB+d66Vz55cyQTBaYsihFeDqmZ/yDIcV94z+ptZwl+DwsL
+yHGRCccvA7UAQz4BfoSoP8fEBQEeO7nVGQDLN7zSm+1KTGY9wlya9uHxBhp3hcJB
+ozoWoNS3ONo0ftJv7rEuTCszs8NpMzT8Wmoq+/0y3ccO7ZDWle/6dJqyyvSS4gp/
+0SxPu701wNcbnSL3bUW/eP8K8b0c6Fn+OVst8qxpPhrGUaG4CU1n3r41sicTcDtF
+nYro5mt0a9jkF1ZbSpWHvLRmUkPQXBLXG7xnxBYzKeIa92IezJ49VpjpW5ooKOIZ
+FHdtak+WYq0DFtyLlL1Bx5hapo5Rz3M4xHa/dyfBYySQU5jaeFVsVJW0FhzKdZnr
+/DW5qII0ScFleYbyE0/f/3ICuUwKwmWvbK+i6/g3Y0g5bAlETjZ4+ikQ5dXS6CTu
+QRrRxJYc8fq7bhYI6Apu489BeDeVBuVr8p4G+pOL4rGpvNdZoZTGQGjfdieLQT/5
+dMbvooTfnlkRptTsrLiozwedjRvDGDo6X0+kjHvkgdvhy/UvrJADTEcgWSkUloRX
+jUp2yTxYETsVLvgI6UuiZCZ5axallCO74LS2QlhMuze+wT6uoXtMcSpU1xlyzbtW
+AKJ/8lxt+hM5lbysSKAJo7Nb
+=xFS4
 -----END PGP SIGNATURE-----
 
---===============8316871071549569825==--
+--===============0362879291321614102==--
