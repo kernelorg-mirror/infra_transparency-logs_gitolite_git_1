@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Fri, 03 May 2024 15:16:05 -0000
-Message-Id: <171474936546.27990.13379676573387270161@gitolite.kernel.org>
+Date: Fri, 03 May 2024 15:20:04 -0000
+Message-Id: <171474960435.30994.7802627676493974627@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,16 +12,16 @@ repo: pub/scm/network/iproute2/iproute2-next
 user: dsahern
 changes:
   - ref: refs/heads/main
-    old: c34ca740856ffb50a3cb766bf37d9ae7076af4f9
-    new: 57d7a8fd904caae4ec79de237cfc62ddfdc828aa
+    old: 57d7a8fd904caae4ec79de237cfc62ddfdc828aa
+    new: c72323d2ef60c4d8a5738a50bbe3a4eba1cc45b0
     log: |
-         e459ea4392c4b2fdb839c11fa04418c62def40e1 rdma: update uapi header
-         57d7a8fd904caae4ec79de237cfc62ddfdc828aa rdma: Add an option to display driver-specific QPs in the rdma tool
+         0475c997c0efb59206cd170550f8ebd5fc912f1e Update kernel headers
+         c72323d2ef60c4d8a5738a50bbe3a4eba1cc45b0 ip link: hsr: Add support for passing information about INTERLINK device
          
   - ref: refs/heads/master
-    old: c34ca740856ffb50a3cb766bf37d9ae7076af4f9
-    new: 57d7a8fd904caae4ec79de237cfc62ddfdc828aa
+    old: 57d7a8fd904caae4ec79de237cfc62ddfdc828aa
+    new: c72323d2ef60c4d8a5738a50bbe3a4eba1cc45b0
     log: |
-         e459ea4392c4b2fdb839c11fa04418c62def40e1 rdma: update uapi header
-         57d7a8fd904caae4ec79de237cfc62ddfdc828aa rdma: Add an option to display driver-specific QPs in the rdma tool
+         0475c997c0efb59206cd170550f8ebd5fc912f1e Update kernel headers
+         c72323d2ef60c4d8a5738a50bbe3a4eba1cc45b0 ip link: hsr: Add support for passing information about INTERLINK device
          
