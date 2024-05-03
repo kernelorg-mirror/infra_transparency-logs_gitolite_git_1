@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0084362301484588839=="
+Content-Type: multipart/mixed; boundary="===============5827150408103161561=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 03 May 2024 20:52:53 -0000
-Message-Id: <171476957395.14097.12787813483854336961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 03 May 2024 20:53:02 -0000
+Message-Id: <171476958233.14213.8871519172063883358@gitolite.kernel.org>
 
---===============0084362301484588839==
+--===============5827150408103161561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 7b6dd7a923281a7ccb980a0f768d6926721eb3cc
     log: revlist-8c618b58c89c-7b6dd7a92328.txt
 
---===============0084362301484588839==
+--===============5827150408103161561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ aa1551f299ba414c07edb08ebb4f46eb46006345 perf test pmu: Refactor format test and
 6debc5aa326fa2eefe2988aaa4c46a1aa6b16e11 perf test pmu: Test all sysfs PMU event names are the same case
 7b6dd7a923281a7ccb980a0f768d6926721eb3cc perf pmu: Assume sysfs events are always the same case
 
---===============0084362301484588839==--
+--===============5827150408103161561==--
