@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2874878198276679489=="
+Content-Type: multipart/mixed; boundary="===============7543052790569579263=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Fri, 03 May 2024 10:17:04 -0000
-Message-Id: <171473142428.19545.2822645252087084721@gitolite.kernel.org>
+Date: Fri, 03 May 2024 10:17:16 -0000
+Message-Id: <171473143699.19711.2636651298556382394@gitolite.kernel.org>
 
---===============2874878198276679489==
+--===============7543052790569579263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 060ef2b4224904cc2cbf867f141cb17fa2c9d2c0
     new: 201f16b60301b4f3222bedc36ad3c3d4536d27f7
     log: revlist-060ef2b42249-201f16b60301.txt
 
---===============2874878198276679489==
+--===============7543052790569579263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ bd4fdf6636acfa19dbe715ddb712a51644b43a57 kbuild: remove redundant $(wildcard ) f
 cfe1f78ab2b4a24e1dddc497f45f6ef254c0ea54 kbuild: add 'private' to target-specific variables
 201f16b60301b4f3222bedc36ad3c3d4536d27f7 kbuild: simplify generic vdso installation code
 
---===============2874878198276679489==--
+--===============7543052790569579263==--
