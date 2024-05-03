@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Fri, 03 May 2024 14:22:23 -0000
-Message-Id: <171474614322.19978.688467913468363088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Fri, 03 May 2024 14:22:48 -0000
+Message-Id: <171474616885.20172.15609581193930667592@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 2f94a6c1dc423d9d0ad9d486a0082b316f30c66d
-    new: 70db3c9a37a76d9886f0c01cc94047ae054bbb3a
+  - ref: refs/heads/for-next
+    old: 45496741b2c1436e01e3de1e3d1f392bdac75a03
+    new: 649bad67d4b118380bba1e1daa0db2978f7e20be
     log: |
-         70db3c9a37a76d9886f0c01cc94047ae054bbb3a qmi: Don't return false when return signature is int
+         649bad67d4b118380bba1e1daa0db2978f7e20be dt-bindings: PCI: microchip: increase number of items in ranges property
          
