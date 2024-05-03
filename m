@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7080323473538565514=="
+Content-Type: multipart/mixed; boundary="===============4046069494102425093=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 03 May 2024 18:35:34 -0000
-Message-Id: <171476133409.11486.1819466601954592117@gitolite.kernel.org>
+Date: Fri, 03 May 2024 18:44:23 -0000
+Message-Id: <171476186327.17566.10042556338552519473@gitolite.kernel.org>
 
---===============7080323473538565514==
+--===============4046069494102425093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,31 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 856cd5f13de7cebca44db5ff4bc2ca73490dd8d7
-    new: 91647e64f0f5677ace84165dc25dc99579147b8f
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: e67572cd2204894179d89bd7b984072f19313b03
+    new: 18f109e5edc8a9147d6bdfb84771bdf734212267
+    log: |
+         18f109e5edc8a9147d6bdfb84771bdf734212267 i2c: cadence: Avoid fifo clear after start
+         
 
---===============7080323473538565514==
+--===============4046069494102425093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1714761333 +0200
+pusher andi.shyti@kernel.org 1714761862 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1714761332-34b696b29911cc44bf81ba88d2d837e0a3f72e19
+nonce 1714761861-f538117897d76ab616e5442c615090f98b491ba3
 
-856cd5f13de7cebca44db5ff4bc2ca73490dd8d7 91647e64f0f5677ace84165dc25dc99579147b8f refs/heads/i2c/i2c-host-next
+e67572cd2204894179d89bd7b984072f19313b03 18f109e5edc8a9147d6bdfb84771bdf734212267 refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZjUudRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uLhcA/RnMIfNUwfrpu+6vUU8bpTVmaP4g
-Un5rTDz7DAet1gPgAP9rw0IiQ+tZtpAmRoMJGZS8p6pqcI/5E7UMkIwmH9TAAg==
-=kBVG
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZjUwhhYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u+CABAMGYkKFt0vj1osGSwia65tWRMeSK
+SejJCyRN6ukKp0QgAQCKTh1qpsCBqW7Q2tYpwFZ264cOfaCfcH6HR4OVAWF4Dg==
+=tzQ2
 -----END PGP SIGNATURE-----
 
---===============7080323473538565514==--
+--===============4046069494102425093==--
