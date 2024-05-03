@@ -1,77 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Fri, 03 May 2024 19:02:09 -0000
-Message-Id: <171476292950.30551.6524767207739181999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Fri, 03 May 2024 19:06:37 -0000
+Message-Id: <171476319770.1976.5090644052307900979@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/detect-zoned
-    old: 3a2b3d7709ec916ff81da7ce267f9808d22ba5a6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/main
-    old: bede116926593871d9e3fdc9f3b26ee9c0ee347a
-    new: 410a5862848754b44c803a948c85254e2680592b
+  - ref: refs/heads/for-6.10
+    old: b7d56d953a67c839a514e382596d5af29b8d6d87
+    new: 8f6d24a5db2acac3f52a34e6df347ec131d231ab
     log: |
-         aae5cba2b9c03db8c27d06d7372d2c2c65072c90 Add memutils.c for backend and move existing mem helpers there.
-         c5d4b845dfcd0514564c08f19d76c5da3162ed4d Use zero_call_used_regs and noinline for backend memory utils and introduce crypt_backend_memcpy.
-         40e56e969c2a41d565dbe6e1b5622058889cc1f9 Use backend memory utils in safe memory functions.
-         7b3a341809e52338f690cdddf21ecb43847b7c02 Use crypt_backend_memcpy in crypt backend for sensitive data.
-         4322ddbcb3dfac8fd0ee34f9dfff5e2d3817de12 Add crypt_safe_memcpy to libcryptsetup.h.
-         40e5c7d09598c03240865333feab80759082a3e3 Use crypt_safe_memcpy for operations with key.
-         410a5862848754b44c803a948c85254e2680592b Detect unsupported zoned devices for LUKS header device.
+         1da2363228d68da266443e7a85fa91edc2be3dac selftests/cgroup: fix clang build failures for abs() calls
+         0515089418d064000b7f375257c10107d3ad0c7f selftests/cgroup: fix clang warnings: uninitialized fd variable
+         3309ca6f47f11b5d817ce1e5d8b2f1637b93243e selftests/cgroup: cpu_hogger init: use {} instead of {NULL}
+         8f6d24a5db2acac3f52a34e6df347ec131d231ab selftests/cgroup: fix uninitialized variables in test_zswap.c
          
-  - ref: refs/heads/master
-    old: bede116926593871d9e3fdc9f3b26ee9c0ee347a
-    new: 410a5862848754b44c803a948c85254e2680592b
+  - ref: refs/heads/for-next
+    old: b7d56d953a67c839a514e382596d5af29b8d6d87
+    new: 8f6d24a5db2acac3f52a34e6df347ec131d231ab
     log: |
-         aae5cba2b9c03db8c27d06d7372d2c2c65072c90 Add memutils.c for backend and move existing mem helpers there.
-         c5d4b845dfcd0514564c08f19d76c5da3162ed4d Use zero_call_used_regs and noinline for backend memory utils and introduce crypt_backend_memcpy.
-         40e56e969c2a41d565dbe6e1b5622058889cc1f9 Use backend memory utils in safe memory functions.
-         7b3a341809e52338f690cdddf21ecb43847b7c02 Use crypt_backend_memcpy in crypt backend for sensitive data.
-         4322ddbcb3dfac8fd0ee34f9dfff5e2d3817de12 Add crypt_safe_memcpy to libcryptsetup.h.
-         40e5c7d09598c03240865333feab80759082a3e3 Use crypt_safe_memcpy for operations with key.
-         410a5862848754b44c803a948c85254e2680592b Detect unsupported zoned devices for LUKS header device.
-         
-  - ref: refs/heads/memutils
-    old: 40e5c7d09598c03240865333feab80759082a3e3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/merge-requests/605/merge
-    old: bb500634a68913291d13a66cb33b15fead771d30
-    new: 2ac8ec6845db9dd3801e1de6a7243906bf1d6b5d
-    log: |
-         bede116926593871d9e3fdc9f3b26ee9c0ee347a Fix various coverity issues.
-         2ac8ec6845db9dd3801e1de6a7243906bf1d6b5d Merge branch 'keyring-option' into 'main'
-         
-  - ref: refs/merge-requests/638/head
-    old: 3a2b3d7709ec916ff81da7ce267f9808d22ba5a6
-    new: 410a5862848754b44c803a948c85254e2680592b
-    log: |
-         bede116926593871d9e3fdc9f3b26ee9c0ee347a Fix various coverity issues.
-         aae5cba2b9c03db8c27d06d7372d2c2c65072c90 Add memutils.c for backend and move existing mem helpers there.
-         c5d4b845dfcd0514564c08f19d76c5da3162ed4d Use zero_call_used_regs and noinline for backend memory utils and introduce crypt_backend_memcpy.
-         40e56e969c2a41d565dbe6e1b5622058889cc1f9 Use backend memory utils in safe memory functions.
-         7b3a341809e52338f690cdddf21ecb43847b7c02 Use crypt_backend_memcpy in crypt backend for sensitive data.
-         4322ddbcb3dfac8fd0ee34f9dfff5e2d3817de12 Add crypt_safe_memcpy to libcryptsetup.h.
-         40e5c7d09598c03240865333feab80759082a3e3 Use crypt_safe_memcpy for operations with key.
-         410a5862848754b44c803a948c85254e2680592b Detect unsupported zoned devices for LUKS header device.
-         
-  - ref: refs/merge-requests/638/merge
-    old: 4585e3d989132b74005cb4b4ee61eddac81a616c
-    new: 68c00d6d51d117343459f3efbdf5b7de6e66f948
-    log: |
-         bede116926593871d9e3fdc9f3b26ee9c0ee347a Fix various coverity issues.
-         aae5cba2b9c03db8c27d06d7372d2c2c65072c90 Add memutils.c for backend and move existing mem helpers there.
-         c5d4b845dfcd0514564c08f19d76c5da3162ed4d Use zero_call_used_regs and noinline for backend memory utils and introduce crypt_backend_memcpy.
-         40e56e969c2a41d565dbe6e1b5622058889cc1f9 Use backend memory utils in safe memory functions.
-         7b3a341809e52338f690cdddf21ecb43847b7c02 Use crypt_backend_memcpy in crypt backend for sensitive data.
-         4322ddbcb3dfac8fd0ee34f9dfff5e2d3817de12 Add crypt_safe_memcpy to libcryptsetup.h.
-         40e5c7d09598c03240865333feab80759082a3e3 Use crypt_safe_memcpy for operations with key.
-         410a5862848754b44c803a948c85254e2680592b Detect unsupported zoned devices for LUKS header device.
-         68c00d6d51d117343459f3efbdf5b7de6e66f948 Merge branch 'detect-zoned' into 'main'
+         1da2363228d68da266443e7a85fa91edc2be3dac selftests/cgroup: fix clang build failures for abs() calls
+         0515089418d064000b7f375257c10107d3ad0c7f selftests/cgroup: fix clang warnings: uninitialized fd variable
+         3309ca6f47f11b5d817ce1e5d8b2f1637b93243e selftests/cgroup: cpu_hogger init: use {} instead of {NULL}
+         8f6d24a5db2acac3f52a34e6df347ec131d231ab selftests/cgroup: fix uninitialized variables in test_zswap.c
          
