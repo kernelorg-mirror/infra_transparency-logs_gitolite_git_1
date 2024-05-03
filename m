@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 03 May 2024 01:32:49 -0000
-Message-Id: <171469996977.31480.16111084629875085731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 03 May 2024 01:38:08 -0000
+Message-Id: <171470028852.3997.15519468191689630872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-linus
-    old: ff33132605c1a0acea59e4c523cb7c6fabe856b2
-    new: d1ef160b45a0010d1f1b3d601230457243a8f3e8
+  - ref: refs/heads/main
+    old: e958da0ddbe831197a0023251880a4a09d5ba268
+    new: ec6f25bc8aba2539a95be74b2a38f6a9cc13245f
     log: |
-         d1ef160b45a0010d1f1b3d601230457243a8f3e8 regulator: rtq2208: Fix the BUCK ramp_delay range to maximum of 16mVstep/us
-         
-  - ref: refs/heads/for-next
-    old: 3c6488537b456990972edb2aad4a2d3309cb1724
-    new: d3ff4628b912880f5f51afff7dbd3c1b40e1d7e6
-    log: |
-         d1ef160b45a0010d1f1b3d601230457243a8f3e8 regulator: rtq2208: Fix the BUCK ramp_delay range to maximum of 16mVstep/us
-         38bcec0e7cbbd6566c12ae4f2b7a48bd50cd215c regulator: rtq2208: Fix LDO discharge register and add vsel setting
-         d3ff4628b912880f5f51afff7dbd3c1b40e1d7e6 Merge remote-tracking branch 'regulator/for-6.10' into regulator-next
+         3d549c382297f4d7646e327c817107a88d3f931b net/mlx5e: flower: check for unsupported control flags
+         1c8f43f477d92fda15bccd703b808cd46899cd3c IB/hfi1: allocate dummy net_device dynamically
+         e1bb5e65de8355ee76f51c6bfee2328ac5b2be15 selftests: net: py: check process exit code in bkg() and background cmd()
+         ec6f25bc8aba2539a95be74b2a38f6a9cc13245f selftests/net: skip partial checksum packets in csum test
          
