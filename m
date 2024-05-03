@@ -1,31 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Fri, 03 May 2024 19:06:37 -0000
-Message-Id: <171476319770.1976.5090644052307900979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Fri, 03 May 2024 19:25:53 -0000
+Message-Id: <171476435358.16420.9459107569080072127@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/for-6.10
-    old: b7d56d953a67c839a514e382596d5af29b8d6d87
-    new: 8f6d24a5db2acac3f52a34e6df347ec131d231ab
+  - ref: refs/heads/next
+    old: 693fe2f6a9ea17e4241e5114f54c6ae7bc2512d3
+    new: a24bad118abc193cc1cfe9cda60f55645e07d344
     log: |
-         1da2363228d68da266443e7a85fa91edc2be3dac selftests/cgroup: fix clang build failures for abs() calls
-         0515089418d064000b7f375257c10107d3ad0c7f selftests/cgroup: fix clang warnings: uninitialized fd variable
-         3309ca6f47f11b5d817ce1e5d8b2f1637b93243e selftests/cgroup: cpu_hogger init: use {} instead of {NULL}
-         8f6d24a5db2acac3f52a34e6df347ec131d231ab selftests/cgroup: fix uninitialized variables in test_zswap.c
-         
-  - ref: refs/heads/for-next
-    old: b7d56d953a67c839a514e382596d5af29b8d6d87
-    new: 8f6d24a5db2acac3f52a34e6df347ec131d231ab
-    log: |
-         1da2363228d68da266443e7a85fa91edc2be3dac selftests/cgroup: fix clang build failures for abs() calls
-         0515089418d064000b7f375257c10107d3ad0c7f selftests/cgroup: fix clang warnings: uninitialized fd variable
-         3309ca6f47f11b5d817ce1e5d8b2f1637b93243e selftests/cgroup: cpu_hogger init: use {} instead of {NULL}
-         8f6d24a5db2acac3f52a34e6df347ec131d231ab selftests/cgroup: fix uninitialized variables in test_zswap.c
+         ae85d720fa40835ae11436b6bc8d9ef50f96b923 Documentation: kselftest: fix codeblock
+         6625e515b91ebe0f02b976dc2069552a7561d8a8 selftests/binderfs: use the Makefile's rules, not Make's implicit rules
+         a24bad118abc193cc1cfe9cda60f55645e07d344 selftests/resctrl: fix clang build failure: use LOCAL_HDRS
          
