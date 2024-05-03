@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 03 May 2024 06:05:25 -0000
-Message-Id: <171471632516.16481.12603408557386919302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jdelvare/staging
+Date: Fri, 03 May 2024 06:31:13 -0000
+Message-Id: <171471787310.2613.14030407343110196366@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/jdelvare/staging
+user: jdelvare
 changes:
-  - ref: refs/heads/for-next
-    old: cf9bea94f6b2934d409511c05337010b137316a3
-    new: a9e7715ce8b3a62a2133e47e87107632a26ad1e2
+  - ref: refs/heads/dmi-for-next
+    old: 868577e6bfe18fb7afe030c15febe63885b5743b
+    new: 0ef11f604503b1862a21597436283f158114d77e
     log: |
-         a9e7715ce8b3a62a2133e47e87107632a26ad1e2 libbpf: Avoid casts from pointers to enums in bpf_tracing.h
+         0ef11f604503b1862a21597436283f158114d77e firmware: dmi: Stop decoding on broken entry
          
