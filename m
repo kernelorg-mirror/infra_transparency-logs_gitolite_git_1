@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 03 May 2024 21:59:04 -0000
-Message-Id: <171477354459.29093.16107404408664998380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 03 May 2024 22:10:37 -0000
+Message-Id: <171477423749.8044.1356052666287601690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: bd50bdd4058545289e7b724d200896c09fcef737
-    new: 7aa79c9db67df0fe9fa87eeb989080e21bb1bf7f
+  - ref: refs/heads/main
+    old: 5829614a7b3b2cc9820efb2d29a205c00d748fcf
+    new: f3ad4914332fc85ceb1689208da229efff896551
     log: |
-         7aa79c9db67df0fe9fa87eeb989080e21bb1bf7f Fri May  3 05:58:30 PM EDT 2024
+         136c2a9a2a8760d8dae83ae7c882c50be02bdb63 rtnetlink: change rtnl_stats_dump() return value
+         0feb396f7428b95710ea72c1dc33ae363019fae5 rtnetlink: use for_each_netdev_dump() in rtnl_stats_dump()
+         f3ad4914332fc85ceb1689208da229efff896551 Merge branch 'rtnetlink-rtnl_stats_dump-changes'
          
