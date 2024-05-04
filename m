@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Sat, 04 May 2024 12:20:30 -0000
-Message-Id: <171482523048.20109.15017947603874923973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Sat, 04 May 2024 12:48:06 -0000
+Message-Id: <171482688694.6782.157607103762985981@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
 user: vkoul
 changes:
   - ref: refs/heads/next
-    old: 495341664af1d9ab4bb5a71f3ffcb08659cf8fa7
-    new: 960b3f023d3bda0efd6e573a0647227d1115d266
+    old: 700b2e1eccb4490752227d4339c3d2c3d52d06a7
+    new: 28059ddbee0eb92730931a652e16a994499a7858
     log: |
-         484b139a4cd7e629f8fcb43d71997f400c5b8537 dt-bindings: phy: qcom,sc8280xp-qmp-pcie-phy: fix x1e80100-gen3x2 schema
-         59e377a124dc9039d9554d823b1cb4942bcee9a0 dt-bindings: phy: qcom,sc8280xp-qmp-ufs-phy: fix msm899[68] power-domains
-         960b3f023d3bda0efd6e573a0647227d1115d266 dt-bindings: phy: qcom,usb-snps-femto-v2: use correct fallback for sc8180x
+         76e43fa6a456787bad31b8d0daeabda27351a480 dmaengine: idxd: Avoid unnecessary destruction of file_ida
+         11102d0c343ba06ddd303f2503c0ce46d70052f2 dmaengine: fsl-edma: add trace event support
+         3f2282931f00c4c9c5057bb02f46778ba64ff625 dmaengine: fsl-edma: use _Generic to handle difference type
+         28059ddbee0eb92730931a652e16a994499a7858 MAINTAINERS: Update role for IDXD driver
          
