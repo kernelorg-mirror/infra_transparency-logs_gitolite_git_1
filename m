@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3042697381800011320=="
+Content-Type: multipart/mixed; boundary="===============1662087951618590385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 04 May 2024 16:12:32 -0000
-Message-Id: <171483915269.25887.3929843036599076432@gitolite.kernel.org>
+Date: Sat, 04 May 2024 16:14:05 -0000
+Message-Id: <171483924587.26547.14241485312087564108@gitolite.kernel.org>
 
---===============3042697381800011320==
+--===============1662087951618590385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: e3896be240780ccade65cc6cc8925c6f12e7f6c6
-    new: a47cf07f60dcb02d01daa19ecf2d5775d6cd12db
+  - ref: refs/heads/tty-linus
+    old: ed30a4a51bb196781c8058073ea720133a65596f
+    new: 4244f830a56058ee0670d80e7ac9fd7c982eb480
     log: |
-         719910ebc3d7d06ca6c7db6e2b96a42405fbc0f9 dt-bindings: serial: brcm,bcm2835-aux-uart: convert to dtschema
-         a47cf07f60dcb02d01daa19ecf2d5775d6cd12db serial: core: Call device_set_awake_path() for console port
+         47388e807f85948eefc403a8a5fdc5b406a65d5a tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
+         70d7f1427afcf7fa2d21cb5a04c6f3555d5b9357 tty: n_gsm: fix missing receive state reset after mode switch
+         4244f830a56058ee0670d80e7ac9fd7c982eb480 serial: 8520_mtk: Set RTS on shutdown for Rx in-band wakeup
          
 
---===============3042697381800011320==
+--===============1662087951618590385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714839149 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714839243 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1714839149-f7201c16871d5427102c533deb3ac947aaf25778
+nonce 1714839242-41a065b130c4b3cdba6769c97690b2d6d7f7caee
 
-e3896be240780ccade65cc6cc8925c6f12e7f6c6 a47cf07f60dcb02d01daa19ecf2d5775d6cd12db refs/heads/tty-testing
+ed30a4a51bb196781c8058073ea720133a65596f 4244f830a56058ee0670d80e7ac9fd7c982eb480 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY2Xm0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nB0P/RSi7MYOLYPYOZ3oALCL
-g2T3k4a+6oqC04aMJts5njU2n8g89uU9VBz0OvbEtPqIdc2WrDzSV2iG2BbI9Xkh
-vNkIGLCh4OK2QNdrCXfaAdsrFsq0L+/gJydv9EytZrI1HnVaQCA8Y9JU+h6qCN9r
-LOCA6dTpCIcHnuuK0SnOS0gl0aUcJ8HVJ5hMAB1crw9EXBSpx/VDeiAymhuTaw9E
-/474h4cTCxZqpktIpKFPwY8XEapxLR2JPxSHyOtUSdVvPfySPNYTyKPyZrDrxMBm
-srVmXOvX3YmdL0SS3nCJa7MX7FB2YNCoi/gcEKxx99ztG5p8/vJvnNDCYGo0v1C+
-Zkee3snJYZ2sSiqqlOaYhRmSo6asjuJoaMCWilBoIEsAy9MkkRHtJN6JusO9pMZD
-s97tWf5e1xbMlZKvFU4CICO/6C3E4LkP02StqXKR8064L0OzCiw1kh75jbWlvGot
-JKO/fqC9DWBFzguF6oW7RTsctkEmVHFGSPbQeo6i3pPwteX8k+eR1G8uqGBtwgGR
-0nhdsvbRb7VadIP7dg6CP6xwgME9QV6CbxVUiUuXGnGyxXwuQHS8A5cGLFOyPI5v
-rxvOH2uOQ6WW74n74IyR1TMljj5/+zW4TP3A/KL4sVFJWBLIvM2/sfO04t6XBw8s
-51gfVV6J/1Wahle4DWC97Thr
-=bp/M
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY2XssbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bRUQAKyG4RyZVKeQ2otQtC68
+76f/a0Ecu5D+H4jQd8BnSVDrikftuge21mKSMkbnSbRmH22Tzmd6hspV8sEZ9zZz
+HF9tRD4Pj8ztlDMOUiAKGgrC98ql7vqCfE/lR7VEAI5AuAB2XKKv5m6Z8Oky06Gy
+tgQMqeW+dhevG8ie5mSbq0c64cgB5JRxCkXJhX3/gNHba1OkKvGJTMWhH33SJ6fw
+mFcPgILsW1I/cwHKEa5VuoDr/9Xj2I03/ZltF+8+WtumlqCYD0eH+1LcUvvotLhI
+iMxwnbV80gavFNXO+TUOFmhrX6BfnUFWRLjvvkmyfE9QbQWqHkaVhvsMwl0zQDon
+q/0iwDt5bvBeg79wk1dR80sMjU19w5J+/64XzmKDHxFTa/qAZ+jQtaolFqkx4IPi
+C+5GkQfQaaYKEL+u7yIUrFVn+dc6ztiZIBtNMKuua2oagPj5EWBEbbwXoRamOQ0d
+2P81ePxoAYz9rAVHV08UtlnF9U/pmlz0Ft2dscpOacx4nmbhJxcqLFZYjO7Rmspl
+SVbTirdU1r35jh9ayBRLhUXuKeUe+OSqI2xyGXldZIUWdpfDnMabkyRyFNkHAhg0
+by/gqrCgYQgQpmMD+i8mg0Ztn5wDwzD2d0UQHID6uPLqfcTr79G00CTiP+HPd+F2
++ZIyq1Bz3ELKunDgUdlPLjbm
+=9216
 -----END PGP SIGNATURE-----
 
---===============3042697381800011320==--
+--===============1662087951618590385==--
