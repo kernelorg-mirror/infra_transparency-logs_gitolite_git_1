@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3969627782907227934=="
+Content-Type: multipart/mixed; boundary="===============8572874130043819380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 04 May 2024 16:25:13 -0000
-Message-Id: <171483991374.3049.18106870797777584770@gitolite.kernel.org>
+Date: Sat, 04 May 2024 16:26:48 -0000
+Message-Id: <171484000873.3671.5972698997764486732@gitolite.kernel.org>
 
---===============3969627782907227934==
+--===============8572874130043819380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: b3e40fc85735b787ce65909619fcd173107113c2
-    new: 0ed26488384baaf8f9029ccdf65be6369314a79f
+    old: 0ed26488384baaf8f9029ccdf65be6369314a79f
+    new: a2cf936ebef291ef7395172b9e2f624779fb6dc0
     log: |
-         8bbe44ce6543830c520a6424d388ed70e1baae95 MAINTAINERS: Remove {ehci,uhci}-platform.c from ARM/VT8500 entry
-         562be61b35d911a8b45acc3dcf8642876dbb66dd usb: core: Remove the useless struct usb_devmap which is just a bitmap
-         c5b324b1a7628c393f99058d2464592791617cc9 dt-bindings: usb: dwc3: Add QDU1000 compatible
-         0ed26488384baaf8f9029ccdf65be6369314a79f usb: gadget: u_audio: Fix race condition use of controls after free during gadget unbind.
+         1b739388aa3f8dfb63a9fca777e6dfa6912d0464 usb: gadget: u_audio: Fix race condition use of controls after free during gadget unbind.
+         a2cf936ebef291ef7395172b9e2f624779fb6dc0 usb: gadget: u_audio: Clear uac pointer when freed.
          
 
---===============3969627782907227934==
+--===============8572874130043819380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714839909 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714840006 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1714839909-705b4ba3e21b2bc8a8aaaee31d312b83fc06fe20
+nonce 1714840005-5575c654167f3dec9a8209b012bc47356206d3e7
 
-b3e40fc85735b787ce65909619fcd173107113c2 0ed26488384baaf8f9029ccdf65be6369314a79f refs/heads/usb-testing
+0ed26488384baaf8f9029ccdf65be6369314a79f a2cf936ebef291ef7395172b9e2f624779fb6dc0 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY2YWUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6hYP/iwVI9wBMrNZtle8BhYm
-IrDBPmFmEfe1IaaMdXjK7Ap5ZKj7/07E+D8w53BsuOEHuiEgauADZeMUwW+YaTpB
-eZEow8Xb3mkzOG9RcOmoOysoDuvrNOjJ6tErs7530UbSbmHB4nJ1TM5p/hQSRCAe
-R43d8KIt3EX2DEQYD2+jIg0Jg/+csKY/r8YHp0f3MXRMu0FPytW6Ag4m9npmpwUH
-k8UlE5dcwh5E9VWpVHRg6Idm5SkPWTma8JjKJaOZipsOr0btkSLiS1NmE8XguYjt
-CFM95BIHE6xrOzWPJqfa3p/sEAsh/5IjsCnnG5Lgk2+WejKQheFmF71/qQ/ZS2si
-lzGxD4XgImo1JcagYUIU+R40Fohc0lZy+ewKEcd6+YMxyh8/po8hnZu0dvUqs5Kw
-71pae1obiRC3Coe0Q32u4hVQ4dRTwmTA9QrynYqZi9TowL07Cp+1NOQwjzJrW0H6
-aH3ufJOnVPuYpsrRQBJsDaXjS4JopsK7cTrqFI1urxjP6mMVV/W1oMq8LQ/2/cjH
-+ZHVBgn4BEdf9WKE8Qw01doyv4a8QLLcdZOmMcv73qV2wIsA3krW56tUSGlER/5z
-NRP4XKmNo1P/116sFdfAXoVGQqarPKeeoE1Oqowim0A+jamCjyE56ZTrj5jQLGHg
-0fNqXoL/l9D1JXnu6ti21+c1
-=KsVz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY2YcYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T54QAMWle+GAa7Gko1cfDw8r
+IqcVebdRVb7WKg3vJXNZm0Boq79l53d9iVPyUFioOHDXtdTb98730vdtpKuIkV/1
+OnS3nfxCNYdMoN5skuClB+pmMbZDlkWddOufYEkLU9BPON63idPwq4dsQPcLdJpF
+AI5jbZiyhK3HGWOrUKeMQlLAS7jKFBZVcAA+E0plLH9mz2BSvKry3CNeAg0SfRUn
+87+PIxYoKjQF0UrJpxlxSPXBYl0aeTpubN47MEmEFf8lLPRgGNeXEiNHZuEbiMCc
+Lt+gStM2P2sfrO60zdCwnnkplZW0CleOPKUoddGWN94EobEycIrW6HGq7TWy+RuY
+DYGjsxz/bBulnZB2FGPlmcq8w3+mXZUuLYxBw8ipzp2CvpmW0K+xSJdP/rr8QBRx
+PfmMV/QVKED9axEcHw8TORLy35z434st8brnY+fpmgGiSJ60cB7d7q2n+Ywovdg7
+kYYXQoQWoriiSgEk9/edP8Qoyt/oNd6elgjFCXRRLnhAi2zJHsBDX4eZ+vID0TID
+49DyjtgU20Gm4Vz0hsL2rc4yGFwShicq2TZ6M/3ROuG092UztKOMY/c8HEdon1nQ
+OTCVtfgU6RJXbtUbT3wrcdXwrzseTmXNcE/imC01Zh2CTWlQdlVjdH9/D7qMsMyn
++szIAvhzHGsOeAI9kVD5vBGq
+=SZ0J
 -----END PGP SIGNATURE-----
 
---===============3969627782907227934==--
+--===============8572874130043819380==--
