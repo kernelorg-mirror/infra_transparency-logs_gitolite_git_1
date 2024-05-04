@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 04 May 2024 15:01:06 -0000
-Message-Id: <171483486667.6241.16871221546475532080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 04 May 2024 15:20:39 -0000
+Message-Id: <171483603946.21177.4955040852260968452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: 201f16b60301b4f3222bedc36ad3c3d4536d27f7
-    new: 1af0ac1bcdb02a13cdb7d213cdd05cf3c000d55c
+  - ref: refs/heads/nfsd-next
+    old: e308c853b2a4e63ce882a6c38a98c5640a6f5479
+    new: 7d3d6536ca8a34a7966a09d1915a8497dfea281a
     log: |
-         1af0ac1bcdb02a13cdb7d213cdd05cf3c000d55c kbuild: buildtar: install riscv compressed images as vmlinuz
+         7d3d6536ca8a34a7966a09d1915a8497dfea281a nfsd: set security label during create operations
          
