@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 04 May 2024 18:40:23 -0000
-Message-Id: <171484802399.4287.7401131357178348275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sat, 04 May 2024 18:56:39 -0000
+Message-Id: <171484899987.15107.358881146565875239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 7b6dd7a923281a7ccb980a0f768d6926721eb3cc
-    new: 77a70f80751da3a673232e7bff3f71d8c3995eff
+  - ref: refs/heads/next
+    old: 6bc94f049630aaa1231e0c65c21b2cbf9cf6a973
+    new: 578a013e89701cbb92a97f37b38a524acd8f6424
     log: |
-         8f283fb7b8092a5cf56e87e4e1918be26f126598 perf trace: Disable syscall augmentation with record
-         45c072f2537ab07b38553e4d8f9e9fcf9be5fbd1 perf vendor events amd: Add Zen 5 core events
-         dc082ae61858dc262fd3a482846fb0fe4b947f33 perf vendor events amd: Add Zen 5 uncore events
-         a9fe4ac7a3a25f0242406db7aa237850692fb29c perf vendor events amd: Add Zen 5 metrics
-         77a70f80751da3a673232e7bff3f71d8c3995eff perf vendor events amd: Add Zen 5 mapping
+         253413d034bc04dcd80736035f6b7ee26e78f292 damo_record: Do profile by default
+         4593722aa90f8cd5eefadc7163fa10086b20aba2 damo_record: Do memory footprint recording by default
+         834d3dac52401ecf08ed998dfc69998ae597f429 TODO: Update for completed items
+         82be6e34a2db6bdd46e1380677ffe87f439e52ab README: Wordsmith undocumented features FAQ
+         7c9a514835a15b515f16e3764520fd4eb0b8cf14 README: Split out features deprecation schedule to a file
+         578a013e89701cbb92a97f37b38a524acd8f6424 Deduplicate community reporting process
          
