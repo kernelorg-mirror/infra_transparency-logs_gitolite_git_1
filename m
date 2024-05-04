@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 04 May 2024 21:01:36 -0000
-Message-Id: <171485649614.8526.6035010862982936760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/liba2i/liba2i
+Date: Sat, 04 May 2024 21:36:51 -0000
+Message-Id: <171485861111.1392.11285974288981557882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/libs/liba2i/liba2i
+user: alx
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 7b6dd7a923281a7ccb980a0f768d6926721eb3cc
-    new: 77a70f80751da3a673232e7bff3f71d8c3995eff
+  - ref: refs/heads/main
+    old: 9f8e659cd1d3fa9b3bcd832c796a44c11a1af204
+    new: 17153d8c8e4f587d6e1b485572b7e1c447e26d58
     log: |
-         8f283fb7b8092a5cf56e87e4e1918be26f126598 perf trace: Disable syscall augmentation with record
-         45c072f2537ab07b38553e4d8f9e9fcf9be5fbd1 perf vendor events amd: Add Zen 5 core events
-         dc082ae61858dc262fd3a482846fb0fe4b947f33 perf vendor events amd: Add Zen 5 uncore events
-         a9fe4ac7a3a25f0242406db7aa237850692fb29c perf vendor events amd: Add Zen 5 metrics
-         77a70f80751da3a673232e7bff3f71d8c3995eff perf vendor events amd: Add Zen 5 mapping
+         b97941c59906015df4fdcd34696222372d8548bb share/mk/: Remove support for installing compressed pages
+         a7f451c60383c6683f274b8a99965a88159e80f4 share/mk/: Read files before 'if'
+         25e7c72c4bfbfdd88479e6ae5a7e374bfbe3365d share/mk/: install-man: Don't pipe to install(1)
+         79edf36427b990c9b20cc1aa3658f6e6e3c8c60a share/mk/: $TROFFFLAGS: Use a larger font size
+         4532fd31744d275a1588511fd2f3bb23f6c64130 share/mk/: $CPPCHECKFLAGS: Add --check-level=exhaustive
+         9b4c86a10875d2bf1d5edc9f9349bf002106de9d etc/cppcheck/cppcheck.suppress: Add unusedStructMember
+         93089c10bd3e1b6fbfaeeddf86a97337c96d5f0f share/tests/: Add missing includes
+         17153d8c8e4f587d6e1b485572b7e1c447e26d58 share/tests/a2i.h/: Add missing includes
          
