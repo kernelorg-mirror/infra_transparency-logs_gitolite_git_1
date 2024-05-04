@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3223865657653436306=="
+Content-Type: multipart/mixed; boundary="===============7837988572926474436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 04 May 2024 07:15:53 -0000
-Message-Id: <171480695364.13222.17998034873269441173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 04 May 2024 07:44:07 -0000
+Message-Id: <171480864735.32479.12857916893558124625@gitolite.kernel.org>
 
---===============3223865657653436306==
+--===============7837988572926474436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: e1445fb0afc8cc42cc29b0d285c9fe78c536fc38
-    new: 7de3d344c432d4afe07d5d404647e4c2a7932964
-    log: revlist-e1445fb0afc8-7de3d344c432.txt
+  - ref: refs/heads/usb-next
+    old: 080e73c9411b9ebc4c22e8ee8a12a9f109b85819
+    new: b3e40fc85735b787ce65909619fcd173107113c2
+    log: |
+         b3e40fc85735b787ce65909619fcd173107113c2 USB: usb_parse_endpoint: ignore reserved bits
+         
 
---===============3223865657653436306==
+--===============7837988572926474436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1445fb0afc8-7de3d344c432.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-672b1d0a7c18b344a92841a094dca5527ff079cd Merge branch into tip/master: 'x86/merge'
-80f19fec9088f254eaa47d054a1c55261334b826 Merge branch into tip/master: 'irq/urgent'
-b881791900dbc3b814e969e74cc4559d871b7933 Merge branch into tip/master: 'x86/urgent'
-ba280b1078ea5b18f9d238392fa9e0f0e70dd3be Merge branch into tip/master: 'irq/core'
-dc90413f755c7adcf90fb418f1134fd521beaa30 Merge branch into tip/master: 'locking/core'
-b4b9f3e2ada7d6917065010a33bb57be30948b54 Merge branch into tip/master: 'perf/core'
-ef9250bd4eb94901d316b58baf89c489929b5a13 Merge branch into tip/master: 'ras/core'
-fb40a270052f96dee169429009b3ac47a3c73606 Merge branch into tip/master: 'sched/core'
-492f886ea7a7a744b6679b7f224d42ef08993f6e Merge branch into tip/master: 'timers/core'
-3a15eea1817850e253264248d2d9d78dddf9042f Merge branch into tip/master: 'x86/alternatives'
-b99eead393c144cd299a6f0e847158ed48d13ca0 Merge branch into tip/master: 'x86/apic'
-dec609575ec638927ee43591d1aaf0f886a5e3ce Merge branch into tip/master: 'x86/asm'
-b42e5d14ae6d586684b8654f32d7964effadfc1a Merge branch into tip/master: 'x86/boot'
-194d0d9c0d65d0cde8f3352d6c62a2ed2190598c Merge branch into tip/master: 'x86/bugs'
-bd48fda5ba71849b8269ecb12ce642349aea2792 Merge branch into tip/master: 'x86/build'
-583210c4470348f2a0c39da0882c3d84348d20a6 Merge branch into tip/master: 'x86/cache'
-bccbce58cd3c5493ae5c8a82fd21f67203d29fc8 Merge branch into tip/master: 'x86/entry'
-15f0f2ac3f2573375ff92dc38b5d979c66b23413 Merge branch into tip/master: 'x86/fpu'
-bd8de78d3be5b02e9396e1d04a3f17ffe2cc66b0 Merge branch into tip/master: 'x86/irq'
-d7aa89bf49bde4bb9e763ef6d8d566793bc26932 Merge branch into tip/master: 'x86/microcode'
-d745d5cb40d9fd00696924c1efa18fd7daa11288 Merge branch into tip/master: 'x86/misc'
-2cce6dc5c23b254f2d3f59ce24f3342c4bfbfc7f Merge branch into tip/master: 'x86/mm'
-0ffc2f9991bdc5cc4725c5766397944c4e780481 Merge branch into tip/master: 'x86/percpu'
-bfb8201a2e53eafd79d8ff935834876acf314c80 Merge branch into tip/master: 'x86/platform'
-9b71cf73777762cea1d4051a4d4a4afaf73ac38b Merge branch into tip/master: 'x86/sev'
-7940d749a25ad9f372e97b269d2cbe68f46da063 Merge branch into tip/master: 'x86/shstk'
-7de3d344c432d4afe07d5d404647e4c2a7932964 Merge branch into tip/master: 'x86/timers'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714808646 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1714808646-f0d2fec001f21b53b5d156cb989ccd2624e36a2f
 
---===============3223865657653436306==--
+080e73c9411b9ebc4c22e8ee8a12a9f109b85819 b3e40fc85735b787ce65909619fcd173107113c2 refs/heads/usb-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY150YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ChAQALQ+LpJrEmJubfvdEBUz
+hnvJmnYCp6cNIw/hrwXQ8pN/UeDgJ1QoGwRvvWUR5xKS/lY4g7hsK6PJDbkqAMIq
+kc9bmM54kl9IhA6BK2BHCIS3jxjTVvNXI/x4Keaultc7K0majajkmOejnA2BAPQo
+FMP7wwiS52grVgqRkV/X0n2xYytHcbsSPNhXkZQ1zarg9Xn4xCwyY7a3rUCfzByC
+xlAt0fBJEVE7cmtRGyS1X0VuUSdSKpOwBKSicpSiovAk1XoB69+tk/TpeJ5ZQ6d6
+NB6jfyg01xJFScaEI4/8979CarGJXNqaxEd/wW3J34UUZ9KkHb0PPafVflQGcH5q
+bRpQPqozsot5YOA/Vveq/a6Njf7gb4HUjKU6KMNmlVUx1OD4OeavTIuv1Z1cNZLf
+WgLyt18XzTUGv9SOE7okvvB4Rd36ZEJzSMxiIg3EK+RNJKhaKXtH/jmZQjJ3B2Ax
+xzbCLhJ3Nk0EGYhgEHMM5igNAXRad5D+hh9Er+qp/k0kITepu2suwdzzbHstgDcN
++S3nUdJCI/dBFTjxcdKIerfbwyRw7e8SoycP98TjyrjraowDR4amrYJpy09AniNC
+dnvGWgs96Fm7AVvbUBBZE9zjlyIrmuuFF8SdCz9NV2kFIisrmqqpB0pP9DtqOUwl
+PnhSgXqCh62rvKsCf1Un+R2d
+=5EWp
+-----END PGP SIGNATURE-----
+
+--===============7837988572926474436==--
