@@ -1,62 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6000445814912595475=="
+Content-Type: multipart/mixed; boundary="===============1133802209273060443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 04 May 2024 17:01:22 -0000
-Message-Id: <171484208218.29077.13663434222666181775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 04 May 2024 17:03:35 -0000
+Message-Id: <171484221528.29935.14993361785424707192@gitolite.kernel.org>
 
---===============6000445814912595475==
-Content-Type: text/plain; charset="us-ascii"
+--===============1133802209273060443==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 8bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: f866b65322bfbc8fcca13c25f49e1a5c5a93ae4d
-    new: 5015f8a5ced7039de354c1103b0912f5a64fab03
+  - ref: refs/heads/driver-core-testing
+    old: 9bb8e30611a4c9a28cb96ea64d1694202ac67da8
+    new: 99171c982c18dabbe3844de90307a3d3384e237e
     log: |
-         fbf740aeb86a4fe82ad158d26d711f2f3be79b3e ppdev: Add an error check in register_device
-         5c9c5d7f26acc2c669c1dcf57d1bb43ee99220ce greybus: Fix use-after-free bug in gb_interface_release due to race condition.
-         203b283cc1f478f5ea87de53a9fd2da3052f1c9a virt: acrn: Fix typos
-         42316941335644a98335f209daafa4c122f28983 binder: fix max_thread type inconsistency
-         bd86030943bf57ca230b486090067b58da49b837 tifm: constify the struct tifm_bus_type usage
-         82fecafeadd4428ddac0afddf27cd28d6019b35f misc: rtsx: do clear express reg every SD_INT
-         5015f8a5ced7039de354c1103b0912f5a64fab03 scripts/spdxcheck: Add count of missing files to stats output
+         75cde4e37a14bdb8554c44cbc22354fc10fdf127 kernfs: mount: Remove unnecessary ‘NULL’ values from knparent
+         5de8277d7f49b42756e8f5edfe72c933dd745301 firmware_loader: Replace simple_strtol() with kstrtoint()
+         99171c982c18dabbe3844de90307a3d3384e237e device property: Fix a typo in the description of device_get_child_node_count()
          
 
---===============6000445814912595475==
+--===============1133802209273060443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714842078 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1714842078-3d026a50431d25d67f82383da5816fd899c69f1d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714842212 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1714842211-86a30bf6e067f2c3777fc91c15c64188baa4c061
 
-f866b65322bfbc8fcca13c25f49e1a5c5a93ae4d 5015f8a5ced7039de354c1103b0912f5a64fab03 refs/heads/char-misc-testing
+9bb8e30611a4c9a28cb96ea64d1694202ac67da8 99171c982c18dabbe3844de90307a3d3384e237e refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY2ad8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+274QAIynSlXYCYOStlm+z06t
-FYehZCCM5WFlO+yUQ3DcemXqNRyJfQWTTD/krLoy+hwdndCyzlZfX/qCVqYN9CbF
-kznzZ+FtWOB82bcCgKyU7UA0yvxL7abOd61k7yE5KEVXW3Z23K5PviWsi9iejqgv
-OMcyBPMOliUqujOnH0mO+LoP6ipMikjMJv3Xw+N4rwEaq2XpFmukrN52rNO6v0vu
-NhD9MYATWZWo+1v5WXnDcCz0UimwhHxqjuAPc3tOGMziZyxV+GVE/HOXE/RKznKy
-e6e78z+Albw97gBIM09CR59FmAOPWJaiMjRQx+4Pnp5hf6LoPv2Xr9B2bu+XkLcn
-AyevuXnrkW16RfN2HJDgY3yntLzG9ms0KwFSe8pIx0hhVEe3bNU9swmikw9vqoPT
-iSmgMyOW13HslQBhZY/GsxMtB6WX2hgr9pz0p+/1Oe97Seb6TXvUVl4cGiowU/95
-cQnaHyvdHLv7C+GK3RbtSw4nM8jF/hWlyjmR3wymFlkpug4KsiR6tprroeYm42cQ
-Y6Rwlcm9uX28HzpCVL9hjJ8NMrPd6MTYbdw92he0RD/sNxqOEdhpTLLak5DiHfnY
-kWo11COKQYqpEjGv0JCIY0f9jrCVnrXbzMJVwF7RWZAIfBZwNlcSHOMOGZxd51jT
-TxOUcM5PN+cpCe7kUEcNrxWi
-=dmzF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY2amQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CEwP/2Xc/9fLxz/qNBQ1yI/2
+MDCarAflq9TPIka9c6kzeo8sLCxNyJIiijKWM/rRMA7Sv5bTpULGwWS/N9yo4X3u
+j9eqaBDc+FVzs8OXZ3knVHK8Jmv52J0ZxyZKbCmZCqVwVsB15cj3U2PBi4oUPzWh
+7H420iyUbc1VZwXR6q36muXn743hx/2BrsDFw/Fb7okFBY8kcKOwuCmjbD13UBtG
+DWlk/sQlkINOyBdlkACc2ZbGIxlAAUTRa0tlQ4WeUHWp71hMhwVXbHaXv/FMM4pX
+rFcuysvng8ejUrSQQWm3++kS1wecP3xxUHdMYKNliAi+OTth8Pe9m3er5NSDoQ3Z
+8UG3mg6lc7lVmK6zYFxmvta9aq6tm61cwPSq6HVUIOQFOcG0nxxqLXsmhXo1fDpf
+QqdHg0iN5IrRm7yxzip39WuvuYZUuFEp59RnGi7e+roBOMlVt/WUAGyQNpdL22eX
+6uShQlEFPdGb2Benc74497J3xqbvkUuB6RRJkKHFxewslGetX6WWZ8IxjGwuIXop
+JLDHFeORYvZkS09u+6KKzPA/GXPOrKxwBZNCjQF/2Rhj9pN+A+WZlWAY35Y5B9U7
+e3a1hw4gutXX4JP5PEcIZTQfeD/hUCGjaIZiKlxiUQYvZGb6vXIVE81M9+WspeqF
+bUg4W+8Qj9qXnV6iG6beLO4b
+=1qii
 -----END PGP SIGNATURE-----
 
---===============6000445814912595475==--
+--===============1133802209273060443==--
