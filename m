@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Sat, 04 May 2024 10:50:39 -0000
-Message-Id: <171481983913.19264.7954951611428230472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 04 May 2024 11:29:06 -0000
+Message-Id: <171482214611.13057.10029451331478168411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next
-    old: d6400579d1d9116ce409854e463acef08096907a
-    new: 160b088184ec81028ff67a5032be33f1baea4b67
+  - ref: refs/heads/fixes-togreg
+    old: 4108a30f1097eead0f6bd5d885e6bf093b4d460f
+    new: 408d5d448ffdbc93043ba142a92b4f96ab8e69af
     log: |
-         947b8f2a8b5155f6e9560af07ed65b3cc9aecd75 clk: rockchip: Remove an unused field in struct rockchip_mmc_clock
-         f513991b69885025995dcb4ca75d2ee7261e1273 clk: rockchip: rk3568: Add PLL rate for 724 MHz
-         160b088184ec81028ff67a5032be33f1baea4b67 Merge branch 'v6.10-clk/next' into for-next
-         
-  - ref: refs/heads/v6.10-clk/next
-    old: 7af67019cd78d028ef377df689ac103d51905518
-    new: f513991b69885025995dcb4ca75d2ee7261e1273
-    log: |
-         947b8f2a8b5155f6e9560af07ed65b3cc9aecd75 clk: rockchip: Remove an unused field in struct rockchip_mmc_clock
-         f513991b69885025995dcb4ca75d2ee7261e1273 clk: rockchip: rk3568: Add PLL rate for 724 MHz
+         408d5d448ffdbc93043ba142a92b4f96ab8e69af iio: adc: ad9467: fix scan type sign
          
