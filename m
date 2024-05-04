@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0665866313516019051=="
+Content-Type: multipart/mixed; boundary="===============4144268660446524288=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Sat, 04 May 2024 14:19:54 -0000
-Message-Id: <171483239421.7747.5067936764373027394@gitolite.kernel.org>
+Date: Sat, 04 May 2024 14:20:09 -0000
+Message-Id: <171483240955.9518.15506536928553952084@gitolite.kernel.org>
 
---===============0665866313516019051==
+--===============4144268660446524288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-6.10-merge
     old: 21255afdd7296f57dd65f815301426bcf911c82d
     new: 25576c5420e61dea4c2b52942460f2221b8e46e8
     log: revlist-21255afdd729-25576c5420e6.txt
 
---===============0665866313516019051==
+--===============4144268660446524288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ cc3c92e7e79eb5f7f3ec4d5790ade384b7d294f7 xfs: xfs_quota_unreserve_blkres can't f
 86de848403abda05bf9c16dcdb6bef65a8d88c41 xfs: remove a racy if_bytes check in xfs_reflink_end_cow_extent
 25576c5420e61dea4c2b52942460f2221b8e46e8 xfs: simplify iext overflow checking and upgrade
 
---===============0665866313516019051==--
+--===============4144268660446524288==--
