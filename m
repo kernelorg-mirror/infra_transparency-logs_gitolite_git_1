@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sat, 04 May 2024 19:08:37 -0000
-Message-Id: <171484971779.24338.5787009607477713927@gitolite.kernel.org>
+Date: Sat, 04 May 2024 19:18:14 -0000
+Message-Id: <171485029462.31352.5507212238827680384@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/sj/damo
 user: sj
 changes:
   - ref: refs/heads/next
-    old: 578a013e89701cbb92a97f37b38a524acd8f6424
-    new: ce9d11104874384caf856cade46d01738ba31d98
+    old: ce9d11104874384caf856cade46d01738ba31d98
+    new: 3f81ae92e3f9bbff437d09bede73c75527dfe99b
     log: |
-         a230337706d20ada06f948319514f5d1ca0db595 release_note: Update for next release
-         ce9d11104874384caf856cade46d01738ba31d98 USAGE: Document 'base_time_absolute' field of 'damo report raw' output
+         3f81ae92e3f9bbff437d09bede73c75527dfe99b Move source files under 'src/' directory
          
