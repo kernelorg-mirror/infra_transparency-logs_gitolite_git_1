@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sat, 04 May 2024 19:26:32 -0000
-Message-Id: <171485079205.5316.16504339095833897712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 04 May 2024 21:01:28 -0000
+Message-Id: <171485648801.8393.595189892584310082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/next
-    old: 3f81ae92e3f9bbff437d09bede73c75527dfe99b
-    new: d0c4c3f3940d781c248ff34f2470f7603a054146
+  - ref: refs/heads/perf-tools-next
+    old: 7b6dd7a923281a7ccb980a0f768d6926721eb3cc
+    new: 77a70f80751da3a673232e7bff3f71d8c3995eff
     log: |
-         d0c4c3f3940d781c248ff34f2470f7603a054146 FEATURES_DEPRECATION_SCHEDULE: Document --damon_interface deprecation
+         8f283fb7b8092a5cf56e87e4e1918be26f126598 perf trace: Disable syscall augmentation with record
+         45c072f2537ab07b38553e4d8f9e9fcf9be5fbd1 perf vendor events amd: Add Zen 5 core events
+         dc082ae61858dc262fd3a482846fb0fe4b947f33 perf vendor events amd: Add Zen 5 uncore events
+         a9fe4ac7a3a25f0242406db7aa237850692fb29c perf vendor events amd: Add Zen 5 metrics
+         77a70f80751da3a673232e7bff3f71d8c3995eff perf vendor events amd: Add Zen 5 mapping
          
