@@ -1,50 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============4100047467848156726=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sun, 05 May 2024 15:02:31 -0000
-Message-Id: <171492135140.4694.10310284160906202251@gitolite.kernel.org>
-
---===============4100047467848156726==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Sun, 05 May 2024 15:02:45 -0000
+Message-Id: <171492136552.4877.14239327674733212942@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.9
-    old: 4756fa529b2f12b7cb8f21fe229b0f6f47190829
-    new: 52b62e7a5d4fb53ae3db3c83aee73683e5f3d2d2
+  - ref: refs/heads/for-linus
+    old: c5782bb5468acf86d8ca8e161267e8d055fb4161
+    new: 09068d624c490c0e89f33f963c402f1859964467
     log: |
-         52b62e7a5d4fb53ae3db3c83aee73683e5f3d2d2 spi: stm32: enable controller before asserting CS
+         09068d624c490c0e89f33f963c402f1859964467 ASoC: amd: acp: fix for acp platform device creation failure
          
-
---===============4100047467848156726==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1714921350 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1714921348-c9a3e32abe09a08dd28f14f7aabc167cf1390e56
-
-4756fa529b2f12b7cb8f21fe229b0f6f47190829 52b62e7a5d4fb53ae3db3c83aee73683e5f3d2d2 refs/heads/spi-6.9
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmY3n4YTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0PomB/96j1oXKE3DPHBU/4FUHYW0znGMUTaw
-7ZaaZ5zZBF+oRSyPg7/+8MOKaRjiivFWeOVg3ZL55e79d7IOGHbcU2pmYs5rcq7S
-bT1/vwILYpWL6Cee2encABXTrgGnQDrqB6Z0NkXCwSkl2P/h7+Jg74vyjn+DemWb
-eiXhRmbttHQ0xrvheNRfttO8oqYB1CIYnNTZp87EtDu6IQjz37pnBnTmuEtW2IvP
-qIfD7xyzbuXj6hE3DJZPFApT7UgokPb1mPVT0SHifhsTwHXoW3WfEsSPpHewrQCE
-75C5KoUmLguy7yQOdooq+eHomLjdEBOUmiekWZDRZ6A1hBJhva4PHERj
-=D6Dp
------END PGP SIGNATURE-----
-
---===============4100047467848156726==--
+  - ref: refs/heads/for-next
+    old: ea1aac8c37ae677b99d895d1e86e1c1ebfeb3c9e
+    new: 3785e220fd4230792d85c4bc44aad99172412ed0
+    log: |
+         9723cab054d59d770cd1927f92fe315c26cc6a78 ASoC: Use inline function for type safety in snd_soc_substream_to_rtd()
+         09068d624c490c0e89f33f963c402f1859964467 ASoC: amd: acp: fix for acp platform device creation failure
+         ba2a2c378ada0cd641a1887151ea8af532617c69 ASoC: codecs: Drop explicit initialization of struct i2c_device_id::driver_data to 0
+         3785e220fd4230792d85c4bc44aad99172412ed0 Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
+         
