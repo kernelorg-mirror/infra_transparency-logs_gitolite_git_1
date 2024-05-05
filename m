@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 05 May 2024 15:54:48 -0000
-Message-Id: <171492448855.10177.13367694593026715193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kpsingh/linux
+Date: Sun, 05 May 2024 15:57:00 -0000
+Message-Id: <171492462043.12605.1664610460441988755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/kpsingh/linux
+user: kpsingh
 changes:
-  - ref: refs/heads/master
-    old: eaaf471cbfd18123163973ac3b8ff5cb7bd1c281
-    new: cc61897b928e90c4391e0d6390933dbc9088d98f
+  - ref: refs/heads/static_calls
+    old: 25e4d0d401a7fd81a2d680f3e3c27adcb4aceecb
+    new: 1f2025752647e26c90484f2c8b0cae75a5826dbd
     log: |
-         20e99f6a6cb5916fcc96c05dc71804a811deeddf test: Remove the coredump if coredump.t managed to generate one
-         cc61897b928e90c4391e0d6390933dbc9088d98f Merge branch 'pu/test-clean' of https://github.com/guillemj/liburing
+         74560bb3685b3600da911d92d134899ce9f8bcc1 lsm: remove the now superfluous sentinel element from ctl_table array
+         67889688e05b58b9152c28e417a92bfe577d0ade MAINTAINERS: update the LSM file list
+         353c125963ccc6335d9786c1ea3a059f4a843bf3 kernel: Add helper macros for loop unrolling
+         95f2cb9a72ffbdb83d6ed0d2e4a52a77731cc229 security: Count the LSMs enabled at compile time
+         e13aba197170b795fbda1117f29b4b5bf1c6f3c5 security: Replace indirect LSM hook calls with static calls
+         1f2025752647e26c90484f2c8b0cae75a5826dbd security: Update non standard hooks to use static calls
          
