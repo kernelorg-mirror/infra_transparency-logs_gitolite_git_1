@@ -1,46 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2548917271821032362=="
+Content-Type: multipart/mixed; boundary="===============6464835626064613561=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Sun, 05 May 2024 19:32:44 -0000
-Message-Id: <171493756493.6501.15447091275588749306@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 05 May 2024 19:41:38 -0000
+Message-Id: <171493809877.14242.2709808412936909273@gitolite.kernel.org>
 
---===============2548917271821032362==
+--===============6464835626064613561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/modules-next
-    old: 3c2c250cb3a5fbbccc4a4ff4c9354c54af91f02c
-    new: 493abdac43bf48239e1b2fd649c907a9e9f7ea7a
-    log: revlist-3c2c250cb3a5-493abdac43bf.txt
+  - ref: refs/heads/master
+    old: b9158815de525572333d0499a681459f6b075f28
+    new: f462ae0edd3703edd6f22fe41d336369c38b884b
+    log: revlist-b9158815de52-f462ae0edd37.txt
 
---===============2548917271821032362==
+--===============6464835626064613561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c2c250cb3a5-493abdac43bf.txt
+Content-Disposition: attachment; filename=revlist-b9158815de52-f462ae0edd37.txt
 
-72e23bfec7f56325c195e5b1d8937acfb9619baa arm64: module: remove unneeded call to kasan_alloc_module_shadow()
-2b2ec685dc70a6b93093d6470eec15595937bfa8 mips: module: rename MODULE_START to MODULES_VADDR
-d1d4758ab2ec704957423f941ad30da7ed6fc16e nios2: define virtual address space for modules
-9d5cc689179a535f0d2b2afda7e2049a45c725f1 sparc: simplify module_alloc()
-1ef872c5d9184edc7e7708ca9dba9957c2b3ea80 module: make module_memory_{alloc,free} more self-contained
-b9b5ca4dad2dffea8a785bca0daac069ba27a463 mm: introduce execmem_alloc() and execmem_free()
-0fa548a3df3592b3736017f28a40f3f6070dd585 mm/execmem, arch: convert simple overrides of module_alloc to execmem
-7f26b5755f4c6c809182a04c26f40d175b284da7 mm/execmem, arch: convert remaining overrides of module_alloc to execmem
-e7c3dc14e3b875a9f961a68cfd133f28ee1f6656 riscv: extend execmem_params for generated code allocations
-5835dda43b0e308650a71e6d108d4120a8a57424 arm64: extend execmem_info for generated code allocations
-1be2f35de21b273de761a79e4fd172b747a81f3b powerpc: extend execmem_params for kprobes allocations
-ad4a005878ed50865a75c8567aedf1678ac08fc3 arch: make execmem setup available regardless of CONFIG_MODULES
-a186719c689234cfd93c8311b77985ab483ff9c0 x86/ftrace: enable dynamic ftrace without CONFIG_MODULES
-a733001a7abacdc2efdbcf39ed58f2afe253d99f powerpc: use CONFIG_EXECMEM instead of CONFIG_MODULES where appropriate
-d603ee0ff86963cd58ecae55ae9925851a706977 kprobes: remove dependency on CONFIG_MODULES
-493abdac43bf48239e1b2fd649c907a9e9f7ea7a bpf: remove CONFIG_BPF_JIT dependency on CONFIG_MODULES of
+784354349d2c988590c63a5a001ca37b2a6d4da1 powerpc/pseries: make max polling consistent for longer H_CALLs
+49a940dbdc3107fecd5e6d3063dc07128177e058 powerpc/pseries/iommu: LPAR panics during boot up with a frozen PE
+edbe59428eb0da09958769326a6566d4c9242ae7 EDAC/versal: Do not register for NOC errors
+de87ba848d5e4c861b7357dd7a91698aed7a5a18 EDAC/versal: Check user-supplied data before injecting an error
+1a24733e80771d8eef656e515306a560519856a9 EDAC/versal: Do not log total error counts
+1dd1eff161bd55968d3d46bc36def62d71fb4785 softirq: Fix suspicious RCU usage in __do_softirq()
+d6d85ac15cce4dcf02cf8c96cb970562be6a3529 x86/e820: Add a new e820 table update helper
+400fea4b9651adf5d7ebd5d71e905f34f4e4e493 x86/sev: Add callback to apply RMP table fixups for kexec
+720a22fd6c1cdadf691281909950c0cbc5cdf17e x86/apic: Don't access the APIC when disabling x2APIC
+02b670c1f88e78f42a6c5aee155c7b26960ca054 x86/mm: Remove broken vsyscall emulation code from the page fault code
+80f8b450bfc12b1087ca67c84071d3524bedc080 Merge tag 'irq-urgent-2024-05-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d099637d074b9d8170b06365f575f6cf03d614f5 Merge tag 'x86-urgent-2024-05-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+ef095257750bb434959648331e48e44705d802e9 Merge tag 'powerpc-6.9-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+f462ae0edd3703edd6f22fe41d336369c38b884b Merge tag 'edac_urgent_for_v6.9_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 
---===============2548917271821032362==--
+--===============6464835626064613561==--
