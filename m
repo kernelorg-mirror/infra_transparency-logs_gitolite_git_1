@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Sun, 05 May 2024 13:40:38 -0000
-Message-Id: <171491643811.10580.13409437300813629479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 05 May 2024 14:16:20 -0000
+Message-Id: <171491858057.3289.4909767603884002505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/bugfix/syzbot
-    old: 29fd02280ac763f7ae417622d7a4ba0657b2198a
-    new: d7c9e98caf2285d83bf9e839c7398946bbc7deb3
+  - ref: refs/heads/wip/leon-for-next
+    old: 8f3b7103b41314d26e2653e9ccca29480123a204
+    new: f483f6a29d4d701f1641898463e93d081bb03b52
     log: |
-         d7c9e98caf2285d83bf9e839c7398946bbc7deb3 f2fs: remove unused GC_FAILURE_PIN
+         5194947e6a3966d50095c14c69edbec90ad191f9 IB/hfi1: Do not use custom stat allocator
+         f483f6a29d4d701f1641898463e93d081bb03b52 IB/hfi1: Remove generic .ndo_get_stats64
          
