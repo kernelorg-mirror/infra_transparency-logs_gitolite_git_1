@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/liba2i/liba2i
-Date: Sun, 05 May 2024 17:54:34 -0000
-Message-Id: <171493167480.32256.10897133655512551316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 05 May 2024 18:03:00 -0000
+Message-Id: <171493218042.6188.17736107973113125956@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/liba2i/liba2i
-user: alx
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/main
-    old: 0b64be1122e32d02c524e19da29b80f91f9fa562
-    new: d4aca3f6673d3d2728bf9acfce22f31f4ac0b201
+  - ref: refs/heads/fixes-togreg
+    old: 408d5d448ffdbc93043ba142a92b4f96ab8e69af
+    new: 4f11dc1b7fd286466cac48b2e0494817425e68ec
     log: |
-         d4aca3f6673d3d2728bf9acfce22f31f4ac0b201 */a2i/a2i.[ch]: Add functions with strtol(3)-like constness
+         20f32873862b44f5150e2b1a452a50468477d17a dt-bindings: iio: dac: fix ad354xr output range
+         4f11dc1b7fd286466cac48b2e0494817425e68ec iio: pressure: bmp280: Fix BMP580 temperature reading
          
