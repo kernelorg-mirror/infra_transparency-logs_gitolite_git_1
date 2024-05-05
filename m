@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 05 May 2024 15:54:20 -0000
-Message-Id: <171492446024.9956.6199881522093158927@gitolite.kernel.org>
+Date: Sun, 05 May 2024 15:54:48 -0000
+Message-Id: <171492448855.10177.13367694593026715193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: eb267a661a1636e69969d210654d90513fe81c2f
-    new: eaaf471cbfd18123163973ac3b8ff5cb7bd1c281
+    old: eaaf471cbfd18123163973ac3b8ff5cb7bd1c281
+    new: cc61897b928e90c4391e0d6390933dbc9088d98f
     log: |
-         222b46ddc07109ba9232fb0140bbdec38b742607 liburing-ffi.map: Add comments for symbols added in wrong version node
-         eaaf471cbfd18123163973ac3b8ff5cb7bd1c281 Merge branch 'pu/libffi-symbols' of https://github.com/guillemj/liburing
+         20e99f6a6cb5916fcc96c05dc71804a811deeddf test: Remove the coredump if coredump.t managed to generate one
+         cc61897b928e90c4391e0d6390933dbc9088d98f Merge branch 'pu/test-clean' of https://github.com/guillemj/liburing
          
