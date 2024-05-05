@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6101075414477593658=="
+Content-Type: multipart/mixed; boundary="===============3573298039480347646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 05 May 2024 06:34:45 -0000
-Message-Id: <171489088587.32269.9463195503873076312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Sun, 05 May 2024 07:31:56 -0000
+Message-Id: <171489431677.9702.13823981845235360086@gitolite.kernel.org>
 
---===============6101075414477593658==
+--===============3573298039480347646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 99171c982c18dabbe3844de90307a3d3384e237e
-    new: 880a746fa3ea5916a012fa320fdfbcd3f331bea3
-    log: |
-         880a746fa3ea5916a012fa320fdfbcd3f331bea3 device property: Fix a typo in the description of device_get_child_node_count()
-         
+  - ref: refs/heads/dma-split-v1
+    old: 9da240ed50fabf3d371ed059aff21c206982f722
+    new: 54894fec92e69353c0a6824a10903d6578b204d0
+    log: revlist-9da240ed50fa-54894fec92e6.txt
 
---===============6101075414477593658==
+--===============3573298039480347646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9da240ed50fa-54894fec92e6.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1714890883 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1714890882-e454fbd75dd65d9e7c76d98137edf1d5f4ca1ceb
+ede67f7aaae9c0c7763a56cff7895cb465dfa2c6 dma-mapping: implement link range API
+80d677aa65c991a893892c8f1b8ac6b8b9d0111a dma-mapping: provide callbacks to link/unlink HMM PFNs to specific IOVA
+6d8d220f17bc4df1b4eae28fd45edab094c732f8 iommu/dma: Provide an interface to allow preallocate IOVA
+dd0bc895825dbe023d5438ce41a3f2efc5de22e8 iommu/dma: Implement link/unlink ranges callbacks
+9d51cd06ebcea1ef199d7672f403f26f14c0ea76 RDMA/umem: Preallocate and cache IOVA for UMEM ODP
+7caf743103f6f51a29c94b7d0e4d3b46c69f855b mm/hmm: let users to tag specific PFNs
+799b0687b3768f4712a0f7fc1ef2a4a356013e5e RDMA/umem: Store ODP access mask information in PFN
+64de8529bc55b6af8b8d76c902051d2eeb9aea55 RDMA/core: Separate DMA mapping to caching IOVA and page linkage
+24fa5d34c85dcfde1557f8907e6180f865d895ee RDMA/umem: Prevent UMEM ODP creation with SWIOTLB
+b1130ff7bda13199767df31690aba0051210ad6e vfio/mlx5: Explicitly use number of pages instead of allocated length
+2b7ff3fc06ce5cd15411890e4ff02f2d04817940 vfio/mlx5: Rewrite create mkey flow to allow better code reuse
+332fa6581545e22c5f5279b7695481c57abe287f vfio/mlx5: Explicitly store page list
+54894fec92e69353c0a6824a10903d6578b204d0 vfio/mlx5: Convert vfio to use DMA link API
 
-99171c982c18dabbe3844de90307a3d3384e237e 880a746fa3ea5916a012fa320fdfbcd3f331bea3 refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY3KIMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OikQALKJcj/MOoeAzw/Vkn6T
-8VUlhpMSahvFYssgZ0F/n4WbegJkJlkbroEcXfAp7CSQEh2czc4zQ51dMOp/tpCE
-axJdOfyHnN6Mk1m/ZBtwREAPAvpVyPmnNz4x8Y7dhKwKTi8k70a1CGbuOfe53KrX
-A9BbTjnI7AeYl4vYD/zXFUZU3fDe/Pag/nYg9YjpyrTw0X3W6lqRv3EFDEViHDxe
-02XXYDU3KPJd9W1fHsc3Oe6Ha0uPsH6UXH/AIuvstcN4jTaExYA34PlJljvE7mct
-nvPOkZl3VY3ZoywL/oNj4LGxyif6HCXkEfqUgkB9i+rum2WGmd8Y6nfYg9+H2u4h
-RLZQdt3qX83EBb/koA+e52gkuWBLdEe2B6G3Nt2arbosFIZY5gc05OQzBLbQuQyN
-YDk7qxsn2QVJhyub7vQK9J7dof/fr4LUsJA/U5Rat7iE0vIYFUuaXwcGgb8hKWFo
-ZRlU2w+mY2lumr3cTHQa91VAvsuxmLVgsX5M7Kv2JGC41hF02fY/tAVIW6sBd0YT
-27pXz1ml7vUW8ukThrDq07SdtmaNMaReiTUFKNrCMBnkKlGBpNsugHe/2tvrimwF
-uyiOAeNZjlNRjjOjXirv5vkyoqdAmZqvFT/ulfPmREhW4hoGifwg51uiLdlb80OR
-Znuz2DJUQOgE4nNSpBtIBPw4
-=B3p4
------END PGP SIGNATURE-----
-
---===============6101075414477593658==--
+--===============3573298039480347646==--
