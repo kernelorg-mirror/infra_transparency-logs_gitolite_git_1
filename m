@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/liba2i/liba2i
-Date: Sun, 05 May 2024 20:04:08 -0000
-Message-Id: <171493944869.30425.3920296519661467373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 05 May 2024 20:11:15 -0000
+Message-Id: <171493987596.5209.13259448746758440315@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/liba2i/liba2i
-user: alx
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 2e8fc083b84037bfe29c567838744d1a436bbbd1
-    new: 0e819fbcbb196faf78cd101d1807465489e47caf
+  - ref: refs/heads/master
+    old: 7af0a1799e29ec69a8d8dad08694ffcb3152066b
+    new: 82e0b1b9e8194660cfb94b009b43736585935bed
     log: |
-         0e819fbcbb196faf78cd101d1807465489e47caf man/man3/a2i.3: Document QChar
+         82e0b1b9e8194660cfb94b009b43736585935bed Sun May  5 04:10:13 PM EDT 2024
          
