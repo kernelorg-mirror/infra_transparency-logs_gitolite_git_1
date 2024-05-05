@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kpsingh/linux
-Date: Sun, 05 May 2024 14:59:58 -0000
-Message-Id: <171492119893.1531.11848020447811987387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sun, 05 May 2024 15:00:36 -0000
+Message-Id: <171492123628.3529.8461438550982148803@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kpsingh/linux
-user: kpsingh
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/static_calls
-    old: 8cc2c6bc629cbeac11aedd46e97393c659138ed5
-    new: 25e4d0d401a7fd81a2d680f3e3c27adcb4aceecb
+  - ref: refs/heads/asoc-6.9
+    old: c5782bb5468acf86d8ca8e161267e8d055fb4161
+    new: 09068d624c490c0e89f33f963c402f1859964467
     log: |
-         25e4d0d401a7fd81a2d680f3e3c27adcb4aceecb bpf: Only enable BPF LSM hooks when an LSM program is attached
+         09068d624c490c0e89f33f963c402f1859964467 ASoC: amd: acp: fix for acp platform device creation failure
          
