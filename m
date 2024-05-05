@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 05 May 2024 19:03:12 -0000
-Message-Id: <171493579206.16973.6700584677881267037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 05 May 2024 19:21:10 -0000
+Message-Id: <171493687058.31259.4810556564736032836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/damo
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: 36f015066c53ced0af68d03d93272fe6c3f28f69
-    new: 4982d70fc973e464d010568f8bf37195c2586ea8
+  - ref: refs/heads/next
+    old: d0c4c3f3940d781c248ff34f2470f7603a054146
+    new: 9ad478be6f3132bd35a3630b24994e61bed66319
     log: |
-         4982d70fc973e464d010568f8bf37195c2586ea8 backup damon/next patches
+         fb8db312d6ca202cad8ddfebe6f914d7b0b8fb63 release_note: Update for next release
+         9ad478be6f3132bd35a3630b24994e61bed66319 README: Add snapshot example
          
