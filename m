@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Sun, 05 May 2024 20:36:03 -0000
-Message-Id: <171494136301.22021.3044480879678379168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sun, 05 May 2024 21:02:37 -0000
+Message-Id: <171494295744.8371.1372468405255572079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/bhi-fixes
-    old: 8e7ac4d886c5120166869ade0df5cfc6c980953f
-    new: 3d1247c1dbce983bf501befe6ecaa3ca17200170
-    log: |
-         9ad251f6258adde596fb1f4d6826309b9f239ed3 x86/syscall: Mark exit[_group] syscall handlers __noreturn
-         cdfe36cf9c8b6cd98eb0f32b798d5af1af95cb2c x86/bugs: Remove duplicate Spectre cmdline option descriptions
-         66327dcf87284a09ed17ac24227695ea3ba1f287 x86/bugs: Add 'spectre_bhi=vmexit' cmdline option
-         3d1247c1dbce983bf501befe6ecaa3ca17200170 x86/bugs: Only harden syscalls when needed
-         
+  - ref: refs/tags/v6.10-rockchip-dts64-2
+    old: 0000000000000000000000000000000000000000
+    new: 50a115bf88843851a9011e1ad8d9281d38e40775
