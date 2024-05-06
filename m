@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6723650662856048274=="
+Content-Type: multipart/mixed; boundary="===============8418913437794106448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Mon, 06 May 2024 14:01:44 -0000
-Message-Id: <171500410407.27314.757778239525869529@gitolite.kernel.org>
+Date: Mon, 06 May 2024 14:01:50 -0000
+Message-Id: <171500411050.27446.10555820424179322304@gitolite.kernel.org>
 
---===============6723650662856048274==
+--===============8418913437794106448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
+  - ref: refs/heads/loongarch-next
     old: 511b5b342cced910fb4d130fa799c54c6afb4e03
     new: 7b7e584f90bf670d5c6f2b1fff884bf3b972cad4
     log: revlist-511b5b342cce-7b7e584f90bf.txt
 
---===============6723650662856048274==
+--===============8418913437794106448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -341,4 +341,4 @@ e33bda7ee50c3c20d80f5ca6dc5ca2cd37863518 LoongArch: KVM: Add PV IPI support on h
 163e9fc6957fc24d1d6c0a30a3febfd2ecade039 LoongArch: KVM: Add software breakpoint support
 7b7e584f90bf670d5c6f2b1fff884bf3b972cad4 LoongArch: KVM: Add mmio trace events support
 
---===============6723650662856048274==--
+--===============8418913437794106448==--
