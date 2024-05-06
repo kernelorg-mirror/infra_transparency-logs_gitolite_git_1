@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Mon, 06 May 2024 15:57:03 -0000
-Message-Id: <171501102395.16576.1469719493885338068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 06 May 2024 16:16:25 -0000
+Message-Id: <171501218557.31435.12835509826621017165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
   - ref: refs/heads/for-next
-    old: a2b4cab9da7746c42f87c13721d305baf0085a20
-    new: 456e1f511e4b91123dbba32d5b46ee3e954cdfb0
+    old: 0bb096c314fcd621a04f975fb0a6b2634755d783
+    new: e479514e9bd46099dd8087827803864be03eedbe
     log: |
-         320bf43190514be5c00e11f47ec2160dd3993844 printk: Fix LOG_CPU_MAX_BUF_SHIFT when BASE_SMALL is enabled
-         b3e90f375b3c7ab85aef631ebb0ad8ce66cbf3fd printk: Change type of CONFIG_BASE_SMALL to bool
-         27021649ec88cf9aa14d2ac7e7f2e6789f055978 printk: Remove redundant CONFIG_BASE_FULL
-         456e1f511e4b91123dbba32d5b46ee3e954cdfb0 Merge branch 'for-6.10-base-small' into for-next
+         e479514e9bd46099dd8087827803864be03eedbe selftests/alsa: make dump_config_tree() as void function
+         
+  - ref: refs/heads/master
+    old: 8afec19ca89590bdf60063b26916fc60549a9118
+    new: ec6ce90ebba4ba2a5efdc56f6b8217c9e09c1929
+    log: |
+         e479514e9bd46099dd8087827803864be03eedbe selftests/alsa: make dump_config_tree() as void function
+         ec6ce90ebba4ba2a5efdc56f6b8217c9e09c1929 Merge branch 'for-next'
          
