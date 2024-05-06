@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5007852480646557112=="
+Content-Type: multipart/mixed; boundary="===============0454829660441462893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 06 May 2024 14:57:47 -0000
-Message-Id: <171500746734.3645.15520771922636761605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 06 May 2024 14:57:52 -0000
+Message-Id: <171500747290.3782.4214720785437348176@gitolite.kernel.org>
 
---===============5007852480646557112==
+--===============0454829660441462893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/regulator-6.10
     old: 38bcec0e7cbbd6566c12ae4f2b7a48bd50cd215c
     new: 48b6faae69a432b76e453c73ff5210bf5affa936
     log: revlist-38bcec0e7cbb-48b6faae69a4.txt
 
---===============5007852480646557112==
+--===============0454829660441462893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1715007465 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1715007465-d112ca5f3d4dadf23316739bafae0eda0e21e1f4
+pusher Mark Brown <broonie@kernel.org> 1715007471 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1715007470-1acedc01e47e8e86adb4b25683e5cffd88658bcc
 
-38bcec0e7cbbd6566c12ae4f2b7a48bd50cd215c 48b6faae69a432b76e453c73ff5210bf5affa936 refs/heads/for-6.10
+38bcec0e7cbbd6566c12ae4f2b7a48bd50cd215c 48b6faae69a432b76e453c73ff5210bf5affa936 refs/heads/regulator-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmY47+kTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0KyHB/9riEXVYct+HA5ZhklNBIeERRIfus+G
-7UacTe2JkdwK/GwK4wpY012sWVxeDKON1OWipWtMgZcVPLZJAAXTOYEsxwry3c8B
-RmuJAInitjKF3fWyldZRD2FMmTLQbNnYcgr+13eQ5O/XU23NMhOpmvhD6nRUoGKq
-P1QoGSd1F5NAYv/z7jH8oNa5G3FItTMlU4jLXfiz0396/SYGy9rmEtmKtXmaEU/w
-svyNaCRWeVg4hHFmi7h6YcfPoNnxLMvQyKJNDm45kNN5btNRDTZVv/ultXGa2tQ+
-Z8eb1B7qNcss/QpNi6r8JAWZcHj1OSfOP+XmUKlbvcv/6XKkeeRbT6ix
-=lnYE
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmY47+8THGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0IVEB/0bU4CrfQ/lK+UfNNKaGplxJo/oQbfT
+i5QEwqJFYjIYsEBgDBuRipUHKooq7pp12TGZtARBIPj1ybEyuH9Gi3p2BcCes15B
+BpK1j5db+Kh5jPKlXreD/7p1CiW9c4X43D5ZFi8Dg42zXUwEkt7g1/1VpxxVYRqr
+NmC+9PCrGkXZSNKOOSk85HyHe8vM+xxv4npP7dN6RUCcGq1BRpg35UYDK+2EFbve
+LBmIWWIMWPYefTYz4eXBgruqNp8nmQBLW+9JflH+auUNvVoRt/z3Cyu0kdUy1gxe
+bPvRpAIA3Lp3v25k0Z+iJPhRvPVo0Q4EU39ybiOHZfnaLB0O192Jekq9
+=vKlG
 -----END PGP SIGNATURE-----
 
---===============5007852480646557112==
+--===============0454829660441462893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -882,4 +882,4 @@ cffb8d74bd4e9dd0653c7093c4a5164a72c52b1f hwmon: (adc128d818) Use devm_regulator_
 d72fd5228c9f2136a3143daf5c7822140211883a hwmon: (da9052) Use devm_regulator_get_enable_read_voltage()
 48b6faae69a432b76e453c73ff5210bf5affa936 regulator: new API for voltage reference supplies
 
---===============5007852480646557112==--
+--===============0454829660441462893==--
