@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3088680532639238102=="
+Content-Type: multipart/mixed; boundary="===============3908756351296560832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 06 May 2024 15:38:02 -0000
-Message-Id: <171500988236.2532.16376668996070494253@gitolite.kernel.org>
+Date: Mon, 06 May 2024 15:38:21 -0000
+Message-Id: <171500990142.2747.15417135143746928663@gitolite.kernel.org>
 
---===============3088680532639238102==
+--===============3908756351296560832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 545c494465d24b10a4370545ba213c0916f70b95
     new: a26ff37e624d12e28077e5b24d2b264f62764ad6
     log: revlist-545c494465d2-a26ff37e624d.txt
 
---===============3088680532639238102==
+--===============3908756351296560832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ d0de61673908765f4e189fe26f4de6e87caf00e5 Merge tag 'ipsec-2024-05-02' of git://g
 fa870b45b08ad3a50a305b8f9f5896a5c5f565bc MAINTAINERS: update cxgb4 and cxgb3 network drivers maintainer
 a26ff37e624d12e28077e5b24d2b264f62764ad6 net: fix out-of-bounds access in ops_init
 
---===============3088680532639238102==--
+--===============3908756351296560832==--
