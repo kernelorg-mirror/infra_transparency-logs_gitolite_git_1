@@ -1,40 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============7652123468423466235=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 06 May 2024 18:23:25 -0000
-Message-Id: <171501980595.25511.2027800949398981766@gitolite.kernel.org>
-
---===============7652123468423466235==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 06 May 2024 18:29:30 -0000
+Message-Id: <171502017053.29270.1395386001181333672@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: f462ae0edd3703edd6f22fe41d336369c38b884b
-    new: ee5b455b0adae9ecafb38b174c648c48f2a3c1a5
-    log: revlist-f462ae0edd37-ee5b455b0ada.txt
-
---===============7652123468423466235==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f462ae0edd37-ee5b455b0ada.txt
-
-16934de47da778f0861057df98b08058e0935a5c auxdisplay: linedisp: Group display drivers together
-c352a04107264ff5ec3c38db044137cd99c4ba55 auxdisplay: seg-led-gpio: Convert to platform remove callback returning void
-29b08729abf5fcf1c3844de34ddfcc5e6d7a11a4 auxdisplay: charlcd: Add missing MODULE_DESCRIPTION()
-93ee235f55d3e1c881e766a320cedcad0b9aca42 auxdisplay: charlcd: Don't rebuild when CONFIG_PANEL_BOOT_MESSAGE=y
-8f828aa48812ced28aa39cb3cfe55ef2444d03dd mm/slub: avoid zeroing outside-object freepointer for single free
-cd7eb8f83fcf258f71e293f7fc52a70be8ed0128 mm/slab: make __free(kfree) accept error pointers
-4efaa5acf0a1d2b5947f98abb3acf8bfd966422b epoll: be better about file lifetimes
-dd5a440a31fae6e459c0d6271dddd62825505361 Linux 6.9-rc7
-c73677ca411d3dbfe585dcbf389b3cd83e0e3530 Merge tag 'auxdisplay-v6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-auxdisplay
-ee5b455b0adae9ecafb38b174c648c48f2a3c1a5 Merge tag 'slab-for-6.9-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-
---===============7652123468423466235==--
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 626d06f0a8b226cab7df7522b324a5e2a241c338
+    new: ee756ef7491eafd70f390343a1d90930af125a51
+    log: |
+         ee756ef7491eafd70f390343a1d90930af125a51 perf dso: Add reference count checking and accessor functions
+         
