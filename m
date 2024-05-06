@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 06 May 2024 16:22:08 -0000
-Message-Id: <171501252837.2815.12660566718816878566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Mon, 06 May 2024 16:47:34 -0000
+Message-Id: <171501405472.20984.2407810504438006230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
 changes:
-  - ref: refs/heads/master
-    old: f34cc1da5081e1a464212dc73cde8ba4f2b79d99
-    new: 78af547e94d9d87d1f06ce0868e947f75af06fb7
+  - ref: refs/heads/const-state
+    old: 7b726e08e09195cf43a3d094453fa092e70575cf
+    new: 95b12fcbaa30089db9dd68c443b50ba45f00abda
     log: |
-         78af547e94d9d87d1f06ce0868e947f75af06fb7 clinet: Fix unregister-includes command
+         95b12fcbaa30089db9dd68c443b50ba45f00abda media: rkisp1: Mark subdev state pointers as const
          
