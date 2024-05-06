@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8179048545430740661=="
+Content-Type: multipart/mixed; boundary="===============4425412398693853842=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Mon, 06 May 2024 07:48:52 -0000
-Message-Id: <171498173260.31152.11894211380982482019@gitolite.kernel.org>
+Date: Mon, 06 May 2024 07:48:59 -0000
+Message-Id: <171498173900.31257.11510019874124002143@gitolite.kernel.org>
 
---===============8179048545430740661==
+--===============4425412398693853842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
-  - ref: refs/heads/i2c/for-current
+  - ref: refs/heads/i2c/for-next
     old: 5deb5b56bccb22d0e8dd8c89e4ffcc0e920aae4c
-    new: 3f858bbf04dbac934ac279aaee05d49eb9910051
-    log: revlist-5deb5b56bccb-3f858bbf04db.txt
+    new: 20e70be866ccda24c25f0160631536090320b159
+    log: revlist-5deb5b56bccb-20e70be866cc.txt
 
---===============8179048545430740661==
+--===============4425412398693853842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5deb5b56bccb-3f858bbf04db.txt
+Content-Disposition: attachment; filename=revlist-5deb5b56bccb-20e70be866cc.txt
 
 9c0f59e47a90c54d0153f8ddc0f80d7a36207d0e HID: i2c-hid: remove I2C_HID_READ_PENDING flag to prevent lock-up
 92826905ae340b7f2b25759a06c8c60bfc476b9f HID: intel-ish-hid: ipc: Fix dev_err usage with uninitialized dev->devc
@@ -700,5 +700,6 @@ f462ae0edd3703edd6f22fe41d336369c38b884b Merge tag 'edac_urgent_for_v6.9_rc7' of
 4efaa5acf0a1d2b5947f98abb3acf8bfd966422b epoll: be better about file lifetimes
 dd5a440a31fae6e459c0d6271dddd62825505361 Linux 6.9-rc7
 3f858bbf04dbac934ac279aaee05d49eb9910051 i2c: acpi: Unbind mux adapters before delete
+20e70be866ccda24c25f0160631536090320b159 Merge branch 'i2c/for-current' into i2c/for-next
 
---===============8179048545430740661==--
+--===============4425412398693853842==--
