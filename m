@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Mon, 06 May 2024 10:46:25 -0000
-Message-Id: <171499238550.13997.364616077410162001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 06 May 2024 10:55:06 -0000
+Message-Id: <171499290605.20310.14221985576005986031@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: wagi
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/v4.19-rt-next
-    old: d2355869c77d4d4c5af3995f3c619ca9f5491fd4
-    new: 8ddbb4cd89a84dac67f791f58147b93eb3e767fd
+  - ref: refs/heads/main
+    old: 28f75f1e2685d826a491766d495c4e1ba744cd5c
+    new: b93493c01691104b9a9b612f9e161702418d10a3
     log: |
-         2c1a32c5e05fd75885186793bc0d26e0a65b473d Merge tag 'v4.19.312' into v4.19-rt-next
-         8ddbb4cd89a84dac67f791f58147b93eb3e767fd Linux 4.19.312-rt134
+         cbbe1124436e757a1de4e70c9f0b045ddd03ce2c amdgpu: DMCUB updates for various AMDGPU ASICs
+         b93493c01691104b9a9b612f9e161702418d10a3 Merge branch 'robot/pr-0-1714981108' into 'main'
          
-  - ref: refs/tags/v4.19.312-rt134-rc2
-    old: 0000000000000000000000000000000000000000
-    new: cfeb5d35beeb540f56fa4161742b5de85e1392f6
