@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7189184188457952606=="
+Content-Type: multipart/mixed; boundary="===============6881267997706050541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 06 May 2024 15:16:42 -0000
-Message-Id: <171500860213.19061.10501877615184867413@gitolite.kernel.org>
+Date: Mon, 06 May 2024 15:17:13 -0000
+Message-Id: <171500863385.19325.16113512953188047637@gitolite.kernel.org>
 
---===============7189184188457952606==
+--===============6881267997706050541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 545c494465d24b10a4370545ba213c0916f70b95
-    new: a26ff37e624d12e28077e5b24d2b264f62764ad6
-    log: revlist-545c494465d2-a26ff37e624d.txt
+  - ref: refs/heads/dev-queue
+    old: a80052d4963cac9fd5fe2b9a7a8a4ae133d0f99a
+    new: 62949ba0ce2ca09386a8b34e67a32f333267ba32
+    log: revlist-a80052d4963c-62949ba0ce2c.txt
 
---===============7189184188457952606==
+--===============6881267997706050541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-545c494465d2-a26ff37e624d.txt
+Content-Disposition: attachment; filename=revlist-a80052d4963c-62949ba0ce2c.txt
 
 8b06a24bb625728ac709f2c69405eb01025687e1 xfrm: fix possible derferencing in error path
 58fbfecab965014b6e3cc956a76b4a96265a1add xfrm: Preserve vlan tags for transport mode software GRO
@@ -50,5 +50,12 @@ d0de61673908765f4e189fe26f4de6e87caf00e5 Merge tag 'ipsec-2024-05-02' of git://g
 1aec77b2bb2ed1db0f5efc61c4c1ca3813307489 rtnetlink: Correct nested IFLA_VF_VLAN_LIST attribute validation
 fa870b45b08ad3a50a305b8f9f5896a5c5f565bc MAINTAINERS: update cxgb4 and cxgb3 network drivers maintainer
 a26ff37e624d12e28077e5b24d2b264f62764ad6 net: fix out-of-bounds access in ops_init
+a0b5f541d5afd31af08508b07c7fd1690cf9ea59 ice: Fix package download algorithm
+9461572e929d8679720dab8801373339b41002f8 e1000e: move force SMBUS near the end of enable_ulp function
+9c6b62a2a7b0da8cfa44bc393b17cfd9263ed25b ice: Interpret .set_channels() input differently
+a96b28bf54719c0a0a09c057cc9a59ed2f9d70e3 ice: fix 200G PHY types to link speed mapping
+5cb448443facead27b8e34f2cc80ffda6bcb1bcd ice: Do not get coalesce settings while in reset
+73ad66e4a807b5b618165452bf12653df25b0c69 idpf: don't enable NAPI and interrupts prior to allocating Rx buffers
+62949ba0ce2ca09386a8b34e67a32f333267ba32 idpf: Interpret .set_channels() input differently
 
---===============7189184188457952606==--
+--===============6881267997706050541==--
