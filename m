@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 06 May 2024 21:27:55 -0000
-Message-Id: <171503087524.31467.9988892585476255799@gitolite.kernel.org>
+Date: Mon, 06 May 2024 21:31:41 -0000
+Message-Id: <171503110123.2283.2108602612033540932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,14 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
-  - ref: refs/heads/for-next
-    old: cb0ed41a9a3e0866248687fe32810fcc228a53c5
-    new: e26cd5fa37cbb7ead863bf50ccf4e47f87e452a6
+  - ref: refs/heads/for-6.10/playstation
+    old: 8f607e007e8127627680e2e5e2cd70da76fb45b1
+    new: 947992c7fa9e0e7adf2451e7b7a88ce550248794
     log: |
-         ab5ec06a7070840bb64a125fe6e5b0ddcb36346c HID: i2c-hid: Retry address probe after delay
-         7d6f065de37c31c37e56611efd41260c66c868ca HID: i2c-hid: Use address probe to wake on resume
-         e26cd5fa37cbb7ead863bf50ccf4e47f87e452a6 Merge branch 'for-6.10/i2c-hid' into for-next
+         947992c7fa9e0e7adf2451e7b7a88ce550248794 HID: playstation: DS4: Fix calibration workaround for clone devices
          
-  - ref: refs/heads/for-6.10/i2c-hid
-    old: 0000000000000000000000000000000000000000
-    new: 7d6f065de37c31c37e56611efd41260c66c868ca
+  - ref: refs/heads/for-next
+    old: e26cd5fa37cbb7ead863bf50ccf4e47f87e452a6
+    new: 0563d129cccbedef0b423db053089f04280205ea
+    log: |
+         947992c7fa9e0e7adf2451e7b7a88ce550248794 HID: playstation: DS4: Fix calibration workaround for clone devices
+         0563d129cccbedef0b423db053089f04280205ea Merge branch 'for-6.10/playstation' into for-next
+         
