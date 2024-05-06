@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0404540613456925740=="
+Content-Type: multipart/mixed; boundary="===============6531735911904420366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 06 May 2024 15:52:18 -0000
-Message-Id: <171501073845.13022.6033775146624852781@gitolite.kernel.org>
+Date: Mon, 06 May 2024 15:52:37 -0000
+Message-Id: <171501075771.13230.9018020252761528199@gitolite.kernel.org>
 
---===============0404540613456925740==
+--===============6531735911904420366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: e958da0ddbe831197a0023251880a4a09d5ba268
     new: 8c4e4798123fd8e0c55e48e49db0f24287c18def
     log: revlist-e958da0ddbe8-8c4e4798123f.txt
 
---===============0404540613456925740==
+--===============6531735911904420366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ bee88cd5bd83d40b8aec4d6cb729378f707f6197 net: add support for segmenting TCP fra
 c9d1d23e5239f41700be69133a5769ac5ebc88a8 net: add heuristic for enabling TCP fraglist GRO
 8c4e4798123fd8e0c55e48e49db0f24287c18def Merge branch 'add-tcp-fraglist-gro-support'
 
---===============0404540613456925740==--
+--===============6531735911904420366==--
