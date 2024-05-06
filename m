@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Mon, 06 May 2024 16:47:34 -0000
-Message-Id: <171501405472.20984.2407810504438006230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 06 May 2024 16:51:25 -0000
+Message-Id: <171501428589.24032.17173848113293775591@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinchartl/linux
-user: pinchartl
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/const-state
-    old: 7b726e08e09195cf43a3d094453fa092e70575cf
-    new: 95b12fcbaa30089db9dd68c443b50ba45f00abda
+  - ref: refs/heads/nfsd-next
+    old: 442d27ff09a218b61020ab56387dbc508ad6bfa6
+    new: 939cb14d51a150e3c12ef7a8ce0ba04ce6131bd2
     log: |
-         95b12fcbaa30089db9dd68c443b50ba45f00abda media: rkisp1: Mark subdev state pointers as const
+         e221c45da3770962418fb30c27d941bbc70d595a knfsd: LOOKUP can return an illegal error value
+         939cb14d51a150e3c12ef7a8ce0ba04ce6131bd2 NFS/knfsd: Remove the invalid NFS error 'NFSERR_OPNOTSUPP'
          
