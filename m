@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 06 May 2024 21:04:58 -0000
-Message-Id: <171502949875.13420.8864092290507889361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 06 May 2024 21:10:44 -0000
+Message-Id: <171502984452.20331.7381747958514520155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/dev-queue
-    old: 365a98d0e82521dd333e4f5071b76f49a0feacb1
-    new: 9ff8995d0b56769dbd0fca9fc5a3bced54d88fc0
+  - ref: refs/heads/for-next
+    old: d82775b9060102a43f42d81ba57902827ce92fd6
+    new: 1eb7136b86298e4d5a38cfc89980f5adaa5b24f0
     log: |
-         076036edb1c78006a287444746020839c4e7e820 ice: store representor ID in bridge port
-         6c4f2a0068e96330a55f49050f7407b5b55befb9 ice: move devlink locking outside the port creation
-         1f48e094ee0674a59bc300ef6f30532eb75e7f28 ice: move VSI configuration outside repr setup
-         9ff8995d0b56769dbd0fca9fc5a3bced54d88fc0 ice: update representor when VSI is ready
+         3347e1654f24dbbd357ea4e3c0d8dcc12d8586c7 HID: hid-steam: Add Deck IMU support
+         1eb7136b86298e4d5a38cfc89980f5adaa5b24f0 Merge branch 'for-6.10/steam' into for-next
          
+  - ref: refs/heads/for-6.10/steam
+    old: 0000000000000000000000000000000000000000
+    new: 3347e1654f24dbbd357ea4e3c0d8dcc12d8586c7
