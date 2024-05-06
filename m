@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 06 May 2024 12:41:56 -0000
-Message-Id: <171499931663.2300.9740106767583477888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 06 May 2024 12:41:58 -0000
+Message-Id: <171499931850.2385.3979821650901835385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/x86/alternatives
-    old: 05d277c9a9023e11d2f30a994bde08b854af52a0
-    new: 8dc8b02d707ee4167fffaf3a97003bcdac282876
+  - ref: refs/heads/master
+    old: 0109de689446da17dc9c2e55af61f46179e3b764
+    new: 5143d6c6fd31a41b7031e6f699ced6ae9dd6696b
     log: |
-         8dc8b02d707ee4167fffaf3a97003bcdac282876 x86/alternatives: Remove alternative_input_2()
+         79af62944068924d26829f9cbcedc514bfdf0f53 share/mk/: $LD: Fix definition to include $CPPFLAGS
+         5143d6c6fd31a41b7031e6f699ced6ae9dd6696b share/mk/: distcheck: Run 'check' after 'build'
          
