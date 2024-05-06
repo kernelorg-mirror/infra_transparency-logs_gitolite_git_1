@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 06 May 2024 16:16:25 -0000
-Message-Id: <171501218557.31435.12835509826621017165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 06 May 2024 16:22:08 -0000
+Message-Id: <171501252837.2815.12660566718816878566@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/for-next
-    old: 0bb096c314fcd621a04f975fb0a6b2634755d783
-    new: e479514e9bd46099dd8087827803864be03eedbe
-    log: |
-         e479514e9bd46099dd8087827803864be03eedbe selftests/alsa: make dump_config_tree() as void function
-         
   - ref: refs/heads/master
-    old: 8afec19ca89590bdf60063b26916fc60549a9118
-    new: ec6ce90ebba4ba2a5efdc56f6b8217c9e09c1929
+    old: f34cc1da5081e1a464212dc73cde8ba4f2b79d99
+    new: 78af547e94d9d87d1f06ce0868e947f75af06fb7
     log: |
-         e479514e9bd46099dd8087827803864be03eedbe selftests/alsa: make dump_config_tree() as void function
-         ec6ce90ebba4ba2a5efdc56f6b8217c9e09c1929 Merge branch 'for-next'
+         78af547e94d9d87d1f06ce0868e947f75af06fb7 clinet: Fix unregister-includes command
          
