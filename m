@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Tue, 07 May 2024 16:38:06 -0000
-Message-Id: <171509988608.18221.9917311618240946123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Tue, 07 May 2024 16:38:39 -0000
+Message-Id: <171509991994.18497.3433423443591738172@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-user: andy
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
-  - ref: refs/heads/review-andy
-    old: 93ee235f55d3e1c881e766a320cedcad0b9aca42
-    new: 07aff931b5d4b584b0195ee16989bc3a5e51fa1d
+  - ref: refs/heads/master
+    old: d5d99ff503551d5f55aa1ead4d415d182cf44e12
+    new: 7802d80a9619c09a32eb488dc0297815d74cd1e2
     log: |
-         07aff931b5d4b584b0195ee16989bc3a5e51fa1d auxdisplay: charlcd: Provide a forward declaration
+         7802d80a9619c09a32eb488dc0297815d74cd1e2 atmodem: sim: when reading sim files, avoid incomplete result lines
          
