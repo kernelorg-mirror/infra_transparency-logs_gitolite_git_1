@@ -1,65 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============0119771310509841914=="
+Content-Type: multipart/mixed; boundary="===============3148963829585681152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 07 May 2024 14:34:43 -0000
-Message-Id: <171509248382.5330.1049575470684209259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Tue, 07 May 2024 14:35:17 -0000
+Message-Id: <171509251773.7187.2226319517532949774@gitolite.kernel.org>
 
---===============0119771310509841914==
+--===============3148963829585681152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/for-linus
-    old: 09068d624c490c0e89f33f963c402f1859964467
-    new: 6490bec6d5bf1001032c5efea94bdf5b5104bce9
-    log: |
-         6490bec6d5bf1001032c5efea94bdf5b5104bce9 ASoC: Intel: avs: boards: Properly name input device
-         
-  - ref: refs/heads/for-next
-    old: 94c721d6461c51943aa2e79e28d6a3b1dd4a5272
-    new: bb09a58ccd0aedf32478682c1120a4807c218393
-    log: revlist-94c721d6461c-bb09a58ccd0a.txt
+  - ref: refs/heads/kbuild
+    old: c33730f211e67b4850ffd2e0f62fb09bbdc59b30
+    new: 5e9e4712f006de40b2bf73859a33492e5ba2dd33
+    log: revlist-c33730f211e6-5e9e4712f006.txt
 
---===============0119771310509841914==
+--===============3148963829585681152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94c721d6461c-bb09a58ccd0a.txt
+Content-Disposition: attachment; filename=revlist-c33730f211e6-5e9e4712f006.txt
 
-6490bec6d5bf1001032c5efea94bdf5b5104bce9 ASoC: Intel: avs: boards: Properly name input device
-293ad28116e2c3e4d3eb28bd0378558edc897f55 ASoC: SOF: Intel: clarify Copyright information
-0e0440535de8e7c5c0ae0bd469b6ae184f9c732c ASoC: Intel: boards: clarify Copyright information
-5cf4ffa4113da2e797c8281bac2838d29f5a03bf ASoC: Intel: common: clarify Copyright information
-884077bd7110db61eddff086f9ab7f2c6748d169 ASoC: codecs: Intel: clarify Copyright information
-618ae0d7e740d212044ba25d0f1013374eda448a ASoC: Intel: catpt: clarify Copyright information
-94001147a09ffeaf0657db7c189af77cda427f30 ASoC: Intel: avs: clarify Copyright information
-83e495d7b29b663861c68a1ad77710b6315472ad ASoC: soc-topology-test: clarify Copyright information
-77678a25d1ecf70dc1d7ea2c0ab7609af15b83d3 ASoC: qcom: Use snd_soc_substream_to_rtd() for accessing private_data
-3beb985abbf29e660edd1708f8a120ae9bbbddc3 ASoC: tegra: Use snd_soc_substream_to_rtd() for accessing private_data
-72a666f47f958a57db16b6bdd9ed385674069693 ASoC: ti: Use snd_soc_substream_to_rtd() for accessing private_data
-a80f2f8443a4ae10c568566f57fe704ea52c5bdb ASoC: arm: Use snd_soc_substream_to_rtd() for accessing private_data
-a84d84077512fc64cf1fc2292a3638690a026737 ASoC: amd: Use snd_soc_substream_to_rtd() for accessing private_data
-b695d8be5bba9897ee670ec102ca608ecaf625c4 ASoC: fsl: Use snd_soc_substream_to_rtd() for accessing private_data
-3b62178720594e08bdf8a87515ccca0328fe41fe ASoC: img: Use snd_soc_substream_to_rtd() for accessing private_data
-fe42c3b75b93dee9a4010e2297f1783e48684af7 ASoC: kirkwood: Use snd_soc_substream_to_rtd() for accessing private_data
-ffad75cebb865fef6f8e40f921c08c79a8faf7e3 ASoC: loongson: Use snd_soc_substream_to_rtd() for accessing private_data
-410a45140fb76709cf2bbad84bc8a731acf632c8 ASoC: mediatek: Use snd_soc_substream_to_rtd() for accessing private_data
-22f5680a9cbc7388f97e5386c15c325d6961b958 ASoC: meson: Use snd_soc_substream_to_rtd() for accessing private_data
-3e726593107d134221f666b4f2be612b278c3ddb ASoC: samsung: Use snd_soc_substream_to_rtd() for accessing private_data
-47aa51677c975a5f66bc93d1c527e8878cf34d6c ASoC: sunxi: Use snd_soc_substream_to_rtd() for accessing private_data
-cfcd957e63506273dc54f34b320172c8709244c7 ASoC: codecs: wm8962: use 'time_left' variable with wait_for_completion_timeout()
-0800660d8c59539b628f5a6646bb63091d58152f ASoC: codecs: wm8993: use 'time_left' variable with wait_for_completion_timeout()
-19c70b4668306632d3cbbecdf5fea98b528e873e ASoC: codecs: wm8994: use 'time_left' variable with wait_for_completion_timeout()
-4e1f953a4a447b5e001655b453505c4c15904c61 ASoC: codecs: wm8996: use 'time_left' variable with wait_for_completion_timeout()
-ba04ff20062c14bfb3119aae5eec1a919ddd54d3 ALSA/ASoC: Intel: clarify Copyright information
-d98b07124ba42ba84740ca27f53ffba02abc1606 ASoC: Use snd_soc_substream_to_rtd() for accessing
-741e987d04324810a832205052872be45ecaf9f6 ASoC: use 'time_left' instead of 'timeout' with
-bb09a58ccd0aedf32478682c1120a4807c218393 Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
+9dcb47a616d552306a01c2032b81c0c920b06847 kbuild: do not add $(srctree) or $(objtree) to header search paths
+60b7c2862d8fbff10ed7af46db02a6b9ff95377f kbuild: use $(obj)/ instead of $(src)/ for common pattern rules
+9d19328ab0bc0d42d65c03f339c6f30a5e517b92 kbuild: use $(src) instead of $(srctree)/$(src) for source directory
+24af889afa67dfd3b1a09cc23d75011677ce8f29 kbuild: remove redundant $(wildcard ) for rm-files
+53476962a93afd9899cfaafafdff3c28bc01b140 kbuild: add 'private' to target-specific variables
+d6d2231355474e8196334f30a5f35daceb505e73 kbuild: simplify generic vdso installation code
+ab4e84b65fbb86d99ab8dabfdb67cad449919b7f kbuild: buildtar: install riscv compressed images as vmlinuz
+5701f800790617f2a368bc7aeea674a261cfb6ed kconfig: gconf: update pane correctly after loading a config file
+8d21a35438161e253482b0aa05c82bd6693076fd kconfig: gconf: remove debug code
+f3f488211d74f324b2312403d6c9afe5283896d9 kconfig: gconf: use MENU_CHANGED instead of SYMBOL_CHANGED
+33aa657f7c86e619ce3143d705e1e37b5c040d01 kconfig: use linked list in sym_set_changed()
+da351f3a893da16e76899324748e9a69c2193922 kconfig: turn conf_choice() into void function
+3a154a7e18f9c6168559f05e7e0415a23bfb89a5 kconfig: turn missing prompt for choice members into error
+ea7ce77699fc2d8d25a8026e83926e9e34b42b24 kconfig: turn defaults and additional prompt for choice members into error
+ab6650889d9aa17134422ab343fff4dcb5e115b2 kconfig: add sym_get_choice_menu() helper
+7de29b582486d318196d04b6a0cc1a0f662f0f17 kconfig: use sym_get_choice_menu() in conf_write_defconfig()
+5e9e4712f006de40b2bf73859a33492e5ba2dd33 kconfig: use menu_list_for_each_sym() in sym_check_choice_deps()
 
---===============0119771310509841914==--
+--===============3148963829585681152==--
