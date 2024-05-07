@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2235234662273700199=="
+Content-Type: multipart/mixed; boundary="===============8845200608171961841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 07 May 2024 02:00:06 -0000
-Message-Id: <171504720674.11236.2680327174995846449@gitolite.kernel.org>
+Date: Tue, 07 May 2024 02:00:22 -0000
+Message-Id: <171504722278.11430.8495497756277413029@gitolite.kernel.org>
 
---===============2235234662273700199==
+--===============8845200608171961841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 10dafcce0ee1868d622f2e2ea85f3835d6076d96
-    new: e82f72587d19feee43108476cc057ff267ddfbef
-    log: revlist-10dafcce0ee1-e82f72587d19.txt
+  - ref: refs/heads/6.10/scsi-staging
+    old: aca061774bc412c1415242f0d2579143dd642b46
+    new: 40ae6a1ee5fd8079e895295c2cf18fd5d15867e1
+    log: revlist-aca061774bc4-40ae6a1ee5fd.txt
 
---===============2235234662273700199==
+--===============8845200608171961841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1715047192 -0400
+pusher 75C5DE3D 1715047209 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1715047191-9def95d78394c2c6bea1c937de7d5495886efa5e
+nonce 1715047209-1203a9d2df25460d03d2515e6c08f5337f7ccd0c
 
-10dafcce0ee1868d622f2e2ea85f3835d6076d96 e82f72587d19feee43108476cc057ff267ddfbef refs/tags/mkp-scsi-staging
+aca061774bc412c1415242f0d2579143dd642b46 40ae6a1ee5fd8079e895295c2cf18fd5d15867e1 refs/heads/6.10/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmY5ixgACgkQ7ulgGnXF
-3j2NMRAAgDedSDsW+ggVqPLRQiov4P3c9xSKKQ3hgs+SkB7BmF8fD3z5ORAB5f23
-jxF4NJ2bb6cAzD50sSrsGXf3tp1WC0OalhbCQSkw0PsxKsVLUWeQWCx6yZmXaSBi
-S3u3sGCq9XKPGOofT5luZzp1Fms1W4w9btglOGk4iicU4XnxpRapytOZ5ZDQv0Dm
-b125nHG8JNTyWvI5El8h+h0tOpyyYSEneGipW7E8+HVxoQJoh0VT12G4WFlooFq6
-lDYbUv3LMdWFSGmTIpz5jWi8WJNZYMle634ccg1mdqZf+4ClIBFYnXMINE1+ZihW
-6z3S9V4oaRKl0uqtcXCHpzvVXmNIEYYWPyfojkVMssUBDafnKANpPxtaaFuIdJ6Z
-Xiub6eNcrBukFAwGFEWC673x/bsDHah1H13AQTGi6yX8ns/vU5kbhkD0qatL+4XZ
-uvAs02LSUPEOwPDShREqdDLI8z1+G9LHcl71+TVP5aQDH4SCelxtiVWRyfJZ7iwz
-++IV4Oe9kpyMNA5lSB/gToYVfbObZ6nwvry11LMUoz+Y6PP/3aOy4qmAvgxgYYZv
-mE7NmeLqIULOZmstq25GP3Z1CmMp7uSMDrgr5w4D+0tPEHl3oOn2FmbPnUOpF8XD
-4JMjwC+Rc2tM4gHVaKetACRGECwDZ7cyiK98A65f0c7FyuQSsEg=
-=x6of
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmY5iykACgkQ7ulgGnXF
+3j0WaQ//cEMfVM2CVluEfVRrsbhhXitEk2PCsylwYm4QOO4Pwpht9WD2BN/LvR9k
+nCWw/7LvKQXx7CKC+T0zWVfez7n606uJBe8f7gOkJGGbX7wL5MYBLZKFC5sjDiCW
+wfkr03by5vI737GHCkOmT1UJv1ENCSDqzTPmpONrvTK9EMorCbVhGNvZSJzavJOS
+Bf7M5CxTtxNme6m0VTQgngeYmYw7d1yWGu3n15wYCZJFTCMrkKJeqRgI5fwkdZkG
+wE7KKcLR6mmoNzmaSeVpTO7GkdwI+LVG/UYn98J0JeklsuemKRdnW3aBXNeAxHBv
+5raTuH1ts3QiJK50iwBwQ++avuKlXUxuWegG7QxEUvCUWF/e0GbJIPosdMcAOzwX
+mqO3Vx4NBtge0d8JE8CEodFOirjILALilqnpQPVPsQn1wF3t7MALtI8nvLQqWdnf
+cCQcHCxtQJVPtzilq4tPwv4z/3TwmzYlkuzEZvyTvEDcvY6VyDkxep9duIQBH6l3
+jjmfb7WL4WoU1RQnjbRECWSFqqLv0oVE1M/QScu7ZyIkHqNSfI9WzUQRqAo9H8/V
+rmvWKyUGKHhmcRWZd1Ey5Nl6cHRz0N3uQ6+wmHM9Gxxjbf62xjAn0OJfakqmSQwt
+xXN3qW5VwbRMjx1PY8CFvuZBBqJhVOL9R8UVK1uDqosX6CJyjQc=
+=qaO+
 -----END PGP SIGNATURE-----
 
---===============2235234662273700199==
+--===============8845200608171961841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10dafcce0ee1-e82f72587d19.txt
+Content-Disposition: attachment; filename=revlist-aca061774bc4-40ae6a1ee5fd.txt
 
 13d0cecb4626fae67c00c84d3c7851f6b62f7df3 scsi: bfa: Ensure the copied buf is NUL terminated
 d0184a375ee797eb657d74861ba0935b6e405c62 scsi: qedf: Ensure the copied buf is NUL terminated
@@ -79,4 +79,4 @@ af20bb73ac2591631d504f3f859f073bcdb7e11e scsi: lpfc: Add support for 32 byte CDB
 3f1d179f8f478ce4ec45c5f7823c144c98e5ca46 scsi: lpfc: Copyright updates for 14.4.0.2 patches
 40ae6a1ee5fd8079e895295c2cf18fd5d15867e1 Merge patch series "Update lpfc to revision 14.4.0.2"
 
---===============2235234662273700199==--
+--===============8845200608171961841==--
