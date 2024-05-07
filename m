@@ -1,63 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============4411335909632440793=="
+Content-Type: multipart/mixed; boundary="===============0119771310509841914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 07 May 2024 14:33:38 -0000
-Message-Id: <171509241808.4847.15605365851890245780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 07 May 2024 14:34:43 -0000
+Message-Id: <171509248382.5330.1049575470684209259@gitolite.kernel.org>
 
---===============4411335909632440793==
+--===============0119771310509841914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: bd381c9d151467e784988bbacf22bd7ca02455d6
-    new: 741e987d04324810a832205052872be45ecaf9f6
-    log: revlist-bd381c9d1514-741e987d0432.txt
-  - ref: refs/heads/asoc-6.9
+  - ref: refs/heads/for-linus
     old: 09068d624c490c0e89f33f963c402f1859964467
     new: 6490bec6d5bf1001032c5efea94bdf5b5104bce9
     log: |
          6490bec6d5bf1001032c5efea94bdf5b5104bce9 ASoC: Intel: avs: boards: Properly name input device
          
+  - ref: refs/heads/for-next
+    old: 94c721d6461c51943aa2e79e28d6a3b1dd4a5272
+    new: bb09a58ccd0aedf32478682c1120a4807c218393
+    log: revlist-94c721d6461c-bb09a58ccd0a.txt
 
---===============4411335909632440793==
+--===============0119771310509841914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-94c721d6461c-bb09a58ccd0a.txt
 
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1715092416 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1715092415-5e969c92e71a6e07ff738bd3cea709ee1910939b
-
-bd381c9d151467e784988bbacf22bd7ca02455d6 741e987d04324810a832205052872be45ecaf9f6 refs/heads/asoc-6.10
-09068d624c490c0e89f33f963c402f1859964467 6490bec6d5bf1001032c5efea94bdf5b5104bce9 refs/heads/asoc-6.9
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmY6O8ATHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0OpkB/4yCE82srPQr02oBWRFAH6/F2mVw/DX
-1z3OSxcR59p73FoLLqCQupYe8Hk8UbfzKG5D7SfFmc8JIhEydqqvl9npKuYrGN1D
-mLZhPFFf65VBTZpTygr+MqSsj22EuDYklGYnjwiQLDqHO7rLIdW1+ZrsdMbRPU/U
-+0b01WYk1bEhBuyaLwt/GVWvIoDjAAwxrUrkSZrk7LQ4LeXtnHk/pdS5pAMqmkwO
-7dKjp+9k2+1Y7PTPtppu13szelAH/psUyMF4NV7dcgXhejroWKS6z4nlMThEJTaF
-HP42eBc6dZ4nEbYScRLtzRXssZkNGSkp1Gw6TqyDXBYf9O4hH0xrwkuR
-=0Snv
------END PGP SIGNATURE-----
-
---===============4411335909632440793==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd381c9d1514-741e987d0432.txt
-
+6490bec6d5bf1001032c5efea94bdf5b5104bce9 ASoC: Intel: avs: boards: Properly name input device
 293ad28116e2c3e4d3eb28bd0378558edc897f55 ASoC: SOF: Intel: clarify Copyright information
 0e0440535de8e7c5c0ae0bd469b6ae184f9c732c ASoC: Intel: boards: clarify Copyright information
 5cf4ffa4113da2e797c8281bac2838d29f5a03bf ASoC: Intel: common: clarify Copyright information
@@ -85,5 +60,6 @@ cfcd957e63506273dc54f34b320172c8709244c7 ASoC: codecs: wm8962: use 'time_left' v
 ba04ff20062c14bfb3119aae5eec1a919ddd54d3 ALSA/ASoC: Intel: clarify Copyright information
 d98b07124ba42ba84740ca27f53ffba02abc1606 ASoC: Use snd_soc_substream_to_rtd() for accessing
 741e987d04324810a832205052872be45ecaf9f6 ASoC: use 'time_left' instead of 'timeout' with
+bb09a58ccd0aedf32478682c1120a4807c218393 Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
 
---===============4411335909632440793==--
+--===============0119771310509841914==--
