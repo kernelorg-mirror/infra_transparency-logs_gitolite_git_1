@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
-Date: Tue, 07 May 2024 14:39:23 -0000
-Message-Id: <171509276371.10431.14004419417968851207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 07 May 2024 14:54:29 -0000
+Message-Id: <171509366955.20712.3104598059713346922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rt-tests/rt-tests
-user: jkacur
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: edba2464faefad66d3aaef2ce82f07c64a5fc11b
-    new: 5bd94923ffda2ab326d081926dbfc6775fb5050b
-    log: |
-         5bd94923ffda2ab326d081926dbfc6775fb5050b rt-tests: Change to version v2.7
-         
+  - ref: refs/heads/fileSu8E8S
+    old: 0000000000000000000000000000000000000000
+    new: eab80a2ee46bb362e2c4434cf0da96d3a6bda544
