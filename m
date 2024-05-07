@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 07 May 2024 16:19:59 -0000
-Message-Id: <171509879912.3853.10316648581974531227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Tue, 07 May 2024 16:24:12 -0000
+Message-Id: <171509905257.7024.13924943487407301343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
+repo: pub/scm/network/ofono/ofono
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 78bdb262962aa6da579998505e9a3fe894b3ac11
-    new: 5fb3ac59378b5f796629678cc462c66acdfd36b5
+    old: e77a7faebd2354273f8fe5136b5da1268cd3073d
+    new: d5d99ff503551d5f55aa1ead4d415d182cf44e12
     log: |
-         9274f70fec5826df7fcc1766dcac85a63e164923 handshake: add functions to save and set IGTK
-         5fb3ac59378b5f796629678cc462c66acdfd36b5 eapol: include IGTK in 4-way handshake as AP
+         d5d99ff503551d5f55aa1ead4d415d182cf44e12 qmimodem: Fix error path memory leak in gobi
          
