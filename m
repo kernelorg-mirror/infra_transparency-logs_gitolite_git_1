@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 07 May 2024 01:38:01 -0000
-Message-Id: <171504588186.26635.9146894896308806384@gitolite.kernel.org>
+Date: Tue, 07 May 2024 01:38:10 -0000
+Message-Id: <171504589064.26759.11611886819511610234@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20240503_pierre_louis_bossart_alsa_asoc_intel_clarify_copyright_information
-    old: 83e495d7b29b663861c68a1ad77710b6315472ad
+  - ref: refs/heads/20240430_krzysztof_kozlowski_asoc_use_snd_soc_substream_to_rtd_for_accessing_private_data
+    old: 47aa51677c975a5f66bc93d1c527e8878cf34d6c
     new: 0000000000000000000000000000000000000000
