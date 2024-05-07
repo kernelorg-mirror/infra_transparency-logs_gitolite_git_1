@@ -1,37 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5089655440299508107=="
+Content-Type: multipart/mixed; boundary="===============4410155810444394359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 07 May 2024 10:51:45 -0000
-Message-Id: <171507910588.24517.7081150699240307994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Tue, 07 May 2024 11:04:51 -0000
+Message-Id: <171507989194.32548.16572723626954417434@gitolite.kernel.org>
 
---===============5089655440299508107==
+--===============4410155810444394359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/master-pending
-    old: d109402a1cbe13551c2a78357fb3ff2fdab5076f
-    new: 23e85f9febbabb62d6781758ec02d2a50b70a6ea
-    log: revlist-d109402a1cbe-23e85f9febba.txt
-  - ref: refs/heads/pending
-    old: 50b2c5d63ae20d64af6dd8f9a766dca266669520
-    new: 262064c0fdc67c2a27756d0c5491d393583c921a
-    log: revlist-50b2c5d63ae2-262064c0fdc6.txt
-  - ref: refs/tags/ath-pending-202405071048
-    old: 0000000000000000000000000000000000000000
-    new: 23e85f9febbabb62d6781758ec02d2a50b70a6ea
+  - ref: refs/heads/for-kernelci
+    old: 78186bd77b478c474e719409c0569ce48eb73a57
+    new: 1c9135d29e9ec681b8c6abadf80a7f3721c20f7c
+    log: revlist-78186bd77b47-1c9135d29e9e.txt
+  - ref: refs/heads/for-next/core
+    old: 02a5cc61de0630a3c30005ecee7eaedec4c7871f
+    new: d794066844edd962856ac4b8bb7d961793340260
+    log: |
+         b28c74e259675aa0eade6be5d5efaa4d72e06c83 arm64/mm: generalize PMD_PRESENT_INVALID for all levels
+         f0f5863a0fb0fb48a5881c3f6acca1958899dd76 arm64/mm: Remove PTE_PROT_NONE bit
+         55564814a838f1d2429dc757294df798f5262bd2 arm64/mm: Move PTE_PRESENT_INVALID to overlay PTE_NG
+         5b32510af77bdb275b022dc0d6d5b9c61751065b arm64/mm: Add uffd write-protect support
+         d794066844edd962856ac4b8bb7d961793340260 Merge branches 'for-next/acpi', 'for-next/kbuild', 'for-next/misc', 'for-next/mm', 'for-next/perf', 'for-next/selftests' and 'for-next/tlbi' into for-next/core
+         
+  - ref: refs/heads/for-next/mm
+    old: 0e9df1c905d8293d333ace86c13d147382f5caf9
+    new: 5b32510af77bdb275b022dc0d6d5b9c61751065b
+    log: |
+         b28c74e259675aa0eade6be5d5efaa4d72e06c83 arm64/mm: generalize PMD_PRESENT_INVALID for all levels
+         f0f5863a0fb0fb48a5881c3f6acca1958899dd76 arm64/mm: Remove PTE_PROT_NONE bit
+         55564814a838f1d2429dc757294df798f5262bd2 arm64/mm: Move PTE_PRESENT_INVALID to overlay PTE_NG
+         5b32510af77bdb275b022dc0d6d5b9c61751065b arm64/mm: Add uffd write-protect support
+         
 
---===============5089655440299508107==
+--===============4410155810444394359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d109402a1cbe-23e85f9febba.txt
+Content-Disposition: attachment; filename=revlist-78186bd77b47-1c9135d29e9e.txt
 
 546a4f4b5f4d930ea57f5510e109acf08eca5e87 iio: pressure: Fixes BME280 SPI driver data
 5ca29ea4e4073b3caba750efe155b1bd4c597ca9 iio: pressure: Fixes SPI support for BMP3xx devices
@@ -102,24 +114,9 @@ dc7d7447b56bcc9cf79a9c22e4edad200a298e4c bpf, arm64: Fix incorrect runtime stats
 10541b374aa05c8118cc6a529a615882e53f261b riscv, bpf: Fix incorrect runtime stats
 398c9955bdead2cf027cc263c13e7bd75e9d9116 Merge tag 'renesas-pinctrl-fixes-for-v6.9-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into fixes
 9a039db9273b44427b3daca88173e57596545ec0 ASoC: SOF: Core: Handle error returned by sof_select_ipc_and_paths
-c6330b129786e267b14129335a08fa7c331c308d wifi: rtw89: pci: correct TX resource checking for PCI DMA channel of firmware command
-df0fa9d0d23ac7516d6baca5fecab21e539d00ec wifi: rtw89: sar: correct TX power boundary for MAC domain
-bb38626f3f97e16e6d368a9ff6daf320f3fe31d9 wifi: rtw89: fw: scan offload prohibit all 6 GHz channel if no 6 GHz sband
-a08f9f21668b7c35e560e103bef418470cc597fb wifi: rtw89: 8852c: update TX power tables to R69.1 (1 of 2)
-969efe4ef8376d850410ca4370e73d49cfa4fb15 wifi: rtw89: 8852c: update TX power tables to R69.1 (2 of 2)
-01e67a62fd3070d49e0110888df515827c99a6fd wifi: rtw89: regd: block 6 GHz by policy if not specific country
-d3c846367e3157704a2da29e5962dc6ef5300503 wifi: rtw89: regd: extend policy of UNII-4 for IC regulatory
-d03aeddf34ca0e2fbb6b9b81d1d11728e1b364f5 wifi: rtw89: acpi: process 6 GHz SP policy from ACPI DSM
-5a84cc87635029a8fa589328daa6c2b532e28c09 wifi: rtw89: regd: handle policy of 6 GHz SP according to BIOS
 4cbb5050bffc49c716381ea2ecb07306dd46f83a ASoC: Intel: avs: Set name of control as in topology
 d18ca8635db2f88c17acbdf6412f26d4f6aff414 ASoC: ti: davinci-mcasp: Fix race condition during probe
-08b5d052d17a89bb8706b2888277d0b682dc1610 wifi: rtl8xxxu: Fix the TX power of RTL8192CU, RTL8723AU
 32ac501957e5f68fe0e4bf88fb4db75cfb8f6566 ASoC: codecs: wsa881x: set clk_stop_mode1 flag
-d50334c38af65ac5cdcc4a1b66b26c79922e1e06 wifi: rtw89: set WIPHY_FLAG_DISABLE_WEXT before MLO
-0a548ecac7b9f148269340eff90fa06aa7aac876 wifi: rtw89: 8922a: fix argument to hal_reset in bb_cfg_txrx_path
-8cb090b7006889b622e916c353ce07d93fbd7baa wifi: rtw88: suppress messages of failed to flush queue
-55e2843dd33a55f448579f1ab69aabe6f7077b04 Revert "wifi: rtl8xxxu: enable MFP support"
-cbfbb4ddbc8503478e0a138f9a31f61686cc5f11 wifi: rtl8xxxu: enable MFP support with security flag of RX descriptor
 02cd2d3be1c31a3fd328ee83e576340d34bc57d9 pinctrl: renesas: rzg2l: Configure the interrupt type on resume
 843c3280686fc1a83d89ee1e0b5599c9f6b09d0c s390/mm: Fix storage key clearing for guest huge pages
 412050af2ea39407fe43324b0be4ab641530ce88 s390/mm: Fix clearing storage keys for huge pages
@@ -131,18 +128,6 @@ f2602fba4723e408380eb9a56e921d36a1ae21f8 ASoC: cs35l56: Avoid static analysis wa
 96e20adc43c4f81e9163a5188cee75a6dd393e09 regulator: change stubbed devm_regulator_get_enable to return Ok
 49a940dbdc3107fecd5e6d3063dc07128177e058 powerpc/pseries/iommu: LPAR panics during boot up with a frozen PE
 bda16500dd0b05e2e047093b36cbe0873c95aeae ASoC: rt715-sdca: volume step modification
-110951b8faa0b0ac412f67517d2a5c148ea99abe wifi: rtl8xxxu: Add separate MAC init table for RTL8192CU
-fbeddb4a767de1d5d6762a1cc54836e1dc8a8fd2 wifi: rtl8xxxu: Add LED control code for RTL8192CU family
-feaedb05fc47f3078eecdefa317db8e79a24b0e2 wifi: rtl8xxxu: Add LED control code for RTL8723BU
-a4f19fd7dcea99970927df1dac5bba60b905f4d3 wifi: rtw89: coex: Allow Bluetooth doing traffic during Wi-Fi scan
-b5d8d19de28478e679f6977b07a8aa0091c6e889 wifi: rtw89: coex: Add v7 firmware cycle status report
-ac83ba93b22d32799f7fc36b838b0808b4b040c6 wifi: rtw89: coex: Add version 3 report map of H2C command
-89d06325364a7e615e71bde2ed4689611749a2ef wifi: rtw89: coex: Add PTA path control condition for chip RTL8922A
-c95d34c7d6763156fd9fc6b6da66b80c24b9abd5 wifi: rtw89: coex: Update Bluetooth polluted Wi-Fi TX logic
-b952cb0a6e2d2e6942de3f8c6a1bd985815b9550 wifi: rtw89: coex: Add register monitor report v7 format
-de656c77c72e4571386277f9ae1dcc341896bb6e wifi: rtw89: coex: Add GPIO signal control version 7
-45deb9e6a60b6ff6a623d0ff355f0ea5289776b7 wifi: rtw89: coex: Add coexistence firmware control report version 8
-4ea11e4db3550ee655b411b43498552e8c6ead01 wifi: rtw89: coex: Re-order the index for the report from firmware
 57a01eafdcf78f6da34fad9ff075ed5dfdd9f420 workqueue: Fix selection of wake_cpu in kick_pool()
 24729b307eefcd7c476065cd7351c1a018082c19 usb: gadget: f_fs: Fix race between aio_cancel() and AIO request complete
 ec6ce7075ef879b91a8710829016005dc8170f17 usb: gadget: composite: fix OS descriptors w_value logic
@@ -201,21 +186,9 @@ e8289fd3fa65d60cf04dab6f7845eda352c04ea6 ALSA: emu10k1: fix E-MU dock initializa
 17597b1e18d2fafef2230c987479eccaeddb4628 erofs: modify the error message when prepare_ondemand_read failed
 07abe43a28b2c660f726d66f5470f7f114f9643a erofs: get rid of erofs_fs_context
 7af2ae1b1531feab5d38ec9c8f472dc6cceb4606 erofs: reliably distinguish block based and fscache mode
-7be73dc106a97f8488e386c4e0bf05069e989592 wifi: rtw89: fix CTS transmission issue with center frequency deviation
-3ef60f44830aa87c82d0d1affb3bbfce680ddde4 wifi: rtw89: 8852b: update hardware parameters for RFE type 5
-430d80e79477fac970d8e26dabd761ba403b4989 wifi: rtw89: coex: Add Wi-Fi null data status version 7
-e5d0305a2b558471c964e55f3291972c73dfbb4a wifi: rtw89: coex: Add Bluetooth scan parameter report version 7
-b60b46863375a57f73aa5679bba19c350c269a21 wifi: rtw89: coex: Add Bluetooth frequency hopping map version 7
-1a5565d81285a2f92643db5c26d5390c22fe6826 wifi: rtw89: coex: Add Bluetooth version report version 7
-947cbc6ead46c27039c13c3732d729541b2288be wifi: rtw89: coex: Fix unexpected value in version 7 slot parameter
-efb85ded5c202381af20202e7bf238c7118c7448 wifi: rtw89: coex: Add Wi-Fi role v8 condition when set Bluetooth channel
-11173c7062dbd38ff67a1f11a086b769a90d2340 wifi: rtw89: coex: Add Wi-Fi role v8 condition when set BTG control
-416a445ec328c53ad5f24e000182ac027f0f9cf5 wifi: rtw89: coex: Check and enable reports after run coex
 ae92765373c3bd82575041cf2910c96e1ba03118 bcachefs: Remove accidental debug assert
 f7c3dc2646584cddae6fedc517cd58d97483e5cc bcachefs: btree node scan now fills in sectors_written
 c258c08add1cc8fa7719f112c5db36c08c507f1e bcachefs: fix integer conversion bug
-5eb027019fa3a5ee7d1ab12e31200afa00d5cb76 wifi: rtw89: Remove the redundant else branch in the function rtw89_phy_get_kpath
-ed403e86c8269b5d594dea380b09a0a76e7872ea wifi: rtlwifi: rtl8723be: Make read-only arrays static const
 1dd1eff161bd55968d3d46bc36def62d71fb4785 softirq: Fix suspicious RCU usage in __do_softirq()
 b7cf2a1d9881823133acc48427815a48b35b49f4 xtensa: remove redundant flush_dcache_page and ARCH_IMPLEMENTS_FLUSH_DCACHE_PAGE macros
 d85cf67a339685beae1d0aee27b7f61da95455be net: bcmgenet: synchronize EXT_RGMII_OOB_CTRL access
@@ -325,17 +298,6 @@ a30a7a29c35ef9d90bdec86d3051c32f47d6041f Merge tag 'asoc-fix-v6.9-rc6' of https:
 080cbb890286cd794f1ee788bbc5463e2deb7c2b tipc: fix UAF in error path
 97bf6f81b29a8efaf5d0983251a7450e5794370d tipc: fix a possible memleak in tipc_buf_append
 f7789419137b18e3847d0cc41afd788c3c00663d vxlan: Pull inner IP header in vxlan_rcv().
-de4d4be4fa64ed7b4aa1c613061015bd8fa98b24 wifi: rtlwifi: rtl8192de: Fix 5 GHz TX power
-a7c0f48410f546772ac94a0f7b7291a15c4fc173 wifi: rtlwifi: rtl8192de: Fix low speed with WPA3-SAE
-2f228d364da95ab58f63a3fedc00d5b2b7db16ab wifi: rtlwifi: rtl8192de: Fix endianness issue in RX path
-db5ae2e1826b99393d645e37d8db5047a0e5c3d7 wifi: rtlwifi: Move code from rtl8192de to rtl8192d-common
-d75589a0133d428aee3697ce15812129c065f795 wifi: rtlwifi: Clean up rtl8192d-common a bit
-014bba73b5254a181b5fbb1a4e1cb9d0052c2ee2 wifi: rtlwifi: Adjust rtl8192d-common for USB
-535c045da60fec1afb31919a9df3e06574d4dc52 wifi: rtw89: reset AFEDIG register in power off sequence
-4e5957101d421627ed9e7ef8ce43a7e50e6d5822 wifi: rtw89: 8852c: refine power sequence to imporve power consumption
-a890495b297b64880d34f32c0b8b3668bbf226da wifi: rtl8xxxu: remove some unused includes
-028fa281712d965667c182e741f8cc84d94c8f32 wifi: rtl8xxxu: remove rtl8xxxu_ prefix from filenames
-949f6f3aeb8721ad092d704ef10f5c5e79472d64 wifi: rtl8xxxu: cleanup includes
 fdb3f29dfe0d51bdb8e7b3a6d876ea8339d44df8 ALSA: hda/realtek: Fix build error without CONFIG_PM
 8a2e4d37afb8500b276e5ee903dee06f50ab0494 s390/qeth: Fix kernel panic after setting hsuid
 d43cd48ef1791801c61a54fade4a88d294dedf77 drm/panel: ili9341: Correct use of device property APIs
@@ -362,8 +324,6 @@ f03359bca01bf4372cf2c118cd9a987a5951b1c8 Merge tag 'for-6.9-rc6-tag' of git://gi
 5c75d681321635ba29529bd7242c3bfc2ba43715 Merge tag 'drm-xe-fixes-2024-05-02' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 09e10499ee6a5a89fc352f25881276398a49596a Merge tag 'drm-misc-fixes-2024-05-02' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 98241a774db49988f25b7b3657026ce51ccec293 slimbus: qcom-ngd-ctrl: Add timeout for wait operation
-3d913719df14c28c4d3819e7e6d150760222bda4 wifi: iwlwifi: Use request_module_nowait
-838c7b8f1f278404d9d684c34a8cb26dc41aaaa1 wifi: nl80211: Avoid address calculations via out of bounds array indexing
 9fbc8bdf17babc2c20dcd51ac25ed12e342dedd0 Merge tag 'spi-fix-v6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 b5a66609a643443e2b14773dcc784496ee1e5457 Merge tag 'drm-fixes-2024-05-03' of https://gitlab.freedesktop.org/drm/kernel
 7dc78c7b4411e942edcf3796d81c001069b15253 Merge tag 'sound-6.9-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
@@ -371,20 +331,6 @@ b5a66609a643443e2b14773dcc784496ee1e5457 Merge tag 'drm-fixes-2024-05-03' of htt
 f094ee78e01f5ee08d9489b4250fa1963fef81ab Merge tag 'efi-urgent-for-v6.9-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 ddb4c3f25b7b95df3d6932db0b379d768a6ebdf7 Merge tag 'for-linus-6.9a-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 7367539ad4b0f8f9b396baf02110962333719a48 Merge tag 'cxl-fixes-6.9-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-a79264e8c7d378ef4792b66e118d4f5e759795e3 wifi: rtw89: wow: send RFK pre-nofity H2C command in WoWLAN mode
-baaf806e4632a259cc959fd1c516c2d9ed48df6d wifi: rtw89: wow: refine WoWLAN flows of HCI interrupts and low power mode
-92790c4e50d2016a625395087974edce8b02fa68 wifi: rtw89: wow: parsing Auth Key Management from associate request
-803a96f477beafd002c50d09d74e043a552ccaf9 wifi: rtw89: wow: prepare PTK GTK info from mac80211
-9076bf365e132eea6d0e17c78e079a4e4c6b976e wifi: rtw89: use struct to access firmware command h2c_dctl_sec_cam_v1
-786737b6b708006bdf61ecb9bdce2e1283bd7be0 wifi: rtw89: use struct to fill H2C of WoWLAN global configuration
-ed9a3c0d4dd9ce79ff7f65238164a96da1b52dbf wifi: rtw89: wow: construct EAPoL packet for GTK rekey offload
-0291633afef8db6606caede253b217ed661272ed wifi: rtw89: wow: add GTK rekey feature related H2C commands
-ff53fce5c78ba27ec7eb0baff7ef9648fde7ad8e wifi: rtw89: wow: update latest PTK GTK info to mac80211 after resume
-940cd99625de8c75209b1169e6cd5698075c0a37 wifi: rtw89: wow: support 802.11w PMF IGTK rekey
-e765370fdcedf2653a991fdb5fc852be9e569891 wifi: rtw89: wow: support WEP cipher on WoWLAN
-58ed86e1666b3afaef8c303cfa6a734c96efeb85 wifi: rtw89: wow: add ARP offload feature
-f506e3ee547669cd96842e03c8a772aa7df721fa wifi: rtw89: correct aSIFSTime for 6GHz band
-b3e11ee3b97e875ff2d809978c4311e17f117669 wifi: rtlwifi: Remove unused structs and avoid multiple -Wfamnae warnings
 b63db58e2fa5d6963db9c45df88e60060f0ff35f eventfs/tracing: Add callback for release of an eventfs_inode
 ee4e0379475e4fe723986ae96293e465014fa8d9 eventfs: Free all of the eventfs_inode after RCU
 baa23a8d4360d981a49913841a726edede5cdd54 tracefs: Reset permissions on remount if permissions are options
@@ -392,7 +338,6 @@ baa23a8d4360d981a49913841a726edede5cdd54 tracefs: Reset permissions on remount i
 d53891d348ac3eceaf48f4732a1f4f5c0e0a55ce eventfs: Do not differentiate the toplevel events directory
 22e61e15af731dbe46704c775d2335e56fcef4e9 eventfs: Do not treat events directory different than other directories
 d57cf30c4c07837799edec949102b0adf58bae79 eventfs: Have "events" directory get permissions from its parent
-82b85a836a5911ccde97fcbfb642279f5b680ed0 wifi: rtlwifi: 8192d: initialize rate_mask in rtl92de_update_hal_rate_mask()
 61ccc8c3e59a8bf0b0ae046bbd72bd23846b5fa2 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 4fbcf58590a85cdabc48c1541d4f7031b22829f0 Merge tag 'dma-mapping-6.9-2024-05-04' of git://git.infradead.org/users/hch/dma-mapping
 e92b99ae8216dec2566711dae0a9b7b47591e315 Merge tag 'trace-v6.9-rc6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
@@ -406,85 +351,7 @@ ef095257750bb434959648331e48e44705d802e9 Merge tag 'powerpc-6.9-4' of git://git.
 f462ae0edd3703edd6f22fe41d336369c38b884b Merge tag 'edac_urgent_for_v6.9_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 4efaa5acf0a1d2b5947f98abb3acf8bfd966422b epoll: be better about file lifetimes
 dd5a440a31fae6e459c0d6271dddd62825505361 Linux 6.9-rc7
-2d6c7177605622aa8650fd012effced921936f83 Merge tag 'rtw-next-2024-05-04-v2' of https://github.com/pkshih/rtw
-2f324144e075e135991ecad073653176a8dfd000 Merge wireless into wireless-next
-72c19df24a3e352b5eefd6657cf8d4051ccf77c5 wifi: iwlwifi: cleanup EMLSR when BT is active handling
-2f33561ea8f98c9bbe99d09c4075fbdd648502bd wifi: iwlwifi: mvm: trigger link selection after exiting EMLSR
-e5bf75dc46e16842a29903cecd22ae7b7a1cd4e4 wifi: iwlwifi: mvm: add a debugfs for (un)blocking EMLSR
-f23caa392a1b9914424f33d17b6d3ee9b34fb125 wifi: iwlwifi: mvm: Always allow entering EMLSR from debugfs
-1d52e8ca4cba508011fb5a50b968116a2317642a wifi: iwlwifi: mvm: don't always unblock EMLSR
-ec0d43d26f2ca40d3bfb0678985a6ed1e9ed3887 wifi: iwlwifi: mvm: Activate EMLSR based on traffic volume
-e619ad55b9fd535b266a9fbcdc48cc3a3e08d746 wifi: iwlwifi: mvm: consider FWs recommendation for EMLSR
-bc6a7fae761cc1a2c0c3699cfcabcfebca021481 wifi: iwlwifi: mvm: trigger link selection upon TTLM start/end
-8ecdc570781d1664516323a52152493c856df215 wifi: iwlwifi: mvm: avoid always prefering single-link
-ae7fe563e572dde754e905c85ae575a4a2726eaa wifi: iwlwifi: mvm: Disable/enable EMLSR due to link's bandwidth/band
-2f876f910b34061b0c4bb744dee3174c9881da1f wifi: iwlwifi: mvm: exit EMLSR when CSA happens
-eead3591096e1cf5ab7f8ee9313b13e7727a4044 wifi: iwlwifi: mvm: fix typo in debug print
-a1efeb823084020c31412cc8f2b5d110ad3e58a3 wifi: iwlwifi: mvm: Block EMLSR when a p2p/softAP vif is active
-966a4d9bd3070c7458cf0719fa118b8a0ed7602e wifi: iwlwifi: Print EMLSR states name
-950a3f5f3f8dbe9d32d6495b017448d7caf0219f wifi: iwlwifi: mvm: don't reset link selection during restart
-0897fc66ac02560682b4da79b4b1d6a0bcd68a95 wifi: iwlwifi: mvm: use already determined cmd_id
-4e8a56aab3fb8cdf7843bc24d67ca25440085f1a wifi: iwlwifi: mvm: fix primary link setting
-b5b0cb5827dd75368e42237b3703748ed768494d wifi: iwlwifi: bump FW API to 90 for BZ/SC devices
-05f10dad0380027cfc3e6f2ef818748c86b9d23e wifi: iwlwifi: mvm: Add active EMLSR blocking reasons prints
-ff907d97448689806526ee889aa937fd682a626a wifi: iwlwifi: mvm: add a debugfs for reading EMLSR blocking reasons
-05fe96061d175a9ee71e9cd0a4636237d08a79ef wifi: iwlwifi: mvm: Add a print for invalid link pair due to bandwidth
-2e194efa38093f5f216802f08afc5b4b0a615ccf wifi: iwlwifi: mvm: Fix race in scan completion
-97320888cb1582312bb171f4d8b5adc96e630333 wifi: iwlwifi: mvm: add the firmware API for channel survey
-fc612222416ce206e01d7509b013bad41a051d83 wifi: iwlwifi: mvm: record and return channel survey information
-126ec41e5467289a04b35a165909b884503c1a8e wifi: iwlwifi: Force SCU_ACTIVE for specific platforms
-2848df961f18824fa707960477827e8772d451c6 wifi: iwlwifi: mvm: align UATS naming with firmware
-bf0212fd8faa55131bfe5765ccbbaaeb156b5046 wifi: iwlwifi: mvm: add beacon template version 14
-df966c93f5a9c060df525272d9c1eb37795a88f5 wifi: iwlwifi: mvm: exit EMLSR if secondary link is not used
-b31b77b73d65d5b0a763243ca3a5c3fda3b02816 wifi: iwlwifi: mvm: don't request statistics in restart
-9875b54762a7055bc59c436950c73dd112765e6c wifi: iwlwifi: Ensure prph_mac dump includes all addresses
-4c2b796be3a12a11ab611917fafdabc9d3862a1d wifi: ath11k: skip status ring entry processing
-10d2b4f4aa0b9a1ac55d2313d2c682add25e31c6 wifi: wil6210: Do not use embedded netdev in wil6210_priv
-9f74e7b306dcd7a163822ecb3b1587e9bd3f9c62 wifi: ath12k: fix calling correct function for rx monitor mode
-ed07ff6745092f36cd996658bd64d74e4331d331 wifi: ath12k: Remove unsupported tx monitor handling
-582e94ebe230afa35baef06833006b24b601ab11 wifi: ath12k: Remove unused tcl_*_ring configuration
-782615f280ce8ad4e3effb42d70304f4dd2d487f wifi: ath12k: remove unused variable monitor_flags
-3b0989e925f38df733a03ff5a320d6841006b3f9 wifi: ath12k: avoid duplicated vdev stop
-f40aaca07bf7b52e82ca8e5ddb29190466b5dcbd wifi: ath12k: avoid duplicated vdev down
-efd920f48d1f9c41368579d1a278e88c082cc233 wifi: ath12k: remove invalid peer create logic
-1ec059c9a4c62dc77027d439a8b3e6d0e4f0234e Merge remote-tracking branch 'wireless/main'
-3b72f6669caf8589a553c695bcc2271984ba5648 Merge remote-tracking branch 'wireless-next/main'
-aeb64d7374dcc284ac67e181b6aa2a606303b9d3 Add localversion to identify builds from this tree
-859de2b07ab2bb07f8633a54aacca79af923c4d3 Merge branch 'ath-next'
-dba3ba0c10e12ffc226dcbb6416a190fb1bc4c4b Merge remote-tracking branch 'mhi/mhi-next'
-1025c616ee13372f3803b158abb1d87ef368ae3d Add localversion-wireless-testing-ath
-93b68a3982d27789ea0d18b5b31e35349eafa245 wifi: ath10k: add LED and GPIO controlling support for various chipsets
-70e52c24d261ab043c64906cc581f070778c5a24 wifi: ath12k: remove redundant peer delete
-46e8d9e16a59f3392ad9754ccb5bd89ef3745604 wifi: ath12k: initialize 'ret' in ath12k_qmi_load_file_target_mem()
-fde572fd863b601c7443deac2f078cde89f0da0c wifi: ath11k: initialize 'ret' in ath11k_qmi_load_file_target_mem()
-993384ec086f5d17f9294de6dbe92f430816dd01 wifi: ath12k: avoid double SW2HW_MACID conversion
-30a08c0dfca635987c8a85b2a7197e3d666cae5e wifi: ath11k: fix misspelling of "dma" in num_rxmda_per_pdev
-238d04b67c32e99181b0249bb847b11ce702960b wifi: ath12k: fix misspelling of "dma" in num_rxmda_per_pdev
-262064c0fdc67c2a27756d0c5491d393583c921a wifi: ath12k: initialize 'ret' in ath12k_dp_rxdma_ring_sel_config_wcn7850()
-23e85f9febbabb62d6781758ec02d2a50b70a6ea Merge branch 'pending' into master-pending
+d794066844edd962856ac4b8bb7d961793340260 Merge branches 'for-next/acpi', 'for-next/kbuild', 'for-next/misc', 'for-next/mm', 'for-next/perf', 'for-next/selftests' and 'for-next/tlbi' into for-next/core
+1c9135d29e9ec681b8c6abadf80a7f3721c20f7c Merge branch 'for-next/core' into for-kernelci
 
---===============5089655440299508107==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50b2c5d63ae2-262064c0fdc6.txt
-
-4c2b796be3a12a11ab611917fafdabc9d3862a1d wifi: ath11k: skip status ring entry processing
-10d2b4f4aa0b9a1ac55d2313d2c682add25e31c6 wifi: wil6210: Do not use embedded netdev in wil6210_priv
-9f74e7b306dcd7a163822ecb3b1587e9bd3f9c62 wifi: ath12k: fix calling correct function for rx monitor mode
-ed07ff6745092f36cd996658bd64d74e4331d331 wifi: ath12k: Remove unsupported tx monitor handling
-582e94ebe230afa35baef06833006b24b601ab11 wifi: ath12k: Remove unused tcl_*_ring configuration
-782615f280ce8ad4e3effb42d70304f4dd2d487f wifi: ath12k: remove unused variable monitor_flags
-3b0989e925f38df733a03ff5a320d6841006b3f9 wifi: ath12k: avoid duplicated vdev stop
-f40aaca07bf7b52e82ca8e5ddb29190466b5dcbd wifi: ath12k: avoid duplicated vdev down
-efd920f48d1f9c41368579d1a278e88c082cc233 wifi: ath12k: remove invalid peer create logic
-93b68a3982d27789ea0d18b5b31e35349eafa245 wifi: ath10k: add LED and GPIO controlling support for various chipsets
-70e52c24d261ab043c64906cc581f070778c5a24 wifi: ath12k: remove redundant peer delete
-46e8d9e16a59f3392ad9754ccb5bd89ef3745604 wifi: ath12k: initialize 'ret' in ath12k_qmi_load_file_target_mem()
-fde572fd863b601c7443deac2f078cde89f0da0c wifi: ath11k: initialize 'ret' in ath11k_qmi_load_file_target_mem()
-993384ec086f5d17f9294de6dbe92f430816dd01 wifi: ath12k: avoid double SW2HW_MACID conversion
-30a08c0dfca635987c8a85b2a7197e3d666cae5e wifi: ath11k: fix misspelling of "dma" in num_rxmda_per_pdev
-238d04b67c32e99181b0249bb847b11ce702960b wifi: ath12k: fix misspelling of "dma" in num_rxmda_per_pdev
-262064c0fdc67c2a27756d0c5491d393583c921a wifi: ath12k: initialize 'ret' in ath12k_dp_rxdma_ring_sel_config_wcn7850()
-
---===============5089655440299508107==--
+--===============4410155810444394359==--
