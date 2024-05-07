@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6102184856622346110=="
+Content-Type: multipart/mixed; boundary="===============5963354151782123943=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 07 May 2024 07:23:25 -0000
-Message-Id: <171506660583.18357.8522379688556193247@gitolite.kernel.org>
+Date: Tue, 07 May 2024 07:37:50 -0000
+Message-Id: <171506747068.29676.13765429399187946215@gitolite.kernel.org>
 
---===============6102184856622346110==
+--===============5963354151782123943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,28 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d362b6f65ff74f4f7759b76cb1c03fdcfa53a366
-    new: d065fa9a793f23fbe74ae4a9110aaae35123f46f
-    log: revlist-d362b6f65ff7-d065fa9a793f.txt
+    old: d065fa9a793f23fbe74ae4a9110aaae35123f46f
+    new: d78d9baee8c45402d1b59ca8c864ac1a6dd4d915
+    log: revlist-d065fa9a793f-d78d9baee8c4.txt
 
---===============6102184856622346110==
+--===============5963354151782123943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d362b6f65ff7-d065fa9a793f.txt
+Content-Disposition: attachment; filename=revlist-d065fa9a793f-d78d9baee8c4.txt
 
-5ea2b3b92081ccb2b705b1d81c89d503468529a0 Merge branch into tip/master: 'x86/merge'
-6ae4d0dfe0ce43794adf9eeead5c65b932654521 Merge branch into tip/master: 'irq/core'
-712173f1dbdbf5034d208e969b07496d007da840 Merge branch into tip/master: 'locking/core'
-002218f3f247c0c9362a6c79208d280c5e72bdbe Merge branch into tip/master: 'perf/core'
-cc1a937bc0dd9411096ab518a804a72294e818ca Merge branch into tip/master: 'ras/core'
-65e483a618fe79f052fe0465284770acd17dce22 Merge branch into tip/master: 'sched/core'
-d18a8f40a1b403fb8fa8068b36671bc556eb6115 Merge branch into tip/master: 'timers/core'
-e5953f4552b1da29f442c0f99a30ce3586413f15 Merge branch into tip/master: 'x86/apic'
-b682428b63064686f6822acce736db96c20b438d Merge branch into tip/master: 'x86/boot'
-212160df417e65398ec8ce23c996ba5136681732 Merge branch into tip/master: 'x86/bugs'
-bd60ac7d6c50e46ceef62224e090e64d82915dff Merge branch into tip/master: 'x86/build'
-2a7caa773ae6bfda8112a60a12b6e9ac4c8f543b Merge branch into tip/master: 'x86/cache'
-b0129e43ef95959907fce6dba7e68449c649dea6 Merge branch into tip/master: 'x86/entry'
-c903b39393b5f1103434a08b1682f8e9e077ed50 Merge branch into tip/master: 'x86/fpu'
-43bd3259612e5ff577cf737ed0d5d56d95953bd8 Merge branch into tip/master: 'x86/irq'
-c4be931fcd2f7b71aac13352f3aab5e990b4f505 Merge branch into tip/master: 'x86/microcode'
-53286bfc78935bb0099b3cf3170aa9fa50d8455e Merge branch into tip/master: 'x86/misc'
-91a29c78162a92f80997cdfc6f0c4da53c9923b0 Merge branch into tip/master: 'x86/mm'
-2a25b632b76cadc958256eadb3fb2ec1eefc0c71 Merge branch into tip/master: 'x86/percpu'
-51bb1b629e236882a235b8020c0c206dd231d11e Merge branch into tip/master: 'x86/platform'
-780390468afb259f3103e7c42bbf74fd8e5b9c70 Merge branch into tip/master: 'x86/sev'
-bb0cf7117197bf7067a9cf2c393648f592bea306 Merge branch into tip/master: 'x86/shstk'
-d065fa9a793f23fbe74ae4a9110aaae35123f46f Merge branch into tip/master: 'x86/timers'
+16934de47da778f0861057df98b08058e0935a5c auxdisplay: linedisp: Group display drivers together
+c352a04107264ff5ec3c38db044137cd99c4ba55 auxdisplay: seg-led-gpio: Convert to platform remove callback returning void
+29b08729abf5fcf1c3844de34ddfcc5e6d7a11a4 auxdisplay: charlcd: Add missing MODULE_DESCRIPTION()
+93ee235f55d3e1c881e766a320cedcad0b9aca42 auxdisplay: charlcd: Don't rebuild when CONFIG_PANEL_BOOT_MESSAGE=y
+8f828aa48812ced28aa39cb3cfe55ef2444d03dd mm/slub: avoid zeroing outside-object freepointer for single free
+cd7eb8f83fcf258f71e293f7fc52a70be8ed0128 mm/slab: make __free(kfree) accept error pointers
+b5357cb268c41b4e2b7383d2759fc562f5b58c33 btrfs: qgroup: do not check qgroup inherit if qgroup is disabled
+e03418abde871314e1a3a550f4c8afb7b89cb273 btrfs: make sure that WRITTEN is set on all metadata blocks
+c73677ca411d3dbfe585dcbf389b3cd83e0e3530 Merge tag 'auxdisplay-v6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-auxdisplay
+ee5b455b0adae9ecafb38b174c648c48f2a3c1a5 Merge tag 'slab-for-6.9-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+3628e0383dd349f02f882e612ab6184e4bb3dc10 Reapply "drm/qxl: simplify qxl_fence_wait"
+dccb07f2914cdab2ac3a5b6c98406f765acab803 Merge tag 'for-6.9-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+d78d9baee8c45402d1b59ca8c864ac1a6dd4d915 Merge branch 'linus'
 
---===============6102184856622346110==--
+--===============5963354151782123943==--
