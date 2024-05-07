@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5489129575189364657=="
+Content-Type: multipart/mixed; boundary="===============3106972406931195696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 07 May 2024 15:01:26 -0000
-Message-Id: <171509408625.27477.603432119379136275@gitolite.kernel.org>
+Date: Tue, 07 May 2024 15:02:04 -0000
+Message-Id: <171509412426.27766.327258009909015660@gitolite.kernel.org>
 
---===============5489129575189364657==
+--===============3106972406931195696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: bentiss
 changes:
-  - ref: refs/heads/for-6.10/hid-bpf
-    old: b912cf042072e12e93faa874265b30cc0aa521b9
-    new: 89ea968a9d759f71ac7b8d50949a8e5e5bcb1111
-    log: revlist-b912cf042072-89ea968a9d75.txt
+  - ref: refs/heads/for-next
+    old: 78515b4e1517e1355907d7744497b0b9af29cfd6
+    new: 14ee3d12f37b2594b9aa01fee2f7cff51bc71b26
+    log: revlist-78515b4e1517-14ee3d12f37b.txt
 
---===============5489129575189364657==
+--===============3106972406931195696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b912cf042072-89ea968a9d75.txt
+Content-Disposition: attachment; filename=revlist-78515b4e1517-14ee3d12f37b.txt
 
 65ad580a14e875c2d8c027cf1a2ca03b849ff843 HID: do not assume HAT Switch logical max < 8
 04b3e5ab055553e074ea54ef316982b55cdde96b HID: bpf: add first in-tree HID-BPF fix for the XPPen Artist 24
@@ -45,5 +45,6 @@ c6b03c736a523902bb53bb9897f5c75292b3424b selftests/hid: import base_gamepad.py f
 aa7e560454a90d4fe9924500f1ae2a3779806b85 selftests/hid: move the gamepads definitions in the test file
 b22cbfb42c19a378cca5fae3a98395225af05384 selftests/hid: add tests for the Raptor Mach 2 joystick
 89ea968a9d759f71ac7b8d50949a8e5e5bcb1111 selftests/hid: skip tests with HID-BPF if udev-hid-bpf is not installed
+14ee3d12f37b2594b9aa01fee2f7cff51bc71b26 Merge branch 'for-6.10/hid-bpf' into for-next
 
---===============5489129575189364657==--
+--===============3106972406931195696==--
