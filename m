@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0593311536974222868=="
+Content-Type: multipart/mixed; boundary="===============5869793583967664456=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 07 May 2024 01:33:56 -0000
-Message-Id: <171504563639.21571.8949427154374709937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 07 May 2024 01:34:01 -0000
+Message-Id: <171504564180.21696.16429354087198118778@gitolite.kernel.org>
 
---===============0593311536974222868==
+--===============5869793583967664456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/asoc-6.10
     old: ba2a2c378ada0cd641a1887151ea8af532617c69
     new: 6b045e2e21ed98be7b7b7ce75b64f25d9534f0ed
     log: revlist-ba2a2c378ada-6b045e2e21ed.txt
 
---===============0593311536974222868==
+--===============5869793583967664456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1715045635 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1715045634-b4d5c3ea86c133e016164b0953086f6e17c5cdde
+pusher Mark Brown <broonie@kernel.org> 1715045640 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1715045639-6c55c37c8653dac24be61f9d8a24a6400f92c5f4
 
-ba2a2c378ada0cd641a1887151ea8af532617c69 6b045e2e21ed98be7b7b7ce75b64f25d9534f0ed refs/heads/for-6.10
+ba2a2c378ada0cd641a1887151ea8af532617c69 6b045e2e21ed98be7b7b7ce75b64f25d9534f0ed refs/heads/asoc-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmY5hQMTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0J3yB/94aWa1gqfrNw1tMy6K587ugl/H5gtB
-tkhCRiZCeWM2gqFTE7Pl7JnWiWO1rKn+SgSXqpaPVabRuwYBQQTaLkEX5J7fPM3F
-VaRh41rlkRnvXwVuqEJPJAXcC4HgUOoU4hMD3MP9Wj7AZ9WsMyCAGZWQttderS9b
-ukqbtSUikCPz+Tr0cz1hByByC5Kvi/zvdKGkrcoSH4OqbCHsYmygiK9//Q/AfbGQ
-lQwV17xlImg36s0cfYozg3ED8pS37uNtLiJpp/GaVelRmCONus3mLVJF7SBcg0pT
-QSdHl1ikQ78bbZRVVvLf57oqSTAVX63fp9r4c/ecKCVUMsXGj3ysTk0r
-=fMkK
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmY5hQgTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0H51B/4mLvCCpibn8HknmR2ixCg/P4cQY4Oa
+WuPSXIBOSUjxjWglx0f5uZJBPMUGDJVk+j3LIYaEOGJkI9vrXmCo3Ly8P12aAEqK
+SuPpsvpo3PlQrfhZN83fLUYeF/eyn3JxcfgfpbFRBHYWNTazR2i0b0NPIdLSE51c
+ilnHR7T1uPpUuPzYN0GIec0/bty/p5Ae6da//b2NojGEj63kMi88X0Wn9L+c/EJK
+vqSGFyx+4k51lUVTZ8hlhX2I057Ekn/4u+dvdtXqU04wOhLyyV3tl9jWkQhMF/wB
+1JegGLLp33XwlPtOXSxasIdZr+Bl9U6DdhJLEymWitBKVm2cyOa2GkRD
+=yqXt
 -----END PGP SIGNATURE-----
 
---===============0593311536974222868==
+--===============5869793583967664456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ e4c6eba86d9618d99ba9892bc5d6e47715038530 ASoC: SOF: Intel: regroup all SoundWire
 f283219b2736e3072adbd6c658bc0c41ca9d9d5d ASoC: SOF: Intel: HDA/DMIC updates
 6b045e2e21ed98be7b7b7ce75b64f25d9534f0ed ASoC: SOF: Intel: remove circular dependency for
 
---===============0593311536974222868==--
+--===============5869793583967664456==--
