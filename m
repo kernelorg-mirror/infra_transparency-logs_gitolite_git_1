@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 07 May 2024 08:43:29 -0000
-Message-Id: <171507140993.13117.603336061330024847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Tue, 07 May 2024 08:44:27 -0000
+Message-Id: <171507146772.13563.7232489957580436801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/for-6.10/i2c-hid
-    old: 7d6f065de37c31c37e56611efd41260c66c868ca
-    new: d2b34fa81445193532e7012106f60426de3b3718
-    log: |
-         d2b34fa81445193532e7012106f60426de3b3718 HID: i2c-hid: Remove unused label in i2c_hid_set_power
-         
   - ref: refs/heads/for-next
-    old: 26ebeb7df1df266eee3a32090cbcffb50e67b1eb
-    new: b3d47e63af83e1af9dc97f0c82f74882ae122c48
+    old: 456e1f511e4b91123dbba32d5b46ee3e954cdfb0
+    new: 596ffa476e201ecbf7ea024f1b59d4f28e91060c
     log: |
-         d2b34fa81445193532e7012106f60426de3b3718 HID: i2c-hid: Remove unused label in i2c_hid_set_power
-         b3d47e63af83e1af9dc97f0c82f74882ae122c48 Merge branch 'for-6.10/i2c-hid' into for-next
+         e0550222e03bae3fd629641e246ef7f47803d795 printk: cleanup deprecated uses of strncpy/strcpy
+         596ffa476e201ecbf7ea024f1b59d4f28e91060c Merge branch 'for-6.10' into for-next
          
