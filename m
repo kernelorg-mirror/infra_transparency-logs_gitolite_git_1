@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 07 May 2024 00:11:17 -0000
-Message-Id: <171504067733.22700.11832590153497087543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Tue, 07 May 2024 00:25:41 -0000
+Message-Id: <171504154111.32556.5234733033623575695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: 41b307ad756e1b7b618bf9d9c1cce3595705ede4
-    new: 329a6720a3ebbc041983b267981ab2cac102de93
+  - ref: refs/heads/crypto-pending
+    old: 44356b220d3f09c234dfa107e518aa742420d0eb
+    new: c2389c81c59a1a914659be39c167eb5615e8799d
     log: |
-         d786957ebd3fb4cfd9147dbcccd1e8f3871b45ce bpf/verifier: replace calls to mark_reg_unknown.
-         0922c78f592c60e5a8fe6ab968479def124d4ff3 bpf/verifier: refactor checks for range computation
-         138cc42c05d11fd5ee82ee1606d2c9823373a926 bpf/verifier: improve XOR and OR range computation
-         5ec9a7d13f49b9c1c5ba854244d1f2ba414cf139 selftests/bpf: XOR and OR range computation tests.
-         41d047a871062f1a4d1871a1908d380c14e75428 bpf/verifier: relax MUL range computation check
-         92956786b4e26ea22e5b3c1c86cc71f5c9b3b9d8 selftests/bpf: MUL range computation tests.
-         329a6720a3ebbc041983b267981ab2cac102de93 Merge branch 'bpf-verifier-range-computation-improvements'
+         633a45147283eb97ad4ef9f58f242c77776b120d crypto: shash - add support for finup_mb
+         728ccfb3f28baddd7344d6eb94e4f4c6b6ce9ba2 crypto: testmgr - generate power-of-2 lengths more often
+         a44529066f228306fa4532ba59f52b6353c92ca6 crypto: testmgr - add tests for finup_mb
+         46ca0fef92ca32821b1a8f601dc83a1397e8cd97 crypto: x86/sha256-ni - add support for finup_mb
+         6029be699a256df32910f2a79d09014db98352bb crypto: arm64/sha256-ce - add support for finup_mb
+         163408889a56b25780bd877f53e5a0b0d8151795 fsverity: improve performance by using multibuffer hashing
+         c67cc03a6ca9bb583e7b93df6af53296e642b5d8 dm-verity: hash blocks with shash import+finup when possible
+         c2389c81c59a1a914659be39c167eb5615e8799d dm-verity: improve performance by using multibuffer hashing
          
