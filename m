@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5963354151782123943=="
+Content-Type: multipart/mixed; boundary="===============0236412607083611359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 07 May 2024 07:37:50 -0000
-Message-Id: <171506747068.29676.13765429399187946215@gitolite.kernel.org>
+Date: Tue, 07 May 2024 07:39:07 -0000
+Message-Id: <171506754714.30232.8781064822954938782@gitolite.kernel.org>
 
---===============5963354151782123943==
+--===============0236412607083611359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,38 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d065fa9a793f23fbe74ae4a9110aaae35123f46f
-    new: d78d9baee8c45402d1b59ca8c864ac1a6dd4d915
-    log: revlist-d065fa9a793f-d78d9baee8c4.txt
+    old: d78d9baee8c45402d1b59ca8c864ac1a6dd4d915
+    new: 7598293ab37c92025086de4b0ecd9474013a725f
+    log: revlist-d78d9baee8c4-7598293ab37c.txt
 
---===============5963354151782123943==
+--===============0236412607083611359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d065fa9a793f-d78d9baee8c4.txt
+Content-Disposition: attachment; filename=revlist-d78d9baee8c4-7598293ab37c.txt
 
-16934de47da778f0861057df98b08058e0935a5c auxdisplay: linedisp: Group display drivers together
-c352a04107264ff5ec3c38db044137cd99c4ba55 auxdisplay: seg-led-gpio: Convert to platform remove callback returning void
-29b08729abf5fcf1c3844de34ddfcc5e6d7a11a4 auxdisplay: charlcd: Add missing MODULE_DESCRIPTION()
-93ee235f55d3e1c881e766a320cedcad0b9aca42 auxdisplay: charlcd: Don't rebuild when CONFIG_PANEL_BOOT_MESSAGE=y
-8f828aa48812ced28aa39cb3cfe55ef2444d03dd mm/slub: avoid zeroing outside-object freepointer for single free
-cd7eb8f83fcf258f71e293f7fc52a70be8ed0128 mm/slab: make __free(kfree) accept error pointers
-b5357cb268c41b4e2b7383d2759fc562f5b58c33 btrfs: qgroup: do not check qgroup inherit if qgroup is disabled
-e03418abde871314e1a3a550f4c8afb7b89cb273 btrfs: make sure that WRITTEN is set on all metadata blocks
-c73677ca411d3dbfe585dcbf389b3cd83e0e3530 Merge tag 'auxdisplay-v6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-auxdisplay
-ee5b455b0adae9ecafb38b174c648c48f2a3c1a5 Merge tag 'slab-for-6.9-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-3628e0383dd349f02f882e612ab6184e4bb3dc10 Reapply "drm/qxl: simplify qxl_fence_wait"
-dccb07f2914cdab2ac3a5b6c98406f765acab803 Merge tag 'for-6.9-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-d78d9baee8c45402d1b59ca8c864ac1a6dd4d915 Merge branch 'linus'
+7ca1943efa4cbeb907bd5f90e0fc8e071854cc4c Merge branch into tip/master: 'x86/merge'
+aa18652f2dd5f8a832e391b68f52740979001811 Merge branch into tip/master: 'irq/core'
+e3c499813d2432f54929e0b049f0028e5151f375 Merge branch into tip/master: 'locking/core'
+6178bcadb491526fceca415d7ecebf2aedb09b91 Merge branch into tip/master: 'perf/core'
+c54a8f255c431d8d4a94d4cec6b5b1a50bcfb319 Merge branch into tip/master: 'ras/core'
+f29e81180d4eed3db0a73e65a2302008aee2eaf5 Merge branch into tip/master: 'sched/core'
+d65339fdf261ee6c1bf49d4f0be8dbb7cc0e6426 Merge branch into tip/master: 'timers/core'
+5791c8b285dc0489c6469b88d435ceaef6931c6f Merge branch into tip/master: 'x86/apic'
+1b2920a64deacd2a432dcc4b721bf1ea75c8ec6c Merge branch into tip/master: 'x86/boot'
+51a62ab22ebb79ed515940e7314917ff7efa78b2 Merge branch into tip/master: 'x86/bugs'
+b44e20e1a60f80b7959c50a0fdcdf1106a1ddf1f Merge branch into tip/master: 'x86/build'
+ebde48859b7a89e58dab0aa06eefae1538e2da70 Merge branch into tip/master: 'x86/cache'
+bd40d7ed9909c4676ae753d9e699ecb9e933a06b Merge branch into tip/master: 'x86/entry'
+a6877085de190b28c620a856cad64d653fa9bf95 Merge branch into tip/master: 'x86/fpu'
+cb3c50edc5b632d5a295850003b9805a0fcfb46b Merge branch into tip/master: 'x86/irq'
+af20be4c2514800dfa41a248bc43875d74f21b00 Merge branch into tip/master: 'x86/microcode'
+5c68f66d7a74e656a98e3e94b30c81f555e5478c Merge branch into tip/master: 'x86/misc'
+dfc6770588feea267f68689e183079fc040eb5d3 Merge branch into tip/master: 'x86/mm'
+9d930d68a4c9b8ea59c08daf727099960939b49f Merge branch into tip/master: 'x86/percpu'
+ff641781c7824cee815568a1fe1b1f369ebf4de0 Merge branch into tip/master: 'x86/platform'
+77d4f3369ca0015efab03ac0cc6b55eceb2a588a Merge branch into tip/master: 'x86/sev'
+1444ebb696e087c2d496e8973b0a2fdb8bf09426 Merge branch into tip/master: 'x86/shstk'
+7598293ab37c92025086de4b0ecd9474013a725f Merge branch into tip/master: 'x86/timers'
 
---===============5963354151782123943==--
+--===============0236412607083611359==--
