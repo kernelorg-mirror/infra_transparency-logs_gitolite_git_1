@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Tue, 07 May 2024 15:06:58 -0000
-Message-Id: <171509441895.32151.7363202384385192532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Tue, 07 May 2024 15:08:04 -0000
+Message-Id: <171509448433.1062.3300451755492736167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/main
-    old: 89210b9ec1c445ae963d181b5816d12a0cdafbb6
-    new: c9eab8973ccfcd6e1cf8e46343e00b484b25661a
+  - ref: refs/notes/signatures/tar
+    old: de17c5538b91379ef5921ed3088833759ffe0c55
+    new: 90c43d4d453e620d28341e6dd9a95501c63d9974
     log: |
-         c9eab8973ccfcd6e1cf8e46343e00b484b25661a ip: Add missing options to route get help output
+         90c43d4d453e620d28341e6dd9a95501c63d9974 Notes added by 'git notes add'
          
