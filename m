@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 07 May 2024 08:49:23 -0000
-Message-Id: <171507176318.17100.10639129952284531677@gitolite.kernel.org>
+Date: Tue, 07 May 2024 08:51:02 -0000
+Message-Id: <171507186221.19358.6697275162265256332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/mvebu/arm
+  - ref: refs/heads/amlogic/defconfig
     old: 0000000000000000000000000000000000000000
-    new: 3153eb8e047339e5217338d2f3b25e58c8683d7f
+    new: fb73c312a939cfcf9bae0d88fdb382516b424e50
