@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 07 May 2024 13:59:11 -0000
-Message-Id: <171509035134.11729.14700912207243077167@gitolite.kernel.org>
+Date: Tue, 07 May 2024 13:59:13 -0000
+Message-Id: <171509035303.11813.13232819461452565296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,19 +11,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: andersson
 changes:
-  - ref: refs/heads/rpmsg-next
-    old: 193d0c4e1e42517958b6510687fbd9a92165aa0d
-    new: bcbab579f968ffd63236d90227212e689ddbd600
+  - ref: refs/heads/for-next
+    old: 14ce7eb4bae15e882bffd66891fd873ee1a86c40
+    new: c8d8f841e95bcc07ac8c5621fc171a24f1fd5cdb
     log: |
+         59235c487da90bfc05a9683e3b4a50192b682078 dt-bindings: remoteproc: qcom,smd-edge: Mark qcom,ipc as deprecated
          bcbab579f968ffd63236d90227212e689ddbd600 rpmsg: qcom_glink_ssr: fix module autoloading
-         
-  - ref: refs/heads/rproc-next
-    old: 1dc7242f6ee0c99852cb90676d7fe201cf5de422
-    new: 4d5ba6ead1dc9fa298d727e92db40cd98564d1ac
-    log: |
-         335617f0d502f80c9b9410c518222b2cb33878e8 dt-bindings: remoteproc: qcom,smd-edge: Mark qcom,ipc as deprecated
-         a0acdef561d1699b020ab932a0edb556c4829533 dt-bindings: remoteproc: qcom,msm8996-mss-pil: allow glink-edge on msm8996
-         a0bcbce661216b9d9d00fb652b35f35da77b2287 dt-bindings: remoteproc: qcom,qcs404-cdsp-pil: Fix qcom,halt-regs definition
-         16e204e958096d649aa1617433f31995a9c60809 dt-bindings: remoteproc: qcom,sc7280-wpss-pil: Fix qcom,halt-regs definition
-         4d5ba6ead1dc9fa298d727e92db40cd98564d1ac dt-bindings: remoteproc: qcom,sdm845-adsp-pil: Fix qcom,halt-regs definition
+         66d8ccfab13e60d89bb01af10c2508c222e4b972 dt-bindings: remoteproc: qcom,msm8996-mss-pil: allow glink-edge on msm8996
+         962477e6c3621fce23a67a1f16c63c4b32bc3011 dt-bindings: remoteproc: qcom,qcs404-cdsp-pil: Fix qcom,halt-regs definition
+         e63e5ba0e0dec5ab7e63e98934d0677392b4033e dt-bindings: remoteproc: qcom,sc7280-wpss-pil: Fix qcom,halt-regs definition
+         976fbe873a6bd0ffd0971fa63c64e780350af617 dt-bindings: remoteproc: qcom,sdm845-adsp-pil: Fix qcom,halt-regs definition
+         c8d8f841e95bcc07ac8c5621fc171a24f1fd5cdb Merge branches 'rpmsg-next' and 'rproc-next' into for-next
          
