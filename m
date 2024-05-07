@@ -1,64 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============2062983508270091009=="
+Content-Type: multipart/mixed; boundary="===============3037790704956247400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 07 May 2024 09:48:44 -0000
-Message-Id: <171507532473.10142.3226808296982449966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Tue, 07 May 2024 09:59:13 -0000
+Message-Id: <171507595305.17028.2343378480969540290@gitolite.kernel.org>
 
---===============2062983508270091009==
+--===============3037790704956247400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/s390/linux
+user: agordeev
 changes:
   - ref: refs/heads/for-next
-    old: f599b6538b601e87fd1b776e89d91eb87dcb0010
-    new: a9c32618cd2a0475f1f10037e32d8ee0aea9368a
-    log: |
-         7c18b0a5aa46cc7e5d3a7ef3f9f8e3aa91bb780f clk: samsung: gs101: drop unused HSI2 clock parent data
-         a9c32618cd2a0475f1f10037e32d8ee0aea9368a Merge branch 'next/clk' into for-next
-         
-  - ref: refs/heads/next/clk
-    old: 6b32d7474e9b833dc7fadc1b4d4f08af9bd87fde
-    new: 7c18b0a5aa46cc7e5d3a7ef3f9f8e3aa91bb780f
-    log: |
-         7c18b0a5aa46cc7e5d3a7ef3f9f8e3aa91bb780f clk: samsung: gs101: drop unused HSI2 clock parent data
-         
+    old: b7fb0445d8cfdc81906640dacf8e77fd95e61b51
+    new: 8b7b86661c1a60c2d31990601abd36a5d9585455
+    log: revlist-b7fb0445d8cf-8b7b86661c1a.txt
 
---===============2062983508270091009==
+--===============3037790704956247400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b7fb0445d8cf-8b7b86661c1a.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1715075323 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1715075322-7208fff2d1870e5733c6a7cbe6939ba72cbe0940
+e6ec07dc6dd498415bc8cc49437d5ec9e09cc48e s390/mm: fix NULL pointer dereference
+01cac82ae02b43983173ea8e475a1c999edd25a6 s390/atomic: mark all functions __always_inline
+c9c260681f521e4ad9f9f4cc71fe35b978e06222 s390/preempt: mark all functions __always_inline
+e9f3af02f63909f41b43c28330434cc437639c5c s390/pai: fix sampling event removal for PMU device driver
+378ca2d2ad410a1cd5690d06b46c5e2297f4c8c0 s390/entry: align system call table on 8 bytes
+607638faf2ff1cede37458111496e7cc6c977f6f s390/qdio: handle deferred cc1
+2d8527f2f911fab84aec04df4788c0c23af3df48 s390/cio: fix race condition during online processing
+6f76592ef63a1ffd8949f0828d24da7913ddb6d8 s390/cio: log fake IRB events
+d111855ab7ffffc552f6a475259dc392f2319b6d s390/mm: Fix NULL pointer dereference
+843c3280686fc1a83d89ee1e0b5599c9f6b09d0c s390/mm: Fix storage key clearing for guest huge pages
+412050af2ea39407fe43324b0be4ab641530ce88 s390/mm: Fix clearing storage keys for huge pages
+5e1a99cf22a65bd91cb43c5380cc14a44b85ad2a s390/3270: Fix buffer assignment
+b961ec10b9f9719987470236feb50c967db5a652 s390/vdso: Add CFI for RA register to asm macro vdso_func
+1d75fb321f328931885793597175fe905b9c6f9c s390/fpu: Remove comment about TIF_FPU
+61c761f4d70f57fcb725ca11581578254cb21db3 Merge commit 'b961ec10b9f9' into features-s390-6.10-more
+c063144ba262cc15d4c303dd49d3d4f6cb3820c1 s390/vdso: Generate unwind information for C modules
+4cfae05eb3aa67340c0a2fd1f04a53e5dcb859bf s390/vdso: Create .build-id links for unstripped vdso files
+37640c8628313ed852721d84ac396d813b09492e s390/vdso: Use standard stack frame layout
+53f82ef3e06cb9811ac7bf66d8846b037d2b76ad s390/stacktrace: Merge perf_callchain_user() and arch_stack_walk_user()
+7b1b84fe43e30b2968e627da36c65f072e28ae46 s390/stacktrace: Skip first user stack frame
+7a5f36fad13714045013b8019f0abc44c0b70e1c s390/stacktrace: Improve detection of invalid instruction pointers
+89a4c5a8032a8be92788979f91d3f91f76803eb3 s390/vdso: Introduce and use struct stack_frame_vdso_wrapper
+923aa39d7a9c4904b088166b99588f512acbf638 s390/stackstrace: Detect vdso stack frames
+8b7b86661c1a60c2d31990601abd36a5d9585455 Merge branch 'features-s390-6.10-more' into for-next
 
-f599b6538b601e87fd1b776e89d91eb87dcb0010 a9c32618cd2a0475f1f10037e32d8ee0aea9368a refs/heads/for-next
-6b32d7474e9b833dc7fadc1b4d4f08af9bd87fde 7c18b0a5aa46cc7e5d3a7ef3f9f8e3aa91bb780f refs/heads/next/clk
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmY5+PsQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD137OD/wJxJF2jBMVEeaYIN42glPDUgDoM/u0Uita
-d7wR2zDUuFYuHYQUTzIeyGKMds3jZG67ylHmWjzK/PaHXAVIGgR6Enxp8fVmANMm
-u7ImNuq2ABwZNO75+lyDaczEwIyA8uEzXWqluJl6frLbH96YSpQVDVUQrOX73IMP
-zT4dpkeNZeCbOEjo2LiykOWQGy7CrLUFpGVzooqXrXSLaa+NzPs7jeGwBKmZ6V3h
-J7RI4SRgxfChBk9Ztng+vl6iq3zEsvc4vDh6//pqMWAuvTCs2qEpYTpjdQRSnHdV
-TzlPGpd4W2FHnOn0iRTgMroNSzhjPTNDqH6aA5+gZQFZmTfRYoXa3QiFc4BSk1P5
-O44+ZaESnKKRdyFNXbeZYfAwoOYyWO8+9A54d5blq1pHqvHNFgpM47iFcrHr/iUv
-uHPo9hsC4jvecF2XQivjyH67YLnIZLe/2GBJk0/8xbsskK1vo1WI6yklwG8jP/Y/
-5rWfZpcCsYmEiaykSlmRfOEBi4JkxA3B2u8F9lsuAqTjNyM66M4zyggjFtZKbThA
-/KTr3Y2AKWZUNboj3Y5UNuodaEJii33+XXLtNwWteb78b+qQvS2Gg4PPBkuXUqQZ
-b/XpzuI/1/ExNOUfAM1TOBcM9oB1+8PhItHwf49mBCtivUGm6aLFc6tysV4MjToa
-rTnANqrTYw==
-=W/yo
------END PGP SIGNATURE-----
-
---===============2062983508270091009==--
+--===============3037790704956247400==--
