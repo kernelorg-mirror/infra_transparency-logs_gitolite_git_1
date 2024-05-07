@@ -1,67 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5019479789939287551=="
+Content-Type: multipart/mixed; boundary="===============3058826246940229718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 07 May 2024 16:59:28 -0000
-Message-Id: <171510116845.32369.6208546723879121063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Tue, 07 May 2024 17:02:05 -0000
+Message-Id: <171510132541.2801.6944753232729553308@gitolite.kernel.org>
 
---===============5019479789939287551==
+--===============3058826246940229718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master-pending
-    old: 23e85f9febbabb62d6781758ec02d2a50b70a6ea
-    new: cb1ee469c2f1d7c492330afd090ebabf98c42b05
-    log: revlist-23e85f9febba-cb1ee469c2f1.txt
-  - ref: refs/heads/pending
-    old: 262064c0fdc67c2a27756d0c5491d393583c921a
-    new: 98412b09a17bcdb0be8dfde741c05743e43a24ce
-    log: revlist-262064c0fdc6-98412b09a17b.txt
-  - ref: refs/tags/ath-pending-202405071657
-    old: 0000000000000000000000000000000000000000
-    new: cb1ee469c2f1d7c492330afd090ebabf98c42b05
+  - ref: refs/heads/master
+    old: 16c20208b9c2fff73015ad4e609072feafbf81ad
+    new: 0a9c28bec202bbd14ae3fd184522490e5f5498b5
+    log: |
+         175f2f5bcdfce9e728f1ff956a50f28824d28791 KVM: s390: Check kvm pointer when testing KVM_CAP_S390_HPAGE_1M
+         0a9c28bec202bbd14ae3fd184522490e5f5498b5 Merge tag 'kvm-s390-master-6.9-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
+         
 
---===============5019479789939287551==
+--===============3058826246940229718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23e85f9febba-cb1ee469c2f1.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-af207ebf2733401a9338f7673db09fad22aceb8e wifi: ath12k: Refactor core start api
-5bdbd39b6df48bcd3ed460de35d9fc45113efe47 wifi: ath12k: Add helpers to get or set ath12k_hw
-c71194f2a3697a4ed5d9cbbc77ca35ddede065d6 wifi: ath12k: Add ath12k_get_num_hw api
-7f9a984664dfbf0d8bc8493cbab6e6d590e94f0b wifi: ath12k: Introduce QMI firmware ready flag
-1c05d92ed6b2899f74edd0f2829e95dda5f7d92a wifi: ath12k: move ATH12K_FLAG_REGISTERED flag set to mac_register api
-fa5f2f83ba122ec942358215cea9276028feee8e wifi: ath12k: Introduce device group abstraction
-054eac1d91a930acdf45713fc84f3d1188f2e1e3 wifi: ath12k: refactor core start based on hardware group
-139796dd0af1138e9dcdb70bfb3398705e5a25b2 wifi: ath12k: move ath12k_hw from per soc to group
-3aec20a8e797b28d32e75291cc070d5913bf6dab dt-bindings: net: wireless: ath10k: add qcom,no-msa-ready-indicator prop
-df5b4bec31b0736a453d507762c5b3d098d5c733 wifi: ath10k: do not always wait for MSA_READY indicator
-98412b09a17bcdb0be8dfde741c05743e43a24ce wifi: ath11k: move power type check to ASSOC stage when connecting to 6 GHz AP
-cb1ee469c2f1d7c492330afd090ebabf98c42b05 Merge branch 'pending' into master-pending
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1715101323 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1715101323-41680f328b2f831d6bfda27be144cb692ac62b17
 
---===============5019479789939287551==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-262064c0fdc6-98412b09a17b.txt
+16c20208b9c2fff73015ad4e609072feafbf81ad 0a9c28bec202bbd14ae3fd184522490e5f5498b5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
 
-af207ebf2733401a9338f7673db09fad22aceb8e wifi: ath12k: Refactor core start api
-5bdbd39b6df48bcd3ed460de35d9fc45113efe47 wifi: ath12k: Add helpers to get or set ath12k_hw
-c71194f2a3697a4ed5d9cbbc77ca35ddede065d6 wifi: ath12k: Add ath12k_get_num_hw api
-7f9a984664dfbf0d8bc8493cbab6e6d590e94f0b wifi: ath12k: Introduce QMI firmware ready flag
-1c05d92ed6b2899f74edd0f2829e95dda5f7d92a wifi: ath12k: move ATH12K_FLAG_REGISTERED flag set to mac_register api
-fa5f2f83ba122ec942358215cea9276028feee8e wifi: ath12k: Introduce device group abstraction
-054eac1d91a930acdf45713fc84f3d1188f2e1e3 wifi: ath12k: refactor core start based on hardware group
-139796dd0af1138e9dcdb70bfb3398705e5a25b2 wifi: ath12k: move ath12k_hw from per soc to group
-3aec20a8e797b28d32e75291cc070d5913bf6dab dt-bindings: net: wireless: ath10k: add qcom,no-msa-ready-indicator prop
-df5b4bec31b0736a453d507762c5b3d098d5c733 wifi: ath10k: do not always wait for MSA_READY indicator
-98412b09a17bcdb0be8dfde741c05743e43a24ce wifi: ath11k: move power type check to ASSOC stage when connecting to 6 GHz AP
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmY6XosUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroNbWwf6A8oiwo1pXA45SfUMzzlzHbgtf+0H
+WC44YaoEKYATMF75rfjcLj0/27RiHJgnJ0PBRuO7Ml+iFr+ceI0A2JewI77v7c9U
+Wf74JA6d0/un1yHzzhsSVp9Okc1yFcX4rjAhRVJ7FWSg5OztjPTTPILj2W1oTfRQ
+qMBGD/P+nZ7yclfYEFFeaBTdvmjUVG2B8t0unZFQ4jBr/B9Jdf1ow5CGPGrt4Jzw
+MM5HTBM8Sjqu9dqFXjtVKvM+2q0t0tqAk/o3EmdyH54OC5TA3Qgvht+GrNvuUKTq
+u/V6whAe7u9FrlJdFQ1m43DGn8GkPdL4FY/b3ZE54gPwo3OawvCwPRYhbg==
+=V8ym
+-----END PGP SIGNATURE-----
 
---===============5019479789939287551==--
+--===============3058826246940229718==--
