@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0297618246844460157=="
+Content-Type: multipart/mixed; boundary="===============4411335909632440793=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 07 May 2024 14:33:30 -0000
-Message-Id: <171509241099.4704.11820447790566086360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 07 May 2024 14:33:38 -0000
+Message-Id: <171509241808.4847.15605365851890245780@gitolite.kernel.org>
 
---===============0297618246844460157==
+--===============4411335909632440793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/asoc-6.10
     old: bd381c9d151467e784988bbacf22bd7ca02455d6
     new: 741e987d04324810a832205052872be45ecaf9f6
     log: revlist-bd381c9d1514-741e987d0432.txt
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/asoc-6.9
     old: 09068d624c490c0e89f33f963c402f1859964467
     new: 6490bec6d5bf1001032c5efea94bdf5b5104bce9
     log: |
          6490bec6d5bf1001032c5efea94bdf5b5104bce9 ASoC: Intel: avs: boards: Properly name input device
          
 
---===============0297618246844460157==
+--===============4411335909632440793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1715092409 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1715092408-18b8a0fe2fd78b0b498eb32202c700ae2f5051bd
+pusher Mark Brown <broonie@kernel.org> 1715092416 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1715092415-5e969c92e71a6e07ff738bd3cea709ee1910939b
 
-bd381c9d151467e784988bbacf22bd7ca02455d6 741e987d04324810a832205052872be45ecaf9f6 refs/heads/for-6.10
-09068d624c490c0e89f33f963c402f1859964467 6490bec6d5bf1001032c5efea94bdf5b5104bce9 refs/heads/for-6.9
+bd381c9d151467e784988bbacf22bd7ca02455d6 741e987d04324810a832205052872be45ecaf9f6 refs/heads/asoc-6.10
+09068d624c490c0e89f33f963c402f1859964467 6490bec6d5bf1001032c5efea94bdf5b5104bce9 refs/heads/asoc-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmY6O7kTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0L3JB/wKr/RBwNsSDg01x6tn7Pb1xtti3alk
-YTOpa2t7IDNgAjqILLMVujuErPkqhCgdR9N5jfX2DVvWBMXRhs35ReGm7QXiEsMH
-f0zXNdUw6DV64cqoKo4fJ0lUu1NiwsoeH40Jg5YWNn77wzmJU04Cnn6oXGxnK0Mf
-7YLDaJaKH4EBLQDNOV8FWwenKkG2eWMEt3CLewKWVi+h7B20xaC0A6HNTQpknks4
-UwqrwMjBjjg7N/urIeENyo3mwS9KFtSaBEVstGTPkaUoNIcxB9tWl2eKTvB83ZDy
-49jF8TrTE1S3pJmHeiGB15yuC38XiWWsJhQtX4Ya4PKdtXAlaZzy7oj8
-=mz7D
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmY6O8ATHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0OpkB/4yCE82srPQr02oBWRFAH6/F2mVw/DX
+1z3OSxcR59p73FoLLqCQupYe8Hk8UbfzKG5D7SfFmc8JIhEydqqvl9npKuYrGN1D
+mLZhPFFf65VBTZpTygr+MqSsj22EuDYklGYnjwiQLDqHO7rLIdW1+ZrsdMbRPU/U
++0b01WYk1bEhBuyaLwt/GVWvIoDjAAwxrUrkSZrk7LQ4LeXtnHk/pdS5pAMqmkwO
+7dKjp+9k2+1Y7PTPtppu13szelAH/psUyMF4NV7dcgXhejroWKS6z4nlMThEJTaF
+HP42eBc6dZ4nEbYScRLtzRXssZkNGSkp1Gw6TqyDXBYf9O4hH0xrwkuR
+=0Snv
 -----END PGP SIGNATURE-----
 
---===============0297618246844460157==
+--===============4411335909632440793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -86,4 +86,4 @@ ba04ff20062c14bfb3119aae5eec1a919ddd54d3 ALSA/ASoC: Intel: clarify Copyright inf
 d98b07124ba42ba84740ca27f53ffba02abc1606 ASoC: Use snd_soc_substream_to_rtd() for accessing
 741e987d04324810a832205052872be45ecaf9f6 ASoC: use 'time_left' instead of 'timeout' with
 
---===============0297618246844460157==--
+--===============4411335909632440793==--
