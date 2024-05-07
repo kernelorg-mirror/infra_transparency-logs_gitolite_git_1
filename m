@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5381818733274865618=="
+Content-Type: multipart/mixed; boundary="===============5591148503553777562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 07 May 2024 11:37:34 -0000
-Message-Id: <171508185433.26052.11090595024584627010@gitolite.kernel.org>
+Date: Tue, 07 May 2024 11:37:50 -0000
+Message-Id: <171508187047.26282.15916500236449878750@gitolite.kernel.org>
 
---===============5381818733274865618==
+--===============5591148503553777562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: f92141e18c8b466027e226f3388de15b059b6f65
-    new: aca061774bc412c1415242f0d2579143dd642b46
-    log: revlist-f92141e18c8b-aca061774bc4.txt
+  - ref: refs/heads/for-next
+    old: 8c5220c43ba0cc0d48e09a76ec9a6064308e370c
+    new: 9bfaa1936169c07f3f6b161a6a56e3a006ce5e3f
+    log: revlist-8c5220c43ba0-9bfaa1936169.txt
 
---===============5381818733274865618==
+--===============5591148503553777562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f92141e18c8b-aca061774bc4.txt
+Content-Disposition: attachment; filename=revlist-8c5220c43ba0-9bfaa1936169.txt
 
 888ea1b12b06906da717b5aceabfaf0a84d1766b scsi: libsas: Add helper for port add ex_phy
 48032c0be6c7659f5019acd1403e17928dc27f52 scsi: libsas: Move sas_add_parent_port() to sas_expander.c
@@ -40,5 +40,6 @@ cb3bfbfa1ffab89e10c093e3bfcc4cf229ad5ab7 scsi: bnx2fc: Remove redundant assignme
 9cef74a9bc26fbb68da4e90573d4d61c2e07af77 scsi: libfc: Add some kernel-doc comments
 de37677ef17d2a90fe99ea8f492e5c221d5bb627 scsi: ufs: bsg: Fix all kernel-doc warnings
 aca061774bc412c1415242f0d2579143dd642b46 scsi: mpi3mr: Fix some kernel-doc warnings in scsi_bsg_mpi3mr.h
+9bfaa1936169c07f3f6b161a6a56e3a006ce5e3f Merge branch 'misc' into for-next
 
---===============5381818733274865618==--
+--===============5591148503553777562==--
