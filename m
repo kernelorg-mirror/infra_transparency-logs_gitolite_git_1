@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 07 May 2024 16:03:59 -0000
-Message-Id: <171509783932.23580.8466593827468929072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Tue, 07 May 2024 16:04:06 -0000
+Message-Id: <171509784652.23721.18250645602374015843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/master
-    old: 3132e9f59581dc619e5a8cfa2d54be4b34ec6744
-    new: 78bdb262962aa6da579998505e9a3fe894b3ac11
+  - ref: refs/heads/execmem/x86-rox/rfc-v2
+    old: 0caa8ac5e8f2f6de2e75cd2ddd552e8756779944
+    new: 4558f82d6dd794c972d26cbbd6b2f9d5a18dc472
     log: |
-         78bdb262962aa6da579998505e9a3fe894b3ac11 eapol: encrypt key data for AKM-defined ciphers
+         4558f82d6dd794c972d26cbbd6b2f9d5a18dc472 fixup: move declarations of module_writable_offset
          
