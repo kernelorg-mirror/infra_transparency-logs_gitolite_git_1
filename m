@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 08 May 2024 15:41:27 -0000
-Message-Id: <171518288720.14239.15975186666974631201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Wed, 08 May 2024 15:41:31 -0000
+Message-Id: <171518289193.14319.8926345853787422297@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
-  - ref: refs/heads/kvm-arm64/misc-6.10
-    old: 5053c3f0519cd4c746577e3a6a7756f7c04b03dd
-    new: ce5d2448eb8fe83aed331db53a08612286a137dd
+  - ref: refs/heads/master
+    old: 15a17439b31a6c76e04d10c354aee423bc663d87
+    new: cef344ccf05e9ffbdae8830b44c2b5668bfcd38f
     log: |
-         ce5d2448eb8fe83aed331db53a08612286a137dd KVM: arm64: Destroy mpidr_data for 'late' vCPU creation
+         cef344ccf05e9ffbdae8830b44c2b5668bfcd38f log: Handle dladdr failure
          
