@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 08 May 2024 11:21:12 -0000
-Message-Id: <171516727291.17908.1291154007136388987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 08 May 2024 11:22:27 -0000
+Message-Id: <171516734760.18446.1805440355426169482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: ab0cde321adc96a755caf39eb0e90d61511ec6c4
-    new: 4e13d3a9c25b7080f8a619f961e943fe08c2672c
+    old: abb45a2477f533cd4aab3085defdff131e2e8c4f
+    new: 2b696a2a101d36530227056b43e5c4ec05bcefc2
     log: |
-         4e13d3a9c25b7080f8a619f961e943fe08c2672c ipv6: Fix potential uninit-value access in __ip6_make_skb()
+         643bb5dbaef7d01f9bcf2a495bef855e81fd5714 ipvs: add READ_ONCE barrier for ipvs->sysctl_amemthresh
+         2b696a2a101d36530227056b43e5c4ec05bcefc2 ipvs: allow some sysctls in non-init user namespaces
          
