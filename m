@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1513077233253918742=="
+Content-Type: multipart/mixed; boundary="===============1452999711184116754=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 08 May 2024 15:51:28 -0000
-Message-Id: <171518348811.21990.151475394296952259@gitolite.kernel.org>
+Date: Wed, 08 May 2024 15:52:04 -0000
+Message-Id: <171518352415.22247.13265785912141270127@gitolite.kernel.org>
 
---===============1513077233253918742==
+--===============1452999711184116754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: a26ff37e624d12e28077e5b24d2b264f62764ad6
+  - ref: refs/heads/1GbE
+    old: c00e4b5f9506df3e42f04033b458ad4dfcbfeccf
     new: 02754103e1f75761066bd45d467b41ab5ad725e5
-    log: revlist-a26ff37e624d-02754103e1f7.txt
+    log: revlist-c00e4b5f9506-02754103e1f7.txt
 
---===============1513077233253918742==
+--===============1452999711184116754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a26ff37e624d-02754103e1f7.txt
+Content-Disposition: attachment; filename=revlist-c00e4b5f9506-02754103e1f7.txt
 
 d8cac8568618dcb8a51af3db1103e8d4cc4aeea7 phonet: fix rtm_phonet_notify() skb allocation
 9adcac6506185dd1a727f1784b89f30cd217ef7e netlink: specs: Add missing bridge linkinfo attrs
@@ -39,4 +39,4 @@ ba4e103848d3a2a28a0445e39f4a9564187efe54 rxrpc: Fix congestion control algorithm
 012b7206918dcc5a4dcf1432b3e643114c95957e rxrpc: Only transmit one ACK per jumbo packet received
 02754103e1f75761066bd45d467b41ab5ad725e5 Merge branch 'rxrpc-miscellaneous-fixes'
 
---===============1513077233253918742==--
+--===============1452999711184116754==--
