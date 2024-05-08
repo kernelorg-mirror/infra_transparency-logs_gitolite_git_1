@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5800166326074575406=="
+Content-Type: multipart/mixed; boundary="===============5498364418195064523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 08 May 2024 18:35:34 -0000
-Message-Id: <171519333467.28102.18267541621131941444@gitolite.kernel.org>
+Date: Wed, 08 May 2024 18:36:46 -0000
+Message-Id: <171519340623.28782.1720919717887341987@gitolite.kernel.org>
 
---===============5800166326074575406==
+--===============5498364418195064523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/char-misc-next
     old: ed63ba15d7830c30077dbb33c94242be01e45a18
     new: 336d8cd99405507abfbf25237bcbb471e8d417c8
     log: revlist-ed63ba15d783-336d8cd99405.txt
 
---===============5800166326074575406==
+--===============5498364418195064523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715193332 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715193405 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1715193332-e416548bdebea56f2985ee8444b2a023f863bab7
+nonce 1715193405-a5afb09ecd10ada583311aebd24824af91678cc8
 
-ed63ba15d7830c30077dbb33c94242be01e45a18 336d8cd99405507abfbf25237bcbb471e8d417c8 refs/heads/char-misc-testing
+ed63ba15d7830c30077dbb33c94242be01e45a18 336d8cd99405507abfbf25237bcbb471e8d417c8 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY7xfQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/QQP/2aZ8OCtUE9cVeAXOV2z
-nOB22Fq10KeHMkq2zS9EtI9i/dcX0YDbMDmvC66ZEsVODoXDSdpW76H6g7whUiqj
-b5ySA5lkbqziT7uKojj4s1vwYNueev0POVqo0zu0GGGH+bxzR++e/Nz9zrP7DN2Z
-Tn1zeCQBkA3XZuH9mvy9ighpnQX5HJ32rDCxlHYuFmTJd5aqBV0r3jI95inHh/BX
-iRlZniV8Nb8BH+OckkBomjKbcEV6kkucZ5hHnYQT59FvHO5avl0Y0DLVSVqe4rhf
-EG5jJ4RyEbArA7fVgNm7hPpsRNhRFXLsFSagz9xEuYymwV4oMYUKFfi//LT4CFJt
-QLRw0gk1jWOJJypRYlqM09gJQ3ENb7TEve0Wrqio7g6kAFXVjEa7j20CMTsIzvYl
-Rn8iS2yva07z7+ZeqlhYE8VSjFIYzPlQM2w4hY8UQq5Uz51TYcmomVfHOyNyoXoJ
-HnEv2awahCbvwvl0bbSYMj0tZGfHCc0AxK2mIXSvL70CyN4uKQLb9edYAaUARozY
-L8lCG/o8I0bKAYJVfnumK8Im2hJQwh6uDtQ/qKaR0zOzAIIaptcBdERmKSAb+Fna
-DX7ZYCgd3iGggx3Muz86+nQi36F17rfimJPKB+mQFOawiw6KDJcghRtoPd8nDBt9
-1PQgPjJh73IZ4HJtCmvo8icG
-=sl0T
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY7xj0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RGgP/38U/JQQHbGtWcCfSwJ4
+Em9iks5j73Q9hxfeClSul+idoTJNf2IIoRzg8FQArbLY6FZt9l3jm8SFgVK/h+88
+UuROurFE5F+v2q53ynDQKgagtkL8ugmOal3Y35h09UZUqcgFIOsqvodJ9ywziGjJ
+Z3qHaSdFYqrA27ewebXvN5N7WnBMZqzoNFll4AZdryO/pzfv/kLa6hzASJXIkd2D
+cTMtpX796pN2WPLHPrIn6cnFL/lkqPU2ql3StQKPLXKMChDKP9iZg8CwGaYUI1gt
+liQiXWrXbEcjMJquQ463wz9ki0dbGIK+klGBNn3roMjnoW0wms39Ji7p6nl4khRP
+swwbPvTEw+q1TCjzHa1gwFHbOP8umiyvt/CJzJqmIvaS3c7vi0QQrtAOpH4t34xq
+Ka0R7xIMGMTVybZBbTiDR0Igi5GagAfEnTdsTmK7zcJzamdeEKEpK1mUZXrQr+pW
+JhcMXzkFyc+DbObAAAQ1+b/Q+AooXCPavekYrxHjNTfKYDHqckppWWRwrXlS0a2o
+/G0FAdkz0RcPxdwhhJdfyWGw7yC3gKWl/2/WC6WqR0HRMibRCp249imutznc5LNn
+KpK2fsZOxVS9/X3avOGwp97wSaCXkKNFzJfRwJmmn6YjD0Xh8c7h2r2BnsJZY47r
+L97tBwjiJsv0ZBglW9gwLZqX
+=vrFQ
 -----END PGP SIGNATURE-----
 
---===============5800166326074575406==
+--===============5498364418195064523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ bff3f0e3035056e5b28b3d3817752c1e5f56b5bc extcon: usbc-cros-ec: Convert to platfo
 3e8e45b65d9f3f1811c020325a306da0f01e485b extcon: adc-jack: Document missing struct members
 336d8cd99405507abfbf25237bcbb471e8d417c8 Merge tag 'extcon-next-for-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
 
---===============5800166326074575406==--
+--===============5498364418195064523==--
