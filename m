@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1605830494901342288=="
+Content-Type: multipart/mixed; boundary="===============4183103549666585693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 08 May 2024 18:44:39 -0000
-Message-Id: <171519387912.2014.16895650242268154411@gitolite.kernel.org>
+Date: Wed, 08 May 2024 18:46:31 -0000
+Message-Id: <171519399109.4399.16710654512980077683@gitolite.kernel.org>
 
---===============1605830494901342288==
+--===============4183103549666585693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,58 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: dd5a440a31fae6e459c0d6271dddd62825505361
-    new: 008ab3c53bc4f0b2f20013c8f6c204a3203d0b8b
-    log: |
-         008ab3c53bc4f0b2f20013c8f6c204a3203d0b8b speakup: Fix sizeof() vs ARRAY_SIZE() bug
-         
+  - ref: refs/heads/char-misc-testing
+    old: 336d8cd99405507abfbf25237bcbb471e8d417c8
+    new: 9799873717398e8fa1727482e578b9d777da645e
+    log: revlist-336d8cd99405-979987371739.txt
 
---===============1605830494901342288==
+--===============4183103549666585693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715193877 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715193989 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1715193876-409eb54fc4f84afe9451bf51f97a62f7b611a02e
+nonce 1715193988-fece2d48a68bdc033682b435c68a37c361c8d80f
 
-dd5a440a31fae6e459c0d6271dddd62825505361 008ab3c53bc4f0b2f20013c8f6c204a3203d0b8b refs/heads/char-misc-linus
+336d8cd99405507abfbf25237bcbb471e8d417c8 9799873717398e8fa1727482e578b9d777da645e refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY7yBUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bzcP/1iLvCHj+xLXODpbALvn
-9xbNxIqc4IEgDhLC2sjsiQIHdEswD4OzB5dEb0WW+WsVBr1r/WQjOqXr03UJuXvN
-YxtHmR6c7fMyhrfdTbYgZ5eMpiOGyUXRR0i4I+Mn9++Zy+2/8gqgPH/UV1iKlmOX
-uYgX8Tbb8T8aaBfc5oEpiINneCRBbmZpeDDp6te2uLgtMr17r+SMfk8sahJIjho/
-vsNyqxS5hk7R1ErWS+nfaxNhZw70DtT+mp19372Gj71VTJ0CZHoVgscN4snlK9iR
-TpScCPUjLAGe/xuyCdFs6URA1RcoCUbOJuhPSbb0+IOYoJ0uqXa7Km/KqiD3sYuK
-mc1QJjMrAiFGvRe5uub3RfqEwmHApit6Cxj8LhRcF6Sq+ehnbAhcNqeYBS41iYr+
-we3cgiCCLnrKwP39uTWNdt3tlfBsSROqAWZTXy/io0AbhXpDcCW6L9WVxh4qtCIU
-MzWMnCkyAVW0VfI9g/azTgpRe0IZ7s3yN6kSh1wX96tIn0sw7LhhYnUZlL+TMQI/
-iTjAfWeWtw9AuSLYY58vh3yDa5nEkh8T3R3EzXSkEsqjO4YR/J/Wc5Rs0mNvaBN/
-e6vKeBxIguLQAiuTxRHuX4bAMPcXgMbSvJKTRMcgJDRxScmFgePyAYflsPtvB8Tu
-WArzhuFO8876catGAhDo4h9P
-=cpJu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY7yIUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gaEP/RTdmvMLV+KuUfO5eCpr
+nfFLo59X6Bx0wIQWAeRX236tcMIOBWkbUwTDLMAhFemDJQYwCkzPSWRYvtmndCrL
+tqmxe+x3qVYGzjr3YGnV//Zq3WOztMyDwS7rUSVjHKXRNsvaAzpJNHsdsIZ0XQwd
+R8bBFUX+8jaLsgPnkKF4/l4Atv7iAOVsMOBUWXJHqYIXX8jTS5MEFmTINv5BcmCZ
+prJ3jBjdbFBjQ+JPe+RouKCfaUMpOPrXWpgsj05HbRY39XvvY48nTINqh1j945/D
+msaYA8l7MDmQFbesapBjs/nRkyypj95gKJRAdJ6tivgL8tDBSXdAUA6PAmwaraHg
+wc2i1xddfNbndpeT3Kc7R6DtrW7u4iTAR1f0BuruPMhK7FVB+i5PMg94SLVnaOlj
+1gi6L/V0irk78NVZykdDay+r7BFQ056cpXztHq02NvBudIz4yKSk4e2oPk0P1crn
+r0cGThkC/w/S9iQGHSr/Gh1YLBzjJVMLGjN+ZFKcb969ymFGx33BDuZwgEorAxPZ
+p1U2K16/EuO9DsZWWX871yy3VSGbZr+UgNL310AkYydEhVnXmdU9fkZnG57mgNU8
++Ou2uWvJxEQb+0sQdk9asHd6BBcOXyPYyWldaQEbVahbdfwgbDZTZtHl3R31z5a9
+DrR0fr9yxg3TKeYoyUgZrnfb
+=EJk6
 -----END PGP SIGNATURE-----
 
---===============1605830494901342288==--
+--===============4183103549666585693==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-336d8cd99405-979987371739.txt
+
+b928d357576a58b02d8e997212c0351a9ee41ab0 spmi: make spmi_bus_type const
+c6c1b27f9a9a20ad2db663628fccaed72c6a0f1f dt-bindings: spmi: hisilicon,hisi-spmi-controller: fix binding references
+45b8221f0dcf1cda4dcab8f487eb60996c67a998 dt-bindings: spmi: hisilicon,hisi-spmi-controller: clean up example
+eda4923d78d634482227c0b189d9b7ca18824146 spmi: hisi-spmi-controller: Do not override device identifier
+c86f90e30a347ef0a28d0df3975c46389d0cc7fc spmi: pmic-arb: Replace three IS_ERR() calls by null pointer checks in spmi_pmic_arb_probe()
+e72efb5d4f0470fbbe310ecd75770e2fdc97682b dt-bindings: spmi: Add X1E80100 SPMI PMIC ARB schema
+345fbbca3f76b7904219c0bf953dd6dc906680dd dt-bindings: spmi: Deprecate qcom,bus-id
+83bfd7a81fc4d287658ddcd9490d7545f7693aa5 spmi: pmic-arb: Fix some compile warnings about members not being described
+8bc03763e15b6783fdf149677d89a84e935aea8c spmi: pmic-arb: Make the APID init a version operation
+994ac434b7261ac2d89c65c7fa75fa697bfd7054 spmi: pmic-arb: Make core resources acquiring a version operation
+02922ccbb330128a5cf70f28e9d06b2eb0594796 spmi: pmic-arb: Register controller for bus instead of arbiter
+9799873717398e8fa1727482e578b9d777da645e spmi: pmic-arb: Add multi bus support
+
+--===============4183103549666585693==--
