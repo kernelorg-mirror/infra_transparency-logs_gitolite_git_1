@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 08 May 2024 11:20:07 -0000
-Message-Id: <171516720745.17435.5703128122758995673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 08 May 2024 11:21:12 -0000
+Message-Id: <171516727291.17908.1291154007136388987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: b7ffab29a8e4705e7b9f05293669dc8a30272bc6
-    new: abb45a2477f533cd4aab3085defdff131e2e8c4f
+    old: ab0cde321adc96a755caf39eb0e90d61511ec6c4
+    new: 4e13d3a9c25b7080f8a619f961e943fe08c2672c
     log: |
-         abb45a2477f533cd4aab3085defdff131e2e8c4f net: stmmac: dwmac-ipq806x: account for rgmii-txid/rxid/id phy-mode
+         4e13d3a9c25b7080f8a619f961e943fe08c2672c ipv6: Fix potential uninit-value access in __ip6_make_skb()
          
