@@ -1,31 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============8926525538335704881=="
+Content-Type: multipart/mixed; boundary="===============3642538195823888296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Wed, 08 May 2024 14:53:26 -0000
-Message-Id: <171518000652.9890.17548141706946781027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Wed, 08 May 2024 14:53:55 -0000
+Message-Id: <171518003508.10179.14400778149710916937@gitolite.kernel.org>
 
---===============8926525538335704881==
+--===============3642538195823888296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: 6f3c0cfe2aa52d7ecb280cecc20147952d6ec02d
-    new: 8eba5b693442fcfc7bfdd6402cd191250ce3e276
-    log: revlist-6f3c0cfe2aa5-8eba5b693442.txt
+  - ref: refs/heads/master
+    old: b401b621758e46812da61fa58a67c3fd8d91de0d
+    new: dd5a440a31fae6e459c0d6271dddd62825505361
+    log: revlist-b401b621758e-dd5a440a31fa.txt
 
---===============8926525538335704881==
+--===============3642538195823888296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f3c0cfe2aa5-8eba5b693442.txt
+Content-Disposition: attachment; filename=revlist-b401b621758e-dd5a440a31fa.txt
 
+331282fdb15edaf1beb1d27a64d3f65a34d7394d KVM: SVM: Drop 32-bit "support" from __svm_sev_es_vcpu_run()
+87e8e360a05fd29465691aeac179bcf585600c59 KVM: SVM: Clobber RAX instead of RBX when discarding spec_ctrl_intercepted
+c92be2fd8edf7b300a758c185fe032fd0257b886 KVM: SVM: Save/restore non-volatile GPRs in SEV-ES VMRUN via host save area
+adac42bf42c1608f23938c03e3ca53fa6c87f337 KVM: SVM: Save/restore args across SEV-ES VMRUN via host save area
+4367a75887ec8d68932cd84ea9cffe24d7a55fa0 KVM: SVM: Create a stack frame in __svm_sev_es_vcpu_run()
 27ca867042affef7eba692d3bac7b51ee85e36ad KVM: x86: Stop compiling vmenter.S with OBJECT_FILES_NON_STANDARD
 4c08f01934ab67d1d283d5cbaa52b923abcfe4cd drm/vmwgfx: Enable DMA mappings with SEV
 05a2f07db8883b027c0b4a475fcc586278922b8d tools/power turbostat: read RAPL counters via perf
@@ -1045,10 +1050,5 @@ ef095257750bb434959648331e48e44705d802e9 Merge tag 'powerpc-6.9-4' of git://git.
 f462ae0edd3703edd6f22fe41d336369c38b884b Merge tag 'edac_urgent_for_v6.9_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 4efaa5acf0a1d2b5947f98abb3acf8bfd966422b epoll: be better about file lifetimes
 dd5a440a31fae6e459c0d6271dddd62825505361 Linux 6.9-rc7
-45d8b572fac3aa8b49d53c946b3685eaf78a2824 PM / devfreq: exynos-nocp: Convert to platform remove callback returning void
-177e15dfbcaa5b3944f4586e6d42e96920b81db9 PM / devfreq: exynos-ppmu: Convert to platform remove callback returning void
-0df0258600c61df406aa0ad0abd514941ce62218 PM / devfreq: mtk-cci: Convert to platform remove callback returning void
-14532a01feb063d7dd08ca1749a68b6f70ef2a62 PM / devfreq: sun8i-a33-mbus: Convert to platform remove callback returning void
-8eba5b693442fcfc7bfdd6402cd191250ce3e276 PM / devfreq: rk3399_dmc: Convert to platform remove callback returning void
 
---===============8926525538335704881==--
+--===============3642538195823888296==--
