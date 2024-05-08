@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Wed, 08 May 2024 22:50:33 -0000
-Message-Id: <171520863382.19598.14374126410177845635@gitolite.kernel.org>
+Date: Wed, 08 May 2024 23:09:35 -0000
+Message-Id: <171520977597.32675.86643718865253643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,10 @@ repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
   - ref: refs/heads/next
-    old: d4e6fbd245c48b272cc591d1c5e7c07aedd7f071
-    new: b07b7e2fd51840c7dfffa98c4344ab36195bb8dc
+    old: b07b7e2fd51840c7dfffa98c4344ab36195bb8dc
+    new: 2c3b8f8f37c6c0c926d584cf4158db95e62b960c
     log: |
-         17909476d631979927109187cc7e89e4577ff5be selftests: kselftest_deps: fix l5_test() empty variable
-         051f2226a545a07b5d21b5c9d8626ddd483c68a5 selftests: filesystems: add missing stddef header
-         b0df30628459a0fb349e3de09cf0fd6548241044 selftests/capabilities: fix warn_unused_result build warnings
-         2fd3ef1b9265eda7f53b9506f1ebfb67eb6435a2 selftests/ftrace: Fix BTFARG testcase to check fprobe is enabled correctly
-         b07b7e2fd51840c7dfffa98c4344ab36195bb8dc selftests/ftrace: Fix checkbashisms errors
+         14d28ec6f821622211aa65b4da156399c9a4a9c6 selftests/resctrl: fix clang build warnings related to abs(), labs() calls
+         daef47b89efd0b745e8478d69a3ad724bd8b4dc6 selftests: Compile kselftest headers with -D_GNU_SOURCE
+         2c3b8f8f37c6c0c926d584cf4158db95e62b960c selftests/sgx: Include KHDR_INCLUDES in Makefile
          
