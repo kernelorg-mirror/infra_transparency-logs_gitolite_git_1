@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2446254770110998364=="
+Content-Type: multipart/mixed; boundary="===============0850449175318490935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 08 May 2024 18:14:22 -0000
-Message-Id: <171519206207.31738.17061816974948371647@gitolite.kernel.org>
+Date: Wed, 08 May 2024 18:14:25 -0000
+Message-Id: <171519206584.31811.5694600150551025446@gitolite.kernel.org>
 
---===============2446254770110998364==
+--===============0850449175318490935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: ed30a4a51bb196781c8058073ea720133a65596f
+  - ref: refs/heads/usb-linus
+    old: ae11f04b452b5205536e1c02d31f8045eba249dd
     new: dd5a440a31fae6e459c0d6271dddd62825505361
-    log: revlist-ed30a4a51bb1-dd5a440a31fa.txt
+    log: revlist-ae11f04b452b-dd5a440a31fa.txt
 
---===============2446254770110998364==
+--===============0850449175318490935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715192060 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715192065 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1715192059-cac3134aa78009c3fe1391600e1876ef06a2cbc8
+nonce 1715192064-cbf30dd377248d2b4f577ef51a0d5bf2d17c4717
 
-ed30a4a51bb196781c8058073ea720133a65596f dd5a440a31fae6e459c0d6271dddd62825505361 refs/heads/main
+ae11f04b452b5205536e1c02d31f8045eba249dd dd5a440a31fae6e459c0d6271dddd62825505361 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY7wPwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9v4P/iYglWUT+1YrXMfxC9a0
-0afYH8g31dPB5hlwUR/gz003P4/vuUsbl7Ze3TLflQEjQMVZMrUcGqiTO4pWvYSL
-wUO5Yh3NZcwDePag3RixEHOs+RhCltNYpoFe7bp/vkOW3M9sNmxCnFY7YbNnXtd+
-AlHV9U7NLXqlQPhKMlgXHUUy9WKH3CKfsJEVOOa+UEnalR7iuINn51WE7YJP6uHD
-OzpeklOo+DkeINzsUKUCLhEZvFbqpQ7Z1itu8GHO6UxmWEuAbsivjo4nV8aGvuBD
-DxTOuCCoOI98KZqqUSDKzutWd6N5XdBzJVrFVr3+v4WOYy/+flN1zLpk1GHGi6ti
-dqcjM5/nHJqK+WuHP46+3dTGhJ2UBEY2R2uQk7IPZp0062yntJJVc6KO17cBmgQA
-Uq1qwBuVH7wJXDEo2zwejJlKghy8tb30TBKwDQLbDfnzEPhLSdYBmdIGuPA0gK+n
-6/LZrrkI6P6mjufqJY9gRaEEy5tWuVd+hUQgHQ6lPlzznjSxkz8wSoLUZfDKmUfh
-arIRmhrXs3Ln/8gLktTKFMOHe7x6DOijHywBL0/xGldM9b132QjBM8UQke6vRA4b
-3pR3iRKDrN44YGZFJdPplx/hDjkYipoeoaOBLN1omY1w7mk8/yEChckeKiXD9oS3
-0ucC3DUiuiHhMYdSgwYC+9XK
-=S84R
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY7wQEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VGsP/2ewrEJfsTMF/5WDO+v+
+ukHqlIKa9YtAHVh1XZahF+OHSZkEIZpT6Paf+F1tGzpnycIXLBuYG2aWral47DFE
+YeyHvAZZtGPek8KZ2IdZJstNBIk9vhFU71dglUTIwyV1Dw+ICFKbmGeqSuo4zeEv
++cD3BZKbQq9J73PHo/y7tAMgp7NH5RxZ+7C3zF7ECpbSXXuLCOkW0CpVan3Fb6/N
+r/pJtwh0ARioV3jwwgjNrYtC1kESuy8uGLhgTzXxHsA6rPwXBgqzsu/W3iNVvowr
+5NSuIECGSuEoJTuMVsa33hdKtpuTOAAyd08afu+uxUTMFkgtuyfCXHDECJ9+dFiX
+Nl2kuv1Eyav6mH3fvnjXhkySWtUR6NYr0ZzhZjFN8Mp0yE7cQXHHZp6lkKIElF11
+9aM3KVG3g/cQuUduW6ikzK23yHf/ZsfDOqRCWADnFxhSONvNJPMlHLgkT28Zvb2s
+oTet4zM0EIuhMRUOaQ+hl3SfYUTmdxAEfMxLLHmNqvGppwZxlLvPVKWle2/i0Yfe
+j0IYOgtv8hHaOnJVSg9TAwPPstdaeCp+ku+CA83HSyYdmj3aHKD89V4tL960lPif
+JraVln2NM8kQ2TIg7/k+zn7WAbBlaazD6lB3OQMlPT3KuZU5zt4WWSMDAzmQw4Xz
+Z3rjptkdq9mRkp+xBTG+oGVu
+=ENul
 -----END PGP SIGNATURE-----
 
---===============2446254770110998364==
+--===============0850449175318490935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed30a4a51bb1-dd5a440a31fa.txt
+Content-Disposition: attachment; filename=revlist-ae11f04b452b-dd5a440a31fa.txt
 
 9c0f59e47a90c54d0153f8ddc0f80d7a36207d0e HID: i2c-hid: remove I2C_HID_READ_PENDING flag to prevent lock-up
 92826905ae340b7f2b25759a06c8c60bfc476b9f HID: intel-ish-hid: ipc: Fix dev_err usage with uninitialized dev->devc
@@ -345,15 +345,6 @@ a44f2eb106a46f2275a79de54ce0ea63e4f3d8c8 tools: ynl: don't ignore errors in NLMS
 57a01eafdcf78f6da34fad9ff075ed5dfdd9f420 workqueue: Fix selection of wake_cpu in kick_pool()
 9d1ddab261f3e2af7c384dc02238784ce0cf9f98 Merge tag '6.9-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 68301ef471b63f25d6e6144a0820fea52257a34a ACPI: PM: s2idle: Evaluate all Low-Power S0 Idle _DSM functions
-24729b307eefcd7c476065cd7351c1a018082c19 usb: gadget: f_fs: Fix race between aio_cancel() and AIO request complete
-ec6ce7075ef879b91a8710829016005dc8170f17 usb: gadget: composite: fix OS descriptors w_value logic
-650ae71c80749fc7cb8858c8049f532eaec64410 usb: gadget: uvc: use correct buffer size when parsing configfs lists
-4a237d55446ff67655dc3eed2d4a41997536fc4c usb: xhci-plat: Don't include xhci.h
-6d735722063a945de56472bdc6bfcb170fd43b86 usb: dwc3: core: Prevent phy suspend during init
-a4b46d450c49f32e9d4247b421e58083fde304ce USB: core: Fix access violation during port device removal
-0aea736ddb877b93f6d2dd8cf439840d6b4970a9 usb: gadget: f_fs: Fix a race condition when processing setup packets.
-d80eee97cb4e90768a81c856ac71d721996d86b7 usb: typec: qcom-pmic: fix use-after-free on late probe errors
-f2004e82abb679735e1dff99f9c94eb4bfe735b4 usb: typec: qcom-pmic: fix pdphy start() error handling
 9c8ecb9308d8013ff9ac9d36fdd8ae746033b93c Revert "NFSD: Reschedule CB operations when backchannel rpc_clnt is shut down"
 8ddb7142c8ab37371c6fd167a8aded97922c6268 Revert "NFSD: Convert the callback workqueue to use delayed_work"
 ff33132605c1a0acea59e4c523cb7c6fabe856b2 regulator: change devm_regulator_get_enable_optional() stub to return Ok
@@ -621,8 +612,6 @@ a22549304372086420d0d5dc99661090e5c388b9 Merge tag 'sunxi-clk-fixes-for-6.9-1' o
 63a6ce5a1a6261e4c70bad2b55c4e0de8da4762e btrfs: set correct ram_bytes when splitting ordered extent
 c5782bb5468acf86d8ca8e161267e8d055fb4161 ASoC: meson: tdm fixes
 e5c8fc5955608cc3561a1ac949e3a39479f24394 Merge tag 'pinctrl-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-fe81f354841641c7f71163b84912b25c169ed8ec usb: ohci: Prevent missed ohci interrupts
-c78c3644b772e356ca452ae733a3c4de0fb11dc8 usb: Fix regression caused by invalid ep0 maxpacket in virtual SuperSpeed device
 a52a0b3997472d680b627170366c22a5c34b89c5 Merge tag 'platform-drivers-x86-v6.9-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 50dffbf771802c4db88de2cb942affa0ada43ad0 Merge tag 'for-v6.9-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 1e707769df072757bdcafab158bb159ead73daa4 ALSA: hda/realtek - Set GPIO3 to default at S4 state for Thinkpad with ALC1318
@@ -630,11 +619,6 @@ a52a0b3997472d680b627170366c22a5c34b89c5 Merge tag 'platform-drivers-x86-v6.9-4'
 52a6947bf576b97ff8e14bb0a31c5eaf2d0d96e2 drm/nouveau/firmware: Fix SG_DEBUG error with nvkm_firmware_ctor()
 6f572a80545773833f00c9a65e9242ab6fedb192 drm/nouveau/gsp: Use the sg allocator for level 2 of radix3
 a37ef7613c00f2d72c8fc08bd83fb6cc76926c8c drm/vmwgfx: Fix invalid reads in fence signaled events
-edc5a009ee3bdc2161e2c3e782a37805617790a3 usb: typec: tcpm: queue correct sop type in tcpm_queue_vdm_unlocked
-bf20c69cf3cf9c6445c4925dd9a8a6ca1b78bfdf usb: typec: tcpm: clear pd_event queue in PORT_RESET
-230ecdf71a644c9c73e0e6735b33173074ae3f94 usb: typec: tcpm: unregister existing source caps before re-registration
-cdc9946ea6377e8e214b135ccc308c5e514ba25f usb: typec: tcpm: enforce ready state when queueing alt mode vdm
-ae11f04b452b5205536e1c02d31f8045eba249dd usb: typec: tcpm: Check for port partner validity before consuming it
 16c20208b9c2fff73015ad4e609072feafbf81ad Merge tag 'kvmarm-fixes-6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 0537c8eef4f699aacdeb67c6181c66cccd63c7f5 Input: amimouse - mark driver struct with __refdata to prevent section mismatch
 18daea77cca626f590fb140fc11e3a43c5d41354 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
@@ -735,4 +719,4 @@ f462ae0edd3703edd6f22fe41d336369c38b884b Merge tag 'edac_urgent_for_v6.9_rc7' of
 4efaa5acf0a1d2b5947f98abb3acf8bfd966422b epoll: be better about file lifetimes
 dd5a440a31fae6e459c0d6271dddd62825505361 Linux 6.9-rc7
 
---===============2446254770110998364==--
+--===============0850449175318490935==--
