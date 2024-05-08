@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 08 May 2024 19:50:50 -0000
-Message-Id: <171519785055.19163.16807565590599697339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Wed, 08 May 2024 20:00:44 -0000
+Message-Id: <171519844482.25845.8085944936989609916@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/for-next/seccomp
-    old: 39cd87c4eb2b893354f3b850f916353f2658ae6f
-    new: e406737b11103752838cf50fd197ec8e9352bbf7
-    log: |
-         e406737b11103752838cf50fd197ec8e9352bbf7 seccomp: Constify sysctl subhelpers
-         
+  - ref: refs/tags/riscv-dt-for-v6.10-take2
+    old: 0000000000000000000000000000000000000000
+    new: 4dd36e2d0c04cd1f6f0661dbe3819c7937d6e587
