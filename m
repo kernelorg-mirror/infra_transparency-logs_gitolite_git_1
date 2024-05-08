@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 08 May 2024 06:55:59 -0000
-Message-Id: <171515135951.3974.16547613082962776516@gitolite.kernel.org>
+Date: Wed, 08 May 2024 07:05:19 -0000
+Message-Id: <171515191954.10555.1189505064410898989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/qcom/drivers-2
+  - ref: refs/heads/qcom/defconfig-2
     old: 0000000000000000000000000000000000000000
-    new: 4b34d4c25da289712d9a5bd5bac5888f099cbc5c
+    new: b052c7fe3cb787282ab7e1fa088c794a1eb7fdb0
