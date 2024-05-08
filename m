@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 08 May 2024 08:24:13 -0000
-Message-Id: <171515665353.3206.5911538567474560474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Wed, 08 May 2024 08:37:57 -0000
+Message-Id: <171515747773.14192.15782620971701411445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: f483f6a29d4d701f1641898463e93d081bb03b52
-    new: 2b8af5001abdf583da3a63201cc6137553019515
+  - ref: refs/heads/master
+    old: 44463edeb303a464c4a44fcea184b267aeb53302
+    new: 896948b14ad26f15590269dce50ac4896284dc29
     log: |
-         2b8af5001abdf583da3a63201cc6137553019515 RDMA/efa: Support QP with unsolicited write w/ imm. receive
+         d399c494c6364a6b6d0f965c08443fdc79d1e248 tests/01r5fail enhance
+         a20cb3872c02241e4f0f7cc26933a43bac7d1cbb tests/01r5integ.broken
+         896948b14ad26f15590269dce50ac4896284dc29 tests/01raid6integ.broken can be removed
          
