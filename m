@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5066611708411255747=="
+Content-Type: multipart/mixed; boundary="===============7600353490623166362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Wed, 08 May 2024 17:13:16 -0000
-Message-Id: <171518839664.19321.15311299449646277780@gitolite.kernel.org>
+Date: Wed, 08 May 2024 17:17:21 -0000
+Message-Id: <171518864113.22478.1831109652176037387@gitolite.kernel.org>
 
---===============5066611708411255747==
+--===============7600353490623166362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/master
-    old: 49a73b1652c58ef2a81776a12ad9ac0795f38de0
-    new: dccb07f2914cdab2ac3a5b6c98406f765acab803
-    log: revlist-49a73b1652c5-dccb07f2914c.txt
+  - ref: refs/heads/for-next
+    old: 3eae0630ca1abd23f565659c1376edf8c67caa4a
+    new: 3d24428f194c89e989069dca29f78913bbc197f1
+    log: revlist-3eae0630ca1a-3d24428f194c.txt
 
---===============5066611708411255747==
+--===============7600353490623166362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49a73b1652c5-dccb07f2914c.txt
+Content-Disposition: attachment; filename=revlist-3eae0630ca1a-3d24428f194c.txt
 
 546a4f4b5f4d930ea57f5510e109acf08eca5e87 iio: pressure: Fixes BME280 SPI driver data
 5ca29ea4e4073b3caba750efe155b1bd4c597ca9 iio: pressure: Fixes SPI support for BMP3xx devices
@@ -231,5 +231,7 @@ c73677ca411d3dbfe585dcbf389b3cd83e0e3530 Merge tag 'auxdisplay-v6.10-1' of git:/
 ee5b455b0adae9ecafb38b174c648c48f2a3c1a5 Merge tag 'slab-for-6.9-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 3628e0383dd349f02f882e612ab6184e4bb3dc10 Reapply "drm/qxl: simplify qxl_fence_wait"
 dccb07f2914cdab2ac3a5b6c98406f765acab803 Merge tag 'for-6.9-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+d3ea12552495d38949f3891a59e694f396a90885 bcache: Remove usage of the deprecated ida_simple_xx() API
+3d24428f194c89e989069dca29f78913bbc197f1 bcache: fix variable length array abuse in btree_iter
 
---===============5066611708411255747==--
+--===============7600353490623166362==--
