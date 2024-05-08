@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4978846793594140268=="
+Content-Type: multipart/mixed; boundary="===============6144331663921005705=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 08 May 2024 18:23:19 -0000
-Message-Id: <171519259971.18316.17154958756547074577@gitolite.kernel.org>
+Date: Wed, 08 May 2024 18:23:27 -0000
+Message-Id: <171519260718.18411.15457854827958780833@gitolite.kernel.org>
 
---===============4978846793594140268==
+--===============6144331663921005705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,53 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 98241a774db49988f25b7b3657026ce51ccec293
-    new: dd5a440a31fae6e459c0d6271dddd62825505361
-    log: revlist-98241a774db4-dd5a440a31fa.txt
+  - ref: refs/heads/char-misc-next
+    old: 5015f8a5ced7039de354c1103b0912f5a64fab03
+    new: ed63ba15d7830c30077dbb33c94242be01e45a18
+    log: revlist-5015f8a5ced7-ed63ba15d783.txt
 
---===============4978846793594140268==
+--===============6144331663921005705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715192599 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715192604 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1715192597-6799dd199e11af0449fb960a93278af9d94da953
+nonce 1715192604-182bf0dade3818ad988622ca9adcfe99bf029f48
 
-98241a774db49988f25b7b3657026ce51ccec293 dd5a440a31fae6e459c0d6271dddd62825505361 refs/heads/char-misc-linus
+5015f8a5ced7039de354c1103b0912f5a64fab03 ed63ba15d7830c30077dbb33c94242be01e45a18 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY7wxcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+37EP/R323sljyY4xwSvhRjC8
-D8Yj2R317kd2BO3alqmr41UxNdSoWp8qLGbp6hojOXo4f74YuTxCaZchgsPK9u1J
-hpTMXh3l7jScP+8eY50dQZ3Oca2Ap/y1/Xq7wNgiPVYmmoqegtQCkhb4Jy4UMyL0
-fRTcpMYX0u+oAvrIwO38z5uyUVft6QLivKawAvqPeil5Fx9CbYu78YMrPolllSzq
-PCXljihlspkkUJMiJK7q0dsMG9NupU5Ihy2yQ57t3sRFwa7nX7XPWQ5Y4VO2L1RV
-W/75Xn31CVId+ivnF+a1M8JqCqUGjKfo9su+7Eavec401qJSQNCku3XIxyUp78DY
-NpjB7UHOVfsXnN3RU+LSToz1fjeawZKCA2vhv2uI8Q/U8k2Ofo/AwjyIcekFwOuw
-+WRFDNGxEeGHHXQf/ffBEfrN2Qp6aInsRwdpTwca6C57YwYF+UdB3Fpn6O8s87+D
-PEqYyePHo7QZ9+r4Mj/2sK2jPt0B9cRA02DGpV+5HIjwfXnc1rzzRxw6fcm0gHdY
-RoHyu3ALHJcEMDxIC85nSUFJuyOgTjQFI8lXUV1ZHDk11+FOKdXUD7NUKRtQe7hk
-NkejiIk7tEHIyR6XgyKax3I44d8qxOmZw4mbiVJuMkU7JqPqivQ8+PNQKqlAloNz
-KPP5Y155FPsIgKeRVofzKcIs
-=Lusl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmY7wxwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+++kQAK5+xnRo76RDidEgcgDW
+cfyLOpv0M41sVPDLhlQjxz/Apuf2gRyENZgTJ/XOxNZGXuhcBybzlQ09/pTMUOcx
+yioHUGnaFZtoLNaa+3PDyNZbgQqZBGPwLLZcem8ilWbYpxc5c8krTVBKf2Z/9HSC
+l7V8qFeoyOEb6xfwVe7/txqoCMgXZ+Sc7UsTnUaMYOQVQvM0Km/sEB1+2nxd6r01
+6c4i0UCrS+AdAJLCFqc8e8LPhVtFGiIpdPA4gvQ+az8mMWanFlxt/aoNiaY+Q071
+qlwUSxsKRt5jMA2xadv+mejwLLx8BsF/uBp2dla44i2mungPBteA72TwJUM9x+qN
+oDU6y47zM/ccrt0ewCi3mMni1FFlbKu+wkeqAw+AZoCiNsR9Btiig4o1PxlQe3vR
+k0tX7YsMrltqiCTZGLMWMxkh9GnQxlVzRpt2xZncP7EnXlzesH1Fdi2ySbhc6WZ+
+8lPg2VNr8b3B6EAF6ndR8FpyaHdyADaoX+F7Xvoa48gF6C8x+1tznCbUd+CVIzzC
+l9fRTZgMjHe7fYPFrPrbdGPGyC+2ZQYzqWyv0u+zyJKySkKuRkmKsEgZhkkcoYth
+KthHcQk0w+lw1XXWlm+YnL9rEgwkSc8UoIgR8yqsiRXaay9wctklDCCguEZwGzbu
+VzK34QT+SCLPUtuo0pGS4+X1
+=KLmi
 -----END PGP SIGNATURE-----
 
---===============4978846793594140268==
+--===============6144331663921005705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98241a774db4-dd5a440a31fa.txt
+Content-Disposition: attachment; filename=revlist-5015f8a5ced7-ed63ba15d783.txt
 
 9c0f59e47a90c54d0153f8ddc0f80d7a36207d0e HID: i2c-hid: remove I2C_HID_READ_PENDING flag to prevent lock-up
 92826905ae340b7f2b25759a06c8c60bfc476b9f HID: intel-ish-hid: ipc: Fix dev_err usage with uninitialized dev->devc
 139b4c37e9cb0943e51adbb9c20c45bf60e44422 MAINTAINERS: update Benjamin's email address
+546a4f4b5f4d930ea57f5510e109acf08eca5e87 iio: pressure: Fixes BME280 SPI driver data
+5ca29ea4e4073b3caba750efe155b1bd4c597ca9 iio: pressure: Fixes SPI support for BMP3xx devices
+89384a2b656b9dace4c965432a209d5c9c3a2a6f dt-bindings: iio: health: maxim,max30102: fix compatible check
 a2ac2a1b02590a22a236c43c455f421cdede45f5 arm64: dts: rockchip: set PHY address of MT7531 switch to 0x1f
 0ac417b8f124427c90ec8c2ef4f632b821d924cc arm64: dts: rockchip: enable internal pull-up for Q7_THRM# on RK3399 Puma
 f0abb4b2c7acf3c3e4130dc3f54cd90cf2ae62bc arm64: dts: rockchip: fix alphabetical ordering RK3399 puma
@@ -76,6 +79,8 @@ afc89870ea677bd5a44516eb981f7a259b74280c dmaengine: Revert "dmaengine: pl330: is
 9140ce47872bfd89fca888c2f992faa51d20c2bc idma64: Don't try to serve interrupts when device is powered off
 c10cd03d69403fa0f00be8631bd4cb4690440ebd pinctrl: pinctrl-aspeed-g6: Fix register offset for pinconf of GPIOR-T
 368a90e651faeeb7049a876599cf2b0d74954796 pinctrl/meson: fix typo in PDM's pin name
+57a1592784d622ecee0b71940c65429173996b33 iio: accel: mxc4005: Interrupt handling fixes
+6b8cffdc4a31e4a72f75ecd1bc13fbf0dafee390 iio: accel: mxc4005: Reset chip on probe() and resume()
 63dc588e7af1392576071a1841298198c9cddee3 soundwire: amd: fix for wake interrupt handling for clockstop mode
 5038a66dad0199de60e5671603ea6623eb9e5c79 pinctrl: core: delete incorrect free in pinctrl_enable()
 7d49f53af4b988b188d3932deac2c9c80fd7d9ce rust: don't select CONSTRUCTORS
@@ -131,6 +136,7 @@ f8020dfb311d2b6cf657668792aaa5fa8863a7dd phy: rockchip-snps-pcie3: fix bifurcati
 d16d4002fea69b6609b852dd8db1f5844c02fbe4 phy: rockchip: naneng-combphy: Fix mux on rk3588
 5abed58a8bde6d349bde364a160510b5bb904d18 phy: qcom: qmp-combo: Fix VCO div offset on v3
 ee13e1f3c72b9464a4d73017c060ab503eed653a phy: qcom: qmp-combo: Fix register base for QSERDES_DP_PHY_MODE
+74a72baf204fd509bbe8b53eec35e39869d94341 iio:imu: adis16475: Fix sync mode setting
 47b3e2f3914ae5e8d9025d65ae5cffcbb54bc9c3 phy: qcom: m31: match requested regulator name with dt schema
 d5638de827cff0fce77007e426ec0ffdedf68a44 dmaengine: idxd: Convert spinlock to mutex to lock evl workqueue
 244296cc3a155199a8b080d19e645d7d49081a38 dma: xilinx_dpdma: Fix locking
@@ -371,10 +377,13 @@ fe93b0927bc58cb1d64230f45744e527d9d8482c drm/amdgpu: Fix the ring buffer size fo
 9792b7cc18aaa0c2acae6af5d0acf249bcb1ab0d drm/amdgpu/sdma5.2: use legacy HDP flush for SDMA2/3
 948255282074d9367e01908b3f5dcf8c10fc9c3d drm/amdgpu/mes: fix use-after-free issue
 d40f92020c7a225b77e68599e4b099a4a0823408 workqueue: The default node_nr_active should have its max set to max_active
+7ab7f2ca4608cb9056aa66328f921a8ccef88ad2 Merge tag 'iio-fixes-for-6.9a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 697f3342477170bdf8759157bdc19c0b7b3e9d14 LoongArch: Fix Kconfig item and left code related to CRASH_CORE
 7ab22b5c2af54e233f3d05d7d601025947e4ff05 LoongArch: Fix a build error due to __tlb_remove_tlb_entry()
 efb44ff64c95340b06331fc48634b99efc9dd77c LoongArch: Fix access error when read fault on a write-only VMA
 d3119bc985fb645ad3b2a9cf9952c1d56d9daaa3 LoongArch: Fix callchain parse error with kernel tracepoint events
+a1383ac7284afc2f0ca39edee57dea4db70e66f3 mei: pxp: match against PCI_CLASS_DISPLAY_OTHER
+4108a30f1097eead0f6bd5d885e6bf093b4d460f mei: me: add lunar lake point M DID
 9a1f1d04f63c59550a5364858b46eeffdf03e8d6 smb: client: Fix struct_group() usage in __packed structs
 f2a904107ee2b647bb7794a1a82b67740d7c8a64 net: gtp: Fix Use-After-Free in gtp_dellink
 5b5f724b05c550e10693a53a81cadca901aefd16 net: phy: mediatek-ge-soc: follow netdev LED trigger semantics
@@ -496,6 +505,7 @@ a5b1051ad5a7028a4a5a2f569f8caf3a56c7163c Merge branch 'ensure-the-copied-buf-is-
 86ab9985214d9918113d6387bd0640e6166e68d1 Merge tag 'drm-misc-fixes-2024-04-25' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 ca382d6aa5adca82cd4c93194635fa0e64e6fa4f Merge tag 'drm-etnaviv-fixes-2024-04-25' of https://git.pengutronix.de/git/lst/linux into drm-fixes
 3a8534035c0747610312f9552898a0ece10ef8a7 Merge tag 'drm-xe-fixes-2024-04-25' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+bb1dbeceb1c20cfd81271e1bd69892ebd1ee38e0 fpga: dfl-pci: add PCI subdevice ID for Intel D5005 card
 58cd9e03cff0883a77c1ffd774a5506639c9c1d7 Merge tag 'at24-fixes-for-v6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into i2c/for-current
 1d422e44e17c234cef262599e8e5dce6cd3ce28d MAINTAINERS: Drop entry for PCA9541 bus master selector
 190f1f46ede17ca0d7153ac115d6518ec1be2ba3 MAINTAINERS: Update Uwe's email address, drop SIOX maintenance
@@ -575,6 +585,7 @@ fcee2065a178f78be6fd516302830378b17dba3d net: qede: use return from qede_parse_f
 f26f719a36e56381a1f4230e5364e7ad4d485888 net: qede: use return from qede_parse_actions()
 b867247555c4181bf84eb10b72b176862c29112d Merge branch 'qed-error-codes'
 d6d85ac15cce4dcf02cf8c96cb970562be6a3529 x86/e820: Add a new e820 table update helper
+ee59be35d7a8be7fcaa2d61fb89734ab5c25e4ee misc/pvpanic-pci: register attributes via pci_driver
 400fea4b9651adf5d7ebd5d71e905f34f4e4e493 x86/sev: Add callback to apply RMP table fixups for kexec
 38762a0763c10c24a4915feee722d7aa6e73eb98 firewire: nosy: ensure user_length is taken into account when fetching packet contents
 09773bf55aeabe3fd61745d900798dc1272c778a firewire: ohci: fulfill timestamp for some local asynchronous transaction
@@ -605,6 +616,8 @@ d03d4188908883e1705987795a09aeed31424f66 Merge tag 'scsi-fixes' of git://git.ker
 a22549304372086420d0d5dc99661090e5c388b9 Merge tag 'sunxi-clk-fixes-for-6.9-1' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into clk-fixes
 98369dccd2f8e16bf4c6621053af7aa4821dcf8e Merge tag 'wq-for-6.9-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 720a22fd6c1cdadf691281909950c0cbc5cdf17e x86/apic: Don't access the APIC when disabling x2APIC
+9b83aa7a50095848066ee8dcb894e48cf9efae7c Merge tag 'fpga-for-6.9-final' of git://git.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga into char-misc-linus
+00e7d3bea2ce7dac7bee1cf501fb071fd0ea8f6c dyndbg: fix old BUG_ON in >control parser
 63a6ce5a1a6261e4c70bad2b55c4e0de8da4762e btrfs: set correct ram_bytes when splitting ordered extent
 c5782bb5468acf86d8ca8e161267e8d055fb4161 ASoC: meson: tdm fixes
 e5c8fc5955608cc3561a1ac949e3a39479f24394 Merge tag 'pinctrl-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
@@ -693,6 +706,7 @@ f03359bca01bf4372cf2c118cd9a987a5951b1c8 Merge tag 'for-6.9-rc6-tag' of git://gi
 306eca05a5b0d0709ceba35548eaabc3ed8b0a40 Merge tag 'amd-drm-fixes-6.9-2024-05-01' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 5c75d681321635ba29529bd7242c3bfc2ba43715 Merge tag 'drm-xe-fixes-2024-05-02' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 09e10499ee6a5a89fc352f25881276398a49596a Merge tag 'drm-misc-fixes-2024-05-02' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+98241a774db49988f25b7b3657026ce51ccec293 slimbus: qcom-ngd-ctrl: Add timeout for wait operation
 9fbc8bdf17babc2c20dcd51ac25ed12e342dedd0 Merge tag 'spi-fix-v6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 b5a66609a643443e2b14773dcc784496ee1e5457 Merge tag 'drm-fixes-2024-05-03' of https://gitlab.freedesktop.org/drm/kernel
 7dc78c7b4411e942edcf3796d81c001069b15253 Merge tag 'sound-6.9-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
@@ -720,5 +734,6 @@ ef095257750bb434959648331e48e44705d802e9 Merge tag 'powerpc-6.9-4' of git://git.
 f462ae0edd3703edd6f22fe41d336369c38b884b Merge tag 'edac_urgent_for_v6.9_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 4efaa5acf0a1d2b5947f98abb3acf8bfd966422b epoll: be better about file lifetimes
 dd5a440a31fae6e459c0d6271dddd62825505361 Linux 6.9-rc7
+ed63ba15d7830c30077dbb33c94242be01e45a18 Merge 6.9-rc7 into char-misc-testing
 
---===============4978846793594140268==--
+--===============6144331663921005705==--
