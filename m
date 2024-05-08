@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 08 May 2024 14:18:24 -0000
-Message-Id: <171517790489.16752.9345172023525385504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 08 May 2024 14:28:31 -0000
+Message-Id: <171517851190.23494.18288784010145083048@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/dev-test
-    old: 31d07e3387798aa6ab056dd74a45b597ade176aa
-    new: 61ad0df04be1f0b5c5ebe5882c699299cd48f7e3
+  - ref: refs/heads/master
+    old: a2d2fabcf77868f25e214ae0e8aedf2bf9676690
+    new: 1f1dda1caac581781c208b47d6d242dfe9107d85
     log: |
-         61ad0df04be1f0b5c5ebe5882c699299cd48f7e3 erofs: Zstandard compression support
+         75f978197b0bf7359b7d424c486d8ac20a278e90 Bluetooth: btintel_pcie: Fix compiler warnings
+         1f1dda1caac581781c208b47d6d242dfe9107d85 Bluetooth: btintel: Fix compiler warning for multi_v7_defconfig config
          
