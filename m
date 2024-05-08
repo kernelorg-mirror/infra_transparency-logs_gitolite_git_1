@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1265115948376085298=="
+Content-Type: multipart/mixed; boundary="===============2557535036729522431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 08 May 2024 16:03:27 -0000
-Message-Id: <171518420716.30810.18329855313810723933@gitolite.kernel.org>
+Date: Wed, 08 May 2024 16:03:45 -0000
+Message-Id: <171518422553.30976.5665932847541619102@gitolite.kernel.org>
 
---===============1265115948376085298==
+--===============2557535036729522431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 8c4e4798123fd8e0c55e48e49db0f24287c18def
     new: 252aa6d53931381bd774acd06866ed0fb1976ead
     log: revlist-8c4e4798123f-252aa6d53931.txt
 
---===============1265115948376085298==
+--===============2557535036729522431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -95,4 +95,4 @@ abb45a2477f533cd4aab3085defdff131e2e8c4f net: stmmac: dwmac-ipq806x: account for
 1d3985ed0dd3de7ee152ede633fe859806c38595 ax25: Remove superfuous "return" from ax25_ds_set_timer
 252aa6d53931381bd774acd06866ed0fb1976ead test: hsr: Call cleanup_all_ns when hsr_redbox.sh script exits
 
---===============1265115948376085298==--
+--===============2557535036729522431==--
