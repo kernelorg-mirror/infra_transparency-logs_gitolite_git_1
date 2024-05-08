@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 08 May 2024 02:07:57 -0000
-Message-Id: <171513407779.20733.10241110721767440965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 08 May 2024 02:08:35 -0000
+Message-Id: <171513411557.21060.9725757449990726379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/main
-    old: 1b3b2d9e772b99ea3d0f1f2252bf7a1c94b88be6
-    new: 05417aa9c0c038da2464a0c504b9d4f99814a23b
-    log: |
-         05417aa9c0c038da2464a0c504b9d4f99814a23b net: usb: sr9700: stop lying about skb->truesize
-         
+  - ref: refs/tags/qcom-drivers-for-6.10-2
+    old: 0000000000000000000000000000000000000000
+    new: 7a34109709bb23f1dbbefaa46c22ce3a34a84031
