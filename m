@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2023961614552092742=="
+Content-Type: multipart/mixed; boundary="===============1353556717545466510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 08 May 2024 15:50:42 -0000
-Message-Id: <171518344294.21577.2131263417189940913@gitolite.kernel.org>
+Date: Wed, 08 May 2024 15:51:10 -0000
+Message-Id: <171518347010.21813.11467780554391399089@gitolite.kernel.org>
 
---===============2023961614552092742==
+--===============1353556717545466510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: a26ff37e624d12e28077e5b24d2b264f62764ad6
     new: 02754103e1f75761066bd45d467b41ab5ad725e5
     log: revlist-a26ff37e624d-02754103e1f7.txt
 
---===============2023961614552092742==
+--===============1353556717545466510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ ba4e103848d3a2a28a0445e39f4a9564187efe54 rxrpc: Fix congestion control algorithm
 012b7206918dcc5a4dcf1432b3e643114c95957e rxrpc: Only transmit one ACK per jumbo packet received
 02754103e1f75761066bd45d467b41ab5ad725e5 Merge branch 'rxrpc-miscellaneous-fixes'
 
---===============2023961614552092742==--
+--===============1353556717545466510==--
