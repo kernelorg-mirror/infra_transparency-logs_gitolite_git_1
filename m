@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 08 May 2024 09:39:56 -0000
-Message-Id: <171516119627.10612.18127092248762742860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Wed, 08 May 2024 09:55:02 -0000
+Message-Id: <171516210262.19321.14881925108883915768@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/main
-    old: 9f481cea155d050f1873f8726f679627304e055c
-    new: db3efdcf70c752e8a8deb16071d8e693c3ef8746
+  - ref: refs/heads/for-next
+    old: 6b0b708f12d18f9cccfb1c418bea59fcbff8798c
+    new: 5a5dc48083dae07e3079e4ded731388214729f64
     log: |
-         db3efdcf70c752e8a8deb16071d8e693c3ef8746 net/ipv4: add tracepoint for icmp_send
+         87144bbc9935b3117495c330890184edb925f3c5 firewire: core: fix type of timestamp for async_inbound_template tracepoints events
+         5a5dc48083dae07e3079e4ded731388214729f64 firewire: core: remove flag and width from u64 formats of tracepoints events
          
