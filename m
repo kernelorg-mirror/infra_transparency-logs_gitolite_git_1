@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 08 May 2024 16:20:51 -0000
-Message-Id: <171518525174.13261.7216943143190770293@gitolite.kernel.org>
+Date: Wed, 08 May 2024 16:29:53 -0000
+Message-Id: <171518579370.18078.7740137345998809399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/misc
-    old: 4c407392c1aff30025457972b173a0729830945f
-    new: de02e4cca681b7e1e279dd3136b4b6cd91f19fec
+  - ref: refs/heads/enumeration
+    old: 27ea83c5fbf97fd451fe3d8a5840ea98f224f1d2
+    new: 6aa9060149144660d78b2fe39f83efe08a4cd813
     log: |
-         9d11a09e35a6b662a263de823807256d114ef215 x86/pci: Remove OLPC dead code
-         de02e4cca681b7e1e279dd3136b4b6cd91f19fec PCI: Make pcie_bandwidth_capable() static
+         6aa9060149144660d78b2fe39f83efe08a4cd813 PCI: Do not wait for disconnected devices when resuming
          
