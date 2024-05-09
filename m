@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 09 May 2024 19:37:13 -0000
-Message-Id: <171528343349.24268.5729721033735898696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 09 May 2024 19:37:33 -0000
+Message-Id: <171528345313.24536.10803324191410598493@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/tpmdd-next-6.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: f885a89e7a8edcfd941d5d613ba8c3cd4644544b
+  - ref: refs/heads/main
+    old: e7073830cc8b52ef3df7dd150e4dac7706e0e104
+    new: 60e0f986e89f10f2de874ff3ce8e2230701c9706
+    log: |
+         60e0f986e89f10f2de874ff3ce8e2230701c9706 selftest: epoll_busy_poll: epoll busy poll tests
+         
