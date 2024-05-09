@@ -1,64 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============1093045464135753577=="
+Content-Type: multipart/mixed; boundary="===============2723830427754528572=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 09 May 2024 19:16:44 -0000
-Message-Id: <171528220456.9313.12397631039614437704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Thu, 09 May 2024 19:35:06 -0000
+Message-Id: <171528330625.22162.12600974810879375132@gitolite.kernel.org>
 
---===============1093045464135753577==
+--===============2723830427754528572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 0fc953523faa3a41e1a77e95a3b6b9818c676930
-    new: a0b6d1c424c703db79fde6f915362af70c846348
-    log: revlist-0fc953523faa-a0b6d1c424c7.txt
+  - ref: refs/heads/kbuild
+    old: 5e9e4712f006de40b2bf73859a33492e5ba2dd33
+    new: dfff05cc10052b4c36a11d268aeaab2ed6ca66a0
+    log: revlist-5e9e4712f006-dfff05cc1005.txt
 
---===============1093045464135753577==
+--===============2723830427754528572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fc953523faa-a0b6d1c424c7.txt
+Content-Disposition: attachment; filename=revlist-5e9e4712f006-dfff05cc1005.txt
 
-f30e9077ade9e30dd6ad4365cde1f95d43112fe9 Documentation: tpm_tis
-31c3e4f5db0130a224ca64e8aac56a9dc5d41631 dt-bindings: tpm: Add st,st33ktpm2xi2c
-265c408f43edb974ce2654e199229c10a942025c char: tpm: Keep TPM_INF_IO_PORT define for HAS_IOPORT=n
-3c5c527c06c819b2ee8ff587d2bf8486eeeb0d13 KEYS: asymmetric: Add missing dependency on CRYPTO_SIG
-56bc438b916957cb2813044aafbf8ac153f253f4 KEYS: asymmetric: Add missing dependencies of FIPS_SIGNATURE_SELFTEST
-23d2c5b566de2c4770a667a17032d2d2094ad938 tpm: Remove unused tpm_buf_tag()
-efc82b247ce70565059a2648771eaadd56b4a27f tpm: Remove tpm_send()
-043f854afdd574bf68d200a6a42c0878c0bab0e3 tpm: Move buffer handling from static inlines to real functions
-4e702b8ce5ce5d297fa2790c5b04babc3a32238f tpm: Update struct tpm_buf documentation comments
-61060b8110d73bd70838424c986e637366798faa tpm: Store the length of the tpm_buf data separately.
-420911b1c01111aad95b4608d89a9b29683a68ec tpm: TPM2B formatted buffers
-58e95be774c3128a6e0323661baf1c9a81090919 tpm: Add tpm_buf_read_{u8,u16,u32}
-343bf76acdb45d445065f12a0c4ea4cadca84034 KEYS: trusted: tpm2: Use struct tpm_buf for sized buffers
-be2e9fc4b69adba72754b7cb408cdb15f17c47ae crypto: lib - implement library version of AES in CFB mode
-d0de783ce5384cdb1ef95015893a691351b6158f tpm: add buffer function to point to returned parameters
-34b5d3ddd29d0fc3a266b68b9fc3462a479db518 tpm: export the context save and load commands
-fdab3c43b2e05b2917110379b3d399f8c28ddedd tpm: Add NULL primary creation
-37827c91bf2a5f228cf97aea05ed7d6ade830b61 tpm: Add TCG mandated Key Derivation Functions (KDFs)
-603abede5eb5b99aca09e718315cc07d843c1079 tpm: Add HMAC session start and end functions
-4487e2a5fb070a7fdaeedc0bc5bdec919a1950f2 tpm: Add HMAC session name/handle append
-ef55e5fb51d476ea61bb876d3e5028f9e7e049f3 tpm: Add the rest of the session HMAC API
-aa9b229fff625113839fac8a28fb91be78543d91 tpm: add hmac checks to tpm2_pcr_extend()
-3be6b3d90500c4cda7d6539cb48c8d64ee23166d tpm: add session encryption protection to tpm2_get_random()
-e29c3f73c387d0fd71e82b9864d2b083c8afe426 KEYS: trusted: Add session encryption protection to the seal/unseal path
-19f752f27f2071e90dd7feefcefdef83ffc3db93 tpm: add the null key name as a sysfs export
-618a486824f5fd4333ebf76de18c8da2575dfbc4 Documentation: add tpm-security.rst
-01125767fea0cf403c26f4fc64814f809fb859f9 tpm: disable the TPM if NULL name changes
-1e6ca1238cfd6dc935aab807ec032624eb956ee9 crypto: mxs-dcp: Add support for hardware-bound keys
-50fc40abe8b1cf7e85cc4d696976d3d125cb003d KEYS: trusted: improve scalability of trust source config
-cfe37b713b525e615bc7f819b4256121fbd3027f KEYS: trusted: Introduce NXP DCP-backed trusted keys
-1af39f7f1d9f0de395fca26b4b39829f33c78975 MAINTAINERS: add entry for DCP-based trusted keys
-d68403804fb06da4ab41d37d62ddb489702b5a93 docs: document DCP-backed trusted keys kernel params
-1ddcdcf4302dc8c92b0741828004a777b6e4d79f docs: trusted-encrypted: add DCP as new trust source
-a0b6d1c424c703db79fde6f915362af70c846348 Documentation: tpm: Add TPM security docs toctree entry
+9a0ebe5011f49e932bb0a2cea2034fd65e6e567e kbuild: use $(obj)/ instead of $(src)/ for common pattern rules
+b1992c3772e69a6fd0e3fc81cd4d2820c8b6eca0 kbuild: use $(src) instead of $(srctree)/$(src) for source directory
+770202a2233f819bfc33844d860e7282e696a91c kbuild: remove redundant $(wildcard ) for rm-files
+d98dba8852592402b67b643015f64b394760daa9 kbuild: add 'private' to target-specific variables
+1c369b6c9492756c58ad4abb92a9433a59f31f7d kbuild: simplify generic vdso installation code
+a0b49a9102019c790cbe3f102b1f4361342f8c70 kbuild: buildtar: install riscv compressed images as vmlinuz
+4763175ad2be3395bb23880a4cc9c48cf823dc40 kconfig: gconf: update pane correctly after loading a config file
+a7efb160f6c11ec1a72b8f69bd844e01753c769d kconfig: gconf: remove debug code
+4cc7e6cef3461d7921a6dcf8873f98501209c3a9 kconfig: gconf: use MENU_CHANGED instead of SYMBOL_CHANGED
+7d2806746d4636320e8e061a68eed32493e7c284 kconfig: use linked list in sym_set_changed()
+8c00e58005e33068f29b8f9c84436ccbe73bef7c kconfig: turn conf_choice() into void function
+700e7a8d05ea690308131f69ffc597dfab6db838 kconfig: turn missing prompt for choice members into error
+8a22f867e330965539b9cb5ccc42c2b470330b43 kconfig: turn defaults and additional prompt for choice members into error
+7bcf2e03b50256d13bcc1b08a43af9762bafbc0e kconfig: add sym_get_choice_menu() helper
+fb8dd48214b0234ba03a808742f69690d9a9f500 kconfig: use sym_get_choice_menu() in conf_write_defconfig()
+dfff05cc10052b4c36a11d268aeaab2ed6ca66a0 kconfig: use menu_list_for_each_sym() in sym_check_choice_deps()
 
---===============1093045464135753577==--
+--===============2723830427754528572==--
