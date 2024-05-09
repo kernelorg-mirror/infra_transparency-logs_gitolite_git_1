@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1884584434213961235=="
+Content-Type: multipart/mixed; boundary="===============6838873528931579042=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 09 May 2024 13:29:12 -0000
-Message-Id: <171526135256.10844.2998940320432937248@gitolite.kernel.org>
+Date: Thu, 09 May 2024 13:29:29 -0000
+Message-Id: <171526136941.11011.3477221091756080129@gitolite.kernel.org>
 
---===============1884584434213961235==
+--===============6838873528931579042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: ca584966d106217613f332e32d47fa66ed5ea6b4
     new: 0fc953523faa3a41e1a77e95a3b6b9818c676930
     log: revlist-ca584966d106-0fc953523faa.txt
 
---===============1884584434213961235==
+--===============6838873528931579042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -194,4 +194,4 @@ eeda2acc3f69ae8fe55d28dcc6268429e42ff974 KEYS: trusted: improve scalability of t
 9fbb1d0717141320a80ff1906d9092fd407cce01 docs: trusted-encrypted: add DCP as new trust source
 0fc953523faa3a41e1a77e95a3b6b9818c676930 Documentation: tpm: Add TPM security docs toctree entry
 
---===============1884584434213961235==--
+--===============6838873528931579042==--
