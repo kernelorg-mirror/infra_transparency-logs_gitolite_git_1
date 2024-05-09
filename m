@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 09 May 2024 17:50:03 -0000
-Message-Id: <171527700347.10018.10578414674314838165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kpsingh/linux
+Date: Thu, 09 May 2024 17:58:11 -0000
+Message-Id: <171527749132.15266.8589784985976345499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/kpsingh/linux
+user: kpsingh
 changes:
-  - ref: refs/heads/net-accept-more
-    old: 76cb7d29cd7d74c4ca157d82dddad923fe6d7871
-    new: 54999547c6750ffd7b7a6db7f6b60ec9d73541d6
+  - ref: refs/heads/static_calls
+    old: c55414667b5dadadeadebaf521cab9b8381c0a1e
+    new: daa7b9f7eb0c9a4c288624f1f297d0e2766f601d
     log: |
-         ad795cb7be61bf7994e30e1658a05c330085e59e net: change proto and proto_ops accept type
-         a35dfc802d2253b52dc509442a01019dde8b476c net: have do_accept() take a struct proto_accept_arg argument
-         8d042e0701175d0aec10f295a44feb5c6419a60d net: pass back whether socket was empty post accept
-         54999547c6750ffd7b7a6db7f6b60ec9d73541d6 io_uring/net: wire up IORING_CQE_F_SOCK_NONEMPTY for accept
+         6f786dd2cdb88d372d7e0b7016c2e537a35af934 security: Replace indirect LSM hook calls with static calls
+         61319b8663d0839aa1ca242d4a3f40a1cfb8508a security: Update non standard hooks to use static calls
+         daa7b9f7eb0c9a4c288624f1f297d0e2766f601d bpf: Only enable BPF LSM hooks when an LSM program is attached
          
