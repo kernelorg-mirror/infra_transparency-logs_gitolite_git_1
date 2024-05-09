@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 09 May 2024 13:54:39 -0000
-Message-Id: <171526287976.29632.17690707649981623935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 09 May 2024 14:00:19 -0000
+Message-Id: <171526321968.2617.12816415661747691151@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: 83127ecada257e27f4740dbca9644dd0e838bc36
-    new: 628bc3e5a1beae395b5b515998396c60559ed3a9
-    log: |
-         628bc3e5a1beae395b5b515998396c60559ed3a9 l2tp: Support several sockets with same IP/port quadruple
-         
+  - ref: refs/tags/keys-next-6.10-rc1
+    old: 9da27fb65a14c18efd4473e2e82b76b53ba60252
+    new: 0000000000000000000000000000000000000000
