@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 09 May 2024 13:12:50 -0000
-Message-Id: <171526037053.32587.2243651090265762242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 09 May 2024 13:16:39 -0000
+Message-Id: <171526059970.3304.4914072342849195311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: 83637d9017b22a5e11ada9f44ba776beb807222b
-    new: 8b21ac87d550acc4f6207764fed0cf6f0e3966cd
+  - ref: refs/heads/nfsd-next
+    old: 939cb14d51a150e3c12ef7a8ce0ba04ce6131bd2
+    new: 8d915bbf39266bb66082c1e4980e123883f19830
     log: |
-         8d24790ed08ab4e619ce58ed4a1b353ab77ffdc5 dm-delay: fix workqueue delay_timer race
-         d14646f23300a5fc85be867bafdc0702c2002789 dm-delay: fix hung task introduced by kthread mode
-         64eb88d6caee2c8eb806a68dab3f184f14f818a4 dm-delay: fix max_delay calculations
-         c542ee149230c4c3fc086feae608230e7aa97fcf dm-delay: change locking to avoid contention
-         8b21ac87d550acc4f6207764fed0cf6f0e3966cd dm-delay: remove timer_lock
+         bafa6b4d95d97877baa61883ff90f7e374427fae SUNRPC: Fix gss_free_in_token_pages()
+         8d915bbf39266bb66082c1e4980e123883f19830 NFSD: Force all NFSv4.2 COPY requests to be synchronous
          
