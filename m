@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5717282832029789370=="
+Content-Type: multipart/mixed; boundary="===============6748809253998228139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 09 May 2024 18:24:01 -0000
-Message-Id: <171527904165.1526.1659898990846222399@gitolite.kernel.org>
+Date: Thu, 09 May 2024 18:24:07 -0000
+Message-Id: <171527904748.1670.798418803487561191@gitolite.kernel.org>
 
---===============5717282832029789370==
+--===============6748809253998228139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 009367099eb61a4fc2af44d4eb06b6b4de7de6db
     new: cbe35adf691a3227b11131a922245c4d6409d2d6
     log: revlist-009367099eb6-cbe35adf691a.txt
 
---===============5717282832029789370==
+--===============6748809253998228139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ c075c9c4af289bb5956b0164283a85cf9c293c8e selftests/bpf: Remove the bpf_tcp_helpe
 6a650816b098a15c4690a22e3889858264d01aa8 selftests/bpf: Retire bpf_tcp_helpers.h
 cbe35adf691a3227b11131a922245c4d6409d2d6 Merge branch 'selftests-bpf-retire-bpf_tcp_helpers-h'
 
---===============5717282832029789370==--
+--===============6748809253998228139==--
