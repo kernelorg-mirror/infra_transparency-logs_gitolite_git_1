@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 09 May 2024 00:24:20 -0000
-Message-Id: <171521426028.21468.2924917404509502373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Thu, 09 May 2024 00:42:35 -0000
+Message-Id: <171521535505.3351.18185323501882899655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 2b2d6c799a2b1c6fbf33cc31063276b5be2ad223
-    new: cacc6a37a043d4023de6c41c976507e9ef284d7e
+  - ref: refs/heads/dev-test
+    old: 3b780e77cfd8b88d87815f7c11a12aa9e3ac88c4
+    new: 5cfe1971ad3b1491ce482690f4a4aa7bbe6ec51c
     log: |
-         cacc6a37a043d4023de6c41c976507e9ef284d7e foo
+         5cfe1971ad3b1491ce482690f4a4aa7bbe6ec51c mkfs.f2fs: align each device to zone size
          
