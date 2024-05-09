@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 09 May 2024 23:38:31 -0000
-Message-Id: <171529791166.5453.2316273191835059976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 09 May 2024 23:50:04 -0000
+Message-Id: <171529860400.14283.2614990388316741428@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/damon/next
-    old: c8cd22c069dbb8bf756470b95faa854dd0a4b141
-    new: 2ca5a8635b8c49dd51a2b8877ad6a656ed8997ab
+  - ref: refs/heads/net-accept-more
+    old: a0bd64097bce1169c2ddeef315f305f5faf9e79a
+    new: 3b4f987e70b3ba8a6da0a425daf61c9cac61f55d
     log: |
-         c019e167b3696dde6f7fb6992dd25a9e7c7fb65d mm/damon/acma: further cleanup
-         5a14f9ba2ae2b6078f8fa8fc2941252ebf0df086 mm/damon: update preempt/yield to alloc/free
-         2ca5a8635b8c49dd51a2b8877ad6a656ed8997ab mm/damon/paddr: update for the changed alloc/steal scheme
+         11129a54ba83064e7ba3157cb5d12febfdf813df net: change proto and proto_ops accept type
+         1912b4c441c1ff5b781b88a48ee0f28c5606ccdd net: have do_accept() take a struct proto_accept_arg argument
+         2470b645742e56e3da1fb75fde1af92fead79700 net: pass back whether socket was empty post accept
+         3b4f987e70b3ba8a6da0a425daf61c9cac61f55d io_uring/net: wire up IORING_CQE_F_SOCK_NONEMPTY for accept
          
