@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 09 May 2024 22:18:45 -0000
-Message-Id: <171529312523.12368.5881184161223282077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 09 May 2024 22:41:14 -0000
+Message-Id: <171529447439.29493.8214389527354202117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/riscv-check_vector
-    old: 4f4c1046d7227992c1ec5c1ce70357627c3f8993
-    new: 38050c6858143f43ce2fd04e9824727a7d7731d0
+  - ref: refs/heads/dev-queue
+    old: 3958ae2e2f40119b404f7d8986d82cd931d7b1da
+    new: ea0722c4db113270ff0de7ebe322167da3b7f01b
     log: |
-         38050c6858143f43ce2fd04e9824727a7d7731d0 RISC-V: broken disable v code
+         ea0722c4db113270ff0de7ebe322167da3b7f01b net: intel: Use *-y instead of *-objs in Makefile
          
