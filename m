@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6612605810919787896=="
+Content-Type: multipart/mixed; boundary="===============0429003492308693508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 09 May 2024 17:38:36 -0000
-Message-Id: <171527631692.1320.9386157272158557593@gitolite.kernel.org>
+Date: Thu, 09 May 2024 17:38:58 -0000
+Message-Id: <171527633840.1577.13616037075657000094@gitolite.kernel.org>
 
---===============6612605810919787896==
+--===============0429003492308693508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 02754103e1f75761066bd45d467b41ab5ad725e5
     new: 8c3b7565f81e030ef448378acd1b35dabb493e3b
     log: revlist-02754103e1f7-8c3b7565f81e.txt
 
---===============6612605810919787896==
+--===============0429003492308693508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -303,4 +303,4 @@ f39bf3cf08a49e7d20c44bc8bc8e390fea69959a net: dsa: mv88e6xxx: add phylink_get_ca
 62788b0f225da1837ad38101112e2c49123470ee Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 8c3b7565f81e030ef448378acd1b35dabb493e3b Merge tag 'net-6.9-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============6612605810919787896==--
+--===============0429003492308693508==--
