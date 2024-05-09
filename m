@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8752424370719118831=="
+Content-Type: multipart/mixed; boundary="===============1227388933774364339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 09 May 2024 04:51:38 -0000
-Message-Id: <171523029886.29251.7013623144947376727@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 09 May 2024 04:53:44 -0000
+Message-Id: <171523042499.30035.16208234563683535282@gitolite.kernel.org>
 
---===============8752424370719118831==
+--===============1227388933774364339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: d45ae45f328b6824966ab7dbf8b1c712f7d0e877
-    new: 188d804ae64f12e6b7561895fdf319c1b2c491b9
-    log: revlist-d45ae45f328b-188d804ae64f.txt
+  - ref: refs/heads/for-next
+    old: 0849ef17fbfb11d062e229d1321bd4b62ec2ac52
+    new: 60f2f5aeaeab89cdfac4485c07fe438b20082365
+    log: revlist-0849ef17fbfb-60f2f5aeaeab.txt
 
---===============8752424370719118831==
+--===============1227388933774364339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1715230296 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1715230296-23ded7f6e8bd827545c62567bd12af64eff56fe0
-
-d45ae45f328b6824966ab7dbf8b1c712f7d0e877 188d804ae64f12e6b7561895fdf319c1b2c491b9 refs/heads/asoc-6.10
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmY8VlgTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0I/kB/9VNCQyM1q/QYOBmc2Hn1FfvC/reszS
-+tp7SV7egOD1ohW+C9GRuaRJhemfpSmuXMvxHdEtybriOYmSlQv4yKuLrxGEsGvk
-r2zfb7Krhq4VGDL0fWBtCDXC64sOXwT7JMdli6WPPqlEd/rclgKcjkXqSCJyANMv
-XTwIM0M4Xy5hHA449qbLzdVALRioX7Mu4o/zssRN1ifS6QH0/Pwx/SAdVoyVWdGn
-61xuTSJBvVbD+3wR6opZ63i8aZOMvYCUbE/yUjnw+wIUabU2qFNPuxgfP9TDSnjO
-dOJaf6YGHL4iNc/V/lpWQVKjMf1gws3qymvbFT4mslxtOg282ez6bUC7
-=+bG/
------END PGP SIGNATURE-----
-
---===============8752424370719118831==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d45ae45f328b-188d804ae64f.txt
+Content-Disposition: attachment; filename=revlist-0849ef17fbfb-60f2f5aeaeab.txt
 
 fd25e1c1328f40c6eb0bfa5ebee757e0e1dfb308 ASoC: core: Use *-y instead of *-objs in Makefile
 1c3fa6662832f1498b78817317796bc37df7da40 ASoC: codecs: Use *-y instead of *-objs in Makefile
@@ -86,5 +61,6 @@ c4850e856f9db799be4e5a211dc85bdfabbe210b ASoC: ux500: Use *-y instead of *-objs 
 a9732bf75785d5baa3259a59ed4cac80da138ed4 ASoC: xilinx: Use *-y instead of *-objs in Makefile
 476d0a22bcc4d305080e3fc2d759010db23ccec1 ASoC: xtensa: Use *-y instead of *-objs in Makefile
 188d804ae64f12e6b7561895fdf319c1b2c491b9 ASoC: Use *-y instead of *-objs in Makefile
+60f2f5aeaeab89cdfac4485c07fe438b20082365 Merge remote-tracking branch 'asoc/for-6.10' into asoc-next
 
---===============8752424370719118831==--
+--===============1227388933774364339==--
