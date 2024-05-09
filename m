@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 09 May 2024 15:23:55 -0000
-Message-Id: <171526823513.30658.9704561117341888221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 09 May 2024 15:29:21 -0000
+Message-Id: <171526856165.1986.10238377924409259139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 5fb3ac59378b5f796629678cc462c66acdfd36b5
-    new: 26efca80d7a06f06326d2ef444ac7c0681b26b0a
-    log: |
-         26efca80d7a06f06326d2ef444ac7c0681b26b0a nlmon: parse/print neighbor reports
-         
+  - ref: refs/heads/next-trusted-keys
+    old: 0000000000000000000000000000000000000000
+    new: 28c5f596ae3d1790cdc96fa5fc7370f934abfb2e
