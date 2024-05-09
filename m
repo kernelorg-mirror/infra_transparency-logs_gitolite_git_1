@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 09 May 2024 13:48:06 -0000
-Message-Id: <171526248682.25461.17485970583699565067@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
+Date: Thu, 09 May 2024 13:49:06 -0000
+Message-Id: <171526254604.25912.9076223429405487499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/livepatching/livepatching
+user: pmladek
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: e2648f15152353b6f4c1e318dacc93c8f92d685c
-    new: c4f6905f70154e42bda5ebd203e4653d4ce22f03
+  - ref: refs/heads/for-6.10
+    old: ede46a4e500fecbd17d1ed799a4a07eb8c2806c8
+    new: d927752f287fe10965612541593468ffcfa9231f
     log: |
-         c4f6905f70154e42bda5ebd203e4653d4ce22f03 SUNRPC: Fix xdr_encode_bool()
+         d927752f287fe10965612541593468ffcfa9231f livepatch: Rename KLP_* to KLP_TRANSITION_*
          
