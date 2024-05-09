@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2723830427754528572=="
+Content-Type: multipart/mixed; boundary="===============4472346658148361046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 09 May 2024 19:35:06 -0000
-Message-Id: <171528330625.22162.12600974810879375132@gitolite.kernel.org>
+Date: Thu, 09 May 2024 19:35:15 -0000
+Message-Id: <171528331572.22270.9440030835632692815@gitolite.kernel.org>
 
---===============2723830427754528572==
+--===============4472346658148361046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 5e9e4712f006de40b2bf73859a33492e5ba2dd33
     new: dfff05cc10052b4c36a11d268aeaab2ed6ca66a0
     log: revlist-5e9e4712f006-dfff05cc1005.txt
 
---===============2723830427754528572==
+--===============4472346658148361046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ a7efb160f6c11ec1a72b8f69bd844e01753c769d kconfig: gconf: remove debug code
 fb8dd48214b0234ba03a808742f69690d9a9f500 kconfig: use sym_get_choice_menu() in conf_write_defconfig()
 dfff05cc10052b4c36a11d268aeaab2ed6ca66a0 kconfig: use menu_list_for_each_sym() in sym_check_choice_deps()
 
---===============2723830427754528572==--
+--===============4472346658148361046==--
