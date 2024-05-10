@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/liba2i/liba2i
-Date: Fri, 10 May 2024 14:10:28 -0000
-Message-Id: <171535022802.18962.3112835842425350308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 10 May 2024 14:39:22 -0000
+Message-Id: <171535196219.6017.17204371959791519715@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/liba2i/liba2i
-user: alx
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: 020337b92bd9d3184a9bdfe4c27d9921985872e6
-    new: 40a1072b0d51843d0bb678ec66bd13c7d8ff500b
+  - ref: refs/heads/gpio/for-current
+    old: 3c1625fe5a2e0d68cd7b68156f02c1b5de09a161
+    new: ee0166b637a5e376118e9659e5b4148080f1d27e
     log: |
-         40a1072b0d51843d0bb678ec66bd13c7d8ff500b share/mk/: install-pdf-book: Add target to install the PDF book
+         ee0166b637a5e376118e9659e5b4148080f1d27e gpiolib: cdev: fix uninitialised kfifo
          
