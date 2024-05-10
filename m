@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 09 May 2024 23:50:04 -0000
-Message-Id: <171529860400.14283.2614990388316741428@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 10 May 2024 00:08:06 -0000
+Message-Id: <171529968619.26919.5141212998327635474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/net-accept-more
-    old: a0bd64097bce1169c2ddeef315f305f5faf9e79a
-    new: 3b4f987e70b3ba8a6da0a425daf61c9cac61f55d
+  - ref: refs/heads/dev
+    old: abc7cd2facdebf85aa075c567321589862f88542
+    new: d6b93d32f90b0c1051fbb01e73afe81a4ce0e605
     log: |
-         11129a54ba83064e7ba3157cb5d12febfdf813df net: change proto and proto_ops accept type
-         1912b4c441c1ff5b781b88a48ee0f28c5606ccdd net: have do_accept() take a struct proto_accept_arg argument
-         2470b645742e56e3da1fb75fde1af92fead79700 net: pass back whether socket was empty post accept
-         3b4f987e70b3ba8a6da0a425daf61c9cac61f55d io_uring/net: wire up IORING_CQE_F_SOCK_NONEMPTY for accept
+         6640e5714e5413f1c1a25059e10897012647cdb3 tools/rcu: Add rcu-updaters.sh script
+         2d75bcc4b72086a00c8276bc1dcbdd4c0c52116b MAINTAINERS: Add Uladzislau Rezki as RCU maintainer
+         d6b93d32f90b0c1051fbb01e73afe81a4ce0e605 squash! rcu: Add rcutree.nocb_patience_delay to reduce nohz_full OS jitter
          
