@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0811778624718097624=="
+Content-Type: multipart/mixed; boundary="===============6677714292574445405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 10 May 2024 15:56:22 -0000
-Message-Id: <171535658225.32200.17321061605382767670@gitolite.kernel.org>
+Date: Fri, 10 May 2024 15:56:48 -0000
+Message-Id: <171535660837.32391.16423850856825596295@gitolite.kernel.org>
 
---===============0811778624718097624==
+--===============6677714292574445405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: e7073830cc8b52ef3df7dd150e4dac7706e0e104
     new: f8beae078c82abde57fed4a5be0bbc3579b59ad0
     log: revlist-e7073830cc8b-f8beae078c82.txt
 
---===============0811778624718097624==
+--===============6677714292574445405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ c75fc0b9e5be7350ab1c73a0dcd48e9a8985ce24 gtp: identify tunnel via GTP device + G
 1cd354fe1e4864eeaff62f66ee513080ec946f20 net: ipv6: fix wrong start position when receive hop-by-hop fragment
 f8beae078c82abde57fed4a5be0bbc3579b59ad0 Merge tag 'gtp-24-05-07' of git://git.kernel.org/pub/scm/linux/kernel/git/pablo/gtp Pablo neira Ayuso says:
 
---===============0811778624718097624==--
+--===============6677714292574445405==--
