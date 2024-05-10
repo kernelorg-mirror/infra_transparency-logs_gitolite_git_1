@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1009973629492250627=="
+Content-Type: multipart/mixed; boundary="===============8410593345751981996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Fri, 10 May 2024 01:32:50 -0000
-Message-Id: <171530477095.27487.1576578928706712324@gitolite.kernel.org>
+Date: Fri, 10 May 2024 01:33:21 -0000
+Message-Id: <171530480131.27735.8316665245429078918@gitolite.kernel.org>
 
---===============1009973629492250627==
+--===============8410593345751981996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-next
-    old: d65bfb9546eb627e3c578336355c5b81797f2255
+  - ref: refs/heads/for-linux-next
+    old: 2236a61bd4917e85039ff318c39e1524beb10362
     new: f03eee5fc922158654405318a02db9982c0ddf07
-    log: revlist-d65bfb9546eb-f03eee5fc922.txt
+    log: revlist-2236a61bd491-f03eee5fc922.txt
 
---===============1009973629492250627==
+--===============8410593345751981996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d65bfb9546eb-f03eee5fc922.txt
+Content-Disposition: attachment; filename=revlist-2236a61bd491-f03eee5fc922.txt
 
 01b2b8cc1efd6c177e6814fec3a96424a2f3236c drm/i915/gt: Create the gt_to_guc() wrapper
 3f2f20da79b208d55e2a78fb04cfc7e91201a1d3 drm/i915/guc: Use the new gt_to_guc() wrapper
@@ -67,26 +67,6 @@ c7a5aa4e57f88470313a8277eb299b221b86e3b1 drm/i915/gt: Do not generate the comman
 2bebae0112b117de7e8a7289277a4bd2403b9e17 drm/i915/gt: Enable only one CCS for compute workload
 7d49f53af4b988b188d3932deac2c9c80fd7d9ce rust: don't select CONSTRUCTORS
 01848eee20c6396e5a96cfbc9061dc37481e06fd docs: rust: fix improper rendering in Arch Support page
-d64e9d0fb6189ac37e332c01fc161244a87d34b6 drm/mediatek: Use devm_platform_get_and_ioremap_resource() in mtk_hdmi_ddc_probe()
-83b71b7851e498489379815f75f55a4e84dbde40 dt-bindings: display: mediatek: gamma: Change MT8195 to single enum group
-0225edf0f15157edcf691a6cb44b8aca5fbde437 dt-bindings: display: mediatek: gamma: Add support for MT8188
-60cb97cc915228b36697f75228ffdfb152b01c93 drm/mediatek: Add gamma support for MT8195
-1e4350095e8ab2577ee05f8c3b044e661b5af9a0 drm/mediatek: Add 0 size check to mtk_drm_gem_obj
-01a2c5123e27b3c4685bf2fc4c2e879f6e0c7b33 drm/mediatek: Init `ddp_comp` with devm_kcalloc()
-9e149879038f5f9917f508bf9ebd452398f50d08 drm/mediatek: Rename "mtk_drm_crtc" to "mtk_crtc"
-b7919e8e18ef23f757bf64c4d9dd120faaec5c2a drm/mediatek: Rename "mtk_drm_ddp_comp" to "mtk_ddp_comp"
-56d4c998e92f39a98905d013a2205c4b9fa12fc9 drm/mediatek: Rename "mtk_drm_plane" to "mtk_plane"
-40024b82c2c0cb8465088dc4f0ae3404a33402c2 drm/mediatek: Rename "mtk_drm_gem" to "mtk_gem"
-4bda3ca57217f3f00cc0bcbcc7f8ed8a35c8ea6c drm/mediatek: Rename "mtk_drm_hdmi" to "mtk_hdmi"
-f5214df8d683dfdcb30db71da94111a31d4a5fe2 drm/mediatek: Rename files "mtk_drm_crtc.h" to "mtk_crtc.h"
-9d5036eb05b29979259668c1aa39f2968239e9a7 drm/mediatek: Rename files "mtk_drm_crtc.c" to "mtk_crtc.c"
-7026ee0b3dbd8cb78c9731baf6e53591da7d7b9e drm/mediatek: Rename files "mtk_drm_ddp_comp.h" to "mtk_ddp_comp.h"
-d0950cc1032cdee6ff6c3611b6eb7f2859ecac90 drm/mediatek: Rename files "mtk_drm_ddp_comp.c" to "mtk_ddp_comp.c"
-9f2997ab49916d7edeae476a68d31b41dddce606 drm/mediatek: Rename files "mtk_drm_plane.h" to "mtk_plane.h"
-543571d424d7014a1c72bd418905b25a69941266 drm/mediatek: Rename files "mtk_drm_plane.c" to "mtk_plane.c"
-f2468165f7779f2ee29e8f6cab71c11a06360d12 drm/mediatek: Rename files "mtk_drm_gem.h" to "mtk_gem.h"
-535960b95fdb6a11abd4671cc4eb426256eed579 drm/mediatek: Rename files "mtk_drm_gem.c" to "mtk_gem.c"
-278640d4d74cd6ff55b19381d3b2a674a6ec6eb4 drm/mediatek: Rename mtk_ddp_comp functions
 43853e843aa6c3d47ff2b0cce898318839483d05 arm64: dts: rockchip: Remove unsupported node from the Pinebook Pro dts
 4ddc13461740308d3133c2defda97d9e3a30ede8 arm64: dts: rockchip: drop panel port unit address in GRU Scarlet
 db70d9f9dcf8d5cda86303eeb381b1213a2ab191 ARC: Fix -Wmissing-prototypes warnings
@@ -113,17 +93,6 @@ ea36bf1827462e4a52365bf8e3f7d1712c5d9600 HID: i2c-hid: Revert to await reset ACK
 74065388607f78fdeca4cd20ac331eefcdefc5ea drm/i915/guc: Remove bogus null check
 ace323f80b9bc6734289a4e8a77938a3ce964c7d mmc: sdhci-of-dwcmshc: th1520: Increase tuning loop count to 128
 49ceae68a0df9a92617a61e9ce8a0efcf6419585 rust: init: remove impl Zeroable for Infallible
-10b4dd281f4bc86c0963c7963ef5f940f954d3fd drm/mediatek: aal: drop driver owner initialization
-4c591e97bf3e6691174551a570a11a4d01c50b4e drm/mediatek: ccorr: drop driver owner initialization
-4b2b61fd94336130e7852029cb8bcc80cec51a0e drm/mediatek: color: drop driver owner initialization
-704d6a254c212c6fa22729698e512802e7a957c3 drm/mediatek: gamma: drop driver owner initialization
-c439d9779ee1520dfd5f7ec5d32a79125fef3ec9 drm/mediatek: merge: drop driver owner initialization
-39e19ae7435208e9d5c7fde2cdd2ba86ca9cd98e drm/mediatek: ovl: drop driver owner initialization
-5b52977be5f526737d244b7a74764cb0148f0a59 drm/mediatek: ovl_adaptor: drop driver owner initialization
-1dd13de2ca835923b4ed35a37e2e9e9686e00a4e drm/mediatek: rdma: drop driver owner initialization
-e30814aa8c83585be2f29c0e51c66dc918e7da29 drm/mediatek: ethdr: drop driver owner initialization
-f741a2c97b2374c76cd59b83aa46ddf2f88cff96 drm/mediatek: mdp_rdma: drop driver owner initialization
-499eb5197d86f54a68ced91725cd7efa1e397c01 drm/mediatek: padding: drop driver owner initialization
 3b449bfd2ff6c5d3ceecfcb18528ff8e1b4ac2fd arm64: dts: mediatek: mt7986: drop invalid properties from ethsys
 9bd88afc94c3570289a0f1c696578b3e1f4e3169 arm64: dts: mediatek: mt7986: drop "#reset-cells" from Ethernet controller
 970f8b01bd7719a22e577ba6c78e27f9ccf22783 arm64: dts: mediatek: mt7986: drop invalid thermal block clock
@@ -199,24 +168,6 @@ fabb4d49854281027454b0fa305d33f6c9ec4b47 bcachefs: node scan: ignore multiple no
 8c75cdcdf869acabfdc7858827099dcde9f24e6c wifi: mac80211: split mesh fast tx cache into local/proxied/forwarded
 dbfff5bf9292714f02ace002fea8ce6599ea1145 wifi: iwlwifi: mvm: remove old PASN station when adding a new one
 bada85a3f584763deadd201147778c3e791d279c wifi: iwlwifi: mvm: return uid from iwl_mvm_build_scan_cmd
-4b4492fbf56761c3d2461fd31bda4e620dbac6cc drm/i915: Replace hand rolled PLL state dump with intel_dpll_dump_hw_state()
-53b95003c0c627a27c6e949610001a438f9929b4 drm/i915: Use printer for the rest of PLL debugfs dump
-3420841fd664a2dd8e24086fff98fd34f32df141 drm/i915: Rename PLL hw_state variables/arguments
-4d6e86fbecbb0e5922174f1047f622686338e905 drm/i915: Introduce some local PLL state variables
-3705cb818b09a71fdffb38a142a92dbae08bd464 drm/i915: Extract ilk_fb_cb_factor()
-897e85de17c702e72813b7e577d9c095dfd5fb56 drm/i915: Extract ilk_dpll_compute_fp()
-07a382dbf96775cdffa268173a4cc1a541bec2dd drm/i915: Extract i9xx_dpll_get_hw_state()
-7084a833e7db0663a2b804425a92267e7aed64d6 drm/i915: Pass the PLL hw_state to pll->enable()
-f2d0cecc279a5aab414585dd34542261952bc031 drm/i915: Extract i965_dpll_md()
-27f1db86e2378eb42bbe9076ee9e01317313b32e drm/i915: Extract {i9xx,i8xx,ilk,vlv,chv}_dpll()
-a8eccf2605b16c842418206d677a111bf33b1151 drm/i915: Inline {i9xx,ilk}_update_pll_dividers()
-3d2f7b9b706cdfa806fcd918b42a3fa942063d04 drm/i915: Modernize i9xx_pll_refclk()
-a903122bc0ca674f29add2adcd9f881ee985c147 drm/i915: Drop pointless 'crtc' argument from *_crtc_clock_get()
-b69ad783f17bcb6446d840fd5df99e4b5115ffe8 drm/i915: s/pipe_config/crtc_state/ in legacy PLL code
-e8ba9204db041776d8e3b7eb396160a6967911c8 drm/i915: Add local DPLL 'hw_state' variables
-0bfdd6da01b2bf43edfce73df6ad80da5a8b3425 drm/i915: Carve up struct intel_dpll_hw_state
-4569da2c2405d5e80415416b02105596f3c32f08 drm/i915: Unionize dpll_hw_state
-4bbb89328fe3df8810ac371827dbf409568e9c49 drm/i915: Suck snps/cx0 PLL states into dpll_hw_state
 93b36e1d3748c352a70c69aa378715e6572e51d1 arm64: dts: rockchip: Fix USB interface compatible string on kobol-helios64
 fa845c73497f5e9d2f6f1cf48c3aad05c2fdacb8 bcachefs: Fix bch2_dev_btree_bitmap_marked_sectors() shift
 605109ff5e43addefdf92d1cfa2a693114430024 bcachefs: KEY_TYPE_error is allowed for reflink
@@ -226,19 +177,8 @@ e5a78fdec0114266d3c47df413d2d7955807fad9 btrfs: remove colon from messages with 
 7192833c4e55b26e8f15ef58577867a1bc808036 btrfs: scrub: run relocation repair when/only needed
 131a821a243f89be312ced9e62ccc37b2cf3846c btrfs: fallback if compressed IO fails for ENOSPC
 6aff4c26ed677b1f464f721fbd3e7767f24a684d drm/gma500: Remove lid code
-a3f610dd3202be41a22e798e75a832a30a4ad598 drm/i915: limit eDP MSO pipe only for display version 20 and below
 2f7ef5bb4a2f3e481ef05fab946edb97c84f67cf btrfs: fix information leak in btrfs_ioctl_logical_to_ino()
 fe1c6c7acce10baf9521d6dccc17268d91ee2305 btrfs: fix wrong block_start calculation for btrfs_drop_extent_map_range()
-270f3a4886ef78889d0b9a887808e6c425931131 drm/i915: use system include for drm headers
-f02fedd882f8e619016f9089f72483b5a6c59c7f drm/i915/display: add intel_display -> drm_device backpointer
-8d7077f53e6051ac284d642341db84f01625904b drm/i915/display: add generic to_intel_display() macro
-98ebb7cf94d209b017b3e7a456e7b1a82455fdc9 drm/i915: add generic __to_intel_display()
-6b5ee5720bf7c4ef483839c8add05bdd28ee9d85 drm/i915/display: accept either i915 or display for feature tests
-409c23ae6735cfe295628354bbfc814158cce12a drm/i915/quirks: convert struct drm_i915_private to struct intel_display
-f5b84c28e340c68a06ec6cc4e219d0d11e646822 drm/i915/display: rename __intel_wait_for_register_nowl() to indicate intel_de_
-8e58c0346ec2cfb2a3aaffcf992a209dabd7061c drm/i915/dmc: convert dmc wakelock interface to struct intel_display
-93d33f464de7dcadfe95cb6a499abe66c3a088d6 drm/i915/de: allow intel_display and drm_i915_private for de functions
-2a956ad8d10bc8d32f32aa2cafdbacbf408e9e3f drm/i915/dmc: use struct intel_display more
 6a94cf996f104633bfb8d260eedf96a0dbebb384 Revert "wifi: iwlwifi: bump FW API to 90 for BZ/SC devices"
 89884459a0b9e6ecd62a1ddfdb7708b34ee33649 wifi: mac80211: fix idle calculation with multi-link
 645acc6f55918feacc4572dd80acbb152b2208d9 wifi: mac80211: mlme: re-parse with correct mode
@@ -249,40 +189,9 @@ f5b84c28e340c68a06ec6cc4e219d0d11e646822 drm/i915/display: rename __intel_wait_f
 cb55e08dba3526796e35d24a6d5db4ed6dcb8a4b wifi: mac80211: remove link before AP
 c53d8a59351e4347452e263e2e5d7446ec93da83 wifi: mac80211: fix unaligned le16 access
 69197dfc64007b5292cc960581548f41ccd44828 net: libwx: fix alloc msix vectors failed
-e80c219f52861e756181d7f88b0d341116daac2b drm/rockchip: vop2: Do not divide height twice for YUV
-e58414e44b5315230de829ed88a63611646907ac dt-bindings: display: add #sound-dai-cells property to rockchip dw hdmi
-9be3eb5d6ee57662a22b56153c7ee39265685455 dt-bindings: display: add #sound-dai-cells property to rockchip rk3066 hdmi
-b1ee6bd3ea954d081bfb1d5559ce3e78ef40443a dt-bindings: display: add #sound-dai-cells property to rockchip inno hdmi
-685ba01ebedb8f87673f587f540ba84c444442d4 drm/rockchip: lvds: Remove include of drm_dp_helper.h
-0e353133816b3e3e4bf8a682de01506ebc2b1dee drm/rockchip: cdn-dp: drop driver owner assignment
 f58f45c1e5b92975e91754f5407250085a6ae7cf vxlan: drop packets from invalid src-address
-92363681945088d4813341b749d89d22a1e5592d drm/i915/display: Add meaningful traces for QGV point info error handling
-193caff1369e7dcfb9dafd69451b6e3a8d8caa85 drm/i915/display: Extract code required to calculate max qgv/psf gv point
-f09f95177dfd606e4bde234c65b991ae45e7ef65 drm/i915/display: extract code to prepare qgv points mask
-9299cde973d708063e4f0728d2f493fd36eddf96 drm/i915/display: Disable SAGV on bw init, to force QGV point recalculation
-1e9e4be8d683e192aa1f524c5cc554e9e50d1262 drm/i915/display: handle systems with duplicate psf gv points
-aaba7a95ddffbf609261a8ba6c5d344b7cc6dca9 drm/i915/display: force qgv check after the hw state readout
-f1d6aec41f13aad3c3ff8daa9fddb38539afe8f6 drm/i915/dp: Fix DSC line buffer depth programming
-854ff3d9b8bb5187cd753c2ac59248c83f42fc99 drm/i915/dp_mst: Fix symbol clock when calculating the DSC DPT bpp limit
-1ff65bf8ffc16e0a85728412a035f04247761a26 drm/i915/dp_mst: Fix BW limit check when calculating DSC DPT bpp
-fd13841d8b2e8b619f542ed75950c3b206605340 drm/i915/dp_mst: Account for channel coding efficiency in the DSC DPT bpp limit
-e54cc6deecceb83d4cd004dc37f0f099c14f82ea drm/i915/dp_mst: Account with the DSC DPT bpp limit on MTL
-0f1ceeec1b207a2b2432508b6f4d7fc83842cd0e drm/i915/dp_mst: Sanitize calculating the DSC DPT bpp limit
-8976bf1877ef4f902fae53fd0ad61b36d0c5a70c drm/dp: Add drm_dp_128b132b_supported()
-ca5d9d78f0a2c595561bce7cce4b86b42ca7042f drm/dp_mst: Factor out drm_dp_mst_port_is_logical()
-93cb4094a7fd30a6e20b9781aafb94e3fffbe59a drm/dp_mst: Add drm_dp_mst_aux_for_parent()
-427c70302bbef0542a11464066447d66f97a6fe0 drm/i915/dp_mst: Make HBLANK expansion quirk work for logical ports
-e78b8e8f0c3776f80dd7ccb66eff2e76eec9518c drm/i915/dp_mst: Enable HBLANK expansion quirk for UHBR rates
 c3015eb6e25a735ab77591573236169eab8e2e3a drm/i915/dg2: wait for HuC load completion before running selftests
 a386c30410450ea87cd38070f9feaca49dadce29 drm/atomic-helper: fix parameter order in drm_format_conv_state_copy() call
-8221a6229a8509bf0e51046d43dd8d3d85cdf8dd drm/i915/dpio: Clean up bxt/glk PHY registers
-8034945d1a5e56f7eb1885cdd21801f93153b5a6 drm/i915/dpio: Add per-lane PHY TX register definitons for bxt/glk
-5e258fa5bc90a3f60c716df2d1e65087a1b36141 drm/i915/dpio: Extract bxt_dpio_phy_regs.h
-954284068ae4830f9c9e8b38991296ed2edb74e8 drm/i915/dpio: Introdude bxt_ddi_phy_rmw_grp()
-b575007d76cbb823f814ea355b2d4ff686289fa4 drm/i915/dpio: Use intel_de_rmw() for BXT DPIO latency optim setup
-ba07c3edc1634f6d24ee80a0c74834564317193d drm/i915/dpio: s/ddi/dpio/ for bxt/glk PHY stuff
-aeda5f4edbe5360f8ba62ca342bafb9687ec4f56 drm/i915/dpio: Program bxt/glk PHY TX registers per-lane
-d08184aa906508fc1f772b1d0b4f44a33c086f33 drm/i915: Enable per-lane DP drive settings for bxt/glk
 dad80c6bff770d25f67ec25fe011730e4a463008 cifs: Fix reacquisition of volume cookie on still-live connection
 afc23febd51c7e24361e3a9c09f3e892eb0a41ea cifs: Add tracing for the cifs_tcon struct refcounting
 18d86965e31f9be4d477da0744a7cdc9815858de smb: client: fix rename(2) regression against samba
@@ -308,15 +217,8 @@ e027b71762e84ee9d4ba9ad5401b956b9e83ed2a ARM: dts: microchip: at91-sama7g5ek: Re
 1fe5e0a31e6202025a100fc08cd5902f6abbaaba ARM: dts: microchip: at91-sama7g54_curiosity: Replace regulator-suspend-voltage with the valid property
 10947b276b90df38e60aa3efd6b4b7a4b3c92fab arm64: dts: imx8mp: Fix assigned-clocks for second CSI2
 e858beeddfa3a400844c0e22d2118b3b52f1ea5e bcachefs: If we run merges at a lower watermark, they must be nonblocking
-a9b7dfd1d1f96be3a3f92128e9d78719a8d65939 drm/panthor: clean up some types in panthor_sched_suspend()
 91112fc6212a9be6f3be636d885df9c17395e1a4 wifi: iwlwifi: mvm: fix link ID management
 0b8fe5bd73249dc20be2e88a12041f8920797b59 net: usb: qmi_wwan: add Telit FN920C04 compositions
-0546e01d5a0269f02b4aa227f44b30a5a5558792 dt-bindings: panel-simple-dsi: add Khadas TS050 V2 panel
-26f9339212db569310d4b0ef4284efcbb462a86f drm/panel: add Khadas TS050 V2 panel support
-4f888782d30276b08a32fa3d9b5c13b7dc123e28 dt-bindings: display: panel: Add Raydium RM69380
-9a314ea512b7db9d38107ea0284b56f805b8fc9a drm/panel: Add driver for EDO RM69380 OLED panel
-e0a200ab4b72afd581bd6f82fc1ef510a4fb5478 drm/edid: Parse topology block for all DispID structure v1.x
-105aa4c65b76c3a344ca89a2d2dc96c84cca557f drm: Fix plane SIZE_HINTS property docs
 c58e88d49097bd12dfcfef4f075b43f5d5830941 icmp: prevent possible NULL dereferences from icmp_build_probe()
 70dcdf5f8c41ce2379d48d497db10af4a09ea075 mailmap: add entries for Alex Elder
 4fd1edcdf13c0d234543ecf502092be65c5177db bridge/br_netlink.c: no need to return void function
@@ -327,33 +229,13 @@ afae8002b4fd3560c8f5f1567f3c3202c30a70fa sched/eevdf: Fix miscalculation in rewe
 a1acdc226baec331512f815d6ac9dd6f8435cc7f bnxt_en: Fix the PCI-AER routines
 41e54045b741daf61e03c82d442227af3d12111f bnxt_en: Fix error recovery for 5760X (P7) chips
 9e91bf75dd9089b08d8156d66d0e7c024d72780b Merge branch 'bnxt_en-aer-fixes'
-8431fff9e0f3fc1c5844cf99a73b49b63ceed481 drm/mediatek: dp: Fix mtk_dp_aux_transfer return value
-417d8c47271d5cf1a705e997065873b2a9a36fd4 drm/mediatek: dsi: Correct calculation formula of PHY Timing
-7de13ccf930890b164c51e951b7d7a6d8b0e9fb9 drm/i915/dmc: handle request_firmware() errors separately
-6fe859e6debe4a20ec051fac311376d4a2436a1e drm/i915/dmc: improve firmware parse failure propagation
-3ffccdd94d6af647c64233ab37fda1a0c1a908c9 drm/i915/dmc: split out per-platform firmware path selection
-068d6e9e7629875bd81583e5dbe65891165254b0 drm/i915/dmc: change how to disable DMC firmware using module param
-e9913f0bd2e1561bcffdf7fae43bfee6234a7347 drm/i915/display: move dmc_firmware_path to display params
 d05dcfdf5e1659b2949d13060284eff3888b644e  fs/9p: mitigate inode collisions
 77d8aa79ecfb209308e0644c02f655122b31def7 cifs: reinstate original behavior again for forceuid/forcegid
 4b759dd5765503bd466defac7d93aca14c23a15d cxl/core: Fix potential payload size confusion in cxl_mem_get_poison()
 e70316d17f6ab49a6038ffd115397fd68f8c7be8 x86/sev: Check for MWAITX and MONITORX opcodes in the #VC handler
 4d2008430ce87061c9cefd4f83daf2d5bb323a96 Merge tag 'docs-6.9-fixes2' of git://git.lwn.net/linux
 05d92ee782eeb7b939bdd0189e6efcab9195bf95 ACPI: CPPC: Fix bit_offset shift in MASK_VAL() macro
-5c9837374ecf55a1fa3b7622d365a0456960270f drm/meson: gate px_clk when setting rate
 f489c948028b69cea235d9c0de1cc10eeb26a172 ACPI: CPPC: Fix access width used for PCC registers
-96950929eb232038022abd961be46d492d7a6f0f drm/buddy: Implement tracking clear page feature
-a68c7eaa7a8ffdec9287ba1561a668d674c20a13 drm/amdgpu: Enable clear page functionality
-c1696bf8d5f5389c5312aebf9e3ad0267149cdea drm/tests: Add a test case for drm buddy clear allocation
-e69da902467f79d933543661b56101042a45e5a4 drm/panel: simple: switch to struct drm_edid
-a9c428f1b2e203d35117ee60f43db0ebdab39e66 drm/panel-samsung-atna33xc20: switch to struct drm_edid
-7e7dc3a9ae38711c5c7a4a88d71d8875849d8c5c drm/panel-edp: switch to struct drm_edid
-bd730c77fa37fe2dda4b6e23f6921ef8a9b1bb97 drm/sun4i: hdmi: switch to struct drm_edid
-f1e4db073f98f887122a10ef3c66a19e75516b48 drm/vc4: hdmi: switch to struct drm_edid
-8431f29d2f1deac06e120a1c5d9afb5d72def319 drm/gud: switch to struct drm_edid
-917ebdd0a89304fabab54f58062dbb35d413dcb3 drm/rockchip: cdn-dp: switch to struct drm_edid
-7fa1d6c50a5f5ad140bca0c615e97221f042a7a5 drm/rockchip: inno_hdmi: switch to struct drm_edid
-6221deb716b9d5397c09ba6567f7ae61d8cbeb98 drm/rockchip: rk3066_hdmi: switch to struct drm_edid
 1c582ec1428a4016c60d3d43ddaab427cd09862d Merge tag 'nfsd-6.9-4' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 a4e3899065ffa87d49dc20e8c17501edbc189692 net: dsa: mv88e6xx: fix supported_interfaces setup in mv88e6250_phylink_get_caps()
 a2c63a3f3d687ac4f63bf4ffa04d7458a2db350b Merge tag 'bcachefs-2024-04-22' of https://evilpiepirate.org/git/bcachefs
@@ -364,10 +246,6 @@ df70d04d56975f527b9c965322cf56e245909071 rust: phy: implement `Send` for `Regist
 323617f649c0966ad5e741e47e27e06d3a680d8f rust: kernel: require `Send` for `Module` implementations
 50cfe93b01475ba36878b65d35d812e1bb48ac71 kbuild: rust: remove unneeded `@rustc_cfg` to avoid ICE
 71b1543c83d65af8215d7558d70fc2ecbee77dcf Merge tag '6.9-rc5-ksmbd-fixes' of git://git.samba.org/ksmbd
-c058e7a8f8af355e4a441c89400a6e95a16320e5 Merge drm/drm-next into drm-misc-next
-c24177ca3b27e5a7ddaab8d330cedecd7eb9244a dt-bindings: display: bridge: add sam9x75-lvds binding
-179b0769fc5fc193d7837bdcb6ddee118a0fa9b8 drm/bridge: add lvds controller support for sam9x7
-e95752752eaf06c860811ac5ddf9badf6c1b43ca MAINTAINERS: add SAM9X7 SoC's LVDS controller
 d55f90e9b243faa5bcd5c8a323a8f43040500106 ntfs3: enforce read-only when used as legacy ntfs driver
 9b872cc50daa7d1cb07d5bfd27ee9fa3f4e7eda9 ntfs3: add legacy ntfs file operations
 619606a7b8d5e54b71578ecc988d3f8e1896bbc6 netfs: Fix writethrough-mode error handling
@@ -376,21 +254,7 @@ f42c97027fb75776e2e9358d16bf4a99aeb04cf2 eeprom: at24: fix memory corruption rac
 7ca803b489455b9242c81b4befe546ea3a692e5c soc: mediatek: mtk-svs: Append "-thermal" to thermal zone names
 ab6cd6bb33cc0bbb8dbf8cc264a1013b2019561e soc: mediatek: mtk-socinfo: depends on CONFIG_SOC_BUS
 a44f2eb106a46f2275a79de54ce0ea63e4f3d8c8 tools: ynl: don't ignore errors in NLMSG_DONE messages
-34ef188b2009963742fc054a4d4569e7a0e1d614 drm/i915/dsi: remove unused _MIPIA_AUTOPWG register definition
-4229dd0bc8677514e93f79671cfa8736ff275fc3 drm/i915/dsi: add VLV_ prefix to VLV only register macros
-4cfff967f117329622bb28908c890de317307bb7 drm/i915/dsi: unify connector/encoder type and name usage
-6068bc209ac8d07a5d04e93f168465195e22a4cc drm/i915/dsi: pass display to register macros instead of implicit variable
 5ea6764d9095e234b024054f75ebbccc4f0eb146 riscv: hwprobe: fix invalid sign extension for RISCV_HWPROBE_EXT_ZVFHMIN
-51debb6d4a2118f6a46dd36b84a82a5a73fa8236 dt-bindings: display: bridge: tc358775: make stby gpio optional
-497f0a1bdc066924cb23123f817a20fbd0e12cac dt-bindings: display: bridge: tc358775: Add data-lanes
-efcfac3e8e37e755ba4207b78209bd6613e59442 dt-bindings: display: bridge: tc358775: Add support for tc358765
-30ea09a182cb37c4921b9d477ed18107befe6d78 drm/bridge: tc358775: fix support for jeida-18 and jeida-24
-733daaebe2504e0261f5249d11f4796d0614539d drm/bridge: tc358775: make standby GPIO optional
-005102727d9e5b6fe3e84fb82b9a1880b0844f22 drm/bridge: tc358775: Get bridge data lanes instead of the DSI host lanes
-a4ed72e85c465c18ab8db232669ad7e556c34aac drm/bridge: tc358775: Add burst and low-power modes
-e2ee8e82cf424ce70fcee2151f5d0eb1a5fdc311 drm/bridge: tc358775: Enable pre_enable_prev_first flag
-ce2196dbba66a2a40020d6045a48eeab0091db01 drm/bridge: tc358775: Add support for tc358765
-ec710af54a1cf0c905865e5276bd38fea8fce57d drm/bridge: tc358775: Configure hs_rate and lp_rate
 80f071a343cc382df2d5cbddeb3d708657a83600 drm/amdkfd: demote unsupported device messages to dev_info
 69bc7a8a61aaa71e7cba1065484c421e7556edcc drm/amdgpu/pm: Remove gpu_od if it's an empty directory
 939c4751819b37eb5f2734223db1a00de42c65f4 drm/amdgpu: Support setting reset_method at runtime
@@ -403,13 +267,7 @@ e6f1a1946c4d46220b11fce0006264e478cdcbee drm/amdgpu/pm: Print od status info
 8e49344e6658919a94e813ad406b44b25f0ff94b drm/amd/display: Remove duplicate dcn32/dcn32_clk_mgr.h header
 e76691f45a60bf71a3210c4fb2abd492b26bd4a6 drm/amdgpu: Update BO eviction priorities
 9d1ddab261f3e2af7c384dc02238784ce0cf9f98 Merge tag '6.9-rc5-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-a6325ad47bc808aeb4c69ae36e0236c2c6d400b5 drm/panel-edp: Add panel CSOT MNB601LS1-1
 68301ef471b63f25d6e6144a0820fea52257a34a ACPI: PM: s2idle: Evaluate all Low-Power S0 Idle _DSM functions
-52ce97765cc71708acfd2a66b71e6cd3abb096d8 drm/v3d: Create two functions to update all GPU stats variables
-b136b1953f201542ae5cdfee4b35e9a2e4aa16fa drm/v3d: Create a struct to store the GPU stats
-da483d079bacceba6c999b4bb2b4c488ead12ed8 drm/v3d: Create function to update a set of GPU stats
-12d1624ce3d3fb030180384f9725d059538e5605 drm/v3d: Decouple stats calculation from printing
-6abe93b621ab12e93cf0eb7e42a609b36be32da1 drm/v3d: Fix race-condition between sysfs/fdinfo and interrupt handler
 9c8ecb9308d8013ff9ac9d36fdd8ae746033b93c Revert "NFSD: Reschedule CB operations when backchannel rpc_clnt is shut down"
 8ddb7142c8ab37371c6fd167a8aded97922c6268 Revert "NFSD: Convert the callback workqueue to use delayed_work"
 3584718cf2ec7e79b6814f2596dcf398c5fb2eca net: fix sk_memory_allocated_{add|sub} vs softirqs
@@ -436,26 +294,12 @@ fe93b0927bc58cb1d64230f45744e527d9d8482c drm/amdgpu: Fix the ring buffer size fo
 efb44ff64c95340b06331fc48634b99efc9dd77c LoongArch: Fix access error when read fault on a write-only VMA
 d3119bc985fb645ad3b2a9cf9952c1d56d9daaa3 LoongArch: Fix callchain parse error with kernel tracepoint events
 9a1f1d04f63c59550a5364858b46eeffdf03e8d6 smb: client: Fix struct_group() usage in __packed structs
-302aeb946731923c4ff7cca093868e4148ebc701 drm/panel: novatek-nt36672e: stop setting register load before disable
-9dab1af1e7592d9317bf3857e8cf019120973053 drm/panel: novatek-nt36672e: stop calling regulator_set_load manually
-a8ee5f50a9d87f35ca80d6ea74ac07ae97d5a21b drm/panel: novatek-nt36672a: stop calling regulator_set_load manually
-251e3c1fe15cb8bf71a834f863f6225b8164f7b8 drm/panel: visionox-rm69299: stop calling regulator_set_load manually
-14b3cdbd0e5b73824b7b2c7a4b1fbfd743044a5e drm/bridge: adv7511: make it honour next bridge in DT
-4edd73d174de5e8ec43f0de303f4a8b80e643529 drm/panel: jdi-fhd-r63452: make use of prepare_prev_first
-d83d015bd403d0e7c9730055d0c2272ee52403ef drm/bridge: chipone-icn6211: drop driver owner assignment
-5b5eab7173478afdf2657cf8b3481180a7b4865a drm/bridge: tc358764: drop driver owner assignment
 f2a904107ee2b647bb7794a1a82b67740d7c8a64 net: gtp: Fix Use-After-Free in gtp_dellink
 5b5f724b05c550e10693a53a81cadca901aefd16 net: phy: mediatek-ge-soc: follow netdev LED trigger semantics
 2718a7fdf292b2dcb49c856fa8a6a955ebbbc45f x86/CPU/AMD: Add models 0x10-0x1f to the Zen5 range
 b53c6bd5d271d023857174b8fd3e32f98ae51372 x86/cpu: Fix check for RDPKRU in __show_regs()
 78d9161d2bcd442d93d917339297ffa057dbee8c fbdev: fix incorrect address computation in deferred IO
 d806f474a9a7993648a2c70642ee129316d8deff gpio: tegra186: Fix tegra186_gpio_is_accessible() check
-67be30daa346bd2cad1c25ec4d51886070b60e82 drm: xlnx: zynqmp_dpsub: Set layer mode during creation
-8628274101605943b9abeb8988d7ff578c5cd493 drm: xlnx: zynqmp_dpsub: Update live format defines
-2e03666cbd649931903bcbd043fc5294179fa3d2 drm: xlnx: zynqmp_dpsub: Add connected live layer helper
-b0f0469ab662159f182f5af292b71cc5d42468a8 drm: xlnx: zynqmp_dpsub: Anounce supported input formats
-1836fd5ed98db85f249bf755978c964c2607a25d drm: xlnx: zynqmp_dpsub: Minimize usage of global flag
-1b5151bd3a2e076653a935874b39dd2c3a00452a drm: xlnx: zynqmp_dpsub: Set input live format
 a0a8d15a798be4b8f20aca2ba91bf6b688c6a640 x86/tdx: Preserve shared bit on mprotect()
 d6dab9017b7cf155e73ba5c7f498de1beb5f8e24 drm/xe: Remove sysfs only once on action add failure
 f38c4d224aa37fce1e3fe05db4377ef888f0737f drm/xe: call free_gsc_pkt only once on action add failure
@@ -513,13 +357,10 @@ acc29d5095b01c0eda6a7b4948a805ce699523e3 drm/client: Export drm_client_dev_unreg
 f3a36cb5d97e49945b00f0a78ce6e6a4c5223806 drm/{i915,xe}: Unregister in-kernel clients
 762f8c13b8ca4b861d28a529fa56b7960d71b892 drm/{i915,xe}: Implement fbdev client callbacks
 b55f3bbab8913a2758a5b726509c929a4a46c2b3 drm/{i915, xe}: Implement fbdev emulation as in-kernel client
-cbdbd9ca718e6efbc77b97ddf0b19b0cd46ac36c drm/bridge: imx: Fix unmet depenency for PHY_FSL_SAMSUNG_HDMI_PHY
 c26591afd33adce296c022e3480dea4282b7ef91 irqchip/gic-v3-its: Prevent double free on error
 c714fcdf5b75f63ab27cb5071747194e5ada2433 Merge tag 'intel-gpio-v6.9-2' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-gpio-intel into gpio/for-current
 fe42754b94a42d08cf9501790afc25c4f6a5f631 cpu: Re-enable CPU mitigations by default for !X86 architectures
 ce0abef6a1d540acef85068e0e82bdf1fbeeb0e9 cpu: Ignore "mitigations" kernel parameter if CPU_MITIGATIONS=n
-33d5ae6cacf46a043578d711ae7239bab55b4455 drm/print: drop include debugfs.h and include where needed
-9e2b84fb6cd7ee913aa61d461db65c1d6a08dcf2 drm/print: drop include seq_file.h
 f3334ebb8a2a1841c2824594dd992e66de19deb2 LoongArch: Lately init pmu after smp is online
 d7a5c9de99b3a9a43dce49f2084eb69b5f6a9752 drm/etnaviv: fix tx clock gating on some GC7000 variants
 e877d705704d7c8fe17b6b5ebdfdb14b84c207a7 Revert "drm/etnaviv: Expose a few more chipspecs to userspace"
@@ -559,18 +400,10 @@ ed74abcd1da0244c3c3be865587dc2727148ee83 selftests: mm: protection_keys: save/re
 a93289b830ce783955b22fbe5d1274a464c05acf Merge tag 'acpi-6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 dda89e2fbc5b7702296356b4a20a5cb66c70e426 Merge tag '9p-for-6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ericvh/v9fs
 c942a0cd3603e34dd2d7237e064d9318cb7f9654 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-bfed5b0257a98b32dd31778fd42ce19f9df26695 Merge tag 'drm-intel-next-2024-04-24' of https://anongit.freedesktop.org/git/drm/drm-intel into drm-next
 26da9bfdb8c6d9a64534cbcce9ffabad3bac5eb0 Merge tag 'amd-drm-fixes-6.9-2024-04-24' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 86ab9985214d9918113d6387bd0640e6166e68d1 Merge tag 'drm-misc-fixes-2024-04-25' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 ca382d6aa5adca82cd4c93194635fa0e64e6fa4f Merge tag 'drm-etnaviv-fixes-2024-04-25' of https://git.pengutronix.de/git/lst/linux into drm-fixes
 3a8534035c0747610312f9552898a0ece10ef8a7 Merge tag 'drm-xe-fixes-2024-04-25' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-bbecb57e28e6fd3666e15142728029b084eee6b2 Merge tag 'exynos-drm-next-for-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-next
-90153b36667a3e696cfa6771031aebca868c9172 Merge tag 'drm-misc-next-2024-04-25' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
-7fa043eafdb7ce8aad14c488c9d76a479945269b drm/i915: fix build with missing debugfs includes
-14869d1e5b7de8085cdc6b980f2c907ba58589ca drm/komeda: fix missing seq_file includes
-ca31018b2fae6acfa159a44e630c4d528574ff36 drm/omap: add missing seq_file include
-9aa99bb1977aab5f1a23780673f74db99d982632 drm/loongson: fix build after debugfs include change
-2236a61bd4917e85039ff318c39e1524beb10362 Merge tag 'mediatek-drm-next-6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/chunkuang.hu/linux into drm-next
 58cd9e03cff0883a77c1ffd774a5506639c9c1d7 Merge tag 'at24-fixes-for-v6.9-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into i2c/for-current
 1d422e44e17c234cef262599e8e5dce6cd3ce28d MAINTAINERS: Drop entry for PCA9541 bus master selector
 190f1f46ede17ca0d7153ac115d6518ec1be2ba3 MAINTAINERS: Update Uwe's email address, drop SIOX maintenance
@@ -727,4 +560,4 @@ b0efc428350b26f3f284bd317b462a8ec7cb904b drm/i915/dpio: Clean up the vlv/chv PHY
 3bc8848bb7f7478e6806e4522b06b63f40a53e1e drm/xe: Merge 16021540221 and 18034896535 WAs
 f03eee5fc922158654405318a02db9982c0ddf07 Merge tag 'drm-xe-next-fixes-2024-05-02' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-next
 
---===============1009973629492250627==--
+--===============8410593345751981996==--
