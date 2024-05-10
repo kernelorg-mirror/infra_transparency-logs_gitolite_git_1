@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1823119211226896552=="
+Content-Type: multipart/mixed; boundary="===============7976981035287116136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 10 May 2024 18:19:52 -0000
-Message-Id: <171536519233.9799.2380779161904291290@gitolite.kernel.org>
+Date: Fri, 10 May 2024 18:20:04 -0000
+Message-Id: <171536520407.11523.14060089196783260636@gitolite.kernel.org>
 
---===============1823119211226896552==
+--===============7976981035287116136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools.next
+  - ref: refs/heads/perf-tools-next
     old: 187c219b57eaf3e1b7a3cab2c6a8b7909bdbf4a9
     new: 09541603462c399c7408d50295db99b4b8042eaa
     log: revlist-187c219b57ea-09541603462c.txt
 
---===============1823119211226896552==
+--===============7976981035287116136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ e2eeef290c4adad7a0f95c4a41e1a992326a7829 perf tools: Ignore deleted cgroups
 230a7a71f92212e723fa435d4ca5922de33ec88a libsubcmd: Fix parse-options memory leak
 09541603462c399c7408d50295db99b4b8042eaa perf daemon: Fix file leak in daemon_session__control
 
---===============1823119211226896552==--
+--===============7976981035287116136==--
