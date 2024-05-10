@@ -1,43 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4486506981238705423=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 10 May 2024 11:03:39 -0000
-Message-Id: <171533901910.7387.14257984917524592328@gitolite.kernel.org>
-
---===============4486506981238705423==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 10 May 2024 11:05:40 -0000
+Message-Id: <171533914036.9798.9865192047903136556@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/tags/i2c-host-fixes-6.8-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 48208e4c4f390686dec92968b74fb6140dccb1fd
-
---===============4486506981238705423==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher andi.shyti@kernel.org 1715339017 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1715339017-7c25f0f661b0eb6a2fe92b783c2cab0663f19d0d
-
-0000000000000000000000000000000000000000 48208e4c4f390686dec92968b74fb6140dccb1fd refs/tags/i2c-host-fixes-6.8-rc8
------BEGIN PGP SIGNATURE-----
-
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZj3/CRYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uGqUA+gJe657B0FNt9nbWc6v3GJJcE4Dx
-hUz87YNCqiF+n0VQAQC8vRLU5iS/F+omjRHgsg9iNXmBVyUJZWrJiiPlZVlPCg==
-=7eTm
------END PGP SIGNATURE-----
-
---===============4486506981238705423==--
+  - ref: refs/heads/timers/core
+    old: ddd9120983c3efbcaa3a4c7777da1440f8ce27d8
+    new: a3825a7691585485e960cec04ce6667d176b7c67
+    log: |
+         6402eb802deb312e33c24699f68fb7775b2c7386 dt-bindings: timer: renesas: ostm: Document Renesas RZ/V2H(P) SoC
+         0f63c95aebf11d87b166a5dfd389957c67fef9c0 clocksource/drivers/renesas-ostm: Allow OSTM driver to reprobe for RZ/V2H(P) SoC
+         37385c0772a4fc6b89605b9701fa934fa2beb2cc clocksource/drivers/renesas-ostm: Avoid reprobe after successful early probe
+         e6f8bed209d5fa8602cda45930b0a331234d95ed clocksource/drivers/timer-ti-dm: Remove an unused field in struct dmtimer
+         2030a7e11f161b4067bd4eadd984cdb36446fcca clocksource/drivers/arm_arch_timer: Mark hisi_161010101_oem_info const
+         a3825a7691585485e960cec04ce6667d176b7c67 Merge tag 'timers-v6.10-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
+         
