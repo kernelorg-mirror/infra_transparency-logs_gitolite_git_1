@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3341384244546811887=="
+Content-Type: multipart/mixed; boundary="===============5927606110826028707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 10 May 2024 10:45:15 -0000
-Message-Id: <171533791538.27914.11191334704842852463@gitolite.kernel.org>
+Date: Fri, 10 May 2024 10:46:48 -0000
+Message-Id: <171533800865.28500.15682266078839116962@gitolite.kernel.org>
 
---===============3341384244546811887==
+--===============5927606110826028707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,39 +17,39 @@ user: kwilczynski
 git_push_cert_status: E
 changes:
   - ref: refs/heads/misc
-    old: 27ea748a3abdf3ad31ad3294bac3f50010068eec
-    new: 9ff0a8cdf12e84aef718b9739c3dc80cbd2be781
+    old: 9ff0a8cdf12e84aef718b9739c3dc80cbd2be781
+    new: e21fd57bf0c82f58f1c4ac58e3f0e8ccf74a9317
     log: |
-         9ff0a8cdf12e84aef718b9739c3dc80cbd2be781 misc: pci_endpoint_test: Use memcpy_toio()/memcpy_fromio() for BAR tests
+         e21fd57bf0c82f58f1c4ac58e3f0e8ccf74a9317 Documentation: PCI: pci-endpoint: Fix EPF ops list
          
 
---===============3341384244546811887==
+--===============5927606110826028707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1715337911 +0000
+pusher 3DE334E7 1715338004 +0000
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1715337911-7ceaf388e31871587ff9ab0ce29d56a47eb05084
+nonce 1715338004-2f4f05a9ff6fbf8895365a80ba8c405a12cbd45d
 
-27ea748a3abdf3ad31ad3294bac3f50010068eec 9ff0a8cdf12e84aef718b9739c3dc80cbd2be781 refs/heads/misc
+9ff0a8cdf12e84aef718b9739c3dc80cbd2be781 e21fd57bf0c82f58f1c4ac58e3f0e8ccf74a9317 refs/heads/misc
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY9+rcACgkQfGR2jT3j
-NOdVsQ//XxXhfKvNaopaOAiiExmWBZ1egUpQUIsoyFp9FqjuezMzFZQPbpyyDh7h
-F/tbSIRGRVqTuzZiNjzPnS9zzaX/8QPuVg3zIvsns3c0pFwb2eg5twGJ+sbW1dVF
-kQNetdjFVbW/56ZoGJeEic/dgfCuiV5XO26FiiSGyuS0Hbuyw43DRGPWSyToTcYC
-h2fQDmPxYTvskloMAHeqZMzo1uJKBXaiE4UhaBBIG337+kkPjCLVyIFciV8cfmRT
-a0ywxR7/Ttmp94AWaEgern8MLyl1nqIdnARwjdc+yp9TrLyBoLeNahjQclYO/Tqb
-bvlIpWBoE+7/hLEZi+2wzeSYtj6OymU2WeiVffj/QeawyLkJp/pyzpXAvRmbmWL0
-3JUptKRJBP4hxPcdJDBRTZvVX9/q9Ttf0PlC8LI4kJ+qTDkI4N4ORk7/gY7K5eCr
-tFr3spdwrZY10gZwupt/VN6XUDgpBFDq86JxtWcIAywQRLs5ToZ87EpiCDvxOZFD
-kdmyJuNfP4jFBFOPiYOtWlQp29L47LsrFqfhyBu/fl7xpcpgCrK6zR98kmI9Fcw2
-pDtjKv//jolHDPB3aAKnSPLd6Srl8SCYql+gq9MTjnnNoPOoFnc3zIN5B5b+wGVa
-dDzMLf4Cdi8L+nxJlmRyS16vJk9Ykj2Y+Or/VCNezXsjbI+Ntkk=
-=gPYN
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY9+xQACgkQfGR2jT3j
+NOc06A/+NcB34fXNjx9wcWTKbuMUhMKIX3D25lYtcKfl4gZJCfGLAz68a4NfrF50
+Dpi6CFQu4zhTBrYlKvOQaKmZXVJxwNfNpt6znWXOyHUhsS6YIADKDWWx1RriLpe8
+aa5i1r87L6M5eXJltHUKqwh6579bnICsR0u5DxId1O2R97bFlj+3ehmyA9ZIR5vl
+HsV9aSTZdgWlaeUKI+gkj4Y8p2tWO4YbfEIWJyy0w1LcVfa6/4Qz/Xq6bZpBPxMI
+7Qd/OrdAMzg0mc6sVDWJRt1uJ7I9WbAAEH7wO6u1U8CKEL+RTEM8cT/cjSeNLazI
+O1SAcr4hAbm9C9hvzwj21y9TYFSySk8rqfAksAmPxKG4Aqk8VLqQzTrrqqbenDg7
+Dya98mevwchk+KGhDl5+j34gZAO4ld09xgHvjVsTJp4dz1wV9yv55GaaqnI2dubb
+zbtcYPIejDQK7xi6RkoshefJHy9qKuBBq1j64NyYZNxzFuxJ7oz9X4vVlRkUUTYV
+oAPOAHuklV+M3VRYD3P81eilNLqhVDBmNs6HzmsZwUuX7WDRsbYYBNtKD7mzlCHO
+HWjcx32fN31I0/Q/NNJLesZi6fleRKcxzJENqlCAy+FIqGYcHip6uHnh0kv8jeif
+Kt4/9BZukZvvQavY68P6yP3FYYbQUShFrOYGY99l4ppNIeaau6w=
+=Syry
 -----END PGP SIGNATURE-----
 
---===============3341384244546811887==--
+--===============5927606110826028707==--
