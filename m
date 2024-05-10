@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Fri, 10 May 2024 10:01:50 -0000
-Message-Id: <171533531054.26622.14213657437211662531@gitolite.kernel.org>
+Date: Fri, 10 May 2024 10:03:18 -0000
+Message-Id: <171533539885.27161.11973198298461445504@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/for-next
-    old: dfff05cc10052b4c36a11d268aeaab2ed6ca66a0
-    new: 0650d99f2dd2fd46000f51d873d15e3195fbae17
+  - ref: refs/heads/kbuild
+    old: 0650d99f2dd2fd46000f51d873d15e3195fbae17
+    new: 14da55bdea6be389b906faee3b0b66ab02a93817
     log: |
-         f2d026d68a306661f46455327315c79d0e003cff kbuild: provide reasonable defaults for tool coverage
-         9cf51a6d1de06d2b3f37899c16d0a5723edd1cc9 Makefile: remove redundant tool coverage variables
-         0650d99f2dd2fd46000f51d873d15e3195fbae17 kbuild: use GCOV_PROFILE and KCSAN_SANITIZE in scripts/Makefile.modfinal
+         14da55bdea6be389b906faee3b0b66ab02a93817 kconfig: gconf: show checkbox for choice correctly
          
