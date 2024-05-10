@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 10 May 2024 20:24:09 -0000
-Message-Id: <171537264965.3989.17026403903731965072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Fri, 10 May 2024 20:37:00 -0000
+Message-Id: <171537342008.14400.10529434859355717605@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/tags/soc-arm-6.10
-    old: 0000000000000000000000000000000000000000
-    new: 82513aea588c8362fd8bc1a146d3047d442c81b6
-  - ref: refs/tags/soc-defconfig-6.10
-    old: 0000000000000000000000000000000000000000
-    new: 78e88dccc860294172237042b29c0950b157fc20
-  - ref: refs/tags/soc-drivers-6.10
-    old: 0000000000000000000000000000000000000000
-    new: f5dea9999c114985fe45ebadbd6fc7b2edb1b70b
-  - ref: refs/tags/soc-dt-6.10
-    old: 0000000000000000000000000000000000000000
-    new: 0b1497b8753a90f9434804e8f5810b6023977ada
+  - ref: refs/heads/next-integrity-testing
+    old: 9fa8e76250082a45d0d3dad525419ab98bd01658
+    new: 5b390b6b0365bcb84c7dacf408bf7384b138a896
+    log: |
+         5b390b6b0365bcb84c7dacf408bf7384b138a896 um: Add winch to winch_handlers before registering winch IRQ
+         
