@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-Date: Fri, 10 May 2024 08:06:09 -0000
-Message-Id: <171532836928.23843.10750832372491819834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
+Date: Fri, 10 May 2024 08:11:31 -0000
+Message-Id: <171532869106.28962.14955317876629344278@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-user: mtkaczyk
+repo: pub/scm/linux/kernel/git/tomba/linux
+user: tomba
 changes:
-  - ref: refs/heads/main
-    old: 893a55831e5abbcd15b171db66fa1f389fb61506
-    new: a0174749426f49a04f11ae0e728cb0a681bfa465
-    log: |
-         a0174749426f49a04f11ae0e728cb0a681bfa465 tests/23rdev-lifetime: fix a typo
-         
+  - ref: refs/heads/rkisp-tpg-wip
+    old: 0000000000000000000000000000000000000000
+    new: db4aaac1c774c56582ae3c93ce6fdd81a4596904
