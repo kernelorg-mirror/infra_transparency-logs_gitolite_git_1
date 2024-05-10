@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============5927606110826028707=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 10 May 2024 10:46:48 -0000
-Message-Id: <171533800865.28500.15682266078839116962@gitolite.kernel.org>
-
---===============5927606110826028707==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/joro/iommu
+Date: Fri, 10 May 2024 10:49:50 -0000
+Message-Id: <171533819015.29660.2548912862728707852@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/joro/iommu
+user: joro
 changes:
-  - ref: refs/heads/misc
-    old: 9ff0a8cdf12e84aef718b9739c3dc80cbd2be781
-    new: e21fd57bf0c82f58f1c4ac58e3f0e8ccf74a9317
+  - ref: refs/heads/core
+    old: f091e93306e0429ebb7589b9874590b6a9705e64
+    new: 8b80549f1bc692cf9130af8555b6c89cec24e1a6
     log: |
-         e21fd57bf0c82f58f1c4ac58e3f0e8ccf74a9317 Documentation: PCI: pci-endpoint: Fix EPF ops list
+         8b80549f1bc692cf9130af8555b6c89cec24e1a6 arm64: Properly clean up iommu-dma remnants
          
-
---===============5927606110826028707==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 3DE334E7 1715338004 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1715338004-2f4f05a9ff6fbf8895365a80ba8c405a12cbd45d
-
-9ff0a8cdf12e84aef718b9739c3dc80cbd2be781 e21fd57bf0c82f58f1c4ac58e3f0e8ccf74a9317 refs/heads/misc
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY9+xQACgkQfGR2jT3j
-NOc06A/+NcB34fXNjx9wcWTKbuMUhMKIX3D25lYtcKfl4gZJCfGLAz68a4NfrF50
-Dpi6CFQu4zhTBrYlKvOQaKmZXVJxwNfNpt6znWXOyHUhsS6YIADKDWWx1RriLpe8
-aa5i1r87L6M5eXJltHUKqwh6579bnICsR0u5DxId1O2R97bFlj+3ehmyA9ZIR5vl
-HsV9aSTZdgWlaeUKI+gkj4Y8p2tWO4YbfEIWJyy0w1LcVfa6/4Qz/Xq6bZpBPxMI
-7Qd/OrdAMzg0mc6sVDWJRt1uJ7I9WbAAEH7wO6u1U8CKEL+RTEM8cT/cjSeNLazI
-O1SAcr4hAbm9C9hvzwj21y9TYFSySk8rqfAksAmPxKG4Aqk8VLqQzTrrqqbenDg7
-Dya98mevwchk+KGhDl5+j34gZAO4ld09xgHvjVsTJp4dz1wV9yv55GaaqnI2dubb
-zbtcYPIejDQK7xi6RkoshefJHy9qKuBBq1j64NyYZNxzFuxJ7oz9X4vVlRkUUTYV
-oAPOAHuklV+M3VRYD3P81eilNLqhVDBmNs6HzmsZwUuX7WDRsbYYBNtKD7mzlCHO
-HWjcx32fN31I0/Q/NNJLesZi6fleRKcxzJENqlCAy+FIqGYcHip6uHnh0kv8jeif
-Kt4/9BZukZvvQavY68P6yP3FYYbQUShFrOYGY99l4ppNIeaau6w=
-=Syry
------END PGP SIGNATURE-----
-
---===============5927606110826028707==--
+  - ref: refs/heads/iommu/fixes
+    old: 0f91d0795741c12cee200667648669a91b568735
+    new: 65ade5653f5ab5a21635e51d0c65e95f490f5b6f
+    log: |
+         65ade5653f5ab5a21635e51d0c65e95f490f5b6f iommu/arm-smmu: Use the correct type in nvidia_smmu_context_fault()
+         
+  - ref: refs/heads/next
+    old: 36bb003ed6860aa478c0503a6c44725064679085
+    new: be8ddcc9d7edd862c8ae5e16384f675ca15b5af9
+    log: |
+         8b80549f1bc692cf9130af8555b6c89cec24e1a6 arm64: Properly clean up iommu-dma remnants
+         65ade5653f5ab5a21635e51d0c65e95f490f5b6f iommu/arm-smmu: Use the correct type in nvidia_smmu_context_fault()
+         be8ddcc9d7edd862c8ae5e16384f675ca15b5af9 Merge branches 'iommu/fixes', 'arm/renesas', 'arm/smmu', 'x86/amd', 'core' and 'x86/vt-d' into next
+         
+  - ref: refs/tags/iommu-fixes-v6.9-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 15c841fc604019b47d55ca1a379894269340954c
