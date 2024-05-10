@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8523957028336215549=="
+Content-Type: multipart/mixed; boundary="===============0207955800779626976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
-Date: Fri, 10 May 2024 19:04:01 -0000
-Message-Id: <171536784159.9417.7327882583626709064@gitolite.kernel.org>
+Date: Fri, 10 May 2024 19:54:48 -0000
+Message-Id: <171537088818.14255.1886762860019948465@gitolite.kernel.org>
 
---===============8523957028336215549==
+--===============0207955800779626976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jj/linux-apparmor
 user: jj
 changes:
-  - ref: refs/heads/apparmor-next-next
-    old: 7e00c1f7430f775d7ac8723e5bfb1b9407da11ed
+  - ref: refs/heads/apparmor-next
+    old: 8ead196be219adade3bd0d4115cc9b8506643121
     new: 3dd384108d53834002be5630132ad5c3f32166ad
-    log: revlist-7e00c1f7430f-3dd384108d53.txt
+    log: revlist-8ead196be219-3dd384108d53.txt
 
---===============8523957028336215549==
+--===============0207955800779626976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e00c1f7430f-3dd384108d53.txt
+Content-Disposition: attachment; filename=revlist-8ead196be219-3dd384108d53.txt
 
 379b97bbf02feecae5ce870bc0c67e3d723e30f5 selftests/bpf: Add kprobe multi triggering benchmarks
 86833aec447939a886a13bbdbdf21c9628c5c8c5 Merge tag 'x86-entry-2024-03-11' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ fce09ea314505a52f2436397608fa0a5d0934fb1 apparmor: Fix null pointer deref when r
 b2c858148acf96290b9a9af259a04e080a169f51 apparmor: fix typo in kernel doc
 3dd384108d53834002be5630132ad5c3f32166ad apparmor: fix possible NULL pointer dereference
 
---===============8523957028336215549==--
+--===============0207955800779626976==--
