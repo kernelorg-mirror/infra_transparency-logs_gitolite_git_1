@@ -1,49 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2363552835566913119=="
+Content-Type: multipart/mixed; boundary="===============6525225639161727662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 10 May 2024 11:30:31 -0000
-Message-Id: <171534063176.29000.17769571693778041457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 10 May 2024 11:37:51 -0000
+Message-Id: <171534107163.2249.15664850990486442858@gitolite.kernel.org>
 
---===============2363552835566913119==
+--===============6525225639161727662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: c8bdf9e727acb6e1b37febf422ef1751e5a2c7d1
-    new: c3c5ac4bd7d7019f2e3ad1720572d53226fe656e
-    log: revlist-c8bdf9e727ac-c3c5ac4bd7d7.txt
+  - ref: refs/heads/dt-bindings
+    old: 0e60cf7c22336ce9c6855f921938757c30f534f4
+    new: 8cbb44e6ca2b8be2b06f4e61953772fcc0ceed98
+    log: |
+         89248de22866d3596e3c58465ae6ab5bb904fc60 dt-bindings: PCI: cdns,cdns-pcie-host: Drop redundant msi-parent and pci-bus.yaml
+         9c0dd7a7bce718c565be900b5e97c26040e513ce dt-bindings: PCI: mediatek,mt7621: Add missing child node reg
+         bdb942ae2fb961df65c62472c7369c300aa47f95 dt-bindings: PCI: host-bridges: Switch from deprecated pci-bus.yaml
+         8cbb44e6ca2b8be2b06f4e61953772fcc0ceed98 dt-bindings: PCI: mediatek,mt7621-pcie: Switch from deprecated pci-bus.yaml
+         
 
---===============2363552835566913119==
+--===============6525225639161727662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8bdf9e727ac-c3c5ac4bd7d7.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9a9d31b149f3a71ad0835ea295743482601dd322 ASoC: Intel: sof_sdw_rt_sdca_jack_common: remove -sdca for new codecs
-426c43ae9549559f5f5fd405bf464f9fa175e418 ASoC: Intel: sof-rt5682: remove DMI quirk for hatch
-f1a5cb6a3bd2fc518dc21561dfc784530dab60b2 ASoC: Intel: sof_rt5682: board id cleanup for mtl boards
-eed867325e4b825a16946539275364699eed83d9 ASoC: Intel: realtek-common: remove 2-spk rt1015p config
-f77ae7fcdc47630eb7653983f3c57ac44103aebc ASoC: Intel: soc-acpi-intel-mtl-match: add cs42l43 only support
-dd3bd9dc47084195fcb3c1b371cb03046abb13ab ASoC: Intel: soc-acpi-intel-lnl-match: add cs42l43 only support
-3895aa82b665d43b24ba1ac307e20df3396a6b65 ASoC: Intel: maxim-common: add max_98373_dai_link function
-b533ed0d85cb64f9323b4221fcaad41259b08556 ASoC: Intel: sof_da7219: use max_98373_dai_link function
-d304ab5ecb758f76bd4eafa6d7e0fac4eba48e88 ASoC: Intel: sof_nau8825: use max_98373_dai_link function
-834c4f95673fdb4394c6cf26242d8763ee6ccf28 ASoC: Intel: sof_rt5682: use max_98373_dai_link function
-15ce635f396bdb416a41840bfb5e911128585e4d ASoC: Intel: sof_sdw: add max98373 dapm routes
-2bb765f053910339126626d49ae851b937d06206 ASoC: Intel: maxim-common: change max98373 data to static
-1628e1c8f6f1446460fc33a06f52e5ce52ac587a ASoC: Intel: sof_sdw_cs_amp: rename Speakers to Speaker
-01c266af92f4d24d44939e7d21c36e898caaa18f ASoC: Intel: sof_sdw: use generic name for controls/widgets
-70d470f05f0b5bb8dea67915cac6ed6308120a89 ASoC: Intel: sof_sdw: add controls and dapm widgets in codec_info
-2e3bc94796776e2695054183e7324d1a6ac27837 ASoC: Intel: sof_sdw: use .controls/.widgets to add controls/widgets
-84e0a19adb73d7cec5a43e02f9e2d2aafc5c7176 ASoC: Intel: sof_sdw: add dai parameter to rtd_init callback
-4c11132a886ea93865e205e2d92d810722237b48 ASoC: Intel: sof_sdw_rt_amp: use dai parameter
-c3c5ac4bd7d7019f2e3ad1720572d53226fe656e ASoC: Intel: updates for 6.10 - part7
+certificate version 0.1
+pusher 3DE334E7 1715341067 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
+nonce 1715341067-be18acbbaeea87371c92de52ee441fab8c1f5356
 
---===============2363552835566913119==--
+0e60cf7c22336ce9c6855f921938757c30f534f4 8cbb44e6ca2b8be2b06f4e61953772fcc0ceed98 refs/heads/dt-bindings
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY+BwsACgkQfGR2jT3j
+NOdL+w//cMMKPgYpB+RH46gETy9QMLk7jVNdSA+zTO7n+XAlcQTWe5NTHwFwS882
+rxfYVSNQXd/SAMIdEfFQIVeB7gkx/VpHcef3H9ZEQinbskozi0Wui7MaPaWpcGs4
+4lvtvDIgju1ePSAUOezZDxTAl0Dl21QB3V3zUmkH8wqampSHIUK8bJoQdAEj0GSe
+xmxMDCAtbB7q9CXuGFIh2wjttQN6eHBHw1jfamzOTrSat702lvZB9FwZf78gqWn8
+jHYO9phEJb2FMa29c5pTyY9DejsJRFAtBKEIxMIJC8q4CwdODaJffDS7KYf9dRiz
+lNuGYYvNsX6emHlWXqWbsE/cgV4/tbGCdyy2BIsu8SaR/+TZe4AR4lH7yEQ8e7k8
+tOW+gz68O3V6nmWrt2GMi5MoSToNuZ7YKok6z4MRBmWv+81N/LpTiHJob45Cvzle
+tP4rclfE/qxeYnLI8hQsbavZkrFTf0nUBz9TZoNhK9SSw9keWPkJSvV/p9Jc+Icy
+TDNXylLZyc2pkvbgkVPHPFah3Lv8DsbugrKBRLZyldWJyZxs+Lr7I07mR/d/Bdpy
+I3WJ7VvqtGsNBMaTfKhZ+vHlVHEgn0XiXVqbSYkwhxDnFLP+OV02idA3M9t75k1S
+bj1QvNMyOFVDt+reowta8aIxpig6s2aub0tu/27Nm4JREyeZ2zk=
+=k1N8
+-----END PGP SIGNATURE-----
+
+--===============6525225639161727662==--
