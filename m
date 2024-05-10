@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 10 May 2024 06:21:51 -0000
-Message-Id: <171532211190.11870.6121268985430589281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 10 May 2024 06:22:00 -0000
+Message-Id: <171532212082.11998.12830959382507808959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: d1ef160b45a0010d1f1b3d601230457243a8f3e8
-    new: 2a4b49bb58123bad6ec0e07b02845f74c23d5e04
-    log: |
-         2a4b49bb58123bad6ec0e07b02845f74c23d5e04 regulator: core: fix debugfs creation regression
-         
   - ref: refs/heads/for-next
-    old: fd980b3c2af5294494781abdf31b61f2736a9d3b
-    new: 00d1d63ef2da3363bd9770f0c1a10392c1027eab
+    old: bf37a0c1cd5023b8e98f8c6697f76c5fc1be9f48
+    new: e958cffa42dfa99c25ec855b124d9bbc47173826
     log: |
-         2a4b49bb58123bad6ec0e07b02845f74c23d5e04 regulator: core: fix debugfs creation regression
-         622bab1884847fcf3f9bfdf1d534fac3a5fe859f regulator: dt-bindings: Add Allwinner D1 system LDOs
-         4e70b26c873dfff317039458a6ea66314bbdce99 regulator: sun20i: Add Allwinner D1 LDOs driver
-         00d1d63ef2da3363bd9770f0c1a10392c1027eab Merge remote-tracking branch 'regulator/for-6.10' into regulator-next
+         d6e7ffd4820f8894eb865890c96852085d3640e1 spi: dw: Bail out early on unsupported target mode
+         e958cffa42dfa99c25ec855b124d9bbc47173826 Merge remote-tracking branch 'spi/for-6.10' into spi-next
          
