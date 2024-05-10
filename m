@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 10 May 2024 21:10:14 -0000
-Message-Id: <171537541457.7738.15947369443841684298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 10 May 2024 21:13:03 -0000
+Message-Id: <171537558307.8798.8992637301205674580@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: f8c7584a9a14c792757e1d6a342baf9d2ba3a444
-    new: 39fbb15b4a74a2bf023a3725ff98e2a8a7b685d5
+  - ref: refs/tags/for-net-next-2024-05-10
+    old: 0000000000000000000000000000000000000000
+    new: a8eb9a050a37777f7ffd92dd092fb7f8de23ad26
