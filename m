@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1524859154829977959=="
+Content-Type: multipart/mixed; boundary="===============5089501894149572738=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 10 May 2024 10:05:21 -0000
-Message-Id: <171533552149.29656.13986689803167540319@gitolite.kernel.org>
+Date: Fri, 10 May 2024 10:36:41 -0000
+Message-Id: <171533740140.20363.9591525717525914920@gitolite.kernel.org>
 
---===============1524859154829977959==
+--===============5089501894149572738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/controller/tegra194
-    old: 19326006a21da26532d982254677c892dae8f29b
-    new: ff58a429d70cdab73d18a51624a5513a14c18970
+  - ref: refs/heads/misc
+    old: fe4a83ec07818f2243eac584488e65397699550c
+    new: 27ea748a3abdf3ad31ad3294bac3f50010068eec
     log: |
-         ff58a429d70cdab73d18a51624a5513a14c18970 PCI: tegra194: Set EP alignment restriction for inbound ATU
+         27ea748a3abdf3ad31ad3294bac3f50010068eec misc: pci_endpoint_test: Refactor dma_set_mask_and_coherent() logic
          
 
---===============1524859154829977959==
+--===============5089501894149572738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1715335516 +0000
+pusher 3DE334E7 1715337397 +0000
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1715335516-084d69803aed324b4a6366219d08d21e56c8edbc
+nonce 1715337397-e907ea529503eee74b1853bdaa1f61f6f2c1f1af
 
-19326006a21da26532d982254677c892dae8f29b ff58a429d70cdab73d18a51624a5513a14c18970 refs/heads/controller/tegra194
+fe4a83ec07818f2243eac584488e65397699550c 27ea748a3abdf3ad31ad3294bac3f50010068eec refs/heads/misc
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY98VwACgkQfGR2jT3j
-NOcJ/g//QglVGL0mOEcdzHKpw3Sd6tY2APLPTL4+7LGN5Psb5Q/3Jdwiyj2zG+Mr
-XlJyHxDHw95mdMPYX3pmH5eMluXvYbEfUvjoOsjtTTZl9iMXMh0VdRwplXlyY0qt
-dJu0Q3pMsOKIYRaDKYSIQ1/9P+6WYCVUzTbxQpJ4p8suncynE+WLtmaziWx/B1iK
-XScSLk2Lbvu5epd+QYXE9/X9OJfze3VAknqHkfM2y4wNq20q0v1vKZvJeRwJm6mt
-SwMtxt3IcnOc3zHAhVO3FGgTheSRsZ29wkEOC+CDgxOJMG2iYJtm+c2d1gHkgqij
-+F8PHxGw0tpxvFGASVb0Z4adDhrshIWvd0bqMSwJ+gwLb6ajs8iDfpFYb6CUnqvn
-2ePEg4jD2lRryyzQdTdsW3NfCHcJuD9tmEbM3XxIr8Ub79GysIrDx3FmtUgv4JPA
-iUHSxW2xpm+vC4HChMqpSPVEeDq5dGBN4ljHAQ4AGwE7t1X9wk+NpXd63ZrjM4/s
-UcktoFXqMhDQSi7Y3b5QWQxhYHUUTrRRs1wRTfdTfIBANXSp2AqqxoTkPpb+OM0+
-we2z6++yPtD/NcAUfItwwwRA5t/AcRYz6v1kT+GRq19pUsRGuGjVTNJBKy2yCz2J
-Kae0ZUAq4M94R52MBQg28oQpL5lTumsXeG3TF+ZrOJ39D5hDi0E=
-=AEPh
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY9+LUACgkQfGR2jT3j
+NOfaMw/+NI92kFsBfa+NtQi6lFryi5KHxaYgHyRha93RaqjRksegtGIq9r0ZoArW
+/Mc5isK6fkLTwKWLF0BLs5o7Y91OTf2sG8q8Abc1fuvSP1WN00AjN91Jse9cXjbv
+kRoNeqiPrSA8iWQTZGjafkPBHukSkjpSEEqIVYtzyeU9NiprOGLydm/ugVMWZQDz
+dX6dYnOAEVFFImFvJvb8iJxcDhzshyjveY70FENKOzOXbxYXB8HhwF3DFkzvzIRV
+Tvbi7esh02k0M1ibXPLhy7/q8A7prrmGEMSVA+Vrwsmh52djlzKtDRbFLodixu2F
+KnefciIKYlJjURnhlSz1/uxSWIf3u23Og1r7uWh/8+mOs9CSEddRjIAaVlD4Gbf3
+Fo85KRYMjqdIlWBxjDVexaUiLY6N2zVEjPiB4uVBJFYiug8XGMV9HHV1bRWYl7sw
+ZtaxBBHuonJYjsQC7pwST5eWktXYx4UQL8q0LHEmwl4PttikfS2TyPtIb+XdRnYW
+qg6/e/DSmh7qC7coWmyi1LuK8NCZs/jEVDSMmLcXkkX9Rkfh0sHAWXL+zAL6HqaX
+aOLnFuxaeJzrOS1nXYuJxKWgyGZ4VgPaGOVFaHmg+3MWukAXYntoo776SuMGro9L
+3GJAJqnTlH/MGR8Pp/zxDhp0hbHWlC1nrvnhmeEqct4dL7Fdtmk=
+=muQL
 -----END PGP SIGNATURE-----
 
---===============1524859154829977959==--
+--===============5089501894149572738==--
