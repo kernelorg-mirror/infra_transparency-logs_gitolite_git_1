@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 10 May 2024 21:13:03 -0000
-Message-Id: <171537558307.8798.8992637301205674580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Fri, 10 May 2024 21:17:47 -0000
+Message-Id: <171537586770.12286.8763965475750027735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/tags/for-net-next-2024-05-10
+  - ref: refs/tags/asm-generic-alpha
     old: 0000000000000000000000000000000000000000
-    new: a8eb9a050a37777f7ffd92dd092fb7f8de23ad26
+    new: 197bf16bd9daf8c1e2a49d0f8ff1631d03b6080b
