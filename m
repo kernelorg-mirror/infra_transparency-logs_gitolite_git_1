@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5931053351670629067=="
+Content-Type: multipart/mixed; boundary="===============8693390012211763341=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Fri, 10 May 2024 14:54:53 -0000
-Message-Id: <171535289382.17241.12023180432850103221@gitolite.kernel.org>
+Date: Fri, 10 May 2024 14:57:19 -0000
+Message-Id: <171535303977.20697.15719703882571622685@gitolite.kernel.org>
 
---===============5931053351670629067==
+--===============8693390012211763341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/master
-    old: dccb07f2914cdab2ac3a5b6c98406f765acab803
-    new: 448b3fe5a0eab5b625a7e15c67c7972169e47ff8
-    log: revlist-dccb07f2914c-448b3fe5a0ea.txt
+  - ref: refs/heads/for-next
+    old: 3d24428f194c89e989069dca29f78913bbc197f1
+    new: c04d49fbabaa9b98f95584d0ed956ebe313f25e1
+    log: revlist-3d24428f194c-c04d49fbabaa.txt
 
---===============5931053351670629067==
+--===============8693390012211763341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dccb07f2914c-448b3fe5a0ea.txt
+Content-Disposition: attachment; filename=revlist-3d24428f194c-c04d49fbabaa.txt
 
 aa23317d0268b309bb3f0801ddd0d61813ff5afb qibfs: fix dentry leak
 d7ed5232f0f16181506373d73e711190d5e0c868 exfat: fix timing of synchronizing bitmap and inode
@@ -131,5 +131,6 @@ f39bf3cf08a49e7d20c44bc8bc8e390fea69959a net: dsa: mv88e6xxx: add phylink_get_ca
 8c3b7565f81e030ef448378acd1b35dabb493e3b Merge tag 'net-6.9-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 26e8383b116d0dbe74e28f86646563ab46d66d83 hwmon: (pmbus/ucd9000) Increase delay from 250 to 500us
 448b3fe5a0eab5b625a7e15c67c7972169e47ff8 Merge tag 'hwmon-for-v6.9-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+c04d49fbabaa9b98f95584d0ed956ebe313f25e1 bcache: allow allocator to invalidate bucket in gc
 
---===============5931053351670629067==--
+--===============8693390012211763341==--
