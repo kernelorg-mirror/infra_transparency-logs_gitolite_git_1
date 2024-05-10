@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Fri, 10 May 2024 09:14:09 -0000
-Message-Id: <171533244937.9463.4027538260644946522@gitolite.kernel.org>
+Date: Fri, 10 May 2024 09:15:44 -0000
+Message-Id: <171533254473.11771.18409749719200564383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/mszeredi/fuse
 user: mszeredi
 changes:
   - ref: refs/heads/for-next
-    old: 9fe2a036a23ceeac402c4fde8ec37c02ab25f133
-    new: 246014876d782bbf2e652267482cd2e799fb5fcd
+    old: 246014876d782bbf2e652267482cd2e799fb5fcd
+    new: 0da5048e102fb25f341d78cbabbb49dc1471fa55
     log: |
-         42815f8ac54c5113bf450ec4b7ccc5b62af0f6a7 fuse: set FR_PENDING atomically in fuse_resend()
-         246014876d782bbf2e652267482cd2e799fb5fcd fuse: clear FR_SENT when re-adding requests into pending list
+         0da5048e102fb25f341d78cbabbb49dc1471fa55 fuse: annotate potential data-race in num_background
          
