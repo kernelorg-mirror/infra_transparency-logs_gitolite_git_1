@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7541387478908654182=="
+Content-Type: multipart/mixed; boundary="===============2940560424599803982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 10 May 2024 13:17:01 -0000
-Message-Id: <171534702132.11296.13301467194770788533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 10 May 2024 13:17:07 -0000
+Message-Id: <171534702794.11438.3410219255508828168@gitolite.kernel.org>
 
---===============7541387478908654182==
+--===============2940560424599803982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/asoc-6.10
     old: c8bdf9e727acb6e1b37febf422ef1751e5a2c7d1
     new: c3c5ac4bd7d7019f2e3ad1720572d53226fe656e
     log: revlist-c8bdf9e727ac-c3c5ac4bd7d7.txt
-  - ref: refs/heads/for-6.9
+  - ref: refs/heads/asoc-6.9
     old: a85ed162f0efcfdd664954414a05d1d560cc95dc
     new: e54f128b0c2fe543816941342e085e21f49c5b6c
     log: |
@@ -28,32 +28,32 @@ changes:
          e54f128b0c2fe543816941342e085e21f49c5b6c ASoC: audio-graph-card2: call of_node_get() before of_get_next_child()
          
 
---===============7541387478908654182==
+--===============2940560424599803982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1715347019 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1715347018-9a04134c73ee63aab051a38fa4c99537e4c4da30
+pusher Mark Brown <broonie@kernel.org> 1715347025 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1715347025-3bf81a3446d4c023c437e20c7b5fc27a5361024f
 
-c8bdf9e727acb6e1b37febf422ef1751e5a2c7d1 c3c5ac4bd7d7019f2e3ad1720572d53226fe656e refs/heads/for-6.10
-a85ed162f0efcfdd664954414a05d1d560cc95dc e54f128b0c2fe543816941342e085e21f49c5b6c refs/heads/for-6.9
+c8bdf9e727acb6e1b37febf422ef1751e5a2c7d1 c3c5ac4bd7d7019f2e3ad1720572d53226fe656e refs/heads/asoc-6.10
+a85ed162f0efcfdd664954414a05d1d560cc95dc e54f128b0c2fe543816941342e085e21f49c5b6c refs/heads/asoc-6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmY+HksTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0MWFB/0fKboJvT1hCWqzCtFQAVZ3garRRxLF
-YBR0FDqjDm5wbngC165k6f1Kx0kosUIxrRXw88KNvbKtA0L6bVSCjR87ETt+dPOo
-lXJKej7Ug3D0N588SgmhTlZ6LYolyGogt1ppQym/X7jFyNsJezEYuBEhMf4be+wN
-Npb4bjBeANk1VWuWTFNpcgEfVJhr0GFQuMV5ID2uQ6wxpzsieSn4b77N5dwFJzrC
-9t75be2srsnAVWN0SeVdbvajzu18EmLfJ8o0KkSB+QcloYC6TQlbJYTdR21mfbgl
-fo65VOfCjC5ulsjNsjL2pQaZWy6fQRIqXZept9bcwrcJkoL8O4O1H5e9
-=NPRK
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmY+HlETHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0HGQB/4uN6zLhHady4IRHmeS6+H42xQe8Oaq
+hesGbmaLdxtuweFpXLW/2HPDPIKclR+jh+saWShEBqyyxPV7iN6VDiF9Mbjc5FaT
+SXFQiarboTV2Ta9TALEp5D/9uvcRYWREfbnYPk8K0py2spcmmL7/hKmBdjtIrKcE
+eieh5X8tK2ilHBRz10vxEDE/CNsunr2dfauwinUkUlnTMo14LxrjS8QSp1YavaWb
+fXVa34Dwx0uO8yWh3UbdFt4owOGrcvB5f8sQCklvxjTHlHTEo5qpZJeNn13/HK+w
+kGbOd8Pb/D3mFurB8WQC/s+U2IzcAB7a0ygiRqVUS83SUHDrin9gfJn7
+=wwPu
 -----END PGP SIGNATURE-----
 
---===============7541387478908654182==
+--===============2940560424599803982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -79,4 +79,4 @@ d304ab5ecb758f76bd4eafa6d7e0fac4eba48e88 ASoC: Intel: sof_nau8825: use max_98373
 4c11132a886ea93865e205e2d92d810722237b48 ASoC: Intel: sof_sdw_rt_amp: use dai parameter
 c3c5ac4bd7d7019f2e3ad1720572d53226fe656e ASoC: Intel: updates for 6.10 - part7
 
---===============7541387478908654182==--
+--===============2940560424599803982==--
