@@ -1,76 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0421552599558734005=="
+Content-Type: multipart/mixed; boundary="===============1305858484688963618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 10 May 2024 15:24:50 -0000
-Message-Id: <171535469010.8420.17856822096949095713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 10 May 2024 15:32:40 -0000
+Message-Id: <171535516091.14494.1563648023006464716@gitolite.kernel.org>
 
---===============0421552599558734005==
+--===============1305858484688963618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/dev-queue
-    old: ea0722c4db113270ff0de7ebe322167da3b7f01b
-    new: 13e966ee3d064d2416cd4f9ef7df0436a9b9d650
-    log: revlist-ea0722c4db11-13e966ee3d06.txt
+  - ref: refs/heads/master
+    old: f4795bf64dbf8778fc765b7dad1b1bfb365b48d7
+    new: 87edbabf395699d6933cbd6368264257b2a72e22
+    log: revlist-f4795bf64dbf-87edbabf3956.txt
 
---===============0421552599558734005==
+--===============1305858484688963618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea0722c4db11-13e966ee3d06.txt
+Content-Disposition: attachment; filename=revlist-f4795bf64dbf-87edbabf3956.txt
 
-353f5ffbc63b532aa0c92a7635e84bd53d04644e gtp: remove useless initialization
-b6fc0956ac532d1b35f6f517c083603b5e150b0d gtp: properly parse extension headers
-750771d0ca76817e15fef1211b9748ae7ed3aff6 gtp: prepare for IPv6 support
-999cb275c807b92662f8a74fdaee9619700f64a5 gtp: add IPv6 support
-c6461ec97b256856e6736454f00af70d9d12f171 gtp: use IPv6 address /64 prefix for UE/MS
-e4f88f7381fa551ff4ad059930a729a0ef2b405f gtp: pass up link local traffic to userspace socket
-e075880459a8554e43b6c03487375283f22ccb9f gtp: move debugging to skbuff build helper function
-559101a707842b4fc39cddef03f5dbcaa7820c6d gtp: remove IPv4 and IPv6 header from context object
-b77732f05ebbc8d1452577a67f28c0cf3ee59684 gtp: add helper function to build GTP packets from an IPv4 packet
-045a7c15e7910bcce379386390c0353c944e386a gtp: add helper function to build GTP packets from an IPv6 packet
-e30ea48b5e7ebc09c4277a478727d195ca231cef gtp: support for IPv4-in-IPv6-GTP and IPv6-in-IPv4-GTP
-c75fc0b9e5be7350ab1c73a0dcd48e9a8985ce24 gtp: identify tunnel via GTP device + GTP version + TEID + family
-60e0f986e89f10f2de874ff3ce8e2230701c9706 selftest: epoll_busy_poll: epoll busy poll tests
-33fb988b67050d9bb512f77f08453fa00088943c net/sched: adjust device watchdog timer to detect stopped queue at right time
-383eed2de529287337d9153a5084d4291a7c69f2 tcp: get rid of twsk_unique()
-1cd354fe1e4864eeaff62f66ee513080ec946f20 net: ipv6: fix wrong start position when receive hop-by-hop fragment
-f8beae078c82abde57fed4a5be0bbc3579b59ad0 Merge tag 'gtp-24-05-07' of git://git.kernel.org/pub/scm/linux/kernel/git/pablo/gtp Pablo neira Ayuso says:
-e2946f8cd5eb1f1db17cbcd8579d8d66fff21b95 ice: Fix package download algorithm
-39d0091f791aa484c82f217c529d5d216a4ffb41 i40e: flower: validate control flags
-b9babd869ed6e5374fe1a3c7a6e442ea1625c9cc iavf: flower: validate control flags
-7081435325bb9b1b97b31d551e22f47ecaf15f65 ice: flower: validate control flags
-d16b5309bcb6b009cb7705afe9491cda8a3dab9d igb: flower: validate control flags
-527d9e248de6849eb01925ce454d1caab0b39d88 ice: Interpret .set_channels() input differently
-b2d665bcbf9b868c191849f4967af373f2a788e0 ice: fix 200G PHY types to link speed mapping
-05884a4178d2ad9cd54e744d66f2f7b82ef7f109 ice: remove correct filters during eswitch release
-cfb0e796ace2c97bc5596d06d2355f59651573d8 net: e1000e & ixgbe: Remove PCI_HEADER_TYPE_MFD duplicates
-473fce014f24ae4cb4a36651cde047ae0de810f9 igc: fix a log entry using uninitialized netdev
-9e7ec5002eda8b85fb3384fdc067e0ce7912122c idpf: don't enable NAPI and interrupts prior to allocating Rx buffers
-cca923aa88ceff2b1bfda945fc3904d4a2c042f0 idpf: Interpret .set_channels() input differently
-054138d6504509efb6ecf2022d4ed23dce030c4b ice: add and use roundup_u64 instead of open coding equivalent
-b416e82f5662dca5be79359db684d43ce522ca24 ice: Introduce ice_ptp_hw struct
-0ef876af493e7d130f84335b9ae3c23f99fbed3f ice: Introduce helper to get tmr_cmd_reg values
-81a74c93b9de7cd80f91e4df1de5af76109c4cc4 ice: Implement Tx interrupt enablement functions
-32abe5484ac024e772e4ac9cfe685833116e3d80 ice: Add PHY OFFSET_READY register clearing
-5d72da2b8834c7ed4273e03af28d6050832471db ice: Move CGU block
-7dc71c127fb625aaaf24845b2ef835d682c8b5b4 ice: Introduce ice_get_base_incval() helper
-acdc65c6ed6c69a0fd26498f0c677cb6558228c5 ice: Introduce ETH56G PHY model for E825C products
-56fcdffa0ad8270daffe4b3aaf0a076e7069fb68 ice: Change CGU regs struct to anonymous
-871e24e3580bf7d1983e04c4d65e2a94cdc9bdfd ice: Add support for E825-C TS PLL handling
-44f76d5b1146b1aeb45567434b0d76b41cc68b91 ice: Add NAC Topology device capability parser
-310b9802518688067811077b4c8fceff372c4a0b ice: Adjust PTP init for 2x50G E825C devices
-bbb938f0e17a8e3701769956a27f9a19d44d8960 ice: store representor ID in bridge port
-ab81189b32f448c74620f413a6c13e128003479a ice: move devlink locking outside the port creation
-ba299b04bb184d83a00529ef3f0b2d68ccd0dfde ice: move VSI configuration outside repr setup
-02b732e19f88e7b15c9f8603a255772e8f2ff050 ice: update representor when VSI is ready
-13e966ee3d064d2416cd4f9ef7df0436a9b9d650 net: intel: Use *-y instead of *-objs in Makefile
+d3fcc77f99da755bb364c491f71638358bdd5f09 adapter: Use false instead of 0 for bool
+1e22fd9adbb3283f1a081b94248e97b662256d54 attrib/gatt: Guard against possible integer overflow
+1ba9e5f21ca2bd2e60a9fec9f520caf800d56d60 client/gatt: Don't pass negative fd on error
+4262170a7989e63c0a340a7acef4181045930e8d client/gatt: Check write_value() retval
+f3f762b77b5898ac0203d00bd64087e2a22e34be client/main: Fix array access
+ab325450b0c2b3e9a1b13d81e079d0bcd34e1835 client/main: Fix mismatched free
+0b842fe9b1fef38fa6510a0444817dd241d4ea98 monitor/att: Fix memory leak
+d1360727086973f95f4a2eb457354a0b14ae401e bap: Fix memory leaks
+3652e98d2bb6fe8d7ba5b66f9cd6403fca3995b7 media: Fix memory leak
+45d151ec8a0f096170e83b26c0e91d85afaf2d82 main: Fix memory leaks
+d30dc38b042542ddb29ac821300e95dc9e631b61 isotest: Consider "0" fd to be valid
+9a36f191aa783ad206460569390d1b7f388d9a66 isotest: Fix error check after opening file
+6f041df23ecf263ad80e1f3f952cbd67183ec3e6 client/player: Fix copy/paste error
+856353b254da30741a12d8e2d1d3bce3c10c3de7 shared/vcp: Fix copy/paste error
+3e03788ba80c94888d9e78bf1c8f62fff42353b8 isotest: Fix fd leak
+c81f9320357b0808dd4debebc687d26dc0be30ab iso-tester: Fix fd leak
+dc60ce0b460adf6b39c0ea5dbea072e9a50e6ec3 sdp: Fix use of uninitialised memory
+e5925dbb84fa306275810016b244f69484c7e92f monitor: Work-around memory leak warning
+af2634ce0a62e5b1b98db139daf96b54eb8360d1 avrcp: Fix uninitialised memory usage
+87edbabf395699d6933cbd6368264257b2a72e22 main: Simplify variable assignment
 
---===============0421552599558734005==--
+--===============1305858484688963618==--
