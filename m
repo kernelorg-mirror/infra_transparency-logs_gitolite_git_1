@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3758926077190793742=="
+Content-Type: multipart/mixed; boundary="===============4676601005854204706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 11 May 2024 03:47:36 -0000
-Message-Id: <171539925682.6465.3583520644608702563@gitolite.kernel.org>
+Date: Sat, 11 May 2024 04:07:40 -0000
+Message-Id: <171540046024.21197.5110883555355386067@gitolite.kernel.org>
 
---===============3758926077190793742==
+--===============4676601005854204706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,37 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/acs
-    old: 71637a5c5e74994b233befcd78130704ebec908d
-    new: 694b705cdbf7d0555e0b7b9ff71f534232e4af74
-    log: |
-         694b705cdbf7d0555e0b7b9ff71f534232e4af74 PCI: Add ACS quirk for Broadcom BCM5760X NIC
-         
+  - ref: refs/heads/gpio
+    old: 0000000000000000000000000000000000000000
+    new: 7ca698ff686c10837dc86bbcd75b8b0318cc426d
 
---===============3758926077190793742==
+--===============4676601005854204706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1715399252 +0000
+pusher 3DE334E7 1715400456 +0000
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1715399252-f943aed48ebffd4312f26814a1234647c61bd26f
+nonce 1715400455-9557443dff9556830cfcd78de53583292084aa76
 
-71637a5c5e74994b233befcd78130704ebec908d 694b705cdbf7d0555e0b7b9ff71f534232e4af74 refs/heads/acs
+0000000000000000000000000000000000000000 7ca698ff686c10837dc86bbcd75b8b0318cc426d refs/heads/gpio
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY+6lQACgkQfGR2jT3j
-NOfb1Q//QUjm6AEijoDkvzraKA8/iQEUCGWFDs47pSYPDL3qBM+lMo9OLJbLH2/A
-tZUH2EdjU2XpUaQd4lsFG5GpscU1FmEDp9Qe5Y7o5uOUW/SrQNvQDPAJWxwC8cyv
-HErSMl0c+mqyQBZhTShrRg/6ybF0W8EKL0rlt+1b+Ile+0QKjbNfl4YSnFKnFO3f
-6vCzUnCfovhVMRAuFaxBKbT4dLnhuheKxxRyMlX4E+OJfuKaTeMS4ZB68vvOtiXE
-Tz84xT030PGLSDzeCRH1CGMg9Gu98phiIU9Dk0WY8c6iqhCSNyt+0KfUbx6VzYb6
-uKefpdtOwHcqoVjD6OlG6sb7pBvkhBXviU0QBr3BFTSIoqW1dQGzTBMUbEUjeYYi
-3vd6elgF358gn/QV5+yrARH9cStg8BcKjU5A8Hei1VMyWIJ3oY0RzCH0BU/78G9r
-i+ssQ2vOF9DuuWGMUn4Zlvj7vGIw90i1aJqN1Dv4S+jr04NU3bUeckhTLU23lvDQ
-6DxAS2KkCDECWoZCHXf9fsnAIeKhZpd/azyyqgkqsZJKL6IQ5e3zqJpLfDClYWat
-u8e47ocZLe/sOnxpoknWN9H4ujr7dDEXgK9u4dwNiktGClstrejI8MIE9V5buURc
-8Co+BKtz8QG40iJIACGZ3CJgQLhN2o9gJeqg3kdArMfqQd8r5ZI=
-=3xp4
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY+7wgACgkQfGR2jT3j
+NOdnfhAAlTG0kPYXW+Ax6RTm5JUPUnGwJjN+yhPeetV7oErOs8XIczQojQmvyYIT
+qXvtkXHZNZTXNxN6UDrANJ2qtIKmxlLiV92De0YLICOveTxeH/X8zSqXWadoeEi9
+oSJwjbSZVxyTpTOotnMxX7R49+BkoZ2yGIBmDMPZPk5B8M7NBIVG911Pd2ktiwde
+fmOOgRWQAWFFyIOXInCfIBM1TUtjhGxZGZ5vQ6KKqDcY9cDXHuX8w02zJFctlNhm
+fGRegV/umguS/Rm6wLExVwVaCdkh/yeCrcw43pBRIjLAqsKljnZ9k+qqqodSc3cp
+DOwOVvT+4M+QJElyB2zqF1XTjSyoei3bNlKZC+gZShUHe6ilabmdyZRqJbItbAe3
+meDSAxwLvMHDqIFCgp1oLYBSrGLWawEzbX+r5wGbvPO/lY4Y2VkWRQeEgwI+llAW
+reoXLsABB6UrWIbrBrzn1CwU1o49inf4LnhYC0dOOf2PnBeNT+kufxxxGP1YrknW
+MVQZuGitF9S2HPkF2U0KobLX1XC0RXU+SMjUXB7OxGqI6A5hAleVhXMzePPtsvYT
+6qq8/WB+Wt/0j9bqdmo3QCv5maS3AGrSABVqdqPgm2qvp+j31obNKpxo1wpvBUj1
+q5xul/MCkLGZC+N2LJma27IF0/7DQ8fTwULBatV1yn1fqJAWZbA=
+=HWit
 -----END PGP SIGNATURE-----
 
---===============3758926077190793742==--
+--===============4676601005854204706==--
