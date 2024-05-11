@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 11 May 2024 17:50:03 -0000
-Message-Id: <171544980377.16527.3140172911794368430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 11 May 2024 18:32:49 -0000
+Message-Id: <171545236917.13348.10483700085182686856@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/for-6.10/block
-    old: 073341c3031b6d2ae72d5a514c8bb87cd8e92ec5
-    new: e655d93e55b9ef7508b59d2d42a58549a37fd4aa
+  - ref: refs/heads/perf-tools-next
+    old: 09541603462c399c7408d50295db99b4b8042eaa
+    new: d9c5f5f94c2d356fdf3503f7fcaf254512bc032d
     log: |
-         e655d93e55b9ef7508b59d2d42a58549a37fd4aa null_blk: Fix two sparse warnings
-         
-  - ref: refs/heads/for-next
-    old: 0551bc615f186ec64027d134541b8413637db495
-    new: f7f83daa8ca0266860a24202be9ca30a02592489
-    log: |
-         e655d93e55b9ef7508b59d2d42a58549a37fd4aa null_blk: Fix two sparse warnings
-         f7f83daa8ca0266860a24202be9ca30a02592489 Merge branch 'for-6.10/block' into for-next
+         9ef30265a483f0405e4f7b3f15cda251b9a2c7da perf annotate: Fix segfault on sample histogram
+         2af1280b190c408bd590704806dd0d2d1cf52db5 perf annotate-data: Ensure the number of type histograms
+         193a9e30207f54777ff42d0d8be8389edc522277 perf stat: Don't display metric header for non-leader uncore events
+         d9c5f5f94c2d356fdf3503f7fcaf254512bc032d perf pmu: Count sys and cpuid JSON events separately
          
