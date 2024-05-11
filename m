@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0720167993418629008=="
+Content-Type: multipart/mixed; boundary="===============8785984598446303919=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 11 May 2024 19:08:44 -0000
-Message-Id: <171545452419.8719.14667816031781325731@gitolite.kernel.org>
+Date: Sat, 11 May 2024 19:09:02 -0000
+Message-Id: <171545454230.8913.12103449797333997607@gitolite.kernel.org>
 
---===============0720167993418629008==
+--===============8785984598446303919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: aca061774bc412c1415242f0d2579143dd642b46
-    new: 3668651def2c1622904e58b0280ee93121f2b10b
-    log: revlist-aca061774bc4-3668651def2c.txt
+  - ref: refs/heads/for-next
+    old: 9bfaa1936169c07f3f6b161a6a56e3a006ce5e3f
+    new: 9ba1fbe2ed0cb367d609466a51d787acff406847
+    log: revlist-9bfaa1936169-9ba1fbe2ed0c.txt
 
---===============0720167993418629008==
+--===============8785984598446303919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aca061774bc4-3668651def2c.txt
+Content-Disposition: attachment; filename=revlist-9bfaa1936169-9ba1fbe2ed0c.txt
 
 13d0cecb4626fae67c00c84d3c7851f6b62f7df3 scsi: bfa: Ensure the copied buf is NUL terminated
 d0184a375ee797eb657d74861ba0935b6e405c62 scsi: qedf: Ensure the copied buf is NUL terminated
@@ -49,5 +49,6 @@ af20bb73ac2591631d504f3f859f073bcdb7e11e scsi: lpfc: Add support for 32 byte CDB
 3f1d179f8f478ce4ec45c5f7823c144c98e5ca46 scsi: lpfc: Copyright updates for 14.4.0.2 patches
 40ae6a1ee5fd8079e895295c2cf18fd5d15867e1 Merge patch series "Update lpfc to revision 14.4.0.2"
 3668651def2c1622904e58b0280ee93121f2b10b scsi: mpi3mr: Sanitise num_phys
+9ba1fbe2ed0cb367d609466a51d787acff406847 Merge branch 'misc' into for-next
 
---===============0720167993418629008==--
+--===============8785984598446303919==--
