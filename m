@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8393098033837336673=="
+Content-Type: multipart/mixed; boundary="===============6807844861070755004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 11 May 2024 10:03:49 -0000
-Message-Id: <171542182934.757.12058181463404502340@gitolite.kernel.org>
+Date: Sat, 11 May 2024 10:30:23 -0000
+Message-Id: <171542342360.21262.3581131219139073729@gitolite.kernel.org>
 
---===============8393098033837336673==
+--===============6807844861070755004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,40 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/pci-ids
-    old: 0000000000000000000000000000000000000000
-    new: 26141cb1d90830ec94e3714206269fa1c8944008
+  - ref: refs/heads/controller/rockchip
+    old: 46a610678fef9ec319045cfde2b9cfa372d75a6c
+    new: fa562e9441e3eb319ae25bd58bed6e8c903490d5
+    log: |
+         fa562e9441e3eb319ae25bd58bed6e8c903490d5 PCI: rockchip: Use GPIOD_OUT_LOW flag while requesting ep_gpio
+         
 
---===============8393098033837336673==
+--===============6807844861070755004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1715421825 +0000
+pusher 3DE334E7 1715423419 +0000
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1715421825-73e84f262f7c3b12f7849ee3e1968f484312d429
+nonce 1715423419-70dcac62853a3b6c48d3dc6e212aa2ad167c928b
 
-0000000000000000000000000000000000000000 26141cb1d90830ec94e3714206269fa1c8944008 refs/heads/pci-ids
+46a610678fef9ec319045cfde2b9cfa372d75a6c fa562e9441e3eb319ae25bd58bed6e8c903490d5 refs/heads/controller/rockchip
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY/QoEACgkQfGR2jT3j
-NOeexRAAhROmNr/if3MOIgy1ePXv35oJddr8BhlDvVwIAmNAagHbXlCcRvsGmNbP
-DT0fQZ8wPACDNCvasytIZrxAr3bv6NwZdkD5afVZmmy4rYikZb49aXrXPbZ+TK+f
-dyXZVq1J8V2xXOenLnCzFANhcR9DcSFugbv5woO6QjqPGZszA0tiMQnMLi1mVPqF
-8EjPYPLNVqOwlLPo0lRYr6I3eH1TRfdFXJnFJTONxeW8voNIng5+YoHHTVvlfjTb
-1e4Y64KwwIWX3zikrZ3V5YYqLUvhTgtfD6QnvIn6ljKdin4vOTMdnW5hzTNcZzH6
-oLTpt2rWx4BonWWX8YB4k7l1N6pSaBfslSQZiDOlptPP8lQ2Szzt8hDrYz9bFhW0
-N4nbNqnKSaT58PRWT65mBL7tiSagtft27x3R/4dG7ibqsIvmeaDI/TbLj3jLlUiO
-1g/uOKj3qgz9y4cK5O1nYSzyHh94w0KXoukQ0zWecEuXqR8JSJkIik2GFO7PTxeT
-bYUukAPQ1ApE7yPi6N1+m8zuuJZMgQa/JTrjaY1MKB659H9OUz8vvX9Zgpmmomnj
-+7gYRfiFjR9NUgtuPjE2NRacN9NF4mCNPI43owOZhvH8c7Um01mk4mO35nqhkJKO
-V9MOnTkFQadU/PCZ33KQSmIsXX3tMSnZWveJua7WV0c/Nwf9eZE=
-=qNbI
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY/SLsACgkQfGR2jT3j
+NOeT3A/+NYb6M67w/dEkAy4/WVePBNluZdz98BCvpa8mmhIlBy/NuWD34ou5t61p
+AWIexDN5aebb3PNX3wGuNGMx/yFOX062PXQ1FopkTSyL8jA9jowB4B/Dh0Jx5m72
+JtYxOiJnhYormy49nDPS0WC3F+jP9j3aCa/waVGLPuK6xJVK84asWYHl9ZscHO3m
+7MVrL9UZVWIMzL99ln2Mq13JWSLr7kXvI3NSQIv4AISSUpSJmCQHsK8PAI8nDTNY
+cjERof9QpipkPNDCtE+Tbj8eiBvy8JBCIx6iFrnClGqyp1TUOg9bkjcwNL8Ptz8A
+1lOCDPCtORQptDzHhi4wlGXIwy8WUYbbBSPlUbT7YaH2uUhydr67l76kt0u4w3uZ
+t+l0ShESFZ/a4/lnJq+v5K1LntWIjwCf+dlqHTR0kUQRWKl6R7+QgktztE213+Y+
+JZWeDq67EIzMG1/fNU9Fcx2Kf2SFhAopnBVpb5Mc74AxlLn2fI3uChbJjDMWoXKb
+sVhuA3cBUXtrG5bG34Jvbh793EXhZSAyVqPbk2AxYxAm6TsvLhrL1HmdIbpYZLOF
+qRRqZwRB9aIO8dz9m3Aww1pDhC+oo8R+SRUSsF9xco+cY5/2oZOCDEXec/WSkQ6e
+puBp2al3x+icn6r2nr9LIW/l1izh5tWUjPG9UKxbDltnMBbdd2c=
+=mRRu
 -----END PGP SIGNATURE-----
 
---===============8393098033837336673==--
+--===============6807844861070755004==--
