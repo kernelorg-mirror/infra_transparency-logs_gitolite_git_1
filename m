@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7125051082146438697=="
+Content-Type: multipart/mixed; boundary="===============8104521830355282929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 11 May 2024 10:39:59 -0000
-Message-Id: <171542399922.27561.6865844956511602567@gitolite.kernel.org>
+Date: Sat, 11 May 2024 10:47:13 -0000
+Message-Id: <171542443314.1083.5778700389213354600@gitolite.kernel.org>
 
---===============7125051082146438697==
+--===============8104521830355282929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,37 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/dt-bindings
-    old: 301e978b9eb76558e6f4d452d25076fb1c12dae8
-    new: 13ee3f81afab9fe4b59d5061653c31c3285c7a49
-    log: |
-         7e51d17bb6d83d4e6b2c37f3fafa20dded7b10e7 dt-bindings: PCI: rcar-gen4-pci-host: Add R-Car V4H compatible
-         13ee3f81afab9fe4b59d5061653c31c3285c7a49 dt-bindings: PCI: rcar-gen4-pci-ep: Add R-Car V4H compatible
-         
+  - ref: refs/heads/endpoint-robust-reboot
+    old: 0000000000000000000000000000000000000000
+    new: 4cece764965020c22cff7665b18a012006359095
 
---===============7125051082146438697==
+--===============8104521830355282929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1715423995 +0000
+pusher 3DE334E7 1715424432 +0000
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1715423995-974d3e973747d412dd6dfce0ec11696483d126db
+nonce 1715424432-6fb30cd5953f6103cc32286e28c37944ac5139cf
 
-301e978b9eb76558e6f4d452d25076fb1c12dae8 13ee3f81afab9fe4b59d5061653c31c3285c7a49 refs/heads/dt-bindings
+0000000000000000000000000000000000000000 4cece764965020c22cff7665b18a012006359095 refs/heads/endpoint-robust-reboot
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY/SvsACgkQfGR2jT3j
-NOfgsg/7B3hF8mlX+r5+G8jt0OlBq6eD58aqsQUembVc+5ZkRkcFqH/JTXhBg5wr
-nlTlM7E4rXqgv1EzNUD9uv53cSIOOVsp1rHPC/YgiAyJQzA4qK0PX3atZuXawIWe
-mfTdIj5k/GR6pvKuY3WuZxyHEXXP9aUWJFQYVcHBiLyiV1+yxSlVdaykhxZu627s
-RcwMn3wNBUPAXZfI5pzWEMCdT9htbzcAGbrc/cIaPmnx/trU7M1DLBd7lZafyc52
-//45C2h0qOEo9b80D7Pzan79c76Qduoa7pWhqFOnFCvn0fP5eJa06elhkCD2vcQZ
-BaEm78Q9y9I5t0fMHou2/WWAWm9FMV/Visxos0qIIeGGFHwUtC7PEIdtxjq+Q5Pd
-mOa5eP5MdE0SH7ZntYyakGGtvnEVA4/zf7M64QY2tVTM4s261mPTH6GI60pc99V8
-bBGv7N0dJikKcE22fc91F96DJh9OEvnjZbOktmFaOeqn+rsmkCI5A22kVCwyzzCi
-5F48fajNlEL1pnMMxpYYPBXquQ+zy5NnIEPjUj9j2b+TwYxff9tHdpNbmmjVkEwg
-3J7w4rSg8ZUtEYczXgq734IiMMlyyXgQOUwoiPEwQwyiF4sptnVrImnd06hQli6B
-6/h0n0M04BI3WTYKPV4YkVpsdch1Bu1jG2pIHt/rcG+oDsPzEMQ=
-=vXz4
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY/TLAACgkQfGR2jT3j
+NOc33A//V4BbnYRXUYjhdab8C8RTVk+pZeKyPJVCanWwV0VQybmxysHbvuER5PXg
+ynWI6z1NRQpdorG2vqRkLllUU705oCIIsHZ3ecf/d1omDeUxV/OONYCJA6b012BS
+ve4oeL29DYRldyDIXaDsxa7eQwlALzfIxZPrNJCmrN0geI8KiwfE6YV+KVs1+Sbz
+G1RDod+8wgaS68WW1K6iHj2hDDuGB21XDDkpYHGslhGlJ/eYnvLhelz2DmaScKDe
+b6dCwCwOHOQIAhvRewAY2MD3llwwe1Coa96EDRBhDa+6Q7d6sozig1qH10g08ZQl
+jeQL+sJJ7Y7QLgY5V/5ni+STPcRgQUxErvN+BJxL83PHBbRVwDK9Vz31MphP5jPM
+eCDsMmHSCM/N2JlckJFoVwEKjD803A/2cC3ii4AE9tFeSRydUgdCtyAFBW7iH9Uo
+U/kBZV8kko2Jq1O4qztipol8aRZujMExXhSmaTquW4OGWHEns5xF60MFUFDSG3t9
+8iJZ7M5n/437jFdQrQyxLfrMFtR85T28GAQ7Wav8OXuTBBdakXpfcZSXH+2BXXpj
+C1rBIim/K2OBrTHXIBZSCdER5VPX6uWZ6nRaxnZF9IwLOKN4ppKZ8TzyAwQk55Uo
+LpCMKcF86yrxPHvWWiD1gvm4PzGyT8PtuUNMhRufUT5Z0QaJ10s=
+=iCg6
 -----END PGP SIGNATURE-----
 
---===============7125051082146438697==--
+--===============8104521830355282929==--
