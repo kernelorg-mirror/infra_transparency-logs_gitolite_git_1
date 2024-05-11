@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 11 May 2024 15:50:03 -0000
-Message-Id: <171544260396.26474.11013204531879251013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 11 May 2024 16:09:31 -0000
+Message-Id: <171544377107.7364.12992321117653517326@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/for-6.10/block
-    old: a3166c51702bb00b8f8b84022090cbab8f37be1a
-    new: 073341c3031b6d2ae72d5a514c8bb87cd8e92ec5
+  - ref: refs/heads/tmp.perf-tools.next
+    old: 09541603462c399c7408d50295db99b4b8042eaa
+    new: ba7038f4c2fa58b44e123820cd7a31db63de9e72
     log: |
-         073341c3031b6d2ae72d5a514c8bb87cd8e92ec5 ublk_drv: set DMA alignment mask to 3
-         
-  - ref: refs/heads/for-next
-    old: ac364fef43f0b2e6cb6fe0fa09d8f8a94bc2179a
-    new: 0551bc615f186ec64027d134541b8413637db495
-    log: |
-         073341c3031b6d2ae72d5a514c8bb87cd8e92ec5 ublk_drv: set DMA alignment mask to 3
-         0551bc615f186ec64027d134541b8413637db495 Merge branch 'for-6.10/block' into for-next
+         9ef30265a483f0405e4f7b3f15cda251b9a2c7da perf annotate: Fix segfault on sample histogram
+         2af1280b190c408bd590704806dd0d2d1cf52db5 perf annotate-data: Ensure the number of type histograms
+         193a9e30207f54777ff42d0d8be8389edc522277 perf stat: Don't display metric header for non-leader uncore events
+         d9c5f5f94c2d356fdf3503f7fcaf254512bc032d perf pmu: Count sys and cpuid JSON events separately
+         ba7038f4c2fa58b44e123820cd7a31db63de9e72 perf list: Fix the --no-desc option
          
