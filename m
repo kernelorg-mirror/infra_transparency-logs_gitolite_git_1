@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 11 May 2024 16:09:40 -0000
-Message-Id: <171544378087.7505.5941793789186961656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 11 May 2024 16:31:18 -0000
+Message-Id: <171544507823.23094.11961229432472376043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/tmp.perf-tools.next
-    old: 09541603462c399c7408d50295db99b4b8042eaa
-    new: ba7038f4c2fa58b44e123820cd7a31db63de9e72
+  - ref: refs/heads/tpm2_key
+    old: 04cd01e7e922c5f61927972bcba4f438c00a2b83
+    new: fd2368d27e3da19a7dc9c43862b5554dd2415da0
     log: |
-         9ef30265a483f0405e4f7b3f15cda251b9a2c7da perf annotate: Fix segfault on sample histogram
-         2af1280b190c408bd590704806dd0d2d1cf52db5 perf annotate-data: Ensure the number of type histograms
-         193a9e30207f54777ff42d0d8be8389edc522277 perf stat: Don't display metric header for non-leader uncore events
-         d9c5f5f94c2d356fdf3503f7fcaf254512bc032d perf pmu: Count sys and cpuid JSON events separately
-         ba7038f4c2fa58b44e123820cd7a31db63de9e72 perf list: Fix the --no-desc option
+         fd2368d27e3da19a7dc9c43862b5554dd2415da0 crypto: TPM2 ASN.1 key type
          
