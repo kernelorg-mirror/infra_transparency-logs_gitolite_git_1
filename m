@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3081038823850635227=="
+Content-Type: multipart/mixed; boundary="===============8685781549236051764=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 11 May 2024 06:39:29 -0000
-Message-Id: <171540956941.2258.17183239398212799565@gitolite.kernel.org>
+Date: Sat, 11 May 2024 06:44:42 -0000
+Message-Id: <171540988240.5724.5285051857858010232@gitolite.kernel.org>
 
---===============3081038823850635227==
+--===============8685781549236051764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,41 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/controller/microchip
-    old: 0000000000000000000000000000000000000000
-    new: 05668f015bfc54af7844f81ca6b768239f959f88
+  - ref: refs/heads/controller/rockchip
+    old: 8ab425aa02acf0c50544501669a9dbb0f02ab3b4
+    new: 46a610678fef9ec319045cfde2b9cfa372d75a6c
+    log: |
+         3392b74f3065dab0c38607865f3cec7d92206769 PCI: rockchip-host: Fix rockchip_pcie_host_init_port() PERST# handling
+         46a610678fef9ec319045cfde2b9cfa372d75a6c PCI: rockchip-host: Wait 100ms after reset before starting configuration
+         
 
---===============3081038823850635227==
+--===============8685781549236051764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1715409564 +0000
+pusher 3DE334E7 1715409878 +0000
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1715409564-733119638f3c4379bce180f7083600bc67cf581f
+nonce 1715409878-27ba1589b02be98d6cc71c117167c8c8741fa876
 
-0000000000000000000000000000000000000000 05668f015bfc54af7844f81ca6b768239f959f88 refs/heads/controller/microchip
+8ab425aa02acf0c50544501669a9dbb0f02ab3b4 46a610678fef9ec319045cfde2b9cfa372d75a6c refs/heads/controller/rockchip
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY/EpwACgkQfGR2jT3j
-NOcezw//cLc0HoYYhH1MRahlryDveGL0lcp3N5ekLVrA92G1hKJ52uHGh4aoL41O
-L1miFtfKL213mnb2YER5AJAFRTvkzTOIMcdL61uxk7L4HpJJp5fiF7qhlZG7RsJK
-hIHEt2mvQPVhKFUMvLZsWUeKPhPirp8ntoL4wiq7sqRAfdXiZ+CjlcyOPt+Ibp2j
-uzkSMysjodXrwWFvn8eKNvYaZ8f5B0T0j+QtgocPpqUWkzD5YlJfek/qfRaqsjjk
-DRNZx9U7Xh0y44IuHZ670elK8oNUQFrlsXOynnqZwTVNIBGGUZCW9KMJLncc0Jp9
-br67yZ4UPKy+TaFYKy6vV4GNDftepSkLG0onv/xJfzMEaCW6RVraOa8I5XcZ7F4/
-nQkTcwZDMFqdp/f1tXcaH2PgAoT6rTa19ERaZiZl9eZkzODWoJwgWHEe4q3YqG5f
-IZncxZ9oMqauiaAUqy8rNChuu7lRMq6Syqnk18crRZzhpPjnpA/mo0oEGIt46YF0
-8+JYvjLf64UvCPrqqPW7iYPhvnoN/UzqKRto5lLoKFyythkXZDMn70UvSx+KPOJh
-gja7bll+wLkaOid23p6bta3JKpSaEPQRphjWoQoe6EV4lLCWtctadc9RC3aMsa7L
-ycv/msYIYl9DRKvhpJS+061Vy+9fi8q1SxR9nsIn60snPAkZ98w=
-=zN2m
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY/E9YACgkQfGR2jT3j
+NOfsKg//fCVLsFrzKK31bTU15S1z5wG/k/kyHQ4PSluGBR7AYt+FOjuBQj2wfj9d
+rxU+nUdpetddbJ3oj4hy9In3BkjP3tRyqM/qJXEavEJOjOiKqmMWZHwVLN/XXHFI
+DexneywYJ1IGPrvrX9lAUvqSTXOu2jxmjtn2cEyTa++f3XbGIFTjQ5/QWeKdWe6/
+vR4DllZFcMiNzEpkAItaYExqRFP9D9Ht0zG+nevvByjFg2IzOGPbJ5HcPeFxNBLu
+w2As4dGYFTjwk+8LNdM7n/8tjShyMD7UaNpFoAzPaZxdSddTonNtkahqXlHAPG/X
+jCWa8tnFu9bXlL5JWr/l9pPeQizySl47CnrT2f0i067XQsSj2B3ts7Jv66mn2JEo
+i/e8ogPhBAaOUqvg0s9bYy0nXJ2eDC0ndO4Z2y8FCDVIG3FNxDJMvtboqqGm+cDj
+sMD/BS0nTvJ4sFO7O92FVsgohB6xp4Rp3O+tISVuF3VsuMTMALT+SRmrY9jFHtDu
+vtyTjPXeGEs77b9lpvdgKo8LqKm+pepj5Z4tyWeyOQ5zwY265zmMvpwG3qz99E09
+Qe4gylrEwilY7hcYOUEIBBIrTACIEEmfciIZAZf0Crct/fXtAId76S053C49foxA
+Wsvi/99CfgEDjJR32vVJRa+ixkrrtN2x71cwZ63dCDZIxi15mbI=
+=fzNa
 -----END PGP SIGNATURE-----
 
---===============3081038823850635227==--
+--===============8685781549236051764==--
