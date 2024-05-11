@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2771951568321265869=="
+Content-Type: multipart/mixed; boundary="===============6802165799492515362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 11 May 2024 10:58:52 -0000
-Message-Id: <171542513211.8548.2055781311581673537@gitolite.kernel.org>
+Date: Sat, 11 May 2024 11:01:23 -0000
+Message-Id: <171542528335.11229.17767428528463973737@gitolite.kernel.org>
 
---===============2771951568321265869==
+--===============6802165799492515362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/controller/rockchip
-    old: fa562e9441e3eb319ae25bd58bed6e8c903490d5
-    new: b00c483a10754f510ea726fd2ccc26a7e9462c32
+  - ref: refs/heads/pci-ids
+    old: 26141cb1d90830ec94e3714206269fa1c8944008
+    new: 8fb0c41da35f78a390ff77bd467c511c63124e24
     log: |
-         b00c483a10754f510ea726fd2ccc26a7e9462c32 PCI: dw-rockchip: Fix initial PERST# GPIO value
+         8fb0c41da35f78a390ff77bd467c511c63124e24 x86/amd_nb: Add new PCI IDs to the MISC IDs list for Family 1Ah
          
 
---===============2771951568321265869==
+--===============6802165799492515362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1715425128 +0000
+pusher 3DE334E7 1715425279 +0000
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1715425128-949c12fa92470bfc11cd5051a3e47df8d5142d82
+nonce 1715425279-d0a7e2cd14c83227b0de4c0a4ebebc2ddc8a163f
 
-fa562e9441e3eb319ae25bd58bed6e8c903490d5 b00c483a10754f510ea726fd2ccc26a7e9462c32 refs/heads/controller/rockchip
+26141cb1d90830ec94e3714206269fa1c8944008 8fb0c41da35f78a390ff77bd467c511c63124e24 refs/heads/pci-ids
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY/T2gACgkQfGR2jT3j
-NOcJYQ/+PPd/qXHa35glWxC0e99TVwKgd4AyUSgUG+DKjRnwDlzfor7o1wxEVNus
-yWq3+t/vt/A5wFBGId/2QJZUGX/EAUyLhXenh3gxanOd9sAx0PA58DYYD9o/OkXv
-czW0uTCGiRmZ3i4IPv9E/d06aF1Wr1P5aEShJqe6VfVodcsNpqQ5/JbpGZZs5ApZ
-pHN84Evp68VKjjQo87gMws1IY7kk/2Txm1DhppVp+JYQ4qxImEmcKA7iunSM2Wt1
-8VnPIC7drsf9cT7ou1IT6JzioyuMB4Dpw7LH1nqJ36dHnu/hNSziavt5NpN1cX2W
-tLlIczs3Ph2HohKSBAkX76aZzGYqGSt7jCXKVutg+rqx2vtWHGhANLbRPDiq1tq3
-iYuuhmQxDqhBKTwP5FNuzKbeZa8Pi9oAjQ+WywvRJtRDRnRgLHwVlkdV2hy4V7/R
-vk3l5He0rOysKUjBRSktXREoagwaAgClTa6FscneWld5yFN/psUGO9r3VvYu7pch
-nCA8DH0hNMonCS8o/v/JHj+4MoOV+qrIxC4m+MYUqWMOrgx7bWted9vobPUM543H
-/PerkMPdY5VlIG9aC1nzrqtC7grsh+guQVqjN0kUX5nK8FAqvhxlfWfU+7kwInXn
-CeG9NfXrvAVnyXNBX7CsC5Q6aRhIyNZFFGevQd4jlP/IqhfTa94=
-=jBsA
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY/T/8ACgkQfGR2jT3j
+NOedGg/9G6ifl3HIvRs8E00U/4I8CD6Umdahwz4VR5+K9/dtoI38SXQ8tPayy54S
+0oq0HmYcave7TIeqTS0qeCBKh99+L/MdAZi7BbRn4K+yHYnKIo1ixtg7j6qvkbgT
+z8QhyTmbRygfVCe/dFb9e9NiPCsUS4tLrddvz+gHeCyNRdYZ5s0P21qb+Kc0HNIE
+rN7T+3pf+r0JXIVaiEKsd3sIDna8KcVIupC0KclBVAOa9LqsGpbQqPmAkU0/O+sF
+lwOV6vfsECrDfYxWrZGsl1ksE4nU8UKy92PUJ5v/yRXGxmbDFpUEJaAfd8Jh2BRM
+hDiBUmfL1ZDqjoBkwnZUDMFJefwJHPBhGnEE2jbIc8t+7QfyZnxy/2GJOXPhOqsi
+v/N4Km1qmzSxzVsv7Rw5dJVQ8Tbnc0ypoLg9xP+tgbwOVPlnEk6ypItuBrTRlPiT
+eZjgyvWnlTMA93GL2q0rKKE3sz/G4qk0BypEs0PyOLQ060qaRCI+Ukf7JMm2/t4E
+JfGwvCgSkb7jlffAmfdcacnUP7BmPBmU8bPDPJ2pcUSM+4k7ilIRxCMip0sqvieO
+CFruQxGYrX+9aNnumfEqfU9uRUOXr9XbHLbfdg3zQK3eNWrcfzYzQjRnf3qZdHVK
+4UvorKoRSvJQTfuialF3RJyIrd6YG/m3mqUCsUC1SAz1DkLomfc=
+=4+6D
 -----END PGP SIGNATURE-----
 
---===============2771951568321265869==--
+--===============6802165799492515362==--
