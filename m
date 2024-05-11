@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1707405873357801340=="
+Content-Type: multipart/mixed; boundary="===============5430158064185116692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 11 May 2024 04:20:51 -0000
-Message-Id: <171540125190.31734.18166457408771246081@gitolite.kernel.org>
+Date: Sat, 11 May 2024 04:24:24 -0000
+Message-Id: <171540146463.551.5692406120697281872@gitolite.kernel.org>
 
---===============1707405873357801340==
+--===============5430158064185116692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,40 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/controller/keystone
-    old: 0000000000000000000000000000000000000000
-    new: 9e6ffee1f846685c1e6380561807a423064cb941
+  - ref: refs/heads/endpoint
+    old: 597ac0fa37b86833203c6c73ecbaa72ccc3781bd
+    new: ddc66cc4e6951f5e8bedcb0d4519fa63799dd872
+    log: |
+         ddc66cc4e6951f5e8bedcb0d4519fa63799dd872 PCI: endpoint: Remove unused field in struct pci_epf_group
+         
 
---===============1707405873357801340==
+--===============5430158064185116692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1715401247 +0000
+pusher 3DE334E7 1715401460 +0000
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1715401247-de9764069cce449c567023da31eb91720ae3296c
+nonce 1715401460-2db8719d152478dad57915c141fa27174ea4a183
 
-0000000000000000000000000000000000000000 9e6ffee1f846685c1e6380561807a423064cb941 refs/heads/controller/keystone
+597ac0fa37b86833203c6c73ecbaa72ccc3781bd ddc66cc4e6951f5e8bedcb0d4519fa63799dd872 refs/heads/endpoint
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY+8h8ACgkQfGR2jT3j
-NOdX7w//a9quYLFZBvAwHXkN/NsxUR3hHYkkmMYVXVVJJ2NcQxCY4Gd5n7+WrJsU
-XYou4rttW5tM1nruly4ah4dS81x4VsWosR7WTyErAkLFws9MGhEwqKXtOKSMBF1O
-/tN665ZA8sQhCVfIhuCbot0rMgXhgEH429iL44MbEt9KAl9eCYhFkUNGjRMnmUjH
-ajN+WownY0VwsZPXH4s+N3HAZd5rXhVZAzteZBy1xKbMCWHEuO5coWdOl7avhYUU
-zsc3kotHrsao/5Qqhjw/omqRHQnzyns31W+t3HgqGzsFWT8e/cqtL0/FsoebXYLR
-PGp3654iUQfmRkHqHrAvGu4ZJ5GI9KHgcKYpVx6a12MvP7Jiju5SwW2BxwcDJdxR
-50VXxd2BNGhKdALiSYW4OcMzWvzcgQlkJzic1mm0rjhJUfvokzKjD403kJsgICzu
-S/iGdUOW9NAqU1t30vWASr9A364VAqqTREmyhKbIE7h4w+sdClsZrMcN7VgBiAoW
-yuvAQDQmmiRVCQbCU/CYaRm7Gd1sgxizC0S++n7DBskoPN4YeRQt6Cst3RV6uaWf
-QUek1+OgrWCzABJXtN2AiKDP15fRLsy8dEHHnDaigEJc3IvUt5l6gJ5HtTRVuHvr
-wT/ekgPSTET3RgrjYOcPq7xw7+Vpks+D8poIGvHovpJAucfOWxY=
-=hgni
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY+8vQACgkQfGR2jT3j
+NOe4QxAAhwcs1rrA7S6jA9WM24gjYBY6h8NyEOlaI5eql6beCAw7InibgwI0xcsg
+OKWOG78mvCZSibGzqJ/hUxqX1S57iqncqe1UJwEPN7o5tzkhhvUwsT8NViTf4Aro
+U3dIOaYoYL5qz3/oZQA2E9utCWroOS2jCUJDJ5ZkA2cMuOhFammsLHKnG2fUOCXm
+9PpqaZ4xp48QIZCOyc7J1mpD1l9RhEgN9qK+j6C+o9xhiXQM+dpOkOxyPc5jdZtL
+Us26pZr0yHA+FtzUZQkc7qGVwWJOSxU0S++MENp6Zjwlymu+zMyxMGJTwXRIJYor
+EV4i4EsW0FZ/K4j89RyVYP10iZevnL8GWPNBcVBR1wmLu7bG4cVo77gmlfxmwPYr
+9hS6lMimhsf3Ozhb6rn7pmXJoUb464VR8cCFp0cbaj7dRGz3cHQ6G37JdR+uvwg7
+IqEyXadX3QkPODzbXbPAk9wyHXwXiCRxgktM+c2QTHKJb8Vk2x1NsIAzHTzjQ2YY
+XKBWkd8upe7JJy54pTawAlTIZxGV4yKJgPWph4MQUGOpSOLZkHtytCJ3bYjYEGKg
+T2taoDzECz0Q7sEh/6Tjd4mbc2O8OjFcMpcHnf1E9Bykjmp+nyNylkpXIJHRdXq5
+ralCZZ8n3CEd4BwcAALZRO77Gbop8BvO2MNWjUqLrDmO41yd1Oo=
+=z96h
 -----END PGP SIGNATURE-----
 
---===============1707405873357801340==--
+--===============5430158064185116692==--
