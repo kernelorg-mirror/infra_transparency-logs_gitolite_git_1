@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0941029472321591706=="
+Content-Type: multipart/mixed; boundary="===============1651659309630656191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 11 May 2024 07:07:58 -0000
-Message-Id: <171541127837.23750.13788563042940852459@gitolite.kernel.org>
+Date: Sat, 11 May 2024 07:26:01 -0000
+Message-Id: <171541236194.4186.6844415477359615808@gitolite.kernel.org>
 
---===============0941029472321591706==
+--===============1651659309630656191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,37 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/controller/dwc
-    old: 49993453e079cee9ca253fbf197507cac1e7eb9a
-    new: 33af7f463b68d692c3280f4e3186bce47be7d3cb
-    log: |
-         182e6ef0df7777a4a616e4c2e9bd0f81934d196b PCI: Add INTx Mechanism Messages macros
-         523d5018701d0be2c930ad2359c6774d63f4e3cf PCI: dwc: Consolidate args of dw_pcie_prog_outbound_atu() into a structure
-         a683a0065ac1bbbb03d94d986703124db0b433b1 PCI: dwc: Add outbound MSG TLPs support
-         a61a1c5932b02901a3e165a9c14ec21687b3fb03 PCI: Add PCIE_MSG_CODE_PME_TURN_OFF message macro
-         33af7f463b68d692c3280f4e3186bce47be7d3cb PCI: dwc: Add generic MSG TLP support for sending PME_Turn_Off when system suspend
-         
+  - ref: refs/heads/qcom
+    old: 0000000000000000000000000000000000000000
+    new: 6720cef2df2274b4177a6750587d7aba6e330546
 
---===============0941029472321591706==
+--===============1651659309630656191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1715411274 +0000
+pusher 3DE334E7 1715412358 +0000
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1715411274-3d38d99a6982ea01a0719cc4831430bc8701438f
+nonce 1715412357-018409244f5d457624e054a67911e587781d6840
 
-49993453e079cee9ca253fbf197507cac1e7eb9a 33af7f463b68d692c3280f4e3186bce47be7d3cb refs/heads/controller/dwc
+0000000000000000000000000000000000000000 6720cef2df2274b4177a6750587d7aba6e330546 refs/heads/qcom
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY/GUoACgkQfGR2jT3j
-NOdHhRAAmiUoItsuKnXtBhNyz4Iii3x5JL0lJU1gJH/mriLVoEtf9b0ZHfeSl7VJ
-maGt+MbHpWiqhAiTdPr2UQqZUitULB6w2Mt6Sf3Hnd70EYKX88cUqJQUZjZUef1R
-Ve0eznZD+L13LgHIJDFLpWuilovShgNYoTR4ZLHXTyFEsHaTz0rjVD59cUR1YFfm
-v+EMC0v+sgsjunMXoLENPD7o2Z+pT5wev9XOS9qYDQi9K9TcEohVnRChfRU+/Mbi
-T2RkPx2bUxoHCNRyxrgRscNAZluBoq9bEZe+pNhsZ+n68InbvLZ04lxQVQa1IIIU
-7slZACgle524J1qhZ2DHn66h7d3CFrwvoWfGnP5T2F8i8WDSofYtUXh0TOZGWGKk
-y/GIeETYaVwY0rIZ82kH8OfHIM3A6lNRhnBRMiOmigKQh3IcG/Udzta76JG6O4Ef
-6MQSD80SPc7RhxQ9kY3QDIAg2k7YwtYimYSSBAncC273ek7VL1GFwrET0rclQDkD
-gOIbLG/bo1Lx3aiyIGm6I0YO3IG1qnPwz/xD8uJno8u0CsfFR0yJdFIT+yikP6m5
-MeGealzK1Mvog9t5He8GLTFFx9jkR9voC9RJ1X3brZIB/u0tRK/fPA1FAbu7vVf2
-qkWLO8urPu6wbawY+Hu9DPO0Wj9mD5XR+nuYQL0TU9Gi6SOGM3U=
-=eIGn
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY/HYYACgkQfGR2jT3j
+NOdMEg/8CeQZvL/H+Bn+TnpD6c7eyDEQ1VQhaNkXlLP3iagV5JQP+LQiwnavxZIw
+vZX26Km78owwtCsl+wTik0rzTn2RbIbTechJFrWTreSrnnR1Buc+DXCRCILIbKNQ
+0kH0aeGn9/Tz1YQB3KoKA8Gkx3c7CSq6Ep7rh5Gnrm2hgd3NMu3PmUHJKM7mlfBz
+2Q3yWrG8KK/DHCAU/2nLPnm1VmRvafRJu75TgGyXacjzja/Rm2x60DknqwWOlh3C
+s7EgVkQBdRGIDHJN4ojZb0fvD+V7I2gkd/t/ljVzu8ExKPmvWfgRsLdu+jdZ8PlO
+dnZvjOy4DeZVws+WJ0vztcUyjfliSAVC97l/Zy+FYDANqzK8aRP020IWmpk3nwPs
+y/wIvP+aUq8yUj+UBTADvfaPnN+lpVabJ6vAZO6gskbmtG/y1UrYPxqnIOwtFXte
+NdmfilQ1oZflWygE++JARtu/Oc+2PADUmrV+g9i7PsxDs4i2H44AAc4S1oa4uYt4
+9PF+t1h7wRvG5f+RE8/9CFBTgrmKqsXj67ZqCL1a1AE2O+DGM5i5HF7l+OG3zIFs
+Jn8Nf36cuLRzvIQ/07wPPQHw4zJuPRwtcC7qmJTdmskfXaAlA2Yhroahmiwf+ysv
+iUYqufUtuSddeY2PnquDw5z/V+KD2YIKlR6PTLuoYkKiSeGQNjo=
+=Dpx0
 -----END PGP SIGNATURE-----
 
---===============0941029472321591706==--
+--===============1651659309630656191==--
