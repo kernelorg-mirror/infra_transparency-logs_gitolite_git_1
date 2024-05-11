@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6807844861070755004=="
+Content-Type: multipart/mixed; boundary="===============7125051082146438697=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 11 May 2024 10:30:23 -0000
-Message-Id: <171542342360.21262.3581131219139073729@gitolite.kernel.org>
+Date: Sat, 11 May 2024 10:39:59 -0000
+Message-Id: <171542399922.27561.6865844956511602567@gitolite.kernel.org>
 
---===============6807844861070755004==
+--===============7125051082146438697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,41 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/controller/rockchip
-    old: 46a610678fef9ec319045cfde2b9cfa372d75a6c
-    new: fa562e9441e3eb319ae25bd58bed6e8c903490d5
+  - ref: refs/heads/dt-bindings
+    old: 301e978b9eb76558e6f4d452d25076fb1c12dae8
+    new: 13ee3f81afab9fe4b59d5061653c31c3285c7a49
     log: |
-         fa562e9441e3eb319ae25bd58bed6e8c903490d5 PCI: rockchip: Use GPIOD_OUT_LOW flag while requesting ep_gpio
+         7e51d17bb6d83d4e6b2c37f3fafa20dded7b10e7 dt-bindings: PCI: rcar-gen4-pci-host: Add R-Car V4H compatible
+         13ee3f81afab9fe4b59d5061653c31c3285c7a49 dt-bindings: PCI: rcar-gen4-pci-ep: Add R-Car V4H compatible
          
 
---===============6807844861070755004==
+--===============7125051082146438697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1715423419 +0000
+pusher 3DE334E7 1715423995 +0000
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1715423419-70dcac62853a3b6c48d3dc6e212aa2ad167c928b
+nonce 1715423995-974d3e973747d412dd6dfce0ec11696483d126db
 
-46a610678fef9ec319045cfde2b9cfa372d75a6c fa562e9441e3eb319ae25bd58bed6e8c903490d5 refs/heads/controller/rockchip
+301e978b9eb76558e6f4d452d25076fb1c12dae8 13ee3f81afab9fe4b59d5061653c31c3285c7a49 refs/heads/dt-bindings
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY/SLsACgkQfGR2jT3j
-NOeT3A/+NYb6M67w/dEkAy4/WVePBNluZdz98BCvpa8mmhIlBy/NuWD34ou5t61p
-AWIexDN5aebb3PNX3wGuNGMx/yFOX062PXQ1FopkTSyL8jA9jowB4B/Dh0Jx5m72
-JtYxOiJnhYormy49nDPS0WC3F+jP9j3aCa/waVGLPuK6xJVK84asWYHl9ZscHO3m
-7MVrL9UZVWIMzL99ln2Mq13JWSLr7kXvI3NSQIv4AISSUpSJmCQHsK8PAI8nDTNY
-cjERof9QpipkPNDCtE+Tbj8eiBvy8JBCIx6iFrnClGqyp1TUOg9bkjcwNL8Ptz8A
-1lOCDPCtORQptDzHhi4wlGXIwy8WUYbbBSPlUbT7YaH2uUhydr67l76kt0u4w3uZ
-t+l0ShESFZ/a4/lnJq+v5K1LntWIjwCf+dlqHTR0kUQRWKl6R7+QgktztE213+Y+
-JZWeDq67EIzMG1/fNU9Fcx2Kf2SFhAopnBVpb5Mc74AxlLn2fI3uChbJjDMWoXKb
-sVhuA3cBUXtrG5bG34Jvbh793EXhZSAyVqPbk2AxYxAm6TsvLhrL1HmdIbpYZLOF
-qRRqZwRB9aIO8dz9m3Aww1pDhC+oo8R+SRUSsF9xco+cY5/2oZOCDEXec/WSkQ6e
-puBp2al3x+icn6r2nr9LIW/l1izh5tWUjPG9UKxbDltnMBbdd2c=
-=mRRu
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmY/SvsACgkQfGR2jT3j
+NOfgsg/7B3hF8mlX+r5+G8jt0OlBq6eD58aqsQUembVc+5ZkRkcFqH/JTXhBg5wr
+nlTlM7E4rXqgv1EzNUD9uv53cSIOOVsp1rHPC/YgiAyJQzA4qK0PX3atZuXawIWe
+mfTdIj5k/GR6pvKuY3WuZxyHEXXP9aUWJFQYVcHBiLyiV1+yxSlVdaykhxZu627s
+RcwMn3wNBUPAXZfI5pzWEMCdT9htbzcAGbrc/cIaPmnx/trU7M1DLBd7lZafyc52
+//45C2h0qOEo9b80D7Pzan79c76Qduoa7pWhqFOnFCvn0fP5eJa06elhkCD2vcQZ
+BaEm78Q9y9I5t0fMHou2/WWAWm9FMV/Visxos0qIIeGGFHwUtC7PEIdtxjq+Q5Pd
+mOa5eP5MdE0SH7ZntYyakGGtvnEVA4/zf7M64QY2tVTM4s261mPTH6GI60pc99V8
+bBGv7N0dJikKcE22fc91F96DJh9OEvnjZbOktmFaOeqn+rsmkCI5A22kVCwyzzCi
+5F48fajNlEL1pnMMxpYYPBXquQ+zy5NnIEPjUj9j2b+TwYxff9tHdpNbmmjVkEwg
+3J7w4rSg8ZUtEYczXgq734IiMMlyyXgQOUwoiPEwQwyiF4sptnVrImnd06hQli6B
+6/h0n0M04BI3WTYKPV4YkVpsdch1Bu1jG2pIHt/rcG+oDsPzEMQ=
+=vXz4
 -----END PGP SIGNATURE-----
 
---===============6807844861070755004==--
+--===============7125051082146438697==--
