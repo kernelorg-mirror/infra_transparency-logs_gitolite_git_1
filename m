@@ -1,19 +1,49 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 12 May 2024 11:53:08 -0000
-Message-Id: <171551478888.32528.9892600521225558797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Sun, 12 May 2024 12:15:57 -0000
+Message-Id: <171551615774.17561.4949198414420205726@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 8bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/testing
-    old: 8de0e1f7d8cc1496222dd544dd34055e0cf91b74
-    new: adad290b1a72767d9a2483000f3802967970bcab
+  - ref: refs/heads/linux-next
+    old: 0a0b17725dd921ed0364cd217a100ed0ed85c8c1
+    new: 0b8dbbdcf2e42273fbac9b752919e2e5b2abac21
     log: |
-         adad290b1a72767d9a2483000f3802967970bcab dt-bindings: iio: adc: adi,axi-adc: tweak example node name
+         a115b5716fc9a64652aa9cb332070087178ffafa vduse: validate block features only with block devices
+         56e71885b0349241c07631a7b979b61e81afab6a vduse: Temporarily fail if control queue feature requested
+         894452180d732413fd29fa95a4820560fa44ca4a vduse: enable Virtio-net device type
+         eb0913c6f6938a6efc0ad6997bd26d65ea70fdad virtio: delete vq in vp_find_vqs_msix() when request_irq() fails
+         a4e2d9bbcdb268e7cbbab5c509c1b82391269457 MAINTAINERS: add Eugenio Pérez as reviewer
+         5563d1dbbb9c32de66769f276d461baa13ffed52 Merge tag 'stable/vduse-virtio-net' into vhost
+         0b8dbbdcf2e42273fbac9b752919e2e5b2abac21 Merge tag 'for_linus' into vhost
+         
+  - ref: refs/heads/test
+    old: 0a0b17725dd921ed0364cd217a100ed0ed85c8c1
+    new: 0b8dbbdcf2e42273fbac9b752919e2e5b2abac21
+    log: |
+         a115b5716fc9a64652aa9cb332070087178ffafa vduse: validate block features only with block devices
+         56e71885b0349241c07631a7b979b61e81afab6a vduse: Temporarily fail if control queue feature requested
+         894452180d732413fd29fa95a4820560fa44ca4a vduse: enable Virtio-net device type
+         eb0913c6f6938a6efc0ad6997bd26d65ea70fdad virtio: delete vq in vp_find_vqs_msix() when request_irq() fails
+         a4e2d9bbcdb268e7cbbab5c509c1b82391269457 MAINTAINERS: add Eugenio Pérez as reviewer
+         5563d1dbbb9c32de66769f276d461baa13ffed52 Merge tag 'stable/vduse-virtio-net' into vhost
+         0b8dbbdcf2e42273fbac9b752919e2e5b2abac21 Merge tag 'for_linus' into vhost
+         
+  - ref: refs/heads/vhost
+    old: 0a0b17725dd921ed0364cd217a100ed0ed85c8c1
+    new: 0b8dbbdcf2e42273fbac9b752919e2e5b2abac21
+    log: |
+         a115b5716fc9a64652aa9cb332070087178ffafa vduse: validate block features only with block devices
+         56e71885b0349241c07631a7b979b61e81afab6a vduse: Temporarily fail if control queue feature requested
+         894452180d732413fd29fa95a4820560fa44ca4a vduse: enable Virtio-net device type
+         eb0913c6f6938a6efc0ad6997bd26d65ea70fdad virtio: delete vq in vp_find_vqs_msix() when request_irq() fails
+         a4e2d9bbcdb268e7cbbab5c509c1b82391269457 MAINTAINERS: add Eugenio Pérez as reviewer
+         5563d1dbbb9c32de66769f276d461baa13ffed52 Merge tag 'stable/vduse-virtio-net' into vhost
+         0b8dbbdcf2e42273fbac9b752919e2e5b2abac21 Merge tag 'for_linus' into vhost
          
