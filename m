@@ -1,19 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 12 May 2024 16:20:52 -0000
-Message-Id: <171553085206.32626.18063835793178651043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 12 May 2024 16:23:37 -0000
+Message-Id: <171553101731.1285.6250992698568165835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
   - ref: refs/heads/master
-    old: 5179ab480fc9d06b8ee3aa4f28040cd62dad346f
-    new: 4d62faacd28a040758be260b410921d5044a9e92
+    old: 5f801564a15bfc5bfdf68f284d8be870d6b3291a
+    new: a687efaea7991f7557494b3695bc0998f4233512
     log: |
-         4d62faacd28a040758be260b410921d5044a9e92 Sun May 12 12:20:15 PM EDT 2024
+         a3fa3c1911e247908f907bf81508eb4e903806d6 Revert "Update the version"
+         6f1892bb30321ce473e0f08f7301385b80c304de Revert "Move source files under 'src/' directory"
+         a687efaea7991f7557494b3695bc0998f4233512 Update the version
          
+  - ref: refs/heads/next
+    old: a3fa3c1911e247908f907bf81508eb4e903806d6
+    new: a687efaea7991f7557494b3695bc0998f4233512
+    log: |
+         6f1892bb30321ce473e0f08f7301385b80c304de Revert "Move source files under 'src/' directory"
+         a687efaea7991f7557494b3695bc0998f4233512 Update the version
+         
+  - ref: refs/tags/v2.3.4
+    old: 0000000000000000000000000000000000000000
+    new: ee7204d70b7d967040fd28a6ceefc467550fc489
