@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 12 May 2024 16:19:33 -0000
-Message-Id: <171553077365.30430.8102042322221352451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 12 May 2024 16:20:52 -0000
+Message-Id: <171553085206.32626.18063835793178651043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/hwmon-next
-    old: c82337843dd7c0723e7ce2b86e5ed89d71f1c7c3
-    new: 2a9ea2cc03ff520ecf19d098b80b031e68200c20
+  - ref: refs/heads/master
+    old: 5179ab480fc9d06b8ee3aa4f28040cd62dad346f
+    new: 4d62faacd28a040758be260b410921d5044a9e92
     log: |
-         2a9ea2cc03ff520ecf19d098b80b031e68200c20 hwmon: (nzxt-kraken3) Bail out for unsupported device variants
+         4d62faacd28a040758be260b410921d5044a9e92 Sun May 12 12:20:15 PM EDT 2024
          
