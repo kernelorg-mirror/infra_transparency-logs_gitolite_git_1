@@ -1,91 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Sun, 12 May 2024 16:01:13 -0000
-Message-Id: <171552967374.17375.13387294491377252080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 12 May 2024 16:03:47 -0000
+Message-Id: <171552982761.18339.16968527567917885492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: pablo
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/tags/nf-next-2023-03-30
-    old: 0000000000000000000000000000000000000000
-    new: 96c6ddfa2f6acc91712fb9e20b627aac5d847a6a
-  - ref: refs/tags/nf-next-2023-05-18
-    old: 0000000000000000000000000000000000000000
-    new: b2aab5fc10bcef6504dc37376be158e5f10c45ca
-  - ref: refs/tags/nf-next-2023-08-08
-    old: 0000000000000000000000000000000000000000
-    new: db0fb54e0a65fac6a2ea0bfd8e3b2563c24540bc
-  - ref: refs/tags/nf-next-23-07-27
-    old: 0000000000000000000000000000000000000000
-    new: e34e4c2135fd76e1b4679cd96411abce24f27f8a
-  - ref: refs/tags/nf-next-23-08-22
-    old: 0000000000000000000000000000000000000000
-    new: 29ec8cdaae043427e90a60b8db0726e2331ba346
-  - ref: refs/tags/nf-next-23-09-28
-    old: 0000000000000000000000000000000000000000
-    new: ee1c8088130e24954f51dfa4f2e8bf93519a560f
-  - ref: refs/tags/nf-next-24-01-29
-    old: 0000000000000000000000000000000000000000
-    new: 2a1fd7df53fd8dccfa5a5fbd3fe06b89d686951b
-  - ref: refs/tags/nf-next-24-05-12
-    old: 0000000000000000000000000000000000000000
-    new: cfea8b672d02a7c84d73fbb7574907fabd071032
-  - ref: refs/tags/v6.7
-    old: 0000000000000000000000000000000000000000
-    new: 06f0875049ac2d11eb48273d04d0a6800c52abf5
-  - ref: refs/tags/v6.7-rc7
-    old: 0000000000000000000000000000000000000000
-    new: adab409b5eb1c5905c260f74c75725db3da46e38
-  - ref: refs/tags/v6.7-rc8
-    old: 0000000000000000000000000000000000000000
-    new: ff16c06a1757247b456096cbffeedf4ef5621ba4
-  - ref: refs/tags/v6.8
-    old: 0000000000000000000000000000000000000000
-    new: 90d1f30371ae3337beb01666b226320728d35c70
-  - ref: refs/tags/v6.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a0706eba72b90a4702dde6a0b8cc82d78e9b2495
-  - ref: refs/tags/v6.8-rc2
-    old: 0000000000000000000000000000000000000000
-    new: c18956a7ed4b71eec72700a0899ad21167b994bb
-  - ref: refs/tags/v6.8-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0b5b909d9a9083afacaac2a75dac24ba3649f692
-  - ref: refs/tags/v6.8-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 251168394b084796bcd8f3e3655f2eb38c524ea3
-  - ref: refs/tags/v6.8-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 7e311d420f96ef38326a0f3b7d8cffa3dee32ae5
-  - ref: refs/tags/v6.8-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8bf1e5a08989cf5c8d9c117ebc47554951a08d6d
-  - ref: refs/tags/v6.8-rc7
-    old: 0000000000000000000000000000000000000000
-    new: ae587d09d5d2b63498be8f0959bd89c042d4dfdd
-  - ref: refs/tags/v6.9-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9bd5def24522bfec169de38754165379b4f8d6f5
-  - ref: refs/tags/v6.9-rc2
-    old: 0000000000000000000000000000000000000000
-    new: eb285c4e8b2d05185325214894357eb2275f972e
-  - ref: refs/tags/v6.9-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b4429db95735be42f9b96d7383adfe2fc51dc9fa
-  - ref: refs/tags/v6.9-rc4
-    old: 0000000000000000000000000000000000000000
-    new: c8d6e4168c5b8c2b0cf545bd3ca87356b4079164
-  - ref: refs/tags/v6.9-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f7106f2f9cc0b361fbc610a7e0c74c8e0658d9b5
-  - ref: refs/tags/v6.9-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 02c1f8066ba946feb60e7846f8d69a2a7ccf6590
-  - ref: refs/tags/v6.9-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 74609cb690e2cd9a5e6f20a6564f415ccd0141f7
+  - ref: refs/heads/hwmon-next
+    old: 2fa365974c3eb97f29ff2dbeff3e9011170e492c
+    new: c82337843dd7c0723e7ce2b86e5ed89d71f1c7c3
+    log: |
+         c82337843dd7c0723e7ce2b86e5ed89d71f1c7c3 hwmon: (emc1403) Add support for EMC1428 and EMC1438.
+         
