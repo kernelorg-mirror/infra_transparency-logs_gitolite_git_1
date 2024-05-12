@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7598457251417597984=="
+Content-Type: multipart/mixed; boundary="===============2661656739983096785=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sun, 12 May 2024 10:28:39 -0000
-Message-Id: <171550971995.3305.13370995435831621692@gitolite.kernel.org>
+Date: Sun, 12 May 2024 10:31:01 -0000
+Message-Id: <171550986188.5918.15896701708840938164@gitolite.kernel.org>
 
---===============7598457251417597984==
+--===============2661656739983096785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,36 +17,39 @@ user: kwilczynski
 git_push_cert_status: E
 changes:
   - ref: refs/heads/controller/exynos
-    old: 0000000000000000000000000000000000000000
-    new: 17649fe4443b21506626a64f463b81a53c95e1d5
+    old: 17649fe4443b21506626a64f463b81a53c95e1d5
+    new: 358e579a9da21c2aa906a363f1e87768b5ccb028
+    log: |
+         358e579a9da21c2aa906a363f1e87768b5ccb028 PCI: exynos: Adapt to use bulk clock APIs
+         
 
---===============7598457251417597984==
+--===============2661656739983096785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 3DE334E7 1715509716 +0000
+pusher 3DE334E7 1715509858 +0000
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-nonce 1715509715-f412de9558ed70e1b988d21106bfc6ede1ed317e
+nonce 1715509857-7f20c4daab29551de450bc95d4aea656b4c684e5
 
-0000000000000000000000000000000000000000 17649fe4443b21506626a64f463b81a53c95e1d5 refs/heads/controller/exynos
+17649fe4443b21506626a64f463b81a53c95e1d5 358e579a9da21c2aa906a363f1e87768b5ccb028 refs/heads/controller/exynos
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmZAmdQACgkQfGR2jT3j
-NOfo0RAAmzzwwzgamHL9xdtJiCJ2Xdwqv/WhmaM2/jYIGeYj0bLHyy8I5q+ADMnw
-xd+E1p4QhtCEH3geAasUZrMwZ45ebZQr8jnmgH2F6rudvXKOuQg3ZVXr0N1otIIV
-LhexF1E+uK+2uflDLZHAoCTNs1XwFchQAkXj1P+NNP96baA50U6I5RRg+XLmUV5L
-r6MJQ/bW05Tz3tw2a+1++nG2URQVcJpebZ9fwgyeyXjlO8YiUPQ5fFyw/ToY5ogV
-iBMTlNhcOSmFGvL192n5mmq5JK2WmxONUNzGLprHB/ZaMw+w2+ZuvK3r78+TU6+r
-qsPFI1iNustlEjfZO2YIlg88lLl0Ga1goBzotjAEDYpiSALH2hQUlo4ztBpssgvv
-SGx3ZROLGrLKUANCIbpqjPLW0wvc2GgOOg+sZ7Idxq7Y9cAWss4uHBYxvIlJ6/mf
-9XGY7U2fcax74AG4KURcTaQXKJ6/JbJ85mc3Gnjgk2j8F3+Boxzn5TBs4Z+MAYVf
-jMsIQBk0g7DV4EK/9mVHPjAuoGQpLc9f5Zsv9OmD7HjByqDHVMezMWKrPfiKe2y3
-/lpiQxeZ6G1Nx5UjM+lhyL4y+kRMCFAzebUglfByzPQ6XPDtfTfV24CzZxcKDbAo
-4AV7Li6+Ji7DJMPyLRGBP1nKSxyUipvSq8UrN3JH5BlV+JkR5GU=
-=fxng
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmZAmmIACgkQfGR2jT3j
+NOdJ+xAAnnPwF3g9kRWqMqI+pz2xoRw86JLx1QTJQbbZy0LhUZShi7aOgerX/NRs
+sLH/pkbQCultK6ws2sjwVOPgNvLsjw1X39b5zGnqo7WY1dlEj7B22s7di1IH8LCO
+zMGXC2T58BOViI4hdC42SdcBCKMr4/n5nlfxb8FWuW7tp7bLJmJhUjg+KpDyTOgU
+MCqU0Ql5JAhAjh/xSARggVsF1oOygAk5wJMgpSPMGhl1xDDLhRIWBNz4gvbFwRPv
+lM1nS3OyCaTCZdnUKVLL3MJo1ohJgFOip6FnweWcE9LTJIcEuaSN8AxYUgFMyK0p
+16ywKZIEAK/J4nZ7DWDzW4q9rPtazFrUpK0QfHlc3U5ekR0Iar1u9tgY5HSJ7O87
+gyRZiq6X3UH22YApMhz+1toaWJ215KRrzH05soPLi8+xOPhysuJsANoSzeCJr/iI
+a3JNlHGo4tAOJiDol3zxhJTEADoDavYrlctMAe+poDEsSAksPPWJXSiWJRHWw46/
+8YooDYdYDM03Pp8y2MHY+X6A1pD2iOt2qwbsVzN38sD3oDlDtmKmXd7/HHTkql9J
+um8PBun8b+PTvtajX2E5W9K3bj0Jq4MJJnoToGz0ZG9EJDNqZ0o+F3TRtjePIg4v
+JO1av9drvNc0X/ev3hxRsx+dyxKBV3n/BE8S5lIQLALVgmTDv9Y=
+=4e9o
 -----END PGP SIGNATURE-----
 
---===============7598457251417597984==--
+--===============2661656739983096785==--
