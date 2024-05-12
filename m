@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2535585367305726056=="
+Content-Type: multipart/mixed; boundary="===============8991704304210352636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Sun, 12 May 2024 07:58:56 -0000
-Message-Id: <171550073607.11182.15114952650676503508@gitolite.kernel.org>
+Date: Sun, 12 May 2024 08:03:19 -0000
+Message-Id: <171550099981.14538.2609304236916725559@gitolite.kernel.org>
 
---===============2535585367305726056==
+--===============8991704304210352636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kvm-coco-queue
-    old: fca21c2714f330638afbe82a8007d2d093e2cdc8
-    new: 698ca1e403579ca00e16a5b28ae4d576d9f1b20e
-    log: revlist-fca21c2714f3-698ca1e40357.txt
+  - ref: refs/heads/queue
+    old: 1451476151e08e1e83ff07ce69dd0d1d025e976e
+    new: 1928a413e0ed0629237df0f9cda8a26aa4280f22
+    log: revlist-1451476151e0-1928a413e0ed.txt
 
---===============2535585367305726056==
+--===============8991704304210352636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1715500732 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1715500997 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1715500732-3e703fa9262bd0147280f326d07dabec1970f3ec
+nonce 1715500997-9aab6abd94f0ea0a51dd9487a18f155579aefe6f
 
-fca21c2714f330638afbe82a8007d2d093e2cdc8 698ca1e403579ca00e16a5b28ae4d576d9f1b20e refs/heads/kvm-coco-queue
+1451476151e08e1e83ff07ce69dd0d1d025e976e 1928a413e0ed0629237df0f9cda8a26aa4280f22 refs/heads/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmZAdr0UHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroOGHgf8CKmCRLLAK8PHfz+IMXD9pkYIjQDc
-iHIfwcsoqyMzej+gHbaSOjuaNOapNM49H2QZqVaqB6rgG4DO2ZuUCF9IhBPTKbRo
-wVea+W44Vpg8hYArZ4aVSYhkblLf/Uul7Tk8/ARr/TsovYC8nnW4Ugbx1YPgrQ9t
-blhtaiVESp5ktXa8kTy1+3Z7rk9aTDHbJnjuXWosP36/jlzL8wX27IBvtZEPaRxX
-sgIOqlgAjaKkXLSySXe6edtgCDFzL19FDUeF8tian21ce8i11+A43ecVrhf2BA2s
-0pXc4d3f03sCNutgvZZOCQY1tQ+9l1drE49WjW2EPv7OJHP1xGR4VUT40g==
-=xswM
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmZAd8UUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroMa7wf8Dk5QH+4jUgTg0C8EesFpezbsDO0H
+R2a/qUTHp3OVV7URod7wPwNSYEH121oSW/y4/Xm57f0U4iZiMi/kpGSWxArKN/Fc
+T1owdWZ3tpAQTYg/4aaxpOXy6JTPvwoNSqlmo/UEeR+8YLdbnBq6oDHGwEJYkkVt
+FzFEQrKz91CEGMYrfE21TRdQunDa7Mgtpdjr0XHPVqW4ma1c85qgRgflYGUj5Grl
+Y6RtCtx+goFagL1qzswGGnHjvJQcC1oeemMTH2vm9eokuIX1XLJ+yqOUOp9Fm0XB
+RtoGe+brYRSx5plBVTfKt3IoOFxUvZMzDUz2uVUtpRsOSPbN0heyD1ToNg==
+=aw+C
 -----END PGP SIGNATURE-----
 
---===============2535585367305726056==
+--===============8991704304210352636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fca21c2714f3-698ca1e40357.txt
+Content-Disposition: attachment; filename=revlist-1451476151e0-1928a413e0ed.txt
 
 aca48556c592189fdcdc68b82bbae442bd08730f KVM: x86/mmu: Process atomically-zapped SPTEs after TLB flush
 0c4765140351e22d1568eca2c62c505e07151887 KVM: nVMX: Clear EXIT_QUALIFICATION when injecting an EPT Misconfig
@@ -215,11 +215,6 @@ a68b3c1001ccfe1e213527aede7d9c156146aa97 KVM: x86: Implement hook for determinin
 812f52d1f3b9a6fdc4ec787d7b33785e71dfc803 KVM: SEV: Provide support for SNP_GUEST_REQUEST NAE event
 7edf584e69cee44634c2b2fead72f00cef727c8d KVM: SEV: Provide support for SNP_EXTENDED_GUEST_REQUEST NAE event
 cd0a888e5d5cb116b5e61a4705507773e9afbfa7 crypto: ccp: Add the SNP_VLEK_LOAD command
-f7c2f7fb7da6ad6d841773959995e0c753a1ad28 KVM: Document KVM_PRE_FAULT_MEMORY ioctl
-1f4bb218a1736a82c590df236bf48616a237e39c KVM: Add KVM_PRE_FAULT_MEMORY vcpu ioctl to pre-populate guest memory
-dad7b95cf2e65d9f7c566f86c9d73180ac473e62 KVM: x86/mmu: Extract __kvm_mmu_do_page_fault()
-8595125b8417d31c779bab8bf3a1f033ccb196f6 KVM: x86/mmu: Make __kvm_mmu_do_page_fault() return mapped level
-df905c75e4cd90f0a9e2a33fae88de2aae6bea6b KVM: x86: Implement kvm_arch_vcpu_pre_fault_memory()
-698ca1e403579ca00e16a5b28ae4d576d9f1b20e KVM: selftests: x86: Add test for KVM_PRE_FAULT_MEMORY
+1928a413e0ed0629237df0f9cda8a26aa4280f22 Merge tag 'tags/kvm-queue-snp' of https://github.com/mdroth/linux into HEAD
 
---===============2535585367305726056==--
+--===============8991704304210352636==--
