@@ -1,74 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============0698522744544887424=="
+Content-Type: multipart/mixed; boundary="===============7235436186359585073=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 13 May 2024 09:43:00 -0000
-Message-Id: <171559338026.8972.6524944391470256313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 13 May 2024 09:47:45 -0000
+Message-Id: <171559366554.12364.17340396752746504435@gitolite.kernel.org>
 
---===============0698522744544887424==
+--===============7235436186359585073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/rdma-next
-    old: 9f38581f501030d9555c13b61d7cefcaafdbd328
-    new: d9ccab7b9cd73e69c9ef2667c62619563f154844
-    log: revlist-9f38581f5010-d9ccab7b9cd7.txt
-  - ref: refs/heads/xfrm-next
-    old: e034737c222e759eb6408874b408cef66785d708
-    new: bc65b1f4fbc399e843b0c1ab14c31987acf542f1
+  - ref: refs/heads/master
+    old: b2c3700e36c490fd7ec74b532a6dcdf2fc8e66d3
+    new: 057080b5c89fa63cece8a5d4a6da4959bd004aa1
+    log: revlist-b2c3700e36c4-057080b5c89f.txt
+  - ref: refs/heads/stable/v2.40
+    old: faa3057dec713306a462924084e541af4a78e2fc
+    new: 497385c0ad0a6fa4d02a266ab8298406362203b9
     log: |
-         a4a87fa4e96c7746e009de06a567688fd9af6013 xfrm: Add Direction to the SA in or out
-         601a0867f86cbb5e137ce485a7eb60cbf9fc5180 xfrm: Add dir validation to "out" data path lookup
-         304b44f0d5a4c2f91f82f7c31538d00485fb484c xfrm: Add dir validation to "in" data path lookup
-         451b509678978250702bd833c69276e70531f07a xfrm: Restrict SA direction attribute to specific netlink message types
-         dcf280ea0aad87e70ef1646d579d11f8a52f8b67 Merge remote branch 'xfrm: Introduce direction attribute for SA'
-         fb7d2826cfff00fcd60c154b8decc65f277191b2 net/mlx5e: Keep netdev when leave switchdev for devlink set legacy only
-         13cac0c1d55e0ab22c31d65b350e206de1f51940 net/mlx5e: Skip restore TC rules for vport rep without loaded flag
-         6a40d96df6dccd8e078547b02b60ffb76838641c xfrm: Flush xfrm state synchronously on netdev close or unregister
-         6a906df8bbd5db950095a9a5042d86b3d8bb2b02 net/mlx5e: Present succeeded IPsec SA bytes and packet
-         bc65b1f4fbc399e843b0c1ab14c31987acf542f1 net/mlx5e: Approximate IPsec per-SA payload data bytes count
+         5665b1ff86cea4e40350359121ebbcb6d226ac62 Fix ul_path_read_buffer()
+         a42b43f6ae6bcb474ccdc701753d97cc54e48b87 mkswap.8.adoc: update note regarding swapfile creation
+         347f2cc58d1df1a5cfd4d8d6ab404932239bc2ba libmount/utils: add pidfs to pseudo fs list
+         497385c0ad0a6fa4d02a266ab8298406362203b9 Fix fstab order in `column` manpage example.
          
 
---===============0698522744544887424==
+--===============7235436186359585073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f38581f5010-d9ccab7b9cd7.txt
+Content-Disposition: attachment; filename=revlist-b2c3700e36c4-057080b5c89f.txt
 
-82e966130ddd67539ab904f2038e7bf5d4a66247 RDMA/mlx5: Remove NULL check before dev_{put, hold}
-e4e40a87024c502dcca279504a4550e617eea037 RDMA/ipoib: Remove NULL check before dev_{put, hold}
-48d80b484491f177c586874c480cf9ba3af82b4f RDMA/core: Remove NULL check before dev_{put, hold}
-e73c882f0a0149d8cad79f87b28cbbc9b4ed9ebe RDMA/mana_ib: create EQs for RNIC CQs
-5843415916852983d3aaddc87b57630af9b0adad RDMA/mana_ib: create and destroy RNIC cqs
-3e41105263d5d74840c0d117278894b428f02841 RDMA/mana_ib: introduce a helper to remove cq callbacks
-f79edef79b6a2161f4124112f9b0c46891bb0b74 RDMA/mana_ib: boundary check before installing cq callbacks
-44b607ad4cdf23ae8f796b95bd14709fa06f7728 RDMA/mana_ib: implement uapi for creation of rnic cq
-8f3b7103b41314d26e2653e9ccca29480123a204 RDMA/hfi1: Use RMW accessors for changing LNKCTL2
-5194947e6a3966d50095c14c69edbec90ad191f9 IB/hfi1: Do not use custom stat allocator
-f483f6a29d4d701f1641898463e93d081bb03b52 IB/hfi1: Remove generic .ndo_get_stats64
-2b8af5001abdf583da3a63201cc6137553019515 RDMA/efa: Support QP with unsolicited write w/ imm. receive
-78cfd17142ef70599d6409cbd709d94b3da58659 bnxt_re: avoid shift undefined behavior in bnxt_qplib_alloc_init_hwq
-49ca2b2ef3d003402584c68ae7b3055ba72e750a RDMA/IPoIB: Fix format truncation compilation errors
-9c0731832d3b7420cbadba6a7f334363bc8dfb15 RDMA/cma: Fix kmemleak in rdma_core observed during blktests nvme/rdma use siw
-77e29b95db1d0af034c7c7d64d78d863655142d9 net/sched: Don't print dump stack in event of transmission timeout
-858e171ba32e2453f1c92579089ac6e6ded98d81 RDMA/core: Introduce peer memory interface
-d2fa69810a7cda123e0b79307f1a1ffc1706199a RDMA/mlx5: Get upper device only if device is lagged
-4305d185117dfb7b9adfc4b0924c24a2f8f39d51 RDMA/mlx5: Send currect port events
-24ae64ad413619903e130ff6b875e5d5d1416a26 TEMP: Increase lockdep depth
-ea1633553670785ef817721515c484dc71b65427 RDMA/cache: Release GID table even if leak is detected
-9141987ceb69e55e464104dc556de96045eb58d0 RDMA/mlx5: Remove extra unlock on error path
-f5f05be841a0359b613c8188f0c86dc625ae8d03 RDMA/mlx5: Follow rb_key.ats when creating new mkeys
-00c7b6012d5151199e1291c4671ebac9563fa7ae RDMA/mlx5: Ensure created mkeys always have a populated rb_key
-b173ced51e866f27deb0a8787271ed58352a1ce8 RDMA/mlx5: Fix unwind flow as part of mlx5_ib_stage_init_init
-9e08ad693ad9e78484cb52aa949943ae0a65ddc2 RDMA/mlx5: Add check for srq max_sge attribute
-a7011acdaac688756be12c50b349befee6ceebd9 net/mlx5: Reimplement write combining test
-63d48b40e32f67ad1e7c7a9312a848279e445232 IB/mlx5: Create UMR QP just before first reg_mr occurs
-d9ccab7b9cd73e69c9ef2667c62619563f154844 IB/mlx5: Allocate resources just before first QP/SRQ is created
+b0f633df4b3762987a7b544b4680db24d15306ad lsns: (refactor) rename LSNS_ID_.* to LSNS_TYPE_.*
+8a1320f7d3bdcd452155a562949c81308a97a453 lsns: (refactor) give a enumeration name 'lsns_type' to LSNS_TYPE_ enumerators
+cc8174cf1e6c2077818ee9cdd4d8af5766dfb38d lsns: (refactor) add get_{parent|owner}_ns_ino() implementing some parts of get_ns_ino()
+5c723737fc0975237b31a88f95276e6f9dc57bc2 lsns: (refactor) use get_{parent|owner}_ns_ino() in add_namespace_for_nsfd
+ebd1c823120e9b91049e4c3e5f4090dde881454e lsns: (refactor) rename get_ns_ino() to get_ns_inos()
+1a998ea99bfd49ad25dacf058e36bbf21a4c8e88 lsns: (refactor) rename read_related_namespaces to connect_namespaces
+0cc0bcf45726f7c04b7170c82a2f79a35491a804 lsns: (refactor) make the function names for reading namespaces consistent
+ac282b728594630c17dc6ec5d90dbf56397865f0 lsns: verify the uniqueness of a namespace in ls->namespaces list
+6f962f511dfbdd446b4e93a77792b3413b5539c2 lib/path: add ul_path_statf() and ul_path_vstatf()
+0b5167e41e1547e109df16208d892ca896d97f9c lsns: (refactor) use ls_path_{openf|statf} to make the code simple
+b43db46912f4e8218ca4e1bafc06f45e157f69ae flock: bash-completion: add --fcntl
+e59520cd66a7fff830290fdfdde32e944d250aee flock: document --fcntl
+ebc2a8fcf952e0a95198ec8f8e54cce45d9d7f91 tests: prepare flock for testing --fcntl
+0c359281d8c9a4a82305c0b5952e208de697643b tests: add --fcntl testing to flock
+6273c12257973cbd3c59a710049ee8a8027bbbb1 Fix ul_path_read_buffer()
+b66b70d62e50923502aeb3f6420a5f9c20f769d3 meson: Fix build-python option
+cb7ac65dcaf655ea5dedf8820ab6417629241aa4 meson: Only require Python module when building pylibmount
+7e582204cd7cac2b55a2f7c0fb06899fcf7ff5df meson: Correctly require the Python.h header for the python dependency
+7b4e937c862ea84e1568b01cd5ec69918920f9a5 mkswap.8.adoc: update note regarding swapfile creation
+62cf52f81d5baaba2cfe6dfe00aa4975ebd55d92 libmount/utils: add pidfs to pseudo fs list
+7f4ffbc2e6740f829b45c0801fdfadea966615d5 Fix fstab order in `column` manpage example.
+bd09cebb1cb32753e6697a8c80d86539dc12f9a5 cfdisk: Remove unused struct 'cfdisk_extra'
+14d3e1f33c06a71212642851a9b96ade7c0433c4 Merge branch 'lsns--refactor-related-to-2987' of https://github.com/masatake/util-linux
+485f671eafc074820060455520a2781521a8750f Merge branch 'meson-fix-Python.h-check' of https://github.com/jwillikers/util-linux
+a153d4ffe7b3561e48e68673d3caa8f7baf39fb4 Merge branch 'flock-test-doc' of https://github.com/Villemoes/util-linux
+a642072ae99eef84dc2557f141499d20fd1f46cf Merge branch 'fix' of https://github.com/DaanDeMeyer/util-linux
+674f579cd65ea28faf9ffb937869d27a9f55119c Merge branch 'mkswap-file' of https://github.com/YHNdnzj/util-linux
+a208d974845504b6c241af4711d24d189ce30c07 Merge branch 'pidfs-pseudo' of https://github.com/YHNdnzj/util-linux
+20a1565751bee1dbbb2bdda72e74192b16c7cf97 Merge branch 'fix-column-example' of https://github.com/4KiB/util-linux
+c2a863c2d7f4d7cc7f44423a3d761f973fce711c Merge branch 'structlceanup' of https://github.com/penguin42/util-linux
+057080b5c89fa63cece8a5d4a6da4959bd004aa1 include/pidfd-utils: remove hardcoded syscall fallback
 
---===============0698522744544887424==--
+--===============7235436186359585073==--
