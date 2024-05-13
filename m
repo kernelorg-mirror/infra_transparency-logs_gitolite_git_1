@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4194520855037228987=="
+Content-Type: multipart/mixed; boundary="===============8022969434501151608=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 13 May 2024 21:48:24 -0000
-Message-Id: <171563690438.6989.8184472039603812337@gitolite.kernel.org>
+Date: Mon, 13 May 2024 21:48:43 -0000
+Message-Id: <171563692328.7189.1615420335713203883@gitolite.kernel.org>
 
---===============4194520855037228987==
+--===============8022969434501151608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: f8beae078c82abde57fed4a5be0bbc3579b59ad0
     new: cfc2eefd40f1bc121a41a2acd54458046d77f9ae
     log: revlist-f8beae078c82-cfc2eefd40f1.txt
 
---===============4194520855037228987==
+--===============8022969434501151608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -83,4 +83,4 @@ c85e41bfe7af41c71c438c6011b298398c185fa8 Merge tag 'nf-next-24-05-12' of git://g
 f37dc28ac6e2624afd7916faacea259f57f5ca82 selftest: epoll_busy_poll: Fix spelling mistake "couldnt" -> "couldn't"
 cfc2eefd40f1bc121a41a2acd54458046d77f9ae selftests: net: use upstream mtools
 
---===============4194520855037228987==--
+--===============8022969434501151608==--
