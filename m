@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 13 May 2024 20:44:01 -0000
-Message-Id: <171563304145.23684.861440299450018348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 13 May 2024 20:53:49 -0000
+Message-Id: <171563362975.30617.15395355985935980814@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/next
-    old: c330e09f17b3f620b332c990dcaba61478961b59
-    new: 51c59b9ac3c973aafca7e475b7cf5abd349d97c7
+  - ref: refs/heads/main
+    old: c85e41bfe7af41c71c438c6011b298398c185fa8
+    new: 87bfdbbb199249f677a92c6e13234b9c450992c6
     log: |
-         b4372cbd0f0934d9cd8cf9e436642f5dbde6efa4 certs: Move RSA self-test data to separate file
-         51c59b9ac3c973aafca7e475b7cf5abd349d97c7 certs: Add ECDSA signature verification self-test
+         87bfdbbb199249f677a92c6e13234b9c450992c6 net: phy: air_en8811h: reset netdev rules when LED is set manually
          
