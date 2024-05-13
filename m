@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 13 May 2024 21:55:31 -0000
-Message-Id: <171563733169.13880.8298627860797439282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 13 May 2024 21:55:35 -0000
+Message-Id: <171563733542.13991.3942143931749582329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e6e43570fd98ac609c903bc91d6db163ba2e82d0
-    new: c084ebd77a00b1a16d9daa57b6ecdfdf1f43c78a
+    old: c9f9df3f6347b33ae770747c40bae38836e3658c
+    new: 1af7f88af269c4e06a4dc3bc920ff6cdf7471124
     log: |
-         c084ebd77a00b1a16d9daa57b6ecdfdf1f43c78a tcp: socket option to check for MPTCP fallback to TCP
+         1af7f88af269c4e06a4dc3bc920ff6cdf7471124 inet: fix inet_fill_ifaddr() flags truncation
          
