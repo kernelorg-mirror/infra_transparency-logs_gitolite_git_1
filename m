@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0521461510779390849=="
+Content-Type: multipart/mixed; boundary="===============4194520855037228987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 13 May 2024 21:47:43 -0000
-Message-Id: <171563686329.6664.249505106520943113@gitolite.kernel.org>
+Date: Mon, 13 May 2024 21:48:24 -0000
+Message-Id: <171563690438.6989.8184472039603812337@gitolite.kernel.org>
 
---===============0521461510779390849==
+--===============4194520855037228987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 13e966ee3d064d2416cd4f9ef7df0436a9b9d650
-    new: a04c7333e5a8a3508b0dcb7273d918467930815b
-    log: revlist-13e966ee3d06-a04c7333e5a8.txt
+  - ref: refs/heads/1GbE
+    old: f8beae078c82abde57fed4a5be0bbc3579b59ad0
+    new: cfc2eefd40f1bc121a41a2acd54458046d77f9ae
+    log: revlist-f8beae078c82-cfc2eefd40f1.txt
 
---===============0521461510779390849==
+--===============4194520855037228987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13e966ee3d06-a04c7333e5a8.txt
+Content-Disposition: attachment; filename=revlist-f8beae078c82-cfc2eefd40f1.txt
 
 84b1a0c0140a9a92ea108576c0002210f224ce59 netfilter: nf_tables: skip transaction if update object is not implemented
 6e20eef413d5aa8ea0b19165e40efc8d47c681db netfilter: nf_tables: remove NETDEV_CHANGENAME from netdev chain event handler
@@ -82,27 +82,5 @@ c85e41bfe7af41c71c438c6011b298398c185fa8 Merge tag 'nf-next-24-05-12' of git://g
 87bfdbbb199249f677a92c6e13234b9c450992c6 net: phy: air_en8811h: reset netdev rules when LED is set manually
 f37dc28ac6e2624afd7916faacea259f57f5ca82 selftest: epoll_busy_poll: Fix spelling mistake "couldnt" -> "couldn't"
 cfc2eefd40f1bc121a41a2acd54458046d77f9ae selftests: net: use upstream mtools
-1e68148396ad30cf7c81e19809bb52355d1665c6 ice: Fix package download algorithm
-5ab8dabd797751839a0c09a2bc03dbd9bd7d0c7a ice: Interpret .set_channels() input differently
-c6faee903f5abf560f19d83a4e9f8f48c336ae8b ice: fix 200G PHY types to link speed mapping
-774c5ba04a6b48f99ba76995569791381a55234c idpf: don't enable NAPI and interrupts prior to allocating Rx buffers
-6e949fc038a1c6ea361b54ff7d021c643a31f91c idpf: Interpret .set_channels() input differently
-97dce422e76b53a098954a579bbc468b64b368cb ice: add and use roundup_u64 instead of open coding equivalent
-7e7546cc58ab716fc30a16f8b4080d62b72658d1 ice: Introduce ice_ptp_hw struct
-73fe8ec109f70b14483972563e0ad58b8c17c6c7 ice: Introduce helper to get tmr_cmd_reg values
-3de651a8d2e9ec5e6d49159d9b3e73efda9bbaec ice: Implement Tx interrupt enablement functions
-338bf56201884c318e1da5338cee6d5cb4abe07f ice: Add PHY OFFSET_READY register clearing
-8b77033cf9e97bf6a0b16f017e23c42e82454bbe ice: Move CGU block
-55ed583554878c97ddbaffc55eceb89dcaf09941 ice: Introduce ice_get_base_incval() helper
-c435312204c477562539a460169614f27183ffa1 ice: Introduce ETH56G PHY model for E825C products
-7527540e0f7c266c081644efc8b4f92b7488827f ice: Change CGU regs struct to anonymous
-12436fbbc1d1192ac1dc3ce509c13aceff135e80 ice: Add support for E825-C TS PLL handling
-10e69843a8b5264324f3a2ab677b1a9421c6f370 ice: Add NAC Topology device capability parser
-f58a16808dcb03c75dba53d7f749dad2be0004f0 ice: Adjust PTP init for 2x50G E825C devices
-78c5195ac681bffbf667d64e74c6501ba036e4e6 ice: store representor ID in bridge port
-a919faa3321dd58a403181775ca975ac27ed5815 ice: move devlink locking outside the port creation
-729d107295dbd3b7993ff5a56a7d612900209063 ice: move VSI configuration outside repr setup
-859f65a283f00cce5a088b73ed827148ad35cd43 ice: update representor when VSI is ready
-a04c7333e5a8a3508b0dcb7273d918467930815b net: intel: Use *-y instead of *-objs in Makefile
 
---===============0521461510779390849==--
+--===============4194520855037228987==--
