@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Mon, 13 May 2024 12:41:14 -0000
-Message-Id: <171560407451.13714.7992168654351381609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
+Date: Mon, 13 May 2024 12:43:50 -0000
+Message-Id: <171560423025.14701.343179901686763480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/wireless/wireless-testing
+user: bcopeland
 changes:
-  - ref: refs/heads/next-integrity-testing
-    old: 5b390b6b0365bcb84c7dacf408bf7384b138a896
-    new: 3ed1287ac061e486867418227d8c47d1dfbfb4ed
+  - ref: refs/heads/master
+    old: 9800192b88d729d3cc8b2ff50b3c99840a995c62
+    new: 6fedccc60558681630b01f91dbd0dcff78d6c219
     log: |
-         3ed1287ac061e486867418227d8c47d1dfbfb4ed arch/x86/um: Disable UBSAN sanitization
+         746bde38da733003ec5e1d8b231feb41f872aebf Merge remote-tracking branch 'wireless/main'
+         0b0d12b44cb116f4d9c2ba7b60d2ae75838ff6c2 Merge remote-tracking branch 'wireless-next/main'
+         6fedccc60558681630b01f91dbd0dcff78d6c219 Add localversion to identify builds from this tree
          
