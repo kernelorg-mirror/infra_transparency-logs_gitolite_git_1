@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 13 May 2024 22:45:21 -0000
-Message-Id: <171564032164.18454.12440196004623328355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 13 May 2024 22:45:57 -0000
+Message-Id: <171564035762.18754.3313958683002805807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: c084ebd77a00b1a16d9daa57b6ecdfdf1f43c78a
-    new: ec8c25746e3232634f7842755a0c4bc08def6a49
+    old: 8ec9897ec2e93a412b9e3119e3137583a85969e0
+    new: 5eefb477d21a26183bc3499aeefa991198315a2d
     log: |
-         b56035101e1cdd9c4420ea5da17f09f87fb69285 netdev: Add queue stats for TX stop and wake
-         c39add9b24237a4b4d8455643af9db42ef08b40d virtio_net: Add TX stopped and wake counters
-         e5a280261c7d6973b54a9517b314610a4054f701 Merge branch 'add-tx-stop-wake-counters'
-         ec8c25746e3232634f7842755a0c4bc08def6a49 ynl: ensure exact-len value is resolved
+         5eefb477d21a26183bc3499aeefa991198315a2d net: smc91x: Fix m68k kernel compilation for ColdFire CPU
          
