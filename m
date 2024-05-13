@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3370383320222108902=="
+Content-Type: multipart/mixed; boundary="===============5924727060127537511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 13 May 2024 20:40:52 -0000
-Message-Id: <171563285210.22434.15551391947189104421@gitolite.kernel.org>
+Date: Mon, 13 May 2024 20:41:11 -0000
+Message-Id: <171563287132.22614.8085229519429628502@gitolite.kernel.org>
 
---===============3370383320222108902==
+--===============5924727060127537511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: a0b6d1c424c703db79fde6f915362af70c846348
     new: c330e09f17b3f620b332c990dcaba61478961b59
     log: revlist-a0b6d1c424c7-c330e09f17b3.txt
 
---===============3370383320222108902==
+--===============5924727060127537511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dcaa86b904ea3761e62c849957dd0904e126bf4a KEYS: asymmetric: Add missing dependenc
 9d2fd8bdc12f403a5c35c971936a0e1d5cb5108e KEYS: asymmetric: Add missing dependencies of FIPS_SIGNATURE_SELFTEST
 c330e09f17b3f620b332c990dcaba61478961b59 KEYS: trusted: Do not use WARN when encode fails
 
---===============3370383320222108902==--
+--===============5924727060127537511==--
