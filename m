@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 13 May 2024 16:19:54 -0000
-Message-Id: <171561719412.21217.7043192621214454621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 13 May 2024 16:31:56 -0000
+Message-Id: <171561791687.30408.14533485299619211882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/tpm2_key
-    old: c9b223b1ac3db418fc3ab49d007b5a12f8b091aa
-    new: 3ab444ea2fe8b38de7ffe05aacbf22b664c8f115
+  - ref: refs/heads/master
+    old: e453a336c4043db2cf69232a9b90c442131235af
+    new: 450e25991246f3b46178a2b3be99cd4c8f493902
     log: |
-         3ab444ea2fe8b38de7ffe05aacbf22b664c8f115 crypto: Add foundations for TPM2 asymmetric keys
+         450e25991246f3b46178a2b3be99cd4c8f493902 android: Fix build error
          
