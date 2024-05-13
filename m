@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6387703402001705873=="
+Content-Type: multipart/mixed; boundary="===============8484535979168123043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 13 May 2024 16:04:11 -0000
-Message-Id: <171561625112.9222.4971705803833743815@gitolite.kernel.org>
+Date: Mon, 13 May 2024 16:04:25 -0000
+Message-Id: <171561626516.9391.1065502819580767363@gitolite.kernel.org>
 
---===============6387703402001705873==
+--===============8484535979168123043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,37 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/fixes
-    old: 515a3c3a5489a890c7c3c1df3855eb4868a27598
+  - ref: refs/heads/review-ilpo
+    old: f609e7b1b49e4d15cf107d2069673ee63860c398
     new: a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6
-    log: revlist-515a3c3a5489-a38297e3fb01.txt
+    log: revlist-f609e7b1b49e-a38297e3fb01.txt
 
---===============6387703402001705873==
+--===============8484535979168123043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1715616243 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1715616261 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1715616244-da62e55c227805feef249411cf75ebab63f16152
+nonce 1715616262-122493235688df9df6c4e1f9957aa1f49228b097
 
-515a3c3a5489a890c7c3c1df3855eb4868a27598 a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6 refs/heads/fixes
+f609e7b1b49e4d15cf107d2069673ee63860c398 a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6 refs/heads/review-ilpo
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZkI5+gAKCRBZrE9hU+XO
-Mdg/AP4n6ARKw+ATn+alWiDlywR+lfO9TDBxR5EVlu4xQFgziQEAkkRBT6tG5nX/
-WYyvMpPB4L0bfMym/BFCLftgRPiSuwM=
-=MSpt
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZkI6CAAKCRBZrE9hU+XO
+MboFAQCK8drytcOWsIU1V77fFxZCGZmBKd1kcPJfQQ5AuvhYXgEApHQSxb4C6r/x
+gTDOAkBOo6gP/0pCGxDUeDbu4UJo2go=
+=9fVF
 -----END PGP SIGNATURE-----
 
---===============6387703402001705873==
+--===============8484535979168123043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-515a3c3a5489-a38297e3fb01.txt
+Content-Disposition: attachment; filename=revlist-f609e7b1b49e-a38297e3fb01.txt
 
-2b8dbf69ec60faf6c7db49e57d7f316409ccec92 perf annotate: Make sure to call symbol__annotate2() in TUI
 b372e96bd0a32729d55d27f613c8bc80708a82e1 ceph: redirty page before returning AOP_WRITEPAGE_ACTIVATE
 f3408580bac8ce5cd76e7391e529c0a22e7c7eb2 perf lock contention: Add a missing NULL check
 3ef842a77e7cdf757fe3f1d2999aa2cc88eb53ba tools/include: Sync uapi/drm/i915_drm.h with the kernel sources
@@ -742,6 +741,7 @@ ee59be35d7a8be7fcaa2d61fb89734ab5c25e4ee misc/pvpanic-pci: register attributes v
 400fea4b9651adf5d7ebd5d71e905f34f4e4e493 x86/sev: Add callback to apply RMP table fixups for kexec
 38762a0763c10c24a4915feee722d7aa6e73eb98 firewire: nosy: ensure user_length is taken into account when fetching packet contents
 09773bf55aeabe3fd61745d900798dc1272c778a firewire: ohci: fulfill timestamp for some local asynchronous transaction
+515a3c3a5489a890c7c3c1df3855eb4868a27598 platform/x86: ISST: Add Grand Ridge to HPM CPU list
 e4236b14fe32a8d92686ec656c870a6bb1d6f50a drm/imagination: Ensure PVR_MIPS_PT_PAGE_COUNT is never zero
 2d5af3ab9e6f1cf1468b2a5221b5c1f7f46c3333 ALSA: hda/realtek: Fix mute led of HP Laptop 15-da3001TU
 6dee402daba4eb8677a9438ebdcd8fe90ddd4326 vxlan: Fix racy device stats updates.
@@ -1072,4 +1072,4 @@ ba16c1cf11c9f264b5455cb7d57267b39925409a Merge tag 'edac_urgent_for_v6.9' of git
 af300a3959290b005f27ab5858bfebcb4840cd66 Merge tag 'kselftest-fix-vfork-2024-05-12' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6 Linux 6.9
 
---===============6387703402001705873==--
+--===============8484535979168123043==--
