@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7880891722775631263=="
+Content-Type: multipart/mixed; boundary="===============6279661658302872591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 13 May 2024 21:51:47 -0000
-Message-Id: <171563710721.10502.17051479441314464607@gitolite.kernel.org>
+Date: Mon, 13 May 2024 21:52:15 -0000
+Message-Id: <171563713599.10752.3597044834314035874@gitolite.kernel.org>
 
---===============7880891722775631263==
+--===============6279661658302872591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 42e62cd67dec6f8ce2f1cb681ee76b92da09d058
-    new: 804915ed01746be53a409449e33c254332fe4d6f
-    log: revlist-42e62cd67dec-804915ed0174.txt
+  - ref: refs/heads/1GbE
+    old: a2c78977950da00aca83a3f8865d1f54e715770d
+    new: c9f9df3f6347b33ae770747c40bae38836e3658c
+    log: revlist-a2c78977950d-c9f9df3f6347.txt
 
---===============7880891722775631263==
+--===============6279661658302872591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42e62cd67dec-804915ed0174.txt
+Content-Disposition: attachment; filename=revlist-a2c78977950d-c9f9df3f6347.txt
 
 543576ec15b17c0c93301ac8297333c7b6e84ac7 bpf: Add BPF_PROG_TYPE_CGROUP_SKB attach type enforcement in BPF_LINK_CREATE
 d70b2660e75b85bdaa9d75f9c4224c2f6f89cf23 selftests/bpf: Extend sockopt tests to use BPF_LINK_CREATE
@@ -50,9 +50,5 @@ df7025b3226988af0deadb58277b7d87a9df18c8 Merge branch 'ipv6-sr-fix-errors-during
 db9b31aa9bc56ff0d15b78f7e827d61c4a096e40 net/mlx5: Discard command completions in internal error
 1164057b3c0093240e45517d711da2d1fd86789a Merge branch 'mlx5-misc-fixes'
 c9f9df3f6347b33ae770747c40bae38836e3658c Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-be1f14ab07ffea67186a82b5a06c522524c0ed5f ice: Interpret .set_channels() input differently
-b2325f1959ceba5c46efe1970f24b4d31c1c8754 ice: fix 200G PHY types to link speed mapping
-d504dbbc7936a97a920c99c26e8cf0615afd2a0f idpf: don't enable NAPI and interrupts prior to allocating Rx buffers
-804915ed01746be53a409449e33c254332fe4d6f idpf: Interpret .set_channels() input differently
 
---===============7880891722775631263==--
+--===============6279661658302872591==--
