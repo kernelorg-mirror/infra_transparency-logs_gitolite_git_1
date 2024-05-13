@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6171381904164059961=="
+Content-Type: multipart/mixed; boundary="===============1345979405313014979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 13 May 2024 09:42:51 -0000
-Message-Id: <171559337153.8801.5981456041706790005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 13 May 2024 09:42:56 -0000
+Message-Id: <171559337692.8897.1009039034661960937@gitolite.kernel.org>
 
---===============6171381904164059961==
+--===============1345979405313014979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6
     log: revlist-e67572cd2204-a38297e3fb01.txt
 
---===============6171381904164059961==
+--===============1345979405313014979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -536,4 +536,4 @@ ba16c1cf11c9f264b5455cb7d57267b39925409a Merge tag 'edac_urgent_for_v6.9' of git
 af300a3959290b005f27ab5858bfebcb4840cd66 Merge tag 'kselftest-fix-vfork-2024-05-12' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6 Linux 6.9
 
---===============6171381904164059961==--
+--===============1345979405313014979==--
