@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 13 May 2024 00:43:27 -0000
-Message-Id: <171556100740.6793.16279693320528946467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 13 May 2024 01:07:30 -0000
+Message-Id: <171556245025.29136.4192158553224965671@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: 6a2f786e6905007e82bac212296deca29815916d
-    new: ba39486d2c43ba7c103c438540aa56c8bde3b6c7
-    log: |
-         ba39486d2c43ba7c103c438540aa56c8bde3b6c7 bpf: make list_for_each_entry portable
-         
+  - ref: refs/tags/erofs-for-6.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: b23ffc47d71bbd54042b7730449e65f7005e14dd
