@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6279661658302872591=="
+Content-Type: multipart/mixed; boundary="===============0205048552223593165=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 13 May 2024 21:52:15 -0000
-Message-Id: <171563713599.10752.3597044834314035874@gitolite.kernel.org>
+Date: Mon, 13 May 2024 21:52:40 -0000
+Message-Id: <171563716067.10984.10300331398715031585@gitolite.kernel.org>
 
---===============6279661658302872591==
+--===============0205048552223593165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: a2c78977950da00aca83a3f8865d1f54e715770d
     new: c9f9df3f6347b33ae770747c40bae38836e3658c
     log: revlist-a2c78977950d-c9f9df3f6347.txt
 
---===============6279661658302872591==
+--===============0205048552223593165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ db9b31aa9bc56ff0d15b78f7e827d61c4a096e40 net/mlx5: Discard command completions i
 1164057b3c0093240e45517d711da2d1fd86789a Merge branch 'mlx5-misc-fixes'
 c9f9df3f6347b33ae770747c40bae38836e3658c Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 
---===============6279661658302872591==--
+--===============0205048552223593165==--
