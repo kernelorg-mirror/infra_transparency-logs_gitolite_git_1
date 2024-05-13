@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 13 May 2024 22:45:57 -0000
-Message-Id: <171564035762.18754.3313958683002805807@gitolite.kernel.org>
+Date: Mon, 13 May 2024 22:49:45 -0000
+Message-Id: <171564058507.20133.1821205128602038039@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 8ec9897ec2e93a412b9e3119e3137583a85969e0
-    new: 5eefb477d21a26183bc3499aeefa991198315a2d
+    old: 5eefb477d21a26183bc3499aeefa991198315a2d
+    new: ecf848eb934b03959918f5269f64c0e52bc23998
     log: |
-         5eefb477d21a26183bc3499aeefa991198315a2d net: smc91x: Fix m68k kernel compilation for ColdFire CPU
+         ecf848eb934b03959918f5269f64c0e52bc23998 net: usb: ax88179_178a: fix link status when link is set to down/up
          
