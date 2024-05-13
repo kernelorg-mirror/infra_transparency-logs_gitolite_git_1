@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 13 May 2024 23:17:38 -0000
-Message-Id: <171564225839.9610.10319117672012355472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Mon, 13 May 2024 23:19:25 -0000
+Message-Id: <171564236573.10306.16548019213532981667@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/kbuild
-    old: 14da55bdea6be389b906faee3b0b66ab02a93817
-    new: 9698f82a63bbb2271baa32a768743527e5178d52
-    log: |
-         9698f82a63bbb2271baa32a768743527e5178d52 modules: Drop the .export_symbol section from the final modules
-         
+  - ref: refs/tags/firewire-updates-6.10
+    old: 0000000000000000000000000000000000000000
+    new: 8572f8673e5e401fa6f84fc4837dd6edc5e756e4
