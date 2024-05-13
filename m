@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5954854708627259766=="
+Content-Type: multipart/mixed; boundary="===============9145693661976988386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 13 May 2024 00:11:25 -0000
-Message-Id: <171555908513.15636.14749720881454903504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 13 May 2024 00:11:32 -0000
+Message-Id: <171555909226.15740.5507341128720795495@gitolite.kernel.org>
 
---===============5954854708627259766==
+--===============9145693661976988386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: ea558c86248b4955e5c5f3c0c921df450880605e
     log: revlist-37862d6fdced-ea558c86248b.txt
 
---===============5954854708627259766==
+--===============9145693661976988386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ e2eeef290c4adad7a0f95c4a41e1a992326a7829 perf tools: Ignore deleted cgroups
 d9c5f5f94c2d356fdf3503f7fcaf254512bc032d perf pmu: Count sys and cpuid JSON events separately
 ea558c86248b4955e5c5f3c0c921df450880605e tools lib subcmd: Show parent options in help
 
---===============5954854708627259766==--
+--===============9145693661976988386==--
