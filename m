@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1240350452813652500=="
+Content-Type: multipart/mixed; boundary="===============6806035417076304375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 13 May 2024 00:16:50 -0000
-Message-Id: <171555941000.19355.4989319256430397196@gitolite.kernel.org>
+Date: Mon, 13 May 2024 00:16:55 -0000
+Message-Id: <171555941566.19443.14813800956686404030@gitolite.kernel.org>
 
---===============1240350452813652500==
+--===============6806035417076304375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 20a759df3bba35bf5c3ddec0c02ad69b603b584c
     new: e9dd2290f1fb9a46c1c0e322cb0e53cf914903fb
     log: revlist-20a759df3bba-e9dd2290f1fb.txt
 
---===============1240350452813652500==
+--===============6806035417076304375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ bc467e953e4fbafd94d04c355f875bf1adf438e2 selftests/bpf: Expand getsockname and g
 a3d3eb957ddc733d04c0da67024b1c30d8826cc2 selftests/bpf: Expand ATTACH_REJECT tests
 e9dd2290f1fb9a46c1c0e322cb0e53cf914903fb Merge branch 'retire-progs-test_sock_addr'
 
---===============1240350452813652500==--
+--===============6806035417076304375==--
