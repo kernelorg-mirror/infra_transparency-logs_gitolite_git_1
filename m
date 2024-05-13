@@ -1,27 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 13 May 2024 18:30:38 -0000
-Message-Id: <171562503826.22717.6048936294125085668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 13 May 2024 19:16:59 -0000
+Message-Id: <171562781984.24253.39324749801062665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/vfs.all
-    old: f5e217b1e5dccbe8509b8f66a80943f9629dfe12
-    new: 584bbf439d0fa83d728ec49f3a38c581bdc828b4
+  - ref: refs/heads/thermal
+    old: 9396b2a669528c3601e722b27c7497a3176dcbcb
+    new: 3a47fbdd1a750afe8c31971e7d3892f08e7390b8
     log: |
-         a0fde7ed05ff020c3e7f410d73ce4f3a72b262d6 file: add fd_raw cleanup class
-         c62b758bae6af16fee94f556091fa74883a96b1e fcntl: add F_DUPFD_QUERY fcntl()
-         4810ce7c91993f5d6e7c20fa8da7cb474ee72ca7 selftests: add F_DUPDFD_QUERY selftests
-         da0e01cc7079124cb1e86a2c35dd90ba12897e1a afs: Fix fileserver rotation getting stuck
-         86b746e8f3a4118c16b6176f29b9d061d126aec4 Merge branch 'vfs.misc' into vfs.all
-         c3c7f6cd12694c957d71153f080602e1392e4c3c Merge branch 'vfs.mount.api' into vfs.all
-         c34974c65de403c4f86dab147bfb7527dcb9a096 Merge branch 'vfs.rw' into vfs.all
-         fa97952d583758397176fd76fac1aa9c6e0ee074 Merge branch 'vfs.netfs' into vfs.all
-         584bbf439d0fa83d728ec49f3a38c581bdc828b4 Merge branch 'vfs.iomap' into vfs.all
+         48d722fd397cb71a4685fecb60b2d3bc1421c74b thermal: intel: Add missing module description
+         564a88eb7af885d4f5d193d6485cb0e0ac3ca7a5 thermal: intel: hfi: Rename HFI_UPDATE_INTERVAL
+         ba1a587ed66faf6482748b20d5484dcd97589e79 thermal: intel: hfi: Shorten the thermal netlink event delay to 100ms
+         07c6f3a7ff57e9526de96b54d7615659ffd06f8f thermal: intel: hfi: Rename HFI_MAX_THERM_NOTIFY_COUNT
+         608fa8523563d8a2ee0dd832311f034d6326e2af thermal: intel: hfi: Increase the number of CPU capabilities per netlink event
+         3a47fbdd1a750afe8c31971e7d3892f08e7390b8 Merge branch 'thermal-intel'
          
+  - ref: refs/tags/thermal-6.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 4a02b4ee34dc5d14e8b2ac247f52d636a2a51db3
