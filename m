@@ -1,56 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============7295558446308241732=="
+Content-Type: multipart/mixed; boundary="===============3630361081587737504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 13 May 2024 10:10:34 -0000
-Message-Id: <171559503428.30278.17731997733897534015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 13 May 2024 10:10:39 -0000
+Message-Id: <171559503901.30410.8573036582188434492@gitolite.kernel.org>
 
---===============7295558446308241732==
+--===============3630361081587737504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: fddcd283f5adb195cc55c8f9b5b10417fcfc410e
-    new: 59b34b8e4c2d1f13eccb0225344be43023a16265
-    log: |
-         59b34b8e4c2d1f13eccb0225344be43023a16265 6.1-stable patches
-         
+  - ref: refs/heads/qwip
+    old: f33453340619b7c1b135da735bf8e93f584dd88e
+    new: 171fd8dd00c9b81c71c6b368725af3dae0781a53
+    log: revlist-f33453340619-171fd8dd00c9.txt
 
---===============7295558446308241732==
+--===============3630361081587737504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f33453340619-171fd8dd00c9.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715595033 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1715595032-c223f65263597e988aebe87f61bbcdfb5887ecfb
+4328bc73e00e8e2d7bb136dbc14e2fff98588ad8 dt-bindings: gpio: fix microchip,mpfs-gpio interrupt descriptions
+79dbaf9384976fcdbafd7d6bb92dd0799bbea6bb dt-bindings: interrupt-controller: document PolarFire SoC's gpio interrupt mux
+8696f2f1d66e3c4809babfbec1fb3b6206968a30 irqchip: add mpfs gpio interrupt mux
+efc4835fd4da6d13a5c98f256693cb51f1c24e84 irqchip: irq-mpfs-mux: make a platform driver
+807a2f6aa48ce7f650a0dac353fbd902bcd8f8c1 gpio: mpfs: add polarfire soc gpio support
+5106d3f263732f392b2a943db089b71f40a47567 gpio: mpfs: pass gpio line number as irq data
+58a6b2e3e4cd6d37a03fd58723d7095825d88822 riscv: dts: microchip: update gpio interrupts to better match the SoC
+e5cd976a3c6014c4b882755a796cc99e4393b5f1 dt-bindings: riscv: microchip: document beaglev-fire
+13e446a714e273950ec197f305391117656514fe dt-bindings: PCI: microchip: increase number of items in ranges property
+6c21ec27acf98a4bbaa0c0715771e1db040aed59 riscv: dts: microchip: add an initial devicetree for the BeagleV Fire
+0cef905d2785e205f0f737c42c5316c8af893c7d riscv: dts: microchip: enable qspi adc/mmc-spi-slot
+c2dd861f8d8a91cfbf22a9f792b5638e22ca4b88 mmc: mmc_spi: allow for spi controllers incapable of getting as low as 400k
+13cf01bb072285a893440c0bfcc325a7b3dc53ef spi: microchip-core-qspi: Add regular transfers
+57b863f3e114d7df0af82281e1a194af172e9ccf spi: microchip-core-qspi: set min_speed_hz during probe
+171fd8dd00c9b81c71c6b368725af3dae0781a53 spi: microchip-core-qspi: remove unused param from mchp_coreqspi_write_op()
 
-fddcd283f5adb195cc55c8f9b5b10417fcfc410e 59b34b8e4c2d1f13eccb0225344be43023a16265 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZB5xkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XmAP/0DgxzX4pvGtpe6sufVb
-edq5C/U7NVaa6yEG6cbyY8iOVQk6160bNdRoyqd7QffFqugw1O4GJfhi/VmsAM/x
-PDbHxq68/JoRZ7jyvl/b5O4VGxZxSSyxCcz3X9JL+I8zw6iFxtlCYDn9oXI2YxtQ
-LCgN2dhz7E3kV4uduZ/R3PNu7dPjkAhJiXiMSwtSjYvw67LQcD+paDCsYX0DJSCd
-U8Zwl479MuQqfZpNuZ5TVA9Ninpr9FrUxkE+ZnC7TrAnnUaP20ByLep2iR2l2X9t
-ndZe96yI7hHeQspjCBR6pbOV+YxR9pIQar6FivUDX8P68zVS6BeDp/TIwslddp90
-sUccgG/lUJHQQmNgHCGNSjtjK35dWOlOu9bynDNKhKsW1pd2urYhLe5v6XuJeVbD
-xbWDbPf6p4z4jqCKoDxOZBZCCndHbOtp4L+nMQHM3m5jaSvEjwzSk4toMvb7uyWv
-EUUxKyvUDrbsPl3wRQNz3Rkp7VO7mGQXayH16NDbqwLMVc3U+34eWeP59H40AtEf
-rxenVuoaX75g0YQdP/lWZClnOgh0qlItvlUFfUXVHe8ArUcZU95eYuoBRydKI29b
-HQHp1eNIiqpm2rFr+zT5bEf167vEtUwINUEDi7CX+4KL4TUgze8jx9FYQmAEvPu8
-c5CHdmZRBOyWXyRjXHbJMz4l
-=vJnk
------END PGP SIGNATURE-----
-
---===============7295558446308241732==--
+--===============3630361081587737504==--
