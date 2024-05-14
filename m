@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Tue, 14 May 2024 06:27:44 -0000
-Message-Id: <171566806453.7507.6943941489684472564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pateldipen1984/linux
+Date: Tue, 14 May 2024 06:29:56 -0000
+Message-Id: <171566819606.8348.6736952453662125801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/pateldipen1984/linux
+user: pateldipen1984
 changes:
-  - ref: refs/heads/exynos-drm-fixes
-    old: a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6
-    new: 7448fd68f6f900c46a69009768bebe95e98e2852
-    log: |
-         7448fd68f6f900c46a69009768bebe95e98e2852 drm/exynos: hdmi: report safe 640x480 mode as a fallback when no EDID found
-         
+  - ref: refs/tags/for-6.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: bb30af84c1b6e70e83881b9a64007a07d85fb12a
