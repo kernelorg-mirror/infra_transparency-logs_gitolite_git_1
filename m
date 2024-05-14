@@ -1,61 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2490210143111736849=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Tue, 14 May 2024 04:25:03 -0000
-Message-Id: <171566070320.15462.6998152525013111744@gitolite.kernel.org>
-
---===============2490210143111736849==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Tue, 14 May 2024 05:03:59 -0000
+Message-Id: <171566303923.10315.13622555690580793679@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/loongarch-next
-    old: e58ccb4888e0567adae26585117d4c018c15ad55
-    new: 9f4047a4c9ca865d69f0b3821ce688d86179c25f
-    log: revlist-e58ccb4888e0-9f4047a4c9ca.txt
-
---===============2490210143111736849==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e58ccb4888e0-9f4047a4c9ca.txt
-
-175f2f5bcdfce9e728f1ff956a50f28824d28791 KVM: s390: Check kvm pointer when testing KVM_CAP_S390_HPAGE_1M
-591c946675d88dcc0ae9ff54be9d5caaee8ce1e3 EDAC/synopsys: Fix ECC status and IRQ control race condition
-0a9c28bec202bbd14ae3fd184522490e5f5498b5 Merge tag 'kvm-s390-master-6.9-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
-0e640f0a47d8426eab1fb9c03f0af898dfe810b8 x86/amd_nb: Add new PCI IDs for AMD family 0x1a
-5754ace3c3199c162dcee1f3f87a538c46d1c832 x86/topology/amd: Ensure that LLC ID is initialized
-37dc2e0d38d6eb690ee043b43ee6f7cdf2994bf6 selftests/pidfd: Fix config for pidfd_setns_test
-7e4042abe2ee7c0977fd8bb049a6991b174a5e6f selftests/landlock: Fix FS tests when run on a private mount point
-fff37bd32c7605d93bf900c4c318d56d12000048 selftests/harness: Fix fixture teardown
-a86f18903db9211e265cc130b61adb175b7a4c42 selftests/harness: Fix interleaved scheduling leading to race conditions
-3656bc23429a4d539c81b5cb8f17ceeeeca8901a selftests/landlock: Do not allocate memory in fixture data
-cc80aa9a22c00a5e23ea9b4933f9d3ec8f686cb2 selftests/harness: Constify fixture variants
-821bc4a8fd2454ff6d719aae7cac93f60567fe65 selftests/pidfd: Fix wrong expectation
-24cf65a6226643f0f4be16fb2f9c0575b0edd967 selftests/harness: Share _metadata between forked processes
-f453cc30027b184c0a109d689b1335e6c826d514 selftests/harness: Fix vfork() side effects
-323feb3bdb67649bfa5614eb24ec9cb92a60cf33 selftests/harness: Handle TEST_F()'s explicit exit codes
-775a0eca3357d79311c0225458f8fe90791a8857 Merge tag 'x86_urgent_for_v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ba16c1cf11c9f264b5455cb7d57267b39925409a Merge tag 'edac_urgent_for_v6.9' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-2842076beb698b8b5f76aa9c987f4aa95b0e74d7 Merge tag 'for-linus-6.9' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-af300a3959290b005f27ab5858bfebcb4840cd66 Merge tag 'kselftest-fix-vfork-2024-05-12' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
-a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6 Linux 6.9
-2cce9059599143aa950b0baaf2523b17ab47d27d LoongArch: Select ARCH_HAS_FAST_MULTIPLIER
-5125d033c8af733ee4d52e3e3c6ebf5784976e46 LoongArch: Select ARCH_SUPPORTS_INT128 if CC_HAS_INT128
-d0b35b024725fda19c44f7144dd35d13c7e920ba LoongArch: Select ARCH_WANT_DEFAULT_BPF_JIT
-ff4a2443ef88874943f6d8444fb86327ec6f96b0 LoongArch: Select THP_SWAP if HAVE_ARCH_TRANSPARENT_HUGEPAGE
-5685d7fcb55fd729d7e0452c157a0ac8d72ca7b6 LoongArch: Give a chance to build with !CONFIG_SMP
-d6af2c76399f98444a5b4de96baf4b362d9f102b LoongArch: Fix callchain parse error with kernel tracepoint events again
-8f8d74ee110c02137f5b78ca0a2bd6c10331f267 LoongArch: rust: Switch to use built-in rustc target
-3e4d599c1c26afcda5b7be7fa2c04946eb166d4a LoongArch: dts: Remove "disabled" state of clock controller node
-bd7bc02b0cfe141c077187244ddd2022102618fe LoongArch: dts: Add new supported device nodes to Loongson-2K0500
-7c33c9111c8b5fecf4c7a40e31f69125c1b5a1b6 LoongArch: dts: Add new supported device nodes to Loongson-2K2000
-9f4047a4c9ca865d69f0b3821ce688d86179c25f LoongArch: Update Loongson-3 default config file
-
---===============2490210143111736849==--
+  - ref: refs/heads/kbuild
+    old: a6ad4c3ff62c557448610da150407c9069a73d6a
+    new: dc61f1c60959e8c4471f4e2a87b8dc1b46944118
+    log: |
+         8fe51b45c5645c259f759479c374648e9dfeaa03 modules: Drop the .export_symbol section from the final modules
+         72f1df737c9bb124be46b862654e0e15a1d82c52 kbuild: provide reasonable defaults for tool coverage
+         c74344e841d4e527124698c1f3b5782091d84f09 Makefile: remove redundant tool coverage variables
+         99057a0451503fb40cf7767d08f59b3bff937521 kbuild: use GCOV_PROFILE and KCSAN_SANITIZE in scripts/Makefile.modfinal
+         027b45a27d83eff888eb0a4c8ddaadbe14cf9460 kconfig: gconf: show checkbox for choice correctly
+         101b873f433bbbf898574492f54d868cad2a99a6 kconfig: m/nconf: remove dead code to display children of choice members
+         0c21e08cefd411ac1830ea700f02ea3d13ba5628 kconfig: m/nconf: remove dead code to display value of bool choice
+         64166961de8ee2b494ea515b65f13a96bbd7853a kconfig: m/nconf: merge two item_add_str() calls
+         a108a587b7f244148df410b358a1c0700e56e13e kconfig: lxdialog: remove initialization with A_NORMAL
+         dc61f1c60959e8c4471f4e2a87b8dc1b46944118 rapidio: remove choice for enumeration
+         
