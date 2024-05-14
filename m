@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jdelvare/staging
-Date: Tue, 14 May 2024 09:24:12 -0000
-Message-Id: <171567865270.9264.4702223837956999579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Tue, 14 May 2024 09:33:18 -0000
+Message-Id: <171567919877.15778.13725754884857551520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jdelvare/staging
-user: jdelvare
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/dmi-for-next
-    old: 7d501943558597612496f79289c8c1e0c84bdd88
-    new: 4d1b28a8119c615f1e932520f9ee1f80bdda5204
-    log: |
-         4d1b28a8119c615f1e932520f9ee1f80bdda5204 firmware: dmi: Add info message for number of populated and total memory slots
-         
+  - ref: refs/tags/thermal-v6.10-rc1-2
+    old: 0000000000000000000000000000000000000000
+    new: 7dd64948343e14add65fd99714b3aba4f462700c
