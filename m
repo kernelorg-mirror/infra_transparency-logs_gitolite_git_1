@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 14 May 2024 06:18:27 -0000
-Message-Id: <171566750739.883.13334230704268955504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Tue, 14 May 2024 06:27:44 -0000
+Message-Id: <171566806453.7507.6943941489684472564@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/for-next
-    old: dc61f1c60959e8c4471f4e2a87b8dc1b46944118
-    new: 7d7542af99ee07225eff438d3187fa0b80f16e03
+  - ref: refs/heads/exynos-drm-fixes
+    old: a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6
+    new: 7448fd68f6f900c46a69009768bebe95e98e2852
     log: |
-         cc469f917d6d96d8da21635b88ac95c72c054105 kbuild: provide reasonable defaults for tool coverage
-         111ba1da6ee4def5892da8d9dd0926c5b529ed78 Makefile: remove redundant tool coverage variables
-         0437bd36d48ed7e11827f26b384d6c41927116ff kbuild: use GCOV_PROFILE and KCSAN_SANITIZE in scripts/Makefile.modfinal
-         aca0d57a8d4acc355904d87dfb5b2d3e0df7c348 kconfig: gconf: show checkbox for choice correctly
-         38f94a97e9cafe96b2cb68b8e9da1243a78e3b6f kconfig: m/nconf: remove dead code to display children of choice members
-         8e09bbc4c16ed4fc0b6d3d0ffcf6bea7c4e2aadc kconfig: m/nconf: remove dead code to display value of bool choice
-         b25d9a447801cbbf21121bbbd2aca2dbab35625c kconfig: m/nconf: merge two item_add_str() calls
-         0f2a95a414603b8af4d046717226ecd5553f2575 kconfig: lxdialog: remove initialization with A_NORMAL
-         7d7542af99ee07225eff438d3187fa0b80f16e03 rapidio: remove choice for enumeration
+         7448fd68f6f900c46a69009768bebe95e98e2852 drm/exynos: hdmi: report safe 640x480 mode as a fallback when no EDID found
          
