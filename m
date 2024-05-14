@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 14 May 2024 18:14:37 -0000
-Message-Id: <171571047760.30589.1247171382395081490@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 14 May 2024 18:20:35 -0000
+Message-Id: <171571083525.3699.14455216850818315706@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-next
-    old: b444dfc84d6c19fa385be6d89d62b77184f81ea4
-    new: d41393f6c605cbcb0395c89e2d6e02dadf6bacd2
-    log: |
-         d41393f6c605cbcb0395c89e2d6e02dadf6bacd2 platform/x86: Add new MeeGoPad ANX7428 Type-C Cross Switch driver
-         
+  - ref: refs/heads/local-next-20240514
+    old: 0000000000000000000000000000000000000000
+    new: 26dd54d03cd94ecc035d9e1e9fd4fc0f3ab311cf
