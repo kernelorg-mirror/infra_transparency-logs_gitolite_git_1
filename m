@@ -1,22 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 14 May 2024 08:01:59 -0000
-Message-Id: <171567371931.13184.5229331066472146096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Tue, 14 May 2024 08:17:08 -0000
+Message-Id: <171567462825.24800.5347006827520344766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/master
-    old: 2d27e6e43f7946092c9cfc5d57b8d4bb58b34356
-    new: 6193777d7ba9e90a1999b1fecdd16f06a3e3cec1
-    log: |
-         c8d5fbcf64c2a912d22ed9d405e8a0d3e35263af libuuid: add support for RFC9562 UUIDs
-         389dfbe6b9692ea793ebc3b3f44fc7d33c668dc4 uuidparse: add support for RFC9562 UUIDs
-         a3d82ae138f4cd1534220773fcd8c29fa21ef540 uuidgen: add support for RFC9562 UUIDs
-         6193777d7ba9e90a1999b1fecdd16f06a3e3cec1 Merge branch 'uuidv7' of https://github.com/t-8ch/util-linux
-         
+  - ref: refs/tags/modules-6.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 3e798c4b1a707a0c3f82d5863ff6611a692c5e18
+  - ref: refs/tags/v6.9
+    old: 0000000000000000000000000000000000000000
+    new: d376cac46d30f3913ed0166151263b7d0ad7eed9
+  - ref: refs/tags/v6.9-rc4
+    old: 0000000000000000000000000000000000000000
+    new: c8d6e4168c5b8c2b0cf545bd3ca87356b4079164
+  - ref: refs/tags/v6.9-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f7106f2f9cc0b361fbc610a7e0c74c8e0658d9b5
+  - ref: refs/tags/v6.9-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 02c1f8066ba946feb60e7846f8d69a2a7ccf6590
+  - ref: refs/tags/v6.9-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 74609cb690e2cd9a5e6f20a6564f415ccd0141f7
