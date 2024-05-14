@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Tue, 14 May 2024 19:43:40 -0000
-Message-Id: <171571582019.31616.6081783654945932752@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 14 May 2024 19:44:21 -0000
+Message-Id: <171571586158.31952.18333967286447051536@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/for-6.10
-    old: 8f6d24a5db2acac3f52a34e6df347ec131d231ab
-    new: 21c38a3bd4ee3fb7337d013a638302fb5e5f9dc2
+  - ref: refs/heads/for-next
+    old: f12245061ff067d44ee37d49775cd4805f6a2342
+    new: 5e3964ba8400afae283a4d61b33680dab1f85b12
     log: |
-         62158261a88fab201433686c603cbd7775f55197 docs: cgroup-v1: Update page cache removal functions
-         c1457d9aad5ee2feafcf85aa9a58ab50500159d2 selftests/cgroup: Drop define _GNU_SOURCE
-         21c38a3bd4ee3fb7337d013a638302fb5e5f9dc2 cgroup/rstat: add cgroup_rstat_cpu_lock helpers and tracepoints
+         c1f59d03596626a5f162498153919705c7772ece riscv: make image compression configurable
+         5e3964ba8400afae283a4d61b33680dab1f85b12 riscv: show help string for riscv-specific targets
          
