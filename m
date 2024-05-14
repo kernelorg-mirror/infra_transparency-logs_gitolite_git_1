@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 14 May 2024 05:03:59 -0000
-Message-Id: <171566303923.10315.13622555690580793679@gitolite.kernel.org>
+Date: Tue, 14 May 2024 05:04:09 -0000
+Message-Id: <171566304947.10460.9622867880891666082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: a6ad4c3ff62c557448610da150407c9069a73d6a
+  - ref: refs/heads/for-next
+    old: 14da55bdea6be389b906faee3b0b66ab02a93817
     new: dc61f1c60959e8c4471f4e2a87b8dc1b46944118
     log: |
          8fe51b45c5645c259f759479c374648e9dfeaa03 modules: Drop the .export_symbol section from the final modules
