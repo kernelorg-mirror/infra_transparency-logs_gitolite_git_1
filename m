@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 14 May 2024 19:43:03 -0000
-Message-Id: <171571578372.31292.11254384553712463848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Tue, 14 May 2024 19:43:40 -0000
+Message-Id: <171571582019.31616.6081783654945932752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 18091cf1a5f5852bf95bb25ed8e3df9de018d6d2
-    new: f7b8c85baf70d221e9cb1a6bb7040a429314370d
+  - ref: refs/heads/for-6.10
+    old: 8f6d24a5db2acac3f52a34e6df347ec131d231ab
+    new: 21c38a3bd4ee3fb7337d013a638302fb5e5f9dc2
+    log: |
+         62158261a88fab201433686c603cbd7775f55197 docs: cgroup-v1: Update page cache removal functions
+         c1457d9aad5ee2feafcf85aa9a58ab50500159d2 selftests/cgroup: Drop define _GNU_SOURCE
+         21c38a3bd4ee3fb7337d013a638302fb5e5f9dc2 cgroup/rstat: add cgroup_rstat_cpu_lock helpers and tracepoints
+         
