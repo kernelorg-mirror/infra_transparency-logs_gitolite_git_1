@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5334699043011989849=="
+Content-Type: multipart/mixed; boundary="===============8931733900769270564=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 15 May 2024 07:52:42 -0000
-Message-Id: <171575956202.18307.3175698947011467916@gitolite.kernel.org>
+Date: Wed, 15 May 2024 07:54:45 -0000
+Message-Id: <171575968599.19134.12963246185317415205@gitolite.kernel.org>
 
---===============5334699043011989849==
+--===============8931733900769270564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 9fa6b84680a92b5281af8d3d56cf57802cc617a1
-    new: 5861b3c1365adc0c333b5fda702bd5f297284505
+    old: 5861b3c1365adc0c333b5fda702bd5f297284505
+    new: c0b7583356c47acf278ac40e6bab2192364fcb16
     log: |
-         5861b3c1365adc0c333b5fda702bd5f297284505 drop a bunch of asoc meson patches in 5.15 and older based on review
+         c0b7583356c47acf278ac40e6bab2192364fcb16 fix up queue-5.15/iommu-mtk-fix-module-autoloading.patch
          
 
---===============5334699043011989849==
+--===============8931733900769270564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715759558 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715759685 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1715759557-06b117e2b62108bc0059eea252293fe3aa94c9ff
+nonce 1715759684-f1460aa009435291ff6464ac350ab5d0073fe375
 
-9fa6b84680a92b5281af8d3d56cf57802cc617a1 5861b3c1365adc0c333b5fda702bd5f297284505 refs/heads/master
+5861b3c1365adc0c333b5fda702bd5f297284505 c0b7583356c47acf278ac40e6bab2192364fcb16 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZEacYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k4sP/3dm0cxXURc3xH1WoU1e
-fa/oHSRPAcnpELpP4Wj9SUmEMLrWG0yh+6b6lDtEL0rqdx27yAJ6C/6Cb7yxFqlU
-WAUyr/vLXYFgOT9fgo/qvuEVEGvZCwy09iFA7gUTsLqW+RK8M+NcaPdMp+odwNbt
-zCIGiS98AwZmUj0cHSuwhrXF57xUdF+Hw8pSxPWRoN09exiK9XJvlhiaddfNTrrg
-Ihvup3bOcOp5zpgZ/EDNjxxvjt2EuaHratOq8S7rYbk7q0TRntGl8mqSoPVO0f6U
-O4hPCw/qVm9KEUKoU2jzlASMNgK7Wy2thvTReUzEEekLpCgj1ql0vO1s8K035NHJ
-rtWvY9Oj1qjIsJwiBcvim3y4UiHHMkYTBBCTqwl1N0l7gYi+krCtkq2KG3XwcvS9
-cJiM9JwNtRWTGnxA6UlkiLY1NzLtAXZWl2iYuk8dGkEQVOz8j8Xj9w+fBuj7yE0M
-Njm42d4bSYmnE1yBAYEz4vp+KYOr7VWbZEKPIHq7ErlG8Xg2HP65XihSwcHUDrlg
-hmnOd+gAP8xGg031weAacDPV9RLexo9fYMbvvaw4gxNzJwxDaxxmzgAkkyzEYm17
-GO0fv9vwCUbRl8vokBLcqBvN7Ze8EE0+UskBCa20N+rzboTD2r4YAHBJPNHx9CZj
-mO5szYA0+ziKojKNEarGkCsL
-=7O6W
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZEakUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KJcP/1l4WDAqKDqDDz9sZ8Re
+6puivgVBd0w8dxnGw4BIzZHrOAPGl0dpRDFVmWck6AJwy5L3msBU+Yw+b+TRYFQ0
+QtwvzNS5PoiuReqPlAOdtCRe2B8IBmQzNK0pkJv8cOFn7/7vh6xGJx8SQhYpfbTF
+0uSTUTNZt5h6C6eKMBvdljXBmlsXzhYFdGr+w291YaaDAXiA6HpH0cLuhcKUahdS
+3mpeNXG9mU7f/qi1tUD5Iry2n+cNPRaH0sVfnszW6HHnjFO92SA0cHGVDvX+16dC
+xz8l7RQS3T8jsGRrQdk5QRlZfAEBYvyMNmu5rEtwcd6vkkVQuR4ghUK4//zGGoA6
+zrD15qudRIpl3vXjy2YxCcZPmTmQjZH3zoCDK+/aVbm9A80+urnYVIXpkTyZWxfw
+Cs6dMw0vrBQm3MTo2+U0htXEFhpnqtpIH1bSl/mEgY+i/sq61umIsuRjH8K0G4PB
+AkHXyNpPoLE/hzDP0yHQqTDNmAthuzs+5hROm/VmeCrMd/qKeaS0CZCI0py2gex/
+fv78qJXfuHXuVxDcIz+acJmiiCpx+3mnEN3+F4TFPIs+nuYLLCrU+Y20n+H3CLtu
+5mPpK1ySw78MAP8HiJd1tLbuQXPvP1SYhdOXNzLyg6Com3CrYpdx8hmjCtyXw+JU
+kAD3RniRXZV0MJPLgHO9PSz3
+=7GDj
 -----END PGP SIGNATURE-----
 
---===============5334699043011989849==--
+--===============8931733900769270564==--
