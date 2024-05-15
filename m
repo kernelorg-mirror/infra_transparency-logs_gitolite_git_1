@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Wed, 15 May 2024 12:22:05 -0000
-Message-Id: <171577572532.4708.14509064506238418367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Wed, 15 May 2024 12:24:34 -0000
+Message-Id: <171577587429.5578.11666881125351532790@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/heads/fbdev-6.10-1
-    old: 0000000000000000000000000000000000000000
-    new: ce4a7ae84a58b9f33aae8d6c769b3c94f3d5ce76
+  - ref: refs/heads/main
+    old: 3f90be087fa62c0c7ed76c2ac26752f0ac3a89e7
+    new: d3d4b21db909ab77aa8b71b70de438d0010f364b
+    log: |
+         d3d4b21db909ab77aa8b71b70de438d0010f364b CI: create review.yml file
+         
