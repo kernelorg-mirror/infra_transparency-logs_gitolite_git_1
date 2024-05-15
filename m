@@ -1,26 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============8010285671332467504=="
+Content-Type: multipart/mixed; boundary="===============8407640305022021247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 15 May 2024 19:49:06 -0000
-Message-Id: <171580254674.7931.17706693289773838473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 15 May 2024 19:50:11 -0000
+Message-Id: <171580261178.10067.14102188330327993133@gitolite.kernel.org>
 
---===============8010285671332467504==
+--===============8407640305022021247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
+  - ref: refs/heads/block-6.10
+    old: 803fbb96c16a8882609d94336c9097ba993fe52e
+    new: efb905aeb44b0e99c0e6b07865b1885ae0471ebf
+    log: |
+         efb905aeb44b0e99c0e6b07865b1885ae0471ebf cdrom: rearrange last_media_change check to avoid unintentional overflow
+         
+  - ref: refs/heads/for-next
+    old: ba94750e4f9048bdbed681da49149ba78cadaa6d
+    new: c1e14167e35b97dda4df490f1422521682ecbd5f
+    log: |
+         efb905aeb44b0e99c0e6b07865b1885ae0471ebf cdrom: rearrange last_media_change check to avoid unintentional overflow
+         c1e14167e35b97dda4df490f1422521682ecbd5f Merge branch 'block-6.10' into for-next
+         
   - ref: refs/heads/master
     old: 1b294a1f35616977caddaddf3e9d28e576a1adbc
     new: 33e02dc69afbd8f1b85a51d74d72f139ba4ca623
     log: revlist-1b294a1f3561-33e02dc69afb.txt
 
---===============8010285671332467504==
+--===============8407640305022021247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1064,4 @@ db5d28c0bfe566908719bec8e25443aabecbb802 Merge tag 'drm-next-2024-05-15' of http
 d34672777da3ea919e8adb0670ab91ddadf7dea0 Merge tag 'fbdev-for-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 33e02dc69afbd8f1b85a51d74d72f139ba4ca623 Merge tag 'sound-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 
---===============8010285671332467504==--
+--===============8407640305022021247==--
