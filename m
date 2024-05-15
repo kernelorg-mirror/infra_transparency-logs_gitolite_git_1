@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Wed, 15 May 2024 13:41:46 -0000
-Message-Id: <171578050684.31204.11559141474143838794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 15 May 2024 14:21:08 -0000
+Message-Id: <171578286809.26767.10570266237120428437@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: frederic
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/rcu/barriers-removal
-    old: 0000000000000000000000000000000000000000
-    new: 1dfb53cffa28a120bc5e5e56826f83ff5fc37d5a
+  - ref: refs/tags/net-next-6.10
+    old: b5dc4c20e0297fc6f2b60db2d72a866811b642e9
+    new: 0000000000000000000000000000000000000000
