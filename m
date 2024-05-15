@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5976891579552778836=="
+Content-Type: multipart/mixed; boundary="===============9101636540676961027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 15 May 2024 14:54:55 -0000
-Message-Id: <171578489503.18544.2907134939480519062@gitolite.kernel.org>
+Date: Wed, 15 May 2024 14:55:20 -0000
+Message-Id: <171578492039.20356.11878549398723897305@gitolite.kernel.org>
 
---===============5976891579552778836==
+--===============9101636540676961027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 17286680db1dc2119d0e1b4ef53593b578a2d206
-    new: 869873a25fafc6411e0f400e3d73abfaf3b6b3a1
+  - ref: refs/heads/6.10/scsi-staging
+    old: 3668651def2c1622904e58b0280ee93121f2b10b
+    new: e4f5f8298cf6ddae43210d236ad65ac2c6379559
     log: |
          9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
          10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -29,33 +29,33 @@ changes:
          e4f5f8298cf6ddae43210d236ad65ac2c6379559 scsi: mpt3sas: Add missing kerneldoc parameter descriptions
          
 
---===============5976891579552778836==
+--===============9101636540676961027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1715784871 -0400
+pusher 75C5DE3D 1715784898 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1715784871-7fc9bab83446c6884072fe8b2e2ea0063f27b003
+nonce 1715784898-d9fafbc09864b6674d03bdd035c1f700c9df969d
 
-17286680db1dc2119d0e1b4ef53593b578a2d206 869873a25fafc6411e0f400e3d73abfaf3b6b3a1 refs/tags/mkp-scsi-staging
+3668651def2c1622904e58b0280ee93121f2b10b e4f5f8298cf6ddae43210d236ad65ac2c6379559 refs/heads/6.10/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZEzKgACgkQ7ulgGnXF
-3j2M7RAApdl5bTiewcFr786aZrRRNR+aezUIiMY88jWBk0pHBJAOuK5ZTMRRI5Ex
-9kD9zv5qdf3E8ESgrEtXdwQ9b/0d7NACTPHm0jjlnL3TDvT7fvN/6wIuVwH1d09b
-8PneQux391pwYAPMUWmbelcei3w4m8zboHu0nwdx4wGH3ttGiG3RrQ/T+PApaNwm
-W0n6NfR2fZFNvgT9jIQ+4bQvyzAl5SEUmIWt9XWp8GFBn2QOqezMvjYHYNi7+Ljv
-YjbwfOa5vzetRhjaM6Gkgjak7wfM9n9z61TCRlZmv/bhHAz5apFSdqvn+Tfu+kQl
-+9/irgH8W2pl3q7QDcwK5D5bEmEWPAqDZlhzK073a7va9KuUUIt+2cCvhJlCUi7X
-TCS7x2w46aQxVCeM3N8xxSzBRnspbQodDcXYpti5myqwa1rmy/76QIPD6bhMSXaL
-q8HR1XOGIEYSjjmZe2rfCGK4cLJ6Yt5pzzU8qQoRfBloFY3SgBE0yKycbhFTDisI
-ElbA3dksSFzq6wtM8bmOXiA/a5WTFefCx89wil4dRSoyk7bApwF46GWlhTZvhVcP
-iyy3bWbPgq28QCYeMz2NiLv7kpNp+V5h7GgrJWbtT9JIFUajbsS9MTSzlnGwJz3b
-TB9P5laOevkWqDGahgdCHaNgTKKjK3qqDckYTh5u82Kawv07UyM=
-=XwPu
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZEzMQACgkQ7ulgGnXF
+3j3qgA/+I/C1VJIM2831vfx51+NcW7R0Ksu72GySFzTqKVst46UrjnHnr1uGoWxF
+NuJhOHV6/KZ8/EpM4PBhPCCz3fSwekHrZ16rTUQsRqsRbXQYM/+r5Lu2WOuTd03m
+tredC2fagrT2pAZ+0xMQLL+vAxfBBb1zkhWYte8RveC62kjr02EBuqpQS+e/8ECa
+s8CnPgoZeb5wEjP6GhB12XklgrF/p/dLSidj96XXUMnsbxi5sr5MTuVrCywIavGw
+aApIemu0Gtop+RU+qa5EWLT/9prT6mGvhJRJ3jsW10HMLZUvNFJxmRoA9g16Yqqv
+9Xb8YcWyi6gIrPOarDU/t9XTlWxNLh7EmgRbcdS6juOUW4qUoujfcnBqzKf1oj9Q
+7weQhE595OFkTcj6ZxtSAOkKCE6KdhQfQGFB8bb+7FUTN4WdNZKJYqhW51dpCzkN
+GcnX7vrHK2lHIbZdrEVRJL1U6FsZjnOQ69/8Qr+Gzyc0824zUH1lPdcz1/srvsnB
+4cIzr2JvwtOWZjqqZqP0NQSDZl4+Al9Jzs2Ndak0ApEXBBCjuD9h3A45DMLQSdh2
+nF/zCEmAfW2rz7DRhPcoJ85iH6v5yaohtTIzhTsEicjOK3hTxmNFIynkgh2KSnPw
+opVqsO2Z3KSmJEgZBd11TkRG2SteDc1ORlatXE49rCULxZ6LlbQ=
+=HpEm
 -----END PGP SIGNATURE-----
 
---===============5976891579552778836==--
+--===============9101636540676961027==--
