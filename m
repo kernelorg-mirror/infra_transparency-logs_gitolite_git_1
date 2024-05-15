@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 15 May 2024 21:29:40 -0000
-Message-Id: <171580858062.15436.11980178643859538944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Wed, 15 May 2024 21:34:23 -0000
+Message-Id: <171580886329.18826.10496171929551938279@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/misc
-    old: e21fd57bf0c82f58f1c4ac58e3f0e8ccf74a9317
-    new: fe4a83ec07818f2243eac584488e65397699550c
+  - ref: refs/tags/cgroup-for-6.10
+    old: 0000000000000000000000000000000000000000
+    new: 1a91c9eda0a34016f42e1a46d7481fcbc75c7f56
