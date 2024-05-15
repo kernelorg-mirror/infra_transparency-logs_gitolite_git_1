@@ -1,48 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============9039195363591066084=="
+Content-Type: multipart/mixed; boundary="===============2794007468391651315=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Wed, 15 May 2024 02:54:56 -0000
-Message-Id: <171574169677.26573.1395092709108691325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 15 May 2024 03:02:07 -0000
+Message-Id: <171574212731.32457.9863561042589920749@gitolite.kernel.org>
 
---===============9039195363591066084==
+--===============2794007468391651315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/untested.persistency
-    old: 2860da18a75c4e0e4d477417ac9ae9f1d37c676c
-    new: b3c987f7369f15318ee1284d9203737f09294b7e
-    log: revlist-2860da18a75c-b3c987f7369f.txt
+  - ref: refs/heads/dt-bindings
+    old: 13ee3f81afab9fe4b59d5061653c31c3285c7a49
+    new: 2917087fe5bd8c84f3711a0b68c1ad6ad91abd6a
+    log: revlist-13ee3f81afab-2917087fe5bd.txt
 
---===============9039195363591066084==
+--===============2794007468391651315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2860da18a75c-b3c987f7369f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c82aabcf3688687c78502d3f67a18f3c4e8bc888 convert hypfs
-9f1a1575f252e62320a345d1db542589825ab8a9 spufs: switch to locked_recursive_removal()
-b025441bf0bf5cfedf6395fc582e4f74204844e4 convert spufs
-d5f5c42f960142a4a2c79b7c029126b652e193c8 convert tracefs
-27c38b5566e61e91685186ee726d59ccc687dc59 convert debugfs
-bb6d7db87873902d8c6b80dbe4778d009555f1e3 configfs_{do_depend_item,depend_prep}(): pass configfs_dirent
-bee8230544a6a8995d3ac75130422af9ce61bbf1 configfs_detach_{prep,rollback}(): switch to configfs_dirent
-ad86eb1eacaab1a4c0f170caab8be9aca92857f6 remove configfs_hash_and_remove()
-c23ce67353c82a5d2b8bff9b856b9448be87e055 qibfs: fix _another_ leak
-2efb469e77545cdbfc1ae3c5129407d187881317 convert qibfs
-cd4667cfd6bbcf274948b7c1c08d97000149bf91 convert binfmt_misc
-894604313fa0a6533aef322727b1621d2149d556 make securityfs_remove() remove the entire subtree
-22ec8ebe06806e40c708814af0ad691d785cea25 convert securityfs
-ad3dbbe43fa107fc7d400aa68d19f8025d9e6ffb securityfs: no need to pin filesystem when already given a parent
-138add44f6d46f2aba114a84e32be844b5a838c9 fix locking in efi_secret_unlink()
-121e61fed88697dc30b5569bbc9a6d3aced08a80 efi_secret: clean securityfs use up
-c6429afc4eb7e8fd9044f85e21c53285f1b96a8b ima_fs: don't bother with removal of files in directory we'll be removing
-b3c987f7369f15318ee1284d9203737f09294b7e evm_secfs: clear securityfs interactions
+certificate version 0.1
+pusher 3DE334E7 1715742122 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
+nonce 1715742122-daecc3ef27bb9433de30ce30ed92ac025370b125
 
---===============9039195363591066084==--
+13ee3f81afab9fe4b59d5061653c31c3285c7a49 2917087fe5bd8c84f3711a0b68c1ad6ad91abd6a refs/heads/dt-bindings
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEEtJ9XYyOm/GqvHx8fGR2jT3jNOcFAmZEJaoACgkQfGR2jT3j
+NOcDSQ/+La2YukxvJMZFnBpBA1hIHTWEngAjKXsu4TgfO+AwTrfC1kB79QT/zXcW
+dKekTg7qfFvEfYN/5vNviofw57aCisrr1Ot4f3YvQQ2l56TrRiCnt+zXlR3eGh7a
+8AgGZpbqWHy+vkqgZO0vcWO4ShV2oSAE6eyQpFkdEJBemufSMita8F8wnttdwYAx
+iFZHhJtdSr7UYNZG4bpioABG3yzwbfSWEaZIkvyqdxLm8ow0ONNN4gOmtzO0WMZB
+znFxC2avdfDU3gS5cYiK9ikq6k5ndWMKXITYXnyse0SNNF/iauNPhPwHlEqyLsBI
+8m+SVQ6o8hFpv+W8Z0AOKSdT7FeEtb1XOYKOxrmW6O9Uu53flhg8rnNhqMA3V/9P
+cSy5i+GC98Y6MfEb6fhFaTtg8bAuUfen0M1seA0JolloVO0mfDCGKTaFnLfzTu+C
+SwtaVTE49jNIE9vV4m3tlr3w750KYBbMEfE5VXxQJDab9gyBkt/doqBjl1XSgAgP
+BuAdRlhk7sMaCPalSq6Fkmuc9ezpOdYWOIgzYXwg9Kn37FEPy4u2TzO8y0GDmbS6
+e0r/GeJ/gPMvkr/aw2XUqlwDSVLaYiueYfMW99JtdMjaEJ2ge4D0hbi4EKEALX0f
+RUUj0MsmGqQNqMLiwtDvasHyb//QlC0OJ5yE6E/XgkeEHT+oljk=
+=689y
+-----END PGP SIGNATURE-----
+
+--===============2794007468391651315==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-13ee3f81afab-2917087fe5bd.txt
+
+15fa628814066819074d9848abf69d038b5b75e6 dt-bindings: PCI: microchip: Increase number of items in ranges property
+6117ac639f3bb49306dc2102a80592161b22c198 dt-bindings: PCI: ti,am65: Fix remaining binding warnings
+06cbc8e4e96b7a1d8b011ea16f64be7e8889bb43 dt-bindings: PCI: cdns,cdns-pcie-host: Drop redundant msi-parent and pci-bus.yaml
+a90de7d7b88689463891a492fe0123f4d5dadb5a dt-bindings: PCI: mediatek,mt7621: Add missing child node reg
+6575f6b32a3249938a0fa0659a2a80bf61af751a dt-bindings: PCI: host-bridges: Switch from deprecated pci-bus.yaml
+4bd9f8b1804d9d03fd3217b25befb8918c1eca03 dt-bindings: PCI: mediatek,mt7621-pcie: Switch from deprecated pci-bus.yaml
+238270f1afbd7ce8638dd3b8df2721676fe50f4f dt-bindings: PCI: layerscape-pci: Convert to YAML format
+c509b89b09547a35cedda9490d87d06deaf4c452 dt-bindings: PCI: qcom,pcie-sm8350: Drop redundant 'oneOf' sub-schema
+e86350e83c2594515956a38bb8f24ee7901fd39e dt-bindings: PCI: rcar-gen4-pci-host: Add R-Car V4H compatible
+2917087fe5bd8c84f3711a0b68c1ad6ad91abd6a dt-bindings: PCI: rcar-gen4-pci-ep: Add R-Car V4H compatible
+
+--===============2794007468391651315==--
