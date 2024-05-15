@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 15 May 2024 10:42:27 -0000
-Message-Id: <171576974737.29428.2453007793350239168@gitolite.kernel.org>
+Date: Wed, 15 May 2024 10:43:26 -0000
+Message-Id: <171576980659.29838.9124756323243652375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 8bd67ebb50c0145fd2ca8681ab65eb7e8cde1afc
-    new: 06080ea23095afe04a2cb7a8d05fab4311782623
+    old: 06080ea23095afe04a2cb7a8d05fab4311782623
+    new: 3a7c1661ae1383364cd6092d851f5e5da64d476b
     log: |
-         06080ea23095afe04a2cb7a8d05fab4311782623 selftests: net: bridge: increase IGMP/MLD exclude timeout membership interval
+         3a7c1661ae1383364cd6092d851f5e5da64d476b net: bridge: mst: fix vlan use-after-free
          
