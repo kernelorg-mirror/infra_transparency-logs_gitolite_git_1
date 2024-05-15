@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 15 May 2024 19:25:30 -0000
-Message-Id: <171580113032.24014.4504061049463613925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 15 May 2024 19:45:01 -0000
+Message-Id: <171580230171.4709.7285125764460310613@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/controller/keystone
-    old: 9e6ffee1f846685c1e6380561807a423064cb941
-    new: 376fab455db9aec8d755ceb430664872be206421
+  - ref: refs/heads/master
+    old: 1a556e63116db1024f657c6820c36e4a80914bea
+    new: 9dc8ac15ca51dec538127afae31c8a5bc49c9bb9
     log: |
-         376fab455db9aec8d755ceb430664872be206421 PCI: keystone: Enable BAR 0 only for v3.65a
+         9dc8ac15ca51dec538127afae31c8a5bc49c9bb9 Bluetooth: Add quirk to ignore reserved PHY bits in LE Extended Adv Report
          
