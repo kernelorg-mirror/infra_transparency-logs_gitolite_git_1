@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 15 May 2024 18:54:09 -0000
-Message-Id: <171579924902.32519.7866744653265987019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 15 May 2024 19:18:18 -0000
+Message-Id: <171580069869.18270.17737686118542008483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 6a486c1361ea588938898ae812b32dcfbd4022f2
-    new: 1a556e63116db1024f657c6820c36e4a80914bea
+  - ref: refs/heads/controller/dwc
+    old: b1d4d63d52a72c55f09c99ce454588c51c5a1674
+    new: 5066c0b87d865d1fafc3e6c761df2f433237b1e2
     log: |
-         831be422f3bbe9a766e110ec018e7fb29af060c6 Bluetooth: MGMT: Make MGMT_OP_LOAD_CONN_PARAM update existing connection
-         1a556e63116db1024f657c6820c36e4a80914bea Bluetooth: hci_sync: Fix not using correct handle
+         e3e80393d46d367c3f02d4a30a4b15497ad3dc09 PCI: dra7xx: Fix dra7xx_pcie_cpu_addr_fixup() parameter name
+         5660c434f05d2d646b64ffcd04bbb62afc98703c PCI: artpec6: Fix artpec6_pcie_cpu_addr_fixup() parameter name
+         3b306469b6cb7319133fb05a3e73bae71186f324 PCI: endpoint: Rename BME to Bus Master Enable
+         5066c0b87d865d1fafc3e6c761df2f433237b1e2 PCI: qcom-ep: Drop 'Link is enabled' from the debug message for BME event
          
