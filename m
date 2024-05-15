@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 15 May 2024 18:16:12 -0000
-Message-Id: <171579697200.6232.5857069210045273945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 15 May 2024 18:19:02 -0000
+Message-Id: <171579714244.7255.16908823798067840323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 89c75e2dcfe79d05a88cffc565dcf5c19453097b
-    new: ea77393cceef650fab3f72bb8531dc62b1d0f71d
+  - ref: refs/heads/kbuild
+    old: bfb57ef0544ae6f67bf83430aa0bb877897da783
+    new: 6ffe4fdf8901dc0a15d7278531503ecd4522ae15
     log: |
-         95caf90b6a5041c988bb1cdda71be4d605f79f8c list_patchsets: support mm-unstable
-         ea77393cceef650fab3f72bb8531dc62b1d0f71d todo: add some random thoughts from LSFMM
+         6ffe4fdf8901dc0a15d7278531503ecd4522ae15 kconfig: use sym_get_choice_menu() in sym_check_prop()
          
