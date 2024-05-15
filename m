@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0042669352189665220=="
+Content-Type: multipart/mixed; boundary="===============6980823511968617775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 15 May 2024 15:03:01 -0000
-Message-Id: <171578538164.25036.4696843037780432441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 15 May 2024 15:04:34 -0000
+Message-Id: <171578547413.25650.15095948382241108301@gitolite.kernel.org>
 
---===============0042669352189665220==
+--===============6980823511968617775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 1b294a1f35616977caddaddf3e9d28e576a1adbc
     log: revlist-a38297e3fb01-1b294a1f3561.txt
 
---===============0042669352189665220==
+--===============6980823511968617775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b2665fe61d8a51ef70b27e1a830635a72dcc6ad8 Merge tag 'ata-6.10-rc1' of git://git.k
 b850dc206a57ae272c639e31ac202ec0c2f46960 Merge tag 'firewire-updates-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 1b294a1f35616977caddaddf3e9d28e576a1adbc Merge tag 'net-next-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============0042669352189665220==--
+--===============6980823511968617775==--
