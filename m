@@ -1,34 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Thu, 16 May 2024 12:11:41 -0000
-Message-Id: <171586150185.26888.15850832776635877514@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7463073870380910639=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 16 May 2024 12:12:20 -0000
+Message-Id: <171586154095.27216.6761118678950792691@gitolite.kernel.org>
+
+--===============7463073870380910639==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/pmdomain-v6.10
-    old: 0000000000000000000000000000000000000000
-    new: f44b51c478cd7fed27ab0ded9268720c2a70bc20
-  - ref: refs/tags/v6.9
-    old: 0000000000000000000000000000000000000000
-    new: d376cac46d30f3913ed0166151263b7d0ad7eed9
-  - ref: refs/tags/v6.9-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b4429db95735be42f9b96d7383adfe2fc51dc9fa
-  - ref: refs/tags/v6.9-rc4
-    old: 0000000000000000000000000000000000000000
-    new: c8d6e4168c5b8c2b0cf545bd3ca87356b4079164
-  - ref: refs/tags/v6.9-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f7106f2f9cc0b361fbc610a7e0c74c8e0658d9b5
-  - ref: refs/tags/v6.9-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 02c1f8066ba946feb60e7846f8d69a2a7ccf6590
-  - ref: refs/tags/v6.9-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 74609cb690e2cd9a5e6f20a6564f415ccd0141f7
+  - ref: refs/heads/master
+    old: 5642346a05d2f763d35deb3f5afe4a7990f04f21
+    new: 5c01d993c830535a96f4ffc99cdc34947345f580
+    log: |
+         5c01d993c830535a96f4ffc99cdc34947345f580 drop eventfs patch from 6.6 and 6.8 queues
+         
+
+--===============7463073870380910639==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715861536 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1715861535-1b9e749de911d802565bd442e53f4bd52ae3bbbc
+
+5642346a05d2f763d35deb3f5afe4a7990f04f21 5c01d993c830535a96f4ffc99cdc34947345f580 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZF+CAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dcAQAKmRDu6xGlulv3T/W+WM
+8ddhGn1AY3UqpPkJ0U8ecw2g8qbEcMPCCQSQoHtM3x61UNSqKtaOBoFP7EyBo4xx
+uaoGsk80yu5AbofNXM6yxY8XcPRIgcSdXKzKqVK5o/3UmGf1llTpEu8xh6T8oVmr
+Y+Qc71r2NgJ0OysOjNOLdKjy5AcbCIx5VqxVyzwgaS6YXPlioEHDPSFVz+5ZwNKi
+yUbD4rJNdiso76F3bHsOIE5CWhQ09CtmwLMGF09rCDKFfdZBvJD4vHhHU+1XoE/s
+R+VDs/5dx5u/MlM9rqtnBZxvSr5C7wBbzOZ9QqY9eXdKkTAAIe268Ny9BJwKzgiv
+vLcDW3l/N1PczO5DNLGPF75wtylX1/3CCZ3D2fBBI0OIuegp6SGLKZ+PT3nZIom+
+Z9UucAnNwoPWPtczdb+sVYJKi3GbsI07Fg6dNMlJLg5UGbY8pMLHX6WWQeqvQ6wv
+9Q2q2RqtTqme04V/TQ2KnvipaFTBuGnVMBB2+BIWNM8B0hs+nADvneMIszlui9+w
+4qsEDxD3oocThWd6cTInPW9Y+0flVjzwjgAVlYYnTJYpDSUyh2wK6/HAhMQ3nmrb
+ALe/bHn6xESNWw4YZXRdhars92eGokNHAGxF9VpSOJpWpGpEMfyqpkpGT9yIFa7r
+JDXpuy3i77/Rg3BLsJUYqevB
+=y4Pc
+-----END PGP SIGNATURE-----
+
+--===============7463073870380910639==--
