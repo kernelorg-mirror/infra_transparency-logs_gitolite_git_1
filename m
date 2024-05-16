@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2292825119349246861=="
+Content-Type: multipart/mixed; boundary="===============1215830721917197588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 16 May 2024 15:24:17 -0000
-Message-Id: <171587305716.3812.13549995544924181721@gitolite.kernel.org>
+Date: Thu, 16 May 2024 15:24:50 -0000
+Message-Id: <171587309052.4103.895818500095691507@gitolite.kernel.org>
 
---===============2292825119349246861==
+--===============1215830721917197588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: f4e8d80292859809ea135e9f4c43bae47e4f58bc
-    new: 3c999d1ae3c75991902a1a7dad0cb62c2a3008b4
-    log: revlist-f4e8d8029285-3c999d1ae3c7.txt
+  - ref: refs/heads/tpm2_key
+    old: d36f7471a4893196cec85cab5c9c139b5c0a58a2
+    new: d73772861feddc46f2a5b7bcc641f19d521e4bad
+    log: revlist-d36f7471a489-d73772861fed.txt
 
---===============2292825119349246861==
+--===============1215830721917197588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4e8d8029285-3c999d1ae3c7.txt
+Content-Disposition: attachment; filename=revlist-d36f7471a489-d73772861fed.txt
 
-d8171aa4ca72f1a67bf3c14c59441d63c1d2585f selftests/resctrl: fix clang build failure: use LOCAL_HDRS
-d4e6fbd245c48b272cc591d1c5e7c07aedd7f071 selftests: default to host arch for LLVM builds
-cde5e1b4a90486b4ac731ee43e4e0152cc16887b kunit: Handle thread creation error
 f8aa1b98ce40184521ed95ec26cc115a255183b2 kunit: Fix kthread reference
 53026ff63bb07c04a0e962a74723eb10ff6f9dc7 kunit: Fix timeout message
 3a35c13007dea132a65f07de05c26b87837fadc2 kunit: Handle test faults
@@ -1050,5 +1047,8 @@ a2a58909cfb5fd5e9f7bb7d954eec0a32fee3f1f Merge branch 'for-6.10' into test-merge
 f4b0c4b508364fde023e4f7b9f23f7e38c663dfe Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 de6fef50eaf40789b11841474726fd918a3a84a1 Merge tag 'cgroup-for-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 3c999d1ae3c75991902a1a7dad0cb62c2a3008b4 Merge tag 'wq-for-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+a8233dafe45ec2f47e9bf2d0af1cdd6886a1d9cf KEYS: trusted: Do not use WARN when encode fails
+a8fa703291138e2ccd78c41ce4b0c2a452e21717 KEYS: trusted: Migrate tpm2_key_{encode,decode}() to TPM driver
+d73772861feddc46f2a5b7bcc641f19d521e4bad crypto: rsa-pkcs1pad: export rsa1_asn_lookup()
 
---===============2292825119349246861==--
+--===============1215830721917197588==--
