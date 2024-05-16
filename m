@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5317596538076783408=="
+Content-Type: multipart/mixed; boundary="===============9053848421206018109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 16 May 2024 17:31:51 -0000
-Message-Id: <171588071181.1697.13347350165457286961@gitolite.kernel.org>
+Date: Thu, 16 May 2024 17:32:14 -0000
+Message-Id: <171588073496.1904.1359043334003475285@gitolite.kernel.org>
 
---===============5317596538076783408==
+--===============9053848421206018109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,41 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: cfc2eefd40f1bc121a41a2acd54458046d77f9ae
-    new: 1b294a1f35616977caddaddf3e9d28e576a1adbc
-    log: revlist-cfc2eefd40f1-1b294a1f3561.txt
-  - ref: refs/tags/v6.9
-    old: 0000000000000000000000000000000000000000
-    new: d376cac46d30f3913ed0166151263b7d0ad7eed9
+  - ref: refs/heads/dev-queue
+    old: a04c7333e5a8a3508b0dcb7273d918467930815b
+    new: 7268dc4a27b6201c95ce84dbba79667f7a249976
+    log: revlist-a04c7333e5a8-7268dc4a27b6.txt
 
---===============5317596538076783408==
+--===============9053848421206018109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cfc2eefd40f1-1b294a1f3561.txt
+Content-Disposition: attachment; filename=revlist-a04c7333e5a8-7268dc4a27b6.txt
 
-dfce05c82fb1a16c389e8fb2445dcd0dea7c1a72 doc:it_IT: align Italian documentation
-02e97ef1094ae1b81afd50b7ea399e75c431ce4e docs: ja_JP/howto: Catch up update in v6.8
-d43ddd5c91802a46354fa4c4381416ef760676e2 docs: kernel_include.py: Cope with docutils 0.21
-5a3941f84b8f91bb1e111499d803b32188d33e5d libbpf: Fix error message in attach_kprobe_session
-7c13ef16e87ac2e44d16c0468b1191bceb06f95c libbpf: Fix error message in attach_kprobe_multi
-da51bbcdbace8f43adf6066934c3926b656376e5 Docs: typos/spelling
-125db341e2e25db32e494aed865e5415a40fc07b docs, kprobes: Add riscv as supported architecture
-db483303b58f175cf7508ccfb1d5514f2488f11e docs: stable-kernel-rules: reduce redundancy
-2263c40e65255202f6f6d9dfa31d23906995ff7c docs: stable-kernel-rules: call mainline by its name and change example
-5db34f5bfd78230148df83472af5a85c91d04058 docs: stable-kernel-rules: remove code-labels tags and a indention level
-bb12799503d75f29ddc5a6b2905f960ababe308c docs: stable-kernel-rules: explain use of stable@kernel.org (w/o @vger.)
-af3e4a5ab9a017da9cf624791629e2df710a171c docs: stable-kernel-rules: create special tag to flag 'no backporting'
-5384258f4ef0c27cc9d5255ce4992f13656e215d docs: scripts/check-variable-fonts.sh: Improve commands for detection
-7f20ac18cdaa63a1e8fcb9f7a9dc9e160e16c106 docs/zh_CN: remove two inconsistent spaces
-10466b17af6567448c2ade4265c90760539fb787 docs: stable-kernel-rules: fix typo sent->send
-08e90da6872a9f9f63ca2911bbce6883b6fc1a19 bpf: Missing trailing slash in tools/testing/selftests/bpf/Makefile
-f7771eba325dd2c75f0f2469342b96002e31710f docs/zh_CN/rust: Update the translation of arch-support to 6.9-rc4
-88bfcfa43ab67601d38917d9344723e344b257d8 docs/zh_CN/rust: Update the translation of coding-guidelines to 6.9-rc4
-914819526febff081b1ea96df7cbd3eb06817d61 docs/zh_CN/rust: Update the translation of general-information to 6.9-rc4
-55b8d0a33227bea08c327ee9f6c31491e8627818 docs/zh_CN/rust: Update the translation of quick-start to 6.9-rc4
-75377ae754c93a312e8430e9c159db3273bb679c gfs2: Simplify gfs2_read_super
 8e667a065daa6f4c01eadc20f3815f7bf13255bc selftests/bpf: Fix bind program for big endian systems
 bbb1cfdd02249dc8cf878e86a523b28814ed36c0 selftests/bpf: Implement socket kfuncs for bpf_testmod
 15b6671efa508ff9c1fb995452913f8de85db73b selftests/bpf: Implement BPF programs for kernel socket operations
@@ -1053,5 +1029,26 @@ b2665fe61d8a51ef70b27e1a830635a72dcc6ad8 Merge tag 'ata-6.10-rc1' of git://git.k
 4f8b6f25eb1e51febd426da764a0b0ea652ad238 Merge tag 'for-6.10/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 b850dc206a57ae272c639e31ac202ec0c2f46960 Merge tag 'firewire-updates-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 1b294a1f35616977caddaddf3e9d28e576a1adbc Merge tag 'net-next-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+190769408d0592aecd7dbd692bf1b23f928debe0 ice: Interpret .set_channels() input differently
+1c73aef9ad6c8e8c31865aa379ba3282800bcf34 ice: fix 200G PHY types to link speed mapping
+85e2c4f834f33b255c822668c146e8250ab6ee28 idpf: don't enable NAPI and interrupts prior to allocating Rx buffers
+749523236f03fd1b707c5e19c913367e719ec575 idpf: Interpret .set_channels() input differently
+bace4a286533eb6fb3eece256b051d3bfb16b6a9 ice: add and use roundup_u64 instead of open coding equivalent
+af1da5178d3949eefcd3ce7c56d7953b84ddc701 ice: Introduce ice_ptp_hw struct
+b749fe0225f2843a70352b230dda63d37d5eb03a ice: Introduce helper to get tmr_cmd_reg values
+809341be1bb529076ca2cd95b4a0ae35ef1801b1 ice: Implement Tx interrupt enablement functions
+4d3f466299c3123b658a034d5ac5243903a9d3be ice: Add PHY OFFSET_READY register clearing
+cbd740099d7540b8233d8a33d04a297fddb56d85 ice: Move CGU block
+91ac9b04466f7d175354669623df87b31deb5145 ice: Introduce ice_get_base_incval() helper
+a086777721c89b92715ad868dc27763fc2c91954 ice: Introduce ETH56G PHY model for E825C products
+f1cd2a88e59b1ec03ccf7b7bb9a94dd2d4f4baee ice: Change CGU regs struct to anonymous
+d9d05cf662ac291c8fe5e9b8521acb5cdb8d74f8 ice: Add support for E825-C TS PLL handling
+2287bd4099257df3c90512f6bce62703ffc1d22c ice: Add NAC Topology device capability parser
+e3ecbb5d936cac5994535febdf91f64f09d6ff6b ice: Adjust PTP init for 2x50G E825C devices
+6f74fd43632afd65efea3e4ac7df907c3ee22cf3 ice: store representor ID in bridge port
+f801a53d7985840c0ba3ee917c279c1d9f22b5c6 ice: move devlink locking outside the port creation
+dd733f3f3464a1e18e1aefc676c5a3cef86e39e4 ice: move VSI configuration outside repr setup
+60823aad53a2b65fc8653e8af17de1787d588fa2 ice: update representor when VSI is ready
+7268dc4a27b6201c95ce84dbba79667f7a249976 net: intel: Use *-y instead of *-objs in Makefile
 
---===============5317596538076783408==--
+--===============9053848421206018109==--
