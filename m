@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1417788949968820179=="
+Content-Type: multipart/mixed; boundary="===============2292825119349246861=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 16 May 2024 15:23:54 -0000
-Message-Id: <171587303423.3621.2452285071088357823@gitolite.kernel.org>
+Date: Thu, 16 May 2024 15:24:17 -0000
+Message-Id: <171587305716.3812.13549995544924181721@gitolite.kernel.org>
 
---===============1417788949968820179==
+--===============2292825119349246861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: f4e8d80292859809ea135e9f4c43bae47e4f58bc
     new: 3c999d1ae3c75991902a1a7dad0cb62c2a3008b4
     log: revlist-f4e8d8029285-3c999d1ae3c7.txt
 
---===============1417788949968820179==
+--===============2292825119349246861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f4b0c4b508364fde023e4f7b9f23f7e38c663dfe Merge tag 'for-linus' of git://git.kern
 de6fef50eaf40789b11841474726fd918a3a84a1 Merge tag 'cgroup-for-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 3c999d1ae3c75991902a1a7dad0cb62c2a3008b4 Merge tag 'wq-for-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 
---===============1417788949968820179==--
+--===============2292825119349246861==--
