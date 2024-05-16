@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 16 May 2024 17:11:13 -0000
-Message-Id: <171587947328.19882.6816290631280243634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 16 May 2024 17:21:19 -0000
+Message-Id: <171588007931.26731.1393382301038451390@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/controller/keystone
-    old: 8c990314172b37011cf31c33ed52f7978eca73d4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/resource
-    old: 784299512a847701ad7c240bed7d3d7a69459736
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/devicetree-for-6.10
+    old: 0000000000000000000000000000000000000000
+    new: ba182b1630bb4a7370b7815bbed5e99cf5bd6667
