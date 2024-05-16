@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 16 May 2024 22:16:35 -0000
-Message-Id: <171589779547.14445.13456766657248370067@gitolite.kernel.org>
+Date: Thu, 16 May 2024 22:16:41 -0000
+Message-Id: <171589780122.14535.2795249351459323401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/bluetooth/bluez
 user: holtmann
 changes:
-  - ref: refs/heads/master
-    old: c9fe888793e5422845da9ac9a6a3d8d052a46b81
-    new: f6241a10e460ab14fa3e2b943460673df0ded603
-    log: |
-         f6241a10e460ab14fa3e2b943460673df0ded603 Release 5.76
-         
+  - ref: refs/tags/5.76
+    old: 0000000000000000000000000000000000000000
+    new: 36c2a2075c9b889634ecf8fb4c483cf3e2f0c3a2
