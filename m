@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 16 May 2024 08:46:20 -0000
-Message-Id: <171584918006.25148.1792778150164392932@gitolite.kernel.org>
+Date: Thu, 16 May 2024 08:48:05 -0000
+Message-Id: <171584928581.25856.10164351781983440120@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 621cde16e49b3ecf7d59a8106a20aaebfb4a59a9
-    new: 99975ad644c7836414183fa7be4f883a4fb2bf64
+    old: 99975ad644c7836414183fa7be4f883a4fb2bf64
+    new: fd76e5ccc48f9f54eb44909dd7c0b924005f1582
     log: |
-         99975ad644c7836414183fa7be4f883a4fb2bf64 net: lan966x: remove debugfs directory in probe() error path
+         fd76e5ccc48f9f54eb44909dd7c0b924005f1582 net: qrtr: ns: Fix module refcnt
          
