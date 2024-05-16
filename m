@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6018896471755469797=="
+Content-Type: multipart/mixed; boundary="===============1855181409563436078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 16 May 2024 17:31:12 -0000
-Message-Id: <171588067289.1239.8783857710347541043@gitolite.kernel.org>
+Date: Thu, 16 May 2024 17:31:32 -0000
+Message-Id: <171588069289.1478.2574713746365444770@gitolite.kernel.org>
 
---===============6018896471755469797==
+--===============1855181409563436078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: c9f9df3f6347b33ae770747c40bae38836e3658c
-    new: 83e93942796db58652288f0391ac00072401816f
-    log: revlist-c9f9df3f6347-83e93942796d.txt
-  - ref: refs/tags/v6.9
-    old: 0000000000000000000000000000000000000000
-    new: d376cac46d30f3913ed0166151263b7d0ad7eed9
+  - ref: refs/heads/dev-queue
+    old: 804915ed01746be53a409449e33c254332fe4d6f
+    new: 751e4fcb170417cefbc71b4ba11c8bd2b2d99de2
+    log: revlist-804915ed0174-751e4fcb1704.txt
 
---===============6018896471755469797==
+--===============1855181409563436078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9f9df3f6347-83e93942796d.txt
+Content-Disposition: attachment; filename=revlist-804915ed0174-751e4fcb1704.txt
 
-01d860427f67fd4b797ae616a2adb57263baeee9 Revert "firewire: core: option to log bus reset initiation"
-6b0b708f12d18f9cccfb1c418bea59fcbff8798c firewire: core: add tracepoint event for handling bus reset
-2d6c7177605622aa8650fd012effced921936f83 Merge tag 'rtw-next-2024-05-04-v2' of https://github.com/pkshih/rtw
-87144bbc9935b3117495c330890184edb925f3c5 firewire: core: fix type of timestamp for async_inbound_template tracepoints events
 5a5dc48083dae07e3079e4ded731388214729f64 firewire: core: remove flag and width from u64 formats of tracepoints events
 57f6d0aed7b0a6829044c7f1cea57b1e3ddb9a47 x86/microcode: Remove unused struct cpu_info_ctx
 84b1a0c0140a9a92ea108576c0002210f224ce59 netfilter: nf_tables: skip transaction if update object is not implemented
@@ -1053,5 +1046,9 @@ b850dc206a57ae272c639e31ac202ec0c2f46960 Merge tag 'firewire-updates-6.10' of gi
 99975ad644c7836414183fa7be4f883a4fb2bf64 net: lan966x: remove debugfs directory in probe() error path
 fd76e5ccc48f9f54eb44909dd7c0b924005f1582 net: qrtr: ns: Fix module refcnt
 83e93942796db58652288f0391ac00072401816f selftests/net/lib: no need to record ns name if it already exist
+57bfec8e1c258a77f82ea8a0912a5f7640ab1a02 ice: Interpret .set_channels() input differently
+04b752695a0e761aeb73d59cfde0d0f7c5844798 ice: fix 200G PHY types to link speed mapping
+99ffe3633eafb65f1e96be87328446472d407264 idpf: don't enable NAPI and interrupts prior to allocating Rx buffers
+751e4fcb170417cefbc71b4ba11c8bd2b2d99de2 idpf: Interpret .set_channels() input differently
 
---===============6018896471755469797==--
+--===============1855181409563436078==--
