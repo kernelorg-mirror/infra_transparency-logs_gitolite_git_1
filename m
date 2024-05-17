@@ -1,26 +1,59 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 17 May 2024 00:49:52 -0000
-Message-Id: <171590699202.25998.18398066681689950177@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3482225034652048321=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Fri, 17 May 2024 01:11:25 -0000
+Message-Id: <171590828565.16534.9754870488383571429@gitolite.kernel.org>
+
+--===============3482225034652048321==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 83e93942796db58652288f0391ac00072401816f
-    new: 52d94c180a9f6e586c8234b7feb7c8b9282f53c9
+  - ref: refs/heads/clk-next
+    old: e649f89a1cdaf64f71865a979091ba8ea14a6c14
+    new: 03be434863b9606435be9ef43651d4c0cbbe6788
     log: |
-         1de27bba6d50a909647f304eadc0f7c59a842a50 libbpf: fix feature detectors when using token_fd
-         7a8030057f6791d35dd20987f9ff15855c01c1bb bpf, docs: Fix the description of 'src' in ALU instructions
-         325423cafc12031a69692363ddcabc63113bb3d6 MAINTAINERS: Update ARM64 BPF JIT maintainer
-         9ee98229083186837199912a7debb666146b8c17 bpf: save extended inner map info for percpu array maps as well
-         2322113ac9d0c5653017adbab504fb307b0e92e2 selftests/bpf: add more variations of map-in-map situations
-         5405807edd4168c2dc2f307f3c6b70e9579bf7be selftests/bpf: Adjust test_access_variable_array after a kernel function name change
-         51e2b8d33199df9675d2a36ec6aad0c27e91c6fe selftests/bpf: Adjust btf_dump test to reflect recent change in file_operations
-         52d94c180a9f6e586c8234b7feb7c8b9282f53c9 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+         5aabfd91fc9d5086356ef425274349ff6bd26928 Merge branches 'clk-cleanup', 'clk-airoha', 'clk-mediatek', 'clk-sophgo' and 'clk-loongson' into clk-next
+         7552d1b935fdec1b19b620b56462a1719fa3d469 Merge branches 'clk-stm', 'clk-renesas', 'clk-scmi' and 'clk-allwinner' into clk-next
+         4a35e6fc41179ebcb8552c7f4421bfba57de768c Merge branches 'clk-counted', 'clk-imx', 'clk-amlogic', 'clk-binding' and 'clk-rockchip' into clk-next
+         03be434863b9606435be9ef43651d4c0cbbe6788 Merge branches 'clk-microchip', 'clk-samsung' and 'clk-qcom' into clk-next
          
+
+--===============3482225034652048321==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Stephen Boyd <sboyd@kernel.org> 1715908284 -0700
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
+nonce 1715908284-2d1bc2c15ad5cb54d33dc8a5b8448ac5c7ceead5
+
+e649f89a1cdaf64f71865a979091ba8ea14a6c14 03be434863b9606435be9ef43651d4c0cbbe6788 refs/heads/clk-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmZGrrwRHHNib3lkQGtl
+cm5lbC5vcmcACgkQrQKIl8bklSXckhAArGHvH1A9vS/ZCiVKFtrc9cp9Sx6ArPlq
+1QfAgfo00jXsqy/bUrY9+WKdQBb3gp3R+mbJ6/1XW4mvNIWOCMCWDdbbP7zDBiUq
+K+a/S9vcmOhnS49pbw3KSmYPB1hPgulkF7Eo9R5AmdQqHtU5HvwvMJ0S1kDIUUaV
+TeNtBkqfQIxhjdAmIivhwb12F3zeux/EiBDJIDGgCNW/pT2Mz2BqMtg0tpbNJsRG
+94jjDjto66QBVTHegNG+EcsHCtJv728hwFnC8uhZAVE6XQLXtXYHddjuh4X3l/P+
+Wjdm+aKWT6I8pulnOXTJllvhWLLcs/QSDAdDKFPLjpOiIZi6xjEELSyfCrS8i9Qe
+4A73Grm1Dx6D4VD4VwJ6ZgygUZAH14Xkrm3WXOfsatmEee2MJv4yi5A6MsRxYJ9S
+ia17E1wbPq4NRmZjkoUUZlROY4MNfqoWdWW12e08XaoPFOEGBFYI/ALJP96Ii9XZ
+6MXe1oWbafJ2qazWK1OqAQFstd3G5qBtaPJEWk/CXnvh2+PMX6eo4ZVa8jntoM7V
+YQLGkSUU8qKnQEp6ec41srcrGCJ6hpYDjkzpe927lKyhWRg5ACSL0X7dNcCrFiV0
+cHJEx/Egwya3oJPuKAjh7650WEBQB0Kv6x65rGL3eaH2I4u2u5DcnJtR2i8JxdoQ
+ejLHZhL5cqw=
+=WRml
+-----END PGP SIGNATURE-----
+
+--===============3482225034652048321==--
