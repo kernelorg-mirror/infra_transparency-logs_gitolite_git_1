@@ -1,23 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 17 May 2024 10:17:53 -0000
-Message-Id: <171594107311.1895.5650478281686686452@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5975263160899582656=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 17 May 2024 10:18:30 -0000
+Message-Id: <171594111047.2190.6829083215042611879@gitolite.kernel.org>
+
+--===============5975263160899582656==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: sashal
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/6.9
-    old: e4bbe6584a218f11cdd97a341f4c1308cfdfd8d2
-    new: 6b7ea5136669a1e181f4105a4a6dcfa21b65f253
+  - ref: refs/heads/master
+    old: 7fea4ad41c9ce11e5a5e007f7f9105f17b7f0174
+    new: f67c98015ccd129aee4733acc159ca78fe62f0e9
     log: |
-         7970b10f1021000d2423da8320e128aebcb65414 VFIO: Add the SPR_DSA and SPR_IAX devices to the denylist
-         ad365127e6825809fd5189c7b9444e7aef4cf47d dmaengine: idxd: add a new security check to deal with a hardware erratum
-         720485ac88f1a79d5a9e2620f4cf9696464cbdb3 dmaengine: idxd: add a write() method for applications to submit work
-         580e1fb55760ede092062156f2a5b0b049ffed73 keys: Fix overwrite of key expiration on instantiation
-         6b7ea5136669a1e181f4105a4a6dcfa21b65f253 wifi: mt76: mt7915: add missing chanctx ops
+         f67c98015ccd129aee4733acc159ca78fe62f0e9 Linux 6.9.1
          
+
+--===============5975263160899582656==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715941109 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1715941108-48446aa60e9909673f922d14ba07efc9b1128568
+
+7fea4ad41c9ce11e5a5e007f7f9105f17b7f0174 f67c98015ccd129aee4733acc159ca78fe62f0e9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZHLvUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6goP/izlOwr9bq1tD646Sqn8
+uX0tV1qA6m7wXC9zoafHaqYRYUufwH2UxepPl4R/HbehROoIKwQNpoKycG5bT8hv
+0w+L0LYHkuINM5IhSutTBdsevM1EoJd6wkoRe+VCdatM5cpk8egjIUptKZGkr2NZ
+8HR5uLbjyXhsmdPa/vEgwmtGhQqVo57e14awTGNd/+YursOWgasaxlTnXgNfwqay
+kRVqF98jWUSYjdm8DSo/odj1c/nwVQFpPX1t6yXLymoD40tU6XsBesHP3W2TBNPO
+BeqiPm3l3gQ7oneMLCeMf9EqqDyb26ouILtaktMklw5+YC+wO+SaOlRfgE5QNaVC
+V35Kn11JUTjH9K9xwQ1HxUOR3hzvwyDdn/hf7VOk1ilIIta1i9Ui15i01ggtceXS
+5n8JgSylTkHxNUckvaaVKQjeSW+fh30XUaNLHozAGThvW2J5FPh8dpaj1f2DkAnH
+sZ0JUoOZPEIahJI0KoZetuAirRGi7r4yFtHwLUy2o8hx9hLfODFIfiB50YPjO4go
+/LnID0XCDKgwgFz2oZWWZUBhDoFGaTJzkOK/RhsYC1CQM1Aq9CwT4ZL/NS8TqDhR
+qXimW1OwNICW2DhcSPy36ZLuk8tEvb27IPWDSROzBcm+N+zQISKniAMrNPCDDXKk
+OFzmQvwDzhpFKmuK7cNbRdOd
+=lA/c
+-----END PGP SIGNATURE-----
+
+--===============5975263160899582656==--
