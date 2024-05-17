@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 17 May 2024 15:50:03 -0000
-Message-Id: <171596100399.12601.15675233762706535977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 17 May 2024 15:53:56 -0000
+Message-Id: <171596123656.14135.13343728615261022402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/block-6.10
-    old: 9d230c09964e6e18c8f6e4f0d41ee90eef45ec1c
-    new: 7b815817aa58d2e2101feb2fcf64c60cae0b2695
+  - ref: refs/heads/for-next/core
+    old: f0cc697f9f651d8d1a3279c1c3bed8e829e99f9f
+    new: a4c5a457c6107dfe9dc65a104af1634811396bac
     log: |
-         7b815817aa58d2e2101feb2fcf64c60cae0b2695 blk-mq: add helper for checking if one CPU is mapped to specified hctx
-         
-  - ref: refs/heads/for-next
-    old: 59ef8180748269837975c9656b586daa16bb9def
-    new: 04d3822ddfd11fa2c9b449c977f340b57996ef3d
-    log: |
-         7b815817aa58d2e2101feb2fcf64c60cae0b2695 blk-mq: add helper for checking if one CPU is mapped to specified hctx
-         04d3822ddfd11fa2c9b449c977f340b57996ef3d Merge branch 'block-6.10' into for-next
+         b8995a18417088bb53f87c49d200ec72a9dd4ec1 Revert "arm64: fpsimd: Implement lazy restore for kernel mode FPSIMD"
+         a4c5a457c6107dfe9dc65a104af1634811396bac perf/arm-dmc620: Fix lockdep assert in ->event_init()
          
