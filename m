@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 17 May 2024 02:56:53 -0000
-Message-Id: <171591461369.26832.9037737946204285520@gitolite.kernel.org>
+Date: Fri, 17 May 2024 03:00:55 -0000
+Message-Id: <171591485527.29972.1691841307050679185@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
   - ref: refs/heads/master
-    old: 5c1672705a1a2389f5ad78e0fea6f08ed32d6f18
-    new: 45053110e260e31586f1b24222a9156270f6cdba
+    old: 45053110e260e31586f1b24222a9156270f6cdba
+    new: 83eea61776c9cb0d736cf091988fa178fdfe2b37
     log: |
-         45053110e260e31586f1b24222a9156270f6cdba bpftool: Introduce btf c dump sorting
+         83eea61776c9cb0d736cf091988fa178fdfe2b37 bpftool: Fix make dependencies for vmlinux.h
          
