@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3526866601260099462=="
+Content-Type: multipart/mixed; boundary="===============8041422429249773459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 17 May 2024 13:43:38 -0000
-Message-Id: <171595341850.14716.5321436727208315310@gitolite.kernel.org>
+Date: Fri, 17 May 2024 13:46:56 -0000
+Message-Id: <171595361699.17615.17340336368903749153@gitolite.kernel.org>
 
---===============3526866601260099462==
+--===============8041422429249773459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: cf4ac3ba9b15126464c4d9af3fc0ae4e84b66fc3
-    new: 3d9269758467f3e94ed1512f3781ce891fbf3cb5
+    old: 3d9269758467f3e94ed1512f3781ce891fbf3cb5
+    new: df4b54c2135864718a68697b0ee0959bf82fc774
     log: |
-         3d9269758467f3e94ed1512f3781ce891fbf3cb5 mark 6.8.1 and 6.8.4 reviews as finished
+         e8b321601df175128f89336b0a76fb7f02c78caf Straggling 6.7.4 issue assigned
+         df4b54c2135864718a68697b0ee0959bf82fc774 updated Sasha's 6.7.4 reviews
          
 
---===============3526866601260099462==
+--===============8041422429249773459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715953418 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715953616 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1715953418-a6caf6e71eaf700cf719fda486b7ebd42ec56f5c
+nonce 1715953616-bfbdde6eec2c368cb5d8692181c116775b772b5d
 
-cf4ac3ba9b15126464c4d9af3fc0ae4e84b66fc3 3d9269758467f3e94ed1512f3781ce891fbf3cb5 refs/heads/master
+3d9269758467f3e94ed1512f3781ce891fbf3cb5 df4b54c2135864718a68697b0ee0959bf82fc774 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZHXwobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z5wP/iDQFDairb5Gqm7wZLql
-7M1iNo0QzHtNRY5yK061dI+Ope8w9kvVO2WpxZoej09g27f2FYAReEPR4UJa3jc6
-uFb6vJP9MFuU9B1JZhRrslUaX7HjDFbxafi38zyeomZfBtST7+z6ufNKYGYLb8Av
-58D8dbkO8kfCIc+H4yoqcBpqMka7S8JySyYtJ0AJlQ/uB4tI03gvHpQbJ9TuHZ/7
-SXQbJVM43TSUWgHa2giihCGmWqQEhuMwj4WstXsIqc73cmassnzXm7+c2sVZ/FG9
-KWuqiIkzvoeN42oE5e2ZxEMjrld4Lnq9TCO9pD6ZFXci3zr5ruRt0SUqi23ofoMG
-pxv4rP0UBqfQLvzvRV+9yccEgsrt2MOai4LVqVvQ5fWzLRjpjvpAU21eSvY6f+WI
-B5WXauCxEC0BkFgTGzhDA4WHvRimEURZgjOPRDrfsJNtz6Byd0XckZ7O+lY8a30/
-5VRUC/f7gg0GlyFVSHCCDL/ukrxohDh035xYBnY/0N1TpevwlkIBiJwAaHwMIzyv
-mhT5CU70HN/alTfppZbHl20m8aujXIRGUonQLwCrWZaQQIGebFMOM4ez3JIttJvp
-GJPn8xkajRKRFbayRUrYHybwInIgXJtxr9tK2vDj6siS0GgIB9cm/mo4KCa/gkPl
-Ar6vX8t15rKtgZOwslcZRYi1
-=k/5Y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZHX9AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+D2AP/1cYAApQM/S+LtClU/PY
+DEDFTulBC9/4zxVR3hup+ILX5CzNsbq0TyZRPqnlWzbeuz2by6bcVYaIhT7ib/Ru
+GCuo3HznN2bEVvVjfKvk/SJiih/oP/rNzm3cg/OzrJWGEFymLjpey8VTkH6ZarcD
++lYkYbkJZ8Pe22PgksneFNicMnkNryDHMY3SbLX/SSUgbPfA/D4y2GjcwiQ2ENt9
+mTQE/hkAROuR/3KtUePj8ZFC7AbEHkoFt0ZVL18q4N54syTCooMAiCmrXmZjJce0
+SlDziL9d42o86SYaUqjfytjtSDAKhAQDkYraHLNTHerk7LNpaJK2XKqBQWc4HwqO
+TJnCmLlWQAKKPTcVg4Lw3prWv1prHwE16rzOS9/+/3aI2pD29Euvndmf4D0IB5GU
+gGew40xvklkZoUad6MTV72F/86G6JfJHwy09Qs1IVxaBqP2jkuvW2iDkD79ubRWD
+ZEEKcTezZSv04xs9ibOpYcTSxZWl0AJ8xqDoBr38+7fIVGJtvSDQkO4MxfnFkwRp
++uKWFROBGk+R0NWIgxkIvVwcclFkAuXbzoySk6xLtiMEEMxmpXg4P02idBQdoxs7
+KgNMl2csTN6QGmng1O7WxT3GKoj+A3KHZ6+1Jkn/M9/vqcLLfY2GSHO9fb7Vs8jp
+1Or1jMYjw7iS5voOpNU3TMVI
+=jedp
 -----END PGP SIGNATURE-----
 
---===============3526866601260099462==--
+--===============8041422429249773459==--
