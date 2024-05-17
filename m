@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============7104318846137214957=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 17 May 2024 10:17:33 -0000
-Message-Id: <171594105378.1681.3259686736684144956@gitolite.kernel.org>
-
---===============7104318846137214957==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 17 May 2024 10:17:53 -0000
+Message-Id: <171594107311.1895.5650478281686686452@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: sashal
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 5a21304bf540c6ac0682bc0eb1363097fbe2d4b8
-    new: a57884b94e00cc22019fa7fb4e040dbdba5c5d8f
+  - ref: refs/heads/queue/6.9
+    old: e4bbe6584a218f11cdd97a341f4c1308cfdfd8d2
+    new: 6b7ea5136669a1e181f4105a4a6dcfa21b65f253
     log: |
-         a57884b94e00cc22019fa7fb4e040dbdba5c5d8f Notes added by 'git notes add'
+         7970b10f1021000d2423da8320e128aebcb65414 VFIO: Add the SPR_DSA and SPR_IAX devices to the denylist
+         ad365127e6825809fd5189c7b9444e7aef4cf47d dmaengine: idxd: add a new security check to deal with a hardware erratum
+         720485ac88f1a79d5a9e2620f4cf9696464cbdb3 dmaengine: idxd: add a write() method for applications to submit work
+         580e1fb55760ede092062156f2a5b0b049ffed73 keys: Fix overwrite of key expiration on instantiation
+         6b7ea5136669a1e181f4105a4a6dcfa21b65f253 wifi: mt76: mt7915: add missing chanctx ops
          
-
---===============7104318846137214957==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1715941052 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1715941052-db5ea0ebcdc7731b15d2a8d3bebc8e19efb9504e
-
-5a21304bf540c6ac0682bc0eb1363097fbe2d4b8 a57884b94e00cc22019fa7fb4e040dbdba5c5d8f refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZHLrwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/PwP/jyoDW4PZp3IUEtLBpFg
-OESdkFa5CKPs1S3SWtoXQS0xB5JYYETBiON+wKjiZu/sPJtybM3H8h2KDWFwhUxp
-tsh0/FIm9vqWyHloNHGLJHSeg9/L1cQF20geNUkjlZk7RxT4yf8nCxvKERORx9ZR
-uaNtmRWiGq9qiBNvQrlgi7UBQUAOHgxol/+c6vlU+MyzKKH4wfsrB6R2trrmzv3p
-dkMDpk75Ex1USgf9ryzHXmhZ2hjn4bomfN/9kBlfx7TLGzLKCuI3zrHaOwpufXUW
-GaNSBFky8kI4y4jiTtLtQ0hxYfHnxE2w6S+uqxzsGwlT22v9DXQ4MDCzbwpx9Wxc
-MmWHEWpXXZLsxF2dd2DtCkPFZRZ7yw8VjtbHEKt/Kn69UBlmrGvHM2A2syZ/kEDw
-Ix2AMtDKyuvFLYu3nhTkeMgbBe+lEZ8D4bhUpXDNwyCteaDCtbYhwOc0k4fFigV8
-XA1F25GV5sWvSfRffa2GcWo8g4Z9E1gKyzdInJzxNjl54pu+YvgOUs7wWqdOBIxr
-DrgwKIKx8sRhJC4iF15JS1B0OMyYCu4MMZdJR1iwhjtznn4aVHN0gvSAKaGthH/X
-tlSTf5krfZCjX3TJjUBPmT3NsOIJlxUb70i2g4FnCOoJqNbY7HPtWVkAF2+8saUd
-WKHzAqgF4KCOCYbJwaMZNRG9
-=BYVg
------END PGP SIGNATURE-----
-
---===============7104318846137214957==--
