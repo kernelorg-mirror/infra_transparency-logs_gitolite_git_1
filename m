@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Fri, 17 May 2024 18:37:08 -0000
-Message-Id: <171597102890.4279.16709135032801792183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 17 May 2024 19:01:00 -0000
+Message-Id: <171597246096.20955.5452752170204807944@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/tags/parisc-for-6.10-1
-    old: 0000000000000000000000000000000000000000
-    new: b4215304b4930e9108465ff695424b00ae168934
+  - ref: refs/heads/master
+    old: ff2632d7d08edc11e8bd0629e9fcfebab25c78b4
+    new: 7ee332c9f12bc5b380e36919cd7d056592a7073f
+    log: |
+         487fa28fa8b60417642ac58e8beda6e2509d18f9 parisc: Define sigset_t in parisc uapi header
+         0ca4f51fa522df285ebff76ec8bd2bde7d1c080d parisc/math-emu: Remove unused struct 'exc_reg'
+         d4a599910193b85f76c100e30d8551c8794f8c2a parisc: Define HAVE_ARCH_HUGETLB_UNMAPPED_AREA
+         7ee332c9f12bc5b380e36919cd7d056592a7073f Merge tag 'parisc-for-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+         
