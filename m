@@ -1,20 +1,55 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 17 May 2024 09:21:56 -0000
-Message-Id: <171593771651.14268.1685028656148143949@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4553730524004653830=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jberg/rfkill
+Date: Fri, 17 May 2024 09:23:55 -0000
+Message-Id: <171593783534.15040.15009366432275608766@gitolite.kernel.org>
+
+--===============4553730524004653830==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/jberg/rfkill
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev
-    old: 1fb70b1dbdbb4c21224a3df46bae0262bdbe918b
-    new: 2f46123601ebaa5d89bc662aa47e9b2d77ab59a8
+  - ref: refs/heads/master
+    old: 87d7e6107fb61645feac2c310671ac447ad87595
+    new: 20902dc585da02212a6738f3ab89e20a84c5fa49
     log: |
-         3b5c90f4ad4b773013910e1ef8a17da8ad645e38 erofs-utils: correct the default number of workers in the usage
-         2f46123601ebaa5d89bc662aa47e9b2d77ab59a8 erofs-utils: pretty root directory progressinfo
+         20902dc585da02212a6738f3ab89e20a84c5fa49 update to new rfkill.h
          
+
+--===============4553730524004653830==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1715937831 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/rfkill.git
+nonce 1715937830-cc9351367be06ddb11db89b3078257a6cac0f3d8
+
+87d7e6107fb61645feac2c310671ac447ad87595 20902dc585da02212a6738f3ab89e20a84c5fa49 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmZHIicACgkQ10qiO8sP
+aAB1qQ//SzS8F/Qhhx2mH5Bt+xM/S6D0ZSZLqGokJzVuBJO0+sqT4uZNegeKIY9e
+KWchaoXsn2z4wJ7IqQqt+bvzh9KmncIabUlQR+b27gYi56QeSCdRQvG0ObC9qDmX
+TjY2Nh30U7/rOE48oYMUIhzhM5QoNCU2zeBQOuMBeo0/oals1mBtuQ1hHPFW1sgM
+GFvPPsHkjFXK+1ZRmqdGCb+Rss1FGBEuORv/9vKgPr9dJyybP71K20HsailsxTOV
+pnTHkcc6ijTJ2Q21042ofvChewmWwwLZMk5X7vI2JCXCf0qHSQESq37vTwe7m5LJ
+tp71cMrvwji+7ehl+zf3vHQye3Qf4rASADsclSVZWaIvEICiOsaWgX7j79NUIE8n
+MJFY+0ByUz/Zpvyf/LkVW7LUhlM07JGUp3W9gI6bwDrv8ORmQQWnrPnXSbEnp/pk
+PY25pNEmwPKNz+xcYyTUtwxpIW83Vek36EwRYohthbbqcugYnAwqdWQuW92uxreK
+x7Aqgn4DqPIsIL0kW8L9ez2HK3NB89dyBG44yszVb9+ev0zk/NEthxKvX3r+8kfI
+AyfUZdJF8rWXPWDJErTSJ4pkeTWdA2JFbwqUTYk7PEGPlkHhi3Op6U8z4nUYEZni
+wCNNqfh3Xk1pTqfP9fkKk9MuwClu1NaDRvcaqhvBqvGwt6bO6wo=
+=RpwB
+-----END PGP SIGNATURE-----
+
+--===============4553730524004653830==--
