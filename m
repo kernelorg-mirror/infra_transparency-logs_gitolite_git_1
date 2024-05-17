@@ -1,53 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7602179633022364669=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Fri, 17 May 2024 01:31:04 -0000
-Message-Id: <171590946445.30133.6275966601329108647@gitolite.kernel.org>
-
---===============7602179633022364669==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 17 May 2024 02:39:28 -0000
+Message-Id: <171591356804.14059.9292051259866868294@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/clk-for-linus
-    old: 831e6fd155fabd7cb165a8ec045daebdc1542414
-    new: 2ce3f061a2035dda3a59e427e43eff419aded1c5
-
---===============7602179633022364669==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Stephen Boyd <sboyd@kernel.org> 1715909463 -0700
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
-nonce 1715909463-4a9333f6838861246b44b9d8a91df9e0c05cdcf9
-
-831e6fd155fabd7cb165a8ec045daebdc1542414 2ce3f061a2035dda3a59e427e43eff419aded1c5 refs/tags/clk-for-linus
------BEGIN PGP SIGNATURE-----
-
-iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmZGs1cRHHNib3lkQGtl
-cm5lbC5vcmcACgkQrQKIl8bklSWrWw/+LizMgF5MFXTV9stSyQJTzjAonNWWb7hh
-YoqZgZcO1uzMejXArYmGKxmyjWbV7TTWw9saIzPA847b5Dh+mc435bkkSwWjeVxr
-y7vDHx+ZrRdrDJMUTADI0TAw0W4azEAxIceezRraCV0LNvombeOikixXULQnI8ac
-cC4SMcFazgEgyKlxK7XQ+9+IiHEHQA6ergHU6wwmGvHjFZ6W8eTs0zL1cnCbZzTl
-k82dv6EL3CZeM1CVm+zMC+9SpJd+DlOYxyYli9TT7WxT1hBwwpGpjFuOFyeRMIQr
-opCk8gEQrPJjxvfdMHbFxrTsp1ydzjnBhsae1uUjR7phHxYQ/cgi+QIIRpnSOluC
-VvulYi042R+KwfDMl6G1wC0KjDi/G3TlYd+dLG6L2xyTcBF3tEUvexKaxg5ECsJL
-dm5UIT8Ohmd2Dgx914+2gVRLt7uwNKpOVWWE7Of1T926IhyYdymt9pPKizvdrGtP
-ggYvzB4978CXB6CECCQe+opwCtB575ixuiyrwpHWfIIuWl0oEp1WEt+DlDLrnd24
-sC5WjeiG0/55UEbeWP1FkK7d2GbKsCNppQc/UzodAypYbb9J3pXs9bLrrIPsIm3m
-tjEsQHlb2dwQw+bUjOKEmqZl6wOketbOI6BXYY+fayUhao5CWVVu6eTrk3nYIgLu
-iV7+/a4+MtE=
-=z7kB
------END PGP SIGNATURE-----
-
---===============7602179633022364669==--
+  - ref: refs/heads/main
+    old: 52d94c180a9f6e586c8234b7feb7c8b9282f53c9
+    new: 581073f626e387d3e7eed55c48c8495584ead7ba
+    log: |
+         988af276360bc555c7685d5a607d4da0588616d9 selftests/net: reduce xfrm_policy test time
+         bb487272380d120295e955ad8acfcbb281b57642 net/ipv6: Fix route deleting failure when metric equals 0
+         a45835a0bb6ef7d5ddbc0714dd760de979cb6ece bonding: fix oops during rmmod
+         fe32622763d8bc864231381f34f7521f8694748b dt-bindings: net: qcom: ethernet: Allow dma-coherent
+         67708158e732bf03d076fba1e3d4453fbf8292a2 idpf: don't skip over ethtool tcp-data-split setting
+         e03e7f20ebf7e1611d40d1fdc1bde900fd3335f6 netrom: fix possible dead-lock in nr_rt_ioctl()
+         fa033def4171d2e4e29d5e3714fb2a5b1fc077e8 virtio_net: Fix missed rtnl_unlock
+         581073f626e387d3e7eed55c48c8495584ead7ba af_packet: do not call packet_read_pending() from tpacket_destruct_skb()
+         
