@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 17 May 2024 22:58:45 -0000
-Message-Id: <171598672536.585.17864234530107543750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 17 May 2024 23:24:50 -0000
+Message-Id: <171598829017.19628.5991319521152258490@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/kdevops
-    old: e4b49f57125a38eece3c86a1420c392410bacbdb
-    new: 918997bcd6e91d587ca2233a8d858120ca2a9b3b
+  - ref: refs/heads/tpm2_key
+    old: 062764adbf102fb3633da669c12a777cc489ca61
+    new: 034744d9a1bab23ca913041f44154e13c205d34a
     log: |
-         53ea515f80a5c7994dcafc6ab1db36647620d78c vfs: track timestamps in discrete integer fields
-         918997bcd6e91d587ca2233a8d858120ca2a9b3b fs: switch timespec64 fields in inode to discrete integers
+         bb9ec46b198dc2f7d2286ca7ff27bed46ca0326d KEYS: trusted: Migrate tpm2_key_{encode,decode}() to TPM driver
+         f2d81678b1f755a5342148162283618a68a69ab5 crypto: rsa-pkcs1pad: export rsa1_asn_lookup()
+         43be8c46fb676b13a56a62abfa440fd4f8ef088a tpm: tpm2_key_rsa_decrypt)
+         034744d9a1bab23ca913041f44154e13c205d34a keys: asymmetric: ASYMMETRIC_TPM2_KEY_SUBTYPE
          
