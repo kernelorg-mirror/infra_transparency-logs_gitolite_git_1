@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9107524488521902171=="
+Content-Type: multipart/mixed; boundary="===============0117099579918758725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jberg/iw
-Date: Fri, 17 May 2024 09:20:26 -0000
-Message-Id: <171593762635.13467.14239315462896975744@gitolite.kernel.org>
+Date: Fri, 17 May 2024 09:20:40 -0000
+Message-Id: <171593764025.13631.14490806955638891215@gitolite.kernel.org>
 
---===============9107524488521902171==
+--===============0117099579918758725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,37 @@ repo: pub/scm/linux/kernel/git/jberg/iw
 user: jberg
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: c49eb9ee6847953b24ba265add49fa4ec587c7a8
-    new: 1608dfa17bd4840a40860fefef2862d1a4e162bf
-    log: |
-         90165bdda32edbf7643cc17d633e997eedcbf034 update nl80211.h
-         769eb9f7a56895a746559fcff92a4a458e7f15c3 wowlan: add a wake event
-         c2c89feb6bbee21cd805a062c2005c38009e1c63 channel: report punctured subchannel bitmap
-         1608dfa17bd4840a40860fefef2862d1a4e162bf bump version to 6.9
-         
+  - ref: refs/tags/v6.9
+    old: 0000000000000000000000000000000000000000
+    new: 80cb6dff84bc066b660a95f9be9c3f6ce19f0b08
 
---===============9107524488521902171==
+--===============0117099579918758725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1715937621 +0200
+pusher 7BF9099A 1715937633 +0200
 pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/iw.git
-nonce 1715937621-a4010f4e001ec1679b2ff689d3678141945e812e
+nonce 1715937633-c130a2a6b2ec2d50018db6e1c9fe341aa6febc14
 
-c49eb9ee6847953b24ba265add49fa4ec587c7a8 1608dfa17bd4840a40860fefef2862d1a4e162bf refs/heads/main
+0000000000000000000000000000000000000000 80cb6dff84bc066b660a95f9be9c3f6ce19f0b08 refs/tags/v6.9
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmZHIVUACgkQ10qiO8sP
-aABeFQ//QQY2AkfnaEjg/IeZbAq/TQBK+yT2a1lV3VuFrciaTqJALhEUEA3ymfkB
-SnyyxpbPa40/Q+VkNHSMZD/0IJNiCJw4vbkiYMkntGR5LvnY4nnRJntBDwd8TVcd
-qckge+3lo0H6l+QW/4t9ZbrGgpZK8zt0XcT6GI8iRxJvWkFew4MCg2ZofR6/+dCq
-BuNtuTahetO8xcjLm5eV/y2H2+0Kwvy+q6vIL1s7zi1jjt1UjhzvdBRddUDhoQGA
-7jwHXWpYd/3LgiPaaACsaor+vZgQrxwdmZUbDCn282q1HPh2CjF4NQndHgxvLr0i
-TfPrx4pGWjI3su7VIu+DKP7SCHFJfe917mDVxvwAXeorsdnrFBiMcYRlfz2yT/i0
-UDHcyl6NywI5byYapHAiAA4w/5DzJSipGglcdjBQP0XIxxmE+PaMY7IY4id/S7Z8
-Qdl1BkIkxyLeD4FPlPDtEhtGyZTp+HWq8NCKvQyZnNNb0lzm3p/LKEAF+eBrlwfo
-7k8l6lDWU8OsWQJjAz3ZCwg9j//wi3KicusO0tzu2OuIHbQe1KPzDG7IYSHzR61f
-3zoJA1QXl6SlyMOc8qZ8Vf1u5aGc77CEm/CkX1GjZzZykuaOyytlEXKmRgoYQp6t
-sUO8uAndpIGdK0TH7frqDOVYqShNUshUFBIXZW+BIRALVFlJMv8=
-=VdCt
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmZHIWEACgkQ10qiO8sP
+aACn5g//b0laKxUQPlJnSrrIZZmEQZtqKQ2uDhHW4mUTeRDa/9fZxKc1uQ/1XZsj
+9Zc4fnqiUj/hqneArB7UfRjcYyDlZyrLpr/paSAYSgg0W4NNu2hw+h4jvPOf6Gem
+0//A0uR4GL8PBu7I8JtGAWFig8OB0yEiq7OiCyCLtOQ+qn7wcBizcvbpJEQnViDO
+w58/4lKXG8G1qUv0oKuTXTHsKA5fLBXYEIyAOn9Vxin5SB+2J+m08kc2/ahB5Anq
+4mIExYY5D0wtc8JCT3Rdvaxv9Lx3ntJu6pj/lrEp375fNLJd4lq1YImEMyMppYOT
+fVn3FVV+dTw1CgqWp7FPBgjpbSYMNv/a2Kz9iuabkD7VqEVSdGEjsuJnlgNL6Vmd
+2ihOqIDlOTuUjnaZyHJbTR1iFnGF7frskjqiVo9vR1d7ywN+dqVEzsJ9UYpfw7mW
+RTWhwQ0f/Z+Jj1iiIh+v9S32xAE/XB++WNImR5vAamgbT7aqf55Fi5cerCAei9YR
+Uj1h8umRRYAU4Ifg5U+8WruSZDvGUWxqDL3FXYCB4zTw2vXB5IWvHEhxHcx12w34
+Ra1qDdxgyHgg3uBXmGpI0NZWbgKDqSnvtXw4pSPPyTyi9cCy9aVqGUfLbJJ+0vtE
+tOom+6oyWqeTBOGGtEnKSQ9mHPjhQncqkvmBQGB315zmvM5D9jw=
+=ul3r
 -----END PGP SIGNATURE-----
 
---===============9107524488521902171==--
+--===============0117099579918758725==--
