@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 17 May 2024 07:23:17 -0000
-Message-Id: <171593059777.24680.11666736290393870800@gitolite.kernel.org>
+Date: Fri, 17 May 2024 07:24:40 -0000
+Message-Id: <171593068048.25255.15908659567956567851@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 995ca29c7bde561889901bbead62af6f37966f00
-    new: 85e6e3eb076d6f14fed1d774b70df011860f29ab
+    old: 85e6e3eb076d6f14fed1d774b70df011860f29ab
+    new: 480306b2bcee86d8e9c6e9dd1c22b3bc6fcfa8b1
     log: |
-         82110ae235e0560d1f952f74f9fd991587b0e3a7 x86/boot: Address clang -Wimplicit-fallthrough in vsprintf()
-         85e6e3eb076d6f14fed1d774b70df011860f29ab Merge branch into tip/master: 'x86/urgent'
+         d5424a8a980a360ec0e5fa8992e77107539a47b9 Merge branch into tip/master: 'perf/urgent'
+         59c47a946ec338c1387cc330327d3f17caa073b2 Merge branch into tip/master: 'sched/urgent'
+         480306b2bcee86d8e9c6e9dd1c22b3bc6fcfa8b1 Merge branch into tip/master: 'x86/urgent'
          
