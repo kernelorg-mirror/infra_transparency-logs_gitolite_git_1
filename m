@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 17 May 2024 20:06:19 -0000
-Message-Id: <171597637976.5664.8865153552397474793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Fri, 17 May 2024 21:16:33 -0000
+Message-Id: <171598059394.24765.17486179236558102619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/kdevops
-    old: e4b49f57125a38eece3c86a1420c392410bacbdb
-    new: 7ee332c9f12bc5b380e36919cd7d056592a7073f
+  - ref: refs/heads/master
+    old: db038e4c4626ca2d1ac8b5ded82152762c9832e8
+    new: 6af636f134d82b8d3838074fa6e0dce5efc356a4
+    log: |
+         6af636f134d82b8d3838074fa6e0dce5efc356a4 string_copying.7: Document strndup(3)
+         
