@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Fri, 17 May 2024 15:13:48 -0000
-Message-Id: <171595882867.17709.4863859307727859801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Fri, 17 May 2024 15:14:41 -0000
+Message-Id: <171595888120.18117.3525168688641525104@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/rcu/tasks
-    old: 8d8addb5e9a2ac4d0ce2468eeeb612c9d689942f
-    new: 3602d8b55dbc2dc3b365cacbc6bec3ab8b763e5e
-    log: |
-         3602d8b55dbc2dc3b365cacbc6bec3ab8b763e5e rcu/tasks: Further comment ordering around current task snapshot on TASK-TRACE
-         
+  - ref: refs/tags/nfsd-6.10
+    old: 0000000000000000000000000000000000000000
+    new: 0c7d655cadb5ac94ce02840ea3da0b777be1ce56
