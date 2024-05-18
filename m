@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 18 May 2024 15:31:56 -0000
-Message-Id: <171604631693.17368.2046286765705784686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 18 May 2024 15:40:13 -0000
+Message-Id: <171604681318.24822.12253831282548788205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: a1f47b43ae1407ada48a678bbb34b41470cfe00f
-    new: 7c8ddcada543f5abb573d75ceee2ed2cf8691ab5
+  - ref: refs/heads/tpm2_key
+    old: f9f5b9ea8401f48de34b33b3142ef2a4be51620f
+    new: cf41fa801bc170d9d20da0d0916c907fe85ae534
     log: |
-         7c8ddcada543f5abb573d75ceee2ed2cf8691ab5 patches/next: damos_migrate: fixup commit message
+         cf41fa801bc170d9d20da0d0916c907fe85ae534 keys: asymmetric: ASYMMETRIC_TPM2_KEY_RSA_SUBTYPE
          
