@@ -1,64 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8914240429931293535=="
+Content-Type: multipart/mixed; boundary="===============4848277855599666181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 18 May 2024 04:46:17 -0000
-Message-Id: <171600757775.27156.2469001086624030447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 18 May 2024 04:46:48 -0000
+Message-Id: <171600760881.27404.11504391218569021477@gitolite.kernel.org>
 
---===============8914240429931293535==
+--===============4848277855599666181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: fe56d6e4a99a40f50e64d5a8043f1fa838b1f7a1
+    old: 1b294a1f35616977caddaddf3e9d28e576a1adbc
     new: 4b377b4868ef17b040065bd468668c707d2477a5
-    log: revlist-fe56d6e4a99a-4b377b4868ef.txt
+    log: revlist-1b294a1f3561-4b377b4868ef.txt
 
---===============8914240429931293535==
+--===============4848277855599666181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe56d6e4a99a-4b377b4868ef.txt
+Content-Disposition: attachment; filename=revlist-1b294a1f3561-4b377b4868ef.txt
 
-1c3432df2339c6fcc4399ea2299ad565bdb506e4 media: atomisp: Call media_pipeline_alloc_start() in stream start
-e03a5d3e95f22d15d8dfd97b1d31ea6247931b48 media: atomisp: Drop atomisp_pipe_check() from atomisp_link_setup()
-36a1418540cea31789d87bcdbbe9f86ed309d039 media: atomisp: ov2722: Remove power on sensor from set_fmt() callback
-a0821ca14bb808800e444e01f074e32dc4c0d161 media: atomisp: Remove test pattern generator (TPG) support
-ca9ff7227931811fa13f197d6748a211419acd16 media: atomisp: Remove input_port_ID_t
-f1aa35ab594321cad3855de844ec3837f08ad205 media: atomisp: Drop the atomisp custom lm3554 flash driver
-f468ff16f5524cdccf182a1fa7c0558421d2acbc media: atomisp: Drop custom flash support
-659a66995fc75e0a945c8999574e0d358a3889fd media: atomisp: Drop unused frame_status tracking
-e838b8c69e45bbb00bd2a861d8fbb94d4d933b22 media: atomisp: Drop intel_v4l2_subdev_type
-74350ed0787e82cc6af5b7cd1d4d4cc1db5b29d4 media: atomisp: Remove gmin_platform VCM code.
-0445126fcaad0e13e6bc7a788c9ddb4e75739f59 media: atomisp: Remove struct atomisp_platform_data
-cca331a64cffcce1b96ee353bafefa8ff0335240 media: atomisp: Remove clearing of ISP crop / compose rectangles on file release
-b0525740af7c1c5cccd9de62677e3d9fdc24b83e media: atomisp: Remove empty s_power() op from ISP subdev
-8ff6604cd35e44a822a327ac981b0609c5d5cf83 media: atomisp: Remove empty s_stream() op from CSI subdev
-8ddcec87f2d7f7c5d150884a2c496dd3b4817b40 media: atomisp: Cleanup atomisp_isr_thread() spinlock handling
-7a0848d9818c5a00a3c252f1077e142fadcba8db media: atomisp: Remove setting of f->fmt.pix.priv from atomisp_set_fmt()
-19b372d95a5b08da53ed262a45b501029acd44fd media: atomisp: Fix sh_css_config_input_network_2400() coding style
-af9874c95a284221187c2baf8e656fb292ae6cca media: i2c: ov4689: Clean up and annotate the register table
-f3adec37876426bdc4144ce0b6a13e9665bc384a media: i2c: ov4689: Sort register definitions by address
-61198ad4b3b0144f1138b4d96173c685ad41cde9 media: i2c: ov4689: Fix typo in a comment
-8fe37e596b020d6d0727b7557bc3ad2a08f0a177 media: i2c: ov4689: CCI conversion
-d015aaaf2329959c2f72e361350452cd2f3f4d9f media: i2c: ov4689: Remove i2c_client from ov4689 struct
-d1e90c251f474481cc2e9b13ca32d2426c20bd45 media: i2c: ov4689: Refactor ov4689_set_ctrl
-5e2974acd971e3d9fc30301ce360d794ebf83e6e media: i2c: ov4689: Use sub-device active state
-48f3197a2135aa554d5fb55e5ad5f7712d041f55 media: i2c: ov4689: Enable runtime PM before registering sub-device
-47e4cf3d5aeed6cd4a690d8f30c441807d2834e8 media: i2c: ov4689: Use runtime PM autosuspend
-0938116491fa8558b86ef255f4246660b1695237 media: i2c: ov4689: Remove max_fps field from struct ov4689_mode
-62911fead5311f7f9e029ac662397738ad592d63 media: i2c: ov4689: Make horizontal blanking configurable
-ec43d634d55fb9c541ce8c7b3bcf687c3141a1df media: i2c: ov4689: Implement vflip/hflip controls
-398eca199e0fbb4306ce031c9d8e7ab811bc6a9d media: i2c: ov4689: Implement digital gain control
-6b3ad3bc4fc726ebc7fc48b6624e5a5a9f75093b media: i2c: ov4689: Implement manual color balance controls
-bf475d32eee5fa71f9533d3200d7b6116e2ef7ac media: i2c: ov4689: Move pixel array size out of struct ov4689_mode
-05e8c95e751d2921faee24bedac93c7508bd605a media: i2c: ov4689: Set timing registers programmatically
 03479d5673138b7e272457455180dde9d425282b media: i2c: imx219: Use dev_err_probe on probe
 aa7b148855e8265c4f72ae0305842efdda72680b media: v4l: Set sub-device's owner field to the caller's module
 8a718752f5c339137c5b05e54f116cd26d5a4143 media: v4l: async: Set owner for async sub-devices
@@ -993,6 +960,10 @@ edfc6481faf896301cab940da776229fe39e9fc9 smb3: fix perf regression with cached w
 b9c6820f029abaabbc37646093866aa730ca0928 ring-buffer: Add cast to unsigned long addr passed to virt_to_page()
 2513563edc984c3cf05bca1244b46de06daa4755 platform/x86: Add new MeeGoPad ANX7428 Type-C Cross Switch driver
 dafc2d0f1bb9bb865a8420f77de56bafd8881cc5 Merge branch 'for-6.10-base-small' into for-linus
+8bd67ebb50c0145fd2ca8681ab65eb7e8cde1afc net: bridge: xmit: make sure we have at least eth header len bytes
+06080ea23095afe04a2cb7a8d05fab4311782623 selftests: net: bridge: increase IGMP/MLD exclude timeout membership interval
+3a7c1661ae1383364cd6092d851f5e5da64d476b net: bridge: mst: fix vlan use-after-free
+317a215d493230da361028ea8a4675de334bfa1a net: ks8851: Fix another TX stall caused by wrong ISR flag handling
 5f0769331a965675cdfec97c09f3f6e875d7c246 rtla/timerlat: Simplify "no value" printing on top
 a40e5e4dd0207485dee75e2b8e860d5853bcc5f7 rtla/auto-analysis: Replace \t with spaces
 f5c0cdad6684aa4212346f48554636ec2ab98434 rtla/timerlat: Use pretty formatting only on interactive tty
@@ -1000,11 +971,17 @@ f5c0cdad6684aa4212346f48554636ec2ab98434 rtla/timerlat: Use pretty formatting on
 1462501c7a8d565f5949d3d5635b2111d889aaaa rtla/timerlat: Add a summary for hist mode
 cdbf71962bb07493d67fee34536a5724a8bb5886 rtla: Add the --warm-up option
 fb9e90a67ee9a42779a8ea296a4cf7734258b27d rtla/timerlat: Make user-space threads the default
+621cde16e49b3ecf7d59a8106a20aaebfb4a59a9 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 d4a599910193b85f76c100e30d8551c8794f8c2a parisc: Define HAVE_ARCH_HUGETLB_UNMAPPED_AREA
 4cd4e4b88100a33d96ec4f83bdb0e4e754e24c97 Merge tag 'lsm-pr-20240513' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 ccae19c6239ae810242d2edc03b02bdcc12fc5ab Merge tag 'selinux-pr-20240513' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 353ad6c0839431146fdee3ff16f9dd17a2809ee4 Merge tag 'integrity-v6.10' of ssh://ra.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
 46c6d2b186915176be5acc5d4b6f9793eb32a0c7 Merge tag 'asymmetric-keys-next-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+1de27bba6d50a909647f304eadc0f7c59a842a50 libbpf: fix feature detectors when using token_fd
+7a8030057f6791d35dd20987f9ff15855c01c1bb bpf, docs: Fix the description of 'src' in ALU instructions
+325423cafc12031a69692363ddcabc63113bb3d6 MAINTAINERS: Update ARM64 BPF JIT maintainer
+9ee98229083186837199912a7debb666146b8c17 bpf: save extended inner map info for percpu array maps as well
+2322113ac9d0c5653017adbab504fb307b0e92e2 selftests/bpf: add more variations of map-in-map situations
 db5d28c0bfe566908719bec8e25443aabecbb802 Merge tag 'drm-next-2024-05-15' of https://gitlab.freedesktop.org/drm/kernel
 d34672777da3ea919e8adb0670ab91ddadf7dea0 Merge tag 'fbdev-for-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 33e02dc69afbd8f1b85a51d74d72f139ba4ca623 Merge tag 'sound-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
@@ -1023,6 +1000,9 @@ de6fef50eaf40789b11841474726fd918a3a84a1 Merge tag 'cgroup-for-6.10' of git://gi
 3c999d1ae3c75991902a1a7dad0cb62c2a3008b4 Merge tag 'wq-for-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 bb21700baf7bc7ff9db8085fb0f097e8f8bcc0c5 drm/buddy: Fix the range bias clear memory allocation issue
 431c590c3ab0469dfedad3a832fe73556396ee52 drm/tests: Add a unit test for range bias allocation
+99975ad644c7836414183fa7be4f883a4fb2bf64 net: lan966x: remove debugfs directory in probe() error path
+fd76e5ccc48f9f54eb44909dd7c0b924005f1582 net: qrtr: ns: Fix module refcnt
+83e93942796db58652288f0391ac00072401816f selftests/net/lib: no need to record ns name if it already exist
 964b8998fdce789fd06540e414fe0a044ccf5127 Merge tag 'spi-nor/for-6.10' into mtd/next
 552c9380f98fc47950870ef0935f94cf3acec087 Merge tag 'nand/for-6.10' into mtd/next
 f698d314eec2e16b980128b503d96bd73df77e90 Merge branches 'amba', 'cfi', 'clkdev' and 'misc' into for-linus
@@ -1037,9 +1017,29 @@ e9a4062e1527238c5649d0f4be794a8566fd77c9 rtla: Add --trace-buffer-size option
 8b06f7538a1bb6ad15969114e31be7a99420125b Merge tag 'mmc-v6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 b426433c03a6eb547515edbe74ebb3a90b9979dd Merge tag 'mtd/for-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 ea5f6ad9ad9645733b72ab53a98e719b460d36a6 Merge tag 'platform-drivers-x86-v6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+5405807edd4168c2dc2f307f3c6b70e9579bf7be selftests/bpf: Adjust test_access_variable_array after a kernel function name change
+51e2b8d33199df9675d2a36ec6aad0c27e91c6fe selftests/bpf: Adjust btf_dump test to reflect recent change in file_operations
+52d94c180a9f6e586c8234b7feb7c8b9282f53c9 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+988af276360bc555c7685d5a607d4da0588616d9 selftests/net: reduce xfrm_policy test time
+bb487272380d120295e955ad8acfcbb281b57642 net/ipv6: Fix route deleting failure when metric equals 0
+a45835a0bb6ef7d5ddbc0714dd760de979cb6ece bonding: fix oops during rmmod
+fe32622763d8bc864231381f34f7521f8694748b dt-bindings: net: qcom: ethernet: Allow dma-coherent
+67708158e732bf03d076fba1e3d4453fbf8292a2 idpf: don't skip over ethtool tcp-data-split setting
+e03e7f20ebf7e1611d40d1fdc1bde900fd3335f6 netrom: fix possible dead-lock in nr_rt_ioctl()
+fa033def4171d2e4e29d5e3714fb2a5b1fc077e8 virtio_net: Fix missed rtnl_unlock
+581073f626e387d3e7eed55c48c8495584ead7ba af_packet: do not call packet_read_pending() from tpacket_destruct_skb()
+68067f065ee730c7c67b361c3c81808d25d5a90b net: wangxun: fix to change Rx features
+ac71ab7816b675f1c9614015bd87bfccb456c394 net: wangxun: match VLAN CTAG and STAG features
+1d3c6414950badaa38002af3b5857e01a21f01e9 net: txgbe: fix to control VLAN strip
+f6f25eebe05ff36f5827dc8e54c238a3f6d64066 Merge branch 'wangxun-fixes'
 4853f1f6ace32c68a04287353e428c4cfc3fa8ed Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 ff2632d7d08edc11e8bd0629e9fcfebab25c78b4 Merge tag 'powerpc-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 7ee332c9f12bc5b380e36919cd7d056592a7073f Merge tag 'parisc-for-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+6e828dc60e509b79ef09882264952f341cb58425 l2tp: fix ICMP error handling for UDP-encap sockets
+ce08eeb59df090ca74ab6c035d8636ca75680cb4 dt-bindings: net: ti: Update maintainers list
+31279b0cb45f2f6be1f0e7324aeec26578a6e65e MAINTAINERS: net: Update reviewers for TI's Ethernet drivers
+f0fa84116434b50a8d249d0da8852f410a21ba98 net: dsa: microchip: Correct initialization order for KSZ88x3 ports
+fe56d6e4a99a40f50e64d5a8043f1fa838b1f7a1 selftests: net: local_termination: annotate the expected failures
 06f054b1fee83415fe35204845708988fc16ef22 Merge tag 'devicetree-for-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 91b6163be404e36baea39fc978e4739fd0448ebd Merge tag 'sysctl-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 e9d682518076b38ae76f9fe45ba4fa9e324274f7 Merge tag 'bootconfig-v6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
@@ -1051,4 +1051,4 @@ fa3889d970da8f95bdd90fb5a07d521810be5678 Merge tag 'trace-user-events-v6.10' of 
 f08a1e912d3e60bf3028ea1c5199a609d12cd37c Merge tag 'net-6.10-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 4b377b4868ef17b040065bd468668c707d2477a5 kprobe/ftrace: fix build error due to bad function definition
 
---===============8914240429931293535==--
+--===============4848277855599666181==--
