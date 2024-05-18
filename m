@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0278291188832389223=="
+Content-Type: multipart/mixed; boundary="===============1391878339657726446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
-Date: Sat, 18 May 2024 21:53:14 -0000
-Message-Id: <171606919421.1917.11096419441069961685@gitolite.kernel.org>
+Date: Sat, 18 May 2024 21:53:35 -0000
+Message-Id: <171606921568.2149.1937419968663348900@gitolite.kernel.org>
 
---===============0278291188832389223==
+--===============1391878339657726446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan
 user: sschmidt
 changes:
-  - ref: refs/heads/master
-    old: b85ea95d086471afb4ad062012a4d73cd328fa86
+  - ref: refs/heads/main
+    old: f990874b1c98fe8e57ee9385669f501822979258
     new: 07aa33988ad92fef79056f5ec30b9a0e4364b616
-    log: revlist-b85ea95d0864-07aa33988ad9.txt
+    log: revlist-f990874b1c98-07aa33988ad9.txt
 
---===============0278291188832389223==
+--===============1391878339657726446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b85ea95d0864-07aa33988ad9.txt
+Content-Disposition: attachment; filename=revlist-f990874b1c98-07aa33988ad9.txt
 
 33a44f3760509c6b4df595774f1232f4c1b81e65 btrfs: simplify return variables in btrfs_drop_subtree()
 30704a0d562bbed00b3ca4bb14108d75c3ee9108 btrfs: drop unused argument of calcu_metadata_size()
@@ -1051,4 +1051,4 @@ f08a1e912d3e60bf3028ea1c5199a609d12cd37c Merge tag 'net-6.10-rc0' of git://git.k
 4b377b4868ef17b040065bd468668c707d2477a5 kprobe/ftrace: fix build error due to bad function definition
 07aa33988ad92fef79056f5ec30b9a0e4364b616 mac802154: fix time calculation in ieee802154_configure_durations()
 
---===============0278291188832389223==--
+--===============1391878339657726446==--
