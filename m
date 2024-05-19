@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 19 May 2024 17:19:48 -0000
-Message-Id: <171613918845.14132.8919615790451742738@gitolite.kernel.org>
+Date: Sun, 19 May 2024 17:20:39 -0000
+Message-Id: <171613923932.16159.13177579794890273205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/tpm2_key-2
-    old: 6237b61e9b0497643c896a66f1a7f55126c04c48
-    new: 8c3ead6eedab6de8609805631dcd17021732ccac
+    old: 8c3ead6eedab6de8609805631dcd17021732ccac
+    new: ecc6fc4f22c4342bc1373b90aa27c80f57d12e21
     log: |
-         88c89649f98834153f66da125da68411d6b58824 KEYS: trusted: Migrate tpm2_key_{encode,decode}() to TPM driver
-         80467c07076ec13b89cde54d044a31579b4e2bec tpm: tpm2_key: Extend parser to TPM_LoadableKey
-         be1a86e8c7910f9d3eaf80de2510a10fd616cac6 keys: asymmetric: ASYMMETRIC_TPM2_KEY_RSA_SUBTYPE
-         284c7f45b839b8b26fbb7d6611a31371532f4c63 fixup1
-         8c3ead6eedab6de8609805631dcd17021732ccac fixup2
+         ecc6fc4f22c4342bc1373b90aa27c80f57d12e21 keys: asymmetric: ASYMMETRIC_TPM2_KEY_RSA_SUBTYPE
          
