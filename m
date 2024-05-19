@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8413919022281161589=="
+Content-Type: multipart/mixed; boundary="===============2606239740430801557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sun, 19 May 2024 06:50:17 -0000
-Message-Id: <171610141791.560.9796999917581755884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sun, 19 May 2024 06:55:23 -0000
+Message-Id: <171610172388.4123.8922294641966275896@gitolite.kernel.org>
 
---===============8413919022281161589==
+--===============2606239740430801557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 7ee332c9f12bc5b380e36919cd7d056592a7073f
-    new: 0450d2083be6bdcd18c9535ac50c55266499b2df
-    log: revlist-7ee332c9f12b-0450d2083be6.txt
+  - ref: refs/heads/crypto-pending
+    old: ffe90083b92332599664d0dfd7d1d268b9433c8b
+    new: cce62288ffc3d5ae8bd66812009e66a209f0e5ca
+    log: revlist-ffe90083b923-cce62288ffc3.txt
 
---===============8413919022281161589==
+--===============2606239740430801557==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7ee332c9f12b-0450d2083be6.txt
+Content-Disposition: attachment; filename=revlist-ffe90083b923-cce62288ffc3.txt
 
 ad6d17e10306a66fb40985da77889bc28c2a5c1b dt-bindings: display: samsung,exynos5-dp: convert to DT Schema
 57b7d5d315e2b4193199228574d613640d3f5b50 dt-bindings: display: atmel,lcdc: convert to dtschema
@@ -607,5 +607,14 @@ ff9a79307f89563da6d841da8b7cc4a0afceb0e2 Merge tag 'kbuild-v6.10' of git://git.k
 61ea647ed190af8ed5c5adece2fb5ee33eb3cd22 Merge tag 'nfsd-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 7991c92f4cc50b971fcb4d05087e490dc47a6857 Merge tag 'ext4_for_linus-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 0450d2083be6bdcd18c9535ac50c55266499b2df Merge tag '6.10-rc-smb-fix' of git://git.samba.org/sfrench/cifs-2.6
+cc057719b30463383c343299445b979cd64dea95 crypto: shash - add support for finup_mb
+8a197fc210c9f6cd664b9cd6943b35cadce4ee52 crypto: testmgr - generate power-of-2 lengths more often
+57c3d2f8ffddb654fa6c0506afb54885998d9a40 crypto: testmgr - add tests for finup_mb
+e7d9d5673f59bcefd8f48dd54be1c20cdba5c023 crypto: x86/sha256-ni - add support for finup_mb
+352f82c9e1a78ceb99a9a1624649fd3b7fe72c4b crypto: arm64/sha256-ce - add support for finup_mb
+2761af0ca6887e562922db4e3d4b2760570b00c6 fsverity: improve performance by using multibuffer hashing
+dfecfa2f52a5aa1516e04dc99539a451337cf901 dm-verity: hash blocks with shash import+finup when possible
+1835a41bd70196c52472dcf83a3d0fa76d143637 dm-verity: improve performance by using multibuffer hashing
+cce62288ffc3d5ae8bd66812009e66a209f0e5ca crypto: x86/aes-gcm - add VAES and AVX512 / AVX10 optimized AES-GCM
 
---===============8413919022281161589==--
+--===============2606239740430801557==--
