@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sun, 19 May 2024 13:43:57 -0000
-Message-Id: <171612623700.20945.16496945569150607286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sun, 19 May 2024 13:54:51 -0000
+Message-Id: <171612689131.28055.5676014716645495528@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/review
-    old: 13b9ee57f9b3e45dd2d9691806df27a8dca78f06
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/kbuild
+    old: c4314b714e86af729f39ae04c2f4ed550872920d
+    new: 9d74ad805593a946704732a53721601b69a7cfdd
+    log: |
+         9d74ad805593a946704732a53721601b69a7cfdd kconfig: fix comparison to constant symbols, 'm', 'n'
+         
