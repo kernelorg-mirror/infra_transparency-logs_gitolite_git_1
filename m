@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 19 May 2024 23:37:47 -0000
-Message-Id: <171616186786.28913.2798355923144167754@gitolite.kernel.org>
+Date: Sun, 19 May 2024 23:39:16 -0000
+Message-Id: <171616195614.29501.15976250131145462595@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,15 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/tpm2_key-2
-    old: f7378f92953ca33a0e0bf336dd2b0d63e9de09ac
-    new: d3e55977cf0f4737766e2aa4b9148303bb444f7b
+    old: d3e55977cf0f4737766e2aa4b9148303bb444f7b
+    new: 00880123f21308d60e8ff715bf8a288477efcff2
     log: |
-         567204fc03451c3107a1bec04fe52655d3b5cbe6 KEYS: trusted: Fix memory leak in tpm2_key_encode()
-         11e77926df68f22d8d05d0334ffe7950d9206a3a KEYS: trusted: Do not use WARN when encode fails
-         60f0a53bce5496d1b6e8695a485f9de0083ee863 lib: Expand asn1_encode_integer() to variable size integers
-         eb2a7787ff7b977073c03899523a855f4c5f0566 KEYS: trusted: Move tpm2_key_decode() to the TPM driver
-         ca88432fbb3fd4e17309f32e02b9e97d97c2567e tpm: tpm2_key: Extend parser to TPM_LoadableKey
-         d3e55977cf0f4737766e2aa4b9148303bb444f7b keys: asymmetric: ASYMMETRIC_TPM2_KEY_RSA_SUBTYPE
+         cd9d32e9be3a8c89c05d429db3bae43416b69e5f KEYS: trusted: Fix memory leak in tpm2_key_encode()
+         8da9cbbe0d530c4c569d7e5b307f0969bc76dd59 KEYS: trusted: Do not use WARN when encode fails
+         acadda74227d470fe70f2998e60b53075bbe4c20 crypto: rsa-pkcs1pad: export rsa1_asn_lookup()
+         3fed350307c7bd539067878b9b17af52ed88b836 tpm: export tpm2_load_context()
+         8dc218fbd94b5a7bd4ca292c2379e13fc967b665 lib: Expand asn1_encode_integer() to variable size integers
+         7b3a28ef3be43acba8ee3ea8ef5b657b651a8b87 KEYS: trusted: Move tpm2_key_decode() to the TPM driver
+         a3e03650eaf10afb36c139234facb68aabedd5a7 tpm: tpm2_key: Extend parser to TPM_LoadableKey
+         00880123f21308d60e8ff715bf8a288477efcff2 keys: asymmetric: ASYMMETRIC_TPM2_KEY_RSA_SUBTYPE
          
