@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sun, 19 May 2024 05:18:33 -0000
-Message-Id: <171609591368.31389.1985629486550544879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Sun, 19 May 2024 06:08:14 -0000
+Message-Id: <171609889450.2679.15904806492401771762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/tags/cap/v1.2.70
-    old: 0000000000000000000000000000000000000000
-    new: ade456b2a6e5e701227dcff7db9f4b144ca71c34
-  - ref: refs/tags/libcap-2.70
-    old: 0000000000000000000000000000000000000000
-    new: 17f2fd58a37146c33b0d8626ff4fdc13c24bd299
-  - ref: refs/tags/libcap-korg-2.70
-    old: 0000000000000000000000000000000000000000
-    new: e0eb9ac4ac4c8a59bcd46d5ce47b68214f2ce6e9
-  - ref: refs/tags/psx/v1.2.70
-    old: 0000000000000000000000000000000000000000
-    new: 4aa8ed6a17ecf5f0142fe7ed6ae34fe1f65e1029
-  - ref: refs/tags/v1.2.70
-    old: 0000000000000000000000000000000000000000
-    new: fd31b6cd318194906fc8f6cea582e475c67ec207
+  - ref: refs/heads/dev
+    old: 7c35de4df1056a5a1fb4de042197b8f5b1033b61
+    new: 5587a8172eb6040e388c3fc9fa6553b99510da9e
+    log: |
+         469ad583c1293f5d9f45183050b3beeb4a8c3475 erofs: switch erofs_bread() to passing offset instead of block number
+         958b9f85f8d9d884045ed4b93b2082090e617f97 erofs_buf: store address_space instead of inode
+         20c02972ec492f6cbfdd0146940899f2841c2783 Merge branch 'misc.erofs' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
+         c34110e0fdfddc22b7fd606ca81303d20330bacb erofs: clean up erofs_show_options()
+         e09815446d6944fc5590a6e5f15dd51697202441 erofs: mechanically convert erofs_read_metabuf() to offsets
+         076d965eb812f2ad88daf693d745ea1f28bf8f80 erofs: don't align offset for erofs_read_metabuf() (simple cases)
+         4afe6b8d21e5ff644fedd7db5673fe5a48b177b7 erofs: don't round offset down for erofs_read_metabuf()
+         5587a8172eb6040e388c3fc9fa6553b99510da9e z_erofs_pcluster_begin(): don't bother with rounding position down
+         
