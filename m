@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 19 May 2024 21:20:27 -0000
-Message-Id: <171615362724.27017.13045344926650737102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sun, 19 May 2024 21:47:34 -0000
+Message-Id: <171615525400.13435.12829006871141071894@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 535232afa729285369ddd6b3472b8b9652838e2b
-    new: e2f74347c7cc13c0044b0ad526e7c6dabe090b5d
+  - ref: refs/heads/tpm2_key-2
+    old: 05d34d0dcfc6be370a5967201a366ff9ac50916c
+    new: df6f7a8491d30d55912e9a8fa9ebc3dc7ae8d043
     log: |
-         e2f74347c7cc13c0044b0ad526e7c6dabe090b5d foo
+         6136b7f2d3e5db740940efdd3709b9397cf526d0 KEYS: trusted: Migrate tpm2_key_{encode,decode}() to TPM driver
+         e3ff694a7fe1843a2a31463bdc7b157f6d2342f2 tpm: tpm2_key: Extend parser to TPM_LoadableKey
+         df6f7a8491d30d55912e9a8fa9ebc3dc7ae8d043 keys: asymmetric: ASYMMETRIC_TPM2_KEY_RSA_SUBTYPE
          
