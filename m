@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4151029677645358247=="
+Content-Type: multipart/mixed; boundary="===============2921301774297161462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 19 May 2024 04:10:47 -0000
-Message-Id: <171609184725.15294.14869871050022734605@gitolite.kernel.org>
+Date: Sun, 19 May 2024 04:11:43 -0000
+Message-Id: <171609190358.15731.11984369297544817084@gitolite.kernel.org>
 
---===============4151029677645358247==
+--===============2921301774297161462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/kbuild
     old: 6ffe4fdf8901dc0a15d7278531503ecd4522ae15
     new: 0450d2083be6bdcd18c9535ac50c55266499b2df
     log: revlist-6ffe4fdf8901-0450d2083be6.txt
 
---===============4151029677645358247==
+--===============2921301774297161462==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ff9a79307f89563da6d841da8b7cc4a0afceb0e2 Merge tag 'kbuild-v6.10' of git://git.k
 7991c92f4cc50b971fcb4d05087e490dc47a6857 Merge tag 'ext4_for_linus-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 0450d2083be6bdcd18c9535ac50c55266499b2df Merge tag '6.10-rc-smb-fix' of git://git.samba.org/sfrench/cifs-2.6
 
---===============4151029677645358247==--
+--===============2921301774297161462==--
