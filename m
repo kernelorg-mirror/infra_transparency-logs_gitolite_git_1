@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sun, 19 May 2024 14:31:53 -0000
-Message-Id: <171612911319.22988.420605786158209191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 19 May 2024 14:36:17 -0000
+Message-Id: <171612937731.26155.3019478063498943831@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/tags/loongarch-6.10
-    old: 4a5ac060981dd41405096e574aeecca91e4e7eaa
-    new: 24e432d92ad0a4a1e82ccd7fdfacbd720863fff0
+  - ref: refs/heads/testing
+    old: 34d3aa6a60c8e0d053e8df5ff4a2b211951f06a6
+    new: 0ff2616925f00c682273a2367005c7817b6fe46f
     log: |
-         9cc1df421f00453afdcaf78b105d8e7fd03cce78 LoongArch: Update Loongson-3 default config file
+         212708239d1d67c40213d2936b3f0f33e37ffcf6 iio: pressure: bmp280: Refactorize reading functions
+         977b799c4792e9129f39523635173e50434a064a iio: pressure: bmp280: Introduce new cleanup routines
+         a7ce99d4ec901b328e7ecf9bbcd16cba59daebda iio: pressure: bmp280: Generalize read_{temp,press,humid}() functions
+         4004e47bda0bfdb4c2aedcbc6533db0ee286bf16 iio: pressure: bmp280: Add SCALE, RAW values in channels and refactorize them
+         0ff2616925f00c682273a2367005c7817b6fe46f iio: pressure: bmp280: Add triggered buffer support
          
