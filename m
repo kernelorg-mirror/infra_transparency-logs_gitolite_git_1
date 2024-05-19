@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 19 May 2024 19:54:28 -0000
-Message-Id: <171614846841.28566.15474158714526625906@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 19 May 2024 20:04:32 -0000
+Message-Id: <171614907222.3068.18064015984069522314@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/tpm2_key-2
-    old: 1ec997b5b8033a9645f98fba0baa57f41e3c0421
-    new: 05d34d0dcfc6be370a5967201a366ff9ac50916c
+  - ref: refs/heads/master
+    old: f5fe1009289f0374f7ba499bba07385e43e94c3e
+    new: f978f0748304182beee4c9e536a5a037d5b4a972
     log: |
-         05d34d0dcfc6be370a5967201a366ff9ac50916c keys: asymmetric: ASYMMETRIC_TPM2_KEY_RSA_SUBTYPE
+         8db78d5f460f881369c3629197fbb56aac010885 RELEASE: Add command to send lsm file
+         f978f0748304182beee4c9e536a5a037d5b4a972 lsm: wsfix
          
