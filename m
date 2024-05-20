@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1471450393376166221=="
+Content-Type: multipart/mixed; boundary="===============8543367574274646775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 20 May 2024 21:37:53 -0000
-Message-Id: <171624107399.19324.6274661454042123843@gitolite.kernel.org>
+Date: Mon, 20 May 2024 21:38:19 -0000
+Message-Id: <171624109909.19528.12450504078451679381@gitolite.kernel.org>
 
---===============1471450393376166221==
+--===============8543367574274646775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,46 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 1b294a1f35616977caddaddf3e9d28e576a1adbc
-    new: 4b377b4868ef17b040065bd468668c707d2477a5
-    log: revlist-1b294a1f3561-4b377b4868ef.txt
+  - ref: refs/heads/dev-queue
+    old: 5ea2cd1c488b53af328be01cc1a485a3e0032a7f
+    new: d19a3bfe8349e09a5dd33ba85249b68bc608e20d
+    log: revlist-5ea2cd1c488b-d19a3bfe8349.txt
 
---===============1471450393376166221==
+--===============8543367574274646775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b294a1f3561-4b377b4868ef.txt
+Content-Disposition: attachment; filename=revlist-5ea2cd1c488b-d19a3bfe8349.txt
 
-03479d5673138b7e272457455180dde9d425282b media: i2c: imx219: Use dev_err_probe on probe
-aa7b148855e8265c4f72ae0305842efdda72680b media: v4l: Set sub-device's owner field to the caller's module
-8a718752f5c339137c5b05e54f116cd26d5a4143 media: v4l: async: Set owner for async sub-devices
-c742a195003568bf9e13950ecd1a0c676c604c5c media: mediatek: vcodec: Replace dev_name in error string
-3de2a2184d4407b9199b2d3b69a7958e77e9f6f9 media: mediatek: vcodec: Drop unnecessary variable
-f19a771ac1e8d762e8a835fad150d7fceffd65c7 media: mediatek: vcodec: Update mtk_vcodec_mem_free() error messages
-eb005c801ec70ff4307727bd3bd6e8280169ef32 media: mediatek: vcodec: Only free buffer VA that is not NULL
-957a36c4fcf47aaa4f0d54bdb8050d86880b7f01 ALSA: kunit: make read-only array buf_samples static const
-f989ecccdf6bfe985b89d713db1b6c46ae582b64 drm/amdkfd: Fix rescheduling of restore worker
-a522ec528cc74377e541e49555ba8739c4e5d4be drm/amdgpu/umsch: don't execute umsch test when GPU is in reset/suspend
-fa7bb2cac0f7dae4604214cf547322c55975a9e8 drm/amd/pm: Restore config space after reset
-63335b383a0a52643fa5080d5bcef4e06c90213f drm/amdkfd: Add VRAM accounting for SVM migration
-26de73bc0a73edeead58d76596a70706c37b3049 drm/amdgpu: Fix the ring buffer size for queue VM flush
-92ed1e9cd5f6cc4f8c9a9ba6c4d2d2bbc6221296 drm/amdgpu: init microcode chip name from ip versions
-ea9238a81b3ab8dcec99b1322bab5a30043b320a drm/amdgpu: replace tmz flag into buffer flag
-bdc7ee7a35359c616f2c5a1b5db7c12338ccb778 drm/amdgpu: Fix snprintf buffer size in smu_v14_0_init_microcode
-ab6a0edb7ded060e84dc1a24e3936c86c3d048b9 Revert "drm/amd/display: Add fallback configuration when set DRR"
-a16b95158644224025fbb81778b6f0cfb4c38f67 drm/amdgpu: Update CGCG settings for GFXIP 9.4.3
-e0a9bbeea00234c468607b369816547ca8c86458 drm/amdgpu/sdma5.2: use legacy HDP flush for SDMA2/3
-f88da7fbf665ffdcbf5b439922a231bec6c0cf01 drm/amdgpu/mes: fix use-after-free issue
-60c448439f3b5db9431e13f7f361b4074d0e8594 drm/amdgpu: Fix uninitialized variable warnings
-af730e08203522dbf5a03853576c5b43c9d1afea drm/amdgpu: Add interface to reserve bad page
-e21d253bd74bd422347d202ea2205cdc7623eed2 drm/amdgpu: add prototype for ip dump
-c395dbb68b294d1de9a5ac6c9faaf8ac081123c3 drm/amdgpu: add support of gfx10 register dump
-40356542c36160bddee9fdf25b9248e0c9e6503b drm/amdgpu: add protype for print ip state
-c8732c80debb276c36de395a1a8f40c33cf10830 drm/amdgpu: add support for gfx v10 print
-e043a35dc244b72809cf3a1b8ff315dcb941c63a drm/amdgpu: dump ip state before reset for each ip
-af8644121e3e76d7f8d77f7712becba303dfb8fe drm/amdgpu: add ip dump for each ip in devcoredump
-71dfa617ea9f18e4585fe78364217cd32b1fc382 drm/amd/display: Add missing debug registers for DCN2/3/3.1
 130afc8a886183a94cf6eab7d24f300014ff87ba drm/amd/display: Fix division by zero in setup_dsc_config
 c551316e150bc0e25ec0609fb396cc37fc8e6fc9 drm/amdgpu: update jpeg max decode resolution
 8e1d1905951dffe4980ed73a330b770281ebac85 drm/amdgpu: Fix VRAM memory accounting
@@ -1050,5 +1021,34 @@ fa3889d970da8f95bdd90fb5a07d521810be5678 Merge tag 'trace-user-events-v6.10' of 
 26aa834ff2eef00a863a64b1a94a5a88a94eb963 Merge tag 'trace-tools-v6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 f08a1e912d3e60bf3028ea1c5199a609d12cd37c Merge tag 'net-6.10-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 4b377b4868ef17b040065bd468668c707d2477a5 kprobe/ftrace: fix build error due to bad function definition
+d6053532cecaee071c79e80fd05864c89ed9aa51 ice: Interpret .set_channels() input differently
+0746627ee961312bd4609e3f9741e21b7d206c1f ice: fix 200G PHY types to link speed mapping
+9a4d670c1eda0242b4fa054d3483416806c01225 idpf: don't enable NAPI and interrupts prior to allocating Rx buffers
+5198e6388881e6f3426b63f54939b26993384116 idpf: Interpret .set_channels() input differently
+7e92a15be79b1b7a4fe4c1f91cbfcb91c2866105 ice: add and use roundup_u64 instead of open coding equivalent
+c1b347fdb0a2aef4e76531e0ab303b5ff378f32d ice: Introduce ice_ptp_hw struct
+6181266f2dbd4abcf7a306c3e9f8bc747d17245f ice: Introduce helper to get tmr_cmd_reg values
+a6679c1fc28ad82b8e676fc1a2c21415cdf79788 ice: Implement Tx interrupt enablement functions
+e891bb0706c8f07d424130e747428adc703efe62 ice: Add PHY OFFSET_READY register clearing
+479c07ad47c9e25832ae9659cb6d6845eda8fee5 ice: Move CGU block
+8e303a72cebb2207a202f2e19a471183138ca0b8 ice: Introduce ice_get_base_incval() helper
+b4817591e824dee5c5318d08a40a920c71578cb0 ice: Introduce ETH56G PHY model for E825C products
+92c4456af03547abfc856e529523b252faa6b6a1 ice: Change CGU regs struct to anonymous
+4955639e82493f31e671409e46438c67cd89e3f0 ice: Add support for E825-C TS PLL handling
+bb64ca2b3a14453666a8b32cee0e84fd72f7c680 ice: Add NAC Topology device capability parser
+6edc008c691cb4abcd9efcb6cf6c823e30aa7ea9 ice: Adjust PTP init for 2x50G E825C devices
+82211f71876afa2aab72858ce86419930a4080b9 ice: store representor ID in bridge port
+3e15c851ba824fc1e0c55b34bc2c5181a5140b71 ice: move devlink locking outside the port creation
+eb653eddca048a8ec5963aaa99d87af654a6f711 ice: move VSI configuration outside repr setup
+e4efcdba8f76cb2c3d56a107b6dfd6f50e0e51bd ice: update representor when VSI is ready
+57a235d19c31b94e20f923ab4aa69a48b520dd7e net: intel: Use *-y instead of *-objs in Makefile
+0d06edd5083af495aa08ab3ae27394af3ca65974 e1000e: move force SMBUS near the end of enable_ulp function
+57004135738e9b6362bb34bb871612b85bd3d436 ice: fix accounting if a VLAN already exists
+16f4b5623efbe209048abcad513ca6c67d2d29c2 ice: remove af_xdp_zc_qps bitmap
+b6fa27f43f93726df2438938883677d30edb01bc ice: add flag to distinguish reset from .ndo_bpf in XDP rings config
+6475bcad0c945e6f2d01a821e4c3bcad00505d56 ice: map XDP queues to vectors in ice_vsi_map_rings_to_vectors()
+c049ce217b075a8c8d267e3d71a929b0186a1c1d i40e: Fix XDP program unloading while removing the driver
+9146ef1d47694fe8cfeb2955d10023361e351556 i40e: factoring out i40e_suspend/i40e_resume
+d19a3bfe8349e09a5dd33ba85249b68bc608e20d i40e: Fully suspend and resume IO operations in EEH case
 
---===============1471450393376166221==--
+--===============8543367574274646775==--
