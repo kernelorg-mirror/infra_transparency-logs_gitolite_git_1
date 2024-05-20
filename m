@@ -1,29 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 20 May 2024 19:26:37 -0000
-Message-Id: <171623319759.20309.4362280989674384108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 20 May 2024 19:26:54 -0000
+Message-Id: <171623321428.20498.12780171845031938888@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 225468b9f96fe171a4210ce0da454d379e811625
-    new: 810296e34a29fb2fac774bf2f73ab163ea885ad5
+    old: 9bc443ee2d2d9a68fffe7d3ccca009b844dc07fd
+    new: 5b6f7c40958b0ac30c6ebafe274773ffbee7be97
     log: |
-         7078ac4fd179a68d0bab448004fcd357e7a45f8d ASoC: tas2552: Add TX path for capturing AUDIO-OUT data
-         b195acf5266d2dee4067f89345c3e6b88d925311 ASoC: tas2781: Fix wrong loading calibrated data sequence
-         810296e34a29fb2fac774bf2f73ab163ea885ad5 Merge remote-tracking branch 'asoc/for-6.9' into asoc-linus
+         f4f4276f985a5aac7b310a4ed040b47e275e7591 regulator: pickable ranges: don't always cache vsel
+         5b6f7c40958b0ac30c6ebafe274773ffbee7be97 Merge remote-tracking branch 'regulator/for-6.9' into regulator-linus
          
   - ref: refs/heads/for-next
-    old: 225468b9f96fe171a4210ce0da454d379e811625
-    new: 810296e34a29fb2fac774bf2f73ab163ea885ad5
+    old: 9bc443ee2d2d9a68fffe7d3ccca009b844dc07fd
+    new: 5b6f7c40958b0ac30c6ebafe274773ffbee7be97
     log: |
-         7078ac4fd179a68d0bab448004fcd357e7a45f8d ASoC: tas2552: Add TX path for capturing AUDIO-OUT data
-         b195acf5266d2dee4067f89345c3e6b88d925311 ASoC: tas2781: Fix wrong loading calibrated data sequence
-         810296e34a29fb2fac774bf2f73ab163ea885ad5 Merge remote-tracking branch 'asoc/for-6.9' into asoc-linus
+         f4f4276f985a5aac7b310a4ed040b47e275e7591 regulator: pickable ranges: don't always cache vsel
+         5b6f7c40958b0ac30c6ebafe274773ffbee7be97 Merge remote-tracking branch 'regulator/for-6.9' into regulator-linus
          
