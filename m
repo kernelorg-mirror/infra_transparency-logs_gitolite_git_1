@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4211285772486436691=="
+Content-Type: multipart/mixed; boundary="===============3293457835392509527=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 20 May 2024 15:11:27 -0000
-Message-Id: <171621788777.28228.8599424270805018279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 20 May 2024 15:13:04 -0000
+Message-Id: <171621798451.28818.11121415069369581644@gitolite.kernel.org>
 
---===============4211285772486436691==
+--===============3293457835392509527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: eb6a9339efeb6f3d2b5c86fdf2382cdc293eca2c
     log: revlist-1b294a1f3561-eb6a9339efeb.txt
 
---===============4211285772486436691==
+--===============3293457835392509527==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a90f1cd105c6c5c246f07ca371d873d35b78c7d9 Merge tag 'turbostat-for-Linux-6.10-mer
 16dbfae867cdeb32f3d24cea81193793d5decc61 Merge tag 'bcachefs-2024-05-19' of https://evilpiepirate.org/git/bcachefs
 eb6a9339efeb6f3d2b5c86fdf2382cdc293eca2c Merge tag 'mm-nonmm-stable-2024-05-19-11-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============4211285772486436691==--
+--===============3293457835392509527==--
