@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5856919844987553370=="
+Content-Type: multipart/mixed; boundary="===============0948207648436284200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 20 May 2024 13:43:59 -0000
-Message-Id: <171621263966.27702.15678696501227950906@gitolite.kernel.org>
+Date: Mon, 20 May 2024 13:45:09 -0000
+Message-Id: <171621270990.29843.13089686988694937526@gitolite.kernel.org>
 
---===============5856919844987553370==
+--===============0948207648436284200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: 9d74ad805593a946704732a53721601b69a7cfdd
-    new: 3106db2882d80d6c09833f6ec6e1f1cd3c64b640
-    log: revlist-9d74ad805593-3106db2882d8.txt
+  - ref: refs/heads/for-next
+    old: 0450d2083be6bdcd18c9535ac50c55266499b2df
+    new: eb6a9339efeb6f3d2b5c86fdf2382cdc293eca2c
+    log: revlist-0450d2083be6-eb6a9339efeb.txt
 
---===============5856919844987553370==
+--===============0948207648436284200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d74ad805593-3106db2882d8.txt
+Content-Disposition: attachment; filename=revlist-0450d2083be6-eb6a9339efeb.txt
 
 5e28061128646febc71c0942609619e29f41ff00 Merge branch 'master' into mm-stable
 b228ab57e51b62663a80ca820c87ba2650583f08 Merge branch 'master' into mm-stable
@@ -730,8 +730,5 @@ a76056285f5d64740b461d70b062225ba80f0ac2 Merge tag 'kgdb-6.10-rc1' of git://git.
 a90f1cd105c6c5c246f07ca371d873d35b78c7d9 Merge tag 'turbostat-for-Linux-6.10-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 16dbfae867cdeb32f3d24cea81193793d5decc61 Merge tag 'bcachefs-2024-05-19' of https://evilpiepirate.org/git/bcachefs
 eb6a9339efeb6f3d2b5c86fdf2382cdc293eca2c Merge tag 'mm-nonmm-stable-2024-05-19-11-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-b873f84bf7234527c061e3b27dddc932956bc52d kconfig: remove unused expr_is_no()
-90f174ead5c4fcba20e87b81a781db42db6728ab kconfig: fix comparison to constant symbols, 'm', 'n'
-3106db2882d80d6c09833f6ec6e1f1cd3c64b640 kconfig: remove redundant check in expr_join_or()
 
---===============5856919844987553370==--
+--===============0948207648436284200==--
