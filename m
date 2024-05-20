@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 20 May 2024 19:43:13 -0000
-Message-Id: <171623419374.300.12654843220030548983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 20 May 2024 19:45:50 -0000
+Message-Id: <171623435004.3089.1613605049134821069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 637579ef9271c9fd552aeb3f9441f3aa33056d57
-    new: 7b13a745870c1d098466fcb44e44edb550ef3338
+    old: 62d38d6c9ef4017ff6a84af0a9cd9242a7f6a211
+    new: a2438e46f8129d8e08cfb00001a4b63f5616cdda
     log: |
-         d2526ccaab741cdd5db3e2334697b0f91ef0642f Bluetooth: hci_core: Prefer struct_size over open coded arithmetic
-         68b1e55bdf24a66db7a93e25cd03e615deee2fb5 Bluetooth: hci_core: Prefer array indexing over pointer arithmetic
-         b7a6ed60e5e636b5ebee591b2a2fa55c9304064a tty: rfcomm: prefer struct_size over open coded arithmetic
-         7b13a745870c1d098466fcb44e44edb550ef3338 tty: rfcomm: prefer array indexing over pointer arithmetic
+         25d3b629e4df3be30463750d46b843a78464983f device: Add btd_device_get_icon
+         db383a5b4a8d5ce5ae26c33abeff0dfd56860d21 hog-lib: Add force parameter to bt_hog_detach
+         e4f6c68f2a4dfbbdbc24379a5242564c65aa9ae2 shared/uhid: Add special handling for non-keyboards
+         a2438e46f8129d8e08cfb00001a4b63f5616cdda test-bap: Add Broadcast Sink STR one BIS tests
          
