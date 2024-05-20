@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 20 May 2024 19:45:50 -0000
-Message-Id: <171623435004.3089.1613605049134821069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 20 May 2024 19:53:55 -0000
+Message-Id: <171623483563.7627.8031181469333974117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 62d38d6c9ef4017ff6a84af0a9cd9242a7f6a211
-    new: a2438e46f8129d8e08cfb00001a4b63f5616cdda
+  - ref: refs/heads/dm-6.10
+    old: 8b21ac87d550acc4f6207764fed0cf6f0e3966cd
+    new: 825d8bbd2f32cb229c3b6653bd454832c3c20acb
     log: |
-         25d3b629e4df3be30463750d46b843a78464983f device: Add btd_device_get_icon
-         db383a5b4a8d5ce5ae26c33abeff0dfd56860d21 hog-lib: Add force parameter to bt_hog_detach
-         e4f6c68f2a4dfbbdbc24379a5242564c65aa9ae2 shared/uhid: Add special handling for non-keyboards
-         a2438e46f8129d8e08cfb00001a4b63f5616cdda test-bap: Add Broadcast Sink STR one BIS tests
+         69381cf88a8dfa0ab27fb801b78be813e7e8fb80 dm-integrity: set discard_granularity to logical block size
+         825d8bbd2f32cb229c3b6653bd454832c3c20acb dm: always manage discard support in terms of max_hw_discard_sectors
          
