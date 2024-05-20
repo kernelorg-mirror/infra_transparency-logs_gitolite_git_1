@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2343844161146056056=="
+Content-Type: multipart/mixed; boundary="===============4944263577935251282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 20 May 2024 21:46:49 -0000
-Message-Id: <171624160947.25889.15490513709639823991@gitolite.kernel.org>
+Date: Mon, 20 May 2024 21:47:12 -0000
+Message-Id: <171624163223.26132.9602479547827704096@gitolite.kernel.org>
 
---===============2343844161146056056==
+--===============4944263577935251282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 83e93942796db58652288f0391ac00072401816f
-    new: e4a87abf588536d1cdfb128595e6e680af5cf3ed
-    log: revlist-83e93942796d-e4a87abf5885.txt
+  - ref: refs/heads/dev-queue
+    old: 2b512535938d79f471b14814ca6f3b74eac59db5
+    new: bd4e41bfbf5170c8928a176fa482d257ada8bd92
+    log: revlist-2b512535938d-bd4e41bfbf51.txt
 
---===============2343844161146056056==
+--===============4944263577935251282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83e93942796d-e4a87abf5885.txt
+Content-Disposition: attachment; filename=revlist-2b512535938d-bd4e41bfbf51.txt
 
-398eca199e0fbb4306ce031c9d8e7ab811bc6a9d media: i2c: ov4689: Implement digital gain control
-6b3ad3bc4fc726ebc7fc48b6624e5a5a9f75093b media: i2c: ov4689: Implement manual color balance controls
-bf475d32eee5fa71f9533d3200d7b6116e2ef7ac media: i2c: ov4689: Move pixel array size out of struct ov4689_mode
-05e8c95e751d2921faee24bedac93c7508bd605a media: i2c: ov4689: Set timing registers programmatically
-03479d5673138b7e272457455180dde9d425282b media: i2c: imx219: Use dev_err_probe on probe
-aa7b148855e8265c4f72ae0305842efdda72680b media: v4l: Set sub-device's owner field to the caller's module
-8a718752f5c339137c5b05e54f116cd26d5a4143 media: v4l: async: Set owner for async sub-devices
-c742a195003568bf9e13950ecd1a0c676c604c5c media: mediatek: vcodec: Replace dev_name in error string
-3de2a2184d4407b9199b2d3b69a7958e77e9f6f9 media: mediatek: vcodec: Drop unnecessary variable
-f19a771ac1e8d762e8a835fad150d7fceffd65c7 media: mediatek: vcodec: Update mtk_vcodec_mem_free() error messages
-eb005c801ec70ff4307727bd3bd6e8280169ef32 media: mediatek: vcodec: Only free buffer VA that is not NULL
-957a36c4fcf47aaa4f0d54bdb8050d86880b7f01 ALSA: kunit: make read-only array buf_samples static const
 f989ecccdf6bfe985b89d713db1b6c46ae582b64 drm/amdkfd: Fix rescheduling of restore worker
 a522ec528cc74377e541e49555ba8739c4e5d4be drm/amdgpu/umsch: don't execute umsch test when GPU is in reset/suspend
 fa7bb2cac0f7dae4604214cf547322c55975a9e8 drm/amd/pm: Restore config space after reset
@@ -1050,5 +1038,17 @@ b1fa60ec252fba39130107074becd12d0b3f83ec net: Always descend into dsa/ folder wi
 5447f9708d9e4c17a647b16a9cb29e9e02820bd9 ipv6: sr: fix missing sk_buff release in seg6_input_core
 cc563e749810f5636451d4b833fbd689899ecdb9 selftests: net: kill smcrouted in the cleanup logic in amt.sh
 e4a87abf588536d1cdfb128595e6e680af5cf3ed nfc: nci: Fix uninit-value in nci_rx_work
+d2110a857503297226bcef9e5fdf4ae747893140 ice: Interpret .set_channels() input differently
+41d2ba99e01626a69f2c384da474a21af6ddb1b9 ice: fix 200G PHY types to link speed mapping
+74b8d3de903452b20608e7d4b8f77d823660b208 idpf: don't enable NAPI and interrupts prior to allocating Rx buffers
+76a2c9a028b7422b1cd8972e4e00a6a4523591e5 idpf: Interpret .set_channels() input differently
+b01516b7774cc354ae5252d2389958b47f21f31f e1000e: move force SMBUS near the end of enable_ulp function
+196bd0f2152aba9a8c2bf7b3027dde2a1c483936 ice: fix accounting if a VLAN already exists
+18822cf24013886066f4af163677f953614b5fe7 ice: remove af_xdp_zc_qps bitmap
+bfbcfe0749f649bb9298cf3add47080b4bd48b92 ice: add flag to distinguish reset from .ndo_bpf in XDP rings config
+a5858dbf2b6b12e6dc2c3f655f6b8e72cb8a3768 ice: map XDP queues to vectors in ice_vsi_map_rings_to_vectors()
+2d8a0564445302b512cb62544ab8e9d139fb6d26 i40e: Fix XDP program unloading while removing the driver
+e20cc19a654a54f353190ebb0298212c9ff39c43 i40e: factoring out i40e_suspend/i40e_resume
+bd4e41bfbf5170c8928a176fa482d257ada8bd92 i40e: Fully suspend and resume IO operations in EEH case
 
---===============2343844161146056056==--
+--===============4944263577935251282==--
