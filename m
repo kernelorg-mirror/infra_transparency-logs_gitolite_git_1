@@ -1,51 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8029064231545860410=="
+Content-Type: multipart/mixed; boundary="===============6901742723995548589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 20 May 2024 19:26:05 -0000
-Message-Id: <171623316515.19891.3007362476343754153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 20 May 2024 19:26:16 -0000
+Message-Id: <171623317627.20004.10225416665433871029@gitolite.kernel.org>
 
---===============8029064231545860410==
+--===============6901742723995548589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: 714f5df027b085c19c32af6f08a959bf35b9fb7c
-    new: b195acf5266d2dee4067f89345c3e6b88d925311
+  - ref: refs/heads/for-6.10
+    old: cb3a0f84ae0caa5eabf40457485473edc1e2d3f0
+    new: f4f4276f985a5aac7b310a4ed040b47e275e7591
     log: |
-         7078ac4fd179a68d0bab448004fcd357e7a45f8d ASoC: tas2552: Add TX path for capturing AUDIO-OUT data
-         b195acf5266d2dee4067f89345c3e6b88d925311 ASoC: tas2781: Fix wrong loading calibrated data sequence
+         f4f4276f985a5aac7b310a4ed040b47e275e7591 regulator: pickable ranges: don't always cache vsel
          
 
---===============8029064231545860410==
+--===============6901742723995548589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1716233163 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1716233162-65e635a54e8667a6976a1b3036cba58005786ef5
+pusher C3F436CA30F5D8EB 1716233174 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1716233174-fe9441aec8f0dc2002b03c591cac0b214298538a
 
-714f5df027b085c19c32af6f08a959bf35b9fb7c b195acf5266d2dee4067f89345c3e6b88d925311 refs/heads/asoc-6.10
+cb3a0f84ae0caa5eabf40457485473edc1e2d3f0 f4f4276f985a5aac7b310a4ed040b47e275e7591 refs/heads/for-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZLo8sACgkQJNaLcl1U
-h9B6YAf/XUdhxDmtkmodWFgknFK30rMTrJdIMteBO7J1ryp3Tk6wOqtK1ilZDbSc
-1KhNtlvK0F/G1ws93FAdeq7frBOoLjpywW9zk8M3yUZtxsx2vGaMpzuaPuPmp9pB
-sEmINsQjTFPJa2S07I0OgU9ZoKHsYRpSPzwtmYgSDiBL11JsmD+s6vk2fez1kX+0
-h5QbRULR1lZ87+C6ZzZIQu3izcb/ytFFKsxkRRSuLNNUdbRkkBwS+msSFfyw5tQl
-sziWHKboKyeHi1jk/yo0y975yC0XPPDqK+BlJ+WtyvQJFxNmVloJouPTRsgcP0//
-yyubDIXk+SDq9Q6jk4hMTTEKLmSqhw==
-=gZ82
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZLo9YACgkQJNaLcl1U
+h9DgQAf/eYGMoueigJUYR0kCsx9IfTe5qH+o5ajslSc3YJDcuTRi9c+FrxnsFwHn
+lrSC6OAEzTf4ZZEXRwlkg4czu6w6CTuOcM5W69E7BaE9BuTlVepXVRXTUNNtTze+
+MnbVt7LY0HF2tQrImNDCWkHmd/zyBrQPqZGLCsfxb0KE1wAb0VOiCF7H6/5lM9vu
+XAyQLvaL+8ojD0BseOYgFgY0NsCP37PGQ9LCKFnWf/2gO3LYF1aPgHztZgLKJZDf
+5pTTF9nW6xtidSl45M/5OtQ4SD7rNe+6SwkS81iw3gN9+loCt9WByBjJkBtfe1i6
+PZDXuSR1NmMDs2ilVKSrXEc941mgaw==
+=BONW
 -----END PGP SIGNATURE-----
 
---===============8029064231545860410==--
+--===============6901742723995548589==--
