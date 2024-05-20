@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7644638775147082943=="
+Content-Type: multipart/mixed; boundary="===============8029064231545860410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 20 May 2024 19:25:58 -0000
-Message-Id: <171623315882.19755.7886202230421052868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 20 May 2024 19:26:05 -0000
+Message-Id: <171623316515.19891.3007362476343754153@gitolite.kernel.org>
 
---===============7644638775147082943==
+--===============8029064231545860410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/asoc-6.10
     old: 714f5df027b085c19c32af6f08a959bf35b9fb7c
     new: b195acf5266d2dee4067f89345c3e6b88d925311
     log: |
@@ -24,28 +24,28 @@ changes:
          b195acf5266d2dee4067f89345c3e6b88d925311 ASoC: tas2781: Fix wrong loading calibrated data sequence
          
 
---===============7644638775147082943==
+--===============8029064231545860410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1716233157 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1716233156-3f5e7a13baf240460a6df34e4bea1da1a9530169
+pusher C3F436CA30F5D8EB 1716233163 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1716233162-65e635a54e8667a6976a1b3036cba58005786ef5
 
-714f5df027b085c19c32af6f08a959bf35b9fb7c b195acf5266d2dee4067f89345c3e6b88d925311 refs/heads/for-6.10
+714f5df027b085c19c32af6f08a959bf35b9fb7c b195acf5266d2dee4067f89345c3e6b88d925311 refs/heads/asoc-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZLo8UACgkQJNaLcl1U
-h9D5qwf/Y3Hv5imMWMN3SovFcG4mCOQMAy2uCjn3MwbsID4uOP+qX+Tlqd9zyEPU
-+cx8FY8TCozS4/CfhGlPpxsTfVHGcvAh8M/A1ler6Mqlf4QbR0CnJ2iM4SX+z08k
-YuyiyvAf3We/Q/lm43w3DqaWwk9l/hf32djOv+2+fjuegDvsq5pQoEaEeXePdwfE
-wiVKfOPSXEp44fjJxZHvthsibjFOg0O97pvnXtAkxzabMnqBfXcwYaw2qbNlo6tn
-4uhjF1QQ0x7j+okOQ4QSvyz63d/wXmQlrHuW5YK4U8dHAlNv6gO+Z+l45Q+avjjP
-QljjmURDA1u8nLfNC3aOmnoPi1E+MQ==
-=uVrW
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZLo8sACgkQJNaLcl1U
+h9B6YAf/XUdhxDmtkmodWFgknFK30rMTrJdIMteBO7J1ryp3Tk6wOqtK1ilZDbSc
+1KhNtlvK0F/G1ws93FAdeq7frBOoLjpywW9zk8M3yUZtxsx2vGaMpzuaPuPmp9pB
+sEmINsQjTFPJa2S07I0OgU9ZoKHsYRpSPzwtmYgSDiBL11JsmD+s6vk2fez1kX+0
+h5QbRULR1lZ87+C6ZzZIQu3izcb/ytFFKsxkRRSuLNNUdbRkkBwS+msSFfyw5tQl
+sziWHKboKyeHi1jk/yo0y975yC0XPPDqK+BlJ+WtyvQJFxNmVloJouPTRsgcP0//
+yyubDIXk+SDq9Q6jk4hMTTEKLmSqhw==
+=gZ82
 -----END PGP SIGNATURE-----
 
---===============7644638775147082943==--
+--===============8029064231545860410==--
