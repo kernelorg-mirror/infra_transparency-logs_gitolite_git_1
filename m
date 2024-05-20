@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 20 May 2024 15:01:46 -0000
-Message-Id: <171621730688.19834.15774067960827134699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpirko/libteam
+Date: Mon, 20 May 2024 15:10:18 -0000
+Message-Id: <171621781875.27710.16133828037340528100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jpirko/libteam
+user: jpirko
 changes:
-  - ref: refs/heads/fileqcFbd3
-    old: 0000000000000000000000000000000000000000
-    new: bb46a56b368c58354e426a366a97447a8add38d5
-  - ref: refs/heads/filetKPQhI
-    old: 0000000000000000000000000000000000000000
-    new: b195acf5266d2dee4067f89345c3e6b88d925311
+  - ref: refs/heads/master
+    old: 8b843e93cee1dab61fb79b01791201cdad45e1d1
+    new: 337125ce8d24ed66d7f4c7e6eef50458f3e7d154
+    log: |
+         4eb54a811bef43da2be9cc84009567e5d6ca9741 teamd: Pass correct parameter type to accept API
+         337125ce8d24ed66d7f4c7e6eef50458f3e7d154 teamd: lw: arp_ping: bitmask VID in VLAN BPF filter
+         
