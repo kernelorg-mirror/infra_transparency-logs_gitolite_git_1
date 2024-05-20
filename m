@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 20 May 2024 00:36:25 -0000
-Message-Id: <171616538561.5795.2489925971352661015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Mon, 20 May 2024 01:00:11 -0000
+Message-Id: <171616681115.24066.6209142884012027336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/tpm2_key-2
-    old: 202ca2210b99a84f17cba986e934247b629353ee
-    new: 67d9eefe3abe5992a49e9f749f57e18d49ce921f
+  - ref: refs/heads/master
+    old: c1307f8a152ac69f7efb759edfb8d71b4aa228f4
+    new: 0774d19038c496f0c3602fb505c43e1b2d8eed85
     log: |
-         67d9eefe3abe5992a49e9f749f57e18d49ce921f keys: asymmetric: ASYMMETRIC_TPM2_KEY_RSA_SUBTYPE
+         0774d19038c496f0c3602fb505c43e1b2d8eed85 Input: try trimming too long modalias strings
+         
+  - ref: refs/heads/next
+    old: c1307f8a152ac69f7efb759edfb8d71b4aa228f4
+    new: 0774d19038c496f0c3602fb505c43e1b2d8eed85
+    log: |
+         0774d19038c496f0c3602fb505c43e1b2d8eed85 Input: try trimming too long modalias strings
          
