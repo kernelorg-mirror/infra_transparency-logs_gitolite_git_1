@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2588131139996525454=="
+Content-Type: multipart/mixed; boundary="===============6723053776300622799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 21 May 2024 22:57:28 -0000
-Message-Id: <171633224861.17287.13060303233483855450@gitolite.kernel.org>
+Date: Tue, 21 May 2024 22:57:46 -0000
+Message-Id: <171633226607.17444.3069161543193287891@gitolite.kernel.org>
 
---===============2588131139996525454==
+--===============6723053776300622799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,39 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 59d42f26d0211a1f80b8d7110b8461deb62d59dc
-    new: 49b33f4b3a9ea6afafe46163ebfcdec23ad1fcbf
-    log: revlist-59d42f26d021-49b33f4b3a9e.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 55750148e5595bb85605e8fbb40b2759c2c4c2d7
+    new: b6394d6f715919c053c1450ef0d7c5e517b53764
+    log: revlist-55750148e559-b6394d6f7159.txt
 
---===============2588131139996525454==
+--===============6723053776300622799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1716332247 +0200
+pusher andi.shyti@kernel.org 1716332265 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1716332246-d66856bcdedd7d8fa5d0c33413f9b9c1625180c0
+nonce 1716332264-40951b3825364184b8a4d057575419f0a5992b36
 
-59d42f26d0211a1f80b8d7110b8461deb62d59dc 49b33f4b3a9ea6afafe46163ebfcdec23ad1fcbf refs/heads/i2c/i2c-host-next
+55750148e5595bb85605e8fbb40b2759c2c4c2d7 b6394d6f715919c053c1450ef0d7c5e517b53764 refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZk0m1xYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1usI8BAIGZNz7qmg2SwTQQzNoTgJnsRH4b
-Lj0BZ3oFVvXqdzx1AP9JYAwyBdaiSZ30WaWWM/akkgFzrXI9KexjDGk+SUxrDA==
-=FOgd
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZk0m6RYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uidoA/jdmcxoMzs2g3whmO83JPFdwYIm6
+8iMsj0BA7+XSEsRxAQDvxRs6p64OtFeno9MKs6HAvjTzKPqBUaBf16OF+3JfBQ==
+=cZHV
 -----END PGP SIGNATURE-----
 
---===============2588131139996525454==
+--===============6723053776300622799==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-59d42f26d021-49b33f4b3a9e.txt
+Content-Disposition: attachment; filename=revlist-55750148e559-b6394d6f7159.txt
 
+db5b4f3253ff73bc2e926ec76e1c0f662b38d9a4 cgroup: Add documentation for missing zswap memory.stat
+a6016aac5252da9d22a4dc0b98121b0acdf6d2f5 dma: fix DMA sync for drivers not calling dma_set_mask*()
 e7073830cc8b52ef3df7dd150e4dac7706e0e104 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 448b3fe5a0eab5b625a7e15c67c7972169e47ff8 Merge tag 'hwmon-for-v6.9-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 592efc606b549692c7ba6c8f232c4e6028d0382c KVM: arm64: Rename is_id_reg() to imply VM scope
@@ -1069,7 +1071,5 @@ b9dd56e813af002f45f6a494414d4a05dfdaa30e Merge tag 'soundwire-6.10-rc1' of git:/
 2a8120d7b4827380f30b57788ff92ec5594e2194 Merge tag 's390-6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 3413efa8885d7a714c54c6752eaf49fd17d351c9 Merge tag 'pull-bd_flags-2' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 b6394d6f715919c053c1450ef0d7c5e517b53764 Merge tag 'pull-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-d4f65540cdec31ae5fb18282cbd1537cb7ae8135 i2c: synquacer: Remove a clk reference from struct synquacer_i2c
-49b33f4b3a9ea6afafe46163ebfcdec23ad1fcbf i2c: Remove I2C_CLASS_SPD
 
---===============2588131139996525454==--
+--===============6723053776300622799==--
