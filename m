@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7992641836148867635=="
+Content-Type: multipart/mixed; boundary="===============7585815717957497821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 21 May 2024 00:50:27 -0000
-Message-Id: <171625262733.30541.6905802940859547939@gitolite.kernel.org>
+Date: Tue, 21 May 2024 00:50:58 -0000
+Message-Id: <171625265860.30820.10280124036030085286@gitolite.kernel.org>
 
---===============7992641836148867635==
+--===============7585815717957497821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 6bd944d25368ade1a9d00108fd89a30ff08d665c
-    new: 050bf3c793a07f96bd1e2fd62e1447f731ed733b
-    log: revlist-6bd944d25368-050bf3c793a0.txt
+  - ref: refs/heads/tpm2_key-2
+    old: 56119be36d55805748029b672eda6d1a89485ac4
+    new: 68cc0f69d359674a7f668a0ed070a7c3aa8b0534
+    log: revlist-56119be36d55-68cc0f69d359.txt
 
---===============7992641836148867635==
+--===============7585815717957497821==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6bd944d25368-050bf3c793a0.txt
+Content-Disposition: attachment; filename=revlist-56119be36d55-68cc0f69d359.txt
 
-dfb3bc5f4d5db43b53efde8835d85d59531b68b0 dt-bindings: arm: aspeed: add ASUS X4TF board
-d8bdd1e8acd54631a59c56f637b18816c5381f61 ARM: dts: aspeed: x4tf: Add dts for asus x4tf project
-196eca020600470ca44da94c65607e7a98aa9d3c tools/power turbostat: Enhance ARL/LNL support
-f04fcc7ac8ceb87933244cca28759d0fac6103ce tools/power turbostat: Add ARL-H support
-d3e6f6253895f499b63bac261b81732f9efc4902 tools/power turbostat: Replace _Static_assert with BUILD_BUG_ON
-0e39702fbbcdb16ad349439065d24a3bb5e2f331 tools/power turbostat: Enable non-privileged users to read sysfs counters
 6a3e640b5dcf56fb44d66d525e01ea08633c6b8b MAINTAINERS: powerpc: Remove Aneesh
 1fcd254733371cfa5a3602bab5ae2c9dc4bf69e6 MAINTAINERS: MMU GATHER: Update Aneesh's address
 76f09e22027fc0dbec1e9c82898d9059b4455df6 platform/x86: ISST: Support SST-BF and SST-TF per level
@@ -1050,5 +1044,11 @@ bb6b206216f599cd5d4362394c6704a36e14f1ff Merge tag 'fs_for_v6.10-rc1' of git://g
 8f6a15f095a63a83b096d9b29aaff4f0fbe6f6e6 Merge tag 'cocci-for-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 ffcaa2172cc1a85ddb8b783de96d38ca8855e248 KEYS: trusted: Fix memory leak in tpm2_key_encode()
 050bf3c793a07f96bd1e2fd62e1447f731ed733b KEYS: trusted: Do not use WARN when encode fails
+876dd6ccbd264eed2daca250cd76aaaac4c627da crypto: rsa-pkcs1pad: export rsa1_asn_lookup()
+1e68ee3b565e1c6e00451c1de265254d6537f13b lib: Expand asn1_encode_integer() to variable size integers
+c1205d62912816f9bdc2603f2c64123229710a11 tpm: Export tpm2_load_context()
+ea74a629e0c1bd08ac0913dbc531d42ea7d0cd07 KEYS: trusted: Move tpm2_key_decode() to the TPM driver
+57f8d8b887c5ccc6d00ce91d299d7294c6b45af0 tpm: tpm2_key: Extend parser to TPM_LoadableKey
+68cc0f69d359674a7f668a0ed070a7c3aa8b0534 keys: asymmetric: ASYMMETRIC_TPM2_KEY_RSA_SUBTYPE
 
---===============7992641836148867635==--
+--===============7585815717957497821==--
