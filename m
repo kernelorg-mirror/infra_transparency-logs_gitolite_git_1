@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0722955380363459222=="
+Content-Type: multipart/mixed; boundary="===============5062355720816566133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 21 May 2024 14:17:41 -0000
-Message-Id: <171630106192.24807.9592290708722265713@gitolite.kernel.org>
+Date: Tue, 21 May 2024 14:18:01 -0000
+Message-Id: <171630108198.25019.16220443502830377026@gitolite.kernel.org>
 
---===============0722955380363459222==
+--===============5062355720816566133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/for-next-base
-    old: ca91259b775f6fd98ae5d23bb4eec101d468ba8d
-    new: eb6a9339efeb6f3d2b5c86fdf2382cdc293eca2c
-    log: revlist-ca91259b775f-eb6a9339efeb.txt
+  - ref: refs/heads/for-next
+    old: 9ba1fbe2ed0cb367d609466a51d787acff406847
+    new: 5621e21c7fd983ab31810f50a0eb854f9de1bcdf
+    log: revlist-9ba1fbe2ed0c-5621e21c7fd9.txt
 
---===============0722955380363459222==
+--===============5062355720816566133==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ca91259b775f-eb6a9339efeb.txt
+Content-Disposition: attachment; filename=revlist-9ba1fbe2ed0c-5621e21c7fd9.txt
 
-60f2b1bcf519416dbffee219132aa949d0c39d0e bcachefs: Add asserts to bch2_dev_btree_bitmap_marked_sectors()
-9de40d77f0a070814cc1107f6794b219f10d8e0b bcachefs: Check for writing btree_ptr_v2.sectors_written == 0
-5a2d15213d3187ed3b059a2ec8865aa9172fd3a2 bcachefs: Rip bch2_snapshot_equiv() out of fsck
-f7643bc9749f270d487c32dc35b578575bf1adb0 bcachefs: make btree read errors silent during scan
-aef7eecb5711f8bcbaf0709793ff950c290e3493 bcachefs: Sync journal when we complete a recovery pass
-b25fd02ab4edb0193e60754626704adacbfbeefb bcachefs: fix flag printing in journal_buf_to_text()
-103304021e54bfb5cab9ba04cd5ef0dc2bf33888 bcachefs: Move gc of bucket.oldest_gen to workqueue
 e4f2c4dfeeaeb70164967aa4abfa1190f7e61781 bcachefs: Remove calls to folio_set_error
 5147b9ae768758982b196d1b259e6372e328955e bcachefs: Btree key cache instrumentation
 018b32a63fabbc4c3a69c350f7ef922f1a3ac5f4 bcachefs: Add btree_allocated_bitmap to member_to_text()
@@ -129,7 +122,6 @@ daef47b89efd0b745e8478d69a3ad724bd8b4dc6 selftests: Compile kselftest headers wi
 ce6896285410bcfe90f8566ff0799e45e7820e52 Merge tag 'samsung-clk-6.10-2' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into clk-samsung
 e2211387ed8ef30a6588aefa90213a63ff9d0a78 Merge tag 'qcom-clk-for-6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-qcom
 bc2da26599ed800357f24fca4b7f6a8f35d87dcb clk, reset: microchip: mpfs: fix incorrect preprocessor conditions
-3668651def2c1622904e58b0280ee93121f2b10b scsi: mpi3mr: Sanitise num_phys
 3a2a192b0ef1a849f4a17a5e8e277619a88256dd dt-bindings: net: ipq4019-mdio: add IPQ9574 compatible
 e497c3228a4e09cdc956f19200ee1d9e84b63f96 netlink/specs: Add VF attributes to rt_link spec
 cc349b0771dccebf0fa9f5e1822ac444aef11448 dt-bindings: net: mediatek: remove wrongly added clocks and SerDes
@@ -928,7 +920,14 @@ f5c0cdad6684aa4212346f48554636ec2ab98434 rtla/timerlat: Use pretty formatting on
 1462501c7a8d565f5949d3d5635b2111d889aaaa rtla/timerlat: Add a summary for hist mode
 cdbf71962bb07493d67fee34536a5724a8bb5886 rtla: Add the --warm-up option
 fb9e90a67ee9a42779a8ea296a4cf7734258b27d rtla/timerlat: Make user-space threads the default
+9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
+10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
+9fad9d560af5c654bb38e0b07ee54a4e9acdc5cd scsi: sr: Fix unintentional arithmetic wraparound
+51071f0831ea975fc045526dd7e17efe669dc6e1 scsi: qedf: Don't process stag work during unload and recovery
+78e88472b60936025b83eba57cffa59d3501dc07 scsi: qedf: Wait for stag work during unload
+6c3bb589debd763dc4b94803ddf3c13b4fcca776 scsi: qedf: Set qed_slowpath_params to zero before use
 621cde16e49b3ecf7d59a8106a20aaebfb4a59a9 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+e4f5f8298cf6ddae43210d236ad65ac2c6379559 scsi: mpt3sas: Add missing kerneldoc parameter descriptions
 d4a599910193b85f76c100e30d8551c8794f8c2a parisc: Define HAVE_ARCH_HUGETLB_UNMAPPED_AREA
 4cd4e4b88100a33d96ec4f83bdb0e4e754e24c97 Merge tag 'lsm-pr-20240513' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 ccae19c6239ae810242d2edc03b02bdcc12fc5ab Merge tag 'selinux-pr-20240513' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
@@ -1050,5 +1049,6 @@ a76056285f5d64740b461d70b062225ba80f0ac2 Merge tag 'kgdb-6.10-rc1' of git://git.
 a90f1cd105c6c5c246f07ca371d873d35b78c7d9 Merge tag 'turbostat-for-Linux-6.10-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 16dbfae867cdeb32f3d24cea81193793d5decc61 Merge tag 'bcachefs-2024-05-19' of https://evilpiepirate.org/git/bcachefs
 eb6a9339efeb6f3d2b5c86fdf2382cdc293eca2c Merge tag 'mm-nonmm-stable-2024-05-19-11-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+5621e21c7fd983ab31810f50a0eb854f9de1bcdf Merge branch 'misc' into for-next
 
---===============0722955380363459222==--
+--===============5062355720816566133==--
