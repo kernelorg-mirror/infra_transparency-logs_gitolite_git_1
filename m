@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5449886108019778460=="
+Content-Type: multipart/mixed; boundary="===============5521311242722310474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 21 May 2024 03:32:36 -0000
-Message-Id: <171626235614.24766.5341065457582945867@gitolite.kernel.org>
+Date: Tue, 21 May 2024 03:32:47 -0000
+Message-Id: <171626236760.24898.12417201996017441307@gitolite.kernel.org>
 
---===============5449886108019778460==
+--===============5521311242722310474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: 3106db2882d80d6c09833f6ec6e1f1cd3c64b640
+  - ref: refs/heads/fixes
+    old: eb6a9339efeb6f3d2b5c86fdf2382cdc293eca2c
     new: 5b3d83d4658439035f41e4ac263cfa2153cf22e7
-    log: revlist-3106db2882d8-5b3d83d46584.txt
+    log: revlist-eb6a9339efeb-5b3d83d46584.txt
 
---===============5449886108019778460==
+--===============5521311242722310474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3106db2882d8-5b3d83d46584.txt
+Content-Disposition: attachment; filename=revlist-eb6a9339efeb-5b3d83d46584.txt
 
 4184e4912ca69d4f18a800144539af3b37c6a663 dt-bindings: pinctrl: samsung: drop unused header with register constants
 ea217fefef8c9632486a943a029b01cee717dce5 pinctrl: pxa2xx: Make use of struct pinfunction
@@ -212,4 +212,4 @@ daa121128a2d2ac6006159e2c47676e4fcd21eab Merge tag 'dma-mapping-6.10-2024-05-20'
 658ee16b58a8fdd67256dd488f2adc3e97be54e5 kconfig: remove redundant check in expr_join_or()
 5b3d83d4658439035f41e4ac263cfa2153cf22e7 kbuild: scripts/gdb: Replace missed $(srctree)/$(src) w/ $(src)
 
---===============5449886108019778460==--
+--===============5521311242722310474==--
