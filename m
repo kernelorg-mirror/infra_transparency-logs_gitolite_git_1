@@ -1,19 +1,64 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 21 May 2024 19:03:44 -0000
-Message-Id: <171631822460.8525.4097857508038532108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 21 May 2024 19:06:11 -0000
+Message-Id: <171631837136.11351.676045988508686599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: e06369fe55921f30ae10ed5619beb25eb48e4cc5
-    new: 06c22ef6637284ab1f31ee64f1ee48a829958816
-    log: |
-         06c22ef6637284ab1f31ee64f1ee48a829958816 test/sqpoll-exec: add test case for file being immediately closed
-         
+  - ref: refs/heads/aer
+    old: a29e5290e3566ae4db4e6fe5f31caf23118c82b6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/aspm
+    old: dc69062a1a73f0fe33a83401e8a3b1d5d54b43af
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/dwc
+    old: a01e7214bef904723d26d293eb17586078610379
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/rockchip
+    old: 2dba285caba53f309d6060fca911b43d63f41697
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/tegra194
+    old: 19326006a21da26532d982254677c892dae8f29b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/cxl
+    old: 934edcd436dca0447e0d3691a908394ba16d06c3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/doe
+    old: eebab7e3eb4bb906a8ebc3b70d28059ff1d9271c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/dt-bindings
+    old: 52d06636a4ae4db24ebfe23fae7a525f7e983604
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/edr
+    old: e2e78a294a8a863898b781dbcf90e087eda3155d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/endpoint
+    old: 597ac0fa37b86833203c6c73ecbaa72ccc3781bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/enumeration
+    old: 6613443ffc49d03e27f0404978f685c4eac43fba
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/hotplug
+    old: b023c1c97f8a84f3ee5502cee2a7b62bc3f447a8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/ims-removal
+    old: 8a1940bca94bbf060bba4fc4f69c37270d5828f8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/misc
+    old: fe4a83ec07818f2243eac584488e65397699550c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/msi
+    old: 0ba5cd94bbc2d21ffb392b6a3b23ee288b4778d5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/of
+    old: e6f7d27df5d208b50cae817a91d128fb434bb12c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pm
+    old: 256df20c590bf0e4d63ac69330cf23faddac3e08
+    new: 0000000000000000000000000000000000000000
