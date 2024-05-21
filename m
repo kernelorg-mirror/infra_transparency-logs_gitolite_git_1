@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 21 May 2024 02:52:32 -0000
-Message-Id: <171625995244.27587.17081833630402497075@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 21 May 2024 02:52:55 -0000
+Message-Id: <171625997552.27818.8411035804929476973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/tags/rpmsg-v6.10
-    old: 0000000000000000000000000000000000000000
-    new: d2df3d144d1a806f81ddaaeb6dc7200afb05660b
+  - ref: refs/heads/tpm2key-v2
+    old: 5fe3d36fdadf78820a96581283592ebb86e789c0
+    new: f5eea3f1ea10254a153b62d5bff90b9504262df4
+    log: |
+         f5eea3f1ea10254a153b62d5bff90b9504262df4 keys: asymmetric: ASYMMETRIC_TPM2_KEY_RSA_SUBTYPE
+         
