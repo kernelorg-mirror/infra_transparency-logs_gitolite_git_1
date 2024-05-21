@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7632343145259459546=="
+Content-Type: multipart/mixed; boundary="===============2588131139996525454=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 21 May 2024 22:51:24 -0000
-Message-Id: <171633188414.13502.5522429026639997588@gitolite.kernel.org>
+Date: Tue, 21 May 2024 22:57:28 -0000
+Message-Id: <171633224861.17287.13060303233483855450@gitolite.kernel.org>
 
---===============7632343145259459546==
+--===============2588131139996525454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 61e05bad821cb293418794738e7cc359949f44fe
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 59d42f26d0211a1f80b8d7110b8461deb62d59dc
     new: 49b33f4b3a9ea6afafe46163ebfcdec23ad1fcbf
-    log: revlist-61e05bad821c-49b33f4b3a9e.txt
+    log: revlist-59d42f26d021-49b33f4b3a9e.txt
 
---===============7632343145259459546==
+--===============2588131139996525454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1716331880 +0200
+pusher andi.shyti@kernel.org 1716332247 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1716331879-abd1216e2deb0fada7b3e744d94ccbf290a0f845
+nonce 1716332246-d66856bcdedd7d8fa5d0c33413f9b9c1625180c0
 
-61e05bad821cb293418794738e7cc359949f44fe 49b33f4b3a9ea6afafe46163ebfcdec23ad1fcbf refs/heads/i2c/i2c-host
+59d42f26d0211a1f80b8d7110b8461deb62d59dc 49b33f4b3a9ea6afafe46163ebfcdec23ad1fcbf refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZk0laBYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u5q4BAMD6CmOXYf46JQifC6XIOPW/dfo6
-uvGM6jOtibjLAqPmAQCBDznZuBM0bg2txf7RzaN+VbP5KO1GKUw3BRh16ISLBA==
-=cWeW
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZk0m1xYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1usI8BAIGZNz7qmg2SwTQQzNoTgJnsRH4b
+Lj0BZ3oFVvXqdzx1AP9JYAwyBdaiSZ30WaWWM/akkgFzrXI9KexjDGk+SUxrDA==
+=FOgd
 -----END PGP SIGNATURE-----
 
---===============7632343145259459546==
+--===============2588131139996525454==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-61e05bad821c-49b33f4b3a9e.txt
+Content-Disposition: attachment; filename=revlist-59d42f26d021-49b33f4b3a9e.txt
 
 e7073830cc8b52ef3df7dd150e4dac7706e0e104 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 448b3fe5a0eab5b625a7e15c67c7972169e47ff8 Merge tag 'hwmon-for-v6.9-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
@@ -1072,4 +1072,4 @@ b6394d6f715919c053c1450ef0d7c5e517b53764 Merge tag 'pull-misc' of git://git.kern
 d4f65540cdec31ae5fb18282cbd1537cb7ae8135 i2c: synquacer: Remove a clk reference from struct synquacer_i2c
 49b33f4b3a9ea6afafe46163ebfcdec23ad1fcbf i2c: Remove I2C_CLASS_SPD
 
---===============7632343145259459546==--
+--===============2588131139996525454==--
