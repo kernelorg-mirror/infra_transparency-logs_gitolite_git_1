@@ -1,57 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============9014551955291756135=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 21 May 2024 07:36:25 -0000
-Message-Id: <171627698508.8034.4449041940426388908@gitolite.kernel.org>
-
---===============9014551955291756135==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Tue, 21 May 2024 08:07:30 -0000
+Message-Id: <171627885018.31361.2218659382690163727@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
   - ref: refs/heads/master
-    old: 57acfa870b950c61cbbdceac6419407580bd3f1c
-    new: b5335fcad0aeff41ea5dd4073a62cb79f44ac9bc
+    old: 0fc6e73fc428f17965ef134a8c10fc383ad19d58
+    new: 429eeef2ed089af1b3aa1983ec00a7591166be27
     log: |
-         db56934cc89bf9a2647dc4cf21828c8ea077d13e more gsd review files added
-         b5335fcad0aeff41ea5dd4073a62cb79f44ac9bc updated cvelistV5
+         33370412eced2dc7f81f4324e109d69319cafd82 wifi: ath12k: fix Smatch warnings on ath12k_core_suspend()
+         95ba2c80b78c8127a38adbc3ad3ad8821bccd7f6 Merge branch 'ath-next'
+         846663a56bcf72cb2c2f7111c3ad188d5b1cf402 Merge branch 'ath-current'
+         45c15131b48dab30acd8bee661ba5a9212adc304 Merge remote-tracking branch 'mhi/mhi-next'
+         429eeef2ed089af1b3aa1983ec00a7591166be27 Add localversion-wireless-testing-ath
          
-
---===============9014551955291756135==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716276982 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1716276982-873e0ffdcb108c9029d38a6fbada6e978b757861
-
-57acfa870b950c61cbbdceac6419407580bd3f1c b5335fcad0aeff41ea5dd4073a62cb79f44ac9bc refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZMTvYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bp0QAJD1Yq7cpm9gg/zY06G9
-EOC8Is1N9qJtw3mP8IUyO/sw6aZ1NlKS0jaB6LaBuZ0qmmRiipw6vRJ2u70X/UAN
-eLDGwK5WBqXsmybG3ydcLIzg7j7mWtiq+Vk2JhgE4DbSyVC82pzW2UIofqlLRagE
-oZMYVXVsSuBsxpoOH+pklIYFzULZnBzEebX4Tu0PYgafeLJEVIa0txf3o9GLr2c2
-+HBBIIyc7MofEHF2CBFOpZV93JztcZB5nMdlD6SojkQrrgSQ2rkCbS7WK/QXjLtk
-+BE+ZS3pEM2TXk6flbi/E6KgdIADSqb2TjUaKuD7vGJZU9/CMc5wP4HavObqIfTw
-lVLW8keJZ2aE/rSypKtg8TihpJQXjAT+Y3IY0XtMD8NwJWCGCvHsJDDpKqc+zQgB
-alTDzehez0pTSeClFA+BIV9Ly5HcGnTHFB3NUqQ4jTnit4BrzesTLZ6PYwapR0am
-vLXTHHMgj+MlfntRqF4r3mLSx8WTuX8KnCLPqNbFq3b3SrAlj6UFMtHLajFEla09
-vOpajKaWJOSDSJK8tVoKWvXOQwczgNptlXt2y7u/uHno/h/5Wf4ZqrlXUXUlb4mk
-hEKUVohebCXLruGgGBPUBnaK8bSGZm311NLpWqx78ojiG+3oMy2yW6bmcJ0BqzJB
-C6Mn04q65tkR+6UP5z3wUEK0
-=JxRM
------END PGP SIGNATURE-----
-
---===============9014551955291756135==--
+  - ref: refs/tags/ath-202405210806
+    old: 0000000000000000000000000000000000000000
+    new: 429eeef2ed089af1b3aa1983ec00a7591166be27
