@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 21 May 2024 11:18:41 -0000
-Message-Id: <171629032121.22997.18272296208840574618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 21 May 2024 11:25:49 -0000
+Message-Id: <171629074971.28863.7326893119000975758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-linus
-    old: 5b6f7c40958b0ac30c6ebafe274773ffbee7be97
-    new: a58686fe75f3b94c710649ddcbf25c00f5fd0ea6
+  - ref: refs/heads/main
+    old: efb9f4f19f8e37fde43dfecebc80292d179f56c6
+    new: ea63ac14292564eefc7dffe868ed354ff9ed6f4b
     log: |
-         1ace99d7c7c4c801c0660246f741ff846a9b8e3c regulator: tps6287x: Force writing VSEL bit
-         a58686fe75f3b94c710649ddcbf25c00f5fd0ea6 Merge remote-tracking branch 'regulator/for-6.9' into regulator-linus
-         
-  - ref: refs/heads/for-next
-    old: 5b6f7c40958b0ac30c6ebafe274773ffbee7be97
-    new: a58686fe75f3b94c710649ddcbf25c00f5fd0ea6
-    log: |
-         1ace99d7c7c4c801c0660246f741ff846a9b8e3c regulator: tps6287x: Force writing VSEL bit
-         a58686fe75f3b94c710649ddcbf25c00f5fd0ea6 Merge remote-tracking branch 'regulator/for-6.9' into regulator-linus
+         ea63ac14292564eefc7dffe868ed354ff9ed6f4b selftests/net: use tc rule to filter the na packet
          
