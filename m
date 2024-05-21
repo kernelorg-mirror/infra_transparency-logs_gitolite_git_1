@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4553944197608483464=="
+Content-Type: multipart/mixed; boundary="===============5046408349510689975=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 21 May 2024 14:44:10 -0000
-Message-Id: <171630265073.12186.17782649397769620805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 21 May 2024 14:44:20 -0000
+Message-Id: <171630266097.12388.9944498706782842971@gitolite.kernel.org>
 
---===============4553944197608483464==
+--===============5046408349510689975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: b195acf5266d2dee4067f89345c3e6b88d925311
-    new: 737ce4fb96206f999ddea7530145fc0e8abd5d31
+  - ref: refs/heads/for-6.10
+    old: 1ace99d7c7c4c801c0660246f741ff846a9b8e3c
+    new: 74b38cd77d3eb63c6d0ad9cf2ae59812ae54d3ee
     log: |
-         737ce4fb96206f999ddea7530145fc0e8abd5d31 ASoC: dt-bindings: stm32: Ensure compatible pattern matches whole string
+         74b38cd77d3eb63c6d0ad9cf2ae59812ae54d3ee regulator: tps6594-regulator: Correct multi-phase configuration
          
 
---===============4553944197608483464==
+--===============5046408349510689975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1716302649 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1716302648-b815bc702387be37f156865ffe513635861cb64e
+pusher C3F436CA30F5D8EB 1716302659 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1716302659-a6c8f180e6abe52c7b566a2f5e1fe2f0f56c743d
 
-b195acf5266d2dee4067f89345c3e6b88d925311 737ce4fb96206f999ddea7530145fc0e8abd5d31 refs/heads/asoc-6.10
+1ace99d7c7c4c801c0660246f741ff846a9b8e3c 74b38cd77d3eb63c6d0ad9cf2ae59812ae54d3ee refs/heads/for-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZMszkACgkQJNaLcl1U
-h9BxGQf+JW88wmRKGRo+Xrh/hPIT/n0KBQj2PSncDyrhnsa/R9DS5nd32J8fQk3i
-Fr8nqOi3MLVqF0SaMXKs0UiaQvRh8bXicBUmp7N+3WADCxDi7+GaROjrGIcmQbe5
-/N+MVwSwZnjJbWQRLm8rK9SguAGZctgzjShn8AEod4q6qS6AfPhEACqEa+S1RGYM
-mjhxXpZJhFQT6UGPNECLKNgmPed3AmgyF/kkcIa/6nh/eFBtmZHm+r+PF2OI8cMh
-nu8FqqXl0UqvCdriP5EmGRuin07F7KjrjrkrQJH3E5WXP22JUotU5ZaUfjnb3Z0K
-K2QuqrnM52kEiEMmY1ZEO0HFENIqcw==
-=Y7hi
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZMs0MACgkQJNaLcl1U
+h9D5BAf/ZGdaXcwPGDYegidWrpD4WP7xRmaW95WN54UNYaN8hwxayXL6ts113FGH
+2CrR+yhPTOOXyTf6tWbax4hPy6whgAlugJ1XT6oIjrQZMPwL5WS2UwsF8E311Fy/
+ucRm1MCl0SfW2w1Gg8C5r+W29V4xWWg3kpbdJV5yah80Hqfe7ewplllvhe6//kim
+uQ6eJaP6dBjyuPp4sPJgwhVucN28v8WEd4i1Vtms+mDAbl1v20zsgnukF05rh9sQ
+CTY/+0ULneFgaVEU82etSZqJUNYWGc8PhxZPv8agpfPXeCX0zGq1sV2j7v6sYqG6
+zaVIbut+XykpDIjNbTJ0GlnQxKzkDw==
+=2Z5m
 -----END PGP SIGNATURE-----
 
---===============4553944197608483464==--
+--===============5046408349510689975==--
