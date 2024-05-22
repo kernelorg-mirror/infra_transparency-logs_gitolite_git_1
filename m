@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7241463654044155638=="
+Content-Type: multipart/mixed; boundary="===============4550476769718500264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Wed, 22 May 2024 15:43:28 -0000
-Message-Id: <171639260853.25590.3353559000587255868@gitolite.kernel.org>
+Date: Wed, 22 May 2024 15:43:39 -0000
+Message-Id: <171639261982.25726.16701677765123326550@gitolite.kernel.org>
 
---===============7241463654044155638==
+--===============4550476769718500264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
-  - ref: refs/heads/perf-tools
+  - ref: refs/heads/tmp.perf-tools
     old: ea558c86248b4955e5c5f3c0c921df450880605e
     new: 29c73fc794c83505066ee6db893b2a83ac5fac63
     log: revlist-ea558c86248b-29c73fc794c8.txt
 
---===============7241463654044155638==
+--===============4550476769718500264==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b6394d6f715919c053c1450ef0d7c5e517b53764 Merge tag 'pull-misc' of git://git.kern
 4865a27c66fda6a32511ec5492f4bbec437f512d Merge tag 'bitmap-for-6.10v2' of https://github.com/norov/linux
 29c73fc794c83505066ee6db893b2a83ac5fac63 Merge tag 'perf-tools-for-v6.10-1-2024-05-21' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============7241463654044155638==--
+--===============4550476769718500264==--
