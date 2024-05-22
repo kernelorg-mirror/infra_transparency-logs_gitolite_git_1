@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5086236798165717027=="
+Content-Type: multipart/mixed; boundary="===============3357508228978148283=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 22 May 2024 12:06:59 -0000
-Message-Id: <171637961905.27227.16490767037499630339@gitolite.kernel.org>
+Date: Wed, 22 May 2024 12:07:17 -0000
+Message-Id: <171637963782.28312.18041134208415746935@gitolite.kernel.org>
 
---===============5086236798165717027==
+--===============3357508228978148283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 050bf3c793a07f96bd1e2fd62e1447f731ed733b
     new: cd579e54671872401e74b89c4d92a4bc43ab55db
     log: revlist-050bf3c793a0-cd579e546718.txt
 
---===============5086236798165717027==
+--===============3357508228978148283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -705,4 +705,4 @@ b6394d6f715919c053c1450ef0d7c5e517b53764 Merge tag 'pull-misc' of git://git.kern
 29c73fc794c83505066ee6db893b2a83ac5fac63 Merge tag 'perf-tools-for-v6.10-1-2024-05-21' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 cd579e54671872401e74b89c4d92a4bc43ab55db tpm_tis_spi: Account for SPI header when allocating TPM SPI xfer buffer
 
---===============5086236798165717027==--
+--===============3357508228978148283==--
