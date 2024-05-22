@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7490781185769554754=="
+Content-Type: multipart/mixed; boundary="===============1615419724918752551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 22 May 2024 18:17:56 -0000
-Message-Id: <171640187621.8916.16964748251775729234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 22 May 2024 18:18:00 -0000
+Message-Id: <171640188012.9014.5098901495130793851@gitolite.kernel.org>
 
---===============7490781185769554754==
+--===============1615419724918752551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 0bfbc914d9433d8ac2763a9ce99ce7721ee5c8e0
     log: revlist-29c73fc794c8-0bfbc914d943.txt
 
---===============7490781185769554754==
+--===============1615419724918752551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -103,4 +103,4 @@ f33fda22a775d7c6d9b14757f94a535c0698c73a Merge tag 'microblaze-v6.10' of git://g
 4f05e82003d1c20da29fa593420b8d92e2c8d4e6 Merge tag 'loongarch-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 0bfbc914d9433d8ac2763a9ce99ce7721ee5c8e0 Merge tag 'riscv-for-linus-6.10-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============7490781185769554754==--
+--===============1615419724918752551==--
