@@ -1,35 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2492848375845495204=="
+Content-Type: multipart/mixed; boundary="===============2654969094812403856=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 22 May 2024 23:07:33 -0000
-Message-Id: <171641925374.25204.10799707298987917343@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 22 May 2024 23:09:22 -0000
+Message-Id: <171641936241.25983.4476930836184720299@gitolite.kernel.org>
 
---===============2492848375845495204==
+--===============2654969094812403856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: af1dbd9e41686be7c84cc67cb9dd3aa86da5a016
+    old: 018b9d9874e72c8d6a488b2b18558e664962153d
     new: b026b4706be5d08ed70812969dbd50e34aabe468
-    log: revlist-af1dbd9e4168-b026b4706be5.txt
+    log: revlist-018b9d9874e7-b026b4706be5.txt
 
---===============2492848375845495204==
+--===============2654969094812403856==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-af1dbd9e4168-b026b4706be5.txt
+Content-Disposition: attachment; filename=revlist-018b9d9874e7-b026b4706be5.txt
 
-a7efb160f6c11ec1a72b8f69bd844e01753c769d kconfig: gconf: remove debug code
-4cc7e6cef3461d7921a6dcf8873f98501209c3a9 kconfig: gconf: use MENU_CHANGED instead of SYMBOL_CHANGED
-7d2806746d4636320e8e061a68eed32493e7c284 kconfig: use linked list in sym_set_changed()
-8c00e58005e33068f29b8f9c84436ccbe73bef7c kconfig: turn conf_choice() into void function
 700e7a8d05ea690308131f69ffc597dfab6db838 kconfig: turn missing prompt for choice members into error
 8a22f867e330965539b9cb5ccc42c2b470330b43 kconfig: turn defaults and additional prompt for choice members into error
 7bcf2e03b50256d13bcc1b08a43af9762bafbc0e kconfig: add sym_get_choice_menu() helper
@@ -1030,9 +1026,13 @@ b6394d6f715919c053c1450ef0d7c5e517b53764 Merge tag 'pull-misc' of git://git.kern
 4865a27c66fda6a32511ec5492f4bbec437f512d Merge tag 'bitmap-for-6.10v2' of https://github.com/norov/linux
 29c73fc794c83505066ee6db893b2a83ac5fac63 Merge tag 'perf-tools-for-v6.10-1-2024-05-21' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 681ce8623567ba7e7333908e9826b77145312dda vfs: Delete the associated dentry when deleting a file
+c67ddf59ac44adc60649730bf8347e37c516b001 riscv: force PAGE_SIZE linear mapping if debug_pagealloc is enabled
+fb1cf0878328fe75d47f0aed0a65b30126fcefc4 riscv: rewrite __kernel_map_pages() to fix sleeping in invalid context
 4f2d34b65b40937b43c38ba34ece5aa3bc210e0d Merge tag 'fuse-update-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 0e22bedd758643bc2cc161d54aa181e329da0ab3 Merge tag 'ovl-update-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 f33fda22a775d7c6d9b14757f94a535c0698c73a Merge tag 'microblaze-v6.10' of git://git.monstr.eu/linux-2.6-microblaze
+e482eab4d1eb31031eff2b6afb71776483101979 riscv: cpufeature: Fix thead vector hwcap removal
+e67e98ee8952c7d5ce986d1dc6f8221ab8674afa riscv: cpufeature: Fix extension subset checking
 4f05e82003d1c20da29fa593420b8d92e2c8d4e6 Merge tag 'loongarch-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 0bfbc914d9433d8ac2763a9ce99ce7721ee5c8e0 Merge tag 'riscv-for-linus-6.10-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 863218e3a59e410a0914bbc99d5c501c73fc95f4 riscv: make image compression configurable
@@ -1051,4 +1051,4 @@ e8c7995ea14833071010c5404c3e6cf800dd5dd1 riscv: uaccess: Relax the threshold for
 b2a2e892cdbc75d5655e10066831ef17d941d484 riscv: selftests: Add signal handling vector tests
 b026b4706be5d08ed70812969dbd50e34aabe468 Merge patch series "riscv: Extension parsing fixes"
 
---===============2492848375845495204==--
+--===============2654969094812403856==--
