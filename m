@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 22 May 2024 22:01:10 -0000
-Message-Id: <171641527033.8181.2192704047852573192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 22 May 2024 22:13:34 -0000
+Message-Id: <171641601480.17037.10603103152653884230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 6c8d7598dfed759bf1d9d0322b4c2b42eb7252d8
-    new: a87f34e742d279d54d529e4bc4763fdaab32a466
+    old: 5f16eb0549ab502906fb2a10147dad4b9dc185c4
+    new: de7e71ef8bed222dd144d8878091ecb6d5dfd208
     log: |
-         ece4b296904167336d0aaab26bd7122018835202 net: netfilter: Make ct zone opts configurable for bpf ct helpers
-         a87f34e742d279d54d529e4bc4763fdaab32a466 selftests/bpf: Update tests for new ct zone opts for nf_conntrack kfuncs
+         dbaaabd60e1662d2659eaeab0a4fc521667737ed clang: work around asm input constraint problems
+         7453b9485114f7ffec4a99bccee469a4d4809894 x86: improve array_index_mask_nospec() code generation
+         b9b60b3199b70fe3ce74ff493b1870ccd7554134 x86: improve bitop code generation with clang
+         f8a6e48c6c6dc30dbd423a3f4b082df625664730 Merge local branch 'x86-codegen'
+         de7e71ef8bed222dd144d8878091ecb6d5dfd208 mm: simplify and improve print_vma_addr() output
          
