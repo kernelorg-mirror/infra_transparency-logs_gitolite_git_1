@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4425747268428237106=="
+Content-Type: multipart/mixed; boundary="===============6656838901193066086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 22 May 2024 07:52:19 -0000
-Message-Id: <171636433938.22896.17975811845534729492@gitolite.kernel.org>
+Date: Wed, 22 May 2024 07:55:48 -0000
+Message-Id: <171636454811.25791.16482490025670114360@gitolite.kernel.org>
 
---===============4425747268428237106==
+--===============6656838901193066086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: d65e1a0f305ba3e7aabf6261a37bb871790d9f93
     new: 2a8120d7b4827380f30b57788ff92ec5594e2194
     log: revlist-d65e1a0f305b-2a8120d7b482.txt
 
---===============4425747268428237106==
+--===============6656838901193066086==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b9dd56e813af002f45f6a494414d4a05dfdaa30e Merge tag 'soundwire-6.10-rc1' of git:/
 334e5639fc4e20752d46552abefc5311351e3bee Merge tag 'm68knommu-for-v6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 2a8120d7b4827380f30b57788ff92ec5594e2194 Merge tag 's390-6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 
---===============4425747268428237106==--
+--===============6656838901193066086==--
