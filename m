@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Wed, 22 May 2024 19:38:12 -0000
-Message-Id: <171640669261.2925.14628220569063677407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Wed, 22 May 2024 20:08:00 -0000
+Message-Id: <171640848071.24155.10049059531588144873@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/patches-in-queue
-    old: 943aa4054f680f3cd2b570654a0532d293309ee3
-    new: 3717f61487311c2b642becdb60c38236e0edb8d4
+  - ref: refs/heads/dev-test
+    old: 5cfe1971ad3b1491ce482690f4a4aa7bbe6ec51c
+    new: a6308e724462b434a547c4b45f8b26c3d247dcda
     log: |
-         3488b22b7d7c05ad93dbfbc7239ac9a7a7ac10de generic/733: add commit ID for btrfs
-         3717f61487311c2b642becdb60c38236e0edb8d4 check: log kernel version in check.log
+         1d2b3143ba0313a2ad8c5aeb5b26e1b275bd091a dump.f2fs: Add ability to dump folders
+         a6308e724462b434a547c4b45f8b26c3d247dcda dump.f2fs: Fix xattr dumping
          
