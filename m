@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 22 May 2024 11:59:53 -0000
-Message-Id: <171637919388.20716.13060196093690077530@gitolite.kernel.org>
+Date: Wed, 22 May 2024 12:00:19 -0000
+Message-Id: <171637921978.22645.403588016006488837@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/clone3-shadow-stack
+  - ref: refs/heads/doc-shstk
     old: 0000000000000000000000000000000000000000
-    new: a2e137370aa05f551701684ae532feb19f78dca4
+    new: c3817d20de25762af94cf5978427df74b9fa21f5
