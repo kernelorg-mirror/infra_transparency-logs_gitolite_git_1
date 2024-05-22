@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0450252338466518081=="
+Content-Type: multipart/mixed; boundary="===============5548178325490920126=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 22 May 2024 23:03:19 -0000
-Message-Id: <171641899969.20167.2602295820440091189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 22 May 2024 23:03:23 -0000
+Message-Id: <171641900398.20287.6094037557972363365@gitolite.kernel.org>
 
---===============0450252338466518081==
+--===============5548178325490920126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
-    old: 3a5d34ad7e34955b8a8e6c0cbbd1e8341fb2de99
+    old: 6beb6bc5a81e1433a1534e75173f67d42a6f225a
     new: 0bfbc914d9433d8ac2763a9ce99ce7721ee5c8e0
-    log: revlist-3a5d34ad7e34-0bfbc914d943.txt
+    log: revlist-6beb6bc5a81e-0bfbc914d943.txt
 
---===============0450252338466518081==
+--===============5548178325490920126==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3a5d34ad7e34-0bfbc914d943.txt
+Content-Disposition: attachment; filename=revlist-6beb6bc5a81e-0bfbc914d943.txt
 
 6519fea6fd372b2247a48d72dcb23e14de70b4ea tpm: add hmac checks to tpm2_pcr_extend()
 1b6d7f9eb150305dcb0da4f7101a8d30dcdf0497 tpm: add session encryption protection to tpm2_get_random()
@@ -1051,4 +1051,4 @@ f33fda22a775d7c6d9b14757f94a535c0698c73a Merge tag 'microblaze-v6.10' of git://g
 4f05e82003d1c20da29fa593420b8d92e2c8d4e6 Merge tag 'loongarch-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 0bfbc914d9433d8ac2763a9ce99ce7721ee5c8e0 Merge tag 'riscv-for-linus-6.10-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============0450252338466518081==--
+--===============5548178325490920126==--
