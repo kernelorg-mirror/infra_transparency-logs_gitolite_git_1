@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 22 May 2024 09:18:32 -0000
-Message-Id: <171636951210.20608.15555237560023582324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 22 May 2024 09:43:36 -0000
+Message-Id: <171637101646.20069.167351640432014024@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/main
-    old: eda40be3a5ff3fdce513d2bcfeaca8cc16cf962a
-    new: 9c91c7fadb1771dcc2815c5271d14566366d05c5
+  - ref: refs/heads/x86/urgent
+    old: 9d22c96316ac59ed38e80920c698fed38717b91b
+    new: 93022482b2948a9a7e9b5a2bb685f2e1cb4c3348
     log: |
-         9c91c7fadb1771dcc2815c5271d14566366d05c5 net: mana: Fix the extra HZ in mana_hwc_send_request
+         6d85a058cf4941b5b2713b879ef41430e6aa74f3 crypto: x86/aes-xts - switch to new Intel CPU model defines
+         93022482b2948a9a7e9b5a2bb685f2e1cb4c3348 x86/cpu: Fix x86_match_cpu() to match just X86_VENDOR_INTEL
          
