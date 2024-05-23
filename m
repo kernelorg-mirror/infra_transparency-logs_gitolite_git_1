@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3713461486714701958=="
+Content-Type: multipart/mixed; boundary="===============1423836262529577728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 23 May 2024 12:11:05 -0000
-Message-Id: <171646626571.14737.8873341832440400353@gitolite.kernel.org>
+Date: Thu, 23 May 2024 12:12:59 -0000
+Message-Id: <171646637993.15570.18136660984364131021@gitolite.kernel.org>
 
---===============3713461486714701958==
+--===============1423836262529577728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,231 +16,258 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
   - ref: refs/heads/queue/4.19
-    old: 310949ff7dfe09d643263b879f856f1808ea5d4e
-    new: c8d1a4450b7e202c1ed7adb63e0a68ca837183d1
+    old: c8d1a4450b7e202c1ed7adb63e0a68ca837183d1
+    new: f8cc830a63b5b4de70f8997e2ad6052895d83bad
     log: |
-         e507bffaf9a5470029c3bbf40949594d10f5eff0 Revert "selftests: mm: fix map_hugetlb failure on 64K page size systems"
-         c8d1a4450b7e202c1ed7adb63e0a68ca837183d1 dm: limit the number of targets and parameter size area
+         fe4e695cb249df678e0a87c8249a24d1c2ef0259 Revert "selftests: mm: fix map_hugetlb failure on 64K page size systems"
+         f8cc830a63b5b4de70f8997e2ad6052895d83bad dm: limit the number of targets and parameter size area
          
   - ref: refs/heads/queue/5.10
-    old: f67b5826eac74483df9f29a6d76b8b38a261faff
-    new: 8431f478c649e5b55ad9077e7359dd1e5caf897c
-    log: |
-         a6ee213ad959319c929925d192f0a00d1b591f75 pinctrl: core: handle radix_tree_insert() errors in pinctrl_register_one_pin()
-         cd9fa14c09f6205a120368cc484b28a105d302c1 x86/xen: Drop USERGS_SYSRET64 paravirt call
-         9aabcb836fa775a89054ba5557b9f654f3356edb Revert "selftests: mm: fix map_hugetlb failure on 64K page size systems"
-         00d651b4e445715d308b171b4e5e7db39f158b67 net: bcmgenet: synchronize EXT_RGMII_OOB_CTRL access
-         c1f2d2fabdb685c49aaad1bbbc4da85c3bec76c5 net: bcmgenet: synchronize UMAC_CMD access
-         8431f478c649e5b55ad9077e7359dd1e5caf897c ima: fix deadlock when traversing "ima_default_rules".
-         
+    old: 8431f478c649e5b55ad9077e7359dd1e5caf897c
+    new: 99fb675b6c0199933d4aad1b0f8b8f999d43b0c9
+    log: revlist-8431f478c649-99fb675b6c01.txt
   - ref: refs/heads/queue/5.15
-    old: 9da8ca836ec63d89a454a082fdbf7bef6437637a
-    new: 56c358628a5eefcf01435398d7bd0b497ce33664
-    log: revlist-9da8ca836ec6-56c358628a5e.txt
+    old: 56c358628a5eefcf01435398d7bd0b497ce33664
+    new: 95d9a94fe61e8a3633db9885a5010cada7463383
+    log: revlist-56c358628a5e-95d9a94fe61e.txt
   - ref: refs/heads/queue/5.4
-    old: bd2139140e71ed83e6dd177c3e1b18be4e238c27
-    new: 4be8123d2898dff69927dd566abbe5465c03c230
-    log: |
-         c62cd72073881e0850e5d311b6baa38d511ab6a3 pinctrl: core: handle radix_tree_insert() errors in pinctrl_register_one_pin()
-         616532e203f78226b9055b8454f92832a7313e95 ext4: fix bug_on in __es_tree_search
-         fe24281b9d8188a1fb6af614545f78ada1bd6649 Revert "selftests: mm: fix map_hugetlb failure on 64K page size systems"
-         cb28ccb1f509dbb0240d671e4b1b3e183383504b Revert "net: bcmgenet: use RGMII loopback for MAC reset"
-         674e16eec914d2fdf245676ae5aa92a735a1f835 net: bcmgenet: keep MAC in reset until PHY is up
-         afa3a7f62604932c17bd1f850bcd0faa1b29a292 net: bcmgenet: synchronize EXT_RGMII_OOB_CTRL access
-         aa718d143de82c90827767d39a70613a0a759fc7 net: bcmgenet: synchronize use of bcmgenet_set_rx_mode()
-         4be8123d2898dff69927dd566abbe5465c03c230 net: bcmgenet: synchronize UMAC_CMD access
-         
+    old: 4be8123d2898dff69927dd566abbe5465c03c230
+    new: 4a15318f5eb764ed6747eb7d6e6687d584bca047
+    log: revlist-4be8123d2898-4a15318f5eb7.txt
   - ref: refs/heads/queue/6.1
-    old: df061ee896581fb6907e779d891ed1fb89fb72fc
-    new: 6f3915a3cc3310a3fd042b2fa4401de1b6d6d6fb
-    log: revlist-df061ee89658-6f3915a3cc33.txt
+    old: 6f3915a3cc3310a3fd042b2fa4401de1b6d6d6fb
+    new: 8d9d7a52836a3f157f122bb4203ff2b30fb3f45f
+    log: revlist-6f3915a3cc33-8d9d7a52836a.txt
   - ref: refs/heads/queue/6.6
-    old: f532a2cd728d0f496126b0e00522b8e521aaf490
-    new: 25d9ccdfeff4480e175a992f2f97a0471bc28ff6
-    log: revlist-f532a2cd728d-25d9ccdfeff4.txt
+    old: 25d9ccdfeff4480e175a992f2f97a0471bc28ff6
+    new: 4e6ab7adca33118fad749ad05517c207b731e669
+    log: revlist-25d9ccdfeff4-4e6ab7adca33.txt
   - ref: refs/heads/queue/6.8
-    old: 7d3e23e7048224cd3e0af5f13c60964864e43b73
-    new: 0117b9f00f26d65486fb20c7a615cf1f5f356ac0
+    old: 0117b9f00f26d65486fb20c7a615cf1f5f356ac0
+    new: d762dd069952708b3250fd10866ebdf50604d64e
     log: |
-         e27e4f9b20682df13a034cfe3116bdb8a9f8c7c5 drm/amd/display: Fix division by zero in setup_dsc_config
-         451b4f1de946ce959bca343b289b8bd6cda8c085 net: ks8851: Fix another TX stall caused by wrong ISR flag handling
-         987a199c58b03b988c901eada2540310fbdf089c ice: pass VSI pointer into ice_vc_isvalid_q_id
-         139b2d0c40d10ef300f132fe5cc467dca5d94fd1 ice: remove unnecessary duplicate checks for VF VSI ID
-         058f084030cf0709f65dfc254a5a2f58c46f8d55 Bluetooth: L2CAP: Fix slab-use-after-free in l2cap_connect()
-         6668d050f86b1004a75a622f2e93787f14a77ee0 Bluetooth: L2CAP: Fix div-by-zero in l2cap_le_flowctl_init()
-         c7471b3139a229ce2415c060a2f0f71f059a93a0 KEYS: trusted: Fix memory leak in tpm2_key_encode()
-         be73354df2e5e44807dbc936b5067f5ca3fba61c erofs: get rid of erofs_fs_context
-         0117b9f00f26d65486fb20c7a615cf1f5f356ac0 erofs: reliably distinguish block based and fscache mode
+         a845bdea3c50c32a6c8292396493139afd32ec13 drm/amd/display: Fix division by zero in setup_dsc_config
+         902c0cd3fd23876382fe363698638b39bad28aea net: ks8851: Fix another TX stall caused by wrong ISR flag handling
+         41a7b2352991e0524ed80846dd9742c23cbb9548 ice: pass VSI pointer into ice_vc_isvalid_q_id
+         39a198f9169f2bb372d141c0e30d863b839395b6 ice: remove unnecessary duplicate checks for VF VSI ID
+         b37683e241fc461520dd6344a8425c7b8791e784 Bluetooth: L2CAP: Fix slab-use-after-free in l2cap_connect()
+         4d9bac352df345377f8b2980729c8a9345c9a33d Bluetooth: L2CAP: Fix div-by-zero in l2cap_le_flowctl_init()
+         1ea9a37d972c8cb8260561e530bf13637844a8b2 KEYS: trusted: Fix memory leak in tpm2_key_encode()
+         f3a6ddc77473c60bc818db5d8e14f6f217e4672a erofs: get rid of erofs_fs_context
+         d762dd069952708b3250fd10866ebdf50604d64e erofs: reliably distinguish block based and fscache mode
          
   - ref: refs/heads/queue/6.9
-    old: 285619f84ba54fc3348388d58301cdd28fd9de90
-    new: 2b9e717b53c65a9f2a2f26c1d5a2c6f7aed64de4
+    old: 2b9e717b53c65a9f2a2f26c1d5a2c6f7aed64de4
+    new: 4a1f6956f0140ad691b4b767f01b753cfcf5c43b
     log: |
-         35b2ce639ae518356e4cb0114754a14f59505c44 Bluetooth: btusb: Fix the patch for MT7920 the affected to MT7921
-         424acb8169bf5ef4242260a02f1c3cbaf401e7c7 wifi: iwlwifi: Use request_module_nowait
-         d822b8d031828713a80979a1074ae86f47c77d29 cpufreq: amd-pstate: fix the highest frequency issue which limits performance
-         e4ccedd1ad1f1d96186e799f2cd3610937c3f410 drm/amd/display: Fix division by zero in setup_dsc_config
-         30bfc27558bbbfac2c6d7717730515479d241a5b net: ks8851: Fix another TX stall caused by wrong ISR flag handling
-         e2a999604e0d7ab849fb1ad3ae5981b3629d7173 x86/percpu: Use __force to cast from __percpu address space
-         b99a93da64fad47c3cf8256fff57b87b75b38683 Bluetooth: L2CAP: Fix div-by-zero in l2cap_le_flowctl_init()
-         36025ca276e48b8dcfade2fd9a1f5e57d52f3dec KEYS: trusted: Fix memory leak in tpm2_key_encode()
-         2b9e717b53c65a9f2a2f26c1d5a2c6f7aed64de4 ASoC: Intel: sof_sdw: use generic rtd_init function for Realtek SDW DMICs
+         c9a787decebf2227e09fab8029c3ceaec1a775cd Bluetooth: btusb: Fix the patch for MT7920 the affected to MT7921
+         03aed1cb515d4739148ccf7a50ca4a00449c66e6 wifi: iwlwifi: Use request_module_nowait
+         8ac9fe8e36cd4d194873b08f47935fc12ad492f0 cpufreq: amd-pstate: fix the highest frequency issue which limits performance
+         77470d36d02f0cf255fce883ab8bd84983f49dfa drm/amd/display: Fix division by zero in setup_dsc_config
+         299fe7f473944b4b762a64fe429056114693e0db net: ks8851: Fix another TX stall caused by wrong ISR flag handling
+         6f269b28f8aec83255b5fc9d19a7ae54cbac744a x86/percpu: Use __force to cast from __percpu address space
+         6254d9847652440f982e0e78a2ef0645549b77c4 Bluetooth: L2CAP: Fix div-by-zero in l2cap_le_flowctl_init()
+         73c822946b9bf2e848a6d5adbcb69255919a50bc KEYS: trusted: Fix memory leak in tpm2_key_encode()
+         4a1f6956f0140ad691b4b767f01b753cfcf5c43b ASoC: Intel: sof_sdw: use generic rtd_init function for Realtek SDW DMICs
          
 
---===============3713461486714701958==
+--===============1423836262529577728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9da8ca836ec6-56c358628a5e.txt
+Content-Disposition: attachment; filename=revlist-8431f478c649-99fb675b6c01.txt
 
-c6cf93381dbb83e347c7851787f17c81c4e7cf8c drm/amd/display: Fix division by zero in setup_dsc_config
-25291299ce89c0f3f88c2fc6656e6f34347c1af8 pinctrl: core: handle radix_tree_insert() errors in pinctrl_register_one_pin()
-a1df592125118c667d5f6fc20436549ca7fffc5d nfsd: don't allow nfsd threads to be signalled.
-172d0fb57a593feb69c4127b87e39bb3a516be3e KEYS: trusted: Fix memory leak in tpm2_key_encode()
-e4948281050a98c393b3876019bbd72ebd5f3331 Revert "selftests: mm: fix map_hugetlb failure on 64K page size systems"
-e44c2f99b9174feb0e49e3a4c6b17ff4186bb7dc net: bcmgenet: synchronize EXT_RGMII_OOB_CTRL access
-471904e95d76ca7c823d15b3cf00451ba48c2339 net: bcmgenet: synchronize UMAC_CMD access
-a8c6fa3db83516fac5718b29127b2b8a4bb61ce5 tls: rx: simplify async wait
-951512d3e85c90f97e18bbed379e5ad939be4ae9 tls: extract context alloc/initialization out of tls_set_sw_offload
-ebd1a56f156d6302c9e77226e005d888b47f61d0 net: tls: factor out tls_*crypt_async_wait()
-c15a4e0d5fd179f21602d1209b9d90d850d2b847 tls: fix race between async notify and socket close
-56c358628a5eefcf01435398d7bd0b497ce33664 net: tls: handle backlogging of crypto requests
+757b58d1b58a487f203de52c44f983af4c40f07a pinctrl: core: handle radix_tree_insert() errors in pinctrl_register_one_pin()
+5ae5c864cfedf59a2ccf93e043ba2789fd49f679 x86/xen: Drop USERGS_SYSRET64 paravirt call
+05441fb1943503413c19bcd140d6502dc0bf26e1 Revert "selftests: mm: fix map_hugetlb failure on 64K page size systems"
+ba882e58ba0517a518d1ba5e2b4f9aa2dfc8668a net: bcmgenet: synchronize EXT_RGMII_OOB_CTRL access
+7b1a5c6ecf5ec3ff268493e55c652651c25f9e84 net: bcmgenet: synchronize UMAC_CMD access
+d63c50aef80ac3c4d25d35d0948e51d74ed2ba58 ima: fix deadlock when traversing "ima_default_rules".
+f50069cda2fcb03a9c4c129d076fc8161b912fd7 netlink: annotate lockless accesses to nlk->max_recvmsg_len
+4f1fa214602f95275cc2a5d4d9cd6ae2a0f1aee3 KVM: x86: Clear "has_error_code", not "error_code", for RM exception injection
+0cc1f14ebd43033fb218d71e9ee0ad7759ae61cf firmware: arm_scmi: Harden accesses to the reset domains
+3e905d69e6b839855616e8043415bea2498c15b9 mptcp: ensure snd_nxt is properly initialized on connect
+622d61bbf43514f0ebaf595a836b7510a337664c btrfs: add missing mutex_unlock in btrfs_relocate_sys_chunks()
+99fb675b6c0199933d4aad1b0f8b8f999d43b0c9 drm/amdgpu: Fix possible NULL dereference in amdgpu_ras_query_error_status_helper()
 
---===============3713461486714701958==
+--===============1423836262529577728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df061ee89658-6f3915a3cc33.txt
+Content-Disposition: attachment; filename=revlist-56c358628a5e-95d9a94fe61e.txt
 
-6c0420587ebd3a6ae8c638e05b05ed4ba26a9e47 drm/amd/display: Fix division by zero in setup_dsc_config
-a83442bff19209842021826ac74ecdf24359885f net: ks8851: Fix another TX stall caused by wrong ISR flag handling
-8461cda2029c4ae52fa44e0a78e9c1a60d4b28a8 ice: pass VSI pointer into ice_vc_isvalid_q_id
-7d935640ddfc9a8d3786c183d52526a671b0e496 ice: remove unnecessary duplicate checks for VF VSI ID
-fae0025d4813747d3e6f1ed7f30b9323722a6406 pinctrl: core: handle radix_tree_insert() errors in pinctrl_register_one_pin()
-5a1b9ff691e6da65b46142356c3b1d1a7a945946 mfd: stpmic1: Fix swapped mask/unmask in irq chip
-3461bc7e5e4bdbe3b5a3ba69744a9c72e77a7df2 nfsd: don't allow nfsd threads to be signalled.
-11e8d6c20617f4189a5759f873416d91db356cb3 KEYS: trusted: Fix memory leak in tpm2_key_encode()
-54f81fc20acd09115555b828747f97e43ce3b8f7 mmc: core: Add HS400 tuning in HS400es initialization
-c039327a51927552a97e02eee28345575ccabc87 xfs: write page faults in iomap are not buffered writes
-c3e213247fc3da20e93ee972288bc01d13e4386d xfs: punching delalloc extents on write failure is racy
-34f8e91670aecf5282f6617634a0a121b6ad8c80 xfs: use byte ranges for write cleanup ranges
-352275083f35d101847cb8a68736e131ece58958 xfs,iomap: move delalloc punching to iomap
-d1059aec0847df7759a8da89d47b9305a25554e2 iomap: buffered write failure should not truncate the page cache
-25dae7d2baf550891d9ba72938ba15b64bb12a59 xfs: xfs_bmap_punch_delalloc_range() should take a byte range
-05ea894cf490c0123709c8f95b59134bd437b45c iomap: write iomap validity checks
-5673fc0b9c8961bb94dfedb355147d6499b6c8d5 xfs: use iomap_valid method to detect stale cached iomaps
-893e9465835b5787793e6e1a3347111542f6b3be xfs: drop write error injection is unfixable, remove it
-b1e03229c5c240f11cdaa2b21691e9600c0e3525 xfs: fix off-by-one-block in xfs_discard_folio()
-c78147912d22a8bae316fe00e7a3a59e5cb66310 xfs: fix incorrect error-out in xfs_remove
-9d0200d6b7d65279987ab3729bcfe4a1463a5025 xfs: fix sb write verify for lazysbcount
-3277a4acdf40198ab57296e9c244d99c1c640cf3 xfs: fix incorrect i_nlink caused by inode racing
-d2fc8f959123446e4fb27b9ba4f84009d4e1b923 xfs: invalidate block device page cache during unmount
-05136ba190a79882349d1d1328c2967f752e3b9c xfs: attach dquots to inode before reading data/cow fork mappings
-d0b1331d960e1e1fc0515e05fca1d578aa4e5715 xfs: wait iclog complete before tearing down AIL
-a0ab4ebe686ff7071fb32e93988b6760ea1acdb5 xfs: fix super block buf log item UAF during force shutdown
-27cd9c0a82fac715d157cc92c2fbc603f3b572b1 xfs: hoist refcount record merge predicates
-d3c4b3e7e0a9fe4abfd79e45f87608460601e4c3 xfs: estimate post-merge refcounts correctly
-11854d80e226296468276a530fa87d6ec2960292 xfs: invalidate xfs_bufs when allocating cow extents
-4d10ef1a58d1f3cd13225c6b381887c2934e34c2 xfs: allow inode inactivation during a ro mount log recovery
-6fc79c60db282839fe4fbd494d197d8871620eb1 xfs: fix log recovery when unknown rocompat bits are set
-d50f3db164fb476f4af368cc5cf4707c3e4b4ca7 xfs: get root inode correctly at bulkstat
-8526520871b8da1521af2ed22704f37f72119573 xfs: short circuit xfs_growfs_data_private() if delta is zero
-a829ba234964e571c7b4eb986c439ec18439d20d arm64: atomics: lse: remove stale dependency on JUMP_LABEL
-6f3915a3cc3310a3fd042b2fa4401de1b6d6d6fb drm/amdgpu: Fix possible NULL dereference in amdgpu_ras_query_error_status_helper()
+6d1351e539bea37632411877078d54cdd013711e drm/amd/display: Fix division by zero in setup_dsc_config
+25027d5e384196b1156f9714a587612ac685d3b1 pinctrl: core: handle radix_tree_insert() errors in pinctrl_register_one_pin()
+776066fb68c2e7e4ad7337876cbd7230cb249d76 nfsd: don't allow nfsd threads to be signalled.
+d3fde50c36de1cde97b63e00d7b104525adac7ce KEYS: trusted: Fix memory leak in tpm2_key_encode()
+294221bbf251fc8ec4af0345d575102e0f8a7a2d Revert "selftests: mm: fix map_hugetlb failure on 64K page size systems"
+77dbfa96b69afe99dfe3da6110e586d0da5a82a6 net: bcmgenet: synchronize EXT_RGMII_OOB_CTRL access
+0a8e44357c3191595f3d008f70ad1384dccad4d5 net: bcmgenet: synchronize UMAC_CMD access
+9c7cc0014466ebbb0efa6958e57f4e02b1deddc2 tls: rx: simplify async wait
+57089457062f7fea3e5bb11f1b2608fa78dee764 tls: extract context alloc/initialization out of tls_set_sw_offload
+6c87e2464e751c7211328562c0337d6f0033fa44 net: tls: factor out tls_*crypt_async_wait()
+515fc5811f09c4efc136aade510866c2c19dc73c tls: fix race between async notify and socket close
+18dfb768d8a42dde4063a465d433bfa619288497 net: tls: handle backlogging of crypto requests
+d87ea257ac40a3b279b5facd443c221f54780b1a netlink: annotate lockless accesses to nlk->max_recvmsg_len
+c2f1f7efc6b5cdcbaf4d8721bedc47d0d7cdd98a netlink: annotate data-races around sk->sk_err
+67e497bd1902f4e52c7a1db6f8e4efcbad538492 KVM: x86: Clear "has_error_code", not "error_code", for RM exception injection
+95d9a94fe61e8a3633db9885a5010cada7463383 drm/amdgpu: Fix possible NULL dereference in amdgpu_ras_query_error_status_helper()
 
---===============3713461486714701958==
+--===============1423836262529577728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f532a2cd728d-25d9ccdfeff4.txt
+Content-Disposition: attachment; filename=revlist-4be8123d2898-4a15318f5eb7.txt
 
-12118067ca49e90dfd5e1e00d03b08100ff31cd4 cifs: Add client version details to NTLM authenticate message
-f4e4ceab7bbfaaf0d8ac0e7ea880f576e91e70d4 SMB3: clarify some of the unused CreateOption flags
-ed5967056a7e35ab9487a58505ba6aaf0ed65726 Add definition for new smb3.1.1 command type
-b68478a9c6e7e186857fc74555e03e172a2af11a smb: use crypto_shash_digest() in symlink_hash()
-9b9310aec81a873c1b48378c26164b049a82a87f cifs: print server capabilities in DebugData
-720f6e211c71ee9bb127b64906916aeabdf8ed38 smb3: minor RDMA cleanup
-3b4dcd424d878a095665f76fcee20669af1afb7a smb3: more minor cleanups for session handling routines
-9d5d2f1c036cf9dd19099c85213c8527ccd1b3a4 smb3: minor cleanup of session handling code
-226c8dc7e8ae4874f77b1bc984aa2b7ad2f16422 Missing field not being returned in ioctl CIFS_IOC_GET_MNT_INFO
-7c30a0906404c0cfa76c72cd2f47eb62b91c0edc cifs: update internal module version number for cifs.ko
-e6d1142f7a3cd602704ed2dcafdfd453fd649474 cifs: fix use after free for iface while disabling secondary channels
-962b4108b2aefa44a96de5776f63fd9d84ceb566 smb: client: introduce cifs_sfu_make_node()
-69f2ac9b0e195a6b3be8167140ab6063e7125e19 smb: client: Fix minor whitespace errors and warnings
-95d6fa7a093664804c87f5743533c4ec1e9e7750 smb: client: extend smb2_compound_op() to accept more commands
-35d69fbc5a2e37cc2f12f4c4840dafc52d53afb7 smb: client: allow creating special files via reparse points
-c1c387a3b0450980fed00c1e76e76868ffc37191 smb: client: optimise reparse point querying
-4e0a059da1233226f027482dc501863fb39f8456 smb: client: allow creating symlinks via reparse points
-e5b1aae6d344a48979c2b2519095534d938678a5 smb: client: cleanup smb2_query_reparse_point()
-f555b189db484bec8793cde1dd3e1e96215e08ce smb: client: handle special files and symlinks in SMB3 POSIX
-1a7acd9a9adcbf1456b7fcb7e4843bf1e173654c cifs: fix in logging in cifs_chan_update_iface
-c785da7d7991e14fbc14a5b0f6bf94ff185c8405 smb3: Improve exception handling in allocate_mr_list()
-495f3431d85c1a5faf9c9447a3488ceee7503971 cifs: Pass unbyteswapped eof value into SMB2_set_eof()
-ec4905716969d4f078a32e6f732863a79d4a0f52 cifs: get rid of dup length check in parse_reparse_point()
-7dc724c68c2257ceb22f55cafaaba4816a897ab6 cifs: remove unneeded return statement
-3a80fab6115365bdaae855a0e51d1b9d654ba6b1 ksmbd: auth: fix most kernel-doc warnings
-6919e208e37f1df4f744622fcaf72400b9775efa ksmbd: vfs: fix all kernel-doc warnings
-2399ec56fdcdbb2cf1e5668033fff47d97ec9ad8 cifs: update internal module version number for cifs.ko
-b58edb824c4ec41df2326c22e8d63518b96a90da cifs: remove redundant variable tcon_exist
-cc6674b8595e5ebd6d112c0b53ff43cb205b29ed cifs: minor comment cleanup
-5e9da419c06a4cf6488ce91b19b195eb0b34c158 cifs: pick channel for tcon and tdis
-0ef1a4803f1cdcaae5adba7992f2dc85ff91069c cifs: new nt status codes from MS-SMB2
-bb10f120338237b75d95585dd882402ac29beda2 smb: client: don't clobber ->i_rdev from cached reparse points
-0fbbfaabe70be1b15aaf489c9f42aba74a2464d8 cifs: new mount option called retrans
-4c763ac9ced1b58c031e991dec97d15ed7bccfc8 smb: Fix some kernel-doc comments
-1612e94ee4c36f0428c994eaa8cc6ca23149fbfe smb: client: delete "true", "false" defines
-601a486a49508c271d759fed6f0270770e3b6b66 cifs: commands that are retried should have replay flag set
-79503a2235b529c073bb59c301f7df76ced3eb4c cifs: set replay flag for retries of write command
-469455b0e5d128b34e02f47566db5081e22c94c9 ksmbd: Add kernel-doc for ksmbd_extract_sharename() function
-c407a9af16ac7b2ee18f211dcb8324783dfb6d6c cifs: update the same create_guid on replay
-4f6f2b713c276891245688dbb061fba16f90fd31 smb: client: handle path separator of created SMB symlinks
-a5f0d1c5ed68a8bb7b090f1f81fbf00841258aec smb3: update allocation size more accurately on write completion
-ee6cbc82b3831a8eeecf9576076150856af82217 smb: client: parse owner/group when creating reparse points
-7b1479040a2b4c13057287038d9a28298e9dabe6 smb: client: get rid of smb311_posix_query_path_info()
-15c3991fc638c9c316981f12e59ed6d4a6579081 smb: client: reuse file lease key in compound operations
-e5d549fb935599801168e6e82c31a286815a5e64 smb: client: do not defer close open handles to deleted files
-6a4c5b787dd4d8259f2e1927029f9a8e43805280 smb: client: retry compound request without reusing lease
-9c063fbab5149786916fb5cb5c6448aafec1e92b smb: client: introduce reparse mount option
-8f68e0a9284c91a60ba7db5b8e4be0acd9e1d6bc smb: client: move most of reparse point handling code to common file
-82d607c026786d0e7514ee7e359d95b1bd6e1432 smb: client: fix potential broken compound request
-1b3615cd057c46a4c2ccb8a6e639ddf6e0e28481 smb: client: reduce number of parameters in smb2_compound_op()
-e15083271dcf8c6ff5099a821ecd0765b4c13004 smb: client: add support for WSL reparse points
-cb3f259086b3db501f5364bcba9dad5671fcba14 smb: client: Fix a NULL vs IS_ERR() check in wsl_set_xattrs()
-59a60096bb832c0254fad403909d5904c6025d2c smb: client: introduce SMB2_OP_QUERY_WSL_EA
-9746aad6a741a5205c248c76696e7ba34338b506 smb: client: parse uid, gid, mode and dev from WSL reparse points
-9a3f97864c4862d4ef109593cf68c865df67d55a smb: client: set correct d_type for reparse DFS/DFSR and mount point
-8b674e72688d905e97c7d40f04c68ec3089d90a2 smb: client: return reparse type in /proc/mounts
-fdb8e371d2b253bbf50c97a05dd900f359425b8f smb3: add dynamic trace point for ioctls
-a94e068dda826bb626cad850aecd1b3d18a9a933 smb: client: negotiate compression algorithms
-080cd8710f1581009310152b0ee442b7ecc06d64 smb: common: fix fields sizes in compression_pattern_payload_v1
-97a60d44946db8bf97d562eec68ce33c9d794026 smb: common: simplify compression headers
-2513a8cab8189fd4183f07757dc2304318839070 cifs: update internal module version number for cifs.ko
-82612bc483bc92cc36b64f70b1a338b3bc40cd1d ksmbd: mark SMB2_SESSION_EXPIRED to session when destroying previous session
-705fd45733bb62e4701097383e5efdb8985f6c8a ksmbd: add support for durable handles v1/v2
-f2971cd70bd29477a0e82a2ed627571f586c4678 cifs: defer close file handles having RH lease
-750d3013f1fe2283532f5860478cb87cfe74c875 cifs: fixes for get_inode_info
-673928a9ce1072051310ade8f93684756a5edd01 cifs: remove redundant variable assignment
-15f1ad21c66851c5827ac8d6c35430fa9906d94f ksmbd: fix possible null-deref in smb_lazy_parent_lease_break_close
-c8f5409bd37bdd53cc7f10e24f784e908bf8a341 ksmbd: Fix spelling mistake "connction" -> "connection"
-2aa059d688b805b29ca92b4dbd6d9cb3f0a39328 ksmbd: fix slab-out-of-bounds in smb_strndup_from_utf16()
-13a60c508c42623255aa83381ec635390d88d161 ksmbd: fix potencial out-of-bounds when buffer offset is invalid
-42598ad3a421f003c6dd09a1fc502f141c98828a cifs: Move some extern decls from .c files to .h
-ec43f3654319d135ec3f052d0ffea1dbff0b17e3 smb311: correct incorrect offset field in compression header
-329e0eb1db26d0c2e607e061c57afe7ccdc2d0dd smb311: additional compression flag defined in updated protocol spec
-fd674e1d388794fee06032f3d31bdfa86002b3c4 smb3: add trace event for mknod
-8ced88f48c0820aee15c7af87f47b004f593167c smb: client: fix NULL ptr deref in cifs_mark_open_handles_for_deleted_file()
-1a00cf05b80994c479126e31f76bb81db0bbca41 smb: client: instantiate when creating SFU files
-cfa9cf383e51bcb7850b184f5fc3076b86430ef1 cifs: Add tracing for the cifs_tcon struct refcounting
-cca1ba3c8fa7180443d3a87d008cdb0a930470eb ksmbd: add continuous availability share parameter
-cb8e155aa78c46f34bada178e26fd524b050968c smb: smb2pdu.h: Avoid -Wflex-array-member-not-at-end warnings
-6fbd696505eb3593cbf5f18400799fca0614b91b drm/amd/display: Fix division by zero in setup_dsc_config
-173180d1451910accc64a727ad4740c985e341d1 net: ks8851: Fix another TX stall caused by wrong ISR flag handling
-4b9f182dd330b71b99c15b21b5038d697b660869 ice: pass VSI pointer into ice_vc_isvalid_q_id
-a0d42b5c1d5ab358aa19d29dba41925ccdf98036 ice: remove unnecessary duplicate checks for VF VSI ID
-48899074869e5f1de31196f5e2e7b1ce12aa5871 Bluetooth: L2CAP: Fix slab-use-after-free in l2cap_connect()
-feab593db5b9bb7441c61a68d149ce93385583ba Bluetooth: L2CAP: Fix div-by-zero in l2cap_le_flowctl_init()
-c33b6b91db814310fba4dea0bc2695e52dacffc7 KEYS: trusted: Fix memory leak in tpm2_key_encode()
-75617ba43a06ac94fc8c6cfb6a254249eb528f3b mmc: core: Add HS400 tuning in HS400es initialization
-25d9ccdfeff4480e175a992f2f97a0471bc28ff6 kselftest: Add a ksft_perror() helper
+ec496d38f1f331255c2c3f92ed1b1ffba5482f3a pinctrl: core: handle radix_tree_insert() errors in pinctrl_register_one_pin()
+624152da3db0c85187a3ffe0ffdd5d6c3cd8c0c2 ext4: fix bug_on in __es_tree_search
+7dfdfb46fdeeb4307ccb211ea5e4b32a7e49cd94 Revert "selftests: mm: fix map_hugetlb failure on 64K page size systems"
+22db737893ce54ea921c633dbfdce1a2555fbb9c Revert "net: bcmgenet: use RGMII loopback for MAC reset"
+af52c93fa7025a8c3dc087b43d7b50a030013913 net: bcmgenet: keep MAC in reset until PHY is up
+1a4c93b23a0fcfd48171fea8a297de4323ce9437 net: bcmgenet: synchronize EXT_RGMII_OOB_CTRL access
+ef2431b0f1b359a2d85cd45bfbb3300243443827 net: bcmgenet: synchronize use of bcmgenet_set_rx_mode()
+887053fd5efcda5c1b1d4289b617cf59e0b5009c net: bcmgenet: synchronize UMAC_CMD access
+f4f3a063b80e28d6c976a40b45832756fca513a1 smb: client: fix potential OOBs in smb2_parse_contexts()
+6a03fd6ba39886e705f9d9d4fb52ff6ae121e344 firmware: arm_scmi: Harden accesses to the reset domains
+16afdaa365c6b75aec1b9ccc26c23b8ec5a92d02 arm64: dts: qcom: Fix 'interrupt-map' parent address cells
+551ce861c0c044623b48545e8224f9f0f9d7bc4f btrfs: add missing mutex_unlock in btrfs_relocate_sys_chunks()
+4a15318f5eb764ed6747eb7d6e6687d584bca047 drm/amdgpu: Fix possible NULL dereference in amdgpu_ras_query_error_status_helper()
 
---===============3713461486714701958==--
+--===============1423836262529577728==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6f3915a3cc33-8d9d7a52836a.txt
+
+9c86fe2462b41032cae8ee6c4b08b65413576665 drm/amd/display: Fix division by zero in setup_dsc_config
+ba897db80ce785268aa2cfd84e6256b33bafa9a4 net: ks8851: Fix another TX stall caused by wrong ISR flag handling
+d736637ddb987d333680bdbea69dc1d9e65c2f63 ice: pass VSI pointer into ice_vc_isvalid_q_id
+fa7d0d9f0d3e38cd8655dc4d64032227358d1014 ice: remove unnecessary duplicate checks for VF VSI ID
+cc591bd079fca60df59dea81011ad48876c78b61 pinctrl: core: handle radix_tree_insert() errors in pinctrl_register_one_pin()
+84f71da013d876f22573ca692f493fbba413331c mfd: stpmic1: Fix swapped mask/unmask in irq chip
+6d2c9a84e62f6db7746786a183ddde99ab8a6a67 nfsd: don't allow nfsd threads to be signalled.
+00092bb49650f40544666b6d7ae72e5028099976 KEYS: trusted: Fix memory leak in tpm2_key_encode()
+163120f9fb01397d883be4d3c69ea5f74f21e42b mmc: core: Add HS400 tuning in HS400es initialization
+c52b6313df1b3acb26b8050a189cd7a47712f44c xfs: write page faults in iomap are not buffered writes
+848720d55a9543128f0a8b68c2e0b8e0591f9d9f xfs: punching delalloc extents on write failure is racy
+a7aa9c515c22352a9bc6aac6f8f36c687a9b23f3 xfs: use byte ranges for write cleanup ranges
+0d6e9aa01e099d0ae1d549e27f4901e398bf3341 xfs,iomap: move delalloc punching to iomap
+0b8f94bb6ae417031dd575a7975040c34886290e iomap: buffered write failure should not truncate the page cache
+de2916df8ee8308abe8a1a1b919e7a50785700c2 xfs: xfs_bmap_punch_delalloc_range() should take a byte range
+5ebd1ae19fb8b43929a7b8ff5ad5f4f637dc428b iomap: write iomap validity checks
+bfd90b83081e3f7872ea068dc26095545f4c9035 xfs: use iomap_valid method to detect stale cached iomaps
+b795761e3957a2307faae1a7c7ad84983230bf6d xfs: drop write error injection is unfixable, remove it
+d1d453f3d42d03be61b560e174e129b457c78ca2 xfs: fix off-by-one-block in xfs_discard_folio()
+b93ea23c3f3528cd8c21d9a6778ec3884598224d xfs: fix incorrect error-out in xfs_remove
+5c406d9b3ba265ee65bfebae32aee70f3ac208c5 xfs: fix sb write verify for lazysbcount
+536a39e59122b645cc40f54c72852d0994809059 xfs: fix incorrect i_nlink caused by inode racing
+22f8e8d30a4d10c9270e94a5fed3d5552398444a xfs: invalidate block device page cache during unmount
+71e9e2f166059b0b9e12a67ecbd614f02a110c48 xfs: attach dquots to inode before reading data/cow fork mappings
+669f5eb7b917626773b939a464f0035fe6f2c542 xfs: wait iclog complete before tearing down AIL
+fa77527d7bbfb1b8a99f8268dddaa385ac483155 xfs: fix super block buf log item UAF during force shutdown
+341c6e1b9d282ab0c59199dbe7a75b8cf0e9fd8d xfs: hoist refcount record merge predicates
+f522521471d3ab9b5d8682138eded31c95401ca8 xfs: estimate post-merge refcounts correctly
+6ecaf549f960184e7179eec0698beee026ce317c xfs: invalidate xfs_bufs when allocating cow extents
+e8f2e12c07cbac6fb5948aedf662c6af12ce4e63 xfs: allow inode inactivation during a ro mount log recovery
+63de50e5e1dbf7a2cf88c55fa60594cc2ef10716 xfs: fix log recovery when unknown rocompat bits are set
+ff836073c7077fdd90761350a1e44237cdc728f2 xfs: get root inode correctly at bulkstat
+72aabd59384666e1c43aef8a832fe28cf3dde311 xfs: short circuit xfs_growfs_data_private() if delta is zero
+be8664547a300133cacc8f706a63b4e5d2c725f3 arm64: atomics: lse: remove stale dependency on JUMP_LABEL
+8d9d7a52836a3f157f122bb4203ff2b30fb3f45f drm/amdgpu: Fix possible NULL dereference in amdgpu_ras_query_error_status_helper()
+
+--===============1423836262529577728==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-25d9ccdfeff4-4e6ab7adca33.txt
+
+61ebac4f548d8a40823c3553b94f463407d0e44d cifs: Add client version details to NTLM authenticate message
+d79677bf9996c11c2bba750f32026e7c173e8e1b SMB3: clarify some of the unused CreateOption flags
+7e2bc86d1f53c186c7fd8e99a588120efc36ef22 Add definition for new smb3.1.1 command type
+da45a1335399d347222853cd06b3c223b1857a82 smb: use crypto_shash_digest() in symlink_hash()
+c1034b9d84f05393018d8fa75c50064deaad0d6d cifs: print server capabilities in DebugData
+7d15843140f67c16d5813255a6fb95cd0f5fe8f7 smb3: minor RDMA cleanup
+4ca3c550c78f45f3c6f4f008e38c7530fc9788c2 smb3: more minor cleanups for session handling routines
+b875b41395f6c41cb5bdbd83575d2ec90a8e1bfd smb3: minor cleanup of session handling code
+a28bd6234621b3cb7bf23c4961696a1c3ceb9103 Missing field not being returned in ioctl CIFS_IOC_GET_MNT_INFO
+6ef7e98d3cada914b9cf8bcf5a20c497d031b8dd cifs: update internal module version number for cifs.ko
+aa7b66aeb4e206bb8ac97e3d3759d8ebff5bd80f cifs: fix use after free for iface while disabling secondary channels
+1a544a709dbb056bf89db0cf6bfaa2039e72a362 smb: client: introduce cifs_sfu_make_node()
+59ac4845944a386045869a4171b59ae05a570854 smb: client: Fix minor whitespace errors and warnings
+34b9ea766183646c5701d518a12e46cbbaf4ed20 smb: client: extend smb2_compound_op() to accept more commands
+eaa2dcb8fbf3f61ab7d9eae6919a194d5a66ede4 smb: client: allow creating special files via reparse points
+aa528909e477a4cf575b71a9756b1670c9c3e130 smb: client: optimise reparse point querying
+35fa245049c48a9e5ef8bfe08931947e575538dd smb: client: allow creating symlinks via reparse points
+a41a335a092b00993e822a9895d6b4fcf48064ef smb: client: cleanup smb2_query_reparse_point()
+34697ea5b1b79825236c60a99a2a29430a0c983d smb: client: handle special files and symlinks in SMB3 POSIX
+b9e1ea4922ca192d66d83e422eea281488dfa04b cifs: fix in logging in cifs_chan_update_iface
+57a55e3f62920ff608ca975c94acfb7aed57e1fb smb3: Improve exception handling in allocate_mr_list()
+97afeb966d278c80b0d0afe203ca443243145099 cifs: Pass unbyteswapped eof value into SMB2_set_eof()
+5509b04d7e157b63e272b1b59366842ca3ec5d5c cifs: get rid of dup length check in parse_reparse_point()
+ea459afde87ba412c3c91ad55e40b0348ce57923 cifs: remove unneeded return statement
+09651d55325ddcf99c97b5105fdd6a2402690792 ksmbd: auth: fix most kernel-doc warnings
+3e9e2a789fce497e9bb655235a51bbfa12403eb6 ksmbd: vfs: fix all kernel-doc warnings
+da191b2a58b194de6ebad8c8c346fdb4b17c2e01 cifs: update internal module version number for cifs.ko
+4956d7d88bfa299f4d4c9d221a2b4c0d64c0cae2 cifs: remove redundant variable tcon_exist
+5afd105fc99dff7c125d6799bd79ff7c4df8199e cifs: minor comment cleanup
+0c3fddd77a3cf8d12577fc557b2459f4f53f94fc cifs: pick channel for tcon and tdis
+3fbaf52779bdb062772ba8c6fcee7efe16b84a0c cifs: new nt status codes from MS-SMB2
+83e0dde10ab44689724b408f12e07b71a26673d0 smb: client: don't clobber ->i_rdev from cached reparse points
+3902518f06b3cc76ebc46b90974a9a3cd160b3ad cifs: new mount option called retrans
+f50e517c1cb033b53daf92e039ad98b86d942ff7 smb: Fix some kernel-doc comments
+9b53739c1dadb356f2bb73ccda985f51f7e6a929 smb: client: delete "true", "false" defines
+e56546d17fea94d1a1bf5d3c4aeae709429f1bd9 cifs: commands that are retried should have replay flag set
+06037b41eb67307ae0d9f8ea808f5c8ebe12e25a cifs: set replay flag for retries of write command
+778533fa7cc411fb685cc1fa188271d8450bd3f8 ksmbd: Add kernel-doc for ksmbd_extract_sharename() function
+f3694c270e659633de50f7293ab713d0395ee615 cifs: update the same create_guid on replay
+ae6b52fd6e1b5de0cef99d188436e5845ef605fc smb: client: handle path separator of created SMB symlinks
+82b427aece9e4c389c552c6fe37f825efa8597f8 smb3: update allocation size more accurately on write completion
+78039cd9989d7013ce07a1f016be2df476688b46 smb: client: parse owner/group when creating reparse points
+50dd352ae58c551773a8f5764bbc09e78b92a4c8 smb: client: get rid of smb311_posix_query_path_info()
+f05d1050b059f26fc7315817de0d7a16aa474c41 smb: client: reuse file lease key in compound operations
+39be3c590fa8cf3fbdece47f36ee986ee2832a6f smb: client: do not defer close open handles to deleted files
+e4ff83303c6be75540d2b44daa7a6447a6e2c70f smb: client: retry compound request without reusing lease
+518af5d04e1cc863dcf704debddaab59a39c4fbb smb: client: introduce reparse mount option
+88c42c305d0921bd0bcd1589f652fd9f346d4e9e smb: client: move most of reparse point handling code to common file
+07ed6075b44c3889e7667052800f38907c66cec0 smb: client: fix potential broken compound request
+7365e1c028da59b819c0573204230510539452d0 smb: client: reduce number of parameters in smb2_compound_op()
+a1f1dddfa93246e222ca2f3eb990e5e72a959b0e smb: client: add support for WSL reparse points
+8f33f034146efa83396cb801a4239d8f3a0fb4f4 smb: client: Fix a NULL vs IS_ERR() check in wsl_set_xattrs()
+421c235e4c9ada3abd1a1a2bb24bffb3b3b934dc smb: client: introduce SMB2_OP_QUERY_WSL_EA
+a48a3cb6fef7b2ddfb6a8af2c83d223e56cb023d smb: client: parse uid, gid, mode and dev from WSL reparse points
+2d901d85f8495e13b367d4a053722319832f7e08 smb: client: set correct d_type for reparse DFS/DFSR and mount point
+37f4969096c2fc286445ccdab52078a3b5aa71ed smb: client: return reparse type in /proc/mounts
+bb427627822c321be636c94ae5a11d3648a23958 smb3: add dynamic trace point for ioctls
+111a49fcfaa78c490dc9aff61141a580b88e4dd2 smb: client: negotiate compression algorithms
+b1f10cab767b4776af4908c056ef9dd3f00d6fb2 smb: common: fix fields sizes in compression_pattern_payload_v1
+584b3e92d9dc39184aa878938930069cb732a397 smb: common: simplify compression headers
+dd3ebcb80b4a6752e6844bf3f672daa853beb2a9 cifs: update internal module version number for cifs.ko
+0a032df06c2fa8ba21733e4458e932f3ee6183d6 ksmbd: mark SMB2_SESSION_EXPIRED to session when destroying previous session
+11e966d45ff6ea6ab60bbacc77e9e133589682eb ksmbd: add support for durable handles v1/v2
+10ae46798102721ba22e1fff92147bf720246f48 cifs: defer close file handles having RH lease
+31e8f0de0d42cba37c04c123cd65cd9930317d18 cifs: fixes for get_inode_info
+8498f85c5cf5e1366667fa48db0f9a1870fe3c64 cifs: remove redundant variable assignment
+5017b53935b0a6993e91319527e1423d80978433 ksmbd: fix possible null-deref in smb_lazy_parent_lease_break_close
+f0f3143dd56aa87c5eeaf98284e2aed85afbf997 ksmbd: Fix spelling mistake "connction" -> "connection"
+426408cb01a5db51920feb133ebc650dc2cb9776 ksmbd: fix slab-out-of-bounds in smb_strndup_from_utf16()
+e31e3e40abadd91e0624018b2b704752fdd0e314 ksmbd: fix potencial out-of-bounds when buffer offset is invalid
+34d150b7940165beb6b6bc109bfff1ee2ed8327f cifs: Move some extern decls from .c files to .h
+4b91adf83b09ab5d022a787d8873fa868e7edc92 smb311: correct incorrect offset field in compression header
+a6e8971c79befb70f114cbf65cfdbd588f039d66 smb311: additional compression flag defined in updated protocol spec
+63a775f1bba1675c5ea4fb2ffeaf2c50ea57ffc9 smb3: add trace event for mknod
+815fc3b8b584501fd975e848e0852d199d4202de smb: client: fix NULL ptr deref in cifs_mark_open_handles_for_deleted_file()
+5a59c48758e8659617d4c73fa9f6d719fe8164fb smb: client: instantiate when creating SFU files
+5481c7e3481abd0d81e9dd42e6169660ef18de50 cifs: Add tracing for the cifs_tcon struct refcounting
+b29dc1d4cd1889c18b441b420e15a7e7f519868a ksmbd: add continuous availability share parameter
+b90e9009ac0dd6156c1614ee6a9d5f5141fa1d4b smb: smb2pdu.h: Avoid -Wflex-array-member-not-at-end warnings
+d580e5eba3f67e981207decb968cf1788fd5c1f1 drm/amd/display: Fix division by zero in setup_dsc_config
+e4b379a1394c5185787a1c0879a9bb6f9c628ec4 net: ks8851: Fix another TX stall caused by wrong ISR flag handling
+3b5e715f75a4aba3da7c3d1a7006314eb309eb20 ice: pass VSI pointer into ice_vc_isvalid_q_id
+80f3586ff0247138510666ae8780cd91c1102152 ice: remove unnecessary duplicate checks for VF VSI ID
+e8e2ddd986e1b029254ec846f67050083cc60f14 Bluetooth: L2CAP: Fix slab-use-after-free in l2cap_connect()
+83e3bffda7d39012c484b6d6e8522ab1482b5b72 Bluetooth: L2CAP: Fix div-by-zero in l2cap_le_flowctl_init()
+761f683fd70f132a2dfee4bbc15f801eefb66825 KEYS: trusted: Fix memory leak in tpm2_key_encode()
+cb6c3ef044519122edf4bdabe524df36686aa301 mmc: core: Add HS400 tuning in HS400es initialization
+4e6ab7adca33118fad749ad05517c207b731e669 kselftest: Add a ksft_perror() helper
+
+--===============1423836262529577728==--
