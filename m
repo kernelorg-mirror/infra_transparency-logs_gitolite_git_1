@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============4556316490964707264=="
+Content-Type: multipart/mixed; boundary="===============5914839308256440277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 23 May 2024 12:08:48 -0000
-Message-Id: <171646612841.11715.3677863376459215644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
+Date: Thu, 23 May 2024 12:09:04 -0000
+Message-Id: <171646614467.11937.16928236897010309848@gitolite.kernel.org>
 
---===============4556316490964707264==
+--===============5914839308256440277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jolsa/perf
+user: jolsa
 changes:
-  - ref: refs/heads/master
-    old: cf225f29d93cc9d5411199bf53493f0d56b0651b
-    new: d09dffcb12b062a305011b03afbde084452a9796
-    log: |
-         d09dffcb12b062a305011b03afbde084452a9796 6.8-stable patches
-         
+  - ref: refs/heads/uretprobe_syscall
+    old: 52caf6a505075d933ccc197a56f537497dde7355
+    new: 1a5a44a37837d06f2b154cdc74cbd5601826db4f
+    log: revlist-52caf6a50507-1a5a44a37837.txt
 
---===============4556316490964707264==
+--===============5914839308256440277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-52caf6a50507-1a5a44a37837.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716466127 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1716466126-12f5732a0305aa0f9a4de840c4e64947ca5b448a
+f4aba3471cfb9ccf69b476463f19b4c50fef6b14 bpftool: Un-const bpf_func_info to fix it for llvm 17 and newer
+1b0215a3633a4c54ed7ec3af93e7a782dda8d965 bpf: Remove unused variable "prev_state"
+6c8d7598dfed759bf1d9d0322b4c2b42eb7252d8 selftests/bpf: Fix prog numbers in test_sockmap
+ece4b296904167336d0aaab26bd7122018835202 net: netfilter: Make ct zone opts configurable for bpf ct helpers
+a87f34e742d279d54d529e4bc4763fdaab32a466 selftests/bpf: Update tests for new ct zone opts for nf_conntrack kfuncs
+1d4b0517834e3e22882434d5026812733e1a738d x86/shstk: Make return uprobe work with shadow stack
+108dc4240fc1f46e0f91c275c015d5e639fe7909 uprobe: Wire up uretprobe system call
+04dfb425e7794a2e5457c299cab86ec09fb1bc11 uprobe: Add uretprobe syscall to speed up return probe
+4ce5579a7b08183d9e9a3a71dee5c3acc7f9a8bb selftests/x86: Add return uprobe shadow stack test
+98df2aadcf04ef51ad3aabee514e3964040e527e selftests/bpf: Add uretprobe syscall test for regs integrity
+1cf5fc016bedc323ee17aac214899c460aab652d selftests/bpf: Add uretprobe syscall test for regs changes
+c8cc6824e8dcfd19e8d6ef8bb2ad90813e9f5355 selftests/bpf: Add uretprobe syscall call from user space test
+1a5a44a37837d06f2b154cdc74cbd5601826db4f selftests/bpf: Add uretprobe shadow stack test
 
-cf225f29d93cc9d5411199bf53493f0d56b0651b d09dffcb12b062a305011b03afbde084452a9796 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZPMc8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4PIQAIkgXx8eW6hzM1Abr2jd
-y8yz6oqV4y3jmgMcEcnhR0Ti+ZzeUOU1iyDbOO4F6UNwee4W1ETeW9cjbG6SoOjW
-2yQmJ0YccM0JFdkz4MINdkDDddkk4O5YWIST0rdWDatNmWl+ahuL02DNFGJ+67fg
-zWSxSTS2/KACPn4hxvaSs141O3hf47aKbFHzzUxEwOTdUpOib5tUpAi6QD/Fp+KX
-B8zv6srnHEzdJ71Gbhlh8nYAMe6Hhi5ZcLW/ubByedkop3dmqsccs/R/CndTzL49
-VUcEWiREYYV0sKpy2JzgUcXueeoo5/IOaOd5BsNMbvEJGOBTt+xnwEgosL7jj+8d
-HSyTzzVfXPYOPJ9Rut2s+GP5GZwxpzMXloOOAeuy4T76qZvMH8gjKuGGecLNYbYe
-f8aIEWGYENuoU+Ws2mpBpsucFhIhBO/HKuX0ZfKRxSDBNZrq9Wukdz8Qs3ELWZeE
-LrpnRqF2LP1jn/WCtCFagLL/d5kKanzPYmW4X2+MNbU8BtsGEjcBU4lfRxxcqOq4
-3rBSSMRolASeC6aXKuskpzuXfqAdtbY10wf/Qc+yM3DJFDOg3liAnSFZcdyXftnG
-hFS1bYO4Aqa9mk3YTtVeZSy/Qc/H4qkV9Z1bbTRd+1E/1xCPiA29VU8AfQIlLm54
-nRazAkUDREyXZacD5xB3j6Qy
-=jBtf
------END PGP SIGNATURE-----
-
---===============4556316490964707264==--
+--===============5914839308256440277==--
