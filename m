@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 23 May 2024 23:33:27 -0000
-Message-Id: <171650720799.32484.13148641185045180144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 23 May 2024 23:33:36 -0000
+Message-Id: <171650721631.32649.11682665292650562420@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 86020e2a06cdafa9f802ee58f22bba51e72a418d
-    new: 67ffa0a3ab7e068dd43dcb2e59b3644d5856cca6
+  - ref: refs/heads/tpm2key-v6
+    old: 9078ac469b59cbff72e6a6b6169a54f7bb32ec07
+    new: d35ca03ccb1f633bb682489335a969d53d2d28b5
     log: |
-         67ffa0a3ab7e068dd43dcb2e59b3644d5856cca6 foo
+         d35ca03ccb1f633bb682489335a969d53d2d28b5 keys: asymmetric: ASYMMETRIC_TPM2_KEY_ECDSA_SUBTYPE
          
