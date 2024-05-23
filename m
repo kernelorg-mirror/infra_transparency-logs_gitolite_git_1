@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1730485922192068477=="
+Content-Type: multipart/mixed; boundary="===============0293355390767489434=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 23 May 2024 06:24:40 -0000
-Message-Id: <171644548069.2570.1366236358015376034@gitolite.kernel.org>
+Date: Thu, 23 May 2024 06:25:09 -0000
+Message-Id: <171644550916.4416.5248625987079590599@gitolite.kernel.org>
 
---===============1730485922192068477==
+--===============0293355390767489434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,83 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: 01953f3e25a68d89f9ede1c996eaf51a6485ee06
-    new: 7c6d34f8907c011ba85e230ba7501a6062723386
-    log: revlist-01953f3e25a6-7c6d34f8907c.txt
+  - ref: refs/heads/class_cleanup
+    old: bb2501fbc378d981842395fbe88d6156128c3ca4
+    new: 1f2a46f821fbb6d101621e259bc70d20584d29e9
+    log: revlist-bb2501fbc378-1f2a46f821fb.txt
 
---===============1730485922192068477==
+--===============0293355390767489434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716445478 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716445506 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1716445477-014519f544060da142e647f3edc08176f776e968
+nonce 1716445506-fe133a09985bdb6c7e267a5cc28aa332d971803c
 
-01953f3e25a68d89f9ede1c996eaf51a6485ee06 7c6d34f8907c011ba85e230ba7501a6062723386 refs/heads/bus_cleanup
+bb2501fbc378d981842395fbe88d6156128c3ca4 1f2a46f821fbb6d101621e259bc70d20584d29e9 refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZO4SYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HdsP/3gdk88GJdtsDpaBevye
-BiouGVJ8L1VOtHDMMiXBsn29hWVIskBgQrA8wVvbh6FVWVMGz+n8n0qJnteR8yrB
-P57bK29ZBfyh67bohtvFtcYGOp7LEfrVk2ycVjJPMaDjd4gIR55uW8VI7CcYGy6u
-U1Ksd8EUEsLgQqA/eO8vWXqhwpC1CcP0MlY+o/OeqlHfepKan5yYlbMEIMfa2P6y
-Ui/JpzaRfG+/+d6jbisUwwbcOeLxnHRrMgu0NOIRrX0QvdAsmYD7gRWqlvBRmldU
-GwEynJ093lQQAV45Iy1kGcY/S4TOnPvCx1xWMfHG9/vL4mstL8t0XDlGt70VrqnQ
-B8GwulJtfu2+0QCEmoTwG8YdTBrXyqy6nW/JNhTIxDTtq8a+g/qy5uvVsjHfPHl9
-w90k9dRbi1l0xVqUTPgqSBZA+VbHzKbXjlMcFBxvPaZDL8fj4OY/pYd9YYIU4V1o
-g2gwwsCMAVM+yaC9hJlDEDsXdlv7g/3esbRE0mNvA85BLE3UataWeezojoWbpSY5
-bfLtGsHYFkibXcyKe2NedWUIr7uVh4qScAO/EUbIECcomp98OVvwOiPDqwQr0Z10
-NxjYYoNz/nMROXzAH7pXo4YiS7ID6FRVgx7xweRzBuqB4pOF0PRXw7tUCH34yVzu
-yS4GOyTqXrvkpJN1w+tBdWPP
-=YJlS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZO4UIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8pAP/2eCCboyBOKr+hlxQTCL
+p5Rf91VOHWIXUIdNtiA6SuRYqctWc77Uz0h9fEIGDIJ6B0TPaG8wJ7h/fGpT/ena
+DcUXtYIaLq134WO2m1QC0ZP1EfnIbaMwmav0MYcMbvX+0kuO2o9HnUvXwy9tAoKy
+t5esHwC9imNeNR0VBFslJGto2X2yZ7Flglsfe5mUpJt6IRrAKLcqWiqDCH/QCB/S
+6ZogfQlSjtiRdv9YKVq3qv81fsypMFPorIWVCPW6DjI6lyS9Lb3pmLCHq65boQuH
+XotgMtNeDLKb3DLslh+uHJyQ/ZKd7CcFVe4JUyHLcCIjEp1aTgMCfGsdMfkBWtxR
+34csj09x4ME7QlKL4E9kHB7WWSjGqx9ajanA75jcsYEAas+oN2JnseHiX+nWjlSF
+G5Ei7xsvet/mqmxa/v4PbmS/QbzLyBvAaBFy8fOnWWEdyeXCe9Wov5Kw5sJiZ0il
+ipqLOQ/aDCPRnitjbEQ3xpRji8Uu8u/IQpDLsKFLllIPCtVUI8suzvZ5huR2P34B
+DohNcndLG/217NBy7Ll5DvlksY5ylif7YrXo1FXe12w2HzcSsbvswOidvKUrDtoY
+PerMd9BULudhvsAF+cSouOlOn7ghW+I1yVJ8QIzMqkuudXllZIsdf9TTISu2Asuw
+FOEjTLLbg6qkCsDOd9CLrabr
+=7TUg
 -----END PGP SIGNATURE-----
 
---===============1730485922192068477==
+--===============0293355390767489434==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-01953f3e25a6-7c6d34f8907c.txt
+Content-Disposition: attachment; filename=revlist-bb2501fbc378-1f2a46f821fb.txt
 
-9a8482387f4dc17a8f79e46004de1bee95c5e3dd Merge tag 'media-fixes-unicam-20240510' of https://git.kernel.org/pub/scm/linux/kernel/git/pinchartl/linux into media_stage
-adeab5bfb81840dc4be7ae20324bbf03b2b53eb2 Merge 6.9-rc7 into usb-next
-6402eb802deb312e33c24699f68fb7775b2c7386 dt-bindings: timer: renesas: ostm: Document Renesas RZ/V2H(P) SoC
-0f63c95aebf11d87b166a5dfd389957c67fef9c0 clocksource/drivers/renesas-ostm: Allow OSTM driver to reprobe for RZ/V2H(P) SoC
-37385c0772a4fc6b89605b9701fa934fa2beb2cc clocksource/drivers/renesas-ostm: Avoid reprobe after successful early probe
-e6f8bed209d5fa8602cda45930b0a331234d95ed clocksource/drivers/timer-ti-dm: Remove an unused field in struct dmtimer
-2030a7e11f161b4067bd4eadd984cdb36446fcca clocksource/drivers/arm_arch_timer: Mark hisi_161010101_oem_info const
-1cd354fe1e4864eeaff62f66ee513080ec946f20 net: ipv6: fix wrong start position when receive hop-by-hop fragment
-a238106703ab4ae1090b86eba128815b8626d8f1 netfilter: nft_set_pipapo: prepare pipapo_get helper for on-demand clone
-3f1d886cc7c3525d4dbeee24bfa9bb3fe0d48ddc netfilter: nft_set_pipapo: move cloning of match info to insert/removal path
-acfff66ee405060576ca88fab5eb569d10adfb45 ASoC: SOF: amd: Correct spaces in Makefile
-e54f128b0c2fe543816941342e085e21f49c5b6c ASoC: audio-graph-card2: call of_node_get() before of_get_next_child()
-42815f8ac54c5113bf450ec4b7ccc5b62af0f6a7 fuse: set FR_PENDING atomically in fuse_resend()
-246014876d782bbf2e652267482cd2e799fb5fcd fuse: clear FR_SENT when re-adding requests into pending list
-532aec7e878b527fcee8877350ab5c5341789626 netfilter: nft_set_pipapo: remove dirty flag
-a8a388c2aae490c08d59a6c15d15a968fea5089a selftests: netfilter: add packetdrill based conntrack tests
-fa23e0d4b756d25829e124d6b670a4c6bbd4bf7e netfilter: nf_tables: allow clone callbacks to sleep
-3d12d90efadf689b05280ebbb3fca870298d218f crypto: starfive - Skip dma setup for zeroed message
-25ca4a85e943d73582f3e576f0f829329568d0a3 crypto: starfive - Skip unneeded fallback allocation
-d7f01649f4eaf1878472d3d3f480ae1e50d98f6c crypto: starfive - Do not free stack buffer
-f8c423bab99cc2facc37cfd7d29ad8864f98a4c2 crypto: starfive - Use fallback for unaligned dma access
-6144436803b7a8738f3defa1fd6b4b6751f6793e crypto: caam - init-clk based on caam-page0-access
-d2835701d93cae6d597672ef9dc3fa889867031a crypto: caam - i.MX8ULP donot have CAAM page0 access
-98f9e447134be08d2edd696bb103ab6068fd3956 crypto: api - use 'time_left' variable with wait_for_completion_killable_timeout()
-e02ea6f9f2590cc721d0b921c2f2e650105a654c crypto: sahara - use 'time_left' variable with wait_for_completion_timeout()
-bfbe27ba59e19e28801cc1a931a8f6d1d35b76d1 crypto: iaa - Use kmemdup() instead of kzalloc() and memcpy()
-e228b41abb465402c0d0faef52768277027cc4f0 crypto: atmel-i2c - add missing arg description
-3f5f746165f7082f3c3f2f4b464e554c05a2621e crypto: atmel-i2c - rename read function
-e05ce444e9e59f924b53da8209bfb7208653817c crypto: atmel-sha204a - add reading from otp zone
-13909a0c88972c5ef5d13f44d1a8bf065a31bdf4 crypto: atmel-sha204a - provide the otp content
-4ff61c4ce93677cd94a0ddefbd6f3bc3c40457c4 media: intel/ipu6: Don't print user-triggerable errors to kernel log
-6983352784a7b87a9c39dbbfaa33733fa1ccb0a5 media: ov2740: Ensure proper reset sequence on probe()
-eba63df7eb1f95df6bfb67722a35372b6994928d Revert "media: v4l2-ctrls: show all owned controls in log_status"
-e4306116b5e93748b3eaa7666aa55c390b48a8f4 Merge tag 'thunderbolt-for-v6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
-1d26ba0944d398f88aaf997bda3544646cf21945 usb: dwc3: Wait unconditionally after issuing EndXfer command
-e7899ebb4301f87fe0af8a5d1ad28e3ddd85f4e3 usb: musc: Remove unused list 'buffers'
 718b36a7b49acbba36546371db2d235271ceb06c usb: typec: qcom-pmic-typec: split HPD bridge alloc and registration
 b791a67f68121d69108640d4a3e591d210ffe850 usb: typec: ucsi: displayport: Fix potential deadlock
 76d7570734c198e09f369faa35ebdacfeec3448e usb: phy: tegra: Replace of_gpio.h by proper one
@@ -1074,12 +1038,48 @@ f8a6e48c6c6dc30dbd423a3f4b082df625664730 Merge local branch 'x86-codegen'
 de7e71ef8bed222dd144d8878091ecb6d5dfd208 mm: simplify and improve print_vma_addr() output
 5c6f4d68e2aca67e425b7227369ec9fde8adfb6d Merge tag 'mm-stable-2024-05-22-17-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 c760b3725e52403dc1b28644fb09c47a83cacea6 Merge tag 'mm-nonmm-stable-2024-05-22-17-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-e89863199812013fe5879f6de9878a827bbc170d FIXME: driver core: platform: make platform_bus_type constant
-19ce3bbf4f2152f1b9f833b16075fd2b234ae249 FIXME: PCI: make pci_bus_type const
-cf8059086a7165607fd5a528b9017a6e1126f242 FIXME: amba: make amba_bustype constant
-0eec2328582df94d5c136372508cfccdf88daa2a FIXME: bus: fsl-mc: make fsl_mc_bus_type constant
-da81830d9eda37963e25d8b962948bf3c7e8689f FIXME: gpu: host1x: make host1x_context_device_bus_type constant
-2277f09946a3ce109ee665271c6f6af64386d238 FIXME: cdx: make cdx_bus_type constant
-7c6d34f8907c011ba85e230ba7501a6062723386 make a bunch of struct bus_type const.
+990a6e6619e97a0930c06f18e5f53df9001f67da powerpc: cell: make spu_subsys const
+be495a783e52fdb00106a6633cb4c3da63353b34 powerpc: ps3: make ps3_system_bus_type const
+1db929c2af26044730f597c9e9861cc1e777133f powerpc: pseries: make cmm_subsys const
+32fcd5a116d321c4756690de61c053f30f1744a2 powerpc: pseries: make suspend_subsys const
+7990cd344ee52dff881dd1b1408ba26e17f65c8c perf: make pmu_bus const
+7ffe0b38a7bd5f24d70aaae9b82b6846b344223f mtd: ubi: make ubi_class constant
+965ff3ccd2d0e64e4bcf93982e33c23f866663ad drm/dp: make drm_dp_aux_dev_class constant
+bddb5748f9295ea95b0109c94b2cf5c12fc804d6 drm/sysfs: make drm_class constant
+39792034a990787a350d0ee6824a16032fe9319a drm/fbdev/core: make fb_class constant
+947ee5addae0e09ed6110c3e1a84b036fee06aed dma-buf: heaps: make dma_heap_class constant
+766d8c1e911daa4ee277967c163e3d42eb5a0f0f media: dvbdev: make dvb_class constant
+d6b26c077ae5eceb38e5a41c2d8f09fe79e48cbb drm/dp: constify the struct device_type usage
+49db66786bddb6736507dbe944dfdcdc2c1a8637 drm/privacy_screen: constify the struct device_type usage
+ee7566ac43aaaa5a4ff637d1305da4b2a3708a2a drm/sysfs: constify the struct device_type usage
+930bbd3104ebdde4f5ee3ad166d19720f81c6dd3 cxl/port: make cxl_bus_type const
+312518e0d57eede27045917cdc3431fec8ed7831 ARM: sa1111: make sa1111_bus_type const
+2d881ad65aec32cee4087d258c1a1be2dc3abe71 ARM: ecard: make ecard_bus_type const
+3dc29cab46e110db48fadd83fbf761d28b905b64 fsi: core: make fsi_bus_type const
+c9c14c88de9559c29de01bdccb824ae645ce61f4 bus: mhi: ep: make mhi_ep_bus_type const
+f8c5ec4e8098e4a99107fb500eed91cc3eeb8d7f ntb: ntb_transport: make ntb_transport_bus const
+afc43b7580ba839a44543e5b3e67a347ebcf51b9 ntb: core: make ntb_bus const
+88a30fcdc32a2ead1c29e3c4d9ad4992a6c5fb06 rapidio: make rio_mport_class constant
+718bc706a2e88a112851dc33471900082c7fe449 pps: make pps_class constant
+ceb94c1021bf6afccf119f7aa29ce029f50d30c2 parport: make parport_bus_type const
+8ffdbf7ba52577b11b142a3fa386b031cd681136 nvmem: core: make nvmem_bus_type const
+b6bba3419c038f940ac3eb5f3e47c24e32edc3b6 intel_th: make intel_th_bus const
+9595d518feb964f13f482ca6dfee80ac0a9983cc EISA: make eisa_bus_type const
+ede300ec1d4b6659170b5fbcf281a341cf3d2094 parport: constify the struct device_type usage
+3e9a90503f64239220acd78dd7f1f4718aa4ef63 bus: fsl-mc: constify the struct device_type usage
+3b1fc1a05e54cf68cf8511bcc1e5b1302edf16d8 coda: psdev: make coda_psdev_class a static const structure
+cf7bae3d05cc1a654863c509b96998ce95a259d7 cuse: make cuse_class a static const structure
+8730584fe8723e0347d4b517cebdea64e5c492a0 pstore: pmsg: make pmsg_class a static const structure
+321deb6b188f0ab52b899264b070dc5704904597 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
+0d9f5702c8e2978d794773f52cf9654760e86aaa PM: wakeup: make wakeup_class a static const structure
+5d1f6cb6f3416b1591ad317ceaf5974f509be915 PM / devfreq: make all 'class' structures const
+13a3a83dd92a6ba28351f0833de85b31a5d19545 dca: make dca_class a static const structure
+259c62ca4d1f436671158c387ad69edfbaf15990 gnss: make gnss_class a static const structure
+244b6fb9bbc833c3163b98706324939328c9a480 extcon: make extcon_class a static const structure
+4d35bab0bd790aac239ead7e842ee24fefc95624 misc: c2port: core: make c2port_class a static const structure
+932b02cad8e9ed18658047bbbb6272a8c5e31736 nvdimm: make nd_class constant
+de1b347e5540241fcff0dba02149e5fc81843891 PCI: endpoint: make pci_epc_class constant
+30030fc5d4129f0e3f280a73435c91645967be12 PCI: switchtec: make switchtec_class constant
+1f2a46f821fbb6d101621e259bc70d20584d29e9 crypto: qat: make adf_ctl_class constant
 
---===============1730485922192068477==--
+--===============0293355390767489434==--
