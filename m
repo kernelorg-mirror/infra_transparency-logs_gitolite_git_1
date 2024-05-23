@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6846652157859575324=="
+Content-Type: multipart/mixed; boundary="===============4213981104204807324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 23 May 2024 06:18:32 -0000
-Message-Id: <171644511228.18400.15057961878477418400@gitolite.kernel.org>
+Date: Thu, 23 May 2024 06:18:38 -0000
+Message-Id: <171644511895.18531.2642906537360064920@gitolite.kernel.org>
 
---===============6846652157859575324==
+--===============4213981104204807324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/driver-core-6.10-rc1
-    old: 00bd8a8645561ec05c78c2ed340e88023bf38526
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/v6.9
+    old: 0000000000000000000000000000000000000000
+    new: d376cac46d30f3913ed0166151263b7d0ad7eed9
+  - ref: refs/tags/v6.9-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 02c1f8066ba946feb60e7846f8d69a2a7ccf6590
+  - ref: refs/tags/v6.9-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 74609cb690e2cd9a5e6f20a6564f415ccd0141f7
 
---===============6846652157859575324==
+--===============4213981104204807324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716445111 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716445117 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1716445111-4dd7d0d5b6ca4017049c8ed0419d4e46a52b2482
+nonce 1716445116-38181aefdc55e269ff23cd03be07db1d58dff1b8
 
-00bd8a8645561ec05c78c2ed340e88023bf38526 0000000000000000000000000000000000000000 refs/tags/driver-core-6.10-rc1
+0000000000000000000000000000000000000000 d376cac46d30f3913ed0166151263b7d0ad7eed9 refs/tags/v6.9
+0000000000000000000000000000000000000000 02c1f8066ba946feb60e7846f8d69a2a7ccf6590 refs/tags/v6.9-rc6
+0000000000000000000000000000000000000000 74609cb690e2cd9a5e6f20a6564f415ccd0141f7 refs/tags/v6.9-rc7
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZO37cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jr4QAMBGsu33dZJxxvQjnE5R
-/I3+QlIb6a0CWme1TM1lMOhGYbzt8ArNMoAfEzIYFBWV5k+I8Zpi3ZTCPKWmmrzG
-RvFSw0+9kH5BW+7FhvyRisvPd+a32UyYvbU4ohafplA041syNkfKdvsWpvt6WQSe
-ov7n/REg5ioEpryRctEzrTdej6eYJtl6bXRqkl3OV02AZdiehBy9tbp4FhuocRDh
-sdo3beoXa/8X5b/Iz1Pxy5RqVyW1r5Fcqs4q4sPd8X81FTAZYzExV+mdLaiButOz
-P/rn7FB3fwsdRJ2qhAEzCurofuEJK/KK81P5+BW4o4fCXt2fi6LpNlPVevdMZggh
-R7Umgpf3xW0gaT+2Vcf2QJot8+ZxGFlDAOtd6XhWn8a9GbX3y5jUmbBiSqXyOJOy
-1uptSBTjzeNzILHg7jbGhoQ3uFzumqE2rGnuG20ZbKpiUXBYVuHGZHnieil9MMs5
-b8Y3O5nMefI7Igq0xCVcJY6S1YTA80hElSipytA6eo8sjR7JAiE/XZ9CqfInNNr3
-H7n3RJOg/XR/y7v8v5rG1urj4xkJwO3OzB3zAelAmEVDoooFirO5ntpqDvgQJEsi
-rGKM8299+xnd3zW0ih4TB+UYbhm1RvJxGu99NRTv0si8uv/Z3Yes0rhWr4pn0E6o
-enZNOrK0uPbpRiX8Xooketh3
-=aEcI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZO370bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pWoQAMWZiZNh4G+qPwMBQdB8
+7jCF/iNmPUdoxfsCApUgD7Og7ElOnAEKhP5jBmJWPAgp+n64ix148BJogIAo36CT
+7iHCy3z+LSdeuiAQ8X3Yev2KxOvfrgS7cHPznDv+gaZRM5eRidhJLYV0/KfbF+C+
+hnx1q+fp/9OqOOt4zdSTYstDXH0P3AYeWkcx1lZiRgIXgTOV3ZqCzjPA+U2CaNtz
+uG6dES1/gzMSeIAFPUsS6i5e7y6oUXvBvXDD+ryNBUbAq7s5RBlKdMgAUUXO55CE
+dENUtYOehmpYRf1mPFY6KHb0wkmXw6Eg3ux3rsernXLyHAaOOF+WuQ+taTJoVZQD
+HVUN7qZ5Uuy6b5P2waVQm7qXFrvDuyMX/juhF4WqWa4QbQN+Mt2sAJB3K1mCeeOO
+72pHdw3AyRsURlzSgN4XW4zW8iYoHXoGdDTrUMwMr01Lk0xtf7z4iawh6dz55eSD
+KEJ9qiHR1Mu1dcc9gGEHshp1aSfo0uF/YgsUByLtortaAgBdIAh233KaJnPdNYag
+0gz6aRXc+KPAQg0bKeUNTbmobzXuL9v7MkVq5kdihPp5gvPj0AWiEn0HujcBd/9E
+LLRyg6zGe5792gcl5SQH4cI+2VrHSAgIZLl4PWhOJFngxhpbcT943ZqxTBo5TLVK
+naNnoebdqv+UMsgzHkedWh45
+=DVx3
 -----END PGP SIGNATURE-----
 
---===============6846652157859575324==--
+--===============4213981104204807324==--
