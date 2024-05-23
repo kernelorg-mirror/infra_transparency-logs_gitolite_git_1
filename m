@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1299182238672322981=="
+Content-Type: multipart/mixed; boundary="===============8938903723106526393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Thu, 23 May 2024 16:32:26 -0000
-Message-Id: <171648194605.13945.743124677032264071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 23 May 2024 16:40:47 -0000
+Message-Id: <171648244767.21414.738648890877364926@gitolite.kernel.org>
 
---===============1299182238672322981==
+--===============8938903723106526393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
   - ref: refs/heads/main
-    old: 39e4b6f5f315680ac914187b1d5526c005b8c0d8
-    new: f9601b10c21145f76c3d46c163bac39515ed2061
-    log: |
-         f9601b10c21145f76c3d46c163bac39515ed2061 Fix usage of poll.h header
-         
+    old: e4a87abf588536d1cdfb128595e6e680af5cf3ed
+    new: c71e3a5cffd5309d7f84444df03d5b72600cc417
+    log: revlist-e4a87abf5885-c71e3a5cffd5.txt
+  - ref: refs/tags/net-6.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: b413f4b4e1f9da8891423a90757741b393e318f8
 
---===============1299182238672322981==
+--===============8938903723106526393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e4a87abf5885-c71e3a5cffd5.txt
 
-certificate version 0.1
-pusher Stephen Hemminger <stephen@networkplumber.org> 1716481945 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
-nonce 1716481945-031b1e6860d6526b683d13f7f9fdea38e599ae5a
+eabb8a9be1e4a12f3bf37ceb7411083e3775672d Revert "r8169: don't try to disable interrupts if NAPI is, scheduled already"
+9841991a446c87f90f66f4b9fee6fe934c1336a2 af_unix: Update unix_sk(sk)->oob_skb under sk_receive_queue lock.
+efb9f4f19f8e37fde43dfecebc80292d179f56c6 ipv6: sr: fix memleak in seg6_hmac_init_algo
+ea63ac14292564eefc7dffe868ed354ff9ed6f4b selftests/net: use tc rule to filter the na packet
+3ebc46ca8675de6378e3f8f40768e180bb8afa66 tcp: Fix shift-out-of-bounds in dctcp_update_alpha().
+041933a1ec7b4173a8e638cae4f8e394331d7e54 af_unix: Fix garbage collection of embryos carrying OOB with SCM_RIGHTS
+e060e433e51246d970c5a8aa1c5ccd9ecc7ba4bf selftest: af_unix: Make SCM_RIGHTS into OOB data.
+580acf6cd807921bc0e9657c5aa02d2360bb5b63 Merge branch 'af_unix-fix-gc-and-improve-selftest'
+30a92c9e3d6b073932762bef2ac66f4ee784c657 openvswitch: Set the skbuff pkt_type for proper pmtud support.
+eda40be3a5ff3fdce513d2bcfeaca8cc16cf962a net: lan966x: Remove ptp traps in case the ptp is not enabled.
+9c91c7fadb1771dcc2815c5271d14566366d05c5 net: mana: Fix the extra HZ in mana_hwc_send_request
+a61a459f58221f09810d6f60c657dda7add739fa testing: net-drv: use stats64 for testing
+b35b1c0b4e166a427395deaf61e3140495dfcb89 Revert "ixgbe: Manual AN-37 for troublesome link partners for X550 SFI"
+3b1c92f8e5371700fada307cc8fd2c51fa7bc8c1 net: fec: avoid lock evasion when reading pps_enable
+91e61dd7a0af660408e87372d8330ceb218be302 tls: fix missing memory barrier in tls_init
+b31c7e78086127a7fcaa761e8d336ee855a920c6 net: ti: icssg_prueth: Fix NULL pointer dereference in prueth_probe()
+378979e94e953c2070acb4f0e0c98d29260bd09d tcp: remove 64 KByte limit for initial tp->rcv_wnd value
+26afda78cda3da974fd4c287962c169e9462c495 net: relax socket state check at accept time.
+6671e352497ca4bb07a96c48e03907065ff77d8a nfc: nci: Fix handling of zero-length payload packets in nci_rx_work()
+05d6f442f31f901d27dbc64fd504a8ec7d5013de ice: Interpret .set_channels() input differently
+5e7695e0219bf6acb96081af3ba0ca08b1829656 idpf: Interpret .set_channels() input differently
+3d8597d8d7d9b3faffe0f2361032123ee6c09c02 Merge branch 'intel-interpret-set_channels-input-differently'
+c71e3a5cffd5309d7f84444df03d5b72600cc417 r8169: Fix possible ring buffer corruption on fragmented Tx packets.
 
-39e4b6f5f315680ac914187b1d5526c005b8c0d8 f9601b10c21145f76c3d46c163bac39515ed2061 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmZPb5kbHHN0ZXBoZW5A
-bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+l90P+waKc7Hmxzzff2Mxyc+i
-WrkXgxeIw6bHwBzkNgFJ0nPMZX+gfTIq2GsWXvAiyQ+hiMw2F/5+dDz3gNu5PGvv
-lZJdH8YNFSF5IGt6SyzFtsQCQvvBm+DYORYczisYyxf/2E4o0m8eThGosrRY3w6A
-F6A3YPO7KzzDArfDpoRDn5lU2BUhPoCn2xzDzNgaruN5SoQsIS/9c+sHpZmTgiRI
-669sEz8RBurruIbfNE4jNRAmHFa2yIbxuL4m29+igmEiNKtE8l2mw7sIF+jZgaJ4
-hGNFae7fyylyTvhyLokj/l/fIgTtUdoJKcyVjT9e/L5F4S0pqiPp3aZ+frPFkSnv
-5Udh9g3uCrmhvg2OSvC8ppuiEA3a5kvIh92XAayEKILT49N6m+vapO7X8WXmzJAl
-+iseRIG6vujZZHya+CbzwXDc3DS4RKBdPVElrY1+ihNuGuhXlXYI/Usjpc+wb/pX
-bkYSrFsAmwXiyWpAHeUDmjwK8RG5i0aPR8L3HxHuO1bqSoVzTx++OtAvEdRJr789
-h9uCr2CLfve6djgeUzkTc4/cSL9SqVend1PC1B4SYSeUH0Vk2uN6/5yBEQh1ilN3
-sba5ahCJYcyraE2BHRxPNuAnPFCpOVL3a4V49CgMpidfZvt/pYq4OAzbBWFaBhyy
-fxOW40JjC2iDp0n7UGLUkI46
-=4WSg
------END PGP SIGNATURE-----
-
---===============1299182238672322981==--
+--===============8938903723106526393==--
