@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2019362434414984641=="
+Content-Type: multipart/mixed; boundary="===============9120401541737708581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 23 May 2024 06:18:52 -0000
-Message-Id: <171644513253.18752.16912117480464715186@gitolite.kernel.org>
+Date: Thu, 23 May 2024 06:18:59 -0000
+Message-Id: <171644513956.18848.2367828802915455503@gitolite.kernel.org>
 
---===============2019362434414984641==
+--===============9120401541737708581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: ed30a4a51bb196781c8058073ea720133a65596f
+  - ref: refs/heads/driver-core-next
+    old: 880a746fa3ea5916a012fa320fdfbcd3f331bea3
     new: c760b3725e52403dc1b28644fb09c47a83cacea6
-    log: revlist-ed30a4a51bb1-c760b3725e52.txt
+    log: revlist-880a746fa3ea-c760b3725e52.txt
 
---===============2019362434414984641==
+--===============9120401541737708581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716445131 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716445138 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1716445131-adb241539e295969b0011a6d7ab7cad32e37c5f3
+nonce 1716445136-fb94315009709e483a6a133717838056529ed8d1
 
-ed30a4a51bb196781c8058073ea720133a65596f c760b3725e52403dc1b28644fb09c47a83cacea6 refs/heads/driver-core-linus
+880a746fa3ea5916a012fa320fdfbcd3f331bea3 c760b3725e52403dc1b28644fb09c47a83cacea6 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZO38sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XhsP/jpx9g84Wd3XZTfk2Wtt
-1Q4IJ4SN4Euls4bOWmLZmfBAxlTYVmsQg1wJQl+VAqS+1qGNhIgksQNn+yEHGUMQ
-JRMjeNeS8x+lg2GwcpUZLKEqUGUFLHIt7qHPZHkqIbGS2lOOBYAdGBhc80jJyKXR
-ebbfkWsxAveJY2qznof/MSWI7ifIZ5XT3HB61lk5sh4HpSl2+nh5pWvdLeW8D2DY
-Uae42vRqbtuuWKZSmAHkVC/HcvdpEUGuutH61Sf1bwhFMMxXuPezOKGMfwMoe50y
-bSPl+CnJ0NMV9sleuGELoVxWNtnXmZ5rUB5x3NeywUD2VZLPMv5iQJdwyLsTEoyt
-B9D5/GDEhQLGCHJOYufxUG31bhpWH1MAaARstzvResAOT4AUXirufDkx1uKyjeM2
-nLsyPBwUX3Q1B1wSA+hB/pfQ8a5q32EOWhsXSnBPi+ucWzqCm4PF6HYegTiJ+zrv
-IukgyY1bwqhZLJdO/t3IUxO4ldXyR7rXZiMtyITezNnQfJfYpChFYBKzaKKwNhOj
-3q75OqNXW+3kmx0Dqf9cwAQ816vDgQPhbakYCqtxG4tjBZEAKZDcGwxxjplMNPIC
-nMhnxvd6CI74aENnrp4u8ypPGXHqx5YbueNBL6/2IyLyFhss+JhTIKJmY7EPV6LJ
-AZ69sefVPROtShKaSg0vTYfm
-=iAoO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZO39IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cWQP/R0jaVl5QY78RiuDCttU
+h+2I7pSwP3z6+tvvSUhzaBW2N0jBidSoAw0thLmFEUBCchlbQP/eXtlvY4v0xYBB
+nKLkqU0JoBroO/+LP55Dl0m8C4OFJRnZTXvDo7ed3DXLV0iAlwipbsyRD+ng17bH
+6WKsOJRsMwYzjqPrfpD3PtEsmBi8D8X0jOAbwTFS2QpnFpsS4YD0gL5YmeJ7BnKr
+DgHUgIpY58k5Pnr759DsAGFSCLHRZ2mBm5iMk+gZJrsaxGwPELZBUHGFfvKaL5uh
+H0H2jMQbDeXYw1qmB6+BWUaayuHrlBLRMSd9j7vyJqYxDqPpi4J2J1YS9nRQ70eh
+kU+PiJ69Wp4BzTU+M+3GfS3aatk7PVA9FyMa4Dqrl7joRLrK8GdfRnjQtxWkhfdC
+G9XAOhp+y307gzWWtFZ1iwr4djIOblaqubFFFD6ZBTD2Y47a1A4ymkJB1yJSrgIU
+vI5+wt+KfGAatKnqyX2+2SXHeA33mTJ1t9jXYqykuI0Mxqb2dBrrfdV0DN2HfY0v
+RI6G7JrKU+HPHexB7Ct0lVgXFLea52b5dGtlSeFVw9Kjw7RjXLwXpQKTA0hGE0QL
+uig6pstNbFr6Kl+HFNCQKZUJ106y5r6YrX+h2aMEEV7ToYkrcMFyOgWTfQnygFcI
+ykJY+0yi/TrQJDTL2jvDLkAn
+=/cev
 -----END PGP SIGNATURE-----
 
---===============2019362434414984641==
+--===============9120401541737708581==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ed30a4a51bb1-c760b3725e52.txt
+Content-Disposition: attachment; filename=revlist-880a746fa3ea-c760b3725e52.txt
 
 78d5cc15fb7d1b2683f0baf418a9a870c02319fb powerpc/pseries/fadump: add support for multiple boot memory regions
 683eab94da75bcf55a9c65e0c31d0529edebe86d powerpc/fadump: setup additional parameters for dump capture kernel
@@ -1082,4 +1082,4 @@ de7e71ef8bed222dd144d8878091ecb6d5dfd208 mm: simplify and improve print_vma_addr
 5c6f4d68e2aca67e425b7227369ec9fde8adfb6d Merge tag 'mm-stable-2024-05-22-17-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 c760b3725e52403dc1b28644fb09c47a83cacea6 Merge tag 'mm-nonmm-stable-2024-05-22-17-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============2019362434414984641==--
+--===============9120401541737708581==--
