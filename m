@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1809100097141433398=="
+Content-Type: multipart/mixed; boundary="===============2204867259931760420=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 23 May 2024 13:03:34 -0000
-Message-Id: <171646941437.20609.561391525960534759@gitolite.kernel.org>
+Date: Thu, 23 May 2024 13:03:35 -0000
+Message-Id: <171646941557.20726.11808353412937782799@gitolite.kernel.org>
 
---===============1809100097141433398==
+--===============2204867259931760420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,72 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.8.y
-    old: 32c4e507b5b1da3b94b997c843cd08a405216c6e
-    new: 4d4c8ffe74c426e74b694dfb7f79b91c48ca63c5
-    log: revlist-32c4e507b5b1-4d4c8ffe74c4.txt
+  - ref: refs/heads/linux-6.9.y
+    old: 352bf4fac630ae09a2ec7669f17d1f2f1c4514fc
+    new: 6a8a28e45f4bdbd0d1cecaa69d0744dc43d90e8d
+    log: revlist-352bf4fac630-6a8a28e45f4b.txt
 
---===============1809100097141433398==
+--===============2204867259931760420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716469412 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716469413 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1716469411-629b3e7008ee7ee52c8c6b8e3b2c69781af91018
+nonce 1716469412-83944d7a1fea494cb485aaac03be552bc79fca5b
 
-32c4e507b5b1da3b94b997c843cd08a405216c6e 4d4c8ffe74c426e74b694dfb7f79b91c48ca63c5 refs/heads/linux-6.8.y
+352bf4fac630ae09a2ec7669f17d1f2f1c4514fc 6a8a28e45f4bdbd0d1cecaa69d0744dc43d90e8d refs/heads/linux-6.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZPPqQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vnYQANZBXM4VjMWk3s/lvlRT
-lZNQ6oQqtVVA63fPfd7FPXCW3XlFgH2niIzRNynJsMzsiofgSGUZIwVyhyKjZLQC
-2Hj2ha19sWu+oxBvETNjoFnyfAIp1UHRUuIDH9SqB1x2qBfzMRezm4UdH9uw6obH
-Eqf/MeFf2Pzr+/yPJR+tFgrV2Bb/1evModMMoERwIAnGMTws8TqTqIZ7fiRkflq3
-vEaW6DXze5C8NRsR+XLJcuG1XRB50t9bXZeCBIUdy0my5O2K2C5DzBYwGbFKffXc
-n34dvajtvlzkUHfCqIg/OHatpPsiaM2nFt29IU+KYlPKT9Ixr1u9waf8/KIbRpkZ
-+m6OolLEf3oaIdprqpVRcrp6Sp+xk4j8BL1xRYEMSTiT49wW7JKLrZMsSPdzBr0P
-2ivqxcweMxgDY07gjO+FVOd4wYd0tP4VaTkjrbQS/cqrLS9pHIonsHZRdzUlrMLc
-QmgiNI5z/PTdpCucbKw/2OTVeiT7x0Aq6oONeGmL51M7B7ahKI1jkoJr7ydYb50s
-VcnIty3ogudI8qIccIOnSsbXjUmSJj7xDOQ1/0/479xmCTi7mN9aWx/V4Ou8BIA2
-ZE1VDxYLtC96Ltvv8AE4NgHWrtG7IqxBqHW/XkNPKR+IMsMYLRjy/pOcpUXdt+FM
-mHEwzLUf+0vnq/xM+CoVm8sx
-=bY+2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZPPqUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KOUQALU00rYhUL5UuJp9utjb
+I3E1cW+lmNwC6QRJvkmnrgfNw6fqEeiXmnHGQhgvYncOQhyyxVLsZrxUYVlTntGi
+4WWIUazob+1Laox7w77mc+6+i5CamhINLK9Uc4y+gQNc41ezZQ3hxYhe6WsF2u1I
+kcZrWWS1RpgWwxG3c5DDgHaxj+TWlp2Y9i6mQIizP8Sc1gnZHAJIWGPia+1BnoOp
+g99n2PvvwWCbyV/CQ5jUoC2Ij/2W13gUnFvvQh7sqCQfUOpeSGHnafxit/3MBJLb
+QQY+/Iu/2vTJCi0jhqci8nHZ+Nt0pcvRdodsC8PaP9s7a2Qo+/bgsO/fXWFZue1B
+vWu5BEXZfF8P9CsoHG+TkLKUulBW6f0PwaAjKcv7EapRc5lv1l8M9AOXvMVsyS9x
+YNz7amVkgn3QD8ud61Fyl1Dy84l8WzrUf3frZPwaOsXLq11E0UrYQoMec3K0RI7R
+/7lMHM3igBqVRwjpiDcXc7pC/CL2eOcpSiXUlcbK4AMzxVX09YQoyuD3ax68SGvn
+R+SIJOmalP7fJBABjxdq8HHKohsS5eCYoPT/gJCNbDE9yY40t81ljItZ6jhk4KEX
+vn4LZ8aYsDjE8PUDH1oA+dLBHMoVt58nhL+wAAloHLxA4+JSz/z369LV/1LCwTEj
+7wiTe0MntI9twZTOCwndyS9P
+=3YM4
 -----END PGP SIGNATURE-----
 
---===============1809100097141433398==
+--===============2204867259931760420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32c4e507b5b1-4d4c8ffe74c4.txt
+Content-Disposition: attachment; filename=revlist-352bf4fac630-6a8a28e45f4b.txt
 
-ed0d7dd70741ac251651930fffa150cb116235f6 drm/amd/display: Fix division by zero in setup_dsc_config
-6b92256d2373c9078b6148aec1dffc6ffa6d7c35 net: ks8851: Fix another TX stall caused by wrong ISR flag handling
-9ce83d672b2efc54cc9c78504d94dd7f69a72999 ice: pass VSI pointer into ice_vc_isvalid_q_id
-a476b8993fd98befc3637078c4ddb0992f47bcc6 ice: remove unnecessary duplicate checks for VF VSI ID
-ab7edbb5cc4ed4ef83fff78faa66e0bea2af9909 Bluetooth: L2CAP: Fix slab-use-after-free in l2cap_connect()
-97836273c03b98a7d122d6d9a3c55a6fac3a3010 Bluetooth: L2CAP: Fix div-by-zero in l2cap_le_flowctl_init()
-0ad0f3f71c32243773bc1f9182ad3d45053c8c61 KEYS: trusted: Fix memory leak in tpm2_key_encode()
-2e342c0286479c1f7503191f5f9a4f320ecd578a erofs: get rid of erofs_fs_context
-702b131dcaeb207dd8dce7e262ffcb3db6c61459 erofs: reliably distinguish block based and fscache mode
-7964bf7cfe853d079c3fa8d8d09dc403774144b1 binder: fix max_thread type inconsistency
-c53c5062ed832637530dfb16e50f46bffac91758 usb: dwc3: Wait unconditionally after issuing EndXfer command
-c125cac8ddfe07bfeefd7fbefbeeba5802df51ec net: usb: ax88179_178a: fix link status when link is set to down/up
-e165109daff5922db5dc5698509b11ad0a25d754 usb: typec: ucsi: displayport: Fix potential deadlock
-c3e301a9e87e04b56dd4c6f70aa0cafff9b6b7c2 usb: typec: tipd: fix event checking for tps25750
-106698fabadf81f0230a85a701959746200b321d usb: typec: tipd: fix event checking for tps6598x
-37b2704d513a0102c30b8350fa79a9d9967778c8 serial: kgdboc: Fix NMI-safety problems from keyboard reset code
-2e5e21a81e32acb4c24c81bbe0c7a6725cfbe804 remoteproc: mediatek: Make sure IPI buffer fits in L2TCM
-560bf59ca8fccbb41e5b9eeedfd81f7174a706b3 KEYS: trusted: Do not use WARN when encode fails
-786feca63a3289989e29e4ed8af42cbb02b8ee01 admin-guide/hw-vuln/core-scheduling: fix return type of PR_SCHED_CORE_GET
-b66984e15f1560f3ac6007c70cc8d185d29153b8 docs: kernel_include.py: Cope with docutils 0.21
-21dd652b509edc4f4aff85078ad8d7661314fb29 Docs/admin-guide/mm/damon/usage: fix wrong example of DAMOS filter matching sysfs file
-8072414e723fd384b545fd79fcd661cf6113a3bb block: add a disk_has_partscan helper
-9bf7785c6c9cdd9d25d1734b05630e6bdd79cf93 block: add a partscan sysfs attribute for disks
-4d4c8ffe74c426e74b694dfb7f79b91c48ca63c5 Linux 6.8.11-rc1
+7b9ce4df197614d8afb85640de1c1b3bd479aca5 Bluetooth: btusb: Fix the patch for MT7920 the affected to MT7921
+bdd18c0a16902eeb37337f902206bb96393e53be wifi: iwlwifi: Use request_module_nowait
+16048e3a7d2538dce90d080a6d0428a13f63bb3b cpufreq: amd-pstate: fix the highest frequency issue which limits performance
+79e1e0216d4a0333d168512ca27d1ea75eb86566 drm/amd/display: Fix division by zero in setup_dsc_config
+afcbaefbe93968d7d74142a2f0d03def24f9b2c5 net: ks8851: Fix another TX stall caused by wrong ISR flag handling
+28ad169304c94d0eaae96d2134df21a1dceca866 x86/percpu: Use __force to cast from __percpu address space
+3484c546f950b3893dcd8c1100c42686c461f2c3 Bluetooth: L2CAP: Fix div-by-zero in l2cap_le_flowctl_init()
+130d61ce148c1a42e1b2283ae7b361d9b6466755 KEYS: trusted: Fix memory leak in tpm2_key_encode()
+312c31a4df2656b4579b41ffb5fb8f49f14cc3d3 ASoC: Intel: sof_sdw: use generic rtd_init function for Realtek SDW DMICs
+6a0d7aa66bedf06c0b2d38e25761efadbe417f38 binder: fix max_thread type inconsistency
+656a11dc91298bcd5fd40a1e8e1541d885ce0fd3 usb: dwc3: Wait unconditionally after issuing EndXfer command
+579608156885a4f611883cfdb41ef4c55b16fb7b net: usb: ax88179_178a: fix link status when link is set to down/up
+e8ca21fd9e42b36ae84e0696cbec98b05078a591 usb: typec: ucsi: displayport: Fix potential deadlock
+c991006bc6c02dad90d4ffc20cafe36ea2c53b57 usb: typec: tipd: fix event checking for tps25750
+079aa86d9af456c320e3daa48dd8b5dfa1397f4b usb: typec: tipd: fix event checking for tps6598x
+800bb7636536e582e4b108785a17f73daa14db0a serial: kgdboc: Fix NMI-safety problems from keyboard reset code
+e2e4fb364444bf53f4a64eff105f6333f12c8f19 remoteproc: mediatek: Make sure IPI buffer fits in L2TCM
+c71e59c050068b3bedee91bc8fc74ba6c6769683 Revert "media: v4l2-ctrls: show all owned controls in log_status"
+227d0b960cd41ccb6c07ab134a943b530f6192bc KEYS: trusted: Do not use WARN when encode fails
+163b9906610897dabd98c277ff34cba8a638795e admin-guide/hw-vuln/core-scheduling: fix return type of PR_SCHED_CORE_GET
+e0b0a8fc682cd839934d78150811af9687d35b5c docs: kernel_include.py: Cope with docutils 0.21
+ba06aecba51c98a044f4a693ba801c3f72f21c59 Docs/admin-guide/mm/damon/usage: fix wrong example of DAMOS filter matching sysfs file
+1220aae5007c94d5ab650977eba40acd81830c27 Docs/admin-guide/mm/damon/usage: fix wrong schemes effective quota update command
+22f19b84b7d5b9131ed518d4b36ecb7e6edad6c2 block: add a disk_has_partscan helper
+4d1959e7392cca0fd3558e0170af1aa057af453c block: add a partscan sysfs attribute for disks
+6a8a28e45f4bdbd0d1cecaa69d0744dc43d90e8d Linux 6.9.2-rc1
 
---===============1809100097141433398==--
+--===============2204867259931760420==--
