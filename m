@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4935214115833188556=="
+Content-Type: multipart/mixed; boundary="===============5432540012337337030=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 23 May 2024 06:44:42 -0000
-Message-Id: <171644668253.18842.12103060009069914059@gitolite.kernel.org>
+Date: Thu, 23 May 2024 06:44:56 -0000
+Message-Id: <171644669637.18985.6128498669783641026@gitolite.kernel.org>
 
---===============4935214115833188556==
+--===============5432540012337337030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: dd5a440a31fae6e459c0d6271dddd62825505361
+  - ref: refs/heads/char-misc-next
+    old: f5b335dc025cfee90957efa90dc72fada0d5abb4
     new: c760b3725e52403dc1b28644fb09c47a83cacea6
-    log: revlist-dd5a440a31fa-c760b3725e52.txt
+    log: revlist-f5b335dc025c-c760b3725e52.txt
 
---===============4935214115833188556==
+--===============5432540012337337030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716446680 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716446695 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1716446679-bb20b09a3a86d40f517038a7792ada969425452b
+nonce 1716446693-bcab0945234c2814ee9979c23c17b86af32c67c6
 
-dd5a440a31fae6e459c0d6271dddd62825505361 c760b3725e52403dc1b28644fb09c47a83cacea6 refs/heads/main
+f5b335dc025cfee90957efa90dc72fada0d5abb4 c760b3725e52403dc1b28644fb09c47a83cacea6 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZO5dgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JxMP+gI6H0vYmW6dA7AknT4o
-92fHg45XHCHldn5VaX2CY2QGkrlBNrviSHW9K1sbFola2okCiHrmsZKh+HSjLiHd
-MiGUInhGKmtWGu8DQmsDFgw8ifjtdDwUwXYPcp7ufbLAM25udEfLSaGBqYs6bzRV
-XtZ9Az1ZW00wzthDm7k5NfzzRVPFKHCV8IF7ovDM57kSP+EPKRhEE9C1o6HGNnwM
-TtFigg3Wsq88Fe6zUzK6mub1lEhdJ8A72gKig0HFU0seWXXPLA/OiF1Eqcd84jIA
-WnZv49QBzwerPNiXELJ5a6qTW8UIeSXjKyUdBems6kYxDUjZM5WAA/T7mPUqH1HD
-Ss+DYH2SoW3ZJknAwuJO6WFDxmchQ217/plavxDyFrCLLY1mUYPOSFM5AcuI/EFR
-wpCRWQkVfc+fB/onhOtJcHPzJ8K31KhoiAJeddY9NHTWbS5WwCUEI3EqDgAilwQ5
-1J9bg8g6mwyJOxPVFA6razoTC3HGjnLmyom4tOv8YvPEt5Wh85IRpNSJF5AMj+kd
-h9sJOPEIATov70ZzFwGHxcKJAeAUtm+jlJqQXebhv1zF5vtm9G5EQavBhw3l6KQ5
-6Cv+nw+CQTkfi2ZnWA3FBdTRotaRMGrc4ZKrIUnomrNSF/lF43MoxdG4xMONNJ3V
-lMTvvoOAgohLiU3ken6ZiM/L
-=6Q59
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZO5ecbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6xoQAKjyOkhJrNcx/xqiJN9V
+ewfAnunfzFl2ZEqPzKBkoKoesD/LqUxhxCiRzwDmKlJZNQyCDW4hvpe/6L4aEP6h
+8CpW1xgGErUnXaB/lZVPOgNp8p1uyAmSF4+cs+hwViWi1MZVCyAomGpbQjaMs8kF
+l02u/jalxJvD/X9odOVipBai6WHH4F0oucfEJeTiJpodPlUPAuTGOkuO4mUjMMgM
+b953dVs6yIDuMtauL4wFMPFOe/TrHw2thdia4e4CJA9MpmO6vi4JQz8ha7yWYWwM
+g0VWnb2bMYJt6HqYn2o8CcD9nRrbO0TncPFPSf3vsJ8UF0tEh4G1Mp+4YLtPuVj7
+x9g1GFBMD+WKci+pcvmTkg9tByVQ0o8D6V6NF67BG5Jxh2NebQ9Y60CR57/1p2Y8
+eQXYArbz3uvk+PuZ4AOvP4t1eeogROiEaz+7k+fFaXI6IOvIBrHePnMjzCQW1H6i
+fGvfwbqhqRSpRWpcJFV9A8V5iUW+ar+IUXEYBL94Jowleu9f+rs6N2R7XSZr8JbB
+l1XJ04pv6wJpsMPv9eK+RJ1micDQt9blloJwMwUatzfo2kMQ9pJKFnDASA7bDu7R
+UV4TY7DVram66gwnBZWBl3hEml1yK+POOKT8DB+6JW/OBpM5eXshcLJGuD6X4eeL
+o9DJLunce9U/yzfRWh0pORey
+=Rw6K
 -----END PGP SIGNATURE-----
 
---===============4935214115833188556==
+--===============5432540012337337030==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-dd5a440a31fa-c760b3725e52.txt
+Content-Disposition: attachment; filename=revlist-f5b335dc025c-c760b3725e52.txt
 
+c62b758bae6af16fee94f556091fa74883a96b1e fcntl: add F_DUPFD_QUERY fcntl()
 78d5cc15fb7d1b2683f0baf418a9a870c02319fb powerpc/pseries/fadump: add support for multiple boot memory regions
 683eab94da75bcf55a9c65e0c31d0529edebe86d powerpc/fadump: setup additional parameters for dump capture kernel
 3416c9daa6b13c0e2a656d4e2dee8de95f9a38cf powerpc/fadump: pass additional parameters when fadump is active
@@ -777,7 +778,6 @@ d3fa4be9033b7b042b3ee9f5e1fc5c44735716b4 dt-bindings: PCI: mediatek,mt7621-pcie:
 c037263db4ce4b63b7f56732a46da257ae27c00d dt-bindings: PCI: rcar-gen4-pci-ep: Add R-Car V4H compatible
 d4a599910193b85f76c100e30d8551c8794f8c2a parisc: Define HAVE_ARCH_HUGETLB_UNMAPPED_AREA
 4cd4e4b88100a33d96ec4f83bdb0e4e754e24c97 Merge tag 'lsm-pr-20240513' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-f5b335dc025cfee90957efa90dc72fada0d5abb4 misc: ntsync: mark driver as "broken" to prevent from building
 ccae19c6239ae810242d2edc03b02bdcc12fc5ab Merge tag 'selinux-pr-20240513' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 353ad6c0839431146fdee3ff16f9dd17a2809ee4 Merge tag 'integrity-v6.10' of ssh://ra.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
 46c6d2b186915176be5acc5d4b6f9793eb32a0c7 Merge tag 'asymmetric-keys-next-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
@@ -1082,4 +1082,4 @@ de7e71ef8bed222dd144d8878091ecb6d5dfd208 mm: simplify and improve print_vma_addr
 5c6f4d68e2aca67e425b7227369ec9fde8adfb6d Merge tag 'mm-stable-2024-05-22-17-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 c760b3725e52403dc1b28644fb09c47a83cacea6 Merge tag 'mm-nonmm-stable-2024-05-22-17-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============4935214115833188556==--
+--===============5432540012337337030==--
