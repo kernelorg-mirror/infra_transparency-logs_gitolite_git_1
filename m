@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============9058323031381014007=="
+Content-Type: multipart/mixed; boundary="===============5986458930452930852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 23 May 2024 15:51:15 -0000
-Message-Id: <171647947550.16970.4528375091001057028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 23 May 2024 15:51:21 -0000
+Message-Id: <171647948163.17117.6477477556600965111@gitolite.kernel.org>
 
---===============9058323031381014007==
+--===============5986458930452930852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/spi-6.10
     old: d6e7ffd4820f8894eb865890c96852085d3640e1
     new: 3aac9f4885922ad0fc01b86f85903768219475a3
     log: |
@@ -31,28 +31,28 @@ changes:
          3aac9f4885922ad0fc01b86f85903768219475a3 soi: Don't call DMA sync API when not needed
          
 
---===============9058323031381014007==
+--===============5986458930452930852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1716479474 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1716479473-cbec8401956219a8468c3803794dd677411cdf4f
+pusher C3F436CA30F5D8EB 1716479480 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1716479479-c507d27f89adb6bd288d61a0e230947b3c1fa237
 
-d6e7ffd4820f8894eb865890c96852085d3640e1 3aac9f4885922ad0fc01b86f85903768219475a3 refs/heads/for-6.10
+d6e7ffd4820f8894eb865890c96852085d3640e1 3aac9f4885922ad0fc01b86f85903768219475a3 refs/heads/spi-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZPZfIACgkQJNaLcl1U
-h9C+Kwf9HEZ2C6LC/ZJamGE2r439vPxnviR48/xihXBFdGR8bYAzy283pr4hHvCU
-rii4pPZE5d+oB0IggFXhteTqabauzsQn+fghA2hL+X2823XWL9XYCB1l2iNyiDMc
-4AOn8crWJ5B3pAazIEZtMVFW867ae5A9Ns1WlIGCMbnQCk3yMkdEb7BSPn939ZPa
-CVdmIEcmKGkfiVO7kb1qP0FEHO5QKeALaSslNB2ZZNusj+LzaKLpeE56fQ8MmIQ2
-eJe4dcUZNsWDOaRSGER5mKpYV1ierlcAWvxPXxfCsPqotFQhTMsksvNhcmh6hYMt
-VstwTnsLWk4mnMTA24GtwPCMzaXdRQ==
-=QYNG
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZPZfgACgkQJNaLcl1U
+h9D9mAf/b2c71KK9UtrPN4uLELxRyydDk4RBvO36d4qs2h3r4CIkaa4jjMNpZE9S
+AnTg4OOQ79ozytfISWnYcGcMsE45i0Y8j8bTHvlTQXJiBf/GJX2of/E4t2qyXXBx
+HT34/sygDTuk7qR+FyPcJD2q/Rn8qeGe4BDyBnytkQuEfJEUm/l4e0WyVWQ0xZJM
+jxM1NFomYRMrDsbXKuYwEW9ZySh9yGge1MSvWeCd19N8OXRySq8gVXGrUm+AyjvV
+xN4zpg6AF+8doa5TmzBGSbsJ31lig2kz54PUoirGXCFzge1TZNa+at1HIPppLIud
+vByTX4bL+kG2AsHFAV5LNvCx/bcE1Q==
+=ddoL
 -----END PGP SIGNATURE-----
 
---===============9058323031381014007==--
+--===============5986458930452930852==--
