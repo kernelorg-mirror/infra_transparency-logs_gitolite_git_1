@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Thu, 23 May 2024 11:25:43 -0000
-Message-Id: <171646354311.11978.736449549680426701@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 23 May 2024 11:35:55 -0000
+Message-Id: <171646415551.18749.13284665725199254020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/renesas/gpio-logic-analyzer-v9-experimental
-    old: df82e868a98fea6bfde4c5c26b3ea8ef2083b65a
-    new: 7c371f5ea95ac386f221aef95498d257414bcff5
-    log: |
-         cef5c45f3a7f14e325d1e71b1f2f6fb872882961 gpiola: updates to v9
-         7c371f5ea95ac386f221aef95498d257414bcff5 WIP SI vals
-         
+  - ref: refs/heads/20240522_andriy_shevchenko_soi_don_t_call_dma_sync_api_when_not_needed
+    old: 0000000000000000000000000000000000000000
+    new: da560097c05612f8d360f86528f6213629b9c395
+  - ref: refs/heads/fileKFodil
+    old: 0000000000000000000000000000000000000000
+    new: a827ad9b3c2fc243e058595533f91ce41a312527
