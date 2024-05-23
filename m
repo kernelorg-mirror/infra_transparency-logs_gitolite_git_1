@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Thu, 23 May 2024 10:41:50 -0000
-Message-Id: <171646091054.13411.2387044927972569731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Thu, 23 May 2024 10:51:30 -0000
+Message-Id: <171646149084.2821.13753200739548819032@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/heads/linux-next
-    old: 89af61fb8f0f96646e1462246a825c1268ba70ba
-    new: a3607581cd49c17128a486a526a36a97bafcb2bb
+  - ref: refs/heads/main
+    old: c7790592bb7d050a990a9accb50de8f584879169
+    new: 50b100768a115526f5029113af957658ef76b383
     log: |
-         a3607581cd49c17128a486a526a36a97bafcb2bb drivers/xen: Improve the late XenStore init protocol
+         49145d4f574b21a6c0612ce691f255732cb91832 mdadm: super-intel remove dead code
+         5c30864146412fcdfdcfddcdd94c5c449d9ddbed mdadm: super-intel fix bad shift
+         50b100768a115526f5029113af957658ef76b383 mdadm: deprecate bitmap custom file
          
