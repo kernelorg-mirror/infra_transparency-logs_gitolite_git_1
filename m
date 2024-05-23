@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 23 May 2024 15:22:31 -0000
-Message-Id: <171647775132.27599.14670671600878283543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Thu, 23 May 2024 15:26:36 -0000
+Message-Id: <171647799655.30735.4641289719265417326@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
   - ref: refs/heads/for-next
-    old: 46cad6cd9b10ab14acf20e0779998f88c6e44c4f
-    new: 6ca445d8af0ed5950ebf899415fd6bfcd7d9d7a3
+    old: ee30ad132426192e41201aebbcc28ddc8358377b
+    new: cedc03d697ff255dd5b600146521434e2e921815
     log: |
-         6ca445d8af0ed5950ebf899415fd6bfcd7d9d7a3 riscv: Fix early ftrace nop patching
+         0ead1c8e8e48de3f650a74707ac4d3572d8ce07b dm: retain stacked max_sectors when setting queue_limits
+         cedc03d697ff255dd5b600146521434e2e921815 block: fix blk_validate_limits() to properly handle stacked devices
          
