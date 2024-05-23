@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 23 May 2024 14:24:30 -0000
-Message-Id: <171647427005.16282.836932145012809757@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 23 May 2024 14:27:05 -0000
+Message-Id: <171647442598.18903.4186233095300449006@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/tags/sound-fix-6.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 4275c8c67ba2657aada2ce1cb7de8ad56ff6b895
+  - ref: refs/heads/for-next
+    old: c6c901b7d9833514eccbc39572e55c7d81397a3c
+    new: 46cad6cd9b10ab14acf20e0779998f88c6e44c4f
+    log: |
+         46cad6cd9b10ab14acf20e0779998f88c6e44c4f irqchip: riscv-imsic: Fixup riscv_ipi_set_virq_range() conflict
+         
