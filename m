@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 23 May 2024 11:48:23 -0000
-Message-Id: <171646490331.28673.14734657759755582815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 23 May 2024 11:48:48 -0000
+Message-Id: <171646492869.28912.16869644155597605588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/tags/regulator-fix-v6.10-merge-window
-    old: 0000000000000000000000000000000000000000
-    new: b3a63e356cbae85da2d5080029d0e0e274a6256e
+  - ref: refs/heads/for-next
+    old: c6c901b7d9833514eccbc39572e55c7d81397a3c
+    new: 46cad6cd9b10ab14acf20e0779998f88c6e44c4f
+    log: |
+         46cad6cd9b10ab14acf20e0779998f88c6e44c4f irqchip: riscv-imsic: Fixup riscv_ipi_set_virq_range() conflict
+         
