@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4305116642155739072=="
+Content-Type: multipart/mixed; boundary="===============2343730884605634148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 23 May 2024 21:35:21 -0000
-Message-Id: <171650012162.12126.8984668217222104749@gitolite.kernel.org>
+Date: Thu, 23 May 2024 21:35:24 -0000
+Message-Id: <171650012469.12195.12886398266280598920@gitolite.kernel.org>
 
---===============4305116642155739072==
+--===============2343730884605634148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,38 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 49b33f4b3a9ea6afafe46163ebfcdec23ad1fcbf
-    new: a6b250149c79ce75cbc9a791ae482f0ce31b8dd7
-    log: revlist-49b33f4b3a9e-a6b250149c79.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: b6394d6f715919c053c1450ef0d7c5e517b53764
+    new: 6d69b6c12fce479fde7bc06f686212451688a102
+    log: revlist-b6394d6f7159-6d69b6c12fce.txt
 
---===============4305116642155739072==
+--===============2343730884605634148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1716500118 +0200
+pusher andi.shyti@kernel.org 1716500123 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1716500117-cfb22846a0a012d68bfc9b3d391e8636f2db7a18
+nonce 1716500123-fbbcbd95937dcd24697660f72f3e8734fae49a32
 
-49b33f4b3a9ea6afafe46163ebfcdec23ad1fcbf a6b250149c79ce75cbc9a791ae482f0ce31b8dd7 refs/heads/i2c/i2c-host
+b6394d6f715919c053c1450ef0d7c5e517b53764 6d69b6c12fce479fde7bc06f686212451688a102 refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZk+2lhYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1ufIkBALUhQxd7OK+bHHYdFRiNCpRlROxx
-6hE30sH/9kPjzR3XAQDszgaiviIhCnBSViVLfcTGT9tavo2fBngpKDI4F2reBg==
-=bFos
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZk+2mxYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uWaYBAKo+ISiAIljgr70IpqdpIwa1nQPx
+StjOTWI80Zmsmx+/AQDqN27+2kVr+m+V7X9LW7TZrXUNyzkbb6vBBLNOAUXpAA==
+=smDj
 -----END PGP SIGNATURE-----
 
---===============4305116642155739072==
+--===============2343730884605634148==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-49b33f4b3a9e-a6b250149c79.txt
+Content-Disposition: attachment; filename=revlist-b6394d6f7159-6d69b6c12fce.txt
 
+f8fef2fa419febbfed2d04f0518111565df2673d tty: msm_serial: use dmaengine_prep_slave_sg()
 1788cf6a91d9fa9aa61fc2917afe192c23d67f6a tty: serial: switch from circ_buf to kfifo
 b9cea51b65abecb4dc327a19ab58e6fb116e7e85 tty: atmel_serial: use single DMA mapping for TX
 12bedddb67520d38274ae9163338a125c24732bb tty: atmel_serial: define macro for RX size
@@ -1070,6 +1071,5 @@ c2c80ecdb48aab735d770685207df96b8d0c0112 Merge tag 'regulator-fix-v6.10-merge-wi
 483a351ed4d464265aed61cab4a990b0023f8400 Merge tag 'io_uring-6.10-20240523' of git://git.kernel.dk/linux
 b4d88a60fe0e126b245583c5003584cf6751e536 Merge tag 'block-6.10-20240523' of git://git.kernel.dk/linux
 6d69b6c12fce479fde7bc06f686212451688a102 Merge tag 'nfs-for-6.10-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
-a6b250149c79ce75cbc9a791ae482f0ce31b8dd7 i2c: synquacer: Remove a clk reference from struct synquacer_i2c
 
---===============4305116642155739072==--
+--===============2343730884605634148==--
