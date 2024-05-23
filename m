@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 23 May 2024 23:29:11 -0000
-Message-Id: <171650695135.28792.2110880914589803561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 23 May 2024 23:29:14 -0000
+Message-Id: <171650695496.28875.11245486918222578390@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/fixes
-    old: 0c7aac55fa5a051750ce04980fc9423d4eae12cd
-    new: f64fa139c280159b86df0baafb37e1d0e2522672
+  - ref: refs/heads/master
+    old: 13a6bd41efbae2c4412f9a51d772b7c6f92afd24
+    new: 86020e2a06cdafa9f802ee58f22bba51e72a418d
     log: |
-         f64fa139c280159b86df0baafb37e1d0e2522672 kbuild: remove a stale comment about cleaning in link-vmlinux.sh
+         86020e2a06cdafa9f802ee58f22bba51e72a418d foo
          
