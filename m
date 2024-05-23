@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Thu, 23 May 2024 23:28:55 -0000
-Message-Id: <171650693572.28629.17414704880328575958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Thu, 23 May 2024 23:29:11 -0000
+Message-Id: <171650695135.28792.2110880914589803561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/dev-test
-    old: f214b2602611b8890139ed1f7cf508843b6c8ffd
-    new: c1a97862b05d8a736ad8719939395c61bd71c982
+  - ref: refs/heads/fixes
+    old: 0c7aac55fa5a051750ce04980fc9423d4eae12cd
+    new: f64fa139c280159b86df0baafb37e1d0e2522672
     log: |
-         d5a053ee065343b7ed3cb47638530fca0d7cef36 dump.f2fs: Add ability to dump folders
-         c1a97862b05d8a736ad8719939395c61bd71c982 dump.f2fs: Fix xattr dumping
+         f64fa139c280159b86df0baafb37e1d0e2522672 kbuild: remove a stale comment about cleaning in link-vmlinux.sh
          
