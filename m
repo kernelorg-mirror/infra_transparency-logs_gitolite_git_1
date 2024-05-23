@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dennis/percpu
-Date: Wed, 22 May 2024 23:51:15 -0000
-Message-Id: <171642187544.25286.17003815163837225836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Thu, 23 May 2024 00:22:40 -0000
+Message-Id: <171642376083.14819.7088261299279258061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dennis/percpu
-user: dennis
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/tags/mm-stable-2024-05-22-17-22
     old: 0000000000000000000000000000000000000000
-    new: 05dbad003f2b2ececb1cc7428bfa8f470cc34b95
+    new: 87030977e67d91f2b87d383469b5135df90882f0
