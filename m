@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 23 May 2024 14:27:05 -0000
-Message-Id: <171647442598.18903.4186233095300449006@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Thu, 23 May 2024 14:30:19 -0000
+Message-Id: <171647461910.21721.14069155256682176063@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: c6c901b7d9833514eccbc39572e55c7d81397a3c
-    new: 46cad6cd9b10ab14acf20e0779998f88c6e44c4f
+  - ref: refs/heads/master
+    old: 49be3cad491ae8b3c40348b8d78ae2b0d3726b78
+    new: 9072d5ea17f7ff18b876bb0fcefc83b2bf89163e
     log: |
-         46cad6cd9b10ab14acf20e0779998f88c6e44c4f irqchip: riscv-imsic: Fixup riscv_ipi_set_virq_range() conflict
+         9072d5ea17f7ff18b876bb0fcefc83b2bf89163e test/sqpoll-exec: properly return skip if test skipped
          
