@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 23 May 2024 08:36:34 -0000
-Message-Id: <171645339433.4126.4071912770162751391@gitolite.kernel.org>
+Date: Thu, 23 May 2024 08:50:43 -0000
+Message-Id: <171645424383.15284.12278429465343130850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 9c91c7fadb1771dcc2815c5271d14566366d05c5
-    new: a61a459f58221f09810d6f60c657dda7add739fa
+    old: a61a459f58221f09810d6f60c657dda7add739fa
+    new: b35b1c0b4e166a427395deaf61e3140495dfcb89
     log: |
-         a61a459f58221f09810d6f60c657dda7add739fa testing: net-drv: use stats64 for testing
+         b35b1c0b4e166a427395deaf61e3140495dfcb89 Revert "ixgbe: Manual AN-37 for troublesome link partners for X550 SFI"
          
