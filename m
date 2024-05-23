@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8174002674508352580=="
+Content-Type: multipart/mixed; boundary="===============7844860119728212545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 23 May 2024 06:43:20 -0000
-Message-Id: <171644660041.17960.6492791970316674031@gitolite.kernel.org>
+Date: Thu, 23 May 2024 06:43:25 -0000
+Message-Id: <171644660506.18042.15918949638428708234@gitolite.kernel.org>
 
---===============8174002674508352580==
+--===============7844860119728212545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,62 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: dd5a440a31fae6e459c0d6271dddd62825505361
+  - ref: refs/heads/usb-next
+    old: 51474ab44abf907023a8a875e799b07de461e466
     new: c760b3725e52403dc1b28644fb09c47a83cacea6
-    log: revlist-dd5a440a31fa-c760b3725e52.txt
+    log: revlist-51474ab44abf-c760b3725e52.txt
 
---===============8174002674508352580==
+--===============7844860119728212545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716446599 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716446604 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1716446599-90ed0f8debaa251b6c6b7d6b4a8ed7d46ebd34b3
+nonce 1716446603-dc6cf6f8f01be69326fc7ba22add99806b94137a
 
-dd5a440a31fae6e459c0d6271dddd62825505361 c760b3725e52403dc1b28644fb09c47a83cacea6 refs/heads/usb-linus
+51474ab44abf907023a8a875e799b07de461e466 c760b3725e52403dc1b28644fb09c47a83cacea6 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZO5YcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eLUP/i6dNJR1pzRb2r0xv5O9
-lmraJ8B014O8ApjCDxlDIwo6O4NOTWxNM5YRy7ZHzDgfRqe5Ag/HKTOOl5dB1mwN
-Msi+bw88dDtxShtSW4U4uqXKYv4zFEE1UGE4aZ0uXHkt9UWIC7FZnn/XhTcHbzq1
-R/ine41SjnOomtbRrPeJkBOEuNmxxdy2ktw5lDcLnlsF2IHjh/OtfAKhbKDfgb1s
-PzPmf/6XaVMtyM6z8Nnep0jHsAdWek41aqgeSLKUPfZXBPC1ewuRc6NjC46IKnRC
-791zdbsofTuMtibYwrJLMm2uFBFbAEHyXPTMyZ7VeBsT356+c+b6IGtCZMzeDNb1
-KPKrTyIAh2pz0SwdXYR6Mf1lcFJmuSeoTI81sE2YkLCh3WAqtDbrsVXWIqQuaJxp
-pKA9HhiqTki4lkLagMbz2oK/LvgnlYxOQeIIUBkK5030849CZL4i3/M/SkMhNI7I
-WG7D6+y5c1AaDaYNhSsv6KpKteR2ryO/QQVo2ZX7bCeOmaN8+WdLX7SGOS8h6Zl3
-Hdx5v0Zie1RzCMYlPn5bA2uhPLXQqtmxodOTAPlwP3HRCH/fbU3VMguWI5Kv32IB
-74bMHNxOIrY59+cDJ4YVb6T3m+fmXQj2UkEeffHW6Ytn7/LcrpmbndbaWfmdQKy5
-cCrYepeAZEDKNgXH+0/B7H46
-=6F/V
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZO5YwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Cb0P/i6om+OVjNqid/Dswg8M
+w4fr46Pqall7bg1sx8G0O+4A4GkWsXCy/qu+6OrD6CMMD0ZmqOk6fVwa853K7ngE
+2AgnhQk1ETvnU095wtg3+5DRoC2AwUQh6HaIy/Pw8imwtwnK2GYSFMuZqZU0A2Z8
+cUmmtc+juuQ5Vd/iVxeBlT4AIZPKoqzg3NUFQKNHfpoO701dj7QSLF7KUKO5/cyr
+xN6H6CzmGgWfWswBI3CLJ9qS4hweFQQz1aC+Y14SeI625BmyHUlLiPliJsF9aa4F
+x5soqxEA9MhvdU40dVanhZ2Ies0XnMVnj6T7EbBgVVL+2vf+/ZttaItZ/qDMAhUb
+XzlIV3USNxQ2Jw/B/zsvo9CqvF1jKW12HyZ1sqWeG2MxJ0Jqf1Yh3Wfd0cFecrme
+LHyeiZC5Gk3WO2NmILlHwy69GMlPLOCE+Kqs5j/eRC5HCTX9VrupHWUlEVIQFviE
+0GXhTqAml1Da+/lw/mySeQOnjGqUD+S9wEnIp35T5EQVuZzjudPZe38by3bjakOs
+Vs0sNhNB2rKMN60XdNb8IQWOymbHSxuDWOFEAz8+q5tp5e+3AiRjCRZvUX0SThX9
+nh2D1x3RzJRuITAN2YYhC2Wte0F1eb0OPjW2BDsBzw/11QRS5fl0/mwm6zjPxviL
+1Vs4ANLYPv/gEJJEsxfYVNgo
+=85c0
 -----END PGP SIGNATURE-----
 
---===============8174002674508352580==
+--===============7844860119728212545==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-dd5a440a31fa-c760b3725e52.txt
+Content-Disposition: attachment; filename=revlist-51474ab44abf-c760b3725e52.txt
 
+dd3bd9dc47084195fcb3c1b371cb03046abb13ab ASoC: Intel: soc-acpi-intel-lnl-match: add cs42l43 only support
+3895aa82b665d43b24ba1ac307e20df3396a6b65 ASoC: Intel: maxim-common: add max_98373_dai_link function
+b533ed0d85cb64f9323b4221fcaad41259b08556 ASoC: Intel: sof_da7219: use max_98373_dai_link function
+d304ab5ecb758f76bd4eafa6d7e0fac4eba48e88 ASoC: Intel: sof_nau8825: use max_98373_dai_link function
+834c4f95673fdb4394c6cf26242d8763ee6ccf28 ASoC: Intel: sof_rt5682: use max_98373_dai_link function
+15ce635f396bdb416a41840bfb5e911128585e4d ASoC: Intel: sof_sdw: add max98373 dapm routes
+2bb765f053910339126626d49ae851b937d06206 ASoC: Intel: maxim-common: change max98373 data to static
+1628e1c8f6f1446460fc33a06f52e5ce52ac587a ASoC: Intel: sof_sdw_cs_amp: rename Speakers to Speaker
+01c266af92f4d24d44939e7d21c36e898caaa18f ASoC: Intel: sof_sdw: use generic name for controls/widgets
+70d470f05f0b5bb8dea67915cac6ed6308120a89 ASoC: Intel: sof_sdw: add controls and dapm widgets in codec_info
+2e3bc94796776e2695054183e7324d1a6ac27837 ASoC: Intel: sof_sdw: use .controls/.widgets to add controls/widgets
+84e0a19adb73d7cec5a43e02f9e2d2aafc5c7176 ASoC: Intel: sof_sdw: add dai parameter to rtd_init callback
+4c11132a886ea93865e205e2d92d810722237b48 ASoC: Intel: sof_sdw_rt_amp: use dai parameter
+c8bdf9e727acb6e1b37febf422ef1751e5a2c7d1 ASoC: rt715-sdca-sdw: Fix wrong complete waiting in rt715_dev_resume()
+c62b758bae6af16fee94f556091fa74883a96b1e fcntl: add F_DUPFD_QUERY fcntl()
 78d5cc15fb7d1b2683f0baf418a9a870c02319fb powerpc/pseries/fadump: add support for multiple boot memory regions
 683eab94da75bcf55a9c65e0c31d0529edebe86d powerpc/fadump: setup additional parameters for dump capture kernel
 3416c9daa6b13c0e2a656d4e2dee8de95f9a38cf powerpc/fadump: pass additional parameters when fadump is active
@@ -65,7 +80,6 @@ da0e01cc7079124cb1e86a2c35dd90ba12897e1a afs: Fix fileserver rotation getting st
 8b80549f1bc692cf9130af8555b6c89cec24e1a6 arm64: Properly clean up iommu-dma remnants
 65ade5653f5ab5a21635e51d0c65e95f490f5b6f iommu/arm-smmu: Use the correct type in nvidia_smmu_context_fault()
 9a8482387f4dc17a8f79e46004de1bee95c5e3dd Merge tag 'media-fixes-unicam-20240510' of https://git.kernel.org/pub/scm/linux/kernel/git/pinchartl/linux into media_stage
-adeab5bfb81840dc4be7ae20324bbf03b2b53eb2 Merge 6.9-rc7 into usb-next
 6402eb802deb312e33c24699f68fb7775b2c7386 dt-bindings: timer: renesas: ostm: Document Renesas RZ/V2H(P) SoC
 0f63c95aebf11d87b166a5dfd389957c67fef9c0 clocksource/drivers/renesas-ostm: Allow OSTM driver to reprobe for RZ/V2H(P) SoC
 37385c0772a4fc6b89605b9701fa934fa2beb2cc clocksource/drivers/renesas-ostm: Avoid reprobe after successful early probe
@@ -97,17 +111,6 @@ e05ce444e9e59f924b53da8209bfb7208653817c crypto: atmel-sha204a - add reading fro
 4ff61c4ce93677cd94a0ddefbd6f3bc3c40457c4 media: intel/ipu6: Don't print user-triggerable errors to kernel log
 6983352784a7b87a9c39dbbfaa33733fa1ccb0a5 media: ov2740: Ensure proper reset sequence on probe()
 eba63df7eb1f95df6bfb67722a35372b6994928d Revert "media: v4l2-ctrls: show all owned controls in log_status"
-e4306116b5e93748b3eaa7666aa55c390b48a8f4 Merge tag 'thunderbolt-for-v6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
-1d26ba0944d398f88aaf997bda3544646cf21945 usb: dwc3: Wait unconditionally after issuing EndXfer command
-e7899ebb4301f87fe0af8a5d1ad28e3ddd85f4e3 usb: musc: Remove unused list 'buffers'
-718b36a7b49acbba36546371db2d235271ceb06c usb: typec: qcom-pmic-typec: split HPD bridge alloc and registration
-b791a67f68121d69108640d4a3e591d210ffe850 usb: typec: ucsi: displayport: Fix potential deadlock
-76d7570734c198e09f369faa35ebdacfeec3448e usb: phy: tegra: Replace of_gpio.h by proper one
-514fdbdc4e34257cf6002296a53388fdf810eac5 usb: fotg210: Use *-y instead of *-objs in Makefile
-cbad7440672aad985573c1f8f5202137c2377b00 dt-bindings: usb: qcom,dwc3: fix interrupt max items
-d64adb0f41e62f91fcfdf0e0d9d5bfa714db0d23 usb: typec: tipd: fix event checking for tps25750
-409c1cfb5a803f3cf2d17aeaf75c25c4be951b07 usb: typec: tipd: fix event checking for tps6598x
-344f74cf531d90245e1296b3ffbaa7df99dd18f6 usb: typec: tipd: rely on i2c_get_match_data()
 aae20f6e34cd0cbd67a1d0e5877561c40109a81b serial: sh-sci: protect invalidating RXDMA on shutdown
 8efc440549087de41abadf62f4bde1d827135338 serial: sh-sci: describe locking requirements for invalidating RXDMA
 0c9c1ea583f1b9887d248dc26f6921c4ae826b96 serial: sh-sci: let timeout timer only run when DMA is scheduled
@@ -255,11 +258,8 @@ cddd2dc6390b90e62cec2768424d1d90f6d04161 Merge branch '40GbE' of git://git.kerne
 485d65e1357123a697c591a5aeb773994b247ad7 net/mlx5: Add a timeout to acquire the command queue semaphore
 db9b31aa9bc56ff0d15b78f7e827d61c4a096e40 net/mlx5: Discard command completions in internal error
 1164057b3c0093240e45517d711da2d1fd86789a Merge branch 'mlx5-misc-fixes'
-01be965ce5ab028c15fa64bbfdd59aac87a374ca usb: dwc3: core: Fix unused variable warning in core driver
-4b653e82ae18f2dc91c7132b54f5785c4d56bab4 usb: fotg210: Add missing kernel doc description
 c45b8cfc6d5c12fbbc4d89b24b59402df99c1ecb watchdog: LENOVO_SE10_WDT should depend on X86 && DMI
 84fa7ad6069243a224077832bf74107e9cbb34ae Merge branch 'acpica'
-51474ab44abf907023a8a875e799b07de461e466 drm/bridge: aux-hpd-bridge: correct devm_drm_dp_hpd_bridge_add() stub
 5800e77d88c0cd98bc10460df148631afa7b5e4d csky: Emulate one-byte cmpxchg
 ad1978dbbd827c1a1a7d22d9cc9ba71989dae48a Merge branch 'for-6.10/io_uring' into net-accept-more
 fe6532b44af402d0900c5be3e5359f4b293524b1 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next into net-accept-more
@@ -1082,4 +1082,4 @@ de7e71ef8bed222dd144d8878091ecb6d5dfd208 mm: simplify and improve print_vma_addr
 5c6f4d68e2aca67e425b7227369ec9fde8adfb6d Merge tag 'mm-stable-2024-05-22-17-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 c760b3725e52403dc1b28644fb09c47a83cacea6 Merge tag 'mm-nonmm-stable-2024-05-22-17-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============8174002674508352580==--
+--===============7844860119728212545==--
