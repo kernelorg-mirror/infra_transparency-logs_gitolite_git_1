@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3497927936826491377=="
+Content-Type: multipart/mixed; boundary="===============2788497975472318211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 23 May 2024 15:06:28 -0000
-Message-Id: <171647678874.15693.2246377953789851386@gitolite.kernel.org>
+Date: Thu, 23 May 2024 15:06:54 -0000
+Message-Id: <171647681476.16178.15402195676663041632@gitolite.kernel.org>
 
---===============3497927936826491377==
+--===============2788497975472318211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 868cfa32ce166e8e5270a7458e21ecbdc425cc68
-    new: c268ffebc32fe1c7b230dd93a5fcc3c560d751b8
-    log: revlist-868cfa32ce16-c268ffebc32f.txt
+  - ref: refs/heads/next
+    old: cd579e54671872401e74b89c4d92a4bc43ab55db
+    new: 7df9ef4f7b1e02400e24ae7572666806c7d340e3
+    log: revlist-cd579e546718-7df9ef4f7b1e.txt
 
---===============3497927936826491377==
+--===============2788497975472318211==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-868cfa32ce16-c268ffebc32f.txt
+Content-Disposition: attachment; filename=revlist-cd579e546718-7df9ef4f7b1e.txt
 
 8b39a723ef1fa3737e11832ca11183bbaeda2498 w1: gpio: Make use of device properties
 9e085c045868a6a727b3bd0fc7840ccc9e04d3a3 w1: gpio: Switch to use dev_err_probe()
@@ -977,6 +977,5 @@ de7e71ef8bed222dd144d8878091ecb6d5dfd208 mm: simplify and improve print_vma_addr
 5c6f4d68e2aca67e425b7227369ec9fde8adfb6d Merge tag 'mm-stable-2024-05-22-17-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 c760b3725e52403dc1b28644fb09c47a83cacea6 Merge tag 'mm-nonmm-stable-2024-05-22-17-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 7df9ef4f7b1e02400e24ae7572666806c7d340e3 tpm_tis_spi: Account for SPI header when allocating TPM SPI xfer buffer
-c268ffebc32fe1c7b230dd93a5fcc3c560d751b8 KEYS: trusted: Use ASN.1 encoded OID
 
---===============3497927936826491377==--
+--===============2788497975472318211==--
