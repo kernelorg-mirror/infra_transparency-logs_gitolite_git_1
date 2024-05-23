@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7319052019366142221=="
+Content-Type: multipart/mixed; boundary="===============5678804588754202370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 23 May 2024 12:51:28 -0000
-Message-Id: <171646868812.12187.3548785886298561262@gitolite.kernel.org>
+Date: Thu, 23 May 2024 12:51:29 -0000
+Message-Id: <171646868921.12256.1532576357090358896@gitolite.kernel.org>
 
---===============7319052019366142221==
+--===============5678804588754202370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,62 +16,65 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: ce3838dbefdccfb95a63f81fe6cf77592ae9138c
-    new: 31c6ee9a44e1373cb12adb9e4b9fb467913baffc
-    log: revlist-ce3838dbefdc-31c6ee9a44e1.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 56a03f63c0a26b1a00d441d86b26dca714f46587
+    new: 88334f9e65a477136d9e627daf0a77404b3d8fc4
+    log: revlist-56a03f63c0a2-88334f9e65a4.txt
 
---===============7319052019366142221==
+--===============5678804588754202370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716468686 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716468687 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1716468685-f1beebce161fd41929804fab070d1feeb71e432e
 
-ce3838dbefdccfb95a63f81fe6cf77592ae9138c 31c6ee9a44e1373cb12adb9e4b9fb467913baffc refs/heads/linux-5.10.y
+56a03f63c0a26b1a00d441d86b26dca714f46587 88334f9e65a477136d9e627daf0a77404b3d8fc4 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZPO84bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YXkP/jFaFIq9xW1ky0M5lpJZ
-lz7HOlhp8qJ2WpNPLTwPtNVYPMbXvX2NScVvOerD7i8Gj2Gok78q2X/up+ASvg/j
-sTKyX/wuhFc8huLnWnOosNtLe9TecPuKIPQJw9CQL8WBNp5APSWMKSmVhkI+D/bm
-/IljZChwJlzuY4GIItBwAEHCaK07FprCDuaJpJMxiGdxXMMSEDKOPlkTjL5xBvjg
-7/McRnW4COaPUOaM80p07Zbj/WOQ2BNLUW9uysEd9CO3r4lPt4vPc1YoEYw1sGbB
-YChIr3WWSq2dWCsfC9hs3IsCj09+79ABfwhn97d+5KqQ8LqJQcS+27qHkjmpIDsp
-2liNcmzgyj379Ki5zSYiaaCAXr+368JG/ecpCXMZLS9El22osgIRl+HSxLSpD2eF
-BH8HTFeInlBEjcEVpIiYFcJ5FhU29DXcZjPe30M/tOvI0HzQgeKjjNGEJBrWd2PX
-PePzWpV7HEHFeOwebJNky50biZOqARPWWbPcoVSyIyhdkX9rAa3cZtzrjpEi/Btg
-TL232Q/PIsZ5ppDQv0l2UIkJsHlQeZVSAo5LNmEnGJP4NAVIMnF9kHkRnUNcDiBP
-mhK2rPDuQDN2yysx+4tHxh8DqUFfDEcnbmF6igluv3wVBSRw8DBuqGPOu5aEz1Yh
-VkIIklHmYWsO7EOV8rk6jFFO
-=qD6o
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZPO88bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Gt8P/2C7qckAQIE0ZMn7b/A2
+OWbHJDHpjxUuvWMVvz/3v6/NSakzXoAcC54HXGmxUWCfELfFWXcNTVV18hmXpYch
+lfB/8mVj7lKYX1uEB16u0hus+YdQhjiJc/6DiFPsrgD/K1yKs1viFDfD7mPP0oqJ
+I/YAGcdg8HkImoMmdaEoAqtDnN42LUZK74L84BWUUbnHy5GaUQ70YcmHK1R9F/MW
+9a5Uxtr0k2Vp+LlaCwtbFz7WVPcEUrbFjqaFR7of3bpvgWZFcYD19t+nOQ78BU6a
+0Q1899cvEMSTXnEgt9ZGOn+qFv5ANvPgSw+IWNLRtRxkE6o7NhldN4OWz2vx49Bh
+z+INRyyvHk/QqihYjv+KezsQqZa/PpF5Xnf6Ojhsj8XNQMxHpsDoYD0Fxl8od79U
+ig9XssXANHp4lIdKwcjJdB9xGUeaDvpBrBFoyyZzGYuKfTZ9DE+XVeieg8lBL+Ej
+b8Ts1XX8XF2BOUvpczVm8CiIgrNhvKV+lSoKbeeXZcRuF83iQETjeH9hjhE4tNKG
+jf78OibV2IKRU5gTdpZEfPfcE4+v9MMnI2L2EoZytw5HFhtf/suBZyh09xibMEyX
+2ZJtjBmXlLwKnBXl5xEhAvOspRXaX135jRtYtbPlazxz5sP/kRJxiwHmXgG01jMR
+PsDtWUpGdXpRMd+7LoTCXHEm
+=ldR4
 -----END PGP SIGNATURE-----
 
---===============7319052019366142221==
+--===============5678804588754202370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce3838dbefdc-31c6ee9a44e1.txt
+Content-Disposition: attachment; filename=revlist-56a03f63c0a2-88334f9e65a4.txt
 
-a9c8c9c4cf6181d02d6bde024f7994a4cbecde0c pinctrl: core: handle radix_tree_insert() errors in pinctrl_register_one_pin()
-2372972dd1a5665d4747aa3128eb51260ff8a13d x86/xen: Drop USERGS_SYSRET64 paravirt call
-150fc9dc77f35b336d23b348fef683dd7b314145 Revert "selftests: mm: fix map_hugetlb failure on 64K page size systems"
-7d99e9cde9a10c671104ced7dab1d0052336d68f net: bcmgenet: synchronize EXT_RGMII_OOB_CTRL access
-3f1991e4186c51e1d81b508fb705d3da6761cd91 net: bcmgenet: synchronize UMAC_CMD access
-21dc0021d225cc740438d302ec4de55766642262 ima: fix deadlock when traversing "ima_default_rules".
-9b31a26f02a3c551bf807bd590a90b8fa161e932 netlink: annotate lockless accesses to nlk->max_recvmsg_len
-4fe6d32006d0cb5ef179122196045c01f192bac4 KVM: x86: Clear "has_error_code", not "error_code", for RM exception injection
-fbcdd7d1543d6b192fbe8056c15b7a6c8301f092 firmware: arm_scmi: Harden accesses to the reset domains
-6ef3cc93e26ee9cef3ae4b5908e3fc619e173ef4 mptcp: ensure snd_nxt is properly initialized on connect
-b921a609c7a13e814c5c12ce4fe4c2db1e52ee1a btrfs: add missing mutex_unlock in btrfs_relocate_sys_chunks()
-59220ec7b67fea1065417cc05204fda4b6c6b083 drm/amdgpu: Fix possible NULL dereference in amdgpu_ras_query_error_status_helper()
-325bbe565cbde8539d37a9ae2e8482841c7109ed usb: typec: ucsi: displayport: Fix potential deadlock
-80fe171b268b8275787dc2c58356482b58d23a0e serial: kgdboc: Fix NMI-safety problems from keyboard reset code
-313f0882b27b3ed4b1c4cd5e6b0629980d4ed704 docs: kernel_include.py: Cope with docutils 0.21
-31c6ee9a44e1373cb12adb9e4b9fb467913baffc Linux 5.10.218-rc1
+1c73fe8798a016dde0d4ddeb40832e997b8b65d9 Revert "selftests: mm: fix map_hugetlb failure on 64K page size systems"
+9506f73a2f79f00ea92c7d3b88a9eb86f078ba26 dm: limit the number of targets and parameter size area
+bd3dcf7d46d5432454079cd6ef1375977e7bd039 btrfs: add missing mutex_unlock in btrfs_relocate_sys_chunks()
+dfbbf76ab556dbb0e7f3a9746d0a9f453d0a3e56 tracing: Simplify creation and deletion of synthetic events
+86feaab6da06ce309f939461d18239dd5167e025 tracing: Add unified dynamic event framework
+256aa1acae20aff98ae51f5d8620b2d92f174a53 tracing: Use dyn_event framework for synthetic events
+15391c8f88b1b1696e800461b00e993fd309fed5 tracing: Remove unneeded synth_event_mutex
+a1763fef94c3df187a5b2eb26f667769e96e6754 tracing: Consolidate trace_add/remove_event_call back to the nolock functions
+1c681c0cd76fc2866217f0b7578ac9e39159858e string.h: Add str_has_prefix() helper function
+76509bf59f5c365955b3adb74054dfc262c73f16 tracing: Use str_has_prefix() helper for histogram code
+937b2187528d34e262e8fae8edef86fb4ad66884 tracing: Use str_has_prefix() instead of using fixed sizes
+3b530406521ee69217dcc4eb4824e3064a3cacca tracing: Have the historgram use the result of str_has_prefix() for len of prefix
+869c26d8ca96d87064ec7ca729a7ec7b2c1ff3be tracing: Refactor hist trigger action code
+c84faa9f9ac2e7962b43dd0e4b3af081be6c2653 tracing: Split up onmatch action data
+98ddcc1d74088be7a24cfcf420572087a4fd8f97 tracing: Generalize hist trigger onmax and save action
+503f48e41cd3486928afbff0cb87358ce913f9a0 tracing: Remove unnecessary var_ref destroy in track_data_destroy()
+b2e999379271db5df03fa6963805479b9481defa serial: kgdboc: Fix NMI-safety problems from keyboard reset code
+078a30535e648a479e9e400eec5ac37908c1968a docs: kernel_include.py: Cope with docutils 0.21
+88334f9e65a477136d9e627daf0a77404b3d8fc4 Linux 4.19.315-rc1
 
---===============7319052019366142221==--
+--===============5678804588754202370==--
