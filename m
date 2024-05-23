@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0075107760940866585=="
+Content-Type: multipart/mixed; boundary="===============1730485922192068477=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 23 May 2024 06:19:06 -0000
-Message-Id: <171644514657.18979.8356190193082843828@gitolite.kernel.org>
+Date: Thu, 23 May 2024 06:24:40 -0000
+Message-Id: <171644548069.2570.1366236358015376034@gitolite.kernel.org>
 
---===============0075107760940866585==
+--===============1730485922192068477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,54 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 880a746fa3ea5916a012fa320fdfbcd3f331bea3
-    new: c760b3725e52403dc1b28644fb09c47a83cacea6
-    log: revlist-880a746fa3ea-c760b3725e52.txt
+  - ref: refs/heads/bus_cleanup
+    old: 01953f3e25a68d89f9ede1c996eaf51a6485ee06
+    new: 7c6d34f8907c011ba85e230ba7501a6062723386
+    log: revlist-01953f3e25a6-7c6d34f8907c.txt
 
---===============0075107760940866585==
+--===============1730485922192068477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716445145 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716445478 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1716445143-992093c291bba5871db8ea65c9605d18d517e2e0
+nonce 1716445477-014519f544060da142e647f3edc08176f776e968
 
-880a746fa3ea5916a012fa320fdfbcd3f331bea3 c760b3725e52403dc1b28644fb09c47a83cacea6 refs/heads/driver-core-testing
+01953f3e25a68d89f9ede1c996eaf51a6485ee06 7c6d34f8907c011ba85e230ba7501a6062723386 refs/heads/bus_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZO39kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fuUP/jDhUW1Yvd7LLSFmZGx+
-cjEsUFy7Nd+0c5IuA4Zv9dlHSiDSPX+/jSsMeH7OFxqNOWsMIcT686KhAbrShBNu
-K4zbRTzhH9y1j6UYea3/oNyYVZJLSV9WEBj9i95XdlCgfD0CbGGuoCSosYoYH2FA
-Qxy1G/R2r314bUeMNBSkPVIj/gGQbUMI5MngoFLabzJvr/agPF9e3RYJzdnW/Lwr
-pPJvHMKkGyubYK/qlLMW3qCpG90/Bh3y46E9SRUCJAGS74O/vDgqomoGRmCxGXeo
-kKNRUF3DvCfAOoAW+Wdf9pHkR1UUi9eH3GNY8xgPbiOzBqPwwsMtLUxhfmUT0nif
-qS+NH3UsMumJ9FbmzSjeAC/BpfDL8saBEAj8TwvuVKtMckND3wDr+ppPIaGv12SY
-YLvRwn/Uxm40bIvjjMVs5c3EGVbEOiVJLBoi+3O9gSbItksYrkjTnx67Suv/HxEk
-D2M1Ieqfuv+jxiT7SFmLS0Y2LTHx/HtGxZJ9d8uTHIx5qGMB/Chk7TL3V+/3lk6r
-W29zUG7XRU5maLWEO/v5nFHR36zTZc2EZ8WbxU6M+oARVyJHLEQpiXFnByORTNa+
-L7piRMtmk1b7oO6zhfb7OXzsYMKa3esz5auTcbO3nHQxSYmxEupkVBbhCnpx+QFN
-JKf0u0lvXkrzr9okqqs6fJD8
-=y7wS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZO4SYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HdsP/3gdk88GJdtsDpaBevye
+BiouGVJ8L1VOtHDMMiXBsn29hWVIskBgQrA8wVvbh6FVWVMGz+n8n0qJnteR8yrB
+P57bK29ZBfyh67bohtvFtcYGOp7LEfrVk2ycVjJPMaDjd4gIR55uW8VI7CcYGy6u
+U1Ksd8EUEsLgQqA/eO8vWXqhwpC1CcP0MlY+o/OeqlHfepKan5yYlbMEIMfa2P6y
+Ui/JpzaRfG+/+d6jbisUwwbcOeLxnHRrMgu0NOIRrX0QvdAsmYD7gRWqlvBRmldU
+GwEynJ093lQQAV45Iy1kGcY/S4TOnPvCx1xWMfHG9/vL4mstL8t0XDlGt70VrqnQ
+B8GwulJtfu2+0QCEmoTwG8YdTBrXyqy6nW/JNhTIxDTtq8a+g/qy5uvVsjHfPHl9
+w90k9dRbi1l0xVqUTPgqSBZA+VbHzKbXjlMcFBxvPaZDL8fj4OY/pYd9YYIU4V1o
+g2gwwsCMAVM+yaC9hJlDEDsXdlv7g/3esbRE0mNvA85BLE3UataWeezojoWbpSY5
+bfLtGsHYFkibXcyKe2NedWUIr7uVh4qScAO/EUbIECcomp98OVvwOiPDqwQr0Z10
+NxjYYoNz/nMROXzAH7pXo4YiS7ID6FRVgx7xweRzBuqB4pOF0PRXw7tUCH34yVzu
+yS4GOyTqXrvkpJN1w+tBdWPP
+=YJlS
 -----END PGP SIGNATURE-----
 
---===============0075107760940866585==
+--===============1730485922192068477==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-880a746fa3ea-c760b3725e52.txt
+Content-Disposition: attachment; filename=revlist-01953f3e25a6-7c6d34f8907c.txt
 
-78d5cc15fb7d1b2683f0baf418a9a870c02319fb powerpc/pseries/fadump: add support for multiple boot memory regions
-683eab94da75bcf55a9c65e0c31d0529edebe86d powerpc/fadump: setup additional parameters for dump capture kernel
-3416c9daa6b13c0e2a656d4e2dee8de95f9a38cf powerpc/fadump: pass additional parameters when fadump is active
-4810ce7c91993f5d6e7c20fa8da7cb474ee72ca7 selftests: add F_DUPDFD_QUERY selftests
-da0e01cc7079124cb1e86a2c35dd90ba12897e1a afs: Fix fileserver rotation getting stuck
-8b80549f1bc692cf9130af8555b6c89cec24e1a6 arm64: Properly clean up iommu-dma remnants
-65ade5653f5ab5a21635e51d0c65e95f490f5b6f iommu/arm-smmu: Use the correct type in nvidia_smmu_context_fault()
 9a8482387f4dc17a8f79e46004de1bee95c5e3dd Merge tag 'media-fixes-unicam-20240510' of https://git.kernel.org/pub/scm/linux/kernel/git/pinchartl/linux into media_stage
 adeab5bfb81840dc4be7ae20324bbf03b2b53eb2 Merge 6.9-rc7 into usb-next
 6402eb802deb312e33c24699f68fb7775b2c7386 dt-bindings: timer: renesas: ostm: Document Renesas RZ/V2H(P) SoC
@@ -1081,5 +1074,12 @@ f8a6e48c6c6dc30dbd423a3f4b082df625664730 Merge local branch 'x86-codegen'
 de7e71ef8bed222dd144d8878091ecb6d5dfd208 mm: simplify and improve print_vma_addr() output
 5c6f4d68e2aca67e425b7227369ec9fde8adfb6d Merge tag 'mm-stable-2024-05-22-17-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 c760b3725e52403dc1b28644fb09c47a83cacea6 Merge tag 'mm-nonmm-stable-2024-05-22-17-30' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+e89863199812013fe5879f6de9878a827bbc170d FIXME: driver core: platform: make platform_bus_type constant
+19ce3bbf4f2152f1b9f833b16075fd2b234ae249 FIXME: PCI: make pci_bus_type const
+cf8059086a7165607fd5a528b9017a6e1126f242 FIXME: amba: make amba_bustype constant
+0eec2328582df94d5c136372508cfccdf88daa2a FIXME: bus: fsl-mc: make fsl_mc_bus_type constant
+da81830d9eda37963e25d8b962948bf3c7e8689f FIXME: gpu: host1x: make host1x_context_device_bus_type constant
+2277f09946a3ce109ee665271c6f6af64386d238 FIXME: cdx: make cdx_bus_type constant
+7c6d34f8907c011ba85e230ba7501a6062723386 make a bunch of struct bus_type const.
 
---===============0075107760940866585==--
+--===============1730485922192068477==--
