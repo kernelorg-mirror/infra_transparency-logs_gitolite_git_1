@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 24 May 2024 15:41:34 -0000
-Message-Id: <171656529428.23478.3817111472284540529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 24 May 2024 15:42:07 -0000
+Message-Id: <171656532762.23861.5503832253600208121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: e944fc8152744a41dc62e720995538e48b053bb9
-    new: 99fa63d9ca60c4c1cc843fde205e4bc6e86b218f
-    log: |
-         99fa63d9ca60c4c1cc843fde205e4bc6e86b218f riscv, bpf: Try RVC for reg move within BPF_CMPXCHG JIT
-         
+  - ref: refs/tags/riscv-for-linus-6.10-mw2
+    old: 0000000000000000000000000000000000000000
+    new: f90cb58a7ad4c881dbaac751c2d5df68653b6093
