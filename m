@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Fri, 24 May 2024 15:45:00 -0000
-Message-Id: <171656550030.25079.969441963147688994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 24 May 2024 15:56:59 -0000
+Message-Id: <171656621969.1823.4182502873112058483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: c4ee49eaa5b4b4cf659fea9d0cc9309cdf3276ef
-    new: b90c0e670a93caabbebe2d9e24ff85cece4cfe0e
+    old: 99fa63d9ca60c4c1cc843fde205e4bc6e86b218f
+    new: 2c1713a8f1c94033a6e00aae4693ab03e8a3b9f1
     log: |
-         b90c0e670a93caabbebe2d9e24ff85cece4cfe0e CHANGELOG: start 2.7 release section
+         2c1713a8f1c94033a6e00aae4693ab03e8a3b9f1 bpf: constify member bpf_sysctl_kern:: Table
          
