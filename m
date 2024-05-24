@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3650711749386432533=="
+Content-Type: multipart/mixed; boundary="===============8615574967661394089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 24 May 2024 18:16:29 -0000
-Message-Id: <171657458948.6318.6855189624567147108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Fri, 24 May 2024 18:31:21 -0000
+Message-Id: <171657548174.16319.813445476945041281@gitolite.kernel.org>
 
---===============3650711749386432533==
+--===============8615574967661394089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
     old: 6d69b6c12fce479fde7bc06f686212451688a102
     new: f1f9984fdc5e37303d7180ff7a85dfecb8e57e85
     log: revlist-6d69b6c12fce-f1f9984fdc5e.txt
 
---===============3650711749386432533==
+--===============8615574967661394089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -152,4 +152,4 @@ dcb9f48667824399e496113f2374d08e6aa59770 Merge tag 'erofs-for-6.10-rc1-2' of git
 9351f138d1dcbe504cd829abe590ba7f3387f09c Merge tag 'for-linus-6.10a-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 f1f9984fdc5e37303d7180ff7a85dfecb8e57e85 Merge tag 'riscv-for-linus-6.10-mw2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============3650711749386432533==--
+--===============8615574967661394089==--
