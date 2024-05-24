@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6038330543073640392=="
+Content-Type: multipart/mixed; boundary="===============3367525158759052642=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 24 May 2024 07:28:37 -0000
-Message-Id: <171653571743.7570.9514652419409944690@gitolite.kernel.org>
+Date: Fri, 24 May 2024 07:28:41 -0000
+Message-Id: <171653572148.7644.16776366579135474701@gitolite.kernel.org>
 
---===============6038330543073640392==
+--===============3367525158759052642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
+  - ref: refs/heads/tty-testing
     old: e21de1455a721a0cb4217b18589ede846f5b0686
     new: 6d69b6c12fce479fde7bc06f686212451688a102
     log: revlist-e21de1455a72-6d69b6c12fce.txt
 
---===============6038330543073640392==
+--===============3367525158759052642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716535716 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716535720 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1716535716-fc1f53a341ca4a6c1dcae2d95a3d05fbc5e08d4e
+nonce 1716535720-fbe5030605118b756dc5dd6fe985c73aa1217c4f
 
-e21de1455a721a0cb4217b18589ede846f5b0686 6d69b6c12fce479fde7bc06f686212451688a102 refs/heads/tty-next
+e21de1455a721a0cb4217b18589ede846f5b0686 6d69b6c12fce479fde7bc06f686212451688a102 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZQQaQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xkEP/1D0QCEQ5rh0tSssBJBU
-kuhJthlfmnFZ3LioiUspv3LdbTP306rNuiKEdY2a6oL3Pz7C2xagd5pnNdGrcDAx
-RnT+q5lWiBXJc2gGk4iiyPgCpWok9K9S8jdIZ6WEtWJNYZGykDZ2HnrtYvp5WIly
-ovlh1LWS15/p1VyI5Brh6pC71w68+/uyzpl0UT/QkVqYNmPcNAfgiIz5hVeuZVpZ
-2Qr1T3OnhQujTqXbk/phfVNnTIsxP0qBpmXbW40ZwiCXyuDH6OxNK4NROUAR4Bp5
-7LnJttAVuq6hpHljbF6og01//SUYxzk5acPIo3nMSuAEMTKAW62263+p2GEB8bMO
-vgKH7YrgeY3W4pZwcpTPmKd8wOAHXgj/f5CRC9kyEeyLIazTqi41/kl5Ya1ZE7Kx
-QQ5Vn7B03rAPC8lgnyoFmjPhZ0iNLjfjR9WnykYe+GbhdLTcUx7HBinafPz5hL90
-XChUU4r5KHrNZUgnBCCdxSBZ2/QVR/zvzenT8IcRy1pR1AR/0291jIU5rlFOoq42
-ikpLj9Y9AK1tNwpq2EGclFHZkBsV/BW1vrEKM8vn/7FabbhNoub1Y5nVeegf/7Oh
-/IkLepmf9v+F5+GXFjy6+bSk2IQPtwiI86rwMtOt5nNgApw1H3w7f4YGzEOE4grs
-BBe1UBCO0zEw0u4GT077EShP
-=jai4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZQQagbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x6gP/3N+3ZnUGBVBrUFKGpJN
+hB+KzfFFhbXGkscBu/sJJ2XIONXfuhMH1ZLpvXDfJouDp8x+HT6O5KIYLpLhpL9U
+aHxPE1eRaAD+NLnZ7+iTq8pXQ5zJgqdb4xzizjQjQLEH6xBx+nxQNKUuO5KtJmkc
+71L2q5FbI324/2hUx7Zd3xD2DLRwm8C0SRskjl5W9MqSTPA6AX7duL8ZQ1cnG6Xz
+vYOXmdQZiYTrGFxOxhI5+B9oMYkRUx9K6Soe20247EKXELO7D9dpxokOCaXrI9/t
+oFPRbs73ffECYr7NP2vtvzHdK5srnkE22ojQjans5ohEDUP6XhvigbYkafKofyHx
+/ss8tNscJT5kn2cHMa5ulP0iLFXTlGNFoT6q+Zw6WZVShLxMmr5z8jfOJMoP5+MU
+A9CbBul7GtagWKT2uo0iCXc7rPmkWqh8WXuy0BW03lBTs5Q1EWVZrFIBi2rwPKZg
+LPnaPG8l0tzLhl6ZlufGntTZMYqB3EAfpGvDuV25rvDCysum5dGXdluzuXgdNNfO
+T+KB1ySQ7udigx5Klou/QLX/eNf6jGGOhgxIkuKWk3krUzbZBDVC3zDDWvhUePhm
+DSNwuCStbpFuNyDoxbawRsPu61qOzagLNy2YZlXP8haNFGruYm99b3kZYdy97BoM
+kK4DB/bDbV79a/P3F+Br4Xpo
+=MuT7
 -----END PGP SIGNATURE-----
 
---===============6038330543073640392==
+--===============3367525158759052642==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ c2c80ecdb48aab735d770685207df96b8d0c0112 Merge tag 'regulator-fix-v6.10-merge-wi
 b4d88a60fe0e126b245583c5003584cf6751e536 Merge tag 'block-6.10-20240523' of git://git.kernel.dk/linux
 6d69b6c12fce479fde7bc06f686212451688a102 Merge tag 'nfs-for-6.10-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 
---===============6038330543073640392==--
+--===============3367525158759052642==--
