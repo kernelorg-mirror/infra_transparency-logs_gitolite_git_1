@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4320240005548793555=="
+Content-Type: multipart/mixed; boundary="===============2415089014019657432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 24 May 2024 07:26:35 -0000
-Message-Id: <171653559504.6498.1006131443857380636@gitolite.kernel.org>
+Date: Fri, 24 May 2024 07:26:38 -0000
+Message-Id: <171653559863.6587.2108027614882477470@gitolite.kernel.org>
 
---===============4320240005548793555==
+--===============2415089014019657432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
+  - ref: refs/heads/driver-core-next
     old: c760b3725e52403dc1b28644fb09c47a83cacea6
     new: 6d69b6c12fce479fde7bc06f686212451688a102
     log: revlist-c760b3725e52-6d69b6c12fce.txt
 
---===============4320240005548793555==
+--===============2415089014019657432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716535594 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716535597 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1716535593-c284a811e2c05e311702024af73bb426c090a759
+nonce 1716535597-0387d768f4532ec610c1e0c486dc36da262db86e
 
-c760b3725e52403dc1b28644fb09c47a83cacea6 6d69b6c12fce479fde7bc06f686212451688a102 refs/heads/driver-core-linus
+c760b3725e52403dc1b28644fb09c47a83cacea6 6d69b6c12fce479fde7bc06f686212451688a102 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZQQSobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lPgP/0i8ihr4ZVGhK5oHxG9H
-7Em8mIJ3v/BISYUDn17jq59bwF0T5PiKWdXHHJPCr5MYoIDaH63784EosZy5YYlq
-4hVJj/JOH3Yr3K65cXtgtdyoxhkF6S7cwm969Y7FLqDBhiL20cSX9/pQ/IIX3oRL
-3WRVFUnVzN4zEdSszhc4jnjUFSQWmn9/vHVE3ffDYJwzh5BQomsiTWlVboluXxGe
-BrY1YY16Gi9v1WYo+zuvHmOvo1GAkGjhbK9nJoMC+Ao07PPBiSKrouLDuVK95Fw8
-c3V8SL+P8AcLKSBar/6C+mBDDth4PFqI+bRL2PyoB0wGGb0cDE4el5HPfcNVJIcA
-RcOQbmKctJrNd8d2xl4fBW6hWM0aHdHmUm0vDKMxx53JZIod67R+GASWiHvv/7hZ
-7NRkxvmtKz1gI9PIXKTOI6AqYsx793i0brtR0zlK6Go35KXlb51lbPW7e9BpDHPl
-WAdNi3zd0HXKFXqvT65V26558vQPTRVW6UV0bVzRnERRRWamgJxK01e6RQKBYV3v
-32G7sNh91KrO8p0UnijilbqyBPO81G2WRuiRyfk7o4HNBHqgrTiEtOBO1XpJ3SHY
-v2pdAVX5m+XGdIUpJ+RDm6t7UlurpYLS+ZTiOpbOiKEsOwQEOV3Gu2nNZaEBEjdn
-tiV+M6edXny1yrqM9jMKrmLr
-=zNBL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZQQS0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6GYQAK4PEWuc9Vix73Cdv+NK
++oDD4TIiSj4CBLPbDbUumFrxmm2C7vKB9f71WTNWceCQ/TCKqv7kG65YvqfhvppR
+PYA92FoQC6u/DgTBWxDsib8txYQ2svXX8eo4sQImC0WR55k2yahS8kQPfFFd8uOY
+BxktnxbFKiY4dHW0w8t4zexJfkHoFlerzn8oFBOwlXc0pwTwnWkNpQk7lVBrBOPl
+MjEDNNH+P1xnqmomqsNGZuYjcNUojHkCAqA6Am3qyQ0e7ouhRJJSZRbnZR4aOUvn
+WdNGaa9vAqzssA4kkguESFOAk12nC4asmSwPGDab/unzn+PKA+gFVK4vqehrpNdT
+ZyRs9APyId5ay8whwq0xoXSqSk72/DvA6ehAwxBkbr53go8YkyDWBZoqnJKPPdr1
+w+U6DtblMgVzocZiJDKACX1mm7cETavc44qx+Zbo6mTnAIlWU2YM0H4dpVGHVcj1
+TOkjptXNHT9X3CM2/WJpEYk/qdyfZCMugsSOZOyBvUXbE5eXWL8x4+O/rQDnVNRD
+V09H5bSdKWFzFrMO/bZBJAwN3yvrKBpHQe3ykr/oI+q0nyWlqJYVCZ6e1XFbAQyY
+I/Qvj8WT7yDzz/kfqb6oujOgJGBhusDnAgBJA2xrNRHHAkSFABudMr29sYcFoNvy
+i/5B/VMpb6paB1xnFHyAPBpG
+=Iq8x
 -----END PGP SIGNATURE-----
 
---===============4320240005548793555==
+--===============2415089014019657432==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -230,4 +230,4 @@ c2c80ecdb48aab735d770685207df96b8d0c0112 Merge tag 'regulator-fix-v6.10-merge-wi
 b4d88a60fe0e126b245583c5003584cf6751e536 Merge tag 'block-6.10-20240523' of git://git.kernel.dk/linux
 6d69b6c12fce479fde7bc06f686212451688a102 Merge tag 'nfs-for-6.10-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 
---===============4320240005548793555==--
+--===============2415089014019657432==--
