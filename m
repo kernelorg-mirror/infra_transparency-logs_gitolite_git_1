@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1748261073606719672=="
+Content-Type: multipart/mixed; boundary="===============6671065482687716344=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Fri, 24 May 2024 08:47:25 -0000
-Message-Id: <171654044584.368.7511385731004024845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
+Date: Fri, 24 May 2024 08:47:29 -0000
+Message-Id: <171654044956.459.5022928099154107117@gitolite.kernel.org>
 
---===============1748261073606719672==
+--===============6671065482687716344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mdadm/mdadm
+repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
 user: mtkaczyk
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: b914aa25ee1fe3e0bd97f58bdf2bfdd185992a79
     log: revlist-906922ee321d-b914aa25ee1f.txt
 
---===============1748261073606719672==
+--===============6671065482687716344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ b9b8eaef49e075ce68846abb7cf0ca47c1ba9f2f mdadm/tests: remove 04r5swap.broken
 cd3b2350bef136b20c81190371fb0b60d62a0365 mdadm/tests: 07changelevelintr
 b914aa25ee1fe3e0bd97f58bdf2bfdd185992a79 mdadm/tests: disable selinux
 
---===============1748261073606719672==--
+--===============6671065482687716344==--
