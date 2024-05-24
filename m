@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2415089014019657432=="
+Content-Type: multipart/mixed; boundary="===============4085263468509980719=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 24 May 2024 07:26:38 -0000
-Message-Id: <171653559863.6587.2108027614882477470@gitolite.kernel.org>
+Date: Fri, 24 May 2024 07:26:42 -0000
+Message-Id: <171653560219.6675.6717710931252125970@gitolite.kernel.org>
 
---===============2415089014019657432==
+--===============4085263468509980719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: c760b3725e52403dc1b28644fb09c47a83cacea6
     new: 6d69b6c12fce479fde7bc06f686212451688a102
     log: revlist-c760b3725e52-6d69b6c12fce.txt
 
---===============2415089014019657432==
+--===============4085263468509980719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716535597 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716535601 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1716535597-0387d768f4532ec610c1e0c486dc36da262db86e
+nonce 1716535601-faefbc7cbb458128aa8b0ddee08d625719a7b4f4
 
-c760b3725e52403dc1b28644fb09c47a83cacea6 6d69b6c12fce479fde7bc06f686212451688a102 refs/heads/driver-core-next
+c760b3725e52403dc1b28644fb09c47a83cacea6 6d69b6c12fce479fde7bc06f686212451688a102 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZQQS0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6GYQAK4PEWuc9Vix73Cdv+NK
-+oDD4TIiSj4CBLPbDbUumFrxmm2C7vKB9f71WTNWceCQ/TCKqv7kG65YvqfhvppR
-PYA92FoQC6u/DgTBWxDsib8txYQ2svXX8eo4sQImC0WR55k2yahS8kQPfFFd8uOY
-BxktnxbFKiY4dHW0w8t4zexJfkHoFlerzn8oFBOwlXc0pwTwnWkNpQk7lVBrBOPl
-MjEDNNH+P1xnqmomqsNGZuYjcNUojHkCAqA6Am3qyQ0e7ouhRJJSZRbnZR4aOUvn
-WdNGaa9vAqzssA4kkguESFOAk12nC4asmSwPGDab/unzn+PKA+gFVK4vqehrpNdT
-ZyRs9APyId5ay8whwq0xoXSqSk72/DvA6ehAwxBkbr53go8YkyDWBZoqnJKPPdr1
-w+U6DtblMgVzocZiJDKACX1mm7cETavc44qx+Zbo6mTnAIlWU2YM0H4dpVGHVcj1
-TOkjptXNHT9X3CM2/WJpEYk/qdyfZCMugsSOZOyBvUXbE5eXWL8x4+O/rQDnVNRD
-V09H5bSdKWFzFrMO/bZBJAwN3yvrKBpHQe3ykr/oI+q0nyWlqJYVCZ6e1XFbAQyY
-I/Qvj8WT7yDzz/kfqb6oujOgJGBhusDnAgBJA2xrNRHHAkSFABudMr29sYcFoNvy
-i/5B/VMpb6paB1xnFHyAPBpG
-=Iq8x
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZQQTEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qcMQAMC5N+bSv9wB7UIOOMMf
+2sS5aSO95ySRhg8Wg6OtgOZ6F9cwRQse2top/z07zwqKDpsoDyUoJiGX6bgC4FYo
+bFVbxyxXCFhniiAgn7FQfGySRcyg4t/9zPPqC5zXN3e47p/N/lA+GoKn5u8Mo2bP
+OICuQvPRIjXacfRoecJIVifbbY3PviCzDIlxWWZh98ZC8vVvzY0dRJisKMRkI3sZ
+k8IwydXVh+5b4JL3a2+RDriBkuVbz01Xujf5UX6HuYglVaSYVCSqPV5orATzKkvx
+UhRO58gK3OfA96+gTuAdC9tlJEr5BHQpX94He5t5wXTTbQtVeHHzmnDrD4ik/Qbq
+qiAogSqk4rExIdnTOaRRSRa81u2UBLJQpsjr1pYddZNKdMGWhCniug8MTKM4QJWC
+G6Swgw4AWW1MK0GW5eal0R2HXp+Lo6zcNFLw6JzMm+k6R1oXYobMX0OYcbzFLC9D
+61yItEQVAmA2OF9BSS0+uRtLij3FEOCBcOUqC390F3+yZl/qMR1fYGfqcOYiTt/U
+183bB+7ZD0uZN6qlTfVeYTVlBWhv51uKE4sHzqE/zbuqEZ20ZDhAFMOLld0eVB1x
+r6WWp+Cx+oef6s4tGLvc0U31LQuAs14ALXD5VOO909CRrCGiDenkQddhx03pEd8c
+OyPyy2ywTJKA51eR4nmp4fJ3
+=cW+A
 -----END PGP SIGNATURE-----
 
---===============2415089014019657432==
+--===============4085263468509980719==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -230,4 +230,4 @@ c2c80ecdb48aab735d770685207df96b8d0c0112 Merge tag 'regulator-fix-v6.10-merge-wi
 b4d88a60fe0e126b245583c5003584cf6751e536 Merge tag 'block-6.10-20240523' of git://git.kernel.dk/linux
 6d69b6c12fce479fde7bc06f686212451688a102 Merge tag 'nfs-for-6.10-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 
---===============2415089014019657432==--
+--===============4085263468509980719==--
