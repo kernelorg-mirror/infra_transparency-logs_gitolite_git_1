@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Fri, 24 May 2024 20:17:06 -0000
-Message-Id: <171658182651.27909.13469899870007685831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 24 May 2024 20:32:26 -0000
+Message-Id: <171658274679.5817.7528384694831471072@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 5da4e5241503b385e4a7e75b1b2bb3367b38be96
-    new: c1a97862b05d8a736ad8719939395c61bd71c982
+  - ref: refs/heads/endpoint
+    old: ff9c034c89ac340fec1301b5441467cf17684093
+    new: 5c172f7afc887f2cd383a125cc7fd98d921fe10f
     log: |
-         cc40084468a192494c949f6485751b099441b567 f2fs-tools: print extension list properly
-         91e736553310ae666d20c9d4f29de7283c7b30eb f2fs_io: support unset subcommand for pinfile
-         acaa17359cffd249692a4bb8e32143052d154103 mkfs.f2fs: add description for ro feature in manual
-         5cfe1971ad3b1491ce482690f4a4aa7bbe6ec51c mkfs.f2fs: align each device to zone size
-         d5a053ee065343b7ed3cb47638530fca0d7cef36 dump.f2fs: Add ability to dump folders
-         c1a97862b05d8a736ad8719939395c61bd71c982 dump.f2fs: Fix xattr dumping
+         ffa47f322c6c2de349609ea3a37bd7fe7ad9f32a PCI: endpoint: Rename core_init() callback in 'struct pci_epc_event_ops' to epc_init()
+         dd6419e2869af993115df2fe5399421cdffb214e PCI: endpoint: Rename BME to Bus Master Enable
+         9cd57d4bd2db3597438c68378e05fdf11fab0d2e PCI: endpoint: pci-epf-test: Refactor pci_epf_test_unbind() function
+         45b29133137703a21d391b32c5f9c96bfa5d199a PCI: endpoint: pci-epf-{mhi/test}: Move DMA initialization to EPC init callback
+         f94f2844f28c968364af8543414fbea9c8b3005d PCI: endpoint: Introduce 'epc_deinit' event and notify the EPF drivers
+         3e757548afcdd6e5b2ceedd468a692aac2a0b67b PCI: endpoint: pci-epf-test: Handle Link Down event
+         c0984480e821a1073b81e94c5ef5610273467ec8 misc: pci_endpoint_test: Refactor dma_set_mask_and_coherent() logic
+         31d5c28e75b06fb5317111c2714e7b8626c31318 misc: pci_endpoint_test: Use memcpy_toio()/memcpy_fromio() for BAR tests
+         5c172f7afc887f2cd383a125cc7fd98d921fe10f Documentation: PCI: pci-endpoint: Fix EPF ops list
          
