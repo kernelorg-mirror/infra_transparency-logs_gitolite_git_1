@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5573976725082917615=="
+Content-Type: multipart/mixed; boundary="===============2010017669422393927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 24 May 2024 21:33:43 -0000
-Message-Id: <171658642327.18677.10823928447528615287@gitolite.kernel.org>
+Date: Fri, 24 May 2024 21:34:05 -0000
+Message-Id: <171658644518.18928.16158857669510489318@gitolite.kernel.org>
 
---===============5573976725082917615==
+--===============2010017669422393927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: c71e3a5cffd5309d7f84444df03d5b72600cc417
-    new: 0b4f5add9fa59bfd42c1030f572db2e4c395181b
-    log: revlist-c71e3a5cffd5-0b4f5add9fa5.txt
+  - ref: refs/heads/dev-queue
+    old: 257927c3de560a83ba2263a2cf4ff88eeb64922f
+    new: ebfe6764e0708210322384bedef8fff06ac4b947
+    log: revlist-257927c3de56-ebfe6764e070.txt
 
---===============5573976725082917615==
+--===============2010017669422393927==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c71e3a5cffd5-0b4f5add9fa5.txt
+Content-Disposition: attachment; filename=revlist-257927c3de56-ebfe6764e070.txt
 
-7441d34922ba1aba7bbb069c27bcaabdc515f34e mm/debug: print only page mapcount (excluding folio entire mapcount) in __dump_folio()
-658670607fae51ed2f8a64fcbfcd407bf820dd4f Documentation/admin-guide/cgroup-v1/memory.rst: don't reference page_mapcount()
-eebb5181a02f819cec5e324a9df1015934dc59f3 arm64: mm: drop VM_FAULT_BADMAP/VM_FAULT_BADACCESS
-e9016174621112624f957c8138bd3c34692e2e93 arm: mm: drop VM_FAULT_BADMAP/VM_FAULT_BADACCESS
-b91f94729d050eec86ae7ef084aa3805146c0a67 mm/ksm: add ksm_get_folio
-f39b6e2dc18efcc7f8d55cdf62c8c6cad47d1f06 mm/ksm: use folio in remove_rmap_item_from_tree
-b8b0ff244ddca0d475c91c9accf144e25311a951 mm/ksm: add folio_set_stable_node
-9d5cc14093594f0a5f8318cc70208bbbe71f5fce mm/ksm: use folio in remove_stable_node
-6f528de2986e179bf4a100dcc8db2a6703aa7885 mm/ksm: use folio in stable_node_dup
-72556a4c06646b7e314ee0920796699c9d4a8b47 mm/ksm: use ksm_get_folio in scan_get_next_rmap_item
-40d707f33db5e6d7da37b701955a3f662a741b02 mm/ksm: use folio in write_protect_page
-79899cce33e0887c06d41e767aa543aaaaef48e2 mm/ksm: convert chain series funcs and replace get_ksm_page
-85b67b01044e7cd52031d9b84745c816f831e68e mm/ksm: rename get_ksm_page_flags to ksm_get_folio_flags
-452e862f4315d8e5e839fe1dc220fd2716be6d3a mm/ksm: replace set_page_stable_node by folio_set_stable_node
-54fa49b2e0ef3af944bbeacb7ed2ba0b4f02facc mm/hugetlb: convert dissolve_free_huge_pages() to folios
 d199483c2b972064be5fce846228ceb773cd9d17 mm/hugetlb: rename dissolve_free_huge_pages() to dissolve_free_hugetlb_folios()
 ec33687c674934dfefd782a8ffd58370b080b503 mm: add per-order mTHP anon_fault_alloc and anon_fault_fallback counters
 d0f048ac39f6a71566d3f49a5922dfd7fa0d585b mm: add per-order mTHP anon_swpout and anon_swpout_fallback counters
@@ -1050,5 +1035,20 @@ f55cd31287e5f77f226c91d2f7756bafa0d583ed net/mlx5e: Do not use ptp structure for
 5c74195d5dd977e97556e6fa76909b831c241230 net/mlx5e: Use rx_missed_errors instead of rx_dropped for reporting buffer exhaustion
 83fea49f2711fc90c0d115b0ed04046b45155b65 net/mlx5e: Fix UDP GSO for encapsulated packets
 0b4f5add9fa59bfd42c1030f572db2e4c395181b Merge branch 'mlx5-fixes'
+e7eae88d85a856bfc22d116e8dd29d302760c098 ice: avoid infinite loop if NVM has invalid TLV length
+e79b93f30ac17cacdb9cb9c5bafdeef119e21e0e ice: fix reads from NVM Shadow RAM on E830 and E825-C devices
+4585e718a876d742cff995591a5e73d29519f97d ice: fix 200G PHY types to link speed mapping
+f018cbf39d6ac122ac0551f99328652648ff7a80 idpf: don't enable NAPI and interrupts prior to allocating Rx buffers
+adb212a613deb027af788099274debdc5e3de168 ice: fix accounting if a VLAN already exists
+62660da0ee249953db7e46b95ac5c4fbdc36698a ice: remove af_xdp_zc_qps bitmap
+e668023d707006ace462b184239659f0e9471838 ice: add flag to distinguish reset from .ndo_bpf in XDP rings config
+158a7b9812e9a58a6029424889efa43353c440a6 ice: map XDP queues to vectors in ice_vsi_map_rings_to_vectors()
+c08d250175ab7fbc7e1e22823530b8bce3fa36ca i40e: Fix XDP program unloading while removing the driver
+e5716add088de49df00ead5aba4221a034998d85 i40e: factoring out i40e_suspend/i40e_resume
+aa6afc632e1d9a298febe5602fac532d304173ae i40e: Fully suspend and resume IO operations in EEH case
+9755db544576d8e6849bd38e2fea72b02ff464c0 e1000e: move force SMBUS near the end of enable_ulp function
+e703242930082878b21a43b95c614ae927fe1c7f ice: implement AQ download pkg retry
+1ba1cc8cceeeb0681c41ada1b52180673e004791 igc: Fix Energy Efficient Ethernet support declaration
+ebfe6764e0708210322384bedef8fff06ac4b947 ice: check for unregistering correct number of devlink params
 
---===============5573976725082917615==--
+--===============2010017669422393927==--
