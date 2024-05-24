@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6063236557875017258=="
+Content-Type: multipart/mixed; boundary="===============3845508914894407119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Fri, 24 May 2024 16:09:25 -0000
-Message-Id: <171656696554.10852.10630549690791399239@gitolite.kernel.org>
+Date: Fri, 24 May 2024 16:09:32 -0000
+Message-Id: <171656697252.10958.9402798401756595065@gitolite.kernel.org>
 
---===============6063236557875017258==
+--===============3845508914894407119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/scmi/updates
-    old: eb524cb651b794f2529e36deb6b18523adc9ecaa
-    new: 1d2fb26a9de36f177d84f1980129e57d851bf3ed
-    log: revlist-eb524cb651b7-1d2fb26a9de3.txt
+  - ref: refs/heads/for-next/ffa/updates
+    old: 3a3e2b83e8059679e92be4273c601ea21e105a89
+    new: cc08831cbabf62d1d041965180854781b1aa7282
+    log: revlist-3a3e2b83e805-cc08831cbabf.txt
 
---===============6063236557875017258==
+--===============3845508914894407119==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-eb524cb651b7-1d2fb26a9de3.txt
+Content-Disposition: attachment; filename=revlist-3a3e2b83e805-cc08831cbabf.txt
 
 ed44935c330a2633440e8d2660db3c7538eeaf10 Merge tag 'spi-fix-v6.9-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 f4345f05c0dfc73c617e66f3b809edb8ddd41075 Merge tag 'block-6.9-20240510' of git://git.kernel.dk/linux
@@ -1048,7 +1048,7 @@ c2c80ecdb48aab735d770685207df96b8d0c0112 Merge tag 'regulator-fix-v6.10-merge-wi
 483a351ed4d464265aed61cab4a990b0023f8400 Merge tag 'io_uring-6.10-20240523' of git://git.kernel.dk/linux
 b4d88a60fe0e126b245583c5003584cf6751e536 Merge tag 'block-6.10-20240523' of git://git.kernel.dk/linux
 6d69b6c12fce479fde7bc06f686212451688a102 Merge tag 'nfs-for-6.10-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
-4c02fb052b2ae461d4cd555fa662377f7c2f31d0 dt-bindings: firmware: arm,scmi: Support notification completion channel
-1d2fb26a9de36f177d84f1980129e57d851bf3ed firmware: arm_scmi: mailbox: support P2A channel completion
+1407d76ae2dc44e54e90c9d7db8b7d3b8aa2417e firmware: arm_ffa: Move the FF-A v1.0 NULL UUID workaround to bus notifier
+cc08831cbabf62d1d041965180854781b1aa7282 firmware: arm_ffa: Split bus and driver into distinct modules
 
---===============6063236557875017258==--
+--===============3845508914894407119==--
