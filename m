@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1985780137496163722=="
+Content-Type: multipart/mixed; boundary="===============3713320695269991726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 24 May 2024 15:38:13 -0000
-Message-Id: <171656509345.20519.2047336301273847777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 24 May 2024 15:39:26 -0000
+Message-Id: <171656516689.21023.1025528831087377484@gitolite.kernel.org>
 
---===============1985780137496163722==
+--===============3713320695269991726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 6d69b6c12fce479fde7bc06f686212451688a102
     log: revlist-eb6a9339efeb-6d69b6c12fce.txt
 
---===============1985780137496163722==
+--===============3713320695269991726==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c2c80ecdb48aab735d770685207df96b8d0c0112 Merge tag 'regulator-fix-v6.10-merge-wi
 b4d88a60fe0e126b245583c5003584cf6751e536 Merge tag 'block-6.10-20240523' of git://git.kernel.dk/linux
 6d69b6c12fce479fde7bc06f686212451688a102 Merge tag 'nfs-for-6.10-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 
---===============1985780137496163722==--
+--===============3713320695269991726==--
