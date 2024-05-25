@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sat, 25 May 2024 06:00:44 -0000
-Message-Id: <171661684404.29022.7447242723175985015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sat, 25 May 2024 06:39:01 -0000
+Message-Id: <171661914152.23734.9287431550799654289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/patches-in-queue
-    old: 0000000000000000000000000000000000000000
-    new: e46fa3a7dae4a65fd80128bf381dba4fd5036ebb
+  - ref: refs/heads/kbuild
+    old: f64fa139c280159b86df0baafb37e1d0e2522672
+    new: a16ecce68347b6efbe38d7630d2bac3a9d181f1d
+    log: |
+         a2a27e14e8ccb54c80ca90b8d594e1013af267fb kconfig: fix comparison to constant symbols, 'm', 'n'
+         27265ef5727c4a594ec449eb96ce077b073eded5 kconfig: remove redundant check in expr_join_or()
+         e6b513cf46329c90a2234eb401e0e7189c961d3f kbuild: scripts/gdb: Replace missed $(srctree)/$(src) w/ $(src)
+         d4dbd43d77de27884e8d1d583a63cd1916f6fef5 kbuild: avoid unneeded kallsyms step 3
+         55fc0047702df1c732b3e3837b6841d8eee92ceb kbuild: change scripts/mksysmap into sed script
+         aa7bd2b4a970a825dec8e9d2f94f0653ff720dd8 kbuild: fix short log for AS in link-vmlinux.sh
+         a16ecce68347b6efbe38d7630d2bac3a9d181f1d kbuild: remove a stale comment about cleaning in link-vmlinux.sh
+         
