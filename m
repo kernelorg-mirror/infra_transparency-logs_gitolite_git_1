@@ -1,53 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============6100910027984678882=="
+Content-Type: multipart/mixed; boundary="===============3585358062597017988=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 25 May 2024 14:17:39 -0000
-Message-Id: <171664665977.24582.3904290434818084510@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 25 May 2024 14:17:50 -0000
+Message-Id: <171664667093.24761.2759446899811834178@gitolite.kernel.org>
 
---===============6100910027984678882==
+--===============3585358062597017988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.4.277
-    old: 0000000000000000000000000000000000000000
-    new: 26e55be1c81a9917d50745b32a34d2ef335737ad
+  - ref: refs/heads/linux-5.4.y
+    old: 24d2be3797d744db03ad917bebb68b48121a6a8f
+    new: 4a548b29cd58334ec5215b045360bd44b7b5e828
+    log: revlist-24d2be3797d7-4a548b29cd58.txt
 
---===============6100910027984678882==
+--===============3585358062597017988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716646659 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1716646658-3a7e283e08495ab6557573890eb25e492362616a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716646669 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1716646668-5170b8cd851856f03e57a80ad3f686ff1542fbcd
 
-0000000000000000000000000000000000000000 26e55be1c81a9917d50745b32a34d2ef335737ad refs/tags/v5.4.277
+24d2be3797d744db03ad917bebb68b48121a6a8f 4a548b29cd58334ec5215b045360bd44b7b5e828 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZR8wMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IioQAM6smr5E0JDXl5njWDZr
-HsSafPr/jOrp+sCDlowzf/Ub2eL63uKbMccwmMHHUvaDeXws4Uncyh+pJIfDytj3
-/DLSG6vul6u6vda5yit30D498cEDutd+Hl/6WYHyIMbHXnvW9GJ6hyeoGufQWkMe
-YTs+p2t2PHBsrCmqFtiRWrXEkjcsqpaHAz5IusyotD+lhTzAXxEIyETogLtxzGDs
-B7wBskOlnbHWBrumDcGmkG8LnjrNICWXHK0S4Zr3gXLinAMzjIoIGO2xTgXQ/abv
-18BRI+058UShPrffKp8Rq5WNYH94hKLhNh8qlPDmSJZuv3ndKoxFQ1EhqRBKZDid
-GwOaR3pdd3NC2HKRcw5VYIXq1HtBlkq5SURBsdO+4u6tUmAh+DfZ0axNEpl/8hnR
-ObT0lCzJ4l7R5t8rliC+cbOmtWLnKkNk7T1+bgB5vG4MdbAEH/TYWtskzqcoLDZm
-AXU5R28A3tIxFEy1V+2uDhsqNbYvQMu0bKXiMBzUYwTagGrun6+GPiLIn/2zz5KX
-JU4s8sQSoYWJetc9PvxKx48eJSwUC3Zzym7X+ivfrAtR78ttisTqL78ICUjxqKw0
-8nn9vGNfK9ueuXT85+9uze6588yt6+htqe3siivXXBpZ5n3hdvRRCq16L9NTyhZj
-r1/TgbBhn5mUMRaRa8JLccep
-=1a9d
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZR8w0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+erwP/0gzFqZ6rud+kkOKItdc
+lcm6xm4sNOTt4yTWCi0WRAqPtB1/l5V2o6x2CnSpZBQA3uD4Vg5HMxp6EvKei0p+
+LrON4doSzWNL5xITJF8qAERhLgIRm8nOv0rFh2ik6vFzlVz4w8cqhrYrj0Ece61K
+m8kWcy6EfMyDwH/dOSEf+gj+Sxg4TnD8S8J8DOLVOxM0CWQ7vBwK1FbGQcU1f+/r
+PXuLxk2H1LK0Wd/wlK1GhQbCdEUsaMgAdfcM0gZGgdZ1CTUzgMWxJlGYiIQu+CFl
+sbKPpPw1e/KFeKDB0gcl2rvvu9ezxOBe+o2P7/KVDzDHByATlOSdmpSote32WaQY
+D/mk4OQtZ5vKPZwZ7QlwVhQQ0TPUH2KMqetkWMOClVfsRsJK1MEioE6SzGIiugl9
+mgzVcpYsa7kDgjLRVs8sOSCpggwru4+2I+ldqkHWeyb29TnjnG0XUmWw9maRIXRw
+TExV9O8Z5W9vAQXS0C7Odiqt0KPYuVQ5435ZSJeye2EqA+p/lvpr2YfTvADWJIQZ
+A+btrSRNNrMwk4AG42sxvdrKMDmFqndpnSWRCB0R80euu2OcOH5geSoyXZaNgA3W
+lzc9UIVWm6T/YGb3ShM7vu/sgHved3L0xfqnYznGUV0dax4yRDl7gPr4pEZwg98H
+Dc7zCKU+endUdKWnZFYYX2R/
+=fQWd
 -----END PGP SIGNATURE-----
 
---===============6100910027984678882==--
+--===============3585358062597017988==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-24d2be3797d7-4a548b29cd58.txt
+
+c9e7f98f551dfa85c0213f14d4f9b81313209726 pinctrl: core: handle radix_tree_insert() errors in pinctrl_register_one_pin()
+d0083459e2b6b07ebd78bea2fe684a19cc0f3d0f ext4: fix bug_on in __es_tree_search
+44f0418482797059da9690b0dae3a149db40ff9c Revert "selftests: mm: fix map_hugetlb failure on 64K page size systems"
+bf3ace5c10f4225de8f63355b2b495160314fc3b Revert "net: bcmgenet: use RGMII loopback for MAC reset"
+4f470a80cea1e7a0286df06e3e6a3bf414e13885 net: bcmgenet: keep MAC in reset until PHY is up
+40fc58f86bd0ddb383a1ae618e887cf4222cd4dc net: bcmgenet: synchronize EXT_RGMII_OOB_CTRL access
+ae59f1f444b6c6cb5b851f2e7d3570f6b1694c87 net: bcmgenet: synchronize use of bcmgenet_set_rx_mode()
+db389e74d3def951e2e9f3f702a5f12dd522fdc9 net: bcmgenet: synchronize UMAC_CMD access
+6726429c18c62dbf5e96ebbd522f262e016553fb smb: client: fix potential OOBs in smb2_parse_contexts()
+7184491fc515f391afba23d0e9b690caaea72daf firmware: arm_scmi: Harden accesses to the reset domains
+ea4105d9917fc8a001ba184d77af8d5a82fceb96 arm64: dts: qcom: Fix 'interrupt-map' parent address cells
+791d236a68f2eaf30f270acdcc2de178fdee2495 btrfs: add missing mutex_unlock in btrfs_relocate_sys_chunks()
+467139546f3fb93913de064461b1a43a212d7626 drm/amdgpu: Fix possible NULL dereference in amdgpu_ras_query_error_status_helper()
+6b40d4c2620966e014157cbb3fae695a6d7dd223 usb: typec: ucsi: displayport: Fix potential deadlock
+ecef5df7961a7de90be6699c6b021b87c377a7a2 serial: kgdboc: Fix NMI-safety problems from keyboard reset code
+2b21f3095bbee73bc12b28296ab4728ccae1e68a docs: kernel_include.py: Cope with docutils 0.21
+4a548b29cd58334ec5215b045360bd44b7b5e828 Linux 5.4.277
+
+--===============3585358062597017988==--
