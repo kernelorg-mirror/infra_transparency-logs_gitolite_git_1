@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 25 May 2024 17:28:40 -0000
-Message-Id: <171665812032.6814.8818277697212544494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 25 May 2024 17:44:04 -0000
+Message-Id: <171665904480.18361.12832650048286893200@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 3e239b0b7e41d944a523757b74ccf2f9422b6256
-    new: 22d058e7c0b89fb26266f5604a5e28c0d51a93b1
+  - ref: refs/heads/master
+    old: 2c1713a8f1c94033a6e00aae4693ab03e8a3b9f1
+    new: f980f13e4eb299abba6692365315196e1ba6fd2c
     log: |
-         0d356d0d3a396305474ef069b86c0e474625ad2d iio: adc: ad7173: fix buffers enablement for ad7176-2
-         8ecca55abb43a8a9e053da24d5e12ab045557f0b iio: adc: ad7173: Add ad7173_device_info names
-         5798e23d97b941ef180f9c24f5d4e3a134e9741a iio: adc: ad7173: Remove index from temp channel
-         22d058e7c0b89fb26266f5604a5e28c0d51a93b1 iio: invensense: fix odr switching to same value
+         4652072e7b9d643edc9ebb04e3e2c021461b7af0 bpf, docs: Move sentence about returning R0 to abi.rst
+         a985fdca5e7e665d58dc40c92a67c8b67b6291db bpf, docs: Use RFC 2119 language for ISA requirements
+         4e1215d9a1903fc9e976aa8903674d050c7af5ff bpf, docs: clarify sign extension of 64-bit use of 32-bit imm
+         6a6d8b6f00ade597e0030669fae3fdf57cfba33b bpf, docs: Add table captions
+         f980f13e4eb299abba6692365315196e1ba6fd2c bpf, docs: Clarify call local offset
          
