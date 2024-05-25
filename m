@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 25 May 2024 15:50:03 -0000
-Message-Id: <171665220350.878.6562114314351084768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 25 May 2024 15:56:05 -0000
+Message-Id: <171665256597.5526.1111104512095041890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/io_uring-msg_ring
-    old: ee5be17a1554a799d2273d49889180d2ad650e09
-    new: 558d3cfd371df365ab388a0cc86b410a6e2d305c
+  - ref: refs/heads/topic-device-removal
+    old: fd608b903e8e16721b79b4485a3066e810804dc4
+    new: 45dd8b50d52636c4d09be234697c5706c3ec6ac3
     log: |
-         fb2eeb0dbfa4112219f87a805ddaa15967dc57c6 io_uring/msg_ring: add an alloc cache for CQE entries
-         558d3cfd371df365ab388a0cc86b410a6e2d305c io_uring/msg_ring: remove callback_head from struct io_msg
+         b0367fcaa7cd42e4f7bed53707f03f95dabd963a rpcrdma: Implement generic device removal
+         e83cd503d9f8be8d036ad8765d1cf950025a9c7c svcrdma: Handle device removal outside of the CM event handler
+         45dd8b50d52636c4d09be234697c5706c3ec6ac3 xprtrdma: Handle device removal outside of the CM event handler
          
