@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8519615233909342152=="
+Content-Type: multipart/mixed; boundary="===============5583690851931119520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Sat, 25 May 2024 00:32:48 -0000
-Message-Id: <171659716893.19327.12278216946589414190@gitolite.kernel.org>
+Date: Sat, 25 May 2024 00:41:05 -0000
+Message-Id: <171659766524.26840.1454262559916249052@gitolite.kernel.org>
 
---===============8519615233909342152==
+--===============5583690851931119520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 4cece764965020c22cff7665b18a012006359095
-    new: 0b32d436c015d5a88b3368405e3d8fe82f195a54
-    log: revlist-4cece7649650-0b32d436c015.txt
+  - ref: refs/heads/dev
+    old: f19257997d9c31864b4cf3fcef6e2d2b9ede148d
+    new: 878387af4105c8927e75bb4aec4461ef1b1ec2cd
+    log: revlist-f19257997d9c-878387af4105.txt
 
---===============8519615233909342152==
+--===============5583690851931119520==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4cece7649650-0b32d436c015.txt
+Content-Disposition: attachment; filename=revlist-f19257997d9c-878387af4105.txt
 
-33580d667bb20e00356fd06500f5197ef1baa1f5 nilfs2: use __field_struct() for a bitwise field
 6813216bbdba18e182759d949589be95ebef290f Documentation: coding-style: ask function-like macros to evaluate parameters
 b1be5844c1a0124a49a30a20a189d0a53aa10578 scripts: checkpatch: check unused parameters for function-like macro
 0a73eac1ed10097d1799c10dff2172605fd40c75 nilfs2: convert BUG_ON() in nilfs_finish_roll_forward() to WARN_ON()
@@ -1050,5 +1049,6 @@ dcb9f48667824399e496113f2374d08e6aa59770 Merge tag 'erofs-for-6.10-rc1-2' of git
 9351f138d1dcbe504cd829abe590ba7f3387f09c Merge tag 'for-linus-6.10a-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 f1f9984fdc5e37303d7180ff7a85dfecb8e57e85 Merge tag 'riscv-for-linus-6.10-mw2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 0b32d436c015d5a88b3368405e3d8fe82f195a54 Merge tag 'mm-stable-2024-05-24-11-49' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+878387af4105c8927e75bb4aec4461ef1b1ec2cd exfat: handle idmapped mounts
 
---===============8519615233909342152==--
+--===============5583690851931119520==--
