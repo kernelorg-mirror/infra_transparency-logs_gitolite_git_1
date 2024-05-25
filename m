@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 25 May 2024 17:24:54 -0000
-Message-Id: <171665789424.3822.1298097067670995958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 25 May 2024 17:28:40 -0000
+Message-Id: <171665812032.6814.8818277697212544494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/tpm2key-v6
-    old: c79ed07fbbe3a3d8992b4ba147bc66abb07e5bf2
-    new: 074c806942fed8330e60248813583bcb4e478533
+  - ref: refs/heads/fixes-togreg
+    old: 3e239b0b7e41d944a523757b74ccf2f9422b6256
+    new: 22d058e7c0b89fb26266f5604a5e28c0d51a93b1
     log: |
-         ffb36188a8c18f15f4b2323011812a033f02765a crypto: tpm2_key: ASN.1 decoder
-         2038ee78ae770a719d38c6e3b66f6e182d890a8b tpm: tpm2_key: Extend parser to TPM_LoadableKey
-         4f7e65d821e7a63cd4b02ff5e0c2f37c4ff5747b keys: asymmetric: tpm2_key_rsa
-         074c806942fed8330e60248813583bcb4e478533 keys: asymmetric: tpm2_key_ecdsa
+         0d356d0d3a396305474ef069b86c0e474625ad2d iio: adc: ad7173: fix buffers enablement for ad7176-2
+         8ecca55abb43a8a9e053da24d5e12ab045557f0b iio: adc: ad7173: Add ad7173_device_info names
+         5798e23d97b941ef180f9c24f5d4e3a134e9741a iio: adc: ad7173: Remove index from temp channel
+         22d058e7c0b89fb26266f5604a5e28c0d51a93b1 iio: invensense: fix odr switching to same value
          
