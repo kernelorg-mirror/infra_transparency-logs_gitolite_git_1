@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 25 May 2024 06:39:21 -0000
-Message-Id: <171661916111.24015.16519681351982048464@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6181410204586192550=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sat, 25 May 2024 07:16:09 -0000
+Message-Id: <171662136917.18862.5006410565307396647@gitolite.kernel.org>
+
+--===============6181410204586192550==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: f64fa139c280159b86df0baafb37e1d0e2522672
-    new: a16ecce68347b6efbe38d7630d2bac3a9d181f1d
+  - ref: refs/heads/master
+    old: 00cb9dd8e066d68ba3fcc6a5b3d8a8cf671679a5
+    new: 03c619c4152208909b2a52b1cea54e93b4575024
     log: |
-         a2a27e14e8ccb54c80ca90b8d594e1013af267fb kconfig: fix comparison to constant symbols, 'm', 'n'
-         27265ef5727c4a594ec449eb96ce077b073eded5 kconfig: remove redundant check in expr_join_or()
-         e6b513cf46329c90a2234eb401e0e7189c961d3f kbuild: scripts/gdb: Replace missed $(srctree)/$(src) w/ $(src)
-         d4dbd43d77de27884e8d1d583a63cd1916f6fef5 kbuild: avoid unneeded kallsyms step 3
-         55fc0047702df1c732b3e3837b6841d8eee92ceb kbuild: change scripts/mksysmap into sed script
-         aa7bd2b4a970a825dec8e9d2f94f0653ff720dd8 kbuild: fix short log for AS in link-vmlinux.sh
-         a16ecce68347b6efbe38d7630d2bac3a9d181f1d kbuild: remove a stale comment about cleaning in link-vmlinux.sh
+         03c619c4152208909b2a52b1cea54e93b4575024 update cvelistV5
          
+
+--===============6181410204586192550==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716621364 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1716621359-b15c31a767da3296d6158813c1650f98eb9756f7
+
+00cb9dd8e066d68ba3fcc6a5b3d8a8cf671679a5 03c619c4152208909b2a52b1cea54e93b4575024 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZRkDQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8iMP/jPdLGmNIngiKwiMVZx1
+hUb0zK19QLsQ5CkkorX9QtNevJw3FJPEFB8kTpXVEzSdvwUjrMQk/QvS6NBC0fqV
+k03r+vmZonNdXwFiT8wbKyhoHdKec/JZNLeS3PtCSFnGxnuFLQPDImhLIajE0Pvr
+CvR3pbW/lxQWlXuTpGpkaY3D9NIvCnK0ZfqCEJo9cjGWZLzDTDxrXHL2y0aWGZEg
+ErKFo+ks3+z14/9Wo9ykYwbCB+EUHwv+X1L4WDSQxl5mJGyj35GNGgN95bWp5HJ/
+o2DnrQ+UvL4iCbiRSQXIDj6THc+TFSLKfpr9NM+mOqAkp6n0OvFiuS0nksALCvqI
+QtY0RficBuNvNho3ScrsJSEgTwOJ+CrKAL+gHsOKuvLiI61EBjokKt2kRL8H8/0I
+0vAFs/7wJUF+umXykPoiCfqDal2VMNZTCpOQGIpd9QgtEXu0TU0noCrpJazNQDKG
+XxcrkrlKVREoLu612Ehxlrm+PajWFkao9fb7vBAeN5dW1ieuG8FK7XAZGQfZH8m8
+w/Yy/EPaSof1LmzdTJ1AsXy/SZk5bsAHKrWucgp3HIqm3lU6IyRPX5aSovq5TrVP
+PhhHjE71Kd4xnOZ38/EPoIf1Dqp2RTPOmGBUUfiO/nlmgmDbML1kk3da0L8fAifz
+Q///FG/9RuGQFHxpK7USGH0p
+=AQsU
+-----END PGP SIGNATURE-----
+
+--===============6181410204586192550==--
