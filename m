@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Sat, 25 May 2024 17:55:40 -0000
-Message-Id: <171665974028.27477.3479576513792799672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sat, 25 May 2024 18:00:38 -0000
+Message-Id: <171666003893.31001.289190455320944282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
   - ref: refs/heads/master
-    old: dd6a403795f0c7b5c566f86f2ee6b687278d3c1c
-    new: 95348e463eabc803341c67d562f9e0a5f0a48fe6
+    old: ca767aed1fea88f0185981794b918719a91d2015
+    new: 753eae0c92382f6ac1d9c1cc85941205fe0243b3
     log: |
-         d6fe532b7499e4575f9647879b7a34625817fe7f netkit: Fix setting mac address in l2 mode
-         3998d184267dfcff858aaa84d3de17429253629d netkit: Fix pkt_type override upon netkit pass verdict
-         998ffeb2738e26f134dc8e63b5dcaece22573957 selftests/bpf: Add netkit tests for mac address
-         95348e463eabc803341c67d562f9e0a5f0a48fe6 selftests/bpf: Add netkit test for pkt_type
+         f558d4e8a5d218fdc82dc4849c78cf623bb157d1 patches/next: add DAMOS tried regions selftest WIP marker
+         a9fe366a22c2a203fa7bf94bb04a701d80db5146 todo: move DAMOS tried_regions selftest to WIP section
+         753eae0c92382f6ac1d9c1cc85941205fe0243b3 patches/next: add a plan for write-only monitoring
          
