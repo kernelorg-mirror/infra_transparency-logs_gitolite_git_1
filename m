@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 26 May 2024 19:39:29 -0000
-Message-Id: <171675236945.23089.5701910091405904180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sun, 26 May 2024 20:00:31 -0000
+Message-Id: <171675363181.6133.15579905485170961291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/tpm2key-v6
-    old: 4c457f05721ed4bc9d93e1317fe0457bf8f97e32
-    new: 671aee527ccdecf29e80bd0a9639402fd0992caa
+  - ref: refs/heads/work.fd
+    old: 6de4430ff32f5deae7be314427f4d006122edb8d
+    new: b3692a6e34e9dcfb1d9705782bc928bd04d5640d
     log: |
-         671aee527ccdecf29e80bd0a9639402fd0992caa keys: asymmetric: tpm2_key_ecdsa
+         b3692a6e34e9dcfb1d9705782bc928bd04d5640d [experimental] net/socket.c: use straight fdget/fdput
          
