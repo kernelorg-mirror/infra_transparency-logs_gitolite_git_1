@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sun, 26 May 2024 11:40:58 -0000
-Message-Id: <171672365839.32079.9585531779156396017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Sun, 26 May 2024 11:43:10 -0000
+Message-Id: <171672379006.457.9513730247922276557@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
-    old: 30d85e5f61d57c84047b87c0f6e36e8f45a4167d
-    new: 64629cc631bb6020c3d9a51dd622d71cd0b7d564
+    old: 64629cc631bb6020c3d9a51dd622d71cd0b7d564
+    new: 4f1b067359ac8364cdb7f9fda41085fa85789d0f
     log: |
-         64629cc631bb6020c3d9a51dd622d71cd0b7d564 Revert "perf parse-events: Prefer sysfs/JSON hardware events over legacy"
+         4f1b067359ac8364cdb7f9fda41085fa85789d0f Revert "perf parse-events: Prefer sysfs/JSON hardware events over legacy"
          
