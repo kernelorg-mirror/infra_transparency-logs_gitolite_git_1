@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1258835506047818504=="
+Content-Type: multipart/mixed; boundary="===============8593771765822275376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Sun, 26 May 2024 21:29:22 -0000
-Message-Id: <171675896264.18616.3769074883538999018@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Sun, 26 May 2024 21:29:27 -0000
+Message-Id: <171675896715.18741.16409067213764984988@gitolite.kernel.org>
 
---===============1258835506047818504==
+--===============8593771765822275376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: 6fbf71854e2ddea7c99397772fbbb3783bfe15b5
     log: revlist-0bfbc914d943-6fbf71854e2d.txt
 
---===============1258835506047818504==
+--===============8593771765822275376==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 4f1b067359ac8364cdb7f9fda41085fa85789d0f Revert "perf parse-events: Prefer sysfs/JSON hardware events over legacy"
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============1258835506047818504==--
+--===============8593771765822275376==--
