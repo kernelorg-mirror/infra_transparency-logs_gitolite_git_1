@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 26 May 2024 16:52:15 -0000
-Message-Id: <171674233505.31104.3346542287649851667@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sun, 26 May 2024 16:58:52 -0000
+Message-Id: <171674273295.2749.14095583695121514273@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/tpm2key-v6
-    old: c69f0e08f36e082b6cea4bcc5220a9c2dec3c995
-    new: ea51243388a7720f98c4c048c871242e83a400bf
+  - ref: refs/heads/master
+    old: f980f13e4eb299abba6692365315196e1ba6fd2c
+    new: e245ef8a0b06fa5a18ca3bdcf82430166419283e
     log: |
-         607672d614a62c7085eda1db7d458ec69bffdb6b keys: asymmetric: tpm2_key_rsa
-         ea51243388a7720f98c4c048c871242e83a400bf keys: asymmetric: tpm2_key_ecdsa
+         e245ef8a0b06fa5a18ca3bdcf82430166419283e bpf, docs: Fix instruction.rst indentation
          
