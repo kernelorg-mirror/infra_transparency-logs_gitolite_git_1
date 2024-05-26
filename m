@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 26 May 2024 18:21:05 -0000
-Message-Id: <171674766547.31662.10207750371837349118@gitolite.kernel.org>
+Date: Sun, 26 May 2024 18:27:12 -0000
+Message-Id: <171674803287.3089.13542952144287830075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/tpm2key-v6
-    old: 8814afcbc59c4048fd9fbf07affe7b6e699b3525
-    new: bf8219622a71053126d1e9d805ed0a08807b81a1
+    old: bf8219622a71053126d1e9d805ed0a08807b81a1
+    new: dbc1f299bfee6ae7dd58c4fa14cda013610c8ad6
     log: |
-         bf8219622a71053126d1e9d805ed0a08807b81a1 keys: asymmetric: tpm2_key_ecdsa
+         dbc1f299bfee6ae7dd58c4fa14cda013610c8ad6 keys: asymmetric: tpm2_key_ecdsa
          
