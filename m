@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8410844542458481694=="
+Content-Type: multipart/mixed; boundary="===============1258835506047818504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Sun, 26 May 2024 21:26:00 -0000
-Message-Id: <171675876031.17314.9357907988799172540@gitolite.kernel.org>
+Date: Sun, 26 May 2024 21:29:22 -0000
+Message-Id: <171675896264.18616.3769074883538999018@gitolite.kernel.org>
 
---===============8410844542458481694==
+--===============1258835506047818504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
-  - ref: refs/heads/not-for-next
-    old: 77fdafce442fc40d454d48be57775654497ed585
-    new: 150c436bd71b5b188a3d979d34c3e2b8e5afefbb
-    log: revlist-77fdafce442f-150c436bd71b.txt
+  - ref: refs/heads/fixes
+    old: 0bfbc914d9433d8ac2763a9ce99ce7721ee5c8e0
+    new: 6fbf71854e2ddea7c99397772fbbb3783bfe15b5
+    log: revlist-0bfbc914d943-6fbf71854e2d.txt
 
---===============8410844542458481694==
+--===============1258835506047818504==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-77fdafce442f-150c436bd71b.txt
+Content-Disposition: attachment; filename=revlist-0bfbc914d943-6fbf71854e2d.txt
 
+1d01740efb6856cf02905a84bf04b70d223993c2 serial: max3100: Switch to DEFINE_SIMPLE_DEV_PM_OPS()
 69b2cc30315ac48e3a6308a7f736f67c3e3db0b1 serial: max3100: Extract to_max3100_port() helper macro
 4fe952c141b285ca0b379c93c9c6c69d7240a495 serial: max3100: Sort headers
 838022def8ef2b676d6f3c19cad9185ce8046008 serial: amba-pl011: get rid of useless wrapper pl011_get_rs485_mode()
@@ -1049,6 +1050,5 @@ a0db36ed571397df9a3f507ee19913a74d4b97a5 Merge tag 'irq-urgent-2024-05-25' of gi
 c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
 4f1b067359ac8364cdb7f9fda41085fa85789d0f Revert "perf parse-events: Prefer sysfs/JSON hardware events over legacy"
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-150c436bd71b5b188a3d979d34c3e2b8e5afefbb scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 
---===============8410844542458481694==--
+--===============1258835506047818504==--
