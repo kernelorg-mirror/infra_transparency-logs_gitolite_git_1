@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 26 May 2024 05:40:15 -0000
-Message-Id: <171670201556.18123.11239220195209524885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dash/dash
+Date: Sun, 26 May 2024 10:26:36 -0000
+Message-Id: <171671919680.8790.17006849457752947482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/utils/dash/dash
+user: herbert
 changes:
   - ref: refs/heads/master
-    old: 9b62e02e63363f5678d5598ee7372064301587f7
-    new: c13320499ba0efd93174ef6462ae8a7a2933f6e7
+    old: f47009f9a76ef953e1fd298f7cd5cb082233cf1a
+    new: 176e792f7dc915bb096d14d7abb70f11ded9abb7
     log: |
-         16e00683dc74cf1fcdf00046b90852bee05eb94a smb3: reenable swapfiles over SMB3 mounts
-         10c623a1956e673a9268493e0dacf373ddb2f9bf cifs: update internal version number
-         8a1607233566fef7fbe30416e5d3b0567d0d1fba cifs: Fix smb3_insert_range() to move the zero_point
-         93a43155127fec0f8cc942d63b76668c2f8f69fa cifs: Fix missing set of remote_i_size
-         c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of git://git.samba.org/sfrench/cifs-2.6
+         5d5f9d7f638d8353de38e713083710f9c62cd881 memalloc: Use void * instead of pointer
+         9549169af923964ddf3d137432712c12abd3d3f2 trap: Allow trap to un-ignore SIGINT/SIGQUIT in async subshells
+         6e526a3924d952614fb92642ef910a9f7d1cb49a expand: Always compile test fnmatch and glob
+         20250295979b75279ae10690e49685fb529beffc expand: Add support for caret
+         041ccc75852fd4d041f12543c80d5a0cc5a93bdf man: Remove reference to PS expansion
+         8f158f6375cbca0061d1d08f3571fef9fd17678d man: Document the value unlimited for ulimit
+         c4a9b31b9b4b0adc6e0ad9352126fc4bea0bc2a7 options: Always reset OPTIND in getoptsreset
+         176e792f7dc915bb096d14d7abb70f11ded9abb7 shell: Disable fnmatch by default
          
