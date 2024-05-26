@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 26 May 2024 11:26:22 -0000
-Message-Id: <171672278247.19330.16276050662078622528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Sun, 26 May 2024 11:35:04 -0000
+Message-Id: <171672330499.25945.175621361487146673@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/perf/perf-tools
+user: acme
 changes:
-  - ref: refs/heads/tpm2key-v6
-    old: 53809f171bd0e87446a5fecde95476c08606a215
-    new: 6fcf4c4395366677761e87b7fff0d7cc8ac96fc9
+  - ref: refs/heads/perf-tools
+    old: 29c73fc794c83505066ee6db893b2a83ac5fac63
+    new: 30d85e5f61d57c84047b87c0f6e36e8f45a4167d
     log: |
-         8c32f587aedae2ba2525eaaaa7245813c173960a keys: asymmetric: tpm2_key_rsa
-         6fcf4c4395366677761e87b7fff0d7cc8ac96fc9 keys: asymmetric: tpm2_key_ecdsa
+         30d85e5f61d57c84047b87c0f6e36e8f45a4167d Revert "perf parse-events: Prefer sysfs/JSON hardware events over legacy"
          
