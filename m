@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7780700045950751792=="
+Content-Type: multipart/mixed; boundary="===============2968928330052302282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 26 May 2024 13:58:22 -0000
-Message-Id: <171673190252.1833.17472915873827766866@gitolite.kernel.org>
+Date: Sun, 26 May 2024 14:00:52 -0000
+Message-Id: <171673205223.4541.17273154463457503423@gitolite.kernel.org>
 
---===============7780700045950751792==
+--===============2968928330052302282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,197 +16,242 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
   - ref: refs/heads/queue/4.19
-    old: 453fa3490c4f15b93256f0d474f755221e71ac51
-    new: 8b013f4a53a0235ea44e9fd1daf036393eae9d9f
+    old: 8b013f4a53a0235ea44e9fd1daf036393eae9d9f
+    new: 60a5204276cd5bf2d4e1a6b38431724abdd5c254
     log: |
-         92a6144fde7fbc5ef4c3b2f0de9d882f7a26a4b8 speakup: Fix sizeof() vs ARRAY_SIZE() bug
-         456ced9deb36b59a2af7288cab832d79aae8cc69 ring-buffer: Fix a race between readers and resize checks
-         5f51c65fe5a61adeb24b7a30242e1cd3db1474d9 net: smc91x: Fix m68k kernel compilation for ColdFire CPU
-         6ae968a713e67fc34f77687652d77883417ff343 nilfs2: fix unexpected freezing of nilfs_segctor_sync()
-         df88adf8f82cdf1ec5c79cce314d9740889eae79 nilfs2: fix potential hang in nilfs_detach_log_writer()
-         8b013f4a53a0235ea44e9fd1daf036393eae9d9f tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
+         a4a6581ed4b09ab5e6f7f12774a717e79b2679a7 speakup: Fix sizeof() vs ARRAY_SIZE() bug
+         01ebe35348f6167c66ce722eeaf5e2ffe846ddac ring-buffer: Fix a race between readers and resize checks
+         ddc3c6e32639400524338673a75635d6a99d29a8 net: smc91x: Fix m68k kernel compilation for ColdFire CPU
+         6d57ee7b2ff34051833d472ac62151a829d4967c nilfs2: fix unexpected freezing of nilfs_segctor_sync()
+         077bf7d0c400e5c6444698ac3cd5189d886d7cc7 nilfs2: fix potential hang in nilfs_detach_log_writer()
+         60a5204276cd5bf2d4e1a6b38431724abdd5c254 tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
          
   - ref: refs/heads/queue/5.10
-    old: 17ebeea9066ba48fc8444726f05dbe1dad206241
-    new: 75ae5f0afa50ee1aabfb31641a9eadc9601a7a96
+    old: 75ae5f0afa50ee1aabfb31641a9eadc9601a7a96
+    new: 366497005e218ed92c5e94d71552889673ff5b1f
     log: |
-         700189f27fa5dcf5e226807331d3e6d263d99e18 tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
-         34d87d9ea4f49b3f75e48aac330081fbeff3ec73 speakup: Fix sizeof() vs ARRAY_SIZE() bug
-         3924d479a076a4694dd783449752259c2c24e3ed r8169: Fix possible ring buffer corruption on fragmented Tx packets.
-         e9746b56ca713bdb4d4acbc844b99cfc41a354cc ring-buffer: Fix a race between readers and resize checks
-         6593baba8e9f13518c82993348171d914cb2d9fd net: smc91x: Fix m68k kernel compilation for ColdFire CPU
-         8fcc2fffa7b4cdafe4fe29a3bc302c0087fb865c nilfs2: fix unexpected freezing of nilfs_segctor_sync()
-         1cb7d46e69ba86c00f8b735e1e948aa46f65ece4 nilfs2: fix potential hang in nilfs_detach_log_writer()
-         7d72f2796729336c2031600b69c77f1e00f1ee72 ALSA: core: Fix NULL module pointer assignment at card init
-         75ae5f0afa50ee1aabfb31641a9eadc9601a7a96 ALSA: timer: Set lower bound of start tick time
+         b9071f4f6f0e546bebcc08a18d7bd34a08e35252 tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
+         c84ea264ccb26e18c724b2fd0ddcca678e3d5e44 speakup: Fix sizeof() vs ARRAY_SIZE() bug
+         9ad2df79815f91dba41536b3327f3f0cf9c953b1 r8169: Fix possible ring buffer corruption on fragmented Tx packets.
+         98225dc2978c89af89757aa9a9276e4d835bc74c ring-buffer: Fix a race between readers and resize checks
+         01427029ebff9ac6fce9b22e9c7196ada2cacf52 net: smc91x: Fix m68k kernel compilation for ColdFire CPU
+         ec13d237ed6c498a18a6b4aae60e04186dfbd26f nilfs2: fix unexpected freezing of nilfs_segctor_sync()
+         5ae56294b907a77f9a74ac05b811f1604ed1f193 nilfs2: fix potential hang in nilfs_detach_log_writer()
+         9bf7118c1012fbff5063235485ae6bd3748f5f69 ALSA: core: Fix NULL module pointer assignment at card init
+         366497005e218ed92c5e94d71552889673ff5b1f ALSA: timer: Set lower bound of start tick time
          
   - ref: refs/heads/queue/5.15
-    old: 6f5643f1f6b428fe360b9012ca5420503ea4737e
-    new: 1fbdb52f6b724325e066aab15e643fc87870f09c
-    log: revlist-6f5643f1f6b4-1fbdb52f6b72.txt
+    old: 1fbdb52f6b724325e066aab15e643fc87870f09c
+    new: f824964030bd901abe5789caf9082efffe31bcd3
+    log: revlist-1fbdb52f6b72-f824964030bd.txt
   - ref: refs/heads/queue/5.4
-    old: a1307962b33ac37c56f83e588ed4fd9641b92825
-    new: 333309638929cc923d8ac991344b77e37c1eb248
+    old: 333309638929cc923d8ac991344b77e37c1eb248
+    new: b19b42998827235f23444077cdaf71b9b0ca58d3
     log: |
-         05509a112459ae5f7e643a0bf03fdb2f6af2ac85 tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
-         fcb7c05a3bb453190d48b4002a36fc6407f020ac speakup: Fix sizeof() vs ARRAY_SIZE() bug
-         205ead36723e67252b3b7f65b56326a96c704b4c ring-buffer: Fix a race between readers and resize checks
-         c0ca3b10cb5ea4ef38c8f722684d710a4c81764d net: smc91x: Fix m68k kernel compilation for ColdFire CPU
-         5f2bd89374005527c673b9bbe992d095621d7d66 nilfs2: fix unexpected freezing of nilfs_segctor_sync()
-         333309638929cc923d8ac991344b77e37c1eb248 nilfs2: fix potential hang in nilfs_detach_log_writer()
+         1df730b0852432cec18bedb0d9af723014d2eb94 tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
+         e81933c98ac3a8d5b2a53da9aec6474f685f2976 speakup: Fix sizeof() vs ARRAY_SIZE() bug
+         44a1b8a17d1584a85908c5a5478208fbcc28fb69 ring-buffer: Fix a race between readers and resize checks
+         f22182ed679e7f7cfab7d2291f2874d1284b46cf net: smc91x: Fix m68k kernel compilation for ColdFire CPU
+         45e10bb0857dd5b9d80d2d48c6c5a7bf1e43e49d nilfs2: fix unexpected freezing of nilfs_segctor_sync()
+         b19b42998827235f23444077cdaf71b9b0ca58d3 nilfs2: fix potential hang in nilfs_detach_log_writer()
          
   - ref: refs/heads/queue/6.1
-    old: e2dbc8ba43aad939f515e3869d1ece57da37cf50
-    new: 28ed2744a61670178ec671c180c0b392dbac2576
-    log: revlist-e2dbc8ba43aa-28ed2744a616.txt
+    old: 28ed2744a61670178ec671c180c0b392dbac2576
+    new: c0f23f9090259d1965915482efde2ff6b9c06236
+    log: revlist-28ed2744a616-c0f23f909025.txt
   - ref: refs/heads/queue/6.6
-    old: 19e6229b0ca79fec8b39d2badf37cf9e59544e0c
-    new: de4df5522b60e5d35c5ebf47f7f5c7c0afaf1336
-    log: revlist-19e6229b0ca7-de4df5522b60.txt
+    old: de4df5522b60e5d35c5ebf47f7f5c7c0afaf1336
+    new: 8821176b68de0f480f4e5e59b59f633af7bf64ec
+    log: revlist-de4df5522b60-8821176b68de.txt
   - ref: refs/heads/queue/6.8
-    old: fa5588ac01888eacf32baf2b565d2f548bdc90a8
-    new: 78873b26799bf5bdd54ddbdb2bd6bd5c7d2d2c98
-    log: revlist-fa5588ac0188-78873b26799b.txt
+    old: 78873b26799bf5bdd54ddbdb2bd6bd5c7d2d2c98
+    new: 9f8dcaaa5a4d4aff50067f861a69d7783c5e3dd4
+    log: revlist-78873b26799b-9f8dcaaa5a4d.txt
   - ref: refs/heads/queue/6.9
-    old: e0564ba05ffd68f73f911152f880bdee64171677
-    new: b275d3a652345aa43159909d20df7299bf8620ad
-    log: revlist-e0564ba05ffd-b275d3a65234.txt
+    old: b275d3a652345aa43159909d20df7299bf8620ad
+    new: 735d55123beccd507d2adb910e32ed528db6aa8a
+    log: revlist-b275d3a65234-735d55123bec.txt
 
---===============7780700045950751792==
+--===============2968928330052302282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f5643f1f6b4-1fbdb52f6b72.txt
+Content-Disposition: attachment; filename=revlist-1fbdb52f6b72-f824964030bd.txt
 
-66d7f516a18f2c25bc614c8b76026cdc070774a3 tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
-973e9d0c76e60f25fb11b999b2693f4402870fb7 tty: n_gsm: fix missing receive state reset after mode switch
-adf2b06f1969099e55f228b6b80f7410351198b7 speakup: Fix sizeof() vs ARRAY_SIZE() bug
-8f4dd8add074b1e6f248c08429f6681d978ba75c serial: 8250_bcm7271: use default_mux_rate if possible
-6c6b4591a31a9b854f2f4a0a423d59d888c8df4d Revert "r8169: don't try to disable interrupts if NAPI is, scheduled already"
-743e818f48a6124a500a54f209067254e3c2f3e1 r8169: Fix possible ring buffer corruption on fragmented Tx packets.
-82c15d4c87fdefd16b8ebd1100c7eaf5e6cfd611 ring-buffer: Fix a race between readers and resize checks
-a73ba0b80fdbf842b2062eca130d2c2615edbec0 tools/latency-collector: Fix -Wformat-security compile warns
-42275046e6e0bf5d229c58d7dc83130ff152f022 net: smc91x: Fix m68k kernel compilation for ColdFire CPU
-f4d6d678b9a5095af7a5794e6f6fb1071547d15b nilfs2: fix unexpected freezing of nilfs_segctor_sync()
-af57a19a69a83c0b788f1e800e83ceaf917957d7 nilfs2: fix potential hang in nilfs_detach_log_writer()
-de42c2c43d705854c4a395a8ffd2afa7297bf2ae fs/ntfs3: Remove max link count info display during driver init
-361086b1841a9f11b6581ebf506bfdf40eca339d fs/ntfs3: Taking DOS names into account during link counting
-da00168631c2be195c8dfc127d22776d21285c6a fs/ntfs3: Fix case when index is reused during tree transformation
-5b1628b56363e0e95c3900a4c180c42ddbaab236 fs/ntfs3: Break dir enumeration if directory contents error
-04a1f98140db38c48eb19763e4d230f1fca98c3a ALSA: core: Fix NULL module pointer assignment at card init
-0c4d60d3e194d857c4bac28859e5b8b4fb3d0e73 ALSA: timer: Set lower bound of start tick time
-1fbdb52f6b724325e066aab15e643fc87870f09c ALSA: Fix deadlocks with kctl removals at disconnection
+0125cc264108f3130b4f7e262684514133c52be8 tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
+f27f48f844cd32a10dd9814c46ee3d76338148cc tty: n_gsm: fix missing receive state reset after mode switch
+caffd6173fe4d7fe0444e15409fc26262d8a8b61 speakup: Fix sizeof() vs ARRAY_SIZE() bug
+56f2f4aa6a2e73f0d27eb45d1486afae28b6fbc9 serial: 8250_bcm7271: use default_mux_rate if possible
+c80404f63c74f40b5b5845f90a2fba41b8c64b5b Revert "r8169: don't try to disable interrupts if NAPI is, scheduled already"
+71aca48bbdc75753dfdc7a1b56beedee04567abc r8169: Fix possible ring buffer corruption on fragmented Tx packets.
+5296285b2a3801bc164e1508e3da331d93384d44 ring-buffer: Fix a race between readers and resize checks
+1bc75c33e358325350c8977e977176c1e666f470 tools/latency-collector: Fix -Wformat-security compile warns
+6250199b90c9df3426bfca8b2e27c7f875397361 net: smc91x: Fix m68k kernel compilation for ColdFire CPU
+08c6cabdfec8ba7929fd59e2ad9181836639b817 nilfs2: fix unexpected freezing of nilfs_segctor_sync()
+6e7ab095a2c8f012741e3cb460b2e750f7ea5dc2 nilfs2: fix potential hang in nilfs_detach_log_writer()
+706c1bdd0d70138a4c8e3201755c9a9abe65c6cc fs/ntfs3: Remove max link count info display during driver init
+1bc187a78b27b9ceef460029a9b931084005e7d7 fs/ntfs3: Taking DOS names into account during link counting
+bd6e8df20fe107bea025bd7fbe1308a9798636c5 fs/ntfs3: Fix case when index is reused during tree transformation
+228b07e241c2afc2d64ff7b9f85fe9511127fb10 fs/ntfs3: Break dir enumeration if directory contents error
+6090b9d15454bb931737e4db3784f4d7db02aa00 ALSA: core: Fix NULL module pointer assignment at card init
+a84ffb2633bce2d8f046363e91263f02897028f6 ALSA: timer: Set lower bound of start tick time
+f824964030bd901abe5789caf9082efffe31bcd3 ALSA: Fix deadlocks with kctl removals at disconnection
 
---===============7780700045950751792==
+--===============2968928330052302282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2dbc8ba43aa-28ed2744a616.txt
+Content-Disposition: attachment; filename=revlist-28ed2744a616-c0f23f909025.txt
 
-f12c94b95bd3de177fc4f508e1843466be16e899 tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
-a45fc368ac02499e05eab02449cf7f4649ab20a3 tty: n_gsm: fix missing receive state reset after mode switch
-ef41c4fa4f9a8c95fc2afcdd7fd5659bac4b98ee speakup: Fix sizeof() vs ARRAY_SIZE() bug
-01ce6720dc32284db4d2b9220430a1f96ae54580 serial: 8250_bcm7271: use default_mux_rate if possible
-3c3befbb4910ed3b92b6667f81db1b58a5fef8d7 serial: 8520_mtk: Set RTS on shutdown for Rx in-band wakeup
-d0488da6f06fd484fe5a84dae469f20c03684148 io_uring: fail NOP if non-zero op flags is passed in
-07a9700eae75d330e4157b3d87f90246652e5dee Revert "r8169: don't try to disable interrupts if NAPI is, scheduled already"
-5836f6719a5ccdc3be524c5e0995517e6acdda5e r8169: Fix possible ring buffer corruption on fragmented Tx packets.
-d9f638e73bac5412d853b511b842cc18d417fd83 ring-buffer: Fix a race between readers and resize checks
-c8f966637d9dee78d32a8a6e504d7a9439cc0be8 tools/latency-collector: Fix -Wformat-security compile warns
-64cf791d32fd2dbbe1dff442541d9536036a32f9 tools/nolibc/stdlib: fix memory error in realloc()
-cd99d85dd9d0654c9a649ebd004dad56dc21c582 net: smc91x: Fix m68k kernel compilation for ColdFire CPU
-0fcc1e370d3d9720ed7302e2553377779f15d41f nilfs2: fix unexpected freezing of nilfs_segctor_sync()
-fcd418f330757c171035db2f3c0c401120ca6591 nilfs2: fix potential hang in nilfs_detach_log_writer()
-6191b1cadddf1f94636e3edff99fee9bf0dbee7c fs/ntfs3: Remove max link count info display during driver init
-87728dbfc698d2dacab4b55c06c99196bd07fde6 fs/ntfs3: Taking DOS names into account during link counting
-23bcc348d91724dc1fd8948470201b31bf90f2bf fs/ntfs3: Fix case when index is reused during tree transformation
-09c632ac835104eb2ae2abbc9c7781eb2962c78d fs/ntfs3: Break dir enumeration if directory contents error
-83ffff996c439bb5891e8121232deb6d1670292d ksmbd: avoid to send duplicate oplock break notifications
-39f74d36395269d40ac946297e59039438e71aa5 ksmbd: ignore trailing slashes in share paths
-a11a8f1b08474570fc9f66da42dc122c98afd7b6 ALSA: hda/realtek: fix mute/micmute LEDs don't work for ProBook 440/460 G11.
-7004a819e602253c886c2d97bc418e2e7b86b4ca ALSA: core: Fix NULL module pointer assignment at card init
-5516b917b834047363130e897ac50652861e2cd0 ALSA: timer: Set lower bound of start tick time
-8c21846d8810b629e5cab20b39ec0ff9b9de9584 ALSA: Fix deadlocks with kctl removals at disconnection
-28ed2744a61670178ec671c180c0b392dbac2576 KEYS: asymmetric: Add missing dependencies of FIPS_SIGNATURE_SELFTEST
+b3522241408d7170d30bea972c3e9a3cc9b4d482 tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
+390ca7c58a0fcca97cf0350ebd7c42bea8543ec8 tty: n_gsm: fix missing receive state reset after mode switch
+4780dab112e875b600efe551c39dfdbda7a92800 speakup: Fix sizeof() vs ARRAY_SIZE() bug
+da284448933f3bb6265edc1c8a7463d0f302ccd5 serial: 8250_bcm7271: use default_mux_rate if possible
+78c333b360342db69336b6f4b43661df7b708428 serial: 8520_mtk: Set RTS on shutdown for Rx in-band wakeup
+9542ee12935da66a0ff7ebbbb19927347278fe07 io_uring: fail NOP if non-zero op flags is passed in
+2abcb91c6facca99c1dc16910c6b614cf0a824b0 Revert "r8169: don't try to disable interrupts if NAPI is, scheduled already"
+7cb2079833364b2d41863016862a114ac367fc61 r8169: Fix possible ring buffer corruption on fragmented Tx packets.
+305a404c0cc36528d7c5dcda6a68f53fa135b21f ring-buffer: Fix a race between readers and resize checks
+eaf5b4e189f4dcd4c6536d826e0eff15effe703f tools/latency-collector: Fix -Wformat-security compile warns
+429379e12be3fae354e5a08a494754f3d2c9692a tools/nolibc/stdlib: fix memory error in realloc()
+5108003de495a0170c6823c9801e7ff54d879976 net: smc91x: Fix m68k kernel compilation for ColdFire CPU
+18ccf7dd59e2971f714f83d08ea530af9b8e1199 nilfs2: fix unexpected freezing of nilfs_segctor_sync()
+2b5e2da83501a57df353a8a20e39bbc26264ab98 nilfs2: fix potential hang in nilfs_detach_log_writer()
+3b0a429ebccfbc802aeb31c0c88dbde0dbcce444 fs/ntfs3: Remove max link count info display during driver init
+2b9b2ef430b68157feecc8fccfe225f9a67ba2d3 fs/ntfs3: Taking DOS names into account during link counting
+a361fe7bb684a6ef238da845deec51c95c2f106c fs/ntfs3: Fix case when index is reused during tree transformation
+55761d633d445991840d4309dfdb8bc35707dfda fs/ntfs3: Break dir enumeration if directory contents error
+b9acc4301650de45fe84d5a0b73bdd09c7925fc3 ksmbd: avoid to send duplicate oplock break notifications
+7bca1174e2a434fed72c25fb07578946a8be285e ksmbd: ignore trailing slashes in share paths
+d35ee611c7639a5f1cfb451575d7f86c2c2b1ee1 ALSA: hda/realtek: fix mute/micmute LEDs don't work for ProBook 440/460 G11.
+056c6ba0660f5d1081af039c2987efb6f8f73e3d ALSA: core: Fix NULL module pointer assignment at card init
+e40ef6a309d13fb8918fb017e11772331fc1315c ALSA: timer: Set lower bound of start tick time
+97f0655ba550849ef044e0c1c9aa9834f664512d ALSA: Fix deadlocks with kctl removals at disconnection
+c0f23f9090259d1965915482efde2ff6b9c06236 KEYS: asymmetric: Add missing dependencies of FIPS_SIGNATURE_SELFTEST
 
---===============7780700045950751792==
+--===============2968928330052302282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19e6229b0ca7-de4df5522b60.txt
+Content-Disposition: attachment; filename=revlist-de4df5522b60-8821176b68de.txt
 
-16c4fe01e59b41193be312cfdd7c2a48df2f0ed4 tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
-ec3756f1f5af971af344e8cf10987206490fd5a9 tty: n_gsm: fix missing receive state reset after mode switch
-74912600e848ba58da76a9181997021e68475f57 speakup: Fix sizeof() vs ARRAY_SIZE() bug
-37d19013807db5d4e77db046b3243585048156ca serial: 8250_bcm7271: use default_mux_rate if possible
-bd1f9d0b86b57cb10cb8666794b631a52b81e17b serial: 8520_mtk: Set RTS on shutdown for Rx in-band wakeup
-8f17d045db37613e6b7c45bbcce5cfe3a9c51e14 Input: try trimming too long modalias strings
-eef50fd2c0f1292e9c1898fad7f273692ee1451e io_uring: fail NOP if non-zero op flags is passed in
-3a80cff16c426e855fa97f21e6ff20077ed95452 Revert "r8169: don't try to disable interrupts if NAPI is, scheduled already"
-53cd57e9c392d938cb1668c41177edb454096fe6 r8169: Fix possible ring buffer corruption on fragmented Tx packets.
-3fe295555c7e183f45f1405d30f32b9556d6e795 ring-buffer: Fix a race between readers and resize checks
-a989b2f36ef842641ab584d5c2316248db693d03 net: mana: Fix the extra HZ in mana_hwc_send_request
-1de6f61c82e64c933b138d4e3d22522115883300 tools/latency-collector: Fix -Wformat-security compile warns
-fd8f2478fa43e5a16cdddd0c9a650a3fd1a6ecd5 tools/nolibc/stdlib: fix memory error in realloc()
-75497b26b1a739c30209683c9a044d8198982798 net: ti: icssg_prueth: Fix NULL pointer dereference in prueth_probe()
-532bd0b64fa22560f6949e5854558fbf8f655c36 net: lan966x: remove debugfs directory in probe() error path
-de4df5522b60e5d35c5ebf47f7f5c7c0afaf1336 net: smc91x: Fix m68k kernel compilation for ColdFire CPU
+b33ff1a273c9745450b8705f2d2a94844d6c1dba tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
+a0b1f3bf68522c9e36acf755f37ccf81aabf544c tty: n_gsm: fix missing receive state reset after mode switch
+756f916ab66faf4f369f06275ffbc997246882fd speakup: Fix sizeof() vs ARRAY_SIZE() bug
+9c4eb3ce42cfadda3dddf86c17eb220b43398712 serial: 8250_bcm7271: use default_mux_rate if possible
+afd0ef983e79b0b86682c33aa0eac11b171b1543 serial: 8520_mtk: Set RTS on shutdown for Rx in-band wakeup
+d610001921ed50aaa7a9e17117a4e10746c10e00 Input: try trimming too long modalias strings
+cd9c882c127cf8a7b35b65d12caf8ba9e5c45c28 io_uring: fail NOP if non-zero op flags is passed in
+55c24c4302f37063caeba1f0b6ef5969ea9a55d6 Revert "r8169: don't try to disable interrupts if NAPI is, scheduled already"
+4332b526638fa91c328305c72900b53d9993772c r8169: Fix possible ring buffer corruption on fragmented Tx packets.
+f331603e63a032771c38485beb1b017d94a608f3 ring-buffer: Fix a race between readers and resize checks
+0b36c0adf28726eb928186870bcdc3fbb79e371c net: mana: Fix the extra HZ in mana_hwc_send_request
+7ffb9ec781d194258bd097b1f579bd0df61307d6 tools/latency-collector: Fix -Wformat-security compile warns
+453055beb58fe105c33692c4ea974f93f950b8fc tools/nolibc/stdlib: fix memory error in realloc()
+c8779eb30e3ed647c5fff1aa7b5cdb85c3645bbf net: ti: icssg_prueth: Fix NULL pointer dereference in prueth_probe()
+f2dcafb7eef03f1a2b9881910a520801088e53b8 net: lan966x: remove debugfs directory in probe() error path
+ca00e1c52c749b3fd8b1e18ad45e9cab5860eccc net: smc91x: Fix m68k kernel compilation for ColdFire CPU
+d27c1f88a7f01e3d316c99cd5f1eee5aa8aa26b8 nilfs2: fix use-after-free of timer for log writer thread
+984a73f4f641bd2606ee3c321d506cbf4dbacf62 nilfs2: fix unexpected freezing of nilfs_segctor_sync()
+fbc1f98561c4f756df97b661fdc4a994506ba1ba nilfs2: fix potential hang in nilfs_detach_log_writer()
+f6be9a29829552dad8466f4f5159ea7005528d46 fs/ntfs3: Remove max link count info display during driver init
+a647a7fdaf595ef466f06f6addd0b6f6be118cf1 fs/ntfs3: Taking DOS names into account during link counting
+7b2db7e67a2848aabddb83e059bc8846c8a9e534 fs/ntfs3: Fix case when index is reused during tree transformation
+133a33135ec65f7a3f6a5a3b1d5609ea52f30a55 fs/ntfs3: Break dir enumeration if directory contents error
+6c261cff09d53515dcb3c31298dca3ae0415f4ac ksmbd: avoid to send duplicate oplock break notifications
+c850d22025dda80c0703a7fca68bad5c91266761 ksmbd: ignore trailing slashes in share paths
+39ffa909f1389bf714c2cda79c3a21ea3c25a743 ALSA: hda/realtek: fix mute/micmute LEDs don't work for ProBook 440/460 G11.
+ada986e0864a0e4be99de7a8373f743ac7782c13 ALSA: core: Fix NULL module pointer assignment at card init
+be74bc43b8d0e45d54d38eaa1332a3e4a4f30ab3 ALSA: timer: Set lower bound of start tick time
+24f97d7da79dbdf06b6b94d055614f102aed9796 ALSA: Fix deadlocks with kctl removals at disconnection
+125ac656e39a3681fce7e2ad97ffc48c7579b59d KEYS: asymmetric: Add missing dependency on CRYPTO_SIG
+8821176b68de0f480f4e5e59b59f633af7bf64ec KEYS: asymmetric: Add missing dependencies of FIPS_SIGNATURE_SELFTEST
 
---===============7780700045950751792==
+--===============2968928330052302282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa5588ac0188-78873b26799b.txt
+Content-Disposition: attachment; filename=revlist-78873b26799b-9f8dcaaa5a4d.txt
 
-2d04a5e3b896b16f0eac5bdb5b82450fc84ae4be Revert "arm64: fpsimd: Implement lazy restore for kernel mode FPSIMD"
-d54aec7bcb2787fbd1610a07e1e76b8148530107 arm64/fpsimd: Avoid erroneous elide of user state reload
-d8a58d8167587888e7a10c3720fb1e80d7de0aa4 Reapply "arm64: fpsimd: Implement lazy restore for kernel mode FPSIMD"
-445fe7f53e80c57df76c240cad010ed2bdd56160 tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
-3f761c435c52552e8b121df8109baca52ab95942 tty: n_gsm: fix missing receive state reset after mode switch
-4336641e5e6997464ad6806f2899e4b59808a270 speakup: Fix sizeof() vs ARRAY_SIZE() bug
-1a582fab0c9d1fe9816b5dc7fb6099c647c2c93c serial: sc16is7xx: fix bug in sc16is7xx_set_baud() when using prescaler
-6ed85b4c520d96fa87b032b8d74283442c7aea83 serial: 8250_bcm7271: use default_mux_rate if possible
-6c1fac01e3a00ea50db63ffec55701f812710bc5 serial: 8520_mtk: Set RTS on shutdown for Rx in-band wakeup
-b38927e66237f4e73f8611d0cff58c387f99e09c Input: try trimming too long modalias strings
-abb5209429d9f6e2532ef2c238ab28c42074b00d io_uring: fail NOP if non-zero op flags is passed in
-7d2cd605c4b817afbc00d79b2d82343375416a86 Revert "r8169: don't try to disable interrupts if NAPI is, scheduled already"
-2638ea2b0c8704d75098d31419f1991bf7c2c7bd r8169: Fix possible ring buffer corruption on fragmented Tx packets.
-6e5f8dda6a7347f581313061bb64c0671e790cb1 ring-buffer: Fix a race between readers and resize checks
-bac1491371c8cb8474cfee0667809292bb070fff net: mana: Fix the extra HZ in mana_hwc_send_request
-9431d1dac1a201743b88c18fe3199fe9679fffd7 tools/latency-collector: Fix -Wformat-security compile warns
-352f6ebfe5f28adf8775ce4582712e68469b20ad tools/nolibc/stdlib: fix memory error in realloc()
-8287ee176bf9efc191d5ed96711e904d7701c51d net: ti: icssg_prueth: Fix NULL pointer dereference in prueth_probe()
-ced4149b0b7fd267588c70fbdf09a19f716c6170 net: lan966x: remove debugfs directory in probe() error path
-78873b26799bf5bdd54ddbdb2bd6bd5c7d2d2c98 net: smc91x: Fix m68k kernel compilation for ColdFire CPU
+dc09115a2c58cd90ea65c448465edafaf5016479 Revert "arm64: fpsimd: Implement lazy restore for kernel mode FPSIMD"
+bef7a463697ad62e9d94828e34b14151decab588 arm64/fpsimd: Avoid erroneous elide of user state reload
+cc6d686433ddb22dd92c0112d5ae5c1e95bd4a53 Reapply "arm64: fpsimd: Implement lazy restore for kernel mode FPSIMD"
+e80c24fe1ffb4a4612e8d426eb9d28ac4dcd24e5 tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
+4713c9115c100b1d034733252558fef2796afc34 tty: n_gsm: fix missing receive state reset after mode switch
+90c1c58d939e994be0050c73eb4785e26d5c3349 speakup: Fix sizeof() vs ARRAY_SIZE() bug
+71836292547942b36cd01d98b2938d63e45f7032 serial: sc16is7xx: fix bug in sc16is7xx_set_baud() when using prescaler
+bc16b5470c566e05183233014e69c21a30326581 serial: 8250_bcm7271: use default_mux_rate if possible
+4c61443c08a501da7f5ca652710237f02b68c1da serial: 8520_mtk: Set RTS on shutdown for Rx in-band wakeup
+7ae7cd253766bc80adfdffa292eb25ed632744c4 Input: try trimming too long modalias strings
+40d44cbf1c20988bceab593fc9cdfdf8ecb23b19 io_uring: fail NOP if non-zero op flags is passed in
+604ecbae1cd76109e8cc9e8be9d1051904c7b5d1 Revert "r8169: don't try to disable interrupts if NAPI is, scheduled already"
+b36ebea9782062c33fd5230ddbe341521c1a0676 r8169: Fix possible ring buffer corruption on fragmented Tx packets.
+0f298e6b7d7cd96f5712bdbfcb72bb4d7a558f0c ring-buffer: Fix a race between readers and resize checks
+46c234f5476b141beb5f442e28a2cfad4d0d9af8 net: mana: Fix the extra HZ in mana_hwc_send_request
+d4a442d53b0f61157910f44256b3d2769dd09221 tools/latency-collector: Fix -Wformat-security compile warns
+6675ac6e1d9aa0300233a482e6367da66bb9249a tools/nolibc/stdlib: fix memory error in realloc()
+9a834154551a57ecbeb6a200fc20f959fc4c951e net: ti: icssg_prueth: Fix NULL pointer dereference in prueth_probe()
+bce37fac2acbd8cab2e0e4fbcfd7576c3bbaada6 net: lan966x: remove debugfs directory in probe() error path
+aa458e62a9d89ebc63c878dd020edf41c4041ea2 net: smc91x: Fix m68k kernel compilation for ColdFire CPU
+b5e6fc817b39f87848aeac5355f9ad35bde0dc55 nilfs2: fix use-after-free of timer for log writer thread
+1cbbeba651b47af0e85f0648a85d3523b81f75e2 nilfs2: fix unexpected freezing of nilfs_segctor_sync()
+ac1b80152975e2ba8796d2c273f0af8e6ea09921 nilfs2: fix potential hang in nilfs_detach_log_writer()
+03a96c450549e7f97933113d3a1307919cccee8e fs/ntfs3: Remove max link count info display during driver init
+4b976a560730cb8ebcbabc644c8e3ab27987bcf0 fs/ntfs3: Taking DOS names into account during link counting
+3a9489de2c10d192ba12d65af51b85232524055a fs/ntfs3: Fix case when index is reused during tree transformation
+7028a67ea68bee0dc99aff4818011d2cf134ebf9 fs/ntfs3: Break dir enumeration if directory contents error
+d6ca275c445d36d70faaaaa4dabff455c45127da ksmbd: avoid to send duplicate oplock break notifications
+27f9540e92d5e889c09d565237d1f08e1bbd2ffa ksmbd: ignore trailing slashes in share paths
+1423186722ad0d886b0cd39a97111f50015a50c1 ALSA: hda/realtek: fix mute/micmute LEDs don't work for ProBook 440/460 G11.
+6527439c878fdef6b2192ced2b15f928e98e360d ALSA: core: Fix NULL module pointer assignment at card init
+784492d29d26760407011c3a83f5464073c03308 ALSA: timer: Set lower bound of start tick time
+fdd91cf8b3eb6e0adcca0fc76b32d2b49915a1fe ALSA: Fix deadlocks with kctl removals at disconnection
+788ee9eccfcf8d23f06796b3f2cfb5b80d0e8041 KEYS: asymmetric: Add missing dependency on CRYPTO_SIG
+9f8dcaaa5a4d4aff50067f861a69d7783c5e3dd4 KEYS: asymmetric: Add missing dependencies of FIPS_SIGNATURE_SELFTEST
 
---===============7780700045950751792==
+--===============2968928330052302282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0564ba05ffd-b275d3a65234.txt
+Content-Disposition: attachment; filename=revlist-b275d3a65234-735d55123bec.txt
 
-2aef748fceeb4baf680d47185eee2184fe7f002a Revert "arm64: fpsimd: Implement lazy restore for kernel mode FPSIMD"
-81faf9dacb0e66e5b4419e3484a4683e97b49c91 arm64/fpsimd: Avoid erroneous elide of user state reload
-9d82a8fee4c96747994c63dcef614faf4e1b1d80 Reapply "arm64: fpsimd: Implement lazy restore for kernel mode FPSIMD"
-ebd70f81d82c76981e2fe9524774757706816d02 tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
-89a3cd8912e43766996bbcead057f4ea5db377be tty: n_gsm: fix missing receive state reset after mode switch
-70cf601dde95d618727eb4b668f5a960e29bc5ea speakup: Fix sizeof() vs ARRAY_SIZE() bug
-2e6acae58294fbd1479557ac98b007d9de9938c3 serial: sc16is7xx: fix bug in sc16is7xx_set_baud() when using prescaler
-c103feac8682b74b8de1e7696fa218c41dc09234 serial: 8250_bcm7271: use default_mux_rate if possible
-caa41973467e14982a80a8a2d549c4931e199b41 serial: 8520_mtk: Set RTS on shutdown for Rx in-band wakeup
-6b2dbac678e3b9e0617a6d056e50796497ee720f Input: try trimming too long modalias strings
-3b2bc735c8aea1e3e0e218d718e82a52377a9402 io_uring: fail NOP if non-zero op flags is passed in
-1ec108e8d2b8acb32def0e4416c8b6596e7a5820 io_uring/sqpoll: ensure that normal task_work is also run timely
-90da78143e018bd20a6de747f15f1f24b15151f7 Revert "r8169: don't try to disable interrupts if NAPI is, scheduled already"
-7e46b1795d1c031d1d786616e0a7509d8131d866 r8169: Fix possible ring buffer corruption on fragmented Tx packets.
-4252f944474189b8a5e14eb7b01331664fec9c94 ring-buffer: Fix a race between readers and resize checks
-dd59620c191b9b4f1e6e11f493619a8e15ee0743 net: mana: Fix the extra HZ in mana_hwc_send_request
-3bfd2eca5d509c1ec98698fac864d8fbfa8e1a3a tools/latency-collector: Fix -Wformat-security compile warns
-5e41e3fc04458b7b4a59a8a6cb1fd44ec60a9eb7 tools/nolibc/stdlib: fix memory error in realloc()
-e0a7f4266511a9aac2588cf1ed67bb67869827b3 net: ti: icssg_prueth: Fix NULL pointer dereference in prueth_probe()
-572db0fc592fbe6e3d625ac3a9230a9750c40c3b net: lan966x: remove debugfs directory in probe() error path
-0cad4b834b5d202cebaedeac6621c4f038f1c0c3 net: smc91x: Fix m68k kernel compilation for ColdFire CPU
-d1bfba3e9500b86e91f7dd8eb5a33f9c4ff82b4c f2fs: fix false alarm on invalid block address
-b275d3a652345aa43159909d20df7299bf8620ad dt-bindings: adc: axi-adc: add clocks property
+482ccb9668184e26be5f953707dc8bcdf6d61f55 Revert "arm64: fpsimd: Implement lazy restore for kernel mode FPSIMD"
+995735b48b75c238a065a898d1857fa81305031e arm64/fpsimd: Avoid erroneous elide of user state reload
+5dea38986cf8b50e77834adb7fbbb42048bccd27 Reapply "arm64: fpsimd: Implement lazy restore for kernel mode FPSIMD"
+19caea61b40fa4433dfc7832db636fae6bce3a0e tty: n_gsm: fix possible out-of-bounds in gsm0_receive()
+96c0de85ce86c1c30930ce5c13e16809bf81703e tty: n_gsm: fix missing receive state reset after mode switch
+4e1b21825f2a163b1e4875be4636511f507cda8f speakup: Fix sizeof() vs ARRAY_SIZE() bug
+3b4aa441c66ac1df689397925e13e4bfd4c3be34 serial: sc16is7xx: fix bug in sc16is7xx_set_baud() when using prescaler
+b8f466d57b256a91b162df824a6980bb9ceddae9 serial: 8250_bcm7271: use default_mux_rate if possible
+f66ee110939a7cd8202b54797e69d358bfb3459b serial: 8520_mtk: Set RTS on shutdown for Rx in-band wakeup
+6bfa9d87728eb247c593dc3392f69433f3ea7ac2 Input: try trimming too long modalias strings
+a9ec72c3ac457c42adc0792ccf28ae3ae9b47b26 io_uring: fail NOP if non-zero op flags is passed in
+4159b2fefe4eaf4c6f4f37c248761399564f6f4d io_uring/sqpoll: ensure that normal task_work is also run timely
+4b0b740534fe70c6999e6a572f71dc47d343585d Revert "r8169: don't try to disable interrupts if NAPI is, scheduled already"
+eb7d0e6a8f9ba22f1f5a96d1502f3200f2cc1d32 r8169: Fix possible ring buffer corruption on fragmented Tx packets.
+f30923418fd76457fecfef9958421f56b59d0720 ring-buffer: Fix a race between readers and resize checks
+161af3f40ce064040fc8015e6d05ae14e817d286 net: mana: Fix the extra HZ in mana_hwc_send_request
+f732c7a85646b0f3b03a11698de9ed7a5c0473aa tools/latency-collector: Fix -Wformat-security compile warns
+5541b2cfde4f73360cfb898667894958c482c2bc tools/nolibc/stdlib: fix memory error in realloc()
+720d0f4e27a3b088996c7212a92087a7c58a07d7 net: ti: icssg_prueth: Fix NULL pointer dereference in prueth_probe()
+6f986f581d2fbff6bec40d23d650072e46219313 net: lan966x: remove debugfs directory in probe() error path
+5e8a422099b60e003356f462f422a23689d399a3 net: smc91x: Fix m68k kernel compilation for ColdFire CPU
+fb80dd9d4d4a1b7df61aaa448d44e46e32d0e194 f2fs: fix false alarm on invalid block address
+5891321be9a0e2deabdfee7ab8ee0ed9f77e5c87 dt-bindings: adc: axi-adc: add clocks property
+47a0b6f80e7615966935d14c99ccda265657542a nilfs2: fix use-after-free of timer for log writer thread
+54681cbd6e02f9f32f8e54d445c6046cc449768f nilfs2: fix unexpected freezing of nilfs_segctor_sync()
+a9f64c6e3ef0e4cc9ef0abdf5b126bf296c36644 nilfs2: fix potential hang in nilfs_detach_log_writer()
+7ddeb765bd05edd240ebd8e5e01bac5f76f74854 fs/ntfs3: Remove max link count info display during driver init
+8de36ff4c1507d5bfc12b888db87780ee14e877e fs/ntfs3: Taking DOS names into account during link counting
+bcb0227bde15994aeee87502216aeb72241449a1 fs/ntfs3: Fix case when index is reused during tree transformation
+7f5ee96782da801281444bac13f23d21387e1e58 fs/ntfs3: Break dir enumeration if directory contents error
+2ddbe6559d17aa3d6416524c5ca4fe739c4e71b4 ksmbd: avoid to send duplicate oplock break notifications
+3cb76b05505e79400d6cbcb56516e5083cdc1cc7 ksmbd: ignore trailing slashes in share paths
+c460f068fcadb159d361c740b63c40a2db8a20aa ALSA: hda/realtek: fix mute/micmute LEDs don't work for ProBook 440/460 G11.
+cc59cfab603200ba1d1fc60322ca4cdef502714d ALSA: core: Fix NULL module pointer assignment at card init
+d25e102b629d0fa77d666e0c0885915c2914b2cc ALSA: timer: Set lower bound of start tick time
+e46f0c01d0aa8908bf31001c7ed21e64adaef3a3 ALSA: Fix deadlocks with kctl removals at disconnection
+c05345d9039ec30967e3fa00528784ff26841c30 KEYS: asymmetric: Add missing dependency on CRYPTO_SIG
+735d55123beccd507d2adb910e32ed528db6aa8a KEYS: asymmetric: Add missing dependencies of FIPS_SIGNATURE_SELFTEST
 
---===============7780700045950751792==--
+--===============2968928330052302282==--
