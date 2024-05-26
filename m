@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2797636487906612650=="
+Content-Type: multipart/mixed; boundary="===============7962035069066734782=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sun, 26 May 2024 11:37:16 -0000
-Message-Id: <171672343613.28690.9651738027991401675@gitolite.kernel.org>
+Date: Sun, 26 May 2024 11:37:31 -0000
+Message-Id: <171672345100.28934.16280246725479422702@gitolite.kernel.org>
 
---===============2797636487906612650==
+--===============7962035069066734782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools
+  - ref: refs/heads/perf-tools
     old: fdd0ae72b34e56eb5e896d067c49a78ecb451032
     new: 30d85e5f61d57c84047b87c0f6e36e8f45a4167d
     log: revlist-fdd0ae72b34e-30d85e5f61d5.txt
 
---===============2797636487906612650==
+--===============7962035069066734782==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b6394d6f715919c053c1450ef0d7c5e517b53764 Merge tag 'pull-misc' of git://git.kern
 29c73fc794c83505066ee6db893b2a83ac5fac63 Merge tag 'perf-tools-for-v6.10-1-2024-05-21' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 30d85e5f61d57c84047b87c0f6e36e8f45a4167d Revert "perf parse-events: Prefer sysfs/JSON hardware events over legacy"
 
---===============2797636487906612650==--
+--===============7962035069066734782==--
