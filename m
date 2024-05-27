@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2061643030198216985=="
+Content-Type: multipart/mixed; boundary="===============0345133847693198239=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 27 May 2024 02:50:16 -0000
-Message-Id: <171677821698.32446.5452631100001880107@gitolite.kernel.org>
+Date: Mon, 27 May 2024 02:50:33 -0000
+Message-Id: <171677823340.32599.12376500206867204825@gitolite.kernel.org>
 
---===============2061643030198216985==
+--===============0345133847693198239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-fixes
+  - ref: refs/heads/counter-current
     old: 39cd87c4eb2b893354f3b850f916353f2658ae6f
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     log: revlist-39cd87c4eb2b-1613e604df0c.txt
 
---===============2061643030198216985==
+--===============0345133847693198239==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============2061643030198216985==--
+--===============0345133847693198239==--
