@@ -1,31 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============4606580068859429534=="
+Content-Type: multipart/mixed; boundary="===============4278108509073839924=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 27 May 2024 08:50:50 -0000
-Message-Id: <171679985024.6372.13240120945160875542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 27 May 2024 08:51:33 -0000
+Message-Id: <171679989349.6682.7921856880393242531@gitolite.kernel.org>
 
---===============4606580068859429534==
+--===============4278108509073839924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/ras/core
-    old: 108c6494bdf1dfeaefc0a506e2f471aa92fafdd6
-    new: 5b9d292ea87c836ec47483f98344cb0e7add82fe
-    log: revlist-108c6494bdf1-5b9d292ea87c.txt
+  - ref: refs/heads/for-next
+    old: 3d679a406f3a323361247c42268ed6031d366e61
+    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    log: revlist-3d679a406f3a-1613e604df0c.txt
 
---===============4606580068859429534==
+--===============4278108509073839924==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher krzk@kernel.org 1716799891 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1716799890-3177122edd81ce1b6b9dba42355f8ad6ccfbdadb
+
+3d679a406f3a323361247c42268ed6031d366e61 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmZUSZMQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/CtD/9Nsjlu+aOrOkUa5mT426C+ag7zok8JEfQH
+37UhjBua+eIr8wyEQZWqBB2Dam6ejeB3fVaqykZ1lBvU/dEYs7nJMTuh9jS2+W+f
+qxXFKWCYUvMTnLB2wBKcVLyGxCDVx+0qLQ8tNVSLTTpbRnNvHOw8V569tiO4lE9z
+YVdMUl5Hx4llTe6uB16su9mSymk7sp1qZBN1ICsr4KHEdfKDTNI20HuQn1AlW5cA
+nVR0jy+kj59gPS6BXbuBANkah64U8O6KoSnMrraVBNCM8Slt6KVvmGYfEscUv2W6
+GgTKebPLka5gD6HtjqN+rf4IlRvEVkDlQMF6TQv+jn1qyAydQx6XQykoWtnqBARw
+ys1Vahm/2PkuB4sUmPMT7hd2pvBRiveo5WPX/bM8pz+7WgAo3C06GWDt+jeSiMM1
+fd0VhZWTB/MsPTV7m7C8D2XtH7sugl1Tr91wDuoDmjYuF+sgfrgv3bdkR1MyRt76
+yCBL0x4Oy3fLBZAPZKK/GSF56jw66J7MsIbsvTNyrMsKIWNuhWtC0ctLljWBaHH+
+dWN+jPQNDy/r8d579+QO3dUxmJFW8pDWqYzl6gxXpnuTe9Kf3a7LjIpjD75LfFeK
+19CSC88hzC3RRTyxgK55/6bY9Tz3PwyGp8EYQjzJj5VVUuXvmGH7eDj2jcURnXoK
+vKz3aWWcOw==
+=HfRC
+-----END PGP SIGNATURE-----
+
+--===============4278108509073839924==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-108c6494bdf1-5b9d292ea87c.txt
+Content-Disposition: attachment; filename=revlist-3d679a406f3a-1613e604df0c.txt
 
+ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
+a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
 3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
 3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
@@ -1048,7 +1081,5 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-ede18982f19942c7333530cf4fbf271e318df1b2 x86/mce/inject: Only write MCA_MISC when a value has been supplied
-5b9d292ea87c836ec47483f98344cb0e7add82fe x86/mce: Remove unused variable and return value in machine_check_poll()
 
---===============4606580068859429534==--
+--===============4278108509073839924==--
