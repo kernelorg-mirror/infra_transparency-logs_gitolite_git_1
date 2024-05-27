@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 27 May 2024 13:54:05 -0000
-Message-Id: <171681804546.29302.11342133812673393713@gitolite.kernel.org>
+Date: Mon, 27 May 2024 13:55:09 -0000
+Message-Id: <171681810952.31314.2331691998363989959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental
-    old: 7b17a5cbfe4e66ab22903fe07bf31354b37c5cb0
-    new: 90a24d504c32442f044fd6afb7d58d8ddbd070b9
+  - ref: refs/heads/dev
+    old: ce8d7ebbbd0275afd9c7597c87de4ca6a76213b3
+    new: ad060055eebf3342d1e12d3da8c14b8194bce364
     log: |
-         898f8c9cf6b6906909bfbaa58c35eedefcd71f80 erofs-utils: lib: provide helper to disable hashmap shrinking
-         f30becbc74fb2968355333201affa6aa803b92cd erofs-utils: lib: improve freeing hashmap in erofs_blob_exit()
-         90a24d504c32442f044fd6afb7d58d8ddbd070b9 erofs-utils: lib: drop prefix_sha256 digests
+         f9efcef2eb3ba82b4e7c053750a8cb8e2f3fe282 erofs-utils: unify the tree traversal for the rebuild mode
+         ad060055eebf3342d1e12d3da8c14b8194bce364 erofs-utils: lib: fix uncompressed packed inode
          
