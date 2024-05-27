@@ -1,30 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0722513631212135289=="
+Content-Type: multipart/mixed; boundary="===============8059618367245733927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Mon, 27 May 2024 09:05:56 -0000
-Message-Id: <171680075672.16893.10734465936008994744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 27 May 2024 09:06:04 -0000
+Message-Id: <171680076499.17332.18384354929520033312@gitolite.kernel.org>
 
---===============0722513631212135289==
+--===============8059618367245733927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: kvalo
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 838c7b8f1f278404d9d684c34a8cb26dc41aaaa1
+  - ref: refs/heads/review-ilpo
+    old: a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-838c7b8f1f27-1613e604df0c.txt
+    log: revlist-a38297e3fb01-1613e604df0c.txt
 
---===============0722513631212135289==
+--===============8059618367245733927==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1716800758 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1716800757-e8fa852f337f69b083989902a60c77670a117cd3
+
+a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 refs/heads/review-ilpo
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZlRM+AAKCRBZrE9hU+XO
+Mbi/AQDsQBkb6KPRUJM/C78lbBL6EglVwsVP7QD19L0WlUgP2QD+OGcJK5nIX0aL
+cmSzi9z2BGLbt4N1pK9vDMAY/BgMrgs=
+=kHMV
+-----END PGP SIGNATURE-----
+
+--===============8059618367245733927==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-838c7b8f1f27-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-a38297e3fb01-1613e604df0c.txt
 
 ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
 a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
@@ -1051,4 +1072,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============0722513631212135289==--
+--===============8059618367245733927==--
