@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 27 May 2024 13:55:09 -0000
-Message-Id: <171681810952.31314.2331691998363989959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Mon, 27 May 2024 13:56:27 -0000
+Message-Id: <171681818722.31887.1470289509414480071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/dev
-    old: ce8d7ebbbd0275afd9c7597c87de4ca6a76213b3
-    new: ad060055eebf3342d1e12d3da8c14b8194bce364
+  - ref: refs/heads/tpm2key-v6
+    old: 2cb4319a2714d0b1ca308b2e8039eabac0c7e62b
+    new: 9ee263d95b12a67095b49704b67ccd5aebd117a3
     log: |
-         f9efcef2eb3ba82b4e7c053750a8cb8e2f3fe282 erofs-utils: unify the tree traversal for the rebuild mode
-         ad060055eebf3342d1e12d3da8c14b8194bce364 erofs-utils: lib: fix uncompressed packed inode
+         9ee263d95b12a67095b49704b67ccd5aebd117a3 keys: asymmetric: Add tpm2_key_ecdsa
          
