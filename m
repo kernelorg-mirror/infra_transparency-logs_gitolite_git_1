@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2461487743679210982=="
+Content-Type: multipart/mixed; boundary="===============0553079758836888000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 27 May 2024 07:37:32 -0000
-Message-Id: <171679545282.14783.7245456398761924546@gitolite.kernel.org>
+Date: Mon, 27 May 2024 07:37:47 -0000
+Message-Id: <171679546727.14963.8394257473764065296@gitolite.kernel.org>
 
---===============2461487743679210982==
+--===============0553079758836888000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: e6bc5a03785928d2da81ba779676e044da5217d7
-    new: 76c31fb816a7366cb6de2add5b416d827a204712
-    log: revlist-e6bc5a037859-76c31fb816a7.txt
-  - ref: refs/tags/renesas-devel-2024-05-27-v6.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 173182d9ec3164fe743623e12c4615bf1e766c93
-  - ref: refs/tags/v6.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cd214efd16e30bf1aa40ccfaaf9177f47dd21fd5
+  - ref: refs/heads/next
+    old: 1e2995ef0bb889af02b852db23914354d7ecb763
+    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    log: revlist-1e2995ef0bb8-1613e604df0c.txt
 
---===============2461487743679210982==
+--===============0553079758836888000==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e6bc5a037859-76c31fb816a7.txt
+Content-Disposition: attachment; filename=revlist-1e2995ef0bb8-1613e604df0c.txt
 
+ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
 a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
 3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
 3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
@@ -1055,6 +1050,5 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-76c31fb816a7366cb6de2add5b416d827a204712 Merge tag 'v6.10-rc1' into renesas-devel
 
---===============2461487743679210982==--
+--===============0553079758836888000==--
