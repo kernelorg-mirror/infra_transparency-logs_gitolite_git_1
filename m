@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3457762043011920671=="
+Content-Type: multipart/mixed; boundary="===============5282231636678355885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 27 May 2024 11:05:49 -0000
-Message-Id: <171680794973.21337.16963785377137592772@gitolite.kernel.org>
+Date: Mon, 27 May 2024 11:06:30 -0000
+Message-Id: <171680799087.21932.12816554827359757911@gitolite.kernel.org>
 
---===============3457762043011920671==
+--===============5282231636678355885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: 1c80d50bb697f84bfbc3876e08e1a1d42bfbdddb
-    new: 3bd580ac1ef81cc3b27caa7843c9fe35bee8eaf4
-    log: revlist-1c80d50bb697-3bd580ac1ef8.txt
+  - ref: refs/heads/riscv-dt-fixes
+    old: e0503d47e93dead8c0475ea1eb624e03fada21d3
+    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    log: revlist-e0503d47e93d-1613e604df0c.txt
 
---===============3457762043011920671==
+--===============5282231636678355885==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1c80d50bb697-3bd580ac1ef8.txt
+Content-Disposition: attachment; filename=revlist-e0503d47e93d-1613e604df0c.txt
 
+ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
+a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
+3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
+3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
 0df2b9ed489a06643eaaa150a57ab01fa9ad3005 ALSA: hda/realtek - fixed headset Mic not show
 d731b1ed15052580b7b2f40559021012d280f1d9 ALSA: hda/realtek: Drop doubly quirk entry for 103c:8a2e
 2bd5059c6cc04b02073d4d9f57137ab74e1d8e7a Merge branches 'arm/renesas', 'arm/smmu', 'x86/amd', 'core' and 'x86/vt-d' into next
@@ -1045,10 +1050,5 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-709407de64d971e7f1e6c26b8b845df5c98b56be dt-bindings: riscv: Add T-HEAD C908 compatible
-5a5dd2442ad01f4c35e87366d97f68c0f7d92679 dt-bindings: add Canaan K230 boards compatible strings
-be328d62858191fada5b1de905fdb27f94bca426 dt-bindings: timer: Add Canaan K230 CLINT
-701df5deef6c63e16bea0596da7f9c0ca47d66e5 dt-bindings: interrupt-controller: Add Canaan K230 PLIC
-3bd580ac1ef81cc3b27caa7843c9fe35bee8eaf4 riscv: dts: add initial canmv-k230 and k230-evb dts
 
---===============3457762043011920671==--
+--===============5282231636678355885==--
