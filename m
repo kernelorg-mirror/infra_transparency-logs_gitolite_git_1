@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8552782615643850515=="
+Content-Type: multipart/mixed; boundary="===============0622105055336188035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 27 May 2024 22:02:27 -0000
-Message-Id: <171684734771.1504.13148152612699406825@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Mon, 27 May 2024 22:10:17 -0000
+Message-Id: <171684781758.8736.8833476926805061432@gitolite.kernel.org>
 
---===============8552782615643850515==
+--===============0622105055336188035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
 user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: 5d10a157ebe02ac9b8abacfd529f8b045e8aa41b
-    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-5d10a157ebe0-1613e604df0c.txt
+  - ref: refs/heads/fixes
+    old: 4cece764965020c22cff7665b18a012006359095
+    new: 1bbf5a2156fa246ab54a15412116458006462038
+    log: revlist-4cece7649650-1bbf5a2156fa.txt
 
---===============8552782615643850515==
+--===============0622105055336188035==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5d10a157ebe0-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-4cece7649650-1bbf5a2156fa.txt
 
-ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
 a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
 3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
 3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
@@ -1050,5 +1049,6 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
+1bbf5a2156fa246ab54a15412116458006462038 auxdisplay: charlcd: Provide a forward declaration
 
---===============8552782615643850515==--
+--===============0622105055336188035==--
