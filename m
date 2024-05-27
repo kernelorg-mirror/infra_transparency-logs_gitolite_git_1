@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5893869410103005659=="
+Content-Type: multipart/mixed; boundary="===============7879163158867809181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 27 May 2024 08:39:18 -0000
-Message-Id: <171679915888.29453.503901813910111260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 27 May 2024 08:39:36 -0000
+Message-Id: <171679917661.29656.3566985860769561120@gitolite.kernel.org>
 
---===============5893869410103005659==
+--===============7879163158867809181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     log: revlist-a38297e3fb01-1613e604df0c.txt
 
---===============5893869410103005659==
+--===============7879163158867809181==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============5893869410103005659==--
+--===============7879163158867809181==--
