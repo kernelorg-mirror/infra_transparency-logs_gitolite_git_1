@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============9011921508465515630=="
+Content-Type: multipart/mixed; boundary="===============9201679931628839548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Mon, 27 May 2024 08:35:33 -0000
-Message-Id: <171679893371.25259.8012646366082172199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 27 May 2024 08:35:35 -0000
+Message-Id: <171679893506.25398.4040656027771184298@gitolite.kernel.org>
 
---===============9011921508465515630==
+--===============9201679931628839548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/fixes
-    old: 4cece764965020c22cff7665b18a012006359095
+  - ref: refs/heads/for-next
+    old: e5b3732a9654f26d21647d9e7b4fec846f6d4810
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-4cece7649650-1613e604df0c.txt
+    log: revlist-e5b3732a9654-1613e604df0c.txt
 
---===============9011921508465515630==
+--===============9201679931628839548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1716798931 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1716798930-a0d4d34967aaa672a26429c45615f6a92381078e
+pusher krzk@kernel.org 1716798933 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1716798932-ef50c015f111ed9cb0a22da2c4671fe3f2668bf1
 
-4cece764965020c22cff7665b18a012006359095 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 refs/heads/fixes
+e5b3732a9654f26d21647d9e7b4fec846f6d4810 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmZURdQQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1wccD/9QLKOYE1yU0SOcC2dXQb62isG18mlDuG6Q
-8hmSwJCb5uDrdPufBz8LL0DoTiyOlCl9NwS4o8BGaV0jkhXLq71crB7L9WW7+aly
-PZlWmaUZQYiFtywd3mDdGTgvP+zgMHTEbuu7kRkxKf8qGENXoHHq7weB5WE30k5X
-FwYZP8G2+yMAmNa213/Ggr6D1VO/lhmh+uYke1RfGuxsRCwE4U8/JF4Te90OKl5Y
-3xKwcmiiAed3ZDEI70LFdo1Y9hGF2XOWuumJPLPWE9vLxCBcBsh4/ReqGVd/6FyP
-5cVkQEdfW5G55bJN79c7+M1k9im90rLmeqlrFvQndw2e8OeU23ouHj4kxQX2t5WN
-jJDuand8T5RHuADTqBnOZSC6NlJzeykT1SOMs1Yo+eBjMECkQ+1XP9zd7Zg5w003
-MVhyVtaTGpWFg0XM0r09fwb+0NVaPwn0X5muOzg1/LVJAheRdQokYQYPG6pLJ2yj
-hcnonx4nhQTbF2rbuBC3OGs0nPsYsoSOz2/t5Seay6RT242zH3xRJ4qsLAy8ogVp
-ge2ytlR61xKUq+1AWBZsNrwdK9caaey/M6nigLiWY3JNuXAMcmW+UNWktHGSJOJS
-W2dmCXAWa87K5Vzakq9wdKFCZ6xtoICDEVPi1Ldk1vlyMGmsAbE0/9ObdHhqOA9E
-k2JJahZT6w==
-=PmpO
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmZURdUQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/pdD/9srAJJtRSw7/uxANQUKl3Z0z/oTGTKhJS/
+5yX2vnkZsugY3wThc4Y2tJX5lhY7fA39mV347nzGSoxJZSh9gJbh1XwkQB2rb2iJ
+O4JLTVDKul03DwtGpXxcoV9132+E6aUBPx0qwPQ3fOWtlRNMobs+IHK3lKZIXaD2
+Can7yqFEbC2IGLlKYnfdc/KvqJzCeshHjnxClo8e+Z/qt1gB1rr0IH2fWsetPVb/
+hWdizTnLTM11e0QJwMWaUl1yhPZjmnY9D0VjtqrndGOy8nEsNpJxsnkTB3SvYAhF
+5mpbuQeYqyov+hMO42tSiw+vnK4rbtb3bw3LqKD2/ddnqPu+eKM++4mxkfrQeMVG
+fj5/OlvETIXPrFdMslvyn+Xo+Uj9uh915+1uhBhHKx6gxailGQD7OavnvOL1F80n
+fhHYXyfa9JYqA5+Pc0PK1YzUZQNDu38IpdL2+qj4kPl+HEeAL54+HFiluZdM1S1d
+dX08drKcRXqnDZ0vabuttoA4sWgkIztChU50EqihQ/DXwEN6BukV6Bq49ekgMHhu
+8MCNGrxI9AJBL4tx82VYmprHwEplS1+OY4MzsscbalmiY3pqzCcy6UrjHxP/IB8F
+Avn1ba3agcZYVa+qs1ibMFF5/ljDmV6rYrYTPtocQqLr/CEEQmq1OnQONLo6pdfL
+r8lJqF6NUw==
+=pObF
 -----END PGP SIGNATURE-----
 
---===============9011921508465515630==
+--===============9201679931628839548==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4cece7649650-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-e5b3732a9654-1613e604df0c.txt
 
 ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
 a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
@@ -1082,4 +1082,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============9011921508465515630==--
+--===============9201679931628839548==--
