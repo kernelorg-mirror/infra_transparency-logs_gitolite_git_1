@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Mon, 27 May 2024 14:42:15 -0000
-Message-Id: <171682093540.32763.9401085393854787973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 27 May 2024 14:49:05 -0000
+Message-Id: <171682134552.4526.5246538398457264857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/tags/pmdomain-v6.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: fa6ed00217cc6f73f32a5c865d0dc93da3f070fe
-  - ref: refs/tags/v6.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cd214efd16e30bf1aa40ccfaaf9177f47dd21fd5
+  - ref: refs/heads/kdevops
+    old: ff507bad486928470c3a3b41ba284ccf476d9476
+    new: 9ca7aa8e3b40d3c89a27ab6b387c91e3e4358c27
+    log: |
+         9ca7aa8e3b40d3c89a27ab6b387c91e3e4358c27 XXX: try to manage floor value with cmpxchg128
+         
