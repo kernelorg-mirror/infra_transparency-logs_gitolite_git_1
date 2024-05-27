@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8318025412708234075=="
+Content-Type: multipart/mixed; boundary="===============4300721732092313879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 27 May 2024 00:48:17 -0000
-Message-Id: <171677089761.1197.14393575424058441867@gitolite.kernel.org>
+Date: Mon, 27 May 2024 00:48:21 -0000
+Message-Id: <171677090194.1321.1667002695318635224@gitolite.kernel.org>
 
---===============8318025412708234075==
+--===============4300721732092313879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/fixes
-    old: 1e0fb113646182e073539db96016b00cfeb18ecc
+  - ref: refs/heads/for-next
+    old: 55f7073f6f59ef2c9e98b70f74118dba62e1aabc
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-1e0fb1136461-1613e604df0c.txt
+    log: revlist-55f7073f6f59-1613e604df0c.txt
 
---===============8318025412708234075==
+--===============4300721732092313879==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1e0fb1136461-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-55f7073f6f59-1613e604df0c.txt
 
 ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
 a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
@@ -1051,4 +1051,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============8318025412708234075==--
+--===============4300721732092313879==--
