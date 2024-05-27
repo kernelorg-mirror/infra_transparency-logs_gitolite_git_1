@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7573581227314909285=="
+Content-Type: multipart/mixed; boundary="===============5014979917247983410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 27 May 2024 13:02:37 -0000
-Message-Id: <171681495732.22682.48208559135426991@gitolite.kernel.org>
+Date: Mon, 27 May 2024 13:03:09 -0000
+Message-Id: <171681498992.22941.10726363214068854517@gitolite.kernel.org>
 
---===============7573581227314909285==
+--===============5014979917247983410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
-  - ref: refs/heads/for-6.10
-    old: 74b38cd77d3eb63c6d0ad9cf2ae59812ae54d3ee
+  - ref: refs/heads/for-linus
+    old: 81d3d32de658ad06511e6406a38f837e4db4ef03
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-74b38cd77d3e-1613e604df0c.txt
+    log: revlist-81d3d32de658-1613e604df0c.txt
+  - ref: refs/heads/for-next
+    old: 81d3d32de658ad06511e6406a38f837e4db4ef03
+    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    log: revlist-81d3d32de658-1613e604df0c.txt
 
---===============7573581227314909285==
+--===============5014979917247983410==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-74b38cd77d3e-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-81d3d32de658-1613e604df0c.txt
 
 e3193f0fbd6d83510ff6879ac248f42a7c0fefe7 drm/panthor: Make sure the tiler initial/max chunks are consistent
 69a429905ceccad547e4a532b08f9d32c7f3422a drm/panthor: Relax the constraints on the tiler chunk size
@@ -1051,4 +1055,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============7573581227314909285==--
+--===============5014979917247983410==--
