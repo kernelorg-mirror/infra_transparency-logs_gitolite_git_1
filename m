@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5219698855835714982=="
+Content-Type: multipart/mixed; boundary="===============7564840971945756295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 27 May 2024 21:57:19 -0000
-Message-Id: <171684703934.29951.3081049204942646798@gitolite.kernel.org>
+Date: Mon, 27 May 2024 21:57:26 -0000
+Message-Id: <171684704694.30084.1228559030899436367@gitolite.kernel.org>
 
---===============5219698855835714982==
+--===============7564840971945756295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-andy
     old: ecc4b1418e2399753af7ef304d01f45e8e942286
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     log: revlist-ecc4b1418e23-1613e604df0c.txt
 
---===============5219698855835714982==
+--===============7564840971945756295==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============5219698855835714982==--
+--===============7564840971945756295==--
