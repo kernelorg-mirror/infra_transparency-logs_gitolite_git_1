@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2165940821448527081=="
+Content-Type: multipart/mixed; boundary="===============2145631460554342473=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Mon, 27 May 2024 00:27:07 -0000
-Message-Id: <171676962798.17781.7019974109423100960@gitolite.kernel.org>
+Date: Mon, 27 May 2024 00:27:52 -0000
+Message-Id: <171676967261.18111.12393288694667020594@gitolite.kernel.org>
 
---===============2165940821448527081==
+--===============2145631460554342473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-next
-    old: 275654c02f0ba09d409c36d71dc238e470741e30
-    new: 36f53d622a216ce80e568b8ca899bfbacb2592d4
-    log: revlist-275654c02f0b-36f53d622a21.txt
+  - ref: refs/heads/for-linux-next
+    old: 7a5bdb7ca1b4bb4ffb20ea610ef4e09c56552667
+    new: fb6e82e968ca781a108fdae1cf66ae0bda9bfba6
+    log: revlist-7a5bdb7ca1b4-fb6e82e968ca.txt
 
---===============2165940821448527081==
+--===============2145631460554342473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-275654c02f0b-36f53d622a21.txt
+Content-Disposition: attachment; filename=revlist-7a5bdb7ca1b4-fb6e82e968ca.txt
 
 782e5e7925880f737963444f141a0320a12104a5 drm/vmwgfx: Fix Legacy Display Unit
 27906e5d78248b19bcdfdae72049338c828897bb drm/ttm: Print the memory decryption status just once
@@ -63,5 +63,6 @@ e64e8f7c178e5228e0b2dbb504b9dc75953a319f drm/amdgpu/atomfirmware: add intergrate
 c99eb9cc2a5249b07abf1dd70bd0285f8a8cdc71 Merge tag 'amd-drm-fixes-6.10-2024-05-22' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
 32a0bb7ef217aa37e6b67ca7950f5e504312ed72 Merge tag 'drm-misc-next-fixes-2024-05-23' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
 36f53d622a216ce80e568b8ca899bfbacb2592d4 Merge tag 'drm-misc-fixes-2024-05-16' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
+fb6e82e968ca781a108fdae1cf66ae0bda9bfba6 drm/exynos: hdmi: report safe 640x480 mode as a fallback when no EDID found
 
---===============2165940821448527081==--
+--===============2145631460554342473==--
