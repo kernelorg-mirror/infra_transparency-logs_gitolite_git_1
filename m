@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8161920862216944351=="
+Content-Type: multipart/mixed; boundary="===============5973604452639543842=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 27 May 2024 06:14:03 -0000
-Message-Id: <171679044368.17043.17170717243548000109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 27 May 2024 06:14:32 -0000
+Message-Id: <171679047289.17303.6398597699691556169@gitolite.kernel.org>
 
---===============8161920862216944351==
+--===============5973604452639543842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
@@ -24,38 +24,38 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: cd214efd16e30bf1aa40ccfaaf9177f47dd21fd5
 
---===============8161920862216944351==
+--===============5973604452639543842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1716790441 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1716790441-c8c3fe3b96d1f22f4fd358e0a77ac84bd38c0be0
+pusher krzk@kernel.org 1716790471 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1716790470-9acd1df8dad2b21ea6202604b34cec6cc8cd0cfe
 
 a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 refs/heads/master
 0000000000000000000000000000000000000000 cd214efd16e30bf1aa40ccfaaf9177f47dd21fd5 refs/tags/v6.10-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmZUJKkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD12ngEACHKv6fCil5ymCEzZ570TM6SVLnMODUm+kv
-swXBScEJSpmgsbwLCmJoLJlh2E5DHhEAJk9fPqnZdJdetOBhEJTHv2T+S+DJZQL5
-LZQ1r2bzzrB/TdcGhqnmlovSovUpkxFHdvKIdSKcsOpiKOIUP5NcMHF4VwxxMsTL
-pdnVU11JMrw19YNuCaEkpBB+Yeugt8jnFS0nuuTwaYe/qYfc47rsPSBv35O1Qt32
-/dzIaDKVT/ktc/ZZYMKv9rpOQg/RgycEhhDovuW8IyKhv/tzJoIXe37dGJBe8Yz8
-Rf+x6F2gmVoEGq9ylGvrX22r4cg/pbJPqNCZ1O4W9Q+quYdQ/Ypgfumi1IxaVmKQ
-kpMdhdutdk3lZ3oN26mZimdpE83vM+Ed2JUknLf52SM40QIpPyg9mkW0INwvZiLa
-DagNKUwzuLMBQD1ZevdZXukQZoNh/3VYLuYWDxo3NkV5Qq95SVtQIrxP7rICS1rR
-LXOgRdS5nTt1Y+GK0+4BeQ49g/Xnzi9sBBtbAK1l03akbJ5xT2o3GarTN7TQqFPI
-OIdAdjiX1xhuDplMOeAi3K2ZVoFiqo5/HgVZzC8v7vPjkqCs5LUCvBAA5hJKsxaL
-0f0dR05PVwdtJzQb7bU3cziy//1WZ7TNa62hDLCvvVniJYEFChpXNPdevIUGEkDc
-SQthOendjA==
-=RUw3
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmZUJMcQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1zf+D/0QKnMqAA/fIAut/DHhvCsVxCNnrq0a/fA8
+HkSxFiUdA9qRDHKtD2G+GDoOjTDgclEBB6lZcSUaN+gXuUQS0t6TlA4Uj6/F05xr
+JuyUvRzHued0eqjKm2coF7IT1yA0ar3UDt58vtTlbonzsehos7LCBOpqipCJqk03
+xUKgap5wMm1koGg8GTJxEjwK1pWljhAXXrZmowwmtvSQwxrf6gPh+GWbbomreuBT
+JVtux+F+kmOJ/X13vkx6Jk0BOiEWwU02rCsnnu5wfWJ9PjJA1TnU0qcztDpsEssk
+Fm0vyvATg77SRTIh/9SGDwh9H6CKfW5PS3Kmrw5aN5plTMpncyZtoYcHbv5Jn2dh
+Yq+CEeCl5S7kLwYCcXUGixj+c4JAiUHqDYMg6gG6yHRgpgu/v1bjWb/Va4ryRJQj
+pRpo0vyQXJ7d7+6kva2FaduBTM4o9QnZMR6fb3qzxpWjXJ+cuKMyX1vrjQzDBXpN
+PSDzkBTb3f3N4PHqsT48DMeP5rjtABB4sDNUTtV+EQt4tQLhEnQJymqpZFdVo1qs
+qLOVzaN3WE+UT8jL2+1q3DdbOSRDZmc+AcfxxYDFkFXkzw+AV35ypIV3ini1gDaA
+6P7sZ0wqFIQl4r6Zpe63FOneQDfxxcOD8vjhFieoqvf8eZezybHL66hLem5/V1TM
+A8Z9ofM1jg==
+=x8xW
 -----END PGP SIGNATURE-----
 
---===============8161920862216944351==
+--===============5973604452639543842==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1086,4 +1086,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============8161920862216944351==--
+--===============5973604452639543842==--
