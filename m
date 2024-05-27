@@ -1,41 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8763456730364274872=="
+Content-Type: multipart/mixed; boundary="===============0802300532221397612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Mon, 27 May 2024 07:58:39 -0000
-Message-Id: <171679671932.28775.9934667311096667553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 27 May 2024 07:59:30 -0000
+Message-Id: <171679677025.29137.12818368082534747129@gitolite.kernel.org>
 
---===============8763456730364274872==
+--===============0802300532221397612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 0450d2083be6bdcd18c9535ac50c55266499b2df
-    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-0450d2083be6-1613e604df0c.txt
+  - ref: refs/heads/crypto-pending
+    old: cce62288ffc3d5ae8bd66812009e66a209f0e5ca
+    new: 60a290e256b16429d52964ef69d18f9a0d2157af
+    log: revlist-cce62288ffc3-60a290e256b1.txt
 
---===============8763456730364274872==
+--===============0802300532221397612==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0450d2083be6-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-cce62288ffc3-60a290e256b1.txt
 
-fe7514b149e0a8a6f3031d286e52d40163b0b11a dma: compile-out DMA sync op calls when not used
-f406c8e4b770ca3b0df84a17349e13f2b6b07d10 dma: avoid redundant calls for sync operations
-ea01fa703150025806a21c960761c821736f4757 iommu/dma: avoid expensive indirect calls for sync operations
-1f20a5769446a1acae67ac9e63d07a594829a789 page_pool: make sure frag API fields don't span between cachelines
-403f11ac9ab72fc3bee0b8c80c16e33212ea8cd9 page_pool: don't use driver-set flags field directly
-e7cda7fe37ff1ece39bd2bf35ea68b1175395d95 bug: Improve comment
-c51a22e63ffde3033f74865a6e7b7d6e27cd6ab4 nvmet-rdma: Avoid o(n^2) loop in delete_ctrl
-69fb6eab1969d09187feff14f370e01032054f1f perf annotate: Use zfree() to avoid possibly accessing dangling pointers
-54ef362e4daa4a4ecfa2abdc251b21564d27784e perf callchain: Use zfree() to avoid possibly accessing dangling pointers
-07fde75306667f60b5cee6f10c4115efbc719b96 perf kwork: Use zfree() to avoid possibly accessing dangling pointers
 36e8aa90fd6c577f783d5d8b02fbc205bb8e7f86 perf annotate: Fix a comment about multi_regs in extract_reg_offset function
 0d2e3f251149b758458586df61578827eef7dc8d perf cs-etm: Print error for new PERF_RECORD_AUX_OUTPUT_HW_ID versions
 ee73fe99f77b066afc5035727130a6b8016e64b6 perf auxtrace: Allow number of queues to be specified
@@ -1050,5 +1040,15 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
+6b3c8582e4f95ee033b8b298b1b62cb78163d1ea crypto: shash - add support for finup_mb
+26a44a57c4aa6ea135b66944a7dad5ab80720c5d crypto: testmgr - generate power-of-2 lengths more often
+ec4f3a9e6f3fe97550348095221b20569bc29182 crypto: testmgr - add tests for finup_mb
+0f81afcfdb47f08412e7b13a8b719eb3d2780bd9 crypto: x86/sha256-ni - add support for finup_mb
+5f9c827966f09e5dcb33e57c66bd08ab81badf4a crypto: arm64/sha256-ce - add support for finup_mb
+496ce9cbef002f8cba2545944f14e60d314090fa fsverity: improve performance by using multibuffer hashing
+85adb62c8b16bef21aa6dd8516eb7092a7032af4 dm-verity: hash blocks with shash import+finup when possible
+f89d66af8ff8942e5d0d17e6eccec5bcf2ec25b8 dm-verity: improve performance by using multibuffer hashing
+8dd31440b549d4715bcd366a915d6fc81f38f062 crypto: x86/aes-gcm - add VAES and AVX512 / AVX10 optimized AES-GCM
+60a290e256b16429d52964ef69d18f9a0d2157af crypto: x86/aes-gcm - rewrite the AES-NI optimized AES-GCM
 
---===============8763456730364274872==--
+--===============0802300532221397612==--
