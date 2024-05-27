@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7684145852230130744=="
+Content-Type: multipart/mixed; boundary="===============2863774354318251663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 27 May 2024 07:32:20 -0000
-Message-Id: <171679514004.9698.1901163710495459196@gitolite.kernel.org>
+Date: Mon, 27 May 2024 07:32:24 -0000
+Message-Id: <171679514405.9766.12689410624008735432@gitolite.kernel.org>
 
---===============7684145852230130744==
+--===============2863774354318251663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/at24/for-current
-    old: e67572cd2204894179d89bd7b984072f19313b03
+  - ref: refs/heads/at24/for-next
+    old: 4cece764965020c22cff7665b18a012006359095
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-e67572cd2204-1613e604df0c.txt
+    log: revlist-4cece7649650-1613e604df0c.txt
 
---===============7684145852230130744==
+--===============2863774354318251663==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e67572cd2204-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-4cece7649650-1613e604df0c.txt
 
 ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
 a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
@@ -1051,4 +1051,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============7684145852230130744==--
+--===============2863774354318251663==--
