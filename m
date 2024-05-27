@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3970103299020504171=="
+Content-Type: multipart/mixed; boundary="===============4277615393022518523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 27 May 2024 09:46:29 -0000
-Message-Id: <171680318918.28030.17808950949616890141@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 27 May 2024 09:47:16 -0000
+Message-Id: <171680323691.28368.14890061066126063656@gitolite.kernel.org>
 
---===============3970103299020504171==
+--===============4277615393022518523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/for-next
-    old: d4a89339f17c87c4990070e9116462d16e75894f
-    new: 90b02eb1f0601026a0b996d12b987b4e9a2da392
-    log: revlist-d4a89339f17c-90b02eb1f060.txt
+  - ref: refs/heads/fixes
+    old: a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6
+    new: 3050052613790e75b5e4a8536930426b0a8b0774
+    log: revlist-a38297e3fb01-305005261379.txt
 
---===============3970103299020504171==
+--===============4277615393022518523==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d4a89339f17c-90b02eb1f060.txt
+Content-Disposition: attachment; filename=revlist-a38297e3fb01-305005261379.txt
 
-9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
-0df2b9ed489a06643eaaa150a57ab01fa9ad3005 ALSA: hda/realtek - fixed headset Mic not show
 d731b1ed15052580b7b2f40559021012d280f1d9 ALSA: hda/realtek: Drop doubly quirk entry for 103c:8a2e
 2bd5059c6cc04b02073d4d9f57137ab74e1d8e7a Merge branches 'arm/renesas', 'arm/smmu', 'x86/amd', 'core' and 'x86/vt-d' into next
 6d4e52f899d9d54cae31ad9b4584aa9504a9cfa1 Merge branch 'topic/ppc-kvm' into next
@@ -1046,9 +1044,11 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-9e2f46cd87473c70d01fcaf8a559809e6d18dd50 ata: ahci: Do not apply Intel PCS quirk on Intel Alder Lake
-5433f0e7427ae4f5b128d89ec16ccaafc9fef5ee ata: Kconfig: Update SATA_MOBILE_LPM_POLICY default to med_power_with_dipm
-27274990c0c9e76a2ca7931f51d18c10aaa982dc Merge remote-tracking branch 'libata/for-6.10-fixes' into HEAD
-90b02eb1f0601026a0b996d12b987b4e9a2da392 Merge remote-tracking branch 'libata/for-6.11' into HEAD
+a4edf675ba3357f60e2ee310acc15eb9cd5a8ae0 platform/x86: ISST: fix use-after-free in tpmi_sst_dev_remove()
+4d6ef1be2492a6789ba2b711933625cd72ced39d platform/x86: x86-android-tablets: Add "select LEDS_CLASS"
+5d059bf2b1c4d5779a4c09ec418e40eded44a187 platform/x86: thinkpad_acpi: Select INPUT_SPARSEKMAP in Kconfig
+0b178b02673998f5acca5a0365a8858ca45beedb platform/x86: touchscreen_dmi: Add support for setting touchscreen properties from cmdline
+7c8639aa41343fd7b3dbe09baf6b0791fcc407a1 platform/x86: touchscreen_dmi: Add info for GlobalSpace SolT IVW 11.6" tablet
+3050052613790e75b5e4a8536930426b0a8b0774 platform/x86: touchscreen_dmi: Add info for the EZpad 6s Pro
 
---===============3970103299020504171==--
+--===============4277615393022518523==--
