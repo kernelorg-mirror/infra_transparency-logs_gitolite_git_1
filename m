@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6430087544473593667=="
+Content-Type: multipart/mixed; boundary="===============7481508847557607979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 27 May 2024 12:55:09 -0000
-Message-Id: <171681450963.18035.6965026908802381846@gitolite.kernel.org>
+Date: Mon, 27 May 2024 12:56:18 -0000
+Message-Id: <171681457824.18536.15392894230783099448@gitolite.kernel.org>
 
---===============6430087544473593667==
+--===============7481508847557607979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-misc
-    old: e0d335077831196bffe6a634ffe385fc684192ca
+  - ref: refs/heads/edac-for-next
+    old: ab80b31cd7b2913902f79c9b9bae343d28fdcf71
     new: 9aa31612d992506b60be68aebf2a4e130eb6b783
-    log: revlist-e0d335077831-9aa31612d992.txt
+    log: revlist-ab80b31cd7b2-9aa31612d992.txt
 
---===============6430087544473593667==
+--===============7481508847557607979==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e0d335077831-9aa31612d992.txt
+Content-Disposition: attachment; filename=revlist-ab80b31cd7b2-9aa31612d992.txt
 
 a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
 3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
@@ -1051,4 +1051,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 9aa31612d992506b60be68aebf2a4e130eb6b783 EDAC/thunderx: Remove unused struct error_syndrome
 
---===============6430087544473593667==--
+--===============7481508847557607979==--
