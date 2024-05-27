@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Mon, 27 May 2024 16:22:44 -0000
-Message-Id: <171682696470.9105.14794736695203665799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Mon, 27 May 2024 16:42:31 -0000
+Message-Id: <171682815137.23792.9066519745250879540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/pciutils/pciutils
-user: mj
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/master
-    old: 6f172791e2dbb954abda0e692c0e4e8a4906d48b
-    new: 0e9018e3df2e208c9e5c059d8a84ff0ce71a0f69
-    log: |
-         0e9018e3df2e208c9e5c059d8a84ff0ce71a0f69 pcilmr: Fix margining for ports with Lane reversal
-         
+  - ref: refs/tags/probes-fixes-v6.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: bb80683f3a93708ce63bae89b6c712a1a8ff1c43
