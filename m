@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 27 May 2024 10:05:12 -0000
-Message-Id: <171680431277.9221.17637838304664724579@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7712832074287393317=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 27 May 2024 10:14:04 -0000
+Message-Id: <171680484412.15268.8646540975076487205@gitolite.kernel.org>
+
+--===============7712832074287393317==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 7516277306d81313751de42239e749f69e61c927
-    new: 9d80db7975393746fda508c2d021bf167422fc37
+  - ref: refs/heads/review-ilpo
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    new: 46de513068f956b76d68d241a7ad6bc5576d2948
     log: |
-         6f8ee2fec802b402ac587dada51b18037e18eec4 Merge branch into tip/master: 'locking/urgent'
-         cd8994802136079983ceb7f70cfe42e22546273c Merge branch into tip/master: 'perf/core'
-         647b909196bf471c640c3abcc1ca94874b6c39bb Merge branch into tip/master: 'ras/core'
-         deeedda54ad9c49f1916b12a7b578513ae9d350d Merge branch into tip/master: 'x86/boot'
-         9d80db7975393746fda508c2d021bf167422fc37 Merge branch into tip/master: 'x86/percpu'
+         46de513068f956b76d68d241a7ad6bc5576d2948 platform/x86/amd/pmf: Use memdup_user()
          
+
+--===============7712832074287393317==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1716804839 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1716804838-a74a03687fea7754d8008c2ecf1fc15e7862acd2
+
+1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 46de513068f956b76d68d241a7ad6bc5576d2948 refs/heads/review-ilpo
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZlRc5wAKCRBZrE9hU+XO
+MQFJAP90zx2UwwlvmpLy5PpMAB24CsJMXo1qgvdo9IgLSVU0oQEAg3Nre5uuV5Pc
+o+TVThazn6T9IAYO2BrEwxOb1Qadsw8=
+=slNB
+-----END PGP SIGNATURE-----
+
+--===============7712832074287393317==--
