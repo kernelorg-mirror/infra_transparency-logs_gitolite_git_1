@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3616570804550935931=="
+Content-Type: multipart/mixed; boundary="===============2410887300473751809=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Mon, 27 May 2024 19:39:20 -0000
-Message-Id: <171683876021.28442.1065899485629546580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Mon, 27 May 2024 19:39:23 -0000
+Message-Id: <171683876323.28515.12022538056896474332@gitolite.kernel.org>
 
---===============3616570804550935931==
+--===============2410887300473751809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     log: revlist-6ca445d8af0e-1613e604df0c.txt
 
---===============3616570804550935931==
+--===============2410887300473751809==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============3616570804550935931==--
+--===============2410887300473751809==--
