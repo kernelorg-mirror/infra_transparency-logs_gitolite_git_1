@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 27 May 2024 14:49:05 -0000
-Message-Id: <171682134552.4526.5246538398457264857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 27 May 2024 15:02:48 -0000
+Message-Id: <171682216848.14187.6947658146294027648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/kdevops
-    old: ff507bad486928470c3a3b41ba284ccf476d9476
-    new: 9ca7aa8e3b40d3c89a27ab6b387c91e3e4358c27
+  - ref: refs/heads/sched/core
+    old: 04746ed80bcf3130951ed4d5c1bc5b0bcabdde22
+    new: 402de7fc880fef055bc984957454b532987e9ad0
     log: |
-         9ca7aa8e3b40d3c89a27ab6b387c91e3e4358c27 XXX: try to manage floor value with cmpxchg128
+         402de7fc880fef055bc984957454b532987e9ad0 sched: Fix spelling in comments
          
