@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2197150075399160688=="
+Content-Type: multipart/mixed; boundary="===============0673467585105081336=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
-Date: Mon, 27 May 2024 00:48:36 -0000
-Message-Id: <171677091662.1625.9107019145227337015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-misc
+Date: Mon, 27 May 2024 00:48:53 -0000
+Message-Id: <171677093375.1785.10026150451785017583@gitolite.kernel.org>
 
---===============2197150075399160688==
+--===============0673467585105081336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-hsi
+repo: pub/scm/linux/kernel/git/sre/linux-misc
 user: sre
 changes:
-  - ref: refs/heads/for-next
-    old: c076486b6a28aa584b3e86312442bac09279a015
-    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-c076486b6a28-1613e604df0c.txt
+  - ref: refs/heads/uti260b
+    old: a097780b2d170b4cd787c729415bf9970c77fb21
+    new: 7d2c78e358702afa232c472971e97c64c1a3e303
+    log: revlist-a097780b2d17-7d2c78e35870.txt
 
---===============2197150075399160688==
+--===============0673467585105081336==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c076486b6a28-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-a097780b2d17-7d2c78e35870.txt
 
-ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
 a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
 3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
 3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
@@ -1050,5 +1049,6 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
+7d2c78e358702afa232c472971e97c64c1a3e303 [NOTFORUPSTREAM] Kernel config for uti260b thermal camera
 
---===============2197150075399160688==--
+--===============0673467585105081336==--
