@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 27 May 2024 12:14:40 -0000
-Message-Id: <171681208025.19557.7050795243309825945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 27 May 2024 12:18:32 -0000
+Message-Id: <171681231275.22659.5906839112587405642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: 13f4b07918b73cbb0879fcbd120eb1750ffc0c6c
-    new: 98597c882699c57a8d913dcc4e83549d9fc50c9a
+  - ref: refs/heads/vfs.fixes
+    old: 29be9100aca2915fab54b5693309bc42956542e5
+    new: 6c115ca7c9496129098c4f11bab9c78c4b2ad4aa
     log: |
-         98597c882699c57a8d913dcc4e83549d9fc50c9a riscv: dts: starfive: add Star64 board devicetree
+         f89ea63f1c65d3e93b255f14f9d9e05df87955fa netfs, 9p: Fix race between umount and async request completion
+         6c115ca7c9496129098c4f11bab9c78c4b2ad4aa debugfs: continue to ignore unknown mount options
          
