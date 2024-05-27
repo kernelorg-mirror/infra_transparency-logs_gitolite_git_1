@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6091494283908062667=="
+Content-Type: multipart/mixed; boundary="===============0575461561970940048=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 27 May 2024 06:51:20 -0000
-Message-Id: <171679268077.12332.14564777235913837816@gitolite.kernel.org>
+Date: Mon, 27 May 2024 06:51:34 -0000
+Message-Id: <171679269418.12442.14627838330899472684@gitolite.kernel.org>
 
---===============6091494283908062667==
+--===============0575461561970940048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
+  - ref: refs/heads/for-next
     old: 9c0731832d3b7420cbadba6a7f334363bc8dfb15
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     log: revlist-9c0731832d3b-1613e604df0c.txt
 
---===============6091494283908062667==
+--===============0575461561970940048==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============6091494283908062667==--
+--===============0575461561970940048==--
