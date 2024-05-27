@@ -1,30 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7879163158867809181=="
+Content-Type: multipart/mixed; boundary="===============9044238509854254360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Mon, 27 May 2024 08:39:36 -0000
-Message-Id: <171679917661.29656.3566985860769561120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Mon, 27 May 2024 08:39:40 -0000
+Message-Id: <171679918014.29749.581804584578356240@gitolite.kernel.org>
 
---===============7879163158867809181==
+--===============9044238509854254360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
   - ref: refs/heads/master
-    old: a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6
+    old: ed30a4a51bb196781c8058073ea720133a65596f
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-a38297e3fb01-1613e604df0c.txt
+    log: revlist-ed30a4a51bb1-1613e604df0c.txt
+  - ref: refs/tags/v6.9-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 02c1f8066ba946feb60e7846f8d69a2a7ccf6590
+  - ref: refs/tags/v6.9-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 74609cb690e2cd9a5e6f20a6564f415ccd0141f7
+  - ref: refs/tags/v6.9
+    old: 0000000000000000000000000000000000000000
+    new: d376cac46d30f3913ed0166151263b7d0ad7eed9
+  - ref: refs/tags/v6.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cd214efd16e30bf1aa40ccfaaf9177f47dd21fd5
 
---===============7879163158867809181==
+--===============9044238509854254360==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a38297e3fb01-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-ed30a4a51bb1-1613e604df0c.txt
 
 ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
 a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
@@ -1051,4 +1063,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============7879163158867809181==--
+--===============9044238509854254360==--
