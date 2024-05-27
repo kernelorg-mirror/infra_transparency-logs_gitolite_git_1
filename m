@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0066353918878873339=="
+Content-Type: multipart/mixed; boundary="===============4949550405013004798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Mon, 27 May 2024 09:42:26 -0000
-Message-Id: <171680294671.24542.10259388786287893497@gitolite.kernel.org>
+Date: Mon, 27 May 2024 09:42:47 -0000
+Message-Id: <171680296766.24730.1137461486756352515@gitolite.kernel.org>
 
---===============0066353918878873339==
+--===============4949550405013004798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
-  - ref: refs/heads/renesas/gpio-logic-analyzer-v9-experimental
-    old: 7c371f5ea95ac386f221aef95498d257414bcff5
-    new: d1d491de3f01fd3a2d5d6cae6ab2765bb1300c9f
-    log: revlist-7c371f5ea95a-d1d491de3f01.txt
+  - ref: refs/heads/renesas/v4m/tpu-experimental
+    old: d5b0127e2a0e5f74338261dfec68d5d9a343324e
+    new: 56b17486c35801f7f985a144f473159cfda4a783
+    log: revlist-d5b0127e2a0e-56b17486c358.txt
 
---===============0066353918878873339==
+--===============4949550405013004798==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7c371f5ea95a-d1d491de3f01.txt
+Content-Disposition: attachment; filename=revlist-d5b0127e2a0e-56b17486c358.txt
 
+115ee55351c1d3fee16515f01133144205ddb29b misc: ds1682: Add NVMEM support
 355f6a292fa2443f0c4d2017b5cb0f67fcb01ddb mei: Avoid a bunch of -Wflex-array-member-not-at-end warnings
 5f8fcfc3e509d8a1d458a09baeacc53595607d4d misc: ti-st: st_kim: remove unnecessary (void*) conversions
 1d6b84d29779f84f3108acc90681c372a2f70a24 parport: mfc3: avoid empty-body warning
@@ -1045,10 +1046,9 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-127503cdcc3b7375ab2690298ac6648ec1664940 dts: salvator: add GPIO-LA to I2C2 (snooping)
-34053be8228416c6afd80e1c60b66aaf5b876dbd gpio: add sloppy logic analyzer using polling
-74da9614bbd711baaf2ab0d38781e6b93913d052 gpiola: updates to v9
-5c1e9d3f9a36fb03fef7245fa2f78e1af7ddcd90 WIP SI vals
-d1d491de3f01fd3a2d5d6cae6ab2765bb1300c9f debugfs fix from Christian
+a53e71e8d56aee80969f22a8f0fc308642e0ab4e clk: renesas: r8a779h0: Add TPU clock
+3dbc62cc7f680205b7e5ad3605faf17b729ad770 dt-bindings: pwm: renesas,tpu: Add r8a779h0 support
+711dfe71e160a3e18bd54924a71a8cb80c74d735 arm64: dts: renesas: r8a779h0: Add TPU device node
+56b17486c35801f7f985a144f473159cfda4a783 arm64: dts: r8a779h0-gray-hawk-single: Add TPU support
 
---===============0066353918878873339==--
+--===============4949550405013004798==--
