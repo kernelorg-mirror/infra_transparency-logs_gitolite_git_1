@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9004912206085193244=="
+Content-Type: multipart/mixed; boundary="===============5291846242069688221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 27 May 2024 18:40:43 -0000
-Message-Id: <171683524390.15224.110191382029770266@gitolite.kernel.org>
+Date: Mon, 27 May 2024 18:42:58 -0000
+Message-Id: <171683537849.16097.14697346080311129821@gitolite.kernel.org>
 
---===============9004912206085193244==
+--===============5291846242069688221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 7b410358efd0b6f926eae8764476666f692ce77d
-    new: 0cb664ebd055257d7415e165f73fb010dd72d832
+    old: 0cb664ebd055257d7415e165f73fb010dd72d832
+    new: 17667cc1fc7cf4a32faa027ace8afd372b05774d
     log: |
-         c9defeda8047399982c2d9a356a736c01b95d27e fix up bpftool patch for quilt
-         0cb664ebd055257d7415e165f73fb010dd72d832 drop nilfs2 patch
+         17667cc1fc7cf4a32faa027ace8afd372b05774d drop alsa patch
          
 
---===============9004912206085193244==
+--===============5291846242069688221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716835246 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716835383 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1716835235-86ea4bdf861fef75604401ca75ea733a94c7bba3
+nonce 1716835369-c639354b24da63628d9546af2fe7bdf0eddaaffb
 
-7b410358efd0b6f926eae8764476666f692ce77d 0cb664ebd055257d7415e165f73fb010dd72d832 refs/heads/master
+0cb664ebd055257d7415e165f73fb010dd72d832 17667cc1fc7cf4a32faa027ace8afd372b05774d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZU064bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+szoQAI76ri7UKNfa4Kp5IANl
-72qXDdPODT+jOBz6zihKHcxs1/9FyPo180T1COIfq6vBdfvBJf/ucldCdLUUCgg+
-xl5kBMUC08kSGJj8KVHrj8lB21o821h/q+Q9EBCYJpvI2dDRyo1dua3XLhgO/qos
-/ClC9eID00Czrx3moVPba//78UakHMBkZGm0tLhXQS9b+4ZiXDVZBMgZP165smSF
-D84U97au3w1QvSSfmS0tBgRG2yhwSQI+nKAwy89FgfoQ3lnGf+0YMIiU8LlTEB2l
-QuSpNS+ayTOMiDBmXUFrP9EsbUA99ORJD36vXwGMLF+UybnIi+k2VK2gHeV7se2z
-ZrRxEpGzenqSO+J5nnS7ky052PCkuDF0xDHFQnZwyrdjl0cKpLCg4xOdyhKjZD8R
-Ts4wl7R1iKkS0VYrqDfiDpTzGmXYVvPKJKtlviuirY+hIwPtGhJN95iRxGcNHqk9
-VoUIhfpJb4v62QYs3paXUeN5I9uVu13kIrrl4SbbhgGa9++0IoFrGN1rPO+m8u1r
-eHmMv73wnfwMvBqQDd1WV4RqGoeQN0EFFPSHz2YF/iIWzRUCbu3fHyfhdqBAZFtC
-25eK+alyWuIuIUKRMUu0akeDn2vM7IuxPYFYmWSGT0a5TMOG2u5LkFvratL/vknP
-D2xFaV0hBSs15Vew367lQ6A0
-=/Upw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZU1DcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IHwQALurOL0PeDnY7U2IA/tv
+SIgEq6mijYkLKGG29nwWbju9FpTrjFZ3jKhJhIPY/jiO3f+laoDrb7xpHVZ/rjU8
+UyzLKovY0Rlv7GPYvPFI2H+lnsYKz68tmYC8EysJcg0FaGmbx6bntGaGW0dw5b/C
+IHueqDEY9sx2W6khaIu0Zl1XK5FOmcBrixMRA+HAB8A2Npd4zzP/VlmIF2EScBU7
++lRkYDpoLSWsAZZBT8OjIUqbP3QqHMZ0fnFEJlVb5DIjNY2tvWriaRKUAV6c4bMF
+iE+zs+hlANOpIY08Fo9yawXnxfO5OExGhGBbLUxLVBmamQIrCffdI0peWZQLjtul
+FO8cak8V/hGiaWAOG73Ni3mWjns7jNvGjyzWkhffhz6uu/ghZmqDPOJZj/hmwWXV
+M+UbN74nuOQbengp8ronoMWOXAqrcLbznB8rt9gpErnGsUBinavr6lC8/heVL9IJ
+AUEk20slYRmwjDrWak+lF7x48MqqySU5ACqtYozl7iZBb5LsThe4UjwB1tez4hzU
+E1kJurOlyHalSdRNTMrUsx/jXlvlpED6dHTnUHb2zvKZModmPsMOubLSTrnof0PQ
+9GlcaK7//VT6A/Ma6TwrgJJtjlFQ7W/wux6DPl7u0/YezHdHmFMrAypMb2+uFpPm
+lcJ3ZzGTZ0hItj0Ug6Bi3JEO
+=zwCt
 -----END PGP SIGNATURE-----
 
---===============9004912206085193244==--
+--===============5291846242069688221==--
