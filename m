@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2863774354318251663=="
+Content-Type: multipart/mixed; boundary="===============3610430832083058489=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 27 May 2024 07:32:24 -0000
-Message-Id: <171679514405.9766.12689410624008735432@gitolite.kernel.org>
+Date: Mon, 27 May 2024 07:32:28 -0000
+Message-Id: <171679514836.9867.14302227714802348273@gitolite.kernel.org>
 
---===============2863774354318251663==
+--===============3610430832083058489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/at24/for-next
+  - ref: refs/heads/master
     old: 4cece764965020c22cff7665b18a012006359095
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     log: revlist-4cece7649650-1613e604df0c.txt
 
---===============2863774354318251663==
+--===============3610430832083058489==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============2863774354318251663==--
+--===============3610430832083058489==--
