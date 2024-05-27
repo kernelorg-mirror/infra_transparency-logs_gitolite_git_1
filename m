@@ -1,31 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============8656574996755693335=="
+Content-Type: multipart/mixed; boundary="===============3970103299020504171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Mon, 27 May 2024 09:45:25 -0000
-Message-Id: <171680312536.27541.14148398399875259763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 27 May 2024 09:46:29 -0000
+Message-Id: <171680318918.28030.17808950949616890141@gitolite.kernel.org>
 
---===============8656574996755693335==
+--===============3970103299020504171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
   - ref: refs/heads/for-next
-    old: 4cece764965020c22cff7665b18a012006359095
-    new: 2f10b080ab691ae27f3dc48d0773b4f0cff24a97
-    log: revlist-4cece7649650-2f10b080ab69.txt
+    old: d4a89339f17c87c4990070e9116462d16e75894f
+    new: 90b02eb1f0601026a0b996d12b987b4e9a2da392
+    log: revlist-d4a89339f17c-90b02eb1f060.txt
 
---===============8656574996755693335==
+--===============3970103299020504171==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4cece7649650-2f10b080ab69.txt
+Content-Disposition: attachment; filename=revlist-d4a89339f17c-90b02eb1f060.txt
 
+9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
+0df2b9ed489a06643eaaa150a57ab01fa9ad3005 ALSA: hda/realtek - fixed headset Mic not show
+d731b1ed15052580b7b2f40559021012d280f1d9 ALSA: hda/realtek: Drop doubly quirk entry for 103c:8a2e
+2bd5059c6cc04b02073d4d9f57137ab74e1d8e7a Merge branches 'arm/renesas', 'arm/smmu', 'x86/amd', 'core' and 'x86/vt-d' into next
+6d4e52f899d9d54cae31ad9b4584aa9504a9cfa1 Merge branch 'topic/ppc-kvm' into next
+e789d4499abdb488dd9cabce4f95c74dac6bcbe5 Merge branch 'topic/kdump-hotplug' into next
+c98ca8a375b6df243017716faee0916110a08396 sh: of-generic: Add missing #include <asm/clock.h>
+a11808815c3599891be12715d57c889d7b280a49 sh: smp: Protect setup_profiling_timer() by CONFIG_PROFILING
+efe976b7eecfa3f81e241da67d1a511e30a87779 sh: setup: Add missing forward declaration for sh_fdt_init()
+10316dcc4f39b2560b372d11be477228b95ae5ac Merge tag 'i2c-host-fixes-6.8-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
+0e9ee7dd7449371d221ce048615e5d1e271dacfc Merge tag 'i2c-host-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
+95feb3160eef0caa6018e175a5560b816aee8e79 VFIO: Add the SPR_DSA and SPR_IAX devices to the denylist
+e11452eb071b2a8e6ba52892b2e270bbdaa6640d dmaengine: idxd: add a new security check to deal with a hardware erratum
+6827738dc684a87ad54ebba3ae7f3d7c977698eb dmaengine: idxd: add a write() method for applications to submit work
+fec1982d70721c0062758861fec7e4e9d1103fb6 i2c: mux: Remove class argument from i2c_mux_add_adapter()
+f9dc0c4a140a1e776a316f5875430b74bb0ec047 Merge branch 'i2c/for-current' into i2c/for-mergewindow
+2ca99e6efc91ee7c58caab3a94e9cef7a75d8ba7 dt-bindings: display: samsung,ams495qa01: add missing SPI properties ref
+6b2358ff9493db92c4fa6ed3ad7b66c02c66f440 dt-bindings: display: panel: constrain 'reg' in SPI panels
+9fa6bcf23e4417127c8dca996fe7ba7a14a9b7de dt-bindings: display: panel: constrain 'reg' in DSI panels
+d976c6f4b32c2d273d44ff9ad7099efe16279a39 of: property: Add fw_devlink support for interrupt-map property
+d65e1a0f305ba3e7aabf6261a37bb871790d9f93 Merge tag 's390-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+6c60000f0b9ae7da630a5715a9ba33042d87e7fd Merge tag 'soc-dt-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+14a60290edf6d947b9e2210f7a223bcc6af1716a Merge tag 'soc-drivers-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+0c2212926dc2ead410031977839af9157a895013 Merge tag 'soc-arm-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+6d1346f1bcbf2724dee8af013cdab9f7b581435b Merge tag 'soc-defconfig-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+736676f5c3abd1fc01c41813a95246e892937f6d Merge tag 'asm-generic-alpha' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
+bd125a084091396f3e796bb3dc009940d9771811 tracing/user_events: Fix non-spaced field matching
+78490b74435a8c738e91260e7df387e7cb6d6568 selftests/user_events: Add non-spacing separator check
 c0b9620bc3f0a0f914996cc6631522d41870a9e0 Merge tag 'rcu.next.v6.10' of https://github.com/urezki/linux
 62158261a88fab201433686c603cbd7775f55197 docs: cgroup-v1: Update page cache removal functions
 c1457d9aad5ee2feafcf85aa9a58ab50500159d2 selftests/cgroup: Drop define _GNU_SOURCE
@@ -1018,37 +1046,9 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-f42ddd4bbe60159a6dfcb23379fc8611c70a4da3 dt-bindings: vendor-prefixes: add Cudy
-e5bb7da6585f93e0e5bf7458ef8479b40941a0f7 dt-bindings: arm64: dts: mediatek: Add Cudy WR3000 V1 router
-32ea25379116b99896ee201f646815d1129b7bef arm64: dts: mediatek: mt7981: add pinctrl
-790b3034bb2497ebeadaa383ad396fd7797c1b38 arm64: dts: mediatek: Add Cudy WR3000 V1
-246ac0b7210da9b7cb7eb9101707ad8287f322ad dt-bindings: arm64: dts: airoha: Add en7581 entry
-f2cdd9889f8c0c236baff2a4273391188af57f19 arm64: dts: Add Airoha EN7581 SoC and EN7581 Evaluation Board
-dae86c4611828fbf767a0dc9239d0a4237ae5d24 arm64: dts: mediatek: Complete chassis-type for MT8183 Chromebooks
-e375a567c39c0d69d305c676a50d5d9a9d288557 arm64: dts: mediatek: Add missing chassis-type to MT8192 Chromebooks
-3e1b2f653283607b23dc71e56e9f39c77e5cf0b4 dt-bindings: soc: mediatek: Add support for MT8188 VPPSYS
-0ece37acc06a0a6661aceaf78319cf33510bb8e4 arm64: dts: mediatek: mt7988: add XHCI controllers
-15214830c0784d0c7bec10af743882648b6d8c7e arm64: dts: mediatek: mt7981: add watchdog & WiFi controllers
-1d3ae865686fa181281b458f69dc1d853b405513 dt-bindings: arm64: mediatek: add mt8390-evk board
-5871717a22fdf21c265b521f1f42e4ad0229fe10 arm64: dts: mediatek: add device-tree for Genio 700 EVK board
-e4fa7bc1d0d95f93b27eddcdc56dae63ef8feba4 arm64: dts: mediatek: mt8195: Fix GPU thermal zone name for SVS
-f117f5d3367d7b4f5d86a18a95c22e82c8affc73 arm64: dts: mediatek: mt8192: Fix GPU thermal zone name for SVS
-c17edc52dc6967822cb4ce29d6a0ede47d7d00db arm64: dts: mediatek: mt8183: Refactor thermal zones
-bb21cf32c0d2fe7e6d2a1fc1207ded24bc85378e arm64: dts: medaitek: mt8395-nio-12l: Set i2c6 pins to bias-disable
-62f904f8f4b583cdd3cab389375173d3f017514d arm64: dts: mediatek: mt8395-nio-12l: Define RSEL in microamperes
-ee0f3574f10b1e019deb6e3c83e4f91f10f870ae arm64: dts: mediatek: mt8395-nio-12l: Enable PHYs and USB role switch
-db0dd9e7e0fdebed2b4055fabe50066d316eeb42 arm64: dts: mediatek: mt8395-nio-12l: Add power supplies for CPU/GPU scaling
-684cb81bccacbe5fa6a1a096ab803c201851dd06 arm64: dts: airoha: Add EN7581 clock node
-a8d923f153b7e00b89e16083920ada16bd52accc arm64: dts: mediatek: mt8183-kukui: Drop bogus output-enable property
-9968eb2092a85e6298f3d6496a10d984056c96eb arm64: dts: mediatek: Drop mediatek,drive-strength-adv usage
-26e819fe847772ef9a42e9dc35dc3a30123d2759 arm64: dts: mediatek: mt8195-cherry: Specify sound DAI links and routing
-6ba996ad9330e9a03210c83a92e7f7574fab7537 arm64: dts: mediatek: mt8186-corsola: Specify sound DAI links and routing
-ed5c21a8a028d83c25ce0724b7311a8956fbdfe4 dt-bindings: arm: mediatek: Add MT8195 HP Chromebook x360 13b-ca0002sa
-2712d16872ec6f93b4e888c181fc81110e3cdb45 arm64: mediatek: mt8195-cherry: Introduce the MT8195 Dojo Chromebook
-4f4460957679985edd6f93dec8b37495c5717af0 arm64: dts: mediatek: mt8395-genio-1200-evk: add u3port1 for xhci1
-34170dd928f7f69404bf1bd99286578a44e26288 dt-bindings: arm64: mediatek: add Kontron 3.5"-SBC-i1200
-ff7645c82e4b03025d184c1cbcd108bc71caca4c arm64: dts: mediatek: add Kontron 3.5"-SBC-i1200
-58e6ef95be4b06916265ea0c9dd4f333ac754fd1 arm64: dts: mediatek: mt8186: add lvts definitions
-2f10b080ab691ae27f3dc48d0773b4f0cff24a97 arm64: dts: mediatek: mt8188: add lvts definitions
+9e2f46cd87473c70d01fcaf8a559809e6d18dd50 ata: ahci: Do not apply Intel PCS quirk on Intel Alder Lake
+5433f0e7427ae4f5b128d89ec16ccaafc9fef5ee ata: Kconfig: Update SATA_MOBILE_LPM_POLICY default to med_power_with_dipm
+27274990c0c9e76a2ca7931f51d18c10aaa982dc Merge remote-tracking branch 'libata/for-6.10-fixes' into HEAD
+90b02eb1f0601026a0b996d12b987b4e9a2da392 Merge remote-tracking branch 'libata/for-6.11' into HEAD
 
---===============8656574996755693335==--
+--===============3970103299020504171==--
