@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Tue, 28 May 2024 09:14:37 -0000
-Message-Id: <171688767758.31400.10076135218316054136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ido/linux
+Date: Tue, 28 May 2024 09:16:01 -0000
+Message-Id: <171688776171.1209.16661058061834557169@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/ido/linux
+user: ido
 changes:
-  - ref: refs/heads/master
-    old: 27fe10150f6d5fa78d1a1ef1e922dc8395d1154d
-    new: dee10f08070d97d9dc8b1dfde7576fb1a8d81cc6
-    log: |
-         8635780c1c21d7833c960d49a796be5553b3f624 bindings: python: add Testing section to README
-         dee10f08070d97d9dc8b1dfde7576fb1a8d81cc6 bindings: python: fix python-tests-run make target
-         
+  - ref: refs/tags/v2.6.16.35
+    old: 5d7db60d9b3efdb112f989a8ca11397f1bd649e0
+    new: 0000000000000000000000000000000000000000
