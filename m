@@ -1,68 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6127039503253693792=="
+Content-Type: multipart/mixed; boundary="===============7636472158837853224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 28 May 2024 07:29:45 -0000
-Message-Id: <171688138501.30211.16863610356315282196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ido/linux
+Date: Tue, 28 May 2024 07:35:13 -0000
+Message-Id: <171688171313.3175.15234775710833439466@gitolite.kernel.org>
 
---===============6127039503253693792==
+--===============7636472158837853224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/ido/linux
+user: ido
 changes:
-  - ref: refs/heads/slab/for-next
-    old: 4a8dd3b3d55099efba5d98975ebf78c05e52d1ab
-    new: a0a44d9175b349df2462089140fb7f292100bd7c
-    log: revlist-4a8dd3b3d550-a0a44d9175b3.txt
+  - ref: refs/heads/master
+    old: b9ddbb0cde2adcedda26045cc58f31316a492215
+    new: 2bfcfd584ff5ccc8bb7acde19b42570414bf880b
+    log: revlist-b9ddbb0cde2a-2bfcfd584ff5.txt
 
---===============6127039503253693792==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1716881379 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1716881378-281be499283f66dc266ebbe354151b2a5225502b
-
-4a8dd3b3d55099efba5d98975ebf78c05e52d1ab a0a44d9175b349df2462089140fb7f292100bd7c refs/heads/slab/for-next
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmZVh+MACgkQu+CwddJF
-iJrB1gf/WGwvMceAhSEorMb6dJbmjHq/JJeyzZzG+abYeR7U3OddNWmZjgb9ihKs
-QXZY3aFp6g34JbhhCRrWKWuBSgaDvfF4IYed0yAmzNTwbWK0EG1n/I/BZ1JQv8am
-Tx8viqv7da28kvZgUwZ59Vrc37N2JXcwRIFI6iXf+q2Cf9mzfAq8Vqon9Vc0Bixt
-CUNcP3t/NEIVHx8VjlhgYNp2tf/sOo9F2ZGVbIpzB0wnrhtMhbS9NKUHxvJ67UDP
-+hnwyipA4sotme/kqrXprak7PE75Sg1U6IDf/xNJ6ISPi42y/j0gGS4eY4TAHHKT
-pixi/Y9T0aMdm9viw0S9IG/6T4FAmA==
-=wKBO
------END PGP SIGNATURE-----
-
---===============6127039503253693792==
+--===============7636472158837853224==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4a8dd3b3d550-a0a44d9175b3.txt
+Content-Disposition: attachment; filename=revlist-b9ddbb0cde2a-2bfcfd584ff5.txt
 
-a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
-3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
-3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
-0df2b9ed489a06643eaaa150a57ab01fa9ad3005 ALSA: hda/realtek - fixed headset Mic not show
-d731b1ed15052580b7b2f40559021012d280f1d9 ALSA: hda/realtek: Drop doubly quirk entry for 103c:8a2e
-2bd5059c6cc04b02073d4d9f57137ab74e1d8e7a Merge branches 'arm/renesas', 'arm/smmu', 'x86/amd', 'core' and 'x86/vt-d' into next
-6d4e52f899d9d54cae31ad9b4584aa9504a9cfa1 Merge branch 'topic/ppc-kvm' into next
-e789d4499abdb488dd9cabce4f95c74dac6bcbe5 Merge branch 'topic/kdump-hotplug' into next
-c98ca8a375b6df243017716faee0916110a08396 sh: of-generic: Add missing #include <asm/clock.h>
-a11808815c3599891be12715d57c889d7b280a49 sh: smp: Protect setup_profiling_timer() by CONFIG_PROFILING
-efe976b7eecfa3f81e241da67d1a511e30a87779 sh: setup: Add missing forward declaration for sh_fdt_init()
 10316dcc4f39b2560b372d11be477228b95ae5ac Merge tag 'i2c-host-fixes-6.8-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
 0e9ee7dd7449371d221ce048615e5d1e271dacfc Merge tag 'i2c-host-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
 95feb3160eef0caa6018e175a5560b816aee8e79 VFIO: Add the SPR_DSA and SPR_IAX devices to the denylist
@@ -805,6 +768,7 @@ e7647cbaba0e3792d03fa538e58d063ec8c8b35c Input: xpad - add support for Machenike
 dee8f20e61aea655a43b74e5b65bcc6fbc69df7b Merge branch 'pm-cpufreq'
 eabb8a9be1e4a12f3bf37ceb7411083e3775672d Revert "r8169: don't try to disable interrupts if NAPI is, scheduled already"
 9841991a446c87f90f66f4b9fee6fe934c1336a2 af_unix: Update unix_sk(sk)->oob_skb under sk_receive_queue lock.
+e8dc41afca161b988e6d462f4d0803d247e22250 pmdomain: imx: gpcv2: Add delay after power up handshake
 efb9f4f19f8e37fde43dfecebc80292d179f56c6 ipv6: sr: fix memleak in seg6_hmac_init_algo
 ea63ac14292564eefc7dffe868ed354ff9ed6f4b selftests/net: use tc rule to filter the na packet
 74b38cd77d3eb63c6d0ad9cf2ae59812ae54d3ee regulator: tps6594-regulator: Correct multi-phase configuration
@@ -1027,6 +991,14 @@ a52b4f11a2e17109c4b9f7df4ff19215b1752efc selftest mm/mseal read-only elf memory 
 05afeeebcac850a016ec4fb1f681ceda11963562 fs/ntfs3: Fix case when index is reused during tree transformation
 302e9dca8428979c9c99f2dbb44dc1783f5011c3 fs/ntfs3: Break dir enumeration if directory contents error
 b84a8aba806261d2f759ccedf4a2a6a80a5e55ba genirq/irqdesc: Prevent use-after-free in irq_find_at_or_after()
+9b038d004ce95551cb35381c49fe896c5bc11ffe netfs: Fix io_uring based write-through
+2c6b531020f0590db3b6b4950a41c692e9aa4f4a netfs: Fix AIO error handling when doing write-through
+79c137454815ba5554caa8eeb4ad5c94e96e45ce filemap: add helper mapping_max_folio_size()
+4e527d5841e24623181edc7fd6f6598ffa810e10 iomap: fault in smaller chunks for non-large folio mappings
+f826bc9d6fc2f0e089fb8d104415d72e4d2e204c signalfd: fix error return code
+65bea9953715b19371164a8bec4f74fdd22c9e5a signalfd: drop an obsolete comment
+c596bea1452ddf172ec9b588e4597228e9a1f4d5 netfs: Fix setting of BDP_ASYNC from iocb flags
+712182b67e831912f90259102ae334089e7bccd1 swap: yield device immediately
 0eb03c7e8e2a4cc3653eb5eeb2d2001182071215 Merge tag 'trace-tracefs-v6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 b0a9ba13ffdb9591d468d84f26ec2cefdd7625b4 Merge tag 'hardening-v6.10-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 f6d199c774241e65b7078d89df56b97c79cf5f66 Merge tag 'tty-6.10-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
@@ -1058,6 +1030,7 @@ eb85dace897c5986bc2f36b3c783c6abb8a4292e nilfs2: fix potential hang in nilfs_det
 8a1607233566fef7fbe30416e5d3b0567d0d1fba cifs: Fix smb3_insert_range() to move the zero_point
 93a43155127fec0f8cc942d63b76668c2f8f69fa cifs: Fix missing set of remote_i_size
 56fb6f92854f29dcb6c3dc3ba92eeda1b615e88c Merge tag 'drm-next-2024-05-25' of https://gitlab.freedesktop.org/drm/kernel
+29be9100aca2915fab54b5693309bc42956542e5 afs: Don't cross .backup mountpoint from backup volume
 2313022ec5942e3ddd2e4e57002ed71926887f87 Merge tag 'uml-for-linus-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 6951abe8f37b1f4f9a0e7c036873f0ab4f56abf1 Merge tag 'jffs2-for-linus-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
 4286e1fceb8c99f25332dc7e85f9879408caa45a Merge tag 'i3c/for-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
@@ -1074,6 +1047,8 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-a0a44d9175b349df2462089140fb7f292100bd7c mm, slab: don't wrap internal functions with alloc_hooks()
+f89ea63f1c65d3e93b255f14f9d9e05df87955fa netfs, 9p: Fix race between umount and async request completion
+e4c07ec89ef5299c7bebea6640ac82bc9f7e1c95 Merge tag 'vfs-6.10-rc2.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+2bfcfd584ff5ccc8bb7acde19b42570414bf880b Merge tag 'pmdomain-v6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
 
---===============6127039503253693792==--
+--===============7636472158837853224==--
