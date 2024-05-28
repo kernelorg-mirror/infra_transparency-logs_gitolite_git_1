@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 28 May 2024 06:24:17 -0000
-Message-Id: <171687745763.15408.862964549669468439@gitolite.kernel.org>
+Date: Tue, 28 May 2024 06:24:48 -0000
+Message-Id: <171687748855.15655.5739874489509993422@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 074cffb5020ddcaa5fafcc55655e5da6ebe8c831
-    new: 9e697efe5f99ed793ec1d23a1c3467d7dc5863db
+  - ref: refs/heads/opp/linux-next
+    old: b1378c474427edae9c17a6e84b628c1f1cc59d6c
+    new: d86a2f0800683652004490c590b4b96a63e7fc04
     log: |
-         d01c84b97f19f1137211e90b0a910289a560019e cpufreq: qcom-nvmem: fix memory leaks in probe error paths
-         9e697efe5f99ed793ec1d23a1c3467d7dc5863db cpufreq: qcom-nvmem: eliminate uses of of_node_put()
+         d86a2f0800683652004490c590b4b96a63e7fc04 OPP: Fix missing cleanup on error in _opp_attach_genpd()
          
