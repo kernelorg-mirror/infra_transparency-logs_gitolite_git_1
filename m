@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ido/linux
-Date: Tue, 28 May 2024 07:49:54 -0000
-Message-Id: <171688259488.23067.2679604955901050659@gitolite.kernel.org>
+Date: Tue, 28 May 2024 07:49:59 -0000
+Message-Id: <171688259931.23192.2449858782734446846@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,63 +11,63 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ido/linux
 user: ido
 changes:
-  - ref: refs/tags/v2.6.16.59-rc1
-    old: cb45dadeac22ccb56c0dd3b6b58c2a296dee368c
+  - ref: refs/tags/v2.6.17.11
+    old: b519ad3c65a1864966dda0a2d02e9ae076b96734
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.16.6
-    old: 1a991e05f5f6870686546f56761f236c17650d9d
+  - ref: refs/tags/v2.6.17.12
+    old: d399318ff8e29fef47766a80b9a2d8342a7f227f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.16.60
-    old: 7191bd612e7fa42bcb5d083c7c330f0554c99f98
+  - ref: refs/tags/v2.6.17.13
+    old: 7aedbe97bacc39209ded82fb9e830729ffdc3e52
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.16.60-rc1
-    old: 864742c3d0478aac048dbffa5885fd63471b09fe
+  - ref: refs/tags/v2.6.17.14
+    old: b0867e25e30e5a6e94a681ea0e3b1325613a5637
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.16.61
-    old: 6a547548d07f1dfa9da009f2a8199a127bdc4acc
+  - ref: refs/tags/v2.6.17.2
+    old: 502b7585393c641261a415f8e2c99c857454bc26
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.16.61-rc1
-    old: 92579444425178c76d5f98b034b7a6cb19679f2c
+  - ref: refs/tags/v2.6.17.3
+    old: 268f3fa0a8828dd0acd98d139147b45d34fdc0f7
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.16.62
-    old: 1f9ae0ff1199ac6cccc275f29709d78e019470a8
+  - ref: refs/tags/v2.6.17.4
+    old: 987343123c76607af4d5724966f7afa9c798e83a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.16.62-rc1
-    old: 49f4a42cf436744e4040da1aa56be825d1dca4f9
+  - ref: refs/tags/v2.6.17.5
+    old: 9664d2c715f872165d30dbf6c32c347110e47b7f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.16.7
-    old: 18a31b7c51f9632eeb9b34eb8b3ec2aaa16d154e
+  - ref: refs/tags/v2.6.17.6
+    old: 4cdff9c94373551b4bb9bab927aa774b42f10c05
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.16.8
-    old: b8519a4c61bd95fc62a291894ff76b7dccde342b
+  - ref: refs/tags/v2.6.17.7
+    old: 9f3ace8bc5f8966281efa7e2242749b41225498b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.16.9
-    old: 5d0da18711ef1c3209c50238c1f1dda8a35ec7fb
+  - ref: refs/tags/v2.6.17.8
+    old: 67141ebff2da00f640ad5ba064f3f9dc13ef3c6f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.17
-    old: 8ba130df4b67fa40878ccf80d54615132d24bc68
+  - ref: refs/tags/v2.6.17.9
+    old: 9f8d54506e3691573bb7a1c60894908b0057bf86
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.17-rc1
-    old: d882e0c80e6e3c60640492b83395e6fbbae04276
+  - ref: refs/tags/v2.6.18
+    old: 119248f4578ca60b09c20893724e10f19806e6f1
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.17-rc2
-    old: f61c8059ffbc29bd8a1ffbd5a87e5135bc28a752
+  - ref: refs/tags/v2.6.18-rc1
+    old: 7df8ea909888d4856d3aff1c41192739d715a393
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.17-rc3
-    old: 6716c37ec2dbf78b85a55cc5605677b6cf2299a0
+  - ref: refs/tags/v2.6.18-rc2
+    old: f4035c6284f7de0b47ccf68264f289e7e0b47da2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.17-rc4
-    old: 90b92312eeebc70e61415394be3cc03b08a74945
+  - ref: refs/tags/v2.6.18-rc3
+    old: 5031a46c0d098346e4c9cd56f7858def243da096
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.17-rc5
-    old: 39beb382e4e11ed01cb5e73022f18bbed2aefd8b
+  - ref: refs/tags/v2.6.18-rc4
+    old: 06abe048193087f81ee67c225a1b685d937f220d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.17-rc6
-    old: 831695cbeb7a0e8f9ddb9c0203a22723da2c3f2f
+  - ref: refs/tags/v2.6.18-rc5
+    old: 69b7510036d06c6aabcdc0bb03f35cfc62160302
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.17.1
-    old: b79833a3b4e87304e4df82d3c2c0674ec02d8b1a
+  - ref: refs/tags/v2.6.18-rc6
+    old: 12c8b6ff70a17bfcb59bcca55fa8e79d809c1c70
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.17.10
-    old: 864a2e74badc2a38e8b9c48d6223502e9649a76d
+  - ref: refs/tags/v2.6.18-rc7
+    old: 3d3f47c98b3696f5bd677f89a755c239f4d52a4c
     new: 0000000000000000000000000000000000000000
