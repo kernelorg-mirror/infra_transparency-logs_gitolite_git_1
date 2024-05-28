@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4862789301363178742=="
+Content-Type: multipart/mixed; boundary="===============1919897606048872303=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 28 May 2024 15:09:56 -0000
-Message-Id: <171690899643.20258.15238456879303252186@gitolite.kernel.org>
+Date: Tue, 28 May 2024 15:10:59 -0000
+Message-Id: <171690905905.22302.2493721547508895648@gitolite.kernel.org>
 
---===============4862789301363178742==
+--===============1919897606048872303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,60 +16,59 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/prctl
-    old: 3e289e4a6acc4c1c3c5b5815f9b591968a8f4419
-    new: bb3d0ed06ff6c6ddc1d804ccc6d8198b81fdf70f
-    log: revlist-3e289e4a6acc-bb3d0ed06ff6.txt
+    old: bb3d0ed06ff6c6ddc1d804ccc6d8198b81fdf70f
+    new: 79060dc0b50ee61ad057e29a3fab70c8969da3f0
+    log: revlist-bb3d0ed06ff6-79060dc0b50e.txt
 
---===============4862789301363178742==
+--===============1919897606048872303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e289e4a6acc-bb3d0ed06ff6.txt
+Content-Disposition: attachment; filename=revlist-bb3d0ed06ff6-79060dc0b50e.txt
 
-258c0b6a141b5512fe891193e592c2785e4bd1ec prctl.2: ERRORS: Simplify
-4912906cf4e19e4013dae90acf116074939a4cc3 prctl.2, PR_CAP_AMBIENT.2const: Split PR_CAP_AMBIENT from prctl(2)
-ed863a188a4db1025d49a486dbee5ff2c390a04a PR_CAP_AMBIENT.2const: Tweak after split
-56f3308db13d09aaef94e636f54e67d84908ca54 PR_CAP_AMBIENT.2const, PR_CAP_AMBIENT_RAISE.2const: Split PR_CAP_AMBIENT_RAISE from PR_CAP_AMBIENT(2const)
-5cd7db908a76c77370921a5e52ca8ccadb88b4fe PR_CAP_AMBIENT.2const, PR_CAP_AMBIENT_LOWER.2const: Split PR_CAP_AMBIENT_LOWER from PR_CAP_AMBIENT(2const)
-3adea3031fd86bb7f576fbdf7c24e074752e51c0 PR_CAP_AMBIENT.2const, PR_CAP_AMBIENT_IS_SET.2const: Split PR_CAP_AMBIENT_IS_SET from PR_CAP_AMBIENT(2const)
-9b843d49e98a477572f4ed916eadd0e679c10036 PR_CAP_AMBIENT.2const, PR_CAP_AMBIENT_CLEAR_ALL.2const: Split PR_CAP_AMBIENT_CLEAR_ALL from PR_CAP_AMBIENT(2const)
-0735c3a45ba1fcae7351979cdb448076ea3dac50 prctl.2, PR_CAPBSET_READ.2const: Split PR_CAPBSET_READ from prctl(2)
-d70f3b48aad6e979508e43770a929d301c247d2a PR_CAPBSET_READ.2const: Tweak after split
-2cc1e3b9ec0564cfc242fb12d8264750fd91be20 prctl.2, PR_CAPBSET_DROP.2const: Split PR_CAPBSET_DROP from prctl(2)
-f7ebeea8e32e0dc0e496f97a4759da37778f4a2c PR_CAPBSET_DROP.2const: Tweak after split
-fd490ba17b9fd9fd6d803d90085212ec8a1d795d prctl.2, PR_SET_CHILD_SUBREAPER.2const: Split PR_SET_CHILD_SUBREAPER from prctl(2)
-9322a879c9f42904b83a79fce2cc9c845199d8af PR_SET_CHILD_SUBREAPER.2const: Tweak after split
-31087ca2c92abf1c5399f2a53098cb3c86f6b929 prctl.2, PR_GET_CHILD_SUBREAPER.2const: Split PR_GET_CHILD_SUBREAPER from prctl(2)
-8a3f42e9611eedad7498922ad7c6ec99d0a95a1c PR_GET_CHILD_SUBREAPER.2const: Tweak after split
-87e6110a5e5986b5fa4c7a22c94892654f12c6b6 prctl.2, PR_SET_DUMPABLE.2const: Split PR_SET_DUMPABLE from prctl(2)
-9e568bdd00fd04b7b2abe61a7274c600a472f8ac PR_SET_DUMPABLE.2const: Tweak after split
-6a6d8df630dd2fba7b8200a5aa4e337d313b98a1 prctl.2, PR_GET_DUMPABLE.2const: Split PR_GET_DUMPABLE from prctl(2)
-bf5ade0419a4bea2e49d9e5d1b9bece14347ca61 PR_GET_DUMPABLE.2const: Tweak after split
-4b695f3fb3613e80c7abda715eb160ee26e32fec prctl.2, PR_SET_ENDIAN.2const: Split PR_SET_ENDIAN from prctl(2)
-90d8b1c1e635c3d0c64571a881588384fc354ec0 PR_SET_ENDIAN.2const: Tweak after split
-d8d9d43b111f87b2ef99655b3b0007c3be891868 prctl.2, PR_GET_ENDIAN.2const: Split PR_GET_ENDIAN from prctl(2)
-bcb6d62c711fb930a9794ce71ca2a77c84867499 PR_GET_ENDIAN.2const: Tweak after split
-db755e1f4304938553aaa67c3abaa412a83f811e prctl.2, PR_SET_FP_MODE.2const: Split PR_SET_FP_MODE from prctl(2)
-a4f5fe1da8b364c59736723c4d6fd30b57b17cdd PR_SET_FP_MODE.2const: Tweak after split
-9275836f8a64393597d8824b550be41461507b3c prctl.2, PR_GET_FP_MODE.2const: Split PR_GET_FP_MODE from prctl(2)
-19b99f6f13d7df95449e0674153d87e63e405255 PR_GET_FP_MODE.2const: Tweak after split
-9335d3aa8b31fe42ac398c2bcab3c2363b7c19e1 prctl.2, PR_SET_FPEMU.2const: Split PR_SET_FPEMU from prctl(2)
-8938d306e0dc170088de20096bf1dd214bea85dd PR_SET_FPEMU.2const: Tweak after split
-2bf5e2b9a9c2f134c350998f469e11e82b0f2c91 prctl.2, PR_GET_FPEMU.2const: Split PR_GET_FPEMU from prctl(2)
-da06d42aae8549c898a61e9b2e56ced396e568b5 PR_GET_FPEMU.2const: Tweak after split
-839a6fa8f03b1bdf42237a0523d4cbd1d5baa989 prctl.2, PR_SET_FPEXC.2const: Split PR_SET_FPEXC from prctl(2)
-92e5aff5187de77e85ec2491cadb918b7c641142 PR_SET_FPEXC.2const: Tweak after split
-40e7cfd0c7c3db6b63caac291069b2a90c2bc3f0 prctl.2, PR_GET_FPEXC.2const: Split PR_GET_FPEXC from prctl(2)
-dc5c32d1ce43771ffd76021965abf66478feed24 PR_GET_FPEXC.2const: Tweak after split
-a5eab6ee8f1dd729a45bca1aa9397e4712e18713 prctl.2, PR_SET_IO_FLUSHER.2const: Split PR_SET_IO_FLUSHER from prctl(2)
-0323c5d7fe912a609527d7907947812caf158b4c PR_SET_IO_FLUSHER.2const: Tweak after split
-ab80a09bc48b57de3e88829168f599a0599084a7 prctl.2: SYNOPSIS: Simplify
-eccc6561594b8a73941bb0ca3b2aacf30fb3d88d prctl.2, PR_GET_IO_FLUSHER.2const: Split PR_GET_IO_FLUSHER from prctl(2)
-7879346feae61f4eb42e8ce4e5720ecee51937e7 PR_GET_IO_FLUSHER.2const: Tweak after split
-86b5c4f0f69cfa8feaf5c29bb1bf053ad4d7356e prctl.2, PR_SET_KEEPCAPS.2const: Split PR_SET_KEEPCAPS from prctl(2)
-94ee8b0d0c9b0facd35ecab65bc46bfeb27f7ecd PR_SET_KEEPCAPS.2const: Tweak after split
-5a185cc79d0ced501abf5e2959dee986b314ed6b prctl.2, PR_GET_KEEPCAPS.2const: Split PR_GET_KEEPCAPS from prctl(2)
-bfb34547c76e98af73e2a563da5b03ab1c4aadbf PR_GET_KEEPCAPS.2const: Tweak after split
-bb3d0ed06ff6c6ddc1d804ccc6d8198b81fdf70f prctl.2, PR_MCE_KILL.2const: Split PR_MCE_KILL from prctl(2)
+7a0d0274bfedebd7c2a6ade55ac9f0990760f62d prctl.2: SYNOPSIS: Simplify
+953781424f5c3b6bfcceaf1a0c4a56c67cfc917d prctl.2, PR_CAP_AMBIENT.2const: Split PR_CAP_AMBIENT from prctl(2)
+3e527b3e0b356c914ef8288b9d076e73b5dc366f PR_CAP_AMBIENT.2const: Tweak after split
+29bd09196c2e653de2087180d6da60ae07d99036 PR_CAP_AMBIENT.2const, PR_CAP_AMBIENT_RAISE.2const: Split PR_CAP_AMBIENT_RAISE from PR_CAP_AMBIENT(2const)
+97abf7f959f779447d9d2ac9ca296d86fd7759b4 PR_CAP_AMBIENT.2const, PR_CAP_AMBIENT_LOWER.2const: Split PR_CAP_AMBIENT_LOWER from PR_CAP_AMBIENT(2const)
+7dddd9bae19a7c75ddb89f4d26f62eb73abd88ad PR_CAP_AMBIENT.2const, PR_CAP_AMBIENT_IS_SET.2const: Split PR_CAP_AMBIENT_IS_SET from PR_CAP_AMBIENT(2const)
+240c44019ae5992656bc3a1bbd802df1c1ce0fa9 PR_CAP_AMBIENT.2const, PR_CAP_AMBIENT_CLEAR_ALL.2const: Split PR_CAP_AMBIENT_CLEAR_ALL from PR_CAP_AMBIENT(2const)
+54579d908fe3beab9e27f8d6d5a6d4d6aaced3fa prctl.2, PR_CAPBSET_READ.2const: Split PR_CAPBSET_READ from prctl(2)
+6fcdc8eefa2f165e7dc4672d04884e83ca16db11 PR_CAPBSET_READ.2const: Tweak after split
+b056cd346d3465d0be42463aed29583e0f98cc50 prctl.2, PR_CAPBSET_DROP.2const: Split PR_CAPBSET_DROP from prctl(2)
+22b9622d5a060f3aded548e5a040e90d64d9657b PR_CAPBSET_DROP.2const: Tweak after split
+907e65701f2af657c79dee67c79212db5cf379cc prctl.2, PR_SET_CHILD_SUBREAPER.2const: Split PR_SET_CHILD_SUBREAPER from prctl(2)
+fa7d2448c551e3cae9da020b81f6927a2c84de67 PR_SET_CHILD_SUBREAPER.2const: Tweak after split
+cd0c5855285a8e4f83ac50442503ee524b87fd87 prctl.2, PR_GET_CHILD_SUBREAPER.2const: Split PR_GET_CHILD_SUBREAPER from prctl(2)
+f662d55f47153cc0571233c90b4984a22280345b PR_GET_CHILD_SUBREAPER.2const: Tweak after split
+1ac515fb5225fbf601d2ba2a7c8d3693c68acb71 prctl.2, PR_SET_DUMPABLE.2const: Split PR_SET_DUMPABLE from prctl(2)
+936ccc46af7e6d6872cc9ab0b82b60f1ff4ac4cb PR_SET_DUMPABLE.2const: Tweak after split
+1b666f31912599a230d149ef953cb889676d457c prctl.2, PR_GET_DUMPABLE.2const: Split PR_GET_DUMPABLE from prctl(2)
+f80617289e1109348fd5078057b9d5845a8dd90d PR_GET_DUMPABLE.2const: Tweak after split
+2da7dec28a5f4eb8c03202c8ea4f3407ee67147b prctl.2, PR_SET_ENDIAN.2const: Split PR_SET_ENDIAN from prctl(2)
+ed951fecf640b2c062f8410b450ecc7b027e233e PR_SET_ENDIAN.2const: Tweak after split
+37441fb443bff890c29cc2c64020d7e357e05294 prctl.2, PR_GET_ENDIAN.2const: Split PR_GET_ENDIAN from prctl(2)
+76ff34892194eb27c942dd8c3ca6521456764ac9 PR_GET_ENDIAN.2const: Tweak after split
+faeb6be40b4c71675a0011c9d75898a60e083093 prctl.2, PR_SET_FP_MODE.2const: Split PR_SET_FP_MODE from prctl(2)
+dd05d058b0ccdc0c255120976a51c65d4133d650 PR_SET_FP_MODE.2const: Tweak after split
+aee36d1e65b582497ab495f51776dee7cb8da366 prctl.2, PR_GET_FP_MODE.2const: Split PR_GET_FP_MODE from prctl(2)
+29b7582964b2549ecd5bb3e914456ba5a4050ea3 PR_GET_FP_MODE.2const: Tweak after split
+99dc9385f6ccc5d0cfc11bf6e6e1970d66a3ba30 prctl.2, PR_SET_FPEMU.2const: Split PR_SET_FPEMU from prctl(2)
+fb47686b3effde07ef21e9e4efbf8314032f86cf PR_SET_FPEMU.2const: Tweak after split
+5778ca9e5ac898948c790e9e3a4f12c0df698c86 prctl.2, PR_GET_FPEMU.2const: Split PR_GET_FPEMU from prctl(2)
+386ae385192811a9a61987e27e3ec0bda1a3034b PR_GET_FPEMU.2const: Tweak after split
+815390f1af91fa0644e5af6385c1676fbd23766e prctl.2, PR_SET_FPEXC.2const: Split PR_SET_FPEXC from prctl(2)
+621fc85d0c5b32e71f42573b5b65219b649b5533 PR_SET_FPEXC.2const: Tweak after split
+79de399ce00df95e25813646b80c6af2e3edf3f2 prctl.2, PR_GET_FPEXC.2const: Split PR_GET_FPEXC from prctl(2)
+83dabd2ae30d3550f672f637dd893ab4b0de973d PR_GET_FPEXC.2const: Tweak after split
+f45cf6e4d78dbdc52c9f9ea554aa4f40cf660658 prctl.2, PR_SET_IO_FLUSHER.2const: Split PR_SET_IO_FLUSHER from prctl(2)
+7d3bc466e4378724a2a48b7ff6605c5fe82d79a6 PR_SET_IO_FLUSHER.2const: Tweak after split
+9c0aa97d4d1f8e7b8795415758702a4108a79355 prctl.2, PR_GET_IO_FLUSHER.2const: Split PR_GET_IO_FLUSHER from prctl(2)
+28b2d08f4b903aa62a7be4f938f3ec29e19c62cc PR_GET_IO_FLUSHER.2const: Tweak after split
+c4f6706b318cb7abdee19e6e83f752fc651201c2 prctl.2, PR_SET_KEEPCAPS.2const: Split PR_SET_KEEPCAPS from prctl(2)
+2d70f4c879ce66612dcd06f4d23d17d5b5365396 PR_SET_KEEPCAPS.2const: Tweak after split
+beeaa4cbc5d24f0cc08399c563da33e09e55a5ec prctl.2, PR_GET_KEEPCAPS.2const: Split PR_GET_KEEPCAPS from prctl(2)
+94f04d857eb18e2fa3f460a87366d237de40befe PR_GET_KEEPCAPS.2const: Tweak after split
+79060dc0b50ee61ad057e29a3fab70c8969da3f0 prctl.2, PR_MCE_KILL.2const: Split PR_MCE_KILL from prctl(2)
 
---===============4862789301363178742==--
+--===============1919897606048872303==--
