@@ -1,21 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 28 May 2024 16:00:05 -0000
-Message-Id: <171691200597.27274.3410776874636583899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 28 May 2024 16:05:14 -0000
+Message-Id: <171691231480.30723.3114075138273394605@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: 85b5eb32dba009e82d8c1b368ce7d8170d59eb8a
-    new: dfccacadc2a524b64f3f8416f3a36d0b02a6ad0c
+  - ref: refs/heads/arm32-for-6.11
+    old: b4f6c63bf34d8da1b769483bb1f4a603c53896ce
+    new: c133cfc12cd717b72ce534477415446e1c33de47
     log: |
-         78831c6b35c53f844748e79711b99218fb58f928 io_uring: Fix the flip to negative of CQE status
-         f26af3ddd7becec1b296a67a4b80cf7d19e19928 options: Add support hex value to ignore_error
-         dfccacadc2a524b64f3f8416f3a36d0b02a6ad0c Merge branch 'io_uring/fix-negative-cqe-status' of https://github.com/minwooim/fio
+         92b9ce5b11d7ba281f5bf0029185d5c891b29344 ARM: dts: qcom: msm8974-hammerhead: Update gpio hog node name
+         c133cfc12cd717b72ce534477415446e1c33de47 ARM: dts: qcom: msm8974: Use proper compatible for APCS syscon
+         
+  - ref: refs/heads/arm64-for-6.11
+    old: 5f2fd4aefac8ac376d1e4979d5237f5e7c53174d
+    new: 839936d9676bdc2e4dde63631131feb8870fa4d2
+    log: |
+         62aad66b57466287925d17e7ed0f6f14fd6c5459 arm64: dts: qcom: pmi8950: add pwm node
+         0ae1bf2e097354b4c85491d9cc165a0f8f972e7b dt-bindings: arm: qcom: Add msm8916 based Motorola devices
+         a204bf3fb7bd436787f715dddca2cb7c1c86c12f arm64: dts: qcom: msm8916-samsung-fortuna: Add BMC150 accelerometer/magnetometer
+         7f433e1e3c224b90d536109d7a37e116b98086fb arm64: dts: qcom: msm8916-samsung-fortuna: Add LSM303C accelerometer/magnetometer
+         e4558fcfbeb01c8bdb1163bc3c4f7c6227a22843 arm64: dts: qcom: msm8916-samsung-rossa: Add LIS2HH12 accelerometer
+         65321d09e38bfbebd0e66975e021b748844cf478 arm64: dts: qcom: Add device tree for Motorola Moto G4 Play (harpia)
+         24773481ae5e54f041a24b99037ba80775ec9fc5 arm64: dts: qcom: Add Motorola Moto E 2015 LTE (surnia)
+         83086701167434c444ecde8479f1b9d3e0804a65 arm64: dts: qcom: Add Motorola Moto G 2015 (osprey)
+         839936d9676bdc2e4dde63631131feb8870fa4d2 arm64: dts: qcom: qcs404: Use qcs404-hfpll compatible for hfpll
          
