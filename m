@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ido/linux
-Date: Tue, 28 May 2024 07:48:06 -0000
-Message-Id: <171688248648.20074.2132137658026930143@gitolite.kernel.org>
+Date: Tue, 28 May 2024 07:48:08 -0000
+Message-Id: <171688248872.20144.2986239726991280191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ido/linux
 user: ido
 changes:
-  - ref: refs/tags/v2.6.16.15
-    old: 76a558b01084bb9ba420d120822fa7d04bdec5fd
+  - ref: refs/tags/v2.6.16.16
+    old: a364f559ee36bacf5e9371a5f588665eeaaab472
     new: 0000000000000000000000000000000000000000
