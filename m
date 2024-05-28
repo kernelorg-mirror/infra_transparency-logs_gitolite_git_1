@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4498058168737012142=="
+Content-Type: multipart/mixed; boundary="===============6672163489045558672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Tue, 28 May 2024 15:45:37 -0000
-Message-Id: <171691113764.16832.11700491593994207690@gitolite.kernel.org>
+Date: Tue, 28 May 2024 15:45:45 -0000
+Message-Id: <171691114569.16946.741696016142434785@gitolite.kernel.org>
 
---===============4498058168737012142==
+--===============6672163489045558672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/w1-next
+  - ref: refs/heads/for-next
     old: 56813b244e5f2ace887f04c4a69a2a0041992297
     new: 26bf5fc86033162dbd2d5759094cbd724313d55b
     log: |
          26bf5fc86033162dbd2d5759094cbd724313d55b w1: Drop allocation error message
          
 
---===============4498058168737012142==
+--===============6672163489045558672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1716911133 +0200
+pusher krzk@kernel.org 1716911144 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1716911133-52c7a8982810c45a94bc1215061f509a2d2bff58
+nonce 1716911143-5c177f20dd457672573672b542a83f95c225488d
 
-56813b244e5f2ace887f04c4a69a2a0041992297 26bf5fc86033162dbd2d5759094cbd724313d55b refs/heads/w1-next
+56813b244e5f2ace887f04c4a69a2a0041992297 26bf5fc86033162dbd2d5759094cbd724313d55b refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmZV/B0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD118LD/9wvCZP1uuyaf5EhMZaKi2QzMoQFuNr3Gr3
-y1RNqFd9U/hpL5qncF7UZPCCQV8aKzfrhwVeG7A1h6OVhlxaLOtRGKge+kGCTlLm
-IGZUrHcuuke/mdcbWHMcfsoqTvcwhn6BvO7GmgYStZdZo9T/uf58oCL0LREC+cnQ
-WcWd8n3bX4AoSk8N0wQqguWBUy6dUNNOO/aI4tSmiTDQ4HQ5hh+qr0eUvqwCyo1p
-A7yj49AozfKg9Vj7KmGigtB9W/BuDE+W6y3nM2nd85NqrwBnMyo2GB3A0j0gq2v7
-XEINEy+9Frp6Le1P/8IrCPMgc81JUgiTPdGIV4+zeT/62Uq9wZXn5q5jtgYNQxiW
-gDRGOdCF1OxS/JyA0nkDUQDpaTVADB4WcDD220LfPFbOtnHsQ+4za/wT8BD9rY+p
-Ht9E0nuoLMKG2G9UIyFmdo1EYT52eNT/4UL+8qmHZzHyA1lPnY03AN4o1QQZGqm3
-HvWrR6+/qcmKoWLD0Du00YDd0qMTPI3XX9wF24xvXWZ/dgmOevvmeJIYMpyx6MC7
-WyIS1L1UWEiZCpiA0ZrBkno5yQQ/mBySgRWX2WyYIxfKi9HyMHknAzhxS6dHPkFY
-7MwBdr91HjV+od0WPqPqKCt+e2PeLdwtOm381phakdf6rUhyCZ0BUKHmoyRz+XQu
-8wDrSfFdfQ==
-=qg+O
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmZV/CgQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1+8GD/oDwSA2bQkp1Tdm6BBChNoai9ePwYJ+Jjc9
+g9MhPMNDt9LQ5VoqSZ083qPncWF4iLqe8YBakREgBnNPB2vgPPMz7MPGjbXWLpRv
+qe50ueE8c+fJ/yEaxnLx9EhSMtZs2nq3/2uXtKWCjcMt4HoMZAqgUPZilHCfDV5D
+veLX+YtrsKc5SqmIfDx+AS32OP9XuWdBokEj1ansW6xUeLPqANy0bK0QaFJ8uim4
+8B71OrfLwQZ2UmRKquqISj+gcClVBCwWO55iy2VSLqlZHJRSGyMmL2bXgglmjizS
+iFVvnK6spRQjudMRMz+TRyobmDGlhqxNVHcQX6uzCoUN/rLD2dTEG73nyH6hBart
+VYslTFQSRhWZkP1Y2kVxHiXalt8gKsyvBT/P7hOgNeURavbTAzvN3dq6SFcIVfi1
+/O7Pefd9CVEOeOcyohnSV7FXhoioogQpfgpnBcna77Ww3G0+hA47hWRwhRPObuN+
+7oSs2dYrKtjNaNRM4vDMRhV8JCtfZjnfSu/oaKihwsiT7SnQkoumJP7AdH5RznXQ
+zJypxAk3yfSEEEOYHTJtAw66Lw4fCYNcLRY808r7marksrJkkyQ52FE8yQLH2Vvo
+B08GjjgRzEb9lfyiVFeUUwJCdWfdJF2HVAj8ROlpDKMSjNzOlVKrRlFVdhoaCDss
+6FR3fevQiw==
+=SBKk
 -----END PGP SIGNATURE-----
 
---===============4498058168737012142==--
+--===============6672163489045558672==--
