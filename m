@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1181506765335114500=="
+Content-Type: multipart/mixed; boundary="===============6077697611004106331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Tue, 28 May 2024 10:32:55 -0000
-Message-Id: <171689237562.7380.11964599965377120065@gitolite.kernel.org>
+Date: Tue, 28 May 2024 10:33:09 -0000
+Message-Id: <171689238985.7554.3476915944157877194@gitolite.kernel.org>
 
---===============1181506765335114500==
+--===============6077697611004106331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: dcf280ea0aad87e70ef1646d579d11f8a52f8b67
     new: 5233a55a5254ea38dcdd8d836a0f9ee886c3df51
     log: revlist-dcf280ea0aad-5233a55a5254.txt
 
---===============1181506765335114500==
+--===============6077697611004106331==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ e82d2af501072930983bfa7a0d200fc8aeb4f63c Merge tag 'trace-tools-v6.10-2' of git:
 66ad4829ddd0b5540dc0b076ef2818e89c8f720e Merge tag 'net-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 5233a55a5254ea38dcdd8d836a0f9ee886c3df51 mISDN: remove unused struct 'bf_ctx'
 
---===============1181506765335114500==--
+--===============6077697611004106331==--
