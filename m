@@ -1,31 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6885471999832587753=="
+Content-Type: multipart/mixed; boundary="===============2171696583585123398=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Tue, 28 May 2024 15:36:17 -0000
-Message-Id: <171691057793.8312.11003378096171512240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Tue, 28 May 2024 15:36:39 -0000
+Message-Id: <171691059966.8695.16065957403959883243@gitolite.kernel.org>
 
---===============6885471999832587753==
+--===============2171696583585123398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/for-next
-    old: c1c53c26e3380a79b65e6b53dac6c3c797a7e8f1
-    new: b0ede5c03434215043a565508dccc75e301994ef
-    log: revlist-c1c53c26e338-b0ede5c03434.txt
+  - ref: refs/heads/sunxi/for-next
+    old: 547c853141d11081383323efcbdc005b0e51c5e6
+    new: 9dac031fb01f24d2951c7a2bd25ef9c3737870b2
+    log: revlist-547c853141d1-9dac031fb01f.txt
 
---===============6885471999832587753==
+--===============2171696583585123398==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c1c53c26e338-b0ede5c03434.txt
+Content-Disposition: attachment; filename=revlist-547c853141d1-9dac031fb01f.txt
 
+3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
+0df2b9ed489a06643eaaa150a57ab01fa9ad3005 ALSA: hda/realtek - fixed headset Mic not show
+d731b1ed15052580b7b2f40559021012d280f1d9 ALSA: hda/realtek: Drop doubly quirk entry for 103c:8a2e
+2bd5059c6cc04b02073d4d9f57137ab74e1d8e7a Merge branches 'arm/renesas', 'arm/smmu', 'x86/amd', 'core' and 'x86/vt-d' into next
+6d4e52f899d9d54cae31ad9b4584aa9504a9cfa1 Merge branch 'topic/ppc-kvm' into next
+e789d4499abdb488dd9cabce4f95c74dac6bcbe5 Merge branch 'topic/kdump-hotplug' into next
+c98ca8a375b6df243017716faee0916110a08396 sh: of-generic: Add missing #include <asm/clock.h>
+a11808815c3599891be12715d57c889d7b280a49 sh: smp: Protect setup_profiling_timer() by CONFIG_PROFILING
+efe976b7eecfa3f81e241da67d1a511e30a87779 sh: setup: Add missing forward declaration for sh_fdt_init()
+10316dcc4f39b2560b372d11be477228b95ae5ac Merge tag 'i2c-host-fixes-6.8-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
+0e9ee7dd7449371d221ce048615e5d1e271dacfc Merge tag 'i2c-host-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
 95feb3160eef0caa6018e175a5560b816aee8e79 VFIO: Add the SPR_DSA and SPR_IAX devices to the denylist
 e11452eb071b2a8e6ba52892b2e270bbdaa6640d dmaengine: idxd: add a new security check to deal with a hardware erratum
 6827738dc684a87ad54ebba3ae7f3d7c977698eb dmaengine: idxd: add a write() method for applications to submit work
@@ -1035,20 +1047,8 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-99b8520c00711556d62a9261eec9acfac94ecc9b gfs2: Remove unnecessary function prototype
-932a9052dc731d99865d478043e84b52937b8d54 gfs2: Remove useless return statement in run_queue
-121e730112788ab9aceedfb38d59dae2dee83301 gfs2: Rename GLF_FREEING to GLF_UNLOCKED
-0a0383a93e5d28f2873a72b8378c2b36404e431e gfs2: Rename GLF_REPLY_PENDING to GLF_HAVE_REPLY
-1fb5f67e21805333daca4b0c96416254de96400e gfs2: Rename GLF_FROZEN to GLF_HAVE_FROZEN_REPLY
-edeb180f1c8cfe2e789109766b636430adb5a0a3 gfs2: Rename handle_callback to request_demote
-ded323aef6d510bbd8cf5cf4c2c8532d0c1e1f29 gfs2: Update glocks documentation
-e7a9e813a25a1436c38391c69e883acc755dc3e4 gfs2: Remove outdated comment in glock_work_func
-e60fb2aa23a4168c80e697d4ef993f04dd344dfd gfs2: Invert the GLF_INITIAL flag
-03b423ea95c450f27c899cf80fd38a189038544f gfs2: gfs2_glock_get cleanup
-368beba16132748249089a8a623d2e02422e048b gfs2: Report when glocks cannot be freed for a long time
-675869f8c2eadf983b9c4d668cb779b3b3fc4d43 gfs2: Switch to a per-filesystem glock workqueue
-2b7ca7c7f28da27d716e07396e76201077251a71 gfs2: Revise glock reference counting model
-af57395209b82ef79b670f89110e9213f9755d24 Revert "GFS2: Don't add all glocks to the lru"
-b0ede5c03434215043a565508dccc75e301994ef gfs2: Get rid of demote_ok checks
+a40cf069ac613c0f441b9a9f42b84aa65aada8f7 soc: sunxi: sram: Remove unused list 'claimed_sram'
+5b36166e599b5c1332a1147271d2130cece4bb24 arm64: dts: allwinner: Fix PMIC interrupt number
+9dac031fb01f24d2951c7a2bd25ef9c3737870b2 Merge branches 'sunxi/fixes-for-6.10' and 'sunxi/drivers-for-6.11' into sunxi/for-next
 
---===============6885471999832587753==--
+--===============2171696583585123398==--
