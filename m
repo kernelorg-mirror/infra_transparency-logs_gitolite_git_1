@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 28 May 2024 00:16:32 -0000
-Message-Id: <171685539221.3268.4701135063372199127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Tue, 28 May 2024 00:25:16 -0000
+Message-Id: <171685591660.9509.11195104150235703697@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+user: andy
 changes:
-  - ref: refs/heads/main
-    old: 6e15774d92056f7e4d226b2fc758124a6c803f99
-    new: c519cf9b7434183bb56ed1e200ac577a5fd34d9b
-    log: |
-         c519cf9b7434183bb56ed1e200ac577a5fd34d9b docs: netdev: Fix typo in Signed-off-by tag
-         
+  - ref: refs/heads/fixes
+    old: 1bbf5a2156fa246ab54a15412116458006462038
+    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
