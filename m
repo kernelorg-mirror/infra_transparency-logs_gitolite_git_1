@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Tue, 28 May 2024 23:05:39 -0000
-Message-Id: <171693753912.19069.819343939856759852@gitolite.kernel.org>
+Date: Tue, 28 May 2024 23:07:23 -0000
+Message-Id: <171693764306.21263.8299160528921823579@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: aegl
 changes:
-  - ref: refs/heads/edac-misc
+  - ref: refs/heads/edac-for-next
     old: e6f53274c06dc841d677ccaf35587b8dd3fb7a47
     new: c2c887e9f967aab2b0ff94c25de64c5a97ef94fe
     log: |
