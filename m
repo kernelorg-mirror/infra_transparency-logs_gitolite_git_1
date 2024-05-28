@@ -1,34 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 28 May 2024 16:05:14 -0000
-Message-Id: <171691231480.30723.3114075138273394605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 28 May 2024 16:07:06 -0000
+Message-Id: <171691242632.32710.10646154304295075221@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/arm32-for-6.11
-    old: b4f6c63bf34d8da1b769483bb1f4a603c53896ce
-    new: c133cfc12cd717b72ce534477415446e1c33de47
+  - ref: refs/heads/tpm2key-v7
+    old: 3290a564a47ed89d55ade36372e77f9229723e6d
+    new: f943941c734a02b50d978da433482322d132f242
     log: |
-         92b9ce5b11d7ba281f5bf0029185d5c891b29344 ARM: dts: qcom: msm8974-hammerhead: Update gpio hog node name
-         c133cfc12cd717b72ce534477415446e1c33de47 ARM: dts: qcom: msm8974: Use proper compatible for APCS syscon
-         
-  - ref: refs/heads/arm64-for-6.11
-    old: 5f2fd4aefac8ac376d1e4979d5237f5e7c53174d
-    new: 839936d9676bdc2e4dde63631131feb8870fa4d2
-    log: |
-         62aad66b57466287925d17e7ed0f6f14fd6c5459 arm64: dts: qcom: pmi8950: add pwm node
-         0ae1bf2e097354b4c85491d9cc165a0f8f972e7b dt-bindings: arm: qcom: Add msm8916 based Motorola devices
-         a204bf3fb7bd436787f715dddca2cb7c1c86c12f arm64: dts: qcom: msm8916-samsung-fortuna: Add BMC150 accelerometer/magnetometer
-         7f433e1e3c224b90d536109d7a37e116b98086fb arm64: dts: qcom: msm8916-samsung-fortuna: Add LSM303C accelerometer/magnetometer
-         e4558fcfbeb01c8bdb1163bc3c4f7c6227a22843 arm64: dts: qcom: msm8916-samsung-rossa: Add LIS2HH12 accelerometer
-         65321d09e38bfbebd0e66975e021b748844cf478 arm64: dts: qcom: Add device tree for Motorola Moto G4 Play (harpia)
-         24773481ae5e54f041a24b99037ba80775ec9fc5 arm64: dts: qcom: Add Motorola Moto E 2015 LTE (surnia)
-         83086701167434c444ecde8479f1b9d3e0804a65 arm64: dts: qcom: Add Motorola Moto G 2015 (osprey)
-         839936d9676bdc2e4dde63631131feb8870fa4d2 arm64: dts: qcom: qcs404: Use qcs404-hfpll compatible for hfpll
+         7df9ef4f7b1e02400e24ae7572666806c7d340e3 tpm_tis_spi: Account for SPI header when allocating TPM SPI xfer buffer
+         597d568d7f6505350dd96f968a9ce83fd322a5d4 tpm: Open code tpm_buf_parameters()
+         04d6648d744a3883beaaf816dbada2dc716084b1 crypto: rsa-pkcs1pad: export rsa1_asn_lookup()
+         2806c83e305698728cdc526ead76f6243754abff KEYS: trusted: Change -EINVAL to -E2BIG
+         20c65da32b897a2a4ff98277f394f3bb8a48d561 crypto: tpm2_key: Introduce a TPM2 key type
+         3400a95970907e31080adfb261096d6e226382d6 keys: asymmetric: Add tpm2_key_rsa
+         f943941c734a02b50d978da433482322d132f242 keys: asymmetric: Add tpm2_key_ecdsa
          
