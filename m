@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 28 May 2024 17:33:45 -0000
-Message-Id: <171691762520.767.16661308570410019053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 28 May 2024 17:35:02 -0000
+Message-Id: <171691770296.2667.17384620063134608021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/endpoint
-    old: e5ff085bc6fd700a99a28ac67001925c19a25070
-    new: 7d96527bc16e46545739c6fe0ab6e4c915e9910e
+  - ref: refs/heads/tpm2key-v7
+    old: 911c78d50a00995524751b6ce4db44ea7db5010c
+    new: f943941c734a02b50d978da433482322d132f242
     log: |
-         cfc2d4c5151bb8449fd28b2591877a514214ad4a PCI: endpoint: pci-epf-test: Handle Link Down event
-         afd9c355900fc9ad9db9da222bccc78824447644 misc: pci_endpoint_test: Refactor dma_set_mask_and_coherent() logic
-         0ace3d3b70ed6a474d52fc44ee9b0b1f16ca3724 misc: pci_endpoint_test: Use memcpy_toio()/memcpy_fromio() for BAR tests
-         7d96527bc16e46545739c6fe0ab6e4c915e9910e Documentation: PCI: pci-endpoint: Fix EPF ops list
+         f943941c734a02b50d978da433482322d132f242 keys: asymmetric: Add tpm2_key_ecdsa
          
