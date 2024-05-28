@@ -1,67 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ido/linux
-Date: Tue, 28 May 2024 09:18:29 -0000
-Message-Id: <171688790970.3450.16460408296557515100@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8087290283923935967=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 28 May 2024 09:33:35 -0000
+Message-Id: <171688881511.13624.8623182173893431559@gitolite.kernel.org>
+
+--===============8087290283923935967==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ido/linux
-user: ido
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/tags/v2.6.25-rc6
-    old: b22f07f908a648c864b16d2ba71f03aba4b684c9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25-rc7
-    old: f4281310b609edd587922b7d4afa63e4b9a1ffd4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25-rc8
-    old: e39586f39c2829d30f4ea6680a846dfe4aad2f2e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25-rc9
-    old: 3df83da958163beeca00d1254f512fafd79a19ed
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25.1
-    old: b156ab18e708123aa1986f90c0ec2b3604173946
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25.10
-    old: d3afdb9d53d89233ed7b1c0e5b7e433c0a1eeb05
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25.11
-    old: 5be292e72f6eb45dcd5d698e5c34c8cacc8d999c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25.12
-    old: 7da1f4f76c3753e62d04ac04c28a930f80b8a886
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25.13
-    old: 7de2f12d013f96d49a6ff82d6d4dfb75424554d5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25.14
-    old: 165a0e3eff7778de9d47d6aa7f02398c8c3104d5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25.15
-    old: 53b1c5680845308a65e20afb3de7519de05258a1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25.16
-    old: 96a5a8378c3f7584bb6aadfa0d1361eca81f0dbb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25.17
-    old: c73e0ce87b303abcc4cfb82c4ae8a9a9f6fcfd52
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25.18
-    old: 1df76f10663b4879ab7217e539b0dcf4cb482540
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25.19
-    old: 3080013f36fe12915b104a96de543d5c4c8d0db2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25.2
-    old: f22992957e28e3f5cb14a62517d1974a24fbdb15
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25.20
-    old: fa3e84594d3f23ca20ae19e2706d32e7961d07ab
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v2.6.25.3
-    old: 84ebd50ae59908e67fa47076a0e92a31ccc29da2
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    new: 46de513068f956b76d68d241a7ad6bc5576d2948
+    log: |
+         46de513068f956b76d68d241a7ad6bc5576d2948 platform/x86/amd/pmf: Use memdup_user()
+         
+
+--===============8087290283923935967==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1716888809 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1716888809-6e7c8c0d5cec3c12667f5dec4252ef80319e44d2
+
+1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 46de513068f956b76d68d241a7ad6bc5576d2948 refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZlWk7gAKCRBZrE9hU+XO
+MbyHAQDUA8Z0UvDBb9j4JUyYKsHZv/aD+F1FPRMpLJVq5JmiSgD+IFW2x6wyBz9Z
+MxdU4sVWSoN+Bhvu/HYYmz5Rp02u/QY=
+=bXyc
+-----END PGP SIGNATURE-----
+
+--===============8087290283923935967==--
