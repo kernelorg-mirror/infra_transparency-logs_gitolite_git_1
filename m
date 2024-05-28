@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 27 May 2024 23:57:47 -0000
-Message-Id: <171685426705.20509.10571265807134960368@gitolite.kernel.org>
+Date: Tue, 28 May 2024 00:00:12 -0000
+Message-Id: <171685441279.23128.3071901526268848959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 12f86b9af96a8b09969e4392311602f787b40834
-    new: bf0497f53c8535f99b72041529d3f7708a6e2c0d
+    old: bf0497f53c8535f99b72041529d3f7708a6e2c0d
+    new: 4fb679040d9f758eeb3b4d01bbde6405bf20e64e
     log: |
-         bf0497f53c8535f99b72041529d3f7708a6e2c0d net:fec: Add fec_enet_deinit()
+         4fb679040d9f758eeb3b4d01bbde6405bf20e64e net: micrel: Fix lan8841_config_intr after getting out of sleep mode
          
