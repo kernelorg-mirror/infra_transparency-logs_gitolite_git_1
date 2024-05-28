@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Tue, 28 May 2024 18:17:09 -0000
-Message-Id: <171692022935.1711.10540077392277767386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Tue, 28 May 2024 18:30:05 -0000
+Message-Id: <171692100538.11097.18417613625830856981@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
-user: acme
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/tmp.perf-tools
-    old: da42b5229b27bb5c0eff3408c92f025e6041dad3
-    new: ac4b069035783f7a54b3ab841119f4b6bf435f98
+  - ref: refs/heads/master
+    old: dfccacadc2a524b64f3f8416f3a36d0b02a6ad0c
+    new: d5fbe84b83999d862838f36ea0d4a499e31f0653
     log: |
-         ac4b069035783f7a54b3ab841119f4b6bf435f98 tools arch x86: Sync the msr-index.h copy with the kernel sources
+         f082667807b89ee1b4598e793e6568d7c58348d9 fio: enable dataplacement(fdp) while replaying I/Os
+         e6a96fa85b54eb04e2da874339db9eb166fa3475 t/nvmept_fdp: add a test(402)
+         d5fbe84b83999d862838f36ea0d4a499e31f0653 Merge branch 'enable-dataplacement-while-replaying-io' of https://github.com/parkvibes/fio
          
