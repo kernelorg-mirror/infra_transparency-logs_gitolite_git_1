@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4372899052491643001=="
+Content-Type: multipart/mixed; boundary="===============3202245907676595149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Tue, 28 May 2024 14:59:44 -0000
-Message-Id: <171690838498.10315.15010241277688095933@gitolite.kernel.org>
+Date: Tue, 28 May 2024 14:59:49 -0000
+Message-Id: <171690838954.10406.15587192965620999521@gitolite.kernel.org>
 
---===============4372899052491643001==
+--===============3202245907676595149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,165 +16,53 @@ repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
 user: bigeasy
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6
-    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-a38297e3fb01-1613e604df0c.txt
-  - ref: refs/heads/linux-6.10.y
-    old: 0000000000000000000000000000000000000000
-    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-  - ref: refs/heads/linux-6.10.y-rt
+  - ref: refs/heads/for-kbuild-bot/current-stable
+    old: d0708267e5d2f3cb6950b741d4755d72f83e3330
+    new: 6d20efa57a896036453f4b061ae22601ef61b494
+    log: revlist-d0708267e5d2-6d20efa57a89.txt
+  - ref: refs/heads/for-kbuild-bot/prepare-release
+    old: d0708267e5d2f3cb6950b741d4755d72f83e3330
+    new: 6d20efa57a896036453f4b061ae22601ef61b494
+    log: revlist-d0708267e5d2-6d20efa57a89.txt
+  - ref: refs/heads/linux-6.10.y-rt-rebase
     old: 0000000000000000000000000000000000000000
     new: 6d20efa57a896036453f4b061ae22601ef61b494
-  - ref: refs/heads/linux-6.10.y-rt-patches
-    old: 0000000000000000000000000000000000000000
-    new: 35b69a178606869d24b5e5e78921df8951f4c043
-  - ref: refs/tags/v6.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cd214efd16e30bf1aa40ccfaaf9177f47dd21fd5
-  - ref: refs/tags/v6.10-rc1-rt1
-    old: 0000000000000000000000000000000000000000
-    new: 9e9fe96b0f7e3b8f89cd26663afb15c700795172
-  - ref: refs/tags/v6.10-rc1-rt1-patches
-    old: 0000000000000000000000000000000000000000
-    new: a4f5a08f6d7ee12d698d5694203c2011adf461d3
-  - ref: refs/tags/v6.10-rc1-rt1-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 32ac74a11e3e51a38474247cf64cb7b45d64ccce
 
---===============4372899052491643001==
+--===============3202245907676595149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1716908358 +0200
+pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1716908386 +0200
 pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
-nonce 1716908357-1116cbf0cc8ce168fd4cbfe0eaa1472ebe846d3b
+nonce 1716908386-cf0dfe2d5b4549a47e805af7475226487bd22fb3
 
-a38297e3fb012ddfa7ce0321a7e5a8daeb1872b6 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 refs/heads/master
-0000000000000000000000000000000000000000 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 refs/heads/linux-6.10.y
-0000000000000000000000000000000000000000 6d20efa57a896036453f4b061ae22601ef61b494 refs/heads/linux-6.10.y-rt
-0000000000000000000000000000000000000000 35b69a178606869d24b5e5e78921df8951f4c043 refs/heads/linux-6.10.y-rt-patches
-0000000000000000000000000000000000000000 cd214efd16e30bf1aa40ccfaaf9177f47dd21fd5 refs/tags/v6.10-rc1
-0000000000000000000000000000000000000000 9e9fe96b0f7e3b8f89cd26663afb15c700795172 refs/tags/v6.10-rc1-rt1
-0000000000000000000000000000000000000000 a4f5a08f6d7ee12d698d5694203c2011adf461d3 refs/tags/v6.10-rc1-rt1-patches
-0000000000000000000000000000000000000000 32ac74a11e3e51a38474247cf64cb7b45d64ccce refs/tags/v6.10-rc1-rt1-rebase
+d0708267e5d2f3cb6950b741d4755d72f83e3330 6d20efa57a896036453f4b061ae22601ef61b494 refs/heads/for-kbuild-bot/current-stable
+d0708267e5d2f3cb6950b741d4755d72f83e3330 6d20efa57a896036453f4b061ae22601ef61b494 refs/heads/for-kbuild-bot/prepare-release
+0000000000000000000000000000000000000000 6d20efa57a896036453f4b061ae22601ef61b494 refs/heads/linux-6.10.y-rt-rebase
 -----BEGIN PGP SIGNATURE-----
 
-iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmZV8UYWHGJpZ2Vhc3lA
-bGludXRyb25peC5kZQAKCRAFZB8XVxL6WxVRDAC0V4OMG6qkpNj4Bc9CwdTvlAMV
-5katxrvSR8K05tSwrq3EegBHgI2VgnXwYn0gW37eai49Geo5YhCtJ1mjtjOTUQd1
-37QhjinchXzd8QLuNTWApHdcehmvsjtE/3eH9+CTVjUoMkQ9mC2DGfCEomjxd2cT
-PKKG6asfyWTqFAmQEdJgU6Uabdt++r1IEFGWHDAhlcZqSQrCgD8Ytn89FkIieqQB
-3QnK1s/Qw2opwbPO9tHl4FtXLKSeTHGkTV5gFj8FOa71gn3ybOH1y2JtN+t64cRb
-eZ7bSIGiZnUSo6sRQN1Qyi38c9quEYpSGKTb4e3+mRSTCUuiG5WBOvpz8UGpv1Jg
-d3gmFqx181kKkIsKKQY39hxsSS7od+YqrtNpLNPg4lcvEhbgnZIEJuhD8QcXPdQG
-sEklhWSqkM2vnzTJB4GZnoGF/SuzpcWrqWdrV3xHqFvU1iM8elRTCXv2eucnBsWR
-ydCwao1wgNLFhqXJZNnT+5rno8YpYe5IeSn8TVc=
-=yZeu
+iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmZV8WIWHGJpZ2Vhc3lA
+bGludXRyb25peC5kZQAKCRAFZB8XVxL6Wy8pC/9Nn7lpniswGdnZFEOkpfNYOTTS
+8zu7uC57B0k5eyC2+q8bBjH9PYa+eBlqlgR844mtkLgUuHou3hr8kEbQo3p4A/Mb
+ya/Cu5GYHFKy2pRdnjGs4MG+CbykxEEy7Z7HxoRnJbXWGd3LSzI4mc/qGOvHAdgo
+ca2BfZ6JCGelafdh5CP4rHAPF1xqaS4GQzUUVqMpAPCUH3Hrsxc1Pxfy+RegMLU9
+/RA+lw79TizNjvNNVmDZ5iR7/98Bgco5RRo55PGpI0ntEbK0r5piJ6uKTpbyzVk/
+g/lYdj5nzB6PCsndmZaPvhb66KkkLqH+zhAq2BTNHBO+K1rWGhR8TJMoJtTjYsYP
+rjRtnKp4FPF7iPKJr6qs+5wRjlod4tgO8GgjlsGytvNW1rlSUqUUAcER/ATXr++w
+WihdAvINhJmADroNlM9+lv3/Ray042gY5imbtivBMOmsp/Yp1zhKAY0Kcvtv+lz5
+VsibHvN//f5bKPxvBlD+rRxUl6kMi1uez3atoUw=
+=WLAN
 -----END PGP SIGNATURE-----
 
---===============4372899052491643001==
+--===============3202245907676595149==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a38297e3fb01-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-d0708267e5d2-6d20efa57a89.txt
 
-ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
-a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
-3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
-3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
-0df2b9ed489a06643eaaa150a57ab01fa9ad3005 ALSA: hda/realtek - fixed headset Mic not show
-d731b1ed15052580b7b2f40559021012d280f1d9 ALSA: hda/realtek: Drop doubly quirk entry for 103c:8a2e
-2bd5059c6cc04b02073d4d9f57137ab74e1d8e7a Merge branches 'arm/renesas', 'arm/smmu', 'x86/amd', 'core' and 'x86/vt-d' into next
-6d4e52f899d9d54cae31ad9b4584aa9504a9cfa1 Merge branch 'topic/ppc-kvm' into next
-e789d4499abdb488dd9cabce4f95c74dac6bcbe5 Merge branch 'topic/kdump-hotplug' into next
-c98ca8a375b6df243017716faee0916110a08396 sh: of-generic: Add missing #include <asm/clock.h>
-a11808815c3599891be12715d57c889d7b280a49 sh: smp: Protect setup_profiling_timer() by CONFIG_PROFILING
-efe976b7eecfa3f81e241da67d1a511e30a87779 sh: setup: Add missing forward declaration for sh_fdt_init()
-10316dcc4f39b2560b372d11be477228b95ae5ac Merge tag 'i2c-host-fixes-6.8-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
-0e9ee7dd7449371d221ce048615e5d1e271dacfc Merge tag 'i2c-host-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
-95feb3160eef0caa6018e175a5560b816aee8e79 VFIO: Add the SPR_DSA and SPR_IAX devices to the denylist
-e11452eb071b2a8e6ba52892b2e270bbdaa6640d dmaengine: idxd: add a new security check to deal with a hardware erratum
-6827738dc684a87ad54ebba3ae7f3d7c977698eb dmaengine: idxd: add a write() method for applications to submit work
-fec1982d70721c0062758861fec7e4e9d1103fb6 i2c: mux: Remove class argument from i2c_mux_add_adapter()
-f9dc0c4a140a1e776a316f5875430b74bb0ec047 Merge branch 'i2c/for-current' into i2c/for-mergewindow
-2ca99e6efc91ee7c58caab3a94e9cef7a75d8ba7 dt-bindings: display: samsung,ams495qa01: add missing SPI properties ref
-6b2358ff9493db92c4fa6ed3ad7b66c02c66f440 dt-bindings: display: panel: constrain 'reg' in SPI panels
-9fa6bcf23e4417127c8dca996fe7ba7a14a9b7de dt-bindings: display: panel: constrain 'reg' in DSI panels
-d976c6f4b32c2d273d44ff9ad7099efe16279a39 of: property: Add fw_devlink support for interrupt-map property
-d65e1a0f305ba3e7aabf6261a37bb871790d9f93 Merge tag 's390-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-6c60000f0b9ae7da630a5715a9ba33042d87e7fd Merge tag 'soc-dt-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-14a60290edf6d947b9e2210f7a223bcc6af1716a Merge tag 'soc-drivers-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-0c2212926dc2ead410031977839af9157a895013 Merge tag 'soc-arm-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-6d1346f1bcbf2724dee8af013cdab9f7b581435b Merge tag 'soc-defconfig-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-736676f5c3abd1fc01c41813a95246e892937f6d Merge tag 'asm-generic-alpha' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
-bd125a084091396f3e796bb3dc009940d9771811 tracing/user_events: Fix non-spaced field matching
-78490b74435a8c738e91260e7df387e7cb6d6568 selftests/user_events: Add non-spacing separator check
-c0b9620bc3f0a0f914996cc6631522d41870a9e0 Merge tag 'rcu.next.v6.10' of https://github.com/urezki/linux
-62158261a88fab201433686c603cbd7775f55197 docs: cgroup-v1: Update page cache removal functions
-c1457d9aad5ee2feafcf85aa9a58ab50500159d2 selftests/cgroup: Drop define _GNU_SOURCE
-2e57d1d6062af11420bc329ca004ebe3f3f6f0ee Merge tag 'cmpxchg.2024.05.11a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-ee20260136095c8037d8f94f0471eb9f7e3da99f Merge tag 'lkmm.2024.05.10a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-c07ea940a011343fdaec12cd74b4ff947ba6f893 Merge tag 'kcsan.2024.05.10a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-82303dd304324483c70c0090eb5a8d600eeeaeb2 Merge branch 'acpi-bus'
-cd97950cbcabe662cd8a9fd0a08a247c1ea1fb28 Merge tag 'slab-for-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-784cf44945e3408bd87776bd2974b5c7cfc0ced4 Merge branches 'acpi-scan' and 'acpi-tables'
-ca86ab598ddcd8d8959659b404e1db0fd95d9790 Merge branches 'acpi-resource', 'acpi-property' and 'acpi-numa'
-c024814828f72b1ae9cc2c338997b2d9826c80f6 Merge tag 'keys-trusted-next-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-b19239143e393d4b52b3b9a17c7ac07138f2cfd4 Merge tag 'tpmdd-next-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-25c73642cc5baea5b91bbb9b1f5fcd93672bfa08 Merge tag 'keys-next-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-8815da98e06a930ce7e6a1ffaf1b1590e79fd94f Merge tag 'docs-6.10' of git://git.lwn.net/linux
-14449382b5aca53e6a31a04b1e93e53b288a1cb2 Merge branch 'pm-cpufreq'
-440f9d47dfac065a8da663adbc4b28703fdf550e Merge branches 'pm-cpuidle', 'pm-sleep' and 'pm-powercap'
-de1c2722e07819c7ea65bb4bf37a2cfe2556095b Merge branches 'pm-em' and 'pm-docs'
-c117a437f25db7d88831816cb3a40ee556535ce2 Merge tag 'vfs-6.10.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-1b0aabcc9a35e729a6c7ce71e725fd63513b35de Merge tag 'vfs-6.10.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-d9f87a7e9a24c56e9c4827c5d8e902694a0888a5 Merge branches 'acpi-x86', 'acpi-dptf' and 'acpi-apei'
-e573d27e18f8289454b6abb378de531374bd3cde Merge branches 'acpi-tools', 'acpi-docs' and 'pnp'
-103fb219cf57fc3641d92af2f4f438080cea3efc Merge tag 'vfs-6.10.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-ef31ea6c2774c015946d2ffa26795766f7caaa42 Merge tag 'vfs-6.10.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-f4e8d80292859809ea135e9f4c43bae47e4f58bc Merge tag 'vfs-6.10.rw' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-9961a785944601e32f185ea696347b22ffda634c Merge tag 'for-6.10/io_uring-20240511' of git://git.kernel.dk/linux
-0c9f4ac808b017a0013cee92a30de980550145d5 Merge tag 'for-6.10/block-20240511' of git://git.kernel.dk/linux
-c9f9df3f6347b33ae770747c40bae38836e3658c Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-c85e41bfe7af41c71c438c6011b298398c185fa8 Merge tag 'nf-next-24-05-12' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
-959314c438caf1b62d787f02d54a193efda38880 drm/nouveau: use tile_mode and pte_kind for VM_BIND bo allocations
-dcaa86b904ea3761e62c849957dd0904e126bf4a KEYS: asymmetric: Add missing dependency on CRYPTO_SIG
-9d2fd8bdc12f403a5c35c971936a0e1d5cb5108e KEYS: asymmetric: Add missing dependencies of FIPS_SIGNATURE_SELFTEST
-87bfdbbb199249f677a92c6e13234b9c450992c6 net: phy: air_en8811h: reset netdev rules when LED is set manually
-1af7f88af269c4e06a4dc3bc920ff6cdf7471124 inet: fix inet_fill_ifaddr() flags truncation
-f37dc28ac6e2624afd7916faacea259f57f5ca82 selftest: epoll_busy_poll: Fix spelling mistake "couldnt" -> "couldn't"
-cfc2eefd40f1bc121a41a2acd54458046d77f9ae selftests: net: use upstream mtools
-1ba58f1ae9b2c07e2b736d187eb25ac8910a7613 Merge tag 'seccomp-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-92f74f7f4083cb7b1fdab807cbbe4f5ece534fbc Merge tag 'execve-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-ae7620b2839365e23a88dc2953e071ff2f260868 Input: chipone_icn8505 - remove an unused field in struct icn8505_data
-adb2e48afc352fb00357e158be006296f220347e Input: zet6223 - remove an unused field in struct zet6223_ts
-87caef42200cd44f8b808ec2f8ac2257f3e0a8c1 Merge tag 'hardening-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-92cce91949a497a8a4615f9ba5813b03f7a1f1d5 riscv: defconfig: Enable CONFIG_CLK_SOPHGO_CV1800
-5fcc17dfe05e127a38d24b0e5bf93aaba01fdddc selftests: netfilter: nft_flowtable.sh: bump socat timeout to 1m
-62a261f6c1dda0d0b26918cf31da8053c846a0a5 net: ena: Add a counter for driver's reset failures
-48673ef444317f44c80da4fe98442dd56ed78cac net: ena: Reduce holes in ena_com structures
-b37b98a3a0c1198bafe8c2d9ce0bc845b4e7a9a7 net: ena: Add validation for completion descriptors consistency
-97776caf6c6e3a932d8e1410e6810cbfcb69d42d net: ena: Changes around strscpy calls
-1cc0a47daa7a2778ac8ab6e2699b605193602607 net: ena: Change initial rx_usec interval
-9af9b891fc6b44bb336933d63be526ca5cc6ee25 Merge branch 'ena-driver-changes-may-2024'
-186b1ea73ad8f30d1d7afdb1d07dfd5b5de8f2da net: gro: use cb instead of skb->network_header
-4b0ebbca3e1679765c06d5c466ee7f3228d4b156 net: gro: move L3 flush checks to tcp_gro_receive and udp_gro_receive_segment
-bc21faefbe58feff0ae7cae8b52c4145073e2208 selftests/net: add flush id selftests
-e6e43570fd98ac609c903bc91d6db163ba2e82d0 Merge branch 'net-gro-remove-network_header-use-move-p-flush-flush_id-calculations-to-l4'
-9f9bef9bc5c68a6ca9bbffcd29cd188167c29ae1 smb: smb2pdu.h: Avoid -Wflex-array-member-not-at-end warnings
-c084ebd77a00b1a16d9daa57b6ecdfdf1f43c78a tcp: socket option to check for MPTCP fallback to TCP
-29b4c7bb8565118e2c7e08709fce0dbe8bf61011 cifs: Change from mempool_destroy to mempool_exit for request pools
-84c7d76b5ab6a52e1b3d8101b9f910c128dca396 Merge tag 'v6.10-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-8ec9897ec2e93a412b9e3119e3137583a85969e0 netlabel: fix RCU annotation for IPv4 options on socket creation
-b56035101e1cdd9c4420ea5da17f09f87fb69285 netdev: Add queue stats for TX stop and wake
-c39add9b24237a4b4d8455643af9db42ef08b40d virtio_net: Add TX stopped and wake counters
-e5a280261c7d6973b54a9517b314610a4054f701 Merge branch 'add-tx-stop-wake-counters'
-ec8c25746e3232634f7842755a0c4bc08def6a49 ynl: ensure exact-len value is resolved
 14b1cd25346b1d615616a9c2dfdad9b4e6581e0d cifs: Fix locking in cifs_strict_readv()
 c09d4167b550f91ecf5c3db883eea314edc7f532 ring-buffer: Allocate sub-buffers with __GFP_COMP
 117c39200d9d760cbd5944bb89efb7b9c51965aa ring-buffer: Introducing ring-buffer mapping functions
@@ -1106,5 +994,98 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
+48daef39ed2600d7c48068235fc0069e6ef51f37 perf: Move irq_work_queue() where the event is prepared.
+fb36058f910e3b12f9d1d804f9bd609f931e5c5a perf: Enqueue SIGTRAP always via task_work.
+a2e96b3c7a195e87b55f1ec5047e0ee5e99b5ffb perf: Remove perf_swevent_get_recursion_context() from perf_pending_task().
+d0dc99527dfc0ecb03113566eafd4c6c6351b56c perf: Split __perf_pending_irq() out of perf_pending_irq()
+b94360e3d8ed4344c8f4f74ff0c7f3fff08878dd drm/ttm/tests: Let ttm_bo_test consider different ww_mutex implementation.
+df4236d303653d87bdd39b75a64efcdb00c3396c pinctrl: renesas: rzg2l: Use spin_{lock,unlock}_irq{save,restore}
+4adbfc7a11c8cc1c009ff9e2a8d516d778263572 memcg: Remove the lockdep assert from __mod_objcg_mlstate().
+82138c200810c00a68cb6dc8673a805c18f66921 x86: Allow to enable RT
+c13a598d2cbc51b81b85cd36d70d67e3d9fb40a9 x86: Enable RT also on 32bit
+e18de5e2e3e9b1cf3848b20e5edea0559bdb4e5c sched/rt: Don't try push tasks if there are none.
+9105c9af2449940dbb3b9c2b98f2c9868a384410 softirq: Use a dedicated thread for timer wakeups.
+9279f0c714e49cf82844fea7c7fe878858b7f663 rcutorture: Also force sched priority to timersd on boosting test.
+6364d70c6dd3b9f753a159f54c80e898d6cd44be tick: Fix timer storm since introduction of timersd
+b2444e2ac9c207a4d63b9f0c0ac4acdf798dfc5e softirq: Wake ktimers thread also in softirq.
+6206b3142a48f93d03278942ad38414cb447c1f9 zram: Replace bit spinlocks with spinlock_t for PREEMPT_RT.
+112c0f0ffc453f97d7c52f765215de0aa25e9729 sched/core: Provide a method to check if a task is PI-boosted.
+c0ad822e5faf4247a2a5cffc3686aa81e8289668 softirq: Add function to preempt serving softirqs.
+d6c204593067c81feead5b80aaf0f7f3b82c6761 time: Allow to preempt after a callback.
+963768fd54f561ddec58d657538dd9474e698e8a printk: Add notation to console_srcu locking
+527f196f70868c3eefd5d99f417f96c6b2960583 printk: Properly deal with nbcon consoles on seq init
+2e8886a429edf5215327338c57c4d487b0d29bb4 printk: nbcon: Remove return value for write_atomic()
+e53d12ac9580c7b335f26142cc489f5b00b635b6 printk: Check printk_deferred_enter()/_exit() usage
+0ee5c728a2b97cbaa334326c6afa04881c86bfaf printk: nbcon: Add detailed doc for write_atomic()
+9372f6aed7f446e6eb15656355f575291db751e2 printk: nbcon: Add callbacks to synchronize with driver
+e8c8e547cb17781833bd7e1f1094abbd01b22821 printk: nbcon: Use driver synchronization while (un)registering
+d25d7f76fa9dc38cb781a18b5adfe708ebdb6788 serial: core: Provide low-level functions to lock port
+669249be231cd344d040726950ded1fe94dff105 serial: core: Introduce wrapper to set @uart_port->cons
+e15e4985c1fad7285547eb0d58cbfb02cccec735 console: Improve console_srcu_read_flags() comments
+2a34ec4e1ed4bcaf06d5da5dfb88d355c3c3a418 nbcon: Provide functions for drivers to acquire console for non-printing
+4207e6c95ad1bd5f1e06c01a814f4329d475d8f0 serial: core: Implement processing in port->lock wrapper
+47fe920103c0619f25afc135fe92817ea2ade620 printk: nbcon: Do not rely on proxy headers
+5637f6fe2c68f11dd5eb50f03fa80b9b7c16b63e printk: Make console_is_usable() available to nbcon
+bff1c0246954aece89a6acd65277c0abca80459b printk: Let console_is_usable() handle nbcon
+b664070cc2fd97dc820c7b599352f10239b8ece6 printk: Add @flags argument for console_is_usable()
+12e25e3fa7c5dbdeb267e10814d464a190aa11f0 printk: nbcon: Add helper to assign priority based on CPU state
+7b67608785cf69c936e53836d64c09f3533f5e68 printk: nbcon: Provide function to flush using write_atomic()
+e18d5e78c410615fd0b1c3e192ddc6c107edba00 printk: Track registered boot consoles
+82db0fd32bee3f7cf9f06f8ebf243cdb92896a5b printk: nbcon: Use nbcon consoles in console_flush_all()
+2ad21383c69f479906adcfbe7f74c73b889377b5 printk: nbcon: Add unsafe flushing on panic
+1457161a70aadb5f4fa347b9f2b5dd932862f057 printk: Avoid console_lock dance if no legacy or boot consoles
+fed4d8747a690e6b62262c6460248a66c4e40f4a printk: Track nbcon consoles
+52903a216c677206220c9670dd95307135ce5820 printk: Coordinate direct printing in panic
+1ecad7362308aba46bd3ada30ce80fbca3a347a4 printk: nbcon: Implement emergency sections
+1e81080abcd6571c952b2b881bf045e61a982df9 panic: Mark emergency section in warn
+6717ffd02ec870d0d71e754b6a87d88ff57e73d6 panic: Mark emergency section in oops
+1fe7e4a07f93bc67aaedf3c7194a2162bb6fc2fc rcu: Mark emergency sections in rcu stalls
+5100c8ada09cb460e17475aba26e244ddc64f9b0 lockdep: Mark emergency sections in lockdep splats
+88722ff944ceff70b750e4eb753e651c2a296268 printk: nbcon: Introduce printing kthreads
+c561347ffb27a076fcb0c7ed512d2f9bd7244b0d printk: Atomic print in printk context on shutdown
+cf888d8fd86d89051b27a91ad3c85c3c19646cb0 printk: nbcon: Add context to console_is_usable()
+91abce251c9f62003a5df282b067e7858a851eb3 printk: nbcon: Add printer thread wakeups
+0ddd8af0ce00b319a23d67a9fb12fd882e2bf30c printk: nbcon: Stop threads on shutdown/reboot
+62167bef9db6e8fb677e4030a091918ddd6e3608 printk: nbcon: Start printing threads
+2fe51ebd196586fede8ce5d8fb6d990da1831361 printk: Provide helper for message prepending
+263e470160bc28af4dd67dde992b508f1c8748d6 printk: nbcon: Show replay message on takeover
+7d204c00aba433bb9c6c32236143a8c6335bacc3 proc: consoles: Add notation to c_start/c_stop
+4769cb3aeccb8ece151a40ac749d7d26be4fe9f4 proc: Add nbcon support for /proc/consoles
+cedd0ae66bdc47eaab924ea50506a8e255fc96c4 tty: sysfs: Add nbcon support for 'active'
+e91cf752136a4a3a9336e15cad30290c633e96fa printk: nbcon: Provide function to reacquire ownership
+769ed8a42034479a6cbca8f8884d24af14a749b8 serial: 8250: Switch to nbcon console
+75d744c2cc3d84f1bd3adb26145fccfc01ac8895 serial: 8250: Revert "drop lockdep annotation from serial8250_clear_IER()"
+44d89b55b204a1e908a0056603127c003e133413 printk: Add kthread for all legacy consoles
+127f3e5b794bd6fa90d4649318dd898455efa6d7 printk: Provide threadprintk boot argument
+1312c5c36dc45c54631510d9ee09af547a87799e printk: Avoid false positive lockdep report for legacy printing
+0cf6f6b31123b56f9839835c7973390272fecdc9 drm/i915: Use preempt_disable/enable_rt() where recommended
+b38600fe4abc45c3befaf2ed4466ebe1d0656db5 drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
+59ab90ed04c7bc557522359604f2b88a2f14b093 drm/i915: Don't check for atomic context on PREEMPT_RT
+2fc3b7bed2bd562fe21b466b20284e806238ece8 drm/i915: Disable tracing points on PREEMPT_RT
+d006b2591f8f3f4242206049c20bdc8d5942c08f drm/i915/gt: Queue and wait for the irq_work item.
+c75d605d8c8d06684503ee6b21a9393dcda35908 drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
+59c0f4d4072017d5df65037e83696a65891bfa13 drm/i915: Drop the irqs_disabled() check
+49f9a460d818a129699ffb1bfa94696dc1393542 drm/i915/guc: Consider also RCU depth in busy loop.
+51bc548d7a4922ea49afebb98e9850fd486b5c61 Revert "drm/i915: Depend on !PREEMPT_RT."
+1ce68d8ba7e597d5c7883c562571a3a717f88698 sched: define TIF_ALLOW_RESCHED
+df5f1fccab555f21e4990fce0abc431aea04c41b arm: Disable jump-label on PREEMPT_RT.
+28b7a2e4f306481a3c4a0fc4c5c61f3cc26282a2 ARM: enable irq in translation/section permission fault handlers
+aef0034824a7b1137876198930d517f237ac5ca4 arm: Disable FAST_GUP on PREEMPT_RT if HIGHPTE is also enabled.
+1b1ce63c4ebcbff0dd28eb8eccd33ad495fb4ec7 ARM: vfp: Provide vfp_lock() for VFP locking.
+9afd7477666dcf4f4a4521e9b2de11b3f81fcaf4 ARM: vfp: Use vfp_lock() in vfp_sync_hwstate().
+25561624da2e6f85f12a9d771a1956357b7f0ae8 ARM: vfp: Use vfp_lock() in vfp_support_entry().
+1e74513a339240798e478625b363c5f3137176f9 ARM: vfp: Move sending signals outside of vfp_lock()ed section.
+9eab5216939ee7caab6f9b5b480df14e7187b5c2 ARM: Allow to enable RT
+77e2bb9bad79eac97e456afca0997398b20be056 ARM64: Allow to enable RT
+7a5fc7f814905f181ee5f392cbde0f7c34b4646f powerpc: traps: Use PREEMPT_RT
+8f34fbcb93bf0fe4dadaad963ddd84c8a2e6ff71 powerpc/pseries/iommu: Use a locallock instead local_irq_save()
+952a6aca2d4339e1646fb43c3387ae2753dc6413 powerpc/pseries: Select the generic memory allocator.
+fada5e0e71660695e726de187498168a6275c35d powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
+11b5f96715ec000a66828310d33c963a60cc531d powerpc/stackprotector: work around stack-guard init from atomic
+6ca802c132c4006bcff4f83ddd1c834ec98a961f POWERPC: Allow to enable RT
+c0518bf84c006070e1f546c3d2949223b6065685 riscv: add PREEMPT_AUTO support
+36659805ac417f82e65ed151a02537607f83c487 riscv: allow to enable RT
+aa2ed5114ff70b3f8de7555b9bfc8c490150a1d1 sysfs: Add /sys/kernel/realtime entry
+6d20efa57a896036453f4b061ae22601ef61b494 Add localversion for -RT release
 
---===============4372899052491643001==--
+--===============3202245907676595149==--
