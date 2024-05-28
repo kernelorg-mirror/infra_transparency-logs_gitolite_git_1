@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3248441232204765705=="
+Content-Type: multipart/mixed; boundary="===============0870637648154715750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Tue, 28 May 2024 15:45:26 -0000
-Message-Id: <171691112604.16579.9858804970726711942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Tue, 28 May 2024 15:45:29 -0000
+Message-Id: <171691112930.16694.12779675891246156579@gitolite.kernel.org>
 
---===============3248441232204765705==
+--===============0870637648154715750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/linux-safety
-    old: 4cece764965020c22cff7665b18a012006359095
-    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-4cece7649650-1613e604df0c.txt
+  - ref: refs/heads/testme
+    old: e063b531d4e83a5bf4f9eb8ca67963df2cc00bc6
+    new: 079544ec60fcba3f32e4b513442cc131211c8e22
+    log: revlist-e063b531d4e8-079544ec60fc.txt
 
---===============3248441232204765705==
+--===============0870637648154715750==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4cece7649650-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-e063b531d4e8-079544ec60fc.txt
 
-ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
-a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
 3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
 3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
@@ -1050,5 +1048,7 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
+98b83cf0c1e22390ebfeb96b3c1b40f7189c558a x86/cpu: Remove useless work in detect_tme_early()
+079544ec60fcba3f32e4b513442cc131211c8e22 x86/pconfig: Remove unused MKTME pconfig code
 
---===============3248441232204765705==--
+--===============0870637648154715750==--
