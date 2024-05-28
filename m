@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5385521402681485440=="
+Content-Type: multipart/mixed; boundary="===============1373907363472888554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 28 May 2024 10:41:27 -0000
-Message-Id: <171689288755.15315.14941650740659588096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Tue, 28 May 2024 10:41:37 -0000
+Message-Id: <171689289713.15459.8153847157329643374@gitolite.kernel.org>
 
---===============5385521402681485440==
+--===============1373907363472888554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
@@ -20,7 +20,7 @@ changes:
     new: 001821b0e79716c4e17c71d8e053a23599a7a508
     log: revlist-4f1b067359ac-001821b0e797.txt
 
---===============5385521402681485440==
+--===============1373907363472888554==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ e5c7bd4e5ca0f549108a7013ba77885926c6a56b tools include UAPI: Sync linux/stat.h w
 a3eed53beec4a7bac8acd109abcb187df2577781 perf beauty: Update copy of linux/socket.h with the kernel sources
 001821b0e79716c4e17c71d8e053a23599a7a508 perf trace beauty: Update the arch/x86/include/asm/irq_vectors.h copy with the kernel sources to pick POSTED_MSI_NOTIFICATION
 
---===============5385521402681485440==--
+--===============1373907363472888554==--
