@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6880277646705726176=="
+Content-Type: multipart/mixed; boundary="===============6883364134629100057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 28 May 2024 20:58:29 -0000
-Message-Id: <171692990906.22902.4815457565721015763@gitolite.kernel.org>
+Date: Tue, 28 May 2024 20:58:52 -0000
+Message-Id: <171692993218.23117.15091994045177581492@gitolite.kernel.org>
 
---===============6880277646705726176==
+--===============6883364134629100057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 66ad4829ddd0b5540dc0b076ef2818e89c8f720e
-    new: 4b3529edbb8ff069d762c6947e055e10c1748170
-    log: revlist-66ad4829ddd0-4b3529edbb8f.txt
+  - ref: refs/heads/dev-queue
+    old: 2e688fe158b329c7d15f425f9f33972fc19a31db
+    new: 17c4cf0e955ee4bcbe43da7d851cd4efdfac9182
+    log: revlist-2e688fe158b3-17c4cf0e955e.txt
 
---===============6880277646705726176==
+--===============6883364134629100057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66ad4829ddd0-4b3529edbb8f.txt
+Content-Disposition: attachment; filename=revlist-2e688fe158b3-17c4cf0e955e.txt
 
 94133cf24bb33889aac267a7f0e3e6a08b8a8e5a bpftool: Introduce btf c dump sorting
 e7b64f9d3f5b10186038201e0b91f734cbd7fc3d bpftool: Fix make dependencies for vmlinux.h
@@ -59,5 +59,40 @@ ef7f9febb33d22e687226211c67aa50158a0205b net: ethernet: mlx4: remove unused stru
 18ae4c093cd23b741607fd35ba449f80fbd9f322 net: ethernet: 8390: ne2k-pci: remove unused struct 'ne2k_pci_card'
 c30ff5f3aec3f77e13cfd7373390639bfdcffba7 net: usb: remove unused structs 'usb_context'
 4b3529edbb8ff069d762c6947e055e10c1748170 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
+83d06413deecefc0219648b100e3538d225dbac5 ice: avoid infinite loop if NVM has invalid TLV length
+51a566173bf2c1ee0bbde02d80f37951e6dee0b4 ice: fix reads from NVM Shadow RAM on E830 and E825-C devices
+40a4d104c1cd6e39fe6ae514a05ef762e459130f ice: fix 200G PHY types to link speed mapping
+083a41441f3740e8eb31f01e8ccbda9a87abc496 idpf: don't enable NAPI and interrupts prior to allocating Rx buffers
+4299c9205629feba3306226ca26778946a692095 ice: Introduce ice_ptp_hw struct
+fd6c86dc7a719d82522d4c2724fdd67dd8099ccf ice: Introduce helper to get tmr_cmd_reg values
+42f4ff700698d40d14e8e01c48c26cbe150914b9 ice: Implement Tx interrupt enablement functions
+614bf7c63925fcaa9a0c96b4310cfb78504118ca ice: Add PHY OFFSET_READY register clearing
+985cfc15a8cdf163b4f94c0eeeba3c815cd07b7e ice: Move CGU block
+1cb1f4e1e95cb133cfb3aa147550812b5e1d9b7a ice: Introduce ice_get_base_incval() helper
+0fa162461dad6b73bae3622a70fb4e5f18533f49 ice: Introduce ETH56G PHY model for E825C products
+bf844a49c411070345e9f474fd1b161e840e4de3 ice: Change CGU regs struct to anonymous
+59c104176114f5becfc150708c5ccd54a596967f ice: Add support for E825-C TS PLL handling
+347bf4d030a6584072eec1bda6db10e5f2747c92 ice: Add NAC Topology device capability parser
+5336137b2f2579440831661c4c8644e1dfc10b1e ice: Adjust PTP init for 2x50G E825C devices
+a385e6d46480e81649f10e2cf041bcf05f72cd53 ice: store representor ID in bridge port
+c65e7807335208ebac3e4b162567c0e3b02cfd93 ice: move devlink locking outside the port creation
+c80739eee45aec6a4458af6df0524fcda5770f2e ice: move VSI configuration outside repr setup
+fcedb68c4c7fe964250ba86cd0e88a0040714f52 ice: update representor when VSI is ready
+fc0e695f6787f6355773f8aa61c26e8284b469fe net: intel: Use *-y instead of *-objs in Makefile
+5bd3b0a554fa785ef58a5eacff1a8f303288be6b ice: fix accounting if a VLAN already exists
+f6deecb4f7e262a66c40727b153bd4ef61a340f7 ice: remove af_xdp_zc_qps bitmap
+f74f044370b12e7bfbd35246a219cab812915c70 ice: add flag to distinguish reset from .ndo_bpf in XDP rings config
+b7092bf7555031f7a74fdaa763619fb776241591 ice: map XDP queues to vectors in ice_vsi_map_rings_to_vectors()
+99602f8683792d2fe78c66255e7ded70cd4d4513 i40e: Fix XDP program unloading while removing the driver
+aded0b4ee470704639476d11df69396edd674ed0 i40e: factoring out i40e_suspend/i40e_resume
+ae9e682ccc9db215c6c0cbc1a1610b95d827d615 i40e: Fully suspend and resume IO operations in EEH case
+2925669a5086235b56dbdcdf649e23a39d6a1732 e1000e: move force SMBUS near the end of enable_ulp function
+7323be0712ed844000af794a38b488aeb8c19146 ice: implement AQ download pkg retry
+9993f523bba343b2bf7f84c349f2fc1f24ccf4ce igc: Fix Energy Efficient Ethernet support declaration
+09993f30a6172d336142ba57f11ff40f73b4d396 ice: add and use roundup_u64 instead of open coding equivalent
+e4549a10d15689c684ba2635ded0022006d7e8de igc: add support for ethtool.set_phys_id
+67f0199f7c8c8cebe827311c5523e063b63af475 ice: use irq_update_affinity_hint()
+bc7a0770e66c59518d368f0f2e0d3b2112800251 ice: Add get/set hw address for VFs using devlink commands
+17c4cf0e955ee4bcbe43da7d851cd4efdfac9182 ice: check for unregistering correct number of devlink params
 
---===============6880277646705726176==--
+--===============6883364134629100057==--
