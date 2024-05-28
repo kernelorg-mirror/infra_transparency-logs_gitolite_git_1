@@ -1,35 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0013014095900588647=="
+Content-Type: multipart/mixed; boundary="===============5607224448040113008=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Tue, 28 May 2024 15:05:22 -0000
-Message-Id: <171690872277.16442.8891718769407452561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Tue, 28 May 2024 15:05:52 -0000
+Message-Id: <171690875246.16716.12278106245105303641@gitolite.kernel.org>
 
---===============0013014095900588647==
+--===============5607224448040113008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/kunit
-    old: 5496b9b77d7420652202b73cf036e69760be5deb
-    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-5496b9b77d74-1613e604df0c.txt
+  - ref: refs/heads/b4/vfio_pci_mmap
+    old: 238fae9a5b621808d2c5371de508e2205deb93cc
+    new: c5060ab1d287d837cd543faacaef22a314e00d41
+    log: revlist-238fae9a5b62-c5060ab1d287.txt
 
---===============0013014095900588647==
+--===============5607224448040113008==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5496b9b77d74-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-238fae9a5b62-c5060ab1d287.txt
 
-ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
-a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
-3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
-3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
 0df2b9ed489a06643eaaa150a57ab01fa9ad3005 ALSA: hda/realtek - fixed headset Mic not show
 d731b1ed15052580b7b2f40559021012d280f1d9 ALSA: hda/realtek: Drop doubly quirk entry for 103c:8a2e
@@ -1050,5 +1046,9 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
+2e0f2e86f06bc8b9f9fddb7312bdd8cc48908b33 vfio/pci: s390: Fix issues preventing VFIO_PCI_MMAP=y for s390 and enable it
+a2225d9e292c4559e8465ef205217996681f4583 s390/pci: Fix s390_mmio_read/write syscall page fault handling
+539b03ad121be27c8c039d1f0a45777a42e04f91 vfio/pci: Tolerate oversized BARs by disallowing mmap
+c5060ab1d287d837cd543faacaef22a314e00d41 vfio/pci: Enable PCI resource mmap() on s390 and remove VFIO_PCI_MMAP
 
---===============0013014095900588647==--
+--===============5607224448040113008==--
