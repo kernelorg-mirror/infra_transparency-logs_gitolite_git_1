@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 28 May 2024 10:09:17 -0000
-Message-Id: <171689095717.22140.8654471313642449084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 28 May 2024 10:10:25 -0000
+Message-Id: <171689102569.24261.1876801171545132619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/renesas-pinctrl
-    old: a39741d38c048a48ae0d65226d9548005a088f5f
-    new: c45c3f5f9593915da78cda923e7163a8d00db60c
+  - ref: refs/heads/main
+    old: c519cf9b7434183bb56ed1e200ac577a5fd34d9b
+    new: 4b4647add7d3c8530493f7247d11e257ee425bf0
     log: |
-         26771100519af263e3b04b635bc917f8dfbdb77c dt-bindings: pinctrl: renesas,rzg2l-pinctrl: Remove the check from the object
-         c45c3f5f9593915da78cda923e7163a8d00db60c pinctrl: renesas: Use scope based of_node_put() cleanups
+         4b4647add7d3c8530493f7247d11e257ee425bf0 sock_map: avoid race between sock_map_close and sk_psock_put
          
-  - ref: refs/heads/renesas-pinctrl-for-v6.11
-    old: 0000000000000000000000000000000000000000
-    new: c45c3f5f9593915da78cda923e7163a8d00db60c
