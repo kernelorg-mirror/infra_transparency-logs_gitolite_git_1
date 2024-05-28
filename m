@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 28 May 2024 10:07:07 -0000
-Message-Id: <171689082774.20936.3824114999556414495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 28 May 2024 10:07:38 -0000
+Message-Id: <171689085835.21291.6599865092363432185@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/v6.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5478ce951be88c72edd90b4e020ef08aa4eb68aa
+  - ref: refs/heads/master
+    old: e245ef8a0b06fa5a18ca3bdcf82430166419283e
+    new: d9cbd8343b010016fcaabc361c37720dcafddcbe
+    log: |
+         d9cbd8343b010016fcaabc361c37720dcafddcbe bpf, net: Use DEV_STAT_INC()
+         
