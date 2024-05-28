@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 28 May 2024 00:00:12 -0000
-Message-Id: <171685441279.23128.3071901526268848959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 28 May 2024 00:01:28 -0000
+Message-Id: <171685448862.23684.11092275856739303343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: bf0497f53c8535f99b72041529d3f7708a6e2c0d
-    new: 4fb679040d9f758eeb3b4d01bbde6405bf20e64e
+    old: 66ad4829ddd0b5540dc0b076ef2818e89c8f720e
+    new: 5233a55a5254ea38dcdd8d836a0f9ee886c3df51
     log: |
-         4fb679040d9f758eeb3b4d01bbde6405bf20e64e net: micrel: Fix lan8841_config_intr after getting out of sleep mode
+         5233a55a5254ea38dcdd8d836a0f9ee886c3df51 mISDN: remove unused struct 'bf_ctx'
          
