@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 28 May 2024 06:53:06 -0000
-Message-Id: <171687918683.4186.13867186324133109699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Tue, 28 May 2024 06:53:13 -0000
+Message-Id: <171687919328.4326.15595256200382027260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 9e697efe5f99ed793ec1d23a1c3467d7dc5863db
-    new: 10e0a8f83294ab997c4af0af4b80908cd52ca4b5
-    log: |
-         10e0a8f83294ab997c4af0af4b80908cd52ca4b5 cpufreq: longhaul: Fix kernel-doc param for longhaul_setstate
-         
+  - ref: refs/heads/looongarch-next
+    old: c768fc96978cd0f74dd297d58720cb984a7f6341
+    new: 0000000000000000000000000000000000000000
