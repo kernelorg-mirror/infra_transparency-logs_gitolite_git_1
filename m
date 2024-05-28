@@ -1,70 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============2952894755569310479=="
+Content-Type: multipart/mixed; boundary="===============2316607246882699208=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 28 May 2024 04:01:18 -0000
-Message-Id: <171686887840.9610.11683188493002773322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 28 May 2024 04:19:10 -0000
+Message-Id: <171686995021.23077.7660234930476439106@gitolite.kernel.org>
 
---===============2952894755569310479==
+--===============2316607246882699208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: fde234239d161f958390e41d26cda2bb166f1994
-    new: 074cffb5020ddcaa5fafcc55655e5da6ebe8c831
-    log: revlist-fde234239d16-074cffb5020d.txt
+  - ref: refs/heads/dev
+    old: 17284125a3f17be817e917b23511c99aea8fee81
+    new: 58655a801859636828ed01324a09db6b43e69d25
+    log: revlist-17284125a3f1-58655a801859.txt
+  - ref: refs/heads/dev.2024.05.21a
+    old: 0000000000000000000000000000000000000000
+    new: 17284125a3f17be817e917b23511c99aea8fee81
 
---===============2952894755569310479==
+--===============2316607246882699208==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fde234239d16-074cffb5020d.txt
+Content-Disposition: attachment; filename=revlist-17284125a3f1-58655a801859.txt
 
-3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
-0df2b9ed489a06643eaaa150a57ab01fa9ad3005 ALSA: hda/realtek - fixed headset Mic not show
-d731b1ed15052580b7b2f40559021012d280f1d9 ALSA: hda/realtek: Drop doubly quirk entry for 103c:8a2e
-2bd5059c6cc04b02073d4d9f57137ab74e1d8e7a Merge branches 'arm/renesas', 'arm/smmu', 'x86/amd', 'core' and 'x86/vt-d' into next
-6d4e52f899d9d54cae31ad9b4584aa9504a9cfa1 Merge branch 'topic/ppc-kvm' into next
-e789d4499abdb488dd9cabce4f95c74dac6bcbe5 Merge branch 'topic/kdump-hotplug' into next
-c98ca8a375b6df243017716faee0916110a08396 sh: of-generic: Add missing #include <asm/clock.h>
-a11808815c3599891be12715d57c889d7b280a49 sh: smp: Protect setup_profiling_timer() by CONFIG_PROFILING
-efe976b7eecfa3f81e241da67d1a511e30a87779 sh: setup: Add missing forward declaration for sh_fdt_init()
-10316dcc4f39b2560b372d11be477228b95ae5ac Merge tag 'i2c-host-fixes-6.8-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
-0e9ee7dd7449371d221ce048615e5d1e271dacfc Merge tag 'i2c-host-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
-95feb3160eef0caa6018e175a5560b816aee8e79 VFIO: Add the SPR_DSA and SPR_IAX devices to the denylist
-e11452eb071b2a8e6ba52892b2e270bbdaa6640d dmaengine: idxd: add a new security check to deal with a hardware erratum
-6827738dc684a87ad54ebba3ae7f3d7c977698eb dmaengine: idxd: add a write() method for applications to submit work
-fec1982d70721c0062758861fec7e4e9d1103fb6 i2c: mux: Remove class argument from i2c_mux_add_adapter()
-f9dc0c4a140a1e776a316f5875430b74bb0ec047 Merge branch 'i2c/for-current' into i2c/for-mergewindow
-2ca99e6efc91ee7c58caab3a94e9cef7a75d8ba7 dt-bindings: display: samsung,ams495qa01: add missing SPI properties ref
-6b2358ff9493db92c4fa6ed3ad7b66c02c66f440 dt-bindings: display: panel: constrain 'reg' in SPI panels
-9fa6bcf23e4417127c8dca996fe7ba7a14a9b7de dt-bindings: display: panel: constrain 'reg' in DSI panels
-d976c6f4b32c2d273d44ff9ad7099efe16279a39 of: property: Add fw_devlink support for interrupt-map property
-d65e1a0f305ba3e7aabf6261a37bb871790d9f93 Merge tag 's390-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-6c60000f0b9ae7da630a5715a9ba33042d87e7fd Merge tag 'soc-dt-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-14a60290edf6d947b9e2210f7a223bcc6af1716a Merge tag 'soc-drivers-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-0c2212926dc2ead410031977839af9157a895013 Merge tag 'soc-arm-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-6d1346f1bcbf2724dee8af013cdab9f7b581435b Merge tag 'soc-defconfig-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-736676f5c3abd1fc01c41813a95246e892937f6d Merge tag 'asm-generic-alpha' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
-bd125a084091396f3e796bb3dc009940d9771811 tracing/user_events: Fix non-spaced field matching
-78490b74435a8c738e91260e7df387e7cb6d6568 selftests/user_events: Add non-spacing separator check
-c0b9620bc3f0a0f914996cc6631522d41870a9e0 Merge tag 'rcu.next.v6.10' of https://github.com/urezki/linux
-62158261a88fab201433686c603cbd7775f55197 docs: cgroup-v1: Update page cache removal functions
-c1457d9aad5ee2feafcf85aa9a58ab50500159d2 selftests/cgroup: Drop define _GNU_SOURCE
-2e57d1d6062af11420bc329ca004ebe3f3f6f0ee Merge tag 'cmpxchg.2024.05.11a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-ee20260136095c8037d8f94f0471eb9f7e3da99f Merge tag 'lkmm.2024.05.10a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-c07ea940a011343fdaec12cd74b4ff947ba6f893 Merge tag 'kcsan.2024.05.10a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-82303dd304324483c70c0090eb5a8d600eeeaeb2 Merge branch 'acpi-bus'
-cd97950cbcabe662cd8a9fd0a08a247c1ea1fb28 Merge tag 'slab-for-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-784cf44945e3408bd87776bd2974b5c7cfc0ced4 Merge branches 'acpi-scan' and 'acpi-tables'
-ca86ab598ddcd8d8959659b404e1db0fd95d9790 Merge branches 'acpi-resource', 'acpi-property' and 'acpi-numa'
 c024814828f72b1ae9cc2c338997b2d9826c80f6 Merge tag 'keys-trusted-next-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 b19239143e393d4b52b3b9a17c7ac07138f2cfd4 Merge tag 'tpmdd-next-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 25c73642cc5baea5b91bbb9b1f5fcd93672bfa08 Merge tag 'keys-next-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
@@ -1047,8 +1011,47 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-6282fba6abd7c3c8896c239cc8aa9ec45edcb97b cpufreq: sun50i: fix memory leak in dt_has_supported_hw()
-fa8036e5fed21d871aef23092990bfbaddc521d5 cpufreq: sun50i: replace of_node_put() with automatic cleanup handler
-074cffb5020ddcaa5fafcc55655e5da6ebe8c831 cpufreq: scmi: Avoid overflow of target_freq in fast switch
+6b59ef87fa0bab0ba976f221d34308b6edc7ee07 tsc: Check for sockets instead of CPUs to make code match comment
+7fc258e83dc2ffdcbcc1689adfb6f039ded4491f ARC: Emulate one-byte cmpxchg
+b8974a1ecf01ab587c24f78476f85013c54c37c6 sh: Emulate one-byte cmpxchg
+321905f801de54c2a0d64a1e0cf9df6f65dd19f7 xtensa: Emulate one-byte cmpxchg
+ac3ac0f66e649d292fc966958db7ca9509e9a5b0 doc: Update Tasks RCU and Tasks Rude RCU description in Requirements.rst
+9715ced1f79b78e39619a62f1f7e2b2f5f9f6b0f rcu: Add lockdep_assert_in_rcu_read_lock() and friends
+fe2e9698e97103e4b21ccc263bb79de79f7ae260 rcutorture: Make rcutorture support srcu double call test
+f929e27b8cd4740e408a7cd4ee66435c3b84afc1 rcutorture: Fix rcu_torture_fwd_cb_cr() data race
+73b92e7ff4d19e56e2385739b571473447b2bca5 rcu: Reduce synchronize_rcu() delays when all wait heads are in use
+58c154e6cbe1e5db12902b3a60834e494370cb1f rcu/tree: Reduce wake up for synchronize_rcu() common case
+cbadbb37aa2d78a98340310fed93fe7de75136c2 Revert "rcu-tasks: Fix synchronize_rcu_tasks() VS zap_pid_ns_processes()"
+bae5b7889f89ad292b595068446bfbb7266e52b4 rcu/nocb: Fix segcblist state machine comments about bypass
+72a81d0432c12215116f4cd087f78e6e5514a37e rcu/nocb: Fix segcblist state machine stale comments about timers
+a1ae3280882c4f1acf3341fe01699d0f757898ff rcu/nocb: Use kthread parking instead of ad-hoc implementation
+dd04c9a03f44ba9d4be40fca5ae73fd3b88b7a86 rcu/nocb: Remove buggy bypass lock contention mitigation
+1089c27db953c154be073b0cf6f78753af77dc0e rcu: Disable interrupts directly in rcu_gp_init()
+d5b0cb8415b8ab9d2611d5acd83503d52b6bdcb0 tools/memory-model: Add atomic_and()/or()/xor() and add_negative
+9f2ce7d15cf6f7801171a9b0a90d6c78576d8f33 srcu: Disable interrupts directly in srcu_gp_end()
+8d904405bc68ea6d1daa2add465398200b52da0d rcu: Add rcutree.nocb_patience_delay to reduce nohz_full OS jitter
+95547f82ece76866db4d8c4cdaff413b8addfe83 tools/rcu: Add rcu-updaters.sh script
+b4ecbc0b7f0eba0b343b20d16c02e06d457a247b MAINTAINERS: Add Uladzislau Rezki as RCU maintainer
+52fc55e996ea26b2416925c391cf4820dc422272 kcsan: Add example to data_race() kerneldoc header
+84a644d05705915d9313deaea666d7b82a525b25 rcu: Eliminate lockless accesses to rcu_sync->gp_count
+6bfd01c430b937bdd164493bf3b8c09cbd1b0476 rcu/nocb: Don't use smp_processor_id() in preemptible code
+a21c1131b4399d79546752d3f7866d8ee53904bb tools/memory-model: Add atomic_andnot() with its variants
+bb5f6374b3d902e4109688e11e22f4195d45c1e1 rcu/tasks: Fix stale task snaphot for Tasks Trace
+b40eab109e142bd85c5c8eccf6c8afe695261d04 torture: add MODULE_DESCRIPTION()
+9e72f7c39d16af3a42b47dba46ac37acb0df25cb rcu: add missing MODULE_DESCRIPTION() macros
+2474d616d6cafdd12d8e723d6c5eaa56fc96a5b3 EXP srcu: Check for concurrent updates of heuristics
+3be20388b8da14e5ab2a3a1b353b4022eccab805 EXP arch/x86: Test one-byte cmpxchg emulation
+10e54e8dccc4f09e8351cbe77161eb2f6bfceb2b EXP rcu Move wakeup out from under lock
+8046f300501578d516391059d9ded85aa883487d rcu-tasks: Remove open-coded one-byte cmpxchg() emulation
+79a0c5eb9410398390a2ca576fa39b579998d3a0 rcu: Remove full ordering on second EQS snapshot
+3411d1fec2f997c9155831749dae013dc141e86f rcu: Remove superfluous full memory barrier upon first EQS snapshot
+551fa9b03cdaaf8ed84e4f81448b614b582980d0 rcu/exp: Remove superfluous full memory barrier upon first EQS snapshot
+ccad3a18d7d80a2d13b116b4737afd0fe7ffe5a8 rcu: Remove full memory barrier on boot time eqs sanity check
+32eeb48d341302c8beebd036d65bbe6185aaa7b9 rcu: Remove full memory barrier on RCU stall printout
+a8e50a5969e387c151a02fac184b6cdda0148a38 rcu/exp: Remove redundant full memory barrier at the end of GP
+9e52e2f9e7a3bdc86caa0ead3970f77454e41548 doc: Clarify rcu_assign_pointer() and rcu_dereference() ordering
+dea4c912fc0c2636c0354a69c14203f2fc15ad56 locktorture: Add MODULE_DESCRIPTION()
+04f9bfcc0a8daa57427f75691f92424c81d48b7b rcu: Fix rcu_barrier() VS post CPUHP_TEARDOWN_CPU invocation
+58655a801859636828ed01324a09db6b43e69d25 Merge branch 'tsc.2024.05.27a' into dev.2024.05.27a
 
---===============2952894755569310479==--
+--===============2316607246882699208==--
