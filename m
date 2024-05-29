@@ -1,51 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============3082103246083814560=="
+Content-Type: multipart/mixed; boundary="===============0408370194994965023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 29 May 2024 10:05:58 -0000
-Message-Id: <171697715881.1213.11787289337971487625@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 29 May 2024 10:06:11 -0000
+Message-Id: <171697717136.1418.2763716710165207454@gitolite.kernel.org>
 
---===============3082103246083814560==
+--===============0408370194994965023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/asoc-6.10
     old: 737ce4fb96206f999ddea7530145fc0e8abd5d31
     new: d5d2a5dacbc8ea4386071ce243c43ea0dac23cb8
     log: revlist-737ce4fb9620-d5d2a5dacbc8.txt
+  - ref: refs/heads/asoc-6.11
+    old: 0000000000000000000000000000000000000000
+    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
 
---===============3082103246083814560==
+--===============0408370194994965023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1716977157 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1716977156-644d0b3411ee9dbe53b0fc8964debd31266b7519
+pusher C3F436CA30F5D8EB 1716977168 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1716977166-3123c2d32d9eb6a661e0612749c142c5dee53027
 
-737ce4fb96206f999ddea7530145fc0e8abd5d31 d5d2a5dacbc8ea4386071ce243c43ea0dac23cb8 refs/heads/for-6.10
+737ce4fb96206f999ddea7530145fc0e8abd5d31 d5d2a5dacbc8ea4386071ce243c43ea0dac23cb8 refs/heads/asoc-6.10
+0000000000000000000000000000000000000000 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 refs/heads/asoc-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZW/gUACgkQJNaLcl1U
-h9CtiQf/agexVO7GfX/2gYhrGpY+XF5pR4a3c6GfrqxYCR3OpTyXU/DF8lsNBdg4
-Brh5KFLs203CCqDyDAkque9wBrzBwKj0aHrV0hKXZWVJfUF6yrKaKPQ7GpnVpEwv
-c11QB0KZHIEF5toxFZ7skVSRZTZU+1Ck0ym/O5ZiG9qWioAN+SAOQCjlZquDpKF9
-tww7aYtFyoa3Tir3pupnUBnKp1nKzCCdjFhEkcdvHIS3QBs7hYMRWBLlqqMTfTh/
-Fz6wr81bMBTU9H+wD8wzQNyNsQkMiyrTo67Xh7RrLSeHiMJJ7Wfye6A+hY/nvs+C
-KJoKmdKKVpYlJPRTrceWISE81htC+Q==
-=LU3g
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZW/hAACgkQJNaLcl1U
+h9CF9Qf/VqYoUeZinKNpQR7ZwLvocj9Rr2WnoPtFZieXVZ3uK84lZ3+gvU/OHfiu
+I8G3zkgGwftku1n9kjAfLDW50L0RWtmT76RopOZKGXmSec4lIYfbw5vklJZ1glOx
+4+4RgXSKGnR22bB0hShO3RQGH4lZMfrfeLmbXYFRru/OgFECZpaHTQVpHrHGTjEW
+c9kpbz+nh3sy2SeToSOMM++ni9DkE25C8uQNPIWYjsc+9IZvZNhUk+lqnr20wvLh
+kmOl53bfrMG8IVT1soLT6oDMqBLYIuQwTTQJHQX/OwzFd8vMsVmq7g1JEnJzI1h4
+lYwTvENZnp2Qhf20ivZHE4ZWCV9vjQ==
+=87Fr
 -----END PGP SIGNATURE-----
 
---===============3082103246083814560==
+--===============0408370194994965023==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1076,4 +1080,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 8d34c12e8751fe180157fbb34a758ed4eede3806 ASoC: wm_adsp: Add missing MODULE_DESCRIPTION()
 d5d2a5dacbc8ea4386071ce243c43ea0dac23cb8 MAINTAINERS: Remove James Schulman from Cirrus audio maintainers
 
---===============3082103246083814560==--
+--===============0408370194994965023==--
