@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 29 May 2024 23:38:00 -0000
-Message-Id: <171702588053.24690.2860419140712140083@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 29 May 2024 23:46:26 -0000
+Message-Id: <171702638698.30936.3630925221367154309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/dev-queue
-    old: a15ba011339cce18a9199185ec5a6280c18931ca
-    new: 0259a40d94ccd7e6748c7662d157249ad7111eb8
+  - ref: refs/heads/prctl
+    old: b7b7bf786393c50ca9df528eab4e796e5ffcdb5b
+    new: eaf30f013485964e78dca7fe536361b0e977ab74
     log: |
-         59cd82e456af26c9d024025c1d8a3f5d3f06467f ice: Rebuild TC queues on VSI queue reconfiguration
-         6620b16e597a97d079183829db3fee18e0382f15 ice: respect netif readiness in AF_XDP ZC related ndo's
-         c96c5e056b6a35ee2d00f4169405c245abbff000 ice: don't busy wait for Rx queue disable in ice_qp_dis()
-         8ac257209f3ed5cab602415f29568739547b460f ice: replace synchronize_rcu with synchronize_net
-         5e1b7cb3a2c386309a8bab8fdfdcee68a456bbfb ice: modify error handling when setting XSK pool in ndo_bpf
-         b3d97ed9de35f3f0b16127c05947e1571762b8f5 ice: toggle netif_carrier when setting up XSK pool
-         15abdabf747b65f3d4273002c5da52a01e67d8d0 ice: improve updating ice_{t, r}x_ring::xsk_pool
-         542a0dae14cbf516bc13e573b3800719b8155146 ice: add missing WRITE_ONCE when clearing ice_rx_ring::xdp_prog
-         0259a40d94ccd7e6748c7662d157249ad7111eb8 ice: xsk: fix txq interrupt mapping
+         3ed69e2e9fe87a9f9720c727eefbd113d0c19a97 prctl.2, PR_GET_PDEATHSIG.2const: Split PR_GET_PDEATHSIG from prctl(2)
+         0c934a742c099e503fc43e1d3cbf8e968a3b4296 PR_GET_PDEATHSIG.2const: Tweak after split
+         94a027e8af06a661b3dc8a9c17d6a2531608be95 prctl.2, PR_SET_PTRACER.2const: Split PR_SET_PTRACER from prctl(2)
+         2e80b0005b6a122383966f50413f61e44e9fccec PR_SET_PTRACER.2const: Tweak after split
+         aa9654cf64eaafbfd3db3b805b9dfb6cf03a98cb prctl.2, PR_SET_SECCOMP.2const: Split PR_SET_SECCOMP from prctl(2)
+         272d50136b7497cb340646ea0a97375e13199419 PR_SET_SECCOMP.2const: Tweak after split
+         f20fb483682fb3fa88f55c67cec515904b563ec6 prctl.2, PR_GET_SECCOMP.2const: Split PR_GET_SECCOMP from prctl(2)
+         eaf30f013485964e78dca7fe536361b0e977ab74 PR_GET_SECCOMP.2const: Tweak after split
          
