@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7337217687350867729=="
+Content-Type: multipart/mixed; boundary="===============9093896252948220967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 29 May 2024 10:11:30 -0000
-Message-Id: <171697749080.6910.91683359553222743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 29 May 2024 10:15:54 -0000
+Message-Id: <171697775428.10145.5732878354708040882@gitolite.kernel.org>
 
---===============7337217687350867729==
+--===============9093896252948220967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/20240527_pierre_louis_bossart_asoc_intel_boards_updates_for_6_11
-    old: 5b99732c9141d330c08bf6c051c9acf5a3876620
-    new: 1085350387056812d19abaf20c59674ce36f0b8c
-    log: revlist-5b99732c9141-108535038705.txt
+  - ref: refs/heads/master
+    old: 94f5fc2d2bdb096f9301bde1281e25727d626c43
+    new: 010d60fd520ccab09b184d2c710b5a41eda4af16
+    log: |
+         010d60fd520ccab09b184d2c710b5a41eda4af16 create CVE-2023-52881 on request.
+         
 
---===============7337217687350867729==
+--===============9093896252948220967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b99732c9141-108535038705.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-10b6ad2b2d8ed07637bd4930f91548c9668ec7df ASoC: Intel: sof_sdw_cs42l42: use dai parameter
-1bf95876e6e1a3c77637d951cf59fb5c02bd02fa ASoC: Intel: sof_sdw_rt711: use dai parameter
-044413afbcca5da3ac61f2fb829a1fbb0df8ac81 ASoC: Intel: sof_sdw_rt5682: use dai parameter
-b237afe50151e5041d0734c759d5f8dac5c1b694 ASoC: Intel: sof_sdw_rt700: use dai parameter
-06868a46301f4bcb1c9dcd71a291775ff3627a7a ASoC: Intel: sof_sdw_rt_dmic: use from dai parameter
-3c3e35cec005467f4091907f5ff8c8cbfecc1bf1 ASoC: Intel: sof_sdw_rt_sdca_jack_common: use dai parameter
-a9a7e865b187eadac8f5c253f7f9befca80699f4 ASoC: Intel: sof_sdw: remove get_codec_dai_by_name
-8a7f876a692c4c7dc7ae845ae400b94df5a6a7c4 ASoC: Intel: sof_sdw: Add missing controls for cs42l43/cs35l56
-65ab45b90656e9b7ed51bce27ab7d83618167e76 ASoC: Intel: soc-acpi: Add match entries for some cs42l43 laptops
-91cdecaba791c74df6da0650e797fe1192cf2700 ASoC: Intel: sof_sdw: Add quirks for some new Dell laptops
-6073c477d11c1ea4b3f13d9f6e15ca54041af9a3 ASoC: SOF: sof-audio: rename dai clock setting query function
-1deba6e24c221c61c6eab8656a53f8c17035932b ASoC: SOF: sof-audio: add sof_dai_get_tdm_slots function
-e495f3ebe967fcc487d84f80ef236e4c0e92c2b6 ASoC: SOF: ipc3-topology: support tdm slot number query
-97a9e9915cbb43d0feedbe2c9cf117f3dabf1286 ASoC: SOF: ipc4-topology: support tdm slot number query
-459d71f14771211ee19d10a97675f4f08871f58a ASoC: Intel: maxim-common: rewrite max_98373_hw_params function
-660f029afe9bc4217e600f5616c66b855615b666 ASoC: Intel: sof_da7219: remove local max98373 ops
-1085350387056812d19abaf20c59674ce36f0b8c ASoC: Intel: sof_da7219: disable max98373 speaker pins in late_probe
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1716977758 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1716977751-e7ebc86e331ec36c5b5cb17f8b1ed1110e09ccd2
 
---===============7337217687350867729==--
+94f5fc2d2bdb096f9301bde1281e25727d626c43 010d60fd520ccab09b184d2c710b5a41eda4af16 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZXAF4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QaoQAM8Ld3Ro8IttZ5D9nMyv
+FCPUF73kHWVz3hI2Mf1nYS0mwWpY4x/CH7ueMwngHIzHWJQzFZx7kbKJr9t1StkQ
+rw2wtARp0q51qUTTaYhaQRdl44cvOtpcttpEjmwI4asT06VIqP1GtX9y+iylidBw
+3SHJMsU7AbPxaYu+B8Bb/p3gTPBMpCG2/b1Sb7ieukiotvnNlfXEhdcuoj2sjQEd
+7SydAYsXQoO53ouTU5P0smOCuQ4WJVBCsiPg+8beLk80uM0AomO8wLwUZ4PwiuUl
+ej9DCVJgLhm/jIiSxGqEXxb7YwYANE9rVkbz5LYch0iMvklQ1FaeE3d7Hj6iDZxg
+R/1iuf37yA3cvUWyIs1dQ02MZOFdZ2VzjdYb5arr4Cdrya+BYklVI6w1RbJBKJLd
+pPJl4j4wIoodOpBFAAqrYnls8iLR1Dh64EkSNxCuztA7ZJo01p5vn2Qybs1tmvha
+RjEVOdngkJkBvojATI5BvMaNYdl0VbW0D7sAYh9q5EVE8vw+aDG5kNKw8t1XA8C7
+ROKnZ6d1kCFuONmWdujoMd26dxxTFBr16VR4g/v0e9DinN6F7C4Kp/86elMGROb0
+TsJ1jkHyRImQUL6Pnek0j8h1Mo40QaK1PjISbN0r1lVnrdY/P0UeSLy9hdmfxCgy
+dspVAL94Ec172lqE3doRNJji
+=caP5
+-----END PGP SIGNATURE-----
+
+--===============9093896252948220967==--
