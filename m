@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 29 May 2024 02:45:06 -0000
-Message-Id: <171695070684.24236.4369830716982389800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 29 May 2024 02:50:39 -0000
+Message-Id: <171695103976.28822.4415362677862225740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: 99c0ff00d6dafad3c7aba5649759354ec88cf37a
-    new: 92d264e864cef693e8da87f31dde6e575fc9921d
+    old: 56a5cf538c3f2d935b0d81040a8303b6e7fc5fd8
+    new: fb66df20a7201e60f2b13d7f95d031b31a8831d3
     log: |
-         5f6e73265ef5bf52fc83be5603c0ca759c4d3093 cnm: update chips&media wave521c firmware.
-         92d264e864cef693e8da87f31dde6e575fc9921d Merge branch 'robot/patch-0-1716949439' into 'main'
+         e634134180885574d1fe7aa162777ba41e7fcd5b net/sched: taprio: make q->picos_per_byte available to fill_sched_entry()
+         fb66df20a7201e60f2b13d7f95d031b31a8831d3 net/sched: taprio: extend minimum interval restriction to entire cycle too
          
