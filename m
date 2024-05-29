@@ -1,45 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7189478879723835335=="
+Content-Type: multipart/mixed; boundary="===============5600315371513486983=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 29 May 2024 14:01:36 -0000
-Message-Id: <171699129650.13875.7441508545162390670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 29 May 2024 14:04:06 -0000
+Message-Id: <171699144676.14836.9176221846149674566@gitolite.kernel.org>
 
---===============7189478879723835335==
+--===============5600315371513486983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/arm64-crct10dif-neon-prio
-    old: 00fe7185748efda9cdaa883fdfbdb1293bccbda6
-    new: d314e94bdab65eee746790db2bbaf59f3d4f8a21
-    log: revlist-00fe7185748e-d314e94bdab6.txt
+  - ref: refs/heads/kvm-arm64/nv-mmu
+    old: 8a2681f4b19e77eaf4e1ce113ae48969a210e251
+    new: edade12d77b788390d7741585fea913a6608b417
+    log: revlist-8a2681f4b19e-edade12d77b7.txt
 
---===============7189478879723835335==
+--===============5600315371513486983==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-00fe7185748e-d314e94bdab6.txt
+Content-Disposition: attachment; filename=revlist-8a2681f4b19e-edade12d77b7.txt
 
-3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
-3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
-0df2b9ed489a06643eaaa150a57ab01fa9ad3005 ALSA: hda/realtek - fixed headset Mic not show
-d731b1ed15052580b7b2f40559021012d280f1d9 ALSA: hda/realtek: Drop doubly quirk entry for 103c:8a2e
-2bd5059c6cc04b02073d4d9f57137ab74e1d8e7a Merge branches 'arm/renesas', 'arm/smmu', 'x86/amd', 'core' and 'x86/vt-d' into next
-6d4e52f899d9d54cae31ad9b4584aa9504a9cfa1 Merge branch 'topic/ppc-kvm' into next
-e789d4499abdb488dd9cabce4f95c74dac6bcbe5 Merge branch 'topic/kdump-hotplug' into next
-c98ca8a375b6df243017716faee0916110a08396 sh: of-generic: Add missing #include <asm/clock.h>
-a11808815c3599891be12715d57c889d7b280a49 sh: smp: Protect setup_profiling_timer() by CONFIG_PROFILING
-efe976b7eecfa3f81e241da67d1a511e30a87779 sh: setup: Add missing forward declaration for sh_fdt_init()
-10316dcc4f39b2560b372d11be477228b95ae5ac Merge tag 'i2c-host-fixes-6.8-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
-0e9ee7dd7449371d221ce048615e5d1e271dacfc Merge tag 'i2c-host-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
-95feb3160eef0caa6018e175a5560b816aee8e79 VFIO: Add the SPR_DSA and SPR_IAX devices to the denylist
 e11452eb071b2a8e6ba52892b2e270bbdaa6640d dmaengine: idxd: add a new security check to deal with a hardware erratum
 6827738dc684a87ad54ebba3ae7f3d7c977698eb dmaengine: idxd: add a write() method for applications to submit work
 fec1982d70721c0062758861fec7e4e9d1103fb6 i2c: mux: Remove class argument from i2c_mux_add_adapter()
@@ -1048,7 +1034,21 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-abf152d24194ec0d86d4e2ab2d0a061264fd2d12 EDITME: cover title for arm64-crct10dif-neon-prio
-d314e94bdab65eee746790db2bbaf59f3d4f8a21 arm64/crypto: Raise priority of NEON crct10dif implementation
+df9271e5794af5591e94f8d4219826e3e3af92c7 KVM: arm64: nv: Support multiple nested Stage-2 mmu structures
+9ac5c1a3dc38d149f242f0ea9084763473137ea1 KVM: arm64: nv: Implement nested Stage-2 page table walk logic
+3d75b3b009ba5bc448b72826952f6273172db2d5 KVM: arm64: nv: Handle shadow stage 2 page faults
+c37aa84d46058143e60d39c49d8a3e76d7c3173c KVM: arm64: nv: Unmap/flush shadow stage 2 page tables
+c88f81dd896f8aebf4f62d87694f624584d23180 KVM: arm64: nv: Add Stage-1 EL2 invalidation primitives
+b883fb91c61796207234e86a5c292b4701fd92d4 KVM: arm64: nv: Handle EL2 Stage-1 TLB invalidation
+7cbc1c4babe5cc56d1c1445c3cea46165750d747 KVM: arm64: nv: Handle TLB invalidation targeting L2 stage-1
+de5f7612111ce86d7633a0d3eb1e9b19d0a568d3 KVM: arm64: nv: Handle TLBI VMALLS12E1{,IS} operations
+ece246a86ef6e79240212e35814cbfff2f1df2d7 KVM: arm64: nv: Handle TLBI ALLE1{,IS} operations
+c41a7bd4bcc46f955a87ae1c1f3e44985b6da195 KVM: arm64: nv: Handle TLBI IPAS2E1{,IS} operations
+d01495f57b7dc587c67b79c7ca9e43d8e72de2e5 KVM: arm64: nv: Handle FEAT_TTL hinted TLB operations
+abae38cf39d7583bbb8ce968101d9f0548e66fab KVM: arm64: nv: Tag shadow S2 entries with guest's leaf S2 level
+d09409490dae57121d47007c924355a2ca6f7356 KVM: arm64: nv: Invalidate TLBs based on shadow S2 TTL-like information
+539eeca6002ad1078423466d697816bbae74db9d KVM: arm64: nv: Add handling of outer-shareable TLBI operations
+3aa74fd1c030eb38e79055ebb9686cf3b474d8d3 KVM: arm64: nv: Add handling of range-based TLBI operations
+edade12d77b788390d7741585fea913a6608b417 KVM: arm64: nv: Add handling of NXS-flavoured TLBI operations
 
---===============7189478879723835335==--
+--===============5600315371513486983==--
