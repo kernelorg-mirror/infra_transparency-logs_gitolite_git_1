@@ -1,58 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============2153332187888579820=="
+Content-Type: multipart/mixed; boundary="===============8423518916284032141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Wed, 29 May 2024 10:22:52 -0000
-Message-Id: <171697817254.14884.6337468759056225038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 29 May 2024 10:23:01 -0000
+Message-Id: <171697818115.15000.133083211899796041@gitolite.kernel.org>
 
---===============2153332187888579820==
+--===============8423518916284032141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/regmap-6.10
     old: 7ba822189e6060a8a2833b721d430f833bf0db43
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     log: revlist-7ba822189e60-1613e604df0c.txt
-  - ref: refs/heads/for-6.11
-    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+  - ref: refs/heads/regmap-6.11
+    old: 0000000000000000000000000000000000000000
     new: c3820641da87442251e0c00b6874ef1022da8f58
-    log: |
-         c3820641da87442251e0c00b6874ef1022da8f58 regmap: kunit: Fix memory leaks in gen_regmap() and gen_raw_regmap()
-         
 
---===============2153332187888579820==
+--===============8423518916284032141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1716978170 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1716978170-9ef005db94d3ddc1a42fd4722237ebafd6ad983b
+pusher C3F436CA30F5D8EB 1716978179 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1716978177-b14500ac568af62fceb353c8ea6911ea78a262e6
 
-7ba822189e6060a8a2833b721d430f833bf0db43 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 refs/heads/for-6.10
-1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 c3820641da87442251e0c00b6874ef1022da8f58 refs/heads/for-6.11
+7ba822189e6060a8a2833b721d430f833bf0db43 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 refs/heads/regmap-6.10
+0000000000000000000000000000000000000000 c3820641da87442251e0c00b6874ef1022da8f58 refs/heads/regmap-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZXAfoACgkQJNaLcl1U
-h9AjQgf/UWHwbDQeZKjhhXOOpcIw6gsCXD/77p8p736vR63dLczRILu/JbiP4yrf
-X6fN7S0j5oKCzVbD7xb5hwy4NyZslgRMIBF80TRqt4uu7cgibwt0WEIyNbQ7HkfA
-0DTbiDJLa2EfubdGaZru9bJMA3trF+wL9UKRkMsvuRQRc58gTQPg8dnVEJJ7QSG4
-jQ03fzwwcDWfx8WvLPsKLL639djFK6Ou0H0amnJJ0x8MckrVt0nHLlw2P8FMvXvL
-FfqgASXkxdhHpz8+DiJb1ivS897hiUC37D0Wzjz3Iyev4BRREiSMUclcOMfpAHFp
-WsL+qgYEHwMRCM0LcM7FZrfaBOZCwA==
-=QBLo
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZXAgMACgkQJNaLcl1U
+h9CkQQf8C3osl9LURk3I/88F0a2NOpJT63X/FhW9e/XFT0ELWVMBOsHY7QQwag9O
+3hUyKPw30HfDFT+SzAAGOMvu6NQWfGnKIDeDcO6cBd13TCWhsxV0nuoAPqghd2TW
+DHKZkOVQ9rJp+GP4fdpzgsDNhzvuruRgqRilAYNWUizwI2e2FQhB7rX9vkfJ3QFN
+OpS/DpqYY6CbYJw9Wh2EZ3DEkxqP4Lg2xyqCpNO/unZ5zj/iCe7TiWij/FweSNrX
+JaYOz3hgdiJhb+n2nEb4f1TdL96OsoHQviBB1K1bai70c5M0C/80gpE1Rem55fy7
+rIpIdhndmVot6eeRe/bnUt+gMaMcHQ==
+=e/AR
 -----END PGP SIGNATURE-----
 
---===============2153332187888579820==
+--===============8423518916284032141==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1083,4 +1080,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============2153332187888579820==--
+--===============8423518916284032141==--
