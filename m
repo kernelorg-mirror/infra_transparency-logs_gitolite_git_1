@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1188884486567143599=="
+Content-Type: multipart/mixed; boundary="===============4841842489404915611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 29 May 2024 15:09:20 -0000
-Message-Id: <171699536018.31966.4685809105703902149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 29 May 2024 15:09:28 -0000
+Message-Id: <171699536847.32110.15793411768071022297@gitolite.kernel.org>
 
---===============1188884486567143599==
+--===============4841842489404915611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/spi-6.10
     old: 3aac9f4885922ad0fc01b86f85903768219475a3
     new: 4a69c1264ff41bc5bf7c03101ada0454fbf08868
     log: |
          4a69c1264ff41bc5bf7c03101ada0454fbf08868 spi: cadence: Ensure data lines set to low during dummy-cycle period
          
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/spi-6.11
     old: 060bbd65dd4b4bcd519f6c470ec71fc58f9a6190
     new: 4ccaf60062c3682cf4f1438b143c29648edadfda
     log: revlist-060bbd65dd4b-4ccaf60062c3.txt
 
---===============1188884486567143599==
+--===============4841842489404915611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1716995358 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1716995357-a849da2a96226395c3e3e8125086ca7bfac569f4
+pusher C3F436CA30F5D8EB 1716995366 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1716995364-b3fc5c96801a41fc216202ee7b53fbd599aae01f
 
-3aac9f4885922ad0fc01b86f85903768219475a3 4a69c1264ff41bc5bf7c03101ada0454fbf08868 refs/heads/for-6.10
-060bbd65dd4b4bcd519f6c470ec71fc58f9a6190 4ccaf60062c3682cf4f1438b143c29648edadfda refs/heads/for-6.11
+3aac9f4885922ad0fc01b86f85903768219475a3 4a69c1264ff41bc5bf7c03101ada0454fbf08868 refs/heads/spi-6.10
+060bbd65dd4b4bcd519f6c470ec71fc58f9a6190 4ccaf60062c3682cf4f1438b143c29648edadfda refs/heads/spi-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZXRR4ACgkQJNaLcl1U
-h9BNRAf+MzW/cFYpWW9HzEcBDONjjfoukOJmDEBSQX7KXr3VQ4T1wkO0lhXCVB6s
-JVSHPD8P3mcCIJhI7FChLjnJSe7jay+O1BRKKqBekggns1vnbGBcs0Cgjy/DNhfx
-6MjkIE9MoEUdWdOb/ItSD+AqKekKsKZjeuVk2q4gtkhCY72JYTMA8RozVZRwHWyv
-5+MY2WWbRgnt004+irv2LIQ96DXbMhcoXyo1M2E+aHN4z/BuEtv0klI3LEzCnUzM
-Um4Euzj1J3PW1HKsqpuLK6XiYUgtIM7mFbM4UHHJcdXAor08n7IOMIrAxvIO2lKR
-O4E0fUca43Y67YLceuOOoQoX4NY5ig==
-=tlDL
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZXRSYACgkQJNaLcl1U
+h9BMyQf9H5zI50EoPPeK8L4WcxRgY2vVLTs/bGQoNFSfrDlGaOSfw27vGjxPqWU/
+FT6nCgRl10WPixeKmIpwBYFjKs/N6eDjeUKE00vnXSUs7vd7V6T4PrH/cuO2cW9l
+0q8bB/PHiR0EeMGW3x9cZcfTyJIj4pj8G4TJJXx+S1tNnuIAo5YCFiQi6mWLWh1t
+oxFcx1HObSodz6YGMni4I+LjeyCzIJqJxc4aD/0VqW1zmklf8V9XYYQy11pbSkyf
+Nf6mHt98p0Mvn6lrtRClbuqKUZ7Peh91GfCfzAZ68hATtElbUvb1WtOSs2jCQ0oA
+ehv5psNI/hln8Hy+RrPrb8K4Q6vu2Q==
+=YsIP
 -----END PGP SIGNATURE-----
 
---===============1188884486567143599==
+--===============4841842489404915611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -78,4 +78,4 @@ dd2b6374543b462eae3d5673db3644888d3e2b80 spi: bitbang: Clean up the driver
 d879675bc09a18e2f32c1261cb9e1a15662bc08d spi: gpio: Convert to be used outside of OF
 4ccaf60062c3682cf4f1438b143c29648edadfda Add support for GPIO based CS
 
---===============1188884486567143599==--
+--===============4841842489404915611==--
