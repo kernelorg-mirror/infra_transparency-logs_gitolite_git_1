@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8515447398647504613=="
+Content-Type: multipart/mixed; boundary="===============3111257544295610884=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 29 May 2024 22:24:15 -0000
-Message-Id: <171702145545.2338.17673119829319314003@gitolite.kernel.org>
+Date: Wed, 29 May 2024 22:24:29 -0000
+Message-Id: <171702146919.2514.474185755720723533@gitolite.kernel.org>
 
---===============8515447398647504613==
+--===============3111257544295610884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/scmi/updates
-    old: 1d2fb26a9de36f177d84f1980129e57d851bf3ed
-    new: 9379dea80cf07e91004440c0df4799cf65152eaf
-    log: revlist-1d2fb26a9de3-9379dea80cf0.txt
+  - ref: refs/heads/for-next/ffa/updates
+    old: cc08831cbabf62d1d041965180854781b1aa7282
+    new: 18c250bd7ed0fc6917bad13560851ef0f519778d
+    log: revlist-cc08831cbabf-18c250bd7ed0.txt
 
---===============8515447398647504613==
+--===============3111257544295610884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d2fb26a9de3-9379dea80cf0.txt
+Content-Disposition: attachment; filename=revlist-cc08831cbabf-18c250bd7ed0.txt
 
 c7df39b2a5643c4df566fb23951f619f8c639042 Input: stmpe - drop driver owner assignment
 bf32bceedd0453c70d9d022e2e29f98e446d7161 Input: ims-pcu - fix printf string overflow
@@ -304,7 +304,7 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-0d96364aa54f203c7b54c5e87c2aa045d278e90e dt-bindings: firmware: arm,scmi: Support notification completion channel
-9379dea80cf07e91004440c0df4799cf65152eaf firmware: arm_scmi: mailbox: support P2A channel completion
+9dd15934f60d1298ad1c427711f338a194294a78 firmware: arm_ffa: Move the FF-A v1.0 NULL UUID workaround to bus notifier
+18c250bd7ed0fc6917bad13560851ef0f519778d firmware: arm_ffa: Split bus and driver into distinct modules
 
---===============8515447398647504613==--
+--===============3111257544295610884==--
