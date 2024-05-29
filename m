@@ -1,48 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2511526127661509213=="
+Content-Type: multipart/mixed; boundary="===============5189808366721262507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 29 May 2024 04:43:07 -0000
-Message-Id: <171695778750.12733.15775254591364710642@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 29 May 2024 04:43:17 -0000
+Message-Id: <171695779739.12876.2285859288168183730@gitolite.kernel.org>
 
---===============2511526127661509213==
+--===============5189808366721262507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 6dc544b66971c7f9909ff038b62149105272d26a
     new: 9d99040b1bc8dbf385a8aa535e9efcdf94466e19
     log: revlist-6dc544b66971-9d99040b1bc8.txt
-  - ref: refs/heads/stable
-    old: 2bfcfd584ff5ccc8bb7acde19b42570414bf880b
-    new: e0cce98fe279b64f4a7d81b7f5c3a23d80b92fbc
-    log: |
-         699646734ab51bf5b1cd4a7a30c20074f6e74f6e uprobes: prevent mutex_lock() under rcu_read_lock()
-         e569eb34970281438e2b48a3ef11c87459fcfbcb tracing/probes: fix error check in parse_btf_field()
-         195aba96b854dd664768f382cd1db375d8181f88 tpm_tis_spi: Account for SPI header when allocating TPM SPI xfer buffer
-         f3d7ba9e1bc0c9080834f263d4887bd9c9ea491f tpm: Open code tpm_buf_parameters()
-         f09fc6cee0dcfc38148ee6b6dd04f93e353d22f2 tpm: Rename TPM2_OA_TMPL to TPM2_OA_NULL_KEY and make it local
-         d3e43a8fa43effdbb62c7edc206df7ac67772205 tpm: Enable TCG_TPM2_HMAC by default only for X86_64
-         8d6bc6a2b1e15c64f670f93a472ad310953188b1 Merge tag 'probes-fixes-v6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-         e0cce98fe279b64f4a7d81b7f5c3a23d80b92fbc Merge tag 'tpmdd-next-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-         
-  - ref: refs/tags/next-20240229
-    old: b05b65d6e03f06464d5779c85b6e9fe8e3c98927
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/fs-next
-    old: 0000000000000000000000000000000000000000
-    new: 83d6561e9fcd498c6a32cc6de02528afbbc0e2ee
   - ref: refs/tags/next-20240529
     old: 0000000000000000000000000000000000000000
     new: 72e141fbad6109a3c8bad032d20e09ff9aa48117
 
---===============2511526127661509213==
+--===============5189808366721262507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -804,4 +785,4 @@ c393647b4d61cb480576eee4da2b0d881e57f298 Merge branch 'next' of git://git.kernel
 4f830dcc30b33f06704eab28bccba6c4f1dddd4f Merge branch 'bitmap-for-next' of https://github.com/norov/linux.git
 9d99040b1bc8dbf385a8aa535e9efcdf94466e19 Add linux-next specific files for 20240529
 
---===============2511526127661509213==--
+--===============5189808366721262507==--
