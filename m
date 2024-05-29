@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4227218641410439880=="
+Content-Type: multipart/mixed; boundary="===============0232920346461976408=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 29 May 2024 01:37:34 -0000
-Message-Id: <171694665452.7058.530358053283854242@gitolite.kernel.org>
+Date: Wed, 29 May 2024 01:37:53 -0000
+Message-Id: <171694667325.7268.8426880117072861605@gitolite.kernel.org>
 
---===============4227218641410439880==
+--===============0232920346461976408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,55 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 961990efc608d559249f5637254fa0a9aa888b1c
-    new: 4fedb1f0959973738ef9ac7e52ea0c260f1a3302
-    log: revlist-961990efc608-4fedb1f09599.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 20deee9bba6413fe49c4fc4cb62baea99cc0a79c
+    new: e6d3923553c4f861b3bce4151d74570979d66de2
+    log: revlist-20deee9bba64-e6d3923553c4.txt
 
---===============4227218641410439880==
+--===============0232920346461976408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1716946652 -0400
+pusher 75C5DE3D 1716946658 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1716946650-700f298a821ac7d0da15a30491faf4094733bad6
+nonce 1716946658-f3fbdfff623271eabf704225c642d5634e18df99
 
-961990efc608d559249f5637254fa0a9aa888b1c 4fedb1f0959973738ef9ac7e52ea0c260f1a3302 refs/heads/fixes
+20deee9bba6413fe49c4fc4cb62baea99cc0a79c e6d3923553c4f861b3bce4151d74570979d66de2 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZWhtwACgkQ7ulgGnXF
-3j1HPg/+KhaJGkN9ChdBHCOat8rIqfQNOIZy5KdpLrciQRh041o21M5LuRGZxV1j
-dddW/bQUUMy9UJneSSh1JpJ0091Suv29I43wEuKmSnJbpMPJdZ93g2g9dS/5Vugb
-0o8+CYnky+iIHj5aSbMLQAsO0rnplDpaCMThQa2U9TVYI/ggrIm5BayQkQ/bgUK1
-pAptbkiDsaBOyOojjcsrsvPxCmIrwIok/cP0h3BbBW+MAo+/BEhuLea6CFnXQazv
-hrCxxIBCEpw1qv7zIjyuqXk5mY3Z9ivTOwWqI2dFarjQ8UVd/E77UGLbBnlHXMu6
-L9GT19KUfcfyHbWiRF84sP8ZBWZW7CQg2nU3s2ZwfmUVC+SPYMTKSwigdOjbaV2P
-3bQh5BB7KFTcXyMMUyUptg1hAAD7AY/o6BTtwxNAa4fIggy4ytk0Vk15NCl8KcJ6
-U9xGBGnwFAft/OUTOcaoJFHFSSvZXSDyR/nejg732iEJzJOofWsrl8sWYOwSMeRb
-GlO36Q2YdKA90ugk3fwEUkGPR5Zan+VFsiTVKWj9A5JNmveusjSaz75ufbueOriQ
-rigQZXlhonyhOAVaY6lwVGnszyUA37UU4B3325YY69wb3PvgLWapL64zipEr011N
-GJy9sQIccFFfjBM7tCTzOaHr6V4dGgbQN/xFV2SmNnf1Pi0LcrU=
-=HTnh
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZWhuIACgkQ7ulgGnXF
+3j0AhA/6AoL7XUJICd/c5ea8Ii11FyRYtV5QScMHaMAdDUglf2hrnZtYKXR3bg/A
+jtypLLICCpTpMzPc4ATKrm82Cw8ZYUTC/eP2qwzY6TL0h23JwawFm01l1mOS5oX9
+9omjnCSrojEA4AR97yopw2ShcfapS14JMTBVETyCTktNQ/wQGG8qVdMSBWlpp0Op
+y1l809f3iFCcG84jKM+d8COxSn+72f6SqyiEtyUUB6eMpoWDIO1Y9I4cfsvMk4EA
+Fip3sAEfAUz844O+OXxOBt5K9WrZns0tbNr0lFVlei6IGvUC6/xWdq6/kxZOngzR
+56xKt2fRJnOw5G9yXHOf1JRZwUgvLa71PVFOgMmZDJN8a86di3LQrTav+D+gQuPO
+oh7e94Ryg22nu+LctZRzXGtQ2II8TmZIfSsBgsL1kflLob+XeaZPEwFbpypI2lSI
+3odbOyFk4iWRaebbat3zmWndgOSnubH+xGFLtmtGZ7h0N0yQHalrW9vnOSb3jOna
+WFdxK/WmHIR0eRbv9qLnR29Qb1FjXQn0/L4pPGTQm78O1o7MJ68Y3UWRJ20jt4Ac
+QqIuZoeEvY6F/kq7moEkQlE6MEVZOQ7efN/fMxU665pY0BckQeSaa7zvOF8PWraQ
+9ov59WbjSUzQyiWiYu+F4EmiolMpewqwg9BPJHnM++2HRSzigII=
+=g5/Y
 -----END PGP SIGNATURE-----
 
---===============4227218641410439880==
+--===============0232920346461976408==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-961990efc608-4fedb1f09599.txt
+Content-Disposition: attachment; filename=revlist-20deee9bba64-e6d3923553c4.txt
 
+ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
+a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
+3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
+3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
+0df2b9ed489a06643eaaa150a57ab01fa9ad3005 ALSA: hda/realtek - fixed headset Mic not show
+d731b1ed15052580b7b2f40559021012d280f1d9 ALSA: hda/realtek: Drop doubly quirk entry for 103c:8a2e
+2bd5059c6cc04b02073d4d9f57137ab74e1d8e7a Merge branches 'arm/renesas', 'arm/smmu', 'x86/amd', 'core' and 'x86/vt-d' into next
+6d4e52f899d9d54cae31ad9b4584aa9504a9cfa1 Merge branch 'topic/ppc-kvm' into next
 e789d4499abdb488dd9cabce4f95c74dac6bcbe5 Merge branch 'topic/kdump-hotplug' into next
 c98ca8a375b6df243017716faee0916110a08396 sh: of-generic: Add missing #include <asm/clock.h>
 a11808815c3599891be12715d57c889d7b280a49 sh: smp: Protect setup_profiling_timer() by CONFIG_PROFILING
@@ -459,14 +468,7 @@ f5c0cdad6684aa4212346f48554636ec2ab98434 rtla/timerlat: Use pretty formatting on
 1462501c7a8d565f5949d3d5635b2111d889aaaa rtla/timerlat: Add a summary for hist mode
 cdbf71962bb07493d67fee34536a5724a8bb5886 rtla: Add the --warm-up option
 fb9e90a67ee9a42779a8ea296a4cf7734258b27d rtla/timerlat: Make user-space threads the default
-9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
-10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
-9fad9d560af5c654bb38e0b07ee54a4e9acdc5cd scsi: sr: Fix unintentional arithmetic wraparound
-51071f0831ea975fc045526dd7e17efe669dc6e1 scsi: qedf: Don't process stag work during unload and recovery
-78e88472b60936025b83eba57cffa59d3501dc07 scsi: qedf: Wait for stag work during unload
-6c3bb589debd763dc4b94803ddf3c13b4fcca776 scsi: qedf: Set qed_slowpath_params to zero before use
 621cde16e49b3ecf7d59a8106a20aaebfb4a59a9 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
-e4f5f8298cf6ddae43210d236ad65ac2c6379559 scsi: mpt3sas: Add missing kerneldoc parameter descriptions
 64e098b59b8af5376c0b4544d6729625a692d400 dt-bindings: PCI: ti,am65: Fix remaining binding warnings
 51ef0538d4e1ca959b8eb7e78376cab2e94021cb dt-bindings: PCI: cdns,cdns-pcie-host: Drop redundant msi-parent and pci-bus.yaml
 36fbed38549c9f9b28f750323ede6bb87413af6e dt-bindings: PCI: mediatek,mt7621: Add missing child node reg
@@ -1023,7 +1025,6 @@ c2c80ecdb48aab735d770685207df96b8d0c0112 Merge tag 'regulator-fix-v6.10-merge-wi
 483a351ed4d464265aed61cab4a990b0023f8400 Merge tag 'io_uring-6.10-20240523' of git://git.kernel.dk/linux
 b4d88a60fe0e126b245583c5003584cf6751e536 Merge tag 'block-6.10-20240523' of git://git.kernel.dk/linux
 6d69b6c12fce479fde7bc06f686212451688a102 Merge tag 'nfs-for-6.10-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
-d09c05aa35909adb7d29f92f0cd79fdcd1338ef0 scsi: core: Handle devices which return an unusually large VPD page count
 ff388fe5c481d39cc0a5940d1ad46f7920f1d646 mseal: wire up mseal syscall
 8be7258aad44b5e25977a98db136f677fa6f4370 mseal: add mseal syscall
 4926c7a52de75c7219a04de7fa857ab30653704d selftest mm/mseal memory sealing
@@ -1079,6 +1080,5 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-4fedb1f0959973738ef9ac7e52ea0c260f1a3302 Merge branch '6.10/scsi-queue' into 6.10/scsi-fixes
 
---===============4227218641410439880==--
+--===============0232920346461976408==--
