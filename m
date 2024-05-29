@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 29 May 2024 17:41:52 -0000
-Message-Id: <171700451253.16416.9156074180092395767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Wed, 29 May 2024 18:08:55 -0000
+Message-Id: <171700613563.2926.17837339480089612644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: c9debec3eee346a7179e59eff0a841a988afce50
-    new: 23d9e42fc6af192f6b211884be1f082c2bd2be24
-    log: |
-         23d9e42fc6af192f6b211884be1f082c2bd2be24 Wed May 29 01:40:45 PM EDT 2024
-         
+  - ref: refs/tags/damon/next-2024-05-29-11-08-on-v6.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 38d813732195e662656b92e5320a5c073084b466
