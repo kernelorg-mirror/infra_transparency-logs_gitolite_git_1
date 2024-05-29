@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5607345848678904098=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 29 May 2024 18:48:15 -0000
-Message-Id: <171700849593.2723.13275889191776170212@gitolite.kernel.org>
-
---===============5607345848678904098==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Wed, 29 May 2024 18:51:45 -0000
+Message-Id: <171700870523.5695.7486135622826775202@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/master
-    old: 010d60fd520ccab09b184d2c710b5a41eda4af16
-    new: dae1c6ac88abde24a1a44cb11d593a3ddeef0144
+  - ref: refs/heads/fixes
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    new: e8b8c5264d4ebd248f60a5cef077fe615806e7a0
     log: |
-         dae1c6ac88abde24a1a44cb11d593a3ddeef0144 allocate CVE-2024-36016 on request
+         2032e61e24fe9fe55d6c7a34fb5506c911b3e280 kselftest/alsa: Ensure _GNU_SOURCE is defined
+         f6c3c83db1d939ebdb8c8922748ae647d8126d91 selftests/ftrace: Fix to check required event file
+         7ea794604bf6a3be8bb4b0f1483eb1d3972eac93 selftests/ftrace: Update required config
+         23a4b108accc29a6125ed14de4a044689ffeda78 tracing/selftests: Fix kprobe event name test for .isra. functions
+         bc4d5f5d2debf8bb65fba188313481549ead8576 selftests: cachestat: Fix build warnings on ppc64
+         84b6df4c49a1cc2854a16937acd5fd3e6315d083 selftests/openat2: Fix build warnings on ppc64
+         e8b8c5264d4ebd248f60a5cef077fe615806e7a0 selftests/overlayfs: Fix build error on ppc64
          
-
---===============5607345848678904098==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717008500 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1717008493-af6778b79cc0eada6f45cebe7cade6282d477aaf
-
-010d60fd520ccab09b184d2c710b5a41eda4af16 dae1c6ac88abde24a1a44cb11d593a3ddeef0144 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZXeHQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UUcP/iVz3J4IXwb2VtOfWeEX
-aNdiWbA/TJmfW85XV3wtO70H3PqPZ5YX4ZNt+skOSX0PptJvbCuDVtJxf5Ihee7G
-Gs76y+pgGh6AKlVtL2Pn9kfZZSAn1ZAax12zR2I+r1gGWoCwTycquyfYB1u+pNIT
-EX6egtQZ6Ie8wd8ZzgILCt7mtk1CQCwokCU9oKjeWPziGOQX0EIpkRPQiVEFbseO
-fglegavAdOW5LZhJ+eJt72j/FzENherlOA2o4DPVuMJV6iPFNKzVnVYA2WgDRfie
-ofSAMYXqk/txPmYpIIIbKy4gqzr05qbxyVwM0Dk/4jYetNEwBNmICq6PH8w//Lar
-mT3Y4FuOSC7ruwqpcSZfG41V7YWmxtJU5nxaI6GlKr+8buJOfw3r9YUXAznre1zm
-BT0oxBCxAf1pBxIsL8iAWung1ehA6X5viGG7XfrDvqi5uf+9426PjdojGzlcNrRU
-QYab4RBagyFTZ4t+6QwJL3cHxa0o/XFsMTdQeXb31vMic49wQFC0O8PhpRk8/rYR
-7S5MNW3KUq2FA0i1yQPVMqxOfcFiezo962OM83mbgvDyznuFnURUNdvFCLJpx7Iq
-CWc22YVbywd8Xhg8Xp8WTLJ/ZBAiE6N9/gZjOzs7k4huRD66pOjsZ3rPnW2qoPT+
-f6Ivx5la1JYmamDcZITRMKos
-=gWaF
------END PGP SIGNATURE-----
-
---===============5607345848678904098==--
