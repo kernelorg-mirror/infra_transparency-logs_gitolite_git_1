@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 29 May 2024 19:12:17 -0000
-Message-Id: <171700993725.21030.16785089326611496243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 29 May 2024 19:19:02 -0000
+Message-Id: <171701034207.25124.3949042251919397339@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: e0cce98fe279b64f4a7d81b7f5c3a23d80b92fbc
-    new: 4a4be1ad3a6efea16c56615f31117590fd881358
+    old: e72b4462e7e8fe06db28ddff3a672a1656e517cb
+    new: c8db568fe338fe822cd497b0efcae9fc21cdbe1a
     log: |
-         25460d6f39024cc3b8241b14c7ccf0d6f11a736a net/9p: fix uninit-value in p9_client_rpc()
-         c898afdc15645efb555acb6d85b484eb40a45409 9p: add missing locking around taking dentry fid list
-         67ec8cdf29971677b2fb4b6d92871eb5d5e95597 hwrng: core - Remove add_early_randomness
-         db163660b02abbffebfad1bcd6dbce1201c72731 Merge tag 'v6.10-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-         397a83ab978553ca2970ad1ccdbac0cdc732efd9 Merge tag '9p-for-6.10-rc2' of https://github.com/martinetd/linux
-         4a4be1ad3a6efea16c56615f31117590fd881358 Revert "vfs: Delete the associated dentry when deleting a file"
+         3f3d80f505f3d7273f374935558db5188acdd162 x86/kexec: Remove spurious unconditional JMP from from identity_mapped()
+         c8db568fe338fe822cd497b0efcae9fc21cdbe1a Merge branch into tip/master: 'x86/cc'
          
