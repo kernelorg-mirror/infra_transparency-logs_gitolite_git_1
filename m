@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8950193955777675891=="
+Content-Type: multipart/mixed; boundary="===============6031115897314516243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 29 May 2024 15:08:59 -0000
-Message-Id: <171699533905.31668.17403089326938688922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 29 May 2024 15:09:07 -0000
+Message-Id: <171699534726.31806.4819870477535236444@gitolite.kernel.org>
 
---===============8950193955777675891==
+--===============6031115897314516243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/regulator-6.11
     old: 7a147670035ddec35f3fb2ace538ad56ad82c861
     new: c1ca3e2fa89164c01dfb78eca344c12a511d1762
     log: |
@@ -26,28 +26,28 @@ changes:
          c1ca3e2fa89164c01dfb78eca344c12a511d1762 ARM: st: add new compatible for PWR regulators on
          
 
---===============8950193955777675891==
+--===============6031115897314516243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1716995337 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1716995336-dbcf9a84f6ce2d4562b66664e7cf277166b6e432
+pusher C3F436CA30F5D8EB 1716995345 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1716995343-50575124a57d8746a9c0cd78094d9e8885b774be
 
-7a147670035ddec35f3fb2ace538ad56ad82c861 c1ca3e2fa89164c01dfb78eca344c12a511d1762 refs/heads/for-6.11
+7a147670035ddec35f3fb2ace538ad56ad82c861 c1ca3e2fa89164c01dfb78eca344c12a511d1762 refs/heads/regulator-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZXRQkACgkQJNaLcl1U
-h9B+FAf+PCeQJN3Rq9BsjHpIC4NoWi2GF92ZaqpXrXYecFEGlHLqz6FeK9NPC7U0
-WQO/1EB+ws+jZueeVTi5eJPZQCY9wexWJ3jbu+q6VpdhVdPJbWkOnjcOro+X4BAB
-ZYARZDkezSEh1VFa1INDOTui88ebzJM/lYnTzk1sJrSzxuHoupPTtwKlCvEtnZR9
-ATwTo+WYxQEbB9ZOl+UMI0M5lsarCVrZMajdKWGI9vT4FaCbS2U6KCemQQoOk6rg
-K9fUcB/GeK1GqNIpRfD+wcvdFsS1UL+g23KKlylqANdwTuHrH7cDD/7GTPk/OpLs
-JeOTfN8u+3MIwnYRRatXwY/wkpZQOQ==
-=JIkE
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZXRREACgkQJNaLcl1U
+h9D2OQf/fpcxd522iWqFzo+n7FWsozXt22KjIqAtKm0HuZS26iOE+jQZhJfbIhHc
+YCcIsLuhy+kIFwHH/2qRgNrf6KfMaNh/KmhNULkG6UxmTCuhXBxWOGHc0qIUgeAR
+rYbRi4n9ZwtBXRBsH/aL22P1SmDi6xyR2gpc2lGOdszymBkKinpWJ0YE6wvXU0Cf
+1bW7SDwJ+lkmrOgsFLGnxMVB4s66ByHPn7ued4n1aV5t8fWp+XpizDsAO48CTuQW
+C8zewX2I2KTh2wVddMvNF+guoxdpGq/+NBMxV0jXCHF0Gbh9fngIyaGI5R3DydSr
+H2SPNuilZ5YtGbIgqOabm5X/1x2GDw==
+=gYQY
 -----END PGP SIGNATURE-----
 
---===============8950193955777675891==--
+--===============6031115897314516243==--
