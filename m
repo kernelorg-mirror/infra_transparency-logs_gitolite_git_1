@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0632423384941017642=="
+Content-Type: multipart/mixed; boundary="===============3609534097451061119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 29 May 2024 17:10:51 -0000
-Message-Id: <171700265132.26264.8006947561721217878@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 29 May 2024 17:10:59 -0000
+Message-Id: <171700265935.26382.5100349103032119813@gitolite.kernel.org>
 
---===============0632423384941017642==
+--===============3609534097451061119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/asoc-6.10
     old: b062938fd9afec844c50571fddd8d81623a60ee1
     new: ba2e8323d7b71781c7da02e83d813af9ab7fe1f9
     log: |
@@ -27,37 +27,37 @@ changes:
          ffa077b2f6ad124ec3d23fbddc5e4b0ff2647af8 ASoC: SOF: ipc4-topology: Fix input format query of process modules without base extension
          ba2e8323d7b71781c7da02e83d813af9ab7fe1f9 ASoC: SOF: add missing MODULE_DESCRIPTION
          
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/asoc-6.11
     old: ed2581305360725381190bc442918e4e5b2b8545
     new: 52100401c17b8827c185c8b44fe473a3d9421836
     log: revlist-ed2581305360-52100401c17b.txt
 
---===============0632423384941017642==
+--===============3609534097451061119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1717002648 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1717002648-50e67d23f133e683c05b03662cb533adbb3e2308
+pusher C3F436CA30F5D8EB 1717002656 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1717002655-31f4f0be135647a07320b180526264b5e79086d5
 
-b062938fd9afec844c50571fddd8d81623a60ee1 ba2e8323d7b71781c7da02e83d813af9ab7fe1f9 refs/heads/for-6.10
-ed2581305360725381190bc442918e4e5b2b8545 52100401c17b8827c185c8b44fe473a3d9421836 refs/heads/for-6.11
+b062938fd9afec844c50571fddd8d81623a60ee1 ba2e8323d7b71781c7da02e83d813af9ab7fe1f9 refs/heads/asoc-6.10
+ed2581305360725381190bc442918e4e5b2b8545 52100401c17b8827c185c8b44fe473a3d9421836 refs/heads/asoc-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZXYZgACgkQJNaLcl1U
-h9DEOAf/Vs9kmf3M2OeI341pni6VIlOaf8s6lXE6ZK+k64K0ZSSSKVb+VvF+6baf
-odjujGU4ob+uaI/bbauganOV1GHSsKVUQOqoDt1gBmsr87ndwAxBRET4VdzoDV1E
-E6+jXBPO2v2a8GGU3t0p93YIktzsw2FWXb2HYdc0zJX7nFCYXshWsCNv64cUluvh
-mA5atWs9LqUTfMvqPOlouaJFAs9BeyGNBnsIytXF07fpfxcP/rrtFjYmP0KwWc7s
-VlzzRtd0XRdXUvfJWvU/BjFthA9XM3Yru2fdRBQxTcTXWjN4eiY37hAcF+nVwTG+
-Z2JkNvlASpssM8l4m27LadcBo7tYUQ==
-=uvrl
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZXYaAACgkQJNaLcl1U
+h9C9Swf/RkRMxUHoV1zkvm1BwGMYqMmd8evOt0p6rBqUXVR+VvBlu/av2bX4Zy9Y
+CJ3ODi4ePbRkDqaN/sX4zkx0HDxLai/AWfP+TLUUS9+cNQTbInYfz2V2AFbyGrg6
+rW/QsPfp9lzVliCXHkYy0+A3IrnUvgdgkjd97cESsoPoZcsJIJthIZz/YeidMz0N
+/tWqO013V2NbZnXaZtkda+TVHGHhBsTRktTZeJbPWRuDcaznOCEyU86VCMeKGhRF
+CgDhGV2myd3esKxsidUV3zgyZyXNyS3+jkNLdL2sOK33Azo62DoBQolKO5TZqeOA
+UWOcODU9NsOQRXs7sTC7ktKms74Lig==
+=Fpfd
 -----END PGP SIGNATURE-----
 
---===============0632423384941017642==
+--===============3609534097451061119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -104,4 +104,4 @@ d029ca6322aaefd5d4b35f4937f1719a160ac41b ASoC: fsl_mqs: Add i.MX95 platform supp
 e80613d6a6d528a265411556b0a84596fdc39959 ASoC: codecs: add support for everest-semi es8311
 52100401c17b8827c185c8b44fe473a3d9421836 ASoC: samsung: midas-audio: Add GPIO-based headset
 
---===============0632423384941017642==--
+--===============3609534097451061119==--
