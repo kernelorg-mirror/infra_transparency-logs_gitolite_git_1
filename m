@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fwestphal/net
-Date: Wed, 29 May 2024 09:22:03 -0000
-Message-Id: <171697452335.20697.4579924176262679747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 29 May 2024 09:42:11 -0000
+Message-Id: <171697573109.16751.11424316722525169698@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fwestphal/net
-user: fwestphal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/tcp_tw_unpin_02
-    old: 4ead7294871779cd7463af04eb676924e3028d9f
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: 93bda33046e7ad8ec96645b63432fdb789fefce6
+    new: 2942dfab630444d46aaa37fb7d629b620abbf6ba
+    log: |
+         2942dfab630444d46aaa37fb7d629b620abbf6ba net: ethernet: cortina: Restore TSO support
+         
