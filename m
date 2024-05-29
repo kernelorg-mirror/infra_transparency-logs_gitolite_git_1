@@ -1,64 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============6657949170487422423=="
+Content-Type: multipart/mixed; boundary="===============2449328730108977748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 29 May 2024 10:23:23 -0000
-Message-Id: <171697820370.15314.12749669652523882608@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Wed, 29 May 2024 10:23:54 -0000
+Message-Id: <171697823491.15570.551097944507375410@gitolite.kernel.org>
 
---===============6657949170487422423==
+--===============2449328730108977748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.10
-    old: 74b38cd77d3eb63c6d0ad9cf2ae59812ae54d3ee
+  - ref: refs/heads/for-linus
+    old: 7ba822189e6060a8a2833b721d430f833bf0db43
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-74b38cd77d3e-1613e604df0c.txt
-  - ref: refs/heads/regulator-6.11
-    old: 0000000000000000000000000000000000000000
-    new: 7a147670035ddec35f3fb2ace538ad56ad82c861
+    log: revlist-7ba822189e60-1613e604df0c.txt
+  - ref: refs/heads/for-next
+    old: 7ba822189e6060a8a2833b721d430f833bf0db43
+    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    log: revlist-7ba822189e60-1613e604df0c.txt
 
---===============6657949170487422423==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1716978201 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1716978200-3677e5deb2adfa9753ae6cdcc95f22308b997c45
-
-74b38cd77d3eb63c6d0ad9cf2ae59812ae54d3ee 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 refs/heads/regulator-6.10
-0000000000000000000000000000000000000000 7a147670035ddec35f3fb2ace538ad56ad82c861 refs/heads/regulator-6.11
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZXAhkACgkQJNaLcl1U
-h9DHqAf+O3Kxk8hZRTW4DEO8hpwlLseds3va+kN7bLh727nYQBbBzitiMMqQFVr9
-Z7Q/l8GGgXmbT4PXhVKdS4HU7BZSgh3C0HYKY+jor5C/ndvBdYxjoqWtG4c/C3/1
-1AEiI2EkUpEAeRc7Oi1/h91JgMQCkUvKkRJzzCXHDwWmVQuldzW429m6KWHylzSq
-o4W5IqNLh/vySIgu01UDFSssTea4C3M8gAE/hEUsD4tcf4LbDMkFe4Hi5A/Bdly0
-ZlVA0rSuT84Kyz3rczjJy3L0KBOsXQRIb3swKIVycCkuFxqCOjYzwYYkyPgi1iht
-pC/P6HPGqRSsrJsOdOPoca92vC0Cug==
-=8dqu
------END PGP SIGNATURE-----
-
---===============6657949170487422423==
+--===============2449328730108977748==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-74b38cd77d3e-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-7ba822189e60-1613e604df0c.txt
 
-e3193f0fbd6d83510ff6879ac248f42a7c0fefe7 drm/panthor: Make sure the tiler initial/max chunks are consistent
-69a429905ceccad547e4a532b08f9d32c7f3422a drm/panthor: Relax the constraints on the tiler chunk size
-8e43b1e537d4fb313efac1b5d0d01db0fe35f695 drm/panthor: Fix an off-by-one in the heap context retrieval logic
-591eafcd46e09a2468ecf5cdceea676ac72d84bc drm/panthor: Document drm_panthor_tiler_heap_destroy::handle validity constraints
 2b2a26b3314210585ca6d552a421921a3936713b drm/panthor: Force an immediate reset on unrecoverable faults
 ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
 a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
@@ -552,6 +523,8 @@ fd76e5ccc48f9f54eb44909dd7c0b924005f1582 net: qrtr: ns: Fix module refcnt
 552c9380f98fc47950870ef0935f94cf3acec087 Merge tag 'nand/for-6.10' into mtd/next
 dd0716c2b87792ebea30864e7ad1df461d4c1525 x86/boot: Add a fallthrough annotation
 f698d314eec2e16b980128b503d96bd73df77e90 Merge branches 'amba', 'cfi', 'clkdev' and 'misc' into for-linus
+0f9f7c63c415e287cd57b5c98be61eb320dedcfc regulator: bd71828: Don't overwrite runtime voltages
+cb3a0f84ae0caa5eabf40457485473edc1e2d3f0 regulator: rohm-regulator: warn if unsupported voltage is set
 61700f816e6f58f6b1aaa881a69a784d146e30f0 powerpc/fadump: Fix section mismatch warning
 4a63bd179fa8d3fcc44a0d9d71d941ddd62f0c4e ALSA: timer: Set lower bound of start tick time
 2ea13d626216b539be6ec3afc53f64b5dd961146 Documentation: sound: Fix trailing whitespaces
@@ -647,7 +620,6 @@ c6a6c9694aadc4c3ab8d89bdd44aed3eab1e43c6 ext4: fix error pointer dereference in 
 a4c5a457c6107dfe9dc65a104af1634811396bac perf/arm-dmc620: Fix lockdep assert in ->event_init()
 4853f1f6ace32c68a04287353e428c4cfc3fa8ed Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 ff2632d7d08edc11e8bd0629e9fcfebab25c78b4 Merge tag 'powerpc-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-7ba822189e6060a8a2833b721d430f833bf0db43 regmap: kunit: Fix array overflow in stride() test
 20c02972ec492f6cbfdd0146940899f2841c2783 Merge branch 'misc.erofs' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
 c34110e0fdfddc22b7fd606ca81303d20330bacb erofs: clean up erofs_show_options()
 e09815446d6944fc5590a6e5f15dd51697202441 erofs: mechanically convert erofs_read_metabuf() to offsets
@@ -787,7 +759,9 @@ a913d94eef59f6d1d907c3214f12827144bab6a5 Merge tag 'linux-watchdog-6.10-rc1' of 
 80f9d9023058e156eb09226ac339f56a8411bc8a Merge tag 'dmi-for-v6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/jdelvare/staging
 6e51b4b5bbc07e52b226017936874715629932d1 Merge tag 'mips_6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 daa121128a2d2ac6006159e2c47676e4fcd21eab Merge tag 'dma-mapping-6.10-2024-05-20' of git://git.infradead.org/users/hch/dma-mapping
+f4f4276f985a5aac7b310a4ed040b47e275e7591 regulator: pickable ranges: don't always cache vsel
 80eb4f62056d6ae709bdd0636ab96ce660f494b2 erofs: avoid allocating DEFLATE streams before mounting
+1ace99d7c7c4c801c0660246f741ff846a9b8e3c regulator: tps6287x: Force writing VSEL bit
 e4655196e21fdfb3a3c60e930d48b97a9f3ec693 coccinelle: misc: minmax: Suppress reports for err returns
 88a1fc21df74514bb3a3ae88b89cf1272c7c0c6e Coccinelle: pm_runtime: Fix grammar in comment
 5af9d1cf3906171de28f1c395264f29088bdd267 Merge tag 'fsnotify_for_v6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
@@ -813,6 +787,7 @@ eabb8a9be1e4a12f3bf37ceb7411083e3775672d Revert "r8169: don't try to disable int
 9841991a446c87f90f66f4b9fee6fe934c1336a2 af_unix: Update unix_sk(sk)->oob_skb under sk_receive_queue lock.
 efb9f4f19f8e37fde43dfecebc80292d179f56c6 ipv6: sr: fix memleak in seg6_hmac_init_algo
 ea63ac14292564eefc7dffe868ed354ff9ed6f4b selftests/net: use tc rule to filter the na packet
+74b38cd77d3eb63c6d0ad9cf2ae59812ae54d3ee regulator: tps6594-regulator: Correct multi-phase configuration
 3ebc46ca8675de6378e3f8f40768e180bb8afa66 tcp: Fix shift-out-of-bounds in dctcp_update_alpha().
 737ce4fb96206f999ddea7530145fc0e8abd5d31 ASoC: dt-bindings: stm32: Ensure compatible pattern matches whole string
 041933a1ec7b4173a8e638cae4f8e394331d7e54 af_unix: Fix garbage collection of embryos carrying OOB with SCM_RIGHTS
@@ -1080,4 +1055,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============6657949170487422423==--
+--===============2449328730108977748==--
