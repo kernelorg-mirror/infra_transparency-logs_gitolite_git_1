@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6430908458968798112=="
+Content-Type: multipart/mixed; boundary="===============4142677219166128504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 29 May 2024 16:15:24 -0000
-Message-Id: <171699932498.17088.8836807385313870021@gitolite.kernel.org>
+Date: Wed, 29 May 2024 16:15:35 -0000
+Message-Id: <171699933503.17245.4135667744001824937@gitolite.kernel.org>
 
---===============6430908458968798112==
+--===============4142677219166128504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: a16ecce68347b6efbe38d7630d2bac3a9d181f1d
     new: 0323489846c310733a3e6d68bef6177e3137e31f
     log: revlist-a16ecce68347-0323489846c3.txt
 
---===============6430908458968798112==
+--===============4142677219166128504==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ e06a698ae62b9ee5ca98e65be2c90a61464192e6 scripts/make_fit: Drop fdt image entry 
 6e58e0173507e506a5627741358bc770f220e356 kheaders: use `command -v` to test for existence of `cpio`
 0323489846c310733a3e6d68bef6177e3137e31f dt-bindings: kbuild: Fix dt_binding_check on unconfigured build
 
---===============6430908458968798112==--
+--===============4142677219166128504==--
