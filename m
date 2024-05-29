@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 29 May 2024 23:07:06 -0000
-Message-Id: <171702402605.2572.16516885424619928537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/tftp/tftp-hpa
+Date: Wed, 29 May 2024 23:11:07 -0000
+Message-Id: <171702426780.5766.5764342257606366516@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/network/tftp/tftp-hpa
+user: hpa
 changes:
-  - ref: refs/heads/for-next
-    old: fbe3e8473f391adbf67eb0f317305fe62c66096c
-    new: f088cabffcb646b559055464bb5fa79206752f07
+  - ref: refs/heads/master
+    old: b2b34cecc8cbc18ff6f1fc00bda6ae6e9011e6c7
+    new: 9c0908a778d0c57226c8a4e8ac6582d35b83739c
     log: |
-         4665415975b0827e9646cab91c61d02a6b364d59 bpf: Add bits iterator
-         6ba7acdb93b4ecb554d5838fca3f5f0fcf9fff14 selftests/bpf: Add selftest for bits iter
-         f088cabffcb646b559055464bb5fa79206752f07 Merge branch 'bpf-add-a-generic-bits-iterator'
+         e83d71d394901e6d08605bcd7f35b2f112fe73ea autoconf: rename configure.in to configure.ac
+         9c0908a778d0c57226c8a4e8ac6582d35b83739c autoconf: remove workarounds for some very old systems
          
