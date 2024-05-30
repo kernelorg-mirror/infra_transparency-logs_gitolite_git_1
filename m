@@ -1,57 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============5374549345705584511=="
+Content-Type: multipart/mixed; boundary="===============7038516362089824201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 30 May 2024 15:20:12 -0000
-Message-Id: <171708241263.22254.7433200484286970274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 30 May 2024 15:20:36 -0000
+Message-Id: <171708243687.22507.12616414855758785684@gitolite.kernel.org>
 
---===============5374549345705584511==
+--===============7038516362089824201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: afb3b2ddaf64964159e40f10fc96704abdcd9a51
-    new: c7d09ef123dbb762b121064fe29430386a8b5921
+  - ref: refs/heads/for-6.10
+    old: ba2e8323d7b71781c7da02e83d813af9ab7fe1f9
+    new: c85578e730135d47271ca874e4436dd87e87f252
     log: |
-         c0d815513d929ad75086f547076d005334041cd0 updated 6.8.9 review from greg
-         c7d09ef123dbb762b121064fe29430386a8b5921 cves allocated for some 6.8.9 issues
+         49cb894d567980235b6e64d5e69950ff77debd8c ASoC: SOF: ipc4-topology: Add support for NHLT with 16-bit only DMIC blob
+         2a865c9c3fb0289a95f1cb51b42d248736ff45cb ASoC: SOF: ipc4-topology: Print out the channel count in sof_ipc4_dbg_audio_format
+         3b64fd2f83f203f5a34faed3dadf6464313f827d ASoC: SOF: ipc4-topology/pcm: Rename sof_ipc4_copier_is_single_format()
+         2fcad03eaba1b86e6b829f73a9e75e681b7f3106 ASoC: SOF: ipc4-topology: Improve readability of sof_ipc4_prepare_dai_copier()
+         b65456b7b379e20ab225a4e906dc4a0c98fddd7a ASoC: SOF: ipc4-topology: Adjust the params based on DAI formats
+         c85578e730135d47271ca874e4436dd87e87f252 ASoC: SOF: ipc4-topology: Fix nhlt configuration blob
          
 
---===============5374549345705584511==
+--===============7038516362089824201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717082420 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1717082412-8842a947fcdbaa0bfe1794765b5e97e4336c4f08
+pusher C3F436CA30F5D8EB 1717082435 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1717082434-8b74923018d13a9a0fdced5e430a66c579e20bf7
 
-afb3b2ddaf64964159e40f10fc96704abdcd9a51 c7d09ef123dbb762b121064fe29430386a8b5921 refs/heads/master
+ba2e8323d7b71781c7da02e83d813af9ab7fe1f9 c85578e730135d47271ca874e4436dd87e87f252 refs/heads/for-6.10
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZYmTQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ceMQALPsd8kKfwWghNN0jvtL
-W6Ubs/YITi4XVNVjA3HRtkm0e0/Ejyd/cyjyjKN5p112RqDel4s35davwy0vteL+
-3jl3MWx8RHcYd1GBuwG5hKXrihk0ZJSt7j2ZHg/UAlgSkf3Th4mzMPfdcMHTdnqu
-aq0TvoEPF0p/i4ufX3sqqvMtVsWozvMMaKQUh/Rxvz9ZE1VaD+yqbM5Y8+jTktTT
-qGagOgB2nFBOblWA3d0G2+u1o0aw20pdV/P8eyH9Z1KboVqOnlmwvMk0gHaupjWb
-Ewnun2gnYm0/NnD1FIgV/RHCOgiFS7AFi8G2bJjxh+8CIt3hVYy6ZmXiXT4WaMXB
-MrtDDDhDigi+RO7zQU9KcLgP5RgyxBQtGt/06XEYWAld+2NMo/cBofEDePum3K4p
-LfhqVyHhUSL6/0HJldK3RFei/w0MLBf9KFTzRSvgdWWXoRaYFM+9ZBeUNQ82Mi9R
-keAvJ/TNPzfuEXuXlpzOjaBXI8dtl+ORrpXvvS+z1ZgPwLhrh4teWd/PSDr5MLbp
-UFqz99iniBuLoIG4yEh11cJ29+IRnJyl2L5wx5CH7smFxjAIOcls///uVgtpea4t
-nojZFE+vqsqJCNPs9gj1NyKGvH7muwO9mS6PxFgY2JesGH4a9tPpCuZ1fMKmYPim
-lFMrFgavbP0FmC785GeYlzyX
-=4Fyt
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZYmUMACgkQJNaLcl1U
+h9DdNAf+K/hY3xtbMXh37LoMJSSbna+TV7nRg1NZILEIBk36JiBtAefdgekd0nHJ
+q3RRUbs1qOpny6ZZHhMXqPiVEl12q34ywiuYWgDEQGTGOzMbvfMPi5D8Ew71QGK5
+dmUq8W34nZa3oWdYlz8Bc2AjFxg/wU7Cl/yfDineNBv5sRiILVHJTGY2iXpfyS+J
+xKsgBNDc7JJ8jQJYyYRHzPzq8prm6yrZAr1w9eR2lO6mOg/PWdSYDgc2rmvXAMhv
+PI/tniBNktN1XaJ5ZI4E8kEmVNVrlt2Bk9FFEPZr+uKq7L83HsNs/2NueVMiGHu3
+H1ZrzmoKGBzsJ0mIe999vroFWhDv+A==
+=ctyE
 -----END PGP SIGNATURE-----
 
---===============5374549345705584511==--
+--===============7038516362089824201==--
