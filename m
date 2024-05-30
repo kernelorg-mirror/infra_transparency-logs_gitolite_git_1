@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 29 May 2024 23:46:26 -0000
-Message-Id: <171702638698.30936.3630925221367154309@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 30 May 2024 00:13:15 -0000
+Message-Id: <171702799521.17272.11342798666958906263@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/prctl
-    old: b7b7bf786393c50ca9df528eab4e796e5ffcdb5b
-    new: eaf30f013485964e78dca7fe536361b0e977ab74
+  - ref: refs/heads/main
+    old: 782471db6c72de5b69b15450f787fd64e8a0e23a
+    new: 544a74c32bcc2eff5f93b9f638f687170e7274e9
     log: |
-         3ed69e2e9fe87a9f9720c727eefbd113d0c19a97 prctl.2, PR_GET_PDEATHSIG.2const: Split PR_GET_PDEATHSIG from prctl(2)
-         0c934a742c099e503fc43e1d3cbf8e968a3b4296 PR_GET_PDEATHSIG.2const: Tweak after split
-         94a027e8af06a661b3dc8a9c17d6a2531608be95 prctl.2, PR_SET_PTRACER.2const: Split PR_SET_PTRACER from prctl(2)
-         2e80b0005b6a122383966f50413f61e44e9fccec PR_SET_PTRACER.2const: Tweak after split
-         aa9654cf64eaafbfd3db3b805b9dfb6cf03a98cb prctl.2, PR_SET_SECCOMP.2const: Split PR_SET_SECCOMP from prctl(2)
-         272d50136b7497cb340646ea0a97375e13199419 PR_SET_SECCOMP.2const: Tweak after split
-         f20fb483682fb3fa88f55c67cec515904b563ec6 prctl.2, PR_GET_SECCOMP.2const: Split PR_GET_SECCOMP from prctl(2)
-         eaf30f013485964e78dca7fe536361b0e977ab74 PR_GET_SECCOMP.2const: Tweak after split
+         126913479e88e7e0114efe380d2437cc70d9dc05 net: dsa: lan9303: imply SMSC_PHY
+         544a74c32bcc2eff5f93b9f638f687170e7274e9 dt-bindings: net: rockchip-dwmac: Fix rockchip,rk3308-gmac compatible
          
