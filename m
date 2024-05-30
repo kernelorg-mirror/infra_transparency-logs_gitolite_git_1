@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 30 May 2024 12:28:16 -0000
-Message-Id: <171707209684.22964.14992454241094876070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 30 May 2024 12:33:11 -0000
+Message-Id: <171707239182.26516.4805536936123019963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 38c02d813aa321c0e79b9887da6a2e2b57a75698
-    new: e095405b45bbbdcf521c63b4207071e5b32df671
+  - ref: refs/heads/dt/linus
+    old: 987fe3d90d331937424a30a034a144f5445b6b17
+    new: 321e4fa68ce15660ec578bdec5cc9607635087cf
     log: |
-         53657a0419ef443f9d17ee035ca9980572736d0a RDMA/mana_ib: Create and destroy RC QP
-         fdefb918496235a11d6c5477c34c81aab2c1343b RDMA/mana_ib: Implement uapi to create and destroy RC QP
-         e095405b45bbbdcf521c63b4207071e5b32df671 RDMA/mana_ib: Modify QP state
+         84081a885394fc94055c24c727c99c321df6abac dt-bindings: arm: sunxi: Fix incorrect '-' usage
+         321e4fa68ce15660ec578bdec5cc9607635087cf dt-bindings: arm: stm32: st,mlahb: Drop spurious "reg" property from example
          
