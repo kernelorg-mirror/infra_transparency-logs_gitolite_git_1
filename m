@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 30 May 2024 10:26:00 -0000
-Message-Id: <171706476082.32239.16409521743867830126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 30 May 2024 10:33:03 -0000
+Message-Id: <171706518310.4062.8551876990777242273@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/main
-    old: b3dc6e8003b500861fa307e9a3400c52e78e4d3a
-    new: 13c7c941e72908b8cce5a84b45a7b5e485ca12ed
+  - ref: refs/heads/wip/leon-for-next
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    new: 6f6bfbc595fbae95f4c1ff80c87d089604e5e6a1
     log: |
-         13c7c941e72908b8cce5a84b45a7b5e485ca12ed netdev: add qstat for csum complete
+         8d310ba845827a38fcd463d86bfe3b730ce7ab8f RDMA/bnxt_re: Allow MSN table capability check
+         6f6bfbc595fbae95f4c1ff80c87d089604e5e6a1 RDMA/bnxt_re: Expose the MSN table capability for user library
          
