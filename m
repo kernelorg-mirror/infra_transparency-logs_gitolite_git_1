@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jmondi/linux
-Date: Thu, 30 May 2024 16:38:44 -0000
-Message-Id: <171708712442.16196.4077011769802150246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 30 May 2024 16:38:51 -0000
+Message-Id: <171708713142.16333.8520335226382690483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jmondi/linux
-user: jmondi
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/imx8mp/iob-gitlab/v6.9/extensible-format
-    old: 0000000000000000000000000000000000000000
-    new: a853a89596262635136a84dd9ad2de68acefe381
+  - ref: refs/heads/kdevops
+    old: 2a065c76f43feec7badbaaf5b2ef377e4a0b5e90
+    new: e3b4db0469ffd947de381d0f228f7f9939c45f24
+    log: |
+         e3b4db0469ffd947de381d0f228f7f9939c45f24 SQUASH: logic bug
+         
