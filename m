@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 30 May 2024 14:50:02 -0000
-Message-Id: <171708060298.31301.11649408080052665353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 30 May 2024 14:59:40 -0000
+Message-Id: <171708118059.4580.624180002943921331@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/io_uring-6.10
-    old: 06fe9b1df1086b42718d632aa57e8f7cd1a66a21
-    new: e112311615a24e1618a591c73506571dc304eb8d
+  - ref: refs/heads/not-for-next
+    old: 0954043c0e04183d88b43af9839241ff7681dd96
+    new: 0a6837e85a08d48ec8e703398c66f954df96cf98
     log: |
-         e112311615a24e1618a591c73506571dc304eb8d io_uring/rw: Free iovec before cleaning async data
+         0a6837e85a08d48ec8e703398c66f954df96cf98 drm/amd/display: Increase frame-larger-than warning limit
          
