@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 30 May 2024 14:43:29 -0000
-Message-Id: <171708020953.26261.7863713614732480640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 30 May 2024 14:50:02 -0000
+Message-Id: <171708060298.31301.11649408080052665353@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: fdbbd8b383626265c1454801d24cdfa6234d1416
-    new: b3e7b7539e0edfa4dc8895c753a3fc88351dd1db
+  - ref: refs/heads/io_uring-6.10
+    old: 06fe9b1df1086b42718d632aa57e8f7cd1a66a21
+    new: e112311615a24e1618a591c73506571dc304eb8d
     log: |
-         b3e7b7539e0edfa4dc8895c753a3fc88351dd1db watchlist: Remove unused APIs
+         e112311615a24e1618a591c73506571dc304eb8d io_uring/rw: Free iovec before cleaning async data
          
