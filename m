@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 30 May 2024 14:15:13 -0000
-Message-Id: <171707851315.6746.3964516020216207021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 30 May 2024 14:18:40 -0000
+Message-Id: <171707872017.8037.11782586265416507742@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 34bf6bae3286a58762711cfbce2cf74ecd42e1b5
-    new: b9210e56d71d9deb1ad692e405f6b2394f7baa4d
+  - ref: refs/heads/wip/leon-for-rc
+    old: 03fa18a992d5626fd7bf3557a52e826bf8b326b3
+    new: 05301cb42a556735dd834242e0c0e4b4a325abeb
     log: |
-         b9210e56d71d9deb1ad692e405f6b2394f7baa4d x86/cpu: Provide default cache line size if not enumerated
+         05301cb42a556735dd834242e0c0e4b4a325abeb RDMA/rxe: Fix responder length checking for UD request packets
          
