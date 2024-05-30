@@ -1,64 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3258722343010657703=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Thu, 30 May 2024 01:20:15 -0000
-Message-Id: <171703201538.7697.18087685086742897240@gitolite.kernel.org>
-
---===============3258722343010657703==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 30 May 2024 01:57:52 -0000
+Message-Id: <171703427254.1097.12864809160510076874@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/clk-fixes
-    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    new: 2607133196c35f31892ee199ce7ffa717bea4ad1
+  - ref: refs/heads/main
+    old: 1e37449fe3aa32e453eadaaba6e75b66c365efc4
+    new: c53a46b16ce2605181688ea6af5f6c8d7fb3c9c1
     log: |
-         2607133196c35f31892ee199ce7ffa717bea4ad1 clk: sifive: Do not register clkdevs for PRCI clocks
+         c697f515b6390b17e4a54a6f93aedf27133929c5 doc: netlink: Fix generated .rst for multi-line docs
+         ebf9004136c76b7b62fe628a4bc88b3e894b4b95 doc: netlink: Don't 'sanitize' op docstrings in generated .rst
+         cb7351ac17862cf8d4e00831ce4aa27f53bda01c doc: netlink: Fix formatting of op flags in generated .rst
+         9104feed4c6454b9a720e7e11047be7e5cd83487 doc: netlink: Fix op pre and post fields in generated .rst
+         eebe71db8eb7c97382a0aeef3c2aef25518889f1 Merge branch 'doc-netlink-fixes-for-ynl-doc-generator'
+         bbb31b7ae14594aa2a7e74923ee38f312404ad66 net: dsa: remove mac_prepare()/mac_finish() shims
+         ef0e51dccdc43fd849720589c3214d97b2fd453f net: dsa: felix: provide own phylink MAC operations
+         c53a46b16ce2605181688ea6af5f6c8d7fb3c9c1 net: smc91x: Remove commented out code
          
-  - ref: refs/heads/clk-next
-    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    new: e1c1038e738778adc7ca874e219ba49bf09809bb
-    log: |
-         2607133196c35f31892ee199ce7ffa717bea4ad1 clk: sifive: Do not register clkdevs for PRCI clocks
-         e1c1038e738778adc7ca874e219ba49bf09809bb Merge branch 'clk-fixes' into clk-next
-         
-
---===============3258722343010657703==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Stephen Boyd <sboyd@kernel.org> 1717032015 -0700
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
-nonce 1717032013-b7bcb403901ea9e9a22e098fd2ab1d983be0b658
-
-1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 2607133196c35f31892ee199ce7ffa717bea4ad1 refs/heads/clk-fixes
-1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 e1c1038e738778adc7ca874e219ba49bf09809bb refs/heads/clk-next
------BEGIN PGP SIGNATURE-----
-
-iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmZX1E8RHHNib3lkQGtl
-cm5lbC5vcmcACgkQrQKIl8bklSXjrQ/9EZEEJHgedkohnwqtGU+XQLr3parCwTxF
-k+JARBJJegV6H4W04tcTNNn0eC9wcFniv/MbU5FkJCEn8uXZRjKp33kku3dHHF1q
-N5KzwKy5+gcw35X4PdIevSX9IdhSDNdm08jNFRYs8q0be+Y3KAmMR2KdR03sprWL
-n8EhCYdwiJy9gbNIuSKtOE61G/8diJcqsWI33DAcYEkfhbB+zwmpiR5eCpmuiAeX
-VAV3+PD5Z+75O0VKkHPZUFAEaP42tA+ZjDZBga5Pnt/l65AGuhlaZFZJhPNeRO02
-e7SU+IK2rIV/WThXuBlIiPyKeF/w/UbTXwg/ObB6KO1btKgiB9tbvvbyMl4pm9fn
-uFhbC3AxR+uQe9oyhgsaTmV1HN4ZvhGLI1RpRo+ywo9nnjxRlGQy2oLmY6WJcckd
-3FBUkPnD9RRm12/imT2gonBXlE1ypexHNTrzIrJPUyt+sA9DSkO4mN5ZbyHvUnI8
-9msj3MUy4xR6UUEsnUJ+Qsr6UHDYb+/z7jKQeHUsDdsJcuKTtA+GpVBujGD7djlX
-uaLRobj1Yyylfld+rP5gqTFQ6MCvTs9xNYU8TtVUffZMIXEnS8IZZCwjXZbRCNa2
-LKCCsjyrEfflMbqgyWd7UMJ8Jjq0IhTzLUS+lN3Tic/MRWUr1wx+pnS9xVBZ1gN6
-/eMfYHhGHGY=
-=5BBG
------END PGP SIGNATURE-----
-
---===============3258722343010657703==--
