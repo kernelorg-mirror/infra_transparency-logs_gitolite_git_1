@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 30 May 2024 19:08:25 -0000
-Message-Id: <171709610577.29924.7228621953486118749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Thu, 30 May 2024 19:11:34 -0000
+Message-Id: <171709629449.32695.5044617005532125861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/kdevops
-    old: e3b4db0469ffd947de381d0f228f7f9939c45f24
-    new: b5735248fa8195c5a123deed152dc9cfc858d800
+  - ref: refs/heads/fixes
+    old: e8b8c5264d4ebd248f60a5cef077fe615806e7a0
+    new: cb708ab9f584f159798b60853edcf0c8b67ce295
     log: |
-         3923bb92783ec63ad3c22d329b22f253aa17043e fs: add infrastructure for multigrain timestamps
-         800a83311219f2ca7951f8c99d150b96f3b4c415 fs: have setattr_copy handle multigrain timestamps appropriately
-         0dd26047b0b803f7a196f0aee91d22116fdb82d3 fs: add tracepoints around multigrain timestamp changes
-         e54a520e06d0dd0e1998070ab78d722a16220780 xfs: switch to multigrain timestamps
-         23aecda3b504b33e78caa884c691d5afc85022a0 ext4: switch to multigrain timestamps
-         c890ca5d9e2e6889123aac54f2bcb231c11baa54 btrfs: convert to multigrain timestamps
-         b5735248fa8195c5a123deed152dc9cfc858d800 tmpfs: add support for multigrain timestamps
+         cb708ab9f584f159798b60853edcf0c8b67ce295 selftests/futex: pass _GNU_SOURCE without a value to the compiler
          
