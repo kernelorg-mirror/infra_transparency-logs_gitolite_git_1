@@ -1,78 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============3420361179078827887=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 30 May 2024 18:10:05 -0000
-Message-Id: <171709260552.19881.920466347411264962@gitolite.kernel.org>
-
---===============3420361179078827887==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 30 May 2024 18:25:08 -0000
+Message-Id: <171709350842.30069.9445816199734154102@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/dev
-    old: 6e43483dd111cf1be58b02a45d0ca729ca2634ba
-    new: 2a9ace58bcb0a8d8b3b70645ba578ea4912e296f
-    log: revlist-6e43483dd111-2a9ace58bcb0.txt
-  - ref: refs/heads/dev.2024.05.27a
-    old: 0000000000000000000000000000000000000000
-    new: 6e43483dd111cf1be58b02a45d0ca729ca2634ba
-
---===============3420361179078827887==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e43483dd111-2a9ace58bcb0.txt
-
-0be8b594f132ad565d9f5466b4bc4608a43c5bdd um: Emulate one-byte cmpxchg
-6ba3d5014d24a46ed329fc567e554c218eb62cfa ARM: Emulate one-byte cmpxchg
-237ae317ab3fa06c612f8734d6c397085d2bf811 Merge branches 'cmpxchg.2024.05.30a' and 'tsc.2024.05.27a' into HEAD
-300549133ecfb7ec91462d99601069717601ce91 doc: Update Tasks RCU and Tasks Rude RCU description in Requirements.rst
-44cc2617b4491dc1d50e23d3d3863ac0a03e58a6 rcu: Add lockdep_assert_in_rcu_read_lock() and friends
-e665090e848db18e6306b011e87f23b32234ded5 rcutorture: Make rcutorture support srcu double call test
-2343e2c0c57ec7f4ad12856ce2cc85af1348c5e7 rcutorture: Fix rcu_torture_fwd_cb_cr() data race
-edea21584e7dfd000ae373ea220cb82106c64624 rcu: Reduce synchronize_rcu() delays when all wait heads are in use
-fa54a6e1f826602caa8f646d76cf821df7f132b2 rcu/tree: Reduce wake up for synchronize_rcu() common case
-aa4ace3108979ec7fce2338597957eb266951e82 Revert "rcu-tasks: Fix synchronize_rcu_tasks() VS zap_pid_ns_processes()"
-963d36ec6f386efce049dc6e66fa7e79cbef2653 rcu/nocb: Fix segcblist state machine comments about bypass
-8dcc4ab03d615f2db8ae99aa06c67cb3fe1f2428 rcu/nocb: Fix segcblist state machine stale comments about timers
-d19df6e5405426f98898f1e9ad25b902c480b82e rcu/nocb: Use kthread parking instead of ad-hoc implementation
-57eb68b338c5e88f074b36356b42d7ff43197a6c rcu/nocb: Remove buggy bypass lock contention mitigation
-bfc63d1d32808544b33a774a33728bd2b9896ce1 rcu: Disable interrupts directly in rcu_gp_init()
-e40d6e27f472966c08f84e0bdf7f6c75387149c6 tools/memory-model: Add atomic_and()/or()/xor() and add_negative
-c2ccc2779f09e9d8f4335d56c634de02e3584ffd srcu: Disable interrupts directly in srcu_gp_end()
-ab63d123f8397cd8c524ff4321c3606ce01054e3 rcu: Add rcutree.nocb_patience_delay to reduce nohz_full OS jitter
-aac7318ec0ce0013f3cbffe2f491999ef8b95f80 tools/rcu: Add rcu-updaters.sh script
-db3373c39976ff1a0554857d73644772fce9d6a9 MAINTAINERS: Add Uladzislau Rezki as RCU maintainer
-1f607b79ba5c6f1d3fa404ab0b3f2f4efdc8ca78 kcsan: Add example to data_race() kerneldoc header
-8d69996d1b10e1c1098de670b0dd873946f0618a rcu: Eliminate lockless accesses to rcu_sync->gp_count
-6ddd5b833b11608f78fd1d45a7a92b5af7d9cac4 rcu/nocb: Don't use smp_processor_id() in preemptible code
-1f1d24529986537c3e90ad82816c59b909eb7afb tools/memory-model: Add atomic_andnot() with its variants
-e71f18e7bd4ba35b77b0659489471e1dd2acd4c1 rcu/tasks: Fix stale task snaphot for Tasks Trace
-f66ec8fdc93d39a8492a4d786080254c5aedc9d7 torture: add MODULE_DESCRIPTION()
-82498d61064eae48cabbda3c04d9fcc230a1e30d rcu: add missing MODULE_DESCRIPTION() macros
-6754a36a3d005eff2cb206b2231c838de48ecfc8 rcu: Remove full ordering on second EQS snapshot
-bc5d1e1454525cb87c514839943efa069bd87a0c rcu: Remove superfluous full memory barrier upon first EQS snapshot
-4b60b97c0c2c5f721e0de7b0bb7192b901707e4b rcu/exp: Remove superfluous full memory barrier upon first EQS snapshot
-18bb1c5b6db1dd87ca9c1abf689826b24212972f rcu: Remove full memory barrier on boot time eqs sanity check
-a3ec79553fc412feef9cfc193c27d32fbfde40bd rcu: Remove full memory barrier on RCU stall printout
-32fe6a9116d9eaf9052d42705c666da82b2bd836 rcu/exp: Remove redundant full memory barrier at the end of GP
-ac748bdf160b2be61f814549322d7f6bbca6249e doc: Clarify rcu_assign_pointer() and rcu_dereference() ordering
-5318adf9837cf2173638b938b68efd674b93ee88 locktorture: Add MODULE_DESCRIPTION()
-343dd98a1294dd8fc7a526a81fd9260cb0848d46 rcu: Fix rcu_barrier() VS post CPUHP_TEARDOWN_CPU invocation
-76b1130bf6ee651ac0c6ca37330447bdcd511fc2 x86/syscall: Mark exit[_group] syscall handlers __noreturn
-ab016661280827fef650960106d67fad4754a41b tools/memory-model: Add KCSAN LF mentorship session citation
-bd8f93191e9b8c4421ea22c9c0205863a13f0673 scftorture: add MODULE_DESCRIPTION()
-22d707aea45960a534d819f44a6d3f2cf5621f83 scftorture: make torture_type static
-ef491b8ad0e47406698210beff85e631d93e2044 EXP srcu: Check for concurrent updates of heuristics
-a413d754476cbede7e68c30e3a835b7e9976e4ff EXP arch/x86: Test one-byte cmpxchg emulation
-d354d750a2ae3d78508225ae0ab3084fb1b169b3 EXP rcu Move wakeup out from under lock
-913ac08a82a9ea338ce9311d667efc23684d3164 rcu-tasks: Remove open-coded one-byte cmpxchg() emulation
-2a9ace58bcb0a8d8b3b70645ba578ea4912e296f EXP drm/msm: remove python 3.9 dependency for compiling msm
-
---===============3420361179078827887==--
+  - ref: refs/heads/main
+    old: 92d264e864cef693e8da87f31dde6e575fc9921d
+    new: 8336d64a043ef8c7037abaadf28c422a3589569a
+    log: |
+         7cdafcead717519db81b2be2261141254a209bb6 amdgpu: Add support for DCN 3.5.1
+         a54ce0ffbebb209ca8a282fb89aac0f557f4c44d amdgpu: add support for GC 11.5.1
+         f2f93bed4f914919080c48730f4cfdd3ce649e6f amdgpu: add support for SDMA 6.1.1
+         bf6f35446641666d7689ed07005cd83c579d98f5 amdgpu: add support for VCN 4.0.6
+         df778e92591186ce90b264a511fe18734392f1db amdgpu: add support for VPE 6.1.1
+         dbffb07e08248a2289caf45ecb8555cb74af1524 amdgpu: add support for PSP 14.0.1
+         8336d64a043ef8c7037abaadf28c422a3589569a Merge branch 'amd-staging' into 'main'
+         
