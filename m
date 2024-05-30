@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8964637426442871014=="
+Content-Type: multipart/mixed; boundary="===============2823631255430998706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 30 May 2024 12:19:08 -0000
-Message-Id: <171707154803.16294.16413514268294915450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 30 May 2024 12:19:14 -0000
+Message-Id: <171707155428.16396.12669473979155307675@gitolite.kernel.org>
 
---===============8964637426442871014==
+--===============2823631255430998706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/regulator-6.11
     old: c1ca3e2fa89164c01dfb78eca344c12a511d1762
     new: f31f012d799cb3a1ab0e99db3694dd5616e59947
     log: |
@@ -27,28 +27,28 @@ changes:
          f31f012d799cb3a1ab0e99db3694dd5616e59947 Fix issue when using devm_of_regulator_put_matches and
          
 
---===============8964637426442871014==
+--===============2823631255430998706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1717071546 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1717071546-cd0d25b2acb0170844c9b8a5a4ecafdcc0fde357
+pusher C3F436CA30F5D8EB 1717071552 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1717071552-44c3a632ff061e40413f53c174c1ebac1c28ace3
 
-c1ca3e2fa89164c01dfb78eca344c12a511d1762 f31f012d799cb3a1ab0e99db3694dd5616e59947 refs/heads/for-6.11
+c1ca3e2fa89164c01dfb78eca344c12a511d1762 f31f012d799cb3a1ab0e99db3694dd5616e59947 refs/heads/regulator-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZYbroACgkQJNaLcl1U
-h9Dx+wf+O6qIOyLiKL5UdlkD+28ESefJldmKcG+Kci8Xxs6battMsy9S380AVCBm
-jenlRg9sQsWgRiqG/NnGwFQNGHSlKmx5DrPmjGgyDGDKyqRiliZhMCJTCo+R60XR
-+oIt4xUk0sihRL/vkN4rx4FUv6+cLlaY7ktevgCv8/d1ZcLxkPBDN7+CiUfNRuUs
-sPezmQGOAb9pZq8pIYlrXIMZi1KlwrgZwVut43efNgkyaAz757myX4zni0vqJ0qC
-b0bnqP2JvvvIBrE0oRNvqQXXFsVElYj7xsR8OyPfnGsWqQmAV7fduZbxZul9EUhJ
-Kbu5Ti7hG4IugPyAd+e4HYzWh76pXg==
-=i3M6
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZYbsAACgkQJNaLcl1U
+h9Bhggf+OIArzPnQL0eDop9BaHUOGNfcxerUPCQhaov3Nd5L2PafQFnrae08EPIh
+8myLppXuuECUF1kL2p9saRRUK23qxwExO/zuo5wlZbpaTRXTPx1TWOOlF/lWjv77
+BDNppD2SLOyIDJOqCaAoY/79WCg/Vyz1vgv6F4yBvRPPpoQZ7aW4PTgyedvChHVc
+oWHxkknBTwneV7NW7LJseQIK6wqOxgo8GSika3t0kNwUgiuPN+k4cBpn0oOhZvCz
+XArTCTi4Z+9GZQGO4R9wBAA5Mi015meQUWp4Zg13t3hlTZ53F6tWszl7DJGzhGZm
+feMnwoWjVklqxye4tSrpfSv7x6BqIg==
+=5j81
 -----END PGP SIGNATURE-----
 
---===============8964637426442871014==--
+--===============2823631255430998706==--
