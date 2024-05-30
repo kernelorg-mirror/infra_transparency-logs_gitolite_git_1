@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============7393454448106954002=="
+Content-Type: multipart/mixed; boundary="===============8100721547513021466=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 30 May 2024 15:24:17 -0000
-Message-Id: <171708265773.23988.13932619072255121660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 30 May 2024 15:25:33 -0000
+Message-Id: <171708273335.26096.13283549040162899613@gitolite.kernel.org>
 
---===============7393454448106954002==
+--===============8100721547513021466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
+repo: pub/scm/utils/b4/b4
+user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: c7d09ef123dbb762b121064fe29430386a8b5921
-    new: 8b988de0821ee359054b3c666aa7e30cc87c7292
+    old: 5867e3110743aa7b86a827c0f734f8fe8deb9138
+    new: f00a9d14a57e953c6c7e9f0b9c41a0742cf44f7b
     log: |
-         8b988de0821ee359054b3c666aa7e30cc87c7292 allocate some 6.8.10 ids
+         f00a9d14a57e953c6c7e9f0b9c41a0742cf44f7b Allow prep-perpatch-check-cmd to be set in .b4-config
          
 
---===============7393454448106954002==
+--===============8100721547513021466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717082665 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1717082657-d6693c6b8c59b03f3e8a9f4311e72906d7d398da
+pusher B6C41CE35664996C! 1717082732 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1717082732-2bfbfa936e2f1dd5a322be4a2ce97faf7b33abf5
 
-c7d09ef123dbb762b121064fe29430386a8b5921 8b988de0821ee359054b3c666aa7e30cc87c7292 refs/heads/master
+5867e3110743aa7b86a827c0f734f8fe8deb9138 f00a9d14a57e953c6c7e9f0b9c41a0742cf44f7b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZYmikbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++icP/3FdpihHYW2i7OCCr9OK
-ioGl9LeLGXOn9dDOMR3ErUXWI+bIAF9mI0bNeYbs2qzzkQwxBxGCOXQKg+COFis2
-x6YENWaniKf+uaR21II/ByMeO7K9KOaNv0F2am/d2jTYjunxh5L5Of19MwnIQJO/
-fWD+64cCtLVjcv0WilWZ5GBWRH9BPDWsowmdgiBDyrttlDbK4bGj++iELOxrBGd1
-TLiYWfbQtcyQbl11PTOcc0RrDwXRec46PgwtPJcVnuj7xdeN+FoNbICKyneBtBaK
-qUKYnaYDA5AWBlMJOkr1JJnVKfmx+0TMrT2hRULXIj1e54pyHAKviPzKv0pUus4i
-JyvTEfPSAN+yqQ0F+Rb/cHQoMx2JDwEg+opn85GDBJogBmoQqRnmtj+3ioltB0MZ
-QAT6dDbIRzAoB/mM+p2SyXSR6k9rYCPDoxgATYaFJVdyQoYTt7z7da3nrsZASPoJ
-OxrzHcC0brihTn0gN/G8J5ntEOQr7wMsEzVX5etaNFa3LnmBkGBhoJTxrvaxtlFI
-rjLWhi9sdcvq2i7nPU6JAMI3WdLpgNZoOnUKR08S1r3WdKEEjJZtU+VIcvsVVZgM
-E5z/adKISgDLLK3DIhmjntikrFeSWFZ9w9Bi/LnJJhL/5mgm8o3eJT3pNopoFYHZ
-PRXX/Kd1l/ZRrQm/xF/cIg2A
-=mVuY
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZliabAAKCRC2xBzjVmSZ
+bEwkAQDBryhXrj4U0vyY2154iOFGCCwCPwc1kXfjE2ZjHvBzigD+LKFfPLEUl/yQ
+Q8LtXzmzFixv6lAydKgOeuzrMp3LhwI=
+=kUx4
 -----END PGP SIGNATURE-----
 
---===============7393454448106954002==--
+--===============8100721547513021466==--
