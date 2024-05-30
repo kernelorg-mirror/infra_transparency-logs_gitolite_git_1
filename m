@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 30 May 2024 00:13:15 -0000
-Message-Id: <171702799521.17272.11342798666958906263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/tftp/tftp-hpa
+Date: Thu, 30 May 2024 00:17:42 -0000
+Message-Id: <171702826216.20569.3406323077869106496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/network/tftp/tftp-hpa
+user: hpa
 changes:
-  - ref: refs/heads/main
-    old: 782471db6c72de5b69b15450f787fd64e8a0e23a
-    new: 544a74c32bcc2eff5f93b9f638f687170e7274e9
+  - ref: refs/heads/master
+    old: 1dc6d558115746f50e78ba8d84915a56ae66ec5f
+    new: 6f96fcd1b669dbf9c0a3d96d26d370117fddcadd
     log: |
-         126913479e88e7e0114efe380d2437cc70d9dc05 net: dsa: lan9303: imply SMSC_PHY
-         544a74c32bcc2eff5f93b9f638f687170e7274e9 dt-bindings: net: rockchip-dwmac: Fix rockchip,rk3308-gmac compatible
+         6f96fcd1b669dbf9c0a3d96d26d370117fddcadd tftpd: allow a rewrite rule to probe for the existence of a file
          
