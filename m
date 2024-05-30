@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/tftp/tftp-hpa
-Date: Thu, 30 May 2024 00:53:53 -0000
-Message-Id: <171703043315.13845.7659205406336808737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 30 May 2024 01:10:43 -0000
+Message-Id: <171703144348.848.8182392711185648054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/tftp/tftp-hpa
-user: hpa
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 416046e2ad67508869ce472d8b8b0dd5578db0d7
-    new: 99112f02064359f5070c82298aa9a6f4dd58e535
+  - ref: refs/heads/main
+    old: 068648aab72c9ba7b0597354ef4d81ffaac7b979
+    new: 92f1655aa2b2294d0b49925f3b875a634bd3b59e
     log: |
-         99112f02064359f5070c82298aa9a6f4dd58e535 tftpd: allow initgroups() to rescue setgroups() failure
+         92f1655aa2b2294d0b49925f3b875a634bd3b59e net: fix __dst_negative_advice() race
          
