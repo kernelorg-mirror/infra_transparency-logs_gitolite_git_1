@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 30 May 2024 12:33:11 -0000
-Message-Id: <171707239182.26516.4805536936123019963@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Thu, 30 May 2024 12:34:08 -0000
+Message-Id: <171707244862.26965.14678244638465724924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
 changes:
-  - ref: refs/heads/dt/linus
-    old: 987fe3d90d331937424a30a034a144f5445b6b17
-    new: 321e4fa68ce15660ec578bdec5cc9607635087cf
+  - ref: refs/heads/fault-injection-statickeys
+    old: 98bfa5b94172a6af29ace2821c17a0dd8043da79
+    new: 24f8cfb6b28ee54b49ad1f29fc3dbec80f338877
     log: |
-         84081a885394fc94055c24c727c99c321df6abac dt-bindings: arm: sunxi: Fix incorrect '-' usage
-         321e4fa68ce15660ec578bdec5cc9607635087cf dt-bindings: arm: stm32: st,mlahb: Drop spurious "reg" property from example
+         5138e57da72cea24dc989281c1ec364a2de35ed0 fault-inject: add support for static keys around fault injection sites
+         7660b74017b132d84c6bc22990b727854ef8d7c0 error-injection: support static keys around injectable functions
+         24f8cfb6b28ee54b49ad1f29fc3dbec80f338877 mm, slab: add static key for should_failslab()
          
