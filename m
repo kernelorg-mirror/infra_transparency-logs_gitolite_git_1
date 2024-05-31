@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 31 May 2024 16:55:35 -0000
-Message-Id: <171717453527.29926.14140209957512704126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 31 May 2024 16:55:46 -0000
+Message-Id: <171717454699.30059.5184667098811750273@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/tags/regulator-fix-v6.10-rc1
+  - ref: refs/tags/ath-current-20240531
     old: 0000000000000000000000000000000000000000
-    new: 9579750bc15b2cf2a35f805beec91f66d61f28fc
+    new: 4dd91d97e15232e593fd2683bae2fbdaf7b9370e
