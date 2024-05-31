@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 31 May 2024 14:49:29 -0000
-Message-Id: <171716696922.755.30608576677350594@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Fri, 31 May 2024 15:10:57 -0000
+Message-Id: <171716825727.18027.1903095471001790204@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/heads/fixes
-    old: 06fcde8cc897f14286a17b10af684b421291e8c4
-    new: 7932b172ac7ef436845cc639dc1a0b0b3d5e9d8b
+  - ref: refs/heads/master
+    old: 719a01624e35cc40d3810d342d3fad5bce00e77f
+    new: 841526265c7604d4a44374c22b11a92da1cbc60a
     log: |
-         7932b172ac7ef436845cc639dc1a0b0b3d5e9d8b Revert "riscv: mm: accelerate pagefault when badaccess"
+         fc146864d49b7314e8c2f9fd0820ad41dd71f54d acd: move l_acd_stop ahead of EVENT_CONFLICT
+         841526265c7604d4a44374c22b11a92da1cbc60a icmp6: fix memory leaks with dns_list/domains
          
