@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0783729146426207182=="
+Content-Type: multipart/mixed; boundary="===============7813548660830353084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Fri, 31 May 2024 12:28:49 -0000
-Message-Id: <171715852994.25907.836342428425618149@gitolite.kernel.org>
+Date: Fri, 31 May 2024 12:29:18 -0000
+Message-Id: <171715855854.26125.1235778286555490888@gitolite.kernel.org>
 
---===============0783729146426207182==
+--===============7813548660830353084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mnyman/xhci
 user: mnyman
 changes:
-  - ref: refs/heads/for-usb-linus
-    old: 8e5fbfa35dd4df4c4c10d501711f93baf44ebbec
-    new: 127f82d6a3526f0c57b80a618d50b9db20376b92
-    log: revlist-8e5fbfa35dd4-127f82d6a352.txt
+  - ref: refs/heads/for-usb-next
+    old: 5f5a6790d8c718076c1ce32f7d396595ac608ebd
+    new: a27168f820ba15ed3b51994d2f195dda6482677c
+    log: revlist-5f5a6790d8c7-a27168f820ba.txt
 
---===============0783729146426207182==
+--===============7813548660830353084==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8e5fbfa35dd4-127f82d6a352.txt
+Content-Disposition: attachment; filename=revlist-5f5a6790d8c7-a27168f820ba.txt
 
-a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
-3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
 3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
 0df2b9ed489a06643eaaa150a57ab01fa9ad3005 ALSA: hda/realtek - fixed headset Mic not show
@@ -1049,6 +1047,8 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-127f82d6a3526f0c57b80a618d50b9db20376b92 xhci: Set correct transferred length for cancelled bulk transfers
+edb6fa928d70b2f48c222c9a03272a14cdbc8914 xhci: Remove dead code in xhci_move_dequeue_past_td()
+75f670edcf60f2943d58b254a2fb48cff88fdba3 xhci: show usb device name in xhci urb tracing
+a27168f820ba15ed3b51994d2f195dda6482677c xhci: Set correct transferred length for cancelled isoc transfers
 
---===============0783729146426207182==--
+--===============7813548660830353084==--
