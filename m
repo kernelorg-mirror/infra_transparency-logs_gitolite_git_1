@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 31 May 2024 21:03:15 -0000
-Message-Id: <171718939584.15259.2435628921853475294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 31 May 2024 21:04:52 -0000
+Message-Id: <171718949229.15911.8333401079154800975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/dev
-    old: dca4cb4a78487d7882ef2aeb96a9cb2eecfb763b
-    new: 9853762f3338973249ab0374f1f574c58651a10c
-    log: |
-         9853762f3338973249ab0374f1f574c58651a10c kcsan: test: add missing MODULE_DESCRIPTION() macro
-         
+  - ref: refs/tags/net-6.10-rc2
+    old: ffb59d39e39638813e51f5b69a8fc4d1f880ffdf
+    new: 0000000000000000000000000000000000000000
