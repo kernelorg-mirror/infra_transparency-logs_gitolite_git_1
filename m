@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8355164511542061948=="
+Content-Type: multipart/mixed; boundary="===============3722252017024034050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Fri, 31 May 2024 03:59:09 -0000
-Message-Id: <171712794961.31998.12849868090781158914@gitolite.kernel.org>
+Date: Fri, 31 May 2024 04:00:40 -0000
+Message-Id: <171712804043.1965.3868014696734275992@gitolite.kernel.org>
 
---===============8355164511542061948==
+--===============3722252017024034050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/fixes
-    old: aa23317d0268b309bb3f0801ddd0d61813ff5afb
-    new: bba1f6758a9ec90c1adac5dcf78f8a15f1bad65b
-    log: revlist-aa23317d0268-bba1f6758a9e.txt
+  - ref: refs/tags/pull-fixes
+    old: 84ff318e588f2e18c0eec996f529234bbad62a40
+    new: 13909980bb5010c61ffce361c46599d4b4887eae
+    log: revlist-84ff318e588f-13909980bb50.txt
 
---===============8355164511542061948==
+--===============3722252017024034050==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-aa23317d0268-bba1f6758a9e.txt
+Content-Disposition: attachment; filename=revlist-84ff318e588f-13909980bb50.txt
 
 3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
 3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
@@ -1051,4 +1051,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 b4cf5fc01ce83e5c0bcf3dbb9f929428646b9098 powerpc: fix a file leak in kvm_vcpu_ioctl_enable_cap()
 bba1f6758a9ec90c1adac5dcf78f8a15f1bad65b lirc: rc_dev_get_from_fd(): fix file leak
 
---===============8355164511542061948==--
+--===============3722252017024034050==--
