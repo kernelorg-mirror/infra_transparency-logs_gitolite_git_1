@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Fri, 31 May 2024 15:12:59 -0000
-Message-Id: <171716837947.18799.6478224056265644605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Fri, 31 May 2024 15:33:36 -0000
+Message-Id: <171716961671.32455.7851971843820876874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: denkenz
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/master
-    old: 841526265c7604d4a44374c22b11a92da1cbc60a
-    new: 5ce7d17115a140b1be960aeef34dce9e53484af7
-    log: |
-         5ce7d17115a140b1be960aeef34dce9e53484af7 netconfig: free slaac_domains/slaac_dnses
-         
+  - ref: refs/tags/landlock-6.10-rc2
+    old: 0000000000000000000000000000000000000000
+    new: a58cf215905376b787d79fe4c27442920dc40586
+  - ref: refs/tags/v6.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: cd214efd16e30bf1aa40ccfaaf9177f47dd21fd5
