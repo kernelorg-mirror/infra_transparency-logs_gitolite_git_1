@@ -1,211 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8050793932205752644=="
+Content-Type: multipart/mixed; boundary="===============4986481488347431870=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Fri, 31 May 2024 05:40:30 -0000
-Message-Id: <171713403090.10262.5583842651435260417@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Fri, 31 May 2024 05:40:41 -0000
+Message-Id: <171713404124.10432.4196091909060297857@gitolite.kernel.org>
 
---===============8050793932205752644==
+--===============4986481488347431870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
-  - ref: refs/heads/fs-next
-    old: 83d6561e9fcd498c6a32cc6de02528afbbc0e2ee
-    new: d604148e0900c8d6c32ace9498444eb66acab0f7
-    log: revlist-83d6561e9fcd-d604148e0900.txt
   - ref: refs/heads/master
     old: 9d99040b1bc8dbf385a8aa535e9efcdf94466e19
     new: 0e1980c40b6edfa68b6acf926bab22448a6e40c9
     log: revlist-9d99040b1bc8-0e1980c40b6e.txt
-  - ref: refs/heads/stable
-    old: e0cce98fe279b64f4a7d81b7f5c3a23d80b92fbc
-    new: 4a4be1ad3a6efea16c56615f31117590fd881358
-    log: |
-         25460d6f39024cc3b8241b14c7ccf0d6f11a736a net/9p: fix uninit-value in p9_client_rpc()
-         c898afdc15645efb555acb6d85b484eb40a45409 9p: add missing locking around taking dentry fid list
-         67ec8cdf29971677b2fb4b6d92871eb5d5e95597 hwrng: core - Remove add_early_randomness
-         db163660b02abbffebfad1bcd6dbce1201c72731 Merge tag 'v6.10-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-         397a83ab978553ca2970ad1ccdbac0cdc732efd9 Merge tag '9p-for-6.10-rc2' of https://github.com/martinetd/linux
-         4a4be1ad3a6efea16c56615f31117590fd881358 Revert "vfs: Delete the associated dentry when deleting a file"
-         
-  - ref: refs/tags/next-20240301
-    old: 711650ba9e54f24676dc4a9ab8ddd20a61e6fd15
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240531
     old: 0000000000000000000000000000000000000000
     new: c1a68be8b6d4e48e1503eb8393597c9c62f994a1
 
---===============8050793932205752644==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83d6561e9fcd-d604148e0900.txt
-
-67ec8cdf29971677b2fb4b6d92871eb5d5e95597 hwrng: core - Remove add_early_randomness
-d7ba701da636afae17d8e1243b3d12eed149abcb xfs: Clear W=1 warning in xfs_iwalk_run_callbacks()
-b33874fb7f28326380562f208d948bab785fbd6f xfs: Stop using __maybe_unused in xfs_alloc.c
-2b3f004d3d518ec7a392066d935fd85c81412e33 xfs: drop xfarray sortinfo folio on error
-97835e6866796874571646a1a8ff44f24c0b39f7 xfs: fix xfs_init_attr_trans not handling explicit operation codes
-38de567906d95c397d87f292b892686b7ec6fbc3 xfs: allow symlinks with short remote targets
-95b19e2f4e0f730c83910e7f5e4d62ec68c6d862 xfs: don't open-code u64_to_user_ptr
-b0c6bcd58d44b1b843d1b7218db5a1efe917d27e xfs: Add cond_resched to block unmap range and reflink remap path
-4934f6a0cf7030652342bd35366ec6fd0a14ade2 btrfs: add MODULE_DESCRIPTION()
-7cd99cea40030ac6189f6467ff3c23846dcedd3f fs: hpfs: add MODULE_DESCRIPTION()
-64656602e961fbb5f63d60f5b1e25ac832572ab4 fs: hfs: add MODULE_DESCRIPTION()
-883fb1edcd8e579c1bb14eba70f63a521d0a2673 fs: cramfs: add MODULE_DESCRIPTION()
-2c2a3f622e400a58cb53eac633b8102da0600102 fs: binfmt: add missing MODULE_DESCRIPTION() macros
-c8e0f1ec1f7c0369b404c656b0cca737a7a3bf47 fs: fat: add missing MODULE_DESCRIPTION() macros
-c8f0b69ca1a9117f173d014ff1eb8e708aaae6e9 fs: autofs: add MODULE_DESCRIPTION()
-b15b12ba8574877fec05e7aea08ce4c47590ccf3 btrfs: make __extent_writepage_io() to write specified range only
-4d1ba178c4c0d5c50b024695562d98a97a060a02 btrfs: subpage: introduce helpers to handle subpage delalloc locking
-0f54ae879c81551e63e0ffe20681f30020fefa39 btrfs: lock subpage ranges in one go for writepage_delalloc()
-4b8f2b06fbb9ffdd7618066adb37c162425eeea8 btrfs: do not clear page dirty inside extent_write_locked_range()
-c0558ba801788bed21ff70e6116bbf0d2f1b0976 btrfs: make extent_write_locked_range() handle subpage writeback correctly
-016c22e410c6eabfc5164f514d2a0ad06eddf3ba bcachefs: split out sb-members_format.h
-4c5eef0c50ccc71e225f320835dc7cd51f64f961 bcachefs: split out sb-downgrade_format.h
-1cdcc6e3c2cb69a235bd32eb0da51205e432f77f bcachefs: Split out disk_groups_format.h
-24998050b69ac1f4caa41b66dbd245f4de366b3c bcachefs: Split out replicas_format.h
-5c16c5748894652e8013dbcb27e54e8319c53b00 bcachefs: Split out journal_seq_blacklist_format.h
-759bb4eabc727077145f3173f8ef6c2ac745c3d6 bcachefs: Split out sb-errors_format.h
-975ed01524537180faab652d43ac43b27b5090be btrfs: qgroup: delete a TODO about using kmem cache to allocate structures
-8528bde1b66bab9a0abc2f521523abd00049c81b bcachefs: Fix uninitialized var warning
-1d80083c4618493a99406d0acb16800dfade7bef btrfs: cleanup recursive include of the same header
-e596ef90853064520c7f09952d333c8e6e06f196 btrfs: do not directly include rwlock_types.h
-fdd096f9935bd070d615705e00dfd0079eee3fd5 btrfs: === misc-next ===
-3ac7f32df5a146a051ad982adbf22382fd34af1f btrfs: handle unexpected parent block offset in btrfs_alloc_tree_block()
-a4482ae24f0f54c57b1059e04759f9e021bf186a btrfs: scrub: fix incorrectly reported logical/physical address
-bcffe74d7cb6935a409a6cef12ce8cb7aec34b5b btrfs: reduce the log level for btrfs_dev_stat_inc_and_print()
-4e7e0cb1fa054a3f20c44ec54454a32055c4fae6 btrfs: scrub: remove unused is_super parameter from scrub_print_common_warning()
-2a3213bcf9b215a0ccfddd237dfab3c783105f88 btrfs: scrub: remove unnecessary dev/physical lookup for scrub_stripe_report_errors()
-9d22111279e3997bfd97cf87e9951d3ee94cfc11 btrfs: scrub: simplify the inode iteration output
-99f2abf8692647d010f4d5fd3ac54970a53153a6 btrfs: scrub: ensure we output at least one error message for unrepaired corruption
-861730d8f3b660c72a225375f211e455793c9c91 btrfs: scrub: use generic ratelimit helpers to output error messages
-f689eb936e2f211ee34bd0e2025a701a62c7ab8c btrfs: don't do find_extent_buffer in do_walk_down
-54de0562955574d62b94f2d8989caca55ed55812 btrfs: remove all extra btrfs_check_eb_owner() calls
-71ab24a89cc4fefd09c049422ccf346ca948f2e7 btrfs: use btrfs_read_extent_buffer in do_walk_down
-e3dfc4c3371e64b10aa82f8960a7b0cc0ac8f2d2 btrfs: push lookup_info into walk_control
-ae3bc0b5bfee583f75010cd898c21f28ceaecb2e btrfs: move the eb uptodate code into it's own helper
-e01634cc36391aa3fb1187d3ef838bbbd936dd91 btrfs: remove need_account in do_walk_down
-a698f327ea7213920584ed951b72fe396b073853 btrfs: unify logic to decide if we need to walk down into a node
-92afd85ce31c94e145ebb4c975b03572937dd875 btrfs: extract the reference dropping code into it's own helper
-38eb6e4c008431f08cefd4559f50d2dbe568e4a7 btrfs: don't BUG_ON ENOMEM in walk_down_proc
-7d295cc7c7907ded7c2615bf73e36b9a826fee90 btrfs: handle errors from ref mods during UPDATE_BACKREF
-99ce9eb3170324678438ff993ec1d6120ab84441 btrfs: replace BUG_ON with ASSERT in walk_down_proc
-0586902b9738e042c3f28ba67a1b09b065b26327 btrfs: clean up our handling of refs == 0 in snapshot delete
-b7817d187cb30d985da79ef27e7a21ce38c948a9 btrfs: convert correctness BUG_ON()'s to ASSERT()'s in walk_up_proc
-c8cf1aa4a9e8ef5501a4b42461dc5a64d72b9fa9 btrfs: handle errors from btrfs_dec_ref properly
-32c809995190ddf8be4d96e7f456c1b23da1afb4 btrfs: add documentation around snapshot delete
-7c6276d5e9d6bbda4d13bae7bbc713994eea13f9 btrfs: report reclaim stats in sysfs
-2b05a3ca74c05e077f67b50a64971d4928b60a7a btrfs: store fs_info on space_info
-a6565132d8c2fde194b249b6eb88543bbed99c86 btrfs: dynamic block_group reclaim threshold
-cf3b772b7a59b5618813eec7c9d35cf1d5cde62a btrfs: periodic block_group reclaim
-cde50d3ad60dd4df3d20dd170379d5991296d5bd btrfs: prevent pathological periodic reclaim loops
-41ecf0d8f7445c55cf3565816ed19017a4cc5e7d btrfs: urgent periodic reclaim pass
-83208cbf2f08c270033003e10f3e7351de64a5c5 bcachefs: Don't return -EROFS from mount on inconsistency error
-e6873349f70024cfd74c0418de33d4f0177f6e83 fs/xattr: add *at family syscalls
-32188cf8f0564981e34ae9aa1098bf41921a5384 xattr: handle AT_EMPTY_PATH correctly
-ed7ee6a69f9289337af4835a908aa782263d4852 statx: Update offset commentary for struct statx
-cc5ac966f26193ab185cc43d64d9f1ae998ccb6e cachefiles: add output string to cachefiles_obj_[get|put]_ondemand_fd
-0fc75c5940fa634d84e64c93bfc388e1274ed013 cachefiles: remove requests from xarray during flushing requests
-de3e26f9e5b76fc628077578c001c4a51bf54d06 cachefiles: fix slab-use-after-free in cachefiles_ondemand_get_fd()
-da4a827416066191aafeeccee50a8836a826ba10 cachefiles: fix slab-use-after-free in cachefiles_ondemand_daemon_read()
-3e6d704f02aa4c50c7bc5fe91a4401df249a137b cachefiles: remove err_put_fd label in cachefiles_ondemand_daemon_read()
-a26dc49df37e996876f50a0210039b2d211fdd6f cachefiles: add consistency check for copen/cread
-0a790040838c736495d5afd6b2d636f159f817f1 cachefiles: add spin_lock for cachefiles_ondemand_info
-4988e35e95fc938bdde0e15880fe72042fc86acf cachefiles: never get a new anonymous fd if ondemand_id is valid
-4b4391e77a6bf24cba2ef1590e113d9b73b11039 cachefiles: defer exposing anon_fd until after copy_to_user() succeeds
-4f8703fb3482f92edcfd31661857b16fec89c2c0 cachefiles: Set object to close if ondemand_id < 0 in copen
-85e833cd7243bda7285492b0653c3abb1e2e757b cachefiles: flush all requests after setting CACHEFILES_DEAD
-bc9dde6155464e906e630a0a5c17a4cab241ffbb cachefiles: make on-demand read killable
-a82c13d29985a4d99dacd700b497f0c062fe3625 Merge patch series "cachefiles: some bugfixes and cleanups for ondemand requests"
-97d6fdcd79752af8686ab58a0b9389ba80ae0fae gfs2: Update glocks documentation
-c8cf2d9f189bf53beefd53b90cc65c556d16dd5a gfs2: Remove outdated comment in glock_work_func
-c8758ad005c98b15cd8b7a559dc51f8ddbc56d0a gfs2: Invert the GLF_INITIAL flag
-8f6b8f142bdab2ed8c8fcd00def947c372382401 gfs2: gfs2_glock_get cleanup
-51568ac2e9d49b66f456dacd376af308f8695497 gfs2: Report when glocks cannot be freed for a long time
-30e388d573673474cbd089dec83688331c117add gfs2: Switch to a per-filesystem glock workqueue
-767fd5a0160774178a597b7a7b6e07915fe00efa gfs2: Revise glock reference counting model
-3f4475bf24de31cce4a0c7d1372d4ab02b1f1407 Revert "GFS2: Don't add all glocks to the lru"
-713f8834389f4b34bc8b449412202543c8b32214 gfs2: Get rid of demote_ok checks
-33476ec67423f2c7b9c6fbf45036f48be1902cce Merge branch 'vfs.fixes' into vfs.all
-fa56e3a99c855dd4e307cc9a804467e35e80a8e3 Merge branch 'vfs.misc' into vfs.all
-742c054edf53945ea5c68b9d26c1d0a2ac5c6aaa Merge branch 'vfs.xattr' into vfs.all
-9e20a230d484302563f118b46111bed5340e1fd2 Merge branch 'vfs.module.description' into vfs.all
-f70ec0346cbd8e8edadede02b2c95ece96090819 btrfs: drop extent maps after failed COW dio write
-8ce5677097e2a0816fcaae9764e009fa7b96e5bf btrfs: refactor btrfs_dio_submit_io() for less nesting and indentation
-8dfa5d2452038657764dc149f8efa8a407838f91 btrfs: fix crash on racing fsync and size-extending write into prealloc
-db163660b02abbffebfad1bcd6dbce1201c72731 Merge tag 'v6.10-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-397a83ab978553ca2970ad1ccdbac0cdc732efd9 Merge tag '9p-for-6.10-rc2' of https://github.com/martinetd/linux
-4a4be1ad3a6efea16c56615f31117590fd881358 Revert "vfs: Delete the associated dentry when deleting a file"
-73cbf7ceac4f275086418f781686759ddcb493b7 Merge branch 'misc-6.10' into for-next-current-v6.9-20240529
-039e93b5d912cb012abdb04761c93c360565f309 Merge branch 'misc-6.10' into for-next-next-v6.10-20240529
-db45a251533b9464740ee190d76e2965778070e1 Merge branch 'b-for-next' into for-next-next-v6.10-20240529
-3c85e71ea33544fc46f67e60d729ff5e31d39254 Merge branch 'misc-next' into for-next-next-v6.10-20240529
-74c067d5c44a068b8777a12c607e5e52491aec73 Merge branch 'for-next-current-v6.9-20240529' into for-next-20240529
-aa0d3341f6f23eddc8bf4c314f079cc8b25cc376 Merge branch 'for-next-next-v6.10-20240529' into for-next-20240529
-7b038b564b3e2a752d2211e7b0c3c29fd2f6e197 bcachefs: Fix failure to return error on misaligned dio write
-930db9c0a961abe3f61ec559f6af7c550b74935c bcachefs: Use try_cmpxchg() family of functions instead of cmpxchg()
-a32a05946fde2aeeecebe587aa9b9853fbd33162 bcachefs: Check for bsets past bch_btree_ptr_v2.sectors_written
-b673516cc9af7b12dbf95548b4273bc4be68d654 bcachefs: btree_ptr_sectors_written() now takes bkey_s_c
-ccc2fac8eac40d8ddd68fc059a002a2d8c373009 bcachefs: make offline fsck set read_only fs flag
-6760958a14fa54d1242ec8f054b3562b63f86a59 bcachefs: don't expose "read_only" as a mount option
-17771db0eebd46c31749814cb8d12c6943bd7891 bcachefs: bch2_printbuf_strip_trailing_newline()
-d71dc2a2841b610c890f2ae76ee31641e11320f6 bcachefs: Replace bare EEXIST with private error codes
-d2fda86cc4b7e709befa82e6b87ca773f50d9607 bcachefs: allow passing full device path for target options
-c635c2ca516d517af1d9aab9983e5a152a09f1a3 bcachefs: check_key_has_inode()
-f35480481750d9cfd6b5687444b6cd657e5eb16f bcachefs: bch_alloc->stripe_sectors
-5cccd75c565f671a43d5827e931560f2a77aee61 bcachefs: BCH_DATA_unstriped
-15bf425a25e64391c87b0613a3bdea37d602f7d9 bcachefs: metadata version bucket_stripe_sectors
-1d2f6870a7e7cf69eb5718b4f31112d0943c3ade bcachefs: add printbuf arg to bch2_parse_mount_opts()
-f4bf2995b246f90003250be36721af11043e2c66 bcachefs: Add error code to defer option parsing
-0f3b89141977aff07278503cb1476ff3fb3a5db6 cifs: fix creating sockets when using sfu mount options
-3d203ae77a81af3291d01ba909ab5e18929ac198 bcachefs: use new mount API
-228e1c91ae5ec44f38aa8852aa3953005badce82 bcachefs: KEY_TYPE_accounting
-abeece38e819c9119c6c3acea602c23c8b67e345 bcachefs: Accumulate accounting keys in journal replay
-0394a690c61979ab442765dd33a80e92504e63b1 bcachefs: btree write buffer knows how to accumulate bch_accounting keys
-09a3d5016a90b2178f7c1883edb3028e6baea4fa bcachefs: Disk space accounting rewrite
-4c71ead7ff08f24d48a191c174a74fdf8ae80bdd bcachefs: dev_usage updated by new accounting
-dc6ae7a5f2a3aab22d7b0bae1dee0daa2effb515 bcachefs: Kill bch2_fs_usage_initialize()
-e7cc25e338b75d520333d1517cacb4dfbafa96e5 bcachefs: Convert bch2_ioctl_fs_usage() to new accounting
-924f0787ebf2eef98e297fcfc11fd807903f6fc9 bcachefs: kill bch2_fs_usage_read()
-67c51a642d2732bd32a3600be0567ae36d69abf9 bcachefs: Kill writing old accounting to journal
-96ec051202fec124e3b9a8c59cf1d52f71e09ddb bcachefs: Delete journal-buf-sharded old style accounting
-bd32d1df5f6c81203afc76103a35c2d565a5b72b bcachefs: Kill bch2_fs_usage_to_text()
-6045f6b8611310f909e450c4d87b28705631d54a bcachefs: Kill fs_usage_online
-ef7351b5b31cce027b125d10019c8741b0eb2075 bcachefs: Kill replicas_journal_res
-ff9e5707f2091d029b64056fab6dd84715c54d72 bcachefs: Convert gc to new accounting
-7bf0888efdff963c1539bd5f6f0cde3fd959ca31 bcachefs: Convert bch2_replicas_gc2() to new accounting
-acd19c4cf1662203433164a86e296bfd4c60871a bcachefs: bch2_verify_accounting_clean()
-4789b42c107b0ad54802239ffd8cfa68a4842257 bcachefs: bch_acct_compression
-24982a652e5ef9196e11239ae603659a87674e72 bcachefs: Convert bch2_compression_stats_to_text() to new accounting
-34d9e0f0f0fdaae6e33599ffa63020e7542d90ae bcachefs: bch2_fs_accounting_to_text()
-48dd7ad4c663c7ecc61e786b7488d947ba0cf302 bcachefs: bch2_fs_usage_base_to_text()
-9dd5de2b89d4ca36e1038d3be32026d38116656b bcachefs: bch_acct_snapshot
-443975caf1d449851cee7dc6f538085b869f5ff0 bcachefs: bch_acct_btree
-91c604d653057b4e310d3d154ab2d6647b6b0962 bcachefs: bch_acct_rebalance_work
-ae6595227d92c6c39eb4ed054cce603d77555cf1 bcachefs: Eytzinger accumulation for accounting keys
-e74c223d03b20188c49a8b2fd37d1ad7493d4ec5 Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-c2550fb99a33e6820daf94aa301298d124a3920d Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-82cf7c7ffd442b674af4629e1ccc6b26e9317d06 Merge branch 'for-next' of https://evilpiepirate.org/git/bcachefs.git
-eb77cfb1851d36f40b5f53789d26591181535ab2 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-e1f487bc993c74b4535acb8a4a1617851204e3c2 Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
-efb7ddbda2c21edf90269f66c261e4194e0e0687 Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
-23af653fa920a0a32fce0fbdca9d79b2c50c9e72 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
-2851885a90c2953649cdf42ccba921e3d1b88739 Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-e1110b3df6b7a36ddcb8c25c7dcc1b4c3b21d7af Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
-9dfbe35a15bfd56ce63a54fa4a2d727911a7d6da Merge branch 'jfs-next' of git://github.com/kleikamp/linux-shaggy.git
-7a28b44031bc3afc8c1d473d0575c50b60d84726 Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-ff8e6d6b9fabee3b99a2ec86b1428e14687afe96 Merge branch 'overlayfs-next' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs.git
-8fbf3744d79b0670a4859e7221fffed12e0da801 Merge branch 'for-next' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
-d604148e0900c8d6c32ace9498444eb66acab0f7 Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-
---===============8050793932205752644==
+--===============4986481488347431870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1147,4 +965,4 @@ d9677123464b08b909eb239012fab6fe8f29a582 Merge branch 'bitmap-for-next' of https
 d1c1070802ef4b8a2ac31dac4850842b85c5ec9b Revert "ethernet: octeontx2: avoid linking objects into multiple modules"
 0e1980c40b6edfa68b6acf926bab22448a6e40c9 Add linux-next specific files for 20240531
 
---===============8050793932205752644==--
+--===============4986481488347431870==--
