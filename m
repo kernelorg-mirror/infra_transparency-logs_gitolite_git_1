@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 31 May 2024 00:06:11 -0000
-Message-Id: <171711397182.19801.4990711747574450673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 31 May 2024 00:16:53 -0000
+Message-Id: <171711461372.28115.8162489798144380255@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dev-test
-    old: c7b346312c402597a6e5ca673d97f81935891b99
-    new: 9e2fc0b6f2cd47f4bbed67c2828d67149b96039f
+  - ref: refs/heads/main
+    old: 95cd03f32a1680f693b291da920ab5d3f9d8c5c1
+    new: 030fae30f0596ae1502cc7fc2557721617adaa7c
     log: |
-         a6a4efb388f7b01d142d52f4f635c8c8ecaec477 f2fs: alloc new section if curseg is not the first seg in its zone
-         56eef48c94a5ce7d923d9a5c13f1d13636c99b50 f2fs: fix to remove redundant SBI_NEED_FSCK flag set
-         993f222c82a4f847ff95c37359146ce492449e31 f2fs: fix to force buffered IO on inline_data inode
-         9e2fc0b6f2cd47f4bbed67c2828d67149b96039f f2fs: fix to avoid use SSR allocate when do defragment
+         6166bb0cacb62c388e4ed06167511a70591cc59a net/mlx4: Track RX allocation failures in a stat
+         64b62146ba9ee78c67e079b2ff09b106d8d6fd57 net/mlx4: link NAPI instances to queues and IRQs
+         a5602c6edf7cbf5d69a32f089fb3938f42a3ff03 net/mlx4: support per-queue statistics via netlink
+         030fae30f0596ae1502cc7fc2557721617adaa7c Merge branch 'mlx4-add-support-for-netdev-genl-api'
          
