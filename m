@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 31 May 2024 13:09:19 -0000
-Message-Id: <171716095942.23832.9390547670741386608@gitolite.kernel.org>
+Date: Fri, 31 May 2024 13:10:20 -0000
+Message-Id: <171716102095.25919.9805314037586138736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental
-    old: c73f63115644914518dbf2c98319c58ed0a81138
-    new: f107b2b042b71b2809fece0855e3155f7871952f
+  - ref: refs/heads/dev
+    old: ad060055eebf3342d1e12d3da8c14b8194bce364
+    new: 3777e18dc2f7de138540fba0be7a0bbf51556e41
     log: |
-         38e527c49dd06d1bb83e245d71809b3d1eb6a61d erofs-utils: lib: fix incorrect xattr sharing
-         f107b2b042b71b2809fece0855e3155f7871952f erofs-utils: lib: drop prefix_sha256 digests
+         898f8c9cf6b6906909bfbaa58c35eedefcd71f80 erofs-utils: lib: provide helper to disable hashmap shrinking
+         f30becbc74fb2968355333201affa6aa803b92cd erofs-utils: lib: improve freeing hashmap in erofs_blob_exit()
+         3777e18dc2f7de138540fba0be7a0bbf51556e41 erofs-utils: fix false-positive errors on gcc 4.8.5
          
