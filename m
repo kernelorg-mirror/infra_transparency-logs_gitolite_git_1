@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Fri, 31 May 2024 08:13:54 -0000
-Message-Id: <171714323408.23603.14022583415877556782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 31 May 2024 08:22:59 -0000
+Message-Id: <171714377937.30046.16421531165419806741@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/tags/sound-6.10-rc2
     old: 0000000000000000000000000000000000000000
-    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    new: 734741c08fec4cd679d5ff2aa426f5118a9b272a
