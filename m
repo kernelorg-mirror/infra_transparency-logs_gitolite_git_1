@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3945397743495221481=="
+Content-Type: multipart/mixed; boundary="===============0183738828393650836=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 31 May 2024 06:42:34 -0000
-Message-Id: <171713775415.21977.3614273136528235013@gitolite.kernel.org>
+Date: Fri, 31 May 2024 06:43:06 -0000
+Message-Id: <171713778614.22322.15872567784690970836@gitolite.kernel.org>
 
---===============3945397743495221481==
+--===============0183738828393650836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/for-next-base
-    old: eb6a9339efeb6f3d2b5c86fdf2382cdc293eca2c
-    new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-eb6a9339efeb-1613e604df0c.txt
+  - ref: refs/heads/for-next
+    old: 5621e21c7fd983ab31810f50a0eb854f9de1bcdf
+    new: d53b681ce9ca7db5ef4ecb8d2cf465ae4a031264
+    log: revlist-5621e21c7fd9-d53b681ce9ca.txt
 
---===============3945397743495221481==
+--===============0183738828393650836==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-eb6a9339efeb-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-5621e21c7fd9-d53b681ce9ca.txt
 
-aefc911e42a35e9d4337c5ab9b2319039f445574 backlight: l4f00242t03: Constify lcd_ops
-7ae6431a105d07cd5334870edc17496833b5a464 backlight: lms283gf05: Constify lcd_ops
-2b472876a46e476bf09b87e1946ba1ccb4a59683 backlight: lms501kf03: Constify lcd_ops
 62560bfafdf358ed5aea99c39753553660e42ba2 backlight: ltv350qv: Constify lcd_ops
 c935555c8a1466af7c36c3e699e3bad1c53cbed9 backlight: otm3225a: Constify lcd_ops
 02bc4c447e29b29ddbca78d3ea485e0b23cd64b8 backlight: platform_lcd: Constify lcd_ops
@@ -995,6 +992,7 @@ c2c80ecdb48aab735d770685207df96b8d0c0112 Merge tag 'regulator-fix-v6.10-merge-wi
 483a351ed4d464265aed61cab4a990b0023f8400 Merge tag 'io_uring-6.10-20240523' of git://git.kernel.dk/linux
 b4d88a60fe0e126b245583c5003584cf6751e536 Merge tag 'block-6.10-20240523' of git://git.kernel.dk/linux
 6d69b6c12fce479fde7bc06f686212451688a102 Merge tag 'nfs-for-6.10-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
+d09c05aa35909adb7d29f92f0cd79fdcd1338ef0 scsi: core: Handle devices which return an unusually large VPD page count
 ff388fe5c481d39cc0a5940d1ad46f7920f1d646 mseal: wire up mseal syscall
 8be7258aad44b5e25977a98db136f677fa6f4370 mseal: add mseal syscall
 4926c7a52de75c7219a04de7fa857ab30653704d selftest mm/mseal memory sealing
@@ -1050,5 +1048,7 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
+4fedb1f0959973738ef9ac7e52ea0c260f1a3302 Merge branch '6.10/scsi-queue' into 6.10/scsi-fixes
+d53b681ce9ca7db5ef4ecb8d2cf465ae4a031264 scsi: ufs: mcq: Fix error output and clean up ufshcd_mcq_abort()
 
---===============3945397743495221481==--
+--===============0183738828393650836==--
