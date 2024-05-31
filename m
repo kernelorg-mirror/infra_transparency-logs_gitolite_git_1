@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Fri, 31 May 2024 16:55:46 -0000
-Message-Id: <171717454699.30059.5184667098811750273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 31 May 2024 16:55:50 -0000
+Message-Id: <171717455049.30168.8128334997043805985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/tags/ath-current-20240531
+  - ref: refs/tags/spi-fix-v6.10-rc1
     old: 0000000000000000000000000000000000000000
-    new: 4dd91d97e15232e593fd2683bae2fbdaf7b9370e
+    new: 4550d97aef4b06068578eb1ad01b2d83f09dd28e
