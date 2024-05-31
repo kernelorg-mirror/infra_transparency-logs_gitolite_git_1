@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 31 May 2024 14:48:44 -0000
-Message-Id: <171716692440.349.12075323976145162035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Fri, 31 May 2024 14:49:29 -0000
+Message-Id: <171716696922.755.30608576677350594@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
-    old: a5e8a5b08a48bd097c76a5343772ef624bddb04e
-    new: 06fcde8cc897f14286a17b10af684b421291e8c4
+    old: 06fcde8cc897f14286a17b10af684b421291e8c4
+    new: 7932b172ac7ef436845cc639dc1a0b0b3d5e9d8b
     log: |
-         06fcde8cc897f14286a17b10af684b421291e8c4 riscv: fix overlap of allocated page and PTR_ERR
+         7932b172ac7ef436845cc639dc1a0b0b3d5e9d8b Revert "riscv: mm: accelerate pagefault when badaccess"
          
