@@ -1,50 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============6869090986904767139=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Fri, 31 May 2024 16:29:05 -0000
-Message-Id: <171717294565.9272.13451804505244132490@gitolite.kernel.org>
-
---===============6869090986904767139==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 31 May 2024 16:29:07 -0000
+Message-Id: <171717294779.9348.14749454673998094191@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-6.11
-    old: c3820641da87442251e0c00b6874ef1022da8f58
-    new: a8bd778958eface44a4931b30f1db5c98c9e6f40
+  - ref: refs/heads/kdevops
+    old: b5735248fa8195c5a123deed152dc9cfc858d800
+    new: edcafcd4901ffb386741169a9dc897f6eb4058cc
     log: |
-         a8bd778958eface44a4931b30f1db5c98c9e6f40 regmap: kunit: add missing MODULE_DESCRIPTION()
+         a0bd6471d70f5e7e344532cc218cc1c40ace4b18 fs: add tracepoints around multigrain timestamp changes
+         d2234145c6ffe00de9fb2d35e9c5a9d60406014a xfs: switch to multigrain timestamps
+         c560a2f4be09c001810e8574a085626a01a0a028 ext4: switch to multigrain timestamps
+         c5d8a8f0f9847374f0060e09e4be8e5249a937fc btrfs: convert to multigrain timestamps
+         464f8a601eda70d329c0cfd1212b51857878f4a6 tmpfs: add support for multigrain timestamps
+         edcafcd4901ffb386741169a9dc897f6eb4058cc SQUASH: add seqcount around ctime_floor
          
-
---===============6869090986904767139==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1717172944 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1717172943-e3c13946d48d6680d541d19374da901c119e3f7b
-
-c3820641da87442251e0c00b6874ef1022da8f58 a8bd778958eface44a4931b30f1db5c98c9e6f40 refs/heads/for-6.11
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZZ+tAACgkQJNaLcl1U
-h9A7jgf+IM111mRog1s1qdWqSK5Y4kGvT2PYrobKDy52an/SwHSbLcthHg5SSWUn
-TpdRA/bm+O2s0mG0q6vp9Sh99nX5h2tRk5y0k8O3DmZI0JyNXxcoGdi3LnD4AmI1
-iPlRopVzlVM6CYYIiJeT6zg7RrryjgfpGzaUJOVrzopfRrrYZRDTfGJQxVJYYvdk
-rjphTRXYVUNRRB1YEj7Otj9ncNLJ4HBIKdZf1KXmorI42/Q1q6IagRUtkqjwCwYq
-3esCRbLNn/OHyJJAo8TCOOL9yasoHG0/22hq2naKBl1gLN3pd9Pc9T/DS+zcHDxa
-iAUacEE7xel52vTMNy6Aa7TdNDuPpA==
-=vf8Y
------END PGP SIGNATURE-----
-
---===============6869090986904767139==--
