@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 31 May 2024 20:19:52 -0000
-Message-Id: <171718679277.15859.9205701486659461912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Fri, 31 May 2024 20:38:26 -0000
+Message-Id: <171718790647.30026.9520000161033597453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/master
-    old: 23d9e42fc6af192f6b211884be1f082c2bd2be24
-    new: e11430ae72d905c8fa45e2680c43695a3c3acbf9
+  - ref: refs/heads/fixes
+    old: 0f42bdf59b4e428485aa922bef871bfa6cc505e0
+    new: 4bf15b1c657d22d1d70173e43264e4606dfe75ff
     log: |
-         e11430ae72d905c8fa45e2680c43695a3c3acbf9 Fri May 31 04:18:51 PM EDT 2024
+         32c75ad4a79259609ee19f749832bc2d99bbdd13 selftests/futex: don't redefine .PHONY targets (all, clean)
+         4bf15b1c657d22d1d70173e43264e4606dfe75ff selftests/futex: don't pass a const char* to asprintf(3)
          
