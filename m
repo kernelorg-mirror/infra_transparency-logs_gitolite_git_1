@@ -1,31 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============7892747804142702606=="
+Content-Type: multipart/mixed; boundary="===============2029968794814484596=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Fri, 31 May 2024 17:18:00 -0000
-Message-Id: <171717588052.13821.1906468673724647220@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Fri, 31 May 2024 17:18:07 -0000
+Message-Id: <171717588725.13979.13910312401393483852@gitolite.kernel.org>
 
---===============7892747804142702606==
+--===============2029968794814484596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/backlight
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: f2994f5341e03b8680a88abc5f1dee950033c3a9
-    new: 005408af25d5550e1bd22a18bf371651969c17ee
-    log: revlist-f2994f5341e0-005408af25d5.txt
+  - ref: refs/heads/for-backlight-next
+    old: 1fd949f653ee1a3c1776ef8a5295ae072c9b67f2
+    new: b72755f5b577357cac661cbf9048cad704eb4ad8
+    log: revlist-1fd949f653ee-b72755f5b577.txt
 
---===============7892747804142702606==
+--===============2029968794814484596==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f2994f5341e0-005408af25d5.txt
+Content-Disposition: attachment; filename=revlist-1fd949f653ee-b72755f5b577.txt
 
+3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
+3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
+0df2b9ed489a06643eaaa150a57ab01fa9ad3005 ALSA: hda/realtek - fixed headset Mic not show
+d731b1ed15052580b7b2f40559021012d280f1d9 ALSA: hda/realtek: Drop doubly quirk entry for 103c:8a2e
+2bd5059c6cc04b02073d4d9f57137ab74e1d8e7a Merge branches 'arm/renesas', 'arm/smmu', 'x86/amd', 'core' and 'x86/vt-d' into next
+6d4e52f899d9d54cae31ad9b4584aa9504a9cfa1 Merge branch 'topic/ppc-kvm' into next
+e789d4499abdb488dd9cabce4f95c74dac6bcbe5 Merge branch 'topic/kdump-hotplug' into next
+c98ca8a375b6df243017716faee0916110a08396 sh: of-generic: Add missing #include <asm/clock.h>
+a11808815c3599891be12715d57c889d7b280a49 sh: smp: Protect setup_profiling_timer() by CONFIG_PROFILING
+efe976b7eecfa3f81e241da67d1a511e30a87779 sh: setup: Add missing forward declaration for sh_fdt_init()
+10316dcc4f39b2560b372d11be477228b95ae5ac Merge tag 'i2c-host-fixes-6.8-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
+0e9ee7dd7449371d221ce048615e5d1e271dacfc Merge tag 'i2c-host-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
+95feb3160eef0caa6018e175a5560b816aee8e79 VFIO: Add the SPR_DSA and SPR_IAX devices to the denylist
 e11452eb071b2a8e6ba52892b2e270bbdaa6640d dmaengine: idxd: add a new security check to deal with a hardware erratum
 6827738dc684a87ad54ebba3ae7f3d7c977698eb dmaengine: idxd: add a write() method for applications to submit work
 fec1982d70721c0062758861fec7e4e9d1103fb6 i2c: mux: Remove class argument from i2c_mux_add_adapter()
@@ -1034,21 +1048,7 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-f14aa5ea415b8add245e976bfab96a12986c6843 leds: rgb: leds-ktd202x: Get device properties through fwnode to support ACPI
-75bd07aef47e1a984229e6ec702e8b9aee0226e4 leds: rgb: leds-ktd202x: I2C ID tables for KTD2026 and 2027
-e1b08c6f5b92d408a9fcc1030a340caeb9852250 leds: rgb: leds-ktd202x: Initialize mutex earlier
-5607ca92e6274dfb85d0ff7c4e91e6c4ddb6d25c leds: core: Add led_mc_set_brightness() function
-0921a57c91648b08857b47a2f26fa7942f06120f leds: trigger: Add led_mc_trigger_event() function
-9af12f57f1f9785f231d31a7365ad244c656b7ff power: supply: power-supply-leds: Add charging_orange_full_green trigger for RGB LED
-b138cd7d0c0dd7bab19671d4775c7ea2dc6e6ce4 leds: is31fl319x: Constify struct regmap_config
-7d7dfc71b89cb13200cec2817b0b0a5c0bf99cc6 leds: trigger: Unregister sysfs attributes before calling deactivate()
-3df56f7418d2acacad330fe0b9c88846b6daf205 docs: leds: leds-blinkm.rst: Fix 'dasy-chain' typo
-7abae7a11fc9cd6894d50189da1705596adee66f leds: trigger: Call synchronize_rcu() before calling trig->activate()
-6c172b60c109e4b7741ba739d655cc6ecddeffe4 leds: Drop explicit initialization of struct i2c_device_id::driver_data to 0
-fc851e95b7a35342cb5e172e6a0116cf27c92252 leds: rt4505: Add MODULE_DESCRIPTION()
-719379c81be91336cbf21069413197658a7f866e leds: simatic-ipc-leds: Add missing MODULE_DESCRIPTION() macros
-e2fc0761121ea519e160b8cd840e86bea099d2f7 leds: bcm63138: Add MODULE_DESCRIPTION()
-c1f69631a8f438997621c9ff322452b744525048 leds: ss4200: Convert PCIBIOS_* return codes to errnos
-005408af25d5550e1bd22a18bf371651969c17ee leds: trigger: Add new LED Input events trigger
+0aaee23d49a614b573ca51ab7758e77fcc3d7d14 dt-bindings: backlight: Add Texas Instruments LM3509
+b72755f5b577357cac661cbf9048cad704eb4ad8 backlight: Add new lm3509 backlight driver
 
---===============7892747804142702606==--
+--===============2029968794814484596==--
