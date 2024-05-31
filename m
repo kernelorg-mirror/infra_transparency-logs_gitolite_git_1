@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Fri, 31 May 2024 17:38:38 -0000
-Message-Id: <171717711847.29629.2686114746380309281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
+Date: Fri, 31 May 2024 17:54:00 -0000
+Message-Id: <171717804046.7531.12707424646130583256@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/jassibrar/mailbox
+user: jassibrar
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: db0bbc4a2c0e9637ef8cabbd61fcb730142f051e
-    new: 8e675c37e06652d48e87060f72453d2b0e9c6def
-    log: |
-         8e675c37e06652d48e87060f72453d2b0e9c6def riscv: dts: thead: th1520: Add PMU event node
-         
+  - ref: refs/heads/mailbox-fix-v6.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d551ce15d08114514d489fad63bd275de2aca862
