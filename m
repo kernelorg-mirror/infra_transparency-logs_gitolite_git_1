@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7240747566095364673=="
+Content-Type: multipart/mixed; boundary="===============5762770587528630761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 31 May 2024 01:13:43 -0000
-Message-Id: <171711802391.9867.2363256057855342412@gitolite.kernel.org>
+Date: Fri, 31 May 2024 01:14:01 -0000
+Message-Id: <171711804124.10050.2709162923362197804@gitolite.kernel.org>
 
---===============7240747566095364673==
+--===============5762770587528630761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 9d2447a106fd079901d27c5e61d0f036801231c7
-    new: ac6320b51d90675b0b7b4ebe3da4b1aad5cf38a8
+  - ref: refs/heads/6.11/scsi-staging
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    new: e8a1d87b7983b461d1d625e2973cdaadc0bd8ff5
     log: |
          e7c09df178f740b74a077bbc16ed0bd872ad0581 scsi: core: Pass sdev to blk_mq_alloc_queue()
          41b757425203a73ba5aa401cf00feeccc1555f0c scsi: bsg: Pass dev to blk_mq_alloc_queue()
@@ -31,33 +31,33 @@ changes:
          e8a1d87b7983b461d1d625e2973cdaadc0bd8ff5 scsi: ufs: mcq: Convert MCQ_CFG_n to an inline function
          
 
---===============7240747566095364673==
+--===============5762770587528630761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1717118009 -0400
+pusher 75C5DE3D 1717118027 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1717118008-7336f6074625b9514dd757c420300c9d802131f7
+nonce 1717118027-ecca46ea34608f396a32234da9b0d4d44f5934af
 
-9d2447a106fd079901d27c5e61d0f036801231c7 ac6320b51d90675b0b7b4ebe3da4b1aad5cf38a8 refs/tags/mkp-scsi-staging
+1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 e8a1d87b7983b461d1d625e2973cdaadc0bd8ff5 refs/heads/6.11/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZZJDkACgkQ7ulgGnXF
-3j2AARAAiQ7SzMRj0yTzwc+oNq3AAz/QHDd8ca0FpT1cH+LaPug0BhqUAmMbSTOE
-2uM4fS9OiZN+lUxqiDg94RdXW82+vPQBesUiF7FEF8ES6k4dWqGMZ7JZpDda36+i
-R/YqaK7i4QK3Xsl6jEE4iPlcZ5if062l9gOmJznUkoeT5bqt+1oY4yBMWdO8oFTM
-Vc+YLID+gvLlLTGY89xz4Z8TBw5+xBcuFo2PhkrFKa7YPyYuWFf7QK9Ek0AwjW97
-HnFUtD4RUzOEbFZiMAGWdxWW5bTHKyxurSsmJdi25M0e90s8nPenPD3l5kSfpix5
-AU7wTYQHGtuh3a6DHTYTDKAgRkB5S2I9D/b4pJohuhYHgOQi5BIVcb75bGqUN909
-KH+jW87QlHjuKqnhkZktV9BLYwAmSG0tBiN6GNtpi2mp7Eoe689dhL2mDHIC5QeS
-4YYXx3zqwFQBAyIclE2Ltmo3+jJ5/S74eP74HAZqsShgZ/s36HZmM34wyEEGxi7Q
-KEaUIeKrT/5UqsMLDr1IZVM+LsR9mNDq9z/5AnB82qAEJyEwauobQjuWl+2Lc+O8
-txGnk0m1XPDoNVQqhEw0DZ8kUXu5tm401s+lqQU3MxGkL+GFNQNyInyakOdjiZdH
-kmz+ns+Tv4ptbo+czMvoC7aAEMQzDTROpIRIugl00LkKjDUdjyc=
-=b0kI
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZZJEsACgkQ7ulgGnXF
+3j25qw/7BWQYnVVwOqW3oESVDMF+7cTxwWlorGHXel/5t6VVoQX3pUsev7621UlV
+VSKfXuGn01nTsD0EbJ33hP+EybCDOtkoM5MBOA6MCb8YJ1m1GZnst7aNit2bIRFm
+ZfwtcIcLaPU98wI/TtnRZgUg1DY/CFjzs1HgKYBw/N1mS75RYw1GroxLc6cYIvVh
+UTKi5G6E9V/RfLCBq/v7TNJBz45qXlSeUSkD7o/cOYb9qYkZbYyyzG/7x4uZxPcD
+728drOCDPEklCpFx/XB64tVnEjdtssYPzPz8dKwfaI7q0c4dFcu0tfDyXUkrRplU
+1CEutEnOnObEYrBkBAXy+sX3uLi/P7QR/pPBTudbHUCkq7P1m10/LwXgNFRRFIdO
+dNT4kcMyBQHfR4XyTwpIGJKQ3fZ6fPLJJuXm/FC78wmaiwYigcqRCocvexfB1JHW
+s42gzgfKToiPiYq4MJqyMD6uJEhfLwsBNI/iQwwFAoff2OmpmMcP5PtfjKJw3NT3
+smL9BQ+VhoyMARh2wcXtiq1jDqF2mfdFn1tKy6gQOoKhfLEEnWtNqQPlyrrMzDoK
+rBkGBtzxFlyzly/itS0IBcOQ2mH3/hgqSl3acqBaYUNEhOhmSxg10P1KntcLSfzn
+89dS+exeeLJJGuOchyeYlntpTJnLM8Jo+0G9lvsrkxqh0PPGVnU=
+=SrGB
 -----END PGP SIGNATURE-----
 
---===============7240747566095364673==--
+--===============5762770587528630761==--
