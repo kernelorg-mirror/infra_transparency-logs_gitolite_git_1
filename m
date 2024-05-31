@@ -1,45 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4259882427786485755=="
+Content-Type: multipart/mixed; boundary="===============7205283942009867331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Fri, 31 May 2024 09:39:12 -0000
-Message-Id: <171714835254.31279.7343276063411785084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 31 May 2024 09:42:42 -0000
+Message-Id: <171714856277.4702.2455491855877874253@gitolite.kernel.org>
 
---===============4259882427786485755==
+--===============7205283942009867331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/fixes
-    old: 592447f6cb3c20d606d6c5d8e6af68e99707b786
-    new: e0eec24e2e199873f43df99ec39773ad3af2bff7
-    log: revlist-592447f6cb3c-e0eec24e2e19.txt
+  - ref: refs/heads/master
+    old: 13909a0c88972c5ef5d13f44d1a8bf065a31bdf4
+    new: aabbf2135f9a9526991f17cb0c78cf1ec878f1c2
+    log: revlist-13909a0c8897-aabbf2135f9a.txt
 
---===============4259882427786485755==
+--===============7205283942009867331==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-592447f6cb3c-e0eec24e2e19.txt
+Content-Disposition: attachment; filename=revlist-13909a0c8897-aabbf2135f9a.txt
 
-a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
-3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
-3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
-0df2b9ed489a06643eaaa150a57ab01fa9ad3005 ALSA: hda/realtek - fixed headset Mic not show
-d731b1ed15052580b7b2f40559021012d280f1d9 ALSA: hda/realtek: Drop doubly quirk entry for 103c:8a2e
-2bd5059c6cc04b02073d4d9f57137ab74e1d8e7a Merge branches 'arm/renesas', 'arm/smmu', 'x86/amd', 'core' and 'x86/vt-d' into next
-6d4e52f899d9d54cae31ad9b4584aa9504a9cfa1 Merge branch 'topic/ppc-kvm' into next
-e789d4499abdb488dd9cabce4f95c74dac6bcbe5 Merge branch 'topic/kdump-hotplug' into next
-c98ca8a375b6df243017716faee0916110a08396 sh: of-generic: Add missing #include <asm/clock.h>
-a11808815c3599891be12715d57c889d7b280a49 sh: smp: Protect setup_profiling_timer() by CONFIG_PROFILING
-efe976b7eecfa3f81e241da67d1a511e30a87779 sh: setup: Add missing forward declaration for sh_fdt_init()
-10316dcc4f39b2560b372d11be477228b95ae5ac Merge tag 'i2c-host-fixes-6.8-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
-0e9ee7dd7449371d221ce048615e5d1e271dacfc Merge tag 'i2c-host-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
 95feb3160eef0caa6018e175a5560b816aee8e79 VFIO: Add the SPR_DSA and SPR_IAX devices to the denylist
 e11452eb071b2a8e6ba52892b2e270bbdaa6640d dmaengine: idxd: add a new security check to deal with a hardware erratum
 6827738dc684a87ad54ebba3ae7f3d7c977698eb dmaengine: idxd: add a write() method for applications to submit work
@@ -1049,6 +1035,20 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-e0eec24e2e199873f43df99ec39773ad3af2bff7 memblock: make memblock_set_node() also warn about use of MAX_NUMNODES
+b2d3d79780fa8e579aecfab6bb99c6693f3ef9ee crypto: x86/twofish - Switch to new Intel CPU model defines
+adc5167be5553ff2f68cd6a36de0106f1f73c1ea crypto: x86/poly1305 - Switch to new Intel CPU model defines
+2dcdf3be65e968b4a67209a825a69b098e73cb25 crypto: axis - Remove unused struct 'dbgfs_u32'
+e793f6c4dabe56cb8b93db26bbfcfba2a65f7215 crypto: ccree - Remove unused struct 'tdes_keys'
+eaa857782fdbba36544c74006d8037f4d101b90a crypto: hifn_795x - Remove unused hifn_*_command structs
+198faf0301ce1a51b9c859510ab884020dcb6f19 crypto: n2 - Remove unused struct 'n2_skcipher_request_context'
+6684f97981c528965d7458dd4f89cfbc8fa980b2 crypto: qat - Fix typo
+bbb66f218d9e12c5bd5a6208e96e5117449c7c88 crypto: ppc/curve25519 - Low-level primitives for ppc64le
+a1bfed35d081112582f688947141763e75e090ee crypto: ppc/curve25519 - Core functions for ppc64le
+b42519dbba838c928e82b55f32712fbe3eed2c45 crypto: ppc/curve25519 - Update Kconfig and Makefile for ppc64le
+f9110822fca5b92daefc2bfae4cfcda7dcfb03c9 crypto: api - Disable boot-test-finished if algapi is a module
+a720de9fba164552d920632c2d7531dc8203f063 crypto: arm64/crc10dif - Raise priority of NEON crct10dif implementation
+7c699fe9a5740a228b2974325e817de28f7b6afd crypto: Add missing MODULE_DESCRIPTION() macros
+8d7c52cb4184d3dc26dde62b4f5acd48de0768ae crypto: tegra - Remove an incorrect iommu_fwspec_free() call in tegra_se_remove()
+aabbf2135f9a9526991f17cb0c78cf1ec878f1c2 crypto: atmel-sha204a - fix negated return value
 
---===============4259882427786485755==--
+--===============7205283942009867331==--
