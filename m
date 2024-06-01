@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 01 Jun 2024 23:00:07 -0000
-Message-Id: <171728280762.26499.7438307786786392342@gitolite.kernel.org>
+Date: Sat, 01 Jun 2024 23:11:38 -0000
+Message-Id: <171728349888.2983.7198187502646026100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,19 +12,15 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 73451e9aaa24e8e44cb91e5fd6b59bf53e069c1f
-    new: fc5570e0bd56bb5acf271e809324a5ac79bb4b79
+    old: fc5570e0bd56bb5acf271e809324a5ac79bb4b79
+    new: e58b43f28d8a55219f7a03af91f404f2d709364d
     log: |
-         d551d075b043821880b8afc0010ef70d050716d0 ice: Introduce ice_ptp_hw struct
-         579a2302bd16277918f862a1dd9f3f904264fa1a ice: Introduce helper to get tmr_cmd_reg values
-         0d80bbe254198ab20982d5c508c55518d32c033b ice: Implement Tx interrupt enablement functions
-         c199b31a043c4fe6500b13c486fd06430f464b40 ice: Add PHY OFFSET_READY register clearing
-         39ecb29df855ce46f70456996c518789445f2a46 ice: Move CGU block
-         1f374d57c39386520586539641cafc999d0f3ef5 ice: Introduce ice_get_base_incval() helper
-         7cab44f1c35f5fb01930e592aee9cc460f17903d ice: Introduce ETH56G PHY model for E825C products
-         b390ecc2e375f8973c512a5041a69555069f502a ice: Change CGU regs struct to anonymous
-         713dcad2a8c74de23d593a73bec4c22365ebc83f ice: Add support for E825-C TS PLL handling
-         5f847eede63889cbada9a23ea7c8f68659e3e918 ice: Add NAC Topology device capability parser
-         4409ea1726cb9ce2769808873f8fbe33378c201b ice: Adjust PTP init for 2x50G E825C devices
-         fc5570e0bd56bb5acf271e809324a5ac79bb4b79 Merge branch 'ice-introduce-eth56g-phy-model-for-e825c-products'
+         165f87691a898aea113923224c269bae14749ebc bnxt_en: add timestamping statistics support
+         19249c0724f2048ab68179eac69004947b07d431 net: make net.core.{r,w}mem_{default,max} namespaced
+         5b5233fb81bfecbfb7502178a9cf6790dde04a2c selftests: net: tests net.core.{r,w}mem_{default,max} sysctls in a netns
+         5086e1b7831a37fe3ba8fdea9a7bf3fb823cc618 Merge branch 'net-visibility-of-memory-limits-in-netns'
+         a967d3cee86e8e8eb15c9e12f818c59b36416001 net: ethernet: cortina: Rename adjust link callback
+         15c22101db71369c022e25001a339f91cd3f8ddc net: ethernet: cortina: Use negotiated TX/RX pause
+         dbdb0918da671bde4e9c4c3e974a5e15358dfa5c net: ethernet: cortina: Implement .set_pauseparam()
+         e58b43f28d8a55219f7a03af91f404f2d709364d Merge branch 'net-ethernet-cortina-use-phylib-for-rx-and-tx-pause'
          
