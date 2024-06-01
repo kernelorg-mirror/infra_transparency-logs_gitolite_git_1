@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 01 Jun 2024 22:13:58 -0000
-Message-Id: <171728003862.24838.3472483261149532088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 01 Jun 2024 22:16:12 -0000
+Message-Id: <171728017241.27362.10422628049687090374@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e19de2064fdf6f1f2488e36cf3927c3f1d01803c
-    new: 69c8b998717c03adeada070882512ebeae11d71f
+    old: 89e281ebff72e6d37dce2df0e142b2909dafb267
+    new: 45c0a209dcf2c5179b54f8b7ed47b00a0a204b96
     log: |
-         69c8b998717c03adeada070882512ebeae11d71f net: qstat: extend kdoc about get_base_stats
+         9e0945b1901c9eed4fbee3b8a3870487b2bdc936 virtio_net: fix possible dim status unrecoverable
+         d1f0bd01bc58f35b5353ad9dbe5f7249a8f3368e virtio_net: fix a spurious deadlock issue
+         45c0a209dcf2c5179b54f8b7ed47b00a0a204b96 Merge branch 'virtio_net-fix-lock-warning-and-unrecoverable-state'
          
