@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 01 Jun 2024 15:59:00 -0000
-Message-Id: <171725754079.15049.13031856829473307504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sat, 01 Jun 2024 16:13:23 -0000
+Message-Id: <171725840336.26272.14133830093527682305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 2458a833c8b4ad00c063364e83aec19b0799625e
-    new: 445021b1fb9a29142997e21a663ae4ff4e38b37e
-    log: |
-         445021b1fb9a29142997e21a663ae4ff4e38b37e svcrdma: Handle ADDR_CHANGE CM event properly
-         
+  - ref: refs/tags/kbuild-fixes-v6.10
+    old: 0000000000000000000000000000000000000000
+    new: d2053f9490c9d9c7467d3372b8c3697e2db0b4de
