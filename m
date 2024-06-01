@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sat, 01 Jun 2024 04:36:55 -0000
-Message-Id: <171721661525.19783.16912367471464727840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dash/dash
+Date: Sat, 01 Jun 2024 04:44:44 -0000
+Message-Id: <171721708480.25184.790952152636776435@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/utils/dash/dash
+user: herbert
 changes:
   - ref: refs/heads/master
-    old: 43ebeda6629d8203e510b518dacf2863b32b5a85
-    new: ef80c4a3ecb96f115b27f1d60bcf7448074ea2e7
+    old: 176e792f7dc915bb096d14d7abb70f11ded9abb7
+    new: f822a30a3b76216c10bfd96595f6526f56f9dd8b
     log: |
-         6d1dc14492f6a42deee2ad7a4aa2cdf1df3f5769 CodeSamples/formal: Add data for Linux v6.9 to rcu-test.dat
-         ef80c4a3ecb96f115b27f1d60bcf7448074ea2e7 Don't remove $(SVG_GENERATED) in 'make clean'
+         0c55f437598a911fe449871641ed6466e9eeaba8 parser: Fix here-doc EOF marker bug with negative chars
+         186c9eb1f23032e119a46f1bc1ac0c1c97f8ff4a mystring: Add dotdir
+         c1d868ac6474d8a1959e632521571e7f9cdcd3c8 memalloc: Force functions to be out-of-line
+         fb0eae45072d0dd2c6c4c781fca15f8b60592a57 eval: Fix pipe fd leakage in evalbackcmd
+         f822a30a3b76216c10bfd96595f6526f56f9dd8b jobs: Fix resource leak in makejob
          
