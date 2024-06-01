@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sat, 01 Jun 2024 06:23:10 -0000
-Message-Id: <171722299008.11465.1590923512362951421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sat, 01 Jun 2024 08:16:24 -0000
+Message-Id: <171722978431.28363.8672652595929660566@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/experimental.fd
-    old: b0f973344795fe936af93212c37986c4db537c34
-    new: 7202ce9cec9389928ef36052b2a9f1974a7563ad
+  - ref: refs/heads/master
+    old: 40e066a18a8759db6ceff720f858c96f303f409c
+    new: ae31bd15b65ce03a143860e8f4daa99fcd5125a4
     log: |
-         ff85a57bc69f9f14b1b8f6903f7533308a80eaca overlayfs: define a class for fderr with ovl_real_fdget() as initializer
-         7202ce9cec9389928ef36052b2a9f1974a7563ad simplify xfs_find_handle() a bit
+         509820a63285e170070e8d43bb139c76b5ce7d54 open_by_handle_at.2: Correct the name of the FreeBSD equivalent
+         e288ec2b0ccb17fe3e8c49af3581b49581a60c33 ioctl_iflags.2: Document FS_APPEND_FL ('a') on directories
+         6698b096a6f5342cb9b338c237ed875a8635497a prctl.2: CAVEATS: Document the necessity of using the 'L' suffix
+         ae31bd15b65ce03a143860e8f4daa99fcd5125a4 prctl.2, PR_*.2const: SYNOPSIS: #include <linux/prctl.h> for the PR_* constants
          
