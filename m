@@ -1,53 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0508550272232821164=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Sat, 01 Jun 2024 23:52:16 -0000
-Message-Id: <171728593674.31827.3838716241306399729@gitolite.kernel.org>
-
---===============0508550272232821164==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 02 Jun 2024 00:43:31 -0000
+Message-Id: <171728901122.3552.9781602536049015910@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: mpe
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/topic/kdump-hotplug
-    old: 9803af291162dbca4b9773586a3f5c392f0dd974
-    new: 0000000000000000000000000000000000000000
-
---===============0508550272232821164==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1717285936 +1000
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1717285935-fb01dce5a1712131f0001087517ccb70bbdaa21c
-
-9803af291162dbca4b9773586a3f5c392f0dd974 0000000000000000000000000000000000000000 refs/heads/topic/kdump-hotplug
------BEGIN PGP SIGNATURE-----
-
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmZbtDATHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgDAjEACpWu2Dh18D/F0GcAlIKIziWJEeju+R
-qz9IkHOoQxmGM+z/5ygXHnKtBu7LvnivnjGxVxOawTwdgesOsNIJE/hDcAmfuTDh
-9VBdK7FgKzeTEa++t3lolzOG935l8G6As3L2E008gJf+ctuuwo6gI7GONgeXp0VJ
-97pv141nOI/SGFbAYXyxw9z4SbQU+WDG7dNP7KBjG6Wb7diiQER0u2D/5LFH+qEf
-9zJrrF2AxZWl6IBuA1PgmZ1yABEn2NO/aKIzn78D2xknT+BIFcm9ng5udO0S6c2g
-Urt5oiGKgNNGO4yzBWfbP3BdJRcqsff+uxqzYBOmuXMZ2PJT+GMkAv8SX06FPlgu
-ogfXgaRLXWJZ51IITAmGjpQlfabqUsjcWscYjC1BSsD27ucIGjgSXGKFlWxNwNZ5
-XFPbuIv7rnAPAf+XmkJ4EaHrX4JmaqC282aDzB3zcNOHJ4AsY37evPH/MpgUHQiC
-tm3V5yFtgt69lLEecccUf9rAqWt1y9hWrpb1F+qFY1Z2mH/hyXUyEElJHNH499qr
-Rn/5G7ozduo4JnvNNa2le1ShCfiMz4DOLeQ2XBJY8S9dxmS6zyVeex/IQIdk8sXC
-v4Y+kMyMsI2vldvnW3Ejw0HSYYiV6P4zL2msjLxDkW2i485kxuJOGxCGYvyBjjht
-iMzwFcLB0thSOg==
-=thGE
------END PGP SIGNATURE-----
-
---===============0508550272232821164==--
+  - ref: refs/heads/master
+    old: 89be4025b0db42db830d72d532437248774cba49
+    new: 83814698cf48ce3aadc5d88a3f577f04482ff92a
+    log: |
+         f94b77709e82242c1101e59a90a7807455c4ab2a firewire: add missing MODULE_DESCRIPTION() to test modules
+         b1e7cee96127468c2483cf10c2899c9b5cf79bf8 powerpc/bpf: enforce full ordering for ATOMIC operations with BPF_FETCH
+         12870ae3818e39ea65bf710f645972277b634f72 powerpc/pseries/lparcfg: drop error message from guest name lookup
+         2d43cc701b96f910f50915ac4c2a0cae5deb734c powerpc/uaccess: Fix build errors seen with GCC 13/14
+         50934945d54238d2d6d8db4b7c1d4c90d2696c57 powerpc/uaccess: Use YZ asm constraint for ld
+         be2fc65d66e0406cc9d39d40becaecdf4ee765f3 powerpc: Limit ARCH_HAS_KERNEL_FPU_SUPPORT to PPC64
+         54bec8ed5732339438271d07376890454fa58046 Merge tag 'firewire-fixes-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
+         83814698cf48ce3aadc5d88a3f577f04482ff92a Merge tag 'powerpc-6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+         
