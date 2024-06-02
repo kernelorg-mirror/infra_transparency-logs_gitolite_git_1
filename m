@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5829852480070893719=="
+Content-Type: multipart/mixed; boundary="===============2497195345943437413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 02 Jun 2024 07:22:21 -0000
-Message-Id: <171731294156.31486.16317925793546443398@gitolite.kernel.org>
+Date: Sun, 02 Jun 2024 07:22:25 -0000
+Message-Id: <171731294588.31558.9729250729226132072@gitolite.kernel.org>
 
---===============5829852480070893719==
+--===============2497195345943437413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
+  - ref: refs/heads/tty-testing
     old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: 83814698cf48ce3aadc5d88a3f577f04482ff92a
     log: revlist-1613e604df0c-83814698cf48.txt
 
---===============5829852480070893719==
+--===============2497195345943437413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717312950 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717312954 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1717312940-af825ba571bec872587d4ef95f5df897696ab21c
+nonce 1717312944-913613c70a77fabf788da4f47a31de5d2ab59d69
 
-1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 83814698cf48ce3aadc5d88a3f577f04482ff92a refs/heads/tty-next
+1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 83814698cf48ce3aadc5d88a3f577f04482ff92a refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZcHbYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7zYQAMMjVsYa+R2Y7ASI3vSe
-iYAryOuBy27KwMn08RcilRwIsbGvtc8dk8JWwseAw1eX9xnRdnY+0K5e/+XgezOL
-FcXq/nRqlDAiCR1TPwVcIP9uVQ9j+E75DYMS7pojwvPN29PUVMxvVeuRJ5e35KND
-Qv1asIa7AD0Sa5+Lry96vujEC2ug6mNiguWZIjPWCV6bhr4n04TlH/QXgHvLXq8i
-lVGuWie/Y6c3qRvVK+1Uka3XyK4mvdLTfT21UD8Mn6Yvm3Tjvogdgob5Kl29Ixta
-HWITZGQ+XCKSnNSj8AJ/xb4QnjbLAanxt6hhrQYr1mIdotI05DQj3O5CX3FG1ap5
-XTpJ4pRJkimktrxTOmRHNWcPcUBpORx62EqSk68G6c0ryVeifIK5SogrR+pQ4Dl2
-gTdwrhbKhk2pvJTephwIbHA9gdrQdJa27bSi0Z/4Z3bY+t/u29jkhyp2a75ILpx5
-y7qAXrJSQIDC7Fa2tOP8ajvf1Xdx2B1g0y07fIe7ZAJEMdiNj1UOwaauu0eMHpdS
-x7FqZqL0vvMq47egEwTCwu3vdivPBtmkjmCyHuX+6z4w5vskjUtCE78CTH5//yF8
-Sc7Qm5Eq4EqPIrhbNCsw1vp3PI4rSRZ3kxxuKOcxrV2/dwunvTNuuPOGJs4+SI5W
-BAR0XtFyKcl7ljYSNPJFuXKg
-=4fDl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZcHbobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KhUQAIfTswsCdflZbprEYyxc
+KUjJ2WphXA01/d5NQ1VR/lMJbY/znKgNUCOmoN+o5d9HkfI9y5wPl5XyrfPPqJJo
+8kkF33iIShIdv3kPfcX5d7kPyamtL6Szb4f+upXwq7GJ8J69tXVwE2bu0t2ODLRw
+/+mo9cDJIbMKdHxlrQGbW2LTZ4dDcDACi79F8j09vTyu+duuX+y8jWmdP86+jhcI
+8mi6PFElzCX7HWXC+wtPrY4xXaklt9UMPT3KtlVHE2EGXgOAWucL5BNouyKM5gh+
+x3+22IHLUTC1lVfwXGzzLDfsYAvSjvZAaxPn8CXTZEP0C5lNo9MO3cOGPQVb03o3
+l+bmAmVX+lTN5Hwpf6XNNt8Kobp8Ro068dTRpadXlWHTzoD/gsGSC2NVBOmSXusF
+46ppyfQE06l4AmzmcfVbsHsuH0XR5BYlJZtm9DHWEjkAo34qOFoMoHpSJFDr4JRT
+g3RIj1+B1QuHBU0OdC1deoocVD2wL2HsOKKEvTVtvcgrDjReg4XT+tzcbj6SS7e8
+apFbGT5LPKyyqw4h3AZnRdIiMa7wObgQZ/gRsp8HvpXYlIs5SyopPoAaq6G6zN+L
+6/Zz1yY7IzNlU2cD8TLrtObBMwEk6yYJbO0MPUvtseY1zA88Fm/OWCJkQItomamz
+nFMvYeJQ6bJO1aIxOR0dkf5p
+=sDa4
 -----END PGP SIGNATURE-----
 
---===============5829852480070893719==
+--===============2497195345943437413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -362,4 +362,4 @@ ec9eeb89e60d86fcc0243f47c2383399ce0de8f8 Merge tag 'kbuild-fixes-v6.10' of git:/
 54bec8ed5732339438271d07376890454fa58046 Merge tag 'firewire-fixes-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 83814698cf48ce3aadc5d88a3f577f04482ff92a Merge tag 'powerpc-6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 
---===============5829852480070893719==--
+--===============2497195345943437413==--
