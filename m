@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7392744429262550021=="
+Content-Type: multipart/mixed; boundary="===============3129398359237058391=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 02 Jun 2024 07:22:10 -0000
-Message-Id: <171731293092.31272.8445847037779834226@gitolite.kernel.org>
+Date: Sun, 02 Jun 2024 07:22:17 -0000
+Message-Id: <171731293731.31369.14305201278308141205@gitolite.kernel.org>
 
---===============7392744429262550021==
+--===============3129398359237058391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+  - ref: refs/heads/tty-linus
+    old: 7bc4244c882a7d7d79f4afefc50893244eb11d07
     new: 83814698cf48ce3aadc5d88a3f577f04482ff92a
-    log: revlist-1613e604df0c-83814698cf48.txt
+    log: revlist-7bc4244c882a-83814698cf48.txt
 
---===============7392744429262550021==
+--===============3129398359237058391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717312930 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717312946 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1717312919-3c399baf2fba48cefa6f7b8dcf1ef0685237ae5c
+nonce 1717312934-5d0747ac41213fbb3886fcb86fd500bb0c7f0c3e
 
-1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 83814698cf48ce3aadc5d88a3f577f04482ff92a refs/heads/main
+7bc4244c882a7d7d79f4afefc50893244eb11d07 83814698cf48ce3aadc5d88a3f577f04482ff92a refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZcHaIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G+0P/2xFIA6kfT6XJIcTAJKd
-DGFqTrAJWNQw8f/I5EFZEiy/3v8mzcwamqmW5y85yeBghwtLdtyJNnMPboKi9pMR
-F+rfRVSatoeGN02CwW5EVxOZ/8gNq5m8NrITOg72Cvciu2ccPNMMmHDdfkGaCZcF
-mNpDNA192uzQ9fXUd/1NQOFyVHO43AZLXaq9RVE16OW2MaOj0wX682Ahj6IKZ29W
-NA8+82V4RyRsko7WRoUFGhLAZ+4wSUEyb/j82tjcVWr6yWQa0H2RFo+c+fVIyHzv
-+F5Oq+g/ReMmguPe/KybffBJyxWcSGucphRkIKfGw5shkPwYWgSdGuN4BT4x5fyG
-+DlmShuf2FQfzeNYu6DPZ2cT6NlPH2pYgwMiVhb+2pGO/vXaHyARWFDalUCOw7YA
-g/azwFJYB4HVtajtGXZlzQ5gNUzTsgHe2dTJsUhjepXSdxbNSQAlzN2ItdKWKJJg
-LoUKxRryuUw6Y8MQNXXeX9vjwN9tR8RMSkHzG2gqu8LAHvt+R6DZuItUtsdJZUdZ
-13JAfBfdfvcOJa3C0iNppGKJOieiqjoawBcrDbF7BIsBh/FTnu3Q5GJpj7ITdC2F
-PCUePMdpxGBKO1R6d/W/Yljal32TzPEf1TK4Yu1OUtpXnRe6c9/YfbFe48Jp6Czb
-1S1XW7TnKONfWGEzG0BeBX1t
-=NOJN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZcHbIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+588P/3yFVad5wFOOL/XEe61A
+rcJjIM4r1gzC+rA1uZmqJbCaAiM8+RJwKhnZoftNUPI/EGkmrHPvj8yTsXHRXgVR
+vDRCUB++NGs4Y+2k1sZrR5o+Azlg4lYCPXN9ykgmvqVySk7DBsW33pQSi7goXTm2
+uxF7h/rcD2YNIidjteljX5JeHgxzS3hWc/Cd+oNVIxJI+btnGur5kTuVCaV67heS
+ZAnjfWls7LeXGMxY5ukzRxRDSbIh3Y3HdzomT0SU/LvGshPdt/UcbUJ+pzx7nXpx
+9vvmjQ5vadhILM2//f4EjP2+k7m4TBJhhn6vMHuBROgKj5uT2fwutcvloymxSMpc
+nw1ee/l77sfy1YF7C0QvgZR54KhtSMoyLTqLYObvD+px/8sYDVOxW2UafThP/H2w
+uVM8/hpSStLgF1pHzQQn8ILgOpgwdrxlkBnuEgU9ob1NSU5HwyCjrikAKgnXfeYv
+W6nAL/aPi9uFrZhm94s+FNWkiWY+SHIgZCs4j69atidKn+dh6nNADXSg3BMof8vp
++LqLTGJEmennWs+lXRt/ZSxBbM4HZNIX5D6rQDnCq9Fo9cmXHgLAD8ke/n8ZN9/m
+xUlIELlIu4+wSTwRADvurLg5ph8MPsVhXj3aF5ALRefK+FWeRFoPwLYsFjZgN0Hu
+/6gsBLsKapnpsbdqocoxeRJj
+=4HrR
 -----END PGP SIGNATURE-----
 
---===============7392744429262550021==
+--===============3129398359237058391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1613e604df0c-83814698cf48.txt
+Content-Disposition: attachment; filename=revlist-7bc4244c882a-83814698cf48.txt
 
 aed9a1a4f7106ff99a882ad06318cebfa71016a2 drm/nouveau: use tile_mode and pte_kind for VM_BIND bo allocations
 117bbc0e43adc6f76a3fc39a98f75a811a853459 drm/buddy: stop using PAGE_SIZE
@@ -353,7 +353,6 @@ d5931dd0de5f4177e38defedcc4c9cede7933d3d Merge tag 'spi-fix-v6.10-rc1' of git://
 b7087cb35a007245de172b0e05130d56f56248d5 Merge tag 'mailbox-fixes-v6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 1b907b83aecac3804e9b0ab2589578e3ba1c9f4a Merge tag 'hwmon-for-v6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 cc8ed4d0a8486c7472cd72ec3c19957e509dc68c Merge tag 'drm-fixes-2024-06-01' of https://gitlab.freedesktop.org/drm/kernel
-7bc4244c882a7d7d79f4afefc50893244eb11d07 Revert "VT: Use macros to define ioctls"
 d9aab0b1c9b2838b2c91431a5d4ac4129553797d Merge tag 'landlock-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 f26ee67a0f94b8ec79b08c046c2a47568517d772 Merge tag 'tty-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 bbeb1219eeeeab7ef302fdaedee71b08e413a04c Merge tag 'xfs-6.10-fixes-1' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
@@ -362,4 +361,4 @@ ec9eeb89e60d86fcc0243f47c2383399ce0de8f8 Merge tag 'kbuild-fixes-v6.10' of git:/
 54bec8ed5732339438271d07376890454fa58046 Merge tag 'firewire-fixes-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 83814698cf48ce3aadc5d88a3f577f04482ff92a Merge tag 'powerpc-6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 
---===============7392744429262550021==--
+--===============3129398359237058391==--
