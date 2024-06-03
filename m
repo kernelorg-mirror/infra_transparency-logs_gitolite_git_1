@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8303051434524221760=="
+Content-Type: multipart/mixed; boundary="===============6233427575050619546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 03 Jun 2024 13:36:54 -0000
-Message-Id: <171742181477.14848.2214248862397061776@gitolite.kernel.org>
+Date: Mon, 03 Jun 2024 13:37:27 -0000
+Message-Id: <171742184789.16097.7085473699986891487@gitolite.kernel.org>
 
---===============8303051434524221760==
+--===============6233427575050619546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    new: c3f38fa61af77b49866b006939479069cd451173
-    log: revlist-1613e604df0c-c3f38fa61af7.txt
+  - ref: refs/heads/nfsd-next
+    old: 445021b1fb9a29142997e21a663ae4ff4e38b37e
+    new: fec4124bac55ad92c47585fe537e646fe108b8fa
+    log: revlist-445021b1fb9a-fec4124bac55.txt
 
---===============8303051434524221760==
+--===============6233427575050619546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1613e604df0c-c3f38fa61af7.txt
+Content-Disposition: attachment; filename=revlist-445021b1fb9a-fec4124bac55.txt
 
 aed9a1a4f7106ff99a882ad06318cebfa71016a2 drm/nouveau: use tile_mode and pte_kind for VM_BIND bo allocations
 117bbc0e43adc6f76a3fc39a98f75a811a853459 drm/buddy: stop using PAGE_SIZE
@@ -349,5 +349,9 @@ efa8f11a7ebeb8758dcd847a4b9a0cdcb68d9d87 Merge tag 'perf-urgent-2024-06-02' of g
 a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
+0638b0922c26ed29def7e0a8dd91cb8828180c7a NFSD: harden svcxdr_dupstr() and svcxdr_tmpalloc() against integer overflows
+87cc13f749e7f914d94d50a9d4b3598824ee06eb NFSD: remove unused structs 'nfsd3_voidargs'
+39dfe62ccee763ecaaa412cc5517d1a89aa818c6 svcrdma: Refactor the creation of listener CMA ID
+fec4124bac55ad92c47585fe537e646fe108b8fa svcrdma: Handle ADDR_CHANGE CM event properly
 
---===============8303051434524221760==--
+--===============6233427575050619546==--
