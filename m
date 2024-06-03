@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
-Date: Mon, 03 Jun 2024 09:32:37 -0000
-Message-Id: <171740715706.31914.7620868009454425951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Mon, 03 Jun 2024 09:38:03 -0000
+Message-Id: <171740748310.4440.10217730529811442007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wpan/wpan
-user: sschmidt
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
   - ref: refs/heads/master
-    old: 07aa33988ad92fef79056f5ec30b9a0e4364b616
-    new: b8ec0dc3845f6c9089573cb5c2c4b05f7fc10728
+    old: b569b91ce1e1749a4e4832e636721d3c05712593
+    new: 95a2eb76bf634264e56523d3215d1be6c42761f0
     log: |
-         b8ec0dc3845f6c9089573cb5c2c4b05f7fc10728 net: mac802154: Fix racy device stats updates by DEV_STATS_INC() and DEV_STATS_ADD()
+         95a2eb76bf634264e56523d3215d1be6c42761f0 bindings: cxx: Migrate C++ tests to use Catch2 v3
          
