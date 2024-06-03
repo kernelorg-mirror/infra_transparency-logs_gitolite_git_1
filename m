@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4136960349007247166=="
+Content-Type: multipart/mixed; boundary="===============7250731953258029575=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 03 Jun 2024 17:04:33 -0000
-Message-Id: <171743427301.5939.2972707474303754514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 03 Jun 2024 17:04:39 -0000
+Message-Id: <171743427963.6073.15307684441064855535@gitolite.kernel.org>
 
---===============4136960349007247166==
+--===============7250731953258029575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/regulator-6.10
     old: 72b6a2d6506843375c7b91197f49ef38ca0c6d0f
     new: c3f38fa61af77b49866b006939479069cd451173
     log: revlist-72b6a2d65068-c3f38fa61af7.txt
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/regulator-6.11
     old: f31f012d799cb3a1ab0e99db3694dd5616e59947
     new: 8832266dae4f4b401fedce537448bf0cda233b1a
     log: revlist-f31f012d799c-8832266dae4f.txt
 
---===============4136960349007247166==
+--===============7250731953258029575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1717434271 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1717434270-a32cc731ac71cb5365923841126661070183b496
+pusher C3F436CA30F5D8EB 1717434278 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1717434277-3d313e2b296ff6fbb87af33b968ca5dbd9a6eb0c
 
-72b6a2d6506843375c7b91197f49ef38ca0c6d0f c3f38fa61af77b49866b006939479069cd451173 refs/heads/for-6.10
-f31f012d799cb3a1ab0e99db3694dd5616e59947 8832266dae4f4b401fedce537448bf0cda233b1a refs/heads/for-6.11
+72b6a2d6506843375c7b91197f49ef38ca0c6d0f c3f38fa61af77b49866b006939479069cd451173 refs/heads/regulator-6.10
+f31f012d799cb3a1ab0e99db3694dd5616e59947 8832266dae4f4b401fedce537448bf0cda233b1a refs/heads/regulator-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZd958ACgkQJNaLcl1U
-h9BjTwf/Tex/x6bvaPqXx4Nk5vlG4N5RJRow8/ncJSdu5sGyqymovbrbW4tx8rW4
-Kc220O6ts2ryqiu3lzc59nXdud04wHI1fNeBmkcXvSIbtL3JCWVDH9ltTvVK5R+B
-qjEMS6L5kbjxMPRNT71FA/np0GPGfWBFwyRQn2vfBPl+PE1nhdJf5/2V8wj3qYyP
-tol27MkwA7hQMthubQeTXkE6IOCTbppC9sZ3wCubCWcEKCpvnhhefKldbK/z5r4b
-bsanp2dBFJAtYMXhCk34fOJEXncUJ1jjoDFY5hR4sj554mBJ4LT5bpGYSXhJG6p/
-zJ12eI0zRBDGC38uPPFzBtPaRnT+Hg==
-=G62R
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZd96YACgkQJNaLcl1U
+h9AKxwf+PlUQr/ao+lB8YI8GJk0N1HAp0W48lF2xGGtzsRV+1PXFoZbZQnNr6pjb
+tmQh9W1hbpW3TJO4G4LJLQ8n6jSsxexHfhrQMTulfAnBzzsnwpyPG/vtMAZB3cUn
+Qx8Xt30QWQVv1UfFbQ0hI4pbttFyxX+yaA7x4YYjoOKdLF15zW0CBP/227KyC/1H
+Sz3aU/4xEFdXGG35wIFpflMPQZkdD2FHVaprQMcavsCWHZDwxyylwkjjSpquRA5g
+mdMI+/uef79tFbTh/XPgZLrFjfdi+4MG/BNfCR8dimTH8hvu7yets3wrS2wggi7u
+EKHqwzCz8tBwYAreBl3sjRj/o4f1Fg==
+=C8Gt
 -----END PGP SIGNATURE-----
 
---===============4136960349007247166==
+--===============7250731953258029575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -379,7 +379,7 @@ a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of gi
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
 
---===============4136960349007247166==
+--===============7250731953258029575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -709,4 +709,4 @@ a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of gi
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
 8832266dae4f4b401fedce537448bf0cda233b1a regulator: Merge up fixes
 
---===============4136960349007247166==--
+--===============7250731953258029575==--
