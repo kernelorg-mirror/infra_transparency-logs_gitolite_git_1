@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 03 Jun 2024 06:37:05 -0000
-Message-Id: <171739662556.32304.3300988470571357972@gitolite.kernel.org>
+Date: Mon, 03 Jun 2024 06:37:31 -0000
+Message-Id: <171739665195.32620.18416635764409273065@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,16 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: e29f5ab977b6d3a9fb1ae7bac754b0af146fafe1
-    new: 1eed3f3b3c9fe337b6fce2333cf1e76179f69956
+    old: 1eed3f3b3c9fe337b6fce2333cf1e76179f69956
+    new: 309ad53b7f310dee659ea29a23e17474ec62b6dd
     log: |
-         9e2f46cd87473c70d01fcaf8a559809e6d18dd50 ata: ahci: Do not apply Intel PCS quirk on Intel Alder Lake
-         86aaa7e9d641c1ad1035ed2df88b8d0b48c86b30 ata: libata-core: Add ATA_HORKAGE_NOLPM for Crucial CT240BX500SSD1
-         473880369304cfd4445720cdd8bae4c6f1e16e60 ata: libata-core: Add ATA_HORKAGE_NOLPM for AMD Radeon S3 SSD
-         3cb648c4dd3e8dde800fb3659250ed11f2d9efa5 ata: libata-core: Add ATA_HORKAGE_NOLPM for Apacer AS340
-         58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-         c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
-         1eed3f3b3c9fe337b6fce2333cf1e76179f69956 Merge branch 'linus'
+         f2d4cd277b6add550460710868a29e82752909af Merge branch into tip/master: 'locking/core'
+         5c99b6383cdc2cbec46a8bec7596589794d27392 Merge branch into tip/master: 'perf/core'
+         cdaec32c738ca842501b037377bef64ece5ccf46 Merge branch into tip/master: 'ras/core'
+         bcf8753f4ca0465b5ed70de2867dd2c7c9391a94 Merge branch into tip/master: 'sched/core'
+         30e9a850b853eec950a6c105cef0948485eeca27 Merge branch into tip/master: 'x86/boot'
+         65e177a6291301f06f414a517aecaa35f9a0a7aa Merge branch into tip/master: 'x86/cc'
+         d2bbf2915b7242d8bc70d40a5ebb36c450b8f58a Merge branch into tip/master: 'x86/cpu'
+         efaa520cc3b1e668f0476ce04d9e81ea1ce54f7b Merge branch into tip/master: 'x86/misc'
+         309ad53b7f310dee659ea29a23e17474ec62b6dd Merge branch into tip/master: 'x86/percpu'
          
-  - ref: refs/tags/v6.10-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ac1064c236193fe48bded6f718ad47203870743b
