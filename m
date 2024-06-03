@@ -1,54 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============5328265413205094155=="
+Content-Type: multipart/mixed; boundary="===============3567170449341441741=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 03 Jun 2024 06:48:26 -0000
-Message-Id: <171739730643.8350.13424791058730733699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 03 Jun 2024 06:48:31 -0000
+Message-Id: <171739731111.8454.1686822042162965407@gitolite.kernel.org>
 
---===============5328265413205094155==
+--===============3567170449341441741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 996ad412981024a9bb90991ab195685d37187bbd
-    new: 0da7a954480cc99978e3570c991e3779e56fc736
-    log: |
-         1630dc626c87b300627fe7591f4f63f8f136f935 platform/x86: ISST: Add model specific loading for common module
-         3ea025fb4b5f1a0b66df25eba50b2a1071f01080 platform/x86: ISST: Avoid some SkyLake server models
-         2f9514f005530502452c34295e77bdfb395b5bc6 platform/x86: ISST: Use only TPMI interface when present
-         b44d79d6bad16c30978c2cee3421133d3f181494 platform/x86/intel/tpmi: Add support for performance limit reasons
-         d36842bacf8e3491f555059f27de57b3436cc3ff platform/x86/intel/tpmi: Add API to get debugfs root
-         17ca2780458cdb0afc623e3432b1977847da3d15 platform/x86/intel: TPMI domain id and CPU mapping
-         811f67c51636d43791995bf483c5c1904900b531 platform/x86/intel/tpmi: Add new auxiliary driver for performance limits
-         9e9397a41b7b1db10603edcb13913034bd41cce0 platform/x86/intel/tpmi/plr: Add support for the plr mailbox
-         0da7a954480cc99978e3570c991e3779e56fc736 doc: TPMI: Add entry for Performance Limit Reasons
-         
+  - ref: refs/tags/v6.10-rc2
+    old: 0000000000000000000000000000000000000000
+    new: ac1064c236193fe48bded6f718ad47203870743b
 
---===============5328265413205094155==
+--===============3567170449341441741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1717397300 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1717397299-9a7da57169728a78aaadcc3a422b6c0f9d48b8e3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717397319 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1717397307-4aae2bbce025971091ded0ef6395068a8226efc9
 
-996ad412981024a9bb90991ab195685d37187bbd 0da7a954480cc99978e3570c991e3779e56fc736 refs/heads/for-next
+0000000000000000000000000000000000000000 ac1064c236193fe48bded6f718ad47203870743b refs/tags/v6.10-rc2
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZl1nNwAKCRBZrE9hU+XO
-Md8jAQDxF7vY4q6IWKy4w5lPCqoxnmmN2H2wPBp720Z7Rgh+0wEAp/MYCgaXoEGI
-KiZtlZwrwgRhVLHuDoN/Ky8PRD+5gwQ=
-=j8O5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZdZ0cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3iUQAJY17rA7LY3UY3Nj+4ot
+UeJtMbWzHgdAhPH8GhOzAv+00WsFMzzF1a4SODFvKLmPTzCC4d9959B8EoIF7IOS
+DD8580zKEKGJpwkfOsAyNKpD0Rk3JCcZIuRzvvqXF3P+fwtDLUPaQQAepG7LZT/z
+Y1pQWr8NCBPUy1c9lZAL16CCmy1M7BAVYKnLhGlx5HKrETji6d/IJNgK4VS0eo+/
+pRU8fFj5OwTcj1Zyez2LW5eXz4RWHwI1jYWm+uoUu4Fveyth2HzlaIgCzihIb7Yw
+ciOTp9Ivo0CB10BHe9UT0Xd9+QmiFtatZQPRFCyUETpUMPPrZg5vkG+Ttpj2TuWo
+W9bWWmfRcg3Kq3TG8eivuB5lSOkHc+HPEa5rrcYW/lJjNaaDvr94wNua6CFsW9yx
+29CuTUKsXxqgsWbSNVMpe62+c+hWi04+X3qsU6YFvdB9qpTuG024A4LeglTKrALp
+ObCICzPbzKP5dnGVuFCUoRPMSx3t8joNRHvaNWL9VsY0EExNcHKZE9e2LzFfmXoA
+hulzyzVUL+/i4+9481Xae9z5d5Nt3FJWyeFnJCA6e2scXTE3BjZG2m1CpMN0q1hy
+/DwDBx85GfAdblduKA5Xu2In/GonVPuWtsvQLeQI+atPVxgIRzjfOd3xYOB7cXAM
+f34FcTAxQDyKrqYV2IksHGL6
+=JQzp
 -----END PGP SIGNATURE-----
 
---===============5328265413205094155==--
+--===============3567170449341441741==--
