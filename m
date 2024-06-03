@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8537183216712586228=="
+Content-Type: multipart/mixed; boundary="===============8332039248000815242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 03 Jun 2024 21:09:19 -0000
-Message-Id: <171744895968.28279.15529236770376261473@gitolite.kernel.org>
+Date: Mon, 03 Jun 2024 21:09:22 -0000
+Message-Id: <171744896285.28349.6464225553427892139@gitolite.kernel.org>
 
---===============8537183216712586228==
+--===============8332039248000815242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: a6b250149c79ce75cbc9a791ae482f0ce31b8dd7
-    new: 5fb9780aa9108e1b43281be3a07c1d19487e2e8c
-    log: revlist-a6b250149c79-5fb9780aa910.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 6d69b6c12fce479fde7bc06f686212451688a102
+    new: c3f38fa61af77b49866b006939479069cd451173
+    log: revlist-6d69b6c12fce-c3f38fa61af7.txt
 
---===============8537183216712586228==
+--===============8332039248000815242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1717448958 +0100
+pusher andi.shyti@kernel.org 1717448961 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1717448957-107817d6654bc7836657a7a079549d3e5551f7ee
+nonce 1717448961-3ff54a9fe3f1a7c71c2bc16c5eb0d19b578e71b7
 
-a6b250149c79ce75cbc9a791ae482f0ce31b8dd7 5fb9780aa9108e1b43281be3a07c1d19487e2e8c refs/heads/i2c/i2c-host
+6d69b6c12fce479fde7bc06f686212451688a102 c3f38fa61af77b49866b006939479069cd451173 refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZl4w/hYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uKjMA/280n1pzTfnq5eLSzXFkHVQhf1r1
-VSSSMaJAYJ9wx1znAQCmPBZKX0X43q8ZXPwENdzam4x5/jucXxuITIgms+GzAA==
-=coWF
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZl4xARYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uC0oA/jL43sRPcLUL8eOyDp1GFfRsbwHF
+zn2975/DlIpBg2QWAQDRzKhruhysDETb4Qw9mM33jO2fIV1/Lgv8XKYIrLe4Bg==
+=vrho
 -----END PGP SIGNATURE-----
 
---===============8537183216712586228==
+--===============8332039248000815242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6b250149c79-5fb9780aa910.txt
+Content-Disposition: attachment; filename=revlist-6d69b6c12fce-c3f38fa61af7.txt
 
 c7df39b2a5643c4df566fb23951f619f8c639042 Input: stmpe - drop driver owner assignment
 bf32bceedd0453c70d9d022e2e29f98e446d7161 Input: ims-pcu - fix printf string overflow
@@ -648,7 +648,5 @@ efa8f11a7ebeb8758dcd847a4b9a0cdcb68d9d87 Merge tag 'perf-urgent-2024-06-02' of g
 a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
-fe69f7d19df70ea21c83a89438f10492dad7f7b7 i2c: synquacer: Remove a clk reference from struct synquacer_i2c
-5fb9780aa9108e1b43281be3a07c1d19487e2e8c i2c: Remove I2C_CLASS_SPD
 
---===============8537183216712586228==--
+--===============8332039248000815242==--
