@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0005546560085180835=="
+Content-Type: multipart/mixed; boundary="===============5540596252799964965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 03 Jun 2024 06:59:12 -0000
-Message-Id: <171739795285.16779.12652113841817952207@gitolite.kernel.org>
+Date: Mon, 03 Jun 2024 07:00:07 -0000
+Message-Id: <171739800742.18855.7804352412384470940@gitolite.kernel.org>
 
---===============0005546560085180835==
+--===============5540596252799964965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/features
     old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: c3f38fa61af77b49866b006939479069cd451173
     log: revlist-1613e604df0c-c3f38fa61af7.txt
 
---===============0005546560085180835==
+--===============5540596252799964965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -350,4 +350,4 @@ a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of gi
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
 
---===============0005546560085180835==--
+--===============5540596252799964965==--
