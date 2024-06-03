@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 03 Jun 2024 19:34:24 -0000
-Message-Id: <171744326426.21517.9139034407131107791@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 03 Jun 2024 19:37:09 -0000
+Message-Id: <171744342930.25392.18206041810928325867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 8844ed0a6e063acf7173b231021b2d301e31ded9
-    new: 78f0dfa64cbd05f381849377a32e0a2f1afe9215
+  - ref: refs/heads/master
+    old: cc8e6ef63509ff69f8b2399802c6de320e957c2b
+    new: 60b482c3c9baaee92fe34384db5211e7fe951e50
     log: |
-         78f0dfa64cbd05f381849377a32e0a2f1afe9215 iio: inkern: fix channel read regression
+         60b482c3c9baaee92fe34384db5211e7fe951e50 Transport: Update bcast sink transport state to pending
          
