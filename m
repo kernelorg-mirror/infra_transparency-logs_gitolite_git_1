@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Mon, 03 Jun 2024 12:07:10 -0000
-Message-Id: <171741643064.13511.8416762916199215032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Mon, 03 Jun 2024 12:11:47 -0000
+Message-Id: <171741670758.16937.2008668807767090146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
+user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: 95a2eb76bf634264e56523d3215d1be6c42761f0
-    new: 37f3676cef721e6909ea84cd6c4ada5dab84f4fb
+  - ref: refs/heads/fixes
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    new: e2d8ea0a066a6db51f31efd2710057271d685d2e
     log: |
-         ee9751a07dee230229e4b85dde14c600397e026d tools: tests: don't mix string and array
-         57ed5cfe66f03d0a30f34aa319560e9079bbcee3 tools: tests: declare and assign separately
-         a88ed2f9bfbf3b73c156f8db45b6b6af62291c53 tools: tests: fix unused variables
-         48f634ab57e8b2c0173a4138737895bee070c493 tools: tests: use read -r to avoid mangling backslashes
-         45f2d4ba38852b611bc4bf622b2582de85b0ab91 tools: tests: don't use variables in printf format string
-         934adda1339707f4721af0a7a128e20737ed9986 tools: tests: check exit code directly
-         2f140aed7d3cebb3dd67a31f8fd6846f3c5a480d tools: tests: shellcheck don't follow sourced file
-         37f3676cef721e6909ea84cd6c4ada5dab84f4fb tools: tests: avoid splitting and globbing
+         e2d8ea0a066a6db51f31efd2710057271d685d2e soundwire: fix usages of device_get_named_child_node()
+         
+  - ref: refs/heads/next
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    new: 9b5fd115e7d5a98b82054cff5c96f6768ee06845
+    log: |
+         fe46d2a4301de1299fb32c0317ec316706ceaad6 soundwire: debugfs: add interface to read/write commands
+         a5b7365f28c191df6b93f60942d2b9a9fe71746c soundwire: bus: add stream refcount
+         9b5fd115e7d5a98b82054cff5c96f6768ee06845 soundwire: intel_ace2.x: add AC timing extensions for PantherLake
          
