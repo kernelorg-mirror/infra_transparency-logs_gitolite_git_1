@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Mon, 03 Jun 2024 00:13:29 -0000
-Message-Id: <171737360999.28245.16717994474638876774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Mon, 03 Jun 2024 01:22:39 -0000
+Message-Id: <171737775902.18890.11461091991692715825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/meta/cgit
-    old: c7c42917c7962efcccff7ccee0652cf0ec48498e
-    new: a6ae065b46a07ba70f05df392cddfcc00a2f6748
+  - ref: refs/heads/for-kernelci
+    old: 7b44d5381e541de3da3cee2e948456b250f41f25
+    new: e8665a172378986159ce8aaf45712c43472f5866
     log: |
-         a6ae065b46a07ba70f05df392cddfcc00a2f6748 update base for for-linus to 6.10-rc2, for-next to 6.9
+         a14a569a9918a0c7e340257a17dbc088bb27db72 platform/chrome: cros_ec_proto: Introduce cros_ec_cmd_readmem()
+         e8665a172378986159ce8aaf45712c43472f5866 hwmon: add ChromeOS EC driver
+         
+  - ref: refs/heads/for-next
+    old: 7b44d5381e541de3da3cee2e948456b250f41f25
+    new: e8665a172378986159ce8aaf45712c43472f5866
+    log: |
+         a14a569a9918a0c7e340257a17dbc088bb27db72 platform/chrome: cros_ec_proto: Introduce cros_ec_cmd_readmem()
+         e8665a172378986159ce8aaf45712c43472f5866 hwmon: add ChromeOS EC driver
          
