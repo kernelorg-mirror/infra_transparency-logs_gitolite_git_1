@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4232211355180172870=="
+Content-Type: multipart/mixed; boundary="===============8979666357711687966=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 03 Jun 2024 17:04:05 -0000
-Message-Id: <171743424581.5638.12006048679124458843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 03 Jun 2024 17:04:12 -0000
+Message-Id: <171743425254.5745.18439924477538707410@gitolite.kernel.org>
 
---===============4232211355180172870==
+--===============8979666357711687966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/asoc-6.10
     old: c85578e730135d47271ca874e4436dd87e87f252
     new: c3f38fa61af77b49866b006939479069cd451173
     log: revlist-c85578e73013-c3f38fa61af7.txt
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/asoc-6.11
     old: 34864c05a54d1bc544c8c3939aababbc481d99e3
     new: 4ac0f06ca044e3ca938681a0eeb7d52a68b0b30f
     log: revlist-34864c05a54d-4ac0f06ca044.txt
 
---===============4232211355180172870==
+--===============8979666357711687966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1717434244 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1717434243-8adb5d23980e1f6d1e5fd47df3f484deb26e41fb
+pusher C3F436CA30F5D8EB 1717434250 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1717434249-d6ae8115d730939d60a062b72ecf68385b1426f2
 
-c85578e730135d47271ca874e4436dd87e87f252 c3f38fa61af77b49866b006939479069cd451173 refs/heads/for-6.10
-34864c05a54d1bc544c8c3939aababbc481d99e3 4ac0f06ca044e3ca938681a0eeb7d52a68b0b30f refs/heads/for-6.11
+c85578e730135d47271ca874e4436dd87e87f252 c3f38fa61af77b49866b006939479069cd451173 refs/heads/asoc-6.10
+34864c05a54d1bc544c8c3939aababbc481d99e3 4ac0f06ca044e3ca938681a0eeb7d52a68b0b30f refs/heads/asoc-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZd94QACgkQJNaLcl1U
-h9Cupwf+KFdZthlhRa0NwOymI9dwMjKHnuTn6zRotjpuPSJP9mahQdAW5zNBgDdL
-Bh1Nkaf9OG3q1p7nc+X4zLQ/XvtiJ7CGhq3qcQyA9uRtHRFLWzE62+ymL3Yn2zWw
-qMoFEuEA2BwnZUZ2WXtUNaK2aTOHPXQ+iCn7YscxK6eYj9b+8mTdvda94fHfG799
-npf1xfuBRbPJsJ7HeK0W12DObfByE1XjRUqhhDE8LezSEAv+sBUfxitBB2WB8tdr
-52R+xvHrZe8pWaNcExpxmm2dG/Ba7wmYMGgd/lX5NreHUmZqfmi/bUqSmn/Fs6nA
-Ydt413aNrMP1drkX6FCcENymydnW2A==
-=OX+Q
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZd94oACgkQJNaLcl1U
+h9A8Tgf+PFRymiC2bLcTcvweVfZzNPN34PZF/6Qh7zXg0bbXRyym3kZpCADVt5if
+KCuWGHV6RxrfhIB2rWDpwmPLPOjOr5LdP020xOsKo/pjm3owoDlAUK2PShtk01R4
+QkbYGQwODYAv0xVZl/VBG+0U7i9Gf4MUePK0XW3nkdEnmFZopFD+2TnIuKk0lfcx
+2NV2ldSbFLtV0SWdcB/uQgOjdlcRAoD7aImI0HFKost1bntHD8n65iQKUzW+OFua
+x/eBPEhmoo+c5laKeOSgL7llpjggTZ4/uY61ycPJvEUIPvhPoGVjU39/4yuVOkyx
+KCVAkgQaNoLOmlwI7JC2QUOhzPWHew==
+=01zV
 -----END PGP SIGNATURE-----
 
---===============4232211355180172870==
+--===============8979666357711687966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -364,7 +364,7 @@ a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of gi
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
 
---===============4232211355180172870==
+--===============8979666357711687966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -695,4 +695,4 @@ a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of gi
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
 4ac0f06ca044e3ca938681a0eeb7d52a68b0b30f ASoC: Merge up fixes
 
---===============4232211355180172870==--
+--===============8979666357711687966==--
