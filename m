@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1832284255615770270=="
+Content-Type: multipart/mixed; boundary="===============3185346954158020914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 03 Jun 2024 15:03:01 -0000
-Message-Id: <171742698148.13922.6401869372546349745@gitolite.kernel.org>
+Date: Mon, 03 Jun 2024 15:03:13 -0000
+Message-Id: <171742699332.14091.16758656006276324282@gitolite.kernel.org>
 
---===============1832284255615770270==
+--===============3185346954158020914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regmap-6.11
-    old: a8bd778958eface44a4931b30f1db5c98c9e6f40
-    new: 0ae747759930186fbc3ab470ac4e40899c52438c
-    log: revlist-a8bd778958ef-0ae747759930.txt
+  - ref: refs/heads/regulator-6.11
+    old: f31f012d799cb3a1ab0e99db3694dd5616e59947
+    new: 8832266dae4f4b401fedce537448bf0cda233b1a
+    log: revlist-f31f012d799c-8832266dae4f.txt
 
---===============1832284255615770270==
+--===============3185346954158020914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8bd778958ef-0ae747759930.txt
+Content-Disposition: attachment; filename=revlist-f31f012d799c-8832266dae4f.txt
 
 aed9a1a4f7106ff99a882ad06318cebfa71016a2 drm/nouveau: use tile_mode and pte_kind for VM_BIND bo allocations
 117bbc0e43adc6f76a3fc39a98f75a811a853459 drm/buddy: stop using PAGE_SIZE
@@ -170,7 +170,6 @@ d3e43a8fa43effdbb62c7edc206df7ac67772205 tpm: Enable TCG_TPM2_HMAC by default on
 8a42886cae307663f3f999846926bd6e64392000 ALSA: seq: Fix missing bank setup between MIDI1/MIDI2 UMP conversion
 a200df7deb3186cd7b55abb77ab96dfefb8a4f09 ALSA: seq: Don't clear bank selection at event -> UMP MIDI2 conversion
 e662c90a6debc3bd8d8eff916ad21d9ec458dfcd ALSA/hda: intel-dsp-config: reduce log verbosity
-72b6a2d6506843375c7b91197f49ef38ca0c6d0f regulator: rtq2208: Fix invalid memory access when devm_of_regulator_put_matches is called
 233e27b4d21c3e44eb863f03e566d3a22e81a7ae null_blk: Print correct max open zones limit in null_init_zoned_dev()
 bafea1c58b24be594d97841ced1b7ae0347bf6e3 sd: also set max_user_sectors when setting max_sectors
 e528bede6f4e6822afdf0fa80be46ea9199f0911 block: stack max_user_sectors
@@ -349,6 +348,6 @@ efa8f11a7ebeb8758dcd847a4b9a0cdcb68d9d87 Merge tag 'perf-urgent-2024-06-02' of g
 a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
-0ae747759930186fbc3ab470ac4e40899c52438c regmap: Merge up fixes
+8832266dae4f4b401fedce537448bf0cda233b1a regulator: Merge up fixes
 
---===============1832284255615770270==--
+--===============3185346954158020914==--
