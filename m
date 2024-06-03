@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3007700062892461291=="
+Content-Type: multipart/mixed; boundary="===============4117141932232811850=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 03 Jun 2024 10:37:21 -0000
-Message-Id: <171741104134.11853.16490291617677332142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 03 Jun 2024 10:37:33 -0000
+Message-Id: <171741105379.12030.7730306166542121597@gitolite.kernel.org>
 
---===============3007700062892461291==
+--===============4117141932232811850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: c3f38fa61af77b49866b006939479069cd451173
     log: revlist-1613e604df0c-c3f38fa61af7.txt
 
---===============3007700062892461291==
+--===============4117141932232811850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -350,4 +350,4 @@ a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of gi
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
 
---===============3007700062892461291==--
+--===============4117141932232811850==--
