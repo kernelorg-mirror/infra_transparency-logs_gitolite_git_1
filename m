@@ -1,51 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============7890272673260293596=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 03 Jun 2024 11:53:36 -0000
-Message-Id: <171741561621.2614.3224591040528866118@gitolite.kernel.org>
-
---===============7890272673260293596==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 03 Jun 2024 12:06:40 -0000
+Message-Id: <171741640053.12203.6902299206156740190@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/review-ilpo
-    old: d30f57b7413fc02d9899effd4084512603c134a7
-    new: 4894c364d502d44d7979d272aa49e3ffaf12f05c
+  - ref: refs/heads/main
+    old: 93e30878f7ecd775cb6e1e5aeed30d947a6cebad
+    new: 83042ce9b7c39b0e64094d86a70d62392ac21a06
     log: |
-         057e025a4f1c6f8612ddf19e621cf1b7c2e53c61 platform/x86: asus-tf103c-dock: Use 2-argument strscpy()
-         c5288cda69ee2d8607f5026bd599a5cebf0ee783 platform/x86: hp: hp-bioscfg: Use 2-argument strscpy()
-         914d906aec96fc1881060b20f0d017a0f0f5ce5d platform/x86: intel: chtwc_int33fe: Use 2-argument strscpy()
-         9a3291e930b0dba1efcdc2d0bd03626e97d7cc56 platform/x86: serial-multi-instantiate: Use 2-argument strscpy()
-         31edc07e4fa5d443e19c7912de91eb9c0555b231 platform/x86: think-lmi: Use 2-argument strscpy()
-         4894c364d502d44d7979d272aa49e3ffaf12f05c platform/x86: thinkpad_acpi: Use 2-argument strscpy()
+         454cfffe8dc112f1ed3966923f5dccdafa3bebf2 net: dsa: ocelot: use devres in ocelot_ext_probe()
+         90ee9a5b49cea302b666217068e52e0bb325304d net: dsa: ocelot: use devres in seville_probe()
+         cc711c523da7280c3bb01ec726596154f5af9798 net: dsa: ocelot: delete open coded status = "disabled" parsing
+         4510bbd38cbef7e6fc1a786f3e0213ba07fe0a00 net: dsa: ocelot: consistently use devres in felix_pci_probe()
+         0367a1775933aab80a99ebc91a14efbcaaa45a00 net: dsa: ocelot: move devm_request_threaded_irq() to felix_setup()
+         4ca54dd96eca57adea961c0e6cca28bf76168429 net: dsa: ocelot: use ds->num_tx_queues = OCELOT_NUM_TC for all models
+         efdbee7d07916d994bc0ff0235d00d46fa991b61 net: dsa: ocelot: common probing code
+         a4303941c6f399816eac0a56c627008a41c9336d net: dsa: ocelot: unexport felix_phylink_mac_ops and felix_switch_ops
+         83042ce9b7c39b0e64094d86a70d62392ac21a06 Merge branch 'Felix-DSA-probing-cleanup'
          
-
---===============7890272673260293596==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1717415611 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1717415609-62a27dd6563c9c2aa76d45b8ff66e7df5503e409
-
-d30f57b7413fc02d9899effd4084512603c134a7 4894c364d502d44d7979d272aa49e3ffaf12f05c refs/heads/review-ilpo
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZl2uugAKCRBZrE9hU+XO
-MRryAP9CUWmU52B+JpSmb4cglWsnW4Vd039D6ng0YnyNMX23TQEAyABFXyZRTprY
-SL4/p4ntcuN/WG5qqXSczN6vAU98EA8=
-=FU4j
------END PGP SIGNATURE-----
-
---===============7890272673260293596==--
