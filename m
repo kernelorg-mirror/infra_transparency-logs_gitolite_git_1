@@ -1,24 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7115681484459589769=="
+Content-Type: multipart/mixed; boundary="===============8780252070649613089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 03 Jun 2024 15:57:07 -0000
-Message-Id: <171743022712.21730.5882107425701712533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 03 Jun 2024 15:57:32 -0000
+Message-Id: <171743025221.21930.10638900627229744692@gitolite.kernel.org>
 
---===============7115681484459589769==
+--===============8780252070649613089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
-    old: 4cece764965020c22cff7665b18a012006359095
+    old: 45db3ab70092637967967bfd8e6144017638563c
     new: c3f38fa61af77b49866b006939479069cd451173
-    log: revlist-4cece7649650-c3f38fa61af7.txt
+    log: revlist-45db3ab70092-c3f38fa61af7.txt
   - ref: refs/tags/v6.10-rc1
     old: 0000000000000000000000000000000000000000
     new: cd214efd16e30bf1aa40ccfaaf9177f47dd21fd5
@@ -29,11 +29,11 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: d376cac46d30f3913ed0166151263b7d0ad7eed9
 
---===============7115681484459589769==
+--===============8780252070649613089==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4cece7649650-c3f38fa61af7.txt
+Content-Disposition: attachment; filename=revlist-45db3ab70092-c3f38fa61af7.txt
 
 e77f43d531af41e9ce299eab10dcae8fa5dbc293 Bluetooth: hci_core: Fix not handling hdev->le_num_of_adv_sets=1
 e5a43efba2560d617b06e59dc10d2f9de7d08e5f Bluetooth: btintel_pcie: Fix warning reported by sparse
@@ -1060,4 +1060,4 @@ a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of gi
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
 
---===============7115681484459589769==--
+--===============8780252070649613089==--
