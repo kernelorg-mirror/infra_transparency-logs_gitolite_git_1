@@ -1,16 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Mon, 03 Jun 2024 20:39:28 -0000
-Message-Id: <171744716847.6262.4917254543192247296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 03 Jun 2024 20:50:03 -0000
+Message-Id: <171744780350.14861.98271272351745256@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/tags/cxl-fixes-6.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 7cb8f66b840404362fae7c0d5d4cdb3828284ab1
+  - ref: refs/heads/io_uring-6.10
+    old: 5fc16fa5f13b3c06fdb959ef262050bd810416a2
+    new: 104fdbcf07a71a2435c3737c57b2927d0af260af
+    log: |
+         104fdbcf07a71a2435c3737c57b2927d0af260af io_uring/napi: fix timeout calculation
+         
+  - ref: refs/heads/master
+    old: c3f38fa61af77b49866b006939479069cd451173
+    new: f06ce441457d4abc4d76be7acba26868a2d02b1c
+    log: |
+         6c3ca6654a74dd396bc477839ba8d9792eced441 LoongArch: Remove CONFIG_ACPI_TABLE_UPGRADE in platform_init()
+         b56f67a6c748bb009f313f91651c8020d2338d63 LoongArch: Fix built-in DTB detection
+         3de9c42d02a79a5e09bbee7a4421ddc00cfd5c6d LoongArch: Add all CPUs enabled by fdt to NUMA node 0
+         beb2800074c15362cf9f6c7301120910046d6556 LoongArch: Fix entry point in kernel image header
+         1098efd299ffe9c8af818425338c7f6c4f930a98 LoongArch: Override higher address bits in JUMP_VIRT_ADDR
+         eb36e520f4f1b690fd776f15cbac452f82ff7bfa LoongArch: Fix GMAC's phy-mode definitions in dts
+         f06ce441457d4abc4d76be7acba26868a2d02b1c Merge tag 'loongarch-fixes-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+         
