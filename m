@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3760401201538328613=="
+Content-Type: multipart/mixed; boundary="===============9152438809928424737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 03 Jun 2024 18:09:01 -0000
-Message-Id: <171743814198.23582.8185642361662859460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Mon, 03 Jun 2024 18:09:15 -0000
+Message-Id: <171743815545.23767.18388830278096032207@gitolite.kernel.org>
 
---===============3760401201538328613==
+--===============9152438809928424737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/perf-tools
@@ -20,7 +20,7 @@ changes:
     new: d6283b160a12010b2113cc64726a3c9eda13dc5f
     log: revlist-4f1b067359ac-d6283b160a12.txt
 
---===============3760401201538328613==
+--===============9152438809928424737==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ac4b069035783f7a54b3ab841119f4b6bf435f98 tools arch x86: Sync the msr-index.h co
 2f523f29d3b19a668b8d4ce6f768d8faff976b3a tools headers UAPI: Update i915_drm.h with the kernel sources
 d6283b160a12010b2113cc64726a3c9eda13dc5f tools headers uapi: Sync linux/stat.h with the kernel sources to pick STATX_SUBVOL
 
---===============3760401201538328613==--
+--===============9152438809928424737==--
