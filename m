@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4599074468231941422=="
+Content-Type: multipart/mixed; boundary="===============9021906398944777061=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 03 Jun 2024 17:47:48 -0000
-Message-Id: <171743686844.7524.17370257222014251384@gitolite.kernel.org>
+Date: Mon, 03 Jun 2024 17:48:14 -0000
+Message-Id: <171743689449.7780.9386880089215599957@gitolite.kernel.org>
 
---===============4599074468231941422==
+--===============9021906398944777061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 1b7fff0c30af90baaf3258d8a3d839ef1cb731f7
-    new: 9c0b7ce51c5af61d67fc7e3db6c4c6223d5489f2
-    log: revlist-1b7fff0c30af-9c0b7ce51c5a.txt
+  - ref: refs/heads/m68k-queue
+    old: 3541d6c54ea47ade6b9519b2319ff09c7ea8cb9d
+    new: 00eacac8527368ba3bd0019e5a0167a4d7cfb6db
+    log: revlist-3541d6c54ea4-00eacac85273.txt
 
---===============4599074468231941422==
+--===============9021906398944777061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b7fff0c30af-9c0b7ce51c5a.txt
+Content-Disposition: attachment; filename=revlist-3541d6c54ea4-00eacac85273.txt
 
 aed9a1a4f7106ff99a882ad06318cebfa71016a2 drm/nouveau: use tile_mode and pte_kind for VM_BIND bo allocations
 117bbc0e43adc6f76a3fc39a98f75a811a853459 drm/buddy: stop using PAGE_SIZE
@@ -349,6 +349,8 @@ efa8f11a7ebeb8758dcd847a4b9a0cdcb68d9d87 Merge tag 'perf-urgent-2024-06-02' of g
 a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
-9c0b7ce51c5af61d67fc7e3db6c4c6223d5489f2 Merge tag 'v6.10-rc2'
+41d9ace280a7c3f49d806b78feaec8c2a6ef4ff9 m68k: atari: usb: Add ISP1160 USB host controller support
+e97a89d351885636c2fdaec0a5f3c2aeea5be3b0 m68k: atari: Update Kconfig.bus help text
+00eacac8527368ba3bd0019e5a0167a4d7cfb6db m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4599074468231941422==--
+--===============9021906398944777061==--
