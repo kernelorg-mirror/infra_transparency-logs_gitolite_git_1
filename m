@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Mon, 03 Jun 2024 14:20:04 -0000
-Message-Id: <171742440497.15010.7276061419299633527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Mon, 03 Jun 2024 14:20:30 -0000
+Message-Id: <171742443016.15224.15966410427332403086@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/master
-    old: 93dc85482a998440f8e40814014da8cbfe9cf5e8
-    new: 1757469a81cac5bd662b9cde26f1e5d4f0402181
-    log: |
-         87a4903f6cf07d3c16f292aea74c1cb42b924439 io_uring: Add 'write_mode' option for optional cmds
-         1757469a81cac5bd662b9cde26f1e5d4f0402181 Merge branch 'io_uring_cmd/support-write-family' of https://github.com/samsungds/fio
-         
+  - ref: refs/tags/loongarch-fixes-6.10-1
+    old: 0000000000000000000000000000000000000000
+    new: c4fdbc27ca36c2e014f69704e05b617babeb0e52
