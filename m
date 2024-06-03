@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============4640562595506228982=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 03 Jun 2024 14:51:48 -0000
-Message-Id: <171742630829.5553.1887770623667433386@gitolite.kernel.org>
-
---===============4640562595506228982==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 03 Jun 2024 14:56:55 -0000
+Message-Id: <171742661511.9641.6382872029274596131@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: f7c49ee61b1e888b228df61664720eb7f18e5a09
-    new: d47074144878a7e027e20c90d00159d2e35bd9d1
+    old: 96a27ee76f0e95b56f94b6902da7a5ebef372612
+    new: a450d36b05fa225b071ce9fbf522544caea06594
     log: |
-         d47074144878a7e027e20c90d00159d2e35bd9d1 Improve auto-noparenting logic to require a diff/diffstat
+         dfa7c9ffa607235119e029b70ced72f29059f8f3 selftests/bpf: Remove unused struct 'scale_test_def'
+         3f67639d8e582c89c79549c619b22a00dd330e4e selftests/bpf: Remove unused 'key_t' structs
+         a450d36b05fa225b071ce9fbf522544caea06594 selftests/bpf: Remove unused struct 'libcap'
          
-
---===============4640562595506228982==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1717426307 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1717426307-178f8547a4d038de90a2914dc3c7eacac8e9fee2
-
-f7c49ee61b1e888b228df61664720eb7f18e5a09 d47074144878a7e027e20c90d00159d2e35bd9d1 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZl3YgwAKCRC2xBzjVmSZ
-bMYIAP9NeerqSTyuEuH8baHwhj/TXQ6sCkUYMzrJiI1ki7wKXwEAl00zMqpdTQG5
-USgiFjPH7pa6dGVFSY4hxxArKhXLrQQ=
-=2kv0
------END PGP SIGNATURE-----
-
---===============4640562595506228982==--
