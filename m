@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 03 Jun 2024 16:03:24 -0000
-Message-Id: <171743060419.25892.8451273272941409935@gitolite.kernel.org>
+Date: Mon, 03 Jun 2024 16:05:10 -0000
+Message-Id: <171743071009.28183.15556220316875476037@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/filencCojq
+  - ref: refs/heads/v4_20240529_shengjiu_wang_asoc_fsl_xcvr_support_i_mx95_platform
     old: 0000000000000000000000000000000000000000
-    new: 76f19626bd35a1791faeb75264d358256ebc544c
+    new: f13b349e3c70320ef5a86edfc888a6feb612abb0
