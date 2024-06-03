@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5318562975842697593=="
+Content-Type: multipart/mixed; boundary="===============7722036788945762367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 03 Jun 2024 19:19:14 -0000
-Message-Id: <171744235411.10756.14755942237972093458@gitolite.kernel.org>
+Date: Mon, 03 Jun 2024 19:19:21 -0000
+Message-Id: <171744236190.10902.1035259466451088701@gitolite.kernel.org>
 
---===============5318562975842697593==
+--===============7722036788945762367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 13c7c941e72908b8cce5a84b45a7b5e485ca12ed
-    new: 6149db4997f582e958da675092f21c666e3b67b7
-    log: revlist-13c7c941e729-6149db4997f5.txt
-  - ref: refs/tags/v6.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cd214efd16e30bf1aa40ccfaaf9177f47dd21fd5
+  - ref: refs/heads/dev-queue
+    old: 0275894f7a252220feac00bedc4dfe5ae8508f0c
+    new: cb2b9df896f1c38b736a699476bb513faa4eb5da
+    log: revlist-0275894f7a25-cb2b9df896f1.txt
 
---===============5318562975842697593==
+--===============7722036788945762367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13c7c941e729-6149db4997f5.txt
+Content-Disposition: attachment; filename=revlist-0275894f7a25-cb2b9df896f1.txt
 
 c7df39b2a5643c4df566fb23951f619f8c639042 Input: stmpe - drop driver owner assignment
 bf32bceedd0453c70d9d022e2e29f98e446d7161 Input: ims-pcu - fix printf string overflow
@@ -400,5 +397,24 @@ d1f0bd01bc58f35b5353ad9dbe5f7249a8f3368e virtio_net: fix a spurious deadlock iss
 e85e271dec0270982afed84f70dc37703fcc1d52 net/ncsi: Fix the multi thread manner of NCSI driver
 33700a0c9b562700c28d31360a5f04508f459a45 net/tcp: Don't consider TCP_CLOSE in TCP_AO_ESTABLISHED
 6149db4997f582e958da675092f21c666e3b67b7 net: phy: micrel: fix KSZ9477 PHY issues after suspend/resume
+e86224e5cacab6122d3a5c9fb4f3105406468613 ice: fix iteration of TLVs in Preserved Fields Area
+c34efac5bc581f16e54d458d12bb2efaa8b18769 ice: fix reads from NVM Shadow RAM on E830 and E825-C devices
+5a0c9027b897b45a3fdd3b5300b5d0f8ad36b4d0 ice: remove af_xdp_zc_qps bitmap
+3ffdaed8dd77e1ee9dd0dbed229c9b75a83453e9 ice: add flag to distinguish reset from .ndo_bpf in XDP rings config
+83775be76688d3ee4d7f1187ff070eb5e99465a6 ice: map XDP queues to vectors in ice_vsi_map_rings_to_vectors()
+5e16932c8dc9743c5a45d553c62d7c78730a7f98 i40e: Fix XDP program unloading while removing the driver
+a042cf4d1830f96dd20c95ed621bfaaa909a2289 ice: implement AQ download pkg retry
+bba43f5d8999eed7d9c6c10f8a8d3eb201f2c741 igc: Fix Energy Efficient Ethernet support declaration
+a357c8d36dc64152066dfcbdba98298274fba089 Revert "igc: fix a log entry using uninitialized netdev"
+2aecd79e0b03f38fa267e79bffd95d9c7be48270 ice: Rebuild TC queues on VSI queue reconfiguration
+4fb98070c8fda7c59ca3e9af7d3ffbfd28bbc218 ice: respect netif readiness in AF_XDP ZC related ndo's
+cec8f64cfd338b30bc9ad1b94568c36d20c57aac ice: don't busy wait for Rx queue disable in ice_qp_dis()
+e64ed541f20f53d1912fa1df38a1744a2b6f4b22 ice: replace synchronize_rcu with synchronize_net
+877d25796c3eb641cd97384996bfe986af1bb87d ice: modify error handling when setting XSK pool in ndo_bpf
+150d04117a5634867ef095ff374aa6d6b9282f1c ice: toggle netif_carrier when setting up XSK pool
+5efc28e5d633d35412d2152620cce5d1c0a8bd56 ice: improve updating ice_{t, r}x_ring::xsk_pool
+b06aaa30ff7f31f25fd68b05d5eb488ad2e469a5 ice: add missing WRITE_ONCE when clearing ice_rx_ring::xdp_prog
+4b7736089672bd9e596b48344b6cbbeb3e7ae000 ice: xsk: fix txq interrupt mapping
+cb2b9df896f1c38b736a699476bb513faa4eb5da ice: avoid IRQ collision to fix init failure on ACPI S3 resume
 
---===============5318562975842697593==--
+--===============7722036788945762367==--
