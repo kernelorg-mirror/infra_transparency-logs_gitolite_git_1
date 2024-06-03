@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 03 Jun 2024 14:05:13 -0000
-Message-Id: <171742351377.3552.9830447417696252090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Mon, 03 Jun 2024 14:07:27 -0000
+Message-Id: <171742364732.5724.14158069330510536844@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 3a40985960bcab918da23f8945ab0cd3be12d716
-    new: ea95bd851068803eb37693b2e32111b88077c901
+  - ref: refs/heads/sunxi/dt-for-6.11
+    old: d4ec229eaeb8453ad7244fc1d919ac51ac5ba394
+    new: bba474656dd85b13e4c5d5bdb73ca08d9136df21
     log: |
-         ea95bd851068803eb37693b2e32111b88077c901 gpiolib: make gpiochip_set_desc_names() return void
+         bba474656dd85b13e4c5d5bdb73ca08d9136df21 ARM: dts: sunxi: remove duplicated entries in makefile
+         
+  - ref: refs/heads/sunxi/for-next
+    old: 1123b5f0a935c9cf49a28526e715edd2c9877b99
+    new: 5a50243ac44ce082259173d43e8dccf90ae86b31
+    log: |
+         bba474656dd85b13e4c5d5bdb73ca08d9136df21 ARM: dts: sunxi: remove duplicated entries in makefile
+         5a50243ac44ce082259173d43e8dccf90ae86b31 Merge branch 'sunxi/dt-for-6.11' into sunxi/for-next
          
