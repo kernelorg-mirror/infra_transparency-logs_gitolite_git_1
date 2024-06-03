@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1145004211989491501=="
+Content-Type: multipart/mixed; boundary="===============1832284255615770270=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 03 Jun 2024 15:02:50 -0000
-Message-Id: <171742697089.13803.12272883796255640264@gitolite.kernel.org>
+Date: Mon, 03 Jun 2024 15:03:01 -0000
+Message-Id: <171742698148.13922.6401869372546349745@gitolite.kernel.org>
 
---===============1145004211989491501==
+--===============1832284255615770270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.11
-    old: 34864c05a54d1bc544c8c3939aababbc481d99e3
-    new: 4ac0f06ca044e3ca938681a0eeb7d52a68b0b30f
-    log: revlist-34864c05a54d-4ac0f06ca044.txt
+  - ref: refs/heads/regmap-6.11
+    old: a8bd778958eface44a4931b30f1db5c98c9e6f40
+    new: 0ae747759930186fbc3ab470ac4e40899c52438c
+    log: revlist-a8bd778958ef-0ae747759930.txt
 
---===============1145004211989491501==
+--===============1832284255615770270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-34864c05a54d-4ac0f06ca044.txt
+Content-Disposition: attachment; filename=revlist-a8bd778958ef-0ae747759930.txt
 
 aed9a1a4f7106ff99a882ad06318cebfa71016a2 drm/nouveau: use tile_mode and pte_kind for VM_BIND bo allocations
 117bbc0e43adc6f76a3fc39a98f75a811a853459 drm/buddy: stop using PAGE_SIZE
@@ -349,6 +349,6 @@ efa8f11a7ebeb8758dcd847a4b9a0cdcb68d9d87 Merge tag 'perf-urgent-2024-06-02' of g
 a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
-4ac0f06ca044e3ca938681a0eeb7d52a68b0b30f ASoC: Merge up fixes
+0ae747759930186fbc3ab470ac4e40899c52438c regmap: Merge up fixes
 
---===============1145004211989491501==--
+--===============1832284255615770270==--
