@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Mon, 03 Jun 2024 12:11:47 -0000
-Message-Id: <171741670758.16937.2008668807767090146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 03 Jun 2024 12:14:25 -0000
+Message-Id: <171741686532.17938.7607705306104516270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
-user: vkoul
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/gpio/for-current
     old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    new: e2d8ea0a066a6db51f31efd2710057271d685d2e
+    new: 90dd7de4ef7ba584823dfbeba834c2919a4bb55b
     log: |
-         e2d8ea0a066a6db51f31efd2710057271d685d2e soundwire: fix usages of device_get_named_child_node()
-         
-  - ref: refs/heads/next
-    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    new: 9b5fd115e7d5a98b82054cff5c96f6768ee06845
-    log: |
-         fe46d2a4301de1299fb32c0317ec316706ceaad6 soundwire: debugfs: add interface to read/write commands
-         a5b7365f28c191df6b93f60942d2b9a9fe71746c soundwire: bus: add stream refcount
-         9b5fd115e7d5a98b82054cff5c96f6768ee06845 soundwire: intel_ace2.x: add AC timing extensions for PantherLake
+         8c219e52ca4d9a67cd6a7074e91bf29b55edc075 gpio: tqmx86: fix typo in Kconfig label
+         9d6a811b522ba558bcb4ec01d12e72a0af8e9f6e gpio: tqmx86: introduce shadow register for GPIO output value
+         08af509efdf8dad08e972b48de0e2c2a7919ea8b gpio: tqmx86: store IRQ trigger type and unmask status separately
+         90dd7de4ef7ba584823dfbeba834c2919a4bb55b gpio: tqmx86: fix broken IRQ_TYPE_EDGE_BOTH interrupt type
          
