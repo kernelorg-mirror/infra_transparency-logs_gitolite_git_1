@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3185346954158020914=="
+Content-Type: multipart/mixed; boundary="===============5941128918236695003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 03 Jun 2024 15:03:13 -0000
-Message-Id: <171742699332.14091.16758656006276324282@gitolite.kernel.org>
+Date: Mon, 03 Jun 2024 15:03:25 -0000
+Message-Id: <171742700583.14261.3104001920770256520@gitolite.kernel.org>
 
---===============3185346954158020914==
+--===============5941128918236695003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regulator-6.11
-    old: f31f012d799cb3a1ab0e99db3694dd5616e59947
-    new: 8832266dae4f4b401fedce537448bf0cda233b1a
-    log: revlist-f31f012d799c-8832266dae4f.txt
+  - ref: refs/heads/spi-6.11
+    old: 4ccaf60062c3682cf4f1438b143c29648edadfda
+    new: 22aaae482044b8bfa11f2c2d5725f4cd1b3064f9
+    log: revlist-4ccaf60062c3-22aaae482044.txt
 
---===============3185346954158020914==
+--===============5941128918236695003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f31f012d799c-8832266dae4f.txt
+Content-Disposition: attachment; filename=revlist-4ccaf60062c3-22aaae482044.txt
 
 aed9a1a4f7106ff99a882ad06318cebfa71016a2 drm/nouveau: use tile_mode and pte_kind for VM_BIND bo allocations
 117bbc0e43adc6f76a3fc39a98f75a811a853459 drm/buddy: stop using PAGE_SIZE
@@ -38,14 +38,10 @@ e8dc41afca161b988e6d462f4d0803d247e22250 pmdomain: imx: gpcv2: Add delay after p
 d3a043733f25d743f3aa617c7f82dbcb5ee2211a nvme-multipath: find NUMA path only for online numa-node
 8d00547ea8754afdc4a550af2fb7af2e3ba93cf8 MAINTAINERS: Add myself as reviewer of ARM64 BPF JIT
 c898afdc15645efb555acb6d85b484eb40a45409 9p: add missing locking around taking dentry fid list
-9f788ba457b45b0ce422943fcec9fa35c4587764 spi: Don't mark message DMA mapped when no transfer in it is
-da560097c05612f8d360f86528f6213629b9c395 spi: Check if transfer is mapped before calling DMA sync APIs
-a827ad9b3c2fc243e058595533f91ce41a312527 spi: stm32: Revert change that enabled controller before asserting CS
 bb9025f4432f8c158322cf2c04c2b492f23eb511 dma-mapping: benchmark: fix up kthread-related error handling
 f7c9ccaadffd13066353332c13d7e9bf73b8f92d dma-mapping: benchmark: avoid needless copy_to_user if benchmark fails
 1ff05e723f7ca30644b8ec3fb093f16312e408ad dma-mapping: benchmark: fix node id validation
 e64746e74f717961250a155e14c156616fcd981f dma-mapping: benchmark: handle NUMA_NO_NODE correctly
-3aac9f4885922ad0fc01b86f85903768219475a3 soi: Don't call DMA sync API when not needed
 36f53d622a216ce80e568b8ca899bfbacb2592d4 Merge tag 'drm-misc-fixes-2024-05-16' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
 2fe7b422460d14b33027d8770f7be8d26bcb2639 nvme: fix multipath batched completion accounting
 a2e4c5f5f68dbd206f132bc709b98dea64afc3b8 nvme-multipath: fix io accounting on failover
@@ -170,6 +166,7 @@ d3e43a8fa43effdbb62c7edc206df7ac67772205 tpm: Enable TCG_TPM2_HMAC by default on
 8a42886cae307663f3f999846926bd6e64392000 ALSA: seq: Fix missing bank setup between MIDI1/MIDI2 UMP conversion
 a200df7deb3186cd7b55abb77ab96dfefb8a4f09 ALSA: seq: Don't clear bank selection at event -> UMP MIDI2 conversion
 e662c90a6debc3bd8d8eff916ad21d9ec458dfcd ALSA/hda: intel-dsp-config: reduce log verbosity
+72b6a2d6506843375c7b91197f49ef38ca0c6d0f regulator: rtq2208: Fix invalid memory access when devm_of_regulator_put_matches is called
 233e27b4d21c3e44eb863f03e566d3a22e81a7ae null_blk: Print correct max open zones limit in null_init_zoned_dev()
 bafea1c58b24be594d97841ced1b7ae0347bf6e3 sd: also set max_user_sectors when setting max_sectors
 e528bede6f4e6822afdf0fa80be46ea9199f0911 block: stack max_user_sectors
@@ -348,6 +345,6 @@ efa8f11a7ebeb8758dcd847a4b9a0cdcb68d9d87 Merge tag 'perf-urgent-2024-06-02' of g
 a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
-8832266dae4f4b401fedce537448bf0cda233b1a regulator: Merge up fixes
+22aaae482044b8bfa11f2c2d5725f4cd1b3064f9 spi: Merge up fixes
 
---===============3185346954158020914==--
+--===============5941128918236695003==--
