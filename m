@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4119911864330024526=="
+Content-Type: multipart/mixed; boundary="===============5499858859400944448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Mon, 03 Jun 2024 06:55:47 -0000
-Message-Id: <171739774751.15226.2134023909309659120@gitolite.kernel.org>
+Date: Mon, 03 Jun 2024 06:55:52 -0000
+Message-Id: <171739775283.15349.16955384919448358891@gitolite.kernel.org>
 
---===============4119911864330024526==
+--===============5499858859400944448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/spdx-linus
     old: c760b3725e52403dc1b28644fb09c47a83cacea6
     new: c3f38fa61af77b49866b006939479069cd451173
     log: revlist-c760b3725e52-c3f38fa61af7.txt
 
---===============4119911864330024526==
+--===============5499858859400944448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717397757 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717397763 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1717397744-fda30e1180b62b29653461f0720ad7d498eb0ddd
+nonce 1717397751-4ef53601831c09b10fc1646b3c4b491d59c86719
 
-c760b3725e52403dc1b28644fb09c47a83cacea6 c3f38fa61af77b49866b006939479069cd451173 refs/heads/main
+c760b3725e52403dc1b28644fb09c47a83cacea6 c3f38fa61af77b49866b006939479069cd451173 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZdaP0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6okP/0EveC3RRaSD1Ps20iah
-oYYvVGY0S7OXfdYnthV8Xzg5C69OlWGxum7S2JiivhF0CICm3hGw/vtufu1H0Gss
-77evSIGYV2sRXGxs4PteuAkMPj8v1l1fnGdgBbPo0NX2704COOxoh/h7RH0FWVJz
-dVKXDoSI65DEiv46GxaT0gm1m1mWXrBEBhGXYyc20JieEJmgb0Ck17WX+lcA0Ot/
-GojrMaiY8qPIqsf5XHlH5kH+w4gXljgYXNAJrJVJgZNFrLp1ziJMyZAe1CaBfaqu
-vyNfSmZzCk9alHRgRMXWVnVwFYaLNocKH8uvTOOnXuY8RM+0oKYEY4upYOjmcDrL
-MubVKcOUk4+2AqA31gQH4btLDNlnelcGPBr7wzE8HLhhzouGk2QVN4eP7EUX98gL
-5ErVzS2G2qdl/2L5QfVxnJMZU1bAgt1CaRz8FlvRmu7XUw0bXs7kZRxs8+nFu0qi
-5+9p6HifHfXawVyTMNt9V6wsXgjNKN90qWu6OgQHwXPxab3G71w+FbfEsKJw2CIA
-6HGd7l2tTPdZsx6qQMPuKSk0tE7XdiC6AxAt0kB5rZCnN6CfDjeUGWwHkuQ+j9Rf
-hjoO8YmeHQWeDwTWo90ACjVPwPWcugM7Xu17HK0JYJYFV6+iyN7EGS81n9C6uicR
-xjrjJ8HMjX0pSCOKdHjGuIXd
-=5wi/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZdaQMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X+UQAIQQybmqGln0RwvGXADU
+8fsddyEM8FaxXb6pim54zjkVECrAeLDSHSCflgq++mzFG/IyZ+ZufCNC41994VB9
+bOQVfUOQBHC9bYHhOznPYVZNsOAcHT1u5Bygx5en4t7NVvP9bDK33gWE0Dc9b/3D
+dYaMLPKnBxZjsziXS0FmDCDsvabiD9OL6gj4PRLg56mpM4L/krEr+goRJ3/JFxZv
+xOAD6H89Rz59jx1zFwJ+/M6gmbGF+iMg0HKF6Juc6XJfRmiW+FNTB96ioDeJY1GI
+BezF5lwTvfW7qHFVzXOpYOhPFRl0lSqjkn0XMzD9P7Jd7+kw29BsMwRPZftYbknr
+frkooMorOZwQapkTh7hRFk52/ubEv2amKX0D+oj6Ltk3xk1YaIOSJbv/SPaMEH41
+RwJ4eyxyKdPkasUAWPt9Xok5R9Vg9csHuJcn1cwMdnJcw06+ZPyuNI+FfbN/e3u8
+ADW5ZYGGazPJBGVWFNUSfTpdGf4xGSOxWMhnyjXuGsm0RlxSQHJgRIslGL6o2o2o
+9AIS7uMInrMFn8VkPvIgSGqISABi4sRlEuawgFGIfHNguY1Rv7hUYUQvwR/n1cJd
+JxM4GNyftUzGKWXRhP/9DiVv9jhd/gfbp+Wn/jqouaVQdg49kojdh4MuT1J+XFSl
+hDWA37qg0XbOa45S5Xch0P6+
+=IzRG
 -----END PGP SIGNATURE-----
 
---===============4119911864330024526==
+--===============5499858859400944448==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -831,4 +831,4 @@ a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of gi
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
 
---===============4119911864330024526==--
+--===============5499858859400944448==--
