@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1070478948942029944=="
+Content-Type: multipart/mixed; boundary="===============5589458095159929739=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Mon, 03 Jun 2024 07:46:23 -0000
-Message-Id: <171740078319.20313.14483005248800720709@gitolite.kernel.org>
+Date: Mon, 03 Jun 2024 07:46:31 -0000
+Message-Id: <171740079197.20421.5425034665941188255@gitolite.kernel.org>
 
---===============1070478948942029944==
+--===============5589458095159929739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: 4f5fc9b2698682a77aff0ada7a4d407bd69285f1
     new: eb36e520f4f1b690fd776f15cbac452f82ff7bfa
     log: revlist-4f5fc9b26986-eb36e520f4f1.txt
 
---===============1070478948942029944==
+--===============5589458095159929739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -356,4 +356,4 @@ beb2800074c15362cf9f6c7301120910046d6556 LoongArch: Fix entry point in kernel im
 1098efd299ffe9c8af818425338c7f6c4f930a98 LoongArch: Override higher address bits in JUMP_VIRT_ADDR
 eb36e520f4f1b690fd776f15cbac452f82ff7bfa LoongArch: Fix GMAC's phy-mode definitions in dts
 
---===============1070478948942029944==--
+--===============5589458095159929739==--
