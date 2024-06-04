@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6243997426597092887=="
+Content-Type: multipart/mixed; boundary="===============4584161048288034941=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 04 Jun 2024 00:53:52 -0000
-Message-Id: <171746243244.30948.11520871944491275911@gitolite.kernel.org>
+Date: Tue, 04 Jun 2024 00:53:55 -0000
+Message-Id: <171746243504.31020.3533575509866558161@gitolite.kernel.org>
 
---===============6243997426597092887==
+--===============4584161048288034941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,32 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: c3f38fa61af77b49866b006939479069cd451173
-    new: 66b9a4ab75e8ce82faf9ec5344a870c768aeed78
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 5fb9780aa9108e1b43281be3a07c1d19487e2e8c
+    new: 2b74cb7f54b6dbd9b20b5d8b60c7dce34073b6c1
     log: |
          66b9a4ab75e8ce82faf9ec5344a870c768aeed78 i2c: at91: Fix the functionality flags of the slave-only interface
+         2b74cb7f54b6dbd9b20b5d8b60c7dce34073b6c1 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
          
 
---===============6243997426597092887==
+--===============4584161048288034941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1717462431 +0100
+pusher andi.shyti@kernel.org 1717462434 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1717462431-cfdb6dd738a7724bd71c0559865e541668cb7973
+nonce 1717462433-0834b93285c1c59ba5cb95f30a33fbe15252eb48
 
-c3f38fa61af77b49866b006939479069cd451173 66b9a4ab75e8ce82faf9ec5344a870c768aeed78 refs/heads/i2c/i2c-host-fixes
+5fb9780aa9108e1b43281be3a07c1d19487e2e8c 2b74cb7f54b6dbd9b20b5d8b60c7dce34073b6c1 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZl5lnxYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1udWgBAKq8VBMkGIE5TrWVlhTMthRXjjYO
-HVwgFDggUs3r8kiMAQDfCb61wEuRPrOIE3UXEZ7qRfC+jeeOyWiYFF9VfxlGBA==
-=Rn2/
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZl5lohYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uvTQA/0CFmp0o7GIcJdWu5rifyt3pVh9W
+U7ZLSAfFNfyfyVLBAP0X03Lnkq+iExQM/DP5ub2k0yMWU5vXFG1wmJisG83NAQ==
+=b0Jg
 -----END PGP SIGNATURE-----
 
---===============6243997426597092887==--
+--===============4584161048288034941==--
