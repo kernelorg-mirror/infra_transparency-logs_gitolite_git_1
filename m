@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5002222407996815516=="
+Content-Type: multipart/mixed; boundary="===============5714493894865326597=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 04 Jun 2024 19:04:47 -0000
-Message-Id: <171752788793.32372.13627555320933787232@gitolite.kernel.org>
+Date: Tue, 04 Jun 2024 19:05:07 -0000
+Message-Id: <171752790738.1853.1814723040493160198@gitolite.kernel.org>
 
---===============5002222407996815516==
+--===============5714493894865326597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: b3019fcdeb286b2cfe45e44bccb44dbcd8ff66dd
+  - ref: refs/heads/togreg
+    old: 15895709c7dc5f1a8b53b3564fc2bed724209611
     new: 823c485ffd062e067ab49ab694ee2a18e27d45c0
-    log: revlist-b3019fcdeb28-823c485ffd06.txt
+    log: revlist-15895709c7dc-823c485ffd06.txt
 
---===============5002222407996815516==
+--===============5714493894865326597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3019fcdeb28-823c485ffd06.txt
+Content-Disposition: attachment; filename=revlist-15895709c7dc-823c485ffd06.txt
 
 f311151600dc104e6eeb0d0437582e0cf37d6962 iio: adc: ad7192: Use standard attribute
 ecec83a236db6b0966d790fd582884b510ee11a3 dt-bindings: iio: adc: ad7192: Add aincom supply
@@ -86,4 +86,4 @@ f8a5217d06e2f7b913c45ddf868273f61aef89a5 iio: dac: ad9739a: drop COMPILE_TEST op
 b6b86fdb539b05e6bbfc84c45ae96ea22aad94e2 iio: accel: mma7660: add mount-matrix support
 823c485ffd062e067ab49ab694ee2a18e27d45c0 iio: adc: ti-adc161s626: make use of iio_device_claim_direct_scoped()
 
---===============5002222407996815516==--
+--===============5714493894865326597==--
