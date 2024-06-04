@@ -1,63 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============2586464688152994485=="
+Content-Type: multipart/mixed; boundary="===============0018064868967070483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 04 Jun 2024 11:53:35 -0000
-Message-Id: <171750201521.20043.13214110655657904957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 04 Jun 2024 11:53:41 -0000
+Message-Id: <171750202179.20142.14512689101923997488@gitolite.kernel.org>
 
---===============2586464688152994485==
+--===============0018064868967070483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
-    old: 95d7c452a26564ef0c427f2806761b857106d8c4
+  - ref: refs/heads/spi-6.10
+    old: 4a69c1264ff41bc5bf7c03101ada0454fbf08868
     new: c3f38fa61af77b49866b006939479069cd451173
-    log: revlist-95d7c452a265-c3f38fa61af7.txt
-  - ref: refs/heads/for-6.11
+    log: revlist-4a69c1264ff4-c3f38fa61af7.txt
+  - ref: refs/heads/spi-6.11
     old: 4ccaf60062c3682cf4f1438b143c29648edadfda
     new: 22aaae482044b8bfa11f2c2d5725f4cd1b3064f9
     log: revlist-4ccaf60062c3-22aaae482044.txt
 
---===============2586464688152994485==
+--===============0018064868967070483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1717502013 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1717502012-d17273a27caea5d98c187039ebc29cb9fb4579cb
+pusher C3F436CA30F5D8EB 1717502019 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1717502019-8a687572e795147e1ed9fe9f42859a67db789080
 
-95d7c452a26564ef0c427f2806761b857106d8c4 c3f38fa61af77b49866b006939479069cd451173 refs/heads/for-6.10
-4ccaf60062c3682cf4f1438b143c29648edadfda 22aaae482044b8bfa11f2c2d5725f4cd1b3064f9 refs/heads/for-6.11
+4a69c1264ff41bc5bf7c03101ada0454fbf08868 c3f38fa61af77b49866b006939479069cd451173 refs/heads/spi-6.10
+4ccaf60062c3682cf4f1438b143c29648edadfda 22aaae482044b8bfa11f2c2d5725f4cd1b3064f9 refs/heads/spi-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZfAD0ACgkQJNaLcl1U
-h9Dxywf7BWpspr/BPYzQ8H+/vN51cRrimArqBnWygDjr3a/YnzHCAOb+ULxYD/dS
-C1A+xyX6fvImNYQUiObueBJ0AnbnqHfke7SZhLnGZOK6sKZiTo1xCTdMcMWKUHcH
-9yoCNs5jd/H8SeU4ijpuxlHO6X2nPq3h+6T+U1N2UMOFwzAbJkSBOCVVDN/bAw93
-HFOQTlTEyuq0WhEDsU+dxEuSb7BMdkbgtMZUlrCvarCc9siJz9YgaVMjcEljaEmC
-3w2S/MXX7HjBpbNmp5WVbToqRc3WwaBhnUYISlAA4erKnY0UBcbJPLDXJFspFqf2
-T8L84++DkQutRZQZe00hf3PA2EsFBg==
-=9y5l
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZfAEMACgkQJNaLcl1U
+h9DcyQf/TrmLTKBTmRxxCIItrOKa15OB3ZMVdCvhZN7HPD+3XW9oV+2+QDn+Ndvx
+EwJDtjY+yqqzgFtt2ys3h54MRCvElyU4JhYGSwRTImB9DlSZpJ17fkKulVSysrjF
+vzPGNAVCRA4qO6EpnnZV9Gn7xVBlOxDg1suCXBK4h8nGVwth7Cl+k/+gMGgf326I
+xAbqCD1z0EPCJj8yNJaJaeuw2QHvmqF7l9EdKga4Dbi63Ki6i1Q8VOKdtyzu+HW+
+9hpTTjpmbtbRm81jMKLTZ2RD/huJ6L4Qs82LHtDFyOgZxOFk3AC9ZlrsW4qBnTfD
+b/yIgCglGBq7NYb+8XThX1pQBQQnyg==
+=C2gC
 -----END PGP SIGNATURE-----
 
---===============2586464688152994485==
+--===============0018064868967070483==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-95d7c452a265-c3f38fa61af7.txt
+Content-Disposition: attachment; filename=revlist-4a69c1264ff4-c3f38fa61af7.txt
 
-a5b862c6a221459d54e494e88965b48dcfa6cc44 Bluetooth: L2CAP: Fix div-by-zero in l2cap_le_flowctl_init()
-84a4bb6548a29326564f0e659fb8064503ecc1c7 Bluetooth: HCI: Remove HCI_AMP support
 67d4dbac3b8c48ada784ae923f7cd68dfac509ec Bluetooth: btintel: Export few static functions
 c2b636b3f788d10486a6691ad6dd3ec4c93bd78e Bluetooth: btintel_pcie: Add support for PCIe transport
 6e65a09f927566f257322358d429b267548473eb Bluetooth: btintel_pcie: Add *setup* function to download firmware
@@ -970,6 +968,7 @@ e9022b31db80019025967b03df1d059433e9f26d MAINTAINERS: dwmac: starfive: update Ma
 b1e7cee96127468c2483cf10c2899c9b5cf79bf8 powerpc/bpf: enforce full ordering for ATOMIC operations with BPF_FETCH
 ffa077b2f6ad124ec3d23fbddc5e4b0ff2647af8 ASoC: SOF: ipc4-topology: Fix input format query of process modules without base extension
 ba2e8323d7b71781c7da02e83d813af9ab7fe1f9 ASoC: SOF: add missing MODULE_DESCRIPTION
+9dedabe95b49ec9b0d16ce8f0ed1f9a12dd4a040 spi: Assign dummy scatterlist to unidirectional transfers
 06fe9b1df1086b42718d632aa57e8f7cd1a66a21 io_uring: don't attempt to mmap larger than what the user asks for
 db163660b02abbffebfad1bcd6dbce1201c72731 Merge tag 'v6.10-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 3bd27a847a3a4827a948387cc8f0dbc9fa5931d5 kheaders: explicitly define file modes for archived headers
@@ -979,6 +978,7 @@ db163660b02abbffebfad1bcd6dbce1201c72731 Merge tag 'v6.10-p3' of git://git.kerne
 4a4be1ad3a6efea16c56615f31117590fd881358 Revert "vfs: Delete the associated dentry when deleting a file"
 ac0d71ee534e67c7e53439e8e9cb45ed40731660 ALSA: ump: Don't accept an invalid UMP protocol number
 bc42ca002d5d211f9c57334b9b4c25ddb0b4ec35 ALSA: ump: Set default protocol when not given explicitly
+95d7c452a26564ef0c427f2806761b857106d8c4 spi: stm32: Don't warn about spurious interrupts
 7b038b564b3e2a752d2211e7b0c3c29fd2f6e197 bcachefs: Fix failure to return error on misaligned dio write
 ba46b3bda296c4f82b061ac40b90f49d2a00a380 drm/amdgpu: Adjust logic in amdgpu_device_partner_bandwidth()
 05d9e24ddb15160164ba6e917a88c00907dc2434 drm/amdgpu: silence UBSAN warning
@@ -1081,7 +1081,7 @@ a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of gi
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
 
---===============2586464688152994485==
+--===============0018064868967070483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1408,4 +1408,4 @@ a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of gi
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
 22aaae482044b8bfa11f2c2d5725f4cd1b3064f9 spi: Merge up fixes
 
---===============2586464688152994485==--
+--===============0018064868967070483==--
