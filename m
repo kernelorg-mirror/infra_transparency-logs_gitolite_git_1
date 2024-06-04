@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0776531372742671058=="
+Content-Type: multipart/mixed; boundary="===============2721632415731036129=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 04 Jun 2024 17:48:47 -0000
-Message-Id: <171752332744.7541.17292045674700906072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 04 Jun 2024 17:48:53 -0000
+Message-Id: <171752333369.7669.8861468871812654400@gitolite.kernel.org>
 
---===============0776531372742671058==
+--===============2721632415731036129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/spi-6.11
     old: 22aaae482044b8bfa11f2c2d5725f4cd1b3064f9
     new: cc160697a576150975280a4b5394fe9c70700503
     log: revlist-22aaae482044-cc160697a576.txt
 
---===============0776531372742671058==
+--===============2721632415731036129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1717523325 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1717523325-0d96d948b869b435876f7ad32b1df9678ac73693
+pusher C3F436CA30F5D8EB 1717523332 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1717523331-2b4f0d63c157ad76ab346a2d43541bb494a0b8be
 
-22aaae482044b8bfa11f2c2d5725f4cd1b3064f9 cc160697a576150975280a4b5394fe9c70700503 refs/heads/for-6.11
+22aaae482044b8bfa11f2c2d5725f4cd1b3064f9 cc160697a576150975280a4b5394fe9c70700503 refs/heads/spi-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZfU30ACgkQJNaLcl1U
-h9DBNQf8DgJ+Ti7giMjqoMYIyZxjKVfFTx6AEbSQF90+3v8uv51H7GFWnaIVbll6
-gt/ufiYGsXJ7IQVUIwDeSMGL9AO7oPgmRlOVzRqGOmtPBzgGnoNXm4AQlr2uaKBA
-mcdjPI7EBcvN0RmiikhoGS7FM9HtnudoyvrqSybSrLAnPNxFT7sJCKGEw7RXoTb+
-KlGARXgIyW4oWfa2Nm72T/jFKfLM0gix4Luyk1U/chI68PdIryneU52HdZB2RAaa
-CJorIuFKSoiTf4OTLX35z0XIdfUAiMdutTq6EfjgXXNzfv26GjuhyEGq6GGWpxOG
-9EtICDRcztao7yXWctryPmsnr3dbhw==
-=yvZC
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZfU4QACgkQJNaLcl1U
+h9DWsAf9HM8XRcyPreo4+VMr/FScrHz/atC2GYuJvlSZcQfZTzqO3o7ZD+B/ILti
+jMFhoQ1QTm6ES1BGUnlTKarg2qdT9KXp2ZU5ScHYN2RJUvK6UMP5oMn1eEi4hw+z
+2bKTRuxCUmwYoTIB3RrC334JdP2E3sAAHhtxGYk4r/gRHAg6DgQoDipZVJz2bojt
+i4pVhGY6KZYDTswASpPV2iQUlFhtj1EMN82ZHNwS3bG8DLmUhrxNB5VLI0tu70Wj
+RQDb4sk5vNs+zaGWoyzgN9KKH4B6kYmh51Dn5NOJUGNgwIOfcU1NWHNC1iwzeJ5D
+RUGGur0wdBct0dKsyM+3MxzuoZVcPw==
+=1VvJ
 -----END PGP SIGNATURE-----
 
---===============0776531372742671058==
+--===============2721632415731036129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ c65174fdb2f7fe83ee515966c08de9a990e722f9 spi: pxa2xx: Utilise temporary variable
 3d8f037fbcab53e03ab2ef18a66f202be3653d50 spi: pxa2xx: Move platform driver to a separate file
 cc160697a576150975280a4b5394fe9c70700503 spi: pxa2xx: Convert PCI driver to use spi-pxa2xx code directly
 
---===============0776531372742671058==--
+--===============2721632415731036129==--
