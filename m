@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8947689668560427037=="
+Content-Type: multipart/mixed; boundary="===============3038798635481096584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Tue, 04 Jun 2024 23:05:05 -0000
-Message-Id: <171754230513.16230.15495687434905030818@gitolite.kernel.org>
+Date: Tue, 04 Jun 2024 23:05:42 -0000
+Message-Id: <171754234218.16542.4970279264109731772@gitolite.kernel.org>
 
---===============8947689668560427037==
+--===============3038798635481096584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-next
-    old: 36f53d622a216ce80e568b8ca899bfbacb2592d4
-    new: c3f38fa61af77b49866b006939479069cd451173
-    log: revlist-36f53d622a21-c3f38fa61af7.txt
+  - ref: refs/heads/for-linux-next
+    old: fb6e82e968ca781a108fdae1cf66ae0bda9bfba6
+    new: 7097bc7ba60f16ecd09f64055759a86abf6b51cf
+    log: revlist-fb6e82e968ca-7097bc7ba60f.txt
 
---===============8947689668560427037==
+--===============3038798635481096584==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-36f53d622a21-c3f38fa61af7.txt
+Content-Disposition: attachment; filename=revlist-fb6e82e968ca-7097bc7ba60f.txt
 
-21d74b6b4e82d27eead168d2b1ce3096937c0237 LE Create Connection command timeout increased to 20 secs
 87ad06a20f1c8b521070ebe4cb78f68673c14a8c Bluetooth: btintel: Add support for BlazarI
 5c9f6a7853926ab1eca68208ea5bcd0684fc91ad Bluetooth: btintel: Add support for Filmore Peak2 (BE201)
 ea9e148c803b24ebbc7a74171f22f42c8fd8d644 Bluetooth: hci_conn: Use __counted_by() and avoid -Wfamnae warning
@@ -1050,5 +1049,6 @@ efa8f11a7ebeb8758dcd847a4b9a0cdcb68d9d87 Merge tag 'perf-urgent-2024-06-02' of g
 a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
+7097bc7ba60f16ecd09f64055759a86abf6b51cf drm/exynos: hdmi: report safe 640x480 mode as a fallback when no EDID found
 
---===============8947689668560427037==--
+--===============3038798635481096584==--
