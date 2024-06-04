@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1765277523271317718=="
+Content-Type: multipart/mixed; boundary="===============5517553540426979589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Tue, 04 Jun 2024 17:55:15 -0000
-Message-Id: <171752371570.13461.5369635866178187506@gitolite.kernel.org>
+Date: Tue, 04 Jun 2024 17:58:41 -0000
+Message-Id: <171752392103.14718.8883009701926660501@gitolite.kernel.org>
 
---===============1765277523271317718==
+--===============5517553540426979589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: conor
 changes:
-  - ref: refs/heads/microchip-dt64
-    old: 6c7c4b91aa43543c9f967120a6eabd451a0927d4
+  - ref: refs/heads/at91-next
+    old: fa8e55345b646f3eb5b1dc889bad4a2a1fa360d9
     new: 3a94fa4cb86e96103657ba3550ee68b424269613
-    log: revlist-6c7c4b91aa43-3a94fa4cb86e.txt
+    log: revlist-fa8e55345b64-3a94fa4cb86e.txt
 
---===============1765277523271317718==
+--===============5517553540426979589==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6c7c4b91aa43-3a94fa4cb86e.txt
+Content-Disposition: attachment; filename=revlist-fa8e55345b64-3a94fa4cb86e.txt
 
 3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
 3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
@@ -1051,4 +1051,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 fe7c551ea03e0df729966e33c58f9955f7408208 arm64: dts: microchip: sparx5_pcb134: move non-MMIO nodes out of axi
 3a94fa4cb86e96103657ba3550ee68b424269613 arm64: dts: microchip: sparx5_pcb135: move non-MMIO nodes out of axi
 
---===============1765277523271317718==--
+--===============5517553540426979589==--
