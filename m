@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7289275753027424672=="
+Content-Type: multipart/mixed; boundary="===============8836356137511627931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 04 Jun 2024 14:45:47 -0000
-Message-Id: <171751234729.3142.18063910643660033330@gitolite.kernel.org>
+Date: Tue, 04 Jun 2024 14:49:58 -0000
+Message-Id: <171751259853.4662.18390739977180500204@gitolite.kernel.org>
 
---===============7289275753027424672==
+--===============8836356137511627931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,46 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/trace/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/trace/for-next
-    old: d4e9a968738bf66d3bb852dd5588d4c7afd6d7f4
-    new: c3f38fa61af77b49866b006939479069cd451173
-    log: revlist-d4e9a968738b-c3f38fa61af7.txt
+  - ref: refs/heads/for-next
+    old: fde0aeca59268df5f3884b1c8d015ac53e6618f4
+    new: ca68abfa9ccebf0bf585d570af924caa1fdf40c1
+    log: revlist-fde0aeca5926-ca68abfa9cce.txt
 
---===============7289275753027424672==
+--===============8836356137511627931==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d4e9a968738b-c3f38fa61af7.txt
+Content-Disposition: attachment; filename=revlist-fde0aeca5926-ca68abfa9cce.txt
 
-a18d28f53ab42c0b5a802d7dc193ffb75e8e32ff Bluetooth: btintel_pcie: Fix compiler warnings
-36b1c9c35452d043ce2239a65393b3e7ee7101c5 Bluetooth: btintel: Fix compiler warning for multi_v7_defconfig config
-e77f43d531af41e9ce299eab10dcae8fa5dbc293 Bluetooth: hci_core: Fix not handling hdev->le_num_of_adv_sets=1
-e5a43efba2560d617b06e59dc10d2f9de7d08e5f Bluetooth: btintel_pcie: Fix warning reported by sparse
-6a486c1361ea588938898ae812b32dcfbd4022f2 Bluetooth: btintel_pcie: Refactor and code cleanup
-803fbb96c16a8882609d94336c9097ba993fe52e Merge tag 'nvme-6.10-2024-05-14' of git://git.infradead.org/nvme into block-6.10
-eba77c0477312c7b614338b24a8cf533695d1257 Merge tag 'edac_updates_for_v6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-b4864f6565ab57d6418ec469330e320f77eeee95 Merge tag 'ras_core_for_v6.10_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-25c7cb05fa61078d99d56fda36bd6d0a1638139d Merge tag 'x86_alternatives_for_v6.10_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-5186ba33234c9a90833f7c93ce7de80e25fac6f5 Merge tag 'x86_cache_for_v6.10_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-79982e8f8a01b2e2bfcae17aa7cd55586e172564 Merge tag 'for-net-next-2024-05-14' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-a1907ccdfe4a35265f6572e4b8c2da6d1f0a663e Merge tag 'x86_microcode_for_v6.10_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-964bbdfdf01d9b365809726313da967cb1dafb96 Merge tag 'x86_sev_for_v6.10_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-61deafa9ecf3f6d00c570774b0b38f439be543ac Merge tag 'x86_apic_for_6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2d9db778ddca079228ef10e60bceea06b34b0eaa Merge tag 'timers-core-2024-05-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a9d9ce3fbc2761e69c5daeb99156a5d06eb79ae5 Merge tag 'x86-timers-2024-05-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-6bfd2d442af5c373042f196eef1915e1f6ac058a Merge tag 'irq-core-2024-05-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9776dd36095be19f5a0ad9f07a4fc221d2a0609a Merge tag 'x86-irq-2024-05-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-386f0cffae4654f6db1c0d8ad8273511f925f719 net: gro: fix napi_gro_cb zeroed alignment
-dc9dfd8ae4b5ac28e457a830556b53b15f4b9a1c selftests: netfilter: fix packetdrill conntrack testcase
-654de42f3fc6edc29d743c1dbcd1424f7793f63d Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-1338acfe629ddd955fd524fc01e26bca4f1bb22b Merge tag 'm68k-for-v6.10-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
-103916ffe24969a4c938ccfe89e956fe7d9339fd Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-1d8c270de5eb74245d72325d285894a577a945d9 s390/pkey: Wipe sensitive data on failure
-d65d76a44ffe74c73298ada25b0f578680576073 s390/pkey: Wipe copies of clear-key structures on failure
-f2ebdadd85af4f4d0cae1e5d009c70eccc78c207 s390/pkey: Wipe copies of protected- and secure-keys
-1084562ec858d96c02d3a47d4afb088922f5a2ca s390/irq: Set CIF_NOHZ_DELAY in do_io_irq()
-4452e8ef8c364113495f414d7e6846d74d7eff81 s390/iucv: Provide iucv_alloc_device() / iucv_release_device()
-4ee55c956325f5b28a23c5916bfd8372042702b3 s390/vmlogrdr: Make use of iucv_alloc_device()
 968bfb566dd193f912ccab47aaa50f3112f6f82d s390/netiucv: Make use of iucv_alloc_device()
 3bbde49ec560f95b2b09b9cedd0c41ae95ecb92c s390/smsgiucv_app: Make use of iucv_alloc_device()
 ccec5032291b108e694b55394cd035c9d840052a tty: hvc-iucv: Make use of iucv_alloc_device()
@@ -100,7 +71,6 @@ b850dc206a57ae272c639e31ac202ec0c2f46960 Merge tag 'firewire-updates-6.10' of gi
 1b294a1f35616977caddaddf3e9d28e576a1adbc Merge tag 'net-next-6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 0d8968287a1cf7b03d07387dc871de3861b9f6b9 f2fs: Add inline to f2fs_build_fault_attr() stub
 16409fdbb8828d7ae829bc4ac4e09e7ff02f8878 f2fs: initialize last_block_in_bio variable
-b9c6820f029abaabbc37646093866aa730ca0928 ring-buffer: Add cast to unsigned long addr passed to virt_to_page()
 2513563edc984c3cf05bca1244b46de06daa4755 platform/x86: Add new MeeGoPad ANX7428 Type-C Cross Switch driver
 e5bc44e47c531860be96ac615314b1ab23d5aa2b arch/topology: Fix variable naming to avoid shadowing
 dafc2d0f1bb9bb865a8420f77de56bafd8881cc5 Merge branch 'for-6.10-base-small' into for-linus
@@ -1044,11 +1014,41 @@ ec9eeb89e60d86fcc0243f47c2383399ce0de8f8 Merge tag 'kbuild-fixes-v6.10' of git:/
 89be4025b0db42db830d72d532437248774cba49 Merge tag '6.10-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 54bec8ed5732339438271d07376890454fa58046 Merge tag 'firewire-fixes-6.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 83814698cf48ce3aadc5d88a3f577f04482ff92a Merge tag 'powerpc-6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+c7279225140f90abafb5de5de14c675a6a7aa4d6 fprobe: add missing MODULE_DESCRIPTION() macro
+9df8d8c0afe0aa30484670413402395f756fb67e samples: kprobes: add missing MODULE_DESCRIPTION() macros
 00a8c352dd7581961fd0f284c6fc1a17b370d0f4 Merge tag 'hardening-v6.10-rc2-take2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 efa8f11a7ebeb8758dcd847a4b9a0cdcb68d9d87 Merge tag 'perf-urgent-2024-06-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3fca58ffad37a06912d25e5a1818afb3183cff17 Merge tag 'sched-urgent-2024-06-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
+42675b723b4842bca7bfb0f209aa9a493a10324a function_graph: Convert ret_stack to a series of longs
+59e5f04e4184181227889663618e01dce676e671 fgraph: Use BUILD_BUG_ON() to make sure we have structures divisible by long
+518d6804a865772735588c5b2203d6c0c0bf98a9 function_graph: Add an array structure that will allow multiple callbacks
+7aa1eaef9f4282c9acd39588b1fdc9dda7e73f34 function_graph: Allow multiple users to attach to function graph
+375bb57292f49fa0956cc2739c81749b88e69510 function_graph: Handle tail calls for stack unwinding
+2fbb549983763b2cc32a1ab840fe59cc1822e06d function_graph: Remove logic around ftrace_graph_entry and return
+37238abe3cb47b8daaa8706c9949f67b2a705cf1 ftrace/function_graph: Pass fgraph_ops to function graph callbacks
+26dda5631d1bb2f254f4c94aa87ee6c92a89cfdb ftrace: Allow function_graph tracer to be enabled in instances
+ab6b84630382914ffcbab59f4913c9a60971d034 ftrace: Allow ftrace startup flags to exist without dynamic ftrace
+5fccc7552ccbc521bad61653ee739b1196b1bc53 ftrace: Add subops logic to allow one ops to manage many
+d9bbfbd14f58d2955cc7a3efa8ae6d4e09ee5995 ftrace: Allow subops filtering to be modified
+c132be2c4fcc1150ad0791c2a85dd4c9ad0bd0c8 function_graph: Have the instances use their own ftrace_ops for filtering
+df3ec5da6a1e7f6e142680d7c5266d3af187170b function_graph: Add pid tracing back to function graph tracer
+6d4786592ac88aa31f45fde6bfaad3162e3a92a4 function_graph: Use a simple LRU for fgraph_array index number
+4497412a1f7b5d9e0849f125652f2cc58cdba562 function_graph: Add "task variables" per task for fgraph_ops
+12117f3307b63f287756d7ec8cc4f11b94e1206a function_graph: Move set_graph_function tests to shadow stack global var
+068da098eb504469dc195137ae35eeacfe0c8de9 function_graph: Move graph depth stored data to shadow stack global var
+b84214890a9bc56f0fe4ec4fc72f2307ed05096d function_graph: Move graph notrace bit to shadow stack global var
+91c46b0aa917546432b5b219494859cda0edc39e function_graph: Implement fgraph_reserve_data() and fgraph_retrieve_data()
+47c3c70aa36971c90e32e91f9254110195d67a02 function_graph: Add selftest for passing local variables
+dd120af2d5f8f3d2d742a64cefc4a529d382ab06 ftrace: Add multiple fgraph storage selftest
+420e1354bcb6f006f183a1b6fe5dd21f60a457ef function_graph: Use for_each_set_bit() in __ftrace_return_to_handler()
+a5b6d4da0218a0539c36ad6794c624c2c6ca7b32 function_graph: Use bitmask to loop on fgraph entry
+cc60ee813b50334b32343861057dc9e981e9c7f0 function_graph: Use static_call and branch to optimize entry function
+fe835e3ca40e172aa8ad12f4ed2898c181fafab0 function_graph: Use static_call and branch to optimize return function
+35b944a997e25962122c3dea68b020e7fbb06cbd selftests/ftrace: Add function_graph tracer to func-filter-pid test
+8d4e21bd4cca8013d2c6f55d42df85838d4ebce6 selftests/ftrace: Add fgraph-multi.tc test
+ca68abfa9ccebf0bf585d570af924caa1fdf40c1 Merge probes/for-next
 
---===============7289275753027424672==--
+--===============8836356137511627931==--
