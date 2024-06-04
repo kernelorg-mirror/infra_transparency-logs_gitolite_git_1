@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 04 Jun 2024 15:47:30 -0000
-Message-Id: <171751605063.15343.5071459920719613327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 04 Jun 2024 16:01:53 -0000
+Message-Id: <171751691341.25297.10870967225449649947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 2317dc2c22cc353b699c7d1db47b2fe91f54055c
-    new: 2884dc7d08d98a89d8d65121524bb7533183a63a
+  - ref: refs/heads/kdevops
+    old: 27698d44a947437a265aaa5e6c9feb27787559fc
+    new: cdbc6ea146322bcd140835503fecdd00fe0ee469
     log: |
-         2884dc7d08d98a89d8d65121524bb7533183a63a bpf: Fix a potential use-after-free in bpf_link_free()
+         cdbc6ea146322bcd140835503fecdd00fe0ee469 sunrpc: remove special m->count handling of GLOBAL pools
          
