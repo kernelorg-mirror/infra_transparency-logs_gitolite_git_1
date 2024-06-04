@@ -1,64 +1,108 @@
-Content-Type: multipart/mixed; boundary="===============7127568269302205703=="
+Content-Type: multipart/mixed; boundary="===============8261389124161988498=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 04 Jun 2024 19:02:31 -0000
-Message-Id: <171752775180.31038.6815184671452572027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 04 Jun 2024 19:02:35 -0000
+Message-Id: <171752775530.31175.9944751679699340939@gitolite.kernel.org>
 
---===============7127568269302205703==
+--===============8261389124161988498==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
+  - ref: refs/heads/staging-testing
     old: c3f38fa61af77b49866b006939479069cd451173
-    new: 16637fea001ab3c8df528a8995b3211906165a30
-    log: |
-         718d4a63c0a62d16af1d0425d515d7e76f35681e Revert "usb: chipidea: move ci_ulpi_init after the phy initialization"
-         fc3568f142cc5fe071d83be02d1851717d1fbf66 usb: typec: ucsi: glink: increase max ports for x1e80100
-         8475ffcfb381a77075562207ce08552414a80326 USB: xen-hcd: Traverse host/ when CONFIG_USB_XEN_HCD is selected
-         e7e921918d905544500ca7a95889f898121ba886 usb: typec: tcpm: fix use-after-free case in tcpm_register_source_caps
-         fc8fb9eea94d8f476e15f3a4a7addeb16b3b99d6 usb: typec: tcpm: Ignore received Hard Reset in TOGGLING state
-         e4228cfd092351c2d9b1a3048b2070287291ccbb dt-bindings: usb: realtek,rts5411: Add missing "additionalProperties" on child nodes
-         f85d39dd7ed89ffdd622bc1de247ffba8d961504 kcov, usb: disable interrupts in kcov_remote_start_usb_softirq
-         8bdf8a42bca4f47646fd105a387ab6926948c7f1 usb: typec: ucsi: Ack also failed Get Error commands
-         16637fea001ab3c8df528a8995b3211906165a30 usb-storage: alauda: Check whether the media is initialized
-         
+    new: 240a3a167468b839363a0bf636c6ae77daca0be1
+    log: revlist-c3f38fa61af7-240a3a167468.txt
 
---===============7127568269302205703==
+--===============8261389124161988498==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717527759 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1717527747-1b684c95d06615b92522299d8fb333cbddc780ad
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717527762 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1717527750-977b8d3aa1a196cb3105528c4af8ac92df823793
 
-c3f38fa61af77b49866b006939479069cd451173 16637fea001ab3c8df528a8995b3211906165a30 refs/heads/usb-linus
+c3f38fa61af77b49866b006939479069cd451173 240a3a167468b839363a0bf636c6ae77daca0be1 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZfZM8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2E8QAMOv4S/ENw8wxPAbi9Ob
-glVNAZzacG6O8PGFplU1ne5oKt/QsSarE8qIMDEia5MU+Dkn/Bb93EKyyIVHQs2e
-nbV4gS4H4bkG972uj8EC/9qN3zlsyGmcCxpmtcxY0cb++dYf9xyLNqrJrGeofOX4
-bbyiw/fQpUm41hbT6xJFcmPXvyaeQWYXM6goYxdvJ3/pAifuA67tgJ5rmi/l1ia8
-pX/lhGsWZ/H2uhv9RB+9bEjr32+n1AmGWJxptpnuOYkrtKnhmAg4JCjk+ttixa87
-QfOrvmMC8o132vfMGhMrt/QE3p+fmjIxMcedQQt07nPeVM2OjvUYq/F9mett/1x2
-uRLUHgf/UBCeiah8wFQFRXZ17/YUEGqYSWLYZUW7GHV50/JecsvQtZvE/DfA7upW
-1u1YRE6bVf77o/0LcOW2QHNGbW9fh1VrAxHoKZ9BCphAuNRfo3nMfWBU2kagQK1H
-NsqRNcIKt2jhcE/f6+62jl8LMIn8ccv21/CzAAUDxHRj32oeNADYAKpn1jxvvqqg
-FfLXcVFGX+NtphLgZ5LpNaK0LAuUBFCjUnIeOT74fX+AU2jMSxR+cb6aGu9CfCf5
-noZYT+L6YSS8NdOMzIKKQ8GUBFWgP7XeowcPe4m10nW+4/nyPVgKzYb5Is7abYtR
-uFm07gm/nFm+nSDOYsLGsXMq
-=Mgrw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZfZNIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DTIQAM7175pVtuSMrfh3O8EH
+G6k57N+ZxwAjPFcs1derTLoDseTXjllvHarKbcaOh0UTx50GjaLKSiJxls94cWwG
+vdP9n5zP/6dZ3M89GjQBXKqxKH4VnxSzKZD6xJlMmqAi/SM8UiXDcthMbz767k1c
+IcutTWQmqkvxapEnCddgyBwa8PzENy8DL3a4pxlnSOlrXWY9F9FW0ge0ZGhpgCUo
+QYc4xYVQ3DCI27Dcpj4qWNF0yYXH/AuSqV+jngGWrLBknlXbRl3XaKlkyL7E3jWN
+8u/vgmTzbrxVdeYPNlx/wcLInxf8DY+8UrIIgx+aAwDz3xW0q5AO/r+hZwTPKogk
+VQ+O4Qsuq7Xa7l9dtE8W4n3Uq90FtMFv8nozBrOIq50n06h9cc+O/O5qF5mp93VP
+7sHvvH/1nDCTU/DBr4Y9PkpqeJup9dbW5s7zOgUsTaf/33a11kRxF00YkgV1TTZu
+nCT9EScWlS9HE0Hhuqkhfpq4giX5Gif1CKOwiR7FYMujScpMK6hWti7GusBuR0ne
+1vma4THkGHlfM1OBbb9ASjwnxiGzOZNqJrHynSG3zxf3ujE7z1G0Lz26k6E+HUEi
+IRp1cfiWq8UmKXPLb9muHQOe0f6t0SFesWowD0P3IPbA/G44qG8D3p/Hs0kD9OU9
+kAE3d6D6oS2tkP1pjBSfsE1J
+=hcNf
 -----END PGP SIGNATURE-----
 
---===============7127568269302205703==--
+--===============8261389124161988498==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c3f38fa61af7-240a3a167468.txt
+
+63b109b1f575c4b1c4f51c58c7b54c39179e0626 Staging: rtl8192e: Rename variable IsPassiveChannel
+7b66b9d83a352fc6220bfcee4973fa0a0a411a28 Staging: rtl8192e: Rename variable CountryIeBuf
+6db705b27b77ad595a4f8963d9fdb0e963574f78 Staging: rtl8192e: Rename variable CountryIeLen
+aff215402378fea463d357d72710440aca5a4237 Staging: rtl8192e: Rename variable bWithAironetIE
+5a24883f6266ee35631739d3650f655f9003630f Staging: rtl8192e: Rename variable bContainHTC
+bb003eab39eee4bd370abc4797b382876c8b80f7 Staging: rtl8192e: Rename variable MBssid
+a919bc7d28ae923281f933d6d7596cd27ad6a0c2 Staging: rtl8192e: Rename variable MBssidMask
+ff98863720787d89d50998250f313217ad930e11 Staging: rtl8192e: Rename variable elementID
+e1ec5c944f983fefb08d0e89baacea2d6c8e62a5 Staging: rtl8192e: Rename variable rtllib_rx_Monitor
+3acc3173e13baf15acd3465a676d3f570558e622 Staging: rtl8192e: Rename variable rtllib_rx_InfraAdhoc
+4d06509c17bc3c6e7c49782c8c7385662e29c5e0 Staging: rtl8192e: Rename variable IsLegacyDataFrame
+54e3fbf63880b6164d8fe2ceab449275f62fbd09 Staging: rtl8192e: Rename variable RxReorderIndicatePacket
+3a76226264314b744f64ec49205f3ea236bb82fd Staging: rtl8192e: Rename variable RfdArray
+a4b2c5fa04b94dbc02e63c8d6ce7b19d5998da86 Staging: rtl8192e: Rename variable Decrypted
+be5bd4ca524242ab963235d04314dbd9472cc007 Staging: rtl8192e: Rename variable AddReorderEntry
+ef40d4a14639f8edee13e3bc65c74a2bf278e30d Staging: rtl8192e: Rename variable pList
+8272a4879847cd2f7f607a1c7083e2b0510f9894 Staging: rtl8192e: Rename variable nPadding_Length
+b1e8829c75905a0e7df5fead383a1738af3406bb Staging: rtl8192e: Rename variable LLCOffset
+318405a657f056345e34908b217084d45644867a Staging: rtl8192e: Remove variable ChkLength
+4081bb9c53892d575006f01febe996de845dd81c Staging: rtl8192e: Rename variable WinEnd
+b0e595347505f0f9effa983c8d2f08eed27f8637 Staging: rtl8192e: Rename variable WinSize
+30fd4752b7fcb5bba6c75ba32b2ac8b5faaf9810 Staging: rtl8192e: Rename variable IsDataFrame
+c29e197cfb9f3e5325dc9fa78b124222168f621e Staging: rtl8192e: Rename variable bMatchWinStart
+514218ab2d737f14cd40a177788821790877fb63 Staging: rtl8192e: Rename variable bMBssidValid
+318343d3379f2da45d98fba4512fa1fa10770872 Staging: rtl8192e: Rename variable bWithCcxVerNum
+4d98ca874d54b102dd78ca5486743d2c4b36581c Staging: rtl8192e: Rename variable Frame_QoSTID
+63afc2d9226d7adf8806ab7ae90acf6e9cfef774 Staging: rtl8192e: Rename variable CcxRmState
+9ab0d0e99f092ecd79a1c72e29a36aa0504bc1f8 Staging: rtl8192e: Rename variable IsQoSDataFrame
+60d98bd24b268d0394bf5216924ea40c5f215a1f Staging: rtl8192e: Rename variable RfdCnt
+1631cf6575bc9cf0624d1af84dc42b4f5878f513 Staging: rtl8192e: Rename variable prxbIndicateArray
+324586a820c95f7b4b67efc2dd2afba398631f8b Staging: rtl8192e: Rename variable bPktInBuf
+331fd192b515d7426802593329ce6c77df88c177 staging: rtl8192e: remove the r8192E_dev.c's unnecessary brace
+c8c96293a599c6291fa2622830fcbfc1ce0f5a7d staging: nvec: make i2c controller register writes robust
+c0ac430e5d9c11a037efa911ca77233a51907158 staging: vme_user: Add blank line after struct decl
+7c0c6271338da4c9a7d4e9d6be47d70badcc4d8a staging: rtl8712: Fix spelling mistake in rtl871x_event.h
+a174df4434785447238f4d15127f9ae0834ac79a staging: rtl8712: Fix spelling mistake in rtl8712_xmit.c
+90bf0a8c0bbf15c253b4a03c9513ed76b7dbf07b staging: rtl8192e: Fix spelling mistakes in rtllib_softmac.c
+8bcb9afc5de366d7c3e572582ff0da8b155e7e01 staging: rtl8712: Fix spelling mistake in rtl871x_mlme.c
+9ed3e0a0e1b1e1336f3b3979aa478e1f5312da4d staging: rtl8712: remove unnecessary alignment of pxmitpriv->pxmitbuf
+ea032c8d87dfd1da41a84bf179d9513dd17b51d0 staging: rtl8712: Fix spelling mistake in rtl871x_io.h
+d1700a1bd23c629fb7b294eb748384b9f44f02c3 staging: rtl8723bs: hal: Fix spelling mistakes in rtl8723b_cmd.c
+cf22697653a9f61b116b9ba0ad9182cc0e9b43e3 staging: rtl8192e: reduce indentation level
+d514eaf4f4a043800573bc666ace20065c665acf staging: rtl8192e: remove unnecessary line breaks
+eac2c7d84bf2de7b25c94dc10bcf13070adf7d49 staging: rtl8723bs: hal: Fix spelling mistakes in odm.h
+ac7e01f401a5573f72bbe48d32eb8d9f2af8cbce staging: r8712u: remove unused struct 'zero_bulkout_context'
+1669137eb0acc472216bad6b3fe195f3112b90b2 staging: greybus: audio: remove unused struct gb_mixer_control
+240a3a167468b839363a0bf636c6ae77daca0be1 staging: vc04_services: Fix kernel-doc param for vchiq_register_chrdev
+
+--===============8261389124161988498==--
