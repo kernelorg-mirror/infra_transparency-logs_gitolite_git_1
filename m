@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5540823362402395205=="
+Content-Type: multipart/mixed; boundary="===============1762034800588267510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Tue, 04 Jun 2024 01:30:26 -0000
-Message-Id: <171746462659.32376.8798118087465529716@gitolite.kernel.org>
+Date: Tue, 04 Jun 2024 01:30:56 -0000
+Message-Id: <171746465600.32625.13809286970606966507@gitolite.kernel.org>
 
---===============5540823362402395205==
+--===============1762034800588267510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity-testing
-    old: 3ed1287ac061e486867418227d8c47d1dfbfb4ed
+  - ref: refs/heads/next-integrity
+    old: 9fa8e76250082a45d0d3dad525419ab98bd01658
     new: fbf06cee60876d50f259d0689e3c03940750f0d4
-    log: revlist-3ed1287ac061-fbf06cee6087.txt
+    log: revlist-9fa8e7625008-fbf06cee6087.txt
 
---===============5540823362402395205==
+--===============1762034800588267510==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3ed1287ac061-fbf06cee6087.txt
+Content-Disposition: attachment; filename=revlist-9fa8e7625008-fbf06cee6087.txt
 
 e5a43efba2560d617b06e59dc10d2f9de7d08e5f Bluetooth: btintel_pcie: Fix warning reported by sparse
 6a486c1361ea588938898ae812b32dcfbd4022f2 Bluetooth: btintel_pcie: Refactor and code cleanup
@@ -1051,4 +1051,4 @@ a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of gi
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
 fbf06cee60876d50f259d0689e3c03940750f0d4 ima: fix wrong zero-assignment during securityfs dentry remove
 
---===============5540823362402395205==--
+--===============1762034800588267510==--
