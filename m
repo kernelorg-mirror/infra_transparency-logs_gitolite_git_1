@@ -1,58 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3447272588716228635=="
+Content-Type: multipart/mixed; boundary="===============5536000160463729779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 04 Jun 2024 19:03:06 -0000
-Message-Id: <171752778640.31602.9732865608818986014@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 04 Jun 2024 19:03:10 -0000
+Message-Id: <171752779083.31683.319026455832199258@gitolite.kernel.org>
 
---===============3447272588716228635==
+--===============5536000160463729779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: cdcd08b9b16a8380225a832c7d9ee1bb3e024cfa
-    new: a5f41287571578b62106f8ea4b25edbeda4512bf
+  - ref: refs/heads/driver-core-testing
+    old: c3f38fa61af77b49866b006939479069cd451173
+    new: 1968845d358e108cfbfba45538d64b3cbdf04ac2
     log: |
-         95c33d94cb1b59b90051de4851d18ab3c6b3c6ee drop alsa patch from 6.6, again
-         3b7e14c1ab394d33dab6494d62b88623570db2ff fix up 5.15 nfc patch so it builds
-         a5f41287571578b62106f8ea4b25edbeda4512bf 6.9-stable patches
+         161364bdcfc4386652f26857c357982a6f517fd2 samples/kobject: add missing MODULE_DESCRIPTION() macros
+         1968845d358e108cfbfba45538d64b3cbdf04ac2 driver core: device.h: Group of_node handling declarations and definitions
          
 
---===============3447272588716228635==
+--===============5536000160463729779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717527796 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1717527784-787d3fdb2e185bbc5638f32a3a98ec3fe47f8714
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717527799 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1717527787-42873fb492e3b7e8d949abe8c42352cc67539071
 
-cdcd08b9b16a8380225a832c7d9ee1bb3e024cfa a5f41287571578b62106f8ea4b25edbeda4512bf refs/heads/master
+c3f38fa61af77b49866b006939479069cd451173 1968845d358e108cfbfba45538d64b3cbdf04ac2 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZfZPQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8KgQANKx86TqGa/kqqyh35pm
-bqIRbWQdhlHr/YEg4T2nMAUXLtSTy8o/+fsZ9TE6alsR7QgV3QAOahCIpcRGc3S6
-Z1MivLs4SrM+WDR4LSOiq6FSfnB0m2BYP/eXCx54ozBMOsosKlBAlMjAsnTNTQqr
-UDNHspj4YVsvLdxREEoGy2PimCJs+l+33pIms04QQX34F8d21WbKS4fWFmG9mxq9
-FPld93DF+QVRB2+0EB6m4CZfdiSFJ6fKG0uV2vvTULqMjTpvSd17SDR97Cv6LdxX
-YLdfGcoEEc5EpFrXfNIas6UjRWf/qJOzrAbGZxweh49R8Q6aqaeKhJbVc9U50LB5
-BelLhTH4RY0ZYCS1YGuaj6iWx49bNUHBszYqDOGlI6QAirwqsgzV8PcWfYi+fU+o
-rKppGf4TbXuDNNN2nMv0ARHKPxWvkiG9fyltHdA5/eu6zX6LLi6kEOKjAwRNAb5X
-2inYoJHQ5R+7wjyVje7HCpb1dDMCjYL79FD0ZgfjcpHR7wjsKIOVfWj8tuH/Y2Te
-AVgL1g252/DiT4w5SwC43/8u0oN/CC9HsQMYy/lIHnbE0rzruwdl2QaNTCd89Q0l
-RZvvyMZvpPILFoDJ4nn/3rRoH6QmVlm6SGj9uYpRaTmcgIzGxLUSZatSIyzmuk8P
-nVyrED6eosCRLa2kAMqeUfKQ
-=6J7C
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZfZPcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dQ4QAKbWopzcMw68E9i/jdt+
+nEviDEoIE0Nk9Zhylz8LN2Oz3EE9HKhnOWyRxkogafJ0taZJWn7zV/QApS4sN044
+oLkqGZ19FT+fm5cO0xA+rhf/pKQxZruoM1OEMGIS44CMO1ElqoG3506LD7E4jno7
+u3KUICq6mKv0cd8rvW6UJ6ERqL67rRdkpszE8SECRpDMgRWrLqBlN7BBOEWXKp4M
+dHIEAtA9Mwi0qHxODkRVYQBLbawVwRNK2m1KleCGv78NpveItEMEB+ytIRujCHdy
+GbuKNcZ07+XATpmdQu1oorBN4lx6RfRVv2CFAR1InY+3Jp7Y2POxEGOxzUWHdoZK
+puNcVmIJLkOBl70vMpyOZnzCnTF4Bl3nXS14Du6t/q6xF9wlUJzE7W3Cm/4SSPR4
+1vpuSbetox5/uhaIEFtln4zbslDDp45NEG1YwwaO4Kaxn5cZnXQL01Xg7SRlmGqH
+ziAPGJ1PpHHhg5iivYcCLLivI2I0YhPZ5c5WXuQ0rsjuXZQK+Q+fVlLlEE3rek6H
++V8tDktVr3S0PcxJ49VukVZzYyirPyQaQGlwjSYfHAc97hE1wheKSGEYx2ca3yK0
+4ApPLugrQ8yMEWsBiRDOdozCaAt5+X2e8fAlyOY4xQ1dgPsYoZCn0hIyjpBd5Z6d
+bJSzQG8lEvCQWADYjQwW1ou8
+=E4wN
 -----END PGP SIGNATURE-----
 
---===============3447272588716228635==--
+--===============5536000160463729779==--
