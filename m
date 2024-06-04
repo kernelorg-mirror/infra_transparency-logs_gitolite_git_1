@@ -1,35 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8553993026188456259=="
+Content-Type: multipart/mixed; boundary="===============8333712441048773202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 04 Jun 2024 03:34:03 -0000
-Message-Id: <171747204365.24629.18027534871788682977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 04 Jun 2024 03:34:10 -0000
+Message-Id: <171747205055.24772.3779719371413543003@gitolite.kernel.org>
 
---===============8553993026188456259==
+--===============8333712441048773202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
-  - ref: refs/heads/fs-next
-    old: 0551392533c7bc5dcbd491f4c5ecd8e6695386f0
-    new: 1c2d705247cac0d6b5579bf5031cb321cd48051b
-    log: revlist-0551392533c7-1c2d705247ca.txt
   - ref: refs/heads/master
     old: 861a3cb5a2a8480d361fa6708da24747d6fa72fe
     new: d97496ca23a2d4ee80b7302849404859d9058bcd
     log: revlist-861a3cb5a2a8-d97496ca23a2.txt
-  - ref: refs/heads/stable
-    old: a693b9c95abd4947c2d06e05733de5d470ab6586
-    new: 2ab79514109578fc4b6df90633d500cf281eb689
-    log: revlist-a693b9c95abd-2ab795141095.txt
-  - ref: refs/tags/next-20240304
-    old: 898c6fcf2b3b5c18890f914d377794aeb5379daa
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240604
     old: 0000000000000000000000000000000000000000
     new: 686bc102890aefecdd1402353e032e9991e5202c
@@ -37,234 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: ac1064c236193fe48bded6f718ad47203870743b
 
---===============8553993026188456259==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0551392533c7-1c2d705247ca.txt
-
-9e2f46cd87473c70d01fcaf8a559809e6d18dd50 ata: ahci: Do not apply Intel PCS quirk on Intel Alder Lake
-d55510527153d17a3af8cc2df69c04f95ae1350d cxl/test: Add missing vmalloc.h for tools/testing/cxl/test/mem.c
-49ba7b515c4c0719b866d16f068e62d16a8a3dd1 cxl/region: Fix memregion leaks in devm_cxl_add_region()
-96998332ac4df7f013ff1f8f4892e15538449807 fs/file: fix the check in find_next_fd()
-263cf578049708a115b3ca58e46b7e5d20763866 befs: Convert befs_symlink_read_folio() to use folio_end_read()
-8c30a7344abedf25002baed6196cf41b6fb75c0e coda: Convert coda_symlink_filler() to use folio_end_read()
-def27a20542044b9322d65ffc206722c159f7c7d cramfs: Convert cramfs_read_folio to use a folio
-09da047e554d46885c5ab038373473c19ff2fd12 efs: Convert efs_symlink_read_folio to use a folio
-4c59e914ef1a39d7a20d58723ceeff31e50e7292 hpfs: Convert hpfs_symlink_read_folio to use a folio
-4df37c5f0882b211694598ff1fa1c69ccd0c1320 isofs: Convert rock_ridge_symlink_read_folio to use a folio
-e3ec0fe944d243968c6f33305e5d195efb501c0b hostfs: Convert hostfs_read_folio() to use a folio
-d15b00b1e588ea88a747bd70f6e360870088f5d2 jffs2: Remove calls to set/clear the folio error flag
-8f3ab6e4bebe789f23690cf57fb1a648c4422b9d nfs: Remove calls to folio_set_error
-86b3d5f6df0e60e87702a3991b09e56dfe6b0484 orangefs: Remove calls to set/clear the error flag
-f4c51473d22a9c2847f5dde401cd15f29cee6708 reiserfs: Remove call to folio_set_error()
-d86f2de026c57e1503259f39abdfa1659c51d900 romfs: Convert romfs_read_folio() to use a folio
-ca7d585639b597e838882faa3c7a959d13aaa533 ufs: Remove call to set the folio error flag
-55050b6873c62d7a7a6921acb992cc587fad0327 vboxsf: Convert vboxsf_read_folio() to use a folio
-1f56eedf7ff76b71f88f80d8b539f254ecbce561 iomap: Remove calls to set and clear folio error flag
-7ad635ea82704a64c40aba67a7d04293d4780f0f buffer: Remove calls to set and clear the folio error flag
-86aaa7e9d641c1ad1035ed2df88b8d0b48c86b30 ata: libata-core: Add ATA_HORKAGE_NOLPM for Crucial CT240BX500SSD1
-473880369304cfd4445720cdd8bae4c6f1e16e60 ata: libata-core: Add ATA_HORKAGE_NOLPM for AMD Radeon S3 SSD
-3cb648c4dd3e8dde800fb3659250ed11f2d9efa5 ata: libata-core: Add ATA_HORKAGE_NOLPM for Apacer AS340
-58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
-973eca8db5570dd0c3f2b3190867138cc446eb3b kbuild: mksysmap now works on nixos
-829e1af02ef4667d951cd0e4803c0b7a8d950ada bcachefs: Fix GFP_KERNEL allocation in break_cycle()
-63a6b6c9947151d39f9d16a13c2f7655404c1342 bcachefs: Rereplicate now moves data off of durability=0 devices
-6c3ca6654a74dd396bc477839ba8d9792eced441 LoongArch: Remove CONFIG_ACPI_TABLE_UPGRADE in platform_init()
-b56f67a6c748bb009f313f91651c8020d2338d63 LoongArch: Fix built-in DTB detection
-3de9c42d02a79a5e09bbee7a4421ddc00cfd5c6d LoongArch: Add all CPUs enabled by fdt to NUMA node 0
-beb2800074c15362cf9f6c7301120910046d6556 LoongArch: Fix entry point in kernel image header
-1098efd299ffe9c8af818425338c7f6c4f930a98 LoongArch: Override higher address bits in JUMP_VIRT_ADDR
-eb36e520f4f1b690fd776f15cbac452f82ff7bfa LoongArch: Fix GMAC's phy-mode definitions in dts
-0daa52fbc7ac2cce82b4e1b7e0fba43fe886b98f exfat: fix potential deadlock on __exfat_get_dentry_set
-4a77c3dead97339478c7422eb07bf4bf63577008 SUNRPC: Fix loop termination condition in gss_free_in_token_pages()
-0638b0922c26ed29def7e0a8dd91cb8828180c7a NFSD: harden svcxdr_dupstr() and svcxdr_tmpalloc() against integer overflows
-87cc13f749e7f914d94d50a9d4b3598824ee06eb NFSD: remove unused structs 'nfsd3_voidargs'
-39dfe62ccee763ecaaa412cc5517d1a89aa818c6 svcrdma: Refactor the creation of listener CMA ID
-fec4124bac55ad92c47585fe537e646fe108b8fa svcrdma: Handle ADDR_CHANGE CM event properly
-5ea71848f7b26b0d036b9ba2b086fe29a2929427 cachefiles: remove unneeded include of <linux/fdtable.h>
-43bcd0a6aa468c9ff2aa0c28915474dee23fa88b vfs: replace WARN(down_read_trylock, ...) abuse with proper asserts
-77188ced8a338c60d94104f70a0461e37666fb64 btrfs: qgroup: do quick checks if quotas are enabled before starting ioctls
-12d96f1682d4e6aef1a71f15ddc44525755b21ef btrfs: pass struct btrfs_io_geometry into handle_ops_on_dev_replace()
-1e720d6bfd25a8c72768301341bdb413e936d2b7 btrfs: zoned: make btrfs_get_dev_zone() static
-b15272750e14ce25469cdb18fdbb97b74f1d1c8e btrfs: remove no longer used btrfs_migrate_to_delayed_refs_rsv()
-dc6e98d937313576f7446cb0152e3fbc4d2db896 btrfs: fix misspelled end IO compression callbacks
-8e194382dc41150135a50f280a46b9619b99d6ca btrfs: fix function name in comment for btrfs_remove_ordered_extent()
-aa1b7663666441c7e95bb38decc25527e3ce9580 btrfs: raid56: do extra dumping for CONFIG_BTRFS_ASSERT
-a8c8fa5c95152e719bb170c57a78bd8fee357558 btrfs: use an xarray to track open inodes in a root
-a2fe848f55930de2bb4b57be4465bab0049b605d btrfs: preallocate inodes xarray entry to avoid transaction abort
-f1c3818eab80d0f5433611b7cf567c83ac900527 btrfs: reduce nesting and deduplicate error handling at btrfs_iget_path()
-4f4b5d0f0b52b105d0a28ae42d18b93153cab101 btrfs: remove inode_lock from struct btrfs_root and use xarray locks
-b3e1dcc82398f1ca34971ee7ef53d9681dc4ad8c btrfs: unify index_cnt and csum_bytes from struct btrfs_inode
-7602a69a922bcd1f1ef6f8eff5bf3a5573c85c4e btrfs: don't allocate file extent tree for non regular files
-6335713cc6f3f5a50fbe32a90a65fddb56212501 btrfs: remove location key from struct btrfs_inode
-671b298680ef735b0d539bb6b33f88c15ed32014 btrfs: remove objectid from struct btrfs_inode on 64 bits platforms
-ae81a42a73d8b21657e7d04cc537e3e1c3466f58 btrfs: rename rb_root member of extent_map_tree from map to root
-6353dfe0cc6b88235339cc4eab6efcd84c021622 btrfs: use a regular rb_root instead of cached rb_root for extent_map_tree
-41df95e478cb05b7005ec065a1b1dbc3e4baf671 btrfs: drop bytenr_orig and fix comment in btrfs_scan_one_device()
-9bcb8b154d1e8225345bb40122f69f0868d90aa8 btrfs: move btrfs_block_group_root() to block-group.c
-e4644070e78b73da992693a62b2aed17887c9688 btrfs: ensure fast fsync waits for ordered extents after a write failure
-bd01817b85dcd21b79af23f96ef3aeb41b73af31 btrfs: make btrfs_finish_ordered_extent() return void
-7ae349e1ade211d7f5ebc733555ac4ae2a482ee1 btrfs: use a btrfs_inode in the log context (struct btrfs_log_ctx)
-7978df7ac7b65c561314c1e36a0d06100ce07267 btrfs: pass a btrfs_inode to btrfs_fdatawrite_range()
-3cdfbb9b3c201fa2cffaf910640fca4231a97998 btrfs: pass a btrfs_inode to btrfs_wait_ordered_range()
-2c8ce490496cf1ad573edadc460a5c3fb2e2bea4 btrfs: use a btrfs_inode local variable at btrfs_sync_file()
-9cb3a1963ca90b83fded184af1b865d64a1e0256 btrfs: remove duplicate name variable declarations
-dd9566349783a1e9759420106fb02fcf7cfca490 btrfs: rename macro local variables that clash with other variables
-3be790e81cd45f93efc0bfbcb6aeaea45160ffe2 btrfs: use for-local variables that shadow function variables
-d5a72bba714c895ce87374657ee4a11fabd2a6e1 btrfs: remove unused define EXTENT_SIZE_PER_ITEM
-4284605b60ca5738197fa02d2de1613edc8e685e btrfs: keep const when returning value from get_unaligned_le8()
-ac3076bc9a762b1059695621f74a6eea5fa1c7e9 btrfs: constify parameters of write_eb_member() and its users
-51f16cf561abdade5e2f82ba47c9ee28380fc95e btrfs: slightly loosen the requirement for qgroup removal
-509c2146c870bc1c4dd1e622f8010cc1714a1c93 btrfs: automatically remove the subvolume qgroup
-aedb9543d70c536022ca2eda5d9b97a0b2890c31 btrfs: simplify range parameters of btrfs_wait_ordered_roots()
-0f21715c0ad6c4957afd47a6dc667c5db8b37b1e btrfs: qgroup: avoid start/commit empty transaction when flushing reservations
-f86f3a1d31fc68e0d77589c995611bbd74a3e54a btrfs: avoid create and commit empty transaction when committing super
-3e52f1d5c6f07062ebab16cf7a351d64a8ce604f btrfs: send: make ensure_commit_roots_uptodate() simpler and more efficient
-e9d2bef52557afb0e77c35a59b16dff5c64d9b60 btrfs: send: avoid create/commit empty transaction at ensure_commit_roots_uptodate()
-4ef9d457c22f3bc1cee9a4922334509e2ea8f35a btrfs: scrub: avoid create/commit empty transaction at finish_extent_writes_for_zoned()
-854a53180351999fa8a239771475bea0e3ea888f btrfs: add and use helper to commit the current transaction
-0d74e2eba512e02513975f6888c5720586db884b btrfs: send: get rid of the label and gotos at ensure_commit_roots_uptodate()
-aed2ce70ea531694bfdf822a7238c48ef048e0f2 btrfs: move fiemap code into its own file
-8ccc64054ace246fb60fd95264b9f87a85168032 btrfs: rename extent_map::orig_block_len to disk_num_bytes
-b2846d8e589cedfc6b321bdd54d3868138f107c0 btrfs: export the expected file extent through can_nocow_extent()
-f8fbb251215ffa22b9e1b72a98ba5509d5a36269 btrfs: introduce new members for extent_map
-fc5a1043ad4f42607b0692a2e11cf2554f60737c btrfs: introduce extra sanity checks for extent maps
-4e486720ff02315d0a81591783dae84460bb3b3d btrfs: remove extent_map::orig_start member
-1791ea755805e12f619b4790ea244bd747e52450 btrfs: remove extent_map::block_len member
-ed11cbaea7892cec0e13d04ad09554e1e306f4ec btrfs: remove extent_map::block_start member
-1c078c76bd2460f05be54067c78002fcbedd0429 btrfs: cleanup duplicated parameters related to can_nocow_file_extent_args
-8edabfc2bd5bb06c76a3f98843a0b47fec17b897 btrfs: cleanup duplicated parameters related to btrfs_alloc_ordered_extent
-99b9c0adce29613ed09ff713f1d348a1aae19b2a btrfs: cleanup duplicated parameters related to create_io_em()
-19713dc15a8d0d8c4a74a41885d487155ddb2479 btrfs: cleanup duplicated parameters related to btrfs_create_dio_extent()
-47b7ae8c6be75203db98636160d02616ea655f60 btrfs: rename err to ret in btrfs_cleanup_fs_roots()
-0b562098aa97007153ce2e3bbd9176cc925ae15a btrfs: rename ret to err in btrfs_recover_relocation()
-b4b41f43ec7326bb4b3dd6223ca40c0880f4920b btrfs: rename ret to ret2 in btrfs_recover_relocation()
-2e2bc6b4783fb40549d0f6857638ab2860f87bdc btrfs: rename err to ret in btrfs_recover_relocation()
-ea54efab391e9c6885eda697738c54af8175bf7c btrfs: rename err to ret in btrfs_drop_snapshot()
-f4a01dda127a9f55b82ec1a41a7d44dd28aeb25a btrfs: add MODULE_DESCRIPTION()
-23c5dbd485b7a4b3a48b1fce04654f1b0b3a2dd9 btrfs: make __extent_writepage_io() to write specified range only
-ad9595eed1ef8ff8684641cadbffa310e0fa4e4f btrfs: subpage: introduce helpers to handle subpage delalloc locking
-51fb7461e1c513d6db06dd0ccb8f36e6abc481e5 btrfs: lock subpage ranges in one go for writepage_delalloc()
-b1bd72fdc1ab03d6c27961f0112b48d861929306 btrfs: do not clear page dirty inside extent_write_locked_range()
-dd9ba7d64a3e2382c7d40b28529efc9024841495 btrfs: make extent_write_locked_range() handle subpage writeback correctly
-3f360da87aa38a3fb5578d7e3a4d9fe7d54839e2 btrfs: qgroup: delete a TODO about using kmem cache to allocate structures
-6780ea13f5bce8e5980c93614abf33c223f3223e btrfs: cleanup recursive include of the same header
-f8aec414acdd5a5b30fee34620ef85d133dfb5c4 btrfs: do not directly include rwlock_types.h
-1c44d9fe6d67c7d1dbf05396bf93c88287d1e119 btrfs: fix crash on racing fsync and size-extending write into prealloc
-c06a4cc368acf0b6865973dadd7b8746586b0945 readdir: Remove unused header include
-1f9ccdf69c9ffb9a9084cc6e1a47c5030cebed26 readdir: Add missing quote in macro comment
-244ebddd34a0ab7b1ef865811864136873f4b67c fs: don't block i_writecount during exec
-cd140ce9f611a5e9d2a5989a282b75e55c71dab3 hostfs: convert hostfs to use the new mount API
-f113ef08b6bde5f4c74eb4d66f7ca52e09305bb0 tmpfs: don't interrupt fallocate with EINTR
-d694e46afb4be5332877af2989e4d0b80b7df235 fs: nls: add missing MODULE_DESCRIPTION() macros
-f06ce441457d4abc4d76be7acba26868a2d02b1c Merge tag 'loongarch-fixes-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-0af82f867733d19402173193eba1be7935d040b2 Merge branch 'vfs.fixes' into vfs.all
-03950a7a6f1a511a372bc46cd4fddd2df7e37a62 Merge branch 'vfs.misc' into vfs.all
-68efe7d9f3055ee986c51178e76061bdad782ff9 Merge branch 'vfs.xattr' into vfs.all
-4247aca2219daab5ea6aeebc3d27d32ad56d2472 Merge branch 'vfs.module.description' into vfs.all
-f2f79c2aa4d2bbe15c96a9b84c0cc471db0d0744 Merge branch 'vfs.pg_error' into vfs.all
-03985f9e469eb6886cf18068968494da8a72e67a Merge branch 'vfs.mount.api' into vfs.all
-b285eb5bcf801cce4233fe98940484ccf4180216 btrfs: constify pointer parameters where applicable
-2ab79514109578fc4b6df90633d500cf281eb689 Merge tag 'cxl-fixes-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-71ae54cd7530a1e8687d72c149bf3fc241c968e0 btrfs: === misc-next ===
-4803d658fbae84899d78890ea18f58976569a979 btrfs: handle unexpected parent block offset in btrfs_alloc_tree_block()
-9dcd7ba634d9517779327582055a76eb2d220a2a btrfs: scrub: fix incorrectly reported logical/physical address
-7e5a418dfa3ce444bb7f170f35d475d941cae0dc btrfs: reduce the log level for btrfs_dev_stat_inc_and_print()
-e667a3c76c8684add62531e0ce76abce8c0b32bb btrfs: scrub: remove unused is_super parameter from scrub_print_common_warning()
-64db2967cf5fca6efad41927a5aadb53db7bfc7b btrfs: scrub: remove unnecessary dev/physical lookup for scrub_stripe_report_errors()
-27b557892be846887f64f06f6cc8608a4e84a6e6 btrfs: scrub: simplify the inode iteration output
-ec9d7bc1827dbdd73212072b06800b65cc448aa9 btrfs: scrub: ensure we output at least one error message for unrepaired corruption
-6b8638cd0068326929d3204a01a6b568c72ca4c3 btrfs: scrub: use generic ratelimit helpers to output error messages
-220680b0f1c0755a3ec81eaef4c6a53d23eb6b84 btrfs: don't do find_extent_buffer in do_walk_down
-0ec56f06c0b49d3b4c2fbfa5126df22dc6ebd292 btrfs: remove all extra btrfs_check_eb_owner() calls
-03165fe5adfd9ae55a75856ac8b2609bb7c4a17e btrfs: use btrfs_read_extent_buffer in do_walk_down
-33715f1af8a33a0c6413a3a28f60a0dd9d6f11e0 btrfs: push lookup_info into walk_control
-a9ab69b65165c5d27b15a46a70a89f96a7a8cbaa btrfs: move the eb uptodate code into it's own helper
-f0beb5ab0bb04ce4d44bad823734d6fea3f66c84 btrfs: remove need_account in do_walk_down
-822fd6f5102cef2ec2e31533c9d29d2f6e6921d3 btrfs: unify logic to decide if we need to walk down into a node
-b0d02120dafc749457fce24cda229d84661d08d3 btrfs: extract the reference dropping code into it's own helper
-944781ee4d2a189cd66cd970f0db0627eebf14da btrfs: don't BUG_ON ENOMEM in walk_down_proc
-2223e5e1a1c5066cc5899c916dd4728dd1d6488a btrfs: handle errors from ref mods during UPDATE_BACKREF
-2e6656258e7498550c71db6ecec27b5164207ef8 btrfs: replace BUG_ON with ASSERT in walk_down_proc
-c48fcf9d9d0eee3a73f5e391dd52245683fadb60 btrfs: clean up our handling of refs == 0 in snapshot delete
-65f5456fa0b30def3bc293ae504b22d77b842cbc btrfs: convert correctness BUG_ON()'s to ASSERT()'s in walk_up_proc
-a57a749b89dd5b555e41cf4e1088cce655ce8fb6 btrfs: handle errors from btrfs_dec_ref properly
-82b0227f353de9131f4aa09e84c83d704e4aa225 btrfs: add documentation around snapshot delete
-67f03bfc20f7fb3d0fcee6f89f60e89379166c0d btrfs: report reclaim stats in sysfs
-3343ffea862b85d9bf60e952b663432d0ca6681a btrfs: store fs_info on space_info
-897b15f172e8e35a51718539209ea4a54bee48bb btrfs: dynamic block_group reclaim threshold
-ac9ebf9f3c2dc07c92f8f5f4fb0d809bdebb6a60 btrfs: periodic block_group reclaim
-45739220b3f684091681ad07b42336f8e546b4b4 btrfs: prevent pathological periodic reclaim loops
-982653660017fda3677eb9ca06c84456da16c3d4 btrfs: urgent periodic reclaim pass
-160016db77cd27c498aa48f7b198998558be236f btrfs: drop extent maps after failed COW dio write
-cea9ba791838efa2ffabd288528466cd8b2ef050 btrfs: refactor btrfs_dio_submit_io() for less nesting and indentation
-48327cb4b241e4a91163df674ec15b8b53c1478b btrfs: make compression path to be subpage compatible
-f4722229b2512e7304d7cacf509ac5bac1e52652 btrfs: fix a possible race window when allocating new extent buffers
-ff766d2f5d05b9ff6975631b83a1377a5fd291ce Merge branch 'misc-6.10' into for-next-current-v6.9-20240603
-a55acd430166c06b626f1df62a61e49fdb04cec2 Merge branch 'misc-6.10' into for-next-next-v6.10-20240603
-270fe85dd2ed6d445f060f9e3b1751fd4b435f09 Merge branch 'b-for-next' into for-next-next-v6.10-20240603
-f1d6631be681d90b90c5e8d4fb7bc617f5744c40 Merge branch 'misc-next' into for-next-next-v6.10-20240603
-98a3c71b48aa10250fc8d94ce2320d3dd976942b Merge branch 'for-next-current-v6.9-20240603' into for-next-20240603
-8f1288f0a01551f1ac14a870c4d7859442c4ca73 Merge branch 'for-next-next-v6.10-20240603' into for-next-20240603
-a9cf489be39f25f834572812de02672f0122bc2f bcachefs: Fix trans->locked assert
-ce7f373961cf2c761b16840d768a30eb83df5c23 bcachefs: Use try_cmpxchg() family of functions instead of cmpxchg()
-c92d0f38c57747d42298260ce9200e2a9d982aab bcachefs: Check for bsets past bch_btree_ptr_v2.sectors_written
-9e55e7980f751f379e2d83229090307b0ff1b6b6 bcachefs: btree_ptr_sectors_written() now takes bkey_s_c
-f6e0e95632908aafe25ceb89b804ce80dcdef228 bcachefs: make offline fsck set read_only fs flag
-c16662e7537dac98cb6969206994d19ca3593e24 bcachefs: don't expose "read_only" as a mount option
-7dc94d239a9c660b1175c4d1e287755cb7433aa4 bcachefs: bch2_printbuf_strip_trailing_newline()
-0c988d90b79f0b2f36f95104a4d2bff77f48cfcc bcachefs: Replace bare EEXIST with private error codes
-34b6acc6b5bcb1a045647c67b57a3a3d9991aded bcachefs: allow passing full device path for target options
-df780cd5437f3d5184d92c3cf005ed2973b4510c bcachefs: check_key_has_inode()
-69b66a4f891ce70c3826b4d14728d0451162baa2 bcachefs: bch_alloc->stripe_sectors
-fd4bfd92d61dc98379424c297811b8cf32ed0cb0 bcachefs: BCH_DATA_unstriped
-7f7e53e6d0b330a7e0e3624438d9d8f0ec65ca6f bcachefs: metadata version bucket_stripe_sectors
-03a3df38c7eea59b8e7e05b97902900321481ebe bcachefs: add printbuf arg to bch2_parse_mount_opts()
-b7a3fea7461e0c1bbf86321e6d2a9803d9207344 bcachefs: Add error code to defer option parsing
-a1ecee0f57572b7bec10e10715d26f437d18088e bcachefs: use new mount API
-c5fa99283df9a0b4a242736dfe6c17ffae903d43 bcachefs: KEY_TYPE_accounting
-fe5d8b76859996f3c1aca058243261116f2187df bcachefs: Accumulate accounting keys in journal replay
-b609724aac277f4b8677c1dfb99ea45158d3de30 bcachefs: btree write buffer knows how to accumulate bch_accounting keys
-ea54f826dc0a384b7adac0153dc985ec50257e9d bcachefs: Disk space accounting rewrite
-f298179fc2827396b4fe449c6dd2007eac0478bd bcachefs: dev_usage updated by new accounting
-09740a536b98264268afc81a4d20791736b60b1a bcachefs: Kill bch2_fs_usage_initialize()
-4dc6374d696f908a033432fea11216cbe6f21d21 bcachefs: Convert bch2_ioctl_fs_usage() to new accounting
-ac16198b5e65d13771b7cad60063f26e7650af92 bcachefs: kill bch2_fs_usage_read()
-4165888076e3d448642dbe923b7c9e8f3af70476 bcachefs: Kill writing old accounting to journal
-dfeaaf951824b5dd5ba920f1748c75555163d7ff bcachefs: Delete journal-buf-sharded old style accounting
-331ccf6e840b247b46b66abcf29c8d4bbc4cda6c bcachefs: Kill bch2_fs_usage_to_text()
-1ace51bfcca3b4ee169c1c3f6378bf07901510b5 bcachefs: Kill fs_usage_online
-9f0162e1170e08170f15a8c1aef9401fdf714462 bcachefs: Kill replicas_journal_res
-f8970ba2e63b75c4c09cb0479ea1f386896099f4 bcachefs: Convert gc to new accounting
-8dcbfea747f9ee5777c623d0dec06b9df0f79988 bcachefs: Convert bch2_replicas_gc2() to new accounting
-46a97c313be8c358c0628b765fd790fbf950f415 bcachefs: bch2_verify_accounting_clean()
-55bcfcfbe2e16bf6e958cc56b29c89bf04ee5732 bcachefs: bch_acct_compression
-28d5c19aa1dbfd9bbb93a94ab3be31019c90a16f bcachefs: Convert bch2_compression_stats_to_text() to new accounting
-008834fd350f5ac807b76e0826a93e8906e1733f bcachefs: bch2_fs_accounting_to_text()
-785f8dd10d4d2cd80f4c13f4c2ab80762666d9ed bcachefs: bch2_fs_usage_base_to_text()
-ecac91108e7aba1750a00b46b812aa56ee207656 bcachefs: bch_acct_snapshot
-63033110b14882e23a8e3a1a0903146a94860909 bcachefs: bch_acct_btree
-7ad486260b7f32ada4e4ff69abf9c49ebb4afa46 bcachefs: bch_acct_rebalance_work
-a0e9f2505a4a72ba95807a96c1b60800706f3b58 bcachefs: Eytzinger accumulation for accounting keys
-73adfd9d60f6c020454b881cc94ff9f55e4b6cbc Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-02d38cc9243482ed5fba0e0ed2d0f43fbde8a4ec Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-5abd7ef47dc6503a6ca17ec80eb5fed8f68d29d8 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-7805dc23f674503215b160aea7406a6ade29f511 Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-771ce0ae72a7931fbea75cefff1824a936d7ce89 Merge branch 'for-next' of https://evilpiepirate.org/git/bcachefs.git
-13525debd32b265857f4913fd6d2afc43c07da70 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-9d9b37cfa3e8c889880de02563a892c8f6d0c698 Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
-6dc4dcfde9a5097d55a48f8f10618b33f31dc732 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
-51b10a3c35990be96d8adc9aca4b91543f35340d Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-4043904dd17d42e3ccd9a233fbf3cbfe57ecb653 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
-96fac98f81e6cb32cde4bf82bef733bfeb4958d6 Merge branch 'jfs-next' of git://github.com/kleikamp/linux-shaggy.git
-ba2161c98f2c33cb2c617a451343564fd4e744b5 Merge branch 'linux-next' of git://git.linux-nfs.org/projects/trondmy/nfs-2.6.git
-a6a2e13e3bc64365c70b52d42b5d3a674152d5cd Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-ac42514f0b64b46531eb69ad24eac1d47db5ab14 Merge branch 'overlayfs-next' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs.git
-1c2d705247cac0d6b5579bf5031cb321cd48051b Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-
---===============8553993026188456259==
+--===============8333712441048773202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -875,27 +637,4 @@ e497179617d608435b00bafbf9b1262ad30c9a00 Merge branch 'slab/for-next' of git://g
 3e7b44c983dd7bdbab15620a766b5ea1d1fe7c93 Merge branch 'bitmap-for-next' of https://github.com/norov/linux.git
 d97496ca23a2d4ee80b7302849404859d9058bcd Add linux-next specific files for 20240604
 
---===============8553993026188456259==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a693b9c95abd-2ab795141095.txt
-
-9e2f46cd87473c70d01fcaf8a559809e6d18dd50 ata: ahci: Do not apply Intel PCS quirk on Intel Alder Lake
-d55510527153d17a3af8cc2df69c04f95ae1350d cxl/test: Add missing vmalloc.h for tools/testing/cxl/test/mem.c
-49ba7b515c4c0719b866d16f068e62d16a8a3dd1 cxl/region: Fix memregion leaks in devm_cxl_add_region()
-86aaa7e9d641c1ad1035ed2df88b8d0b48c86b30 ata: libata-core: Add ATA_HORKAGE_NOLPM for Crucial CT240BX500SSD1
-473880369304cfd4445720cdd8bae4c6f1e16e60 ata: libata-core: Add ATA_HORKAGE_NOLPM for AMD Radeon S3 SSD
-3cb648c4dd3e8dde800fb3659250ed11f2d9efa5 ata: libata-core: Add ATA_HORKAGE_NOLPM for Apacer AS340
-58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
-6c3ca6654a74dd396bc477839ba8d9792eced441 LoongArch: Remove CONFIG_ACPI_TABLE_UPGRADE in platform_init()
-b56f67a6c748bb009f313f91651c8020d2338d63 LoongArch: Fix built-in DTB detection
-3de9c42d02a79a5e09bbee7a4421ddc00cfd5c6d LoongArch: Add all CPUs enabled by fdt to NUMA node 0
-beb2800074c15362cf9f6c7301120910046d6556 LoongArch: Fix entry point in kernel image header
-1098efd299ffe9c8af818425338c7f6c4f930a98 LoongArch: Override higher address bits in JUMP_VIRT_ADDR
-eb36e520f4f1b690fd776f15cbac452f82ff7bfa LoongArch: Fix GMAC's phy-mode definitions in dts
-f06ce441457d4abc4d76be7acba26868a2d02b1c Merge tag 'loongarch-fixes-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-2ab79514109578fc4b6df90633d500cf281eb689 Merge tag 'cxl-fixes-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-
---===============8553993026188456259==--
+--===============8333712441048773202==--
