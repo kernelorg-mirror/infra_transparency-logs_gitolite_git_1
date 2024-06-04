@@ -1,43 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8517005839004024571=="
+Content-Type: multipart/mixed; boundary="===============6621924856536220240=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 04 Jun 2024 22:29:45 -0000
-Message-Id: <171754018562.21291.8144002255203998857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 04 Jun 2024 22:29:50 -0000
+Message-Id: <171754019024.21424.7430588977508975192@gitolite.kernel.org>
 
---===============8517005839004024571==
+--===============6621924856536220240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 83042ce9b7c39b0e64094d86a70d62392ac21a06
-    new: a6ba5125f10bd7307e775e585ad21a8f7eda1b59
-    log: revlist-83042ce9b7c3-a6ba5125f10b.txt
+  - ref: refs/heads/dev-queue
+    old: 0177a96df6353ee8e8b4f075d666814d6f6a34b0
+    new: 2e2f8dcb627dbb392d1cad752d42a0b28a40e1fd
+    log: revlist-0177a96df635-2e2f8dcb627d.txt
 
---===============8517005839004024571==
+--===============6621924856536220240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83042ce9b7c3-a6ba5125f10b.txt
+Content-Disposition: attachment; filename=revlist-0177a96df635-2e2f8dcb627d.txt
 
-4933b066fefbee4f1d2d708de53c4ab7f09026ad r8152: If inaccessible at resume time, issue a reset
-8c1d92a740c002f36a919a55689d0ef83b61fd1c r8152: Wake up the system if the we need a reset
-4fdb6b6063f07d959a1c52a2ee580afc4da34e2d net: count drops due to missing qdisc as dev->tx_drops
-668b6a2ef832a878494cc1b12a881c8ec0494b25 flow_dissector: add support for tunnel control flags
-1d17568e74dedbcb54d36af0662a15128297d681 net/sched: cls_flower: add support for matching tunnel control flags
-2589d668e1a6ebe85329f1054cdad13647deac06 Merge branch 'net-allow-dissecting-matching-tunnel-control-flags'
-071115301838c6c265065dd5d6bf43a9a987a550 tcp: wrap mptcp and decrypted checks into tcp_skb_can_collapse_rx()
-1be68a87ab333af37b02ad928a724a722a5a8203 tcp: add a helper for setting EOR on tail skb
-99b8add01f98a8ecf498de1467e8bf13dbf02daa net: skb: add compatibility warnings to skb_shift()
-cd0057ad75116bacf16fea82e48c1db642971136 Merge branch 'tcp-refactor-skb_cmp_decrypted-checks'
-8c3fdff2171c834df5fa5ff353b94ada2e5376ca openvswitch: Move stats allocation to core
-2b438c5774cc491a4aa8bb1ec4f49c1a0760a173 openvswitch: Remove generic .ndo_get_stats64
-a6ba5125f10bd7307e775e585ad21a8f7eda1b59 Revert "ethernet: octeontx2: avoid linking objects into multiple modules"
+2cb0eab56f958bded0ce2345fa4f3586ab369e72 ice: avoid IRQ collision to fix init failure on ACPI S3 resume
+275dcfaacd6260d14433c3bc922c6a5f86ceef09 ice: fix 200G link speed message log
+b22555a11080f75f2fb3d91290a1e22540d5cd24 idpf: extend tx watchdog timeout
+d5093538a67a09ab1fcdc7c92cdce6c223a4d172 ice: implement AQ download pkg retry
+10f92432e7f096778c6d13c9e34536e78707af5e ice: respect netif readiness in AF_XDP ZC related ndo's
+fd1251596851af24583eff027a62aceece9863d0 ice: don't busy wait for Rx queue disable in ice_qp_dis()
+0ae3609a3550e7c0cd4cce960270126faca0d7dc ice: replace synchronize_rcu with synchronize_net
+2d73b4c1008efd7dd9de000e70dab27cda87b2fc ice: modify error handling when setting XSK pool in ndo_bpf
+2f909702aadbfc6b6e50bd9734a2b7aea89e03ff ice: toggle netif_carrier when setting up XSK pool
+79adf64fc27d4fd29d4b80369cc3dfd73d66d32c ice: improve updating ice_{t, r}x_ring::xsk_pool
+160ee0c6cb8a7d20f059604330fbaf150f96bf74 ice: add missing WRITE_ONCE when clearing ice_rx_ring::xdp_prog
+2e2f8dcb627dbb392d1cad752d42a0b28a40e1fd ice: xsk: fix txq interrupt mapping
 
---===============8517005839004024571==--
+--===============6621924856536220240==--
