@@ -1,85 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============2464055042397641213=="
+Content-Type: multipart/mixed; boundary="===============2299558924034757484=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 04 Jun 2024 19:02:22 -0000
-Message-Id: <171752774260.30827.3085164057991940580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 04 Jun 2024 19:02:27 -0000
+Message-Id: <171752774739.30929.5854399445931535869@gitolite.kernel.org>
 
---===============2464055042397641213==
+--===============2299558924034757484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/char-misc-testing
     old: c3f38fa61af77b49866b006939479069cd451173
-    new: 5821bf2dffbe18fe1f097dbb027415fa15a38e9a
-    log: revlist-c3f38fa61af7-5821bf2dffbe.txt
+    new: a774c5d1f9c4ad43411ee4010d8eb8e60b8e60a0
+    log: revlist-c3f38fa61af7-a774c5d1f9c4.txt
 
---===============2464055042397641213==
+--===============2299558924034757484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717527750 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1717527738-dc8571f4e895222d46bc4b2a094ac272ac6ce514
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717527755 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1717527743-37484afbd7f7c7a575fba0b31362ba183b6c4ff6
 
-c3f38fa61af77b49866b006939479069cd451173 5821bf2dffbe18fe1f097dbb027415fa15a38e9a refs/heads/usb-testing
+c3f38fa61af77b49866b006939479069cd451173 a774c5d1f9c4ad43411ee4010d8eb8e60b8e60a0 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZfZMYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kzkP+gOoLBLAKPbX3WiESJBT
-tQa671wsXq5K1gJhPSfAYPKky/UpB/xDkl+HijCNg5lv0ncmU/XWdfBaho3MaeK8
-dmDLpYMQ8OTDYKiNwxN/1g8R4aYgAokZdQdBvp9CqV8wi5dFpisLPymEM4ap2dZE
-raxGnMzMT+wsOMKbWiLX7OIAOWHNn73WnVoaeZIh+Ta29i6QSyB/a70zrFlnwVIy
-4nbxHs0dJpmvyr1h05YQ+3Zk4i+KOadL64aGT2cEL7+9Db7w8pGmoa80ApPenSsQ
-MoDZA8hgTN2rpEcLBEQWPlGMfKx4YhsBUvfS3zSdUHo7vGmAc7e83T7ejC84WNL2
-GDwz3ezGtkWC+e5iP4wcjYxjIRio1p6pLXWlyiVWq+m3tqUX3mC8ehZqbJuIj9HC
-0u8c4P0lcrPQXmreEarxgKncQD8lWuxrLX9W35GQ+ce/38E6Z64ID5kTjTbOVnmw
-Sm889rH86Or+lvva7zxvxDQRI77PLO9NRxb4TyjJwPF4trFoWX6l6f3lW35ZPkz1
-Mt58l9VwD4BeyGsxoAw7Mbe0q0hTaDlWwZUC+wTe2qXCRtE/pcXQVFQx/LKLGRRk
-FqI5/WxM+lYAel9zQ6iv/WwljQfu5qEJeGpckNI0fozjtux2EJQ7bDytSMfKQpjv
-KLzZQ0SaV66ZTfsBw/AJZiKq
-=MQ7X
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZfZMsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5BgP/ipcfccUXak8QxUG7t0Z
+TwOQxIlcAYbe5B2X9iVU+TU78c65MUugLpAwexhyqUy5fg31hp4L4bZZgzs4ROo6
+14/Vtj2AdSU1ynhVrKjRDbLQ8PY54nZ8TCn+t+2PK8sPNiuSwodMayLqgCN945Fq
+vjCfWQWWOdgTPprLIALaA58iYom6Avx0bOzhgtBKGVAHY+8Y2jV8bBOJQ6kGpHeW
+7r099wfqOqrfOSI6jI/89wHmf9V1ifWrG/qO1KjOXbSL4uJipiQVP9ztpJT0KZHG
+Lwdt75XHzGYKOuFLukh1BDq2WnyuCcJflnJaRPX50WmK801AX8sAI2Ykf5+J1zbE
+W7xgj+zbJLaCGEDxuMpiG7mPjil/dxImTRaEWpFgModpS01DDoLcoCdFlikM/Nhu
++b6dpfvPDOvUuNPGq1E8+a+b0hJ4+DgE1lgoT3JWxvyx7QBru3Idpiw4vcN5ajoz
+UQgE0PrJa8rpaVbvXR3urVtNjt7SDXo52lq+drp+b+OYG1NGUGnPGyVj5JiAsu1o
+fYsZg+kwJrWfrL3qqa30coifmU6WKmb2YJlyJ1F8GBo3Mir2tYt6wAUkMeNHddLu
+oJAO5JKbGvaasxkyziNeCr+XbS5e503u1MUDnbqBnUJQT/4Erxlf3iGaitJMd5ZA
+spAsdGsTfIB5g23aAMxNNOng
+=tK/3
 -----END PGP SIGNATURE-----
 
---===============2464055042397641213==
+--===============2299558924034757484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3f38fa61af7-5821bf2dffbe.txt
+Content-Disposition: attachment; filename=revlist-c3f38fa61af7-a774c5d1f9c4.txt
 
-0a01aec24e777a03c97fc4ed96425de981a1a1f7 usb: typec: nb7vpq904m: Remove unneeded indentation
-804da867ad016d53bf33373cfeaae041775455f1 usb-storage: Optimize scan delay more precisely
-8b6b386f9aa936ed0c190446c71cf59d4a507690 usbip: Don't submit special requests twice
-0aca19e4037a4143273e90f1b44666b78b4dde9b usb: cdns3: Add quirk flag to enable suspend residency
-b50a2da03bd95784541b3f9058e452cc38f9ba05 usb: cdns3-ti: Add workaround for Errata i2409
-1134289b6b93d73721340b66c310fd985385e8fa usb: dwc2: gadget: Don't write invalid mapped sg entries into dma_desc with iommu enabled
-1fb2d2d25c9a4fd6951afdb48d18d9c24bf0db03 usb: typec: ucsi: Add new notification bits
-e44f31e2b98361423ed52e79a4e6126da4706b20 usb: host: oxu210hp: remove unused struct 'ehci_dbg_port'
-fb67c6c7bc5850e3159a03ca530d2d74484516f3 dt-bindings: musb: mpfs: add ULPI external vbus support
-2bc33d79fcadb440f76e379da046957bdf50b2e0 usb: musb: mpfs: detect UPLI external vbus control requirement from DT
-122968f8dda8205c5735d7e1b1ccb041a54906d1 usb: typec: tcpm: avoid resets for missing source capability messages
-876483a5a5bde7011cf10b1a3a559afd819fd14f usb: typec: tcpm: print error on hard reset
-ee8e41b5044f637d9f2dc160f9099a308ec65533 phy: ti: phy-da8xx-usb: Add runtime PM support
-6ecd7749c9a2930917d43935e14b7f33e54691a7 Revert "usb: musb: da8xx: Set phy in OTG mode by default"
-608662dd6081f6d3149ecd250b1054d3eb2b7d2d usb: musb: da8xx: Remove try_idle implementation from host-only mode
-4cb9f2c5a2df12355d0cbfdfaecc9221779d2eff usb: musb: da8xx: Implement BABBLE recovery
-99516f76db48e1a9d54cdfed63c1babcee4e71a5 usb: typec: ucsi: Fix null pointer dereference in trace
-fe8db0bbe04d31ab17dc60e205c4a3365c92e67c usb: typec: Update sysfs when setting ops
-4ea9d86d0a6fab9f8fabf9a62894da4d2e590f05 usb: typec: ucsi: Delay alternate mode discovery
-c313a44ac9cda60431bdc7dcdb4b135eaef31785 usb: typec: ucsi: Always set number of alternate modes
-f12e04c39e45b38d60263c41775b0a76b3f8dd0e dt-bindings: usb: gpio-sbu-mux: Make 'enable-gpios' optional
-df1c5d55abc118f083854ff7e5048a16c98be714 usb: typec: mux: gpio-sbu: Make enable gpio optional
-4207df37dd744f0cb09b7c09b9c5338ea65c44e7 usb: typec: ucsi: Add new capability bits
-5821bf2dffbe18fe1f097dbb027415fa15a38e9a usb: typec: ucsi: Enable UCSI v2.0 notifications
+6392194470575de1ac0cb7223ff3bf30da94bbea uio: add missing MODULE_DESCRIPTION() macros
+ea5542c5bbfc87f572dab9fbdf932e7aeb2b7d62 parport: add missing MODULE_DESCRIPTION()
+5a71c0d1180e76d223a8266799d1ee4ba3a8e697 dyndbg: add missing MODULE_DESCRIPTION() macro
+0d618e39763e0e2b88586cd7d40ce8419735412f lib/math: add missing MODULE_DESCRIPTION() macros
+45be81fa3b55b9da33be36f5d3d69689dc046942 ppdev: add missing MODULE_DESCRIPTION() macro
+a464822872f5e0e6a541c0b4971bea10421db5fa tlclk: add missing MODULE_DESCRIPTION() macro
+91f34fc54ee7d008d80607cfaafe50f416fdf160 char: add missing MODULE_DESCRIPTION() macros
+312eee8f0c9927f440cf134e34db625a2976d80e misc: open-dice: add missing MODULE_DESCRIPTION() macro
+c41cc3c28730c549b78ddc9533d589c289242e63 siox: bus-gpio: add missing MODULE_DESCRIPTION()
+c01b08a7538581d13a90d38d259673ad64bff647 misc: eeprom_93xx46: Make use of device properties
+2b82641ad0620b2d71dc05024b20f82db7e1c0b6 eeprom: digsy_mtc: Fix 93xx46 driver probe failure
+c8ed97d8c3984492942ac6c63bb47794caffd4af eeprom: digsy_mtc: Convert to use GPIO descriptors
+3aee48a8e01f98d3285a0064285b0152cdbb8a9e misc: eeprom_93xx46: Hide legacy platform data in the driver
+195b979955dea396e6c21bf196af06f6e5ef8c91 misc: eeprom_93xx46: Remove ->prepare() and ->finish() customisation
+163898508f96efaafaa87000c7c4bbf711a34bd9 misc: eeprom_93xx46: Use spi_message_init_with_transfers()
+761b4cf31741b2d0beda5de4c36253b553939263 misc: eeprom_93xx46: Convert to use kstrtox()
+f5efcdfe92b0032587d1a79db45ac657798d5d44 misc: eeprom_93xx46: Replace explicit castings with proper specifiers
+b73602bf552b6422327c453772f30e64fcb4178d misc: eeprom_93xx46: Use string_choices API instead of ternary operator
+83f939f4d4b91c245ff4e58422c014969f3772a6 misc: eeprom_93xx46: Convert to DEVICE_ATTR_WO()
+10724d5d477f8baadeaa183e288d6bd872bcade2 eeprom: Drop explicit initialization of struct i2c_device_id::driver_data to 0
+a774c5d1f9c4ad43411ee4010d8eb8e60b8e60a0 mcb: mcb-pci: detect IO mapped devices before requesting resources
 
---===============2464055042397641213==--
+--===============2299558924034757484==--
