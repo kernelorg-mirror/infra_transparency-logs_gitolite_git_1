@@ -1,89 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============0296803209782511289=="
+Content-Type: multipart/mixed; boundary="===============4682351175557148099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Tue, 04 Jun 2024 00:34:15 -0000
-Message-Id: <171746125581.15935.2574971088771395169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 04 Jun 2024 00:52:09 -0000
+Message-Id: <171746232990.30176.1313622516901205962@gitolite.kernel.org>
 
---===============0296803209782511289==
+--===============4682351175557148099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/clk-next
-    old: e1c1038e738778adc7ca874e219ba49bf09809bb
-    new: 11b6b52cdef472b048bc95cd407a0af1cac9f1b2
-    log: revlist-e1c1038e7387-11b6b52cdef4.txt
-  - ref: refs/heads/clk-cleanup
+  - ref: refs/heads/dev
+    old: 9853762f3338973249ab0374f1f574c58651a10c
+    new: 1b85ecfefbbf1efa3acb37776b06f78c73da9fbd
+    log: revlist-9853762f3338-1b85ecfefbbf.txt
+  - ref: refs/heads/cmpxchg-um.2024.05.30b
     old: 0000000000000000000000000000000000000000
-    new: 45b2fb09384c645489f7b359c49ca879852e5cec
-  - ref: refs/heads/clk-kunit
-    old: 0000000000000000000000000000000000000000
-    new: 06abd441c0c100aa0b52ce403862e5ae958bf94b
-  - ref: refs/heads/clk-mediatek
-    old: 0000000000000000000000000000000000000000
-    new: f5100c415c86eec86361d136dc4f3bcae998d116
-  - ref: refs/heads/clk-stm
-    old: 0000000000000000000000000000000000000000
-    new: a542e9d70cb1a292e5dc65f8603310b65236f059
+    new: 81ba375d0c523cc3c730fc1077815d4e45b51ee3
 
---===============0296803209782511289==
+--===============4682351175557148099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9853762f3338-1b85ecfefbbf.txt
 
-certificate version 0.1
-pusher Stephen Boyd <sboyd@kernel.org> 1717461253 -0700
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
-nonce 1717461253-3b006771732d534cf6c92cd522a43fe000e48dd3
+7ef82a368989988538aa137b01547ec4559113b9 doc: Update Tasks RCU and Tasks Rude RCU description in Requirements.rst
+62bd2d44471b213f88d82bdac23b023a5310c7b3 doc: Clarify rcu_assign_pointer() and rcu_dereference() ordering
+32d99593bdc91442fe6183d97b060210cc9c8193 rcu: Add lockdep_assert_in_rcu_read_lock() and friends
+a3ccef6c6f5c2a9f5c6adc33f333701db74013f7 rcu: Reduce synchronize_rcu() delays when all wait heads are in use
+87a2230118057a0d2099833328f7be420b6a22bf rcu/tree: Reduce wake up for synchronize_rcu() common case
+178d854c46c77e5b3860fccdd4cd56c282990c79 rcu: Disable interrupts directly in rcu_gp_init()
+c16f2ce5e235a9357d5506cc1567cabc47eb2483 srcu: Disable interrupts directly in srcu_gp_end()
+e6d3f37ba4f38d86d4e92c0dfc70f0fb603cb8f7 rcu: Add rcutree.nocb_patience_delay to reduce nohz_full OS jitter
+92dc4dc0df4ee29aa294603e2253b9fa8dd724e0 MAINTAINERS: Add Uladzislau Rezki as RCU maintainer
+26b20423464f461ad19b40d3333c7cec71112f96 rcu: Eliminate lockless accesses to rcu_sync->gp_count
+41eacd42febba63920f3f00ff7c5b0ddc4845b3a rcu: Fix rcu_barrier() VS post CPUHP_TEARDOWN_CPU invocation
+2f71cc0a439ddca11f29862244b51ae82a1ec4b8 rcu: Remove full ordering on second EQS snapshot
+34037f363b3a7f5276c2800b343589c86ed23047 rcu: Remove superfluous full memory barrier upon first EQS snapshot
+c5415fbe31197ba4f82f8ccd112b6347fc643827 rcu/exp: Remove superfluous full memory barrier upon first EQS snapshot
+fd4e6d61a920f2b992f7c453a8aa4e2f9d3e291c rcu: Remove full memory barrier on boot time eqs sanity check
+7be2e6323b9bca429e6d12ca041cf5e21528cd38 rcu: Remove full memory barrier on RCU stall printout
+65893af982471341370ad4a5af1e2e1847d18cc6 rcu/exp: Remove redundant full memory barrier at the end of GP
+ce418966a83320837f59f04a646fa4716e132dc8 rcu/nocb: Fix segcblist state machine comments about bypass
+aa97b9a56906f5965a7c5752790d174cadc8b820 rcu/nocb: Fix segcblist state machine stale comments about timers
+483d5bf23125a9127ffcb3f7a3b3539b34df67d4 rcu/nocb: Use kthread parking instead of ad-hoc implementation
+e4f78057291608f6968a6789c5ebb3bde7d95504 rcu/nocb: Remove buggy bypass lock contention mitigation
+9855c37edf0009cc276cecfee09f7e76e2380212 Revert "rcu-tasks: Fix synchronize_rcu_tasks() VS zap_pid_ns_processes()"
+025811eb9be4ee31f3cc86a2d4bc4cb408db5738 rcu/tasks: Fix stale task snaphot for Tasks Trace
+43b39cafbaf66cbbdace321c01701154a1c05fdc rcutorture: Make rcutorture support srcu double call test
+4e97ff572a39beee880678b3ad4e9571dce743ac rcutorture: Fix rcu_torture_fwd_cb_cr() data race
+160b2a985ca7f8119b4a98c0573281cb7dd946a5 rcutorture: Add missing MODULE_DESCRIPTION() macros
+a57421330bf019ad7d42db6807a4d539b6d24e2c tools/rcu: Add rcu-updaters.sh script
+4ac72188399195d14f56b2f2610cd42c16d4f8d2 Merge branches 'doc.2024.06.03a', 'fixes.2024.06.03a', 'mb.2024.06.03a', 'nocb.2024.06.03a', 'rcu-tasks.2024.06.03a' and 'rcutorture.2024.06.03a' into HEAD
+79bf0a6179c0b078ecff20eb34aee01c7a7e30d2 ARM: Emulate one-byte cmpxchg
+e77f5c68bdaae96e074e7c15c5eb328b724c6695 kcsan: test: add missing MODULE_DESCRIPTION() macro
+ded6b7eb9d46e28671b45469f8fd655fa153221d Merge branches 'cmpxchg.2024.06.03a', 'kcsan.2024.05.30b', 'lkmm.2024.05.30b', 'torture.2024.05.30b' and 'tsc.2024.05.27a' into HEAD
+f685da6c7e6bc3e1db32b6a9efe7562090100300 Merge branches 'non-rcu.2024.06.03a' and 'rcu.2024.06.03a' into HEAD
+a0c26a3145ae534bd00335eacea386b92289787f EXP x86/syscall: Mark exit[_group] syscall handlers __noreturn
+88c37b02741b59aaebca24de49bb468d47b1e891 EXP srcu: Check for concurrent updates of heuristics
+199d172851ab81126469107e029eaca80b2725fd EXP rcu Move wakeup out from under lock
+d5b15434abe345a4bbbf3e1bc52dfeb9b7e50998 rcu-tasks: Remove open-coded one-byte cmpxchg() emulation
+1b85ecfefbbf1efa3acb37776b06f78c73da9fbd EXP drm/msm: remove python 3.9 dependency for compiling msm
 
-e1c1038e738778adc7ca874e219ba49bf09809bb 11b6b52cdef472b048bc95cd407a0af1cac9f1b2 refs/heads/clk-next
-0000000000000000000000000000000000000000 45b2fb09384c645489f7b359c49ca879852e5cec refs/heads/clk-cleanup
-0000000000000000000000000000000000000000 06abd441c0c100aa0b52ce403862e5ae958bf94b refs/heads/clk-kunit
-0000000000000000000000000000000000000000 f5100c415c86eec86361d136dc4f3bcae998d116 refs/heads/clk-mediatek
-0000000000000000000000000000000000000000 a542e9d70cb1a292e5dc65f8603310b65236f059 refs/heads/clk-stm
------BEGIN PGP SIGNATURE-----
-
-iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmZeYQURHHNib3lkQGtl
-cm5lbC5vcmcACgkQrQKIl8bklSVaFQ/+K5Fai6qNOrtEtP3ueo447Wt7VW+zJANj
-gIgahmZN5/fuAzkA1/QwRcizWD8O/tUaXKlGaO8QIWoOEeG9ZiWOQ0FWsglWN/6C
-rzurhNRzJDgxEhYzgcw4yJbeKHbwP0Qqky2yL/9KJHiuqMBh0wPlCh+ZF83XyCRu
-iksAUAVFcklpnc3PrM13m9kLT6j424FCsl4sibe8nL6x6TEbRHAoEIEDt+zNK0Ye
-07bb/4zx1EeCzbL+MCqTZlQsyVDPJWN6QiLRrkx5YOp7vI7ABf3YHfHI+kTkzn3L
-QbjpEq8+shLjwPmr6k5DqAISXXp+W9fnJdg1dSBoQBVFEWN22AThPbS4zEw0NMj6
-XHj7bk/EYujQQCM46kVpugtlgZ/b/tdurkYjATCgxyO3b0R1C7lAKFyHCPR/HFTj
-ZSZBDMNMPPSJTsDYq5wSfF/ubxvdkYvjhVmqmlPk6IvpsMFEAHYZWiiaLffIGa+S
-73KlESUxbotj3L8vrLww9ltDKMl46+lB2OOJMcRo4+sRXBlYv2vqisLtCXl51F0E
-GRIZpeN8Ef0bSAzG/sKXti3Cf/1hW28rIwGQeK4wIDr8Hh+KI7hz1zljV4LuQq2S
-eM93cBunakwDK5dGQqk77BTASRJ8bWtSFBZdFG063sPFpt+niD3418kRMc8pO66v
-IXN7IrM/0Xs=
-=CudD
------END PGP SIGNATURE-----
-
---===============0296803209782511289==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1c1038e7387-11b6b52cdef4.txt
-
-60f81bfc9889770c6fcc5722b376d0d7ca5d68d1 clk: stm32mp2: use of STM32 access controller
-a542e9d70cb1a292e5dc65f8603310b65236f059 clk: stm32mp25: add security clocks
-a78318f618f6a10643816a841401fd1fac04bce7 Merge branch 'clk-stm' into clk-next
-6aaa95d2a58e5513912c05f249e8c0ec50753378 clk: sophgo: add missing MODULE_DESCRIPTION() macro
-578ba5d37de7e7b6fa160280ff1d14266b23537e clk: sprd: add missing MODULE_DESCRIPTION() macro
-7aa705b4140b93ec77359cbf8bc396d3b95256df Merge branch 'clk-cleanup' into clk-next
-06abd441c0c100aa0b52ce403862e5ae958bf94b clk: test: add missing MODULE_DESCRIPTION() macros
-b3b2c3deef6da2c4f48b08458a545a7061f480aa Merge branch 'clk-kunit' into clk-next
-f5100c415c86eec86361d136dc4f3bcae998d116 clk: mediatek: Add a module description where missing
-609256e454c4d02aa4f7101bc8818404cb97a22e Merge branch 'clk-mediatek' into clk-next
-45b2fb09384c645489f7b359c49ca879852e5cec dt-bindings: clock: milbeaut: Drop providers and consumers from example
-11b6b52cdef472b048bc95cd407a0af1cac9f1b2 Merge branch 'clk-cleanup' into clk-next
-
---===============0296803209782511289==--
+--===============4682351175557148099==--
