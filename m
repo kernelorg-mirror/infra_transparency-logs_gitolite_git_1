@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3640793986740367798=="
+Content-Type: multipart/mixed; boundary="===============5602374954466073873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 04 Jun 2024 04:03:14 -0000
-Message-Id: <171747379411.14016.5754277906755222654@gitolite.kernel.org>
+Date: Tue, 04 Jun 2024 04:03:19 -0000
+Message-Id: <171747379962.14151.15569936740844804619@gitolite.kernel.org>
 
---===============3640793986740367798==
+--===============5602374954466073873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 49784c7979321c49a8055f5c588d24c34a8c55fc
     new: 49df0019f36798d414e6b913bec30a3a0cd47c70
     log: revlist-49784c797932-49df0019f367.txt
 
---===============3640793986740367798==
+--===============5602374954466073873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ d55c765a9b2d54b53ef86a62d6209e2e5eb62585 selftests/bpf: Test global bpf_rb_root 
 43d50ffb1f7e32865cdd343224659614d8b558b9 selftests/bpf: Test global bpf_list_head arrays.
 49df0019f36798d414e6b913bec30a3a0cd47c70 Merge branch 'enable-bpf-programs-to-declare-arrays-of-kptr-bpf_rb_root-and-bpf_list_head'
 
---===============3640793986740367798==--
+--===============5602374954466073873==--
