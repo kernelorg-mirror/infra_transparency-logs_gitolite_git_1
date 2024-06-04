@@ -1,27 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 04 Jun 2024 20:59:48 -0000
-Message-Id: <171753478890.19489.12679029578054200570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 04 Jun 2024 21:00:18 -0000
+Message-Id: <171753481877.21396.11405233918153279075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: 65909a7e7aa8b25c9cc5f04c1fd5d6f0f1d76fcd
-    new: b7c40988808f8d7426dee1e4d96a4e204de4a8bc
-    log: |
-         afe377286ad49e0b69071d2a767e2c6553f4094b ASoC: cs42l43: Increase default type detect time and button delay
-         b7c40988808f8d7426dee1e4d96a4e204de4a8bc ASoC: codecs: ES8326: Solve headphone detection issue
-         
-  - ref: refs/heads/for-next
-    old: 65909a7e7aa8b25c9cc5f04c1fd5d6f0f1d76fcd
-    new: b7c40988808f8d7426dee1e4d96a4e204de4a8bc
-    log: |
-         afe377286ad49e0b69071d2a767e2c6553f4094b ASoC: cs42l43: Increase default type detect time and button delay
-         b7c40988808f8d7426dee1e4d96a4e204de4a8bc ASoC: codecs: ES8326: Solve headphone detection issue
-         
+  - ref: refs/heads/20240603_peter_ujfalusi_asoc_sof_intel_hda_dai_skip_tlv_configuration_for_dspless_mode
+    old: 3b06e137089fc0beb5ffa6a869de9a93df984072
+    new: 0000000000000000000000000000000000000000
