@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 04 Jun 2024 17:46:09 -0000
-Message-Id: <171752316971.6120.13652223279187307322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 04 Jun 2024 17:47:45 -0000
+Message-Id: <171752326586.6735.2895518029576181964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: andrii
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 2884dc7d08d98a89d8d65121524bb7533183a63a
-    new: f472e923bf4b4f5a5f67b377e575a5b94b6174f1
+  - ref: refs/heads/kdevops
+    old: 58eb9807a830dcfce4549d6f608543eb00aac9ca
+    new: b7b00b405d90592d573845ad944b61416b8c89c8
     log: |
-         f472e923bf4b4f5a5f67b377e575a5b94b6174f1 bpf: Set run context for rawtp test_run callback
+         b7b00b405d90592d573845ad944b61416b8c89c8 SQUASH: fix up error handling when thread counts don't match up
          
