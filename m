@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3937958201761419758=="
+Content-Type: multipart/mixed; boundary="===============2045201619927412358=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 04 Jun 2024 08:46:11 -0000
-Message-Id: <171749077152.29834.16919733057953074399@gitolite.kernel.org>
+Date: Tue, 04 Jun 2024 08:47:17 -0000
+Message-Id: <171749083786.30290.7574435418755146239@gitolite.kernel.org>
 
---===============3937958201761419758==
+--===============2045201619927412358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/dev
     old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: c3f38fa61af77b49866b006939479069cd451173
     log: revlist-1613e604df0c-c3f38fa61af7.txt
+  - ref: refs/heads/master
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    new: c3f38fa61af77b49866b006939479069cd451173
+    log: revlist-1613e604df0c-c3f38fa61af7.txt
+  - ref: refs/tags/v6.10-rc2
+    old: 0000000000000000000000000000000000000000
+    new: ac1064c236193fe48bded6f718ad47203870743b
 
---===============3937958201761419758==
+--===============2045201619927412358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -350,4 +357,4 @@ a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of gi
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
 
---===============3937958201761419758==--
+--===============2045201619927412358==--
