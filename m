@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 04 Jun 2024 09:01:01 -0000
-Message-Id: <171749166186.8202.164705224089890660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 04 Jun 2024 09:05:38 -0000
+Message-Id: <171749193803.11517.18378819087752492989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/dev
-    old: 38e527c49dd06d1bb83e245d71809b3d1eb6a61d
-    new: b2f6da8ac935f44b026b01977819582d9c5831fc
+  - ref: refs/heads/for-next
+    old: 123572b7ed6bd5a1d80b0d38c7b52d4488e0fbf4
+    new: f39b841514fa12c249757267eee19d5623db4ae0
     log: |
-         0132cb5ea7d061f80dcd090e54346ec93ce4285f erofs-utils: mkfs: add `--zfeature-bits` option
-         203c847cc7d155d9ef894fffcb69804e6f506065 erofs-utils: unify the tree traversal for the rebuild mode
-         2fdbd28ad4a3646fe2dcad8eb5ef45257dbbf9bb erofs-utils: lib: fix uncompressed packed inode
-         dae73ca91c6d723fe45c82bee2fe1bc3bc4be307 erofs-utils: lib: provide helper to disable hashmap shrinking
-         9657f2cd3319a08efbaa0f5799d664b30cd6db2a erofs-utils: lib: improve freeing hashmap in erofs_blob_exit()
-         39c08271cb18148934bf081b6e1fe8e5ae6ed48e erofs-utils: fix false-positive errors on gcc 4.8.5
-         b2f6da8ac935f44b026b01977819582d9c5831fc erofs-utils: lib: fix incorrect xattr sharing
+         09bae5876dde05410e62145f7e4c3be39011efff HID: nintendo: Remove some unused functions
+         f39b841514fa12c249757267eee19d5623db4ae0 Merge branch 'for-6.11/nintendo' into for-next
          
+  - ref: refs/heads/for-6.11/nintendo
+    old: 0000000000000000000000000000000000000000
+    new: 09bae5876dde05410e62145f7e4c3be39011efff
