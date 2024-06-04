@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 04 Jun 2024 08:49:50 -0000
-Message-Id: <171749099012.31382.18311383449715072349@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 04 Jun 2024 08:58:09 -0000
+Message-Id: <171749148942.5287.15875566842615093066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/dev
-    old: 3777e18dc2f7de138540fba0be7a0bbf51556e41
-    new: 38e527c49dd06d1bb83e245d71809b3d1eb6a61d
+  - ref: refs/heads/main
+    old: 8c1d92a740c002f36a919a55689d0ef83b61fd1c
+    new: 4fdb6b6063f07d959a1c52a2ee580afc4da34e2d
     log: |
-         38e527c49dd06d1bb83e245d71809b3d1eb6a61d erofs-utils: lib: fix incorrect xattr sharing
+         4fdb6b6063f07d959a1c52a2ee580afc4da34e2d net: count drops due to missing qdisc as dev->tx_drops
          
