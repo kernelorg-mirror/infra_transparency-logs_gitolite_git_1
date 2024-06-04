@@ -1,50 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============5774860689326258094=="
+Content-Type: multipart/mixed; boundary="===============0776531372742671058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 04 Jun 2024 17:48:37 -0000
-Message-Id: <171752331707.7433.4963704969160324554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 04 Jun 2024 17:48:47 -0000
+Message-Id: <171752332744.7541.17292045674700906072@gitolite.kernel.org>
 
---===============5774860689326258094==
+--===============0776531372742671058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: 968c974c08106fcf911d8d390d0f049af855d348
-    new: 65909a7e7aa8b25c9cc5f04c1fd5d6f0f1d76fcd
-    log: |
-         65909a7e7aa8b25c9cc5f04c1fd5d6f0f1d76fcd ASoC: qcom: add missing MODULE_DESCRIPTION() macro
-         
+  - ref: refs/heads/for-6.11
+    old: 22aaae482044b8bfa11f2c2d5725f4cd1b3064f9
+    new: cc160697a576150975280a4b5394fe9c70700503
+    log: revlist-22aaae482044-cc160697a576.txt
 
---===============5774860689326258094==
+--===============0776531372742671058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1717523315 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1717523314-7e0ca6c39181815ebf9c296115706b81964fc397
+pusher C3F436CA30F5D8EB 1717523325 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1717523325-0d96d948b869b435876f7ad32b1df9678ac73693
 
-968c974c08106fcf911d8d390d0f049af855d348 65909a7e7aa8b25c9cc5f04c1fd5d6f0f1d76fcd refs/heads/asoc-6.10
+22aaae482044b8bfa11f2c2d5725f4cd1b3064f9 cc160697a576150975280a4b5394fe9c70700503 refs/heads/for-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZfU3MACgkQJNaLcl1U
-h9Bozwf/Qb3KQOhKHG/GWvA3OX/5tu26fppBjTyv8oUtaUJKNQt8/ZDovogbKJXy
-RNESL+oeuYHrLhB64PuITqivbzf/smBdSB4JJM9towwQYbf+ZiTg71bLoPTpdVQ1
-4F4qG8ghf9MCkg/R2GarF2ZnHek70EdUphLztBgC4Dm92QgskHwTV/CcWwPutM30
-rfHaLTI2/ts76q/asJkphmZ/dW2rS8MZSfW/aGCjjFra4Ad68drrgFCQB2s0Bs6e
-2nBuwvEAAmdmWoLDABydoLEhJsQuKTOIT+yRS7z2rBUbSLAkF++EYXm6qD+6QM2J
-NvrT92jaCHI+/CFpPKsiY4WtlCj2sA==
-=zbmZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZfU30ACgkQJNaLcl1U
+h9DBNQf8DgJ+Ti7giMjqoMYIyZxjKVfFTx6AEbSQF90+3v8uv51H7GFWnaIVbll6
+gt/ufiYGsXJ7IQVUIwDeSMGL9AO7oPgmRlOVzRqGOmtPBzgGnoNXm4AQlr2uaKBA
+mcdjPI7EBcvN0RmiikhoGS7FM9HtnudoyvrqSybSrLAnPNxFT7sJCKGEw7RXoTb+
+KlGARXgIyW4oWfa2Nm72T/jFKfLM0gix4Luyk1U/chI68PdIryneU52HdZB2RAaa
+CJorIuFKSoiTf4OTLX35z0XIdfUAiMdutTq6EfjgXXNzfv26GjuhyEGq6GGWpxOG
+9EtICDRcztao7yXWctryPmsnr3dbhw==
+=yvZC
 -----END PGP SIGNATURE-----
 
---===============5774860689326258094==--
+--===============0776531372742671058==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-22aaae482044-cc160697a576.txt
+
+a2fca8f2e242b3cdfed2a15084e733348ef68509 spi: pxa2xx: Wrap pxa_ssp_request() to be device managed resource
+8aa5062e26054b8c081d5bba930baac4faadd1b0 spi: pxa2xx: Reorganize the SSP type retrieval
+7b0f2c1050643c4793e6eae0246a8de3b22c950a spi: pxa2xx: Remove no more needed driver data
+c1b93986dfb2a31b0528fe929d574843801089f5 spi: pxa2xx: Remove hard coded number of chip select pins
+c65174fdb2f7fe83ee515966c08de9a990e722f9 spi: pxa2xx: Utilise temporary variable for struct device
+9b328f5f5c921ec83e1765075b82e6cc05e576b9 spi: pxa2xx: Print DMA burst size only when DMA is enabled
+560fb06df2fd250004a1cac079717dbe7f863ff2 spi: pxa2xx: Remove duplicate check
+75bfdccaecf96189318b29100b880c416d89ed46 spi: pxa2xx: Remove superflous check for Intel Atom SoCs
+20ade9b9771c80eb58eb42ccd0a48ba24bdc3c4f spi: pxa2xx: Extract pxa2xx_spi_platform_*() callbacks
+3d8f037fbcab53e03ab2ef18a66f202be3653d50 spi: pxa2xx: Move platform driver to a separate file
+cc160697a576150975280a4b5394fe9c70700503 spi: pxa2xx: Convert PCI driver to use spi-pxa2xx code directly
+
+--===============0776531372742671058==--
