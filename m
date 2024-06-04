@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Tue, 04 Jun 2024 13:52:44 -0000
-Message-Id: <171750916424.27510.88333584894187034@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 04 Jun 2024 14:08:11 -0000
+Message-Id: <171751009193.7582.8949286864467104543@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 5a50243ac44ce082259173d43e8dccf90ae86b31
-    new: bab57a244b516d758d6724756229ef93f44c962d
+  - ref: refs/heads/main
+    old: cd0057ad75116bacf16fea82e48c1db642971136
+    new: 2b438c5774cc491a4aa8bb1ec4f49c1a0760a173
     log: |
-         4e7134faf306d570784a9346f0e8398e949a51aa clk: sunxi-ng: add missing MODULE_DESCRIPTION() macros
-         95fd34a8595cfbaa5d0678092f7be3260e1c4908 clk: sunxi: Remove unused struct 'gates_data'
-         bab57a244b516d758d6724756229ef93f44c962d Merge branch 'sunxi/clk-for-6.11' into sunxi/for-next
+         8c3fdff2171c834df5fa5ff353b94ada2e5376ca openvswitch: Move stats allocation to core
+         2b438c5774cc491a4aa8bb1ec4f49c1a0760a173 openvswitch: Remove generic .ndo_get_stats64
          
