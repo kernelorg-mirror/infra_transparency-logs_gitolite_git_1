@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 04 Jun 2024 17:10:17 -0000
-Message-Id: <171752101704.12742.1575914460408078607@gitolite.kernel.org>
+Date: Tue, 04 Jun 2024 17:10:51 -0000
+Message-Id: <171752105131.13045.8747809706024034034@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/for-linus
-    old: a5add86a233e76c0a4854e4768b91db0efe975a3
-    new: c9d52fb313d3719d69a040f4ca78a3e2e95fba21
+  - ref: refs/heads/reset
+    old: 3130c083b1f1e305acb4e3067dfdc9479574db99
+    new: dbc5b5c0d268f872beaf6127103d5d39c8450eca
     log: |
-         c9d52fb313d3719d69a040f4ca78a3e2e95fba21 PCI: Revert the cfg_access_lock lockdep mechanism
+         920f6468924f8dc7e0e6e1510d000888592ef861 PCI: Warn on missing cfg_access_lock during secondary bus reset
+         dbc5b5c0d268f872beaf6127103d5d39c8450eca PCI: Add missing bridge lock to pci_bus_lock()
          
