@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7608422134464985853=="
+Content-Type: multipart/mixed; boundary="===============3314014681239965467=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 04 Jun 2024 22:01:59 -0000
-Message-Id: <171753851920.1692.7683843101544482146@gitolite.kernel.org>
+Date: Tue, 04 Jun 2024 22:02:06 -0000
+Message-Id: <171753852646.1830.15259066339406382158@gitolite.kernel.org>
 
---===============7608422134464985853==
+--===============3314014681239965467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 6149db4997f582e958da675092f21c666e3b67b7
-    new: a535d59432370343058755100ee75ab03c0e3f91
-    log: revlist-6149db4997f5-a535d5943237.txt
+  - ref: refs/heads/dev-queue
+    old: a6604e00123952094bb8aec3b22d1017c7332065
+    new: 0177a96df6353ee8e8b4f075d666814d6f6a34b0
+    log: revlist-a6604e001239-0177a96df635.txt
 
---===============7608422134464985853==
+--===============3314014681239965467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6149db4997f5-a535d5943237.txt
+Content-Disposition: attachment; filename=revlist-a6604e001239-0177a96df635.txt
 
 637c435f08ea7e77c53a2ad590b651d0de225e3b wifi: ath11k: Fix error path in ath11k_pcic_ext_irq_config
 21ae74e1bf18331ae5e279bd96304b3630828009 wifi: ath10k: fix QCOM_RPROC_COMMON dependency
@@ -74,5 +74,25 @@ d730a42ca6205713d8d88b14d728283c910d2baa Merge branch 'dst_cache-fix-possible-ra
 c6cab01d7e20a028ffcee1e0a0b782332a16b5e6 lib/test_rhashtable: add missing MODULE_DESCRIPTION() macro
 d6301802607bc036823fb47abaa2cf92fb74db91 Merge tag 'wireless-2024-06-03' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 a535d59432370343058755100ee75ab03c0e3f91 net: tls: fix marking packets as decrypted
+cd56f2e60501d85a7d1362df2e2afa2b67cb526f ice: fix iteration of TLVs in Preserved Fields Area
+e613d4c459fb1d10266f3a797ca8171dd170f345 ice: fix reads from NVM Shadow RAM on E830 and E825-C devices
+8d73edb90807a7fb901e30c7f2ce1900dc1d2de3 ice: remove af_xdp_zc_qps bitmap
+f04d1b9011f648b35b74b8b15d12fd373ab10a19 ice: add flag to distinguish reset from .ndo_bpf in XDP rings config
+2e75349289c6bbcc68268881e586842dcc7fec34 ice: map XDP queues to vectors in ice_vsi_map_rings_to_vectors()
+acb9330e0effd439ae516df5104a07c012a179b8 i40e: Fix XDP program unloading while removing the driver
+2d69b0d15520eb918278480bc79f007505e80777 igc: Fix Energy Efficient Ethernet support declaration
+b7986049b8f95edf5735efea59c10e976d888b61 Revert "igc: fix a log entry using uninitialized netdev"
+66f85d6a9fdc030afa6ebeb324721ee74188066e ice: Rebuild TC queues on VSI queue reconfiguration
+82c20e13538bf431348eddbb93f6fa84731579b9 ice: respect netif readiness in AF_XDP ZC related ndo's
+20e89ed0e0c2b0687ac82f84c8cdaddf4ded36fc ice: don't busy wait for Rx queue disable in ice_qp_dis()
+44d4444feb0663eec1955bffc988e5225cad9d7c ice: replace synchronize_rcu with synchronize_net
+591124b1004f5b9089b92cfa6a124d8eba2f38ad ice: modify error handling when setting XSK pool in ndo_bpf
+9bbdab242bc03eb75c0f0c9690436b1198ee93ba ice: toggle netif_carrier when setting up XSK pool
+d9ebcda48be5d8df8019476c0491f8435cfe357e ice: improve updating ice_{t, r}x_ring::xsk_pool
+46d2ebd225cb202762fe7ef356dd311a2c912194 ice: add missing WRITE_ONCE when clearing ice_rx_ring::xdp_prog
+58d3ece50f2538ed021642ade82caac3b9a411ca ice: xsk: fix txq interrupt mapping
+e79402cf3681624fdce45c1f870f37dade48956c ice: avoid IRQ collision to fix init failure on ACPI S3 resume
+7e8f885e9f6cec83a6b85c6895b211c3e536c164 ice: fix 200G link speed message log
+0177a96df6353ee8e8b4f075d666814d6f6a34b0 idpf: extend tx watchdog timeout
 
---===============7608422134464985853==--
+--===============3314014681239965467==--
