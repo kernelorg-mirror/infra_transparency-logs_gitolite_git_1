@@ -1,89 +1,139 @@
-Content-Type: multipart/mixed; boundary="===============5714493894865326597=="
+Content-Type: multipart/mixed; boundary="===============2054394471621016778=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 04 Jun 2024 19:05:07 -0000
-Message-Id: <171752790738.1853.1814723040493160198@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/mst/qemu
+Date: Tue, 04 Jun 2024 19:05:27 -0000
+Message-Id: <171752792765.2080.18140701370660258751@gitolite.kernel.org>
 
---===============5714493894865326597==
+--===============2054394471621016778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/virt/kvm/mst/qemu
+user: mst
 changes:
-  - ref: refs/heads/togreg
-    old: 15895709c7dc5f1a8b53b3564fc2bed724209611
-    new: 823c485ffd062e067ab49ab694ee2a18e27d45c0
-    log: revlist-15895709c7dc-823c485ffd06.txt
+  - ref: refs/heads/next
+    old: e3038a94650c987418c96a5499f7692ae566d0b9
+    new: bfcacf81d63a3d95f128bce3faf3564e7f98ea8b
+    log: revlist-e3038a94650c-bfcacf81d63a.txt
+  - ref: refs/heads/pci
+    old: e3038a94650c987418c96a5499f7692ae566d0b9
+    new: bfcacf81d63a3d95f128bce3faf3564e7f98ea8b
+    log: revlist-e3038a94650c-bfcacf81d63a.txt
+  - ref: refs/tags/for_autotest
+    old: 11e89d93db634539e79a79aa42830366d55ae504
+    new: cc9b8ef898228aead0d0941bd1f1444dad678ae7
+    log: revlist-11e89d93db63-cc9b8ef89822.txt
+  - ref: refs/tags/for_autotest_next
+    old: 11e89d93db634539e79a79aa42830366d55ae504
+    new: cc9b8ef898228aead0d0941bd1f1444dad678ae7
+    log: revlist-11e89d93db63-cc9b8ef89822.txt
+  - ref: refs/tags/for_upstream
+    old: 11e89d93db634539e79a79aa42830366d55ae504
+    new: cc9b8ef898228aead0d0941bd1f1444dad678ae7
+    log: revlist-11e89d93db63-cc9b8ef89822.txt
 
---===============5714493894865326597==
+--===============2054394471621016778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15895709c7dc-823c485ffd06.txt
+Content-Disposition: attachment; filename=revlist-e3038a94650c-bfcacf81d63a.txt
 
-f311151600dc104e6eeb0d0437582e0cf37d6962 iio: adc: ad7192: Use standard attribute
-ecec83a236db6b0966d790fd582884b510ee11a3 dt-bindings: iio: adc: ad7192: Add aincom supply
-2b12a52b298f41ec581efc3047792c0535dd615c iio: adc: ad7192: Add aincom supply
-dd471a2b7759daf6bbb2fbfec4258f60e0243183 dt-bindings: iio: adc: Add single-channel property
-caf7b7632b8d83d410d162221dcc5d2d16db478f dt-bindings: iio: adc: ad7192: Add AD7194 support
-a4c514e5f0da862d7897c2316895b2fff12bddfd iio: adc: ad7192: Add AD7194 support
-1568f94f29dd6b0e33a9123c432214b5756ad708 iio: accel: bmi088: remove unused struct 'bmi088_scale_info'
-64741cb5acfb8a1cf1c4a61ec0d8cd1310ceca90 iio: adc: pac1934: remove unused struct 'samp_rate_mapping'
-4d8c7da08be5ef48ef0c3d4ea1a25733b03d626a iio: light: rohm-bu27034: remove unused struct 'bu27034_result'
-709aeedcc7cfadb2f9c3ac29b0cda337c6b57b7d iio: light: stk3310: relax failure to match id
-745712c7bb1f8eaf00cf3b5a49c3c13bd7805597 iio: light: stk3310: make chip id check expandable
-cba37c2e532dc234cc8ea1894f130ca39948d4a9 iio: light: stk3310: support more stk3311 variants
-7a8e7f13f99b31c85b77b362cb7b7a23fead11d3 iio: adc: ad9467: use DMA safe buffer for spi
-fefbc4a5d60da4b5367313d5d8ac1f777f2fb2a8 iio: adc: ad9467: change struct members padding
-0fbce5d171e489cd21a67773331716c9cc752890 dt-bindings: iio: dac: fix ad3552r gain parameter names
-80ea2007638017b18b0a900e605d7804aaf8d1ae dt-bindings: iio: dac: add ad35xxr single output variants
-2334d5e0b7af8912f140e1df16bd94fb3ab98578 iio: dac: ad3552r: add model data structure
-ea1c94d785b180ddf0c5933ed1c1b483a06b33b5 iio: dac: ad3552r: add support for ad3541r and ad3551r
-d421302a910c63e541ebc9755b38956d135a6603 iio: dac: ad3552r: change AD3552R_NUM_CH define name
-c1db755b6a229d1a5d7d3cb5371e82855874398c iio: dac: ad3552r: uniform structure names
-28cf9cbe68298c64857974bca394f150b9e57b60 iio: adc: sort Makefile
-33c33a961ba659b2001d461395e4a95d6d30673f iio: adc: ad7944: remove unused parameter
-5c3266385e4f27c69c03bcbfa68339b49be91c56 iio: imu: bmi323: Use iio read_acpi_mount_matrix() helper
-e2261b4a4de2804698935eb44f98dc897e1c44c3 iio: frequency: adrf6780: rm clk provider include
-9be46ec5606e6e1aa4b9c6086762ed82f34ceaae staging: iio: adt7316: remove unused struct 'adt7316_limit_regs'
-202b89f4b778d86a940f693785600acaccca6a2b iio: adc: adi-axi-adc: don't allow concurrent enable/disable calls
-70a0e10f8ab62ba82b080347ca0a119e14e964c9 iio: adc: adi-axi-adc: make sure DRP is locked on enable
-c4ea781c20e2d10a2de5005dbf6e24f1cc676b09 dt-bindings: iio: adc: Add binding for AD7380 ADCs
-b095217c104bca87d5e24c147b3e37cae921c441 iio: adc: ad7380: new driver for AD7380 ADCs
-6b2c80194e151d8ce41849f97a6ca13c8ca30a32 dt-bindings: iio: adc: ad7380: add pseudo-differential parts
-2920b6ee6d69ed874b8cc60e5a0b930aca102e18 iio: adc: ad7380: add support for pseudo-differential parts
-baa781e1d84f2165c480c28d2c286e465d3fb2e1 iio: adc: ad7380: prepare for parts with more channels
-1a291cc8ee17d1473a8ebf2ce2a5b49b0461b8fb dt-bindings: iio: adc: ad7380: add support for ad738x-4 4 channels variants
-737413da870452c38fccd88108d4418d9cc94a9b iio: adc: ad7380: add support for ad738x-4 4 channels variants
-fd7179ece035417f44f7ecff086d6df674d8a5bd iio: introduce struct iio_scan_type
-7758562898033a3bd98a24d2a541c930b0fc98e6 iio: buffer: use struct iio_scan_type to simplify code
-d8f2bb50845f2797f594ffe3cac9417abff4d7b0 iio: add support for multiple scan types per channel
-99d46eecf98fe9af4573363fcb5c8d8d36ce875e iio: adc: ad7380: use spi_optimize_message()
-15b08012852f40ce89c3237a557b68397916685e iio: adc: ad7380: add oversampling support
-6859fba8c1481df1a0daae1405ee14f04f5952d3 dt-bindings: iio: imu: Add ADIS16501 compatibles
-64c65fac71b09d4d0edc24af4cfbb5123dad6f6b drivers: iio: imu: Add support for ADIS16501
-b6e6aca6c2b1b53fb4db4b672eaa2722a75aa6a2 iio: imu: adis_buffer: Add buffer setup API with buffer attributes
-880b1b1fbef5e6dc6bbcdb25311b9a030adf5a4e iio: imu: adis16475: Create push single sample API
-f5657c7751d73db8d88c6eee556dce6534620a1f drivers: iio: imu: adis16475: generic computation for sample rate
-01724ce2d9405b2246bbb69701c74880eb56a34b iio: imu: adis_trigger: Allow level interrupts for FIFO readings
-c6900c9a931852952e4e316e82a92657a93c0dbd iio: imu: adis16475: Re-define ADIS16475_DATA
-647a2c81fe7bcb7ac2fdbbc085d00456e027b32b dt-bindings: iio: imu: Add ADIS1657X family devices compatibles
-f95920baa0666758ca87977ab6d853e8bc24961c drivers: iio: imu: Add support for adis1657x family
-8c0a438fa037fde88eeeb415e1ac77e133ee6930 iio: adis16480: make the burst_max_speed configurable
-196f5406baa55c05746c4b3733c7d80a91ecdeeb iio: imu: adis16480.c: Add delta angle and delta velocity channels
-1c083963fccd84ff9375d6383f9c97557750e94d dt-bindings: iio: imu: Add ADIS16545/47 compatibles
-85b2aeaa2f4cb495a688292d175f09b8010990fe iio: adis16480: add support for adis16545/7 families
-9bc8b4d27c410f62742bad6a05639ee3e13f49eb docs: iio: add documentation for interfacing tools
-d6de8052f4a06cf7d4c59e1de2ebfd6f4ed3c567 docs: iio: add documentation for adis16480 driver
-55677ca0d4c2856402e1f50fe5a15c5d9b2092ec iio: chemical: ams-iaq-core: clean up codestyle warning
-f8a5217d06e2f7b913c45ddf868273f61aef89a5 iio: dac: ad9739a: drop COMPILE_TEST option
-28023b20be5a4c95dfe310a33878a9ef1023982e driver: iio: add missing checks on iio_info's callback access
-b6b86fdb539b05e6bbfc84c45ae96ea22aad94e2 iio: accel: mma7660: add mount-matrix support
-823c485ffd062e067ab49ab694ee2a18e27d45c0 iio: adc: ti-adc161s626: make use of iio_device_claim_direct_scoped()
+7eeb62b0ce3a8f64647bf53f93903abd1fbb0b94 virtio-pci: Fix the use of an uninitialized irqfd.
+a88ab3cfa7548d36eac5a624100a66158a94a514 virtio/virtio-pci: Handle extra notification data
+1c854365ece00579e5bfe19c1ce04e80a76f4a0b virtio: Prevent creation of device using notification-data with ioeventfd
+552a973267cb99e09630094b23cf126bd0d57352 virtio-mmio: Handle extra notification data
+4a42e11bc57832000fb4da43347a4419e07ea583 virtio-ccw: Handle extra notification data
+bb0ba79492dc7c1d1b2ef3e2389060ed259e646a vhost/vhost-user: Add VIRTIO_F_NOTIFICATION_DATA to vhost feature bits
+1fc2bf2d1fc50c78515b1484b4d578bfb373df54 Fix vhost user assertion when sending more than one fd
+1c4b7415ec4136a090973ff4a457474de1576753 vhost-vsock: add VIRTIO_F_RING_PACKED to feature_bits
+3fc9184844ddb9af89f6916a204df888d37565c1 hw/virtio: Fix obtain the buffer id from the last descriptor
+272efd85b86b2c37ebb89a517d5ed30ee7695dbe virtio-pci: only reset pm state during resetting
+f08920e742aedb11438c07fa9f0040ad010915ae vhost-user-gpu: fix import of DMABUF
+acc7fa97ce8012e50b7ba4f46a770b3a86f3ba24 Revert "vhost-user: fix lost reconnect"
+250aa64c6416a74f18666ec067ec853a3a5e9b35 vhost-user: fix lost reconnect again
+69a99663c31fbc854e45b124406987347a87bd41 hw/cxl/mailbox: change CCI cmd set structure to be a member, not a reference
+5b02e8711374f760215075524ee413a1cbaead6b hw/cxl/mailbox: interface to add CCI commands to an existing CCI
+d51322aa4bef0ac909f945f27e9bc79fabb5a0d0 hw/cxl/cxl-mailbox-utils: Add dc_event_log_size field to output payload of identify memory device command
+b5c718107795740f8b350636504258e985e9f6a5 hw/cxl/cxl-mailbox-utils: Add dynamic capacity region representative and mailbox command support
+ff443a23b262378bd438719c087b68809b6abcee include/hw/cxl/cxl_device: Rename mem_size as static_mem_size for type3 memory devices
+fd34c6938b78872b63ae56793e6d54158b435448 hw/mem/cxl_type3: Add support to create DC regions to type3 memory devices
+038ad26b2d5341fda3962617eb38932108e1703f hw/mem/cxl-type3: Refactor ct3_build_cdat_entries_for_mr to take mr size instead of mr as argument
+4778704028d57318eea45289561ed1e611439d9f hw/mem/cxl_type3: Add host backend and address space handling for DC regions
+b03d2097e6d18a6b89ad9ed52941cec138160135 hw/mem/cxl_type3: Add DC extent list representative and get DC extent list mailbox support
+f8b7aae0ac6f99d0981195926969a98da53c519e hw/cxl/cxl-mailbox-utils: Add mailbox commands to support add/release dynamic capacity response
+207ca2e3b7b9796fbfba8d33eee1bee7f0882141 hw/cxl/events: Add qmp interfaces to add/release dynamic capacity extents
+7d324ec4556b188c58ab9578a512e0367692d6bd hw/mem/cxl_type3: Add DPA range validation for accesses to DC regions
+1fd233748ea9aeff3b88478cf106ad3bd32a1df2 hw/cxl/cxl-mailbox-utils: Add superset extent release mailbox support
+ed2a51d1e637171208b119b0d81164da1af7da52 hw/mem/cxl_type3: Allow to release extent superset in QMP interface
+481a30a72769a5086a0596fb6ebe19d16d2bac77 hw/acpi/GI: Fix trivial parameter alignment issue.
+e786b417b7bb2207ad1833d0d64abe57043de8f5 hw/acpi: Insert an acpi-generic-node base under acpi-generic-initiator
+b2366d461b9133880913d84742f120d14222a6e6 hw/acpi: Generic Port Affinity Structure support
+4680fb4a69d137870c421a4da697f4b39b002dc9 bios-tables-test: Allow for new acpihmat-generic-x test data.
+4c4979cc62f7db9a137c21d64e01766535272fbe bios-tables-test: Add complex SRAT / HMAT test for GI GP
+61cbf56ef1c5dd9dbe6bd6625f6c8d2a82c5697f bios-tables-test: Add data for complex numa test (GI, GP etc)
+86373538cd568ad0d678d4f2f0bbb4843233a652 scripts/update-linux-headers: Copy setup_data.h to correct directory
+8d5fb2def4dfb0f4921262acf5be494059a04464 linux-headers: update to 6.10-rc1
+b3d8479a90ba270c3dbf645277704f131c8ddf94 hw/misc/pvpanic: centralize definition of supported events
+a01ffcdb22d3188bd2b63ecafca6ddb7da67b6bd tests/qtest/pvpanic: use centralized definition of supported events
+cd9439cc0fad8234d078ef119eb9a361ac7163cb hw/misc/pvpanic: add support for normal shutdowns
+ed36d88dc9b5428df88cf4e3c1b7371d796902f9 pvpanic: Emit GUEST_PVSHUTDOWN QMP event on pvpanic shutdown signal
+982077b6957eab867d48feff46be615f217ebb9d tests/qtest/pvpanic: add tests for pvshutdown event
+53804a67c6c4431962a7da6302cea44d55181760 Revert "docs/specs/pvpanic: mark shutdown event as not implemented"
+d3e9c9777a6533efbc68bea718ef98048d1afb4f virtio-pci: Fix the failure process in kvm_virtio_pci_vector_use_one()
+bfcacf81d63a3d95f128bce3faf3564e7f98ea8b hw/cxl: Fix read from bogus memory
 
---===============5714493894865326597==--
+--===============2054394471621016778==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-11e89d93db63-cc9b8ef89822.txt
+
+7eeb62b0ce3a8f64647bf53f93903abd1fbb0b94 virtio-pci: Fix the use of an uninitialized irqfd.
+a88ab3cfa7548d36eac5a624100a66158a94a514 virtio/virtio-pci: Handle extra notification data
+1c854365ece00579e5bfe19c1ce04e80a76f4a0b virtio: Prevent creation of device using notification-data with ioeventfd
+552a973267cb99e09630094b23cf126bd0d57352 virtio-mmio: Handle extra notification data
+4a42e11bc57832000fb4da43347a4419e07ea583 virtio-ccw: Handle extra notification data
+bb0ba79492dc7c1d1b2ef3e2389060ed259e646a vhost/vhost-user: Add VIRTIO_F_NOTIFICATION_DATA to vhost feature bits
+1fc2bf2d1fc50c78515b1484b4d578bfb373df54 Fix vhost user assertion when sending more than one fd
+1c4b7415ec4136a090973ff4a457474de1576753 vhost-vsock: add VIRTIO_F_RING_PACKED to feature_bits
+3fc9184844ddb9af89f6916a204df888d37565c1 hw/virtio: Fix obtain the buffer id from the last descriptor
+272efd85b86b2c37ebb89a517d5ed30ee7695dbe virtio-pci: only reset pm state during resetting
+f08920e742aedb11438c07fa9f0040ad010915ae vhost-user-gpu: fix import of DMABUF
+acc7fa97ce8012e50b7ba4f46a770b3a86f3ba24 Revert "vhost-user: fix lost reconnect"
+250aa64c6416a74f18666ec067ec853a3a5e9b35 vhost-user: fix lost reconnect again
+69a99663c31fbc854e45b124406987347a87bd41 hw/cxl/mailbox: change CCI cmd set structure to be a member, not a reference
+5b02e8711374f760215075524ee413a1cbaead6b hw/cxl/mailbox: interface to add CCI commands to an existing CCI
+d51322aa4bef0ac909f945f27e9bc79fabb5a0d0 hw/cxl/cxl-mailbox-utils: Add dc_event_log_size field to output payload of identify memory device command
+b5c718107795740f8b350636504258e985e9f6a5 hw/cxl/cxl-mailbox-utils: Add dynamic capacity region representative and mailbox command support
+ff443a23b262378bd438719c087b68809b6abcee include/hw/cxl/cxl_device: Rename mem_size as static_mem_size for type3 memory devices
+fd34c6938b78872b63ae56793e6d54158b435448 hw/mem/cxl_type3: Add support to create DC regions to type3 memory devices
+038ad26b2d5341fda3962617eb38932108e1703f hw/mem/cxl-type3: Refactor ct3_build_cdat_entries_for_mr to take mr size instead of mr as argument
+4778704028d57318eea45289561ed1e611439d9f hw/mem/cxl_type3: Add host backend and address space handling for DC regions
+b03d2097e6d18a6b89ad9ed52941cec138160135 hw/mem/cxl_type3: Add DC extent list representative and get DC extent list mailbox support
+f8b7aae0ac6f99d0981195926969a98da53c519e hw/cxl/cxl-mailbox-utils: Add mailbox commands to support add/release dynamic capacity response
+207ca2e3b7b9796fbfba8d33eee1bee7f0882141 hw/cxl/events: Add qmp interfaces to add/release dynamic capacity extents
+7d324ec4556b188c58ab9578a512e0367692d6bd hw/mem/cxl_type3: Add DPA range validation for accesses to DC regions
+1fd233748ea9aeff3b88478cf106ad3bd32a1df2 hw/cxl/cxl-mailbox-utils: Add superset extent release mailbox support
+ed2a51d1e637171208b119b0d81164da1af7da52 hw/mem/cxl_type3: Allow to release extent superset in QMP interface
+481a30a72769a5086a0596fb6ebe19d16d2bac77 hw/acpi/GI: Fix trivial parameter alignment issue.
+e786b417b7bb2207ad1833d0d64abe57043de8f5 hw/acpi: Insert an acpi-generic-node base under acpi-generic-initiator
+b2366d461b9133880913d84742f120d14222a6e6 hw/acpi: Generic Port Affinity Structure support
+4680fb4a69d137870c421a4da697f4b39b002dc9 bios-tables-test: Allow for new acpihmat-generic-x test data.
+4c4979cc62f7db9a137c21d64e01766535272fbe bios-tables-test: Add complex SRAT / HMAT test for GI GP
+61cbf56ef1c5dd9dbe6bd6625f6c8d2a82c5697f bios-tables-test: Add data for complex numa test (GI, GP etc)
+86373538cd568ad0d678d4f2f0bbb4843233a652 scripts/update-linux-headers: Copy setup_data.h to correct directory
+8d5fb2def4dfb0f4921262acf5be494059a04464 linux-headers: update to 6.10-rc1
+b3d8479a90ba270c3dbf645277704f131c8ddf94 hw/misc/pvpanic: centralize definition of supported events
+a01ffcdb22d3188bd2b63ecafca6ddb7da67b6bd tests/qtest/pvpanic: use centralized definition of supported events
+cd9439cc0fad8234d078ef119eb9a361ac7163cb hw/misc/pvpanic: add support for normal shutdowns
+ed36d88dc9b5428df88cf4e3c1b7371d796902f9 pvpanic: Emit GUEST_PVSHUTDOWN QMP event on pvpanic shutdown signal
+982077b6957eab867d48feff46be615f217ebb9d tests/qtest/pvpanic: add tests for pvshutdown event
+53804a67c6c4431962a7da6302cea44d55181760 Revert "docs/specs/pvpanic: mark shutdown event as not implemented"
+d3e9c9777a6533efbc68bea718ef98048d1afb4f virtio-pci: Fix the failure process in kvm_virtio_pci_vector_use_one()
+bfcacf81d63a3d95f128bce3faf3564e7f98ea8b hw/cxl: Fix read from bogus memory
+
+--===============2054394471621016778==--
