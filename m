@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 04 Jun 2024 08:19:46 -0000
-Message-Id: <171748918684.9128.17573386194426112214@gitolite.kernel.org>
+Date: Tue, 04 Jun 2024 08:21:15 -0000
+Message-Id: <171748927511.11381.98331529237802486@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,14 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
-  - ref: refs/heads/for-next
-    old: d6bc73e551123f1e73c882af3f724020364e503d
-    new: 5712c9590991b9e44ca853a3f6a00b286eef5411
+  - ref: refs/heads/for-6.10/upstream-fixes
+    old: 3cbdbd3dc41c967323489fd7af4aac00a7076d22
+    new: 445db3d5128a7841d3523349472ee5463eb730c8
     log: |
-         9ee76cd60025b61f12d8a0a21861c763c2b7674e HID: intel-ish-hid: fix ishtp_wait_resume() kernel-doc
-         8bb9f9fa59ef9034d081e89978c5c1031fc850bd HID: intel-ish-hid: add MODULE_DESCRIPTION()
-         5712c9590991b9e44ca853a3f6a00b286eef5411 Merge branch 'for-6.11/intel-ish-hid' into for-next
+         445db3d5128a7841d3523349472ee5463eb730c8 HID: nintendo: Fix an error handling path in nintendo_hid_probe()
          
-  - ref: refs/heads/for-6.11/intel-ish-hid
-    old: 0000000000000000000000000000000000000000
-    new: 8bb9f9fa59ef9034d081e89978c5c1031fc850bd
+  - ref: refs/heads/for-next
+    old: 5712c9590991b9e44ca853a3f6a00b286eef5411
+    new: 850674b9d2d023aff73b16388de2bf5473c0746c
+    log: |
+         445db3d5128a7841d3523349472ee5463eb730c8 HID: nintendo: Fix an error handling path in nintendo_hid_probe()
+         850674b9d2d023aff73b16388de2bf5473c0746c Merge branch 'for-6.10/upstream-fixes' into for-next
+         
