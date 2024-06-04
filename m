@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8450799873734079662=="
+Content-Type: multipart/mixed; boundary="===============2283878017385105599=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 04 Jun 2024 07:36:10 -0000
-Message-Id: <171748657013.9496.5941741350609612222@gitolite.kernel.org>
+Date: Tue, 04 Jun 2024 07:41:29 -0000
+Message-Id: <171748688947.14403.5721000207688719424@gitolite.kernel.org>
 
---===============8450799873734079662==
+--===============2283878017385105599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,33 +16,26 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 309ad53b7f310dee659ea29a23e17474ec62b6dd
-    new: 01ee6c3a5e1fd9d157a2408ef52f47f60fb75eff
-    log: revlist-309ad53b7f31-01ee6c3a5e1f.txt
+    old: 01ee6c3a5e1fd9d157a2408ef52f47f60fb75eff
+    new: 629fa557b71bf1ff07e3b1ced0188e15c2b11a51
+    log: revlist-01ee6c3a5e1f-629fa557b71b.txt
 
---===============8450799873734079662==
+--===============2283878017385105599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-309ad53b7f31-01ee6c3a5e1f.txt
+Content-Disposition: attachment; filename=revlist-01ee6c3a5e1f-629fa557b71b.txt
 
-7cbf3b13f00c8341afff1c48ad83d11995842c40 time: Add MODULE_DESCRIPTION() to time test modules
-6b2e29977518ec13ef3022f234ff8f3014c243da timekeeping: Provide infrastructure for converting to/from a base clock
-3a52886c8f972c3a5b70bfec330c71817cd7fc63 x86/tsc: Provide ART base clock information for TSC
-bd48b50be50ac5678a7e26c39f6779d7fadf128b e1000e: Replace convert_art_to_tsc()
-fcb05911e5832364c5f154b519a471225b34855e igc: Remove convert_art_ns_to_tsc()
-f5e1d0db3f02b11a0d1ef433da1fa2c869176c82 stmmac: intel: Remove convert_art_to_tsc()
-b3266ed85f77047a9674100f0da8058750e5bc62 ALSA: hda: Remove convert_art_to_tsc()
-d4bea547ebb577a4b4c545a4a81d495cec7eefe1 ice/ptp: Remove convert_art_to_tsc()
-0f532a789f1b24258043d0f856409d2ab974fb64 x86/tsc: Remove obsolete ART to TSC conversion functions
-02ecee07ca30f76f2a0f1381661a688b8e501ab0 timekeeping: Add function to convert realtime to base clock
-540588772ed0b191969c7902bf90d561ab0035be genirq/proc: Simplify irqdesc::kstat_irqs handling further
-cb06c9826991c746039d076df10d40819f88a6bc genirq/debugfs: Print irqdomain flags as human-readable strings
-0110c4b110477bb1f19b0d02361846be7ab08300 irqchip/riscv-intc: Prevent memory leak when riscv_intc_init_common() fails
-e306a894bd511804ba9db7c00ca9cc05b55df1f2 irqchip/sifive-plic: Chain to parent IRQ after handlers are ready
-b97e8a2f7130a4b30d1502003095833d16c028b3 irqchip/gic-v3-its: Fix potential race condition in its_vlpi_prop_update()
-866cd9f3909e46e403b4f7d374cd5392553ebfad Merge branch into tip/master: 'irq/urgent'
-631212faa2d7e696e56f696e7422993dae80ad54 Merge branch into tip/master: 'irq/core'
-01ee6c3a5e1fd9d157a2408ef52f47f60fb75eff Merge branch into tip/master: 'timers/core'
+d55510527153d17a3af8cc2df69c04f95ae1350d cxl/test: Add missing vmalloc.h for tools/testing/cxl/test/mem.c
+49ba7b515c4c0719b866d16f068e62d16a8a3dd1 cxl/region: Fix memregion leaks in devm_cxl_add_region()
+6c3ca6654a74dd396bc477839ba8d9792eced441 LoongArch: Remove CONFIG_ACPI_TABLE_UPGRADE in platform_init()
+b56f67a6c748bb009f313f91651c8020d2338d63 LoongArch: Fix built-in DTB detection
+3de9c42d02a79a5e09bbee7a4421ddc00cfd5c6d LoongArch: Add all CPUs enabled by fdt to NUMA node 0
+beb2800074c15362cf9f6c7301120910046d6556 LoongArch: Fix entry point in kernel image header
+1098efd299ffe9c8af818425338c7f6c4f930a98 LoongArch: Override higher address bits in JUMP_VIRT_ADDR
+eb36e520f4f1b690fd776f15cbac452f82ff7bfa LoongArch: Fix GMAC's phy-mode definitions in dts
+f06ce441457d4abc4d76be7acba26868a2d02b1c Merge tag 'loongarch-fixes-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+2ab79514109578fc4b6df90633d500cf281eb689 Merge tag 'cxl-fixes-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
+629fa557b71bf1ff07e3b1ced0188e15c2b11a51 Merge branch 'linus'
 
---===============8450799873734079662==--
+--===============2283878017385105599==--
