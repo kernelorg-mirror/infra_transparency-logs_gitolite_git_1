@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5728316122534400167=="
+Content-Type: multipart/mixed; boundary="===============1461556748381243027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 04 Jun 2024 09:36:09 -0000
-Message-Id: <171749376983.1416.18044394477916251700@gitolite.kernel.org>
+Date: Tue, 04 Jun 2024 09:37:19 -0000
+Message-Id: <171749383987.3199.17179794374629674797@gitolite.kernel.org>
 
---===============5728316122534400167==
+--===============1461556748381243027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: b56be78936c7c0e03692f48651bdf39f8597b137
-    new: d412002aceb7448a9667f59709e42fe00935c813
-    log: revlist-b56be78936c7-d412002aceb7.txt
+  - ref: refs/heads/sched/core
+    old: 86e775bb4cf8a5fec1d7b7f355c58845a24b58eb
+    new: fb0d4b5ee495efaeb11abf76d336230b8c88342f
+    log: revlist-86e775bb4cf8-fb0d4b5ee495.txt
 
---===============5728316122534400167==
+--===============1461556748381243027==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b56be78936c7-d412002aceb7.txt
+Content-Disposition: attachment; filename=revlist-86e775bb4cf8-fb0d4b5ee495.txt
 
-3ce4322b1a3a40ca175b16fc54cf22b041ecfd4b drm/panthor: Call panthor_sched_post_reset() even if the reset failed
-3a07362fab1653d3aca31a9155c8cc776138fd02 Merge tag 'asoc-v6.10' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 9b4843e877c86538eaf0bc6fdb3d0f2ffc0ffd2c ASoC: SOF: amd: Fix build error with built-in config
 0df2b9ed489a06643eaaa150a57ab01fa9ad3005 ALSA: hda/realtek - fixed headset Mic not show
 d731b1ed15052580b7b2f40559021012d280f1d9 ALSA: hda/realtek: Drop doubly quirk entry for 103c:8a2e
@@ -1048,7 +1046,9 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 6fbf71854e2ddea7c99397772fbbb3783bfe15b5 Merge tag 'perf-tools-fixes-for-v6.10-1-2024-05-26' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
-c80c4490c280a1678e47d34d2a335a58f1318615 cleanup: Standardize the header guard define's name
-d412002aceb7448a9667f59709e42fe00935c813 locking/atomic: scripts: fix ${atomic}_sub_and_test() kerneldoc
+04746ed80bcf3130951ed4d5c1bc5b0bcabdde22 sched/syscalls: Split out kernel/sched/syscalls.c from kernel/sched/core.c
+402de7fc880fef055bc984957454b532987e9ad0 sched: Fix spelling in comments
+34418a0066122b78fe0e2dff70de864887a2b8c5 idle: Remove stale RCU comment
+fb0d4b5ee495efaeb11abf76d336230b8c88342f sched/balance: Skip unnecessary updates to idle load balancer's flags
 
---===============5728316122534400167==--
+--===============1461556748381243027==--
