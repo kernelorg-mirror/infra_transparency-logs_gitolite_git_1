@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Tue, 04 Jun 2024 07:01:38 -0000
-Message-Id: <171748449868.15591.4017921938404601927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Tue, 04 Jun 2024 07:30:13 -0000
+Message-Id: <171748621313.5162.4975144779123619350@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
-user: geert
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+user: andy
 changes:
-  - ref: refs/heads/m68k-queue
-    old: 6f5c220c263a294e785cb8919c34bf1733f46702
-    new: aec08ed0735b15dbf3e9f2f73da0856490454aeb
+  - ref: refs/heads/review-andy
+    old: dbd60276de587f772f6fc02bafd58fd084d3de28
+    new: 632691ad83197227adc902793a2a3e10c04fe9b8
     log: |
-         f19ec0b95d63a88a6e2ab38da56e75022f02d2d4 m68k: amiga: Turn off Warp1260 interrupts during boot
-         ef82a7ee325207805985edbbae0ca90fb9d0fc08 m68k: atari: usb: Add ISP1160 USB host controller support
-         c00760cdf20b1285c96257c8c057d808897f8863 m68k: atari: Update Kconfig.bus help text
-         aec08ed0735b15dbf3e9f2f73da0856490454aeb m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+         c8ffef985af564c1b4fc09fdb5a5b336bfc0c33c auxdisplay: linedisp: Support configuring the boot message
+         4adbf7086dfdd6101508fd070cb1c0e0adc9513e auxdisplay: linedisp: add missing MODULE_DESCRIPTION() macro
+         c56a45064e989998a616aadf88023cc9611416b7 auxdisplay: hd44780: add missing MODULE_DESCRIPTION() macro
+         632691ad83197227adc902793a2a3e10c04fe9b8 auxdisplay: Use sizeof(*pointer) instead of sizeof(type)
          
