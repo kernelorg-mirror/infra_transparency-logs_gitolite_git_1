@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0168248548446100312=="
+Content-Type: multipart/mixed; boundary="===============0856228815101085968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 04 Jun 2024 09:34:49 -0000
-Message-Id: <171749368990.31498.2805253421398956201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Tue, 04 Jun 2024 09:35:23 -0000
+Message-Id: <171749372357.964.2993912640268834415@gitolite.kernel.org>
 
---===============0168248548446100312==
+--===============0856228815101085968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/perf/urgent
-    old: e8df9d9f4209c04161321d8c12640ae560f65939
-    new: f6c10e3eb9d4dcc51a79ae22e02812a48212cdc5
-    log: revlist-e8df9d9f4209-f6c10e3eb9d4.txt
+  - ref: refs/heads/edac-urgent
+    old: 591c946675d88dcc0ae9ff54be9d5caaee8ce1e3
+    new: f8367a74aebf88dc8b58a0db6a6c90b4cb8fc9d3
+    log: revlist-591c946675d8-f8367a74aebf.txt
 
---===============0168248548446100312==
+--===============0856228815101085968==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e8df9d9f4209-f6c10e3eb9d4.txt
+Content-Disposition: attachment; filename=revlist-591c946675d8-f8367a74aebf.txt
 
-e5a43efba2560d617b06e59dc10d2f9de7d08e5f Bluetooth: btintel_pcie: Fix warning reported by sparse
 6a486c1361ea588938898ae812b32dcfbd4022f2 Bluetooth: btintel_pcie: Refactor and code cleanup
 e60b613df8b6253def41215402f72986fee3fc8d ftrace: Fix possible use-after-free issue in ftrace_location()
 d4e9a968738bf66d3bb852dd5588d4c7afd6d7f4 eventfs: Fix a possible null pointer dereference in eventfs_find_events()
@@ -1049,6 +1048,7 @@ efa8f11a7ebeb8758dcd847a4b9a0cdcb68d9d87 Merge tag 'perf-urgent-2024-06-02' of g
 a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
-f6c10e3eb9d4dcc51a79ae22e02812a48212cdc5 perf/core: Fix missing wakeup when waiting for context reference
+3ec8ebd8a5b782d56347ae884de880af26f93996 EDAC/amd64: Convert PCIBIOS_* return codes to errnos
+f8367a74aebf88dc8b58a0db6a6c90b4cb8fc9d3 EDAC/igen6: Convert PCIBIOS_* return codes to errnos
 
---===============0168248548446100312==--
+--===============0856228815101085968==--
