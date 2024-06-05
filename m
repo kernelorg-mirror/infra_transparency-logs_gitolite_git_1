@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 05 Jun 2024 17:53:50 -0000
-Message-Id: <171761003021.7306.13698456312310835205@gitolite.kernel.org>
+Date: Wed, 05 Jun 2024 17:55:00 -0000
+Message-Id: <171761010096.7785.10747252901929734133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,8 @@ repo: pub/scm/linux/kernel/git/maz/arm-platforms
 user: maz
 changes:
   - ref: refs/heads/kvm-arm64/vgic-fixes-6.10
-    old: 0000000000000000000000000000000000000000
-    new: 82ee50ab18ab5197283fa1e1487bf58f048b6cff
+    old: 82ee50ab18ab5197283fa1e1487bf58f048b6cff
+    new: 907517e363c7b7dfd40bcad877912f3af95c6e23
+    log: |
+         907517e363c7b7dfd40bcad877912f3af95c6e23 KVM: arm64: Disassociate vcpus from redistributor region on teardown
+         
