@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 05 Jun 2024 08:40:21 -0000
-Message-Id: <171757682159.25634.572995472280501494@gitolite.kernel.org>
+Date: Wed, 05 Jun 2024 08:43:10 -0000
+Message-Id: <171757699045.26699.658319146416484254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: a535d59432370343058755100ee75ab03c0e3f91
-    new: 8b0f7410942cdc420c4557eda02bfcdf60ccec17
+    old: 8b0f7410942cdc420c4557eda02bfcdf60ccec17
+    new: fb0aa0781a5f457e3864da68af52c3b1f4f7fd8f
     log: |
-         8b0f7410942cdc420c4557eda02bfcdf60ccec17 octeontx2-af: Always allocate PF entries from low prioriy zone
+         fb0aa0781a5f457e3864da68af52c3b1f4f7fd8f net/smc: avoid overwriting when adjusting sock bufsizes
          
