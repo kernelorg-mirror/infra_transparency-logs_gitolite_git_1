@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 05 Jun 2024 01:09:26 -0000
-Message-Id: <171754976635.13159.9530087638835712156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 05 Jun 2024 01:37:17 -0000
+Message-Id: <171755143768.2815.15858929948400078409@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/tpm2key-v8
-    old: ad2ad743adfcdc900246a858a5585501fa0a7992
-    new: fb8e1f7922fc2bef79b78851de8ab4ec28facc52
+  - ref: refs/heads/master
+    old: cbe4144dea6fde87e13016c2861c9ba5f75f716f
+    new: 61776f0de7b2a272d9befe74b469f645b74b8133
     log: |
-         4d560fec8270e3ee3162e732dc23789a8d195fe0 KEYS: trusted: Change -EINVAL to -E2BIG
-         b06d61c5e43985c97167d543b9234fe3ffa3c21b crypto: tpm2_key: Introduce a TPM2 key type
-         0f2e1b88f6c0afebf5e2b7d8ba287dcccaa197f0 keys: asymmetric: Add tpm2_key_rsa
-         fb8e1f7922fc2bef79b78851de8ab4ec28facc52 keys: asymmetric: Add tpm2_key_ecdsa
+         5c793eb3c55e718b16b1edb1ce1f45c60e6c9c50 gitignore: Add compile_commands.json
+         61776f0de7b2a272d9befe74b469f645b74b8133 gitignore: Add __pycache__
          
