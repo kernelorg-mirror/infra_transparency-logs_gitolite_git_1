@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============0592597074182906893=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 05 Jun 2024 06:58:06 -0000
-Message-Id: <171757068641.13226.18324430351289602897@gitolite.kernel.org>
-
---===============0592597074182906893==
-Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 05 Jun 2024 06:59:24 -0000
+Message-Id: <171757076477.13754.5856927237102952833@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,28 +12,19 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: e48ae3fb90cf855fbf3680ab861f0e53ad579224
-    new: b7754c07622f7362f3ed57f04c90a4fd39bc0ab4
-    log: revlist-e48ae3fb90cf-b7754c07622f.txt
-
---===============0592597074182906893==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e48ae3fb90cf-b7754c07622f.txt
-
-2032e61e24fe9fe55d6c7a34fb5506c911b3e280 kselftest/alsa: Ensure _GNU_SOURCE is defined
-f6c3c83db1d939ebdb8c8922748ae647d8126d91 selftests/ftrace: Fix to check required event file
-7ea794604bf6a3be8bb4b0f1483eb1d3972eac93 selftests/ftrace: Update required config
-23a4b108accc29a6125ed14de4a044689ffeda78 tracing/selftests: Fix kprobe event name test for .isra. functions
-bc4d5f5d2debf8bb65fba188313481549ead8576 selftests: cachestat: Fix build warnings on ppc64
-84b6df4c49a1cc2854a16937acd5fd3e6315d083 selftests/openat2: Fix build warnings on ppc64
-e8b8c5264d4ebd248f60a5cef077fe615806e7a0 selftests/overlayfs: Fix build error on ppc64
-cb708ab9f584f159798b60853edcf0c8b67ce295 selftests/futex: pass _GNU_SOURCE without a value to the compiler
-0f42bdf59b4e428485aa922bef871bfa6cc505e0 selftests/tracing: Fix event filter test to retry up to 10 times
-32c75ad4a79259609ee19f749832bc2d99bbdd13 selftests/futex: don't redefine .PHONY targets (all, clean)
-4bf15b1c657d22d1d70173e43264e4606dfe75ff selftests/futex: don't pass a const char* to asprintf(3)
-32f88d65f01bf6f45476d7edbe675e44fb9e1d58 Merge tag 'linux_kselftest-fixes-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-b7754c07622f7362f3ed57f04c90a4fd39bc0ab4 Merge branch 'linus'
-
---===============0592597074182906893==--
+    old: b7754c07622f7362f3ed57f04c90a4fd39bc0ab4
+    new: 0ae74c5dfecdf9121ee04d8568c80a1bb4ffd236
+    log: |
+         efd01a701bc5b6b6404575dbdd286383ccb9ea66 Merge branch into tip/master: 'irq/urgent'
+         abbafea38b70fe6c6d93c191a6b7947b10fec304 Merge branch into tip/master: 'irq/core'
+         d6f5a0782296e9f6bc9ba398a357ea38dbcfdd47 Merge branch into tip/master: 'locking/core'
+         31416185530bc082a1b133a363114b1149b75a3a Merge branch into tip/master: 'perf/core'
+         2c1fec9279859563056018f7580e7bf1d7a0903f Merge branch into tip/master: 'ras/core'
+         a9e71ab3a065bc781e26e801f09420b93e65d363 Merge branch into tip/master: 'sched/core'
+         f735fde10ccf10dfd6e0cc06a853d1c0cfe540a3 Merge branch into tip/master: 'timers/core'
+         2aff2abe07d60ddae2497cee134b3b5d889c66d8 Merge branch into tip/master: 'x86/boot'
+         0668b6a82de90c485545cee0b29ce21736de5004 Merge branch into tip/master: 'x86/cc'
+         b920e865f235cf1f209e122275f240a65177fdea Merge branch into tip/master: 'x86/cpu'
+         ea4a85d7319ab538aca150e62c8267ef84ecd833 Merge branch into tip/master: 'x86/misc'
+         0ae74c5dfecdf9121ee04d8568c80a1bb4ffd236 Merge branch into tip/master: 'x86/percpu'
+         
