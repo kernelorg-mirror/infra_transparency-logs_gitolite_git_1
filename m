@@ -1,106 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0804952196711402778=="
+Content-Type: multipart/mixed; boundary="===============7876998933425084920=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 05 Jun 2024 03:48:26 -0000
-Message-Id: <171755930620.2102.17797479860616384142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 05 Jun 2024 03:48:37 -0000
+Message-Id: <171755931742.2310.4191983919912456626@gitolite.kernel.org>
 
---===============0804952196711402778==
+--===============7876998933425084920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
-  - ref: refs/heads/fs-current
-    old: 7805dc23f674503215b160aea7406a6ade29f511
-    new: 62f04354207f349605d8e460c2090cfcb62da3c3
-    log: revlist-7805dc23f674-62f04354207f.txt
-  - ref: refs/heads/fs-next
-    old: 1c2d705247cac0d6b5579bf5031cb321cd48051b
-    new: fca2fd1723330ab749cb600f81f862aef913e727
-    log: revlist-1c2d705247ca-fca2fd172333.txt
   - ref: refs/heads/master
     old: d97496ca23a2d4ee80b7302849404859d9058bcd
     new: 234cb065ad82915ff8d06ce01e01c3e640b674d2
     log: revlist-d97496ca23a2-234cb065ad82.txt
-  - ref: refs/heads/pending-fixes
-    old: d07e6d93f275fe9f8746121d9e9375a12c44b2f6
-    new: 0d2d7b0560506cbe179b714cd6bd7382705ee0d6
-    log: revlist-d07e6d93f275-0d2d7b056050.txt
-  - ref: refs/heads/stable
-    old: 2ab79514109578fc4b6df90633d500cf281eb689
-    new: 32f88d65f01bf6f45476d7edbe675e44fb9e1d58
-    log: revlist-2ab795141095-32f88d65f01b.txt
-  - ref: refs/tags/next-20240305
-    old: 4a6a504cd3769b6e6c075b3842fcb2dd8b9f1f93
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240605
     old: 0000000000000000000000000000000000000000
     new: 704da627ee32c38a5aaec052c72637e52f37faaa
 
---===============0804952196711402778==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7805dc23f674-62f04354207f.txt
-
-2032e61e24fe9fe55d6c7a34fb5506c911b3e280 kselftest/alsa: Ensure _GNU_SOURCE is defined
-f6c3c83db1d939ebdb8c8922748ae647d8126d91 selftests/ftrace: Fix to check required event file
-7ea794604bf6a3be8bb4b0f1483eb1d3972eac93 selftests/ftrace: Update required config
-23a4b108accc29a6125ed14de4a044689ffeda78 tracing/selftests: Fix kprobe event name test for .isra. functions
-bc4d5f5d2debf8bb65fba188313481549ead8576 selftests: cachestat: Fix build warnings on ppc64
-84b6df4c49a1cc2854a16937acd5fd3e6315d083 selftests/openat2: Fix build warnings on ppc64
-e8b8c5264d4ebd248f60a5cef077fe615806e7a0 selftests/overlayfs: Fix build error on ppc64
-cb708ab9f584f159798b60853edcf0c8b67ce295 selftests/futex: pass _GNU_SOURCE without a value to the compiler
-0f42bdf59b4e428485aa922bef871bfa6cc505e0 selftests/tracing: Fix event filter test to retry up to 10 times
-32c75ad4a79259609ee19f749832bc2d99bbdd13 selftests/futex: don't redefine .PHONY targets (all, clean)
-4bf15b1c657d22d1d70173e43264e4606dfe75ff selftests/futex: don't pass a const char* to asprintf(3)
-32f88d65f01bf6f45476d7edbe675e44fb9e1d58 Merge tag 'linux_kselftest-fixes-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-fe0d2c7babb0d9979676fa88b516eaa9e6c746da Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-433f36af4ba9f68c9178974a479a81fed2ccf246 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-f0802d1861b5ba86d578192b604ff5089263ff0a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-62f04354207f349605d8e460c2090cfcb62da3c3 Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-
---===============0804952196711402778==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c2d705247ca-fca2fd172333.txt
-
-2032e61e24fe9fe55d6c7a34fb5506c911b3e280 kselftest/alsa: Ensure _GNU_SOURCE is defined
-f6c3c83db1d939ebdb8c8922748ae647d8126d91 selftests/ftrace: Fix to check required event file
-7ea794604bf6a3be8bb4b0f1483eb1d3972eac93 selftests/ftrace: Update required config
-23a4b108accc29a6125ed14de4a044689ffeda78 tracing/selftests: Fix kprobe event name test for .isra. functions
-bc4d5f5d2debf8bb65fba188313481549ead8576 selftests: cachestat: Fix build warnings on ppc64
-84b6df4c49a1cc2854a16937acd5fd3e6315d083 selftests/openat2: Fix build warnings on ppc64
-e8b8c5264d4ebd248f60a5cef077fe615806e7a0 selftests/overlayfs: Fix build error on ppc64
-cb708ab9f584f159798b60853edcf0c8b67ce295 selftests/futex: pass _GNU_SOURCE without a value to the compiler
-0f42bdf59b4e428485aa922bef871bfa6cc505e0 selftests/tracing: Fix event filter test to retry up to 10 times
-32c75ad4a79259609ee19f749832bc2d99bbdd13 selftests/futex: don't redefine .PHONY targets (all, clean)
-4bf15b1c657d22d1d70173e43264e4606dfe75ff selftests/futex: don't pass a const char* to asprintf(3)
-32f88d65f01bf6f45476d7edbe675e44fb9e1d58 Merge tag 'linux_kselftest-fixes-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-c23ce08893cdf22629958626f633bf97979c6c37 NFSD: Fix nfsdcld warning
-fe0d2c7babb0d9979676fa88b516eaa9e6c746da Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-433f36af4ba9f68c9178974a479a81fed2ccf246 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-f0802d1861b5ba86d578192b604ff5089263ff0a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-62f04354207f349605d8e460c2090cfcb62da3c3 Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-620b652c346e69ab93f117329064772785035cd2 Merge branch 'for-next' of https://evilpiepirate.org/git/bcachefs.git
-962de4fb2cddb4b81acf5ad924c7e648581372b3 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-fbd71b26f2bc7c9b38fe78096585d940a90f41bc Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
-b2e75ac3d0f91b04c5b7ce218ccb14ed7b48d78f Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
-1fec95309f443327cf95e7ff688325de41239c58 Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-d5b888cdffabc55fcfa9d6f818d704fc560bdfe7 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
-52424f4d71d93a93c94bd8b6a284a8c167657b2c Merge branch 'jfs-next' of git://github.com/kleikamp/linux-shaggy.git
-2908ed1575d7fea14e7069ac5f8ac7d6f22a449d Merge branch 'linux-next' of git://git.linux-nfs.org/projects/trondmy/nfs-2.6.git
-e8391801bcf741dff9e6e9f853c4606e4fb9df6f Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-49e4118b09e20a1855a3cfe820248c08bb4b939a Merge branch 'overlayfs-next' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs.git
-fca2fd1723330ab749cb600f81f862aef913e727 Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-
---===============0804952196711402778==
+--===============7876998933425084920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -616,151 +539,4 @@ b73e8058524a13677e77baadaec8d86bd896f226 Merge branch 'slab/for-next' of git://g
 265e8368dfea6e4ca2cc76e61feec24678955be3 Merge branch 'bitmap-for-next' of https://github.com/norov/linux.git
 234cb065ad82915ff8d06ce01e01c3e640b674d2 Add linux-next specific files for 20240605
 
---===============0804952196711402778==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d07e6d93f275-0d2d7b056050.txt
-
-5134acb15d9ef27aa2b90aad46d4e89fcef79fdc efi/libstub: zboot.lds: Discard .discard sections
-7c23b186ab892088f76a3ad9dbff1685ffe2e832 efi: pstore: Return proper errors on UEFI failures
-3ac844148b9b80f19fec63fbf14879f868c4655f RDMA/cache: Release GID table even if leak is detected
-36e1ea42751ce88182f6e394e165ea098dca12d8 RDMA/mlx5: Remove extra unlock on error path
-0f28eefd6bdb6ce039a32cff78c405e05c831532 RDMA/mlx5: Follow rb_key.ats when creating new mkeys
-7322d666dbd55f566f4b1e4822fa6a3987df20c1 RDMA/mlx5: Ensure created mkeys always have a populated rb_key
-6bb41bed95ec39decb7288ce56435cdfe06b4f5f RDMA/mlx5: Fix unwind flow as part of mlx5_ib_stage_init_init
-c405e9cac10239f19be9ce461252cae51e4fdc9e RDMA/mlx5: Add check for srq max_sge attribute
-629f2b4e05225e53125aaf7ff0b87d5d53897128 drm/panel: sitronix-st7789v: Add check for of_drm_get_panel_orientation
-994af1825a2aa286f4903ff64a1c7378b52defe6 riscv: fix overlap of allocated page and PTR_ERR
-e2c79b4c5c4d83520abb570ca633ded09621c0a6 Revert "riscv: mm: accelerate pagefault when badaccess"
-e0e8e4bce61cac674fdabd85d070e7bab1634a8b ASoC: SOF: Intel: hda-dai: skip tlv for dspless mode
-3b06e137089fc0beb5ffa6a869de9a93df984072 ASoC: SOF: Intel: hda-dai: remove skip_tlv label
-d3cb3516f2540e6c384eef96b4ffeb49425175ed MAINTAINERS: copy linux-arm-msm for sound/qcom changes
-a73a83021ae136ab6b0d08eb196d84b1d02814e9 ASoC: mxs: add missing MODULE_DESCRIPTION() macro
-7478e15bcc16cbc0fa1b8c431163bf651033c088 ASoC: fsl: add missing MODULE_DESCRIPTION() macro
-968c974c08106fcf911d8d390d0f049af855d348 ASoC: rt722-sdca-sdw: add silence detection register as volatile
-76f19626bd35a1791faeb75264d358256ebc544c regmap: add missing MODULE_DESCRIPTION() macros
-2884dc7d08d98a89d8d65121524bb7533183a63a bpf: Fix a potential use-after-free in bpf_link_free()
-66b9a4ab75e8ce82faf9ec5344a870c768aeed78 i2c: at91: Fix the functionality flags of the slave-only interface
-9224b8546453758f73210256597f60f897f8dafe i2c: designware: Fix the functionality flags of the slave-only interface
-ffbe335b8d471f79b259e950cb20999700670456 vmxnet3: disable rx data ring on dma allocation failure
-2fe40483ec257de2a0d819ef88e3e76c7e261319 ipv6: ioam: block BH from ioam6_output()
-db0090c6eb12c31246438b7fe2a8f1b833e7a653 net: ipv6: rpl_iptunnel: block BH in rpl_output() and rpl_input()
-c0b98ac1cc104f48763cdb27b1e9ac25fd81fc90 ipv6: sr: block BH in seg6_output_core() and seg6_input_core()
-cf28ff8e4c02e1ffa850755288ac954b6ff0db8c ila: block BH in ila_output()
-2fe6fb36c781b50482b1c3323fb526bc07d1af59 net: dst_cache: add two DEBUG_NET warnings
-d730a42ca6205713d8d88b14d728283c910d2baa Merge branch 'dst_cache-fix-possible-races'
-c6cab01d7e20a028ffcee1e0a0b782332a16b5e6 lib/test_rhashtable: add missing MODULE_DESCRIPTION() macro
-d6301802607bc036823fb47abaa2cf92fb74db91 Merge tag 'wireless-2024-06-03' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-1bf36d88c1b07002e579354a1667429cd357e0d5 dt-bindings: mmc: sdhci-msm: Document the SDX75 compatible
-a759b7da5b56d356d99a4e3784ade25cfe6fada8 mmc: sdhci-pci: Convert PCIBIOS_* return codes to errnos
-5413999d3ef0f3a8ad9847fcdd51d34e5f5571db mmc: sdhci-pci-o2micro: Convert PCIBIOS_* return codes to errnos
-a535d59432370343058755100ee75ab03c0e3f91 net: tls: fix marking packets as decrypted
-35e85fd211fc62a53b53be198bf78f8bca1d714a mmc: sdhci-brcmstb: check R1_STATUS for erase/trim/discard
-c3552ab19aeb8101b751e7c7ad45deab9e1134e1 staging: vchiq_debugfs: Fix NPD in vchiq_dump_state
-65909a7e7aa8b25c9cc5f04c1fd5d6f0f1d76fcd ASoC: qcom: add missing MODULE_DESCRIPTION() macro
-b19ab7ee2c4c1ec5f27c18413c3ab63907f7d55c tty: n_tty: Fix buffer offsets when lookahead is used
-87d80bfbd577912462061b1a45c0ed9c7fcb872f serial: 8250_dw: Don't use struct dw8250_data outside of 8250_dw
-2c94512055f362dd789e0f87b8566feeddec83c9 serial: 8250_dw: Revert "Move definitions to the shared header"
-5208e7ced520a813b4f4774451fbac4e517e78b2 serial: 8250_pxa: Configure tx_loadsz to match FIFO IRQ level
-ca84cd379b45e9b1775b9e026f069a3a886b409d serial: port: Don't block system suspend even if bytes are left to xmit
-4e534ff4b69c6960a165cab2c851b48f0a0da945 serial: sc16is7xx: rename Kconfig CONFIG_SERIAL_SC16IS7XX_CORE
-7a2e8e30ad89f498b206977396d028e10174390a serial: sc16is7xx: re-add Kconfig SPI or I2C dependency
-ae01e52da244af5d650378ada1bfd2d946dc1b45 serial: drop debugging WARN_ON_ONCE() from uart_write()
-8141b6da1763b9db009e5dcf873869bb31bcef45 regulator: tps6594-regulator: Fix the number of irqs for TPS65224 and TPS6594
-718d4a63c0a62d16af1d0425d515d7e76f35681e Revert "usb: chipidea: move ci_ulpi_init after the phy initialization"
-fc3568f142cc5fe071d83be02d1851717d1fbf66 usb: typec: ucsi: glink: increase max ports for x1e80100
-8475ffcfb381a77075562207ce08552414a80326 USB: xen-hcd: Traverse host/ when CONFIG_USB_XEN_HCD is selected
-e7e921918d905544500ca7a95889f898121ba886 usb: typec: tcpm: fix use-after-free case in tcpm_register_source_caps
-fc8fb9eea94d8f476e15f3a4a7addeb16b3b99d6 usb: typec: tcpm: Ignore received Hard Reset in TOGGLING state
-e4228cfd092351c2d9b1a3048b2070287291ccbb dt-bindings: usb: realtek,rts5411: Add missing "additionalProperties" on child nodes
-f85d39dd7ed89ffdd622bc1de247ffba8d961504 kcov, usb: disable interrupts in kcov_remote_start_usb_softirq
-8bdf8a42bca4f47646fd105a387ab6926948c7f1 usb: typec: ucsi: Ack also failed Get Error commands
-16637fea001ab3c8df528a8995b3211906165a30 usb-storage: alauda: Check whether the media is initialized
-971187350602d03c4a27c0783ff412502b95720a driver core: remove devm_device_add_groups()
-44a45be57f85165761fdabf072f9a97aa026ff61 sysfs: Unbreak the build around sysfs_bin_attr_simple_read()
-1db5322b7e6b58e1b304ce69a50e9dca798ca95b mei: demote client disconnect warning on suspend to debug
-283cb234ef95d94c61f59e1cd070cd9499b51292 mei: me: release irq in mei_me_pci_resume error path
-9b5e045029d8bded4c6979874ed3abc347c1415c mei: vsc: Don't stop/restart mei device during system suspend/resume
-af076156ec6d70332f1555754e99d4a3771ec297 mei: vsc: Fix wrong invocation of ACPI SID method
-73fedc31fed38cb6039fd8a7efea1774143b68b0 parport: amiga: Mark driver struct with __refdata to prevent section mismatch
-086c6cbcc563c81d55257f9b27e14faf1d0963d3 misc: microchip: pci1xxxx: fix double free in the error handling of gp_aux_bus_probe()
-77427e3d5c353e3dd98c7c0af322f8d9e3131ace misc: microchip: pci1xxxx: Fix a memory leak in the error handling of gp_aux_bus_probe()
-7c55b78818cfb732680c4a72ab270cc2d2ee3d0f jfs: xattr: fix buffer overflow for invalid xattr
-c0a40097f0bc81deafc15f9195d1fb54595cd6d0 drivers: core: synchronize really_probe() and dev_uevent()
-c9d52fb313d3719d69a040f4ca78a3e2e95fba21 PCI: Revert the cfg_access_lock lockdep mechanism
-290be0a40276ca36a5110b191d73a71b8bbe466f Merge branch 'efi/next' into efi/urgent
-32f88d65f01bf6f45476d7edbe675e44fb9e1d58 Merge tag 'linux_kselftest-fixes-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-f472e923bf4b4f5a5f67b377e575a5b94b6174f1 bpf: Set run context for rawtp test_run callback
-afe377286ad49e0b69071d2a767e2c6553f4094b ASoC: cs42l43: Increase default type detect time and button delay
-b7c40988808f8d7426dee1e4d96a4e204de4a8bc ASoC: codecs: ES8326: Solve headphone detection issue
-4eecb644b8b82f5279a348f6ebe77e3d6e5b1b05 spi: cs42l43: Correct SPI root clock speed
-4d46b699cd0c82e55c031ab515a6267ad17b7164 ASoC: SOF: Intel: hda-dai: skip tlv configuration for
-32497ca950b563efa8bb1dccb13b7044412e6bb0 efi: Add missing __nocfi annotations to runtime wrappers
-c79d5f6985f9a54eb325c6584c29d8b752a09081 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-fe0d2c7babb0d9979676fa88b516eaa9e6c746da Merge branch 'vfs.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-433f36af4ba9f68c9178974a479a81fed2ccf246 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-f0802d1861b5ba86d578192b604ff5089263ff0a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-62f04354207f349605d8e460c2090cfcb62da3c3 Merge branch 'nfsd-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-e350ffc736d73f4f41f05669e85d0d80c1695353 Merge branch 'fs-current' of linux-next
-35e18813a7f47f20bdbf2d252f737b2e7554efbd Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-537ae782bbf5168ca3c2d35078739b2fd54b696b Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-86ec3ba5bfdfaa338c0eb120982e20ef5563a8c2 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-fb6b9fe45b77f5f413decc77d245aa217a2e9be6 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/wpan/wpan.git
-ca82e9ee91d884d309f67fc807262520f5796102 Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-d44bdec394322cd154f80f232068a39b52027d45 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-185561c43434f3450ea42ead051183eb08cf0c31 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-c44cba33a9d1c91d95eafa6e4dcd082ce981c5f3 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-36b11d0fef4bb66e9973867f307cbd09e2176015 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-3fb8bd0201026bd0cb9ffce3053a442260d78a1c Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-61c124dc0c06d8b6ed9670494036fc450f2fa001 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-8b67bbf29462d954d387dd4ac067c02a9432cbcc Merge branch 'driver-core-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core.git
-44718af70008f0ebd5489b844ecfb19223f5c78a Merge branch 'tty-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git
-a72bdaa5c88a29b5fe0a2c418c8462be28442c70 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
-ad20a8c7896105329dcf581736f50e2db4b8f1c5 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-8160348d5a14db0dc19e5d7d5d1487f54a07e23d Merge branch 'staging-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
-d689bf94306d9b2ff2ba6b994a6dc32b66aa7e27 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-2955ce8dac64ce4a2bc7eea575b7faa0a0da21ce Merge branch 'char-misc-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git
-2bc17120dfcc02fff4c91c7e948affc1aaeb791b Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire.git
-22d4677e60e59535cd0b2282ff31dbe02334f700 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt.git
-674e36da1cf6dbb591501b0cfc15cc47b24a2eb0 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
-59e54cb95fb63694a9e1a85615342d6c12731b78 Merge branch 'for-linus' of git://github.com/awilliam/linux-vfio.git
-8926291afab0cb49aa64aba14378aa962c0c9fac Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
-5689d34db6c8d5474b6a151759d648d4474eaac5 Merge branch 'fixes' of https://git.linuxtv.org/media_stage.git
-68e6bd469aee598a922f4dafd38e0c712a7ccafd Merge branch 'master' of git://git.kernel.org/pub/scm/virt/kvm/kvm.git
-e0f8ba5f21d55b7011aa7c5e3a5c41d210b63977 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-ecbfc4c298e72fd4c42f5473b31719202b6530f1 Merge branch 'dt/linus' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git
-b7bffcb403bf535dd91c0b10d2809ac0cea4f8ce Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-a109fbea68f5f14b5926bae18ebd2f2b3408b4ed Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-e8c1245fb9665b1cec0cfe6d1b06137aa350a9a0 Merge branch 'hyperv-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-e41f61866996d907ba74208393f2a759bd4f1f7a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-419cc1ea69adfb6cfec3246c65b2ab0d745d861a Merge branch 'riscv-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-951c3c855f4ab47c739e2c814d28bb0d92356fc7 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga.git
-7bfaa4a29bc7956999c618cd484a8204e76161a8 Merge branch 'gpio/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
-16d9c466d0e94859aa7ffabeed042b7ee6c42122 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock.git
-7df5183102d78ecbe65d795bb60d0ae944b231b5 Merge branch 'perf-tools' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-26f918a79b49c9276ab1efbaf6ff06fca185fcaf Merge branch 'urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-a9286f4fdf26583ac4e807edddd603373d1b50af Merge branch 'i2c/i2c-host-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux.git
-9f1eb68b6ff6f1a3b94171a6d23e0221d643dae1 Merge branch 'clk-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
-0d2d7b0560506cbe179b714cd6bd7382705ee0d6 Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/misc/kernel.git
-
---===============0804952196711402778==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ab795141095-32f88d65f01b.txt
-
-2032e61e24fe9fe55d6c7a34fb5506c911b3e280 kselftest/alsa: Ensure _GNU_SOURCE is defined
-f6c3c83db1d939ebdb8c8922748ae647d8126d91 selftests/ftrace: Fix to check required event file
-7ea794604bf6a3be8bb4b0f1483eb1d3972eac93 selftests/ftrace: Update required config
-23a4b108accc29a6125ed14de4a044689ffeda78 tracing/selftests: Fix kprobe event name test for .isra. functions
-bc4d5f5d2debf8bb65fba188313481549ead8576 selftests: cachestat: Fix build warnings on ppc64
-84b6df4c49a1cc2854a16937acd5fd3e6315d083 selftests/openat2: Fix build warnings on ppc64
-e8b8c5264d4ebd248f60a5cef077fe615806e7a0 selftests/overlayfs: Fix build error on ppc64
-cb708ab9f584f159798b60853edcf0c8b67ce295 selftests/futex: pass _GNU_SOURCE without a value to the compiler
-0f42bdf59b4e428485aa922bef871bfa6cc505e0 selftests/tracing: Fix event filter test to retry up to 10 times
-32c75ad4a79259609ee19f749832bc2d99bbdd13 selftests/futex: don't redefine .PHONY targets (all, clean)
-4bf15b1c657d22d1d70173e43264e4606dfe75ff selftests/futex: don't pass a const char* to asprintf(3)
-32f88d65f01bf6f45476d7edbe675e44fb9e1d58 Merge tag 'linux_kselftest-fixes-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-
---===============0804952196711402778==--
+--===============7876998933425084920==--
