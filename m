@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Wed, 05 Jun 2024 08:06:28 -0000
-Message-Id: <171757478809.31384.1524545894735168895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 05 Jun 2024 08:10:12 -0000
+Message-Id: <171757501243.3351.8911898247995220386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/stm32-next
-    old: 624aa659afbc902cd279ae719a2f58a22dca88c0
-    new: 9c8d852dabbd49f4894d5d998ede8b98eb091921
+  - ref: refs/heads/tpm2key-v8
+    old: 543b69e616058c8f110c0446a05d627cd87e5bc9
+    new: 3f4bbb47265d1cbeb2ac89904c3b739e098c695c
     log: |
-         9c8d852dabbd49f4894d5d998ede8b98eb091921 arm64: dts: st: add power domain on stm32mp25
+         3f4bbb47265d1cbeb2ac89904c3b739e098c695c keys: asymmetric: Add ECDSA public key signing using a TPM2 chip
          
