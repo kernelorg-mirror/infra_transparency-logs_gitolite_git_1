@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 05 Jun 2024 14:48:50 -0000
-Message-Id: <171759893050.31944.16739169928334843722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 05 Jun 2024 14:52:37 -0000
+Message-Id: <171759915797.2625.4316289309912717837@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/sched/core
-    old: 3cd7271987ffd89c2d5eaeea85d3e9a16aec6894
-    new: f90cc919f9e5cbfcd0b952290c57ef1317f4e91e
+  - ref: refs/heads/master
+    old: 898ac74c5b5f8b551a377d6a60ca4e30023ac9d2
+    new: e059bc9e738a5e4eeb5eeeb3b07dc55470f79fdf
     log: |
-         764d5fcc2a58d789629f6800451975fc93f25822 idle: Remove stale RCU comment
-         f90cc919f9e5cbfcd0b952290c57ef1317f4e91e sched/balance: Skip unnecessary updates to idle load balancer's flags
+         d68a9e1847a6dee31f8544fda53ed87e5365180e libbpf: Add BTF field iterator
+         a7eaf21d2b01d96cda8e1586f7bdcaea8c9c728e libbpf: Make use of BTF field iterator in BPF linker code
+         7facef1533e09c0acbc551846fc8e180f633032c libbpf: Make use of BTF field iterator in BTF handling code
+         ca98fca32dd7439e71f4ee84a22ee0cda34b7853 bpftool: Use BTF field iterator in btfgen
+         e059bc9e738a5e4eeb5eeeb3b07dc55470f79fdf libbpf: Remove callback-based type/string BTF field visitor helpers
          
