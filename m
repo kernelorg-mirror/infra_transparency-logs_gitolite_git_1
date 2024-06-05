@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 05 Jun 2024 06:46:52 -0000
-Message-Id: <171757001284.5742.11542215254410531662@gitolite.kernel.org>
+Date: Wed, 05 Jun 2024 06:47:36 -0000
+Message-Id: <171757005667.6073.6154987934990290830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental
-    old: 5617854182575a3b9baa5306bcc9e745c00f7fce
-    new: 84a2b879e920bb28b2655db8be9faf97441cedb8
+  - ref: refs/heads/dev
+    old: b2f6da8ac935f44b026b01977819582d9c5831fc
+    new: 7d1abe3d5d947ab4bb662888e6fa1669b610cc2f
     log: |
-         1a85748ccec333bf0428c2522eca0194bf078ea9 erofs-utils: introduce the I/O manager
-         84a2b879e920bb28b2655db8be9faf97441cedb8 erofs-utils: lib: drop prefix_sha256 digests
+         b08e804b1dd1bc1a0b27894103f8dd161db2a32a erofs-utils: lib: wrap up zeropadding calculation
+         7d1abe3d5d947ab4bb662888e6fa1669b610cc2f erofs-utils: record sb_size instead of sb_extslots
          
