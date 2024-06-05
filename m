@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 05 Jun 2024 01:50:03 -0000
-Message-Id: <171755220340.11751.7613909763110987190@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 05 Jun 2024 01:53:16 -0000
+Message-Id: <171755239691.13682.15217584512590639706@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/io_uring-msg_ring
-    old: 656b6279a2a26e4237d44c47e9b10783e9590702
-    new: 67666487bc919056c1142f55d6244dcadadca705
+  - ref: refs/heads/tpm2key-v8
+    old: 1b311064a187fb58681636ac9a02eaa64d25ef38
+    new: db07dcd728aada0fab39a00107b5ceefb1afb827
     log: |
-         ccd1eafbe110c1a989bd0ee2bab0cc9e9bb59a9f io_uring: account overflow entries
-         7068a0d8e8fb1e50e9e72aede3ec29be11eb8cad io_uring: abstract out helpers for DEFER_TASKRUN wakeup batching
-         67666487bc919056c1142f55d6244dcadadca705 io_uring/msg_ring: add basic wakeup batch support
+         4df1bc36ddfc8a0ea5dc61c04ca669a76ab2d48e crypto: Migrate the TPM2 key type
+         7ee291fd55f955405a297f49d43c12a31bbc8130 keys: asymmetric: Add tpm2_key_rsa
+         db07dcd728aada0fab39a00107b5ceefb1afb827 keys: asymmetric: Add tpm2_key_ecdsa
          
