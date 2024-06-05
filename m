@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 05 Jun 2024 08:10:12 -0000
-Message-Id: <171757501243.3351.8911898247995220386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Wed, 05 Jun 2024 08:19:44 -0000
+Message-Id: <171757558418.8341.1167632918404037312@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/tpm2key-v8
-    old: 543b69e616058c8f110c0446a05d627cd87e5bc9
-    new: 3f4bbb47265d1cbeb2ac89904c3b739e098c695c
+  - ref: refs/heads/urgent
+    old: 32497ca950b563efa8bb1dccb13b7044412e6bb0
+    new: 99280413a5b785f22d91e8a8a66dc38f4a214495
     log: |
-         3f4bbb47265d1cbeb2ac89904c3b739e098c695c keys: asymmetric: Add ECDSA public key signing using a TPM2 chip
+         99280413a5b785f22d91e8a8a66dc38f4a214495 efi: Add missing __nocfi annotations to runtime wrappers
          
