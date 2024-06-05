@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Wed, 05 Jun 2024 09:27:44 -0000
-Message-Id: <171757966404.27905.5289578812266251507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 05 Jun 2024 09:27:49 -0000
+Message-Id: <171757966914.27974.8532080350637885083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 7baae624211cc04942cacf3fb162b90ca747f0b0
-    new: 3421dfe41b2c66878388522f3038656f8ed1623b
+  - ref: refs/notes/signatures/tar
+    old: cf772405a06dea49a44a81e71cc23df909dc8379
+    new: 91bae27d57c74026f641821e31c58f8cebd64f6b
     log: |
-         14d307bf8fd918246cd83f799c5a596eb00c998b EDAC/amd64: Remove unused register accesses
-         3421dfe41b2c66878388522f3038656f8ed1623b Merge ras/edac-amd64 into for-next
+         91bae27d57c74026f641821e31c58f8cebd64f6b Notes added by 'git notes add'
          
