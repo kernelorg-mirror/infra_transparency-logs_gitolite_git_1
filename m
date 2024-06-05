@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Wed, 05 Jun 2024 15:21:50 -0000
-Message-Id: <171760091009.25368.2209853169982930929@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Wed, 05 Jun 2024 15:22:27 -0000
+Message-Id: <171760094745.25748.4757885270337029180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next
-    old: c51cf7315db1392af58b909d1004133f6dbf0bf6
-    new: 9830c7048b032e4bb39b686e74caa3ccb4545a55
+  - ref: refs/heads/for-next/scmi/updates
+    old: 9379dea80cf07e91004440c0df4799cf65152eaf
+    new: d860dea6d2ea4fd221585d04f3b2a00e04368241
     log: |
-         b955f0eead54afbf69dd61d621483938c1d8e78c printk: nbcon: Fix nbcon_cpu_emergency_flush() when preemptible
-         9830c7048b032e4bb39b686e74caa3ccb4545a55 Merge branch 'rework/write-atomic' into for-next
+         d860dea6d2ea4fd221585d04f3b2a00e04368241 firmware: arm_scmi: power_control: support suspend command
          
