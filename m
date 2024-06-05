@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 05 Jun 2024 18:44:05 -0000
-Message-Id: <171761304599.13141.3387519869577525536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 05 Jun 2024 18:48:51 -0000
+Message-Id: <171761333135.16545.12404336821313982906@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: c1807ca19d17f7c48337cb4aa7b8118ef7604839
-    new: 8dbdd3a828870d29540fb2ae2ba376292ae84abc
+    old: 61776f0de7b2a272d9befe74b469f645b74b8133
+    new: 7c619d864afd01df6a98baeffe7030a3d144b22a
     log: |
-         8dbdd3a828870d29540fb2ae2ba376292ae84abc Wed Jun  5 02:43:29 PM EDT 2024
+         f63c6e9fa069dd82c6dda521f64294bb4f872ff9 Revert "adapter: add support for setting POLL_ERRQUEUE experimental feature"
+         7c619d864afd01df6a98baeffe7030a3d144b22a test-bap: Add Broadcast Source STR one BIS tests
          
