@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 05 Jun 2024 19:54:20 -0000
-Message-Id: <171761726084.31637.17279052488969818390@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Wed, 05 Jun 2024 19:58:12 -0000
+Message-Id: <171761749281.2319.12239798841168976194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/network/ofono/ofono
+user: holtmann
 changes:
   - ref: refs/heads/master
-    old: cc2d1ac5902c65fd26fab7b3208d903e92bd6d10
-    new: 730f4c6dc1facbe92cf7a82a86f7fe202ac4ce89
+    old: d08babaceab19a4b110675fbedecd262809741e0
+    new: 0232884215ab8a12465b11530426e1ecc1f9e7d4
     log: |
-         9b2c936fc551c968a21892b5bb17061e9b39552a patches/next: rebase on latest mm-unstable
-         730f4c6dc1facbe92cf7a82a86f7fe202ac4ce89 patches/next: rebase on latest mm-unstable
+         0232884215ab8a12465b11530426e1ecc1f9e7d4 Release 2.8
          
