@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 05 Jun 2024 15:17:24 -0000
-Message-Id: <171760064452.22024.17080987907588064892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Wed, 05 Jun 2024 15:20:40 -0000
+Message-Id: <171760084044.24834.7370364612041135542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/tags/for-6.10-rc2-tag
-    old: 0000000000000000000000000000000000000000
-    new: 99ec13df27af3b40d55bcd8c057a09257f199262
+  - ref: refs/heads/rework/write-atomic
+    old: 00129d73ed69078624e1f1083b6df22916819747
+    new: b955f0eead54afbf69dd61d621483938c1d8e78c
+    log: |
+         b955f0eead54afbf69dd61d621483938c1d8e78c printk: nbcon: Fix nbcon_cpu_emergency_flush() when preemptible
+         
