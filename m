@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 05 Jun 2024 16:25:52 -0000
-Message-Id: <171760475243.8961.626353667186981778@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 05 Jun 2024 16:57:11 -0000
+Message-Id: <171760663125.30850.1512536678233725404@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: de59099aaa0fa6486d25b4b47c8d86ed01e56933
-    new: fcd379ce4d4fa78b14e60ab453a5f4ce5dec8474
+  - ref: refs/heads/irq/core
+    old: b4dc049ea3ea98df58820f988c7c9578aa076f72
+    new: d011c022efe275791897668aa421e2db9f2e6450
     log: |
-         fcd379ce4d4fa78b14e60ab453a5f4ce5dec8474 Wed Jun  5 12:25:06 PM EDT 2024
+         372487b295557b6c0c7ba3583fb34a65c574ff9f dt-bindings: interrupt-controller: renesas,rzg2l-irqc: Document RZ/Five SoC
+         d011c022efe275791897668aa421e2db9f2e6450 irqchip/renesas-rzg2l: Add support for RZ/Five SoC
          
