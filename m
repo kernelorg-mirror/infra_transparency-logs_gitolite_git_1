@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8172286577684876513=="
+Content-Type: multipart/mixed; boundary="===============3386860971231917503=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Wed, 05 Jun 2024 08:49:58 -0000
-Message-Id: <171757739858.31138.15361556210686691002@gitolite.kernel.org>
+Date: Wed, 05 Jun 2024 08:50:25 -0000
+Message-Id: <171757742527.532.1981709387001927723@gitolite.kernel.org>
 
---===============8172286577684876513==
+--===============3386860971231917503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next
     old: e8dc41afca161b988e6d462f4d0803d247e22250
     new: c3f38fa61af77b49866b006939479069cd451173
     log: revlist-e8dc41afca16-c3f38fa61af7.txt
 
---===============8172286577684876513==
+--===============3386860971231917503==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of gi
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
 
---===============8172286577684876513==--
+--===============3386860971231917503==--
