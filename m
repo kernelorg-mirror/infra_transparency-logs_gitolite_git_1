@@ -1,31 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============1743449152585802379=="
+Content-Type: multipart/mixed; boundary="===============1728745030545263987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Wed, 05 Jun 2024 07:53:31 -0000
-Message-Id: <171757401176.21663.6023779754673519904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Wed, 05 Jun 2024 07:54:08 -0000
+Message-Id: <171757404809.21985.12228433387763817337@gitolite.kernel.org>
 
---===============1743449152585802379==
+--===============1728745030545263987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
-  - ref: refs/heads/fsnotify
-    old: 690c4baa29899ba0e974a9823ba944387fcac769
-    new: 172e422ffea20a89bfdc672741c1aad6fbb5044e
-    log: revlist-690c4baa2989-172e422ffea2.txt
+  - ref: refs/heads/for-next
+    old: e5d1fdecfaf8470bad3874d00c7921e3883495b7
+    new: 8887ee905d0889d491e88b12f8134d31c8a21b11
+    log: revlist-e5d1fdecfaf8-8887ee905d08.txt
 
---===============1743449152585802379==
+--===============1728745030545263987==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-690c4baa2989-172e422ffea2.txt
+Content-Disposition: attachment; filename=revlist-e5d1fdecfaf8-8887ee905d08.txt
 
+61deafa9ecf3f6d00c570774b0b38f439be543ac Merge tag 'x86_apic_for_6.10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+2d9db778ddca079228ef10e60bceea06b34b0eaa Merge tag 'timers-core-2024-05-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a9d9ce3fbc2761e69c5daeb99156a5d06eb79ae5 Merge tag 'x86-timers-2024-05-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+6bfd2d442af5c373042f196eef1915e1f6ac058a Merge tag 'irq-core-2024-05-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9776dd36095be19f5a0ad9f07a4fc221d2a0609a Merge tag 'x86-irq-2024-05-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+386f0cffae4654f6db1c0d8ad8273511f925f719 net: gro: fix napi_gro_cb zeroed alignment
+dc9dfd8ae4b5ac28e457a830556b53b15f4b9a1c selftests: netfilter: fix packetdrill conntrack testcase
+654de42f3fc6edc29d743c1dbcd1424f7793f63d Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+1338acfe629ddd955fd524fc01e26bca4f1bb22b Merge tag 'm68k-for-v6.10-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
+103916ffe24969a4c938ccfe89e956fe7d9339fd Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 1d8c270de5eb74245d72325d285894a577a945d9 s390/pkey: Wipe sensitive data on failure
 d65d76a44ffe74c73298ada25b0f578680576073 s390/pkey: Wipe copies of clear-key structures on failure
 f2ebdadd85af4f4d0cae1e5d009c70eccc78c207 s390/pkey: Wipe copies of protected- and secure-keys
@@ -881,8 +891,6 @@ f73a058be5d70dd81a43f16b2bbff4b1576a7af8 Merge remote-tracking branch 'drm/drm-f
 33c563ebf8d3deed7d8addd20d77398ac737ef9a netfilter: nft_payload: skbuff vlan metadata mangle support
 21a673bddc8fd4873c370caf9ae70ffc6d47e8d3 netfilter: tproxy: bail out if IP has been disabled on the device
 e8ded22ef0f4831279c363c264cd41cd9d59ca9e netfilter: nft_fib: allow from forward/input without iif selector
-d55510527153d17a3af8cc2df69c04f95ae1350d cxl/test: Add missing vmalloc.h for tools/testing/cxl/test/mem.c
-49ba7b515c4c0719b866d16f068e62d16a8a3dd1 cxl/region: Fix memregion leaks in devm_cxl_add_region()
 83208cbf2f08c270033003e10f3e7351de64a5c5 bcachefs: Don't return -EROFS from mount on inconsistency error
 e634134180885574d1fe7aa162777ba41e7fcd5b net/sched: taprio: make q->picos_per_byte available to fill_sched_entry()
 fb66df20a7201e60f2b13d7f95d031b31a8831d3 net/sched: taprio: extend minimum interval restriction to entire cycle too
@@ -928,13 +936,6 @@ db163660b02abbffebfad1bcd6dbce1201c72731 Merge tag 'v6.10-p3' of git://git.kerne
 ac0d71ee534e67c7e53439e8e9cb45ed40731660 ALSA: ump: Don't accept an invalid UMP protocol number
 bc42ca002d5d211f9c57334b9b4c25ddb0b4ec35 ALSA: ump: Set default protocol when not given explicitly
 95d7c452a26564ef0c427f2806761b857106d8c4 spi: stm32: Don't warn about spurious interrupts
-2032e61e24fe9fe55d6c7a34fb5506c911b3e280 kselftest/alsa: Ensure _GNU_SOURCE is defined
-f6c3c83db1d939ebdb8c8922748ae647d8126d91 selftests/ftrace: Fix to check required event file
-7ea794604bf6a3be8bb4b0f1483eb1d3972eac93 selftests/ftrace: Update required config
-23a4b108accc29a6125ed14de4a044689ffeda78 tracing/selftests: Fix kprobe event name test for .isra. functions
-bc4d5f5d2debf8bb65fba188313481549ead8576 selftests: cachestat: Fix build warnings on ppc64
-84b6df4c49a1cc2854a16937acd5fd3e6315d083 selftests/openat2: Fix build warnings on ppc64
-e8b8c5264d4ebd248f60a5cef077fe615806e7a0 selftests/overlayfs: Fix build error on ppc64
 7b038b564b3e2a752d2211e7b0c3c29fd2f6e197 bcachefs: Fix failure to return error on misaligned dio write
 ba46b3bda296c4f82b061ac40b90f49d2a00a380 drm/amdgpu: Adjust logic in amdgpu_device_partner_bandwidth()
 05d9e24ddb15160164ba6e917a88c00907dc2434 drm/amdgpu: silence UBSAN warning
@@ -984,7 +985,6 @@ a638b0461b58aa3205cd9d5f14d6f703d795b4af riscv: prevent pt_regs corruption for s
 982a7eb97be685d1129c06671aed4c26d6919af4 Documentation: RISC-V: uabi: Only scalar misaligned loads are supported
 1d84afaf02524d2558e8ca3ca169be2ef720380b riscv: Fix fully ordered LR/SC xchg[8|16]() implementations
 bb195358806847217efba98de62b7decec3b371f drm/msm: remove python 3.9 dependency for compiling msm
-cb708ab9f584f159798b60853edcf0c8b67ce295 selftests/futex: pass _GNU_SOURCE without a value to the compiler
 e1e287e6f9de7e43716438f4c131eeb4a0be65b7 Merge tag 'asoc-fix-v6.10-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 18414a4a2eabb0281d12d374c92874327e0e3fe3 io_uring/net: assign kmsg inq/flags before buffer selection
 b164316808ec5de391c3e7b0148ec937d32d280d null_blk: Do not allow runt zone with zone capacity smaller then zone size
@@ -1002,7 +1002,6 @@ d40605a6823577a6c40fad6fb1f10a40ea0389d7 sched/x86: Export 'percpu arch_freq_sca
 86aaa7e9d641c1ad1035ed2df88b8d0b48c86b30 ata: libata-core: Add ATA_HORKAGE_NOLPM for Crucial CT240BX500SSD1
 473880369304cfd4445720cdd8bae4c6f1e16e60 ata: libata-core: Add ATA_HORKAGE_NOLPM for AMD Radeon S3 SSD
 3cb648c4dd3e8dde800fb3659250ed11f2d9efa5 ata: libata-core: Add ATA_HORKAGE_NOLPM for Apacer AS340
-0f42bdf59b4e428485aa922bef871bfa6cc505e0 selftests/tracing: Fix event filter test to retry up to 10 times
 88da52ccd66e65f2e63a6c35c9dff55d448ef4dc landlock: Fix d_parent walk
 0055f53aac80fd938bf7cdfad7ad414ca6c0e198 selftests/landlock: Add layout1.refer_mount_root
 518549c120e671c4906f77d1802b97e9b23f673a cifs: fix creating sockets when using sfu mount options
@@ -1015,8 +1014,6 @@ c6cc9799b4c16b1bd42de35be563d4fa6ea43799 Merge tag 'riscv-for-linus-6.10-rc2' of
 87895a6402604f7a2b55a62e8afd7889b8ec72e4 Merge tag 'platform-drivers-x86-v6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 7d88cc8ecc4cf74ef5e4e4f6c9ae4f13d9b969c9 Merge tag 'sound-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 b050496579632f86ee1ef7e7501906db579f3457 Merge tag 'dma-mapping-6.10-2024-05-31' of git://git.infradead.org/users/hch/dma-mapping
-32c75ad4a79259609ee19f749832bc2d99bbdd13 selftests/futex: don't redefine .PHONY targets (all, clean)
-4bf15b1c657d22d1d70173e43264e4606dfe75ff selftests/futex: don't pass a const char* to asprintf(3)
 99a6087dfdc65303d26ab5fba2dacd8931b82b08 kunit/fortify: Remove __kmalloc_node() test
 6d541d6672eeaf526d67b67b5407f48fe0522c6d Merge tag 'io_uring-6.10-20240530' of git://git.kernel.dk/linux
 0f9a75179da33cc03594b882ed823cc5f4356d9a Merge tag 'block-6.10-20240530' of git://git.kernel.dk/linux
@@ -1040,15 +1037,18 @@ efa8f11a7ebeb8758dcd847a4b9a0cdcb68d9d87 Merge tag 'perf-urgent-2024-06-02' of g
 a693b9c95abd4947c2d06e05733de5d470ab6586 Merge tag 'x86-urgent-2024-06-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 58d89ee81a0b264db6249a374b1264a475aef4ca Merge tag 'ata-6.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c3f38fa61af77b49866b006939479069cd451173 Linux 6.10-rc2
-6c3ca6654a74dd396bc477839ba8d9792eced441 LoongArch: Remove CONFIG_ACPI_TABLE_UPGRADE in platform_init()
-b56f67a6c748bb009f313f91651c8020d2338d63 LoongArch: Fix built-in DTB detection
-3de9c42d02a79a5e09bbee7a4421ddc00cfd5c6d LoongArch: Add all CPUs enabled by fdt to NUMA node 0
-beb2800074c15362cf9f6c7301120910046d6556 LoongArch: Fix entry point in kernel image header
-1098efd299ffe9c8af818425338c7f6c4f930a98 LoongArch: Override higher address bits in JUMP_VIRT_ADDR
-eb36e520f4f1b690fd776f15cbac452f82ff7bfa LoongArch: Fix GMAC's phy-mode definitions in dts
-f06ce441457d4abc4d76be7acba26868a2d02b1c Merge tag 'loongarch-fixes-6.10-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-2ab79514109578fc4b6df90633d500cf281eb689 Merge tag 'cxl-fixes-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-32f88d65f01bf6f45476d7edbe675e44fb9e1d58 Merge tag 'linux_kselftest-fixes-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-172e422ffea20a89bfdc672741c1aad6fbb5044e fsnotify: clear PARENT_WATCHED flags lazily
+721f4a6526daafca15634f30c9865e880da3e1d1 mm/memblock: remove empty dummy entry
+3d3165193776ddacf59f101f0fa05cfab9f1a9ba memblock tests: add memblock_reserve_all_locations_check()
+f6df89c3582a337090ae1f37c3648bdb35da29f7 memblock tests: add memblock_reserve_many_may_conflict_check()
+3aca2cea907c647ee7720b7ba22734f9e8e7cfa3 mm/memblock: fix comment for memblock_isolate_range()
+1a879671bdfd14698a839f30de8e6d76e1e858fd memblock tests: add memblock_overlaps_region_checks
+1eb0a28d039a479bb4adec0320592caf5bd5175b mm/memblock: return true directly on finding overlap region
+b73f6b98bbd0b4c1fdcebc0c5b926349455035bf mm/memblock: use PAGE_ALIGN_DOWN to get pgend in free_memmap
+3be381d11f872de066774317031ba8edd2d8797e mm/mm_init.c: use memblock_region_memory_base_pfn() to get startpfn
+93bbbcb1e762a49fc18ee1272545b77371595f1e mm/memblock: fix a typo in description of for_each_mem_region()
+922306a253e20ad5d0c4b8479d2dc5df9f325a04 mm/mm_init.c: move nr_initialised reset down a bit
+e62a627e845de79104e7fb6661eb69162aa91a21 mm/mm_init.c: get the highest zone directly
+731b1168481978f56e81e1866758356387e4c23d mm/mm_init.c: use deferred_init_mem_pfn_range_in_zone() to decide loop condition
+8887ee905d0889d491e88b12f8134d31c8a21b11 mm/mm_init.c: not always search next deferred_init_pfn from very beginning
 
---===============1743449152585802379==--
+--===============1728745030545263987==--
