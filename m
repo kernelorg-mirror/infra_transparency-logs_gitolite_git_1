@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 06 Jun 2024 11:36:40 -0000
-Message-Id: <171767380014.1059.2830284506248049913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 06 Jun 2024 11:39:43 -0000
+Message-Id: <171767398332.3437.14659240709743729468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/main
-    old: b01e1c030770ff3b4fe37fc7cc6bca03f594133f
-    new: 0dcc53abf58d572d34c5313de85f607cd33fc691
+  - ref: refs/heads/wip/leon-for-rc
+    old: fa0aa4d75f6b909ec910fd1f1eab7cc7bb42227b
+    new: 620935196223111ed8fed70a62da44f4e9ffe1d5
     log: |
-         0dcc53abf58d572d34c5313de85f607cd33fc691 net: ethtool: fix the error condition in ethtool_get_phy_stats_ethtool()
+         620935196223111ed8fed70a62da44f4e9ffe1d5 RDMA/mana_ib: Ignore optional access flags for MRs
          
