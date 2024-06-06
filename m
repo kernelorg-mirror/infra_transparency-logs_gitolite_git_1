@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8307655254664017172=="
+Content-Type: multipart/mixed; boundary="===============6566457378441121465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 06 Jun 2024 19:20:37 -0000
-Message-Id: <171770163725.26889.5569803801431370509@gitolite.kernel.org>
+Date: Thu, 06 Jun 2024 19:20:42 -0000
+Message-Id: <171770164211.26993.6455532325283866422@gitolite.kernel.org>
 
---===============8307655254664017172==
+--===============6566457378441121465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 4b377b4868ef17b040065bd468668c707d2477a5
     new: 749332814479ad2e06d892109227d3d93032f65b
     log: revlist-4b377b4868ef-749332814479.txt
 
---===============8307655254664017172==
+--===============6566457378441121465==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ adbe695a9765fb704d2ac0d3e284f28bcc8b5bf3 tcp: move inet_reqsk_alloc() close to i
 6971d21672827a701c5ea180891b7ea6cf06f6a7 tcp: move reqsk_alloc() to inet_connection_sock.c
 749332814479ad2e06d892109227d3d93032f65b Merge branch 'tcp-small-code-reorg'
 
---===============8307655254664017172==--
+--===============6566457378441121465==--
