@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Thu, 06 Jun 2024 06:52:09 -0000
-Message-Id: <171765672985.19339.18141636740138721872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 06 Jun 2024 07:29:44 -0000
+Message-Id: <171765898463.13305.4336515704398079419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/stm32-next
-    old: 12ff8e1676419d357c19afc93d6327a136616673
-    new: 4732b1ffb466c1819ee6bc39da908ff2cd314294
+  - ref: refs/heads/for-6.11/core
+    old: 748fe4399f9194285a91ec8c09141e49a6b470b4
+    new: b81881b9c10e1f5eafc02df026663b824610d537
     log: |
-         4732b1ffb466c1819ee6bc39da908ff2cd314294 ARM: dts: stm32: Fix STM32MP13xx DHCOR DHSBC Makefile entry
+         b81881b9c10e1f5eafc02df026663b824610d537 HID: usbhid: Share USB device firmware node with child HID device
          
