@@ -1,55 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4993040777568507299=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 06 Jun 2024 00:20:40 -0000
-Message-Id: <171763324026.18975.17167165487691064138@gitolite.kernel.org>
-
---===============4993040777568507299==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 06 Jun 2024 00:37:20 -0000
+Message-Id: <171763424012.30999.1811032451017120208@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/fixes
-    old: 7926d51f73e0434a6250c2fd1a0555f98d9a62da
-    new: 4254dfeda82f20844299dca6c38cbffcfd499f41
+  - ref: refs/heads/seen
+    old: 54912f79ed5132e8cf62c754149f0a7c2c1b41f0
+    new: 396b356bb83a5fa9ad5c5224ee0996a45d165158
     log: |
-         4254dfeda82f20844299dca6c38cbffcfd499f41 scsi: mpt3sas: Avoid test/set_bit() operating in non-allocated memory
+         940806d341d0a98e0bcce6fd41a521bef1a51af8 format-patch: assume --cover-letter for diff in multi-patch series
+         5c71d6b63ac107a1c0f6e6a3f53f2b8371516292 attr.tree: HEAD:.gitattributes is no longer the default in a bare repo
+         a74c0686fa3b735ea9e90fc498527da31bd7ae75 add-i: finally retire add.interactive.useBuiltin
+         65d85ed2df62228f95f76d29c4b4b1af673620f6 SQUASH???
+         b2959ac7ef02c1bf69bdb4aaa4207fd6cc78122e Merge branch 'rj/format-patch-auto-cover-with-interdiff' into seen
+         107dfa77cd4a32c0ed84ae9b42f8cae81eff8095 Merge branch 'jc/no-default-attr-tree-in-bare' into seen
+         396b356bb83a5fa9ad5c5224ee0996a45d165158 Merge branch 'jc/add-i-retire-usebuiltin-config' into seen
          
-
---===============4993040777568507299==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1717633238 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1717633238-7d5e071739cfbe35debe928c34e2d7e6c54baad2
-
-7926d51f73e0434a6250c2fd1a0555f98d9a62da 4254dfeda82f20844299dca6c38cbffcfd499f41 refs/heads/fixes
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZhANYACgkQ7ulgGnXF
-3j37UA/9H7v+puEQU3tP1+m1ITetjwOROnvscRwhtg63C0I9/p4/ML29qh3zC8Xf
-MS/aAa5vfCZlsAQiyWfikjGysRXyOA7SL650zqlerufvF5MPhADQCczrJuZh1nOE
-eEM/QkaSvgIYk6Cq7YILmRoDGa3R4futm5+axRcj0NZLM+OCTNUPUUKLBGAG048Q
-ax5sGZAJa1eiyp8XE5b53CoLX2kfzztWSLREK3WoZhwiNIdsV/frS8RXc4/gonBC
-u4i2kJ37K5W4Q+nplmtWa3W//WuGP1ZLgPIQuXzHHETeNAsLjxrYAM2bJkpnitco
-nfM5drtuwS3eeouCe0uVUZVs7R2DbR2sCs+Cx+q3XHuI/zb4IEiQMc35OEjW5HFP
-8dNKUn0xXTbUiRZcWTU/S5kczvl1gSqGQvJ3pEmJHQww7+2z+hXwcDE91ujZ5yos
-TiIsLmDBnb3bLuvnn9L4opq4qlygPxSQT4lrCk2paGVFjUIcrvJxArWaT2akfbd2
-73U/yYCSzCV0T86cu2n9iAM1wTqSxg8m9E9BLWQUMP3HUoeaVt56rZf+IQIeYWzf
-ioQ22Mfon+laFGRqOYWP7CsukxkrRejwO4Hy3WbkPyTeduSKAJh4Wa48aIw2fjkL
-eH66gx8SvdZurNePDy3c04MQJ+/ZGs5u7mjJ9UBID7BCCXQGVr8=
-=Lx96
------END PGP SIGNATURE-----
-
---===============4993040777568507299==--
