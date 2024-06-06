@@ -1,34 +1,56 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 06 Jun 2024 09:50:58 -0000
-Message-Id: <171766745839.3618.7719296764601162300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Thu, 06 Jun 2024 09:51:09 -0000
+Message-Id: <171766746968.3775.6864974235566687400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/rdma-next
-    old: f50eab96d4989cd54d8e55ba10d2654a4e5168e0
-    new: 7fbef7b678341fe95526874dae97cdd549a65891
+  - ref: refs/heads/main
+    old: 494c510c34c46d8380f047721119ff4fa0a8c8de
+    new: 97c5f47c940cd699e3f92536d66e33bac4833e84
     log: |
-         a393d6451604b01535a54189ee24baed845377ac RDMA: Pass entire uverbs attr bundle to create cq function
-         7fbef7b678341fe95526874dae97cdd549a65891 RDMA/mlx5: Send UAR page index as ioctl attribute
+         97c5f47c940cd699e3f92536d66e33bac4833e84 Add opal test for detached header erase command.
          
-  - ref: refs/heads/rdma-rc
-    old: 25d04a6c7452f4ff363b591f6a53b8c1a04ee55e
-    new: e879e233291f487154eebab813ae720c4a0d04d9
+  - ref: refs/heads/master
+    old: 494c510c34c46d8380f047721119ff4fa0a8c8de
+    new: 97c5f47c940cd699e3f92536d66e33bac4833e84
     log: |
-         21da938dbd4d10458f4ee7c073eef9d2a3550974 RDMA/cache: Release GID table even if leak is detected
-         adf4aa56265cb3dbeb186b4940d9bc6ed3add7ef RDMA/mlx5: Remove extra unlock on error path
-         4fdf8fce62dcb0c02dde6911c98c3df82dc892ad RDMA/mlx5: Follow rb_key.ats when creating new mkeys
-         862e9df7538ff3641713b8f26970da8c94672a03 RDMA/mlx5: Ensure created mkeys always have a populated rb_key
-         d28a7f9d323a3d9bbb2eb3bda5860902f4921b8e RDMA/mlx5: Fix unwind flow as part of mlx5_ib_stage_init_init
-         fa0aa4d75f6b909ec910fd1f1eab7cc7bb42227b RDMA/mlx5: Add check for srq max_sge attribute
-         e72dd44790c45c3a5a353e0edfeb1dcd71a30674 PCI: Revert the cfg_access_lock lockdep mechanism
-         2535503710849b77034fdb2275c9bf0274fd9f30 PCI: Warn on missing cfg_access_lock during secondary bus reset
-         e879e233291f487154eebab813ae720c4a0d04d9 PCI: Add missing bridge lock to pci_bus_lock()
+         97c5f47c940cd699e3f92536d66e33bac4833e84 Add opal test for detached header erase command.
          
+  - ref: refs/merge-requests/420/merge
+    old: 29289c959c43ba5a2262d217a35e11edfb64025a
+    new: d058993660c0d7698d54eea8c5d999d5fca2bcaa
+    log: |
+         494c510c34c46d8380f047721119ff4fa0a8c8de Simplify LUKS2_wipe_header_areas.
+         d058993660c0d7698d54eea8c5d999d5fca2bcaa Merge branch 'xchacha20-random' into 'main'
+         
+  - ref: refs/merge-requests/647/head
+    old: bd8cfe1efbdf520109b855ac0d36088ca75a4114
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/647/merge
+    old: fb081fbdee30cd360a5b1acc9a53ae0715aa2187
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/651/head
+    old: 6859993ea7ac6d0140cd8b479a0495abfef65605
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/651/merge
+    old: ab5e488df1445ec86ce1f8b285740568997f472e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/652/head
+    old: c2c1d59ff28f4fe965dcfbd37174bea6ba3d868e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/652/merge
+    old: 12d2e79eb6e6bf71cb2a206cfe6ea07dbfafe2c8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/655/head
+    old: 0000000000000000000000000000000000000000
+    new: 97c5f47c940cd699e3f92536d66e33bac4833e84
+  - ref: refs/merge-requests/655/merge
+    old: 0000000000000000000000000000000000000000
+    new: a8281162784101aa871cde127be3dcf5afaf0cbf
