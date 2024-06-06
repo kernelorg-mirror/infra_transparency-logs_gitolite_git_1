@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 06 Jun 2024 21:16:50 -0000
-Message-Id: <171770861001.15383.12489480258338440025@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5399861860525227363=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 06 Jun 2024 21:19:40 -0000
+Message-Id: <171770878044.16397.15574948914244017137@gitolite.kernel.org>
+
+--===============5399861860525227363==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 08ac454e258e38813afb906650f19acce3afd982
-    new: f85af9d955ac9601174e1c64f4b3308c1cae4a7e
+  - ref: refs/heads/master
+    old: d47074144878a7e027e20c90d00159d2e35bd9d1
+    new: a6ee3cd5e0f957de9c501019fb801126dc32cb3b
     log: |
-         9abdfd8a212332c64f6d0a27fc2ad69e9e0335d1 selftests/bpf: Use connect_to_fd_opts in do_test in bpf_tcp_ca
-         fee97d0c9a14b5dd5cce0ec1df3a54a6b963f40c selftests/bpf: Add start_test helper in bpf_tcp_ca
-         224eeb5598c30ee835dc9fea4c7ad85a8fb7eda4 selftests/bpf: Use start_test in test_dctcp_fallback in bpf_tcp_ca
-         cd984b2ed62423eb3daceacb21d651115a612af6 selftests/bpf: Use start_test in test_dctcp in bpf_tcp_ca
-         f85af9d955ac9601174e1c64f4b3308c1cae4a7e selftests/bpf: Drop useless arguments of do_test in bpf_tcp_ca
+         a6ee3cd5e0f957de9c501019fb801126dc32cb3b ez: refactor b4 trailers -u
          
+
+--===============5399861860525227363==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1717708779 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1717708779-eb683860de010d24611f95b707cacd7534788335
+
+d47074144878a7e027e20c90d00159d2e35bd9d1 a6ee3cd5e0f957de9c501019fb801126dc32cb3b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZmIn6wAKCRC2xBzjVmSZ
+bL5YAP94XX6jKmp9E2Ee7GCIoFbv8M9pmIYN5KlJQ1sNfWWqeQD+LHlLPg/DjPMU
+giNKfShY6IXF9/LK9bY4FD4vTcmmIwU=
+=q3aV
+-----END PGP SIGNATURE-----
+
+--===============5399861860525227363==--
