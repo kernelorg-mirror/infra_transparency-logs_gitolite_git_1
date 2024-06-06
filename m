@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 06 Jun 2024 22:06:35 -0000
-Message-Id: <171771159588.19627.12900727407115238115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Thu, 06 Jun 2024 22:06:39 -0000
+Message-Id: <171771159931.19711.6993853429058307382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 68bd7137182ea43dd2be0e52e91b976896e82bf4
-    new: 6e59c72f0a7e32305acc5bf84f2aa9d9bc5707ec
+  - ref: refs/heads/fixes
+    old: d856f0250666b72e316227d998b666f000377d97
+    new: 1737a6b9858734b232935e4e9ea7992fe68da318
     log: |
-         6e59c72f0a7e32305acc5bf84f2aa9d9bc5707ec Thu Jun  6 06:05:49 PM EDT 2024
+         1737a6b9858734b232935e4e9ea7992fe68da318 modpost: do not warn about missing MODULE_DESCRIPTION() for vmlinux.o
          
