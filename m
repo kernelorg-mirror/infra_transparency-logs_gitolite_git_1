@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 06 Jun 2024 01:38:40 -0000
-Message-Id: <171763792081.18073.12361685737897296180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 06 Jun 2024 01:50:03 -0000
+Message-Id: <171763860331.26829.10442101163650487052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/tpm2key-v8
-    old: dab527369470dabbde2cdddfefe0d8606e72eb81
-    new: 6c5e7f2392d98389232931698d025327a25b0445
+  - ref: refs/heads/io_uring-msg-ring.1
+    old: f2733098c08aa7da8cea47ded87b22b450ecab7b
+    new: 7de82d2e1d5af1210e8f631b7d994957c602a8d4
     log: |
-         6c5e7f2392d98389232931698d025327a25b0445 keys: asymmetric: TPM2 ECDSA signing key
+         7de82d2e1d5af1210e8f631b7d994957c602a8d4 hack
          
