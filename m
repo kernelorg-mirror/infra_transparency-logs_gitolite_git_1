@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 06 Jun 2024 08:30:20 -0000
-Message-Id: <171766262068.26571.8724692041954906839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 06 Jun 2024 08:30:40 -0000
+Message-Id: <171766264034.26753.12320599160187840842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/WIP.x86/fpu
-    old: 0a70db8322e10d1869cb0d9fea5c8cc0c672f652
-    new: cf8111360109365e49a95f04aafec73abc8133d5
+  - ref: refs/heads/for-6.10/upstream-fixes
+    old: 9c8f05cf1d7abd1bfb53cebe691bf3acb7baee99
+    new: cfacaaf33cd761a51760f87fb071f2d1d4196bdd
     log: |
-         cf8111360109365e49a95f04aafec73abc8133d5 x86/fpu: Remove init_task FPU state dependencies, add debugging warning for PF_KTHREAD tasks
+         cfacaaf33cd761a51760f87fb071f2d1d4196bdd hid: asus: asus_report_fixup: fix potential read out of bounds
          
