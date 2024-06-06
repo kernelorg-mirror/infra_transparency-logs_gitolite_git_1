@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 06 Jun 2024 13:50:03 -0000
-Message-Id: <171768180348.6622.16473599550679607927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 06 Jun 2024 13:52:15 -0000
+Message-Id: <171768193548.7516.14974544087708394009@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/io_uring-msg-ring.1
-    old: 9c799821c57ae3670fef01abd6746b33685c07d6
-    new: c591b8fdcc2e684bc19f56f1755f25494b6c5cd8
+  - ref: refs/heads/master
+    old: 072088704433f75dacf9e33179dd7a81f0a238d4
+    new: 7015843afcaf68c132784c89528dfddc0005e483
     log: |
-         f550cdd1d01b65f4d7dc146a6085ac78d8584a3f hack
-         227a44ba7d263b13d5cb2c904658fd8a4e143f2e io_uring/msg_ring: embed ocqe in msg_data
-         c591b8fdcc2e684bc19f56f1755f25494b6c5cd8 io_uring/msg_ring: add an alloc cache for msg_data
+         7015843afcaf68c132784c89528dfddc0005e483 selftests/bpf: Fix send_signal test with nested CONFIG_PARAVIRT
          
