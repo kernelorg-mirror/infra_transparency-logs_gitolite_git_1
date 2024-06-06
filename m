@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5500962141426337304=="
+Content-Type: multipart/mixed; boundary="===============5272638555979480345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 06 Jun 2024 19:19:40 -0000
-Message-Id: <171770158007.24475.4078303646323457777@gitolite.kernel.org>
+Date: Thu, 06 Jun 2024 19:19:45 -0000
+Message-Id: <171770158521.24566.12264759940423635582@gitolite.kernel.org>
 
---===============5500962141426337304==
+--===============5272638555979480345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: c71e3a5cffd5309d7f84444df03d5b72600cc417
     new: d30d0e49da71de8df10bf3ff1b3de880653af562
     log: revlist-c71e3a5cffd5-d30d0e49da71.txt
 
---===============5500962141426337304==
+--===============5272638555979480345==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a34adf6010d723abc26c9f50ac2b326bf5ae0b9e Merge tag 'efi-fixes-for-v6.10-2' of gi
 2faf6332c506fc3bd23815f8fe8f6d0c35271c17 Merge tag 'tomoyo-pr-20240606' of git://git.code.sf.net/p/tomoyo/tomoyo
 d30d0e49da71de8df10bf3ff1b3de880653af562 Merge tag 'net-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============5500962141426337304==--
+--===============5272638555979480345==--
