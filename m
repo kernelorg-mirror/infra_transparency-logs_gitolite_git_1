@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6008678243746126189=="
+Content-Type: multipart/mixed; boundary="===============3074526465073317229=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 06 Jun 2024 01:36:48 -0000
-Message-Id: <171763780863.16141.13315862807254170068@gitolite.kernel.org>
+Date: Thu, 06 Jun 2024 01:37:12 -0000
+Message-Id: <171763783239.17328.2361195303688610751@gitolite.kernel.org>
 
---===============6008678243746126189==
+--===============3074526465073317229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/tpm2key-v8
-    old: f8059ba01bf486d6b8f7fbb52f443dfcf0b4de4a
-    new: dab527369470dabbde2cdddfefe0d8606e72eb81
-    log: revlist-f8059ba01bf4-dab527369470.txt
+  - ref: refs/heads/master
+    old: f071d02ecad4cfbf3ab41807c90bd1fef1cbfd3f
+    new: 2df0193e62cf887f373995fb8a91068562784adc
+    log: revlist-f071d02ecad4-2df0193e62cf.txt
 
---===============6008678243746126189==
+--===============3074526465073317229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8059ba01bf4-dab527369470.txt
+Content-Disposition: attachment; filename=revlist-f071d02ecad4-2df0193e62cf.txt
 
 e6722ea6b9ed731f7392277d76ca912dfffca7ee i2c: synquacer: Remove a clk reference from struct synquacer_i2c
 e61bcf42d290e73025bab38e0e55a5586c2d8ad5 i2c: Remove I2C_CLASS_SPD
@@ -99,11 +99,5 @@ e20b269d738b388e24f81fdf537cb4db7c693131 Merge tag 'bcachefs-2024-06-05' of http
 64c6a36d79a92f9ea22c470a52e4692db660d955 Merge tag 'pm-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 553352597d1c975ba7f734051f7946bffb3464c6 Merge tag 'acpi-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 2df0193e62cf887f373995fb8a91068562784adc Merge tag 'thermal-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-29ee3ffa326b09df2ffa6e718b2d741326c6f626 KEYS: trusted: Change -EINVAL to -E2BIG
-daf8a8a5530955c4fe933fa6c04b061d646b0ade crypto: rsa-pkcs1pad: export rsa1_asn_lookup()
-127a20b2e79784c701f5df6a09d9e4c9eabba0ab crypto: tpm2_key: Implement a robust parser
-e881ac401f3e2e17c3346d2fcb0a4ade003571bc keys: asymmetric: TPM2 RSAPKCS1 signing key
-577e3e1d4b434ecd8357400ae1797376b2bbebdc tpm: Export tpm_buf_read()
-dab527369470dabbde2cdddfefe0d8606e72eb81 keys: asymmetric: TPM2 ECDSA signing key
 
---===============6008678243746126189==--
+--===============3074526465073317229==--
