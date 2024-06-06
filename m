@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3074526465073317229=="
+Content-Type: multipart/mixed; boundary="===============6650733094158743333=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 06 Jun 2024 01:37:12 -0000
-Message-Id: <171763783239.17328.2361195303688610751@gitolite.kernel.org>
+Date: Thu, 06 Jun 2024 01:37:26 -0000
+Message-Id: <171763784687.17567.13600982856124490161@gitolite.kernel.org>
 
---===============3074526465073317229==
+--===============6650733094158743333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: f071d02ecad4cfbf3ab41807c90bd1fef1cbfd3f
     new: 2df0193e62cf887f373995fb8a91068562784adc
     log: revlist-f071d02ecad4-2df0193e62cf.txt
 
---===============3074526465073317229==
+--===============6650733094158743333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -100,4 +100,4 @@ e20b269d738b388e24f81fdf537cb4db7c693131 Merge tag 'bcachefs-2024-06-05' of http
 553352597d1c975ba7f734051f7946bffb3464c6 Merge tag 'acpi-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 2df0193e62cf887f373995fb8a91068562784adc Merge tag 'thermal-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============3074526465073317229==--
+--===============6650733094158743333==--
