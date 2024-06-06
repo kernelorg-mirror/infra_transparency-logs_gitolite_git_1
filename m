@@ -1,20 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 06 Jun 2024 02:50:03 -0000
-Message-Id: <171764220391.5490.1009287160356536530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Thu, 06 Jun 2024 03:20:21 -0000
+Message-Id: <171764402125.27580.8664577931859562744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/io_uring-msg-ring.1
-    old: 7de82d2e1d5af1210e8f631b7d994957c602a8d4
-    new: 9c799821c57ae3670fef01abd6746b33685c07d6
+  - ref: refs/heads/for-kernelci
+    old: 106d6739823369c734a8fc3b13634274eee4f60e
+    new: 04ca0a51f1e63bd553fd4af8e9af0fe094fa4f0a
     log: |
-         1d544e065f57c16cd8c25939f04023c3496c13ba embed ocqe in msg_data
-         9c799821c57ae3670fef01abd6746b33685c07d6 io_uring/msg_ring: add an alloc cache for msg_data
+         68dbac0a58ef7d82bc78dcb7e5ab5db2c6dfb489 platform/chrome: cros_ec_lpc: MEC access can return error code
+         60c7df66450e3a7821a8d68496c20c95de6a15c5 platform/chrome: cros_ec_lpc: MEC access can use an AML mutex
+         040159e0912c31fe959d8671f9700bda105ab63a platform/chrome: cros_ec_lpc: Add a new quirk for ACPI id
+         38c31b1d737ba4cab571dbf9090a1cabf164bea2 platform/chrome: cros_ec_lpc: Add a new quirk for AML mutex
+         04ca0a51f1e63bd553fd4af8e9af0fe094fa4f0a platform/chrome: cros_ec_lpc: Add quirks for Framework Laptop
+         
+  - ref: refs/heads/for-next
+    old: 106d6739823369c734a8fc3b13634274eee4f60e
+    new: 04ca0a51f1e63bd553fd4af8e9af0fe094fa4f0a
+    log: |
+         68dbac0a58ef7d82bc78dcb7e5ab5db2c6dfb489 platform/chrome: cros_ec_lpc: MEC access can return error code
+         60c7df66450e3a7821a8d68496c20c95de6a15c5 platform/chrome: cros_ec_lpc: MEC access can use an AML mutex
+         040159e0912c31fe959d8671f9700bda105ab63a platform/chrome: cros_ec_lpc: Add a new quirk for ACPI id
+         38c31b1d737ba4cab571dbf9090a1cabf164bea2 platform/chrome: cros_ec_lpc: Add a new quirk for AML mutex
+         04ca0a51f1e63bd553fd4af8e9af0fe094fa4f0a platform/chrome: cros_ec_lpc: Add quirks for Framework Laptop
          
