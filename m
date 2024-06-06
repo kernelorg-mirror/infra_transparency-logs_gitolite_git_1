@@ -1,33 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 06 Jun 2024 11:45:43 -0000
-Message-Id: <171767434348.9009.2140558800105541105@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7844149311224270367=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Thu, 06 Jun 2024 12:09:52 -0000
+Message-Id: <171767579279.25237.8404604985331264907@gitolite.kernel.org>
+
+--===============7844149311224270367==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/rdma-next
-    old: 7fbef7b678341fe95526874dae97cdd549a65891
-    new: 2ed5b0102c333dc3a591c2b79c6065c3ded2ddc2
-    log: |
-         9a22dde36b45ac473c3f17bc12b0c70f5b17d4ef RDMA/mlx5: Support per-plane port IB counters by querying PPCNT register
-         8c3f76e30da0ed2a7163ca6d6a91e12ad08b265b net/mlx5: Use sq timestamp as QP timestamp when RoCE is disabled
-         e9b7b4bd962854ea3025996c96475ec4fdef40d2 RDMA/mlx5: Set mkeys for dmabuf at PAGE_SIZE
-         2bcd91bb73e5c5903d3412d6217dd017b6450380 RDMA/mlx5: Add Qcounters req_transport_retries_exceeded/req_rnr_retries_exceeded
-         fbb0777c51553ab933d70fe1518ea3d6afa5d6a7 RDMA: Pass entire uverbs attr bundle to create cq function
-         2ed5b0102c333dc3a591c2b79c6065c3ded2ddc2 RDMA/mlx5: Send UAR page index as ioctl attribute
-         
-  - ref: refs/heads/rdma-rc
-    old: e879e233291f487154eebab813ae720c4a0d04d9
-    new: f0351dab95ec8fb66b6a4a96aee38c45a528bac0
-    log: |
-         620935196223111ed8fed70a62da44f4e9ffe1d5 RDMA/mana_ib: Ignore optional access flags for MRs
-         f1c809f58cbf903cd72b89dad26f8f8706caf217 PCI: Revert the cfg_access_lock lockdep mechanism
-         9cc17297775636255ac6f6dd8975ac5462fcd5b1 PCI: Warn on missing cfg_access_lock during secondary bus reset
-         f0351dab95ec8fb66b6a4a96aee38c45a528bac0 PCI: Add missing bridge lock to pci_bus_lock()
-         
+  - ref: refs/heads/wip
+    old: 4d4198370ae7241a54781c3a395cd0cdef03e5c6
+    new: e1ed0771068b78016d2fc8d207e44a9793f5a342
+    log: revlist-4d4198370ae7-e1ed0771068b.txt
+
+--===============7844149311224270367==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4d4198370ae7-e1ed0771068b.txt
+
+7e4a6758e1184f236a85d36ddb987893434aaba9 f2fs: fix to don't dirty inode for readonly filesystem
+4dc5df75dc394f1642adad10c059b786572463bd f2fs: use new ioprio Macro to get ckpt thread ioprio level
+18ed66863ac875ec543f1b69b110843f75d6ecf1 f2fs: fix return value of f2fs_convert_inline_inode()
+a1435d93bbfb4d2968ce5a6f0f9e14de3ff182df f2fs: fix to cover read extent cache access with lock
+5ef59fd284b00911cfe034d6342862946f445389 f2fs: fix to truncate preallocated blocks in f2fs_file_open()
+036c470c8e785b02a95b57e93e69e8f35591fa7d f2fs: use per-log target_bitmap to improve lookup performace of ssr allocation
+3448f3a1b8851a8d7964904f34d636d00903192e f2fs: introduce written_map to indicate written datas
+507ddb3bc594ce142a44ff65c3db93088bc68cbb f2fs: zone: don't block IO if there is remained open zone
+13860ecfbe19b6c48cd6bf67ebc562150d875f93 f2fs: get rid of buffer_head use
+0744f7ab251670266522168445e9dc883e257de8 f2fs: fix to add missing sb_{start, end}_intwrite() for ckpt thread
+261fde6fe74baedc1c3a7ce928ef796b04af6f00 f2fs: fix to use sb_{start, end}_intwrite{_trylock, }() in gc_thread_func()
+91fbec77ba13693f7ad52e03f408f59eef89e192 f2fs: fix to update user block counts in block_operations()
+e1ed0771068b78016d2fc8d207e44a9793f5a342 f2fs: remove redundant sanity check in sanity_check_inode()
+
+--===============7844149311224270367==--
