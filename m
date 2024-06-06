@@ -1,50 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============7045084655598683854=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 06 Jun 2024 15:50:56 -0000
-Message-Id: <171768905611.30581.4005897884659472125@gitolite.kernel.org>
-
---===============7045084655598683854==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 06 Jun 2024 15:51:14 -0000
+Message-Id: <171768907429.30768.15698999675543032890@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.11
-    old: 168ed1e8d0893cc4ad5963d5920dcfd24e0d7591
-    new: 62e4f339619701c4e16b47438ae7529532c28e23
+  - ref: refs/heads/for-next
+    old: 8c75503f292aaf7f1066b496b93e4caff9ffe57b
+    new: 4134ae4e8baec6ab67e9dba4cd5341d07c6d7918
     log: |
          62e4f339619701c4e16b47438ae7529532c28e23 dt-bindings: regulator: twl-regulator: convert to yaml
+         4134ae4e8baec6ab67e9dba4cd5341d07c6d7918 Merge remote-tracking branch 'regulator/for-6.11' into regulator-next
          
-
---===============7045084655598683854==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1717689054 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1717689053-12943701d6b736ad28e8892f8b205c0d4ba54f62
-
-168ed1e8d0893cc4ad5963d5920dcfd24e0d7591 62e4f339619701c4e16b47438ae7529532c28e23 refs/heads/regulator-6.11
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZh2t4ACgkQJNaLcl1U
-h9CJ5wf/c35BTClYiVa1viC1/o9C+m0/xQdvR/9Afu6X1BX2t6nxLf56/ztsVovs
-Yarxz+M7E8ZALWuEda0BvYSpBIrZCAIMJnu/xJdrj1ta1gNHH+ou3n1m1WxdH2m3
-QtRKOygSurklq16DhBw7bz7m47Cr+7zRvuZWZ0WuQUR01aHh12Y/HHudfTu50B3T
-R0IWbFmlSsBCM5XNqiLDtdyIMTY1BQNVWWsQuZATC9BNdnELR/OtrezXoXBsNEcq
-p+zILiIHfJ9H3lASyRTTSkGpVIo1dBhByDjrmeTat2yqi+Uosp0obEhfJIGLqnvj
-dnHaNcO4jgoI5xiQkal+L9xtGiclcw==
-=wB4w
------END PGP SIGNATURE-----
-
---===============7045084655598683854==--
