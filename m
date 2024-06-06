@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 06 Jun 2024 19:39:45 -0000
-Message-Id: <171770278525.8247.18247335732487415693@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Thu, 06 Jun 2024 19:53:44 -0000
+Message-Id: <171770362488.18025.2381066592460209280@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/nfsd-5.15.y
-    old: 5ebfde8045ccf1135af2d346564b8c3145ce4a47
-    new: 91d904f169aae51481b65b62c607f7980a0675c9
+  - ref: refs/heads/tmp.master
+    old: f62409e1190c2cb42321a4360377f002f1fe3d0d
+    new: 1b3bd7827d10668e33d84ff80f8e8a6e6cbef7b5
     log: |
-         91d904f169aae51481b65b62c607f7980a0675c9 sunrpc: exclude from freezer when waiting for requests:
+         1b3bd7827d10668e33d84ff80f8e8a6e6cbef7b5 Prep 1.27
          
