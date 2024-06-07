@@ -1,53 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6238257561921782196=="
+Content-Type: multipart/mixed; boundary="===============7362253384979596922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Fri, 07 Jun 2024 08:51:05 -0000
-Message-Id: <171775026593.7107.9020842704176275897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
+Date: Fri, 07 Jun 2024 08:56:51 -0000
+Message-Id: <171775061163.10783.3409373650726113106@gitolite.kernel.org>
 
---===============6238257561921782196==
+--===============7362253384979596922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/vireshk/linux
+user: vireshk
 changes:
-  - ref: refs/heads/test/rebuild
-    old: 0000000000000000000000000000000000000000
-    new: 21895d2e21f45f3756b5dbb7660b7a888dfc8802
+  - ref: refs/heads/rust/cpufreq-dt
+    old: 752ce52ee06e34673e16ec3f203be65936b522db
+    new: aca334cdc747f90b4a1051a3e570cbfa56f10a35
+    log: revlist-752ce52ee06e-aca334cdc747.txt
 
---===============6238257561921782196==
+--===============7362253384979596922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-752ce52ee06e-aca334cdc747.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1717750264 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1717750263-cfe5cf0231db6921ede396624a2bc9e075187bc7
+63449354e053b5d2f3e6a4a9502624312ce75ccc rust: of: Implement property and device_node
+35c0355081773d43c6daaff0e8a0fb1b2d86f705 rust: Add Device::from_cpu()
+ee7b6d18d2f0bc210596e61ce5ec07603fcb724c OPP: Add dev_pm_opp_get_opp_table_ref()
+aa3822088d3e987416a548b5e3256defa32a088f OPP: Make dev_pm_opp_get() public
+87ac59d743938963dfe230f7945c2c5222545941 cpufreq: Don't use BIT()
+15f2cb1d5fc5c73cac03be80bbba7aeb1007e007 cpufreq: Add cpufreq_table_len()
+04bcc842a646de43c8d543d99d8525da8fd63cb2 cpufreq: Rename platdev
+e1aa86f440042524720d4fa9042de0a32610c23b rust: Add bindings for cpumask
+85d87ea209e44997b829c78ed112992c106ac831 rust: Add bindings for clk framework
+e74e3a14e6da3f920cee90d32a023ba4805328a0 rust: Add initial bindings for OPP framework
+dc156230814a899e5e3ffb6f3a0e5471d92506de rust: Extend OPP bindings for the OPP table
+37bdd7ee7b74292830dd9977154b08ebcf08a138 rust: Extend OPP bindings for the configuration options
+8a53d1e0bf52f02027ff4be2296bf59088bbd163 rust: Add initial bindings for cpufreq framework
+d6c55a922d00e9b8c575141bef2a6a072215a9bc rust: Extend cpufreq bindings for policy and driver ops
+ec8ea3f68df07330203b58920f07fb166aecf232 rust: Extend cpufreq bindings for driver registration
+6e703e990bd1ce864927060c53025506568fd0b8 rust: Extend OPP bindings with CPU frequency table
+994d50cbf25a1301e4c0ffbc48eaabd8c90ab827 cpufreq: Add Rust based cpufreq-dt driver
+07e50507f9e70e5c608d579d0c12e97aede77787 defconfig: Run saveconfig
+ac79151dc4317110f36410698c8dbb48351c0a89 defconfig: Update Rust and initramfs
+aca334cdc747f90b4a1051a3e570cbfa56f10a35 debug
 
-0000000000000000000000000000000000000000 21895d2e21f45f3756b5dbb7660b7a888dfc8802 refs/heads/test/rebuild
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmZiyfgQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1+QrD/9GRl+GcocbeoOgBG37fhsKDJfZ8ijRUmA9
-K3ae/dewWWX2ANZbVx77Am0Cc/Afh0hLR/qAziCeFHyPBMSP0jkEYFGif1xZR/IG
-H8ZbxRAo5l7r49Qg80sv6jG7QsOGZuOkLwRxvf8aIEa99DCOFAWop+oL9pGYH/RT
-96OhmQ++rWaqYv0Ss28bAt6T5tBDk/PIgr/KJ8eBdPibPKqL6k18Ya6waqC3g+p1
-hSZkp/eG6E66eXTgV/EQ8QKnW3srIwIlFbLAPDMKx2xGqwVN6dGbYS9G6ZfhW1NK
-6uf5Eh3BOA48OAMVxHy8bGrcfpRbIlQaW4zO5WBKtdmGV+MddiB8Fc05iE+5gBRT
-sBEDsts4ajqO9wRZfIH13Iz14uVXUyOymb4ZEQ9W3uUDT4lhRIxC5cuh3pWNbjsT
-ZnsSCy1Gbn/fIeWKpkOWm7qqS6WPS2Hbtq79RmOQVXMXpSFcGDtEBlGgcRlDpo3n
-GITBmY66Gl3fkjpkL73HTXmLi6U79kP49PpsLJNtMuya3f4TLscbZXXMcazPcPQ0
-w8+BQM8sg2VWjId13btN18lZRbQsOuiVTD7WLID/tY2xql1ryCpma1mvo3SuxYN2
-NGOEsX9lAiYdOfZfxMsi+UJxc0sah5W1b+XB9ZB2pQuVcD7kw9v2nmeZkaUQePuG
-3OTCFejnOQ==
-=o1iz
------END PGP SIGNATURE-----
-
---===============6238257561921782196==--
+--===============7362253384979596922==--
