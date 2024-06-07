@@ -1,56 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============2150687469568920702=="
+Content-Type: multipart/mixed; boundary="===============7613905847455916070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Fri, 07 Jun 2024 08:56:54 -0000
-Message-Id: <171775061448.10857.12797953280403463459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Fri, 07 Jun 2024 09:03:38 -0000
+Message-Id: <171775101866.15017.10208022872190962386@gitolite.kernel.org>
 
---===============2150687469568920702==
+--===============7613905847455916070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/test/rebuild
-    old: 21895d2e21f45f3756b5dbb7660b7a888dfc8802
-    new: 3f174e8d29b9ba98416b77a2a06f211fd41de267
+  - ref: refs/heads/slab/for-6.11/cleanups
+    old: 4d2bcefa965b06a1f2be6912456bcfa86a34f184
+    new: f10d55c754722dfea7e551c1716df157689add62
     log: |
-         3f174e8d29b9ba98416b77a2a06f211fd41de267 w1: Drop allocation error message
+         47d911b02cbe61494bb066ad84cc66d25091d506 slab: make check_object() more consistent
+         adef2aeaa2b936c97865d56c59be2cb7266acbb7 slab: don't put freepointer outside of object if only orig_size
+         f10d55c754722dfea7e551c1716df157689add62 slab: delete useless RED_INACTIVE and RED_ACTIVE
          
 
---===============2150687469568920702==
+--===============7613905847455916070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1717750612 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1717750612-e9b5a8981370bdcb1b8f1e8b8876dd70fbd1ced6
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1717751013 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1717751013-5040384803d36e836e5dc9b036cf63fef6e6d46d
 
-21895d2e21f45f3756b5dbb7660b7a888dfc8802 3f174e8d29b9ba98416b77a2a06f211fd41de267 refs/heads/test/rebuild
+4d2bcefa965b06a1f2be6912456bcfa86a34f184 f10d55c754722dfea7e551c1716df157689add62 refs/heads/slab/for-6.11/cleanups
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmZiy1QQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11JfD/42UTtnjXoDpyjUn8qDFSxPobmMdCC3TX05
-BiAFPK75PrnKWhzKigwEC5Kxc+wg631sTCk5PtW15x2l5vBzdbdfRXAVmlYO0YuE
-kKFWDlLcF4WQ8KC+P+iisZNoVHsOW4xRhwlHpAbeP+hm/P95S8LeY9eVkozozUkt
-8Boyy+D0UyUTM7xgCDb6xKd50aStb4N8e0nirINOfAGW8B+n+LTBENWkb3cwtxhO
-F6X4mW4z3nZV10eh0kBi1bzuPgEq+b4uZ8/FcMaK/8U3ZkPMc14DWRzNbaP1wTKt
-z4nIKR98DrBsoCz3s4a/8PQNEkh0iXHFAQ4yQaTk1d8ruTMrMsOxveRIpHyIOzcX
-1NyO9v/oRrLonqzCfIHEXqWaTxirp8Pw5l7CG29dVrWJLeiPi5p8p99m/pRVBq7S
-H+tY7vt50cduuCsBViLnARXJFhvchA03KC7Ol+V001ZsZrpKQSRmT38XugZg4Cdr
-6q+o9nPA06TbjI0xloXg5GQuenzmTETsxb9wZze9tbLBTQ/Ifu0o4z0I+osKEvtp
-p1JcJf2h6hGpWGJDipyi9ZgOJcOHAnrihND5/Ai8Q7PpGhpIrfKybDBuwIdC38eR
-2XfXw4kwFFU+T/CfeuB8W28Lu3XJswEdtT3JWQQBvWPofqoBVEgCO/oUd9iYAR5V
-o8l3XIgVrQ==
-=dwhq
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmZizOUACgkQu+CwddJF
+iJotOQf9FIrq0KthXtmo7fjvJa1YuhvuyNmwhgb57QPnHuc6BAOVXkg4SvP9KMme
+Cr9Ll2ajsJt7nvXR1X8ytrhX3ROP/EFxrAaUvjOpQ6FKsJhpDgtS90Rr9B27Qgxg
+dJuER3llM/+ZrJpcq6p/0oUU0FPvNMvYIdXoo7Il0G3VhNgFyreFwqgrGLRyd53h
+eQgvnTQc4ue7L8PFgnVhkXpKIZWpFMsf/PZRkzrx5BTT2C7LHfED7faIpUOC+0Zg
+6VMRaaXsap5dA0+EIKenPu767WY1KZQf+Cqeh3Qk/h815D4fmJy8NDUM2lYQzsKn
+22vMRA/BkhpSDcEdrZb50BLcsovUZQ==
+=cKWw
 -----END PGP SIGNATURE-----
 
---===============2150687469568920702==--
+--===============7613905847455916070==--
