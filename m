@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 07 Jun 2024 20:12:45 -0000
-Message-Id: <171779116557.7871.17545324355525866498@gitolite.kernel.org>
+Date: Fri, 07 Jun 2024 20:15:17 -0000
+Message-Id: <171779131792.10542.7325328556854848869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: fec3801468ef6cc6fcba05f10efb7dc1ede8ac91
-    new: 280394668eadbf573f6a9979740eb56671c8522c
+    old: 280394668eadbf573f6a9979740eb56671c8522c
+    new: 5de2749bf46732fbffc3799c16717042cbcdcda7
     log: |
-         280394668eadbf573f6a9979740eb56671c8522c patches/next: more work on commit cleanup
+         5de2749bf46732fbffc3799c16717042cbcdcda7 scripts/backup_patches: Push the branches, too
          
