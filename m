@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 07 Jun 2024 13:21:32 -0000
-Message-Id: <171776649250.24431.18195388521204896198@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 07 Jun 2024 13:22:32 -0000
+Message-Id: <171776655293.24880.13308896645505634853@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: cb6cf0820f22ca36dc8f95cf1bd196e5ec24e69d
-    new: a999973236543f0b8f6daeaa7ecba7488c3a593b
+    old: dbfb8864650ec0b69e0a1b9b667bf79c25ca33ca
+    new: c44711b78608c98a3e6b49ce91678cd0917d5349
     log: |
-         a999973236543f0b8f6daeaa7ecba7488c3a593b net: ti: icssg-prueth: Add multicast filtering support
+         c44711b78608c98a3e6b49ce91678cd0917d5349 liquidio: Adjust a NULL pointer handling path in lio_vf_rep_copy_packet
          
