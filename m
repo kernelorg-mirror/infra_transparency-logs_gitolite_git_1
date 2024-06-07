@@ -1,26 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 07 Jun 2024 19:29:02 -0000
-Message-Id: <171778854294.5937.4828002144923423948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Fri, 07 Jun 2024 19:38:39 -0000
+Message-Id: <171778911977.14141.8019208126491054521@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: fe8679da4755219beb0b4be2763b1d2a5314a423
-    new: fd9fbb776ff6329fa87359a01d98f7d7949e7599
+  - ref: refs/heads/master
+    old: 18547925519acaa57c1877871c144e2646249d59
+    new: f4c7fa7c058b9893b7a949cdb2f2aa504903f497
     log: |
-         7e1c3f584ee78b0d0210fc424420d9529f3ca952 cpufreq: intel_pstate: Support Emerald Rapids OOB mode
-         68f2d1dc4826e7bafbfbf7acc745913623a48955 thermal: int3403: remove unused struct 'int3403_performance_state'
-         cb6b14f909eb2002c4a46e582153e513745f69be Merge branch 'pm-cpufreq' into bleeding-edge
-         68de0ae4d6b5ea675b835e4a6b00f52a26cd7f0c thermal: intel: intel_pch: Improve cooling log
-         08c3ee6cc74c4a84d6fcfc4849344f03cfa517c1 Merge branch 'thermal-intel' into bleeding-edge
-         c9d197ec16013cb2a3d4efa9b459dcc1be795551 pm-graph: v5.12, fixes
-         8b2f0cb63e6f5370b2c100f5e0f0288339344827 pm-graph: v5.12, code revamp for python3.12
-         fd9fbb776ff6329fa87359a01d98f7d7949e7599 Merge branch 'pm-tools' into bleeding-edge
+         06b449d7f7c361dc15ea040966a46ed2c6508f3b Input: serio - use sizeof(*pointer) instead of sizeof(type)
+         5bbcece640ef7570ca090a5b35af035fe4ecc7b1 Input: gameport - use sizeof(*pointer) instead of sizeof(type)
+         6560cfcfb46511d47893d6e3994ce1d3c58ddf7f Input: adc-joystick - handle inverted axes
+         f4c7fa7c058b9893b7a949cdb2f2aa504903f497 Input: cap11xx - stop using chip ID when configuring it
+         
+  - ref: refs/heads/next
+    old: 18547925519acaa57c1877871c144e2646249d59
+    new: f4c7fa7c058b9893b7a949cdb2f2aa504903f497
+    log: |
+         06b449d7f7c361dc15ea040966a46ed2c6508f3b Input: serio - use sizeof(*pointer) instead of sizeof(type)
+         5bbcece640ef7570ca090a5b35af035fe4ecc7b1 Input: gameport - use sizeof(*pointer) instead of sizeof(type)
+         6560cfcfb46511d47893d6e3994ce1d3c58ddf7f Input: adc-joystick - handle inverted axes
+         f4c7fa7c058b9893b7a949cdb2f2aa504903f497 Input: cap11xx - stop using chip ID when configuring it
          
