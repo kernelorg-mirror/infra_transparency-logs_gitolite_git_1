@@ -1,50 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7362253384979596922=="
+Content-Type: multipart/mixed; boundary="===============2150687469568920702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Fri, 07 Jun 2024 08:56:51 -0000
-Message-Id: <171775061163.10783.3409373650726113106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Fri, 07 Jun 2024 08:56:54 -0000
+Message-Id: <171775061448.10857.12797953280403463459@gitolite.kernel.org>
 
---===============7362253384979596922==
+--===============2150687469568920702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/rust/cpufreq-dt
-    old: 752ce52ee06e34673e16ec3f203be65936b522db
-    new: aca334cdc747f90b4a1051a3e570cbfa56f10a35
-    log: revlist-752ce52ee06e-aca334cdc747.txt
+  - ref: refs/heads/test/rebuild
+    old: 21895d2e21f45f3756b5dbb7660b7a888dfc8802
+    new: 3f174e8d29b9ba98416b77a2a06f211fd41de267
+    log: |
+         3f174e8d29b9ba98416b77a2a06f211fd41de267 w1: Drop allocation error message
+         
 
---===============7362253384979596922==
+--===============2150687469568920702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-752ce52ee06e-aca334cdc747.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-63449354e053b5d2f3e6a4a9502624312ce75ccc rust: of: Implement property and device_node
-35c0355081773d43c6daaff0e8a0fb1b2d86f705 rust: Add Device::from_cpu()
-ee7b6d18d2f0bc210596e61ce5ec07603fcb724c OPP: Add dev_pm_opp_get_opp_table_ref()
-aa3822088d3e987416a548b5e3256defa32a088f OPP: Make dev_pm_opp_get() public
-87ac59d743938963dfe230f7945c2c5222545941 cpufreq: Don't use BIT()
-15f2cb1d5fc5c73cac03be80bbba7aeb1007e007 cpufreq: Add cpufreq_table_len()
-04bcc842a646de43c8d543d99d8525da8fd63cb2 cpufreq: Rename platdev
-e1aa86f440042524720d4fa9042de0a32610c23b rust: Add bindings for cpumask
-85d87ea209e44997b829c78ed112992c106ac831 rust: Add bindings for clk framework
-e74e3a14e6da3f920cee90d32a023ba4805328a0 rust: Add initial bindings for OPP framework
-dc156230814a899e5e3ffb6f3a0e5471d92506de rust: Extend OPP bindings for the OPP table
-37bdd7ee7b74292830dd9977154b08ebcf08a138 rust: Extend OPP bindings for the configuration options
-8a53d1e0bf52f02027ff4be2296bf59088bbd163 rust: Add initial bindings for cpufreq framework
-d6c55a922d00e9b8c575141bef2a6a072215a9bc rust: Extend cpufreq bindings for policy and driver ops
-ec8ea3f68df07330203b58920f07fb166aecf232 rust: Extend cpufreq bindings for driver registration
-6e703e990bd1ce864927060c53025506568fd0b8 rust: Extend OPP bindings with CPU frequency table
-994d50cbf25a1301e4c0ffbc48eaabd8c90ab827 cpufreq: Add Rust based cpufreq-dt driver
-07e50507f9e70e5c608d579d0c12e97aede77787 defconfig: Run saveconfig
-ac79151dc4317110f36410698c8dbb48351c0a89 defconfig: Update Rust and initramfs
-aca334cdc747f90b4a1051a3e570cbfa56f10a35 debug
+certificate version 0.1
+pusher krzk@kernel.org 1717750612 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1717750612-e9b5a8981370bdcb1b8f1e8b8876dd70fbd1ced6
 
---===============7362253384979596922==--
+21895d2e21f45f3756b5dbb7660b7a888dfc8802 3f174e8d29b9ba98416b77a2a06f211fd41de267 refs/heads/test/rebuild
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmZiy1QQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD11JfD/42UTtnjXoDpyjUn8qDFSxPobmMdCC3TX05
+BiAFPK75PrnKWhzKigwEC5Kxc+wg631sTCk5PtW15x2l5vBzdbdfRXAVmlYO0YuE
+kKFWDlLcF4WQ8KC+P+iisZNoVHsOW4xRhwlHpAbeP+hm/P95S8LeY9eVkozozUkt
+8Boyy+D0UyUTM7xgCDb6xKd50aStb4N8e0nirINOfAGW8B+n+LTBENWkb3cwtxhO
+F6X4mW4z3nZV10eh0kBi1bzuPgEq+b4uZ8/FcMaK/8U3ZkPMc14DWRzNbaP1wTKt
+z4nIKR98DrBsoCz3s4a/8PQNEkh0iXHFAQ4yQaTk1d8ruTMrMsOxveRIpHyIOzcX
+1NyO9v/oRrLonqzCfIHEXqWaTxirp8Pw5l7CG29dVrWJLeiPi5p8p99m/pRVBq7S
+H+tY7vt50cduuCsBViLnARXJFhvchA03KC7Ol+V001ZsZrpKQSRmT38XugZg4Cdr
+6q+o9nPA06TbjI0xloXg5GQuenzmTETsxb9wZze9tbLBTQ/Ifu0o4z0I+osKEvtp
+p1JcJf2h6hGpWGJDipyi9ZgOJcOHAnrihND5/Ai8Q7PpGhpIrfKybDBuwIdC38eR
+2XfXw4kwFFU+T/CfeuB8W28Lu3XJswEdtT3JWQQBvWPofqoBVEgCO/oUd9iYAR5V
+o8l3XIgVrQ==
+=dwhq
+-----END PGP SIGNATURE-----
+
+--===============2150687469568920702==--
