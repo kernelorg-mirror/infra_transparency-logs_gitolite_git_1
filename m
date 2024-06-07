@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0957035551539485379=="
+Content-Type: multipart/mixed; boundary="===============0411397411565933541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Fri, 07 Jun 2024 02:32:47 -0000
-Message-Id: <171772756738.22916.19561624579569133@gitolite.kernel.org>
+Date: Fri, 07 Jun 2024 02:32:49 -0000
+Message-Id: <171772756918.22979.10201407821667958871@gitolite.kernel.org>
 
---===============0957035551539485379==
+--===============0411397411565933541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.11
-    old: ca4afdfdbbbd64cc08eee834bee97596bb649413
-    new: 38b68e62c0d662d8a23aa47799b4ac83c54a8de8
-    log: revlist-ca4afdfdbbbd-38b68e62c0d6.txt
+  - ref: refs/heads/for-next
+    old: b96259e4c6ba9826d94a4eb98b9905a2bc477a0d
+    new: 42ef25024ffb1c61fd7569689544f68a7b4cf311
+    log: revlist-b96259e4c6ba-42ef25024ffb.txt
 
---===============0957035551539485379==
+--===============0411397411565933541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca4afdfdbbbd-38b68e62c0d6.txt
+Content-Disposition: attachment; filename=revlist-b96259e4c6ba-42ef25024ffb.txt
 
-3df1627d8370a9c420b49743976b3eeba32afbbc arm64: dts: qcom: sc8180x: Fix LLCC reg property again
-50b0516030fd549c9fd4498c9ac1f3a665521b2e arm64: dts: qcom: x1e80100-*: Allocate some CMA buffers
-8a1fd54d007279207c1dfe090084749706fb413b arm64: dts: qcom: sc8280xp: Set status = "reserved" on PSHOLD
-41fca5930afb36453cc90d4002841edd9990d0ad arm64: dts: qcom: sa8775p: Correct IRQ number of EL2 non-secure physical timer
-8e99e770f7eab8f8127098df7824373c4b4e8b5c arm64: dts: qcom: x1e80100: Fix PCIe 6a reg offsets and add MHI
 0354ab18ef5ef11f3139c7252f573c5d4af87c60 arm64: dts: qcom: pm660: Add rradc, charger
 bc90f56a169987975072efa56c3b595eda19668a arm64: dts: sm8650-hdk: add support for the Display Card overlay
 80edfc18de69508e37b6668d668194a3e9556f5e Merge branch 'arm64-fixes-for-6.10' into arm64-for-6.11
@@ -44,5 +39,6 @@ fa2c8cad202195bfa87b18dc44ff4981d45085b4 arm64: dts: qcom: sm6375-pdx225: correc
 13f1e1245bb51633d6d1a398fedab7c281beafc3 arm64: dts: qcom: sc7180: quackingstick: Disable instead of delete usb_c1
 5abfd513988248b5d27f3a72d71a33129dfb1054 arm64: dts: qcom: sc7180: pazquel: Add missing comment header
 38b68e62c0d662d8a23aa47799b4ac83c54a8de8 arm64: dts: qcom: sc7180-trogdor: Make clamshell/detachable fragments
+42ef25024ffb1c61fd7569689544f68a7b4cf311 Merge branches 'arm32-for-6.11', 'arm64-defconfig-for-6.11', 'arm64-for-6.11', 'clk-fixes-for-6.10', 'clk-for-6.11' and 'drivers-for-6.11' into for-next
 
---===============0957035551539485379==--
+--===============0411397411565933541==--
