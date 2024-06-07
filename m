@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 07 Jun 2024 22:39:53 -0000
-Message-Id: <171779999397.21947.9259478434966043873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 07 Jun 2024 22:41:50 -0000
+Message-Id: <171780011088.24377.5407738823173935947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 5dd74ab3cc7ba26e69abe01e0cc649fd63874774
-    new: 8e3351db693fdfdd9d35b5118ab6ad4fba9b5e3c
+  - ref: refs/heads/hwmon-next
+    old: 7a3a6d9f33446bf5fa6d23cade7ee6ce53000c44
+    new: b51114a3570081b85aecb89a207b57bf346e868d
     log: |
-         8e3351db693fdfdd9d35b5118ab6ad4fba9b5e3c Fri Jun  7 06:38:57 PM EDT 2024
+         b51114a3570081b85aecb89a207b57bf346e868d hwmon: add missing MODULE_DESCRIPTION() macros
          
