@@ -1,78 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============5323689883373046914=="
+Content-Type: multipart/mixed; boundary="===============0082581124997236631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 07 Jun 2024 19:07:16 -0000
-Message-Id: <171778723653.22707.10611357625501424262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 07 Jun 2024 19:08:07 -0000
+Message-Id: <171778728796.23197.13799282281880662531@gitolite.kernel.org>
 
---===============5323689883373046914==
+--===============0082581124997236631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 7c55b78818cfb732680c4a72ab270cc2d2ee3d0f
-    new: 8f40af31971ce012c0a4b13444900aed3f708edf
-    log: revlist-7c55b78818cf-8f40af31971c.txt
+  - ref: refs/heads/driver-core-testing
+    old: 1968845d358e108cfbfba45538d64b3cbdf04ac2
+    new: bd7246a19ed85451befc3c8fc6038a7d955e7d5f
+    log: revlist-1968845d358e-bd7246a19ed8.txt
 
---===============5323689883373046914==
+--===============0082581124997236631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717787231 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1717787232-a96c5f3cdf94d671d7df502b07d44ac3527550ea
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717787280 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1717787281-a537d6f2bf6ee54457864e4adbe8e84d844f07d1
 
-7c55b78818cfb732680c4a72ab270cc2d2ee3d0f 8f40af31971ce012c0a4b13444900aed3f708edf refs/heads/char-misc-linus
+1968845d358e108cfbfba45538d64b3cbdf04ac2 bd7246a19ed85451befc3c8fc6038a7d955e7d5f refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZjWl8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GtoP/3LOvVofHON10aie+wXC
-FB6XeHxaPhsasW0U83J2rT60J7O1fZGE5dzgLMjcoqr8HZr7kT3coqgN8R+gXfPw
-0YGngnPEqo4QGpcH9S4KOEvd7ohRq9XoJvlekXg7GuCG4dEYkyjfMou0oogCv+Hx
-NvhJjWpi9OfezgMYGH0fB2PWK1+X0ILrTWNImmYvK8eGP7//DSqgOSCk3OUxE0F6
-PMUpFZxj9cQ9Tx9zfU2ksX8BbwnIq5QqBWZDbJ9CZMVrbhSoXHJZYO7cqllHJlyN
-yrY17OXAW2iktFW/qkKTLQFBgLaP/2WPOHVGbQsY68wg8DSadH/q9HdcxgRFUE/+
-dUC6I1ierUKBVavR4xEJjlrH9W/rG9XrSITggkgexubr+/cjIEuBkUaKtTf6XmlC
-qvMy5HZD3GPxyCPOSAAK/am0z0kUOtQtnzEG2Wi5S8vekDNM1uxsgE17wYZu6d3V
-aBoso1zNsluZ7YLAk0gYLbaLfnoOgQLdhmCToHaY4lxUrkdSdiE8OdFHT0J27T9A
-6s3HJKebVMKcd/rAQg2M3gAn0thS4LQ6F4qzEbFVZplVYJFw6oNvIidISPjHjxMD
-hON6Kd1pPur8HJwTXpRPaGesV5lb2Lbk65tTv5VGyGbuF6y2zLZmJfx1fQkQfvbB
-7rN9Gg7f++C0cnJzJE1SblWu
-=YXo1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZjWpAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/pUP/jMEU9TqOV9MfkFOqe3I
+JHP+j+VouhGMWegm87Wpdn6bnP7kOnJ/scZVsBbiCWgek90U/GbkZRhSZJl3njiG
+T5RlYp4wABS2B04+ULSR+67J6ddEGLZirx6Dm+ls2vDFXblAZXhed1nxVXw0YdZf
+LOn99oSIZzSWGfvWqcGYqfLyNI2ClDTW1FPjYg5/iXfQoxW7DQ/APoXn0XqrgoBi
+Ri92SBDYrp6hXxjvl7LddCv7lR64Oadrf1j4Sa+jaT8IV4Z8lBDuAe/lcXKSdh+l
+7Sw9/4af7EH5RVWA34jDqwNpWfvIzJW4QUZQlbaXSR7D+ehKuGPt6sEkJLjR+hEN
+ZeFsZCJOGCQ5XHHx9M481Dydr0to4eZZeW3Dw2xNajI62CSibip1RS9xbrtZbIwB
+u438RVW5Qu8esb7r3w/atWcKIO09QkaiOBHyIKTJsg3lGoolDPCNYbdTwGzbxpeX
+f5HlRGJdTDpt+G8s1pAErDEQIhEGXvnSFvsq6YwWOJxzUAjLI6IjN8b1WjaEMTVJ
+ktakmB4ssj/ntgoneq4o03aki9nHL7tGYoz7qmEA9JsGPRUMfJqSrl8MSVJUmILD
+y96FH5b+/Gw2G4IWoM7Jmv75wUtKKekKGk3XOE1i1DYcP//X9VMuwkve9/cN7Ege
+t5Q3LiRPpbGHYIkghZ5vUCxP
+=69uD
 -----END PGP SIGNATURE-----
 
---===============5323689883373046914==
+--===============0082581124997236631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c55b78818cf-8f40af31971c.txt
+Content-Disposition: attachment; filename=revlist-1968845d358e-bd7246a19ed8.txt
 
-8a01ef749b0a632f0e1f4ead0f08b3310d99fcb1 iio: adc: ad9467: fix scan type sign
-72d0a20fabcf231c9b4b17b0cabdcde0949d05eb dt-bindings: iio: dac: fix ad354xr output range
-0f0f6306617cb4b6231fc9d4ec68ab9a56dba7c0 iio: pressure: bmp280: Fix BMP580 temperature reading
-279428df888319bf68f2686934897301a250bb84 iio: dac: ad5592r: fix temperature channel scaling value
-bedb2ccb566de5ca0c336ca3fd3588cea6d50414 iio: imu: bmi323: Fix trigger notification in case of error
-a23c14b062d8800a2192077d83273bbfe6c7552d iio: temperature: mlx90635: Fix ERR_PTR dereference in mlx90635_probe()
-ab6f0ab178137170a6b40f8f3d7a3806708a202c iio: adc: ad7173: fix buffers enablement for ad7176-2
-3450ee7e800a8dc83290780c1b6ef66898e709d3 iio: adc: ad7173: Add ad7173_device_info names
-f00dd8953094091a8e9c8cc00661d01c33b93615 iio: adc: ad7173: Remove index from temp channel
-95444b9eeb8c5c0330563931d70c61ca3b101548 iio: invensense: fix odr switching to same value
-d7bd473632d07f8a54655c270c0940cc3671c548 iio: imu: inv_icm42600: stabilized timestamp in interrupt
-245f3b149e6cc3ac6ee612cdb7042263bfc9e73c iio: imu: inv_icm42600: delete unneeded update watermark call
-18befe4a28403f599115c5ae753cc7f5157af8b7 iio: adc: ad7173: Clear append status bit
-182bc496dc63ca03986e3c393166477f4a4c2742 iio: adc: ad7173: Fix sampling frequency setting
-8844ed0a6e063acf7173b231021b2d301e31ded9 iio: imu: inv_mpu6050: stabilized timestamping in interrupt
-78f0dfa64cbd05f381849377a32e0a2f1afe9215 iio: inkern: fix channel read regression
-8f40af31971ce012c0a4b13444900aed3f708edf Merge tag 'iio-fixes-for-6.10a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
+b99e9c096148fb8b0915da7506240aade4e863bc reset: meson-audio-arb: Convert to platform remove callback returning void
+7f5aa02ad0c80fc841968cf9bbff36d845266683 reset: rzg2l-usbphy-ctrl: Convert to platform remove callback returning void
+6d89df61650d155b9033d9f507f3580f9177e623 reset: ti-sci: Convert to platform remove callback returning void
+eef3811433a53b7db2ea7d2be809e23a70ff42bc Merge branch 'reset/next' of git://git.pengutronix.de/pza/linux
+41929cce09f991992f16608fb5adfd3c2f809adb fsi: master-aspeed: Convert to platform remove callback returning void
+d1c9c5a03b6507e8dc8fe9656d5ab4b9582c3d1c fsi: master-ast-cf: Convert to platform remove callback returning void
+826788bbad497a65687ac32bb8468c4e25b7f702 fsi: master-gpio: Convert to platform remove callback returning void
+29f102dbb11fe1b2f4ea68e3a5721255f37f8bc6 fsi: occ: Convert to platform remove callback returning void
+49fc3ffe9f7c239319f009ce3f5dd0cc5bfc64fa pps: clients: gpio: Convert to platform remove callback returning void
+1cb394e644a000aa6dbe92d1278c712ddc5bbcf0 gpu: host1x: mipi: Benefit from devm_clk_get_prepared()
+bf9ca9f36975efc8306622d29e521cb5459bd168 drm/imagination: Convert to platform remove callback returning void
+573a39d05053cb234a9ac3c7b0b359fb3258bd76 drm/mediatek: Convert to platform remove callback returning void
+17e1b2db37df9b06f586b960e2a30379d6bc1c1c gpu: host1x: Convert to platform remove callback returning void
+4402a5aa9732d870753ba7b945c812d9bd64f1c9 gpu: ipu-v3: Convert to platform remove callback returning void
+521558275731c040136ebdd6dfc84864ce9d9a96 nvdimm/e820: Convert to platform remove callback returning void
+4998f389c981f092d2aceab5b47163c5ef7f4d0f nvdimm/of_pmem: Convert to platform remove callback returning void
+45e7d78ef5e93520e574c05d27bcb3b69234486c samples: qmi: Convert to platform remove callback returning void
+0edb555a65d1ef047a9805051c36922b52a38a9d platform: Make platform_driver::remove() return void
+bd7246a19ed85451befc3c8fc6038a7d955e7d5f Merge tag 'platform-remove-void-step-b' of https://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux into driver-core-next
 
---===============5323689883373046914==--
+--===============0082581124997236631==--
