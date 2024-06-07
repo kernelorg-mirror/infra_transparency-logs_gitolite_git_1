@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7711202820311349707=="
+Content-Type: multipart/mixed; boundary="===============5936573014178509413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 07 Jun 2024 22:31:50 -0000
-Message-Id: <171779951068.15966.10308353609088363556@gitolite.kernel.org>
+Date: Fri, 07 Jun 2024 22:36:02 -0000
+Message-Id: <171779976265.19070.15340053091185191683@gitolite.kernel.org>
 
---===============7711202820311349707==
+--===============5936573014178509413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 749332814479ad2e06d892109227d3d93032f65b
-    new: a999973236543f0b8f6daeaa7ecba7488c3a593b
-    log: revlist-749332814479-a99997323654.txt
-  - ref: refs/tags/v6.10-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ac1064c236193fe48bded6f718ad47203870743b
+  - ref: refs/heads/dev-queue
+    old: ace679d6a9e3623d89804105baaca54d4e5e9c49
+    new: 61af8c17537371ca9504d4fa7de1ffd07927d97f
+    log: revlist-ace679d6a9e3-61af8c175373.txt
 
---===============7711202820311349707==
+--===============5936573014178509413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-749332814479-a99997323654.txt
+Content-Disposition: attachment; filename=revlist-ace679d6a9e3-61af8c175373.txt
 
 aed9a1a4f7106ff99a882ad06318cebfa71016a2 drm/nouveau: use tile_mode and pte_kind for VM_BIND bo allocations
 637c435f08ea7e77c53a2ad590b651d0de225e3b wifi: ath11k: Fix error path in ath11k_pcic_ext_irq_config
@@ -473,5 +470,82 @@ d30d0e49da71de8df10bf3ff1b3de880653af562 Merge tag 'net-6.10-rc3' of git://git.k
 62b5bf58b928f0f4fcc8bb633b63795517825d31 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 cb6cf0820f22ca36dc8f95cf1bd196e5ec24e69d r8152: Set NET_ADDR_STOLEN if using passthru MAC
 a999973236543f0b8f6daeaa7ecba7488c3a593b net: ti: icssg-prueth: Add multicast filtering support
+cc7a35d64814b8e5cd1ca6f599c08b94c2f82a9b ice: store representor ID in bridge port
+d95a1cacddd0a6ad9b61ed84cf62336210ac03d6 ice: move devlink locking outside the port creation
+46062e6fac074e9bb12679d82aeea07efb559dc8 ice: move VSI configuration outside repr setup
+df2c48d8f0669bb057307b2aefc9a5c48dfda3db ice: update representor when VSI is ready
+3f372ca3716d03f8e1baa59954e1572706b40986 net: intel: Use *-y instead of *-objs in Makefile
+472c0f2fae431b6bf0c589b9069d53b88123d335 i40e: Fix XDP program unloading while removing the driver
+a269089e26f87295480ce22542fc3c24ac041515 ice: add and use roundup_u64 instead of open coding equivalent
+d958feaa40804a4d45f0a4b0c58229987a526fca igc: add support for ethtool.set_phys_id
+55129fc3dc8d714c518751e2e226cae81339772a ice: use irq_update_affinity_hint()
+62e27884eff42c746d02e89534427c97418f1f08 ixgbe: Add support for E610 FW Admin Command Interface
+87c23bee1244350bc7173214c63146d83eedae5b ixgbe: Add support for E610 device capabilities detection
+b1c7de8d06e06d856a92db600bd03463526bd5ce ixgbe: Add link management support for E610 device
+d18d13711d6bcc35663c0422771ea647c86dc24f ixgbe: Add support for NVM handling in E610 device
+0841c9178f8eb03962edca486526b7af9014769e ixgbe: Add ixgbe_x540 multiple header inclusion protection
+a822ecd9c8d06f565e3c4f0e9ced20c8cf299351 ixgbe: Clean up the E610 link management related code
+3696408a47d4e2c957ea4bf27a7c69795c1e6709 ixgbe: Enable link management in E610 device
+60e47ac63ad2392b9e332ed8244acab0c0759361 ice: add parser create and destroy skeleton
+c0046c87f50b753311199d4a900feeedc9cfb167 ice: parse and init various DDP parser sections
+cc90552e54efd285403aa7c5d5e8356dee42d748 ice: add debugging functions for the parser sections
+678aebbf361736b67e2d83264fb1f2b49ecf6bc0 ice: add parser internal helper functions
+d7fa0457268d966a54e8afa489ab90a780f71e9c ice: add parser execution main loop
+0b942a4a748dbdc259f1231b3f72a56cb8caa3bf ice: support turning on/off the parser's double vlan mode
+b04072f3ae9068004c35425c5b997b14ee8c2e6a ice: add UDP tunnels support to the parser
+47c3a0465d22dd682fa1cbf4155fb57e574e40d0 ice: add API for parser profile initialization
+4df9be2cced445660dccc61b3a4d73b3499fa79e virtchnl: support raw packet in protocol header
+078aa3bc7831c8b79919a0399a676ffbaccba32d ice: add method to disable FDIR SWAP option
+a53b21b3872dc32bfa3fb47ca8128779c6131c5b ice: enable FDIR filters from raw binary patterns for VFs
+1f0cd203909a483218f2ffb3e86cc46d531cb0e8 iavf: refactor add/del FDIR filters
+1dc67be0b0e74de9cc25d97b3dc3092106c0feb2 iavf: add support for offloading tc U32 cls filters
+56185e4a07720af1d39094d1edd4ede0850972a6 ice: Check all ice_vsi_rebuild() errors in function
+401834eb3a98b614daefa8dc363c504b67706e7a ice: Add get/set hw address for VFs using devlink commands
+4ba5d2ae26464a4bbc2d09edf7a8cf818e0bd4ab Revert "igc: fix a log entry using uninitialized netdev"
+92dd40d6f728a631cc1439db840557236a15c7ae libeth: add cacheline / struct alignment helpers
+c093819bd01813073ef017e9c89772aa36010b32 idpf: stop using macros for accessing queue descriptors
+16e352917f5ac969d23e6f8a19b4790821e8350a idpf: split &idpf_queue into 4 strictly-typed queue structures
+f5e45122477f03ce0235bc6c73fa2f798670cc86 idpf: avoid bloating &idpf_q_vector with big %NR_CPUS
+98ac5ea4005ddf747756b4abaccb8556da9c6733 idpf: strictly assert cachelines of queue and queue vector structures
+b0457ca3667842aeb5c842a331ffe3a0d73ea318 idpf: merge singleq and splitq &net_device_ops
+c36d8227c63d419c0a68717cf69d22b0851d8735 idpf: compile singleq code only under default-n CONFIG_IDPF_SINGLEQ
+98dc0ec97f6d01520676b0fa066b2d9b575868b1 idpf: reuse libeth's definitions of parsed ptype structures
+c98bce7ae8375ea9eb4655788439920c67a6a902 idpf: remove legacy Page Pool Ethtool stats
+8037f189fb287a83bbf5970fa0fd4039bdaee875 libeth: support different types of buffers for Rx
+f940ee36f314979c231f146fd17c184b98c227d2 idpf: convert header split mode to libeth + napi_build_skb()
+da7a732ecd33e343155f2304d590eaab2a22837c idpf: use libeth Rx buffer management for payload buffer
+08c84e3fbef0e21937655980e0dc8da383804077 ice: Rebuild TC queues on VSI queue reconfiguration
+335f386d8f19b111abc02c7e75e8485b406ea302 ice: avoid IRQ collision to fix init failure on ACPI S3 resume
+fb0441aa589b14da84fc2051165766ab71108c2c ice: fix 200G link speed message log
+771f80bea2a6ea00aca2c1acdead60f6ea0b59e5 idpf: extend tx watchdog timeout
+ae3f365440091990aff585bf434c6d80e34169e4 ice: implement AQ download pkg retry
+d322dd6cd61b38bb40c09987c0891872a9d7caa6 ice: respect netif readiness in AF_XDP ZC related ndo's
+25f864c58f80d86500145fc871abcfedc27ce07f ice: don't busy wait for Rx queue disable in ice_qp_dis()
+7fac97aa9781ae387ce82b11052917fe6460f8ff ice: replace synchronize_rcu with synchronize_net
+c3c330cebe5b92fa2fc1f37e6b2ec564cf72e9fc ice: modify error handling when setting XSK pool in ndo_bpf
+be64955b97e4f74551b1705ae8c9bba6b45fe9f6 ice: toggle netif_carrier when setting up XSK pool
+391f213419a6c869619d92618f94cd493d9454a9 ice: improve updating ice_{t, r}x_ring::xsk_pool
+d45868623e84d06566cf1e03c138106db5a9b382 ice: add missing WRITE_ONCE when clearing ice_rx_ring::xdp_prog
+60854288794dff11f81be272e1ef52cc210a2fbc ice: xsk: fix txq interrupt mapping
+4ded3269e8b2461f4b3c7fb4e2d171f9bbba4630 virtchnl: add support for enabling PTP on iAVF
+2c22674f7b5b53b198c690de69e0370e7144bfa4 ice: support Rx timestamp on flex descriptor
+b9370349c695e84176d7f2d114b65bb66a639731 virtchnl: add enumeration for the rxdid format
+bdb518ebc4cd03ba6e61b13873c1bab4217ab31a iavf: add support for negotiating flexible RXDID format
+0eb0ec89391e1a9159c32290ec6dd6f2983b8c45 iavf: negotiate PTP capabilities
+0d651efd76fae734ce0eac16056f1ae2b298700d iavf: add initial framework for registering PTP clock
+4b70b393b3025e268926a2811aa9602d8abdad55 iavf: add support for indirect access to PHC time
+cad731b65625243ce2b7b83375ab76c7828398be iavf: periodically cache PHC time
+dfbec124834e3bb4ceda920b2105ef0d61cafcf9 iavf: refactor iavf_clean_rx_irq to support legacy and flex descriptors
+825f3ed15977af8aa07f7405727625be362ed026 iavf: Implement checking DD desc field
+50d4cca1b99b4eca87fa786df0bdfcd869141be3 iavf: handle set and get timestamps ops
+ab962e9a25e122cab4c8f0564298aa55fa89fdee iavf: add support for Rx timestamps to hotpath
+f869be191c8493c22cd70a1d7c6643ade2293b07 ice: Fix VSI list rule with ICE_SW_LKUP_LAST type
+f8162cbfa7226db964d1b371c54eb8976d6b1799 net: docs: add missing features that can have stats
+e0629efc2852ee81e927eb66864ff0e35c9f56f2 ice: implement ethtool standard stats
+4946085bacb948655aedb3177b50181f808b29fb ice: add tracking of good transmit timestamps
+7e824b1c3201784d6cf4b3ade143a6c8f648f861 ice: implement transmit hardware timestamp statistics
+a556d7e5439ac5ad0daafa6ce43cb539416601d3 ice: refactor to use helpers
+b1234393951eefb690d5ac225409ec0b2b089cc9 e1000e: Fix S0ix residency on corporate systems
+61af8c17537371ca9504d4fa7de1ffd07927d97f ice: Do not get coalesce settings while in reset
 
---===============7711202820311349707==--
+--===============5936573014178509413==--
