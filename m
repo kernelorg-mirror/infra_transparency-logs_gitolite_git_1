@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 07 Jun 2024 15:12:32 -0000
-Message-Id: <171777315250.9368.14555736480928517788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 07 Jun 2024 15:12:55 -0000
+Message-Id: <171777317550.9584.2475539951369980266@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/for-6.10-rc2
-    old: f13e01b89daf42330a4a722f451e48c3e2edfc8d
-    new: f3a5367c679d31473d3fbb391675055b4792c309
+  - ref: refs/heads/master
+    old: 7c619d864afd01df6a98baeffe7030a3d144b22a
+    new: 272d8e8c959908dbe9e4b6b301ebbd3e8e5b53a4
     log: |
-         9d274c19a71b3a276949933859610721a453946b btrfs: fix crash on racing fsync and size-extending write into prealloc
-         fb33eb2ef0d88e75564983ef057b44c5b7e4fded btrfs: fix leak of qgroup extent records after transaction abort
-         f3a5367c679d31473d3fbb391675055b4792c309 btrfs: protect folio::private when attaching extent buffer folios
+         272d8e8c959908dbe9e4b6b301ebbd3e8e5b53a4 isotest: Fix ISO send data rate
          
