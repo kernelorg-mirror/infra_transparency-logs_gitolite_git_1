@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 07 Jun 2024 01:01:27 -0000
-Message-Id: <171772208795.20201.3959984745221974631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 07 Jun 2024 01:01:33 -0000
+Message-Id: <171772209323.20291.9030114667155223558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: d30d0e49da71de8df10bf3ff1b3de880653af562
-    new: e96b2933152fd87b6a41765b2f58b158fde855b6
+    old: 62b5bf58b928f0f4fcc8bb633b63795517825d31
+    new: cb6cf0820f22ca36dc8f95cf1bd196e5ec24e69d
     log: |
-         e96b2933152fd87b6a41765b2f58b158fde855b6 net: sfp: Always call `sfp_sm_mod_remove()` on remove
+         cb6cf0820f22ca36dc8f95cf1bd196e5ec24e69d r8152: Set NET_ADDR_STOLEN if using passthru MAC
          
