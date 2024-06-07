@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 07 Jun 2024 00:57:19 -0000
-Message-Id: <171772183928.13094.6260317504434570314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 07 Jun 2024 01:01:27 -0000
+Message-Id: <171772208795.20201.3959984745221974631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 47b982dc16bb350bb6e5f9a024be51fdcb640340
-    new: fec3801468ef6cc6fcba05f10efb7dc1ede8ac91
+  - ref: refs/heads/main
+    old: d30d0e49da71de8df10bf3ff1b3de880653af562
+    new: e96b2933152fd87b6a41765b2f58b158fde855b6
     log: |
-         f911d200a0b3288f0b2e27e13d7178f41541920a scripts/push_branches: Push damon-hack's patches queue together
-         fec3801468ef6cc6fcba05f10efb7dc1ede8ac91 patches/next: commit_cleanup: further cleanup code
+         e96b2933152fd87b6a41765b2f58b158fde855b6 net: sfp: Always call `sfp_sm_mod_remove()` on remove
          
