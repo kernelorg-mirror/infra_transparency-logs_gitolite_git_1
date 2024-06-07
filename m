@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 07 Jun 2024 17:50:33 -0000
-Message-Id: <171778263300.30106.173720221248241439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Fri, 07 Jun 2024 18:03:22 -0000
+Message-Id: <171778340214.6071.18228691113779003491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 9aa61d8ecb7f6f176ff8247a41a4f6eea8376112
-    new: d2307fd4f9895b44361d491f8bf474866b8351a2
+  - ref: refs/heads/nfs-localio-for-6.11
+    old: 69cd23b4f55e68e0d60a68addb9904d1f890e3ab
+    new: 1789fdef7360bae52432cff137a064a63327d6ae
     log: |
-         a9700511fd50b9203a9a9d61b4874eb28571d5da perf script: netdev-times: add location parameter to consume_skb
-         0b90dfda222e38b7ca8dad6e098e36f5186f0b94 perf maps: Fix use after free in __maps__fixup_overlap_and_insert
-         aeefb04393f7525c0d5163f966f60d070b03ab99 perf maps: Reduce sorting for overlapping mappings
-         d2307fd4f9895b44361d491f8bf474866b8351a2 perf maps: Add/use a sorted insert for fixup overlap and insert
+         1789fdef7360bae52432cff137a064a63327d6ae nfs/nfsd: ensure localio server always uses its network namespace
          
