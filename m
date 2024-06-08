@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 08 Jun 2024 18:24:26 -0000
-Message-Id: <171787106665.25844.2127467053675259861@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Sat, 08 Jun 2024 18:46:22 -0000
+Message-Id: <171787238252.10984.13691730032994532683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
   - ref: refs/heads/master
-    old: 86cd604f1c27ff5c1da802730402fdf876d5660d
-    new: 7ea802422aec973d80aa39a2e544f555d3e2fdae
+    old: 7c5bf915f87d8e4c62be66275c8e73a5f03fa5ee
+    new: 406f4f492a040c01b1dc878b1a016ae4f67a5eaf
     log: |
-         7ea802422aec973d80aa39a2e544f555d3e2fdae patches/next: wordsmith commit cleanup commit messages
+         406f4f492a040c01b1dc878b1a016ae4f67a5eaf Maintainer scripts: Create GitHub releases
          
