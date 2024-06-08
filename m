@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============6911758415829073836=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 08 Jun 2024 07:28:13 -0000
-Message-Id: <171783169356.19901.3433452542877425636@gitolite.kernel.org>
+Date: Sat, 08 Jun 2024 07:28:40 -0000
+Message-Id: <171783172045.20127.13402784491189532731@gitolite.kernel.org>
+
+--===============6911758415829073836==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -12,17 +16,31 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: a88ef4472c101caf915384b4b4a4b62259eff5eb
-    new: 3f3abfd94e72e89643a876aa92020482e1df99f4
-    log: |
-         a9948a34a8158bf2fce4f630c8d36c50aad6a75e x86/fpu: Introduce the x86_task_fpu() helper method
-         36c95eb4b2dca2aaa502b03243d7655a1b1eb3d1 x86/fpu: Convert task_struct::thread.fpu accesses to use x86_task_fpu()
-         4f4a9b399357c82910d99125892ee204e6332080 x86/fpu: Make task_struct::thread constant size
-         052ffa1364f57555fad862dc2094091b7cec9b93 x86/fpu: Remove the thread::fpu pointer
-         13461480d4a058f6ed0b44c39ad160de81989696 x86/fpu: Push 'fpu' pointer calculation into the fpu__drop() call
-         56f484fb133244b870c1527fc49634389decc9c8 x86/fpu: Make sure x86_task_fpu() doesn't get called for PF_KTHREAD tasks during exit
-         34677b74f7a281480efe8de1f87a79bf61728dff x86/fpu: Remove init_task FPU state dependencies, add debugging warning for PF_KTHREAD tasks
-         020aa64c3548b5a7cbd57610e181160a358ba566 x86/fpu: Use 'fpstate' variable names consistently
-         5a4cac0ba89bf31be7ffb19f0ac5d677eda4bd90 x86/fpu: Fix stale comment in ex_handler_fprestore()
-         3f3abfd94e72e89643a876aa92020482e1df99f4 Merge branch into tip/master: 'WIP.x86/fpu'
-         
+    old: 3f3abfd94e72e89643a876aa92020482e1df99f4
+    new: 835dd4f027a4c77996cf1c5723cddbd1df2dffeb
+    log: revlist-3f3abfd94e72-835dd4f027a4.txt
+
+--===============6911758415829073836==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3f3abfd94e72-835dd4f027a4.txt
+
+f7f0e5a31b1faff4c1dce57366f5d5a0bf58c53d Merge branch into tip/master: 'irq/urgent'
+51c2878ed99ab329cc63c0b3590971652a19c2af Merge branch into tip/master: 'locking/urgent'
+59d4c0f95ae9dbe2ed5fc80a2b7ae523157ba79b Merge branch into tip/master: 'perf/urgent'
+a9a028e70d465624cb7c3b686b55372f6ae0d2fd Merge branch into tip/master: 'x86/urgent'
+26f0c8c6325433aa324c8a13f755730601126f19 Merge branch into tip/master: 'WIP.x86/fpu'
+0519973b778538a15ce619a77be2a245be466c73 Merge branch into tip/master: 'irq/core'
+01e9cd76a3d020ac9cf6138785f5bce2638fb811 Merge branch into tip/master: 'locking/core'
+86b591ad78d898178f89b27db986c3adb40de669 Merge branch into tip/master: 'perf/core'
+5875fd7759ab967fb5a0650f9a9d857d33a4c7ce Merge branch into tip/master: 'ras/core'
+e5676a4731c3a1ee010c074160ae40570855ee90 Merge branch into tip/master: 'sched/core'
+e9827512a3c4e4bf0ca110887c4b7629c5eb1b8a Merge branch into tip/master: 'timers/core'
+923cdf998cce695f55581c7e498a54a7ac04999d Merge branch into tip/master: 'x86/boot'
+33a79a9612ce0dffa07505b5a642d51b48df778a Merge branch into tip/master: 'x86/cc'
+3b4b131974493419409bec70208c6ebd78f16c1f Merge branch into tip/master: 'x86/cpu'
+c5db6ba4781c450a6d582ae2d4ec9f6751da7878 Merge branch into tip/master: 'x86/misc'
+835dd4f027a4c77996cf1c5723cddbd1df2dffeb Merge branch into tip/master: 'x86/percpu'
+
+--===============6911758415829073836==--
