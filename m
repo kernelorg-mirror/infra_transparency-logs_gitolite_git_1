@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8148769933358454579=="
+Content-Type: multipart/mixed; boundary="===============2767014747343570487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Sat, 08 Jun 2024 16:11:07 -0000
-Message-Id: <171786306738.26576.8773862419344817004@gitolite.kernel.org>
+Date: Sat, 08 Jun 2024 16:11:09 -0000
+Message-Id: <171786306927.26639.4160024696734613686@gitolite.kernel.org>
 
---===============8148769933358454579==
+--===============2767014747343570487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.11
-    old: 38b68e62c0d662d8a23aa47799b4ac83c54a8de8
-    new: 497624ed550604b3f713f53bc506e49ce5046e5f
-    log: revlist-38b68e62c0d6-497624ed5506.txt
+  - ref: refs/heads/for-next
+    old: 2d888e07b115ba66929ccf012ddbf97bbb9d72c5
+    new: 48a2613733020d85c3a2bff170028465e7d3b829
+    log: revlist-2d888e07b115-48a261373302.txt
 
---===============8148769933358454579==
+--===============2767014747343570487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38b68e62c0d6-497624ed5506.txt
+Content-Disposition: attachment; filename=revlist-2d888e07b115-48a261373302.txt
 
 28930820bf8928c8247d6b001e042ce7e0037350 arm64: dts: qcom: ipq6018-*: Remove thermal zone polling delays
 bebd3c6476c97d0aee8985eb9544dfd82f6e8e36 arm64: dts: qcom: ipq8074-*: Remove thermal zone polling delays
@@ -69,5 +69,6 @@ c862b78b7203b72dd6806a77c0feff60fe96dee5 arm64: dts: qcom: sm8250: Throttle the 
 4be0dd44c39b083148ae9d4c4a7ef6d64e6c0062 arm64: dts: qcom: sm8450: Throttle the GPU when overheating
 ed979c039ad1c9b02dd7e9fa6a0dd69209bac6ed arm64: dts: qcom: sm8550: Throttle the GPU when overheating
 497624ed550604b3f713f53bc506e49ce5046e5f arm64: dts: qcom: sm8650: Throttle the GPU when overheating
+48a2613733020d85c3a2bff170028465e7d3b829 Merge branches 'arm32-for-6.11', 'arm64-defconfig-fixes-for-6.10', 'arm64-defconfig-for-6.11', 'arm64-fixes-for-6.10', 'arm64-for-6.11', 'clk-fixes-for-6.10', 'clk-for-6.11' and 'drivers-for-6.11' into for-next
 
---===============8148769933358454579==--
+--===============2767014747343570487==--
