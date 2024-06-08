@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============3122763717501614772=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 08 Jun 2024 17:16:27 -0000
-Message-Id: <171786698767.9488.18049431429466180924@gitolite.kernel.org>
+Date: Sat, 08 Jun 2024 17:26:01 -0000
+Message-Id: <171786756173.16053.9412482318738403398@gitolite.kernel.org>
+
+--===============3122763717501614772==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -12,17 +16,25 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: 823c485ffd062e067ab49ab694ee2a18e27d45c0
-    new: 6fafa17baf86e88524b7e2cc14d57c9868f39eea
-    log: |
-         ef60f9ca26d33d0f8e1a709771c61d3e96f64559 docs: iio: add documentation for adis16480 driver
-         9f53b59f4843e7020f1cb0baecd2873f78136d76 iio: chemical: ams-iaq-core: clean up codestyle warning
-         4507e20d314561610ea9981811b97ffdd9def4da iio: dac: ad9739a: drop COMPILE_TEST option
-         53cecedb839f402ecc3ada2eb262dc5a409f06fb driver: iio: add missing checks on iio_info's callback access
-         f7e75792c4a18599476035e06087cef344d40529 iio: accel: mma7660: add mount-matrix support
-         49a361f3c3de3f81df17760a0fcefff078f4c5e3 iio: adc: ti-adc161s626: make use of iio_device_claim_direct_scoped()
-         450350f1b2cea73495b1efc2821fefe385b8f909 dt-bindings: iio: adc: ti,ads1015: add compatible for tla2021
-         03f88dba0a5492f2541fbc6f7fd123958f1a6a83 iio: adc: axp20x_adc: Add support for AXP192
-         e5a12d48995dc4e2445c07758ed3541964e4c9bc iio: event: use sizeof(*pointer) instead of sizeof(type)
-         6fafa17baf86e88524b7e2cc14d57c9868f39eea iio: add missing MODULE_DESCRIPTION() macros
-         
+    old: 6fafa17baf86e88524b7e2cc14d57c9868f39eea
+    new: bb3f1c5fc434b0b177449f7f73ea9b112b397dd1
+    log: revlist-6fafa17baf86-bb3f1c5fc434.txt
+
+--===============3122763717501614772==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6fafa17baf86-bb3f1c5fc434.txt
+
+1676151d0601394c1a04ef67c37a4287c1a4a154 iio: humidity: si7020: add heater support
+8889a2653619afa906a82d2a7a6c7da3e344e0a0 staging: iio: Drop explicit initialization of struct i2c_device_id::driver_data to 0
+182e50ecf7db80e27883e1646604e26ee0cb3ab6 iio: accel: adxl313: simplify with spi_get_device_match_data()
+cc0d57a0ab60f432cca61491e96b0551f9fc550f iio: accel: adxl355: simplify with spi_get_device_match_data()
+6b125743ac9a514dbf2a6f82692600208c5a7a03 iio: adc: max11205: simplify with spi_get_device_match_data()
+2340034a927182596095994ca1fafb27ca0b4bbb iio: adc: ti-ads131e08: simplify with spi_get_device_match_data()
+68780e82f5078d001abf44654794f4406a5912fd iio: adc: ti-tsc2046: simplify with spi_get_device_match_data()
+11a88c86b06c481918b7d389610d4d2f08071e7b iio: addac: ad74413r: simplify with spi_get_device_match_data()
+eee55f06a5858c939da07eefcb225fbca87db27d iio: dac: max5522: simplify with spi_get_device_match_data()
+bb3f1c5fc434b0b177449f7f73ea9b112b397dd1 iio: adc: mcp3564: drop redundant open-coded spi_get_device_match_data()
+
+--===============3122763717501614772==--
