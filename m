@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 08 Jun 2024 02:28:24 -0000
-Message-Id: <171781370402.27586.4340444256110488940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Sat, 08 Jun 2024 02:38:33 -0000
+Message-Id: <171781431350.3562.10564077946303303691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/master
-    old: 7b3bdefb7d4e2a546d89dfcce5a2e8f81f668315
-    new: c463495b264d281dbdd61a46616afe506cf2d2aa
+  - ref: refs/heads/misc
+    old: 1bc18f36163ef98b576f4bbcd87ff52cdb904e4b
+    new: 4d30ff38e3f91ac22dc37cf0835beabb846c5fd7
     log: |
-         dc6aaa518a4dbb0a217a710afa0aaf1a0dbaef66 foo
-         c463495b264d281dbdd61a46616afe506cf2d2aa foo
+         4d30ff38e3f91ac22dc37cf0835beabb846c5fd7 hfs: fix to initialize .tz_secondswest in hfs_new_inode()
          
