@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0040491789400768089=="
+Content-Type: multipart/mixed; boundary="===============2485371882903473361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 08 Jun 2024 20:15:20 -0000
-Message-Id: <171787772079.11736.1456521820416565239@gitolite.kernel.org>
+Date: Sat, 08 Jun 2024 20:15:52 -0000
+Message-Id: <171787775291.12012.7913555397901241494@gitolite.kernel.org>
 
---===============0040491789400768089==
+--===============2485371882903473361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: c3f38fa61af77b49866b006939479069cd451173
-    new: 061d1af7b0305227182bd9da60c7706c079348b7
-    log: revlist-c3f38fa61af7-061d1af7b030.txt
+  - ref: refs/heads/kbuild
+    old: 8d74833e247c75c6708b2b5bb8274e32099781df
+    new: 3483b5562df89abb8df702a1c6571763a372198e
+    log: revlist-8d74833e247c-3483b5562df8.txt
 
---===============0040491789400768089==
+--===============2485371882903473361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3f38fa61af7-061d1af7b030.txt
+Content-Disposition: attachment; filename=revlist-8d74833e247c-3483b5562df8.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -335,12 +335,7 @@ bd9f2d05731f6a112d0c7391a0d537bfc588dbe6 af_unix: Annotate data-race of net->unx
 5d915e584d8408211d4567c22685aae8820bfc55 af_unix: Use skb_queue_len_lockless() in sk_diag_show_rqlen().
 efaf24e30ec39ebbea9112227485805a48b0ceb1 af_unix: Annotate data-race of sk->sk_shutdown in sk_diag_fill().
 411c0ea696cc4fcd14a32f2093c909e0c59c5dd7 Merge branch 'af_unix-fix-lockless-access-of-sk-sk_state-and-others-fields'
-c181689bc479d3b2300f91fc4d53e089d7631898 kconfig: remove unneeded code for user-supplied values being out of range
-46edf4372e336ef3a61c3126e49518099d2e2e6d kconfig: gconf: give a proper initial state to the Save button
-bf83266a1eef8251e2f126dba635039de069104a kconfig: doc: fix a typo in the note about 'imply'
-45c7f555bf5e716d9c6ffb737e97d4cc9b4c21ef kconfig: doc: document behavior of 'select' and 'imply' followed by 'if'
 b01e1c030770ff3b4fe37fc7cc6bca03f594133f ipv6: fix possible race in __fib6_drop_pcpu_from()
-77a92660d8fe8d29503fae768d9f5eb529c88b36 kconfig: remove wrong expr_trans_bool()
 0dcc53abf58d572d34c5313de85f607cd33fc691 net: ethtool: fix the error condition in ethtool_get_phy_stats_ethtool()
 09fe2bfa6b83f865126ce3964744863f69a4a030 ata: pata_macio: Fix max_segment_size with PAGE_SIZE == 64K
 41b02ea4c0adfcc6761fbfed42c3ce6b6412d881 selftests: net: lib: support errexit with busywait
@@ -356,8 +351,6 @@ d91e656262aeef16f6a296a2b6c8b0f7243f408a Merge tag 'pci-v6.10-fixes-1' of git://
 2d4218311071389682cc1f74b23eb85bb677909a Merge tag 'amd-drm-fixes-6.10-2024-06-06' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 26033424ed0897deecbbc82ae348c12e27bfb29c Merge tag 'drm-misc-fixes-2024-06-07' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 eb55943aab89be99a26e34fc2175ebb3583a2778 Merge tag 'drm-misc-next-fixes-2024-06-07' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-96c965667b9dbbd713acdffa95ebab8c225f8595 kbuild: explicitly run mksysmap as sed script from link-vmlinux.sh
-9185afeac2a3dcce8300a5684291a43c2838cfd6 modpost: do not warn about missing MODULE_DESCRIPTION() for vmlinux.o
 64054eb716db52e4246527dc9414377c5bc5b01d gpio: add missing MODULE_DESCRIPTION() macros
 89e1ee118d6f0ee6bd6e80d8fe08839875daa241 hid: asus: asus_report_fixup: fix potential read out of bounds
 0c7dd00de018ff70b3452c424901816e26366a8a input: Add event code for accessibility key
@@ -387,5 +380,13 @@ bbc5332b8cda95cd081cff9c405c1cfece872f20 Merge tag 'locking-urgent-2024-06-08' o
 1e7ccdd3255c9d146cc077d681c56e4559f90cda Merge tag 'media/v6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 329f70c5beaefe0e1197b7919e776dc005213b59 Merge tag 'kbuild-fixes-v6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 061d1af7b0305227182bd9da60c7706c079348b7 Merge tag 'for-linus-2024060801' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+2e3367819a7ad7cbc70aa79d2f29a1c3393a16a5 initramfs: shorten cmd_initfs in usr/Makefile
+e07e6a34200dcb464b03fdcb7e2af0a7bb263272 kconfig: qconf: remove initial call to conf_changed()
+89fd5ed7546d343a82d5ba6a84d5f1947c11745b kconfig: gconf: remove unnecessary forward declarations
+b9aa4c494b9ea2ea21a6078cf2e718c4224fd0d4 kconfig: gconf: move conf_changed() definition up
+c2aae85545dc27ca51568335eda770bda329b70a kconfig: pass new conf_changed value to the callback
+47d76fe70782d9a583139cfc800306b467bef998 kconfig: remove tristate choice support
+44ed692fac52d3547f18f75b317f6d27e632297f kconfig: refactor conf_set_all_new_symbols() to reduce indentation level
+3483b5562df89abb8df702a1c6571763a372198e kconfig: refactor conf_write_defconfig() to reduce indentation level
 
---===============0040491789400768089==--
+--===============2485371882903473361==--
