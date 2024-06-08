@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 08 Jun 2024 07:27:28 -0000
-Message-Id: <171783164848.19547.1921117117207783512@gitolite.kernel.org>
+Date: Sat, 08 Jun 2024 07:28:13 -0000
+Message-Id: <171783169356.19901.3433452542877425636@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.x86/fpu
-    old: b65c1ae60783ecb96127feccbd3ca5952533dab6
-    new: 5a4cac0ba89bf31be7ffb19f0ac5d677eda4bd90
+  - ref: refs/heads/master
+    old: a88ef4472c101caf915384b4b4a4b62259eff5eb
+    new: 3f3abfd94e72e89643a876aa92020482e1df99f4
     log: |
          a9948a34a8158bf2fce4f630c8d36c50aad6a75e x86/fpu: Introduce the x86_task_fpu() helper method
          36c95eb4b2dca2aaa502b03243d7655a1b1eb3d1 x86/fpu: Convert task_struct::thread.fpu accesses to use x86_task_fpu()
@@ -24,4 +24,5 @@ changes:
          34677b74f7a281480efe8de1f87a79bf61728dff x86/fpu: Remove init_task FPU state dependencies, add debugging warning for PF_KTHREAD tasks
          020aa64c3548b5a7cbd57610e181160a358ba566 x86/fpu: Use 'fpstate' variable names consistently
          5a4cac0ba89bf31be7ffb19f0ac5d677eda4bd90 x86/fpu: Fix stale comment in ex_handler_fprestore()
+         3f3abfd94e72e89643a876aa92020482e1df99f4 Merge branch into tip/master: 'WIP.x86/fpu'
          
