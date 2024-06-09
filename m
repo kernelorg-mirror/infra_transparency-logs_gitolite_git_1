@@ -1,19 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Sun, 09 Jun 2024 14:28:22 -0000
-Message-Id: <171794330215.27192.2089269180446791629@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6893131620363001138=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 09 Jun 2024 14:31:43 -0000
+Message-Id: <171794350307.30148.17028078041108298808@gitolite.kernel.org>
+
+--===============6893131620363001138==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-user: zx2c4
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/stable
-    old: 5452ce7667be85f4fe757ace58b6bbc6a5d7abfb
-    new: 4534429f17a00fa98d6b34ac00a819b42cebd4d5
-    log: |
-         4534429f17a00fa98d6b34ac00a819b42cebd4d5 wireguard: allowedips: replace call_rcu by kfree_rcu for simple kmem_cache_free callback
-         
+  - ref: refs/heads/master
+    old: 9837971383733ad59ead121dcc4b13f89829d389
+    new: e46fa3a7dae4a65fd80128bf381dba4fd5036ebb
+    log: revlist-983797138373-e46fa3a7dae4.txt
+
+--===============6893131620363001138==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-983797138373-e46fa3a7dae4.txt
+
+e0aca4b09d810f47fc33acb173c346a838500037 generic/352: require no compression
+c99901745c41ea9614315700965037c13697dc6e generic/027: require no compression
+a0e33b4b47318176780b992d9c420e3ba58b3c5a generic/269: require no compression
+73f45a1ff44e1f33b27db7bf2de4d3c7e8fbeab6 btrfs/{140,141}: verify read-repair test data by md5sum
+fa81eef946b9fd5ebacf877f9cab2790a11a30c8 fstests: btrfs/301: handle auto-removed qgroups
+a42f8a6be29e0857ad3ba3a2b6952913f56db877 fstests: mkfs the scratch device if we have missing profiles
+be5ec474127b16aced5a77dfbba5c5d200a921fd generic/742: require FIEMAP support
+26d69e8df390b701904aac40e7d9cf8edea9a14d generic/733: add commit ID for btrfs
+e099ba0087d804fb5d6335bb553a4e9b801416ed check: log kernel version in check.log
+86e123019c81536c5889881a3a4d896fefe8c3e8 _test_mkfs: Include external log device (if any) when creating fs on TEST_DEV
+692bef09cfad168df9602349319c1b4f43192ae4 btrfs/741: add commit ID in _fixed_by_kernel_commit
+e46fa3a7dae4a65fd80128bf381dba4fd5036ebb Remove richacl support
+
+--===============6893131620363001138==--
