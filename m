@@ -1,29 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sat, 08 Jun 2024 23:32:40 -0000
-Message-Id: <171788956059.23876.15927808594740074075@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7160658054131548354=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Sun, 09 Jun 2024 00:48:27 -0000
+Message-Id: <171789410763.14475.16156922529152700732@gitolite.kernel.org>
+
+--===============7160658054131548354==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/seen
-    old: 811aabbae47a6c97fef488003a05239c9a0c62e5
-    new: bb559f6ca87629727937a48bf97a68772240b84a
-    log: |
-         a4e52ba313b043bfe975b872c557c71667b33bbc __attribute__: trace2_region_enter_printf() is like "printf"
-         10f0fdf820e36a2eb9aa4e4ee08cf3a44eaf0f01 __attribute__: remove redundant attribute declaration for git_die_config()
-         685152aa13632a4bcf02383113f99ed8e216c8da __attribute__: mark some functions with LAST_ARG_MUST_BE_NULL
-         909c59f6db1efbddc198f7034c23536c47c9f0ef __attribute__: add a few missing format attributes
-         bf6a86236e829d08c92356e5c861193ccb516ef7 worktree_git_path(): move the declaration to path.h
-         fdd75bba230d8a91398259bd4a13bf2e9532a391 SQUASH???
-         0a42b3dc4aba44ac96c0b3731046457418d1f6b6 Merge branch 'db/date-underflow-fix' into seen
-         dcafa3ec9493fcda80b1abd4db02aece8f5daf47 Merge branch 'tb/commit-graph-use-tempfile' into seen
-         6ff174bed61843d54e886c0a295bdfc24c226869 Merge branch 'tb/incremental-midx-part-1' into seen
-         8c9eee5f089dc37e9e629cd7ab09da4645e82f9b Merge branch 'jc/varargs-attributes' into seen
-         bb559f6ca87629727937a48bf97a68772240b84a Merge branch 'jc/worktree-git-path' into seen
-         
+  - ref: refs/heads/nxp/v6.10/compulab
+    old: 0000000000000000000000000000000000000000
+    new: 19e286ef0384a44b8d3320bca2bb46f54188235c
+
+--===============7160658054131548354==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Laurent Pinchart <laurent.pinchart@ideasonboard.com> 1717894081 +0300
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
+nonce 1717894097-5124b5a838a75f2e74fd759ab140e5a3131c4a75
+
+0000000000000000000000000000000000000000 19e286ef0384a44b8d3320bca2bb46f54188235c refs/heads/nxp/v6.10/compulab
+-----BEGIN PGP SIGNATURE-----
+
+iJgEABYKAEAWIQTAnvhxs4J7QT+XHKnMPy2AAyfeZAUCZmT7wSIcbGF1cmVudC5w
+aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEMw/LYADJ95kMzMA+wU4NJ4O9gS3
+saSODpaWr3a2ax2CugNWq+0bv3x9FMsqAP9tWJRoJHWwOJF144LPyhXcrTohYBHL
+F7lc/w+ONfe5CA==
+=5nTs
+-----END PGP SIGNATURE-----
+
+--===============7160658054131548354==--
