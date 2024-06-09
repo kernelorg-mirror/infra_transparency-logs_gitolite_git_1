@@ -1,44 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============7160658054131548354=="
+Content-Type: multipart/mixed; boundary="===============6976984770394330678=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Sun, 09 Jun 2024 00:48:27 -0000
-Message-Id: <171789410763.14475.16156922529152700732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Sun, 09 Jun 2024 01:22:23 -0000
+Message-Id: <171789614310.7060.10315578956339668438@gitolite.kernel.org>
 
---===============7160658054131548354==
+--===============6976984770394330678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinchartl/linux
-user: pinchartl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/nxp/v6.10/compulab
-    old: 0000000000000000000000000000000000000000
-    new: 19e286ef0384a44b8d3320bca2bb46f54188235c
+  - ref: refs/heads/clk-cleanup
+    old: 45b2fb09384c645489f7b359c49ca879852e5cec
+    new: 6ea810cfb80c054eff72f1a55b6dcd22486baa33
+    log: |
+         6ea810cfb80c054eff72f1a55b6dcd22486baa33 clk: sifive: prci: fix module autoloading
+         
+  - ref: refs/heads/clk-next
+    old: 11b6b52cdef472b048bc95cd407a0af1cac9f1b2
+    new: 5029c56be4bab3bce7db6d9595b0bbd171a5b154
+    log: |
+         6ea810cfb80c054eff72f1a55b6dcd22486baa33 clk: sifive: prci: fix module autoloading
+         5029c56be4bab3bce7db6d9595b0bbd171a5b154 Merge branch 'clk-cleanup' into clk-next
+         
 
---===============7160658054131548354==
+--===============6976984770394330678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Laurent Pinchart <laurent.pinchart@ideasonboard.com> 1717894081 +0300
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
-nonce 1717894097-5124b5a838a75f2e74fd759ab140e5a3131c4a75
+pusher Stephen Boyd <sboyd@kernel.org> 1717896142 -0700
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
+nonce 1717896141-66da51a229d18bbc1cc58d1b7237f13c26e32646
 
-0000000000000000000000000000000000000000 19e286ef0384a44b8d3320bca2bb46f54188235c refs/heads/nxp/v6.10/compulab
+45b2fb09384c645489f7b359c49ca879852e5cec 6ea810cfb80c054eff72f1a55b6dcd22486baa33 refs/heads/clk-cleanup
+11b6b52cdef472b048bc95cd407a0af1cac9f1b2 5029c56be4bab3bce7db6d9595b0bbd171a5b154 refs/heads/clk-next
 -----BEGIN PGP SIGNATURE-----
 
-iJgEABYKAEAWIQTAnvhxs4J7QT+XHKnMPy2AAyfeZAUCZmT7wSIcbGF1cmVudC5w
-aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEMw/LYADJ95kMzMA+wU4NJ4O9gS3
-saSODpaWr3a2ax2CugNWq+0bv3x9FMsqAP9tWJRoJHWwOJF144LPyhXcrTohYBHL
-F7lc/w+ONfe5CA==
-=5nTs
+iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmZlA84RHHNib3lkQGtl
+cm5lbC5vcmcACgkQrQKIl8bklSVVeQ//f8mddd8e+vT/IjZU7kX97eBt/O2gOa6g
+h7YkOYnQuPxhqOJqliMbjQohmSZj+wfIPOLNI53RRPgVegJSuK1cMCHNo1YXunHJ
+WT8VyujWfqWboF93xVuLUYxrTmcO1MiGQhC3YzZBzdjtsYdtXghN2WTbmoaCZ6Aj
+eTa4bjQNKjbkGnnXVgSuF8mzJdvfG8rogaFpRki7G/hGUwjWg5jbcElPgczyNOtQ
+dysKXPWvPp9/CGfGHgtHS2Jj0syL3gFgRUyWgFEJIOO6BChU54vONBy6Pp5ycbQi
+FwbQmYqJkOxZzby/4reRtQkOYSCbd9EJDuFNiol7FOeWb2jbnx9kKdiBL2YFmWu1
+7+/AuN/9wbAHeV4W3cQIq5xDZ3T/4gxeFAkyiDuXVGSEngOZV8RpIXMpZdLIF8b9
+piYvP/8GTns6dfFGOshyJuZ4ABPH4psa2KtwBwSkkWS+nnYI1FWftXSUyv9re6Kr
+sLyQ41sAjKVc1xM6oulyoXNowJFJlrxBDemXwxX+lQGaiknmaLZJsDOU3qIiIYNT
+YVXqi2JPgDWrfD8M1dsbIGHX68Efi+tpVro7CPt4We/sxtfYjIqk2FLHI47hvmz/
+pHlGzOoogT9vf1w8UnBcvQBddKIppHXHVcMtOfdY6Dt/hiNFlbceXgAYs9OqDyvp
+mjy+HMalIVs=
+=y7QL
 -----END PGP SIGNATURE-----
 
---===============7160658054131548354==--
+--===============6976984770394330678==--
