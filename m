@@ -1,22 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 09 Jun 2024 11:04:04 -0000
-Message-Id: <171793104478.3735.880234840099039299@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3349481749934241538=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 09 Jun 2024 11:06:30 -0000
+Message-Id: <171793119045.6515.4011493641429058787@gitolite.kernel.org>
+
+--===============3349481749934241538==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 9547d6a4c65e975e40e203900322342ef7379c52
-    new: 4241665e6ea063a9c1d734de790121a71db763fc
+  - ref: refs/heads/master
+    old: 446fb034ddb70da23c8908388c502a2de0f36211
+    new: d42f33bddda20b331f4d231748380c3f0766ae3d
     log: |
-         ae1f7b93b52095be6776d0f34957b4f35dda44d9 iio: chemical: bme680: Fix pressure value output
-         b47c0fee73a810c4503c4a94ea34858a1d865bba iio: chemical: bme680: Fix calibration data variable
-         fdd478c3ae98c3f13628e110dce9b6cfb0d9b3c8 iio: chemical: bme680: Fix overflows in compensate() functions
-         4241665e6ea063a9c1d734de790121a71db763fc iio: chemical: bme680: Fix sensor data read operation
+         d42f33bddda20b331f4d231748380c3f0766ae3d move 6.8 queue to old/
          
+
+--===============3349481749934241538==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1717931181 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1717931184-ba5da9c79ee09ff37fc54531793e8e76a7839b80
+
+446fb034ddb70da23c8908388c502a2de0f36211 d42f33bddda20b331f4d231748380c3f0766ae3d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZljK0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6GsQAIKIZECf7WvhLHeI038P
+RIH6TGPvI1eMOM16yLZps+LYS+uURuhzB/v0+jTdBEhEzaT4JMzgyTocI3dK6yNn
+ZFbIN1K9u7FFQobNRnBvwRO5A/IL8DwEST8mC99wHUb4kysCXjYtKbzL77/qriRw
+EHruOP3A1XOFUbNGUzbOVETxB+yF3AJYQDYz75R21iKe/e9+Nbfwif316HLvjSD9
+905Qj8vQS2t7kfKLGQLbJFdMl1uSq9gGkTyrf1Mvl99OkrOvRgtyOkd6NEQLFny4
+04BhXJsy95ihcJRjlF7N/MVFarPafQiEEXT6I5cqooHFDzMk6HBt05OdnvLCVf9C
+zC17LdzQVXg044wECN4Juhf/LboaIqqdrEv/UKSA685CB85OB7MxL0OxT2UXfa05
+1i5VxN2mJF6NnQqD/nUmBSEEdB98so4t/3d3bQTV6NyXmKnzsQanv3KRNZF3wVlr
+uiFMSpkYk+onG7Evt9q47RB6NinBHPszJI9jGqqlgz1SQHrRBXuCL28TW1V9l+Yv
+xqzMxVTElVa1WRvSiPn4h1afAsV22VmFYMUH7sVJ3DzaIVmYuK0dlupOq6aq/gpI
+B6CMM1cM+1KwsN6Ue9fvKofN59zLvGfGwGaZdWe2ybaGSVkBv5mWOhF63qstYk1V
+RFjEqFIlJp0kcuRnzEL7ff77
+=UTsR
+-----END PGP SIGNATURE-----
+
+--===============3349481749934241538==--
