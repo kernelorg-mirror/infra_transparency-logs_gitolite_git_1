@@ -1,30 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 09 Jun 2024 08:50:50 -0000
-Message-Id: <171792305020.11080.15297896710441420982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 09 Jun 2024 08:51:46 -0000
+Message-Id: <171792310616.11484.16337732361890937294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 260106f0481f0aba726eb0aacbd50489461ecf22
-    new: 6046cfb8cbf7d7b7c1c2da1ac7278bf9e333b22b
+  - ref: refs/heads/for-rc
+    old: fa0aa4d75f6b909ec910fd1f1eab7cc7bb42227b
+    new: 542bb08ab014ec52d71f3ff01e1725005cfb677a
     log: |
-         0515a803e4e9ca95410fd28648703ff8674d86b9 Merge branch into tip/master: 'WIP.x86/fpu'
-         01a2380482893afe12d6c9e278fcf7433e81a3ae Merge branch into tip/master: 'irq/core'
-         4091eec698d8f9bed2a361c072695ac927b419f9 Merge branch into tip/master: 'locking/core'
-         929242e7f3ca2785559b5f7711d17c7e35b91648 Merge branch into tip/master: 'perf/core'
-         f2d4af88638b1aba22de587fe27edb2511583da1 Merge branch into tip/master: 'ras/core'
-         d2391284ebaf6cdaae81f5d2b0ce8a82efc9b12d Merge branch into tip/master: 'sched/core'
-         71de853a629dd7ff282d8c4e9bb836a35e355adf Merge branch into tip/master: 'timers/core'
-         221e781db82ba265a6eb8594f1e99fec7536662d Merge branch into tip/master: 'x86/boot'
-         080278139a9b3c71ab0b9808284b2a44f55b17df Merge branch into tip/master: 'x86/cc'
-         8f1528721bb506d6f933ed3badba7d31cc7e5e64 Merge branch into tip/master: 'x86/cpu'
-         32a8ae09233374f8fd12498e2507fbec0f48e244 Merge branch into tip/master: 'x86/misc'
-         6046cfb8cbf7d7b7c1c2da1ac7278bf9e333b22b Merge branch into tip/master: 'x86/percpu'
+         f67ac0061c7614c1548963d3ef1ee1606efd8636 RDMA/rxe: Fix responder length checking for UD request packets
+         862501df3e2394ac62f75d0e55f4a94853516c1f RDMA/cache: Release GID table even if leak is detected
+         e4b5b756f07e8bbc86b8ca7cf2c9a80d910db299 RDMA/mlx5: Remove extra unlock on error path
+         c0b385bef615ae8fd861172a383a40b6f009369f RDMA/mlx5: Follow rb_key.ats when creating new mkeys
+         1495a70f43ad2c124b5787446f661a1b034a9415 RDMA/mlx5: Ensure created mkeys always have a populated rb_key
+         fe4143011b7cd9f2377614e7977ad38cc5986c22 RDMA/mlx5: Fix unwind flow as part of mlx5_ib_stage_init_init
+         2e610779fdb31f35f75bbb31f397c5bf70f6a360 RDMA/mlx5: Add check for srq max_sge attribute
+         542bb08ab014ec52d71f3ff01e1725005cfb677a RDMA/mana_ib: Ignore optional access flags for MRs
          
