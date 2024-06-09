@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sun, 09 Jun 2024 02:33:28 -0000
-Message-Id: <171790040897.25796.11983006326088832767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sun, 09 Jun 2024 03:47:36 -0000
+Message-Id: <171790485672.15974.11311098072648196515@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: d2307fd4f9895b44361d491f8bf474866b8351a2
-    new: 658a8805cb604260ae9f35ae5e50012e3d1ed5e3
-    log: |
-         0dddd91ab68fed4fe12b69fe225cb00a4ea16126 perf stat: Make options local
-         f5803651b4a4b67d9521994d501619a0d8ff3b11 perf stat: Choose the most disaggregate command line option
-         658a8805cb604260ae9f35ae5e50012e3d1ed5e3 perf test: Speed up test case 70 annotate basic tests
-         
+  - ref: refs/heads/kwilczynski/sysfs-static-resource-attributes
+    old: 0000000000000000000000000000000000000000
+    new: 021f1d8bdbda9eb3e4859df9e8ad27f96729c288
