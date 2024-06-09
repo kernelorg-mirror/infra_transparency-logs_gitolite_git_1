@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 09 Jun 2024 16:26:19 -0000
-Message-Id: <171795037949.17869.8591859402661650686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 09 Jun 2024 16:35:38 -0000
+Message-Id: <171795093834.24560.62430837172437190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: a07e2cd9912f792bc61655779beea02cf28f32bb
-    new: 498647611e54f416e6623e970406eeaf59f2bce6
+  - ref: refs/heads/main
+    old: 924ee531754827bf23eacf35e6408a7f44fb9021
+    new: 28f961f9d5b7c3d9b9f93cc59e54477ba1278cf9
     log: |
-         498647611e54f416e6623e970406eeaf59f2bce6 Sun Jun  9 12:25:42 PM EDT 2024
+         28f961f9d5b7c3d9b9f93cc59e54477ba1278cf9 dmaengine: ti: k3-udma-glue: clean up return in k3_udma_glue_rx_get_irq()
          
