@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 09 Jun 2024 08:51:51 -0000
-Message-Id: <171792311150.11606.12353656237895014820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 09 Jun 2024 09:05:01 -0000
+Message-Id: <171792390171.19620.6405009159580094948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: 620935196223111ed8fed70a62da44f4e9ffe1d5
-    new: 542bb08ab014ec52d71f3ff01e1725005cfb677a
+  - ref: refs/heads/testing
+    old: bb3f1c5fc434b0b177449f7f73ea9b112b397dd1
+    new: 726cf6dbd352c7a66edce645e74ae9959563e3a6
     log: |
-         f67ac0061c7614c1548963d3ef1ee1606efd8636 RDMA/rxe: Fix responder length checking for UD request packets
-         862501df3e2394ac62f75d0e55f4a94853516c1f RDMA/cache: Release GID table even if leak is detected
-         e4b5b756f07e8bbc86b8ca7cf2c9a80d910db299 RDMA/mlx5: Remove extra unlock on error path
-         c0b385bef615ae8fd861172a383a40b6f009369f RDMA/mlx5: Follow rb_key.ats when creating new mkeys
-         1495a70f43ad2c124b5787446f661a1b034a9415 RDMA/mlx5: Ensure created mkeys always have a populated rb_key
-         fe4143011b7cd9f2377614e7977ad38cc5986c22 RDMA/mlx5: Fix unwind flow as part of mlx5_ib_stage_init_init
-         2e610779fdb31f35f75bbb31f397c5bf70f6a360 RDMA/mlx5: Add check for srq max_sge attribute
-         542bb08ab014ec52d71f3ff01e1725005cfb677a RDMA/mana_ib: Ignore optional access flags for MRs
+         5b5473dda5a990dd7c950aa27f3e6de317ad38d5 iio: imu: inv_icm42600: add register caching in the regmap
+         69da5334e6f2db167f71522bc9357c9225dcd37b iio: adc: adi-axi-adc: add platform dependencies
+         867ba18a310064b8c23e323592ec57518e585439 iio: dac: adi-axi-dac: add platform dependencies
+         50d684f54be46f5503a00af86eead6d42b461164 dt-bindings: iio: adc: amlogic,meson-saradc: add optional power-domains
+         521fd36bbb7e55cc36acb367255782f9c2aa4a3d iio: light: driver for Vishay VEML6040
+         3ffe88c8b821d31ffd8678949e99dcc96cdc665b dt-bindings: iio: light: add VEML6040 RGBW-LS
+         726cf6dbd352c7a66edce645e74ae9959563e3a6 iio: temperature: mcp9600: add threshold events support
          
