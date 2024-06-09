@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8275170180152989518=="
+Content-Type: multipart/mixed; boundary="===============1342606106350831777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sun, 09 Jun 2024 12:44:08 -0000
-Message-Id: <171793704872.15864.18155557202159827451@gitolite.kernel.org>
+Date: Sun, 09 Jun 2024 12:44:12 -0000
+Message-Id: <171793705231.15945.4369846552152211577@gitolite.kernel.org>
 
---===============8275170180152989518==
+--===============1342606106350831777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/clk-microchip
+  - ref: refs/heads/clk-microchip-fixes
     old: 4cece764965020c22cff7665b18a012006359095
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     log: revlist-4cece7649650-1613e604df0c.txt
 
---===============8275170180152989518==
+--===============1342606106350831777==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============8275170180152989518==--
+--===============1342606106350831777==--
