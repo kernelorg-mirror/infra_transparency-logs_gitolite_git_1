@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3690831326853462171=="
+Content-Type: multipart/mixed; boundary="===============4429607126989803407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sun, 09 Jun 2024 12:44:02 -0000
-Message-Id: <171793704296.15688.2304732529854227406@gitolite.kernel.org>
+Date: Sun, 09 Jun 2024 12:44:05 -0000
+Message-Id: <171793704560.15796.14788711490743035542@gitolite.kernel.org>
 
---===============3690831326853462171==
+--===============4429607126989803407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-fixes
-    old: 1fe5e0a31e6202025a100fc08cd5902f6abbaaba
+  - ref: refs/heads/at91-soc
+    old: 4cece764965020c22cff7665b18a012006359095
     new: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    log: revlist-1fe5e0a31e62-1613e604df0c.txt
+    log: revlist-4cece7649650-1613e604df0c.txt
 
---===============3690831326853462171==
+--===============4429607126989803407==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1fe5e0a31e62-1613e604df0c.txt
+Content-Disposition: attachment; filename=revlist-4cece7649650-1613e604df0c.txt
 
 ff60c8da0aaf7ecf5f4d48bebeb3c1f52b2088dd drm/panthor: Keep a ref to the VM at the panthor_kernel_bo level
 a257e8182261da48b7c34615f2752f8a78ac108b drm/panthor: Reset the FW VM to NULL on unplug
@@ -1051,4 +1051,4 @@ c13320499ba0efd93174ef6462ae8a7a2933f6e7 Merge tag '6.10-rc-smb3-fixes-part2' of
 9b0abe7948364bd35fff2b202ee7f30a2fa73c53 mm: percpu: Include smp.h in alloc_tag.h
 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0 Linux 6.10-rc1
 
---===============3690831326853462171==--
+--===============4429607126989803407==--
