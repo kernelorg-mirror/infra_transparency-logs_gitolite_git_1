@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6893131620363001138=="
+Content-Type: multipart/mixed; boundary="===============3764580901379297837=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 09 Jun 2024 14:31:43 -0000
-Message-Id: <171794350307.30148.17028078041108298808@gitolite.kernel.org>
+Date: Sun, 09 Jun 2024 14:39:15 -0000
+Message-Id: <171794395593.3582.9503276338316280472@gitolite.kernel.org>
 
---===============6893131620363001138==
+--===============3764580901379297837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,27 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/heads/master
-    old: 9837971383733ad59ead121dcc4b13f89829d389
-    new: e46fa3a7dae4a65fd80128bf381dba4fd5036ebb
-    log: revlist-983797138373-e46fa3a7dae4.txt
+  - ref: refs/heads/for-next
+    old: e46fa3a7dae4a65fd80128bf381dba4fd5036ebb
+    new: 83598d2f839d9c27d2fd4209124d7c288ea2861e
+    log: revlist-e46fa3a7dae4-83598d2f839d.txt
 
---===============6893131620363001138==
+--===============3764580901379297837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-983797138373-e46fa3a7dae4.txt
+Content-Disposition: attachment; filename=revlist-e46fa3a7dae4-83598d2f839d.txt
 
-e0aca4b09d810f47fc33acb173c346a838500037 generic/352: require no compression
-c99901745c41ea9614315700965037c13697dc6e generic/027: require no compression
-a0e33b4b47318176780b992d9c420e3ba58b3c5a generic/269: require no compression
-73f45a1ff44e1f33b27db7bf2de4d3c7e8fbeab6 btrfs/{140,141}: verify read-repair test data by md5sum
-fa81eef946b9fd5ebacf877f9cab2790a11a30c8 fstests: btrfs/301: handle auto-removed qgroups
-a42f8a6be29e0857ad3ba3a2b6952913f56db877 fstests: mkfs the scratch device if we have missing profiles
-be5ec474127b16aced5a77dfbba5c5d200a921fd generic/742: require FIEMAP support
-26d69e8df390b701904aac40e7d9cf8edea9a14d generic/733: add commit ID for btrfs
-e099ba0087d804fb5d6335bb553a4e9b801416ed check: log kernel version in check.log
-86e123019c81536c5889881a3a4d896fefe8c3e8 _test_mkfs: Include external log device (if any) when creating fs on TEST_DEV
-692bef09cfad168df9602349319c1b4f43192ae4 btrfs/741: add commit ID in _fixed_by_kernel_commit
-e46fa3a7dae4a65fd80128bf381dba4fd5036ebb Remove richacl support
+4fee7f2934ffa4988d59db925c8904a183b8fda0 xfs/161: adapt the test case for 64k FS blocksize
+edbea26d4c9652de1cc466d57532aa6a9fdea2d7 generic/436: round up bufsz to nearest filesystem blksz
+97989c9839ddf5928fe6fe25ac63389c74f61488 xfs/008: use block size instead of the pagesize
+ab6a3b1a0283d79b1c93ee75d7057f6ec83472dd generic/747: redirect mkfs stderr to seqres.full
+f50e6a3a7138332989821b1963e52ca9ccd131dc btrfs: fix raid-stripe-tree tests with non-experimental btrfs-progs build
+887f00615ac4989b6ad872b987cc1a352f7a4e82 btrfs/280: run defrag after creating file to get expected extent layout
+1a9ca7d53339a64bbdd1052da9539f6bcb22ea62 fuzzy: mask off a few more inode fields from the fuzz tests
+d67b0d11106db47f7938cf141d9600d37b9b8b13 fuzzy: allow FUZZ_REWRITE_DURATION to control fsstress runtime when fuzzing
+2da0c88e3481c97d04a6d0ec5eb74a93b5c18884 fuzzy: test other dquot ids
+84de2df901bb734f95407a4bb92f3cb1a2cafd37 generic/077: ignore errors occurred while accessing the filler files
+83598d2f839d9c27d2fd4209124d7c288ea2861e generic: test Btrfs fsync vs. size-extending prealloc write crash
 
---===============6893131620363001138==--
+--===============3764580901379297837==--
