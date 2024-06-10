@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 10 Jun 2024 15:41:32 -0000
-Message-Id: <171803409290.8814.15153690914066040589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 10 Jun 2024 15:42:36 -0000
+Message-Id: <171803415685.9296.13133684404117358648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/master
-    old: 5fe0be8868aaa96fdd31bab5cfef079bf89a3fa2
-    new: d2118673f3ae27f667c0a8690d297cbb7f917e6e
+  - ref: refs/heads/ioctl
+    old: 896b04ab40af43bae2086b25da0c04af28d0ec9e
+    new: ca0e1d025f781ff5b07a5a9b966a340372170f36
     log: |
-         d2118673f3ae27f667c0a8690d297cbb7f917e6e Bluetooth: qca: Fix BT enable failure again for QCA6390 after warm reboot
+         4ff797805e9c973beccdda32bf6d946c292994f4 ioctl_fat.2, FAT_IOCTL_[GS]ET_ATTRIBUTES.2const: Split FAT_IOCTL_[GS]ET_ATTRIBUTES from ioctl_fat(2)
+         20c06b7215d103190a5e76d58e97a32202495d4c ioctl_fat.2, FAT_IOCTL_GET_VOLUME_ID.2const: Split FAT_IOCTL_GET_VOLUME_ID from ioctl_fat(2)
+         c2ca081a431978208be9542b387dacdd9c0a1cde ioctl_fat.2, VFAT_IOCTL_READDIR_{BOTH,SHORT}.2const: Split VFAT_IOCTL_READDIR_* from ioctl_fat(2)
+         ca0e1d025f781ff5b07a5a9b966a340372170f36 ioctl_fat.2, man2const/: Make sashimi
          
