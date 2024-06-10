@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
-Date: Mon, 10 Jun 2024 20:27:56 -0000
-Message-Id: <171805127643.26850.17590789725636907004@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Mon, 10 Jun 2024 20:31:17 -0000
+Message-Id: <171805147742.29829.9403826943330564817@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/teigland/linux-dlm
-user: teigland
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/next
-    old: a1c9b22a43f22f95f010b7efae62bf50cdc08d14
-    new: 01fdeca1cc2dd705b1391f31a2594214c8bd7886
+  - ref: refs/heads/for-6.11
+    old: 7ccc215187a78f2e5260b9ca82505219bcbec899
+    new: 37c2277fad7e90e2ca1202c9cdd13329ac91ecff
     log: |
-         4f5957a980d023405eb45bd31258fc8488a3acb1 dlm: change list and timer names
-         c217adfc8caad240ec7bed446a6a1a801d5acc6d dlm: fix add_scan and del_scan usage
-         01fdeca1cc2dd705b1391f31a2594214c8bd7886 dlm: use rcu to avoid an extra rsb struct lookup
+         37c2277fad7e90e2ca1202c9cdd13329ac91ecff workqueue: replace call_rcu by kfree_rcu for simple kmem_cache_free callback
+         
+  - ref: refs/heads/for-next
+    old: 911a0af6d8ec57be514b632cc5f6e9993db1547b
+    new: c10b245e1a5c9ff412e07a147b88306fbfa5f869
+    log: |
+         37c2277fad7e90e2ca1202c9cdd13329ac91ecff workqueue: replace call_rcu by kfree_rcu for simple kmem_cache_free callback
+         c10b245e1a5c9ff412e07a147b88306fbfa5f869 Merge branch 'for-6.11' into for-next
          
