@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3849963142727863801=="
+Content-Type: multipart/mixed; boundary="===============6655201699270210632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 10 Jun 2024 11:43:06 -0000
-Message-Id: <171801978676.22739.4611491920092015808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 10 Jun 2024 11:43:13 -0000
+Message-Id: <171801979390.22837.18265865413931173290@gitolite.kernel.org>
 
---===============3849963142727863801==
+--===============6655201699270210632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 83a7eefedc9b56fe7bfeff13b6c7356688ffa670
     log: revlist-c3f38fa61af7-83a7eefedc9b.txt
 
---===============3849963142727863801==
+--===============6655201699270210632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -411,4 +411,4 @@ c5dbc2ed0006d1a910b5496202a280138ce596e4 Merge tag '6.10-rc2-smb3-client-fixes' 
 b8481381d4e2549f06812eb6069198144696340c Merge tag 'perf-tools-fixes-for-v6.10-2-2024-06-09' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 83a7eefedc9b56fe7bfeff13b6c7356688ffa670 Linux 6.10-rc3
 
---===============3849963142727863801==--
+--===============6655201699270210632==--
