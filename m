@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7218639793451467487=="
+Content-Type: multipart/mixed; boundary="===============7714709881612593857=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 10 Jun 2024 12:53:15 -0000
-Message-Id: <171802399579.9827.15452933465998198710@gitolite.kernel.org>
+Date: Mon, 10 Jun 2024 12:53:40 -0000
+Message-Id: <171802402081.10041.8341139034749278938@gitolite.kernel.org>
 
---===============7218639793451467487==
+--===============7714709881612593857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 2df0193e62cf887f373995fb8a91068562784adc
-    new: 83a7eefedc9b56fe7bfeff13b6c7356688ffa670
-    log: revlist-2df0193e62cf-83a7eefedc9b.txt
+  - ref: refs/heads/tpm2key-v8
+    old: f2eae1791f88b0221e88b85339edce52becfdb93
+    new: e86e169f881f175947fa956a796385b530db6506
+    log: revlist-f2eae1791f88-e86e169f881f.txt
 
---===============7218639793451467487==
+--===============7714709881612593857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2df0193e62cf-83a7eefedc9b.txt
+Content-Disposition: attachment; filename=revlist-f2eae1791f88-e86e169f881f.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -313,5 +313,11 @@ c5dbc2ed0006d1a910b5496202a280138ce596e4 Merge tag '6.10-rc2-smb3-client-fixes' 
 637c2dfcd9f5e194ab2e879704460840edcde537 Merge tag 'edac_urgent_for_v6.10_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 b8481381d4e2549f06812eb6069198144696340c Merge tag 'perf-tools-fixes-for-v6.10-2-2024-06-09' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 83a7eefedc9b56fe7bfeff13b6c7356688ffa670 Linux 6.10-rc3
+26c72f77c35a906c3d21358c6ea54fc490f58015 KEYS: trusted: Change -EINVAL to -E2BIG
+cfcd4b24efdca41f0a76d6674a0dbaf6b89cf55e crypto: rsa-pkcs1pad: export rsa1_asn_lookup()
+96786c97d16e6b3975280ba3ef78697b2626d446 crypto: tpm2_key: Implement a robust parser
+6d4d7682221c178e2fc72d7c2672c6e627260570 keys: asymmetric: TPM2 RSAPKCS1 signing key
+6c4d66fff8c6825f75fdf7655c58e9106eff9439 tpm: Export tpm_buf_read()
+e86e169f881f175947fa956a796385b530db6506 keys: asymmetric: TPM2 ECDSA signing key
 
---===============7218639793451467487==--
+--===============7714709881612593857==--
