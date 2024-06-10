@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1637634831284901373=="
+Content-Type: multipart/mixed; boundary="===============5340610357305375671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 10 Jun 2024 22:06:36 -0000
-Message-Id: <171805719642.4500.1868550172863428731@gitolite.kernel.org>
+Date: Mon, 10 Jun 2024 22:32:26 -0000
+Message-Id: <171805874685.23029.15146386465273698180@gitolite.kernel.org>
 
---===============1637634831284901373==
+--===============5340610357305375671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 061d1af7b0305227182bd9da60c7706c079348b7
-    new: 83a7eefedc9b56fe7bfeff13b6c7356688ffa670
-    log: revlist-061d1af7b030-83a7eefedc9b.txt
-  - ref: refs/tags/v6.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c17c3ec8582ec50a5af41b359d7b281e56593201
+  - ref: refs/heads/kbuild
+    old: 3483b5562df89abb8df702a1c6571763a372198e
+    new: e0f19cb5072fe2aa7e30765cc534e757c56696aa
+    log: revlist-3483b5562df8-e0f19cb5072f.txt
 
---===============1637634831284901373==
+--===============5340610357305375671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-061d1af7b030-83a7eefedc9b.txt
+Content-Disposition: attachment; filename=revlist-3483b5562df8-e0f19cb5072f.txt
 
 e5c7bd4e5ca0f549108a7013ba77885926c6a56b tools include UAPI: Sync linux/stat.h with the kernel sources
 0efc88e444d9d74f220f60a3e37143c8decf1bea tools headers UAPI: Sync linux/prctl.h with the kernel sources
@@ -52,5 +49,14 @@ c5dbc2ed0006d1a910b5496202a280138ce596e4 Merge tag '6.10-rc2-smb3-client-fixes' 
 637c2dfcd9f5e194ab2e879704460840edcde537 Merge tag 'edac_urgent_for_v6.10_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 b8481381d4e2549f06812eb6069198144696340c Merge tag 'perf-tools-fixes-for-v6.10-2-2024-06-09' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 83a7eefedc9b56fe7bfeff13b6c7356688ffa670 Linux 6.10-rc3
+a922f7d5268eb48b88b41925f20dca060865fb53 initramfs: shorten cmd_initfs in usr/Makefile
+b83dfef49e6d0e64bd48237456db3c2319e71e28 kconfig: qconf: remove initial call to conf_changed()
+c52da40feb53fe4cde4e59d1406a381db1f2a48e kconfig: gconf: remove unnecessary forward declarations
+7ab2babba7ec08edd0d00183cb1cafebfa77ba1b kconfig: gconf: move conf_changed() definition up
+43d090509bf96b7686b40d33e9627ec638d3dceb kconfig: pass new conf_changed value to the callback
+43330b36d239c4283ac67eaa80d9313a44514975 kconfig: remove tristate choice support
+84309f37976b2985e6e5b57b31aa837dd2c97277 kconfig: refactor conf_set_all_new_symbols() to reduce indentation level
+544b6a33b1ec5d5c17fe6ef2da3f6445d4f7b4d0 kconfig: refactor conf_write_defconfig() to reduce indentation level
+e0f19cb5072fe2aa7e30765cc534e757c56696aa kbuild: Install dtb files as 0644 in Makefile.dtbinst
 
---===============1637634831284901373==--
+--===============5340610357305375671==--
