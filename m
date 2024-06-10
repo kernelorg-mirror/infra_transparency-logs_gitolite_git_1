@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2513268006906300905=="
+Content-Type: multipart/mixed; boundary="===============9099997264965391398=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Mon, 10 Jun 2024 04:52:24 -0000
-Message-Id: <171799514480.30863.15684421819926430037@gitolite.kernel.org>
+Date: Mon, 10 Jun 2024 04:53:27 -0000
+Message-Id: <171799520766.31320.14055542321438316484@gitolite.kernel.org>
 
---===============2513268006906300905==
+--===============9099997264965391398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-fixes
-    old: 165d941ff7ba7fc78fedbee1a5ff1e50e38271fd
+  - ref: refs/heads/for-linux-next
+    old: 7097bc7ba60f16ecd09f64055759a86abf6b51cf
     new: 1f3512cdf8299f9edaea9046d53ea324a7730bab
-    log: revlist-165d941ff7ba-1f3512cdf829.txt
+    log: revlist-7097bc7ba60f-1f3512cdf829.txt
 
---===============2513268006906300905==
+--===============9099997264965391398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-165d941ff7ba-1f3512cdf829.txt
+Content-Disposition: attachment; filename=revlist-7097bc7ba60f-1f3512cdf829.txt
 
 539d33b5783804f22a62bd62ff463dfd1cef4265 drm/komeda: remove unused struct 'gamma_curve_segment'
 629f2b4e05225e53125aaf7ff0b87d5d53897128 drm/panel: sitronix-st7789v: Add check for of_drm_get_panel_orientation
@@ -45,4 +45,4 @@ eb55943aab89be99a26e34fc2175ebb3583a2778 Merge tag 'drm-misc-next-fixes-2024-06-
 799d4b392417ed6889030a5b2335ccb6dcf030ab drm/exynos: hdmi: report safe 640x480 mode as a fallback when no EDID found
 1f3512cdf8299f9edaea9046d53ea324a7730bab drm/exynos: dp: drop driver owner initialization
 
---===============2513268006906300905==--
+--===============9099997264965391398==--
