@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Mon, 10 Jun 2024 09:06:17 -0000
-Message-Id: <171801037735.24424.7281942213238712237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 10 Jun 2024 09:10:30 -0000
+Message-Id: <171801063061.28924.10515448671183375785@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: f4858c9657135813e23dbd2bb8f90346aedf5ecf
-    new: a5ebe64f364021e438121031e5a2f7a42dfff2b1
+  - ref: refs/heads/master
+    old: 41e7686c9ad1ea7892b9d8941c266869bf6a28dd
+    new: e9977b8c120c07ded70dfa29a67934004b4d692d
     log: |
-         c688f0defcd1b643b7d315266db79cee357208ca pwm: jz4740: Another few conversions to regmap_{set,clear}_bits()
-         a5ebe64f364021e438121031e5a2f7a42dfff2b1 pwm: axi-pwmgen: Make use of regmap_clear_bits()
-         
-  - ref: refs/heads/pwm/for-nexxt
-    old: f4858c9657135813e23dbd2bb8f90346aedf5ecf
-    new: a5ebe64f364021e438121031e5a2f7a42dfff2b1
-    log: |
-         c688f0defcd1b643b7d315266db79cee357208ca pwm: jz4740: Another few conversions to regmap_{set,clear}_bits()
-         a5ebe64f364021e438121031e5a2f7a42dfff2b1 pwm: axi-pwmgen: Make use of regmap_clear_bits()
+         e1212849663ce29f6b2b03ab5ffc85375da1f002 lsfd: minimize the output related to lsfd itself
+         ed61f54dcd61130658335a2de97e06453af3fdde lsns: ignore ESRCH errors reported when accessing files under /proc
+         e9977b8c120c07ded70dfa29a67934004b4d692d Merge branch 'lsfd--close-all' of https://github.com/masatake/util-linux
          
