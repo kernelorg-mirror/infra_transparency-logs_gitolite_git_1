@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 10 Jun 2024 12:16:07 -0000
-Message-Id: <171802176727.15660.11015343340084002500@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 10 Jun 2024 12:18:34 -0000
+Message-Id: <171802191436.16551.14457124537754090758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: c917b26e1686b99f18a3c9fbce508a7c264c6706
-    new: 395059c52e0104a5e01832f866caa8b15284dd9a
+    old: d029edefed39647c797c2710aedd9d31f84c069e
+    new: 93792130a9387b26d825aa78947e4065deb95d15
     log: |
-         5380d64f8d766576ac5c0f627418b2d0e1d2641f rtnetlink: move rtnl_lock handling out of af_netlink
-         5fbf57a937f418fe204f9dbb7735e91984f4ee6a net: netlink: remove the cb_mutex "injection" from netlink core
-         395059c52e0104a5e01832f866caa8b15284dd9a Merge branch 'rtnetlink-rtnl_lock'
+         c6ae073f5903f6c6439d0ac855836a4da5c0a701 geneve: Fix incorrect inner network header offset when innerprotoinherit is set
+         791b4089e326271424b78f2fae778b20e53d071b net/mlx5e: Fix features validation check for tunneled UDP (non-VXLAN) packets
+         93792130a9387b26d825aa78947e4065deb95d15 Merge branch 'geneve-fixes'
          
