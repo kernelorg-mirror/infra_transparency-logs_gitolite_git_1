@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 10 Jun 2024 20:10:11 -0000
-Message-Id: <171805021157.15570.12064306236560915245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 10 Jun 2024 20:14:54 -0000
+Message-Id: <171805049447.17271.14571304332954507626@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/tpm2key-v8
-    old: e0627a3424a848260b89383e17a7b3a477d484ef
-    new: e86e169f881f175947fa956a796385b530db6506
+  - ref: refs/heads/for-linus
+    old: 8ab27b423a46a923511a272c8fc616b401b96466
+    new: 9554dd215fee58118b23e0f6b8f356e8bc320da0
+    log: |
+         9554dd215fee58118b23e0f6b8f356e8bc320da0 MAINTAINERS: Orphan Synopsys DesignWare xData traffic generator
+         
