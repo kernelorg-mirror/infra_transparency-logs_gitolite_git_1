@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5783143682830360177=="
+Content-Type: multipart/mixed; boundary="===============5300841019028862889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 10 Jun 2024 18:08:44 -0000
-Message-Id: <171804292414.21091.6732166125365751332@gitolite.kernel.org>
+Date: Mon, 10 Jun 2024 18:09:07 -0000
+Message-Id: <171804294734.21319.17640804947880047537@gitolite.kernel.org>
 
---===============5783143682830360177==
+--===============5300841019028862889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/const_driver
-    old: a7ff3551624e18be331a36c560f07d1302497e28
-    new: 385b0d829b80152565d772bae71c321ad9840330
+    old: 385b0d829b80152565d772bae71c321ad9840330
+    new: 6f0f76bd99e259ff0aee9f2e6aed360e258c1077
     log: |
-         385b0d829b80152565d772bae71c321ad9840330 WIP: driver core: have match() callback in struct bus_type take a const *
+         6f0f76bd99e259ff0aee9f2e6aed360e258c1077 driver core: have match() callback in struct bus_type take a const *
          
 
---===============5783143682830360177==
+--===============5300841019028862889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718042917 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718042942 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1718042916-ed614749bdba0a5767e8f6377178ca8e00b4bddf
+nonce 1718042941-d9712a07094041d5fecabf9eec60e85578c18afd
 
-a7ff3551624e18be331a36c560f07d1302497e28 385b0d829b80152565d772bae71c321ad9840330 refs/heads/const_driver
+385b0d829b80152565d772bae71c321ad9840330 6f0f76bd99e259ff0aee9f2e6aed360e258c1077 refs/heads/const_driver
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZnQSUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9toP/0UL1koXGwle8r+x0pWJ
-RP8dWK9DeaN+WhDGEYmebo/BuWdUH8+jWuVu6W52TmJXjbWiby7wqUSi5XK+QMAI
-/cOF/UzzsLl+U9I3MoQrpGvMGNSEhbgHRShQlDtYEUFlwO9j96HI7jmRD67smAq3
-fthmRHAuRLdlk9K+daMqhZuEPpDDNe9YOBt/bkD8vihetVA+Yf0q7RBmz7I+/u5n
-Cacdy3HF9nlqF7d7DQSfGV8ulkY/2+k1g5kBPSroZ2PTR1NA0jRB+RTurLYFaktA
-GHLH6Qu+nnjeq4TvBMDYXXxmb656dVwO9E+2SZxv9nBBO8koQw8X9qJ3P9+i2Pu0
-r9f/K1fmhqyfg4UouaTzYBeTAMaFKUmwGKadIuh65/OK5AIrs0CiPPncTB+4vSwI
-u1CLNw0qg8tSublluIxYLBQdk9GnCiEJZdkZKFbZlkmU0ezBARfuH7tPBdSTAOcM
-6M0JLG45dNBDmEkfRZEPKoksj8Lcky/SZW+CpH8KiLxy87lPLW2ID90d5gkYeqWl
-5a4Yn3S6iuMO5fhpiDLfCBw70OwwiKjThZp5zqyhNmWfdXlnrdRnCjuVYrAOIexE
-WAoE4BMdcedaGAYNrPPDlzZAKwBAv9xLhOpuITlm1+eUJWin3XjWYjIj/JlZxNlX
-GjDlkFWbx6NjUQjBbV+mbV/9
-=IRb4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZnQT4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CCgP/ibJ2L2kTypYes//GHUV
+plFvNDmWdaRkDKnfs6dKYWT0zNeZMeyOQ3Qkh4l2Df/TLrP/CWc2HMTXU/Qmi9xD
+kHVdSIqIOURfcEOt7PfIXpiHpunN/1oin1W0f8kWTuJjApxbhV6S9KRy5f9Pbd6F
+DOacNwUtUWsXFnU823HFJpKY4fJyqDzr266SuM/Y9SJD4P+Q9awP9pyWF+/tgH+A
+tTfogDE4GqVjZhJILdnz4IYPytOws1c/0mjKGKyxOhvgksLT54y2qgXpZCFiSCWk
+SbOPkSk5/mC75mGOzW7Tj38rYXudA72Z9WEVrj1AVPHKLn7I36RZskjmsYAlQWa3
+L73SbWM4FEpZgTGgLE5uQqEh6vrtSwU1prpYbOkgY/qaPyNWTPUo4euTyV2SVGPK
+HusBXP+IMKPIgp4Xpdyv7p3eIK5/VM0vOuMm2MkFVNKAEzuJv3IwP4MScGYSYPBJ
+Me42X9AIXSZh84Ci9CVp1mageNygYFwBjgH+9uxe7+W1R6PkpKawLrToFXFV4sJY
+LH5uRD9VovXqvUY4ewd7pRc/K68VKWyjlq331RMIkq0SS/QYGx4FecYq6CYa2L9F
+2d2iw4TiA186zOXUYB4TgaNXUgqzTjRXdIOMqOiBbremb+Bbnexnp5rWJxcJtI65
+fGe7aRYU2WCgCzypcBJ6ypU4
+=X5As
 -----END PGP SIGNATURE-----
 
---===============5783143682830360177==--
+--===============5300841019028862889==--
