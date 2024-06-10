@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1014566604735955214=="
+Content-Type: multipart/mixed; boundary="===============0459276840683970195=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 10 Jun 2024 11:00:01 -0000
-Message-Id: <171801720190.22093.1086080022383557711@gitolite.kernel.org>
+Date: Mon, 10 Jun 2024 11:00:48 -0000
+Message-Id: <171801724802.24167.5935155094898570301@gitolite.kernel.org>
 
---===============1014566604735955214==
+--===============0459276840683970195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 873c60e820ef05e313bf036c3382a1a18e25258f
-    new: 1eb862e5a3026b81b3c1fd26af3b9fc0e44887bb
-    log: revlist-873c60e820ef-1eb862e5a302.txt
+  - ref: refs/heads/m68k-queue
+    old: aec08ed0735b15dbf3e9f2f73da0856490454aeb
+    new: 321575fbfed0663497eda4fc209aaa45666d6af4
+    log: revlist-aec08ed0735b-321575fbfed0.txt
 
---===============1014566604735955214==
+--===============0459276840683970195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-873c60e820ef-1eb862e5a302.txt
+Content-Disposition: attachment; filename=revlist-aec08ed0735b-321575fbfed0.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -410,6 +410,9 @@ c5dbc2ed0006d1a910b5496202a280138ce596e4 Merge tag '6.10-rc2-smb3-client-fixes' 
 637c2dfcd9f5e194ab2e879704460840edcde537 Merge tag 'edac_urgent_for_v6.10_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 b8481381d4e2549f06812eb6069198144696340c Merge tag 'perf-tools-fixes-for-v6.10-2-2024-06-09' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 83a7eefedc9b56fe7bfeff13b6c7356688ffa670 Linux 6.10-rc3
-1eb862e5a3026b81b3c1fd26af3b9fc0e44887bb Merge tag 'v6.10-rc3'
+55267504d137bf16b9563f775f77053079a296d6 m68k: amiga: Turn off Warp1260 interrupts during boot
+2e2cb52196cc7f36d39974e2eab72234fc637a3a m68k: atari: usb: Add ISP1160 USB host controller support
+1d2b8269c00c1f608015404716cd565ed45bfbd9 m68k: atari: Update Kconfig.bus help text
+321575fbfed0663497eda4fc209aaa45666d6af4 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1014566604735955214==--
+--===============0459276840683970195==--
