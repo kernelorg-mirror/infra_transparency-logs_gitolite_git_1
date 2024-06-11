@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6246770891493384537=="
+Content-Type: multipart/mixed; boundary="===============2628967030430001298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 11 Jun 2024 11:08:07 -0000
-Message-Id: <171810408705.19916.7273832525916248141@gitolite.kernel.org>
+Date: Tue, 11 Jun 2024 11:09:45 -0000
+Message-Id: <171810418596.20531.1560774206497762944@gitolite.kernel.org>
 
---===============6246770891493384537==
+--===============2628967030430001298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/const_driver
-    old: a240c1a41a08a40a6e5b947897c6b602ee7a4747
-    new: 4bc975c9524851d6d9e9156c14dc17bb5db276d3
+    old: 4bc975c9524851d6d9e9156c14dc17bb5db276d3
+    new: d1d6b1986b761c4b1be394afa284563f89d2f793
     log: |
-         4bc975c9524851d6d9e9156c14dc17bb5db276d3 USB: move dynamic ids out of usb driver structures
+         6a362d1a20a54030d298ef61b9c4e1a8d7da4e85 driver core: have match() callback in struct bus_type take a const *
+         6fbea00c669faea9c01d34fc088b1213501c7693 USB: make single lock for all usb dynamic id lists
+         ee094782ce567e385d7199c33cd21dc9a13fa3e1 USB: make to_usb_driver() use container_of_const()
+         1fdcfc90b9f333574e16193120e539615f8bc98b USB: make to_usb_device_driver() use container_of_const()
+         d1d6b1986b761c4b1be394afa284563f89d2f793 USB: move dynamic ids out of usb driver structures
          
 
---===============6246770891493384537==
+--===============2628967030430001298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718104080 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718104184 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1718104079-78652596b413d3384a421db2583959cfa3ba1a52
+nonce 1718104182-f5d7362cce78748583475069c1cceafbeb89b5e3
 
-a240c1a41a08a40a6e5b947897c6b602ee7a4747 4bc975c9524851d6d9e9156c14dc17bb5db276d3 refs/heads/const_driver
+4bc975c9524851d6d9e9156c14dc17bb5db276d3 d1d6b1986b761c4b1be394afa284563f89d2f793 refs/heads/const_driver
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZoMBAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+txAP/A347buvfmHvfEluFC31
-PLBFJKTmVThCSJZ0qDghNNtFWBfwdCXfy78WyoMDHcmOH5VipJcPPX6Zi78oj5/N
-SV/DOYRbSyzllNQRoTL/wRbSGFT2f2RjMWDTSGaRk7Z/qhdPJrGSFVyIM2yRroCO
-H8yTbjAaJL26DfsrVVpAAcsy34oWg7fGw5nZl0ZkeMnSxPZR/xmhR009w3MUB26t
-LWOqUvuv/JgIMaf+DujhaiU9f1F2/U9uHnrdwKlXIvI6qUvkefu0BqXN4+qDxFZJ
-WkGUmrXd3GofuXCAD3+wNHYuBVnbXpszhWyw5HLgIRgRfop5ovsN0HR9oe41S86Z
-hDe6MtpZiYlAAS2d4tsyxIFfYJcrBPspubXAGuJqqM4Wdn9yRHhO4A+bt0Ot0R4S
-qQ0xMI+WImY7c82jns/SsQCRxzqFCkoKKjiQJUBaJZdd4uPk9QHQdgotxyJY3U+w
-O5lH/9v1ldpakn9UuYFEzJAbfSYIK5ypBtcV6EqeiRdRGfr3xcdKCMqGM9ayC4sL
-5iWrBnwBywfUIzJhNVrDaURbU/aLXSLEvvwMieneKJG4hk8vUkl1sxA1jzBNaPT3
-I6moN3In8XG9Zp/41E/y9tNhxZb0GnNTeZ0UGccAwdj5egaxsSp9XmzE5cou9ULz
-URr0qtEXV9ajwbF4poE5YRbP
-=Kfem
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZoMHgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LB4QAMwHqfneIt/xs1ce35hW
+IwI3ZzCYrzmH5XiU4LSk9poCJGnDHM4jD+yDq41zVuGP08tNcSWSB44bUzOh0uM4
+FBnzgxu2zrOrVO3j/O+JImxm47jUiGGH+vfHAFmkpgP8owlWkJSDHbAvGizUdwLg
+kFYYfqVHLqutrU5QlOfvKj5+NQnUByzEo1AAVJqYMwtmvp6lLJ2D21M9zWXsgHvV
+BcA4zya5vaXUCF3oJnULpJ1s8GMSwmkb8AOpf1Zm3N48BlwRNlFhen8sS8emw2dw
+K7J+COpHCrpBn2uMIeJcRi5lxW0TSOO91I6Q1Qjqk7mlU56W6Sf8Qzdue61ko75m
+1dkCbfPyv8s5P4VTVB7ttDpby+6wbTBjmqyvBD5z46pALyibh+o3W+kqDHtguyQS
+5IiKFIJa+4tqHVyDtHWaWD3nLudWjBBACjQsuNFfVq74uw80icKmWtoQZdw2Ai1Y
+JJHlfGQYrOCCDM+Q4SOd4M0W7yAe4rLNRQzzliAK64oRVAr5II/Ot9f8IajORZOU
+bAlIdPbmtpe1lRJIqVJnu/0c384msrzfOiNzL2I70ohPMl8N8HHFn21dr++MvwEa
+wdVzSCU0g8m7DYS7kDNYr7LJOdPlq8prS4BvoF5aRQb8+mBYbHdX8CKPcF618ztz
+pOTCUertRO5dt+5BzucbaPBW
+=iSWK
 -----END PGP SIGNATURE-----
 
---===============6246770891493384537==--
+--===============2628967030430001298==--
