@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/tftp/tftp-hpa
-Date: Tue, 11 Jun 2024 03:24:51 -0000
-Message-Id: <171807629106.17587.15532736879653899089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 11 Jun 2024 03:32:57 -0000
+Message-Id: <171807677745.23773.17579587571827278427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/tftp/tftp-hpa
-user: hpa
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: cb619257ed1875fcc95c31c81e43a21c0e00fbf1
-    new: ac7f98e4d8036d6194b41920e46e37be40b496a4
+    old: f3738a209f6f740fe12138f19729a973c151fe65
+    new: 180b58d2b0401ab43e404d92a11c7af6ca5e3f11
     log: |
-         74c5d8a02030a0e598f6dd7db0c122d1b38bd904 .editorconfig: tabs are 8
-         ac7f98e4d8036d6194b41920e46e37be40b496a4 remap: fix timeouts for "g", add a "gg" flag to match sed s///g
+         180b58d2b0401ab43e404d92a11c7af6ca5e3f11 foo
          
