@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============8553955053181092772=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 11 Jun 2024 22:48:29 -0000
-Message-Id: <171814610919.28355.2674597438773101604@gitolite.kernel.org>
-
---===============8553955053181092772==
-Content-Type: text/plain; charset="us-ascii"
+Date: Tue, 11 Jun 2024 23:05:06 -0000
+Message-Id: <171814710699.8378.4746288484725589279@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,29 +12,16 @@ repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
   - ref: refs/heads/nfs-localio-for-6.11
-    old: 588eb9fa9c806440b7a7b86c080e4ade6b912035
-    new: f724d686305ac52a828d1198dd31dee2f4cfa206
-    log: revlist-588eb9fa9c80-f724d686305a.txt
-
---===============8553955053181092772==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-588eb9fa9c80-f724d686305a.txt
-
-f87f22c666bc6fc886c3e9d4cf39e5967f61f5b8 nfs: pass struct file to nfs_init_pgio and nfs_init_commit
-7440083ed01764bfcdb05dd6b09d33d86dc853aa sunrpc: add rpcauth_map_to_svc_cred_local
-98ad1771ec5d80b122c8763c9dff4124a5a3e77a nfs: move nfs_stat_to_errno to nfs.h
-13f573606540e63b90d3e234dcbbadf6380ccfe1 nfs_common: add NFS LOCALIO protocol extension enablement
-218b81d8407c5ba016aa9c2ef9a47871f038a4b9 nfs/nfsd: add "localio" support
-7cd3c724023b2580b72e3c41c286a65494d83208 NFS: for localio don't call filesystem read() and write() routines directly
-626b3458cc4038298727b3a06f23692d467f0788 NFS: Enable localio for non-pNFS I/O
-ce835119477efbcc011f2ea8c0229cd6099e9f6d pnfs/flexfiles: Enable localio for flexfiles I/O
-f5a9a4a1063cbe15c57260e1895111e1bb8205f8 NFS: Add tracepoints for nfs_local_enable and nfs_local_disable
-291b29771a12e688e8a44c6bbeb87b8846359273 nfs: implement v3 and v4 client support for NFS_LOCALIO_PROGRAM
-8ff357b4fb2004350ee67a2c6b999a990e047fdf nfsd: implement v3 and v4 server support for NFS_LOCALIO_PROGRAM
-b466f98833435c5f0b77da242561b7647a879eee nfs/nfsd: consolidate {encode,decode}_opaque_fixed in nfs_xdr.h
-f0cdf34a1022763cd480848e6e1e6bf7dc46052b nfs/localio: move managing nfsd_open_local_fh symbol to nfs_common
-f724d686305ac52a828d1198dd31dee2f4cfa206 nfs/nfsd: ensure localio server always uses its network namespace
-
---===============8553955053181092772==--
+    old: f724d686305ac52a828d1198dd31dee2f4cfa206
+    new: c5ea738289294d884b6318911e7acedfd1201395
+    log: |
+         ea80c2932c81f5d1cd76c02c5261f85ac26c96c7 NFS: for localio don't call filesystem read() and write() routines directly
+         eff4a7a2bf66f8a30fc84370119d684eb016707a NFS: Enable localio for non-pNFS I/O
+         f314b2fea21de0b7109c59450c514ab2531c86e8 pnfs/flexfiles: Enable localio for flexfiles I/O
+         8426e34a85dab6c97ec3366f4517a96700413e9e NFS: Add tracepoints for nfs_local_enable and nfs_local_disable
+         3ffa1e8915fb83f027f7fca30668c4562df19b85 nfs: implement v3 and v4 client support for NFS_LOCALIO_PROGRAM
+         f3787b45472b198b67a873455687f0b76f382df7 nfsd: implement v3 and v4 server support for NFS_LOCALIO_PROGRAM
+         2a69f0e94c9c65dff7b9e590f17fdd611de7be38 nfs/nfsd: consolidate {encode,decode}_opaque_fixed in nfs_xdr.h
+         d1b39f003720d89db946449c4a20f72d86009129 nfs/localio: move managing nfsd_open_local_fh symbol to nfs_common
+         c5ea738289294d884b6318911e7acedfd1201395 nfs/nfsd: ensure localio server always uses its network namespace
+         
