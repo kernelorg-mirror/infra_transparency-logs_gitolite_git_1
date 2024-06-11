@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 11 Jun 2024 18:30:05 -0000
-Message-Id: <171813060512.31400.5067771398969649266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
+Date: Tue, 11 Jun 2024 18:32:42 -0000
+Message-Id: <171813076259.32481.675213137283357245@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/teigland/linux-dlm
+user: teigland
 changes:
-  - ref: refs/heads/master
-    old: fbf954c96bb4089b3097adde723216a4668f854b
-    new: c6783fc35ab01eb7f8b92bd4369c7d277538fd88
+  - ref: refs/heads/next
+    old: 01fdeca1cc2dd705b1391f31a2594214c8bd7886
+    new: 5ce02000eb29db98dc2909b1a346f68acdd9db80
     log: |
-         f956fed4d181d41a5b1c49bba9dce46d8197d428 Reapply "smalloc: smalloc() already clears memory, scalloc() need not do it again"
-         c6783fc35ab01eb7f8b92bd4369c7d277538fd88 t/stest: confirm that scalloc clears the buffer
+         d3d85e9ad55b973eff3641dd3a61990a2c810785 dlm: use LSFL_FS to check for kernel lockspace
+         f328a26eeb5380bc74e58cb9c3280a4908452df7 dlm: introduce DLM_LSFL_SOFTIRQ_SAFE
+         68bde2a67a6d6e5a2b8e1a64bad51dd8c3975256 dlm: implement LSFL_SOFTIRQ_SAFE
+         5ce02000eb29db98dc2909b1a346f68acdd9db80 md-cluster: use DLM_LSFL_SOFTIRQ for dlm_new_lockspace()
          
