@@ -1,27 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 11 Jun 2024 17:09:23 -0000
-Message-Id: <171812576307.2306.12187586436774407704@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6694243543878626970=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 11 Jun 2024 17:09:25 -0000
+Message-Id: <171812576582.2381.15927932464997017840@gitolite.kernel.org>
+
+--===============6694243543878626970==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/damon/next
-    old: 9896a6cf96614823b93a9dfc6fda97d11f9068e3
-    new: 18d7a2f314c271675577fc683bfc0928c3922abb
-    log: |
-         1a1c27ff5a5a5d178a835ba872fe2f1af4640725 mm/damon/sysfs-schemes: use damos_commit_quota_goals()
-         f6b8e93030e1965aa556ed149722e2e902e20bd7 mm/damon/sysfs: remove unnecessary online tuning handling code
-         9e35c1180054a1be4e570f7dec7343a0eff89103 mm/damon/sysfs: rename damon_sysfs_set_targets() to ...add_targets()
-         3ebf95a5542429b16011316eb00afe565c82294b mm/damon/sysfs-schemes: remove unnecessary online tuning handling code
-         4a0bf291d337456d5b41b2ecedd02fd01e0ec142 mm/damon/sysfs-schemes: rename *_set_{schemes,scheme_filters,quota_score,schemes}()
-         6abb1970d5429adffcaa448c44ed6469838c8107 mm/damon/reclaim: use damon_commit_ctx()
-         777443c1fe7cb4d77c34b01940d21099dfe40f7c mm/damon/reclaim: remove unnecessary code for online tuning
-         1d6b803ee88baede932985d94f8cbb4d278ee8ba mm/damon/lru_sort: use damon_commit_ctx()
-         18d7a2f314c271675577fc683bfc0928c3922abb mm/damon/lru_sort: remove unnecessary online tuning handling code
-         
+  - ref: refs/heads/stable-0.14.y
+    old: 0000000000000000000000000000000000000000
+    new: d768c53db3f4a0efe249bfd629c6d2293deb36dc
+
+--===============6694243543878626970==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1718125765 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1718125765-63e1d840d33ae7b5015f1590227ef6b3633b4049
+
+0000000000000000000000000000000000000000 d768c53db3f4a0efe249bfd629c6d2293deb36dc refs/heads/stable-0.14.y
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZmiExQAKCRC2xBzjVmSZ
+bJAlAQDT9sp4s1tbNOKZyvqqfN/J2C+/08+v19siWcJS0+4i/gD/UOfRy9g3lj30
+QnK5vROX9O90N1v9UXxCoOc2PLnh6AA=
+=V2NY
+-----END PGP SIGNATURE-----
+
+--===============6694243543878626970==--
