@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 11 Jun 2024 19:34:17 -0000
-Message-Id: <171813445742.14079.4952407016006175241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 11 Jun 2024 19:44:10 -0000
+Message-Id: <171813505081.22239.3965934305955273783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-next
-    old: f0af9497acd53555e247df1b11b2eca283bce4df
-    new: 68b683893f0cd7d6e82e7a09670f592505aaf8a7
+  - ref: refs/heads/gpio/for-next
+    old: 7f1e45f4ae7671550e15354ef87194bccd99ecec
+    new: 413427153921ac8263d3a516bfbdaa42fa058085
     log: |
-         1cc338b5c0757eb110e06b03fa3380f4a7dc045b of: dynamic: Constify parameter in of_changeset_add_prop_string_array()
-         55b3755d3d014a3c67ac9600f79742751435ca3b of: unittest: Add tests for changeset properties adding
-         cc21aded56cea823eae58f988b32cbe4c51e89af of: dynamic: Introduce of_changeset_add_prop_bool()
-         8ec9d1c76e306b140435c5d30783b3a04ca8b067 of: unittest: Add a test case for of_changeset_add_prop_bool()
-         68b683893f0cd7d6e82e7a09670f592505aaf8a7 PCI: of_property: Add interrupt-controller property in PCI device nodes
+         8a05de23adabc4d982dfdeabc184a267f7a50491 gpio: sim: use device_match_name() instead of strcmp(dev_name(...
+         b5f5cbee764e2faffe5241445830a5e43084f3a0 gpio: sim: drop kernel.h include
+         413427153921ac8263d3a516bfbdaa42fa058085 gpio: sim: use devm_mutex_init()
          
