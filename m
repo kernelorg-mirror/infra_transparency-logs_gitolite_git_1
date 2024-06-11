@@ -1,56 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============6199195427535895116=="
+Content-Type: multipart/mixed; boundary="===============8626797364199796630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Tue, 11 Jun 2024 10:15:42 -0000
-Message-Id: <171810094233.13093.3186563807980691787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 11 Jun 2024 10:18:37 -0000
+Message-Id: <171810111709.14223.3579401154630144861@gitolite.kernel.org>
 
---===============6199195427535895116==
+--===============8626797364199796630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slub-reservations
-    old: d6edafa2da63b38125001a3ce848cd4fd74bf3ad
-    new: f5877f7833fc9f8a236be339ae5bbcccdde7c850
-    log: |
-         17f60c99bf92fbf1ed52e1c492f46cec91d14cd5 mm, slub: implement per-cache reserves
-         3ae623ab8ec82241c38ef52190b96384a5d664c6 mm, mempool: reimplement slab mempools by kmem_cache_reserve
-         a0e111f656b370b2e3c29369526615fd952ebdeb mm, mempool: hijack all mempools using mempool_alloc_slab/mempool_free_slab
-         5cc815e628b86839f757b37f7d175044493010d4 mm, mempool: reimplement kmalloc pool as slab pool
-         89eb3a01db2bd04f11aeb6ce79c5abf0790bcc78 nvme/host/pci: use mempool_create_kmalloc_pool()
-         fa7762bc0753471875ad44e16c89e70e3d558cda mm, mempool: stop handling poisoning for slab and kmalloc mempools
-         f5877f7833fc9f8a236be339ae5bbcccdde7c850 mm, mempool: switch page poisoning to common code
-         
+  - ref: refs/heads/for-6.11
+    old: b97e40905580c4585faa491189214e74101ca2ad
+    new: 40751808803b78f6dda7f39e6717eb9dc8c5c309
+    log: revlist-b97e40905580-40751808803b.txt
 
---===============6199195427535895116==
+--===============8626797364199796630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1718100938 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1718100937-8168dac96492cf75547c386766a06cddd6a85ecb
+pusher Mark Brown <broonie@kernel.org> 1718101115 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1718101114-b863c0a95fcc3d6cffe9b99891072d48b5b74b65
 
-d6edafa2da63b38125001a3ce848cd4fd74bf3ad f5877f7833fc9f8a236be339ae5bbcccdde7c850 refs/heads/slub-reservations
+b97e40905580c4585faa491189214e74101ca2ad 40751808803b78f6dda7f39e6717eb9dc8c5c309 refs/heads/for-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmZoI8oACgkQu+CwddJF
-iJpgUQf8DnvcV8UfImgRibUPhfAYJjuMa6my6nzdHyzHzoFKZnpF1ITcrj1v5/63
-cB12glEJQex8GHbhO3wYJ2WcjsnqPmIO0dPNqoFrBhVscXEI0C0MzuTgzJqaAvGt
-ME/wfRFs2G3pmVrX5qx7iTNiTx3z2NeTOm0hqfqAFbKpAQvuhgXaXvviyHqQ3lqc
-oswx99h+tHlpYIJxiO8dNDENGoNthBhQajrqyp2vFEFC1xWReGIIuRY27A6C5AvU
-lelznHaSxhCytG+7yUkSiHYGIqvq8WXrW3hrcVE9omtEgM5/irn/6vJuqO56yj/n
-4oAv4yq5rYVvxaODcm9nxqbdArbdCA==
-=XTfv
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZoJHsTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0GjJB/9FohieuevqPTBiTRX6Xi4vI9cvSCml
+DzLBRk6BG5fTHIEpaNtgtqM/LKCCr0cCF9oFBuz8JxIbV6Q/DwemdtvNb08jDOBH
+OIqCUTMP4EeUa7hnAVwYKXeX/dc5Pcs2ieej6uDp1yFIfhOgS8G40TG4v1hIxNIu
+4mjbrs2BBHEHoU2oLj5LtVjOtfjlai2mDgPnHtjAdQt7pnMJ7xKB6jV+QgXvV9c9
+lXE7wttsSYuYqNFQ0bwG6EkM2ENcGYW8N6uGGyGooH292wCxXmJnucRdKM4lO61K
++/DYHvI6mJtNGScVtVHUEyVE2HaxQ3rf4ZpMdIvChkmziaUZBZINq8mR
+=jvjZ
 -----END PGP SIGNATURE-----
 
---===============6199195427535895116==--
+--===============8626797364199796630==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b97e40905580-40751808803b.txt
+
+27173bb0b64461acf4e00f1bae3b15d8d2348c14 ASoC: dt-bindings: document wcd937x Audio Codec
+c99a515ff15380ec5f8827049914145ba908e8da ASoC: codecs: wcd937x-sdw: add SoundWire driver
+9be3ec196da41b20b624ae4ed0303df58548644e ASoC: codecs: wcd937x: add wcd937x codec driver
+82be8c62a38c6a44e64ecb29d7a9b5cb35c6cad4 ASoC: codecs: wcd937x: add basic controls
+57fe69db7a015e828ec69d819707c5b8eac6d052 ASoC: codecs: wcd937x: add playback dapm widgets
+8ee78493be89c42d016f941a9b00c203ec08daab ASoC: codecs: wcd937x: add capture dapm widgets
+313e978df7fc38b9e949ac5933d0d9d56d5e8a9c ASoC: codecs: wcd937x: add audio routing and Kconfig
+0b7e448119428e1dcb854abb5855f66966fb82dc ACPI: utils: introduce acpi_get_local_u64_address()
+b6212f9bf489daf9716aed0e8c4dc6a807ce839f soundwire: slave: simplify code with acpi_get_local_u64_address()
+9b7dc68eeba04d20f4a1733e791bc71355423612 ALSA: hda: intel-sdw-acpi: use acpi_get_local_u64_address()
+cb0ab6400987decc3f205606c2e96198eef6bc67 ASoC: codecs: wcd937x: add wcd937x audio codec
+40751808803b78f6dda7f39e6717eb9dc8c5c309 ACPI/ALSA/soundwire: add acpi_get_local_u64_address()
+
+--===============8626797364199796630==--
