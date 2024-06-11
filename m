@@ -1,27 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 11 Jun 2024 23:34:28 -0000
-Message-Id: <171814886803.29414.14705883587640646841@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8906846927274658569=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 11 Jun 2024 23:41:29 -0000
+Message-Id: <171814928965.4268.205794671367363684@gitolite.kernel.org>
+
+--===============8906846927274658569==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/nfs-localio-for-6.11
-    old: c5ea738289294d884b6318911e7acedfd1201395
-    new: 11de8e99d698e232bb6f5b712999c53624ece6eb
-    log: |
-         d816c8f0f5d76b7cb55ce392f3e4717d7c38ac9f nfs/nfsd: add "localio" support
-         b0b237d17823c961cf3cdc6505d0af5fd339faf5 NFS: for localio don't call filesystem read() and write() routines directly
-         9a619c5a74a3d10a35fcf99d9355b11e3aa22ee9 NFS: Enable localio for non-pNFS I/O
-         817a6b2e1c8072bef4a7e2cc0b72650ffd5ddf6c pnfs/flexfiles: Enable localio for flexfiles I/O
-         e37cd28273a6846e50e4942a506c387c63318689 nfs: implement v3 and v4 client support for NFS_LOCALIO_PROGRAM
-         f26f6d884b4b0db771033379b85cc3b61da78b26 nfsd: implement v3 and v4 server support for NFS_LOCALIO_PROGRAM
-         e091cbafa2c09d3d65690f2b1c8dd0cf5fe5030e nfs/nfsd: consolidate {encode,decode}_opaque_fixed in nfs_xdr.h
-         59791851503c1a5161da63b9c10742d31ba2d419 nfs/localio: move managing nfsd_open_local_fh symbol to nfs_common
-         11de8e99d698e232bb6f5b712999c53624ece6eb nfs/nfsd: ensure localio server always uses its network namespace
-         
+  - ref: refs/heads/master
+    old: 83a7eefedc9b56fe7bfeff13b6c7356688ffa670
+    new: 2ef5971ff345d3c000873725db555085e0131961
+    log: revlist-83a7eefedc9b-2ef5971ff345.txt
+
+--===============8906846927274658569==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-83a7eefedc9b-2ef5971ff345.txt
+
+0c07c273a5fe1a25d4f477fe7edf64b3e8b19b3d debugfs: continue to ignore unknown mount options
+db003a28e03f95f2bcb63f037a2078b8870b1ecd netfs: fix kernel doc for nets_wait_for_outstanding_io()
+ed7ee6a69f9289337af4835a908aa782263d4852 statx: Update offset commentary for struct statx
+cc5ac966f26193ab185cc43d64d9f1ae998ccb6e cachefiles: add output string to cachefiles_obj_[get|put]_ondemand_fd
+0fc75c5940fa634d84e64c93bfc388e1274ed013 cachefiles: remove requests from xarray during flushing requests
+de3e26f9e5b76fc628077578c001c4a51bf54d06 cachefiles: fix slab-use-after-free in cachefiles_ondemand_get_fd()
+da4a827416066191aafeeccee50a8836a826ba10 cachefiles: fix slab-use-after-free in cachefiles_ondemand_daemon_read()
+3e6d704f02aa4c50c7bc5fe91a4401df249a137b cachefiles: remove err_put_fd label in cachefiles_ondemand_daemon_read()
+a26dc49df37e996876f50a0210039b2d211fdd6f cachefiles: add consistency check for copen/cread
+0a790040838c736495d5afd6b2d636f159f817f1 cachefiles: add spin_lock for cachefiles_ondemand_info
+4988e35e95fc938bdde0e15880fe72042fc86acf cachefiles: never get a new anonymous fd if ondemand_id is valid
+4b4391e77a6bf24cba2ef1590e113d9b73b11039 cachefiles: defer exposing anon_fd until after copy_to_user() succeeds
+4f8703fb3482f92edcfd31661857b16fec89c2c0 cachefiles: Set object to close if ondemand_id < 0 in copen
+85e833cd7243bda7285492b0653c3abb1e2e757b cachefiles: flush all requests after setting CACHEFILES_DEAD
+bc9dde6155464e906e630a0a5c17a4cab241ffbb cachefiles: make on-demand read killable
+a82c13d29985a4d99dacd700b497f0c062fe3625 Merge patch series "cachefiles: some bugfixes and cleanups for ondemand requests"
+ed8c7fbdfe117abbef81f65428ba263118ef298a fs/file: fix the check in find_next_fd()
+3d117494e2a88b9c1e8ad41bbbf2cf453a73620e cachefiles: remove unneeded include of <linux/fdtable.h>
+0841ea4a3b416554be401a91aa267b7de838de8b iomap: keep on increasing i_size in iomap_write_end()
+f5ceb1bbc98c69536d4673a97315e8427e67de1b iomap: Fix iomap_adjust_read_range for plen calculation
+2ef5971ff345d3c000873725db555085e0131961 Merge tag 'vfs-6.10-rc4.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+
+--===============8906846927274658569==--
