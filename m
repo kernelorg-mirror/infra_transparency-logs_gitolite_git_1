@@ -1,48 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4253267109338047086=="
+Content-Type: multipart/mixed; boundary="===============9022253328676807771=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 11 Jun 2024 09:08:32 -0000
-Message-Id: <171809691200.14338.2298859397603037847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 11 Jun 2024 09:14:17 -0000
+Message-Id: <171809725746.18065.10291883606569358823@gitolite.kernel.org>
 
---===============4253267109338047086==
+--===============9022253328676807771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: bc96ef87e8d0d447768cb497203f7b854c5c4a50
-    new: 281f8331020e339b607154455faec6ebf5861a2c
-    log: revlist-bc96ef87e8d0-281f8331020e.txt
+  - ref: refs/heads/const_driver
+    old: d60604c8eb25f43025fe5bca5933a8531ade6a3c
+    new: a240c1a41a08a40a6e5b947897c6b602ee7a4747
+    log: |
+         a1e837c40f61252209b48fbec183f38ae4dcbd30 USB: make single lock for all usb dynamic id lists
+         783a7668a5d44b69375b698cbe441b77069b5c51 USB: make to_usb_driver() use container_of_const()
+         a240c1a41a08a40a6e5b947897c6b602ee7a4747 USB: make to_usb_device_driver() use container_of_const()
+         
 
---===============4253267109338047086==
+--===============9022253328676807771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc96ef87e8d0-281f8331020e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9e2c98df2bded0560204e4157a8abc246030d1b8 x86/fpu: Make sure x86_task_fpu() doesn't get called for PF_KTHREAD|PF_USER_WORKER tasks during exit
-d7223da90266351afe05d39a224490a3359ab46e x86/fpu: Remove init_task FPU state dependencies, add debugging warning for PF_KTHREAD tasks
-71c5a170566088c623ba332e4ed2545ad4180596 x86/fpu: Use 'fpstate' variable names consistently
-c3418375f1dff3389b51905ee04fd36bd5234ab2 x86/fpu: Fix stale comment in ex_handler_fprestore()
-0dc621732c3367ec513512b85d23fec6acf27b1e Merge branch into tip/master: 'timers/urgent'
-d55ac6058b835a63475f0982758bd6aa8c15766a Merge branch into tip/master: 'WIP.x86/fpu'
-b174b471024bdcd86e8275d44aac9af4ee807b95 Merge branch into tip/master: 'irq/core'
-eb5c61eb2de19112c49f559afcc8a864c41ef713 Merge branch into tip/master: 'locking/core'
-b2ae071bc0501f86126706dfe51195abe9231a8b Merge branch into tip/master: 'perf/core'
-7ca9ac031cf1f70c73ad97ce31735adfc5172045 Merge branch into tip/master: 'ras/core'
-e1d5e7478e4fd8898d1e6333e09d410df5a71178 Merge branch into tip/master: 'sched/core'
-478ff0cb733f1669030270c3be03356ba3be7073 Merge branch into tip/master: 'timers/core'
-d2851cc6bbac8a3c2a96a18c1c047d09c7b303b2 Merge branch into tip/master: 'x86/boot'
-e0d35c56f2d41dafaf6d5a6f414c071c6056ea7e Merge branch into tip/master: 'x86/cache'
-d615f77f122b14277b05a1fa27f02c0574927c5e Merge branch into tip/master: 'x86/cc'
-36b73d96852c7a8d7f53c9f389ee9458f45a043a Merge branch into tip/master: 'x86/cpu'
-646cea72503dd3eeff196b9ec6b26fca4fa1beb6 Merge branch into tip/master: 'x86/misc'
-281f8331020e339b607154455faec6ebf5861a2c Merge branch into tip/master: 'x86/percpu'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718097250 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1718097248-d488a4ab6049a167eeec6c26e25ac0e8863dbd5c
 
---===============4253267109338047086==--
+d60604c8eb25f43025fe5bca5933a8531ade6a3c a240c1a41a08a40a6e5b947897c6b602ee7a4747 refs/heads/const_driver
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZoFWIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/MkP/0fIuPg3Mv46BbRNQusg
+yltFIOAKecw4thY46YyWfsa72daEJ8B+jc3oPsc+USOKIp6foEyYONtLCk0LddVe
+ryaeXutRdL9noJ7kWHv1pFl2+TfvQHOcifXk1pxXP1Oni7iSoJ48Z87pUied57RU
+cgzIA0owCxVQVd+KiokRrVFRlbGIk8x4JHpkT3ujKrkKg/9R/oE3pIaVXybL1nM6
+DQZcQJQqsJvT6y6rCZnXH1FSkGCnWiHQUakPFV9nl5g/bg5feIjSPJiEHsL4kTfV
+QYgn2Mw6YzSL2fa+EgqVRFb0BVRbKsIaUDh8DPsFnS6QZBzupXEmR6UmNmHXri1s
+pb3GVyxxkE7/Gcsiz4DdHpDkvVPGN4zCY4Jo8AWsiDpspPRmTjKvb8HDymw8pjXp
+G/Nliz+hmtkAnCyqKoFYjX++8HHEUp+6x6kQSSb2CIFJFHa8n8w3wXnpyathkf1m
+z8xwfZ3gPPOvhrOe5SBQPb5cnA/ys5zaE83yGafWq9im6z0Hg+9vA/BgCQsrvYhm
+wKmEimb17uK1avsJzywYADl8OxEcfJvjMTBmLjwGkSen+OcWmIXKmJ+IEL7nAgKc
+XmSehnYNojCRD05fBUiWR81KM66r01WwPvGTazb7l3U2b8CX8/+pVc9sWyM0eT9i
+tb7IA6IuzqxXp7Y/bk1rEbjw
+=5Ugr
+-----END PGP SIGNATURE-----
+
+--===============9022253328676807771==--
