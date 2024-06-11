@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Tue, 11 Jun 2024 12:08:34 -0000
-Message-Id: <171810771499.14960.2410057716342916951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/fastrpc
+Date: Tue, 11 Jun 2024 12:08:39 -0000
+Message-Id: <171810771973.15039.14623478945857855964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
+repo: pub/scm/linux/kernel/git/srini/fastrpc
 user: srini
 changes:
   - ref: refs/heads/for-next
-    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    new: 139eb4bb33a2857fe439c02a201a85af52ce6186
+    old: a16833330e2fa60912af6abebde711bf2c672cf9
+    new: 6814f03445b30f6a136ff043cb54c0a86e3de982
     log: |
-         43b4167fcdb91a57d6102347a6f848285aa214c1 nvmem: add missing MODULE_DESCRIPTION() macros
-         89ca7c2d13bfa566ea000c5515b1943d30d44311 dt-bindings: nvmem: mediatek: efuse: add support for MT7981
-         5e15aa6f07b35fb3d755f7cdffb8acbca62abe74 nvmem: meson-efuse: Replacing the use of of_node_put to __free
-         d4d688ed8f312dd1cf986c956251acf6176f5085 nvmem: rockchip-otp: set add_legacy_fixed_of_cells config option
-         ee65a6c12badd3e0891c9096d6db7a0dba655c1b nvmem: rockchip-otp: Set type to OTP
-         bb503130de1212cac2c368b373b0192eb7c59ab6 nvmem: rockchip-efuse: set type to OTP
-         139eb4bb33a2857fe439c02a201a85af52ce6186 nvmem: rmem: Fix return value of rmem_read()
+         786d4af0569aa4445126da29aaba51066c2c6772 misc: fastrpc: Fix DSP capabilities request
+         e50bac5f7fc6f928f3fbfcfbd9c7642c1f3f277b misc: fastrpc: Copy the complete capability structure to user
+         2782c393e16d9baf64bc93544e053e8ac97fdab7 misc: fastrpc: Avoid updating PD type for capability request
+         19e2375df155451d496a4bb6f8fe42a21f961701 misc: fastrpc: Fix memory leak in audio daemon attach operation
+         cdb874d2c7612036b3b688bfaf49032d5c297c98 misc: fastrpc: Fix ownership reassignment of remote heap
+         684c38fce2f9a154fc855b32ff4b7268f763fa05 misc: fastrpc: Restrict untrusted app to attach to privileged PD
+         372eb825c2040b81b6c20b8ff662a6a551f236f9 misc: fastrpc: Add missing dev_err newlines
+         6814f03445b30f6a136ff043cb54c0a86e3de982 misc: fastrpc: add missing MODULE_DESCRIPTION() macro
          
