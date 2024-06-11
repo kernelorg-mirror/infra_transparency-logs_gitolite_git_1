@@ -1,46 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============3105950972709054469=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 11 Jun 2024 18:23:51 -0000
-Message-Id: <171813023133.25292.10634948816644259698@gitolite.kernel.org>
-
---===============3105950972709054469==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Tue, 11 Jun 2024 18:30:05 -0000
+Message-Id: <171813060512.31400.5067771398969649266@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/stable-0.14.y
-    old: d768c53db3f4a0efe249bfd629c6d2293deb36dc
-    new: e6e176c167a07531449690a84ef6f7bd5be58919
+  - ref: refs/heads/master
+    old: fbf954c96bb4089b3097adde723216a4668f854b
+    new: c6783fc35ab01eb7f8b92bd4369c7d277538fd88
     log: |
-         e6e176c167a07531449690a84ef6f7bd5be58919 docs: document trailers --since-commit
+         f956fed4d181d41a5b1c49bba9dce46d8197d428 Reapply "smalloc: smalloc() already clears memory, scalloc() need not do it again"
+         c6783fc35ab01eb7f8b92bd4369c7d277538fd88 t/stest: confirm that scalloc clears the buffer
          
-
---===============3105950972709054469==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1718130230 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1718130230-a8f4a38f53f63035d96ae35c0f8b0927a23c15a9
-
-d768c53db3f4a0efe249bfd629c6d2293deb36dc e6e176c167a07531449690a84ef6f7bd5be58919 refs/heads/stable-0.14.y
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZmiWNgAKCRC2xBzjVmSZ
-bKVpAQCtHylNxH8qeH7jw7VX8qLPwJ/AcJXlq7uuDt81obzmcAEA5e0TURJEn7WP
-y2xY3lQIpEglc9Fve81OcUeaNmFkdg4=
-=Lhk/
------END PGP SIGNATURE-----
-
---===============3105950972709054469==--
