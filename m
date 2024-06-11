@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 11 Jun 2024 09:28:25 -0000
-Message-Id: <171809810515.27903.14843886495306759387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 11 Jun 2024 09:36:45 -0000
+Message-Id: <171809860555.2074.4281304464358423443@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/experimental
-    old: e400b4177a050bbd794896297300a248674933e5
-    new: ffa87c01b09c42ac64fdbb800a8711325900d04b
+  - ref: refs/heads/locking/core
+    old: d412002aceb7448a9667f59709e42fe00935c813
+    new: 9bc2ff871f00437ad2f10c1eceff51aaa72b478f
     log: |
-         4f05f001c060592c41713ecdb9fbe944a0e44588 erofs-utils: build: support building static library liberofsfuse
-         db5998d22bb0be6cc88310eb81227a455c7ee893 erofs-utils: lib: support virtual files
-         435aa3367612df198c4963662ea0d9cf8bd855a2 erofs-utils: move erofs_writesb() into lib/
-         e92e081abbbf576fceacd2ad4464928378f3cce9 erofs-utils: lib: split erofs_iflush()
-         ffa87c01b09c42ac64fdbb800a8711325900d04b erofs-utils: lib: drop prefix_sha256 digests
+         bb9bb45f746b0f9457de9c3fc4da143a6351bdc9 perf/x86: Serialize set_attr_rdpmc()
+         83ab38ef0a0b2407d43af9575bb32333fdd74fb2 jump_label: Fix concurrency issues in static_key_slow_dec()
+         695ef796467ed228b60f1915995e390aea3d85c6 jump_label: Clarify condition in static_key_fast_inc_not_disabled()
+         9bc2ff871f00437ad2f10c1eceff51aaa72b478f jump_label: Simplify and clarify static_key_fast_inc_cpus_locked()
          
