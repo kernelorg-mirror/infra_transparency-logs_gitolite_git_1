@@ -1,31 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Tue, 11 Jun 2024 18:21:31 -0000
-Message-Id: <171813009151.24313.17394365554046759171@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6126832402080910688=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 11 Jun 2024 18:23:11 -0000
+Message-Id: <171813019136.24969.4031973619672892745@gitolite.kernel.org>
+
+--===============6126832402080910688==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: e17fb91cd4cde13001dc75ad99a378ab28dd44df
-    new: 9b9247397e2e20016031e59f76dae563b79b6ee2
+    old: d9542cc04bbe0a6160fe8ccf8a5036978b20bb48
+    new: 0bd45fa00e1a880776e61dc801902b1096b0d588
     log: |
-         6f7e4f81f738ac765318c54097a6235203073049 Input: adxl34x - use device core to create driver-specific device attributes
-         8f275fc73dd6ff78c6041aa4c138410bf2c95ce6 Input: adxl34x - use input_set_capability()
-         985addc13304639876c2ddbcc1c149007c5d67ff Input: adxl34x - switch to using managed resources
-         9b9247397e2e20016031e59f76dae563b79b6ee2 Input: adxl34x - switch to using "guard" notation
+         0bd45fa00e1a880776e61dc801902b1096b0d588 docs: document trailers --since-commit
          
-  - ref: refs/heads/next
-    old: e17fb91cd4cde13001dc75ad99a378ab28dd44df
-    new: 9b9247397e2e20016031e59f76dae563b79b6ee2
-    log: |
-         6f7e4f81f738ac765318c54097a6235203073049 Input: adxl34x - use device core to create driver-specific device attributes
-         8f275fc73dd6ff78c6041aa4c138410bf2c95ce6 Input: adxl34x - use input_set_capability()
-         985addc13304639876c2ddbcc1c149007c5d67ff Input: adxl34x - switch to using managed resources
-         9b9247397e2e20016031e59f76dae563b79b6ee2 Input: adxl34x - switch to using "guard" notation
-         
+
+--===============6126832402080910688==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1718130190 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1718130190-9e320538793e0b3f81206c63e3765b18d5298a9f
+
+d9542cc04bbe0a6160fe8ccf8a5036978b20bb48 0bd45fa00e1a880776e61dc801902b1096b0d588 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZmiWDgAKCRC2xBzjVmSZ
+bJ6aAQCd5Lmak0/unTc4spK9qO09iMd3eh4zmZPUgj5snavXfQD/RNxhT0veozUg
+epGABaMMzZvQCm4e0WyQ6PzJv+COOQo=
+=Jk89
+-----END PGP SIGNATURE-----
+
+--===============6126832402080910688==--
