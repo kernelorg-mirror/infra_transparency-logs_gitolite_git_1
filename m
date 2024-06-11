@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6611479509335792767=="
+Content-Type: multipart/mixed; boundary="===============4542835486901099201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 11 Jun 2024 15:24:39 -0000
-Message-Id: <171811947922.15780.1656236606028146689@gitolite.kernel.org>
+Date: Tue, 11 Jun 2024 15:24:41 -0000
+Message-Id: <171811948158.15859.3376818111550445615@gitolite.kernel.org>
 
---===============6611479509335792767==
+--===============4542835486901099201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: d30d0e49da71de8df10bf3ff1b3de880653af562
     new: 36534d3c54537bf098224a32dc31397793d4594d
     log: revlist-d30d0e49da71-36534d3c5453.txt
 
---===============6611479509335792767==
+--===============4542835486901099201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ c6ae073f5903f6c6439d0ac855836a4da5c0a701 geneve: Fix incorrect inner network hea
 70b3c88cec7eed6080c8c37f0d2cc4bc46c08852 Merge branch 'mptcp-various-fixes'
 36534d3c54537bf098224a32dc31397793d4594d tcp: use signed arithmetic in tcp_rtx_probe0_timed_out()
 
---===============6611479509335792767==--
+--===============4542835486901099201==--
