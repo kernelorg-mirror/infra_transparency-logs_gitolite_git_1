@@ -1,47 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============8750060979057738724=="
+Content-Type: multipart/mixed; boundary="===============3154317554909807707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 11 Jun 2024 11:53:55 -0000
-Message-Id: <171810683534.20474.6943130387252934400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 11 Jun 2024 11:55:24 -0000
+Message-Id: <171810692491.5535.3784324307442049418@gitolite.kernel.org>
 
---===============8750060979057738724==
+--===============3154317554909807707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: 2272974df016d12d6c754293cc2aa3a07d2094d8
-    new: 24b63cdc814fc36a04b7745265fdb4b3ca89c762
-    log: revlist-2272974df016-24b63cdc814f.txt
+  - ref: refs/heads/const_driver
+    old: d1d6b1986b761c4b1be394afa284563f89d2f793
+    new: be520b87ec28aa3b5c908a859501fb601bd8b322
+    log: revlist-d1d6b1986b76-be520b87ec28.txt
 
---===============8750060979057738724==
+--===============3154317554909807707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2272974df016-24b63cdc814f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-7f821fb13b7217da068466c58e21b98b588980ec clk: renesas: r9a08g045: Add IA55 pclk and its reset
-ca764c3b25519113bca430578f964afddc4e3bac bitfield: add FIELD_PREP_CONST()
-bf41023a90b6aae8cbe9013fb646290b98d9e9cd pinctrl: renesas: rzg2l: Improve code for readability
-24beb6061a0fa47e9e3175acb0f8c10f1ff837ec pinctrl: renesas: rzg2l: Include pinmap in RZG2L_GPIO_PORT_PACK() macro
-838e23f0a6297c9da3336b2083db15d94b0088d4 pinctrl: renesas: pinctrl-rzg2l: Add the missing port pins P19 to P28
-c131f15d6a5bf5ce6c9e249ffbfda6b9d4f97d82 pinctrl: renesas: rzg2l: Configure interrupt input mode
-19aae7eaf39d1db984c49e8a91f0553c80a73292 pinctrl: renesas: rzg2l: Simplify rzg2l_gpio_irq_{en,dis}able()
-8a8d23d16fd52bee8e7d87133775fb98bdf44305 pinctrl: renesas: rzg2l: Avoid configuring ISEL in gpio_irq_{en,dis}able*(
-e593cfe368d697af6fd902a73dd54ecb0274c451 pinctrl: renesas: rzg2l: Add suspend/resume support
-21faa1ac77a6fb71c561010081f194bdd1c8a917 pinctrl: renesas: rzg2l: Select GPIOLIB_IRQCHIP and IRQ_DOMAIN_HIERARCHY
-54e6aeab3f245a4018f5f26e12c1db2b2c5e0cd8 irqchip/renesas-rzg2l: Add support for suspend to RAM
-2e411692ac8e47580e49d82477ae91ecf775b22e dt-bindings: interrupt-controller: renesas,rzg2l-irqc: Document RZ/G2UL SoC
-d879279271211d8b417294181d4a584a0665f5f2 dt-bindings: interrupt-controller: renesas,rzg2l-irqc: Document RZ/G3S
-9cc5ca456cce5db47a4d4de85e18485cd64a633f arm64: dts: renesas: r9a08g045: Add IA55 interrupt controller node
-a06e498421656cb8a4a4a79936b18be1809424dc arm64: dts: renesas: r9a08g045: Add PSCI support
-cb535007ccfd5209b35cf5d80724fa4e4ecbba01 arm64: dts: renesas: rzg3s-smarc: Add gpio keys
-24b63cdc814fc36a04b7745265fdb4b3ca89c762 arm64: dts: renesas: r9a08g045: Add missing interrupts to IRQC node
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718106919 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1718106918-ab4b96ed77fadd801d9be3001534b4a60d5cab85
 
---===============8750060979057738724==--
+d1d6b1986b761c4b1be394afa284563f89d2f793 be520b87ec28aa3b5c908a859501fb601bd8b322 refs/heads/const_driver
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZoOycbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W38QAJyFhoJHqy+SDh4u2t+Q
+OVc4IwCnj2lFE3k92h+HDbBxHy3iHeKWqqGaI5Tcyuzpj5PYUBMvBal9j3MtqG+o
+MArBn/wiUSKMk667l1a/VemEOPV43N6G7Ebdioy74Au5Q6HNm3Snce35afL0tA0m
+A2eTX7RMjQgy4SeJkPDZ9tBQKiRROHE9rC9nPCSDtPEPd+PbSxXLgYd3/cKNHVWT
+L7jQZBAqHjfN2f7zEe2nqM5I+heb/GWsv9IFS7LPKcw8AVZ2GDqbT0VHOaZLk6G2
+bQolaGTH5jXOyV+e6gIgJh/UWfU9c4q3rA2jrReg8i0G1EPltZJQzEBF5vZU1shy
+j8dgzeHfSk8Z/q2A0MwnkDUc2dw9W2ZVVMBM+J9fFuGU8bQTT1XuovFuhHMwCfR5
+zGX+hea3wK3oVUDDxmQWfqJmDMDJghM7DbrPu3OxaLV7Lwcvmmw2dzj/zETov5P/
+IrujJU4ws042QaBMOOh+aErl0WfeieUZ1OoWt0RzQMSk5uKNkUDm8JA5L/R3rwx/
+cYUaA1VlftogjEGYNBnp7oR8Z1HzooV7wBa1gi8Pxsf6xyOKPvQHOgMSo0lXO86Q
+7y8ePh2cgISFok0kPNLXmn0ySGvuK0+18ewmp6NjxOZ84/B79n1NiqrcJH+2bmSq
+T99QqI3E5EoPQXB+Tsc0660b
+=7O1E
+-----END PGP SIGNATURE-----
+
+--===============3154317554909807707==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d1d6b1986b76-be520b87ec28.txt
+
+54744e182f7b2b0b5ad6e61ba1680616a357e24d auxbus: make to_auxiliary_drv accept and return a constant pointer
+fd799cf7fd499bddb35524673a2656592d1b8d9f driver core: platform: fix ups for constant struct device_driver
+742990b48244448069fd36b151ce0b1ab948d65a driver core: driver: mark driver_add/remove_groups constant
+f32469863a67962b305094ead8885de672afb21e driver core: make device_release_driver_internal() take a const *
+78baeddc5d81b14711cd7500b423f7ffa0134967 driver core: make driver_detach() take a const *
+6b75a1bf73ef7821f2814a39c63db471439c9f08 driver core: mark async_driver as a const *
+1ac23f1a57516332b73db1efab39ca777901c82c driver core: make *driver_attach take a const *
+4fb998a810798241244b2436c340f13d0ec22f6b driver core: have match() callback in struct bus_type take a const *
+5d9ac5f6cfb155c0359aa928e053f8c301abc7c5 USB: make single lock for all usb dynamic id lists
+577f738ce12b43b4f676f285f17ec6d53518b46f USB: make to_usb_driver() use container_of_const()
+2bd95f7028d873ea8458af0c4b2a2535e4959871 USB: make to_usb_device_driver() use container_of_const()
+be520b87ec28aa3b5c908a859501fb601bd8b322 USB: move dynamic ids out of usb driver structures
+
+--===============3154317554909807707==--
