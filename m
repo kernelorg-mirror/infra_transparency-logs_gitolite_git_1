@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0162797904715526196=="
+Content-Type: multipart/mixed; boundary="===============3370541019574857113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 11 Jun 2024 16:31:43 -0000
-Message-Id: <171812350354.3236.2060944102539010591@gitolite.kernel.org>
+Date: Tue, 11 Jun 2024 16:31:46 -0000
+Message-Id: <171812350675.3312.8810961404510680407@gitolite.kernel.org>
 
---===============0162797904715526196==
+--===============3370541019574857113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 749332814479ad2e06d892109227d3d93032f65b
     new: bb678f01804ccaa861b012b2b9426d69673d8a84
     log: revlist-749332814479-bb678f01804c.txt
 
---===============0162797904715526196==
+--===============3370541019574857113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -753,4 +753,4 @@ a2fe35df41c4cfce44f9f87d417cbd44a27b7362 net: intel: Use *-y instead of *-objs i
 dee55767dc8ca3fc6127a792e2a8b69c5e03fdd2 ice: use irq_update_affinity_hint()
 bb678f01804ccaa861b012b2b9426d69673d8a84 Merge branch 'intel-wired-lan-driver-updates-2024-06-03'
 
---===============0162797904715526196==--
+--===============3370541019574857113==--
