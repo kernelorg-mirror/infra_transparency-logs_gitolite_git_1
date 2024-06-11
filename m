@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5512455437050619900=="
+Content-Type: multipart/mixed; boundary="===============2732097447674998580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 11 Jun 2024 16:11:59 -0000
-Message-Id: <171812231948.19769.9451332166185059953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 11 Jun 2024 16:12:06 -0000
+Message-Id: <171812232697.19907.4841312371519685766@gitolite.kernel.org>
 
---===============5512455437050619900==
+--===============2732097447674998580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.10
+  - ref: refs/heads/asoc-6.10
     old: e3209a1827646daaab744aa6a5767b1f57fb5385
     new: b9dd212b14d27a53b63fc6621c452c0b3a01f61d
     log: |
@@ -26,7 +26,7 @@ changes:
          e0e7bc2cbee93778c4ad7d9a792d425ffb5af6f7 ASoC: topology: Clean up route loading
          b9dd212b14d27a53b63fc6621c452c0b3a01f61d ASoC: topology: Fix route memory corruption
          
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/asoc-6.11
     old: 40751808803b78f6dda7f39e6717eb9dc8c5c309
     new: b745dcf727f959c5fb08fa3ee08dc48c952b8553
     log: |
@@ -40,29 +40,29 @@ changes:
          b745dcf727f959c5fb08fa3ee08dc48c952b8553 ASoC: Drop or replace of_gpio.h
          
 
---===============5512455437050619900==
+--===============2732097447674998580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1718122318 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1718122316-65df61331fd9e4aae10229929c147b0911fbcee4
+pusher Mark Brown <broonie@kernel.org> 1718122325 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1718122323-e0083de07e5aeeb6b57421c5f9fea3fd8fb8fc3d
 
-e3209a1827646daaab744aa6a5767b1f57fb5385 b9dd212b14d27a53b63fc6621c452c0b3a01f61d refs/heads/for-6.10
-40751808803b78f6dda7f39e6717eb9dc8c5c309 b745dcf727f959c5fb08fa3ee08dc48c952b8553 refs/heads/for-6.11
+e3209a1827646daaab744aa6a5767b1f57fb5385 b9dd212b14d27a53b63fc6621c452c0b3a01f61d refs/heads/asoc-6.10
+40751808803b78f6dda7f39e6717eb9dc8c5c309 b745dcf727f959c5fb08fa3ee08dc48c952b8553 refs/heads/asoc-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZod04THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0PWDB/wNa+QG603ijwjwSeJLlW52ihX9o18v
-14ymbmxIyDYWwExNcine4T78Ur2xMQw0uTViKQkS3Yy62fmsZae3d19nErlgppIX
-CEVtNnHmAO8UkeZHmSSFRMuiYBzH8N1xbZPHbmHn4hR42+TIHdzI5DvPON+fYi3r
-1hiYMZuCdPxuMVC8WIOU5JGU2VnX8wf3ZuW4BRfXj2rh8hgJmWhhAZWn0MjKM1iY
-ozLOt//IjhpFvi0ReTAh62xAPdlqtQ13sHokahHIcm7ac7RbyvdP3wh6GoBNKPMF
-TahIr4xaeM/3betagHfIaWPptXBn6uATtMopx6MSADeqzRMahjEvb/Is
-=MoA5
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZod1UTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0DaiB/wLrhJMqzV+1wbbEVp1VZJesRXYTQFC
+ZaU9kEGYwJCrIDQ6lKKPOEphFoihbbgg3EWqb7SNPoXbxnVIj/cFqzBP0nts9p8r
+h7kCApPM7vqtqWi20mtcgokxwOdZOchvQIR61XvKZy/S1HQiDNb/WoVyMWp/O6XG
+rCYJw1mKmGpo7+IPYMONKj1c/EOoCkdfSOHo458UrsoOt/Xzfc+kCh2ZY/NM4gbp
+BymBPtj0vjd349DqBWnIcVejrpy1DnWmnQ6onH95hs8MGLE5DwW5s7KgbRYLs3w3
+LTVyoJZSsqoHEel6V41NgA1wTWHXKzgdc8x+Utjrizyz8s0rIebTZq0U
+=33+k
 -----END PGP SIGNATURE-----
 
---===============5512455437050619900==--
+--===============2732097447674998580==--
