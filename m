@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3637509455529464316=="
+Content-Type: multipart/mixed; boundary="===============4477138989509002274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 11 Jun 2024 02:47:17 -0000
-Message-Id: <171807403738.23236.16189569005119170476@gitolite.kernel.org>
+Date: Tue, 11 Jun 2024 02:47:27 -0000
+Message-Id: <171807404768.23389.10203411687017137185@gitolite.kernel.org>
 
---===============3637509455529464316==
+--===============4477138989509002274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: f85af9d955ac9601174e1c64f4b3308c1cae4a7e
     new: 2ebb87f45b3c6adc97b29291102ecb97274f913f
     log: revlist-f85af9d955ac-2ebb87f45b3c.txt
 
---===============3637509455529464316==
+--===============4477138989509002274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ eef8e906aea270f4b8912a0b51403b80aec54d30 net: dsa: update the unicast MAC addres
 b1156532bc29ac9a8d1cf71510cabc8f68181540 Merge tag 'for-netdev' of https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 2ebb87f45b3c6adc97b29291102ecb97274f913f isdn: add missing MODULE_DESCRIPTION() macros
 
---===============3637509455529464316==--
+--===============4477138989509002274==--
