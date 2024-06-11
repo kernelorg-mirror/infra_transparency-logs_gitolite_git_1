@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Tue, 11 Jun 2024 17:25:31 -0000
-Message-Id: <171812673124.15471.2173539483701170388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 11 Jun 2024 17:57:38 -0000
+Message-Id: <171812865821.5759.17619837485972712616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/urgent
-    old: cc7b4b6296aedcbf5cba2183cfe3162006eb356b
-    new: 8e411b665c048bb298d9c331e6ebce319231048e
+  - ref: refs/heads/pci-regs
+    old: 91cbd3e0a06288246558c6907662a81338e78d71
+    new: 18208f6cde334a1011ed8e9c94b7aeb2b18582bf
     log: |
-         a0228eadd22c99db15ffa846f727076bbe05810a efi/x86: Clear BSS when entering in mixed mode via compat entrypoint
-         8e411b665c048bb298d9c331e6ebce319231048e efi/arm: Disable LPAE PAN when calling EFI runtime services
+         18208f6cde334a1011ed8e9c94b7aeb2b18582bf PCI: microchip: rework reg region handing to support using either instance 1 or 2
          
