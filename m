@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8494788650978839585=="
+Content-Type: multipart/mixed; boundary="===============1813145638023148526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Tue, 11 Jun 2024 08:10:53 -0000
-Message-Id: <171809345371.4299.1482767303826591603@gitolite.kernel.org>
+Date: Tue, 11 Jun 2024 08:11:12 -0000
+Message-Id: <171809347209.4510.14321918977284467657@gitolite.kernel.org>
 
---===============8494788650978839585==
+--===============1813145638023148526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/mips-fixes
     old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
     new: 83a7eefedc9b56fe7bfeff13b6c7356688ffa670
     log: revlist-1613e604df0c-83a7eefedc9b.txt
 
---===============8494788650978839585==
+--===============1813145638023148526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -734,4 +734,4 @@ c5dbc2ed0006d1a910b5496202a280138ce596e4 Merge tag '6.10-rc2-smb3-client-fixes' 
 b8481381d4e2549f06812eb6069198144696340c Merge tag 'perf-tools-fixes-for-v6.10-2-2024-06-09' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 83a7eefedc9b56fe7bfeff13b6c7356688ffa670 Linux 6.10-rc3
 
---===============8494788650978839585==--
+--===============1813145638023148526==--
