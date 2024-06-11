@@ -1,51 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4074003594813621941=="
+Content-Type: multipart/mixed; boundary="===============0725236833994631519=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 11 Jun 2024 13:51:47 -0000
-Message-Id: <171811390719.11517.1078940697426976506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 11 Jun 2024 13:52:33 -0000
+Message-Id: <171811395349.11873.11454987128105675889@gitolite.kernel.org>
 
---===============4074003594813621941==
+--===============0725236833994631519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/renesas-clk
-    old: ec902716f22bdbbf8e66304c72fa74e02fec5ae4
-    new: f92d44a00bd559f411b2c70b677afbc7c4723019
+  - ref: refs/heads/for-6.11
+    old: 8a71710bb4797174733a16df2bcb8683fbe7caea
+    new: 412a05d6a91c6e3bb69741ddbde01c16c3ff94c5
     log: |
-         d8abcb7377ab10a923512792aed4d6d0ebd5f362 dt-bindings: clock: renesas,rzg2l-cpg: Update description for #reset-cells
-         f92d44a00bd559f411b2c70b677afbc7c4723019 clk: renesas: r8a779h0: Add VIN clocks
+         0535cf64e4b1ead224fbbe1c25c81221a298c5e4 spi: Introduce internal spi_xfer_is_dma_mapped() helper
+         0fb66b81dbf91a60fa4acbf7de26a1958410ef0a spi: dw: Use new spi_xfer_is_dma_mapped() helper
+         54c5a9db2899c1dd5059584c6817c50810186325 spi: ingenic: Use new spi_xfer_is_dma_mapped() helper
+         6361b4e4f7a43dd5d8e3f2d2ece8148f30b55cb3 spi: omap2-mcspi: Use new spi_xfer_is_dma_mapped() helper
+         e47f92308031ebc29327494b1ab70d18bfa96a5d spi: pxa2xx: Use new spi_xfer_is_dma_mapped() helper
+         2f9485adfbd8af088684f43c6391fa02e334d349 spi: pci1xxxx: Use new spi_xfer_is_dma_mapped() helper
+         bd1886661b14345ed3c7b261550bcca6cd76840a spi: qup: Use new spi_xfer_is_dma_mapped() helper
+         e289df82344fecc104ad8326b9ab6da612b9c899 spi: Rework per message DMA mapped flag to be per transfer
+         412a05d6a91c6e3bb69741ddbde01c16c3ff94c5 spi: Rework DMA mapped flag
          
-  - ref: refs/heads/renesas-pinctrl
-    old: be50c8bfe910c3277c2c0b1bf008b64e4603dab8
-    new: 9bd95ac86e700ab8b1a6c225685e0e5afe426b4e
-    log: revlist-be50c8bfe910-9bd95ac86e70.txt
 
---===============4074003594813621941==
+--===============0725236833994631519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be50c8bfe910-9bd95ac86e70.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8081a03793d3276c50d55a6f561872168eccf944 pinctrl: renesas: rzg2l: Allow more bits for pin configuration
-13a8cae6e561d607474f905028781a5aee7205cb pinctrl: renesas: rzg2l: Drop struct rzg2l_variable_pin_cfg
-08b68ae5a0276f293c8da602f963f6de68b3599b pinctrl: renesas: rzg2l: Enable variable configuration for all
-a3a632ed87f0913779092c30bd0ea7dfd81601f3 pinctrl: renesas: rzg2l: Validate power registers for SD and ETH
-14c32dc1f63d0de865e67c04c919ae036de20f87 pinctrl: renesas: rzg2l: Add function pointer for PFC register locking
-ede014cd1ea6422d7436bd0a1771fe0d7b0fe12a pinctrl: renesas: rzg2l: Add function pointer for PMC register write
-7d566a4d270c52ffffd04b78b753bb3ce8cbb867 pinctrl: renesas: rzg2l: Add function pointers for OEN register access
-b588b53b2c474bdebbac0a663e0a6a0390db2fdf pinctrl: renesas: rzg2l: Add support to configure slew-rate
-19d4bce9ce876ad0ee4240ebd849b730b3dc3763 pinctrl: renesas: rzg2l: Add support for pull-up/down
-6f38a02ad8e0335dd4dda2c42dd599e254cdd91a pinctrl: renesas: rzg2l: Pass pincontrol device to pinconf_generic_parse_dt_config()
-d930e8f783daef890980c0ca209a0f4f9ae73160 pinctrl: renesas: rzg2l: Add support for custom parameters
-951eaac107631b26649b00cf5f5d9d7d83d8bca4 pinctrl: renesas: rzg2l: Acquire lock in rzg2l_pinctrl_pm_setup_pfc()
-fb73d663b31398aea8528fb231e660c4958b29ff dt-bindings: pinctrl: renesas: Document RZ/V2H(P) SoC
-9bd95ac86e700ab8b1a6c225685e0e5afe426b4e pinctrl: renesas: rzg2l: Add support for RZ/V2H SoC
+certificate version 0.1
+pusher Mark Brown <broonie@kernel.org> 1718113952 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1718113951-b58d71e07bef9fd4eca82c57271846ba3b707a78
 
---===============4074003594813621941==--
+8a71710bb4797174733a16df2bcb8683fbe7caea 412a05d6a91c6e3bb69741ddbde01c16c3ff94c5 refs/heads/for-6.11
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZoVqATHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0HquB/9giocHLGFvdIdIeylitr3u8fpPwIF+
+QTpypoFHD7S015SDujxE6x1IBhDhmOPydjbyQ8IUHpHJIpFLmbkssCn4xA5rB3dD
+L0wSEQT7zyeSyhCxCiPi7FfolppKBoIVCgxEk8ciAjGcYruFeWP2qdjiVJa+P0TO
++zFwwZW2ZeYGvIdMmIIGkekwa1ptM+te0fEsHqIlaNEDP3gH0d5dWqW+qVTez0eh
+htxMCMSZwkXfU4KuORdU4bPYM9jZkK4aqs1+n8pHRrDLrGF174X0kVmws7RHlvRJ
+NS0kzo5ot7+foLSGvbepgg4CY/2gNNhpjgFFzGjhQbGKZCeW5AlLvv3/
+=PJBT
+-----END PGP SIGNATURE-----
+
+--===============0725236833994631519==--
