@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 11 Jun 2024 17:21:31 -0000
-Message-Id: <171812649194.12462.964077705962951671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Tue, 11 Jun 2024 17:25:31 -0000
+Message-Id: <171812673124.15471.2173539483701170388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/for-next
-    old: b594e7e9db5b0398ef6418c0a100d36a46d90fab
-    new: a3b7033bbf72a97ea3d0763f64dbdd9528251929
+  - ref: refs/heads/urgent
+    old: cc7b4b6296aedcbf5cba2183cfe3162006eb356b
+    new: 8e411b665c048bb298d9c331e6ebce319231048e
     log: |
-         2fa26ca8b786888673689ccc9da6094150939982 remoteproc: imx_rproc: Skip over memory region when node value is NULL
-         a3b7033bbf72a97ea3d0763f64dbdd9528251929 Merge branches 'rproc-next', 'rpmsg-next' and 'hwspinlock-next' into for-next
+         a0228eadd22c99db15ffa846f727076bbe05810a efi/x86: Clear BSS when entering in mixed mode via compat entrypoint
+         8e411b665c048bb298d9c331e6ebce319231048e efi/arm: Disable LPAE PAN when calling EFI runtime services
          
