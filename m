@@ -1,57 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2208066538829951499=="
+Content-Type: multipart/mixed; boundary="===============4173170869496117987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Tue, 11 Jun 2024 15:07:35 -0000
-Message-Id: <171811845576.4356.8406492130550265657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 11 Jun 2024 15:18:29 -0000
+Message-Id: <171811910983.11645.4168702830338571944@gitolite.kernel.org>
 
---===============2208066538829951499==
+--===============4173170869496117987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
   - ref: refs/heads/main
-    old: f9601b10c21145f76c3d46c163bac39515ed2061
-    new: c6c39f3c6da4bf093aad6d0eb1c5b07a7aa2dab7
-    log: |
-         459ddd094d807004d08f3e42c38284a331d6120d devlink: trivial: fix err format on max_io_eqs
-         c6c39f3c6da4bf093aad6d0eb1c5b07a7aa2dab7 devlink: Fix setting max_io_eqs as the sole attribute
-         
+    old: c44711b78608c98a3e6b49ce91678cd0917d5349
+    new: 36534d3c54537bf098224a32dc31397793d4594d
+    log: revlist-c44711b78608-36534d3c5453.txt
 
---===============2208066538829951499==
+--===============4173170869496117987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c44711b78608-36534d3c5453.txt
 
-certificate version 0.1
-pusher Stephen Hemminger <stephen@networkplumber.org> 1718118455 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
-nonce 1718118455-47f37fda85ceafbf3e61fd3fe9a2ef151059e147
+0579f27249047006a818e463ee66a6c314d04cea net: stmmac: dwmac-qcom-ethqos: Configure host DMA width
+5add2f7288468f35a374620dabf126c13baaea9c netdevsim: fix backwards compatibility in nsim_get_iflink()
+d37fe4255abe8e7b419b90c5847e8ec2b8debb08 tcp: fix race in tcp_v6_syn_recv_sock()
+d029edefed39647c797c2710aedd9d31f84c069e net dsa: qca8k: fix usages of device_get_named_child_node()
+c6ae073f5903f6c6439d0ac855836a4da5c0a701 geneve: Fix incorrect inner network header offset when innerprotoinherit is set
+791b4089e326271424b78f2fae778b20e53d071b net/mlx5e: Fix features validation check for tunneled UDP (non-VXLAN) packets
+93792130a9387b26d825aa78947e4065deb95d15 Merge branch 'geneve-fixes'
+44180feaccf266d9b0b28cc4ceaac019817deb5c net/sched: initialize noop_qdisc owner
+8031b58c3a9b1db3ef68b3bd749fbee2e1e1aaa3 mptcp: ensure snd_una is properly initialized on connect
+6a09788c1a66e3d8b04b3b3e7618cc817bb60ae9 mptcp: pm: inc RmAddr MIB counter once per RM_ADDR ID
+40eec1795cc27b076d49236649a29507c7ed8c2d mptcp: pm: update add_addr counters after connect
+74acb250e103f42be372177628f9272b6e888c49 mailmap: map Geliang's new email address
+70b3c88cec7eed6080c8c37f0d2cc4bc46c08852 Merge branch 'mptcp-various-fixes'
+36534d3c54537bf098224a32dc31397793d4594d tcp: use signed arithmetic in tcp_rtx_probe0_timed_out()
 
-f9601b10c21145f76c3d46c163bac39515ed2061 c6c39f3c6da4bf093aad6d0eb1c5b07a7aa2dab7 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmZoaDcbHHN0ZXBoZW5A
-bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+21QQAI7qZnSsSYXBjG4eSYdX
-dLCFJK2HMrLucdZWnS0jN13886Nr3gAWX+au33gxjc/qoFWtqfgaDtYNsbWgyk+d
-zPhJRsFwqQCVUBOVqY6t4Wj2sGSFoujRxOK5J1i//fFiyN/wHkWY5W2dhtV0xUc0
-zH7Zy7qpOcsP/3m28asVXGFsG25v2RBBjHQdIJ9wSeEt915Mbul62dAH9DCkn6bh
-bKcR3UuRunlLvSgRWohPqE0yKvtjdYDpyL7+Oyx7Nhs4wlYfMW4dF87NFWF8jGOE
-ZNWs0pbrSuSCUZXU8KkYMcmV770KrPz9PFK2RUNRA7A3F923r2pxS9zab+EdAAkb
-JHIdIRBwaDVAZHvJO2KJWsPtkOvjtTG6+3oF8j3eqNEToBox+r7c0WqRs82Fzfht
-Ujjmu8uXUgpLlwGTPwB83QctKYErKrFPuO0MVeYif4+xQZoImnjs0LIp9bbsYRB2
-1/hmHY7zzGQb43wve6YX1u0/ZREva/V/4nPH3QLyvQCseuPYm9IY2u137cwBorxa
-HKqdJGgCtDIkSHo7nlrtpQEx92byLqHynLNZj1FNgk5Db2GUSI20LlLWKzUIqnrr
-bXXiVtXVCN5AH5kTfVF9bdELdbZ7j1kt9lVraN+EE/9guSdl2enqbef0JY58lnLm
-7SJ8igx228qFQ0gPe/bY99mZ
-=nmBM
------END PGP SIGNATURE-----
-
---===============2208066538829951499==--
+--===============4173170869496117987==--
