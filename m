@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 11 Jun 2024 17:02:38 -0000
-Message-Id: <171812535829.28414.10689855887074547877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Tue, 11 Jun 2024 17:03:05 -0000
+Message-Id: <171812538594.28688.31019205463952181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
-  - ref: refs/heads/testing/WFAMNAE-next20240611-CbC
-    old: 378615b9bb8d0ab6178239b1c959c319f1cfb10b
-    new: 1dd5c99c4ba37e547bca929f39a507a8a0223caa
+  - ref: refs/heads/master
+    old: 963ddea49fd88167b29658f67af134938b1bdb88
+    new: 1c40cd6e42d8e2de7318357879c97d46b968f168
     log: |
-         1dd5c99c4ba37e547bca929f39a507a8a0223caa treewide_some: fix multiple -Wfamnae warnings that must be audited separately
+         1c40cd6e42d8e2de7318357879c97d46b968f168 patches/next: rebase on latest mm-unstable: based on 6.10-rc2
          
