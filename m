@@ -1,24 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 11 Jun 2024 00:21:32 -0000
-Message-Id: <171806529215.6711.16693542385030794202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Tue, 11 Jun 2024 00:32:43 -0000
+Message-Id: <171806596302.14054.11851189576095066713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/ioctl
-    old: 8950d701daac3c78cb1059debe10f1d3d146900b
-    new: a3f906cef1674f9a8b309b3d288c626b1ff78974
+  - ref: refs/heads/master
+    old: f1b7e31bed1848a72d5ce5c6ef67b70d214b4f4b
+    new: 9cfd70cb868097fb40b27f74832b4dfd29c8d2df
     log: |
-         95648123ac5a5ea502a3312a97daa6d338f1b6d6 ioctl_nsfs.2, NS_GET_NSTYPE.2const: Split NS_GET_NSTYPE from ioctl_nsfs(2)
-         b5dbb74064bf2a650a043d8ac57a883631e9f280 NS_GET_NSTYPE.2const: Tweak after split
-         32157c0340d18332ea6a26dab87049c6a8afa3c4 ioctl_nsfs.2, NS_GET_OWNER_UID.2const: Split NS_GET_OWNER_UID from ioctl_nsfs(2)
-         b88f53784d9e5588919ebd16246a232926df03bd NS_GET_OWNER_UID.2const: Tweak after split
-         a39d713774e72fc731d94dd9e680be55a9337ede ioctl_nsfs.2: Tweak after making sashimi of this page
-         a3f906cef1674f9a8b309b3d288c626b1ff78974 ioctl_ns.2, ioctl_nsfs.2: Rename page, and make sashimi
+         80040340391c287dfc1cb67da631aa4b7b141029 src/_damon_args: Support yaml format config input
+         3689833fe61a4906a9f51645091e7b3bfc179425 _damon_args: Handle yaml not installed case
+         2969713b801c9b0e65eaf90e5f631602b274201e treewide: Add pre-commit auto-corrections
+         e97e067795fc593cfec8704c8d41ed8707be806f treewide: Fix spelling
+         5d8d5afd44b189249fe8a595de97e3217672f22a release_note: Update for next release
+         4d4ea89aac933c750ad4ebf86896af81da4527b2 USAGE: Update for yaml format DAMON parameters input
+         44c89c9ff98e21b8eee6fba4a45c878529958b08 USAGE: Add links to sections
+         c1d5cc84341fffb154ebea4aa85d706325a166b1 src/_damon_args: Wordsmith deducible target option help message
+         ce7a75eb232c3a3b52e1249424bd1485321b5401 src/damo_heats: Use damo_heatmap code
+         9cfd70cb868097fb40b27f74832b4dfd29c8d2df Update the version
          
+  - ref: refs/heads/next
+    old: ce7a75eb232c3a3b52e1249424bd1485321b5401
+    new: 9cfd70cb868097fb40b27f74832b4dfd29c8d2df
+    log: |
+         9cfd70cb868097fb40b27f74832b4dfd29c8d2df Update the version
+         
+  - ref: refs/tags/v2.3.8
+    old: 0000000000000000000000000000000000000000
+    new: 5c78ba207a9f262b9e06983c0f869faf72c4ac0c
