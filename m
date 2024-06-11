@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1018623265376123598=="
+Content-Type: multipart/mixed; boundary="===============4358749589306500942=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 11 Jun 2024 10:25:07 -0000
-Message-Id: <171810150732.19867.114718370028830656@gitolite.kernel.org>
+Date: Tue, 11 Jun 2024 10:25:16 -0000
+Message-Id: <171810151669.19971.12692835793675680389@gitolite.kernel.org>
 
---===============1018623265376123598==
+--===============4358749589306500942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: chandanbabu
 changes:
-  - ref: refs/heads/xfs-6.10-fixes
+  - ref: refs/heads/for-next
     old: b0c6bcd58d44b1b843d1b7218db5a1efe917d27e
     new: 58f880711f2ba53fd5e959875aff5b3bf6d5c32e
     log: revlist-b0c6bcd58d44-58f880711f2b.txt
 
---===============1018623265376123598==
+--===============4358749589306500942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -728,4 +728,4 @@ b8481381d4e2549f06812eb6069198144696340c Merge tag 'perf-tools-fixes-for-v6.10-2
 83a7eefedc9b56fe7bfeff13b6c7356688ffa670 Linux 6.10-rc3
 58f880711f2ba53fd5e959875aff5b3bf6d5c32e xfs: make sure sb_fdblocks is non-negative
 
---===============1018623265376123598==--
+--===============4358749589306500942==--
