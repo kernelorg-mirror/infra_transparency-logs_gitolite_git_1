@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 11 Jun 2024 04:00:34 -0000
-Message-Id: <171807843490.12579.790752232475093864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/tftp/tftp-hpa
+Date: Tue, 11 Jun 2024 04:09:50 -0000
+Message-Id: <171807899010.18937.12709604827405847733@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/network/tftp/tftp-hpa
+user: hpa
 changes:
-  - ref: refs/heads/main
-    old: 2ebb87f45b3c6adc97b29291102ecb97274f913f
-    new: bb678f01804ccaa861b012b2b9426d69673d8a84
+  - ref: refs/heads/master
+    old: 9a92dec1dcc618051500908a1f24761ab29abdcb
+    new: 2c86ff58dcc003107b47f2d35aa0fdc4a3fd95e1
     log: |
-         a2fe35df41c4cfce44f9f87d417cbd44a27b7362 net: intel: Use *-y instead of *-objs in Makefile
-         1d4ce389da2b84e0e24aad5e83fe9c742adc3f99 ice: add and use roundup_u64 instead of open coding equivalent
-         dee55767dc8ca3fc6127a792e2a8b69c5e03fdd2 ice: use irq_update_affinity_hint()
-         bb678f01804ccaa861b012b2b9426d69673d8a84 Merge branch 'intel-wired-lan-driver-updates-2024-06-03'
+         33ec23c0dccbee8d8af207d2f8f59ee52ecfb6fa remap: re-enable in autoconf; fix missing pointer assignment
+         2c86ff58dcc003107b47f2d35aa0fdc4a3fd95e1 remap: *actually* build, and fix masked logic errors
          
