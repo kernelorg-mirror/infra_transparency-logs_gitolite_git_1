@@ -1,30 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 12 Jun 2024 20:20:53 -0000
-Message-Id: <171822365315.10017.12145736971804014653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 12 Jun 2024 20:23:59 -0000
+Message-Id: <171822383955.11183.10196724449281777592@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-linus
-    old: 524d3f126362b6033e92cbe107ae2158d7fbff94
-    new: 37a2c94c68ce543bc7e2105d5ab178b03bafc797
+  - ref: refs/heads/master
+    old: 3322902ac820ce9f54cb84db9ace67dad0d6b52a
+    new: 4bd2ff13de6ceb449605e0566c25067ca4e85dd2
     log: |
-         e8343410ddf08fc36a9b9cc7c51a4e53a262d4c6 ALSA: dmaengine: Synchronize dma channel after drop()
-         c5dcf8ab10606e76c1d8a0ec77f27d84a392e874 ASoC: ti: davinci-mcasp: Set min period size using FIFO config
-         37a2c94c68ce543bc7e2105d5ab178b03bafc797 Fixes for McASP and dmaengine_pcm
-         
-  - ref: refs/heads/for-next
-    old: f2aaeca8975b8d8aab7992f7e77dba045d117a5f
-    new: 65f6c8a9c63e62851d430685d88caebedc133aec
-    log: |
-         e8343410ddf08fc36a9b9cc7c51a4e53a262d4c6 ALSA: dmaengine: Synchronize dma channel after drop()
-         c5dcf8ab10606e76c1d8a0ec77f27d84a392e874 ASoC: ti: davinci-mcasp: Set min period size using FIFO config
-         37a2c94c68ce543bc7e2105d5ab178b03bafc797 Fixes for McASP and dmaengine_pcm
-         65f6c8a9c63e62851d430685d88caebedc133aec Merge remote-tracking branch 'asoc/for-6.11' into asoc-next
+         4bd2ff13de6ceb449605e0566c25067ca4e85dd2 foo
          
