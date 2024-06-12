@@ -1,59 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1595135132539342704=="
+Content-Type: multipart/mixed; boundary="===============8829939726830703645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Wed, 12 Jun 2024 09:55:39 -0000
-Message-Id: <171818613953.8306.17266242904796705522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 12 Jun 2024 10:03:58 -0000
+Message-Id: <171818663811.13055.7897255153318919491@gitolite.kernel.org>
 
---===============1595135132539342704==
+--===============8829939726830703645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 819bda58e77bb67974f94dc1aa11b0556b6f6889
-    new: fcc356020a0171106c9ba524ba05a6792668451e
+  - ref: refs/heads/master
+    old: 2b93b794febd0983b4fc8b8ed6d82ccfc4b6eeb6
+    new: 264be09b07bae0d993564cefb6aec26898a47723
     log: |
-         0941772342d59e48733131ac3a202fa1a4d832e9 wifi: cfg80211: wext: set ssids=NULL for passive scans
-         6ef09cdc5ba0f93826c09d810c141a8d103a80fc wifi: cfg80211: wext: add extra SIOCSIWSCAN data check
-         d792011b6c282bfb787eb2893538e5e336d5e982 wifi: iwlwifi: mvm: unlock mvm mutex
-         4c2bed6042fb6aca1d1d4f291f85461b1d5ac08c wifi: iwlwifi: mvm: fix ROC version check
-         fcc356020a0171106c9ba524ba05a6792668451e wifi: iwlwifi: scan: correctly check if PSC listen period is needed
+         63dc9fdd2a4fae9c5618d7bcebd978425e9c0236 update CVEs with info from latest stable kernel releases.
+         264be09b07bae0d993564cefb6aec26898a47723 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/security/vulns
          
 
---===============1595135132539342704==
+--===============8829939726830703645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1718186107 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1718186107-6158fb7a24e5ab1f38182558eb93a68a811fb796
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718186635 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1718186635-a79c2eef75e66a5d4c2b713d68b75432bdc30dd0
 
-819bda58e77bb67974f94dc1aa11b0556b6f6889 fcc356020a0171106c9ba524ba05a6792668451e refs/heads/main
+2b93b794febd0983b4fc8b8ed6d82ccfc4b6eeb6 264be09b07bae0d993564cefb6aec26898a47723 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmZpcHsACgkQ10qiO8sP
-aAC4GQ//d5Un/SpXCyNt6MIxusUmgIdqQdbg4naJsPohPDVc4mLHybs/itwLNg/C
-K+mnOLcs6wYipm99ZWUiZ51NpM7WTR9I5F/fOQ6SGd+l1inalfr78hxU5exWJEKW
-+VxDOjoqXDcvg0gjaNiM978ng6DI+y8WoCfF7NiArfYhmwyV8kpgXkwFxhERv6kD
-gkVX2u4UfBcQ0NYtNBwel261gy3TLVKq5uz2+yAZHTjpRHVzVRHnmfMFssWYAA5s
-hmwbGswjh9z7uAg2mXWb4ihoUmneyoo3JIzoT7jE+8nuAT/jDycCDDUjMifN2M8z
-d6a/QAjfAJlXKirqMmYSxVWy5tMsheOutbGnDrt3JsrsrCUlUcJyyHoJ+Eexk55J
-QAHpEVGlOx9OgYekQkX0sH9LcE9FaAzgQ86JuqQ/wC04/g1puzENQifIlp5NfC+3
-UHqg3WaNdNShbylnbwL1eQwLWMHdHodBwhCb7tkXdTqtSbAg37fpMIV8ANwHH42G
-FY/9irMZ1rSQ9lYPy0Fcz7oPHMld0Vf3PyDhGbFKnNc+woSwjL0/Kyyv3VJWUxgt
-jxtHFsG1+t1wfUSDU4gMA0BO2un+LnUFvLDtOOa6tSZhTq06Mpiegsncad74ZgS1
-BFseJhEQuaA61g2XFJuX5kCcZgdVg8UlVESBiRf0s8XgntaBwZ8=
-=upic
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZpcosbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W5cP+gM+vHqvWITM1TdzOkgQ
+Jj17XSw4FJoqlgYomzLieZ1OZup5Zkxo7F/NmK2B0YBgHFaLc+mSrpOIbYD8c3Fq
+bcRUl4wQv2vm3PTRTTeDzW2oIphPUSKEplrHtAR1Jr1cv+qhoccm9M34/1BTq4LD
+fYmzazKIlZgxKhUghjtSgDOAwONCc5M0S08LH7cvOMVUSr9sWgdMJZhaH2QyJZYq
+TTx4q7mWKesP1b+/MRFWU2/or0tmZLIhxsB8FShaG+tvjhNNNwLOKVsIlkM7RPMp
+/yDgSXig3iNih1eTWvPbnHj6gCtMn87oWftqHok2zEo3/SjwFBxWJOJjb3Q0Awhh
+YXG1ECJRX61Hgi+DUMY70DE/xtag4fo6icOOdGuKNhZ+6rrva8SCYrbYuToLytQb
+S5CqM0mvZmey3FIir2AUMMg/F+OCtyd7FChHEQl2t91kyne8XEOctTZEWPfpYxx/
+e7H2itXoRCIjZpdzf9zhc21aelMM7KKsxNJlWMqZ5v9tQOkgGj3f7S4Yq4db+X8B
+hiKgTBZ5DTsBq2fYv/xCl+vEncYtOlLe1RS/dcr5LMZwDR1VwjSRTlrtgay5fRo9
+imqv7m6c+IfZfNyLIotsrxyIAZb9xYj7g9BlBs7rgkM03GIEUDH0nK/c2vWzjJAN
+3kPVObH76M3IO7Pykn7rBJS7
+=OhAw
 -----END PGP SIGNATURE-----
 
---===============1595135132539342704==--
+--===============8829939726830703645==--
