@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 12 Jun 2024 16:55:31 -0000
-Message-Id: <171821133195.14984.9632721555272328258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Wed, 12 Jun 2024 16:59:34 -0000
+Message-Id: <171821157412.16464.10481649150281538620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: 27887f72fe6f4af6eede0e419bf72455020b5a07
-    new: 346c13063d54d5e3b95e408e45b11ba5d259a3be
+  - ref: refs/heads/fixes
+    old: 4254dfeda82f20844299dca6c38cbffcfd499f41
+    new: 90e6f08915ec6efe46570420412a65050ec826b2
     log: |
-         346c13063d54d5e3b95e408e45b11ba5d259a3be Wed Jun 12 12:54:41 PM EDT 2024
+         52912ca87e2b810e5acdcdc452593d30c9187d8f scsi: core: Disable CDL by default
+         77691af484e28af7a692e511b9ed5ca63012ec6e scsi: ufs: core: Quiesce request queues before checking pending cmds
+         90e6f08915ec6efe46570420412a65050ec826b2 scsi: mpi3mr: Fix ATA NCQ priority support
          
