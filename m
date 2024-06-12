@@ -1,30 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============7024410024918387198=="
+Content-Type: multipart/mixed; boundary="===============5410499997703676594=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 12 Jun 2024 08:59:58 -0000
-Message-Id: <171818279818.29456.1425235979513394322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Wed, 12 Jun 2024 09:00:11 -0000
+Message-Id: <171818281157.31278.1349347147483390499@gitolite.kernel.org>
 
---===============7024410024918387198==
+--===============5410499997703676594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 2ae2ff637a939c009184fb53ffa680bf7e4e32e0
-    new: 186200b7c72a26325f90d63f14cf2eb1954bc6a3
-    log: revlist-2ae2ff637a93-186200b7c72a.txt
+    old: 83a7eefedc9b56fe7bfeff13b6c7356688ffa670
+    new: 2ef5971ff345d3c000873725db555085e0131961
+    log: revlist-83a7eefedc9b-2ef5971ff345.txt
 
---===============7024410024918387198==
+--===============5410499997703676594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ae2ff637a93-186200b7c72a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718182810 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1718182808-e2e9e4dfbd67a825e486971956b1522785b182d1
+
+83a7eefedc9b56fe7bfeff13b6c7356688ffa670 2ef5971ff345d3c000873725db555085e0131961 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZpY5obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+StMP/0fBs2N916UiU6TqajxJ
+nHdrhygFjfyqvRr7QWfVaGFfoHL3ViXIjtWAdocc0Xq/lq2C70ZhKq5Y8mV8Bw+i
+Cxc52y4SMmFIv2dX9L8SOJUHPe2n6++CNHn7UQYw54K9CUxABUhNHNSMKmxh5qB1
+eEKRiMP7ySfc0PMNdb+1DxadmWDWQIkOiPX3cqAwQOCBCRg6E1rJuz8eLff2ln9Z
+b4Hpk4X9j+KH4TympCIZUTyiDpb79ZII/9lrQfhFf9oPNLfA12/6S2y2KsEOHdJM
+wIfOEbLghhWV1SjEp3Dg+wY5YhXHeivv0CGdO3IsRv6p8I4qjLpMTZqwehvwPgRE
+aMH1TaFjdDELRkq8vJkuE8KgRbjOTATfwlqVzDKrz7jAJ7n/byIykcys4tdBXpBU
+l7DWkC4/Kr9hc2VzPjmAPj65PtmehDn9H9dRxBUXLXB3HPoLDkG/0bgkgPzFgSse
+YpHp5HBXTtTdXrK0zBHA4T3tOPQ0ePJSwmowbmc20p92aMXqZca0m1jo0KUMTN4U
+TNB87wHG66Xi2UvmMycbc4omQVPYE+hWlpr8wz3gO5gPWtOzwaDRwlxNuQ4fkkjn
+Uh5ywFhBFy+zEA88LAgf7PU1/DzM2n5+IGDJ3DqSTMn5B0iELGHWCkp89nckY+kp
+JpBS0VYy3SAXVdA6mOhWsaF9
+=XPJU
+-----END PGP SIGNATURE-----
+
+--===============5410499997703676594==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-83a7eefedc9b-2ef5971ff345.txt
 
 0c07c273a5fe1a25d4f477fe7edf64b3e8b19b3d debugfs: continue to ignore unknown mount options
 db003a28e03f95f2bcb63f037a2078b8870b1ecd netfs: fix kernel doc for nets_wait_for_outstanding_io()
@@ -47,6 +78,5 @@ ed8c7fbdfe117abbef81f65428ba263118ef298a fs/file: fix the check in find_next_fd(
 0841ea4a3b416554be401a91aa267b7de838de8b iomap: keep on increasing i_size in iomap_write_end()
 f5ceb1bbc98c69536d4673a97315e8427e67de1b iomap: Fix iomap_adjust_read_range for plen calculation
 2ef5971ff345d3c000873725db555085e0131961 Merge tag 'vfs-6.10-rc4.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-186200b7c72a26325f90d63f14cf2eb1954bc6a3 Merge branch 'linus'
 
---===============7024410024918387198==--
+--===============5410499997703676594==--
