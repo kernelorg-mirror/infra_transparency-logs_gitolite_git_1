@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 12 Jun 2024 16:49:23 -0000
-Message-Id: <171821096362.9503.12740950457021024536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 12 Jun 2024 16:55:31 -0000
+Message-Id: <171821133195.14984.9632721555272328258@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 2ef5971ff345d3c000873725db555085e0131961
-    new: cea2a26553ace13ee36b56dc09ad548b5e6907df
+    old: 27887f72fe6f4af6eede0e419bf72455020b5a07
+    new: 346c13063d54d5e3b95e408e45b11ba5d259a3be
     log: |
-         cea2a26553ace13ee36b56dc09ad548b5e6907df mailmap: Add my outdated addresses to the map file
+         346c13063d54d5e3b95e408e45b11ba5d259a3be Wed Jun 12 12:54:41 PM EDT 2024
          
