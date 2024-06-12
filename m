@@ -1,52 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2892780519586384319=="
+Content-Type: multipart/mixed; boundary="===============8519646848359298937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 12 Jun 2024 00:45:25 -0000
-Message-Id: <171815312578.19574.7209687584036564768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Wed, 12 Jun 2024 01:57:42 -0000
+Message-Id: <171815746240.11716.4504503972978130576@gitolite.kernel.org>
 
---===============2892780519586384319==
+--===============8519646848359298937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kdevops
-    old: c0a4991d4ccde600d202b4ce7d74bd255a923d6b
-    new: ad5df5f8e52e417aab1ca203f918cf99a15dbf8f
-    log: revlist-c0a4991d4ccd-ad5df5f8e52e.txt
+  - ref: refs/tags/mkp-scsi-fixes
+    old: 442d6223fae7e69cbae4e2c94b6b1ac5091b827a
+    new: b7cbd436a05d8310618516a92a0acbd2192878f8
+    log: |
+         52912ca87e2b810e5acdcdc452593d30c9187d8f scsi: core: Disable CDL by default
+         77691af484e28af7a692e511b9ed5ca63012ec6e scsi: ufs: core: Quiesce request queues before checking pending cmds
+         90e6f08915ec6efe46570420412a65050ec826b2 scsi: mpi3mr: Fix ATA NCQ priority support
+         
 
---===============2892780519586384319==
-Content-Type: text/plain; charset="utf-8"
+--===============8519646848359298937==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c0a4991d4ccd-ad5df5f8e52e.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0ea5831220c65db179a8c00ffe98fdbb577a6711 nfsd: perform all find_openstateowner_str calls in the one place.
-09d00891365493b56cb28e4750389eca3b39d326 nfsd: move nfsd4_cstate_assign_replay() earlier in open handling.
-98e4b1b9ba33253eee39d2f9f66717b081d23680 nfsd: replace rp_mutex to avoid deadlock in move_to_close_lru()
-8ea6968d9607781a0e6ffceab46ab3bdd32d6b8f nfsd: drop st_mutex before calling move_to_close_lru()
-11f5aa9067f8fc801b233fe302aea21526c01ab8 NFSD: Move callback_wq into struct nfs4_client
-c23522b7bebcc8bf8b7fe5f7a4411b3f06d95c41 nfsd: trivial GET_DIR_DELEGATION support
-b7c71cb21234059d5838481ca0939b480a52b711 fs: nfsd: use group allocation/free of per-cpu counters API
-25e4c774be065273776a628dffcbcdef62540086 sunrpc: removed redundant procp check
-b259c6efdcb07db80721b596aaba934aa2d25297 nfsd: drop extraneous newline from nfsd tracepoints
-5890a7b75ab6f53f14b50cb71081e20427d52535 nfsd: new tracepoint for check_slot_seqid
-96e916659771abd424fed62592a79f502b86605f nfsd: add tracepoint in mark_client_expired_locked
-f13dcdad7182243fee05c7a65b58048f0d11b0ea nfsd: optimise recalculate_deny_mode() for a common case
-75b63a9f55ca5d58c444d5522d04c34c03df6905 nfsd: don't create nfsv4recoverydir in nfsdfs when not used.
-0da5338f8cef095c06308d81db6125ca254ca1fb lockd: host: Remove unnecessary statements＇host = NULL;＇
-e7fdf80e36322c0ad9aa73bf7f0860e9dd2c754a NFSD: move nfsd_mutex handling into nfsd_svc callers
-8912ddc63c96e3afc539d77b3b9f0ece79e18335 NFSD: allow callers to pass in scope string to nfsd_svc
-b99e605281f0800bf679a0a45483630863d81150 NFSD: convert write_threads to netlink command
-f989cba8686094949a016f3001ac7916c56ec442 NFSD: add write_version to netlink command
-abd855c94ceb4bb6663c02164e17aff868ba9fc5 SUNRPC: introduce svc_xprt_create_from_sa utility routine
-39a8a1a2d500eb5193b328e11ea663edc834d53e SUNRPC: add a new svc_find_listener helper
-3ccd577157fa92005976c6dc2a99b6cc4998e5b6 NFSD: add listener-{set,get} netlink command
-ad5df5f8e52e417aab1ca203f918cf99a15dbf8f SUNRPC: Remove comment for sp_lock
+certificate version 0.1
+pusher 75C5DE3D 1718157439 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1718157438-c11dc5fac3a9b59317e43b76882ad99de4f52e00
 
---===============2892780519586384319==--
+442d6223fae7e69cbae4e2c94b6b1ac5091b827a b7cbd436a05d8310618516a92a0acbd2192878f8 refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZpAH8ACgkQ7ulgGnXF
+3j2QzBAAt6Nw+fUsCoWRC77xe82WYBwROPpegbcwUJEmB57lEQUq4QisWROmupdf
+NkkNvHVEpBBoPa2YcfHnkKPFSQUzQnRWWp8nLAIA/fvDQdqffXxLzHcKJAK0C9bl
+s6Bo5DNk4Ww/UBwLAeW5uWaEwG76xBT092EQZTzay/4edax18vYtRkN/Sp1zGWey
+0NcgqE9mDrEu5aG2z3yJEW40+eLCjoW9nYQ6cyxWof8yl2NYUerIr6ZFlm0rhXod
+ThbDuvOw6QVQE3bUHBlhHJ7QSKexzBPfgLMWnfklGfVDyKQCaamWhjVG/sIXi7Ys
+1vKPzeKbRMwZ+yaaAQzI2Qw4576BH63R3Vnd7n+Sw2wf4WcM78BbDVrjQbvziaeF
+hConOvPoJ/dt6dBjP3H23VmHP2R4kXgxt3wmCil3TYkXG11/AXVYCmu+2FUyjs4E
+oVnQEBwGto9XG867H1dLaxQPT3Abry0rLGx5MR6+BGuS7E4cxJRXg83D/TeHZKPQ
+Z3KWyL+ZF3XkhYwgIAXIk/yUihlTqg8Sx5uZEtb7lalSUuzfI+TFpm6x4ZNNZGJ3
+IPR5NXwth6QWwjjFxmJ+LOd5MZL3u/vGUkzFC3rVt9hYsXfabV/8mLtpVmopyV8T
+RNmmQ3I/NixYLVkqJHhdOCocyRTUrs1JxWUZql8bF4Kz9eap98A=
+=8EXh
+-----END PGP SIGNATURE-----
+
+--===============8519646848359298937==--
