@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 12 Jun 2024 17:27:13 -0000
-Message-Id: <171821323343.7278.1972268656985152977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 12 Jun 2024 17:27:48 -0000
+Message-Id: <171821326880.7537.11169000440104527845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: 524d3f126362b6033e92cbe107ae2158d7fbff94
-    new: 37a2c94c68ce543bc7e2105d5ab178b03bafc797
+  - ref: refs/heads/experimental
+    old: 7788248561f7a2c4ec60348bf2e166e6a971578c
+    new: b53a442aeb5cef8e06312843c96992af42a40870
     log: |
-         e8343410ddf08fc36a9b9cc7c51a4e53a262d4c6 ALSA: dmaengine: Synchronize dma channel after drop()
-         c5dcf8ab10606e76c1d8a0ec77f27d84a392e874 ASoC: ti: davinci-mcasp: Set min period size using FIFO config
-         37a2c94c68ce543bc7e2105d5ab178b03bafc797 Fixes for McASP and dmaengine_pcm
+         857663c608c5d249db7663d0edcd7071de4e67bc erofs-utils: add I/O control for tarerofs stream via `erofs_vfile`
+         3af15a828e9a297877a939f231f43634b2c39377 erofs-utils: lib: get rid of erofs_prepare_dir_layout()
+         20e280089f8d116d40ffdda1450e041c3af2604c erofs-utils: lib: use filesystem UUID if the device name is not specified
+         258c0452fbf5eac5a59da70ac3fbf803a63f472b erofs-utils: wrap up superblock reservation for incremental builds
+         1b205c816c5fa4b6232bb20bf3b58732b2222ed7 erofs-utils: mkfs: assign root NID in the main thread
+         99e4e32c6d47208dd52c9bb13d6082a6e026f316 erofs-utils: lib: get rid of global sbi in lib/inode.c
+         b53a442aeb5cef8e06312843c96992af42a40870 erofs-utils: lib: drop prefix_sha256 digests
          
