@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 12 Jun 2024 06:37:49 -0000
-Message-Id: <171817426930.24483.14624443306568514955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Wed, 12 Jun 2024 06:50:50 -0000
+Message-Id: <171817505077.1717.11469837945686831789@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/kvm-arm64/nv-e2h-select
-    old: 0000000000000000000000000000000000000000
-    new: d6af8989f12445975f1872865ee8899dac6b6244
+  - ref: refs/heads/objtool-diff
+    old: 5fca95bba3f2bc4eaffeca78c1ff065ea44e55ea
+    new: 8d7a4a25d5c44f7e03ab4145e1957f0b0cdb8c13
+    log: |
+         2b5c0e4bee32aa92e186b0fc146d728f2715d01a tests
+         873d254d7a3c15b60376b9cfcd8002a1943ffb1e todo
+         8d7a4a25d5c44f7e03ab4145e1957f0b0cdb8c13 todo
+         
