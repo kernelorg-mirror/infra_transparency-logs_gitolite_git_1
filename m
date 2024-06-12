@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8258078771693371690=="
+Content-Type: multipart/mixed; boundary="===============7459309153855687805=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 12 Jun 2024 16:07:36 -0000
-Message-Id: <171820845645.10705.7641366669016549086@gitolite.kernel.org>
+Date: Wed, 12 Jun 2024 16:07:40 -0000
+Message-Id: <171820846013.10788.6083722990020117437@gitolite.kernel.org>
 
---===============8258078771693371690==
+--===============7459309153855687805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
+  - ref: refs/heads/i2c/i2c-host-next
     old: 9224b8546453758f73210256597f60f897f8dafe
     new: cbf3fb5b29e99e3689d63a88c3cddbffa1b8de99
     log: revlist-9224b8546453-cbf3fb5b29e9.txt
 
---===============8258078771693371690==
+--===============7459309153855687805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1718208455 +0100
+pusher andi.shyti@kernel.org 1718208459 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1718208454-f1f9dc23f731f82c4f742d7a2d0fb1e882283e14
+nonce 1718208458-46663ab2029a8b77a287bbeada50ae5cc95de294
 
-9224b8546453758f73210256597f60f897f8dafe cbf3fb5b29e99e3689d63a88c3cddbffa1b8de99 refs/heads/i2c/i2c-host-fixes
+9224b8546453758f73210256597f60f897f8dafe cbf3fb5b29e99e3689d63a88c3cddbffa1b8de99 refs/heads/i2c/i2c-host-next
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZmnHxxYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uJ6UBAPl6mMhfNarY9PVVxw5q4oGJ9goP
-plWzIAs9V9o08N41AQDQ9ahg/DRJ3opkffnMZEb2ajHhgUzzxxf5EBx2pUJgCw==
-=02NY
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZmnHyxYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u7HwA+gMoXYPeB56X9vUMibqfkh6QfcP3
+9M0W551DMssvmRXOAQDUNZx2sEJtVUQXuG/iA91hUc1Kz6O0f+Ci7b1PuscuBQ==
+=Qwzl
 -----END PGP SIGNATURE-----
 
---===============8258078771693371690==
+--===============7459309153855687805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -434,4 +434,4 @@ b8481381d4e2549f06812eb6069198144696340c Merge tag 'perf-tools-fixes-for-v6.10-2
 d6d5645e5fc1233a7ba950de4a72981c394a2557 i2c: at91: Fix the functionality flags of the slave-only interface
 cbf3fb5b29e99e3689d63a88c3cddbffa1b8de99 i2c: designware: Fix the functionality flags of the slave-only interface
 
---===============8258078771693371690==--
+--===============7459309153855687805==--
