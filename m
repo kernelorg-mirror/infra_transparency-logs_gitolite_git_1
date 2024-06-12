@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4043556161815057938=="
+Content-Type: multipart/mixed; boundary="===============9162753612015231573=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 12 Jun 2024 15:45:48 -0000
-Message-Id: <171820714833.26757.14805937680625186500@gitolite.kernel.org>
+Date: Wed, 12 Jun 2024 15:46:15 -0000
+Message-Id: <171820717528.27003.4454015998368426649@gitolite.kernel.org>
 
---===============4043556161815057938==
+--===============9162753612015231573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,59 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: 72ece20127a366518d91c5ab8e9dd8bf7d7fdb2f
-    new: 2ef5971ff345d3c000873725db555085e0131961
-    log: revlist-72ece20127a3-2ef5971ff345.txt
-  - ref: refs/tags/v6.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cd214efd16e30bf1aa40ccfaaf9177f47dd21fd5
-  - ref: refs/tags/v6.10-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ac1064c236193fe48bded6f718ad47203870743b
-  - ref: refs/tags/v6.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c17c3ec8582ec50a5af41b359d7b281e56593201
-  - ref: refs/tags/v6.9
-    old: 0000000000000000000000000000000000000000
-    new: d376cac46d30f3913ed0166151263b7d0ad7eed9
-  - ref: refs/tags/v6.9-rc2
-    old: 0000000000000000000000000000000000000000
-    new: eb285c4e8b2d05185325214894357eb2275f972e
-  - ref: refs/tags/v6.9-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b4429db95735be42f9b96d7383adfe2fc51dc9fa
-  - ref: refs/tags/v6.9-rc4
-    old: 0000000000000000000000000000000000000000
-    new: c8d6e4168c5b8c2b0cf545bd3ca87356b4079164
-  - ref: refs/tags/v6.9-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f7106f2f9cc0b361fbc610a7e0c74c8e0658d9b5
-  - ref: refs/tags/v6.9-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 02c1f8066ba946feb60e7846f8d69a2a7ccf6590
-  - ref: refs/tags/v6.9-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 74609cb690e2cd9a5e6f20a6564f415ccd0141f7
+    new: 298b1e4182d657c3e388adcc29477904e9600ed5
+    log: revlist-72ece20127a3-298b1e4182d6.txt
 
---===============4043556161815057938==
+--===============9162753612015231573==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-72ece20127a3-2ef5971ff345.txt
+Content-Disposition: attachment; filename=revlist-72ece20127a3-298b1e4182d6.txt
 
-e4a87abf588536d1cdfb128595e6e680af5cf3ed nfc: nci: Fix uninit-value in nci_rx_work
-21ae74e1bf18331ae5e279bd96304b3630828009 wifi: ath10k: fix QCOM_RPROC_COMMON dependency
-f0eab3e8d1530b87f3523cee060004dd513a6d2b block: t10-pi: add MODULE_DESCRIPTION()
-cee27ae5f1fb8bc4762f5d5de19ec6de6c45e239 Revert "selftests: Compile kselftest headers with -D_GNU_SOURCE"
-3da164023582969280df17636a9d829752787b1c Revert "selftests/sgx: Include KHDR_INCLUDES in Makefile"
-a97853f25b06f71c23b2d7a59fbd40f3f42d55ac Revert "selftests/cgroup: Drop define _GNU_SOURCE"
-7078ac4fd179a68d0bab448004fcd357e7a45f8d ASoC: tas2552: Add TX path for capturing AUDIO-OUT data
-b195acf5266d2dee4067f89345c3e6b88d925311 ASoC: tas2781: Fix wrong loading calibrated data sequence
-9c75576e3bbf0153e92ab51ff161962d8632c290 pNFS/filelayout: Remove the whole file layout requirement
-464b424fb09b894f792a494f10539c190db503cf pNFS/filelayout: Specify the layout segment range in LAYOUTGET
-7c6c5249f061b64fc6b5b90bc147169a048691bf NFS: add atomic_open for NFSv3 to handle O_TRUNC correctly.
-bf95f82e6a569f41bae1e37204b219a5e1e8b971 NFS: make sure lock/nolock overriding local_lock mount option
 37ffe06537af3e3ec212e7cbe941046fce0a822f NFSv4: Fixup smatch warning for ambiguous return
 b322bf9e983addedff0894c55e92d58f4d16d92a nfs: keep server info for remounts
 9b62ef6d239ecccccb0c0262ab39cfcb6d8e40ae SUNRPC: fix handling expired GSS context
@@ -1080,5 +1038,17 @@ c5dbc2ed0006d1a910b5496202a280138ce596e4 Merge tag '6.10-rc2-smb3-client-fixes' 
 b8481381d4e2549f06812eb6069198144696340c Merge tag 'perf-tools-fixes-for-v6.10-2-2024-06-09' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 83a7eefedc9b56fe7bfeff13b6c7356688ffa670 Linux 6.10-rc3
 2ef5971ff345d3c000873725db555085e0131961 Merge tag 'vfs-6.10-rc4.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+fc01008c92f40015aeeced94750855a7111b6929 f2fs: fix to do sanity check on F2FS_INLINE_DATA flag in inode during GC
+c240c87bcd44a1a2375fc8ef8c645d1f1fe76466 f2fs: fix to do sanity check on blocks for inline_data inode
+cc260b66c4cd21a370b39f73c9034a420baf8f79 f2fs: add support for FS_IOC_GETFSSYSFSPATH
+76da333f4b935af65c9465277032a1e24405375c f2fs: alloc new section if curseg is not the first seg in its zone
+6924c8b6fdf96db24edf8392c2dd00f79eeb8e4b f2fs: fix to remove redundant SBI_NEED_FSCK flag set
+5c8764f8679e659c5cb295af7d32279002d13735 f2fs: fix to force buffered IO on inline_data inode
+21327a042dd94bc73181d7300e688699cb1f467e f2fs: fix to avoid use SSR allocate when do defragment
+192b8fb8d1c8ca3c87366ebbef599fa80bb626b8 f2fs: fix to don't dirty inode for readonly filesystem
+270b09313b4e16cdfd01d8371023a1661dd1112e f2fs: use new ioprio Macro to get ckpt thread ioprio level
+a8eb3de28e7a365690c61161e7a07a4fc7c60bbf f2fs: fix return value of f2fs_convert_inline_inode()
+d7409b05a64f212735f0d33f5f1602051a886eab f2fs: fix to cover read extent cache access with lock
+298b1e4182d657c3e388adcc29477904e9600ed5 f2fs: fix to truncate preallocated blocks in f2fs_file_open()
 
---===============4043556161815057938==--
+--===============9162753612015231573==--
