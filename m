@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Wed, 12 Jun 2024 23:40:33 -0000
-Message-Id: <171823563343.31603.8944191228401772647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 12 Jun 2024 23:45:17 -0000
+Message-Id: <171823591729.2762.18409638714592800006@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/objtool-diff
-    old: 1b50f60633536cc153896cce258183ea29eb6808
-    new: 77b952c11556f38dbdc95c25a04ff72c8fd20a1b
+  - ref: refs/heads/tpm2key-v8
+    old: 80582f3b3d5e28ae2fc8926ed0de5b5b5bf81e01
+    new: 7b26f9e0341a12bfbb230a9f35420d18e8f466da
     log: |
-         77b952c11556f38dbdc95c25a04ff72c8fd20a1b todo
+         7b26f9e0341a12bfbb230a9f35420d18e8f466da fixup
          
