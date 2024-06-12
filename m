@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8439367242110068185=="
+Content-Type: multipart/mixed; boundary="===============1813093447335508646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 12 Jun 2024 16:38:34 -0000
-Message-Id: <171821031475.1836.9854037958749704061@gitolite.kernel.org>
+Date: Wed, 12 Jun 2024 16:39:14 -0000
+Message-Id: <171821035426.2128.11171617633981508826@gitolite.kernel.org>
 
---===============8439367242110068185==
+--===============1813093447335508646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
+  - ref: refs/heads/ti-next
     old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
-    new: 2f79e7408ac1b22ce8abc4a22b92793a57a3077d
-    log: revlist-1613e604df0c-2f79e7408ac1.txt
+    new: d524a4960826e5ba8502d1bed843e6c9ca5d8539
+    log: revlist-1613e604df0c-d524a4960826.txt
 
---===============8439367242110068185==
+--===============1813093447335508646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1613e604df0c-2f79e7408ac1.txt
+Content-Disposition: attachment; filename=revlist-1613e604df0c-d524a4960826.txt
 
 ba50141137fae205a731005e70687f4a52289050 arm64: dts: ti: k3-am62x-sk-common: Add bootph-all property in phy_gmii_sel node
 674a20618b0de1afb62622b5051a5371117a1bfd arm64: dts: ti: k3-j784s4-evm: Add alias for MCU CPSW2G
@@ -63,5 +63,9 @@ e96e36ce1fdcf08a70e3f09cbe2da02b073c58ac arm64: dts: ti: k3-am62p5-sk: Fix pinmu
 27ce26fe52d4dcb5bf58cdf5527e2f3a498c1fdf arm64: dts: ti: k3-j784s4-evm: Enable PCIe0 and PCIe1 in RC Mode
 7c4270de2806f80c06dc80c2cf2c8d6eb7c44c59 arm64: dts: ti: k3-j784s4-evm: Add overlay for PCIe0 and PCIe1 EP Mode
 2f79e7408ac1b22ce8abc4a22b92793a57a3077d arm64: dts: ti: k3-am69-sk: Add PCIe support
+74aa5704cf194441001f16dfd4d5d90f4d3bf413 arm64: defconfig: Enable MTD support for Hyperbus
+8a703a728a745a229cfd2b6ccb2ec68a83bd5d0b arm64: defconfig: Enable USB2 PHY Driver
+e05bc474310336e1ab03ed79112909dd0f74d039 arm64: defconfig: Enable TI LP873X PMIC
+d524a4960826e5ba8502d1bed843e6c9ca5d8539 Merge branch 'ti-k3-dts-next' into ti-next
 
---===============8439367242110068185==--
+--===============1813093447335508646==--
