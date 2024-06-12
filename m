@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1082044579248742845=="
+Content-Type: multipart/mixed; boundary="===============7455817228208991899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 12 Jun 2024 01:58:22 -0000
-Message-Id: <171815750271.12196.9095759272427007141@gitolite.kernel.org>
+Date: Wed, 12 Jun 2024 01:58:27 -0000
+Message-Id: <171815750755.12298.16394900447585256747@gitolite.kernel.org>
 
---===============1082044579248742845==
+--===============7455817228208991899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 816b66f22f5ccfb28a894c908818aaa8cf9506fd
-    new: abf4628f5050fed28375f88ccbcd227137f25701
+  - ref: refs/heads/6.11/scsi-queue
+    old: e8a1d87b7983b461d1d625e2973cdaadc0bd8ff5
+    new: f51b2db9b9794e822bebec8c7f3d1115ed778a56
     log: |
          175d1825ca4d2288fee734ada0955a1e36dd50e6 scsi: ufs: pci: Add support MCQ for QEMU-based UFS
          a420a8ed0a92488a04b34dfc262101c87940c800 scsi: ufs: mcq: Prevent no I/O queue case for MCQ
@@ -30,33 +30,33 @@ changes:
          f51b2db9b9794e822bebec8c7f3d1115ed778a56 Merge patch series "Declare local functions static"
          
 
---===============1082044579248742845==
+--===============7455817228208991899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1718157488 -0400
+pusher 75C5DE3D 1718157506 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1718157488-35e935f0be0af9df78069e9255fb86b940ceaa37
+nonce 1718157505-a6b1cacd015544f486a98e856a6fe69e6ac93c96
 
-816b66f22f5ccfb28a894c908818aaa8cf9506fd abf4628f5050fed28375f88ccbcd227137f25701 refs/tags/mkp-scsi-queue
+e8a1d87b7983b461d1d625e2973cdaadc0bd8ff5 f51b2db9b9794e822bebec8c7f3d1115ed778a56 refs/heads/6.11/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZpALAACgkQ7ulgGnXF
-3j2fAhAAiLJyiYzEaZ3O+T6I+5ZYLTh68BneeBDEIudRAZXc5ccDTXPYVoybc3na
-1GBUvfhP0th7EP1yWvR4qdiKrLU4lOyGmiVqtRt7GzoYcoQDHxQCCxgRSdoYoKpv
-h8JAI2jX9AZZfoFEOkG0SkMCCXG/cRqC8EuotJWtDO4NVHpdGtCzE4g+bmgNreeT
-/YBgk47/Vi/GY6kUhPSj1Qa4BjiLUn2vll60WDMw6geCzEgaB/kNhmxyaxFQVsqw
-7KYS2/55wcO4+QfGgU6Naw7EyDzgWl1XvhvHAllOGKxBBWMYmVvtj19L8O4RO96I
-QCeFE9Tfj6Sf3ta7OW1jzqWUZdazeCzakXcpPy9FWGF8m6lFWmgCQFSq+JBImrsq
-GS4BtQ+Zthh8qTXhHC3Q4UItT1YnzfIeWgzXZuIAzqw0vtTkA+GmZXxGQEIZ2QIK
-Pfw72abE99kjcrDBdCW4qaETDHd2LDWoNvn+dJz9bGo2bQnV3gOgjidFZSDQYLTt
-iTHpGuhB6PdVtLuBfN+siXPT6//+Jjvq7it/yvQV04dnZcclEUCGTbWVG30SAv3N
-mxi+UH26ek+VwJQEOV6fQFaqtrZcWjO2cwASPV+ydY6MBCtvW09PVwdutYmyllrs
-ae3FF7lIAXApGohoz0a0Bpdptrjm/XffAmkhhh9CxjQ7hGzPuRE=
-=e94j
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZpAMIACgkQ7ulgGnXF
+3j0ehg/+NQgHvW/4MiqYTYqoIg/8GVeJ/2uPwJuYwN7ZdRf/x5WZGTf0twzgPnVa
+Y4Ygts+nbH5DISqwoUor/eNlDYVi4H/qYBIVXHFIvF9zmg8OopCP/0VoH9WnbCa1
+EuJW1/IyaS5XdRqF1QSmIYFw1EmCPjS0BzDazPfvqcvwjNX4slz4I1TBj7bTrEfB
+SMyXjrj3QOAMLncguxn5cso6ZyAimz+ppV2PBRzSj0kqNjqNAX+Edtl4x9f4/iNj
+7pM+DTKtfjLwt92W61kdwIYSButZvxZlvoG7RHWf5pzxwpRbtV9C3jk7kk9vtzaD
+nT2EwOZqSsADdu8PZmHAQ03WVErYrIboVUpINpj5hpHcWO8hx/pVjOUbhrdCUt/X
+gSYWYgENRArLnGtAhhxd08nIKL0h+Jllqe7UfMhrxO/HDGLqhLMYYl2F76f88WH6
+XnxcpDQd8n1bCVeywr5RycASKYqvoMovAyST9cs8HYUl0jR6eUQjA+9WrWBfW+jU
+nqtoZKgeGqEiXcZl4GXLM932YyhG+HpehauZDJrBEZ0IYS9pMKxfpRCfICJhfh3D
+8n1ZEHIK8gdR6MC6b2k9BRt4P279+GcHtJuxAsp+0bxjoCjMDaqpjEmJGI0/M267
+Vr8/7egZ6H3SmsDvgCSJgNG//NqUvIOdnC9kdQrCUUmWBjIVEhA=
+=/jos
 -----END PGP SIGNATURE-----
 
---===============1082044579248742845==--
+--===============7455817228208991899==--
