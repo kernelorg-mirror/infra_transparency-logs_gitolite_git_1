@@ -1,27 +1,59 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 12 Jun 2024 09:53:53 -0000
-Message-Id: <171818603364.6037.12843920848621754635@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1595135132539342704=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Wed, 12 Jun 2024 09:55:39 -0000
+Message-Id: <171818613953.8306.17266242904796705522@gitolite.kernel.org>
+
+--===============1595135132539342704==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: lee
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 1c1f527f8c31b8e8e1752732fe0eab4ddb882585
-    new: 2b93b794febd0983b4fc8b8ed6d82ccfc4b6eeb6
+  - ref: refs/heads/main
+    old: 819bda58e77bb67974f94dc1aa11b0556b6f6889
+    new: fcc356020a0171106c9ba524ba05a6792668451e
     log: |
-         2a05a569871cef99185f4bf5bfdb83f9dd4ca818 proposed: Add Lee's v6.8.11 results
-         4afcdbda2d8a564de7e6ac5207919de1a08ffb99 proposed: Add Lee's v6.9.1 results
-         a3f41e6fe2fb6a75d34c23dbaef4dc4b582201f8 proposed: Add Lee's v6.9.2 results
-         79035916ecded35a4c0419a0a7d4b8495d7544aa proposed: Add Lee's v6.9.3 results
-         19f0be07eec354d1b46b9cf18cab19aeb3e78cc4 cve_review: Match on more division-by-zero variants
-         3809c94255424298f445e389f117f01e8d9ed24b cve_review: Allow single SHAs to be assessed
-         19b1d69ba9a046ab4cabc8198bde91df6fa75a4a voting_results: Analyse Allen's results
-         7f1106cbbc660073604c8d2f312d1adb177dbffd cve_review: Handle cases where commits are reviewed in different branches
-         2b93b794febd0983b4fc8b8ed6d82ccfc4b6eeb6 cve_review: Allow kernel version numbers when reviewing via file
+         0941772342d59e48733131ac3a202fa1a4d832e9 wifi: cfg80211: wext: set ssids=NULL for passive scans
+         6ef09cdc5ba0f93826c09d810c141a8d103a80fc wifi: cfg80211: wext: add extra SIOCSIWSCAN data check
+         d792011b6c282bfb787eb2893538e5e336d5e982 wifi: iwlwifi: mvm: unlock mvm mutex
+         4c2bed6042fb6aca1d1d4f291f85461b1d5ac08c wifi: iwlwifi: mvm: fix ROC version check
+         fcc356020a0171106c9ba524ba05a6792668451e wifi: iwlwifi: scan: correctly check if PSC listen period is needed
          
+
+--===============1595135132539342704==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1718186107 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1718186107-6158fb7a24e5ab1f38182558eb93a68a811fb796
+
+819bda58e77bb67974f94dc1aa11b0556b6f6889 fcc356020a0171106c9ba524ba05a6792668451e refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmZpcHsACgkQ10qiO8sP
+aAC4GQ//d5Un/SpXCyNt6MIxusUmgIdqQdbg4naJsPohPDVc4mLHybs/itwLNg/C
+K+mnOLcs6wYipm99ZWUiZ51NpM7WTR9I5F/fOQ6SGd+l1inalfr78hxU5exWJEKW
++VxDOjoqXDcvg0gjaNiM978ng6DI+y8WoCfF7NiArfYhmwyV8kpgXkwFxhERv6kD
+gkVX2u4UfBcQ0NYtNBwel261gy3TLVKq5uz2+yAZHTjpRHVzVRHnmfMFssWYAA5s
+hmwbGswjh9z7uAg2mXWb4ihoUmneyoo3JIzoT7jE+8nuAT/jDycCDDUjMifN2M8z
+d6a/QAjfAJlXKirqMmYSxVWy5tMsheOutbGnDrt3JsrsrCUlUcJyyHoJ+Eexk55J
+QAHpEVGlOx9OgYekQkX0sH9LcE9FaAzgQ86JuqQ/wC04/g1puzENQifIlp5NfC+3
+UHqg3WaNdNShbylnbwL1eQwLWMHdHodBwhCb7tkXdTqtSbAg37fpMIV8ANwHH42G
+FY/9irMZ1rSQ9lYPy0Fcz7oPHMld0Vf3PyDhGbFKnNc+woSwjL0/Kyyv3VJWUxgt
+jxtHFsG1+t1wfUSDU4gMA0BO2un+LnUFvLDtOOa6tSZhTq06Mpiegsncad74ZgS1
+BFseJhEQuaA61g2XFJuX5kCcZgdVg8UlVESBiRf0s8XgntaBwZ8=
+=upic
+-----END PGP SIGNATURE-----
+
+--===============1595135132539342704==--
