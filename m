@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 12 Jun 2024 02:40:14 -0000
-Message-Id: <171816001472.12569.15258789566792302476@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 12 Jun 2024 02:51:27 -0000
+Message-Id: <171816068759.19874.4543789052936733254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/main
-    old: 36534d3c54537bf098224a32dc31397793d4594d
-    new: 144ba8580bcb82b2686c3d1a043299d844b9a682
+  - ref: refs/heads/dev
+    old: 9976b7ac67fe1cd26c29860c0399417afcef2f85
+    new: 29cf4c63d04b9752a32e33d46a57717121353ef7
     log: |
-         144ba8580bcb82b2686c3d1a043299d844b9a682 net: pse-pd: Use EOPNOTSUPP error code instead of ENOTSUPP
+         29cf4c63d04b9752a32e33d46a57717121353ef7 rcutorture: Add CFcommon.arch for the various arch's need
          
