@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 12 Jun 2024 17:08:16 -0000
-Message-Id: <171821209648.25114.11657914868600579906@gitolite.kernel.org>
+Date: Wed, 12 Jun 2024 17:08:23 -0000
+Message-Id: <171821210344.25236.6261423456213586530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.11
-    old: b745dcf727f959c5fb08fa3ee08dc48c952b8553
-    new: a694956df4ca75d74bcd422908ddcd8e2ea3042e
+  - ref: refs/heads/regulator-6.10
+    old: 3f60497c658d2072714d097a177612d34b34aa3d
+    new: 4cac29b846f38d5f0654cdfff5c5bfc37305081c
     log: |
-         c38082bf223fb4a3f2bdf1f79650af53d3499dea ASoC: cs35l56: Attempt to read from cirrus,speaker-id device property first
-         5c33876a20e1f42471c2b6fd1804428311d35f1f ASoC: samsung: midas_wm1811: Fix error code in probe()
-         a694956df4ca75d74bcd422908ddcd8e2ea3042e ASoC: dt-bindings: linux,spdif: Convert spdif-reciever.txt to dtschema
+         4cac29b846f38d5f0654cdfff5c5bfc37305081c regulator: bd71815: fix ramp values
          
