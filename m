@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3711433292027046185=="
+Content-Type: multipart/mixed; boundary="===============3115526654017017129=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 12 Jun 2024 18:05:32 -0000
-Message-Id: <171821553298.3618.5861816545326542385@gitolite.kernel.org>
+Date: Wed, 12 Jun 2024 18:05:38 -0000
+Message-Id: <171821553855.3745.12190952285422035694@gitolite.kernel.org>
 
---===============3711433292027046185==
+--===============3115526654017017129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 98b303c9bf05dae932efbd71e18d81f6c64f20d8
     new: 4ff5747158f323939e2ce8881ca61f3c646948c4
     log: revlist-98b303c9bf05-4ff5747158f3.txt
 
---===============3711433292027046185==
+--===============3115526654017017129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ c567cba34585514f82600a10587c8813c50e3a7c bpf: selftests: xfrm: Opt out of using 
 770abbb5a25a5b767f1c60ba366aea503728e957 bpftool: Support dumping kfunc prototypes from BTF
 4ff5747158f323939e2ce8881ca61f3c646948c4 Merge branch 'bpf-support-dumping-kfunc-prototypes-from-btf'
 
---===============3711433292027046185==--
+--===============3115526654017017129==--
