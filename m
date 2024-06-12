@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2891926136663339809=="
+Content-Type: multipart/mixed; boundary="===============8258078771693371690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 12 Jun 2024 16:07:31 -0000
-Message-Id: <171820845127.10574.16004353279678285844@gitolite.kernel.org>
+Date: Wed, 12 Jun 2024 16:07:36 -0000
+Message-Id: <171820845645.10705.7641366669016549086@gitolite.kernel.org>
 
---===============2891926136663339809==
+--===============8258078771693371690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: c3f38fa61af77b49866b006939479069cd451173
-    new: 83a7eefedc9b56fe7bfeff13b6c7356688ffa670
-    log: revlist-c3f38fa61af7-83a7eefedc9b.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 9224b8546453758f73210256597f60f897f8dafe
+    new: cbf3fb5b29e99e3689d63a88c3cddbffa1b8de99
+    log: revlist-9224b8546453-cbf3fb5b29e9.txt
 
---===============2891926136663339809==
+--===============8258078771693371690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1718208450 +0100
+pusher andi.shyti@kernel.org 1718208455 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1718208449-01e454c5f89864bdb826d3e47c2f3a8df5eb69c5
+nonce 1718208454-f1f9dc23f731f82c4f742d7a2d0fb1e882283e14
 
-c3f38fa61af77b49866b006939479069cd451173 83a7eefedc9b56fe7bfeff13b6c7356688ffa670 refs/heads/i2c/i2c-host
+9224b8546453758f73210256597f60f897f8dafe cbf3fb5b29e99e3689d63a88c3cddbffa1b8de99 refs/heads/i2c/i2c-host-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZmnHwhYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1u3Z8BAKd0TEEcEtfdXeKWHI+LZAjdChct
-rGWEpLv8sWpl60DeAP9oSGZ75FZrZEAkdTyOqaE1HP7owaz+4MYJjXcj8y+iAg==
-=qcwV
+iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZmnHxxYcYW5kaS5zaHl0
+aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uJ6UBAPl6mMhfNarY9PVVxw5q4oGJ9goP
+plWzIAs9V9o08N41AQDQ9ahg/DRJ3opkffnMZEb2ajHhgUzzxxf5EBx2pUJgCw==
+=02NY
 -----END PGP SIGNATURE-----
 
---===============2891926136663339809==
+--===============8258078771693371690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3f38fa61af7-83a7eefedc9b.txt
+Content-Disposition: attachment; filename=revlist-9224b8546453-cbf3fb5b29e9.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -431,5 +431,7 @@ c5dbc2ed0006d1a910b5496202a280138ce596e4 Merge tag '6.10-rc2-smb3-client-fixes' 
 637c2dfcd9f5e194ab2e879704460840edcde537 Merge tag 'edac_urgent_for_v6.10_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 b8481381d4e2549f06812eb6069198144696340c Merge tag 'perf-tools-fixes-for-v6.10-2-2024-06-09' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 83a7eefedc9b56fe7bfeff13b6c7356688ffa670 Linux 6.10-rc3
+d6d5645e5fc1233a7ba950de4a72981c394a2557 i2c: at91: Fix the functionality flags of the slave-only interface
+cbf3fb5b29e99e3689d63a88c3cddbffa1b8de99 i2c: designware: Fix the functionality flags of the slave-only interface
 
---===============2891926136663339809==--
+--===============8258078771693371690==--
