@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2975759518532857438=="
+Content-Type: multipart/mixed; boundary="===============6687171911449182054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 13 Jun 2024 15:20:06 -0000
-Message-Id: <171829200607.17475.4593989182194204281@gitolite.kernel.org>
+Date: Thu, 13 Jun 2024 15:20:13 -0000
+Message-Id: <171829201330.17591.10102336088486369822@gitolite.kernel.org>
 
---===============2975759518532857438==
+--===============6687171911449182054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: be27b896529787e23a35ae4befb6337ce73fcca0
-    new: a9b9741854a9fe9df948af49ca5514e0ed0429df
-    log: revlist-be27b8965297-a9b9741854a9.txt
+  - ref: refs/heads/dev-queue
+    old: c5515d26fe9efb03f14ffda5a07f5db29170586d
+    new: 8079eb0ee06e78038ec6a621e781e66a43770852
+    log: revlist-c5515d26fe9e-8079eb0ee06e.txt
 
---===============2975759518532857438==
+--===============6687171911449182054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be27b8965297-a9b9741854a9.txt
+Content-Disposition: attachment; filename=revlist-c5515d26fe9e-8079eb0ee06e.txt
 
 c4ab9da85b9df3692f861512fe6c9812f38b7471 netfilter: nft_inner: validate mandatory meta and payload
 4e7aaa6b82d63e8ddcbfb56b4fd3d014ca586f10 netfilter: ipset: Fix race between namespace cleanup and gc in the list:set type
@@ -40,5 +40,21 @@ b60b1bdc1888f51da7a2a22c48c5f1eb2bd12e97 Merge branch 'net-bridge-mst-fix-suspic
 7d9df38c9c037ab84502ce7eeae9f1e1e7e72603 bnxt_en: Cap the size of HWRM_PORT_PHY_QCFG forwarded response
 a6736a0addd60fccc3a3508461d72314cc609772 af_unix: Read with MSG_PEEK loops if the first unread byte is OOB
 a9b9741854a9fe9df948af49ca5514e0ed0429df bnxt_en: Adjust logging of firmware messages in case of released token in __hwrm_send()
+658b92a1bc6a8d00b9ab2fc6954fe497294b371b ice: Rebuild TC queues on VSI queue reconfiguration
+f806ed29723538ff7f432284977658392fc63cc2 ice: avoid IRQ collision to fix init failure on ACPI S3 resume
+2239d14d995156266421444f3f551c53e2e5ae1b ice: fix 200G link speed message log
+0952691c7aa6c1fdcfaea000a9937957b4acb977 idpf: extend tx watchdog timeout
+f28bbd0e080cbd246d83748037954af4f9ba234d ice: implement AQ download pkg retry
+9bb440a53fd5ce4cd209f041905ddea6840c85d2 ice: respect netif readiness in AF_XDP ZC related ndo's
+00ff2e18f7338bff9aff24768ab4f5c70dfc4ac9 ice: don't busy wait for Rx queue disable in ice_qp_dis()
+d70a7c371aa088ec575c18dcc5e33e63d3c056f7 ice: replace synchronize_rcu with synchronize_net
+533c80d6ffc288a71e875eb2d815b6b75d41bb83 ice: modify error handling when setting XSK pool in ndo_bpf
+6c7f0407630eb8c0b6389107b7bbdae11b14e807 ice: toggle netif_carrier when setting up XSK pool
+f4cc2db7a5ac0e85e0e156a1c7afab8bda373314 ice: improve updating ice_{t, r}x_ring::xsk_pool
+1a5df63b45e7fdaa3249f83fd7602c3087642b44 ice: add missing WRITE_ONCE when clearing ice_rx_ring::xdp_prog
+8b349ec9bd0bb472ec70f2d80c1df8910751a7aa ice: xsk: fix txq interrupt mapping
+aeb7ae319e81086b2a2804a471b8d7a497fb1b6c ice: Fix VSI list rule with ICE_SW_LKUP_LAST type
+5df01e0da4f0e7dde48ef3e46ec18bb3e174ee45 e1000e: Fix S0ix residency on corporate systems
+8079eb0ee06e78038ec6a621e781e66a43770852 ice: Do not get coalesce settings while in reset
 
---===============2975759518532857438==--
+--===============6687171911449182054==--
