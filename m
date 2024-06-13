@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9091731450866203578=="
+Content-Type: multipart/mixed; boundary="===============4080909858424746655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 13 Jun 2024 07:56:51 -0000
-Message-Id: <171826541193.17678.5944203548171367066@gitolite.kernel.org>
+Date: Thu, 13 Jun 2024 07:57:20 -0000
+Message-Id: <171826544087.17952.3539604315851705820@gitolite.kernel.org>
 
---===============9091731450866203578==
+--===============4080909858424746655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,27 +16,31 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: f87c20c019e22be5f2efd11bf9141a532ae876da
-    new: e688890f147c5235a0e0b3971f5a5c39508e8308
-    log: revlist-f87c20c019e2-e688890f147c.txt
+    old: e688890f147c5235a0e0b3971f5a5c39508e8308
+    new: cc2400f9aaea2bab15e5f2d00660cb9771c1807f
+    log: revlist-e688890f147c-cc2400f9aaea.txt
 
---===============9091731450866203578==
+--===============4080909858424746655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f87c20c019e2-e688890f147c.txt
+Content-Disposition: attachment; filename=revlist-e688890f147c-cc2400f9aaea.txt
 
-f97a8b9170a0524c5432791cd5852bf797934af4 EDAC/amd64: Remove unused register accesses
-9aae1baa1c5d8b7229b6de38dc9dc17efcb8c55d x86, arm: Add missing license tag to syscall tables files
-5ac6293047cf5de6daca662347c19347e856c2a5 EDAC/amd64: Check return value of amd_smn_read()
-1d2a03d26a69e4e781077f5fbb5466143928c737 tools/x86/kcpuid: Add missing dir via Makefile
-c2d79cc5455c891de6c93e1e0c73d806e299c54f hwmon: (k10temp) Check return value of amd_smn_read()
-dc5243921be1b6a0b4259dbcec3dc95016ad8427 x86/amd_nb: Enhance SMN access error checking
-cc66126fd317a70d8612a8356ad512a1539abd75 hwmon: (k10temp) Define a helper function to read CCD temperature
-a8bc4165d237f4a6bddbab55d2b6592b87341f0a hwmon: (k10temp) Reduce k10temp_get_ccd_support() parameters
-0e097f2b5928651de3b4f0100401c9e71fa73dba hwmon: (k10temp) Remove unused HAVE_TDIE() macro
-efdf761a83cd390523223f58793755f5d60a4489 hwmon: (k10temp) Rename _data variable
-d6e1b50fb4b3a1bc43e23c3f906be09125439f83 Merge commit '1d2a03d26a69'
-e688890f147c5235a0e0b3971f5a5c39508e8308 Merge branch into tip/master: 'x86/misc'
+e04f2c9a94c199c6a6045e25192a3516d5c8e34d Merge branch into tip/master: 'timers/urgent'
+fffc92babfd895266c663fa9498540797e7ec8b3 Merge branch into tip/master: 'x86/urgent'
+9604aff79f9d32827051cc0e6bc400b1edf64f5b Merge branch into tip/master: 'WIP.x86/fpu'
+6572cd98428afd6214f5108c1035c886edb31fdd Merge branch into tip/master: 'irq/core'
+2685954829d9a2bf2cd164ff338a77304e75b3f4 Merge branch into tip/master: 'locking/core'
+a5a70f95d56900108a48907fda4a77d834cb2d15 Merge branch into tip/master: 'perf/core'
+4ba45c47e1d6676754984872c92fefd6bdb2d269 Merge branch into tip/master: 'ras/core'
+59fcc22a0abfc3d5cb8968d838065dbcc084bfce Merge branch into tip/master: 'sched/core'
+0d5134d615cf0fe72fc8f2bcffb27eac6ac1b943 Merge branch into tip/master: 'timers/core'
+56ce41c275012e25e7dbba981f4d9a600fad686e Merge branch into tip/master: 'x86/alternatives'
+ddd660b4dbd9457264e495d05c2755e5c0cc2a71 Merge branch into tip/master: 'x86/boot'
+417c36f5fb6e409ad89e7e51e8fdc0b9aee7d0cc Merge branch into tip/master: 'x86/cache'
+ddc4ec1228c1494ea99ec4bfceaff3062f4c8625 Merge branch into tip/master: 'x86/cc'
+2fa69defc4e6e0400ba3e0cdd0efa3abd7a7ef2d Merge branch into tip/master: 'x86/cpu'
+5e406df7219801920b9f0750457ed5e2705a2be0 Merge branch into tip/master: 'x86/misc'
+cc2400f9aaea2bab15e5f2d00660cb9771c1807f Merge branch into tip/master: 'x86/percpu'
 
---===============9091731450866203578==--
+--===============4080909858424746655==--
