@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3208097874155033431=="
+Content-Type: multipart/mixed; boundary="===============1542186089798911628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 13 Jun 2024 18:42:29 -0000
-Message-Id: <171830414998.8516.14457659397178224989@gitolite.kernel.org>
+Date: Thu, 13 Jun 2024 18:44:47 -0000
+Message-Id: <171830428757.9380.11338719401270994041@gitolite.kernel.org>
 
---===============3208097874155033431==
+--===============1542186089798911628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/for-next
-    old: db1c31045e6a5b9460262a35ad7658b9bec1d819
-    new: 56cde34553044a435bc82f2751d53037d7acac54
-    log: revlist-db1c31045e6a-56cde3455304.txt
+  - ref: refs/heads/next-fixes
+    old: 9696c6c6c5b0f1f0c4c7be672615b7243e46aea1
+    new: bded4f6c23bd9eec3a68da0caecee2cc5a3803d3
+    log: revlist-9696c6c6c5b0-bded4f6c23bd.txt
 
---===============3208097874155033431==
+--===============1542186089798911628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db1c31045e6a-56cde3455304.txt
+Content-Disposition: attachment; filename=revlist-9696c6c6c5b0-bded4f6c23bd.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -363,6 +363,7 @@ b01e1c030770ff3b4fe37fc7cc6bca03f594133f ipv6: fix possible race in __fib6_drop_
 a34adf6010d723abc26c9f50ac2b326bf5ae0b9e Merge tag 'efi-fixes-for-v6.10-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 2faf6332c506fc3bd23815f8fe8f6d0c35271c17 Merge tag 'tomoyo-pr-20240606' of git://git.code.sf.net/p/tomoyo/tomoyo
 d30d0e49da71de8df10bf3ff1b3de880653af562 Merge tag 'net-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+f3a5367c679d31473d3fbb391675055b4792c309 btrfs: protect folio::private when attaching extent buffer folios
 d91e656262aeef16f6a296a2b6c8b0f7243f408a Merge tag 'pci-v6.10-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 8a92980606e3585d72d510a03b59906e96755b8a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 2d4218311071389682cc1f74b23eb85bb677909a Merge tag 'amd-drm-fixes-6.10-2024-06-06' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
@@ -406,121 +407,8 @@ c5dbc2ed0006d1a910b5496202a280138ce596e4 Merge tag '6.10-rc2-smb3-client-fixes' 
 637c2dfcd9f5e194ab2e879704460840edcde537 Merge tag 'edac_urgent_for_v6.10_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 b8481381d4e2549f06812eb6069198144696340c Merge tag 'perf-tools-fixes-for-v6.10-2-2024-06-09' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 83a7eefedc9b56fe7bfeff13b6c7356688ffa670 Linux 6.10-rc3
-ae03326c223eb88dfd3a6dab5e2837ca36e2ff5e btrfs: qgroup: do quick checks if quotas are enabled before starting ioctls
-ba54cce2f3b97534b0af28b2a4963cb2d41dc8e6 btrfs: pass struct btrfs_io_geometry into handle_ops_on_dev_replace()
-f1b94ba1bb655694bc636101333434e4463eaddd btrfs: zoned: make btrfs_get_dev_zone() static
-17607bf8dd6cca2ad065a6e44cb9a6c611ab0425 btrfs: remove no longer used btrfs_migrate_to_delayed_refs_rsv()
-17b7c15d69715ccebcf8e435c8c81b90b8b42e24 btrfs: fix misspelled end IO compression callbacks
-2902808d82cbf993fb270ee6b9b3e96c3cf41da9 btrfs: fix function name in comment for btrfs_remove_ordered_extent()
-453e758b5adfb53e0790718faa36630445f9dfd2 btrfs: raid56: do extra dumping for CONFIG_BTRFS_ASSERT
-eb337fd3b60aa5500201e0392bd4f202049c279e btrfs: use an xarray to track open inodes in a root
-63e4c08287c668a53e2059b1050e8813e614ddeb btrfs: preallocate inodes xarray entry to avoid transaction abort
-3fd680127d3d89ff2abacf0471e11586798cec86 btrfs: reduce nesting and deduplicate error handling at btrfs_iget_path()
-f119be17a7cd4dfca5c4626d164df27ca129b218 btrfs: remove inode_lock from struct btrfs_root and use xarray locks
-1f50aced06bca22dc44ad85c496ec43323745b99 btrfs: unify index_cnt and csum_bytes from struct btrfs_inode
-47632d4cc654bae8b49500ae8cfe8c7d1d047d8b btrfs: don't allocate file extent tree for non regular files
-e4bc09d1da225da6a0ae7a05ca2a803ab27ed5a5 btrfs: remove location key from struct btrfs_inode
-2ad3833f4e45e5a5b3e7baa75693f0d0fce0b228 btrfs: remove objectid from struct btrfs_inode on 64 bits platforms
-46cdaa8017f6111c5e9a6575a22cf37251a6fe36 btrfs: rename rb_root member of extent_map_tree from map to root
-8872c879e58cb0bed98c1ee2b0bdce8a3eb17ce8 btrfs: use a regular rb_root instead of cached rb_root for extent_map_tree
-562b702356db444f38e1db132f08cfe89fa0bf67 btrfs: drop bytenr_orig and fix comment in btrfs_scan_one_device()
-3a2637a4c862d8ebd9df89e868b901f9991b9319 btrfs: move btrfs_block_group_root() to block-group.c
-11af8590ec9ffe1cb10b1d6207fbe2db9ac32cf5 btrfs: make btrfs_finish_ordered_extent() return void
-fcec21ef0d52998714067f7f8db33f9c67368cfb btrfs: use a btrfs_inode in the log context (struct btrfs_log_ctx)
-179922e2f28bce16f0ed8c8f782159f5f2879f89 btrfs: pass a btrfs_inode to btrfs_fdatawrite_range()
-c66e58276c0abe8daf5c27ae1268178c6cce12bb btrfs: pass a btrfs_inode to btrfs_wait_ordered_range()
-bb115e6fe1eeff4f8b815e9eb7f2c61988e001b7 btrfs: use a btrfs_inode local variable at btrfs_sync_file()
-e3cfec9da17ae53f0c4e8cafc6842338d24d486b btrfs: remove duplicate name variable declarations
-39345d09d97d6e113f2b47a45defa8ef948e41eb btrfs: rename macro local variables that clash with other variables
-88928f57cd316994ff8e3aec122d004657580f1a btrfs: use for-local variables that shadow function variables
-b1e9e80c2e6a97c6030397a9788832fc62693b8a btrfs: remove unused define EXTENT_SIZE_PER_ITEM
-306fd4b4196e9182ccd388114974bab8f226a146 btrfs: keep const when returning value from get_unaligned_le8()
-b5123f4cb205838cef7e8dd158e4217fc3ccd1c3 btrfs: constify parameters of write_eb_member() and its users
-9c958cbd3748631dd294743d89f7606a502fd825 btrfs: slightly loosen the requirement for qgroup removal
-4a108d778066e518bfb8b8e8fe0136a65797c5f9 btrfs: automatically remove the subvolume qgroup
-bf95de36bfc9a90ae67d36955a0f21bdf1b8374f btrfs: simplify range parameters of btrfs_wait_ordered_roots()
-99e1106ed7a5b6068de1a9dd4218d913b2eb63df btrfs: qgroup: avoid start/commit empty transaction when flushing reservations
-040026d871362f0332a7a2c4cc5f6f784e39da71 btrfs: avoid create and commit empty transaction when committing super
-4cad2fe5692949ef1d9320e85acb134f7d05262b btrfs: send: make ensure_commit_roots_uptodate() simpler and more efficient
-4db8539104cd7ba372a535e503b0d7db5691f5cc btrfs: send: avoid create/commit empty transaction at ensure_commit_roots_uptodate()
-babb5b86feb66e45ef0f550ce8ab49af05774d11 btrfs: scrub: avoid create/commit empty transaction at finish_extent_writes_for_zoned()
-ad1599586cd9b1b6fe210c6a2cdb7e193d1d8369 btrfs: add and use helper to commit the current transaction
-da949aa4b8db2fc31e4d481d23e7d0d8c2e56fe8 btrfs: send: get rid of the label and gotos at ensure_commit_roots_uptodate()
-7a9bfd3c6d89d52b7cc23bff0ed3abe9973cbfa1 btrfs: move fiemap code into its own file
-9ab5e01ba0e01196f61379e080a4ad8e4a5e2317 btrfs: rename extent_map::orig_block_len to disk_num_bytes
-8ebbecf3075e41858f4bd19b183a250dd3d26b44 btrfs: export the expected file extent through can_nocow_extent()
-70cb5eb1c3f65db7f96f27d6698bcb4e9ee3c8f5 btrfs: introduce new members for extent_map
-e8ca3e55d6cbf12ba603743bb23dcab1339b8633 btrfs: introduce extra sanity checks for extent maps
-4cd08a17c5e4cb2ca9da2934295000b62f826bce btrfs: remove extent_map::orig_start member
-7d186fd51bac073efdbecc413a0ce8e316f51470 btrfs: remove extent_map::block_len member
-a8b92ec70aa74f806b596658d70ce023b7ccd2d9 btrfs: remove extent_map::block_start member
-b20b0396d77be2fc7a0971449c92cd6c896c0561 btrfs: cleanup duplicated parameters related to can_nocow_file_extent_args
-647b92be57c14f0df05a572770d4be73c74d1ac3 btrfs: cleanup duplicated parameters related to btrfs_alloc_ordered_extent
-3f44a774aa393023830c6dc2334941157272f600 btrfs: cleanup duplicated parameters related to create_io_em()
-a018b6819ad294610f2a4904837e2cf5025aaf2e btrfs: cleanup duplicated parameters related to btrfs_create_dio_extent()
-649ba6b0a0d2b68a5f05e73ca69659dd3ec7d62d btrfs: rename err to ret in btrfs_cleanup_fs_roots()
-cdafc18b5f0e6a50a211d4c12b21868d2e0f1392 btrfs: rename ret to err in btrfs_recover_relocation()
-f4b31bab79c18e3ee7880b5b14bc9d397363656d btrfs: rename ret to ret2 in btrfs_recover_relocation()
-1815ac9c23b87aefede53a8518f7596651c1d7d8 btrfs: rename err to ret in btrfs_recover_relocation()
-e1576796e0acfdfe53b7e057016d5f2ed221124b btrfs: rename err to ret in btrfs_drop_snapshot()
-50a8ce425cb19a58680addcda91fff6b215d18c8 btrfs: add MODULE_DESCRIPTION()
-22ca33eefaa6dfe9a64ed47ae89cdd9b94b7da9e btrfs: make __extent_writepage_io() to write specified range only
-d46a55c7354815bbe190f15978f8614bc5e4e0da btrfs: subpage: introduce helpers to handle subpage delalloc locking
-9ef73b89a5cc441f6ad382f82897d724a4be8997 btrfs: lock subpage ranges in one go for writepage_delalloc()
-4b47f5baaa4c60669f92b410eee5c9899f4bfc71 btrfs: do not clear page dirty inside extent_write_locked_range()
-0849046f37cf2992259d3765b681a40eee5c660a btrfs: make extent_write_locked_range() handle subpage writeback correctly
-f6c3a0faedcc6b94e0ef8aca5dcc8f74ad268195 btrfs: qgroup: delete a TODO about using kmem cache to allocate structures
-fc5bc7b638f352ac6574cb055ac8cfb3baaf2812 btrfs: cleanup recursive include of the same header
-a399ff164f15e46a98b4809d5fa79fd3748073e8 btrfs: do not directly include rwlock_types.h
-edf2ee52edb78c6d464c60e4580ae64d1122dcb0 btrfs: constify pointer parameters where applicable
-21adb5b75175ad720228822839f1c6cf5b9fec46 btrfs: reduce critical section at btrfs_wait_ordered_roots()
-2c64eb2cad91045e7bb760e331d34455fb187afd btrfs: reduce critical section at btrfs_wait_ordered_extents()
-4eaff6fdb40ce2b460d23def830596118c4b4493 btrfs: add comment about locking to btrfs_split_ordered_extent()
-987b2387afbae3ddf6760a3c410df369d4f23c9c btrfs: avoid removal and re-insertion of split ordered extent
-724789a8d4d947ecb5f587c1c17c83220fed7b47 btrfs: mark ordered extent insertion failure checks as unlikely
-e5b689d005c078fed725d9c287c13dba225af995 btrfs: update panic message when splitting ordered extent
-4e7bdb862e71dab1b183d4898290c2a895d8ca6e btrfs: pass reloc_control to relocate_data_extent()
-d69fca8956259001fe705b264d3ddd6a53902c5a btrfs: pass a reloc_control to relocate_file_extent_cluster()
-9ed824f96554a18b5bdf4b46e66c362e65607876 btrfs: pass a reloc_control to relocate_one_folio()
-2f7775e16e7462a8526a1f128ff87db96d6f180e btrfs: don't pass fs_info to describe_relocation()
-693aa1c7a3e7a074f665acc2b0dd48524e86acc1 btrfs: pass a struct reloc_control to prealloc_file_extent_cluster()
-99f295f30a24b6cbf95e2f91206b02656ae5a773 btrfs: pass reloc_control to setup_relocation_extent_mapping()
-5e3945727a4a81d973b78248206928ed105ba110 btrfs: remove pointless code when creating and deleting a subvolume
-06eee7da04eba3c5d19321acf58b393ee23c7dca btrfs: retry block group reclaim without infinite loop
-6c3c553f90bdc643fdae2c7be48ae97ab297187a btrfs: zoned: allocate dummy checksums for zoned NODATASUM writes
-1d8400b204b06fa3c2f876e4a845d32c551de28e btrfs: avoid transaction commit on any fsync after subvolume creation
-acf3e725b0bed10c0bda74566d8bfd0bdc7580cb btrfs: don't do extra find_extent_buffer() in do_walk_down()
-3d6dcecbad1bc10000d0118788ed052555d7ec57 btrfs: remove all extra btrfs_check_eb_owner() calls
-f40b787c049e7d52896e8ffbd41495b3ea0f1ea6 btrfs: use btrfs_read_extent_buffer() in do_walk_down()
-120856d6415be93f9eb52c5b0ec9d92f41c4ce8f btrfs: push lookup_info into struct walk_control
-143d721405639155341946079b76bbe075e43361 btrfs: factor out eb uptodate check from do_walk_down()
-b69325849918371f8528df5ef9932ce6095cf704 btrfs: remove local variable need_account in do_walk_down()
-8e9bb3ccc3a4cb6f1c98d10dd8b173cfa4395f8d btrfs: unify logic to decide if we need to walk down into a node during snapshot delete
-71d58be97cfbbbcab2ee6c434a7a04433101d84b btrfs: extract the reference dropping code into it's own helper
-b8f758713fe6b2bdf1e0c46f74b6ad5c32216059 btrfs: don't BUG_ON on ENOMEM from btrfs_lookup_extent_info() in walk_down_proc()
-67d6d280ea4e0bd24b09f24b848184c81c1642b7 btrfs: handle errors from ref mods during UPDATE_BACKREF in walk_down_proc()
-c654cf16340a97563ec37d1753e2e0379b342161 btrfs: replace BUG_ON with ASSERT in walk_down_proc()
-ffc4ce869ee5ec539911baa2df3694aa9783f80e btrfs: clean up our handling of refs == 0 in snapshot delete
-3424609dbe3fda73ad9af62e3c47ac2999dcff29 btrfs: convert correctness BUG_ON()'s to ASSERT()'s in walk_up_proc()
-09af91c12010c08596d4ba6059726bb72ebbaba8 btrfs: handle errors from btrfs_dec_ref() properly
-28f31d482c009294588071fd1f2e2233073153ec btrfs: add documentation around snapshot delete
-e8783e9474fb63a89a957403c214949a1a0e56f2 btrfs: === misc-next ===
-20286b7f6bc3cd8a213a2c70a6d1f3f8ad688372 btrfs: handle unexpected parent block offset in btrfs_alloc_tree_block()
-dbd4ffd04e4d791f7a88eda4dd379f8e005aff67 btrfs: scrub: fix incorrectly reported logical/physical address
-a0630b887bd6070f72fd287a2d9d444c84979700 btrfs: reduce the log level for btrfs_dev_stat_inc_and_print()
-41b8a5256bb340a929826dc2efcf3a69dbff095a btrfs: scrub: remove unused is_super parameter from scrub_print_common_warning()
-bc444a2506a34216030654807dce6b6793733844 btrfs: scrub: remove unnecessary dev/physical lookup for scrub_stripe_report_errors()
-6afa933c2dcfc45cb53fabbfbbccfc5133dc5892 btrfs: scrub: simplify the inode iteration output
-d9f0755864cbca9f398fd81482a52202af44b030 btrfs: scrub: ensure we output at least one error message for unrepaired corruption
-c82863c9690a0a0eed42d0e8f95a92180479bee8 btrfs: scrub: use generic ratelimit helpers to output error messages
-04b26363f7868332a4236cf29a2379b17f107373 btrfs: drop extent maps after failed COW dio write
-202e4fce7708aa4723042b800e93747259d1a467 btrfs: refactor btrfs_dio_submit_io() for less nesting and indentation
-542017fd9604be6ab4aaadbce271887cd298aaf1 btrfs: make compression path to be subpage compatible
-d2f0f3300c3aba0cc6158099240e36ad5337e1cd Merge branch 'misc-6.10' into for-next-current-v6.9-20240613
-cb90ea60a0b115813eb5cee4e5cb8cc08c20f5e2 Merge branch 'misc-6.10' into for-next-next-v6.10-20240613
-7405b30e31641888f7215a5bbc79c5a16228ea92 Merge branch 'b-for-next' into for-next-next-v6.10-20240613
-08ccead6ba53fea19f7232e0d06bad3e1f3e1dbe Merge branch 'misc-next' into for-next-next-v6.10-20240613
-1879e508857b68d9a16995d4ee249636aa014200 Merge branch 'for-next-current-v6.9-20240613' into for-next-20240613
-56cde34553044a435bc82f2751d53037d7acac54 Merge branch 'for-next-next-v6.10-20240613' into for-next-20240613
+4eb4e85c4f818491efc67e9373aa16b123c3f522 btrfs: retry block group reclaim without infinite loop
+cebae292e0c32a228e8f2219c270a7237be24a6a btrfs: zoned: allocate dummy checksums for zoned NODATASUM writes
+bded4f6c23bd9eec3a68da0caecee2cc5a3803d3 Merge branch 'misc-6.10' into next-fixes
 
---===============3208097874155033431==--
+--===============1542186089798911628==--
