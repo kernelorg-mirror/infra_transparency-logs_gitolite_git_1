@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 13 Jun 2024 19:56:43 -0000
-Message-Id: <171830860314.32163.2053848053978414858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 13 Jun 2024 20:13:27 -0000
+Message-Id: <171830960781.12171.67676673096887055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: cf9248da7d4e595543a360d6c3f8928d025375b4
-    new: b6b7b2fe9db32c63a61f26c0b11d772296e0dbe8
-    log: |
-         b6b7b2fe9db32c63a61f26c0b11d772296e0dbe8 SUNRPC: Emit a trace event when a timeout occurs
-         
+  - ref: refs/tags/net-6.10-rc4
+    old: fb3340b7919f40b8488298730c1f6c73f6bca406
+    new: 0000000000000000000000000000000000000000
