@@ -1,26 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Thu, 13 Jun 2024 17:13:18 -0000
-Message-Id: <171829879884.5670.1576352265462103041@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7016585970442351000=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Thu, 13 Jun 2024 17:13:29 -0000
+Message-Id: <171829880950.5844.6088965970577312936@gitolite.kernel.org>
+
+--===============7016585970442351000==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: ebcd1453f15e2ef9bfa007d9ae4b9cd86d1afd5e
-    new: 11aeac997f9cba0b51ee332b0d9c1137668a9106
-    log: |
-         234db2775b9eff77b8ec2216cc8a286d1dd2cd65 dt-bindings: mfd: syscon: Add more simple compatibles
-         7d58eb159f217c69e5b6a0d71b3cfd5f40b367bf mfd: qcom-pm8008: Add missing MODULE_DESCRIPTION() macro
-         b3e691c26f55731fd937c4b7ccbc150e10aa30a3 mfd: Add missing MODULE_DESCRIPTION() macros
-         9d1e745c2dc06fed0eb6e3b549b75669f9da77be mfd: max14577: Fix Wvoid-pointer-to-enum-cast warning (again)
-         a377d89e5064e787deecfb87d9464ea18f5f067e mfd: mxs-lradc: Fix Wvoid-pointer-to-enum-cast warning (again)
-         05bb1fb09b523136acb58421361a259127de68d4 mfd: wm8994: Fix Wvoid-pointer-to-enum-cast warning (again)
-         6cc27f7d3e26c6e661385c3cdbc554a8fefbdce5 mfd: arizona: Simplify with spi_get_device_match_data()
-         11aeac997f9cba0b51ee332b0d9c1137668a9106 mfd: madera: Simplify with spi_get_device_match_data()
-         
+  - ref: refs/heads/for-leds-next
+    old: 005408af25d5550e1bd22a18bf371651969c17ee
+    new: bdd39a590cec198d4208ef4dd375971dbd079b5e
+    log: revlist-005408af25d5-bdd39a590cec.txt
+
+--===============7016585970442351000==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-005408af25d5-bdd39a590cec.txt
+
+c7519351d702d8d3dc8844b1e24a5c35a4c22157 leds: core: Omit set_brightness error message for a LED supporting hw trigger only
+b234df8016fc73468dfff2ea91c5b150bbe6f692 leds: ncp5623: Use common error handling code in ncp5623_probe()
+057739faa00602ca64090e084a664715ee74eb3c leds: spi-byte: Call of_node_put() on error path
+9cb832b2c7bcd8b5decd9e9c07302c802ee25faa leds: spi-byte: Get rid of custom led_init_default_state_get()
+3e3735a40ec6694fa70ae20d33545783b9d555af leds: spi-byte: Make use of device properties
+dc5f64e4c1531d935c239eb4db3957c5cf569bb6 leds: spi-byte: Utilise temporary variable for struct device
+cc5f66ad5640340ab8fb5753acc7218e2b60d36c leds: spi-byte: Use devm_mutex_init() for mutex initialization
+2ac2628cc23cae5c3a317eaa7f0d3a1d9359a3c9 leds: spi-byte: Move OF ID table closer to their user
+ad5851de0eb12e088a570092242e421cd00691c5 leds: triggers: Flush pending brightness before activating trigger
+bdd39a590cec198d4208ef4dd375971dbd079b5e leds: rgb: leds-qcom-lpg: Add PPG check for setting/clearing PBS triggers
+
+--===============7016585970442351000==--
