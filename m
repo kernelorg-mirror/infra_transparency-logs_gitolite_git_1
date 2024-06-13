@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0089154186982614673=="
+Content-Type: multipart/mixed; boundary="===============7877464011939921764=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 13 Jun 2024 18:20:31 -0000
-Message-Id: <171830283178.24880.16362806651624763380@gitolite.kernel.org>
+Date: Thu, 13 Jun 2024 18:21:03 -0000
+Message-Id: <171830286306.25150.11070873037384945854@gitolite.kernel.org>
 
---===============0089154186982614673==
+--===============7877464011939921764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: cc1ce839526a65620778617da0b022bd88e8a139
+  - ref: refs/heads/togreg
+    old: 823c485ffd062e067ab49ab694ee2a18e27d45c0
     new: 07d4d0bb4a8ddcc463ed599b22f510d5926c2495
-    log: revlist-cc1ce839526a-07d4d0bb4a8d.txt
+    log: revlist-823c485ffd06-07d4d0bb4a8d.txt
 
---===============0089154186982614673==
+--===============7877464011939921764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc1ce839526a-07d4d0bb4a8d.txt
+Content-Disposition: attachment; filename=revlist-823c485ffd06-07d4d0bb4a8d.txt
 
+ef60f9ca26d33d0f8e1a709771c61d3e96f64559 docs: iio: add documentation for adis16480 driver
+9f53b59f4843e7020f1cb0baecd2873f78136d76 iio: chemical: ams-iaq-core: clean up codestyle warning
 c4ec8dedca961db056ec85cb7ca8c9f7e2e92252 driver: iio: add missing checks on iio_info's callback access
 f4bed1ceb82e465d85d2f73c26b4652b81adb257 iio: accel: mma7660: add mount-matrix support
 1b88a895b931eaa64b500598abc8fac464aa0b5b iio: adc: ti-adc161s626: make use of iio_device_claim_direct_scoped()
@@ -59,4 +61,4 @@ d12b7d6ede9be336fb7a308c2ad9f4e1d8d817ad iio: chemical: ens160: add power manage
 3d4d033a8d554e533d87ddf315b1e0d137e6ade8 iio: document inv_icm42600 driver private sysfs attributes
 07d4d0bb4a8ddcc463ed599b22f510d5926c2495 iio: imu: inv_icm42600: add support of accel low-power mode
 
---===============0089154186982614673==--
+--===============7877464011939921764==--
