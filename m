@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Thu, 13 Jun 2024 17:30:30 -0000
-Message-Id: <171829983037.19108.3994005775426489227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 13 Jun 2024 17:33:48 -0000
+Message-Id: <171830002811.20371.13486156904996512358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/objtool-diff
-    old: 79c4fcf6a90098aee35e90b3454615e692bc46a8
-    new: e81d55a366d58e04039f6353fe2e7dc6d7964a7b
+  - ref: refs/heads/master
+    old: 891552999317014a7053c83b81355d35654ba839
+    new: 792cffb4992dee18ec4a8f3423c9a3c681c828dd
     log: |
-         e81d55a366d58e04039f6353fe2e7dc6d7964a7b todo
+         7861c511ca7ecbbf8223aee22a3085d6152799cf client/player: Fix transport.send
+         8e4bece63ce91f2debc9468a793f2c65e41c5bb2 src/shared: Add initial implementation for an ASHA profile
+         c26389c466a0e7010acd245adc7a68b5178ca1d8 profiles/audio: Add an ASHA plugin
+         792cffb4992dee18ec4a8f3423c9a3c681c828dd test: Add a script to test ASHA
          
