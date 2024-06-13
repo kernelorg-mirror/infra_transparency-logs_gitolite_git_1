@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Thu, 13 Jun 2024 22:11:39 -0000
-Message-Id: <171831669975.2987.3377191897315817580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 13 Jun 2024 22:19:35 -0000
+Message-Id: <171831717525.7552.15751764638010839442@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/tags/mm-everything-2024-06-12-20-21
-    old: 0000000000000000000000000000000000000000
-    new: 18d1b75e2d3dfd748966a680cd24d3d9abdd7ce4
-  - ref: refs/tags/mm-everything-2024-06-13-22-09
-    old: 0000000000000000000000000000000000000000
-    new: c6029ae03a2f6acaa0272bec0fa66f7b81928db2
+  - ref: refs/heads/misc
+    old: d5debddce5b637820825b82d2a5b9ed83e1a1e98
+    new: 3dadb4871578389c3c3bd6b081b1fe2af1dcdfe7
+    log: |
+         3dadb4871578389c3c3bd6b081b1fe2af1dcdfe7 PCI: Add missing MODULE_DESCRIPTION() macros
+         
