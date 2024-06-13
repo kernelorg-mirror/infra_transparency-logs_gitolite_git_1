@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6206715735744002488=="
+Content-Type: multipart/mixed; boundary="===============6214716179041662260=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 13 Jun 2024 07:58:10 -0000
-Message-Id: <171826549081.18435.12286653390637593635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 13 Jun 2024 08:01:22 -0000
+Message-Id: <171826568275.21466.7493143956189895587@gitolite.kernel.org>
 
---===============6206715735744002488==
+--===============6214716179041662260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: a4cc04f2e60350ca16ce748d90e3c2e811f8b450
-    new: 1b887a13d91bc35512f402ed376d9bad1f734096
-    log: revlist-a4cc04f2e603-1b887a13d91b.txt
+    old: 42ccb6d3dd801d5e5990094f952b52d8b5fbd1b0
+    new: 63bd5985814c60d8837c4c899b023480d9392d89
+    log: |
+         63bd5985814c60d8837c4c899b023480d9392d89 4.19-stable patches
+         
 
---===============6206715735744002488==
+--===============6214716179041662260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4cc04f2e603-1b887a13d91b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e4db6b55ddd88a2f91ae7b53db24c1b6c2fca4a2 Merge branch into tip/master: 'timers/urgent'
-2a059eb854cd80ed1de23b9c5a30bd20b20ac870 Merge branch into tip/master: 'x86/urgent'
-e1e7020487bf691ef309f0fbee20e84e40b1a795 Merge branch into tip/master: 'WIP.x86/fpu'
-6565763aeb57d0021eaeb23fcfc5928c77948f90 Merge branch into tip/master: 'irq/core'
-2aebcc0a19b00ee0471c4777305f45353a41cdca Merge branch into tip/master: 'locking/core'
-743dfaba332ed2fd4a4d2fc2236c86e05c11bfc4 Merge branch into tip/master: 'perf/core'
-016dc8ae9de240881b28b340875fcf1503b99eb2 Merge branch into tip/master: 'ras/core'
-d9ac3ae396c9b58b7448a4d3a50204d6180828a2 Merge branch into tip/master: 'sched/core'
-299f5ae07eb1436e5eebe3c6463dcaeee7770ede Merge branch into tip/master: 'timers/core'
-08e032eb28c8071390363266c0fe9b0071c15efc Merge branch into tip/master: 'x86/alternatives'
-27a5f591ba1f2f7b6204105d8c5d668c7b6545f6 Merge branch into tip/master: 'x86/boot'
-3424600469112a483f9539b8ead75b1d160ed2e4 Merge branch into tip/master: 'x86/cache'
-33dd0cbe56ae5b2c5775fc8c4e26d217532db2e8 Merge branch into tip/master: 'x86/cc'
-436688bb2c9d1b087e83e769d2414aefff6f08fd Merge branch into tip/master: 'x86/cpu'
-2e557110f06939d2789bea0b1e51c832bfcff412 Merge branch into tip/master: 'x86/misc'
-1b887a13d91bc35512f402ed376d9bad1f734096 Merge branch into tip/master: 'x86/percpu'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718265681 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1718265680-76ecce0ab7ee50c6987615306ef026d18a2065f1
 
---===============6206715735744002488==--
+42ccb6d3dd801d5e5990094f952b52d8b5fbd1b0 63bd5985814c60d8837c4c899b023480d9392d89 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZqp1EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dbkP/RZ6nEGbejqRuWqoZHwE
+iZobMCM8WF+kt9Ui00CH/hFjwcivTkladoP3NFhvSlGov/gRmBnxuliKsRSKig7g
+K7KWSSLQGk8GQXlHuY2rCSEf7/rnK0R8bOSFLGweZ8ip1vkzWoGE+7iNAESK29w5
+gJ85uPQ5P1Gr58tlVuvQR0FZcMhVrpxOvn2c6cTYdFnegPuLrp+JJ6K5/9O3Cq65
+muDSahnIvWVkTquP6/CMWzTlPd8MXw/T/UfIIJt4n4BWj8kaWcncHxqtBZwMsXWb
+0bjX0XavSqjfoKSCJlFBUoH/SHeSCbPKrI4OvD0zZPlBF+/vlo5tmA0SbKvKDIvH
+MyVGIu/UfdPJJVMEn/zgomVP9uoC3EzJgeVND+ao9EoHEoGT9zCYNcdxJypUjd7T
+cWfe2ZP+GQRS5X+As/tO/xPFldhLDTsD87PgSKj3V1lYCCStJeevjigIu3KWZc7g
+Ytai/33oJ1pw5m79j1jGCfuZKUKpZm2Ivob2t30h2EPzEaV9WoFZAZtwXLDDm8fm
+tqNREgxFqZFd/Jgntp4cE4i6sO0kEocgtBRNbww8ptfaj5/FIaKdYTNnI8vgFC76
+ugAVLYuWvZvSNnVOY1YkW86nNa1OdSANccjldx9DcCpJhSsO1vG2kAmKTtNa0hWN
+Z6Qn0t3YHGKl0v/1Ksd1I7/j
+=JOcw
+-----END PGP SIGNATURE-----
+
+--===============6214716179041662260==--
