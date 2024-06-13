@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 13 Jun 2024 02:44:37 -0000
-Message-Id: <171824667744.10670.13539697784353673754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Thu, 13 Jun 2024 03:09:53 -0000
+Message-Id: <171824819317.29837.17772306893260039962@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/experimental
-    old: b53a442aeb5cef8e06312843c96992af42a40870
-    new: 0b7741383db8574604e7a2a1c3a0c85e2c7b3a31
+  - ref: refs/heads/kbuild
+    old: 6e5cd25b08c23d691e1c3a5a1521e992ad90da69
+    new: e27f421503972af88df6af77d0059bad0aa7616a
     log: |
-         8549c28ff21a65d001cb3988e1d6775f65637b3b erofs-utils: fix incorrect i_nlink in the unified rebuild logic
-         8a5e9a4b25dec19ee707ddbb93240c94ef7f480b erofs-utils: lib: get rid of erofs_prepare_dir_layout()
-         f9f0109d4f1497ae49577540aa153878a9a42b06 erofs-utils: lib: use filesystem UUID if the device name is not specified
-         ea533bb17786779cd0952973ec80172b75fa461d erofs-utils: wrap up superblock reservation for incremental builds
-         37e5abcd87200a34da1b805cf268d90f1e8d92d1 erofs-utils: mkfs: assign root NID in the main thread
-         da17cdb03d7647963f4719b0083f423bc9afa715 erofs-utils: lib: get rid of global sbi in lib/inode.c
-         0b7741383db8574604e7a2a1c3a0c85e2c7b3a31 erofs-utils: lib: drop prefix_sha256 digests
+         f86722e9d1e11aabe25e6c4d38cdae210183780d kbuild: refactor variables in scripts/link-vmlinux.sh
+         814f3e00696c635523a11c0cd68c97e2d1bb2824 kbuild: remove PROVIDE() for kallsyms symbols
+         e27f421503972af88df6af77d0059bad0aa7616a kbuild: merge temporary vmlinux for BTF and kallsyms
          
