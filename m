@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 13 Jun 2024 11:58:41 -0000
-Message-Id: <171827992107.25679.15130399157216853355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Thu, 13 Jun 2024 12:01:26 -0000
+Message-Id: <171828008676.28439.12091473623396464558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/qwip
-    old: 54ced2eefa7070e6981936c9a9c7a22aee4356c1
-    new: 37d983ccb68234f6cc876daf9f3e951fa4489856
+  - ref: refs/heads/stable
+    old: 4534429f17a00fa98d6b34ac00a819b42cebd4d5
+    new: 79105ecd70479b71a990463c8da343d3b4281ce9
     log: |
-         37d983ccb68234f6cc876daf9f3e951fa4489856 builds but nothing further done, a reminder that Mark asked for this
+         79105ecd70479b71a990463c8da343d3b4281ce9 wireguard: allowedips: use kfree_rcu() and don't wait on rcu_barrier()
          
