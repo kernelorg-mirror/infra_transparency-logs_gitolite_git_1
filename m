@@ -1,22 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 13 Jun 2024 18:51:04 -0000
-Message-Id: <171830466441.14983.5644724766700215041@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4154588324009572084=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Thu, 13 Jun 2024 18:51:22 -0000
+Message-Id: <171830468292.15190.11069720838322446852@gitolite.kernel.org>
+
+--===============4154588324009572084==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: d3747fe15d895d0d537237f85f58b65f839ecba6
-    new: 112826c9da3eff066d12d31ca47088e02d71c99c
+  - ref: refs/heads/master
+    old: 7532378c285dae2d3b9dc9d6befa085060ed75e2
+    new: ab9cf50ecd56cb80ba537db0e5e78ffbceb3068b
     log: |
-         35ba8ec0fbd0a127df1049fc4d6c0a26a05f3bd7 ACPI: x86: Switch to new Intel CPU model defines
-         895dabefeb4e5a6a7e288623738e323bac414408 Merge branch 'acpi-x86' into bleeding-edge
-         117478c9d710dc616b4446d12eddca3c1997266b ACPI: acpi_pad: Still evaluate _OST when _PUR evaluation fails
-         112826c9da3eff066d12d31ca47088e02d71c99c Merge branch 'acpi-pad' into bleeding-edge
+         ab9cf50ecd56cb80ba537db0e5e78ffbceb3068b Periodic update from keys.openpgp.org
          
+
+--===============4154588324009572084==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1718304681 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1718304681-271eb82d8dd532e337fd226a17126d402db16018
+
+7532378c285dae2d3b9dc9d6befa085060ed75e2 ab9cf50ecd56cb80ba537db0e5e78ffbceb3068b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZms/qQAKCRC2xBzjVmSZ
+bFk5AQCDUpqDryEssi62DyJ5A3auXjKV3gZ4oXibOQFkELubDwD+PY4GhOhsEJQB
+WzRL2Pazcm9pAzqGTX7aMtb8Tc2vkQM=
+=7VVT
+-----END PGP SIGNATURE-----
+
+--===============4154588324009572084==--
