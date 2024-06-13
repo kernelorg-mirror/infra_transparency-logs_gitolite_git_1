@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
-Date: Thu, 13 Jun 2024 17:49:30 -0000
-Message-Id: <171830097080.32363.16057073332965296570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Thu, 13 Jun 2024 18:03:04 -0000
+Message-Id: <171830178495.10056.1028612054400246457@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/teigland/linux-dlm
-user: teigland
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/next
-    old: 79ced51e2e5670da67339d5e21818cbc7ce60646
-    new: 89b01913dc73d7c4b8440b1396909ccb7ec8c4b4
+  - ref: refs/heads/objtool-diff
+    old: e81d55a366d58e04039f6353fe2e7dc6d7964a7b
+    new: 1f8bcfae797e3a6a8fe66fbc33dec6dfb138b378
     log: |
-         89b01913dc73d7c4b8440b1396909ccb7ec8c4b4 dlm: add rcu_barrier before destroy kmem cache
+         1f8bcfae797e3a6a8fe66fbc33dec6dfb138b378 todo
          
