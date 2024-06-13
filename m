@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0977017326258996503=="
+Content-Type: multipart/mixed; boundary="===============7651694489271094766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Thu, 13 Jun 2024 08:07:47 -0000
-Message-Id: <171826606776.27459.1051573937564482442@gitolite.kernel.org>
+Date: Thu, 13 Jun 2024 08:08:06 -0000
+Message-Id: <171826608600.27716.11212065079759790643@gitolite.kernel.org>
 
---===============0977017326258996503==
+--===============7651694489271094766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mediatek/linux
 user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/v6.10-next/dts64
-    old: e7450bc4f8f187b87522d992c3e226dadeac3ba6
+  - ref: refs/heads/for-next
+    old: 85ccbe8afbb4d4744f4f3a1519c5a59a8b74c87d
     new: 2f950510411a33d98eea28c22d7880eeb48adb61
-    log: revlist-e7450bc4f8f1-2f950510411a.txt
+    log: revlist-85ccbe8afbb4-2f950510411a.txt
 
---===============0977017326258996503==
+--===============7651694489271094766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7450bc4f8f1-2f950510411a.txt
+Content-Disposition: attachment; filename=revlist-85ccbe8afbb4-2f950510411a.txt
 
 df5e94e2313e4fa8246c3f7c66fbb51dd33a1290 arm64: dts: mediatek: mt8183-kukui: Drop bogus output-enable property
 03730588fb08dcb59930c8947fb9cfa72a662604 arm64: dts: mediatek: Drop mediatek,drive-strength-adv usage
@@ -60,4 +60,4 @@ d7c1bde38bf37a59551cfd52cfdb5bd974b17431 arm64: dts: mediatek: mt8186: add defau
 7e3e18f2ed40ea9018590b4533fa148954a725bc arm64: dts: mediatek: mt8188: add lvts definitions
 2f950510411a33d98eea28c22d7880eeb48adb61 arm64: dts: mediatek: mt8188: add default thermal zones
 
---===============0977017326258996503==--
+--===============7651694489271094766==--
