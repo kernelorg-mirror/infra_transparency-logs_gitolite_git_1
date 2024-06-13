@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 13 Jun 2024 23:36:27 -0000
-Message-Id: <171832178781.30931.7257901726535172571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 13 Jun 2024 23:47:19 -0000
+Message-Id: <171832243987.7172.14842926831178155240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 373a4e13ab4bc947f429fd92409d686fbec57132
-    new: cdbde084d163835ef41cabb59be2292bb0421c51
+  - ref: refs/heads/main
+    old: 4c7d3d79c736186bb2585f2d0a8231e1fac839da
+    new: cf157f33f44d8a6dce803f967d8aac3032e03a43
     log: |
-         a90797993afcb0eaf6bf47a062ff47eb3810a6d5 bpf: verifier: make kfuncs args nullalble
-         65d6d61d25968d1f13a478a6f303ed8d6b978a77 bpf: crypto: make state and IV dynptr nullable
-         9363dc8ddc4e222c4259013ae5428070712910b9 selftests: bpf: crypto: use NULL instead of 0-sized dynptr
-         9b560751f75f7b2484fa22c781be68f4f9fec2b0 selftests: bpf: crypto: adjust bench to use nullable IV
-         2d45ab1eda469c802728d0a74e1601de5e71c098 selftests: bpf: add testmod kfunc for nullable params
-         cdbde084d163835ef41cabb59be2292bb0421c51 Merge branch 'bpf-make-trusted-args-nullable'
+         7fc45cb68696c7213c484ec81892bc8a986fde52 net: mana: Allow variable size indirection table
+         cf157f33f44d8a6dce803f967d8aac3032e03a43 Merge branch 'mana-shared' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
          
