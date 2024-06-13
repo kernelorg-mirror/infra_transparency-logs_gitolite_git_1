@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0339788059115087773=="
+Content-Type: multipart/mixed; boundary="===============4406307625193655487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 13 Jun 2024 18:33:04 -0000
-Message-Id: <171830358466.341.15156961477928061379@gitolite.kernel.org>
+Date: Thu, 13 Jun 2024 18:33:06 -0000
+Message-Id: <171830358666.422.16210979144760272335@gitolite.kernel.org>
 
---===============0339788059115087773==
+--===============4406307625193655487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,50 +15,39 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 4e4d7c934a96132d765f9f59885fa679a0bf79be
-    new: 5780050853f2bbbd62076d86519a1b349e8a5a63
-    log: revlist-4e4d7c934a96-5780050853f2.txt
+  - ref: refs/heads/master
+    old: 2ef5971ff345d3c000873725db555085e0131961
+    new: 2ccbdf43d5e758f8493a95252073cf9078a5fea5
+    log: revlist-2ef5971ff345-2ccbdf43d5e7.txt
 
---===============0339788059115087773==
+--===============4406307625193655487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e4d7c934a96-5780050853f2.txt
+Content-Disposition: attachment; filename=revlist-2ef5971ff345-2ccbdf43d5e7.txt
 
-c296b851f4f4fae9d7c33361c04003cbda1d0c3e mm: make alloc_demote_folio externally invokable for migration
-5978526326f4506183cf624f72fe7d3725a672f6 mm: rename alloc_demote_folio to alloc_migrate_folio
-24d49262a4a4fb96d4afbec904b7f3e876f7951f mm/damon/sysfs-schemes: add target_nid on sysfs-schemes
-8a9412c5a8edb73d0686fe85c54c12da91c9160e mm/migrate: add MR_DAMON to migrate_reason
-c2317c0650266494a88a4d96b2f21809614ad0f8 mm/damon/paddr: introduce DAMOS_MIGRATE_COLD action for demotion
-e57d32eef0c7819a4cad165ae2a9fda5fe06e2d1 mm/damon/paddr: introduce DAMOS_MIGRATE_HOT action for promotion
-afb333d3731a2d9dcb86f81c1f597a3ba790208d ==== docs improvement ====
-f80767d98bbf86501db5bf4719c85b062ca30adc Docs/mm/damon/maintainer-profile: introduce HacKerMaiL
-eadaaeb45b92080c1a9ad02219dd94bfd64a3937 Docs/process/email-clients: Document HacKerMaiL
-60354b087688df1b030e175383c7fdff9168d2d1 Docs/mm/damon/maintainer-profile: document DAMON community meetups
-bf77ab0d4ac7352d8f8cc910a611474292972d98 Docs/admin-guide/mm/damon/start: add access pattern snapshot example
-7217484231c455a17549cf39071e4fcc4b603a8a Docs/mm/damon/design: add API link to damon_ctx
-556885ab1348edca8d25d2067e23d3370aef0655 ==== ACMA ====
-96aae64b124f71b752e23bbd034b88d5ee7d02dc mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-36b227a76ebce50e6682f36660c21144a5bd8205 mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-353ff4c11cd4657452ff2b38fb7c4ce8642187be mm/page_reporting: implement a function for reporting specific pfn range
-a4c664eccddf23225aacf1981c0ee1c51fc7b326 mm/damon/acma: implement scale down feature
-6fd6cbfeb0d64a17892dd77b1e42c8078ede12d5 mm/damon/acma: implement scale up feature
-aeafa2bcc6fe258448668e28d4ba4cb7ed1c5ce0 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-ed08fe59295c4457ab1f79d21bd4bdbedabf3369 ==== write-only monitoring ====
-79c7a46f39503e35b790bb2c7a7c24dc1e6f35f9 ==== selftests/damon: test DAMOS tried_regions ====
-2cf4dad7cea01dd2d64163e27cfe6bfbbd8de94f ==== commit cleanup ====
-a5f03a0547eed76aa563fc79fc711a9e4d73d2a6 mm/damon/core: implement DAMOS quota online commit function
-ea319d4f7fc291d1a1343db289b7552c992f933f mm/damon/core: implement DAMON context commit function
-f0d40b663c2eb738d000875aba931d530f7bb66f mm/damon/sysfs: use damon_commit_ctx()
-acbc02b3608222d205158e6fc478e3770ed17734 mm/damon/sysfs-schemes: use damos_commit_quota_goals()
-2e9ea02309d07bc2661099ad4e3f0718d3e7a2e2 mm/damon/sysfs: remove unnecessary online tuning handling code
-35ece37249d693b576e30230ed3c23e40dd9ef0f mm/damon/sysfs: rename damon_sysfs_set_targets() to ...add_targets()
-8826e93945063905fe43127e1b93893d930b5bf5 mm/damon/sysfs-schemes: remove unnecessary online tuning handling code
-146f656c0e1d29acac33a3f22cc1e2dd59840177 mm/damon/sysfs-schemes: rename *_set_{schemes,scheme_filters,quota_score,schemes}()
-6558a4607c77ad20b1c0cd4068656594e07bd498 mm/damon/reclaim: use damon_commit_ctx()
-f5a2f4ffa95ada848a9b37c152b30ead73a50586 mm/damon/reclaim: remove unnecessary code for online tuning
-72812087dbe18a205cab72651a78c94ad42abb7a mm/damon/lru_sort: use damon_commit_ctx()
-5780050853f2bbbd62076d86519a1b349e8a5a63 mm/damon/lru_sort: remove unnecessary online tuning handling code
+616501eccb58615f8f352a29239ea6c6fc5e6546 clkdev: don't fail clkdev_alloc() if over-sized
+e3cf20e5c68df604315ab30bdbe15dc8a5da556b ARM: 9405/1: ftrace: Don't assume stack frames are contiguous in memory
+594ce0b8a998aa4d05827cd7c0d0dcec9a1e3ae2 Merge topic branches 'clkdev' and 'fixes' into for-linus
+161f73c2c7d061a78390388811e3a6d11e99ce9d bcachefs: Split out btree_write_submit_wq
+1c8cc24eef4a0e824f75e38f82766e4baede24ca bcachefs: Fix incorrect error handling found_btree_node_is_readable()
+04f635ede85b2e7457f3029b9179079a8ac42ff4 bcachefs: Delete incorrect BTREE_ID_NR assertion
+dab1870439a1176969c5bf06247e088ad0a3551d bcachefs: fix stack frame size in fsck.c
+26447d224a7f48f669bf95a98fa29c8f50da4d63 bcachefs: fix the display format for show-super
+5ae67abcdfdfa49de84be00320ffe8a669ef674f bcachefs: Enable automatic shrinking for rhashtables
+bc65e98e68dac2c0b588e67ea75ee8674c208fc7 bcachefs: increase key cache shrinker batch size
+9ac3e660cac3e29cfc817b6a23735b70f12bd16a bcachefs: set sb->s_shrinker->seeks = 0
+2760bfe38826f65b1806f1cc62744404b5917dea bcachefs: Fix reporting of freed objects from key cache shrinker
+bf2b356afdcafa18db1b409f7039059d1fd6f25f bcachefs: Leave a buffer in the btree key cache to avoid lock thrashing
+f9035b0ce60cfaf8abd7e1cd5c55690c739aaaf6 bcachefs: Fix refcount leak in check_fix_ptrs()
+e0cb5722e112811d32d600ef750f9b39e6f684ca bcachefs: Fix snapshot_create_lock lock ordering
+9c4acd19bbff5db4629c193366f82960e38d1c6f bcachefs: Replace bucket_valid() asserts in bucket lookup with proper checks
+9432e90df1b8a544f220fd455b2fa39eed8a535d bcachefs: Check for invalid bucket from bucket_gen(), gc_bucket()
+b79922009214e6ab23c07db32a5606a45710f86e bcachefs: Add missing synchronize_srcu_expedited() call when shutting down
+7124a8982b621e1a8af81c17f44b90587cdd161c bcachefs: Add missing bch_inode_info.ei_flags init
+f2736b9c791a126ecb9cfc1aef1c7b4152b66e2d bcachefs: Fix rcu_read_lock() leak in drop_extra_replicas
+cea2a26553ace13ee36b56dc09ad548b5e6907df mailmap: Add my outdated addresses to the map file
+0b4989ebe8a608c68d5ec54d61078aba47baed22 Merge tag 'bcachefs-2024-06-12' of https://evilpiepirate.org/git/bcachefs
+2ccbdf43d5e758f8493a95252073cf9078a5fea5 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 
---===============0339788059115087773==--
+--===============4406307625193655487==--
