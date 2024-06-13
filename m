@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0863793895424003577=="
+Content-Type: multipart/mixed; boundary="===============7765709721001913716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 13 Jun 2024 15:22:58 -0000
-Message-Id: <171829217899.18920.8525461337500947285@gitolite.kernel.org>
+Date: Thu, 13 Jun 2024 15:42:31 -0000
+Message-Id: <171829335192.1512.7286258253486952087@gitolite.kernel.org>
 
---===============0863793895424003577==
+--===============7765709721001913716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: c96737dd95ba96be2398e4a785177d30f1c9d7b8
-    new: a9b9741854a9fe9df948af49ca5514e0ed0429df
-    log: revlist-c96737dd95ba-a9b9741854a9.txt
+  - ref: refs/heads/40GbE
+    old: fc9ea42acd47da605a03efb50eea6775220d7a92
+    new: a27f6ac9d404ea84196639dcc456f969ef813c0f
+    log: revlist-fc9ea42acd47-a27f6ac9d404.txt
 
---===============0863793895424003577==
+--===============7765709721001913716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c96737dd95ba-a9b9741854a9.txt
+Content-Disposition: attachment; filename=revlist-fc9ea42acd47-a27f6ac9d404.txt
 
 86fbd9f63a6b42b8f158361334f5a25762aea358 Bluetooth: hci_sync: Fix not using correct handle
 806a5198c05987b748b50f3d0c0cfb3d417381a4 Bluetooth: L2CAP: Fix rejecting L2CAP_CONN_PARAM_UPDATE_REQ
@@ -47,5 +47,8 @@ b60b1bdc1888f51da7a2a22c48c5f1eb2bd12e97 Merge branch 'net-bridge-mst-fix-suspic
 7d9df38c9c037ab84502ce7eeae9f1e1e7e72603 bnxt_en: Cap the size of HWRM_PORT_PHY_QCFG forwarded response
 a6736a0addd60fccc3a3508461d72314cc609772 af_unix: Read with MSG_PEEK loops if the first unread byte is OOB
 a9b9741854a9fe9df948af49ca5514e0ed0429df bnxt_en: Adjust logging of firmware messages in case of released token in __hwrm_send()
+bc69ad74867dba1377abe14356c94a946d9837a3 ice: avoid IRQ collision to fix init failure on ACPI S3 resume
+aeccadb24d9dacdde673a0f68f0a9135c6be4993 ice: fix 200G link speed message log
+a27f6ac9d404ea84196639dcc456f969ef813c0f ice: implement AQ download pkg retry
 
---===============0863793895424003577==--
+--===============7765709721001913716==--
