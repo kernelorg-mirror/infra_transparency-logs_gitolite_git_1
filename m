@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Thu, 13 Jun 2024 00:04:23 -0000
-Message-Id: <171823706363.15134.7827769483902738826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 13 Jun 2024 00:05:08 -0000
+Message-Id: <171823710822.17069.10085446868293180006@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: eced9fa12da2e90c0468a7e888c18f5f192669e8
-    new: a79c8d7736f2fbcf8fa71940217601b030227556
+  - ref: refs/heads/tpm2key-v8
+    old: 8d46b56b954de866da55692e2b00121e242e80cf
+    new: d9163bc5bda8b6415ef960406b9bc952fa1b1b9f
     log: |
-         a79c8d7736f2fbcf8fa71940217601b030227556 sched_setattr.2: ERRORS: Break EINVAL into separate blocks
+         d9163bc5bda8b6415ef960406b9bc952fa1b1b9f fixup
          
