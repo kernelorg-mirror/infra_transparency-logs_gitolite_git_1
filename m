@@ -1,43 +1,91 @@
-Content-Type: multipart/mixed; boundary="===============4069106519504661316=="
+Content-Type: multipart/mixed; boundary="===============1158442424870979990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 13 Jun 2024 21:39:06 -0000
-Message-Id: <171831474698.10679.799881071627633926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Thu, 13 Jun 2024 21:55:16 -0000
+Message-Id: <171831571688.22839.2880104684653129886@gitolite.kernel.org>
 
---===============4069106519504661316==
+--===============1158442424870979990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/devres
-    old: 1199e585f1e8955a141f4eb9452923f12ed5c699
-    new: df726be5ecaa2b3e1f0bc663908843dbff57c952
-    log: revlist-1199e585f1e8-df726be5ecaa.txt
+  - ref: refs/heads/ioctl
+    old: b61d44306d347a79f48dca968d824a825d1aaafa
+    new: 0a8eedec25ce053282b291c46f94d1393e465731
+    log: revlist-b61d44306d34-0a8eedec25ce.txt
 
---===============4069106519504661316==
+--===============1158442424870979990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1199e585f1e8-df726be5ecaa.txt
+Content-Disposition: attachment; filename=revlist-b61d44306d34-0a8eedec25ce.txt
 
-f918f06b80be1ae43e48533a0fd3b62d5aeb3214 PCI: Add and use devres helper for bit masks
-c7f50bfb3a5d5c6ab0d0ba85575eb14eb5115fc6 PCI: Add devres helpers for iomap table
-bb4f3f2f3c37a32a55f2686ef1f41d9ee09a2121 PCI: Add managed partial-BAR request and map infrastructure
-06fa2e1e9116d21cf80d7d6e9bccdca0a7235624 PCI: Deprecate pcim_iomap_table(), pcim_iomap_regions_request_all()
-3b5de2b919792c9bcc4f440e2d8b344a9362a7ad PCI: Add managed pcim_request_region()
-119850b850efa1b44f51773a76f43bb74c355c18 PCI: Document hybrid devres hazards
-2466652a244978c7898e8b339c2f6225fc5e293c PCI: Remove struct pci_devres.enabled status bit
-8dd1680aeec7859d6f0fc14791f3a5dcfb5f3d4b PCI: Move struct pci_devres.pinned bit to struct pci_dev
-c093598cad5a81134f74fd86910bc97e532a14d7 PCI: Give pcim_set_mwi() its own devres cleanup callback
-0cd4e2efcc08db7f9edd0cfc0ac5d289a627b835 PCI: Add managed pcim_intx()
-8a3ed00d1d4294b162e3989c61eed53635d8606a PCI: Remove legacy pcim_release()
-0db6457cb65f0d3c37cdb37b4ce0d9cd047113c9 PCI: Add managed pcim_iomap_range()
-df726be5ecaa2b3e1f0bc663908843dbff57c952 drm/vboxvideo: fix mapping leaks
+f1b6abcf7550f6eaba08ca91d6e05d77beee5766 man-pages.7: Correct escaping of \~ advice
+e771005bd2b700362218d4c9f226570adfb047b3 sched_setattr.2: Document sched_util_{min,max}
+b604f0dfd483a5df1bb6899fcd0ccc6bc06a5356 ioctl_console.2: SYNOPSIS: Add section
+aae1dd2be61a5b516614c2d0b68acefbc79add1f ioctl_console.2, TIOCLINUX.2const: Split TIOCLINUX from ioctl_console(2)
+ba85db92139b3ef439bf51826bf8557cceadb219 TIOCLINUX.2const: Tweak after split
+9f90b9034c205b79da91c738b2874a8901ac4490 ioctl_console.2, ioctl_vt.2, VT_*.2const: Split VT_* from ioctl_console(2)
+c3514697e574b363f05dc435c9f52461c1ba5507 ioctl_vt.2: Tweak after split
+d2e2c8306d0ca5c8b6a33f0fc4d696c7033fd263 ioctl_console.2, ioctl_kd.2, man2const/: Split ioctl_kd(2) from ioctl_console(2)
+02070974e9df8087be8a08b2a5bcfa3954539f80 ioctl_kd.2: Tweak after split
+0173cc59fdc8396a1d461cf8d786463a7ef5a077 ioctl_console.2: Tweak after making sashimi of this page
+06791d38a076b4b432f6627b00cb5373ba4642b2 ioctl_fat.2, FAT_IOCTL_[GS]ET_ATTRIBUTES.2const: Split FAT_IOCTL_[GS]ET_ATTRIBUTES from ioctl_fat(2)
+912b22e13061b8c3626e835541700efa0102aaf3 ioctl_console.2, ioctl_kd.2, ioctl_vt.2, man2const/: Make sashimi
+57ed49790e06876e2cb029b041c6975c128abd11 ioctl_fat.2, FAT_IOCTL_GET_VOLUME_ID.2const: Split FAT_IOCTL_GET_VOLUME_ID from ioctl_fat(2)
+620f62553cce354c6fb3d2530c4287ee2a9c8897 ioctl_fat.2, VFAT_IOCTL_READDIR_{BOTH,SHORT}.2const: Split VFAT_IOCTL_READDIR_* from ioctl_fat(2)
+6af49d0fee4f3dbd31a133ee31590dc30eb8999e ioctl_fat.2, man2const/: Make sashimi
+733e3228017bd33860e34762079ee3ce97fc8646 ioctl.2, ioctl_ficlone*.2, FICLONE{,RANGE}.2const: Move page to FICLONE.2const
+868635f57b489da6954c13cc7bab5c6ec3c663ce ioctl.2, ioctl_fideduperange.2, FIDEDUPERANGE.2const: Move page to FIDEDUPERANGE.2const
+cf215485a451447a3c6677d27043af5971edeb74 ioctl.2, ioctl_fslabel.2, FS_IOC_[GS]ETFSLABEL.2const: Move page to FS_IOC_SETFSLABEL.2const
+7e7f1a82379add345c1383236e567a699be32b3b ioctl_iflags.2, FS_IOC_[GS]ETFLAGS.2const, man/: Move page to FS_IOC_SETFLAGS.2const
+0479a2681e8e7efaf2b7da3f536a54b2bd1bd797 ioctl_pagemap_scan.2: Move structure definitions to SYNOPSIS
+2880d6bf5d3001a87042f6a57ec26463082a0dfa ioctl.2, PAGEMAP_SCAN.2const: Move page to PAGEMAP_SCAN.2const
+89cdaf2922eed2ceb1c80f41c4ff16696f11aaa2 share/mk/: Skip spurious warning from mandoc(1)
+a250c11c579107843873575cdefcca35cd9b8679 ioctl.2, ioctl_fs.2: Add overview page for <linux/fs.h> ioctl(2)s
+4141c6ae48c07d7dd9629d3dc9a98c8b41349809 ioctl_ns.2, ioctl_nsfs.2, man/: Move page to ioctl_nsfs.2
+6d754863551f82da560c442c94b2551ef156561b ioctl_nsfs.2, NS_GET_{USERNS,PARENT}.2const: Split NS_GET_* from ioctl_nsfs(2)
+189275e3295f1e2c9180b1ef29795a0ac52b1144 NS_GET_USERNS.2const: Tweak after split
+38658f54478947ec7ed8f86bdf787c32cb78822a ioctl_fs.2, man/: Reorganize <linux/fs.h> ioctl(2)s
+438ca667d80fc4dbc06663a4c8ac37c1afe56dfd ioctl_nsfs.2, NS_GET_NSTYPE.2const: Split NS_GET_NSTYPE from ioctl_nsfs(2)
+9eb2052aadc3aa1d2a53329c84b7fd6616d69e0e NS_GET_NSTYPE.2const: Tweak after split
+ebc5e0a8bc89552f9fc92f34e8e9301fee58c17f ioctl_nsfs.2, NS_GET_OWNER_UID.2const: Split NS_GET_OWNER_UID from ioctl_nsfs(2)
+421f0aff99e4ca16035f841ce87bc472cce359ca NS_GET_OWNER_UID.2const: Tweak after split
+2f857efc374e1c52a2084c77bf52b06ac371b129 ioctl_nsfs.2: Tweak after making sashimi of this page
+935dfec9eaba030061b3e62ac5b82e6bf43809ff ioctl_tty.2: Tweak in preparation for sashimi
+a660bbdd85ebf434f36df0004e88a1abcc63a804 ioctl_ns.2, ioctl_nsfs.2: Rename page, and make sashimi
+e5997629604f921a129b0e0644a88e3e96231389 ioctl_tty.2, TC[SG]ET*.2const: Split TC[SG]ET* from ioctl_tty(2)
+35df1600cbde161525927b767b6d145a53f41f48 ioctl.2, ioctl_fsmap.2, FS_IOC_GETFSMAP.2const: ioctl_getfsmap(2) => ioctl_fsmap(2)
+5ac75b2fcec66f3a7323683c5fab8cf2fb7c1c71 TCSETS.2const: Tweak after split
+9bf874b935327d15ea31db1949a60c423c97184a share/mk/: Skip expected warnings
+548c207e7a6f619772b3a20ea03d4ce2b0017eda ioctl_tty.2, TIOC[SG]WINSZ.2const: Split TIOC[SG]WINSZ from ioctl_tty(2)
+e21daf09e62da80b6a125350e65d1e56b0b76b5c TIOCSWINSZ.2const: Tweak after split
+58eeb72f20edc6f5ece2d25c66920e467b2dea1a ioctl_tty.2, TIOC[SG]LCKTRMIOS.2const: Split TIOC[SG]LCKTRMIOS from ioctl_tty(2)
+e622e7d2e56e6e029514a0fc0943a7424c738d49 ioctl_tty.2, T*BRK*.2const: Split T*BRK* from ioctl_tty(2)
+686dfe2ee342a370d9465ba07b83291b929a3d3f ioctl_tty.2, TCXONC.2const: Split TCXONC from ioctl_tty(2)
+9e8aa629e7a9d937a40fa5b32dd51bfe72c4d0d3 TCXONC.2const: Tweak after split
+c6267fb683096160798b72a6c7678dbec1e0b399 ioctl_tty.2, FIONREAD.2const, TIOC{IN,OUT}Q.2const, TCFLSH.2const, TIOCSERGETLSR.2const: Split from ioctl_tty(2)
+24ae990f8156d73635c5914cd74cd2cbdaf26df8 ioctl_tty.2, TIOCSTI.2const: Split TIOCSTI from ioctl_tty(2)
+32f914982c979a4ede3acb0778e9fecca32421e0 TIOCSTI.2const: Tweak after split
+4e850ea981272e69bf3cb1fe7c4c4c223a40206f ioctl_tty.2, TIOCCONS.2const: Split TIOCCONS from ioctl_tty(2)
+77c53a31a155d00054bf2a45b849afe6cbfe2d77 TIOCCONS.2const: Tweak after split
+283606ca7323278f45a1d144185aac96dd927449 ioctl_tty.2, TIOC{NO,SC}TTY.2const: Split TIOC*TTY from ioctl_tty(2)
+3e023c7fca0135d19204855d17e970d977ef3d26 ioctl_tty.2, TIOC[SG]PGRP.2const, TIOCGSID.2const: Split TIOC* from ioctl_tty(2)
+a5b58434aa130223e20a10f2065f6522a1879b6c ioctl_tty.2, TIOC{E,GE,N}XCL.2const: Split TIOC*XCL from ioctl_tty(2)
+0d63657f9196bf12c10778fef5d8bbc8233d5ffa TIOCEXCL.2const: Tweak after split
+ca3fb626750f4d5a4e020d5a213b3a883db4bc93 ioctl_tty.2, TIOC[SG]ETD.2const: Split TIOC[SG]ETD from ioctl_tty(2)
+ded79f4f9647d3c5ccda6875fcfadc01ed7b6789 ioctl_tty.2: Fix constness of arguments
+c8d3d716c13dd62acdbea4770338c34724944931 ioctl_tty.2, TIOC[G]PKT.2const, TIOC[SG]PTLCK.2const, TIOCGPTPEER.2const: Split TIOC* from ioctl_tty(2)
+3095572430f6d0d754e8eb5ba5ffd5b076c17535 TIOCPKT.2const: Tweak after split
+f030a47627e17a3d406f6d01d678ab76dc5d3b8c ioctl_tty.2, TIOCM{[SG]ET,BI[CS],IWAIT}.2const, TIOCGICOUNT.2const: Split TIOC* from ioctl_tty(2)
+a7318c81aa450ea33f4c9527451a5dfdf7efc267 ioctl_tty.2, TIOC[SG]SOFTCAR.2const: Split TIOC[SG]SOFTCAR from ioctl_tty(2)
+987a29b4baf41755b740cf4166f4621fa4f1d9ee ioctl_tty.2, TIOCTTYGSTRUCT.2const: Split TIOCTTYGSTRUCT from ioctl_tty(2)
+0a8eedec25ce053282b291c46f94d1393e465731 ioctl_tty.2, man2const/: Make sashimi
 
---===============4069106519504661316==--
+--===============1158442424870979990==--
