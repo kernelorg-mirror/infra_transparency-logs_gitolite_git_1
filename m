@@ -1,46 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0602686704117545411=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Thu, 13 Jun 2024 18:03:19 -0000
-Message-Id: <171830179947.10188.17771494071050631494@gitolite.kernel.org>
-
---===============0602686704117545411==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Thu, 13 Jun 2024 18:12:23 -0000
+Message-Id: <171830234349.18152.17559333628928334583@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+user: mkorenbl
 changes:
-  - ref: refs/heads/master
-    old: 1267d15f7b6d812ec0b4023bc695a1fea11ec0c3
-    new: 7532378c285dae2d3b9dc9d6befa085060ed75e2
+  - ref: refs/heads/release/core88
+    old: 36645df30095db7b04a0d32bcdcf68ec776db60b
+    new: d7d581b70423802610e1d2746f2223772e28726e
     log: |
-         7532378c285dae2d3b9dc9d6befa085060ed75e2 Add 3B1BBD6BB613204B (Lukas Wunner)
+         e13b1526dfd15b7a9ad51fe7bf35f67a956478cb [BUGFIX] wifi: iwlwifi: fw: allocate chained SG tables for dump
+         e2b33140598f3b52382c7775b97952f98d17c0f0 [BUGFIX] wifi: iwlwifi: mvm: unlock mvm mutex
+         0eda935911a802c68145c2242dd1021d0749a342 [BUGFIX] wifi: mac80211: check SSID in beacon
+         d7d581b70423802610e1d2746f2223772e28726e [BUGFIX] wifi: mac80211: fix elems leak on SSID mismatch
          
-
---===============0602686704117545411==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1718301798 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1718301798-66f6ed0c39358b129dc77cf9f3aafea24408653d
-
-1267d15f7b6d812ec0b4023bc695a1fea11ec0c3 7532378c285dae2d3b9dc9d6befa085060ed75e2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZms0ZgAKCRC2xBzjVmSZ
-bD/LAPoC2CqyQSUaxGrNBvdWeATEKkBiurSKGh4iees2My7dPgEAzhDCe3nusHGg
-Qb5KDR2DtSUqMbuGCzhNhY91Wen95gE=
-=yAj9
------END PGP SIGNATURE-----
-
---===============0602686704117545411==--
