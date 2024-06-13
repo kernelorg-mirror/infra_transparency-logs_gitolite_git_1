@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 13 Jun 2024 08:40:51 -0000
-Message-Id: <171826805191.22440.8725808526422759416@gitolite.kernel.org>
+Date: Thu, 13 Jun 2024 08:41:06 -0000
+Message-Id: <171826806626.22631.490503800121257812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.10
-    old: 37a2c94c68ce543bc7e2105d5ab178b03bafc797
-    new: f3b198e4788fcc8d03ed0c8bd5e3856c6a5760c5
+  - ref: refs/heads/spi-6.11
+    old: 412a05d6a91c6e3bb69741ddbde01c16c3ff94c5
+    new: 313d2c9d1252185721cad4f8c57099840d6c9958
     log: |
-         6f2a43e3d14f6e31a3b041a1043195d02c54d615 ASoC: SOF: sof-audio: Skip unprepare for in-use widgets on error rollback
-         f3b198e4788fcc8d03ed0c8bd5e3856c6a5760c5 ASoC: rt722-sdca-sdw: add debounce time for type detection
+         313d2c9d1252185721cad4f8c57099840d6c9958 spi: meson-spicc: add spicc loopback mode
          
