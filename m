@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 13 Jun 2024 01:58:39 -0000
-Message-Id: <171824391939.8873.16437436206096928307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 13 Jun 2024 01:59:21 -0000
+Message-Id: <171824396130.9223.5182718561606714044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 346c13063d54d5e3b95e408e45b11ba5d259a3be
-    new: 100f4e089366c5b2e0ee49885591dce30dc199a7
+  - ref: refs/heads/main
+    old: 6fc1b32291a05a869326917ecf9be526f0dcdf9a
+    new: 3ec8d7572a69d142d49f52b28ce8d84e5fef9131
     log: |
-         100f4e089366c5b2e0ee49885591dce30dc199a7 Wed Jun 12 09:57:48 PM EDT 2024
+         3ec8d7572a69d142d49f52b28ce8d84e5fef9131 CDC-NCM: add support for Apple's private interface
          
