@@ -1,104 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0391279767094882515=="
+Content-Type: multipart/mixed; boundary="===============6913011826595246850=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 13 Jun 2024 04:44:15 -0000
-Message-Id: <171825385514.2677.331982711524307123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 13 Jun 2024 04:44:25 -0000
+Message-Id: <171825386537.2838.3338225289784614598@gitolite.kernel.org>
 
---===============0391279767094882515==
+--===============6913011826595246850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
-  - ref: refs/heads/fs-next
-    old: e0a1f6900aa76664efa66dead1b1e33b36a4952c
-    new: 3c94454b68521ace91f5300827d5acfe6d83c104
-    log: revlist-e0a1f6900aa7-3c94454b6852.txt
   - ref: refs/heads/master
     old: 03d44168cbd7fc57d5de56a3730427db758fc7f6
     new: 6906a84c482f098d31486df8dc98cead21cce2d0
     log: revlist-03d44168cbd7-6906a84c482f.txt
-  - ref: refs/heads/stable
-    old: 83a7eefedc9b56fe7bfeff13b6c7356688ffa670
-    new: cea2a26553ace13ee36b56dc09ad548b5e6907df
-    log: revlist-83a7eefedc9b-cea2a26553ac.txt
-  - ref: refs/tags/next-20240313
-    old: bf9bc07249fdb0c7811960c61ac769fca1606a2c
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20240613
     old: 0000000000000000000000000000000000000000
     new: 1fc855f0b666d27ae9103b9afcfef62f84511d96
 
---===============0391279767094882515==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0a1f6900aa7-3c94454b6852.txt
-
-2ef5971ff345d3c000873725db555085e0131961 Merge tag 'vfs-6.10-rc4.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-1cdeca6a7264021e20157de0baf7880ff0ced822 ksmbd: move leading slash check to smb2_get_name()
-2bfc4214c69c62da13a9da8e3c3db5539da2ccd3 ksmbd: fix missing use of get_write in in smb2_set_ea()
-a43d43799292f2e384b6c93e3f3300755a4a1b3e vfs: add rcu-based find_inode variants for iget ops
-0850508978ce596205c7d3f301ec2a537451cea2 btrfs: use iget5_locked_rcu
-f6f496712632297bf0e0ee478eb7695d424c4971 xfs: preserve i_state around inode_init_always in xfs_reinit_inode
-1fddfb5628e46700c4d4aa0ba81de8542206079d vfs: partially sanitize i_state zeroing on inode creation
-c0a6bf1d02d8f840060ff62e05e6a3f7bd515fe6 xfs: remove now spurious i_state initialization in xfs_inode_alloc
-9ed6c60e605335cb338d977d86bf8e6fc6849633 bcachefs: remove now spurious i_state initialization
-999876f3500330811e1b9634243e6169dc2e8028 netfs: Switch debug logging to pr_debug()
-08ce6f724ce9453cf2b3be8742cc6e3e6926d7a1 proc: Remove usage of the deprecated ida_simple_xx() API
-3059d8aadc97b819dbedad4bc0169d92afbe9e2c VFS: generate FS_CREATE before FS_OPEN when ->atomic_open used.
-50f73efbc1da023114f62347d2545f3e1e2942dd NFSD: Support write delegations in LAYOUTGET
-fc01008c92f40015aeeced94750855a7111b6929 f2fs: fix to do sanity check on F2FS_INLINE_DATA flag in inode during GC
-c240c87bcd44a1a2375fc8ef8c645d1f1fe76466 f2fs: fix to do sanity check on blocks for inline_data inode
-cc260b66c4cd21a370b39f73c9034a420baf8f79 f2fs: add support for FS_IOC_GETFSSYSFSPATH
-76da333f4b935af65c9465277032a1e24405375c f2fs: alloc new section if curseg is not the first seg in its zone
-6924c8b6fdf96db24edf8392c2dd00f79eeb8e4b f2fs: fix to remove redundant SBI_NEED_FSCK flag set
-5c8764f8679e659c5cb295af7d32279002d13735 f2fs: fix to force buffered IO on inline_data inode
-21327a042dd94bc73181d7300e688699cb1f467e f2fs: fix to avoid use SSR allocate when do defragment
-192b8fb8d1c8ca3c87366ebbef599fa80bb626b8 f2fs: fix to don't dirty inode for readonly filesystem
-270b09313b4e16cdfd01d8371023a1661dd1112e f2fs: use new ioprio Macro to get ckpt thread ioprio level
-a8eb3de28e7a365690c61161e7a07a4fc7c60bbf f2fs: fix return value of f2fs_convert_inline_inode()
-d7409b05a64f212735f0d33f5f1602051a886eab f2fs: fix to cover read extent cache access with lock
-298b1e4182d657c3e388adcc29477904e9600ed5 f2fs: fix to truncate preallocated blocks in f2fs_file_open()
-cea2a26553ace13ee36b56dc09ad548b5e6907df mailmap: Add my outdated addresses to the map file
-e8b9c4800f6008a4f5d545481505e1f1bf50709d Merge branch 'vfs.misc' into vfs.all
-9936062403085c7b72bea710b47a6cfe256a60d7 Merge branch 'vfs.xattr' into vfs.all
-b2c97cdc40b662b3ab3770dc74cabd04a4f11652 Merge branch 'vfs.module.description' into vfs.all
-2daa353c54325c0a7c955a33b701ac1f56c76733 Merge branch 'vfs.pg_error' into vfs.all
-58cce5831faea2f21f387f14e4e64fc7238db731 Merge branch 'vfs.mount.api' into vfs.all
-0780b30540641b5eb00cfc9afcde62330b076139 Merge branch 'vfs.iomap' into vfs.all
-8eda72c39d042c85ad033c40bbca499895f9ad9c Merge branch 'vfs.casefold' into vfs.all
-38dc19b633e4a0d3ae74cfb557aedab73c889609 Merge branch 'vfs.inode.rcu' into vfs.all
-50ce79b9bcdf1b3939fb8b810b0517f72b1e74ae Merge branch 'vfs.netfs' into vfs.all
-22c963c98065dc647abb9c713a704674d022c6d2 Merge branch 'vfs.fixes' into vfs.all
-ec5530d6932ec35e92d3ef60d51b0dbc216c8049 fs: dlm: remove unused struct 'dlm_processed_nodes'
-79ced51e2e5670da67339d5e21818cbc7ce60646 dlm: remove DLM_LSFL_SOFTIRQ from exflags
-aecb8db7c9c8169c9ee14923d1ba82660a2ea391 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-210cc5d3759f288b3eb569a6f36448c1f4a1852f Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-27565610356045bd406c4e3169f275e125d54588 Merge branch 'for-next' of https://evilpiepirate.org/git/bcachefs.git
-17ee201cab3080734af545196d282679f278b89a Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-5080f58207af205c4e1d553859b82a7a865e6b1c Merge branch 'for-next' of git://git.infradead.org/users/hch/configfs.git
-d421a0547783079bbd741c5e205a875d92a5ba15 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm.git
-b44b654efcdc2561ae85515416ff29b9fadaf834 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
-56fb1a951010949ab0ed669dac5259dc5cf47951 Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-4f3a98db762448a3c1bf9f786e4c6421d0e09eeb Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
-869de722cd3b8c0b8d633926017163ac3f2d664e Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
-27a7c963ea8ca82febd7a298db65e257c79fb0a2 Merge branch 'jfs-next' of git://github.com/kleikamp/linux-shaggy.git
-93eaa08337d4ff9958a56bdd86e6fc7f1cd0f9c1 Merge branch 'ksmbd-for-next' of https://github.com/smfrench/smb3-kernel.git
-39445b144b44227136673f825dc15b2d43e82004 Merge branch 'linux-next' of git://git.linux-nfs.org/projects/trondmy/nfs-2.6.git
-406a01d8c74e4f46051232c191f4c1463a82ea22 Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-9052e157aec87da6fa9f6f6b2927611e23a2f0f6 Merge branch 'master' of https://github.com/Paragon-Software-Group/linux-ntfs3.git
-551cc1cb416a3010a1256c45ed64bcf356f96231 Merge branch 'overlayfs-next' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs.git
-deec78ef0011749119504c70067e6e73e6bcb637 Merge branch 'for-next' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
-e3c53b990d74ec44cff4aa066ef2c5dba619c10c Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs.git
-3c94454b68521ace91f5300827d5acfe6d83c104 Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-
---===============0391279767094882515==
+--===============6913011826595246850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -972,33 +897,4 @@ eca6757f39ee087b0eeadf63e7e31f3488f9e75a Merge branch 'bitmap-for-next' of https
 ba7eac7bdff5a23e8c6f5f241f1eb5441e58395d Merge branch 'pwrseq/for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
 6906a84c482f098d31486df8dc98cead21cce2d0 Add linux-next specific files for 20240613
 
---===============0391279767094882515==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83a7eefedc9b-cea2a26553ac.txt
-
-0c07c273a5fe1a25d4f477fe7edf64b3e8b19b3d debugfs: continue to ignore unknown mount options
-db003a28e03f95f2bcb63f037a2078b8870b1ecd netfs: fix kernel doc for nets_wait_for_outstanding_io()
-ed7ee6a69f9289337af4835a908aa782263d4852 statx: Update offset commentary for struct statx
-cc5ac966f26193ab185cc43d64d9f1ae998ccb6e cachefiles: add output string to cachefiles_obj_[get|put]_ondemand_fd
-0fc75c5940fa634d84e64c93bfc388e1274ed013 cachefiles: remove requests from xarray during flushing requests
-de3e26f9e5b76fc628077578c001c4a51bf54d06 cachefiles: fix slab-use-after-free in cachefiles_ondemand_get_fd()
-da4a827416066191aafeeccee50a8836a826ba10 cachefiles: fix slab-use-after-free in cachefiles_ondemand_daemon_read()
-3e6d704f02aa4c50c7bc5fe91a4401df249a137b cachefiles: remove err_put_fd label in cachefiles_ondemand_daemon_read()
-a26dc49df37e996876f50a0210039b2d211fdd6f cachefiles: add consistency check for copen/cread
-0a790040838c736495d5afd6b2d636f159f817f1 cachefiles: add spin_lock for cachefiles_ondemand_info
-4988e35e95fc938bdde0e15880fe72042fc86acf cachefiles: never get a new anonymous fd if ondemand_id is valid
-4b4391e77a6bf24cba2ef1590e113d9b73b11039 cachefiles: defer exposing anon_fd until after copy_to_user() succeeds
-4f8703fb3482f92edcfd31661857b16fec89c2c0 cachefiles: Set object to close if ondemand_id < 0 in copen
-85e833cd7243bda7285492b0653c3abb1e2e757b cachefiles: flush all requests after setting CACHEFILES_DEAD
-bc9dde6155464e906e630a0a5c17a4cab241ffbb cachefiles: make on-demand read killable
-a82c13d29985a4d99dacd700b497f0c062fe3625 Merge patch series "cachefiles: some bugfixes and cleanups for ondemand requests"
-ed8c7fbdfe117abbef81f65428ba263118ef298a fs/file: fix the check in find_next_fd()
-3d117494e2a88b9c1e8ad41bbbf2cf453a73620e cachefiles: remove unneeded include of <linux/fdtable.h>
-0841ea4a3b416554be401a91aa267b7de838de8b iomap: keep on increasing i_size in iomap_write_end()
-f5ceb1bbc98c69536d4673a97315e8427e67de1b iomap: Fix iomap_adjust_read_range for plen calculation
-2ef5971ff345d3c000873725db555085e0131961 Merge tag 'vfs-6.10-rc4.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-cea2a26553ace13ee36b56dc09ad548b5e6907df mailmap: Add my outdated addresses to the map file
-
---===============0391279767094882515==--
+--===============6913011826595246850==--
