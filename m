@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6417613041946609311=="
+Content-Type: multipart/mixed; boundary="===============6568367689288438157=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 14 Jun 2024 02:22:48 -0000
-Message-Id: <171833176840.28918.2349957297999820630@gitolite.kernel.org>
+Date: Fri, 14 Jun 2024 02:23:06 -0000
+Message-Id: <171833178672.29157.8276620696237818907@gitolite.kernel.org>
 
---===============6417613041946609311==
+--===============6568367689288438157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,40 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 90e6f08915ec6efe46570420412a65050ec826b2
-    new: 57619f3cdeb5ae9f4252833b0ed600e9f81da722
+  - ref: refs/tags/mkp-scsi-queue
+    old: abf4628f5050fed28375f88ccbcd227137f25701
+    new: db3d836cd38ab74417c4e94773ca5cdb04f31c12
     log: |
-         135c6eb27a85c8b261a2cc1f5093abcda6ee9010 scsi: ufs: core: Free memory allocated for model before reinit
-         633aeefafc9c2a07a76a62be6aac1d73c3e3defa scsi: core: Introduce the BLIST_SKIP_IO_HINTS flag
-         57619f3cdeb5ae9f4252833b0ed600e9f81da722 scsi: usb: uas: Do not query the IO Advice Hints Grouping mode page for USB/UAS devices
+         95f8bf932b46cd5c17c681d67be9234551234eac scsi: Add missing MODULE_DESCRIPTION() macros
          
 
---===============6417613041946609311==
+--===============6568367689288438157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1718331766 -0400
+pusher 75C5DE3D 1718331772 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1718331766-fdcd7b59ee6d1df3a6f2c1f889bec97d0bb66b60
+nonce 1718331772-49ee775addc5355e8789028431f37f391ff7c2d6
 
-90e6f08915ec6efe46570420412a65050ec826b2 57619f3cdeb5ae9f4252833b0ed600e9f81da722 refs/heads/fixes
+abf4628f5050fed28375f88ccbcd227137f25701 db3d836cd38ab74417c4e94773ca5cdb04f31c12 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZrqXcACgkQ7ulgGnXF
-3j13Nw/+NkQH9aOupMRNuRdrqY6Y0GR/w16quWES/Khra6DqNv5xhl3VabJiAtlz
-qoL3NlrFki6mrIRJD+lweZc62fJuLHvaxkWn+8gh1KjxNHqOdH42wkTrZttYD9+z
-QXWphMTSC19ot6+yfoC8RMovk2r0pEnu80r6C7Ec/517OchcKXrgOQDFWdZahcJQ
-PxdBgRU3DOfahGpPz01aJPFSX436EG3RF4k2OsS+mO6xWJ8hKVt4RhI1I4jyh6VV
-WYIuHLcnMP92nWdg+7/neSiJWx9qSZCBn3dM32mSndjj9VxIlczwqfzZ6vXl8pzp
-oeUjHLqzoFqwy8JTDr4ZgaRfd2NS1uM+2KXfkBwWgDNVtkJGJiLu8oFBdufLPBKR
-sh5YvZ1DKASJ45G7FOJnUKbieKk5Jg0u86nJzeTlawBl08j+5UvakUZfwORYefTs
-IwW+wTq+o6Ad1URGX/dkDeDRxLrfF7dAXKsumRX9Peu80ynMJ6aPNQdTHqYEC8FE
-vs3HohPFV/xhsc0FfCJpnkIWBCC47uEkSur2swPoDshThyf6JbZoYBXGTJq9Fsee
-a1z/xmv5ycaLXPiwPCirWTRaAtJt/8Eo/L/55Q8kYh9PviJ/iIYjQ1HDWtuXcPr0
-XLO/kPTdghWAHJmny9PNqBq2eBsXKYzLWZroKEaJzLXTbiJlhxQ=
-=RM4U
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmZrqXwACgkQ7ulgGnXF
+3j2q2Q/8C1jsXTT9UJZITjycbxwOu2NOgMWKVYXh4XtBA/EIanlyRfx25fsrKhNl
+t9vt+ZYhIJKJjBjwyyXzYu9HyLRePhuRcvPW7Rrw84FPgz59YBMZJywS0cYs5LBN
+nDNVbgR1f5lm3edw5JSSptBxCEnlqC4J8EnrfmEb5OMdOg47uN+T/3vutza4fqzh
+6c32Dt6AA0JWCZlupL4g6IB4PY1IeI5ftW1GoyYN6lWdcuse9jvVy0aVC1/CPCd9
+8EahkZ6TQzxeJf5h6LApU+dz//0dPYdgPNdL6zUoufQa1WNJ4DNYAieuOUExOoqF
+WRS2Xs1XSrKJBN7ji+QO0nEvb30yXm8sUdKmgt9okwqTzmNfevb+iS0vlab3PaMW
+vDqu7KWTT5Lr1Ez8mWm+CGySzIZBMFRiIGxQjgaUR36y35MMz6o7QmkxlKr46tHH
+Fpw9CSInycFDhSlsfzpBuX6KWLPjIevz2jCZiNBkUBVEaplEknQDjoeP6C/+7DEC
+QGy2Up8iegMriyfq87pvrjxgIb4fTRUCSto2rLHFJ2LqOoMdz7dhs8H8ltk8lEXO
+iaBedhoCwdyfYQ/S2hmq1R2ool2h4Mbpi4e2cwlWPJkewV91B3v3D1MHOAH02Zf2
+6mZvsir8hTmGG+D2t3sEhsGRIan34MdvRH8Bs/RcxT1w0IvLM7I=
+=d3d0
 -----END PGP SIGNATURE-----
 
---===============6417613041946609311==--
+--===============6568367689288438157==--
