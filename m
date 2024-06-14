@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 14 Jun 2024 04:58:18 -0000
-Message-Id: <171834109859.13742.5057746013879122098@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0238829372263625133=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 14 Jun 2024 06:29:03 -0000
+Message-Id: <171834654316.13744.6713217872750402334@gitolite.kernel.org>
+
+--===============0238829372263625133==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 69504ee07c99ef538edeabe2c050d01e5c3316cb
-    new: 7faa37091014851cf4c7a38effe40e864002d6a5
+  - ref: refs/heads/for-next
+    old: dd637f5cd5f334d2d014872544470031415cec3b
+    new: 490d573b5a8579178beb648a69a2cbab91495a7b
     log: |
-         c77a47494f2910414047dc44f8c895e3acce9ae9 foo
-         b5338750dbbb69f9ed5e954a6063f05c60f31028 foo
-         7faa37091014851cf4c7a38effe40e864002d6a5 foo
+         490d573b5a8579178beb648a69a2cbab91495a7b platform/x86/intel/ifs: Switch to new Intel CPU model defines
          
+
+--===============0238829372263625133==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1718346537 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1718346536-7c0c50fc074aa57c5df6307378826a750e1a2c0a
+
+dd637f5cd5f334d2d014872544470031415cec3b 490d573b5a8579178beb648a69a2cbab91495a7b refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZmvjLgAKCRBZrE9hU+XO
+Md0iAP0bHY+HlCQqr2LxaAXR9zVmirKe20NWqfmAbdwxKSrIsAEAwqsXscIvUmbE
+snNVJgHatLGdOXyb5AM4iyjOgmR7xAs=
+=s7Mx
+-----END PGP SIGNATURE-----
+
+--===============0238829372263625133==--
