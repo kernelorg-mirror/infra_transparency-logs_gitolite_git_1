@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
-Date: Fri, 14 Jun 2024 08:30:25 -0000
-Message-Id: <171835382585.8092.2370130967541512243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Fri, 14 Jun 2024 08:30:32 -0000
+Message-Id: <171835383231.8197.753408591312800486@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/overlayfs/vfs
-user: mszeredi
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/overlayfs-next
-    old: 96a6911b43e13d0db6a7d8d9bf305f938f7e2531
-    new: 52f0ad071ea81ec5fcee02eab07cf1d1f2abd066
-    log: |
-         52f0ad071ea81ec5fcee02eab07cf1d1f2abd066 ovl: fix encoding fid for lower only root
-         
+  - ref: refs/tags/renesas-arm-defconfig-for-v6.11-tag1
+    old: 0000000000000000000000000000000000000000
+    new: 735e1bc140fc25956f193edfa647bfb93bfd356a
+  - ref: refs/tags/renesas-dts-for-v6.11-tag1
+    old: 0000000000000000000000000000000000000000
+    new: 0a8237f6a2ced755a23306404261f6366d15432a
