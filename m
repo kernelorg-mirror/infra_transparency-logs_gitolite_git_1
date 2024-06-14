@@ -1,47 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============1035722435790359601=="
+Content-Type: multipart/mixed; boundary="===============2587164759459508782=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 14 Jun 2024 10:00:23 -0000
-Message-Id: <171835922366.8360.13065552238908469270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 14 Jun 2024 10:37:05 -0000
+Message-Id: <171836142508.3681.15010638313409381301@gitolite.kernel.org>
 
---===============1035722435790359601==
+--===============2587164759459508782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 1131179f9f4d073bff70e9afe4179caa703c6af1
-    new: 8a2ebb775a497a95a79a8ac83027a4f159c36f32
+  - ref: refs/heads/const_driver
+    old: 23e7ef4fb5ae58d0a695767f24dc4341e3dbdcda
+    new: c940714c91d886dd94cf620fbbe771b71d2a5f17
     log: |
-         659eb16247d04f442a014fe2dd8b7fa936dfccb5 i2c: omap: switch to NOIRQ_SYSTEM_SLEEP_PM_OPS() and RUNTIME_PM_OPS()
-         8a2ebb775a497a95a79a8ac83027a4f159c36f32 i2c: omap: wakeup the controller during suspend() callback
+         f912856d2037baec8889af4210cb9d4808ebc0cf USB: make to_usb_driver() use container_of_const()
+         f8da50c1bcfc158e03a7dead705867d7a7db1d20 USB: make to_usb_device_driver() use container_of_const()
+         77e63699362cfe3d42444598f4ab161775148277 USB: make single lock for all usb dynamic id lists
+         c940714c91d886dd94cf620fbbe771b71d2a5f17 USB: move dynamic ids out of usb driver structures
          
 
---===============1035722435790359601==
+--===============2587164759459508782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher andi.shyti@kernel.org 1718359222 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/andi.shyti/linux.git
-nonce 1718359222-2cd724ce97241a2e05d30130ba3caa3ea09bc690
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718361420 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1718361419-9fd3b72f4f210fb15cc60626528b55b1016241cb
 
-1131179f9f4d073bff70e9afe4179caa703c6af1 8a2ebb775a497a95a79a8ac83027a4f159c36f32 refs/heads/i2c/i2c-host
+23e7ef4fb5ae58d0a695767f24dc4341e3dbdcda c940714c91d886dd94cf620fbbe771b71d2a5f17 refs/heads/const_driver
 -----BEGIN PGP SIGNATURE-----
 
-iIwEABYIADQWIQScDfrjQa34uOld1VLaeAVmJtMtbgUCZmwUthYcYW5kaS5zaHl0
-aUBrZXJuZWwub3JnAAoJENp4BWYm0y1uV9UBANzZRL6ozEK/MUbJJx3rDtCQdJ1q
-j/RYPcI3i0Nrie/GAQCPQvsJ2zafdN2obtvVRbqoVSH0ISL+mTvqONI+hVTODg==
-=j6Rk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZsHUwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CLcP/RUiKB59GRhTWLW85OZw
+trse/UHVhVEb0wiqP1sZig9tL1McBZjvjHncPi4Jygvf2CnfKLR39tX7vlNP/a5O
+Yu0DjOLj/ULXeGX2o4lCLZ84PH/eecbA+tikabiYVfurmF0oOjRff2LB3D7L7CJ0
+1P41JnfiXSmmUYpvuszsy03yMAZB+HPmebzwNE3rVLWydBB5mlbvR3v2uqnk5Q0W
+ipO32S13KKZ8hyoey6CdSm28Ee8L1B7H3oNE4lFXAXfGJAAHe6HNeJxLdbVR53eG
+gb1+6N6mGPtNz9iEwd9309QGwxF9iqNZ6c1CWdUlGWzUJ+YrVuVt14Dao9uohFp2
+c7CNwOE90ENzkvePz1YRM8LuyYatberZXGkJ+qTqE1lZNfQW3nRW7GCqfc26UnmG
+1R8qz4CRe1AGxJPuzBzxs/GPLoUuzaKXf//zb0kdjE4T8DAUeSMSGr3oiyJAu0eZ
+wk2BWbKsO2ruwdM9OMKsvdGZUtfykYm4kcREmabZeEAV3pfDKDH6maexsogFgncS
+rEDpAB0BI2ReRgmiiY9M3tHOD1KzUFtfsHSW2t1qGykhMeJSB/XqV53x9IodE55M
+on6HPy6AHSToYBvR3W3GxYBVBH7lMJEagVxbni5r0pmBB6H1U9PDs7bmjlu2bUnQ
+c+Bx+ow9hnus8dTvNH/bFE3O
+=nPGM
 -----END PGP SIGNATURE-----
 
---===============1035722435790359601==--
+--===============2587164759459508782==--
