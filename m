@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4480632688190951267=="
+Content-Type: multipart/mixed; boundary="===============1505709743491925769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Fri, 14 Jun 2024 22:48:47 -0000
-Message-Id: <171840532709.14835.16771410837220306137@gitolite.kernel.org>
+Date: Fri, 14 Jun 2024 22:48:48 -0000
+Message-Id: <171840532887.14903.11457345238136874951@gitolite.kernel.org>
 
---===============4480632688190951267==
+--===============1505709743491925769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,43 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm32-for-6.11
-    old: 0e8a41e511c98f5f5796c0dca8ff983d1c967b93
-    new: 5756101babc5334a9bc99601d1cc0d6776fa9ada
-    log: |
-         5756101babc5334a9bc99601d1cc0d6776fa9ada ARM: dts: qcom: motorola-falcon: add accelerometer, magnetometer
-         
-  - ref: refs/heads/arm64-for-6.11
-    old: 497624ed550604b3f713f53bc506e49ce5046e5f
-    new: f55a758fd355c1b5ed7c73434a99ae07d5741226
-    log: |
-         ee5dcd7393af9af3494f533a6308faa539bd6718 arm64: dts: qcom: qcm6490-fairphone-fp5: Use .mbn firmware for IPA
-         525b42832bd333e3e7ccb0efceb41b47347beab5 dt-bindings: clock: Add Qcom QCM2290 GPUCC
-         fcc6ed4f62a350c4ead833775f9d8b0cc55ac958 Merge branch '20240606-topic-rb1_gpu-v4-1-4bc0c19da4af@linaro.org' into arm64-for-6.11
-         4faeef52c8e69f4fa43bd572049b502175fc55c3 arm64: dts: qcom: qcm2290: Add GPU nodes
-         1ae60a51d175f5d43e2020a1c3f11346796ae6de arm64: dts: qcom: qrb2210-rb1: Enable the GPU
-         f55a758fd355c1b5ed7c73434a99ae07d5741226 arm64: dts: qcom: msm8916-acer-a1-724: Add sound and modem
-         
-  - ref: refs/heads/clk-for-6.11
-    old: e81e9a845bab76461f952b6d81cf599ab957a33a
-    new: 8cab033628b12c6f55aea4170dfe565761336a95
-    log: revlist-e81e9a845bab-8cab033628b1.txt
-  - ref: refs/heads/drivers-for-6.11
-    old: 1b503fa221d144fbb11e2591378429566564a6b8
-    new: 75287992f58a74271a083fef0356bc81d629f671
-    log: |
-         5e66abcf1e250f032ecb18a7ecfac5287298ed8e dt-bindings: soc: qcom,smsm: Allow specifying mboxes instead of qcom,ipc
-         75287992f58a74271a083fef0356bc81d629f671 soc: qcom: smsm: Support using mailbox interface
-         
-  - ref: refs/heads/drivers-fixes-for-6.10
-    old: 0000000000000000000000000000000000000000
-    new: ad3dd9592b2a1d2f9e6ffeedfd81602f91f1ba09
+  - ref: refs/heads/for-next
+    old: 48a2613733020d85c3a2bff170028465e7d3b829
+    new: eefb5ee4b41cdb68bf6feffe0d68b5bbe038e29d
+    log: revlist-48a261373302-eefb5ee4b41c.txt
 
---===============4480632688190951267==
+--===============1505709743491925769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e81e9a845bab-8cab033628b1.txt
+Content-Disposition: attachment; filename=revlist-48a261373302-eefb5ee4b41c.txt
 
 acc41014661cf424c262e8d532e461376bacbd90 dt-bindings: clock: qcom,sm8450-videocc: reference qcom,gcc.yaml
 3b39fb00be1c5bd0c0c8855444a3b17d04bed667 dt-bindings: clock: qcom,videocc: reference qcom,gcc.yaml
@@ -73,9 +46,19 @@ c9ae35ace8c420ebcc7bf868a4f0feca142cb5cb dt-bindings: clock: qcom,sc7280-dispcc:
 80bbd1c355d661678d2a25bd36e739b6925e7a4e dt-bindings: clock: add qca8386/qca8084 clock and reset definitions
 9f93a0a428606341da25bf2a00244701b58e08b9 clk: qcom: common: commonize qcom_cc_really_probe
 2441b965c4c7adae0b4a7825f7acb67d44c3cd38 clk: qcom: add clock controller driver for qca8386/qca8084
+ee5dcd7393af9af3494f533a6308faa539bd6718 arm64: dts: qcom: qcm6490-fairphone-fp5: Use .mbn firmware for IPA
 525b42832bd333e3e7ccb0efceb41b47347beab5 dt-bindings: clock: Add Qcom QCM2290 GPUCC
 ea5594aa3eb800f67e4d22ce375f4d74b6c48599 Merge branch '20240606-topic-rb1_gpu-v4-1-4bc0c19da4af@linaro.org' into clk-for-6.11
 d4d74e4b305bf69ad82b8253ae38fdf54214c5ee clk: qcom: clk-alpha-pll: Add HUAYRA_2290 support
+fcc6ed4f62a350c4ead833775f9d8b0cc55ac958 Merge branch '20240606-topic-rb1_gpu-v4-1-4bc0c19da4af@linaro.org' into arm64-for-6.11
+4faeef52c8e69f4fa43bd572049b502175fc55c3 arm64: dts: qcom: qcm2290: Add GPU nodes
+1ae60a51d175f5d43e2020a1c3f11346796ae6de arm64: dts: qcom: qrb2210-rb1: Enable the GPU
+5e66abcf1e250f032ecb18a7ecfac5287298ed8e dt-bindings: soc: qcom,smsm: Allow specifying mboxes instead of qcom,ipc
+75287992f58a74271a083fef0356bc81d629f671 soc: qcom: smsm: Support using mailbox interface
+f55a758fd355c1b5ed7c73434a99ae07d5741226 arm64: dts: qcom: msm8916-acer-a1-724: Add sound and modem
+5756101babc5334a9bc99601d1cc0d6776fa9ada ARM: dts: qcom: motorola-falcon: add accelerometer, magnetometer
 8cab033628b12c6f55aea4170dfe565761336a95 clk: qcom: Add QCM2290 GPU clock controller driver
+ad3dd9592b2a1d2f9e6ffeedfd81602f91f1ba09 soc: qcom: pmic_glink: disable UCSI on sc8280xp
+eefb5ee4b41cdb68bf6feffe0d68b5bbe038e29d Merge branches 'arm32-for-6.11', 'arm64-defconfig-fixes-for-6.10', 'arm64-defconfig-for-6.11', 'arm64-fixes-for-6.10', 'arm64-for-6.11', 'clk-fixes-for-6.10', 'clk-for-6.11', 'drivers-fixes-for-6.10' and 'drivers-for-6.11' into for-next
 
---===============4480632688190951267==--
+--===============1505709743491925769==--
