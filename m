@@ -1,29 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joro/iommu
-Date: Fri, 14 Jun 2024 14:53:23 -0000
-Message-Id: <171837680373.31113.4022624915389268446@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 14 Jun 2024 14:54:02 -0000
+Message-Id: <171837684217.31401.17119470220846557140@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joro/iommu
-user: joro
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/core
-    old: 8d485a69603f667032d61daf4f1cb9464f315e1c
-    new: c94ad1d5e3885bd4fa6abb695baf5a8f5c3c309c
+  - ref: refs/heads/master
+    old: 0b02371e2b15295d45bf2c8bf7faf39ce48d6953
+    new: 48b7f7e5fe53b434f388a8b85cc0996853b3567c
     log: |
-         c94ad1d5e3885bd4fa6abb695baf5a8f5c3c309c iommu/iova: Add missing MODULE_DESCRIPTION() macro
+         48b7f7e5fe53b434f388a8b85cc0996853b3567c device: Fix marking device as temporary
          
-  - ref: refs/heads/next
-    old: 32ecc895ef408a424c60fe9965a5764862671c0d
-    new: e4ba1aa32afd812856c57df6d0c98f652b8279e9
-    log: |
-         c94ad1d5e3885bd4fa6abb695baf5a8f5c3c309c iommu/iova: Add missing MODULE_DESCRIPTION() macro
-         e4ba1aa32afd812856c57df6d0c98f652b8279e9 Merge branches 'iommu/fixes' and 'core' into next
-         
-  - ref: refs/tags/iommu-fix-v6.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5c99e96b614c3cd721f649cf504b9312f3d538e0
