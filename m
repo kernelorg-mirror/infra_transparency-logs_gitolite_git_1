@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============0238829372263625133=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 14 Jun 2024 06:29:03 -0000
-Message-Id: <171834654316.13744.6713217872750402334@gitolite.kernel.org>
-
---===============0238829372263625133==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Fri, 14 Jun 2024 06:29:14 -0000
+Message-Id: <171834655419.13902.12895302570419220283@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/for-next
-    old: dd637f5cd5f334d2d014872544470031415cec3b
-    new: 490d573b5a8579178beb648a69a2cbab91495a7b
+  - ref: refs/heads/objtool-diff
+    old: af4575990fb869acf3622d8c5509239c66778742
+    new: cd5c807b4be90882e7b15d95233f31122e12d6b0
     log: |
-         490d573b5a8579178beb648a69a2cbab91495a7b platform/x86/intel/ifs: Switch to new Intel CPU model defines
+         cd5c807b4be90882e7b15d95233f31122e12d6b0 todo
          
-
---===============0238829372263625133==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1718346537 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1718346536-7c0c50fc074aa57c5df6307378826a750e1a2c0a
-
-dd637f5cd5f334d2d014872544470031415cec3b 490d573b5a8579178beb648a69a2cbab91495a7b refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZmvjLgAKCRBZrE9hU+XO
-Md0iAP0bHY+HlCQqr2LxaAXR9zVmirKe20NWqfmAbdwxKSrIsAEAwqsXscIvUmbE
-snNVJgHatLGdOXyb5AM4iyjOgmR7xAs=
-=s7Mx
------END PGP SIGNATURE-----
-
---===============0238829372263625133==--
