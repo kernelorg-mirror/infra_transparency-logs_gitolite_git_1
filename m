@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2950561716030118729=="
+Content-Type: multipart/mixed; boundary="===============8478321141522569186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 14 Jun 2024 18:29:51 -0000
-Message-Id: <171838979189.28421.16349455471694134320@gitolite.kernel.org>
+Date: Fri, 14 Jun 2024 18:30:17 -0000
+Message-Id: <171838981790.30342.5621730364116556589@gitolite.kernel.org>
 
---===============2950561716030118729==
+--===============8478321141522569186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,26 +16,32 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4770c5ac93a660cdfb019ec2423eed88439ab1c5
-    new: 7b54f9a16831016dd8bd618f0af0fc02ec877195
-    log: revlist-4770c5ac93a6-7b54f9a16831.txt
+    old: 7b54f9a16831016dd8bd618f0af0fc02ec877195
+    new: bb14deebc4e93a6a4df6d952629a95c1d8b53a4e
+    log: revlist-7b54f9a16831-bb14deebc4e9.txt
 
---===============2950561716030118729==
+--===============8478321141522569186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4770c5ac93a6-7b54f9a16831.txt
+Content-Disposition: attachment; filename=revlist-7b54f9a16831-bb14deebc4e9.txt
 
-1af89dedc8a58006d8e385b1e0d2cd24df8a3b69 thermal: core: Do not fail cdev registration because of invalid initial state
-7f18bd49cb6b6a3ab6d860fefccdc94f2a247db0 thermal: ACPI: Invalidate trip points with temperature of 0 or below
-e79a10652bbd320649da705ca1ea0c04351af403 ACPI: x86: Force StorageD3Enable on more products
-b6846826982b9f2f2ad0e79540521b517469ee92 thermal: gov_step_wise: Restore passive polling management
-350cbb5d2f676bff22c49e5e81764c3b8da342a9 cpufreq: intel_pstate: Check turbo_is_disabled() in store_no_turbo()
-0e6b6dedf16800df0ff73ffe2bb5066514db29c2 ACPI: EC: Evaluate orphan _REG under EC device
-04f82fbb8686995f17b51ccd23c10fee12f1a2fd Merge branch acpi-x86
-cee84c0b003f2e0f486f200a72eca2bcdb3a49a7 Merge tag 'thermal-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-94df82fe5bfd6e38ca33d70b97de289055b33c7a Merge tag 'acpi-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-0cac73eb3875f6ecb6105e533218dba1868d04c9 Merge tag 'pm-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-7b54f9a16831016dd8bd618f0af0fc02ec877195 Merge branch 'linus'
+9b85df46f8410f957d295d2dd7749e2434870967 Merge branch into tip/master: 'timers/urgent'
+9bef1ef544479404fe5717bf5de83c6dfcd81ea0 Merge branch into tip/master: 'x86/urgent'
+1f502304ec4ed441ac788a211a25ed07df9920d7 Merge branch into tip/master: 'WIP.x86/fpu'
+f0bab5516d24c45ac81096de390a957a103d75ad Merge branch into tip/master: 'irq/core'
+c53ad40a39379a8c7abdef7bad0b5eebe7c1a6a8 Merge branch into tip/master: 'locking/core'
+0f8df30278174c06f8817ab8da26eaafa5aa4af7 Merge branch into tip/master: 'perf/core'
+313483c98ba9119d05e6610cd3c9449442322f6b Merge branch into tip/master: 'ras/core'
+5cd0d1a528738118de64d70c30340b377b9b7288 Merge branch into tip/master: 'sched/core'
+a606186620c48af8a723acc186785bf5bf743c62 Merge branch into tip/master: 'timers/core'
+30c4228a573b509802e01a6f45222bf63348e195 Merge branch into tip/master: 'x86/alternatives'
+b1c6b9a142ed47700dfbea0fff0d4b91237789e8 Merge branch into tip/master: 'x86/boot'
+9e329d0fb51c823f75c845b9c2e7a60068d6f25d Merge branch into tip/master: 'x86/cache'
+0336ef8f054746eb9a76c02ffbf4a901f0b4debb Merge branch into tip/master: 'x86/cc'
+e978b90e3bc1762c4271ed2778d930cc49988d46 Merge branch into tip/master: 'x86/cleanups'
+160f93183cbb1b37d152fb7ac63d5c686a65a52a Merge branch into tip/master: 'x86/cpu'
+511b721934947c0b6c300a470d4d9ea3d98b814d Merge branch into tip/master: 'x86/misc'
+bb14deebc4e93a6a4df6d952629a95c1d8b53a4e Merge branch into tip/master: 'x86/percpu'
 
---===============2950561716030118729==--
+--===============8478321141522569186==--
