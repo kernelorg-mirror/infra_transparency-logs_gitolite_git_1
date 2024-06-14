@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 14 Jun 2024 19:17:08 -0000
-Message-Id: <171839262853.17324.13518610439767896336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 14 Jun 2024 19:17:30 -0000
+Message-Id: <171839265053.17546.13535021697132440186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: a0ed4f84387e39e637a63cf9a96c7fa97208e1ee
-    new: d06712b51404061eef92cb275b8303814fca86ec
+  - ref: refs/heads/tpm2key-v8
+    old: 153f6b189df47931184c4ad7485ea415f3675beb
+    new: 06603725fcb0c85f9127edb64958ff1d0ec1c716
     log: |
-         d06712b51404061eef92cb275b8303814fca86ec testsuite: add tests for weak dependencies
+         06603725fcb0c85f9127edb64958ff1d0ec1c716 fixup
          
