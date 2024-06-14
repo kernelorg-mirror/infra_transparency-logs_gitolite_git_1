@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 14 Jun 2024 19:07:36 -0000
-Message-Id: <171839205630.27560.16260487952576571888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 14 Jun 2024 19:13:01 -0000
+Message-Id: <171839238157.13955.14642839121594950135@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 71c5a6d2a923e388e617152f42a3c2bd454fb47d
-    new: 614b3255c0ab275e66843073a0ba034c77b5dc98
+    old: beabe24165dabb1597c91bdb5fbb79457b2ac847
+    new: b01d1196f02f6e1d6ff8f9d15e0e9249f642cd27
     log: |
-         614b3255c0ab275e66843073a0ba034c77b5dc98 RELEASE: Document how to obtain a list of contributors
+         b01d1196f02f6e1d6ff8f9d15e0e9249f642cd27 Fri Jun 14 03:12:18 PM EDT 2024
          
