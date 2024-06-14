@@ -1,29 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 14 Jun 2024 19:24:41 -0000
-Message-Id: <171839308149.22018.8889575233000577526@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5706730137501660866=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 14 Jun 2024 19:36:20 -0000
+Message-Id: <171839378043.31127.14078856766995499789@gitolite.kernel.org>
+
+--===============5706730137501660866==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/jd/vdso-skip-insn
-    old: edc06cc1f38e5d73d09cfe35259ccbb51a1ccf59
-    new: 41002f9e4b6ec21a3af4cec7810b38eafff1ac1d
+  - ref: refs/heads/master
+    old: 707da4b965ea1779b07f4015494abfed8a86214d
+    new: be43b3606507d46b6d1c6de90594f7dc0203f28e
     log: |
-         5d246c6a1ad30d77d1c52ec0d373ab13fcc2ae85 random: introduce generic vDSO getrandom() implementation
-         6e47a8b5cc9f6e9ea063c91effa69c5e9bd5e629 x86: vdso: Wire up getrandom() vDSO implementation
-         ebb7796ad186b856493334d14b4b96129310be02 mm: Do not OOM when failing VM_DROPPABLE faults
-         41002f9e4b6ec21a3af4cec7810b38eafff1ac1d x86: mm: Skip faulting instruction for VM_DROPPABLE faults
+         be43b3606507d46b6d1c6de90594f7dc0203f28e Bump version to 0.15-dev
          
-  - ref: refs/heads/vdso
-    old: af48d5da719664e70407c48eefea0c4789b547d5
-    new: 6e47a8b5cc9f6e9ea063c91effa69c5e9bd5e629
-    log: |
-         5d246c6a1ad30d77d1c52ec0d373ab13fcc2ae85 random: introduce generic vDSO getrandom() implementation
-         6e47a8b5cc9f6e9ea063c91effa69c5e9bd5e629 x86: vdso: Wire up getrandom() vDSO implementation
-         
+
+--===============5706730137501660866==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1718393779 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1718393779-7aa215c7aa1f98104626f54d273d95906f17f81b
+
+707da4b965ea1779b07f4015494abfed8a86214d be43b3606507d46b6d1c6de90594f7dc0203f28e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZmybswAKCRC2xBzjVmSZ
+bOpSAQDnoCNktK1zaSno/pXuXlHG3CxMGjdvBLqzo9hmehpRmQEA0vcv1UWlsjUV
+fH+XzRAlPdXTExZ60j3rsaIECK0TkwQ=
+=qJtA
+-----END PGP SIGNATURE-----
+
+--===============5706730137501660866==--
