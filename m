@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 14 Jun 2024 12:59:22 -0000
-Message-Id: <171836996271.10146.11162582452225862114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Fri, 14 Jun 2024 13:13:46 -0000
+Message-Id: <171837082662.21751.15843758568191990530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/kvm-arm64/nv-fgt-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 0bca470effbbe77d0078b60328ad789fb0c964bb
+  - ref: refs/heads/nfsd-next
+    old: 84a570328eefd4df2e201deb5d43d152e0aca55a
+    new: 4ddfda417a50309f17aeb85f8d1a9a9efbc7d81c
+    log: |
+         4ddfda417a50309f17aeb85f8d1a9a9efbc7d81c nfsd: new netlink ops to get/set server pool_mode
+         
