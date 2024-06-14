@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 14 Jun 2024 16:09:13 -0000
-Message-Id: <171838135324.23175.11798000542351108173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 14 Jun 2024 16:16:40 -0000
+Message-Id: <171838180007.29120.13670056057318448954@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/thermal-core-testing
-    old: 893bae92237d824334d68d6b67222aaf32e41458
-    new: 72196c20c38b50c4293696377145e6c4ad9a7c67
+  - ref: refs/heads/devres
+    old: df726be5ecaa2b3e1f0bc663908843dbff57c952
+    new: 5ce20759783efc56600111480accac8397e0204d
     log: |
-         a52641bc6293a24f25956a597e7f32148b0e2bb8 thermal: trip: Use READ_ONCE() for lockless access to trip properties
-         2c637af8a74d9a2a52ee5456a75dd29c8cb52da5 thermal: gov_bang_bang: Drop unnecessary cooling device target state checks
-         72196c20c38b50c4293696377145e6c4ad9a7c67 thermal: core: Avoid calling .trip_crossed() for critical and hot trips
+         2d5ba354ab25b3b7cbcd2acc807188dd11976779 PCI: Remove struct pci_devres.enabled status bit
+         3b4032833e7a8d853d5f6e2efc3ad8de991cf8a0 PCI: Move struct pci_devres.pinned bit to struct pci_dev
+         f1113fe8c367da7d8015d1ff6ba399aff6df95b7 PCI: Give pcim_set_mwi() its own devres cleanup callback
+         6dd102b1b835149bd6f99d6769197ef6ccd0b4c1 PCI: Add managed pcim_intx()
+         a61d61175775506c554166b4e32eede626512e2e PCI: Remove legacy pcim_release()
+         150e6b546aa315698cca210220264e96ed07bb5a PCI: Add managed pcim_iomap_range()
+         5ce20759783efc56600111480accac8397e0204d drm/vboxvideo: fix mapping leaks
          
