@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============2950561716030118729=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 14 Jun 2024 18:29:32 -0000
-Message-Id: <171838977295.28163.1985600328108493515@gitolite.kernel.org>
+Date: Fri, 14 Jun 2024 18:29:51 -0000
+Message-Id: <171838979189.28421.16349455471694134320@gitolite.kernel.org>
+
+--===============2950561716030118729==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -12,10 +16,26 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: eef1813453bfb4f4cd80dd829838c394d4ca3a8e
-    new: 4770c5ac93a660cdfb019ec2423eed88439ab1c5
-    log: |
-         9b9eec8dc284f33f505cec48d88b42ebad4da9cc Documentation: Remove "mfgpt_irq=" from the kernel-parameters.txt file
-         71315037cb7d40cdb2f4fbefad31927f6e6caba5 x86/boot: Remove unused function __fortify_panic()
-         4770c5ac93a660cdfb019ec2423eed88439ab1c5 Merge branch into tip/master: 'x86/cleanups'
-         
+    old: 4770c5ac93a660cdfb019ec2423eed88439ab1c5
+    new: 7b54f9a16831016dd8bd618f0af0fc02ec877195
+    log: revlist-4770c5ac93a6-7b54f9a16831.txt
+
+--===============2950561716030118729==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4770c5ac93a6-7b54f9a16831.txt
+
+1af89dedc8a58006d8e385b1e0d2cd24df8a3b69 thermal: core: Do not fail cdev registration because of invalid initial state
+7f18bd49cb6b6a3ab6d860fefccdc94f2a247db0 thermal: ACPI: Invalidate trip points with temperature of 0 or below
+e79a10652bbd320649da705ca1ea0c04351af403 ACPI: x86: Force StorageD3Enable on more products
+b6846826982b9f2f2ad0e79540521b517469ee92 thermal: gov_step_wise: Restore passive polling management
+350cbb5d2f676bff22c49e5e81764c3b8da342a9 cpufreq: intel_pstate: Check turbo_is_disabled() in store_no_turbo()
+0e6b6dedf16800df0ff73ffe2bb5066514db29c2 ACPI: EC: Evaluate orphan _REG under EC device
+04f82fbb8686995f17b51ccd23c10fee12f1a2fd Merge branch acpi-x86
+cee84c0b003f2e0f486f200a72eca2bcdb3a49a7 Merge tag 'thermal-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+94df82fe5bfd6e38ca33d70b97de289055b33c7a Merge tag 'acpi-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+0cac73eb3875f6ecb6105e533218dba1868d04c9 Merge tag 'pm-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+7b54f9a16831016dd8bd618f0af0fc02ec877195 Merge branch 'linus'
+
+--===============2950561716030118729==--
