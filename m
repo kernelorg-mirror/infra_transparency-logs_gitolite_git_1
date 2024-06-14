@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1022786246690756741=="
+Content-Type: multipart/mixed; boundary="===============2632497200129941327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 14 Jun 2024 15:18:06 -0000
-Message-Id: <171837828678.18150.15244739887757908945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 14 Jun 2024 15:18:24 -0000
+Message-Id: <171837830460.18315.7954853920374682807@gitolite.kernel.org>
 
---===============1022786246690756741==
+--===============2632497200129941327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: a9b9741854a9fe9df948af49ca5514e0ed0429df
-    new: 89aa3619d141d6cfb6040a561aebb6d99d3e2285
-    log: revlist-a9b9741854a9-89aa3619d141.txt
+  - ref: refs/heads/main
+    old: 3ec8d7572a69d142d49f52b28ce8d84e5fef9131
+    new: 404dbd26322f50c8123bf5bff9a409356889035f
+    log: revlist-3ec8d7572a69-404dbd26322f.txt
 
---===============1022786246690756741==
+--===============2632497200129941327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9b9741854a9-89aa3619d141.txt
+Content-Disposition: attachment; filename=revlist-3ec8d7572a69-404dbd26322f.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -184,6 +184,7 @@ d91e656262aeef16f6a296a2b6c8b0f7243f408a Merge tag 'pci-v6.10-fixes-1' of git://
 eb55943aab89be99a26e34fc2175ebb3583a2778 Merge tag 'drm-misc-next-fixes-2024-06-07' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 96c965667b9dbbd713acdffa95ebab8c225f8595 kbuild: explicitly run mksysmap as sed script from link-vmlinux.sh
 9185afeac2a3dcce8300a5684291a43c2838cfd6 modpost: do not warn about missing MODULE_DESCRIPTION() for vmlinux.o
+e96b2933152fd87b6a41765b2f58b158fde855b6 net: sfp: Always call `sfp_sm_mod_remove()` on remove
 02c418774f76a0a36a6195c9dbf8971eb4130a15 smb: client: fix deadlock in smb2_find_smb_tcon()
 a88d60903696c01de577558080ec4fc738a70475 cifs: Don't advance the I/O iterator before terminating subrequest
 64054eb716db52e4246527dc9414377c5bc5b01d gpio: add missing MODULE_DESCRIPTION() macros
@@ -194,6 +195,11 @@ a88d60903696c01de577558080ec4fc738a70475 cifs: Don't advance the I/O iterator be
 07fc16fa55522520f5e4b2e35c72650f11079c35 dt-bindings: HID: i2c-hid: elan: add Elan eKTH5015M
 e538d4b85b8f1e3534dfbb42c2273f18bbb59d6e dt-bindings: HID: i2c-hid: elan: add 'no-reset-on-power-off' property
 0eafc58f2194dbd01d4be40f99a697681171995b HID: i2c-hid: elan: fix reset suspend current leakage
+b472b996a43404a912c5cb4f27050022fdbce10c dt-bindings: net: dp8386x: Add MIT license along with GPL-2.0
+12cda920212a49fa22d9e8b9492ac4ea013310a4 net: hns3: fix kernel crash problem in concurrent scenario
+968fde83841a8c23558dfbd0a0c69d636db52b55 net: hns3: add cond_resched() to hns3 ring buffer init process
+dbfb8864650ec0b69e0a1b9b667bf79c25ca33ca Merge branch 'hns3-fixes'
+c44711b78608c98a3e6b49ce91678cd0917d5349 liquidio: Adjust a NULL pointer handling path in lio_vf_rep_copy_packet
 a3a5a37efba11b7cf1a86abe7bccfbcdb521764e HID: Ignore battery for ELAN touchscreens 2F2C and 4116
 2e32d580757362edc95fdd7a86d3b869b78e58d8 Merge tag 'drm-fixes-2024-06-07' of https://gitlab.freedesktop.org/drm/kernel
 e693c5026c28ab2ca1f718f66f47a6a041ec8f3a Merge tag 'ata-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
@@ -217,11 +223,21 @@ bbc5332b8cda95cd081cff9c405c1cfece872f20 Merge tag 'locking-urgent-2024-06-08' o
 061d1af7b0305227182bd9da60c7706c079348b7 Merge tag 'for-linus-2024060801' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 c5dbc2ed0006d1a910b5496202a280138ce596e4 Merge tag '6.10-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 771ed66105de9106a6f3e4311e06451881cdac5e Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+0579f27249047006a818e463ee66a6c314d04cea net: stmmac: dwmac-qcom-ethqos: Configure host DMA width
 637c2dfcd9f5e194ab2e879704460840edcde537 Merge tag 'edac_urgent_for_v6.10_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 b8481381d4e2549f06812eb6069198144696340c Merge tag 'perf-tools-fixes-for-v6.10-2-2024-06-09' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 83a7eefedc9b56fe7bfeff13b6c7356688ffa670 Linux 6.10-rc3
+5add2f7288468f35a374620dabf126c13baaea9c netdevsim: fix backwards compatibility in nsim_get_iflink()
 e3cf20e5c68df604315ab30bdbe15dc8a5da556b ARM: 9405/1: ftrace: Don't assume stack frames are contiguous in memory
 594ce0b8a998aa4d05827cd7c0d0dcec9a1e3ae2 Merge topic branches 'clkdev' and 'fixes' into for-linus
+d37fe4255abe8e7b419b90c5847e8ec2b8debb08 tcp: fix race in tcp_v6_syn_recv_sock()
+d029edefed39647c797c2710aedd9d31f84c069e net dsa: qca8k: fix usages of device_get_named_child_node()
+c6ae073f5903f6c6439d0ac855836a4da5c0a701 geneve: Fix incorrect inner network header offset when innerprotoinherit is set
+791b4089e326271424b78f2fae778b20e53d071b net/mlx5e: Fix features validation check for tunneled UDP (non-VXLAN) packets
+93792130a9387b26d825aa78947e4065deb95d15 Merge branch 'geneve-fixes'
+86fbd9f63a6b42b8f158361334f5a25762aea358 Bluetooth: hci_sync: Fix not using correct handle
+806a5198c05987b748b50f3d0c0cfb3d417381a4 Bluetooth: L2CAP: Fix rejecting L2CAP_CONN_PARAM_UPDATE_REQ
+c695439d198d30e10553a3b98360c5efe77b6903 Bluetooth: fix connection setup in l2cap_connect
 161f73c2c7d061a78390388811e3a6d11e99ce9d bcachefs: Split out btree_write_submit_wq
 1c8cc24eef4a0e824f75e38f82766e4baede24ca bcachefs: Fix incorrect error handling found_btree_node_is_readable()
 04f635ede85b2e7457f3029b9179079a8ac42ff4 bcachefs: Delete incorrect BTREE_ID_NR assertion
@@ -238,16 +254,65 @@ e0cb5722e112811d32d600ef750f9b39e6f684ca bcachefs: Fix snapshot_create_lock lock
 9432e90df1b8a544f220fd455b2fa39eed8a535d bcachefs: Check for invalid bucket from bucket_gen(), gc_bucket()
 b79922009214e6ab23c07db32a5606a45710f86e bcachefs: Add missing synchronize_srcu_expedited() call when shutting down
 7124a8982b621e1a8af81c17f44b90587cdd161c bcachefs: Add missing bch_inode_info.ei_flags init
+44180feaccf266d9b0b28cc4ceaac019817deb5c net/sched: initialize noop_qdisc owner
+8031b58c3a9b1db3ef68b3bd749fbee2e1e1aaa3 mptcp: ensure snd_una is properly initialized on connect
+6a09788c1a66e3d8b04b3b3e7618cc817bb60ae9 mptcp: pm: inc RmAddr MIB counter once per RM_ADDR ID
+40eec1795cc27b076d49236649a29507c7ed8c2d mptcp: pm: update add_addr counters after connect
+74acb250e103f42be372177628f9272b6e888c49 mailmap: map Geliang's new email address
+70b3c88cec7eed6080c8c37f0d2cc4bc46c08852 Merge branch 'mptcp-various-fixes'
+36534d3c54537bf098224a32dc31397793d4594d tcp: use signed arithmetic in tcp_rtx_probe0_timed_out()
+c4ab9da85b9df3692f861512fe6c9812f38b7471 netfilter: nft_inner: validate mandatory meta and payload
+4e7aaa6b82d63e8ddcbfb56b4fd3d014ca586f10 netfilter: ipset: Fix race between namespace cleanup and gc in the list:set type
+6f8f132cc7bac2ac76911e47d5baa378aafda4cb netfilter: Use flowlabel flow key when re-routing mangled packets
 2ef5971ff345d3c000873725db555085e0131961 Merge tag 'vfs-6.10-rc4.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 f2736b9c791a126ecb9cfc1aef1c7b4152b66e2d bcachefs: Fix rcu_read_lock() leak in drop_extra_replicas
+144ba8580bcb82b2686c3d1a043299d844b9a682 net: pse-pd: Use EOPNOTSUPP error code instead of ENOTSUPP
+f6b2f578df8d1cb993e0951b786820410a04268c Merge tag 'for-net-2024-06-10' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+1b9f756344416e02b41439bf2324b26aa25e141c gve: ignore nonrelevant GSO type bits when processing TSO headers
+be27b896529787e23a35ae4befb6337ce73fcca0 net: stmmac: replace priv->speed with the portTransmitRate from the tc-cbs parameters
 cea2a26553ace13ee36b56dc09ad548b5e6907df mailmap: Add my outdated addresses to the map file
+7fc45cb68696c7213c484ec81892bc8a986fde52 net: mana: Allow variable size indirection table
 0b4989ebe8a608c68d5ec54d61078aba47baed22 Merge tag 'bcachefs-2024-06-12' of https://evilpiepirate.org/git/bcachefs
+d92589f8fd551b8e362d7ac09317e01717e1636d Merge tag 'nf-24-06-11' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 2ccbdf43d5e758f8493a95252073cf9078a5fea5 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
+14a20e5b4ad998793c5f43b0330d9e1388446cf3 net/ipv6: Fix the RT cache flush via sysctl using a previous delay
+36c92936e868601fa1f43da6758cf55805043509 net: bridge: mst: pass vlan group directly to br_mst_vlan_set_state
+546ceb1dfdac866648ec959cbc71d9525bd73462 net: bridge: mst: fix suspicious rcu usage in br_mst_set_state
+b60b1bdc1888f51da7a2a22c48c5f1eb2bd12e97 Merge branch 'net-bridge-mst-fix-suspicious-rcu-usage-warning'
+8eef5c3cea65f248c99cd9dcb3f84c6509b78162 Revert "igc: fix a log entry using uninitialized netdev"
+79f18a41dd056115d685f3b0a419c7cd40055e13 ionic: fix use after netif_napi_del()
+6f4d93b78ade0a4c2cafd587f7b429ce95abb02e gve: Clear napi->skb before dev_kfree_skb_any()
+7d9df38c9c037ab84502ce7eeae9f1e1e7e72603 bnxt_en: Cap the size of HWRM_PORT_PHY_QCFG forwarded response
+a6736a0addd60fccc3a3508461d72314cc609772 af_unix: Read with MSG_PEEK loops if the first unread byte is OOB
+a9b9741854a9fe9df948af49ca5514e0ed0429df bnxt_en: Adjust logging of firmware messages in case of released token in __hwrm_send()
 3572597ca844f625a3c9ba629ed0872b64c16179 Merge tag 'fixes-2024-06-13' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 fd88e181d80579afbc56b9d69ef884c81abc2df0 Merge tag 'nfs-for-6.10-2' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 d20f6b3d747c36889b7ce75ee369182af3decb6b Merge tag 'net-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-4467c09bc7a66a17ffd84d6262d48279b26106ea net: mvpp2: use slab_build_skb for oversized frames
-9f36169912331fa035d7b73a91252d7c2512eb1a cipso: fix total option length computation
-89aa3619d141d6cfb6040a561aebb6d99d3e2285 cipso: make cipso_v4_skbuff_delattr() fully remove the CIPSO options
+4c7d3d79c736186bb2585f2d0a8231e1fac839da Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+cf157f33f44d8a6dce803f967d8aac3032e03a43 Merge branch 'mana-shared' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+c7f75954212b5e64f6b1f2375215b02fd79758ce dt-bindings: net: dsa: lantiq,gswip: convert to YAML schema
+b98f122ebdac28b0c932f3f4474eb0927c39297b net: dsa: lantiq_gswip: Only allow phy-mode = "internal" on the CPU port
+dd6d364e1895211df8a8fe02c2a5a0b2a7049957 net: dsa: lantiq_gswip: add terminating \n where missing
+1763b155da022ac0f984463e68cb0cda8ffc1fe8 net: dsa: lantiq_gswip: Use dev_err_probe where appropriate
+f5ebf9ab60940b00c36dfe64add41c80f3daff6a net: dsa: lantiq_gswip: Don't manually call gswip_port_enable()
+86b9ea6412af41914ef6549f85a849c3b987f4f3 net: dsa: lantiq_gswip: do also enable or disable cpu port
+7168ec1b06691295db6b335e5f5f6c86c7061213 net: dsa: lantiq_gswip: Use dsa_is_cpu_port() in gswip_port_change_mtu()
+c927b6e47b5cc7324217bf5fe7e6ccd0633971a0 net: dsa: lantiq_gswip: Change literal 6 to ETH_ALEN
+e6c34597f89ac98c06176eed57f125252015a330 net: dsa: lantiq_gswip: Consistently use macros for the mac bridge table
+b068706b7831ccf7c7f1a56a65862fbcc28d061f net: dsa: lantiq_gswip: Remove dead code from gswip_add_single_port_br()
+e19fbe3996aae35a467ebad35ff2b8d84975a65c net: dsa: lantiq_gswip: Update comments in gswip_port_vlan_filtering()
+3b0a95ed7782dce88a5ef4860dcaab962cec9527 net: dsa: lantiq_gswip: Improve error message in gswip_port_fdb()
+6e7e2e7e6327c1907ebd0b0ed60563f51edc4d92 Merge branch 'net-dsa-lantiq_gswip-code-improvements'
+5f703ce5c981ee02c00e210d5b155bbbfbf11263 net: hsr: Send supervisory frames to HSR network with ProxyNodeTable data
+8a9044e5169bab7a8edadb4ceb748391657f0d7f dt-bindings: net: add STM32MP13 compatible in documentation for stm32
+582ac134963e2d5cf6c45db027e156fcfb7f7678 net: stmmac: dwmac-stm32: Separate out external clock rate validation
+63b0aa8ea73f7a15912d5e6e44714f98bda8a03c net: stmmac: dwmac-stm32: Separate out external clock selector
+92704f8c0e7a3868bf22a7d36ae205b880195e66 net: stmmac: dwmac-stm32: Extract PMCR configuration
+c60a54b52026bd2c9a88ae00f2aac7a67fed8e38 net: stmmac: dwmac-stm32: Clean up the debug prints
+cbfad55322ceee283ff1dd053725b93c86018b88 net: stmmac: dwmac-stm32: Fix Mhz to MHz
+4f37dc467ffe5b56ab6b27cca207246172c0d861 net: stmmac: dwmac-stm32: Mask support for PMCR configuration
+50bbc039311464af9a4c90be828750450e8cbed3 net: stmmac: dwmac-stm32: add management of stm32mp13 for stm32
+3873d0d107c18a01112c25aa2b3cc3c42714385f Merge branch 'series-to-deliver-ethernet-for-stm32mp13'
+404dbd26322f50c8123bf5bff9a409356889035f net: qrtr: ns: Ignore ENODEV failures in ns
 
---===============1022786246690756741==--
+--===============2632497200129941327==--
