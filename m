@@ -1,40 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============5496653239678653412=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 14 Jun 2024 18:50:03 -0000
-Message-Id: <171839100373.13019.15527464854043695894@gitolite.kernel.org>
-
---===============5496653239678653412==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Fri, 14 Jun 2024 18:50:51 -0000
+Message-Id: <171839105151.14452.2353081129480402014@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: d20f6b3d747c36889b7ce75ee369182af3decb6b
-    new: 0cac73eb3875f6ecb6105e533218dba1868d04c9
-    log: revlist-d20f6b3d747c-0cac73eb3875.txt
-
---===============5496653239678653412==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d20f6b3d747c-0cac73eb3875.txt
-
-1af89dedc8a58006d8e385b1e0d2cd24df8a3b69 thermal: core: Do not fail cdev registration because of invalid initial state
-7f18bd49cb6b6a3ab6d860fefccdc94f2a247db0 thermal: ACPI: Invalidate trip points with temperature of 0 or below
-e79a10652bbd320649da705ca1ea0c04351af403 ACPI: x86: Force StorageD3Enable on more products
-b6846826982b9f2f2ad0e79540521b517469ee92 thermal: gov_step_wise: Restore passive polling management
-350cbb5d2f676bff22c49e5e81764c3b8da342a9 cpufreq: intel_pstate: Check turbo_is_disabled() in store_no_turbo()
-0e6b6dedf16800df0ff73ffe2bb5066514db29c2 ACPI: EC: Evaluate orphan _REG under EC device
-04f82fbb8686995f17b51ccd23c10fee12f1a2fd Merge branch acpi-x86
-cee84c0b003f2e0f486f200a72eca2bcdb3a49a7 Merge tag 'thermal-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-94df82fe5bfd6e38ca33d70b97de289055b33c7a Merge tag 'acpi-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-0cac73eb3875f6ecb6105e533218dba1868d04c9 Merge tag 'pm-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-
---===============5496653239678653412==--
+  - ref: refs/heads/jd/vdso-skip-insn
+    old: d704c7e6de9dab17c50a449e94c357cb5052ed02
+    new: 7ebde3181077aa34c931eedf400ecb69aad244ff
+    log: |
+         72433f056be4ca244d24bed59640d4be53cf8c77 wireguard: selftests: use acpi=off instead of -no-acpi for recent QEMU
+         19ee286ef26d8090e2ff2e753fcc7d6996f5f93b vdso test
+         0de15402d87c40a1c082d96cd1b3e0d3a070e3bb mm: add VM_DROPPABLE for designating always lazily freeable mappings
+         53944033c30f49fea1011341cc97fbfb1ecfdbd4 random: add vgetrandom_alloc() syscall
+         f8d54b6777140e3bdd9c2012d84b360e08cf18c4 arch: allocate vgetrandom_alloc() syscall number
+         f1a5981155afae7978d318debd6b1d601b0ee4b9 random: introduce generic vDSO getrandom() implementation
+         af48d5da719664e70407c48eefea0c4789b547d5 x86: vdso: Wire up getrandom() vDSO implementation
+         99603a89faed7511d1d22fc1eafbed84056d86e3 mm: Do not OOM when failing VM_DROPPABLE faults
+         7ebde3181077aa34c931eedf400ecb69aad244ff x86: mm: Skip faulting instruction for VM_DROPPABLE faults
+         
+  - ref: refs/heads/vdso
+    old: 0fb4afec8b47b80ea72a70655035bf17974ed9de
+    new: af48d5da719664e70407c48eefea0c4789b547d5
+    log: |
+         0de15402d87c40a1c082d96cd1b3e0d3a070e3bb mm: add VM_DROPPABLE for designating always lazily freeable mappings
+         53944033c30f49fea1011341cc97fbfb1ecfdbd4 random: add vgetrandom_alloc() syscall
+         f8d54b6777140e3bdd9c2012d84b360e08cf18c4 arch: allocate vgetrandom_alloc() syscall number
+         f1a5981155afae7978d318debd6b1d601b0ee4b9 random: introduce generic vDSO getrandom() implementation
+         af48d5da719664e70407c48eefea0c4789b547d5 x86: vdso: Wire up getrandom() vDSO implementation
+         
