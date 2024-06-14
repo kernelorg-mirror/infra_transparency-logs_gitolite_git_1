@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 14 Jun 2024 11:24:21 -0000
-Message-Id: <171836426147.5190.9874713787535809793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Fri, 14 Jun 2024 11:33:52 -0000
+Message-Id: <171836483225.11960.10150028640014512828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/main
-    old: 3873d0d107c18a01112c25aa2b3cc3c42714385f
-    new: 404dbd26322f50c8123bf5bff9a409356889035f
+  - ref: refs/heads/for-next/scmi/updates
+    old: 0cadebb0774825a096c45a777eeb492dc13bb6ff
+    new: fa8b28ba22d95be4d2dd3c37fbdbdc066af82941
     log: |
-         404dbd26322f50c8123bf5bff9a409356889035f net: qrtr: ns: Ignore ENODEV failures in ns
+         fa8b28ba22d95be4d2dd3c37fbdbdc066af82941 firmware: arm_scmi: Add support for platform to agent channel completion
          
