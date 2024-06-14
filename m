@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 14 Jun 2024 19:45:07 -0000
-Message-Id: <171839430762.7748.1917414076249270816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 14 Jun 2024 19:49:16 -0000
+Message-Id: <171839455685.9302.7467773386910672360@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: 0b37116b2ac24afaa942cd203ba6f03c015fd78f
-    new: d95dff8b3f6d131825359cf1c80d2522d5f07db1
+  - ref: refs/heads/tpm2key-v8
+    old: 68dd7fd3adf92501c4574a46e1a78c60ca54b6d5
+    new: bcc939c27d5d9bddbba697c643ede5cfa2e37c4a
     log: |
-         c7ccc09d847ba495db866132669a6dde28ea494b amdgpu: update DMCUB to v0.0.222.0 for DCN314
-         d95dff8b3f6d131825359cf1c80d2522d5f07db1 Merge branch 'amd-staging' into 'main'
+         bcc939c27d5d9bddbba697c643ede5cfa2e37c4a fixup
          
