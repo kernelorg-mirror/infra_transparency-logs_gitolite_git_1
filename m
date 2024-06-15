@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devsec/spdm
-Date: Sat, 15 Jun 2024 19:36:09 -0000
-Message-Id: <171848016969.15134.9958206682655090083@gitolite.kernel.org>
+Date: Sat, 15 Jun 2024 19:36:11 -0000
+Message-Id: <171848017129.15193.6276880396167418988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devsec/spdm
 user: lukas
 changes:
-  - ref: refs/tags/v6.8-rc7
-    old: ae587d09d5d2b63498be8f0959bd89c042d4dfdd
+  - ref: refs/tags/v6.9
+    old: d376cac46d30f3913ed0166151263b7d0ad7eed9
     new: 0000000000000000000000000000000000000000
