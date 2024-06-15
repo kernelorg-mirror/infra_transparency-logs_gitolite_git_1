@@ -1,28 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 14 Jun 2024 23:43:32 -0000
-Message-Id: <171840861287.22852.13532805359534256384@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6840580816184574062=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Sat, 15 Jun 2024 00:41:33 -0000
+Message-Id: <171841209385.386.3778680574552669169@gitolite.kernel.org>
+
+--===============6840580816184574062==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-linus
-    old: 0298f51652be47b79780833e0b63194e1231fa34
-    new: be1fae62cf253a5b67526cee9fbc07689b97c125
-    log: |
-         8af49868e51ed1ba117b74728af12abe1eda82e5 ASoC: cs35l56: Disconnect ASP1 TX sources when ASP1 DAI is hooked up
-         be1fae62cf253a5b67526cee9fbc07689b97c125 ASoC: q6apm-lpass-dai: close graph on prepare errors
-         
-  - ref: refs/heads/for-next
-    old: 8a717e51bbf5205a60ae3a952c516b062e768fe8
-    new: 97ff3b183a5f4466811c9b1b10e2390ad8b16136
-    log: |
-         8af49868e51ed1ba117b74728af12abe1eda82e5 ASoC: cs35l56: Disconnect ASP1 TX sources when ASP1 DAI is hooked up
-         be1fae62cf253a5b67526cee9fbc07689b97c125 ASoC: q6apm-lpass-dai: close graph on prepare errors
-         97ff3b183a5f4466811c9b1b10e2390ad8b16136 Merge remote-tracking branch 'asoc/for-6.11' into asoc-next
-         
+  - ref: refs/heads/nxp/v6.10/dev/rpi-cam-mipi
+    old: 0000000000000000000000000000000000000000
+    new: 5a42e32f7a80b2729b81fa757c9531a7ec7127f9
+
+--===============6840580816184574062==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Laurent Pinchart <laurent.pinchart@ideasonboard.com> 1718412066 +0300
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
+nonce 1718412084-2e6e7314f6ab2c6d1b0fdfce0b0b9ef2e0138c3d
+
+0000000000000000000000000000000000000000 5a42e32f7a80b2729b81fa757c9531a7ec7127f9 refs/heads/nxp/v6.10/dev/rpi-cam-mipi
+-----BEGIN PGP SIGNATURE-----
+
+iJgEABYKAEAWIQTAnvhxs4J7QT+XHKnMPy2AAyfeZAUCZmzjIiIcbGF1cmVudC5w
+aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEMw/LYADJ95kHOsBAKfaGH8IUxNu
+7tuBG8OFr9D0kQKC9gC8+Y4l/be2UcuCAP0TVCmXG4oiyV63vRMu7aQm6+dWnCTa
+zHbi36HKzDgTCQ==
+=nE8m
+-----END PGP SIGNATURE-----
+
+--===============6840580816184574062==--
