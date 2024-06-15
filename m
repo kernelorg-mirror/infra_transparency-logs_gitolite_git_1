@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1894671089137036814=="
+Content-Type: multipart/mixed; boundary="===============7238158039983129689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sat, 15 Jun 2024 15:23:53 -0000
-Message-Id: <171846503346.9762.1606450177382424764@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 15 Jun 2024 15:23:59 -0000
+Message-Id: <171846503960.9867.4056747741026591272@gitolite.kernel.org>
 
---===============1894671089137036814==
+--===============7238158039983129689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.11
+  - ref: refs/heads/asoc-6.11
     old: fe833e4397fbdc3ae13a60202dfc7c335b032499
     new: 7fbc4f5e633cbc23576c32ff9773faa1788afc2d
     log: |
@@ -24,28 +24,28 @@ changes:
          7fbc4f5e633cbc23576c32ff9773faa1788afc2d dt-bindings: sound: Convert max98088 to dtschema
          
 
---===============1894671089137036814==
+--===============7238158039983129689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1718465034 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1718465031-b1c445037ee78d28031d1fd538faf76d6121a7e1
+pusher Mark Brown <broonie@kernel.org> 1718465040 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1718465037-b84689f411d57bedc61a263754b7a6acc4df221f
 
-fe833e4397fbdc3ae13a60202dfc7c335b032499 7fbc4f5e633cbc23576c32ff9773faa1788afc2d refs/heads/for-6.11
+fe833e4397fbdc3ae13a60202dfc7c335b032499 7fbc4f5e633cbc23576c32ff9773faa1788afc2d refs/heads/asoc-6.11
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZtsgoTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0HQoB/wP3KbRnPrK0dKI2dYR75eGkklGWXWX
-bErZr1UZ57GZl3eXpWEKj5tTsJs6+2303RrRP4+7RJmRlpAH6bX8xK/Lty1OxDn/
-HNK82HO8wwVKh28wmfbV+y605EHus4VoTpmCkXS4fHtilsXTilu7cSacdv9pDc2O
-I9mswhIvro+zVfVuxiTgPh+9XRWD2gSeN+7Hvo6lMPy3c+Uc60rreNRrcSgL8XcJ
-54cKEfvCx96VjAP2IhcFcxnYsYG9tSNgaMuLsJVd5fIdB//L05DJcO+zSbO6ci2L
-N2K8jEZryiJfJF66cJZ3HGmPaUl4GX2uTJq8pYqFf4wzQ2d5417893/1
-=j4Sg
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZtshATHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0IlpB/42GtcxIZGw7g5sh5zUXscE0X6iYmT/
+UEPw9AwQRf5rDTBaM22p09CPvILjMu5zVOhXZGo9rK0qtZ2Jqjv5Jl+qU4Hkfo/+
+U0XJJgZiJ65ZB6cq/GI61P5fPEc9d1jhYI7SkCTcmOuzmDuOzzRHrZfJbdqOmtZR
+XLb5UORnzCPTPr9fshoakUYwrCV+sqmSbidvFc3MNcZ+y4iQbxZ5UyyhUoq4wgtr
+bQeucS9Z00QQ+tXuWSjGCDF7QXwvMd8Bxvfs9RiFZjaUZ5cMYg/mtyzYAMs6+Mu9
+Y/0WWGox4lE05VEQHX+hAeIm4vP+kQtZnqC9ovECbhL3+0DYXOF8jLMk
+=s6E4
 -----END PGP SIGNATURE-----
 
---===============1894671089137036814==--
+--===============7238158039983129689==--
