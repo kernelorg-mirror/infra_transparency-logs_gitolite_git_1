@@ -1,47 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============5341082543791877288=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 15 Jun 2024 08:31:35 -0000
-Message-Id: <171844029588.18472.18374322189390446722@gitolite.kernel.org>
-
---===============5341082543791877288==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Sat, 15 Jun 2024 08:41:09 -0000
+Message-Id: <171844086948.26488.7548385692424252481@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/master
-    old: 6cb3d51543ffe94efe268d2a190a09916c01b1bd
-    new: 49b33979e3bf0a5424420d14f026de12f34e8b1e
-    log: revlist-6cb3d51543ff-49b33979e3bf.txt
-
---===============5341082543791877288==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6cb3d51543ff-49b33979e3bf.txt
-
-0416f2bebf4c099e71d47191e8e51295e39da3d5 Merge branch into tip/master: 'timers/urgent'
-92075e7308a207226e3e36b4e69179f3c862f3d8 Merge branch into tip/master: 'x86/urgent'
-cc11e0904995f047d9802917d5524a255bcdc2d0 Merge branch into tip/master: 'WIP.x86/fpu'
-8802ad041d10cc9b80c9e55dc9b75848727b87fc Merge branch into tip/master: 'irq/core'
-08f22e98dd61c14bad005c0f6e40d82e7c6e1b32 Merge branch into tip/master: 'locking/core'
-6a78da7244fb7297e040bf718af7daa7ae728074 Merge branch into tip/master: 'perf/core'
-06752d1290404fddf7daacdf644748876d9be866 Merge branch into tip/master: 'ras/core'
-3adf7cd1e7fa951f9dad0a1d75e631ffadce6358 Merge branch into tip/master: 'sched/core'
-dc94ba12c0d705aa79c93a4d31490bbf6413265c Merge branch into tip/master: 'timers/core'
-569750d71ac2bcef4f7800020881156dc5864a23 Merge branch into tip/master: 'x86/alternatives'
-ebd3226b59ee9a8986700dc7dbccc59fe3d3325b Merge branch into tip/master: 'x86/boot'
-807238701f0b43e41c6ec2bb40d06323b14d246b Merge branch into tip/master: 'x86/cache'
-300f0abb88e1132e4b9a0f825d461e8da8f9ad30 Merge branch into tip/master: 'x86/cc'
-b298b945b869e47efeeae0b643b28e2aee308262 Merge branch into tip/master: 'x86/cleanups'
-62fbfba3d44ebc358fd48c77bd4ef9fb5f2e994e Merge branch into tip/master: 'x86/cpu'
-e6f3cd05e5a89b39fe3f7ef381acbf6851829733 Merge branch into tip/master: 'x86/misc'
-49b33979e3bf0a5424420d14f026de12f34e8b1e Merge branch into tip/master: 'x86/percpu'
-
---===============5341082543791877288==--
+  - ref: refs/heads/imx/dt
+    old: 1613e604df0cd359cf2a7fbd9be7a0bcfacfabd0
+    new: bd036febd03cb40b56911f057e3dacabd1521014
+    log: |
+         245838888dbf3ebaff762e3424a18e35b681afc2 ARM: dts: imx: align panel timings node name with dtschema
+         069e81ea96bdff4e771df4a644fbcf4913261e9b ARM: dts: imx: correct choice of panel native mode
+         04ee7d2d72c399d084ca9326f4808f952d1630b7 ARM: dts: imx6dl-aristainetos2_4: drop redundant 'power-on-delay' property
+         63da595d80499728b33eda30110cee6ab431451e ARM: dts: imx: drop redundant 'u-boot,panel-name' property
+         331929bd9edbf2217563e441be7e5748834b62ba ARM: dts: imx28-tx28: drop redundant 'panel-name' property
+         bd036febd03cb40b56911f057e3dacabd1521014 ARM: dts: imx: Add LVDS port data mapping on M53 Menlo
+         
+  - ref: refs/heads/imx/dt64
+    old: 41f93a496af2696d970cbcb3814261a9b32dbaa2
+    new: 044786935ec5f051c4bd1baef7831dd4bfb5ad52
+    log: |
+         f560da940e3271166a19c17bfe8bcb45490d7767 arm64: dts: imx8mp: Initialize audio PLLs from audiomix subsystem
+         521568faa8a252c12341f13b2fd6cc95e48c0503 arm64: dts: imx8mp-evk: add bt-sco sound card support
+         11af40dc13f328c76648e16b8c8a6902b35bbd8c arm64: dts: imx8mp: Enable HDMI on i.MX8MP DHCOM PDK2 and PDK3
+         c5234fcd508ac90719c69b759102ee220bb68f6e arm64: dts: imx8mp-tqma8mpql-mba8mpxl: Remove unused ocram node
+         f0504cca44f0bcc6c0699a247c38bdb9d5437542 arm64: dts: imx8mq-librem5: Don't wake up on volume key press
+         2cd7b542c84e19e92f0283809e7e8617481e8c32 arm64: dts: freescale: ls1028a: Remove undocumented 'fsl,ls-pcie-ep'
+         044786935ec5f051c4bd1baef7831dd4bfb5ad52 arm64: dts: freescale: ls1028a: Reorder sai dma-names to fix warning
+         
+  - ref: refs/heads/imx/fixes
+    old: 08f0fa5d6aa9488f752eb5410e32636f143b3d8e
+    new: e1b4622efbe7ad09c9a902365a993f68c270c453
+    log: |
+         c03984d43a9dd9282da54ccf275419f666029452 arm64: dts: imx8mp: Fix TC9595 input clock on DH i.MX8M Plus DHCOM SoM
+         bcdea3e81ea51c9e89e3b11aac2612e1b4330bee arm: dts: imx53-qsb-hdmi: Disable panel instead of deleting node
+         e1b4622efbe7ad09c9a902365a993f68c270c453 arm64: dts: freescale: imx8mp-venice-gw73xx-2x: fix BT shutdown GPIO
+         
