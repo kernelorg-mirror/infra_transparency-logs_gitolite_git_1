@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7637050510912644509=="
+Content-Type: multipart/mixed; boundary="===============3654117658219878992=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 15 Jun 2024 20:16:30 -0000
-Message-Id: <171848259097.14356.17580653870706199456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Sat, 15 Jun 2024 20:16:41 -0000
+Message-Id: <171848260167.14501.2103153738364134604@gitolite.kernel.org>
 
---===============7637050510912644509==
+--===============3654117658219878992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.11
-    old: 7fbc4f5e633cbc23576c32ff9773faa1788afc2d
-    new: c8d0930a047849cc816475b58656201e5a531adc
-    log: revlist-7fbc4f5e633c-c8d0930a0478.txt
+  - ref: refs/heads/for-next
+    old: 4bb75061337068f5e1e316fb7f17a15a6e765f49
+    new: 36e5f291f72a02e25a3d0d6fec24f2a08562cffc
+    log: revlist-4bb750613370-36e5f291f72a.txt
 
---===============7637050510912644509==
+--===============3654117658219878992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1718482591 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1718482588-af473ec4130d4f26c7374a50e84a0070a08346c6
-
-7fbc4f5e633cbc23576c32ff9773faa1788afc2d c8d0930a047849cc816475b58656201e5a531adc refs/heads/asoc-6.11
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmZt9p8THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0HTtB/0RcJ6sr92OweafY131l2GeHohrER+f
-NL22sc9Ro2sxsmti29wyz33Xe0sv404OZYe6+45HDVI5b1GquxnTcJ6WR+fvI+Td
-cvSftIYHMt1eCgxcG/PZaJ4H6mQjzR/AQkfIQpl9jkaFTY1JFqayzm1vwY46TxI2
-n40RspVXdVXHQHwy7AkyJ/EAv/AtFi044BB0ZQuBgGNmd6y/pZ3NYuDsmwz37+Eo
-dMdEi+u4LBlNQ+99PvYayNGwh/RD4Yko5AFGxDXSlPLvn7goBWv5QVbsdWuH31MU
-IZUL0RspcKHqNPSFKvJVImfsrngAkYSJPc75tnxKobe9rUgC33feldxc
-=Qh2q
------END PGP SIGNATURE-----
-
---===============7637050510912644509==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7fbc4f5e633c-c8d0930a0478.txt
+Content-Disposition: attachment; filename=revlist-4bb750613370-36e5f291f72a.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -439,5 +414,6 @@ b8481381d4e2549f06812eb6069198144696340c Merge tag 'perf-tools-fixes-for-v6.10-2
 dbacef05898d65f586fb9b90ba367e6bf898d68d ASoC: codec: lpass-rx-macro: prepare driver to accomdate new codec versions
 432e5074f805d0f976c7430af376a0dd07f1c6d7 ASoC: codec: lpass-rx-macro: add support for 2.5 codec version
 c8d0930a047849cc816475b58656201e5a531adc ASoC: codecs: lpass: add support for v2.5 rx macro
+36e5f291f72a02e25a3d0d6fec24f2a08562cffc Merge remote-tracking branch 'asoc/for-6.11' into asoc-next
 
---===============7637050510912644509==--
+--===============3654117658219878992==--
