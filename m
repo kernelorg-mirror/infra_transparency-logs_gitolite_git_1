@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/liba2i/liba2i
-Date: Sat, 15 Jun 2024 21:40:25 -0000
-Message-Id: <171848762572.11130.15766647477906249577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 16 Jun 2024 02:01:26 -0000
+Message-Id: <171850328615.4322.15741190510634191193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/liba2i/liba2i
-user: alx
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 40a1072b0d51843d0bb678ec66bd13c7d8ff500b
-    new: f973db75716bb554351507d3c06dc17385903b93
+  - ref: refs/heads/master
+    old: 615c8c41ee4f9291bdd437751e96671d5eaf4cbb
+    new: 27966653065b5225bb946cf928cbb2910f9b8b4a
     log: |
-         60f18a5ec5b17ee240021748eafe86b1956e06d8 share/mk/: TROFFFLAGS: -rU0: Disable generation of OSC 8 URI hyperlinks
-         5b09601a302d62e894e8d288cfc28393f050811a share/mk/: lint-man: Merge linting of man(7) and mdoc(7) pages
-         ba9d548637afa93821473deeebbd7b8cea80e356 share/mk/: lint-man-so: Check that .so link pages point to an existing file
-         f973db75716bb554351507d3c06dc17385903b93 share/mk/: Use release tags that include the project name
+         a3fa58f72abdbecbcc536f351e3d73d38f9b0b34 Fixes for 6.9
+         6bba280ae245c394859f2aa7f24208ac5f02cc6c Fixes for 6.6
+         81aad6490ddfdcbc3e1b144363275a1db31aabe5 Fixes for 6.1
+         692674bc014318689a92d3717a38badcb7cab728 Fixes for 5.15
+         92448420c65cbf58fab7285f870b125b561b65c5 Fixes for 5.10
+         d127fbf1d8e32b27be90eb81154ac993e615d8a5 Fixes for 5.4
+         27966653065b5225bb946cf928cbb2910f9b8b4a Fixes for 4.19
          
