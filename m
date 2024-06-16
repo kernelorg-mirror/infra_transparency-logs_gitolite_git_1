@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3045670337214995149=="
+Content-Type: multipart/mixed; boundary="===============0707307463781443723=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Sun, 16 Jun 2024 10:53:02 -0000
-Message-Id: <171853518257.30072.11248994222215577433@gitolite.kernel.org>
+Date: Sun, 16 Jun 2024 10:53:06 -0000
+Message-Id: <171853518635.30186.10794493771026434480@gitolite.kernel.org>
 
---===============3045670337214995149==
+--===============0707307463781443723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/spdx-linus
     old: c3f38fa61af77b49866b006939479069cd451173
     new: a3e18a540541325a8c8848171f71e0d45ad30b2c
     log: revlist-c3f38fa61af7-a3e18a540541.txt
 
---===============3045670337214995149==
+--===============0707307463781443723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718535180 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718535185 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1718535179-419f1fbd3a5f3140a85e54736a965ce070cec921
+nonce 1718535185-407dae1c238b76e25c6f144baf4d77b3558bd30e
 
-c3f38fa61af77b49866b006939479069cd451173 a3e18a540541325a8c8848171f71e0d45ad30b2c refs/heads/main
+c3f38fa61af77b49866b006939479069cd451173 a3e18a540541325a8c8848171f71e0d45ad30b2c refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZuxAwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lR4P/iU66a6P31MYiXxHgw0M
-YwsoXzyklrVbnJtH4f3/lJpEcVG8w+g0CLo3sUggWJsBBQgJCfeA/PRwJN79qsWx
-0klsE2W44EcI0jAq0U5EeiifQMoEKrYVyF4YNwngIwPkPI6aigvwJgHj7LrlKBEa
-SwGq5KnDXqAuDzwWZiyXh+J+m4n+QQXVZfX3lsDNuHyvkiTfC9+J3VnDIsMamVBp
-pRjh9bifiXN9RnbgSeGmc5eolfh8S4OH6bbE/et/Wzf28xvrk1zC3gJmPMviawrx
-r1PhqBpLo34Vq/FzQNNRTwND7v08JfhIngi5bnl6W6IVhuL0LDvo08I6P0x9NoMu
-6toNF2sOS601vCqezOfZjBYfgG6DitZT+oV+ju5Nn+ZzCfS4tsK0Ts0lKbtaCT91
-v3WhPvtKqAug75ixEa61gJS3mP98R+FJkBz+I0HsUqwxoA6fxvzrgsUVDdQAetMs
-uaiM0asp2u8B3ZE2C8QTvApJDBWoy8TYNrOz/Hq4G1N5OpTmQRcnTc9YFSBt6cXH
-aYUPOO20hfBPow/6pvsI8nFcn8+fDEUdZ+zgvq9rhpEzXtFEPLKNYLpKFLDYLmiV
-TWYW/wQcsKof6nRbsZe5m/4fiZwKv9lWVEKtMEsWLlQe4ERoAr7A5XSveyuk37UC
-4dfN7izvnv+ecQMD+rANVjDD
-=qeMg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZuxBEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6KEP/jmKTbtxc3Yo6Nznq8U2
+J39oI7BcL6Db8X/SINgtcPw4Drj88+HUnAq/FVniXZRJw9K7bND3DfHeUzoklRxU
+M9b2VLa+OvLBqcuabg5Wlj3ANdBmndZiYlcgNIurWXKTJgsiQ720PEXguJvzgHJ5
+QSNqdJbxWLpVvGO8Gxx6+qwkb1I41Ddb9hBxAATUkcsS0ALVZ5ieh6yQs67FtIq7
+Di1vpd7j5P4pIqWsUTPIdUJgQnCvlrh9B3f2WLspHZgeL3bEA4QUOtTyn2UJoVlP
+zVVUp9tffeZs3T3pIYGeic6m/QXXaAo3gyhFuNEn7/prmyisCd6GKAqr9bHvLtc6
+9r2nHOjoGZqELt4UEdEeYCYkRefsBL6BCC5i8yvoopLcfXIxztepBJzzVzyn8jrG
+eiRLVTnFS/NKCtqjhJVygtcJwh3OhYimeRBsZLfhrX5W22F2jL4zbi9+i/jjnQ2Q
+0HGfsndlL3WR25H17JkvA/B0sIV8K4Qk6jrhTU8adhYgOSMUADP3Gr0KztToLNZO
+2OaakrB4E5mh95+t2hSyvUjMtuarValGwybl7L7RKAmH4AndjS/Twi9e5IjrbwLi
+M2V97qSBwMi6850F/MGMptQeN7GKCvbIxBcifWzJrDcIjqMRwNaYiZ2+sM4SUnfO
+sfJDslqJ1s1CrSU7kBmST2pq
+=Hcs1
 -----END PGP SIGNATURE-----
 
---===============3045670337214995149==
+--===============0707307463781443723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -616,4 +616,4 @@ d4332da0f2b5cccf2b195035a3f30fce7c1bb7a7 Merge tag 'drm-fixes-2024-06-15' of htt
 62e1f3b3fdc026aa244982533ae8e05bd1b9ee77 Merge tag '6.10-rc3-smb3-server-fixes' of git://git.samba.org/ksmbd
 a3e18a540541325a8c8848171f71e0d45ad30b2c Merge tag 'xfs-6.10-fixes-3' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 
---===============3045670337214995149==--
+--===============0707307463781443723==--
