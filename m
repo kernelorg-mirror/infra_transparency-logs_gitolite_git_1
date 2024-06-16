@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 16 Jun 2024 17:57:50 -0000
-Message-Id: <171856067098.28226.16659794022850178810@gitolite.kernel.org>
+Date: Sun, 16 Jun 2024 17:58:00 -0000
+Message-Id: <171856068079.28338.8152608367256276543@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: 125dd1a9bfbf4b2bf7bebb55546b1ef8c2d22019
+  - ref: refs/heads/for-next
+    old: c5998fd93e72176c619cd80ab3e7aaedd58a8e7e
     new: 7f26cd24a407a69c48f5410282b14a8d7711358e
     log: |
          39042d8fd08eb8901a7a72a2a41a6071787fcca2 kbuild: package: add -e and -u options to some shell scripts
