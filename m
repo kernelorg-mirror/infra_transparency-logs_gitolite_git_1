@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sun, 16 Jun 2024 04:44:00 -0000
-Message-Id: <171851304071.25747.14595807586122942557@gitolite.kernel.org>
+Date: Sun, 16 Jun 2024 04:44:17 -0000
+Message-Id: <171851305717.25922.16904148710102406748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: namhyung
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 47f47b017f217c50f315853801eb56e3431d0054
+  - ref: refs/heads/perf-tools-next
+    old: 65b37df8c61ceea863ac0ac188fe3464c2ee3ac0
     new: eae7044b67a606f10d245ff2866ee04f235e1722
     log: |
          231295a186b60e779152ee88a2647a392307431a perf: sched map skips redundant lines with cpu filters
