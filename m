@@ -1,63 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============9030393560186389264=="
+Content-Type: multipart/mixed; boundary="===============6689966334533032323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 16 Jun 2024 10:13:44 -0000
-Message-Id: <171853282415.915.2546775802253032267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sun, 16 Jun 2024 10:15:05 -0000
+Message-Id: <171853290582.3274.17345586532615719119@gitolite.kernel.org>
 
---===============9030393560186389264==
+--===============6689966334533032323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/const_driver
-    old: b411bfe8b70c2b8590e05378a00e198d72214635
-    new: 59a02fe9d47c712050ae1895d753dd46ce97f357
+  - ref: refs/heads/usb-linus
+    old: 5ceac4402f5d975e5a01c806438eb4e554771577
+    new: 22f00812862564b314784167a89f27b444f82a46
     log: |
-         271b7e9b52810c0931a92496d9de0e3e07be51e0 driver core: have match() callback in struct bus_type take a const *
-         a42ca05f086a47e9b888ebec3501654764613eac USB: make to_usb_driver() use container_of_const()
-         8ec6c318223ead00bd569deba841abffb43a8525 USB: make to_usb_device_driver() use container_of_const()
-         09b4735d60117e0e3c7627d00795b936dd049b09 USB: make single lock for all usb dynamic id lists
-         e0a3ced3ec263bb6e14b92bf9d653ce69cba53f7 USB: move dynamic ids out of usb driver structures
-         57e74f1127c7f1266f489222dd443be50a3c915c driver core: make driver_[create|remove]_file take a const *
-         2613945d534a45fd037d2b2ac8385e449b3d85ca driver core: make driver_find_device() take a const *
-         59a02fe9d47c712050ae1895d753dd46ce97f357 driver core: module: make module_[add|remove]_driver take a const *
+         22f00812862564b314784167a89f27b444f82a46 USB: class: cdc-wdm: Fix CPU lockup caused by excessive log messages
          
 
---===============9030393560186389264==
+--===============6689966334533032323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718532822 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1718532822-475f5662d790bbe314eba621baf649e0afe4299d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718532904 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1718532904-fdc2ca196414d1016f10559cd55925463bb0f2eb
 
-b411bfe8b70c2b8590e05378a00e198d72214635 59a02fe9d47c712050ae1895d753dd46ce97f357 refs/heads/const_driver
+5ceac4402f5d975e5a01c806438eb4e554771577 22f00812862564b314784167a89f27b444f82a46 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZuutYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HUIQAM4rHX1jTIKmFjU9lgyV
-Nbc6dALANjx9iaL6eOHs0VPCBs6MrYaheN6CZxa2cSADxEE0NpId8qWphgkxc9zC
-wO4hPnH49d1XspbM5ed8bD8VGdpKIjwY/ALY+jf0VuOd0l6GNTSKedFVaPEfE3Cr
-QrzBda0kuQbcY9uNdjd1tAx+Dx7ngERiF4T06Zaj40gHK8zq1wWutjzUFUrEUREj
-hoj/R8mtwruKZUF6FavEDfwt12CMAsp9wLA7DURVq7P4FLL6nGgJuwZ+y4t/XcVQ
-DB5fcE1WRYL8xp1AAsWnquvZkrBqPGc/KmcavS3Lcefsz8tMXvXILhxm4tWta2/m
-wcwvrBf2saLs0DDb2QHwLfgOwNevf83DmJ7uCfWkRN2chUGVO8VSBEZLGmojtBzg
-UCPLVWXDJhAgCZkGZXZrDl6UWHEh2FQrqj2MVxSJnYTPqGsqbQn6SEj54TG0fymK
-dcLn2eriitZApPQmIqJUC/tunjgusCOm/8n5JMPNpgQ2k31Hv7mvUNwCh+H3/9Sh
-in/xbf631Doee50uQEfehYPLpFBzyzIenQ8omBeB8VxhC0cnsdULXWSrkC0DRXoK
-UsMDupM7VIqO4xRA43eVeXNkK1VEN9VT7Z+T0rLJIiFNfOv8ufoclHIk/VfATazi
-6Fsn6oMZn2nVNRTYY9ThSJJR
-=1ftV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZuuygbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3S8QAMu5d3AwtJ4Vmk0BiNDW
+APbnqNnzRTqfWxYQAwXDoZk0zT2SP4Iet3vcHcU3wEy3SRZJBl8QBsNl0aJ0Wz+m
+XnvE5lP7sebf1LF/GhZgMOX+LDn9A3B1pI/rW5yCdNaYDzI3jcG6SzP0yGYIkPW/
+ztkvYAGfXD5oqkBtFLBUN9XpSQzqZ3/3HKDz66Lo+lDrJzQ+CRIBTV0lKoTEUj52
+NIDnjYeRehKS3P1DVt/9bniSQY3J9IjsQ8z6VZairyluHyOIKdeqykF0aa1CpJqc
+ytDPX9iS0ES9A2AauubVYaWQjxep8oSxzuM2OlMofq34AvjfyU0BH0dCnLoZNtAt
+MhxV6aiikM0fY1EuVqZYa9a4H/gxnHt/9Q82ZsMVzYXfv6QVkrIfvwPqadHA5His
+wRApy8qLc3P8suBvA4Q151twhsfGKLlZooKi0mlF2i89BeMBaIF4JLDu0uxHqygI
+idSLmLhffUXZplzz7l5dIrQLOzrG1KMrGIrF6ZjRjZ60s7YwTOdSGsAwUYqc53KV
+n04tMo+tTGqTMLJ7paKeyBvOEJIk7XZA1jIDf669ZqC8vsdHw1N96HEvK/CEbzPe
+UufLpw8q08YT/AV3ChRFMdCdt89IlQVVooS/tUv2b3SXvIc+7PrLZC6fhUHgxJmn
+8nBphcV8S8RCb5k213h1fukg
+=h9Wq
 -----END PGP SIGNATURE-----
 
---===============9030393560186389264==--
+--===============6689966334533032323==--
