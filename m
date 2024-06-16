@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Sun, 16 Jun 2024 09:18:30 -0000
-Message-Id: <171852951047.11162.4026838836595579735@gitolite.kernel.org>
+Date: Sun, 16 Jun 2024 09:21:11 -0000
+Message-Id: <171852967136.13771.12789068327965793373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/libata/linux
 user: cassel
 changes:
   - ref: refs/tags/ata-6.10-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 80967633d04db510fdd8f8ccb8aeb98949cfc72c
+    old: 80967633d04db510fdd8f8ccb8aeb98949cfc72c
+    new: 0000000000000000000000000000000000000000
