@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 16 Jun 2024 20:54:00 -0000
-Message-Id: <171857124099.26653.5669360088594543757@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 16 Jun 2024 20:58:54 -0000
+Message-Id: <171857153480.30017.6661633374800288291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: sashal
 changes:
-  - ref: refs/heads/advise
-    old: 3b4a7737ad6ffffc39390f8de9c109112633ae8c
-    new: 920394505b16cc87e91252f9ce7a22b54993fce0
+  - ref: refs/heads/master
+    old: 43b5a25440e3cfa29930edc1a3d743e66ae46e06
+    new: 0ffd14830a11d5acd79b8bd031636d86bb52adbb
     log: |
-         920394505b16cc87e91252f9ce7a22b54993fce0 Add 64-bit length variants of {f,m}advise
+         0ffd14830a11d5acd79b8bd031636d86bb52adbb Sun Jun 16 04:58:03 PM EDT 2024
          
