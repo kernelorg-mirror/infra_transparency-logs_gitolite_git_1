@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 16 Jun 2024 09:38:36 -0000
-Message-Id: <171853071637.26609.13409426786509521125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Sun, 16 Jun 2024 10:01:36 -0000
+Message-Id: <171853209691.24270.14339884133816498579@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/heads/kbuild
-    old: c5998fd93e72176c619cd80ab3e7aaedd58a8e7e
-    new: 125dd1a9bfbf4b2bf7bebb55546b1ef8c2d22019
+  - ref: refs/heads/counter-next
+    old: b84dba784fcb44d142bcc49effbb27244fe782cc
+    new: f045f1e1cc530f34688f9e71b1aeef6fece0f514
     log: |
-         125dd1a9bfbf4b2bf7bebb55546b1ef8c2d22019 kbuild: Fix build target deb-pkg: ln: failed to create hard link
+         1c30c6d024726e2af2a5608474bf1fb6937f5740 counter: ti-eqep: implement over/underflow events
+         42c1debf9b68d5f7c6deacda5fa1a8b83722c052 counter: ti-eqep: remove unused struct member
+         f045f1e1cc530f34688f9e71b1aeef6fece0f514 counter: ti-eqep: remove counter_priv() wrapper
          
