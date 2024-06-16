@@ -1,64 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8380839167970511355=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sun, 16 Jun 2024 07:23:59 -0000
-Message-Id: <171852263967.12138.14296320685897009959@gitolite.kernel.org>
-
---===============8380839167970511355==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 16 Jun 2024 07:50:13 -0000
+Message-Id: <171852421305.32417.7124998823728961062@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
   - ref: refs/heads/for-next
-    old: d0a024fe8ee24796db2d3d48cef17a6e0753d022
-    new: 1447920fea80077049c2fbd360809f379fbd6e44
+    old: c8683b995d8aba9d5b4e2368fedad83508882d84
+    new: 2a1251e3dbb2995100b6f351c2452228895386a5
     log: |
-         7666718892f2a8582127f584fdbf5dada59af2d8 clk: samsung: Switch to use kmemdup_array()
-         1447920fea80077049c2fbd360809f379fbd6e44 Merge branch 'next/clk' into for-next
+         b1bc15f8fb5f20b4199fbf10868bd416d9a6a692 RDMA/iwcm: Use list_first_entry() where appropriate
+         fc772e38bce5635bc1d7efae7198a305504ad112 RDMA/iwcm: Change the return type of iwcm_deref_id()
+         e1168f09b3314992f1c5251f3793102035da7237 RDMA/iwcm: Simplify cm_event_handler()
+         a1babdb5b615751ef5ace97a37f35d0ae40fbf13 RDMA/iwcm: Simplify cm_work_handler()
+         aee2424246f9f1dadc33faa78990c1e2eb7826e4 RDMA/iwcm: Fix a use-after-free related to destroying CM IDs
+         2a1251e3dbb2995100b6f351c2452228895386a5 RDMA/mana_ib: Process QP error events in mana_ib
          
-  - ref: refs/heads/next/clk
-    old: b363a45913d211990b9a42123690518dd3f499c4
-    new: 7666718892f2a8582127f584fdbf5dada59af2d8
-    log: |
-         7666718892f2a8582127f584fdbf5dada59af2d8 clk: samsung: Switch to use kmemdup_array()
-         
-
---===============8380839167970511355==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1718522638 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1718522637-5b25ae54b87615d4bee4df05712806635c0d8afb
-
-d0a024fe8ee24796db2d3d48cef17a6e0753d022 1447920fea80077049c2fbd360809f379fbd6e44 refs/heads/for-next
-b363a45913d211990b9a42123690518dd3f499c4 7666718892f2a8582127f584fdbf5dada59af2d8 refs/heads/next/clk
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmZukw4QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1zbEEACBUAfOpRQGHyYzEndnUIgIPuKhjmwCilN1
-SgigNTT8WJDTs3fDqGZ9Mm1GiRMqCMCSkTHUF4/YINYmzvOlwexWkuRKnggUSMQ5
-6YOn28Wko/lz7jyyf7j0qBotNjfIRT9j9Vx+y5ShKVLg2cMUZBJPA0AMISnOq3Hd
-75LB4iasOD6UTsD1+zJ8zMic9rbX5F3nqrHDJ+MhKxa5bcA9nfveNNmphr6tbcVF
-BGhJgVx+Zzg06KWkdZQvxpyL/4i9APi2heTFwjR2Enav1iDXebZEy4xHToJTVd5t
-1jcAK/bFvNA6G5DmFszfg644WHwfv7URmSFgWrMWkC2RXU+0OFtxcBDlrj6rKjTD
-BDJQvRcwSIfoMmFDw+0xvBoq3dV8b3zUnvwAMmy3Sp+j7f/nYY9M8Yupvi5aeHSw
-eFrvUez+jzPrPfnKremjMavikD5vPEYzelye51CwF3ovLGTSDIHO2psNLisQp4kF
-9T8out/dkUsT/Tu0H5KBjp8TLfZOMIMcbje1FYFl/T2Zn0zPj2y//28uZwIXgVcK
-Wmzm09vZ50dCf1tksAcRuILO7QlzVeK2QLhmNUMQ/3ondtbPDwfsPZg/iP9f/AA3
-WWPSuD3u0+wav5Da36P0l4QuhM3uD//yTjpT7EjGTAT5HTFSKs+CbdyA7pJwSLlJ
-7uZJE5rvMg==
-=aWWI
------END PGP SIGNATURE-----
-
---===============8380839167970511355==--
