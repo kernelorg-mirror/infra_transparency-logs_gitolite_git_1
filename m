@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 17 Jun 2024 11:40:22 -0000
-Message-Id: <171862442271.13015.18404621173605609032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Mon, 17 Jun 2024 11:53:38 -0000
+Message-Id: <171862521800.20984.17406895032194010391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/kdevops
-    old: 3ac14da0f518684430c1659b98d04f72e1fdfa40
-    new: 027047340bdb7bc2f52fd7b31d7abbcc2ac99552
+  - ref: refs/heads/testing
+    old: 96f887a612e4cda89efc3f54bc10c1997e3ab0e9
+    new: 15f5fe9e84839dcc9eaa69b08ced9d24cb464369
     log: |
-         027047340bdb7bc2f52fd7b31d7abbcc2ac99552 nfsd: fix oops when reading pool_stats before server is started
+         54fcc6189dfb822eea984fa2b3e477a02447279d xfrm: Fix input error path memory access
+         15f5fe9e84839dcc9eaa69b08ced9d24cb464369 xfrm: Log input direction mismatch error in one place
          
