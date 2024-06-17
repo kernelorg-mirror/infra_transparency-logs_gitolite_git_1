@@ -1,19 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 17 Jun 2024 19:08:23 -0000
-Message-Id: <171865130348.25457.3270652873579550723@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8549479972209788350=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Mon, 17 Jun 2024 19:37:41 -0000
+Message-Id: <171865306129.15050.17002011275685421980@gitolite.kernel.org>
+
+--===============8549479972209788350==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: sashal
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 0ffd14830a11d5acd79b8bd031636d86bb52adbb
-    new: 478733325f7e022fa47185d8cd277ec0f320f678
+    old: bcb90063ce57afac324fa26b97da0aae9356b3e0
+    new: 131835a44c63511e2def9d7adc680754b7ea502c
     log: |
-         478733325f7e022fa47185d8cd277ec0f320f678 Mon Jun 17 03:07:43 PM EDT 2024
+         131835a44c63511e2def9d7adc680754b7ea502c shazam: force mboxrd mode for git-am
          
+  - ref: refs/heads/stable-0.14.y
+    old: 699887ada4086d7ee511d04afb02305da5d8b550
+    new: 6c626d99dee33eda11bac4842cf296be65309716
+    log: |
+         6c626d99dee33eda11bac4842cf296be65309716 shazam: force mboxrd mode for git-am
+         
+
+--===============8549479972209788350==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1718653060 -0400
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1718653060-0cee7b120d616696f4ae75cfb4a1bfdd6094658a
+
+bcb90063ce57afac324fa26b97da0aae9356b3e0 131835a44c63511e2def9d7adc680754b7ea502c refs/heads/master
+699887ada4086d7ee511d04afb02305da5d8b550 6c626d99dee33eda11bac4842cf296be65309716 refs/heads/stable-0.14.y
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZnCQhAAKCRC2xBzjVmSZ
+bA1MAP9+nTMkQEwZtng69bHxuJcug6iVR64AIcjibjZiQcpgiQEA2Aa7aXeSWmCo
+QfGk4+VSYBgYYGz3MSSpWS71c+/H5gc=
+=1zJJ
+-----END PGP SIGNATURE-----
+
+--===============8549479972209788350==--
