@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6141924819607089936=="
+Content-Type: multipart/mixed; boundary="===============5833029749966594145=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 17 Jun 2024 06:34:53 -0000
-Message-Id: <171860609368.14152.16191435029810909793@gitolite.kernel.org>
+Date: Mon, 17 Jun 2024 06:35:10 -0000
+Message-Id: <171860611023.15905.7064554328649221170@gitolite.kernel.org>
 
---===============6141924819607089936==
+--===============5833029749966594145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: c3f38fa61af77b49866b006939479069cd451173
+  - ref: refs/heads/driver-core-linus
+    old: c0a40097f0bc81deafc15f9195d1fb54595cd6d0
     new: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
-    log: revlist-c3f38fa61af7-6ba59ff42279.txt
+    log: revlist-c0a40097f0bc-6ba59ff42279.txt
 
---===============6141924819607089936==
+--===============5833029749966594145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718606092 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718606109 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1718606092-c71ea2886d8f428b64cc0e80cb54b76537ee26bd
+nonce 1718606104-d94ada9ffd91c41837e2d4f32690df18c9213c50
 
-c3f38fa61af77b49866b006939479069cd451173 6ba59ff4227927d3a8530fc2973b80e94b54d58f refs/heads/main
+c0a40097f0bc81deafc15f9195d1fb54595cd6d0 6ba59ff4227927d3a8530fc2973b80e94b54d58f refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZv2QwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EkIP/2iQ96opXQUMfz1djs7W
-XP9bzTVjWQqRD1ApVeus0Z55s1MJ1/SfZt5LU41s7fbFIdBZ9MOBdR+DsJ4ZLah0
-0opGNspKTeuPjN5ZB4rfmZkksi9533pm4IknxwGBqiZPk5gatr87kMhPvZdH3W5W
-HHMYIL5upDls7tx0eSa1ecNgsCvThH+UbSTO7gcengL7vThz8EwRUM5L2x9ngrC4
-VIr5EK1BwBAvs7lo4eUcfeSrIWEZ0teOhGsUgndMqxqMm0SSMqMKYQ7j608LPsRe
-oWlKDIXh3bYkMVki0WJhlJk7QNYK3sDF0rVsFR+i09c1MScgsDNxO5TKJWURn00S
-ShqpZrRtm8U6vdz+PxeRSJ55iAMAu9IIXUQsy/LM0PCv4fgiK9Vi9jheb3P6qvKE
-wCgvR4mlQTPGpsI4WlkopYImq4vK7MBbShDX492CJ1BvPtAvpfY2yPH/nQ9M9TcV
-u3JmIwpZl9a+2V8vBD7+xVhcPDn3Mhs5536A2i/kLNX2OgwQPeE09UZ8bszUZTkI
-WmlOAQWbfXwYYwlMXFAGq2Za3sUDm3o0wt3URGc7Yo19ZGUHkUCpwILiyOJu8ukM
-NTJqf8cOH4NALSpl8nk5apVZaCpmXf2l4ZymodYYWC9hFSKolFVZXAJLYpW4g+2h
-hsX/KfqfmXLo0YSFlH9YE6M+
-=5L5z
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZv2R0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T5UP/j7L5pt9CtzLea+Ps5bl
+QHqRtpnJyBDrDRX6X4HSa/Kp5tSGwsa8F3xYxorGjoMMpdjcnvmGlqV1Y2nXgMis
+9UXkFCZ0+63WYnrzuz4fQHXco9aV2DNxie6eCssUHaHP8co1VFBetxmmuYzAP6ze
+Qm4A8RhSn5xK9QCc7d/nd0Qcz6S0UMdiAj6GEL2nvzFtOmAgqSDYFj6SrXN7/uUk
+25I6Jh7ns+d/gGL2B7nIJj1bpb9bqtOnTXJR1kLJcHH4CTSTCVMqN75pBPNhzqXn
+hEnoK7dp/g4FXd179BBJcB1sYkHkoqZ1BC/08RrjCblV1YQaEyzmwG8LOPAwWOeq
+WwMhXeS0L5PqZ74L+AopcTsybQcb9naFYJNcnVwE6rQD1LldLH/NtTcgmxNEM86E
+kMCLv9ZoWYTVg35ezCHVFBEBxtndZuhw5ZG7ri19PxLR6Y2+q2aSoHC3Bny/Ks6r
+BEeQ3PQjQFkY0IseJ6SyIqG1bcZXfyQMporxXbdnv3XBCKVsBdN0nxuyeowZuLGq
+132SbzwVQ82BOEPyk+DCoSMw7CmrpozUU5ApV3gQ7lPzsxpYnrUUshfLmyHRxAEp
+/xA9Jdv8DCTfCvkudjkfrfjL6w2BFkw7ikVzagLS41sCBXgc6tUUjZsueT2dTZB8
+7jK6IrLzPssf/D1abesN6Phd
+=Jn+w
 -----END PGP SIGNATURE-----
 
---===============6141924819607089936==
+--===============5833029749966594145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3f38fa61af7-6ba59ff42279.txt
+Content-Disposition: attachment; filename=revlist-c0a40097f0bc-6ba59ff42279.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -327,8 +327,6 @@ f85d39dd7ed89ffdd622bc1de247ffba8d961504 kcov, usb: disable interrupts in kcov_r
 16637fea001ab3c8df528a8995b3211906165a30 usb-storage: alauda: Check whether the media is initialized
 91215f70ea8541e9011c0b48f8b59b9e0ce6953b io_uring/io-wq: avoid garbage value of 'match' in io_wq_enqueue()
 73254a297c2dd094abec7c9efee32455ae875bdf io_uring: fix possible deadlock in io_register_iowq_max_workers()
-971187350602d03c4a27c0783ff412502b95720a driver core: remove devm_device_add_groups()
-44a45be57f85165761fdabf072f9a97aa026ff61 sysfs: Unbreak the build around sysfs_bin_attr_simple_read()
 87bb39ed40bdf1596b8820e800226e24eb642677 KVM: arm64: Reintroduce __sve_save_state
 45f4ea9bcfe909b3461059990b1e232e55dde809 KVM: arm64: Fix prototype for __sve_save_state/__sve_restore_state
 6d8fb3cbf7e06431a607c30c1bc4cd53a62c220a KVM: arm64: Abstract set/clear of CPTR_EL2 bits behind helper
@@ -352,7 +350,6 @@ af076156ec6d70332f1555754e99d4a3771ec297 mei: vsc: Fix wrong invocation of ACPI 
 77427e3d5c353e3dd98c7c0af322f8d9e3131ace misc: microchip: pci1xxxx: Fix a memory leak in the error handling of gp_aux_bus_probe()
 7c55b78818cfb732680c4a72ab270cc2d2ee3d0f jfs: xattr: fix buffer overflow for invalid xattr
 616501eccb58615f8f352a29239ea6c6fc5e6546 clkdev: don't fail clkdev_alloc() if over-sized
-c0a40097f0bc81deafc15f9195d1fb54595cd6d0 drivers: core: synchronize really_probe() and dev_uevent()
 c9d52fb313d3719d69a040f4ca78a3e2e95fba21 PCI: Revert the cfg_access_lock lockdep mechanism
 290be0a40276ca36a5110b191d73a71b8bbe466f Merge branch 'efi/next' into efi/urgent
 32f88d65f01bf6f45476d7edbe675e44fb9e1d58 Merge tag 'linux_kselftest-fixes-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
@@ -698,4 +695,4 @@ b5beaa44747bddbabb338377340244f56465cd7d Merge tag 'usb-6.10-rc4' of git://git.k
 6456c4256d1cf1591634b39e58bced37539d35b1 Merge tag 'parisc-for-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 6ba59ff4227927d3a8530fc2973b80e94b54d58f Linux 6.10-rc4
 
---===============6141924819607089936==--
+--===============5833029749966594145==--
