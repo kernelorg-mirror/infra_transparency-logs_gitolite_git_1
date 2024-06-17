@@ -1,58 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============3069360982145002794=="
+Content-Type: multipart/mixed; boundary="===============0630068931018046945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Mon, 17 Jun 2024 20:22:39 -0000
-Message-Id: <171865575993.16405.3285699763123288639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 17 Jun 2024 20:32:46 -0000
+Message-Id: <171865636629.23310.10396104970709892726@gitolite.kernel.org>
 
---===============3069360982145002794==
+--===============0630068931018046945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinchartl/linux
-user: pinchartl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/next/media/uvc
-    old: 3d93396243319946c75c1e1542363e53deeced45
-    new: 8c40efeda94108d65c52038ea82ee83b2fb933e2
-    log: |
-         c397e8c45d911443b4ab60084fb723edf2a5b604 media: uvcvideo: Force UVC version to 1.0a for 0408:4035
-         9e3d55fbd160b3ca376599a68b4cddfdc67d4153 media: uvcvideo: Fix the bandwdith quirk on USB 3.x
-         8f4362a8d42b918e4832037ab3cc6f25de61a080 media: uvcvideo: Allow custom control mapping
-         a8505ad3be3e931c02d7dea505ab7783530fcdaa media: uvcvideo: Refactor Power Line Frequency limit selection
-         b2b5fcb1c5b645d5177ef3e3f41c7a706fc2688d media: uvcvideo: Probe the PLF characteristics
-         6c7f1f756e75b44e096898d9907dcd0c81000d0b media: uvcvideo: Cleanup version-specific mapping
-         e5cbddd09d4a9d66ed93e7c80ebf66ecf50ec3f3 media: uvcvideo: Remove PLF device quirking
-         8c40efeda94108d65c52038ea82ee83b2fb933e2 media: uvcvideo: Remove mappings form uvc_device_info
-         
-  - ref: refs/tags/media-next-uvc-20240617-2
-    old: 0000000000000000000000000000000000000000
-    new: c1d42949694fad60d1700bdb36ae6fe6f5432226
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 631fdc93356f4bc4950b519bb420dae7048d416e
+    new: 8b6c2455f016b9f5a70a51e624b21734550950db
+    log: revlist-631fdc93356f-8b6c2455f016.txt
 
---===============3069360982145002794==
+--===============0630068931018046945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-631fdc93356f-8b6c2455f016.txt
 
-certificate version 0.1
-pusher Laurent Pinchart <laurent.pinchart@ideasonboard.com> 1718655726 +0300
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
-nonce 1718655743-a43c893ffbd6556cf40226143b73223168a5cfdf
+6828d6929b763499b7a8768c623891f5d4fca258 perf evsel: Refactor tool events
+6c1785cd75ef55a308701813330a162002ffe192 perf record: Ensure space for lost samples
+183373586743a73da51b505ae3f4e5eb6300f208 tools/perf: Fix perf bench futex to enable the run when some CPU's are offline
+3638e44542a56e8adc2018df4894eaf31d387c54 tools/perf: Fix perf bench epoll to enable the run when some CPU's are offline
+245b0edf4838874801cd35b0507ed9ec38742e8e tools/perf: Fix timing issue with parallel threads in perf bench wake-up-parallel
+65b37df8c61ceea863ac0ac188fe3464c2ee3ac0 perf test pmu: Warn don't fail for legacy mixed case event names
+231295a186b60e779152ee88a2647a392307431a perf: sched map skips redundant lines with cpu filters
+cc2621cecd0f9e248eb12e2b512804e1a1d38cbf perf hist: Factor out __hpp__fmt_print()
+8f6071a3dce40e6991877873699b84c4fb570ab3 perf hist: Simplify __hpp_fmt() using hpp_fmt_data
+411ee13598ef322c1a7f4a4022a84d995873f235 perf hist: Add symbol_conf.skip_empty
+eae7044b67a606f10d245ff2866ee04f235e1722 perf hist: Honor symbol_conf.skip_empty
+c61370fb8a33792bf1835c1e8f5ef871424912b3 perf trace: Fix iteration of syscall ids in syscalltbl->entries
+93c0bb3a8e0ca6cdd876c5ba059e0f36414d020b perf trace: BTF-based enum pretty printing for syscall args
+e110957b75061a9071f0677b87b78fd49e01f5c8 perf trace: Augment non-syscall tracepoints with enum arguments with BTF
+8b6c2455f016b9f5a70a51e624b21734550950db perf trace: Filter enum arguments with enum names
 
-3d93396243319946c75c1e1542363e53deeced45 8c40efeda94108d65c52038ea82ee83b2fb933e2 refs/heads/next/media/uvc
-0000000000000000000000000000000000000000 c1d42949694fad60d1700bdb36ae6fe6f5432226 refs/tags/media-next-uvc-20240617-2
------BEGIN PGP SIGNATURE-----
-
-iJgEABYKAEAWIQTAnvhxs4J7QT+XHKnMPy2AAyfeZAUCZnCa7iIcbGF1cmVudC5w
-aW5jaGFydEBpZGVhc29uYm9hcmQuY29tAAoJEMw/LYADJ95kgJwA/1QZl1BFx4We
-2QChxVR69Ocjgji6d+JYp/ark2YqKMbgAP4zw3JVHpS+buSh45zqlCXLOCDKoInt
-JsLDN3TJz5X0Dg==
-=5Q5r
------END PGP SIGNATURE-----
-
---===============3069360982145002794==--
+--===============0630068931018046945==--
