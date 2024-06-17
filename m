@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 17 Jun 2024 18:55:15 -0000
-Message-Id: <171865051531.15333.6067329565874168287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Mon, 17 Jun 2024 18:56:23 -0000
+Message-Id: <171865058350.15863.18068542501796893792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: 401ad9b792e12ca584ae7648c56926ed5e002299
-    new: e3203b17771757fdcd259d6378673f1590e36694
+  - ref: refs/heads/for-next/pstore
+    old: 9dd12ed95c2d06a29a5d289c6e65589c577ef8ca
+    new: 9b3c13c9ea4ecb2b95948f666560b8df8f358b40
     log: |
-         e3203b17771757fdcd259d6378673f1590e36694 bluetooth/l2cap: sync sock recv cb and release
+         9b3c13c9ea4ecb2b95948f666560b8df8f358b40 pstore: platform: add missing MODULE_DESCRIPTION() macro
          
