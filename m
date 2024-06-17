@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 17 Jun 2024 19:58:19 -0000
-Message-Id: <171865429921.30369.16977095513956359979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Mon, 17 Jun 2024 20:10:03 -0000
+Message-Id: <171865500350.8037.6413910575405350660@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 8fe050e94daeb0280338d04ff8c6207dea44ddfc
-    new: 74cb21576ea5247efbbb7d92f71cafee12159cd9
+  - ref: refs/heads/nfs-localio-for-6.11
+    old: 126d7bf415dd90aadff2b037c280eafcd5b38f50
+    new: 3d9572c74febf16355068174498658d66c5dfd2d
     log: |
-         74cb21576ea5247efbbb7d92f71cafee12159cd9 iio: trigger: Fix condition for own trigger
+         3d9572c74febf16355068174498658d66c5dfd2d nfs/localio: use dedicated workqueues for filesystem read and write
          
