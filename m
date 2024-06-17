@@ -1,57 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7805245857027136974=="
+Content-Type: multipart/mixed; boundary="===============7211188919719511874=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 17 Jun 2024 19:45:22 -0000
-Message-Id: <171865352256.22147.5044389670227269627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Mon, 17 Jun 2024 19:46:32 -0000
+Message-Id: <171865359223.22640.7572176431359920742@gitolite.kernel.org>
 
---===============7805245857027136974==
+--===============7211188919719511874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 97ce7ddb96af155f8496a1f6a8d401657f77acf3
-    new: bd0426900d53ad62ee27a1778de0ffb9d405ada3
-    log: |
-         42309c90bf5587c859dc7ff88ab0bfd95d1646df move 5.10 queue out of the way
-         bd0426900d53ad62ee27a1778de0ffb9d405ada3 empty 5.10 series file
-         
+  - ref: refs/heads/nfs-localio-for-6.11
+    old: 16f99e5fd6658145a3901d29d40a9d6ebe19220d
+    new: 126d7bf415dd90aadff2b037c280eafcd5b38f50
+    log: revlist-16f99e5fd665-126d7bf415dd.txt
 
---===============7805245857027136974==
+--===============7211188919719511874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-16f99e5fd665-126d7bf415dd.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718653521 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1718653520-581266ecb6db1963081038e5af800bf384447a10
+acd829b62a518059470868ce693f81736aa5823a NFS: Enable localio for non-pNFS I/O
+415aa2fe45440005fd85346f166aaa23c741279f pnfs/flexfiles: Enable localio for flexfiles I/O
+96433313b120858b68da059a7d7a17bdc8ef3189 nfs: implement v3 and v4 client support for NFS_LOCALIO_PROGRAM
+a803b939cd3977e186f4e50c0da4f9db394abc90 nfsd: implement v3 and v4 server support for NFS_LOCALIO_PROGRAM
+ae2b439708cc157b49c34f54bedb16dbb5deaddb nfs/nfsd: consolidate {encode,decode}_opaque_fixed in nfs_xdr.h
+566fb355274dfee022d02ed69c36b8ba68771124 nfs/localio: move managing nfsd_open_local_fh symbol to nfs_common
+452dfb14273eb2b136aa44df09576d9e33fb2908 nfs/nfsd: ensure localio server always uses its network namespace
+544dc85a8183c52b0f689b250d0c9fe0c38b5c98 nfsd/localio: manage netns reference in nfsd_open_local_fh
+abfe42be47cc25c6819dfe722bc77f43e8a411ee nfsd: prepare to use SRCU to dereference nn->nfsd_serv
+3482745f783d0b1ab3b8d3cd8e5df1cc785c79de nfsd: use SRCU to dereference nn->nfsd_serv
+8c35da7272974ee9f4edfb5027f5b13ad1363394 nfsd/localio: use nfsd_serv_get/put in nfsd_open_local_fh
+126d7bf415dd90aadff2b037c280eafcd5b38f50 nfs/localio: use dedicated workqueues for filesystem read and write
 
-97ce7ddb96af155f8496a1f6a8d401657f77acf3 bd0426900d53ad62ee27a1778de0ffb9d405ada3 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZwklEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TywP/1o7DAck9AEo3oM9fz82
-9PNMkcrHNf6Wr8nGQ/A+5z+oPv3JlIBYS7E9Oatv3iMlsxB6454yFXXXVF0JQXtZ
-lsFsfGuOnNNopYzk1GJoCW/ewhey8E+RfpCB3CNN+WDojD6pmWJpYJCHNMgsRpV0
-VDE/tU8PHJ+8OwOety/jvC3fDeyAwrbXuXawtFZH15Ii+X3X4Ksbb4sswbLOSzNo
-rKI+gXvfnLvb0AwMS68eQM3IOzgVS1T+MN5IxINh4QBRq7ZM9mDxUOi0v4Xd3iLs
-6825zLnjokcmgd/moK3JLG2/RJRUVVIZE6mvBUkqC7z3NZM1UU1+K6MZkINSFv8E
-ZAXEPmr4zBjZUgKJvJFnADWGsR7TpzyfFDzhXXWETtTshqaDfiWMVy+O7BhBRRmm
-QGCeZktfZyf/7o9IJANdDf73n3ytQsEE2LyIqeinnu2Zf4EdseiksEXRbXlBSiHA
-fELje1+PInwAPTqNbXs4QHnRgi4i2MpO2h8Xi/rkq5spwVJLrtQ7z2oicxaPTQLg
-o0Zo4k7GEkgL9cmlL9ExK7OOf1iGNuUYDBEjcjeShn7Y6TRboMv5dgV4Cbywd5xm
-EHyq5aIgXBSAxk+41+DVwyA47j0afFWCOG6Vl6MQAii+LYQnMfXuaRBdp7ItAGa1
-VvK7/41OcgvfKbIifT1h5NF2
-=IS9T
------END PGP SIGNATURE-----
-
---===============7805245857027136974==--
+--===============7211188919719511874==--
