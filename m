@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6521374622004578823=="
+Content-Type: multipart/mixed; boundary="===============3331118373710260107=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 17 Jun 2024 06:19:33 -0000
-Message-Id: <171860517369.3183.12835921674975939931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 17 Jun 2024 06:19:40 -0000
+Message-Id: <171860518001.3308.7317449813131301544@gitolite.kernel.org>
 
---===============6521374622004578823==
+--===============3331118373710260107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
     log: revlist-83a7eefedc9b-6ba59ff42279.txt
 
---===============6521374622004578823==
+--===============3331118373710260107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -283,4 +283,4 @@ b5beaa44747bddbabb338377340244f56465cd7d Merge tag 'usb-6.10-rc4' of git://git.k
 6456c4256d1cf1591634b39e58bced37539d35b1 Merge tag 'parisc-for-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 6ba59ff4227927d3a8530fc2973b80e94b54d58f Linux 6.10-rc4
 
---===============6521374622004578823==--
+--===============3331118373710260107==--
