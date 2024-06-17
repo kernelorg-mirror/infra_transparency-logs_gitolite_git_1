@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 17 Jun 2024 11:53:38 -0000
-Message-Id: <171862521800.20984.17406895032194010391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 17 Jun 2024 12:02:25 -0000
+Message-Id: <171862574593.27455.12800666321928111073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/testing
-    old: 96f887a612e4cda89efc3f54bc10c1997e3ab0e9
-    new: 15f5fe9e84839dcc9eaa69b08ced9d24cb464369
+  - ref: refs/heads/master
+    old: 090f98348a3b55e45d731dcc4c86cd87c6188684
+    new: 8aa69f24bf17e3749b0f54783c646b31bc64bf05
     log: |
-         54fcc6189dfb822eea984fa2b3e477a02447279d xfrm: Fix input error path memory access
-         15f5fe9e84839dcc9eaa69b08ced9d24cb464369 xfrm: Log input direction mismatch error in one place
+         efc71944cf19b4b6accc4bb7d0228e0a8c551afa Changes: Ready for 6.9.1
+         92ee698407e77d6cac5785c6fdd6a876771ce641 lsm: Released 6.9.1
+         8aa69f24bf17e3749b0f54783c646b31bc64bf05 Start of man-pages-NEXT: Move Changes to Changes.old
          
