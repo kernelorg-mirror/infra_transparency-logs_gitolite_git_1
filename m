@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1917527995884861476=="
+Content-Type: multipart/mixed; boundary="===============3252949018645309510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 17 Jun 2024 13:43:33 -0000
-Message-Id: <171863181384.7379.9188272906655853714@gitolite.kernel.org>
+Date: Mon, 17 Jun 2024 13:43:45 -0000
+Message-Id: <171863182593.7544.8031629774812978831@gitolite.kernel.org>
 
---===============1917527995884861476==
+--===============3252949018645309510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 1eb862e5a3026b81b3c1fd26af3b9fc0e44887bb
-    new: 1a2a64296e177ae6ebde9ef3ff7263073c194093
-    log: revlist-1eb862e5a302-1a2a64296e17.txt
+  - ref: refs/heads/m68k-queue
+    old: 321575fbfed0663497eda4fc209aaa45666d6af4
+    new: 25bc9399a4fc7e9d44d59c67ba2da672acbaed6a
+    log: revlist-321575fbfed0-25bc9399a4fc.txt
 
---===============1917527995884861476==
+--===============3252949018645309510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1eb862e5a302-1a2a64296e17.txt
+Content-Disposition: attachment; filename=revlist-321575fbfed0-25bc9399a4fc.txt
 
 aad11473f8f4be3df86461081ce35ec5b145ba68 NFSv4: Fix memory leak in nfs4_set_security_label
 6cbe14f42be3b596e9590d48e12436982ba26e4b MAINTAINERS: Change email address for Trond Myklebust
@@ -282,6 +282,9 @@ b5beaa44747bddbabb338377340244f56465cd7d Merge tag 'usb-6.10-rc4' of git://git.k
 4301487e6b25276e0270a7547150e0304da2ba78 Merge tag 'i2c-for-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 6456c4256d1cf1591634b39e58bced37539d35b1 Merge tag 'parisc-for-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 6ba59ff4227927d3a8530fc2973b80e94b54d58f Linux 6.10-rc4
-1a2a64296e177ae6ebde9ef3ff7263073c194093 Merge tag 'v6.10-rc4'
+3d0c1a6f0f68491dbc6814bf75b7db7b5f37d72d m68k: amiga: Turn off Warp1260 interrupts during boot
+368908644aca114251bb5743c5627b1266ad7e68 m68k: atari: usb: Add ISP1160 USB host controller support
+203e33fbba67f6e2f92d28fc8bd926f851ea5cd9 m68k: atari: Update Kconfig.bus help text
+25bc9399a4fc7e9d44d59c67ba2da672acbaed6a m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1917527995884861476==--
+--===============3252949018645309510==--
