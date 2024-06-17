@@ -1,32 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 17 Jun 2024 21:14:35 -0000
-Message-Id: <171865887500.22802.2303610132655170126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Mon, 17 Jun 2024 21:23:02 -0000
+Message-Id: <171865938245.29136.5682406496607385406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/for-next
-    old: 2e6a2acc579f8dd03dd6afee8723e8d82b548501
-    new: 439d39d18e7fbe304969a8bcad9fa4c30756b673
+  - ref: refs/heads/master
+    old: 9cfd70cb868097fb40b27f74832b4dfd29c8d2df
+    new: 758e31418dc59c8de4102fb6dad30f32ea7a148e
     log: |
-         a500c0b4b589ae6fb79140c9d96bd5cd31393d41 arm64: dts: rockchip: Fix the value of `dlg,jack-det-rate` mismatch on rk3399-gru
-         cca46f811d0000c1522a5e18ea48c27a15e45c05 ARM: dts: rockchip: rk3066a: add #sound-dai-cells to hdmi node
-         b56aed4a613e2d2cb3bfe05fd222dbf480f6b5d8 Revert "arm64: dts: rockchip: remove redundant cd-gpios from rk3588 sdmmc nodes"
-         d05f7aff7ac23884ed9103a876325047ff9049aa arm64: dts: rockchip: make poweroff(8) work on Radxa ROCK 5A
-         439d39d18e7fbe304969a8bcad9fa4c30756b673 Merge branch 'v6.10-armsoc/dtsfixes' into for-next
+         9e9beb63cd9956caf3b08f439538eb06c61c7a51 _damon: Add migrate_hot and migrate_cold actions
+         bc87f1b70ec8a020732f3ee62198fab7085b133b release_note: Update for the next release
+         2b622c50462dd6a76f506bd0ef0d89d4904a5175 release_note: Add a comment about target_nid support
+         758e31418dc59c8de4102fb6dad30f32ea7a148e Update the version
          
-  - ref: refs/heads/v6.10-armsoc/dtsfixes
-    old: a21d2cc2f9039023105bf9f9bf1acf324d5ebf9d
-    new: d05f7aff7ac23884ed9103a876325047ff9049aa
+  - ref: refs/heads/next
+    old: bc87f1b70ec8a020732f3ee62198fab7085b133b
+    new: 758e31418dc59c8de4102fb6dad30f32ea7a148e
     log: |
-         a500c0b4b589ae6fb79140c9d96bd5cd31393d41 arm64: dts: rockchip: Fix the value of `dlg,jack-det-rate` mismatch on rk3399-gru
-         cca46f811d0000c1522a5e18ea48c27a15e45c05 ARM: dts: rockchip: rk3066a: add #sound-dai-cells to hdmi node
-         b56aed4a613e2d2cb3bfe05fd222dbf480f6b5d8 Revert "arm64: dts: rockchip: remove redundant cd-gpios from rk3588 sdmmc nodes"
-         d05f7aff7ac23884ed9103a876325047ff9049aa arm64: dts: rockchip: make poweroff(8) work on Radxa ROCK 5A
+         2b622c50462dd6a76f506bd0ef0d89d4904a5175 release_note: Add a comment about target_nid support
+         758e31418dc59c8de4102fb6dad30f32ea7a148e Update the version
          
+  - ref: refs/tags/v2.3.9
+    old: 0000000000000000000000000000000000000000
+    new: 6564e9e3eac86a7df2ecf71b9b07f22fed533a77
