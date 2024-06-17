@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0337595596488943357=="
+Content-Type: multipart/mixed; boundary="===============5014470735776706388=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 17 Jun 2024 06:35:17 -0000
-Message-Id: <171860611724.16011.5192298928002416726@gitolite.kernel.org>
+Date: Mon, 17 Jun 2024 06:35:22 -0000
+Message-Id: <171860612227.16132.18101999065872628597@gitolite.kernel.org>
 
---===============0337595596488943357==
+--===============5014470735776706388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: c6c631d2b72b9390587cd1ee5b7905f8ea5bb1ea
     new: b5dd424181f33c2978562c64b286fc22cf5ef4bf
     log: revlist-c6c631d2b72b-b5dd424181f3.txt
 
---===============0337595596488943357==
+--===============5014470735776706388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718606115 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718606121 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1718606114-0744dd0c2f247282b98a9b010066f7d49ac44ffb
+nonce 1718606120-a3f962fe6b3374799808004ddb83d635783674e0
 
-c6c631d2b72b9390587cd1ee5b7905f8ea5bb1ea b5dd424181f33c2978562c64b286fc22cf5ef4bf refs/heads/driver-core-next
+c6c631d2b72b9390587cd1ee5b7905f8ea5bb1ea b5dd424181f33c2978562c64b286fc22cf5ef4bf refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZv2SMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QL8P/jRTujmZT1U2riL5nACO
-8557w4RUbUuagD0AhlXmZo1L3ed7QWIvrdaWOBQrZRmdlgvPe8XV4wFklW87LXzw
-i0CMZz5qWQfSfpXYcYj6Bmd2H/ZxNuRi5131ziIo7uWJ10GLZbvgMJexIQ3auC5V
-iJ5AgTGpTdN7qKasWVRH5iA51M+mNUBanBtqdcx36cMUm9TLiVRgSuybx+u0ExXs
-5pu4ZUHo0psQb3tpDZqKTJIzUW7ZuoIvNwFjLhgIAop1JiXwn4KNUpJ3qiyrs27+
-fSY2eqdpyt28PPv4oahrBQW5TbFJQwZN5gUbsF+9bvZRyxCqLdnXe4QrkjUHlIVS
-7uc26pfWrwXeljsCPXXSNPe01XVlvtbz/tMeUpTDC/EGH0XPwCiauRtoTcD3adGJ
-Ls02ekPOGuVIR19Ymut6G33aE9b7pJdZWexJdfegh3euOOJj5KPgURFm/C/HJMZ4
-B0sWrrbJ0+/ECNE0J5bmS54aoZ3BdnmRX/BEO2zVu7QITDp5W2dnB9S//LAqaoiO
-hBQG+PSHWP2VAez+zShs/g6dSNmMcr+mef1ZuSS9eddvhg9F2jpAzzIr1LRLE4X3
-coYPsSX59wyLEueJswM+uC4eFCR85SPFVKJZN0fztcKsmCgtZGdFOktOuPnDtw5K
-9d04BtrTwtZrZdeEDKi/BCn6
-=bsrs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZv2SkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wY0QAL7B2rQG4EQ6jENj1yiw
+xnXDeML6moIPZN6jUQJRnftl/Ner8Ub8Az1/DaXZVxOCC4r/SKSRUWjNwVzMO9ka
+zGVfJWt8nK6LpW3rCBlxrvrqEIkNAwHyRiE9rfqkxLcnvWUkqiBMH6fGCVUKxIk7
+csSWeShZpbJhnxMujlEizo+6NU2CZ6uDxuMKJnKJlvSIKvkUWqePClfXdAl51sfl
+WeToaQb18BZN8mW5HBkLeyOWy1Lfr/JFVXPAjmf2w4bZwsNupOn5nMQD52Kn4qG6
+y/sI3Eif8chhR7zy/pv5XAEdVVXDDM/smlN1zbIkXB1bu1JV8M2Lg5QL3OWl1xSN
+XuUla6SuS5PpCRUe1cKp86PxbC691C+KLUmVo6MIky2Il7izVqHAlJ0kz1ypoyCN
+mwNtZB7w8jHMpgYOb/IwdfIOYxbdPsEmKilJn54kcHU1v/T03HN2cqtE3+ZpSp90
+XuJAZHY7nIKGMjSbyBmq9ipr5tNDHjjUaDWIMh48l7RVtkHjNwnNrHJrYqJfIs0T
+G3eHOqDqIoW2TU0FF+vwBlKjU3EUcxPYN3BOL+PXE7T2+UI9C6kEpq1d87Sp+GAx
+fdtiDULlue6lriAExizZvu2Oa3mV3wxnrxLJ56lidPRZ817Pw6j0xHKe0Pz3731k
+HKF1wcX7cgNbHLUhKu2Xc5uN
+=W8CG
 -----END PGP SIGNATURE-----
 
---===============0337595596488943357==
+--===============5014470735776706388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -699,4 +699,4 @@ b5beaa44747bddbabb338377340244f56465cd7d Merge tag 'usb-6.10-rc4' of git://git.k
 6ba59ff4227927d3a8530fc2973b80e94b54d58f Linux 6.10-rc4
 b5dd424181f33c2978562c64b286fc22cf5ef4bf Merge tag 'v6.10-rc4' into driver-core-next
 
---===============0337595596488943357==--
+--===============5014470735776706388==--
