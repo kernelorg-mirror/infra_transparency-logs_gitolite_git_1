@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3370303712429639817=="
+Content-Type: multipart/mixed; boundary="===============3609302569768991024=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 17 Jun 2024 06:32:35 -0000
-Message-Id: <171860595570.12971.2737709966954673567@gitolite.kernel.org>
+Date: Mon, 17 Jun 2024 06:32:40 -0000
+Message-Id: <171860596090.13045.16009097417540535536@gitolite.kernel.org>
 
---===============3370303712429639817==
+--===============3609302569768991024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 7da9dfdd5a3dbfd3d2450d9c6a3d1d699d625c43
-    new: 6ba59ff4227927d3a8530fc2973b80e94b54d58f
-    log: revlist-7da9dfdd5a3d-6ba59ff42279.txt
+  - ref: refs/heads/char-misc-next
+    old: 2db573c5dc1f896d8c6c73d4bdb6429f8b1dcf34
+    new: 20460472952043a4735e9abc1fd9de8e024d1c9e
+    log: revlist-2db573c5dc1f-204604729520.txt
 
---===============3370303712429639817==
+--===============3609302569768991024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718605955 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1718605959 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1718605953-e1ae7124af4cb5d5b7bf71d13f6a722aac55755b
+nonce 1718605958-d11ca719d6baacfc243dfb8a68c78b187918c201
 
-7da9dfdd5a3dbfd3d2450d9c6a3d1d699d625c43 6ba59ff4227927d3a8530fc2973b80e94b54d58f refs/heads/char-misc-linus
+2db573c5dc1f896d8c6c73d4bdb6429f8b1dcf34 20460472952043a4735e9abc1fd9de8e024d1c9e refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZv2IMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U8sP/3DEamvqD1uKyByuDWJ8
-WwZwtJEbO9IxrnzzYIQtzB1Mbq/r7srF3pUCbPJ9Nr6JvI5+H+tG2N+Kn5Hnkw95
-4luZx1Ui/ADdzsBG1GUdxLZpxMrtgz3ZxX0EjKhhjjzdOUhozSMheEzMVdVtbOuU
-qwWatXOeJ9a4vMQ0WgkfSlGVcMPde4AfszNeQZkhGcVfcsbA7El9MkcXdr13yViU
-pmcROPr14XBjfxxsw2M1CZ1jX8ZJq61GYOHUmJ7zLRxKyG2WbzgFZPQtSIxvJq0h
-Gpi1oREgi3jt/bJlwbLWBjYHOqQTstV57FnkdRsba5zA9Xfw9WOQ/eABjMEm091S
-cwH69VQ2mVHgUPnYIKRVaydV4kz7jVhRvuiZTetB2SrfudemxzglpJPb+B8TiWQb
-4zc9SORpiO8SQe2VRDXuflk7Un2r+7bSxYCoin8/lPpUuITNQCEN2snHKMfAS7Nu
-lyXsYKZMfVj5PWgFj6BWuglSJs1jfZ9DglG4dOuAr7ZCyV5EZhCWGj8Rose/k5PY
-63x6BG8/kzym6zU7zl13+HI8zL6qyYuCzSayIajU4kIpeqFaAWZpNRZSXFoRsTCN
-W7OyLtJN423szfvH3azvKZP+xnm1WW48N9LSCb7ZWv9K8X0NH+CSOXMFKYfPULA/
-tCQC/1ZuuwPYVuZ/cnkaz5/U
-=vJcC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmZv2IcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kgMQAJjstozXufBrz/jEmLpk
+Uhq3a/TjQxMylwXPckeVqvidSQ9QjXN95TcgTiy9aKva2uwpBvO+5UJgFI52cb3b
+P6VHf5g83X9grnlQ3pzAHj9SwuHvG7sZZrJ8FpQgOE1PCByLeuFZE/AEFpp2jDIz
+N4ch1AtYozlOVlwCFjKPJVr5niFpAogl9cYvPe+a2bmccEXaf+qZNM5YI6YKvcio
+vQ8RFTPHqybWhlYf1fXb0LYBrBqqXE2dcon5UtAUUo86ARBYwW4Py7dHWrc375E2
+XKRV8exe/uf/zoRRDRCUZClXAFbj+6BkJE35TQ1fx9DxjAd1Qr1lRbZKK0SjK6+A
+5zdc0HN67KNRne2CFPi/UK07iX/vV2tXxU47dm0riNYxzxChu5+D9rsVHST3XSgi
+3nG6FX1eWv5VDDBX1thOLpPsmKeuDz9NbIDiQIiLHwaZhw6Gk0LjKaDiV59o/znB
+cJ1fZwb0Wpw8+GIFBt1CMfIxlznx5u879Dkj3rztINS9FJsLrwnG0AR2OmJdPjGn
+rwd1zwL3QKJ44kkCmdC2cHAqWLogzFjsSaVY64vXowSnTIWAAkTDP4ycXng/peEk
+dQSFL2+wdE4JEj9mACgvHLMouJPiMA+lh+7cRG8yNNU13Gmpm9T0efAQBtxiaO6M
+gZKPuEc1yg3Ep7xzQnB65p8I
+=0o6s
 -----END PGP SIGNATURE-----
 
---===============3370303712429639817==
+--===============3609302569768991024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7da9dfdd5a3d-6ba59ff42279.txt
+Content-Disposition: attachment; filename=revlist-2db573c5dc1f-204604729520.txt
 
 9f365cb8bbd0162963d6852651d7c9e30adcb7b5 scsi: mpi3mr: Use proper format specifier in mpi3mr_sas_port_add()
 10157b1fc1a762293381e9145041253420dfc6ad scsi: core: alua: I/O errors for ALUA state transitions
@@ -91,6 +91,16 @@ b4bd556467477420ee3a91fbcba73c579669edc6 KVM: SVM: WARN on vNMI + NMI window iff
 d09c05aa35909adb7d29f92f0cd79fdcd1338ef0 scsi: core: Handle devices which return an unusually large VPD page count
 a527c3ba41c4c61e2069bfce4091e5515f06a8dd nfs: Avoid flushing many pages with NFS_FILE_SYNC
 0c8c7c559740d2d8b66048162af6c4dba8f0c88c nfs: don't invalidate dentries on transient errors
+8a01ef749b0a632f0e1f4ead0f08b3310d99fcb1 iio: adc: ad9467: fix scan type sign
+72d0a20fabcf231c9b4b17b0cabdcde0949d05eb dt-bindings: iio: dac: fix ad354xr output range
+0f0f6306617cb4b6231fc9d4ec68ab9a56dba7c0 iio: pressure: bmp280: Fix BMP580 temperature reading
+279428df888319bf68f2686934897301a250bb84 iio: dac: ad5592r: fix temperature channel scaling value
+bedb2ccb566de5ca0c336ca3fd3588cea6d50414 iio: imu: bmi323: Fix trigger notification in case of error
+a23c14b062d8800a2192077d83273bbfe6c7552d iio: temperature: mlx90635: Fix ERR_PTR dereference in mlx90635_probe()
+ab6f0ab178137170a6b40f8f3d7a3806708a202c iio: adc: ad7173: fix buffers enablement for ad7176-2
+3450ee7e800a8dc83290780c1b6ef66898e709d3 iio: adc: ad7173: Add ad7173_device_info names
+f00dd8953094091a8e9c8cc00661d01c33b93615 iio: adc: ad7173: Remove index from temp channel
+95444b9eeb8c5c0330563931d70c61ca3b101548 iio: invensense: fix odr switching to same value
 825fc49497957310e421454fe3fb8b8d8d8e2dd2 media: mgb4: Fix double debugfs remove
 7ff6c798eca05e4a9dcb80163cb454d7787a4bc3 ACPI: APEI: EINJ: Fix einj_dev release leak
 f6f172dc6a6d7775b2df6adfd1350700e9a847ec ACPI: EC: Abort address space access upon error
@@ -230,6 +240,8 @@ d1f0bd01bc58f35b5353ad9dbe5f7249a8f3368e virtio_net: fix a spurious deadlock iss
 8105378c0c02309221b63d15cfe8fe92e7fe1434 net: rps: fix error when CONFIG_RFS_ACCEL is off
 e85e271dec0270982afed84f70dc37703fcc1d52 net/ncsi: Fix the multi thread manner of NCSI driver
 33700a0c9b562700c28d31360a5f04508f459a45 net/tcp: Don't consider TCP_CLOSE in TCP_AO_ESTABLISHED
+d7bd473632d07f8a54655c270c0940cc3671c548 iio: imu: inv_icm42600: stabilized timestamp in interrupt
+245f3b149e6cc3ac6ee612cdb7042263bfc9e73c iio: imu: inv_icm42600: delete unneeded update watermark call
 c4aff1d1ec90d9596c71b6f06b0bfab40a36a34a Merge tag 'i2c-host-6.10-pt2' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
 6c3ca6654a74dd396bc477839ba8d9792eced441 LoongArch: Remove CONFIG_ACPI_TABLE_UPGRADE in platform_init()
 b56f67a6c748bb009f313f91651c8020d2338d63 LoongArch: Fix built-in DTB detection
@@ -270,6 +282,10 @@ b7e4be0a224fe5c6be30c1c8bdda8d2317ad6ba4 KVM: SEV-ES: Delegate LBR virtualizatio
 b3233c737ec5bf8b35130cdb6b3fe49b26a2be99 Merge branch 'kvm-fixes-6.10-1' into HEAD
 b50788f7cd31a07e0c69c02d2f34b65121ff8775 Merge tag 'kvm-riscv-fixes-6.10-1' of https://github.com/kvm-riscv/linux into HEAD
 d6283b160a12010b2113cc64726a3c9eda13dc5f tools headers uapi: Sync linux/stat.h with the kernel sources to pick STATX_SUBVOL
+18befe4a28403f599115c5ae753cc7f5157af8b7 iio: adc: ad7173: Clear append status bit
+182bc496dc63ca03986e3c393166477f4a4c2742 iio: adc: ad7173: Fix sampling frequency setting
+8844ed0a6e063acf7173b231021b2d301e31ded9 iio: imu: inv_mpu6050: stabilized timestamping in interrupt
+78f0dfa64cbd05f381849377a32e0a2f1afe9215 iio: inkern: fix channel read regression
 2ab79514109578fc4b6df90633d500cf281eb689 Merge tag 'cxl-fixes-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 ffbe335b8d471f79b259e950cb20999700670456 vmxnet3: disable rx data ring on dma allocation failure
 2fe40483ec257de2a0d819ef88e3e76c7e261319 ipv6: ioam: block BH from ioam6_output()
@@ -327,6 +343,14 @@ ce3af2ee95170b7d9e15fff6e500d67deab1e7b3 HID: logitech-dj: Fix memory leak in lo
 9e438fe31e96b75c2ec599f6a9239950e6712358 HID: intel-ish-hid: fix endian-conversion
 9c8f05cf1d7abd1bfb53cebe691bf3acb7baee99 HID: logitech-hidpp: add missing MODULE_DESCRIPTION() macro
 0698ff57bf327d9a5735a898f78161b8dada160b drm/xe/pf: Update the LMTT when freeing VF GT config
+1db5322b7e6b58e1b304ce69a50e9dca798ca95b mei: demote client disconnect warning on suspend to debug
+283cb234ef95d94c61f59e1cd070cd9499b51292 mei: me: release irq in mei_me_pci_resume error path
+9b5e045029d8bded4c6979874ed3abc347c1415c mei: vsc: Don't stop/restart mei device during system suspend/resume
+af076156ec6d70332f1555754e99d4a3771ec297 mei: vsc: Fix wrong invocation of ACPI SID method
+73fedc31fed38cb6039fd8a7efea1774143b68b0 parport: amiga: Mark driver struct with __refdata to prevent section mismatch
+086c6cbcc563c81d55257f9b27e14faf1d0963d3 misc: microchip: pci1xxxx: fix double free in the error handling of gp_aux_bus_probe()
+77427e3d5c353e3dd98c7c0af322f8d9e3131ace misc: microchip: pci1xxxx: Fix a memory leak in the error handling of gp_aux_bus_probe()
+7c55b78818cfb732680c4a72ab270cc2d2ee3d0f jfs: xattr: fix buffer overflow for invalid xattr
 616501eccb58615f8f352a29239ea6c6fc5e6546 clkdev: don't fail clkdev_alloc() if over-sized
 c0a40097f0bc81deafc15f9195d1fb54595cd6d0 drivers: core: synchronize really_probe() and dev_uevent()
 c9d52fb313d3719d69a040f4ca78a3e2e95fba21 PCI: Revert the cfg_access_lock lockdep mechanism
@@ -486,6 +510,7 @@ c44711b78608c98a3e6b49ce91678cd0917d5349 liquidio: Adjust a NULL pointer handlin
 0c76053e3fec801e86aca73f80072b3da4e72849 drm: have config DRM_WERROR depend on !WERROR
 a3a5a37efba11b7cf1a86abe7bccfbcdb521764e HID: Ignore battery for ELAN touchscreens 2F2C and 4116
 e79a10652bbd320649da705ca1ea0c04351af403 ACPI: x86: Force StorageD3Enable on more products
+8f40af31971ce012c0a4b13444900aed3f708edf Merge tag 'iio-fixes-for-6.10a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 1092c4126bf8fa57d7298724d9894ba3b1c07f86 Merge tag 'thunderbolt-for-v6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
 2e32d580757362edc95fdd7a86d3b869b78e58d8 Merge tag 'drm-fixes-2024-06-07' of https://gitlab.freedesktop.org/drm/kernel
 e693c5026c28ab2ca1f718f66f47a6a041ec8f3a Merge tag 'ata-6.10-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
@@ -616,6 +641,7 @@ b5e3a9b83f352a737b77a01734a6661d1130ed49 drm/xe: flush engine buffers before sig
 8eef5c3cea65f248c99cd9dcb3f84c6509b78162 Revert "igc: fix a log entry using uninitialized netdev"
 79f18a41dd056115d685f3b0a419c7cd40055e13 ionic: fix use after netif_napi_del()
 6f4d93b78ade0a4c2cafd587f7b429ce95abb02e gve: Clear napi->skb before dev_kfree_skb_any()
+7da9dfdd5a3dbfd3d2450d9c6a3d1d699d625c43 .editorconfig: remove trim_trailing_whitespace option
 7d9df38c9c037ab84502ce7eeae9f1e1e7e72603 bnxt_en: Cap the size of HWRM_PORT_PHY_QCFG forwarded response
 a6736a0addd60fccc3a3508461d72314cc609772 af_unix: Read with MSG_PEEK loops if the first unread byte is OOB
 a9b9741854a9fe9df948af49ca5514e0ed0429df bnxt_en: Adjust logging of firmware messages in case of released token in __hwrm_send()
@@ -671,5 +697,6 @@ b5beaa44747bddbabb338377340244f56465cd7d Merge tag 'usb-6.10-rc4' of git://git.k
 4301487e6b25276e0270a7547150e0304da2ba78 Merge tag 'i2c-for-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 6456c4256d1cf1591634b39e58bced37539d35b1 Merge tag 'parisc-for-6.10-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 6ba59ff4227927d3a8530fc2973b80e94b54d58f Linux 6.10-rc4
+20460472952043a4735e9abc1fd9de8e024d1c9e Merge tag 'v6.10-rc4' into char-misc-next
 
---===============3370303712429639817==--
+--===============3609302569768991024==--
