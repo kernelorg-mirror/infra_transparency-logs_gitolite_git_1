@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 18 Jun 2024 11:06:35 -0000
-Message-Id: <171870879521.5162.5509121865509810654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 18 Jun 2024 11:21:01 -0000
+Message-Id: <171870966193.16367.4395363320197453289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: efb459303dd5dd6e198a0d58322dc04c3356dc23
-    new: 041cc86b3653cbcdf6ab96c2f2ae34f3d0a99b0a
+  - ref: refs/heads/master
+    old: bd0426900d53ad62ee27a1778de0ffb9d405ada3
+    new: b41e6396af0248c52fafcb35390e4d323f316dbd
     log: |
-         041cc86b3653cbcdf6ab96c2f2ae34f3d0a99b0a net: stmmac: Enable TSO on VLANs
+         b41e6396af0248c52fafcb35390e4d323f316dbd Fixes for 5.10
          
